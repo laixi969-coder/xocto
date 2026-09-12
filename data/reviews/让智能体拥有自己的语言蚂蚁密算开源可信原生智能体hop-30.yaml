@@ -1,0 +1,84 @@
+- id: req-initial-让智能体拥有自己的语言蚂蚁密算开源可信原生智能体hop-30-2026-09-12
+  project_slug: 让智能体拥有自己的语言蚂蚁密算开源可信原生智能体hop-30
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多智能体通信与可信执行的重复建设问题，痛点结构成立，但公开材料未说明具体交付物与使用门槛。
+    evidence_ids:
+    - ev-2cc06fa50bcb623a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源发布消息，无社区活跃度、采用或讨论证据，无法判断共识。
+    evidence_ids:
+    - ev-2cc06fa50bcb623a
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露商业路径与买方，钱从哪来属判断而非已验证事实。
+    evidence_ids:
+    - ev-2cc06fa50bcb623a
+  - gate: truth
+    status: insufficient
+    reason: 可信执行涉及安全边界，公开材料未说明审计方式与人工介入边界，交付确定性不明。
+    evidence_ids:
+    - ev-2cc06fa50bcb623a
+  next_validation: 收集该开源仓库的 issue、discussion 与提交活跃度，以及官方文档中对可信执行边界与部署方式的公开说明。
+  market: ''
+  job: AI应用开发者在搭建多智能体协作或需要可信执行的企业场景时，接入该框架定义智能体间的通信与协作，完成可运行的协作流程。
+  job_en: AI application developers building multi-agent collaboration or enterprise scenarios needing
+    trusted execution integrate the framework to define agent-to-agent communication and collaboration,
+    producing a runnable collaboration flow.
+  pain: 多智能体之间缺少统一通信与可信执行约定，开发者需自行拼接协议与安全逻辑，重复劳动且难以审计。
+  pain_en: Agents lack unified communication and trusted-execution conventions, so developers stitch together
+    protocols and security logic themselves, duplicating work and making auditing hard.
+  current_alternative: 开发者目前多用通用智能体框架自行实现消息传递与权限控制，或依赖云厂商的封闭方案。
+  current_alternative_en: Developers currently implement messaging and permission control themselves on
+    general agent frameworks, or rely on closed cloud-vendor solutions.
+  usage_reason: 推断：相较自行拼接通信与可信逻辑，该框架把协议与可信执行作为内置约定，减少一层自研负担；但公开材料未显示开发者已持续采用或企业已付费采购。
+  usage_reason_en: 'Inference: compared with stitching communication and trusted logic by hand, the framework
+    builds protocol and trusted execution in as conventions, removing one layer of self-development; however,
+    public material does not show sustained developer adoption or paid enterprise procurement.'
+- id: req-full-让智能体拥有自己的语言蚂蚁密算开源可信原生智能体hop-30-2026-09-12
+  project_slug: 让智能体拥有自己的语言蚂蚁密算开源可信原生智能体hop-30
+  level: full
+  reviewed_at: '2026-09-12T00:47:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据中与HOP 3.0相关的条目全部指向2011年同名电影，无任何关于该智能体框架的产品说明、用户痛点或使用场景，连需求和痛点都无法写出。
+    evidence_ids:
+    - ev-217502685d8eadaa
+    - ev-9f013ed7ddfba733
+    - ev-c5c8f764e4cc7a94
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪蚂蚁密算官方渠道或代码托管平台，收集HOP 3.0的仓库地址、README、issue与discussion，确认其真实产品形态与公开使用情况。
+  market: ''
+  job: AI应用开发者在搭建多智能体协作或需要可信执行的企业场景时，接入HOP 3.0定义智能体间的通信与协作，产出可运行的协作流程。
+  job_en: AI application developers building multi-agent collaboration or enterprise scenarios needing
+    trusted execution integrate HOP 3.0 to define agent-to-agent communication and collaboration, producing
+    a runnable collaboration flow.
+  pain: 公开材料未提供任何关于多智能体通信或可信执行痛点的用户陈述、抱怨或案例，无法确认开发者是否真的为此困扰。
+  pain_en: Public material provides no user statements, complaints, or cases about multi-agent communication
+    or trusted-execution pain, so it cannot be confirmed that developers actually suffer from this problem.
+  current_alternative: 公开材料未说明开发者当前用什么方式替代HOP 3.0，无法确认现有替代行为。
+  current_alternative_en: Public material does not describe what developers currently use instead of HOP
+    3.0, so existing alternative behavior cannot be confirmed.
+  usage_reason: 公开材料未提供任何用户选择HOP 3.0的理由或采用证据，无法判断用户为何会使用它。
+  usage_reason_en: Public material provides no reason why users would choose HOP 3.0 or any adoption evidence,
+    so it cannot be judged why users would use it.

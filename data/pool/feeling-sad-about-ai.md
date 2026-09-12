@@ -34,7 +34,7 @@ summary: "My comment  on  Feeling sad about AI  — Hacker News.  I'm not sure h
   \ change from the start. \n    \n    \n         Tags:  ai ,  generative-ai ,  llms ,  deep-blue"
 first_seen: '2026-09-11T17:28:37Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

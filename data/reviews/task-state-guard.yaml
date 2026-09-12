@@ -219,3 +219,54 @@
   usage_reason: 用户要完成的任务是：AI Agent 开发者、DevOps 工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI Agent Developers, DevOps Engineers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-task-state-guard-2026-09-12
+  project_slug: task-state-guard
+  level: full
+  reviewed_at: '2026-09-12T00:47:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是代理任务中断后状态库与真实执行结果不一致的问题：状态仍写进行中或已完成，用户无法确认交付是否发生，误判成功会让下游流程建立在错误事实上。手工查库翻日志是现有替代，痛点刚性来自交付判定不能靠猜。这是基于公开产品说明与工作流结构的推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-7a1f0310da62019c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 201 增至 290，说明开发者社区持续注意到该项目，但收藏与关注只属规模信号，不能证明目标用户已把它留在中断恢复流程里；公开材料未见 issue、discussion
+      或使用反馈说明谁在何种场景实际采用。
+    evidence_ids:
+    - ev-7a1f0310da62019c
+    - ev-add0629de35c34eb
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、付费版本、企业支持或采购记录，谁付钱、按什么单位收费均无法核验；开源工具可能靠托管版、支持或赞助变现，但这只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-7a1f0310da62019c
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺“不猜测成功”并以预览变更、关闭过期状态的方式交付，方向贴近状态核对的第一性目标；但公开材料未见部署文档、可复现测试或安全边界说明，交付能否稳定发生、人工介入边界在哪仍缺证据。
+    evidence_ids:
+    - ev-7a1f0310da62019c
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认是否有真实用户描述在何种中断场景下用它替代手工查库，以及是否出现托管版或付费支持入口。
+  market: ''
+  job: 使用 AI 编程代理的开发者或 DevOps 工程师，在代理任务因进程重启、超时或崩溃中断后，拿到代理遗留的 SQLite 状态文件，需要核对哪些任务真正完成、哪些是过期或卡死的交付状态，并把状态库修复到与事实一致。
+  job_en: Developers or DevOps engineers running AI coding agents who, after an agent task is interrupted
+    by a restart, timeout, or crash, take the leftover SQLite state file and must determine which tasks
+    actually completed versus which delivery states are stale or stuck, then reconcile the state store
+    to match reality.
+  pain: 代理中断后状态库仍写着“进行中”或“已完成”，但真实执行结果未知；若直接按状态库判定成功，会把未交付的工作当成已完成，导致下游流程、发布或对账建立在错误事实上，而人工逐条比对状态与日志既慢又容易漏。
+  pain_en: After an interruption the state store still says 'running' or 'done' while the real outcome
+    is unknown; treating the store as truth marks undelivered work as complete and lets downstream pipelines,
+    releases, or reconciliation rest on a false fact, while manually comparing each row against logs is
+    slow and error-prone.
+  current_alternative: 目前多由开发者手工查询 SQLite、翻看代理日志、凭经验判断任务是否完成，或直接重跑整个任务；也有团队干脆忽略卡死记录，让状态库长期保留脏数据。
+  current_alternative_en: Today developers typically query SQLite by hand, read agent logs, and judge
+    completion by experience, or simply rerun the whole task; some teams ignore stuck rows and let the
+    state store keep stale data indefinitely.
+  usage_reason: 相较手工查库和翻日志，它把“先预览待提交的数据库变更、再关闭过期交付状态、对无法确认的任务明确标记未完成”做成固定动作，省掉逐条比对状态与日志这一步，并避免把未知结果默认写成成功；因此当代理任务因重启或超时中断、且状态库被当作交付依据时，这类开发者会选它。该因果为基于产品能力与任务结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with hand-querying the database and reading logs, it turns 'preview the pending
+    DB changes, close stale delivery states, and explicitly mark unconfirmable tasks as unfinished' into
+    a fixed action, removing the row-by-row comparison step and preventing unknown outcomes from defaulting
+    to success; so developers choose it when an agent task was interrupted by a restart or timeout and
+    the state store is being used as delivery evidence. This causal chain is an inference f

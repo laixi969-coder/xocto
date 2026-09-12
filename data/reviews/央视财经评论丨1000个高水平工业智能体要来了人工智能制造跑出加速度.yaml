@@ -1,0 +1,98 @@
+- id: req-initial-央视财经评论丨1000个高水平工业智能体要来了人工智能制造跑出加速度-2026-09-12
+  project_slug: 央视财经评论丨1000个高水平工业智能体要来了人工智能制造跑出加速度
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决工艺调优与排产耗时的问题，痛点方向成立，但公开材料只有一句时长对比，说不清具体任务、输入与交付，价值判断证据不足。
+    evidence_ids:
+    - ev-0aa34b52b17104c1
+    - ev-3ae7f7e1232869d5
+  - gate: consensus
+    status: insufficient
+    reason: 只有媒体报道与发布稿，没有客户名单、产线部署数量或使用反馈，无法判断工厂侧是否形成采用共识。
+    evidence_ids:
+    - ev-3ae7f7e1232869d5
+    - ev-696525ece66ce9de
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或买方预算口径，是自建交付还是订阅收费均不明，商业路径无法核验。
+    evidence_ids:
+    - ev-3ae7f7e1232869d5
+  - gate: truth
+    status: insufficient
+    reason: “7小时压缩到15分钟”无第三方复现或验收材料，也未说明人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-0aa34b52b17104c1
+  next_validation: 收集数之联 UMind 工业智能体平台的官方产品页或客户案例页，核验其披露的具体工序、客户名称与计价方式。
+  market: ''
+  job: 工厂工艺工程师或生产计划员在产线出现参数波动或需要重排生产计划时，处理工艺参数、设备数据和排产记录，要产出一版可执行的工艺调整或排产方案。
+  job_en: A factory process engineer or production planner, when line parameters drift or a schedule must
+    be rebuilt, works with process parameters, equipment data and scheduling records to produce an executable
+    process adjustment or schedule.
+  pain: 这类工作目前依赖老师傅经验和人工试错，跨系统取数、反复核对耗时长；候选材料只给出“7小时压缩到15分钟”的说法，未说明具体是哪一步耗时、由谁承担。
+  pain_en: This work currently relies on veteran experience and manual trial and error, with cross-system
+    data pulling and repeated checking taking time; the candidate only claims '7 hours to 15 minutes'
+    without saying which step was slow or who bore it.
+  current_alternative: 现有替代是人工在 MES、Excel 与工艺文档之间取数比对，或采购传统工业软件做规则化排产，AI 环节多停留在演示。
+  current_alternative_en: The current alternative is manual data pulling and comparison across MES, Excel
+    and process documents, or traditional industrial software for rule-based scheduling, with AI mostly
+    staying at demo stage.
+  usage_reason: 推断：若平台能直接读取产线数据并给出可核对的工艺或排产结论，可省去人工跨系统取数与试错这一步，因此产线数据已数字化的工厂会在单工序调优时试用；但公开材料未给出客户案例、留存或复购证据，无法确认已被长期使用。
+  usage_reason_en: 'Inference: if the platform can read line data directly and return a checkable process
+    or scheduling conclusion, it removes the manual cross-system data pulling and trial-and-error step,
+    so factories with digitised line data would trial it for single-process tuning; however, no customer
+    case, retention or repeat-use evidence is public, so long-term use cannot be confirmed.'
+- id: req-full-央视财经评论丨1000个高水平工业智能体要来了人工智能制造跑出加速度-2026-09-12
+  project_slug: 央视财经评论丨1000个高水平工业智能体要来了人工智能制造跑出加速度
+  level: full
+  reviewed_at: '2026-09-12T00:47:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工艺调优与排产依赖人工试错、跨系统取数耗时的需求，痛点刚性且不解决的后果是停线与计划延误；公开材料给出“7小时压缩到15分钟”的时长对比，可还原输入—分析—交付闭环，属工作流结构推理，具体工序与人工确认边界未披露。
+    evidence_ids:
+    - ev-0aa34b52b17104c1
+    - ev-3ae7f7e1232869d5
+  - gate: consensus
+    status: insufficient
+    reason: 只有媒体报道与产品发布稿，没有客户名单、产线部署数量或使用反馈，无法判断工厂侧是否形成采用共识；发布稿本身只证明产品已推出，不证明被持续使用。
+    evidence_ids:
+    - ev-3ae7f7e1232869d5
+    - ev-0aa34b52b17104c1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或买方预算口径，是项目制交付、订阅收费还是随工业软件捆绑均不明；按工业智能体常见路径推断买方为制造企业 IT 或生产部门预算，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3ae7f7e1232869d5
+  - gate: truth
+    status: insufficient
+    reason: “7小时压缩到15分钟”无第三方复现或验收材料，也未说明人工复核与安全边界，交付确定性无法核对；工业场景对结论可追溯要求高，缺少验收证据使承诺兑现存疑。
+    evidence_ids:
+    - ev-0aa34b52b17104c1
+  next_validation: 追踪数之联 UMind 工业智能体平台官网的产品页或客户案例页，核验其披露的具体工序、客户名称、部署方式与计价口径。
+  market: ''
+  job: 工厂工艺工程师或生产计划员在产线参数波动、需要重排生产计划或做工艺调优时，处理产线数据、工艺参数与排产记录，要产出一版可执行的工艺调整或排产方案。
+  job_en: A factory process engineer or production planner, when line parameters drift or a schedule must
+    be rebuilt, works with line data, process parameters and scheduling records to produce an executable
+    process adjustment or schedule.
+  pain: 这类工作依赖老师傅经验与人工试错，跨系统取数、反复核对耗时长；公开材料只给出“7小时压缩到15分钟”的时长对比，未说明具体是哪一步耗时、由谁承担，痛点方向成立但细节未披露。
+  pain_en: This work relies on veteran experience and manual trial and error, with cross-system data pulling
+    and repeated checking taking time; public material only gives a '7 hours to 15 minutes' comparison
+    without specifying which step was slow or who bore it, so the pain direction holds but details are
+    undisclosed.
+  current_alternative: 现有替代是人工在 MES、Excel 与工艺文档之间取数比对，或采购传统工业软件做规则化排产，AI 环节多停留在演示。
+  current_alternative_en: The current alternative is manual data pulling and comparison across MES, Excel
+    and process documents, or traditional industrial software for rule-based scheduling, with AI mostly
+    staying at demo stage.
+  usage_reason: 推断：相较人工跨系统取数与试错，该平台直接读取产线数据并输出可核对的工艺或排产结论，省去取数与反复试错这一步，因此产线数据已数字化的工厂会在单工序调优或重排计划时选择它；公开材料尚无客户案例、留存或复购证据，长期使用未被证实。
+  usage_reason_en: 'Inference: compared with manual cross-system data pulling and trial and error, the
+    platform reads line data directly and returns a checkable process or scheduling conclusion, removing
+    the data-pulling and repeated-trial step, so factories with digitised line data would choose it for
+    single-process tuning or rescheduling; no customer case, retention or repeat-use evidence is public,
+    so long-term use is unconfirmed.'

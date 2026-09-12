@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQeU13X1BxUmp2
 summary: Energy tech firm hits $1B valuation as founders plan new power model for AI The Business Journals
 first_seen: '2026-09-11T12:52:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

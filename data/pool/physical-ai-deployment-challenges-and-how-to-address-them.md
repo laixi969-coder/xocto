@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxPcktrTG5pcXN1
 summary: Physical AI deployment challenges and how to address them TechTarget
 first_seen: '2026-09-11T20:22:46Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

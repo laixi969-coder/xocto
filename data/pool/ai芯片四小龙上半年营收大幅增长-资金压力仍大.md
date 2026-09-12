@@ -1,12 +1,13 @@
 ---
 slug: ai芯片四小龙上半年营收大幅增长-资金压力仍大
-name: AI芯片四小龙
+name: 燧原科技
 builder: ''
 category: ''
-summary_zh: AI芯片四小龙上半年营收大幅增长，但资金压力仍大，反映行业竞争激烈。
+summary_zh: 燧原科技于2026年9月10日登陆科创板，此前报道称AI芯片“四小龙”上半年营收大幅增长但资金压力仍大；这是算力供给侧的资本市场与经营变化，不是独立应用产品。
 inspiration: ''
-summary_en: The 'Four Little Dragons' of AI chips saw significant revenue growth in H1, but still face
-  financial pressure, reflecting intense competition.
+summary_en: Enflame Technology listed on the STAR Market on Sept 10, 2026, after reports that the four
+  leading AI chip firms posted large H1 revenue growth but still face funding pressure; this is a capital-market
+  and operating change on the compute supply side, not a standalone application product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BczZwa0xvdFV3
 summary: AI芯片“四小龙”上半年营收大幅增长 资金压力仍大 Caixin Global
 first_seen: '2026-08-31T14:47:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -38,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# AI芯片四小龙
+# 燧原科技
 
 AI芯片“四小龙”上半年营收大幅增长 资金压力仍大 Caixin Global
 

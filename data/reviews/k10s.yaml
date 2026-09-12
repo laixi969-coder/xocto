@@ -110,3 +110,62 @@
   usage_reason: 用户要完成的任务是：DevOps 工程师、平台工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: DevOps Engineer, Platform Engineer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-k10s-2026-09-12
+  project_slug: k10s
+  level: full
+  reviewed_at: '2026-09-12T00:44:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是终端内管理 Kubernetes 集群的需求：kubectl 需手敲长命令、多窗口复制资源名，排查一次故障要在 get/logs/exec/port-forward 间反复切换，痛点刚性且高频。k10s
+      以可点击 TUI 在同一终端完成这些动作，交付路径明确；此为工作流结构推理，尚无用户评价佐证。
+    evidence_ids:
+    - ev-88b9d56c4bc29e1c
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 86 缓慢升至 89 后回落至 87，说明有开发者注意到该项目，但收藏与排名只属关注度证据，不能证明目标用户已把它留在日常排查工作流中；缺少 issue、discussion
+      或用户评价说明真实使用场景。
+    evidence_ids:
+    - ev-88b9d56c4bc29e1c
+    - ev-fe88a57e5549cbe3
+    - ev-e63470247123e282
+    - ev-f380411f1058b148
+    - ev-4a6dafa957b98a0a
+    - ev-7727b623f837f4d5
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有单 Go 二进制与开源仓库描述，没有定价页、付费版本、企业支持或采购记录，无法判断钱来自个人开发者捐赠、企业订阅还是仅靠关注度；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-88b9d56c4bc29e1c
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺在终端内完成日志、exec 与端口转发，但公开材料未给出部署文档、权限模型或安全边界说明，无法核验它在生产集群中的交付确定性与人工介入边界；缺少可复现的公开验证材料。
+    evidence_ids:
+    - ev-88b9d56c4bc29e1c
+  next_validation: 追踪 k10s 仓库的 README、release 说明与 issue/discussion，确认是否出现生产集群使用反馈、权限与安全边界说明，以及是否上线定价或赞助入口。
+  market: ''
+  job: DevOps 与平台工程师在终端里处理 Kubernetes 集群时，需要按命名空间/工作负载定位 Pod、翻看容器日志、exec 进容器排查、把本地端口转发到 Service，并借助上下文感知
+    AI 解释当前资源状态，从而完成一次故障定位或日常巡检。
+  job_en: DevOps and platform engineers working in a terminal against a Kubernetes cluster need to locate
+    pods by namespace/workload, read container logs, exec into containers, port-forward a local port to
+    a service, and use context-aware AI to interpret the current resource state, in order to complete
+    an incident triage or routine inspection.
+  pain: kubectl 的旧流程要求工程师记住并手敲一长串子命令与资源名，在多个终端窗口间反复复制 Pod 名、命名空间和上下文；排查一次故障往往要在 get、describe、logs、exec、port-forward
+    之间来回切换，出错和重复输入的成本高。
+  pain_en: The legacy kubectl flow forces engineers to recall and hand-type long subcommand and resource-name
+    chains, repeatedly copying pod names, namespaces and contexts across terminal windows; a single triage
+    bounces between get, describe, logs, exec and port-forward, making typos and repeated typing costly.
+  current_alternative: 当前替代方式是原生 kubectl 命令行，辅以 k9s 等既有 TUI、Lens 等图形化 Kubernetes 面板，或云厂商控制台；这些工具要么仍以键盘命令为主，要么需要离开终端打开独立
+    GUI。
+  current_alternative_en: The current alternatives are the native kubectl CLI, existing TUIs such as k9s,
+    graphical Kubernetes dashboards such as Lens, or cloud-provider consoles; these are either still keyboard-command
+    driven or require leaving the terminal for a separate GUI.
+  usage_reason: 推断：相较纯 kubectl 或 k9s，k10s 把资源列表做成可点击对象，并在同一终端内直接触发日志、exec 与端口转发，省去手敲资源名和切换窗口这一步；相较 Lens
+    类 GUI，它保持单 Go 二进制、不离开终端。因此习惯终端工作、又不想记全 kubectl 子命令的工程师会在日常排查时选择它。
+  usage_reason_en: 'Inference: versus plain kubectl or k9s, k10s makes resource rows clickable and triggers
+    logs, exec and port-forward inside the same terminal, removing the step of hand-typing resource names
+    and switching windows; versus GUI tools like Lens it stays a single Go binary without leaving the
+    terminal. Engineers who live in the terminal but do not want to memorize every kubectl subcommand
+    would therefore pick it for day-to-day triage.'

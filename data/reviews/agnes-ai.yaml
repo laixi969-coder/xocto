@@ -220,3 +220,42 @@
   usage_reason: 公开记录显示月访问 2.08M、环比 570.29%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 2.08M monthly visits and 570.29% month-over-month growth. That
     explains the attention, but product-level retention and payment are not yet verified.
+- id: req-full-agnes-ai-2026-09-12
+  project_slug: agnes-ai
+  level: full
+  reviewed_at: '2026-09-12T00:43:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选未附任何证据，仅一句定位无法还原用户任务、输入材料、交付物与不解决的后果，需求与痛点均写不实。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Agnes AI 官网定价页与客户案例，确认团队协作场景的付费主体与可确定交付结果。
+  market: ''
+  job: 团队在推进项目时，需要把文档、任务和共同记忆放进同一张工作台，让 AI 跟随项目上下文而不是停留在侧边聊天窗口。
+  job_en: Teams working on a project need documents, tasks, and shared memory on one desk so the AI follows
+    project context instead of sitting in a side chat.
+  pain: 公开材料只有一句产品定位，未说明团队当前在文档、任务与 AI 上下文之间切换的具体代价、频率或后果，痛点无法从公开事实还原。
+  pain_en: Public materials contain only a one-line positioning; they do not show the cost, frequency,
+    or consequence of switching between documents, tasks, and AI context, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了哪些工具或流程。
+  current_alternative_en: Public materials do not show how users complete this job today or which tools
+    or workflows it actually replaces.
+  usage_reason: 初始评审引用的月访问 2.08M、环比 570.29% 属于规模与关注度证据，且本轮候选未附任何证据条目，无法据此解释用户选择原因。
+  usage_reason_en: The 2.08M monthly visits and 570.29% MoM growth cited in the initial review are scale
+    and attention evidence, and this candidate carries no evidence items, so they cannot explain user
+    choice.

@@ -78,3 +78,48 @@
   usage_reason: 用户要完成的任务是：内容创作者、教育者、营销人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Content creators, Educators, Marketers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-anything2explainer-2026-09-12
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-12T00:43:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把主题快速变成带配音、字幕和章节的讲解视频这一任务，痛点是脚本、配音、动效、字幕分散在多工具中导致产出慢；公开说明已能还原输入主题、代码渲染、输出成片的闭环，属工作流结构推理，痛点刚性中等但交付路径可确定。
+    evidence_ids:
+    - ev-86ee4d5c12bd35de
+    - ev-0d86724bc13d1433
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 933 个收藏，说明开发者社区注意到它；但没有用户评价、复购或持续使用证据，无法确认目标用户已把它留在工作流里。
+    evidence_ids:
+    - ev-0d86724bc13d1433
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；作为开源 skill，钱可能来自 to C 创作者订阅或 to B 内容团队，但这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、渲染质量与人工审核边界，尚缺可复现的公开证据；现有材料只说明能力，未说明实际成片结果。
+    evidence_ids: []
+  next_validation: 追踪 公开代码仓库 仓库的 issue、discussion 与 release 记录，确认是否有用户报告实际成片、重复使用或付费/赞助行为。
+  market: ''
+  job: 内容创作者、教育者或营销人员在需要把某个主题快速做成一条带配音的科普讲解视频时，用 Claude Code / Codex 输入主题，产出黑底 MG 风格、带 TTS 配音、字幕和章节进度条的中英文视频。
+  job_en: Content creators, educators, or marketers who need to turn a topic into a narrated explainer
+    video quickly input the topic into Claude Code / Codex and get a black-canvas motion-graphics video
+    with TTS voiceover, subtitles, and a chapter progress bar in Chinese or English.
+  pain: 公开材料显示它针对的是从主题到成片这一整段制作摩擦：传统方式需要写脚本、配音、做动效、加字幕和章节，工具链分散且耗时；不解决的后果是产出慢或干脆不做视频。
+  pain_en: 'Public materials show it targets the friction of the whole topic-to-finished-video pipeline:
+    scripting, voiceover, motion graphics, subtitles, and chapters are scattered across tools and time-consuming;
+    leaving it unsolved means slow output or no video at all.'
+  current_alternative: 公开材料未直接说明用户此前用什么替代；从产品能力可推断旧做法是人工剪辑软件加配音工具，或使用通用 AI 视频生成器，但这一推断缺少用户侧证据。
+  current_alternative_en: Public materials do not directly state what users used before; from product
+    capability one can infer manual editing plus voiceover tools, or generic AI video generators, but
+    this inference lacks user-side evidence.
+  usage_reason: 推断：相较人工剪辑或通用视频生成器，它把脚本、TTS 配音、字幕和章节进度条合并为一次主题输入后的代码化渲染，减少了逐环节手工操作；需要批量或快速产出讲解视频的创作者和教育者会在这种情况下选择它。
+  usage_reason_en: 'Inference: compared with manual editing or generic video generators, it merges scripting,
+    TTS voiceover, subtitles, and chapter progress into one code-rendered pass after a single topic input,
+    reducing step-by-step manual work; creators and educators needing fast or batch explainer videos would
+    choose it in that situation.'

@@ -76,3 +76,42 @@
   usage_reason: 用户要完成的任务是：求职者面试准备、技术面试练习；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Job seeker interview preparation, Technical interview practice Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-learningto-2026-09-12
+  project_slug: learningto
+  level: full
+  reviewed_at: '2026-09-12T00:45:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅有一句作者自述“负担不起付费面试辅导所以做了免费替代”，未说明目标用户的任务细节、痛点强度、不采用代价与当前替代方式，无法还原输入—动作—交付闭环。
+    evidence_ids:
+    - ev-b5d870fb532a0cc7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 learningto.co 官网是否公开题库范围、反馈形式与定价页，以及独立评价或公开使用数据。
+  market: ''
+  job: 求职者在准备面试、但负担不起付费面试辅导时打开它，把目标岗位和面试题型作为输入材料，要完成获得可反复练习的题目与作答反馈的任务。
+  job_en: Job seekers preparing for interviews who cannot afford paid coaching open it, feed in target
+    roles and interview question types, to obtain repeatable practice questions and answer feedback.
+  pain: 公开材料只说明作者本人负担不起付费面试辅导，未说明目标用户群体不解决该问题的具体代价、发生频率或后果。
+  pain_en: Public materials only state the author could not afford paid interview prep, without showing
+    the cost, frequency or consequence of leaving the problem unsolved for the target user group.
+  current_alternative: 公开材料尚未说明用户目前如何完成面试准备、它实际替代了什么付费或免费做法。
+  current_alternative_en: Public materials do not yet show how users currently prepare for interviews
+    or what paid or free approach it replaces.
+  usage_reason: 用户要完成的任务是面试准备与技术面试练习；现有材料只有一句作者自述，未说明相较原有做法产品通过什么具体动作减少哪一步负担，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: The task is interview preparation and technical interview practice; the only material
+    is a one-line author statement and does not explain what concrete step the product removes relative
+    to the existing approach, so it cannot explain which users would choose it and when.

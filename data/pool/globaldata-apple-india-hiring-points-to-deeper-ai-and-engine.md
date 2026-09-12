@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOOThLWlpXbDdU
 summary: 'GlobalData: Apple India hiring points to deeper AI and engineering ambitions MacTech.com'
 first_seen: '2026-09-09T11:11:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

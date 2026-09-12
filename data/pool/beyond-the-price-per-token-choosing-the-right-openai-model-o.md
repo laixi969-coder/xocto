@@ -1,11 +1,13 @@
 ---
 slug: beyond-the-price-per-token-choosing-the-right-openai-model-o
-name: 'Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload'
+name: Amazon Bedrock
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AWS 公开一套开源评测工具，把模型比较从每百万 token 价格转向每正确答案成本、智能体轨迹成本与交付质量评分。这是云平台侧的评测口径变化，不是独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: AWS released an open-source harness that shifts model comparison from dollars per million
+  tokens to cost per correct answer, agent trajectory cost, and graded deliverable quality. This is a
+  cloud-platform evaluation shift, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +25,7 @@ summary: 'Comparing models on dollars per million tokens misses what production 
   agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.'
 first_seen: '2026-09-11T18:24:38Z'
 last_seen: '2026-09-12T00:19:08Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload
+# Amazon Bedrock
 
 Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.
 

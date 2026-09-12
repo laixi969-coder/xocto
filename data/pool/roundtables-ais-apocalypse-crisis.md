@@ -24,7 +24,7 @@ summary: Employees at the world’s leading AI labs are saying there’s a real 
   AI reporter Grace Huckins unpacking AI extinction…
 first_seen: '2026-09-11T20:05:06Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

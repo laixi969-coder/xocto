@@ -24,7 +24,7 @@ summary: '### Patch Changes
   - 2c72feb: fix(deepseek): preserve reasoning streams across empty tool-call deltas'
 first_seen: '2026-09-11T20:45:59Z'
 last_seen: '2026-09-12T00:18:44Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

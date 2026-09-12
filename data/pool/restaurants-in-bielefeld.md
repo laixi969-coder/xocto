@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/bielefeld/restaurants
 summary: 'Restaurants in Bielefeld: Küche, Lage und Besonderheiten'
 first_seen: '2026-09-11T07:22:07Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -100,3 +100,45 @@
   current_alternative_en: Currently developers often write code manually or use specialized tools.
   usage_reason: 可能因自动化便利而试用，但需求强度未明。
   usage_reason_en: May be tried for automation convenience, but demand intensity is unclear.
+- id: req-full-agent-2-2026-09-12
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-09-12T00:42:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据只有一句功能罗列和仓库星数，未说明谁在什么情况下处理什么材料、要完成什么任务，也找不到痛点、旧替代或不解决的后果，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-46e424a3fee771e6
+    - ev-1add8c21fe750ced
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Agent-2 仓库 README 或官方文档中关于具体输入、执行步骤与交付结果（含示例任务与输出）的公开说明。
+  market: ''
+  job: 开发者需要在终端或编码环境中，把编码、安全扫描、终端命令执行等任务交给一个自主代理，由它接收任务描述后自动执行并返回结果或操作日志。
+  job_en: Developers need to hand off coding, security scanning, and terminal command execution to an
+    autonomous agent in the terminal or coding environment, which takes a task description, executes it,
+    and returns results or operation logs.
+  pain: 公开材料只给出功能罗列，没有任何用户抱怨、workaround 或案例说明手动执行这些任务具体卡在哪一步、代价多大，痛点无法从证据还原。
+  pain_en: Public material only lists capabilities; there is no user complaint, workaround, or case showing
+    which step of manual execution breaks down or what it costs, so the pain cannot be reconstructed from
+    evidence.
+  current_alternative: 公开材料未说明开发者现在用什么替代（手动执行、脚本、其他编码代理），替代行为无证据。
+  current_alternative_en: Public material does not state what developers currently use instead (manual
+    execution, scripts, other coding agents); the substitute behavior is unevidenced.
+  usage_reason: 仅凭功能描述无法推断用户为何在具体情境下选择它而非旧做法，缺少可核对的结果改善证据，因此使用理由无法成立。
+  usage_reason_en: Capability descriptions alone cannot explain why a user would choose it over the old
+    approach in a concrete situation, and there is no checkable outcome improvement, so the usage reason
+    cannot be established.

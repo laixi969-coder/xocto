@@ -1,0 +1,82 @@
+- id: req-initial-how-featureds-users-make-100k-media-pitches-per-month-on-ver-2026-09-12
+  project_slug: how-featureds-users-make-100k-media-pitches-per-month-on-ver
+  level: initial
+  reviewed_at: '2026-09-12T00:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决媒体外联中逐封研究记者、逐封改写 pitch 的需求，痛点在批量投递时明显；公开材料只给出产出量，未给出用户自述。
+    evidence_ids:
+    - ev-efea1f9947b58060
+  - gate: consensus
+    status: insufficient
+    reason: 只有每月 10 万条 pitch 的产出数字，没有客户名单、评价或采用范围，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-efea1f9947b58060
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、按什么计价或买方是品牌方还是代理机构；钱可能来自 to B 订阅或按量收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-efea1f9947b58060
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 pitch 是否被记者采纳、投递是否带来报道，交付结果与人工审核边界均未说明。
+    evidence_ids:
+    - ev-efea1f9947b58060
+  next_validation: 收集 Featured 官方定价页或公开客户案例，确认其按什么计价、买方是谁，以及是否有投递结果或复购的公开数据。
+  market: ''
+  job: 公关与市场人员在为品牌争取媒体报道时，需要针对不同记者撰写并批量投递 pitch 稿件。
+  job_en: PR and marketing staff need to write and bulk-send pitches to different journalists when seeking
+    press coverage for a brand.
+  pain: 媒体外联依赖人工逐个研究记者、逐封改写 pitch，量大时难以维持个性化，投递结果也难以追踪。
+  pain_en: Media outreach requires manually researching each journalist and rewriting each pitch; at volume,
+    personalization collapses and delivery results are hard to track.
+  current_alternative: 此前多靠人工在表格里维护记者名单、逐封手写邮件，或使用通用邮件群发工具。
+  current_alternative_en: Previously done by maintaining journalist lists in spreadsheets, hand-writing
+    each email, or using generic bulk-email tools.
+  usage_reason: 推断：相较逐封手写，Featured 把记者背景与品牌信息一起交给模型生成 pitch 并批量投递，减少的是逐封改写和手动发送这一步；因此投递量大、需要覆盖大量记者的公关团队会选它。候选未提供留存或付费证据，长期使用无法确认。
+  usage_reason_en: 'Inference: versus writing each email by hand, Featured feeds journalist context and
+    brand information to a model to generate and bulk-send pitches, removing the per-email rewriting and
+    manual sending step; PR teams with high outreach volume and many journalists to cover would choose
+    it. The candidate offers no retention or payment evidence, so sustained use cannot be confirmed.'
+- id: req-full-how-featureds-users-make-100k-media-pitches-per-month-on-ver-2026-09-12
+  project_slug: how-featureds-users-make-100k-media-pitches-per-month-on-ver
+  level: full
+  reviewed_at: '2026-09-12T00:44:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料未提供任何用户痛点、抱怨或工作流描述，无法确认逐封研究记者、逐封改写是否构成公开可证的痛点，价值关不成立。
+    evidence_ids:
+    - ev-eea9c5acce9164d3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Featured 官网的定价页与公开客户案例，确认其按什么计价、买方是谁，以及是否有投递结果或复购的公开数据。
+  market: ''
+  job: 公关或市场人员为品牌争取媒体报道时，需要针对不同记者撰写并批量投递 pitch 稿件。
+  job_en: PR or marketing staff need to write and bulk-send pitches to different journalists when seeking
+    press coverage for a brand.
+  pain: 候选材料未提供任何用户痛点、抱怨或工作流描述，无法确认逐封研究记者、逐封改写是否构成公开可证的痛点。
+  pain_en: The candidate material provides no user pain points, complaints, or workflow descriptions,
+    so it cannot be confirmed that per-journalist research and rewriting constitutes a publicly evidenced
+    pain.
+  current_alternative: 候选材料未说明用户此前用什么方式完成媒体外联。
+  current_alternative_en: The candidate material does not describe what users previously used to complete
+    media outreach.
+  usage_reason: 候选材料未提供用户选择理由、评价或采用证据，无法解释用户为何会选它而非旧做法。
+  usage_reason_en: The candidate material provides no user rationale, reviews, or adoption evidence to
+    explain why users would choose it over the old approach.

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hoolatech/Qwen3-TTS
 summary: ''
 first_seen: '2026-09-11T02:17:48Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

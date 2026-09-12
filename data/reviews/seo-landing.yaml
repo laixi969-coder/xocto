@@ -182,3 +182,53 @@
   usage_reason: 用户要完成的任务是：技术SEO工程师、网站开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Technical SEO Engineer, Web Developer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-seo-landing-2026-09-12
+  project_slug: seo-landing
+  level: full
+  reviewed_at: '2026-09-12T00:46:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是落地页技术 SEO 达标这一具体任务：开发者用 AI 代理生成页面后，仍需人工补齐结构化数据、性能与 Core Web Vitals，否则排名与转化受损。旧做法是 Lighthouse
+      先测后改、逐项返工，痛点刚性且交付物（可上线页面）可确定；此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-d278af335f1632ec
+    - ev-841d0895bcbfee31
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 131 增至 152，说明开发者社区持续关注该技能，但收藏与复刻只反映关注度，不能证明目标用户已把它留在日常建页流程中；缺少 issue、discussion 或使用反馈说明谁在何种场景实际采用。
+    evidence_ids:
+    - ev-d278af335f1632ec
+    - ev-841d0895bcbfee31
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未披露定价、付费主体或商业路径，无法判断收入来自 to C 开发者、to B 团队还是仅靠赞助；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-136d011357bce4b6
+  - gate: truth
+    status: insufficient
+    reason: 承诺的 100/100 PageSpeed 目标能否在不同技术栈与真实站点上确定性达成，缺少可复现的公开测试或部署文档；人工介入边界与失败回退方式也未说明。
+    evidence_ids:
+    - ev-a603ae05a0f65b9c
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者报告在真实项目中部署该技能、替代了原有手工 SEO 调优流程。
+  market: ''
+  job: 网站开发者或技术SEO工程师在新建或改版营销落地页时，把页面代码交给 AI 编码代理，要求代理按技术 SEO 规范完成结构化标记、性能与 Core Web Vitals 优化，交付一个可上线且通过
+    PageSpeed 检测的落地页。
+  job_en: A web developer or technical SEO engineer hands landing-page code to an AI coding agent and
+    asks it to produce a launchable page with correct structured markup, performance and Core Web Vitals
+    work, verified against PageSpeed.
+  pain: 技术 SEO 的检查项分散在渲染、图片、脚本加载、结构化数据与 Core Web Vitals 上，开发者常在上线后才发现分数不达标，再回头逐项返工；不解决的后果是页面排名与转化受损，且返工成本落在开发排期上。
+  pain_en: Technical SEO checks are scattered across rendering, images, script loading, structured data
+    and Core Web Vitals; developers often discover failures only after launch and rework each item, hurting
+    ranking and conversion while consuming engineering schedule.
+  current_alternative: 当前替代是开发者凭经验手工调优，或使用 Lighthouse、PageSpeed Insights 等检测工具先测后改，再配合零散的 SEO 检查清单；这些工具只报告问题，不直接完成修复动作。
+  current_alternative_en: Today developers hand-tune by experience, or run Lighthouse / PageSpeed Insights
+    and scattered SEO checklists; these tools report problems but do not perform the fixes.
+  usage_reason: 推断：相较先测后改的旧流程，该技能把 SEO 规则直接注入 AI 编码代理的生成过程，在写页面代码的同一步就产出符合技术 SEO 要求的实现，省去上线后逐项排查与返工这一步；因此正在用
+    AI 代理生成落地页、又缺少专职技术 SEO 的开发者会在建页阶段选择它。
+  usage_reason_en: 'Inference: unlike the test-then-fix loop, the skill injects SEO rules into the agent''s
+    generation step so the page is written to technical-SEO requirements in the same pass, removing post-launch
+    item-by-item rework; developers already generating pages with AI agents but lacking dedicated technical
+    SEO would adopt it at build time.'

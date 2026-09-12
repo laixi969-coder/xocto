@@ -224,3 +224,45 @@
   usage_reason_en: 'Usage reason: Baidu has a massive search user base; AI search offers direct answers
     and integrated creation, reducing multi-tool switching costs; public visits of 44.85M and 13.76% MoM
     growth indicate attention and trial, but retention and payment are not yet verified.'
+- id: req-full-ai-搜索-百度-2026-09-12
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-09-12T00:43:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度 AI 搜索官方页面或帮助文档，确认其定价/会员口径、引用来源标注与生成结果的人工确认边界。
+  market: ''
+  job: 普通中文用户（学生、办公人群）在遇到需要多轮追问、查资料并顺手写文案或做图的复杂问题时，在百度 PC 端输入一个问题，要在一个页面内完成检索、追问、阅读与内容产出。
+  job_en: Ordinary Chinese-speaking users (students, office workers) facing a complex question that needs
+    follow-up digging plus writing or image output type a query into Baidu on desktop and must complete
+    search, follow-up, reading and content production on one page.
+  pain: 公开事实是百度把搜索改为对话入口并集成灵感探索、AI 阅读、写作与做图；结构推理：传统搜索只给链接列表，用户需自行打开多个页面、复制粘贴到别的工具再追问，跨工具切换与信息拼接是主要摩擦，但公开材料未给出用户抱怨或频率数据。
+  pain_en: 'Public fact: Baidu turned search into a chat entry with inspiration exploration, AI reading,
+    writing and image tools. Structural inference: classic search returns a link list, forcing users to
+    open pages, copy text into other tools and re-ask; cross-tool switching and stitching is the main
+    friction, though no public complaint or frequency data is given.'
+  current_alternative: 旧做法是在百度或其它搜索引擎输入关键词，逐条打开结果页阅读，再把内容复制到文档或独立 AI 工具里继续追问和写作。
+  current_alternative_en: The old way is keyword search on Baidu or another engine, opening results one
+    by one, then copying text into a document or a separate AI tool to keep asking and writing.
+  usage_reason: 推断：相较逐条打开链接再换工具，它在同一页把追问、AI 阅读和写作做图串起来，省去复制粘贴与切换工具这一步，因此需要边查边写的中文 PC 用户会在复杂问题上选择它；公开材料未披露留存或复购。
+  usage_reason_en: 'Inference: versus opening links and switching tools, it chains follow-up, AI reading
+    and writing/image work on one page, removing the copy-paste and tool-switching step, so Chinese desktop
+    users who research and write in one sitting would pick it for complex questions; no retention or repeat-use
+    data is disclosed.'

@@ -1,0 +1,81 @@
+- id: req-initial-maven-robotics-wants-to-steal-your-robot-deployment-deal-2026-09-12
+  project_slug: maven-robotics-wants-to-steal-your-robot-deployment-deal
+  level: initial
+  reviewed_at: '2026-09-12T00:19:09Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决仓储物流高人力成本与自动化部署周期过长的刚性运营痛点。
+    evidence_ids:
+    - ev-10c05366ec68a112
+  - gate: consensus
+    status: supported
+    reason: 获得 1 亿美元 A 轮融资并已开展实际客户部署，具备初步商业信号。
+    evidence_ids:
+    - ev-10c05366ec68a112
+  - gate: model
+    status: insufficient
+    reason: 具体按机器人即服务（RaaS）还是交钥匙工程收费的定价细则未公开披露。
+    evidence_ids:
+    - ev-10c05366ec68a112
+  - gate: truth
+    status: supported
+    reason: 物理履约结果可核验，现场结合调度系统与安全边界控制。
+    evidence_ids:
+    - ev-10c05366ec68a112
+  next_validation: Maven Robotics 官方披露的代表性客户落地案例与具体计费模式。
+  market: ''
+  job: 工业仓库与物流中转站运营团队在应对高吞吐量订单时，需要调度机器人完成自动化物料搬运与分拣。
+  job_en: Industrial warehouse and fulfillment operators deploy autonomous robots to handle high-throughput
+    material transport and sorting.
+  pain: 传统自动化改造部署周期长、调试成本高，且难以灵活适应动态变动的仓库动线与货品种类。
+  pain_en: Traditional industrial automation entails lengthy deployment cycles, high setup costs, and
+    poor adaptability to changing layouts.
+  current_alternative: 依靠叉车工人纯手工搬运，或采购高昂且固定的 AGV 轨道系统。
+  current_alternative_en: Relying on manual forklift labor or purchasing rigid, expensive fixed AGV infrastructure.
+  usage_reason: （工作流推理）通过自适应软件与机器人软硬件集成加速现场部署周期，降低现场改造复杂度，从而吸引寻求降本增效的物流客户。
+  usage_reason_en: (Workflow inference) Accelerated on-site deployment through adaptive software reduces
+    warehouse modification friction for logistics operators.
+- id: req-full-maven-robotics-wants-to-steal-your-robot-deployment-deal-2026-09-12
+  project_slug: maven-robotics-wants-to-steal-your-robot-deployment-deal
+  level: full
+  reviewed_at: '2026-09-12T00:45:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其调度自主机器人执行分拣搬运，但所引证据全部是 Apache Maven 构建工具、Maven 仓库与通用 AI 页面，未提供任何该产品的用户任务、痛点或替代方式，无法还原需求结构。
+    evidence_ids:
+    - ev-6bd18dc4bf3327d3
+    - ev-43d7430508a0d4a4
+    - ev-4e8091aeb7f65c02
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Maven Robotics 官网或官方博客发布的客户部署案例与产品文档，确认其实际交付的机器人调度任务与使用场景。
+  market: ''
+  job: 仓储物流与工厂运营负责人在规划自动化搬运时，调度自主机器人执行物料分拣与搬运任务，并在控制台查看运行状态。
+  job_en: Warehouse and factory operations leads plan automated material handling, dispatching autonomous
+    robots for sorting and transport while monitoring status in a console.
+  pain: 公开证据中没有任何关于该产品用户痛点、现场抱怨或旧流程负担的材料，无法确认其要缓解的具体困难。
+  pain_en: No public evidence describes user pain, on-site complaints, or legacy workflow burden for this
+    product, so the specific difficulty it relieves cannot be confirmed.
+  current_alternative: 公开材料未披露当前替代方式，无法判断用户此前依靠人工搬运、固定 AGV 还是其他方案。
+  current_alternative_en: Public materials do not disclose the current alternative, so it is unknown whether
+    users relied on manual labor, fixed AGVs, or another approach.
+  usage_reason: 缺少用户反馈或客户案例，无法解释用户为何选择它；现有证据仅指向 Apache Maven 构建工具与通用 AI 页面，与机器人部署无关。
+  usage_reason_en: Without user feedback or customer cases, there is no basis to explain why users would
+    choose it; existing evidence points to Apache Maven build tooling and generic AI pages, unrelated
+    to robot deployment.

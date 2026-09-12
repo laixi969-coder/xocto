@@ -1,0 +1,85 @@
+- id: req-initial-chathop-2026-09-12
+  project_slug: chathop
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨模型续聊时上下文丢失的问题，痛点来自额度与能力差异，属于真实但强度中等的需求；公开材料仅一句描述。
+    evidence_ids:
+    - ev-e167202c66270377
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、采用数据或社区讨论，无法判断跨模型迁移是否已成为普遍行为。
+    evidence_ids:
+    - ev-e167202c66270377
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅或按迁移量收费都只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e167202c66270377
+  - gate: truth
+    status: insufficient
+    reason: 上下文保真度、支持的目标工具范围、是否依赖各平台接口，公开材料均未说明。
+    evidence_ids:
+    - ev-e167202c66270377
+  next_validation: 收集该产品的官方说明或定价页，确认它支持哪些模型之间的会话迁移以及是否收费。
+  market: ''
+  job: 用户在一个 AI 工具里聊到一半，因额度、能力或价格原因想换到另一个模型，需要把已有上下文带过去继续。
+  job_en: Mid-session in one AI tool, a user wants to switch to another model for quota, capability, or
+    price reasons and needs to carry the existing context over.
+  pain: 换工具意味着重新粘贴或重述背景，长对话重述成本高，还容易丢失此前的约束条件。
+  pain_en: Switching tools means re-pasting or re-explaining the background; re-stating a long thread
+    is costly and easily loses earlier constraints.
+  current_alternative: 旧做法是手动复制粘贴历史消息，或在新工具里重新描述一遍需求。
+  current_alternative_en: The old way is manually copying and pasting the history, or restating the request
+    from scratch in the new tool.
+  usage_reason: 推断：相较手动复制粘贴，它把会话上下文整体搬运过去，省掉重述背景这一步，因此经常在多个模型间比较输出、或额度用尽被迫换工具的用户会在中途切换时选择它。
+  usage_reason_en: 'Inference: versus manual copy-paste, it moves the whole session context across, removing
+    the step of re-explaining background, so users who compare outputs across models or hit quota limits
+    pick it when switching mid-task.'
+- id: req-full-chathop-2026-09-12
+  project_slug: chathop
+  level: full
+  reviewed_at: '2026-09-12T00:43:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨模型续聊时上下文丢失的问题，痛点来自额度与能力差异，属于真实但强度中等的需求；公开材料仅一句描述。
+    evidence_ids:
+    - ev-e167202c66270377
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、采用数据或社区讨论，无法判断跨模型迁移是否已成为普遍行为。
+    evidence_ids:
+    - ev-e167202c66270377
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅或按迁移量收费都只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e167202c66270377
+  - gate: truth
+    status: insufficient
+    reason: 上下文保真度、支持的目标工具范围、是否依赖各平台接口，公开材料均未说明。
+    evidence_ids:
+    - ev-e167202c66270377
+  next_validation: 收集该产品的官方说明或定价页，确认它支持哪些模型之间的会话迁移以及是否收费。
+  market: ''
+  job: 用户在一个 AI 助手聊到一半时，因额度耗尽、能力差异或价格原因想换到另一个模型，需要把当前会话的上下文带过去，在新工具里继续同一任务。
+  job_en: Mid-conversation in one AI assistant, a user wants to switch to another model due to quota limits,
+    capability differences, or price, and needs to carry the current session context over to continue
+    the same task in the new tool.
+  pain: 换工具意味着重新粘贴或重述整段对话背景，长对话重述成本高，且容易丢失此前设定的约束条件与已确认结论。
+  pain_en: Switching tools means re-pasting or re-explaining the whole conversation background; restating
+    a long thread is costly and easily loses earlier constraints and settled conclusions.
+  current_alternative: 旧做法是手动复制粘贴历史消息，或在新工具里从头重新描述需求。
+  current_alternative_en: The old way is manually copying and pasting the message history, or restating
+    the request from scratch in the new tool.
+  usage_reason: 推断：相较手动复制粘贴，它把会话上下文整体搬运到目标工具，省掉重述背景这一步，因此经常在多个模型间比较输出、或额度用尽被迫换工具的用户会在中途切换时选择它。
+  usage_reason_en: 'Inference: versus manual copy-paste, it moves the whole session context into the target
+    tool, removing the step of re-explaining background, so users who compare outputs across models or
+    hit quota limits pick it when switching mid-task.'

@@ -82,3 +82,58 @@
   usage_reason: 用户要完成的任务是：数学研究者与形式化验证工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Mathematics researchers and formal verification engineers Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-navierstokesandeuler-2026-09-12
+  project_slug: navierstokesandeuler
+  level: full
+  reviewed_at: '2026-09-12T00:45:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 PDE 与流体力学证明难以独立机器复核的需求：人工逐行读证明成本高、易漏隐含假设，审稿与读者无法确认推导成立。仓库提供随结果发布的 Lean 证书，用户让证明助手逐条检查即可得到通过或失败，交付可确定；这是工作流结构推理，公开材料尚无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-f4c0fef408881008
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实只有仓库收藏数从 1,592 增至 1,777，说明社区注意到该仓库；但收藏属于关注度证据，不能证明目标用户已把它留在核验工作流中持续使用，也未见 issue、discussion
+      或客户案例说明谁在何种场景采用。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-5fdc7a8ab2a2f13f
+    - ev-bfa0924700ce4f1a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费路径或买方身份；按结构判断，钱可能来自研究机构、资助方或实验室的 to B/to G 预算，也可能由 OpenAI 以 to VC 方式承担，但这是判断而非已验证事实，未见任何实际付费或采购记录。
+    evidence_ids:
+    - ev-f4c0fef408881008
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述为随结果发布的 Lean 证书，但公开材料未说明证书覆盖范围与配套论文的对应关系、Lean 版本与依赖、以及检查失败时人工如何介入；交付能否稳定复现、安全与人工边界尚缺可核验证据。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-bfa0924700ce4f1a
+  next_validation: 追踪该仓库的 README、Lean 版本与依赖说明、issue/discussion，确认证书覆盖哪些论文结果、能否在标准 Lean 环境复现检查，以及是否有研究者公开报告使用或复核记录。
+  market: ''
+  job: 数学研究者与形式化验证工程师在论文或预印本给出 Navier-Stokes 与 Euler 方程相关结果后，打开该仓库，把随结果一同发布的 Lean 证书文件交给 Lean 证明助手，逐条检查推导步骤，得到机器可复核的通过或失败结果，再自行判断这些结果在数学上意味着什么。
+  job_en: Mathematics researchers and formal verification engineers, after a paper or preprint states
+    a Navier-Stokes or Euler result, open this repository, feed the Lean certificate files released alongside
+    the result into the Lean proof assistant, check the derivation steps one by one, obtain a machine-checkable
+    pass or fail, and then judge what the result means mathematically.
+  pain: 公开事实只说明仓库提供 Lean 证书，未给出用户抱怨或失败案例；从工作流结构推理，PDE 与流体力学证明篇幅长、引理依赖深，人工逐行复核成本高且容易漏掉隐含假设，审稿人和读者难以独立确认推导是否成立，这是该任务固有的刚性痛点。
+  pain_en: Public facts only show that the repository provides Lean certificates, with no user complaints
+    or failure cases; by workflow-structure inference, PDE and fluid-mechanics proofs are long with deep
+    lemma dependencies, so line-by-line human checking is costly and easily misses hidden assumptions,
+    and referees or readers cannot independently confirm the derivation holds — an inherent, rigid pain
+    of this task.
+  current_alternative: 公开材料未描述用户当前做法；结构推理上，替代方式是人工逐行阅读论文证明、依赖同行评议与作者声誉，或自行在 Lean/Coq 等助手内重写证明，前两者无法机器复核，后者需要大量重复形式化工作。
+  current_alternative_en: Public materials do not describe current practice; by structural inference,
+    alternatives are reading the paper proof line by line, relying on peer review and author reputation,
+    or re-formalizing the proof oneself in Lean/Coq — the first two are not machine-checkable and the
+    third duplicates heavy formalization work.
+  usage_reason: 推断：相较人工逐行读证明或自行重写形式化，该仓库直接提供与结果配套的 Lean 证书，用户只需让证明助手加载并检查，省去从零形式化的步骤，把可核对结果从“读者相信推导”变为“机器逐条判定通过或失败”；因此关注该结果、需要独立复核的数学研究者与形式化验证工程师会在核验时选择它。
+  usage_reason_en: 'Inference: versus reading the proof line by line or re-formalizing it oneself, the
+    repository ships Lean certificates alongside the result, so users only need to load and check them
+    in the proof assistant, skipping from-scratch formalization and turning a checkable outcome from ''readers
+    trust the derivation'' into ''the machine decides pass or fail step by step''; hence researchers and
+    formal-verification engineers who need independent checking of that result would choose it.'

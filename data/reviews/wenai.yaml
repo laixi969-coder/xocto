@@ -367,3 +367,57 @@
   usage_reason: 用户要完成的任务是：AI 伴侣用户、OpenClaw 开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI Companion User, OpenClaw Developer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-wenai-2026-09-12
+  project_slug: wenai
+  level: full
+  reviewed_at: '2026-09-12T00:47:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是通用聊天缺少稳定人设与视觉形象、亲密陪伴连续性被打断的问题；旧做法需在聊天工具与绘图工具间手动搬运设定，不采用则每次重设角色。仓库 193→196 星显示有人主动加载该技能，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-188d23a2d88afd19
+    - ev-66d98b9d2ebd3eee
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 193 增至 196，说明有开发者关注并收藏该 OpenClaw 技能，但公开材料没有 issue、discussion 或用户评价说明谁在什么场景持续使用，关注度不能等同于持续采用。
+    evidence_ids:
+    - ev-188d23a2d88afd19
+    - ev-89520e4f7e1a6d57
+    - ev-266bb8eb1ee12a99
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能，公开材料未见定价页、赞助、订阅或企业采购记录，谁付钱尚不清楚；按开源惯例可能靠捐赠或引流，属判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-188d23a2d88afd19
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅给出技能定位与 Pony V6 XL 视觉工作流描述，未见部署文档、依赖说明或安全与内容边界说明，交付能否在用户环境中稳定复现、亲密内容如何合规处理均缺公开证据。
+    evidence_ids:
+    - ev-188d23a2d88afd19
+    - ev-266bb8eb1ee12a99
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开部署步骤、依赖要求及用户实际使用反馈，以核验交付可复现性与持续使用情况。
+  market: ''
+  job: OpenClaw 用户（多为个人开发者或重度 AI 聊天用户）在自建或本地部署的 OpenClaw 环境中，加载 wenai 技能，把文字对话扩展为带角色设定的亲密关系互动，并通过 Pony
+    V6 XL 视觉工作流为 AI 伴侣生成形象，完成从聊天到“有脸、有角色”的陪伴体验。
+  job_en: An OpenClaw user (typically an individual developer or heavy AI-chat user) loads the wenai skill
+    inside a self-hosted or local OpenClaw setup to turn text dialogue into a role-played intimate relationship,
+    and uses the Pony V6 XL visual workflow to generate the companion's appearance, completing a chat-to-'has
+    a face and a persona' companionship experience.
+  pain: 通用大模型聊天缺少稳定人设、长期关系记忆和视觉形象，用户每次都要重新设定角色，情感陪伴的连续性被打断；公开材料未给出用户抱怨原文，此痛点由产品定位与工作流结构推断。
+  pain_en: Generic LLM chat lacks a stable persona, long-term relationship memory and a visual identity,
+    so the user must re-establish the character each session and the continuity of emotional companionship
+    breaks; public materials contain no verbatim user complaint, so this pain is inferred from the product
+    positioning and workflow structure.
+  current_alternative: 旧做法是直接用通用聊天机器人（如 ChatGPT、Claude）或 Character.AI 一类角色聊天产品，配合单独的文生图工具手动生成角色图，角色设定与图像分散在不同工具里，需要人工搬运和重复提示。
+  current_alternative_en: The old approach is to use a general chatbot (e.g. ChatGPT, Claude) or a character-chat
+    product like Character.AI, plus a separate text-to-image tool to generate the character image by hand,
+    leaving persona and image scattered across tools with manual copying and repeated prompting.
+  usage_reason: 相较旧做法，wenai 把角色设定、亲密对话与 Pony V6 XL 出图打包成一个 OpenClaw 技能，用户在已部署的 OpenClaw 里一次加载即可同时获得人设对话和形象生成，省去在聊天工具与绘图工具之间来回搬运设定和提示词的步骤；这是基于产品能力与工作流结构的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with the old approach, wenai packages persona setup, intimate dialogue and
+    Pony V6 XL image generation into a single OpenClaw skill, so a user with an existing OpenClaw deployment
+    loads it once and gets both in-character chat and image generation, removing the step of shuttling
+    settings and prompts between a chat tool and an image tool; this is an inference from product capability
+    and workflow structure, not yet confirmed by user feedback.

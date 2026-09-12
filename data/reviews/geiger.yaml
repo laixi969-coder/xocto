@@ -1,0 +1,102 @@
+- id: req-initial-geiger-2026-09-12
+  project_slug: geiger
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是机器上 AI agent 与插件无台账、权限不可见的问题，痛点具体且不查有代价；但公开材料只证明清点能力，未证明用户已把它纳入固定流程。
+    evidence_ids:
+    - ev-87fb302823a20b1d
+    - ev-db59758af398b4e9
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论与星标说明有人关注，但尚无客户案例或团队采用声明，无法判断是否形成共识。
+    evidence_ids:
+    - ev-87fb302823a20b1d
+    - ev-5934ef510770dc9d
+  - gate: model
+    status: insufficient
+    reason: 开源只读工具，公开材料未给出定价、付费路径或商业主体收入，买方与收费方式均属未知。
+    evidence_ids:
+    - ev-db59758af398b4e9
+    - ev-c200f29f53c72949
+  - gate: truth
+    status: insufficient
+    reason: 清点结果是否准确、是否覆盖主流 agent 与 MCP 实现、误报漏报如何，公开材料未提供可复现验证。
+    evidence_ids:
+    - ev-87fb302823a20b1d
+    - ev-db59758af398b4e9
+  next_validation: 收集 Geiger 仓库的 issue、discussion 与 README 更新，核对它实际能识别哪些 agent 与 MCP server、是否有可复现的扫描结果说明。
+  market: ''
+  job: 开发者或安全工程师在本地开发机、CI 机器或同事的电脑上，面对一堆来源不明的 AI agent、MCP server 与插件，需要先列出一份完整清单，弄清哪些组件存在、各自能访问什么，再决定保留、隔离还是收紧权限。
+  job_en: A developer or security engineer on a local dev machine, CI box or a colleague's computer, facing
+    a pile of AI agents, MCP servers and plugins of unclear origin, needs a complete inventory of which
+    components exist and what each can reach before deciding what to keep, isolate or restrict.
+  pain: 这些组件由不同工具、不同人陆续装上，没有统一台账；出问题时只能靠记忆和手工翻目录，既慢又容易漏，权限范围更是说不清。
+  pain_en: These components are installed over time by different tools and people with no unified register;
+    when something goes wrong, teams rely on memory and manual directory browsing, which is slow, error-prone
+    and leaves permission scope unclear.
+  current_alternative: 手工检查配置文件、翻插件目录、逐个查看已安装扩展，或干脆不查，等出事再说。
+  current_alternative_en: Manually checking config files, browsing plugin directories, inspecting installed
+    extensions one by one, or simply not checking until something breaks.
+  usage_reason: 相较手工翻目录，Geiger 用一条只读命令一次性列出机器上的 agent、MCP server、插件与扩展，把“先找齐有哪些”这一步从逐个排查变成一次输出，因此正在把 agent
+    铺进开发或生产环境、又需要向团队或合规方交代组件清单的人会先试它；这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual directory browsing, Geiger lists agents, MCP servers, plugins
+    and extensions on a machine in one read-only command, turning 'first find out what exists' from a
+    component-by-component search into a single output, so people rolling agents into dev or production
+    environments and needing to account for the component list to a team or compliance owner are likely
+    to try it first; this is an inference from product capability, with no retention or repeat-use evid
+- id: req-full-geiger-2026-09-12
+  project_slug: geiger
+  level: full
+  reviewed_at: '2026-09-12T00:44:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器上 AI agent 与插件无台账、权限不可见的问题，痛点具体且不查有代价；公开材料只证明清点能力，未证明用户已把它纳入固定流程，属工作流结构推理。
+    evidence_ids:
+    - ev-87fb302823a20b1d
+    - ev-db59758af398b4e9
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论与星标说明有人关注，但尚无客户案例或团队采用声明，无法判断是否形成共识。
+    evidence_ids:
+    - ev-87fb302823a20b1d
+    - ev-5934ef510770dc9d
+  - gate: model
+    status: insufficient
+    reason: 开源只读工具，公开材料未给出定价、付费路径或商业主体收入，买方与收费方式均属未知。
+    evidence_ids:
+    - ev-db59758af398b4e9
+    - ev-c200f29f53c72949
+  - gate: truth
+    status: insufficient
+    reason: 清点结果是否准确、是否覆盖主流 agent 与 MCP 实现、误报漏报如何，公开材料未提供可复现验证。
+    evidence_ids:
+    - ev-87fb302823a20b1d
+    - ev-db59758af398b4e9
+  next_validation: 收集 Geiger 仓库的 issue、discussion 与 README 更新，核对它实际能识别哪些 agent 与 MCP server、是否有可复现的扫描结果说明。
+  market: ''
+  job: 开发者或安全工程师在本地开发机、CI 机器或同事电脑上，面对陆续装上的多个 AI agent、MCP server 与插件，需要先列出一份完整清单，弄清哪些组件存在、各自能访问什么，再决定保留、隔离还是收紧权限。
+  job_en: A developer or security engineer on a local dev machine, CI box or a colleague's computer, facing
+    AI agents, MCP servers and plugins installed over time, needs a complete inventory of which components
+    exist and what each can reach before deciding what to keep, isolate or restrict.
+  pain: 这些组件由不同工具、不同人陆续装上，没有统一台账；出问题时只能靠记忆和手工翻目录，既慢又容易漏，权限范围更说不清。
+  pain_en: These components are installed over time by different tools and people with no unified register;
+    when something goes wrong, teams rely on memory and manual directory browsing, which is slow, error-prone
+    and leaves permission scope unclear.
+  current_alternative: 手工检查配置文件、翻插件目录、逐个查看已安装扩展，或干脆不查，等出事再说。
+  current_alternative_en: Manually checking config files, browsing plugin directories, inspecting installed
+    extensions one by one, or simply not checking until something breaks.
+  usage_reason: 相较手工翻目录，Geiger 用一条只读命令一次性列出机器上的 agent、MCP server、插件与扩展，把“先找齐有哪些”从逐个排查变成一次输出，因此正在把 agent
+    铺进开发或生产环境、又需要向团队或合规方交代组件清单的人会先试它；这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual directory browsing, Geiger lists agents, MCP servers, plugins
+    and extensions in one read-only command, turning 'first find out what exists' from a component-by-component
+    search into a single output, so people rolling agents into dev or production environments and needing
+    to account for the component list are likely to try it first; this is an inference from product capability,
+    with no retention or repeat-use evidence.

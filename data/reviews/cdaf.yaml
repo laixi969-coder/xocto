@@ -190,3 +190,52 @@
   usage_reason: 仓库星标从 98 增至 102，显示开发者关注；但采用和付费未核验。
   usage_reason_en: Repository stars grew from 98 to 102, showing developer attention; adoption and payment
     not verified.
+- id: req-full-cdaf-2026-09-12
+  project_slug: cdaf
+  level: full
+  reviewed_at: '2026-09-12T00:43:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是同一段视频被 AI 代理反复分析的问题：重复解码与推理消耗算力费用，且各代理描述结果不互通。公开材料给出开放 sidecar 格式、CLI、代理技能与可复现基准，能还原输入—缓存—复用闭环，属工作流结构推理；谁付钱未核验。
+    evidence_ids:
+    - ev-2e4ee9a52a54c551
+    - ev-0b8453bb5ba2df3d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 103 增至 117，说明开发者持续关注，但只有星标这一关注度指标，没有 issue、discussion、下游集成或复现基准的使用记录，无法证明目标用户已把它留在工作流里。
+    evidence_ids:
+    - ev-2e4ee9a52a54c551
+    - ev-0b8453bb5ba2df3d
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或商业条款，开放格式与 CLI 更可能走开源加托管或企业支持路线，这是判断而非已验证事实；中文生态检索未发现对应供给，买方路径仍空白。
+    evidence_ids:
+    - ev-71c0c6e3424a0cb8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料称有可复现基准，但未见基准结果、sidecar 与源视频的一致性校验方式，也未说明描述过期或视频被替换时如何失效，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-2e4ee9a52a54c551
+  next_validation: 追踪 CDAF 仓库的 issue、discussion 与基准结果页，确认是否有下游代理或视频管线实际集成该 sidecar 格式并复用缓存。
+  market: ''
+  job: AI 视频分析工程师或代理开发者把同一段视频反复交给视觉模型做描述、检索或标注时，需要把已生成的描述性结果按视频文件存成可复用的 sidecar，让后续代理直接读取而不重新解码分析。
+  job_en: AI video analysis engineers and agent developers who repeatedly feed the same footage to vision
+    models for description, retrieval, or tagging need the generated descriptive output stored as a reusable
+    sidecar keyed to the video file, so later agents read it instead of re-decoding and re-analyzing.
+  pain: 公开材料说明其目标是让 AI 代理停止重复分析同一段视频；重复调用视觉模型意味着同一素材被反复解码与推理，既消耗算力与费用，也让同一素材在不同代理间得不到一致的描述结果。这是从产品定位与工作流结构推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: Public material states the goal is to stop AI agents from re-analyzing the same footage; repeated
+    vision-model calls mean the same asset is decoded and inferred over and over, burning compute and
+    cost and yielding inconsistent descriptions across agents. This pain is inferred from the product
+    positioning and workflow structure, not yet from user complaints or cases.
+  current_alternative: 旧做法是每次分析后把结果留在各自代理的上下文或临时缓存里，或把描述手工写进文件名、旁挂 JSON、向量库等自定义位置，格式互不通用，换一个代理或换一次会话就得重跑一遍。
+  current_alternative_en: The old way is leaving results in each agent's own context or ephemeral cache,
+    or hand-writing descriptions into filenames, ad-hoc JSON, or a vector store; formats are not portable,
+    so switching agents or sessions means re-running the analysis.
+  usage_reason: 推断：相较每次重跑视觉模型，它把描述性资产按开放 sidecar 格式与视频文件绑定，并配 CLI 与代理技能，使代理在分析前先查已有 sidecar，省掉重复解码与推理这一步，因此会反复处理同一批素材、且需要跨代理复用结果的视频分析工程师会选择它。
+  usage_reason_en: 'Inference: versus re-running the vision model each time, it binds descriptive assets
+    to the video file in an open sidecar format with a CLI and agent skill, so an agent checks for an
+    existing sidecar before analyzing, removing the re-decode and re-inference step; engineers who reprocess
+    the same footage and need results reusable across agents would choose it.'

@@ -21,7 +21,7 @@ canonical_url: https://interconnects.ai/p/open-source-ai-reading-list
 summary: How to get up to speed on open models and their implications.
 first_seen: '2026-09-11T12:36:25Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

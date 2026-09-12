@@ -72,3 +72,42 @@
   usage_reason_en: 'The task is: This AI offering introduces a new capability, but public evidence is
     not yet sufficient to confirm its workflow value. Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-deepseek-recipe-2026-09-12
+  project_slug: deepseek-recipe
+  level: full
+  reviewed_at: '2026-09-12T00:44:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅见仓库名与收藏数，无产品说明、文档或用户反馈，无法写出用户任务、痛点与不解决的后果，需求结构无法还原。
+    evidence_ids:
+    - ev-d41d907af8a8ac34
+    - ev-a9091ebb647f813d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、文档与 issue/discussion，确认它实际解决的任务、输入输出与替代的旧流程。
+  market: ''
+  job: 公开材料只给出仓库名与收藏数，未说明谁在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public materials give only a repository name and star counts, with no description of who handles
+    what material in what situation to complete what task, so no concrete job can be reconstructed.
+  pain: 没有产品说明、文档或用户反馈，无法指出用户当前在哪一步受阻、痛点强度或不解决的后果。
+  pain_en: With no product description, documentation, or user feedback, there is no way to identify where
+    users get stuck, how severe the pain is, or the consequence of leaving it unsolved.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not state how users currently accomplish the related work
+    or what prior approach this repository replaces.
+  usage_reason: 缺少功能说明与用户动机证据，无法解释相较现有做法它减少了哪一步负担，因此不能给出选择理由。
+  usage_reason_en: Without capability descriptions or user-motivation evidence, there is no basis to explain
+    which step it removes relative to current practice, so no reason for choosing it can be given.

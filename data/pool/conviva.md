@@ -21,7 +21,7 @@ canonical_url: https://conviva.ai/resource/we-replaced-mmap-with-io_uring-in-our
 summary: We Replaced MMAP with Io_uring in Our Rust Query Engine. It Got Slower
 first_seen: '2026-09-11T05:26:58Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

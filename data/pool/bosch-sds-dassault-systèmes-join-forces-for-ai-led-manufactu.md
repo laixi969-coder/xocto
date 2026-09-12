@@ -3,15 +3,12 @@ slug: bosch-sds-dassault-systèmes-join-forces-for-ai-led-manufactu
 name: Bosch SDS
 builder: ''
 category: ''
-summary_zh: 2026年9月10日 Fortune India 报道，Bosch SDS 与达索系统宣布在印度合作推进 AI 主导制造，一家电动车制造商成为首个部署客户。可核事实：印度制造企业开始经由工业软件与
-  IT 服务商联盟采购 AI 制造能力。推断（基于单次公告，不证明行业整体转向）：面向印度制造业的 AI 应用将把这类大厂联盟视为交付与渠道上的竞争者。
+summary_zh: 报道显示，Bosch SDS 与 Dassault Systèmes 在印度联合推进 AI 主导的制造部署，一家电动车厂商成为首个落地客户。候选材料只给出合作与首个客户这一层事实，具体部署了哪些产线环节、交付了什么系统、按什么方式收费均未披露，仍待核验。
 inspiration: ''
-summary_en: 'Reported September 10, 2026: Bosch SDS and Dassault Systèmes announced a partnership for
-  AI-led manufacturing in India, with an electric-vehicle maker as the first deployment. The verifiable
-  fact is that an Indian manufacturer has begun procuring AI manufacturing capability through an incumbent
-  industrial-software and IT-services alliance. Inference, not an industry-wide verdict: AI application
-  builders targeting Indian manufacturing will encounter such incumbent alliances as delivery and channel
-  competitors; one announcement does not prove a sector-wide shift.'
+summary_en: Reports indicate that Bosch SDS and Dassault Systèmes are jointly advancing AI-led manufacturing
+  deployments in India, with an EV maker as the first deployment. The candidate material only supports
+  the partnership and first-customer facts; which production steps were deployed, what systems were delivered
+  and how they are priced are not disclosed and still need verification.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -28,7 +25,7 @@ summary: Bosch SDS, Dassault Systèmes join forces for AI-led manufacturing in I
   deployment Fortune India
 first_seen: '2026-09-10T05:41:52Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

@@ -255,3 +255,54 @@
   usage_reason: 用户要完成的任务是：AI 工程师、开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI Engineers, Developers Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-orcareplay-2026-09-12
+  project_slug: orcareplay
+  level: full
+  reviewed_at: '2026-09-12T00:45:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 工程师调试多步代理时失败难以稳定复现的痛点：非确定性链路出错后只能靠日志片段和反复重跑猜测。公开说明给出录制、重放、分叉、调试的完整动作闭环，属工作流结构推理；但缺少用户反馈证明痛点强度与频率。
+    evidence_ids:
+    - ev-44abadbb464e3b6f
+    - ev-bb0ee327b5881a5e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 127 增至 229，说明开发者社区持续关注，但收藏属关注度而非采用证据；公开材料没有客户案例、issue 讨论或部署记录说明谁在真实工作流中持续使用，也未显示中文生态覆盖。
+    evidence_ids:
+    - ev-44abadbb464e3b6f
+    - ev-bb0ee327b5881a5e
+    - ev-1e56f842ccd09228
+  - gate: model
+    status: insufficient
+    reason: 项目由 OrcaRouter.ai 团队开源，公开材料未见定价页、付费主体或单位经济；钱可能来自 to B 的托管版或与 OrcaRouter 路由服务的捆绑，这是判断而非已验证事实，也未出现仅靠融资续命的叙事。
+    evidence_ids:
+    - ev-44abadbb464e3b6f
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺支持任意模型录制与重放，但未披露录制开销、对非确定性采样的还原程度、敏感数据留存与人工介入边界；交付能否确定性发生缺少可复现的公开文档或实测证据。
+    evidence_ids:
+    - ev-44abadbb464e3b6f
+    - ev-3d5c82b5ab0b8fee
+  next_validation: 追踪 OrcaReplay 仓库的 README、issue 与 discussion，确认是否有用户报告在真实代理调试中录制重放、分叉复现失败的具体案例与部署方式。
+  market: ''
+  job: AI 工程师在调试多步 LLM 代理时，面对一次失败或异常运行，需要把该次运行的模型调用、工具调用与中间状态完整记录下来，事后重放同一轨迹、从某一步分叉重跑，以定位是哪一步导致结果偏离。
+  job_en: AI engineers debugging a multi-step LLM agent run need to capture the model calls, tool calls
+    and intermediate state of a failed or anomalous run, then replay the same trajectory and fork from
+    a given step to isolate which step caused the deviation.
+  pain: 代理运行是非确定性的多步链路，失败往往只在某次采样或某个工具返回后出现；没有逐步记录就只能靠日志片段和反复重跑猜测，同一 bug 难以稳定复现，排查成本高且结论不可靠。
+  pain_en: Agent runs are non-deterministic multi-step chains; failures often surface only after a particular
+    sample or tool return. Without step-level recording, engineers guess from log fragments and repeated
+    reruns, the same bug is hard to reproduce reliably, and conclusions are unreliable.
+  current_alternative: 当前替代是自建日志与 tracing 埋点、在代码里加断点或打印、把 prompt 与输出手工存文件，再靠反复重跑碰运气复现；部分团队用通用 LLM 可观测性工具，但通常不提供从任意步骤分叉重放。
+  current_alternative_en: Today teams hand-roll logging and tracing, add breakpoints or prints, save prompts
+    and outputs to files manually, and rerun repeatedly hoping to reproduce; some use generic LLM observability
+    tools, which generally do not offer forking and replay from an arbitrary step.
+  usage_reason: 推断：相较自建日志加反复重跑，OrcaReplay 把一次运行整体录制下来，使工程师能直接重放同一轨迹并从指定步骤分叉，从而省去手工拼日志和靠运气复现这一步；因此正在调试多步代理、且失败难以稳定复现的
+    AI 工程师会在排查阶段选择它。
+  usage_reason_en: 'Inference: versus hand-rolled logging plus repeated reruns, OrcaReplay records a whole
+    run so engineers can replay the same trajectory and fork from a chosen step, removing the manual log-stitching
+    and luck-based reproduction step; AI engineers debugging multi-step agents with hard-to-reproduce
+    failures would therefore pick it during triage.'

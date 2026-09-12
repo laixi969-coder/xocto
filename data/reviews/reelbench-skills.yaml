@@ -1,0 +1,81 @@
+- id: req-initial-reelbench-skills-2026-09-12
+  project_slug: reelbench-skills
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决 AI 视频流程中提示词与参数零散的问题，但公开材料没有说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 163 星与 23 次 fork 的仓库关注度，没有讨论、案例或使用反馈说明谁在什么场景下用它。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+  - gate: model
+    status: insufficient
+    reason: 开源仓库没有定价、买方或收费路径信息，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近视频制作的第一性目标，也没有交付结果或人工边界的说明。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际替代的视频制作步骤与产出物。
+  market: ''
+  job: 视频创作者与剪辑师在准备 AI 视频生成或后期流程时，整理提示词、参数与工具调用步骤。
+  job_en: Video creators and editors assembling prompts, parameters and tool-call steps when preparing
+    an AI video generation or post-production workflow.
+  pain: 公开材料只说明这是学习笔记与工具 skill，没有说明创作者原本卡在哪一步、不解决会有什么后果。
+  pain_en: The public material only says these are learning notes and tooling skills; it does not say
+    which step creators were stuck on or what happens if it is not solved.
+  current_alternative: 创作者自行收集提示词、看教程、在多个工具间手动搬运参数。
+  current_alternative_en: Creators collect prompts themselves, watch tutorials and manually move parameters
+    between tools.
+  usage_reason: 推断：如果这些 skill 能把提示词与参数固化成可重复调用的步骤，创作者就不必每次从零拼装；但公开材料未给出任何采用或复用证据，无法确认它是否真的被留在工作流里。
+  usage_reason_en: 'Inference: if these skills fix prompts and parameters into repeatable steps, creators
+    would not have to rebuild them from scratch each time; however, the public material gives no adoption
+    or reuse evidence, so it cannot be confirmed that it stays in anyone''s workflow.'
+- id: req-full-reelbench-skills-2026-09-12
+  project_slug: reelbench-skills
+  level: full
+  reviewed_at: '2026-09-12T00:46:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决 AI 视频流程中提示词与参数零散的问题，但公开材料没有说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际替代的视频制作步骤与产出物。
+  market: ''
+  job: 视频创作者与剪辑师在准备 AI 视频生成或后期流程时，整理提示词、参数与工具调用步骤。
+  job_en: Video creators and editors assembling prompts, parameters and tool-call steps when preparing
+    an AI video generation or post-production workflow.
+  pain: 公开材料只说明这是学习笔记与工具 skill，没有说明创作者原本卡在哪一步、不解决会有什么后果。
+  pain_en: The public material only says these are learning notes and tooling skills; it does not say
+    which step creators were stuck on or what happens if it is not solved.
+  current_alternative: 创作者自行收集提示词、看教程、在多个工具间手动搬运参数。
+  current_alternative_en: Creators collect prompts themselves, watch tutorials and manually move parameters
+    between tools.
+  usage_reason: 推断：如果这些 skill 能把提示词与参数固化成可重复调用的步骤，创作者就不必每次从零拼装；但公开材料未给出任何采用或复用证据，无法确认它是否真的被留在工作流里。
+  usage_reason_en: 'Inference: if these skills fix prompts and parameters into repeatable steps, creators
+    would not have to rebuild them from scratch each time; however, the public material gives no adoption
+    or reuse evidence, so it cannot be confirmed that it stays in anyone''s workflow.'

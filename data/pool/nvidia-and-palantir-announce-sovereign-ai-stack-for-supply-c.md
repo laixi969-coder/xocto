@@ -1,6 +1,6 @@
 ---
 slug: nvidia-and-palantir-announce-sovereign-ai-stack-for-supply-c
-name: NVIDIA and Palantir Announce Sovereign AI Stack for Supply Chains
+name: NVIDIA and Palantir Sovereign AI Stack
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOYmN3d18zTUJD
 summary: NVIDIA and Palantir Announce Sovereign AI Stack for Supply Chains Unite.AI
 first_seen: '2026-09-10T09:27:01Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA and Palantir Announce Sovereign AI Stack for Supply Chains
+# NVIDIA and Palantir Sovereign AI Stack
 
 NVIDIA and Palantir Announce Sovereign AI Stack for Supply Chains Unite.AI
 

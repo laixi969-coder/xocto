@@ -369,3 +369,50 @@
   usage_reason: 用户要完成的任务是：内容创作者、社交媒体运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Content Creators, Social Media Managers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-easel-2026-09-12
+  project_slug: easel
+  level: full
+  reviewed_at: '2026-09-12T00:44:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称其为覆盖小红书、抖音的社媒 AI 智能体，但全部证据指向 Inventables 的 CNC 设计软件 Easel，产品身份与证据不一致，无法还原社媒用户任务、痛点与替代方式，价值结构无从成立。
+    evidence_ids:
+    - ev-427d5e2388967555
+    - ev-27978520b988b49a
+    - ev-8831ac4f1ebe7dde
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源社媒智能体的官方仓库 README、release 与 issue/discussion，确认其真实产品身份、支持平台与部署方式，并与 Inventables
+    的 CNC 软件 Easel 明确区分。
+  market: ''
+  job: 候选摘要称 Easel 是面向小红书、抖音、知乎、哔哩哔哩的开源 AI 社交媒体智能体，但全部已采集证据指向 Inventables 的 CNC 设计软件 Easel：用户登录后设计、预览雕刻并驱动
+    CNC 机器。两者不是同一产品，无法还原真实使用场景。
+  job_en: The candidate summary describes Easel as an open-source AI social media agent for Xiaohongshu,
+    Douyin, Zhihu and Bilibili, but every collected evidence item points to Inventables' Easel CNC design
+    software, where users log in to design, preview a carve and drive a CNC machine. The two are not the
+    same product, so no real usage scenario can be reconstructed.
+  pain: 公开证据只说明 CNC 用户需要把设计转成刀路并驱动机器，未记录社交媒体内容创作者的任何痛点、频率或不解决的后果；候选摘要中的社媒痛点没有任何已采集证据支撑。
+  pain_en: The public evidence only shows CNC users needing to turn designs into toolpaths and drive a
+    machine; it records no pain, frequency or consequence for social media content creators, and the social-media
+    pain in the candidate summary has no collected evidence behind it.
+  current_alternative: 证据显示 CNC 用户此前依赖其他设计/加工软件或手工操作机器；社媒创作者当前的替代方式在已采集材料中完全没有记录。
+  current_alternative_en: The evidence shows CNC users previously relied on other design/machining software
+    or manual machine operation; the current alternatives for social media creators are entirely absent
+    from the collected materials.
+  usage_reason: 无法给出使用理由：候选产品身份与证据指向的产品不一致，既不能说明社媒创作者为何选择它，也不能把 CNC 软件的功能当作社媒智能体的采用动机。
+  usage_reason_en: 'No usage reason can be given: the candidate product identity does not match the product
+    the evidence points to, so it is impossible to explain why social media creators would choose it,
+    and CNC software features cannot be treated as adoption motives for a social media agent.'

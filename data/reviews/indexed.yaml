@@ -192,3 +192,43 @@
   usage_reason: 用户要完成的任务是：个人用户、AI 代理开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Individual Users, AI Agent Developers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-indexed-2026-09-12
+  project_slug: indexed
+  level: full
+  reviewed_at: '2026-09-12T00:44:48Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有词典对 indexed 一词的释义，未说明产品解决什么需求、什么痛点，连用户任务和旧替代都无法还原，价值结构无法成立。
+    evidence_ids:
+    - ev-a2574d6849c95199
+    - ev-84602b224332c0a7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库的 README、issue 与 discussion，确认其具体输入材料、处理动作与交付物，以及是否有真实用户使用记录。
+  market: ''
+  job: 公开材料仅称其为面向人类和 AI 代理的多模态视频记忆系统，未说明谁在什么情况下处理什么视频材料、要完成什么具体任务。
+  job_en: Public materials only describe it as a multimodal video memory for humans and AI agents, without
+    specifying who processes what video material in what situation to complete what task.
+  pain: 公开材料未说明用户遇到的具体痛点、发生频率或不解决的后果；现有证据全部是词典对 indexed 一词的释义，与产品无关。
+  pain_en: Public materials do not describe any specific user pain, frequency, or consequence of leaving
+    it unsolved; all available evidence is dictionary definitions of the word 'indexed', unrelated to
+    the product.
+  current_alternative: 公开材料未说明用户目前如何完成视频记忆或检索任务，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently handle video memory or retrieval
+    tasks, nor what old approach it replaces.
+  usage_reason: 无法判断：现有证据均为词典释义，未提供任何产品能力、用户反馈或使用场景，无法解释用户为什么会选择它。
+  usage_reason_en: 'Cannot be determined: all available evidence consists of dictionary definitions, providing
+    no product capability, user feedback, or usage scenario to explain why a user would choose it.'

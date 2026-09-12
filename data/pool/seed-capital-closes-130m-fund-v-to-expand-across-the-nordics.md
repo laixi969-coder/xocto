@@ -1,6 +1,6 @@
 ---
 slug: seed-capital-closes-130m-fund-v-to-expand-across-the-nordics
-name: Seed Capital closes €130M Fund V to expand across the Nordics
+name: Seed Capital
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Copenhagen-based Seed Capital has closed its Fund V at €130 million. 
   of €...
 first_seen: '2026-09-11T07:50:00Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Seed Capital closes €130M Fund V to expand across the Nordics
+# Seed Capital
 
 Copenhagen-based Seed Capital has closed its Fund V at €130 million. The firm, which has spent 20 years backing founders at seed through Series A, will invest in 15-17 companies with first checks of €...
 

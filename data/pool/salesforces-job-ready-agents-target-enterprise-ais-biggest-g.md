@@ -1,6 +1,6 @@
 ---
 slug: salesforces-job-ready-agents-target-enterprise-ais-biggest-g
-name: Salesforce’s Job-Ready Agents Target Enterprise AI’s Biggest Gap
+name: Salesforce
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxPV3JKWEhrNHlB
 summary: Salesforce’s Job-Ready Agents Target Enterprise AI’s Biggest Gap The Futurum Group
 first_seen: '2026-09-11T13:37:36Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Salesforce’s Job-Ready Agents Target Enterprise AI’s Biggest Gap
+# Salesforce
 
 Salesforce’s Job-Ready Agents Target Enterprise AI’s Biggest Gap The Futurum Group
 

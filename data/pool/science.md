@@ -21,7 +21,7 @@ canonical_url: https://science.org/content/article/how-ai-math-breakthrough-igni
 summary: How An AI math breakthrough ignited a controversy
 first_seen: '2026-09-09T10:25:41Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

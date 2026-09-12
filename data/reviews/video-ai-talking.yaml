@@ -225,3 +225,54 @@
   usage_reason: 用户要完成的任务是：真人口播创作者、短视频运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Talking-head creators, Short video operators Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-video-ai-talking-2026-09-12
+  project_slug: video-ai-talking
+  level: full
+  reviewed_at: '2026-09-12T00:47:13Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是口播创作者不愿反复对镜头念稿、又要持续产出竖屏口播视频的需求；重录需重新布光收音背稿并多次 NG，不解决的后果是更新频率被出镜成本卡住。旧做法是本人重录、回避出镜或上传素材到云端数字人服务。产品以“已有出镜视频+字幕→本机配音对口型→竖屏
+      MP4”的闭环交付，属工作流结构推理，公开仓库说明支持该闭环。
+    evidence_ids:
+    - ev-af3cd437362b1a6d
+    - ev-43a7f3bbfc1b439d
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 222 持续升至 383，说明该工作流被开发者与创作者社区持续关注并收藏，属于可归因到该产品的关注度证据；但收藏不等于留存或复购，尚无用户评价或案例说明它已长期留在工作流里，故共识仅到关注层。
+    evidence_ids:
+    - ev-af3cd437362b1a6d
+    - ev-43a7f3bbfc1b439d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，无法判断钱来自 to C 创作者订阅、to B 团队采购还是仅靠开源捐赠；这是判断而非已验证事实，商业路径缺口不反推需求不存在。
+    evidence_ids:
+    - ev-af3cd437362b1a6d
+  - gate: truth
+    status: insufficient
+    reason: 本机配音与对口型的实际成片质量、竖屏合成是否稳定、以及真人肖像与声音使用的授权边界，均缺可复现的公开证据；仓库说明只描述流程，未提供交付质量或安全边界的验证材料。
+    evidence_ids:
+    - ev-af3cd437362b1a6d
+    - ev-43a7f3bbfc1b439d
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开贴出实际成片、部署方式与使用场景，以核验交付质量与持续使用情况。
+  market: ''
+  job: 真人口播创作者或短视频运营者已有一段真人出镜素材，需要按新文案产出竖屏口播视频：上传出镜视频、写好字幕，在本机完成配音与对口型，导出竖屏 MP4，用于短视频发布。
+  job_en: 'A talking-head creator or short-video operator who already has real on-camera footage needs
+    to produce a vertical talking-head video for a new script: upload the footage, write subtitles, run
+    voice-over and lip-sync locally, and export a vertical MP4 for short-video publishing.'
+  pain: 口播内容需要持续更新，但创作者不愿反复对镜头念稿；重录要重新布光、收音、背稿并多次 NG，出镜状态和口误还会拖长单条视频的制作周期。
+  pain_en: Talking-head content must be published continuously, yet creators do not want to repeatedly
+    perform scripts on camera; re-shooting means re-lighting, re-recording audio, memorizing lines and
+    multiple retakes, and on-camera slips stretch the production cycle of each video.
+  current_alternative: 旧做法是本人反复对镜头重录，或改用纯字幕/图文/素材混剪回避出镜，或使用云端数字人、在线对口型服务，但后者需要把真人素材和 API 密钥上传到第三方。
+  current_alternative_en: The old approach is to re-shoot oneself on camera repeatedly, or to avoid appearing
+    on camera by using text-only, image, or stock-footage edits, or to use cloud digital-human and online
+    lip-sync services that require uploading real footage and API keys to a third party.
+  usage_reason: 推断：相较重录或云端数字人，它把“重新出镜表演”这一步替换为“复用一段已有出镜视频 + 字幕驱动本机配音与对口型”，创作者只需准备文案和字幕即可得到新的竖屏口播成片；密钥只留在浏览器、素材不出本机，使在意素材与密钥外泄的创作者在需要批量更新口播时更可能选择它。
+  usage_reason_en: 'Inference: compared with re-shooting or cloud digital humans, it replaces the step
+    of performing on camera again with reusing one existing on-camera clip plus subtitle-driven local
+    voice-over and lip-sync, so the creator only needs a script and subtitles to get a new vertical talking-head
+    video; keeping keys in the browser and footage off remote servers makes it more likely to be chosen
+    by creators who care about footage and key leakage when updating talking-head content in b'

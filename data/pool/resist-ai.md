@@ -21,7 +21,7 @@ canonical_url: https://ronjeffries.com/articles/-v026/x/t
 summary: ''
 first_seen: '2026-09-11T10:19:59Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

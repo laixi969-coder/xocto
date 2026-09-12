@@ -217,3 +217,61 @@
   usage_reason: 用户要完成的任务是：视频编辑、内容创作者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Video editors, Content creators Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-short-video-generator-ai-2026-09-12
+  project_slug: short-video-generator-ai
+  level: full
+  reviewed_at: '2026-09-12T00:46:45Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频二次分发中切条、字幕、翻译、配音多工具串联的痛点，旧流程需人工通看全片找高光并逐条打轴，耗时且依赖经验，不做则长视频只吃一次流量；公开仓库说明已把四步合成一条流水线，交付物明确为多条竖屏短片，属工作流结构推理，痛点刚性与交付确定性成立。
+    evidence_ids:
+    - ev-f6d509d15c5707c0
+    - ev-0d1eb8392145f382
+  - gate: consensus
+    status: supported
+    reason: 同一仓库收藏数从 603 增至 1,169，另有同名仓库从 120 增至 458，说明开发者持续关注并复刻；但公开材料只有收藏与复刻，没有用户评价或案例说明它已长期留在剪辑工作流中，故共识成立而持续采用仍属推断。
+    evidence_ids:
+    - ev-f6d509d15c5707c0
+    - ev-0d1eb8392145f382
+    - ev-c37e341596bc3844
+    - ev-bd1f0d8862e3ce04
+  - gate: model
+    status: insufficient
+    reason: 项目自述为免费开源，公开材料未见定价页、赞助、托管服务或企业采购记录，钱可能来自自托管用户的隐性人力成本或后续商业化，但 to C、to B 还是 to VC 均无公开证据，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f6d509d15c5707c0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述高光检测、字幕、翻译、配音四项能力，未见部署文档、输出样例、issue 讨论或可复现实测，无法核对成片质量、翻译配音准确度与人工复核边界，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-f6d509d15c5707c0
+    - ev-8953910189cacbbb
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认是否有可复现的输出样例、实际部署者反馈及高光检测与翻译配音的质量边界。
+  market: ''
+  job: 内容创作者或短视频运营者手上有一条已发布的 YouTube 长视频（访谈、播客、课程、直播回放），需要在发布后短时间内把它切成多条带字幕、可翻译配音的竖屏短视频，投放到 TikTok、Reels、Shorts
+    等平台以获取二次分发流量。
+  job_en: A content creator or short-video operator holds an already-published long YouTube video (interview,
+    podcast, course, livestream replay) and needs to cut it into multiple vertical short clips with subtitles
+    and translated voiceover within a short window after release, to redistribute on TikTok, Reels and
+    Shorts for secondary reach.
+  pain: 长视频转短视频的旧流程要人工通看全片找高光点、手动切条、逐条打轴字幕、再另找工具翻译配音，一条长视频产出多条短片往往要数小时到一天，且高光点判断依赖个人经验，漏掉爆点或节奏拖沓会直接影响二次分发效果；不做这件事则长视频只能吃一次流量。
+  pain_en: The legacy workflow requires watching the whole long video to find highlights, cutting clips
+    manually, timing subtitles clip by clip, then using separate tools for translation and voiceover;
+    producing several shorts from one long video often takes hours to a day, highlight selection depends
+    on personal judgement, and skipping the work means the long video only captures traffic once.
+  current_alternative: 当前替代方式是人工剪辑软件（Premiere、剪映、CapCut）逐条切条加字幕，或使用 Opus Clip、Vizard、Submagic 等商业 SaaS
+    自动切片，再叠加单独的翻译/配音工具；开源侧则自行拼装 Whisper 转写加脚本。
+  current_alternative_en: Today users either cut and subtitle clip by clip in Premiere, CapCut or Jianying,
+    or use commercial SaaS such as Opus Clip, Vizard and Submagic for auto-clipping, then bolt on separate
+    translation/voiceover tools; on the open-source side they assemble Whisper transcription plus custom
+    scripts.
+  usage_reason: 推断：相较人工逐条剪辑，该开源项目把高光检测、字幕、翻译、配音串成一条流水线，用户只需提供 YouTube 链接即可拿到多条成片，省掉通看全片找高光、逐条打轴和跨工具搬运三步；相较商业
+    SaaS，它免费且可自托管，因此预算敏感、愿意自行部署的独立创作者和小团队会在批量产出多语言短片时选择它。
+  usage_reason_en: 'Inference: versus manual clip-by-clip editing, this open-source project chains highlight
+    detection, subtitles, translation and voiceover into one pipeline, so the user supplies a YouTube
+    link and gets multiple finished clips, removing the steps of watching the full video for highlights,
+    timing each subtitle and moving files across tools; versus commercial SaaS it is free and self-hostable,
+    so budget-sensitive independent creators and small teams willing to deploy it themselve'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdjVtbXFVYU1y
 summary: AI支付长出手脚 金融科技换了面孔 shobserver.com
 first_seen: '2026-09-11T08:22:52Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

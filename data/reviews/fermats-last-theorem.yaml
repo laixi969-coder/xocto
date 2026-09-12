@@ -262,3 +262,43 @@
     Theorem, possibly related to mathematical reasoning or formal verification, but specific functions
     are undisclosed. Public materials do not yet explain why users choose this product over their existing
     approach.'
+- id: req-full-fermats-last-theorem-2026-09-12
+  project_slug: fermats-last-theorem
+  level: full
+  reviewed_at: '2026-09-12T00:44:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有仓库名与收藏数，未披露功能、输入输出或使用方式，无法还原用户任务、痛点与不解决的后果，连需求与痛点都写不出来，故不构成价值判断。
+    evidence_ids:
+    - ev-a896fdddff79bb3d
+    - ev-ee3b3297ba715ef2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、docs 目录与 issue/discussion，确认其实际功能、输入输出与使用场景，作为判断需求结构的第一条公开证据。
+  market: ''
+  job: 公开材料只显示这是 Anthropic 发布、以费马大定理命名的 公开代码仓库 仓库，未披露任何 README、文档或功能说明，因此无法写明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public materials show only a public code repository repository released by Anthropic and named
+    after Fermat's Last Theorem, with no README, docs, or feature description, so it is impossible to
+    state who handles what material in what situation to complete what task.
+  pain: 没有任何公开材料说明目标用户的具体痛点、发生频率或不解决的后果；仓库名称本身不构成痛点证据。
+  pain_en: No public material describes a concrete user pain, its frequency, or the consequence of leaving
+    it unsolved; the repository name alone is not pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧流程或工具。
+  current_alternative_en: Public materials do not show how users currently do the related work, nor what
+    prior process or tool this repository replaces.
+  usage_reason: 无法判断用户为何会选择它：缺少功能说明、输入输出、使用方式与任何用户反馈，仅凭仓库名称和收藏数不能解释采用动机。
+  usage_reason_en: 'Why users would choose it cannot be judged: there is no feature description, input/output,
+    usage path, or user feedback, and a repository name plus star count cannot explain adoption motivation.'

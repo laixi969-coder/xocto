@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UMGZ5WFRSV2RH
 summary: 星算科技在澳门新葡京游戏下载智能算力大会上发布新一代AI算力平台 体坛加
 first_seen: '2026-09-11T03:42:24Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

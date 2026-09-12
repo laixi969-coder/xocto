@@ -337,3 +337,50 @@
   usage_reason: 公开代码仓库有 56 个收藏、12 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 56 stars and 12 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-ai-short-drama-2026-09-12
+  project_slug: ai-short-drama
+  level: full
+  reviewed_at: '2026-09-12T00:43:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多集短剧连载中人物设定与伏笔跨集漂移、生成中断难续跑的问题，痛点随集数累积且返工刚性；公开说明已给出输入（题材）、动作（故事骨架、连续性校验、可续跑工作流）与交付（分集钩子与镜头时间线），据此可作工作流结构推理判定需求成立，但尚无用户口述或案例佐证强度。
+    evidence_ids:
+    - ev-f9be725bff59a524
+    - ev-2b83b190b59ae1cd
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有56个收藏，说明开发者已注意到该项目，但收藏属关注度而非持续采用；缺少issue、discussion或用户反馈说明谁在真实多集项目中反复使用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-f9be725bff59a524
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，无法判断钱来自个人创作者、短剧工作室还是平台；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-2b83b190b59ae1cd
+  - gate: truth
+    status: insufficient
+    reason: 连续性校验与可续跑工作流的实际交付稳定性、生成失败时的人工边界与安全约束，均无公开可复现证据；仓库说明只描述能力，未证明承诺能确定性兑现。
+    evidence_ids:
+    - ev-f9be725bff59a524
+  next_validation: 追踪该公开代码仓库仓库的issue与discussion，确认是否有创作者报告在多集短剧项目中实际使用连续性校验与可续跑工作流，以及中断续跑是否按承诺交付。
+  market: ''
+  job: 短剧编剧或AI短剧创作者在Codex/Claude Code里处理一个多集短剧题材，需要产出可连载的故事骨架、分集钩子和跨集一致的人物与镜头时间线，使十集剧本人物不崩、每集留钩子。
+  job_en: A short-drama writer or AI-drama creator working in Codex/Claude Code takes a multi-episode
+    premise and must produce a serializable story spine, per-episode hooks, and character/shot continuity
+    across ten episodes so nobody breaks character and every episode ends on a hook.
+  pain: 多集短剧靠单次生成时，人物设定、伏笔和镜头描述会在后续集数漂移，作者要反复回贴前文、手工校对连续性，且生成中断后难以续跑，返工成本随集数累积。
+  pain_en: When multi-episode shorts are generated in one pass, character settings, foreshadowing, and
+    shot descriptions drift in later episodes; the writer must repeatedly re-paste prior context and hand-check
+    continuity, and interrupted generation is hard to resume, so rework compounds with episode count.
+  current_alternative: 当前替代是直接用通用大模型逐集对话生成，靠人工维护设定文档和复制粘贴前文来维持连续性，或使用通用剧本/分镜工具手工编排。
+  current_alternative_en: Today users generate episode-by-episode with general LLMs, manually maintaining
+    a settings document and pasting prior context to hold continuity, or hand-assemble in generic script/storyboard
+    tools.
+  usage_reason: 推断：相较逐集对话加人工维护设定，它把故事骨架、连续性校验和可续跑工作流固化进Codex/Claude Code，减少每集重新粘贴前文和手工核对人物一致性的步骤，因此需要批量产出连载短剧、且已在用这两个编码代理的创作者会在多集项目中选择它。
+  usage_reason_en: 'Inference: versus episode-by-episode chat plus manual settings upkeep, it bakes the
+    story spine, continuity validation, and resumable workflow into Codex/Claude Code, cutting the per-episode
+    re-pasting of prior context and manual character-consistency checks, so creators producing serial
+    shorts in batches who already use these coding agents would pick it for multi-episode projects.'

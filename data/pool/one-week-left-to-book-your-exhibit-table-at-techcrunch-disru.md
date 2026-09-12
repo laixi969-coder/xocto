@@ -22,7 +22,7 @@ summary: Only one week left to secure your exhibit table. Tables are limited and
   September 18 deadline.
 first_seen: '2026-09-11T20:33:18Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -146,3 +146,52 @@
   usage_reason: 用户要完成的任务是：产品营销经理、视频编辑、电商运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Product Marketing Manager, Video Editor, E-commerce Operator Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-ai-apple-video-2026-09-12
+  project_slug: ai-apple-video
+  level: full
+  reviewed_at: '2026-09-12T00:43:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决普通产品缺少高端视频素材、自建发布会级视频成本高的问题；痛点来自制作门槛与投放需求，交付为约30秒成片，结构上可确定。属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-53578d556a37aeec
+    - ev-4ccb4e17648fbd1c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从47增至105，说明开发者社区持续关注，但收藏与关注不等于目标营销用户的实际采用或持续使用，缺少用户评价与使用案例。
+    evidence_ids:
+    - ev-53578d556a37aeec
+    - ev-4ccb4e17648fbd1c
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能，公开材料未披露定价、付费主体或商业路径；谁付钱尚不清楚，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-53578d556a37aeec
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成视频的稳定性、素材版权与品牌风格合规边界，交付能否确定性发生缺少可复现证据。
+    evidence_ids:
+    - ev-4ccb4e17648fbd1c
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有真实用户部署案例、生成样例与使用反馈，以核验交付稳定性与采用情况。
+  market: ''
+  job: 电商卖家或产品营销人员在需要为普通商品制作投放素材时，把产品图片或现有素材输入该开源技能，按苹果发布会风格生成约30秒的高端产品视频，用于社交媒体或广告投放。
+  job_en: An e-commerce seller or product marketer preparing ad creative for an ordinary product inputs
+    product images or existing assets into this open-source skill to generate a roughly 30-second Apple-keynote-style
+    premium product video for social media or ad placement.
+  pain: 普通产品缺少高端视觉包装，自建发布会级视频需要脚本、分镜、拍摄、剪辑与调色，中小卖家难以承担时间与制作成本；不解决的后果是素材质感弱、投放转化受限。这是从产品说明与工作流结构推出的判断。
+  pain_en: Ordinary products lack premium visual packaging, and producing keynote-grade video in-house
+    requires scripting, storyboarding, shooting, editing and grading that small sellers cannot easily
+    afford; leaving it unsolved means weaker creative and constrained ad conversion. This is inferred
+    from the product description and workflow structure.
+  current_alternative: 当前替代方式包括外包视频制作团队、使用通用AI视频工具自行拼凑，或直接使用产品实拍图与模板化剪辑；公开材料未说明这些替代的具体成本与频率。
+  current_alternative_en: Current alternatives include outsourcing to video production teams, assembling
+    generic AI video tools by hand, or using plain product photos and template edits; public materials
+    do not specify their concrete cost or frequency.
+  usage_reason: 推断：相较外包或通用工具拼凑，该技能把苹果发布会风格固化为可复用流程，用户只需提供产品素材即可得到成片，减少脚本与风格设计环节；需要快速产出高端质感投放素材的电商卖家会因此选择它。
+  usage_reason_en: 'Inference: versus outsourcing or stitching generic tools, this skill encodes the Apple-keynote
+    style into a reusable pipeline so users only supply product assets to get a finished clip, removing
+    scripting and style-design steps; e-commerce sellers needing fast premium ad creative would choose
+    it for that reason.'

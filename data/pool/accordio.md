@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/accordio
 summary: Give Claude the admin tools is missing
 first_seen: '2026-09-11T00:18:55Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

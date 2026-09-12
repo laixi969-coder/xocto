@@ -1,6 +1,6 @@
 ---
 slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
-name: Legal AI Startup Harvey Hits $15.6 Billion Value With $550 Million Round
+name: Harvey
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQTWExU3E3aE81
 summary: Legal AI Startup Harvey Hits $15.6 Billion Value With $550 Million Round Bloomberg.com
 first_seen: '2026-09-09T11:30:01Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Legal AI Startup Harvey Hits $15.6 Billion Value With $550 Million Round
+# Harvey
 
 Legal AI Startup Harvey Hits $15.6 Billion Value With $550 Million Round Bloomberg.com
 

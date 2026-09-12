@@ -21,7 +21,7 @@ canonical_url: https://github.com/eminsk/nanovector
 summary: A 120KB zero-dependency vector search engine in C and SIMD
 first_seen: '2026-09-11T12:04:00Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dyson-humidifier
 summary: Precision-floss between teeth while you brush
 first_seen: '2026-09-02T05:33:12Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

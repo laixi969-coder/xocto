@@ -75,3 +75,55 @@
   usage_reason: 代码仓库星标 151 表明初步关注，但具体用户采用和交付质量未验证。
   usage_reason_en: 151 stars on the code repository indicate initial interest, but specific user adoption
     and deliverable quality unverified.
+- id: req-full-useagent-2026-09-12
+  project_slug: useagent
+  level: full
+  reviewed_at: '2026-09-12T00:47:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把整块工作交给代理并拿回成品这一需求，痛点是现有编码助手只给片段、用户仍需自行串联工具与整合，且跨工具交接耗时；公开说明已能还原输入、云端执行与交付物，属工作流结构推理，痛点刚性中等偏上。
+    evidence_ids:
+    - ev-9be53db4e1c91106
+    - ev-c4d627a7e9644a3c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 281 缓慢升至 286 后回落至 283，属关注度而非持续采用；未见用户讨论、案例或复购证据，共识尚未形成。
+    evidence_ids:
+    - ev-9be53db4e1c91106
+    - ev-27d255c1af8a67fd
+    - ev-fa4bb3904e0d5d02
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费路径，只能推断其借用户自带的 Claude Code、Codex 订阅运行，开源项目本身如何向团队收费尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9be53db4e1c91106
+    - ev-c4d627a7e9644a3c
+  - gate: truth
+    status: insufficient
+    reason: 交付物类型明确，但云端代理执行整块任务时的权限边界、人工复核点与失败回退机制均未公开，承诺能否确定性交付缺少可核对材料。
+    evidence_ids:
+    - ev-9be53db4e1c91106
+    - ev-83fe80d6bd9d033f
+  next_validation: 追踪 useagent 官方仓库的 README、issues 与 discussion，确认是否有真实交付示例、权限边界说明及团队付费或部署方式。
+  market: ''
+  job: 开发者或产品经理在需要产出网站、演示文稿、电子表格、报告或 PR 时，把任务连同团队工具与上下文交给一个拥有独立云电脑的代理，由代理在云端执行并交回成品，而不是自己逐段编写再拼接。
+  job_en: A developer or PM who needs a website, deck, spreadsheet, report or PR hands the task plus team
+    tools and context to an agent with its own cloud computer, which executes in the cloud and returns
+    a finished artifact instead of the user writing and stitching fragments by hand.
+  pain: 公开材料显示旧做法是用户自己驱动编码助手逐段生成再手工整合，或走外包与人工制作；任务跨多个工具和上下文，交接与整合环节耗时，且现有助手只给片段不给成品。
+  pain_en: The public material implies the old path is driving a coding assistant fragment by fragment
+    and integrating manually, or outsourcing and hand-building; work spans multiple tools and context,
+    so handoff and integration cost time, and existing assistants return snippets rather than finished
+    artifacts.
+  current_alternative: 使用 Claude Code、Codex、OpenCode 等编码助手生成代码片段后自行整合，或把整块工作外包给人工团队。
+  current_alternative_en: Using coding assistants such as Claude Code, Codex or OpenCode to generate snippets
+    and integrate them manually, or outsourcing the whole chunk of work to a human team.
+  usage_reason: 推断：相较逐段生成再手工拼接，它把任务连同团队工具与上下文交给带独立云电脑的代理，由代理在云端完成执行并直接交回网站、演示文稿、报告或 PR，省去用户自己串联工具和整合片段这一步；需要整块成品而非代码片段的开发者或产品经理会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus generating fragments and stitching them by hand, it hands the task
+    plus team tools and context to an agent with its own cloud computer that executes in the cloud and
+    returns the website, deck, report or PR directly, removing the step where the user wires tools together
+    and integrates fragments; developers or PMs who need a whole artifact rather than snippets would choose
+    it in that situation.'

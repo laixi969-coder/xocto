@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Cc0Y3RXUxVmJK
 summary: 网上申博投注全新AI推荐系统上线，提升用户个性化体验 体坛加
 first_seen: '2026-09-11T10:46:33Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,80 @@
+- id: req-initial-design-studio-by-monday-merch-2026-09-12
+  project_slug: design-studio-by-monday-merch
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决定制周边的设计与选品衔接，但资料未说明旧流程痛点与 AI 承担的具体动作，价值结构无法还原。
+    evidence_ids:
+    - ev-931845dacbe8c35d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、采用或场景讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-931845dacbe8c35d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-931845dacbe8c35d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未说明人工确认边界。
+    evidence_ids:
+    - ev-931845dacbe8c35d
+  next_validation: 收集 Design Studio 官方定价页或客户案例，确认按什么计价、由谁采购以及交付周期。
+  market: ''
+  job: 品牌市场或活动运营人员要为门店、员工或赛事准备定制周边，需要把图案放到具体商品上确认效果并下单。
+  job_en: Brand marketing or event staff preparing custom merch for stores, employees or events need to
+    place artwork on specific products, confirm the look and place an order.
+  pain: 候选资料只说明可在浏览器画布上设计 1000 多款商品，没有说明旧流程中哪一步最痛、谁在手工做，痛点无法确认。
+  pain_en: The material only says users can design across 1,000+ products on a browser canvas; it does
+    not identify which step of the old process hurts or who does it manually, so the pain cannot be confirmed.
+  current_alternative: 现有替代方式可能是通用设计软件加人工与供应商逐项确认，但候选资料未提供任何替代行为描述。
+  current_alternative_en: The current alternative may be generic design software plus manual supplier-by-supplier
+    confirmation, but the candidate material provides no description of actual alternative behavior.
+  usage_reason: 无法判断：资料未说明 AI 接收什么、执行什么动作，也未说明相较旧做法减少了哪一步负担，因此不能给出用户选择它的理由。
+  usage_reason_en: 'Cannot be judged: the material does not say what AI receives or does, nor which step
+    of the old workflow it removes, so no reason for users to choose it can be given.'
+- id: req-full-design-studio-by-monday-merch-2026-09-12
+  project_slug: design-studio-by-monday-merch
+  level: full
+  reviewed_at: '2026-09-12T00:44:15Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决定制周边的设计与选品衔接，但资料未说明旧流程痛点与 AI 承担的具体动作，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-59b52b8c7fda8c76
+    - ev-a54a4feb594af822
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Design Studio by Monday Merch 官方定价页或客户案例，确认按什么计价、由谁采购以及交付周期。
+  market: ''
+  job: 品牌市场或活动运营人员为门店、员工或赛事准备定制周边时，把图案放到具体商品上确认效果并下单。
+  job_en: Brand marketing or event staff preparing custom merch for stores, employees or events place
+    artwork on specific products, confirm the look and place an order.
+  pain: 候选资料只说明可在浏览器画布上设计 1000 多款商品，未说明旧流程中哪一步最痛、谁在手工做，痛点无法确认。
+  pain_en: The material only says users can design across 1,000+ products on a browser canvas; it does
+    not identify which step of the old process hurts or who does it manually, so the pain cannot be confirmed.
+  current_alternative: 现有替代可能是通用设计软件加人工逐家与供应商确认，但候选资料未提供任何替代行为描述。
+  current_alternative_en: The current alternative may be generic design software plus manual supplier-by-supplier
+    confirmation, but the candidate material provides no description of actual alternative behavior.
+  usage_reason: 无法判断：资料未说明 AI 接收什么、执行什么动作，也未说明相较旧做法减少哪一步负担，因此给不出用户选择它的理由。
+  usage_reason_en: 'Cannot be judged: the material does not say what AI receives or does, nor which step
+    of the old workflow it removes, so no reason for users to choose it can be given.'

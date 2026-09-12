@@ -3,11 +3,12 @@ slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
 name: MiniMax
 builder: ''
 category: 通用助手
-summary_zh: MiniMax 是一家 AI 公司，提供多模态大模型和 AI 原生产品，包括海螺AI、MiniMax Code、MiniMax Design、MiniMax Audio、星野等，面向全球用户和企业提供智能体验。
+summary_zh: MiniMax 是模型与视频生成能力提供方，本次公开材料只给出收入接近翻两番、模型在第三方网关打折、以及第三方称视频出片速度提升等事实，未提供可核验的客户、定价或留存细节，因此作为模型供给与价格变化的行业背景处理。
 inspiration: 趋势是 AI 公司收入高速增长，多模态能力成为竞争焦点。切入可从垂直行业应用如内容创作、音频生成等细分场景，提供定制化解决方案。
-summary_en: MiniMax is an AI company offering multimodal large models and AI-native products, including
-  Hailuo AI, MiniMax Code, MiniMax Design, MiniMax Audio, Xingye, etc., providing intelligent experiences
-  to global users and enterprises.
+summary_en: MiniMax supplies model and video-generation capabilities; the public material here only states
+  near-quadrupling revenue, a discount on a third-party gateway, and third-party claims about faster video
+  output, with no verifiable customer, pricing or retention detail, so it is treated as industry context
+  on model supply and pricing.
 inspiration_en: Trend is AI companies' rapid revenue growth, with multimodal capabilities becoming a competitive
   focus. Entry could be vertical applications like content creation or audio generation, offering customized
   solutions.
@@ -33,7 +34,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9X
 summary: China’s MiniMax sees revenue nearly quadruple in first half as AI demand surges WTVB
 first_seen: '2026-08-26T11:23:49Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - officialfeeds

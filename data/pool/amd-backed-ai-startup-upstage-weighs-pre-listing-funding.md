@@ -1,6 +1,6 @@
 ---
 slug: amd-backed-ai-startup-upstage-weighs-pre-listing-funding
-name: AMD-Backed AI Startup Upstage Weighs Pre-Listing Funding
+name: Upstage
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNUkhQd2h4Yllm
 summary: AMD-Backed AI Startup Upstage Weighs Pre-Listing Funding marketscreener.com
 first_seen: '2026-09-10T19:07:18Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AMD-Backed AI Startup Upstage Weighs Pre-Listing Funding
+# Upstage
 
 AMD-Backed AI Startup Upstage Weighs Pre-Listing Funding marketscreener.com
 

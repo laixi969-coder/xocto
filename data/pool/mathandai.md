@@ -21,7 +21,7 @@ canonical_url: https://mathandai.org
 summary: A misalignment of AI in mathematics
 first_seen: '2026-09-11T17:45:12Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

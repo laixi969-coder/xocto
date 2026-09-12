@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/BananaMind/BananaMind-SLM-Leaderboa
 summary: ''
 first_seen: '2026-09-11T12:01:52Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

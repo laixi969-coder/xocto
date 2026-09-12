@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1jZFVxMEU2TjY1
 summary: 'Generative AI for Manufacturing: Use Cases & Benefits appinventiv.com'
 first_seen: '2026-09-11T05:21:21Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

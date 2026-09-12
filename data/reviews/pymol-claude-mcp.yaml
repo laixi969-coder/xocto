@@ -214,3 +214,60 @@
   usage_reason: 用户要完成的任务是：结构生物学家、计算化学家；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Structural biologists, Computational chemists Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-pymol-claude-mcp-2026-09-12
+  project_slug: pymol-claude-mcp
+  level: full
+  reviewed_at: '2026-09-12T00:46:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决结构生物学家/计算化学家在实时 PyMOL 会话中做分子可视化与结构分析的需求，痛点是 PyMOL 命令语法与脚本门槛带来的意图到命令的翻译成本；不采用则需手动查文档、逐条敲命令或写脚本。公开仓库说明其通过
+      XML-RPC 把 Claude Code 指令落到实时会话，交付路径可确定；这是工作流结构推理，尚无用户痛点或耗时数据。
+    evidence_ids:
+    - ev-8b71012c36df06c2
+    - ev-8a222ae0f26ff2f3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 44 增至 55，说明有开发者关注，但公开材料没有 issue、discussion 或用户评价说明谁在何种场景持续使用；关注度不能替代采用证据，也无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-8b71012c36df06c2
+    - ev-8a222ae0f26ff2f3
+  - gate: model
+    status: insufficient
+    reason: 这是开源 MCP 服务器，公开材料未显示定价页、付费主体或 to B/to C 收入路径；谁付钱、按什么单位收费尚不可知。这是判断，不是已验证事实，但不反推需求不存在。
+    evidence_ids:
+    - ev-8b71012c36df06c2
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明经 XML-RPC 控制实时 PyMOL 会话，未提供部署文档、可复现实测或安全边界说明；AI 生成命令在结构分析中的错误后果与人工复核边界尚缺公开证据。
+    evidence_ids:
+    - ev-8b71012c36df06c2
+    - ev-375645298628d2f6
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现用户描述的具体使用场景、替代的旧流程以及部署或安全边界说明。
+  market: ''
+  job: 结构生物学家或计算化学家在分析蛋白质/分子结构时，需要把已加载的 PDB 结构在 PyMOL 会话里完成选择、着色、测量、出图等操作，并拿到可用的结构图像或分析结果；他们希望用自然语言指令驱动
+    Claude Code，由 MCP 服务器经 XML-RPC 把动作落到正在运行的 PyMOL 会话上。
+  job_en: A structural biologist or computational chemist analyzing a protein/molecular structure needs
+    to perform selection, coloring, measurement, and figure generation on a loaded PDB structure inside
+    a live PyMOL session, and obtain a usable structural image or analysis result; they want to drive
+    this with natural-language instructions through Claude Code, with the MCP server applying actions
+    to the running PyMOL session over XML-RPC.
+  pain: PyMOL 的操作依赖命令行语法与脚本，非专职写脚本的研究者常需反复查文档、试命令、手动重做视图；把 AI 接入实时会话可减少在“描述意图”和“写出正确 PyMOL 命令”之间的来回翻译成本。这是基于产品能力与工作流结构的推断，公开材料未提供用户抱怨或耗时数据。
+  pain_en: PyMOL operations depend on command-line syntax and scripting, so researchers who are not dedicated
+    scripters often have to re-check documentation, trial commands, and manually redo views; connecting
+    an AI to the live session can reduce the back-and-forth of translating intent into correct PyMOL commands.
+    This is an inference from product capability and workflow structure, not from public user complaints
+    or timing data.
+  current_alternative: 旧做法是手动在 PyMOL GUI 或命令行里逐条输入命令、写 PyMOL 脚本，或把结构导出到其他工具再处理；公开材料未说明用户具体替代了哪一步。
+  current_alternative_en: The existing approach is manually typing commands in the PyMOL GUI or command
+    line, writing PyMOL scripts, or exporting structures to other tools; public materials do not specify
+    which step users actually replace.
+  usage_reason: 推断：相较手动敲 PyMOL 命令或写脚本，该产品通过 MCP 把 Claude Code 的自然语言指令直接转成对实时 PyMOL 会话的 XML-RPC 调用，省去用户自己查语法、拼命令这一步，因此不熟悉
+    PyMOL 脚本、但需要快速出结构图或做结构分析的研究者会在探索性分析场景下选择它。公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with manually typing PyMOL commands or writing scripts, the product
+    uses MCP to turn Claude Code natural-language instructions directly into XML-RPC calls on the live
+    PyMOL session, removing the step of looking up syntax and assembling commands; therefore researchers
+    who are not fluent in PyMOL scripting but need quick structural figures or analysis would choose it
+    in exploratory analysis. Public materials do not yet contain user feedback or cases confirmi'

@@ -201,3 +201,55 @@
   usage_reason: 开源项目获得 77 星，显示视频创作者对 AI 导演工具的初步兴趣，但采用规模尚未核验。
   usage_reason_en: The open-source project has 77 stars, showing initial interest from video creators
     in AI director tools, but adoption scale is not yet verified.
+- id: req-full-minimax-h3-director-cut-studio-2026-09-12
+  project_slug: minimax-h3-director-cut-studio
+  level: full
+  reviewed_at: '2026-09-12T00:45:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 长视频生成中镜头规划、提示词与时间线对齐、镜头感知渲染割裂的问题，痛点在于生成与剪辑之间反复搬运素材；替代方式是 Premiere 手工拼接或 ComfyUI 逐段生成。交付闭环可确定，属工作流结构推理，公开事实仅支持功能描述与仓库存在。
+    evidence_ids:
+    - ev-aa62e767d69c6605
+    - ev-22a514241a8a365b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 102 缓慢升至 113，说明有开发者关注，但公开材料没有用户评价、issue 讨论或持续采用证据，无法确认共识已形成；星标只属关注度，不能证明工作流留存。
+    evidence_ids:
+    - ev-aa62e767d69c6605
+    - ev-01942ef8f32ca1fa
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费路径或买方，开源仓库本身不构成收入模式；可能面向使用 MiniMax H3 Ref2VA 的专业创作者或工作室，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-aa62e767d69c6605
+  - gate: truth
+    status: supported
+    reason: 作为本地 PySide6 工具，它通过 ComfyUI 完成渲染，交付路径不依赖外部托管服务，安全与人工边界清晰；但公开材料未提供渲染质量或失败率的量化验证，确定性属结构推理。
+    evidence_ids:
+    - ev-aa62e767d69c6605
+    - ev-22a514241a8a365b
+  next_validation: 追踪该开源仓库的 issue、discussion 与 release 记录，确认是否有真实用户报告长视频渲染工作流的使用与问题。
+  market: ''
+  job: 使用 MiniMax H3 Ref2VA 生成素材的 AI 视频创作者或导演，在需要把多段生成片段组织成有镜头结构的长视频时，处理视频素材与提示词，要完成镜头规划、时间线提示词对齐和长视频渲染。
+  job_en: AI video creators or directors using MiniMax H3 Ref2VA, when assembling multiple generated clips
+    into a shot-structured long video, handle video assets and prompts to complete shot planning, timeline
+    prompt reconciliation, and long-video rendering.
+  pain: 公开材料显示该工具针对的是长视频生成中镜头规划、提示词与时间线对齐、镜头感知渲染的割裂流程；现有 AI 视频工具缺少对长视频的结构化控制，创作者需在生成与剪辑之间反复搬运素材。
+  pain_en: Public materials indicate the tool targets the fragmented workflow of shot planning, prompt-to-timeline
+    alignment, and shot-aware rendering in long-video generation; existing AI video tools lack structured
+    control over long videos, forcing creators to shuttle assets between generation and editing.
+  current_alternative: 当前替代方式是用 Premiere 等传统剪辑软件手工拼接 AI 生成片段，或直接在 ComfyUI 中逐段生成后自行组织，缺少面向 MiniMax H3 Ref2VA
+    的导演级时间线控制。
+  current_alternative_en: Current alternatives are manually stitching AI-generated clips in traditional
+    editors like Premiere, or generating segment by segment in ComfyUI and organizing them by hand, without
+    director-level timeline control for MiniMax H3 Ref2VA.
+  usage_reason: 推断：相较在 Premiere 与 ComfyUI 之间手工搬运素材，该工具把镜头规划、语义媒体增强、时间线提示词协调和镜头感知渲染收进同一 PySide6 界面，减少逐段对齐提示词与手工拼接的步骤，因此使用
+    MiniMax H3 Ref2VA 制作长视频的创作者会在需要结构化镜头控制时选择它。
+  usage_reason_en: 'Inference: compared with manually moving assets between Premiere and ComfyUI, the
+    tool consolidates shot planning, semantic media enrichment, timeline prompt reconciliation, and shot-aware
+    rendering into one PySide6 interface, reducing per-segment prompt alignment and manual stitching,
+    so creators making long videos with MiniMax H3 Ref2VA would choose it when structured shot control
+    is needed.'

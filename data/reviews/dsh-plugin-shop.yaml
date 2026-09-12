@@ -288,3 +288,55 @@
   usage_reason: 用户要完成的任务是：开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers Public materials do not yet explain why users choose this
     product over their existing approach.'
+- id: req-full-dsh-plugin-shop-2026-09-12
+  project_slug: dsh-plugin-shop
+  level: full
+  reviewed_at: '2026-09-12T00:44:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 DeepSeek Harness 用户找插件时来源分散、需自行甄别可用性与可信度的问题，替代方式是逐仓库搜索；不采用则要承担重复甄别成本或放弃扩展能力。公开事实仅说明“每日更新、互联网收集、发布前审核”，痛点刚性属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-26022095a7bdf14a
+    - ev-4daede9644a52e96
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏数从 265 持续升至 623，说明开发者社区对该目录有持续关注与收藏行为，属于关注度证据；但公开材料没有 issue、discussion 或评价说明用户是否把它留在日常插件获取流程中，持续采用仍未被证实。
+    evidence_ids:
+    - ev-26022095a7bdf14a
+    - ev-4daede9644a52e96
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或任何收入路径，无法判断是 to C 开发者捐赠、to B 赞助还是纯开源维护；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-4daede9644a52e96
+  - gate: truth
+    status: insufficient
+    reason: “发布前审核”的具体标准、审核由谁执行、插件失效或恶意插件的处理机制均未公开，交付能否稳定发生缺少可复现证据；目录每日刷新这一承诺也未见独立核验。
+    evidence_ids:
+    - ev-26022095a7bdf14a
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认审核标准、插件收录流程以及是否有用户报告实际安装使用，作为交付确定性与持续采用的公开证据。
+  market: ''
+  job: DeepSeek Harness 的使用者在需要为 harness 增加新能力（如工具接入、工作流扩展）时，面对散落在互联网各处的插件来源，要在一个每日更新、发布前经过审核的目录里找到并安装可用插件，而不必自己逐个仓库搜索和甄别。
+  job_en: DeepSeek Harness users who need to extend the harness with new capabilities (tool integrations,
+    workflow extensions) must find and install usable plugins from a daily-refreshed, pre-publish-reviewed
+    catalog instead of hunting and vetting scattered repositories themselves.
+  pain: 插件分散在互联网各处，来源、可用性和安全性参差不齐；用户自行搜索要逐个仓库判断是否可用、是否可信，重复劳动且容易装到失效或不可靠的插件。公开材料只给出“从互联网收集、发布前审核、每日更新”这一机制描述，未提供用户抱怨或使用反馈，因此痛点强度属于工作流结构推理。
+  pain_en: Plugins are scattered across the internet with uneven provenance, usability and safety; users
+    searching on their own must vet each repository for validity and trustworthiness, which is repetitive
+    and risks installing broken or unreliable plugins. Public material only describes the collection/review/daily-refresh
+    mechanism, not user complaints, so pain intensity is a workflow-structure inference.
+  current_alternative: 用户目前的做法是自行在 公开代码仓库、论坛或搜索引擎中逐个查找 DeepSeek Harness 插件，手动判断其可用性与可信度，再自行安装；也可能干脆不装插件、只用
+    harness 原生能力。
+  current_alternative_en: Today users search public code repository, forums or search engines one by one
+    for DeepSeek Harness plugins, manually judge usability and trustworthiness, then install them; alternatively
+    they skip plugins and use only native harness capabilities.
+  usage_reason: 相较自行逐个仓库搜索，该目录把“收集—审核—每日刷新”合并为一次集中动作，用户只需在一个入口浏览已审核条目，省去逐仓库甄别来源与可用性的步骤，因此会在需要给 harness
+    加装插件、又不愿承担自行甄别成本时选择它。这是基于产品机制与任务结构的推断，尚无用户反馈或案例证实。
+  usage_reason_en: Compared with searching repositories one by one, the catalog consolidates collection,
+    review and daily refresh into a single action, so users browse already-reviewed entries at one entry
+    point and skip per-repository provenance and usability vetting; that is why they would choose it when
+    extending the harness without bearing the vetting cost. This is an inference from product mechanism
+    and task structure, not yet confirmed by user feedback or cases.

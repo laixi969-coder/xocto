@@ -1,0 +1,89 @@
+- id: req-initial-raycast-20-2026-09-12
+  project_slug: raycast-20
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 跨应用调度确有痛点，但材料未说明 2.0 新增了什么动作或交付，无法判断它解决哪一步。
+    evidence_ids:
+    - ev-4f1239de83e59c93
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方发布表述，没有用户反馈或采用数据，无法判断共识。
+    evidence_ids:
+    - ev-4f1239de83e59c93
+  - gate: model
+    status: insufficient
+    reason: 材料未披露 2.0 的定价或收费方式变化，买方与付费路径无法核对。
+    evidence_ids:
+    - ev-4f1239de83e59c93
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 在其中的具体动作与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-4f1239de83e59c93
+  next_validation: 收集 Raycast 2.0 的官方发布说明与定价页，确认新增功能、AI 具体动作与收费方式。
+  market: ''
+  job: 日常在多个应用间切换的知识工作者，用启动器统一搜索、启动应用并触发命令，以减少在窗口之间来回切换。
+  job_en: Knowledge workers who switch among many apps daily use a launcher to search, launch apps and
+    trigger commands in one place, reducing back-and-forth between windows.
+  pain: 跨应用操作需要在多个窗口间切换、记住不同快捷键，重复动作耗时；但候选材料未说明 2.0 具体缓解了哪一步。
+  pain_en: Cross-app work requires switching windows and memorizing shortcuts, and repeated actions cost
+    time; however, the candidate material does not say which step version 2.0 actually relieves.
+  current_alternative: 目前用户靠系统自带搜索、快捷键或逐个打开应用完成同样的调度动作。
+  current_alternative_en: Today users rely on built-in system search, keyboard shortcuts or opening apps
+    one by one to do the same orchestration.
+  usage_reason: 推断：若 2.0 把常用跨应用动作收进同一入口，减少的是切换窗口与记忆快捷键的步骤；但材料未给出新增功能，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if 2.0 folds common cross-app actions into one entry point, it reduces
+    window switching and shortcut memorization; but the material gives no new features, so which users
+    would choose it cannot be confirmed.'
+- id: req-full-raycast-20-2026-09-12
+  project_slug: raycast-20
+  level: full
+  reviewed_at: '2026-09-12T00:46:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用调度需多窗口切换、记快捷键的痛点，官方对比材料给出统一入口与扩展生态的替代路径；2.0 新增动作未披露，属工作流结构推理。
+    evidence_ids:
+    - ev-c46415be523e7abe
+    - ev-6df5a842db507345
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有官方产品说明与百科条目，没有用户反馈或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-7c6c39ab291eadcf
+    - ev-6df5a842db507345
+  - gate: model
+    status: insufficient
+    reason: 材料未披露 2.0 的定价或收费方式变化，买方与付费路径无法核对，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-02b3a3d8f7f28ebe
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 在其中的具体动作与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-995154d1c3cdb2ab
+  next_validation: 收集 Raycast 2.0 的官方发布说明与定价页，确认新增功能、AI 具体动作与收费方式。
+  market: ''
+  job: 日常在多个应用间切换的知识工作者与开发者，在需要搜索文件、启动应用或触发命令时，用 Raycast 作为统一入口完成调度，减少窗口来回切换。
+  job_en: Knowledge workers and developers who switch among many apps daily use Raycast as a single entry
+    point to search files, launch apps or trigger commands, reducing back-and-forth between windows.
+  pain: 跨应用操作需在多个窗口间切换、记住不同快捷键，重复动作耗时；Raycast 官方对比材料称其提供统一界面与扩展生态，但 2.0 具体新增动作未披露。
+  pain_en: Cross-app work requires switching windows and memorizing shortcuts, and repeated actions cost
+    time; Raycast's own comparison material claims a unified interface and extension ecosystem, but what
+    version 2.0 specifically adds is not disclosed.
+  current_alternative: Windows 用户目前靠 PowerToys 等单项工具、系统自带搜索或逐个打开应用完成同样的调度动作。
+  current_alternative_en: Windows users currently rely on individual utilities such as PowerToys, built-in
+    system search, or opening apps one by one to do the same orchestration.
+  usage_reason: 推断：相较 PowerToys 的分散单项工具，Raycast 把搜索、启动与扩展命令收进同一入口并支持云同步，减少的是在多个工具间切换与重复配置的步骤；因此已在 macOS
+    使用启动器、又需要跨设备一致体验的知识工作者会优先选择它。
+  usage_reason_en: 'Inference: compared with PowerToys'' scattered single-purpose utilities, Raycast folds
+    search, launch and extension commands into one entry point with cloud sync, reducing tool switching
+    and repeated configuration; knowledge workers already using a launcher on macOS who need a consistent
+    cross-device experience are the likely choosers.'

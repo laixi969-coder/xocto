@@ -21,7 +21,7 @@ canonical_url: https://biffweb.com
 summary: Biff 2.0 (Clojure web framework)
 first_seen: '2026-09-10T17:45:51Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

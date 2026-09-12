@@ -1,0 +1,80 @@
+- id: req-initial-personal-ai-app-instinct-faces-compute-crunch-that-could-lea-2026-09-12
+  project_slug: personal-ai-app-instinct-faces-compute-crunch-that-could-lea
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都无法从材料中写出，仅知算力紧张与可能融资，价值关无法成立。
+    evidence_ids:
+    - ev-a7ca8c0b8fb086a1
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何用户采用或场景共识证据。
+    evidence_ids:
+    - ev-a7ca8c0b8fb086a1
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-a7ca8c0b8fb086a1
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从核对。
+    evidence_ids:
+    - ev-a7ca8c0b8fb086a1
+  next_validation: 收集 Instinct 官方产品页或官方定价页，确认其输入材料、执行动作与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开 Instinct、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material does not say who opens Instinct, in what situation, with what materials, or
+    to complete what task, so no concrete use scenario can be reconstructed.
+  pain: 报道只提到算力紧张，未说明用户原本的痛点或旧做法，无法判断问题是否刚性。
+  pain_en: The report only mentions a compute crunch and does not describe users' original pain or prior
+    workaround, so the rigidity of the problem cannot be judged.
+  current_alternative: 候选未提供任何现有替代方式的信息。
+  current_alternative_en: The candidate provides no information about existing alternatives.
+  usage_reason: 缺少产品功能与交付描述，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no description of product function or deliverable, it is impossible to explain
+    which step of the old approach is reduced or which users would choose it under what circumstances.
+- id: req-full-personal-ai-app-instinct-faces-compute-crunch-that-could-lea-2026-09-12
+  project_slug: personal-ai-app-instinct-faces-compute-crunch-that-could-lea
+  level: full
+  reviewed_at: '2026-09-12T00:46:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选只给出算力紧张与可能融资，未说明 Instinct 接收什么材料、执行什么动作、交付什么结果，连用户任务与痛点都无法写出，价值关无法成立。
+    evidence_ids:
+    - ev-727ab3b3f24ac808
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 The Information 关于 Instinct 的原始报道及其官网产品页，确认其输入材料、执行动作与交付结果，以还原具体使用场景。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开 Instinct、处理什么材料、要完成什么任务；候选仅称其为个人 AI 应用，无法还原具体使用场景。
+  job_en: Public material does not say who opens Instinct, in what situation, with what materials, or
+    to complete what task; the candidate only calls it a personal AI app, so no concrete use scenario
+    can be reconstructed.
+  pain: 报道只提到算力紧张与可能融资，未说明用户原本的痛点或旧做法，无法判断问题是否刚性。
+  pain_en: The report only mentions a compute crunch and possible new funding, without describing users'
+    original pain or prior workaround, so the rigidity of the problem cannot be judged.
+  current_alternative: 候选未提供任何现有替代方式的信息；检索到的 ChatGPT、Gemini 等属通用 AI 助手，不能归因到 Instinct 的具体替代关系。
+  current_alternative_en: The candidate provides no information about existing alternatives; the retrieved
+    ChatGPT, Gemini and similar items are generic AI assistants and cannot be attributed as Instinct's
+    specific substitutes.
+  usage_reason: 缺少产品功能与交付描述，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no description of product function or deliverable, it is impossible to explain
+    which step of the old approach is reduced or which users would choose it under what circumstances.

@@ -1,0 +1,88 @@
+- id: req-initial-indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2-2026-09-12
+  project_slug: indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2
+  level: initial
+  reviewed_at: '2026-09-12T00:19:09Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决连载音频内容消耗大、录制成本高、更新速度跟不上的问题，痛点是单集投入难回收，交付是按期上线的剧集。
+    evidence_ids:
+    - ev-99b734c25ca11fd4
+  - gate: consensus
+    status: supported
+    reason: 营收运行率翻倍至 5 亿美元且新内容约 99% 由 AI 生产，说明已有规模化的收听与付费行为支撑这一做法。
+    evidence_ids:
+    - ev-99b734c25ca11fd4
+  - gate: model
+    status: supported
+    reason: 平台自身面向听众收费，营收运行率翻倍表明 to C 订阅或解锁路径已在运转，具体定价结构未在材料中披露。
+    evidence_ids:
+    - ev-99b734c25ca11fd4
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 生成内容的人工审核边界与质量把关方式，也未见听众对 AI 内容的独立评价。
+    evidence_ids:
+    - ev-99b734c25ca11fd4
+  next_validation: 收集 Pocket FM 官方披露的订阅或单集解锁定价页，核对 AI 生成内容的收费与人工审核流程。
+  market: ''
+  job: 音频内容制作人和有声剧编剧在需要持续更新连载音频剧、维持用户收听时长的情况下，处理剧本、配音与后期素材，要完成按期上线新剧集的任务。
+  job_en: Audio content producers and audio drama writers, when serialized shows must keep updating to
+    hold listening time, work with scripts, voice tracks and post-production material to ship new episodes
+    on schedule.
+  pain: 连载音频内容消耗量大，传统配音与录制成本高，制作速度跟不上更新节奏，单集投入难以回收。
+  pain_en: Serialized audio consumes large volumes of content, traditional voice recording is costly,
+    production speed cannot keep up with release cadence, and per-episode investment is hard to recoup.
+  current_alternative: 自建配音与后期团队，或外包给音频制作工作室，按集数逐集录制。
+  current_alternative_en: Building in-house voice and post-production teams, or outsourcing to audio studios
+    and recording episode by episode.
+  usage_reason: 相较自建或外包逐集录制，它用 AI 承担新内容生产的主要环节，把单集制作成本压到约八十分之一，使制作方能在同样预算下试更多题材并按收听数据决定续更，因此靠订阅或解锁变现的连载音频平台会采用它；成本倍数来自公司自述，属推断性解释。
+  usage_reason_en: Compared with in-house or outsourced episode-by-episode recording, it has AI carry
+    the main part of new content production, cutting per-episode cost to about one-eightieth, letting
+    producers test more genres on the same budget and decide renewals from listening data, so serialized
+    audio platforms monetizing by subscription or unlock would adopt it; the cost multiple is company-stated
+    and the explanation is inferential.
+- id: req-full-indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2-2026-09-12
+  project_slug: indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2
+  level: full
+  reviewed_at: '2026-09-12T00:44:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名笔记硬件 Pocket，未包含 Pocket FM 的音频剧制作说明、成本结构或用户痛点，无法还原用户任务与不解决的后果，需求结构无从判断。
+    evidence_ids:
+    - ev-568f261f5b86e7d7
+    - ev-e6aafd7ae25bc968
+    - ev-b9065ea30275c956
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Pocket FM 官网（pocketfm.com）的产品说明、定价页与创作者合作文档，确认其 AI 音频剧制作流程与收费方式。
+  market: ''
+  job: 音频内容制作人和有声剧编剧在需要持续更新连载音频剧、维持收听时长的情况下，处理剧本、配音与后期素材，要完成按期上线新剧集的任务。
+  job_en: Audio content producers and audio drama writers, when serialized shows must keep updating to
+    hold listening time, work with scripts, voice tracks and post-production material to ship new episodes
+    on schedule.
+  pain: 公开证据中没有任何一条能说明连载音频制作的具体痛点、成本压力或更新节奏困难；现有材料全部指向另一款同名笔记硬件 Pocket，无法还原 Pocket FM 的用户处境。
+  pain_en: None of the public evidence describes the pain of serialized audio production, cost pressure,
+    or release-cadence difficulty; all available material points to a different same-named note-taking
+    device, Pocket, so Pocket FM's user situation cannot be reconstructed.
+  current_alternative: 公开证据未记录制作方当前如何完成配音与后期，无法确认是自建团队、外包工作室还是其他方式。
+  current_alternative_en: The public evidence does not record how producers currently handle voice recording
+    and post-production, so in-house teams, outsourced studios, or other routes cannot be confirmed.
+  usage_reason: 缺少可归因到 Pocket FM 的产品说明、定价或用户反馈，无法解释制作方为何会选择它而非现有做法；现有证据只描述 Pocket 笔记硬件，与音频剧制作无关。
+  usage_reason_en: With no product description, pricing, or user feedback attributable to Pocket FM, there
+    is no basis to explain why producers would choose it over current practice; the available evidence
+    only describes the Pocket note-taking device, unrelated to audio drama production.

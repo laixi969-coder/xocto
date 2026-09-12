@@ -219,3 +219,43 @@
   usage_reason: 公开代码仓库有 43 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 43 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-adversarial-testing-skill-2026-09-12
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-09-12T00:42:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该项目的公开仓库 README、issue 或 discussion，确认其具体工作流、输入输出和用户使用反馈。
+  market: ''
+  job: 安全测试人员或开发者，在需要评估产品安全性时，使用两个 AI 代理进行对抗测试：一个读取源码寻找漏洞，另一个在不知源码的情况下模拟黑客攻击。
+  job_en: 'Security testers or developers, when assessing product security, use two AI agents for adversarial
+    testing: one reads source code to find vulnerabilities, the other simulates a blind hacker attack
+    without source access.'
+  pain: 公开材料未说明用户当前在安全测试中遇到的具体痛点、发生频率或不采用该方案的后果，无法确认痛点刚性。
+  pain_en: Public materials do not describe the specific pain, frequency, or consequence of not adopting
+    this approach in security testing, so pain rigidity cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成对抗性安全测试，可能使用人工渗透测试、单一 AI 辅助或传统扫描工具，但无证据支持。
+  current_alternative_en: Public materials do not show how users currently perform adversarial security
+    testing; they may use manual penetration testing, single-AI assistance, or traditional scanners, but
+    no evidence supports this.
+  usage_reason: 公开材料仅显示仓库有 43 个收藏，说明有开发者关注，但无法解释用户为何选择它而非现有安全测试方式，也无法确认持续使用。
+  usage_reason_en: Public materials only show 43 repository stars, indicating developer attention, but
+    cannot explain why users would choose it over existing security testing methods, nor confirm sustained
+    use.

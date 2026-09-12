@@ -1,0 +1,86 @@
+- id: req-initial-蚂蚁阿福app用户数达15亿但健康管理仍是弱需求-2026-09-12
+  project_slug: 蚂蚁阿福app用户数达15亿但健康管理仍是弱需求
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决健康疑问与日常管理需求，但公开报道直接指出健康管理是弱需求，不用的代价低，价值关被打脸。
+    evidence_ids:
+    - ev-83df40410f7e9ab8
+  - gate: consensus
+    status: insufficient
+    reason: 1.5亿用户说明触达规模，但报道同时称需求弱，公开关注不能等同于持续采用。
+    evidence_ids:
+    - ev-83df40410f7e9ab8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，无法判断钱从哪来，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-83df40410f7e9ab8
+  - gate: truth
+    status: insufficient
+    reason: 健康建议涉及安全边界，公开材料未说明人工复核与责任划分，交付确定性不明。
+    evidence_ids:
+    - ev-83df40410f7e9ab8
+  next_validation: 收集蚂蚁阿福官方页面或应用商店说明中关于健康管理服务的具体交付物、收费方式与人工复核边界的公开描述。
+  market: ''
+  job: 普通用户在出现健康疑问或需要日常健康管理时，向助手描述症状或录入健康数据，希望得到可参考的健康提示与下一步建议。
+  job_en: When a general consumer has a health question or needs routine health management, they describe
+    symptoms or enter health data to the assistant, hoping for reference guidance and next-step suggestions.
+  pain: 健康信息分散、专业门槛高，用户难以判断小症状是否需要就医；但公开报道指出健康管理本身是弱需求，日常使用动机不足。
+  pain_en: Health information is scattered and professionally gated, so users struggle to judge whether
+    a minor symptom needs a doctor visit; however, the report says health management itself is a weak
+    demand with insufficient daily motivation.
+  current_alternative: 用户目前多靠搜索引擎、社交平台经验帖或直接去医院挂号咨询，缺少连续的健康记录与随访。
+  current_alternative_en: Users currently rely on search engines, social-media experience posts, or simply
+    going to a hospital, lacking continuous health records and follow-up.
+  usage_reason: 推断：相较自行搜索，助手把症状描述直接转成结构化问答与建议，省去筛选信息的一步；但公开材料未显示用户因此持续使用或付费，弱需求判断也未被推翻。
+  usage_reason_en: 'Inference: compared with self-searching, the assistant turns a symptom description
+    directly into structured Q&A and suggestions, saving the step of filtering information; however, public
+    material does not show sustained use or payment, and the weak-demand finding is not overturned.'
+- id: req-full-蚂蚁阿福app用户数达15亿但健康管理仍是弱需求-2026-09-12
+  project_slug: 蚂蚁阿福app用户数达15亿但健康管理仍是弱需求
+  level: full
+  reviewed_at: '2026-09-12T00:47:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决健康疑问与日常健康管理需求，但公开报道直接指出健康管理仍是弱需求，不用的代价低，属于没有也行，价值关被打脸。
+    evidence_ids:
+    - ev-83df40410f7e9ab8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集蚂蚁阿福官方页面或应用商店说明中关于健康管理服务的具体交付物、收费方式与人工复核边界的公开描述。
+  market: ''
+  job: 普通用户或慢病、亚健康人群在出现健康疑问或需要日常健康管理时，打开蚂蚁阿福输入症状描述或健康数据，希望获得可参考的健康问答与下一步建议，最终判断仍需本人或医生确认。
+  job_en: When a general consumer or someone with chronic or sub-health conditions has a health question
+    or needs routine health management, they open Ant Afu, enter symptom descriptions or health data,
+    and expect reference health Q&A and next-step suggestions, with the final judgment still resting with
+    themselves or a doctor.
+  pain: 健康信息分散、专业门槛高，用户难以判断小症状是否需要就医；但公开报道直接指出健康管理仍是弱需求，日常使用动机不足，不用的代价低。
+  pain_en: Health information is scattered and professionally gated, so users struggle to judge whether
+    a minor symptom needs a doctor visit; however, public reporting directly states that health management
+    remains a weak demand, daily motivation is insufficient, and the cost of not using it is low.
+  current_alternative: 用户目前多靠搜索引擎、社交平台经验帖或直接去医院挂号咨询，缺少连续的健康记录与随访。
+  current_alternative_en: Users currently rely on search engines, social-media experience posts, or simply
+    going to a hospital, lacking continuous health records and follow-up.
+  usage_reason: 推断：相较自行搜索，产品把症状描述直接转成结构化问答与建议，省去筛选信息的一步；但公开报道称健康管理是弱需求，且无用户反馈或案例显示持续使用或付费，因此难以说明哪类用户会在什么情况下稳定选择它。
+  usage_reason_en: 'Inference: compared with self-searching, the product turns a symptom description directly
+    into structured Q&A and suggestions, saving the step of filtering information; however, public reporting
+    calls health management a weak demand, and no user feedback or cases show sustained use or payment,
+    so it is hard to say which users would reliably choose it and when.'

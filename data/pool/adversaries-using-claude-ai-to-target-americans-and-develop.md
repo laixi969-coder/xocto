@@ -22,7 +22,7 @@ summary: Adversaries Using Claude AI To Target Americans And Develop Missiles Is
   TWZ
 first_seen: '2026-09-11T22:24:17Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

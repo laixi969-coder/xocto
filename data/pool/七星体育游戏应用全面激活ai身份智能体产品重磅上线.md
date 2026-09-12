@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoQ01HTHJVXy1x
 summary: 七星体育游戏应用全面激活AI身份，智能体产品重磅上线 体坛加
 first_seen: '2026-09-10T21:16:31Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

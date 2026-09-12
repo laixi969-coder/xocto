@@ -78,3 +78,52 @@
   usage_reason: 用户要完成的任务是：团队 AI 订阅额度管理员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Team AI subscription quota administrator Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-sub2sub-2026-09-12
+  project_slug: sub2sub
+  level: full
+  reviewed_at: '2026-09-12T00:46:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队内 AI 订阅额度按任务分配、避免成员登录他人账号的需求，痛点是凭据共享带来的泄露与归属不清；这是从产品定位与共享订阅旧做法作出的工作流结构推理，尚无用户反馈直接佐证。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+    - ev-3cf083d759a26b61
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 44 增至 51，说明开发者社区有关注，但公开材料没有 issue、discussion 或客户案例显示目标管理员已把它纳入日常分配流程，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+    - ev-3cf083d759a26b61
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、付费主体或单位经济说明；谁付钱、按席位还是按额度收费属于判断而非已验证事实，但这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明鉴权方式、额度计量口径与合规边界，交付能否稳定发生、以及绕过订阅条款的风险尚无部署文档或可复现实测支撑。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+    - ev-3cf083d759a26b61
+  next_validation: 追踪 sub2sub 仓库的 README、issue 与 discussion，确认鉴权与额度计量方式、是否有团队实际部署记录及替代了哪种旧共享流程。
+  market: ''
+  job: 团队 AI 订阅额度管理员在团队里只有部分成员购买了 AI 订阅时，按任务把可用调用额度分配给指定成员，让成员完成写作、编码等具体任务而不必登录他人账号。
+  job_en: A team AI subscription quota administrator allocates usable call quota task by task to specific
+    members when only some teammates hold AI subscriptions, so members can complete writing or coding
+    tasks without signing in to someone else's account.
+  pain: 共享订阅的常见做法是传递账号密码或让成员共用同一登录态，带来凭据泄露、会话冲突、用量无法按任务归属的问题；管理员也无法按任务粒度控制谁用了多少。
+  pain_en: The common way to share a subscription is passing around credentials or sharing one login session,
+    which creates credential-leak risk, session conflicts, and no per-task attribution of usage; the admin
+    also cannot control who consumed how much at task granularity.
+  current_alternative: 公开材料未直接描述旧流程，但产品定位本身指向的替代方式是成员共用同一账号登录、或各自重复购买订阅、或管理员手工转达额度。
+  current_alternative_en: Public materials do not directly describe the old workflow, but the positioning
+    implies the alternatives are members sharing one account login, each buying a duplicate subscription,
+    or the admin manually relaying quota.
+  usage_reason: 推断：相较传递账号密码，产品把额度按任务转给指定成员，成员拿到的是可用调用能力而非他人凭据，从而减少凭据外泄与登录态冲突这一步负担；需要按任务分配额度又不想共享密码的团队管理员会因此选择它。
+  usage_reason_en: 'Inference: compared with passing credentials around, the product transfers quota task
+    by task to a named member, who receives usable call capability rather than someone else''s credentials,
+    removing the credential-leak and session-conflict step; admins who must allocate quota per task without
+    sharing passwords would choose it.'

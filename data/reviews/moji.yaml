@@ -1,0 +1,83 @@
+- id: req-initial-moji-2026-09-12
+  project_slug: moji
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 Markdown 阅读这件事，但公开材料没说清痛点、频率和不采用的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-6f4224b3a553e1b8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有可归因到该产品的采用或讨论证据。
+    evidence_ids:
+    - ev-6f4224b3a553e1b8
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，公开材料未披露定价或买方。
+    evidence_ids:
+    - ev-6f4224b3a553e1b8
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-6f4224b3a553e1b8
+  next_validation: 收集 Moji 官方产品页或定价页，确认它具体处理什么输入、输出什么交付物以及是否收费。
+  market: ''
+  job: 写作者或技术文档读者在需要查看一份 .md 文件时，打开它并读完内容，而不是先转格式。
+  job_en: A writer or technical documentation reader opens a .md file to read it through, instead of converting
+    the format first.
+  pain: 公开材料没有说明 Markdown 阅读到底哪里难受，也没有说明不解决会有什么后果。
+  pain_en: Public material does not state what is painful about reading Markdown, nor what happens if
+    it is not solved.
+  current_alternative: 用编辑器打开、转成 PDF 或粘贴到网页预览。
+  current_alternative_en: Opening it in an editor, converting to PDF, or pasting into a web preview.
+  usage_reason: 无法判断：材料只给出一句功能描述，没有说明相较现有编辑器或转换流程减少了哪一步负担，也没有用户反馈支持选择动机。
+  usage_reason_en: 'Cannot be judged: the material gives only a one-line feature description, with no
+    explanation of which step it removes versus existing editors or conversion flows, and no user feedback
+    supporting the choice.'
+- id: req-full-moji-2026-09-12
+  project_slug: moji
+  level: full
+  reviewed_at: '2026-09-12T00:45:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 Markdown 阅读这件事，但公开材料只有一句功能描述，未说明痛点、频率与不采用的后果，且所引证据指向同名但不同的日语词典与语言交换产品，无法还原用户任务与旧流程。
+    evidence_ids:
+    - ev-635500e6335d84ca
+    - ev-b2bf8b0427f63d3c
+    - ev-9cd338b3c7d70723
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Moji 官方产品页或仓库 README，确认它处理什么输入、输出什么交付物，以及是否有定价或客户案例。
+  market: ''
+  job: 需要阅读 Markdown 文件的人（写作者、技术文档读者）在拿到一份 .md 文档时，打开它并读完内容，而不是先转成 PDF 或网页再预览。
+  job_en: A reader of Markdown files (writer or technical documentation reader) opens a .md document and
+    reads it through, instead of converting it to PDF or a web page first.
+  pain: 公开材料只给出「像 PDF 一样打开 Markdown」一句功能描述，没有说明 Markdown 阅读到底哪里难受、发生频率如何、不解决会有什么后果，也没有用户抱怨或 workaround
+    证据。
+  pain_en: Public material gives only a one-line feature description ('open Markdown files like PDFs');
+    it does not state what is painful about reading Markdown, how often it occurs, or what happens if
+    unsolved, and there is no user complaint or workaround evidence.
+  current_alternative: 用编辑器打开、转成 PDF、或粘贴到网页预览。
+  current_alternative_en: Opening it in an editor, converting to PDF, or pasting into a web preview.
+  usage_reason: 无法判断：材料未说明相较编辑器或转换流程减少了哪一步负担，也没有用户反馈支持选择动机；现有证据（MOJi 辞書、Moji 语言交换 App）与该 Markdown 阅读产品并非同一产品，不能作为使用理由。
+  usage_reason_en: 'Cannot be judged: the material does not explain which step it removes versus editors
+    or conversion flows, and no user feedback supports the choice; the existing evidence (MOJi dictionary,
+    Moji language-exchange app) belongs to different products and cannot serve as a usage reason.'

@@ -24,7 +24,7 @@ summary: It was a monster week for U.S. startup funding, with four companies eac
   while reusable rocket developer Stoke Space raised another $1 billion.
 first_seen: '2026-09-11T18:00:31Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

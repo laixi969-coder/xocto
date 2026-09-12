@@ -79,3 +79,46 @@
   usage_reason: 用户要完成的任务是：希望沉淀个人经验的专家；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Experts preserving personal know-how Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-agent-me-2026-09-12
+  project_slug: agent-me
+  level: full
+  reviewed_at: '2026-09-12T00:43:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决个人经验沉淀为可应答分身的需求，但公开证据只有一句产品说明与 star 数，没有用户表述痛点、频率或不采用代价；经验留在人脑的损失属结构推理，且“没有分身也能靠文档和带人”说明并非刚性，价值关不成立。
+    evidence_ids:
+    - ev-077f122162f1c585
+    - ev-3d73d54d83479403
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 agent-me 仓库的 README、issue 与 discussion，确认是否有使用者描述具体沉淀场景、替代的旧流程与交付结果。
+  market: ''
+  job: 个人专家（顾问、独立开发者、内容创作者）在需要把自己多年积累的判断、经验与决策方式交给他人或团队复用时，整理自己的笔记、对话与决策记录，希望得到一个能以本人视角应答的 AI 分身。
+  job_en: Individual experts (consultants, indie developers, creators) who need to hand off or reuse years
+    of judgment, experience and decision patterns organize their notes, conversations and decision records
+    to obtain an AI twin that can answer from their perspective.
+  pain: 公开材料只给出“Distill your knowledge, memories, and decisions”这一句产品说明，没有用户抱怨、访谈或案例说明不沉淀会付出什么代价；经验留在人脑里会随人流失，但这一后果在证据里没有被任何使用者表述过，属于结构推理而非公开事实。
+  pain_en: Public material offers only the one-line product description 'Distill your knowledge, memories,
+    and decisions'; no user complaint, interview or case shows what it costs to leave know-how undistilled.
+    Know-how leaving with the person is a structural inference, not a documented fact.
+  current_alternative: 公开材料未说明用户现在如何完成这件事；可观察的旧做法是写博客、录课程、整理 Notion/文档或直接带徒弟，但这些替代在证据里没有被提及或对比。
+  current_alternative_en: Public material does not show how users do this today; observable alternatives
+    are blogging, recording courses, Notion/doc archives or direct mentoring, but none of these are mentioned
+    or compared in the evidence.
+  usage_reason: 推断：若用户确实需要分身代答，Markdown/开源可检查的形态比黑盒 SaaS 更容易被信任和审计，这是产品能力层面的差异；但公开证据没有用户反馈或案例说明谁会因此从旧做法切换过来，因此无法确认选择动机。
+  usage_reason_en: 'Inference: if a user genuinely needs a twin to answer on their behalf, an open-source,
+    inspectable form is easier to trust and audit than a black-box SaaS. But no user feedback or case
+    shows who would switch from their old approach, so the choice motive cannot be confirmed.'

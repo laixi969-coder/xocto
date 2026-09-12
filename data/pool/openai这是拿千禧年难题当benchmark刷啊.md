@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/487092.html
 summary: 爆料直指霍奇猜想
 first_seen: '2026-09-11T01:46:55Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

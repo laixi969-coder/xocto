@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9uVmxBTFVlMC1o
 summary: 玺链科技胡金钱：AI大模型面临四大痛点，底层认证与隐私保护成破局关键 k.sina.com.cn
 first_seen: '2026-09-11T07:17:09Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

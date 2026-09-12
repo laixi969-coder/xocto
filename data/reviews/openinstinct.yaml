@@ -75,3 +75,41 @@
   usage_reason: 开源且集成 iMessage，可能吸引 iOS 用户尝试，但需求强度未明。
   usage_reason_en: Open-source and integrated with iMessage, may attract iOS users, but demand strength
     is unclear.
+- id: req-full-openinstinct-2026-09-12
+  project_slug: openinstinct
+  level: full
+  reviewed_at: '2026-09-12T00:45:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅给出 iMessage 个人助手加密码保险库的定位，未说明用户具体任务、痛点、旧替代流程或不解决的后果，无法还原需求结构。
+    evidence_ids:
+    - ev-68aa386cb6988ccd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenInstinct 官网或代码仓库的 README、issue 与 discussion，获取具体功能说明、使用流程和用户反馈。
+  market: ''
+  job: iOS 用户希望在 iMessage 对话内直接调用 AI 助手完成日常任务，并安全存取密码，无需切换到独立应用。
+  job_en: iOS users want to invoke an AI assistant directly within iMessage conversations to complete
+    daily tasks and securely store/retrieve passwords without switching to standalone apps.
+  pain: 公开材料仅给出产品定位，未说明具体痛点、旧替代流程或用户抱怨，无法确认用户当前在哪一步受阻。
+  pain_en: Public materials only provide product positioning, without specifying concrete pain points,
+    legacy workflows, or user complaints, so it is impossible to confirm where users are currently blocked.
+  current_alternative: 公开材料未描述用户当前如何完成同类任务，无法确认替代方式。
+  current_alternative_en: Public materials do not describe how users currently complete similar tasks,
+    so the alternative cannot be confirmed.
+  usage_reason: 公开材料未提供用户选择该产品的动机或使用反馈，无法解释为何用户会采用它。
+  usage_reason_en: Public materials provide no user motivation or usage feedback, so it cannot be explained
+    why users would adopt it.

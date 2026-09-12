@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/agent-collaborations/hutter-prize-d
 summary: Collaborative, lossless enwik8 compression research
 first_seen: '2026-09-11T09:59:46Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

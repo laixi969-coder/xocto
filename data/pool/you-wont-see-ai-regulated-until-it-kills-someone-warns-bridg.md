@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTE8xZWJVNUdqMWFt
 summary: You Won't See AI Regulated Until It Kills Someone, Warns Bridgewater's CIO BeInCrypto
 first_seen: '2026-09-11T14:10:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -262,3 +262,56 @@
     as a one-stop AI commercialization tool, but the target users, input materials, actions, and deliverables
     are unspecified and need verification. Public materials do not yet explain why users choose this product
     over their existing approach.'
+- id: req-full-jingyun-dsh-2026-09-12
+  project_slug: jingyun-dsh
+  level: full
+  reviewed_at: '2026-09-12T00:44:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 开发者把智能体变成可收费商品的需求，痛点是登录、会员、订阅支付、云端资产与多端同步这套商业闭环必须自建，否则智能体无法对外收费；公开说明称可在 30 分钟内封装为独立商业产品，交付物明确。此为工作流结构推理，尚无用户自述痛点或采用数据。
+    evidence_ids:
+    - ev-3683512bb59c6387
+    - ev-6d9c1fd2e50c3b1a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 108 增至 276，说明开发者社区持续注意到该项目，但收藏与复刻只反映关注度，公开材料没有目标开发者的使用反馈、部署案例或重复使用证据，无法判断强场景是否已被验证。
+    evidence_ids:
+    - ev-ade34ef90bd82280
+    - ev-6d9c1fd2e50c3b1a
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明客户端内置会员体系与订阅支付，未披露该客户端自身的定价、抽成或买方是开发者还是终端消费者；谁付钱、按什么单位收费属于判断而非已验证事实，但这是商业证据缺口，不否定需求存在。
+    evidence_ids:
+    - ev-3683512bb59c6387
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺 30 分钟内完成封装，但缺少部署文档、可复现实测与支付合规、资金结算、账号安全边界的公开材料，交付能否稳定发生尚不可核对。
+    evidence_ids:
+    - ev-6d9c1fd2e50c3b1a
+  next_validation: 追踪 jingyun-dsh 官方仓库的 README、部署文档与 issue/discussion，确认是否有开发者公开记录用它将 DSH 智能体封装并实际收费的案例与结算方式。
+  market: ''
+  job: AI 智能体/技能/工作流开发者（个人或小团队）在已经用 DeepSeek Harness 做出可运行的智能体后，需要把它打包成可对外售卖的商品，于是用这个桌面客户端处理自己的智能体资产，完成登录注册、会员、订阅支付、云端资产与多端同步的商业化封装，交付一个可独立收费的产品。
+  job_en: An AI agent/skill/workflow developer (individual or small team) who already has a working agent
+    built on DeepSeek Harness needs to package it into a sellable product; they use this desktop client
+    to take their agent assets through login, membership, subscription payment, cloud assets and multi-device
+    sync, delivering an independently chargeable product.
+  pain: 公开说明指出，开发者要把智能体变成可交易商品，需要自行补齐登录注册、会员体系、订阅支付、云端资产与多端同步这一整套商业闭环；这些与智能体本身能力无关，却必须逐项自建，否则做出来的智能体只能自己跑，无法向他人收费。这是工作流结构推理，公开材料未给出开发者自述的耗时或放弃率。
+  pain_en: Public material states that turning an agent into a tradable product requires the developer
+    to build the whole commercial loop themselves — login, membership, subscription payment, cloud assets,
+    multi-device sync; these are unrelated to the agent's own capability yet must be built item by item,
+    otherwise the agent only runs locally and cannot be charged for. This is workflow-structure inference;
+    no developer-reported time cost or abandonment rate is public.
+  current_alternative: 旧做法是开发者自己写后端账号与支付逻辑，或把智能体挂到通用平台/自建网页上，再单独接支付与同步；公开材料未说明这些替代方案的具体形态与成本。
+  current_alternative_en: The old approach is for the developer to hand-write backend account and payment
+    logic, or host the agent on a generic platform/self-built page and bolt on payment and sync separately;
+    public material does not describe the concrete form or cost of these alternatives.
+  usage_reason: 推断：相较自行搭建账号、支付与同步，该客户端把登录注册、会员、订阅支付、云端资产、多端同步作为既有模块直接注入 DSH，开发者只需封装自己的智能体，省去从零实现商业闭环这一步；因此已在
+    DSH 上做出智能体、想尽快对外收费的开发者会在需要变现时选择它。公开材料未提供用户自述的采用动机或留存证据。
+  usage_reason_en: 'Inference: compared with building accounts, payment and sync from scratch, the client
+    injects login, membership, subscription payment, cloud assets and multi-device sync as ready modules
+    into DSH, so the developer only packages their agent and skips implementing the commercial loop; developers
+    who already have a DSH agent and want to charge for it soon would choose it at monetization time.
+    No user-stated adoption motive or retention evidence is public.'

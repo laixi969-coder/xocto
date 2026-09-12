@@ -1,0 +1,82 @@
+- id: req-initial-remind-2026-09-12
+  project_slug: remind
+  level: initial
+  reviewed_at: '2026-09-12T00:19:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决会前准备耗时的问题，但公开材料没有说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-66ed2ade0a47908c
+  - gate: consensus
+    status: insufficient
+    reason: 没有讨论、案例或使用反馈说明谁在什么场景下采用它；同批材料中的欧洲预算报道与该产品无直接关系。
+    evidence_ids:
+    - ev-66ed2ade0a47908c
+    - ev-06fce974b556ab1b
+  - gate: model
+    status: insufficient
+    reason: 没有定价、买方或收费路径信息，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-66ed2ade0a47908c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对简报内容是否准确、是否需要人工确认，也没有交付结果说明。
+    evidence_ids:
+    - ev-66ed2ade0a47908c
+  next_validation: 收集该产品的官方页面或定价页，确认简报的数据来源、生成方式与是否按席位收费。
+  market: ''
+  job: 会议密集的职场人在会议开始前，需要被提醒并快速了解这场会议要谈什么。
+  job_en: Meeting-heavy professionals need to be reminded before a meeting starts and quickly grasp what
+    the meeting is about.
+  pain: 公开材料只有一句“全屏会议提醒加 AI 简报”，没有说明用户原本卡在哪一步、不解决会有什么后果。
+  pain_en: The public material is only one line, 'full-screen meeting reminders with AI briefings', and
+    does not say which step users were stuck on or what happens if it is not solved.
+  current_alternative: 用户依赖日历提醒、自己翻看历史邮件与文档来准备会议。
+  current_alternative_en: Users rely on calendar alerts and dig through past emails and documents to prepare
+    for a meeting.
+  usage_reason: 推断：如果简报能在会议前自动汇总相关上下文，用户就不必临时翻找材料；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。
+  usage_reason_en: 'Inference: if the briefing automatically gathers relevant context before a meeting,
+    users would not have to search for material at the last minute; however, the public material gives
+    no adoption, retention or customer evidence, so it cannot be confirmed that this choice actually happens.'
+- id: req-full-remind-2026-09-12
+  project_slug: remind
+  level: full
+  reviewed_at: '2026-09-12T00:46:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决会前准备耗时的问题，但公开材料没有说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-160d751e31f22455
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方页面或定价页，确认简报的数据来源、生成方式与是否按席位收费。
+  market: ''
+  job: 会议密集的职场人在会议开始前，需要被提醒并快速了解这场会议要谈什么。
+  job_en: Meeting-heavy professionals need to be reminded before a meeting starts and quickly grasp what
+    the meeting is about.
+  pain: 公开材料只有一句“全屏会议提醒加 AI 简报”，没有说明用户原本卡在哪一步、不解决会有什么后果。
+  pain_en: The public material is only one line, 'full-screen meeting reminders with AI briefings', and
+    does not say which step users were stuck on or what happens if it is not solved.
+  current_alternative: 用户依赖日历提醒、自己翻看历史邮件与文档来准备会议。
+  current_alternative_en: Users rely on calendar alerts and dig through past emails and documents to prepare
+    for a meeting.
+  usage_reason: 推断：如果简报能在会议前自动汇总相关上下文，用户就不必临时翻找材料；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。
+  usage_reason_en: 'Inference: if the briefing automatically gathers relevant context before a meeting,
+    users would not have to search for material at the last minute; however, the public material gives
+    no adoption, retention or customer evidence, so it cannot be confirmed that this choice actually happens.'

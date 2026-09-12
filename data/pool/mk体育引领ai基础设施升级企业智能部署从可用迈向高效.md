@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QNUtjTW0wZ3Mz
 summary: mk体育引领AI基础设施升级，企业智能部署从'可用'迈向'高效' 体坛加
 first_seen: '2026-09-09T11:43:06Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

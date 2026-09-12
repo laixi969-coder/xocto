@@ -1,0 +1,92 @@
+- id: req-initial-cline-desktop-app-2026-09-12
+  project_slug: cline-desktop-app
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从现有材料还原，只知是面向开放权重模型的开源桌面应用。
+    evidence_ids:
+    - ev-68e0975e313f0e41
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用、评价或社区讨论证据。
+    evidence_ids:
+    - ev-68e0975e313f0e41
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-68e0975e313f0e41
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-68e0975e313f0e41
+  next_validation: 收集该桌面应用的官方功能说明或文档页，确认它具体替代哪一步编码工作流。
+  market: ''
+  job: 开发者在本地机器上编写和调试代码时，处理代码仓库与终端输出，完成编码与运行验证任务。
+  job_en: Developers writing and debugging code on their local machines, handling repositories and terminal
+    output to complete coding and run-verification tasks.
+  pain: 公开材料只说明它是面向开放权重模型的开源桌面应用，未说明它替代了哪一步旧做法或带来什么具体不便，痛点无法从现有事实还原。
+  pain_en: Public material only says it is an open-source desktop app for open-weight models; it does
+    not say which prior step it replaces or what concrete friction exists, so the pain cannot be reconstructed
+    from available facts.
+  current_alternative: 开发者目前可能使用云端编码助手或本地编辑器插件，但候选材料未提供任何对比信息。
+  current_alternative_en: Developers may currently use cloud coding assistants or local editor plugins,
+    but the candidate material offers no comparison.
+  usage_reason: 推断：若它能把开放权重模型跑在本地并直接操作项目文件，对数据不能出内网的团队可能减少把代码上传到外部服务的顾虑；但缺少功能、定价与使用证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if it runs open-weight models locally and operates directly on project
+    files, teams whose code cannot leave their network may reduce the concern of uploading code to external
+    services; but with no feature, pricing, or usage evidence, why users would choose it cannot be confirmed.'
+- id: req-full-cline-desktop-app-2026-09-12
+  project_slug: cline-desktop-app
+  level: full
+  reviewed_at: '2026-09-12T00:43:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨文件编码改动与报错修复的需求：开发者需手动串联文件依赖并逐条修复 linter/编译器错误，订阅助手还剥夺模型与花费控制权。公开材料显示 Cline 读取项目结构、跨文件协调改动并自动修复报错，交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-e0dd436b0b86688c
+    - ev-1aa615f2ef4c1615
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述与 CLI 在脚本、cron、CI 中运行复检的说明，未见用户评价、社区讨论或持续采用数据，无法确认开发者已把它留在日常工作流。
+    evidence_ids:
+    - ev-a8977b48733dfac8
+    - ev-9fee3c827a5f4a52
+  - gate: model
+    status: insufficient
+    reason: 公开材料强调用户自选模型并控制花费，指向用户自付模型 API 费用的 to C/开发者路径，但未见官方定价页、企业采购或收入证据，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-4b55acf6415a88e2
+    - ev-d8de3c5590c9fa13
+  - gate: truth
+    status: insufficient
+    reason: 公开材料称其监控并修复报错，但未见改动正确性的可复现验证、人工确认边界或安全沙箱说明，交付是否稳定发生仍缺公开证据。
+    evidence_ids:
+    - ev-6474619bcb4fb501
+    - ev-fe780b80e7e321e5
+  next_validation: 追踪 Cline 官方定价页与客户案例页，确认是否存在企业采购或付费订阅记录，以核验付费路径与持续采用。
+  market: ''
+  job: 开发者在本地机器上编写和调试代码时，处理代码仓库与终端输出，完成跨文件的编码、运行与验证任务。
+  job_en: Developers writing and debugging code on their local machines, handling repositories and terminal
+    output to complete cross-file coding, running, and verification tasks.
+  pain: 公开材料显示，跨文件改动需要人工追踪文件依赖、手动修复 linter 与编译器报错（缺失导入、类型不匹配、语法错误），且订阅式编码助手把模型选择与花费控制权交给服务商。
+  pain_en: Public material shows that cross-file changes require manually tracking file dependencies and
+    fixing linter and compiler errors (missing imports, type mismatches, syntax errors), while subscription
+    coding assistants take away control over model choice and spend.
+  current_alternative: 自动补全类编辑器插件，以及按订阅计费的云端编码助手；开发者需自行在多个文件间手动串联改动并逐条修复报错。
+  current_alternative_en: Autocomplete-style editor plugins and subscription-based cloud coding assistants;
+    developers must manually chain changes across files and fix each error themselves.
+  usage_reason: 推断：相较自动补全插件，Cline 读取整个项目结构并跨文件协调改动，同时监控 linter 与编译器错误并在用户看到前修复，减少手动串联改动与逐条排错这两步；相较订阅服务，用户可自选模型并控制花费，因此对需要跨文件重构、又希望掌握模型与成本控制权的开发者更可能被选择。
+  usage_reason_en: 'Inference: versus autocomplete plugins, Cline reads the whole project structure, coordinates
+    changes across files, and monitors linter and compiler errors to fix them before the user sees them,
+    removing the manual steps of chaining edits and fixing each error; versus subscription services, users
+    pick the model and control spend, so developers doing cross-file refactors who want model and cost
+    control are more likely to choose it.'

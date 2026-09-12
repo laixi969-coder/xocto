@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EekVlek9POU9l
 summary: 赚钱网站：AI训练系统全球首发，数据驱动重塑篮球战术生态 体坛加
 first_seen: '2026-09-10T12:58:50Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

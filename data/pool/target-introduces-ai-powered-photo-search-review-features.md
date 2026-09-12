@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNVWtYVFNMYzZN
 summary: Target introduces AI-powered photo search, review features Yahoo Finance
 first_seen: '2026-09-10T11:48:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

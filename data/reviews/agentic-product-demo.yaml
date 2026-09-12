@@ -213,3 +213,50 @@
   usage_reason: 开源项目获得 179 星，表明开发者关注，但付费采用未验证。
   usage_reason_en: The open-source project has 179 stars, indicating developer interest, but paid adoption
     is unverified.
+- id: req-full-agentic-product-demo-2026-09-12
+  project_slug: agentic-product-demo
+  level: full
+  reviewed_at: '2026-09-12T00:43:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产品演示视频制作中录屏画面不精致、手动剪辑耗时的问题，以 UI 代码为输入由代理生成动画视频，替代录屏加剪辑或外包，交付物为可嵌入或分享的视频，价值结构成立，属工作流结构推理。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 179 升至 229，显示开发者持续关注，但收藏与排名只属关注度证据，缺少用户反馈、案例或重复使用记录，无法证明已进入稳定工作流。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+    - ev-e7a5336a2c5b4c2e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购记录，钱可能来自 to B 营销预算或 to C 开发者，这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  - gate: truth
+    status: supported
+    reason: 产品贴近产品营销演示视频这一第一性目标，输入为 UI 代码、输出为视频文件，交付边界清晰；但安装与渲染依赖 Remotion 与代理环境，安全与人工审核边界仍缺公开文档。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  next_validation: 追踪该仓库 README 与 releases，确认是否有官方定价页、客户案例或部署文档，以核验付费路径与交付稳定性。
+  market: ''
+  job: 产品经理或营销人员在需要为软件产品制作演示视频时，提供产品 UI 代码，由 AI 编码代理配合 Remotion 生成可嵌入网页或分享的动画演示视频。
+  job_en: Product managers or marketers preparing a software product demo video provide the product UI
+    code, and an AI coding agent with Remotion generates an animated demo video that can be embedded in
+    a webpage or shared.
+  pain: 公开材料指出传统做法是屏幕录制，录屏难以呈现精美界面且需手动剪辑；产品说明称 UI 是代码而非录屏，指向录屏画面不精致、后期编辑耗时的痛点，但缺少用户抱怨或案例的直接佐证。
+  pain_en: Public materials indicate the traditional approach is screen recording, which struggles to
+    present a polished interface and requires manual editing; the product states the UI is code rather
+    than a recording, pointing to unpolished footage and time-consuming post-editing, though direct user
+    complaints or cases are absent.
+  current_alternative: 当前替代方式是屏幕录制工具加手动剪辑，或把演示视频外包给视频制作团队。
+  current_alternative_en: The current alternative is screen-recording tools plus manual editing, or outsourcing
+    demo video production to a video team.
+  usage_reason: 推断：相较录屏再剪辑，产品直接以 UI 代码为输入、由代理生成动画视频，省去录制与逐帧剪辑环节，并让界面呈现可随代码更新而重生成；因此需要频繁产出产品演示的营销或产品团队会在发布、销售材料更新时选择它。
+  usage_reason_en: 'Inference: compared with recording then editing, the product takes UI code as input
+    and has an agent generate the animated video, removing the recording and frame-by-frame editing steps
+    and letting the interface rendering be regenerated as code changes; teams that frequently produce
+    product demos would choose it when launching or refreshing sales materials.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQSTRWUGdhUEtD
 summary: Bank CFOs weigh broader returns from AI investment Asian Banking & Finance
 first_seen: '2026-09-09T08:12:24Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

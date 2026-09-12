@@ -81,3 +81,59 @@
   usage_reason: 用户要完成的任务是：开发者、自动化流程搭建者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers, Automation workflow builders Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-huashu-chrome-2026-09-12
+  project_slug: huashu-chrome
+  level: full
+  reviewed_at: '2026-09-12T00:44:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让 agent 进入需登录页面执行动作的需求，痛点是登录态无法被 agent 直接使用，用户只能手工复制会话或重写无头脚本登录。公开说明已给出输入（本机已登录 Chrome）、动作（MCP
+      加扩展接管页面）与交付（agent 完成页面动作），属工作流结构推理，痛点刚性可判。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-18ba421b72593f7e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 156 增至 181，说明开发者社区已注意到该项目，但公开材料没有用户评价、issue 或案例说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-18ba421b72593f7e
+    - ev-3d737f7c8a41e34a
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费版本或企业采购路径，谁付钱尚不清楚；按判断而非已验证事实记录，开源赞助或托管版是可能方向，但不因此否定需求。
+    evidence_ids:
+    - ev-41502e9c03214554
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺 agent 可操控带登录态的 Chrome，但未见部署文档、权限边界说明或可复现实测，交付稳定性与安全人工边界仍缺公开证据。
+    evidence_ids:
+    - ev-18ba421b72593f7e
+    - ev-3d737f7c8a41e34a
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开描述具体部署场景、替代的旧流程与权限边界。
+  market: ''
+  job: 开发者或自动化流程搭建者在自己的电脑上打开已登录的 Chrome，让 Claude Code、Codex、Cursor、Gemini CLI 等 agent 通过 MCP 与浏览器扩展接管页面，处理需要登录态的后台、表单填写或数据抓取，最终由
+    agent 直接完成页面动作。
+  job_en: A developer or automation builder opens their own logged-in Chrome on their machine and lets
+    an agent such as Claude Code, Codex, Cursor, or Gemini CLI take over page actions via MCP plus a browser
+    extension, handling logged-in back-office pages, form filling, or data scraping so the agent completes
+    the page actions directly.
+  pain: 公开说明显示痛点是登录态：需要登录的后台、表单与数据抓取任务，agent 无法直接进入，用户必须手工复制会话、导出 Cookie 或改用无头脚本重放登录，任务被卡在认证这一步。
+  pain_en: 'The public description points to the logged-in session as the pain: for back-office pages,
+    forms, and scraping tasks behind a login, the agent cannot enter directly, so the user must manually
+    copy sessions, export cookies, or rebuild login in headless scripts, leaving the task stuck at authentication.'
+  current_alternative: 旧做法是手工操作浏览器，或写 Playwright/Puppeteer 等无头脚本并自行处理登录、Cookie 与验证码，或把页面内容复制粘贴给 agent
+    再人工执行动作。
+  current_alternative_en: The old approach is manual browser work, or writing headless Playwright/Puppeteer
+    scripts that handle login, cookies, and captchas themselves, or pasting page content to the agent
+    and executing the actions by hand.
+  usage_reason: 推断：相较无头脚本要重建登录、手工复制会话，它复用用户本机 Chrome 已有的登录态，把认证这一步从脚本里去掉，agent 直接对真实页面执行动作；因此已在用 Claude
+    Code、Cursor 等 agent 且任务落在登录后页面的开发者，会在需要抓取或操作自己账号内页面时选择它。
+  usage_reason_en: 'Inference: compared with headless scripts that must rebuild login or manually copy
+    sessions, it reuses the existing logged-in state of the user''s local Chrome, removing the authentication
+    step from the script so the agent acts on the real page; developers already using Claude Code, Cursor,
+    and similar agents whose tasks sit behind a login would choose it when scraping or operating pages
+    inside their own accounts.'

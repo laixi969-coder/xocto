@@ -194,3 +194,60 @@
   usage_reason: 它提供逻辑推理和溯源，可能提高 agent 可靠性，但采用证据有限。
   usage_reason_en: It offers logical reasoning and provenance, potentially improving agent reliability,
     but adoption evidence is limited.
+- id: req-full-lemmalog-2026-09-12
+  project_slug: lemmalog
+  level: full
+  reviewed_at: '2026-09-12T00:45:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 记忆缺乏逻辑一致性与溯源的需求：向量式记忆无法表达分层规则、事实冲突难追溯、新增事实需全量重算。旧做法是向量库加 RAG 或图库，不解决的后果是 agent 结论不可审计、上下文膨胀。交付闭环为事实输入—规则求值—溯源与增量推导—经
+      MCP 供 harness 共享，属工作流结构推理，公开材料未含用户抱怨原文。
+    evidence_ids:
+    - ev-cf4656bcf79cf134
+    - ev-eab93c4bbeb5132f
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库星数从 285 增至 303 的关注度信号，没有 issue、discussion、客户案例或独立评价说明开发者已把它放进真实 agent 工作流；关注度不能替代持续采用证据，因此共识卡在感知与场景验证环节。
+    evidence_ids:
+    - ev-cf4656bcf79cf134
+    - ev-7dd8e1d429f361e8
+  - gate: model
+    status: insufficient
+    reason: 仓库为开源项目，公开材料未见定价页、商业授权或企业支持条款，谁付钱尚不清楚；可推断的付费方是采用它的 agent 开发团队或企业平台方，但这是判断而非已验证事实，也未出现融资叙事，故不构成每日优鲜风险。
+    evidence_ids:
+    - ev-cf4656bcf79cf134
+  - gate: truth
+    status: supported
+    reason: Datalog 分层规则与溯源贴近 agent 记忆可解释、可审计的第一性目标，增量推导使交付结果可确定复现，而非依赖模型随机生成；MCP 服务器把能力接入既有 harness，人工边界清晰。公开材料未提供安全与权限边界的说明，这是尚未覆盖的部分。
+    evidence_ids:
+    - ev-cf4656bcf79cf134
+    - ev-963af9a533ddeb76
+  next_validation: 追踪 lemmalog 仓库的 issue 与 discussion，以及是否出现官方文档中的部署案例或企业采用说明，用以核验开发者是否在真实 agent 项目中持续使用。
+  market: ''
+  job: Agent 开发者在构建需要跨会话、跨工具共享状态的 LLM agent 时，处理对话事实、工具调用结果与业务规则等材料，要完成的任务是让 agent 的记忆具备逻辑一致性、可追溯来源，并在新事实到来时增量更新推导结论，而不是每次全量重算或让模型凭上下文猜测。
+  job_en: Agent developers building LLM agents that share state across sessions and tools work with conversation
+    facts, tool-call results and business rules, and must make agent memory logically consistent, provenance-traceable,
+    and incrementally re-derived as new facts arrive, instead of recomputing everything or letting the
+    model guess from context.
+  pain: 公开材料显示该产品针对的是 agent 记忆缺乏逻辑一致性与溯源的问题：向量检索式记忆无法表达分层规则，事实之间可能冲突，推导结论无法回溯到来源，新增事实后也难以只更新受影响的部分。这是从产品能力与
+    agent 工作流结构推出的痛点，公开证据未包含用户抱怨原文。
+  pain_en: 'The public material positions the product against agent memory that lacks logical consistency
+    and provenance: vector-retrieval memory cannot express stratified rules, facts may conflict, derived
+    conclusions cannot be traced to sources, and new facts cannot be propagated to only the affected derivations.
+    This pain is inferred from product capability and agent workflow structure; the public evidence contains
+    no verbatim user complaints.'
+  current_alternative: 当前替代方式包括向量数据库加 RAG、图数据库、简单键值存储或直接把历史塞进上下文窗口；这些做法能存事实，但缺少分层规则求值、溯源与增量推导，一致性靠提示词和人工约定维持。
+  current_alternative_en: Current alternatives include vector databases with RAG, graph databases, simple
+    key-value stores, or stuffing history into the context window; these can store facts but lack stratified
+    rule evaluation, provenance and incremental derivation, leaving consistency to prompts and manual
+    convention.
+  usage_reason: 推断：相较向量库或图库的旧做法，lemmalog 通过 Datalog 分层规则对事实求值、为每条推导保留溯源、并在新增事实时只做增量推导，把“人工核对哪些结论受影响、重新拼上下文”这一步交给引擎；因此当
+    agent 需要可审计、可解释的共享记忆时，开发者会选它。公开证据未包含用户反馈，故这是基于产品能力的推断。
+  usage_reason_en: 'Inference: versus vector or graph stores, lemmalog evaluates facts with stratified
+    Datalog rules, keeps provenance for each derivation, and performs incremental derivation when facts
+    are added, moving the step of manually checking which conclusions are affected and rebuilding context
+    into the engine; developers would choose it when an agent needs auditable, explainable shared memory.
+    Public evidence contains no user feedback, so this is an inference from product capability.'

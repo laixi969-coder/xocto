@@ -81,3 +81,56 @@
   usage_reason_en: 'The task is: Consultants or researchers turning research notes and data into editable
     slide decks for client or research presentations Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-codex-ppt-style-expanded-2026-09-12
+  project_slug: codex-ppt-style-expanded
+  level: full
+  reviewed_at: '2026-09-12T00:43:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把调研笔记、图表与数据整理成可编辑演示文稿的需求，痛点在排版、配图与画图占用分析时间且改稿易崩格式；公开仓库说明已提供按受众与风格生成、AI 配图与 draw.io 工作流，交付闭环可确定，属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-e1fc08b366c74868
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 57 增至 82，说明开发者社区注意到该项目，但收藏与关注只属规模信号，公开材料没有用户评价、issue 或案例说明目标顾问与研究人员是否真的把它留在汇报流程里，强场景是否成立仍无法判断。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-02a9ce2b2db906ac
+    - ev-e1fc08b366c74868
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费记录或采购信息，谁付钱（个人顾问、咨询机构还是靠赞助与融资）无法核验；这是判断而非已验证事实，但不足以取消已成立的需求结构。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述能力，没有可复现的部署文档、输入格式说明或交付样例，无法确认生成结果是否稳定可编辑、AI 配图与 draw.io 环节的人工与安全边界在哪里，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-c2af712a23335a77
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认实际输入格式、可复现的交付样例，以及是否有顾问或研究人员报告替代了原有排版流程。
+  market: ''
+  job: 咨询顾问或研究人员在准备客户汇报或研究分享时，把调研笔记、图表与数据交给 Codex，生成一套按受众与风格定制、可继续手工编辑的演示文稿，并配套 AI 配图与 draw.io 图形。
+  job_en: Consultants or researchers preparing client or research presentations hand research notes, charts
+    and data to Codex to produce an audience- and style-aware, still-editable slide deck with AI visuals
+    and draw.io diagrams.
+  pain: 公开材料只给出产品定位，未提供用户抱怨或案例；从工作流结构推理，痛点在于调研笔记、图表与数据到成稿之间要手工排版、配图、画流程图，且改稿时格式容易崩坏，交付时间被非分析性劳动占用。
+  pain_en: Public materials give only the product positioning, not user complaints or cases; by workflow
+    inference, the pain is that turning notes, charts and data into a finished deck requires manual layout,
+    illustration and diagramming, and edits tend to break formatting, consuming time that should go to
+    analysis.
+  current_alternative: 公开材料未说明现有做法；结构上可推断的替代是手工在 PowerPoint/Keynote/Google Slides 中排版，配合通用 AI 生成大纲或配图，再用
+    draw.io 单独画图后贴回。
+  current_alternative_en: Public materials do not state the current practice; the structurally inferable
+    alternatives are manual layout in PowerPoint/Keynote/Google Slides, generic AI for outlines or images,
+    and drawing diagrams separately in draw.io then pasting them back.
+  usage_reason: 推断：相较手工排版加通用 AI 的旧做法，它把“按受众与风格生成可编辑幻灯片”和“AI 配图、draw.io 图形工作流”放在同一条 Codex 流程里，减少在多个工具间搬运素材、重排格式和单独画图这几步，因此需要频繁产出客户汇报或研究分享、又要求成稿可继续手改的顾问与研究人员会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manual layout plus generic AI, it puts audience- and style-aware
+    editable slide generation together with AI visuals and draw.io diagram workflows in one Codex flow,
+    cutting the steps of moving assets between tools, re-laying-out formatting and drawing diagrams separately;
+    consultants and researchers who frequently produce client or research decks and need the output to
+    stay hand-editable would choose it in that situation.'

@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/487631.html
 summary: 看清「一个真正的人」
 first_seen: '2026-09-11T18:02:36Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

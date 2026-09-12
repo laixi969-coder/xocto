@@ -3,13 +3,12 @@ slug: ainews-claude-fable-mythos-51-new-sota-model-75-cache-price
 name: Claude
 builder: ''
 category: ''
-summary_zh: Claude 发布新一代模型 Fable/Mythos 5.1，被称为新的 SOTA 模型：缓存价格下调 75%，但输出 token 增加 70%。这轮发布延续头部模型厂商以降价换用量的定价竞争，依赖大模型
-  API 的应用方推理成本结构继续下移，而长输出任务的账单可能上升。
+summary_zh: 这是模型厂商的版本发布与定价调整，不是独立应用产品：缓存单价下降而单次输出 token 变多，意味着按 token 计费的 AI 应用成本结构被重新洗牌，需要重新核算单位任务成本；同时安全事件报道提示智能体在敏感与攻击性用途上的边界问题。
 inspiration: ''
-summary_en: 'Claude launched its new Fable/Mythos 5.1 models, described as a new SOTA model: cache prices
-  were cut by 75% while output token usage grew by 70%. The release continues top model vendors'' pattern
-  of trading price cuts for higher usage; for applications built on large-model APIs, inference cost structures
-  keep moving down, though bills for long-output tasks may rise.'
+summary_en: 'This is a model vendor release and pricing change, not a standalone application: cheaper
+  cache but more output tokens per call reshuffles the cost structure of token-billed AI apps and forces
+  per-task cost recalculation, while the safety reports highlight boundary problems for agents in sensitive
+  and offensive uses.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +24,7 @@ canonical_url: https://latent.space/p/ainews-claude-fablemythos-51-new
 summary: Queue the usual rush of model launches...
 first_seen: '2026-09-02T07:46:08Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

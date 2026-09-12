@@ -1,6 +1,6 @@
 ---
 slug: ai-firm-cohere-in-talks-for-up-to-3-billion-raise-report-say
-name: AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says
+name: Cohere
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPMUpHQV8zVUtY
 summary: AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says Bloomberg.com
 first_seen: '2026-09-11T18:03:31Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says
+# Cohere
 
 AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says Bloomberg.com
 

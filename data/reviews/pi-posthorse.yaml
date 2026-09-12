@@ -183,3 +183,54 @@
   usage_reason: 用户要完成的任务是：软件开发者、AI 编程工具用户；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developer, AI coding tool user Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-pi-posthorse-2026-09-12
+  project_slug: pi-posthorse
+  level: full
+  reviewed_at: '2026-09-12T00:46:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长编码会话中上下文丢失、代理遗忘前序决策的痛点，旧做法是摘要压缩或手动搬运历史，不解决就要重复劳动；交付闭环（无摘要窗口+滚动+笔记+恢复）在仓库说明中可还原，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-3e42af290db1a5db
+    - ev-538c914d45736dd6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 214 增至 242，说明英文开发者社区持续关注，但收藏与增长只属关注度证据，缺少 issue、discussion 或用户评价说明谁在何种场景持续使用，无法证明已进入日常工作流。
+    evidence_ids:
+    - ev-3e42af290db1a5db
+    - ev-c946d9bd87c39e00
+  - gate: model
+    status: insufficient
+    reason: 这是 Pi fork 的开源扩展，公开材料未见定价页、赞助、商业授权或企业采购路径，钱可能来自 to C 开发者捐赠或 to B 支持，属判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-3e42af290db1a5db
+  - gate: truth
+    status: insufficient
+    reason: 无摘要上下文窗口能否在长会话中稳定交付、滚动与历史恢复的边界及安全影响，缺少部署文档或可复现实测；中文生态检索未发现对应供给，也不构成交付证据。
+    evidence_ids:
+    - ev-9d01683501729b21
+    - ev-49815c681b0b586d
+  next_validation: 追踪 pi-posthorse 仓库的 issue 与 discussion，确认是否有开发者报告在长会话中实际使用滚动工具与历史恢复、替代了摘要压缩或手动搬运历史。
+  market: ''
+  job: 使用 Pi 编码代理（fitchmultz/pi fork）的开发者，在长时间多轮编码会话中处理代码库上下文、历史对话与笔记，需要在不丢失前序决策的前提下继续推进同一开发任务。
+  job_en: Developers using the fitchmultz/pi fork of the Pi coding agent, working through long multi-turn
+    coding sessions over a codebase, need to keep advancing the same task without losing earlier decisions,
+    history, and notes.
+  pain: 长会话中上下文窗口被摘要压缩或截断，导致代理遗忘先前约定、重复提问、重做已完成的改动；开发者被迫反复重述需求或手动搬运历史，这是编码代理工作流中反复出现的摩擦。
+  pain_en: In long sessions the context window gets summarized or truncated, so the agent forgets earlier
+    decisions, re-asks questions, and redoes finished work; developers must restate requirements or manually
+    carry history forward, a recurring friction in coding-agent workflows.
+  current_alternative: 现有替代是依赖代理自带的摘要式上下文压缩、手动开新会话并粘贴关键历史、或把决策写进仓库文件与外部笔记再人工引用。
+  current_alternative_en: Current alternatives are the agent's built-in summary-based context compaction,
+    manually starting a new session and pasting key history, or writing decisions into repo files and
+    external notes and re-referencing them by hand.
+  usage_reason: 推断：相较摘要压缩会丢失细节、手动搬运历史要额外整理，Posthorse 以原生无摘要上下文窗口配合滚动工具、持久笔记与历史恢复，把“重建上下文”这一步从人工整理变成代理内建动作，因此长会话频繁的
+    Pi fork 用户会在会话变长、需要跨窗口延续同一任务时选择它。
+  usage_reason_en: 'Inference: where summary compaction loses detail and manual history-carrying requires
+    extra curation, Posthorse uses native no-summary context windows with rollover tools, durable notes,
+    and history recovery to turn context rebuilding from manual work into a built-in agent action, so
+    Pi-fork users with frequent long sessions would choose it when a session grows and the same task must
+    continue across windows.'

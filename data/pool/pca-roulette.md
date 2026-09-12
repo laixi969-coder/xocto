@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/jeffreyutley/pca-roulette
 summary: Rebuild an image from five random principal components
 first_seen: '2026-09-11T02:40:55Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

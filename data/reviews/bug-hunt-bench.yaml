@@ -78,3 +78,53 @@
   usage_reason: 用户要完成的任务是：软件开发者、技术选型与采购人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developers, Technical evaluation and procurement staff Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-bug-hunt-bench-2026-09-12
+  project_slug: bug-hunt-bench
+  level: full
+  reviewed_at: '2026-09-12T00:43:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码模型选型时厂商自报基准难以横向核对这一需求：选型者需真实缺陷、统一运行与盲评才能比较。公开事实给出 105 个真实缺陷、两个生产仓库、模型自身 CLI 与盲评排行榜，旧替代与不解决的后果可还原，痛点刚性属工作流结构推理，尚无用户抱怨量化。
+    evidence_ids:
+    - ev-29249af370247685
+    - ev-e3912d51b9309ac3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 46 升至 47，关注度存在但规模很小，且收藏属关注度证据，不能证明选型者持续使用或把它纳入采购流程；公开材料没有 issue、discussion 或用户反馈说明谁在何种场景采用。
+    evidence_ids:
+    - ev-29249af370247685
+    - ev-e3912d51b9309ac3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断收入来自 to C 开发者、to B 团队还是评测机构赞助；这是商业证据缺口，不反推需求不存在，但当前无法核验可重复交付的付费路径。
+    evidence_ids:
+    - ev-29249af370247685
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明评测集是否持续更新、盲评由谁执行、以及结果如何防止被模型厂商影响；缺少部署文档或可复现实测来验证排行榜承诺能否稳定兑现，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-29249af370247685
+  next_validation: 追踪 bughunt.productcompass.pm 的评测方法说明与公开仓库 issue/discussion，确认评测集更新机制、盲评执行方与是否出现付费或采购记录。
+  market: ''
+  job: 软件开发者或技术选型人员在为团队挑选编码模型时，把两个生产仓库中的 105 个真实缺陷交给各候选模型在自身 CLI 中定位并修复，通过盲评排行榜和逐条记录，完成一次可核对的横向对比。
+  job_en: Software developers or technical evaluators choosing a coding model for their team hand 105
+    real bugs from two production repos to candidate models to locate and fix in their own CLIs, then
+    use the blind-graded leaderboard and per-item receipts to complete a verifiable head-to-head comparison.
+  pain: 公开材料指出痛点是各家模型自报基准成绩，选型者难以横向核对；从工作流结构推断，自建评测需收集真实缺陷、统一运行环境并盲评，成本高且易被厂商口径影响，但公开证据未量化这一负担的频率与代价。
+  pain_en: Public material identifies the pain as vendors self-reporting benchmark scores, making head-to-head
+    verification hard for selectors; by workflow inference, self-built evaluation requires collecting
+    real bugs, unifying run environments, and blind grading, which is costly and vulnerable to vendor
+    framing, though public evidence does not quantify the frequency or cost.
+  current_alternative: 公开材料未说明用户当前用什么替代；结构上可推断的旧做法是直接采信厂商公布的 benchmark 分数、阅读第三方评测文章，或自行搭建评测集，但这些替代方式均未被项目证据确认。
+  current_alternative_en: Public material does not state what users currently use instead; structurally
+    inferable alternatives are trusting vendor-published benchmark scores, reading third-party reviews,
+    or building an in-house evaluation set, none of which is confirmed by project evidence.
+  usage_reason: 推断：相较采信厂商自报分数或阅读二手评测，Bug Hunt Bench 用两个生产仓库的 105 个真实缺陷、在模型自身 CLI 中运行并盲评，把“谁更强”变成可逐条核对的记录，减少了选型者自行收集缺陷与统一环境这一步；因此需要为团队采购或选型编码模型、又无法信任厂商口径的开发者会选择它。该因果为工作流结构推理，尚无用户反馈或采购案例佐证。
+  usage_reason_en: 'Inference: compared with trusting vendor-reported scores or reading second-hand reviews,
+    Bug Hunt Bench runs 105 real bugs from two production repos in each model''s own CLI and grades blind,
+    turning ''which is stronger'' into per-item verifiable receipts and removing the step of collecting
+    bugs and unifying environments; developers selecting or procuring a coding model for a team who cannot
+    trust vendor framing would therefore choose it. This causal chain is workflow-structural'

@@ -233,3 +233,85 @@
   usage_reason: 诊断直接回答'为什么这么快用完'，若输出可执行的归因结论，开发者会为省时间和避免断供而使用。
   usage_reason_en: The diagnosis directly answers 'why did it run out so fast'; if it yields actionable
     attribution, developers will use it to save time and avoid interruptions.
+- id: req-initial-tare-2026-09-12
+  project_slug: tare
+  level: initial
+  reviewed_at: '2026-09-12T00:19:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决额度被快速耗尽却查不出原因的问题，痛点会直接中断开发与线上功能，旧做法是人工翻账单和日志，结构上成立。
+    evidence_ids:
+    - ev-90e884f47a805ce4
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，但公开材料没有持续使用、复购或团队采用的证据，关注度不等于留存。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价或付费路径；买方可能是自建 AI 功能的研发团队，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 额度归因是否准确、能否覆盖多家模型供应商的计费口径，公开材料未说明，交付确定性仍待核验。
+    evidence_ids: []
+  next_validation: 收集 tare 仓库的 README 与 issue/discussion，核对其支持的模型供应商、额度归因方式与是否已有团队实际使用反馈。
+  market: ''
+  job: AI 应用开发者在月度额度被提前耗尽、需要排查时，处理 API 调用日志与用量记录，要定位是哪些请求或代码路径消耗了额度。
+  job_en: An AI application developer, when monthly quota runs out early, works through API call logs
+    and usage records to locate which requests or code paths consumed the quota.
+  pain: 额度耗尽会直接中断线上功能或开发工作，而按调用量计费的账单通常只给总量，不说明来源，排查要靠人工翻日志。
+  pain_en: Running out of quota interrupts live features or development work, while usage-based billing
+    usually shows only totals, not sources, forcing manual log digging.
+  current_alternative: 目前多靠云厂商账单页、自建日志脚本或凭经验猜测，缺少把消耗归因到具体调用来源的现成做法。
+  current_alternative_en: Today teams rely on cloud billing pages, self-written log scripts, or guesswork,
+    with no ready way to attribute consumption to specific call sources.
+  usage_reason: 推断：相较人工翻账单和日志，tare 把调用记录直接归因到具体来源，省掉逐条比对日志这一步，因此额度频繁触顶、又需要向团队解释成本去向的开发者会先试用它。
+  usage_reason_en: 'Inference: compared with manually reading bills and logs, tare attributes call records
+    directly to specific sources, removing the step of matching log lines one by one, so developers who
+    hit quota limits often and must explain cost to their team would try it first.'
+- id: req-full-tare-2026-09-12
+  project_slug: tare
+  level: full
+  reviewed_at: '2026-09-12T00:46:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据只有 tare 一词的词典释义与泛泛 AI 市场页面，没有任何用户抱怨、issue 或案例支持额度耗尽且无法归因的痛点，需求与痛点均无法从公开事实还原。
+    evidence_ids:
+    - ev-a812ef9262c0a349
+    - ev-5409dc017503df9f
+    - ev-6e743a667ec7cf84
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 tare 的官方仓库 README 与 issue/discussion，核对它支持的模型供应商、额度归因方式及是否有真实用户使用反馈。
+  market: ''
+  job: AI 应用开发者在月度 LLM API 额度被提前耗尽、需要排查时，处理 API 调用记录与用量数据，要定位是哪些请求或代码路径消耗了额度。
+  job_en: An AI application developer, when monthly LLM API quota is exhausted early, works through API
+    call records and usage data to locate which requests or code paths consumed the quota.
+  pain: 公开材料中没有任何用户抱怨、issue、评价或案例支持“额度快速耗尽且无法归因”这一痛点；现有证据只有词典对 tare 一词的定义和泛泛的 AI 市场页面，无法确认该痛点真实存在及其强度。
+  pain_en: No public user complaint, issue, review, or case supports the pain of 'quota burning fast and
+    being unattributable'; the only evidence is dictionary definitions of the word tare and generic AI
+    market pages, so the pain's existence and intensity cannot be confirmed.
+  current_alternative: 公开材料未提供任何关于开发者当前如何排查额度消耗的替代做法信息，无法确认旧流程是翻账单、自建日志脚本还是其他方式。
+  current_alternative_en: Public material provides no information on how developers currently diagnose
+    quota consumption, so it is unknown whether the old workflow is reading bills, self-built log scripts,
+    or something else.
+  usage_reason: 推断：若产品真能把调用记录归因到具体来源，可省去人工逐条比对日志这一步；但缺少任何用户反馈或案例，无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the product truly attributes call records to specific sources, it could
+    remove the step of manually matching log lines; but with no user feedback or cases, it is unconfirmed
+    which users would choose it and when.'

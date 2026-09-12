@@ -27,7 +27,7 @@ summary: 'Evaluating video captioning remains a critical challenge for Visual La
   redefine caption quality via information fidelity: A caption must maximize the coverage…'
 first_seen: '2026-09-11T00:00:00Z'
 last_seen: '2026-09-12T00:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

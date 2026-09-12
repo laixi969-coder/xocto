@@ -146,3 +146,60 @@
   usage_reason: 用户要完成的任务是：独立开发者、自由职业者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Independent Developers, Freelancers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-bankmcp-2026-09-12
+  project_slug: bankmcp
+  level: full
+  reviewed_at: '2026-09-12T00:43:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让本地 AI 读取真实银行流水这一需求：旧做法要逐家网银导出再手工粘贴，多账户与订阅扣款难以归集，AI 拿不到真实数据。产品以只读、自托管方式经 Enable Banking
+      接入 2,700+ 欧洲银行并暴露给 MCP 客户端，交付路径可确定；这是工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-71f808647b00f896
+    - ev-95f2a0f86feae663
+    - ev-6eca43a30fe73232
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明它是自托管开源 MCP 服务器并列出支持的客户端，没有用户评价、issue 讨论或采用规模，无法判断是否形成使用共识；关注度不等于持续采用。
+    evidence_ids:
+    - ev-95f2a0f86feae663
+    - ev-6eca43a30fe73232
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或收费方式，开源自托管意味着钱可能来自个人自付的 Enable Banking 接口费用或后续托管服务，这是判断而非已验证事实；买方与单位经济尚未核验。
+    evidence_ids:
+    - ev-910a65ecb194d1e2
+    - ev-8dd6c4a2a07569db
+  - gate: truth
+    status: supported
+    reason: 只读、自托管的定位与个人财务查询的第一性目标一致：数据留在用户自己环境，AI 只读不写，减少误操作风险；交付边界由 Enable Banking 的 PSD2 授权决定，公开材料已说明连接方式与只读约束。
+    evidence_ids:
+    - ev-71f808647b00f896
+    - ev-4ca796e517de82fc
+  next_validation: 追踪 BankMCP 的 公开代码仓库 仓库 issue 与 discussion，核对是否有用户报告实际部署、接入的银行范围与只读授权下的失败案例。
+  market: ''
+  job: 个人用户或独立开发者在用 Claude Desktop、Claude Code、Cursor 等 MCP 客户端做个人财务梳理时，把自托管的 BankMCP 接到自己的银行账户，处理余额、交易流水与订阅扣款记录，要完成的任务是让
+    AI 直接读取真实账户数据并回答资产明细问题。
+  job_en: An individual user or indie developer doing personal finance review inside an MCP client such
+    as Claude Desktop, Claude Code or Cursor connects a self-hosted BankMCP to their own bank accounts,
+    works over balances, transactions and subscription charges, and needs the AI to read real account
+    data and answer questions about their asset details.
+  pain: 公开材料显示旧做法是用户自己登录各家网银、导出或截图流水，再手工粘贴进对话；多银行账户分散、订阅扣款难以归集，AI 拿不到真实数据只能靠用户口述，核对资产明细这一步负担落在用户身上。
+  pain_en: Public materials indicate the old way is to log into each bank, export or screenshot statements,
+    and paste them into the chat by hand; accounts are scattered across banks, subscription charges are
+    hard to aggregate, and the AI can only rely on what the user retypes, leaving the reconciliation burden
+    on the user.
+  current_alternative: 当前替代是手工导出银行流水后粘贴给 AI、用个人记账软件或表格自行归集，或干脆不让 AI 接触真实账户数据。
+  current_alternative_en: Current alternatives are manually exporting bank statements and pasting them
+    into the AI, using personal finance apps or spreadsheets to aggregate accounts, or simply keeping
+    the AI away from real account data.
+  usage_reason: 推断：相较手工导出粘贴，BankMCP 通过 Enable Banking 的 PSD2 接口一次性接入 2,700+ 欧洲银行，以只读方式把余额、交易和订阅直接暴露给任意
+    MCP 客户端，用户省下的是逐家网银导出再粘贴这一步；注重数据自持、又想让本地 AI 读真实流水的欧洲个人用户和独立开发者会在这种场景下选择它。
+  usage_reason_en: 'Inference: versus manual export and paste, BankMCP connects once through Enable Banking''s
+    PSD2 API covering 2,700+ European banks and exposes balances, transactions and subscriptions read-only
+    to any MCP client, removing the step of exporting from each bank and pasting it in; privacy-conscious
+    European individuals and indie developers who want their local AI to read real statements would choose
+    it in this situation.'

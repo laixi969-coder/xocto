@@ -79,3 +79,54 @@
   usage_reason: 用户要完成的任务是：社交媒体运营、个人品牌内容创作；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Social media operations, Personal brand content creation Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-linkedin-agent-skill-2026-09-12
+  project_slug: linkedin-agent-skill
+  level: full
+  reviewed_at: '2026-09-12T00:45:11Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是持续运营 LinkedIn 账号时写帖、回评、排周计划并去除 AI 痕迹的需求，痛点来自高频产出与内容被识破的风险；公开说明已能还原输入、动作与交付闭环，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-9ac628d3b5f21050
+    - ev-21000096b314b41b
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 95 增至 112 再到 135，说明有开发者持续关注并把它加入自己的技能库；但这是关注度证据，不能证明目标用户已长期留在工作流里，强场景是否成立仍待观察。
+    evidence_ids:
+    - ev-9ac628d3b5f21050
+    - ev-5a30f044a25566eb
+    - ev-21000096b314b41b
+  - gate: model
+    status: insufficient
+    reason: 公开材料写明这组技能免费，未见定价页、付费路径或买方归属；谁付钱、按什么单位收费都属判断而非已验证事实，这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-9ac628d3b5f21050
+  - gate: truth
+    status: insufficient
+    reason: 交付依赖 Claude 技能与用户自备账号，公开材料未给出可复现的生成质量、去 AI 痕迹评分口径，也未说明发布前人工确认与平台合规边界，确定性交付尚缺公开证据。
+    evidence_ids:
+    - ev-9ac628d3b5f21050
+    - ev-21000096b314b41b
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开描述实际部署场景、替代的旧流程与生成质量反馈。
+  market: ''
+  job: 做个人品牌或代运营 LinkedIn 账号的人，在需要按周产出帖子、评论和回复时，把账号定位与素材交给这组 Claude 技能，生成可发布的草稿、评论回复、资料评分和周计划，自己确认后发布。
+  job_en: People building a personal brand or running a LinkedIn account hand their positioning and raw
+    material to this set of Claude skills when they need weekly posts, comments and replies, and get publishable
+    drafts, comment replies, a profile score and a weekly plan to approve before posting.
+  pain: 公开材料显示其针对的是持续产出 LinkedIn 内容的负担：要反复套用钩子公式写帖、逐条回评、排周计划，还要担心 AI 生成痕迹被识破；不解决的后果是账号更新断档或内容被读者判定为机器味。
+  pain_en: 'The public description targets the burden of sustained LinkedIn output: repeatedly applying
+    hook formulas, replying to comments, planning the week, and worrying that AI-generated text will be
+    spotted; leaving it unsolved means the account goes stale or the writing reads as machine-made.'
+  current_alternative: 旧做法是自己套模板写帖、手动回评、用通用 AI 写作工具生成后再人工改写去 AI 味，周计划靠手动排。
+  current_alternative_en: The old way is writing posts from templates by hand, replying manually, using
+    generic AI writing tools and then hand-editing to remove the AI feel, with the weekly plan arranged
+    manually.
+  usage_reason: 推断：相较通用 AI 写作加人工改写，它把 21 个钩子公式、评论回复、周计划和去 AI 痕迹打分收进同一组技能，用户在草稿阶段就拿到评分，省去在多个工具间搬运和事后逐句改写的步骤，因此持续运营
+    LinkedIn 的个人或代运营者会在批量出稿时选它。
+  usage_reason_en: 'Inference: versus generic AI writing plus manual rewriting, it folds 21 hook formulas,
+    comment replies, a weekly plan and an AI-fingerprint score into one skill set, so the user gets a
+    score at draft stage and skips moving between tools and line-by-line post-editing; that is why individuals
+    or agencies running LinkedIn continuously would pick it for batch drafting.'

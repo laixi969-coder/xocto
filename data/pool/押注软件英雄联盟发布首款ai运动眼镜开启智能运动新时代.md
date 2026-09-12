@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lYm9GZFhRUUEx
 summary: 押注软件英雄联盟发布首款AI运动眼镜：开启智能运动新时代 体坛加
 first_seen: '2026-09-10T04:47:39Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

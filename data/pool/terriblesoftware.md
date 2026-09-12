@@ -21,7 +21,7 @@ canonical_url: https://terriblesoftware.org/2026/09/10/ai-is-breaking-this-thing
 summary: AI Is Breaking This Thing We Call Trust
 first_seen: '2026-09-10T14:21:20Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

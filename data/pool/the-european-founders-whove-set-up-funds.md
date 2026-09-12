@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/european-founders-funds
 summary: ''
 first_seen: '2026-09-11T05:00:58Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

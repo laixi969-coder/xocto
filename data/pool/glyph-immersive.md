@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/glyph-immersive
 summary: a free tool for modular grid lettering
 first_seen: '2026-09-10T20:57:20Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

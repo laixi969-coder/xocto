@@ -3,24 +3,26 @@ slug: ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b
 name: Cognition
 builder: cdnsteve
 category: AI + 开发
-summary_zh: Cognition 是 AI 编程助手 Devin 的开发商，Devin 能自主完成编码任务。此次融资报道显示其估值达 470 亿美元，表明市场对 AI 软件开发工具的高度认可。
-inspiration: AI 编程助手赛道已跑出头部，窗口正在关闭。新进入者应聚焦特定行业或开发环节，如安全审计、遗留系统迁移，而非通用编码助手。
-summary_en: Cognition is the developer of Devin, an AI coding assistant that autonomously completes coding
-  tasks. This funding report shows a $47 billion valuation, indicating strong market recognition for AI
-  software development tools.
-inspiration_en: The AI coding assistant space has produced a leader, and the window is closing. New entrants
-  should focus on specific industries or development stages, such as security auditing or legacy system
-  migration, rather than general-purpose coding assistants.
+summary_zh: 软件工程师在修改既有代码库、修缺陷或补测试时，把仓库和任务描述交给 Cognition 的编码代理，由它读取代码、生成并执行改动，最终产出可提交的补丁或合并请求，仍需工程师复核后合入。具体交付边界与人工确认环节仍待核验。
+inspiration: 趋势是编码代理从补全走向端到端改仓库，资本正集中押注少数头部。切入不在通用编码代理正面竞争，而在被大厂忽视的垂直旧流程：遗留系统迁移、行业合规代码审计、外包交付验收，按可核对的合并结果或审计报告收费。
+summary_en: When modifying an existing codebase, fixing defects or adding tests, software engineers hand
+  the repository and task description to Cognition's coding agent, which reads the code, generates and
+  executes changes, and returns a patch or pull request that engineers still review before merging. The
+  exact delivery boundary and human sign-off steps remain to be verified.
+inspiration_en: 'The trend is coding agents moving from autocomplete to end-to-end repository changes,
+  with capital concentrating on a few leaders. The opening is not head-on general coding agents but vertical
+  legacy workflows big vendors neglect: legacy migration, compliance code audits, outsourced delivery
+  acceptance, priced per verifiable merge or audit report.'
 priority_review: false
 project_type: new_application
 industries:
-- 软件开发
+- 软件与信息技术服务
 industries_en:
-- Software Development
+- Software and IT services
 jobs:
 - 软件工程师
 jobs_en:
-- Software Engineers
+- Software engineers
 regions:
 - 美国
 regions_en:
@@ -31,7 +33,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNckpuYmE5X0VW
 summary: AI Startup Cognition Set to Raise Around $1 Billion at a $47 Billion Value Yahoo! Finance Canada
 first_seen: '2026-09-02T00:29:00Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 - ia40

@@ -23,7 +23,7 @@ summary: Credible Captain Launches Independent Consumer Review Platform Focused 
   Trust TechBullion
 first_seen: '2026-09-11T13:42:28Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

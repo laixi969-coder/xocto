@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZUE5mS1E2dnpx
 summary: 从“能对话”到“办业务”，海光信息支撑AI Agent加速落地-AI云资讯 icloudnews.net
 first_seen: '2026-09-09T02:42:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

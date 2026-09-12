@@ -1,6 +1,6 @@
 ---
 slug: 从交易信任到行动信任蚂蚁apass铺设智能体商业新公路
-name: 从交易信任到行动信任，蚂蚁APASS铺设智能体商业新公路
+name: 蚂蚁APASS
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNM01TV09IVVNG
 summary: 从交易信任到行动信任，蚂蚁APASS铺设智能体商业新公路 Sohu
 first_seen: '2026-09-11T12:36:36Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 从交易信任到行动信任，蚂蚁APASS铺设智能体商业新公路
+# 蚂蚁APASS
 
 从交易信任到行动信任，蚂蚁APASS铺设智能体商业新公路 Sohu
 

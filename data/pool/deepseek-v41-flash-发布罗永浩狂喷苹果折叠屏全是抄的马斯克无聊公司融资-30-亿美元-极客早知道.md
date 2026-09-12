@@ -1,11 +1,16 @@
 ---
 slug: deepseek-v41-flash-发布罗永浩狂喷苹果折叠屏全是抄的马斯克无聊公司融资-30-亿美元-极客早知道
-name: DeepSeek V4.1 Flash 发布；罗永浩狂喷苹果折叠屏：全是抄的；马斯克「无聊公司」融资 30 亿美元｜极客早知道
+name: DeepSeek V4.1 Flash
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 深度求索于 2026 年 9 月 10 日发布 DeepSeek V4.1 Flash 模型，官方称其为该系列最小尺寸版本，具备原生多模态视觉理解，基准测试超过 V4 Pro，最高降价
+  60%，并大幅压缩 KV Cache。它是模型层发布而非独立应用产品，因此只作为市场背景记录，不进入产品机会流。
 inspiration: ''
-summary_en: ''
+summary_en: DeepSeek released the DeepSeek V4.1 Flash model on September 10, 2026, described as the smallest
+  model in its new architecture series, with native multimodal vision understanding, benchmark results
+  claimed above V4 Pro, price cuts of up to 60%, and sharply reduced KV Cache size. It is a model-layer
+  release rather than a standalone application product, so it is recorded only as market context and does
+  not enter the product opportunity stream.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -69,7 +74,7 @@ summary: "DeepSeek V4.1 Flash 模型正式发布：全面超越 V4 Pro、原生�
   \ \n 晴天｜一道彩虹，让心放晴； \n 晨曦｜破晓曦光，万物向明； \n 大地回声｜旷野星河，天地共鸣； \n 摄夜｜静谧夜色，晚风作伴。"
 first_seen: '2026-09-11T00:31:05Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -80,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# DeepSeek V4.1 Flash 发布；罗永浩狂喷苹果折叠屏：全是抄的；马斯克「无聊公司」融资 30 亿美元｜极客早知道
+# DeepSeek V4.1 Flash
 
 DeepSeek V4.1 Flash 模型正式发布：全面超越 V4 Pro、原生多模态视觉理解，最高降价 60% 
  9 月 10 日消息，深度求索今日正式发布 DeepSeek V4.1 Flash 模型 。这是其全新模型结构系列中的最小尺寸的模型，具备原生多模态视觉理解能力。 

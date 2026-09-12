@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE56QzBqRm5GYndw
 summary: CES 2026展示威尼斯梭哈导航全系AI TOP产品线 推动本地AI生态系统繁荣 体坛加
 first_seen: '2026-09-11T08:08:42Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,93 @@
+- id: req-initial-kimi-targets-2b-annual-revenue-prepares-for-50b-valuation-ho-2026-09-12
+  project_slug: kimi-targets-2b-annual-revenue-prepares-for-50b-valuation-ho
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长文档与多轮任务超出人工阅读检索能力的问题，交付是可用的回答、摘要或代码，痛点刚性。
+    evidence_ids:
+    - ev-5d408c988ab67a92
+  - gate: consensus
+    status: insufficient
+    reason: 材料只给出收入目标与 IPO 估值准备，没有可核对的用户使用或留存数据。
+    evidence_ids:
+    - ev-5d408c988ab67a92
+  - gate: model
+    status: insufficient
+    reason: 20 亿美元年收入目标是目标而非已实现收入，订阅与 API 计费构成未披露，属推断。
+    evidence_ids:
+    - ev-5d408c988ab67a92
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明回答准确率、人工复核方式或安全边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-5d408c988ab67a92
+  next_validation: 收集 Kimi 官方定价页或招股相关公开披露文件，核对收入构成与订阅、API 计费结构。
+  market: ''
+  job: 知识工作者和开发者在需要处理长文档问答、写作或代码任务的情况下，把文本与文件交给助手，要完成得到可用回答、摘要或代码的任务。
+  job_en: Knowledge workers and developers, when they need long-document Q&A, writing or coding, hand
+    text and files to an assistant to obtain usable answers, summaries or code.
+  pain: 长文档与多轮任务超出人工阅读和检索的承受范围，通用搜索难以直接给出可用的整合结果。
+  pain_en: Long documents and multi-turn tasks exceed what manual reading and searching can bear, and
+    general search rarely returns directly usable synthesized results.
+  current_alternative: 人工阅读与检索，或使用其他通用对话助手与搜索入口。
+  current_alternative_en: Manual reading and searching, or using other general chat assistants and search
+    entry points.
+  usage_reason: 相较人工逐段阅读或通用搜索，它直接接收长文本与文件并输出整合后的回答与代码，减少检索与拼接这一步，因此需要处理长材料的用户会在写作、读论文或写代码时选择它；本条材料只给出收入目标与估值，属推断性解释。
+  usage_reason_en: Compared with reading section by section or general search, it takes long text and
+    files directly and returns synthesized answers and code, reducing the retrieval and assembly step,
+    so users handling long material would choose it when writing, reading papers or coding; this item
+    only provides revenue target and valuation, so the explanation is inferential.
+- id: req-full-kimi-targets-2b-annual-revenue-prepares-for-50b-valuation-ho-2026-09-12
+  project_slug: kimi-targets-2b-annual-revenue-prepares-for-50b-valuation-ho
+  level: full
+  reviewed_at: '2026-09-12T00:45:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长文档问答、写作与代码任务超出人工阅读检索能力的问题，痛点刚性；交付是可用的回答、摘要或代码，官网列出 K3 agentic coding 与 Swarm 并行任务能力，闭环可确定。属工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-697ee3b9254f3744
+    - ev-1fde3a15fa886217
+    - ev-ebc4119aa1881c22
+  - gate: consensus
+    status: insufficient
+    reason: 材料只给出 20 亿美元年收入目标与 500 亿美元估值 IPO 准备，没有可核对的用户使用、留存或复购数据；官网功能说明与市场对比页不能证明持续采用。
+    evidence_ids:
+    - ev-697ee3b9254f3744
+    - ev-cfb7eeceff5adb78
+  - gate: model
+    status: insufficient
+    reason: 20 亿美元年收入是目标而非已实现收入，订阅与 API 计费构成未披露；to C 订阅与 to B API 两条路径均属推断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-1fde3a15fa886217
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明回答准确率、人工复核方式或安全边界，交付确定性无法核对；官网仅描述能力，未给出可复现的评测或部署文档。
+    evidence_ids:
+    - ev-697ee3b9254f3744
+    - ev-ebc4119aa1881c22
+  next_validation: 收集 Kimi 官方定价页或招股相关公开披露文件，核对收入构成与订阅、API 计费结构。
+  market: ''
+  job: 知识工作者和开发者在需要处理长文档问答、写作或代码任务时，把文本与文件交给对话助手，要完成得到可用回答、摘要或代码的任务。
+  job_en: Knowledge workers and developers, when handling long-document Q&A, writing or coding tasks,
+    hand text and files to a conversational assistant to obtain usable answers, summaries or code.
+  pain: 长文档与多轮任务超出人工逐段阅读和检索的承受范围，通用搜索难以直接给出可用的整合结果，用户需要在多个工具间切换拼接。
+  pain_en: Long documents and multi-turn tasks exceed what manual reading and searching can bear, and
+    general search rarely returns directly usable synthesized results, forcing users to switch among tools
+    and stitch outputs together.
+  current_alternative: 人工逐段阅读与检索，或使用其他通用对话助手与搜索入口（如 ChatGPT、Gemini）。
+  current_alternative_en: Manual section-by-section reading and searching, or other general chat assistants
+    and search entry points such as ChatGPT and Gemini.
+  usage_reason: 相较人工逐段阅读或通用搜索，Kimi 直接接收长文本与文件并输出整合后的回答、摘要或代码，减少检索与拼接这一步；官网还列出 K3 的 agentic coding、Swarm
+    并行任务与咨询级幻灯片生成能力，因此需要处理长材料或并行任务的用户会在写作、读论文或写代码时选择它。该解释基于产品能力与任务结构作出的推断，尚无用户反馈或客户案例直接支持。
+  usage_reason_en: Compared with reading section by section or general search, Kimi takes long text and
+    files directly and returns synthesized answers, summaries or code, reducing the retrieval and assembly
+    step; the official site also lists K3 agentic coding, Swarm parallel tasks and consulting-grade slide
+    generation, so users handling long material or parallel tasks would choose it when writing, reading
+    papers or coding. This explanation is inferred from product capability and task structure,

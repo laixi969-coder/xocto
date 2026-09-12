@@ -1,0 +1,82 @@
+- id: req-initial-devin-voice-2026-09-12
+  project_slug: devin-voice
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把开发任务下达从打字改为口述，但资料未说明旧流程痛点与具体动作，价值结构无法还原。
+    evidence_ids:
+    - ev-4df6a04ec5c8cd43
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句发布口号，没有用户反馈或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-4df6a04ec5c8cd43
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-4df6a04ec5c8cd43
+  - gate: truth
+    status: insufficient
+    reason: 无法核对语音任务能否确定性交付，也未说明人工确认边界。
+    evidence_ids:
+    - ev-4df6a04ec5c8cd43
+  next_validation: 收集 Devin Voice 官方文档或定价页，确认语音任务如何转成代码变更、支持范围与计价方式。
+  market: ''
+  job: 软件工程师在开发过程中要把一项改动需求交给编码代理，让它完成并交付可用的代码变更。
+  job_en: Software engineers need to hand a change request to a coding agent during development and have
+    it deliver a usable code change.
+  pain: 候选资料只有一句口号，没有说明口述需求相比打字在哪个环节更痛，痛点无法确认。
+  pain_en: The material is one tagline and does not say where speaking a request hurts less than typing,
+    so the pain cannot be confirmed.
+  current_alternative: 现有替代方式可能是用文字提示词驱动编码代理，但候选资料未提供任何替代行为描述。
+  current_alternative_en: The current alternative may be driving a coding agent with typed prompts, but
+    the candidate material gives no description of actual alternative behavior.
+  usage_reason: 无法判断：资料未说明语音输入减少了哪一步负担或改善了哪项可核对结果，不能给出用户选择它的理由。
+  usage_reason_en: 'Cannot be judged: the material does not say which step voice input removes or which
+    checkable result it improves, so no reason for users to choose it can be given.'
+- id: req-full-devin-voice-2026-09-12
+  project_slug: devin-voice
+  level: full
+  reviewed_at: '2026-09-12T00:44:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把开发任务下达从打字改为口述，但公开材料只有一句口号，未说明旧流程痛点、输入材料与交付动作，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-b0abd12b879d214e
+    - ev-6b5300115e3b913f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Devin 官方文档或定价页中关于 Voice 功能的说明，确认语音任务如何转成代码变更、支持仓库与语言范围及计价方式。
+  market: ''
+  job: 软件工程师在开发过程中把一项代码改动需求交给编码代理，由代理完成并交付可用的代码变更；Devin Voice 声称这一交接可以改为口述。
+  job_en: Software engineers hand a code-change request to a coding agent during development and have
+    it deliver a usable code change; Devin Voice claims this handoff can be done by speaking.
+  pain: 公开材料只有一句宣传语，没有说明口述相比打字在哪个环节更痛，也没有用户抱怨、workaround 或案例支持，痛点无法确认。
+  pain_en: The public material is a single tagline; it does not say where speaking hurts less than typing,
+    and there are no user complaints, workarounds, or cases, so the pain cannot be confirmed.
+  current_alternative: 公开事实显示 Devin 已有桌面端、JetBrains 插件和 CLI，用户可用文字提示词驱动编码代理；但没有任何材料描述用户实际如何下达任务或绕过口述需求。
+  current_alternative_en: Public facts show Devin already ships a desktop app, JetBrains plugin, and CLI,
+    so users can drive the coding agent with typed prompts; no material describes how users actually issue
+    tasks or work around the need to speak.
+  usage_reason: 无法判断：资料未说明语音输入减少了下达任务中的哪一步负担，也未给出可核对的结果改善，不能推断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of task handoff voice input
+    removes, nor any checkable result it improves, so no user segment or situation can be inferred for
+    choosing it.'

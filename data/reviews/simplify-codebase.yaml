@@ -162,3 +162,53 @@
   usage_reason: 开源项目获得 322 星，说明开发者关注代码简化自动化，但采用和付费尚未核验。
   usage_reason_en: The open-source project has 322 stars, indicating developer interest in automated code
     simplification, but adoption and payment are not yet verified.
+- id: req-full-simplify-codebase-2026-09-12
+  project_slug: simplify-codebase
+  level: full
+  reviewed_at: '2026-09-12T00:46:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件工程师在重构时识别并移除意外复杂度、且不改变行为的任务；痛点是不解决则复杂度与回归风险持续累积，旧替代是人工审查与静态分析，交付物可核验。此为工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-0221b5e564a142ac
+    - ev-623e3d1df5e5d3b6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 442 缓慢升至 465，说明有开发者关注，但公开材料没有用户评价、issue 讨论或采用案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-0221b5e564a142ac
+    - ev-623e3d1df5e5d3b6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、许可证商业条款或企业采购路径，买方可能是个人开发者或工程团队，这属于判断而非已验证事实，付费路径尚不明确。
+    evidence_ids:
+    - ev-0221b5e564a142ac
+  - gate: truth
+    status: insufficient
+    reason: 定位贴近重构的第一性目标，但公开材料未说明如何证明行为不变、支持哪些语言与测试框架，安全边界与确定性交付仍缺可核验细节。
+    evidence_ids:
+    - ev-0221b5e564a142ac
+    - ev-8b19c5db3a3e347a
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认其行为不变证明机制、支持语言范围及是否出现企业采用或付费版本。
+  market: ''
+  job: 软件工程师或技术负责人在接手或维护既有代码库时，处理遗留模块与重构候选代码，要完成的任务是找出哪些复杂度属于意外引入、证明删除后行为不变，并据此产出可执行的重构改动。
+  job_en: A software engineer or tech lead inheriting or maintaining an existing codebase works on legacy
+    modules and refactoring candidates, with the task of identifying which complexity is accidental, proving
+    behavior is preserved after removal, and producing executable refactoring changes.
+  pain: 公开材料只给出仓库定位句，未提供用户抱怨或案例；从工作流结构推理，意外复杂度会让阅读、修改和评审成本持续累积，而人工判断哪些代码可删既慢又难证明不破坏行为，重构回归风险高。
+  pain_en: Public material only provides the repository positioning statement, with no user complaints
+    or cases; by workflow inference, accidental complexity keeps raising read, change and review costs,
+    while manually judging what can be deleted is slow and hard to prove behavior-safe, making refactoring
+    regressions risky.
+  current_alternative: 旧做法是人工代码审查、静态分析或 lint 工具、以及凭经验做重构，这些手段能提示坏味道但通常不给出“删除后行为不变”的证明，验证仍靠测试与人工复核。
+  current_alternative_en: The old approach is manual code review, static analysis or lint tooling, and
+    experience-driven refactoring; these flag smells but usually do not prove that behavior is unchanged
+    after deletion, so verification still falls back on tests and human review.
+  usage_reason: 推断：相较人工审查加静态分析，它把“证明可简化”作为交付物，若真能对候选改动给出行为不变的证据，工程师就不必逐处手工论证删除安全性，从而在接手陌生代码库或做大规模清理时选择它；但公开材料未显示实际使用反馈，采用动机仍属推断。
+  usage_reason_en: 'Inference: versus manual review plus static analysis, it treats a proof of safe simplification
+    as the deliverable; if it really evidences behavior preservation for candidate changes, engineers
+    avoid arguing deletion safety by hand, so they would pick it when inheriting unfamiliar code or doing
+    large cleanups. Public material shows no actual usage feedback, so the adoption motive remains inferred.'

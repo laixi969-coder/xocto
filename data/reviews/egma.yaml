@@ -77,3 +77,44 @@
   usage_reason: 用户要完成的任务是：语音智能体开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: voice agent developer Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-egma-2026-09-12
+  project_slug: egma
+  level: full
+  reviewed_at: '2026-09-12T00:44:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决语音智能体上线前的仿真测试需求，但公开材料只有仓库一句定位，未说明测试痛点、频率、不测后果与现有替代方式，无法还原用户任务闭环，价值结构不成立。
+    evidence_ids:
+    - ev-ea6c4b5b48973448
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/egma-ai/egma 的 README、部署文档、issue 与 discussion，确认其测试用例格式、报告形态及是否有开发者实际使用反馈。
+  market: ''
+  job: 语音智能体开发者在准备上线前，需要处理多轮通话场景与对话脚本，批量模拟用户来电并检验智能体应答，得到可复现的测试结果以决定是否发布。
+  job_en: Before launch, voice-agent developers need to take multi-turn call scenarios and dialogue scripts,
+    simulate caller turns in batch, and check the agent's responses to obtain reproducible test results
+    for a release decision.
+  pain: 公开材料只有一句仓库定位，未说明语音智能体上线前测试的具体痛点、发生频率或不测试的后果，无法确认痛点刚性。
+  pain_en: Public material is limited to a one-line repository description and does not state the specific
+    pain, frequency, or consequence of not testing voice agents before launch, so the rigidity of the
+    pain cannot be confirmed.
+  current_alternative: 公开材料未说明开发者目前如何测试语音智能体，例如人工拨测、脚本回放或自建仿真环境，替代方式无法还原。
+  current_alternative_en: Public material does not show how developers currently test voice agents, such
+    as manual call testing, script replay, or self-built simulation, so the alternative cannot be reconstructed.
+  usage_reason: 缺少用户反馈、案例或采用证据，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果；仅凭仓库定位不能推断选择动机。
+  usage_reason_en: Without user feedback, cases, or adoption evidence, it is impossible to explain which
+    step it removes or which checkable result it improves versus the old approach; a repository tagline
+    alone cannot support a choice motive.

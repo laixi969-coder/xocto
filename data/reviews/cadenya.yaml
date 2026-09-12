@@ -1,0 +1,83 @@
+- id: req-initial-cadenya-2026-09-12
+  project_slug: cadenya
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是 agent 循环的工程编排负担，痛点真实但公开材料只有一句定位，说不清替代了哪一步旧工作，价值判断证据不足。
+    evidence_ids:
+    - ev-5d469dcd8fdec249
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页定位外没有采用、评价或社区讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-5d469dcd8fdec249
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自开发者订阅还是按调用计费，属未验证判断。
+    evidence_ids:
+    - ev-5d469dcd8fdec249
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生、失败重试与人工边界如何处理，公开材料不足。
+    evidence_ids:
+    - ev-5d469dcd8fdec249
+  next_validation: 收集该产品的官方定价页或部署文档，确认按什么计价以及一次任务交付的边界。
+  market: ''
+  job: 开发者在需要让程序自动完成多步外部调用（如抓取、改写、提交）时，把任务交给托管运行循环，期望拿到可用的执行结果。
+  job_en: A developer who needs a program to complete multi-step external calls, such as fetching, rewriting
+    and submitting, hands the task to a hosted loop and expects a usable result.
+  pain: 自建 agent 循环要处理重试、状态保存和工具调用编排，这部分工程负担重复且与业务无关。
+  pain_en: Building an agent loop in-house means handling retries, state persistence and tool-call orchestration,
+    repetitive engineering unrelated to the business.
+  current_alternative: 开发者自己用脚本或开源框架拼装循环，或直接调用模型 API 手工编排。
+  current_alternative_en: Developers assemble loops themselves with scripts or open-source frameworks,
+    or call model APIs and orchestrate by hand.
+  usage_reason: 推断：若托管循环能省掉重试与状态管理这一步，开发者会在做原型或内部自动化时先试它；但公开材料没有说明它比自建省下哪一步，也没有使用或付费证据，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: if the hosted loop removes the retry and state-management step, developers
+    would try it for prototypes or internal automation. But public material does not say which step it
+    saves versus self-building, and there is no usage or payment evidence, so the reason to choose it
+    is not yet established.'
+- id: req-full-cadenya-2026-09-12
+  project_slug: cadenya
+  level: full
+  reviewed_at: '2026-09-12T00:43:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 agent 循环的工程编排负担，但公开材料只有一句定位，说不清用户任务、旧替代与不解决的后果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-5d469dcd8fdec249
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Cadenya 官方产品页或部署文档，确认其输入格式、一次任务交付的产物边界与计价方式。
+  market: ''
+  job: 开发者在需要让程序自动完成多步外部调用（如抓取、改写、提交）时，把任务交给托管运行循环，期望拿到可用的执行结果。
+  job_en: A developer who needs a program to complete multi-step external calls, such as fetching, rewriting
+    and submitting, hands the task to a hosted loop and expects a usable result.
+  pain: 公开材料只有一句定位，未说明自建 agent 循环时重试、状态保存与工具调用编排的具体负担，也未给出任何用户抱怨或 workaround 证据，痛点无法从公开事实还原。
+  pain_en: Public material offers only a one-line positioning; it does not describe the concrete burden
+    of retries, state persistence and tool-call orchestration when building an agent loop in-house, nor
+    any user complaint or workaround evidence, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未披露开发者当前用什么方式替代，无法确认是自建脚本、开源框架还是直接调用模型 API 手工编排。
+  current_alternative_en: Public material does not disclose what developers currently use instead, so
+    it is unclear whether they self-build scripts, use open-source frameworks, or call model APIs and
+    orchestrate by hand.
+  usage_reason: 公开材料未说明产品通过哪个具体动作减少哪一步负担，也没有使用、评价或付费证据，无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: Public material does not state which concrete step the product removes, and there is
+    no usage, review or payment evidence, so it cannot explain which users would choose it and when.

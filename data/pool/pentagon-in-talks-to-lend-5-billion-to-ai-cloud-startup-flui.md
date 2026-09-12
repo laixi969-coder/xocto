@@ -1,6 +1,6 @@
 ---
 slug: pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-flui
-name: Pentagon in talks to lend $5 billion to AI cloud startup Fluidstack, WSJ reports
+name: Fluidstack
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNQm56T2dLMnFM
 summary: Pentagon in talks to lend $5 billion to AI cloud startup Fluidstack, WSJ reports Reuters
 first_seen: '2026-09-10T22:52:28Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Pentagon in talks to lend $5 billion to AI cloud startup Fluidstack, WSJ reports
+# Fluidstack
 
 Pentagon in talks to lend $5 billion to AI cloud startup Fluidstack, WSJ reports Reuters
 

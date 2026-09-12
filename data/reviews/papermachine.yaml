@@ -217,3 +217,50 @@
   usage_reason: 用户要完成的任务是：数据分析师、研究员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Data analysts, Researchers Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-papermachine-2026-09-12
+  project_slug: papermachine
+  level: full
+  reviewed_at: '2026-09-12T00:46:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分析师要产出可核验、可复现分析结论的需求，痛点是通用 AI 分析工具只给结论不给代码路径、结论无法审计；本地执行加图表回溯代码构成明确交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-5cbb4273bfa0f64b
+    - ev-d2eac8d9d0628d51
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 41 增至 53，说明开发者持续关注，但公开材料没有用户反馈或案例说明它被用于实际研究流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-5cbb4273bfa0f64b
+    - ev-54c2cf3e89e76c2c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费主体或单位经济，钱可能来自 to C 订阅或 to B 团队授权，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5cbb4273bfa0f64b
+  - gate: truth
+    status: insufficient
+    reason: 本地执行与代码回溯是明确承诺，但公开材料未说明分析出错时的责任边界与人工复核环节，交付确定性仍缺可复现证据。
+    evidence_ids:
+    - ev-5cbb4273bfa0f64b
+  next_validation: 追踪 papermachine 仓库的 README、issue 与 discussion，确认是否有用户用它完成实际分析并反馈代码回溯与本地执行的交付结果。
+  market: ''
+  job: 数据分析师或研究员在本地机器上处理自有数据集（含敏感或不便上传的数据），要完成从数据到可核验图表与结论的分析任务，并让每个图表都能追溯到生成它的 Python/R 代码。
+  job_en: A data analyst or researcher working on their own machine with proprietary or sensitive datasets
+    must produce verifiable charts and conclusions, with every chart traceable back to the Python/R code
+    that generated it.
+  pain: 通用 AI 分析工具给出结论却不给可复现的代码路径，分析师无法核对数字来源，在金融研究等场景中结论不可审计、不可复现，返工和复核成本高。
+  pain_en: Generic AI analysis tools return conclusions without a reproducible code path, so analysts
+    cannot verify where numbers came from; in finance research the output is neither auditable nor reproducible,
+    driving heavy rework and review cost.
+  current_alternative: 自己写 Python/R 脚本并手工整理图表与代码的对应关系，或使用不展示中间代码的通用 AI 分析工具后人工复核。
+  current_alternative_en: Hand-writing Python/R scripts and manually mapping charts to code, or using
+    generic AI analysis tools that hide intermediate code and then re-checking by hand.
+  usage_reason: 推断：相较手工写脚本再自行整理代码与图表对应关系，它在本地执行分析并自动把每个图表回溯到生成代码，减少的是事后人工核对与复现这一步，因此需要可审计结果、又不愿把数据传出本地的分析师和研究员会在做正式研究结论时选择它。
+  usage_reason_en: 'Inference: compared with hand-writing scripts and manually mapping charts to code,
+    it runs analysis locally and automatically traces each chart back to its generating code, removing
+    the manual post-hoc verification and reproduction step, so analysts and researchers who need auditable
+    results without moving data off their machine would choose it when producing formal research conclusions.'

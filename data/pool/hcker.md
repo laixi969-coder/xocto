@@ -21,7 +21,7 @@ canonical_url: https://hcker.news/notifications
 summary: Real-time push notifications for Hacker News comments
 first_seen: '2026-09-10T14:26:21Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

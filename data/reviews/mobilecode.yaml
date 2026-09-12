@@ -221,3 +221,51 @@
   usage_reason: 用户要完成的任务是：移动开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: mobile developer Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-mobilecode-2026-09-12
+  project_slug: mobilecode
+  level: full
+  reviewed_at: '2026-09-12T00:45:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动开发者在 AI 代理改完 iOS/Android 代码后必须手动切出编辑器跑构建、启动模拟器才能看到结果的问题；构建链路重、反馈回路长是移动端开发的固有摩擦，不解决的后果是编译错误与运行时问题被推迟发现。公开仓库说明其把构建与预览内嵌进代理循环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-fd127e7c781f2dff
+    - ev-4fae1520e96fb487
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 105 持续升至 230，说明英文开发者社区已注意到该分支并保持关注；但这是关注度证据，公开材料未显示目标用户已把它长期留在日常构建流程中，持续采用仍待观察。
+    evidence_ids:
+    - ev-fd127e7c781f2dff
+    - ev-4fae1520e96fb487
+  - gate: model
+    status: insufficient
+    reason: 作为 OpenCode 的开源分支，公开材料未披露定价页、付费主体或商业路径，钱可能来自 to C 开发者订阅或 to B 团队支持，这是判断而非已验证事实；开源分发本身不构成收入证据。
+    evidence_ids:
+    - ev-4fae1520e96fb487
+  - gate: truth
+    status: insufficient
+    reason: 公开仓库仅说明其构建并预览 iOS/Android 项目，未提供部署文档、可复现构建结果或签名、证书、真机调试等安全与人工边界说明，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-fd127e7c781f2dff
+  next_validation: 追踪 MobileCode 仓库的 README、issue 与 discussion，确认其构建预览的实际部署方式、支持的平台与签名边界，以及是否有开发者报告在真实项目中持续使用。
+  market: ''
+  job: 移动应用开发者在用 AI 编码代理修改 iOS/Android 项目代码时，需要把代码变更落到真机或模拟器上构建并看到可运行预览，以确认改动是否成立。
+  job_en: Mobile app developers using an AI coding agent to modify iOS/Android project code need the change
+    built and previewed on a simulator or device to confirm it works.
+  pain: 移动端构建链路重：Xcode/Gradle 编译、签名、模拟器启动与安装步骤多且慢，AI 代理改完代码后开发者要手动切出编辑器跑一遍构建才能看到结果，反馈回路被拉长；纯文本 diff 无法暴露编译错误与运行时崩溃。
+  pain_en: 'Mobile build chains are heavy: Xcode/Gradle compile, signing, simulator boot and install are
+    slow and multi-step, so after an agent edits code the developer must leave the editor and run a build
+    manually; a text diff cannot surface compile errors or runtime crashes.'
+  current_alternative: 在 OpenCode 等通用 AI 编码代理里改完代码后，手动切到 Xcode/Android Studio 或命令行执行构建、启动模拟器并安装，再回到编辑器继续迭代。
+  current_alternative_en: After editing in a general AI coding agent such as OpenCode, developers switch
+    to Xcode/Android Studio or the CLI to build, boot a simulator and install, then return to the editor
+    to iterate.
+  usage_reason: 推断：相较手动切出编辑器跑构建，MobileCode 把构建与预览动作内嵌进代理循环，代理接收代码变更后直接触发 iOS/Android 构建并交付可运行预览，省去开发者手动执行构建、启动模拟器与安装这一步，因此正在用
+    AI 代理写移动端代码、又不想反复切工具的开发者会在迭代验证时选择它。
+  usage_reason_en: 'Inference: versus manually leaving the editor to run a build, MobileCode embeds build-and-preview
+    into the agent loop, so the agent triggers the iOS/Android build on each code change and returns a
+    runnable preview, removing the manual build, simulator-boot and install step; developers already using
+    an AI agent on mobile code who want to avoid tool-switching would pick it for iteration checks.'

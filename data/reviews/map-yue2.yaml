@@ -1,0 +1,93 @@
+- id: req-initial-map-yue2-2026-09-12
+  project_slug: map-yue2
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决创作者对生成式音乐结构可控性与完整曲式编排的真实创作需求。
+    evidence_ids:
+    - ev-e36dcdb170d141ca
+  - gate: consensus
+    status: supported
+    reason: 在开发者社区获得积极讨论与关注，体现对开源音乐规划方案的兴趣。
+    evidence_ids:
+    - ev-e36dcdb170d141ca
+  - gate: model
+    status: insufficient
+    reason: 作为开源模型发布，尚无独立商业化定价与付费闭环证据。
+    evidence_ids:
+    - ev-e36dcdb170d141ca
+  - gate: truth
+    status: supported
+    reason: 交付本地可运行的生成代码与音频输出，交付逻辑明确。
+    evidence_ids:
+    - ev-e36dcdb170d141ca
+  next_validation: YuE2 在开源社区的实际衍生应用集成与商业落地案例。
+  market: ''
+  job: 独立音乐人或内容创作者在缺少完整乐理编曲团队时，需要快速制作符合特定调性与结构的完整配乐。
+  job_en: Indie musicians and content creators produce complete soundtracks with specific keys and structural
+    progressions without a full production team.
+  pain: 纯黑盒音乐生成往往难以精确控制主副歌结构与乐器编配，而传统数字音频工作站编曲门槛极高。
+  pain_en: Black-box audio generators offer poor structural control over verse-chorus transitions, while
+    traditional DAW composition has a steep learning curve.
+  current_alternative: 使用 Suno、Udio 等闭源生成工具，或在 DAW 中手工编写 MIDI 序列。
+  current_alternative_en: Using proprietary generation platforms like Suno or manually sequencing MIDI
+    tracks in DAWs.
+  usage_reason: （工作流推理）通过结合符号规划机制，让创作者能够按乐理逻辑引导曲式结构，相较纯随机生成显著提升编曲可控性。
+  usage_reason_en: (Workflow inference) By incorporating symbolic planning, creators can guide musical
+    structures with compositional logic, improving structural control over random generations.
+- id: req-full-map-yue2-2026-09-12
+  project_slug: map-yue2
+  level: full
+  reviewed_at: '2026-09-12T00:45:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决音乐创作者对生成结果结构可控、可二次编辑的需求：黑盒工具只给不可拆的成品音频，改结构只能整段重生成，DAW 手工编曲门槛又高。YuE2 先写可编辑乐谱再渲染成曲，痛点与交付闭环在公开材料中可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-9ca142ffcab95a50
+    - ev-e6eb2f795b7a8c33
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示项目于 2026-09-09 由港科大与 M·A·P 发布、宣称对标 Suno v5，并有项目页与模型页；未见用户评价、下载量或社区讨论等采用侧证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-e6eb2f795b7a8c33
+    - ev-9ca142ffcab95a50
+  - gate: model
+    status: insufficient
+    reason: 以开源模型形式发布，公开材料未见定价页、付费路径或采购记录，钱可能来自研究机构资助、开源生态或后续托管服务，属判断而非已验证事实；无融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-e4acb775aeaab581
+    - ev-5f5bada97edb878e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料说明其统一符号与音频生成、输出可编辑乐谱与含人声伴奏的完整歌曲，交付形态明确；但未见部署文档、可复现实测或安全与人工边界说明，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-9ca142ffcab95a50
+    - ev-737e2b7c2d54ed1f
+  next_validation: 追踪 公开模型社区 模型页与 公开代码仓库 项目仓库的公开部署文档、issue/discussion 及衍生集成记录，核验实际使用与交付可复现性。
+  market: ''
+  job: 音乐制作人与独立创作者在需要为视频、游戏或歌曲小样配乐时，输入歌词、风格提示与符号规划指令，让模型先写出可编辑的乐谱（ABC 记谱），再渲染成含人声与伴奏的完整歌曲，交付多音轨作品供后续剪辑混音。
+  job_en: Music producers and indie creators scoring videos, games, or song demos input lyrics, style
+    prompts, and symbolic planning instructions; the model first writes an editable score (ABC notation),
+    then renders a full song with vocals and accompaniment, delivering multi-track material for later
+    editing and mixing.
+  pain: 纯音频黑盒生成工具只给一段不可拆解的成品音频，主副歌结构、旋律走向与配器难以按意图修改，返工只能整段重生成；而在 DAW 里手工编曲又需要乐理与配器能力，门槛高、耗时长。
+  pain_en: Black-box audio generators return a single indivisible finished track, so verse-chorus structure,
+    melodic direction, and orchestration cannot be edited to intent and any fix means regenerating the
+    whole piece; hand-arranging in a DAW instead demands music theory and orchestration skill, which is
+    slow and high-barrier.
+  current_alternative: 使用 Suno、Udio 等闭源生成平台直接出成品音频，或在 DAW 中手工编写 MIDI 与配器。
+  current_alternative_en: Using proprietary generation platforms such as Suno or Udio to output finished
+    audio directly, or hand-sequencing MIDI and orchestration in a DAW.
+  usage_reason: （推断）相较闭源工具只能整段重生成，YuE2 先产出可编辑的 ABC 乐谱再渲染成曲，创作者可在乐谱层按乐理修改旋律、歌词与编配，把“反复重抽整首歌”这一步换成“改谱再渲染”，因此需要结构可控与二次编辑的编曲者会在构思阶段选择它。
+  usage_reason_en: (Inference) Unlike proprietary tools that only allow whole-track regeneration, YuE2
+    first emits an editable ABC score and then renders it into a song, letting creators revise melody,
+    lyrics, and arrangement at the score level; this replaces 're-rolling the entire song' with 'edit
+    the score and re-render', so arrangers needing structural control and second-pass editing would choose
+    it during the ideation stage.

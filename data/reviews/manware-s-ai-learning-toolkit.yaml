@@ -141,3 +141,51 @@
   usage_reason: 用户要完成的任务是：开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers Public materials do not yet explain why users choose this
     product over their existing approach.'
+- id: req-full-manware-s-ai-learning-toolkit-2026-09-12
+  project_slug: manware-s-ai-learning-toolkit
+  level: full
+  reviewed_at: '2026-09-12T00:45:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者学代码时被通用助手直接喂答案、理解被跳过的问题，痛点在于复制后仍不会、需另找教程逐行追问；仓库自述明确以“把代理变成老师而非代码输出机器”为定位，输入代码或问题、输出解释与教学反馈的闭环可还原，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-33e9a468ba66c4e2
+    - ev-5b8b324ae7e0b688
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 156 增至 353，说明英文开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在学习或审查工作流中；缺少 issue、discussion 或使用反馈说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-33e9a468ba66c4e2
+    - ev-b35821ff7653b174
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费记录或买方描述，无法判断收入来自个人开发者订阅、团队采购还是纯开源赞助；这是判断而非已验证事实，但不影响价值关已成立。
+    evidence_ids:
+    - ev-33e9a468ba66c4e2
+  - gate: truth
+    status: insufficient
+    reason: 教学式输出能否稳定优于通用助手、是否会被用户绕过直接要代码，以及人工与安全边界，均缺可复现的公开评测或部署文档；中文生态检索亦未发现对应供给。
+    evidence_ids:
+    - ev-4a950d81fa96d8b1
+    - ev-5e510b9891f62638
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否出现具体使用场景描述、教学输出示例或用户反馈，以核验教学式交付是否被真实工作流采用。
+  market: ''
+  job: 开发者在自学新语言、新框架或做代码审查时，把一段代码或一个报错问题交给 AI，要求它像老师一样讲清原理与思路，而不是直接吐出可复制的成品代码，从而真正理解这段代码。
+  job_en: While self-learning a new language or framework, or reviewing code, a developer hands a snippet
+    or an error question to an AI and asks it to teach the underlying principle and reasoning instead
+    of dumping copy-pasteable finished code, so the developer actually understands the code.
+  pain: 主流代码助手默认以最快速度给出可运行答案，开发者复制后往往并不理解，遇到变体问题仍不会；想学原理就得自己另找教程、逐行追问，学习与查代码被拆成两套流程。
+  pain_en: Mainstream coding assistants default to producing runnable answers as fast as possible; developers
+    paste them without understanding and still fail on variants, while learning the principle means hunting
+    separate tutorials and asking line-by-line, splitting lookup and learning into two workflows.
+  current_alternative: 直接用 ChatGPT、Copilot、Cursor 等通用代码助手要答案，或去搜索教程、文档、Stack Overflow，再自己拼凑理解。
+  current_alternative_en: Asking general coding assistants such as ChatGPT, Copilot or Cursor for the
+    answer, or searching tutorials, docs and Stack Overflow and piecing the understanding together manually.
+  usage_reason: 推断：相较通用助手直接给代码，该工具把代理行为约束成教学式输出，省掉用户自己反复追问“为什么这样写”的那一步，并让解释与当前代码片段绑定；因此正在学新栈或做代码审查、希望理解而非抄答案的开发者会在这种情境下选它。
+  usage_reason_en: 'Inference: versus general assistants that hand over code, this toolkit constrains
+    the agent to teaching-style output, removing the step where users repeatedly ask ''why is it written
+    this way'' and binding the explanation to the current snippet; developers learning a new stack or
+    reviewing code who want understanding rather than a pasted answer would pick it in that situation.'

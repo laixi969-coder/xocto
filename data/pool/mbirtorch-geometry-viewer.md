@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/gbuzzard/mbirtorch-geometry-viewer
 summary: 'Draw a CT scan geometry: source, detector, volume, offsets.'
 first_seen: '2026-09-10T23:38:12Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -110,3 +110,54 @@
   usage_reason: 用户要完成的任务是：企业架构师、IT规划人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Enterprise architects, IT planners Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-mobile-manufacturing-togaf-2026-09-12
+  project_slug: mobile-manufacturing-togaf
+  level: full
+  reviewed_at: '2026-09-12T00:45:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手机制造企业架构师做TOGAF规划时缺行业参考、视图需从零绘制、规划与系统实现脱节的问题；公开仓库提供6章正文、76个原型与LTC知识图谱及可驱动AI编程的设计方案，交付物明确，属工作流结构推理，痛点刚性中等偏上。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+    - ev-63f6cdb801316dbb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从41增至47，说明持续有人关注，但收藏与关注只属规模信号，公开材料没有issue、discussion或用户评价说明谁在何种场景实际使用，无法证明已进入工作流。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+    - ev-63f6cdb801316dbb
+  - gate: model
+    status: insufficient
+    reason: 这是开源案例库，公开材料未见定价页、付费客户或采购记录，钱可能来自企业架构咨询与定制交付或to B服务，但均属判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明含规划正文、原型与需求设计方案，未提供部署文档、可复现运行结果或人工审核边界，AI编程落地能否稳定交付尚缺公开证据。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+    - ev-e01b21cd66e449f9
+  next_validation: 追踪该公开代码仓库仓库的issue、discussion与README更新，确认是否有企业架构师报告实际部署、替代了原有规划流程或提交可复现的落地结果。
+  market: ''
+  job: 手机制造企业的企业架构师或IT规划人员，在制定数字化转型与TOGAF架构规划时，需要产出架构正文、可视化视图和LTC流程知识图谱，并把这些设计转成可落地的可视化系统。
+  job_en: Enterprise architects or IT planners at mobile-manufacturing firms, when producing TOGAF-based
+    digital transformation plans, must deliver architecture chapters, visual views and an LTC process
+    knowledge graph, and turn those designs into a buildable visualization system.
+  pain: TOGAF规划通常从零起草，章节结构、视图模板和行业参考缺失，架构师要反复手工搭建框架并自行绘制大量视图；规划文档与后续系统实现之间还存在断层，设计难以直接驱动开发。
+  pain_en: 'TOGAF planning usually starts from a blank page: chapter structures, view templates and industry
+    references are missing, so architects repeatedly rebuild the framework and hand-draw many views; a
+    gap also remains between the planning document and later system implementation, so designs cannot
+    directly drive development.'
+  current_alternative: 公开材料未直接描述用户现有做法；按工作流结构推理，替代方式是从零撰写规划文档、套用通用TOGAF模板、用Visio或PPT手工绘制视图，再另行编写系统需求交给开发。
+  current_alternative_en: Public materials do not directly describe current practice; by workflow inference,
+    the alternative is writing plans from scratch, reusing generic TOGAF templates, hand-drawing views
+    in Visio or PPT, and separately writing system requirements for developers.
+  usage_reason: 推断：相较从零起草和手工绘图，该案例库直接提供6章规划正文、76个可视化原型与LTC知识图谱原型，并附可驱动AI编程的需求与设计方案，架构师可跳过框架搭建与视图从零绘制，把设计直接交给AI编程工具生成可视化系统；因此缺少行业参考、又希望规划能落到代码的架构师会选用它。
+  usage_reason_en: 'Inference: versus drafting from scratch and hand-drawing, the case library supplies
+    six planning chapters, 76 visualization prototypes and an LTC knowledge-graph prototype plus requirements
+    and design specs that can drive AI coding, letting architects skip framework setup and blank-page
+    view drawing and hand the design to AI coding tools; architects lacking industry references who want
+    plans to reach code would choose it.'

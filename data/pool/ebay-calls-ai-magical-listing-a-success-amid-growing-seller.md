@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE1WZ0o1eGI1cU9Q
 summary: eBay Calls AI Magical Listing A Success Amid Growing Seller Complaints valueaddedresource.net
 first_seen: '2026-09-11T18:40:39Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

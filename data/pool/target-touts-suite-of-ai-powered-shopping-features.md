@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQW9TelY3ZjBH
 summary: Target touts suite of AI-powered shopping features Mass Market Retailers
 first_seen: '2026-09-11T18:26:35Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

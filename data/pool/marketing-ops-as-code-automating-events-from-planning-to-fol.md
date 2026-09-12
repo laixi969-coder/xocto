@@ -23,7 +23,7 @@ summary: "If you can write down how you do your work, you can automate it. Here'
   \ to follow-up on GitHub  appeared first on  The GitHub Blog ."
 first_seen: '2026-09-11T18:26:10Z'
 last_seen: '2026-09-12T00:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

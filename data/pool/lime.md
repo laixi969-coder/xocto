@@ -21,7 +21,7 @@ canonical_url: https://github.com/spencerldixon/lime
 summary: Beautiful Markdown rendering in your terminal
 first_seen: '2026-09-11T08:59:07Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

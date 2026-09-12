@@ -1,0 +1,92 @@
+- id: req-initial-xmaxsdk-ios-2026-09-12
+  project_slug: xmaxsdk-ios
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决移动端接入实时视频生成的工程负担，但公开材料未说明具体应用场景与不采用时的后果。
+    evidence_ids:
+    - ev-d577b4c1f8bde06b
+    - ev-4f275d3206acacd8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，没有开发者评价、集成案例或社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-d577b4c1f8bde06b
+    - ev-4f275d3206acacd8
+  - gate: model
+    status: insufficient
+    reason: SDK 免费开源，收费发生在生成服务侧，但公开材料未披露定价与付费方。
+    evidence_ids:
+    - ev-d577b4c1f8bde06b
+  - gate: truth
+    status: insufficient
+    reason: 未提供延迟、并发或生成质量的实测数据，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-d577b4c1f8bde06b
+    - ev-4f275d3206acacd8
+  next_validation: 收集该 SDK 的官方文档与仓库 issue，确认是否有开发者报告实际集成后的延迟与生成质量。
+  market: ''
+  job: 做 iOS 应用的开发者，在需要让用户在应用内实时生成并交互视频时，接入该 SDK 把输入交给生成服务并渲染结果。
+  job_en: iOS developers who, when users must generate and interact with video inside the app, integrate
+    this SDK to pass input to the generation service and render the result.
+  pain: 实时视频生成接入移动端涉及流式传输、渲染与延迟控制，自行搭建成本高。
+  pain_en: Bringing real-time video generation into mobile involves streaming, rendering and latency control,
+    which is costly to build alone.
+  current_alternative: 调用通用视频生成 API 后自行处理移动端播放，或直接使用网页端生成工具。
+  current_alternative_en: Calling general video-generation APIs and handling mobile playback in-house,
+    or using web-based generation tools directly.
+  usage_reason: 推断：相较自行封装通用 API，它提供原生 iOS 接入层，减少移动端流式渲染这一步的工程量；但公开材料没有客户案例或使用反馈，无法确认开发者是否真的采用。
+  usage_reason_en: 'Inference: versus wrapping a general API, it offers a native iOS layer that cuts the
+    engineering work of mobile streaming and rendering; no customer cases or usage feedback are public,
+    so actual developer adoption cannot be confirmed.'
+- id: req-full-xmaxsdk-ios-2026-09-12
+  project_slug: xmaxsdk-ios
+  level: full
+  reviewed_at: '2026-09-12T00:47:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动端接入实时交互视频生成的工程负担：流式传输、渲染与延迟控制自行搭建成本高，旧做法是封装通用 API 或改用网页工具，后者无法嵌入 App 内交互。公开材料仅产品说明，价值判断基于工作流结构推理。
+    evidence_ids:
+    - ev-d577b4c1f8bde06b
+    - ev-4f275d3206acacd8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 43 至 44 星只反映开发者关注，公开材料没有集成案例、开发者评价或社区讨论，无法判断共识是否形成。
+    evidence_ids:
+    - ev-d577b4c1f8bde06b
+    - ev-4f275d3206acacd8
+  - gate: model
+    status: insufficient
+    reason: SDK 本身开源，收费发生在 Xmax AI 生成服务侧，但公开材料未披露定价与付费方，买方与收费路径均不明。
+    evidence_ids:
+    - ev-d577b4c1f8bde06b
+  - gate: truth
+    status: insufficient
+    reason: 未提供延迟、并发或生成质量的实测数据，实时交互这一核心承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-d577b4c1f8bde06b
+    - ev-4f275d3206acacd8
+  next_validation: 追踪该 SDK 的官方文档与仓库 issue，核对是否有开发者报告实际集成后的延迟、并发与生成质量数据。
+  market: ''
+  job: 做 iOS 应用的开发者，在需要让用户在 App 内实时生成并交互视频时，接入该原生 SDK 把用户输入交给 Xmax AI 生成服务，并在应用内渲染出可交互的视频画面。
+  job_en: iOS developers who, when users must generate and interact with video inside the app, integrate
+    this native SDK to pass user input to the Xmax AI generation service and render an interactive video
+    view in-app.
+  pain: 实时视频生成接入移动端涉及流式传输、渲染与延迟控制，自行封装通用 API 成本高，网页端工具又无法嵌入 App 内交互。
+  pain_en: Bringing real-time video generation into mobile involves streaming, rendering and latency control;
+    wrapping a general API in-house is costly, and web tools cannot be embedded as in-app interaction.
+  current_alternative: 调用通用视频生成 API 后自行处理移动端播放，或直接使用网页端生成工具。
+  current_alternative_en: Calling general video-generation APIs and handling mobile playback in-house,
+    or using web-based generation tools directly.
+  usage_reason: 推断：相较自行封装通用 API，它提供原生 iOS 接入层，省掉移动端流式传输与渲染这一步工程量，因此需要把实时交互视频嵌进 App 的 iOS 开发者会在这种情况下选择它。公开材料没有客户案例或使用反馈，实际采用无法确认。
+  usage_reason_en: 'Inference: versus wrapping a general API, it provides a native iOS layer that removes
+    the engineering step of mobile streaming and rendering, so iOS developers embedding real-time interactive
+    video in an app would choose it here. No customer cases or usage feedback are public, so actual adoption
+    is unconfirmed.'

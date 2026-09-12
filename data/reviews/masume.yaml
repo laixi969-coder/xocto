@@ -1,0 +1,96 @@
+- id: req-initial-masume-2026-09-12
+  project_slug: masume
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是 agent 看不到真实表结构的问题，但公开材料没有说明被替代的具体旧步骤、频率或不采用的后果，价值判断缺少事实支撑。
+    evidence_ids:
+    - ev-15cae17f5bdf108a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一个开源仓库和约 67 星，没有用户评价、讨论或采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-15cae17f5bdf108a
+  - gate: model
+    status: insufficient
+    reason: 未披露任何定价、付费方或商业模式，开源项目本身不构成收入路径，买方是谁只能推测。
+    evidence_ids:
+    - ev-15cae17f5bdf108a
+  - gate: truth
+    status: insufficient
+    reason: 无法从现有材料确认它是否贴近该工作的第一性目标、交付是否确定，以及 agent 操作数据库的安全边界如何设定。
+    evidence_ids:
+    - ev-15cae17f5bdf108a
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它支持哪些数据库、agent 如何接入，以及是否已有用户描述实际使用场景。
+  market: ''
+  job: 后端工程师在排查线上数据问题或核对表结构时，需要打开数据库、查看表和字段，并让 AI agent 基于同一份结构信息生成或修改查询。
+  job_en: A backend engineer investigating a production data issue or checking a schema needs to open
+    a database, inspect tables and columns, and have an AI agent generate or edit queries from the same
+    structural information.
+  pain: 公开材料只说明它打开数据库并把目录交给 agent，没有说明原先哪一步手工操作被替代、耗时多少或出错后果，痛点强度无法从现有事实判断。
+  pain_en: The public material only says it opens a database and gives the catalog to an agent; it does
+    not say which manual step was replaced, how long it took, or what errors followed, so the strength
+    of the pain cannot be judged from the available facts.
+  current_alternative: 工程师通常用 psql、DBeaver 等数据库客户端查看结构，再手工把表名和字段粘贴进 AI 对话窗口。
+  current_alternative_en: Engineers typically inspect schemas in database clients such as psql or DBeaver
+    and then paste table and column names into an AI chat window by hand.
+  usage_reason: 推断：如果它确实能让 agent 直接读取真实目录，就省掉了手工复制表结构这一步，减少 agent 因看不到真实字段而写错查询的情况；但仓库没有用户反馈或使用记录，这一因果仍未被公开证据支持。
+  usage_reason_en: 'Inference: if it truly lets an agent read the real catalog, it removes the manual
+    copying of schema and reduces wrong queries caused by the agent not seeing real columns; however the
+    repository has no user feedback or usage record, so this causal link is not yet supported by public
+    evidence.'
+- id: req-full-masume-2026-09-12
+  project_slug: masume
+  level: full
+  reviewed_at: '2026-09-12T00:45:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 agent 写 SQL 时看不到真实表结构、工程师需手工搬运表名字段的需求，痛点在于目录与 agent 之间的信息断层；不解决的后果是查询字段写错、反复返工。仓库自述“打开数据库读取并把同一份目录交给
+      agent”已能还原输入—动作—交付闭环，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-15cae17f5bdf108a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一个开源仓库与约 67 星，没有用户评价、issue 讨论或采用记录，无法判断终端内数据库客户端加 agent 共享目录这一做法是否形成共识，也无法确认强场景是否被真实用户认可。
+    evidence_ids:
+    - ev-15cae17f5bdf108a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或商业模式，开源仓库本身不构成收入路径；钱可能来自 to C 开发者自用或 to B 团队采购，但这是判断而非已验证事实，买方与付费路径均未在公开材料中出现。
+    evidence_ids:
+    - ev-15cae17f5bdf108a
+  - gate: truth
+    status: insufficient
+    reason: 无法从现有材料确认它支持哪些数据库、agent 以何种方式接入，以及 agent 基于目录操作数据库时的安全与人工确认边界；交付是否确定发生、是否贴近该工作的第一性目标仍缺少可核对事实。
+    evidence_ids:
+    - ev-15cae17f5bdf108a
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认其支持的数据库清单、agent 接入方式，以及是否已有用户描述在排查线上数据时的实际使用场景。
+  market: ''
+  job: 后端工程师在排查线上数据问题或核对表结构时，在终端里打开数据库、读取表与字段，并让 AI agent 基于同一份真实目录生成或修改查询，最终由工程师自己确认执行。
+  job_en: A backend engineer investigating a production data issue or checking a schema opens a database
+    in the terminal, reads tables and columns, and has an AI agent generate or edit queries from the same
+    real catalog, with the engineer confirming the final execution.
+  pain: 公开材料支持的痛点是 agent 看不到真实表结构：工程师要把表名、字段手工搬进 AI 对话窗口，agent 才能写出可用查询；仓库自述把“打开数据库读取”和“把同一份目录交给 agent”并列，说明目录与
+    agent 之间的信息断层是它要消除的对象。
+  pain_en: 'The pain supported by public material is that the agent cannot see the real schema: engineers
+    must hand-carry table and column names into the AI chat window before the agent can write usable queries;
+    the repository''s own description pairs ''open a database, read it'' with ''give an agent the same
+    catalog'', indicating the catalog-to-agent information gap is what it targets.'
+  current_alternative: 工程师通常用 psql、DBeaver 等数据库客户端查看结构，再手工把表名和字段粘贴进 AI 对话窗口，或凭记忆描述结构让 agent 生成 SQL。
+  current_alternative_en: Engineers typically inspect schemas in database clients such as psql or DBeaver,
+    then paste table and column names into an AI chat window by hand, or describe the schema from memory
+    for the agent to generate SQL.
+  usage_reason: 推断：相较手工复制表结构再粘贴进对话窗口的旧做法，masume 在终端内直接读取数据库并把同一份目录交给 agent，省掉“复制—切换窗口—粘贴”这一步，减少 agent
+    因看不到真实字段而写出错误查询的情况；因此常在终端工作、又用 agent 写 SQL 的后端工程师会在排查线上数据时选择它。仓库尚无用户反馈或使用记录，该因果仍属结构推理。
+  usage_reason_en: 'Inference: compared with manually copying the schema and pasting it into a chat window,
+    masume reads the database in the terminal and hands the same catalog to the agent, removing the copy-switch-paste
+    step and reducing wrong queries caused by the agent not seeing real columns; therefore backend engineers
+    who work in the terminal and use an agent to write SQL would choose it when investigating production
+    data. The repository has no user feedback or usage record, so this causa'

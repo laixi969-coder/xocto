@@ -876,7 +876,7 @@ summary: "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate
   **Full Changelog**: https://github.com/langgenius/dify/compare/1.17.0...1.17.1"
 first_seen: '2026-09-10T10:04:06Z'
 last_seen: '2026-09-12T00:18:44Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

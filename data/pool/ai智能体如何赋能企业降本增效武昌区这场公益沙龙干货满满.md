@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhV0U3WlBmdkNj
 summary: AI智能体如何赋能企业降本增效？武昌区这场公益沙龙干货满满 极目新闻
 first_seen: '2026-09-11T09:12:45Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

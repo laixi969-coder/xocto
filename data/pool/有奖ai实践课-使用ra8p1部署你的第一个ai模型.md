@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GZ1h1ekFqQUtP
 summary: 有奖AI实践课 | 使用RA8P1部署你的第一个AI模型 电子工程专辑
 first_seen: '2026-09-11T04:30:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

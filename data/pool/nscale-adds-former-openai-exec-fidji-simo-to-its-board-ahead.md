@@ -1,6 +1,6 @@
 ---
 slug: nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead
-name: Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO
+name: Nscale
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-
 summary: The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.
 first_seen: '2026-09-11T16:46:25Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO
+# Nscale
 
 The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.
 

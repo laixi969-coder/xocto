@@ -1,0 +1,88 @@
+- id: req-initial-ieltswriting-2026-09-12
+  project_slug: ieltswriting
+  level: initial
+  reviewed_at: '2026-09-12T00:19:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决备考学生写完作文无人按标准批改的问题，痛点具体且高频，旧替代是付费考官或线下班，结构上成立；但公开材料未说明评分是否对齐官方标准。
+    evidence_ids:
+    - ev-f052e37dcdfcbd33
+  - gate: consensus
+    status: insufficient
+    reason: 只有开源页面上的少量关注，没有公开的用户评价、使用量或口碑材料，无法判断备考人群是否真的把它当作批改入口。
+    evidence_ids:
+    - ev-f052e37dcdfcbd33
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费记录，买方可能是学生个人，也可能是培训机构，这属于判断而非已验证事实；免费开源形态下付费路径完全未披露。
+    evidence_ids:
+    - ev-f052e37dcdfcbd33
+  - gate: truth
+    status: insufficient
+    reason: 无法核对批改结果是否贴近雅思真实评分、是否会出现误导性高分，也没有人工复核边界的说明，交付确定性尚未证实。
+    evidence_ids:
+    - ev-f052e37dcdfcbd33
+  next_validation: 收集该开源页面的说明文档或讨论区内容，核对它是否按雅思官方四项评分标准输出批改结果及是否有人工复核环节。
+  market: ''
+  job: 雅思备考学生在考前练习阶段写完一篇大作文或小作文后，需要有人按考试标准指出问题并给出修改方向，以便下一稿针对性改进。
+  job_en: An IELTS candidate who has just finished a Task 1 or Task 2 essay during exam preparation needs
+    someone to point out problems against the exam standard and suggest revisions so the next draft can
+    improve.
+  pain: 真人批改价格高、排期慢，同学互改看不出评分标准，学生常常写完不知道错在哪，只能反复重写同一类错误。
+  pain_en: Human marking is expensive and slow to schedule, peer review does not reflect the scoring criteria,
+    and students often finish an essay without knowing what went wrong, repeating the same mistakes.
+  current_alternative: 旧做法是买考官批改服务、报线下写作班，或自己对照范文和评分标准逐句自查。
+  current_alternative_en: The old approach is paying an examiner for marking, joining an offline writing
+    class, or self-checking sentence by sentence against sample essays and the public band descriptors.
+  usage_reason: 推断：相比等几天才拿到一次真人批改，它把提交到反馈的间隔压到即时，学生可以在同一晚改出第二稿，因此时间紧、预算有限的备考者会优先试它；公开材料没有留存或复购证据，长期是否留在备考流程里尚不清楚。
+  usage_reason_en: 'Inference: compared with waiting days for one round of human marking, it compresses
+    the gap between submission and feedback to near-instant, letting a student produce a second draft
+    the same evening, so time- and budget-constrained candidates would try it first; there is no public
+    retention or repeat-use evidence, so long-term embedding in the study routine is unknown.'
+- id: req-full-ieltswriting-2026-09-12
+  project_slug: ieltswriting
+  level: full
+  reviewed_at: '2026-09-12T00:44:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决备考学生写完作文无人按标准批改的问题，痛点具体且高频，旧替代是付费考官或线下班，结构上成立；但公开材料未说明评分是否对齐官方标准。
+    evidence_ids:
+    - ev-f052e37dcdfcbd33
+  - gate: consensus
+    status: insufficient
+    reason: 只有开源页面上的少量关注，没有公开的用户评价、使用量或口碑材料，无法判断备考人群是否真的把它当作批改入口。
+    evidence_ids:
+    - ev-f052e37dcdfcbd33
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费记录，买方可能是学生个人，也可能是培训机构，这属于判断而非已验证事实；免费开源形态下付费路径完全未披露。
+    evidence_ids:
+    - ev-f052e37dcdfcbd33
+  - gate: truth
+    status: insufficient
+    reason: 无法核对批改结果是否贴近雅思真实评分、是否会出现误导性高分，也没有人工复核边界的说明，交付确定性尚未证实。
+    evidence_ids:
+    - ev-f052e37dcdfcbd33
+  next_validation: 收集该开源页面的说明文档或讨论区内容，核对它是否按雅思官方四项评分标准输出批改结果及是否有人工复核环节。
+  market: ''
+  job: 雅思备考学生在考前练习阶段写完一篇大作文或小作文后，需要有人按考试标准指出问题并给出修改方向，以便下一稿针对性改进。
+  job_en: An IELTS candidate who has just finished a Task 1 or Task 2 essay during exam preparation needs
+    someone to point out problems against the exam standard and suggest revisions so the next draft can
+    improve.
+  pain: 真人批改价格高、排期慢，同学互改看不出评分标准，学生常常写完不知道错在哪，只能反复重写同一类错误。
+  pain_en: Human marking is expensive and slow to schedule, peer review does not reflect the scoring criteria,
+    and students often finish an essay without knowing what went wrong, repeating the same mistakes.
+  current_alternative: 旧做法是买考官批改服务、报线下写作班，或自己对照范文和评分标准逐句自查。
+  current_alternative_en: The old approach is paying an examiner for marking, joining an offline writing
+    class, or self-checking sentence by sentence against sample essays and the public band descriptors.
+  usage_reason: 推断：相比等几天才拿到一次真人批改，它把提交到反馈的间隔压到即时，学生可以在同一晚改出第二稿，因此时间紧、预算有限的备考者会优先试它；公开材料没有留存或复购证据，长期是否留在备考流程里尚不清楚。
+  usage_reason_en: 'Inference: compared with waiting days for one round of human marking, it compresses
+    the gap between submission and feedback to near-instant, letting a student produce a second draft
+    the same evening, so time- and budget-constrained candidates would try it first; there is no public
+    retention or repeat-use evidence, so long-term embedding in the study routine is unknown.'

@@ -82,3 +82,47 @@
   usage_reason: 用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-openreality-2026-09-12
+  project_slug: openreality
+  level: full
+  reviewed_at: '2026-09-12T00:45:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 项目声称把手机视频变成 AI 可查询的三维场景，但所引证据全是 OpenAI 官网、词典页与医疗平台，与三维重建和 MCP 查询无关，无法还原用户任务、痛点与不解决的后果，价值结构没有公开依据。
+    evidence_ids:
+    - ev-880ea33ca3a7c731
+    - ev-0a789de873296f59
+    - ev-85c352caad85d998
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认是否有开发者实际用手机视频跑通 VGGT-SLAM 并经 MCP 查询，以及他们替代了哪套旧流程。
+  market: ''
+  job: 开发者想让 AI 助手理解真实空间时，用手机拍摄一段视频，经 VGGT-SLAM 重建三维场景，再通过 MCP 接口让 Claude、Codex、Cursor 查询该场景，交付可自托管的场景查询服务。
+  job_en: 'A developer wants an AI assistant to understand a real space: shoot a phone video, reconstruct
+    the 3D scene with VGGT-SLAM, then expose it to Claude, Codex, or Cursor via MCP tools, delivering
+    a self-hostable scene-query service.'
+  pain: 公开证据中没有一条来自该项目本身：现有证据全部是 OpenAI 官网、Merriam-Webster 词典页和 OpenEvidence 医疗平台，与手机视频重建三维场景、MCP 查询毫无关系，无法说明用户在哪一步受阻、频率多高、不解决会付出什么代价。
+  pain_en: 'No evidence comes from the project itself: all cited items are OpenAI''s site, a Merriam-Webster
+    dictionary page, and the OpenEvidence medical platform, none of which relate to phone-video 3D reconstruction
+    or MCP querying, so the blocked step, its frequency, and the cost of leaving it unsolved cannot be
+    established.'
+  current_alternative: 公开材料未说明开发者今天如何完成这一任务，也未说明它替代了哪套旧流程（如手工建模、其他 SLAM 管线或直接给模型喂图像）。
+  current_alternative_en: Public materials do not show how developers accomplish this today, nor which
+    prior workflow it replaces (manual modeling, other SLAM pipelines, or simply feeding images to a model).
+  usage_reason: 无法给出因果解释：现有证据既未记录用户反馈或客户案例，也未提供可核对的结果改善，因此不能说明哪类用户会在什么情况下选择它而非旧做法。
+  usage_reason_en: 'No causal explanation is possible: the evidence contains neither user feedback nor
+    customer cases nor a checkable outcome improvement, so it cannot be said which users would choose
+    it over the old approach and when.'

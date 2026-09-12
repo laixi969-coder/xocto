@@ -78,3 +78,54 @@
   usage_reason: 用户要完成的任务是：消费者维权、客服与退款处理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: consumer advocacy, customer service and refund handling Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-refund-anything-ai-prompt-2026-09-12
+  project_slug: refund-anything-ai-prompt
+  level: full
+  reviewed_at: '2026-09-12T00:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是消费者被拒退后不知依据哪条本地消费者法、不知如何措辞升级的痛点，拒退意味着已付金额直接损失，痛点刚性；公开仓库说明已给出输入（订单与拒退理由）、动作（两段式函件）与交付（30+辖区文本），属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-0395b6d360cf717a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从68升至73，说明开发者社区注意到该提示词，但收藏与关注只属规模信号，不能证明被拒退的消费者已把它纳入实际维权流程或持续复用。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-ab99d6ce4555fbde
+    - ev-0395b6d360cf717a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或分发方式；提示词形态下买方可能是个人消费者一次性购买，也可能是律师或维权服务方批量使用，这是判断而非已验证事实，且无收入或采购记录。
+    evidence_ids:
+    - ev-79d374874a1db558
+  - gate: truth
+    status: insufficient
+    reason: 30多个司法辖区的法律准确性、模型生成函件是否会被商家接受、以及用户自行核对事实这一人工边界，均无公开可复现的交付结果或案例支撑，承诺能否确定性兑现仍待核验。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-b06750336952bb9b
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现真实退款成功案例、辖区法律依据来源说明或用户复用的公开记录。
+  market: ''
+  job: 普通消费者在订阅、数字购买或预订被商家拒绝退款时，把订单信息、拒退理由和所在辖区交给这套提示词，让模型按“先礼貌交涉、后法律升级”两段生成可直接发送的退款函件，覆盖30多个司法辖区，用户自己核对事实后发出。
+  job_en: An ordinary consumer whose subscription, digital purchase or booking refund was refused hands
+    the order details, refusal reason and jurisdiction to this prompt so the model drafts a two-stage
+    refund letter (polite request first, legal escalation second) across 30+ jurisdictions, which the
+    user fact-checks and sends.
+  pain: 拒退后消费者面对的是不对称博弈：商家有模板化话术和客服流程，个人既不知道本地消费者法赋予什么权利，也不知道该写什么措辞才有效，往往在第一次被拒后就放弃，损失的是已付金额本身。
+  pain_en: 'After a refusal the consumer faces an asymmetric fight: the merchant has scripted responses
+    and support workflows, while the individual neither knows what local consumer law grants nor what
+    wording works, so many give up after the first rejection and lose the money already paid.'
+  current_alternative: 现有替代是自己在搜索引擎里零散查消费者权益条款、在论坛抄别人的投诉信模板、直接打客服电话反复交涉，或者干脆放弃这笔钱；这些做法要么耗时，要么措辞不对口，要么根本不知道有申诉路径。
+  current_alternative_en: Today people piece together consumer-law clauses from search results, copy complaint-letter
+    templates from forums, repeatedly call support, or simply write the money off; these routes are slow,
+    poorly worded for the specific case, or assume the user even knows an escalation path exists.
+  usage_reason: 推断：相较自己搜条款和抄模板，该提示词把“判断适用哪条消费者保护规则、按辖区组织措辞、并预先写好升级到法律威胁的第二封信”这几步一次性完成，用户只需填入订单事实并核对，因此被拒退且金额值得追讨的消费者会在第一次交涉失败后选择它。
+  usage_reason_en: 'Inference: versus searching clauses and copying templates, the prompt collapses the
+    steps of picking the applicable consumer-protection rule, wording it per jurisdiction, and pre-writing
+    the second escalation letter into one pass, so a consumer with a refused refund worth chasing would
+    turn to it after the first rejection fails.'

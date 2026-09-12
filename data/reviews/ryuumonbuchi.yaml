@@ -1,0 +1,92 @@
+- id: req-initial-ryuumonbuchi-2026-09-12
+  project_slug: ryuumonbuchi
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向分析中反编译结果与提问工具割裂的问题，痛点具体且不采用就要继续手工复制，属工作流推理。
+    evidence_ids:
+    - ev-688e7d0f754d0b3d
+    - ev-0acb8d31b9e94ff0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标从 67 增至 68，属关注度信号，不能证明安全团队已把它纳入日常流程。
+    evidence_ids:
+    - ev-688e7d0f754d0b3d
+    - ev-0acb8d31b9e94ff0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或买方，钱可能来自安全团队自建或服务商打包，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-688e7d0f754d0b3d
+  - gate: truth
+    status: insufficient
+    reason: 无部署文档与实测结果，无法确认模型调用 Ghidra 的稳定性与人工复核边界。
+    evidence_ids:
+    - ev-688e7d0f754d0b3d
+    - ev-0acb8d31b9e94ff0
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认模型调用 Ghidra 的实际流程、支持的分析任务与是否已有团队在生产中使用。
+  market: ''
+  job: 逆向工程师或安全分析师在拿到可疑二进制样本时，需要反编译并理解函数逻辑，以判断样本行为并产出分析结论。
+  job_en: A reverse engineer or security analyst who receives a suspicious binary sample needs to decompile
+    and understand function logic in order to judge sample behavior and produce an analysis conclusion.
+  pain: 反编译结果分散在图形界面里，逐段复制到外部工具提问既打断分析节奏，也容易漏掉上下文；样本量大时这一步成为瓶颈。
+  pain_en: Decompiled output is scattered across a GUI, and copying it piece by piece into an external
+    tool breaks the analysis rhythm and easily loses context; with many samples this step becomes a bottleneck.
+  current_alternative: 现有做法是人工在 Ghidra 里阅读反编译代码，或把代码片段手动导出后粘贴到通用对话工具中提问。
+  current_alternative_en: The current practice is to read decompiled code manually in Ghidra, or export
+    code snippets by hand and paste them into a general chat tool.
+  usage_reason: 推断：相较手工导出再粘贴，它让模型直接读取反编译结果并返回分析结论，省掉复制与切换工具这一步，因此处理大量样本的逆向工程师会在批量初筛时选择它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: compared with manual export and pasting, it lets the model read decompiled
+    output directly and return findings, removing the copy-and-switch step, so reverse engineers handling
+    many samples would choose it for bulk triage; no retention or payment evidence yet.'
+- id: req-full-ryuumonbuchi-2026-09-12
+  project_slug: ryuumonbuchi
+  level: full
+  reviewed_at: '2026-09-12T00:46:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向分析中反编译结果与提问工具割裂的问题，痛点具体且不采用就要继续手工复制，属工作流结构推理。
+    evidence_ids:
+    - ev-688e7d0f754d0b3d
+    - ev-0acb8d31b9e94ff0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标从 67 增至 68，属关注度信号，不能证明安全团队已把它纳入日常分析流程。
+    evidence_ids:
+    - ev-688e7d0f754d0b3d
+    - ev-0acb8d31b9e94ff0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或买方，钱可能来自安全团队自建或服务商打包，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-688e7d0f754d0b3d
+  - gate: truth
+    status: insufficient
+    reason: 无部署文档与实测结果，无法确认模型调用 Ghidra 的稳定性与人工复核边界。
+    evidence_ids:
+    - ev-688e7d0f754d0b3d
+    - ev-0acb8d31b9e94ff0
+  next_validation: 收集该仓库 README 与 issue/discussion，确认模型调用 Ghidra 的实际流程、支持的分析任务与是否已有团队在生产中使用。
+  market: ''
+  job: 逆向工程师或安全分析师拿到可疑二进制样本时，需要在 Ghidra 中反编译并理解函数逻辑，以判断样本行为、产出分析结论。
+  job_en: A reverse engineer or security analyst who receives a suspicious binary sample needs to decompile
+    and understand function logic in Ghidra in order to judge sample behavior and produce an analysis
+    conclusion.
+  pain: 反编译结果留在 Ghidra 图形界面里，要逐段复制到外部对话工具再提问，打断分析节奏且容易丢失上下文；样本量大时这一步成为瓶颈。
+  pain_en: Decompiled output stays inside the Ghidra GUI and must be copied piece by piece into an external
+    chat tool, breaking analysis rhythm and losing context; with many samples this step becomes a bottleneck.
+  current_alternative: 人工在 Ghidra 里阅读反编译代码，或把代码片段手动导出后粘贴到通用对话工具中提问。
+  current_alternative_en: Reading decompiled code manually in Ghidra, or exporting code snippets by hand
+    and pasting them into a general chat tool.
+  usage_reason: 推断：相较手工导出再粘贴，它把 Ghidra 以无界面方式暴露给模型调用，让模型直接读取反编译结果并返回结论，省掉复制与切换工具这一步，因此处理大量样本的逆向工程师会在批量初筛时选择它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: compared with manual export and pasting, it exposes Ghidra headlessly to
+    model calls so the model reads decompiled output directly and returns findings, removing the copy-and-switch
+    step, so reverse engineers handling many samples would choose it for bulk triage; no retention or
+    payment evidence yet.'

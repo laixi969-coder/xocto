@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wZWNtZUQ0OXNu
 summary: 顶尖风投谈“AI改变投资逻辑”：“中游陷阱”与飞轮效应 华尔街见闻
 first_seen: '2026-09-11T08:48:16Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

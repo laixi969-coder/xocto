@@ -1,6 +1,6 @@
 ---
 slug: carbon-accounting-startup-greenly-acquires-competitor-normat
-name: Carbon accounting startup Greenly acquires competitor Normative in €65m deal
+name: Greenly
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/greenly-normative-acquisition-carbon-a
 summary: ''
 first_seen: '2026-09-11T12:11:44Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Carbon accounting startup Greenly acquires competitor Normative in €65m deal
+# Greenly
 
 _（源没给简介）_
 

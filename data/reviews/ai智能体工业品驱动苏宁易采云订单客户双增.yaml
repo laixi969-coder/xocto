@@ -1,0 +1,88 @@
+- id: req-initial-ai智能体工业品驱动苏宁易采云订单客户双增-2026-09-12
+  project_slug: ai智能体工业品驱动苏宁易采云订单客户双增
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它试图替代人工询价比价这一步，但公开材料未说明具体痛点与交付，价值关证据不足。
+    evidence_ids:
+    - ev-1824833b72c05362
+  - gate: consensus
+    status: insufficient
+    reason: 只有“订单、客户双增”的结论，没有采购方或供应商的采用描述，共识关证据不足。
+    evidence_ids:
+    - ev-1df1056167b0e693
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、计价方式或收费口径，无法判断钱从哪来，模式关证据不足。
+    evidence_ids:
+    - ev-1824833b72c05362
+  - gate: truth
+    status: insufficient
+    reason: 无法核对智能体是否贴近采购第一性目标、交付是否确定，求真关证据不足。
+    evidence_ids:
+    - ev-1df1056167b0e693
+  next_validation: 收集苏宁易采云官方页面或公告中关于该 AI 智能体的功能说明与计价方式。
+  market: ''
+  job: 企业采购员在需要为工厂或机构采购多规格工业品时，处理供应商报价单与规格参数，要完成比价并下出可执行的采购订单。
+  job_en: A corporate procurement officer buying multi-spec industrial goods for a factory or institution
+    handles supplier quotes and spec sheets, and must complete price comparison and place an executable
+    purchase order.
+  pain: 公开材料未说明具体痛点，只能推断多供应商比价与规格核对耗时且易错；缺少用户抱怨或案例支撑。
+  pain_en: The public material does not state the specific pain; it can only be inferred that comparing
+    many suppliers and checking specs is slow and error-prone, with no user complaints or cases to support
+    it.
+  current_alternative: 旧做法通常是采购员在多个供应商之间人工询价、用表格比价，再在采购系统里下单。
+  current_alternative_en: The old way is for procurement staff to request quotes from several suppliers
+    manually, compare them in spreadsheets, and then place orders in a procurement system.
+  usage_reason: 推断：若智能体能直接产出可核对的比价结果并生成订单草稿，采购员可省去逐家询价与手工整理表格这一步，因此会在多供应商、多规格的采购场景中选择它；但公开材料未披露实际使用反馈。
+  usage_reason_en: 'Inference: if the agent can directly produce a checkable comparison and draft an order,
+    procurement staff skip the step of asking each supplier and manually building the spreadsheet, which
+    is why they would choose it in multi-supplier, multi-spec buying; no actual usage feedback is disclosed.'
+- id: req-full-ai智能体工业品驱动苏宁易采云订单客户双增-2026-09-12
+  project_slug: ai智能体工业品驱动苏宁易采云订单客户双增
+  level: full
+  reviewed_at: '2026-09-12T00:43:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道只给出订单与客户双增的结论，未说明智能体在询价、选品或订单处理中接收什么材料、执行哪一步、人工如何确认，无法还原交付闭环，痛点与不解决后果均缺公开事实。
+    evidence_ids:
+    - ev-1824833b72c05362
+    - ev-1df1056167b0e693
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪苏宁易采云官方公告或产品页中关于该 AI 智能体的功能说明、部署方式与计价口径，确认其实际执行环节。
+  market: ''
+  job: 企业采购员在为工厂或机构采购多规格工业品时，处理供应商报价单与规格参数，要完成比价并下出可执行的采购订单。
+  job_en: A corporate procurement officer buying multi-spec industrial goods for a factory or institution
+    handles supplier quotes and spec sheets, and must complete price comparison and place an executable
+    purchase order.
+  pain: 公开报道只给出“订单、客户双增”的结论，未说明采购员在询价、选品或订单处理中的具体痛点、发生频率与不解决后果；只能推断多供应商比价与规格核对耗时易错，缺用户抱怨或案例支撑。
+  pain_en: The public report only states growth in orders and customers; it does not describe the procurement
+    officer's specific pain, frequency or consequence in quoting, selection or order handling. It can
+    only be inferred that multi-supplier comparison and spec checking are slow and error-prone, with no
+    user complaint or case.
+  current_alternative: 旧做法通常是采购员在多个供应商之间人工询价、用表格比价，再在采购系统里下单。
+  current_alternative_en: The old way is for procurement staff to request quotes from several suppliers
+    manually, compare them in spreadsheets, and then place orders in a procurement system.
+  usage_reason: 推断：若智能体能直接产出可核对的比价结果并生成订单草稿，采购员可省去逐家询价与手工整理表格这一步；但公开材料未披露智能体接收什么材料、执行哪一步、人工如何确认，也无使用反馈，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: if the agent could directly produce a checkable comparison and draft an
+    order, staff would skip asking each supplier and building the spreadsheet; but the material does not
+    disclose what the agent receives, which step it runs, how humans confirm, or any usage feedback, so
+    the reason to choose it is not established.'

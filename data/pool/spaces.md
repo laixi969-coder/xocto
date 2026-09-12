@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/spaces-21
 summary: One shared space where your team and AI agents work
 first_seen: '2026-09-08T18:31:12Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

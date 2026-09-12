@@ -31,7 +31,7 @@ summary: 'Changes since langchain-core==1.6.2
   (#40211)'
 first_seen: '2026-09-11T17:38:02Z'
 last_seen: '2026-09-12T00:18:44Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

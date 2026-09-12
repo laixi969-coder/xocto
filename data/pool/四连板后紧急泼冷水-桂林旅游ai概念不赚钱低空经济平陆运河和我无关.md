@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uSjlxNFlPbEZ1
 summary: 四连板后紧急“泼冷水” 桂林旅游：AI概念不赚钱，低空经济、平陆运河和我无关！ eastmoney.com
 first_seen: '2026-09-10T22:30:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

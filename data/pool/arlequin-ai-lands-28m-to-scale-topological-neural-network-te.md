@@ -1,6 +1,6 @@
 ---
 slug: arlequin-ai-lands-28m-to-scale-topological-neural-network-te
-name: Arlequin AI lands €28M to scale topological neural network technology
+name: Arlequin AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Paris-based AI company Arlequin AI hasraised €28 million in Series A 
   its t...
 first_seen: '2026-09-10T07:00:00Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Arlequin AI lands €28M to scale topological neural network technology
+# Arlequin AI
 
 Paris-based AI company Arlequin AI hasraised €28 million in Series A funding to accelerate the development of itstopological neural network architecture and expand the international deploymentof its t...
 

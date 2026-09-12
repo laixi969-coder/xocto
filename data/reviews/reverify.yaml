@@ -363,3 +363,47 @@
   usage_reason: 用户要完成的任务是：AI 应用开发者、逆向工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI application developers, Reverse engineers Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-reverify-2026-09-12
+  project_slug: reverify
+  level: full
+  reviewed_at: '2026-09-12T00:46:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 主张需被确定性工具核验的需求，但公开证据只有词典对 reverify 的释义和检索覆盖记录，没有用户任务、痛点、旧替代或不解决的后果，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-555cbfcfa84c5df3
+    - ev-7621ffb1d7521950
+    - ev-7c03b6e3eb555f9e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 reverify 官方仓库或官网的 README、issue 与 discussion，确认是否存在真实用户描述的具体核验任务、旧流程与失败后果。
+  market: ''
+  job: AI 应用开发者或逆向工程师在让模型输出技术结论（如二进制结构、协议字段、漏洞成因）时，需要把模型提出的每条主张落到可核对的确定性工具上，以得到可复现、可追溯的结论。
+  job_en: An AI application developer or reverse engineer needs each model-proposed claim about technical
+    artifacts (binary structure, protocol fields, root cause) to be resolved by deterministic tools, so
+    the conclusion is reproducible and traceable.
+  pain: 公开材料只给出产品自述的防幻觉定位，没有任何用户抱怨、失败案例或旧流程记录说明模型编造结论造成了什么具体损失、发生频率或后果。
+  pain_en: Public materials contain only the product's own anti-hallucination positioning; no user complaint,
+    failure case, or legacy-workflow record shows what concrete loss, frequency, or consequence model
+    fabrication causes.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作，也未说明它替代了什么既有做法（人工复核、单元测试、静态分析或直接信任模型输出均无证据）。
+  current_alternative_en: Public materials do not show how users do this job today, nor what existing
+    practice it replaces (manual review, unit tests, static analysis, or trusting model output are all
+    unevidenced).
+  usage_reason: 缺少用户反馈或客户案例，无法说明相较旧做法它减少了哪一步负担或改善了哪项可核对结果；现有证据仅为词典释义与检索覆盖记录，不能支撑采用动机。
+  usage_reason_en: With no user feedback or customer case, there is no basis to say which step it removes
+    or which checkable result it improves versus the old approach; the evidence is only dictionary definitions
+    and coverage queries, which cannot support adoption motive.

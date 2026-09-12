@@ -79,3 +79,52 @@
   usage_reason_en: 'The task is: Students and content creators rewriting AI-generated drafts into human-standard
     prose before submitting coursework or publishing social and technical documents Public materials do
     not yet explain why users choose this product over their existing approach.'
+- id: req-full-not-ai-2026-09-12
+  project_slug: not-ai
+  level: full
+  reviewed_at: '2026-09-12T00:45:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成草稿在提交作业或发布社交、技术文档前不够自然、可能被识别的问题；公开材料明确列出大学项目、LinkedIn/X 帖、邮件、技术文档等场景，痛点刚性中等，交付为改写后的成稿，属工作流结构推理。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+    - ev-369d7a2d7bb02be8
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 46 至 63 个收藏，说明社区注意到它，但收藏数属关注度证据，不能证明目标用户持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+    - ev-369d7a2d7bb02be8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；这是判断而非已验证事实，学生与内容创作者可能为 to C 订阅付费，但无公开付费路径可核验。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明改写后是否需人工确认、如何保证事实准确与安全边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+    - ev-369d7a2d7bb02be8
+  next_validation: 追踪 Not-Ai 仓库的 README、issue 与 discussion，确认其改写流程、人工复核要求及是否有用户报告实际提交或发布结果。
+  market: ''
+  job: 学生与内容创作者在提交作业、发布 LinkedIn/X 帖子、邮件或 公开代码仓库 README 前，把 AI 生成的草稿改写成清晰、自然、符合人类写作标准的成稿。
+  job_en: Students and content creators rewrite AI-generated drafts into clear, natural, human-standard
+    prose before submitting coursework or publishing LinkedIn/X posts, emails, or public code repository
+    READMEs.
+  pain: 公开材料明确列出适用场景为大学与学校项目、社交帖、邮件、事实文章、个人随笔与技术文档，说明用户面临 AI 草稿被识别或读起来不自然的压力；但具体不采用代价与发生频率未量化。
+  pain_en: Public materials explicitly list college and school projects, social posts, emails, factual
+    articles, personal essays, and technical docs, implying pressure from AI drafts being detected or
+    reading unnaturally; the specific cost and frequency are not quantified.
+  current_alternative: 旧做法是人工逐句重写 AI 草稿，或使用通用改写工具与 AI 检测绕过工具；公开材料未说明用户此前具体使用哪种替代。
+  current_alternative_en: The prior approach is manually rewriting AI drafts sentence by sentence, or
+    using generic rewriting tools and AI-detector bypass tools; public materials do not specify which
+    alternative users previously used.
+  usage_reason: 推断：相较人工逐句重写，它按人类写作标准直接改写 AI 草稿，减少逐句润色与调整语气的步骤；学生与内容创作者在提交作业或发布社交、技术文档前，若在意文本自然度与可读性，会倾向选择它。
+  usage_reason_en: 'Inference: versus manually rewriting sentence by sentence, it directly rewrites AI
+    drafts to human writing standards, reducing the step of polishing each sentence and adjusting tone;
+    students and content creators who care about naturalness and readability before submitting or publishing
+    would tend to choose it.'

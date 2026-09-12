@@ -218,3 +218,55 @@
   usage_reason: 用户要完成的任务是：机器人开发者、教育工作者、创客；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Robotics developers, Educators, Makers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-quackd-2026-09-12
+  project_slug: quackd
+  level: full
+  reviewed_at: '2026-09-12T00:46:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把机器人已有零散动作技能串成可执行任务，痛点是“知道动作却不知道如何连接”，用户须手写编排；不解决则每个新目标都要重写连接代码。公开说明已还原输入（自然语言目标）、动作（LLM
+      规划调用技能）、交付（模拟器或真机跑完步骤）与安全契约，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-9fd968e3c0b6b2ad
+    - ev-16a916d955ed0734
+    - ev-a0044dc4c38a833b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 164 增至 189，说明开源社区持续关注，但收藏与复刻属关注度证据，不能证明目标用户已把它留在日常工作流；公开材料未见用户评价、issue 讨论或客户案例说明持续使用，故共识仅初步。
+    evidence_ids:
+    - ev-842649a311b9a57a
+    - ev-25f52addac2b7e8e
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：项目为开源仓库，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 创客捐赠或 to B 集成服务，但均无公开证据；无融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-842649a311b9a57a
+    - ev-9fd968e3c0b6b2ad
+  - gate: truth
+    status: insufficient
+    reason: 公开说明提到模拟器与 .duck 安全契约，显示项目已考虑安全边界，但未见可复现的部署文档、实测记录或失败案例，交付能否在真机上稳定发生仍缺公开证据；安全与人工边界的具体机制未披露。
+    evidence_ids:
+    - ev-9fd968e3c0b6b2ad
+    - ev-16a916d955ed0734
+  next_validation: 追踪 quackd 官方仓库的 README、部署文档与 issue/discussion，确认是否有用户公开报告在具体机器人上跑通任务、替代了手写编排流程。
+  market: ''
+  job: 自建 Microduck、Open Duck Mini、Reachy Mini、LeRobot 机械臂或 ROS 底盘的创客与机器人开发者，在已装好硬件、但只有零散动作技能的情况下，用自然语言说出目标，让
+    LLM 规划并串起动作序列，在模拟器或真机上跑完一次任务。
+  job_en: Makers and robotics developers who have assembled a Microduck, Open Duck Mini, Reachy Mini,
+    LeRobot arm or ROS base and, having only isolated motion skills, state a goal in natural language
+    so an LLM plans and chains the steps and runs the task in simulator or on hardware.
+  pain: 公开说明直接点出痛点：机器人“知道自己的动作，却不知道如何把它们连起来”，用户得自己写编排逻辑把单个技能串成任务；不解决的后果是每次新目标都要重写连接代码，跨运行状态也无法延续。
+  pain_en: 'The public description names the pain directly: the robot ''knows its moves but not how to
+    connect them'', so the user must hand-write orchestration to chain individual skills; leaving it unsolved
+    means rewriting glue code for every new goal and losing state between runs.'
+  current_alternative: 旧做法是用户自己写脚本或状态机，把每个动作技能硬编码成固定序列，并自行管理运行之间的状态与安全约束。
+  current_alternative_en: The old way is for the user to write scripts or state machines that hard-code
+    each motion skill into a fixed sequence, managing run-to-run state and safety constraints by hand.
+  usage_reason: 推断：相较手写编排脚本，quackd 让用户只给一句目标，由 LLM 负责规划并调用已有技能，省掉为每个新任务重写连接逻辑这一步；.duck 安全契约与跨运行记忆进一步减少重复设定状态与边界的工作，因此已搭好硬件、想快速试新任务的创客会在迭代任务时选它。
+  usage_reason_en: 'Inference: versus hand-written orchestration, quackd lets the user give one goal and
+    has the LLM plan and call existing skills, removing the step of rewriting glue logic for each new
+    task; .duck safety contracts and cross-run memory further cut repeated state and boundary setup, so
+    makers with assembled hardware trying new tasks quickly would pick it when iterating.'

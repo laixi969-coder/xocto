@@ -287,3 +287,53 @@
   usage_reason: 用户要完成的任务是：数学家、形式化验证工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Mathematicians, Formal verification engineers Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-primegaps186-2026-09-12
+  project_slug: primegaps186
+  level: full
+  reviewed_at: '2026-09-12T00:46:12Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决素数间隙上界结论难以独立复核的需求：论文加自写脚本的旧做法验证成本高，出错即结论不可信。仓库提供条件性 Lean 形式化与数值证书，交付物可机器检查，痛点刚性且交付形式确定，属工作流结构推理。
+    evidence_ids:
+    - ev-c5901e9ad727dd12
+    - ev-6e240727d973adc4
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 140 逐步升至 159，说明数学与形式化社区持续关注该工件；但收藏只反映关注度，尚无 issue、discussion 或复用案例证明它已进入他人研究流程，故共识仅初步成立。
+    evidence_ids:
+    - ev-c5901e9ad727dd12
+    - ev-886b4d6ab8fde277
+  - gate: model
+    status: insufficient
+    reason: 这是 OpenAI 发布的开源仓库，公开材料未显示定价、付费主体或采购路径；钱可能来自机构研究经费或平台方投入，属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-c5901e9ad727dd12
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述为条件性形式化，即结论依赖未在仓库内证明的前提；公开材料未说明前提清单、Lean 版本与复现步骤，交付能否被第三方稳定复现尚缺证据。
+    evidence_ids:
+    - ev-c5901e9ad727dd12
+    - ev-34a8513d1910b01b
+  next_validation: 追踪该仓库的 README、Lean 构建说明与 issue/discussion，确认条件性前提清单、可复现的编译步骤，以及是否有外部研究者引用或扩展该形式化。
+  market: ''
+  job: 数学家或形式化验证工程师在推进素数间隙上界研究时，需要把条件性证明与数值证书整理成可被 Lean 机器检查的形式，以便他人复核或在其上继续扩展结论。
+  job_en: Mathematicians or formal verification engineers advancing research on prime gap upper bounds
+    need to turn a conditional proof and numerical certificate into a Lean machine-checkable form so others
+    can audit it or extend the result.
+  pain: 素数间隙这类结论的验证成本极高：传统论文加数值脚本的证明难以被独立复核，审稿人或后续研究者要重跑计算、重查推导，任何一步不一致都会让结论无法被采信。
+  pain_en: 'Verifying results about prime gaps is extremely costly: a paper plus numerical scripts is
+    hard to audit independently, and reviewers or later researchers must rerun computations and recheck
+    derivations, with any mismatch making the claim unusable.'
+  current_alternative: 当前替代方式是论文叙述加自写数值验证脚本，或依赖 Mathlib 等通用 Lean 库自行形式化，缺少针对该命题的现成可检查工件。
+  current_alternative_en: The current alternative is a paper narrative plus self-written numerical verification
+    scripts, or formalizing from scratch on top of general libraries such as Mathlib, with no ready-made
+    checkable artifact for this specific claim.
+  usage_reason: 推断：相较自行重写形式化与数值脚本，该仓库直接提供条件性 Lean 形式化与数值证书，使用者可省去从零搭建证明骨架和验证代码的步骤，并得到可机器检查的交付物，因此从事素数分布研究、需要复核或复用该结论的数学家和形式化工程师会在该场景下选用它。
+  usage_reason_en: 'Inference: compared with rewriting the formalization and numerical scripts themselves,
+    this repository supplies a conditional Lean formalization and numerical certificate, sparing users
+    the step of building the proof skeleton and verification code from scratch and yielding a machine-checkable
+    artifact, so mathematicians and formal verification engineers who need to audit or reuse this result
+    would choose it in that situation.'

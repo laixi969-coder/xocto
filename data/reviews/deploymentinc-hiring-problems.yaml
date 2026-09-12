@@ -82,3 +82,43 @@
   usage_reason_en: 'The task is: An enterprise AI project owner taking a demo-stage model onto the company''s
     own data under budget and security review constraints, and producing an explainable business metric
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-deploymentinc-hiring-problems-2026-09-12
+  project_slug: deploymentinc-hiring-problems
+  level: full
+  reviewed_at: '2026-09-12T00:44:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决企业把 AI 从演示推进到生产的落地任务，但公开证据只有一句岗位描述，没有用户痛点、旧替代行为或不解决的后果，连需求与痛点都还原不出，价值结构无法成立。
+    evidence_ids:
+    - ev-a52ed0b2e3dfec1b
+    - ev-79eae04b4bb0001c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Deployment.inc 官网的客户案例页与部署文档，确认是否有企业公开说明其 AI 落地交付物、指标结果与安全审查流程。
+  market: ''
+  job: 企业内部的 AI 项目负责人需要在预算与安全团队审查的约束下，把演示阶段的模型落到企业自有数据上，跑出可向业务负责人解释的业务指标。
+  job_en: An enterprise AI project owner must take a demo-stage model onto the company's own data under
+    budget and security-review constraints and produce a business metric explainable to a business owner.
+  pain: 公开材料只有一句岗位描述，没有用户抱怨、失败案例或旧流程记录，无法说明不解决会付出什么代价、发生频率或后果。
+  pain_en: Public material offers only a one-line role description; there is no user complaint, failure
+    case, or old-workflow record showing the cost, frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料未说明企业目前如何完成这项工作，也未说明它替代了内部数据团队、外部咨询还是自建平台。
+  current_alternative_en: Public material does not show how enterprises complete this job today, nor whether
+    it replaces an internal data team, outside consultancy, or a self-built platform.
+  usage_reason: 推断：若产品真能派工程师进入客户内部、在客户数据与安全审查下交付可解释指标，用户可能因省去自建落地团队而选择它；但公开材料没有客户案例或使用反馈支持这一动机。
+  usage_reason_en: 'Inference: if the product truly places engineers inside the client to deliver an explainable
+    metric on client data under security review, users might choose it to avoid building an in-house delivery
+    team; but no public customer case or usage feedback supports this motive.'

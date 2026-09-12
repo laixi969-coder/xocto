@@ -1,0 +1,85 @@
+- id: req-initial-benzi-2026-09-12
+  project_slug: benzi
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是改代码前拼上下文这一真实负担，但公开材料只有一句自称跑分更高的描述，说不清输入、动作与交付闭环，价值判断证据不足。
+    evidence_ids:
+    - ev-a8d65165524c5954
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区提交与少量讨论，没有独立评测或开发者复述，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-a8d65165524c5954
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、客户或采购信息，买方与收费方式完全未知，只能判断可能面向开发者个人或团队。
+    evidence_ids:
+    - ev-a8d65165524c5954
+  - gate: truth
+    status: challenged
+    reason: 自称跑赢现有编码代理却未给出可复现评测与失败边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-a8d65165524c5954
+  next_validation: 收集该项目的公开评测页面或仓库，核对是否有可复现的基准测试结果与失败案例说明。
+  market: ''
+  job: 软件工程师在维护不熟悉的代码库、需要定位并修改某处逻辑时，处理整个仓库的源码与依赖关系，要产出一份可提交的代码改动。
+  job_en: A software engineer maintaining an unfamiliar codebase, needing to locate and modify a piece
+    of logic, works through the whole repository's source and dependencies to produce a committable code
+    change.
+  pain: 旧做法要在编辑器、搜索和文档之间反复跳转，靠人工拼出上下文，改动前难以确认影响范围。
+  pain_en: The old way means jumping between editor, search and docs, assembling context by hand, with
+    little certainty about impact before editing.
+  current_alternative: 现有替代是 IDE 补全、仓库内关键词搜索，以及 Claude Code 这类命令行编码代理。
+  current_alternative_en: Current alternatives are IDE completion, in-repository keyword search, and command-line
+    coding agents such as Claude Code.
+  usage_reason: 推断：若它真能整库检索并直接给出可合并的改动，用户省下的是自己拼上下文这一步；但公开材料只有一句自称跑分更高的描述，没有可复现评测、定价或使用记录，因此无法确认它比现有代理少哪一步负担。
+  usage_reason_en: 'Inference: if it truly retrieves across the whole repository and returns a mergeable
+    change, users skip assembling context themselves. But the public material is only a self-claimed higher
+    benchmark score, with no reproducible evaluation, pricing or usage record, so which step it removes
+    versus existing agents cannot be confirmed.'
+- id: req-full-benzi-2026-09-12
+  project_slug: benzi
+  level: full
+  reviewed_at: '2026-09-12T00:43:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句自称跑分更高的描述，说不清输入、动作与交付闭环，也无法还原用户任务、痛点与不解决的后果；连需求和痛点都写不出来，价值关不成立。
+    evidence_ids:
+    - ev-a8d65165524c5954
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Benzi 的公开评测页面或代码仓库，核对是否有可复现的基准测试结果、失败案例说明与部署文档。
+  market: ''
+  job: 软件工程师在维护不熟悉的代码库、需要定位并修改某处逻辑时，处理整个仓库的源码与依赖关系，要产出一份可提交的代码改动。
+  job_en: A software engineer maintaining an unfamiliar codebase, needing to locate and modify a piece
+    of logic, works through the whole repository's source and dependencies to produce a committable code
+    change.
+  pain: 公开材料只有一句自称跑分更高的描述，没有说明用户具体卡在哪一步、发生频率或不解决的后果，无法从公开事实还原痛点。
+  pain_en: Public material is only a self-claimed higher benchmark score; it does not state which step
+    users get stuck on, how often, or the consequence of leaving it unsolved, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，只能从行业常识推测是 IDE 补全、仓库内搜索或 Claude Code 这类命令行编码代理。
+  current_alternative_en: Public materials do not state how users complete this job today; only industry
+    common sense suggests IDE completion, in-repository search, or command-line coding agents such as
+    Claude Code.
+  usage_reason: 公开材料没有说明用户为什么会选择它，也没有可复现评测、定价或使用记录，无法解释相较旧做法减少了哪一步负担。
+  usage_reason_en: Public materials do not explain why users would choose it, and there is no reproducible
+    evaluation, pricing or usage record to explain which step it removes versus the old approach.

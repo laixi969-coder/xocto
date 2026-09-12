@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxQeVV4dnNRMmlK
 summary: 从“拒绝融资”到“年内启动IPO”，AI大模型龙头为何急转弯？ k.sina.com.cn
 first_seen: '2026-09-11T16:30:42Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

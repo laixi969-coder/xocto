@@ -21,7 +21,7 @@ canonical_url: https://github.com/paradise-runner/toast
 summary: a beautiful by default in terminal IDE
 first_seen: '2026-09-11T17:54:53Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

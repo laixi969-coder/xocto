@@ -109,3 +109,54 @@
   usage_reason: 用户要完成的任务是：旅行规划者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Travel planners Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-travel-agent-2026-09-12
+  project_slug: travel-agent
+  level: full
+  reviewed_at: '2026-09-12T00:47:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决旅行规划者跨多个真实网站搜索、比价并完成预订的需求，痛点是多站点重复操作与信息分散；产品在支付页停止保留用户控制权，交付边界可确定。公开材料仅说明产品能力，痛点强度属工作流结构推理，尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-cef10e16f639abb2
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库星标从43增至49，说明开发者社区有初步关注，但无用户评价、案例或持续使用证据，无法判断旅行规划者是否形成采用共识；关注度不等于持续采用。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-3afac9c8f654c6c3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，开源项目可能靠捐赠、托管服务或企业支持变现，但均无公开证据；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-5658a2955b526a01
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称在真实网站操作并在支付页停止，但公开材料未提供可复现的部署文档、成功率或安全边界说明，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-cef10e16f639abb2
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认是否有用户报告在真实预订流程中的使用场景、成功率与替代了哪些旧操作。
+  market: ''
+  job: 旅行规划者在计划一次具体出行时，需要跨多个航司、酒店和OTA网站比价并完成预订，处理的是分散在真实网站上的航班、房型和价格信息，要完成从行程规划到下单的整条链路。
+  job_en: A trip planner planning a specific trip must compare and book across multiple airline, hotel,
+    and OTA websites, handling flight, room, and price information scattered across real websites, completing
+    the chain from itinerary planning to checkout.
+  pain: 公开材料显示该产品定位为在真实网站上操作并在支付页停止，说明旧流程中用户需在多个网站间反复切换、重复填写信息并自行核对价格，这一多站点操作负担是产品试图消除的痛点；但公开材料未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Public materials show the product operates on real websites and stops at the payment page,
+    implying the old workflow requires repeated switching across sites, re-entering information, and manual
+    price checking; this multi-site burden is the pain the product targets, though no user complaints
+    or frequency data are public, so intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式是用户自己在浏览器中逐个打开航司、酒店和OTA网站，手动搜索、比价并填写预订信息，或依赖传统OTA的打包搜索。
+  current_alternative_en: The current alternative is users manually opening airline, hotel, and OTA sites
+    in a browser, searching, comparing, and filling booking forms themselves, or relying on traditional
+    OTA package search.
+  usage_reason: 相较逐个网站手动操作，该产品通过桌面应用在聊天旁的真实浏览器中代为执行搜索与填写动作，并在支付页停下交由用户确认，减少了跨站点重复输入和比价这一步负担；因此经常需要多站比价、又希望保留支付控制权的旅行规划者会在这种情况下选择它。这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with manually operating site by site, the product uses a desktop app to execute
+    search and form-filling in a real browser beside the chat and stops at the payment page for user confirmation,
+    reducing the burden of cross-site re-entry and price comparison; thus trip planners who frequently
+    compare across sites and want to retain payment control would choose it in this situation. This is
+    an inference from product capability and task structure, not yet confirmed by user

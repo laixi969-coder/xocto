@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2hFMHB2OGw4
 summary: Asset lifecycle management in the age of AI-native applications IBM
 first_seen: '2026-09-09T14:28:36Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFA4Zk16dzAzbVRQ
 summary: 高盛科技大会收官：巨头齐声看好AI，黄仁勋称供应链上下游均面临挑战 cls.cn
 first_seen: '2026-09-11T17:46:39Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

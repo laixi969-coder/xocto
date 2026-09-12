@@ -197,3 +197,51 @@
   usage_reason: 开源仓库获得 148 星和 45 fork，显示开发者社区关注；但实际采用和付费尚未核验。
   usage_reason_en: The open-source repository has 148 stars and 45 forks, showing developer community
     interest; actual adoption and payment not yet verified.
+- id: req-full-tonghuasun-agent-2026-09-12
+  project_slug: tonghuasun-agent
+  level: full
+  reviewed_at: '2026-09-12T00:47:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把本机同花顺行情、K 线、持仓与 LV2 数据接入 AI 代理的需求；痛点是数据锁在客户端、代理读不到，用户只能手动搬运或自建接口，不解决则代理分析脱离真实盘口。这是基于公开功能与旧流程的结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-2a29545dc1c2420c
+    - ev-83d2ae952b1c665b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 176 增至 194，说明开发者关注度在上升，但公开材料没有用户评价、issue 讨论或采用案例，无法判断目标用户是否把它留在日常工作流里。
+    evidence_ids:
+    - ev-2a29545dc1c2420c
+    - ev-ac20470023d68cbb
+  - gate: model
+    status: insufficient
+    reason: 项目自述为免费开源插件，公开材料未披露定价、付费主体或企业支持路径；谁付钱、按什么单位收费均属判断而非已验证事实，但这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-83d2ae952b1c665b
+  - gate: truth
+    status: insufficient
+    reason: 公开说明包含账户查询与可选交易能力，但未披露数据来源合规性、交易权限边界与人工确认机制；交付能否稳定发生、安全边界如何划定，尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-83d2ae952b1c665b
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认实际支持的数据格式、是否披露数据来源合规与交易安全边界，以及是否有用户报告真实部署场景。
+  market: ''
+  job: 个人投资者或量化交易员在已用 Codex、Claude Code 等 AI 编码代理做盘面分析时，需要把本机同花顺里的实时行情、K 线、持仓、LV2 委托与逐笔成交数据喂给代理，让代理基于真实账户与盘口数据完成查询和判断。
+  job_en: An individual investor or quant trader already using Codex/Claude Code-style agents needs to
+    feed local Tonghuashun quotes, K-lines, positions, LV2 orders and tick data into the agent so it can
+    answer and reason on real account and order-book data.
+  pain: 行情、持仓和 LV2 数据锁在同花顺客户端里，AI 代理无法直接读取；用户只能手动看盘、复制粘贴或另写数据接口，把数据搬进代理这一步反复发生且容易出错。
+  pain_en: Quotes, positions and LV2 data are locked inside the Tonghuashun client and invisible to AI
+    agents; users must manually read, copy-paste or write their own data bridge, a repeated and error-prone
+    step.
+  current_alternative: 同花顺官方客户端手动查看、官方或第三方行情 API、自行编写爬取/接口脚本，或干脆让代理在无实时数据的情况下空谈。
+  current_alternative_en: Manual viewing in the Tonghuashun client, official or third-party market-data
+    APIs, self-written scraping/bridge scripts, or letting the agent reason without live data.
+  usage_reason: 推断：相较手动复制或自建接口，它把本机同花顺数据以插件形式直接暴露给代理，省去用户自己搭数据通道这一步，因此已在用 AI 代理做 A 股分析、又需要真实盘口与持仓数据的个人投资者会选它；仓库
+    star 从 176 增至 194 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual copy-paste or a self-built bridge, it exposes local Tonghuashun
+    data to the agent as a plugin, removing the step of building a data channel yourself, so individual
+    investors already using AI agents for A-share analysis and needing real order-book and position data
+    would pick it; stars rising from 176 to 194 shows attention, not sustained use.'

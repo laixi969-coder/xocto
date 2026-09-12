@@ -154,3 +154,49 @@
   usage_reason: 开源项目提供了一键配置和模型选择界面，降低了切换门槛，吸引了开发者关注。
   usage_reason_en: The open-source project offers one-command setup and a model picker UI, lowering the
     barrier to switching, attracting developer attention.
+- id: req-full-opengrok-2026-09-12
+  project_slug: opengrok
+  level: full
+  reviewed_at: '2026-09-12T00:45:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在大型代码树中定位符号定义与引用的需求，痛点是文本搜索难以还原跨文件调用关系、理解成本高。公开事实显示 OpenGrok 是源码交叉引用与搜索引擎，帮助程序员搜索、交叉引用和导航源码树以辅助程序理解；据此可作工作流结构推理：输入源码树、建立索引、输出可跳转的符号结果，交付可确定。
+    evidence_ids:
+    - ev-77087726ed47c899
+    - ev-087471686c531bce
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明 OpenGrok 是源码搜索与交叉引用引擎，未提供用户评价、采用规模或持续使用证据，无法判断共识是否形成；关注度不等于持续采用。
+    evidence_ids:
+    - ev-77087726ed47c899
+    - ev-087471686c531bce
+  - gate: model
+    status: insufficient
+    reason: OpenGrok Foundation 为全志愿者非营利组织，公开材料未披露定价或付费路径，钱可能来自捐赠或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6754dfd7635035d5
+  - gate: truth
+    status: supported
+    reason: 公开事实表明 OpenGrok 是 Java 编写的源码搜索与交叉引用引擎，功能与所解决的程序理解任务一致，交付内容可核对；但索引构建与部署质量仍需公开文档或实测确认。
+    evidence_ids:
+    - ev-087471686c531bce
+    - ev-77087726ed47c899
+  next_validation: 追踪 OpenGrok 官方 公开代码仓库 仓库的 issue、discussion 与 release 记录，确认索引构建、部署方式及是否有用户报告实际使用场景。
+  market: ''
+  job: 开发者或开源维护者在接手大型陌生代码库时，需要跨文件追踪某个符号、函数或变量的定义与全部引用，以理解代码结构与调用关系。
+  job_en: Developers or open-source maintainers taking over a large unfamiliar codebase need to trace
+    a symbol, function, or variable across files to understand structure and call relationships.
+  pain: 大型代码树中符号散落多处，仅靠文本搜索或逐层翻目录难以定位定义与引用，理解成本高且容易漏掉调用点。
+  pain_en: In large source trees, symbols are scattered across many files; plain text search or manual
+    directory browsing makes it hard to locate definitions and references, and call sites are easily missed.
+  current_alternative: 用 grep、IDE 内置搜索或 公开代码仓库 网页搜索逐文件查找，再人工拼接调用关系。
+  current_alternative_en: Using grep, IDE built-in search, or public code repository web search file by
+    file, then manually piecing together call relationships.
+  usage_reason: 推断：相较 grep 或 IDE 搜索，OpenGrok 预先为整棵源码树建立交叉引用索引，用户输入符号即可直接得到定义、引用与跳转结果，省去逐文件检索和人工拼接这一步，因此接手陌生大型代码库的开发者会在需要跨文件追踪符号时选择它。
+  usage_reason_en: 'Inference: unlike grep or IDE search, OpenGrok pre-builds a cross-reference index
+    over the whole source tree, so entering a symbol directly yields definitions, references, and navigation,
+    removing the file-by-file search and manual stitching step; developers onboarding to large unfamiliar
+    codebases would choose it when cross-file symbol tracing is needed.'

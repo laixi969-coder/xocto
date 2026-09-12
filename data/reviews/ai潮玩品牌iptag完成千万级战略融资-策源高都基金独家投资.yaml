@@ -1,0 +1,82 @@
+- id: req-initial-ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资-2026-09-12
+  project_slug: ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未披露，无法还原旧流程与交付，价值关证据不足。
+    evidence_ids:
+    - ev-837205db98ee4cac
+    - ev-70728ddccb8649ab
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，无用户采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-837205db98ee4cac
+  - gate: model
+    status: insufficient
+    reason: 买方与收费方式未披露，无法判断收入来自消费者、渠道还是投资方。
+    evidence_ids:
+    - ev-70728ddccb8649ab
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付确定性与人工边界，产品形态尚未公开。
+    evidence_ids:
+    - ev-837205db98ee4cac
+  next_validation: 收集IPTAG官方产品页或官方发售页，确认其AI具体承担的设计或生产环节与定价方式。
+  market: ''
+  job: 潮玩品牌方在设计新IP形象并筹备发售时，需要产出可量产的形象与周边方案；但公开材料未说明AI在其中承担哪一步。
+  job_en: A collectible brand designing a new IP character and preparing a drop needs a producible character
+    and merchandise plan; public material does not say which step AI handles.
+  pain: 公开材料未披露任何用户痛点或旧流程摩擦，无法确认它替代了谁的手工环节。
+  pain_en: No user pain point or legacy workflow friction is disclosed, so it is unclear whose manual
+    step it replaces.
+  current_alternative: 潮玩行业通常由设计师手绘、外包建模与打样完成形象开发；该品牌是否改变这一流程无公开证据。
+  current_alternative_en: The collectible industry typically uses hand-drawn design plus outsourced modeling
+    and prototyping; there is no public evidence this brand changes that.
+  usage_reason: 仅有融资事实，缺少产品功能、定价与使用场景的公开描述，无法解释用户为何选择它；这是事实缺口，不是推断。
+  usage_reason_en: Only the funding fact exists; with no public description of features, pricing or use
+    cases, there is no basis to explain user choice. This is a factual gap, not an inference.
+- id: req-full-ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资-2026-09-12
+  project_slug: ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资
+  level: full
+  reviewed_at: '2026-09-12T00:43:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只显示这是被称作AI潮玩的品牌并完成千万级融资，未披露它解决什么需求、什么痛点，也无法还原旧流程与交付，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-837205db98ee4cac
+    - ev-70728ddccb8649ab
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪IPTAG官方产品页或官方发售页，确认其AI具体承担的设计或生产环节、交付物与定价方式。
+  market: ''
+  job: 公开材料只说明IPTAG是被称为AI潮玩的品牌并完成千万级融资，未披露谁在什么情况下打开它、处理什么材料、完成什么任务，因此无法写出具体使用场景。
+  job_en: Public material only says IPTAG is a brand described as AI collectible toys that closed a ten-million-level
+    round; it does not disclose who opens it, in what situation, with what material, or to complete what
+    task, so no concrete job can be stated.
+  pain: 公开材料未披露任何用户痛点、旧流程摩擦或不采用的后果，无法确认它替代了谁的手工环节。
+  pain_en: No user pain point, legacy workflow friction, or cost of non-adoption is disclosed, so it is
+    unclear whose manual step it replaces.
+  current_alternative: 潮玩行业通常由设计师手绘、外包建模与打样完成形象开发；该品牌是否改变这一流程无公开证据。
+  current_alternative_en: The collectible industry typically uses hand-drawn design plus outsourced modeling
+    and prototyping; there is no public evidence this brand changes that.
+  usage_reason: 仅有融资报道，缺少产品功能、定价与使用场景的公开描述，无法解释用户为何选择它；这是事实缺口，不是推断。
+  usage_reason_en: Only funding coverage exists; with no public description of features, pricing or use
+    cases, there is no basis to explain user choice. This is a factual gap, not an inference.

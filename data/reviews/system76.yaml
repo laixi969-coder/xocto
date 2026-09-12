@@ -1,0 +1,94 @@
+- id: req-initial-system76-2026-09-12
+  project_slug: system76
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是敏感数据不能上云时如何本地跑大模型的需求，痛点是显存不足与合规限制，旧做法是租云或自行攒机，结构上成立。
+    evidence_ids:
+    - ev-bc1bab8754bff160
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，但讨论集中在硬件配置与价格，缺少目标用户实际采购或部署的公开证据。
+    evidence_ids:
+    - ev-bc1bab8754bff160
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与销售方式，买方可能是机构采购，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-bc1bab8754bff160
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料确认交付周期、售后与模型部署支持是否确定发生，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-bc1bab8754bff160
+  next_validation: 收集 System76 官方 Thelio Mira AI 产品页的定价、配置选项与部署支持说明，确认交付内容与买方。
+  market: ''
+  job: 数据不能外传的开发者或研究者，在本地机器上加载并推理大参数模型，处理内部文档或敏感数据，完成模型部署与调用。
+  job_en: Developers or researchers whose data cannot leave the premises load and run large-parameter
+    models on a local machine, processing internal documents or sensitive data to complete model deployment
+    and invocation.
+  pain: 云端推理要把数据传出，合规和保密上过不去；自建机器又常因显存不足装不下大模型，需要多卡拼装和额外调优。
+  pain_en: Cloud inference requires sending data out, which fails compliance and confidentiality; self-built
+    machines often cannot fit large models due to insufficient GPU memory, requiring multi-card assembly
+    and extra tuning.
+  current_alternative: 租用云 GPU 实例，或自行采购显卡组装服务器并手动配置驱动与推理框架。
+  current_alternative_en: Renting cloud GPU instances, or buying GPUs to assemble a server and manually
+    configuring drivers and inference frameworks.
+  usage_reason: 推断：相较自行攒机，整机预装 192 GB 显存省去了选卡、兼容性排查和驱动调试这几步，让不能上云的用户在采购后更快进入模型加载环节；是否真被长期使用，缺少公开的部署与复购证据。
+  usage_reason_en: 'Inference: compared with self-assembling, a prebuilt machine with 192 GB of GPU memory
+    removes the steps of card selection, compatibility checking and driver debugging, letting users who
+    cannot use the cloud reach model loading faster after purchase; whether it is retained long term lacks
+    public deployment or repeat-purchase evidence.'
+- id: req-full-system76-2026-09-12
+  project_slug: system76
+  level: full
+  reviewed_at: '2026-09-12T00:46:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感数据不能上云时如何本地跑大模型的需求，痛点是显存不足与合规限制，旧做法是租云或自行攒机，结构上成立。
+    evidence_ids:
+    - ev-9655367ad9da2b03
+    - ev-e84ba1bdb7aad8a3
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明 System76 销售预装 Linux 的整机，未见 Thelio Mira AI 目标用户实际采购或部署的公开记录，采用共识无法核验。
+    evidence_ids:
+    - ev-251451c00231ac94
+    - ev-5e7b5617950dee1a
+  - gate: model
+    status: insufficient
+    reason: 官网仅表述可购买 Linux 整机，未披露 Thelio Mira AI 定价与销售方式，买方可能是机构采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-71e1a445bb5d16d9
+    - ev-149611fe388fd59c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明交付周期、售后与模型部署支持是否确定发生，安全与人工边界也未披露，承诺确定性无法核验。
+    evidence_ids:
+    - ev-8b1df25ceef40497
+    - ev-9404b7117d494978
+  next_validation: 收集 System76 官方 Thelio Mira AI 产品页的定价、配置选项与部署支持说明，确认交付内容与买方。
+  market: ''
+  job: 数据不能外传的开发者或研究者，在本地机器上加载并推理大参数模型，处理内部文档或敏感数据，完成模型部署与调用。
+  job_en: Developers or researchers whose data cannot leave the premises load and run large-parameter
+    models on a local machine, processing internal documents or sensitive data to complete model deployment
+    and invocation.
+  pain: 云端推理要把数据传出，合规和保密上过不去；自建机器又常因显存不足装不下大模型，需要多卡拼装和额外调优。
+  pain_en: Cloud inference requires sending data out, which fails compliance and confidentiality; self-built
+    machines often cannot fit large models due to insufficient GPU memory, requiring multi-card assembly
+    and extra tuning.
+  current_alternative: 租用云 GPU 实例，或自行采购显卡组装服务器并手动配置驱动与推理框架。
+  current_alternative_en: Renting cloud GPU instances, or buying GPUs to assemble a server and manually
+    configuring drivers and inference frameworks.
+  usage_reason: 推断：相较自行攒机，整机预装 192 GB 显存省去了选卡、兼容性排查和驱动调试这几步，让不能上云的用户在采购后更快进入模型加载环节；是否真被长期使用，缺少公开的部署与复购证据。
+  usage_reason_en: 'Inference: compared with self-assembling, a prebuilt machine with 192 GB of GPU memory
+    removes the steps of card selection, compatibility checking and driver debugging, letting users who
+    cannot use the cloud reach model loading faster after purchase; whether it is retained long term lacks
+    public deployment or repeat-purchase evidence.'

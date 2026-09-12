@@ -141,3 +141,55 @@
   usage_reason: 用户要完成的任务是：软件开发者、技术支持人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software Developers, Technical Support Staff Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-mewu-ai-2026-09-12
+  project_slug: mewu-ai
+  level: full
+  reviewed_at: '2026-09-12T00:45:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Windows 用户截图后需在多个工具间搬运材料才能完成翻译、OCR、长截图与标注的需求；旧做法要切工具、手工拼接、标注易错位，不解决的后果是交付慢且信息位置失真。公开仓库说明已还原输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-5681e07d02a16aea
+    - ev-98af5594c9fe6383
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 55 增至 64，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标用户持续使用或已把它留在工作流里；缺少 issue、discussion 或用户评价说明真实使用场景。
+    evidence_ids:
+    - ev-5681e07d02a16aea
+    - ev-f6b6ffbbeb2e8a46
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断收入来自 to C 订阅、to B 授权还是仅靠开源捐赠；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-5681e07d02a16aea
+  - gate: truth
+    status: insufficient
+    reason: 翻译与 OCR 的准确率、长截图拼接是否错位、视频标注的帧对齐等交付确定性，公开仓库描述未提供可复现结果或人工边界说明，尚不能确认承诺能稳定兑现。
+    evidence_ids:
+    - ev-98af5594c9fe6383
+    - ev-4dbbe581dac122b8
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认用户实际报告的使用场景、翻译/OCR 准确率反馈以及长截图拼接是否出现错位等交付问题。
+  market: ''
+  job: Windows 上的软件开发者或技术支持人员在排查报错、撰写文档或回复工单时，截取屏幕内容（含跨屏长页面或视频帧），需要在截图上直接完成翻译、文字提取和标注，并把结果交付给同事或客户。
+  job_en: A Windows-based developer or support engineer, while debugging errors, writing docs, or answering
+    tickets, captures screen content (including long scrolling pages or video frames) and needs to translate,
+    extract text, and annotate directly on the capture before delivering it to a colleague or customer.
+  pain: 旧做法是截图后用画图或第三方编辑器手工加框加箭头，遇到外文界面还要另开翻译工具，遇到长页面要多次截图再拼接，遇到视频要逐帧截取；每一步都要在多个工具间切换并重复搬运同一份材料，且标注结果与原文位置容易错位。
+  pain_en: The old way is to screenshot, then hand-draw boxes and arrows in Paint or another editor, open
+    a separate translator for foreign-language UI, take multiple shots and stitch long pages, and grab
+    video frames one by one; each step means switching tools and re-carrying the same material, and annotations
+    easily drift out of position relative to the source.
+  current_alternative: Windows 自带截图工具、Snipaste、ShareX 等截图软件，配合画图或 Photoshop 做标注，翻译和 OCR 另用独立工具，长截图靠多次截取后手工拼接。
+  current_alternative_en: Built-in Windows Snipping Tool, Snipaste, or ShareX for capture, plus Paint
+    or Photoshop for markup, separate tools for translation and OCR, and manual stitching of multiple
+    shots for long pages.
+  usage_reason: 推断：相较旧做法，它把翻译、OCR、长截图拼接和标注合并到截图后的同一原位界面，用户不必再把图片导出到第二个编辑器或翻译工具，减少的是“截图—切工具—再搬运”这一步；因此经常处理外文界面或长文档、又需要把标注结果直接发给别人的
+    Windows 用户，会在这种场景下选择它。
+  usage_reason_en: 'Inference: versus the old workflow, it merges translation, OCR, scrolling capture,
+    and annotation into the same in-place surface right after capture, so users no longer export the image
+    into a second editor or translator, removing the ''capture—switch tool—re-carry'' step; Windows users
+    who frequently handle foreign-language UI or long documents and need to send annotated results onward
+    would choose it in that situation.'

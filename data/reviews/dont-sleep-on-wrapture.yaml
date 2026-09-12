@@ -1,0 +1,93 @@
+- id: req-initial-dont-sleep-on-wrapture-2026-09-12
+  project_slug: dont-sleep-on-wrapture
+  level: initial
+  reviewed_at: '2026-09-12T00:19:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上 Python 服务排查慢调用和行为异常时不得不改代码加日志的问题，痛点具体且不解决的代价是停机或回滚；交付物为调用树、耗时统计与链路数据，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-340c89ebdda70d23
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有作者本人连续发布教程与工作坊，公开材料未见第三方采用、社区讨论规模或企业使用案例，共识环节缺少外部证据。
+    evidence_ids:
+    - ev-340c89ebdda70d23
+  - gate: model
+    status: insufficient
+    reason: 开源库本身无定价页，付费方可能是企业内部工具链预算或后续商业支持，均属推断；公开材料未披露任何收费路径。
+    evidence_ids:
+    - ev-340c89ebdda70d23
+  - gate: truth
+    status: supported
+    reason: 零代码 TOML 配置、调用记录与 OpenTelemetry 导出都指向可核对的追踪结果，人工仍需判断哪段代码有问题，边界清楚；但软件处于 alpha，稳定性尚未被外部验证。
+    evidence_ids:
+    - ev-340c89ebdda70d23
+  next_validation: 收集 wrapture 官方仓库的 issue、discussion 与发布记录，确认除作者外是否有第三方提交使用反馈或集成案例。
+  market: ''
+  job: Python 后端工程师在线上服务变慢或行为异常、又不想改动业务代码时，用一份 TOML 配置对指定模块和函数打补丁，记录方法调用时间线、汇总耗时并导出 OpenTelemetry 链路，以定位问题调用。
+  job_en: A Python backend engineer facing a slow or misbehaving service, without editing application
+    code, patches chosen modules and functions via a TOML file, records method-call timelines, aggregates
+    timing and exports OpenTelemetry traces to locate the offending call.
+  pain: 线上 Python 服务的性能与行为问题往往只能靠加日志、改代码或临时断点排查，改完还要回滚；测试替身与生产追踪是两套工具，切换成本高。
+  pain_en: Performance and behaviour problems in live Python services are usually chased by adding logs,
+    editing code or temporary breakpoints, then rolling back; test doubles and production tracing are
+    separate toolchains with high switching cost.
+  current_alternative: 手工插入日志或 print、用 unittest.mock 写测试替身、接入 New Relic 一类商业 APM，或使用 OpenTelemetry 手工埋点。
+  current_alternative_en: Hand-inserted logs or prints, unittest.mock test doubles, commercial APM such
+    as New Relic, or manual OpenTelemetry instrumentation.
+  usage_reason: 相较改代码加日志或手工埋点，wrapture 通过 TOML 配置在运行时对目标函数打补丁，省去改代码与回滚这一步，并把调用记录、耗时汇总和链路导出放在同一处；推断需要在不重启业务逻辑、快速定位慢调用的
+    Python 团队会在排查期选择它。
+  usage_reason_en: Compared with editing code to add logs or instrumenting by hand, wrapture patches target
+    functions at runtime from a TOML file, removing the edit-and-rollback step and keeping call recording,
+    timing aggregation and trace export in one place; by inference, Python teams that need to locate slow
+    calls quickly without touching business logic will pick it during an investigation.
+- id: req-full-dont-sleep-on-wrapture-2026-09-12
+  project_slug: dont-sleep-on-wrapture
+  level: full
+  reviewed_at: '2026-09-12T00:44:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上 Python 服务排查慢调用与行为异常时不得不改代码加日志的问题，痛点具体，不解决的代价是停机或回滚；交付物为调用树、耗时统计与可导出链路，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-340c89ebdda70d23
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有作者本人自 8 月 31 日起连续发布的教程与工作坊，未见第三方采用、社区讨论规模或企业使用案例，共识环节缺少外部证据。
+    evidence_ids:
+    - ev-340c89ebdda70d23
+  - gate: model
+    status: insufficient
+    reason: 开源库本身无定价页，付费方可能是企业内部工具链预算或后续商业支持，均属推断；公开材料未披露任何收费路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-340c89ebdda70d23
+  - gate: truth
+    status: supported
+    reason: 零代码 TOML 配置、调用记录与 OpenTelemetry 导出都指向可核对的追踪结果，人工仍需判断哪段代码有问题，边界清楚；但软件处于 alpha，稳定性尚未被外部验证。
+    evidence_ids:
+    - ev-340c89ebdda70d23
+  next_validation: 收集 wrapture 官方仓库的 issue、discussion 与发布记录，确认除作者外是否有第三方提交使用反馈或集成案例。
+  market: ''
+  job: Python 后端工程师在线上服务变慢或行为异常、又不愿改动业务代码时，用一份 TOML 配置对指定模块、函数、属性甚至生成器打补丁，把方法调用记录成时间线、汇总耗时并导出 OpenTelemetry
+    链路，以定位问题调用。
+  job_en: A Python backend engineer facing a slow or misbehaving live service, without editing application
+    code, patches chosen modules, functions, attributes or generators via a TOML file, records method
+    calls as timelines, aggregates timing and exports OpenTelemetry traces to locate the offending call.
+  pain: 线上 Python 服务的性能与行为问题通常只能靠临时加日志、改代码或断点排查，改完还要回滚；测试替身与生产追踪是两套工具，切换成本高，排查窗口内动作慢。
+  pain_en: Performance and behaviour problems in live Python services are usually chased by temporarily
+    adding logs, editing code or breakpoints, then rolling back; test doubles and production tracing are
+    separate toolchains with high switching cost, slowing action inside the investigation window.
+  current_alternative: 手工插入日志或 print、用 unittest.mock 写测试替身、接入 New Relic 一类商业 APM，或手工编写 OpenTelemetry 埋点。
+  current_alternative_en: Hand-inserted logs or prints, unittest.mock test doubles, commercial APM such
+    as New Relic, or hand-written OpenTelemetry instrumentation.
+  usage_reason: 相较改代码加日志或手工埋点，wrapture 通过 TOML 在运行时对目标函数打补丁，省去改代码与回滚这一步，并把调用记录、耗时汇总与链路导出放在同一处；推断需要在不重启业务逻辑的前提下快速定位慢调用的
+    Python 团队会在排查期选择它。
+  usage_reason_en: Compared with editing code to add logs or instrumenting by hand, wrapture patches target
+    functions at runtime from a TOML file, removing the edit-and-rollback step and keeping call recording,
+    timing aggregation and trace export in one place; by inference, Python teams needing to locate slow
+    calls quickly without touching business logic will pick it during an investigation.

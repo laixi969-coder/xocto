@@ -37,3 +37,83 @@
   current_alternative_en: Current alternatives might be human agents or traditional IVR systems, but unconfirmed.
   usage_reason: 用户可能因融资新闻关注，但产品价值未验证。
   usage_reason_en: Users may follow due to funding news, but product value is unverified.
+- id: req-initial-voice-ai-startup-navana-ai-raises-rs-40-crore-from-ronnie-sc-2026-09-12
+  project_slug: voice-ai-startup-navana-ai-raises-rs-40-crore-from-ronnie-sc
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均无法从材料中写出，价值关无法成立。
+    evidence_ids:
+    - ev-5b14d522f1206e81
+    - ev-db8d3458fbaca0f0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且材料无用户采用或场景共识证据。
+    evidence_ids:
+    - ev-5b14d522f1206e81
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-db8d3458fbaca0f0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无产品交付与人工边界信息，无法核对承诺能否确定发生。
+    evidence_ids:
+    - ev-5b14d522f1206e81
+  next_validation: 收集 Navana.ai 官方产品页或客户案例，确认其语音 AI 具体替代哪一步人工流程及交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境、处理材料与要完成的任务，无法还原工作流。
+  job_en: Public material does not identify the user, situation, input material or task, so the workflow
+    cannot be reconstructed.
+  pain: 候选材料未描述任何用户痛点或旧流程中的具体困难。
+  pain_en: The candidate material describes no user pain or concrete difficulty in an existing process.
+  current_alternative: 未提供现有替代方式的信息。
+  current_alternative_en: No information is provided about current alternatives.
+  usage_reason: 仅有融资事实，缺少产品动作与交付说明，无法解释用户为何选择它；任何使用理由都只能是推断。
+  usage_reason_en: Only the funding fact is available; without product actions or delivery, there is no
+    basis to explain user choice, and any usage reason would be inference only.
+- id: req-full-voice-ai-startup-navana-ai-raises-rs-40-crore-from-ronnie-sc-2026-09-12
+  project_slug: voice-ai-startup-navana-ai-raises-rs-40-crore-from-ronnie-sc
+  level: full
+  reviewed_at: '2026-09-12T00:47:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只显示 Navana.ai 完成 40 亿卢比 A 轮融资，未说明谁在什么工作节点使用、输入什么语音材料、交付什么结果，连需求与痛点都无法写出，价值关无法成立。
+    evidence_ids:
+    - ev-5b14d522f1206e81
+    - ev-db8d3458fbaca0f0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Navana.ai 官网产品页或客户案例，确认其语音 AI 具体替代哪一步人工流程、输入材料与交付结果。
+  market: ''
+  job: 公开材料只说明 Navana.ai 是语音 AI 创业公司并完成 A 轮融资，未交代谁在什么工作节点使用、输入什么语音材料、要完成什么任务，因此无法还原具体使用场景。
+  job_en: Public material only identifies Navana.ai as a voice AI startup that closed a Series A; it does
+    not state who uses it at which work step, what voice material is input, or what task is completed,
+    so no concrete job can be reconstructed.
+  pain: 候选材料未描述任何用户痛点或旧流程中的具体困难，融资报道不构成痛点证据。
+  pain_en: The candidate material describes no user pain or concrete difficulty in an existing process;
+    a funding report is not pain evidence.
+  current_alternative: 未提供现有替代方式的信息，无法说明用户此前如何完成同类语音任务。
+  current_alternative_en: No information is provided about current alternatives, so it is impossible to
+    say how users previously handled comparable voice tasks.
+  usage_reason: 仅有融资事实，缺少产品动作与交付说明，无法解释用户为何选择它；任何使用理由都只能是推断。
+  usage_reason_en: Only the funding fact is available; without product actions or delivery, there is no
+    basis to explain user choice, and any usage reason would be inference only.

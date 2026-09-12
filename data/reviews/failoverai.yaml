@@ -27,14 +27,14 @@
   job: 软件工程师、AI 工程师
   job_en: Software Engineer, AI Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does
-    not yet show the cost, frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this
-    job today or what they replace.
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
   usage_reason: 公开代码仓库有 58 个收藏、2 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 58 stars and 2 forks, showing developer
-    attention; repeat use and payment are not yet verified.
+  usage_reason_en: Its public repository has 58 stars and 2 forks, showing developer attention; repeat
+    use and payment are not yet verified.
 - id: req-full-failoverai-2026-08-27
   project_slug: failoverai
   level: full
@@ -64,14 +64,14 @@
   job: 软件工程师、AI 工程师
   job_en: Software Engineer, AI Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does
-    not yet show the cost, frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this
-    job today or what they replace.
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
   usage_reason: 公开代码仓库有 58 个收藏、2 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 58 stars and 2 forks, showing developer
-    attention; repeat use and payment are not yet verified.
+  usage_reason_en: Its public repository has 58 stars and 2 forks, showing developer attention; repeat
+    use and payment are not yet verified.
 - id: req-initial-failoverai-2026-08-28
   project_slug: failoverai
   level: initial
@@ -102,14 +102,14 @@
   job: 软件工程师、AI 工程师
   job_en: Software Engineer, AI Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does
-    not yet show the cost, frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this
-    job today or what they replace.
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
   usage_reason: 公开代码仓库有 58 个收藏、2 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 58 stars and 2 forks, showing developer
-    attention; repeat use and payment are not yet verified.
+  usage_reason_en: Its public repository has 58 stars and 2 forks, showing developer attention; repeat
+    use and payment are not yet verified.
 - id: req-full-failoverai-2026-08-29
   project_slug: failoverai
   level: full
@@ -140,16 +140,14 @@
   job: 软件工程师、AI 工程师
   job_en: Software Engineer, AI Engineer
   pain: 公开材料未说明不解决的具体代价、发生频率或后果；但工作流结构推理显示，任务失败导致重试成本，痛点在于可靠性。
-  pain_en: Public materials do not show the cost, frequency, or consequence of leaving
-    it unsolved; but workflow reasoning suggests task failures cause retry costs,
-    with pain in reliability.
+  pain_en: Public materials do not show the cost, frequency, or consequence of leaving it unsolved; but
+    workflow reasoning suggests task failures cause retry costs, with pain in reliability.
   current_alternative: 公开材料未说明用户目前如何完成这项工作；但可推理为手动重试或使用商业网关，替代方式未核验。
-  current_alternative_en: Public materials do not show how users complete this job
-    today; but it can be inferred as manual retry or using commercial gateways; alternatives
-    unverified.
+  current_alternative_en: Public materials do not show how users complete this job today; but it can be
+    inferred as manual retry or using commercial gateways; alternatives unverified.
   usage_reason: 公开代码仓库有64个收藏、2次复刻，说明开发者关注；持续使用与付费仍未核验。
-  usage_reason_en: The public repository has 64 stars and 2 forks, showing developer
-    attention; repeat use and payment are not yet verified.
+  usage_reason_en: The public repository has 64 stars and 2 forks, showing developer attention; repeat
+    use and payment are not yet verified.
 - id: req-full-failoverai-2026-08-30
   project_slug: failoverai
   level: full
@@ -180,17 +178,16 @@
   next_validation: 追踪 公开代码仓库 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
   market: ''
   job: 软件工程师和 AI 工程师需要可靠地执行图片、视频和 LLM 任务，避免因单点故障导致任务失败。
-  job_en: Software and AI engineers need to reliably execute image, video, and LLM
-    jobs, avoiding failures due to single points of failure.
+  job_en: Software and AI engineers need to reliably execute image, video, and LLM jobs, avoiding failures
+    due to single points of failure.
   pain: 依赖单一模型或服务时，故障会导致任务中断，影响生产环境。
-  pain_en: Relying on a single model or service can cause interruptions and affect
-    production.
+  pain_en: Relying on a single model or service can cause interruptions and affect production.
   current_alternative: 工程师可能手动实现重试逻辑或使用云服务的高可用性，但这些缺乏统一管理。
-  current_alternative_en: Engineers may manually implement retry logic or use cloud
-    high availability, but these lack unified management.
+  current_alternative_en: Engineers may manually implement retry logic or use cloud high availability,
+    but these lack unified management.
   usage_reason: 仓库获得 64-76 个星标，显示开发者社区关注，但持续使用和付费尚未核验。
-  usage_reason_en: The repository has 64-76 stars, showing developer attention, but
-    sustained use and payment are not yet verified.
+  usage_reason_en: The repository has 64-76 stars, showing developer attention, but sustained use and
+    payment are not yet verified.
 - id: req-full-failoverai-2026-09-01
   project_slug: failoverai
   level: full
@@ -219,17 +216,17 @@
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
   job: 软件工程师、AI 工程师需要可靠地执行图片、视频和 LLM 任务，确保任务完成。
-  job_en: Software engineers and AI engineers need to reliably execute image, video,
-    and LLM jobs, ensuring task completion.
+  job_en: Software engineers and AI engineers need to reliably execute image, video, and LLM jobs, ensuring
+    task completion.
   pain: AI 任务可能因模型或服务故障而失败，需要手动重试或编写复杂的故障转移逻辑。
-  pain_en: AI jobs may fail due to model or service outages, requiring manual retries
-    or complex failover logic.
+  pain_en: AI jobs may fail due to model or service outages, requiring manual retries or complex failover
+    logic.
   current_alternative: 目前可能直接调用模型 API，或自行实现重试和故障转移机制。
-  current_alternative_en: Currently may call model APIs directly or implement custom
-    retry and failover mechanisms.
+  current_alternative_en: Currently may call model APIs directly or implement custom retry and failover
+    mechanisms.
   usage_reason: 公开代码仓库有 73 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 73 stars, showing developer attention;
-    repeat use and payment are not yet verified.
+  usage_reason_en: Its public repository has 73 stars, showing developer attention; repeat use and payment
+    are not yet verified.
 - id: req-initial-failoverai-2026-09-06
   project_slug: failoverai
   level: initial
@@ -259,14 +256,64 @@
   next_validation: 查找官方定价页或商业版信息，以确认付费路径。
   market: ''
   job: 开发者需要确保 AI 任务（如图片、视频、LLM）可靠执行，避免因服务故障导致失败。
-  job_en: Developers need to ensure reliable execution of AI tasks (e.g., image, video,
-    LLM) to avoid failures due to service outages.
+  job_en: Developers need to ensure reliable execution of AI tasks (e.g., image, video, LLM) to avoid
+    failures due to service outages.
   pain: AI 服务可能不稳定，导致任务失败，影响业务连续性。
-  pain_en: AI services can be unstable, causing task failures and impacting business
-    continuity.
+  pain_en: AI services can be unstable, causing task failures and impacting business continuity.
   current_alternative: 目前开发者通常手动处理故障或使用云服务商自带的重试机制，但缺乏统一的故障转移层。
-  current_alternative_en: Currently developers handle failures manually or rely on
-    cloud providers' built-in retry mechanisms, lacking a unified failover layer.
+  current_alternative_en: Currently developers handle failures manually or rely on cloud providers' built-in
+    retry mechanisms, lacking a unified failover layer.
   usage_reason: AI 网关能自动处理故障转移，减少人工干预，适合依赖 AI 服务的应用。
-  usage_reason_en: An AI gateway can automatically handle failover, reducing manual
-    intervention, suitable for applications relying on AI services.
+  usage_reason_en: An AI gateway can automatically handle failover, reducing manual intervention, suitable
+    for applications relying on AI services.
+- id: req-full-failoverai-2026-09-12
+  project_slug: failoverai
+  level: full
+  reviewed_at: '2026-09-12T00:44:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 任务调用不可靠、失败后需人工重跑的需求，痛点是生产环境对任务确定完成的刚性要求；公开材料仅给出网关定位，旧流程与交付闭环属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+    - ev-4b8ea1372ea9206a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 94 增至 111，说明有开发者关注，但公开材料没有用户评价、issue 讨论或采用案例，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+    - ev-d061634422af8484
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、商业版或采购记录，买方可能是自建 AI 管线的开发者或企业平台团队，但付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-8bda4142e4259777
+  - gate: truth
+    status: supported
+    reason: 网关贴近任务可靠执行的第一性目标，故障转移是确定性动作；但公开材料未说明安全边界与人工介入规则，交付确定性仍属结构推理。
+    evidence_ids:
+    - ev-3bba2bc6f9192eaa
+    - ev-4b8ea1372ea9206a
+  next_validation: 追踪 FailoverAI 仓库的 README、release 与 issue/discussion，确认是否出现真实故障转移使用案例、部署文档或商业支持信息。
+  market: ''
+  job: 开发者在生产环境调用图片、视频和 LLM 生成接口时，需要把一次任务请求可靠地送达并拿到结果，因此要在多个模型供应商之间做路由、重试与故障转移，避免单点服务中断导致任务失败。
+  job_en: Developers calling image, video and LLM generation APIs in production need a single request
+    to be reliably delivered and completed, so they route, retry and fail over across multiple model providers
+    instead of letting one provider outage kill the job.
+  pain: 公开材料只说明它是面向可靠图片、视频和 LLM 任务的开源网关，未提供用户抱怨或故障案例；从工作流结构推理，多供应商 API 的限流、超时和宕机需要开发者自己写重试与切换逻辑，不解决则任务失败、需要人工重跑，影响依赖
+    AI 输出的业务连续性。
+  pain_en: Public material only describes it as an open-source gateway for reliable image, video and LLM
+    jobs, with no user complaints or outage cases; by workflow inference, rate limits, timeouts and provider
+    outages force developers to hand-roll retry and switching logic, and not solving this means failed
+    jobs and manual reruns that disrupt AI-dependent operations.
+  current_alternative: 开发者目前通常自行编写重试与多供应商切换代码，或依赖单一云服务商自带的重试机制，缺少统一的故障转移层。
+  current_alternative_en: Developers currently hand-write retry and multi-provider switching code, or
+    rely on a single cloud provider's built-in retry, without a unified failover layer.
+  usage_reason: 推断：相较自己维护重试与切换逻辑，该网关把请求接收、供应商路由和故障转移收敛到一层，开发者接入后不必为每个 AI 调用单独实现失败处理，因此正在生产环境调用多家图片、视频或
+    LLM 接口、又缺少统一容错层的开发者会考虑采用它。
+  usage_reason_en: 'Inference: versus maintaining retry and switching logic themselves, the gateway consolidates
+    request intake, provider routing and failover into one layer, so developers no longer implement failure
+    handling per AI call; this appeals to developers running multi-provider image, video or LLM calls
+    in production without a unified fault-tolerance layer.'

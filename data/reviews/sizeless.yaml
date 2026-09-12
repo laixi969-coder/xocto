@@ -1,0 +1,85 @@
+- id: req-initial-sizeless-2026-09-12
+  project_slug: sizeless
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向地下管线误判这一真实痛点，但公开材料只有一句定位，无法确认解决哪一步、交付什么。
+    evidence_ids:
+    - ev-e329e5d3c300fcda
+  - gate: consensus
+    status: insufficient
+    reason: 无采用、客户或社区讨论证据，无法判断勘察单位是否已在具体项目中关注它。
+    evidence_ids:
+    - ev-e329e5d3c300fcda
+  - gate: model
+    status: insufficient
+    reason: 买方可能是市政部门、工程公司或测绘服务商，公开材料未披露定价与采购方式，属判断。
+    evidence_ids:
+    - ev-e329e5d3c300fcda
+  - gate: truth
+    status: insufficient
+    reason: 无精度、人工复核边界或实测结果，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-e329e5d3c300fcda
+  next_validation: 收集该产品的官方页面或发布说明，确认它接收的输入数据、输出的管线成果格式以及是否已有工程项目案例。
+  market: ''
+  job: 市政工程勘察人员在道路改造或管线施工前，需要处理探测数据与历史图纸，弄清地下既有管线的位置，以避免施工挖断。
+  job_en: A municipal engineering surveyor preparing road renovation or pipeline work needs to process
+    detection data and historical drawings to establish where existing underground utilities run, so excavation
+    does not cut them.
+  pain: 地下管线资料分散、年代不一，误判会导致停工、事故与赔偿，现有手段靠人工比对图纸和现场试探。
+  pain_en: Underground utility records are scattered and of mixed vintage; misjudgment causes stoppages,
+    accidents and compensation, and current practice relies on manual drawing comparison and on-site probing.
+  current_alternative: 现有做法是查阅纸质或电子图纸、用管线探测仪现场测量，必要时开挖探坑确认。
+  current_alternative_en: Current practice is consulting paper or digital drawings, using utility locators
+    on site, and digging test pits when necessary.
+  usage_reason: 推断：若它能把探测数据与历史图纸合成可核验的管线模型，就能减少现场反复试探这一步，因此勘察单位会在资料复杂的老城区项目中试用；但公开材料未说明输入与输出，选择理由尚不成立。
+  usage_reason_en: 'Inference: if it can merge detection data and historical drawings into a verifiable
+    utility model, it would cut repeated on-site probing, so survey firms would trial it on complex old-city
+    projects; but public material does not describe inputs or outputs, so the reason to choose it is not
+    yet established.'
+- id: req-full-sizeless-2026-09-12
+  project_slug: sizeless
+  level: full
+  reviewed_at: '2026-09-12T00:46:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向地下管线误判这一真实痛点，但公开材料只有一句定位，无法确认解决哪一步、交付什么。
+    evidence_ids:
+    - ev-e329e5d3c300fcda
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方页面或发布说明，确认它接收的输入数据、输出的管线成果格式以及是否已有工程项目案例。
+  market: ''
+  job: 市政工程勘察人员在道路改造或管线施工前，需要处理探测数据与历史图纸，弄清地下既有管线的位置与走向，以避免施工挖断。
+  job_en: A municipal engineering surveyor preparing road renovation or pipeline work needs to process
+    detection data and historical drawings to establish where existing underground utilities run, so excavation
+    does not cut them.
+  pain: 地下管线资料分散、年代不一，误判会导致停工、事故与赔偿，现有手段靠人工比对图纸和现场试探。
+  pain_en: Underground utility records are scattered and of mixed vintage; misjudgment causes stoppages,
+    accidents and compensation, and current practice relies on manual drawing comparison and on-site probing.
+  current_alternative: 现有做法是查阅纸质或电子图纸、用管线探测仪现场测量，必要时开挖探坑确认。
+  current_alternative_en: Current practice is consulting paper or digital drawings, using utility locators
+    on site, and digging test pits when necessary.
+  usage_reason: 推断：若它能把探测数据与历史图纸合成可核验的管线模型，就能减少现场反复试探这一步，因此勘察单位会在资料复杂的老城区项目中试用；但公开材料未说明输入与输出，选择理由尚不成立。
+  usage_reason_en: 'Inference: if it can merge detection data and historical drawings into a verifiable
+    utility model, it would cut repeated on-site probing, so survey firms would trial it on complex old-city
+    projects; but public material does not describe inputs or outputs, so the reason to choose it is not
+    yet established.'

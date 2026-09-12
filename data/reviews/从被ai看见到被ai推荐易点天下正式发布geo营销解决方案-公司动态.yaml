@@ -1,0 +1,87 @@
+- id: req-initial-从被ai看见到被ai推荐易点天下正式发布geo营销解决方案-公司动态-2026-09-12
+  project_slug: 从被ai看见到被ai推荐易点天下正式发布geo营销解决方案-公司动态
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在AI回答中不被引用、曝光流失的问题，痛点具体，旧做法是人工反复提问比对。
+    evidence_ids:
+    - ev-a8cd547e5b1799a7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇发布报道，没有客户采用或效果反馈，是否形成共识无法判断。
+    evidence_ids:
+    - ev-a8cd547e5b1799a7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按项目还是订阅收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-a8cd547e5b1799a7
+  - gate: truth
+    status: insufficient
+    reason: AI推荐位变化快，方案能否确定性交付可见度提升缺少可核对的结果数据。
+    evidence_ids:
+    - ev-a8cd547e5b1799a7
+  next_validation: 易点天下官方页面或公告中该GEO解决方案的功能说明、计价方式与已披露客户案例。
+  market: ''
+  job: 出海品牌的营销与投放运营在准备商品页、内容与问答素材时，需要让品牌信息出现在AI回答和推荐结果里，完成曝光与转化目标。
+  job_en: Cross-border brand marketers and media buyers preparing product pages, content and Q&A material
+    need brand information to appear in AI answers and recommendations to hit exposure and conversion
+    goals.
+  pain: AI回答的引用来源和推荐逻辑不透明，团队只能靠试错改内容，改完也不知道是否被模型采用。
+  pain_en: The citation sources and recommendation logic of AI answers are opaque, so teams rewrite content
+    by trial and error and cannot tell whether models picked it up.
+  current_alternative: 人工在多个AI助手里反复提问、截图比对，或沿用传统SEO与外链投放做法。
+  current_alternative_en: Manually querying several AI assistants and comparing screenshots, or continuing
+    traditional SEO and link-building.
+  usage_reason: 推断：若方案能持续监测品牌在AI回答中的出现与引用情况并给出改写建议，运营可省去逐条手工提问比对这一步，因此有明确AI可见度考核的出海品牌会先试用。
+  usage_reason_en: 'Inference: if the solution continuously monitors brand mentions and citations in AI
+    answers and suggests rewrites, operators skip manual query-by-query comparison, so cross-border brands
+    with explicit AI visibility targets would try it first.'
+- id: req-full-从被ai看见到被ai推荐易点天下正式发布geo营销解决方案-公司动态-2026-09-12
+  project_slug: 从被ai看见到被ai推荐易点天下正式发布geo营销解决方案-公司动态
+  level: full
+  reviewed_at: '2026-09-12T00:47:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在AI回答中不被引用、曝光流失的需求，痛点是引用与推荐逻辑不透明、只能试错改内容；旧做法为人工多助手提问比对或传统SEO。交付形态与效果监测公开材料未说明，属工作流结构推理。
+    evidence_ids:
+    - ev-a8cd547e5b1799a7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇发布报道，未见客户采用、效果反馈或公开评价，是否形成行业共识无法判断；关注度不等于持续采用。
+    evidence_ids:
+    - ev-a8cd547e5b1799a7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按项目还是订阅收费属推断而非已验证事实；出海品牌营销预算可能付费，但公开材料无采购或付费记录。
+    evidence_ids:
+    - ev-a8cd547e5b1799a7
+  - gate: truth
+    status: insufficient
+    reason: AI推荐位变化快，方案能否确定性交付可见度提升缺少可核对结果数据；安全与人工边界、效果归因方式公开材料均未说明。
+    evidence_ids:
+    - ev-a8cd547e5b1799a7
+  next_validation: 易点天下官方页面或公告中该GEO解决方案的功能说明、计价方式与已披露客户案例。
+  market: ''
+  job: 出海品牌的营销与投放运营在准备商品页、内容与问答素材时，需要让品牌信息出现在AI问答与推荐结果里，以完成曝光与转化目标。
+  job_en: Cross-border brand marketers and media buyers preparing product pages, content and Q&A material
+    need brand information to surface in AI answers and recommendations to hit exposure and conversion
+    goals.
+  pain: AI回答的引用来源与推荐逻辑不透明，团队只能靠反复试错改内容，改完也无法确认是否被模型采用，曝光可能持续流失。
+  pain_en: Citation sources and recommendation logic in AI answers are opaque, so teams rewrite content
+    by trial and error and cannot confirm whether models picked it up, risking continued loss of exposure.
+  current_alternative: 人工在多个AI助手里反复提问、截图比对，或沿用传统SEO与外链投放做法。
+  current_alternative_en: Manually querying multiple AI assistants and comparing screenshots, or continuing
+    traditional SEO and link-building.
+  usage_reason: 推断：相较人工逐条提问比对，该方案把品牌资料与商品信息整理成面向AI问答与推荐场景的内容并输出可投放素材与优化建议，省去手工比对这一步；有明确AI可见度考核的出海品牌会先试用。
+  usage_reason_en: 'Inference: versus manual query-by-query comparison, the solution turns brand and product
+    information into AI-answer/recommendation-oriented content and outputs deployable assets and optimization
+    suggestions, removing the manual comparison step; cross-border brands with explicit AI visibility
+    targets would try it first.'

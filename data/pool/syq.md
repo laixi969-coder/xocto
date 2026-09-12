@@ -21,7 +21,7 @@ canonical_url: https://greaber.github.io/syq
 summary: copy files between machines fast (better than rsync)
 first_seen: '2026-09-10T15:01:27Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

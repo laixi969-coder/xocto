@@ -84,3 +84,54 @@
   usage_reason: 用户要完成的任务是：前端开发者、互动内容设计师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Frontend Developer, Interactive Content Designer Public materials do
     not yet explain why users choose this product over their existing approach.'
+- id: req-full-video-states-website-2026-09-12
+  project_slug: video-states-website
+  level: full
+  reviewed_at: '2026-09-12T00:47:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 LTX 生成视频片段组织成点击切换状态并无缝拼接的交付需求；公开仓库自述提供了构建规格与无缝播放指南，可还原输入、动作与交付，痛点刚性来自片段衔接易出错，属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-ec7063019fb539cf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 111 增至 135，说明开发者社区注意到它，但收藏与复刻只反映关注度，不能证明目标用户已把它留在工作流或持续使用；缺少 issue、discussion 或使用反馈来确认强场景。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-ec7063019fb539cf
+    - ev-590ea8d13e445124
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费路径或买方信息；谁付钱、以何种方式变现均未核验，属商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-6f703615486a9538
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述承诺提供构建规格与无缝播放指南，但公开材料未展示可复现的部署结果或交付样例，交付能否稳定发生、人工与安全边界仍缺公开证据。
+    evidence_ids:
+    - ev-ec7063019fb539cf
+    - ev-590ea8d13e445124
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有开发者按构建规格实际部署并反馈片段衔接与交付结果。
+  market: ''
+  job: 前端开发者或互动内容设计师在为客户搭建品牌互动落地页时，需要把 LTX 生成的视频片段、图像与提示词组织成点击切换的视频状态，并按无缝播放指南拼接片段，最终交付一个可点击驱动的电影感视频网站。
+  job_en: A frontend developer or interactive content designer building a branded interactive landing
+    page must organize LTX-generated video clips, images and prompts into click-switched video states
+    and stitch clips using the seam-safe playback guide, delivering a click-driven cinematic video website.
+  pain: 公开材料只给出仓库自述的构建规格与无缝播放指南，未提供用户抱怨或案例；可推断的痛点是：用通用前端框架手工实现点击切换视频状态时，片段衔接处易出现跳帧或黑屏，且缺少可复用的构建规格，需要反复试错。
+  pain_en: Public materials only give the repo's own build spec and seam-safe playback guide, with no
+    user complaints or cases; the inferable pain is that hand-building click-switched video states in
+    a generic frontend framework tends to produce jumps or black frames at clip seams, and without a reusable
+    build spec developers must iterate by trial and error.
+  current_alternative: 当前替代方式是前端开发者自行用通用框架手写视频状态切换逻辑，或直接使用现成视频模板/无代码落地页工具，缺少针对 LTX 生成素材与无缝拼接的专门规格。
+  current_alternative_en: The current alternative is for frontend developers to hand-write video state-switching
+    logic in a generic framework, or to use off-the-shelf video templates / no-code landing page tools,
+    without a spec tailored to LTX-generated assets and seamless stitching.
+  usage_reason: 推断：相较自行手写切换逻辑，该仓库把 LTX 素材组织、点击状态切换与无缝播放拼接整理成一份可直接照做的构建规格，减少开发者在片段衔接调试上的试错步骤，因此需要快速交付电影感互动落地页的前端开发者会在搭建阶段选择它。
+  usage_reason_en: 'Inference: compared with hand-writing switching logic, the repo packages LTX asset
+    organization, click-state switching and seam-safe stitching into a build spec that can be followed
+    directly, cutting trial-and-error on clip-seam debugging, so frontend developers needing to ship a
+    cinematic interactive landing page quickly would choose it during the build phase.'

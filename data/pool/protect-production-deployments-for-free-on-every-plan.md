@@ -1,6 +1,6 @@
 ---
 slug: protect-production-deployments-for-free-on-every-plan
-name: Protect production deployments for free on every plan
+name: Vercel
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/protect-production-deployments-for-f
 summary: ''
 first_seen: '2026-09-09T06:00:00Z'
 last_seen: '2026-09-12T00:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Protect production deployments for free on every plan
+# Vercel
 
 _（源没给简介）_
 

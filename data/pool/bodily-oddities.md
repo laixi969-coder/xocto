@@ -23,7 +23,7 @@ summary: When I was about 11 years old, my best friend and I were playing during
   sudden, my heart started …
 first_seen: '2026-09-10T20:33:11Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

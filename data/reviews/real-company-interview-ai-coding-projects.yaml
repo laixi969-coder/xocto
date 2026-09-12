@@ -230,3 +230,50 @@
   usage_reason: 公开代码仓库有 195 个收藏、14 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 195 stars and 14 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-real-company-interview-ai-coding-projects-2026-09-12
+  project_slug: real-company-interview-ai-coding-projects
+  level: full
+  reviewed_at: '2026-09-12T00:46:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI Coding 面试题不公开、求职者不知真实考察方向的需求，痛点是准备方向错位且失败代价高；仓库被持续收藏说明有人已在用它替代零散面经，属工作流结构推理。
+    evidence_ids:
+    - ev-17cd0cebeb3bb55a
+    - ev-c670ae763851f221
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 304 增至 327，说明关注度稳定上升，但收藏与克隆只反映关注，未见目标用户持续练习、复访或推荐的公开证据。
+    evidence_ids:
+    - ev-17cd0cebeb3bb55a
+    - ev-c670ae763851f221
+  - gate: model
+    status: insufficient
+    reason: 这是判断不是已验证事实：仓库为开源免费形态，未见定价、付费主体或 to B 采购路径，钱可能来自求职者个人或后续课程转化，均未核验。
+    evidence_ids:
+    - ev-17cd0cebeb3bb55a
+  - gate: truth
+    status: insufficient
+    reason: 题目是否真来自真实公司、解题方法是否可复现交付，公开材料只有仓库描述，未见 issue、讨论或使用反馈佐证内容质量与人工边界。
+    evidence_ids:
+    - ev-17cd0cebeb3bb55a
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认题目来源说明、解题方法完整度及使用者反馈，以核验内容质量与持续使用。
+  market: ''
+  job: 准备 AI Coding 岗位面试的求职者，在投递前后需要针对真实公司出题风格的编码项目题做练习，处理的是匿名化的真实面试项目题与解题方法，要完成的是把题目吃透并形成可复述的解题思路。
+  job_en: Job seekers preparing for AI coding interviews work through anonymized real company project
+    questions and a general solution method before applying, aiming to internalize the problems and produce
+    a repeatable solving approach.
+  pain: AI Coding 面试题缺乏公开题库，求职者不知道真实公司会考什么项目题，只能靠零散面经和刷通用算法题，准备方向与实际考察错位，面试失败代价高。
+  pain_en: AI coding interview questions lack a public question bank; candidates cannot tell what real
+    companies actually test, rely on scattered interview posts and generic algorithm drills, and risk
+    preparing in the wrong direction at high cost.
+  current_alternative: 公开面经帖子、LeetCode 类通用算法题库、零散博客与口口相传的面试经验。
+  current_alternative_en: Public interview write-ups, generic algorithm question banks like LeetCode,
+    scattered blog posts, and word-of-mouth experience.
+  usage_reason: 推断：相较零散面经，它把三个匿名化真实项目题与一套通用解题方法集中成可练习材料，求职者可直接按题演练并复用解题框架，减少自行搜集和拼凑题目的步骤，因此正在准备 AI Coding
+    面试的人会收藏或克隆它。
+  usage_reason_en: 'Inference: versus scattered interview posts, it bundles three anonymized real project
+    questions with a general solution method into practiceable material, letting candidates drill directly
+    and reuse the framework, cutting the step of collecting and stitching together questions themselves.'

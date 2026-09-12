@@ -28,7 +28,7 @@ summary: "Soft-deprecating re.match()   \nPython has a concept of  soft deprecat
   \   \n\n\n     Tags:  python ,  regular-expressions"
 first_seen: '2026-09-11T14:47:57Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

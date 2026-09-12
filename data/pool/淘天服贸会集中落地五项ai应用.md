@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tS2tNMVVaa3BY
 summary: 淘天服贸会集中落地五项AI应用 bjnews.com.cn
 first_seen: '2026-09-09T13:06:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,86 @@
+- id: req-initial-pcb-skill-2026-09-12
+  project_slug: pcb-skill
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决硬件想法到可制造 PCB 之间跨多环节、个人难以独立完成的需求，痛点是刚性的，交付链路明确到付款前页面。
+    evidence_ids:
+    - ev-7bae74827642a65c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 101 星、20 次 fork，说明有开发者关注，但没有用户反馈或客户案例说明它被持续用于实际打样。
+    evidence_ids:
+    - ev-7bae74827642a65c
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价或买方，钱可能来自 to B 设计服务或 to VC，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-7bae74827642a65c
+  - gate: truth
+    status: insufficient
+    reason: 验证环节存在，但公开材料未说明人工确认边界与出错后的责任归属，交付确定性仍待核验。
+    evidence_ids:
+    - ev-7bae74827642a65c
+  next_validation: 收集 pcb-skill 仓库的 issue 与 discussion，确认是否有用户用它完成实际打样并反馈验证与下单结果。
+  market: ''
+  job: 独立硬件创业者或小团队工程师在只有一个硬件想法、没有完整设计资源时，把想法变成可下单制造的 PCB，并走到付款前一步。
+  job_en: An independent hardware founder or small-team engineer with only an idea and no full design
+    resources turns it into an orderable PCB and reaches the pre-payment step.
+  pain: 从概念到可制造 PCB 要跨原理图、选料、布局、布线、验证多个环节，通常需要多名工程师和多次返工，个人很难独立走完。
+  pain_en: Going from concept to a manufacturable PCB spans schematic, sourcing, layout, routing and verification,
+    usually needing several engineers and repeated rework, which one person can hardly complete alone.
+  current_alternative: 自己用 EDA 工具逐步画图，或外包给设计公司、找有经验的工程师代做。
+  current_alternative_en: Drawing it step by step in EDA tools, or outsourcing to a design firm or an
+    experienced engineer.
+  usage_reason: 推断：相较自己逐步操作 EDA 或外包，它把原理图、选料、布局、布线、验证串成一次连续动作并直接推进到付款前页面，减少的是跨环节手工衔接和反复沟通这一步，因此缺设计资源的独立硬件开发者会在早期打样阶段选择它。
+  usage_reason_en: 'Inference: compared with operating EDA step by step or outsourcing, it chains schematic,
+    sourcing, layout, routing and verification into one continuous action and pushes straight to the pre-payment
+    page, removing the manual handoffs and back-and-forth between stages, so independent hardware developers
+    lacking design resources would pick it at the early prototyping stage.'
+- id: req-full-pcb-skill-2026-09-12
+  project_slug: pcb-skill
+  level: full
+  reviewed_at: '2026-09-12T00:46:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决硬件想法到可制造 PCB 之间跨多环节、个人难以独立完成的需求，痛点是刚性的，交付链路明确到付款前页面。
+    evidence_ids:
+    - ev-7bae74827642a65c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 101 星，说明有开发者关注，但没有用户反馈或客户案例说明它被持续用于实际打样。
+    evidence_ids:
+    - ev-7bae74827642a65c
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价或买方，钱可能来自 to B 设计服务或 to VC，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-7bae74827642a65c
+  - gate: truth
+    status: insufficient
+    reason: 验证环节存在，但公开材料未说明人工确认边界与出错后的责任归属，交付确定性仍待核验。
+    evidence_ids:
+    - ev-7bae74827642a65c
+  next_validation: 收集 pcb-skill 仓库的 issue 与 discussion，确认是否有用户用它完成实际打样并反馈验证与下单结果。
+  market: ''
+  job: 独立硬件创业者或小团队工程师在只有一个硬件想法、没有完整设计资源时，把想法变成可下单制造的 PCB，并走到付款前一步。
+  job_en: An independent hardware founder or small-team engineer with only an idea and no full design
+    resources turns it into an orderable PCB and reaches the pre-payment step.
+  pain: 从概念到可制造 PCB 要跨原理图、选料、布局、布线、验证多个环节，通常需要多名工程师和多次返工，个人很难独立走完。
+  pain_en: Going from concept to a manufacturable PCB spans schematic, sourcing, layout, routing and verification,
+    usually needing several engineers and repeated rework, which one person can hardly complete alone.
+  current_alternative: 自己用 EDA 工具逐步画图，或外包给设计公司、找有经验的工程师代做。
+  current_alternative_en: Drawing it step by step in EDA tools, or outsourcing to a design firm or an
+    experienced engineer.
+  usage_reason: 推断：相较自己逐步操作 EDA 或外包，它把原理图、选料、布局、布线、验证串成一次连续动作并直接推进到付款前页面，减少的是跨环节手工衔接和反复沟通这一步，因此缺设计资源的独立硬件开发者会在早期打样阶段选择它。
+  usage_reason_en: 'Inference: compared with operating EDA step by step or outsourcing, it chains schematic,
+    sourcing, layout, routing and verification into one continuous action and pushes straight to the pre-payment
+    page, removing the manual handoffs and back-and-forth between stages, so independent hardware developers
+    lacking design resources would pick it at the early prototyping stage.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5TGMyaUhIZGdT
 summary: AI体育数据痛点待解，AOA体育讲信誉发布多款产品锚定确定性 体坛加
 first_seen: '2026-09-10T08:29:26Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

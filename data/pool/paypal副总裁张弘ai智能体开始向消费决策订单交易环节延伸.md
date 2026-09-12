@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yZXBGSlotTHVi
 summary: PayPal副总裁张弘：AI智能体开始向消费决策、订单交易环节延伸 jwview.com
 first_seen: '2026-09-11T03:04:23Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

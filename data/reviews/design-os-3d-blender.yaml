@@ -1,0 +1,87 @@
+- id: req-initial-design-os-3d-blender-2026-09-12
+  project_slug: design-os-3d-blender
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Blender 脚本建模门槛高、可打印性问题暴露太晚的痛点，交付物是可打印零件模型，结构上成立。
+    evidence_ids:
+    - ev-3da9035204f21631
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 67 星、17 次 fork，属关注度信号，尚无用户评价或客户案例说明持续采用。
+    evidence_ids:
+    - ev-3da9035204f21631
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明买方与付费路径，钱可能来自服务或定制，属判断而非已验证事实。
+    evidence_ids:
+    - ev-3da9035204f21631
+  - gate: truth
+    status: insufficient
+    reason: 执行契约与生产闸门能否稳定筛出可打印零件，缺少可复现实测或用户反馈支持。
+    evidence_ids:
+    - ev-3da9035204f21631
+  next_validation: 收集该仓库的 issue 或 discussion，查看用户对生产闸门筛出可打印零件的实际反馈。
+  market: ''
+  job: 3D 打印从业者或工业设计师在 Blender 中建模时，处理模型脚本与可打印性要求，完成可交付打印的零件模型。
+  job_en: 3D-printing practitioners or industrial designers modeling in Blender, handling model scripts
+    and printability requirements to produce a printable part model.
+  pain: 在 Blender 里用脚本建模需要熟悉 bpy 接口，且模型是否可打印往往要等到切片或打印阶段才暴露问题，返工成本高。
+  pain_en: Scripted modeling in Blender requires familiarity with the bpy API, and printability problems
+    often surface only at slicing or printing time, making rework costly.
+  current_alternative: 目前多由设计师手工编写 bpy 脚本、反复在 Blender 中试错，或依赖通用编码助手生成脚本后再人工检查可打印性。
+  current_alternative_en: Today designers typically hand-write bpy scripts, iterate by trial and error
+    in Blender, or use general coding assistants to generate scripts and then manually check printability.
+  usage_reason: 推断：相较手工写脚本再试错，它用经核验的 bpy 知识库生成脚本，并以 AGENT_OK/AGENT_FAIL 契约和生产闸门在生成阶段就筛掉不可打印的零件，减少切片后才发现问题的那一步返工；因此需要批量产出可打印零件的设计或打印服务团队会尝试它。
+  usage_reason_en: 'Inference: compared with hand-writing scripts and iterating, it generates scripts
+    from a verified bpy knowledge base and filters out non-printable parts at generation time via the
+    AGENT_OK/AGENT_FAIL contract and production gate, cutting the rework step of discovering problems
+    only after slicing; design or printing-service teams producing printable parts in volume would try
+    it.'
+- id: req-full-design-os-3d-blender-2026-09-12
+  project_slug: design-os-3d-blender
+  level: full
+  reviewed_at: '2026-09-12T00:44:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Blender 脚本建模门槛高、可打印性问题暴露太晚的痛点，交付物是可打印零件模型，输入—动作—交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-3da9035204f21631
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 67 星属关注度信号，公开材料无用户评价、案例或重复使用记录，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-3da9035204f21631
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或买方，钱可能来自定制服务或企业部署，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3da9035204f21631
+  - gate: truth
+    status: insufficient
+    reason: AGENT_OK/AGENT_FAIL 契约与生产闸门能否稳定筛出可打印零件，缺少可复现实测或用户反馈佐证。
+    evidence_ids:
+    - ev-3da9035204f21631
+  next_validation: 追踪该仓库的 issue 与 discussion，查看用户对生产闸门筛出可打印零件的实际反馈与失败案例。
+  market: ''
+  job: 3D 打印从业者或工业设计师在 Blender 中建模时，处理 bpy 脚本与可打印性要求，完成可交付打印的零件模型。
+  job_en: 3D-printing practitioners or industrial designers modeling in Blender, handling bpy scripts
+    and printability requirements to produce a printable part model.
+  pain: 脚本化建模需要熟悉 bpy 接口，且模型是否可打印往往到切片或打印阶段才暴露，返工成本高。
+  pain_en: Scripted modeling requires familiarity with the bpy API, and printability problems often surface
+    only at slicing or printing time, making rework costly.
+  current_alternative: 设计师手工编写 bpy 脚本并在 Blender 中反复试错，或借助通用编码助手生成脚本后人工检查可打印性。
+  current_alternative_en: Designers hand-write bpy scripts and iterate by trial and error in Blender,
+    or use general coding assistants to generate scripts and then manually check printability.
+  usage_reason: 推断：相较手工写脚本再试错，它用经核验的 bpy 知识库生成脚本，并以 AGENT_OK/AGENT_FAIL 契约和生产闸门在生成阶段筛掉不可打印零件，省去切片后才发现问题的那一步返工；需要批量产出可打印零件的设计或打印服务团队会因此尝试它。
+  usage_reason_en: 'Inference: compared with hand-writing scripts and iterating, it generates scripts
+    from a verified bpy knowledge base and filters non-printable parts at generation time via the AGENT_OK/AGENT_FAIL
+    contract and production gate, removing the rework step of discovering problems only after slicing;
+    design or printing-service teams producing printable parts in volume would try it.'

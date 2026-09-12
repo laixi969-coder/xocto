@@ -1,0 +1,86 @@
+- id: req-initial-post-graph-rag-2026-09-12
+  project_slug: post-graph-rag
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是检索结果随时间失效、旧负责人被当作现任的问题，痛点具体且不处理的后果可核对；但仓库未给出具体流程，属工作流推理。
+    evidence_ids:
+    - ev-ad3c8dc1e54108ed
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有企业用户反馈或采用案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ad3c8dc1e54108ed
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或商业模式，买方可能是自建知识库的企业团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ad3c8dc1e54108ed
+  - gate: truth
+    status: insufficient
+    reason: 未说明如何处理实体状态失效、是否需人工确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-ad3c8dc1e54108ed
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认其处理实体状态失效的具体方法与是否已有企业使用反馈。
+  market: ''
+  job: 企业知识库或合规问答系统的维护工程师，在员工离职、高管更替或组织调整后，需要让检索系统返回当前有效的负责人与关系，而不是历史版本。
+  job_en: Maintainers of enterprise knowledge bases or compliance Q&A systems need retrieval to return
+    the currently valid owner and relationships after departures, executive changes or reorganizations,
+    not historical versions.
+  pain: 旧答案被当成现况使用，会直接导致对外沟通、审批和合规判断出错；而人工逐条核对知识库中的实体状态成本高且容易漏。
+  pain_en: Stale answers used as current fact directly cause errors in external communication, approvals
+    and compliance judgments, while manually checking entity state across a knowledge base is costly and
+    easy to miss.
+  current_alternative: 目前多靠人工定期清理知识库、在文档里加更新时间戳，或让业务方在提问时自行判断答案是否过期。
+  current_alternative_en: Today this is mostly handled by periodic manual cleanup, timestamps added to
+    documents, or business users judging for themselves whether an answer is outdated.
+  usage_reason: 推断：相较人工定期清理，它把“实体状态是否仍然有效”变成检索环节可自动检查的一步，减少的是事后发现答案过期再回头修正的负担；因此维护高频变动知识库的团队会先试用它。
+  usage_reason_en: 'Inference: compared with periodic manual cleanup, it turns whether an entity state
+    is still valid into an automatically checkable step inside retrieval, reducing the burden of discovering
+    a stale answer after the fact and correcting it; teams maintaining fast-changing knowledge bases are
+    therefore the likely first triers.'
+- id: req-full-post-graph-rag-2026-09-12
+  project_slug: post-graph-rag
+  level: full
+  reviewed_at: '2026-09-12T00:46:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅有一句口号式描述，未说明用户任务、发生频率、不处理的后果与现有替代方式，无法还原输入—动作—交付闭环，需求与痛点均未写清。
+    evidence_ids:
+    - ev-ad3c8dc1e54108ed
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 post-graph-rag 仓库的 README、issue 与 discussion，确认其是否给出实体状态失效处理流程、输入输出与任何企业使用反馈。
+  market: ''
+  job: 企业知识库或合规问答系统的维护工程师，在员工离职、高管更替或组织调整后，需要让检索系统返回当前有效的负责人与关系，而不是历史版本。
+  job_en: Maintainers of enterprise knowledge bases or compliance Q&A systems need retrieval to return
+    the currently valid owner and relationships after departures, executive changes or reorganizations,
+    not historical versions.
+  pain: 公开材料只有一句“你的 RAG 仍把旧 CFO 当作 CFO”，未记录用户抱怨、发生频率或不处理的后果；痛点只能从该表述推断为旧答案被当成现况使用。
+  pain_en: Public material is limited to the line 'your RAG still thinks the old CFO is the CFO'; it records
+    no user complaints, frequency or consequence, so the pain can only be inferred as stale answers being
+    used as current fact.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users complete this job today or what existing
+    approach it replaces.
+  usage_reason: 公开材料未说明用户为什么会选择它；仓库页面未提供处理流程、输入输出与交付形式，无法解释相较旧做法减少了哪一步负担。
+  usage_reason_en: Public materials do not explain why users would choose it; the repository page provides
+    no processing flow, inputs/outputs or delivery form, so it cannot be shown to remove any step versus
+    the old approach.

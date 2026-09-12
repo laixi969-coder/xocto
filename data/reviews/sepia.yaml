@@ -118,3 +118,44 @@
   usage_reason: sepia 提供针对性的叙事修复和风格规则，且集成到常用代理中，方便使用。
   usage_reason_en: sepia offers targeted narrative repair and style rules, integrated into common agents
     for convenience.
+- id: req-full-sepia-2026-09-12
+  project_slug: sepia
+  level: full
+  reviewed_at: '2026-09-12T00:46:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其去除 AI 写作痕迹，但全部证据只解释 sepia 一词的词典与头足类含义，既无产品说明也无用户痛点，连要解决的需求和痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-d37b448e0ae9dd65
+    - ev-f488e8d3e99d3b10
+    - ev-9485814e0ab864f9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 sepia 官方仓库或产品页的 README、示例输出与 issue/discussion，确认其实际输入输出与用户反馈。
+  market: ''
+  job: 小说作者或专业写作者在完成 AI 辅助生成的稿件后，需要把文本改造成符合出版或投稿场合的自然文风，任务是对叙事结构和措辞做去 AI 痕迹的修复。
+  job_en: Fiction and professional writers who have AI-assisted drafts need to reshape the text into venue-appropriate
+    natural prose, repairing narrative structure and wording to remove AI traces.
+  pain: 公开证据中没有一条能说明写作者实际遭遇的痛点：现有证据全部是 sepia 一词的词典与头足类动物释义，没有任何关于 AI 文本被识别、退稿或修改负担的用户陈述。
+  pain_en: 'No public evidence describes an actual writer pain: all collected items define the word ''sepia''
+    as a pigment or cuttlefish genus, with nothing on AI-text detection, rejection, or editing burden.'
+  current_alternative: 公开材料未记录写作者当前如何绕过该问题，无法确认是人工逐句改写、通用改写工具还是直接接受 AI 文本。
+  current_alternative_en: Public materials do not record how writers currently work around this, so manual
+    rewriting, generic rewriting tools, or simply accepting AI text cannot be confirmed.
+  usage_reason: 无法给出使用理由：现有证据不含产品页面、文档、用户反馈或案例，无法说明 sepia 相较旧做法减少哪一步负担，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no product page, docs, user feedback,
+    or cases, so it is impossible to say which step sepia removes versus the old approach or which users
+    would choose it.'

@@ -327,3 +327,52 @@
   usage_reason: 用户要完成的任务是：创作者、内容运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Creators, Content operations Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-creator-agent-2026-09-12
+  project_slug: creator-agent
+  level: full
+  reviewed_at: '2026-09-12T00:44:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者把文档、音频、视频沉淀为可检索智能体的需求，痛点是跨模态素材难以复用、旧内容无法变成知识资产；公开仓库说明已明确输入与交付形态，属工作流结构推理，痛点刚性成立，但尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-7607366e9615a13a
+    - ev-4d2f1d0a716377fa
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 97 增至 211，说明开发者社区持续关注，但收藏与环比只属关注度证据，不能证明创作者已把它放进日常工作流；缺少 issue、discussion 或使用案例说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-7607366e9615a13a
+    - ev-4d2f1d0a716377fa
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、付费主体或商业交付路径；谁付钱、按什么单位收费均属判断而非已验证事实，但该缺口不推翻价值关成立。
+    evidence_ids:
+    - ev-4d2f1d0a716377fa
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句仓库描述，未见部署文档、可复现实测或对音视频解析准确率、人工校对边界的说明，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-7607366e9615a13a
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现具体部署案例、支持的音视频格式与人工校对边界说明。
+  market: ''
+  job: 独立创作者或内容运营者手上积累了大量长视频、播客音频和文档，需要把这些素材变成可被检索、可被追问、可自动产出新内容（如问答、摘要、脚本）的知识库，而不是每次重新翻找原始文件。
+  job_en: An independent creator or content operator with a large backlog of long videos, podcast audio
+    and documents needs to turn that material into a searchable, queryable knowledge base that can answer
+    questions and generate new content, instead of re-digging through raw files each time.
+  pain: 创作者的核心资产是分散在视频、音频、文档里的观点与素材，跨模态检索和复用只能靠人工回看、记笔记或手动剪辑，素材越多越难被再次调用；不解决则旧内容无法沉淀为可复用的知识资产，新内容产出仍从零开始。
+  pain_en: A creator's core asset is scattered across video, audio and documents; cross-modal retrieval
+    and reuse currently depend on manual re-watching, note-taking or hand editing, so the larger the archive
+    the less reusable it becomes, and new content still starts from zero.
+  current_alternative: 当前替代方式是人工回看素材、用笔记软件或表格整理要点、用通用大模型手动粘贴片段提问，或直接放弃复用旧素材；这些做法要么耗时，要么丢失音视频中的上下文。
+  current_alternative_en: Today creators re-watch footage, keep notes or spreadsheets, paste snippets
+    into general-purpose LLMs by hand, or simply give up on reusing old material; these either cost hours
+    or lose the context inside audio and video.
+  usage_reason: 推断：相较手动回看和粘贴，产品把文档、音频、视频直接作为智能体的知识底座，用户只需提问或下达生成指令即可拿到基于自己素材的回答，省去逐段翻找与搬运这一步；因此素材量大、需要频繁复用旧内容的创作者会在做选题、写脚本或回答粉丝提问时选择它。
+  usage_reason_en: 'Inference: rather than re-watching and pasting, the product grounds the agent directly
+    in the creator''s documents, audio and video, so the user asks a question or issues a generation instruction
+    and gets an answer tied to their own material, removing the step of locating and transporting snippets;
+    creators with large archives who reuse old content for ideation, scripting or answering audience questions
+    are the ones who would pick it.'

@@ -1,0 +1,84 @@
+- id: req-initial-产品定义推动ai从通用智能向行业智能落地蚂蚁保升级三大ai服务-2026-09-12
+  project_slug: 产品定义推动ai从通用智能向行业智能落地蚂蚁保升级三大ai服务
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决条款比对与材料预审的需求，痛点真实，但公开材料未说明三项AI服务具体做什么，无法确认交付物。
+    evidence_ids:
+    - ev-737959d2e52eed77
+  - gate: consensus
+    status: insufficient
+    reason: 只有一篇升级报道，没有代理人或投保人的使用反馈，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-737959d2e52eed77
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，平台内嵌服务可能免费，钱来自保险佣金，属推断而非已验证事实。
+    evidence_ids:
+    - ev-737959d2e52eed77
+  - gate: truth
+    status: insufficient
+    reason: 保险结论涉及合规与赔付责任，材料未说明人工复核边界与出错处理方式。
+    evidence_ids:
+    - ev-737959d2e52eed77
+  next_validation: 蚂蚁保官方页面或应用商店更新说明中关于这三项AI服务的功能描述与使用入口。
+  market: ''
+  job: 投保人或保险代理人在选险、核保、理赔咨询时，需要处理保单条款、健康告知和理赔材料，判断某项保障是否覆盖、材料是否齐全。
+  job_en: Policyholders or agents handling policy terms, health disclosures and claims documents when
+    choosing cover, passing underwriting or filing a claim, to judge whether cover applies and documents
+    are complete.
+  pain: 条款长、免责与等待期分散在多份文件里，人工比对慢且容易漏；代理人靠经验回答，出错后要返工。
+  pain_en: Terms are long and exclusions and waiting periods are scattered across documents, so manual
+    comparison is slow and error-prone; agents answer from experience and rework follows mistakes.
+  current_alternative: 人工逐条读条款、在多个产品页面之间对比，或打电话问客服与核保人员。
+  current_alternative_en: Reading clauses line by line, comparing across product pages, or calling support
+    and underwriters.
+  usage_reason: 推断：若AI能直接读取条款与告知材料并输出覆盖判断和缺失材料清单，用户可省去逐条翻查这一步；但公开材料未说明具体服务内容，无法确认它是否真的减少了这一步负担。
+  usage_reason_en: 'Inference: if the AI reads terms and disclosure documents and outputs a coverage judgement
+    plus a list of missing documents, users skip the line-by-line search; but the public material does
+    not describe the services, so it cannot be confirmed that this step is reduced.'
+- id: req-full-产品定义推动ai从通用智能向行业智能落地蚂蚁保升级三大ai服务-2026-09-12
+  project_slug: 产品定义推动ai从通用智能向行业智能落地蚂蚁保升级三大ai服务
+  level: full
+  reviewed_at: '2026-09-12T00:47:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决条款比对与材料预审的需求，痛点真实，但公开材料未说明三项AI服务具体做什么，无法确认交付物。
+    evidence_ids:
+    - ev-737959d2e52eed77
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 蚂蚁保 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 投保人或保险代理人在选险、核保、理赔咨询节点，处理保单条款、健康告知与理赔材料，判断某项保障是否覆盖、材料是否齐全。
+  job_en: Policyholders or agents at the points of choosing cover, underwriting or claims questions, handling
+    policy terms, health disclosures and claims documents to judge whether cover applies and documents
+    are complete.
+  pain: 条款长、免责与等待期分散在多份文件中，人工逐条比对慢且易漏；代理人凭经验回答，出错后需返工。
+  pain_en: Terms are long and exclusions and waiting periods are scattered across documents, so manual
+    comparison is slow and error-prone; agents answer from experience and rework follows mistakes.
+  current_alternative: 人工逐条读条款、在多个产品页面之间对比，或打电话问客服与核保人员。
+  current_alternative_en: Reading clauses line by line, comparing across product pages, or calling support
+    and underwriters.
+  usage_reason: 推断：若AI能读取条款与告知材料并输出覆盖判断与缺失材料清单，用户可省去逐条翻查；但公开材料只提到升级三项AI服务，未说明由AI接收什么材料、执行哪一步、交付什么结论，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if the AI reads terms and disclosure documents and outputs a coverage judgement
+    plus a missing-document list, users skip the line-by-line search; but the public material only says
+    three AI services were upgraded, without stating what the AI receives, which step it performs or what
+    it delivers, so the reduction cannot be confirmed.'

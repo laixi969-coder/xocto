@@ -22,7 +22,7 @@ summary: 'Automating the mess: What a million warehouse robots can teach smaller
   Management Review'
 first_seen: '2026-09-11T15:09:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

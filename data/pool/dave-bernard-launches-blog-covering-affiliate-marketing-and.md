@@ -22,7 +22,7 @@ summary: Dave Bernard launches blog covering affiliate marketing and AI search s
   FinancialContent
 first_seen: '2026-09-11T12:34:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

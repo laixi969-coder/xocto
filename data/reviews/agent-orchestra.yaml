@@ -75,3 +75,52 @@
   usage_reason: 公开代码仓库有 54 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 54 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-agent-orchestra-2026-09-12
+  project_slug: agent-orchestra
+  level: full
+  reviewed_at: '2026-09-12T00:43:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 并行开发中的角色分派、文件写入冲突与缺少独立复核问题，痛点刚性来自冲突和不可信产出会直接毁掉交付；公开仓库说明已还原输入、动作与交付闭环，属工作流结构推理，尚无用户口述痛点证据。
+    evidence_ids:
+    - ev-146d8d11753d0053
+    - ev-7b9d2fb85accdc34
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 72，说明开发者持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在日常工作流；缺少 issue、discussion 或客户案例说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-146d8d11753d0053
+    - ev-7b9d2fb85accdc34
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-146d8d11753d0053
+  - gate: truth
+    status: insufficient
+    reason: 单一主写入者与独立复核能否在真实多 agent 环境中稳定交付、人工验收边界如何划分，尚缺可复现的部署文档或实测记录；承诺的 token 与 API 成本下降也未被量化验证。
+    evidence_ids:
+    - ev-146d8d11753d0053
+    - ev-a05ad3fe53384cab
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README/部署文档，确认是否有真实多 agent 项目记录其角色分派、冲突消除与复核流程的实际使用结果。
+  market: ''
+  job: 开发者在同时运行 3 个及以上 AI agent 处理同一代码库任务时，需要把规划、实现、复核、验收分派给不同 agent，并处理它们各自产出的代码与文档，最终交付一份经过独立复核、人工确认验收的改动。
+  job_en: Developers running three or more AI agents on the same codebase task must assign planning, implementation,
+    review and acceptance across agents, reconcile their code and document outputs, and deliver a change
+    that has passed independent review and human sign-off.
+  pain: 多 agent 并行时没有角色与写入边界，容易出现多个 agent 同时改同一文件造成冲突、无人独立复核、上下文重复传递推高 token 与 API 成本，最终产出无法确认是否可信。
+  pain_en: Without role and write boundaries, parallel agents edit the same files, no one independently
+    reviews, context is re-sent and inflates token/API cost, and the final output cannot be trusted.
+  current_alternative: 当前替代方式是开发者手工编排多个 agent 会话、口头约定谁写哪个文件、自己充当复核者，或干脆退回单 agent 串行执行。
+  current_alternative_en: Today developers hand-orchestrate multiple agent sessions, verbally agree on
+    file ownership, act as the reviewer themselves, or fall back to a single serial agent.
+  usage_reason: 推断：相较手工编排，它自动识别各 agent 的工具与专长并分配协调者/实现者/验证者角色，用单一主写入者机制消除文件冲突，并把重要任务固定为“规划→实现→独立复核→最终验收”，从而省去人工分派与冲突排查这一步，并让复核成为流程内动作；因此正在用多
+    agent 并行开发的团队会在需要可信交付时选择它。
+  usage_reason_en: 'Inference: versus manual orchestration it auto-detects each agent''s tools and strengths,
+    assigns coordinator/implementer/verifier roles, removes file conflicts via a single primary writer,
+    and fixes important tasks into plan→implement→independent review→acceptance, eliminating manual dispatch
+    and conflict triage and making review an in-flow step; teams already running parallel agents would
+    pick it when they need trustworthy delivery.'

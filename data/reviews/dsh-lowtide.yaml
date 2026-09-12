@@ -218,3 +218,60 @@
   usage_reason: 用户要完成的任务是：开发者、项目经理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers, Project Managers Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-dsh-lowtide-2026-09-12
+  project_slug: dsh-lowtide
+  level: full
+  reviewed_at: '2026-09-12T00:44:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长时任务与开发者在线时段错位：任务需连续算力窗口，白天被会议切碎无法守终端，非高峰机器空闲却无人发起，交付被推迟。旧替代是手动排队守日志或推到次日。仓库说明已给出输入（委托清单）、动作（非高峰无人值守执行）、交付（报告+人工裁定）闭环，属工作流结构推理；痛点刚性来自任务必须跑完这一后果。
+    evidence_ids:
+    - ev-14ac546d19eb46c0
+    - ev-500b035800559e28
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库收藏数从 142 缓慢升至 157，属关注度而非持续采用；没有 issue、discussion、用户评价或客户案例说明谁在什么场景下反复使用、替代了哪条旧流程。共识卡在场景感知一环：能看出有人关注，看不出强场景已被验证。
+    evidence_ids:
+    - ev-14ac546d19eb46c0
+    - ev-500b035800559e28
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 开发者订阅、to B 团队席位还是 to VC 融资。这是商业证据缺口，不反推需求不存在；若长期只有融资叙事而无用户付费路径，需标注每日优鲜风险。
+    evidence_ids:
+    - ev-14ac546d19eb46c0
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺“非高峰无人值守执行并产出报告”，但公开材料未说明任务失败重试、结果可复现性、人工裁定边界与安全约束，交付能否确定性发生缺可复现证据；也未说明与 DeepSeek Harness
+      版本耦合带来的失效风险。
+    evidence_ids:
+    - ev-14ac546d19eb46c0
+    - ev-5ca508218a536b47
+  next_validation: 追踪 dsh-lowtide 仓库的 README、issue 与 discussion，确认是否披露任务编排配置、失败重试与人工裁定边界的部署文档，以及是否有用户贴出实际委托任务与报告样例。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或技术项目经理，在白天被会议和即时沟通切碎、无法连续跑长任务时，把批量代码修改、测试回归、数据整理等任务写成委托清单，交给 dsh-lowtide
+    在非高峰时段无人值守执行，第二天回到桌面或网页端审阅生成的任务报告并逐条裁定结果。
+  job_en: A developer or technical project manager using DeepSeek Harness, whose day is fragmented by
+    meetings and chat, writes a delegation list of batch code changes, regression tests, or data cleanup
+    tasks, hands it to dsh-lowtide to run unattended off-peak, and returns to the desktop or web report
+    to adjudicate each result.
+  pain: 长时任务与人的在线时段错位：任务需要连续算力窗口，但开发者白天无法守着终端；夜间或非高峰时段机器空闲却没人发起任务，任务只能排队到第二天，交付被推迟一个工作日。公开材料只给出产品定位，未提供用户抱怨或耗时数据，此痛点强度属工作流结构推理。
+  pain_en: 'Long-running tasks are misaligned with human online hours: the work needs a continuous compute
+    window, but the developer cannot babysit a terminal during the day, while off-peak machines sit idle
+    with nobody launching tasks, so delivery slips by a working day. Public material only states the positioning,
+    not user complaints or time data; this pain intensity is workflow-structural inference.'
+  current_alternative: 旧做法是开发者手动在终端或 CI 里排队跑任务、自己守着看日志，或干脆把任务推到第二天白天；也可能用通用定时任务脚本，但缺少面向 DeepSeek Harness
+    的任务编排与人工裁定环节。公开材料未描述用户实际替代流程，此为结构推理。
+  current_alternative_en: The old way is to queue tasks manually in a terminal or CI and watch logs, or
+    push the work to the next day; generic cron scripts are possible but lack DeepSeek Harness-oriented
+    orchestration and a human adjudication step. Public material does not describe the actual replaced
+    workflow; this is structural inference.
+  usage_reason: 相较手动守终端或次日重跑，它把任务规划与执行时间解耦：用户空闲时写好委托，系统在非高峰时段自动跑完并产出报告，用户只需在报告上做人工裁定，省掉的是“守着等结果”和“次日重新发起”这两步；因此白天被切碎、又需要长任务产出的
+    DeepSeek Harness 用户会在有批量任务时选择它。这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: 'Versus babysitting a terminal or re-running next day, it decouples planning from execution:
+    the user writes the delegation when free, the system runs it off-peak and produces a report, and the
+    user only adjudicates, removing the ''wait and watch'' and ''re-launch tomorrow'' steps; hence DeepSeek
+    Harness users with fragmented days and batch tasks would pick it. This is inference from product capability
+    and task structure, not confirmed by user feedback.'

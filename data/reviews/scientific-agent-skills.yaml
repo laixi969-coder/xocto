@@ -76,3 +76,56 @@
   usage_reason: 用户要完成的任务是：科研人员、药物发现研究员、实验室数据工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: research scientist, drug discovery researcher, laboratory data engineer
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-scientific-agent-skills-2026-09-12
+  project_slug: scientific-agent-skills
+  level: full
+  reviewed_at: '2026-09-12T00:46:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科研人员在编码代理内跨生物、化学、医学数据库检索与分析的需求，痛点是通用代理缺领域技能与数据库接入、手工跨库检索与复核成本高；公开材料仅给出 165 技能与 100+ 数据库的功能事实，痛点与替代流程系工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+    - ev-e05d1d65fc74ae99
+  - gate: consensus
+    status: insufficient
+    reason: 仓库公开记录为 102–103 个收藏，说明开发者社区已注意到该技能库，但收藏属关注度而非持续采用；公开材料未给出安装量、留存、复购或用户评价，无法判断科研人员是否已把它留在日常工作流中。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+    - ev-e05d1d65fc74ae99
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购路径，无法判断收入来自 to C 科研人员、to B 药企实验室还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明技能输出如何复核、数据库调用失败或结果错误时如何处理，也未给出人工与安全边界；交付能否稳定发生尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+    - ev-e05d1d65fc74ae99
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有科研人员公开描述实际部署场景、替代的旧检索流程与技能输出复核方式。
+  market: ''
+  job: 科研人员、药物发现研究员或实验室数据工程师在已装好该技能库的 Cursor、Claude Code、Codex 等编码代理中，把研究问题（如靶点、化合物、文献线索）交给代理，由代理调用生物、化学、医学类数据库完成查询、比对与分析，产出可复核的技能输出。
+  job_en: A research scientist, drug discovery researcher, or lab data engineer working inside a coding
+    agent (Cursor, Claude Code, Codex) that has this skill library installed hands a research question
+    (target, compound, literature lead) to the agent, which calls biology, chemistry, and medicine databases
+    to run queries, comparisons, and analyses and returns reviewable skill outputs.
+  pain: 公开材料只说明提供 165 个预置技能与 100+ 科学数据库，未给出用户抱怨、失败案例或频率数据；从工作流结构推断，痛点是科研人员需在多个异构数据库与工具间手工切换、自行拼装查询与格式，跨库检索与结果复核成本高，且通用编码代理缺少领域技能与数据库接入。
+  pain_en: Public materials only state that 165 ready-made skills and 100+ scientific databases are provided,
+    with no user complaints, failure cases, or frequency data; inferred from workflow structure, the pain
+    is that researchers must manually switch among heterogeneous databases and tools, hand-assemble queries
+    and formats, making cross-database retrieval and result verification costly, while generic coding
+    agents lack domain skills and database access.
+  current_alternative: 当前替代方式是科研人员直接在浏览器或命令行逐个访问 PubMed、ChEMBL、Pfam 等数据库，手工整理结果，或让未装领域技能的通用编码代理自行编写一次性脚本；公开材料未说明它具体替代了哪条既有流程。
+  current_alternative_en: Today researchers visit PubMed, ChEMBL, Pfam and other databases one by one
+    in a browser or CLI, manually consolidate results, or have a generic coding agent without domain skills
+    write one-off scripts; public materials do not state which existing workflow it replaces.
+  usage_reason: 推断：相较逐个数据库手工检索或让通用代理临时写脚本，该库把 165 个预置技能与 100+ 数据库接入打包成代理可直接调用的动作，用户只需在已装库的代理里提出研究问题，就省去自行寻找数据源、拼装查询与格式转换的步骤，因此需要跨库检索且希望结果可复核的科研人员会在已有编码代理中选用它；公开材料尚无用户反馈或客户案例证实这一动机。
+  usage_reason_en: 'Inference: compared with manually searching each database or having a generic agent
+    write ad-hoc scripts, the library packages 165 ready-made skills and 100+ database integrations into
+    actions the agent can call directly, so the user only states the research question inside an agent
+    with the library installed, skipping the steps of locating data sources, assembling queries, and converting
+    formats; researchers who need cross-database retrieval and reviewable results would ther'

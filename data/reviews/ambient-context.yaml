@@ -75,3 +75,56 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：程序员；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Programmer The exact adoption motive
     and repeat use are not yet verified.'
+- id: req-full-ambient-context-2026-09-12
+  project_slug: ambient-context
+  level: full
+  reviewed_at: '2026-09-12T00:43:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决程序员回溯屏幕工作上下文的需求：截屏记录不可搜索且含敏感图像，人工回忆成本高。公开材料显示其为菜单栏应用、把屏幕内容转为文本 Markdown，输入—动作—交付闭环清晰，痛点刚性来自上下文丢失的不可逆。此为工作流结构推理，尚无用户反馈或量化数据。
+    evidence_ids:
+    - ev-f679fa8b6f8b0e04
+    - ev-fbdd28475ed1c602
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 164→167 星的小幅增长，说明开发者注意到该项目，但无 issue、讨论或用户评价证明目标用户持续使用；关注度不等于采用共识，场景是否被真实触发仍缺证据。
+    evidence_ids:
+    - ev-fbdd28475ed1c602
+    - ev-68682abbdb9765e2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费版本或云服务，谁付钱（个人开发者订阅、团队采购还是开源捐赠）无法核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-fbdd28475ed1c602
+  - gate: truth
+    status: insufficient
+    reason: “不截屏、只转文本”的承诺能否确定性交付（OCR 准确率、敏感信息处理、跨应用覆盖范围）缺可复现的部署文档或实测证据，安全与人工边界也未公开说明。
+    evidence_ids:
+    - ev-f679fa8b6f8b0e04
+    - ev-fbdd28475ed1c602
+  next_validation: 追踪 ambient-context 官方仓库的 issue 与 discussion，以及 ambientcontext.app 是否上线定价页或客户案例，确认实际使用反馈、付费路径与文本转换的交付质量。
+  market: ''
+  job: 程序员在长时间编码、查阅文档与调试时，需要事后回溯“刚才在哪个文件、哪段代码、哪篇文档上做了什么”，以便恢复上下文、写提交说明或交接工作；ambient-context 以菜单栏应用形式持续把屏幕内容转成文本
+    Markdown 记录，供其检索回顾。
+  job_en: A programmer working across code, docs, and debugging sessions needs to reconstruct what they
+    were doing in which file or document, to resume context, write commit messages, or hand off work;
+    ambient-context runs as a menu bar app that continuously converts screen content into searchable Markdown
+    text records.
+  pain: 公开材料显示该工具定位为“不截屏、只把屏幕内容转成文本 Markdown 的屏幕记忆”，说明其针对的痛点是：截屏式记录不可搜索、占空间且含敏感图像，而人工回忆或翻找历史文件成本高、易丢失上下文。公开证据未给出频率或误工代价的量化数据，痛点强度属工作流结构推理。
+  pain_en: Public materials position it as screen memory that avoids screenshots and instead turns screen
+    content into text Markdown, implying the pain is that screenshot-based records are unsearchable, bulky,
+    and capture sensitive imagery, while manual recall or digging through files is costly and loses context.
+    Public evidence gives no quantified frequency or cost, so pain intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式包括：手动记笔记、依赖编辑器/IDE 的最近文件与撤销历史、翻查终端与浏览器历史、或使用截图工具与录屏软件事后回看。公开材料未说明用户具体如何替代，也未提供对比数据。
+  current_alternative_en: Current alternatives include manual notes, IDE recent-file and undo history,
+    terminal and browser history, or screenshot and screen-recording tools reviewed after the fact. Public
+    materials do not describe how users actually substitute today, nor provide comparison data.
+  usage_reason: 相较截图或录屏，ambient-context 通过“不截屏、把屏幕内容转成文本 Markdown”这一具体动作，省去事后逐张翻看图片、无法全文检索的那一步，并降低敏感图像留存风险；因此需要可搜索工作记录、又不想保存屏幕图像的开发者会在长时间编码或交接场景下选择它。此为基于产品能力与任务结构的推断，尚无用户反馈或留存证据支持。
+  usage_reason_en: Compared with screenshots or screen recording, ambient-context's specific action of
+    converting screen content into text Markdown without capturing images removes the step of reviewing
+    images one by one and enables full-text search, while reducing retention of sensitive imagery; developers
+    who want searchable work records without storing screen images would therefore choose it during long
+    coding or handoff sessions. This is an inference from product capability and task structu

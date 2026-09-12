@@ -1,0 +1,87 @@
+- id: req-initial-dsh-cloud-2026-09-12
+  project_slug: dsh-cloud
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多租户运行编码代理的隔离与配额问题，但资料未说明旧流程痛点与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-010f10374a6dce10
+  - gate: consensus
+    status: insufficient
+    reason: 约 63 星属于关注度信号，没有 issue、讨论或采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-010f10374a6dce10
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露托管定价或付费路径，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-010f10374a6dce10
+  - gate: truth
+    status: insufficient
+    reason: 无法核对多租户隔离与配额在真实团队中的交付结果，也未说明安全与人工边界。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-010f10374a6dce10
+  next_validation: 收集 dsh-cloud 仓库的 issue 与讨论，确认是否有团队实际部署并反馈隔离、配额与运维负担。
+  market: ''
+  job: 研发团队的基础设施或平台工程师要在公司内网部署 DeepSeek Harness，为多名成员分配隔离且可持久保存的工作区。
+  job_en: Infrastructure or platform engineers on a R&D team need to deploy DeepSeek Harness inside the
+    company network and give multiple members isolated, persistent workspaces.
+  pain: 候选资料只列出隔离容器、持久工作区和资源配额等功能，没有说明旧做法中哪一步最费人力或最容易出错，痛点无法确认。
+  pain_en: The material lists features such as isolated containers, persistent workspaces and quotas,
+    but does not say which step of the old approach costs the most labor or fails most often, so the pain
+    cannot be confirmed.
+  current_alternative: 现有替代方式可能是团队自行用容器与调度工具搭建，但候选资料未提供任何替代行为描述。
+  current_alternative_en: The current alternative may be teams assembling containers and scheduling tools
+    themselves, but the candidate material gives no description of actual alternative behavior.
+  usage_reason: 无法判断：资料未说明相较自建方案减少了哪一步运维负担，也没有用户反馈或案例支持，不能给出选择理由。
+  usage_reason_en: 'Cannot be judged: the material does not say which operational step it removes versus
+    self-building, and there is no user feedback or case support, so no reason to choose it can be given.'
+- id: req-full-dsh-cloud-2026-09-12
+  project_slug: dsh-cloud
+  level: full
+  reviewed_at: '2026-09-12T00:44:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多租户运行编码代理的隔离与配额问题，但资料未说明旧流程痛点与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-010f10374a6dce10
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 dsh-cloud 仓库的 issue 与讨论，确认是否有团队实际部署并反馈隔离、配额与运维负担。
+  market: ''
+  job: 研发团队的平台或基础设施工程师要在公司内网部署 DeepSeek Harness，为多名成员分配相互隔离、可持久保存且带资源配额的工作区，并维持这套环境日常可用。
+  job_en: Platform or infrastructure engineers on an R&D team need to deploy DeepSeek Harness inside the
+    company network, give multiple members isolated, persistent workspaces with resource quotas, and keep
+    that environment running day to day.
+  pain: 候选资料只列出隔离容器、持久工作区和资源配额等功能，没有说明旧做法中哪一步最费人力或最容易出错，痛点无法从公开材料确认。
+  pain_en: The material lists features such as isolated containers, persistent workspaces and quotas,
+    but does not say which step of the old approach costs the most labor or fails most often, so the pain
+    cannot be confirmed from public material.
+  current_alternative: 现有替代方式可能是团队自行用容器与调度工具搭建，但候选资料未提供任何替代行为描述。
+  current_alternative_en: The current alternative may be teams assembling containers and scheduling tools
+    themselves, but the candidate material gives no description of actual alternative behavior.
+  usage_reason: 无法判断：资料未说明相较自建方案减少了哪一步运维负担，也没有用户反馈或案例支持，不能给出选择理由。
+  usage_reason_en: 'Cannot be judged: the material does not say which operational step it removes versus
+    self-building, and there is no user feedback or case support, so no reason to choose it can be given.'

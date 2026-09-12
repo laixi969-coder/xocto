@@ -1,0 +1,92 @@
+- id: req-initial-kimi-maker-moonshot-ai-targets-2b-in-annual-revenue-2026-09-12
+  project_slug: kimi-maker-moonshot-ai-targets-2b-in-annual-revenue
+  level: initial
+  reviewed_at: '2026-09-12T00:19:09Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长文档与多轮任务超出人工阅读检索能力的问题，交付是可用的回答、摘要或代码，痛点刚性。
+    evidence_ids:
+    - ev-4f1735e735980f6d
+  - gate: consensus
+    status: supported
+    reason: 第三方路由平台显示 K3 模型每日生成约 3000 亿 token，说明存在持续的调用行为，但报道同时称近月使用量略有下滑。
+    evidence_ids:
+    - ev-4f1735e735980f6d
+  - gate: model
+    status: insufficient
+    reason: 20 亿美元年收入目标是公司目标而非已实现收入，面向消费者订阅还是开发者 API 计费的构成未在材料中说明。
+    evidence_ids:
+    - ev-4f1735e735980f6d
+  - gate: truth
+    status: insufficient
+    reason: 材料未给出回答准确率、人工复核方式或安全边界，无法核对交付的确定性。
+    evidence_ids:
+    - ev-4f1735e735980f6d
+  next_validation: 收集 Moonshot AI 官方定价页或 API 计费文档，核对收入目标对应的订阅与调用收费结构。
+  market: ''
+  job: 知识工作者和开发者在需要处理长文档问答、代码生成或内容撰写的情况下，把文本、文件或提示交给助手，要完成得到可用回答、摘要或代码的任务。
+  job_en: Knowledge workers and developers, when they need long-document Q&A, code generation or writing,
+    hand text, files or prompts to an assistant to obtain usable answers, summaries or code.
+  pain: 长文档与多轮任务超出人工阅读和检索的承受范围，通用搜索难以直接给出可用的整合结果。
+  pain_en: Long documents and multi-turn tasks exceed what manual reading and searching can bear, and
+    general search rarely returns directly usable synthesized results.
+  current_alternative: 人工阅读与检索，或使用其他通用对话助手与搜索入口。
+  current_alternative_en: Manual reading and searching, or using other general chat assistants and search
+    entry points.
+  usage_reason: 相较人工逐段阅读或通用搜索，它直接接收长文本与文件并输出整合后的回答与代码，减少的是检索与拼接这一步，因此需要处理长材料的用户会在写作、读论文或写代码时选择它；每日约 3000
+    亿 token 的调用量属规模证据，不能单独证明用户长期留存。
+  usage_reason_en: Compared with reading section by section or general search, it takes long text and
+    files directly and returns synthesized answers and code, reducing the retrieval and assembly step,
+    so users handling long material would choose it when writing, reading papers or coding; the roughly
+    300 billion daily tokens is scale evidence and cannot alone prove long-term retention.
+- id: req-full-kimi-maker-moonshot-ai-targets-2b-in-annual-revenue-2026-09-12
+  project_slug: kimi-maker-moonshot-ai-targets-2b-in-annual-revenue
+  level: full
+  reviewed_at: '2026-09-12T00:44:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长文档与多轮任务超出人工阅读检索能力的问题，交付是可用的回答、摘要或代码，痛点刚性；但公开材料未给出准确率与人工复核环节，交付确定性属结构推理。
+    evidence_ids:
+    - ev-433cb456a335c072
+    - ev-8561a19ec3601e8e
+  - gate: consensus
+    status: supported
+    reason: 第三方路由平台显示 K3 模型每日生成约 3000 亿 token，说明存在持续调用行为；但报道同时称近月使用量略有下滑，且该数据来自聚合平台而非产品自身留存指标。
+    evidence_ids:
+    - ev-433cb456a335c072
+  - gate: model
+    status: insufficient
+    reason: 20 亿美元年收入目标是公司目标而非已实现收入，面向消费者订阅还是开发者 API 计费的构成未在材料中说明，公开页面仅有使命陈述，无定价与付费路径证据。
+    evidence_ids:
+    - ev-433cb456a335c072
+    - ev-8561a19ec3601e8e
+  - gate: truth
+    status: insufficient
+    reason: 材料未给出回答准确率、人工复核方式或安全边界，无法核对交付的确定性；且证据中混入同名加密交易应用页面，产品身份边界本身需要澄清。
+    evidence_ids:
+    - ev-d71a1c444abee985
+    - ev-c4fb13ec45255fe4
+  next_validation: 收集 Moonshot AI 官方定价页或 API 计费文档，核对 20 亿美元收入目标对应的订阅与调用收费结构。
+  market: ''
+  job: 知识工作者和开发者在需要处理长文档问答、代码生成或内容撰写时，把长文本、文件或提示交给对话助手，要完成得到可用回答、摘要或代码的任务。
+  job_en: Knowledge workers and developers, when handling long-document Q&A, code generation or writing,
+    hand long text, files or prompts to a chat assistant to obtain usable answers, summaries or code.
+  pain: 长文档与多轮任务超出人工逐段阅读和检索的承受范围，通用搜索往往只给链接而不给整合结果，用户需要自己拼接。
+  pain_en: Long documents and multi-turn tasks exceed what manual section-by-section reading and searching
+    can bear, and general search returns links rather than synthesized results, leaving users to assemble
+    them.
+  current_alternative: 人工阅读与检索，或使用其他通用对话助手与搜索入口（如 ChatGPT、Gemini 等）。
+  current_alternative_en: Manual reading and searching, or other general chat assistants and search entry
+    points such as ChatGPT and Gemini.
+  usage_reason: 推断：相较人工逐段阅读或通用搜索，它直接接收长文本与文件并输出整合后的回答与代码，减少的是检索与拼接这一步，因此需要处理长材料的用户会在写作、读论文或写代码时选择它；每日约
+    3000 亿 token 属规模证据，不能单独证明长期留存。
+  usage_reason_en: 'Inference: compared with reading section by section or general search, it takes long
+    text and files directly and returns synthesized answers and code, cutting the retrieval-and-assembly
+    step, so users handling long material would choose it when writing, reading papers or coding; the
+    roughly 300 billion daily tokens is scale evidence and cannot alone prove long-term retention.'

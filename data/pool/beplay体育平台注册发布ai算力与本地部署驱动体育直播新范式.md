@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBBcmR2S3JrMzdv
 summary: beplay体育平台注册发布：AI算力与本地部署驱动体育直播新范式 体坛
 first_seen: '2026-09-05T11:03:33Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -291,3 +291,55 @@
   usage_reason: 用户要完成的任务是：高校学生、科研人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: University Students, Researchers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-cumcm-live-workflow-skill-2026-09-12
+  project_slug: cumcm-live-workflow-skill
+  level: full
+  reviewed_at: '2026-09-12T00:44:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 CUMCM 参赛队在赛题解析到论文提交间的流程失控与合规失分痛点：题意误读、数值不严谨、AI 痕迹、提交漏项均直接扣分且赛末不可逆；公开仓库已把读题红线、数值守则、去 AIGC
+      清单与 26 条终审固化为可执行清单，属工作流结构推理，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-cff998d203a0b7dd
+    - ev-f2ccc6d86626834e
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 50 持续升至 155，说明目标人群在持续关注并把它纳入赛前准备；但尚无评价或案例说明实际使用深度，故共识成立而采用强度仍属初步。
+    evidence_ids:
+    - ev-cff998d203a0b7dd
+    - ev-f55b29359667a1f9
+    - ev-f2ccc6d86626834e
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，未见定价页、赞助、课程或服务收费记录，谁付钱、按什么单位收费均未核验；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-cff998d203a0b7dd
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明列出检查项与合规框架，但未见可复现的实测记录、issue 反馈或提交结果，交付能否稳定发生、人工与 AI 边界如何划分仍缺公开证据。
+    evidence_ids:
+    - ev-cff998d203a0b7dd
+    - ev-4c2c56279a80ffc3
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 release 记录，确认是否有参赛者报告实际使用场景、替代的旧流程及提交结果。
+  market: ''
+  job: 高校数模参赛队在 CUMCM 三天赛程内，处理赛题、建模草稿、图表与 LaTeX 论文，要在截止前完成题意理解、数值校验、论文排版、AI 合规自查与打包提交。
+  job_en: University mathematical-modeling teams during the three-day CUMCM contest process the problem
+    statement, modeling drafts, figures and LaTeX paper, and must finish problem interpretation, numerical
+    checks, paper formatting, AI-compliance self-check and packaging before the deadline.
+  pain: 公开仓库说明覆盖题意理解红线、数值严谨性守则、去 AIGC 特征清单与 26 条终审自查，指向赛题误读、数值不严谨、论文被判定 AI 痕迹、提交前漏项等真实失分风险；这些环节在赛程末段集中且不可逆。
+  pain_en: 'The public repository description covers problem-interpretation red lines, numerical rigor
+    rules, an AIGC-trace removal checklist and a 26-item final self-check, pointing to real scoring risks:
+    misreading the problem, numerical sloppiness, papers flagged for AI traces, and missed items before
+    submission, all concentrated and irreversible at the end of the contest.'
+  current_alternative: 参赛队通常靠往届优秀论文、学长经验、队内口头分工和通用 LaTeX 模板自行拼流程，缺少把读题、建模、排版、合规自查串成一条可核对清单的现成工具。
+  current_alternative_en: Teams typically rely on past award-winning papers, senior students' experience,
+    verbal in-team division of labor and generic LaTeX templates, with no ready-made tool that chains
+    problem reading, modeling, formatting and compliance self-check into one checkable list.
+  usage_reason: 推断：相较自行拼凑模板与经验，该技能包把读题自查、数值守则、去 AIGC 清单和 26 条终审固化为按顺序执行的检查项，减少赛末逐条回想与返工，因此时间紧、缺流程管理经验的参赛队会在赛前或赛中采用它。
+  usage_reason_en: 'Inference: compared with self-assembled templates and experience, this skill pack
+    fixes problem self-check, numerical rules, the AIGC-removal checklist and the 26-item final review
+    into ordered check items, reducing end-of-contest recall and rework, so time-pressed teams lacking
+    process-management experience would adopt it before or during the contest.'

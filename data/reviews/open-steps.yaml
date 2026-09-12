@@ -363,3 +363,54 @@
   usage_reason: 用户要完成的任务是：开发者、技术负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers, Technical Leads Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-open-steps-2026-09-12
+  project_slug: open-steps
+  level: full
+  reviewed_at: '2026-09-12T00:45:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理输出难读、结论难核实的问题：用户拿到长 diff 与自信总结，需自行分辨真实改动，不解决则未核实结论直接进代码库。公开说明已能还原输入（代理输出）、动作（转成通俗报告与步骤）与交付（可读结论），属工作流结构推理；仓库收藏从
+      258 增至 371 显示持续关注，但无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-241cf85a1084719a
+    - ev-2ef8b3895cb2bd71
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库收藏数从 258 升至 371 的单调增长，属关注度而非持续采用；没有 issue、discussion、用户评价或客户案例说明谁在什么场景反复使用，也未说明卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-241cf85a1084719a
+    - ev-2ef8b3895cb2bd71
+  - gate: model
+    status: insufficient
+    reason: 项目以 MIT 协议开源，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者捐赠、to B 团队支持或 to VC 融资，均属判断而非已验证事实；开源许可本身不构成收入路径。
+    evidence_ids:
+    - ev-241cf85a1084719a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有部署文档、可复现实测或交付结果样例，无法核对“诚实报告、直接结论”是否稳定发生，也未说明人工复核与安全边界；承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-241cf85a1084719a
+    - ev-2ef8b3895cb2bd71
+  next_validation: 追踪 open-steps 仓库的 issue 与 discussion，确认是否有开发者描述具体使用场景、替代了原有哪一步人工读 diff 流程，以及是否出现付费或团队采用线索。
+  market: ''
+  job: 开发者在用编码代理（如 Claude Code、Cursor 类工具）跑完一次改动后，需要把代理输出的 diff、日志和结论转成自己能快速判断的说明，再决定是否合并、回滚或继续追问；技术负责人则在评审他人提交的代理产出时，需要一份不含术语堆砌、能直接读懂的变更说明。
+  job_en: After a coding agent finishes a change, developers must turn the agent's diff, logs and conclusions
+    into a description they can quickly judge before merging, reverting or following up; tech leads reviewing
+    agent-produced changes need a jargon-free change summary they can read directly.
+  pain: 编码代理的输出通常是长 diff、工具调用日志和自信但未必可靠的结论，人要在其中自行分辨哪些改动真实发生、哪些只是代理声称完成，判断成本高且容易漏掉风险；不解决的后果是把未经核实的代理结论直接带进代码库。
+  pain_en: Coding-agent output is long diffs, tool-call logs and confident but not necessarily reliable
+    conclusions; the human must work out what actually changed versus what the agent merely claimed, which
+    is costly and easy to get wrong. Leaving it unsolved means unverified agent claims flow straight into
+    the codebase.
+  current_alternative: 当前替代方式是人工逐行读 diff、翻代理会话记录、自己写提交说明或评审意见，或干脆信任代理的总结直接合并。
+  current_alternative_en: Today people read diffs line by line, scroll back through agent session logs,
+    write their own commit or review notes, or simply trust the agent's summary and merge.
+  usage_reason: 推断：相较人工读 diff 和会话日志，open-steps 以技能形式把代理产出直接转成通俗报告、明确结论和可执行步骤，省掉的是“先翻译代理输出再判断”这一步，因此正在用编码代理、又需要向自己或他人交代改动内容的开发者会选它；但公开材料未提供用户反馈或留存证据，此因果为结构推断。
+  usage_reason_en: 'Inference: versus reading diffs and session logs by hand, open-steps turns agent output
+    into plain reports, straight verdicts and followable steps, removing the ''translate the agent output
+    before judging'' step, so developers already running coding agents who must account for changes to
+    themselves or others would pick it. No public user feedback or retention evidence exists, so this
+    causal claim is structural inference.'

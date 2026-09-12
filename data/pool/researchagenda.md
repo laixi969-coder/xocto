@@ -21,7 +21,7 @@ canonical_url: https://researchagenda.news/articles/the-waymo-effect.html
 summary: 'The Waymo effect: how AI is quietly making research less collaborative'
 first_seen: '2026-09-11T11:17:50Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

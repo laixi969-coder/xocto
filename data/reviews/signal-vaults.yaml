@@ -180,3 +180,61 @@
   usage_reason: 用户要完成的任务是：知识工作者、研究人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Knowledge workers, Researchers Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-signal-vaults-2026-09-12
+  project_slug: signal-vaults
+  level: full
+  reviewed_at: '2026-09-12T00:46:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是微信群与公众号材料读完即弃、无法检索也无法被代理复用的问题，痛点在于内容按时间流滚动、人工摘录成本高；不处理的后果是知识沉底、需要时找不到。公开仓库说明已给出输入（群聊/公众号）、动作（AI
+      摘要）与交付（代理可用的结构化产物），据此可作工作流结构推理判定需求成立，但尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-9e1acac7e5593e70
+    - ev-d9e9f868347aa414
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 47 缓慢升至 68 后停滞，说明有开发者注意到它，但收藏与关注只属规模信号，不能证明目标用户已把它留在日常工作流；公开材料中没有 issue、discussion
+      或使用评价说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-9e1acac7e5593e70
+    - ev-06e4b1636a21206f
+    - ev-f680bebb9b2ef2a3
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未披露定价、付费主体或任何采购记录，to C 自用、to B 团队部署还是纯捐赠维护均无法确认；按判断而非已验证事实，最可能的路径是个人开发者免费自用，商业闭环尚未出现。
+    evidence_ids:
+    - ev-9e1acac7e5593e70
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出跨平台与代理兼容的说明，没有部署文档、可复现实测或交付结果样本，无法核对摘要质量、微信数据获取方式是否合规，以及人工校对与安全边界如何划定，交付确定性尚未验证。
+    evidence_ids:
+    - ev-d9e9f868347aa414
+    - ev-cecf90c3373e19b8
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现真实部署记录、微信数据导入方式说明与摘要产物样例，以核对交付是否可复现。
+  market: ''
+  job: 知识工作者或研究人员在微信群和公众号里长期积累了大量零散讨论与文章，需要把这些非结构化中文材料导入本地工具，由 AI 生成结构化摘要，再交给 Codex 或 Claude Code 等代理继续检索、引用和加工，形成可复用的知识库。
+  job_en: Knowledge workers or researchers who have accumulated scattered WeChat group discussions and
+    official-account articles need to import this unstructured Chinese material into a local tool, have
+    AI produce structured digests, and hand them to agents such as Codex or Claude Code for further retrieval,
+    citation and processing as a reusable knowledge base.
+  pain: 微信群聊与公众号文章是中文场景里信息密度高但极难沉淀的载体：内容按时间流滚动、无法全文检索、转发与收藏后很快沉底，人工逐条摘录成本高且容易漏掉关键结论；不处理的直接后果是这些材料读完即弃，需要时找不到，也无法被代理工具复用。
+  pain_en: 'WeChat group chats and official-account articles are high-density but hard-to-retain Chinese
+    sources: content scrolls in time order, is not full-text searchable, and quickly sinks after forwarding
+    or bookmarking, so manual note-taking is costly and misses key conclusions; the consequence is that
+    material is consumed and lost, unfindable later, and unusable by agent tooling.'
+  current_alternative: 当前替代方式主要是人工复制粘贴到笔记软件、用微信自带收藏与搜索、或把文章链接丢进通用 AI 对话里临时总结；这些做法要么不覆盖群聊记录，要么摘要无法沉淀为可被
+    Codex/Claude Code 调用的结构化文件。
+  current_alternative_en: Current alternatives are mainly manual copy-paste into note apps, WeChat's built-in
+    favorites and search, or pasting article links into a general AI chat for ad-hoc summarization; these
+    either do not cover group-chat records or fail to persist digests as structured files callable by
+    Codex/Claude Code.
+  usage_reason: 推断：相较人工摘录或通用 AI 临时总结，该工具把导入、摘要、结构化落盘串成一条本地流水线，用户不必再逐条复制和手工整理格式，产物可直接被代理读取，因此经常处理微信群与公众号材料、且已在用
+    Codex/Claude Code 的中文知识工作者会在需要把零散讨论转成可检索知识库时选择它。
+  usage_reason_en: 'Inference: compared with manual excerpting or ad-hoc general-AI summarization, the
+    tool chains import, summarization and structured local output into one pipeline, so users no longer
+    copy items one by one or hand-format notes, and the artifacts are directly readable by agents; therefore
+    Chinese knowledge workers who routinely handle WeChat group and official-account material and already
+    use Codex/Claude Code would choose it when converting scattered discussion into a searchab'

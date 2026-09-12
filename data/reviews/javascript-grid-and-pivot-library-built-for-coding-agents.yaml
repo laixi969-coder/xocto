@@ -78,3 +78,42 @@
   usage_reason: 用户要完成的任务是：前端开发者、数据分析师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Front-end developers, Data analysts Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-javascript-grid-and-pivot-library-built-for-coding-agents-2026-09-12
+  project_slug: javascript-grid-and-pivot-library-built-for-coding-agents
+  level: full
+  reviewed_at: '2026-09-12T00:44:52Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅有作者自述，未说明现有表格库在 agent 生成场景下的具体痛点、频率或不解决的后果，也说不清用户当前如何完成该任务，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-cd9387ee90d5dcf3
+    - ev-8936be432a3d9b94
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该库的公开仓库 README、issue 与 discussion，确认其是否说明现有表格库在 agent 生成场景下的具体失败案例与用户替代流程。
+  market: ''
+  job: 前端开发者或数据分析师在需要展示表格与透视表时，让编码 agent 调用该库提供的原语，按规格生成网格界面。
+  job_en: Front-end developers or data analysts, when they need to display tables and pivot tables, have
+    a coding agent call the library's primitives to generate a grid UI to spec.
+  pain: 公开材料只有作者自述，未说明现有表格库在 agent 生成场景下具体哪里难受、发生频率或不解决的后果。
+  pain_en: Public material contains only the author's self-description; it does not state where existing
+    grid libraries hurt in agent-generation scenarios, how often, or the consequence of leaving it unsolved.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了什么。
+  current_alternative_en: Public material does not show how users complete this job today or what this
+    product actually replaces.
+  usage_reason: 缺少用户反馈或客户案例，无法说明相较旧做法减少了哪一步负担，因此无法解释用户为何选择它。
+  usage_reason_en: With no user feedback or customer case, it is impossible to say which step of the old
+    workflow it removes, so there is no explanation of why users would choose it.

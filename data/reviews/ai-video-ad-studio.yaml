@@ -78,3 +78,44 @@
   usage_reason: 用户要完成的任务是：广告投放素材制作、短视频剪辑；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Ad creative production, Short-video editing Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-ai-video-ad-studio-2026-09-12
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-09-12T00:43:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图服务视频广告素材制作，但公开材料只有仓库名与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，也写不出用户痛点与不解决的后果，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-c644718256779914
+    - ev-b3156df8785ddefa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 AI 的输入素材、执行步骤与交付文件，以及是否有用户描述替代了哪条旧流程。
+  market: ''
+  job: 营销或内容人员在需要为投放准备视频广告素材时，打开该仓库，把原始素材交给 AI 处理，产出可投放的成片或素材文件。
+  job_en: A marketer or content operator preparing video ad creatives for a campaign opens this repository,
+    feeds raw material to the AI, and expects a deliverable cut or asset file ready for placement.
+  pain: 公开材料只给出仓库名与收藏数，没有说明 AI 接收什么素材、执行哪一步、交付什么文件，也没有用户抱怨、旧流程摩擦或返工代价的记录，因此无法确认痛点是否存在及其强度。
+  pain_en: Public material offers only the repository name and star counts; it does not state what input
+    the AI takes, which step it performs, or what file it delivers, and there is no record of user complaints,
+    legacy-workflow friction, or rework cost, so the pain's existence and intensity cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成视频广告素材制作，也未说明该仓库替代了剪辑软件、外包团队还是模板工具中的哪一环。
+  current_alternative_en: Public material does not show how users currently produce video ad creatives,
+    nor which step this repository replaces among editing software, outsourced teams, or template tools.
+  usage_reason: 缺少可引用的用户反馈或客户案例，无法说明相较旧做法它减少了哪一步负担或改善了哪项可核对结果；仅凭仓库名与收藏数不能推断用户选择它的原因。
+  usage_reason_en: With no citable user feedback or customer case, there is no way to say which step it
+    removes or which checkable result it improves versus the old approach; the repository name and star
+    counts alone cannot explain why users would choose it.

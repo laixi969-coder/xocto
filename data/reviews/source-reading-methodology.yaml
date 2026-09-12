@@ -374,3 +374,50 @@
   usage_reason: 公开代码仓库有 126 个收藏、11 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 126 stars and 11 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-source-reading-methodology-2026-09-12
+  project_slug: source-reading-methodology
+  level: full
+  reviewed_at: '2026-09-12T00:46:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者精读大型开源仓库时结论不可回溯的痛点，通过四阶段流程和模板强制每个技术论断标注源码行，交付可核对的源码定位；这是工作流结构推理，公开材料未提供用户访谈。
+    evidence_ids:
+    - ev-39bc7c1a92de4e5a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 129 缓慢增至 136，说明有开发者关注，但无 issue、讨论或客户案例证明目标用户持续使用或付费。
+    evidence_ids:
+    - ev-39bc7c1a92de4e5a
+    - ev-4d3f9d4a65efbb46
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购方式；买方可能是个人开发者或企业团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-39bc7c1a92de4e5a
+  - gate: truth
+    status: insufficient
+    reason: 无精度、人工复核边界或实测结果，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-39bc7c1a92de4e5a
+  next_validation: 追踪该项目的公开文档、issue 和 discussion，确认是否有开发者报告在具体仓库中按该方法论完成精读并核对源码行。
+  market: ''
+  job: 程序员或技术负责人在接手大型开源仓库时，需要处理海量源码与文档，快速建立对架构和关键实现的可核对理解，以便做技术选型、二次开发或代码审查。
+  job_en: A programmer or tech lead taking over a large open-source repository needs to process massive
+    source code and documentation to build a verifiable understanding of architecture and key implementations,
+    for technology selection, secondary development, or code review.
+  pain: 大型仓库代码量大、结构复杂，人工通读耗时且容易遗漏关键逻辑；AI 辅助阅读又常给出无法回溯到源码行的笼统结论，导致技术判断不可靠。
+  pain_en: Large repositories are voluminous and complex; manual reading is time-consuming and misses
+    key logic, while AI-assisted reading often produces vague conclusions that cannot be traced back to
+    specific source lines, making technical judgments unreliable.
+  current_alternative: 现有做法是人工逐文件阅读、依赖 README 和文档、或在 IDE 中搜索关键词，AI 工具则直接提问但结论难以核对。
+  current_alternative_en: Current practice is manually reading files one by one, relying on README and
+    docs, or searching keywords in the IDE; AI tools are queried directly but conclusions are hard to
+    verify.
+  usage_reason: 推断：相较人工通读或直接问 AI，该方法论通过四阶段流程和模板强制每个技术论断标注源码行，把“读代码”变成可核对的定位任务，因此接手陌生大型仓库、需要给出可靠技术结论的开发者会在评估或改造前采用它。
+  usage_reason_en: 'Inference: compared to manual reading or directly asking AI, this methodology uses
+    a four-stage process and templates to force every technical claim to cite specific source lines, turning
+    ''reading code'' into a verifiable locating task, so developers taking over unfamiliar large repositories
+    and needing reliable technical conclusions would adopt it before evaluation or modification.'

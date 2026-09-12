@@ -194,3 +194,56 @@
   usage_reason: 开源项目获得 137 星，说明安全社区对 AI 辅助渗透测试有初步兴趣，但尚未核验实际采用和付费情况。
   usage_reason_en: The open-source project has 137 stars, indicating initial interest from the security
     community in AI-assisted penetration testing, but actual adoption and payment are not yet verified.
+- id: req-full-claude-ad-2026-09-12
+  project_slug: claude-ad
+  level: full
+  reviewed_at: '2026-09-12T00:43:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权 AD 评估中手法繁多、命令拼接与 OPSEC 记录易漏的痛点，旧做法是手工跑工具或自写脚本。工作流结构推理：输入域内材料、动作驱动既有工具、交付可复用攻击流程，痛点刚性且交付可确定；仓库星标从
+      168 升至 196 属关注度，非采用证据。
+    evidence_ids:
+    - ev-5832916121886686
+    - ev-8959b0524b9bc855
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库星标从 168 增至 196 的关注度变化，缺少 issue、discussion、用户评价或客户案例，无法确认红队是否已把它留在实际工作流中。
+    evidence_ids:
+    - ev-5832916121886686
+    - ev-69b294bdf6230a3c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或商业模式，钱可能来自安全服务公司内部工具化、红队个人订阅或开源赞助，属判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-5832916121886686
+  - gate: truth
+    status: supported
+    reason: 产品贴近 AD 渗透测试第一性目标，把手法与 OPSEC/遥测提示绑定，交付可复现；但攻击能力双用途，授权边界与人工复核责任需在部署文档中明确，公开材料尚未展示该边界。
+    evidence_ids:
+    - ev-5832916121886686
+    - ev-0bf367cade50ec64
+  next_validation: 追踪该开源仓库的 issue、discussion 与 release 说明，确认是否有安全团队公开报告在授权 AD 评估中实际使用及 OPSEC 边界约定。
+  market: ''
+  job: 红队工程师或渗透测试员在授权内部 Active Directory 评估中，面对域内主机、凭据与证书服务等材料，需要按 Kerberoasting、ADCS ESC1-17、DCSync、ACL
+    滥用、NTLM 中继、委派等手法完成攻击链并记录 OPSEC 与遥测影响。
+  job_en: Red team engineers or penetration testers, during authorized internal Active Directory assessments,
+    work with domain hosts, credentials and certificate services to execute attack chains such as Kerberoasting,
+    ADCS ESC1-17, DCSync, ACL abuse, NTLM relay and delegation, while documenting OPSEC and telemetry
+    impact.
+  pain: AD 攻击手法繁多且版本相关，工程师需在 netexec、impacket、certipy、bloodyAD、BloodHound CE 之间手工拼接命令，容易漏掉 OPSEC 与遥测注意事项，重复劳动多且对经验依赖高。
+  pain_en: AD attack techniques are numerous and version-dependent; engineers must manually stitch commands
+    across netexec, impacket, certipy, bloodyAD and BloodHound CE, easily missing OPSEC and telemetry
+    notes, with heavy repetition and high reliance on experience.
+  current_alternative: 当前替代是手工执行工具命令、自写脚本，或查阅博客与内部 wiki 中的零散手法笔记，缺少与 Claude Code 集成的可复用技能与斜杠命令流程。
+  current_alternative_en: Current alternatives are manually running tool commands, writing custom scripts,
+    or consulting scattered blog and internal wiki notes, lacking reusable skills and slash-command flows
+    integrated with Claude Code.
+  usage_reason: 推断：相较手工拼接命令，它把每种 AD 手法封装为 Claude Code 技能、代理与斜杠命令，直接驱动既有工具并附带 OPSEC/遥测提示，减少查文档与拼命令的步骤，因此常做内部
+    AD 评估、已在用 Claude Code 的红队工程师会在授权测试中选择它。
+  usage_reason_en: 'Inference: compared with manually stitching commands, it packages each AD technique
+    as Claude Code skills, agents and slash commands that drive existing tools with OPSEC/telemetry notes,
+    cutting documentation lookup and command assembly, so red team engineers already using Claude Code
+    for authorized internal AD assessments would choose it.'

@@ -1,0 +1,86 @@
+- id: req-initial-claudestatsbar-2026-09-12
+  project_slug: claudestatsbar
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中用量不可见的问题，痛点与上下文上限和成本直接相关；但公开材料只有一句描述，统计口径未核验。
+    evidence_ids:
+    - ev-31c00d87a55fd0e1
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量有限，没有采用规模或持续使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-31c00d87a55fd0e1
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是个人开发者或团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-31c00d87a55fd0e1
+  - gate: truth
+    status: insufficient
+    reason: 统计是否准确、是否只覆盖单一助手、是否读取本地数据，公开材料均未说明。
+    evidence_ids:
+    - ev-31c00d87a55fd0e1
+  next_validation: 查看该仓库的 README 与 issue，确认它统计哪些指标、支持哪些编码助手以及是否有付费或团队版本。
+  market: ''
+  job: 开发者在使用编码助手做长任务时，需要知道当前会话已经积累了多少上下文和用量，材料是会话本身的统计信息。
+  job_en: While running long tasks with a coding assistant, a developer needs to know how much context
+    and usage the current session has accumulated, working from the session's own statistics.
+  pain: 会话越深越容易触发上下文上限或成本上升，而界面不提示，用户往往在出问题后才发现。
+  pain_en: The deeper the session, the closer it gets to context limits or rising cost, yet nothing in
+    the interface warns the user until something breaks.
+  current_alternative: 旧做法是凭感觉判断会话是否过长，或事后去账单和日志里核对用量。
+  current_alternative_en: The old way is guessing whether a session has run too long, or checking billing
+    and logs after the fact.
+  usage_reason: 推断：相较事后查账单，它把会话深度和用量直接显示在状态栏，省掉主动查询这一步，因此长时间跑编码助手、需要控制上下文和成本的开发者会在会话中途选择它。
+  usage_reason_en: 'Inference: versus checking billing afterwards, it shows session depth and usage directly
+    in the status bar, removing the step of actively looking it up, so developers running long assistant
+    sessions pick it mid-task to control context and cost.'
+- id: req-full-claudestatsbar-2026-09-12
+  project_slug: claudestatsbar
+  level: full
+  reviewed_at: '2026-09-12T00:43:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文与用量不可见的问题，痛点与上下文上限和成本直接相关，不解决的后果是报错或超支；公开材料仅一句描述，统计口径未核验，属工作流结构推理。
+    evidence_ids:
+    - ev-31c00d87a55fd0e1
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有项目自述一句，没有社区讨论、采用规模或持续使用证据，无法判断是否形成共识或强场景。
+    evidence_ids:
+    - ev-31c00d87a55fd0e1
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是个人开发者或团队，这是判断而非已验证事实，尚无付费路径证据。
+    evidence_ids:
+    - ev-31c00d87a55fd0e1
+  - gate: truth
+    status: insufficient
+    reason: 统计是否准确、是否只覆盖单一助手、是否读取本地数据，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-31c00d87a55fd0e1
+  next_validation: 追踪该仓库 README 与 issue，确认它统计哪些指标、支持哪些编码助手、是否读取本地数据以及是否有付费或团队版本。
+  market: ''
+  job: 开发者在使用编码助手跑长任务时，需要随时知道当前会话已积累多少上下文与用量，处理材料是会话自身的统计信息，要完成的任务是在会话中途判断是否接近上限或成本过高。
+  job_en: While running long tasks with a coding assistant, a developer needs to know how much context
+    and usage the current session has accumulated, working from the session's own statistics, to judge
+    mid-session whether limits or cost are near.
+  pain: 会话越深越接近上下文上限或成本上升，而助手界面不提示，用户往往在报错或账单出来后才察觉，长会话中这种不可见性反复出现。
+  pain_en: The deeper the session, the closer it gets to context limits or rising cost, yet the assistant
+    interface gives no warning, so users only notice after an error or a bill arrives; this invisibility
+    recurs in every long session.
+  current_alternative: 旧做法是凭感觉判断会话是否过长，或事后去账单、日志里核对用量，无法在会话中途获得读数。
+  current_alternative_en: The old way is guessing whether a session has run too long, or checking billing
+    and logs after the fact, with no mid-session reading available.
+  usage_reason: 推断：相较事后查账单或凭感觉，它把会话深度与用量直接放进状态栏，省掉主动查询这一步，因此长时间跑编码助手、需要控制上下文与成本的开发者会在会话中途选择它。
+  usage_reason_en: 'Inference: versus checking billing afterwards or guessing, it puts session depth and
+    usage directly in the status bar, removing the step of actively looking it up, so developers running
+    long assistant sessions pick it mid-task to control context and cost.'

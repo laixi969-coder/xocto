@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Pc2FkbWpObnVh
 summary: 太阳城申博首页 边缘AI计算平台：重新定义智能落地的技术样本 体坛加
 first_seen: '2026-09-10T23:35:46Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

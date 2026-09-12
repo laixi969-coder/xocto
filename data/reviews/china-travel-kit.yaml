@@ -109,3 +109,55 @@
   usage_reason: 项目提供了一种便捷的数据访问方式，可能吸引需要此类数据的开发者。
   usage_reason_en: The project offers convenient data access, potentially attracting developers needing
     such data.
+- id: req-full-china-travel-kit-2026-09-12
+  project_slug: china-travel-kit
+  level: full
+  reviewed_at: '2026-09-12T00:43:46Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决入境中国旅游数据分散、格式不一、难溯源的问题：开发者要接入签证交通景点信息时，手动抓取清洗成本高，LLM 直答易出错。工具包以 CLI/HTTP/MCP 输出带来源数据，交付边界清晰，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-dedee2ec240c4e8b
+    - ev-9623c5cc2991360a
+  - gate: consensus
+    status: supported
+    reason: 仓库星数从 131 持续升至 185，说明有开发者持续关注并收藏该工具；但公开材料未见 issue、讨论或下游集成案例，尚不能证明已被长期嵌入工作流，故为关注度层面的共识而非采用共识。
+    evidence_ids:
+    - ev-dedee2ec240c4e8b
+    - ev-ae7fa1522b4039d7
+    - ev-9623c5cc2991360a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页、无付费或赞助记录，谁付钱无法从公开材料确认；可能路径是 to C 开发者免费使用、to B 旅游或 AI 公司采购数据服务，或 to VC 叙事，均属判断而非已验证事实。
+    evidence_ids:
+    - ev-dedee2ec240c4e8b
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺“source-aware”数据，但公开材料未展示数据来源清单、更新频率与准确性校验方式，无法确认签证、交通等高风险信息能否确定性交付，也未见人工复核边界说明。
+    evidence_ids:
+    - ev-dedee2ec240c4e8b
+    - ev-556a176666312dbe
+  next_validation: 追踪该仓库 README 与 docs 中的数据来源清单、更新机制说明，以及 公开代码仓库 issues/discussions 中是否出现下游集成或数据纠错反馈。
+  market: ''
+  job: 开发入境中国旅游应用或 AI 行程助手的开发者，在需要把签证、交通、景点、支付等中国旅行信息接入自己的 CLI、HTTP 服务或 MCP 客户端时，处理结构化旅游数据，完成可溯源的数据查询与行程生成。
+  job_en: Developers building China inbound travel apps or AI itinerary assistants need to plug visa,
+    transport, attraction and payment information into their own CLI, HTTP service or MCP client, working
+    with structured travel data to deliver source-traceable queries and itinerary generation.
+  pain: 中国入境旅游信息分散在多个官方与第三方来源，格式不统一、更新频繁，开发者自行抓取和清洗成本高，且难以向用户说明数据出处；LLM 直接生成又容易给出过时或错误的签证、交通信息。
+  pain_en: China inbound travel information is scattered across official and third-party sources with
+    inconsistent formats and frequent updates; scraping and cleaning it is costly, provenance is hard
+    to show users, and raw LLM output often gives outdated or wrong visa and transport details.
+  current_alternative: 开发者手动抓取网页、拼凑公开统计，或直接依赖通用大模型生成行程；旅行者则使用通用攻略网站和搜索引擎自行整理。
+  current_alternative_en: Developers manually scrape pages, stitch together public statistics, or rely
+    on general LLMs to generate itineraries; travelers use generic guide sites and search engines to assemble
+    plans themselves.
+  usage_reason: 推断：相较手动抓取或纯 LLM 生成，该工具包以 CLI、HTTP API 和 MCP 三种接口直接输出带来源标注的中国入境旅游数据，开发者可省去自建抓取与清洗管线，并在
+    MCP 场景下让 AI 助手调用可溯源数据而非凭记忆作答，因此面向做中国入境游产品的开发者与 AI 工具集成者。
+  usage_reason_en: 'Inference: versus manual scraping or pure LLM generation, the kit exposes source-aware
+    China inbound travel data through CLI, HTTP API and MCP, letting developers skip building their own
+    scraping and cleaning pipeline and letting AI assistants in MCP setups call traceable data instead
+    of answering from memory, so it appeals to developers building China inbound travel products and AI
+    tool integrators.'

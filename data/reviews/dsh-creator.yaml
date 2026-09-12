@@ -80,3 +80,43 @@
   usage_reason: 用户要完成的任务是：内容创作者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: content creator Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-dsh-creator-2026-09-12
+  project_slug: dsh-creator
+  level: full
+  reviewed_at: '2026-09-12T00:44:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决内容创作者本地生成草稿与运营文案的需求，但公开材料只有仓库定位与收藏数，未说明具体痛点、发生频率、不采用代价与当前替代方式，连需求与痛点都还原不出。
+    evidence_ids:
+    - ev-6bd6b4e2ca27be02
+    - ev-963dfd12f9c0039f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 DSH-Creator 仓库的 README、issue 与 discussion，确认它声明的输入格式、交付形态与创作者实际使用场景。
+  market: ''
+  job: 内容创作者在本地打开 DSH-Creator，把选题、文案与运营素材交给它，由 DeepSeek 模型生成可用的内容草稿与运营文案，创作者确认后再发布。
+  job_en: A content creator opens DSH-Creator locally, feeds in topic ideas, copy and operations material,
+    has a DeepSeek model produce usable drafts and operations copy, then confirms and publishes.
+  pain: 公开材料只给出产品定位与仓库收藏数，未说明创作者在选题、写稿或运营文案环节具体卡在哪一步、发生频率多高、不解决会损失什么。
+  pain_en: Public material only gives the product positioning and repository star counts; it does not
+    say which step of topic selection, drafting or operations copy actually blocks creators, how often,
+    or what is lost if unsolved.
+  current_alternative: 公开材料未说明创作者目前用什么方式完成这些工作，也未说明它替代了通用聊天模型、写作工具还是人工流程。
+  current_alternative_en: Public material does not show how creators currently complete this work, nor
+    whether it replaces general chat models, writing tools or manual workflows.
+  usage_reason: 缺少输入格式、交付形态与使用反馈，无法说明相较旧做法减少了哪一步负担，因此无法给出用户选择它的因果解释。
+  usage_reason_en: With no input format, delivery form or usage feedback, there is no way to say which
+    step of the old workflow it removes, so no causal reason for choosing it can be given.

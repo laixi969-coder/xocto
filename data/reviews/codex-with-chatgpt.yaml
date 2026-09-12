@@ -196,3 +196,52 @@
   usage_reason: 项目提供了一种组合方案，可能吸引希望提升 AI 编程效果的开发者。
   usage_reason_en: The project offers a combination approach, potentially attracting developers seeking
     to improve AI coding.
+- id: req-full-codex-with-chatgpt-2026-09-12
+  project_slug: codex-with-chatgpt
+  level: full
+  reviewed_at: '2026-09-12T00:43:56Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者用 AI 编码时规划与执行割裂的需求：单框架长任务易偏离意图，旧做法靠人工在 ChatGPT 与 Codex 间搬运计划。仓库定位明确给出输入—动作—交付闭环，属工作流结构推理，痛点刚性中等但交付可确定。
+    evidence_ids:
+    - ev-9b16450c4b18e75e
+    - ev-75c6b510cd16a3ce
+  - gate: consensus
+    status: supported
+    reason: 同一仓库星数从 2550 连续升至 4050，说明有持续关注与采用意愿；但公开材料无 issue、评价或留存数据，无法确认已长期留在工作流，故仅作关注度证据。
+    evidence_ids:
+    - ev-9b16450c4b18e75e
+    - ev-7f7b11ce7a2c3ed4
+    - ev-75c6b510cd16a3ce
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页、无赞助或商业条款，钱可能来自 to C 开发者自用或 to B 团队集成，也可能纯靠捐赠；这是判断而非已验证事实，付费路径尚未在公开材料中出现。
+    evidence_ids:
+    - ev-9b16450c4b18e75e
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近「先规划后执行」的第一性目标，但公开材料未说明它如何调用 ChatGPT 接口、是否依赖用户自有密钥，也未给出安全与人工确认边界，交付确定性无法核验。
+    evidence_ids:
+    - ev-9b16450c4b18e75e
+    - ev-cac995321082df7c
+  next_validation: 追踪该 公开代码仓库 仓库的 README 与 issue/discussion，确认是否出现部署文档、密钥配置说明及用户实际使用反馈。
+  market: ''
+  job: 开发者在用 Codex 执行多步编码任务时，先把需求、拆解和方案交给 ChatGPT 做规划，再把计划交回 Codex 框架落地，完成从需求到可运行改动的整条链路。
+  job_en: Developers planning multi-step coding tasks hand requirements, decomposition and design to ChatGPT
+    as the planning brain, then feed the plan back into the Codex harness to produce runnable changes
+    end to end.
+  pain: 公开材料只给出「ChatGPT 思考、Codex 工作」这一句定位，未展示用户抱怨、issue 或案例；可确认的痛点是单一执行框架在长任务规划环节容易偏离意图，需要外部规划脑补位，但强度属结构推理而非用户口述。
+  pain_en: Public material offers only the tagline 'ChatGPT thinks, Codex works' with no complaints, issues
+    or cases; the inferable pain is that a single execution harness drifts from intent on long tasks and
+    needs an external planning brain, which is structural inference rather than user testimony.
+  current_alternative: 开发者原本在 ChatGPT 网页与 Codex 终端之间手工复制粘贴计划，或只用 Codex 单框架硬扛规划，靠人肉搬运上下文。
+  current_alternative_en: Developers previously copy-pasted plans by hand between the ChatGPT web UI and
+    the Codex terminal, or forced Codex alone to handle planning, manually shuttling context.
+  usage_reason: 推断：它把 ChatGPT 的规划输出直接接进 Codex 执行框架，省掉人工复制粘贴与上下文重述这一步，因此常做多步重构、需要先出方案再落地的开发者会在长任务场景选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: it wires ChatGPT''s planning output directly into the Codex harness, removing
+    the manual copy-paste and context restatement step, so developers doing multi-step refactors that
+    need a plan before execution would pick it for long tasks; no retention or repeat-use evidence is
+    public.'

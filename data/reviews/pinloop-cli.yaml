@@ -147,3 +147,52 @@
   usage_reason: 用户要完成的任务是：求职者、招聘人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Job seekers, Recruiters Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-pinloop-cli-2026-09-12
+  project_slug: pinloop-cli
+  level: full
+  reviewed_at: '2026-09-12T00:46:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者从海量职位中筛选匹配岗位的需求，痛点是逐条人工比对简历与偏好成本高、易漏新岗位；公开材料给出职位库规模、刷新频率与简历偏好输入，交付闭环可还原，属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-1abee828a530c4f1
+    - ev-c06893808f581ed4
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 338 个收藏，说明开发者社区已注意到该项目，但没有用户评价、案例或持续使用证据，无法判断目标求职者是否形成采用共识。
+    evidence_ids:
+    - ev-130eb8dc1f64794d
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；买方可能是求职者个人订阅或招聘方付费，这是判断而非已验证事实，属模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-733a8d168a35b1d0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明职位数据来源、评估准确率与人工复核边界，代理给出的匹配判断能否确定性交付尚缺可复现证据。
+    evidence_ids:
+    - ev-1abee828a530c4f1
+  next_validation: 追踪 pinloop-cli 仓库的 README、issue 与 discussion，确认职位数据来源、评估方法及是否有用户公开反馈实际使用效果。
+  market: ''
+  job: 求职者（尤其是习惯终端与编码代理的开发者）在找工作时，把自己的简历和偏好交给命令行里的编码代理，让它从每小时刷新的海量职位中筛出值得投递的岗位，最终得到一份匹配职位列表。
+  job_en: Job seekers, especially developers who live in the terminal and use coding agents, hand their
+    resume and preferences to a CLI-based agent so it screens a large, hourly-refreshed posting pool and
+    returns a shortlist of roles worth applying to.
+  pain: 公开材料只说明职位库规模与刷新频率，未记录用户抱怨；从工作流结构推理，痛点是求职者要在多个招聘站点反复检索、逐条比对自身简历与偏好，人工筛选成本高且容易漏掉新发布的匹配岗位。
+  pain_en: Public materials state only the size and hourly refresh of the posting pool, not user complaints;
+    by workflow inference the pain is that job seekers must repeatedly search multiple boards and manually
+    compare each posting against their resume and preferences, which is costly and easily misses newly
+    posted matches.
+  current_alternative: 公开材料未描述用户现有做法；结构推理下，替代方式是求职者自己在招聘网站或聚合站上按关键词搜索、逐条阅读职位描述并手工判断是否匹配。
+  current_alternative_en: Public materials do not describe current user behavior; by structural inference
+    the alternative is job seekers searching job boards or aggregators by keyword, reading each posting
+    and judging fit manually.
+  usage_reason: 推断：相较自己在招聘站逐条检索比对，它把简历与偏好作为持久输入，由代理对每小时刷新的职位批量评估并输出匹配列表，减少的是逐条阅读和重复输入筛选条件这一步；因此已在终端使用编码代理的开发者会在集中找工作的阶段选择它。
+  usage_reason_en: 'Inference: compared with manually searching and comparing postings on job boards,
+    it keeps the resume and preferences as persistent input and has the agent batch-evaluate hourly-refreshed
+    postings into a shortlist, removing the step of reading each posting and re-entering filters; developers
+    already running coding agents in the terminal are therefore the likely users during an active job
+    search.'

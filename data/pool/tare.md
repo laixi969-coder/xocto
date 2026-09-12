@@ -3,24 +3,29 @@ slug: tare
 name: tare
 builder: sachinneravath
 category: AI + 开发
-summary_zh: 使用 Claude 等 AI 编程工具的开发者，在额度异常快速耗尽时打开它；工具读取使用日志或额度消耗数据，定位主要消耗环节并输出诊断报告，具体分析深度与交付形式仍待核验。
-inspiration: AI 编程额度正成为开发者按月支付的硬成本，用量可观测与成本归因会从个人小工具长成团队采购项；可从依赖 AI 编程的中小开发团队切入，卖团队级用量诊断与预算告警，不与模型厂商拼能力。
-summary_en: Developers using AI coding tools like Claude open tare when their quota drains unusually fast;
-  the tool reads usage logs or quota data, locates the main consumption sources, and outputs a diagnostic
-  report; exact delivery depth awaits verification.
-inspiration_en: 'AI coding budgets are becoming a hard monthly cost; usage observability and cost attribution
-  can grow from personal tools into team purchases. Entry: team-level usage diagnostics and budget alerts
-  for small dev teams.'
+summary_zh: 开发者在调用大模型 API 时额度被快速耗尽，会打开 tare 查看是哪些请求、哪段代码在消耗额度；它接收调用记录并归因到具体来源，最终给出额度消耗的分布结果，具体采集方式与交付形态仍待核验。
+inspiration: 趋势是模型额度正变成团队要核算的运营成本，而不是随手可用的免费资源。切入可以从按项目或按团队做额度归因与预算告警入手，卖给自建 AI 功能的研发团队；公开材料未披露定价，是否按席位收费尚不清楚。
+summary_en: When developers burn through their LLM API quota quickly, they open tare to see which requests
+  or code paths consumed it; it takes call records and attributes them to specific sources, returning
+  a breakdown of quota consumption, though the exact collection method and deliverable still need verification.
+inspiration_en: The trend is that model quota is becoming an operating cost teams must account for rather
+  than a free resource. An entry point is per-project or per-team quota attribution and budget alerts
+  sold to engineering teams building AI features; no public pricing is disclosed, so per-seat charging
+  is unconfirmed.
 priority_review: false
 project_type: open_source
 industries:
 - 软件开发
+- 信息技术服务
 industries_en:
-- Software development
+- Software Development
+- IT Services
 jobs:
-- 软件开发工程师
+- AI 应用开发者
+- 研发效能工程师
 jobs_en:
-- Software engineers
+- AI Application Developer
+- Developer Productivity Engineer
 regions: []
 regions_en: []
 open_source: true
@@ -29,7 +34,7 @@ canonical_url: https://github.com/kelviq/tare
 summary: My Claude quota ran out in 10 minutes, so I made a tool to find out why
 first_seen: '2026-08-27T16:37:44Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

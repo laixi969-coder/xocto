@@ -3,19 +3,29 @@ slug: reference
 name: Reference
 builder: Rahul Thennarasu
 category: 基础层
-summary_zh: 写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。
-inspiration: 助手找代码靠反复搜索，又贵又慢。趋势是检索从推理里拆出去，变成本地一次查询；切入是每天用编程助手的工程师。上线期免费，后续收费未披露。
-summary_en: A coding assistant searches the project on the machine and lands on the exact stretch in one
-  query. Files never upload, no more guessing loops.
-inspiration_en: Assistants find code by searching again and again — expensive and slow. The trend is pulling
-  retrieval out of reasoning into one local query. The entry is engineers who use a coding assistant every
-  day. Free at launch; later pricing undisclosed.
+summary_zh: 开发者在给 AI agent 接检索时，常要把资料传到外部服务；Reference 的定位是让 agent 在本地做语义搜索。它具体接收什么材料、返回什么结果、是否需要人工确认，公开材料只有一句定位描述，具体流程或交付仍待核验。
+inspiration: 趋势是 agent 的检索层开始强调本地化与数据不出域。切入可考虑面向处理敏感材料的团队，例如律所、诊所或财务部门，把本地语义检索做成随 agent 一起交付的检索组件，而不是再做一个通用向量库。
+summary_en: Developers wiring retrieval into an AI agent often have to send material to an external service;
+  Reference is positioned as letting agents run semantic search locally. What material it takes in, what
+  it returns and whether a human must confirm are not described beyond a one-line positioning, so the
+  concrete workflow or deliverable still needs verification.
+inspiration_en: The trend is that the retrieval layer for agents is starting to emphasise local execution
+  and keeping data in place. An entry point could be teams handling sensitive material, such as law firms,
+  clinics or finance departments, delivering local semantic retrieval as a component shipped with the
+  agent rather than another general vector store.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 软件与信息服务
+- 无障碍服务
+industries_en:
+- Software and IT services
+- Accessibility services
+jobs:
+- 开发者在为 AI agent 接入本地资料检索时，需要让 agent 在不上传数据的前提下找到相关片段
+jobs_en:
+- Developers wiring local document retrieval into an AI agent need the agent to find relevant passages
+  without uploading data
 regions: []
 regions_en: []
 open_source: false
@@ -24,7 +34,7 @@ canonical_url: https://producthunt.com/products/reference-2
 summary: Local semantic search for AI agents
 first_seen: '2026-08-05T05:07:59Z'
 last_seen: '2026-09-12T00:19:08Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - officialfeeds

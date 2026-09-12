@@ -1,6 +1,6 @@
 ---
 slug: legal-ai-startup-harvey-reaches-155-billion-valuation-in-new-2
-name: Legal AI startup Harvey reaches $15.5 billion valuation in new funding round
+name: Harvey
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlB6ckhOUjNO
 summary: Legal AI startup Harvey reaches $15.5 billion valuation in new funding round Reuters
 first_seen: '2026-09-09T19:33:26Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Legal AI startup Harvey reaches $15.5 billion valuation in new funding round
+# Harvey
 
 Legal AI startup Harvey reaches $15.5 billion valuation in new funding round Reuters
 

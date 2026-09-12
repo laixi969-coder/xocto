@@ -180,3 +180,52 @@
   usage_reason: 用户要完成的任务是：学习者、内容创作者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Learners, Content Creators Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-vistep-2026-09-12
+  project_slug: vistep
+  level: full
+  reviewed_at: '2026-09-12T00:47:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把抽象概念与操作步骤讲清楚的需求：文字和静态图难以还原步骤顺序，学习者需反复脑补，创作者需手工做动画配音再翻译。公开说明已给出输入（概念或步骤）、动作（生成双语可视化、交互模型、同步讲解）与交付物，属工作流结构推理；痛点刚性中等偏上，交付形态可确定。
+    evidence_ids:
+    - ev-d109e57b65d1b686
+    - ev-b02d24a8eab42df0
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库收藏数从 43 增至 183 的持续增长，说明开发者社区持续关注，但没有任何用户评价、客户案例或使用场景描述，无法判断学习者与创作者是否真的把它放进讲解或学习流程，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-d109e57b65d1b686
+    - ev-83336307031aeb00
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费方式或买方身份，无法判断钱来自 to C 订阅、to B 教育机构采购还是 to VC；这是判断而非已验证事实，商业路径缺口不反推需求不存在。
+    evidence_ids:
+    - ev-5fb9f10070688ba3
+  - gate: truth
+    status: insufficient
+    reason: 双语可视化、交互模型与同步讲解三者能否稳定同时交付、生成质量与人工校对边界如何，公开材料没有可复现的实测或部署文档支撑，承诺的确定性交付尚未核验。
+    evidence_ids:
+    - ev-4c772e4432abfc44
+  next_validation: 追踪 vistep 官网是否上线定价页与客户案例页，以及其公开仓库的 issue/discussion 中是否出现真实使用场景与交付质量反馈。
+  market: ''
+  job: 学习者或内容创作者在需要把抽象概念、操作步骤或流程讲清楚时，把文字材料或步骤描述输入 vistep，产出双语可视化解释、可交互模型与同步讲解，用于自学理解或对外讲解。
+  job_en: A learner or content creator who needs to explain an abstract concept, procedure, or process
+    inputs text or step descriptions into vistep and produces bilingual visual explanations, interactive
+    models, and synchronized narration for self-study or for teaching others.
+  pain: 抽象过程仅靠文字或静态图难以讲清，学习者要反复读文字、自行脑补步骤顺序，创作者要手工做动画、配图与配音，跨语言还要再翻译一遍，制作与理解成本都高。
+  pain_en: 'Abstract processes are hard to convey with text or static images: learners must re-read and
+    mentally reconstruct step order, while creators must hand-build animation, visuals, and voiceover,
+    then translate again for a second language, making both comprehension and production costly.'
+  current_alternative: 当前替代方式包括手工制作 PPT/动画与录屏配音、使用通用文生图或文生视频工具再自行拼接、直接阅读文字教程或观看他人已做好的视频。
+  current_alternative_en: Current alternatives include hand-building slides, animations, and screen-recorded
+    voiceover; using generic text-to-image or text-to-video tools and stitching output manually; or simply
+    reading text tutorials and watching existing videos made by others.
+  usage_reason: 推断：相较手工做动画加配音再翻译的旧流程，vistep 把「生成可视化 + 生成交互模型 + 生成双语同步讲解」合并为一次输入后的连续产出，省去分别找绘图、动画、配音和翻译工具的拼接步骤；需要快速把步骤讲清楚的学习者或创作者会在赶讲解材料时选择它。
+  usage_reason_en: 'Inference: compared with hand-building animation plus voiceover and then translating,
+    vistep merges visual generation, interactive model generation, and bilingual synchronized narration
+    into one continuous output from a single input, removing the step of stitching together separate drawing,
+    animation, voiceover, and translation tools; learners or creators who need to explain a process quickly
+    would choose it when preparing explanation material under time pressure.'

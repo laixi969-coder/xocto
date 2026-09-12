@@ -1,0 +1,90 @@
+- id: req-initial-legora-and-consilio-formalize-legal-ai-partnership-after-mor-2-2026-09-12
+  project_slug: legora-and-consilio-formalize-legal-ai-partnership-after-mor-2
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决律师卷宗梳理与风险条款审查的刚性耗时痛点，属于高客单价高壁垒场景。
+    evidence_ids:
+    - ev-884cace7d534c3c0
+  - gate: consensus
+    status: supported
+    reason: 已有法律服务商 Consilio 超过一年的实际客户部署合作背书。
+    evidence_ids:
+    - ev-884cace7d534c3c0
+  - gate: model
+    status: insufficient
+    reason: 公开材料表明存在机构合作，但具体按案收费或按席位计费的公开定价未披露。
+    evidence_ids:
+    - ev-884cace7d534c3c0
+  - gate: truth
+    status: supported
+    reason: 作为辅助分析工具交付初筛报告，最终结论由持牌律师把关，交付边界清晰。
+    evidence_ids:
+    - ev-884cace7d534c3c0
+  next_validation: Consilio 与 Legora 合作方案的公开案例研究与具体计费模式细节。
+  market: ''
+  job: 律师与法务专员在案件审查与尽调过程中，需处理海量卷宗与非结构化合同，提取关键证据与风险条款。
+  job_en: Litigators and legal counsels process voluminous case files and unstructured contracts during
+    legal discovery and due diligence to extract evidence and risk clauses.
+  pain: 人工逐页审查数百页卷宗耗时长且容易遗漏隐蔽风险，传统关键词检索难以理解复杂的法律因果逻辑。
+  pain_en: Manual page-by-page document review is time-consuming and error-prone, while traditional keyword
+    search fails to parse complex legal context.
+  current_alternative: 依赖初级律师手工标注比对，或使用传统电子调证（e-Discovery）关键词过滤软件。
+  current_alternative_en: Relying on junior associates for manual annotation or using legacy e-discovery
+    keyword search tools.
+  usage_reason: （工作流推理）相较传统全文检索，产品通过法律大模型语义解析直接对齐争点事实与条款，减少初筛耗时并降低漏检风险，因而获得法律服务机构部署。
+  usage_reason_en: (Workflow inference) Compared to keyword search, the platform semantically correlates
+    case facts with legal claims to reduce manual screening time and lower omission risks.
+- id: req-full-legora-and-consilio-formalize-legal-ai-partnership-after-mor-2-2026-09-12
+  project_slug: legora-and-consilio-formalize-legal-ai-partnership-after-mor-2
+  level: full
+  reviewed_at: '2026-09-12T00:45:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决诉讼支持与电子数据开示中卷宗与合同量大、需跨文档梳理证据与审查条款的需求，痛点是人工逐页比对耗时且易漏检；公开材料仅支持产品定位与部署描述，价值判断属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-8aa2d439bb75ea4d
+    - ev-bbdda34daaa57dcf
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有 LinkedIn 关注者数与职位页，属关注度而非持续采用；摘要提及与 Consilio 合作及一年多客户部署，但现有证据链未包含该合作原文，无法核验真实使用规模。
+    evidence_ids:
+    - ev-8aa2d439bb75ea4d
+    - ev-c343455cfa9bcb0a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、席位或按案计费方式，买方是律所、企业法务还是 Consilio 类服务商无法从现有证据确认；这是判断缺口，不是已验证事实。
+    evidence_ids:
+    - ev-bbdda34daaa57dcf
+  - gate: truth
+    status: supported
+    reason: 产品定位为律师协作型 AI，交付结构化审查清单与摘要并由持牌专业人员最终核定，人工把关边界清晰；但公开材料未提供安全合规文档或交付结果核验。
+    evidence_ids:
+    - ev-8aa2d439bb75ea4d
+    - ev-bbdda34daaa57dcf
+  next_validation: 追踪 Legora 官网或 Consilio 官方新闻稿中关于该合作与客户部署的公开案例页，确认部署范围、计费方式与交付结果。
+  market: ''
+  job: 诉讼律师与企业法务在诉讼支持与电子数据开示（e-discovery）阶段，处理案件卷宗、合同与检索需求，完成跨文档证据梳理、条款审查并交付结构化审查清单与摘要供专业人员核定。
+  job_en: Litigators and in-house counsel, during litigation support and e-discovery, process case records,
+    contracts and search queries to produce cross-document evidence mapping, clause review and structured
+    review summaries for professional sign-off.
+  pain: 公开材料仅支持产品定位为律师协作型 AI，未直接呈现用户抱怨；从工作流结构推理，卷宗与合同体量大、逐页人工比对耗时且易漏检隐蔽风险，传统关键词检索难以对齐法律争点与条款语义。
+  pain_en: Public material only supports the positioning as collaborative AI for lawyers, with no direct
+    user complaints; by workflow inference, large case and contract volumes make page-by-page manual comparison
+    slow and prone to missing hidden risks, while keyword search cannot align legal issues with clause
+    semantics.
+  current_alternative: 初级律师手工标注比对，或使用传统电子数据开示（e-discovery）关键词过滤软件；公开材料未提供该产品替代旧流程的直接用户陈述。
+  current_alternative_en: Junior associates annotating and comparing manually, or legacy e-discovery keyword-filtering
+    tools; public material offers no direct user account of replacing that workflow.
+  usage_reason: 推断：相较关键词过滤，产品以语义解析把争点事实与合同条款对齐，减少人工初筛与逐页比对这一步负担，因此诉讼支持与合规审查团队在卷宗量大、需交付结构化审查清单时更可能选择它；公开材料未提供用户自述动机或留存数据。
+  usage_reason_en: 'Inference: versus keyword filtering, the product semantically aligns case facts with
+    contract clauses, removing the manual first-pass and page-by-page comparison step, so litigation-support
+    and compliance teams facing large record volumes and structured review deliverables are more likely
+    to choose it; no user-stated motivation or retention data is public.'

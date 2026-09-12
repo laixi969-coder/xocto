@@ -78,3 +78,50 @@
   usage_reason: 用户要完成的任务是：AI 应用评测工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI application evaluation engineer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-trace2task-2026-09-12
+  project_slug: trace2task
+  level: full
+  reviewed_at: '2026-09-12T00:47:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把跑通的智能体流程转成可重置、可重复执行评测任务的需求；痛点是环境残留导致流程无法复现、回归只能人工重放，不解决则评测结果不可比。这是基于公开功能与旧流程的结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 42 增至 54，说明有开发者关注，但公开材料没有 issue、discussion 或客户案例说明谁在何种场景部署，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-83d0b42e96c6fd1a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或开源许可下的商业路径；谁付钱、按什么单位收费均属判断而非已验证事实，这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只提到可重置与可验证，未披露支持哪些记录格式、如何判定通过、以及重置失败或误判时的人工边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-b628234673733367
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认支持哪些 trace 格式、通过判定机制如何实现，以及是否有用户报告在真实评测流程中部署。
+  market: ''
+  job: AI 应用评测工程师在调试智能体时，把一次已跑通的操作记录交给它，需要把这段过程转成可在干净环境重置并重复执行的评测任务，以便回归核对同一流程的结果。
+  job_en: An AI application evaluation engineer hands over a trace of a once-successful agent run and
+    needs it converted into a resettable, repeatable benchmark task so the same workflow can be re-run
+    in a clean environment and its result checked.
+  pain: 智能体跑通一次后难以复现：环境状态残留、步骤无法重置，评测只能靠人工重放或临时脚本，回归验证成本高且结果不可比。
+  pain_en: 'A successful agent run is hard to reproduce: environment state persists and steps cannot be
+    reset, so evaluation relies on manual replay or ad-hoc scripts, making regression checks costly and
+    results incomparable.'
+  current_alternative: 人工重放操作、手写评测脚本、依赖通用 agent benchmark 套件，或干脆不做回归验证。
+  current_alternative_en: Manual replay, hand-written evaluation scripts, generic agent benchmark suites,
+    or skipping regression checks altogether.
+  usage_reason: 推断：相较人工重放或手写脚本，它把已有 trace 直接转成可重置任务，省去用户自己搭环境快照与判定逻辑这一步，因此正在做智能体回归评测、又缺少可复现基准的评测工程师会试用它；仓库
+    star 从 42 增至 54 只反映关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual replay or hand-written scripts, it converts an existing trace
+    into a resettable task, removing the step of building environment snapshots and pass/fail logic yourself,
+    so evaluation engineers doing agent regression work without reproducible benchmarks would try it;
+    stars rising from 42 to 54 reflects attention, not sustained use.'

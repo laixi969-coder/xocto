@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxNVkR2bHRYN2t5
 summary: How AI makes individualized promotions – at scale – a reality Chain Store Age
 first_seen: '2026-09-11T12:34:38Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE5BLUZrcHl0NUs2
 summary: 源体全球上线发布会圆满举行“源体新时代”正式启航-----去中心化AI智能体确权与交易平台落地，四大创世节点重磅发布 中华网
 first_seen: '2026-09-11T10:24:02Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

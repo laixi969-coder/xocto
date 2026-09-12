@@ -145,3 +145,53 @@
   usage_reason: 用户要完成的任务是：软件开发者、技术团队负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developers, Tech team leads Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-vicoa-2026-09-12
+  project_slug: vicoa
+  level: full
+  reviewed_at: '2026-09-12T00:47:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多编码代理并行时跨设备统一调度与接管的操作需求，痛点在于会话分散、切换成本高；公开事实仅有产品定位与自托管能力，痛点强度属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-52e7210c17a7eb6e
+    - ev-ba3ec87e71faa936
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 145 增至 237，说明开发者社区已注意到该项目，但收藏与关注属规模信号，不能证明目标用户持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-52e7210c17a7eb6e
+    - ev-799fa078b2a83c99
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，公开材料未见定价页、付费主体或采购记录；钱可能来自 to C 开发者订阅或 to B 团队自托管支持，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-52e7210c17a7eb6e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行失败、权限边界与人工接管如何确定性交付，缺少部署文档、issue 或可复现实测来核对承诺。
+    evidence_ids:
+    - ev-ba3ec87e71faa936
+  next_validation: 追踪 Vicoa 官方仓库的 issue 与 discussion，确认是否有用户描述多代理并行部署场景、替代的旧流程及实际使用反馈。
+  market: ''
+  job: 软件开发者或技术团队负责人在同时运行多个编码代理（如并行处理多个仓库任务）时，需要从桌面、手机或自托管 VPS 上统一查看、调度和接管这些代理的会话与产出，而不是逐个终端窗口手动切换。
+  job_en: A software developer or tech lead running several coding agents in parallel needs to view, dispatch,
+    and take over those agent sessions and outputs from desktop, mobile, or a self-hosted VPS, instead
+    of switching between individual terminal windows by hand.
+  pain: 公开材料只说明产品定位为跨设备运行编码代理团队的 ADE，未提供用户抱怨、事故或返工记录；从工作流结构推理，多代理并行时上下文分散在多个终端与设备，切换和状态追踪本身构成操作负担，但该痛点的强度与频率尚无公开用户证据。
+  pain_en: Public materials only state the product is an ADE for running a team of coding agents across
+    devices; no user complaints, incidents, or rework records are provided. By workflow-structure inference,
+    parallel agents scatter context across terminals and devices, making switching and status tracking
+    a burden, but the intensity and frequency of this pain lack public user evidence.
+  current_alternative: 公开材料未描述用户当前做法；结构上可推断的旧替代是本地 IDE 加多个终端标签页、tmux/SSH 会话，或各家代理自带的 CLI，跨设备与自托管场景需要自行拼装。
+  current_alternative_en: Public materials do not describe current practice; the structurally inferable
+    alternatives are a local IDE with multiple terminal tabs, tmux/SSH sessions, or each agent's own CLI,
+    with cross-device and self-hosted use requiring manual assembly.
+  usage_reason: 推断：相较在单机终端里逐个管理代理，Vicoa 把代理会话集中到一个可自托管、可从桌面与移动端访问的环境，减少切换设备与窗口这一步负担，因此同时跑多个代理、又要求数据留在自有
+    VPS 的开发者会优先试用它；该动机尚未被用户反馈或案例证实。
+  usage_reason_en: 'Inference: versus managing agents one by one in local terminals, Vicoa centralizes
+    agent sessions into a self-hostable environment reachable from desktop and mobile, removing the step
+    of switching devices and windows, so developers running several agents who need data to stay on their
+    own VPS would try it first; this motive is not yet confirmed by user feedback or cases.'

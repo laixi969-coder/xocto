@@ -218,3 +218,56 @@
   usage_reason: 用户要完成的任务是：产品经理、创业者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Product managers, Founders Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-vision-video-in-a-weekend-2026-09-12
+  project_slug: vision-video-in-a-weekend
+  level: full
+  reviewed_at: '2026-09-12T00:47:18Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无拍摄剪辑能力者要在周末产出产品愿景视频的需求，痛点是旧流程需拍摄、剪辑与设计技能或外包，成本高周期长导致视频常被放弃；仓库给出 PASTOR 脚本、配音、数字人与 Remotion
+      模板的完整交付链，属工作流结构推理，痛点刚性与交付可确定。
+    evidence_ids:
+    - ev-90561187d3a3174a
+    - ev-a27429f59fff257c
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 88 持续升至 138，说明有开发者持续关注并把它纳入收藏；但公开材料未显示复刻、issue 或用户评价，因此只能判断关注度成立，不能证明已长期留在工作流中。
+    evidence_ids:
+    - ev-90561187d3a3174a
+    - ev-a27429f59fff257c
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未给出定价页、付费主体或单位经济；可能的付费方是使用 ElevenLabs、HeyGen 等外部服务的用户自身，仓库本身未见收费路径，属判断而非已验证事实。
+    evidence_ids:
+    - ev-90561187d3a3174a
+  - gate: truth
+    status: insufficient
+    reason: 仓库声称周末可交付 2-3 分钟成片，但公开材料未提供可复现的渲染结果、模板依赖版本或数字人合规与版权边界说明，交付确定性尚缺可核对证据。
+    evidence_ids:
+    - ev-90561187d3a3174a
+    - ev-0cfbb05f2c5f7906
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现用户复刻后产出的成片链接、模板依赖说明与数字人/配音的合规边界说明。
+  market: ''
+  job: 产品经理或创业者在需要向投资人、客户或团队传达尚未上线的产品愿景时，手头只有文字方案和产品截图，要在周末内产出一支 2-3 分钟、含旁白与画面的愿景视频，用于路演或内部对齐。
+  job_en: A product manager or founder who must pitch an unbuilt product vision to investors, customers,
+    or the team, holding only a written plan and screenshots, needs to produce a 2-3 minute narrated vision
+    video within a weekend for a pitch or internal alignment.
+  pain: 公开材料显示旧流程需要拍摄、剪辑软件与设计能力，而目标用户通常不具备这些技能；外包或专业制作周期长、成本高，导致愿景视频常被推迟或干脆不做，路演只能靠文字与静态图。
+  pain_en: Public materials state the old path requires filming, an editing suite, and design skills that
+    the target user typically lacks; outsourcing or professional production is slow and costly, so vision
+    videos get postponed or skipped and pitches fall back on text and static slides.
+  current_alternative: 当前替代方式是自行拍摄加剪辑软件、外包给视频制作方，或干脆不做视频只用 PPT 与文字方案；仓库把 PASTOR 叙事框架、ElevenLabs 配音、HeyGen
+    数字人、Remotion 模板与提示词库串成一条可复制的流程。
+  current_alternative_en: The current alternatives are self-filming with an editing suite, outsourcing
+    to a video producer, or skipping video entirely and relying on slides and text; the repository chains
+    the PASTOR narrative framework, ElevenLabs voice, HeyGen avatars, a Remotion template, and prompt
+    libraries into one repeatable pipeline.
+  usage_reason: 推断：相较自行拍摄剪辑或外包，它把任务拆成写 PASTOR 脚本、生成配音、生成数字人画面、套 Remotion 模板渲染四步，用户无需摄影与剪辑技能即可在周末内交付成片，因此缺少制作资源但需要快速产出愿景视频的产品经理与创业者会在路演或内部对齐前选择它。
+  usage_reason_en: 'Inference: versus self-filming/editing or outsourcing, it splits the job into writing
+    a PASTOR script, generating voiceover, generating avatar footage, and rendering through a Remotion
+    template, so users without filming or editing skills can deliver a finished video in a weekend; product
+    managers and founders lacking production resources but needing a fast vision video would pick it before
+    a pitch or alignment meeting.'

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/Akorinrin/chaos-canvas
 summary: Turn random jumps into beautiful fractals.
 first_seen: '2026-09-10T23:51:21Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

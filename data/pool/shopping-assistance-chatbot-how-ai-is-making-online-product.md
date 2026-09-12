@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUkZqUU1UaF9a
 summary: 'Shopping Assistance Chatbot: How AI Is Making Online Product Discovery Easier Nasscom'
 first_seen: '2026-09-11T07:22:30Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

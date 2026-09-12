@@ -144,3 +144,53 @@
   usage_reason: 用户要完成的任务是：反爬虫工程师、自动化测试工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Anti-bot engineers, Automation test engineers Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-ovobrowser-2026-09-12
+  project_slug: ovobrowser
+  level: full
+  reviewed_at: '2026-09-12T00:45:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是自动化浏览器被机器人检测拦截、需要伪装成普通 Chrome 的需求，痛点是检测失败即任务中断；公开事实显示其以源码级 C++ 补丁而非 JS 注入实现，旧替代在页面层易被识别，不解决的后果是自动化流程无法访问目标站点。这是工作流结构推理，尚无用户抱怨或失败代价的量化证据。
+    evidence_ids:
+    - ev-616e197864c6034f
+    - ev-b04add6b5a18c75f
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库收藏数从 196 增至 287 的关注度变化，属于规模与关注度信号，不能证明目标用户已把它长期留在工作流；缺少 issue、discussion 或用户评价说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-616e197864c6034f
+    - ev-b04add6b5a18c75f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或授权方式，无法判断收入来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，商业路径缺口不反推需求不存在。
+    evidence_ids:
+    - ev-616e197864c6034f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明检测站按普通 Chrome 评分，未提供可复现的检测结果、版本更新记录或安全与合规边界说明，交付能否长期稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-616e197864c6034f
+    - ev-f3cc88564614d422
+  next_validation: 追踪 ovobrowser 官方仓库的 issue 与 discussion，确认是否有用户报告在具体检测站点的部署结果与持续使用情况。
+  market: ''
+  job: 反爬虫工程师或自动化测试工程师在需要让自动化浏览器访问带机器人检测的站点时，处理被检测站拦截的会话，要完成让自动化流量被判定为普通 Chrome 并稳定通过检测的任务。
+  job_en: Anti-bot engineers or automation test engineers who need an automated browser to reach sites
+    with bot detection handle sessions blocked by detection, aiming to make automated traffic score as
+    ordinary Chrome and pass checks reliably.
+  pain: 公开材料显示其卖点是检测站按普通 Chrome 评分、且是编译进二进制的 C++ 补丁而非 JS 注入；这对应旧做法（JS 注入或改 UA）容易被指纹识别、需要反复调试的痛点，但公开材料未给出用户抱怨原文或失败代价数据。
+  pain_en: Public material shows the selling point is that detection sites score it as ordinary Chrome,
+    via C++ patches compiled into the binary rather than JS injection; this maps to the pain that JS-injection
+    or UA-spoofing approaches are easily fingerprinted and need repeated tuning, though no user complaint
+    text or failure-cost data is public.
+  current_alternative: 旧做法是 JS 注入式指纹伪装、改 User-Agent、使用普通无头浏览器或商业反检测浏览器；公开材料未说明用户具体从哪一种迁移过来。
+  current_alternative_en: The prior approach is JS-injection fingerprint spoofing, User-Agent rewriting,
+    plain headless browsers, or commercial anti-detect browsers; public material does not say which one
+    users migrate from.
+  usage_reason: 推断：相较 JS 注入在页面层被检测脚本识别的旧做法，它把指纹修改放在源码级 C++ 补丁并编译进二进制，减少了在页面层被识破后反复调参这一步负担，因此需要长期稳定通过检测的自动化工程师会在检测站频繁拦截时选择它；公开材料未提供用户自述动机。
+  usage_reason_en: 'Inference: compared with JS injection that detection scripts can spot at the page
+    layer, it moves fingerprint changes into source-level C++ patches compiled into the binary, removing
+    the step of repeatedly retuning after page-layer detection, so engineers needing stable long-term
+    passing would choose it when detection sites block frequently; no user-stated motivation is public.'

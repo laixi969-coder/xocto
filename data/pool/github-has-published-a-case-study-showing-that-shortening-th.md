@@ -23,7 +23,7 @@ summary: GitHub has published a case study showing that shortening the output of
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - v2ex

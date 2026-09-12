@@ -1,6 +1,6 @@
 ---
 slug: 中新赛克ai应用产品收入占比不超上半年营收2
-name: 中新赛克：AI应用产品收入占比不超上半年营收2%
+name: 中新赛克
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE54WXVnc1c5TU9z
 summary: 中新赛克：AI应用产品收入占比不超上半年营收2% 东方财富
 first_seen: '2026-09-11T12:36:40Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 中新赛克：AI应用产品收入占比不超上半年营收2%
+# 中新赛克
 
 中新赛克：AI应用产品收入占比不超上半年营收2% 东方财富
 

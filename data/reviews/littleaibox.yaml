@@ -1,0 +1,88 @@
+- id: req-initial-littleaibox-2026-09-12
+  project_slug: littleaibox
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是敏感材料交给 AI 时的外泄顾虑，痛点方向成立，但公开材料未说明谁在什么场景下遇到、不采用会失去什么，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-ee031fa017f43f59
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 58 个星标、0 个 fork、0 个 issue，属于关注度信号，不能说明用户已把它放进日常工作流。
+    evidence_ids:
+    - ev-ee031fa017f43f59
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、客户案例或付费证据，买方是个人还是团队、按什么收费均未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ee031fa017f43f59
+  - gate: truth
+    status: insufficient
+    reason: 隐私承诺能否确定性交付、是否本地运行、人工确认边界如何，公开材料均未给出，无法核对结果。
+    evidence_ids:
+    - ev-ee031fa017f43f59
+  next_validation: 抓取该产品官方页面或仓库 README 中的隐私实现说明与留存政策，确认数据处理是否可核验。
+  market: ''
+  job: 个人用户在需要把工作文档、代码或研究材料交给 AI 处理时，打开该平台完成对话、编码与文档问答，并拿到回答或整理结果。
+  job_en: An individual hands work documents, code or research material to an AI on this platform to get
+    chat answers, coding help and document Q&A.
+  pain: 把敏感材料交给通用助手时担心内容被留存或用于训练，但公开材料没有说明具体是谁在什么场景下遇到这一痛点。
+  pain_en: Users fear sensitive material is retained or used for training by general assistants, but the
+    public material does not say who hits this pain in which situation.
+  current_alternative: 继续使用通用对话助手，或手动删改材料后再粘贴，也可能干脆不用 AI 处理敏感内容。
+  current_alternative_en: Keep using general chat assistants, manually redact material before pasting,
+    or avoid AI for sensitive content altogether.
+  usage_reason: 推断：若其隐私处理方式可核验，用户会在处理保密材料时改用它，因为不必再手动删改或放弃使用 AI；但公开材料未给出实现方式、留存政策或用户反馈，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if its privacy handling is verifiable, users would switch when handling
+    confidential material because manual redaction or giving up AI becomes unnecessary; the public material
+    gives no implementation, retention policy or user feedback, so this causal link is unproven.'
+- id: req-full-littleaibox-2026-09-12
+  project_slug: littleaibox
+  level: full
+  reviewed_at: '2026-09-12T00:45:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是敏感材料交给 AI 时的外泄顾虑：用户要么放弃用 AI 处理，要么先手动删改，多一道工序且易漏改。不采用的代价是效率损失或风险暴露，痛点方向刚性；但公开材料只给出隐私定位，未说明具体场景与实现方式，属工作流结构推理。
+    evidence_ids:
+    - ev-ee031fa017f43f59
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 58 个星标，属关注度信号，不能说明用户已把它放进日常工作流；公开材料没有用户评价、案例或重复使用证据，卡在感知与场景环节，无法判断是否形成强场景共识。
+    evidence_ids:
+    - ev-ee031fa017f43f59
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、客户案例或付费证据，买方是个人订阅还是团队采购、按什么收费均未知；这是判断而非已验证事实，但买方不清不取消价值关结论。
+    evidence_ids:
+    - ev-ee031fa017f43f59
+  - gate: truth
+    status: insufficient
+    reason: 隐私承诺能否确定性交付、是否本地运行、人工确认边界如何，公开材料均未给出，无法核对结果；仓库无 issue 与部署文档，交付确定性缺少可核验依据。
+    evidence_ids:
+    - ev-ee031fa017f43f59
+  next_validation: 抓取 littleaibox 官方页面或仓库 README 中的隐私实现说明与留存政策，确认数据处理是否可核验。
+  market: ''
+  job: 在意对话内容外泄的个人用户，在需要把工作文档、代码片段或研究材料交给 AI 处理时打开 littleaibox，让 AI 完成对话、编码、检索与文档问答，并拿到回答或整理结果。
+  job_en: Privacy-conscious individual users open littleaibox when they need to hand work documents, code
+    snippets or research material to an AI, letting it handle chat, coding, retrieval and document Q&A
+    and returning answers or organized output.
+  pain: 把敏感材料交给通用助手时担心内容被留存或用于训练，于是要么放弃用 AI 处理，要么先手动删改材料，多一道工序且容易漏改；公开材料只给出隐私定位，未说明具体是谁在什么场景下遇到。
+  pain_en: Handing sensitive material to general assistants raises fear of retention or training use,
+    so users either give up AI for that material or manually redact it first, adding a step that is easy
+    to get wrong; the public material states the privacy positioning but not who hits this pain in which
+    situation.
+  current_alternative: 继续使用通用对话助手并接受留存风险，或手动删改材料后再粘贴，也可能干脆不用 AI 处理敏感内容。
+  current_alternative_en: Keep using general chat assistants and accept retention risk, manually redact
+    material before pasting, or avoid AI for sensitive content altogether.
+  usage_reason: 推断：相较手动删改或放弃使用，若该平台把隐私处理做进对话流程本身，用户在处理保密材料时可直接粘贴原文而省去删改这一步；但公开材料未给出实现方式、留存政策或用户反馈，这一因果尚未被证实。
+  usage_reason_en: 'Inference: compared with manual redaction or giving up, if the platform builds privacy
+    handling into the conversation flow itself, users handling confidential material can paste the original
+    text and skip the redaction step; the public material gives no implementation, retention policy or
+    user feedback, so this causal link is unproven.'

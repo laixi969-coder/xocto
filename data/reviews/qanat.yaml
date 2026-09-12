@@ -151,3 +151,46 @@
   usage_reason: 用户要完成的任务是：量化研究员、投资组合经理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Quantitative researcher, Portfolio manager Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-qanat-2026-09-12
+  project_slug: qanat
+  level: full
+  reviewed_at: '2026-09-12T00:46:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称其为量化 alpha 构建与回测的 agent 工作流引擎，但全部证据均为古代坎儿井灌溉的百科与 UNESCO 条目，与量化研究无关；公开材料写不出用户任务、痛点、旧替代与不解决的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-4a42c967861138cd
+    - ev-9509279be9528f2d
+    - ev-7f7abd7c28650d66
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README、issue 与 discussion，确认其真实产品定位、输入输出与是否有量化从业者实际使用记录。
+  market: ''
+  job: 量化研究员或投资组合经理在构建 alpha 因子时，需要把数据获取、因子计算、回测与结果评估串成可复现的流程；候选摘要称其以 DAG 编排并由 AI agent 执行各节点，但具体输入、输出与交付物在公开材料中未出现。
+  job_en: A quantitative researcher or portfolio manager building alpha factors needs to chain data acquisition,
+    factor computation, backtesting and evaluation into a reproducible pipeline; the candidate summary
+    claims DAG orchestration with AI agents executing nodes, but inputs, outputs and deliverables are
+    absent from public materials.
+  pain: 公开材料没有记录任何量化研究员在因子构建或回测中的具体痛点、发生频率或不解决的后果；现有证据全部是关于古代坎儿井灌溉系统的百科与 UNESCO 条目，与量化工作流无关。
+  pain_en: Public materials record no specific pain, frequency or consequence for quantitative researchers
+    in factor construction or backtesting; all available evidence concerns the ancient qanat irrigation
+    system, unrelated to quantitative workflows.
+  current_alternative: 公开材料未说明量化研究员目前用什么工具完成因子构建与回测，也未说明本产品替代了哪一步旧流程。
+  current_alternative_en: Public materials do not show what tools quantitative researchers currently use
+    for factor construction and backtesting, nor which prior step this product replaces.
+  usage_reason: 无法给出使用理由：现有证据中没有任何用户反馈、客户案例或产品文档说明谁会在什么情况下选择它，也没有可核对的结果改善。
+  usage_reason_en: 'No usage reason can be given: no user feedback, customer case or product documentation
+    in the evidence shows who would choose it under what circumstances, nor any verifiable outcome improvement.'

@@ -144,3 +144,55 @@
   usage_reason: 用户要完成的任务是：渗透测试工程师、安全研究员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Penetration testers, Security researchers Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-strikeagent-atkbrain-flash-2026-09-12
+  project_slug: strikeagent-atkbrain-flash
+  level: full
+  reviewed_at: '2026-09-12T00:46:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队打点、SRC、CTF 中资产枚举与漏洞验证的重复劳动，痛点在于人工串联扫描器耗时且易漏测，直接影响报告完整性与交付周期；公开仓库说明与 149→331 的收藏增长表明有人持续关注，但用户采用动机仍属工作流结构推理，尚无用户反馈或案例佐证。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+    - ev-ab999cfb860c2d7d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 149 增至 331，说明社区注意到该项目，但收藏与排名只属关注度证据，不能证明目标用户已把它留在日常渗透工作流中；缺少 issue、discussion 或用户评价说明实际使用场景与持续采用。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+    - ev-50875f8a15546bbb
+    - ev-ab999cfb860c2d7d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或授权模式，无法判断钱来自 to B 安全团队、to C 个人研究者还是 to VC；这是商业证据缺口，不反推需求不存在，但当前无法核验单位经济。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明自动化程度、误报率、人工复核边界与授权合规约束，无法核验渗透测试报告能否确定性交付；对攻击性工具而言，安全与法律边界是交付可信度的关键，目前缺可复现证据。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认其实际支持的扫描/打点能力、授权使用说明与用户报告的真实使用场景。
+  market: ''
+  job: 红队渗透测试工程师或安全研究员在拿到授权目标（域名、IP 段、Web 资产）后，需要在有限时间内完成资产打点、漏洞发现与攻击路径验证，并整理成可交付的渗透测试报告或 SRC/CTF 提交材料。
+  job_en: A red-team penetration tester or security researcher, given authorized targets (domains, IP
+    ranges, web assets), must complete asset enumeration, vulnerability discovery and attack-path validation
+    within a limited window, then produce a deliverable pentest report or SRC/CTF submission.
+  pain: 公开材料只说明该平台覆盖红队打点、SRC 与 CTF，未提供用户抱怨或案例；从工作流结构推理，打点与信息收集高度重复、依赖人工经验，漏测和重复劳动会直接影响报告完整性与交付周期，这是渗透测试岗位的固有负担。
+  pain_en: Public materials only state the platform covers red-team enumeration, SRC and CTF, with no
+    user complaints or cases; by workflow inference, enumeration and recon are highly repetitive and experience-dependent,
+    and missed findings or duplicated effort directly hurt report completeness and delivery timelines
+    — an inherent burden of the pentest role.
+  current_alternative: 公开材料未说明现有替代方式；按行业工作流推断，当前做法是人工组合 Nmap、子域枚举、目录爆破、漏洞扫描器与自写脚本，再手工汇总结果。
+  current_alternative_en: Public materials do not describe current alternatives; by industry workflow
+    inference, practitioners today manually chain Nmap, subdomain enumeration, directory brute-forcing,
+    vulnerability scanners and self-written scripts, then hand-aggregate results.
+  usage_reason: 推断：相较人工串联扫描器与脚本，该产品把目标信息输入后的打点、扫描与攻击模拟收敛到一个 AI 流程并直接产出报告，减少的是工具切换与结果手工汇总这两步负担；因此会在授权测试时间紧、需要快速覆盖资产面的红队或
+    SRC 场景中被选择。公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manually chaining scanners and scripts, the product collapses enumeration,
+    scanning and attack simulation after target input into one AI flow that emits a report, removing tool-switching
+    and manual result aggregation; it would therefore be chosen in time-pressured authorized red-team
+    or SRC engagements needing fast asset coverage. Public materials do not yet confirm this motive via
+    user feedback.'

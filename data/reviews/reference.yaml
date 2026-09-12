@@ -36,3 +36,86 @@
   usage_reason_en: 'It promises a simpler way to complete this job: A coding assistant searches the project
     on the machine and lands on the exact stretch in one query. Files never upload, no more guessing loops.
     The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-reference-2026-09-12
+  project_slug: reference
+  level: initial
+  reviewed_at: '2026-09-12T00:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决 agent 检索时数据外传的问题，但公开材料没有说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-533d7676467d2bee
+  - gate: consensus
+    status: insufficient
+    reason: 没有讨论、案例或使用反馈说明谁在什么场景下采用它；同批材料中的手语翻译研究与该产品无直接关系。
+    evidence_ids:
+    - ev-533d7676467d2bee
+  - gate: model
+    status: insufficient
+    reason: 没有定价、买方或收费路径信息，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-533d7676467d2bee
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近检索工作的第一性目标，也没有交付结果或人工边界的说明。
+    evidence_ids:
+    - ev-533d7676467d2bee
+  next_validation: 收集该产品的官方文档或定价页，确认它接收的数据类型、部署方式与是否按用量收费。
+  market: ''
+  job: 开发者在为 AI agent 接入本地资料检索时，需要让 agent 在不上传数据的前提下找到相关片段。
+  job_en: Developers wiring local document retrieval into an AI agent need the agent to find relevant
+    passages without uploading data.
+  pain: 公开材料只有一句“面向 AI agent 的本地语义搜索”，没有说明开发者原本卡在哪一步、不解决会有什么后果。
+  pain_en: The public material is only one line, 'local semantic search for AI agents', and does not say
+    which step developers were stuck on or what happens if it is not solved.
+  current_alternative: 开发者自行搭建向量库与检索管线，或把资料交给外部检索服务。
+  current_alternative_en: Developers build their own vector store and retrieval pipeline, or hand material
+    to an external retrieval service.
+  usage_reason: 推断：如果它能让 agent 在本地完成语义检索，处理敏感材料的团队就不必把文档外传；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。
+  usage_reason_en: 'Inference: if it lets an agent run semantic search locally, teams handling sensitive
+    material would not have to send documents out; however, the public material gives no adoption, retention
+    or customer evidence, so it cannot be confirmed that this choice actually happens.'
+- id: req-full-reference-2026-09-12
+  project_slug: reference
+  level: full
+  reviewed_at: '2026-09-12T00:46:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 agent 检索时数据外传的问题，但公开材料只有一句定位描述，没有说明具体用户任务、痛点强度与不采用的后果，连需求和痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-854a3a572925957c
+    - ev-6c0caad0faf8f9f2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Reference 的官方产品页或仓库 README，确认它接收的数据类型、部署方式与返回结果形态。
+  market: ''
+  job: 开发者在为 AI agent 接入本地资料检索时，需要让 agent 在不上传数据的前提下找到相关片段。
+  job_en: Developers wiring local document retrieval into an AI agent need the agent to find relevant
+    passages without uploading data.
+  pain: 公开材料只有一句“面向 AI agent 的本地语义搜索”定位，没有说明开发者原本卡在哪一步、不解决会有什么后果，也没有任何用户抱怨或 workaround 记录。
+  pain_en: The public material is only one line positioning it as 'local semantic search for AI agents';
+    it does not say which step developers were stuck on or what happens if unsolved, and there is no user
+    complaint or workaround record.
+  current_alternative: 开发者自行搭建向量库与检索管线，或把资料交给外部检索服务。
+  current_alternative_en: Developers build their own vector store and retrieval pipeline, or hand material
+    to an external retrieval service.
+  usage_reason: 推断：若它能让 agent 在本地完成语义检索，处理敏感材料的团队就不必把文档外传；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。
+  usage_reason_en: 'Inference: if it lets an agent run semantic search locally, teams handling sensitive
+    material would not have to send documents out; however, the public material gives no adoption, retention
+    or customer evidence, so it cannot be confirmed that this choice actually happens.'

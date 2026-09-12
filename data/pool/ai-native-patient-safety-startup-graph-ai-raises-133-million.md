@@ -1,6 +1,6 @@
 ---
 slug: ai-native-patient-safety-startup-graph-ai-raises-133-million
-name: AI-native patient safety startup Graph AI raises $13.3 million in funding from Insight Partners
+name: Graph AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: AI-native patient safety startup Graph AI raises $13.3 million in fundi
   Indian Startup News
 first_seen: '2026-09-11T10:43:18Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI-native patient safety startup Graph AI raises $13.3 million in funding from Insight Partners
+# Graph AI
 
 AI-native patient safety startup Graph AI raises $13.3 million in funding from Insight Partners Indian Startup News
 

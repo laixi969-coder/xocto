@@ -324,3 +324,44 @@
   usage_reason: 用户要完成的任务是：游戏开发者、世界构建师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Game Developers, World Builders Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-fable51-worlds-2026-09-12
+  project_slug: fable51-worlds
+  level: full
+  reviewed_at: '2026-09-12T00:44:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有一句“worlds via code, from fable 5.1”和星标数，无法还原具体用户任务、痛点强度、当前替代方式与不采用代价，连需求与痛点都写不实，故价值关不成立。
+    evidence_ids:
+    - ev-53d6bed646a5d2c3
+    - ev-a2532acbc2b701e6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它实际替代的旧流程、输入输出与可复现的交付结果。
+  market: ''
+  job: 游戏开发者或世界构建师在需要搭建可运行的虚拟世界场景时，用代码定义世界元素并生成/渲染出可交付的世界，而不是手工在编辑器里逐项摆放。
+  job_en: Game developers or world builders who need a runnable virtual world scene define world elements
+    in code and generate/render a deliverable world, instead of placing items by hand in an editor.
+  pain: 公开材料只有一句“worlds via code, from fable 5.1”，没有说明手工搭建世界耗时、迭代慢或协作困难等具体痛点，也没有用户抱怨或案例支撑。
+  pain_en: Public material is limited to the line 'worlds via code, from fable 5.1'; it does not describe
+    concrete pain such as slow manual world building, slow iteration, or collaboration difficulty, and
+    no user complaints or cases support it.
+  current_alternative: 公开材料未说明用户目前用什么替代方式完成世界构建，无法确认它替代的是手工编辑器、脚本管线还是其他生成工具。
+  current_alternative_en: Public materials do not state what users currently use to build worlds, so it
+    is unclear whether it replaces a manual editor, a scripting pipeline, or another generation tool.
+  usage_reason: 推断：若代码定义世界确实能减少手工摆放步骤，开发者可能因可版本化、可复现而选择它；但公开材料没有用户反馈或案例支持这一动机，无法确认。
+  usage_reason_en: 'Inference: if defining worlds in code does reduce manual placement steps, developers
+    might choose it for versionability and reproducibility; however, no public user feedback or cases
+    support this motive, so it cannot be confirmed.'

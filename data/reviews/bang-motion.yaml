@@ -80,3 +80,56 @@
   usage_reason: 用户要完成的任务是：动态设计师、短视频与宣传片制作人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Motion designer, Short-video and promo producer Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-bang-motion-2026-09-12
+  project_slug: bang-motion
+  level: full
+  reviewed_at: '2026-09-12T00:43:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是已有文案却要产出动态片头/讲解视频的需求，痛点是静态页面或幻灯片冒充动态内容、手工动画与导出视频成本高；公开仓库说明其输出为单个 index.html 且“像视频一样动”，任务、输入与交付闭环可还原，属工作流结构推理，尚无用户抱怨或代价量化。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+    - ev-d961ce056aa25975
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 119 增至 145，说明开发者社区注意到它，但收藏与关注只属规模或关注度证据，不能证明目标用户持续使用或形成共识；公开材料未见用户评价、案例或重复使用记录。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+    - ev-9f851290e47b532c
+    - ev-d961ce056aa25975
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，钱可能来自 to C 创作者订阅或 to B 团队授权，但均属判断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺输出单个 index.html 并兼容 Claude Code、Codex、Gemini CLI、Cursor，但未见可复现的交付质量、可编辑程度或人工与安全边界证据，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+    - ev-d961ce056aa25975
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开贴出实际生成的 index.html 成品、使用场景与替代旧流程的说明。
+  market: ''
+  job: 做片头、宣传片、讲解视频或动态字效的创作者（动态设计师、短视频与宣传片制作人员），在已有文案或脚本的情况下，把内容交给这个 agent skill，由它生成可在浏览器播放的动态图形页面，最终拿到一个
+    index.html 文件用于交付或嵌入。
+  job_en: Creators making openers, promos, explainers or kinetic typography (motion designers, short-video
+    and promo producers) who already have copy or a script hand it to this agent skill, which generates
+    a browser-playable motion-graphics page and returns a single index.html for delivery or embedding.
+  pain: 公开材料显示其定位是让画面“像视频一样动，而不是幻灯片”，即针对用静态页面或幻灯片冒充动态内容的落差；但公开证据未给出用户抱怨、返工次数或不采用的具体代价，痛点强度属工作流结构推理。
+  pain_en: Public materials position it so motion 'moves like video, not slides', targeting the gap left
+    when static pages or slide decks stand in for motion content; however no public user complaints, rework
+    counts or concrete cost of not adopting are given, so pain intensity is a workflow-structure inference.
+  current_alternative: 公开材料未直接说明旧做法；从任务结构推断，替代方式是用 After Effects、Premiere 等视频工具手工做动画并导出视频，或直接用幻灯片/静态 HTML
+    页面充当动态内容。
+  current_alternative_en: Public materials do not state the prior workflow directly; inferred from the
+    task structure, alternatives are hand-animating in After Effects or Premiere and exporting video,
+    or passing off slide decks / static HTML pages as motion content.
+  usage_reason: 推断：相较手工在视频工具里逐帧搭建或导出视频，它把已有文案直接转成浏览器可播放的动态图形页面并只输出一个 index.html，省去渲染导出与视频文件分发这一步，因此已有脚本、又需要网页内动态内容的创作者会在赶片头或讲解视频时选择它；这是基于产品能力与任务结构的推断，尚无用户反馈或客户案例佐证。
+  usage_reason_en: 'Inference: versus hand-building in a video tool and exporting a video, it turns existing
+    copy directly into a browser-playable motion-graphics page with a single index.html output, removing
+    the render-export and video-file distribution step, so creators who already have a script and need
+    in-page motion content would pick it for openers or explainers; this is inferred from product capability
+    and task structure, not yet backed by user feedback or customer cases.'

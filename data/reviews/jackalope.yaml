@@ -1,0 +1,85 @@
+- id: req-initial-jackalope-2026-09-12
+  project_slug: jackalope
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多代理并行时上下文与改动分散的问题，痛点方向成立，但公开材料只有一句功能描述，无法确认旧流程与交付结果，属工作流推理。
+    evidence_ids:
+    - ev-b5d57657d635cfe9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区发布记录，无用户评价、采用规模或重复使用证据，无法判断开发者是否真的把它留在工作流里。
+    evidence_ids:
+    - ev-b5d57657d635cfe9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能面向个人开发者或小团队按席位收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b5d57657d635cfe9
+  - gate: truth
+    status: insufficient
+    reason: 多代理共享上下文能否确定性交付、冲突与人工确认边界如何，公开材料未说明。
+    evidence_ids:
+    - ev-b5d57657d635cfe9
+  next_validation: 收集 Jackalope 官方文档或定价页，确认多代理共享上下文、改动合并与人工确认的具体机制。
+  market: ''
+  job: 同时使用多个编码智能体的开发者，在同一个项目里让不同代理分别处理不同代码任务，需要把分散在多个终端会话里的改动汇总起来。
+  job_en: Developers running several coding agents who assign different code tasks to different agents
+    in one project and need to gather changes scattered across multiple terminal sessions.
+  pain: 多代理并行时上下文、改动归属和冲突处理分散在各会话，用户要手工搬运和比对；但公开材料只有一句功能描述，无法确认这一痛点强度。
+  pain_en: With parallel agents, context, change attribution and conflict handling are scattered across
+    sessions and users must move and compare them by hand; but the public material is a single feature
+    line, so the intensity of this pain cannot be confirmed.
+  current_alternative: 分别开多个终端或 IDE 窗口运行各编码代理，手工复制上下文并自行比对改动。
+  current_alternative_en: Running each coding agent in separate terminal or IDE windows, copying context
+    by hand and comparing changes manually.
+  usage_reason: 推断：若共享工作区确实能让多个代理读写同一份上下文并集中呈现改动，用户可省去在会话间搬运上下文和比对差异的步骤，因此同时使用多个编码代理的开发者会尝试它；公开材料未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: if the shared workspace really lets several agents read and write one context
+    and shows changes in one place, users skip moving context between sessions and diffing by hand, so
+    developers running multiple coding agents would try it; no retention or repeat-use evidence is public.'
+- id: req-full-jackalope-2026-09-12
+  project_slug: jackalope
+  level: full
+  reviewed_at: '2026-09-12T00:44:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多代理并行时上下文与改动分散的问题，但公开材料只有一句功能描述，无法还原旧流程、输入、交付与不解决的后果，连需求与痛点都写不实。
+    evidence_ids:
+    - ev-f78ef2975be9eb87
+    - ev-f0fad663de87ab17
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Jackalope 官方仓库或产品页的 README、issue 与 discussion，确认多代理共享上下文、改动合并与人工确认的具体机制。
+  market: ''
+  job: 同时使用 Codex、Claude Code、Grok、OpenCode 的开发者，在同一项目里把不同代码任务分派给不同编码智能体，需要把分散在多个终端会话中的上下文与改动汇总到一处。
+  job_en: Developers running Codex, Claude Code, Grok and OpenCode who assign different code tasks to
+    different coding agents in one project and need to gather context and changes scattered across multiple
+    terminal sessions into one place.
+  pain: 公开材料只有一句功能描述，无法确认多代理并行时上下文搬运、改动归属与冲突处理是否构成真实且刚性的痛点。
+  pain_en: The public material is a single feature line, so it cannot be confirmed whether context shuttling,
+    change attribution and conflict handling across parallel agents constitute a real, rigid pain.
+  current_alternative: 分别开多个终端或 IDE 窗口运行各编码代理，手工复制上下文并自行比对改动。
+  current_alternative_en: Running each coding agent in separate terminal or IDE windows, copying context
+    by hand and comparing changes manually.
+  usage_reason: 推断：若共享工作区确实让多个代理读写同一份上下文并集中呈现改动，用户可省去会话间搬运上下文与手工比对差异的步骤，因此同时使用多个编码代理的开发者会尝试它；但公开材料未给出任何采用、留存或重复使用证据。
+  usage_reason_en: 'Inference: if the shared workspace really lets several agents read and write one context
+    and shows changes in one place, users skip moving context between sessions and diffing by hand, so
+    developers running multiple coding agents would try it; however, no adoption, retention or repeat-use
+    evidence is public.'

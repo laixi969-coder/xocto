@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/dlouapre/tangible-navier-stokes
 summary: Singularities and the Navier–Stokes equ… — a Tangible lesson
 first_seen: '2026-09-11T15:54:57Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

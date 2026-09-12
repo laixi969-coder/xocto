@@ -37,3 +37,99 @@
   usage_reason: Devin 能自主完成编码任务，减少人工干预，吸引寻求提高开发效率的团队。
   usage_reason_en: Devin can autonomously complete coding tasks, reducing manual intervention, attracting
     teams seeking to improve development efficiency.
+- id: req-initial-ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b-2026-09-12
+  project_slug: ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工程师在陌生代码库中定位并完成可合入改动的问题，痛点是读码与验证耗时，旧做法是补全加人工逐文件修改，结构上成立。
+    evidence_ids:
+    - ev-da787b05207023e9
+    - ev-8356f6cce6742c77
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与榜单提及，缺少开发者持续使用、团队采购或留存数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-d92f93a0d8cb6b54
+    - ev-5910600a78bca1ab
+  - gate: model
+    status: insufficient
+    reason: 未见公开定价页与付费结构，买方可能是企业研发团队，但按席位还是按结果收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-da787b05207023e9
+  - gate: truth
+    status: insufficient
+    reason: 模型跑分与融资规模不能证明交付确定性，缺少客户案例说明改动是否被稳定合入，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-8356f6cce6742c77
+    - ev-d351caf73d81ea71
+  next_validation: 收集 Cognition 官方定价页或公开客户案例，确认其按什么计价以及改动被合入的实际交付结果。
+  market: ''
+  job: 软件工程师在维护既有代码库、修复缺陷或补齐测试时，需要处理成百上千行陌生代码和任务描述，完成可合入的代码改动。
+  job_en: Software engineers maintaining an existing codebase, fixing defects or adding tests must work
+    through unfamiliar code and task descriptions to produce mergeable code changes.
+  pain: 读代码、定位改动点和跑通测试占掉大量时间，跨文件改动容易漏改，人工逐行核对成本高。
+  pain_en: Reading code, locating change points and getting tests to pass consume large amounts of time;
+    cross-file changes are easily missed and line-by-line human review is costly.
+  current_alternative: 此前主要靠 IDE 补全、搜索加人工阅读，或把任务拆小后自己逐文件修改。
+  current_alternative_en: Previously this relied on IDE autocomplete, search plus manual reading, or breaking
+    the task down and editing file by file.
+  usage_reason: 相较补全式工具只给下一行建议，它直接读取仓库、执行改动并跑测试，把“定位—修改—验证”整段交给代理，工程师只需复核最终补丁，因此适合任务边界清晰、可被测试验证的改动场景；这是基于产品能力的推断。
+  usage_reason_en: Unlike autocomplete that only suggests the next line, it reads the repository, applies
+    changes and runs tests, handing the whole locate-edit-verify loop to the agent so engineers only review
+    the final patch; suited to well-scoped, test-verifiable changes. This is an inference from product
+    capability.
+- id: req-full-ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b-2026-09-12
+  project_slug: ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b
+  level: full
+  reviewed_at: '2026-09-12T00:43:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工程师在既有代码库中完成可合入改动的问题，痛点是读码、跨文件修改与验证耗时且易漏改，旧做法是补全加人工逐文件编辑；官方说明代理接管重复工程工作，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-e9b2789dd734b7b9
+    - ev-450b89894f0248db
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网自述与融资报道，缺少开发者持续使用、团队采购或留存数据，无法判断共识是否形成；中文生态检索未发现相关公开资料。
+    evidence_ids:
+    - ev-e9b2789dd734b7b9
+    - ev-c450dc86f2bf119f
+  - gate: model
+    status: insufficient
+    reason: 未见公开定价页与付费结构，买方可能是企业研发团队，按席位还是按结果收费属推断；融资叙事不能替代用户付费路径，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-b2148ccefe9c1a67
+  - gate: truth
+    status: insufficient
+    reason: 官网只承诺代理处理重复工程工作，缺少客户案例说明改动是否被稳定合入，人工复核与安全边界也未披露，交付确定性尚未核验。
+    evidence_ids:
+    - ev-3f9d8d8c5d4f785c
+    - ev-450b89894f0248db
+  next_validation: 追踪 Cognition 官网定价页与公开客户案例（含部署文档或工程博客），确认其计价方式及代理改动被实际合入的交付结果。
+  market: ''
+  job: 软件工程师在维护既有代码库、修复缺陷或补齐测试时，面对成百上千行陌生代码和一段任务描述，需要产出可提交、可合入的补丁或合并请求。
+  job_en: Software engineers maintaining an existing codebase, fixing defects or adding tests, facing
+    thousands of lines of unfamiliar code and a task description, must produce a submittable, mergeable
+    patch or pull request.
+  pain: 读码、定位改动点、跨文件同步修改和跑通测试占掉大量时间，漏改与人工逐行核对成本高；公开材料只笼统提到代理接管重复性工程工作，未给出具体耗时或缺陷率数据。
+  pain_en: Reading code, locating change points, keeping cross-file edits consistent and getting tests
+    to pass consume large amounts of time, with missed edits and costly line-by-line human review; public
+    material only says agents handle repetitive engineering work, without concrete time or defect-rate
+    data.
+  current_alternative: 此前主要靠 IDE 补全、代码搜索加人工逐文件阅读修改，或把任务拆小后自己写补丁再跑测试。
+  current_alternative_en: Previously this relied on IDE autocomplete, code search plus manual file-by-file
+    reading and editing, or breaking the task down and writing the patch and running tests oneself.
+  usage_reason: 相较补全式工具只给下一行建议，它按官方说明读取仓库、执行改动并让代理承担重复工程工作，把定位—修改—验证整段交给代理，工程师只需复核最终补丁，因此任务边界清晰、可被测试验证的改动场景更可能被选用；这是基于产品能力与工作流结构的推断，尚无客户案例证实。
+  usage_reason_en: Unlike autocomplete that only suggests the next line, per the official description
+    it reads the repository, applies changes and lets agents take on repetitive engineering work, handing
+    the locate-edit-verify loop to the agent so engineers only review the final patch; thus well-scoped,
+    test-verifiable changes are more likely to be adopted. This is an inference from product capability
+    and workflow structure, not yet confirmed by customer cases.

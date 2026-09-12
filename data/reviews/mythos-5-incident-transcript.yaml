@@ -72,3 +72,46 @@
   usage_reason_en: 'The task is: This AI offering introduces a new capability, but public evidence is
     not yet sufficient to confirm its workflow value. Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-mythos-5-incident-transcript-2026-09-12
+  project_slug: mythos-5-incident-transcript
+  level: full
+  reviewed_at: '2026-09-12T00:45:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仓库名暗示与事故记录相关，但公开材料只有收藏数，没有产品说明、文档或使用场景，无法说清用户任务、痛点与不解决的后果，需求结构无法还原。
+    evidence_ids:
+    - ev-82fa89c6a4fcefea
+    - ev-20bef2fb7e771f7d
+    - ev-8fe4a55270727b34
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它处理什么输入、输出什么交付物，以及是否有真实部署或使用记录。
+  market: ''
+  job: 公开材料未说明谁在什么情况下处理什么材料、要完成什么任务；仓库名暗示与事故记录（incident transcript）相关，但无产品说明、文档或使用场景可还原具体工作流。
+  job_en: Public material does not state who handles what material in what situation to complete what
+    task; the repository name hints at incident transcripts, but no product description, documentation,
+    or use scenario reconstructs a concrete workflow.
+  pain: 公开材料只有仓库收藏数（19→35→45），没有说明事故记录处理中哪里难受、发生频率或不解决的后果，也没有用户抱怨或 workaround 证据。
+  pain_en: Public material contains only repository star counts (19→35→45); it does not state what is
+    painful about handling incident transcripts, how often it occurs, or the consequence of not solving
+    it, and there is no user complaint or workaround evidence.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么。
+  current_alternative_en: Public materials do not show how users currently complete this job or what it
+    replaces.
+  usage_reason: 无法判断：收藏数只反映关注度，不能解释用户选择它的原因；材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'Cannot be judged: star counts reflect attention only and do not explain why users
+    choose it; the material does not show which step it removes versus the old approach or which verifiable
+    result it improves.'

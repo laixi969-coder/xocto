@@ -1,0 +1,88 @@
+- id: req-initial-qwen3-runtime-2026-09-12
+  project_slug: qwen3-runtime
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多轮智能体 rollout 需要自建调度与轨迹收集的问题，痛点具体；但仓库未给出接口细节，属工作流推理。
+    evidence_ids:
+    - ev-235fdabd48bbb8f5
+  - gate: consensus
+    status: insufficient
+    reason: 102 个星标只说明关注度，没有使用者反馈或采用案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-235fdabd48bbb8f5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费方式，买方可能是自建训练管线的企业团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-235fdabd48bbb8f5
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持的模型、产出格式与可复现性，交付确定性无法核对。
+    evidence_ids:
+    - ev-235fdabd48bbb8f5
+  next_validation: 收集该仓库的 README、文档与 issue，确认其 rollout 接口、支持的模型范围以及是否有团队公开使用。
+  market: ''
+  job: 训练代码智能体的机器学习工程师，在需要为强化学习批量生成多轮交互轨迹时，用这个运行时执行 rollout 推理并收集轨迹。
+  job_en: Machine learning engineers training code agents use this runtime to execute rollout inference
+    and collect trajectories when they need to generate multi-turn interaction data in bulk for reinforcement
+    learning.
+  pain: 多轮智能体的 rollout 需要调度、并发与状态管理，自己搭一套既耗时又容易与训练框架对不上，拖慢实验迭代。
+  pain_en: Multi-turn agent rollouts require scheduling, concurrency and state management; building this
+    in-house is time-consuming and easily mismatched with the training framework, slowing experiment iteration.
+  current_alternative: 目前多由团队自行编写 rollout 脚本，或改造通用推理服务来拼凑多轮交互与轨迹收集。
+  current_alternative_en: Today teams mostly write their own rollout scripts or adapt generic inference
+    services to piece together multi-turn interaction and trajectory collection.
+  usage_reason: 推断：相较自写脚本，它把多轮 rollout 的调度与推理执行封装成可直接调用的运行时，减少的是每次实验前重搭轨迹收集管线的负担；因此正在训练代码智能体、又缺少专职基础设施人力的团队会先试用。
+  usage_reason_en: 'Inference: compared with self-written scripts, it packages multi-turn rollout scheduling
+    and inference execution into a directly callable runtime, reducing the burden of rebuilding a trajectory
+    collection pipeline before each experiment; teams training code agents without dedicated infrastructure
+    staff are the likely first triers.'
+- id: req-full-qwen3-runtime-2026-09-12
+  project_slug: qwen3-runtime
+  level: full
+  reviewed_at: '2026-09-12T00:46:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多轮智能体 rollout 需自建调度与轨迹收集的问题，痛点具体且不解决会拖慢实验迭代；仓库未给接口细节，属工作流结构推理。
+    evidence_ids:
+    - ev-235fdabd48bbb8f5
+  - gate: consensus
+    status: insufficient
+    reason: 102 个星标只说明关注度，没有使用者反馈或采用案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-235fdabd48bbb8f5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费方式，买方可能是自建训练管线的企业团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-235fdabd48bbb8f5
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持的模型、产出格式与可复现性，交付确定性无法核对。
+    evidence_ids:
+    - ev-235fdabd48bbb8f5
+  next_validation: 收集该仓库的 README、文档与 issue，确认其 rollout 接口、支持的模型范围以及是否有团队公开使用。
+  market: ''
+  job: 训练代码智能体的机器学习工程师，在为强化学习批量生成多轮交互轨迹时，用这个运行时执行 rollout 推理并收集轨迹，供后续训练使用。
+  job_en: Machine learning engineers training code agents use this runtime to execute rollout inference
+    and collect trajectories when generating multi-turn interaction data in bulk for reinforcement learning.
+  pain: 多轮智能体 rollout 需要调度、并发与状态管理，自建一套既耗时又容易与训练框架对不上，拖慢实验迭代；仓库未给出接口细节，痛点强度属工作流推理。
+  pain_en: Multi-turn agent rollouts require scheduling, concurrency and state management; building this
+    in-house is time-consuming and easily mismatched with the training framework, slowing experiment iteration;
+    the repo gives no interface detail, so pain intensity is inferred from workflow structure.
+  current_alternative: 目前多由团队自行编写 rollout 脚本，或改造通用推理服务来拼凑多轮交互与轨迹收集。
+  current_alternative_en: Today teams mostly write their own rollout scripts or adapt generic inference
+    services to piece together multi-turn interaction and trajectory collection.
+  usage_reason: 推断：相较自写脚本，它把多轮 rollout 的调度与推理执行封装成可直接调用的运行时，减少的是每次实验前重搭轨迹收集管线的负担；因此正在训练代码智能体、又缺少专职基础设施人力的团队会先试用。
+  usage_reason_en: 'Inference: compared with self-written scripts, it packages multi-turn rollout scheduling
+    and inference execution into a directly callable runtime, reducing the burden of rebuilding a trajectory
+    collection pipeline before each experiment; teams training code agents without dedicated infrastructure
+    staff are the likely first triers.'

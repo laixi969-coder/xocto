@@ -1,11 +1,15 @@
 ---
 slug: gartner报告中国ai风向变了智能体热度正盛-21世纪经济报道
-name: Gartner报告：中国AI风向变了，智能体热度正盛- 21世纪经济报道
+name: Gartner
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Gartner 于 2026 年 9 月发布报告指出中国 AI 风向变化、智能体热度上升。该判断意味着中国市场的 AI 应用重心可能从通用模型能力转向可自主执行任务的智能体形态，从而影响应用交付方式与竞争焦点；但材料未给出具体数据或企业案例，上述影响为推断。
 inspiration: ''
-summary_en: ''
+summary_en: In September 2026 Gartner published a report stating that China's AI direction has shifted
+  and that agent interest is rising. This implies that the focus of AI adoption in China may move from
+  general model capability toward agents that autonomously execute tasks, affecting how applications are
+  delivered and where competition concentrates; the material provides no specific figures or company cases,
+  so this implication is an inference.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1EeGZCdE1WUUdM
 summary: Gartner报告：中国AI风向变了，智能体热度正盛- 21世纪经济报道 ZAKER新闻
 first_seen: '2026-09-11T07:49:41Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Gartner报告：中国AI风向变了，智能体热度正盛- 21世纪经济报道
+# Gartner
 
 Gartner报告：中国AI风向变了，智能体热度正盛- 21世纪经济报道 ZAKER新闻
 

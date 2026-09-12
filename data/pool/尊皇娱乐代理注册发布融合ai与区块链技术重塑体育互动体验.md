@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiR0FVX3lxTFBGVTJsekg1S1Qy
 summary: 尊皇娱乐代理注册发布：融合AI与区块链技术，重塑体育互动体验 体坛加
 first_seen: '2026-09-11T06:14:35Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

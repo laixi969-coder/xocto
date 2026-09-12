@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHZvcllPdU91
 summary: How Can AI-Native Platforms Transform Insurance Product Launch & Distribution happiestminds.com
 first_seen: '2026-09-11T12:56:05Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

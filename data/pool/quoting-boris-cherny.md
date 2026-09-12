@@ -27,7 +27,7 @@ summary: "Production code written by Claude should have a higher bar than if it 
   \ ,  boris-cherny ,  anthropic"
 first_seen: '2026-09-11T17:47:11Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

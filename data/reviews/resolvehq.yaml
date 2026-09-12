@@ -1,0 +1,80 @@
+- id: req-initial-resolvehq-2026-09-12
+  project_slug: resolvehq
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决小团队工单系统成本与自部署的问题，但公开材料没有说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-86f3914dd85c02ea
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 21 分与 8 条评论的社区关注度，没有案例或使用反馈说明谁在什么场景下采用它。
+    evidence_ids:
+    - ev-86f3914dd85c02ea
+  - gate: model
+    status: insufficient
+    reason: 开源项目没有定价、买方或收费路径信息，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-86f3914dd85c02ea
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否包含 AI 处理、交付是否确定，也没有人工边界的说明。
+    evidence_ids:
+    - ev-86f3914dd85c02ea
+  next_validation: 收集该仓库的 README 与 issue，确认它是否包含 AI 自动回复、部署方式与是否提供托管收费版本。
+  market: ''
+  job: 中小团队的技术负责人在搭建客户支持工单流程时，需要一套可自行部署、按量计费的工单系统。
+  job_en: Technical leads at small teams setting up a customer support ticketing flow need a self-deployable,
+    usage-billed helpdesk.
+  pain: 公开材料只给出技术栈，没有说明团队原本卡在哪一步、不解决会有什么后果。
+  pain_en: The public material only gives the tech stack and does not say which step teams were stuck
+    on or what happens if it is not solved.
+  current_alternative: 团队购买按席位收费的客服 SaaS，或自行从零搭建工单系统。
+  current_alternative_en: Teams buy seat-priced support SaaS or build a ticketing system from scratch.
+  usage_reason: 推断：如果它跑在 Cloudflare 的按量计费组件上，小团队就不必为闲置席位付费；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。
+  usage_reason_en: 'Inference: if it runs on Cloudflare''s usage-billed components, small teams would
+    not pay for idle seats; however, the public material gives no adoption, retention or customer evidence,
+    so it cannot be confirmed that this choice actually happens.'
+- id: req-full-resolvehq-2026-09-12
+  project_slug: resolvehq
+  level: full
+  reviewed_at: '2026-09-12T00:46:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据只说明它是 Cloudflare 原生、可自托管的共享支持收件箱，未说明用户卡在哪一步、不解决的后果，也未见任何采用或反馈；痛点与交付闭环无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-3fb0fcddcdefd418
+    - ev-0a00355bf85ccb96
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库 README 与 issue，确认是否包含 AI 自动回复、部署方式与是否提供托管收费版本。
+  market: ''
+  job: 中小团队的技术负责人在搭建客户支持工单流程时，需要一套可自行部署、按量计费的工单系统。
+  job_en: Technical leads at small teams setting up a customer support ticketing flow need a self-deployable,
+    usage-billed helpdesk.
+  pain: 公开材料只给出技术栈，没有说明团队原本卡在哪一步、不解决会有什么后果。
+  pain_en: The public material only gives the tech stack and does not say which step teams were stuck
+    on or what happens if it is not solved.
+  current_alternative: 团队购买按席位收费的客服 SaaS，或自行从零搭建工单系统。
+  current_alternative_en: Teams buy seat-priced support SaaS or build a ticketing system from scratch.
+  usage_reason: 推断：如果它跑在 Cloudflare 的按量计费组件上，小团队就不必为闲置席位付费；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。
+  usage_reason_en: 'Inference: if it runs on Cloudflare''s usage-billed components, small teams would
+    not pay for idle seats; however, the public material gives no adoption, retention or customer evidence,
+    so it cannot be confirmed that this choice actually happens.'

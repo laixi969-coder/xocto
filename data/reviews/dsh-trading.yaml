@@ -253,3 +253,60 @@
   usage_reason: 用户要完成的任务是：交易员、量化分析师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Traders, Quantitative Analysts Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-dsh-trading-2026-09-12
+  project_slug: dsh-trading
+  level: full
+  reviewed_at: '2026-09-12T00:44:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨市场交易数据分散与 AI 实盘风险两个需求：交易员要在加密、美股、A股、港股间统一取数与下单，旧做法是多客户端加自建脚本，且 AI 直连实盘缺少逐笔确认。项目以 19+ 热插拔连接器、三栏界面、默认
+      dry-run 加逐笔人工批准对应，交付闭环可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-7824d5f43561314d
+    - ev-c81b7f239ffc33d3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 115 增至 160，说明开发者社区持续关注，但这是关注度而非目标交易者的持续采用；公开材料没有用户评价、issue 讨论或部署案例说明谁在真实工作流中使用，也未出现中文生态的对应讨论。
+    evidence_ids:
+    - ev-7824d5f43561314d
+    - ev-c81b7f239ffc33d3
+    - ev-5e8b07fc8decb738
+  - gate: model
+    status: insufficient
+    reason: 项目为 BYOK 开源终端，公开材料未给出定价页、订阅或抽佣安排，买方可能是自付 API 成本的个人交易者，也可能是机构或交易所侧；这属于商业证据缺口，不推翻已成立的需求结构。
+    evidence_ids:
+    - ev-7824d5f43561314d
+  - gate: truth
+    status: insufficient
+    reason: 默认 dry-run 与逐笔人工批准是公开承诺，但缺少可复现的部署文档、连接器实测或订单执行记录来验证交付是否稳定发生，人工与安全边界在实盘下的表现仍未被公开证据覆盖。
+    evidence_ids:
+    - ev-7824d5f43561314d
+    - ev-478eb3b04b884abe
+  next_validation: 追踪 dsh-trading 仓库的 issue、discussion 与部署文档，确认是否有真实用户报告接入的具体市场、替换掉的旧流程以及实盘订单执行结果。
+  market: ''
+  job: 交易员或量化分析师在同时盯加密货币、美股、A股和港股时，把多市场行情与账户数据接入一个终端，让 AI 基于这些数据生成交易建议，并在人工逐笔批准后执行实盘订单。
+  job_en: A trader or quant analyst watching crypto, US, CN and HK markets connects multi-market quotes
+    and account data into one terminal, has an AI generate trade suggestions from that data, and executes
+    live orders only after per-order human approval.
+  pain: 公开材料支持的结构性痛点是：跨市场交易需要在多个行情源、券商客户端和自建脚本之间来回切换，数据源接口各不相同且难以替换；把 AI 接入实盘又缺少默认隔离与逐笔确认，误单风险高。项目用 19+
+    可热插拔连接器、三栏统一界面和默认 dry-run 加逐笔人工批准来对应这两点，属于工作流结构推理，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The structural pain supported by public materials: cross-market trading forces switching among
+    multiple quote sources, broker clients and self-built scripts, with heterogeneous and hard-to-swap
+    data connectors; wiring AI into live trading lacks default isolation and per-order confirmation, raising
+    misfire risk. The project answers this with 19+ hot-swappable connectors, a unified three-column GUI,
+    and dry-run by default plus per-order human approval. This is workflow-structur'
+  current_alternative: 旧做法是同时开着多个券商与行情客户端、用自建脚本或表格拼接数据，或直接使用单一市场的交易终端；AI 辅助则多靠通用聊天工具离线分析后再手工下单。公开材料未说明这些替代方式的具体使用比例。
+  current_alternative_en: The old way is running several broker and quote clients at once, gluing data
+    together with self-built scripts or spreadsheets, or using a single-market terminal; AI help usually
+    means offline analysis in a general chat tool followed by manual order entry. Public materials do
+    not show how widely these alternatives are used.
+  usage_reason: 推断：相较在多个客户端与脚本间手工搬运数据，该产品把多市场数据源收敛到一个三栏界面并允许热插拔替换连接器，减少的是逐市场切换与改接口这一步；相较让 AI 直接下单，默认 dry-run
+    与每笔实盘人工批准把风险控制点前移，使需要跨市场信号但不愿放弃逐笔确认的交易者更可能选择它。缺少用户反馈，动机为推断。
+  usage_reason_en: 'Inference: versus manually shuttling data between clients and scripts, it collapses
+    multi-market sources into one three-column GUI with hot-swappable connectors, removing the per-market
+    switching and connector-rewrite step; versus letting AI trade directly, dry-run by default and per-order
+    human approval move the risk control point earlier, which is why a trader wanting cross-market signals
+    without giving up per-order confirmation would pick it. Motivation is inferred, as no '

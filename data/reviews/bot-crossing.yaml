@@ -219,3 +219,55 @@
   usage_reason: 用户要完成的任务是：AI 工程师、游戏开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI Engineer, Game Developer Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-bot-crossing-2026-09-12
+  project_slug: bot-crossing
+  level: full
+  reviewed_at: '2026-09-12T00:43:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 agent 开发者缺少现成、可交互的决策评测环境这一需求：自建环境需写状态接口与结果记录，重复且耗时。公开事实仅有“A video game for AI agents”与仓库收藏数，痛点强度属工作流结构推理，尚无用户抱怨或案例量化，但任务、旧替代与不解决的后果可还原，故价值结构成立。
+    evidence_ids:
+    - ev-61ef675bfb9126a0
+    - ev-e158a1970a0431d6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 174 升至 479，说明社区关注度上升，但收藏与访问量只属规模或关注度证据，不能证明目标用户持续使用或把它留在工作流里；公开材料没有 issue、discussion
+      或用户反馈说明谁在何种场景采用。
+    evidence_ids:
+    - ev-61ef675bfb9126a0
+    - ev-ab07b1a62859bb0e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断收入来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推需求不存在，但当前无法核验可重复交付的付费路径。
+    evidence_ids:
+    - ev-e158a1970a0431d6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 agent 接入方式、评测结果如何确定性交付，以及安全与人工边界；仓库存在不等于交付可复现，缺少部署文档或可复现实测来验证承诺能否稳定兑现。
+    evidence_ids:
+    - ev-61ef675bfb9126a0
+  next_validation: 追踪 bot-crossing 官方仓库的 README、issue 与 discussion，确认 agent 接入方式、实际使用场景与是否出现付费或部署记录。
+  market: ''
+  job: AI agent 开发者或研究者需要评估、演示或训练 agent 在连续决策环境中的表现时，把 agent 接入 bot-crossing 这个游戏世界，让它接收状态、输出动作，完成过马路等任务，从而观察其决策质量。
+  job_en: AI agent developers or researchers evaluating, demoing, or training an agent's sequential decision-making
+    connect the agent to the bot-crossing game world, letting it receive state and emit actions to complete
+    tasks such as crossing, so they can observe decision quality.
+  pain: 公开材料只给出“A video game for AI agents”这一句产品定位，没有用户抱怨、失败案例或替代成本记录；从工作流结构推断，agent 评测通常需要自建环境、写适配层并自行记录结果，这一步是重复且耗时的负担，但公开证据未量化其频率与代价。
+  pain_en: Public material offers only the one-line positioning 'A video game for AI agents', with no
+    user complaints, failure cases, or cost-of-alternative records; by workflow inference, agent evaluation
+    usually requires building an environment, writing an adapter layer, and logging results manually,
+    a repetitive burden whose frequency and cost are not quantified in public evidence.
+  current_alternative: 公开材料未说明用户当前用什么替代；结构上可推断的旧做法是自建玩具环境、使用通用 benchmark 套件，或直接在真实应用中试错，但这些替代方式均未被项目证据确认。
+  current_alternative_en: Public material does not state what users currently use instead; structurally
+    inferable alternatives are self-built toy environments, generic benchmark suites, or trial-and-error
+    in real applications, none of which is confirmed by project evidence.
+  usage_reason: 推断：相较自建环境需要自己写状态接口、动作解析和结果记录，bot-crossing 以现成游戏世界接收 agent 动作并返回反馈，减少了搭建与维护评测环境这一步；因此需要快速演示或横向比较
+    agent 决策能力的开发者，在缺少现成环境时会选择它。该因果为工作流结构推理，尚无用户反馈或案例佐证。
+  usage_reason_en: 'Inference: compared with self-built environments that require writing state interfaces,
+    action parsing, and result logging, bot-crossing provides a ready game world that accepts agent actions
+    and returns feedback, removing the step of building and maintaining an evaluation environment; developers
+    needing a quick demo or comparison of agent decision-making would therefore choose it when no ready
+    environment exists. This causal chain is workflow-structural inference, not yet ba'

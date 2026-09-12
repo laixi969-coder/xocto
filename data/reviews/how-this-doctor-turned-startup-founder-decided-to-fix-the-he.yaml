@@ -1,0 +1,92 @@
+- id: req-initial-how-this-doctor-turned-startup-founder-decided-to-fix-the-he-2026-09-12
+  project_slug: how-this-doctor-turned-startup-founder-decided-to-fix-the-he
+  level: initial
+  reviewed_at: '2026-09-12T00:19:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决护理岗位长期空缺下招聘方被动等待、逐个筛选联系导致周期长的问题，痛点刚性且交付是缩短的到岗周期。
+    evidence_ids:
+    - ev-5b94fed9d1894895
+  - gate: consensus
+    status: insufficient
+    reason: 报道只给出创始人背景与 30% 缩短招聘时间的说法，没有公开的医院客户名单或招聘专员的使用反馈。
+    evidence_ids:
+    - ev-5b94fed9d1894895
+    - ev-64a42d3c62772d7f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，买方应为医院或医疗系统，但按席位还是按成功入职收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-5b94fed9d1894895
+  - gate: truth
+    status: insufficient
+    reason: 30% 的招聘时间缩短由公司自述，缺少可核对的交付结果与人工确认边界说明。
+    evidence_ids:
+    - ev-5b94fed9d1894895
+  next_validation: 收集 Incredible Health 官方定价页或公开客户案例，核对收费方式与招聘周期缩短的可核对结果。
+  market: ''
+  job: 医院招聘负责人和护理招聘专员在护理岗位长期空缺、需要快速补人的情况下，处理候选人库和岗位需求，要完成从匹配到发出邀约、推进到入职的任务。
+  job_en: Hospital recruiting managers and nurse recruiters, when nursing roles stay vacant and need rapid
+    filling, work with candidate pools and job requirements to move from matching to outreach and on to
+    onboarding.
+  pain: 护理人才稀缺，传统做法是招聘方被动等投递、再逐个筛选联系，周期长且候选人常被同行抢走。
+  pain_en: Nursing talent is scarce, and the traditional approach has employers passively waiting for
+    applications and then screening and contacting candidates one by one, which is slow and loses candidates
+    to competitors.
+  current_alternative: 招聘网站挂岗位、招聘专员手动搜简历并逐个电话或邮件联系，或依赖猎头与人力中介。
+  current_alternative_en: Posting jobs on job boards, recruiters manually searching resumes and cold-calling
+    or emailing candidates, or relying on headhunters and staffing agencies.
+  usage_reason: 相较招聘专员手动搜简历再逐个联系，它把发起方换成雇主、由 AI agent 参与匹配与推进，减少的是筛选和首次触达这一步的负担，因此缺人急、岗位量大的医院招聘团队会在补护理缺口时选择它；这是基于产品能力的推断，尚无客户复购证据。
+  usage_reason_en: Compared with recruiters manually searching resumes and contacting candidates one by
+    one, it makes the employer the initiator and has AI agents take part in matching and progression,
+    reducing the burden of screening and first outreach, so hospital recruiting teams with urgent, high-volume
+    nursing gaps would choose it; this is an inference from product capability, with no repeat-purchase
+    evidence yet.
+- id: req-full-how-this-doctor-turned-startup-founder-decided-to-fix-the-he-2026-09-12
+  project_slug: how-this-doctor-turned-startup-founder-decided-to-fix-the-he
+  level: full
+  reviewed_at: '2026-09-12T00:44:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据为词典释义、动画电影条目、通用AI介绍与搜索查询占位，无法还原护理招聘的用户任务、痛点、旧替代与不采用后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-8cf1e36bcb297adf
+    - ev-efa56e5bd331f332
+    - ev-73cfde0ddb2ad42f
+    - ev-a9d4ea53794c21fb
+    - ev-ce23fc85d7a574f7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Incredible Health 官网（incrediblehealth.com）的客户案例页与定价/采购说明，核对医院客户名称、收费方式与招聘周期缩短的可核对结果。
+  market: ''
+  job: 医院招聘负责人和护理招聘专员在护理岗位长期空缺、需要快速补人的情况下，处理候选人库与岗位需求，要完成从匹配、触达到推进入职的任务。
+  job_en: Hospital recruiting managers and nurse recruiters, when nursing roles stay vacant and need rapid
+    filling, work with candidate pools and job requirements to move from matching and outreach to onboarding.
+  pain: 公开材料未提供任何可引用的用户痛点证据：现有证据仅为词典释义、动画电影条目、AI 通用介绍与搜索查询占位，无法说明护理招聘中具体哪里难受、频率多高、不解决会怎样。
+  pain_en: 'The public material provides no citable user-pain evidence: the evidence consists only of
+    dictionary definitions, an animated-film entry, generic AI introductions and search-query placeholders,
+    so it cannot show where nursing recruiting hurts, how often, or what happens if unsolved.'
+  current_alternative: 公开材料未记录任何现有替代方式；摘要提到的逐个筛选简历、逐个联系候选人属未获证据支持的描述，不能作为已核实的旧做法。
+  current_alternative_en: The public material records no current alternative; the summary's description
+    of screening resumes and contacting candidates one by one is unsupported by evidence and cannot be
+    treated as a verified old practice.
+  usage_reason: 无法给出使用理由：没有用户反馈、客户案例或可核对结果，无法解释相较旧做法减少了哪一步负担，因此不能推断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: with no user feedback, customer case or checkable result,
+    it is impossible to explain which step''s burden is reduced versus the old practice, so no inference
+    can be made about which users would choose it and when.'

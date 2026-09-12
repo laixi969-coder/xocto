@@ -147,3 +147,54 @@
   usage_reason: 用户要完成的任务是：前端开发者、UI 设计师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Frontend Developers, UI Designers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-boardui-2026-09-12
+  project_slug: boardui
+  level: full
+  reviewed_at: '2026-09-12T00:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是为智能体界面搭建聊天交互组件的需求，痛点是流式输出与工具调用状态从零实现成本高；公开材料显示组件以源码免费提供并附可运行聊天示例，旧替代是手写或拼装通用库，属工作流结构推理，尚无用户抱怨或耗时数据。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+    - ev-1f9e3efc6420fa24
+  - gate: consensus
+    status: supported
+    reason: 公开代码仓库收藏数从 330 持续升至 414，说明开发者社区持续关注并收藏该组件库；但收藏属关注度证据，不能证明已长期嵌入工作流，也未见使用评价或案例。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+    - ev-007ddd8d9c4b107b
+    - ev-1f9e3efc6420fa24
+  - gate: model
+    status: insufficient
+    reason: 公开材料未提供定价页、付费主体或采购记录，免费开源组件如何转化为收入尚不清楚；这是商业证据缺口，不反推需求不存在，谁付钱属判断而非已验证事实。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+  - gate: truth
+    status: insufficient
+    reason: 组件以源码交付、示例可接自有模型密钥，交付形式可核对；但缺少部署文档、issue 或可复现实测，无法确认长期维护与安全边界，承诺能否稳定兑现尚未验证。
+    evidence_ids:
+    - ev-1f9e3efc6420fa24
+  next_validation: 追踪 BoardUI 官方仓库的 issue/discussion 与 README 部署文档，确认开发者实际接入场景、替代的旧流程及是否有付费或商业支持入口。
+  market: ''
+  job: 前端开发者或 UI 设计师在构建 AI 聊天/智能体产品界面时，需要处理流式消息、工具调用状态、会话列表等交互材料，要完成一个可运行、可接自有模型密钥的对话界面，而不是从零手写组件。
+  job_en: A frontend developer or UI designer building an AI chat/agent product interface must handle
+    streaming messages, tool-call states, and conversation lists, and needs to ship a working chat UI
+    wired to their own model key instead of hand-rolling components from scratch.
+  pain: 智能体界面的交互状态（流式输出、工具调用、错误与重试）比普通表单复杂，从零搭建既耗时又容易做错；公开材料只说明组件以源码形式免费提供并附带可运行聊天示例，未提供用户抱怨或耗时数据，痛点强度属工作流结构推理。
+  pain_en: Agentic UI states (streaming output, tool calls, errors and retries) are more complex than
+    ordinary forms, so building them from scratch is slow and error-prone; public materials only state
+    that components ship as free source with a working chat demo, with no user complaints or time data,
+    so pain intensity is a workflow-structure inference.
+  current_alternative: 开发者通常自行手写聊天组件，或拼装通用组件库（如 shadcn/Radix 等）再自行补齐流式与工具调用逻辑；公开材料未直接描述这一替代流程，属基于产品定位的推断。
+  current_alternative_en: Developers typically hand-write chat components or assemble generic component
+    libraries (e.g. shadcn/Radix) and then add streaming and tool-call logic themselves; public materials
+    do not directly describe this alternative, so it is inferred from the product positioning.
+  usage_reason: 相较自行手写或拼装通用库，BoardUI 直接提供智能体界面组件的源码，并附带一个可接入自有模型密钥的可运行聊天应用作为首页示例，开发者可先跑通示例再按源码改造，省去从零实现流式与工具调用交互这一步；这属于基于产品能力的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with hand-writing or assembling generic libraries, BoardUI ships agentic-interface
+    component source plus a runnable chat app on the user's own model key as the homepage demo, so a developer
+    can run the demo first and then adapt the source, skipping the step of implementing streaming and
+    tool-call interactions from zero; this is inferred from product capability, not confirmed by user
+    feedback.

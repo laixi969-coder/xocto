@@ -1,0 +1,88 @@
+- id: req-initial-百度秒哒再升级让最懂业务的人亲手造自己的系统-2026-09-12
+  project_slug: 百度秒哒再升级让最懂业务的人亲手造自己的系统
+  level: initial
+  reviewed_at: '2026-09-12T00:19:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决内部系统排期长、外包沟通贵的问题，痛点真实；但公开材料只有一句升级描述，说不清生成范围与交付形态，价值结构尚不能确认。
+    evidence_ids:
+    - ev-301aed1c375b8927
+  - gate: consensus
+    status: insufficient
+    reason: 只有一篇报道，没有用户评价、社区讨论或采用迹象，无法判断业务人员是否真的愿意自己造系统。
+    evidence_ids:
+    - ev-301aed1c375b8927
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 还是 to C 不明；打通接单环节暗示平台侧抽成，但这是推断，不是已验证事实。
+    evidence_ids:
+    - ev-301aed1c375b8927
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成系统的正确性、安全边界与人工确认环节，交付确定性未知。
+    evidence_ids:
+    - ev-301aed1c375b8927
+  next_validation: 收集百度秒哒官方产品页或定价页，确认其生成范围、交付形态与收费方式。
+  market: ''
+  job: 企业里懂业务但不会写代码的人，在需要一套内部管理或流程系统时，用自然语言描述需求，让平台生成可运行的应用并交付使用。
+  job_en: Non-coding business staff who need an internal management or workflow system describe requirements
+    in natural language so the platform generates a runnable application and delivers it.
+  pain: 内部系统需求排期长、外包沟通成本高，业务人员只能靠表格和人工流程凑合。
+  pain_en: Internal system requests queue for a long time and outsourcing requires heavy communication,
+    so business staff fall back on spreadsheets and manual steps.
+  current_alternative: 找 IT 部门排期、外包开发，或用表格、现成 SaaS 拼凑流程。
+  current_alternative_en: Queueing with the IT department, outsourcing development, or patching processes
+    together with spreadsheets and off-the-shelf SaaS.
+  usage_reason: 推断：相较排期与外包，它让业务人员自己描述需求直接得到可运行系统，省去需求转译与反复沟通这一步；但公开材料未给出定价、客户案例或交付结果，无法确认用户是否真的把它留在工作流里。
+  usage_reason_en: 'Inference: versus queuing and outsourcing, it lets business staff describe needs and
+    get a runnable system directly, removing the requirement-translation and back-and-forth step; however
+    no pricing, customer case or delivery outcome is public, so sustained use cannot be confirmed.'
+- id: req-full-百度秒哒再升级让最懂业务的人亲手造自己的系统-2026-09-12
+  project_slug: 百度秒哒再升级让最懂业务的人亲手造自己的系统
+  level: full
+  reviewed_at: '2026-09-12T00:47:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决业务人员要内部系统却排不上 IT、外包沟通贵的问题，痛点刚性；公开报道称升级把开发、交付与接单打通，说明输入是自然语言需求、交付是可运行系统，闭环结构可还原，属工作流推理。
+    evidence_ids:
+    - ev-301aed1c375b8927
+  - gate: consensus
+    status: insufficient
+    reason: 仅一篇独立报道描述升级，没有用户评价、社区讨论或采用迹象，无法判断业务人员是否真的愿意自己造系统，也看不出卡在感知还是场景。
+    evidence_ids:
+    - ev-301aed1c375b8927
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 还是 to C 不明；打通接单环节暗示平台侧抽成或撮合收入，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-301aed1c375b8927
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成系统的正确性、数据安全边界与人工确认环节，交付能否确定性发生未知，贴近第一性目标的程度无法验证。
+    evidence_ids:
+    - ev-301aed1c375b8927
+  next_validation: 追踪百度秒哒官方产品页与定价页，确认其生成范围、交付形态、收费方式及是否公开客户案例或部署文档。
+  market: ''
+  job: 企业内部懂业务但不会写代码的业务人员，在需要一套内部管理或流程系统（如审批、台账、工单）时，用自然语言描述需求，让平台生成可运行的应用并交付上线使用。
+  job_en: Non-coding business staff inside a company who need an internal management or workflow system
+    (approvals, ledgers, tickets) describe the need in natural language so the platform generates a runnable
+    application and delivers it for use.
+  pain: 内部系统需求要排 IT 的期，外包开发沟通成本高、周期长，业务人员只能先用表格和人工流程凑合，流程一变就得重来。
+  pain_en: Internal system requests must queue behind IT, outsourcing carries heavy communication cost
+    and long cycles, so business staff patch along with spreadsheets and manual steps that break whenever
+    the process changes.
+  current_alternative: 找 IT 部门排期、外包开发，或用表格、现成 SaaS 拼凑流程。
+  current_alternative_en: Queueing with the IT department, outsourcing development, or patching processes
+    together with spreadsheets and off-the-shelf SaaS.
+  usage_reason: 推断：相较排期与外包，它让业务人员跳过需求转译与反复沟通，直接描述流程就得到可运行系统，省掉“写文档—等开发—验收返工”这一段；因此流程频繁变动、又拿不到 IT 排期的业务负责人会在自建内部工具时选择它。公开材料未给出定价、客户案例或交付结果，持续使用尚未核验。
+  usage_reason_en: 'Inference: versus queuing and outsourcing, it lets business staff skip requirement
+    translation and back-and-forth by describing the process and getting a runnable system, removing the
+    write-spec / wait-for-dev / rework loop; business owners with frequently changing processes and no
+    IT slot would choose it for self-built internal tools. No pricing, customer case or delivery outcome
+    is public, so sustained use is unverified.'

@@ -76,3 +76,43 @@
   usage_reason: 用户要完成的任务是：后端工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Backend engineer Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-nightshift-2026-09-12
+  project_slug: nightshift
+  level: full
+  reviewed_at: '2026-09-12T00:45:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向 Commodores 1985 年歌曲《Nightshift》的音乐视频与维基条目，与代码工具无关；连它解决什么需求、什么痛点都无法从公开材料还原，故价值关不成立。
+    evidence_ids:
+    - ev-af63edb7207aaa7e
+    - ev-59bbeedf5b1d1619
+    - ev-551911ae3a6bfbdd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Nightshift 代码工具的官方仓库或产品页（如 公开代码仓库 仓库、官网、部署文档），确认其真实产品身份与输入—交付流程。
+  market: ''
+  job: 后端工程师在结束一天工作后，把代码库交给 AI，期望夜间自动完成代码修改并产出可验收的改动结果。
+  job_en: A backend engineer hands over a codebase at the end of the day, expecting AI to make code changes
+    overnight and produce reviewable results.
+  pain: 公开材料未说明任何用户痛点、发生频率或不采用代价；现有证据全部是 Commodores 1985 年歌曲《Nightshift》的音乐视频与维基条目，与代码工具无关。
+  pain_en: Public materials show no user pain, frequency, or cost of not solving it; all evidence is about
+    the Commodores' 1985 song 'Nightshift', unrelated to any code tool.
+  current_alternative: 公开材料未说明用户目前如何完成夜间代码修改，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently do overnight code changes or
+    what prior approach it replaces.
+  usage_reason: 无法判断用户为何选择它：现有证据是音乐视频与歌曲条目，不含任何产品能力、用户反馈或采用记录，无法建立使用理由。
+  usage_reason_en: 'No usage reason can be established: the evidence is music videos and a song article,
+    with no product capability, user feedback, or adoption record.'

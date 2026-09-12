@@ -79,3 +79,54 @@
   usage_reason: 用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software Developer Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-cluxmate-2026-09-12
+  project_slug: cluxmate
+  level: full
+  reviewed_at: '2026-09-12T00:43:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理直接操作本地代码时的权限与安全需求：开发者需按风险分级授权、会话可回放、并有系统级沙箱兜底，否则不敢让代理改本地代码。公开材料显示同一内核提供三种入口并接任意兼容 OpenAI
+      接口，交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+    - ev-df123408e687cf95
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 150 个收藏、1 个复刻，说明社区注意到它，但未见用户评价、issue 讨论或持续采用证据，无法确认开发者已把它留在工作流。
+    evidence_ids:
+    - ev-df123408e687cf95
+    - ev-ad027fe070fed755
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购记录，开源仓库本身不构成收入路径；钱可能来自 to C 开发者自付模型 API 费用或 to B 支持，但均属判断而非已验证事实。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+  - gate: truth
+    status: insufficient
+    reason: 公开材料称有风险分级权限、可回放会话与 fail-closed 沙箱，但未见可复现的部署文档、安全边界测试或人工确认流程，交付是否稳定发生仍缺公开证据。
+    evidence_ids:
+    - ev-df123408e687cf95
+    - ev-ad027fe070fed755
+  next_validation: 追踪 CluxMate 仓库的 issue 与 discussion，确认是否有开发者报告在真实项目中部署、替代了哪一步旧流程以及沙箱与权限的实际表现。
+  market: ''
+  job: 软件开发者在本机或终端中处理代码仓库，给出编码任务后由代理执行跨文件代码改动，并需要回放会话、按风险分级授权，最终确认改动结果。
+  job_en: Software developers working on code repositories locally or in the terminal, giving a coding
+    task to an agent that performs cross-file code changes, with replayable sessions and risk-tiered permissions,
+    then confirming the result.
+  pain: 公开材料显示，编码代理执行改动时存在权限与安全顾虑：需要按风险分级授权、会话可回放、并有系统级沙箱兜底，否则开发者不敢让代理直接操作本地代码。
+  pain_en: 'Public material shows permission and safety concerns when a coding agent makes changes: risk-tiered
+    authorization, replayable sessions, and an OS-level sandbox are needed, otherwise developers will
+    not let an agent operate directly on local code.'
+  current_alternative: 开发者目前可能使用云端编码助手或单一入口的代理工具，但公开材料未说明其具体替代对象与旧流程。
+  current_alternative_en: Developers may currently use cloud coding assistants or single-entry agent tools,
+    but public material does not specify what it replaces or the prior workflow.
+  usage_reason: 推断：相较单一入口的编码代理，CluxMate 用同一 Python 内核提供 CLI、TUI 与桌面三种入口，并接任意兼容 OpenAI 的接口，开发者可在已有终端或脚本环境中直接调用；风险分级权限、可回放会话与
+    fail-closed 沙箱降低了让代理直接改本地代码的顾虑，因此对需要在受控环境下运行代理的开发者更可能被选择。
+  usage_reason_en: 'Inference: versus single-entry coding agents, CluxMate offers CLI, TUI, and desktop
+    entries from one Python core and works with any OpenAI-compatible API, so developers can call it from
+    existing terminal or script environments; risk-tiered permissions, replayable sessions, and a fail-closed
+    sandbox reduce the concern of letting an agent change local code, making it more likely to be chosen
+    by developers who need to run agents in a controlled environment.'

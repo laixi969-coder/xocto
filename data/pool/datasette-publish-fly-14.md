@@ -23,7 +23,7 @@ summary: "Release:   datasette-publish-fly 1.4  \n         \n \n Sets  force_htt
   \  #34  \n \n \n    \n    \n         Tags:  datasette ,  fly"
 first_seen: '2026-09-11T02:58:52Z'
 last_seen: '2026-09-12T00:19:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

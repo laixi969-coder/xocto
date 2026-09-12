@@ -1,0 +1,89 @@
+- id: req-initial-chat-recall-2026-09-12
+  project_slug: chat-recall
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长对话后找不到旧结论的问题，痛点真实且不解决的代价是重复提问；但公开材料只有一句检索式描述，具体覆盖范围未核验。
+    evidence_ids:
+    - ev-2ab65ac3dd74d7c2
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条产品页描述，没有用户评价、采用规模或社区讨论，无法判断是否已形成使用共识。
+    evidence_ids:
+    - ev-2ab65ac3dd74d7c2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，检索类工具可能走个人订阅或团队席位，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2ab65ac3dd74d7c2
+  - gate: truth
+    status: insufficient
+    reason: 检索结果是否准确、是否覆盖主流助手、是否本地存储，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-2ab65ac3dd74d7c2
+  next_validation: 收集该产品的官方定价页或支持平台列表，确认它检索哪些 AI 产品的历史会话以及是否收费。
+  market: ''
+  job: 个人用户在与 AI 进行多轮长对话后，需要找回此前讨论过的结论、代码片段或决定，材料是散落在各会话里的历史消息。
+  job_en: After long multi-turn AI sessions, an individual needs to recover earlier conclusions, code
+    snippets, or decisions from messages scattered across separate conversations.
+  pain: 历史会话只能靠手动滚动和记忆定位，会话越长越难找，找不到就得重新问一遍，重复消耗时间和额度。
+  pain_en: Past sessions can only be located by manual scrolling and memory; the longer the thread, the
+    harder the search, and failing to find it means re-asking and burning time and quota again.
+  current_alternative: 旧做法是手动滚动会话、复制到本地笔记，或重新向模型提问一遍。
+  current_alternative_en: The old way is scrolling the thread by hand, copying into local notes, or simply
+    asking the model again.
+  usage_reason: 推断：相较手动滚动，它把历史会话直接当作可检索对象，省掉逐条翻找这一步，因此经常跨多个助手做长任务、需要回查旧结论的用户会在找不到上下文时选择它。
+  usage_reason_en: 'Inference: versus manual scrolling, it treats past sessions as a searchable corpus,
+    removing the step of paging through messages one by one, so users running long tasks across several
+    assistants pick it when they lose context.'
+- id: req-full-chat-recall-2026-09-12
+  project_slug: chat-recall
+  level: full
+  reviewed_at: '2026-09-12T00:43:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长对话后找不到旧结论的问题：手动滚动与记忆定位随会话变长而失效，找不到只能重新提问，重复消耗时间与额度。产品页仅一句定位，覆盖范围与检索方式未披露，价值判断基于任务结构推理。
+    evidence_ids:
+    - ev-2ab65ac3dd74d7c2
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条 公开资料 产品页描述，没有用户评价、采用规模或社区讨论，无法判断是否已形成使用共识，也无法确认用户是否重复使用。
+    evidence_ids:
+    - ev-2ab65ac3dd74d7c2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，检索类工具可能走个人订阅或团队席位，这是判断而非已验证事实；中文生态检索未发现对应供给。
+    evidence_ids:
+    - ev-8a86efec11bf34f6
+  - gate: truth
+    status: insufficient
+    reason: 检索结果是否准确、覆盖哪些 AI 助手、历史会话是否本地存储与加密，公开材料均未说明，交付确定性与隐私边界无法核对。
+    evidence_ids:
+    - ev-2ab65ac3dd74d7c2
+  next_validation: 收集 chat-recall 的官方定价页或支持平台列表，确认它检索哪些 AI 产品的历史会话、数据存放位置以及是否收费。
+  market: ''
+  job: 个人用户在与 AI 进行多轮长对话后，需要找回此前讨论过的结论、代码片段或决定，材料是散落在多个会话里的历史消息，任务是把那段内容定位出来继续用。
+  job_en: After long multi-turn AI sessions, an individual needs to recover earlier conclusions, code
+    snippets, or decisions from messages scattered across separate conversations, with the task being
+    to locate that passage and keep using it.
+  pain: 历史会话只能靠手动滚动和记忆定位，会话越长越难找；找不到就得重新问一遍，重复消耗时间和额度，跨多个助手时还要在几个产品之间来回翻。公开材料只有一句产品定位，痛点由任务结构推出。
+  pain_en: Past sessions can only be located by manual scrolling and memory; the longer the thread, the
+    harder the search, and failing to find it means re-asking and burning time and quota, with extra switching
+    when several assistants are involved. Public material is a single positioning line, so the pain is
+    inferred from the task structure.
+  current_alternative: 旧做法是手动滚动会话、把关键内容复制到本地笔记，或干脆重新向模型提问一遍；部分助手自带的会话搜索只覆盖单一产品内部。
+  current_alternative_en: The old way is scrolling the thread by hand, copying key content into local
+    notes, or simply asking the model again; built-in session search in some assistants only covers that
+    one product.
+  usage_reason: 推断：相较手动滚动或复制到笔记，它把历史会话直接当作可检索对象，用关键词或语义查找一步定位到那段消息，省掉逐条翻找与重新提问，因此经常跨多个助手做长任务、需要回查旧结论的个人用户会在丢失上下文时选择它。
+  usage_reason_en: 'Inference: versus manual scrolling or copying into notes, it treats past sessions
+    as a searchable corpus and locates the passage in one keyword or semantic lookup, removing the paging
+    and re-asking steps; individuals running long tasks across several assistants would choose it when
+    they lose context.'

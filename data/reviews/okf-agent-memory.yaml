@@ -230,3 +230,44 @@
   usage_reason: 用户要完成的任务是：AI 编程助手用户、软件工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI coding assistant users, Software engineers Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-okf-agent-memory-2026-09-12
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-12T00:45:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据只描述 OKF 是把知识写成 markdown 的格式规范，未记录任何开发者对代理失忆、重复喂上下文或 token 浪费的具体抱怨与代价，连要解决的需求和痛点都还原不出，无法判断刚性。
+    evidence_ids:
+    - ev-a45b0a4d5e6d5141
+    - ev-ece3e057e3779dc0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 okf.md 官网与 公开代码仓库 仓库的 README、issue 和 discussion，确认是否有开发者描述代理失忆的具体场景、替代的旧做法及实际部署记录。
+  market: ''
+  job: AI 编程代理在开发者本地仓库中工作时，需要读取项目历史与既有知识；开发者希望代理能跨会话记住项目上下文，而不是每次重新喂入。
+  job_en: While an AI coding agent works inside a developer's local repository, it needs to read project
+    history and existing knowledge; the developer wants the agent to retain project context across sessions
+    instead of re-feeding it each time.
+  pain: 公开材料只说明 OKF 是一种把知识写成 markdown 的格式规范，未记录任何开发者关于代理失忆、重复喂上下文或 token 浪费的具体抱怨、频率或代价。
+  pain_en: Public materials only describe OKF as a markdown knowledge format; they record no developer
+    complaint, frequency, or cost regarding agent amnesia, repeated context feeding, or token waste.
+  current_alternative: 公开材料未说明开发者目前如何为代理保留项目记忆，也未说明它替代了 CLAUDE.md、仓库内文档还是其他记忆方案。
+  current_alternative_en: Public materials do not show how developers currently preserve project memory
+    for agents, nor whether it replaces CLAUDE.md, in-repo docs, or other memory approaches.
+  usage_reason: 推断：若代理能直接读取仓库内 markdown 知识而无需额外 SDK 或查询语言，开发者可能省去手工拼接上下文的步骤；但公开材料没有用户反馈或案例支持这一动机，无法确认。
+  usage_reason_en: 'Inference: if an agent can read in-repo markdown knowledge without an extra SDK or
+    query language, developers might skip manually assembling context; but no public user feedback or
+    case supports this motive, so it cannot be confirmed.'

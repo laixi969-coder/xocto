@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE1QbzZvc0hTLW9k
 summary: DeepPredict Pro AI赛事预测系统：添运客户端下载精度领先，界面炫酷体验流畅 体坛加
 first_seen: '2026-09-11T10:09:08Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://wesselsdesktop.com
 summary: I built a hand-modeled 3D Windows 98 portfolio with Three.js
 first_seen: '2026-09-11T18:53:49Z'
 last_seen: '2026-09-12T00:18:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,95 @@
+- id: req-initial-yourdesk-2026-09-12
+  project_slug: yourdesk
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨平台远程操作与文件同步分散在多套工具里的问题，痛点具体且旧行为明确；但公开材料未显示用户采用或付费，价值判断基于工作流推理。
+    evidence_ids:
+    - ev-a029e97560a84865
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 182 星、26 次 fork，只能说明有开发者关注，没有用户评价、客户案例或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-a029e97560a84865
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或收费方式；可能来自企业自建部署或托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a029e97560a84865
+  - gate: truth
+    status: insufficient
+    reason: MCP 让 agent 控制远端电脑涉及权限、审计与安全边界，公开材料未说明这些机制，交付确定性无法核对。
+    evidence_ids:
+    - ev-a029e97560a84865
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，核对 MCP 接入远端机器的权限与审计机制，以及是否出现企业部署或付费支持的公开记录。
+  market: ''
+  job: 运维或远程支持工程师在需要维护、排障或演示另一台 macOS/Windows 电脑时，处理远端屏幕、多显示器窗口以及剪贴板中的文本、图片、文件和文件夹，要完成对远端机器的操作并把文件同步过去。
+  job_en: An IT operations or remote support engineer maintaining, troubleshooting or demoing another
+    macOS/Windows machine handles the remote screen, multi-monitor windows and clipboard text, images,
+    files and folders, and must operate the remote machine and sync files across.
+  pain: 跨平台远程操作要在不同系统间切换工具，剪贴板传文件常要另开网盘或聊天窗口中转，多显示器场景下窗口管理混乱；若还要让 AI 代操作，缺少让 agent 接入远端机器的标准通道。
+  pain_en: Cross-platform remote work means switching tools between systems, clipboard file transfer often
+    detours through cloud drives or chat windows, multi-monitor window management is messy, and letting
+    AI act on the remote machine lacks a standard channel for agents to connect.
+  current_alternative: 现有做法是使用系统自带远程桌面、第三方远程控制软件，再配合网盘或聊天工具传文件，AI 代操作则靠脚本或人工点击。
+  current_alternative_en: The current approach is built-in remote desktop or third-party remote control
+    software plus cloud drives or chat tools for file transfer, with AI actions done through scripts or
+    manual clicking.
+  usage_reason: 相较旧做法，它把画面传输、多显示器窗口和剪贴板文件同步收在同一个跨平台客户端里，省掉为传一个文件另开网盘中转这一步；MCP 接口让 agent 直接接入远端机器，减少人工逐台登录点击。推断：需要批量维护多台机器、又希望
+    agent 代操作的运维与远程支持人员会在这种情况下选择它，但公开材料尚无留存或付费证据。
+  usage_reason_en: 'Compared with the old approach, it keeps screen streaming, multi-monitor windows and
+    clipboard file sync inside one cross-platform client, removing the step of opening a cloud drive just
+    to move a file; the MCP interface lets agents connect to the remote machine directly, cutting manual
+    per-machine logins and clicks. Inference: IT operations and remote support staff who maintain many
+    machines and want agents to act on them would choose it in that situation, but public materia'
+- id: req-full-yourdesk-2026-09-12
+  project_slug: yourdesk
+  level: full
+  reviewed_at: '2026-09-12T00:47:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨平台远程操作与文件同步分散在多套工具里的问题：剪贴板传文件要另开网盘中转、多显示器窗口管理混乱，AI 代操作缺少标准接入通道。旧行为明确，价值判断基于工作流结构推理。
+    evidence_ids:
+    - ev-a029e97560a84865
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 182 星只说明有开发者关注，公开材料没有用户评价、客户案例或持续采用记录，无法判断共识是否形成。
+    evidence_ids:
+    - ev-a029e97560a84865
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或收费方式；可能来自企业自建部署或托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a029e97560a84865
+  - gate: truth
+    status: insufficient
+    reason: MCP 让 agent 控制远端电脑涉及权限、审计与安全边界，公开材料未说明这些机制，交付确定性无法核对。
+    evidence_ids:
+    - ev-a029e97560a84865
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，核对 MCP 接入远端机器的权限与审计机制，以及是否出现企业部署或付费支持的公开记录。
+  market: ''
+  job: 运维或远程支持工程师在需要维护、排障或演示另一台 macOS/Windows 电脑时，处理远端屏幕、多显示器窗口以及剪贴板中的文本、图片、文件和文件夹，要完成对远端机器的操作并把文件同步过去。
+  job_en: An IT operations or remote support engineer maintaining, troubleshooting or demoing another
+    macOS/Windows machine handles the remote screen, multi-monitor windows and clipboard text, images,
+    files and folders, and must operate the remote machine and sync files across.
+  pain: 跨平台远程操作要在不同系统间切换工具，剪贴板传文件常要另开网盘或聊天窗口中转，多显示器场景窗口管理混乱；若要让 AI 代操作，缺少让 agent 接入远端机器的标准通道。
+  pain_en: Cross-platform remote work means switching tools between systems, clipboard file transfer often
+    detours through cloud drives or chat windows, multi-monitor window management is messy, and letting
+    AI act on the remote machine lacks a standard channel for agents to connect.
+  current_alternative: 使用系统自带远程桌面或第三方远程控制软件，再配合网盘或聊天工具传文件，AI 代操作则靠脚本或人工点击。
+  current_alternative_en: Built-in remote desktop or third-party remote control software plus cloud drives
+    or chat tools for file transfer, with AI actions done through scripts or manual clicking.
+  usage_reason: 相较旧做法，它把画面传输、多显示器窗口和剪贴板文件同步收在同一个跨平台客户端里，省掉为传一个文件另开网盘中转这一步；MCP 接口让 agent 直接接入远端机器，减少人工逐台登录点击。推断：需要批量维护多台机器、又希望
+    agent 代操作的运维与远程支持人员会在这种情况下选择它，但公开材料尚无留存或付费证据。
+  usage_reason_en: 'Compared with the old approach, it keeps screen streaming, multi-monitor windows and
+    clipboard file sync inside one cross-platform client, removing the step of opening a cloud drive just
+    to move a file; the MCP interface lets agents connect to the remote machine directly, cutting manual
+    per-machine logins and clicks. Inference: IT operations and remote support staff who maintain many
+    machines and want agents to act on them would choose it here, but no retention or payment evi'

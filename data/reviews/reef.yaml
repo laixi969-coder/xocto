@@ -333,3 +333,43 @@
   usage_reason: 用户要完成的任务是：AI 智能体开发者、机器学习工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI agent developers, Machine learning engineers Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-reef-2026-09-12
+  project_slug: reef
+  level: full
+  reviewed_at: '2026-09-12T00:46:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称管理智能体持续学习流程，但公开材料只有一句定位，未说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-64589b3cfd8846e9
+    - ev-91355ba879632531
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或文档页，确认其数据接入方式、学习机制与是否有公开部署案例。
+  market: ''
+  job: AI 智能体开发者或机器学习工程师在智能体上线后，把运行日志与交互数据接入持续学习流程，让智能体从经验中更新自身行为。
+  job_en: AI agent developers or ML engineers feeding runtime logs and interaction data into a continual-learning
+    loop so an agent updates its own behavior from experience.
+  pain: 公开材料只有一句定位描述，没有说明开发者当前卡在哪一步、不解决会有什么后果，无法确认痛点存在。
+  pain_en: The public material is a single positioning line; it does not say which step developers are
+    stuck on or what happens if it is not solved, so the pain cannot be confirmed.
+  current_alternative: 公开材料未说明开发者目前如何完成智能体经验更新，无法还原旧替代方式。
+  current_alternative_en: Public materials do not show how developers currently update agents from experience,
+    so the prior alternative cannot be reconstructed.
+  usage_reason: 推断：若它能把运行数据自动转成可复用的学习更新，开发者就不必手写微调与数据管道；但公开材料未给出任何采用、复用或交付证据，无法确认用户会选它。
+  usage_reason_en: 'Inference: if it turns runtime data into reusable learning updates, developers would
+    not hand-build fine-tuning and data pipelines; but no adoption, reuse or delivery evidence exists,
+    so user choice cannot be confirmed.'

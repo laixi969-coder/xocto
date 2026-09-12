@@ -1,6 +1,6 @@
 ---
 slug: ai-research-startup-listen-labs-scrubbed-a-15b-funding-round-2
-name: AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks
+name: Listen Labs
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUQwT1FwQUpR
 summary: AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks TechCrunch
 first_seen: '2026-09-10T00:00:37Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks
+# Listen Labs
 
 AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks TechCrunch
 

@@ -1,6 +1,6 @@
 ---
 slug: 微软-vs-code-1137-发布为宠物征名按小时-日-周调度-ai-智能体任务
-name: 微软 VS Code 1.137 发布：为宠物征名、按小时 / 日 / 周调度 AI 智能体任务
+name: Visual Studio Code
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1KYTg3b2ZyMU1S
 summary: 微软 VS Code 1.137 发布：为宠物征名、按小时 / 日 / 周调度 AI 智能体任务 同花顺财经
 first_seen: '2026-09-11T08:53:51Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 微软 VS Code 1.137 发布：为宠物征名、按小时 / 日 / 周调度 AI 智能体任务
+# Visual Studio Code
 
 微软 VS Code 1.137 发布：为宠物征名、按小时 / 日 / 周调度 AI 智能体任务 同花顺财经
 

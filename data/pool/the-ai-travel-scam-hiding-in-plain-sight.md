@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1lmV0tfWlFz
 summary: The AI travel scam hiding in plain sight USA Today
 first_seen: '2026-09-11T09:03:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

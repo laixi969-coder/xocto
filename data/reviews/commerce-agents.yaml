@@ -326,3 +326,52 @@
   usage_reason: 用户要完成的任务是：购物助手、商家运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Shopping assistant, Merchant operations Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-commerce-agents-2026-09-12
+  project_slug: commerce-agents
+  level: full
+  reviewed_at: '2026-09-12T00:44:00Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是为零售电商等场景搭建购物与商家智能体的需求，痛点是自建编排与场景示例成本高；公开材料仅给出蓝图定位与示例行业，痛点强度属工作流结构推理，尚无用户抱怨或量化数据，但任务、输入与交付闭环可还原。
+    evidence_ids:
+    - ev-c99da41945e2724e
+    - ev-0c1aeee1804cf90f
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从2184持续升至2741，说明开发者社区持续关注并收藏该蓝图；但收藏属关注度证据，不能证明已长期嵌入工作流或持续采用，故共识仅初步成立。
+    evidence_ids:
+    - ev-c99da41945e2724e
+    - ev-f205996242ee6c57
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径；作为Anthropic发布的参考蓝图，其变现可能来自Claude API消耗或企业方案，但这是判断而非已验证事实，买方与单位经济仍缺公开证据。
+    evidence_ids:
+    - ev-c99da41945e2724e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、可复现实测或人工与安全边界说明，无法核验智能体在订单处理等动作上能否确定性交付；蓝图定位本身不等于交付已被验证。
+    evidence_ids:
+    - ev-c99da41945e2724e
+    - ev-0c1aeee1804cf90f
+  next_validation: 追踪该蓝图官方仓库的 README、示例目录与 issue/discussion，确认是否有团队公开报告将其部署到真实商品与订单流程，以及是否附带部署文档或安全边界说明。
+  market: ''
+  job: 开发者或商家技术团队在需要为零售、电商、电信、娱乐业务搭建购物助手或商家运营智能体时，处理商品目录、用户查询与订单等材料，要完成从对话推荐到订单处理的可运行智能体交付。
+  job_en: Developers or merchant tech teams building shopping-assistant or merchant-operations agents
+    for retail, e-commerce, telecom, and entertainment, working with product catalogs, user queries, and
+    order data to deliver a runnable agent from conversational recommendation to order handling.
+  pain: 公开材料只说明这是参考蓝图，未给出用户抱怨或量化痛点；从工作流结构推断，自建购物/商家智能体需自行设计工具调用、商品数据接入与订单动作编排，缺少可复用起点会拉长从零搭建到可演示的路径。
+  pain_en: Public materials only describe a reference blueprint and give no user complaints or quantified
+    pain; by workflow inference, building shopping/merchant agents from scratch requires designing tool
+    calls, catalog integration, and order-action orchestration, and lacking a reusable starting point
+    lengthens the path from zero to a demo.
+  current_alternative: 当前替代方式是开发者自行从零编写智能体编排代码，或直接使用通用 Claude API 与文档自行拼装购物、商家场景示例。
+  current_alternative_en: The current alternative is developers writing agent orchestration from scratch,
+    or assembling shopping and merchant scenarios themselves from the generic Claude API and docs.
+  usage_reason: 推断：相较从零拼装，该蓝图把零售、电商、电信、娱乐的示例流程与工具调用结构预先给出，开发者可跳过场景骨架设计这一步，直接在其上接入自己的商品与订单数据；因此需要快速验证购物助手或商家运营智能体可行性的团队会在原型阶段选择它。
+  usage_reason_en: 'Inference: versus assembling from scratch, the blueprint pre-supplies example flows
+    and tool-call structure for retail, e-commerce, telecom, and entertainment, letting developers skip
+    scenario-skeleton design and plug in their own catalog and order data; teams needing to quickly validate
+    a shopping-assistant or merchant-operations agent would therefore pick it at the prototype stage.'

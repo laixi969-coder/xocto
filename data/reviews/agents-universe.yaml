@@ -100,3 +100,42 @@
   current_alternative_en: Currently users may manually manage context or use single agents.
   usage_reason: 可能因解决记忆共享问题而受关注，但需求强度未明。
   usage_reason_en: May be noticed for solving memory sharing, but demand intensity is unclear.
+- id: req-full-agents-universe-2026-09-12
+  project_slug: agents-universe
+  level: full
+  reviewed_at: '2026-09-12T00:43:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅一句定位与仓库星数，无法还原谁在什么情况下处理什么材料、要完成什么任务，也看不出不解决的后果，需求与痛点均写不实。
+    evidence_ids:
+    - ev-5b2bfb067108c376
+    - ev-172aff74235611cd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 agents-universe 官方仓库 README 与 issue/discussion，确认共享记忆的具体输入、动作、交付物与使用场景。
+  market: ''
+  job: 开发者或团队在运行多个 AI 智能体处理同一项目时，需要让它们共享项目记忆与学习成果，避免每个智能体各自从零开始。
+  job_en: Developers or teams running multiple AI agents on the same project need them to share project
+    memory and learned results instead of each agent starting from scratch.
+  pain: 公开材料只有一句产品定位和仓库星数，未说明多智能体记忆割裂具体造成什么损失、发生频率与不解决的后果，痛点无法从公开事实还原。
+  pain_en: Public materials offer only a one-line positioning and star counts; they do not show what loss
+    fragmented multi-agent memory causes, how often, or the consequence of leaving it unsolved.
+  current_alternative: 公开材料未说明用户当前如何完成跨智能体记忆共享，可能的手动上下文管理或单智能体方案均属推测。
+  current_alternative_en: Public materials do not show how users currently share memory across agents;
+    manual context management or single-agent setups are speculation.
+  usage_reason: 仓库星数从 299 增至 319 只说明开发者关注度上升，不能解释用户为何选择它，也未见留存或重复使用证据。
+  usage_reason_en: Stars rising from 299 to 319 shows developer attention only; it does not explain why
+    users choose it, and no retention or repeat-use evidence exists.

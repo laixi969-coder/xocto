@@ -364,3 +364,54 @@
   usage_reason: 用户要完成的任务是：AI 代理开发者、计算研究员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI agent developers, Computational researchers Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-hexstellar-2026-09-12
+  project_slug: hexstellar
+  level: full
+  reviewed_at: '2026-09-12T00:44:42Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理执行优化、量子与科学计算时结果不可自证的问题，痛点是数值结果无法核验；公开仓库说明提供确定性标签与验证收据，可还原输入—求解—交付闭环，属工作流结构推理，尚无用户痛点原话。
+    evidence_ids:
+    - ev-fb59a9a935a8150a
+    - ev-23d607f15b4aa3e1
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 927 增至 1,145，说明开发者持续关注并把它加入工具链候选；但收藏属关注度证据，不能证明已长期嵌入工作流，也未见 issue 或评价说明强场景。
+    evidence_ids:
+    - ev-fb59a9a935a8150a
+    - ev-23d607f15b4aa3e1
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有免费沙箱与 pip 安装，未见定价页、付费主体或采购记录；钱可能来自 to B 团队订阅或 to C 开发者增值服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fb59a9a935a8150a
+  - gate: truth
+    status: insufficient
+    reason: 确定性标签与验证收据的承诺能否稳定复现，公开材料未给出可复现实测、基准或部署文档；量子计算部分的安全与人工边界也未见说明。
+    evidence_ids:
+    - ev-fb59a9a935a8150a
+    - ev-eda348a444145c7d
+  next_validation: 追踪 HexStellar Cortex 官方仓库的 README、issue 与 discussion，确认是否出现可复现的验证收据示例、基准结果或客户部署说明。
+  market: ''
+  job: AI 代理开发者或计算研究员在构建需要数值求解的代理流程时，把优化、量子模拟或科学计算问题交给 HexStellar Cortex，通过 Python CLI 或 API 执行计算，并拿到带确定性标签和验证收据的结果，再决定是否采信或继续迭代。
+  job_en: AI agent developers or computational researchers building agent workflows that need numerical
+    solving hand optimization, quantum simulation, or scientific computing problems to HexStellar Cortex
+    via Python CLI or API, receive results with certainty labels and verification receipts, then decide
+    whether to trust or iterate.
+  pain: LLM 代理直接生成数值结果时无法自证正确性，开发者要么手工重算、要么把结果当作不可靠输出丢弃；公开材料只说明产品提供确定性标签与验证收据，未提供用户抱怨或失败案例，因此痛点强度属于工作流结构推理。
+  pain_en: LLM agents producing numerical results cannot self-certify correctness, so developers either
+    recompute by hand or discard the output as unreliable; public materials only show the product offers
+    certainty labels and verification receipts, with no user complaints or failure cases, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 开发者目前通常自行拼装 SciPy、CVXPY、Qiskit 等数值库，或让代理直接调用通用代码解释器，再人工核对结果；公开材料未说明它具体替代了哪条既有流程。
+  current_alternative_en: Developers today typically assemble SciPy, CVXPY, Qiskit and similar numerical
+    libraries themselves, or let agents call a general code interpreter and verify results manually; public
+    materials do not state which existing pipeline it replaces.
+  usage_reason: 推断：相较自行拼装数值库并人工核对，它把求解与验证收据打包成一次 CLI/API 调用，减少代理侧编排和事后核验的步骤，因此需要可核验数值结果的代理开发者会在构建计算型代理时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus assembling numerical libraries and verifying manually, it packages
+    solving plus verification receipts into one CLI/API call, cutting agent-side orchestration and post-hoc
+    checking, so agent developers needing verifiable numerical results would choose it when building computational
+    agents; public materials contain no user feedback confirming this motive.'

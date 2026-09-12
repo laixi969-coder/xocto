@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/ziyunliiii/BBC_Reporter
 summary: An AI news reporter covers your room as breaking news
 first_seen: '2026-09-11T15:13:46Z'
 last_seen: '2026-09-12T00:19:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

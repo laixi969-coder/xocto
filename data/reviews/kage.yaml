@@ -1,0 +1,81 @@
+- id: req-initial-kage-2026-09-12
+  project_slug: kage
+  level: initial
+  reviewed_at: '2026-09-12T00:18:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决设计参考转提示词这一步的人工拆解负担，方向成立，但公开材料只有一句描述，旧流程与交付结果无法确认。
+    evidence_ids:
+    - ev-908bd61ed6abe345
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区发布记录，无用户评价或采用规模，无法判断设计师是否真的把它纳入日常。
+    evidence_ids:
+    - ev-908bd61ed6abe345
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能面向个人设计师或团队订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-908bd61ed6abe345
+  - gate: truth
+    status: insufficient
+    reason: 案例来源与授权、提示词能否稳定复现设计意图，公开材料均未说明。
+    evidence_ids:
+    - ev-908bd61ed6abe345
+  next_validation: 收集 Kage 官方页面或文档，确认设计案例的来源与授权方式，以及生成提示词的实际样例。
+  market: ''
+  job: 做界面设计的人，在需要给编码或设计智能体下指令时，先找真实产品案例，再把它整理成可用的提示词。
+  job_en: People doing interface design who, before instructing coding or design agents, look for real
+    product examples and turn them into usable prompts.
+  pain: 把设计参考转成智能体能用的提示词需要人工拆解与描述，费时且结果不稳定；但公开材料只有一句描述，痛点强度无法确认。
+  pain_en: Turning design references into agent-usable prompts requires manual decomposition and description,
+    which is slow and inconsistent; but the public material is one line, so pain intensity cannot be confirmed.
+  current_alternative: 在灵感图库或设计社区找参考，再手工写提示词交给智能体。
+  current_alternative_en: Finding references in inspiration galleries or design communities, then writing
+    prompts by hand for the agent.
+  usage_reason: 推断：若它能把真实界面案例直接转成结构化提示词，用户可省去自己拆解布局与样式并逐条描述的一步，因此常给智能体下设计指令的人会尝试；公开材料未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: if it turns real interface examples directly into structured prompts, users
+    skip decomposing layout and style and describing them line by line, so people who often brief agents
+    on design would try it; no retention or repeat-use evidence is public.'
+- id: req-full-kage-2026-09-12
+  project_slug: kage
+  level: full
+  reviewed_at: '2026-09-12T00:44:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决设计参考转提示词的人工拆解负担，但公开材料只有一句产品描述，既无用户痛点陈述，也无旧流程与交付结果，连需求与痛点都难以具体写出。
+    evidence_ids:
+    - ev-498c1cd308e75348
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Kage 官方产品页或文档，确认设计案例的来源与授权方式，以及生成提示词的实际样例与使用说明。
+  market: ''
+  job: 做界面设计的人，在需要给编码或设计智能体下指令时，先找真实产品案例，再把它整理成可用的提示词。
+  job_en: People doing interface design who, before instructing coding or design agents, look for real
+    product examples and turn them into usable prompts.
+  pain: 公开材料只有一句产品描述，无法确认把设计参考转成智能体提示词这一步究竟带来多大负担，也看不到用户抱怨或绕行行为。
+  pain_en: The public material is a single product description; it cannot confirm how burdensome turning
+    design references into agent prompts really is, and no user complaints or workarounds are visible.
+  current_alternative: 在灵感图库或设计社区找参考，再手工写提示词交给智能体。
+  current_alternative_en: Finding references in inspiration galleries or design communities, then writing
+    prompts by hand for the agent.
+  usage_reason: 推断：若它能把真实界面案例直接转成结构化提示词，用户可省去自己拆解布局与样式并逐条描述的一步；但公开材料未给出任何用户反馈、留存或重复使用证据，无法确认谁会因此选择它。
+  usage_reason_en: 'Inference: if it turns real interface examples directly into structured prompts, users
+    skip decomposing layout and style and describing them line by line; but no user feedback, retention,
+    or repeat-use evidence is public, so who would choose it cannot be confirmed.'
