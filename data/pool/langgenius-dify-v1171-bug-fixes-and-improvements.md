@@ -875,16 +875,16 @@ summary: "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate
   * @Babulubobo made their first contribution in https://github.com/langgenius/dify/pull/42085\r\n\r\n\
   **Full Changelog**: https://github.com/langgenius/dify/compare/1.17.0...1.17.1"
 first_seen: '2026-09-10T10:04:06Z'
-last_seen: '2026-09-11T00:10:34Z'
-status: rejected
+last_seen: '2026-09-12T00:18:44Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/langgenius/dify/releases/tag/1.17.1
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    reactions: 0
+    reactions: 2
   kind: news
 ---
 

@@ -28,17 +28,17 @@ url: https://jz-ai-chat.com
 canonical_url: https://jz-ai-chat.com
 summary: Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.
 first_seen: '2026-08-27T04:08:50Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://jz-ai-chat.com
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 179
-    forks: 19
+    stars: 212
+    forks: 20
     open_issues: 4
   kind: product
 ---

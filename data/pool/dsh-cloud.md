@@ -22,16 +22,16 @@ summary: 'dshcloud：部署并托管 DeepSeek Harness (dsh) 实例的多租户�
   instances — self-hosted on your own server or cloud-hosted: a multi-tenant platform with isolated Docker
   containers, persistent workspaces and resource quotas.'
 first_seen: '2026-09-09T07:47:57Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://eskim2001.github.io/dsh-cloud/
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 61
+    stars: 63
     forks: 1
     open_issues: 0
   kind: product

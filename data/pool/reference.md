@@ -11,19 +11,34 @@ inspiration_en: Assistants find code by searching again and again — expensive 
   retrieval out of reasoning into one local query. The entry is engineers who use a coding assistant every
   day. Free at launch; later pricing undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.producthunt.com/products/reference-2
 canonical_url: https://producthunt.com/products/reference-2
 summary: Local semantic search for AI agents
 first_seen: '2026-08-05T05:07:59Z'
-last_seen: '2026-08-11T05:03:07Z'
-status: analyzed
+last_seen: '2026-09-12T00:19:08Z'
+status: pending_filter
 sources:
 - producthunt
+- officialfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/reference-2
   seen_at: '2026-08-11T05:03:07Z'
   metrics: {}
+  kind: product
+- source: officialfeeds
+  url: https://machinelearning.apple.com/research/discosign-gloss-translation
+  seen_at: '2026-09-12T00:19:08Z'
+  metrics: {}
+  kind: news
 ---
 
 # Reference

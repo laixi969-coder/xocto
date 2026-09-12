@@ -1666,3 +1666,35 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-9fd10a84acfdc4ba
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/shopware-mcp
+  title: shopware-mcp
+  published_at: '2026-09-03T17:33:14Z'
+  collected_at: '2026-09-12T00:18:44Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'MCP server for Shopware 6. Products, orders, customers, stock, documents, a one-call health audit
+    and sales reports for CODEX, Claude Desktop, Cursor and any MCP host. Read-only by default, guarded
+    writes with dry runs. | repository stars: 57'
+- id: ev-fde8fec1b33a482a
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@opencode2dsh/dsh-plugin
+  title: opencode2dsh
+  published_at: '2026-08-29T07:22:12Z'
+  collected_at: '2026-09-12T00:18:44Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DSH plugin — free OpenCode Zen models for DeepSeek Harness (DSH). Free LLM API, no API key needed.
+    在 DSH 中使用 OpenCode Zen 免费模型，无需 API key | repository stars: 56'
+- id: ev-6e6222e8e4547a1c
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/baoer_signal_grep
+  title: baoer_signal_grep
+  published_at: '2026-08-27T11:39:55Z'
+  collected_at: '2026-09-12T00:18:44Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Context-efficient project search and bounded code analysis for Claude Code & Codex & Pi & OMP.
+    and remote MCP clients, powered by ripgrep with stable cursors, source inspection, and structural
+    evidence. | repository stars: 78'

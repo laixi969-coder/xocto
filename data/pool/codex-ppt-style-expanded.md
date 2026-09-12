@@ -37,16 +37,16 @@ canonical_url: https://github.com/bobyu89/codex-ppt-style-expanded
 summary: SlideWeave｜圖敘簡報 — Audience-aware, multi-style editable presentations for Codex, with AI visuals,
   draw.io workflows, and research storytelling.
 first_seen: '2026-09-06T12:17:40Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bobyu89/codex-ppt-style-expanded
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 77
+    stars: 82
     forks: 8
     open_issues: 0
   kind: product

@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-12T00:19:17Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -220,6 +220,23 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNUkhQd2h4YllmdmljRDhLdkZYVk5TMkxja05jTHhUbWlzNzI0dmRxTG1jR1lBSzczODh5RWJNRE1xM1p1aldEX3FUYzQ0TUJheWt4ZXB3ZFNvbzQ0S0xyUnhHOFRzWE50bXl4SlZVa1ZpR1oyZ2U5VTVyUlNvYUctS1luX2YzVDNJYmZMV0Y2c1MyVDlOR0tSV1JGT2N6aE9MZ1ZHQlJMbElsUEM3WUE?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/
+  seen_at: '2026-09-12T00:18:40Z'
+  metrics:
+    points: 144
+    comments: 71
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/europe-underrated-us-vc-firstmark-capital/
+  seen_at: '2026-09-12T00:19:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQ2FMZl80MnFmTm1uNm1aQnluczBuSlVaUzFjYlhmZV9xa1pCcFJtQmdUeEdsRnAxb3dYYWdYTkRndVkwTFdRb3kwZldGVDE2Y0dORG5HYVJKNmg3Yk1CRVJJQ1FQVXdTbDdXc1RiMndUMGN4elhpQjdmVmY0X1M1Q1JzbHhmZEN0WGxocDhoaVhMRnRDWlE5QzF5Q0xmelBERGpKal82ZVUzUVR4dGh6SGVyZVZianZRRXgzbWhGdjBtWm41MzVXd3hTbUZHcWtfdzVhcXlNOGl1QTJwbE9v?oc=5
+  seen_at: '2026-09-12T00:19:17Z'
   metrics: {}
   kind: news
 ---

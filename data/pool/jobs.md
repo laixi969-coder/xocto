@@ -20,8 +20,8 @@ url: https://github.com/trylynceus/jobs
 canonical_url: https://github.com/trylynceus/jobs
 summary: Job listings scraped daily from 8k company career pages
 first_seen: '2026-08-16T15:13:37Z'
-last_seen: '2026-09-06T04:00:50Z'
-status: rejected
+last_seen: '2026-09-12T00:18:40Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -43,6 +43,13 @@ sightings:
   url: https://www.exponentialview.co/p/ev-600
   seen_at: '2026-09-06T04:00:50Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.youtube.com/watch?v=QecDVkcGPxY
+  seen_at: '2026-09-12T00:18:40Z'
+  metrics:
+    points: 28
+    comments: 25
   kind: news
 ---
 

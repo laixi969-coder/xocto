@@ -31,17 +31,17 @@ url: https://github.com/egma-ai/egma
 canonical_url: https://github.com/egma-ai/egma
 summary: Open-source simulation testing infra for voice agents
 first_seen: '2026-09-10T17:01:14Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-09-12T00:18:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/egma-ai/egma
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 12
-    comments: 1
+    points: 15
+    comments: 6
   kind: product
 ---
 

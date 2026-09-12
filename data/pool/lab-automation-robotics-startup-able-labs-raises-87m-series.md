@@ -33,8 +33,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: rejected
+last_seen: '2026-09-12T00:19:09Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -160,10 +160,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://usefeyn.com/blog/multimatte/
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 35
-    comments: 7
+    points: 54
+    comments: 8
   kind: news
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/
@@ -173,6 +173,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/10/venture-builder-improbable-backs-ai-business-messaging-app-with-10m/
   seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/ai/moats-that-actually-work-moatti-mighty-capital/
+  seen_at: '2026-09-12T00:19:09Z'
   metrics: {}
   kind: news
 ---

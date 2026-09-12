@@ -36,16 +36,16 @@ summary: Hi, I am building a js library for grids (and pivot tables) so that cod
   primitives to deliver a grid based on your specifications. I started working on this problem because
   data displays like grids …
 first_seen: '2026-09-10T13:35:40Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-09-12T00:18:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49643496
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 6
+    points: 8
     comments: 0
   kind: product
 ---

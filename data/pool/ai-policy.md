@@ -20,8 +20,8 @@ url: https://dbushell.com/ai/
 canonical_url: https://dbushell.com/ai
 summary: How AI is accelerating policy migration InsuranceNewsNet
 first_seen: '2026-09-02T15:36:24Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-12T00:19:17Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -36,6 +36,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihgFBVV95cUxOeUtUWHlRZkhjSlFmYzk1Y1NUZDJUTlRiLXRQc2kwUUstbnNDYTBfVEl3SDBvekkxZ1RSczVMajJmcnBESnhLbGVCbkdaNTJ4c0dxUEtZWWFtdWN3LXJsdFJNa1BuZmN2bU92RGdZLUZrLTlBLXFvRUUyVVhGMllabzNiRW5BUQ?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQRjZvTmZKMWtCaGFHSDNIejBHRGVVek56VVhGVTlXbjRndzNOMEFDekRqb29EUmFYVzZtWU1nTWtBYnVuZGM4NktveUVjZVJ5YmV1Q2F3NVZEQTFQVDRfY3FjZE9VV3FrdzdhaGtxT3dSUnhqS2N4ZlExY0xubW4xSlY0amtUUzM3Uy1lajE0TQ?oc=5
+  seen_at: '2026-09-12T00:19:17Z'
   metrics: {}
   kind: news
 ---

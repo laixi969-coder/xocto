@@ -22,11 +22,12 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-10T05:13:23Z'
-status: market_context
+last_seen: '2026-09-12T00:19:09Z'
+status: pending_filter
 sources:
 - newssearch
 - v2ex
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5BNlB2b0o5Y2YyZTByZVlvN01VVG0xaHgyeTFKR240WTQyelRWVlEtR3VvYnNzNHVNY2tJSTBJNGw1YXNWVHVFU3lGeFRWNmVXazNrS0ZiT1l6eGFXUWQtVFJKT2JNYk5SUE01dGc?oc=5
@@ -39,6 +40,17 @@ sightings:
   metrics:
     comments: 0
   kind: product
+- source: v2ex
+  url: https://github.com/TencentCloud/Octop
+  seen_at: '2026-09-12T00:18:38Z'
+  metrics:
+    comments: 1
+  kind: product
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Sep/11/github-to-sqlite/
+  seen_at: '2026-09-12T00:19:09Z'
+  metrics: {}
+  kind: news
 ---
 
 # GitHub

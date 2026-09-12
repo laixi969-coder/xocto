@@ -46,3 +46,41 @@
     into an independent layer readable and writable across devices, removing the step of restating context
     when switching devices, so developers using several AI clients would try to integrate it; the repository
     has no forks or issue discussion, so real migration and retention evidence is missing.'
+- id: req-initial-memory-bridge-2026-09-12
+  project_slug: memory-bridge
+  level: initial
+  reviewed_at: '2026-09-12T00:18:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“个人用户与开发者在多台设备、多个 AI 客户端之间切换时使用它，把对话记忆与偏好写入一个跨设备共享的记忆层，再在另一台设备或另一个客户端里读回；目前是开源实现，具体同步范围、隐私边”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 97 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 个人用户与开发者在多台设备、多个 AI 客户端之间切换时，把对话记忆与偏好同步到同一份可复用记忆里
+  job_en: Individuals and developers switching between multiple devices and AI clients, syncing conversation
+    memory and preferences into one reusable store
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：个人用户与开发者在多台设备、多个 AI 客户端之间切换时，把对话记忆与偏好同步到同一份可复用记忆里；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Individuals and developers switching between multiple devices and AI
+    clients, syncing conversation memory and preferences into one reusable store Public materials do not
+    yet explain why users choose this product over their existing approach.'

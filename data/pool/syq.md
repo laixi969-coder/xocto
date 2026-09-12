@@ -20,17 +20,17 @@ url: https://greaber.github.io/syq/
 canonical_url: https://greaber.github.io/syq
 summary: copy files between machines fast (better than rsync)
 first_seen: '2026-09-10T15:01:27Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-09-12T00:18:40Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://greaber.github.io/syq/
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 37
-    comments: 44
+    points: 41
+    comments: 49
   kind: product
 ---
 

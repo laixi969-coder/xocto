@@ -27,3 +27,34 @@
     \n它可以实现的效果是：如果你的一个 API 服务想要被 agent 调用，那么你只需要维护好你的 OPENAPI 文档，然后把你的 API 服务作为一个资源服务器接入到 realmroot 里。然后\
     \ agent 就可以自动通过 realmroot toolbox 命令发现你的接口提供了哪些命令可以调用。\r\n\r\n仓库地址： https://github.com/realmroot/cli\r\
     \n\r\n## Wallet\r\n\r\nagent-wallet 是我实现的第一个可以接入 realmroot 的原生资源服务。最终实现的效果就跟 CF 也在做的 wallet"
+- id: ev-96db58959f5debba
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1241426
+  title: 随手试了下腾讯最近开源的自托管 Agent Octop
+  published_at: '2026-09-11T11:57:22Z'
+  collected_at: '2026-09-12T00:18:38Z'
+  source_kind: product
+  tier: independent
+  fact: '最近手痒，拉了个腾讯新开源的 Agent 项目 Octop （ https://github.com/TencentCloud/Octop ）跑了一下。
+
+
+
+    这玩意儿主打自托管，支持多用户多专家，个人用或者扔服务器上挂着都行。部署挺省事，一键起服务，还能直接接 IM 通道。
+
+
+
+    不过有个小问题：它最核心的几个底层依赖还没开源。现在拉代码跑是能跑，但想魔改源码的兄弟还是得先蹲一手。
+
+
+
+    整体架构看着还行，活跃度挺高的，需要的兄弟们可以试一下。'
+- id: ev-0e13474eb0468fcd
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://simonwillison.net/2026/Sep/11/github-to-sqlite/
+  title: github-to-sqlite 2.9.1
+  published_at: '2026-09-11T00:28:39Z'
+  collected_at: '2026-09-12T00:19:09Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Release:   github-to-sqlite 2.9.1  \n         \n \n Fix for compatibility with  sqlite-utils\
+    \ 4.x .  #85  \n \n \n    \n    \n         Tags:  github ,  sqlite"

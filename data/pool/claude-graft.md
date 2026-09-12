@@ -21,18 +21,18 @@ canonical_url: https://aaditya-v-more.github.io/claude-graft
 summary: Run several Claude Desktop accounts side by side on macOS, sharing Claude Code chats between
   them
 first_seen: '2026-08-23T22:40:56Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://aaditya-v-more.github.io/claude-graft/
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 6
-    open_issues: 0
+    open_issues: 2
   kind: product
 ---
 

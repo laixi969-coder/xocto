@@ -20,17 +20,17 @@ url: https://github.com/Kooboo/Kooboo/blob/main/Docs/5000-sites-benchmark.md
 canonical_url: https://github.com/Kooboo/Kooboo/blob/main/Docs/5000-sites-benchmark.md
 summary: We served 5k dynamic websites from a 2-vCPU, 4 GB VPS
 first_seen: '2026-09-10T14:59:43Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-09-12T00:18:40Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Kooboo/Kooboo/blob/main/Docs/5000-sites-benchmark.md
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 7
-    comments: 1
+    points: 8
+    comments: 3
   kind: product
 ---
 

@@ -28,17 +28,17 @@ url: https://github.com/openslop/nightshift
 canonical_url: https://github.com/openslop/nightshift
 summary: Your code gets better while you sleep
 first_seen: '2026-09-10T18:18:08Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-09-12T00:18:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/openslop/nightshift
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 7
-    comments: 12
+    points: 11
+    comments: 16
   kind: product
 ---
 

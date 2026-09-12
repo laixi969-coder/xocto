@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: ''
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-09-12T00:18:40Z'
 status: rejected
 sources:
 - modelscope
@@ -69,10 +69,10 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    likes: 56
-    downloads: 2533
+    likes: 104
+    downloads: 4282
   kind: product
 ---
 

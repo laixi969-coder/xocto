@@ -36,16 +36,16 @@ summary: Not Ai isn’t just about bypassing AI detectors. It puts good writing 
   emails, factual articles, personal essays, social media posts, and technical documentation, especially
   GitHub READMEs
 first_seen: '2026-08-30T12:58:09Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/udaysharmadev/Not-Ai
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 46
+    stars: 63
     forks: 4
     open_issues: 0
   kind: product

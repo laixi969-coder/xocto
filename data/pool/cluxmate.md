@@ -32,17 +32,17 @@ summary: AI coding agent with one Python core and three front-ends — headless 
   Electron desktop. Works with any OpenAI-compatible API, with risk-tiered permissions, event-sourced
   replayable sessions, and a fail-closed OS-level sandbox.
 first_seen: '2026-08-25T09:22:53Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/r1c7/CluxMate
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 120
-    forks: 0
+    stars: 150
+    forks: 1
     open_issues: 0
   kind: product
 ---

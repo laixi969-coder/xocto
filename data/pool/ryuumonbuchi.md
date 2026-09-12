@@ -20,16 +20,16 @@ url: https://github.com/elliottophellia/Ryuumonbuchi
 canonical_url: https://github.com/elliottophellia/Ryuumonbuchi
 summary: Maybe the headless Ghidra MCP you are looking for.
 first_seen: '2026-08-23T14:26:07Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/elliottophellia/Ryuumonbuchi
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 67
+    stars: 68
     forks: 5
     open_issues: 0
   kind: product

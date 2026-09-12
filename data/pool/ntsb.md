@@ -20,17 +20,17 @@ url: https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx
 canonical_url: https://ntsb.gov/news/press-releases/Pages/NR20260909.aspx
 summary: NTSB issues investigative update on B-767 runway excursion accident in Miami
 first_seen: '2026-09-10T21:30:55Z'
-last_seen: '2026-09-11T00:10:31Z'
-status: rejected
+last_seen: '2026-09-12T00:18:40Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 40
-    comments: 53
+    points: 145
+    comments: 279
   kind: news
 ---
 

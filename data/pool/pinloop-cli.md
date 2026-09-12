@@ -33,17 +33,17 @@ canonical_url: https://pinloop.ai
 summary: Command-line job search tool for coding agents. Searches and judges 10,000+ postings from 4,000+
   employers, refreshed hourly.
 first_seen: '2026-08-23T18:12:45Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://pinloop.ai
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 332
-    forks: 40
+    stars: 338
+    forks: 41
     open_issues: 0
   kind: product
 ---

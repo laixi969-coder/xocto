@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5JYkp2dUVFb2p4SjRKOEVqak
 canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5JYkp2dUVFb2p4SjRKOEVqakJhTkZpRklzb28wOHROaFNLYXpqX2lpRHdSbEdtOVFoVzFBcHRWbTZIaUJ4SjZ6dE9USzd6aGMxY19XSDVSOXg3QVBIVTVJel9zckEwMDhCYTQ3OVFn?oc=5
 summary: ​国内AI基础设施头部公司有哪些？看联想集团等企业如何支撑AI训练与推理 中华网
 first_seen: '2026-08-31T06:49:10Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: market_context
+last_seen: '2026-09-12T00:19:17Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5JYkp2dUVFb2p4SjRKOEVqakJhTkZpRklzb28wOHROaFNLYXpqX2lpRHdSbEdtOVFoVzFBcHRWbTZIaUJ4SjZ6dE9USzd6aGMxY19XSDVSOXg3QVBIVTVJel9zckEwMDhCYTQ3OVFn?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE11SVJCSHBhT0R1TmV6c1dOQVhlYmFPa0YtSTUxai1KWDFBYXppSFV4alZsUFloaDcxcTM5NE1mWkpSeWZGaDctdXFVR2N6aFh5?oc=5
+  seen_at: '2026-09-12T00:19:17Z'
   metrics: {}
   kind: news
 ---

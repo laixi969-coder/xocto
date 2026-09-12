@@ -42,8 +42,8 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: market_context
+last_seen: '2026-09-12T00:18:40Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -158,16 +158,16 @@ sightings:
   kind: product
 - source: hackernews
   url: https://www.anthropic.com/threat-intelligence-report-september-2026
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 71
-    comments: 136
+    points: 170
+    comments: 232
   kind: news
 - source: hackernews
   url: https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 65
+    points: 67
     comments: 1
   kind: news
 - source: newssearch

@@ -20,11 +20,12 @@ url: https://www.reuters.com/world/us/google-maps-will-show-lake-america-us-not-
 canonical_url: https://reuters.com/world/us/google-maps-will-show-lake-america-us-not-lake-ontario-2026-08-30
 summary: Google Maps Now Shows 'Lake America' in US, Not 'Lake Ontario'
 first_seen: '2026-08-31T21:29:03Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-12T00:19:09Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://www.reuters.com/world/us/google-maps-will-show-lake-america-us-not-lake-ontario-2026-08-30/
@@ -67,6 +68,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOUW9fTXlOZnlJUnNjOXJqOFI5NkxjQWhvSEE5X0dQY0NUN0UxZC1KMWFiNksyUUVZZlUwVTdVeXloWXZCTUh4YUQ5d3A3RG83b3JqbExjNmRIbHRZYjJvY3J2VmNLQ21neWRpT3pqcm5lM2tHQXVMd29HSVlXb0RhZkxiZkRtSGh3M2lNQ0JoMzN3amVIX1ZVY2cxYVY3Mk9ZQzdPb2t2ektEdGY3ZzZEOHp3?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal
+  seen_at: '2026-09-12T00:19:09Z'
   metrics: {}
   kind: news
 ---

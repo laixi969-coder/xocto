@@ -20,7 +20,7 @@ url: https://huggingface.co/spaces/KSYJA/wan2-2-FAST-HD
 canonical_url: https://huggingface.co/spaces/KSYJA/wan2-2-FAST-HD
 summary: generate a video from an image with a text prompt
 first_seen: '2026-09-09T08:13:24Z'
-last_seen: '2026-09-11T00:10:51Z'
+last_seen: '2026-09-12T00:19:07Z'
 status: rejected
 sources:
 - huggingface
@@ -36,6 +36,12 @@ sightings:
   seen_at: '2026-09-11T00:10:51Z'
   metrics:
     likes: 2
+  kind: product
+- source: huggingface
+  url: https://huggingface.co/spaces/KSYJA/Wan-2.2-lighting-fast-HD-720p
+  seen_at: '2026-09-12T00:19:07Z'
+  metrics:
+    likes: 11
   kind: product
 ---
 

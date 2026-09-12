@@ -1,0 +1,42 @@
+---
+slug: target-expands-ai-shopping-features-with-photo-search-review
+name: Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6d1VzQWFQRjRGanVJNWZFWEZENU10dWluUlYzVkJqa3dkQnRFQWhoM09ZU1BVc2pwdmR6T3hZaTlDOXJkLWUtYVZuZkJpdC1ua3RKc1JDVGNXMTJ0elpVRWZXQ0oxMlYtalJ1RlM4SWozNW9GRk9kc3Y3QmZqZEpydUw3eU81MzExWllGd2pqVXNYRlhkSWhyMWxYU05XRmVpQWZsbXZQOWlYdHpSUHJZV2F1RGlR0gG-AUFVX3lxTE5vc3FhUXRzQnp3VXNBYVBGNEZqdUk1ZkVYRkQ1TXR1aW5SVjNWQmprd2RCdEVBaGgzT1lTUFVzanB2ZHpPeFlpOUM5cmQtZS1hVm5mQml0LW5rdEpzUkNUY1cxMnR6WlVFZldDSjEyVi1qUnVGUzhJajM1b0ZGT2RzdjdCZmpkSnJ1TDd5TzUzMTFaWUZ3ampVc1hGWGRJaHIxbFhTTldGZWlBZmxtdlA5aVh0elJQcllXYXVEaVE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6d1VzQWFQRjRGanVJNWZFWEZENU10dWluUlYzVkJqa3dkQnRFQWhoM09ZU1BVc2pwdmR6T3hZaTlDOXJkLWUtYVZuZkJpdC1ua3RKc1JDVGNXMTJ0elpVRWZXQ0oxMlYtalJ1RlM4SWozNW9GRk9kc3Y3QmZqZEpydUw3eU81MzExWllGd2pqVXNYRlhkSWhyMWxYU05XRmVpQWZsbXZQOWlYdHpSUHJZV2F1RGlR0gG-AUFVX3lxTE5vc3FhUXRzQnp3VXNBYVBGNEZqdUk1ZkVYRkQ1TXR1aW5SVjNWQmprd2RCdEVBaGgzT1lTUFVzanB2ZHpPeFlpOUM5cmQtZS1hVm5mQml0LW5rdEpzUkNUY1cxMnR6WlVFZldDSjEyVi1qUnVGUzhJajM1b0ZGT2RzdjdCZmpkSnJ1TDd5TzUzMTFaWUZ3ampVc1hGWGRJaHIxbFhTTldGZWlBZmxtdlA5aVh0elJQcllXYXVEaVE?oc=5
+summary: Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering
+  Pulse 2.0
+first_seen: '2026-09-10T20:26:17Z'
+last_seen: '2026-09-12T00:19:17Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6d1VzQWFQRjRGanVJNWZFWEZENU10dWluUlYzVkJqa3dkQnRFQWhoM09ZU1BVc2pwdmR6T3hZaTlDOXJkLWUtYVZuZkJpdC1ua3RKc1JDVGNXMTJ0elpVRWZXQ0oxMlYtalJ1RlM4SWozNW9GRk9kc3Y3QmZqZEpydUw3eU81MzExWllGd2pqVXNYRlhkSWhyMWxYU05XRmVpQWZsbXZQOWlYdHpSUHJZV2F1RGlR0gG-AUFVX3lxTE5vc3FhUXRzQnp3VXNBYVBGNEZqdUk1ZkVYRkQ1TXR1aW5SVjNWQmprd2RCdEVBaGgzT1lTUFVzanB2ZHpPeFlpOUM5cmQtZS1hVm5mQml0LW5rdEpzUkNUY1cxMnR6WlVFZldDSjEyVi1qUnVGUzhJajM1b0ZGT2RzdjdCZmpkSnJ1TDd5TzUzMTFaWUZ3ampVc1hGWGRJaHIxbFhTTldGZWlBZmxtdlA5aVh0elJQcllXYXVEaVE?oc=5
+  seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+---
+
+# Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering
+
+Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering Pulse 2.0
+
+## 笔记
+
+

@@ -28,8 +28,8 @@ summary: OpenAI will soon be held accountable for mitigating risks related to Ch
   is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws
   regulating major online services and […]
 first_seen: '2026-08-31T13:27:36Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: market_context
+last_seen: '2026-09-12T00:19:09Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -68,6 +68,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/486684.html
   seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/
+  seen_at: '2026-09-12T00:19:09Z'
   metrics: {}
   kind: news
 ---

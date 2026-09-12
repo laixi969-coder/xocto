@@ -20,16 +20,16 @@ url: https://platform.xmaxai.com/docs
 canonical_url: https://platform.xmaxai.com/docs
 summary: Native iOS SDK for real-time interactive video generation with Xmax AI
 first_seen: '2026-08-24T15:56:01Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://platform.xmaxai.com/docs
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 43
+    stars: 44
     forks: 1
     open_issues: 0
   kind: product

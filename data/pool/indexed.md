@@ -30,17 +30,17 @@ url: https://github.com/xiaotianfotos/indexed
 canonical_url: https://github.com/xiaotianfotos/indexed
 summary: A multimodal video memory for humans and AI agents
 first_seen: '2026-08-27T00:38:41Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xiaotianfotos/indexed
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
     stars: 76
-    forks: 16
+    forks: 17
     open_issues: 3
   kind: product
 ---

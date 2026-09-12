@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BczZwa0xvdFV3aUlQR1UwLU
 canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BczZwa0xvdFV3aUlQR1UwLUlGY0xBNUxHVDN4S2M2clVaNmxQa2Y3dkpPVS11blJwWnBjX0NPU3VBNnpJVFVlM2gxMXJhRU1ybnA3azhDTDFxa01JMjFMS1p6aGg?oc=5
 summary: AI芯片“四小龙”上半年营收大幅增长 资金压力仍大 Caixin Global
 first_seen: '2026-08-31T14:47:00Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: market_context
+last_seen: '2026-09-12T00:19:17Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BczZwa0xvdFV3aUlQR1UwLUlGY0xBNUxHVDN4S2M2clVaNmxQa2Y3dkpPVS11blJwWnBjX0NPU3VBNnpJVFVlM2gxMXJhRU1ybnA3azhDTDFxa01JMjFMS1p6aGg?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE9XLWdMLW1EOTIzem9IbWQ5U2lRSjNubk4wX1pPRWRWSkEwMkJPN3o3Sml3ZERkcjU0Ym0xUi1hWGVnTHBHRXc?oc=5
+  seen_at: '2026-09-12T00:19:17Z'
   metrics: {}
   kind: news
 ---

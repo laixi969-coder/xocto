@@ -20,16 +20,16 @@ url: https://kuber.studio/math-gambling/
 canonical_url: https://kuber.studio/math-gambling
 summary: ''
 first_seen: '2026-09-10T14:31:52Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-09-12T00:18:40Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kuber.studio/math-gambling/
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 7
+    points: 8
     comments: 0
   kind: product
 ---

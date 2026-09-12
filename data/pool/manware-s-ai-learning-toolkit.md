@@ -27,17 +27,17 @@ url: https://github.com/i-am-manware/Manware-s-AI-Learning-Toolkit
 canonical_url: https://github.com/i-am-manware/Manware-s-AI-Learning-Toolkit
 summary: An AI toolkit that turns agents into teachers rather than code yapping machines
 first_seen: '2026-09-05T16:46:07Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/i-am-manware/Manware-s-AI-Learning-Toolkit
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 325
-    forks: 37
+    stars: 353
+    forks: 41
     open_issues: 2
   kind: product
 ---

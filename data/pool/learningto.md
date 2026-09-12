@@ -35,17 +35,17 @@ url: https://learningto.co/
 canonical_url: https://learningto.co
 summary: I couldn't afford interview prep, so I built a free alternative
 first_seen: '2026-09-10T14:10:02Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-09-12T00:18:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://learningto.co/
-  seen_at: '2026-09-11T00:10:31Z'
+  seen_at: '2026-09-12T00:18:40Z'
   metrics:
-    points: 40
-    comments: 49
+    points: 41
+    comments: 54
   kind: product
 ---
 

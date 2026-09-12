@@ -1,7 +1,7 @@
 ---
 slug: one-resignation-turned-the-embers-of-ai-fear-into-a-wildfire
 name: One resignation turned the embers of AI fear into a wildfire
-builder: ''
+builder: pretext
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -20,15 +20,23 @@ url: https://www.interconnects.ai/p/one-resignation-turned-the-embers
 canonical_url: https://interconnects.ai/p/one-resignation-turned-the-embers
 summary: Some quick notes on a truly weird week.
 first_seen: '2026-09-10T15:28:52Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: rejected
+last_seen: '2026-09-12T00:18:40Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://www.interconnects.ai/p/one-resignation-turned-the-embers
   seen_at: '2026-09-11T00:10:53Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.interconnects.ai/p/one-resignation-turned-the-embers
+  seen_at: '2026-09-12T00:18:40Z'
+  metrics:
+    points: 45
+    comments: 77
   kind: news
 ---
 

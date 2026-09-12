@@ -43,16 +43,16 @@ summary: 'Turn any AI agent into an AI Scientist. The #1 Agent Skills library fo
   chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity,
   and the open Agent Skills standard.'
 first_seen: '2026-08-31T10:54:19Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Tyche-MKR/scientific-agent-skills
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 102
+    stars: 103
     forks: 20
     open_issues: 0
   kind: product

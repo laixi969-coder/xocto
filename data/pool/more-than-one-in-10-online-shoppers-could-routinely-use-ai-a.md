@@ -1,0 +1,41 @@
+---
+slug: more-than-one-in-10-online-shoppers-could-routinely-use-ai-a
+name: 'More than one in 10 online shoppers could routinely use AI agents by 2030: Mastercard'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeHpXWDJvVy1Edm5lY3YyTUVEamt2WkQyeHRFY0xzOXpjUUJjMzRLQkdhUjNpeWRPWGg3YUlTbmVKcGQtb0RBc2pxajZiWHNUNG93cV9HSkFqdkQxMHpheTF5elZ0ODlXRmdwUFBmbzh1LW5vUEoyQ0pTaHBsVC1SOWhEUEVWbkVyenpGRlE0M2NoWkdEU0hwV01mVVA1U3F5OFNwM3MtS1ZjSzR6aWhNYXptYlk1eFRZVW5GSnJMaUtLRFZnaDhKM1VtOS1ZcThneXpWQkVYY2ZvMUFUN0HSAeMBQVVfeXFMT1ZJdURuamRXeEhlMFMyTGxFcWtpZmI4czNaaE1GaUU3ZlpxeDFlZ3NpMkNpdDJsZTU3ZXNscDFhOWtQQ2ppcjd0cHZYMGpON2xEWUlRSXUtOEhNTThfQUZXMGhFY0dlLXdOWEh5ci1KbXpLOENpanZfblRhMnd1MTlpa2VweE12d1VFNUVGTmM5Q1FTa2hWSXNMYTF1S19wQXZaM2V3NHhpNVRxSGllcklCRDJYS2gtT09GbUVDN2tlV3EzT2JQeUJvbFVEWF8tbUppcHlac0hTMjdJZ3lBdVJCdzA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeHpXWDJvVy1Edm5lY3YyTUVEamt2WkQyeHRFY0xzOXpjUUJjMzRLQkdhUjNpeWRPWGg3YUlTbmVKcGQtb0RBc2pxajZiWHNUNG93cV9HSkFqdkQxMHpheTF5elZ0ODlXRmdwUFBmbzh1LW5vUEoyQ0pTaHBsVC1SOWhEUEVWbkVyenpGRlE0M2NoWkdEU0hwV01mVVA1U3F5OFNwM3MtS1ZjSzR6aWhNYXptYlk1eFRZVW5GSnJMaUtLRFZnaDhKM1VtOS1ZcThneXpWQkVYY2ZvMUFUN0HSAeMBQVVfeXFMT1ZJdURuamRXeEhlMFMyTGxFcWtpZmI4czNaaE1GaUU3ZlpxeDFlZ3NpMkNpdDJsZTU3ZXNscDFhOWtQQ2ppcjd0cHZYMGpON2xEWUlRSXUtOEhNTThfQUZXMGhFY0dlLXdOWEh5ci1KbXpLOENpanZfblRhMnd1MTlpa2VweE12d1VFNUVGTmM5Q1FTa2hWSXNMYTF1S19wQXZaM2V3NHhpNVRxSGllcklCRDJYS2gtT09GbUVDN2tlV3EzT2JQeUJvbFVEWF8tbUppcHlac0hTMjdJZ3lBdVJCdzA?oc=5
+summary: 'More than one in 10 online shoppers could routinely use AI agents by 2030: Mastercard bfsi.economictimes.indiatimes.com'
+first_seen: '2026-09-09T01:30:00Z'
+last_seen: '2026-09-12T00:19:17Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeHpXWDJvVy1Edm5lY3YyTUVEamt2WkQyeHRFY0xzOXpjUUJjMzRLQkdhUjNpeWRPWGg3YUlTbmVKcGQtb0RBc2pxajZiWHNUNG93cV9HSkFqdkQxMHpheTF5elZ0ODlXRmdwUFBmbzh1LW5vUEoyQ0pTaHBsVC1SOWhEUEVWbkVyenpGRlE0M2NoWkdEU0hwV01mVVA1U3F5OFNwM3MtS1ZjSzR6aWhNYXptYlk1eFRZVW5GSnJMaUtLRFZnaDhKM1VtOS1ZcThneXpWQkVYY2ZvMUFUN0HSAeMBQVVfeXFMT1ZJdURuamRXeEhlMFMyTGxFcWtpZmI4czNaaE1GaUU3ZlpxeDFlZ3NpMkNpdDJsZTU3ZXNscDFhOWtQQ2ppcjd0cHZYMGpON2xEWUlRSXUtOEhNTThfQUZXMGhFY0dlLXdOWEh5ci1KbXpLOENpanZfblRhMnd1MTlpa2VweE12d1VFNUVGTmM5Q1FTa2hWSXNMYTF1S19wQXZaM2V3NHhpNVRxSGllcklCRDJYS2gtT09GbUVDN2tlV3EzT2JQeUJvbFVEWF8tbUppcHlac0hTMjdJZ3lBdVJCdzA?oc=5
+  seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+---
+
+# More than one in 10 online shoppers could routinely use AI agents by 2030: Mastercard
+
+More than one in 10 online shoppers could routinely use AI agents by 2030: Mastercard bfsi.economictimes.indiatimes.com
+
+## 笔记
+
+

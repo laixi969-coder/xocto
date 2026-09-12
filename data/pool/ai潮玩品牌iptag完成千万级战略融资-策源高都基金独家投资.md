@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE54YW1CN2FNc3JFR0dlc2VHSG
 canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE54YW1CN2FNc3JFR0dlc2VHSGtldVNnYUxwUFpXbVdPcGdQRnRSX1I2RmF2RDdUR0NnWk1yQkhtY21kNDJVRmo5aXg2czlGZw?oc=5
 summary: AI潮玩品牌IPTAG完成千万级战略融资 策源高都基金独家投资 观点网
 first_seen: '2026-09-10T13:08:36Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-12T00:19:17Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE54YW1CN2FNc3JFR0dlc2VHSGtldVNnYUxwUFpXbVdPcGdQRnRSX1I2RmF2RDdUR0NnWk1yQkhtY21kNDJVRmo5aXg2czlGZw?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MVjJyOTVsY3NYeW5fOEVWbXEyOEMyYUR6Zm1QQk5ZejZTclBtN09Ca3FQY0l0bERBczJxdFVRZGJkV3VrbUN4U3lzY0RaaG5hWnVHeWZ4aHFrazJiQUpHMGdn?oc=5
+  seen_at: '2026-09-12T00:19:17Z'
   metrics: {}
   kind: news
 ---

@@ -17,3 +17,22 @@
     \ bases from the knowledge base's API access panel, with a workspace / this-knowledge-base scope selector\
     \ at creation time. A bound key returns `403` for any other dataset — both documents and retrieval\
     \ — and for endpoints tha"
+- id: ev-9104564d8e74dad7
+  project_slug: langgenius-dify-v1171-bug-fixes-and-improvements
+  url: https://github.com/langgenius/dify/releases/tag/1.17.1
+  title: 'langgenius/dify: v1.17.1 - Bug Fixes and Improvements'
+  published_at: '2026-09-10T10:04:06Z'
+  collected_at: '2026-09-12T00:18:44Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate must complete a manual,\
+    \ staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2`\
+    \ — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently\
+    \ and permanently break vector search. See Upgrade Guide below. Fresh deployments, external Weaviate,\
+    \ and other vector stores are unaffected.\r\n\r\n### New Features\r\n\r\n**Dataset-Scoped Knowledge\
+    \ Base API Keys**\r\n- Knowledge base service-API keys were scoped to the whole workspace: one key\
+    \ could read and write every knowledge base in the tenant, so giving an integration access to a single\
+    \ knowledge base meant giving it access to all of them. Keys can now be bound to specific knowledge\
+    \ bases from the knowledge base's API access panel, with a workspace / this-knowledge-base scope selector\
+    \ at creation time. A bound key returns `403` for any other dataset — both documents and retrieval\
+    \ — and for endpoints tha"

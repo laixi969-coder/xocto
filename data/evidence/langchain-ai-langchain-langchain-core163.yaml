@@ -1,0 +1,19 @@
+- id: ev-7b78dea82d607fac
+  project_slug: langchain-ai-langchain-langchain-core163
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3
+  title: 'langchain-ai/langchain: langchain-core==1.6.3'
+  published_at: '2026-09-11T17:38:02Z'
+  collected_at: '2026-09-12T00:18:44Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Changes since langchain-core==1.6.2
+
+
+    release(core): 1.6.3 (#40407)
+
+    feat(core): Allow model name and provider tracing metadata override based on gateway response (#40406)
+
+    test(core): cover the deprecated `.text()` access path (#40243)
+
+    docs(core): remove stale Args/Raises entries from FileCallbackHandler._write and ChatGeneration.set_text
+    (#40211)'

@@ -22,8 +22,8 @@ url: https://vercel.com/changelog/find-deployments-faster-with-redesigned-filter
 canonical_url: https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters
 summary: ''
 first_seen: '2026-08-27T13:00:00Z'
-last_seen: '2026-09-01T01:18:40Z'
-status: market_context
+last_seen: '2026-09-12T00:19:08Z'
+status: pending_filter
 sources:
 - officialfeeds
 sightings:
@@ -40,6 +40,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily
   seen_at: '2026-09-01T01:18:40Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect
+  seen_at: '2026-09-12T00:19:08Z'
   metrics: {}
   kind: news
 ---

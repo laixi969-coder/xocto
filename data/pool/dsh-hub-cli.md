@@ -20,16 +20,16 @@ url: https://dshpluginhub.ai
 canonical_url: https://dshpluginhub.ai
 summary: Open-source CLI, schemas, resolver, and DSH agent tools for DSH Plugin Hub
 first_seen: '2026-08-25T06:09:32Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-12T00:18:44Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://dshpluginhub.ai
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-12T00:18:44Z'
   metrics:
-    stars: 267
+    stars: 279
     forks: 2
     open_issues: 2
   kind: product

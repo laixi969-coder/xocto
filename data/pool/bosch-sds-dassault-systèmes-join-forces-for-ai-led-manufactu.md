@@ -27,14 +27,19 @@ canonical_url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa2VQd3lySXVI
 summary: Bosch SDS, Dassault Systèmes join forces for AI-led manufacturing in India; EV maker gets first
   deployment Fortune India
 first_seen: '2026-09-10T05:41:52Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: market_context
+last_seen: '2026-09-12T00:19:17Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa2VQd3lySXVISjJzZURodkZNR01IdVBQOFQybHZrbXZpUElBOG5zUFhTMU5taXJzUDhlaHFPdjFBQkJFdWxZc0x4S3dPZEJ6WUg1U1FJTUdYQ3p1ODFpTnIySlRGRWV3Wlh0eTZsRXhMT1hWSmhsbHlFWXYwZ0YwRWFUSW53aDd4dFJVaWp1RmNQd0ZCTHRwc2FDbGxDZWwyZ1RqMnlmaDJfYUc3LXlQYXpFLWNVdGdYbVpTY2Vub3BYNmk2RVBTY1ZhQjBvQnBybG5ieWNNSEtuOWdjTjBsVFBGUmVxR2ZIaThCb9IB-gFBVV95cUxPUjhZYkt6UlViOEdxZTgyWDJQOHBocVlEZFFBRUVqX2xPS3FOcVdqNVB5U3NKclZkT29wNVhoZmxfbWI4ejM1bWhrbkhHUVZsenp2NFdDeXZRQndjWXBscUNpek5GaTNSWmZ0WnBxTFB0Z1FRaE92SGNlU3cyM2JRZWxZSkxNRzNrVC16ZWt4SlFDeWxEU3diM0hTa2JTQ29id25mSUh1dUstMnUzdGtPUTRZSWd4SGtKQ180c0tVdHRPWFJJVVlHTFpGYzBjY3hFT2VjSTRUWkc4RU9uX0FTbHRVUnZYLTItMUg3S1UxRTNkZGdxUnYxYm5n?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxONVdac09nSmtpVXhaSS02aGRUdE9lZFV6OVRWNVFrWUkwaTdWSnZmS1htM2N5MklwMkJDWVhtOEtUZ3FFc25DbGpGUXJqN0tyM3ZZbTh4Z0R1RUNXYWhQLTdBbTAweXFHN0ZOWjJwVDRUUGMxX1VibnpsQTRxVGdFTlY4VnFVRVBNXzNOYzlOWWh1MEZLVE5RTXlmcVhOS05OTzBmWEJJXzfSAagBQVVfeXFMTjVXWnNPZ0praVV4WkktNmhkVHRPZWRVejlUVjVRa1lJMGk3Vkp2ZktYbTNjeTJJcDJCQ1lYbThLVGdxRXNuQ2xqRlFyajdLcjN2WW04eGdEdUVDV2FoUC03QW0wMHlxRzdGTloycFQ0VFBjMV9VYm56bEE0cVRnRU5WOFZxVUVQTV8zTmM5TllodTBGS1ROUU15ZnFYTktOTk8wZlhCSV83?oc=5
+  seen_at: '2026-09-12T00:19:17Z'
   metrics: {}
   kind: news
 ---
