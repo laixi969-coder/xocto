@@ -22,14 +22,20 @@ canonical_url: https://news.crunchbase.com/startups/tech-layoffs
 summary: Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per
   a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.
 first_seen: '2026-08-26T17:10:30Z'
-last_seen: '2026-08-29T03:43:29Z'
-status: market_context
+last_seen: '2026-09-13T00:02:40Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://news.crunchbase.com/startups/tech-layoffs/
   seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPbEZrak91OVF2N2JQeFVVUWRoMHBGVUhXdmhhQldoRENvTU5qZkN2OV9fSkR5eVJfeURPRXA1ZnVWTy1oaE9KV0ZBdjYwdTFRNXduaFdnTW40SldxeEkyLVNublZvNmphc2ItRXFEWGZabDhaRXdoSVlDRGVfUlgxbUdtc2gwU01PNTEwUFAtTmg5cWJkRU1LNDZvdkRBeVRhcWpILUdqTVlESmlNbDJpTjhn?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

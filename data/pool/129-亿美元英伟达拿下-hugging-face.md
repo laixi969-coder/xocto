@@ -1,7 +1,7 @@
 ---
 slug: 129-亿美元英伟达拿下-hugging-face
 name: NVIDIA
-builder: ''
+builder: tolugenius
 category: ''
 summary_zh: 英伟达在垄断AI算力硬件的基础上，以129亿美元收购开源模型托管与分发平台，并在此前承诺五年向Nemotron联盟投资260亿美元研发万亿参数开源模型。这一变化标志着头部芯片巨头正从底层算力向上垂直整合至开源模型分发与生态层，强化其软硬件协同闭环，但同时也引发了行业对开源模型分发平台中立性及硬件垄断延伸的监管与竞争担忧。
 inspiration: ''
@@ -57,12 +57,13 @@ summary: "作者｜Wildcard  \n  编辑｜靖宇   \n \n \n 129 亿美元，英�
   \ 它不再满足于只卖铲子给挖金矿的人，它要拥有金矿本身。 或者更准确地说，它要拥有从矿场到集散市场的整条供应链。 \n 这对 AI 行业意味着什么？当世界上最强大的 AI 基础设施公司开始同时控制硬件、模型、分发平台和机器人开发栈，「开源」这两个字的含义，可能需要被重新定义了。\
   \ \n *头图来源：英伟达 \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-08-27T07:09:02Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: market_context
+last_seen: '2026-09-13T00:00:05Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
 - officialfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: http://www.geekpark.net/news/369458
@@ -128,6 +129,13 @@ sightings:
   url: https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/
   seen_at: '2026-09-11T00:10:53Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai
+  seen_at: '2026-09-13T00:00:05Z'
+  metrics:
+    points: 364
+    comments: 248
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://clawfight.ai/agents.md
 canonical_url: https://clawfight.ai/agents.md
 summary: Clawfight.ai MCP-driven agentic game play
 first_seen: '2026-09-11T13:54:17Z'
-last_seen: '2026-09-12T00:18:40Z'
+last_seen: '2026-09-13T00:00:05Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://clawfight.ai/agents.md
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
     points: 13
-    comments: 13
+    comments: 15
   kind: product
 ---
 

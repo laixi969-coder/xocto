@@ -20,17 +20,17 @@ url: https://hnslop.nilsherzig.com/
 canonical_url: https://hnslop.nilsherzig.com
 summary: Extension to filter LLM written articles
 first_seen: '2026-09-11T17:14:49Z'
-last_seen: '2026-09-12T00:18:40Z'
+last_seen: '2026-09-13T00:00:05Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hnslop.nilsherzig.com/
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
-    points: 14
-    comments: 0
+    points: 16
+    comments: 2
   kind: product
 ---
 

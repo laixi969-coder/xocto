@@ -20,17 +20,17 @@ url: https://sprinklz.io/public/pdwt4dve5uai
 canonical_url: https://sprinklz.io/public/pdwt4dve5uai
 summary: Hacker News with reduced priority for AI driven content
 first_seen: '2026-09-11T15:52:49Z'
-last_seen: '2026-09-12T00:18:40Z'
-status: rejected
+last_seen: '2026-09-13T00:00:05Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sprinklz.io/public/pdwt4dve5uai
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
-    points: 107
-    comments: 54
+    points: 120
+    comments: 56
   kind: news
 ---
 

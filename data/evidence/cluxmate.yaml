@@ -49,3 +49,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 软件开发者'
+- id: ev-0e92c55e8f553582
+  project_slug: cluxmate
+  url: https://github.com/r1c7/CluxMate
+  title: CluxMate
+  published_at: '2026-08-25T09:22:53Z'
+  collected_at: '2026-09-13T00:00:57Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'AI coding agent with one Python core and three front-ends — headless CLI, Textual TUI, and an
+    Electron desktop. Works with any OpenAI-compatible API, with risk-tiered permissions, event-sourced
+    replayable sessions, and a fail-closed OS-level sandbox. | repository stars: 151'

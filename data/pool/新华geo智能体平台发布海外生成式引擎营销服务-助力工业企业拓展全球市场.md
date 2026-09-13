@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS19vSnZJYUl5dGFTa2Z2S3
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS19vSnZJYUl5dGFTa2Z2S3FTenpjdFk4TlFyVTZ3SmhJbjNFa3JUYlhqSm1uQ0Zmd1ZOdjVHLWtQVkgwbThNTlFtcTZYNFJnT2pGQkFXdzhUdVFlaFBLVjQ2UFFOOWVMNlJLQzVpTHVPekVmYTIyNnBTUG8zM0ZrMDVhOXRWTlY2?oc=5
 summary: 新华GEO智能体平台发布海外生成式引擎营销服务 助力工业企业拓展全球市场 新华网
 first_seen: '2026-09-11T14:33:48Z'
-last_seen: '2026-09-12T00:19:17Z'
+last_seen: '2026-09-13T00:02:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS19vSnZJYUl5dGFTa2Z2S3FTenpjdFk4TlFyVTZ3SmhJbjNFa3JUYlhqSm1uQ0Zmd1ZOdjVHLWtQVkgwbThNTlFtcTZYNFJnT2pGQkFXdzhUdVFlaFBLVjQ2UFFOOWVMNlJLQzVpTHVPekVmYTIyNnBTUG8zM0ZrMDVhOXRWTlY2?oc=5
   seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHZCeFZaTmJmRVoxYXZIcGYtak0xbW1hWk1RbnF1OVVmQjVxNGQ5M1FRRW43b0VCRk1xY0J5MlF6LWFtTE1pTE0yYWVfMURreWxrWjR6SmgzY2ZCTlNRWUtUT3FPWEtzaURyZXlzNDNORFpBZDEwMG9FcFVqcmFKRkhYbzBFY1ljZ1E?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

@@ -35,17 +35,17 @@ url: https://github.com/mirza-rizvi/ResolveHQ
 canonical_url: https://github.com/mirza-rizvi/ResolveHQ
 summary: A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues
 first_seen: '2026-09-11T21:48:00Z'
-last_seen: '2026-09-12T00:18:40Z'
+last_seen: '2026-09-13T00:00:05Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mirza-rizvi/ResolveHQ
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
-    points: 21
-    comments: 8
+    points: 67
+    comments: 24
   kind: product
 ---
 

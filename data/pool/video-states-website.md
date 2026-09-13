@@ -36,17 +36,17 @@ canonical_url: https://github.com/amirmushichge/video-states-website
 summary: 'Build a cinematic click-driven video website: LTX footage, image/video prompts, coding-agent
   build spec, workflow and seam-safe playback guide.'
 first_seen: '2026-09-04T15:24:50Z'
-last_seen: '2026-09-12T00:18:44Z'
+last_seen: '2026-09-13T00:00:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/amirmushichge/video-states-website
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-13T00:00:57Z'
   metrics:
-    stars: 135
-    forks: 16
+    stars: 136
+    forks: 17
     open_issues: 0
   kind: product
 ---

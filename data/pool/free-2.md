@@ -20,8 +20,8 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-09-11T00:10:51Z'
-status: rejected
+last_seen: '2026-09-13T00:02:40Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -75,6 +75,16 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th
   seen_at: '2026-09-11T00:10:51Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGhmVEJvNWFxckYxU0JFM3k1R2tUakFDaUdhNHZpMlZLQWtrQS1xTmdtYnRlQnpTSzAyQmZsUmQtVFJHaGZIeDhUYmJROHpHUEE3NWtNUHVaT05TdmlBX29nR2pwOFFoSWJ1TVZVVDRpVFJkbWFBNEtSNG9DenJmTEZtTmY0dVFFT2doQUNjYWJLaXdMcGhoT1RnTQ?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOUZzeWJBeW4yRVpmV25WQldidi1CU082cDRIMjBuVnBSTFNiZEtTbmhvdmdjd1VFNHVuYXNBaWh5dFFFYVhEejNUdnBQS2p6UUgyRUZLNm9MZVhKY085OGVfRnhjLTJvUWF1MExQR3ZBSFlTWjRMR2tNVElEX3RVVG5MSnJpTnVGWmNPUVhDeE5oaDk0LVRmRmd5MDQ1NVdvVW9ZU2xKZmI4VkFoRDVnUU9DeVNrcGR5UlVJdjlrdHZxVEQyeEhNNWhzQ2VQYm8wMXdJ?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

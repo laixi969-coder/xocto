@@ -20,16 +20,16 @@ url: https://unigit.ai/
 canonical_url: https://unigit.ai
 summary: UNIGIT public brand and ecosystem hub — AI should work for everyone.
 first_seen: '2026-09-02T10:08:01Z'
-last_seen: '2026-09-12T00:18:44Z'
+last_seen: '2026-09-13T00:00:57Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://unigit.ai/
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-13T00:00:57Z'
   metrics:
-    stars: 760
+    stars: 862
     forks: 45
     open_issues: 0
   kind: product

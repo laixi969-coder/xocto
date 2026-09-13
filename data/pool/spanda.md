@@ -20,17 +20,17 @@ url: https://github.com/Adarshent/Spnda
 canonical_url: https://github.com/Adarshent/Spnda
 summary: Sub-microsecond LLM epistemic uncertainty in Rust
 first_seen: '2026-09-11T21:48:56Z'
-last_seen: '2026-09-12T00:18:40Z'
+last_seen: '2026-09-13T00:00:05Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Adarshent/Spnda
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
-    points: 12
-    comments: 1
+    points: 13
+    comments: 2
   kind: product
 ---
 

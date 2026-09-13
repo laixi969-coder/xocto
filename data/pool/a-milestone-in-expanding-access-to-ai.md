@@ -23,7 +23,7 @@ canonical_url: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
 summary: ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting
   broader access to AI through free and affordable options.
 first_seen: '2026-08-31T04:00:00Z'
-last_seen: '2026-09-12T00:19:17Z'
+last_seen: '2026-09-13T00:02:40Z'
 status: pending_filter
 sources:
 - officialfeeds
@@ -262,14 +262,24 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.rubyhack.ai/
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
-    points: 128
-    comments: 58
+    points: 922
+    comments: 572
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigwFBVV95cUxOaXNUMHpONUdqMDJVM2dpVV96Wm95b09wSG9OdUFFSmktR0duYUx4MEdTbTFBMGF1bnBUS05JODAxSnFVeG9USVJYckZRZkttd0t2ZUFlY1l0UnktamtvWWpVRWVYYjlHUV9maGpTX2F3U2REbEhXMUpuR01XUXZTX3ZZYw?oc=5
   seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
+  seen_at: '2026-09-13T00:01:15Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1DeEQzMGNGMjZmcld1RUtiOTF6czZZTDhLT1FVal9LQUhFd2tMMWxnbTRDd3Z1bVJtbkNDM2VPX1pxY28?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

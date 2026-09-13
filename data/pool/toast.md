@@ -20,17 +20,17 @@ url: https://github.com/paradise-runner/toast
 canonical_url: https://github.com/paradise-runner/toast
 summary: a beautiful by default in terminal IDE
 first_seen: '2026-09-11T17:54:53Z'
-last_seen: '2026-09-12T00:18:40Z'
+last_seen: '2026-09-13T00:00:05Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/paradise-runner/toast
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
-    points: 72
-    comments: 85
+    points: 79
+    comments: 88
   kind: product
 ---
 

@@ -20,7 +20,7 @@ url: https://hcker.news/notifications
 canonical_url: https://hcker.news/notifications
 summary: Real-time push notifications for Hacker News comments
 first_seen: '2026-09-10T14:26:21Z'
-last_seen: '2026-09-12T00:18:40Z'
+last_seen: '2026-09-13T00:00:05Z'
 status: rejected
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
+- source: hackernews
+  url: https://hcker.news/?ai=exclude
+  seen_at: '2026-09-13T00:00:05Z'
+  metrics:
+    points: 199
+    comments: 86
   kind: product
 ---
 

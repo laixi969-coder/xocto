@@ -28,16 +28,16 @@ summary: '## [3.13.0](https://github.com/openai/openai-python/compare/v3.12.0...
 
   * **api:** add Agents API ([1c4284a](https://github.com/openai/openai-python/commit/1c4284a08294f734d57047585ab82e2e09d3a5bc))'
 first_seen: '2026-09-10T19:37:39Z'
-last_seen: '2026-09-12T00:18:44Z'
-status: market_context
+last_seen: '2026-09-13T00:00:57Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/openai-python/releases/tag/v3.13.0
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-13T00:00:57Z'
   metrics:
-    reactions: 2
+    reactions: 3
   kind: news
 ---
 

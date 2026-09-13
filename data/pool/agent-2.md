@@ -30,17 +30,17 @@ canonical_url: https://agent2.is-best.net
 summary: Agent2 — An autonomous AI agent for coding, cybersecurity, terminal automation, and intelligent
   task execution.
 first_seen: '2026-09-04T11:03:14Z'
-last_seen: '2026-09-12T00:18:44Z'
+last_seen: '2026-09-13T00:00:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://agent2.is-best.net
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-13T00:00:57Z'
   metrics:
     stars: 97
-    forks: 8
+    forks: 9
     open_issues: 0
   kind: product
 ---

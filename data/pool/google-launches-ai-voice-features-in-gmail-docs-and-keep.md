@@ -1,7 +1,7 @@
 ---
 slug: google-launches-ai-voice-features-in-gmail-docs-and-keep
 name: Google
-builder: ''
+builder: MysteryPancake
 category: ''
 summary_zh: Google 在 2026 年 9 月上旬把 AI 语音功能加入 Gmail、Docs 和 Keep，覆盖邮件、文档、笔记三个高频办公场景。对做 AI 应用的团队意味着：语音输入这类能力正被办公套件免费内置，独立语音录入或口述转写工具在同一条工作流里将面临挤压（推断：报道只确认上线，未见功能细节与使用数据）。
 inspiration: ''
@@ -24,11 +24,12 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWm
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWmtvRW1oWnJ5aFNfRUUxQV8tSERkSHJCOXpWVWthUkg2RVFUSS1ncHhBRzdINm8yVTJwdU1ZdlcxQVJJWDRyOUZ1b21FNnhrUl9LMkJTeldNYm9yeDI1XzVWUFNJUWdySDE3VUloUGRzWWVqNjljRy1nWWswRXQ0MlNYUQ?oc=5
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: market_context
+last_seen: '2026-09-13T00:02:40Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWmtvRW1oWnJ5aFNfRUUxQV8tSERkSHJCOXpWVWthUkg2RVFUSS1ncHhBRzdINm8yVTJwdU1ZdlcxQVJJWDRyOUZ1b21FNnhrUl9LMkJTeldNYm9yeDI1XzVWUFNJUWdySDE3VUloUGRzWWVqNjljRy1nWWswRXQ0MlNYUQ?oc=5
@@ -53,6 +54,18 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XQXU4b3FnbXJSNDNXUXRwVDNndHNQN01UaDVLY2NJZE9JV0lxaUhHUHpvQU9LUnFkMzNDZG5UOWI4Q19jZFU3aEpPblFQVXRpRm1DQVJRVl9SbUVwX1E?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.minitap.ai/blog/i-expected-better-from-google
+  seen_at: '2026-09-13T00:00:05Z'
+  metrics:
+    points: 134
+    comments: 25
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOWEF4YVFKUDYwTE1jZW5wcmJJTWxlWGpadnNVWUt3WVQ2TU9BZDVFbTNJVzdGaDhMNVdzZTZ1OUdBSWNQMFZKWnBFb3RoX2ZfSDVpUG4tYUItcFBnLW9tamdQcEJzMmpFYUNuOFZHb01JdlE1aTlRRHhDeUxscjZWdE5TS3FmQkxwMU04d2RhclJubC1qWDVqcXhR?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

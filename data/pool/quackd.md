@@ -42,17 +42,17 @@ summary: 🦆🧠 Give your small robot a brain. Tell a Microduck, an Open Duck 
   Grok, or a local model via Ollama, vLLM or llama.cpp) uses the skills it already has. Simulator, .duck
   task files, MCP, memory between runs, flocks.
 first_seen: '2026-08-28T09:09:16Z'
-last_seen: '2026-09-12T00:18:44Z'
+last_seen: '2026-09-13T00:00:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.quackd.org
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-13T00:00:57Z'
   metrics:
-    stars: 189
-    forks: 19
+    stars: 192
+    forks: 20
     open_issues: 4
   kind: product
 ---

@@ -26,17 +26,17 @@ url: https://github.com/deepseek-ai/DeepJIT
 canonical_url: https://github.com/deepseek-ai/DeepJIT
 summary: A lightweight library for xPU kernel JIT compilation
 first_seen: '2026-09-08T03:57:22Z'
-last_seen: '2026-09-12T00:18:44Z'
+last_seen: '2026-09-13T00:00:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/deepseek-ai/DeepJIT
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-13T00:00:57Z'
   metrics:
-    stars: 272
-    forks: 22
+    stars: 289
+    forks: 23
     open_issues: 9
   kind: product
 ---

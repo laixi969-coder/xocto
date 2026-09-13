@@ -20,17 +20,17 @@ url: https://github.com/godot-pty/gpty
 canonical_url: https://github.com/godot-pty/gpty
 summary: Godot and Rust based multiplexer (terminal panes and more)
 first_seen: '2026-09-11T16:03:05Z'
-last_seen: '2026-09-12T00:18:40Z'
+last_seen: '2026-09-13T00:00:05Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/godot-pty/gpty
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
-    points: 76
-    comments: 41
+    points: 91
+    comments: 47
   kind: product
 ---
 

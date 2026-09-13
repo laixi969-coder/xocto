@@ -20,14 +20,20 @@ url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oMmxfaWI3WVc1VGVRSDRsTn
 canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oMmxfaWI3WVc1VGVRSDRsTngxNWpVa0pVc3BtMHJ6a09pTTBhWmxXV3JJVGlWV1kxN1JDYTJLajZiSlAycXJjcm95QWhJTjVqX1g2YVBQdzFtUElkZElSd00zeVg5UXFt?oc=5
 summary: Nvidia, FAA Join Palantir’s AI Expansion as Cyber Push Takes Off TradingView
 first_seen: '2026-09-10T10:06:22Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-13T00:01:15Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oMmxfaWI3WVc1VGVRSDRsTngxNWpVa0pVc3BtMHJ6a09pTTBhWmxXV3JJVGlWV1kxN1JDYTJLajZiSlAycXJjcm95QWhJTjVqX1g2YVBQdzFtUElkZElSd00zeVg5UXFt?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/forward-deployed-engineer-best-practices
+  seen_at: '2026-09-13T00:01:15Z'
   metrics: {}
   kind: news
 ---

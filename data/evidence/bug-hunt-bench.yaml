@@ -38,3 +38,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 软件开发者 技术选型与采购人员'
+- id: ev-23550a66ebb99e2d
+  project_slug: bug-hunt-bench
+  url: https://bughunt.productcompass.pm
+  title: bug-hunt-bench
+  published_at: '2026-08-25T11:43:42Z'
+  collected_at: '2026-09-13T00:00:57Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Bug Hunt Bench: 105 real bugs in two production repos, frontier coding models (GPT-6, Claude,
+    Grok, Gemini, DeepSeek...) find and fix them in their own CLI, graded blind. Live leaderboard + every
+    receipt. | repository stars: 48'

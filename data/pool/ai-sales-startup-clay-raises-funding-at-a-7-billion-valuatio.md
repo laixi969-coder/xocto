@@ -43,8 +43,8 @@ url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzNlYllqeFBUdjhDNkJyaH
 canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzNlYllqeFBUdjhDNkJyaHBRVDZ0dzI0ZlNCTHVLT0VCcXdaZHBxemJaZkNqSURGbEtPWDRvdGNZek5vLWdzNEN1RmVVcXBQN0R6YnhqaFY3V0pGUldjXzF0UHhkMDg1YUFKMXZVaWhTQ2NuTE40ZlAxSFM5SlBmbU5wbllrZTMteU8xLWRVUVFZMnU5bEpBSFV1X1lET1pIcjMta3NWeFDSAa4BQVVfeXFMTl9sa0F2VHNvdVJoVVBKNnlaTFFaMVZzUXRYNWdZaUR0NjlWQ2tLNEhJWGZaN1ZqbkduNDBCZUZ6aVZkSzFnZElmSE51cDRBN2hYRVZuOENUbzhaN0xjdFpMU280cGFFSm0zZkJDMUJNbTViZ2k0ZzBxMWNwZHBOcG9hb2tiVUYxVXNUVVFnNkl2dFZ0a2VxUW1qN1hWS3kwR09jaEZpblNpMzNlRWx3?oc=5
 summary: AI sales startup Clay raises funding at a $7 billion valuation WION
 first_seen: '2026-09-01T21:19:00Z'
-last_seen: '2026-09-10T16:51:24Z'
-status: queued
+last_seen: '2026-09-13T00:02:40Z'
+status: pending_filter
 sources:
 - newssearch
 - ia40
@@ -66,6 +66,11 @@ sightings:
     stage: Late
     edition: '2026'
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxPdWl6Qk1HTFBsX0VlOENfN3hJT1lXTFRDaUJPdmtVejBZMV9BUWc0UkNmc1hreU5nSTVOYUM1d3lyME04UTlPNkZ2MW5Xdk9FN2FTVy10cDZsUUJwaVdCQjFaM1J1VTVJRWJ6eThPT0VScFV6UkFBQjI0X2dXTWlSQThteXRqTFBzV2QtZ25VLURfMk82ZEZqRG1wNVk1VTc1RnhReEh3Z0FfbkhoZlFwVHNsRQ?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
+  metrics: {}
+  kind: news
 ---
 
 # Clay

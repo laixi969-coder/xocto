@@ -32,16 +32,16 @@ url: https://github.com/turanmahmudov/masume
 canonical_url: https://github.com/turanmahmudov/masume
 summary: A database client for the terminal. Open a database, read it, and give an agent the same catalog.
 first_seen: '2026-08-30T18:22:22Z'
-last_seen: '2026-09-12T00:18:44Z'
+last_seen: '2026-09-13T00:00:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/turanmahmudov/masume
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-13T00:00:57Z'
   metrics:
-    stars: 67
+    stars: 69
     forks: 2
     open_issues: 0
   kind: product

@@ -22,16 +22,16 @@ url: https://github.com/anthropics/mythos-5-incident-transcript
 canonical_url: https://github.com/anthropics/mythos-5-incident-transcript
 summary: ''
 first_seen: '2026-09-09T17:18:10Z'
-last_seen: '2026-09-12T00:18:44Z'
+last_seen: '2026-09-13T00:00:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/mythos-5-incident-transcript
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-13T00:00:57Z'
   metrics:
-    stars: 45
+    stars: 48
     forks: 7
     open_issues: 0
   kind: product

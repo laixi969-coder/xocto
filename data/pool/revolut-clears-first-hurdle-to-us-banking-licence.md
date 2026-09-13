@@ -21,7 +21,7 @@ url: https://sifted.eu/articles/revolut-us-banking-licence-2/
 canonical_url: https://sifted.eu/articles/revolut-us-banking-licence-2
 summary: 'AI Shopping Revolution: How Machines Could Change Indian Retail Daily Pioneer'
 first_seen: '2026-09-03T17:46:52Z'
-last_seen: '2026-09-10T05:13:56Z'
+last_seen: '2026-09-13T00:02:40Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -40,6 +40,11 @@ sightings:
 - source: marketfeeds
   url: https://www.interconnects.ai/p/when-will-average-people-feel-ais
   seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPYnlnRHd3cGxZU1VITzk1RWhJTlZkbFdSMkxSSjUxa3htM2Y5OFF0T1MzdFBiNnVER0d5dnpjb3AzU3hCaWYxQW9FTWVmWEt2b1JuR0sxZXJ4aklaNnNjM2pmM2g0bDZhTEZRNFlBTGcyalhvUnhaWmtYLVlaU0pGYkVrMDYtNzZTTzhhUDNFZFF0MTZlY3c2UGs5d1BOMlA3NlJrVmZERUwxRWFwd2pGRy01UklnUkE?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

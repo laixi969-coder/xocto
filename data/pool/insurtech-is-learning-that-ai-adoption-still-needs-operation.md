@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOSDJWaEhnbjdYVU14OWlxLU
 canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOSDJWaEhnbjdYVU14OWlxLUJEQVZvOHA0T3pUeHIyUUJYRGNXZ2ZsaWpnaTFmbllnd3N2cXlhY3E4b1lCSkJzVlVBUUpIa1BNUVFlX0Y1N0NUSnV6Sm9QNFliVUtDUW50LXZHNmxnMk81RmZialRIOEtDR0Q4Nlo2X2p6S1RrNk1kVmRYNmhYMl9BdHBOYWVlZ2VKVzJPeUI4R0ROMV9VVQ?oc=5
 summary: InsurTech is learning that AI adoption still needs operational discipline StartUp Beat
 first_seen: '2026-09-05T00:07:04Z'
-last_seen: '2026-09-05T23:54:29Z'
-status: market_context
+last_seen: '2026-09-13T00:02:40Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOSDJWaEhnbjdYVU14OWlxLUJEQVZvOHA0T3pUeHIyUUJYRGNXZ2ZsaWpnaTFmbllnd3N2cXlhY3E4b1lCSkJzVlVBUUpIa1BNUVFlX0Y1N0NUSnV6Sm9QNFliVUtDUW50LXZHNmxnMk81RmZialRIOEtDR0Q4Nlo2X2p6S1RrNk1kVmRYNmhYMl9BdHBOYWVlZ2VKVzJPeUI4R0ROMV9VVQ?oc=5
   seen_at: '2026-09-05T23:54:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPUzZTREFvZkpMa3hsRF96eGZWcWhLcExJTEl1NjVoS2U4R0pzLXlBNWE4MjVzbUEzaDlxbkpKLUhiRGUxX0dMZzROeGlfR3pOVW1jU2JuY2dGS3hXcF8za3JuY0lhYkFPV1AzYWRWT2NZRFNNWlhvRWp5bG5aaXBjaElOOElYWlE?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE54STVrSnAydi1kdmpYY3NHZ1
 canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE54STVrSnAydi1kdmpYY3NHZ1JHc3lPem1KbGtGVXlWcTNyZ0c4alhOY0FxTjZWRVRxZFhCOUJYU1JPMWhGdEhiakRiS3JrSmFwRk04MnZR?oc=5
 summary: 广和通战略投资烨知心，深化端侧AI生态布局-美通社PR-Newswire PR Newswire
 first_seen: '2026-09-11T02:47:00Z'
-last_seen: '2026-09-12T00:19:17Z'
-status: rejected
+last_seen: '2026-09-13T00:02:40Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE54STVrSnAydi1kdmpYY3NHZ1JHc3lPem1KbGtGVXlWcTNyZ0c4alhOY0FxTjZWRVRxZFhCOUJYU1JPMWhGdEhiakRiS3JrSmFwRk04MnZR?oc=5
   seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UVEdaMkZRQXU5UUx1dzdYZVBxdWxNZlE2NHRpUUJMNm9JaGt5M3VnbldWbHFGUDdXaF93VS1TazR0YXI4NktvZ2Rac3FKdkJyYkhVS3lkZw?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

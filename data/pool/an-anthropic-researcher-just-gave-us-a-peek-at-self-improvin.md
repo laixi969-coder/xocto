@@ -42,8 +42,8 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-12T00:18:40Z'
-status: rejected
+last_seen: '2026-09-13T00:01:15Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -188,6 +188,25 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidEFVX3lxTE91cGJxZXBhYngwN2dqTHFpYTdsUHRqRDNMbXU4dnhUUjZQZ1JNcXM2UUVOTFpLWkVQWWtGWlB4ZVRiWFFERDBVcm5DeUhvVlhoSmFxa2lVR25veUQyel91azd1MFNkSXlWdnRGZGpSNU1zRTBj?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.bbc.com/news/articles/c14dpgm0rg4o
+  seen_at: '2026-09-13T00:00:05Z'
+  metrics:
+    points: 49
+    comments: 105
+  kind: news
+- source: hackernews
+  url: https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/
+  seen_at: '2026-09-13T00:00:05Z'
+  metrics:
+    points: 58
+    comments: 25
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development
+  seen_at: '2026-09-13T00:01:15Z'
   metrics: {}
   kind: news
 ---

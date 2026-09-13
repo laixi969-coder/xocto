@@ -24,17 +24,17 @@ url: https://www.nytimes.com/2026/09/11/technology/x-grok-child-images.html
 canonical_url: https://nytimes.com/2026/09/11/technology/x-grok-child-images.html
 summary: Child Sexual Abuse Material Persists on X
 first_seen: '2026-09-11T15:52:18Z'
-last_seen: '2026-09-12T00:18:40Z'
-status: market_context
+last_seen: '2026-09-13T00:00:05Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.nytimes.com/2026/09/11/technology/x-grok-child-images.html
-  seen_at: '2026-09-12T00:18:40Z'
+  seen_at: '2026-09-13T00:00:05Z'
   metrics:
-    points: 46
-    comments: 50
+    points: 48
+    comments: 66
   kind: news
 ---
 

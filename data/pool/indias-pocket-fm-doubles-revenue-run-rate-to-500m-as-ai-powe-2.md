@@ -37,14 +37,20 @@ canonical_url: https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenu
 summary: Pocket FM uses AI to produce 99% of its new content, helping make content production about 80
   times cheaper.
 first_seen: '2026-09-10T17:45:00Z'
-last_seen: '2026-09-12T00:19:09Z'
-status: queued
+last_seen: '2026-09-13T00:02:40Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/
   seen_at: '2026-09-12T00:19:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSDc5a1pRUUR0Z3BuN0xXek4yQXlxT1BfdnNmRW44WldvR0E4b3BsLTd2enJmcTNncmFEbDBnaF9LeGhpN09JNldfTkQzVXZYQk9UUlp4TE5XUzRMLTJ5aGM1Q1A2ZGtuLWFublFDQllvVnRxUF9vVDk2Sk94dnhNSTNHUGFROTdD?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---

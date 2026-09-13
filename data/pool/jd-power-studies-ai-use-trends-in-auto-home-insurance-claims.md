@@ -23,8 +23,8 @@ url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPTzIzeDdLMXp0SGtGcldYTm
 canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPTzIzeDdLMXp0SGtGcldYTmJ0R1phZlhQQWU1Sllfc2pqVnRnNEFtdUk5Ui1QbTVxaExGRTRmTjFEanB3VWlOYTRiQ3U3ZUNkZHVKZlpjOUJYS3JrRG9wUXdESmRWWUl4U3NUZ1JLdGQ2SFZJRVc5Rk0ybDJTV1pxQVVIdThXLVR0QXI4UDY4dUUyT2RxaU1tek9OZTdTaW1yY0pyWkw4eTZ0SF9Wd0ZGb1ZRTDVlMG5PRlVndlRKWWd4ekxPT1E?oc=5
 summary: JD Power studies AI use trends in auto, home insurance claims filing and shopping repairerdrivennews.com
 first_seen: '2026-08-28T10:00:47Z'
-last_seen: '2026-09-04T00:07:05Z'
-status: market_context
+last_seen: '2026-09-13T00:02:40Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -51,6 +51,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQLXJURk1lVEJZd1ZObV9XdVRHam5nQ2hnTFhZVTF3ZmJXMjJLQW5vSzd6LXpkRHFmS0RxaG5EQWNTbU0xQkJ4NmZ0OVB3LTVZRmg4cm1CRGNTbHlIZkxJWmxKbkl0YlMzZWZwZDZiWEZCZV83ZkxFUmUxZGo0Z1dROFlraDEzY2wtZmZ4TDJn0gGeAUFVX3lxTFBGSFpEODQ2Rnd1VGo2WFZvRHhScjN3Z2NoYWZmOGZaZ3RQc3JLakVmOEFJSUZDN1h0OVkxMFhadjljaGpjN1R5U3Q3TzVWaHl2cm5nT0dWWnczMWotV0Z3elIxZXg3M3ZrM2RMNENHWmJCT2ZtdHpxYmdPXzZ6dzY3X0x2M0F4U3NHMU9JS3BDcHlhdnNhN2FfQXpWVEtR?oc=5
   seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1pTYW10dzA3ZGVNYko1TkJTREV0cFhiSWdpbzNQd3ZuY1JhcGpTQnVnemVvS25hVl9rZGlEcHZIZWJqLW9vLWhRaXBSdFFBWmpfbVJVaE04R3NiMktjdDBVemNCQTVhdGRTMzBRejNGYldmdUNTdmJFM1pYSm12Q1Itc0szSGJfa05uc0xNQTBkZ0d6a0RDYlE3Vm9Vc0ZiaUlua0FZTG1fWTZw?oc=5
+  seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
   kind: news
 ---
