@@ -134,3 +134,52 @@
     of maintaining a separate pipeline for each xPU; teams porting the same kernel code across multiple
     non-NVIDIA accelerators would therefore consider it. This causal link is structural reasoning, not
     yet backed by user feedback or cases.'
+- id: req-full-deepjit-2026-09-13
+  project_slug: deepjit
+  level: full
+  reviewed_at: '2026-09-13T00:23:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是非英伟达加速卡上内核编译流程需逐卡手写维护的需求，痛点在于多硬件适配的重复工程负担；公开仓库定位为 xPU 内核 JIT 编译库，输入内核代码、运行时编译并产出可调用结果，闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+    - ev-c1c3ff3c8a120fb3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 208 增至 289，说明开发者持续关注，但公开材料没有 issue、discussion 或用户反馈，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+    - ev-0b7e7c47369c2dfd
+    - ev-c1c3ff3c8a120fb3
+  - gate: model
+    status: insufficient
+    reason: 这是开源库，公开材料未披露定价、付费主体或商业收费方式，钱可能来自 to B 支持或 to VC，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c1c3ff3c8a120fb3
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些 xPU、编译结果能否稳定复现，以及人工与安全边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+    - ev-0b7e7c47369c2dfd
+  next_validation: 追踪 DeepJIT 仓库的 README、issue 与 discussion，确认其支持的 xPU 清单、编译流程与部署方式，以及是否有团队公开报告实际接入。
+  market: ''
+  job: 在非英伟达加速卡上部署推理的工程团队，把为每种 xPU 手写并维护的内核编译流程交给 DeepJIT，由它在运行时对内核代码做即时编译并产出可直接调用的编译结果。
+  job_en: Engineering teams deploying inference on non-NVIDIA accelerators hand their per-xPU hand-written
+    kernel compilation pipeline to DeepJIT, which just-in-time compiles kernel code at runtime and produces
+    callable compiled output.
+  pain: 公开材料显示该库定位为 xPU 内核 JIT 编译，说明团队原本要为每种加速卡单独维护编译流程；但公开证据未给出不解决的代价、发生频率或具体后果。
+  pain_en: Public material positions the library as xPU kernel JIT compilation, implying teams previously
+    maintained a separate compilation pipeline per accelerator; but public evidence gives no cost, frequency
+    or consequence of leaving it unsolved.
+  current_alternative: 公开材料未直接说明替代方式；从定位推断，旧做法是为每种 xPU 手写并维护各自的内核编译流程。
+  current_alternative_en: Public material does not state the alternative directly; from the positioning,
+    the old approach is hand-writing and maintaining a separate kernel compilation pipeline per xPU.
+  usage_reason: 推断：相较逐卡手写编译流程，DeepJIT 把即时编译收敛为一个轻量库调用，减少为每种 xPU 单独维护编译链的负担，因此面向多加速卡部署的工程团队会在需要跨硬件复用内核时选择它。
+  usage_reason_en: 'Inference: compared with hand-writing a compilation pipeline per card, DeepJIT collapses
+    JIT compilation into a lightweight library call, reducing the burden of maintaining a separate toolchain
+    per xPU, so teams deploying across multiple accelerators would choose it when reusing kernels across
+    hardware.'

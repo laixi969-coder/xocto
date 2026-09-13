@@ -142,3 +142,47 @@
   usage_reason_en: Capability descriptions alone cannot explain why a user would choose it over the old
     approach in a concrete situation, and there is no checkable outcome improvement, so the usage reason
     cannot be established.
+- id: req-full-agent-2-2026-09-13
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-09-13T00:22:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅一句功能罗列，未说明开发者手动编码、安全扫描或终端操作具体卡在哪一步、不解决会失去什么，也无用户抱怨或替代行为记录，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-f9cbea19b287913b
+    - ev-6f674c0bc396bab3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Agent-2 仓库的 README、issue 与 discussion，确认其具体工作流程、输入输出与交付结果说明。
+  market: ''
+  job: 开发者在终端或编码环境中处理代码仓库与命令行任务时，需要让代理接收任务描述并自动完成代码编写、安全扫描或终端命令操作，最终拿到可用的任务结果或操作日志。
+  job_en: Developers working in a terminal or coding environment need an agent to accept a task description
+    and autonomously perform code writing, security scanning, or terminal command operations, delivering
+    usable task results or operation logs.
+  pain: 公开材料只有一句功能罗列，没有说明手动执行编码、安全扫描或终端操作具体卡在哪一步、耗时多少、出错后果如何，也没有用户抱怨或 workaround 记录，痛点无法从证据中还原。
+  pain_en: The public material is only a one-line feature list; it does not specify which step of manual
+    coding, security scanning, or terminal operations is blocked, how much time it costs, or what the
+    consequences of errors are, and there are no user complaints or workaround records, so the pain cannot
+    be reconstructed from evidence.
+  current_alternative: 公开材料未披露开发者当前用什么替代方式完成同类任务，只能推测是手动编码、通用终端工具或既有编码助手，但没有任何证据支持这一推测。
+  current_alternative_en: The public material does not disclose what alternatives developers currently
+    use for similar tasks; one can only speculate about manual coding, generic terminal tools, or existing
+    coding assistants, but no evidence supports this speculation.
+  usage_reason: 无法从公开证据说明用户为何会选择它而非旧做法：没有定价、文档、客户案例或用户反馈，只有仓库星标从 90 缓慢增至 97，这属于关注度而非使用理由。
+  usage_reason_en: 'Public evidence cannot explain why users would choose it over existing practices:
+    there is no pricing, documentation, customer case, or user feedback, only repository stars creeping
+    from 90 to 97, which is attention rather than a usage reason.'

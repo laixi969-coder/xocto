@@ -276,3 +276,54 @@
     voice-over and lip-sync, so the creator only needs a script and subtitles to get a new vertical talking-head
     video; keeping keys in the browser and footage off remote servers makes it more likely to be chosen
     by creators who care about footage and key leakage when updating talking-head content in b'
+- id: req-full-video-ai-talking-2026-09-13
+  project_slug: video-ai-talking
+  level: full
+  reviewed_at: '2026-09-13T00:26:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是口播视频'必须本人反复出镜录制'这一环节：改一句文案就要重录，外包配音口型又按条付费等待。上传真人素材加字幕、本机配音对口型、导出竖屏 MP4 的闭环，把改稿成本从重拍降为改文本，痛点刚性来自内容更新频率，属工作流结构推理，尚无用户抱怨或成本数据佐证。
+    evidence_ids:
+    - ev-f202e46a35b2501e
+    - ev-43a7f3bbfc1b439d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 322 增至 384，说明开发者社区持续关注，但收藏与关注度只属规模信号，不能证明目标创作者已把它留在日常出片流程里；公开材料没有用户评价、案例或复刻后的实际使用记录，场景是否强仍无法确认。
+    evidence_ids:
+    - ev-f202e46a35b2501e
+    - ev-1f5cd124d21ee976
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，谁付钱（创作者自付、MCN 采购还是 API 转售）无法核验；本机运行、密钥留浏览器意味着算力成本由用户承担，但这是判断而非已验证的收费路径。
+    evidence_ids:
+    - ev-33515912900e07ff
+  - gate: truth
+    status: insufficient
+    reason: 本机配音与口型对齐能否在普通设备上稳定产出可发布画质、失败时如何回退，公开材料未给出部署文档或可复现结果；真人肖像与声音的授权边界也未说明，交付确定性与安全边界都缺公开证据。
+    evidence_ids:
+    - ev-c2c9709749efee3f
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开描述实际出片流程、替代掉的旧做法以及本机合成的画质与失败反馈。
+  market: ''
+  job: 真人口播创作者或短视频运营在需要批量产出竖屏口播视频、但本人不愿或无法反复出镜录制时，上传一段真人出镜素材并写好字幕，由工具在本机完成配音与口型对齐，导出可直接发布的竖屏 MP4。
+  job_en: A talking-head creator or short-video operator who must ship vertical talking-head clips at
+    volume but cannot or will not re-shoot on camera uploads one real on-camera clip plus a script, and
+    the tool dubs and lip-syncs locally to export a publish-ready vertical MP4.
+  pain: 口播视频的瓶颈在录制环节：出镜需要妆造、灯光、场地和反复 NG，改一句文案就要重录整段；外包配音加口型对齐又要按条付费并等待交付。公开材料只给出产品定位，未提供用户抱怨或成本数据，因此痛点强度属工作流结构推理。
+  pain_en: 'The bottleneck is the shoot itself: appearing on camera needs styling, lighting, a location
+    and repeated retakes, and one script change forces a full re-shoot; outsourcing dubbing plus lip-sync
+    costs per clip and adds turnaround. Public material only states the product positioning, with no user
+    complaints or cost data, so pain intensity is a workflow-structure inference.'
+  current_alternative: 旧做法是本人反复对镜重录，或用通用剪辑软件手动对齐配音与口型，或把配音和口型外包给后期/数字人服务按条计费。公开材料未说明用户具体在用哪一种，也未给出替代流程的对比数据。
+  current_alternative_en: The old path is re-shooting on camera until the take is clean, manually aligning
+    dubbed audio to mouth movement in a general editor, or outsourcing dubbing and lip-sync to post-production
+    or avatar services billed per clip. Public material does not say which one users actually use, nor
+    compare the alternatives.
+  usage_reason: 推断：相较重录或外包，它把'改文案'从重拍整段降级为改字幕文本，并在本机完成配音与口型合成，省掉出镜录制和按条外包这两个环节；密钥只留在浏览器也回应了素材外传的顾虑。因此在意出镜成本、又需要频繁改稿的创作者会选它。公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus re-shooting or outsourcing, it downgrades a script change from a
+    full re-shoot to editing subtitle text, and does dubbing plus lip-sync locally, removing the on-camera
+    shoot and the per-clip vendor step; keeping keys in the browser also answers concerns about handing
+    footage to a third party. That is why creators who dislike being on camera yet revise scripts often
+    would pick it. No user feedback or case study yet confirms this motive.'

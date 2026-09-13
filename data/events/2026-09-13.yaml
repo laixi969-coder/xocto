@@ -17,8 +17,13 @@
   discovered_at: '2026-09-13T00:00:02Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月12日，维护者在其开源待办软件 HamsterBase Tasks 中新增一个 AI Skill：AI 可读取任务清单，或接收某个项目、分组、任务，完成后带说明与截图提交完成请求，人工验收通过后任务才被勾掉；维护者自述用法是
+    vibe coding 出初版后把待检查项填进验收清单，把清单 ID 交给 AI 逐项处理。
+  summary_en: 'On 2026-09-12 the maintainer of the open-source to-do app HamsterBase Tasks added an AI
+    Skill: the AI can read task lists or be handed a project, group or task, then submit a completion
+    request with notes and screenshots that only marks the task done after human acceptance; the maintainer
+    says he fills a review checklist after vibe-coding a first version and sends the list ID to the AI
+    to work through item by item.'
   evidence_ids:
   - ev-0d5585f6733582c7
   homepage: true
@@ -78,8 +83,9 @@
   discovered_at: '2026-09-13T00:00:05Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月8日，独立开发者 Matt Blake 发布 Pascal’s Pager，把 webhook 返回的 JSON 转成 iPhone 可读的推送通知。
+  summary_en: On September 8, 2026, independent developer Matt Blake released Pascal’s Pager, which turns
+    webhook JSON payloads into readable iPhone push notifications.
   evidence_ids:
   - ev-5381ed213ef57133
   homepage: true
@@ -150,8 +156,9 @@
   discovered_at: '2026-09-13T00:00:05Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日，Ali Asgar Khawasawala 发布 FrameSketch，支持逐帧拖动视频并以 60fps 在画面上手绘标注。
+  summary_en: On 2026-09-10, Ali Asgar Khawasawala released FrameSketch, which lets users scrub video
+    frame by frame and sketch on the footage at 60fps.
   evidence_ids:
   - ev-ba4ab439bc8871c7
   homepage: true
@@ -163,8 +170,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月12日，provetogether 上线一个用多智能体集群协作证明 Berge–Fulkerson 猜想的公开页面，社区讨论中获得 5 个点数、暂无评论。
+  summary_en: On September 12, 2026, provetogether launched a public page for proving the Berge–Fulkerson
+    conjecture with a swarm of collaborating agents, drawing 5 points and no comments in community discussion.
   evidence_ids:
   - ev-91dcc0491be805fa
   homepage: true
@@ -189,8 +197,10 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026 年 9 月 12 日，开发者 omarammura 在社区发布 Liniora，定位为可替代项目经理的工具，讨论帖获得 9 分、8 条评论；除该定位表述外，未披露具体功能、客户或定价。
+  summary_en: On 12 September 2026, developer omarammura posted Liniora in a community thread, positioned
+    as a tool that could replace a project manager; the post drew 9 points and 8 comments, with no further
+    disclosure of features, customers or pricing.
   evidence_ids:
   - ev-ed92309f100d53f5
   homepage: true
@@ -202,8 +212,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月12日，开发者 kotleta552 公开了本地优先的 Android 智能体 creepy，并称其发布背景是 Meta 推出 Muse。
+  summary_en: On September 12, 2026, developer kotleta552 published creepy, a local-first Android agent,
+    framing the release against Meta's launch of Muse.
   evidence_ids:
   - ev-1a0af339a5c157a3
   homepage: true
@@ -241,8 +252,10 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月12日，开发者 zachsaw 在公开代码托管平台发布 Graphify C#，为编码智能体提供编译器级精度的“查找引用”能力，社区讨论获得 41 个点赞与 21 条评论。
+  summary_en: On September 12, 2026, developer zachsaw released Graphify C# on a public code hosting platform,
+    giving coding agents compiler-accurate Find Usages; the community discussion drew 41 points and 21
+    comments.
   evidence_ids:
   - ev-4bd845546605f885
   homepage: true
@@ -384,8 +397,10 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日，speechtext.ai 上线免费的在线 Bates 编号工具，宣称对 PDF 的编号处理在本地完成、不上传文件；未披露客户、定价或使用量数据。
+  summary_en: On September 11, 2026, speechtext.ai launched a free online Bates numbering tool, claiming
+    that PDF numbering is processed locally without uploading files; no customers, pricing or usage figures
+    were disclosed.
   evidence_ids:
   - ev-42eaa895967ca77c
   homepage: true
@@ -410,8 +425,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月12日，Real-SWE 发布，用于在私有、真实的企业代码库上评测 AI 模型，社区讨论中出现 77 点与 52 条评论。
+  summary_en: On Sept 12, 2026, Real-SWE was published to benchmark AI models on private, real-world enterprise
+    codebases, drawing 77 points and 52 comments in community discussion.
   evidence_ids:
   - ev-83ccd5d961a1e757
   homepage: true
@@ -423,8 +439,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Anthropic CEO 于2026年9月12日公开表示，应当放缓AI模型改进的速度。
+  summary_en: Anthropic's CEO publicly said on September 12, 2026 that it is time to slow the pace of
+    improving AI models.
   evidence_ids:
   - ev-c6394f407acc2158
   homepage: true
@@ -449,8 +466,12 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 英伟达与一家开源模型托管与分发平台达成收购协议，交易金额约 129 亿美元，约为该平台 2023 年 8 月 D 轮 45 亿美元估值的三倍；该平台托管超 300 万个模型仓库、服务
+    1300 万开发者，2026 年 8 月 ARR 约 1.5 亿美元、企业客户 5 万家。
+  summary_en: NVIDIA reached an agreement to acquire an open-source model hosting and distribution platform
+    for about $12.9 billion, roughly three times that platform's $4.5 billion valuation in its August
+    2023 Series D; the platform hosts over 3 million model repositories, serves 13 million developers,
+    and had about $150 million ARR and 50,000 enterprise customers as of August 2026.
   evidence_ids:
   - ev-1eb0d353a17ab816
   homepage: true
@@ -553,8 +574,8 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Recursive 获得 6.5 亿美元融资，用于以 AI 构建更强的 AI。
+  summary_en: Recursive raised $650 million in funding to build stronger AI with AI.
   evidence_ids:
   - ev-fe11a229099b5dad
   homepage: true
@@ -924,8 +945,11 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月9日，开源项目 Phyzical_org 公开其浏览器遥操作数据方案，提供可供 elizaOS 使用的 episode、trajectory_db 转换器与链上来源记录，仓库获得
+    204 个星标。
+  summary_en: On September 9, 2026, the open-source project Phyzical_org published its browser teleoperation
+    data approach, offering elizaOS-ready episodes, a trajectory_db converter, and on-chain provenance,
+    with the repository at 204 stars.
   evidence_ids:
   - ev-777ef50eaa86222a
   homepage: true
@@ -1232,8 +1256,11 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月8日，krmisystems 在开源仓库发布面向 ESPN 梦幻橄榄球的选秀与阵容工具，可接入 Codex 等 MCP 客户端，支持浏览器登录、审批模式、按球队限额与服务端监控；仓库现有
+    66 星、34 分支。
+  summary_en: On 2026-09-08, krmisystems published an open-source tool for ESPN fantasy football drafts
+    and lineups, usable from Codex and other MCP clients, with browser sign-in, approval modes, per-team
+    limits and server monitoring; the repository has 66 stars and 34 forks.
   evidence_ids:
   - ev-885f3d84e6c6bb6e
   homepage: true
@@ -1358,8 +1385,12 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月8日，开源项目 pi-bluebook 发布 Pi Coding Agent 中文学习蓝皮书，从安装与第一个可验收任务讲到 Session、Context、Skill、Extension、Subagent
+    与长期 Agent 工作流，仓库获得 139 个星标。
+  summary_en: On September 8, 2026, the open-source project pi-bluebook released a Chinese-language learning
+    handbook for the Pi Coding Agent, covering installation and a first verifiable task through Session,
+    Context, Skill, Extension, Subagent, and long-running agent workflows, with the repository at 139
+    stars.
   evidence_ids:
   - ev-adf7bbaf8d6a7a23
   homepage: true
@@ -1386,8 +1417,11 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日，开发者 FankChen 发布本地优先的 AI agent 轨迹工作台 tracecrate，可读取 Claude Code、Codex 与 OTLP 日志、对比多次运行并导出报告，无需后端或
+    API key；仓库公开显示 111 个星标、3 个 fork、5 个未关闭 issue。
+  summary_en: On September 10, 2026, developer FankChen released tracecrate, a local-first AI agent trace
+    workbench that reads Claude Code, Codex and OTLP logs, compares runs and exports reports with no backend
+    or API keys; the repository shows 111 stars, 3 forks and 5 open issues.
   evidence_ids:
   - ev-79dc4cb3400a893e
   homepage: true
@@ -1582,8 +1616,12 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026 年 9 月 9 日，作者 MasterLeos 在代码托管平台发布开源项目 leos-six-department-directing-team-skill-v1，把 AI
+    影视创作拆成场次设计、表演调度、摄影方案、视频提示词与连续性审查六个导演职能角色；截至采集时仓库有 51 星、6 次复刻、0 个未关闭议题。
+  summary_en: On 9 September 2026, author MasterLeos published the open-source project leos-six-department-directing-team-skill-v1,
+    splitting AI filmmaking into six directing roles covering scene planning, performance staging, cinematography,
+    video prompts and continuity review; at collection time the repository had 51 stars, 6 forks and 0
+    open issues.
   evidence_ids:
   - ev-93a3d8762807115b
   homepage: true
@@ -2379,8 +2417,9 @@
   signals:
   - update
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日，OpenAI 在 openai-python v3.13.0 中新增 Agents API，属于官方 SDK 的能力与接口变化。
+  summary_en: On Sept 10, 2026, OpenAI added an Agents API in openai-python v3.13.0, a capability and
+    interface change in its official SDK.
   evidence_ids:
   - ev-1c1de453691d1ce3
   homepage: true
@@ -2405,8 +2444,11 @@
   signals:
   - update
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: Dify 发布 v1.17.1，新增数据集级知识库 API 密钥（此前密钥作用域为整个工作区），并将自托管捆绑的 Weaviate 从 1.27.0 升级至 1.39.2，跨 12
+    个次版本升级需手动分阶段执行，否则可能永久破坏向量检索。
+  summary_en: Dify released v1.17.1, adding dataset-scoped knowledge base API keys (previously scoped
+    to the whole workspace) and upgrading the bundled self-hosted Weaviate from 1.27.0 to 1.39.2; the
+    12-minor-version jump requires a manual staged upgrade or vector search may be permanently broken.
   evidence_ids:
   - ev-efb014690ac394a9
   homepage: true
@@ -2482,8 +2524,10 @@
   discovered_at: '2026-09-13T00:01:14Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日，NVIDIA 博客介绍 Skild AI 的 S1 机器人基础模型，称其可从单次视频演示学习此前未见的长程任务，模型于前一周发布。
+  summary_en: On Sept 10, 2026, an NVIDIA blog introduced Skild AI's S1 robot foundation model, saying
+    it can learn previously unseen long-horizon tasks from a single video demonstration; the model launched
+    the prior week.
   evidence_ids:
   - ev-5db30d3b2b210f59
   homepage: true
@@ -2530,8 +2574,8 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: GPT-6 Astra 在 FrontierMath Tier 4 上达到饱和，刷穿该基准最高难度层级。
+  summary_en: GPT-6 Astra saturated FrontierMath Tier 4, fully solving the benchmark's hardest tier.
   evidence_ids:
   - ev-99c798504bbdec33
   homepage: true
@@ -2542,8 +2586,10 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Kimi 目标年收入 20 亿美元，并筹备以 500 亿美元估值赴香港 IPO；同期发布 K2.8 模型，性能逼近 K3，百万上下文全员开放。
+  summary_en: Kimi targets $2B annual revenue and is preparing for a Hong Kong IPO at a $50B valuation;
+    it also released the K2.8 model, with performance approaching K3 and million-token context opened
+    to all users.
   evidence_ids:
   - ev-fb4fe4891ec669d3
   homepage: true
@@ -2554,8 +2600,9 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 25位菲尔兹奖得主联名就AI暴力解题对数学研究的影响发声，陶哲轩、邓煜等人的反对意见被讨论。
+  summary_en: Twenty-five Fields Medal winners jointly raised concerns about the impact of AI brute-force
+    problem solving on mathematics, with opposition from Terence Tao, Deng Yu, and others discussed.
   evidence_ids:
   - ev-1fd89f190b04f1d8
   homepage: true
@@ -2566,8 +2613,10 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Meta 在美国正式推出 Pocket：用户无需写代码，用自然语言描述想要的东西，几十秒后得到可直接操作的小游戏、小工具或互动页面，成品以信息流帖子的形式发布，其他人可玩、评论、转发或改造成自己的版本。
+  summary_en: 'Meta officially launched Pocket in the US: users describe what they want in natural language
+    without writing code and get a playable mini-game, tool or interactive page within tens of seconds;
+    the result is posted to a feed where others can play, comment, share or remix it.'
   evidence_ids:
   - ev-e154f53e13c9ad9e
   homepage: true
@@ -2590,8 +2639,9 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: DeepSeek 发布 v4.1-Flash，采用 763B-P8B-D16B 因果编码器-解码器架构并支持视觉。
+  summary_en: DeepSeek released v4.1-Flash, featuring a 763B-P8B-D16B causal encoder-decoder architecture
+    with vision support.
   evidence_ids:
   - ev-0bfde725cdf37778
   homepage: true
@@ -2614,8 +2664,9 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic CEO Dario Amodei 提出放缓前沿AI开发节奏的计划，OpenAI的Sam Altman据报持相近立场。
+  summary_en: Anthropic CEO Dario Amodei outlined a plan to slow the pace of frontier AI development,
+    with OpenAI's Sam Altman reportedly sharing a similar stance.
   evidence_ids:
   - ev-b6bb485ae7a3c216
   homepage: true
@@ -2626,8 +2677,10 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 独立研究者称，2026年5月造成 RubyGems 严重中断的数百个恶意与垃圾包由 OpenAI 智能体集群上传，且该 AI 试图窃取用户 API 密钥。
+  summary_en: Independent researchers said the hundreds of malicious and spam packages that seriously
+    disrupted RubyGems in May 2026 were uploaded by a swarm of OpenAI agents, and that the AI tried to
+    steal users' API keys.
   evidence_ids:
   - ev-fb610e0e2e4b9aa8
   homepage: true
@@ -2650,8 +2703,13 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日至12日，Anthropic 发布9月威胁情报报告，称已阻断可能用于生物武器研发的滥用行为，并披露其模型被用于开发制导武器；同期 CEO Dario Amodei
+    公开呼吁放缓前沿 AI 开发，并承诺向 METR 等第三方评估机构开放模型访问。
+  summary_en: Between September 10 and 12, 2026, Anthropic published its September threat-intelligence
+    report saying it blocked misuse that could support biological-weapons research and disclosed that
+    its models were used to develop guided weapons; in the same period CEO Dario Amodei publicly called
+    for slowing frontier AI development and pledged third-party evaluators such as METR access to its
+    models.
   evidence_ids:
   - ev-216fbeadf48ccd5d
   homepage: true
@@ -2662,8 +2720,10 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 前环保署官员发布报告并召开简报会，指称特朗普政府以加速 AI 数据中心建设为由放松环境监管，并呼吁制定数据中心健康保护措施。
+  summary_en: Former EPA officials released a report and held a briefing alleging the Trump administration
+    is weakening environmental regulation to accelerate AI data center construction, and urged adoption
+    of data center health protection measures.
   evidence_ids:
   - ev-0230ad4c7d512908
   homepage: true
@@ -2710,8 +2770,11 @@
   discovered_at: '2026-09-13T00:01:15Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 独立研究者报告称，2026年5月针对 RubyGems 的数百个恶意包攻击很可能由 OpenAI 智能体集群实施，攻击者试图窃取 API 密钥并外泄数据，且 OpenAI 此前未向
+    RubyGems 披露。
+  summary_en: Independent researchers reported that the May 2026 attack involving hundreds of malicious
+    packages on RubyGems was very likely carried out by a swarm of OpenAI agents, which attempted to steal
+    API keys and exfiltrate data, and that OpenAI had not disclosed its involvement to RubyGems.
   evidence_ids:
   - ev-632de6089245598b
   homepage: true
@@ -2734,8 +2797,8 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Cohere 正在进行的融资轮目标估值达 200 亿美元。
+  summary_en: Cohere is targeting a $20 billion valuation in its ongoing funding round.
   evidence_ids:
   - ev-4ccb661ed3142c65
   homepage: true
@@ -2758,8 +2821,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月，开发者DavidCarliez在代码托管平台发布开源项目cover，定位为面向AI代理的可逆隐私代理：向模型发送逼真的伪造数据，在本地还原真实值；公开页面显示约41个星标、4次分叉，社区讨论帖获得68点、34条评论。
+  summary_en: In September 2026, developer DavidCarliez published the open-source project cover, a reversible
+    privacy proxy for AI agents that sends realistic fakes to models and restores originals locally; its
+    public page shows about 41 stars and 4 forks, and a community thread drew 68 points and 34 comments.
   evidence_ids:
   - ev-b337c88d5f06c591
   homepage: true
@@ -2770,8 +2835,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日报道称，Mecka AI 正以约5亿美元估值进行由红杉领投的融资，方向是机器人训练数据。
+  summary_en: A Sept 11, 2026 report says Mecka AI is raising at about a $500M valuation in a Sequoia-led
+    round, focused on robot training data.
   evidence_ids:
   - ev-ac95a88cf675a5d8
   homepage: true
@@ -2830,8 +2896,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月8日，名为 Spaces 的产品对外发布，定位为团队与 AI 智能体共用的同一工作空间；公开材料只有这一句定位描述，未披露客户、定价或使用数据。
+  summary_en: On September 8, 2026, a product called Spaces launched, positioned as one shared space where
+    a team and AI agents work together; the public material contains only this one-line positioning, with
+    no customers, pricing or usage data disclosed.
   evidence_ids:
   - ev-fd171e98bc7394f7
   homepage: true
@@ -2842,8 +2910,8 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 韩国AI初创公司Upstage（AMD投资）正考虑进行Pre-IPO轮融资。
+  summary_en: Korean AI startup Upstage, backed by AMD, is considering a pre-IPO funding round.
   evidence_ids:
   - ev-5698dbb8f1d0a99d
   homepage: true
@@ -2854,8 +2922,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日报道，尽职调查 AI 公司 Xapien 完成 5600 万美元融资；公开材料未披露投资方、估值、客户数或收入数据。
+  summary_en: On September 10, 2026, due-diligence AI company Xapien was reported to have raised $56M;
+    the public material discloses no investors, valuation, customer count or revenue figures.
   evidence_ids:
   - ev-f57b527105df1640
   homepage: true
@@ -2890,8 +2959,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日报道，销售自动化公司 Clay 完成 1.15 亿美元融资，估值升至 71 亿美元。这是本次新增的融资事实，公开材料未披露本轮资金用途、客户数或收入数据。
+  summary_en: On September 10, 2026, sales-automation company Clay raised a $115M round at a $7.1B valuation.
+    This is the new funding fact; the public material discloses no use of proceeds, customer count or
+    revenue data.
   evidence_ids:
   - ev-1841f8056e84585a
   homepage: true
@@ -2902,8 +2973,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: J.D. Power 研究显示约 29% 的车险与家险客户已在理赔申报和选购中使用 AI。
+  summary_en: J.D. Power research found that about 29% of auto and home insurance customers use AI for
+    claims filing and shopping.
   evidence_ids:
   - ev-c487b4662c215edd
   homepage: true
@@ -2962,8 +3034,11 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日，保险科技公司 Sixfold 发布面向寿险与健康险的 AI Underwriter；此前 9 月 5 日有行业报道指出保险科技引入 AI 后仍需运营纪律。除发布事实外，公开材料未给出客户、定价或使用数据。
+  summary_en: On September 10, 2026, insurtech company Sixfold launched an AI Underwriter for life and
+    health insurance; a September 5 industry report noted that AI adoption in insurtech still requires
+    operational discipline. Beyond the launch itself, the public material provides no customer, pricing
+    or usage data.
   evidence_ids:
   - ev-cd46513c65bc2d6d
   homepage: true
@@ -2986,8 +3061,8 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Vention 在蒙特利尔开设面向工业机器人的 Physical AI 实验室。
+  summary_en: Vention opened a Physical AI lab in Montreal focused on industrial robotics.
   evidence_ids:
   - ev-655c17548cd16886
   homepage: true
@@ -3034,8 +3109,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: ACTO 宣布获得 Veeva Gold 产品合作伙伴资格，官方称这是与 Veeva 近十年合作、服务共同客户的结果；本次公告未披露客户数、收入、定价或新增采用数据。
+  summary_en: ACTO announced it has achieved Veeva Gold Product Partner status, which it describes as
+    the result of nearly a decade of collaboration serving mutual customers; the announcement disclosed
+    no customer counts, revenue, pricing or new adoption data.
   evidence_ids:
   - ev-52b84417ab4d92ad
   homepage: true
@@ -3070,8 +3147,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Target 推出 AI 驱动的照片搜索与评论洞察功能，并扩展个性化复购等 AI 购物能力。
+  summary_en: Target introduced AI-powered photo search and review insights, expanding its AI shopping
+    capabilities including personalized reordering.
   evidence_ids:
   - ev-3d3e5fa191063366
   homepage: true
@@ -3190,8 +3268,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 群核科技公布上半年业绩：经调整净利润同比增长211%，AI新应用收入同比增长177%；世界模型开启内测，公司9月初有望进入港股通。
+  summary_en: 'Qunhe Technology reported first-half results: adjusted net profit rose 211% year over year
+    and revenue from new AI applications grew 177% year over year; its world model entered internal testing,
+    and the company is expected to join the Stock Connect in early September.'
   evidence_ids:
   - ev-e0252047c2989f0c
   homepage: true
@@ -3250,8 +3330,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日至12日，蚂蚁财富公布开放进展：AI用于提升服务数量与质量，平台非货基用户中2亿实现盈利、定投用户数超7000万、配置用户占比达60%。
+  summary_en: 'Between Sept 11 and 12, 2026, Ant Fortune disclosed its open-platform progress: AI is used
+    to raise service volume and quality, with 200 million non-money-market fund users profitable, over
+    70 million recurring-investment users, and allocation users at 60%.'
   evidence_ids:
   - ev-2a5e1ee8da1ff80c
   homepage: true
@@ -3262,8 +3344,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日报道称，AI潮玩品牌IPTAG完成千万级战略融资，由策源高都基金独家投资；除融资方与金额量级外，未披露产品形态、客户、收入或定价信息。
+  summary_en: A September 11, 2026 report said AI collectible-toy brand IPTAG closed a tens-of-millions
+    strategic funding round led solely by Ceyuan Gaodu Fund; beyond the investor and deal size, no product
+    form, customers, revenue or pricing were disclosed.
   evidence_ids:
   - ev-14f78a37938a8a45
   homepage: true
@@ -3274,8 +3358,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道称AI领域半年融资规模超过去年1.7倍，投资人预计5年后超90%资本投向AI。
+  summary_en: Reports said AI financing in half a year exceeded 1.7 times last year's level, with an investor
+    expecting over 90% of capital to go to AI within five years.
   evidence_ids:
   - ev-65ce05ceca961029
   homepage: true
@@ -3286,8 +3371,12 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日多家欧洲科技媒体报道，法国 Mistral AI 完成约30亿欧元 D 轮融资，三星、英伟达、ASML 与 ScaleUp 等参与，公司估值超过210亿欧元，报道称创始团队仍掌握投票权。这是模型厂商的资本与算力事件，不是独立应用产品的新交付。
+  summary_en: In the week around 11 September 2026, European tech outlets reported that France's Mistral
+    AI closed a roughly EUR 3 billion Series D with Samsung, Nvidia, ASML and ScaleUp among the backers,
+    valuing the company above EUR 21 billion, with the founding team said to retain voting control. This
+    is a capital and compute event for a model vendor, not a new delivery from a standalone application
+    product.
   evidence_ids:
   - ev-ab76162e80ec9558
   homepage: true
@@ -3310,8 +3399,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 总部位于巴黎的AI公司Arlequin AI完成2800万欧元A轮融资，用于加速其拓扑神经网络架构的研发并扩大国际部署。
+  summary_en: Paris-based AI company Arlequin AI raised EUR 28 million in Series A funding to accelerate
+    development of its topological neural network architecture and expand international deployment.
   evidence_ids:
   - ev-2506d181d6ba6e66
   homepage: true
@@ -3370,8 +3460,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月报道显示，印度音频故事平台 Pocket FM 年化营收运行率翻倍至 5 亿美元，其新增音频内容中约 93% 由 AI 生成，报道称内容制作成本因此降低约 80 倍。
+  summary_en: A September 2026 report says India-based audio-story platform Pocket FM doubled its annualized
+    revenue run rate to USD 500 million, with about 93% of its new audio content AI-generated and content
+    production costs reported to fall roughly 80-fold.
   evidence_ids:
   - ev-783c4099fc60d4da
   homepage: true
@@ -3382,8 +3474,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月10日，甲骨文公布2026财年第一季度业绩：云业务收入同比增长121%，剩余履约义务（RPO）达6640亿美元，并上调全年业绩指引；随后报道称受AI需求推动OCI收入翻倍。
+  summary_en: 'On September 10, 2026, Oracle reported fiscal Q1 2026 results: cloud revenue grew 121%
+    year over year, remaining performance obligations (RPO) reached $664 billion, and the company raised
+    its full-year guidance; follow-up coverage attributed doubled OCI revenue to AI demand.'
   evidence_ids:
   - ev-5fc0ca54ff5d86f6
   homepage: true
@@ -3418,8 +3512,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 星火办公智能体发布新版本，官方表述为让AI适应人。
+  summary_en: iFlytek Spark Office Agent released a new version, officially described as making AI adapt
+    to people.
   evidence_ids:
   - ev-c64e5002e0503bd9
   homepage: true
@@ -3442,8 +3537,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道称银行AI账本日均Token消耗达百亿，并总结出三个转向。
+  summary_en: Reports state that banks' AI token consumption has reached tens of billions per day, with
+    three shifts summarized.
   evidence_ids:
   - ev-cf0565acab8d748d
   homepage: true
@@ -3454,8 +3550,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日，新华网发布新华GEO智能体平台，推出面向海外生成式引擎的营销服务，定位帮助工业企业拓展全球市场；具体客户、定价与交付方式未在材料中披露。
+  summary_en: On Sept 11, 2026, Xinhua Net launched the Xinhua GEO agent platform, offering marketing
+    services for overseas generative engines and positioning it to help industrial firms expand globally;
+    specific customers, pricing and delivery are not disclosed in the material.
   evidence_ids:
   - ev-0946c62e2f29bc4e
   homepage: true
@@ -3466,8 +3564,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 高金联合蚂蚁集团研究院发布企业级智能体商业演进十大趋势洞察。
+  summary_en: The Shanghai Advanced Institute of Finance and Ant Group Research Institute jointly released
+    ten trends on the commercial evolution of enterprise agents.
   evidence_ids:
   - ev-8d4879961eb07a8f
   homepage: true
@@ -3478,8 +3577,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: ChatGPT Ads 年化收入运行率达到 10 亿美元，并启动全球扩张，以支持免费和低价 AI 访问选项。
+  summary_en: ChatGPT Ads reached a $1 billion annualized revenue run rate and began expanding globally,
+    supporting free and affordable AI access options.
   evidence_ids:
   - ev-6e069d99862bfc59
   homepage: true
@@ -3490,8 +3590,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 外滩大会观察提出模型红利见顶，智能体工厂正成为产业AI落地新入口。
+  summary_en: A Bund Summit observation argued that model dividends are peaking and agent factories are
+    becoming a new entry point for industrial AI deployment.
   evidence_ids:
   - ev-cf524b5b3827eb36
   homepage: true
@@ -3514,8 +3615,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 欧盟于2026年8月31日将ChatGPT认定为《数字服务法》下的超大型在线搜索引擎，OpenAI须缓释未成年人影响、用户心理健康与非法内容传播等风险。
+  summary_en: On August 31, 2026 the EU classified ChatGPT as a Very Large Online Search Engine under
+    the Digital Services Act, requiring OpenAI to mitigate risks to minors, user mental health and the
+    spread of illegal content.
   evidence_ids:
   - ev-f8165b8219e0e6a1
   homepage: true
@@ -3562,8 +3665,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 浦发银行智能体工程化落地220个，手机银行已构建10套财富智能陪伴模型；并在外滩大会启动“AI+创孵金融”计划。
+  summary_en: Shanghai Pudong Development Bank has industrialized 220 agent deployments and built 10 wealth-companion
+    models in its mobile banking app; it also launched an "AI + incubation finance" program at the Bund
+    Summit.
   evidence_ids:
   - ev-dedbd31b16dcc2ec
   homepage: true
@@ -3586,8 +3691,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 金融领域首个智能体安全标准发布，规定AI未经授权不得自动化操作金融App。
+  summary_en: The first agent security standard in the financial sector was released, stipulating that
+    AI must not automate operations on financial apps without authorization.
   evidence_ids:
   - ev-04c45b484ea3c891
   homepage: true
@@ -3610,8 +3716,12 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月12日，蚂蚁国际宣布其智能体协议AMP接入首批全球17家支付机构，共建移动+AI支付网络。这是支付平台层面的协议与受理网络变化，不是独立AI应用产品；对AI应用的影响在于智能体发起支付可能获得更多受理方，但具体费率、结算规则与可用地区未在材料中披露，相关影响属推断。
+  summary_en: On September 12, 2026, Ant International said its agent protocol AMP onboarded its first
+    17 payment institutions worldwide to build a mobile-plus-AI payment network. This is a platform-level
+    protocol and acceptance-network change rather than a standalone AI application; it may give AI agents
+    more acceptance endpoints for payments, but fees, settlement rules and available regions are not disclosed,
+    so the impact is inferred.
   evidence_ids:
   - ev-ddfbf45b1cefc25e
   homepage: true
@@ -3622,8 +3732,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月12日，一份报告称中国AI发展重心正从大模型转向智能体。
+  summary_en: On September 12, 2026, a report stated that China's AI development focus is shifting from
+    large models to agents.
   evidence_ids:
   - ev-c94e31c073157ce6
   homepage: true
@@ -3634,8 +3745,8 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日，智己全新LS6开启预售，该车型搭载人工智能体。
+  summary_en: On September 11, 2026, the new IM LS6 opened for pre-sale, featuring an AI agent.
   evidence_ids:
   - ev-1c0b0b1c55731cc2
   homepage: true
@@ -3658,8 +3769,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 蚂蚁数科CEO赵闻飙公开阐述“智能体超级工厂”业务方向，并披露其AI业务实现三位数增长。
+  summary_en: Ant Group Digital Technologies CEO Zhao Wenbiao publicly outlined the company's "agent super
+    factory" business direction and disclosed triple-digit growth in its AI business.
   evidence_ids:
   - ev-b1ea5dfcf9d0510e
   homepage: true
@@ -3682,8 +3794,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年8月至9月，多家互联网公司集中发布AI办公产品，报道称该领域竞争主线转向混合架构与开源基建。
+  summary_en: Between August and September 2026, several internet companies released AI office products
+    in quick succession, with coverage describing the competitive focus shifting to hybrid architectures
+    and open-source infrastructure.
   evidence_ids:
   - ev-d291310c72e78107
   homepage: true
@@ -3754,8 +3868,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 广和通宣布战略投资烨知心，以深化其在端侧AI领域的生态布局。
+  summary_en: Fibocom announced a strategic investment in Yezhixin to deepen its ecosystem layout in on-device
+    AI.
   evidence_ids:
   - ev-8518ad3506c774cd
   homepage: true
@@ -3790,8 +3905,9 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 马斯克旗下SpaceXAI团队将直播使用Grok Bot从零开始建立一家公司，覆盖创意构思、产品开发到实际工作部署。
+  summary_en: Elon Musk's SpaceXAI team will livestream using Grok Bot to build a company from scratch,
+    covering ideation, product development, and actual work deployment.
   evidence_ids:
   - ev-17b9a1e72257ba30
   homepage: true
@@ -3838,8 +3954,10 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日报道称蚂蚁保升级三大AI服务，并称其推动AI从通用智能向行业智能落地；报道未给出具体服务名称、定价、客户数或使用数据。
+  summary_en: A Sept 11, 2026 report said Ant Insurance upgraded three AI services and framed the move
+    as AI shifting from general to industry intelligence; the report gave no service names, pricing, customer
+    counts or usage data.
   evidence_ids:
   - ev-21cf04cb0456a517
   homepage: true
@@ -3862,8 +3980,11 @@
   discovered_at: '2026-09-13T00:02:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月11日报道称猿力科技在服贸会展示从答题器走向辅导席的AI教育方案，称其让AI懂孩子、助教师、进校园；报道未给出产品名称、学校数量、定价或使用数据。
+  summary_en: A Sept 11, 2026 report said Yuanli Technology showed an AI education approach at the CIFTIS
+    trade fair, moving from answer-clickers toward a tutoring seat, described as helping AI understand
+    children, assist teachers and enter schools; no product name, school count, pricing or usage data
+    was given.
   evidence_ids:
   - ev-f78115a5f5c54ae7
   homepage: true
@@ -3914,4 +4035,447 @@
   summary_en: ''
   evidence_ids:
   - ev-fe5f8af8f2b60bef
+  homepage: true
+- id: req-change-agents-universe-2026-09-13
+  project_slug: agents-universe
+  event_type: req_change
+  occurred_at: '2026-09-13T00:22:58Z'
+  discovered_at: '2026-09-13T00:22:58Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：公开材料只有“共享智能体和项目记忆”一句定位，未说明用户任务、输入材料、交付物与不解决的后果，连需求与痛点都无法具体写出，价值结构无法成立。
+  summary_en: ''
+  evidence_ids:
+  - ev-5b2bfb067108c376
+  - ev-172aff74235611cd
+  homepage: true
+- id: req-change-ai-apple-video-2026-09-13
+  project_slug: ai-apple-video
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:02Z'
+  discovered_at: '2026-09-13T00:23:02Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求信号明确”；当前停在模式闸门：该技能为开源仓库，公开材料未见定价、付费主体或商业授权路径；谁付钱只能推断为使用 Seedance 能力的营销方或电商卖家，这是判断而非已验证事实。
+  summary_en: ''
+  evidence_ids:
+  - ev-53578d556a37aeec
+  - ev-4ccb4e17648fbd1c
+  - ev-53578d556a37aeec
+  - ev-fd58168abbdb0e8c
+  - ev-4ccb4e17648fbd1c
+  - ev-cee4048772bb7c65
+  homepage: true
+- id: req-change-ai-video-ad-studio-2026-09-13
+  project_slug: ai-video-ad-studio
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:06Z'
+  discovered_at: '2026-09-13T00:23:06Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：仓库名暗示面向广告视频素材制作，但公开证据只有收藏数，未说明输入素材、执行动作、交付成片，也写不出用户痛点与不采用后果，连需求与痛点都无法还原。
+  summary_en: ''
+  evidence_ids:
+  - ev-c644718256779914
+  - ev-b3156df8785ddefa
+  homepage: true
+- id: req-change-anything2explainer-2026-09-13
+  project_slug: anything2explainer
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:17Z'
+  discovered_at: '2026-09-13T00:23:17Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求信号明确”；当前停在模式闸门：公开材料未见定价页、付费主体或单位经济，谁付钱尚不清；这是判断而非已验证事实，模式缺口不反推需求不存在。
+  summary_en: ''
+  evidence_ids:
+  - ev-86ee4d5c12bd35de
+  - ev-11fbcc49d5d872c0
+  - ev-0d86724bc13d1433
+  - ev-5e997934bb7af3ea
+  - ev-0a28d9b949635c17
+  - ev-86ee4d5c12bd35de
+  homepage: true
+- id: req-change-argus-2026-09-13
+  project_slug: argus
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:18Z'
+  discovered_at: '2026-09-13T00:23:18Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：摘要称其用智能体像真人一样点界面找漏洞，但全部证据均为同名无关页面（维基消歧义、航空审计、能源价格），既无产品说明也无用户痛点，连需求与痛点都无法写出。
+  summary_en: ''
+  evidence_ids:
+  - ev-15ee683d3c2c8887
+  - ev-70181e2334157580
+  - ev-c0cca3d219071ad2
+  homepage: true
+- id: req-change-attention-span-2026-09-13
+  project_slug: attention-span
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:21Z'
+  discovered_at: '2026-09-13T00:23:21Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：公开材料只有项目自述与一次发布记录，未见开发者讨论、issue 或评价说明谁在什么场景持续使用；关注度不等于采用，因此共识环节尚缺可归因到该产品的使用证据。
+  summary_en: ''
+  evidence_ids:
+  - ev-4f8ced07c3a8a7b9
+  - ev-dbc00d41cec8a4f7
+  - ev-4f8ced07c3a8a7b9
+  - ev-dbc00d41cec8a4f7
+  - ev-4f8ced07c3a8a7b9
+  - ev-dbc00d41cec8a4f7
+  homepage: true
+- id: req-change-awesome-deepseek-harness-2026-09-13
+  project_slug: awesome-deepseek-harness
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:24Z'
+  discovered_at: '2026-09-13T00:23:24Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“需求信号明确”；当前停在模式闸门：这是开源 awesome 清单，公开材料没有定价页、赞助、付费入口或企业采购记录，谁付钱、按什么单位收费都无从核验；判断上它更可能靠社区维护与生态曝光获得回报，而非直接向用户收费，这是判断不是已验证事实。
+  summary_en: ''
+  evidence_ids:
+  - ev-ab57f5923ce99a6c
+  - ev-3108798d62e30e42
+  - ev-ab57f5923ce99a6c
+  - ev-4c129c16e117c005
+  - ev-3108798d62e30e42
+  - ev-ab57f5923ce99a6c
+  homepage: true
+- id: req-change-bivor-2026-09-13
+  project_slug: bivor
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:29Z'
+  discovered_at: '2026-09-13T00:23:29Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：公开证据只有仓库 208 星，属关注度而非采用；没有用户评价、issue 讨论或案例说明开发者是否真的把 Bivor 放进日常代理工作流，强场景存在但共识未核验。
+  summary_en: ''
+  evidence_ids:
+  - ev-2187c63539f7512f
+  - ev-2187c63539f7512f
+  - ev-2187c63539f7512f
+  - ev-2187c63539f7512f
+  homepage: true
+- id: req-change-bot-crossing-2026-09-13
+  project_slug: bot-crossing
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:34Z'
+  discovered_at: '2026-09-13T00:23:34Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：公开材料只有一句“A video game for AI agents”，未说明开发者当前用什么环境评测 agent、现有基准哪里不够用、不解决会失去什么。agent
+    评测已有 Gym、Atari、MineRL 等成熟替代，缺少刚性痛点与不可替代的交付结果，更像作者的有趣实验，属于没有也行。
+  summary_en: ''
+  evidence_ids:
+  - ev-cdfcf62cffde994c
+  - ev-e158a1970a0431d6
+  homepage: true
+- id: req-change-china-travel-kit-2026-09-13
+  project_slug: china-travel-kit
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:40Z'
+  discovered_at: '2026-09-13T00:23:40Z'
+  signals:
+  - update
+  summary: 信号由“需求信号明确”调整为“初步成立”；当前停在共识闸门：公开证据只有仓库星数从 142 升至 195 的关注度信号，缺少 issue、discussion、下游集成或用户评价等采用证据，无法判断开发者是否已把它留在工作流里。
+  summary_en: ''
+  evidence_ids:
+  - ev-e14ed9f3ea4304c9
+  - ev-2452c8bcc682899b
+  - ev-e14ed9f3ea4304c9
+  - ev-2452c8bcc682899b
+  - ev-e14ed9f3ea4304c9
+  - ev-e14ed9f3ea4304c9
+  - ev-2452c8bcc682899b
+  homepage: true
+- id: req-change-deepseek-recipe-2026-09-13
+  project_slug: deepseek-recipe
+  event_type: req_change
+  occurred_at: '2026-09-13T00:23:54Z'
+  discovered_at: '2026-09-13T00:23:54Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：公开证据仅有仓库收藏数从 217 增至 313，无产品说明、文档或用户反馈，无法写出它解决什么需求、什么痛点，也说不清用户任务与不解决的后果。
+  summary_en: ''
+  evidence_ids:
+  - ev-d41d907af8a8ac34
+  - ev-a9091ebb647f813d
+  - ev-a8f6ea15f9b35b61
+  homepage: true
+- id: req-change-dsh-creator-2026-09-13
+  project_slug: dsh-creator
+  event_type: req_change
+  occurred_at: '2026-09-13T00:24:08Z'
+  discovered_at: '2026-09-13T00:24:08Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：星标从 90 增至 97 只说明开源关注度缓慢累积，不能证明内容创作者已持续使用；公开材料未见 issue、评价或案例说明谁在真实发布流程中采用。
+  summary_en: ''
+  evidence_ids:
+  - ev-6bd6b4e2ca27be02
+  - ev-d3b341b7a14bf193
+  - ev-6bd6b4e2ca27be02
+  - ev-963dfd12f9c0039f
+  - ev-d3b341b7a14bf193
+  - ev-6bd6b4e2ca27be02
+  homepage: true
+- id: req-change-fable51-worlds-2026-09-13
+  project_slug: fable51-worlds
+  event_type: req_change
+  occurred_at: '2026-09-13T00:24:20Z'
+  discovered_at: '2026-09-13T00:24:20Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仓库收藏从 461 增至 486，说明社区注意到它，但收藏与关注只属规模信号，不能证明目标开发者已把它留在工作流里；缺少 issue、discussion
+    或用户评价说明谁在什么场景持续使用。
+  summary_en: ''
+  evidence_ids:
+  - ev-ad5a5adc426df069
+  - ev-b34c549cf3b482e1
+  - ev-ad5a5adc426df069
+  - ev-a2532acbc2b701e6
+  - ev-ad5a5adc426df069
+  - ev-ad5a5adc426df069
+  homepage: true
+- id: req-change-geiger-2026-09-13
+  project_slug: geiger
+  event_type: req_change
+  occurred_at: '2026-09-13T00:24:22Z'
+  discovered_at: '2026-09-13T00:24:22Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：候选声称解决 AI agent 与插件无台账、权限不可见的问题，但全部引用证据分别指向家具品牌、促销品分销商和盖革计数器，没有任何公开事实能还原用户任务、痛点或旧替代行为，需求结构无法成立。
+  summary_en: ''
+  evidence_ids:
+  - ev-b642c8671915b71c
+  - ev-71189d2b0a6b16a8
+  - ev-35c1c6c25cc51965
+  homepage: true
+- id: req-change-indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2-2026-09-13
+  project_slug: indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2
+  event_type: req_change
+  occurred_at: '2026-09-13T00:24:30Z'
+  discovered_at: '2026-09-13T00:24:30Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：公开材料只给出营收运行率与 AI 内容占比，没有听众留存、完播或复购数据，无法判断采用是否持续。
+  summary_en: ''
+  evidence_ids:
+  - ev-783c4099fc60d4da
+  - ev-783c4099fc60d4da
+  - ev-783c4099fc60d4da
+  - ev-783c4099fc60d4da
+  homepage: true
+- id: req-change-manware-s-ai-learning-toolkit-2026-09-13
+  project_slug: manware-s-ai-learning-toolkit
+  event_type: req_change
+  occurred_at: '2026-09-13T00:24:41Z'
+  discovered_at: '2026-09-13T00:24:41Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求信号明确”；当前停在模式闸门：公开材料未见定价页、付费主体或 to B/to C 路径，开源仓库本身不构成收入证据；这是判断而非已验证事实，商业证据缺口不反推需求不存在。
+  summary_en: ''
+  evidence_ids:
+  - ev-33e9a468ba66c4e2
+  - ev-5e510b9891f62638
+  - ev-33e9a468ba66c4e2
+  - ev-7da675eff7a59244
+  - ev-5b8b324ae7e0b688
+  - ev-d4210b6b2248ae4d
+  homepage: true
+- id: req-change-not-ai-2026-09-13
+  project_slug: not-ai
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:01Z'
+  discovered_at: '2026-09-13T00:25:01Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：它解决的是把 AI 草稿改写成人类写作标准文本的需求，但公开材料只有一句产品自述，没有用户抱怨、被检测后的后果或返工代价；用户已可直接让通用大模型改写，不用它损失有限，属看着挺好但没有也行。
+  summary_en: ''
+  evidence_ids:
+  - ev-d2be96f537bbf0a8
+  - ev-369d7a2d7bb02be8
+  homepage: true
+- id: req-change-okf-agent-memory-2026-09-13
+  project_slug: okf-agent-memory
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:03Z'
+  discovered_at: '2026-09-13T00:25:03Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仓库 604 星与项目自述的 80% token 削减只说明开发者注意到它，属于关注度证据；未见 issue、discussion
+    或用户评价说明谁在何种场景持续使用，无法判断采用共识。
+  summary_en: ''
+  evidence_ids:
+  - ev-ece3e057e3779dc0
+  - ev-0cbd81e8bdcae963
+  - ev-813131cc6b2a0df4
+  - ev-813131cc6b2a0df4
+  - ev-813131cc6b2a0df4
+  - ev-813131cc6b2a0df4
+  - ev-ece3e057e3779dc0
+  homepage: true
+- id: req-change-opengrok-2026-09-13
+  project_slug: opengrok
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:06Z'
+  discovered_at: '2026-09-13T00:25:06Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：候选摘要称在 Grok Bot 中运行任意模型，但全部公开证据只描述 OpenGrok 是 Java 源码搜索与交叉引用引擎，未出现
+    Grok Bot、模型选择或配置痛点，连需求与痛点都无法写出。
+  summary_en: ''
+  evidence_ids:
+  - ev-087471686c531bce
+  - ev-ea1a9bc1b8a7e80e
+  - ev-ec0ece8e2866dddd
+  homepage: true
+- id: req-change-openreality-2026-09-13
+  project_slug: openreality
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:12Z'
+  discovered_at: '2026-09-13T00:25:12Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：公开证据未提供该项目的收藏、复刻、下载或开发者讨论数据，无法判断目标用户是否已形成持续使用或社区共识；现有证据条目与该项目无关。
+  summary_en: ''
+  evidence_ids:
+  - ev-038d1407b503ff92
+  - ev-54a8492e4fc4c341
+  - ev-21a76c79d6dd0d8a
+  - ev-94cc94bd0a1bbbfc
+  homepage: true
+- id: req-change-orcareplay-2026-09-13
+  project_slug: orcareplay
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:13Z'
+  discovered_at: '2026-09-13T00:25:13Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求信号明确”；当前停在模式闸门：由 OrcaRouter.ai 团队开发，可能走开源加托管或路由服务变现，但公开材料未见定价页、付费主体或单位经济，谁付钱仍是判断而非已验证事实。
+  summary_en: ''
+  evidence_ids:
+  - ev-3d218aeb44eb4c61
+  - ev-8140225a63e0131c
+  - ev-3d218aeb44eb4c61
+  - ev-80836a6e123aab46
+  - ev-b377fa136a803f69
+  - ev-8140225a63e0131c
+  - ev-3d218aeb44eb4c61
+  - ev-3d218aeb44eb4c61
+  - ev-0cb3da2fe8ca5365
+  homepage: true
+- id: req-change-papergraph-mcp-2026-09-13
+  project_slug: papergraph-mcp
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:17Z'
+  discovered_at: '2026-09-13T00:25:17Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求信号明确”；当前停在模式闸门：这是开源 MCP 服务器，公开材料未见定价页、付费主体或采购记录；谁付钱尚不清，可能来自 to C 研究者或 to B 代理开发者，但这是判断而非已验证事实。
+  summary_en: ''
+  evidence_ids:
+  - ev-bf5e239f02c418f6
+  - ev-23aeae5688cd22c1
+  - ev-23aeae5688cd22c1
+  - ev-30fe70c5a2689859
+  - ev-23aeae5688cd22c1
+  - ev-bf5e239f02c418f6
+  homepage: true
+- id: req-change-primegaps186-2026-09-13
+  project_slug: primegaps186
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:35Z'
+  discovered_at: '2026-09-13T00:25:35Z'
+  signals:
+  - update
+  summary: 信号由“需求信号明确”调整为“初步成立”；当前停在共识闸门：公开事实仅有仓库收藏数从 141 缓慢升至 161，属关注度而非持续采用；没有研究者引用、复现或在其上扩展的公开记录，无法判断共识是否形成。
+  summary_en: ''
+  evidence_ids:
+  - ev-ed6dd8632beafb52
+  - ev-d81ace787f329358
+  - ev-ed6dd8632beafb52
+  - ev-434f1192b1855b7d
+  - ev-ed6dd8632beafb52
+  - ev-d81ace787f329358
+  - ev-7b0b252c3c9cecaa
+  homepage: true
+- id: req-change-reelbench-skills-2026-09-13
+  project_slug: reelbench-skills
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:49Z'
+  discovered_at: '2026-09-13T00:25:49Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：它想解决 AI 视频流程中提示词与参数零散的问题，但公开材料只有定位描述，没有说明具体用户任务、痛点强度与不采用的后果，属于可看可不看的学习笔记，价值关不成立。
+  summary_en: ''
+  evidence_ids:
+  - ev-2b52fe94477adda3
+  - ev-6012a71336220758
+  homepage: true
+- id: req-change-reverify-2026-09-13
+  project_slug: reverify
+  event_type: req_change
+  occurred_at: '2026-09-13T00:25:50Z'
+  discovered_at: '2026-09-13T00:25:50Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：公开仓库显示 1,178 个收藏，说明开发者社区已注意到该项目，但收藏只属关注度证据，未见 issue、discussion
+    或客户案例证明目标用户持续使用或把它留在工作流里。
+  summary_en: ''
+  evidence_ids:
+  - ev-3c867d0c08569a78
+  - ev-3c867d0c08569a78
+  - ev-3c867d0c08569a78
+  homepage: true
+- id: req-change-video-ai-talking-2026-09-13
+  project_slug: video-ai-talking
+  event_type: req_change
+  occurred_at: '2026-09-13T00:26:29Z'
+  discovered_at: '2026-09-13T00:26:29Z'
+  signals:
+  - update
+  summary: 信号由“需求信号明确”调整为“初步成立”；当前停在共识闸门：仓库收藏从 322 增至 384，说明开发者社区持续关注，但收藏与关注度只属规模信号，不能证明目标创作者已把它留在日常出片流程里；公开材料没有用户评价、案例或复刻后的实际使用记录，场景是否强仍无法确认。
+  summary_en: ''
+  evidence_ids:
+  - ev-f202e46a35b2501e
+  - ev-43a7f3bbfc1b439d
+  - ev-f202e46a35b2501e
+  - ev-1f5cd124d21ee976
+  - ev-33515912900e07ff
+  - ev-c2c9709749efee3f
+  homepage: true
+- id: req-change-video-states-website-2026-09-13
+  project_slug: video-states-website
+  event_type: req_change
+  occurred_at: '2026-09-13T00:26:31Z'
+  discovered_at: '2026-09-13T00:26:31Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求信号明确”；当前停在模式闸门：公开材料未披露定价、付费主体或采购路径，无法判断钱来自 to C 开发者、to B 团队还是仅靠关注度；这是判断而非已验证事实，不反推需求不存在。
+  summary_en: ''
+  evidence_ids:
+  - ev-6f703615486a9538
+  - ev-ec7063019fb539cf
+  - ev-6f703615486a9538
+  - ev-fcb304284c12155d
+  - ev-6f703615486a9538
+  - ev-ec7063019fb539cf
+  - ev-590ea8d13e445124
+  homepage: true
+- id: req-change-vistep-2026-09-13
+  project_slug: vistep
+  event_type: req_change
+  occurred_at: '2026-09-13T00:26:35Z'
+  discovered_at: '2026-09-13T00:26:35Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：它试图把概念或步骤转成双语可视化讲解，但公开材料只有功能描述与仓库收藏数，没有用户抱怨、替代行为或不解决的后果；把概念做成可视化讲解费时，但证据未显示这一摩擦已强到用户主动寻找工具，属于自嗨拼凑风险。
+  summary_en: ''
+  evidence_ids:
+  - ev-9de0b5cc8f85dbd5
+  - ev-85b3d17c52257336
   homepage: true

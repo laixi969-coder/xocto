@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNdUdtcWVLNkFn
 summary: MineHub's Mid-Year 2026 Update TradingView
 first_seen: '2026-09-10T12:00:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

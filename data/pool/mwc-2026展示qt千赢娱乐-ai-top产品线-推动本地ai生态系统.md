@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1YSnBka1YxUmNE
 summary: MWC 2026展示QT千赢娱乐 AI TOP产品线 推动本地AI生态系统 体坛加
 first_seen: '2026-09-11T11:33:50Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -365,3 +365,51 @@
   usage_reason_en: 'Inference: if defining worlds in code does reduce manual placement steps, developers
     might choose it for versionability and reproducibility; however, no public user feedback or cases
     support this motive, so it cannot be confirmed.'
+- id: req-full-fable51-worlds-2026-09-13
+  project_slug: fable51-worlds
+  level: full
+  reviewed_at: '2026-09-13T00:24:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是用代码而非手工编辑器构建可运行虚拟世界的需求，痛点是场景摆放与规则改动反复重建、原型迭代慢。仓库自述“worlds via code”与 461→486 的收藏增长说明有开发者持续关注；但这是工作流结构推理，尚无用户反馈证明痛点强度与不采用代价。
+    evidence_ids:
+    - ev-ad5a5adc426df069
+    - ev-b34c549cf3b482e1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 461 增至 486，说明社区注意到它，但收藏与关注只属规模信号，不能证明目标开发者已把它留在工作流里；缺少 issue、discussion 或用户评价说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-ad5a5adc426df069
+    - ev-a2532acbc2b701e6
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费主体或商业条款；钱可能来自 to B 工具授权、to VC 融资或纯社区维护，均属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-ad5a5adc426df069
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句仓库自述，缺少部署文档、可复现实测与 issue，无法核验“代码生成的世界”能否稳定交付、生成质量与人工修正边界在哪里，故交付确定性未证实。
+    evidence_ids:
+    - ev-ad5a5adc426df069
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认代码生成世界的实际输入输出、可复现运行方式及开发者反馈的具体使用场景。
+  market: ''
+  job: 游戏开发者或世界构建师在需要快速产出可运行虚拟世界原型时，用代码（而非手工编辑器）定义地形、物件与规则，把脚本直接变成可进入、可迭代的世界场景。
+  job_en: Game developers or world builders who need a runnable virtual-world prototype define terrain,
+    objects and rules in code rather than a manual editor, turning scripts into an enterable, iterable
+    world scene.
+  pain: 手工在编辑器里摆放场景资产、反复调参和重建，是重复且耗时的体力活；世界逻辑与美术资产分离，改一处规则常要回到编辑器重做，原型迭代周期被拉长。
+  pain_en: Hand-placing scene assets and re-tuning them in an editor is repetitive manual labor; world
+    logic and art assets are separated, so changing a rule often means redoing work in the editor, stretching
+    prototype iteration cycles.
+  current_alternative: 当前替代是 Unity/Unreal 等引擎的可视化编辑器手工搭建，或自写脚本加自建渲染管线；公开材料未说明它具体替代了哪一套流程。
+  current_alternative_en: The current alternative is hand-building in visual editors such as Unity/Unreal,
+    or writing custom scripts plus a self-built rendering pipeline; public materials do not specify which
+    workflow it replaces.
+  usage_reason: 推断：相较在编辑器里手工摆放和调参，它让开发者用代码声明世界元素并由系统生成/渲染，减少重复摆放与重建这一步，因此需要频繁改规则、做程序化世界原型的开发者会在早期原型阶段选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus hand-placing and tuning in an editor, it lets developers declare
+    world elements in code and have the system generate/render them, removing the repeated placement-and-rebuild
+    step, so developers who frequently change rules or build procedural world prototypes would pick it
+    in early prototyping; no user feedback or case yet confirms this motive.'

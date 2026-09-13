@@ -49,7 +49,7 @@ summary: "2026 年 7 月初，萍萍给我打了个微信语音。\r\n\r\n她是
   \ 107 国道上晃荡的那些夜晚。\r\n\r\n车是散了，但路还在。开通这个账号没别的心思，既然退无可退，那后面这趟车，我自己一个人把它开下去。\r\n\r\n![Visits]( https://svgstat.com/svg/refactoring-the-self/counter/visits.svg?page_id=blog/car-not-started-people-already-gone)"
 first_seen: '2026-09-12T16:11:38Z'
 last_seen: '2026-09-13T00:00:02Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

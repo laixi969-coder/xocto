@@ -271,3 +271,54 @@
     PyMOL session, removing the step of looking up syntax and assembling commands; therefore researchers
     who are not fluent in PyMOL scripting but need quick structural figures or analysis would choose it
     in exploratory analysis. Public materials do not yet contain user feedback or cases confirmi'
+- id: req-full-pymol-claude-mcp-2026-09-13
+  project_slug: pymol-claude-mcp
+  level: full
+  reviewed_at: '2026-09-13T00:25:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是结构生物学家/计算化学家在 PyMOL 中做分子可视化时的操作摩擦：命令语法门槛高、重复出图要反复改脚本。公开仓库说明其通过 XML-RPC 把 Claude Code
+      的自然语言指令接入实时 PyMOL 会话，输入—动作—交付闭环可还原，属工作流结构推理；痛点刚性中等，公开用户反馈与不采用代价尚未核验。
+    evidence_ids:
+    - ev-746b7411d65daa88
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 46 增至 57，说明开发者社区注意到该项目，但收藏与关注只属规模/关注度证据，不能证明目标用户已持续使用或形成稳定场景；缺少 issue、discussion 或用户案例说明谁在何种任务中实际采用。
+    evidence_ids:
+    - ev-746b7411d65daa88
+    - ev-23e25beee2948678
+  - gate: model
+    status: insufficient
+    reason: 这是开源 MCP 服务器，公开材料未见定价页、付费路径或买方说明；钱可能来自 to C 开发者自用、to B 药企/实验室采购或 to VC 赞助，均属判断而非已验证事实，未发现仅靠融资叙事的迹象。
+    evidence_ids:
+    - ev-746b7411d65daa88
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺通过 XML-RPC 控制实时 PyMOL 会话，但公开材料未提供部署文档、可复现实测或安全边界说明，交付能否稳定发生、AI 误操作分子会话的风险如何约束尚缺证据。
+    evidence_ids:
+    - ev-746b7411d65daa88
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现具体使用场景、部署说明或用户反馈，以核验交付稳定性与采用情况。
+  market: ''
+  job: 结构生物学家或计算化学家在分析蛋白质/配体结构时，把 PDB 或本地结构文件载入 PyMOL，需要完成选择残基、切换表示方式、着色、测量距离、生成并导出可发表图像等一连串操作，最终交付结构图或分析结果。
+  job_en: A structural biologist or computational chemist loads a PDB or local structure file into PyMOL
+    and must perform a chain of operations—selecting residues, switching representations, coloring, measuring
+    distances, and exporting publication-quality images—to deliver a structural figure or analysis result.
+  pain: PyMOL 的日常操作依赖命令行与脚本：不熟悉命令的用户要反复查文档、试错选择语法，重复性出图任务每次都要重敲或改脚本；公开材料未给出频率与不采用代价的量化数据，但这是该工作流中可识别的操作摩擦（结构推理）。
+  pain_en: 'Routine PyMOL work depends on commands and scripts: users unfamiliar with the syntax repeatedly
+    consult docs and trial-and-error selections, and repetitive figure tasks require retyping or editing
+    scripts each time. Public materials give no quantified frequency or cost of not adopting, but this
+    is an identifiable friction in the workflow (structural inference).'
+  current_alternative: 现有做法是直接在 PyMOL 命令行或 .pml 脚本中手写命令，或使用 PyMOL 内置的 GUI 菜单逐项点击；部分用户也会用其他分子可视化工具或自行封装脚本。
+  current_alternative_en: The current approach is hand-writing commands in the PyMOL CLI or .pml scripts,
+    or clicking through PyMOL's built-in GUI menus; some users also use other molecular viewers or wrap
+    their own scripts.
+  usage_reason: 相较手写命令或逐项点菜单，该 MCP 服务器让 Claude Code 通过 XML-RPC 把自然语言指令直接下发到正在运行的 PyMOL 会话，用户不必先记住选择语法或反复改脚本，就能让
+    AI 执行选择、着色、出图等动作；因此不熟悉 PyMOL 命令语法、又已在用 Claude Code 的结构生物学或计算化学用户，会在需要快速完成常规可视化任务时选择它（推断，基于产品能力与工作流结构，非用户反馈）。
+  usage_reason_en: 'Compared with hand-writing commands or clicking through menus, this MCP server lets
+    Claude Code send natural-language instructions over XML-RPC directly into a running PyMOL session,
+    so users need not memorize selection syntax or repeatedly edit scripts to have the AI perform selection,
+    coloring, and figure export. Structural biology or computational chemistry users who are unfamiliar
+    with PyMOL command syntax but already use Claude Code would therefore choose it for routine '

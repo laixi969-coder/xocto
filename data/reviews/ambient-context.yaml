@@ -128,3 +128,56 @@
     images one by one and enables full-text search, while reducing retention of sensitive imagery; developers
     who want searchable work records without storing screen images would therefore choose it during long
     coding or handoff sessions. This is an inference from product capability and task structu
+- id: req-full-ambient-context-2026-09-13
+  project_slug: ambient-context
+  level: full
+  reviewed_at: '2026-09-13T00:23:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决程序员跨窗口工作后无法回溯上下文的需求，痛点是截图不可搜索、单应用历史覆盖不全；公开说明称其为菜单栏应用、持续记录工作内容并输出 Markdown 文本。这是工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-f679fa8b6f8b0e04
+    - ev-fbdd28475ed1c602
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 由 164 增至 169，仅反映关注度累积，公开材料未见用户评价、issue 讨论或重复使用证据，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-fbdd28475ed1c602
+    - ev-68682abbdb9765e2
+    - ev-375fcfe9971bf121
+  - gate: model
+    status: insufficient
+    reason: 官网仅描述菜单栏应用形态，未披露定价、订阅或企业采购路径；谁付钱、按什么计费均无公开事实，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fbdd28475ed1c602
+  - gate: truth
+    status: insufficient
+    reason: 不截屏只转文本的承诺能否在各类应用与敏感内容下确定性交付、是否涉及隐私与人工边界，公开材料未给出部署文档或实测说明。
+    evidence_ids:
+    - ev-f679fa8b6f8b0e04
+    - ev-fbdd28475ed1c602
+  next_validation: 追踪 ambient-context 仓库的 issue 与 discussion，以及官网是否出现定价页或客户案例，用以核验实际使用反馈与付费路径。
+  market: ''
+  job: 程序员在长时间跨窗口开发时，处理屏幕上散落的代码片段、终端输出、文档与报错信息，需要事后回溯“刚才改了什么、上下文是什么”，以便继续调试或写提交说明。
+  job_en: While developing across many windows, a programmer handles scattered code snippets, terminal
+    output, docs and error messages, and later needs to reconstruct what was changed and what the context
+    was in order to continue debugging or write a commit message.
+  pain: 公开材料显示该工具定位为“不截屏、只把屏幕内容转成文本 Markdown”的屏幕记忆，并称其为菜单栏应用、持续记录你做过什么；这指向的痛点是：截图式记录不可搜索、不可复制，而人脑记不住几小时前的窗口上下文，切换任务后重建上下文要额外翻找。这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: 'Public materials describe it as screenshot-free screen memory that turns screen content into
+    text Markdown, and as a menu-bar app that keeps a written record of what you worked on. The implied
+    pain: screenshot-based recall is unsearchable and uncopyable, and people cannot remember window context
+    from hours ago, so switching tasks forces extra hunting. This is inferred from product description
+    and workflow structure, not from user complaints or cases.'
+  current_alternative: 旧做法是手动截图、依赖 shell 历史与编辑器本地历史、翻 IDE 的 recent files，或干脆凭记忆重建上下文；这些方式要么不可全文检索，要么只覆盖单一应用。
+  current_alternative_en: The old way is manual screenshots, shell history, editor local history, IDE
+    recent files, or simply reconstructing context from memory; these are either not full-text searchable
+    or cover only a single app.
+  usage_reason: 推断：相较手动截图与单应用历史，它把屏幕内容直接落成可搜索的 Markdown 文本，省去“先截图、再翻图、再手抄”的步骤，因此经常在多个窗口间切换、需要事后回溯上下文的程序员会在调试或写提交说明时选择它。仓库
+    star 从 164 增至 169 只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual screenshots and single-app history, it lands screen content
+    directly as searchable Markdown text, removing the screenshot-then-hunt-then-retype steps, so programmers
+    who switch among many windows and need to reconstruct context would pick it when debugging or writing
+    commit messages. Stars rising from 164 to 169 indicate attention only, not sustained use.'

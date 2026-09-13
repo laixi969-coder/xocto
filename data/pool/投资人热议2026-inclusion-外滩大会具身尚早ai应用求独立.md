@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LTWdMeUNFeHUy
 summary: 投资人热议2026 Inclusion 外滩大会：具身尚早，AI应用求独立 doit.com.cn
 first_seen: '2026-09-12T02:54:15Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

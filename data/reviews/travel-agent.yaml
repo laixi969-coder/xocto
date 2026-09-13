@@ -160,3 +160,48 @@
     reducing the burden of cross-site re-entry and price comparison; thus trip planners who frequently
     compare across sites and want to retain payment control would choose it in this situation. This is
     an inference from product capability and task structure, not yet confirmed by user
+- id: req-full-travel-agent-2026-09-13
+  project_slug: travel-agent
+  level: full
+  reviewed_at: '2026-09-13T00:26:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决旅行规划中规划与预订分离、需人工在多网站间搬运信息的问题，旧做法是多标签比价加手动填写，不解决的后果是耗时且易错。
+    evidence_ids:
+    - ev-5658a2955b526a01
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从 43 增至 56，属于关注度而非持续采用，尚无用户评价或实际预订完成证据。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-725aa12bf7be5389
+  - gate: model
+    status: insufficient
+    reason: 开源桌面应用，未见定价页或付费路径；买方可能是旅行规划者本人或旅游服务商，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5658a2955b526a01
+  - gate: truth
+    status: insufficient
+    reason: 在支付页停止保留了人工边界，但代理在真实网站上的操作成功率、错误处理与安全边界尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-5658a2955b526a01
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际用它完成过哪些网站上的预订流程以及支付页停止后的操作反馈。
+  market: ''
+  job: 旅行规划者在规划一次具体出行时，需要处理航班、酒店等真实网站上的预订信息，在聊天界面旁完成行程规划并实际下单，但支付环节由本人手动完成。
+  job_en: A travel planner, when arranging a specific trip, works through real booking sites for flights
+    and hotels, plans the itinerary beside a chat interface and actually places the booking, while completing
+    payment manually.
+  pain: 在多个真实网站之间反复切换、比价和填写信息，规划与预订被拆成两段，用户要自己搬运行程信息并重复操作，耗时且容易出错。
+  pain_en: Switching among multiple real booking sites to compare and fill in information splits planning
+    from booking; users must carry itinerary details themselves and repeat steps, which is slow and error-prone.
+  current_alternative: 用户目前靠人工在浏览器多标签间比价、复制行程信息，或使用只给建议不实际操作的聊天式旅行助手。
+  current_alternative_en: Users currently compare prices across browser tabs by hand, copy itinerary details,
+    or use chat-based travel assistants that only give advice without acting.
+  usage_reason: 相较人工多标签比价，它让代理在真实网站上直接执行搜索与填写，把规划到预订的搬运步骤交给代理完成，并在支付页停下保留用户对付款的控制；推断，对愿意让 AI 代操作但不愿交出支付权限的旅行规划者更有吸引力。
+  usage_reason_en: Compared with manual multi-tab comparison, it lets the agent act directly on real websites
+    to search and fill in, moving the planning-to-booking legwork to the agent while stopping at the payment
+    page to keep the user in control of payment; this is an inference, and it appeals to travel planners
+    willing to let AI operate but not to hand over payment authority.

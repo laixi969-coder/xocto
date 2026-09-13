@@ -81,3 +81,91 @@
     and filtering rules from multiple sources in one place, removing the step of checking fields row by
     row, so sales teams that need recurring signal-based lists would pick it when list quality matters
     and lists refresh often; the candidate material provides no retention or repeat-purchase evidence.'
+- id: req-initial-ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio-2026-09-13
+  project_slug: ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是外呼名单准备中逐条查资料、拼字段的重复劳动，痛点刚性且旧行为明确，属于工作流推理。
+    evidence_ids:
+    - ev-1841f8056e84585a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与估值，没有客户数、留存或使用规模，无法判断收入团队是否已把它留在日常流程里。
+    evidence_ids:
+    - ev-1841f8056e84585a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与计费方式，买方可能是收入团队，但按席位还是按线索量收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-1841f8056e84585a
+  - gate: truth
+    status: insufficient
+    reason: 数据补全的准确率、合规边界和人工复核环节均无公开材料支持，交付确定性无法核对。
+    evidence_ids:
+    - ev-1841f8056e84585a
+  next_validation: 收集 Clay 官方定价页或客户案例页面，确认其计费单位与已公开的客户使用结果。
+  market: ''
+  job: 销售开发代表和销售运营在准备每周外呼名单时，要处理分散在多个数据源的公司信息、联系人字段和触发事件，最终产出一份可直接外呼或发邮件的目标客户名单。
+  job_en: SDRs and sales ops preparing weekly outbound lists handle company data, contact fields and trigger
+    events scattered across sources, and must produce a target-account list ready for calls or email.
+  pain: 手工查资料和拼字段耗时且容易漏掉关键触发事件，名单质量不稳定会直接浪费外呼时间。
+  pain_en: Manual lookups and field assembly are slow and easily miss key trigger events, and unstable
+    list quality directly wastes calling time.
+  current_alternative: 旧做法是销售自己在搜索引擎、领英和表格之间来回切换，逐条复制粘贴并人工核对。
+  current_alternative_en: The old way is for reps to switch between search engines, LinkedIn and spreadsheets,
+    copying and checking entries one by one.
+  usage_reason: 相较手工逐条查资料，它把数据补全、字段整理和序列编排合并成一次自动执行，减少的是逐条搜索与复制这一步负担，因此名单量大或需要频繁换目标客户的收入团队会在准备外呼时选择它；这是基于产品能力的推断，公开材料未提供用户留存或复购证据。
+  usage_reason_en: Compared with manual lookups, it merges enrichment, field normalization and sequencing
+    into one automated run, removing the per-record search-and-copy step, so revenue teams with large
+    or fast-changing target lists would choose it when preparing outbound; this is inference from product
+    capability, as no retention or repeat-purchase evidence is public.
+- id: req-full-ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio-2026-09-13
+  project_slug: ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio
+  level: full
+  reviewed_at: '2026-09-13T00:23:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决外呼名单准备中逐条查资料、拼字段的重复劳动，痛点刚性且旧替代行为明确，属工作流结构推理；但公开材料仅官网一句定位，无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-299143b33809834b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网定位与融资估值报道，没有客户数、留存或使用规模，无法判断收入团队是否已把它留在日常流程里。
+    evidence_ids:
+    - ev-299143b33809834b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与计费方式，买方可能是收入团队，但按席位还是按线索量收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-299143b33809834b
+  - gate: truth
+    status: insufficient
+    reason: 数据补全准确率、合规边界与人工复核环节均无公开材料支持，交付确定性无法核对。
+    evidence_ids:
+    - ev-299143b33809834b
+  next_validation: 收集 Clay 官方定价页或客户案例页面，确认其计费单位与已公开的客户使用结果。
+  market: ''
+  job: 销售开发代表与销售运营在准备每周外呼名单时，需要把分散在多个数据源的公司信息、联系人字段和触发事件汇总成一份可直接外呼或发邮件的目标客户名单。
+  job_en: SDRs and sales ops preparing weekly outbound lists must consolidate company details, contact
+    fields and trigger events scattered across multiple data sources into a target-account list ready
+    for calls or email.
+  pain: 逐条查资料、拼字段耗时且容易漏掉关键触发事件，名单质量不稳定会直接浪费外呼时间；公开材料只给出产品定位，未提供用户抱怨或采用数据。
+  pain_en: Record-by-record lookups and field assembly are slow and easily miss key trigger events, and
+    unstable list quality directly wastes calling time; public material only states product positioning,
+    with no user complaints or adoption data.
+  current_alternative: 旧做法是销售在搜索引擎、领英和表格之间来回切换，逐条复制粘贴并人工核对字段。
+  current_alternative_en: The old way is for reps to switch between search engines, LinkedIn and spreadsheets,
+    copying and checking fields one by one.
+  usage_reason: 相较手工逐条查资料，它把数据补全、字段整理与序列编排合并为一次自动执行，减少的是逐条搜索与复制这一步负担，因此名单量大或目标客户频繁更换的收入团队会在准备外呼时选择它；这是基于产品能力的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with manual lookups, it merges enrichment, field normalization and sequencing
+    into one automated run, removing the per-record search-and-copy step, so revenue teams with large
+    or fast-changing target lists would choose it when preparing outbound; this is inference from product
+    capability, as no retention or repeat-purchase evidence is public.

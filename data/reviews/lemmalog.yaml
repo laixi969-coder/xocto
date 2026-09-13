@@ -251,3 +251,60 @@
     are added, moving the step of manually checking which conclusions are affected and rebuilding context
     into the engine; developers would choose it when an agent needs auditable, explainable shared memory.
     Public evidence contains no user feedback, so this is an inference from product capability.'
+- id: req-full-lemmalog-2026-09-13
+  project_slug: lemmalog
+  level: full
+  reviewed_at: '2026-09-13T00:24:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 记忆事实冲突、来源不可追溯、provider 出错后上下文丢失的问题；公开材料显示其按 episode 记忆、保存逐字来源与升级队列、错误时降级为零事实，痛点刚性来自多
+      agent 共享上下文的一致性要求，交付由 Datalog 分层规则与增量推导确定。属工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-4a95ca51e6a2a7f9
+    - ev-dfb84cef1b3deb47
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有 公开代码仓库 仓库与 OpenTools 收录页，未提供星数、下载、issue 讨论或社区采用数据，无法判断开发者是否已把它纳入 agent 记忆工作流；关注度不等于持续采用。
+    evidence_ids:
+    - ev-87241a82e0d75709
+    - ev-dfb84cef1b3deb47
+  - gate: model
+    status: insufficient
+    reason: 仓库与收录页均未披露定价或付费路径，开源免费是当前唯一可见模式；买方可能是需要可审计 agent 记忆的企业开发者，但公开材料未给出采购或商业支持证据，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7d79b7fc944fd85f
+    - ev-ef6109b1c3e96143
+  - gate: truth
+    status: supported
+    reason: 产品贴近 agent 记忆可靠性的第一性目标：用分层规则与增量推导保证结论可重算，用溯源标注保证事实可核对，并在 provider 错误时降级为零事实而非编造，交付边界明确；但安全与人工升级边界仅见升级队列机制，缺实际运行验证。
+    evidence_ids:
+    - ev-4a95ca51e6a2a7f9
+    - ev-4f3a97964e03659b
+  next_validation: 追踪 lemmalog 公开代码仓库 仓库的 issue、discussion 与 release 记录，确认是否有真实 agent 项目报告采用、记忆冲突修复或跨
+    agent 共享上下文的公开使用案例。
+  market: ''
+  job: Agent 开发者在构建需要跨会话、跨工具共享上下文的 LLM agent 时，把对话与工具调用产生的零散事实和规则写入 lemmalog，通过 MCP 服务器让多个 agent 或 harness
+    读取同一份带溯源的推理结果，完成记忆一致性与可追溯推理任务。
+  job_en: Agent developers building LLM agents that need shared context across sessions and tools write
+    scattered facts and rules from conversations and tool calls into lemmalog, and via its MCP server
+    let multiple agents or harnesses read the same provenance-tracked inference results, completing memory-consistency
+    and traceable-reasoning tasks.
+  pain: 公开材料显示 lemmalog 处理 provider 错误时降级为零事实、按 episode id 记忆、保存逐字来源与升级队列，说明其针对的痛点是 agent 记忆在外部模型出错或上下文切换后事实丢失、冲突且无法追溯来源；这是从产品机制反推的工作流痛点，非用户口述。
+  pain_en: Public materials show lemmalog degrades to zero facts on provider errors, memoizes by episode
+    id, and persists verbatim sources and an escalation queue, indicating the pain is that agent memory
+    loses, conflicts, or cannot trace facts after model errors or context switches; this is inferred from
+    product mechanics, not user statements.
+  current_alternative: 开发者当前用向量数据库、图数据库或简单键值存储保存 agent 记忆，这些方案缺少分层规则、溯源标注与增量推导，事实冲突时无法给出逻辑依据。
+  current_alternative_en: Developers currently use vector databases, graph databases, or simple key-value
+    stores for agent memory; these lack stratified rules, provenance annotations, and incremental derivation,
+    so conflicting facts have no logical basis.
+  usage_reason: 相较向量库只做相似度检索，lemmalog 通过分层规则与增量推导在写入新事实时自动重算受影响结论，并保留每条事实的来源与置信度，使 agent 在 provider 报错降级后仍能按
+    episode 恢复；需要可审计推理链的 agent 开发者会在调试记忆冲突或跨 agent 共享上下文时选择它。这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with vector stores that only do similarity retrieval, lemmalog recomputes
+    affected conclusions via stratified rules and incremental derivation when new facts arrive, and keeps
+    each fact's source and confidence, so agents can recover per episode after provider-error degradation;
+    agent developers needing auditable reasoning chains would choose it when debugging memory conflicts
+    or sharing context across agents. This is inferred from product capability and task structur

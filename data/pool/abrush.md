@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/abrush-ai-2
 summary: AI Studio for Digital Artists
 first_seen: '2026-09-10T20:18:42Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

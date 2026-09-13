@@ -21,7 +21,7 @@ canonical_url: https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-o
 summary: A Misalignment of AI in Mathematics
 first_seen: '2026-09-11T17:30:26Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

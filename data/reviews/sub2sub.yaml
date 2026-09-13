@@ -127,3 +127,56 @@
     by task to a named member, who receives usable call capability rather than someone else''s credentials,
     removing the credential-leak and session-conflict step; admins who must allocate quota per task without
     sharing passwords would choose it.'
+- id: req-full-sub2sub-2026-09-13
+  project_slug: sub2sub
+  level: full
+  reviewed_at: '2026-09-13T00:26:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队内 AI 订阅额度按任务分配、且不交出他人账号的需求；公开仓库说明已还原旧做法（共享账号密码/登录态）与不解决的后果（账号失控、额度无序消耗）。痛点刚性来自凭据共享的安全与归属问题，交付闭环（按任务转额度、成员获得调用能力）可确定，属工作流结构推理，尚无用户案例佐证。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+    - ev-3cf083d759a26b61
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 44 增至 54，说明开发者社区注意到该项目，但收藏与关注只属规模/关注度证据，不能证明目标团队已持续使用或形成强场景；公开材料未见 issue、discussion
+      或用户评价说明谁在何种场景部署。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+    - ev-ee61f82073f3ba86
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，无法判断钱来自 to B 团队采购、to C 个人订阅者还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+  - gate: truth
+    status: insufficient
+    reason: 鉴权方式、额度计量口径、合规边界与人工/安全边界均未在公开材料中说明，交付能否稳定发生尚缺可复现证据；仓库说明只承诺“无需登录他人账号”，未展示实现细节。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+    - ev-3cf083d759a26b61
+  next_validation: 追踪 sub2sub 仓库的 README、issue 与 discussion，确认其鉴权与额度计量实现方式，以及是否有团队公开描述部署场景与替代的旧流程。
+  market: ''
+  job: 团队里有人买了 ChatGPT/Claude 等 AI 订阅、有人没有时，额度管理员（通常是团队负责人或技术负责人）要在成员之间按具体任务分配调用额度，让没订阅的同事拿到可用的调用能力，同时不把订阅者的账号密码交出去。
+  job_en: When some teammates hold AI subscriptions (ChatGPT/Claude etc.) and others do not, the quota
+    administrator (usually the team or tech lead) must allocate call capacity to members task by task,
+    giving unsubscribed colleagues usable access without handing over the subscriber's account credentials.
+  pain: 公开仓库说明指向的痛点是：共享订阅目前只能靠交出账号密码或共用登录态，这既让订阅者失去对自己账号的控制，也让管理员无法按任务粒度分配额度；不解决的后果是账号被多人共用、额度被无序消耗、责任无法归属。这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: The pain implied by the public repository description is that sharing a subscription today
+    means handing over credentials or a shared login session, which strips the subscriber of control and
+    leaves the admin unable to allocate quota at task granularity; the consequence is shared accounts,
+    unordered quota burn, and unattributable usage. This is inferred from the product description and
+    workflow structure, not yet corroborated by user complaints or cases.
+  current_alternative: 当前替代方式是订阅者把账号密码或登录态直接给同事，或让同事共用同一账号；团队也可能干脆为每人单独购买订阅，或让没订阅的人放弃使用。公开材料未展示其他替代路径。
+  current_alternative_en: Today the alternative is the subscriber handing over credentials or a shared
+    login session, teammates sharing one account, buying a separate subscription per person, or unsubscribed
+    members simply going without. Public materials show no other substitute path.
+  usage_reason: 推断：相较交出账号密码，sub2sub 把订阅额度按任务转给指定成员，成员拿到的是可用的调用能力而非他人凭据，从而省去“共享登录态”这一步并让额度归属可追踪；因此会在意账号安全与额度可分配性的团队管理员，在需要临时把额度借给某位同事完成具体任务时会选择它。该因果为结构推理，尚无用户反馈或案例证实。
+  usage_reason_en: 'Inference: rather than handing over credentials, sub2sub transfers subscription quota
+    to a named member task by task, so the member receives usable call capacity instead of someone else''s
+    credentials, removing the shared-login step and making quota attribution traceable. A team admin who
+    cares about account security and allocatable quota would choose it when temporarily lending capacity
+    to a colleague for a specific task. This causal chain is structural reasoning, not yet con'

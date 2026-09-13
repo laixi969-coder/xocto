@@ -23,7 +23,7 @@ summary: "California Brown Pelican, in San Mateo County, CA, US  The  Pacifica P
   \ been entirely taken over by pelicans! \n    \n    \n         Tags:  wildlife"
 first_seen: '2026-09-12T21:16:09Z'
 last_seen: '2026-09-13T00:01:15Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

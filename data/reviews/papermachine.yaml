@@ -264,3 +264,53 @@
     it runs analysis locally and automatically traces each chart back to its generating code, removing
     the manual post-hoc verification and reproduction step, so analysts and researchers who need auditable
     results without moving data off their machine would choose it when producing formal research conclusions.'
+- id: req-full-papermachine-2026-09-13
+  project_slug: papermachine
+  level: full
+  reviewed_at: '2026-09-13T00:25:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是分析结果不可追溯的痛点：通用 AI 给结论不给代码，用户无法核对数字来源，在金融研究与学术复核中不可用。产品在本地跑 Python/R 并把图表链回代码，交付可核验。这是基于产品说明与工作流结构的推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-e7ae6d14d959d6b5
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 45 增至 54，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标分析师已把它纳入日常工作流；缺少 issue、discussion 或用户评价说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-e7ae6d14d959d6b5
+    - ev-d386a782de69091a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，无法判断收入来自 to C 订阅、to B 团队授权还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-e7ae6d14d959d6b5
+  - gate: truth
+    status: insufficient
+    reason: 本地执行与图表-代码追溯的承诺在结构上可确定交付，但尚无部署文档、可复现实测或 issue 证明其在真实数据集上稳定运行，人工与安全边界也未公开。
+    evidence_ids:
+    - ev-e7ae6d14d959d6b5
+  next_validation: 追踪 papermachine 仓库的 README、部署文档与 issue/discussion，确认是否有真实用户描述在何种数据集与合规场景下用它替代手工脚本或黑箱
+    AI。
+  market: ''
+  job: 数据分析师或研究员在本地机器上处理自有数据集（含敏感或未公开数据），需要完成探索性分析并产出可被同事、审稿人或合规方复核的图表与结论，任务是把每个图表追溯到生成它的 Python/R 代码。
+  job_en: A data analyst or researcher works on their own dataset on a local machine (including sensitive
+    or unpublished data), runs exploratory analysis, and must produce charts and conclusions that colleagues,
+    reviewers, or compliance can audit, tracing each chart back to the Python/R code that produced it.
+  pain: 通用 AI 分析工具给出结论和图表却不暴露中间代码与数据口径，用户无法核对数字怎么算出来；在金融研究、学术审稿或合规场景中，无法追溯的分析结果等于不可用，用户只能手工重跑或放弃 AI 辅助。
+  pain_en: Generic AI analysis tools return conclusions and charts without exposing the intermediate code
+    or data definitions, so users cannot verify how a number was produced; in financial research, academic
+    review, or compliance settings an untraceable result is unusable, forcing manual re-runs or abandoning
+    AI assistance.
+  current_alternative: 当前替代方式包括：在 Jupyter/本地脚本中手工写 Python 或 R 并自行记录过程；使用不展示代码的通用 AI 分析工具后再人工复核；或把数据交给云端分析服务但承担数据外泄风险。
+  current_alternative_en: Current alternatives include hand-writing Python or R in Jupyter/local scripts
+    and documenting the process manually; using generic AI analysis tools that hide the code and then
+    re-checking by hand; or sending data to cloud analysis services at the cost of data-leak risk.
+  usage_reason: 相较手工写脚本或使用黑箱 AI，papermachine 在用户本机执行 Python/R，并把每个图表链接回生成它的代码，用户因此省去“先让 AI 出结果、再逐条重算验证”的返工步骤，可直接把代码与图表一并交付复核；推断：需要可审计分析链路且数据不能外传的分析师和研究员会在这种情况下选择它。
+  usage_reason_en: 'Compared with hand-writing scripts or using a black-box AI, papermachine executes
+    Python/R on the user''s own machine and links each chart back to the code that produced it, removing
+    the rework step of re-computing every AI output to verify it and letting users deliver code plus charts
+    for review; inference: analysts and researchers who need an auditable analysis chain and cannot send
+    data off-machine would choose it in this situation.'

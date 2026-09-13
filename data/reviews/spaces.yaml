@@ -1,0 +1,86 @@
+- id: req-initial-spaces-2026-09-13
+  project_slug: spaces
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决团队与 AI 智能体共用上下文的需求，但公开材料只有一句定位，说不清原来谁在什么节点手工做哪一步，痛点与交付均无法确认。
+    evidence_ids:
+    - ev-5560bc0d9df45887
+  - gate: consensus
+    status: insufficient
+    reason: 除发布定位外没有客户案例、用户反馈或采用迹象，无法判断卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-5560bc0d9df45887
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 席位费或按产出收费都只是猜测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5560bc0d9df45887
+  - gate: truth
+    status: insufficient
+    reason: 无法核对智能体是否真能确定性交付结果、人工边界在哪，也缺少可复现的实测材料。
+    evidence_ids:
+    - ev-5560bc0d9df45887
+  next_validation: 收集 Spaces 官方产品页或文档，确认智能体接收的输入、执行的动作与最终交付物，以及是否公布定价。
+  market: ''
+  job: 团队在推进一个共同项目时，需要把成员和 AI 智能体放在同一处上下文里，让智能体承接部分任务并把结果交回给人确认。
+  job_en: While pushing a shared project forward, a team needs members and AI agents in the same context,
+    so agents can take on part of the tasks and hand results back for human confirmation.
+  pain: 公开材料只给出“团队与 AI 智能体共用一个空间”这一句定位，没有说明原来由谁、用什么工具、在哪一步手工完成，因此无法确认具体痛点。
+  pain_en: The public material gives only the one-line positioning of a shared space for a team and AI
+    agents, without saying who did the work before, with which tools, or at which step by hand, so the
+    specific pain cannot be confirmed.
+  current_alternative: 可推断的旧做法是团队在文档、聊天和任务工具之间人工搬运上下文，再单独打开 AI 工具处理；这是推断，公开材料未描述替代对象。
+  current_alternative_en: The inferable old practice is that teams manually move context between documents,
+    chat and task tools and then open a separate AI tool; this is an inference, as the public material
+    does not describe what it replaces.
+  usage_reason: 若智能体确实能在同一空间内直接读取团队已有材料并回写结果，用户可省去在多个工具间复制粘贴上下文这一步；但公开材料未说明输入、动作与交付，因此这只是推断，尚不能解释用户为何选择它。
+  usage_reason_en: If agents can indeed read the team's existing material in the same space and write
+    results back, users would skip the step of copying context between tools; but the public material
+    does not describe input, action or deliverable, so this is only an inference and cannot yet explain
+    why users would choose it.
+- id: req-full-spaces-2026-09-13
+  project_slug: spaces
+  level: full
+  reviewed_at: '2026-09-13T00:26:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决团队与 AI 智能体共用上下文的需求，但公开材料只有一句定位，说不清原来谁在什么节点手工做哪一步，痛点与交付均无法确认。
+    evidence_ids:
+    - ev-5560bc0d9df45887
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Spaces 官方产品页或文档，确认智能体接收的输入、执行的动作与最终交付物，以及是否公布定价。
+  market: ''
+  job: 团队在推进共同项目时，希望成员与 AI 智能体处于同一处上下文，由智能体承接部分任务并把结果回写给人确认。
+  job_en: While pushing a shared project forward, a team wants members and AI agents in one shared context,
+    with agents taking on part of the tasks and writing results back for human confirmation.
+  pain: 公开材料只有一句定位，没有说明原来由谁、用什么工具、在哪一步手工完成，因此无法确认具体痛点。
+  pain_en: The public material offers only a one-line positioning and does not say who did the work before,
+    with which tools, or at which step by hand, so the specific pain cannot be confirmed.
+  current_alternative: 可推断的旧做法是团队在文档、聊天和任务工具之间人工搬运上下文，再单独打开 AI 工具处理；这是推断，公开材料未描述替代对象。
+  current_alternative_en: The inferable old practice is that teams manually move context between documents,
+    chat and task tools and then open a separate AI tool; this is an inference, as the public material
+    does not describe what it replaces.
+  usage_reason: 若智能体确实能在同一空间内读取团队已有材料并回写结果，用户可省去在多个工具间复制粘贴上下文这一步；但公开材料未说明输入、动作与交付，因此这只是推断，尚不能解释用户为何选择它。
+  usage_reason_en: If agents can indeed read the team's existing material in the same space and write
+    results back, users would skip the step of copying context between tools; but the public material
+    does not describe input, action or deliverable, so this is only an inference and cannot yet explain
+    why users would choose it.

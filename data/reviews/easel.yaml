@@ -416,3 +416,44 @@
   usage_reason_en: 'No usage reason can be given: the candidate product identity does not match the product
     the evidence points to, so it is impossible to explain why social media creators would choose it,
     and CNC software features cannot be treated as adoption motives for a social media agent.'
+- id: req-full-easel-2026-09-13
+  project_slug: easel
+  level: full
+  reviewed_at: '2026-09-13T00:24:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决跨平台内容创作与发布，但公开证据全部指向 CNC 设计软件 Easel，与社交媒体智能体无关，无法还原用户任务、痛点或旧替代，连需求都写不出来。
+    evidence_ids:
+    - ev-812f858b2c030e74
+    - ev-14c45818b10d1254
+    - ev-075df514e132bad1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Easel 官方 公开代码仓库 仓库的 README、issue 和 discussion，确认其是否真实存在社交媒体智能体功能及用户使用记录。
+  market: ''
+  job: 内容创作者或社交媒体运营者在小红书、抖音、知乎、B站等平台发布内容前，需要处理热点趋势数据并生成多平台内容草稿，完成跨平台发布与效果分析。
+  job_en: Content creators or social media operators need to process trending data, generate multi-platform
+    content drafts, publish across Xiaohongshu, Douyin, Zhihu, Bilibili, and analyze performance before
+    posting.
+  pain: 公开材料未提供任何用户痛点、抱怨或工作流摩擦的证据；现有证据全部指向一个 CNC 设计软件，与社交媒体智能体无关。
+  pain_en: Public materials provide no evidence of user pain, complaints, or workflow friction; all available
+    evidence points to a CNC design software unrelated to a social media agent.
+  current_alternative: 公开材料未说明用户目前如何完成跨平台内容创作与发布，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not describe how users currently handle cross-platform content
+    creation and publishing, nor what old approach it replaces.
+  usage_reason: 由于证据全部指向 CNC 软件，无法推断用户为何会选择这个社交媒体智能体；缺少任何可归因到该产品的使用理由。
+  usage_reason_en: Because all evidence points to CNC software, it is impossible to infer why users would
+    choose this social media agent; no attributable usage reason exists.

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/remsky-kokoro-inno-clo
 summary: Zero-shot voice tuning for Kokoro-82M from a reference clip
 first_seen: '2026-09-11T23:05:36Z'
 last_seen: '2026-09-13T00:01:13Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

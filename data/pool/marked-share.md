@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/marked-share
 summary: Markdown and TextBundle editing, review, and sharing
 first_seen: '2026-09-09T14:45:35Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

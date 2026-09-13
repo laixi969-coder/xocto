@@ -1,0 +1,92 @@
+- id: req-initial-phyzical-org-2026-09-13
+  project_slug: phyzical-org
+  level: initial
+  reviewed_at: '2026-09-13T00:00:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是机器人操作数据采集与来源证明的问题，痛点方向清楚，但公开材料只有一句项目描述，无法确认数据是否真的可用、规模是否够训练。
+    evidence_ids:
+    - ev-777ef50eaa86222a
+  - gate: consensus
+    status: insufficient
+    reason: 204 个星标只说明开源关注度，没有下游团队采用、issue 讨论或数据被用于训练的证据。
+    evidence_ids:
+    - ev-777ef50eaa86222a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，买方可能是机器人公司或研究机构，但没有任何定价、授权或服务收费信息；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-777ef50eaa86222a
+  - gate: truth
+    status: insufficient
+    reason: 链上来源记录能否真正证明数据采集过程、浏览器遥操作的数据是否贴近真实机器人动力学，均无法从公开材料核对。
+    evidence_ids:
+    - ev-777ef50eaa86222a
+  next_validation: 收集 Phyzical_org 仓库的 issue、discussion 或文档，确认是否有团队实际用其 episode 训练模型，以及数据规模与格式转换的可用性。
+  market: ''
+  job: 具身智能数据工程师和机器人学习研究者在准备训练集时，需要拿到带来源记录的操作轨迹数据，并把它们整理成训练框架可读的格式。
+  job_en: Embodied-AI data engineers and robot-learning researchers preparing a training set need manipulation
+    trajectory data with provenance records and must reshape it into a format their training framework
+    can read.
+  pain: 自建遥操作设备成本高、录制流程零散，轨迹格式各家不同，数据来源也难以向合作方或评审证明。
+  pain_en: Building a teleoperation rig is costly, recording workflows are fragmented, trajectory formats
+    differ across teams, and data provenance is hard to prove to partners or reviewers.
+  current_alternative: 现有做法是自研遥操作硬件与录制脚本，或购买公开数据集，再手工写转换脚本对齐格式。
+  current_alternative_en: The current practice is to build custom teleoperation hardware and recording
+    scripts, or buy public datasets and hand-write conversion scripts to align formats.
+  usage_reason: 推断：相较自建采集线，它把遥操作搬进浏览器并直接输出可用的 episode 与转换器，省掉搭硬件和写格式转换这两步，因此缺采集能力的小型机器人团队会试用；但公开材料没有给出采集规模、数据质量或任何付费与复用证据。
+  usage_reason_en: 'Inference: compared with building a collection line, it moves teleoperation into the
+    browser and directly outputs usable episodes plus a converter, removing the steps of building hardware
+    and writing format conversions, so small robotics teams lacking collection capacity would try it.
+    However, the public material gives no collection scale, data quality, or any payment or reuse evidence.'
+- id: req-full-phyzical-org-2026-09-13
+  project_slug: phyzical-org
+  level: full
+  reviewed_at: '2026-09-13T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决具身智能团队采集操作轨迹并整理成训练格式的需求，痛点是自建遥操作硬件贵、格式不统一、来源难证明；浏览器遥操作加转换器与链上来源构成可确定的交付闭环，属工作流结构推理，公开材料未给采集规模与训练效果。
+    evidence_ids:
+    - ev-777ef50eaa86222a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 204 个星标只反映开源关注度，没有下游团队采用、issue 讨论或 episode 被用于训练的证据，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-777ef50eaa86222a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，买方可能是机器人公司、研究机构或 elizaOS 生态团队，但公开材料没有定价、授权或服务收费信息；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-777ef50eaa86222a
+  - gate: truth
+    status: insufficient
+    reason: 链上来源记录能否真正证明采集过程、浏览器遥操作数据是否贴近真实机器人动力学，均无法从公开材料核对，交付确定性仍缺实测。
+    evidence_ids:
+    - ev-777ef50eaa86222a
+  next_validation: 追踪 Phyzical_org 仓库的 issue、discussion 与文档，确认是否有团队实际用其 episode 训练模型，以及数据规模、格式转换与链上来源记录的可复现性。
+  market: ''
+  job: 具身智能数据工程师与机器人学习研究者在准备训练集时，需要在没有自建遥操作硬件的情况下，通过浏览器采集机器人操作轨迹，把过程整理成 episode 并转换成 elizaOS 可读的训练数据，同时保留可核验的来源记录。
+  job_en: Embodied-AI data engineers and robot-learning researchers preparing a training set need to collect
+    manipulation trajectories through a browser without building teleoperation hardware, turn sessions
+    into episodes, convert them into elizaOS-readable training data, and keep verifiable provenance records.
+  pain: 自建遥操作设备与录制脚本成本高、流程零散，各家轨迹格式不统一，数据来源也难以向合作方或评审证明；公开材料只给出项目定位，未提供采集规模、数据质量或下游训练效果。
+  pain_en: Building a teleoperation rig and recording scripts is costly and fragmented, trajectory formats
+    differ across teams, and provenance is hard to prove to partners or reviewers; the public material
+    only states the project positioning and gives no collection scale, data quality, or downstream training
+    results.
+  current_alternative: 现有做法是自研遥操作硬件与录制脚本，或购买公开数据集，再手工编写转换脚本对齐格式，来源记录通常靠内部文档或口头说明。
+  current_alternative_en: The current practice is to build custom teleoperation hardware and recording
+    scripts, or buy public datasets and hand-write conversion scripts to align formats, with provenance
+    usually kept in internal docs or verbal notes.
+  usage_reason: 推断：相较自建采集线，它把遥操作搬进浏览器并直接输出 episode 与 trajectory_db 转换器，省掉搭硬件和写格式转换两步，链上来源记录还替代了手工留痕；因此缺采集能力、又需要向合作方交代数据来源的小型机器人团队会在准备训练集时选择它。公开材料尚无留存或付费证据。
+  usage_reason_en: 'Inference: compared with building a collection line, it moves teleoperation into the
+    browser and directly outputs episodes plus a trajectory_db converter, removing the steps of building
+    hardware and writing format conversions, while onchain provenance replaces manual record-keeping;
+    small robotics teams lacking collection capacity and needing to account for data origin to partners
+    would therefore choose it when preparing training sets. Public material still shows no retention'

@@ -134,3 +134,55 @@
     cutting the steps of moving assets between tools, re-laying-out formatting and drawing diagrams separately;
     consultants and researchers who frequently produce client or research decks and need the output to
     stay hand-editable would choose it in that situation.'
+- id: req-full-codex-ppt-style-expanded-2026-09-13
+  project_slug: codex-ppt-style-expanded
+  level: full
+  reviewed_at: '2026-09-13T00:23:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把调研笔记与数据变成可编辑演示文稿这一具体任务，痛点在于排版、配图与画图占用内容打磨时间，且通用生成结果常不可编辑需重做；不解决的后果是交付周期拉长或质量下降。公开材料仅给出产品能力描述，未提供用户抱怨或频率，故这是工作流结构推理而非采用事实。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-02a9ce2b2db906ac
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 57 增至 83，说明开发者社区持续关注，但收藏与关注只属规模信号，不能证明目标顾问或研究人员已把它留在汇报工作流中；缺少 issue、discussion 或用户评价说明谁在何种场景重复使用。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-02a9ce2b2db906ac
+    - ev-f44f072b2ba0d79f
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费客户或采购记录，谁付钱尚不清楚；按开源惯例推断可能走 to C 开发者自用或 to B 团队定制，但这是判断而非已验证事实，也未出现仅靠融资续命的迹象。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺按受众与风格生成可编辑幻灯片并调用 AI 配图与 draw.io 工作流，但公开材料未给出输入格式、交付形态、生成失败率或人工与安全边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-02a9ce2b2db906ac
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认实际输入格式、交付文件形态以及是否有顾问或研究人员报告在真实汇报中重复使用。
+  market: ''
+  job: 咨询顾问或研究人员在准备客户汇报或研究分享时，把调研笔记、图表与数据整理成一套面向特定受众、可继续手工修改的演示文稿。
+  job_en: Consultants or researchers preparing client or research presentations turn research notes, charts
+    and data into an audience-specific, still-editable slide deck.
+  pain: 公开材料只说明它按受众与风格生成可编辑幻灯片并调用 AI 配图与 draw.io 图形工作流，未提供用户抱怨、频率或不采用代价；从工作流结构看，痛点在于从零排版、配图与画流程图占用大量本可用于内容打磨的时间，且通用生成结果往往不可编辑、需重做。
+  pain_en: Public materials only describe audience-aware, multi-style editable generation with AI visuals
+    and draw.io workflows; no user complaints, frequency or cost of inaction are given. Structurally,
+    the pain is the time spent on layout, visuals and diagramming instead of content, plus generic output
+    that is not editable and must be redone.
+  current_alternative: 公开材料未说明现有替代方式；按任务结构推断，用户目前用 PowerPoint/Keynote/Google Slides 手工排版，用通用大模型生成大纲或文案，再用
+    draw.io 或截图工具单独画图，最后人工拼合。
+  current_alternative_en: Public materials do not state the current alternative; structurally, users today
+    hand-build decks in PowerPoint/Keynote/Google Slides, use general LLMs for outlines or copy, draw
+    diagrams separately in draw.io or screenshot tools, then assemble everything manually.
+  usage_reason: 推断：相较手工排版加通用模型拼合，它把调研笔记直接作为输入，在 Codex 内一次完成按受众与风格生成可编辑幻灯片、配图与 draw.io 图形，减少“生成后无法编辑、需重新排版”和跨工具搬运这两步负担，因此需要反复交付客户或研究材料的顾问与研究人员会在赶稿时选择它。
+  usage_reason_en: 'Inference: versus manual layout plus generic-model assembly, it takes research notes
+    as input and, inside Codex, produces audience- and style-specific editable slides with AI visuals
+    and draw.io diagrams in one pass, removing the ''generated but not editable, must re-layout'' step
+    and cross-tool copying; consultants and researchers with recurring client or research deliverables
+    would pick it when under deadline.'

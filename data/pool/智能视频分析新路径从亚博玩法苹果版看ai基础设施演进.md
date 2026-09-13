@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rTUtETllKVVdM
 summary: 智能视频分析新路径：从亚博玩法苹果版看AI基础设施演进 体坛加
 first_seen: '2026-09-12T07:05:09Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

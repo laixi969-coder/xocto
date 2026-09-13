@@ -1,0 +1,83 @@
+- id: req-initial-creepy-2026-09-13
+  project_slug: creepy
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是敏感数据不愿上云的手机操作需求，但公开材料只有一句描述，说不清替代了哪一步旧流程，价值判断缺少依据。
+    evidence_ids:
+    - ev-1a0af339a5c157a3
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 个赞、0 条评论，没有用户反馈或采用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-1a0af339a5c157a3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，这是未知而非失败。
+    evidence_ids:
+    - ev-1a0af339a5c157a3
+  - gate: truth
+    status: insufficient
+    reason: 本地优先的承诺能否确定性交付、安全边界如何划定，公开材料均未说明。
+    evidence_ids:
+    - ev-1a0af339a5c157a3
+  next_validation: 收集 creepy 官方页面或仓库中的功能说明、权限清单与部署文档，确认它在设备上实际执行哪些动作、交付什么结果。
+  market: ''
+  job: Android 用户在不希望数据离开手机的情况下，把跨应用的手机操作交给一个本机运行的智能体去完成。
+  job_en: An Android user who does not want data to leave the phone hands cross-app phone tasks to an
+    agent running on the device.
+  pain: 云端助手需要把屏幕内容或账号数据上传，对处理敏感信息的用户构成顾虑；公开材料未说明 creepy 具体缓解了哪一步负担。
+  pain_en: Cloud assistants require uploading screen content or account data, which worries users handling
+    sensitive information; public material does not say which step creepy actually relieves.
+  current_alternative: 使用云端手机助手，或自己手动在多个应用之间切换完成操作。
+  current_alternative_en: Using a cloud phone assistant, or manually switching between apps to finish
+    the task.
+  usage_reason: 推断：如果 creepy 确实在本机完成跨应用操作，用户选择它的理由是不必把敏感内容交给云端；但公开材料只有一句产品描述，缺少可核验的输入、动作与交付说明，因此无法确认这一理由成立。
+  usage_reason_en: 'Inference: if creepy really performs cross-app actions on-device, users would choose
+    it to avoid handing sensitive content to the cloud; but public material is a single product line with
+    no verifiable input, action or delivery detail, so this reason cannot be confirmed.'
+- id: req-full-creepy-2026-09-13
+  project_slug: creepy
+  level: full
+  reviewed_at: '2026-09-13T00:23:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决敏感数据不愿上云的手机操作需求，但公开材料只有一句产品描述，说不清替代哪一步旧流程、不采用会失去什么，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-9fa3486af2535d70
+    - ev-0ef6470587d9f31b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 creepy 官方仓库或发布页 README、权限清单与部署文档，确认它在设备上实际接收什么输入、执行哪些动作、交付什么结果。
+  market: ''
+  job: Android 用户在不希望屏幕内容或账号数据离开手机的情况下，把跨应用的手机操作交给一个本机运行的智能体执行。
+  job_en: An Android user who does not want screen content or account data to leave the phone hands cross-app
+    phone tasks to an agent running on the device.
+  pain: 公开材料只有一句“本地优先的 Android 智能体”，没有说明它接收什么输入、替代哪一步旧流程、不采用会失去什么，因此无法确认痛点是否真实存在。
+  pain_en: Public material offers only one line, 'a local-first Android agent', with no statement of what
+    input it takes, which old step it replaces, or what is lost without it, so the pain cannot be confirmed
+    as real.
+  current_alternative: 公开材料未说明用户当前如何完成跨应用手机操作，也未说明它替代了云端助手还是手动切换应用。
+  current_alternative_en: Public material does not state how users currently complete cross-app phone
+    tasks, nor whether it replaces a cloud assistant or manual app switching.
+  usage_reason: 推断：若它确实在本机完成跨应用操作，用户可能为避免把敏感内容交给云端而选择它；但缺少可核验的输入、动作与交付说明，无法确认这一理由成立。
+  usage_reason_en: 'Inference: if it truly performs cross-app actions on-device, users might choose it
+    to avoid handing sensitive content to the cloud; but with no verifiable input, action or delivery
+    detail, this reason cannot be confirmed.'

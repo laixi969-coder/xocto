@@ -79,3 +79,45 @@
   usage_reason_en: 'Inference: if these skills fix prompts and parameters into repeatable steps, creators
     would not have to rebuild them from scratch each time; however, the public material gives no adoption
     or reuse evidence, so it cannot be confirmed that it stays in anyone''s workflow.'
+- id: req-full-reelbench-skills-2026-09-13
+  project_slug: reelbench-skills
+  level: full
+  reviewed_at: '2026-09-13T00:25:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 视频流程中提示词与参数零散的问题，但公开材料只有定位描述，没有说明具体用户任务、痛点强度与不采用的后果，属于可看可不看的学习笔记，价值关不成立。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+    - ev-6012a71336220758
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际替代的视频制作步骤、产出物与是否有用户报告复用结果。
+  market: ''
+  job: 视频创作者与剪辑师在准备 AI 视频生成或后期流程时，需要把散落的提示词、模型参数和工具调用步骤整理成可复用的操作资料，以便重复产出视频。
+  job_en: Video creators and editors preparing an AI video generation or post-production workflow need
+    to consolidate scattered prompts, model parameters and tool-call steps into reusable operational material
+    so they can reproduce video output.
+  pain: 公开材料只说明这是学习笔记与工具 skill，没有说明创作者原本卡在哪一步、失败率多高、不解决会损失什么；仅凭定位描述无法确认痛点刚性。
+  pain_en: The public material only says these are learning notes and tooling skills; it does not say
+    which step creators were stuck on, how often it fails, or what is lost if unsolved, so pain rigidity
+    cannot be confirmed.
+  current_alternative: 创作者自行收集提示词、看教程、在多个工具间手动搬运参数，或直接使用各模型官方文档与社区提示词库。
+  current_alternative_en: Creators collect prompts themselves, watch tutorials, manually move parameters
+    between tools, or use official model docs and community prompt libraries.
+  usage_reason: 推断：若这些 skill 能把提示词与参数固化成可重复调用的步骤，创作者可省去每次从零拼装；但公开材料未给出任何采用、复用或产出结果证据，无法确认它被留在工作流里，因此选择理由不成立。
+  usage_reason_en: 'Inference: if these skills fix prompts and parameters into repeatable steps, creators
+    would avoid rebuilding them each time; however, no adoption, reuse or output evidence is public, so
+    it cannot be confirmed that it stays in any workflow and the choice rationale does not hold.'

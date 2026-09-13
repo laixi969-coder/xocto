@@ -120,3 +120,51 @@
   usage_reason: 缺少输入格式、交付形态与使用反馈，无法说明相较旧做法减少了哪一步负担，因此无法给出用户选择它的因果解释。
   usage_reason_en: With no input format, delivery form or usage feedback, there is no way to say which
     step of the old workflow it removes, so no causal reason for choosing it can be given.
+- id: req-full-dsh-creator-2026-09-13
+  project_slug: dsh-creator
+  level: full
+  reviewed_at: '2026-09-13T00:24:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容创作者持续产出选题、文案与运营素材的需求，痛点是重复起草与素材整理耗时；公开说明已给出本地工作台接收素材、模型生成草稿、创作者确认发布的闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-6bd6b4e2ca27be02
+    - ev-d3b341b7a14bf193
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 90 增至 97 只说明开源关注度缓慢累积，不能证明内容创作者已持续使用；公开材料未见 issue、评价或案例说明谁在真实发布流程中采用。
+    evidence_ids:
+    - ev-6bd6b4e2ca27be02
+    - ev-963dfd12f9c0039f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，个人创作者订阅还是团队采购无法判断；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-d3b341b7a14bf193
+  - gate: truth
+    status: insufficient
+    reason: 生成草稿能否稳定达到可发布质量、人工确认边界如何设定，公开材料未提供可核对结果；仅凭工作台描述无法确认交付确定性。
+    evidence_ids:
+    - ev-6bd6b4e2ca27be02
+  next_validation: 追踪该仓库 README、issue 与 release 说明，确认实际输入格式、生成草稿的交付形态，以及是否有使用者报告在真实发布流程中采用。
+  market: ''
+  job: 内容创作者在本地打开工作台，把选题、文案与运营素材交给它，由 DeepSeek 模型生成内容草稿与运营文案，创作者确认后自行发布。
+  job_en: A content creator opens the local workbench, feeds in topics, copy and operational material,
+    has the DeepSeek model generate content drafts and operational copy, then confirms and publishes it
+    themselves.
+  pain: 内容创作者需要持续产出选题、文案与运营素材，重复起草占用时间；公开材料只说明它是本地内容与运营工作台，未提供用户抱怨或耗时数据，痛点强度属工作流结构推理。
+  pain_en: Content creators must continuously produce topics, copy and operational material, and repeated
+    drafting consumes time; public material only describes a local content and operations workbench, with
+    no user complaints or time data, so pain intensity is a workflow-structure inference.
+  current_alternative: 现有做法是创作者手工起草，或分别使用通用对话模型逐段生成再自行拼接整理。
+  current_alternative_en: The current practice is for creators to draft by hand, or to use general chat
+    models piece by piece and stitch the output together themselves.
+  usage_reason: 推断：相较手工起草或逐段调用通用模型再拼接，它把选题、文案与运营素材集中在一个本地工作台内交给模型处理，减少在多个工具间搬运与整理素材的步骤，因此需要批量产出草稿的自媒体创作者会在日常更新时选择它；公开材料无用户反馈，持续使用未被证实。
+  usage_reason_en: 'Inference: compared with drafting by hand or calling a general model piece by piece
+    and stitching output, it concentrates topics, copy and operational material in one local workbench
+    for the model to process, cutting the steps of moving and organizing material across tools, so self-media
+    creators producing drafts in volume would choose it for routine updates; no user feedback is public,
+    so continued use is unproven.'

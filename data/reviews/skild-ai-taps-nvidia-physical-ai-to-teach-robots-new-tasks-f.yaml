@@ -1,0 +1,91 @@
+- id: req-initial-skild-ai-taps-nvidia-physical-ai-to-teach-robots-new-tasks-f-2026-09-13
+  project_slug: skild-ai-taps-nvidia-physical-ai-to-teach-robots-new-tasks-f
+  level: initial
+  reviewed_at: '2026-09-13T00:01:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产线换型时机器人重编程耗时的问题，痛点具体，交付为可执行的新任务。
+    evidence_ids:
+    - ev-5db30d3b2b210f59
+  - gate: consensus
+    status: insufficient
+    reason: 仅有厂商博客介绍，无客户采用或部署案例。
+    evidence_ids:
+    - ev-5db30d3b2b210f59
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5db30d3b2b210f59
+  - gate: truth
+    status: insufficient
+    reason: 单次演示学习的成功率与人工确认边界未公开，交付确定性待核验。
+    evidence_ids:
+    - ev-5db30d3b2b210f59
+  next_validation: 收集 Skild AI 官方部署文档或客户案例，确认 S1 在真实产线的成功率与人工介入方式。
+  market: ''
+  job: 制造或仓储现场的工程师在产线换型、布局调整或新产品上线时，需要让机器人学会新任务，此前要花大量时间重编程。
+  job_en: Engineers on manufacturing or warehouse floors need robots to learn new tasks when lines change,
+    layouts shift or new products arrive, previously requiring heavy reprogramming.
+  pain: 任务与布局频繁变化，重编程耗时且需要专业工程师，产线停摆成本高，此为工作流推理。
+  pain_en: Tasks and layouts change frequently, reprogramming is time-consuming and needs specialist engineers,
+    and line downtime is costly; this is workflow reasoning.
+  current_alternative: 此前依赖工程师手工重编程或示教器逐点示教，此为推断。
+  current_alternative_en: Previously this relied on manual reprogramming by engineers or point-by-point
+    teaching with a pendant, which is an inference.
+  usage_reason: 相较逐点重编程，它用一次视频演示替代工程师的示教步骤，减少换型时的人工编程负担，因此换线频繁的工厂与仓库会在新任务上线时选择它；此为基于产品能力的推断。
+  usage_reason_en: Compared with point-by-point reprogramming, it replaces the engineer's teaching steps
+    with one video demonstration, cutting manual programming during changeover, so factories and warehouses
+    with frequent line changes would choose it when new tasks go live; this is an inference from product
+    capability.
+- id: req-full-skild-ai-taps-nvidia-physical-ai-to-teach-robots-new-tasks-f-2026-09-13
+  project_slug: skild-ai-taps-nvidia-physical-ai-to-teach-robots-new-tasks-f
+  level: full
+  reviewed_at: '2026-09-13T00:26:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产线换型时机器人需大量重编程才能跟上新任务的问题，痛点是换型停摆与专业工程师依赖，旧做法为手工重编程或示教器逐点示教，单次视频演示可替代该环节，属工作流结构推理。
+    evidence_ids:
+    - ev-5db30d3b2b210f59
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇厂商博客介绍模型能力，未发现客户采用、部署案例或独立评价，无法判断工程师是否已在真实产线把它纳入换型流程。
+    evidence_ids:
+    - ev-5db30d3b2b210f59
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、授权方式与买方，钱可能来自机器人厂商集成或工厂采购，属判断而非已验证事实，无融资叙事可依。
+    evidence_ids:
+    - ev-5db30d3b2b210f59
+  - gate: truth
+    status: insufficient
+    reason: 单次视频演示学习长程任务的成功率、失败恢复与人工确认边界均未公开，交付能否确定性发生缺少可核对结果。
+    evidence_ids:
+    - ev-5db30d3b2b210f59
+  next_validation: 追踪 Skild AI 官方部署文档或客户案例页面，确认 S1 在真实产线的任务成功率、失败处理与人工介入方式。
+  market: ''
+  job: 制造或仓储现场的自动化工程师在产线换型、布局调整或新产品上线时，需要让已部署的机器人学会此前未做过的新任务，并让产线尽快恢复运行。
+  job_en: Automation engineers on manufacturing or warehouse floors need deployed robots to learn previously
+    unseen tasks when lines change, layouts shift or new products arrive, and to get the line running
+    again quickly.
+  pain: 公开材料指出产线任务、布局与产品经常变化，多数机器人不重编程就跟不上；重编程依赖专业工程师、耗时长，换型期间产线停摆成本高。这是基于公开事实的工作流结构推理。
+  pain_en: Public material states that tasks, layouts and products on production floors change often and
+    most robots cannot keep up without significant reprogramming; reprogramming needs specialist engineers,
+    takes time, and line downtime during changeover is costly. This is workflow-structure reasoning from
+    public facts.
+  current_alternative: 此前依赖工程师手工重编程，或用示教器逐点示教来让机器人适配新任务；这是从公开材料对旧流程的描述作出的推断。
+  current_alternative_en: Previously engineers manually reprogrammed robots or taught them point by point
+    with a pendant to adapt to new tasks; this is an inference from the public description of the old
+    process.
+  usage_reason: 相较逐点重编程，S1 用一次视频演示替代工程师逐步示教与编写动作序列的环节，把换型时的编程负担前移到一次拍摄，因此换线频繁的工厂与仓库会在新任务上线时选择它；此为基于产品能力的推断，尚无客户采用证据。
+  usage_reason_en: Compared with point-by-point reprogramming, S1 replaces the engineer's step-by-step
+    teaching and motion-sequence coding with a single video demonstration, moving the changeover programming
+    burden into one recording, so factories and warehouses with frequent line changes would choose it
+    when new tasks go live; this is an inference from product capability, with no customer-adoption evidence
+    yet.

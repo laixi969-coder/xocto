@@ -21,7 +21,7 @@ canonical_url: "https://chromewebstore.google.com/detail/leotabs-â\x80\x94-tab-
 summary: A high-performance, all-in-one extension for managing tabs
 first_seen: '2026-09-12T06:01:31Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

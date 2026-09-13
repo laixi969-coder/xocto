@@ -331,3 +331,54 @@
     a self-contained HTML page with the playable clip and keyframes, turning ''find and prove which second
     the answer is at'' from manual hunting into a deliverable artifact; analysts who must supply an evidence
     chain for long-video conclusions would choose it for verification work.'
+- id: req-full-deepseek-v4-flash-vision-video-rag-2026-09-13
+  project_slug: deepseek-v4-flash-vision-video-rag
+  level: full
+  reviewed_at: '2026-09-13T00:23:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长视频问答与定位需求：用户要拿到带时间戳的答案和可核对片段，痛点是人工拖动进度条逐段翻找、结论无法追溯。公开材料已给出输入（视频）、动作（抽帧建索引、粗筛、精排、深读）与交付（时间戳、片段、关键帧、HTML
+      预览），属工作流结构推理；谁付钱未在公开材料确认。
+    evidence_ids:
+    - ev-db1434b3c70f5abc
+    - ev-1997a186d4a3ce70
+    - ev-e7c979af11ac5a11
+  - gate: consensus
+    status: insufficient
+    reason: 同一 skill 的公开仓库收藏从 62 增至 64，说明有开发者关注；但未见用户评价、复刻使用记录或持续采用证据，无法证明它已进入目标用户的工作流。
+    evidence_ids:
+    - ev-db1434b3c70f5abc
+    - ev-e7c979af11ac5a11
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是模式缺口，不是需求不存在。
+    evidence_ids:
+    - ev-db1434b3c70f5abc
+  - gate: truth
+    status: insufficient
+    reason: 交付依赖 DeepSeek 视觉模型与抽帧索引，公开材料未给出准确率、长视频耗时、失败案例或人工复核边界，承诺能否确定性交付尚缺可复现证据。
+    evidence_ids:
+    - ev-1997a186d4a3ce70
+  next_validation: 追踪该 skill 在 skillhub.cn 的官方说明页与关联仓库的 issue/discussion，确认是否有用户公开报告长视频问答的准确率、耗时与失败场景。
+  market: ''
+  job: 视频内容分析师或需要复核长视频的人，在拿到一段几十分钟的访谈、课程或带货视频后，要回答“某句话/某个画面出现在第几分几秒”，并切出可播放片段与关键帧供他人核对。
+  job_en: A video content analyst, or anyone who must audit a long video, takes a tens-of-minutes interview,
+    course, or e-commerce video and must answer 'at which minute and second does this statement or shot
+    appear', then cut a playable clip and keyframes for others to verify.
+  pain: 公开材料显示旧做法是逐帧或拖动进度条人工翻找，答案无法定位到时间点、也无法把片段交给别人核对；不解决的后果是复核成本高、结论不可追溯。
+  pain_en: Public materials indicate the old way is manual scrubbing or frame-by-frame searching, where
+    answers cannot be pinned to a timestamp and clips cannot be handed to others for verification; the
+    consequence is high review cost and untraceable conclusions.
+  current_alternative: 当前替代是人工拖动进度条逐段观看、截图，或把整段视频丢给通用多模态模型得到一段没有时间戳、无法回看的文字回答。
+  current_alternative_en: The current alternative is manually scrubbing the timeline and taking screenshots,
+    or feeding the whole video to a general multimodal model and getting text with no timestamp and nothing
+    to replay.
+  usage_reason: 推断：相较人工翻找，它先按时间轴抽帧建索引，再本地粗筛、视觉精排、深读回答，直接输出 [MM:SS] 时间戳、可播放片段、关键帧和自包含 HTML 预览页，省掉“找到答案后再手动定位并截图”这一步，因此需要把视频结论交给他人核对的分析者会在长视频复核场景选择它。
+  usage_reason_en: 'Inference: versus manual searching, it first builds a timeline frame index, then does
+    local coarse filtering, visual re-ranking, and deep reading, directly emitting [MM:SS] timestamps,
+    playable clips, keyframes, and a self-contained HTML preview page, removing the step of manually locating
+    and screenshotting after finding an answer; analysts who must hand video conclusions to others for
+    verification would therefore choose it for long-video review.'

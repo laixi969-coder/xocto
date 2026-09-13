@@ -1,0 +1,90 @@
+- id: req-initial-exclusive-due-diligence-ai-startup-xapien-raises-56m-2026-09-13
+  project_slug: exclusive-due-diligence-ai-startup-xapien-raises-56m
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决尽调中公开信息检索与背景报告撰写这一具体任务，痛点是人工逐条检索耗时且遗漏有合规风险；买方与付费方式未披露。
+    evidence_ids:
+    - ev-f57b527105df1640
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例、用户评价或行业采购信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-f57b527105df1640
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计费方式或付费客户，钱来自哪一方只能推断为 B 端合规与投资部门。
+    evidence_ids:
+    - ev-f57b527105df1640
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付确定性、人工复核边界与安全合规处理；公开材料未说明结果如何验证。
+    evidence_ids:
+    - ev-f57b527105df1640
+  next_validation: 收集 Xapien 官方定价页或客户案例页，确认其计费方式与已披露的付费客户。
+  market: ''
+  job: 合规或投资团队的分析师在评估交易对手、客户或投资标的时，需要把公开记录、新闻与制裁名单等分散材料整理成一份可核查的背景结论。
+  job_en: An analyst in a compliance or investment team assessing a counterparty, client or target must
+    turn scattered public records, news and sanctions lists into a verifiable background conclusion.
+  pain: 这类材料来源分散、人工逐条检索与摘录耗时，且遗漏会带来合规与交易风险；公开材料未给出具体耗时或错误率数据。
+  pain_en: Such material is scattered across sources, manual search and extraction is slow, and omissions
+    create compliance and deal risk; the public material gives no specific time or error-rate figures.
+  current_alternative: 分析师手工检索公开数据库与新闻、在表格或文档中摘录，再人工撰写背景报告；这是对旧做法的推断，公开材料未直接描述。
+  current_alternative_en: Analysts manually search public databases and news, extract into spreadsheets
+    or documents, then hand-write the background report; this is an inference about the prior practice,
+    not directly described in the public material.
+  usage_reason: 推断：相较人工逐条检索，它把公开信息检索与背景报告初稿合并为一次自动产出，减少的是资料搜集与初稿撰写这一步；因此当团队需要批量处理尽调对象时可能选择它。公开材料未提供客户反馈或留存证据。
+  usage_reason_en: 'Inference: versus manual item-by-item searching, it merges public-source retrieval
+    and a first-draft background report into one automated output, removing the collection and drafting
+    step; teams handling due-diligence targets at volume may therefore choose it. No customer feedback
+    or retention evidence is provided in the public material.'
+- id: req-full-exclusive-due-diligence-ai-startup-xapien-raises-56m-2026-09-13
+  project_slug: exclusive-due-diligence-ai-startup-xapien-raises-56m
+  level: full
+  reviewed_at: '2026-09-13T00:24:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决尽调中公开信息检索与背景报告撰写这一具体任务，痛点是来源分散、人工逐条检索耗时且遗漏带来合规与交易风险；买方与付费方式未披露。
+    evidence_ids:
+    - ev-f57b527105df1640
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例、用户评价或行业采购信号，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-f57b527105df1640
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计费方式或付费客户，钱来自哪一方只能推断为 B 端合规与投资部门，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f57b527105df1640
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付确定性、人工复核边界与制裁名单等敏感数据的处理方式，公开材料未说明结果如何验证。
+    evidence_ids:
+    - ev-f57b527105df1640
+  next_validation: 收集 Xapien 官网定价页或客户案例页，确认其计费方式与已披露的付费客户。
+  market: ''
+  job: 合规或投资团队的分析师在评估交易对手、客户或投资标的时，需要把公开记录、新闻与制裁名单等分散材料整理成一份可核查的背景结论。
+  job_en: An analyst in a compliance or investment team assessing a counterparty, client or target must
+    turn scattered public records, news and sanctions lists into a verifiable background conclusion.
+  pain: 公开材料只支持到“尽调需汇总分散公开信息”这一层：来源分散、人工逐条检索与摘录耗时，遗漏会带来合规与交易风险；具体耗时、错误率与人工复核负担无公开数据。
+  pain_en: 'The public material supports only that due diligence requires aggregating scattered public
+    information: sources are dispersed, manual item-by-item search and extraction is slow, and omissions
+    create compliance and deal risk; no public figures on time, error rate or manual review burden.'
+  current_alternative: 分析师手工检索公开数据库、新闻与制裁名单，在表格或文档中摘录，再人工撰写背景报告；这是对旧做法的结构推理，公开材料未直接描述该流程。
+  current_alternative_en: Analysts manually search public databases, news and sanctions lists, extract
+    into spreadsheets or documents, then hand-write the background report; this is structural inference
+    about the prior practice, not directly described in the public material.
+  usage_reason: 推断：相较人工逐条检索与手写初稿，它把公开信息检索与背景报告生成合并为一次自动产出，减少的是资料搜集与初稿撰写这一步；因此需要批量处理尽调对象的合规或投资团队会在这种情况下选择它。公开材料未提供客户反馈或留存证据。
+  usage_reason_en: 'Inference: versus manual item-by-item searching and hand-drafting, it merges public-source
+    retrieval and background-report generation into one automated output, removing the collection and
+    first-draft step; compliance or investment teams handling due-diligence targets at volume would therefore
+    choose it in that situation. No customer feedback or retention evidence is provided in the public
+    material.'

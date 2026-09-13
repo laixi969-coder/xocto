@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAJBVV95cUxQRDZWbHV6a0Fh
 summary: 中国军方敏感信息疑外泄 美AI巨头揭内情 DW.com
 first_seen: '2026-09-12T14:05:51Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

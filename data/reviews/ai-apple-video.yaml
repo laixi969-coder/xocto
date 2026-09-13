@@ -195,3 +195,50 @@
     style into a reusable pipeline so users only supply product assets to get a finished clip, removing
     scripting and style-design steps; e-commerce sellers needing fast premium ad creative would choose
     it for that reason.'
+- id: req-full-ai-apple-video-2026-09-13
+  project_slug: ai-apple-video
+  level: full
+  reviewed_at: '2026-09-13T00:23:02Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决普通产品缺少高端风格宣传视频的需求：外包拍摄剪辑成本高、周期长，旧做法是外包团队或通用剪辑软件套模板；该技能把风格化生成封装为一次动作，交付约 30 秒成片，属工作流结构推理。
+    evidence_ids:
+    - ev-53578d556a37aeec
+    - ev-4ccb4e17648fbd1c
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 47 持续增至 108，说明开发者社区持续关注并试用该技能；但缺少 issue、讨论或客户案例，无法确认已进入长期工作流。
+    evidence_ids:
+    - ev-53578d556a37aeec
+    - ev-fd58168abbdb0e8c
+  - gate: model
+    status: insufficient
+    reason: 该技能为开源仓库，公开材料未见定价、付费主体或商业授权路径；谁付钱只能推断为使用 Seedance 能力的营销方或电商卖家，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4ccb4e17648fbd1c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成视频的稳定性、版权与素材授权边界，也未提供可复现的成片样例，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-cee4048772bb7c65
+  next_validation: 追踪 ai-apple-video 仓库的 README、issue 与 release，确认是否有可复现的成片样例、素材授权说明及使用条款。
+  market: ''
+  job: 营销人员或电商卖家在需要为普通产品做宣传素材时，把产品图片或素材输入该技能，生成约 30 秒苹果发布会风格的高端产品视频，用于社交媒体或广告投放。
+  job_en: A marketer or e-commerce seller needing promo assets for an ordinary product feeds product images
+    or footage into the skill to generate a roughly 30-second Apple-keynote-style premium product video
+    for social or ad placement.
+  pain: 公开材料显示该技能面向产品营销与视频编辑场景，但未记录用户抱怨或旧流程代价；从任务结构看，外包或自拍高端风格视频成本高、周期长，这是工作流推理而非用户口述。
+  pain_en: Public materials show the skill targets product marketing and video editing, but record no
+    user complaints or old-workflow cost; structurally, outsourcing or self-shooting premium-style video
+    is costly and slow, which is workflow inference, not user testimony.
+  current_alternative: 公开材料未直接说明替代对象；按任务结构推断，旧做法是外包视频团队、使用通用剪辑软件或套用模板，属于推理。
+  current_alternative_en: Public materials do not state the substitute directly; by task structure the
+    old approach is outsourcing a video team, using general editing software, or applying templates, which
+    is inference.
+  usage_reason: 相较外包或手工剪辑，它把风格化脚本、镜头与节奏封装成一次生成动作，减少分镜与调色环节；仓库收藏从 47 增至 108 显示开发者持续关注，但留存与付费未核验（推断）。
+  usage_reason_en: Versus outsourcing or manual editing, it packages stylized scripting, shots, and pacing
+    into one generation step, cutting storyboard and color-grading work; stars rising from 47 to 108 show
+    sustained developer attention, though retention and payment are unverified (inference).

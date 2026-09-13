@@ -74,3 +74,50 @@
   usage_reason: 用户要完成的任务是：量化交易员、链上分析师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Quantitative Trader, On-chain Analyst Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-ai-robinhood-chain-2026-09-13
+  project_slug: ai-robinhood-chain
+  level: full
+  reviewed_at: '2026-09-13T00:23:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是在 Robinhood Chain L2 上把链上情报转成交易动作的任务，但公开材料只有功能罗列，没有用户痛点、不采用代价或旧流程证据；对多数交易者而言自建脚本或现成机器人已可替代，属于看着挺好但没有也行的拼装式工具，价值关不成立。
+    evidence_ids:
+    - ev-674a6e6e1518aa43
+    - ev-a914ff8236a4a5f5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 README 部署文档，确认是否有真实用户描述替代了何种旧流程、在何种场景下持续使用，以及是否出现付费或托管部署记录。
+  market: ''
+  job: '加密交易者与开发者在监控和操作 Robinhood Chain L2（EVM #4663）链上资产时，通过 Discord 命令中心、终端 TUI、REST API 或 Telegram
+    接收链上情报并触发交易执行，要完成的是把情报判断转成可核对的链上买卖动作。'
+  job_en: 'Crypto traders and developers monitoring and operating on-chain assets on Robinhood Chain L2
+    (EVM #4663) receive on-chain intelligence and trigger trade execution via a Discord command center,
+    terminal TUI, REST API, or Telegram, turning intelligence judgments into verifiable on-chain buy/sell
+    actions.'
+  pain: 公开材料只给出多智能体情报与交易执行的功能描述，没有用户反馈、issue 或案例说明当前监控与下单流程具体卡在哪一步、出错或延迟的代价有多大；痛点强度无法从公开事实确认。
+  pain_en: Public materials only describe multi-agent intelligence and trade execution features; no user
+    feedback, issues, or cases show which step of the current monitoring and order-placement workflow
+    breaks down or how costly errors and delays are, so pain intensity cannot be confirmed from public
+    facts.
+  current_alternative: 公开材料未说明用户现在用什么替代：是自建脚本加交易所 API、现成交易机器人，还是人工盯盘手动下单，均无证据。
+  current_alternative_en: 'Public materials do not state what users use today: self-built scripts with
+    exchange APIs, existing trading bots, or manual chart-watching and order entry are all unevidenced.'
+  usage_reason: 推断：相较自建脚本或人工盯盘，它把情报分析与下单动作收进同一个 Discord/Telegram/终端入口，可能减少在多个工具间切换的步骤；但没有任何用户反馈或案例证明这一因果，且
+    Robinhood Chain L2 生态本身尚新，用户为何在此时选择它无法从公开事实确认。
+  usage_reason_en: 'Inference: versus self-built scripts or manual chart-watching, it consolidates intelligence
+    analysis and order placement into one Discord/Telegram/terminal entry point, potentially cutting tool-switching
+    steps; however, no user feedback or case supports this causal link, and with the Robinhood Chain L2
+    ecosystem still new, why users would choose it now cannot be confirmed from public facts.'

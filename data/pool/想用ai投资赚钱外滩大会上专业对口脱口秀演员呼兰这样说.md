@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oVHdJcFNKYVRI
 summary: 想用AI投资赚钱？外滩大会上，“专业对口”脱口秀演员呼兰这样说 上观新闻
 first_seen: '2026-09-12T03:56:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

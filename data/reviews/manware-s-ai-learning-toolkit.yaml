@@ -189,3 +189,52 @@
     the agent to teaching-style output, removing the step where users repeatedly ask ''why is it written
     this way'' and binding the explanation to the current snippet; developers learning a new stack or
     reviewing code who want understanding rather than a pasted answer would pick it in that situation.'
+- id: req-full-manware-s-ai-learning-toolkit-2026-09-13
+  project_slug: manware-s-ai-learning-toolkit
+  level: full
+  reviewed_at: '2026-09-13T00:24:41Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是“用 AI 学代码却只拿到答案、学不到原理”的需求，痛点在自学与代码审查场景中刚性：不解决则同类问题反复卡壳。公开说明已能还原输入（代码或问题）—动作（代理转为教学者生成解释）—交付（教学反馈）的闭环，属工作流结构推理；谁付钱尚未公开。
+    evidence_ids:
+    - ev-33e9a468ba66c4e2
+    - ev-5e510b9891f62638
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 156 增至 388，说明英文开发者社区持续关注并把它加入学习工具清单；但收藏属关注度证据，不能证明已长期嵌入工作流，也未见用户评价或案例说明实际使用频率。
+    evidence_ids:
+    - ev-33e9a468ba66c4e2
+    - ev-7da675eff7a59244
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或 to B/to C 路径，开源仓库本身不构成收入证据；这是判断而非已验证事实，商业证据缺口不反推需求不存在。
+    evidence_ids:
+    - ev-5b8b324ae7e0b688
+  - gate: truth
+    status: insufficient
+    reason: 尚无部署文档、issue 或可复现实测说明教学反馈的稳定性与人工边界，承诺能否确定性交付未核验；但教学型代理贴近“理解代码”这一第一性目标，未见明显安全越界。
+    evidence_ids:
+    - ev-d4210b6b2248ae4d
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开部署方式、教学输出示例及用户实际使用反馈。
+  market: ''
+  job: 开发者在自学新语言、新框架或做代码审查时，把一段代码或一个报错丢给 AI 代理，希望拿到逐行解释、概念背景与改进建议，从而真正理解代码而不是直接抄走生成结果。
+  job_en: Developers learning a new language/framework or reviewing code hand a snippet or error to an
+    AI agent and want line-by-line explanation, conceptual background and improvement suggestions, so
+    they understand the code instead of copying generated output.
+  pain: 通用编码代理默认直接产出可粘贴的代码，学习者拿到答案却学不到原理，遇到同类问题仍不会写；想弄懂一段陌生代码只能自己查文档、翻博客或反复追问，理解成本高且容易半途放弃。
+  pain_en: General coding agents default to producing paste-ready code, so learners get an answer without
+    the reasoning and still cannot solve similar problems; understanding unfamiliar code means digging
+    through docs, blogs or repeated follow-up prompts, which is costly and easy to abandon.
+  current_alternative: 直接使用 ChatGPT/Copilot 等通用编码助手要代码，或自己查官方文档、Stack Overflow、教程视频；这些替代要么给答案不给解释，要么需要用户自己组织学习路径。
+  current_alternative_en: Using general coding assistants like ChatGPT/Copilot to get code, or self-serving
+    official docs, Stack Overflow and tutorial videos; these either give answers without explanation or
+    require the user to structure their own learning path.
+  usage_reason: 推断：相较通用助手直接输出代码，该工具把代理行为约束为教学者，对同一段输入产出解释与教学反馈，用户因此省去“先拿代码再自己反推原理”或反复追问的步骤；正在学习新代码库或做代码审查、且以理解而非交付为目标的开发者会选它。
+  usage_reason_en: 'Inference: versus general assistants that emit code, this toolkit constrains the agent
+    to act as a teacher, producing explanation and teaching feedback for the same input, removing the
+    step of reverse-engineering the reasoning from generated code or repeatedly re-prompting; developers
+    learning a new codebase or reviewing code with understanding rather than delivery as the goal would
+    choose it.'

@@ -252,3 +252,40 @@
   usage_reason_en: The 221 stars and 21 forks cited in the initial review are attention evidence, and
     this candidate carries no evidence items, so they cannot explain why learners choose it or whether
     they keep using it.
+- id: req-full-ai-agent-book-2026-09-13
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-09-13T00:23:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把 AI Agent 设计与落地写成开源教材并配实验，但公开材料只有仓库描述与收藏数，没有学习者痛点、旧学习路径或不学后果的记录。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ai-agent-book 仓库的 issue 与 discussion，确认学习者实际卡点、实验可复现性及是否被持续引用。
+  market: ''
+  job: 开发者或技术学习者在准备构建 AI Agent 时，阅读开源教材并跟着做实验，以掌握设计原理与工程落地方法。
+  job_en: A developer or technical learner preparing to build an AI agent reads an open textbook and follows
+    its experiments to grasp design principles and engineering practice.
+  pain: 公开材料只有仓库描述与收藏数，没有学习者抱怨、卡点或旧学习路径代价的记录，痛点强度无法确认。
+  pain_en: Public materials contain only the repository description and star counts, with no record of
+    learner complaints, blockers, or the cost of the old learning path, so pain intensity cannot be confirmed.
+  current_alternative: 公开材料未说明用户此前通过哪些教程、文档或课程学习同一内容，也未说明替代关系。
+  current_alternative_en: Public materials do not show which tutorials, docs, or courses users previously
+    used for the same content, nor the substitution relationship.
+  usage_reason: 收藏与复刻只说明开发者注意到它，不能解释为何选择它而非其他教材；缺少 issue、讨论或学习反馈（推断）。
+  usage_reason_en: Stars and forks show developer attention only, not why it is chosen over other textbooks;
+    issues, discussions, or learner feedback are absent (inference).

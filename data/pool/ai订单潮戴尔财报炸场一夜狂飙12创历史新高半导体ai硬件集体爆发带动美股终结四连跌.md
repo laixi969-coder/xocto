@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcnpIUF9RSmsw
 summary: AI“订单潮”！戴尔财报炸场，一夜狂飙12%创历史新高，半导体、AI硬件集体爆发，带动美股终结四连跌 金融界
 first_seen: '2026-09-12T00:29:39Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

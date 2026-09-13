@@ -128,3 +128,46 @@
     drafts to human writing standards, reducing the step of polishing each sentence and adjusting tone;
     students and content creators who care about naturalness and readability before submitting or publishing
     would tend to choose it.'
+- id: req-full-not-ai-2026-09-13
+  project_slug: not-ai
+  level: full
+  reviewed_at: '2026-09-13T00:25:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把 AI 草稿改写成人类写作标准文本的需求，但公开材料只有一句产品自述，没有用户抱怨、被检测后的后果或返工代价；用户已可直接让通用大模型改写，不用它损失有限，属看着挺好但没有也行。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+    - ev-369d7a2d7bb02be8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有用户报告具体使用场景、被检测后的后果或复购/持续使用记录。
+  market: ''
+  job: 学生或内容创作者在提交课程作业、发布 LinkedIn/X 帖子、邮件或 公开代码仓库 README 前，把 AI 生成的草稿交给它，改写成读起来像人写的、可直接提交或发布的成稿。
+  job_en: Students and content creators hand an AI-generated draft to the tool before submitting coursework
+    or publishing LinkedIn/X posts, emails, or public code repository READMEs, and get back prose that
+    reads as human-written and is ready to submit or publish.
+  pain: 公开材料只说明它按人类写作标准改写文本，未给出任何用户抱怨、被判定为 AI 生成后的后果或返工成本；痛点强度只能从“绕过 AI 检测”这一卖点推断，缺少用户侧证据。
+  pain_en: Public materials only state that it rewrites text to human writing standards; there is no user
+    complaint, consequence of being flagged as AI-generated, or rework cost. Pain intensity can only be
+    inferred from the 'bypassing AI detectors' pitch, with no user-side evidence.
+  current_alternative: 用户当前可直接让 ChatGPT/Claude 按“更像人写”重写，或自己手动润色；公开材料未说明它相较这些做法替代了哪一步。
+  current_alternative_en: Users can already ask ChatGPT/Claude to rewrite in a more human style, or polish
+    the draft by hand; public materials do not show which step this replaces.
+  usage_reason: 推断：它把“改写为人类写作标准”做成一步动作，省去用户自己写提示词或逐句润色的负担，因此被 AI 检测或 AI 味困扰的学生与内容创作者可能尝试它；但公开材料没有用户反馈或案例支持这一动机，也未证明用户会持续留在工作流里。
+  usage_reason_en: 'Inference: it turns ''rewrite to human writing standards'' into a single action, sparing
+    users from crafting prompts or polishing sentence by sentence, so students and creators worried about
+    AI detection or an AI-sounding voice may try it; however, no user feedback or case supports this motive,
+    and continued retention is unproven.'

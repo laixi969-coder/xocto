@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNNjlEdlpiSjl0
 summary: A Running Timeline of Legal Tech Funding and M&A The Fashion Law
 first_seen: '2026-09-10T07:00:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

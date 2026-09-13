@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQd1BZY2dLeVZy
 summary: Platform Transforms OT Data Into Resiliency Insights Manufacturing Business Technology
 first_seen: '2026-09-10T16:10:36Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

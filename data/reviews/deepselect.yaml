@@ -124,3 +124,57 @@
     and reducing intermediate memory and launch overhead for sparse attention; engineering teams training
     or serving DeepSeek-family sparse-attention models would pick it when long-context performance is
     constrained.'
+- id: req-full-deepselect-2026-09-13
+  project_slug: deepselect
+  level: full
+  reviewed_at: '2026-09-13T00:24:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是稀疏注意力与采样中 top-k 选择缺少专用内核的问题，痛点在于通用算子带来的额外开销；仓库定位与收藏数可证任务存在，但痛点强度与不采用代价属工作流结构推理，尚无量化对比。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-8be8c3374443b3ab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 235 升至 317，说明开发者社区持续关注该内核项目，但收藏与关注只属规模信号，公开材料没有 issue、discussion 或用户反馈证明它已被纳入实际训练或推理工作流。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-6fb9b7965dea43c8
+    - ev-8be8c3374443b3ab
+  - gate: model
+    status: insufficient
+    reason: 这是 DeepSeek 官方开源仓库，公开材料未给出定价、付费主体或商业路径；判断上其价值更可能通过模型生态与云服务间接变现，但这是推断而非已验证事实。
+    evidence_ids:
+    - ev-2f88068306de0570
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有仓库标题与收藏数，缺少部署文档、基准测试与可复现结果，无法确认内核在真实 DSA 训练或推理中能否稳定交付，以及人工与安全边界。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-8be8c3374443b3ab
+  next_validation: 追踪该仓库的 README、benchmark 与 issue/discussion，确认 TopK 内核的实测延迟对比、支持的硬件与是否被下游训练或推理流程实际引用。
+  market: ''
+  job: 训练或推理 DeepSeek Sparse Attention（DSA）模型的工程师，在实现稀疏注意力与采样环节时，需要可用的 TopK 选择内核，把稀疏注意力的 top-k 筛选和采样步骤落到可运行的
+    GPU 内核上，以完成模型前向与生成流程。
+  job_en: Engineers training or serving DeepSeek Sparse Attention (DSA) models need usable TopK selection
+    kernels so that the sparse-attention top-k filtering and sampling steps run as executable GPU kernels
+    within the forward and generation pipeline.
+  pain: 稀疏注意力与采样中的 top-k 选择若没有专用内核，只能退回通用排序或稠密计算，带来额外显存占用与延迟；公开材料只给出内核定位与仓库收藏数，未提供延迟、吞吐或替代实现的量化对比，痛点强度属结构推理。
+  pain_en: Without dedicated kernels, top-k selection in sparse attention and sampling falls back to generic
+    sorting or dense computation, adding memory traffic and latency; public materials give only the kernel
+    positioning and star counts, with no latency, throughput, or baseline comparison, so pain intensity
+    is a structural inference.
+  current_alternative: 当前替代方式是使用通用 PyTorch 算子、通用 top-k/排序实现，或自行编写 CUDA/Triton 内核来拼出稀疏注意力与采样流程。
+  current_alternative_en: The current alternative is using generic PyTorch operators, general top-k/sort
+    implementations, or hand-written CUDA/Triton kernels to assemble the sparse-attention and sampling
+    pipeline.
+  usage_reason: 推断：相较自行拼装通用算子或手写内核，该仓库直接提供面向 DSA 与采样器的 TopK 内核，使用者可省去从零实现并调优 top-k 选择这一步，因此正在复现或部署 DeepSeek
+    稀疏注意力模型的开发者会在该环节选用它；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with assembling generic operators or writing kernels by hand,
+    this repository directly provides TopK kernels for DSA and samplers, removing the step of implementing
+    and tuning top-k selection from scratch, so developers reproducing or deploying DeepSeek sparse-attention
+    models would pick it at that step; public materials contain no user feedback or case confirming this
+    motive.'

@@ -130,3 +130,58 @@
     comment replies, a weekly plan and an AI-fingerprint score into one skill set, so the user gets a
     score at draft stage and skips moving between tools and line-by-line post-editing; that is why individuals
     or agencies running LinkedIn continuously would pick it for batch drafting.'
+- id: req-full-linkedin-agent-skill-2026-09-13
+  project_slug: linkedin-agent-skill
+  level: full
+  reviewed_at: '2026-09-13T00:24:43Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LinkedIn 内容运营持续产出帖子、评论与回复并避免文字像 AI 生成的需求；21 条钩子公式、去 AI 痕迹打分与每周计划还原了输入—动作—交付闭环，痛点与旧替代可辨，属工作流结构推理。
+    evidence_ids:
+    - ev-9ac628d3b5f21050
+    - ev-717e93a99cee1914
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 95 增至 112 再到 159，说明英文开发者社区持续关注并把它加入工作流；但这是关注度证据，尚不能证明长期留存或付费。
+    evidence_ids:
+    - ev-9ac628d3b5f21050
+    - ev-5a30f044a25566eb
+    - ev-21000096b314b41b
+    - ev-717e93a99cee1914
+  - gate: model
+    status: insufficient
+    reason: 技能标注为免费，未披露定价、买方或收费路径；谁付钱、按什么单位收费均无公开材料，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9ac628d3b5f21050
+  - gate: truth
+    status: insufficient
+    reason: 交付物为草稿与评分，最终发布由用户确认，人工边界清晰；但缺少可复现的实测或用户反馈证明生成质量与去 AI 痕迹效果稳定。
+    evidence_ids:
+    - ev-717e93a99cee1914
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际部署场景、替代了哪种旧流程以及生成质量反馈。
+  market: ''
+  job: 做个人品牌或代运营 LinkedIn 账号的人在写帖、回评和排周计划时打开这组技能，把账号定位和素材交给它，AI 按钩子模板生成帖子、评论与回复，并对草稿做去 AI 痕迹打分，用户拿到可发布的草稿和评分后自行确认发布。
+  job_en: A person building a personal brand or running a LinkedIn account for clients opens these skills
+    when writing posts, replying to comments and planning the week, feeds in account positioning and raw
+    material, and gets back hook-formula-based posts, comments and replies plus a humanizer score on the
+    draft, then confirms and publishes themselves.
+  pain: LinkedIn 内容运营需要持续产出帖子、评论和回复，还要让文字不像 AI 生成；公开材料未直接记录用户抱怨，但从 21 条钩子公式、去 AI 痕迹打分和每周计划这些具体动作看，痛点是持续产出与“AI
+    味”被识别的双重负担（工作流结构推理）。
+  pain_en: LinkedIn content operations require continuous posts, comments and replies while keeping the
+    text from reading as AI-generated; public material does not directly record user complaints, but the
+    concrete actions of 21 hook formulas, a humanizer score and a weekly plan point to the dual burden
+    of constant output and being flagged as AI-written (workflow structural inference).
+  current_alternative: 旧做法是运营者自己逐条构思钩子、手写帖子与评论，或直接用通用 AI 生成后手动改写去 AI 味，再自行排周计划。
+  current_alternative_en: The old approach is for the operator to hand-craft hooks, posts and comments
+    one by one, or generate with generic AI and manually rewrite to remove the AI fingerprint, then plan
+    the week themselves.
+  usage_reason: 相较手写或通用 AI 生成后手动改写，它把钩子模板、评论回复生成、去 AI 痕迹打分和每周计划打包成可直接调用的技能，减少了逐条构思钩子和事后手动去 AI 味这两步负担，因此做个人品牌或代运营
+    LinkedIn 账号、需要高频产出且在意文字不像 AI 的用户会在写帖和回评时选择它（推断）。
+  usage_reason_en: Compared with hand-writing or generating with generic AI and manually rewriting, it
+    packages hook formulas, comment/reply generation, a humanizer score and a weekly plan into directly
+    callable skills, removing the steps of devising hooks one by one and manually de-AI-ing drafts afterward,
+    so users building a personal brand or running LinkedIn accounts who post frequently and care about
+    not reading as AI-written would choose it when writing posts and replying (inference).

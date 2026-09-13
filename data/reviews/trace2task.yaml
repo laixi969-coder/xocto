@@ -125,3 +125,55 @@
     into a resettable task, removing the step of building environment snapshots and pass/fail logic yourself,
     so evaluation engineers doing agent regression work without reproducible benchmarks would try it;
     stars rising from 42 to 54 reflects attention, not sustained use.'
+- id: req-full-trace2task-2026-09-13
+  project_slug: trace2task
+  level: full
+  reviewed_at: '2026-09-13T00:26:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体评测中“一次跑通难以复现”的需求：轨迹、环境状态与成功判据散落，人工重搭成本高，不解决则回归验证只能靠零散脚本。公开仓库说明已给出输入（成功工作流记录）与交付（可重置、可验证基准），据此可作工作流结构推理判定需求成立；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-b6492af9cdb287b6
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 42 增至 58，说明开发者社区已注意到该项目，但收藏与关注只属规模信号，不能证明评测工程师已把它持续留在回归流程中；缺少 issue、discussion 或客户案例说明实际使用场景与重复使用。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-83d0b42e96c6fd1a
+    - ev-b6492af9cdb287b6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断收入来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，开源仓库本身不构成付费证据，也不因此否定需求存在。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺“可重置、可验证”，但公开材料未说明支持哪些记录格式、如何判定通过、重置是否覆盖环境与外部依赖，以及人工与安全边界；交付能否确定性发生尚缺可复现证据。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-b6492af9cdb287b6
+  next_validation: 追踪 trace2task 仓库的 README、issue 与 discussion，确认其支持哪些 trace 格式、如何判定任务通过，以及是否有公开的部署或使用案例。
+  market: ''
+  job: AI 应用评测工程师在智能体一次跑通某条真实工作流后，把该次执行记录（trace）交给 trace2task，将其转成可重置、可重复执行的评测任务，以便在干净环境里重跑同一流程并核对结果。
+  job_en: An AI application evaluation engineer, after an agent successfully completes a real workflow
+    once, hands that execution trace to trace2task, which converts it into a resettable, repeatable evaluation
+    task so the same flow can be re-run in a clean environment and its result checked.
+  pain: 智能体评测的痛点在于：一次跑通的过程难以复现，环境状态、中间步骤和成功判据散落在日志里，人工重搭环境成本高，导致回归验证只能靠零散脚本或人工复跑，改动后无法稳定判断是否退化。
+  pain_en: 'The pain in agent evaluation is that a one-off successful run is hard to reproduce: environment
+    state, intermediate steps and success criteria are scattered across logs, rebuilding the environment
+    by hand is costly, so regression checks fall back on ad-hoc scripts or manual re-runs and cannot reliably
+    detect degradation after a change.'
+  current_alternative: 当前替代方式多为人工整理日志、手写评测脚本、维护固定测试集，或直接在原环境里重跑；这些做法难以重置状态，也难以把一次真实成功轨迹固化为可重复任务。
+  current_alternative_en: The current alternative is mostly manually curating logs, hand-writing eval
+    scripts, maintaining fixed test sets, or re-running in the original environment; these rarely reset
+    state and rarely turn one real successful trajectory into a repeatable task.
+  usage_reason: 推断：相较手写脚本或原环境重跑，trace2task 把已跑通的轨迹直接转成可重置任务，省去从日志反推步骤与重建环境这一步，使评测工程师在需要回归验证某条真实流程时，能直接重跑并核对结果，因此会在做智能体回归评测时选择它。
+  usage_reason_en: 'Inference: compared with hand-written scripts or re-running in the original environment,
+    trace2task converts an already-successful trajectory directly into a resettable task, removing the
+    step of reverse-engineering steps from logs and rebuilding the environment, so an evaluation engineer
+    doing regression checks on a real flow can re-run and verify results directly and would choose it
+    for that job.'

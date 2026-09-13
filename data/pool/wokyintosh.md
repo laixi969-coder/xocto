@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/wokyintosh
 summary: Turn a spare Mac display into a retro system dashboard!
 first_seen: '2026-09-09T11:44:38Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

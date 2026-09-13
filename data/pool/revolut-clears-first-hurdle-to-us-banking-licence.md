@@ -22,7 +22,7 @@ canonical_url: https://sifted.eu/articles/revolut-us-banking-licence-2
 summary: 'AI Shopping Revolution: How Machines Could Change Indian Retail Daily Pioneer'
 first_seen: '2026-09-03T17:46:52Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE82c2s5TmRpWF9E
 summary: WAIC 2026展示赌赌博真人娱乐全系本地AI产品 推动AI for everyone 体坛加
 first_seen: '2026-09-11T16:09:59Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

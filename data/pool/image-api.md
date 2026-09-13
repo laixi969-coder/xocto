@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/milkydevs/Image-api
 summary: Image Generations combine
 first_seen: '2026-09-12T14:05:12Z'
 last_seen: '2026-09-13T00:01:13Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -1,0 +1,94 @@
+- id: req-initial-speechtext-2026-09-13
+  project_slug: speechtext
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决诉讼与尽调材料整理中逐页连续编号的需求，手工编号慢且易断号、云端上传又违反保密要求，痛点具体且反复出现。
+    evidence_ids:
+    - ev-42eaa895967ca77c
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条发布信息，没有律师或法务的使用反馈与案例，无法判断他们是否已把它放进日常流程。
+    evidence_ids:
+    - ev-42eaa895967ca77c
+  - gate: model
+    status: insufficient
+    reason: 工具免费，未披露付费路径与买方，律所按案件采购或按份收费都只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-42eaa895967ca77c
+  - gate: truth
+    status: insufficient
+    reason: “本地处理、不上传”是产品自述，缺少可复现的实测或第三方核验，编号规则覆盖范围也未说明。
+    evidence_ids:
+    - ev-42eaa895967ca77c
+  next_validation: 收集该工具的官方说明或文档，核验本地处理声明、支持的 Bates 编号规则范围，以及是否公布付费版本。
+  market: ''
+  job: 律师或法务在准备诉讼或尽调材料时，需要把成批 PDF 证据按 Bates 规则逐页连续编号，形成可提交的编号版文件。
+  job_en: When preparing litigation or due diligence materials, a lawyer or legal ops staffer needs to
+    stamp batches of PDF evidence with sequential Bates numbers page by page, producing a submittable
+    numbered file.
+  pain: 手工逐页编号或依赖桌面软件既慢又容易断号，而把敏感案卷上传到云端工具又触碰保密要求，这是法律材料整理中反复出现的负担。
+  pain_en: Numbering page by page by hand or with desktop software is slow and prone to broken sequences,
+    while uploading sensitive case files to a cloud tool conflicts with confidentiality requirements,
+    a recurring burden in legal document preparation.
+  current_alternative: 旧做法是 Adobe Acrobat 等桌面软件批量编号，或由助理手工加页码再核对；部分团队用云端 PDF 工具但需承担上传风险。
+  current_alternative_en: The old practice is batch numbering in desktop software such as Adobe Acrobat,
+    or an assistant adding page numbers by hand and checking them; some teams use cloud PDF tools but
+    accept the upload risk.
+  usage_reason: 相较桌面软件需要安装配置、云端工具需要上传，它在浏览器里直接完成编号并声明文件留在本地，省去安装与上传审批这两步，因此对案卷不能外传的律所和法务更有吸引力；这是基于产品声明的推断。
+  usage_reason_en: Compared with desktop software that needs installing and configuring, or cloud tools
+    that require uploading, it numbers files directly in the browser and states files stay local, removing
+    the install step and the upload-approval step, which appeals to firms and legal teams whose case files
+    cannot leave the office; this is an inference from the product's claims.
+- id: req-full-speechtext-2026-09-13
+  project_slug: speechtext
+  level: full
+  reviewed_at: '2026-09-13T00:26:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决诉讼与尽调材料逐页连续 Bates 编号的需求，手工编号慢且易断号、云端上传又触碰保密要求，痛点具体且随案件反复出现；交付物是编号版 PDF，边界可确定。谁付钱未披露，留待模式关判断。
+    evidence_ids:
+    - ev-42eaa895967ca77c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一条产品页自述，没有律师或法务的使用反馈、客户案例或工作流采用记录，无法判断它是否已被放进日常案卷整理流程；关注度类信息也不能替代采用证据。
+    evidence_ids:
+    - ev-42eaa895967ca77c
+  - gate: model
+    status: insufficient
+    reason: 工具标注免费，未披露定价页、付费版本或买方，律所按案件采购、按份收费或纯免费引流都只是判断而非已验证事实；中文生态检索也未发现对应供给与采购记录。
+    evidence_ids:
+    - ev-42eaa895967ca77c
+    - ev-b2fcefa2df037949
+  - gate: truth
+    status: insufficient
+    reason: “本地处理、不上传”是产品自述，缺少可复现实测或第三方核验，支持的 Bates 编号规则范围、批量上限与人工复核环节均未说明，承诺能否确定性交付仍待公开材料补足。
+    evidence_ids:
+    - ev-42eaa895967ca77c
+  next_validation: 追踪该工具官网的定价页与产品文档，核验是否公布付费版本、支持的 Bates 编号规则范围，以及本地处理声明的技术说明。
+  market: ''
+  job: 律师或法务在准备诉讼、尽调或证据开示材料时，把成批 PDF 案卷交给该工具，按 Bates 规则逐页打上连续编号，产出可直接提交或交换的编号版 PDF。
+  job_en: When preparing litigation, due diligence or discovery materials, a lawyer or legal ops staffer
+    feeds batches of PDF case files into the tool to stamp sequential Bates numbers page by page, producing
+    a numbered PDF ready for submission or exchange.
+  pain: 逐页连续编号手工做既慢又易断号、重号，事后核对成本高；而把敏感案卷上传到云端 PDF 工具又触碰律所的保密与数据外传要求，这是法律材料整理中反复出现的刚性负担。
+  pain_en: Stamping sequential numbers by hand is slow and prone to broken or duplicated sequences that
+    are costly to audit later, while uploading sensitive case files to cloud PDF tools conflicts with
+    law firm confidentiality and data-egress rules, a recurring hard burden in legal document preparation.
+  current_alternative: 旧做法是用 Adobe Acrobat 等桌面软件批量编号，或由助理手工加页码再逐页核对；部分团队改用云端 PDF 工具，但需承担案卷上传的合规风险。
+  current_alternative_en: The old practice is batch numbering in desktop software such as Adobe Acrobat,
+    or an assistant adding page numbers by hand and checking page by page; some teams switch to cloud
+    PDF tools but accept the compliance risk of uploading case files.
+  usage_reason: 相较桌面软件需安装配置、云端工具需上传审批，它在浏览器内直接完成编号并声明文件留在本地，省去安装环节与上传审批这两步负担，因此案卷不能外传的律所与法务会在批量编号场景下选择它；这是基于产品声明的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with desktop software that needs installing and configuring, or cloud tools
+    that require upload approval, it numbers files directly in the browser and states files stay local,
+    removing the install step and the upload-approval step, so firms and legal teams whose case files
+    cannot leave the office would pick it for batch numbering; this is an inference from the product's
+    claims, not yet backed by user feedback.

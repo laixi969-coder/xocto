@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBkaUlneURhbzlM
 summary: 戴尔股价单日暴涨两位数创新高 AI积压订单成投行看多理由 新浪财经
 first_seen: '2026-09-12T16:58:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

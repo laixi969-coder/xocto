@@ -1,0 +1,83 @@
+- id: req-initial-产品定义推动ai从通用智能向行业智能落地蚂蚁保升级三大ai服务-2-2026-09-13
+  project_slug: 产品定义推动ai从通用智能向行业智能落地蚂蚁保升级三大ai服务-2
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道未说明具体服务、输入材料与交付结果，无法确认它解决什么需求与痛点。
+    evidence_ids:
+    - ev-21cf04cb0456a517
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有升级表述，没有采用、客户或场景证据。
+    evidence_ids:
+    - ev-21cf04cb0456a517
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式。
+    evidence_ids:
+    - ev-21cf04cb0456a517
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-21cf04cb0456a517
+  next_validation: 蚂蚁保官方页面或官方公告中关于这三项AI服务的功能说明与定价信息。
+  market: ''
+  job: 保险代理人或核保人员在处理保单咨询、核保与理赔材料时，需要把用户提交的保单和理赔信息整理成可判断的处理结论。
+  job_en: Insurance agents or underwriters handling policy inquiries, underwriting and claim materials
+    need to turn submitted policy and claim information into a judgeable conclusion.
+  pain: 公开材料未说明具体痛点，只能推断保险环节存在材料整理与条款核对的人工负担。
+  pain_en: Public materials do not state the specific pain; it can only be inferred that insurance work
+    involves manual material sorting and clause checking.
+  current_alternative: 公开材料未说明现有替代方式，可能仍由人工逐份核对保单与理赔材料。
+  current_alternative_en: Public materials do not describe current alternatives; policy and claim materials
+    may still be checked manually one by one.
+  usage_reason: 报道只称升级三大AI服务，未说明相较人工核对减少了哪一步负担，因此无法判断用户为何选择它。
+  usage_reason_en: The report only says three AI services were upgraded and does not say which manual
+    step is reduced, so it is unclear why users would choose it.
+- id: req-full-产品定义推动ai从通用智能向行业智能落地蚂蚁保升级三大ai服务-2-2026-09-13
+  project_slug: 产品定义推动ai从通用智能向行业智能落地蚂蚁保升级三大ai服务-2
+  level: full
+  reviewed_at: '2026-09-13T00:26:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只说明蚂蚁保是保险代理平台，提供购买、保单管理、理赔报案一站式服务，未说明这三项AI服务具体解决什么需求与痛点，无法还原输入、动作与交付。
+    evidence_ids:
+    - ev-609f53e09c066f74
+    - ev-86365303954e01ae
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪蚂蚁保官网或蚂蚁集团官方公告中关于这三项AI服务的功能说明、部署文档与定价信息。
+  market: ''
+  job: 保险代理人或核保人员在处理用户提交的保单咨询、核保与理赔材料时，需要把保单条款与理赔信息整理成可判断的处理结论。
+  job_en: Insurance agents or underwriters handling user-submitted policy inquiries, underwriting and
+    claim materials need to turn policy clauses and claim information into a judgeable conclusion.
+  pain: 公开材料只说明蚂蚁保是保险代理平台，提供购买、保单管理、理赔报案一站式服务，并未说明这三项AI服务具体解决哪一步人工负担，痛点无法从公开事实确认。
+  pain_en: Public materials only describe Ant Insurance as an insurance agency platform offering purchase,
+    policy management and claim reporting; they do not state which manual burden the three AI services
+    address, so the pain cannot be confirmed from public facts.
+  current_alternative: 公开材料未描述现有替代方式，只能推断保单与理赔材料仍由人工逐份核对，或由用户自行在平台页面操作。
+  current_alternative_en: Public materials do not describe current alternatives; it can only be inferred
+    that policy and claim materials are still checked manually or handled by users on the platform pages
+    themselves.
+  usage_reason: 报道仅称升级三大AI服务，未说明相较人工核对减少了哪一步负担或改善了哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: The report only says three AI services were upgraded and does not say which manual
+    step is reduced or which checkable result improves, so it cannot explain which users would choose
+    it and when.

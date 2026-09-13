@@ -196,3 +196,55 @@
     and manual result aggregation; it would therefore be chosen in time-pressured authorized red-team
     or SRC engagements needing fast asset coverage. Public materials do not yet confirm this motive via
     user feedback.'
+- id: req-full-strikeagent-atkbrain-flash-2026-09-13
+  project_slug: strikeagent-atkbrain-flash
+  level: full
+  reviewed_at: '2026-09-13T00:26:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队打点与 SRC/CTF 中信息收集、漏洞验证的任务，痛点是在大量授权资产上重复手工枚举与验证、易遗漏；不解决的后果是打点慢、覆盖不全。公开材料仅给出功能定位，未给用户抱怨，故为工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+    - ev-be316e6c0b1a20ff
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 149 增至 335，说明开发者关注度上升，但收藏与排名只属关注度证据，不能证明目标用户持续使用或形成强场景共识；缺少 issue、discussion 或用户评价说明谁在何种场景采用。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+    - ev-d7084d3b773972a2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断收入来自 to B 安全团队、to C 个人研究者还是 to VC；这是判断而非已验证事实，不因此否定需求本身。
+    evidence_ids:
+    - ev-33db3bb888d8a56e
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定性发生、AI 打点结果是否可复现、以及授权与安全边界如何约束，均缺公开文档或可复现实测；仅有功能描述不足以确认承诺可稳定兑现。
+    evidence_ids:
+    - ev-be316e6c0b1a20ff
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认实际支持的输入格式、自动化程度与是否有用户报告在真实授权测试中复现结果。
+  market: ''
+  job: 红队渗透测试工程师或 SRC/CTF 参赛者在拿到授权目标（域名、IP 段或靶机）后，需要完成信息收集、打点、漏洞验证并整理出可复现的攻击路径与报告。
+  job_en: A red-team penetration tester or SRC/CTF participant, given an authorized target (domain, IP
+    range, or CTF box), must perform reconnaissance, initial access, vulnerability validation, and produce
+    a reproducible attack path and report.
+  pain: 公开材料只说明它覆盖红队打点、SRC 与 CTF，未给出用户抱怨、耗时或漏测代价的原始证据；从工作流结构推理，打点阶段需在大量资产上反复手工枚举与验证，重复劳动重且容易遗漏，这是该岗位的固有负担。
+  pain_en: Public materials only state it covers red-team initial access, SRC, and CTF; no first-hand
+    user complaints, time cost, or missed-finding consequences are given. By workflow inference, the initial-access
+    phase requires repeated manual enumeration and validation across many assets, which is repetitive
+    and omission-prone for this role.
+  current_alternative: 公开材料未说明用户当前用什么替代；按行业常识推断，替代方式是 Nmap、Burp Suite、 nuclei 等手工工具链加个人脚本，以及 Metasploit
+    等既有框架，逐项人工串联。
+  current_alternative_en: Public materials do not state the current substitute; by domain inference it
+    is a manual toolchain such as Nmap, Burp Suite, nuclei plus personal scripts, and existing frameworks
+    like Metasploit, chained by hand.
+  usage_reason: 推断：相较手工串联扫描器与脚本，该平台把目标信息输入后的枚举、打点与验证动作收敛到一个 AI 驱动的流程里，减少逐工具切换和重复枚举这一步负担，因此需要批量处理授权目标、又缺少自建自动化脚本的红队或
+    SRC 用户会尝试它；但公开材料未提供用户反馈或案例，此因果为结构推断而非已验证事实。
+  usage_reason_en: 'Inference: versus manually chaining scanners and scripts, the platform consolidates
+    enumeration, initial access, and validation after target input into one AI-driven flow, removing the
+    step of switching tools and re-enumerating; this would attract red-team or SRC users handling many
+    authorized targets without their own automation. No user feedback or case study is public, so this
+    causal claim is structural inference, not verified fact.'

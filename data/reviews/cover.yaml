@@ -388,3 +388,91 @@
   usage_reason: cover 提供可逆的假数据替换，使开发者既能利用外部 AI 的能力，又能在本地恢复原始结果，兼顾隐私和功能。
   usage_reason_en: cover provides reversible fake data substitution, allowing developers to leverage external
     AI capabilities while restoring original results locally, balancing privacy and functionality.
+- id: req-initial-cover-2026-09-13
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是敏感数据外发前的脱敏与还原需求，痛点是合规风险与手工映射易错，旧做法是自写脚本或不脱敏，结构上成立。
+    evidence_ids:
+    - ev-4d91afc14fd0021c
+  - gate: consensus
+    status: insufficient
+    reason: 公开页面仅有约41个星标和一次社区讨论，缺少企业采用、客户案例或重复使用证据，尚不能说明共识形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，to B 按调用量或合规服务收费只是推断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 可逆映射的完整性与还原准确率没有公开测试或文档佐证，人工确认边界也未说明。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的README与issue/discussion，确认支持的字段类型、还原准确率说明及是否有企业部署案例。
+  market: ''
+  job: AI应用开发者或合规工程师在把包含姓名、地址、病历等敏感字段的业务数据送进外部大模型前，需要先处理这批材料，让模型完成分析或生成，同时不把真实身份信息交出去。
+  job_en: An AI application developer or compliance engineer, before sending business data containing
+    sensitive fields such as names, addresses and medical records to an external large model, must process
+    that material so the model can analyze or generate while real identity information is not handed over.
+  pain: 直接把原始数据发给第三方模型会带来合规与泄露风险，而手工脱敏再人工对照还原既慢又容易出错，一旦映射丢失，模型输出就无法对应回真实用户。
+  pain_en: Sending raw data to a third-party model creates compliance and leakage risk, while manual de-identification
+    plus manual restoration is slow and error-prone; if the mapping is lost, model output cannot be traced
+    back to the real user.
+  current_alternative: 目前常见做法是开发者自己写正则或脚本替换字段、用内部脱敏流程，或者干脆不脱敏直接调用模型并承担风险。
+  current_alternative_en: The common alternatives today are developers writing their own regex or scripts
+    to swap fields, using an internal de-identification process, or simply calling the model without de-identification
+    and taking the risk.
+  usage_reason: 推断：相较自写脚本，它把“替换—调用—还原”做成一条可逆链路，减少每次接入新模型都要重写脱敏逻辑这一步，并让还原结果可核对；处理大量个人数据的团队在接入外部模型时会因此选择它。
+  usage_reason_en: 'Inference: compared with self-written scripts, it turns replace-call-restore into
+    one reversible pipeline, removing the step of rewriting de-identification logic for every new model
+    integration and making restoration verifiable; teams handling large volumes of personal data would
+    choose it when connecting to external models.'
+- id: req-full-cover-2026-09-13
+  project_slug: cover
+  level: full
+  reviewed_at: '2026-09-13T00:23:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感数据外发前的脱敏与还原需求，痛点是合规风险与手工映射易错，旧做法是自写脚本或不脱敏，结构上成立。
+    evidence_ids:
+    - ev-4d91afc14fd0021c
+  - gate: consensus
+    status: insufficient
+    reason: 公开页面仅有约41个星标和一次社区讨论，缺少企业采用、客户案例或重复使用证据，尚不能说明共识形成。
+    evidence_ids:
+    - ev-4d91afc14fd0021c
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，to B 按调用量或合规服务收费只是推断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 可逆映射的完整性与还原准确率没有公开测试或文档佐证，人工确认边界也未说明。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的README与issue/discussion，确认支持的字段类型、还原准确率说明及是否有企业部署案例。
+  market: ''
+  job: AI应用开发者或数据合规工程师在把含姓名、地址、病历等敏感字段的业务数据送进外部大模型前，需要先处理这批材料，让模型完成分析或生成，同时不把真实身份信息交出去，并在结果返回后把假值还原成真实值。
+  job_en: An AI application developer or data compliance engineer, before sending business data containing
+    sensitive fields such as names, addresses and medical records to an external large model, must process
+    that material so the model can analyze or generate without handing over real identity information,
+    and restore fake values back to real ones after the result returns.
+  pain: 直接把原始数据发给第三方模型会带来合规与泄露风险；手工脱敏再人工对照还原既慢又易错，一旦映射丢失，模型输出就无法对应回真实用户。
+  pain_en: Sending raw data to a third-party model creates compliance and leakage risk; manual de-identification
+    plus manual restoration is slow and error-prone, and if the mapping is lost, model output cannot be
+    traced back to the real user.
+  current_alternative: 常见替代是开发者自己写正则或脚本替换字段、走内部脱敏流程，或干脆不脱敏直接调用模型并承担风险。
+  current_alternative_en: Common alternatives are developers writing their own regex or scripts to swap
+    fields, using an internal de-identification process, or simply calling the model without de-identification
+    and taking the risk.
+  usage_reason: 推断：相较自写脚本，它把“替换—调用—还原”做成一条可逆链路，减少每次接入新模型都要重写脱敏逻辑这一步，并让还原结果可核对；处理大量个人数据的团队在接入外部模型时会因此选择它。
+  usage_reason_en: 'Inference: compared with self-written scripts, it turns replace-call-restore into
+    one reversible pipeline, removing the step of rewriting de-identification logic for every new model
+    integration and making restoration verifiable; teams handling large volumes of personal data would
+    choose it when connecting to external models.'

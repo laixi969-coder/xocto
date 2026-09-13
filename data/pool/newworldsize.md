@@ -21,7 +21,7 @@ canonical_url: https://newworldsize.com/old-vs-new-world-map
 summary: Mercator vs. UN's new Equal Earth map, synced side by side
 first_seen: '2026-09-11T18:34:31Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

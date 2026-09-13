@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/calerto-meeting-alarms
 summary: Full-screen meeting alerts for your Mac
 first_seen: '2026-09-10T06:14:32Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

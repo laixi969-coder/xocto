@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxQaDR6LXhjLWVm
 summary: 成为优秀的前沿部署工程师：企业级AI落地的关键能力框架 积墨 AI
 first_seen: '2026-09-11T00:00:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -27,7 +27,7 @@ summary: "For a while, I must admit, it looked as if software developer roles li
   \ Killer Apps. What Happened? \n\n     Tags:  paul-ford ,  generative-ai ,  deep-blue ,  ai ,  llms"
 first_seen: '2026-09-12T18:00:21Z'
 last_seen: '2026-09-13T00:01:15Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

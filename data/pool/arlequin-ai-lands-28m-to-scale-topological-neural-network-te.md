@@ -23,7 +23,7 @@ summary: Paris-based AI company Arlequin AI hasraised €28 million in Series A 
   its t...
 first_seen: '2026-09-10T07:00:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

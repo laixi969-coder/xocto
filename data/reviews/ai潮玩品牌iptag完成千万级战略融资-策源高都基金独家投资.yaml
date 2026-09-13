@@ -80,3 +80,82 @@
   usage_reason: 仅有融资报道，缺少产品功能、定价与使用场景的公开描述，无法解释用户为何选择它；这是事实缺口，不是推断。
   usage_reason_en: Only funding coverage exists; with no public description of features, pricing or use
     cases, there is no basis to explain user choice. This is a factual gap, not an inference.
+- id: req-initial-ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资-2026-09-13
+  project_slug: ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未披露，无法还原旧流程与交付，价值关证据不足。
+    evidence_ids:
+    - ev-14f78a37938a8a45
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有融资报道，缺少场景共识与采用信号。
+    evidence_ids:
+    - ev-14f78a37938a8a45
+  - gate: model
+    status: insufficient
+    reason: 未进入：买方、定价与付费路径均未披露。
+    evidence_ids:
+    - ev-14f78a37938a8a45
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-14f78a37938a8a45
+  next_validation: 收集 IPTAG 官方产品页或官方发布材料，确认其 AI 具体介入潮玩设计、打样还是定制环节，以及交付物形态。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the specific user or scenario, so it is impossible to confirm
+    who handles what material under what circumstances to complete what task.
+  pain: 材料未披露任何用户痛点或旧流程中的具体困难，只提到品牌与融资。
+  pain_en: The material discloses no user pain point or concrete difficulty in an old workflow, only the
+    brand and the funding.
+  current_alternative: 材料未说明现有替代做法，无法判断此前这一步由谁、用什么方式完成。
+  current_alternative_en: The material does not describe existing alternatives, so it is unclear who or
+    what previously handled this step.
+  usage_reason: 缺少产品能力、交付物与使用场景的任何公开事实，无法解释用户为何选择它；融资规模只说明关注度，不构成使用理由。
+  usage_reason_en: With no public facts on product capability, deliverable or scenario, there is no basis
+    to explain why users would choose it; funding size only shows attention, not a usage reason.
+- id: req-full-ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资-2026-09-13
+  project_slug: ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资
+  level: full
+  reviewed_at: '2026-09-13T00:23:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只显示 IPTAG 是 AI 潮玩品牌并获千万级战略融资，未说明用户任务、痛点、旧替代与交付物，无法还原需求结构。
+    evidence_ids:
+    - ev-14f78a37938a8a45
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 IPTAG 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料只说明 IPTAG 是 AI 潮玩品牌，未说明谁在什么情况下处理什么材料、要完成什么任务；无法还原具体使用场景。
+  job_en: Public material only identifies IPTAG as an AI designer-toy brand; it does not say who, under
+    what circumstances, handles what material to complete what task, so no concrete job can be reconstructed.
+  pain: 材料未披露任何用户痛点或旧流程困难，仅提到品牌与千万级战略融资，无法说明谁在哪一步受阻。
+  pain_en: The material discloses no user pain point or old-workflow difficulty, only the brand and a
+    tens-of-millions strategic round, so it cannot show who is blocked at which step.
+  current_alternative: 材料未说明现有替代做法，无法判断此前潮玩设计、打样或定制这一步由谁、用什么方式完成。
+  current_alternative_en: The material does not describe existing alternatives, so it is unclear who or
+    what previously handled the design, prototyping or customization step.
+  usage_reason: 缺少产品能力、交付物与使用场景的任何公开事实，无法解释用户为何选择它；融资规模只说明关注度，不构成使用理由。
+  usage_reason_en: With no public facts on product capability, deliverable or scenario, there is no basis
+    to explain why users would choose it; funding size only shows attention, not a usage reason.

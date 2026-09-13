@@ -85,3 +85,47 @@
     wiki and gates skills in isolation, removing manual curation and per-run prompt rewriting; Hermes
     Agent developers who need cross-task reuse with checkable skill gating would choose it here. No user
     feedback or repeat-use evidence is public, so long-term retention is unconfirmed.'
+- id: req-full-wikiskill-2026-09-13
+  project_slug: wikiskill
+  level: full
+  reviewed_at: '2026-09-13T00:26:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体经验无法跨会话沉淀的问题：开发者反复运行同类任务却每次重新提示，技能互相干扰且缺少可核对的启用边界；不解决的后果是重复调试与不可复用。公开材料给出输入—写入 wiki—筛选技能—产出日志的闭环，属工作流结构推理，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-fd967241fa95d9da
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 147 增至 179，说明社区注意到它，但收藏只属关注度证据，没有用户评价、客户案例或团队采用记录，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-fd967241fa95d9da
+    - ev-7d235c5336804f49
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价、付费方或服务方式，买方与收费路径均不明；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-fd967241fa95d9da
+  - gate: truth
+    status: insufficient
+    reason: 宣称忠实实现论文算法并有真实运行日志，但缺少可复现的独立评测与安全边界说明，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-fd967241fa95d9da
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有团队在真实任务中重复使用并报告技能启用效果。
+  market: ''
+  job: 使用 Hermes Agent 的开发者，在多次运行同类任务后，需要把成功经验沉淀下来，让后续运行直接调用已有技能，而不是每次重新提示。
+  job_en: Developers running Hermes Agent who, after repeated runs of similar tasks, need to persist successful
+    experience so later runs call existing skills instead of re-prompting each time.
+  pain: 智能体的经验无法跨会话保留，同类任务反复调试，技能之间互相干扰，缺少可核对的启用边界；这是开发者工作流中的结构性摩擦。
+  pain_en: Agent experience does not persist across sessions, similar tasks are re-debugged, skills interfere
+    with each other, and there is no checkable gating boundary; this is structural friction in the developer
+    workflow.
+  current_alternative: 手工维护提示词模板、把经验写在文档里，或依赖框架自带的记忆模块。
+  current_alternative_en: Hand-maintained prompt templates, experience kept in documents, or the memory
+    modules bundled with agent frameworks.
+  usage_reason: 推断：相较手工维护提示词，它把运行结果自动写入知识 wiki 并据此筛选技能，减少人工整理这一步；但公开材料没有用户反馈或重复使用证据，无法确认开发者是否长期留在工作流中。
+  usage_reason_en: 'Inference: versus hand-maintained prompts, it auto-writes run outcomes into a knowledge
+    wiki and gates skills from it, removing a manual curation step; no user feedback or repeat-use evidence
+    is public, so long-term retention in the workflow cannot be confirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYUHFXY3dUOGpB
 summary: WAIC 2026展示五彩版长条在线网址全系本地AI产品 推动AI for everyone 体坛加
 first_seen: '2026-09-11T18:55:23Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

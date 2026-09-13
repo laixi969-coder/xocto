@@ -128,3 +128,49 @@
     turning ''which is stronger'' into per-item verifiable receipts and removing the step of collecting
     bugs and unifying environments; developers selecting or procuring a coding model for a team who cannot
     trust vendor framing would therefore choose it. This causal chain is workflow-structural'
+- id: req-full-bug-hunt-bench-2026-09-13
+  project_slug: bug-hunt-bench
+  level: full
+  reviewed_at: '2026-09-13T00:23:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码模型选型时成绩不可核对的问题：厂商自报基准口径不一，选错模型带来返工与迁移成本。公开说明显示其用两个生产仓库的 105 个真实缺陷、在各模型自身 CLI 中执行并盲评，交付可核对；这是工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-29249af370247685
+    - ev-e3912d51b9309ac3
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 46 增至 48，说明有开发者关注该评测，但无评价、讨论或复现记录证明选型者已把它纳入决策流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-29249af370247685
+    - ev-23550a66ebb99e2d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、赞助方或付费主体，评测站可能靠厂商赞助或社区维护；这是判断而非已验证事实，买方路径尚未核验。
+    evidence_ids:
+    - ev-29249af370247685
+  - gate: truth
+    status: insufficient
+    reason: 105 个缺陷来自两个生产仓库，任务集固定且规模有限，公开材料未说明是否持续更新、是否覆盖私有代码库，也未给出盲评与人工复核的边界，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-29249af370247685
+    - ev-e3912d51b9309ac3
+  next_validation: 追踪 Bug Hunt Bench 官方仓库的 README、issue 与 discussion，确认任务集是否持续扩充、是否公布盲评与人工复核流程，以及是否有厂商或团队公开引用其评测结果做选型。
+  market: ''
+  job: 开发者在为团队或项目挑选编码模型时，面对各家自报的基准成绩，把两个生产仓库中的 105 个真实缺陷交给候选模型在各自 CLI 中定位并修复，再依据盲评排行榜与逐条记录完成横向对比与选型。
+  job_en: When choosing a coding model for a team or project, developers take 105 real bugs from two production
+    repos, have candidate models locate and fix them inside their own CLIs, then use the blind-graded
+    leaderboard and per-bug receipts to compare and select.
+  pain: 厂商自报的基准成绩不可核对、口径不一，选型者无法判断某模型在真实生产代码缺陷上的定位与修复能力，选错模型会带来返工与迁移成本。
+  pain_en: Vendor-reported benchmark scores are unverifiable and inconsistent, so selectors cannot tell
+    how a model performs on real production-code bugs; a wrong pick costs rework and migration effort.
+  current_alternative: 依赖厂商自报基准、公开榜单或自行零散试跑几个任务，缺少统一任务集、统一 CLI 环境与盲评口径。
+  current_alternative_en: Relying on vendor-reported benchmarks, public leaderboards, or ad-hoc trial
+    runs on a few tasks, without a shared task set, shared CLI environment, or blind grading.
+  usage_reason: 推断：相较厂商自报成绩，它把同一批真实缺陷放进各模型自己的 CLI 中执行并盲评，公开每条记录，使选型者能直接核对某模型在具体缺陷上的表现，因此需要为团队选型或复核模型能力的开发者会在决策前查它。
+  usage_reason_en: 'Inference: unlike vendor-reported scores, it runs the same real bugs inside each model''s
+    own CLI and grades blind with every receipt published, letting selectors verify a model''s behavior
+    on specific bugs, so developers making or reviewing a model choice consult it before deciding.'

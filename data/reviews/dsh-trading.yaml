@@ -310,3 +310,56 @@
     switching and connector-rewrite step; versus letting AI trade directly, dry-run by default and per-order
     human approval move the risk control point earlier, which is why a trader wanting cross-market signals
     without giving up per-order confirmation would pick it. Motivation is inferred, as no '
+- id: req-full-dsh-trading-2026-09-13
+  project_slug: dsh-trading
+  level: full
+  reviewed_at: '2026-09-13T00:24:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨市场交易中行情、持仓与下单入口割裂、AI 建议难以安全接入实盘的需求；痛点是误单风险与多终端切换，旧做法是券商终端加自建脚本手工搬运。公开材料只给产品能力，痛点刚性属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-7824d5f43561314d
+    - ev-031bb41cf74a4885
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 115 升至 162，说明开发者社区持续关注；但收藏与复刻只属关注度证据，不能证明交易员已把它留在日常交易工作流，也未见使用评价或案例。
+    evidence_ids:
+    - ev-7824d5f43561314d
+    - ev-031bb41cf74a4885
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有 BYOK 与不转售数据，没有定价页、付费主体或采购记录；钱可能来自个人交易员自付或机构采购，这是判断而非已验证事实，也未出现仅靠融资续命的迹象。
+    evidence_ids:
+    - ev-7824d5f43561314d
+  - gate: truth
+    status: insufficient
+    reason: 默认模拟运行、每笔实盘订单需人工批准，安全边界设计清晰；但缺少部署文档、issue 或实测记录来证明订单交付能稳定发生，也未说明连接器失效时的处理。
+    evidence_ids:
+    - ev-7824d5f43561314d
+    - ev-478eb3b04b884abe
+  next_validation: 追踪 dsh-trading 仓库的 issue、discussion 与 README/部署文档，确认是否有交易员公开描述实际接入的连接器、替代的旧流程以及实盘订单执行结果。
+  market: ''
+  job: 交易员或量化分析师在同时盯加密货币、美股、A股和港股时，把分散在多个行情终端与交易所账户里的行情、持仓和下单入口收进一个三栏界面，让 AI 基于接入的市场数据生成交易建议，并在人工逐笔批准后把实盘订单发出去。
+  job_en: A trader or quant analyst watching crypto, US, CN and HK markets at once consolidates quotes,
+    positions and order entry from separate terminals and exchange accounts into one three-column GUI,
+    lets an AI generate trade suggestions from the connected market data, and sends live orders only after
+    per-order human approval.
+  pain: 跨市场操作要在多个行情源和券商/交易所客户端之间来回切换，行情、持仓与下单入口割裂；把 AI 建议直接接到实盘又缺少逐笔人工确认的闸门，误单风险高。公开材料只给出产品能力，未提供用户抱怨或事故记录，痛点强度属工作流结构推理。
+  pain_en: Cross-market work means switching between multiple quote sources and broker/exchange clients,
+    with quotes, positions and order entry fragmented; wiring AI suggestions straight to live trading
+    lacks a per-order human gate and carries misfire risk. Public material only states product capability,
+    not user complaints or incident records, so pain intensity is a workflow-structure inference.
+  current_alternative: 交易员目前通常用券商或交易所自带终端、第三方行情软件加自建脚本/表格，跨市场时开多个窗口手工对照，AI 建议与下单之间靠人工搬运。
+  current_alternative_en: Traders today typically use broker or exchange-native terminals plus third-party
+    quote software and self-built scripts or spreadsheets, opening multiple windows to compare across
+    markets and manually carrying AI suggestions into order entry.
+  usage_reason: 推断：相较开多个终端手工对照，它把 19 个以上可热插拔连接器接进同一三栏界面，减少在行情源与下单入口之间搬运信息这一步；默认模拟运行、每笔实盘订单需人工批准，使愿意用 AI
+    辅助但仍要保留逐笔确认的交易员在跨市场场景下更可能选择它。BYOK 与不转售数据降低了数据合规顾虑，但公开材料没有用户反馈或留存证据，采用动机仍属推断。
+  usage_reason_en: 'Inference: versus juggling multiple terminals by hand, it plugs 19+ hot-swappable
+    connectors into one three-column GUI, removing the step of shuttling information between quote sources
+    and order entry; dry-run by default with human approval on every live order makes it more likely to
+    be chosen by traders who want AI assistance but insist on per-order confirmation in cross-market work.
+    BYOK and no data redistribution reduce data-compliance concerns, but public material has no '

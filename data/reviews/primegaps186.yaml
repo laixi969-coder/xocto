@@ -337,3 +337,54 @@
     the step of building the proof skeleton and verification code from scratch and yielding a machine-checkable
     artifact, so mathematicians and formal verification engineers who need to audit or reuse this result
     would choose it in that situation.'
+- id: req-full-primegaps186-2026-09-13
+  project_slug: primegaps186
+  level: full
+  reviewed_at: '2026-09-13T00:25:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决素数间隙上界结论难以被机器独立复核的需求：公开事实是仓库提供条件性 Lean 形式化与数值证书，结构推理下旧做法需人工重读证明并重跑数值，不采用则复核成本高且易错，交付物可确定。
+    evidence_ids:
+    - ev-ed6dd8632beafb52
+    - ev-d81ace787f329358
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实仅有仓库收藏数从 141 缓慢升至 161，属关注度而非持续采用；没有研究者引用、复现或在其上扩展的公开记录，无法判断共识是否形成。
+    evidence_ids:
+    - ev-ed6dd8632beafb52
+    - ev-434f1192b1855b7d
+  - gate: model
+    status: insufficient
+    reason: 这是 OpenAI 发布的开源仓库，公开材料没有定价页、付费方或采购记录；谁付钱、以何种方式变现均未披露，属商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-ed6dd8632beafb52
+  - gate: truth
+    status: insufficient
+    reason: 公开事实只说明存在条件性形式化与数值证书，未说明条件假设是什么、证书如何复算、错误结论如何拦截，交付的确定性边界尚缺可复现公开证据。
+    evidence_ids:
+    - ev-d81ace787f329358
+    - ev-7b0b252c3c9cecaa
+  next_validation: 追踪该仓库 README、issue 与 Lean 构建说明，确认条件假设、数值证书复算方式及是否被外部研究者引用或扩展。
+  market: ''
+  job: 数学家或形式化验证工程师在推进素数间隙上界这类数论结论时，需要把条件性证明写成 Lean 可机器检查的形式化文件，并附上可复算的数值证书，以便他人独立复核结论是否成立。
+  job_en: Mathematicians or formal-verification engineers advancing a number-theoretic bound on prime
+    gaps need to render a conditional proof as machine-checkable Lean files plus a recomputable numerical
+    certificate, so others can independently verify the claim.
+  pain: 公开事实显示该仓库交付的是条件性 Lean 形式化与数值证书；结构推理上，这类结论若只有论文文字，同行复核需人工重读证明并重跑数值计算，成本高且容易在引理衔接或计算范围上出错，不采用则结论难以被机器独立确认。
+  pain_en: Public facts show the repository delivers a conditional Lean formalization and numerical certificate;
+    by structural inference, a paper-only claim forces peers to re-read the proof by hand and rerun the
+    numerics, which is costly and error-prone at lemma boundaries or computation ranges, and without it
+    the claim cannot be independently machine-checked.
+  current_alternative: 旧做法是论文文字证明加人工复核，或研究者自行在 Lean/mathlib 中重写形式化并单独编写数值验证脚本，缺少现成的可复用形式化与证书。
+  current_alternative_en: The old route is a paper proof with manual peer review, or researchers rewriting
+    the formalization in Lean/mathlib themselves and separately writing numerical verification scripts,
+    with no ready-made reusable formalization and certificate.
+  usage_reason: 推断：相较自行重写形式化并另写数值脚本，该仓库直接提供可机器检查的 Lean 文件与数值证书，省掉从零搭建形式化骨架和复算脚本这一步，因此关注素数间隙上界、需要复核或在其上继续扩展的研究者会取用；公开材料未显示留存或复购，采用动机属结构推断。
+  usage_reason_en: 'Inference: versus rewriting the formalization and writing a separate numerical script,
+    the repository supplies machine-checkable Lean files and a numerical certificate, removing the step
+    of building the formal skeleton and recomputation script from scratch, so researchers tracking prime-gap
+    bounds who need to verify or extend it would adopt it; public material shows no retention or repeat
+    use, so the motive is structural inference.'

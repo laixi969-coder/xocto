@@ -1,0 +1,88 @@
+- id: req-initial-tracecrate-2026-09-13
+  project_slug: tracecrate
+  level: initial
+  reviewed_at: '2026-09-13T00:00:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 运行日志难比对、失败原因难定位的问题，旧做法是手工翻日志或自写脚本，不解决的后果是排查慢且结论不可复现。
+    evidence_ids:
+    - ev-79dc4cb3400a893e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与 fork 数，属于关注度而非持续采用，尚无用户评价或团队使用证据。
+    evidence_ids:
+    - ev-79dc4cb3400a893e
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，未见定价页或付费路径；买方可能是自建 agent 的团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-79dc4cb3400a893e
+  - gate: truth
+    status: insufficient
+    reason: 本地运行、无需 API key 与后端，隐私边界清楚；但对比维度与报告内容是否覆盖真实排查需求仍待核验。
+    evidence_ids:
+    - ev-79dc4cb3400a893e
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际用它排查的具体 agent 失败类型和报告字段。
+  market: ''
+  job: AI 应用开发者在把 agent 交付给客户或上线前，需要处理 Claude Code、Codex 或 OTLP 格式的运行日志，定位某次运行失败或行为变化的原因。
+  job_en: An AI application developer, before shipping or handing an agent to a client, works through
+    Claude Code, Codex or OTLP run logs to find why one run failed or behaved differently.
+  pain: agent 一次运行会产生大量分散日志，失败原因往往藏在多步调用之间，靠人工翻日志很难看出两次运行的差别，排查耗时且结论不可复现。
+  pain_en: A single agent run produces large, scattered logs, and the cause of failure is buried across
+    many steps; reading them by hand makes run-to-run differences hard to see, slow to find and hard to
+    reproduce.
+  current_alternative: 开发者目前多靠终端输出、自建脚本或通用日志平台手工比对，缺少针对 agent 轨迹的对比视图。
+  current_alternative_en: Developers currently rely on terminal output, self-written scripts or general
+    log platforms and compare by hand, with no comparison view built for agent traces.
+  usage_reason: 相较手工翻日志，它把多次运行导入同一本地工作台并直接产出对比与可导出报告，省掉自己写解析脚本和整理证据这一步；推断，对需要向客户或团队解释某次 agent 失败的开发者更有吸引力。
+  usage_reason_en: Compared with reading logs by hand, it loads several runs into one local workbench
+    and produces a comparison plus an exportable report, removing the step of writing parsers and assembling
+    evidence; this is an inference, and it appeals most to developers who must explain an agent failure
+    to a client or team.
+- id: req-full-tracecrate-2026-09-13
+  project_slug: tracecrate
+  level: full
+  reviewed_at: '2026-09-13T00:26:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 运行日志难比对、失败原因难定位的问题，旧做法是手工翻日志或自写脚本，不解决的后果是排查慢且结论不可复现。
+    evidence_ids:
+    - ev-79dc4cb3400a893e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与 fork 数，属于关注度而非持续采用，尚无用户评价或团队使用证据。
+    evidence_ids:
+    - ev-79dc4cb3400a893e
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，未见定价页或付费路径；买方可能是自建 agent 的团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-79dc4cb3400a893e
+  - gate: truth
+    status: insufficient
+    reason: 本地运行、无需 API key 与后端，隐私边界清楚；但对比维度与报告内容是否覆盖真实排查需求仍待核验。
+    evidence_ids:
+    - ev-79dc4cb3400a893e
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际用它排查的具体 agent 失败类型和报告字段。
+  market: ''
+  job: AI 应用开发者在把 agent 交付给客户或上线前，需要处理 Claude Code、Codex 或 OTLP 格式的运行日志，定位某次运行失败或行为变化的原因。
+  job_en: An AI application developer, before shipping or handing an agent to a client, works through
+    Claude Code, Codex or OTLP run logs to find why one run failed or behaved differently.
+  pain: agent 一次运行会产生大量分散日志，失败原因往往藏在多步调用之间，靠人工翻日志很难看出两次运行的差别，排查耗时且结论不可复现。
+  pain_en: A single agent run produces large, scattered logs, and the cause of failure is buried across
+    many steps; reading them by hand makes run-to-run differences hard to see, slow to find and hard to
+    reproduce.
+  current_alternative: 开发者目前多靠终端输出、自建脚本或通用日志平台手工比对，缺少针对 agent 轨迹的对比视图。
+  current_alternative_en: Developers currently rely on terminal output, self-written scripts or general
+    log platforms and compare by hand, with no comparison view built for agent traces.
+  usage_reason: 相较手工翻日志，它把多次运行导入同一本地工作台并直接产出对比与可导出报告，省掉自己写解析脚本和整理证据这一步；推断，对需要向客户或团队解释某次 agent 失败的开发者更有吸引力。
+  usage_reason_en: Compared with reading logs by hand, it loads several runs into one local workbench
+    and produces a comparison plus an exportable report, removing the step of writing parsers and assembling
+    evidence; this is an inference, and it appeals most to developers who must explain an agent failure
+    to a client or team.

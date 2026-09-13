@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXZXUVlBc2d5
 summary: What Could UiPath (PATH) Orchestration News Reveal About Scaling Agentic AI? simplywall.st
 first_seen: '2026-09-12T00:52:05Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

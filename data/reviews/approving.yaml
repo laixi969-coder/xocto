@@ -185,3 +185,47 @@
   usage_reason_en: Public materials are insufficient to explain why users would choose it; without user
     feedback, cases, or observable behavior, it is not possible to judge which step of the old workflow
     it reduces.
+- id: req-full-approving-2026-09-13
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-09-13T00:23:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 README、部署文档与 issue/discussion，确认沙箱隔离、人工批准闸门与恢复流程是否有可复现的公开说明及真实使用反馈。
+  market: ''
+  job: 使用编码代理的开发者或团队，在让代理自动改代码时，需要把代理放进隔离的 Docker 沙箱执行，并在关键节点产出结构化产物、暂停等待人工批准后才继续，从而在保留自动化收益的同时控制不可逆改动。
+  job_en: Developers or teams using coding agents need to run the agent inside an isolated Docker sandbox,
+    have it emit structured artifacts, and pause at critical nodes for human approval before continuing,
+    so they keep automation gains while controlling irreversible changes.
+  pain: 编码代理直接在主环境执行命令和改文件时，错误或越权操作难以回滚，人工只能事后审查 diff，缺少可暂停、可恢复、可审计的中间节点；公开材料未给出该痛点的发生频率与损失金额。
+  pain_en: When a coding agent runs commands and edits files directly in the main environment, mistakes
+    or overreach are hard to roll back and humans can only review diffs after the fact; there is no pausable,
+    recoverable, auditable intermediate node. Public materials give no frequency or cost figures for this
+    pain.
+  current_alternative: 旧做法是让代理直接在本地或 CI 里跑，靠人工盯终端、事后看 git diff 和 PR 评审来兜底；部分团队用容器或临时分支做隔离，但没有内建的人工批准闸门与结构化产物交换。
+  current_alternative_en: The old way is to let the agent run directly locally or in CI, relying on a
+    human watching the terminal plus post-hoc git diff and PR review; some teams isolate with containers
+    or throwaway branches, but without a built-in human approval gate and structured artifact exchange.
+  usage_reason: 推断：相较直接跑代理再看 diff，它把执行限制在 Docker 沙箱内，并在关键节点强制暂停等待 Approve，把“事后发现错误”提前为“执行前拦截”，因此在意不可逆改动与审计留痕的代理使用者会在处理高风险仓库或生产相关任务时选择它；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus running the agent and reviewing diffs afterward, it confines execution
+    to a Docker sandbox and forces a pause for Approve at critical nodes, moving error detection from
+    after-the-fact to before execution, so agent users who care about irreversible changes and audit trails
+    would pick it for high-risk repos or production-adjacent tasks; public materials contain no user feedback
+    or case confirming this motive.'

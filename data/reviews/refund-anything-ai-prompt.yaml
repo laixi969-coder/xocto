@@ -129,3 +129,51 @@
     steps of picking the applicable consumer-protection rule, wording it per jurisdiction, and pre-writing
     the second escalation letter into one pass, so a consumer with a refused refund worth chasing would
     turn to it after the first rejection fails.'
+- id: req-full-refund-anything-ai-prompt-2026-09-13
+  project_slug: refund-anything-ai-prompt
+  level: full
+  reviewed_at: '2026-09-13T00:25:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者退款被拒后不知如何措辞施压的需求，痛点与已付金额直接挂钩，不解决即损失该笔钱；公开说明给出输入、两段式动作与函件交付，属工作流结构推理，价值成立。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-0395b6d360cf717a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从68升至76、有少量复刻，说明社区注意到它，但没有讨论、案例或反馈证明目标用户持续使用或复用；关注度不等于采用。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-a6a9f992b291406d
+  - gate: model
+    status: insufficient
+    reason: 开源提示词没有定价页、买方或收费路径，钱可能来自to C付费模板、to B客服工具或to VC，均未在公开材料中核验；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-0395b6d360cf717a
+  - gate: truth
+    status: insufficient
+    reason: 30多个司法辖区的法律准确性、生成函件能否确定性交付、以及用户需自行核对事实的人工边界，均缺可复现公开证据，存在错误法律建议风险。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-a6a9f992b291406d
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认是否有用户报告实际退款成功案例及覆盖辖区的法律依据来源。
+  market: ''
+  job: 普通消费者在订阅、数字购买或预订被商家拒退时，把订单信息与拒退理由交给这套提示词，由模型生成先礼貌交涉、后法律升级的两段退款函件，用户核对后自行发送。
+  job_en: An ordinary consumer whose subscription, digital purchase or booking refund was refused feeds
+    order details and the refusal reason into this prompt, which generates a polite-then-legal-escalation
+    refund letter for the user to check and send.
+  pain: 公开材料明确指向退款被拒这一具体情境，用户面对的是钱已付出、商家拒绝、自己不知道如何措辞施压的处境；不解决的直接后果是损失已付金额，痛点与金钱直接挂钩。
+  pain_en: 'The public material points to a concrete situation: a refund is refused after money was paid,
+    and the user does not know how to word pressure on the merchant; the direct consequence of not solving
+    it is losing the amount already paid, tying the pain directly to money.'
+  current_alternative: 用户自己写邮件或找客服反复沟通，上网搜模板，或付费咨询律师、走小额诉讼与平台投诉渠道。
+  current_alternative_en: Users write emails themselves or repeatedly argue with support, search for templates
+    online, or pay a lawyer, file small-claims or use platform complaint channels.
+  usage_reason: 推断：相较自己搜模板或反复与客服拉扯，该提示词把订单事实与拒退理由直接转成两段式函件，省去用户自己组织法律措辞这一步，并给出可核对的升级路径；因此被拒退且金额值得追讨的消费者会在该情境下选择它。
+  usage_reason_en: 'Inference: compared with searching templates or arguing with support, the prompt turns
+    order facts and the refusal reason directly into a two-stage letter, removing the step of drafting
+    legal wording and offering a checkable escalation path; consumers with a refused refund worth pursuing
+    would choose it in that situation.'

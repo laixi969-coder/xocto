@@ -1,0 +1,86 @@
+- id: req-initial-从答题器走向辅导席猿力科技如何让ai懂孩子助教师进校园丨直击2026服贸会-2026-09-13
+  project_slug: 从答题器走向辅导席猿力科技如何让ai懂孩子助教师进校园丨直击2026服贸会
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道未说明具体产品、输入数据与交付结果，无法确认它解决什么需求与痛点。
+    evidence_ids:
+    - ev-8775fe8d75b85f39
+    - ev-f78115a5f5c54ae7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有展会展示表述，没有学校采用或教师使用证据。
+    evidence_ids:
+    - ev-8775fe8d75b85f39
+    - ev-f78115a5f5c54ae7
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式。
+    evidence_ids:
+    - ev-8775fe8d75b85f39
+    - ev-f78115a5f5c54ae7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生及教师人工边界。
+    evidence_ids:
+    - ev-8775fe8d75b85f39
+    - ev-f78115a5f5c54ae7
+  next_validation: 猿力科技官方页面或官方公告中该AI教育方案的功能说明、部署学校与定价信息。
+  market: ''
+  job: 中小学教师在课堂与作业环节需要根据学生答题与学习数据判断每个学生的薄弱点并安排辅导。
+  job_en: K-12 teachers need to judge each student's weak points from answer and learning data and arrange
+    tutoring in class and homework.
+  pain: 公开材料未说明具体痛点，只能推断教师存在学情归因与个别辅导的人力负担。
+  pain_en: Public materials do not state the specific pain; it can only be inferred that teachers bear
+    a manual burden in learning diagnosis and individual tutoring.
+  current_alternative: 公开材料未说明现有替代方式，可能仍由教师凭经验与纸质作业判断学情。
+  current_alternative_en: Public materials do not describe current alternatives; teachers may still judge
+    learning status from experience and paper homework.
+  usage_reason: 报道只称从答题器走向辅导席，未说明相较旧做法减少了哪一步负担，因此无法判断教师为何选择它。
+  usage_reason_en: The report only describes a shift from answer-clickers to a tutoring seat and does
+    not say which step is reduced, so it is unclear why teachers would choose it.
+- id: req-full-从答题器走向辅导席猿力科技如何让ai懂孩子助教师进校园丨直击2026服贸会-2026-09-13
+  project_slug: 从答题器走向辅导席猿力科技如何让ai懂孩子助教师进校园丨直击2026服贸会
+  level: full
+  reviewed_at: '2026-09-13T00:26:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅有标题式表述，未说明具体产品、输入数据、执行动作与交付结果，无法确认它解决什么需求与痛点，也写不出不解决的后果。
+    evidence_ids:
+    - ev-8775fe8d75b85f39
+    - ev-f78115a5f5c54ae7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪猿力科技官网或官方公告中该AI教育方案的功能说明、部署学校名单与定价信息。
+  market: ''
+  job: 中小学教师在课堂与作业环节收集学生答题与学习数据，判断每个学生的薄弱点并安排针对性辅导。
+  job_en: K-12 teachers collect student answer and learning data in class and homework, judge each student's
+    weak points, and arrange targeted tutoring.
+  pain: 公开材料只有标题式表述，未说明教师在学情归因、个别辅导或课堂反馈上具体卡在哪一步，也没有教师抱怨或旧流程描述可引用。
+  pain_en: Public materials offer only headline-level phrasing and do not specify where teachers get stuck
+    in learning diagnosis, individual tutoring, or classroom feedback; no teacher complaints or old-workflow
+    descriptions are citable.
+  current_alternative: 公开材料未描述现有替代方式，无法确认教师目前是凭经验、纸质作业还是既有答题器完成学情判断。
+  current_alternative_en: Public materials do not describe current alternatives, so it is unclear whether
+    teachers now rely on experience, paper homework, or existing answer-clickers for learning diagnosis.
+  usage_reason: 报道仅称从答题器走向辅导席，未说明产品通过哪个具体动作减少教师哪一步负担，因此无法判断哪类教师会在什么情况下选择它。
+  usage_reason_en: The report only says the product moves from answer-clicker to tutoring seat and does
+    not say which concrete action reduces which teacher burden, so it is unclear which teachers would
+    choose it and when.

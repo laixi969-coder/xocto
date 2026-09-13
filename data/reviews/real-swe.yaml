@@ -1,0 +1,85 @@
+- id: req-initial-real-swe-2026-09-13
+  project_slug: real-swe
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业选编码模型时公开榜单与私有代码表现脱节的问题，痛点具体，交付为评测结果。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: consensus
+    status: insufficient
+    reason: 有社区讨论热度，但无客户采用或重复使用证据。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: truth
+    status: insufficient
+    reason: 评测指标与是否可复现未公开，交付确定性待核验。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  next_validation: 收集 Real-SWE 的官方评测方法说明或公开使用数据，确认指标口径与可复现性。
+  market: ''
+  job: 工程负责人在为团队选编码模型或验收供应商交付时，需要在自己公司的私有代码库上跑评测，得到可比较的模型表现。
+  job_en: Engineering leads selecting coding models or accepting vendor delivery need to run evaluations
+    on their own private codebase to get comparable model performance.
+  pain: 公开榜单多基于开源题目，与企业私有代码的真实表现脱节，选型容易踩坑，此为工作流推理。
+  pain_en: Public leaderboards mostly use open-source tasks and diverge from real performance on private
+    enterprise code, making selection risky; this is workflow reasoning.
+  current_alternative: 团队此前多依赖公开榜单、人工试用或内部自建评测脚本，此为推断。
+  current_alternative_en: Teams previously relied on public leaderboards, manual trials or self-built
+    evaluation scripts, which is an inference.
+  usage_reason: 相较公开榜单，它把评测直接跑在客户自己的私有代码库上，减少选型时对榜单外推的依赖，因此有合规约束、代码不能外传的团队会在选型阶段选择它；此为基于产品能力的推断。
+  usage_reason_en: Compared with public leaderboards, it runs evaluation directly on the customer's own
+    private codebase, reducing reliance on extrapolating from leaderboards, so teams with compliance constraints
+    that cannot send code out would choose it during selection; this is an inference from product capability.
+- id: req-full-real-swe-2026-09-13
+  project_slug: real-swe
+  level: full
+  reviewed_at: '2026-09-13T00:25:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业选编码模型时公开榜单与私有代码表现脱节的问题，痛点具体，交付为私有代码库上的评测结果，属工作流结构推理。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: consensus
+    status: insufficient
+    reason: 仅见官方页面自述，无客户采用、重复评测或社区讨论证据，无法证明工程团队已把它纳入选型流程。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径不明，可能来自企业采购或按次评测收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: truth
+    status: insufficient
+    reason: 评测指标口径、是否可复现、私有代码如何隔离与安全边界均未公开，交付确定性缺可核对证据。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  next_validation: 追踪 withspecific.com 上 Real-SWE 的官方评测方法说明、定价页或公开使用数据，确认指标口径、可复现性与私有代码处理方式。
+  market: ''
+  job: 工程负责人在为团队选编码模型或验收供应商交付时，把公司私有企业代码库交给 Real-SWE，跑出模型在该代码库上的表现结果，用于选型或验收决策。
+  job_en: Engineering leads selecting coding models or accepting vendor delivery hand their private enterprise
+    codebase to Real-SWE to obtain model performance results on that codebase for selection or acceptance
+    decisions.
+  pain: 公开榜单多基于开源题目，与企业私有代码的真实表现脱节，选型容易踩坑；这是从产品定位作出的工作流推理。
+  pain_en: Public leaderboards mostly use open-source tasks and diverge from real performance on private
+    enterprise code, making selection risky; this is workflow reasoning from the product positioning.
+  current_alternative: 团队此前多依赖公开榜单、人工试用或内部自建评测脚本，此为推断。
+  current_alternative_en: Teams previously relied on public leaderboards, manual trials or self-built
+    evaluation scripts; this is an inference.
+  usage_reason: 相较公开榜单，它把评测直接跑在客户自己的私有代码库上，减少选型时对榜单外推的依赖，因此有合规约束、代码不能外传的团队会在选型阶段选择它；此为基于产品能力的推断。
+  usage_reason_en: Compared with public leaderboards, it runs evaluation directly on the customer's own
+    private codebase, reducing reliance on extrapolating from leaderboards, so teams with compliance constraints
+    that cannot send code out would choose it during selection; this is an inference from product capability.

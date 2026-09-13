@@ -122,3 +122,48 @@
   usage_reason_en: 'Inference: if a user genuinely needs a twin to answer on their behalf, an open-source,
     inspectable form is easier to trust and audit than a black-box SaaS. But no user feedback or case
     shows who would switch from their old approach, so the choice motive cannot be confirmed.'
+- id: req-full-agent-me-2026-09-13
+  project_slug: agent-me
+  level: full
+  reviewed_at: '2026-09-13T00:22:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是专家把个人经验沉淀为可应答分身的需求，但公开材料只有一句定位语，未说明沉淀时具体卡在哪一步、发生频率与不做的后果，也无可引用的用户抱怨或替代行为，痛点刚性无法确认，属自嗨式定位。
+    evidence_ids:
+    - ev-077f122162f1c585
+    - ev-3d73d54d83479403
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 agent-me 仓库的 README、issue 与 discussion，确认是否公开提炼流程、部署方式与真实使用者的具体场景描述。
+  market: ''
+  job: 个人专家（顾问、资深工程师、领域从业者）在需要把自己的判断与经验交给他人或未来的自己复用时，整理个人知识、记忆与决策材料，产出一个能以本人视角应答的代理分身。
+  job_en: An individual expert (consultant, senior engineer, domain practitioner) who needs their judgment
+    and experience reusable by others or by their future self assembles personal knowledge, memories and
+    decisions into an agent twin that answers in their own voice.
+  pain: 公开材料只给出产品定位句，没有说明专家在沉淀经验时具体卡在哪一步、多久发生一次、不做会失去什么；知识散落与经验流失是可推测的摩擦，但缺少用户抱怨、workaround 或案例支撑，痛点刚性无法确认。
+  pain_en: Public material offers only a positioning line; it does not show which step of knowledge distillation
+    actually hurts, how often, or what is lost by not doing it. Scattered knowledge and lost experience
+    are plausible friction, but without user complaints, workarounds or cases the rigidity of the pain
+    cannot be confirmed.
+  current_alternative: 公开材料未说明现有替代方式；结构上可推测为个人笔记与文档库、博客或访谈录音、以及直接使用通用大模型对话，但这些替代是否被用户实际采用没有公开证据。
+  current_alternative_en: Public material does not state the current alternative; structurally one can
+    infer personal note and document stores, blogs or recorded interviews, and direct use of general LLM
+    chat, but no public evidence shows users actually rely on these in place of the product.
+  usage_reason: 推断：相较手工整理笔记或直接问通用模型，它把个人材料提炼成可检查的开源分身，省去逐次复述背景的步骤；但公开材料没有用户反馈或案例说明谁在什么情况下会选它，因此这只是基于产品能力的推断，不构成采用理由。
+  usage_reason_en: 'Inference: versus hand-maintained notes or asking a general model directly, it distills
+    personal material into an inspectable open-source twin, removing the step of restating context each
+    time; however no user feedback or case shows who would choose it and when, so this is an inference
+    from capability, not an adoption reason.'

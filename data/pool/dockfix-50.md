@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dockfix
 summary: Replace the macOS Dock with one that is truly yours.
 first_seen: '2026-09-11T19:26:15Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

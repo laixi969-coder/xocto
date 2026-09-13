@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-science/unsloth-studio-t4
 summary: ''
 first_seen: '2026-09-12T00:50:26Z'
 last_seen: '2026-09-13T00:01:13Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

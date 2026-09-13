@@ -111,3 +111,44 @@
   usage_reason: 缺少功能说明与用户动机证据，无法解释相较现有做法它减少了哪一步负担，因此不能给出选择理由。
   usage_reason_en: Without capability descriptions or user-motivation evidence, there is no basis to explain
     which step it removes relative to current practice, so no reason for choosing it can be given.
+- id: req-full-deepseek-recipe-2026-09-13
+  project_slug: deepseek-recipe
+  level: full
+  reviewed_at: '2026-09-13T00:23:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据仅有仓库收藏数从 217 增至 313，无产品说明、文档或用户反馈，无法写出它解决什么需求、什么痛点，也说不清用户任务与不解决的后果。
+    evidence_ids:
+    - ev-d41d907af8a8ac34
+    - ev-a9091ebb647f813d
+    - ev-a8f6ea15f9b35b61
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 说明与 issue/discussion，确认它实际交付什么能力、面向哪类用户任务。
+  market: ''
+  job: 公开材料仅显示这是 DeepSeek 官方 公开代码仓库 仓库，未说明谁在什么情况下、处理什么材料、要完成什么任务；无法还原具体工作流。
+  job_en: Public materials only show this is an official DeepSeek public code repository repository; they
+    do not state who, in what situation, with what materials, completes what task, so no concrete workflow
+    can be reconstructed.
+  pain: 公开证据只有仓库收藏数变化，没有用户抱怨、issue、讨论或案例说明任何具体痛点，无法写出痛点内容。
+  pain_en: Public evidence contains only repository star counts, with no user complaints, issues, discussions,
+    or cases describing any concrete pain, so no pain can be stated.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not state how users currently do the related work, nor what
+    prior approach this repository replaces.
+  usage_reason: 缺少产品说明、文档、issue 或用户反馈，无法解释用户相较现有做法为何选择它；收藏数只反映关注度，不构成使用理由。
+  usage_reason_en: With no product description, docs, issues, or user feedback, there is no explanation
+    of why users choose it over existing approaches; star counts reflect attention only, not usage rationale.

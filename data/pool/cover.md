@@ -3,38 +3,45 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: cover 是一个开源的可逆隐私代理，面向调用外部 AI 代理的开发者。开发者在把真实数据交给 cover 后，cover 会向外部 AI 代理发送逼真的假数据，并在本地恢复原始结果。它解决的是开发者担心敏感数据泄露给第三方
-  AI 服务的问题，但具体工作流程和交付形式仍需进一步核验。
-inspiration: 趋势：随着 AI 代理深入企业工作流，数据隐私成为采用瓶颈，可逆脱敏可能成为基础层标配。切入：可从数据合规要求高的行业（如医疗、金融）入手，提供按数据量或按代理调用计费的服务，但需先验证开发者实际付费意愿。
-summary_en: cover is an open-source reversible privacy proxy for developers invoking external AI agents.
-  Developers give real data to cover, which sends realistic fake data to external AI agents and restores
-  originals locally. It addresses developers' concerns about sensitive data leakage to third-party AI
-  services, but the specific workflow and delivery form still need verification.
-inspiration_en: 'Trend: As AI agents penetrate enterprise workflows, data privacy becomes an adoption
-  bottleneck, and reversible anonymization may become a standard infrastructure layer. Entry: Start with
-  highly regulated industries like healthcare and finance, offering usage-based pricing per data volume
-  or agent call, but first validate developers'' willingness to pay.'
+summary_zh: 开发者在把用户数据交给外部大模型前，先用它把姓名、地址等敏感字段替换成逼真假值，模型只看到假数据；返回结果在本地再还原成真实值，人工仍需确认还原映射是否完整。具体支持的字段类型与部署方式仍待核验。
+inspiration: 趋势是敏感数据外发前的“脱敏—还原”环节正被单独拆成一层，而不是塞进每个应用里各写一遍。切入可从处理大量个人数据的行业（保险理赔、医疗记录、金融客服）入手，按调用量或按合规审计报告收费，而不是卖通用工具。
+summary_en: Before sending user data to an external large model, developers use it to swap sensitive fields
+  such as names and addresses for realistic fake values, so the model only sees fakes; results are restored
+  to real values locally, and a human still has to confirm the mapping is complete. The supported field
+  types and deployment options still need verification.
+inspiration_en: 'The trend is that the de-identify-and-restore step before sending sensitive data out
+  is being split into its own layer instead of being rewritten inside every app. Entry point: industries
+  handling large volumes of personal data (insurance claims, medical records, financial support), charged
+  by call volume or by compliance audit report rather than sold as a generic tool.'
 priority_review: false
 project_type: open_source
 industries:
-- 软件开发
+- 软件与信息服务
+- 金融与保险
+- 医疗健康
 industries_en:
-- Software Development
+- Software and IT services
+- Finance and insurance
+- Healthcare
 jobs:
-- 开发者
-- 安全工程师
+- AI应用开发者
+- 数据合规与隐私工程师
+- 企业安全负责人
 jobs_en:
-- Developers
-- Security Engineers
-regions: []
-regions_en: []
+- AI application developer
+- Data compliance and privacy engineer
+- Enterprise security lead
+regions:
+- 全球
+regions_en:
+- Global
 open_source: true
 url: https://github.com/DavidCarliez/cover
 canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - officialfeeds

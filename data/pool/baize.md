@@ -22,7 +22,7 @@ summary: 白泽 —— 中国古代神话中通晓万物的瑞兽，如今化身
   兼容 / Ollama 本地），具备工具调用、技能加载、子代理委派、上下文压缩、安全沙箱等完整能力。在终端即可与 AI 结对编程。
 first_seen: '2026-09-12T05:17:38Z'
 last_seen: '2026-09-13T00:00:57Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

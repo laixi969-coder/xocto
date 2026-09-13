@@ -130,3 +130,54 @@
     existing terminal or script environments; risk-tiered permissions, replayable sessions, and a fail-closed
     sandbox reduce the concern of letting an agent change local code, making it more likely to be chosen
     by developers who need to run agents in a controlled environment.'
+- id: req-full-cluxmate-2026-09-13
+  project_slug: cluxmate
+  level: full
+  reviewed_at: '2026-09-13T00:23:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让开发者在真实仓库里安全地委托代码改动：痛点是破坏性操作不可逆、权限过宽、过程无法复盘，旧做法是手动复制粘贴并自行执行命令。公开说明已能还原输入（任务）、动作（代理读写文件执行命令）、交付（改动后的代码仍需开发者确认）与不解决的后果，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 119 增至 151，说明开源社区注意到该项目，但收藏与排名只属关注度，不能证明目标开发者已把它留在日常工作流或持续使用；缺少 issue、discussion 或客户案例中的实际使用描述。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+    - ev-df123408e687cf95
+    - ev-0e92c55e8f553582
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断收入来自 to C 开发者订阅、to B 团队授权还是仅靠开源与融资；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+  - gate: truth
+    status: insufficient
+    reason: 风险分级权限与 fail-closed 沙箱是产品自述能力，尚无部署文档、可复现实测或安全边界说明来核验交付是否稳定发生、人工确认环节是否可靠；中文生态检索也未发现对应公开材料。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+    - ev-811ba250978d592e
+  next_validation: 追踪 CluxMate 仓库的 issue 与 discussion，确认是否有开发者描述在真实仓库中部署、替代了哪种旧流程以及沙箱与权限的实际表现。
+  market: ''
+  job: 软件开发者在自己已有的代码仓库里，用自然语言给出一个改动任务（如修 bug、加功能、重构），让代理在本地读写文件、执行命令并产出可审查的代码改动，同时希望过程可回放、危险操作受控。
+  job_en: A software developer working in an existing repository gives a natural-language change task
+    (bug fix, feature, refactor) and has an agent read/write files, run commands, and produce reviewable
+    code changes, with replayable sessions and controlled risky operations.
+  pain: 让模型直接改本地代码时，开发者担心不可逆的破坏性操作、越权访问和无法复盘的过程；同时不同入口（脚本、终端、桌面）各自为政，切换成本高。公开材料只给出产品能力，痛点强度属于工作流结构推理。
+  pain_en: When letting a model modify local code, developers worry about irreversible destructive actions,
+    over-broad permissions, and sessions they cannot audit; separate entry points (script, terminal, desktop)
+    also fragment the workflow. Public material only states capabilities, so pain intensity is a workflow
+    inference.
+  current_alternative: 旧做法是开发者手动复制粘贴代码到聊天窗口、自己执行命令并逐条审查，或使用单一入口的编码代理；公开材料未说明它具体替代了哪一款工具。
+  current_alternative_en: The prior approach is manually pasting code into a chat window, running commands
+    by hand and reviewing line by line, or using a single-entry coding agent; public material does not
+    say which tool it replaces.
+  usage_reason: 推断：相较手动复制粘贴与自行执行命令，它把任务交给代理直接读写仓库，并用风险分级权限和 fail-closed 系统级沙箱限制危险动作，用事件溯源会话让改动可回放，从而减少人工搬运与事后无法复盘这两步负担；重视可审计与安全边界的开发者会因此选择它。
+  usage_reason_en: 'Inference: versus manual copy-paste and hand-run commands, it lets the agent read/write
+    the repo directly while risk-tiered permissions and a fail-closed OS sandbox constrain dangerous actions,
+    and event-sourced sessions make changes replayable, removing the manual shuttling and the inability
+    to audit afterwards; developers who value auditability and safety boundaries would choose it for that
+    reason.'

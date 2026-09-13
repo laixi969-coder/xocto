@@ -1,6 +1,6 @@
 ---
 slug: 智己全新ls6预售搭载人工智能体
-name: 智己全新LS6预售，搭载人工智能体
+name: 智己全新LS6
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Zb1hWOGNLSEJU
 summary: 智己全新LS6预售，搭载人工智能体 新京报
 first_seen: '2026-09-11T12:58:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 智己全新LS6预售，搭载人工智能体
+# 智己全新LS6
 
 智己全新LS6预售，搭载人工智能体 新京报
 

@@ -302,3 +302,43 @@
   usage_reason: 无法判断用户为何会选择它：缺少功能说明、输入输出、使用方式与任何用户反馈，仅凭仓库名称和收藏数不能解释采用动机。
   usage_reason_en: 'Why users would choose it cannot be judged: there is no feature description, input/output,
     usage path, or user feedback, and a repository name plus star count cannot explain adoption motivation.'
+- id: req-full-fermats-last-theorem-2026-09-13
+  project_slug: fermats-last-theorem
+  level: full
+  reviewed_at: '2026-09-13T00:24:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有名称与收藏数，未披露功能、输入材料与交付结果，无法写出用户任务、痛点、旧替代与不解决的后果，连需求结构都还原不了。
+    evidence_ids:
+    - ev-9dadf808ba21f75f
+    - ev-ee3b3297ba715ef2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认它实际提供的功能、输入输出与使用场景。
+  market: ''
+  job: 公开材料只显示这是 Anthropic 发布、名为费马大定理的代码仓库，未说明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public materials only show an Anthropic-released repository named after Fermat's Last Theorem;
+    they do not state who, in what situation, handles what material, to complete what task.
+  pain: 仓库描述未披露功能，无法指出用户具体卡在哪一步、不解决会有什么后果，也没有用户抱怨或替代行为可引用。
+  pain_en: The repository description discloses no functionality, so no specific user bottleneck, consequence
+    of leaving it unsolved, complaint, or workaround can be cited.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently do the relevant work, nor what
+    prior practice this repository replaces.
+  usage_reason: 仅有收藏数从 916 增至 1,128 的关注度变化，属于规模信号，不能解释用户为何选择它；缺少功能说明、使用反馈或案例，无法给出选择理由。
+  usage_reason_en: Only star growth from 916 to 1,128 is available, which is an attention signal and cannot
+    explain why users choose it; with no feature description, feedback, or case, no usage reason can be
+    given.

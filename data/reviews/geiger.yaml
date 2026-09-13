@@ -100,3 +100,47 @@
     search into a single output, so people rolling agents into dev or production environments and needing
     to account for the component list are likely to try it first; this is an inference from product capability,
     with no retention or repeat-use evidence.
+- id: req-full-geiger-2026-09-13
+  project_slug: geiger
+  level: full
+  reviewed_at: '2026-09-13T00:24:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决 AI agent 与插件无台账、权限不可见的问题，但全部引用证据分别指向家具品牌、促销品分销商和盖革计数器，没有任何公开事实能还原用户任务、痛点或旧替代行为，需求结构无法成立。
+    evidence_ids:
+    - ev-b642c8671915b71c
+    - ev-71189d2b0a6b16a8
+    - ev-35c1c6c25cc51965
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Geiger 项目自身的官方仓库 README、issue 与 discussion，确认其是否真实存在、能识别哪些 AI agent 与 MCP server，以及是否有可复现的扫描输出说明。
+  market: ''
+  job: 开发者或安全工程师在本地开发机、CI 机器或同事电脑上，面对陆续装上的 AI agent、MCP server 与插件，需要先列出一份组件清单，弄清各自能访问什么，再决定保留、隔离还是收紧权限。
+  job_en: A developer or security engineer on a local dev machine, CI box or a colleague's computer, facing
+    AI agents, MCP servers and plugins installed over time, needs a component inventory showing what each
+    can reach before deciding what to keep, isolate or restrict.
+  pain: 公开材料中没有任何用户抱怨、workaround 或客户案例能证明“组件无台账、权限不可见”这一痛点真实存在；现有证据全部指向家具、促销品和盖革计数器，与 AI agent 清点无关。
+  pain_en: No public complaint, workaround or customer case in the evidence shows that 'no register of
+    components, invisible permissions' is a real pain; all cited evidence points to furniture, promotional
+    products and radiation counters, unrelated to AI agent inventory.
+  current_alternative: 无法从公开证据确认用户当前如何绕过该问题；候选摘要所述的手工翻目录、逐个查看扩展属于产品描述推断，缺少可引用的用户行为证据。
+  current_alternative_en: Public evidence does not establish how users currently work around this; the
+    manual directory browsing described in the summary is product-description inference without citable
+    user-behavior evidence.
+  usage_reason: 无法给出有证据支撑的使用理由：现有证据无法说明谁在什么情况下会选它，也无法说明相较旧做法减少了哪一步负担，因此不构成可判断的需求结构。
+  usage_reason_en: 'No evidence-backed usage reason can be given: the evidence does not show who would
+    choose it under what circumstances or which step it removes versus the old approach, so no judgeable
+    demand structure exists.'

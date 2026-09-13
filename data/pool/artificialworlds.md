@@ -21,7 +21,7 @@ canonical_url: https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai
 summary: Feeling Sad about AI
 first_seen: '2026-09-11T16:50:51Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

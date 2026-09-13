@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ESUYxS0thNmRP
 summary: 威尼斯国际米兰发布‘星云’AI数据库，推动智能数据底座新范式 体坛加
 first_seen: '2026-09-11T07:25:36Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

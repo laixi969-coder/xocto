@@ -78,3 +78,45 @@
   usage_reason_en: 'Inference: if it runs on Cloudflare''s usage-billed components, small teams would
     not pay for idle seats; however, the public material gives no adoption, retention or customer evidence,
     so it cannot be confirmed that this choice actually happens.'
+- id: req-full-resolvehq-2026-09-13
+  project_slug: resolvehq
+  level: full
+  reviewed_at: '2026-09-13T00:25:47Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决小团队工单系统的自部署与按量计费需求，但公开材料只有技术栈描述，没有具体用户任务、痛点强度、不采用后果与旧替代行为，价值结构无法还原，属自嗨拼凑。
+    evidence_ids:
+    - ev-05d92ff8f0c13b54
+    - ev-0a00355bf85ccb96
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 公开代码仓库.com/mirza-rizvi/ResolveHQ 的 README、issue 与 release，确认是否包含 AI 自动回复、部署方式与是否提供托管收费版本。
+  market: ''
+  job: 中小团队的技术负责人在搭建客户支持工单流程时，需要一套可自行部署、按量计费的工单系统，把客户来信、退款与物流查询等请求收进统一队列并分派处理。
+  job_en: Technical leads at small teams setting up a customer support ticketing flow need a self-deployable,
+    usage-billed helpdesk that collects customer emails, refund and WISMO requests into one queue and
+    routes them for handling.
+  pain: 公开材料只给出 Cloudflare Workers、D1、R2、Queues 的技术栈描述，没有说明团队原本卡在哪一步、不解决会有什么后果，也没有用户抱怨或 workaround 记录，痛点强度无法还原。
+  pain_en: The public material only describes the Cloudflare Workers, D1, R2 and Queues stack; it does
+    not say which step teams were stuck on or what happens if unsolved, and there are no user complaints
+    or workaround records, so pain intensity cannot be reconstructed.
+  current_alternative: 团队购买按席位收费的客服 SaaS，或自行从零搭建工单系统；公开材料没有记录任何团队实际采用或替换旧方案的行为。
+  current_alternative_en: Teams buy seat-priced support SaaS or build a ticketing system from scratch;
+    the public material records no team actually adopting it or replacing an old solution.
+  usage_reason: 推断：若它跑在 Cloudflare 按量计费组件上，小团队可省去闲置席位费用；但公开材料没有任何采用、留存或客户证据，无法确认这一选择真实发生，因此不能作为使用理由成立。
+  usage_reason_en: 'Inference: if it runs on Cloudflare''s usage-billed components, small teams could
+    avoid idle seat costs; however, the public material has no adoption, retention or customer evidence,
+    so it cannot be confirmed this choice actually happens and cannot stand as a usage reason.'

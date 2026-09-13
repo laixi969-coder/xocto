@@ -1,0 +1,83 @@
+- id: req-initial-liniora-2026-09-13
+  project_slug: liniora
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决项目跟进与状态汇总的需求，但材料未说明谁在什么环节难受、现在如何绕过，连痛点都写不出来。
+    evidence_ids:
+    - ev-ed92309f100d53f5
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，9 分与 8 条评论只反映一次社区曝光，不构成采用证据。
+    evidence_ids:
+    - ev-ed92309f100d53f5
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，且未披露买方与收费方式。
+    evidence_ids:
+    - ev-ed92309f100d53f5
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付内容与人工边界均无材料支持。
+    evidence_ids:
+    - ev-ed92309f100d53f5
+  next_validation: 收集 Liniora 官网的功能说明或定价页，确认它具体接收什么输入、产出什么交付物以及面向哪类团队。
+  market: ''
+  job: 团队负责人在多个任务并行、需要持续跟进进度和汇总状态时，希望有人替他完成催办与状态整理。
+  job_en: A team lead running parallel tasks and needing continuous progress follow-up and status roll-ups
+    wants someone else to handle chasing and status tidying.
+  pain: 候选资料只给出“替代项目经理”的定位，没有说明具体是谁在什么环节难受、现在怎么绕过，痛点无法还原。
+  pain_en: The candidate gives only the positioning 'replace your project manager' and does not say who
+    suffers at which step or how they work around it today, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，无法确认用户此前是用人工跟进、表格还是其他项目管理工具。
+  current_alternative_en: Public material does not state the current alternative, so it is unclear whether
+    users relied on manual follow-up, spreadsheets or other project management tools.
+  usage_reason: 无法判断：缺少功能、交付物与使用场景描述，无法说明它相较旧做法减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: 'Cannot be judged: with no description of features, deliverables or usage scenarios,
+    there is no way to say which step of burden it removes versus the old approach, so no usage reason
+    can be given.'
+- id: req-full-liniora-2026-09-13
+  project_slug: liniora
+  level: full
+  reviewed_at: '2026-09-13T00:24:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决项目跟进与状态汇总的需求，但材料只有一句定位语，未说明谁在什么环节难受、现在如何绕过、不解决会失去什么，连痛点都写不出来。
+    evidence_ids:
+    - ev-ed92309f100d53f5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Liniora 官网的功能说明或定价页，确认它具体接收什么输入、产出什么交付物以及面向哪类团队。
+  market: ''
+  job: 团队负责人在多线任务并行推进时，需要持续跟进各任务进度、催办负责人并汇总状态，希望由工具代替人工完成这些跟进动作。
+  job_en: A team lead running parallel workstreams needs to continuously follow up on task progress, chase
+    owners and roll up status, and wants a tool to take over that follow-up work.
+  pain: 候选资料只有一句“想过替换你的项目经理吗”的定位，没有说明具体是谁在哪个环节难受、现在如何绕过、不解决会有什么后果，痛点无法还原。
+  pain_en: The candidate provides only the positioning line 'Ever thought about replacing your project
+    manager?' and does not say who suffers at which step, how they work around it today, or what happens
+    if it stays unsolved, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，无法确认用户此前是用人工跟进、表格、站会还是其他项目管理工具完成这项任务。
+  current_alternative_en: Public material does not state the current alternative, so it is unclear whether
+    users relied on manual follow-up, spreadsheets, stand-ups or other project management tools for this
+    job.
+  usage_reason: 无法判断：缺少功能说明、输入输出与交付物描述，无法说明它相较旧做法减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: 'Cannot be judged: with no description of features, inputs, outputs or deliverables,
+    there is no way to say which step of burden it removes versus the old approach, so no usage reason
+    can be given.'

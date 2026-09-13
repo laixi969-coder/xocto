@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/voxelwall
 summary: Music-reactive live wallpapers for Mac
 first_seen: '2026-09-10T06:29:28Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

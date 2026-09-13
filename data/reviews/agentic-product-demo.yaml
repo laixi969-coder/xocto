@@ -260,3 +260,51 @@
     and has an agent generate the animated video, removing the recording and frame-by-frame editing steps
     and letting the interface rendering be regenerated as code changes; teams that frequently produce
     product demos would choose it when launching or refreshing sales materials.'
+- id: req-full-agentic-product-demo-2026-09-13
+  project_slug: agentic-product-demo
+  level: full
+  reviewed_at: '2026-09-13T00:22:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产品团队制作演示视频耗时且画面不精致的问题：录屏加剪辑需反复重做，UI 一改视频即失效。以 UI 代码为素材由代理生成视频，交付物明确为可嵌入的视频文件，痛点与交付闭环在结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-52b21a38d9a434ff
+    - ev-b27b3fc05c8bf895
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 184 增至 237，说明开发者关注度上升，但星数只反映关注规模，不能证明持续采用；公开材料未见用户评价、案例或重复使用证据，无法判断是否进入真实工作流。
+    evidence_ids:
+    - ev-52b21a38d9a434ff
+    - ev-c2a0e05b73627053
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费版本或采购记录，谁付钱无法核验；可能面向 to B 营销预算或 to C 开发者，但均属判断而非已验证事实。
+    evidence_ids:
+    - ev-52b21a38d9a434ff
+  - gate: truth
+    status: supported
+    reason: 它贴近产品营销中“把产品讲清楚”的第一性目标，以代码为单一事实来源可避免录屏与真实界面不一致；交付为可复现的视频文件，确定性较高。但公开材料未说明人工审核与安全边界，此点仍属缺口。
+    evidence_ids:
+    - ev-52b21a38d9a434ff
+    - ev-b27b3fc05c8bf895
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认是否出现真实用户产出的演示视频案例或使用反馈。
+  market: ''
+  job: 产品经理或营销人员在需要为软件产品制作演示视频用于官网、销售材料或发布宣传时，把已有的产品 UI 代码交给 AI 编码代理，由代理基于 Remotion 生成可嵌入网页或分享的动画演示视频，而不是先录屏再剪辑。
+  job_en: A product manager or marketer who needs a demo video for a software product's website, sales
+    deck, or launch hands off existing product UI code to an AI coding agent, which generates an embeddable
+    or shareable animated demo video via Remotion instead of screen-recording and editing.
+  pain: 公开材料显示其定位是替代屏幕录制：录屏得到的画面不够精致，且需要人工剪辑、配音、对齐节奏，产品 UI 一旦改动视频就要重录重剪，重复劳动成本高。
+  pain_en: 'The public positioning is explicitly ''not a screen recording'': recorded footage looks unpolished
+    and requires manual editing, timing, and re-recording whenever the UI changes, creating repeated labor.'
+  current_alternative: 当前替代方式是屏幕录制工具加人工剪辑，或外包给视频制作团队；两者都依赖真实可运行的界面，且 UI 变更后需要重做。
+  current_alternative_en: The current alternative is screen-recording tools plus manual editing, or outsourcing
+    to a video production team; both depend on a runnable UI and must be redone when the UI changes.
+  usage_reason: 推断：相较录屏加剪辑，它把 UI 代码本身作为素材，由 AI 代理直接产出动画视频，省去录制与逐帧剪辑环节，并让 UI 改动可通过改代码重新生成；因此会写代码、且需要频繁更新演示视频的产品团队更可能选择它。公开材料未提供用户反馈或客户案例，动机属结构推断。
+  usage_reason_en: 'Inference: versus recording plus editing, it treats UI code as the source material
+    and has an AI agent emit the animated video directly, removing the capture and frame-by-frame editing
+    steps and letting UI changes regenerate the video; teams that write code and refresh demos often are
+    therefore the likely adopters. No user feedback or customer case is public, so this motive is structural
+    inference.'

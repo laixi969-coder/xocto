@@ -137,3 +137,55 @@
     in the proof assistant, skipping from-scratch formalization and turning a checkable outcome from ''readers
     trust the derivation'' into ''the machine decides pass or fail step by step''; hence researchers and
     formal-verification engineers who need independent checking of that result would choose it.'
+- id: req-full-navierstokesandeuler-2026-09-13
+  project_slug: navierstokesandeuler
+  level: full
+  reviewed_at: '2026-09-13T00:24:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决核验偏微分方程与流体力学证明时人工逐行复核慢且易漏的需求，痛点是推导错误难以排除；仓库公开提供与论文结果配套的 Lean 证书，交付物为机器可复核的检查结果，属工作流结构推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-da03cdefdae47044
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实仅有仓库收藏数从 1,592 增至 1,823，说明社区关注度上升；但缺少 issue、discussion、客户案例或复现记录，无法证明目标用户已把它留在核验工作流中持续使用。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-da03cdefdae47044
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：仓库为开源发布，公开材料未见定价页、付费主体或采购记录，钱可能来自机构研究经费、学术出版方或资助，to B/to G 路径均未核验。
+    evidence_ids:
+    - ev-f4c0fef408881008
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明证书随结果发布，未给出证书覆盖范围与论文的对应关系、Lean 版本与依赖、可复现的检查通过记录，也未说明人工判断与机器结果的边界如何划分。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-bfa0924700ce4f1a
+  next_validation: 追踪该仓库的 README、release 与 issue/discussion，确认 Lean 证书覆盖哪些论文结果、依赖版本与可复现的检查通过记录。
+  market: ''
+  job: 数学研究者与形式化验证工程师在核验偏微分方程与流体力学相关论文结果时，打开该仓库，把随论文一同发布的 Lean 证书文件交给 Lean 证明助手，逐条检查推导步骤，得到机器可复核的证明通过或失败结果，再由人工判断其在数学上意味着什么。
+  job_en: Mathematics researchers and formal verification engineers, when checking PDE and fluid-dynamics
+    results, open this repository, feed the Lean certificate files released alongside the paper into the
+    Lean proof assistant, have each derivation step machine-checked, and obtain a machine-verifiable pass
+    or fail result that a human then interprets mathematically.
+  pain: 公开事实只说明仓库提供 Lean 证书；结构推理上，人工逐行复核长证明既慢又易漏，且无法排除细微推导错误，因此需要机器可复核的检查环节。公开材料未给出用户抱怨、频率或不采用的具体代价。
+  pain_en: Public facts only show the repository ships Lean certificates; structurally, line-by-line human
+    checking of long proofs is slow, error-prone, and cannot rule out subtle derivation errors, so a machine-checkable
+    step is needed. Public materials give no user complaints, frequency, or concrete cost of not adopting
+    it.
+  current_alternative: 旧做法是人工阅读论文与证明、同行评审，或自行在 Lean 等证明助手中重写证明；公开材料未说明用户此前是否已有其他证书仓库或工具链。
+  current_alternative_en: The old way is reading the paper and proof by hand, peer review, or rewriting
+    the proof oneself in Lean or another proof assistant; public materials do not show whether users already
+    had other certificate repositories or toolchains.
+  usage_reason: 推断：相较人工重写或逐行复核，该仓库直接提供与论文结果配套的 Lean 证书，用户只需让证明助手接收并检查，省去自行形式化整条推导的步骤，因此关注形式化验证的数学研究者会在核验这类结果时选择它。仓库收藏数只说明关注度，不构成使用理由。
+  usage_reason_en: 'Inference: versus rewriting or checking by hand, the repository directly provides
+    Lean certificates paired with the paper''s results, so users only need the proof assistant to ingest
+    and check them, skipping the step of formalizing the whole derivation themselves; formal-verification-minded
+    researchers would therefore pick it when checking such results. Star counts indicate attention, not
+    a usage reason.'

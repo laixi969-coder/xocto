@@ -1,11 +1,15 @@
 ---
 slug: 外滩大会观察模型红利见顶-智能体工厂正成为产业ai落地新入口
-name: 外滩大会观察：模型红利见顶 智能体工厂正成为产业AI落地新入口
+name: 智能体工厂
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月外滩大会观察指出模型红利见顶，智能体工厂正成为产业AI落地的新入口。这一判断意味着产业AI的竞争重心可能从基础模型能力转向智能体的工程化交付与场景集成，对AI应用的落地方式和交付效率提出新要求。
 inspiration: ''
-summary_en: ''
+summary_en: A September 2026 Bund Summit observation noted that model dividends are peaking and agent
+  factories are becoming a new entry point for industrial AI deployment. This suggests the competitive
+  focus of industrial AI may shift from foundation model capability toward engineering delivery and scenario
+  integration of agents, raising new requirements for deployment methods and delivery efficiency of AI
+  applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE9mTGg1UFhwQlkx
 summary: 外滩大会观察：模型红利见顶 智能体工厂正成为产业AI落地新入口 金融界
 first_seen: '2026-09-12T10:42:46Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# 外滩大会观察：模型红利见顶 智能体工厂正成为产业AI落地新入口
+# 智能体工厂
 
 外滩大会观察：模型红利见顶 智能体工厂正成为产业AI落地新入口 金融界
 

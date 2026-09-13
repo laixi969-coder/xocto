@@ -123,3 +123,52 @@
     TTS voiceover, subtitles, and chapter progress into one code-rendered pass after a single topic input,
     reducing step-by-step manual work; creators and educators needing fast or batch explainer videos would
     choose it in that situation.'
+- id: req-full-anything2explainer-2026-09-13
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-13T00:23:17Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把主题快速变成带配音、字幕、章节进度条的 MG 讲解视频这一任务，痛点在于手工动画、配音、字幕多步协作成本高；公开材料只给出输入输出闭环，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-86ee4d5c12bd35de
+    - ev-11fbcc49d5d872c0
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 933 增至 1,057，说明开发者持续关注并收藏该 skill；但这是关注度证据，不能证明目标用户已长期留在工作流或付费。
+    evidence_ids:
+    - ev-0d86724bc13d1433
+    - ev-5e997934bb7af3ea
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，谁付钱尚不清；这是判断而非已验证事实，模式缺口不反推需求不存在。
+    evidence_ids:
+    - ev-0a28d9b949635c17
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供可复现的生成样例、失败率或人工审核边界，交付能否稳定发生尚缺证据；仅凭 README 描述无法确认每帧代码绘制在真实主题上的确定性。
+    evidence_ids:
+    - ev-86ee4d5c12bd35de
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有用户报告实际生成视频的失败案例、人工修正步骤或部署反馈。
+  market: ''
+  job: 内容创作者、教育者或营销人员在需要把某个主题快速做成一条可发布的科普讲解视频时，把主题文字交给 Claude Code / Codex，由 skill 生成黑底 MG 动图、TTS 配音、字幕和章节进度条的视频文件。
+  job_en: A content creator, educator, or marketer who needs to turn a topic into a publishable explainer
+    video hands the topic text to Claude Code / Codex, and the skill produces a black-canvas motion-graphics
+    video with TTS voiceover, subtitles, and a chapter progress bar.
+  pain: 公开材料只说明输入主题即可产出带配音的讲解视频，未记录用户抱怨、制作耗时或外包成本，因此痛点强度属于工作流结构推理：从零做 MG 动图加配音加字幕通常需要动画、配音、剪辑多步协作，不解决则只能停留在文字或低完成度视频。
+  pain_en: 'Public materials only state that a topic yields a narrated explainer video; they record no
+    user complaints, production hours, or outsourcing costs. The pain intensity is therefore a workflow-structure
+    inference: producing motion graphics plus voiceover plus subtitles from scratch normally spans animation,
+    dubbing, and editing steps, and leaving it unsolved keeps output at text or low-fidelity video.'
+  current_alternative: 公开材料未说明用户当前用什么替代；结构推理上，旧做法是人工在 After Effects 或剪辑软件中逐帧制作 MG 动画、单独录制配音并手动对齐字幕，或外包给视频制作方。
+  current_alternative_en: Public materials do not state the current substitute; by structural inference
+    the old approach is manually building motion graphics frame by frame in After Effects or an editor,
+    recording voiceover separately, and aligning subtitles by hand, or outsourcing to a video producer.
+  usage_reason: 推断：相较手工逐帧制作或外包，该 skill 把主题直接转成代码绘制的 Remotion 帧并自动生成 TTS 配音与字幕，减少了动画制作、配音录制和字幕对齐这几步人工负担，因此需要高频产出讲解视频、又缺少动画团队的内容创作者或教育者会在批量出片时选择它。
+  usage_reason_en: 'Inference: versus manual frame-by-frame production or outsourcing, the skill turns
+    a topic directly into code-drawn Remotion frames and auto-generates TTS voiceover and subtitles, removing
+    the animation, dubbing, and subtitle-alignment labor, so content creators or educators who need frequent
+    explainer videos without an animation team would choose it for batch output.'

@@ -407,3 +407,50 @@
   usage_reason_en: With no user feedback or customer case, there is no basis to say which step it removes
     or which checkable result it improves versus the old approach; the evidence is only dictionary definitions
     and coverage queries, which cannot support adoption motive.
+- id: req-full-reverify-2026-09-13
+  project_slug: reverify
+  level: full
+  reviewed_at: '2026-09-13T00:25:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LLM 在逆向工程等场景编造结论、人工逐条复核成本高的问题，痛点刚性来自错误结论进入交付后的返工；公开仓库说明其以 MCP 服务器和 CLI 把模型提议交给确定性工具裁决并保留证据，交付路径可确定。属工作流结构推理，尚无量化错误率或采用数据。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 1,178 个收藏，说明开发者社区已注意到该项目，但收藏只属关注度证据，未见 issue、discussion 或客户案例证明目标用户持续使用或把它留在工作流里。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出可复现的部署文档、确定性工具覆盖范围或人工与安全边界，无法核验“每条主张都被核对”能否确定性交付。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+  next_validation: 追踪 reverify 仓库的 issue、discussion 与 README 部署文档，确认是否有真实用户在逆向工程或 AI 应用开发中部署并替代原有复核流程。
+  market: ''
+  job: AI 应用开发者或逆向工程师在让 LLM 代理分析二进制、协议或代码并输出结论时，需要把模型提出的每条主张交给确定性工具核对，并保留可追溯的证据与上下文，避免模型编造事实。
+  job_en: AI application developers and reverse engineers who let LLM agents analyze binaries, protocols,
+    or code need each model claim checked by deterministic tools with traceable evidence and context preserved,
+    instead of trusting model output.
+  pain: LLM 在逆向工程等场景会生成看似合理但错误的结构、字段或结论，人工逐条复核成本高；一旦错误结论进入后续分析或交付，返工代价大。公开材料只给出产品定位，未量化错误率或返工成本，属结构推理。
+  pain_en: LLMs produce plausible but wrong structures, fields, or conclusions in reverse engineering;
+    manually re-checking every claim is costly, and a wrong conclusion entering later analysis or delivery
+    causes rework. Public materials state the positioning but do not quantify error or rework cost; this
+    is structural inference.
+  current_alternative: 当前替代方式是人工逐条核对模型输出、依赖模型自身置信度，或把结论直接写入分析流程而不做独立验证；公开材料未说明这些旧做法的具体使用比例。
+  current_alternative_en: Today users manually re-check model output, rely on the model's own confidence,
+    or push conclusions into the analysis pipeline without independent verification; public materials
+    do not show how widely these practices are used.
+  usage_reason: 推断：相较人工逐条复核，reverify 以 MCP 服务器和 CLI 形式把“模型提议、确定性工具裁决、逐条对照 ground truth 并保留证据”固化为可重复步骤，减少人工核对与上下文丢失的负担，因此需要高准确性的
+    AI 应用开发者和逆向工程师会在分析二进制或协议时选择它。
+  usage_reason_en: 'Inference: versus manual claim-by-claim review, reverify as an MCP server and CLI
+    fixes ''model proposes, deterministic tools decide, each claim checked against ground truth with evidence''
+    into a repeatable step, reducing manual checking and context loss, so accuracy-sensitive AI developers
+    and reverse engineers would choose it when analyzing binaries or protocols.'

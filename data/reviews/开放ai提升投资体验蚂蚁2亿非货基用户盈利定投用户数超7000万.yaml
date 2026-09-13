@@ -1,0 +1,92 @@
+- id: req-initial-开放ai提升投资体验蚂蚁2亿非货基用户盈利定投用户数超7000万-2026-09-13
+  project_slug: 开放ai提升投资体验蚂蚁2亿非货基用户盈利定投用户数超7000万
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决散户缺少低成本配置建议、人工投顾门槛高的问题，旧行为是自行判断或不做配置，痛点刚性但公开材料未说明AI具体介入环节。
+    evidence_ids:
+    - ev-4b92788e8639e9db
+    - ev-2a5e1ee8da1ff80c
+  - gate: consensus
+    status: insufficient
+    reason: 2亿非货基用户盈利与7000万定投用户是平台整体规模，不能归因到AI投顾功能本身，缺少该功能的独立采用数据。
+    evidence_ids:
+    - ev-4b92788e8639e9db
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露AI投顾的定价、收费方式或买方，判断为to C平台内嵌服务，尚无已验证付费路径。
+    evidence_ids:
+    - ev-2a5e1ee8da1ff80c
+  - gate: truth
+    status: insufficient
+    reason: 配置建议是否经人工复核、合规边界与交付确定性均未披露，无法核对建议质量与责任归属。
+    evidence_ids:
+    - ev-2a5e1ee8da1ff80c
+  next_validation: 收集蚂蚁财富官方投顾或AI配置功能的说明页与合规披露，确认AI生成建议的具体环节、人工复核机制与收费方式。
+  market: ''
+  job: 个人投资者在查看基金持仓和收益、决定是否调仓或开始定投时，需要处理自己的持仓数据和平台推荐内容，完成一次配置比例或定投金额的决策。
+  job_en: An individual investor reviewing fund holdings and returns, deciding whether to rebalance or
+    start recurring investment, must work through their own position data and platform recommendations
+    to settle on an allocation ratio or recurring amount.
+  pain: 普通投资者缺少持续、低成本的配置建议，人工投顾门槛高、费用高，自己判断容易追涨杀跌。
+  pain_en: Ordinary investors lack continuous, low-cost allocation advice; human advisors have high thresholds
+    and fees, and self-directed decisions easily chase rallies and sell dips.
+  current_alternative: 过去靠银行或券商人工投顾、社区帖子、自己看净值曲线判断，或干脆不做配置。
+  current_alternative_en: Previously they relied on human advisors at banks or brokerages, community posts,
+    reading NAV curves themselves, or simply not allocating at all.
+  usage_reason: 推断：相较人工投顾需要预约和付费，平台在用户查看持仓的同一界面直接给出配置比例与定投方案，省去单独咨询这一步，因此缺少投顾资源、又愿意接受标准化建议的散户会在调仓或定投时使用它。
+  usage_reason_en: 'Inference: unlike human advisory, which requires booking and fees, the platform delivers
+    allocation ratios and recurring-investment plans in the same screen where users view holdings, removing
+    a separate consultation step, so retail investors lacking advisory access but open to standardized
+    advice would use it when rebalancing or starting recurring investment.'
+- id: req-full-开放ai提升投资体验蚂蚁2亿非货基用户盈利定投用户数超7000万-2026-09-13
+  project_slug: 开放ai提升投资体验蚂蚁2亿非货基用户盈利定投用户数超7000万
+  level: full
+  reviewed_at: '2026-09-13T00:26:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决散户缺少低成本配置建议、人工投顾门槛高的问题，旧行为是自行判断或不做配置，痛点刚性；但公开材料未说明AI具体介入环节，属工作流结构推理。
+    evidence_ids:
+    - ev-4b92788e8639e9db
+    - ev-2a5e1ee8da1ff80c
+  - gate: consensus
+    status: insufficient
+    reason: 2亿非货基用户盈利与7000万定投用户是平台整体规模，不能归因到AI投顾功能本身，缺少该功能的独立采用数据。
+    evidence_ids:
+    - ev-4b92788e8639e9db
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露AI投顾的定价、收费方式或买方，判断为to C平台内嵌服务，尚无已验证付费路径，属判断而非事实。
+    evidence_ids:
+    - ev-2a5e1ee8da1ff80c
+  - gate: truth
+    status: insufficient
+    reason: 配置建议是否经人工复核、合规边界与交付确定性均未披露，无法核对建议质量与责任归属。
+    evidence_ids:
+    - ev-2a5e1ee8da1ff80c
+  next_validation: 追踪 蚂蚁财富 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 个人投资者在蚂蚁财富查看基金持仓与收益、决定是否调仓或开始定投时，需要处理自己的持仓数据和平台推荐内容，完成一次配置比例或定投金额的决策。
+  job_en: An individual investor reviewing fund holdings and returns on Ant Fortune, deciding whether
+    to rebalance or start recurring investment, must work through their own position data and platform
+    recommendations to settle on an allocation ratio or recurring amount.
+  pain: 普通投资者缺少持续、低成本的配置建议，人工投顾门槛高、费用高，自己判断容易追涨杀跌；公开报道只给出平台整体盈利与定投用户规模，未说明AI具体介入哪一步。
+  pain_en: Ordinary investors lack continuous, low-cost allocation advice; human advisors have high thresholds
+    and fees, and self-directed decisions easily chase rallies and sell dips. Public coverage gives only
+    platform-wide profitability and recurring-investor scale, not which step AI actually handles.
+  current_alternative: 过去靠银行或券商人工投顾、社区帖子、自己看净值曲线判断，或干脆不做配置。
+  current_alternative_en: Previously they relied on human advisors at banks or brokerages, community posts,
+    reading NAV curves themselves, or simply not allocating at all.
+  usage_reason: 推断：相较人工投顾需要预约和付费，平台在用户查看持仓的同一界面直接给出配置比例与定投方案，省去单独咨询这一步，因此缺少投顾资源、又愿意接受标准化建议的散户会在调仓或定投时使用它；公开材料未提供该功能的独立采用或留存证据。
+  usage_reason_en: 'Inference: unlike human advisory, which requires booking and fees, the platform delivers
+    allocation ratios and recurring-investment plans in the same screen where users view holdings, removing
+    a separate consultation step, so retail investors lacking advisory access but open to standardized
+    advice would use it when rebalancing or starting recurring investment; public materials provide no
+    independent adoption or retention evidence for this feature.'

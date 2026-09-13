@@ -37,7 +37,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhC
 summary: Kimi Targets $2B Annual Revenue & Prepares for $50B Valuation Hong Kong IPO 36 Kr
 first_seen: '2026-09-11T16:10:28Z'
 last_seen: '2026-09-13T00:01:15Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

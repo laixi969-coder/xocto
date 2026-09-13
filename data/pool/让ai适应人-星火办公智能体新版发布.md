@@ -1,6 +1,6 @@
 ---
 slug: 让ai适应人-星火办公智能体新版发布
-name: 让AI适应人 星火办公智能体新版发布
+name: 星火办公智能体
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9YNmNveklaa0lr
 summary: 让AI适应人 星火办公智能体新版发布 中国科技网
 first_seen: '2026-09-12T09:42:15Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 让AI适应人 星火办公智能体新版发布
+# 星火办公智能体
 
 让AI适应人 星火办公智能体新版发布 中国科技网
 

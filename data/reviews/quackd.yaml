@@ -270,3 +270,54 @@
     has the LLM plan and call existing skills, removing the step of rewriting glue logic for each new
     task; .duck safety contracts and cross-run memory further cut repeated state and boundary setup, so
     makers with assembled hardware trying new tasks quickly would pick it when iterating.'
+- id: req-full-quackd-2026-09-13
+  project_slug: quackd
+  level: full
+  reviewed_at: '2026-09-13T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把小型机器人已有的单步动作串成完成一个目标的序列，痛点是“knows its moves but not how to connect them”导致硬件就绪后仍无法完成任务；不解决的后果是机器人停在演示级、无法执行用户实际目标。这是基于公开产品说明与工作流结构的推理，尚无用户口述或采用数据佐证。
+    evidence_ids:
+    - ev-9fd968e3c0b6b2ad
+    - ev-16a916d955ed0734
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 168 增至 192，说明开发者社区持续关注该项目；但收藏与关注只属规模信号，公开材料没有用户评价、issue 讨论或案例说明谁在什么场景下持续使用，因此无法判断共识是否形成。
+    evidence_ids:
+    - ev-9fd968e3c0b6b2ad
+    - ev-206b1ff1e9599052
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未披露定价、付费主体或单位经济；钱可能来自 to C 开发者自用、to B 教育或机器人厂商集成，也可能仅靠捐赠或赞助，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9fd968e3c0b6b2ad
+  - gate: truth
+    status: insufficient
+    reason: 产品提供模拟器与 .duck 安全契约，方向上贴近“先验证再上真机”的第一性目标；但公开材料未给出可复现的部署记录、失败案例或人工介入边界，交付能否稳定发生仍缺证据。
+    evidence_ids:
+    - ev-16a916d955ed0734
+    - ev-a0044dc4c38a833b
+  next_validation: 追踪 quackd 官方仓库的 issue 与 discussion，确认是否有用户报告在真实机器人上完成具体任务、替代了手写动作脚本，以及安全契约在何种情况下触发。
+  market: ''
+  job: 小型机器人（Microduck、Open Duck Mini、LeRobot 机械臂、ROS 底盘）的开发者或创客，在已组装好硬件、机器人只会单步动作但不会串联的情况下，用自然语言说出目标，让
+    LLM 规划并执行动作序列，完成一次可运行的任务。
+  job_en: A developer or maker of a small robot (Microduck, Open Duck Mini, LeRobot arm, ROS base) who
+    has assembled the hardware and finds it knows individual moves but not how to chain them, states a
+    goal in natural language so an LLM plans and runs the step sequence to complete a runnable task.
+  pain: 公开说明指出机器人“knows its moves but not how to connect them”——单步动作已有，但把动作串成完成一个目标的序列需要人工编写与调试，这是硬件已就绪后卡住使用的一步。
+  pain_en: The public description states the robot 'knows its moves but not how to connect them' — individual
+    moves exist, but chaining them into a sequence that achieves a goal requires manual authoring and
+    debugging, which is the step that blocks use after the hardware is ready.
+  current_alternative: 用户目前自行编写动作脚本或 ROS 节点把单步动作串起来，或依赖厂商/社区提供的固定演示流程；公开材料未给出这些旧做法的具体耗时数据。
+  current_alternative_en: Users currently hand-write motion scripts or ROS nodes to chain individual moves,
+    or rely on fixed demo flows from the vendor or community; public materials give no concrete time data
+    for these old approaches.
+  usage_reason: 相较手写脚本串联动作，quackd 让用户用一句自然语言目标替代逐条编排动作序列这一步，并由 .duck 安全契约约束执行、模拟器先行验证、跨运行记忆保留上下文，因此已组装好小型机器人、想快速让机器人完成一个具体任务的开发者会在调试动作序列时选择它。这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with hand-writing scripts to chain moves, quackd replaces the step of authoring
+    each motion in sequence with a single natural-language goal, constrained by .duck safety contracts,
+    pre-validated in a simulator, and with memory across runs; therefore a developer who has assembled
+    a small robot and wants it to complete a concrete task would choose it while debugging motion sequences.
+    This is an inference from product capability and task structure, not yet confirmed by u

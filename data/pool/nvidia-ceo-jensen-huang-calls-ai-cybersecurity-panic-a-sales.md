@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE1xS2RiWDlOWlhM
 summary: Nvidia CEO Jensen Huang Calls AI Cybersecurity Panic a Sales Pitch BeInCrypto
 first_seen: '2026-09-11T13:38:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

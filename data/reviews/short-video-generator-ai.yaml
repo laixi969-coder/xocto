@@ -275,3 +275,58 @@
     link and gets multiple finished clips, removing the steps of watching the full video for highlights,
     timing each subtitle and moving files across tools; versus commercial SaaS it is free and self-hostable,
     so budget-sensitive independent creators and small teams willing to deploy it themselve'
+- id: req-full-short-video-generator-ai-2026-09-13
+  project_slug: short-video-generator-ai
+  level: full
+  reviewed_at: '2026-09-13T00:25:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把长视频高光剪成多语言竖屏短视频这一具体任务，痛点是人工回看定位、逐句打轴、翻译配音的重复劳动；公开说明已能还原输入—动作—交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-8953910189cacbbb
+    - ev-0d1eb8392145f382
+  - gate: consensus
+    status: supported
+    reason: 同一仓库收藏数从 831 增至 1,169，另有同名仓库从 120 增至 634，说明持续有人关注与复刻；但收藏与复刻只属关注度证据，不能证明目标用户已把它留在日常工作流中。
+    evidence_ids:
+    - ev-8953910189cacbbb
+    - ev-0d1eb8392145f382
+    - ev-d4bca971f6fa9773
+    - ev-c37e341596bc3844
+    - ev-e7b0ce197cf0ec4f
+  - gate: model
+    status: insufficient
+    reason: 项目标注为免费开源，公开材料未见定价页、付费客户或采购记录，钱可能来自捐赠、托管服务或后续商业化，但均属判断而非已验证事实，to C 付费路径尚未核验。
+    evidence_ids:
+    - ev-8953910189cacbbb
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、输出质量实测或人工与安全边界说明，高光检测与配音能否稳定交付、版权与平台合规如何处理均缺可复现证据。
+    evidence_ids:
+    - ev-0d1eb8392145f382
+    - ev-bd1f0d8862e3ce04
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有部署文档、输出样例与用户反馈，以核验高光检测与配音的交付稳定性及实际使用场景。
+  market: ''
+  job: 内容创作者或视频编辑在已有一期长视频（如 YouTube 访谈、播客、课程录像）的情况下，需要把其中高光片段剪成多条竖屏短视频，并配上字幕、翻译与配音，用于分发到短视频平台。
+  job_en: A content creator or video editor who already has a long-form video (e.g. a YouTube interview,
+    podcast, or course recording) needs to cut its highlight moments into multiple vertical short clips
+    with subtitles, translation, and voiceover for distribution on short-video platforms.
+  pain: 公开材料只说明它做高光检测、字幕、翻译、配音，未提供用户抱怨或案例；从工作流结构推理，长视频转短视频需要人工反复回看定位高光、逐句打轴、翻译并录制配音，是重复且耗时的机械步骤，但公开证据未量化其频率与不采用代价。
+  pain_en: Public materials only state that it performs highlight detection, subtitles, translation, and
+    voiceover, with no user complaints or cases; by workflow-structure inference, converting long video
+    to shorts requires manually re-watching to locate highlights, timing each subtitle line, translating,
+    and recording voiceover — repetitive mechanical steps — but public evidence does not quantify frequency
+    or the cost of not solving it.
+  current_alternative: 公开材料未说明用户当前用什么替代；结构上可推断的旧做法是人工在剪辑软件中回看定位高光、手动加字幕、借助翻译工具与录音完成配音，或使用 Opus Clip 等同类剪辑工具。
+  current_alternative_en: Public materials do not state what users currently use; the structurally inferable
+    alternatives are manually re-watching in an editor to find highlights, adding subtitles by hand, using
+    translation tools plus recording for voiceover, or using similar clipping tools such as Opus Clip.
+  usage_reason: 推断：相较人工回看定位高光并逐句打轴，该开源项目把高光检测、字幕、翻译、配音串成一条流水线，减少的是“先看完整片再手动定位与打轴”这一步；因此已有长视频素材、想批量产出多语言竖屏切片的内容创作者会在需要快速铺量时选择它。这是基于产品能力与任务结构的推断，公开材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with manually re-watching to locate highlights and timing each
+    subtitle line, this open-source project chains highlight detection, subtitles, translation, and voiceover
+    into one pipeline, removing the step of watching the full video and manually locating and timing segments;
+    therefore creators who already have long-form footage and want to mass-produce multilingual vertical
+    clips would choose it when they need to scale output quickly. This is an inference '

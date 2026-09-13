@@ -271,3 +271,51 @@
     and returns feedback, removing the step of building and maintaining an evaluation environment; developers
     needing a quick demo or comparison of agent decision-making would therefore choose it when no ready
     environment exists. This causal chain is workflow-structural inference, not yet ba'
+- id: req-full-bot-crossing-2026-09-13
+  project_slug: bot-crossing
+  level: full
+  reviewed_at: '2026-09-13T00:23:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句“A video game for AI agents”，未说明开发者当前用什么环境评测 agent、现有基准哪里不够用、不解决会失去什么。agent 评测已有 Gym、Atari、MineRL
+      等成熟替代，缺少刚性痛点与不可替代的交付结果，更像作者的有趣实验，属于没有也行。
+    evidence_ids:
+    - ev-cdfcf62cffde994c
+    - ev-e158a1970a0431d6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bot-crossing 仓库的 README、issue 与 discussion，确认是否有开发者公开描述接入的 agent 类型、替代的旧评测环境以及可复现的评测结果。
+  market: ''
+  job: AI agent 开发者或强化学习研究者在需要评估、演示或训练 agent 的决策能力时，把 agent 接入 bot-crossing 这个游戏环境，让 agent 在游戏世界中执行动作并观察反馈，以完成一次可展示或可比较的
+    agent 行为测试。
+  job_en: An AI agent developer or RL researcher who needs to evaluate, demo, or train an agent's decision-making
+    connects the agent to the bot-crossing game environment, lets it act in the game world and observe
+    feedback, to complete a demonstrable or comparable agent behavior test.
+  pain: 公开材料只有一句“A video game for AI agents”，没有说明开发者当前用什么环境做 agent 评测、现有环境哪里不够用、不解决会付出什么代价；因此无法确认这是一个刚性痛点，还是只是作者的一个有趣实验。
+  pain_en: Public material offers only the line 'A video game for AI agents' and does not state what environment
+    developers currently use for agent evaluation, where existing environments fall short, or what it
+    costs to leave the problem unsolved; so it is unclear whether this is a rigid pain point or just an
+    interesting experiment by the author.
+  current_alternative: 公开材料未说明替代方式；按工作流结构推断，agent 评测与训练通常已有 Gym/Gymnasium、Atari、MineRL、NetHack Learning
+    Environment 等成熟基准环境，以及各家自建的内部评测任务。
+  current_alternative_en: Public material does not state the alternative; by workflow inference, agent
+    evaluation and training typically already uses mature benchmarks such as Gym/Gymnasium, Atari, MineRL,
+    the NetHack Learning Environment, or in-house evaluation tasks.
+  usage_reason: 推断：如果它把接入成本压到一行 API、并给出可复现的分数或排行榜，开发者可能在需要快速演示或对比 agent 时试用它；但公开材料没有说明它相较上述基准环境减少了哪一步负担或改善了哪项可核对结果，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it reduces integration to a single API call and provides reproducible
+    scores or a leaderboard, developers might try it for quick demos or agent comparisons; but public
+    material does not say which step it removes or which checkable result it improves versus the benchmarks
+    above, so it cannot be confirmed that users would choose it for that reason.'

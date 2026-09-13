@@ -127,3 +127,52 @@
     returns the website, deck, report or PR directly, removing the step where the user wires tools together
     and integrates fragments; developers or PMs who need a whole artifact rather than snippets would choose
     it in that situation.'
+- id: req-full-useagent-2026-09-13
+  project_slug: useagent
+  level: full
+  reviewed_at: '2026-09-13T00:26:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把整块工作交给代理并拿回成品这一需求，痛点是本地逐段驱动编码代理、自行搬运上下文与整合片段，旧替代为本地代理拼接或外包；不采用则仍需人工串联。公开材料仅描述能力，未给用户反馈，故为工作流结构推理。
+    evidence_ids:
+    - ev-0fde6a7357b96863
+    - ev-c4d627a7e9644a3c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 283 缓慢升至 304，属关注度而非采用证据；无用户讨论、案例或评价，无法判断是否形成使用共识，也未显示强场景下的持续使用。
+    evidence_ids:
+    - ev-27d255c1af8a67fd
+    - ev-20144b123e2d8f46
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价页、付费路径或买方；可推测钱来自 to B 团队订阅或 to VC，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-0fde6a7357b96863
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近把任务交出去拿回成品这一目标，但公开材料未说明交付质量标准、失败回退与人工边界，也未提供可复现的交付结果，确定性交付无法核验。
+    evidence_ids:
+    - ev-c4d627a7e9644a3c
+  next_validation: 追踪 useagent 官方仓库 README、issues 与 discussion，确认是否有可复现的交付示例、失败处理说明及用户使用反馈。
+  market: ''
+  job: 开发者或产品经理在需要产出网站、演示文稿、电子表格、报告或 PR 时，把整项任务连同团队工具与上下文交给一个拥有独立云电脑的代理，由代理在云端执行并交回成品，而不是自己逐步操作。
+  job_en: A developer or PM who needs a website, deck, spreadsheet, report or PR hands the whole task,
+    along with team tools and context, to an agent with its own cloud computer, which executes in the
+    cloud and returns the finished artifact instead of the user doing every step.
+  pain: 公开材料显示现有做法是用户自己在本地或 IDE 里逐步驱动 Claude Code、Codex、OpenCode 等编码代理，任务被拆成片段，需要人工串联、搬运上下文并自行整合成可交付成果；跨工具、跨会话的上下文与执行环境要用户自己维护。
+  pain_en: Public material shows the current pattern is the user driving coding agents such as Claude
+    Code, Codex or OpenCode step by step locally or in an IDE, so work is fragmented, context must be
+    carried by hand, and the user still assembles the deliverable; environment and cross-tool context
+    are maintained manually.
+  current_alternative: 用户自行在本地运行编码代理并逐段拼接产出，或把整块工作外包给人类团队/自由职业者，或使用只生成片段而非成品的 AI 工具。
+  current_alternative_en: Users run coding agents locally and stitch outputs together, outsource the whole
+    block to human teams or freelancers, or use AI tools that produce fragments rather than finished artifacts.
+  usage_reason: 推断：相较本地逐段驱动代理，useagent 把执行环境搬到代理自有的云电脑，并接入团队工具与上下文，用户只需描述任务即可收到网站、报告或 PR 等成品，省去自己搭建运行环境、搬运上下文和整合片段这几步；因此当任务边界清晰、可交付物可核对时，开发者或产品经理会倾向选择它。公开材料未提供用户反馈或客户案例，此因果为基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: compared with driving an agent locally step by step, useagent moves execution
+    to the agent''s own cloud computer and connects team tools and context, so the user describes the
+    task and receives a finished website, report or PR, skipping environment setup, context shuttling
+    and fragment assembly; developers or PMs would choose it when the task is well bounded and the deliverable
+    is checkable. Public material provides no user feedback or customer case, so this causal '

@@ -1,0 +1,82 @@
+- id: req-initial-mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-2026-09-13
+  project_slug: mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知方向是机器人训练数据，未说明解决什么具体任务与痛点，无法还原旧流程。
+    evidence_ids:
+    - ev-ac95a88cf675a5d8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户、采用或场景共识证据。
+    evidence_ids:
+    - ev-ac95a88cf675a5d8
+  - gate: model
+    status: insufficient
+    reason: 买方与付费路径未披露，无法判断钱从哪来。
+    evidence_ids:
+    - ev-ac95a88cf675a5d8
+  - gate: truth
+    status: insufficient
+    reason: 交付是否确定、数据来源是否合规均无公开材料支持。
+    evidence_ids:
+    - ev-ac95a88cf675a5d8
+  next_validation: 收集 Mecka AI 官方产品页或客户案例，确认其数据采集与交付的具体环节。
+  market: ''
+  job: 机器人公司在训练新任务时，需要采集和标注真实场景的示教与录像数据，用于模型训练。
+  job_en: Robotics companies training new tasks need real-world demonstration and video data collected
+    and labeled for model training.
+  pain: 公开材料未说明具体痛点，只能推断真实场景数据采集与标注成本高、周期长。
+  pain_en: The public material does not state the specific pain; it can only be inferred that collecting
+    and labeling real-world data is costly and slow.
+  current_alternative: 公开材料未披露现有替代方式，可能包括机器人公司自建数据团队或外包标注，此为推断。
+  current_alternative_en: The public material does not disclose current alternatives; these may include
+    in-house data teams or outsourced labeling at robotics firms, which is an inference.
+  usage_reason: 材料只有融资信息，没有产品动作、交付结果或用户反馈，无法说明用户为何选择它。
+  usage_reason_en: The material contains only funding information, with no product action, deliverable
+    or user feedback, so it cannot explain why users would choose it.
+- id: req-full-mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-2026-09-13
+  project_slug: mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush
+  level: full
+  reviewed_at: '2026-09-13T00:24:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只显示 Mecka AI 处于红杉领投、约5亿美元估值的融资谈判中，方向为机器人训练数据；未说明解决什么具体任务与痛点，无法还原旧流程与交付，故价值关无法成立。
+    evidence_ids:
+    - ev-ac95a88cf675a5d8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Mecka AI 官方产品页、客户案例或部署文档，确认其数据采集与交付的具体环节及买方。
+  market: ''
+  job: 公开材料未披露具体使用场景：不清楚是机器人公司工程师、数据标注团队还是研究机构，在哪个训练环节、处理何种示教或录像材料、要产出什么交付物。
+  job_en: 'The public material discloses no concrete usage scenario: it is unclear whether robotics engineers,
+    labeling teams, or research groups open it, at which training step, with what demonstration or video
+    material, and what deliverable they must produce.'
+  pain: 公开材料只提到机器人训练数据这一方向，未说明任何具体痛点，无法判断是采集成本、标注质量、数据稀缺还是合规问题。
+  pain_en: The public material only names the robot training data direction and states no specific pain,
+    so it is impossible to tell whether the problem is collection cost, labeling quality, data scarcity,
+    or compliance.
+  current_alternative: 公开材料未披露现有替代方式，无法确认机器人公司目前是自建采集团队、外包标注还是使用开源数据集。
+  current_alternative_en: The public material discloses no current alternative, so it cannot be confirmed
+    whether robotics firms now build in-house collection teams, outsource labeling, or use open datasets.
+  usage_reason: 材料仅有融资谈判信息，没有产品动作、交付结果或用户反馈，无法解释任何用户为何选择它，也无法说明相较旧做法减少了哪一步负担。
+  usage_reason_en: The material contains only funding-negotiation information, with no product action,
+    deliverable, or user feedback, so it cannot explain why any user would choose it or which step of
+    the old workflow it reduces.

@@ -1,0 +1,88 @@
+- id: req-initial-dsh-council-2026-09-13
+  project_slug: dsh-council
+  level: initial
+  reviewed_at: '2026-09-13T00:00:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多模型结论难以核对的问题，但公开材料未说明具体任务与不采用的后果，价值判断证据不足。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: consensus
+    status: insufficient
+    reason: 53 个星标与 4 个分支属于开源关注度，不能说明任何人群已形成使用共识。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，无法判断钱来自个人开发者还是团队采购，属未核验。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: truth
+    status: insufficient
+    reason: 多模型互评是否真能提高结论可靠性、人工边界如何设定，公开材料未提供可核对结果。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  next_validation: 收集该仓库的 README 与 issue，确认它实际接收的问题类型、输出结论的形态，以及是否有使用者报告在真实决策中采用。
+  market: ''
+  job: 开发者或分析人员在需要高置信度结论时，把同一问题交给多个模型独立作答并互评，再人工查看最终决策依据。
+  job_en: A developer or analyst needing a high-confidence conclusion sends one question to multiple models
+    for independent answers and peer review, then manually inspects the final decision basis.
+  pain: 公开材料未说明具体痛点，只能推断单一模型答案难以核对、缺少可追溯依据。
+  pain_en: Public material states no specific pain; at most it can be inferred that a single model's answer
+    is hard to check and lacks a traceable basis.
+  current_alternative: 现有做法是分别向多个模型提问并人工比对，或直接采信单一模型的回答。
+  current_alternative_en: The current practice is to query several models separately and compare manually,
+    or simply trust one model's answer.
+  usage_reason: 推断：相较人工逐个模型提问再比对，它把独立作答、匿名互评和最终结论串成一次流程，减少手工汇总步骤；但公开材料没有用户反馈或采用证据，无法确认是否被持续使用。
+  usage_reason_en: 'Inference: compared with querying each model manually and comparing, it chains independent
+    answers, anonymous peer review and a final conclusion into one flow, cutting manual aggregation; but
+    there is no user feedback or adoption evidence to confirm continued use.'
+- id: req-full-dsh-council-2026-09-13
+  project_slug: dsh-council
+  level: full
+  reviewed_at: '2026-09-13T00:24:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决单一模型结论难以交叉核对的需求，痛点是缺少可追溯的第二意见；公开说明已给出独立作答、匿名互评与可查看最终决策的输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 53 个星标只反映开源关注度，不能证明开发者或分析人员已形成持续使用共识；公开材料未见 issue、讨论或客户案例说明谁在真实决策中采用。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，钱来自个人开发者还是团队采购无法判断；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: truth
+    status: insufficient
+    reason: 多模型互评是否真能提高结论可靠性、人工复核边界如何设定，公开材料未给出可核对结果；仅凭功能描述无法确认交付确定性。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认实际接收的问题类型、输出结论形态，以及是否有使用者报告在真实决策中采用。
+  market: ''
+  job: 开发者或分析人员在需要高置信度结论时，把同一问题交给多个模型独立作答并匿名互评，再人工查看可追溯的最终决策依据后自行决定是否采纳。
+  job_en: A developer or analyst needing a high-confidence conclusion sends one question to multiple models
+    for independent answers and anonymous peer review, then manually inspects a traceable final decision
+    basis before deciding whether to adopt it.
+  pain: 单一模型给出的结论缺少可核对的第二意见，用户难以判断答案是否可靠；公开材料只说明产品提供独立作答与匿名互评，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: A single model's conclusion lacks a checkable second opinion, so users cannot easily judge
+    reliability; public material only describes independent answers and anonymous peer review, with no
+    user complaints or adoption data, so pain intensity is a workflow-structure inference.
+  current_alternative: 现有做法是分别向多个模型提问再人工比对，或直接采信单一模型的回答，前者需要手工汇总，后者缺少交叉核对。
+  current_alternative_en: The current practice is to query several models separately and compare manually,
+    or simply trust one model's answer; the former requires manual aggregation and the latter lacks cross-checking.
+  usage_reason: 推断：相较逐个模型提问再人工比对，它把独立作答、匿名互评与最终结论串成一次流程，减少手工汇总与整理互评意见的步骤，因此需要可追溯决策依据的开发者或分析人员会在做高置信度判断时选择它；公开材料无用户反馈，持续使用未被证实。
+  usage_reason_en: 'Inference: compared with querying each model separately and comparing by hand, it
+    chains independent answers, anonymous peer review and a final conclusion into one flow, cutting the
+    manual aggregation and review-synthesis steps, so developers or analysts needing a traceable decision
+    basis would choose it for high-confidence judgments; no user feedback is public, so continued use
+    is unproven.'

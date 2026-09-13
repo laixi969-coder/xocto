@@ -302,3 +302,52 @@
     developers who use agents heavily and have accumulated many session logs would choose it when they
     want to cut repeated re-briefing. This is an inference from product capability and task structure,
     not yet backed by user feedback.
+- id: req-full-penelopaai-2026-09-13
+  project_slug: penelopaai
+  level: full
+  reviewed_at: '2026-09-13T00:25:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理会话教训无法沉淀的问题：用户反复纠正同类错误、重复交代上下文，旧做法是手工维护规则文件或凭记忆重述。不解决的后果是重复劳动与同类错误反复出现，痛点刚性来自代理高频使用。交付闭环（会话日志→模式提取→可复用技能）在公开说明中可还原，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-b0ecb79a51faeef3
+    - ev-02a935fb3fdf6e61
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 87 增至 126，说明开发者社区持续关注，但收藏与关注只属规模信号，不能证明目标用户已把它留在工作流或持续使用；缺少 issue、discussion 或用户评价说明真实采用场景。
+    evidence_ids:
+    - ev-b0ecb79a51faeef3
+    - ev-b073801d394e2bf3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断钱来自 to C 开发者订阅还是 to B 团队采购；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b0ecb79a51faeef3
+  - gate: truth
+    status: insufficient
+    reason: 公开说明未给出可复现的部署文档、集成方式或效果数据，交付能否稳定发生、以及会话日志的隐私与人工边界尚缺公开证据，无法核验承诺的确定性。
+    evidence_ids:
+    - ev-b0ecb79a51faeef3
+  next_validation: 追踪 Penelopa.ai 官方仓库的 README、issue 与 discussion，确认是否披露定价、部署方式及真实用户使用场景。
+  market: ''
+  job: 使用 Codex 或 Claude Code 的开发者，在一次或多次代理会话结束后，把真实会话日志交给 Penelopa，让它识别反复出现的失败与工作流模式，产出可复用的技能、检查项和提示词，用于下一次会话。
+  job_en: Developers using Codex or Claude Code hand real session logs to Penelopa after one or more agent
+    sessions, so it can identify recurring failures and workflow patterns and produce reusable skills,
+    checks, and prompts for the next session.
+  pain: AI 编码代理每次会话都从零开始，用户反复纠正同一类错误、重复粘贴同样的上下文与检查步骤；会话记录散落在本地，没有机制把一次会话的教训沉淀为下次可复用的资产，导致重复劳动和同类错误反复出现。
+  pain_en: AI coding agents start each session from scratch, so users repeatedly correct the same classes
+    of errors and re-paste the same context and checks; session logs sit locally with no mechanism to
+    turn one session's lessons into reusable assets, causing repeated work and recurring mistakes.
+  current_alternative: 当前替代方式是手工维护 CLAUDE.md、AGENTS.md、自定义提示词或规则文件，或凭记忆在每次会话中重复交代；这些做法依赖人工总结，容易遗漏且难以从真实会话中系统提取模式。
+  current_alternative_en: Today users hand-maintain CLAUDE.md, AGENTS.md, custom prompts or rule files,
+    or re-explain by memory each session; these depend on manual summarization, miss patterns, and rarely
+    extract them systematically from real sessions.
+  usage_reason: 推断：相较手工维护规则文件，Penelopa 直接读取真实 Codex/Claude Code 会话记录并自动提取重复模式，省去用户逐条回顾日志、手动归纳并改写提示词这一步，把会话教训直接转成可复用技能与检查项，因此频繁使用代理、且已感到重复纠正成本的开发者会在会话结束后选择它。
+  usage_reason_en: 'Inference: versus hand-maintaining rule files, Penelopa reads real Codex/Claude Code
+    session logs and automatically extracts recurring patterns, removing the step of manually reviewing
+    logs, summarizing, and rewriting prompts, and turning session lessons directly into reusable skills
+    and checks; developers who use agents frequently and already feel the cost of repeated corrections
+    would choose it after sessions.'

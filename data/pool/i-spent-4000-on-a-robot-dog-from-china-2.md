@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-d
 summary: Unitree might be the world’s most important robotics company.
 first_seen: '2026-09-12T11:00:53Z'
 last_seen: '2026-09-13T00:01:15Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

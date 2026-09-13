@@ -3,37 +3,36 @@ slug: ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio
 name: Clay
 builder: ''
 category: AI + 商业
-summary_zh: 销售开发和市场运营人员在做外呼或投放名单时，原本要手工在多个数据源之间拼公司信息、联系人字段和触发信号；Clay 接收这些表格与数据源，按用户设定的流程补全字段、筛选线索并生成外呼或投放名单，最终交付一张可直接导入
-  CRM 或序列工具的名单，字段准确性仍需人工抽查。
-inspiration: 趋势：销售线索数据补全与筛选正在从“买一份静态名单”变成“按信号持续生成名单”，数据源整合和流程编排成了新的竞争点。切入：可从中国出海 SaaS 或跨境电商的海外销售团队切入，先做某个垂直行业（如工业设备、医疗器械）的线索信号库，按交付的合格线索条数收费，而不是卖席位。
-summary_en: Sales development and marketing ops staff building outbound or campaign lists used to stitch
-  company data, contact fields and trigger signals together by hand across several sources; Clay takes
-  those spreadsheets and data sources, enriches fields, filters leads and produces an outbound or campaign
-  list that can be pushed into a CRM or sequencing tool, with field accuracy still needing human spot
-  checks.
-inspiration_en: 'Trend: lead enrichment and filtering is shifting from buying a static list to continuously
-  generating lists from signals, making data-source integration and workflow orchestration the new battleground.
-  Entry: start with overseas sales teams of Chinese SaaS or cross-border e-commerce firms, build a signal
-  library for one vertical such as industrial equipment or medical devices, and charge per qualified lead
-  delivered rather than per seat.'
+summary_zh: 销售开发与销售运营人员在准备外呼名单时，原本要手工在多个数据源之间拼凑公司信息、联系人字段和触发事件。Clay 接收这些线索与目标客户条件，自动完成数据补全、字段整理和触达序列编排，最终交付一份可直接用于外呼或邮件序列的名单；名单是否准确仍需人工抽查确认。具体流程与交付细节仍待核验。
+inspiration: 趋势是销售线索研究这一环正从人工查资料变成可编排的数据流水线，买方是收入团队而非个人。切入可考虑垂直行业版本：面向货代、医疗器械或地产经纪等有明确客户画像的行业，把行业特有的公开数据源（牌照、招标、开业信息）接进同一套补全与触达流程，按线索量或按成交结果计价，而不是卖通用席位。
+summary_en: Sales development and sales-ops staff preparing outbound lists used to assemble company details,
+  contact fields and trigger events by hand across several data sources. Clay takes those leads and target-account
+  criteria, enriches the data, normalizes fields and sequences outreach, delivering a list usable for
+  calls or email sequences; accuracy still needs human spot-checking. The exact workflow and deliverables
+  remain to be verified.
+inspiration_en: 'The trend is that prospect research is turning from manual lookups into an orchestrated
+  data pipeline, bought by revenue teams rather than individuals. A vertical entry is plausible: for freight
+  forwarding, medical devices or real-estate brokerages with clear customer profiles, wire industry-specific
+  public sources (licenses, tenders, new-opening records) into the same enrichment and outreach flow,
+  priced per lead or per closed deal instead of per seat.'
 priority_review: false
 project_type: ai_transformation
 industries:
-- 市场营销
 - 企业销售
+- 市场营销
 - 软件与信息服务
 industries_en:
-- Marketing
 - Enterprise Sales
-- Software and IT Services
+- Marketing
+- Software & IT Services
 jobs:
 - 销售开发代表
-- 市场运营人员
-- 增长负责人
+- 销售运营
+- 市场增长负责人
 jobs_en:
 - Sales Development Representative
-- Marketing Operations Specialist
-- Growth Lead
+- Sales Operations
+- Growth Marketing Lead
 regions:
 - 美国
 regions_en:
@@ -44,7 +43,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzNlYllqeFBU
 summary: AI sales startup Clay raises funding at a $7 billion valuation WION
 first_seen: '2026-09-01T21:19:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 - ia40

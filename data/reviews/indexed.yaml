@@ -232,3 +232,44 @@
   usage_reason: 无法判断：现有证据均为词典释义，未提供任何产品能力、用户反馈或使用场景，无法解释用户为什么会选择它。
   usage_reason_en: 'Cannot be determined: all available evidence consists of dictionary definitions, providing
     no product capability, user feedback, or usage scenario to explain why a user would choose it.'
+- id: req-full-indexed-2026-09-13
+  project_slug: indexed
+  level: full
+  reviewed_at: '2026-09-13T00:24:28Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句“多模态视频记忆”定位，检索到的证据多为词典释义页，无法还原用户任务、痛点、旧替代与不解决的后果，连需求本身都写不出来。
+    evidence_ids:
+    - ev-a1942463e21aa07c
+    - ev-766f4ad759fccbe7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 公开代码仓库 仓库 xiaotianfotos/indexed 的 README、issue 与 discussion，确认它实际处理的视频输入、输出交付物与使用场景描述。
+  market: ''
+  job: 个人用户或 AI 代理开发者希望把拍摄或录制的视频素材变成可检索、可被 AI 代理调用的记忆库，但公开材料未说明具体在什么情况下、处理哪类视频、要交付什么结果。
+  job_en: Individual users or AI agent developers want to turn captured video material into a searchable
+    memory store callable by AI agents, but public materials do not specify the situation, video type,
+    or deliverable.
+  pain: 公开材料只有一句产品定位，没有用户抱怨、旧流程摩擦或不解决的后果，无法确认痛点是否真实存在。
+  pain_en: Public materials contain only a one-line positioning statement, with no user complaints, legacy-workflow
+    friction, or consequence of inaction, so the pain cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何管理视频记忆，也未说明它替代了本地相册、云盘、向量数据库还是人工标注。
+  current_alternative_en: Public materials do not state how users currently manage video memory, nor whether
+    it replaces local albums, cloud drives, vector databases, or manual tagging.
+  usage_reason: 仅能推断：若产品真能把视频自动索引为可被 AI 代理查询的记忆，用户可能因省去人工整理而选择它；但这是推断，公开材料没有用户反馈或案例支持。
+  usage_reason_en: 'Inference only: if the product truly indexes video into agent-queryable memory, users
+    might choose it to skip manual organizing; but this is inference, with no public user feedback or
+    case support.'

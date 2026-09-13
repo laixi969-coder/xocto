@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ENGlaTmVraWRY
 summary: wafacash中国人携手生态伙伴启动智能体生态计划 赋能体育内容创作与粉丝互动 体坛加
 first_seen: '2026-09-12T04:23:38Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -200,3 +200,46 @@
     over the whole source tree, so entering a symbol directly yields definitions, references, and navigation,
     removing the file-by-file search and manual stitching step; developers onboarding to large unfamiliar
     codebases would choose it when cross-file symbol tracing is needed.'
+- id: req-full-opengrok-2026-09-13
+  project_slug: opengrok
+  level: full
+  reviewed_at: '2026-09-13T00:25:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称在 Grok Bot 中运行任意模型，但全部公开证据只描述 OpenGrok 是 Java 源码搜索与交叉引用引擎，未出现 Grok Bot、模型选择或配置痛点，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-087471686c531bce
+    - ev-ea1a9bc1b8a7e80e
+    - ev-ec0ece8e2866dddd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/OnlyTerp/opengrok 的 README、issue 与 release 说明，确认其是否真实提供 Grok
+    Bot 模型切换功能及用户使用反馈。
+  market: ''
+  job: 候选摘要称开发者可在 Grok Bot 中一键配置并切换任意模型，但公开证据中没有任何 Grok Bot 集成、模型选择界面或诊断功能的官方说明，无法还原具体使用场景。
+  job_en: The candidate summary claims developers can one-command configure and switch any model in Grok
+    Bot, but no public evidence documents any Grok Bot integration, model picker UI, or doctor feature,
+    so no concrete usage scenario can be reconstructed.
+  pain: 公开证据只描述 OpenGrok 是 Java 编写的源码搜索与交叉引用引擎，未提及模型切换、配置复杂或连接管理相关的用户痛点。
+  pain_en: Public evidence only describes OpenGrok as a Java-based source code search and cross-reference
+    engine; it mentions no user pain around model switching, configuration complexity, or connection management.
+  current_alternative: 公开材料未说明开发者当前如何完成模型切换或源码检索任务，无法确认替代方式。
+  current_alternative_en: Public materials do not state how developers currently accomplish model switching
+    or source code search tasks, so the alternative cannot be confirmed.
+  usage_reason: 证据中不存在用户反馈、客户案例或采用行为，无法解释哪类用户会在什么情况下选择它，也无法说明相较旧做法减少了哪一步负担。
+  usage_reason_en: No user feedback, customer cases, or adoption behavior exist in the evidence, so it
+    is impossible to explain which users would choose it under what circumstances or which step it removes
+    versus the old approach.

@@ -223,3 +223,42 @@
   usage_reason_en: Public materials are insufficient to explain why users would choose it; without user
     feedback, cases, or observable behavior, it is not possible to judge which step of the old workflow
     it reduces.
+- id: req-full-applied-micro-skills-2026-09-13
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-09-13T00:23:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮经济学研究者从取数、回归到出论文表并复现数字，但公开材料未记录用户痛点、复现失败代价或当前替代方式，连需求与痛点都难以还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的 公开代码仓库 仓库 README、issue 与 discussion，确认是否公开了具体研究场景、复现案例或用户反馈。
+  market: ''
+  job: 应用微观经济学研究者在处理实证数据、跑回归并整理论文表格时，使用 Claude Code / Codex skill 完成从取数、估计到出表，并复核数字能否复现。
+  job_en: An applied microeconomics researcher working with empirical data, running regressions, and assembling
+    paper tables uses Claude Code / Codex skills to go from data and estimation to tables, and to check
+    whether the numbers reproduce.
+  pain: 公开材料未记录任何用户抱怨、复现失败案例或时间成本，无法说明不解决的具体代价、发生频率或后果；仅凭产品说明不能确认痛点刚性。
+  pain_en: Public materials record no user complaints, reproduction failures, or time costs, so the specific
+    cost, frequency, or consequence of leaving it unsolved cannot be established; product description
+    alone cannot confirm pain rigidity.
+  current_alternative: 公开材料未说明研究者目前如何完成取数、回归与出表，也未说明该 skill 替代了 Stata 脚本、手工整理还是其他工作流。
+  current_alternative_en: Public materials do not state how researchers currently handle data, regressions,
+    and tables, nor what the skill replaces—Stata scripts, manual assembly, or another workflow.
+  usage_reason: 公开材料未提供用户反馈或客户案例，无法说明研究者为何选择它；仅凭仓库存在不能推断使用动机。
+  usage_reason_en: Public materials provide no user feedback or customer cases, so why researchers would
+    choose it cannot be stated; repository existence alone cannot support a usage motive.

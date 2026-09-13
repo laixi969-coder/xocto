@@ -21,7 +21,7 @@ canonical_url: https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang
 summary: 'The worst spam emails: iLands AI agent hustle'
 first_seen: '2026-09-12T11:13:38Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,94 @@
+- id: req-initial-oriveo-2026-09-13
+  project_slug: oriveo
+  level: initial
+  reviewed_at: '2026-09-13T00:00:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型切换与对话数据外流的痛点，自带密钥加本地留存让交付边界清楚，受合规约束的团队有明确使用理由。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标这一关注度信号，没有用户评价或企业采用案例，是否形成共识无法判断。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  - gate: model
+    status: insufficient
+    reason: 开源且无账号体系，公开材料未披露任何收费方式，买方与付费路径属于推断而非已验证事实。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  - gate: truth
+    status: supported
+    reason: 本地优先与自托管让数据留存可核对，密钥由用户自持，未发现把用户数据交给第三方的承诺冲突。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  next_validation: 收集该项目的官方部署文档或企业采用案例，确认是否存在自托管部署与运维的付费路径。
+  market: ''
+  job: 个人开发者或企业 IT 管理员在需要跨多家模型做对比或内部试用、又受数据外流限制时，处理自己的 API Key 与对话内容，要在一个客户端里完成多模型问答并让记录留在本地。
+  job_en: An individual developer or enterprise IT administrator who needs to compare or pilot several
+    models while being restricted on data leaving the premises handles their own API keys and conversation
+    content, and must run multi-model chat in one client with records kept locally.
+  pain: 同时使用多家模型意味着在多个网页或应用间切换、重复登录，且对话内容留在各家账号里，对受合规约束的团队不可接受。
+  pain_en: Using several providers means switching between multiple sites or apps and logging in repeatedly,
+    while conversation content sits in each vendor account, which is unacceptable for compliance-bound
+    teams.
+  current_alternative: 现有做法是分别使用各家官方客户端或网页，或自行拼装开源前端；前者无法统一管理密钥与记录，后者需要自己维护。
+  current_alternative_en: The current practice is to use each vendor's official client or website separately,
+    or to assemble an open-source front end oneself; the former cannot unify key and record management,
+    the latter needs self-maintenance.
+  usage_reason: 推断：它把“多平台切换 + 账号登录”合并为“一次填入自有密钥、本地留存”，省掉逐家登录与数据外流这一步，因此对数据不能出内网、又要横向比较模型的开发者与 IT 管理员更有吸引力；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: it merges ''switching platforms and logging in'' into ''enter your own
+    key once and keep data local'', removing repeated logins and data leaving the premises, which appeals
+    to developers and IT administrators who cannot let data leave the intranet yet need to compare models;
+    public material provides no retention or repeat-use evidence.'
+- id: req-full-oriveo-2026-09-13
+  project_slug: oriveo
+  level: full
+  reviewed_at: '2026-09-13T00:25:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型切换与对话数据外流的痛点：用户要在一个客户端里用自有密钥跑多家模型并让记录留在本地，受合规约束的团队不解决就只能逐家登录或自建前端，交付边界清楚。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标这一关注度信号，没有用户评价、企业采用案例或重复使用记录，是否形成共识无法判断。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  - gate: model
+    status: insufficient
+    reason: 开源且无账号体系，公开材料未披露任何收费方式，买方与付费路径属于推断而非已验证事实。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  - gate: truth
+    status: supported
+    reason: 本地优先与自托管让数据留存可核对，密钥由用户自持，未发现把用户数据交给第三方的承诺冲突。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  next_validation: 追踪该项目的官方部署文档或企业采用案例，确认是否存在自托管部署与运维的付费路径。
+  market: ''
+  job: 个人开发者或企业 IT 管理员在需要同时试用或对比多家模型、又受数据外流限制时，处理自己的 API Key 与对话内容，要在一个 iOS、Android 或网页客户端里完成多模型问答，并让记录留在本地或自托管环境。
+  job_en: An individual developer or enterprise IT administrator who must trial or compare several models
+    while being restricted on data leaving the premises handles their own API keys and conversation content,
+    and must run multi-model chat in one iOS, Android or web client with records kept locally or self-hosted.
+  pain: 同时使用多家模型意味着在多个网页或应用间切换、重复登录，且对话内容留在各家账号里；对受合规约束的团队，把内部材料交给第三方账号不可接受，自建前端又要自己维护。
+  pain_en: Using several providers means switching between multiple sites or apps and logging in repeatedly,
+    while conversation content sits in each vendor account; for compliance-bound teams, handing internal
+    material to third-party accounts is unacceptable, and building a front end oneself requires self-maintenance.
+  current_alternative: 现有做法是分别使用各家官方客户端或网页，或自行拼装开源前端；前者无法统一管理密钥与记录，后者需要自己维护。
+  current_alternative_en: The current practice is to use each vendor's official client or website separately,
+    or to assemble an open-source front end oneself; the former cannot unify key and record management,
+    the latter needs self-maintenance.
+  usage_reason: 推断：相较逐家登录官方客户端的旧做法，它把“多平台切换 + 账号登录”合并为“一次填入自有密钥、本地留存”，省掉逐家登录与数据外流这一步，因此对数据不能出内网、又要横向比较模型的开发者与
+    IT 管理员更有吸引力；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with logging into each vendor''s official client, it merges ''switching
+    platforms and logging in'' into ''enter your own key once and keep data local'', removing repeated
+    logins and data leaving the premises, which appeals to developers and IT administrators who cannot
+    let data leave the intranet yet need to compare models; public material provides no retention or repeat-use
+    evidence.'

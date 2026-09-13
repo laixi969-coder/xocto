@@ -1,6 +1,6 @@
 ---
 slug: amd-backed-korean-ai-startup-upstage-considers-pre-ipo-round
-name: AMD-Backed Korean AI Startup Upstage Considers Pre-IPO Round
+name: Upstage
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNSEJtYjNyX0xk
 summary: AMD-Backed Korean AI Startup Upstage Considers Pre-IPO Round Bloomberg.com
 first_seen: '2026-09-10T03:50:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AMD-Backed Korean AI Startup Upstage Considers Pre-IPO Round
+# Upstage
 
 AMD-Backed Korean AI Startup Upstage Considers Pre-IPO Round Bloomberg.com
 

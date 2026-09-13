@@ -24,7 +24,7 @@ summary: OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 20
   human control. On the latter, he […]
 first_seen: '2026-09-12T21:16:28Z'
 last_seen: '2026-09-13T00:01:15Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

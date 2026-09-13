@@ -375,3 +375,56 @@
     and tool-call structure for retail, e-commerce, telecom, and entertainment, letting developers skip
     scenario-skeleton design and plug in their own catalog and order data; teams needing to quickly validate
     a shopping-assistant or merchant-operations agent would therefore pick it at the prototype stage.'
+- id: req-full-commerce-agents-2026-09-13
+  project_slug: commerce-agents
+  level: full
+  reviewed_at: '2026-09-13T00:23:48Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是企业开发者把 Claude 接入自有商品与订单系统、构建购物/商家智能体的需求；痛点是从零编排工具调用与交易动作成本高、周期长，不解决则智能体难以进入真实交易流程。公开材料给出零售、电商、电信、娱乐示例，可还原输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-0c1aeee1804cf90f
+    - ev-dbddbacad36666fc
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 2,370 持续升至 2,776，说明开发者社区持续关注并把它纳入参考；但收藏只属关注度证据，不能证明目标企业已将其长期留在生产工作流，也未见部署或复购反馈。
+    evidence_ids:
+    - ev-0c1aeee1804cf90f
+    - ev-dbddbacad36666fc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；按产品形态推断，钱可能来自使用 Claude API 的企业开发者（to B）或作为 Anthropic 平台获客入口（to VC/平台侧），但这是判断而非已验证事实，未见采购或付费记录。
+    evidence_ids:
+    - ev-0c1aeee1804cf90f
+  - gate: truth
+    status: insufficient
+    reason: 蓝图承诺可运行示例，但公开材料未给出部署文档、可复现实测或订单动作的安全与人工边界说明，交付能否在真实交易场景稳定发生尚缺可核验证据。
+    evidence_ids:
+    - ev-0c1aeee1804cf90f
+    - ev-0a09fd072d15f475
+  next_validation: 追踪 commerce-agents 官方仓库的 README、示例目录与 issue/discussion，确认是否有企业公开描述其部署场景、接入的商品/订单系统及替代的旧流程。
+  market: ''
+  job: 零售/电商/电信/娱乐企业的开发者或技术团队，在需要把 Claude 接入自有商品目录与订单系统时，处理商品信息、用户查询与订单数据，构建可执行推荐、下单、售后等动作的购物或商家智能体。
+  job_en: Developers or technical teams at retail, e-commerce, telecom, and entertainment companies who
+    need to wire Claude into their own catalog and order systems, taking product data, user queries, and
+    order records as input to build shopping or merchant agents that can recommend, place orders, and
+    handle after-sales actions.
+  pain: 从零搭建这类智能体要自己摸索工具调用、商品数据接入与订单动作编排，缺少可参照的骨架，试错成本高、上线周期长；不解决则团队要么重复造轮子，要么迟迟无法把智能体投入实际交易流程。
+  pain_en: Building such agents from scratch means figuring out tool calling, catalog integration, and
+    order-action orchestration alone, with no reference skeleton, so trial-and-error is costly and time-to-launch
+    is long; without it teams either rebuild the same scaffolding or never get agents into real transaction
+    flows.
+  current_alternative: 当前替代是团队自行基于 Claude API 从零编写工具调用与编排代码，或直接采用电商 SaaS 平台自带的固定客服/推荐机器人，前者重复劳动，后者难以深度接入自有商品与订单系统。
+  current_alternative_en: Today teams either hand-roll tool-calling and orchestration code on top of the
+    Claude API, or adopt fixed chatbot/recommendation bots bundled in e-commerce SaaS platforms; the former
+    duplicates effort, the latter cannot deeply integrate with their own catalog and order systems.
+  usage_reason: 推断：相较从零自研，该蓝图直接给出零售、电商、电信、娱乐的可运行示例与工具调用骨架，开发者可省去设计智能体与商品/订单系统对接结构这一步，把精力放在业务逻辑上；因此正在为自有电商或商家后台引入
+    Claude 智能体的技术团队，会在需要快速验证或缩短上线周期时选择它。
+  usage_reason_en: 'Inference: versus building from scratch, the blueprint supplies runnable examples
+    and a tool-calling skeleton across retail, commerce, telecom, and entertainment, letting developers
+    skip the step of designing how the agent connects to catalog and order systems and focus on business
+    logic; teams introducing Claude agents into their own commerce or merchant backends would therefore
+    pick it when they need fast validation or a shorter path to launch.'

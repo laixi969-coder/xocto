@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CSnJHYktTZkNm
 summary: ayx体育客户端下载全面激活身份，AI智能体解决方案重磅上线 体坛加
 first_seen: '2026-09-12T18:42:21Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

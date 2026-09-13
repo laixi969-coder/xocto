@@ -376,3 +376,50 @@
     and gets an answer tied to their own material, removing the step of locating and transporting snippets;
     creators with large archives who reuse old content for ideation, scripting or answering audience questions
     are the ones who would pick it.'
+- id: req-full-creator-agent-2026-09-13
+  project_slug: creator-agent
+  level: full
+  reviewed_at: '2026-09-13T00:23:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者个人语料分散在文档、音频、视频中、通用模型无法基于其素材作答的痛点，旧做法是人工翻找或手工转写后拼提示词，负担刚性且不采用就难以复用存量内容；这是从产品输入—动作—交付闭环作出的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-4f14160350037d39
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 119 增至 231，说明开发者持续关注并有人复刻，但收藏与复刻只属关注度证据，不能证明创作者已把它放进日常工作流；缺少 issue、discussion 或使用案例说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-4f14160350037d39
+    - ev-8cea33701461c9da
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、付费主体或商业条款，钱可能来自 to C 创作者订阅、to B 内容团队或 to VC 赞助，均属判断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-4f14160350037d39
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句仓库描述，未见部署文档、可复现实测或交付结果说明，无法核对音视频解析质量、回答是否稳定基于个人语料，以及人工与安全边界如何设定。
+    evidence_ids:
+    - ev-4f14160350037d39
+  next_validation: 追踪 creator-agent 仓库的 README、issue 与 discussion，确认是否出现具体创作者部署案例、支持的素材格式与交付结果说明。
+  market: ''
+  job: 独立创作者或内容运营者手上积累了大量自己的文档、播客音频和视频素材，在需要产出问答、脚本或二次内容时，把这些素材喂给 creator-agent，构建一个只基于自己语料的智能体来完成检索与生成。
+  job_en: An independent creator or content operator with a large personal corpus of documents, podcast
+    audio and video feeds those materials into creator-agent to build an agent grounded only in their
+    own corpus, then uses it for Q&A and content generation.
+  pain: 创作者的知识分散在文档、音频、视频等异构素材里，通用大模型不了解其个人语料，直接提问会得到泛化甚至编造的回答；要复用旧素材只能人工翻找、重听、重看，这一步负担重且难以规模化。
+  pain_en: A creator's knowledge is scattered across heterogeneous documents, audio and video; general
+    LLMs do not know that personal corpus and answer generically or hallucinate, while reusing old material
+    means manually searching, re-listening and re-watching at a cost that does not scale.
+  current_alternative: 当前替代方式是把素材手工整理成笔记或文档，再用通用聊天机器人加提示词，或直接人工翻找旧内容；这些做法要么丢失音视频信息，要么无法保证回答只基于自己的语料。
+  current_alternative_en: Today the alternatives are manually turning material into notes or documents
+    and prompting a general chatbot, or simply searching old content by hand; both either lose the audio/video
+    information or cannot guarantee answers stay grounded in one's own corpus.
+  usage_reason: 推断：相较手工整理加通用提示词，creator-agent 直接接收文档、音频、视频并构建基于个人语料的智能体，省去把音视频转写成文本再拼进提示词这一步，使回答可追溯到自己的素材；因此素材量大、以音视频为主的创作者会在需要复用旧内容时选择它。
+  usage_reason_en: 'Inference: versus manual note-taking plus generic prompting, creator-agent ingests
+    documents, audio and video directly and builds an agent grounded in the personal corpus, removing
+    the step of transcribing and pasting material into prompts and keeping answers traceable to one''s
+    own sources; creators with large, audio/video-heavy archives would choose it when reusing old content.'

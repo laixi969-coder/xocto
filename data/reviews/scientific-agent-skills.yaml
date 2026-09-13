@@ -129,3 +129,56 @@
     actions the agent can call directly, so the user only states the research question inside an agent
     with the library installed, skipping the steps of locating data sources, assembling queries, and converting
     formats; researchers who need cross-database retrieval and reviewable results would ther'
+- id: req-full-scientific-agent-skills-2026-09-13
+  project_slug: scientific-agent-skills
+  level: full
+  reviewed_at: '2026-09-13T00:25:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科研人员在跨生物、化学、医学数据库检索与实验设计时反复切换工具、为代理逐个适配数据库的摩擦；公开说明给出 165 个技能与 100+ 数据库的输入—动作—交付闭环，痛点刚性来自科研取数的必需性，但这是工作流结构推理，尚无用户材料量化不采用代价。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+    - ev-e05d1d65fc74ae99
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 102 增至 104，说明开发者社区已注意到该项目，但收藏与“190,000+ 科学家使用”的自述均属关注度或规模信号，不能证明目标科研人员已把它留在日常检索工作流中；缺少
+      issue、discussion 或独立评价佐证持续使用。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+    - ev-e4350ae0d2592553
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断收入来自 to C 科研个人、to B 药企实验室还是 to VC；这是商业证据缺口，不反推需求不存在，但按现有材料只能标为判断而非已验证事实。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+  - gate: truth
+    status: insufficient
+    reason: 技能输出能否在真实科研流程中稳定复现、数据库调用是否受限于各库许可与访问权限、以及人工复核边界如何划定，公开材料均未说明；缺少部署文档或可复现实测来确认交付确定性。
+    evidence_ids:
+    - ev-e05d1d65fc74ae99
+  next_validation: 追踪该仓库的 README/部署文档与 issue、discussion，确认技能实际调用的数据库清单、许可限制与用户报告的复现结果。
+  market: ''
+  job: 科研人员、药物发现研究员或实验室数据工程师在已有编码代理（Cursor、Claude Code、Codex 等）中装上该技能库后，把研究问题或实验设计需求交给代理，由代理调用生物、化学、医学类数据库完成查询、检索与分析，产出可复核的技能输出。
+  job_en: A research scientist, drug-discovery researcher, or lab data engineer installs this skill library
+    into an existing coding agent (Cursor, Claude Code, Codex, etc.), hands it a research question or
+    experimental-design need, and the agent calls biology, chemistry, and medicine databases to run queries,
+    retrieval, and analysis, returning reviewable skill outputs.
+  pain: 公开材料显示科研工作需要在 100+ 个分散的生物学、化学、医学与药物发现数据库之间反复切换，并让通用代理理解各库的调用方式；这种跨库检索与工具适配的重复劳动是结构上可识别的摩擦，但公开证据未给出频率、耗时或错误代价的量化数据。
+  pain_en: Public materials show the work spans 100+ scattered biology, chemistry, medicine, and drug-discovery
+    databases, and a general-purpose agent must be taught how to call each one; this cross-database retrieval
+    and tool-adaptation overhead is a structurally identifiable friction, though public evidence gives
+    no quantified frequency, time cost, or error cost.
+  current_alternative: 旧做法是科研人员自己在各数据库网页或 API 间手动检索、复制结果，或为每个代理单独编写和调试工具调用代码；公开材料未说明这些替代流程的具体耗时与失败率。
+  current_alternative_en: The prior approach is for researchers to search each database site or API by
+    hand, copy results across tools, or hand-write and debug tool-calling code per agent; public materials
+    do not state the time or failure rate of these alternatives.
+  usage_reason: 推断：相较手动逐库检索或自行编写工具调用，该库以 165 个预置技能把数据库调用封装成代理可直接执行的动作，用户不必为每个库重写适配代码，因此已在用 Cursor、Claude
+    Code 等代理、且需要跨生物医学数据库取数的科研人员会在做文献或化合物检索时选择它；这是基于产品能力与任务结构的推断，尚无用户反馈或客户案例证实。
+  usage_reason_en: 'Inference: versus manual per-database searching or writing one''s own tool calls,
+    the library packages database access into 165 ready-made skills the agent can execute directly, so
+    users need not rewrite adapters per database; researchers already using Cursor, Claude Code, etc.
+    who need cross-biomedical database retrieval would therefore pick it for literature or compound lookups.
+    This is inferred from product capability and task structure, not confirmed by user feedback or cu'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTFBFTF9nSW9jUWtw
 summary: Joonko CEO pleads guilty to $27 million securities fraud The Jerusalem Post
 first_seen: '2026-09-12T13:22:41Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

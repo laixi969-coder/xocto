@@ -271,3 +271,59 @@
   usage_reason_en: 'Inference: if an agent can read in-repo markdown knowledge without an extra SDK or
     query language, developers might skip manually assembling context; but no public user feedback or
     case supports this motive, so it cannot be confirmed.'
+- id: req-full-okf-agent-memory-2026-09-13
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-13T00:25:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理跨会话丢失项目上下文、需反复重述背景的需求，痛点是上下文 token 膨胀与知识不可版本化；公开材料显示 OKF 用 markdown+YAML 存储、无需 SDK
+      即可被人和 LLM 读取，旧替代是服务方元数据存储。这是工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-ece3e057e3779dc0
+    - ev-0cbd81e8bdcae963
+    - ev-813131cc6b2a0df4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 604 星与项目自述的 80% token 削减只说明开发者注意到它，属于关注度证据；未见 issue、discussion 或用户评价说明谁在何种场景持续使用，无法判断采用共识。
+    evidence_ids:
+    - ev-813131cc6b2a0df4
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费主体或单位经济；可能走 to C 开发者免费加托管/支持，或 to B 团队采购，但均为判断而非已验证事实，属每日优鲜风险之外的纯模式缺口。
+    evidence_ids:
+    - ev-813131cc6b2a0df4
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出 sub-300µs 内存 BM25、嵌入式 MCP 与零外部依赖等自述指标，未见可复现实测、部署文档或安全与人工边界说明，交付确定性尚不能核验。
+    evidence_ids:
+    - ev-813131cc6b2a0df4
+    - ev-ece3e057e3779dc0
+  next_validation: 追踪 okf-agent-memory 仓库的 issue 与 discussion，以及 okf-memory.dev 是否出现部署文档或客户案例，确认谁在何种场景实际接入并替代了原有上下文管理流程。
+  market: ''
+  job: 软件工程师在让 AI 编程代理接手已有代码库时，需要把项目历史、约定与目录知识以代理可读的形式喂进上下文，让代理在跨会话、跨任务时不必重新解释项目背景即可继续编码。
+  job_en: Software engineers working with AI coding agents on an existing codebase need to feed project
+    history, conventions and catalog knowledge into the agent's context in an agent-readable form, so
+    the agent can continue coding across sessions and tasks without re-explaining the project.
+  pain: 公开材料显示 OKF 以纯 markdown + YAML frontmatter 存储知识，并强调无需 SDK 或查询语言即可让工程师 cat、让 LLM 原样摄入；这指向的痛点是代理上下文里塞入大量无关元数据造成
+    token 膨胀、以及服务方私有元数据存储难以版本化。项目自述称可削减 80% token 膨胀，但这是产品声明而非用户反馈。
+  pain_en: Public material shows OKF stores knowledge as plain markdown with YAML frontmatter and stresses
+    that no SDK or query language stands between reader and content, so an engineer can cat it and an
+    LLM can ingest it verbatim. The implied pain is token bloat from stuffing irrelevant metadata into
+    agent context, plus difficulty versioning service-owned metadata stores. The 80% token-bloat reduction
+    is a product claim, not user feedback.
+  current_alternative: 旧做法是把项目知识放进服务方托管的元数据存储或向量库，需要 SDK 或查询语言访问，代理每次会话重新检索或重新解释；OKF 的公开说明正是以“服务方拥有的元数据存储难以获得这些属性”作为对照。
+  current_alternative_en: The prior approach is a service-owned metadata store or vector database reached
+    through an SDK or query language, with the agent re-retrieving or re-explaining context each session;
+    OKF's public description explicitly contrasts itself with service-owned metadata stores that struggle
+    to provide these properties.
+  usage_reason: 推断：相较旧做法，OKF 把记忆落成 Git 仓库里的 markdown 文件，代理通过嵌入式 MCP 服务器做内存 BM25 检索并按需渐进披露，省掉了搭建外部数据库和写查询层这一步，也让知识随代码一起版本化；因此已在用
+    AI 代理、又在意上下文成本与可审计性的工程师会在新项目或跨会话续写时选择它。仓库 604 星说明有开发者关注，但尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus the old approach, OKF lands memory as markdown files in a Git repo,
+    with an embedded MCP server doing in-memory BM25 search and progressive disclosure, removing the step
+    of standing up an external database and query layer and letting knowledge version alongside code.
+    Engineers already using AI agents who care about context cost and auditability would pick it for new
+    projects or cross-session continuation. 604 stars show developer attention, but there is no r'

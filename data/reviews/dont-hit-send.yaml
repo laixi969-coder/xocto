@@ -1,0 +1,82 @@
+- id: req-initial-dont-hit-send-2026-09-13
+  project_slug: dont-hit-send
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决边写边得到回复草稿的任务，但公开材料只有一句功能描述，说不清具体痛点与不采用的后果，价值判断证据不足。
+    evidence_ids:
+    - ev-822319155b71bc34
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 5 个点赞和 1 条评论，属于关注度信号，不能说明任何人群已形成共识或持续使用。
+    evidence_ids:
+    - ev-822319155b71bc34
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，无法判断钱来自个人、团队还是其他方，属未核验。
+    evidence_ids:
+    - ev-822319155b71bc34
+  - gate: truth
+    status: insufficient
+    reason: 无法确认生成内容是否会被误发、人工确认环节如何设置，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-822319155b71bc34
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际接收的输入、输出交付形态以及是否有人报告在日常写作中使用。
+  market: ''
+  job: 写作者在起草邮件或消息时，边打字边获得模型给出的回复草稿，用于决定是否发送。
+  job_en: A writer drafting an email or message receives model-generated reply drafts while typing, to
+    decide whether to send.
+  pain: 公开材料未说明具体痛点，只能推断起草与回复之间的来回切换可能造成中断。
+  pain_en: Public material states no specific pain; at most it can be inferred that switching between
+    drafting and replying may cause interruption.
+  current_alternative: 现有做法是写完后再让模型改写，或直接使用通用对话助手生成回复。
+  current_alternative_en: The current practice is to have a model rewrite after writing, or to use a general
+    chat assistant to generate a reply.
+  usage_reason: 推断：相较写完再改，它在打字过程中同步给出草稿，可能减少一次复制粘贴与切换；但公开材料没有用户反馈或采用证据，无法确认这一动作是否真的被需要。
+  usage_reason_en: 'Inference: compared with rewriting after writing, it offers a draft during typing,
+    potentially removing one copy-paste and context switch; but there is no user feedback or adoption
+    evidence, so whether this action is actually needed cannot be confirmed.'
+- id: req-full-dont-hit-send-2026-09-13
+  project_slug: dont-hit-send
+  level: full
+  reviewed_at: '2026-09-13T00:24:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决边写边得到回复草稿的任务，但公开材料只有一句功能描述，说不清具体痛点与不采用的后果，价值判断证据不足。
+    evidence_ids:
+    - ev-17dc2a9456de0de2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品的官网或发布页，确认其实际输入材料、输出交付形态与是否公开任何使用或付费记录。
+  market: ''
+  job: 写作者在起草邮件或消息时边打字边获得模型给出的回复草稿，用于决定是否发送。
+  job_en: A writer drafting an email or message receives model-generated reply drafts while typing, to
+    decide whether to send.
+  pain: 公开材料只有一句功能描述，未说明任何具体痛点；只能推断起草与回复之间来回切换可能造成中断，缺少用户抱怨或行为证据。
+  pain_en: Public material offers only a one-line feature description and states no specific pain; at
+    most it can be inferred that switching between drafting and replying may cause interruption, with
+    no user complaint or behavioral evidence.
+  current_alternative: 现有做法是写完后再让模型改写，或直接使用通用对话助手生成回复。
+  current_alternative_en: The current practice is to have a model rewrite after writing, or to use a general
+    chat assistant to generate a reply.
+  usage_reason: 推断：相较写完再改，它在打字过程中同步给出草稿，可能减少一次复制粘贴与切换；但公开材料没有用户反馈或采用证据，无法确认这一动作是否真被需要。
+  usage_reason_en: 'Inference: compared with rewriting after writing, it offers a draft during typing,
+    potentially removing one copy-paste and context switch; but there is no user feedback or adoption
+    evidence, so whether this action is actually needed cannot be confirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wMTM3S2RBcVds
 summary: 从真实用户评价看完美官网体育APP下载官网入口：办公与学生群体的效率提升利器 体坛加
 first_seen: '2026-09-11T00:54:05Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

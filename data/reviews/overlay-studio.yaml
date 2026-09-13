@@ -275,3 +275,56 @@
     building the timeline from scratch; exporting a transparent overlay layer into CapCut keeps the base
     footage from being re-compressed. For talking-head creators who want to keep source quality but not
     give up overlays, this swaps ''line-by-line manual arrangement'' for ''review and lightly edit '
+- id: req-full-overlay-studio-2026-09-13
+  project_slug: overlay-studio
+  level: full
+  reviewed_at: '2026-09-13T00:25:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播视频动效层制作的需求：手工逐帧摆放与字幕节奏对齐是重复劳动，一键成片又会重编码原片且元素不可改。产品以字幕稿为输入、AI 编排、逐元素可改、导出透明层进剪映，交付闭环可确定；这是工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-550aaf38b21a5d39
+    - ev-566c04be9be1e0a2
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库 star 从 57 增至 79，属关注度与规模证据，可说明有人关注，但不能证明创作者已把它留在日常剪辑工作流；未见 issue、discussion、部署或用户评价说明持续使用与强场景。
+    evidence_ids:
+    - ev-550aaf38b21a5d39
+    - ev-fcc61328b3d8ed16
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 订阅、to B 团队授权还是 to VC；开源仓库本身不构成已验证的付费路径，这是判断而非事实。
+    evidence_ids:
+    - ev-550aaf38b21a5d39
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺导出透明动效层直接进剪映且原片不压缩，但公开材料未提供可复现的导出格式、剪映兼容性验证或人工修正边界说明，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-550aaf38b21a5d39
+    - ev-566c04be9be1e0a2
+  next_validation: 追踪 overlay-studio 仓库的 README、release 与 issue/discussion，核验导出透明动效层的格式与剪映兼容性说明，以及是否有创作者公开反馈实际用于成片。
+  market: ''
+  job: 口播视频创作者（如知识口播、带货口播的独立创作者或小团队剪辑者）在剪映里剪完原片后，需要把字幕稿变成与口播节奏对齐的动效层（关键词弹出、图表、贴纸、字幕强调），并保留对每个元素的最终修改权，最终把透明动效层叠回原片而不重新压缩画质。
+  job_en: Talking-head video creators (independent creators or small editing teams doing knowledge or
+    commerce voice-over videos) who have cut the base footage in CapCut need to turn their subtitle script
+    into motion-graphic overlays (keyword pops, charts, stickers, subtitle emphasis) aligned to the spoken
+    rhythm, keep final edit control over every element, and composite the transparent overlay layer back
+    without re-compressing the original footage.
+  pain: 口播视频的动效层目前靠手工在剪映里逐个关键帧摆放，字幕稿与画面节奏对齐是重复劳动；AI 一键成片类工具又往往把原片一起重编码、且生成结果不可逐元素修改，创作者要么忍受画质损失，要么放弃对成片的控制权。
+  pain_en: Overlay motion graphics for talking-head videos are currently placed keyframe by keyframe in
+    CapCut, and aligning them to the subtitle script is repetitive manual labor; one-click AI video tools
+    tend to re-encode the base footage and produce results that cannot be edited element by element, forcing
+    creators to accept quality loss or give up control of the final cut.
+  current_alternative: 在剪映（或 Premiere/达芬奇）里手工添加关键帧动效；或使用 AI 一键成片工具，由模型直接生成带包装的成片，原片被重新编码且元素不可单独修改。
+  current_alternative_en: Manually adding keyframed overlays in CapCut (or Premiere/DaVinci); or using
+    one-click AI video tools that generate a fully packaged video, re-encoding the base footage with elements
+    that cannot be individually edited.
+  usage_reason: 推断：相较手工逐帧摆放，它让 AI 读取已有字幕稿自动编排动效层，创作者只需在自动结果上做局部修改，省去从零摆放关键帧这一步；相较一键成片工具，它导出透明动效层直接进剪映、原片一帧不压，因此在意画质且需要保留逐元素修改权的口播创作者会在已有剪映工作流中选择它。
+  usage_reason_en: 'Inference: versus manual keyframing, it has AI read the existing subtitle script to
+    auto-arrange the overlay layer so creators only tweak the generated result, removing the from-scratch
+    keyframe placement step; versus one-click video tools, it exports a transparent overlay layer into
+    CapCut with the base footage untouched, so quality-conscious talking-head creators who need per-element
+    edit control would choose it within their existing CapCut workflow.'

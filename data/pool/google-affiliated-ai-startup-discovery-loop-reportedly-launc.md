@@ -23,7 +23,7 @@ summary: Google-affiliated AI startup Discovery Loop reportedly launches new fun
   $50 billion valuation finance.biggo.com
 first_seen: '2026-09-12T00:25:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

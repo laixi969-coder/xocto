@@ -150,3 +150,44 @@
   usage_reason: 用户要完成的任务是：安全测试工程师、渗透测试员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Security test engineer, Penetration tester Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-ravage-2026-09-13
+  project_slug: ravage
+  level: full
+  reviewed_at: '2026-09-13T00:25:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其为授权目标的 AI Web 安全测试工具，但全部证据为词典释义与同名电影条目，未记录任何用户任务、痛点、替代行为或不解决的后果，无法还原需求结构。
+    evidence_ids:
+    - ev-ee33c67e3f372b3e
+    - ev-54d8cbfd19160ae9
+    - ev-e9a6d4dd40736f77
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ravage 官方仓库或官网的 README、issue 与 discussion，确认其真实产品定位、输入输出流程与授权测试边界。
+  market: ''
+  job: 安全测试工程师或渗透测试员在获得授权后，输入目标 URL，让 AI 自动执行 Web 漏洞扫描与渗透测试，并产出可交付的测试结果。
+  job_en: An authorized security test engineer or penetration tester inputs a target URL so an AI agent
+    runs web vulnerability scanning and penetration testing and produces deliverable results.
+  pain: 公开材料未提供任何用户痛点证据：现有证据全部是词典释义与同名电影条目，无法说明人工渗透测试耗时、覆盖不全或报告整理负担等具体痛点。
+  pain_en: 'Public evidence contains no user pain evidence: all items are dictionary definitions and a
+    same-named film entry, so nothing shows manual pentest time cost, coverage gaps, or reporting burden.'
+  current_alternative: 公开材料未说明当前替代方式，无法确认用户现在是用 Burp Suite、Nessus 等扫描器，还是纯人工渗透测试流程。
+  current_alternative_en: Public materials do not describe the current alternative, so it is unknown whether
+    users rely on Burp Suite, Nessus, or purely manual pentest workflows.
+  usage_reason: 无法给出使用理由：现有证据与产品能力无关，缺少任何用户反馈、案例或可核对结果，无法解释用户为何选择它而非旧做法。
+  usage_reason_en: 'No usage reason can be given: existing evidence is unrelated to product capability,
+    with no user feedback, cases, or checkable outcomes explaining why anyone would choose it over the
+    old approach.'

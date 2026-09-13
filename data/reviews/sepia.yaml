@@ -159,3 +159,45 @@
   usage_reason_en: 'No usage reason can be given: the evidence contains no product page, docs, user feedback,
     or cases, so it is impossible to say which step sepia removes versus the old approach or which users
     would choose it.'
+- id: req-full-sepia-2026-09-13
+  project_slug: sepia
+  level: full
+  reviewed_at: '2026-09-13T00:25:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向墨鱼色素、棕褐色与顺势疗法，未出现任何写作者、AI 痕迹或稿件场景，连要解决的需求和痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-b830690311b6fe46
+    - ev-365e88b958699626
+    - ev-5a724e659f99d757
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 sepia 官方仓库 README 与 releases 页面，确认其是否给出 Agent Skills 安装方式、示例输入输出与真实用户 issue 讨论。
+  market: ''
+  job: 小说作者或专业写作者在已有 AI 生成或 AI 辅助草稿的情况下，把文本交给兼容 Agent Skills 的代理，要求其按叙事架构或场合规则改写，以得到可提交的稿件。
+  job_en: A fiction or professional writer with an AI-generated or AI-assisted draft hands the text to
+    an Agent Skills-compatible agent and asks it to rewrite per narrative-architecture or venue rules,
+    aiming for a submittable manuscript.
+  pain: 公开证据中没有一条描述写作者的实际痛点：现有证据只解释 sepia 一词的墨鱼色素、颜色与顺势疗法含义，未涉及 AI 写作痕迹带来的困扰。
+  pain_en: 'No public evidence describes a writer''s actual pain: the evidence only explains sepia as
+    cuttlefish pigment, a color, and a homeopathy remedy, never the trouble caused by AI writing traces.'
+  current_alternative: 公开材料未记录写作者当前如何绕过该问题，既无手动改写、通用改写工具，也无编辑退稿等替代行为证据。
+  current_alternative_en: Public material records no current workaround, neither manual rewriting, generic
+    rewriting tools, nor editor rejections.
+  usage_reason: 无法从现有证据推断选择理由：候选摘要所述技能能力没有对应的官方文档、示例输出或用户反馈支撑，因此不能说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'No reason for adoption can be inferred: the skill capabilities in the candidate summary
+    have no supporting official docs, sample outputs, or user feedback, so no step saved versus the old
+    approach can be stated.'

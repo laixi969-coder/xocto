@@ -23,7 +23,7 @@ summary: 'Building Global Trust in the AI Search Era: DigiMentumPR Explores the 
   Brands markets.businessinsider.com'
 first_seen: '2026-09-12T16:16:46Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

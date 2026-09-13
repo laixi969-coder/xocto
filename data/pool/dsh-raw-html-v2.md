@@ -22,7 +22,7 @@ summary: 'VCP visual-synesthesia plugin v2 for DeepSeek Harness (official Slot A
   cards, streaming render, KaTeX/Mermaid/SVG, builtin fonts'
 first_seen: '2026-09-03T09:46:04Z'
 last_seen: '2026-09-13T00:00:57Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

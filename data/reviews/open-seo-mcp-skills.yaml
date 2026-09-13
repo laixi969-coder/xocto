@@ -170,3 +170,55 @@
     a single MCP command, removing the per-tool export-and-stitch step and invoking DataForSEO and site-audit
     skills in the same session, so SEO or content staff already using Claude who need their own real data
     without buying another SEO suite would pick it.'
+- id: req-full-open-seo-mcp-skills-2026-09-13
+  project_slug: open-seo-mcp-skills
+  level: full
+  reviewed_at: '2026-09-13T00:25:02Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 数据分散与 GEO 新监测需求：用户要把 GSC/GA4/广告与 DataForSEO 数据汇入 Claude 产出优化建议，旧做法是逐工具导出再人工拼接，耗时易错且
+      GEO 无现成工具位；痛点刚性、交付闭环可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-f95df5ddf058e23f
+    - ev-c7f01f3aad815b13
+  - gate: consensus
+    status: supported
+    reason: 仓库星标从 569 增至 797，且公开给出 claude mcp add 安装命令，说明有持续关注与可复现的接入路径；但尚无用户评价或案例证明其已长期留在工作流，故只算关注度与接入行为证据。
+    evidence_ids:
+    - ev-f95df5ddf058e23f
+    - ev-ef8cc1816ef21b4f
+    - ev-c7f01f3aad815b13
+  - gate: model
+    status: insufficient
+    reason: 项目标注 Free、MIT，公开材料未披露定价页或付费路径；可能靠 DataForSEO 集成、托管连接器或后续增值服务变现，但这是判断而非已验证事实，买方与收入结构仍不清。
+    evidence_ids:
+    - ev-f95df5ddf058e23f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明技能覆盖关键词、排名、审计、外链与 AI 可见性，未提供输出质量、审计准确性或对 SEO 结果影响的任何验证，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-c7f01f3aad815b13
+  next_validation: 追踪该仓库的 issue/discussion 与官方文档，确认是否有用户报告实际接入 GSC/GA4 后的输出质量、错误率或持续使用记录。
+  market: ''
+  job: SEO 专家或内容营销人员在为站点做关键词研究、排名跟踪、站点审计、外链与竞品差距分析时，需要把 Search Console、GA4、广告账户和 DataForSEO 的数据汇总到 Claude
+    里，让 AI 直接基于真实数据产出可执行的优化建议与报告。
+  job_en: An SEO specialist or content marketer doing keyword research, rank tracking, site audits, backlink
+    and competitor-gap analysis needs to pull Search Console, GA4, ads and DataForSEO data into Claude
+    so the AI produces actionable optimization recommendations and reports from real data.
+  pain: SEO 数据分散在 GSC、GA4、广告后台和第三方工具中，人工导出与拼接耗时且易错；同时 AI 搜索可见性（GEO）是新增的监测需求，旧工具链没有现成位置安放它。
+  pain_en: SEO data is scattered across GSC, GA4, ad consoles and third-party tools, so manual export
+    and stitching is slow and error-prone; meanwhile AI-search visibility (GEO) is a new monitoring need
+    that the legacy toolchain has no slot for.
+  current_alternative: SEO 人员目前用 Ahrefs、SEMrush 等独立工具分别查数据，再手动导出到表格或文档，最后人工撰写建议；GEO 部分基本靠零散手工检索。
+  current_alternative_en: SEO practitioners currently query Ahrefs, SEMrush and similar standalone tools
+    separately, export manually into sheets or docs, and write recommendations by hand; GEO is mostly
+    ad-hoc manual checking.
+  usage_reason: 推断：相较逐个工具导出再人工汇总，它通过 MCP 把 GSC/GA4/广告与 DataForSEO 直接接入 Claude 会话，省掉跨工具导出与拼接这一步，让建议直接基于账户真实数据生成，因此已在用
+    Claude 且不愿再为单点 SEO 工具付费的 SEO 人员会优先试用。
+  usage_reason_en: 'Inference: versus exporting from each tool and merging by hand, it wires GSC/GA4/ads
+    and DataForSEO into the Claude session via MCP, removing the cross-tool export-and-stitch step and
+    grounding recommendations in the account''s real data, so SEO practitioners already using Claude and
+    unwilling to pay for another point SEO tool would try it first.'

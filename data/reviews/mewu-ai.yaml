@@ -193,3 +193,55 @@
     into a second editor or translator, removing the ''capture—switch tool—re-carry'' step; Windows users
     who frequently handle foreign-language UI or long documents and need to send annotated results onward
     would choose it in that situation.'
+- id: req-full-mewu-ai-2026-09-13
+  project_slug: mewu-ai
+  level: full
+  reviewed_at: '2026-09-13T00:24:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Windows 用户截屏后需跨多个工具完成翻译、OCR、长图拼接与标注的割裂流程，痛点在于外文界面和滚动页面难以一次说清、标注与原文分离；旧替代是系统截图加独立翻译/OCR/拼接工具分步操作。这是基于产品能力与旧流程的工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-5681e07d02a16aea
+    - ev-98af5594c9fe6383
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有 公开代码仓库 仓库收藏从 55 增至 64 的规模与关注度变化，属于关注度信号，不能证明目标用户持续使用或形成强场景共识；缺少 issue、discussion 或用户评价说明谁在何种场景下采用。
+    evidence_ids:
+    - ev-5681e07d02a16aea
+    - ev-ebf99b026401ddef
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断收入来自 to C 订阅、to B 授权还是仅靠开源维护；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-98af5594c9fe6383
+  - gate: truth
+    status: insufficient
+    reason: 翻译与 OCR 依赖外部模型，公开材料未说明模型调用方式、离线能力、数据是否外传及人工复核边界，交付能否稳定复现缺少可核对证据。
+    evidence_ids:
+    - ev-4dbbe581dac122b8
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 说明与 issue/discussion，确认是否公开模型调用方式、隐私与离线边界，以及是否有用户描述实际替代的旧流程。
+  market: ''
+  job: Windows 上的软件开发者或技术支持人员在排查报错、写文档或回复工单时，截取屏幕内容（含外文界面、滚动长页面、录屏片段），需要在截图上直接完成翻译、OCR 取字、长图拼接与标注，产出可直接发给同事或客户的说明材料。
+  job_en: A Windows-based developer or support engineer, while debugging an error, writing docs, or answering
+    a ticket, captures screen content (foreign-language UI, long scrolling pages, video clips) and needs
+    to translate, OCR, stitch, and annotate it in place, producing a note that can be sent directly to
+    a colleague or customer.
+  pain: 旧流程要把截图先存成文件，再分别丢进翻译工具、OCR 工具、长图拼接工具和画图软件，多步往返且标注与原文分离；外文界面和滚动页面尤其难一次说清，沟通成本落在反复截图和口头解释上。
+  pain_en: The old flow saves a screenshot to disk, then shuttles it through separate translation, OCR,
+    stitching, and drawing tools; annotations end up detached from the source text, and foreign-language
+    or scrolling pages are especially hard to explain in one pass, pushing cost into repeated captures
+    and verbal clarification.
+  current_alternative: Windows 自带截图工具（Snipping Tool）、微信/QQ 截图、Snipaste 类贴图标注工具，配合独立的翻译网页、OCR 工具和长截图插件，人工分步拼接。
+  current_alternative_en: Built-in Windows Snipping Tool, WeChat/QQ capture, Snipaste-style pin-and-annotate
+    tools, plus separate translation sites, OCR utilities, and scrolling-capture extensions, stitched
+    together by hand.
+  usage_reason: 推断：相较在多个工具间搬运文件，它在截图这一动作内直接叠加翻译、OCR 与标注，省掉“存盘—切换工具—再拼回原图”的中间步骤，因此经常处理外文界面或长页面的开发者与支持人员会在需要一次性说清问题时选它；仓库收藏从
+    55 增至 64 说明有持续关注，但尚无用户反馈证明其已长期留在工作流中。
+  usage_reason_en: 'Inference: rather than shuttling files between tools, it layers translation, OCR,
+    and annotation onto the capture action itself, removing the save-switch-reassemble steps, so developers
+    and support staff who routinely handle foreign-language UI or long pages would pick it when they must
+    explain an issue in one pass; stars rising from 55 to 64 shows sustained attention, but no user feedback
+    yet proves it is retained in the workflow.'

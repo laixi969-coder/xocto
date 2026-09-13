@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE1wNWdPRkJnRk1w
 summary: 太阳集团手机app下载2026战略发布：AI大模型驱动体育全场景智能升级 体坛加
 first_seen: '2026-09-12T01:28:06Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

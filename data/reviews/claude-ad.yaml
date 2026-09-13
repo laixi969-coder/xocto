@@ -247,3 +247,55 @@
     as Claude Code skills, agents and slash commands that drive existing tools with OPSEC/telemetry notes,
     cutting documentation lookup and command assembly, so red team engineers already using Claude Code
     for authorized internal AD assessments would choose it.'
+- id: req-full-claude-ad-2026-09-13
+  project_slug: claude-ad
+  level: full
+  reviewed_at: '2026-09-13T00:23:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权 AD 评估中手法多、工具链分散、需同时兼顾 OPSEC 的痛点：工程师要在有限窗口内完成 Kerberoasting、ADCS ESC1-17、DCSync 等步骤。旧做法是手工查手册拼命令或自写脚本，遗漏与暴露代价高。产品把手法、工具调用与遥测提示封装为可复用流程，属工作流结构推理，公开事实支持交付闭环。
+    evidence_ids:
+    - ev-71cec787f975b878
+    - ev-b4a4e87b20f6c7a8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 174 增至 199，说明英文生态持续有关注，但公开材料没有用户评价、issue 讨论或采用案例，无法确认红队是否已把它放进实际评估流程，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-71cec787f975b878
+    - ev-a4013e53a557f5d2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、许可与买方，钱可能来自安全服务公司内部工具化、个人红队自用或后续商业支持，这是判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-71cec787f975b878
+  - gate: truth
+    status: supported
+    reason: 产品贴近 AD 评估的第一性目标：驱动既有成熟工具而非自造攻击能力，交付物是可核对的命令流程与逐手法 OPSEC 提示。但攻击自动化存在授权边界与误用风险，公开材料未见使用范围约束说明，需在部署文档中确认。
+    evidence_ids:
+    - ev-71cec787f975b878
+    - ev-0bf367cade50ec64
+  next_validation: 追踪该开源仓库的 issue、discussion 与 release 记录，确认是否有安全公司公开采用、贡献者提交实战反馈或出现商业支持/定价说明。
+  market: ''
+  job: 红队工程师或渗透测试员在授权内部 AD 评估中，面对域内主机、凭据与证书服务等材料，需要按 Kerberoasting、ADCS ESC、DCSync、ACL 滥用、NTLM relay 等手法完成攻击链并记录
+    OPSEC 与遥测影响。
+  job_en: Red teamers or pentesters on authorized internal AD assessments handle domain hosts, credentials
+    and certificate services, and must execute attack chains (Kerberoasting, ADCS ESC, DCSync, ACL abuse,
+    NTLM relay) while documenting OPSEC and telemetry impact.
+  pain: AD 攻击手法多、参数与工具链分散（netexec、impacket、certipy、bloodyAD、BloodHound CE），工程师需在时间受限的评估窗口内反复查文档、拼命令并自行判断检测风险，步骤遗漏或命令错误会直接导致评估失败或暴露。
+  pain_en: AD techniques are numerous and the toolchain is fragmented (netexec, impacket, certipy, bloodyAD,
+    BloodHound CE); within a time-boxed assessment engineers repeatedly consult docs, assemble commands
+    and judge detection risk, and a missed step or wrong flag can fail the assessment or burn OPSEC.
+  current_alternative: 现有替代是手工查 AD 攻击手册与博客、复制零散命令、维护自写脚本，或依赖 Cobalt Strike、Metasploit 等框架的既有模块，缺少把手法、工具调用与
+    OPSEC 提示绑在一起的统一流程。
+  current_alternative_en: Current alternatives are manually consulting AD attack playbooks and blogs,
+    copying scattered commands, maintaining custom scripts, or using existing modules in Cobalt Strike/Metasploit,
+    without a unified flow binding technique, tool invocation and OPSEC notes.
+  usage_reason: 推断：相较手工拼命令，它把每类手法的执行步骤、所驱动的具体工具和逐手法 OPSEC/遥测提示封装为 Claude Code 技能与斜杠命令，工程师在评估现场可直接调用而少走查文档与试错这一步，因此时间紧、需覆盖多类
+    ADCS ESC 与委派场景的红队更可能选用它。
+  usage_reason_en: 'Inference: versus hand-assembling commands, it packages each technique''s steps, the
+    specific tools it drives, and per-technique OPSEC/telemetry notes as Claude Code skills and slash
+    commands, so engineers skip a documentation-and-trial step on site; teams facing tight windows and
+    broad ADCS ESC/delegation coverage are the likeliest adopters.'

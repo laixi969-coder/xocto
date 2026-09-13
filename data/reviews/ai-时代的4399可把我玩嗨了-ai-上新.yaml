@@ -1,0 +1,89 @@
+- id: req-initial-ai-时代的4399可把我玩嗨了-ai-上新-2026-09-13
+  project_slug: ai-时代的4399可把我玩嗨了-ai-上新
+  level: initial
+  reviewed_at: '2026-09-13T00:01:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非技术用户做可玩小互动的高门槛问题，旧做法是写代码或外包，痛点真实且不采用就没有可玩成品。
+    evidence_ids:
+    - ev-e154f53e13c9ad9e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只描述作者个人刷信息流的体验，没有采用规模、留存或他人反馈，共识卡在场景感知一环。
+    evidence_ids:
+    - ev-e154f53e13c9ad9e
+  - gate: model
+    status: insufficient
+    reason: 由 Meta 推出，可能走平台内广告或订阅，但公开材料未给出定价与付费路径，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-e154f53e13c9ad9e
+  - gate: truth
+    status: insufficient
+    reason: 生成内容多为十几秒体验完的简单作品，能否确定性交付可用结果、是否只是新鲜感，公开材料无法回答。
+    evidence_ids:
+    - ev-e154f53e13c9ad9e
+  next_validation: 收集 Pocket 官方帮助文档或产品页，确认生成能力边界、发布与改作规则以及是否已公布定价。
+  market: ''
+  job: 非技术用户在手机上想快速做出一个可玩的小游戏或小工具，并希望别人能直接打开试玩、评论或改成自己的版本。
+  job_en: A non-technical user on a phone wants to quickly make a playable mini-game or small tool that
+    others can open, play, comment on or remix.
+  pain: 过去做一个小互动内容要写代码或用游戏引擎，学习成本高、周期长，多数想法在动手前就放弃了。
+  pain_en: Making a small interactive piece used to require coding or a game engine, with high learning
+    cost and long cycles, so most ideas die before anyone starts.
+  current_alternative: 用现成模板工具、找开发者外包，或干脆只发文字和图片帖子。
+  current_alternative_en: Using template tools, hiring a developer, or simply posting text and images
+    instead.
+  usage_reason: 推断：相较模板工具和外包，它把「描述想法」直接变成可运行页面并一键发布到信息流，省掉了搭建与部署这一步，因此想快速试玩或传播小互动的人会先选它。
+  usage_reason_en: 'Inference: compared with template tools and outsourcing, it turns a described idea
+    directly into a runnable page published to a feed, removing the build-and-deploy step, so people who
+    want to try or spread a small interaction quickly would pick it first.'
+- id: req-full-ai-时代的4399可把我玩嗨了-ai-上新-2026-09-13
+  project_slug: ai-时代的4399可把我玩嗨了-ai-上新
+  level: full
+  reviewed_at: '2026-09-13T00:23:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非技术用户把想法变成可玩互动页面的需求，痛点是过去做 H5 或小游戏要设计、写前端、部署，成本远高于发帖，多数小想法因此放弃；公开材料已还原输入、动作与交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-b255172057e3a19d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有作者个人刷信息流与做阿瓦隆、鸡尾酒生成器的体验，没有采用规模、留存或他人反馈，共识卡在场景感知一环，无法判断是否形成持续使用习惯。
+    evidence_ids:
+    - ev-0e226d1a502abfa3
+  - gate: model
+    status: insufficient
+    reason: 由 Meta 推出，钱可能来自平台内广告、订阅或生态导流，但公开材料未给出定价与付费路径，这是判断而非已验证事实，买方与收入结构仍不清。
+    evidence_ids:
+    - ev-2138a3ab6fd666a2
+  - gate: truth
+    status: insufficient
+    reason: 作品多为十几秒体验完的简单互动，作者也遇到无法抓取电影图片、只能用 AI 生成图的边界，能否确定性交付可用结果、是否只是新鲜感，公开材料无法回答。
+    evidence_ids:
+    - ev-b255172057e3a19d
+  next_validation: 追踪 Meta 官方 Pocket 产品页或帮助文档，确认生成能力边界、发布与 Remix 规则，以及是否公布定价或付费方案。
+  market: ''
+  job: 非技术用户在手机碎片时间刷信息流时，用一句话描述想要的小游戏或小工具，让 AI 生成可直接点击运行的互动页面，并像发帖一样发布，供他人试玩、评论、转发或 Remix 成自己的版本。
+  job_en: A non-technical user scrolling a mobile feed in spare moments describes a mini-game or small
+    tool in one sentence, has AI generate a directly playable interactive page, and publishes it like
+    a post so others can play, comment, share or remix it.
+  pain: 公开材料显示，过去做一条互动 H5 或小游戏要有人设计页面、写前端、处理交互、部署上线，制作成本远高于发一条帖子；临时聚会想玩桌游只能先搜现成小程序，想做鸡尾酒生成器至少得 Vibe Coding
+    几轮，多数“有点儿意思但不值得开发”的想法因此被放弃。
+  pain_en: Public material shows that making an interactive H5 or mini-game used to require page design,
+    front-end coding, interaction handling and deployment, costing far more than posting; for an impromptu
+    party one had to search for an existing mini-program, and a cocktail generator needed several rounds
+    of vibe coding, so most 'fun but not worth building' ideas were dropped.
+  current_alternative: 在微信里搜现成小程序、用模板工具、找开发者外包，或直接问 ChatGPT 拿一份文字配方，再或者干脆只发文字和图片帖子。
+  current_alternative_en: Searching existing mini-programs in WeChat, using template tools, hiring a developer,
+    asking ChatGPT for a text-only recipe, or simply posting text and images.
+  usage_reason: 推断：相较搜小程序或让 ChatGPT 只输出文字，Pocket 把描述直接变成可运行、可分享的交互页面，省掉搭建、部署与来回改 prompt 的步骤；因此临时聚会想快速开一局、或想给一个抽象想法套上可玩外壳的用户会在这些场景选择它。
+  usage_reason_en: 'Inference: compared with searching mini-programs or getting text-only output from
+    ChatGPT, Pocket turns a description directly into a runnable, shareable interactive page, removing
+    the build, deploy and prompt-iteration steps; so users who want a quick party game or a playable shell
+    around an abstract idea would choose it in those moments.'

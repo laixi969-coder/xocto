@@ -1,0 +1,84 @@
+- id: req-initial-framesketch-2026-09-13
+  project_slug: framesketch
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逐帧讲解时定位与表达不准的痛点，旧做法是截图加口头说明，结构上成立。
+    evidence_ids:
+    - ev-ba4ab439bc8871c7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无用户评价、采用或复用证据，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-ba4ab439bc8871c7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人创作者自付或团队采购均属推测，不是已验证事实。
+    evidence_ids:
+    - ev-ba4ab439bc8871c7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 在标注中的具体作用、导出格式与协作能力，交付边界不清。
+    evidence_ids:
+    - ev-ba4ab439bc8871c7
+  next_validation: 收集该产品官方页面的定价、导出格式说明或公开用户评价，确认标注流程与付费方式。
+  market: ''
+  job: 教练、剪辑师或培训师在逐帧检查比赛或素材时，处理视频画面，要把某个动作或修改点准确指给队员、导演或学员看。
+  job_en: A coach, editor or trainer reviewing footage frame by frame works on video frames to point a
+    specific motion or fix out to players, directors or trainees.
+  pain: 口头描述或截图圈画难以对齐到具体帧，来回解释耗时，接收方仍可能理解错位置和时机。
+  pain_en: Verbal description or screenshot markup rarely aligns to the exact frame, so back-and-forth
+    explaining costs time and the receiver may still misread position and timing.
+  current_alternative: 用通用剪辑软件暂停截图，再在图片上标注或口头讲解，或导出片段加文字说明。
+  current_alternative_en: Pausing in general editing software to screenshot, then marking the image or
+    explaining verbally, or exporting clips with written notes.
+  usage_reason: 相较截图再标注，它在播放器内直接停在目标帧并即时手绘，省掉导出与二次标注这一步，让讲解与画面同步；推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with screenshot-then-mark, it pauses on the target frame inside the player
+    and draws immediately, removing the export and second-pass annotation step so explanation stays in
+    sync with the image; inference, with no user feedback or retention evidence yet.
+- id: req-full-framesketch-2026-09-13
+  project_slug: framesketch
+  level: full
+  reviewed_at: '2026-09-13T00:24:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逐帧讲解时定位与表达不准的痛点，旧做法是截图加口头说明，结构上成立。
+    evidence_ids:
+    - ev-ba4ab439bc8871c7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无用户评价、采用或复用证据，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-ba4ab439bc8871c7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人创作者自付或团队采购均属推测，不是已验证事实。
+    evidence_ids:
+    - ev-ba4ab439bc8871c7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 在标注中的具体作用、导出格式与协作能力，交付边界不清。
+    evidence_ids:
+    - ev-ba4ab439bc8871c7
+  next_validation: 收集该产品官方页面的定价、导出格式说明或公开用户评价，确认标注流程与付费方式。
+  market: ''
+  job: 教练、剪辑师或培训师在逐帧检查比赛或素材时，处理视频画面，要把某个动作或修改点准确指给队员、导演或学员看。
+  job_en: A coach, editor or trainer reviewing footage frame by frame works on video frames to point a
+    specific motion or fix out to players, directors or trainees.
+  pain: 口头描述或截图圈画难以对齐到具体帧，来回解释耗时，接收方仍可能理解错位置和时机。
+  pain_en: Verbal description or screenshot markup rarely aligns to the exact frame, so back-and-forth
+    explaining costs time and the receiver may still misread position and timing.
+  current_alternative: 用通用剪辑软件暂停截图，再在图片上标注或口头讲解，或导出片段加文字说明。
+  current_alternative_en: Pausing in general editing software to screenshot, then marking the image or
+    explaining verbally, or exporting clips with written notes.
+  usage_reason: 相较截图再标注，它在播放器内直接停在目标帧并即时手绘，省掉导出与二次标注这一步，让讲解与画面同步；推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with screenshot-then-mark, it pauses on the target frame inside the player
+    and draws immediately, removing the export and second-pass annotation step so explanation stays in
+    sync with the image; inference, with no user feedback or retention evidence yet.

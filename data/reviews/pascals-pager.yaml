@@ -1,0 +1,87 @@
+- id: req-initial-pascals-pager-2026-09-13
+  project_slug: pascals-pager
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是手机上读不懂 webhook JSON 的问题，痛点真实但强度不明；公开材料只有一句功能描述，无法确认它是否真的把字段归纳成人能判断的内容，也看不出不采用的具体代价。
+    evidence_ids:
+    - ev-5381ed213ef57133
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布信息，没有用户评价、客户案例或社区讨论，无法判断开发者是否已经在用或愿意替换现有转发方式。
+    evidence_ids:
+    - ev-5381ed213ef57133
+  - gate: model
+    status: insufficient
+    reason: 没有定价页，买方是个人开发者还是团队、按条数还是按月收费均未披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-5381ed213ef57133
+  - gate: truth
+    status: insufficient
+    reason: 无法核对推送内容是否忠实反映原始事件、是否可能漏报或误报，也没有人工确认边界与失败重试的说明。
+    evidence_ids:
+    - ev-5381ed213ef57133
+  next_validation: 收集 Pascal’s Pager 官方定价页或产品文档，确认它是否对 JSON 做字段归纳、是否支持推送确认与失败重试，以及按什么单位收费。
+  market: ''
+  job: 开发者和运维值班人员在离开电脑、只带手机的情况下，收到服务端 webhook 回调，需要判断这次回调是成功、失败还是异常，并决定是否立刻处理。
+  job_en: Developers and on-call engineers who are away from a computer with only a phone receive a server
+    webhook callback and must judge whether it succeeded, failed, or is anomalous, then decide whether
+    to act immediately.
+  pain: webhook 返回的 JSON 字段多、嵌套深，在手机上看原始报文几乎无法判断严重程度，容易漏掉真正需要处理的事件。
+  pain_en: Webhook JSON has many deeply nested fields, and reading the raw payload on a phone makes severity
+    almost impossible to judge, so genuinely urgent events get missed.
+  current_alternative: 现有做法是打开电脑看日志或调试面板，或把 webhook 转发到 Slack、Telegram、邮件，再在手机上读原始文本。
+  current_alternative_en: The current practice is to open logs or a debug console on a computer, or forward
+    the webhook to Slack, Telegram, or email and read the raw text on a phone.
+  usage_reason: 推断：相较转发原始文本，它把 JSON 直接转成手机可读的推送，省掉“打开电脑或翻日志找字段”这一步，因此经常离开工位、又必须盯 webhook 的独立开发者和小团队会尝试它；但公开材料没有说明它是否做字段归纳、是否支持确认与重试，也没有任何留存或付费证据。
+  usage_reason_en: 'Inference: compared with forwarding raw text, it converts JSON directly into a phone-readable
+    push, removing the step of opening a computer or digging through logs for fields, so solo developers
+    and small teams who are often away from a desk yet must watch webhooks would try it. However, the
+    public material does not say whether it summarizes fields or supports acknowledgement and retry, and
+    there is no retention or payment evidence.'
+- id: req-full-pascals-pager-2026-09-13
+  project_slug: pascals-pager
+  level: full
+  reviewed_at: '2026-09-13T00:25:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决手机上读不懂 webhook JSON 的问题，但公开材料只有一句功能描述，既无用户痛点证据，也无旧替代行为记录，连需求与痛点都难以还原，属于自嗨拼凑。
+    evidence_ids:
+    - ev-f613b144c13d91f6
+    - ev-1a3eb0d344df5113
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Pascal’s Pager 官方产品页或文档，确认它是否对 webhook JSON 做字段归纳、是否支持推送确认与失败重试，以及是否披露定价。
+  market: ''
+  job: 开发者和运维值班人员在离开电脑、只带手机时收到服务端 webhook 回调，需要判断这次回调是成功、失败还是异常，并决定是否立刻处理。
+  job_en: Developers and on-call engineers away from a computer with only a phone receive a server webhook
+    callback and must judge whether it succeeded, failed, or is anomalous, then decide whether to act
+    immediately.
+  pain: 公开材料只有一句功能描述，未说明 JSON 字段多、嵌套深导致手机端无法判断严重程度，也未提供任何用户抱怨或漏报后果的证据。
+  pain_en: The public material contains only a one-line feature description; it does not document that
+    deeply nested JSON makes severity unreadable on a phone, nor any user complaint or missed-event consequence.
+  current_alternative: 公开材料未记录开发者当前如何绕过该问题，无法确认是打开电脑看日志、转发到 Slack/Telegram，还是其他方式。
+  current_alternative_en: The public material does not record how developers currently work around this,
+    so it is unknown whether they open logs on a computer, forward to Slack/Telegram, or use another method.
+  usage_reason: 推断：若它确实把 JSON 转成手机可读推送，可省去打开电脑查日志这一步；但公开材料未说明是否做字段归纳、是否支持确认与重试，也没有任何用户反馈或采用证据，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly converts JSON into phone-readable pushes, it could remove the
+    step of opening a computer to check logs; but the public material does not say whether it summarizes
+    fields or supports acknowledgement and retry, and there is no user feedback or adoption evidence,
+    so which users would choose it cannot be confirmed.'

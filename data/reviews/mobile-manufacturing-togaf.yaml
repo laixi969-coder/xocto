@@ -161,3 +161,52 @@
     and design specs that can drive AI coding, letting architects skip framework setup and blank-page
     view drawing and hand the design to AI coding tools; architects lacking industry references who want
     plans to reach code would choose it.'
+- id: req-full-mobile-manufacturing-togaf-2026-09-13
+  project_slug: mobile-manufacturing-togaf
+  level: full
+  reviewed_at: '2026-09-13T00:24:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手机制造企业架构师在TOGAF规划中从零起草正文与视图、缺少行业案例的痛点；公开仓库提供6章正文、76个原型与LTC知识图谱，可还原输入—动作—交付闭环，痛点刚性来自规划评审的确定性交付要求。属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+    - ev-5ae826520f8ef14a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从41增至47，说明有开发者关注，但无issue、discussion或评价显示架构师已将其纳入实际规划流程；关注度不等于持续采用，强场景是否成立仍缺公开行为证据。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+    - ev-e79fa6528bd7316f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未显示定价、付费主体或采购路径；作为开源案例库，可能由作者个人维护或企业内训使用，to B咨询或to C模板付费均属推断，尚无已验证收入事实。
+    evidence_ids:
+    - ev-36de42df5db0770e
+  - gate: truth
+    status: insufficient
+    reason: 仓库声称需求与设计方案可直接驱动AI编程落地，但公开材料未提供生成代码的可复现结果、部署文档或人工审核边界说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-63f6cdb801316dbb
+  next_validation: 追踪该公开代码仓库仓库的issue、discussion与README更新，确认是否有企业架构师公开报告将其用于实际TOGAF规划并替代原有模板流程。
+  market: ''
+  job: 手机制造企业的企业架构师或IT规划人员在启动数字化转型或年度架构规划时，需要处理TOGAF ADM各阶段交付物、业务与IT现状材料，产出一份可评审、可向管理层汇报的架构规划正文与配套可视化视图。
+  job_en: Enterprise architects or IT planners at mobile-manufacturing firms, when starting a digital-transformation
+    or annual architecture planning cycle, must work through TOGAF ADM deliverables and current business/IT
+    materials to produce a reviewable architecture plan document plus supporting visual views for management.
+  pain: TOGAF规划正文与视图从零起草耗时且格式不统一，行业特定案例（手机制造、LTC流程）在公开渠道稀缺，架构师常需自行拼凑模板与图示，导致规划周期拉长、评审返工。
+  pain_en: Drafting TOGAF plan text and views from scratch is slow and format-inconsistent, and industry-specific
+    cases (mobile manufacturing, LTC processes) are scarce publicly, so architects must assemble templates
+    and diagrams themselves, lengthening the planning cycle and causing review rework.
+  current_alternative: 当前替代方式多为通用TOGAF模板、咨询公司交付物、内部历史文档或从零手绘架构图；公开材料未显示存在同类手机制造行业完整案例库。
+  current_alternative_en: Current alternatives are generic TOGAF templates, consultancy deliverables,
+    internal historical documents, or hand-drawn architecture diagrams; public materials do not show a
+    comparable complete mobile-manufacturing case library.
+  usage_reason: 推断：相较通用模板，该仓库提供6章规划正文、76个可视化原型和LTC知识图谱原型，并附可直接驱动AI编程工具的需求与设计方案，架构师可跳过从零起草与画图环节，直接以现成案例为起点裁剪，因此手机制造行业的架构规划人员会在需要快速产出可评审规划材料时选择它。
+  usage_reason_en: 'Inference: versus generic templates, the repository supplies six chapters of plan
+    text, 76 visual prototypes, and an LTC knowledge-graph prototype plus requirements/design docs that
+    can drive AI coding tools, letting architects skip drafting and diagramming from scratch and start
+    from a ready case; mobile-manufacturing planners would choose it when they need reviewable planning
+    material quickly.'

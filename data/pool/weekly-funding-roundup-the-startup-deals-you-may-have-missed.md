@@ -27,7 +27,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6
 summary: 'Weekly funding roundup: The startup deals you may have missed in week of August 30 Moneycontrol.com'
 first_seen: '2026-08-29T13:52:47Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

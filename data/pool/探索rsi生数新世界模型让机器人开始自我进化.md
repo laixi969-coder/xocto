@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/487752.html
 summary: 触觉、记忆、Ego数据、自进化……这个世界模型全都有
 first_seen: '2026-09-12T08:15:31Z'
 last_seen: '2026-09-13T00:01:15Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

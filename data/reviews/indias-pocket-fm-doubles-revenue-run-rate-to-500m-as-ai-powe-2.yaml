@@ -86,3 +86,91 @@
   usage_reason_en: With no product description, pricing, or user feedback attributable to Pocket FM, there
     is no basis to explain why producers would choose it over current practice; the available evidence
     only describes the Pocket note-taking device, unrelated to audio drama production.
+- id: req-initial-indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2-2026-09-13
+  project_slug: indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是音频剧集供给被配音产能卡住的问题，痛点是线性成本与更新断档，旧做法是签约演员逐集录制，结构上成立。
+    evidence_ids:
+    - ev-783c4099fc60d4da
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出营收运行率与 AI 内容占比，没有听众留存、完播或复购数据，无法判断采用是否持续。
+    evidence_ids:
+    - ev-783c4099fc60d4da
+  - gate: model
+    status: insufficient
+    reason: 营收翻倍说明有付费路径，但订阅与广告的拆分、单位经济与毛利未披露，买方结构仍是推断。
+    evidence_ids:
+    - ev-783c4099fc60d4da
+  - gate: truth
+    status: insufficient
+    reason: AI 生成占比高不等于听众接受度高，缺少对 AI 配音剧集完播与投诉的独立材料，交付确定性未核验。
+    evidence_ids:
+    - ev-783c4099fc60d4da
+  next_validation: 收集 Pocket FM 官方或财报中关于订阅与广告收入拆分、以及 AI 生成剧集完播或留存指标的公开披露。
+  market: ''
+  job: 音频故事平台的内容团队在扩充剧集库时，需要把大量文字故事转成可连续收听的配音剧集，并保证更新节奏不断档。
+  job_en: Content teams at audio-story platforms need to turn large volumes of written stories into continuously
+    listenable voiced series while keeping release cadence unbroken.
+  pain: 传统配音录制按集排期，演员、录音棚和后期都是线性成本，剧集越多越贵越慢，供给量被产能卡住。
+  pain_en: Traditional voice recording is scheduled episode by episode, with actors, studios and post-production
+    as linear costs, so more episodes mean more money and time and supply is capped by capacity.
+  current_alternative: 过去靠签约配音演员、外包录音棚和人工后期逐集制作，或减少更新频率、砍掉长尾题材。
+  current_alternative_en: The old way was contracted voice actors, outsourced studios and manual post-production
+    per episode, or cutting release frequency and dropping long-tail genres.
+  usage_reason: 推断：AI 直接产出配音与音频，把每集从排期录制变成脚本输入后的批量生成，省掉演员排期和录音棚环节，使平台能在同一预算下扩充题材与集数；有成本与产量公开数据支持，但用户留存与复购证据未披露。
+  usage_reason_en: 'Inference: AI produces voice and audio directly, turning each episode from scheduled
+    recording into batch generation from a script, removing casting and studio steps so a platform can
+    widen genres and episode counts on the same budget; cost and output data are public, retention and
+    repeat-purchase evidence is not.'
+- id: req-full-indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2-2026-09-13
+  project_slug: indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2
+  level: full
+  reviewed_at: '2026-09-13T00:24:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决音频剧集供给被配音产能卡住的问题，痛点是线性成本与更新断档，旧做法是签约演员逐集录制，结构上成立。
+    evidence_ids:
+    - ev-783c4099fc60d4da
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出营收运行率与 AI 内容占比，没有听众留存、完播或复购数据，无法判断采用是否持续。
+    evidence_ids:
+    - ev-783c4099fc60d4da
+  - gate: model
+    status: insufficient
+    reason: 营收翻倍说明存在付费路径，但订阅与广告的拆分、单位经济与毛利未披露，买方结构仍是推断而非已验证事实。
+    evidence_ids:
+    - ev-783c4099fc60d4da
+  - gate: truth
+    status: insufficient
+    reason: AI 生成占比高不等于听众接受度高，缺少对 AI 配音剧集完播与投诉的独立材料，交付确定性未核验。
+    evidence_ids:
+    - ev-783c4099fc60d4da
+  next_validation: 追踪 Pocket FM 官方或财报公开披露中关于订阅与广告收入拆分、以及 AI 生成剧集完播或留存指标的材料。
+  market: ''
+  job: 音频故事平台的内容团队在扩充剧集库时，把大量文字故事转成可连续收听的配音剧集，并保证更新节奏不断档；具体哪些环节仍需人工确认，公开材料未细说。
+  job_en: Content teams at an audio-story platform turn large volumes of written stories into continuously
+    listenable voiced series while keeping release cadence unbroken; which steps still need human review
+    is not detailed publicly.
+  pain: 传统配音录制按集排期，演员、录音棚和后期都是线性成本，剧集越多越贵越慢，供给量被产能卡住，长尾题材难以覆盖。
+  pain_en: Traditional voice recording is scheduled episode by episode, with actors, studios and post-production
+    as linear costs, so more episodes mean more money and time and supply is capped by capacity, leaving
+    long-tail genres uncovered.
+  current_alternative: 过去靠签约配音演员、外包录音棚和人工后期逐集制作，或减少更新频率、砍掉长尾题材。
+  current_alternative_en: The old way was contracted voice actors, outsourced studios and manual post-production
+    per episode, or cutting release frequency and dropping long-tail genres.
+  usage_reason: 推断：AI 直接产出配音与音频，把每集从排期录制变成脚本输入后的批量生成，省掉演员排期与录音棚环节，使平台在同一预算下扩充题材与集数；有营收与 AI 内容占比的公开数据支持，但听众留存与复购证据未披露。
+  usage_reason_en: 'Inference: AI produces voice and audio directly, turning each episode from scheduled
+    recording into batch generation from a script, removing casting and studio steps so a platform can
+    widen genres and episode counts on the same budget; revenue and AI-content share are public, listener
+    retention and repeat-purchase evidence is not.'

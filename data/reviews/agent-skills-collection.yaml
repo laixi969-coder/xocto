@@ -257,3 +257,44 @@
   usage_reason: 公开仓库有 209 个收藏、4 次复刻，说明开发者注意到该项目，但这是关注度而非选择理由；缺少用户反馈或案例说明为何选用它，因此无法解释采用动机。
   usage_reason_en: The public repository has 209 stars and 4 forks, showing developer attention rather
     than a reason for choosing it; without user feedback or cases, the adoption motive cannot be explained.
+- id: req-full-agent-skills-collection-2026-09-13
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-09-13T00:22:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue / discussion 与 README 变更，确认是否有用户报告实际接入 agent 的流程、安装安全争议或维护者回应，以判断技能包是否被真正纳入工作流。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的 agent 加装模块化技能，在本地或自建环境里把技能包接入自己的助手，完成扩展能力这件事。
+  job_en: A developer or LLM-agent user wants to add modular skills to an LLM-based agent, wiring skill
+    packages into a local or self-hosted assistant to extend its capabilities.
+  pain: 公开材料只给出产品自述与安装摩擦：装技能要关杀毒、用管理员权限跑安装包。这属于分发方式带来的安全与信任负担，而非用户任务本身的刚性痛点；没有用户抱怨、替代流程或不用会失去什么的公开证据。
+  pain_en: 'Public material only offers the product''s own description plus install friction: adding skills
+    requires disabling antivirus and running a setup file as administrator. That is a distribution-induced
+    security and trust burden, not a rigid pain in the user''s own task; there is no public evidence of
+    user complaints, workarounds, or consequences of not using it.'
+  current_alternative: 公开材料未说明用户现在如何完成这件事；按工作流结构推理，开发者通常直接用提示词、函数调用或自写工具脚本接入 agent，无需第三方技能包。
+  current_alternative_en: Public material does not show how users do this today; by workflow inference,
+    developers typically wire agents via prompts, function calling, or self-written tool scripts without
+    a third-party skill pack.
+  usage_reason: 推断：仓库有 209 个收藏、4 次复刻，说明部分开发者出于好奇或试用而关注；但收藏与复刻只反映关注度，不能解释为何在关杀毒、提权安装的代价下仍会持续选用，缺少留存或复购证据。
+  usage_reason_en: 'Inference: 209 stars and 4 forks show some developers noticed or tried it out of curiosity;
+    stars and forks reflect attention only and cannot explain continued adoption given the cost of disabling
+    antivirus and elevated install, with no retention or repeat-use evidence.'

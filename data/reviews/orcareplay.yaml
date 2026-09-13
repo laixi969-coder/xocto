@@ -306,3 +306,55 @@
     run so engineers can replay the same trajectory and fork from a chosen step, removing the manual log-stitching
     and luck-based reproduction step; AI engineers debugging multi-step agents with hard-to-reproduce
     failures would therefore pick it during triage.'
+- id: req-full-orcareplay-2026-09-13
+  project_slug: orcareplay
+  level: full
+  reviewed_at: '2026-09-13T00:25:13Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理非确定性失败难以复现的调试需求：开发者只能靠日志与反复重跑猜测根因，定位成本高。记录、重放、分叉可回到具体一步对比结果，交付路径清晰；此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-3d218aeb44eb4c61
+    - ev-8140225a63e0131c
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 171 持续升至 236，说明开发者持续关注并把它纳入工具视野；但收藏与关注只属规模信号，不能证明已长期留在工作流或形成付费采用。
+    evidence_ids:
+    - ev-3d218aeb44eb4c61
+    - ev-80836a6e123aab46
+    - ev-b377fa136a803f69
+    - ev-8140225a63e0131c
+  - gate: model
+    status: insufficient
+    reason: 由 OrcaRouter.ai 团队开发，可能走开源加托管或路由服务变现，但公开材料未见定价页、付费主体或单位经济，谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-3d218aeb44eb4c61
+  - gate: truth
+    status: insufficient
+    reason: 重放与分叉能否在任意模型、任意代理框架下确定性还原运行，以及记录敏感数据的存储与安全边界，公开材料未给出可复现的部署或验证证据。
+    evidence_ids:
+    - ev-3d218aeb44eb4c61
+    - ev-0cb3da2fe8ca5365
+  next_validation: 追踪 OrcaReplay 官方仓库的 README、issue 与 discussion，确认其重放/分叉在具体代理框架下的可复现部署方式与是否出现付费或托管定价信息。
+  market: ''
+  job: AI 工程师在调试多步 AI 代理时，面对一次失败或异常运行，需要把该次运行的模型调用、工具调用与中间状态记录下来，事后重放、分叉并定位是哪一步导致结果偏离，从而修复代理逻辑。
+  job_en: AI engineers debugging a multi-step agent run need to record the run's model calls, tool calls
+    and intermediate state, then replay, fork and isolate which step caused the deviation so they can
+    fix the agent logic.
+  pain: 代理运行具有非确定性，同一输入多次执行结果不同，失败往往无法稳定复现；开发者只能靠日志、打印语句和反复重跑猜测原因，定位成本高且不可重复。
+  pain_en: 'Agent runs are non-deterministic: the same input yields different results, failures rarely
+    reproduce reliably, and developers must guess from logs, print statements and repeated reruns, making
+    root-cause work costly and non-repeatable.'
+  current_alternative: 当前替代是手工加日志、打印中间状态、保存 prompt 与响应、反复重跑同一任务，或依赖通用可观测性/追踪工具，但这些做法难以精确重放某一次运行并分叉对比。
+  current_alternative_en: Today developers add manual logging, print intermediate state, save prompts
+    and responses, rerun the same task repeatedly, or rely on generic observability/tracing tools, none
+    of which precisely replays one specific run and forks it for comparison.
+  usage_reason: 推断：相较手工日志与重跑，OrcaReplay 通过记录整次运行并支持重放与分叉，把“无法复现、只能猜”变成“可回到具体一步、改动后对比结果”，因此正在调试非确定性代理失败的
+    AI 工程师会在排查阶段选择它。
+  usage_reason_en: 'Inference: versus manual logging and reruns, OrcaReplay records a whole run and supports
+    replay and forking, turning ''cannot reproduce, must guess'' into ''return to a specific step and
+    compare outcomes after a change'', so AI engineers debugging non-deterministic agent failures would
+    pick it during triage.'

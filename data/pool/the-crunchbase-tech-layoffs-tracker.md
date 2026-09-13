@@ -23,7 +23,7 @@ summary: Over 127,000 workers at U.S.-based tech companies were laid off in mass
   a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.
 first_seen: '2026-08-26T17:10:30Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPVEJJaUtYVjFi
 summary: Why Businesses Are Investing in AI Development Services in 2026 Nasscom
 first_seen: '2026-09-11T17:06:12Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

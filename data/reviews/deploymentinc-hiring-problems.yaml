@@ -122,3 +122,44 @@
   usage_reason_en: 'Inference: if the product truly places engineers inside the client to deliver an explainable
     metric on client data under security review, users might choose it to avoid building an in-house delivery
     team; but no public customer case or usage feedback supports this motive.'
+- id: req-full-deploymentinc-hiring-problems-2026-09-13
+  project_slug: deploymentinc-hiring-problems
+  level: full
+  reviewed_at: '2026-09-13T00:23:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决企业把 AI 从演示推进到生产的落差，但公开证据只有一句岗位描述，没有用户抱怨、失败案例或未解决后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-5c4df074e86a4388
+    - ev-3bf397dabb7b2104
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Deployment.inc 官网的客户案例与部署文档页面，确认是否有具名企业客户、交付物清单与安全审查流程的公开记录。
+  market: ''
+  job: 企业内部的 AI 项目负责人需要在预算与安全团队审查约束下，把演示阶段的模型部署到企业自有数据上，并跑出可向业务负责人解释的业务指标。
+  job_en: An enterprise AI project owner must take a demo-stage model onto the company's own data under
+    budget and security review constraints, and produce a business metric explainable to a business owner.
+  pain: 公开材料只有一句岗位描述，未记录任何用户抱怨、失败案例或未解决后果；无法确认演示到生产的落差是否构成真实痛点。
+  pain_en: Public materials contain only a one-line role description, with no user complaints, failure
+    cases, or unsolved consequences; it is unverifiable whether the demo-to-production gap is a real pain
+    point.
+  current_alternative: 公开材料未说明企业目前如何完成这项工作，也未说明它替代了内部团队、外部咨询还是自建平台。
+  current_alternative_en: Public materials do not state how enterprises currently complete this work,
+    nor whether it replaces internal teams, external consultants, or self-built platforms.
+  usage_reason: 推断：若企业缺少能同时处理自有数据、安全审查与业务指标解释的工程师，可能选择外部派驻；但公开材料未给出任何采用、付费或重复使用证据，无法确认这一选择是否发生。
+  usage_reason_en: 'Inference: an enterprise lacking engineers who can handle its own data, security review,
+    and business-metric explanation might choose an embedded external team; however, public materials
+    provide no adoption, payment, or repeat-use evidence to confirm this choice occurs.'

@@ -137,3 +137,58 @@
     step from the script so the agent acts on the real page; developers already using Claude Code, Cursor,
     and similar agents whose tasks sit behind a login would choose it when scraping or operating pages
     inside their own accounts.'
+- id: req-full-huashu-chrome-2026-09-13
+  project_slug: huashu-chrome
+  level: full
+  reviewed_at: '2026-09-13T00:24:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让 agent 在带登录态的真实 Chrome 里完成页面操作这一需求，痛点是登录后页面无法交给 agent、只能手工重复或自建无头脚本维护会话；不解决的后果是重复劳动与脚本易失效。这是基于产品定位与工作流结构的推理，尚无用户抱怨或案例直接佐证。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-9b8d813d1fec6ce3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 156 增至 185，说明开发者社区持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在日常工作流里；缺少 issue、discussion 或使用反馈说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-18ba421b72593f7e
+    - ev-9b8d813d1fec6ce3
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，谁付钱、按什么单位收费均未披露；这是判断而非已验证事实，开源项目也可能靠赞助或托管服务变现，但均无公开证据。
+    evidence_ids:
+    - ev-41502e9c03214554
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺让 agent 操控带全部登录态的 Chrome，但公开材料未说明支持哪些站点、操作边界与失败回退，也未给出安全与人工确认机制；登录态被 agent 接管后的权限范围与误操作风险缺少可核验文档。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-3d737f7c8a41e34a
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否公开支持站点清单、登录态权限边界与安全回退机制，以及是否有用户报告在真实登录后任务中持续使用。
+  market: ''
+  job: 开发者或自动化流程搭建者在自己的电脑上打开已登录的 Chrome，让 Claude Code、Codex、Cursor、Gemini CLI 等 agent 通过 MCP 与浏览器扩展接管页面，处理需要登录态的后台、表单填写或数据抓取任务，最终由
+    agent 直接完成页面动作。
+  job_en: A developer or automation builder opens their own logged-in Chrome on their machine and lets
+    an agent (Claude Code, Codex, Cursor, Gemini CLI) take over pages via MCP plus a browser extension,
+    handling logged-in back-office, form-filling, or scraping tasks so the agent completes the page actions
+    directly.
+  pain: 公开材料支持的痛点在于：需要登录态的页面操作无法交给 agent，用户只能手工重复点击，或把 cookie、会话搬到无头脚本里，既易失效又难维护；这是从产品定位与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: The publicly supported pain is that logged-in page operations cannot be handed to an agent,
+    so users either click through manually or move cookies and sessions into headless scripts that break
+    easily and are hard to maintain; this is inferred from the product positioning and workflow structure,
+    not from user complaints or cases.
+  current_alternative: 旧做法是手工在浏览器里重复操作，或写 Playwright/Selenium 等无头脚本并自行处理登录态与 cookie；公开材料未说明用户具体如何绕过，也未给出替代对比。
+  current_alternative_en: The old approach is manual repetition in the browser, or writing headless Playwright/Selenium
+    scripts and handling login state and cookies yourself; public materials do not describe how users
+    currently work around this or compare alternatives.
+  usage_reason: 推断：相较无头脚本要单独维护登录态、相较手工点击要逐步重复，它直接复用用户本机 Chrome 的既有登录态，把页面动作交给已接入的 agent，省去搬运 cookie 与重写脚本这一步，因此已用
+    Claude Code、Cursor 等 agent 且任务落在登录后页面的开发者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus headless scripts that require separately maintaining login state,
+    and versus manual clicking step by step, it reuses the existing login state of the user''s local Chrome
+    and hands page actions to an already-connected agent, removing the step of moving cookies and rewriting
+    scripts, so developers already using Claude Code or Cursor whose tasks live behind a login would choose
+    it in that situation.'

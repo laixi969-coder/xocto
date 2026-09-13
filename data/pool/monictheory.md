@@ -21,7 +21,7 @@ canonical_url: https://monictheory.com
 summary: Music Generation Backed by Algebra
 first_seen: '2026-09-12T17:55:03Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -108,3 +108,59 @@
   usage_reason: 用户要完成的任务是：Unity 开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Unity developers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-unity-plugin-2026-09-13
+  project_slug: unity-plugin
+  level: full
+  reviewed_at: '2026-09-13T00:26:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Unity 编辑器难以被 AI 代理直接驱动、开发者需手工搬运代码与点击验证的痛点；旧替代是 GUI 手工操作或自写 Editor 脚本，不解决的后果是自动化闭环断裂、重复劳动与出错。仓库说明与
+      52→55 星增长为公开事实，任务闭环为工作流结构推理。
+    evidence_ids:
+    - ev-2eda7d02f6ff8323
+    - ev-4ac2d486d71bc8a7
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库描述与星标数从 52 增至 55，属关注度而非持续采用；没有 issue、discussion、用户评价或客户案例说明谁在何种场景长期使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-2eda7d02f6ff8323
+    - ev-7dec3673f8be53e3
+    - ev-4ac2d486d71bc8a7
+  - gate: model
+    status: insufficient
+    reason: 这是开源插件，公开材料未见定价页、付费主体或商业条款；钱可能来自 to C 开发者自愿赞助、to B 团队定制或 to VC 叙事，均属判断而非已验证事实，单位经济无法核验。
+    evidence_ids:
+    - ev-2eda7d02f6ff8323
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅给出“通过 unity CLI 控制 Unity 编辑器”的说明，未见部署文档、版本兼容范围、可复现实测或安全边界说明，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-2eda7d02f6ff8323
+    - ev-7dec3673f8be53e3
+  next_validation: 追踪 https://公开代码仓库.com/opdsh/unity-plugin 的 README、issue 与 discussion，确认支持的 Unity 版本、安装部署步骤及是否有开发者报告实际接入
+    AI 代理工作流的使用记录。
+  market: ''
+  job: Unity 开发者（尤其使用 DeepSeek Harness 等 AI 编码代理的团队）在编辑器内反复执行导入资源、改组件、跑构建、查日志等操作时，希望通过 unity CLI 让 AI
+    代理直接驱动 Unity 编辑器完成这些编辑与构建任务，而不必手工在 GUI 里逐步点击。
+  job_en: Unity developers (especially those using AI coding agents such as DeepSeek Harness) who repeatedly
+    import assets, edit components, run builds and read logs want the agent to drive the Unity Editor
+    through the unity CLI to complete those edit-and-build tasks instead of clicking through the GUI by
+    hand.
+  pain: Unity 编辑器的操作长期绑定图形界面，脚本化与自动化能力有限；当开发者把 AI 代理接入工作流时，代理无法直接触达编辑器状态，只能生成代码片段再由人手工粘贴、点击、验证，重复劳动多且容易出错。
+  pain_en: Unity Editor work is bound to a graphical interface with limited scriptability; when developers
+    bring AI agents into the workflow, the agent cannot reach editor state directly, so it can only emit
+    snippets that a human must paste, click and verify, which is repetitive and error-prone.
+  current_alternative: 当前替代方式是手工在 Unity GUI 中操作，或自行编写 Editor 脚本、批处理模式命令、第三方自动化工具，再由开发者手动把 AI 生成的代码搬进编辑器执行。
+  current_alternative_en: Today developers work manually in the Unity GUI, or write their own Editor scripts,
+    batch-mode commands and third-party automation tools, then hand-carry AI-generated code into the editor
+    to run it.
+  usage_reason: 推断：相较手工 GUI 操作或自写脚本，该插件把编辑器控制暴露为 unity CLI 命令，使 AI 代理能直接调用同一套命令完成导入、改组件、构建等动作，省去“生成代码—人工粘贴—点击执行—回读结果”这一整段搬运环节；因此正在用
+    AI 代理做 Unity 开发、且希望代理闭环操作编辑器的开发者会在搭建工作流时选择它。
+  usage_reason_en: 'Inference: versus manual GUI work or self-written scripts, the plugin exposes editor
+    control as unity CLI commands so an AI agent can call the same commands to import, edit components
+    and build, removing the generate-paste-click-read-back handoff; developers already using AI agents
+    for Unity work who want a closed loop on the editor would therefore adopt it when setting up their
+    workflow.'

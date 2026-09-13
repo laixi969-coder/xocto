@@ -195,3 +195,52 @@
     agent sessions into a self-hostable environment reachable from desktop and mobile, removing the step
     of switching devices and windows, so developers running several agents who need data to stay on their
     own VPS would try it first; this motive is not yet confirmed by user feedback or cases.'
+- id: req-full-vicoa-2026-09-13
+  project_slug: vicoa
+  level: full
+  reviewed_at: '2026-09-13T00:26:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多编码代理并行时的会话分散与远程可见性问题，痛点来自终端逐个切换和云端 ADE 的代码外流顾虑，属于工作流结构推理而非用户口述；公开材料仅一句定位，未给出用户抱怨或案例，故把握有限。
+    evidence_ids:
+    - ev-52e7210c17a7eb6e
+    - ev-ba3ec87e71faa936
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 145 增至 241，说明开发者注意到该项目，但收藏与关注只属规模信号，公开材料没有 issue、discussion 或评价说明谁在何种场景持续使用，也未显示替代了哪套旧流程。
+    evidence_ids:
+    - ev-52e7210c17a7eb6e
+    - ev-a8e63ee360954943
+  - gate: model
+    status: insufficient
+    reason: 开源自托管定位下，公开材料未披露定价页、付费主体或托管服务，to C 开发者、to B 团队与 to VC 三种路径都只是判断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-ba3ec87e71faa936
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理会话的隔离方式、凭据与代码在自托管环境中的边界，也没有部署文档或可复现实测证明多代理任务能确定性交付，人工接管与安全边界仍待核验。
+    evidence_ids:
+    - ev-60c7995c5de1217d
+  next_validation: 追踪 Vicoa 官方仓库的 README、部署文档与 issue/discussion，确认自托管部署步骤、代理会话隔离方式，以及是否有用户描述实际替代的旧流程。
+  market: ''
+  job: 软件开发者或技术团队负责人同时驱动多个编码代理（Claude Code、Codex 类 CLI 代理）时，需要在桌面、手机或自托管 VPS 上查看各代理的会话状态、下发新任务并回收产出，而不必守在某一台机器的终端前。
+  job_en: A software developer or tech lead running several coding agents at once needs to inspect each
+    agent's session, dispatch new tasks, and collect output from desktop, phone, or a self-hosted VPS
+    instead of being tied to one machine's terminal.
+  pain: 公开材料只给出产品定位，没有用户抱怨或案例；从工作流结构推理：多代理并行时终端会话分散、离开工位即失去可见性、云端 ADE 又要求把代码交给第三方，这是当前替代方式留下的具体摩擦。
+  pain_en: Public materials give only positioning, no user complaints or cases; by workflow inference,
+    parallel agents scatter sessions across terminals, visibility is lost when away from the desk, and
+    cloud ADEs require handing code to a third party.
+  current_alternative: 现状替代是本地终端里逐个开 tmux/多标签跑 CLI 代理，或使用 Cursor、VS Code 加代理插件、以及云端托管 ADE；远程访问通常靠 SSH
+    或自建隧道。
+  current_alternative_en: Today's alternatives are running CLI agents one by one in local terminals or
+    tmux tabs, using Cursor/VS Code with agent plugins, or cloud-hosted ADEs; remote access usually means
+    SSH or a self-built tunnel.
+  usage_reason: 推断：相较逐个终端加 SSH 的旧做法，Vicoa 把多代理会话集中到一个可自托管的界面，并允许从手机或 VPS 接入，省去为每个代理单独维持远程终端和手工切换的步骤；重视代码不外流、又需要离开工位继续盯代理的开发者会因此选择它。
+  usage_reason_en: 'Inference: versus per-terminal sessions plus SSH, Vicoa centralizes multiple agent
+    sessions in one self-hostable surface reachable from phone or VPS, removing the step of maintaining
+    a separate remote terminal per agent; developers who want code to stay in-house yet need off-desk
+    visibility would pick it.'

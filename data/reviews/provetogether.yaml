@@ -1,0 +1,87 @@
+- id: req-initial-provetogether-2026-09-13
+  project_slug: provetogether
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是未解猜想证明过程难以并行与追踪的问题，痛点方向存在，但公开材料只有一句口号式描述，无法确认智能体产出是否构成有效证明步骤。
+    evidence_ids:
+    - ev-91dcc0491be805fa
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 个点数、零评论，没有研究者采用或引用其进展的证据。
+    evidence_ids:
+    - ev-91dcc0491be805fa
+  - gate: model
+    status: insufficient
+    reason: 没有定价或买方信息，付费方可能是研究机构、基金会或企业研发，均未披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-91dcc0491be805fa
+  - gate: truth
+    status: insufficient
+    reason: 无法核对证明是否经过形式化校验、错误结论如何拦截，也没有人工确认边界的说明，交付确定性存疑。
+    evidence_ids:
+    - ev-91dcc0491be805fa
+  next_validation: 收集 provetogether 问题页的公开进展记录或形式化校验说明，确认智能体产出的证明步骤是否被机器验证、是否有研究者引用或采用。
+  market: ''
+  job: 数学研究者和形式化证明工作者在推进未解猜想时，需要把猜想拆成可验证的引理，并逐条确认证明步骤是否成立。
+  job_en: Mathematicians and formal-proof workers advancing an open conjecture need to split it into verifiable
+    lemmas and confirm step by step whether each proof holds.
+  pain: 证明尝试周期长、失败路径多，单人推进容易卡在某个引理上，且中间过程难以对外展示。
+  pain_en: Proof attempts take long and fail often, a single person easily gets stuck on one lemma, and
+    the intermediate process is hard to show to others.
+  current_alternative: 现有做法是研究者自己读文献、手写证明草稿，或用形式化证明助手逐条检查，进度只存在于个人笔记里。
+  current_alternative_en: The current practice is for researchers to read the literature, draft proofs
+    by hand, or check them line by line with a formal proof assistant, with progress living only in personal
+    notes.
+  usage_reason: 推断：相较单人闭门推进，它把猜想拆成公开问题页并让多个智能体并行尝试，省掉重复试错和整理中间进展这一步，因此关注未解猜想的研究者会围观或提交尝试；但公开材料没有说明证明是否被机器校验、是否有人实际采用，社区讨论也几乎没有。
+  usage_reason_en: 'Inference: compared with one person working privately, it turns a conjecture into
+    a public problem page where multiple agents attempt proofs in parallel, removing repeated trial and
+    error and the work of organizing intermediate progress, so researchers following open conjectures
+    would watch or submit attempts. However, the public material does not say whether proofs are machine-checked
+    or whether anyone has adopted it, and community discussion is nearly absent.'
+- id: req-full-provetogether-2026-09-13
+  project_slug: provetogether
+  level: full
+  reviewed_at: '2026-09-13T00:25:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅一句“Come prove the Berge Fulkerson conjecture with a swarm of agents”，既未说明智能体产出是否构成有效证明步骤，也未说明不采用的具体代价，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-91dcc0491be805fa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 provetogether 问题页的公开进展记录与形式化校验说明，确认智能体产出的证明步骤是否被机器验证、是否有研究者引用或采用。
+  market: ''
+  job: 数学研究者在推进 Berge–Fulkerson 这类未解猜想时，需要把猜想拆成可验证的引理，逐条确认证明步骤是否成立，并让进展可被他人查看。
+  job_en: Mathematicians advancing an open conjecture such as Berge–Fulkerson need to split it into verifiable
+    lemmas, confirm step by step whether each proof holds, and make progress visible to others.
+  pain: 公开材料只有一句口号式描述，未说明证明尝试周期、卡点频率或不采用的具体后果；结构上未解猜想单人推进易卡在某个引理、中间过程难展示，但这一痛点强度在公开证据中未被确认。
+  pain_en: Public material is a single slogan and does not state proof-attempt cycles, how often people
+    get stuck, or the consequence of not using it; structurally a solo effort on an open conjecture can
+    stall on one lemma and is hard to show, but the strength of this pain is unconfirmed in public evidence.
+  current_alternative: 公开材料未说明研究者目前如何推进该猜想，也未说明它实际替代了论文草稿、形式化证明助手还是邮件讨论中的哪一种。
+  current_alternative_en: Public material does not say how researchers currently advance this conjecture,
+    nor which of paper drafts, formal proof assistants, or email discussion it replaces.
+  usage_reason: 推断：若它把猜想拆成公开问题页并让多个智能体并行尝试，可省掉单人重复试错与整理中间进展这一步，关注未解猜想的研究者可能围观或提交尝试；但公开材料未说明智能体产出是否构成有效证明步骤、是否被机器校验，也无采用记录，故无法确认选择理由。
+  usage_reason_en: 'Inference: if it turns the conjecture into a public problem page where multiple agents
+    attempt proofs in parallel, it could remove repeated solo trial and error and the work of organizing
+    intermediate progress, so researchers following open conjectures might watch or submit attempts; but
+    public material does not say whether agent output constitutes valid proof steps or is machine-checked,
+    and there is no adoption record, so the reason to choose it cannot be confirmed.'

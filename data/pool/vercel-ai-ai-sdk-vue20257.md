@@ -24,7 +24,7 @@ summary: '### Patch Changes
   - ai@5.0.257'
 first_seen: '2026-09-12T01:47:28Z'
 last_seen: '2026-09-13T00:00:57Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

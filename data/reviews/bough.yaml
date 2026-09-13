@@ -80,3 +80,44 @@
   usage_reason: 用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-bough-2026-09-13
+  project_slug: bough
+  level: full
+  reviewed_at: '2026-09-13T00:23:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决开发者回看当日 AI 编码会话与提交记录的需求，但公开证据全是 bough 一词的词典释义，没有任何用户痛点、替代行为或采用材料，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-23f1f9520ff9d77f
+    - ev-18700a4b94f1e689
+    - ev-4d607217c8bd3849
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bough 官方仓库的 README、release 说明与 issue/discussion，确认其实际输入来源、输出形态及是否有开发者反馈其替代了手工翻查会话日志的做法。
+  market: ''
+  job: 开发者在一天编码结束后，面对 Claude Code、Codex 留下的会话记录与提交历史，想把这些原始日志整理成按天组织、可回看的当日工作记录。
+  job_en: After a day of coding, a developer wants to turn raw Claude Code and Codex session logs plus
+    commit history into a day-organized, reviewable record of the day's work.
+  pain: 公开证据中没有任何用户抱怨、workaround 或客户案例，无法确认会话日志散落、难以回看这一痛点是否真实存在及其强度。
+  pain_en: No public user complaints, workarounds, or customer cases exist in the evidence, so it is impossible
+    to confirm whether scattered session logs are a real or intense pain.
+  current_alternative: 公开材料未说明开发者目前如何回看当日 AI 编码记录，也未说明 bough 替代了什么既有做法。
+  current_alternative_en: Public materials do not show how developers currently review daily AI coding
+    records, nor what existing practice bough replaces.
+  usage_reason: 推断：若开发者确实需要逐日复盘提示词与提交，bough 以单机 Go 二进制本地读取日志、不上传数据的方式，省去手工翻找会话文件这一步；但缺少用户反馈或案例支持该动机。
+  usage_reason_en: 'Inference: if developers genuinely need daily review of prompts and commits, bough''s
+    local single Go binary reading logs without uploading data removes the step of manually digging through
+    session files; but no user feedback or case supports this motive.'

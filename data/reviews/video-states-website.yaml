@@ -135,3 +135,53 @@
     organization, click-state switching and seam-safe stitching into a build spec that can be followed
     directly, cutting trial-and-error on clip-seam debugging, so frontend developers needing to ship a
     cinematic interactive landing page quickly would choose it during the build phase.'
+- id: req-full-video-states-website-2026-09-13
+  project_slug: video-states-website
+  level: full
+  reviewed_at: '2026-09-13T00:26:31Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 LTX 生成片段组织成点击切换、无缝播放的互动视频网站这一具体任务，痛点是片段接缝与状态切换缺少可复用规格、需自行返工；仓库说明已给出输入、动作与交付闭环，属工作流结构推理，痛点刚性中等但交付路径可确定。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-ec7063019fb539cf
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 111 增至 136，说明有开发者持续关注并把它纳入参考；但收藏与关注只属规模信号，不能证明已长期留在工作流，故共识仅初步成立。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-fcb304284c12155d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断钱来自 to C 开发者、to B 团队还是仅靠关注度；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-6f703615486a9538
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺可交付点击驱动视频网站，但缺少可复现的部署文档、issue 或实测证据来确认无缝播放与状态切换在真实项目中稳定发生，人工与安全边界也未说明。
+    evidence_ids:
+    - ev-ec7063019fb539cf
+    - ev-590ea8d13e445124
+  next_validation: 追踪该仓库的 README/部署文档与 issue、discussion，确认是否有开发者按规格实际部署并反馈无缝播放与状态切换的可用性。
+  market: ''
+  job: 前端开发者或互动内容设计师在为客户做品牌互动落地页时，需要把 LTX 生成的视频片段、图像与提示词组织成点击切换的视频状态，并拼接成一段无缝播放的页面，最终交付一个可点击驱动的电影感视频网站。
+  job_en: A frontend developer or interactive content designer building a branded interactive landing
+    page must organize LTX-generated video clips, images and prompts into click-switched video states
+    and stitch them into seam-safe playback, delivering a click-driven cinematic video website.
+  pain: 公开仓库说明指向的痛点是：AI 生成视频片段之间存在接缝、状态切换不连贯，且从提示词到可运行页面缺少可复用的构建规格，开发者要自己摸索播放与拼接逻辑；不解决的后果是页面播放跳帧、状态切换断裂，需要反复返工。
+  pain_en: The public repo description points to the pain that AI-generated clips have seams and state
+    transitions are not continuous, and there is no reusable build spec from prompts to a running page,
+    so developers must figure out playback and stitching themselves; leaving it unsolved means jumpy playback
+    and broken state transitions requiring rework.
+  current_alternative: 当前替代方式是开发者自行用通用前端框架手写视频状态切换与预加载逻辑，或直接使用现成模板/无代码建站工具，但缺少针对 LTX 素材与无缝播放的现成规格。
+  current_alternative_en: Today developers hand-write video state switching and preloading in a general
+    frontend framework, or use off-the-shelf templates and no-code site builders, but lack a ready spec
+    tailored to LTX footage and seam-safe playback.
+  usage_reason: 推断：相较手写播放逻辑，该仓库直接给出构建规格、提示词与无缝播放指南，把“从素材到可点击视频状态”的拼接步骤固化成可照做的流程，因此正在做互动落地页、又不想从零调试接缝与状态切换的前端开发者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus hand-writing playback logic, the repo supplies a build spec, prompts
+    and a seam-safe playback guide that fixes the stitching steps from footage to clickable video states,
+    so frontend developers building interactive landing pages who do not want to debug seams and state
+    transitions from scratch would choose it in that situation.'

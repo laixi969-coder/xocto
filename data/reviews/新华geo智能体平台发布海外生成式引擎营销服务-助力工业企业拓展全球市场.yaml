@@ -1,0 +1,92 @@
+- id: req-initial-新华geo智能体平台发布海外生成式引擎营销服务-助力工业企业拓展全球市场-2026-09-13
+  project_slug: 新华geo智能体平台发布海外生成式引擎营销服务-助力工业企业拓展全球市场
+  level: initial
+  reviewed_at: '2026-09-13T00:02:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决出海工业企业想让品牌被生成式引擎引用、传统SEO效果不确定的问题，旧行为是SEO与展会，痛点具体但交付确定性未披露。
+    evidence_ids:
+    - ev-937d6392daee256f
+    - ev-0946c62e2f29bc4e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布消息，无客户案例、采用数据或行业反馈，无法判断工业企业是否已接受这种营销方式。
+    evidence_ids:
+    - ev-937d6392daee256f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价或买方是工业企业还是其代理服务商，付费路径无法核验。
+    evidence_ids:
+    - ev-0946c62e2f29bc4e
+  - gate: truth
+    status: insufficient
+    reason: 生成内容能否被海外生成式引擎实际引用、如何衡量与复核均未说明，交付结果不可核对。
+    evidence_ids:
+    - ev-937d6392daee256f
+  next_validation: 收集新华GEO智能体平台的官方服务说明或客户案例页，确认其内容交付形式、计价方式与可核验的引用效果数据。
+  market: ''
+  job: 工业企业的海外市场人员在准备英文产品资料、参加海外展会或投放前，需要处理企业介绍与技术参数，完成让海外采购方在AI搜索中看到自己的任务。
+  job_en: Overseas marketing staff at industrial firms preparing English product materials, trade shows
+    or campaigns must work through company profiles and technical specs to make themselves visible to
+    overseas buyers in AI search.
+  pain: 海外买家越来越多用生成式引擎做供应商初筛，传统SEO和展会投入未必带来AI引用，企业缺少可核验的引用结果。
+  pain_en: Overseas buyers increasingly use generative engines for initial supplier screening; traditional
+    SEO and trade-show spend may not produce AI citations, and firms lack verifiable citation results.
+  current_alternative: 过去靠传统SEO、B2B平台店铺、展会与代理商推荐获取海外询盘。
+  current_alternative_en: Previously they relied on traditional SEO, B2B marketplace storefronts, trade
+    shows and agent referrals for overseas inquiries.
+  usage_reason: 推断：相较传统SEO需要长期优化网页排名，该平台直接生成面向生成式引擎的内容，省去企业自行研究AI搜索收录规则这一步，因此缺少海外营销团队的中小制造企业会在拓展新市场时尝试。
+  usage_reason_en: 'Inference: unlike traditional SEO, which requires long-term page-ranking optimization,
+    the platform directly generates content aimed at generative engines, removing the step of firms researching
+    AI search inclusion rules themselves, so smaller manufacturers without overseas marketing teams would
+    try it when entering new markets.'
+- id: req-full-新华geo智能体平台发布海外生成式引擎营销服务-助力工业企业拓展全球市场-2026-09-13
+  project_slug: 新华geo智能体平台发布海外生成式引擎营销服务-助力工业企业拓展全球市场
+  level: full
+  reviewed_at: '2026-09-13T00:26:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决出海工业企业想让品牌被生成式引擎引用、传统SEO与展会投入未必换来AI曝光的问题，痛点具体且刚性；但交付能否被实际引用未披露，属工作流结构推理。
+    evidence_ids:
+    - ev-937d6392daee256f
+    - ev-0946c62e2f29bc4e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有新华网发布消息，无客户案例、采用数据或行业反馈，无法判断工业企业是否已接受这种营销方式，也未出现可归因到该产品的使用规模。
+    evidence_ids:
+    - ev-937d6392daee256f
+    - ev-0946c62e2f29bc4e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式，也看不出买方是工业企业市场部还是其代理服务商；只能推断为to B服务，付费路径尚未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0946c62e2f29bc4e
+  - gate: truth
+    status: insufficient
+    reason: 生成内容能否被海外生成式引擎实际引用、如何衡量与复核均未说明，交付结果不可核对，安全与人工审核边界也未披露。
+    evidence_ids:
+    - ev-937d6392daee256f
+  next_validation: 追踪新华GEO智能体平台官网的服务说明或客户案例页，确认其内容交付形式、计价方式与可核验的生成式引擎引用效果数据。
+  market: ''
+  job: 出海工业企业的海外市场人员在准备英文产品资料、技术参数与展会/投放素材时，需要把这些材料整理成可被海外生成式引擎收录引用的品牌内容，让海外采购方在AI搜索初筛供应商时看到自己。
+  job_en: Overseas marketing staff at exporting industrial firms, when preparing English product materials,
+    technical specs and trade-show or campaign assets, must turn them into brand content that overseas
+    generative engines can index and cite, so buyers see them during AI-search supplier screening.
+  pain: 海外买家越来越多用生成式引擎做供应商初筛，传统SEO与展会投入未必换来AI引用；企业既缺面向生成式引擎的内容生产方法，也缺可核验的引用结果，投入与曝光之间断链。
+  pain_en: Overseas buyers increasingly screen suppliers via generative engines, yet traditional SEO and
+    trade-show spend may not yield AI citations; firms lack both a method to produce generative-engine-oriented
+    content and verifiable citation results, breaking the link between spend and visibility.
+  current_alternative: 过去靠传统SEO优化网页排名、B2B平台店铺、海外展会与代理商推荐获取询盘。
+  current_alternative_en: Previously they relied on traditional SEO for page rankings, B2B marketplace
+    storefronts, overseas trade shows and agent referrals to generate inquiries.
+  usage_reason: 推断：相较传统SEO需长期优化网页排名、企业自行研究AI搜索收录规则，该平台把企业信息直接转成面向生成式引擎的营销内容，省去自行摸索收录规则这一步；缺少海外营销团队的中小制造企业在拓展新市场时更可能选择它。
+  usage_reason_en: 'Inference: unlike traditional SEO, which requires long-term page-ranking optimization
+    and firms figuring out AI-search inclusion rules themselves, the platform converts company information
+    directly into generative-engine-oriented marketing content, removing that research step; smaller manufacturers
+    without overseas marketing teams are more likely to choose it when entering new markets.'

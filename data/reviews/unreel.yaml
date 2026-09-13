@@ -326,3 +326,44 @@
   usage_reason: 用户要完成的任务是：视频消费者、内容创作者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Video Consumers, Content Creators Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-unreel-2026-09-13
+  project_slug: unreel
+  level: full
+  reviewed_at: '2026-09-13T00:26:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句“个人 AI 视频流媒体服务”定位与仓库星标，未说明用户任务、输入材料、交付物与不解决的后果，连需求与痛点都无法还原，故无法做价值结构判断。
+    evidence_ids:
+    - ev-ec40b55f40ec67c5
+    - ev-3628ff5258a2a2c4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/blendi-remade/unreel 的 README、issue 与 discussion，确认它声明的输入素材、生成或播放动作与交付结果，以及是否出现具体使用场景描述。
+  market: ''
+  job: 公开材料只给出“个人 AI 视频流媒体服务”一句定位，未说明谁在什么情况下、处理什么素材、要完成什么具体任务；无法还原从输入到观看或创作交付的完整工作流。
+  job_en: Public materials offer only the one-line positioning 'your personal AI video streaming service';
+    it is not stated who, in what situation, with what material, completes what concrete task, so the
+    input-to-delivery workflow cannot be reconstructed.
+  pain: 没有公开事实说明用户当前在视频消费或创作中遇到的具体痛点、发生频率或不解决的后果；仓库描述与星标数不构成痛点证据。
+  pain_en: No public fact describes the concrete pain, frequency, or consequence of leaving the job unsolved
+    in video consumption or creation; the repository description and star counts are not pain evidence.
+  current_alternative: 公开材料未说明用户今天用什么替代方式完成该任务，也未说明 unreel 替代了哪一步旧流程。
+  current_alternative_en: Public materials do not state what alternative users rely on today, nor which
+    step of an existing workflow unreel replaces.
+  usage_reason: 无法给出因果解释：材料未说明产品通过什么具体动作减少哪一步负担或改善哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: materials do not show which concrete step the product
+    removes or which checkable result it improves, so it cannot be judged which users would choose it
+    and when.'

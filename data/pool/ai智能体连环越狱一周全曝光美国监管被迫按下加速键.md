@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeURzc2VkX2dh
 summary: AI智能体"连环越狱"一周全曝光：美国监管被迫按下加速键 Sohu
 first_seen: '2026-09-12T13:46:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

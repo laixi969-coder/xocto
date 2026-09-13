@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQVHJvODR1NUxt
 summary: AI有了“光速脑” sipac.gov.cn
 first_seen: '2026-09-12T01:51:00Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

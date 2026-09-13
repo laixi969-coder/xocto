@@ -24,7 +24,7 @@ summary: 'OpenAI has spent the last few years planting flags across the increasi
   many mathematicians have watched OpenAI''s relentless advance with […]'
 first_seen: '2026-09-12T11:00:00Z'
 last_seen: '2026-09-13T00:01:15Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

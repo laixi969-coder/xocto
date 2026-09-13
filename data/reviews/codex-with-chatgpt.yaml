@@ -245,3 +245,61 @@
     the manual copy-paste and context restatement step, so developers doing multi-step refactors that
     need a plan before execution would pick it for long tasks; no retention or repeat-use evidence is
     public.'
+- id: req-full-codex-with-chatgpt-2026-09-13
+  project_slug: codex-with-chatgpt
+  level: full
+  reviewed_at: '2026-09-13T00:23:48Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让规划与执行在同一链路衔接：开发者在 Codex 中做多步仓库级任务时，需先把需求拆成计划再执行，旧做法要在 ChatGPT 与 Codex 间手工搬运上下文，多步任务易丢意图。仓库自述“ChatGPT
+      thinks. Codex works.”给出输入—动作—交付闭环，属工作流结构推理；痛点刚性中等，交付可确定。
+    evidence_ids:
+    - ev-95f68ab71e6bbbd7
+  - gate: consensus
+    status: supported
+    reason: 公开事实：仓库星数从 2,615 持续升至 4,118，跨 2026-08-28 至 09-13 多个采集点单调增长，说明有持续关注与收藏行为。但星数只属关注度证据，不能证明开发者已把它长期留在工作流，缺少
+      issue、讨论或使用反馈佐证。
+    evidence_ids:
+    - ev-95f68ab71e6bbbd7
+    - ev-9dafa7c6e128baa8
+    - ev-456bef00bce26600
+    - ev-7f7b11ce7a2c3ed4
+    - ev-cac995321082df7c
+    - ev-75c6b510cd16a3ce
+    - ev-94f2fc03d76bf521
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、赞助、企业版或采购记录，公开材料也未见 to C 订阅或 to B 授权路径。谁付钱、以何种方式付费均无公开事实支撑，只能判断其价值可能通过开发者个人采用或团队内部工具化间接兑现，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-95f68ab71e6bbbd7
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近“先规划后执行”的第一性目标，承诺与 Codex harness 组合交付，方向自洽。但公开材料未给出部署文档、安全边界说明或人工介入规则，也未说明与 Codex 官方能力的差异，交付确定性与安全边界无法核验。
+    evidence_ids:
+    - ev-95f68ab71e6bbbd7
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion 区，收集开发者实际使用反馈、失败案例与是否长期复用的公开记录。
+  market: ''
+  job: 开发者在用 Codex 执行多步编码任务（改仓库、跑测试、提交补丁）时，需要先让 ChatGPT 产出结构化计划，再把计划交给 Codex 的 harness 落地执行，从而在同一个工作流里完成从需求拆解到代码变更的闭环。
+  job_en: Developers running multi-step coding tasks in Codex (editing repos, running tests, producing
+    patches) need ChatGPT to first produce a structured plan and then hand it to the Codex harness for
+    execution, closing the loop from requirement breakdown to code change in one workflow.
+  pain: 公开材料只给出“ChatGPT thinks. Codex works.”这一句定位，未提供用户抱怨或案例；可确认的痛点是单一 harness 内规划与执行耦合，开发者需在 ChatGPT
+    与 Codex 之间手工搬运上下文和计划，多步任务中容易丢失意图或重复描述。
+  pain_en: Public material offers only the positioning line 'ChatGPT thinks. Codex works.' with no user
+    complaints or cases; the identifiable pain is that planning and execution are coupled inside one harness,
+    forcing developers to manually shuttle context and plans between ChatGPT and Codex, which risks losing
+    intent or re-describing tasks in multi-step work.
+  current_alternative: 旧做法是直接在 Codex 里让模型边想边做，或把 ChatGPT 里写好的计划复制粘贴进 Codex 提示词，再人工核对每一步；也可用其他 agent 框架自行拼接规划与执行两段。
+  current_alternative_en: The old way is to let Codex think-and-act in one pass, or copy a plan written
+    in ChatGPT into a Codex prompt and manually check each step; alternatively, developers stitch planning
+    and execution together in another agent framework.
+  usage_reason: 推断：相较手工复制计划，该项目把 ChatGPT 作为规划大脑、保留 Codex harness 作为执行层，使开发者不必在两次对话间搬运上下文，计划与执行在同一链路内衔接；因此正在用
+    Codex 做多步仓库级任务、又习惯用 ChatGPT 做方案设计的开发者，会在需要先规划后执行时选择它。
+  usage_reason_en: 'Inference: versus manually copying plans, the project keeps ChatGPT as the planning
+    brain while retaining the Codex harness as the execution layer, so developers need not shuttle context
+    between two conversations and planning flows into execution in one chain; developers already using
+    Codex for multi-step repo-level tasks and accustomed to designing plans in ChatGPT would choose it
+    when they need plan-then-execute.'

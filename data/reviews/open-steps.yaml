@@ -414,3 +414,48 @@
     before judging'' step, so developers already running coding agents who must account for changes to
     themselves or others would pick it. No public user feedback or retention evidence exists, so this
     causal claim is structural inference.'
+- id: req-full-open-steps-2026-09-13
+  project_slug: open-steps
+  level: full
+  reviewed_at: '2026-09-13T00:25:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理输出难读、难判断的问题：开发者要还原改了什么、风险在哪、下一步做什么。旧做法是人工读 diff 与日志，不解决则审查成本高、易漏风险。公开材料仅产品定位，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-ecd29582ed08f159
+    - ev-2ef8b3895cb2bd71
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 275 增至 383，说明开发者持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在审查工作流里；缺少 issue、discussion 或使用反馈说明谁在什么场景反复使用。
+    evidence_ids:
+    - ev-ecd29582ed08f159
+    - ev-8bcff8f0a609b5ba
+  - gate: model
+    status: insufficient
+    reason: MIT 开源、无定价页，公开材料未说明买方与付费路径；可能靠赞助、托管服务或企业支持变现，但这只是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-ecd29582ed08f159
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺把代理输出转成诚实报告与可执行步骤，但公开材料未展示实际输出样例、失败情形或人工复核边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-ecd29582ed08f159
+  next_validation: 追踪 opensteps.ai 官网与仓库 README、issue、discussion，确认是否出现真实使用场景、输出样例或客户案例，以核验交付稳定性与采用深度。
+  market: ''
+  job: 开发者在用编码代理（如 Claude Code、Cursor 类工具）跑完一轮改动后，需要把代理输出的 diff、日志和结论转成自己能快速读懂、能照着执行的报告，再决定是否合并或继续追问。
+  job_en: After a coding agent finishes a round of changes, developers need to turn the agent's diff,
+    logs and conclusions into a report they can quickly read and act on before merging or following up.
+  pain: 编码代理的输出往往是长 diff、堆叠日志和自信但含糊的结论，审查者要自己还原「改了什么、为什么、下一步做什么」，判断成本高且容易漏掉风险；公开材料只给出产品定位，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Agent output is long diffs, stacked logs and confident but vague conclusions, so reviewers
+    must reconstruct what changed, why, and what to do next; the cost is high and risks get missed. Public
+    material only states the positioning, so pain intensity is a workflow inference.
+  current_alternative: 现状是人工逐行读 diff、翻代理会话记录、自己写 PR 描述或口头向同事解释；也有人直接信任代理结论就合并。
+  current_alternative_en: Today reviewers read diffs line by line, scroll back through agent sessions,
+    write PR descriptions themselves, or simply trust the agent and merge.
+  usage_reason: 推断：相较人工通读原始输出，它把代理产物直接转成通俗报告、明确结论和可执行步骤，省掉「先还原再判断」这一步，因此常与编码代理协作、又需要向他人交代改动的人会在审查或交接时选用它。
+  usage_reason_en: 'Inference: instead of reading raw output, it converts agent artifacts into plain-language
+    reports, verdicts and follow-up steps, removing the reconstruct-then-judge step, so people who work
+    with coding agents and must explain changes to others would pick it during review or handoff.'

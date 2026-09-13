@@ -113,3 +113,46 @@
   usage_reason: 公开材料未提供用户选择该产品的动机或使用反馈，无法解释为何用户会采用它。
   usage_reason_en: Public materials provide no user motivation or usage feedback, so it cannot be explained
     why users would adopt it.
+- id: req-full-openinstinct-2026-09-13
+  project_slug: openinstinct
+  level: full
+  reviewed_at: '2026-09-13T00:25:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有“iMessage 个人助手 + 密码保险库”一句功能描述，无法还原用户任务情境、痛点强度、旧替代行为与不解决的后果，需求结构尚不能成立。
+    evidence_ids:
+    - ev-92ef8373176afdea
+    - ev-5103b87f6a3598ab
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 openinstinct.sh 官网与代码仓库 README/issue，确认是否公开具体功能说明、密码存储与安全边界文档，以及是否有用户使用反馈。
+  market: ''
+  job: iOS 用户希望在 iMessage 对话界面内直接调用 AI 助手完成日常任务，并同时存取自己的密码，而不必在聊天、助手和密码管理器之间来回切换。
+  job_en: iOS users want to invoke an AI assistant inside the iMessage conversation to handle daily tasks
+    and access their passwords, without switching between chat, assistant, and password manager.
+  pain: 公开材料只给出“iMessage 个人助手 + 密码保险库”一句功能描述，没有说明用户具体在什么情境下受挫、频率多高、不解决会付出什么代价；把助手与密码库放在同一入口是否构成真实痛点，目前无法从公开事实还原。
+  pain_en: Public material offers only the one-line description 'iMessage personal assistant + password
+    vault'; it does not show which situation frustrates users, how often, or what the cost of not solving
+    it is, so whether co-locating assistant and vault is a real pain cannot be reconstructed from public
+    facts.
+  current_alternative: 可推断的旧做法是 Siri 或 ChatGPT 类助手加 iCloud 钥匙串、1Password 等独立密码管理器，但公开材料未记录用户实际的替代行为或迁移意愿。
+  current_alternative_en: The inferable old practice is Siri or ChatGPT-style assistants plus iCloud Keychain
+    or standalone managers like 1Password, but public material records no actual substitution behavior
+    or migration intent.
+  usage_reason: 推断：若产品确实能在 iMessage 内一步完成助手调用与凭据读取，可省去在多个 App 间切换的步骤，从而吸引重视聊天入口的 iOS 用户；但缺少功能文档、用户反馈或案例，无法确认这一因果链成立。
+  usage_reason_en: 'Inference: if the product truly completes assistant invocation and credential retrieval
+    in one iMessage step, it could remove app-switching for iOS users who value the chat entry point;
+    but with no feature docs, user feedback, or cases, this causal chain cannot be confirmed.'

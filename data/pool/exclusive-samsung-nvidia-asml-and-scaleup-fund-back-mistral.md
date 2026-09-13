@@ -3,13 +3,12 @@ slug: exclusive-samsung-nvidia-asml-and-scaleup-fund-back-mistral
 name: Mistral AI
 builder: kuberwastaken
 category: ''
-summary_zh: Mistral AI 是一家总部位于巴黎的基础模型公司，本次新增事实是 2026 年 9 月 8 日宣布的 35 亿美元 D 轮融资，由三星电子领投，估值超过 240 亿美元。材料未提供该轮资金用途、客户名单或收入数据，因此只能作为资本层面的行业背景，不能据此推断欧洲
-  AI 应用生态已经转向。
+summary_zh: Mistral AI 是法国的模型厂商，本次公开材料只披露其约30亿欧元 D 轮融资、超210亿欧元估值以及三星、英伟达、ASML 等投资方，未提供任何应用侧的产品交付、定价或客户采用细节，因此按模型厂商资本事件处理，不进入独立产品机会流。
 inspiration: ''
-summary_en: Mistral AI is a Paris-based foundation model company. The new fact here is the $3.5 billion
-  Series D announced on September 8, 2026, led by Samsung Electronics, at a valuation above $24 billion.
-  The materials give no use of proceeds, customer list or revenue data, so this stands only as capital-level
-  industry context and cannot support a claim that the European AI application ecosystem has shifted.
+summary_en: Mistral AI is a French model vendor. The public material for this event only covers its roughly
+  EUR 3 billion Series D, a valuation above EUR 21 billion and investors including Samsung, Nvidia and
+  ASML; it gives no application-side delivery, pricing or customer adoption detail, so it is treated as
+  a model-vendor capital event rather than a standalone product opportunity.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +24,7 @@ canonical_url: https://sifted.eu/articles/mistral-series-d-samsung-nvidia-asml
 summary: French AI startup Mistral valued at over 21 billion euros after latest funding France 24
 first_seen: '2026-09-02T15:00:33Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews

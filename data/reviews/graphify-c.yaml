@@ -1,0 +1,94 @@
+- id: req-initial-graphify-c-2026-09-13
+  project_slug: graphify-c
+  level: initial
+  reviewed_at: '2026-09-13T00:00:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决智能体改代码前定位引用的需求，痛点真实，但公开材料只有一句功能描述，旧流程与交付结果无法完整还原。
+    evidence_ids:
+    - ev-4bd845546605f885
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 41 个点赞和 21 条评论，属于关注度信号，不能说明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-4bd845546605f885
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、付费路径或企业采购信息，钱从哪来无法判断。
+    evidence_ids:
+    - ev-4bd845546605f885
+  - gate: truth
+    status: insufficient
+    reason: 编译器级引用解析能否覆盖真实项目中的复杂情形、是否需人工复核，公开材料未说明。
+    evidence_ids:
+    - ev-4bd845546605f885
+  next_validation: 收集该仓库的 issue、discussion 与 README 中的使用说明，确认它实际支持的 C# 项目类型与人工复核边界。
+  market: ''
+  job: C# 软件工程师在让编码智能体重构或修改代码时，需要先确定某个符号在项目中的全部引用位置，再决定改动范围。
+  job_en: C# software engineers, when having a coding agent refactor or modify code, need to determine
+    all reference locations of a symbol before deciding the scope of change.
+  pain: 文本搜索会漏掉重载、泛型、部分类等情形，导致智能体改错或漏改，工程师要花时间人工排查。
+  pain_en: Text search misses overloads, generics and partial classes, so the agent changes the wrong
+    places or misses some, and engineers spend time checking manually.
+  current_alternative: 工程师用 IDE 的查找引用功能或文本搜索，再把结果手工喂给编码智能体。
+  current_alternative_en: Engineers use the IDE's Find Usages or text search, then paste the results to
+    the coding agent by hand.
+  usage_reason: 推断：它把引用解析交给编译器，减少工程师手工筛选搜索结果并转述给智能体这一步；但公开材料未给出使用数据或客户反馈，是否被持续采用无法确认。
+  usage_reason_en: 'Inference: it delegates reference resolution to the compiler, removing the step where
+    engineers manually filter search results and relay them to the agent; however, no usage data or customer
+    feedback is public, so sustained adoption cannot be confirmed.'
+- id: req-full-graphify-c-2026-09-13
+  project_slug: graphify-c
+  level: full
+  reviewed_at: '2026-09-13T00:24:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码智能体改代码前定位引用的需求：文本搜索漏掉重载、泛型、部分类会导致改错漏改，工程师须人工返工。公开材料给出输入（代码、文档、PDF）、动作（tree-sitter AST
+      确定性解析建图）、交付（可查询可引用的引用位置）与旧替代（grep、IDE Find Usages），结构闭环成立，属工作流推理；谁付钱未披露。
+    evidence_ids:
+    - ev-2112133601de0fa8
+    - ev-de0d0998e0b01ae0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网与仓库的功能自述，未见开发者评价、issue 讨论或客户案例说明它已进入日常改代码流程；开源与免费可降低试用门槛，但不等于持续采用。
+    evidence_ids:
+    - ev-a6e47f4c45611e3f
+    - ev-abb19029cf986dcb
+  - gate: model
+    status: insufficient
+    reason: 仓库与官网称代码建图免费、可本地运行开源引擎，另有 app.graphify.com 入口，但未见定价页、付费档位或企业采购信息，to C 订阅还是 to B 授权无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-79fee8f8da132e71
+    - ev-150b76e43f1f0025
+  - gate: truth
+    status: insufficient
+    reason: tree-sitter AST 解析对 C# 重载、泛型、部分类与条件编译的覆盖度、是否仍需人工复核，公开材料未说明；本地运行、代码不出机器在隐私边界上是正面信号，但确定性交付未被验证。
+    evidence_ids:
+    - ev-5c88745062e3fd6b
+    - ev-2f47aa3bbd2d2d33
+  next_validation: 追踪 Graphify-Labs/graphify 仓库的 issue 与 discussion，确认 tree-sitter AST 对 C# 重载、泛型、部分类的实际覆盖范围及人工复核边界。
+  market: ''
+  job: C# 软件工程师在让编码智能体重构、改名或修改某个符号时，需要先拿到该符号在整个项目中的全部引用位置，再决定改动范围并把结果交给智能体执行。
+  job_en: C# software engineers, when having a coding agent refactor, rename or modify a symbol, need
+    the full set of reference locations for that symbol across the project before deciding the change
+    scope and handing it to the agent.
+  pain: 编码智能体默认靠文本搜索（grep）找引用，会漏掉重载、泛型、部分类、条件编译等情形，导致改错或漏改，工程师必须事后人工排查，返工成本落在自己身上。
+  pain_en: Coding agents default to text search (grep) for references, which misses overloads, generics,
+    partial classes and conditional compilation, so changes land in the wrong places or miss some, forcing
+    engineers to audit and rework afterwards.
+  current_alternative: 工程师用 IDE 的 Find Usages 或文本搜索自行定位引用，再把结果手工粘贴、转述给编码智能体，或直接让智能体 grep 后人工复核。
+  current_alternative_en: Engineers use the IDE's Find Usages or text search to locate references themselves,
+    then paste or relay the results to the coding agent by hand, or let the agent grep and audit the output
+    manually.
+  usage_reason: 推断：相较手工 Find Usages 再转述，它把引用解析交给 tree-sitter AST 的确定性解析，智能体可直接查询并引用图上的位置，省掉工程师筛选搜索结果、逐条转述这一步；本地运行、代码不出机器，对在意代码外泄的团队构成额外选择理由。公开材料未给出使用数据或客户反馈，持续采用无法确认。
+  usage_reason_en: 'Inference: versus manual Find Usages plus relaying, it delegates reference resolution
+    to deterministic tree-sitter AST parsing, so the agent can query and cite graph positions directly,
+    removing the step where engineers filter search results and relay them one by one; running locally
+    with code never leaving the machine is an extra reason for teams wary of code leakage. No usage data
+    or customer feedback is public, so sustained adoption cannot be confirmed.'

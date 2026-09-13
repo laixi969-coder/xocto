@@ -103,3 +103,50 @@
   current_alternative_en: Using CLI directly or editor plugins.
   usage_reason: 提供更友好的桌面体验，但需求强度未明。
   usage_reason_en: Offers a friendlier desktop experience, but demand intensity is unclear.
+- id: req-full-bivor-2026-09-13
+  project_slug: bivor
+  level: full
+  reviewed_at: '2026-09-13T00:23:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理产出难以监控与审查这一具体任务：终端里任务状态、diff 与日志混杂，开发者需手动比对才能确认代理改了什么，代理越自主审查负担越重，不解决就得在终端与编辑器间反复切换。这是基于产品定位与代理工作流的结构推理，非用户口述。
+    evidence_ids:
+    - ev-2187c63539f7512f
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库 208 星，属关注度而非采用；没有用户评价、issue 讨论或案例说明开发者是否真的把 Bivor 放进日常代理工作流，强场景存在但共识未核验。
+    evidence_ids:
+    - ev-2187c63539f7512f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或收费方式，买方可能是个人开发者自购，也可能是团队采购，公开材料无法判断；这是判断而非已验证事实，且无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-2187c63539f7512f
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近代理编码的第一性目标（让改动可核对），但公开材料未说明审查动作是否确定性交付、是否有人工兜底边界，也未披露与 pi 的集成深度，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-2187c63539f7512f
+  next_validation: 追踪 Bivor 开源仓库的 issue 与 discussion，以及官网是否出现定价页或客户案例，用以核验开发者是否持续使用并付费。
+  market: ''
+  job: 使用 pi 编码代理的 macOS 开发者，在代理并行跑多个编码任务时，需要在一个桌面工作台里查看任务进度、审查代理产出的代码改动，并决定接受或回退哪些修改。
+  job_en: macOS developers using the pi coding agent need a desktop workbench to watch task progress,
+    review agent-produced code changes, and decide which edits to accept or revert while the agent runs
+    coding tasks.
+  pain: 编码代理以命令行方式运行时，任务状态、diff 与日志散落在终端输出里，开发者要反复滚动终端、手动比对文件才能判断代理改了什么、是否跑偏；代理越自主，这种审查负担越重。
+  pain_en: When a coding agent runs in the terminal, task state, diffs and logs are scattered across raw
+    output, so developers must scroll and manually compare files to judge what the agent changed and whether
+    it drifted; the more autonomous the agent, the heavier this review burden.
+  current_alternative: 直接在终端里运行 pi 代理，配合 git diff、编辑器或编辑器插件人工核对改动。
+  current_alternative_en: Running the pi agent directly in a terminal, cross-checking changes with git
+    diff, an editor, or editor plugins.
+  usage_reason: 推断：相较纯终端流程，Bivor 把任务监控与代码审查收进同一个 macOS 窗口，开发者不必在终端输出、diff 工具和编辑器之间来回切换即可判断代理产出，因此正在用 pi
+    跑多任务、且在意改动可核对性的 macOS 开发者会尝试它；目前仅有仓库星标，尚无用户反馈或留存证据支持长期采用。
+  usage_reason_en: 'Inference: versus a pure terminal workflow, Bivor puts task monitoring and code review
+    in one macOS window so developers can judge agent output without switching between raw terminal output,
+    diff tools and an editor; that is why macOS developers running multiple pi tasks who care about verifiable
+    changes would try it. Only repository stars exist today, with no user feedback or retention evidence
+    for sustained adoption.'

@@ -266,3 +266,44 @@
     and writing/image work on one page, removing the copy-paste and tool-switching step, so Chinese desktop
     users who research and write in one sitting would pick it for complex questions; no retention or repeat-use
     data is disclosed.'
+- id: req-full-ai-搜索-百度-2026-09-13
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-09-13T00:23:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度AI搜索官方页面是否上线独立定价或会员说明，以及是否公开客户案例、API文档或可复现的交付结果说明。
+  market: ''
+  job: 普通中文用户在PC端遇到需要多步查证、边查边写或边查边做图的复杂问题时，把问题交给百度AI搜索，在同一页面完成检索、追问深挖、文字创作与图片生成，得到一份可直接使用的答案或素材。
+  job_en: Ordinary Chinese-speaking PC users facing a multi-step question that requires searching, digging
+    deeper, and then writing or making an image hand the task to Baidu AI Search, completing retrieval,
+    follow-up probing, text drafting and image generation on one page to get a usable answer or asset.
+  pain: 传统搜索只返回十条蓝色链接，用户要自己开多个标签页、逐条点开、摘抄比对，再切到另一个写作或做图工具；信息整合与二次创作的步骤被拆散，反复切换和重复输入是主要摩擦。
+  pain_en: 'Classic search returns ten blue links: users must open multiple tabs, click through each result,
+    copy and compare, then switch to a separate writing or image tool. Integration and re-creation are
+    split across steps, and repeated switching and re-typing are the main friction.'
+  current_alternative: 旧做法是百度网页搜索加多个标签页，再配合独立的AI聊天工具、写作工具或做图工具，人工把检索结果搬运到下一个工具里。
+  current_alternative_en: The old way is Baidu web search plus multiple tabs, combined with separate AI
+    chat, writing, or image tools, with the user manually carrying search results into the next tool.
+  usage_reason: 推断：相较旧做法，它把检索、追问、写作、做图收进同一对话页，用户不必在标签页和工具之间搬运上下文，因此当任务需要边查边产出时，习惯百度入口的中文PC用户会优先在百度内完成，而不是另开工具。
+  usage_reason_en: 'Inference: versus the old way, it folds retrieval, follow-up, writing and image generation
+    into one chat page, so users need not carry context between tabs and tools; when a task requires searching
+    and producing at once, Chinese PC users already in Baidu''s entry point would finish inside Baidu
+    rather than opening another tool.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQdVdHWnh4QVVP
 summary: Fashion Digital Talks to Spotlight AI and eCommerce Mexico Business News
 first_seen: '2026-09-10T21:59:28Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

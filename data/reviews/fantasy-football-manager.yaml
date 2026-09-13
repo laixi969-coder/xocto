@@ -1,0 +1,88 @@
+- id: req-initial-fantasy-football-manager-2026-09-13
+  project_slug: fantasy-football-manager
+  level: initial
+  reviewed_at: '2026-09-13T00:00:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决选秀与排阵时跨站比对球员信息、赶截止时间的痛点，旧行为是手动查榜填表，结构上成立。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库星标与分支，属关注度而非持续采用，缺少玩家实际使用或复用的公开证据。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是玩家自付或联盟付费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  - gate: truth
+    status: insufficient
+    reason: 建议质量依赖数据源与模型判断，仓库未说明数据来源、准确率与人工复核边界，交付确定性待核验。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于数据来源、实际使用反馈与准确率的公开记录。
+  market: ''
+  job: 梦幻橄榄球玩家在选秀夜和每周阵容截止前，处理球员名单、伤病消息、对手阵容和联盟规则，要选出本轮选秀或首发的具体球员。
+  job_en: A fantasy football player, before draft night and each weekly lineup deadline, works through
+    player pools, injury news, opponent rosters and league rules to pick the specific players to draft
+    or start.
+  pain: 信息分散在多个站点，截止时间紧，人工比对球员价值与阵容需求容易漏掉伤病或轮换变化，选错一次直接影响整季战绩。
+  pain_en: Information is scattered across sites under a hard deadline, and manually weighing player value
+    against roster needs easily misses injury or rotation changes; one wrong pick affects the whole season.
+  current_alternative: 玩家自己开多个标签页查排名与新闻，或依赖论坛和付费榜单的静态建议，再手动填进 ESPN。
+  current_alternative_en: Players keep several tabs open for rankings and news, or rely on static advice
+    from forums and paid cheat sheets, then enter picks into ESPN by hand.
+  usage_reason: 相较手动查榜，它把联盟规则、名单和对手信息直接交给助手，在选秀与排阵当下产出针对本队的候选球员建议，省掉跨站比对这一步；推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with manual cheat-sheet checking, it feeds league rules, rosters and opponent
+    data to the assistant and returns team-specific candidate picks at the moment of drafting or setting
+    lineups, removing the cross-site comparison step; inference, with no user feedback or retention evidence
+    yet.
+- id: req-full-fantasy-football-manager-2026-09-13
+  project_slug: fantasy-football-manager
+  level: full
+  reviewed_at: '2026-09-13T00:24:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决选秀与排阵时跨站比对球员信息、赶截止时间的痛点，旧行为是手动查榜填表，结构上成立。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库星标与分支，属关注度而非持续采用，缺少玩家实际使用或复用的公开证据。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是玩家自付或联盟付费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  - gate: truth
+    status: insufficient
+    reason: 建议质量依赖数据源与模型判断，仓库未说明数据来源、准确率与人工复核边界，交付确定性待核验。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于数据来源、实际使用反馈与准确率的公开记录。
+  market: ''
+  job: 梦幻橄榄球玩家在选秀夜和每周阵容截止前，处理球员名单、伤病消息、对手阵容和联盟规则，要选出本轮选秀或首发的具体球员。
+  job_en: A fantasy football player, before draft night and each weekly lineup deadline, works through
+    player pools, injury news, opponent rosters and league rules to pick the specific players to draft
+    or start.
+  pain: 信息分散在多个站点，截止时间紧，人工比对球员价值与阵容需求容易漏掉伤病或轮换变化，选错一次直接影响整季战绩。
+  pain_en: Information is scattered across sites under a hard deadline, and manually weighing player value
+    against roster needs easily misses injury or rotation changes; one wrong pick affects the whole season.
+  current_alternative: 玩家自己开多个标签页查排名与新闻，或依赖论坛和付费榜单的静态建议，再手动填进 ESPN。
+  current_alternative_en: Players keep several tabs open for rankings and news, or rely on static advice
+    from forums and paid cheat sheets, then enter picks into ESPN by hand.
+  usage_reason: 相较手动查榜，它把联盟规则、名单和对手信息直接交给助手，在选秀与排阵当下产出针对本队的候选球员建议，省掉跨站比对这一步；推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with manual cheat-sheet checking, it feeds league rules, rosters and opponent
+    data to the assistant and returns team-specific candidate picks at the moment of drafting or setting
+    lineups, removing the cross-site comparison step; inference, with no user feedback or retention evidence
+    yet.

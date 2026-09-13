@@ -373,3 +373,42 @@
   usage_reason_en: 'Inference: if it turns runtime data into reusable learning updates, developers would
     not hand-build fine-tuning and data pipelines; but no adoption, reuse or delivery evidence exists,
     so user choice cannot be confirmed.'
+- id: req-full-reef-2026-09-13
+  project_slug: reef
+  level: full
+  reviewed_at: '2026-09-13T00:25:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其为自我改进智能体的持续学习基础设施，但可引用证据只有仓库一句话描述，且同项目证据多为同名鞋类品牌与珊瑚礁词条，无法还原用户任务、痛点与旧替代，连需求都写不实。
+    evidence_ids:
+    - ev-32eccdffa4a5aae8
+    - ev-91355ba879632531
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 公开代码仓库 仓库 Human-Agent-Society/reef 的 README、issue 与 discussion，确认其数据接入方式、学习机制与真实部署场景。
+  market: ''
+  job: AI 智能体开发者或机器学习工程师在智能体上线后，把运行轨迹与反馈数据接入持续学习流程，让智能体从经验中更新自身行为。
+  job_en: AI agent developers or ML engineers feed runtime traces and feedback from deployed agents into
+    a continual-learning loop so the agent updates its own behavior from experience.
+  pain: 公开材料只有一句仓库描述，未说明不解决的具体代价、发生频率或后果，无法确认痛点是否刚性。
+  pain_en: Public material is limited to a one-line repository description and does not state the cost,
+    frequency, or consequence of leaving the problem unsolved, so the pain's rigidity cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么旧流程。
+  current_alternative_en: Public materials do not show how users currently do this work or what prior
+    process it replaces.
+  usage_reason: 缺少可引用的用户反馈或案例，无法解释相较旧做法它减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: With no citable user feedback or case, there is no basis to explain which step of the
+    old workflow it removes, so no usage reason can be given.

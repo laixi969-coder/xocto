@@ -277,3 +277,53 @@
   usage_reason_en: 'Inference: versus scattered interview posts, it bundles three anonymized real project
     questions with a general solution method into practiceable material, letting candidates drill directly
     and reuse the framework, cutting the step of collecting and stitching together questions themselves.'
+- id: req-full-real-company-interview-ai-coding-projects-2026-09-13
+  project_slug: real-company-interview-ai-coding-projects
+  level: full
+  reviewed_at: '2026-09-13T00:25:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者缺少真实 AI Coding 面试题与解题方法的问题，痛点是面试准备材料与真实项目题脱节、临场失手；仓库提供三题加通用方法，交付物明确，属工作流结构推理。
+    evidence_ids:
+    - ev-300a27a77257a256
+    - ev-da66f93bdf1526df
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 320 缓慢增至 328，说明有开发者关注，但无使用反馈、复刻用途或持续练习证据，无法证明已进入求职者工作流。
+    evidence_ids:
+    - ev-300a27a77257a256
+    - ev-c670ae763851f221
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价、付费主体或赞助路径，谁付钱只能推测为求职者自购或招聘培训方采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-983c88398259a90b
+  - gate: truth
+    status: insufficient
+    reason: 题目是否真来自真实公司、解题方法是否可复现、匿名化是否合规均未公开，交付确定性缺可核对证据。
+    evidence_ids:
+    - ev-300a27a77257a256
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认题目来源说明、解题方法示例及是否有使用者反馈其练习效果。
+  market: ''
+  job: 准备 AI Coding 岗位面试的求职者在投递前，拿到匿名化的真实公司项目题，用一套通用解题方法把题目拆解成可练习、可复述的面试准备材料。
+  job_en: Job seekers preparing for AI coding interviews take anonymized real company project questions
+    before applying and use a general solving method to turn them into practiceable, retellable interview
+    preparation material.
+  pain: AI Coding 面试题缺乏公开题库，求职者只能靠零散面经和刷通用算法题，练的内容与真实项目题脱节，临场容易失手；这是从仓库定位与题目形态作出的结构推理。
+  pain_en: AI coding interview questions lack a public question bank; candidates rely on scattered interview
+    notes and generic algorithm drills that diverge from real project tasks, and underperform on the spot;
+    this is structural reasoning from the repository's positioning and question format.
+  current_alternative: 此前主要靠公开面经帖、LeetCode 类通用算法题库和社群口口相传的题目回忆，此为推断。
+  current_alternative_en: Previously candidates relied mainly on public interview-note posts, generic
+    algorithm question banks like LeetCode, and questions recalled through community word of mouth; this
+    is an inference.
+  usage_reason: 相较零散面经，它把三个匿名化真实项目题与一套通用解题方法放在同一仓库，求职者可直接按题练习并复用拆解思路，减少自己搜集和拼凑题目的步骤，因此正在准备 AI Coding 面试的人会收藏或复刻它；仓库收藏从
+    320 增至 328 说明持续有人关注，但这是关注度而非留存证据，使用动机为推断。
+  usage_reason_en: Compared with scattered interview notes, it puts three anonymized real project questions
+    and a general solving method in one repository, so candidates can practice directly and reuse the
+    decomposition approach, cutting the step of collecting and piecing together questions themselves;
+    that is why people preparing for AI coding interviews star or fork it. Stars rising from 320 to 328
+    shows continued attention, not retention, and the usage motive is an inference.

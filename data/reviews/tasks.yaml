@@ -1,0 +1,93 @@
+- id: req-initial-tasks-2026-09-13
+  project_slug: tasks
+  level: initial
+  reviewed_at: '2026-09-13T00:00:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 批量改代码后人工逐条核对、容易漏项的问题，旧做法是在对话和 diff 里自己追进度，痛点具体且交付可核对。
+    evidence_ids:
+    - ev-0d5585f6733582c7
+  - gate: consensus
+    status: insufficient
+    reason: 只有维护者自述用法，社区讨论为零，没有其他开发者采用或复用的公开记录。
+    evidence_ids:
+    - ev-0d5585f6733582c7
+  - gate: model
+    status: insufficient
+    reason: 除官方云外功能免费，买方与付费路径未披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-0d5585f6733582c7
+  - gate: truth
+    status: insufficient
+    reason: 验收通过才勾掉的设计把人工确认留在环内，方向合理，但无留存或重复使用证据，无法确认长期留在工作流。
+    evidence_ids:
+    - ev-0d5585f6733582c7
+  next_validation: 收集 HamsterBase Tasks 仓库的 issue 与 discussion，看是否有维护者以外的开发者报告用该 AI Skill 处理清单并验收。
+  market: ''
+  job: 独立开发者在 vibe coding 出初版后，把需要检查和修复的代码事项整理成验收清单，交给 AI 逐项处理并回收带说明和截图的结果，自己再逐项验收。
+  job_en: After vibe-coding a first version, an indie developer turns code items that need checking and
+    fixing into an acceptance checklist, hands it to an AI to process item by item, and collects results
+    with notes and screenshots for their own acceptance.
+  pain: AI 一次能改很多处，但改动是否真的完成、有没有副作用，需要人逐条核对；散落在对话里的结果没有清单承载，容易漏项或重复确认。
+  pain_en: An AI can change many places at once, but whether each change is really done and side-effect
+    free still needs human checking; results scattered in a chat have no checklist to hold them, so items
+    get missed or re-confirmed.
+  current_alternative: 现在多是把需求直接写进对话让 AI 改，改完自己在编辑器里翻 diff、跑测试，靠记忆或临时笔记跟踪哪些还没做。
+  current_alternative_en: Today most people paste requirements into a chat, let the AI edit, then read
+    diffs and run tests themselves, tracking what is left from memory or ad-hoc notes.
+  usage_reason: 相较在对话里反复追问，它把任务清单本身作为 AI 的输入和交付回执：AI 必须带说明和截图提交，验收通过才勾掉，减少了人重新整理“哪些做完了”这一步；推断，适合已有明确验收标准的独立开发者。
+  usage_reason_en: 'Compared with repeatedly asking in a chat, it makes the task list itself the AI''s
+    input and delivery receipt: the AI must submit with notes and screenshots and the item is only checked
+    off after acceptance, removing the step of re-assembling what is done; inference, suited to indie
+    developers who already have clear acceptance criteria.'
+- id: req-full-tasks-2026-09-13
+  project_slug: tasks
+  level: full
+  reviewed_at: '2026-09-13T00:26:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 批量改代码后人工逐条核对、结果散落对话易漏项的问题，旧做法靠翻 diff 和临时笔记追进度，痛点具体、交付以验收勾掉为确定节点。
+    evidence_ids:
+    - ev-4ed1cd41d341a6e9
+    - ev-de8c35ad7c31c879
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有维护者自述用法与仓库发布记录，没有其他开发者采用、复用或讨论该 AI Skill 的公开痕迹，共识仅停留在作者一人。
+    evidence_ids:
+    - ev-de8c35ad7c31c879
+    - ev-6749fdaad5630030
+  - gate: model
+    status: insufficient
+    reason: 除官方云外功能免费，买方与付费路径未披露；谁为官方云付费、是否按席位或用量计费均无公开事实，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-4ed1cd41d341a6e9
+  - gate: truth
+    status: insufficient
+    reason: 验收通过才勾掉的设计把人工确认留在环内，方向合理，但无留存或重复使用证据，无法确认它已长期留在开发者工作流。
+    evidence_ids:
+    - ev-fac95a5f4b5323dc
+  next_validation: 追踪 HamsterBase Tasks 仓库的 issue 与 discussion，以及 tasks.hamsterbase.com 的 AI 集成文档更新，看是否有维护者以外的开发者报告用该
+    Skill 处理清单并验收。
+  market: ''
+  job: 独立开发者在 vibe coding 出初版后，把需要检查和修复的代码事项整理成验收清单，把清单 ID 交给 AI 逐项处理，AI 带说明和截图提交完成请求，开发者有空时逐项验收并勾掉任务。
+  job_en: After vibe-coding a first version, an indie developer turns code items needing checks and fixes
+    into an acceptance checklist, hands the list ID to an AI to process item by item; the AI submits completion
+    requests with notes and screenshots, and the developer accepts items one by one when free.
+  pain: AI 一次能改很多处，但改动是否真完成、有无副作用仍需人逐条核对；结果散落在对话里没有清单承载，容易漏项或重复确认，验收进度无法沉淀。
+  pain_en: An AI can change many places at once, but whether each change is really done and side-effect
+    free still needs human checking; results scattered in a chat have no checklist to hold them, so items
+    get missed or re-confirmed and acceptance progress cannot accumulate.
+  current_alternative: 现在多是把需求直接写进对话让 AI 改，改完自己在编辑器里翻 diff、跑测试，靠记忆或临时笔记跟踪哪些还没做。
+  current_alternative_en: Today most people paste requirements into a chat, let the AI edit, then read
+    diffs and run tests themselves, tracking what is left from memory or ad-hoc notes.
+  usage_reason: 相较在对话里反复追问，它把任务清单本身作为 AI 的输入和交付回执：AI 必须带说明和截图提交，验收通过才勾掉，减少了人重新整理“哪些做完了”这一步；这是基于产品能力与任务结构的推断，适合已有明确验收标准的独立开发者。
+  usage_reason_en: 'Compared with repeatedly asking in a chat, it makes the task list itself the AI''s
+    input and delivery receipt: the AI must submit with notes and screenshots and the item is only checked
+    off after acceptance, removing the step of re-assembling what is done; this is an inference from product
+    capability and task structure, suited to indie developers who already have clear acceptance criteria.'

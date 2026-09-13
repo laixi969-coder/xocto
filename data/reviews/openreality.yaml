@@ -126,3 +126,54 @@
   usage_reason_en: 'No causal explanation is possible: the evidence contains neither user feedback nor
     customer cases nor a checkable outcome improvement, so it cannot be said which users would choose
     it over the old approach and when.'
+- id: req-full-openreality-2026-09-13
+  project_slug: openreality
+  level: full
+  reviewed_at: '2026-09-13T00:25:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决让 AI 代理读取真实空间的需求：开发者用手机视频重建三维场景并经 MCP 查询。公开材料只给出产品能力，痛点与旧替代由工作流结构推理得出，属结构判断而非用户采用证据。
+    evidence_ids:
+    - ev-038d1407b503ff92
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据未提供该项目的收藏、复刻、下载或开发者讨论数据，无法判断目标用户是否已形成持续使用或社区共识；现有证据条目与该项目无关。
+    evidence_ids:
+    - ev-54a8492e4fc4c341
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录；BSD-2 开源加自托管意味着钱可能来自 to B 定制或 to VC，这是判断而非已验证事实，属模式缺口。
+    evidence_ids:
+    - ev-21a76c79d6dd0d8a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明重建精度、失败场景、人工介入边界与安全约束，交付能否确定性发生缺少可复现证据；现有证据条目与该项目无关。
+    evidence_ids:
+    - ev-94cc94bd0a1bbbfc
+  next_validation: 追踪 Open Reality 仓库的 README、issue 与 discussion，确认是否有开发者公开描述用手机视频重建场景并接入 Claude/Codex/Cursor
+    的实际部署记录。
+  market: ''
+  job: 软件开发者或空间计算工程师在需要让 Claude、Codex、Cursor 等 AI 代理理解一个真实房间或场地时，用手机拍一段视频，经 VGGT-SLAM 重建为三维场景，再通过 MCP
+    工具让 AI 查询该场景的空间信息。
+  job_en: 'A software developer or spatial-computing engineer who needs an AI agent such as Claude, Codex,
+    or Cursor to understand a real room or site: they shoot a phone video, reconstruct it into a 3D scene
+    with VGGT-SLAM, and expose it through MCP tools so the AI can query spatial information about that
+    scene.'
+  pain: 公开材料只说明产品能力，未记录用户抱怨；从工作流结构推理，痛点是 AI 编码代理只能读文本与代码，无法直接读取真实空间，开发者要自己拼装 SLAM、重建与工具接口，且缺少可自托管、可被 MCP
+    调用的现成链路。
+  pain_en: Public materials describe only product capability, not user complaints; by workflow inference
+    the pain is that AI coding agents read text and code but not real space, so developers must hand-assemble
+    SLAM, reconstruction, and tool interfaces, with no ready self-hostable MCP-callable pipeline.
+  current_alternative: 旧做法是分别使用 COLMAP、VGGT 类重建工具或商业摄影测量服务生成点云/网格，再自行写脚本把结果喂给 AI 代理；也可用纯文本描述或截图代替真实三维输入。
+  current_alternative_en: The old approach is to use COLMAP, VGGT-style reconstruction tools, or commercial
+    photogrammetry services to produce point clouds/meshes, then hand-write scripts to feed results to
+    an AI agent; or to substitute text descriptions and screenshots for real 3D input.
+  usage_reason: 推断：相较自行拼装重建与接口，它把手机视频到可查询三维场景的链路和 MCP 工具打包在同一 BSD-2 仓库中，并允许自托管 broker，减少开发者搭建与对接步骤，因此需要让
+    AI 代理读取真实空间、又要求数据不出本地的开发者会在该场景选择它。
+  usage_reason_en: 'Inference: versus hand-assembling reconstruction and interfaces, it packages the phone-video-to-queryable-3D-scene
+    pipeline and MCP tools in one BSD-2 repo and allows a self-hosted broker, cutting setup and integration
+    steps, so developers who need AI agents to read real space while keeping data local would choose it
+    in that situation.'

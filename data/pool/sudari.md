@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/sudari
 summary: A pixel otter desktop pet that reacts to how you work
 first_seen: '2026-09-11T06:18:58Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

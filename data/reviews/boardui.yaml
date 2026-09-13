@@ -198,3 +198,52 @@
     can run the demo first and then adapt the source, skipping the step of implementing streaming and
     tool-call interactions from zero; this is inferred from product capability, not confirmed by user
     feedback.
+- id: req-full-boardui-2026-09-13
+  project_slug: boardui
+  level: full
+  reviewed_at: '2026-09-13T00:23:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是智能体界面交互层从零搭建的问题：流式消息、工具调用状态与会话布局反复重做，通用组件库缺少成套方案，不解决则界面工作拖慢模型能力上线。公开材料给出组件源码与可运行聊天示例，交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+    - ev-6c5d3897622a01a8
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 330 增至 417，说明开发者持续关注并把它纳入候选；但收藏属关注度证据，不能证明已长期留在工作流，缺少 issue、discussion 或使用反馈佐证强场景。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+    - ev-6c5d3897622a01a8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，免费组件加自有模型密钥的形态下买方与收入路径不清；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+  - gate: truth
+    status: insufficient
+    reason: 组件源码与示例应用可核对，但缺少部署文档、版本维护记录与安全边界说明，交付能否稳定持续发生尚无公开证据。
+    evidence_ids:
+    - ev-6c5d3897622a01a8
+  next_validation: 追踪 BoardUI 官方仓库的 issue 与 discussion，确认开发者实际在何种 AI 界面场景中采用、替代了哪套旧组件方案。
+  market: ''
+  job: 前端开发者或 UI 设计师在构建带对话与工具调用能力的 AI 产品界面时，需要处理流式消息、工具调用状态、多轮会话等交互材料，并要在自有模型密钥下快速搭出一个可运行的聊天应用骨架。
+  job_en: Frontend developers or UI designers building AI product interfaces with chat and tool-calling
+    need to handle streaming messages, tool-call states and multi-turn sessions, and to stand up a runnable
+    chat app skeleton on their own model key.
+  pain: 从零手写智能体界面的交互层成本高：流式渲染、工具调用状态、会话布局等细节反复重做，且缺少可直接改的参考实现，导致界面工作拖慢模型能力上线。
+  pain_en: 'Hand-building the interaction layer of an agentic UI is costly: streaming rendering, tool-call
+    states and session layout get rebuilt repeatedly, and there is no editable reference implementation,
+    so UI work delays shipping model capability.'
+  current_alternative: 常见替代是通用组件库（如 MUI、Ant Design、shadcn/ui）自行拼装聊天界面，或直接复制开源聊天模板再逐处改造，缺少面向智能体交互的成套组件与可运行示例。
+  current_alternative_en: The common alternative is assembling chat UIs from general component libraries
+    (MUI, Ant Design, shadcn/ui) or copying an open-source chat template and patching it, with no agent-oriented
+    component set plus runnable example.
+  usage_reason: 推断：相较自行拼装通用组件库，BoardUI 直接提供智能体界面所需的成套 React 组件源码，并附带一个接入自有模型密钥即可运行的聊天应用作为首页示例，开发者可省去从零搭建交互骨架这一步，直接在此基础上改业务逻辑，因此正在做
+    AI 产品原型或内部工具的前端团队会优先试用它。
+  usage_reason_en: 'Inference: versus assembling general component libraries, BoardUI ships a full set
+    of React component source for agentic interfaces plus a runnable chat app on the user''s own model
+    key as the homepage, removing the step of building the interaction skeleton from scratch so frontend
+    teams prototyping AI products or internal tools would try it first.'

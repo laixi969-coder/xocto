@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pQl9hazBTZmlp
 summary: 火狐科技发布「我要中彩票官网」平台，聚焦企业AI应用安全分发与本地部署 体坛加
 first_seen: '2026-09-11T22:35:43Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

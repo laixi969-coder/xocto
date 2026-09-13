@@ -212,3 +212,52 @@
     as the deliverable; if it really evidences behavior preservation for candidate changes, engineers
     avoid arguing deletion safety by hand, so they would pick it when inheriting unfamiliar code or doing
     large cleanups. Public material shows no actual usage feedback, so the adoption motive remains inferred.'
+- id: req-full-simplify-codebase-2026-09-13
+  project_slug: simplify-codebase
+  level: full
+  reviewed_at: '2026-09-13T00:25:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工程师识别并移除意外复杂度、同时不改变行为的任务；痛点是重构风险高、人工审查无法证明可安全删除，不处理的后果是复杂度持续累积。交付承诺可验证，属工作流结构推理。
+    evidence_ids:
+    - ev-537556e811391acc
+    - ev-623e3d1df5e5d3b6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 455 缓慢增至 467，说明有开发者关注，但公开材料中没有用户评价、issue 讨论或采用案例，无法确认共识已形成或已被纳入日常工作流。
+    evidence_ids:
+    - ev-537556e811391acc
+    - ev-8c901b7bd78e9608
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费版本或企业采购路径，买方可能是个人开发者或工程团队，但收入来源尚未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-537556e811391acc
+  - gate: truth
+    status: supported
+    reason: 产品贴近重构的第一性目标——在不改变行为的前提下降低复杂度，承诺可被测试与行为对比核验；但公开材料未说明安全边界与人工确认环节，需后续确认。
+    evidence_ids:
+    - ev-537556e811391acc
+    - ev-623e3d1df5e5d3b6
+  next_validation: 追踪该仓库的 issue、discussion 与 release 记录，以及是否出现企业采用案例或付费/商业版本发布，以核验持续使用与付费路径。
+  market: ''
+  job: 软件工程师或技术负责人在接手或维护既有代码库时，面对历史遗留、多人协作累积的代码，需要找出哪些复杂度是意外引入的、可以安全删除，并在不改变外部行为的前提下完成简化。
+  job_en: Software engineers or tech leads inheriting or maintaining an existing codebase must identify
+    which complexity was accidentally introduced and can be safely removed, then simplify without changing
+    external behavior.
+  pain: 意外复杂度让代码难读、难改、难测试，重构时又怕删错导致行为回归；人工审查和静态分析只能提示可疑点，无法证明某段代码可以安全移除，因此团队往往选择不动，复杂度持续累积。
+  pain_en: Accidental complexity makes code hard to read, change, and test, while refactoring risks behavioral
+    regressions; manual review and static analysis flag suspects but cannot prove a piece of code is safe
+    to remove, so teams often leave it and complexity keeps accumulating.
+  current_alternative: 人工代码审查、静态分析或 lint 工具、覆盖率与测试套件，以及凭经验的重构；这些手段给出的是可疑信号而非可证明的简化结论。
+  current_alternative_en: Manual code review, static analysis or lint tools, coverage and test suites,
+    and experience-based refactoring; these give suspicion signals rather than a provable simplification
+    conclusion.
+  usage_reason: 推断：相较人工审查只能凭经验判断，该工具以“证明并移除意外复杂度且不改变行为”为交付承诺，把判断依据从主观经验转为可核对的证明过程，因此接手陌生代码库、准备大规模重构的工程师会优先试用它来降低删错代码的风险。
+  usage_reason_en: 'Inference: unlike manual review that relies on experience, the tool promises to prove
+    and remove accidental complexity without changing behavior, shifting the basis from subjective judgment
+    to a checkable proof, so engineers inheriting unfamiliar code or planning large refactors would try
+    it to reduce the risk of deleting the wrong code.'

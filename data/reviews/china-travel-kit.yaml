@@ -161,3 +161,54 @@
     scraping and cleaning pipeline and letting AI assistants in MCP setups call traceable data instead
     of answering from memory, so it appeals to developers building China inbound travel products and AI
     tool integrators.'
+- id: req-full-china-travel-kit-2026-09-13
+  project_slug: china-travel-kit
+  level: full
+  reviewed_at: '2026-09-13T00:23:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建中国入境旅行工具时缺少带来源标注、可编程调用数据的问题，痛点是信息分散、来源不清、集成成本高；仓库自 2026-08-24 起星数由 142 增至 195，说明有持续关注，但采用与付费未核验，属工作流结构推理。
+    evidence_ids:
+    - ev-e14ed9f3ea4304c9
+    - ev-2452c8bcc682899b
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库星数从 142 升至 195 的关注度信号，缺少 issue、discussion、下游集成或用户评价等采用证据，无法判断开发者是否已把它留在工作流里。
+    evidence_ids:
+    - ev-e14ed9f3ea4304c9
+    - ev-2452c8bcc682899b
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费或采购路径，谁付钱尚不明确；可能来自开发者自用、旅游服务商集成或 to VC，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e14ed9f3ea4304c9
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺提供 source-aware 数据与 CLI/HTTP/MCP 交付，但公开材料未展示数据来源清单、更新频率或准确性验证，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-e14ed9f3ea4304c9
+    - ev-2452c8bcc682899b
+  next_validation: 追踪 china-travel-kit 仓库的 README/文档与 issue、discussion，核对数据来源清单、更新频率及是否有下游项目或用户公开集成案例。
+  market: ''
+  job: 开发入境中国的旅行规划工具或 AI 助手的开发者，在需要把签证、交通、景点、支付等中国旅行信息接入自己的应用或 MCP 客户端时，处理分散的公开旅行数据，要完成的任务是获得带来源标注、可编程调用的结构化中国入境旅行数据。
+  job_en: Developers building inbound-China travel planning tools or AI assistants need to feed visa,
+    transport, attraction and payment information into their own apps or MCP clients, working with scattered
+    public travel data to obtain source-attributed, programmatically callable structured China inbound
+    travel data.
+  pain: 公开材料显示该工具定位为 source-aware 的中国入境旅行数据，说明现有信息分散、来源不清、难以直接集成；开发者若自行抓取和清洗，需反复核对来源与时效，且难以保证数据可追溯。
+  pain_en: Public materials position it as source-aware China inbound travel data, implying existing information
+    is scattered, provenance-unclear and hard to integrate directly; developers scraping and cleaning
+    it themselves must repeatedly verify sources and freshness, with weak traceability.
+  current_alternative: 旧做法是手动搜集攻略与公开统计、自行写爬虫或把零散网页内容直接喂给模型，缺少统一的 CLI/HTTP/MCP 接口和来源标注。
+  current_alternative_en: The old way is manually collecting guides and public statistics, writing one's
+    own scrapers, or feeding scattered web content directly to a model, without a unified CLI/HTTP/MCP
+    interface and source attribution.
+  usage_reason: 推断：相较自行抓取，它通过 CLI、HTTP API 和 MCP server 三种调用方式把带来源标注的中国入境旅行数据直接接入开发者的应用或 AI 客户端，省去自行采集、清洗和标注来源的步骤，因此构建中国旅行类
+    AI 助手或行程工具的开发者会在需要可追溯数据时选择它。
+  usage_reason_en: 'Inference: versus self-scraping, it exposes source-attributed China inbound travel
+    data through CLI, HTTP API and an MCP server directly into a developer''s app or AI client, removing
+    the collection, cleaning and provenance-tagging steps, so developers building China travel assistants
+    or itinerary tools would choose it when they need traceable data.'

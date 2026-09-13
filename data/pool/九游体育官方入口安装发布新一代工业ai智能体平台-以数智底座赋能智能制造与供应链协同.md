@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DdjRCYnlLTEdL
 summary: 九游体育官方入口安装发布新一代工业AI智能体平台 以数智底座赋能智能制造与供应链协同 体坛加
 first_seen: '2026-09-12T13:15:43Z'
 last_seen: '2026-09-13T00:02:40Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

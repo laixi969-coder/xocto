@@ -115,3 +115,42 @@
   usage_reason_en: 'Cannot be judged: star counts reflect attention only and do not explain why users
     choose it; the material does not show which step it removes versus the old approach or which verifiable
     result it improves.'
+- id: req-full-mythos-5-incident-transcript-2026-09-13
+  project_slug: mythos-5-incident-transcript
+  level: full
+  reviewed_at: '2026-09-13T00:24:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有仓库星标，没有产品说明、使用场景或用户痛点记录，连它解决什么需求、什么痛点都写不出来，无法判断价值结构。
+    evidence_ids:
+    - ev-82fa89c6a4fcefea
+    - ev-0f3e4abc1f95e222
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它实际解决什么任务、谁在何种场景使用。
+  market: ''
+  job: 公开材料未说明谁在什么情况下处理什么材料、要完成什么任务；仅知这是一个代码仓库，无法还原具体工作流。
+  job_en: Public material does not state who handles what material in what situation to complete what
+    task; only that this is a code repository, so the specific workflow cannot be reconstructed.
+  pain: 公开材料未说明用户遇到什么困难、不解决会有什么后果，也没有用户抱怨或替代行为的记录。
+  pain_en: Public material does not state what difficulty users face or what happens if it is left unsolved,
+    and there is no record of user complaints or workaround behavior.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public material does not state how users currently complete this job or what
+    old practice it replaces.
+  usage_reason: 公开材料只有仓库星标数，没有功能说明、使用场景或用户反馈，无法解释用户为什么会选择它而非现有做法。
+  usage_reason_en: Public material only shows repository star counts, with no feature description, usage
+    scenario, or user feedback, so it cannot explain why users would choose it over existing approaches.

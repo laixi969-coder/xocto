@@ -245,3 +245,55 @@
     data to the agent as a plugin, removing the step of building a data channel yourself, so individual
     investors already using AI agents for A-share analysis and needing real order-book and position data
     would pick it; stars rising from 176 to 194 shows attention, not sustained use.'
+- id: req-full-tonghuasun-agent-2026-09-13
+  project_slug: tonghuasun-agent
+  level: full
+  reviewed_at: '2026-09-13T00:26:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投资者在 AI 代理内获取本机同花顺行情与账户数据的需求，痛点是数据锁在客户端、手动复制或自建接口成本高；不解决的后果是 AI 分析只能基于滞后或手工数据。这是基于产品说明与旧流程的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-83d2ae952b1c665b
+    - ev-ac20470023d68cbb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 177 缓慢增至 194，说明开发者关注度存在，但公开材料没有用户评价、issue 讨论或采用案例，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-aa72d671e1de6aea
+    - ev-83d2ae952b1c665b
+    - ev-ac20470023d68cbb
+  - gate: model
+    status: insufficient
+    reason: 项目自述为免费开源插件，公开材料未披露定价、捐赠、企业支持或任何付费路径，钱来自哪一方无法核验；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-83d2ae952b1c665b
+  - gate: truth
+    status: supported
+    reason: 产品承诺为 AI 工具提供本机 A 股实时行情、K 线、Level-2、资讯、账户查询与可选交易能力，输入与交付边界清晰；但账户查询与可选交易涉及券商接口与合规，公开材料未说明安全与人工确认边界。
+    evidence_ids:
+    - ev-83d2ae952b1c665b
+    - ev-ac20470023d68cbb
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有用户报告实际接入行情、账户查询或交易的使用场景与问题反馈。
+  market: ''
+  job: 个人投资者或量化交易员在 Codex、Claude Code 等 AI 编码代理中工作时，需要把本机同花顺客户端的 A 股实时行情、K 线、Level-2 委托与逐笔成交、持仓账户数据接入对话，让
+    AI 基于真实行情完成查询、复盘或策略分析。
+  job_en: An individual investor or quant trader working inside Codex, Claude Code and similar AI coding
+    agents needs to pipe local Tonghuashun A-share real-time quotes, K-lines, Level-2 orders and tick
+    data, plus holdings, into the conversation so the AI can query, review or analyze based on real market
+    data.
+  pain: 行情与账户数据锁在同花顺客户端里，AI 代理无法直接读取；用户要么手动截图复制，要么自建爬虫或对接付费数据接口，前者打断分析流程，后者有成本与合规门槛。
+  pain_en: Quotes and account data are locked inside the Tonghuashun client and cannot be read by AI agents;
+    users either copy-paste manually or build scrapers / pay for data APIs, which breaks the analysis
+    flow or adds cost and compliance friction.
+  current_alternative: 打开同花顺客户端人工查看并复制数据、自写脚本调用第三方行情接口、或购买 Wind/聚宽等付费数据服务。
+  current_alternative_en: Manually checking and copying from the Tonghuashun client, writing scripts against
+    third-party quote APIs, or buying paid data services such as Wind or JoinQuant.
+  usage_reason: 推断：相较手动复制或自建接口，该插件把本机同花顺数据封装成 AI 代理可直接调用的工具，省去截图、格式转换和接口对接步骤，因此已在用 AI 编码代理做 A 股分析的用户会在需要真实行情时选择它；仓库星标从
+    177 增至 194 只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus manual copy-paste or self-built APIs, the plugin wraps local Tonghuashun
+    data as tools an AI agent can call directly, removing screenshotting, reformatting and API plumbing,
+    so users already analyzing A-shares inside AI coding agents would pick it when real quotes are needed;
+    the star growth from 177 to 194 only shows attention, not sustained use.'

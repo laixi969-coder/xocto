@@ -131,3 +131,53 @@
     decisions to a single local Markdown source of truth that both Claude Code and Codex read, removing
     the step of restating project conventions after each switch; no API key lowers setup friction. Which
     users adopt it and whether it stays in their workflow is not yet shown by public user feedback.'
+- id: req-full-agent-memory-2026-09-13
+  project_slug: agent-memory
+  level: full
+  reviewed_at: '2026-09-13T00:22:56Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理跨工具切换时上下文丢失的需求，痛点是每次切换都要重新交代决策与约定，属高频且直接拖慢任务；公开说明已给出输入（对话与决策）、动作（Markdown 存储与本地检索）与交付（跨工具共享记忆），据此可作结构推理判定需求成立。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+    - ev-44cef59acd8e1cb0
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 739 增至 1,165，短期内持续增长，说明使用编码代理的开发者群体对该问题有明确关注并主动收藏；但收藏属关注度证据，尚不能等同于持续使用。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+    - ev-57e596bca351a946
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购记录，开源仓库本身不构成收入路径；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺本地检索与空闲时段整理，但未给出整理效果、冲突消解与错误记忆纠正的可复现证据，交付确定性尚待公开材料确认。
+    evidence_ids:
+    - ev-44cef59acd8e1cb0
+  next_validation: 追踪 agent-memory 仓库的 issue 与 discussion，确认开发者是否报告跨工具记忆实际生效、以及整理层出现错误记忆时的处理方式。
+  market: ''
+  job: 同时使用 Claude Code 与 Codex 等编码代理的开发者，在跨工具切换或开启新会话时，需要把此前的对话、决策与项目约定作为可检索的长期记忆带入当前任务，避免重复交代上下文。
+  job_en: Developers who use coding agents such as Claude Code and Codex need the prior conversations,
+    decisions and project conventions carried into the current task as retrievable long-term memory when
+    switching tools or starting a new session, instead of restating context.
+  pain: 公开材料明确点出跨工具上下文丢失这一具体摩擦：Claude Code 与 Codex 各自持有会话状态，切换后先前决策不再可用，开发者只能重新粘贴或复述；不解决的直接后果是重复交代与决策不一致，属于编码代理日常工作中的高频步骤。
+  pain_en: 'Public material names a concrete friction: context loss across tools. Claude Code and Codex
+    each hold their own session state, so after switching, earlier decisions are no longer available and
+    the developer must re-paste or restate them; the direct consequence is repeated briefing and inconsistent
+    decisions, a high-frequency step in daily agent-assisted coding.'
+  current_alternative: 结构上可推测的旧做法是各工具自带的会话历史、手工维护的 CLAUDE.md 或笔记文件、以及每次重新粘贴上下文；公开材料未说明这些替代被用户实际使用的情况。
+  current_alternative_en: 'Structurally inferable old practice: each tool''s own session history, hand-maintained
+    CLAUDE.md or note files, and re-pasting context each time; public material does not show actual use
+    of these alternatives.'
+  usage_reason: 推断：相较各工具自带会话历史或手工维护笔记，它把对话与决策以 Markdown 存为唯一事实来源，让 Claude Code 与 Codex 共用同一存储，从而省去切换工具后重新粘贴上下文的步骤；本地检索与无需
+    API key 降低了接入门槛，因此跨工具切换频繁的开发者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus each tool''s own session history or hand-maintained notes, it stores
+    conversations and decisions as Markdown single source of truth shared by Claude Code and Codex, removing
+    the step of re-pasting context after switching tools; local retrieval and no API key lower the adoption
+    barrier, so developers who switch tools frequently would choose it in that situation.'

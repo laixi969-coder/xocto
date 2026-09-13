@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/linkflick
 summary: Stop re-pairing your Magic Keyboard between Macs
 first_seen: '2026-09-07T03:23:42Z'
 last_seen: '2026-09-13T00:00:05Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

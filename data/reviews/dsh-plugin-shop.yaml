@@ -340,3 +340,56 @@
     point and skip per-repository provenance and usability vetting; that is why they would choose it when
     extending the harness without bearing the vetting cost. This is an inference from product mechanism
     and task structure, not yet confirmed by user feedback or cases.
+- id: req-full-dsh-plugin-shop-2026-09-13
+  project_slug: dsh-plugin-shop
+  level: full
+  reviewed_at: '2026-09-13T00:24:11Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 DeepSeek Harness 插件分散、缺少统一审核入口的需求，痛点是检索与筛选成本高、未审核插件有风险；公开仓库说明其每日收集并发布前审核，交付动作可确定，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-06efe44cd5ada5df
+    - ev-c45b9929bad3849a
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 312 持续升至 708，说明开发者社区持续关注并把它纳入插件查找路径；但收藏属关注度证据，不能证明长期留存或付费，故仅支持初步共识。
+    evidence_ids:
+    - ev-06efe44cd5ada5df
+    - ev-5e6c2f7bce739255
+    - ev-c45b9929bad3849a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径，无法判断是 to C 开发者订阅、to B 授权还是纯开源；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-06efe44cd5ada5df
+  - gate: truth
+    status: insufficient
+    reason: 每日更新与发布前审核的承诺缺少可复现的公开证据，审核标准、人工边界与插件安全责任归属均未在公开材料中说明，交付确定性待核。
+    evidence_ids:
+    - ev-06efe44cd5ada5df
+    - ev-9da06bb648fbe898
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认插件审核标准、更新频率与是否有开发者反馈实际安装使用。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在需要为 harness 增加新能力（如工具、集成、工作流扩展）时，处理散落在互联网各处的插件仓库与发布信息，要完成的任务是快速找到可用、经过筛选的插件并安装进自己的
+    harness 环境。
+  job_en: Developers using DeepSeek Harness, when they need to add new capabilities (tools, integrations,
+    workflow extensions) to the harness, work with plugin repositories and release information scattered
+    across the internet, and must quickly find usable, vetted plugins and install them into their harness
+    environment.
+  pain: 插件分散在互联网各处，开发者要逐个搜索、比对可用性和安全性，缺少统一入口；未经审核的插件直接进入本地 harness 存在风险，筛选成本高且结果不确定。
+  pain_en: Plugins are scattered across the internet, forcing developers to search and compare availability
+    and safety one by one with no unified entry point; unvetted plugins entering a local harness carry
+    risk, and the filtering cost is high with uncertain results.
+  current_alternative: 当前替代方式是开发者自行在 公开代码仓库、论坛或搜索引擎中逐个检索 DeepSeek Harness 插件，手动判断可用性并自行安装，没有集中审核的目录。
+  current_alternative_en: The current alternative is developers manually searching public code repository,
+    forums, or search engines for DeepSeek Harness plugins one by one, judging usability themselves and
+    installing manually, with no centrally reviewed catalog.
+  usage_reason: 推断：相较逐个搜索，该市场每日从互联网收集并审核后集中发布，把“找插件”从多次分散检索压缩为一次目录浏览，并附带发布前审核这一可核对动作，因此需要为 harness 扩展能力、又在意插件来源可靠性的开发者会在配置环境时选择它。
+  usage_reason_en: 'Inference: compared with searching one by one, this marketplace collects from the
+    internet daily and publishes a reviewed, centralized catalog, compressing ''finding a plugin'' from
+    multiple scattered searches into one catalog browse and adding a pre-publish review step; developers
+    extending their harness who also care about plugin provenance would choose it when setting up their
+    environment.'

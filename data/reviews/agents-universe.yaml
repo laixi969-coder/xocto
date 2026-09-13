@@ -139,3 +139,43 @@
   usage_reason: 仓库星数从 299 增至 319 只说明开发者关注度上升，不能解释用户为何选择它，也未见留存或重复使用证据。
   usage_reason_en: Stars rising from 299 to 319 shows developer attention only; it does not explain why
     users choose it, and no retention or repeat-use evidence exists.
+- id: req-full-agents-universe-2026-09-13
+  project_slug: agents-universe
+  level: full
+  reviewed_at: '2026-09-13T00:22:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有“共享智能体和项目记忆”一句定位，未说明用户任务、输入材料、交付物与不解决的后果，连需求与痛点都无法具体写出，价值结构无法成立。
+    evidence_ids:
+    - ev-5b2bfb067108c376
+    - ev-172aff74235611cd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 agents-universe.com 官网与对应仓库 README/文档，确认是否公开具体使用场景、输入输出与交付结果。
+  market: ''
+  job: 公开材料仅称“让智能体像人一样学习和工作，共享智能体和项目记忆”，未说明谁在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material only states agents 'learn and work like humans, sharing agents and project memory';
+    it does not say who, in what situation, handling what material, to complete what task, so no concrete
+    job can be reconstructed.
+  pain: 可推测的痛点是多代理之间缺乏共享记忆、上下文需人工搬运，但公开材料未给出任何用户抱怨、替代行为或失败后果，痛点强度无法确认。
+  pain_en: A plausible pain is that multiple agents lack shared memory and context must be moved by hand,
+    but no user complaint, workaround, or failure consequence is public, so pain intensity cannot be confirmed.
+  current_alternative: 公开材料未说明当前替代方式；只能推测为手动管理上下文或使用单一代理，属推断而非事实。
+  current_alternative_en: No current alternative is stated publicly; manual context management or a single
+    agent can only be inferred, not treated as fact.
+  usage_reason: 无法说明：公开材料只有一句定位描述与星数变化，未说明产品通过什么具体动作减少哪一步负担，也没有用户反馈或案例支持选择动机。
+  usage_reason_en: 'Cannot be stated: public material offers only a one-line positioning and star counts,
+    with no specific action that removes a step and no user feedback or case supporting a choice motive.'
