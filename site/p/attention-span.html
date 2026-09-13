@@ -82,37 +82,37 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-01</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-13</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者需要阅读 AI 编码助手的输出，并保持注意力。</p>
-        <p>公开材料未说明用户当前如何应对，可能手动筛选信息，但尚未核验。</p>
-        <p>AI 输出冗长，增加认知负担，但公开材料未说明具体痛点强度或不采用代价。</p>
+        <p class="product-lead">使用 Claude Code、Codex 等 AI 编码助手的开发者，在终端里阅读 agent 返回的长篇输出时，需要把回复压缩成可快速扫读、聚焦要点的形式，以便在编码过程中持续跟上 agent 的推理与改动。</p>
+        <p>现状是直接阅读 agent 默认输出，或手动在提示词里要求“简短一点”，或自行维护 CLAUDE.md / 自定义指令来约束风格；这些做法零散、每次会话都要重复设置。</p>
+        <p>AI 编码 agent 默认输出冗长、结构松散，注意力容易涣散的用户（含 ADHD 开发者）在长回复中丢失关键信息，同时为无用 token 付费；公开材料只给出产品自述，未提供用户抱怨或频率数据。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>需求有依据</h3>
         <p>趋势是 AI 工具开始关注用户认知差异，从功能导向转向体验导向。切入点是开发者工具的输出层，可考虑作为插件或配置包，免费或捐赠模式。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>仓库有 858 个收藏，说明开发者关注，但持续使用和付费尚未核验。</p>
+        <p>推断：相较每次手动写提示或维护自定义指令，它把输出风格做成可安装的预设，一次配置后 agent 回复直接以短句、要点形式返回，省去逐轮追加“请简短”的步骤，并减少为冗长输出支付的 token；因此注意力易分散、长时间盯终端读 agent 输出的开发者会在日常编码会话中选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>查找该项目的 公开代码仓库 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。</p>
+        <p>追踪该开源仓库的 README、issue 与 discussion，确认是否有开发者报告在真实编码会话中持续使用该输出风格及其对 agent 任务完成质量的影响。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。仓库有 858 个收藏，说明开发者关注，但持续使用和付费尚未核验。</p>
+        <p><strong>值得试用</strong>。推断：相较每次手动写提示或维护自定义指令，它把输出风格做成可安装的预设，一次配置后 agent 回复直接以短句、要点形式返回，省去逐轮追加“请简短”的步骤，并减少为冗长输出支付的 token；因此注意力易分散、长时间盯终端读 agent 输出的开发者会在日常编码会话中选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -123,38 +123,47 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>attention-span 为 Claude Code、Codex 等 AI 编码助手提供 ADHD 友好的输出风格，让 AI 的回复更简洁、更易聚焦。开发者在阅读 AI 输出时，通过它调整输出格式，减少认知负担，但具体风格定制和效果仍需核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>仓库有 858 个收藏，说明开发者关注，但持续使用和付费尚未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>查找该项目的 公开代码仓库 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决的是开发者阅读 AI 编码 agent 冗长输出时注意力涣散、关键信息被淹没的问题，痛点来自 agent 默认输出风格而非产品功能本身；公开材料已给出输入（agent 输出）、动作（套用 ADHD 友好风格）与交付（更短更聚焦的回复），据此可作工作流结构推理判定需求成立，但尚无用户抱怨或频率数据。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较每次手动写提示或维护自定义指令，它把输出风格做成可安装的预设，一次配置后 agent 回复直接以短句、要点形式返回，省去逐轮追加“请简短”的步骤，并减少为冗长输出支付的 token；因此注意力易分散、长时间盯终端读 agent 输出的开发者会在日常编码会话中选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该开源仓库的 README、issue 与 discussion，确认是否有开发者报告在真实编码会话中持续使用该输出风格及其对 agent 任务完成质量的影响。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“attention-span 为 Claude Code、Codex 等 AI 编码助手提供 ADHD 友好的输出风格，让 AI 的回复更简洁、更易聚焦”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决的是开发者阅读 AI 编码 agent 冗长输出时注意力涣散、关键信息被淹没的问题，痛点来自 agent 默认输出风格而非产品功能本身；公开材料已给出输入（agent 输出）、动作（套用 ADHD 友好风格）与交付（更短更聚焦的回复），据此可作工作流结构推理判定需求成立，但尚无用户抱怨或频率数据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://alexgreenshpun.com" target="_blank" rel="noopener">attention-span · 2026-08-05 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>公开材料只有项目自述与一次发布记录，未见开发者讨论、issue 或评价说明谁在什么场景持续使用；关注度不等于采用，因此共识环节尚缺可归因到该产品的使用证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://alexgreenshpun.com" target="_blank" rel="noopener">attention-span · 2026-08-05 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>这是判断而非已验证事实：项目为开源输出风格包，公开材料未见定价页、付费主体或 to B/to C 收费路径，钱可能来自捐赠、赞助或后续增值，但均无公开证据支撑。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>输出风格包本身不改变 agent 的代码正确性，交付边界清晰；但公开材料未说明风格切换是否影响 agent 完成复杂任务的质量，也未见可复现的对比结果或安全边界说明。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://alexgreenshpun.com" target="_blank" rel="noopener">attention-span · 2026-08-05 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -248,7 +257,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 211 个 →
+        AI + 效率 共 217 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -340,8 +349,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1458 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-12</span>
+    <span>1484 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-13</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

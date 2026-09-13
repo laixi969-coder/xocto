@@ -82,37 +82,37 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-01</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-13</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者使用 pi 编码代理时，需要一个桌面界面来管理任务和查看结果。</p>
-        <p>直接使用命令行或编辑器插件。</p>
-        <p>命令行界面不够直观，难以监控代理行为和审查代码。</p>
+        <p class="product-lead">使用 pi 编码代理的 macOS 开发者，在代理并行跑多个编码任务时，需要在一个桌面工作台里查看任务进度、审查代理产出的代码改动，并决定接受或回退哪些修改。</p>
+        <p>直接在终端里运行 pi 代理，配合 git diff、编辑器或编辑器插件人工核对改动。</p>
+        <p>编码代理以命令行方式运行时，任务状态、diff 与日志散落在终端输出里，开发者要反复滚动终端、手动比对文件才能判断代理改了什么、是否跑偏；代理越自主，这种审查负担越重。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>需求有依据</h3>
         <p>趋势是编码代理从命令行走向专用工作台。切入点是针对特定代理（如 pi）提供深度集成，但需先验证开发者对桌面工作台的真实需求。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>提供更友好的桌面体验，但需求强度未明。</p>
+        <p>推断：相较纯终端流程，Bivor 把任务监控与代码审查收进同一个 macOS 窗口，开发者不必在终端输出、diff 工具和编辑器之间来回切换即可判断代理产出，因此正在用 pi 跑多任务、且在意改动可核对性的 macOS 开发者会尝试它；目前仅有仓库星标，尚无用户反馈或留存证据支持长期采用。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>关注开源仓库的 issue 和讨论，以及是否有用户分享使用体验。</p>
+        <p>追踪 Bivor 开源仓库的 issue 与 discussion，以及官网是否出现定价页或客户案例，用以核验开发者是否持续使用并付费。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。提供更友好的桌面体验，但需求强度未明。</p>
+        <p><strong>值得试用</strong>。推断：相较纯终端流程，Bivor 把任务监控与代码审查收进同一个 macOS 窗口，开发者不必在终端输出、diff 工具和编辑器之间来回切换即可判断代理产出，因此正在用 pi 跑多任务、且在意改动可核对性的 macOS 开发者会尝试它；目前仅有仓库星标，尚无用户反馈或留存证据支持长期采用。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -123,17 +123,17 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>面向使用 pi 编码代理的开发者，提供 macOS 桌面工作台，用于管理和交互编码代理。具体功能包括任务监控、代码审查等，但详细工作流未披露。</p></div>
-        <div><span class="field-k">工作流推理</span><p>提供更友好的桌面体验，但需求强度未明。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>关注开源仓库的 issue 和讨论，以及是否有用户分享使用体验。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决的是编码代理产出难以监控与审查这一具体任务：终端里任务状态、diff 与日志混杂，开发者需手动比对才能确认代理改了什么，代理越自主审查负担越重，不解决就得在终端与编辑器间反复切换。这是基于产品定位与代理工作流的结构推理，非用户口述。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较纯终端流程，Bivor 把任务监控与代码审查收进同一个 macOS 窗口，开发者不必在终端输出、diff 工具和编辑器之间来回切换即可判断代理产出，因此正在用 pi 跑多任务、且在意改动可核对性的 macOS 开发者会尝试它；目前仅有仓库星标，尚无用户反馈或留存证据支持长期采用。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 Bivor 开源仓库的 issue 与 discussion，以及官网是否出现定价页或客户案例，用以核验开发者是否持续使用并付费。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“面向使用 pi 编码代理的开发者，提供 macOS 桌面工作台，用于管理和交互编码代理。具体功能包括任务监控、代码审查等，但详细工作流未披露”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决的是编码代理产出难以监控与审查这一具体任务：终端里任务状态、diff 与日志混杂，开发者需手动比对才能确认代理改了什么，代理越自主审查负担越重，不解决就得在终端与编辑器间反复切换。这是基于产品定位与代理工作流的结构推理，非用户口述。</p>
           <div class="gate-links" aria-label="需求证据档">
             <a href="https://bivor.dev" target="_blank" rel="noopener">Bivor · 2026-08-15 ↗</a>
           </div>
@@ -143,21 +143,30 @@
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>公开证据只有仓库 208 星，属关注度而非采用；没有用户评价、issue 讨论或案例说明开发者是否真的把 Bivor 放进日常代理工作流，强场景存在但共识未核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://bivor.dev" target="_blank" rel="noopener">Bivor · 2026-08-15 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>未披露定价页或收费方式，买方可能是个人开发者自购，也可能是团队采购，公开材料无法判断；这是判断而非已验证事实，且无融资叙事，暂不构成每日优鲜风险。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://bivor.dev" target="_blank" rel="noopener">Bivor · 2026-08-15 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>产品贴近代理编码的第一性目标（让改动可核对），但公开材料未说明审查动作是否确定性交付、是否有人工兜底边界，也未披露与 pi 的集成深度，交付确定性尚不可核对。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://bivor.dev" target="_blank" rel="noopener">Bivor · 2026-08-15 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -251,7 +260,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 431 个 →
+        AI + 开发 共 438 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -343,8 +352,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1458 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-12</span>
+    <span>1484 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-13</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

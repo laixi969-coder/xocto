@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>cover · x-octo</title>
-<meta name="description" content="cover 是一个开源的可逆隐私代理，面向调用外部 AI 代理的开发者。开发者在把真实数据交给 cover 后，cover 会向外部 AI 代理发送逼真的假数据，并在本地恢复原始结果。它解决的是开发者担心敏感数据泄露给第三方 AI 服务的问题，但具体工作流程和交付形式仍需进一步核验。">
+<meta name="description" content="开发者在把用户数据交给外部大模型前，先用它把姓名、地址等敏感字段替换成逼真假值，模型只看到假数据；返回结果在本地再还原成真实值，人工仍需确认还原映射是否完整。具体支持的字段类型与部署方式仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/cover.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/cover.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/cover.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/cover.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="cover · x-octo">
-<meta property="og:description" content="cover 是一个开源的可逆隐私代理，面向调用外部 AI 代理的开发者。开发者在把真实数据交给 cover 后，cover 会向外部 AI 代理发送逼真的假数据，并在本地恢复原始结果。它解决的是开发者担心敏感数据泄露给第三方 AI 服务的问题，但具体工作流程和交付形式仍需进一步核验。">
+<meta property="og:description" content="开发者在把用户数据交给外部大模型前，先用它把姓名、地址等敏感字段替换成逼真假值，模型只看到假数据；返回结果在本地再还原成真实值，人工仍需确认还原映射是否完整。具体支持的字段类型与部署方式仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/cover.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/cover.html#webpage", "@type": "WebPage", "description": "cover \u662f\u4e00\u4e2a\u5f00\u6e90\u7684\u53ef\u9006\u9690\u79c1\u4ee3\u7406\uff0c\u9762\u5411\u8c03\u7528\u5916\u90e8 AI \u4ee3\u7406\u7684\u5f00\u53d1\u8005\u3002\u5f00\u53d1\u8005\u5728\u628a\u771f\u5b9e\u6570\u636e\u4ea4\u7ed9 cover \u540e\uff0ccover \u4f1a\u5411\u5916\u90e8 AI \u4ee3\u7406\u53d1\u9001\u903c\u771f\u7684\u5047\u6570\u636e\uff0c\u5e76\u5728\u672c\u5730\u6062\u590d\u539f\u59cb\u7ed3\u679c\u3002\u5b83\u89e3\u51b3\u7684\u662f\u5f00\u53d1\u8005\u62c5\u5fc3\u654f\u611f\u6570\u636e\u6cc4\u9732\u7ed9\u7b2c\u4e09\u65b9 AI \u670d\u52a1\u7684\u95ee\u9898\uff0c\u4f46\u5177\u4f53\u5de5\u4f5c\u6d41\u7a0b\u548c\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u9700\u8fdb\u4e00\u6b65\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@id": "https://xocto.vercel.app/p/cover.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-10", "datePublished": "2026-08-22", "description": "cover \u662f\u4e00\u4e2a\u5f00\u6e90\u7684\u53ef\u9006\u9690\u79c1\u4ee3\u7406\uff0c\u9762\u5411\u8c03\u7528\u5916\u90e8 AI \u4ee3\u7406\u7684\u5f00\u53d1\u8005\u3002\u5f00\u53d1\u8005\u5728\u628a\u771f\u5b9e\u6570\u636e\u4ea4\u7ed9 cover \u540e\uff0ccover \u4f1a\u5411\u5916\u90e8 AI \u4ee3\u7406\u53d1\u9001\u903c\u771f\u7684\u5047\u6570\u636e\uff0c\u5e76\u5728\u672c\u5730\u6062\u590d\u539f\u59cb\u7ed3\u679c\u3002\u5b83\u89e3\u51b3\u7684\u662f\u5f00\u53d1\u8005\u62c5\u5fc3\u654f\u611f\u6570\u636e\u6cc4\u9732\u7ed9\u7b2c\u4e09\u65b9 AI \u670d\u52a1\u7684\u95ee\u9898\uff0c\u4f46\u5177\u4f53\u5de5\u4f5c\u6d41\u7a0b\u548c\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u9700\u8fdb\u4e00\u6b65\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/cover.html#webpage"}, "name": "cover", "sameAs": "https://github.com/DavidCarliez/cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/cover.html", "name": "cover", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/cover.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u628a\u7528\u6237\u6570\u636e\u4ea4\u7ed9\u5916\u90e8\u5927\u6a21\u578b\u524d\uff0c\u5148\u7528\u5b83\u628a\u59d3\u540d\u3001\u5730\u5740\u7b49\u654f\u611f\u5b57\u6bb5\u66ff\u6362\u6210\u903c\u771f\u5047\u503c\uff0c\u6a21\u578b\u53ea\u770b\u5230\u5047\u6570\u636e\uff1b\u8fd4\u56de\u7ed3\u679c\u5728\u672c\u5730\u518d\u8fd8\u539f\u6210\u771f\u5b9e\u503c\uff0c\u4eba\u5de5\u4ecd\u9700\u786e\u8ba4\u8fd8\u539f\u6620\u5c04\u662f\u5426\u5b8c\u6574\u3002\u5177\u4f53\u652f\u6301\u7684\u5b57\u6bb5\u7c7b\u578b\u4e0e\u90e8\u7f72\u65b9\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@id": "https://xocto.vercel.app/p/cover.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-13", "datePublished": "2026-08-22", "description": "\u5f00\u53d1\u8005\u5728\u628a\u7528\u6237\u6570\u636e\u4ea4\u7ed9\u5916\u90e8\u5927\u6a21\u578b\u524d\uff0c\u5148\u7528\u5b83\u628a\u59d3\u540d\u3001\u5730\u5740\u7b49\u654f\u611f\u5b57\u6bb5\u66ff\u6362\u6210\u903c\u771f\u5047\u503c\uff0c\u6a21\u578b\u53ea\u770b\u5230\u5047\u6570\u636e\uff1b\u8fd4\u56de\u7ed3\u679c\u5728\u672c\u5730\u518d\u8fd8\u539f\u6210\u771f\u5b9e\u503c\uff0c\u4eba\u5de5\u4ecd\u9700\u786e\u8ba4\u8fd8\u539f\u6620\u5c04\u662f\u5426\u5b8c\u6574\u3002\u5177\u4f53\u652f\u6301\u7684\u5b57\u6bb5\u7c7b\u578b\u4e0e\u90e8\u7f72\u65b9\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/cover.html#webpage"}, "name": "cover", "sameAs": "https://github.com/DavidCarliez/cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/cover.html", "name": "cover", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>cover</h1>
       </div>
-      <p class="product-lede">cover 是一个开源的可逆隐私代理，面向调用外部 AI 代理的开发者。开发者在把真实数据交给 cover 后，cover 会向外部 AI 代理发送逼真的假数据，并在本地恢复原始结果。它解决的是开发者担心敏感数据泄露给第三方 AI 服务的问题，但具体工作流程和交付形式仍需进一步核验。</p>
+      <p class="product-lede">开发者在把用户数据交给外部大模型前，先用它把姓名、地址等敏感字段替换成逼真假值，模型只看到假数据；返回结果在本地再还原成真实值，人工仍需确认还原映射是否完整。具体支持的字段类型与部署方式仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">安全工程师</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 68</span><span class="tag sig">开源关注 41</span>      </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件与信息服务</span><span class="tag">金融与保险</span><span class="tag">医疗健康</span><span class="tag">AI应用开发者</span><span class="tag">数据合规与隐私工程师</span><span class="tag">企业安全负责人</span><span class="tag">全球</span><span class="tag sig">社区热度 68</span><span class="tag sig">开源关注 41</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>DavidCarliez</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-08-22</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-10</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-13</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://github.com/DavidCarliez/cover" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,50 +82,50 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-01</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-13</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者需要让 AI 代理处理敏感数据，同时避免数据泄露。</p>
-        <p>目前开发者可能手动脱敏数据，或避免使用外部 AI 服务。</p>
-        <p>直接发送真实数据给外部 AI 服务存在隐私风险，可能导致合规问题。</p>
+        <p class="product-lead">AI应用开发者或数据合规工程师在把含姓名、地址、病历等敏感字段的业务数据送进外部大模型前，需要先处理这批材料，让模型完成分析或生成，同时不把真实身份信息交出去，并在结果返回后把假值还原成真实值。</p>
+        <p>常见替代是开发者自己写正则或脚本替换字段、走内部脱敏流程，或干脆不脱敏直接调用模型并承担风险。</p>
+        <p>直接把原始数据发给第三方模型会带来合规与泄露风险；手工脱敏再人工对照还原既慢又易错，一旦映射丢失，模型输出就无法对应回真实用户。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势：随着 AI 代理深入企业工作流，数据隐私成为采用瓶颈，可逆脱敏可能成为基础层标配。切入：可从数据合规要求高的行业（如医疗、金融）入手，提供按数据量或按代理调用计费的服务，但需先验证开发者实际付费意愿。</p>
+        <p>趋势是敏感数据外发前的“脱敏—还原”环节正被单独拆成一层，而不是塞进每个应用里各写一遍。切入可从处理大量个人数据的行业（保险理赔、医疗记录、金融客服）入手，按调用量或按合规审计报告收费，而不是卖通用工具。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>cover 提供自动化脱敏和恢复，减少手动工作，但采用证据尚未核验。</p>
+        <p>推断：相较自写脚本，它把“替换—调用—还原”做成一条可逆链路，减少每次接入新模型都要重写脱敏逻辑这一步，并让还原结果可核对；处理大量个人数据的团队在接入外部模型时会因此选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>关注项目仓库的 issue 和讨论，以及是否有企业采用案例或定价信息。</p>
+        <p>收集该开源仓库的README与issue/discussion，确认支持的字段类型、还原准确率说明及是否有企业部署案例。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。cover 提供自动化脱敏和恢复，减少手动工作，但采用证据尚未核验。</p>
+        <p><strong>值得试用</strong>。推断：相较自写脚本，它把“替换—调用—还原”做成一条可逆链路，减少每次接入新模型都要重写脱敏逻辑这一步，并让还原结果可核对；处理大量个人数据的团队在接入外部模型时会因此选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势：随着 AI 代理深入企业工作流，数据隐私成为采用瓶颈，可逆脱敏可能成为基础层标配。切入：可从数据合规要求高的行业（如医疗、金融）入手，提供按数据量或按代理调用计费的服务，但需先验证开发者实际付费意愿。</p>
+        <p>趋势是敏感数据外发前的“脱敏—还原”环节正被单独拆成一层，而不是塞进每个应用里各写一遍。切入可从处理大量个人数据的行业（保险理赔、医疗记录、金融客服）入手，按调用量或按合规审计报告收费，而不是卖通用工具。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决开发者向外部 AI 代理发送敏感数据时的隐私泄露痛点；工作流结构判断：旧替代是手动脱敏或不用外部服务，cover 提供自动化代理，交付可确定。</p></div>
-        <div><span class="field-k">工作流推理</span><p>cover 提供自动化脱敏和恢复，减少手动工作，但采用证据尚未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>关注项目仓库的 issue 和讨论，以及是否有企业采用案例或定价信息。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决敏感数据外发前的脱敏与还原需求，痛点是合规风险与手工映射易错，旧做法是自写脚本或不脱敏，结构上成立。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较自写脚本，它把“替换—调用—还原”做成一条可逆链路，减少每次接入新模型都要重写脱敏逻辑这一步，并让还原结果可核对；处理大量个人数据的团队在接入外部模型时会因此选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集该开源仓库的README与issue/discussion，确认支持的字段类型、还原准确率说明及是否有企业部署案例。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -133,9 +133,9 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>它解决开发者向外部 AI 代理发送敏感数据时的隐私泄露痛点；工作流结构判断：旧替代是手动脱敏或不用外部服务，cover 提供自动化代理，交付可确定。</p>
+          <p>它解决敏感数据外发前的脱敏与还原需求，痛点是合规风险与手工映射易错，旧做法是自写脚本或不脱敏，结构上成立。</p>
           <div class="gate-links" aria-label="需求证据档">
-            <a href="https://github.com/DavidCarliez/cover" target="_blank" rel="noopener">cover · 2026-08-22 ↗</a>
+            <a href="https://mhacevedo.com/posts/the-discovery-problem" target="_blank" rel="noopener">mhacevedo.com · 2026-09-09 ↗</a>
           </div>
         </article>
         <article class="gate-row">
@@ -143,9 +143,9 @@
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>开源项目有 41 星，但缺乏用户讨论或采用证据，共识尚未形成。</p>
+          <p>公开页面仅有约41个星标和一次社区讨论，缺少企业采用、客户案例或重复使用证据，尚不能说明共识形成。</p>
           <div class="gate-links" aria-label="需求证据档">
-            <a href="https://github.com/DavidCarliez/cover" target="_blank" rel="noopener">cover · 2026-08-22 ↗</a>
+            <a href="https://mhacevedo.com/posts/the-discovery-problem" target="_blank" rel="noopener">mhacevedo.com · 2026-09-09 ↗</a>
           </div>
         </article>
         <article class="gate-row">
@@ -153,20 +153,14 @@
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>未披露定价或商业模式，买方可能是企业开发者，但付费路径未验证。</p>
-          <div class="gate-links" aria-label="需求证据档">
-            <a href="https://github.com/DavidCarliez/cover" target="_blank" rel="noopener">cover · 2026-08-22 ↗</a>
-          </div>
+          <p>开源项目未披露定价与买方，to B 按调用量或合规服务收费只是推断，不是已验证事实。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
-            <strong>已有支持</strong>
+            <strong>证据不足</strong>
           </div>
-          <p>产品贴近数据安全第一性目标，承诺可逆脱敏，技术实现可行，但安全边界需验证。</p>
-          <div class="gate-links" aria-label="需求证据档">
-            <a href="https://github.com/DavidCarliez/cover" target="_blank" rel="noopener">cover · 2026-08-22 ↗</a>
-          </div>
+          <p>可逆映射的完整性与还原准确率没有公开测试或文档佐证，人工确认边界也未说明。</p>
         </article>
       </div>
     </details>
@@ -177,19 +171,19 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
-        <p>本地供给：早期出现<br>需求证据：初步成立</p>
-        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-10</p>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-13。未发现仅限该覆盖范围。 · 2026-09-13</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-08。未发现仅限该覆盖范围。 · 2026-09-08</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-13。未发现仅限该覆盖范围。 · 2026-09-13</p>
       </div>
     </div>
   </section>
@@ -216,6 +210,66 @@
       </div>
     </div>
     <ul class="rows desk-list">
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aistudio.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">cloud.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">perplexity.ai</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://gemini.google/us/about/?hl=en" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://account.covermymeds.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">account.covermymeds.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.covers.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">covers.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.covers.com/sports/mlb/matchups" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">covers.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxONTF2WnlqaF9lZHItWi11dTRFdW5LdVh6eW1sNFk5U2Z5TGVSLWxyV090QlNSeDhaUVl3MEF2Y1htbWlVbHRGcHZPclBqUzRQdDhRanJYZFliZzRaTGtwWmg1TUNiUndlbjJPVDRGR2IwZU42OXQ2czhZRFphZVlaNk8zNHk0dnVjeTNRUi10eGxOUXRNY2pfeUpWTzZmU1dmajhlYThXMG95eF9rMkJ6cmFyNnl6ZTdOMWlfRVdodjVveGREaUE?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-12</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPbFNmb1dScU4yMmZsT2VMX2tOSDE1ZC1zd2stUjdlT1FyUWxHdmNLb0JIcGhwUldmaUhnelVYYnZiaGRYZnBoeVNaU0JSRFFqaU5MckZBUTFJR0Jyc0lZVURKMGtSN1Nv?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-12</span>
+      </div></a></li>
       <li><a href="https://www.qbitai.com/2026/09/486436.html" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果</span>
         <span class="row-desc">market_signal · 9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行</span>
@@ -225,11 +279,6 @@
         <span class="row-name">mhacevedo.com</span>
         <span class="row-desc">market_signal</span>
         <span class="row-tail">2026-09-09</span>
-      </div></a></li>
-      <li><a href="https://account.covermymeds.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">account.covermymeds.com</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://www.coveredca.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">coveredca.com</span>
@@ -248,11 +297,6 @@
       </div></a></li>
       <li><a href="https://www.account.covermymeds.com/login" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">account.covermymeds.com</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://www.covers.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">covers.com</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -303,7 +347,7 @@
       </div></a></li>
       <li><a href="https://github.com/DavidCarliez/cover" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">cover</span>
-        <span class="row-desc">开源信息 · cover 是一个开源的可逆隐私代理，面向调用外部 AI 代理的开发者。开发者在把真实数据交给 cover 后，cover 会向外部 AI 代理发送逼真的假数据，并在本地恢复原始结果。它解决的是开发者担心敏感数据泄露给第三方 AI 服务的问题，但具体工作流程和交付形式仍需进一步核验。</span>
+        <span class="row-desc">开源信息 · 开发者在把用户数据交给外部大模型前，先用它把姓名、地址等敏感字段替换成逼真假值，模型只看到假数据；返回结果在本地再还原成真实值，人工仍需确认还原映射是否完整。具体支持的字段类型与部署方式仍待核验。</span>
         <span class="row-tail">2026-08-22</span>
       </div></a></li>
     </ul>
@@ -345,7 +389,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 165 个 →
+        基础层 共 168 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -397,9 +441,9 @@
         <span class="pager-n">SubSmith</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/ryuumonbuchi.html">
+      <a class="pager-item pager-next" href="../p/design-os-3d-blender.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">Ryuumonbuchi</span>
+        <span class="pager-n">design-os-3d-blender</span>
       </a>
     </div>
   </nav>
@@ -437,8 +481,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1458 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-12</span>
+    <span>1484 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-13</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

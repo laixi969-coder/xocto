@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-01</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-13</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者需要发现和选择 DeepSeek Harness 的插件、技能和工具。</p>
-        <p>公开材料未说明用户当前如何发现插件，可能通过搜索或社区推荐，但尚未核验。</p>
-        <p>插件生态分散，难以发现，但公开材料未说明具体痛点强度或不采用代价。</p>
+        <p class="product-lead">DeepSeek Harness（DSH）用户——主要是自建助手工作流的开发者——在需要给助手加可视化、PPT、编码、Agent、自动研究循环等能力时，面对散落在 dsh-external/hub 与 dsh-plugin 话题下的插件、技能、MCP server、patch/profile 层与编排器，要快速找到可用条目并判断用途，再决定装哪一个。</p>
+        <p>当前替代方式是直接在 公开代码仓库 搜索 dsh-plugin 话题、翻 dsh-external/hub 列表，或靠社区聊天与个人书签零散记录；没有按用途归类的单一入口。</p>
+        <p>DSH 生态的扩展分散在 hub 与话题标签下，命名与用途不统一，用户要逐个仓库翻 README 才能判断某个插件是可视化还是自动研究循环；不解决就要在选型上反复试错，装错插件后还要回退配置。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>仓库有 205 个收藏，说明开发者关注，但持续使用和付费尚未核验。</p>
+        <p>推断：相较逐个仓库翻 README，该清单把插件、技能、MCP server、编排器按 Visualization、PPT、Coding、Agents、Loops 等用途分组，用户可先按任务类别定位候选再点进仓库，省掉在话题页逐条筛选这一步；因此正在搭 DSH 工作流、需要快速补齐某类能力的开发者会在选型阶段先查它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。仓库有 205 个收藏，说明开发者关注，但持续使用和付费尚未核验。</p>
+        <p><strong>值得试用</strong>。推断：相较逐个仓库翻 README，该清单把插件、技能、MCP server、编排器按 Visualization、PPT、Coding、Agents、Loops 等用途分组，用户可先按任务类别定位候选再点进仓库，省掉在话题页逐条筛选这一步；因此正在搭 DSH 工作流、需要快速补齐某类能力的开发者会在选型阶段先查它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -128,38 +128,41 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>把 DeepSeek 助手能装的插件按用途编成目录，一行一个、持续更新</p></div>
-        <div><span class="field-k">工作流推理</span><p>仓库有 205 个收藏，说明开发者关注，但持续使用和付费尚未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>查找该项目的 公开代码仓库 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决的是 DSH 用户在扩展生态里按用途找插件、判断装哪一个的需求；痛点是扩展分散在 hub 与话题标签、命名不统一，只能逐个翻 README，装错还要回退配置。清单按 Visualization、PPT、Coding、Agents、Loops 分组，交付物明确，属工作流结构推理，尚无用户反馈佐证。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较逐个仓库翻 README，该清单把插件、技能、MCP server、编排器按 Visualization、PPT、Coding、Agents、Loops 等用途分组，用户可先按任务类别定位候选再点进仓库，省掉在话题页逐条筛选这一步；因此正在搭 DSH 工作流、需要快速补齐某类能力的开发者会在选型阶段先查它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 issue 与 discussion，确认是否有用户报告按清单安装插件、以及条目失效或收录标准争议，作为持续使用与交付可信度的公开证据。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“把 DeepSeek 助手能装的插件按用途编成目录，一行一个、持续更新”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决的是 DSH 用户在扩展生态里按用途找插件、判断装哪一个的需求；痛点是扩展分散在 hub 与话题标签、命名不统一，只能逐个翻 README，装错还要回退配置。清单按 Visualization、PPT、Coding、Agents、Loops 分组，交付物明确，属工作流结构推理，尚无用户反馈佐证。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>仓库收藏数从 205 持续升至 217，说明有开发者持续关注并把它加入书签；但公开材料没有 issue、discussion 或评价说明谁在何种场景实际使用，关注度不等于已进入日常工作流，故只判初步成立。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/Dominic789654/awesome-deepseek-harness" target="_blank" rel="noopener">awesome-deepseek-harness · 2026-08-13 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>这是开源 awesome 清单，公开材料没有定价页、赞助、付费入口或企业采购记录，谁付钱、按什么单位收费都无从核验；判断上它更可能靠社区维护与生态曝光获得回报，而非直接向用户收费，这是判断不是已验证事实。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>清单本身交付确定（一行一条、持续更新），但公开材料未说明收录标准、条目是否经过可用性验证、失效链接如何处理，也没有维护者与更新节奏的公开记录，无法核验它能否长期保持可信。</p>
         </article>
       </div>
     </details>
@@ -308,7 +311,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 431 个 →
+        AI + 开发 共 438 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -400,8 +403,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1458 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-12</span>
+    <span>1484 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-13</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
