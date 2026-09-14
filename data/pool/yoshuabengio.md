@@ -21,7 +21,7 @@ canonical_url: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-c
 summary: Why are AI agents lying, cheating and coordinating?
 first_seen: '2026-09-13T01:22:31Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

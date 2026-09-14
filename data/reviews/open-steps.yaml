@@ -459,3 +459,55 @@
   usage_reason_en: 'Inference: instead of reading raw output, it converts agent artifacts into plain-language
     reports, verdicts and follow-up steps, removing the reconstruct-then-judge step, so people who work
     with coding agents and must explain changes to others would pick it during review or handoff.'
+- id: req-full-open-steps-2026-09-14
+  project_slug: open-steps
+  level: full
+  reviewed_at: '2026-09-14T00:34:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理输出难读、结论自评的问题：开发者审查 AI 改动时需还原改了什么、结论是否可信、下一步做什么。公开说明给出输入（代理输出）与交付（通俗报告、直接结论、可执行步骤），旧做法是逐段读日志或让代理自评，不解决则审查耗时且判断不可靠。属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-e1fcec6bcfc7dfca
+    - ev-45020d5dfbb80eae
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 283 增至 389，说明开源社区持续关注，但收藏与复刻属关注度证据，不能证明目标开发者已把它留在审查流程里；公开材料无 issue、discussion 或用户评价说明实际使用场景与重复使用。
+    evidence_ids:
+    - ev-e1fcec6bcfc7dfca
+    - ev-45020d5dfbb80eae
+  - gate: model
+    status: insufficient
+    reason: MIT 开源、无定价页，公开材料未说明买方是个人开发者、团队还是企业采购，也无付费或赞助路径；按判断而非已验证事实，最可能来自 to C 开发者自用或 to B 团队工具链，但均未核验。
+    evidence_ids:
+    - ev-e1fcec6bcfc7dfca
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺诚实报告与直接结论，但未提供可复现的部署文档、输出样例或人工边界说明，无法核验结论是否真独立于被审查的代理、以及交付能否稳定发生。
+    evidence_ids:
+    - ev-e1fcec6bcfc7dfca
+    - ev-2ef8b3895cb2bd71
+  next_validation: 追踪 open-steps 官方仓库的 README、issue 与 discussion，确认是否有开发者描述具体使用场景、替代的旧流程与重复使用记录。
+  market: ''
+  job: 开发者在用编码代理（如 Claude Code、Cursor 类工具）跑完一次代码修改或任务后，需要把代理输出的原始日志、diff 和结论转成自己能快速读懂、能照着执行的说明，再决定是否合并或继续下一步。
+  job_en: After a coding agent finishes a code change or task, developers need to turn the agent's raw
+    logs, diffs and conclusions into a readable, actionable summary they can follow before merging or
+    continuing.
+  pain: 编码代理的输出往往是长日志、片段式 diff 和自说自话的结论，开发者要花时间自己还原「它到底改了什么、结论是否可信、下一步做什么」；公开材料只给出产品定位，未提供用户抱怨或耗时数据，因此痛点强度属于工作流结构推理。
+  pain_en: Coding-agent output arrives as long logs, fragmented diffs and self-asserted conclusions, forcing
+    developers to reconstruct what changed, whether the verdict is trustworthy, and what to do next; public
+    materials give only the product positioning, not user complaints or time data, so pain intensity is
+    a workflow-structure inference.
+  current_alternative: 当前替代方式是开发者自己逐段读代理日志和 diff、在对话里追问代理、或依赖代理自带的总结；这些做法要么耗时，要么仍由代理自己评价自己。
+  current_alternative_en: Today developers read agent logs and diffs line by line, re-prompt the agent
+    for clarification, or rely on the agent's own built-in summary — either time-consuming or still letting
+    the agent grade its own work.
+  usage_reason: 推断：相较自己翻日志或让代理自评，open-steps 以技能形式把代理输出重写成通俗报告、直接结论和可执行步骤，减少「逐段还原改动」这一步，并让结论由独立环节给出而非代理自评；因此会在审查
+    AI 生成改动、需要向他人交代结果时被开发者选用。公开材料未提供用户反馈或留存证据，故这是基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: versus reading logs manually or letting the agent self-assess, open-steps
+    rewrites agent output into plain-language reports, straight verdicts and followable steps, removing
+    the step of reconstructing changes line by line and separating the verdict from the agent''s own self-report;
+    developers would pick it when reviewing AI-generated changes or explaining results to others. No user
+    feedback or retention evidence is public, so this is inferred from product capabilit'

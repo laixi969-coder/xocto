@@ -36,3 +36,90 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Helps a manager remember judgments
     about each report: what was said, what was seen, and how confidence changed. The exact adoption motive
     and repeat use are not yet verified.'
+- id: req-initial-continuum-2026-09-14
+  project_slug: continuum
+  level: initial
+  reviewed_at: '2026-09-14T00:13:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决管理者会前回忆下属信息的需求，痛点是信息分散易遗忘，旧做法是翻聊天记录与笔记，结构上成立。
+    evidence_ids:
+    - ev-1bc8b71ab98fc039
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，未说明管理者是否真的把它纳入日常流程，共识证据不足。
+    evidence_ids:
+    - ev-1bc8b71ab98fc039
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能向管理者个人或企业团队收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1bc8b71ab98fc039
+  - gate: truth
+    status: insufficient
+    reason: 人员信息涉及隐私与合规，公开材料未说明数据来源、权限与人工确认边界。
+    evidence_ids:
+    - ev-1bc8b71ab98fc039
+  next_validation: 收集 Continuum 官方产品页或定价页，确认它读取哪些数据源、输出什么交付物以及是否按席位收费。
+  market: ''
+  job: 团队管理者在准备一对一沟通、绩效回顾或跨周期跟进时，需要处理散落在聊天记录、文档与记忆中的下属项目进展、偏好和历史反馈，以形成可用的沟通要点。
+  job_en: A team manager preparing a one-on-one, a performance review or a cross-cycle follow-up must
+    work through a report's project progress, preferences and past feedback scattered across chat logs,
+    documents and memory to form usable talking points.
+  pain: 这些信息分散且随时间遗忘，管理者往往在会前临时翻找，容易遗漏承诺过的事项或重复问同一个问题。
+  pain_en: This information is scattered and fades over time, so managers scramble before meetings and
+    risk missing promised follow-ups or asking the same question twice.
+  current_alternative: 目前多靠管理者自己记笔记、翻聊天记录和文档，或使用通用笔记与 CRM 工具手工维护人员档案。
+  current_alternative_en: Today managers mostly keep their own notes, scroll back through chat and documents,
+    or manually maintain people records in generic note-taking or CRM tools.
+  usage_reason: 推断：若它能把分散的人员信息汇总成会前可直接查看的要点，就省掉了会前逐条翻找这一步，减少遗漏；但公开材料未说明输入方式与输出形态，也缺少留存或复购证据，因此该判断仍属工作流推理。
+  usage_reason_en: 'Inference: if it consolidates scattered people information into pre-meeting talking
+    points, it removes the step of hunting through records one by one and reduces omissions; however the
+    public material does not describe inputs or outputs and shows no retention or repeat-use evidence,
+    so this remains workflow reasoning.'
+- id: req-full-continuum-2026-09-14
+  project_slug: continuum
+  level: full
+  reviewed_at: '2026-09-14T00:33:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名电视剧、神经病学 CME 期刊与通用 AI 助手，未出现该产品自身的功能、输入输出或用户痛点描述，连它解决什么需求、什么痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-2b0d6e0d5437cf23
+    - ev-88903674d60a59ea
+    - ev-92c1b595b28441ea
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Continuum 官方产品页或定价页，确认其读取的数据源、生成的交付物及是否按席位收费。
+  market: ''
+  job: 团队管理者在准备一对一沟通、绩效回顾或跨周期跟进时，需要处理散落在聊天记录、文档与记忆中的下属项目进展、偏好和历史反馈，以形成可用的沟通要点。
+  job_en: A team manager preparing a one-on-one, a performance review or a cross-cycle follow-up must
+    work through a report's project progress, preferences and past feedback scattered across chat logs,
+    documents and memory to form usable talking points.
+  pain: 公开材料未提供任何关于该产品用户痛点的证据；现有证据全部指向同名电视剧、神经病学 CME 期刊及通用 AI 助手，无法确认管理者在会前回忆下属信息时存在何种具体痛点。
+  pain_en: The public material provides no evidence about this product's user pain; all available evidence
+    points to a same-named TV series, a neurology CME journal and generic AI assistants, so no specific
+    pain for managers recalling report information can be confirmed.
+  current_alternative: 公开材料未披露该产品所替代的旧做法；无法确认管理者目前是用笔记、聊天记录还是其他工具完成这一任务。
+  current_alternative_en: The public material does not disclose the old practice this product replaces;
+    it cannot be confirmed whether managers currently use notes, chat logs or other tools for this task.
+  usage_reason: 公开材料未说明该产品读取什么数据、生成什么交付物或如何减少哪一步负担，因此无法解释用户为何会选择它；现有证据不支持任何使用理由。
+  usage_reason_en: The public material does not describe what data the product reads, what deliverable
+    it produces, or which step it reduces, so no reason for users to choose it can be explained; the available
+    evidence supports no usage reason.

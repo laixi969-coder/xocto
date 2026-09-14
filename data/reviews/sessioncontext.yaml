@@ -1,0 +1,83 @@
+- id: req-initial-sessioncontext-2026-09-14
+  project_slug: sessioncontext
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句产品口号，价值关无法判断。
+    evidence_ids:
+    - ev-fe93ecaa779253e4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有少量社区讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-fe93ecaa779253e4
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未说明买方与付费路径。
+    evidence_ids:
+    - ev-fe93ecaa779253e4
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-fe93ecaa779253e4
+  next_validation: 收集该产品官方页面或文档中对输入材料、执行动作与输出交付的完整说明。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The public material does not state who uses it, in what situation, with what material, or to
+    complete what task, so no concrete usage scenario can be reconstructed.
+  pain: 只能推断网页追踪信息对非技术用户难以理解，但没有任何用户抱怨、替代做法或采用行为被提供，痛点强度无法确认。
+  pain_en: It can only be inferred that web tracking information is hard for non-technical users to understand,
+    but no user complaint, workaround or adoption behaviour is provided, so pain intensity cannot be confirmed.
+  current_alternative: 公开材料未提及现有替代方式，无法说明用户此前用什么办法完成同一件事。
+  current_alternative_en: The public material mentions no existing alternative, so it is impossible to
+    say what users previously did to accomplish the same task.
+  usage_reason: 缺少可核对的功能说明与交付描述，无法解释相较旧做法减少了哪一步负担，因此不能给出使用理由；这是事实不足，不是需求不成立。
+  usage_reason_en: With no verifiable feature or deliverable description, there is no way to explain which
+    step of the old process it removes, so no usage reason can be given; this is a lack of facts, not
+    a finding that demand does not exist.
+- id: req-full-sessioncontext-2026-09-14
+  project_slug: sessioncontext
+  level: full
+  reviewed_at: '2026-09-14T00:35:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句产品口号，价值关无法判断。
+    evidence_ids:
+    - ev-fe93ecaa779253e4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或文档中对输入材料、执行动作与输出交付的完整说明。
+  market: ''
+  job: 公开材料只有一句英文口号，未说明谁在什么情况下打开它、输入什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The public material offers only a one-line English tagline and does not state who opens it,
+    in what situation, with what input, or to complete what task, so no concrete usage scenario can be
+    reconstructed.
+  pain: 只能推断网页可采集的会话与追踪信息对非技术用户不透明，但没有任何用户抱怨、替代做法或采用行为被提供，痛点强度无法确认。
+  pain_en: It can only be inferred that session and tracking data a web page can collect is opaque to
+    non-technical users, but no user complaint, workaround or adoption behaviour is provided, so pain
+    intensity cannot be confirmed.
+  current_alternative: 公开材料未提及任何现有替代方式，无法说明用户此前用什么办法了解网页能获取哪些信息。
+  current_alternative_en: The public material mentions no existing alternative, so it is impossible to
+    say what users previously did to learn what a web page can collect about them.
+  usage_reason: 缺少可核对的功能说明与交付描述，无法解释相较旧做法减少了哪一步负担，因此不能给出使用理由；这是事实不足，不是需求不成立。
+  usage_reason_en: With no verifiable feature or deliverable description, there is no way to explain which
+    step of the old process it removes, so no usage reason can be given; this is a lack of facts, not
+    a finding that demand does not exist.

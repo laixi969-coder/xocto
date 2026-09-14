@@ -21,7 +21,7 @@ canonical_url: https://github.com/Websites-On-Computers/fleecevest
 summary: The Product Counterpart to Ponytail
 first_seen: '2026-09-13T00:36:40Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

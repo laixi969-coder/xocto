@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/ev-601
 summary: On the economy, Navier–Stokes & safety concerns
 first_seen: '2026-09-13T09:35:42Z'
 last_seen: '2026-09-14T00:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

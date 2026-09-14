@@ -121,3 +121,46 @@
   usage_reason_en: 'Inference: if these skills fix prompts and parameters into repeatable steps, creators
     would avoid rebuilding them each time; however, no adoption, reuse or output evidence is public, so
     it cannot be confirmed that it stays in any workflow and the choice rationale does not hold.'
+- id: req-full-reelbench-skills-2026-09-14
+  project_slug: reelbench-skills
+  level: full
+  reviewed_at: '2026-09-14T00:35:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 AI 视频流程中提示词与参数零散的问题，但公开材料只有一句定位描述，说不清具体用户任务、痛点强度与不采用的后果；学习笔记类资料属于没有也行，价值关不成立。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+    - ev-7a7b3f54bf323eb1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion 的公开更新，确认它实际替代的视频制作步骤、产出物与是否出现复用或客户反馈。
+  market: ''
+  job: 视频创作者与剪辑师在准备 AI 视频生成或后期流程时，把散落的提示词、模型参数与工具调用步骤整理成可复用的操作资料，用于下一次生成或剪辑。
+  job_en: Video creators and editors preparing an AI video generation or post-production workflow, organizing
+    scattered prompts, model parameters and tool-call steps into reusable operational material for the
+    next generation or edit.
+  pain: 公开材料只给出定位描述（学习笔记与工具 skill），没有说明创作者原本卡在哪一步、重复劳动有多频繁、不解决会损失什么；痛点强度无法从公开事实还原。
+  pain_en: The public material only gives a positioning statement (learning notes and tooling skills);
+    it does not say which step creators were stuck on, how frequent the rework is, or what is lost if
+    unsolved, so pain intensity cannot be reconstructed from public facts.
+  current_alternative: 创作者自行收集提示词、看教程、在多个 AI 视频工具间手动搬运参数，或直接沿用模型官方文档与社区帖子。
+  current_alternative_en: Creators collect prompts themselves, watch tutorials, manually move parameters
+    between AI video tools, or simply reuse model vendor docs and community posts.
+  usage_reason: 推断：若这些 skill 能把提示词与参数固化为可重复调用的步骤，创作者可省去每次从零拼装；但公开材料只有仓库定位与星数，没有任何采用、复用或客户反馈证据，无法说明哪类用户会因此选择它而非现成教程。
+  usage_reason_en: 'Inference: if these skills fix prompts and parameters into repeatable steps, creators
+    could skip rebuilding them each time; but the public material only has a repo positioning line and
+    star counts, with no adoption, reuse or customer feedback evidence, so it cannot explain which users
+    would choose it over existing tutorials.'

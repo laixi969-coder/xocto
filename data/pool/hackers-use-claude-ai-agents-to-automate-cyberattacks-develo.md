@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVFabnJYYkY5
 summary: Hackers Use Claude AI Agents to Automate Cyberattacks, Develop 0-Days and Evade Detection CyberSecurityNews
 first_seen: '2026-09-12T03:15:48Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

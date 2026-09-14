@@ -252,3 +252,58 @@
   usage_reason: 用户要完成的任务是：测试工程师、开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Test Engineers, Developers Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-jmeter-mcp-server-2026-09-14
+  project_slug: jmeter-mcp-server
+  level: full
+  reviewed_at: '2026-09-14T00:33:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是性能测试脚本从零搭建与结果解读的重复劳动：.jmx 为 XML，手工配置线程组、断言、监听器繁琐，跑完还要翻报告找响应时间与错误率。公开仓库说明其输入为测试计划、动作为构建并运行、交付为可运行脚本与报告，旧替代是
+      JMeter GUI 手工配置，属工作流结构推理。
+    evidence_ids:
+    - ev-c4d49c15967f4108
+    - ev-53149b16264caa01
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 63 增至 85，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或用户评价说明谁在何种场景持续使用，关注度不能等同于采用共识。
+    evidence_ids:
+    - ev-c4d49c15967f4108
+    - ev-53149b16264caa01
+  - gate: model
+    status: insufficient
+    reason: 这是开源 MCP 服务器，公开材料未见定价页、付费版本或企业采购记录，谁付钱尚不清楚；按判断，最可能来自 to B 团队自建或 to VC 的开源影响力路径，但均非已验证事实。
+    evidence_ids:
+    - ev-c4d49c15967f4108
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只覆盖构建、运行与读取报告，未披露生成计划是否可复现、JMeter 版本兼容范围以及压测对目标环境的授权与安全边界，交付确定性尚缺可核对材料。
+    evidence_ids:
+    - ev-c4d49c15967f4108
+    - ev-53149b16264caa01
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开描述实际压测场景、JMeter 版本兼容范围与生成计划的复现结果。
+  market: ''
+  job: 性能测试工程师或后端开发者在需要为某个接口或服务编写 JMeter 压测计划时，把接口定义、目标并发量和断言要求交给 AI 助手，由 MCP 服务器生成 .jmx 测试计划、调用 JMeter
+    执行，并读取聚合报告，最终交付可运行的脚本与结果摘要。
+  job_en: A performance test engineer or backend developer, when needing a JMeter load-test plan for an
+    API or service, hands the endpoint definition, target concurrency and assertions to an AI assistant;
+    the MCP server builds the .jmx plan, runs JMeter, and reads the aggregate report, delivering a runnable
+    script plus a result summary.
+  pain: JMeter 的 .jmx 是 XML 结构，手工编写或改线程组、取样器、断言、监听器繁琐且易错；跑完还要在 GUI 或 HTML 报告里翻找响应时间与错误率，重复劳动集中在脚本搭建和结果解读两步。
+  pain_en: 'JMeter .jmx files are XML: hand-editing thread groups, samplers, assertions and listeners
+    is tedious and error-prone, and after a run the response times and error rates must still be dug out
+    of the GUI or HTML report, so effort concentrates in plan authoring and result interpretation.'
+  current_alternative: 现状是人工在 JMeter GUI 里点选配置测试计划，或复制旧 .jmx 改参数，再手动执行命令行并打开报告；部分团队用脚本模板或 CI 里的 JMeter
+    插件替代，但生成与解读仍靠人。
+  current_alternative_en: Today users configure plans by hand in the JMeter GUI, copy an old .jmx and
+    edit parameters, then run the CLI and open the report manually; some teams use script templates or
+    JMeter plugins in CI, but authoring and interpretation remain manual.
+  usage_reason: 推断：相较手工点选 GUI 或改旧脚本，该服务器把“生成计划—执行—读报告”三步收进 AI 助手的一次对话，用户不必在 JMeter 界面与报告文件之间切换，也不必逐项填写
+    XML 元素；因此已在用 AI 编码助手、且需要频繁产出压测脚本的测试工程师会在快速起草或迭代场景时选择它，但仍需人工确认场景合理性。
+  usage_reason_en: 'Inference: versus clicking through the GUI or editing an old script, the server folds
+    plan generation, execution and report reading into one assistant conversation, so the user no longer
+    switches between the JMeter UI and report files or fills in XML elements one by one; test engineers
+    already using AI coding assistants and producing load scripts frequently would pick it for fast drafting
+    or iteration, while still confirming scenario validity by hand.'

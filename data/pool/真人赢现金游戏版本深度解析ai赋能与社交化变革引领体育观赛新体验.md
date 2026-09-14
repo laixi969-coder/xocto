@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE82Ui1FN1FjYVds
 summary: 真人赢现金游戏版本深度解析：AI赋能与社交化变革引领体育观赛新体验 体坛加
 first_seen: '2026-09-12T08:50:11Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

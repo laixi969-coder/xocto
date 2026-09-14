@@ -1,0 +1,85 @@
+- id: req-initial-analyst-index-2026-09-14
+  project_slug: analyst-index
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是荐股历史不透明、跟错人亏钱的问题，痛点真实；但材料只有一句自述，连收录对象和交付形式都写不出，价值结构无法还原。
+    evidence_ids:
+    - ev-9e777d1ccf2b2690
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅14点7评论，属于小范围关注，不能说明投资者已把它当作判断依据。
+    evidence_ids:
+    - ev-9e777d1ccf2b2690
+  - gate: model
+    status: insufficient
+    reason: 未披露任何定价、买方或收费方式；向个人订阅、向券商或投研机构卖数据都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-9e777d1ccf2b2690
+  - gate: truth
+    status: insufficient
+    reason: 无法核对数据来源、更新频率与是否覆盖真实喊单记录，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-9e777d1ccf2b2690
+  next_validation: 收集 Analyst Index 官方页面或文档中关于数据来源、覆盖分析师名单与更新频率的公开说明。
+  market: ''
+  job: 个人投资者在决定跟随某位分析师的荐股前，需要核对该分析师过去的喊单记录与实际结果，以判断是否值得参考。
+  job_en: Before deciding to follow an analyst's stock picks, an individual investor needs to check that
+    analyst's past calls against actual outcomes to judge whether the advice is worth using.
+  pain: 荐股内容大量存在但历史命中率不透明，投资者只能凭印象或营销话术判断，跟错人的代价是真实亏损。
+  pain_en: Stock-call content is abundant but historical hit rates are opaque, so investors judge by impression
+    or marketing, and following the wrong person costs real money.
+  current_alternative: 手动搜索分析师过往发言、看社交平台截图、依赖券商研报或付费荐股群。
+  current_alternative_en: Manually searching an analyst's past statements, reading social-media screenshots,
+    or relying on brokerage research and paid stock-tip groups.
+  usage_reason: 推断：如果索引真能给出可核对的喊单历史与结果对照，投资者就不必逐条翻找旧发言，在决定是否跟单前多一道可核验的检查；但候选材料只有一句自述，没有说明数据来源、覆盖范围或交付形式，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if the index really provides checkable call history against outcomes, investors
+    would not have to dig through old posts one by one and would gain a verifiable check before following
+    a call. But the candidate material is a single self-description with no data source, coverage or deliverable,
+    so it cannot be confirmed that this step is actually reduced.'
+- id: req-full-analyst-index-2026-09-14
+  project_slug: analyst-index
+  level: full
+  reviewed_at: '2026-09-14T00:32:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决荐股历史不透明、跟错人亏钱的问题，但材料只有一句自述，收录对象、数据来源与交付形式均未说明，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-6a4f273c19ee50e2
+    - ev-d839fc9fb0740c3e
+    - ev-fb2be43f10959079
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Analyst Index 官方页面或文档中关于收录分析师名单、数据来源与更新频率的公开说明。
+  market: ''
+  job: 个人投资者在决定是否跟随某位分析师的荐股建议前，需要核对该分析师过去的喊单记录与实际结果，以判断其建议是否值得参考。
+  job_en: Before deciding whether to follow an analyst's stock picks, an individual investor needs to
+    check that analyst's past calls against actual outcomes to judge whether the advice is worth using.
+  pain: 公开材料只有一句自述，未说明收录哪些分析师、用什么数据、多久更新、交付什么形式；连痛点是否真实存在都无法从证据还原。
+  pain_en: The public material is a single self-description with no stated analyst coverage, data source,
+    update cadence or deliverable form, so even whether the pain is real cannot be reconstructed from
+    evidence.
+  current_alternative: 公开证据未提供任何关于投资者当前如何绕过这一问题的可引用事实。
+  current_alternative_en: The public evidence provides no citable fact about how investors currently work
+    around this problem.
+  usage_reason: 无法判断：候选材料没有说明数据来源、覆盖范围或交付形式，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the candidate material states no data source, coverage or deliverable,
+    so it cannot explain which step is reduced versus the old approach or which users would choose it
+    under what circumstances.'

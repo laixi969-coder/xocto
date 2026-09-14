@@ -1,6 +1,6 @@
 ---
 slug: lam-research-lifts-2026-wfe-outlook-as-ai-demand-strains-fab
-name: Lam Research Lifts 2026 WFE Outlook as AI Demand Strains Fab Capacity
+name: Lam Research
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaUduZ2xwWlVE
 summary: Lam Research Lifts 2026 WFE Outlook as AI Demand Strains Fab Capacity MarketBeat
 first_seen: '2026-09-11T18:05:03Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Lam Research Lifts 2026 WFE Outlook as AI Demand Strains Fab Capacity
+# Lam Research
 
 Lam Research Lifts 2026 WFE Outlook as AI Demand Strains Fab Capacity MarketBeat
 

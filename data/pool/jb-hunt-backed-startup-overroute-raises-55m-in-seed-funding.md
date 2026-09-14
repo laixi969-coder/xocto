@@ -1,6 +1,6 @@
 ---
 slug: jb-hunt-backed-startup-overroute-raises-55m-in-seed-funding
-name: J.B. Hunt-Backed Startup Overroute Raises $5.5M in Seed Funding
+name: Overroute
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOdEYtd0tVVGM2
 summary: J.B. Hunt-Backed Startup Overroute Raises $5.5M in Seed Funding Arkansas Business
 first_seen: '2026-09-11T12:11:48Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# J.B. Hunt-Backed Startup Overroute Raises $5.5M in Seed Funding
+# Overroute
 
 J.B. Hunt-Backed Startup Overroute Raises $5.5M in Seed Funding Arkansas Business
 

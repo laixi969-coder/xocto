@@ -357,3 +357,63 @@
     runtime detection, in-place DSH updates and plugin modification into one standalone window, removing
     configuration and upgrade steps, so developers who do not want to maintain an environment and just
     want to double-click into AI collaboration would choose it for local DSH projects.'
+- id: req-full-dsh-desktop-2-2026-09-14
+  project_slug: dsh-desktop-2
+  level: full
+  reviewed_at: '2026-09-14T00:33:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 DSH 本地 Web UI、Host 与插件系统从终端加浏览器搬进双击即用桌面窗口的需求，痛点是环境配置与手动启动的摩擦；仓库自述免终端、免浏览器、内置环境探测与就地更新，交付物为本地工作成果，属工作流结构推理，公开材料尚无用户抱怨原文。
+    evidence_ids:
+    - ev-9de7dbb6547d32ed
+    - ev-a6d8d570355da5fb
+    - ev-d729da856b6842ba
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 636 星，同类 DSH-Desktop 仓库从 51 星增至 61 星，说明开发者已注意到并可能试用；但未见 issue、discussion 或评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-9de7dbb6547d32ed
+    - ev-a6d8d570355da5fb
+    - ev-4c3aeab97af64d82
+  - gate: model
+    status: insufficient
+    reason: 仓库自述为独立社区开源项目，与深度求索无隶属、合作、授权或背书关系，公开材料未见定价页、付费主体或采购记录；开源免费下载是当前唯一可见分发路径，谁付钱属判断而非已验证事实。
+    evidence_ids:
+    - ev-d729da856b6842ba
+    - ev-c192cdcd8cd84faa
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明支持插件改造、载荷可裁至 210 MB、便携包 74.8 MB，并内置运行环境探测与 DSH 就地更新，交付路径可核对；但未见可复现的安装结果、失败率或安全与人工边界说明，确定性交付仍待公开验证。
+    evidence_ids:
+    - ev-a6d8d570355da5fb
+    - ev-4c3aeab97af64d82
+  next_validation: 追踪 anywhere-labs/dsh-desktop 与 vibeinging/dsh-desktop 仓库的 issue、discussion 与 release
+    说明，确认用户报告的安装失败、环境探测结果与持续使用情形。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者与 AI 工程师，在本地机器上处理 DSH 会话、项目文件、网页研究材料与 Office 文档时，需要把原本跑在终端和浏览器里的本地 Web
+    UI、Host 服务与插件系统整合进一个可双击启动的桌面窗口，完成 AI 协作并产出本地工作成果。
+  job_en: Developers and AI engineers using DeepSeek Harness need to run DSH sessions, project files,
+    web research material and Office artifacts on their local machine, consolidating the local Web UI,
+    Host service and plugin system that otherwise live in a terminal and browser into one double-click
+    desktop window that produces local work output.
+  pain: 公开仓库说明其价值在于免终端、免浏览器、双击即用，并内置运行环境探测与 DSH 就地更新，说明旧路径需要用户自行配置运行环境、手动启动 Host 与 Web UI、在浏览器与终端之间切换，环境不匹配或版本落后时还要手工排查更新；这是工作流结构推理，公开材料未给出用户抱怨原文或故障频率。
+  pain_en: The public repository frames its value as no terminal, no browser, double-click to run, with
+    built-in runtime detection and in-place DSH updates, implying the old path requires users to configure
+    the runtime themselves, manually start the Host and Web UI, switch between browser and terminal, and
+    hand-fix mismatches or stale versions; this is workflow-structural inference, as no verbatim user
+    complaints or failure frequency are published.
+  current_alternative: 当前替代方式是直接使用 DeepSeek Harness 自带的本地 Web UI 与 Host 服务，在终端启动、浏览器访问，并自行管理运行环境与版本更新；仓库自述正是把这三部分集成进原生桌面应用，属于对旧流程的替代性封装。
+  current_alternative_en: The current alternative is using DeepSeek Harness's own local Web UI and Host
+    service directly, launching from a terminal, accessing via browser, and managing the runtime and updates
+    by hand; the repository describes itself as integrating exactly these three parts into a native desktop
+    app, i.e. a replacement wrapper over the old flow.
+  usage_reason: 推断：相较终端加浏览器的旧做法，它把启动、环境探测与 DSH 更新收进一次双击，并允许把载荷裁到 210 MB（便携包 74.8 MB），减少的是配置运行环境和手动启动服务这两步负担；因此不熟悉终端配置、或需要在多台机器上快速起一个可用
+    DSH 工作区的开发者，会在本地搭建或迁移环境时选择它。仓库 636 星与 51–61 星的同类仓库说明存在关注，但公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus the terminal-plus-browser routine, it folds launch, runtime detection
+    and DSH updates into one double-click and allows trimming the payload to 210 MB (74.8 MB portable),
+    removing the steps of configuring the runtime and manually starting services; developers unfamiliar
+    with terminal setup, or needing a working DSH workspace quickly on multiple machines, would therefore
+    pick it when setting up or migrating a local environment. The 636-star repo and the 51–61-'

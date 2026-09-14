@@ -1,0 +1,87 @@
+- id: req-initial-visiby-2026-09-14
+  project_slug: visiby
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是品牌在 AI 回答里是否被提及的问题，但公开材料只有一句功能描述，说不清旧流程卡在哪一步。
+    evidence_ids:
+    - ev-2f3a87908e47f5f6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页，没有用户评价、采用记录或客户案例，无法判断是否有人真的把它纳入内容复盘。
+    evidence_ids:
+    - ev-2f3a87908e47f5f6
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径信息，买方是品牌方还是代理公司无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2f3a87908e47f5f6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对报告指标是否可复现，也没有说明人工确认边界。
+    evidence_ids:
+    - ev-2f3a87908e47f5f6
+  next_validation: 收集该产品官方页面或文档中关于监测范围、指标口径与定价的说明。
+  market: ''
+  job: 品牌或增长营销人员在内容投放后，需要确认自家品牌是否出现在 AI 搜索的回答里，并据此决定改哪部分内容。
+  job_en: A brand or growth marketer, after publishing content, needs to confirm whether their brand appears
+    in AI search answers and decide which content to revise.
+  pain: 公开材料只有一句“追踪并提升 AI 搜索中的可见度”，没有说明旧做法具体卡在哪一步，也没有用户抱怨或替代行为的记录。
+  pain_en: The public material only says 'track and grow your visibility across AI search'; it does not
+    show which step of the old process hurts, and no user complaints or workaround records are provided.
+  current_alternative: 推断：此前多靠人工在几个 AI 助手里逐个提问、截图记录，或沿用传统 SEO 排名工具。
+  current_alternative_en: 'Inference: previously done by manually querying several AI assistants, screenshotting
+    results, or continuing to rely on traditional SEO rank tools.'
+  usage_reason: 推断：若它把分散在多个 AI 回答里的品牌提及自动汇总成一份报告，就省掉逐个提问和手工记录这一步，做内容投放的营销人员会在复盘时选择它；但公开材料未说明监测范围与指标，无法确认这一步是否真的被减少。
+  usage_reason_en: 'Inference: if it automatically aggregates brand mentions scattered across multiple
+    AI answers into one report, it removes the step of querying one by one and logging manually; marketers
+    running content would pick it during review. But the public material does not state coverage or metrics,
+    so the reduction is unconfirmed.'
+- id: req-full-visiby-2026-09-14
+  project_slug: visiby
+  level: full
+  reviewed_at: '2026-09-14T00:35:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在 AI 搜索回答中是否被提及的确认需求，痛点是生成式回答不稳定、传统 SEO 工具不覆盖，不检查就无法判断内容在 AI 渠道是否失效；公开材料仅一句功能描述，旧流程细节属工作流结构推理。
+    evidence_ids:
+    - ev-2f3a87908e47f5f6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句功能描述，没有用户评价、采用记录或客户案例，无法判断营销人员是否真的把它纳入内容复盘流程。
+    evidence_ids:
+    - ev-2f3a87908e47f5f6
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径信息，买方是品牌方、代理公司还是自助订阅者无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2f3a87908e47f5f6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对报告指标是否可复现，也未说明监测覆盖哪些 AI 搜索及人工确认边界，交付确定性尚未公开。
+    evidence_ids:
+    - ev-2f3a87908e47f5f6
+  next_validation: 追踪 Visiby 官方页面或文档中关于监测覆盖的 AI 搜索范围、指标口径与定价的公开说明。
+  market: ''
+  job: 品牌或增长营销人员、内容与 SEO 运营在内容投放后，需要检查自家品牌是否被各家 AI 搜索的回答提及，并据此决定改哪部分内容。
+  job_en: Brand/growth marketers and content-SEO operators, after publishing content, need to check whether
+    their brand is mentioned in AI search answers and decide which content to revise.
+  pain: AI 搜索回答由模型生成、每次结果不稳定，品牌方无法像看传统搜索排名那样一眼确认自己是否被提及；不检查就不知道内容在 AI 渠道是否失效，只能凭感觉判断。
+  pain_en: AI search answers are model-generated and unstable, so brands cannot confirm mention status
+    the way they read traditional search rankings; without checking they cannot tell whether content is
+    failing on AI channels.
+  current_alternative: 推断：人工在多个 AI 助手里逐个提问、截图记录，或沿用传统 SEO 排名工具，但这些工具不覆盖生成式回答中的品牌提及。
+  current_alternative_en: 'Inference: manually querying several AI assistants and screenshotting results,
+    or continuing with traditional SEO rank tools that do not cover brand mentions in generative answers.'
+  usage_reason: 推断：相较逐个提问加手工记录，它把分散在多个 AI 回答里的品牌提及自动汇总成一份可见度报告，省掉逐条查询与人工整理这一步，因此做内容复盘的营销人员会在投放后选择它；公开材料未说明监测范围与指标口径，这一步是否真被减少仍属推断。
+  usage_reason_en: 'Inference: versus querying one by one and logging manually, it aggregates brand mentions
+    scattered across AI answers into one visibility report, removing the per-query and manual-tally step,
+    so marketers doing content review would pick it post-publish; coverage and metric definitions are
+    undisclosed, so the reduction remains an inference.'

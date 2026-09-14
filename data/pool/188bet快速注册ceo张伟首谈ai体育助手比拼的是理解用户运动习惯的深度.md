@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE9TTlRTWDAwN3pq
 summary: 188bet快速注册CEO张伟首谈AI体育助手：比拼的是理解用户运动习惯的深度 体坛加
 first_seen: '2026-09-12T15:00:21Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

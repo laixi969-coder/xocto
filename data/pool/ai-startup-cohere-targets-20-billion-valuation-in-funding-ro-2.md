@@ -1,6 +1,6 @@
 ---
 slug: ai-startup-cohere-targets-20-billion-valuation-in-funding-ro-2
-name: AI Startup Cohere Targets $20 Billion Valuation in Funding Round
+name: Cohere
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUVowTmFXM1JY
 summary: AI Startup Cohere Targets $20 Billion Valuation in Funding Round PYMNTS.com
 first_seen: '2026-09-11T22:59:16Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Startup Cohere Targets $20 Billion Valuation in Funding Round
+# Cohere
 
 AI Startup Cohere Targets $20 Billion Valuation in Funding Round PYMNTS.com
 

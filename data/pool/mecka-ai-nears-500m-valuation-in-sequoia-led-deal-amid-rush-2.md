@@ -1,6 +1,6 @@
 ---
 slug: mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-2
-name: Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
+name: Mecka AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: The round for the two-year-old startup is coming together months after 
   A.
 first_seen: '2026-09-11T22:58:17Z'
 last_seen: '2026-09-14T00:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
+# Mecka AI
 
 The round for the two-year-old startup is coming together months after Mecka announced its Series A.
 

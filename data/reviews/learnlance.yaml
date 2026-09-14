@@ -1,0 +1,90 @@
+- id: req-initial-learnlance-2026-09-14
+  project_slug: learnlance
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 代写代码后开发者看不懂自己仓库的问题，痛点存在，但公开材料未说明图谱如何生成与交付，价值闭环不完整。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  - gate: consensus
+    status: insufficient
+    reason: 社区帖子仅 6 分 4 条评论，没有用户反馈说明它是否被纳入日常开发流程。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或企业采购路径，买方是谁属于推断。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  - gate: truth
+    status: insufficient
+    reason: 知识图谱若与真实代码语义不符，反而会误导理解，公开材料未提供准确性验证或人工确认环节。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  next_validation: 查看 learnlance 仓库的 README、issue 与 discussion，确认知识图谱的生成方式、准确性和是否有团队使用案例。
+  market: ''
+  job: 软件工程师在 AI 生成大量代码之后，需要回看这些代码涉及哪些概念和模块，以便自己理解、交接或补文档。
+  job_en: After AI generates a large volume of code, a software engineer needs to review which concepts
+    and modules it touches, in order to understand it, hand it over, or document it.
+  pain: AI 产出的代码量远超人工阅读速度，开发者容易只提交不理解，后续维护和交接时说不清改动依据。
+  pain_en: AI output outpaces human reading speed, so developers commit code they do not fully understand
+    and later cannot explain the changes during maintenance or handover.
+  current_alternative: 人工翻看 diff、依赖 IDE 搜索、写注释或事后补文档。
+  current_alternative_en: Manually reading diffs, relying on IDE search, writing comments, or documenting
+    after the fact.
+  usage_reason: 推断：把代码反向抽成知识图谱，省掉了逐文件人工梳理概念关系这一步，适合接手陌生仓库或需要向他人解释改动的工程师；但公开材料未说明图谱如何生成、是否准确，也无持续使用证据。
+  usage_reason_en: 'Inference: turning code back into a knowledge graph removes the manual step of tracing
+    concept relationships file by file, which suits engineers inheriting an unfamiliar repo or explaining
+    changes to others; yet how the graph is produced, whether it is accurate, and any sustained use remain
+    unverified.'
+- id: req-full-learnlance-2026-09-14
+  project_slug: learnlance
+  level: full
+  reviewed_at: '2026-09-14T00:34:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代写代码后开发者看不懂自己仓库、说不清改动依据的问题，痛点刚性来自维护与交接后果；旧替代是人工翻 diff 与 IDE 搜索，产品以代码反向抽图谱交付可浏览结构，属工作流结构推理，公开材料未给出抽取方式与准确性。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有项目自述一句话，没有用户反馈、采用范围或使用频次，无法判断是否形成共识；公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、企业采购或赞助路径，买方可能是个人开发者或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  - gate: truth
+    status: insufficient
+    reason: 知识图谱若与真实代码语义不符会误导理解，公开材料未提供准确性验证、人工确认环节或安全边界说明。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  next_validation: 追踪 learnlance 仓库的 README、issue 与 discussion，确认知识图谱的生成方式、准确性验证与是否有团队使用案例。
+  market: ''
+  job: 软件工程师在让 AI 生成大量代码之后，处理自己仓库里由 AI 产出的代码与提交记录，要完成的任务是回看这些代码涉及哪些概念、模块与依赖关系，以便自己理解、交接或补文档。
+  job_en: After letting AI generate large volumes of code, a software engineer works with the AI-produced
+    code and commits in their own repository to review which concepts, modules and dependencies it touches,
+    so they can understand it, hand it over, or document it.
+  pain: AI 产出的代码量远超人工阅读速度，开发者容易只提交不理解，后续维护、交接或补文档时说不清改动依据；公开材料仅以一句话描述该问题，缺少用户抱怨或工作流细节的直接证据。
+  pain_en: AI output outpaces human reading speed, so developers commit code they do not fully understand
+    and later cannot explain the changes during maintenance, handover or documentation; public material
+    describes this only in one line, lacking direct user complaints or workflow detail.
+  current_alternative: 人工翻看 diff、依赖 IDE 搜索与跳转、事后写注释或补文档，或干脆不梳理直接提交。
+  current_alternative_en: Manually reading diffs, relying on IDE search and jump-to-definition, writing
+    comments or docs after the fact, or simply committing without review.
+  usage_reason: 推断：相较逐文件人工翻 diff 与 IDE 搜索，learnlance 把 AI 产出的代码反向抽成可浏览的知识图谱，减少的是人工梳理概念与模块关系这一步；适合接手陌生仓库或需要向他人解释
+    AI 改动的工程师。但公开材料未说明图谱如何生成、是否准确，也无持续使用证据。
+  usage_reason_en: 'Inference: compared with reading diffs file by file and using IDE search, learnlance
+    turns AI-produced code back into a browsable knowledge graph, removing the manual step of tracing
+    concept and module relationships; it suits engineers inheriting an unfamiliar repo or explaining AI
+    changes to others. Yet how the graph is produced, whether it is accurate, and any sustained use remain
+    unverified.'

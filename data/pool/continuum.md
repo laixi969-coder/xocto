@@ -2,20 +2,29 @@
 slug: continuum
 name: Continuum
 builder: Chris Messina
-category: AI + 商业
-summary_zh: 帮管理者记下对每个下属的判断：说过什么、看到什么、信心怎么变
-inspiration: 趋势是「管人」从靠脑子记变成可追踪的判断账本。切入做带五到十人的一线经理：一对一前后记信号、改判断，按人订阅；客户管理和渠道招商是相邻切口。
-summary_en: 'Helps a manager remember judgments about each report: what was said, what was seen, and how
-  confidence changed.'
-inspiration_en: 'The trend is people-management leaving memory and becoming a tracked ledger of judgments.
-  The entry is line managers with five to ten reports: log signals around one-on-ones and revise the call,
-  billed per person. Client and channel work are next-door cuts.'
+category: AI + 效率
+summary_zh: 团队管理者在准备一对一沟通或绩效回顾时，需要回忆下属的项目进展、偏好与历史反馈，这些材料通常散落在聊天记录、文档和记忆里；Continuum 声称接收这些人员相关信息并帮助管理者记住，但公开材料未说明它具体读取什么、生成什么交付物，具体流程与交付仍待核验。
+inspiration: The trend is moving managerial knowledge out of the manager's head into a searchable personal
+  record; the entry point is replacing the five minutes spent scrolling chat history before a one-on-one,
+  potentially sold per team seat or per manager to smaller firms, though no price is disclosed and willingness
+  to pay cannot be assumed.
+summary_en: When preparing one-on-ones or performance reviews, team managers must recall a report's project
+  progress, preferences and past feedback, material usually scattered across chat logs, documents and
+  memory; Continuum claims to take in such people-related information and help managers remember it, but
+  the public material does not say what it reads or what it delivers, so the concrete flow and output
+  still need verification.
+inspiration_en: Validate sustained use in a real workflow before deciding whether the opportunity merits
+  investment.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 企业通用管理
+industries_en:
+- general enterprise management
+jobs:
+- 团队管理者
+jobs_en:
+- team managers
 regions: []
 regions_en: []
 open_source: false
@@ -24,7 +33,7 @@ canonical_url: https://producthunt.com/products/continuum-2027
 summary: Remember what you know about the people you manage
 first_seen: '2026-08-06T12:38:18Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - hackernews

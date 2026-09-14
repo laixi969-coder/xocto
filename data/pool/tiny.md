@@ -2,17 +2,31 @@
 slug: tiny
 name: tiny
 builder: zhangchen0411
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 独立顾问或自由职业者在需要找下一个客户时打开它，处理的对象是社交平台上的公开帖子和对话线索；AI 从中筛出可能的需求信号并给出可联系的线索，用户最终拿到一份候选客户名单，是否联系仍需自己判断。具体筛选口径与交付形式仍待核验。
+inspiration: 趋势：获客线索的筛选正从人工刷信息流，转向由 AI 在公开社交内容里识别需求信号。切入：可从独立顾问、设计或开发外包这类靠个人接单的人群进入，按成功线索或成单收费比按月订阅更贴近他们的现金流；公开材料未披露定价，不做假设。
+summary_en: An independent consultant or freelancer opens it when hunting for the next client, working
+  over public social posts and conversation threads; AI surfaces likely demand signals and returns candidate
+  leads, while the user still decides whom to contact. The exact filtering criteria and delivery format
+  remain unverified.
+inspiration_en: 'Trend: lead sourcing is shifting from manually scrolling feeds to AI reading public social
+  content for demand signals. Entry: start with solo consultants, designers or freelance developers who
+  win work one client at a time, and charge per qualified lead or closed deal rather than a seat subscription;
+  no public pricing is disclosed, so none is assumed.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 专业服务
+- 市场营销
+industries_en:
+- Professional services
+- Marketing
+jobs:
+- 独立顾问与自由职业者
+- 销售与商务拓展
+jobs_en:
+- Independent consultants and freelancers
+- Sales and business development
 regions: []
 regions_en: []
 open_source: false
@@ -21,7 +35,7 @@ canonical_url: https://tiny.opencreators.ai
 summary: Find your next client on X
 first_seen: '2026-09-10T02:18:33Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch

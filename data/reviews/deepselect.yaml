@@ -178,3 +178,55 @@
     and tuning top-k selection from scratch, so developers reproducing or deploying DeepSeek sparse-attention
     models would pick it at that step; public materials contain no user feedback or case confirming this
     motive.'
+- id: req-full-deepselect-2026-09-14
+  project_slug: deepselect
+  level: full
+  reviewed_at: '2026-09-14T00:33:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSA 稀疏注意力中 TopK 选择与采样的 GPU kernel 效率问题，痛点来自通用算子带来的额外开销，不解决会拖慢长上下文训练与推理；公开仓库说明其输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-6fb9b7965dea43c8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 235 增至 327，说明开发者关注度上升，但公开材料没有 issue、discussion 或部署案例证明目标用户已把它纳入工作流，关注度不等于持续采用。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-8be8c3374443b3ab
+    - ev-be06a30f1829fbf0
+  - gate: model
+    status: insufficient
+    reason: 这是 DeepSeek 官方开源仓库，未见定价页或商业收费路径；钱可能来自 DeepSeek 自身模型训练降本或生态影响力，而非直接向用户收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2f88068306de0570
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供 kernel 正确性、性能基准或与通用实现的对比数据，交付能否稳定发生、是否贴近第一性目标尚缺可复现证据。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-6fb9b7965dea43c8
+  next_validation: 追踪 DeepSelect 仓库的 README、benchmark 脚本与 issue/discussion，确认是否有公开的性能对比数据或下游项目引用记录。
+  market: ''
+  job: 训练或推理 DeepSeek 稀疏注意力（DSA）模型的工程师，在搭建或优化长上下文模型时，需要把 TopK 选择与采样这两步从通用实现换成针对 DSA 优化的 GPU kernel，以便在有限显存和算力下跑通训练与推理。
+  job_en: Engineers training or serving DeepSeek Sparse Attention (DSA) models need to replace generic
+    TopK selection and sampling steps with DSA-optimized GPU kernels so that long-context training and
+    inference fit within limited memory and compute.
+  pain: 稀疏注意力中的 TopK 选择与采样若用通用 PyTorch 算子实现，会带来额外的 kernel 启动、显存读写和同步开销，拖慢长上下文训练与推理；不解决则要么牺牲吞吐，要么被迫缩小上下文或模型规模。
+  pain_en: Generic PyTorch implementations of TopK selection and sampling in sparse attention add kernel-launch,
+    memory-traffic and synchronization overhead, slowing long-context training and inference; leaving
+    it unsolved forces either lower throughput or smaller context and model sizes.
+  current_alternative: 当前替代方式是直接用 PyTorch 通用算子或自行编写 CUDA/Triton kernel 实现 TopK 与采样，再手动调优；也可依赖 DeepSeek
+    官方模型代码中已有的实现。
+  current_alternative_en: The current alternative is using generic PyTorch operators or hand-writing CUDA/Triton
+    kernels for TopK and sampling and tuning them manually, or relying on whatever implementation already
+    ships in DeepSeek's model code.
+  usage_reason: 推断：相较自行编写和调优 kernel，DeepSelect 把 DSA 场景下的 TopK 与采样封装成可直接调用的 kernel，减少工程师从零实现与调优这一步；关注该仓库的开发者（收藏数从
+    235 增至 327）表明存在这类需求，但公开材料未提供基准数据或采用案例，因此持续使用仍属推断。
+  usage_reason_en: 'Inference: compared with writing and tuning kernels by hand, DeepSelect packages DSA-specific
+    TopK and sampling as callable kernels, removing the step of implementing and tuning from scratch;
+    the growing stars (235 to 327) suggest such demand exists, but public material offers no benchmarks
+    or adoption cases, so sustained use remains an inference.'

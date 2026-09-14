@@ -1,0 +1,87 @@
+- id: req-initial-second-brain-os-2026-09-14
+  project_slug: second-brain-os
+  level: initial
+  reviewed_at: '2026-09-14T00:12:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决笔记库长期无人整理、检索失效的问题，痛点真实但可绕过，公开材料未说明自动归类规则与人工确认边界。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，无用户评价或案例，无法判断知识工作者是否把整理这一步交给 agent。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式与买方，是自用配置还是可交付服务不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: truth
+    status: insufficient
+    reason: 自动整理是否贴近知识复用的第一性目标、错误归类由谁纠正，公开材料不足以核对。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  next_validation: 收集该仓库的 issue 与 discussion，确认自动归类规则、人工确认环节以及是否有用户报告长期使用。
+  market: ''
+  job: 咨询顾问、独立研究者在积累大量 Obsidian 笔记后，处理的是散乱未归类的笔记与资料，要完成一个能持续被检索和复用的知识库。
+  job_en: Consulting advisors and independent researchers with large Obsidian vaults deal with scattered,
+    unfiled notes and materials and need a knowledge base that stays searchable and reusable.
+  pain: 笔记越积越多，整理归类靠人定期手动做，一旦停下就变成无法检索的堆积；不整理的后果是写方案时找不到已有材料。
+  pain_en: Notes pile up and filing depends on periodic manual effort; once it stops, the vault becomes
+    unsearchable, and existing material cannot be found when writing a proposal.
+  current_alternative: 手动打标签、建文件夹，或干脆放弃整理只靠全文搜索。
+  current_alternative_en: Manual tags and folders, or giving up on structure and relying on full-text
+    search.
+  usage_reason: 推断：若 agent 能按既定规则自动归类新笔记，用户就省掉定期手动整理这一步，笔记量大的顾问和研究者会在写方案前依赖它；公开材料未给出持续使用或留存证据。
+  usage_reason_en: 'Inference: if the agent files new notes automatically under fixed rules, users skip
+    periodic manual tidying, and note-heavy consultants and researchers would rely on it before writing
+    proposals. No public evidence of sustained use or retention is given.'
+- id: req-full-second-brain-os-2026-09-14
+  project_slug: second-brain-os
+  level: full
+  reviewed_at: '2026-09-14T00:35:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决笔记库长期无人整理、检索失效的问题，痛点在于手动归档一旦停下材料就找不到；不整理的后果是重复劳动。公开材料给出指南、起始 vault、agent 技能与脚本，能还原输入—整理—交付闭环，属工作流结构推理，归类规则与人工确认边界未披露。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 59 星这一关注度指标，无用户评价、案例或讨论，无法判断知识工作者是否真把整理这一步交给 agent；关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式与买方，是自用配置还是可交付服务不明；可能走 to C 个人订阅或 to B 团队部署，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: truth
+    status: insufficient
+    reason: 自动整理是否贴近知识复用的第一性目标、错误归类由谁纠正、人工确认边界在哪，公开材料不足以核对，安全与人工边界未说明。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  next_validation: 追踪该仓库的 issue 与 discussion，确认自动归类规则、人工确认环节，以及是否有用户报告长期使用或留存。
+  market: ''
+  job: 咨询顾问、独立研究者在 Obsidian 中积累大量笔记与资料后，需要把散乱未归类的笔记持续整理成可检索、可复用的知识库，以便写方案或做研究时能调出已有材料。
+  job_en: Consulting advisors and independent researchers with large Obsidian vaults need to keep scattered,
+    unfiled notes organized into a searchable, reusable knowledge base so they can retrieve existing material
+    when writing proposals or doing research.
+  pain: 笔记越积越多，归类整理依赖人定期手动做，一旦停下就退化为无法检索的堆积；不整理的后果是写方案时找不到已有材料，重复劳动。
+  pain_en: Notes pile up and filing depends on periodic manual effort; once it stops, the vault degrades
+    into an unsearchable pile, and existing material cannot be found when writing a proposal, causing
+    duplicated work.
+  current_alternative: 手动打标签、建文件夹，或放弃结构只靠 Obsidian 全文搜索；也有人用零散脚本自行拼整理流程。
+  current_alternative_en: Manual tags and folders, or abandoning structure and relying on Obsidian full-text
+    search; some assemble ad-hoc scripts themselves.
+  usage_reason: 推断：相较手动整理或全文搜索，该产品用 agent 技能与脚本按既定规则自动归类新笔记，省掉定期手动归档这一步，笔记量大的顾问和研究者会在写方案前依赖它；公开材料未给出持续使用或留存证据。
+  usage_reason_en: 'Inference: compared with manual filing or full-text search, the product uses agent
+    skills and scripts to auto-file new notes under fixed rules, removing the periodic manual archiving
+    step; note-heavy consultants and researchers would rely on it before writing proposals. No public
+    evidence of sustained use or retention is given.'

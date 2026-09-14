@@ -22,7 +22,7 @@ summary: The absolute last chance to apply to host an official Side Event during
   is tonight, September 11, at 11:59 p.m. PT.
 first_seen: '2026-09-11T20:30:17Z'
 last_seen: '2026-09-14T00:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

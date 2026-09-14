@@ -177,3 +177,52 @@
     step of reverse-engineering steps from logs and rebuilding the environment, so an evaluation engineer
     doing regression checks on a real flow can re-run and verify results directly and would choose it
     for that job.'
+- id: req-full-trace2task-2026-09-14
+  project_slug: trace2task
+  level: full
+  reviewed_at: '2026-09-14T00:35:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 评测用例难构造、成功轨迹难复现的问题，痛点是回归验证刚性需求；旧做法是手写用例或重跑观察，不解决则行为漂移无法归因。此为工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-e6991e788b19d66c
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库星标从 42 增至 72，属关注度而非持续采用；无用户评价、issue 或团队部署记录，无法证明评测工程师已把它留在工作流里。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-e6991e788b19d66c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价页或付费路径，买方可能是自建 agent 的团队或平台方，这是判断而非已验证事实；无收入或采购证据。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明“把成功工作流转成可重置基准”这一动作，支持哪些记录格式、通过判定标准与人工边界均未披露，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-83d0b42e96c6fd1a
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它实际支持的 trace 格式、通过判定规则以及是否有团队公开描述用其做 agent 回归评测。
+  market: ''
+  job: AI 应用评测工程师在 agent 工作流跑通一次后，把该次操作记录（trace）交给 trace2task，转成可在干净环境重置并重复执行的评测任务，用于回归核对同一流程是否仍能通过。
+  job_en: An AI application evaluation engineer, after an agent workflow succeeds once, hands that run
+    record to trace2task so it becomes a resettable, repeatable evaluation task that can be re-run in
+    a clean environment to check the same workflow still passes.
+  pain: agent 行为随模型、提示词和工具版本变化而漂移，一次跑通的过程难以复现，评测用例靠人工手写成本高，导致回归验证滞后、失败无法归因。
+  pain_en: Agent behavior drifts with model, prompt and tool versions; a once-successful run is hard to
+    reproduce, and hand-writing evaluation cases is costly, so regression checks lag and failures cannot
+    be attributed.
+  current_alternative: 目前多靠人工手写评测用例、录制回放脚本或直接重跑 agent 观察输出，缺少从真实成功轨迹自动生成可重置任务的路径。
+  current_alternative_en: Today teams hand-write evaluation cases, build record-and-replay scripts, or
+    simply re-run the agent and eyeball output; there is no path that turns a real successful trace into
+    a resettable task.
+  usage_reason: 相较手写用例，它把一次已跑通的真实轨迹直接转成可重置、可重复执行的任务，省掉从零构造评测场景这一步；这是基于产品说明与工作流的结构推理，对需要频繁回归 agent 行为的评测工程师更有吸引力。
+  usage_reason_en: Compared with hand-writing cases, it converts an already-successful real trace directly
+    into a resettable, repeatable task, removing the step of building evaluation scenarios from scratch;
+    this is structural inference from the product description and workflow, and it appeals most to evaluation
+    engineers who must regress agent behavior often.

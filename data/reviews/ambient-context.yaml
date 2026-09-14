@@ -181,3 +181,59 @@
     directly as searchable Markdown text, removing the screenshot-then-hunt-then-retype steps, so programmers
     who switch among many windows and need to reconstruct context would pick it when debugging or writing
     commit messages. Stars rising from 164 to 169 indicate attention only, not sustained use.'
+- id: req-full-ambient-context-2026-09-14
+  project_slug: ambient-context
+  level: full
+  reviewed_at: '2026-09-14T00:32:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决程序员跨窗口工作时上下文丢失、事后无法检索具体代码与文档片段的需求；痛点是截图式屏幕记忆不可搜索、体积大且含敏感信息，不解决就要反复重开文件或凭记忆重建。产品以文本转 Markdown
+      的交付闭环在结构上可确定完成该任务，属工作流推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-f679fa8b6f8b0e04
+    - ev-fbdd28475ed1c602
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库自述与 star 数从 164 缓慢增至 170，属关注度而非持续采用；没有用户评价、issue 讨论或客户案例说明谁在什么场景下反复使用，因此无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-fbdd28475ed1c602
+    - ev-68682abbdb9765e2
+    - ev-a5d2e445c034f2ce
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费版本或云服务，买方是个人开发者自付、团队采购还是开源赞助均无证据；这是判断而非已验证事实，但价值关已成立，不因此取消真需求判定。
+    evidence_ids:
+    - ev-f679fa8b6f8b0e04
+    - ev-fbdd28475ed1c602
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近“恢复工作上下文”这一第一性目标，但屏幕内容转文本涉及代码与文档的隐私边界，公开材料未说明本地处理、数据留存与人工确认机制，交付确定性与安全边界尚无法核对。
+    evidence_ids:
+    - ev-f679fa8b6f8b0e04
+    - ev-fbdd28475ed1c602
+  next_validation: 追踪 ambient-context 的 公开代码仓库 仓库 issue、discussion 与 README 更新，确认是否出现真实使用反馈、隐私处理说明或付费/云服务入口。
+  market: ''
+  job: 程序员在长时间编码、跨多个编辑器与浏览器文档窗口切换时，需要回溯“刚才在哪个文件、哪段代码、哪篇文档上做了什么”，把屏幕上的代码与文档内容变成可搜索的文本记录，用于恢复上下文、写提交说明或向
+    AI 助手补充背景。
+  job_en: While coding for long stretches and switching among editors and browser docs, a programmer needs
+    to reconstruct what file, code snippet, or document they were just working on, turning on-screen code
+    and docs into a searchable text record for restoring context, writing commit notes, or feeding background
+    to an AI assistant.
+  pain: 公开材料支持的核心痛点是：屏幕记忆类工具通常靠截图留存，截图不可搜索、体积大、含敏感信息，事后要翻找具体代码或文档段落时几乎无法定位；不解决的后果是上下文丢失，需要重新翻文件、重读文档或凭记忆复述，这一摩擦在每天多次切换任务时反复发生。
+  pain_en: The supported pain is that screenshot-based screen memory is unsearchable, bulky, and privacy-risky,
+    so locating a specific code snippet or doc passage afterwards is nearly impossible; the consequence
+    of leaving it unsolved is lost context, forcing users to reopen files, re-read docs, or reconstruct
+    from memory, a friction that recurs many times a day.
+  current_alternative: 旧做法是手动记笔记、靠编辑器历史与最近文件列表、用截图工具留存屏幕，或干脆不记录、事后凭记忆重建；这些方式要么不可全文检索，要么把代码与文档混在图像里无法复用。
+  current_alternative_en: The old approach is manual notes, editor history and recent-file lists, screenshot
+    tools, or simply not recording and reconstructing from memory; these are either not full-text searchable
+    or trap code and docs inside images that cannot be reused.
+  usage_reason: 推断：相较截图式旧做法，它把屏幕内容直接转成 Markdown 文本，省掉“事后从图片里辨认和抄录代码/文档”这一步，并让记录可被全文搜索、可粘贴进提交说明或 AI 对话；因此经常在编辑器与文档间切换、又需要事后检索具体片段的程序员会在这种情况下选择它。公开材料未提供留存或复购证据，采用动机属结构推断。
+  usage_reason_en: 'Inference: versus screenshot-based tools, it converts on-screen content directly into
+    Markdown text, removing the step of reading and retyping code or docs out of an image and making the
+    record full-text searchable and pasteable into commit notes or AI chats; programmers who constantly
+    switch between editors and docs and later need to retrieve a specific passage would choose it in that
+    situation. Public materials show no retention or repeat-use evidence, so the adoption motiv'

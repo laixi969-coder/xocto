@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNSklxS2laY2Na
 summary: AI Just Helped Healthtech Startups Mint Twice as Many Unicorns in 2025 Startup Fortune
 first_seen: '2026-09-13T03:34:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

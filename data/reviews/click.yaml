@@ -104,3 +104,44 @@
   current_alternative_en: Currently users may manually search or use browser extensions.
   usage_reason: 尚未核验，仅有产品页面，无采用证据。
   usage_reason_en: Not yet verified; only a product page exists, no adoption evidence.
+- id: req-full-click-2026-09-14
+  project_slug: click
+  level: full
+  reviewed_at: '2026-09-14T00:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让 ChatGPT 与 Claude 在对话中获得实时研究上下文，但公开材料未描述具体用户任务、输入材料与交付结果，痛点强度与不采用代价无法判断。
+    evidence_ids:
+    - ev-37a470826593ca74
+    - ev-86578966c9ce4689
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Click 官网与 Chrome 扩展商店页面，获取其定价、安装量与用户评价，确认实时研究上下文的具体交付方式与使用反馈。
+  market: ''
+  job: 知识工作者在 ChatGPT 或 Claude 对话中处理需要最新资料的研究任务，希望对话直接引用实时信息而非依赖模型训练截止前的知识。
+  job_en: Knowledge workers handling research tasks inside ChatGPT or Claude conversations want the chat
+    to cite live information instead of relying on knowledge frozen at the model's training cutoff.
+  pain: 公开材料只给出“为 ChatGPT 和 Claude 提供实时研究上下文”一句产品描述，未说明用户具体在什么材料上遇到什么阻碍、频率与不解决的后果。
+  pain_en: Public material offers only the one-line description of providing live research context for
+    ChatGPT and Claude; it does not state what material users struggle with, how often, or the consequence
+    of leaving it unsolved.
+  current_alternative: 公开材料未说明用户当前如何获取实时资料，可能的手动搜索或浏览器插件替代均属推测，无证据支持。
+  current_alternative_en: Public material does not show how users currently get live information; manual
+    search or browser-extension alternatives are speculation without evidence.
+  usage_reason: 无法判断：现有证据全部指向 2006 年电影《Click》与鼠标点击速度测试，与实时研究上下文产品无关，缺少任何用户选择该产品的动机证据。
+  usage_reason_en: 'Cannot be judged: all available evidence points to the 2006 film Click and mouse-click-speed
+    tests, unrelated to a live-research-context product, so there is no evidence of why any user would
+    choose it.'

@@ -154,3 +154,43 @@
   usage_reason: 公开材料只有仓库星标数，没有功能说明、使用场景或用户反馈，无法解释用户为什么会选择它而非现有做法。
   usage_reason_en: Public material only shows repository star counts, with no feature description, usage
     scenario, or user feedback, so it cannot explain why users would choose it over existing approaches.
+- id: req-full-mythos-5-incident-transcript-2026-09-14
+  project_slug: mythos-5-incident-transcript
+  level: full
+  reviewed_at: '2026-09-14T00:34:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据仅有仓库收藏数从19增至50，没有产品说明、文档或用户反馈，无法写出它解决什么需求、什么痛点，也还原不出输入、动作与交付闭环，故价值关无法成立。
+    evidence_ids:
+    - ev-82fa89c6a4fcefea
+    - ev-a54afc2da169f2b1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它处理什么输入、交付什么结果、谁在何种场景使用。
+  market: ''
+  job: 公开材料仅显示这是一个名为 mythos-5-incident-transcript 的代码仓库，未说明谁在什么情况下处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public materials only show a repository named mythos-5-incident-transcript; they do not state
+    who, in what situation, handling what material, completes what task, so no concrete job can be reconstructed.
+  pain: 公开证据中没有用户痛点、抱怨或 workaround 记录，只有仓库收藏数变化，无法说明不解决会有什么代价。
+  pain_en: Public evidence contains no user pain, complaint, or workaround record, only star-count changes,
+    so the cost of leaving the problem unsolved cannot be stated.
+  current_alternative: 公开材料未说明用户目前如何完成相关工作，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently do the related work, nor what
+    prior approach this repository replaces.
+  usage_reason: 缺少产品说明、文档、issue 或用户反馈，无法解释用户相较现有做法为什么会选择它；收藏增长只反映关注度，不构成使用理由。
+  usage_reason_en: With no product description, docs, issues, or user feedback, there is no explanation
+    of why users would choose it over their current approach; star growth reflects attention only, not
+    a usage reason.

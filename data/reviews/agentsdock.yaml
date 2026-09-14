@@ -1,0 +1,77 @@
+- id: req-initial-agentsdock-2026-09-14
+  project_slug: agentsdock
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它自称面向智能体式 AI 研究的 IDE，但材料未写清解决什么需求、什么痛点，价值关无法成立。
+    evidence_ids:
+    - ev-a7bbf2eef710f973
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论热度只反映关注度，不能说明持续采用。
+    evidence_ids:
+    - ev-a7bbf2eef710f973
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料未说明买方与付费路径。
+    evidence_ids:
+    - ev-a7bbf2eef710f973
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-a7bbf2eef710f973
+  next_validation: 收集 AgentsDock 官方文档或仓库说明，确认它接收什么输入、产出什么交付物以及面向哪类使用者。
+  market: ''
+  job: 公开材料未说明具体使用者与任务，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or task, so who handles what material in which situation
+    to finish what task cannot be confirmed.
+  pain: 材料未给出任何痛点描述，无法判断智能体研究过程中哪一步难受。
+  pain_en: No pain point is described, so which step of agent research is painful cannot be judged.
+  current_alternative: 材料未说明研究者现在用什么方式做同类工作。
+  current_alternative_en: The material does not say what researchers currently use for comparable work.
+  usage_reason: 缺少功能细节与旧流程对照，无法解释相较现有做法减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: Without feature detail or a comparison to the old process, which step of burden it
+    removes is unclear, so which users would choose it and when cannot be judged.
+- id: req-full-agentsdock-2026-09-14
+  project_slug: agentsdock
+  level: full
+  reviewed_at: '2026-09-14T00:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它自称面向智能体式 AI 研究的 IDE，但材料未写清解决什么需求、什么痛点，也未见旧替代行为，价值关无法成立。
+    evidence_ids:
+    - ev-a7bbf2eef710f973
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 AgentsDock 官方文档或仓库说明，确认它接收什么输入、产出什么交付物以及面向哪类使用者。
+  market: ''
+  job: 公开材料只说明它是一个面向智能体式 AI 研究的 IDE，未说明具体由谁在什么情况下打开、接收什么材料、要完成什么任务，无法还原使用场景。
+  job_en: Public material only describes it as an IDE for agentic AI research; it does not say who opens
+    it, in what situation, with what material, to finish what task, so the usage scenario cannot be reconstructed.
+  pain: 材料未给出任何痛点描述，无法判断智能体研究过程中哪一步难受、频率多高、不解决会有什么后果。
+  pain_en: No pain point is described, so which step of agent research is painful, how often, and what
+    happens if unsolved cannot be judged.
+  current_alternative: 材料未说明研究者现在用什么方式做同类工作，无法确认它替代了什么旧做法。
+  current_alternative_en: The material does not say what researchers currently use for comparable work,
+    so what old practice it replaces cannot be confirmed.
+  usage_reason: 缺少功能细节与旧流程对照，无法解释相较现有做法减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: Without feature detail or a comparison to the old process, which step of burden it
+    removes is unclear, so which users would choose it and when cannot be judged.

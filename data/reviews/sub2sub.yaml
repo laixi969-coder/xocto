@@ -180,3 +180,55 @@
     credentials, removing the shared-login step and making quota attribution traceable. A team admin who
     cares about account security and allocatable quota would choose it when temporarily lending capacity
     to a colleague for a specific task. This causal chain is structural reasoning, not yet con'
+- id: req-full-sub2sub-2026-09-14
+  project_slug: sub2sub
+  level: full
+  reviewed_at: '2026-09-14T00:35:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队内 AI 订阅额度按任务分配、避免共享账号密码的需求，痛点是凭据扩散与额度失控；公开仓库说明已能还原旧流程（借账号）、输入（任务请求）、动作（按任务转额度）与不解决的后果，属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+    - ev-78935139dd70e8ad
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由 44 增至 62，说明开发者社区注意到它，但公开材料没有 issue、discussion 或用户评价说明谁在什么场景持续使用；关注度不能替代采用证据。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+    - ev-78935139dd70e8ad
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或计费口径，无法判断钱来自团队管理员、企业采购还是开源赞助；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明未交代鉴权方式、额度计量与合规边界，交付能否稳定发生、以及是否触碰订阅服务条款，尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+  next_validation: 追踪 sub2sub 仓库的 README、issue 与 discussion，确认其鉴权与额度计量方式、是否说明与订阅服务条款的合规边界，以及是否有用户描述实际部署场景。
+  market: ''
+  job: 团队 AI 订阅额度管理员在团队里只有部分成员购买了 ChatGPT/Claude 等 AI 订阅、其他成员临时需要调用能力时，处理成员提交的具体任务请求，把订阅额度按任务转给指定成员使用，让成员拿到可用调用能力而不必登录他人账号。
+  job_en: A team AI subscription quota administrator, when only some members hold ChatGPT/Claude subscriptions
+    and others need occasional access, handles per-task requests and routes subscription quota to the
+    named member so they get usable call capacity without logging into someone else's account.
+  pain: 公开仓库说明直指一个具体摩擦：把账号密码借给同事意味着共享凭据、无法按任务粒度控制谁用了多少、也无法在事后收回；不解决的后果是管理员要么拒绝同事的临时需求，要么承担账号共享带来的凭据扩散与额度失控。这是从产品说明与团队账号共享旧流程推出的结构推理，尚无用户抱怨或案例直接佐证强度。
+  pain_en: 'The repository description points to a concrete friction: lending account credentials means
+    shared secrets, no per-task control over who consumed what, and no way to revoke afterwards; leaving
+    it unsolved forces the admin either to refuse ad-hoc requests or to accept credential spread and uncontrolled
+    quota. This is structural inference from the product description and the old account-sharing workflow,
+    not yet corroborated by user complaints or cases.'
+  current_alternative: 当前替代方式是同事之间直接共享订阅账号密码，或让没有订阅的成员自行购买/使用免费额度；公开材料未说明是否还存在企业级席位管理或 API 密钥分发等替代路径。
+  current_alternative_en: Today the alternative is colleagues sharing subscription credentials directly,
+    or members without a subscription buying their own or falling back to free tiers; public materials
+    do not show whether enterprise seat management or API-key distribution is also used.
+  usage_reason: 推断：相较直接共享账号密码，sub2sub 把交付物从“他人账号凭据”换成“按任务发放的调用能力”，管理员因此不必把密码交出去，也能按任务决定给谁、给多少；会在意凭据不扩散、又需要临时给同事开
+    AI 能力的小团队管理员，会在成员临时提需求时选择它。仓库收藏从 44 增至 62 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus sharing credentials directly, sub2sub changes the deliverable from
+    someone else''s account secret to a per-task grant of call capacity, so the admin never hands over
+    a password and can decide per task who gets access and how much; small-team admins who care about
+    credential containment but still need to grant ad-hoc AI access would pick it. Stars rising from 44
+    to 62 shows attention, not sustained use.'

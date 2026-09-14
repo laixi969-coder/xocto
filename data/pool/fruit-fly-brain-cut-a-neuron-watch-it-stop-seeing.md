@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/VIDraft/fruitfly-brain
 summary: Cut one neuron, watch the fly stop seeing danger
 first_seen: '2026-09-13T11:32:56Z'
 last_seen: '2026-09-14T00:12:54Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

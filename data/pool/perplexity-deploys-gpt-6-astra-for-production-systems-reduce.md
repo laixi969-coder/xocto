@@ -1,6 +1,6 @@
 ---
 slug: perplexity-deploys-gpt-6-astra-for-production-systems-reduce
-name: Perplexity deploys GPT-6 Astra for production systems, reduces oversight
+name: Perplexity
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEE4OUVBQ2lR
 summary: Perplexity deploys GPT-6 Astra for production systems, reduces oversight Tech Observer Magazine
 first_seen: '2026-09-13T19:51:02Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Perplexity deploys GPT-6 Astra for production systems, reduces oversight
+# Perplexity
 
 Perplexity deploys GPT-6 Astra for production systems, reduces oversight Tech Observer Magazine
 

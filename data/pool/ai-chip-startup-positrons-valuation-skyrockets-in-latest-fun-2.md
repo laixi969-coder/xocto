@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOUW9fTXlOZnlJ
 summary: AI chip startup Positron's valuation skyrockets in latest funding round Reuters
 first_seen: '2026-09-10T15:47:56Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

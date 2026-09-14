@@ -25,7 +25,7 @@ summary: Between September 07 and September 12, 2026, as many as 24 Indian start
   Proptech, Homeservices, Foodtech, Watertech, Cyb instagram.com
 first_seen: '2026-09-13T16:55:44Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

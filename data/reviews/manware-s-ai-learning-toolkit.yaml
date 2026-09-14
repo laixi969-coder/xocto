@@ -238,3 +238,43 @@
     step of reverse-engineering the reasoning from generated code or repeatedly re-prompting; developers
     learning a new codebase or reviewing code with understanding rather than delivery as the goal would
     choose it.'
+- id: req-full-manware-s-ai-learning-toolkit-2026-09-14
+  project_slug: manware-s-ai-learning-toolkit
+  level: full
+  reviewed_at: '2026-09-14T00:34:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让 AI 代理输出解释而非代码，但公开材料只有一句定位语，未说明开发者具体卡在哪一步、不解决的后果与当前替代方式，需求与痛点无法还原。
+    evidence_ids:
+    - ev-33e9a468ba66c4e2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它实际交付什么（提示词包、插件还是服务）、用户用它替代了哪种学习或审查流程。
+  market: ''
+  job: 开发者在学习新代码库或做代码审查时，把代码或问题交给 AI 代理，希望得到解释与教学反馈，而不是直接生成代码。
+  job_en: When learning a new codebase or reviewing code, a developer hands code or questions to an AI
+    agent expecting explanation and teaching feedback rather than generated code.
+  pain: 公开材料只有一句“把代理变成老师而不是代码复读机”的定位，没有说明开发者当前在哪一步受阻、不解决会付出什么代价，痛点无法还原。
+  pain_en: Public material offers only the positioning line about turning agents into teachers rather
+    than code yapping machines; it does not show where developers get stuck or what leaving it unsolved
+    costs, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明开发者现在如何获得代码解释，是直接问通用聊天模型、读文档还是请教同事。
+  current_alternative_en: Public material does not say how developers currently get code explanations,
+    whether by asking general chat models, reading docs, or asking colleagues.
+  usage_reason: 推断：若它真能把代理输出从直接给代码改为分步讲解，可能减少开发者自行追问“为什么”的负担；但公开材料没有用户反馈、使用流程或交付形态，选择动机无法核实。
+  usage_reason_en: 'Inference: if it truly shifts agent output from handing over code to step-by-step
+    explanation, it could reduce the burden of developers having to ask ''why'' themselves; but no user
+    feedback, workflow, or delivery form is public, so the motive cannot be verified.'

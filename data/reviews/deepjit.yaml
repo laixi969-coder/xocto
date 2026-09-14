@@ -183,3 +183,53 @@
     JIT compilation into a lightweight library call, reducing the burden of maintaining a separate toolchain
     per xPU, so teams deploying across multiple accelerators would choose it when reusing kernels across
     hardware.'
+- id: req-full-deepjit-2026-09-14
+  project_slug: deepjit
+  level: full
+  reviewed_at: '2026-09-14T00:33:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是非英伟达加速卡上内核编译流程重复维护的问题：每接一种 xPU 就要重写编译链路，硬件碎片化使这一负担刚性存在。公开仓库说明其以运行时 JIT 产出可调用编译结果，输入—动作—交付闭环可还原，属工作流结构推理；具体硬件清单与痛点量化仍缺。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+    - ev-0b7e7c47369c2dfd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 208 增至 300，说明开发者持续关注该项目，但收藏与排名只属关注度证据，不能证明目标团队已把它留在编译工作流中；缺少 issue、discussion 或客户案例说明实际部署与替代了哪套旧流程。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+    - ev-bef540873eff4f0e
+  - gate: model
+    status: insufficient
+    reason: 这是 DeepSeek 开源的库，公开材料未见定价页、商业授权或采购记录，买方是内部自建还是随硬件厂商分发无法确认；按开源库常见路径，钱可能来自 to B 支持服务或 to VC，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句库描述，未给出支持的具体 xPU 清单、编译正确性验证方式、与厂商工具链的边界及人工介入点，因此交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-0b7e7c47369c2dfd
+    - ev-c1c3ff3c8a120fb3
+  next_validation: 追踪 DeepJIT 仓库的 README、issue 与 discussion，确认其声明支持的 xPU 清单、编译正确性验证方式，以及是否有团队公开说明用它替代了原有逐卡编译流程。
+  market: ''
+  job: 在非英伟达加速卡（xPU）上部署推理的工程团队，拿到算子/内核代码后，需要在运行时完成即时编译，产出可直接调用的编译结果，而不必为每种加速卡单独手写并维护一套内核编译流程。
+  job_en: Engineering teams deploying inference on non-NVIDIA accelerators (xPU) take kernel code and
+    need it just-in-time compiled at runtime into callable output, instead of hand-writing and maintaining
+    a separate kernel compilation pipeline per accelerator.
+  pain: 公开仓库只说明它是轻量级 xPU 内核 JIT 编译库；从工作流结构推理，痛点是每接入一种新加速卡就要重写并长期维护编译链路，硬件碎片化带来的重复工程负担刚性存在，但公开材料未给出具体耗时或故障代价。
+  pain_en: The public repo only states it is a lightweight xPU kernel JIT compilation library; by workflow
+    inference the pain is that each new accelerator requires rewriting and maintaining a compilation pipeline,
+    a rigid duplication burden under hardware fragmentation, though public materials give no concrete
+    time or failure cost.
+  current_alternative: 公开材料未直接描述替代方案；结构推理上，团队目前通常为每种 xPU 手写内核编译流程，或依赖各厂商自带的编译工具链与框架后端。
+  current_alternative_en: Public materials do not describe alternatives directly; by structural inference,
+    teams currently hand-write a kernel compilation pipeline per xPU or rely on vendor toolchains and
+    framework backends.
+  usage_reason: 推断：相较逐卡手写编译流程，DeepJIT 把编译动作收敛为一个运行时库调用，减少的是“为新 xPU 单独搭建并维护编译链路”这一步；因此正在多类非英伟达加速卡上做推理部署、又不愿为每张卡维护独立编译代码的工程团队会考虑采用它。
+  usage_reason_en: 'Inference: versus hand-writing a pipeline per card, DeepJIT collapses compilation
+    into a runtime library call, removing the step of building and maintaining a separate compilation
+    chain for each new xPU; teams deploying inference across multiple non-NVIDIA accelerators without
+    wanting per-card compilation code would consider it.'

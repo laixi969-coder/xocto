@@ -23,7 +23,7 @@ summary: Dave Bernard launches affiliate marketing blog to help online entrepren
   AI tools and AEO strategies FinancialContent
 first_seen: '2026-09-11T08:54:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

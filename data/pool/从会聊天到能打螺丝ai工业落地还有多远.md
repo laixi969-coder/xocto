@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE50Qnl5R1FPZ011
 summary: 从会聊天到能打螺丝，AI工业落地还有多远？ 湖北日报传媒集团
 first_seen: '2026-09-13T09:54:35Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

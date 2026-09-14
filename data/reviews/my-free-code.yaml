@@ -162,3 +162,53 @@
   usage_reason: 开源项目获得 524 星，显示开发者对多模型网关的初步需求，但采用规模尚未核验。
   usage_reason_en: The open-source project has 524 stars, showing initial demand for multi-model gateways,
     but adoption scale is not yet verified.
+- id: req-full-my-free-code-2026-09-14
+  project_slug: my-free-code
+  level: full
+  reviewed_at: '2026-09-14T00:34:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理被单一模型提供商锁定的问题：成本高、限流或故障会中断任务，且各提供商接口与工具调用格式不一。公开说明显示其以统一网关完成路由、流式、工具调用、推理与回退，替代手动切换与逐代理适配，属工作流结构推理，痛点与交付闭环可确定。
+    evidence_ids:
+    - ev-4aeb87abc00b681e
+    - ev-76ef0186c8694ff3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 623 缓慢升至 635，说明有开发者关注，但公开材料没有用户评价、issue 讨论或客户案例，无法判断是否形成使用共识，也未显示被长期留在工作流中。
+    evidence_ids:
+    - ev-4aeb87abc00b681e
+    - ev-3a23d1eddf718c8b
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未披露定价、付费版本或企业采购路径，谁付钱尚不清楚；这是判断而非已验证事实，不能据此否定需求，但商业路径仍缺公开证据。
+    evidence_ids:
+    - ev-4aeb87abc00b681e
+  - gate: truth
+    status: supported
+    reason: 作为本地可部署的网关，交付由代码本身确定，路由与回退逻辑可复现；主要不确定性在于上游模型提供商的 API 稳定性与密钥管理边界，公开材料未展示安全与人工介入设计。
+    evidence_ids:
+    - ev-4aeb87abc00b681e
+    - ev-5877d681b0d91796
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否出现真实使用案例、部署文档或付费/赞助入口。
+  market: ''
+  job: 使用 Claude Code 等编码代理的开发者，在需要调用多个模型提供商（含本地模型）完成代码任务时，把代理请求交给一个统一网关，由它完成模型路由、流式输出、工具调用、推理与失败回退，从而在不改动代理配置的前提下切换或组合模型。
+  job_en: Developers using coding agents such as Claude Code route agent requests through a single gateway
+    that performs model routing, streaming, tool calls, reasoning, and fallbacks across multiple providers
+    (including local models), so they can switch or combine models without reconfiguring the agent.
+  pain: 编码代理通常绑定单一模型提供商：成本高、限流或故障时任务中断，且不同提供商的接口、流式与工具调用格式不一致，开发者需为每个代理单独适配，缺少统一的路由与回退层。
+  pain_en: 'Coding agents are typically bound to one model provider: costs are high, rate limits or outages
+    interrupt tasks, and providers differ in API, streaming, and tool-call formats, forcing per-agent
+    adaptation with no unified routing or fallback layer.'
+  current_alternative: 开发者目前手动切换模型或 API key、为不同代理分别配置提供商，或直接使用单一官方端点，缺少统一网关来集中处理路由、回退与本地模型接入。
+  current_alternative_en: Developers currently switch models or API keys manually, configure providers
+    separately per agent, or use a single official endpoint, with no unified gateway for routing, fallback,
+    and local model access.
+  usage_reason: 推断：相较手动切换与逐代理适配，该网关把多提供商差异收敛到一层，代理侧只需指向一个端点即可获得路由、流式、工具调用与回退，因此当开发者遇到成本、限流或需要本地模型时，会倾向选择它；仓库星标从
+    623 增至 635 仅说明关注度上升，尚不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual switching and per-agent adaptation, the gateway collapses
+    multi-provider differences into one layer, so the agent only points at a single endpoint to get routing,
+    streaming, tool calls, and fallback; developers facing cost, rate limits, or needing local models
+    would tend to choose it. Stars rising from 623 to 635 indicate attention, not sustained use.'

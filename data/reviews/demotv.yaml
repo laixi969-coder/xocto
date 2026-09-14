@@ -1,0 +1,85 @@
+- id: req-initial-demotv-2026-09-14
+  project_slug: demotv
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决演示视频被看见和排序的问题，但公开材料只有一句定位，说不清替代了哪一步旧工作，也未见用户采用行为。
+    evidence_ids:
+    - ev-48f6a6b8757fd334
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外没有观众规模、投票量或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-48f6a6b8757fd334
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-48f6a6b8757fd334
+  - gate: truth
+    status: insufficient
+    reason: 投票排序是否真能反映买家兴趣、是否存在刷票，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-48f6a6b8757fd334
+  next_validation: 收集 DemoTV 官方页面上关于投稿流程、投票规则与是否展示转化数据的说明。
+  market: ''
+  job: 产品营销人员在发布新品时，需要把已有的产品演示视频放到目标观众能看到的地方，并判断哪条演示更受关注。
+  job_en: During a launch, product marketers need to place existing product demo videos where the intended
+    audience can see them and judge which demo draws more attention.
+  pain: 演示视频散落在官网、销售邮件和社交账号里，发布者难以知道哪条被真正看完、哪条带来兴趣。
+  pain_en: Demo videos are scattered across websites, sales emails and social accounts, so publishers
+    struggle to know which ones are actually watched and which generate interest.
+  current_alternative: 把演示视频放在官网产品页、YouTube 频道或销售邮件里，靠播放量和人工反馈判断效果。
+  current_alternative_en: Hosting demo videos on product pages, YouTube channels or in sales emails, judging
+    effect by view counts and manual feedback.
+  usage_reason: 推断：如果观众投票排序能替代发布者自己挑选和推广演示视频这一步，营销人员可能愿意把新演示投到这类频道；但公开材料未说明投稿、投票与转化之间如何衔接，也没有留存或复购证据，因此无法确认用户会持续使用。
+  usage_reason_en: 'Inference: if audience voting can replace the step where publishers pick and promote
+    demos themselves, marketers might submit new demos to such a channel; however, public material does
+    not explain how submission, voting and conversion connect, and there is no retention or repeat-use
+    evidence, so continued use cannot be confirmed.'
+- id: req-full-demotv-2026-09-14
+  project_slug: demotv
+  level: full
+  reviewed_at: '2026-09-14T00:33:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决演示视频被看见和排序的问题，但公开材料只有一句定位，未说明替代了哪一步旧工作、痛点是否刚性，现有官网与 YouTube 已能覆盖同一任务，属看着挺好但没有也行。
+    evidence_ids:
+    - ev-48f6a6b8757fd334
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 DemoTV 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 产品营销人员在新品发布期，需要把已有的产品演示视频放到目标买家能看到的地方，并判断哪条演示更受关注，以便决定后续推广重点。
+  job_en: During a launch, product marketers need to place existing product demo videos where target buyers
+    can see them and judge which demo draws more attention, so they can decide where to focus promotion.
+  pain: 演示视频散落在官网、销售邮件和社交账号里，发布者难以知道哪条被真正看完、哪条带来兴趣；但公开材料只有一句定位，未说明这一痛点是否刚性或用户是否已为此付费。
+  pain_en: Demo videos are scattered across websites, sales emails and social accounts, so publishers
+    struggle to know which are actually watched and which generate interest; however, public material
+    offers only a one-line positioning and does not show whether this pain is acute or whether users already
+    pay for it.
+  current_alternative: 把演示视频放在官网产品页、YouTube 频道或销售邮件里，靠播放量和人工反馈判断效果。
+  current_alternative_en: Hosting demo videos on product pages, YouTube channels or in sales emails, judging
+    effect by view counts and manual feedback.
+  usage_reason: 推断：若观众投票排序能替代发布者自己挑选和推广演示这一步，营销人员可能愿意投稿；但公开材料未说明投稿、投票与转化如何衔接，也没有留存或复购证据，且现有替代方式已能覆盖同一任务，因此无法确认用户会持续使用。
+  usage_reason_en: 'Inference: if audience voting can replace the step where publishers pick and promote
+    demos themselves, marketers might submit demos; however, public material does not explain how submission,
+    voting and conversion connect, and there is no retention or repeat-use evidence, while existing alternatives
+    already cover the same job, so continued use cannot be confirmed.'

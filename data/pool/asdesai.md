@@ -21,7 +21,7 @@ canonical_url: https://asdesai.com/blog/how-fetch-works
 summary: What If Donut.c but with Any ASCII Art
 first_seen: '2026-09-12T21:39:24Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

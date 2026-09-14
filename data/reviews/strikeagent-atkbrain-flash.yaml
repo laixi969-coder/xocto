@@ -248,3 +248,52 @@
     step of switching tools and re-enumerating; this would attract red-team or SRC users handling many
     authorized targets without their own automation. No user feedback or case study is public, so this
     causal claim is structural inference, not verified fact.'
+- id: req-full-strikeagent-atkbrain-flash-2026-09-14
+  project_slug: strikeagent-atkbrain-flash
+  level: full
+  reviewed_at: '2026-09-14T00:35:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队打点与 SRC 场景下的信息收集与漏洞探测任务，痛点是人工串联扫描工具耗时、依赖经验且易遗漏攻击面，不解决会降低后续渗透成功率；公开材料仅描述功能，未给用户抱怨，故为工作流结构推理而非采用事实。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 149 增至 336，说明社区关注度上升，但收藏与排名只属关注度证据，不能证明目标用户持续使用或把它留在工作流里；公开材料无 issue、讨论或用户评价支撑强场景。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+    - ev-69b2798a28840678
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断收入来自 to B 安全团队、to C 个人研究者还是 to VC；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-33db3bb888d8a56e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明自动化程度、交付物形态与人工复核边界，渗透测试涉及授权与安全合规，承诺能否确定性交付尚缺可复现证据。
+    evidence_ids:
+    - ev-be316e6c0b1a20ff
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认其实际支持的输入、自动化步骤与输出报告形态，以及是否有用户公开描述部署与替代旧流程。
+  market: ''
+  job: 红队渗透测试工程师或安全研究员在授权测试或 SRC 打点任务中，拿到目标资产清单（域名、IP、Web 入口）后，需要完成信息收集、漏洞发现与攻击路径验证，并整理成可交付的渗透测试结论。
+  job_en: A red-team penetration tester or security researcher, given an authorized target asset list
+    (domains, IPs, web entry points) during an engagement or SRC program, must complete reconnaissance,
+    vulnerability discovery and attack-path validation, then produce a deliverable penetration-test conclusion.
+  pain: 公开材料只说明该平台覆盖红队打点、SRC、CTF，未提供用户抱怨或案例；从工作流结构推理，打点阶段的信息收集与重复性探测耗时且依赖个人经验，人工遗漏会直接影响后续能否拿到有效攻击面，这是渗透测试流程中的刚性环节。
+  pain_en: Public materials only state the platform covers red-team foothold, SRC and CTF; no user complaints
+    or cases are given. By workflow inference, the foothold phase is time-consuming, experience-dependent
+    and omission-prone, and misses directly reduce the usable attack surface — a rigid step in the pentest
+    pipeline.
+  current_alternative: 公开材料未描述用户现有做法；结构上对应的是人工使用 Nmap、子域枚举、目录爆破等脚本工具链，或商业扫描器加人工验证，逐项拼接结果。
+  current_alternative_en: Public materials do not describe current practice; structurally it corresponds
+    to manually chaining Nmap, subdomain enumeration, directory brute-forcing and other scripts, or a
+    commercial scanner plus manual verification, stitching results by hand.
+  usage_reason: 推断：相较手工串联扫描脚本，该平台把目标信息输入后的打点与探测动作收敛到一次 AI 驱动的流程中，减少逐工具切换与结果拼接的步骤，因此需要快速覆盖较大攻击面、又缺少专职打点人力的红队或
+    SRC 参与者会尝试它；但公开材料未给出用户反馈，采用动机仍属推断。
+  usage_reason_en: 'Inference: versus manually chaining scan scripts, the platform consolidates foothold
+    and probing actions after target input into one AI-driven flow, cutting tool-switching and result-stitching
+    steps, so red teams or SRC participants needing fast broad coverage without dedicated recon staff
+    would try it; no user feedback is public, so the motive remains inferred.'

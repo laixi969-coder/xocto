@@ -156,3 +156,44 @@
   usage_reason_en: 'Inference: if the product truly completes assistant invocation and credential retrieval
     in one iMessage step, it could remove app-switching for iOS users who value the chat entry point;
     but with no feature docs, user feedback, or cases, this causal chain cannot be confirmed.'
+- id: req-full-openinstinct-2026-09-14
+  project_slug: openinstinct
+  level: full
+  reviewed_at: '2026-09-14T00:34:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅一句「iMessage 个人助手 + 密码保险库」，未说明具体用户任务、痛点强度与不采用后果；密码管理已有钥匙串等成熟替代，合并进聊天属可有可无的拼装，价值关不成立。
+    evidence_ids:
+    - ev-49162ea2fabcabc3
+    - ev-5103b87f6a3598ab
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 openinstinct.sh 官网与代码仓库 README、issue、discussion，确认是否公开具体使用场景、密码存储与加密方式、部署文档及任何用户反馈或付费信息。
+  market: ''
+  job: iOS 用户在日常使用 iMessage 聊天时，希望不切换 App 就完成查密码、记事项等个人助理任务，把聊天线程当作统一入口处理零散请求。
+  job_en: iOS users chatting in iMessage want to look up passwords and handle small personal-assistant
+    tasks without switching apps, treating the chat thread as a single entry point.
+  pain: 公开材料只给出「iMessage 个人助手 + 密码保险库」一句定位，没有说明具体痛点、使用频率或不采用的后果；密码管理与聊天合并反而可能让用户担心凭据暴露在消息记录中。
+  pain_en: Public material offers only the one-line positioning 'iMessage personal assistant + password
+    vault', with no stated pain, frequency, or cost of not adopting; merging credentials into chat may
+    itself raise exposure concerns.
+  current_alternative: iOS 用户已有 iCloud 钥匙串、1Password 等成熟密码管理器，以及 Siri、ChatGPT 等助手，均可在系统层或独立 App 内完成任务。
+  current_alternative_en: iOS users already have iCloud Keychain, 1Password and similar managers, plus
+    Siri and ChatGPT, all able to complete these tasks at system level or in a dedicated app.
+  usage_reason: 推断：把助手和密码库塞进 iMessage 只减少一次 App 切换，却未公开说明比钥匙串自动填充或 Siri 更省哪一步、结果更可核对在哪，因此难以解释用户为何迁移。
+  usage_reason_en: 'Inference: packing an assistant and vault into iMessage saves only one app switch,
+    with no public explanation of which step it removes versus Keychain autofill or Siri, so the reason
+    to switch is unclear.'

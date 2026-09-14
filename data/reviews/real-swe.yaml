@@ -83,3 +83,89 @@
   usage_reason_en: Compared with public leaderboards, it runs evaluation directly on the customer's own
     private codebase, reducing reliance on extrapolating from leaderboards, so teams with compliance constraints
     that cannot send code out would choose it during selection; this is an inference from product capability.
+- id: req-initial-real-swe-2026-09-14
+  project_slug: real-swe
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是选型时无法用自家代码验证模型的问题，痛点在遗留系统团队真实存在，旧做法是看榜单或手工试跑。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，但公开材料未显示企业客户采用或重复使用，共识只停留在关注层面。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按次出报告或私有化部署收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-b7129aae66a5d62b
+  - gate: truth
+    status: insufficient
+    reason: 评测任务是否贴近真实工程目标、结果能否确定性复现，公开材料未说明，需看其方法文档。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  next_validation: 收集 Real-SWE 官方评测方法文档或公开任务样例，确认评测任务构成与结果可复现性。
+  market: ''
+  job: 企业技术选型负责人在为内部私有代码库挑选编码模型时，需要把候选模型放到自家仓库的真实改造任务上跑一遍，得到可核对的通过结果，而不是只看公开榜单分数。
+  job_en: An enterprise technology selection lead choosing a coding model for an internal private codebase
+    needs to run candidate models on real change tasks in their own repository and get checkable pass
+    results, rather than relying on public leaderboard scores.
+  pain: 公开评测集与自家遗留代码差异大，选错模型意味着返工和迁移成本；把私有代码交给外部评测又有合规顾虑。
+  pain_en: Public evaluation sets differ greatly from their own legacy code, so a wrong model choice means
+    rework and migration cost; handing private code to an outside evaluator also raises compliance concerns.
+  current_alternative: 目前多靠公开榜单分数、厂商自测报告，或内部工程师手工试跑几个任务来判断。
+  current_alternative_en: Today they mostly rely on public leaderboard scores, vendor self-reported tests,
+    or a few tasks hand-run by internal engineers.
+  usage_reason: 推断：相较只看公开榜单，它把评测对象换成买方自己的私有仓库任务，减少“榜单高分但自家代码跑不动”这一步落差，因此有遗留系统且代码不能外发的团队会在选型阶段选择它。
+  usage_reason_en: 'Inference: compared with reading public leaderboards, it swaps the evaluation target
+    to the buyer''s own private repository tasks, removing the gap where a high-scoring model fails on
+    their code, so teams with legacy systems and no-export code policy would use it at selection time.'
+- id: req-full-real-swe-2026-09-14
+  project_slug: real-swe
+  level: full
+  reviewed_at: '2026-09-14T00:35:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是选型时无法用自家代码验证模型的问题，痛点在遗留系统团队真实存在，旧做法是看榜单或手工试跑。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示该基准的定位，未显示企业客户采用或重复使用，共识只停留在关注层面。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按次出报告或私有化部署收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-b7129aae66a5d62b
+  - gate: truth
+    status: insufficient
+    reason: 评测任务是否贴近真实工程目标、结果能否确定性复现，公开材料未说明，需看其方法文档。
+    evidence_ids:
+    - ev-83ccd5d961a1e757
+  next_validation: 收集 Real-SWE 官方评测方法文档或公开任务样例，确认评测任务构成与结果可复现性。
+  market: ''
+  job: 企业技术选型负责人在为内部私有代码库挑选编码模型时，把候选模型放到自家仓库的真实改造任务上跑一遍，得到可核对的通过结果，而不是只看公开榜单分数。
+  job_en: An enterprise technology selection lead choosing a coding model for an internal private codebase
+    needs to run candidate models on real change tasks in their own repository and get checkable pass
+    results, rather than relying on public leaderboard scores.
+  pain: 公开评测集与自家遗留代码差异大，选错模型意味着返工和迁移成本；把私有代码交给外部评测又有合规顾虑。
+  pain_en: Public evaluation sets differ greatly from their own legacy code, so a wrong model choice means
+    rework and migration cost; handing private code to an outside evaluator also raises compliance concerns.
+  current_alternative: 目前多靠公开榜单分数、厂商自测报告，或内部工程师手工试跑几个任务来判断。
+  current_alternative_en: Today they mostly rely on public leaderboard scores, vendor self-reported tests,
+    or a few tasks hand-run by internal engineers.
+  usage_reason: 推断：相较只看公开榜单，它把评测对象换成买方自己的私有仓库任务，减少“榜单高分但自家代码跑不动”这一步落差，因此有遗留系统且代码不能外发的团队会在选型阶段选择它。
+  usage_reason_en: 'Inference: compared with reading public leaderboards, it swaps the evaluation target
+    to the buyer''s own private repository tasks, removing the gap where a high-scoring model fails on
+    their code, so teams with legacy systems and no-export code policy would use it at selection time.'

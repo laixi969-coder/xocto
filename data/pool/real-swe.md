@@ -3,16 +3,17 @@ slug: real-swe
 name: Real-SWE
 builder: theanonymousone
 category: AI + 开发
-summary_zh: 工程团队在选型或验收编码模型时，把私有企业代码库交给 Real-SWE，由它跑基准并给出模型在该代码库上的表现结果；公开材料只说明评测对象是私有真实企业代码库，具体指标、是否开源与交付形式仍待核验。
-inspiration: 趋势是编码模型的公开榜单与企业真实代码表现脱节，评测开始往私有代码库下沉。切入可看有合规要求、不能把代码外传的行业，如金融与医疗软件团队，卖点是把评测跑在客户自己的代码上；是否已有付费客户未披露。
-summary_en: When engineering teams select or accept coding models, they hand private enterprise codebases
-  to Real-SWE, which runs benchmarks and reports how models perform on that codebase; public material
-  only says the evaluation targets private real-world enterprise codebases, while metrics, open-source
-  status and deliverable form remain unverified.
-inspiration_en: The trend is that public leaderboards for coding models diverge from performance on real
-  enterprise code, pushing evaluation down to private codebases. A wedge could be regulated industries
-  that cannot send code out, such as financial and healthcare software teams, selling evaluation that
-  runs on the customer's own code; whether paying customers exist is not disclosed.
+summary_zh: 企业技术选型负责人在为内部私有代码库挑选编码模型时，把自家仓库的改造任务交给它跑一遍，模型在真实代码上完成修改并给出可核对的通过结果，用于替代公开题库式评测。具体评测流程、任务规模与交付形式仍待核验。
+inspiration: 趋势：编码模型的比拼正从公开题库转向企业私有代码库，选型依据开始由厂商自测变成买方自己的仓库。切入：从有大量遗留系统、又不敢把代码外发的金融、制造、政企信息化团队进入，先做可复现的私有化评测服务，按次出报告收费；价格未披露，不预设。
+summary_en: An enterprise technology selection lead choosing a coding model for an internal private codebase
+  runs the vendor's model against their own repository tasks; the model performs real code changes and
+  returns checkable pass results, replacing public benchmark suites. The exact evaluation process, task
+  scale and deliverable format still need verification.
+inspiration_en: 'Trend: coding-model comparison is shifting from public benchmarks to enterprise private
+  codebases, so the selection basis moves from vendor self-reports to the buyer''s own repository. Entry:
+  start with finance, manufacturing and government IT teams that carry legacy systems and cannot send
+  code outside, offering reproducible private evaluation billed per report; pricing is undisclosed and
+  not assumed.'
 priority_review: false
 project_type: new_application
 industries:
@@ -20,20 +21,18 @@ industries:
 industries_en:
 - Software and IT services
 jobs:
-- 企业代码库上的模型评测与选型
+- 企业技术选型负责人
 jobs_en:
-- Model evaluation and selection on enterprise codebases
-regions:
-- 美国
-regions_en:
-- United States
+- Enterprise technology selection lead
+regions: []
+regions_en: []
 open_source: false
 url: https://withspecific.com/benchmarks/real-swe
 canonical_url: https://withspecific.com/benchmarks/real-swe
 summary: Benchmarking AI models on private, real-world, enterprise codebases
 first_seen: '2026-09-12T20:25:48Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 sightings:

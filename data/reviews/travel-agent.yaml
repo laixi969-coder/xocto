@@ -205,3 +205,53 @@
     to search and fill in, moving the planning-to-booking legwork to the agent while stopping at the payment
     page to keep the user in control of payment; this is an inference, and it appeals to travel planners
     willing to let AI operate but not to hand over payment authority.
+- id: req-full-travel-agent-2026-09-14
+  project_slug: travel-agent
+  level: full
+  reviewed_at: '2026-09-14T00:35:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨站预订中重复搜索、比价与填表的任务，痛点是多站行程的手工操作负担；公开说明显示代理在真实网站操作并在支付页停止，交付边界明确。这是工作流结构推理，尚无用户抱怨或耗时数据佐证痛点强度。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-dd415fec793bafba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 43 增至 60，说明开源社区持续关注，但公开证据没有用户评价、issue 讨论或复购留存，无法证明目标旅行者已把它留在工作流里；关注度不等于采用。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-dd415fec793bafba
+  - gate: model
+    status: insufficient
+    reason: 项目为开源桌面应用，公开材料未披露定价、付费主体或收入路径；to C 订阅、to B 差旅采购或 to VC 均属推断，尚无已验证的付费事实，这是商业证据缺口而非需求不存在。
+    evidence_ids:
+    - ev-5658a2955b526a01
+  - gate: truth
+    status: insufficient
+    reason: 在真实网站代操作涉及账号、验证码与反爬边界，公开材料只说明在支付页停止，未提供部署文档或可复现测试来证明预订流程能稳定完成，交付确定性尚未核验。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-cef10e16f639abb2
+  next_validation: 追踪该开源仓库的 README、issue 与 discussion，确认是否有用户报告在真实航司或酒店网站完成预订的复现记录与失败边界。
+  market: ''
+  job: 旅行规划者在计划一次多站行程时，需要跨多个航司、酒店和预订网站反复比价、填表、核对日期与价格，希望把「搜索—筛选—填写预订信息」这段重复劳动交给代理，自己只在最后确认并付款。
+  job_en: A trip planner working through a multi-leg itinerary must repeatedly compare prices, fill forms,
+    and verify dates and prices across airline, hotel, and booking sites; they want an agent to carry
+    the search-filter-fill portion while they confirm and pay at the end.
+  pain: 公开材料显示该产品在真实网站上操作并在支付页停止，说明其针对的痛点是跨站预订流程的重复操作与信息搬运；但公开证据未包含用户抱怨、耗时数据或放弃预订的后果，痛点强度属于工作流结构推理，而非用户口述事实。
+  pain_en: The public description shows the agent operating on real websites and stopping at the payment
+    page, implying the pain is repetitive cross-site booking work and information shuttling; public evidence
+    contains no user complaints, time data, or abandonment consequences, so pain intensity is a workflow
+    inference, not a stated user fact.
+  current_alternative: 当前替代方式是用户自己在浏览器中逐个打开航司、酒店和 OTA 页面，手动比价、复制日期与旅客信息并逐站填写；也可能使用只给建议、不代操作的通用聊天助手，最终仍要自己完成预订动作。
+  current_alternative_en: Today users open airline, hotel, and OTA pages one by one in a browser, manually
+    compare prices, copy dates and traveler details, and fill each booking; they may also use general
+    chat assistants that only advise and do not act, leaving the booking action to them.
+  usage_reason: 推断：相较手动逐站操作，该产品把「在真实网站上搜索、筛选并填写预订信息」这一段交给代理，用户只需在聊天旁核对并在支付页亲自完成付款，从而减少跨站重复填表和比价步骤；愿意接受代理代操作、但坚持自己掌控付款的用户会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manual site-by-site work, the product delegates the search, filter,
+    and booking-form steps to an agent on real websites, leaving the user to review beside the chat and
+    complete payment personally, cutting repeated cross-site form filling and price comparison; users
+    who accept agent-operated browsing but insist on controlling payment would choose it in that situation.'

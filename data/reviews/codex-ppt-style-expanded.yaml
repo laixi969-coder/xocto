@@ -186,3 +186,54 @@
     and draw.io diagrams in one pass, removing the ''generated but not editable, must re-layout'' step
     and cross-tool copying; consultants and researchers with recurring client or research deliverables
     would pick it when under deadline.'
+- id: req-full-codex-ppt-style-expanded-2026-09-14
+  project_slug: codex-ppt-style-expanded
+  level: full
+  reviewed_at: '2026-09-14T00:33:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把调研笔记与数据整理成可编辑演示文稿的需求，痛点在排版配图与叙事成型耗时、成品须可继续修改；公开仓库说明已给出输入、动作与交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-af5ee8a03c8ee3eb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 57 增至 85，说明开发者社区持续关注，但收藏属关注度证据，不能证明目标顾问或研究人员已把它留在汇报工作流里；缺少 issue、discussion 或使用反馈说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-af5ee8a03c8ee3eb
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费客户或采购记录，谁付钱、按什么单位收费均未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、可复现实测或交付样例，无法核验生成幻灯片是否稳定可编辑、AI 配图与 draw.io 环节是否确定性完成，以及人工与安全边界如何划分。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-af5ee8a03c8ee3eb
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现具体使用场景、部署说明或可复现的幻灯片交付样例。
+  market: ''
+  job: 咨询顾问或研究人员在准备客户汇报或研究分享时，把调研笔记、图表与数据交给 Codex，生成一套按受众与风格定制、可继续手工编辑的演示文稿，并需要 AI 配图与 draw.io 图形配合。
+  job_en: Consultants or researchers preparing client or research presentations hand research notes, charts
+    and data to Codex to produce an audience- and style-aware, still-editable slide deck, with AI visuals
+    and draw.io diagrams.
+  pain: 公开材料只给出产品定位，未提供用户抱怨或案例；从工作流结构推理，把零散笔记与数据转成结构清晰、受众适配的幻灯片通常要反复排版、配图与调整叙事，且交付物必须可编辑以便客户或团队继续修改，这一环节耗时且难以一次成型。
+  pain_en: Public materials give only the product positioning, not user complaints or cases; by workflow
+    inference, turning scattered notes and data into a structured, audience-fit deck usually means repeated
+    layout, illustration and narrative rework, and the deliverable must stay editable for clients or teammates
+    to revise, which is slow and hard to get right in one pass.
+  current_alternative: 旧做法是手工在 PowerPoint、Keynote 或 Google Slides 中逐页排版配图，或使用模板与通用 AI 生成工具产出后仍需大量返工；公开材料未说明用户具体如何绕过这一步。
+  current_alternative_en: The old way is manual page-by-page layout and illustration in PowerPoint, Keynote
+    or Google Slides, or generic AI generators whose output still needs heavy rework; public materials
+    do not show exactly how users work around this step.
+  usage_reason: 推断：相较手工逐页排版或通用生成后返工，它让 Codex 直接接收调研笔记与数据，按受众与风格一次性产出可编辑幻灯片，并调用 AI 配图与 draw.io 工作流补齐图形，从而减少排版与配图这两步负担；需要频繁做客户汇报或研究分享、又要求成品可继续修改的顾问与研究人员会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manual page-by-page layout or generic generation plus rework, it
+    lets Codex take research notes and data directly and produce editable slides in one pass by audience
+    and style, calling AI visuals and draw.io workflows for diagrams, cutting the layout and illustration
+    steps; consultants and researchers who present often and need a still-editable deliverable would choose
+    it in that situation.'

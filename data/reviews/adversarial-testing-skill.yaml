@@ -296,3 +296,41 @@
   usage_reason: 公开代码仓库有 43 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 43 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-adversarial-testing-skill-2026-09-14
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-09-14T00:32:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决发布前对抗性测试的需求，但材料未给出具体用户、旧流程与漏测后果，痛点无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它实际覆盖的测试范围、可复现的漏洞发现记录与是否有团队采用。
+  market: ''
+  job: 安全或研发人员在发布前需要对自己的产品做对抗性测试时，让一个 AI 读源码、另一个 AI 盲测当黑客，产出漏洞线索。
+  job_en: A security or R&D person preparing a release runs adversarial testing by having one AI read
+    the source and another attack blind as a hacker, producing vulnerability leads.
+  pain: 公开材料只有一句产品定位，没有给出具体用户、旧流程、漏测后果或发生频率，无法还原痛点强度。
+  pain_en: The public material is a single positioning line, giving no specific user, old workflow, missed-vulnerability
+    consequence or frequency, so pain intensity cannot be reconstructed.
+  current_alternative: 公开材料未说明用户此前如何做对抗测试，可能是人工渗透测试、SAST 工具或红队演练，均未在候选资料中出现。
+  current_alternative_en: The public material does not say how users previously ran adversarial testing,
+    possibly manual pentesting, SAST tools or red-team exercises; none appear in the candidate data.
+  usage_reason: 无法给出因果解释：材料没有说明它相较旧做法减少了哪一步或改善了哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus the old approach or which checkable result it improves, so which users would choose it and
+    when cannot be judged.'

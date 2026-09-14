@@ -393,3 +393,54 @@
     multiple scattered searches into one catalog browse and adding a pre-publish review step; developers
     extending their harness who also care about plugin provenance would choose it when setting up their
     environment.'
+- id: req-full-dsh-plugin-shop-2026-09-14
+  project_slug: dsh-plugin-shop
+  level: full
+  reviewed_at: '2026-09-14T00:33:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DeepSeek Harness 开发者寻找并甄别插件的需求：插件散落互联网、质量与安全不明，需自行搜索逐个验证。公开事实为每日更新、跨互联网收集、发布前审核；不采用的后果是重复检索与误装风险。此为工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-9da06bb648fbe898
+    - ev-a3a5f9d4779f6946
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 342 持续升至 718，说明开发者社区持续关注并把它加入收藏，属于关注度与初步采用信号；但无 issue、评价或复购证据，不能据此认定已长期留在工作流中。
+    evidence_ids:
+    - ev-9da06bb648fbe898
+    - ev-c45b9929bad3849a
+    - ev-f13e7dc3ae20bea9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、赞助、付费插件或采购记录，谁付钱、按什么收费均未核验；插件市场也可能由上游 Harness 生态或社区无偿维护，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-51facfdb617a4cb7
+  - gate: truth
+    status: insufficient
+    reason: “发布前审核”的具体标准、审核者身份、插件安全边界与更新失败处理均无公开文档；交付能否稳定发生、审核是否可复现尚缺证据，无法确认承诺的确定性。
+    evidence_ids:
+    - ev-4daede9644a52e96
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认插件收录标准、审核流程与是否有付费或赞助入口，以核验交付确定性与付费路径。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在需要为 Harness 增加插件能力时，面对散落在互联网各处的插件来源，要完成“找到可用插件并确认其可发布/可用”的任务，即从检索、筛选到安装前审核的一站式获取。
+  job_en: Developers using DeepSeek Harness who need to extend it with plugins must, when plugin sources
+    are scattered across the internet, complete the job of finding usable plugins and confirming they
+    are publishable/usable — a one-stop path from discovery and filtering to pre-install review.
+  pain: 公开材料只说明该市场“每日更新、从互联网收集、发布前审核”，未提供用户抱怨或案例；可推断的痛点是插件分散、质量与安全性不明，开发者需自行搜索并逐个甄别，缺少统一入口与审核背书。
+  pain_en: Public materials only state the market is refreshed daily, sourced across the internet, and
+    reviewed before publishing; no user complaints or cases are given. The inferable pain is that plugins
+    are scattered and of unclear quality or safety, forcing developers to search and vet each one without
+    a unified entry point or review endorsement.
+  current_alternative: 公开材料未描述现有替代方式；结构上可推断开发者目前依赖搜索引擎、公开代码仓库 检索或社区推荐逐个查找插件，自行判断可用性与安全性。
+  current_alternative_en: Public materials do not describe current alternatives; structurally, developers
+    likely rely on search engines, public code repository search, or community recommendations to find
+    plugins one by one and judge usability and safety themselves.
+  usage_reason: 推断：相较自行搜索与逐个甄别，该市场通过每日聚合互联网来源并在发布前审核，把“找插件”和“初步可信度判断”两步合并为一次浏览，因此需要快速获取可用插件、又不愿逐个验证来源的
+    Harness 开发者会在扩展功能时选择它。
+  usage_reason_en: 'Inference: compared with searching and vetting each plugin manually, the market aggregates
+    internet sources daily and reviews before publishing, merging ''find a plugin'' and ''initial credibility
+    check'' into one browsing step, so Harness developers who need plugins quickly and do not want to
+    verify each source would choose it when extending functionality.'

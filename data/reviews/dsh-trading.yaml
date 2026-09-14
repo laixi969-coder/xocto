@@ -363,3 +363,56 @@
     and order entry; dry-run by default with human approval on every live order makes it more likely to
     be chosen by traders who want AI assistance but insist on per-order confirmation in cross-market work.
     BYOK and no data redistribution reduce data-compliance concerns, but public material has no '
+- id: req-full-dsh-trading-2026-09-14
+  project_slug: dsh-trading
+  level: full
+  reviewed_at: '2026-09-14T00:33:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨市场行情分散与 AI 下单不可控两个需求：交易员要在加密、美股、A股、港股间切换数据源并手动下单，又不敢让 AI 直接执行。产品以 19+ 热插拔连接器、默认 dry-run、每笔实盘人工批准对应，属工作流结构推理，痛点刚性与交付路径可辨。
+    evidence_ids:
+    - ev-bd0ca52da1446d81
+    - ev-19f4f130a3e88e37
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由 132 增至 162，说明开发者社区持续关注，但公开材料没有用户评价、issue 讨论或客户案例说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-bd0ca52da1446d81
+    - ev-19f4f130a3e88e37
+  - gate: model
+    status: insufficient
+    reason: BYOK 与不转售数据暗示成本由用户自担，但公开材料没有定价页、付费记录或买方身份，to C 自用还是 to B 部署无法区分，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-19f4f130a3e88e37
+  - gate: truth
+    status: insufficient
+    reason: 默认 dry-run 与逐笔人工批准是公开承诺，但缺少部署文档、可复现实测或 issue 记录来验证连接器稳定性、订单执行是否确定发生以及人工边界是否真被强制。
+    evidence_ids:
+    - ev-bd0ca52da1446d81
+    - ev-19f4f130a3e88e37
+  next_validation: 追踪 dsh-trading 仓库的 issue、discussion 与 README/部署文档，确认是否有真实用户报告接入的市场、dry-run 与人工批准的实际执行情况，以及是否出现付费或商业部署记录。
+  market: ''
+  job: 交易员或量化分析师在同时盯加密货币、美股、A股和港股时，把多市场行情与账户数据接入同一三栏界面，让 AI 基于这些数据生成交易建议，并在人工逐笔批准后执行实盘订单。
+  job_en: A trader or quant analyst watching crypto, US, CN and HK markets at once connects multi-market
+    quotes and account data into one three-column GUI, has the AI generate trade suggestions from that
+    data, and executes live orders only after approving each one manually.
+  pain: 公开材料显示的核心摩擦是跨市场数据源分散与实盘下单风险：用户要在多个市场间切换数据源，而 AI 直接下单又不可接受。产品用 19+ 可热插拔连接器统一接入、默认 dry-run、每笔实盘订单人工批准来对应这两点，属于工作流结构推理，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The friction visible in public materials is fragmented multi-market data sources plus live-order
+    risk: users juggle connectors across markets, and letting an AI place orders unattended is unacceptable.
+    The product answers this with 19+ hot-swappable connectors, dry-run by default, and human approval
+    on every live order; this is workflow-structure inference, not yet backed by user complaints or cases.'
+  current_alternative: 旧做法是分别打开各市场的券商或交易所终端、自建脚本或表格拼接行情，再手动下单；AI 建议则来自通用对话工具，与下单环节脱节。公开材料未给出用户自述的替代流程，此对比为结构推理。
+  current_alternative_en: The old way is opening each market's broker or exchange terminal separately,
+    gluing quotes together with scripts or spreadsheets, then placing orders by hand; AI suggestions come
+    from generic chat tools disconnected from execution. Public materials give no first-person account
+    of this, so the comparison is structural inference.
+  usage_reason: 推断：相较多终端切换加手动下单，它把行情接入、建议生成和订单执行收进一个界面，并用 dry-run 加逐笔人工批准把风险控制留在用户手里，因此在意跨市场统一视图又不敢让 AI
+    自动下单的交易者会先试用它。仓库收藏从 132 增至 162 只说明关注度，不构成选择理由。
+  usage_reason_en: 'Inference: versus switching terminals and placing orders by hand, it folds data connection,
+    suggestion generation and order execution into one interface while keeping risk control with the user
+    via dry-run and per-order approval, so traders who want a unified cross-market view but won''t let
+    an AI trade unattended would try it. Stars rising from 132 to 162 show attention only, not a reason
+    to choose it.'

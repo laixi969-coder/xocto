@@ -1,0 +1,85 @@
+- id: req-initial-neopress-2026-09-14
+  project_slug: neopress
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决建站与内容维护这件事，但公开材料只有一句口号，说不清替代了哪一步旧工作、交付物是什么，价值结构无法还原。
+    evidence_ids:
+    - ev-1ecbaa0b28c7e61f
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何关注度、评价或采用数据，无法判断是否有人真的把它用于建站流程。
+    evidence_ids:
+    - ev-1ecbaa0b28c7e61f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或计费方式，钱从哪来无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1ecbaa0b28c7e61f
+  - gate: truth
+    status: insufficient
+    reason: 对话生成网站涉及发布权限与内容准确性，公开材料未说明人工确认环节，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-1ecbaa0b28c7e61f
+  next_validation: 收集该产品的官方定价页或客户案例，确认它按什么计价、交付的是可发布站点还是仅内容草稿。
+  market: ''
+  job: 独立站站长或内容运营在需要新建站点或持续更新页面时，用对话描述需求，让 AI 生成并调整网站内容，从而不必自己写代码或逐页编辑。
+  job_en: An independent site owner or content operator who needs to launch a site or keep updating pages
+    describes requirements in chat and lets AI generate and adjust site content, instead of writing code
+    or editing page by page.
+  pain: 公开材料只有一句产品口号，没有说明它替代的是建站工具、外包开发还是文案撰写，也没有说明改版和发布环节由谁完成，痛点无法定位。
+  pain_en: Public material offers only a product tagline, without saying whether it replaces a site builder,
+    outsourced development or copywriting, nor who handles revisions and publishing, so the pain point
+    cannot be located.
+  current_alternative: 目前站长通常使用建站平台模板、外包开发者或通用对话模型写文案，再手动粘贴到站点后台。
+  current_alternative_en: Site owners currently use website-builder templates, outsourced developers,
+    or general chat models for copy, then paste it into the site backend manually.
+  usage_reason: 推断：若对话能直接产出可发布的页面并保留后续修改入口，站长可能因为省去在编辑器与模型之间来回搬运内容而选择它；但公开材料没有定价、客户案例或使用数据支撑这一判断。
+  usage_reason_en: 'Inference: if chat directly produces publishable pages with a path for later edits,
+    site owners might choose it to avoid shuttling content between an editor and a model; however, public
+    material provides no pricing, customer cases or usage data to support this.'
+- id: req-full-neopress-2026-09-14
+  project_slug: neopress
+  level: full
+  reviewed_at: '2026-09-14T00:34:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决建站与内容维护这件事，但公开材料只有一句口号，说不清替代了哪一步旧工作、交付物是什么，价值结构无法还原。
+    evidence_ids:
+    - ev-1ecbaa0b28c7e61f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或客户案例，确认它按什么计价、交付的是可发布站点还是仅内容草稿。
+  market: ''
+  job: 独立站站长或内容运营在需要新建站点或持续更新页面时，用对话描述需求，让 AI 生成并调整网站内容，从而不必自己写代码或逐页编辑。
+  job_en: An independent site owner or content operator who needs to launch a site or keep updating pages
+    describes requirements in chat and lets AI generate and adjust site content, instead of writing code
+    or editing page by page.
+  pain: 公开材料只有一句产品口号，没有说明它替代的是建站工具、外包开发还是文案撰写，也没有说明改版和发布环节由谁完成，痛点无法定位。
+  pain_en: Public material offers only a product tagline, without saying whether it replaces a site builder,
+    outsourced development or copywriting, nor who handles revisions and publishing, so the pain point
+    cannot be located.
+  current_alternative: 目前站长通常使用建站平台模板、外包开发者或通用对话模型写文案，再手动粘贴到站点后台。
+  current_alternative_en: Site owners currently use website-builder templates, outsourced developers,
+    or general chat models for copy, then paste it into the site backend manually.
+  usage_reason: 推断：若对话能直接产出可发布的页面并保留后续修改入口，站长可能因为省去在编辑器与模型之间来回搬运内容而选择它；但公开材料没有定价、客户案例或使用数据支撑这一判断。
+  usage_reason_en: 'Inference: if chat directly produces publishable pages with a path for later edits,
+    site owners might choose it to avoid shuttling content between an editor and a model; however, public
+    material provides no pricing, customer cases or usage data to support this.'

@@ -29,7 +29,7 @@ canonical_url: https://ardent.ai
 summary: a code-first agent for non-engineering work
 first_seen: '2026-09-03T15:01:24Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

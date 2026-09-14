@@ -21,7 +21,7 @@ canonical_url: https://singjupost.com/startalk-there-is-no-ai-really-its-just-pe
 summary: There Is No AI (It's Just People) with Jaron Lanier
 first_seen: '2026-09-13T19:41:06Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

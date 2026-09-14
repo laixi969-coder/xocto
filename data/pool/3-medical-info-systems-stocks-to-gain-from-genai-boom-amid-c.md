@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQjYxWk90OW85
 summary: 3 Medical Info Systems Stocks to Gain From GenAI Boom Amid Cyber Risk The Globe and Mail
 first_seen: '2026-09-11T15:32:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

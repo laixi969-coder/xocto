@@ -86,3 +86,50 @@
     manual aggregation and review-synthesis steps, so developers or analysts needing a traceable decision
     basis would choose it for high-confidence judgments; no user feedback is public, so continued use
     is unproven.'
+- id: req-full-dsh-council-2026-09-14
+  project_slug: dsh-council
+  level: full
+  reviewed_at: '2026-09-14T00:33:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型结论难以核对、缺少可追溯依据的需求，痛点是人工逐个提问比对需重复输入与手工汇总；不采用则只能采信单一模型或自行比对。公开材料未说明具体输入材料与适用任务范围，价值判断基于工作流结构推理。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 53 增至 72 属开源关注度，不能说明任何人群已形成使用共识；公开材料未提供用户评价、案例或重复使用证据，无法判断是否被留在工作流里。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+    - ev-3d934bda9143ab34
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，无法判断钱来自个人开发者还是团队采购；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: truth
+    status: insufficient
+    reason: 多模型互评是否真能提高结论可靠性、人工边界如何设定，公开材料未提供可核对结果；仅凭仓库描述无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认它实际接收的问题类型、输出结论形态，以及是否有使用者报告在真实决策中采用。
+  market: ''
+  job: 开发者或分析人员在需要高置信度结论时，把同一问题交给多个模型独立作答并匿名互评，再人工查看可追溯的最终决策依据，以决定是否采纳该结论。
+  job_en: A developer or analyst needing a high-confidence conclusion sends one question to multiple models
+    for independent answers and anonymous peer review, then manually inspects a traceable final decision
+    basis before deciding whether to adopt it.
+  pain: 单一模型回答难以核对，缺少可追溯依据；人工分别向多个模型提问再比对，需要重复输入、手工汇总，且无法区分哪个答案更可靠。
+  pain_en: A single model's answer is hard to verify and lacks a traceable basis; manually querying several
+    models and comparing requires repeated input and manual aggregation, with no way to tell which answer
+    is more reliable.
+  current_alternative: 现有做法是分别向多个模型提问并人工比对，或直接采信单一模型的回答。
+  current_alternative_en: The current practice is to query several models separately and compare manually,
+    or simply trust one model's answer.
+  usage_reason: 推断：相较人工逐个模型提问再比对，它把独立作答、匿名互评和最终结论串成一次流程，减少重复输入与手工汇总步骤，并留下可查看的推理过程；因此需要高置信度结论、又不想手工比对的开发者或分析人员会在做重要判断时选择它。公开材料没有用户反馈或采用证据，无法确认是否被持续使用。
+  usage_reason_en: 'Inference: compared with querying each model manually and comparing, it chains independent
+    answers, anonymous peer review and a final conclusion into one flow, cutting repeated input and manual
+    aggregation while leaving an inspectable reasoning trace; so a developer or analyst needing a high-confidence
+    conclusion without manual comparison would choose it for important judgments. There is no user feedback
+    or adoption evidence to confirm continued use.'

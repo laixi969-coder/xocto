@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0JvdHhjOW1s
 summary: 'AI Agent Companies in 2026: The Companies Building the Future of Agentic AI BBN Times'
 first_seen: '2026-09-13T21:30:22Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

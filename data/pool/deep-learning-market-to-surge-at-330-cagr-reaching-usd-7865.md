@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSW1hMlhDSGE2
 summary: Deep Learning Market to Surge at 33.0% CAGR, Reaching USD 786.5 Billion by 2035 EIN News
 first_seen: '2026-09-11T13:08:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

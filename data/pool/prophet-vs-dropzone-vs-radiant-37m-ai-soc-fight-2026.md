@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxOaGVuREhjcXFl
 summary: 'Prophet vs Dropzone vs Radiant: $37M AI SOC Fight [2026] tech-insider.org'
 first_seen: '2026-09-13T13:24:05Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

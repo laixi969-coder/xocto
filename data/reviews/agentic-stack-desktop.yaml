@@ -1,0 +1,89 @@
+- id: req-initial-agentic-stack-desktop-2026-09-14
+  project_slug: agentic-stack-desktop
+  level: initial
+  reviewed_at: '2026-09-14T00:12:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多助手之间上下文割裂的问题，但材料未给出具体旧做法与不采用的后果，痛点无法还原。
+    evidence_ids:
+    - ev-77186790b716d27b
+  - gate: consensus
+    status: insufficient
+    reason: 59 星、9 次 fork 属于关注度证据，不能说明持续采用，也无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-77186790b716d27b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，没有定价或付费路径信息，买方与收费方式无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-77186790b716d27b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对本地知识图谱是否贴近真实开发流程、共享是否确定发生，也看不到安全与人工边界。
+    evidence_ids:
+    - ev-77186790b716d27b
+  next_validation: 收集该仓库的 README 与 issue，确认知识图谱收录范围、更新方式以及是否有团队持续使用。
+  market: ''
+  job: 同时使用多个编码助手的开发者，在几个工具之间切换处理同一份代码库时，需要让它们共用同一份本地上下文而不重复交代项目背景。
+  job_en: A developer using several coding assistants, when switching between tools on the same codebase,
+    needs them to share one local context instead of re-explaining the project each time.
+  pain: 候选材料只说明它共享本地知识图谱，没有说明开发者当前重复交代上下文的具体代价，也没有用户抱怨或案例支持。
+  pain_en: The candidate only says it shares a local knowledge graph, without stating the concrete cost
+    of re-explaining context today, and no user complaints or cases support it.
+  current_alternative: 公开材料未说明开发者此前如何处理跨工具上下文，可能是各自维护配置文件或手工粘贴，均未在候选资料中出现。
+  current_alternative_en: The public material does not say how developers previously handled cross-tool
+    context, possibly separate config files or manual pasting; neither appears in the candidate data.
+  usage_reason: 无法给出因果解释：材料没有说明相较各自维护配置，它减少了哪一步或改善了哪项可核对结果，因此无法判断谁会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus separate configs or which checkable result it improves, so who would choose it and when cannot
+    be judged.'
+- id: req-full-agentic-stack-desktop-2026-09-14
+  project_slug: agentic-stack-desktop
+  level: full
+  reviewed_at: '2026-09-14T00:32:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码助手之间上下文割裂：开发者同时用 Claude Code、Codex、OpenCode 与 Cursor 处理同一代码库，换工具就要重复交代项目背景。旧做法是各自维护配置或手工粘贴，不解决的后果是重复劳动与上下文不一致。公开事实仅证明产品提供跨四个助手的本地知识图谱，痛点刚性属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-77186790b716d27b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 59 星、9 次 fork 只是关注度证据，不能说明开发者已把它留在日常工作流；公开材料没有 issue、discussion 或评价，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-77186790b716d27b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、付费主体或单位经济，to C 开发者自用、to B 团队采购还是 to VC 叙事无法判断；这是商业证据缺口，不反推需求不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-77186790b716d27b
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只承诺一份本地知识图谱，未给出收录范围、更新方式、冲突处理与安全边界的可复现证据，交付能否稳定发生尚不可核对。
+    evidence_ids:
+    - ev-77186790b716d27b
+  next_validation: 追踪该仓库 README 与 issue，确认本地知识图谱的收录范围与更新方式，以及是否有开发者在真实项目中持续使用。
+  market: ''
+  job: 同时使用 Claude Code、Codex、OpenCode 与 Cursor 的 macOS 开发者，在同一个代码库上切换工具时，需要让这些助手共用一份本地知识图谱，而不是为每个工具重复交代项目背景。
+  job_en: A macOS developer running Claude Code, Codex, OpenCode and Cursor on one codebase needs those
+    assistants to share a single local knowledge graph instead of re-explaining the project to each tool.
+  pain: 多助手并行时上下文各自为政，换工具就要重新交代项目结构、约定与历史决策；公开材料只描述共享本地知识图谱这一能力，没有用户抱怨或案例，因此痛感强度属工作流结构推理而非已验证事实。
+  pain_en: 'With several assistants in parallel, context is siloed: switching tools means re-explaining
+    project structure, conventions and past decisions. Public material only describes the shared local
+    knowledge graph capability, with no user complaints or cases, so pain intensity is workflow inference,
+    not verified fact.'
+  current_alternative: 旧做法是每个助手各自维护配置文件与项目说明，或手工把上下文粘贴进新会话；跨工具时这些配置互不相通，也没有统一的知识图谱。
+  current_alternative_en: The old approach is per-assistant config files and project notes, or manually
+    pasting context into a new session; across tools these do not connect and there is no unified knowledge
+    graph.
+  usage_reason: 推断：相较各自维护配置，它把四个助手接到同一份本地知识图谱，省去在每个工具里重复交代项目背景这一步，并让切换工具后仍能读到同一份上下文；因此同时跑多个编码助手、且在意上下文一致的
+    macOS 开发者会在切换工具时选择它。
+  usage_reason_en: 'Inference: versus separate configs, it points all four assistants at one local knowledge
+    graph, removing the step of re-explaining project background in each tool and keeping the same context
+    readable after switching. macOS developers running several coding assistants who care about context
+    consistency would therefore pick it when switching tools.'

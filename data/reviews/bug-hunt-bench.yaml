@@ -174,3 +174,52 @@
   usage_reason_en: 'Inference: unlike vendor-reported scores, it runs the same real bugs inside each model''s
     own CLI and grades blind with every receipt published, letting selectors verify a model''s behavior
     on specific bugs, so developers making or reviewing a model choice consult it before deciding.'
+- id: req-full-bug-hunt-bench-2026-09-14
+  project_slug: bug-hunt-bench
+  level: full
+  reviewed_at: '2026-09-14T00:33:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码模型选型时缺少可核对横向对比的需求：厂商自报基准口径不一，选错模型会带来持续返工与迁移成本。公开说明已给出固定 105 个真实缺陷、各模型在自身 CLI 作答、盲评与逐条记录，输入—动作—交付闭环可还原，属工作流结构推理；尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-29249af370247685
+    - ev-0d8b4b9c9242590c
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的采用信号仅为代码仓库收藏数从 46 增至 58，属关注度而非持续使用；没有开发者讨论、复现记录或选型决策引用，无法判断它是否进入真实选型流程。
+    evidence_ids:
+    - ev-29249af370247685
+    - ev-0d8b4b9c9242590c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购路径，无法判断收入来自模型厂商赞助、企业订阅还是免费公益榜单；这是商业证据缺口，不否定已成立的需求结构。
+    evidence_ids:
+    - ev-29249af370247685
+  - gate: truth
+    status: insufficient
+    reason: 评测集是否持续更新、是否覆盖私有代码库、盲评由谁执行与如何防止污染，公开说明均未交代；交付的确定性与人工边界尚缺可复现证据。
+    evidence_ids:
+    - ev-29249af370247685
+    - ev-e3912d51b9309ac3
+  next_validation: 追踪 Bug Hunt Bench 官网与代码仓库的更新日志、issue 与 discussion，确认评测集是否持续扩充、盲评流程与评分脚本是否公开可复现。
+  market: ''
+  job: 开发者在为团队或项目挑选编码模型时，面对两个生产仓库中的 105 个真实缺陷，需要让 GPT-6、Claude、Grok、Gemini、DeepSeek 等前沿模型在各自 CLI 中定位并修复，再依据盲评排行榜与逐条记录完成横向对比。
+  job_en: When choosing a coding model for a team or project, developers need frontier models (GPT-6,
+    Claude, Grok, Gemini, DeepSeek) to locate and fix 105 real bugs in two production repos inside their
+    own CLIs, then compare them via a blind-graded leaderboard and per-case receipts.
+  pain: 各家模型厂商自报的基准成绩口径不一、可挑选空间大，选型者缺少可核对的第三方横向对比，一旦选错模型，团队会在日常编码与修缺陷环节持续承担返工与迁移成本。
+  pain_en: Vendor-reported benchmark scores use inconsistent, cherry-pickable setups, so evaluators lack
+    a checkable third-party comparison; picking the wrong model imposes recurring rework and migration
+    cost in daily coding and bug-fixing.
+  current_alternative: 当前替代方式是直接采信厂商自报基准、零散博客评测或自行搭建临时评测脚本，这些做法要么口径不可核对，要么需要自己投入工程成本复现。
+  current_alternative_en: Today evaluators rely on vendor-reported benchmarks, scattered blog reviews,
+    or self-built ad-hoc eval scripts — either unverifiable in setup or requiring their own engineering
+    effort to reproduce.
+  usage_reason: 相较采信厂商自报成绩或自建评测，它把同一批 105 个真实缺陷固定下来，让各模型在自身 CLI 中作答并盲评，公开逐条记录，使选型者省去自行搭建评测与对齐口径的步骤，并得到可逐条核对的对比结果；这是基于产品说明与工作流结构的推断，尚无用户反馈证实其被长期采用。
+  usage_reason_en: Versus trusting vendor benchmarks or building an eval in-house, it fixes the same 105
+    real bugs, runs each model in its own CLI with blind grading, and publishes every receipt — removing
+    the step of building and calibrating an eval and yielding a per-case checkable comparison; this is
+    inference from product description and workflow structure, not confirmed long-term adoption.

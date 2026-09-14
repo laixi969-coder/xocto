@@ -327,3 +327,53 @@
     shoot and the per-clip vendor step; keeping keys in the browser also answers concerns about handing
     footage to a third party. That is why creators who dislike being on camera yet revise scripts often
     would pick it. No user feedback or case study yet confirms this motive.'
+- id: req-full-video-ai-talking-2026-09-14
+  project_slug: video-ai-talking
+  level: full
+  reviewed_at: '2026-09-14T00:35:50Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播视频必须本人反复出镜录制的问题：录制耗时、NG 重录、素材外传顾虑是刚性摩擦，旧做法是自录或云端数字人。产品以本机配音加口型对齐、密钥不出浏览器完成交付，属工作流结构推理，公开仓库说明可还原输入与产出。
+    evidence_ids:
+    - ev-47a4be36b24e22b0
+    - ev-8c55ccb280d265d9
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 325 增至 387，说明持续有人关注并把它加入备选；但公开材料只有星标，没有 issue、评价或复刻后的实际使用记录，无法证明它已进入稳定工作流，故共识仅到关注层。
+    evidence_ids:
+    - ev-47a4be36b24e22b0
+    - ev-8c55ccb280d265d9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，开源仓库本身不显示收入路径；这是判断而非已验证事实，买方可能来自个人创作者或代运营团队，但均无公开采购或订阅证据支撑。
+    evidence_ids:
+    - ev-47a4be36b24e22b0
+  - gate: truth
+    status: insufficient
+    reason: 口型对齐与配音质量能否稳定交付、失败率与人工修正边界，公开材料未提供可复现的实测或部署文档；密钥仅留浏览器是承诺，尚无独立验证其安全与效果。
+    evidence_ids:
+    - ev-47a4be36b24e22b0
+    - ev-8c55ccb280d265d9
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际口播成片效果、部署方式与使用频率。
+  market: ''
+  job: 真人口播创作者或短视频运营在需要批量产出竖屏口播视频、但本人不愿或无法反复出镜录制时，上传一段真人出镜素材并写好字幕，由工具在本机完成配音与口型对齐，输出可直接发布的竖屏 MP4。
+  job_en: A talking-head creator or short-video operator who must ship vertical talking-head clips at
+    volume but cannot or will not re-shoot on camera uploads one real on-camera clip plus a script, and
+    the tool dubs and lip-syncs locally to output a publish-ready vertical MP4.
+  pain: 口播内容的核心成本在录制环节：反复对镜念稿、NG 重录、状态与光线不稳定，一条成片往往要多次拍摄；不解决则产能被录制时间锁死，或被迫放弃真人出镜形式改用无人物料，损失账号人格化与信任感。
+  pain_en: 'The bottleneck is the shoot itself: repeated on-camera takes, retakes after flubs, and unstable
+    delivery or lighting mean each finished clip costs multiple recording sessions; leaving it unsolved
+    caps output at recording throughput or forces creators to abandon the talking-head format and lose
+    the persona and trust it carries.'
+  current_alternative: 旧做法是自己对镜反复录制、请人代拍或找剪辑外包；也可用云端数字人口播 SaaS，但需上传素材到第三方服务器并按其额度付费。
+  current_alternative_en: The old path is repeated self-recording, hiring someone to shoot, or outsourcing
+    editing; alternatively cloud digital-human SaaS, which requires uploading footage to a third-party
+    server and paying per usage.
+  usage_reason: 相较反复自录或云端数字人，它把配音与口型对齐放到浏览器本机执行、密钥不出本地，创作者只需一段已拍素材加字幕即可产出竖屏成片，省掉重录与素材外传这两步；推断在意外泄素材或想省录制时间的口播创作者会因此选择它。
+  usage_reason_en: Versus re-shooting or cloud digital humans, it runs dubbing and lip-sync locally in
+    the browser with keys never leaving the machine, so a creator needs only one existing clip plus subtitles
+    to get a vertical cut, removing both the retake step and the footage-upload step; inferred that creators
+    wary of leaking footage or wanting to skip re-shoots would pick it.

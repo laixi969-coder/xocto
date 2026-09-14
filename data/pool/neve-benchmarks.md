@@ -21,7 +21,7 @@ canonical_url: https://github.com/NoSavedDATA/Neve_benchmarks
 summary: Deeplearning from Scratch in 1400 Lines In my own Programming Language
 first_seen: '2026-09-13T14:18:01Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

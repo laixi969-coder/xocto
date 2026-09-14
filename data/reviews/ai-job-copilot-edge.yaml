@@ -1,0 +1,90 @@
+- id: req-initial-ai-job-copilot-edge-2026-09-14
+  project_slug: ai-job-copilot-edge
+  level: initial
+  reviewed_at: '2026-09-14T00:12:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者逐条比对职位与简历、再手工投递的重复劳动，旧行为明确且不采用就要继续耗时间，痛点刚性可判。
+    evidence_ids:
+    - ev-0951d8cb54e1591b
+  - gate: consensus
+    status: insufficient
+    reason: 122 星属于关注度证据，不能说明持续采用；强场景存在，但共识卡在感知还是场景无法判断。
+    evidence_ids:
+    - ev-0951d8cb54e1591b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，没有定价或付费路径信息，买方是求职者本人还是猎头无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0951d8cb54e1591b
+  - gate: truth
+    status: insufficient
+    reason: 保留人工确认是正向信号，但匹配依据与投递结果无法核对，交付确定性尚未验证。
+    evidence_ids:
+    - ev-0951d8cb54e1591b
+  next_validation: 收集该仓库的 README 与 issue，确认匹配依据、支持的招聘站点以及是否有用户报告实际投递或面试结果。
+  market: ''
+  job: 正在找工作的求职者在浏览招聘网站时，需要把大量职位按自己的简历筛一遍，再决定投哪些，并完成投递动作。
+  job_en: A job seeker browsing recruitment sites needs to filter a large set of postings against their
+    own resume, decide which to apply to, and complete the application.
+  pain: 海量职位与个人简历的匹配需要逐条人工阅读，重复且耗时；候选材料未给出用户抱怨或案例，此痛点为基于任务结构的工作流推理。
+  pain_en: Matching a large set of postings against one resume requires reading each one manually, which
+    is repetitive and slow; the candidate gives no user complaints or cases, so this pain is workflow
+    inference from the task structure.
+  current_alternative: 求职者此前通常靠招聘站关键词搜索、逐条阅读职位描述并手工填写投递表单，这是公开可观察的旧行为。
+  current_alternative_en: Job seekers previously relied on keyword search on job boards, reading each
+    description and filling application forms by hand, which is publicly observable old behavior.
+  usage_reason: 推断：相较逐条阅读和手工填表，它把筛选与匹配放在浏览页面内一次完成，并在投递前保留人工确认，减少的是逐条比对职位描述这一步；因此批量投递效率低的求职者会在集中找工作的阶段选择它。
+  usage_reason_en: 'Inference: versus reading each posting and filling forms by hand, it completes filtering
+    and matching inside the browsing page and keeps human confirmation before applying, removing the step
+    of comparing each description; job seekers with low mass-application efficiency would therefore choose
+    it during an intensive search period.'
+- id: req-full-ai-job-copilot-edge-2026-09-14
+  project_slug: ai-job-copilot-edge
+  level: full
+  reviewed_at: '2026-09-14T00:32:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者逐条比对职位与简历、再手工投递的重复劳动，旧替代行为明确，不采用就要继续耗时间，痛点刚性可判；但候选材料只有仓库自述，无用户抱怨或案例，此为工作流结构推理。
+    evidence_ids:
+    - ev-0951d8cb54e1591b
+  - gate: consensus
+    status: insufficient
+    reason: 122 星只是关注度证据，不能说明持续采用；强场景存在，但共识卡在感知还是场景无法从公开材料判断。
+    evidence_ids:
+    - ev-0951d8cb54e1591b
+  - gate: model
+    status: insufficient
+    reason: 开源项目没有定价或付费路径信息，买方是求职者本人还是猎头无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0951d8cb54e1591b
+  - gate: truth
+    status: insufficient
+    reason: 投递前保留人工确认是正向信号，但匹配依据、支持的招聘站点与投递结果均无法核对，交付确定性尚未验证。
+    evidence_ids:
+    - ev-0951d8cb54e1591b
+  next_validation: 收集该仓库 README 与 issue，确认匹配依据、支持的招聘站点，以及是否有用户报告实际投递或面试结果。
+  market: ''
+  job: 正在集中找工作的求职者在浏览招聘网站时，处理大量职位描述和自己的简历材料，要完成按匹配度筛出值得投的职位并在确认后提交投递这一任务。
+  job_en: A job seeker in an intensive search, while browsing recruitment sites, handles many job descriptions
+    and their own resume, and must filter postings worth applying to by fit and submit applications after
+    confirming.
+  pain: 逐条阅读职位描述并与简历比对、再手工填写投递表单，是重复且耗时的动作；候选材料只有仓库自述，没有用户抱怨或案例，因此该痛点是基于任务结构的工作流推理。
+  pain_en: Reading each posting, comparing it with the resume, and filling application forms by hand is
+    repetitive and slow; the candidate only has the repository's own description and no user complaints
+    or cases, so this pain is workflow inference from the task structure.
+  current_alternative: 求职者此前通常靠招聘站关键词搜索、逐条阅读职位描述、自己判断匹配度并手工填写投递表单，这是公开可观察的旧行为。
+  current_alternative_en: Job seekers previously relied on keyword search on job boards, reading each
+    description, judging fit themselves, and filling application forms by hand, which is publicly observable
+    old behavior.
+  usage_reason: 推断：相较逐条阅读和手工填表，它在浏览页面内一次完成筛选与简历匹配，并把投递动作放在人工确认之后，减少的是逐条比对职位描述这一步；因此处于集中投递阶段、需要处理大量职位的求职者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus reading each posting and filling forms by hand, it completes filtering
+    and resume matching inside the browsing page and places the apply action after human confirmation,
+    removing the step of comparing each description; job seekers handling many postings during an intensive
+    application period would therefore choose it in that situation.'

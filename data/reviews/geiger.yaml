@@ -144,3 +144,45 @@
   usage_reason_en: 'No evidence-backed usage reason can be given: the evidence does not show who would
     choose it under what circumstances or which step it removes versus the old approach, so no judgeable
     demand structure exists.'
+- id: req-full-geiger-2026-09-14
+  project_slug: geiger
+  level: full
+  reviewed_at: '2026-09-14T00:33:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名家具公司、促销品分销商与盖革计数器，没有一条能说明该产品解决什么需求、什么痛点，连用户任务与旧替代都无法从证据还原。
+    evidence_ids:
+    - ev-04bbc284f2b1ab20
+    - ev-b0a7e1b302b2cdee
+    - ev-d9d02fb563eb47d3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官方仓库或发布页的 README、issue 与 discussion，核对它实际能识别哪些 AI agent 与 MCP server、是否有可复现的扫描输出说明。
+  market: ''
+  job: 开发者或安全工程师在本地开发机上排查已安装的 AI agent、MCP server 与插件，需要先弄清有哪些组件、各自能访问什么，再决定是否保留或收紧权限。
+  job_en: A developer or security engineer on a local dev machine inspecting installed AI agents, MCP
+    servers and plugins, needing to know which components exist and what each can reach before deciding
+    what to keep or restrict.
+  pain: 公开证据中没有一条能说明该产品所针对的痛点：现有证据全部指向家具公司、促销品分销商和盖革计数器，没有任何关于 AI agent 清单缺失或权限不可见的用户抱怨、案例或行为记录。
+  pain_en: 'None of the public evidence describes the pain this product targets: all evidence points to
+    a furniture company, a promotional-products distributor and a radiation detector, with no user complaint,
+    case or behavior record about missing AI agent inventories or invisible permissions.'
+  current_alternative: 公开材料未提供任何关于开发者当前如何清点 AI agent 或 MCP server 的替代方式证据。
+  current_alternative_en: The public material provides no evidence of how developers currently inventory
+    AI agents or MCP servers.
+  usage_reason: 无法从公开证据判断用户为何会选择它：现有证据与产品能力无关，缺少任何可归因到该产品的用户反馈、案例或使用记录。
+  usage_reason_en: 'Cannot determine from public evidence why users would choose it: the available evidence
+    is unrelated to the product, and there is no attributable user feedback, case or usage record.'

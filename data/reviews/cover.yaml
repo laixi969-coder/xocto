@@ -476,3 +476,81 @@
     one reversible pipeline, removing the step of rewriting de-identification logic for every new model
     integration and making restoration verifiable; teams handling large volumes of personal data would
     choose it when connecting to external models.'
+- id: req-initial-cover-2026-09-14
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-14T00:13:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把真实客户数据交给外部模型时的合规与保密痛点，旧做法是人工编造假数据再手工对回，不采用就要么违规要么放弃外部模型。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有开源仓库的星标与社区讨论热度，没有企业采购、合规团队采用或客户案例，卡在场景认知而非关注度。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或收费方式，买方可能是企业安全与合规预算，也可能是开发者自用，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 替换与还原的准确度、是否覆盖结构化字段与长文本、出错时如何人工兜底均未在公开材料中说明。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，核验其支持的字段类型、还原准确度说明以及是否有企业部署案例。
+  market: ''
+  job: 开发者在把含真实客户信息的文本或字段送进第三方大模型接口前，需要先替换成格式一致的假数据，拿到模型返回后再在本地还原成真实值。
+  job_en: Before sending text or fields containing real customer information to a third-party LLM API,
+    a developer needs to substitute format-consistent fakes, then restore the real values locally from
+    the model's response.
+  pain: 把真实数据直接发给外部模型会触碰合规与客户保密要求，而手工编造假数据再逐条对回原文既慢又容易出错。
+  pain_en: Sending real data straight to an external model runs into compliance and client-confidentiality
+    rules, while hand-writing fakes and mapping them back to the originals is slow and error-prone.
+  current_alternative: 目前常见做法是人工编造假数据、在提示词里要求模型不要记录敏感信息，或干脆放弃使用外部模型。
+  current_alternative_en: Common workarounds today are manually inventing fake data, adding prompt instructions
+    telling the model not to retain sensitive information, or simply not using external models.
+  usage_reason: 相较人工编造与手工对回，它在请求发出前自动完成替换、在本地自动还原，省掉逐条比对这一步；推断，因为尚无用户反馈或客户案例说明实际采用动机。
+  usage_reason_en: Compared with manual fabrication and hand-mapping, it automates substitution before
+    the request leaves and restoration locally, removing the line-by-line reconciliation step; this is
+    inference, since no user feedback or customer case documents the actual adoption motive.
+- id: req-full-cover-2026-09-14
+  project_slug: cover
+  level: full
+  reviewed_at: '2026-09-14T00:33:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，核验其支持的字段类型、还原准确度说明以及是否有企业部署案例。
+  market: ''
+  job: 开发者在把含真实客户信息的文本或字段送进第三方大模型接口前，需要先替换成格式一致的假数据，拿到模型返回后再在本地还原成真实值。
+  job_en: Before sending text or fields containing real customer information to a third-party LLM API,
+    a developer needs to substitute format-consistent fakes, then restore the real values locally from
+    the model's response.
+  pain: 把真实数据直接发给外部模型会触碰合规与客户保密要求，而手工编造假数据再逐条对回原文既慢又容易出错。
+  pain_en: Sending real data straight to an external model runs into compliance and client-confidentiality
+    rules, while hand-writing fakes and mapping them back to the originals is slow and error-prone.
+  current_alternative: 目前常见做法是人工编造假数据、在提示词里要求模型不要记录敏感信息，或干脆放弃使用外部模型。
+  current_alternative_en: Common workarounds today are manually inventing fake data, adding prompt instructions
+    telling the model not to retain sensitive information, or simply not using external models.
+  usage_reason: 相较人工编造与手工对回，它在请求发出前自动完成替换、在本地自动还原，省掉逐条比对这一步；推断，因为尚无用户反馈或客户案例说明实际采用动机。
+  usage_reason_en: Compared with manual fabrication and hand-mapping, it automates substitution before
+    the request leaves and restoration locally, removing the line-by-line reconciliation step; this is
+    inference, since no user feedback or customer case documents the actual adoption motive.

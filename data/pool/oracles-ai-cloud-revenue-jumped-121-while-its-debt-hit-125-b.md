@@ -1,6 +1,6 @@
 ---
 slug: oracles-ai-cloud-revenue-jumped-121-while-its-debt-hit-125-b
-name: Oracle's AI Cloud Revenue Jumped 121% While Its Debt Hit $125 Billion
+name: Oracle
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQWlFHR3MzVkR0
 summary: Oracle's AI Cloud Revenue Jumped 121% While Its Debt Hit $125 Billion Startup Fortune
 first_seen: '2026-09-12T10:15:08Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Oracle's AI Cloud Revenue Jumped 121% While Its Debt Hit $125 Billion
+# Oracle
 
 Oracle's AI Cloud Revenue Jumped 121% While Its Debt Hit $125 Billion Startup Fortune
 

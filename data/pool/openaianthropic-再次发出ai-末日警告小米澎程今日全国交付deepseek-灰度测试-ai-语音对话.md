@@ -1,6 +1,6 @@
 ---
 slug: openaianthropic-再次发出ai-末日警告小米澎程今日全国交付deepseek-灰度测试-ai-语音对话
-name: OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话
+name: DeepSeek
 builder: ''
 category: ''
 summary_zh: ''
@@ -74,7 +74,7 @@ summary: "OpenAI 首席执行官：今年不会上市，不能冒哪怕 10% 杀�
   \ Anthropic 及其竞争对手 OpenAI 的最新版本 AI 系统被发现能够绕过限制并入侵计算机网络，此类观点获得了更多支持。（来源：澎湃新闻）"
 first_seen: '2026-09-13T00:22:31Z'
 last_seen: '2026-09-14T00:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -85,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话
+# DeepSeek
 
 OpenAI 首席执行官：今年不会上市，不能冒哪怕 10% 杀死所有人的风险 
  OpenAI 首席执行官 Sam Altman 在接受采访时表示，这家人工智能公司专注于解决围绕 AI 技术的安全担忧，今年不会上市。 

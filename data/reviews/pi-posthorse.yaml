@@ -234,3 +234,53 @@
     and history recovery to turn context rebuilding from manual work into a built-in agent action, so
     Pi-fork users with frequent long sessions would choose it when a session grows and the same task must
     continue across windows.'
+- id: req-full-pi-posthorse-2026-09-14
+  project_slug: pi-posthorse
+  level: full
+  reviewed_at: '2026-09-14T00:35:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理长会话上下文丢失：窗口填满后代理遗忘早前决策与文件状态，开发者被迫重述或重开会话，造成返工。旧替代是摘要压缩与手动重述，均会丢细节。仓库说明以无摘要窗口、滚动工具、持久笔记与历史恢复交付，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-3e42af290db1a5db
+    - ev-538c914d45736dd6
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 214 增至 243，说明该 fork 的扩展持续被开发者关注与收藏；但收藏属关注度证据，不能证明已长期嵌入工作流，持续采用仍缺 issue、讨论或使用反馈佐证。
+    evidence_ids:
+    - ev-3e42af290db1a5db
+    - ev-671bec86c78ba020
+  - gate: model
+    status: insufficient
+    reason: 这是开源 fork 扩展，公开材料未见定价页、赞助、商业授权或企业采购路径，谁付钱、按什么单位收费均未核验；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-3e42af290db1a5db
+  - gate: truth
+    status: insufficient
+    reason: 无摘要上下文窗口与历史恢复能否在长会话中稳定交付、滚动时是否遗漏关键状态、以及人工介入边界，公开材料只有一句仓库描述，缺部署文档或可复现实测。
+    evidence_ids:
+    - ev-3e42af290db1a5db
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认无摘要上下文窗口在长会话中的实际行为、滚动与历史恢复的失败案例，以及是否出现付费或赞助入口。
+  market: ''
+  job: 使用 Pi 编码代理（fitchmultz/pi fork）的开发者，在跨越多轮、长时间运行的编码会话中，处理不断累积的对话与代码上下文，需要在不丢失既有决策与文件状态的前提下继续下一段工作。
+  job_en: Developers running the Pi coding agent (fitchmultz/pi fork) across long, multi-turn coding sessions
+    handle accumulating conversation and code context and must continue the next stretch of work without
+    losing prior decisions or file state.
+  pain: 长会话中上下文窗口被填满后，代理会遗忘早前的决策、文件改动与约束，开发者被迫重复交代背景或重开会话，导致返工与错误累积；这是编码代理工作流的已知结构性摩擦，公开仓库说明其以无摘要上下文窗口与历史恢复来应对。
+  pain_en: When the context window fills in long sessions, the agent forgets earlier decisions, file edits
+    and constraints, forcing developers to restate context or restart sessions, causing rework and compounding
+    errors; this is a structural friction of coding-agent workflows, and the repository addresses it with
+    no-summary context windows and history recovery.
+  current_alternative: 旧做法是依赖代理自带的摘要压缩、手动重述上下文、把关键信息写进仓库文件或笔记，或直接开新会话重来；这些方式都会丢失细节或增加人工负担。
+  current_alternative_en: The prior approach is relying on the agent's built-in summarization, manually
+    restating context, writing key facts into repo files or notes, or simply starting a new session; each
+    loses detail or adds manual burden.
+  usage_reason: 推断：相较摘要压缩会不可逆地丢弃细节，Posthorse 通过原生无摘要上下文窗口配合滚动工具、持久笔记与历史恢复，让开发者在换窗口时不必重新交代已确认的决策与文件状态，因此长会话的
+    Pi 用户会在上下文接近上限时选择它。
+  usage_reason_en: 'Inference: unlike lossy summarization, Posthorse pairs native no-summary context windows
+    with rollover tools, durable notes and history recovery so developers need not restate settled decisions
+    and file state when the window rolls over; Pi users in long sessions would therefore adopt it as context
+    nears its limit.'

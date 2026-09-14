@@ -1,0 +1,88 @@
+- id: req-initial-polox-ai-2026-09-14
+  project_slug: polox-ai
+  level: initial
+  reviewed_at: '2026-09-14T00:12:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成与编辑分离、素材反复搬运的问题，痛点具体，旧做法可指认。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 46 星与 5 次 fork，属关注度信号，不能证明持续采用。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或买方路径，属判断而非已验证事实。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  - gate: truth
+    status: insufficient
+    reason: 支持模态、交付格式与人工确认边界均未说明，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  next_validation: 该仓库的 README 或 issue/discussion 中关于支持模态、输出格式与部署方式的说明。
+  market: ''
+  job: 内容创作者或设计人员在需要批量产出并反复修改图片、视频素材时，把生成、修改与拼接放在同一画布上完成，最终拿到可继续编辑的素材。
+  job_en: A content creator or designer producing and repeatedly revising image and video assets does
+    generation, revision and assembly on one canvas, ending with assets that remain editable.
+  pain: 生成工具与本地编辑器分离，素材要在多个工具间导出导入，版本容易混乱，重复劳动多。
+  pain_en: Generation tools and local editors are separate, so assets must be exported and imported across
+    tools, versions get confused and work is repeated.
+  current_alternative: 在多个单点生成工具出图后，再下载到本地编辑器或设计软件里拼接修改。
+  current_alternative_en: Generating images in several single-purpose tools, then downloading them into
+    a local editor or design software to assemble and revise.
+  usage_reason: 推断：相较在多个生成工具与本地编辑器之间搬运文件，它把生成与编辑放在同一画布和同一段对话里，省掉导出导入与版本对齐这一步，因此素材产出频繁、需要反复微调的创作者会优先试用；目前缺少留存与付费证据。
+  usage_reason_en: 'Inference: compared with shuttling files between several generation tools and a local
+    editor, it keeps generation and editing on one canvas and in one conversation, removing the export-import
+    and version-alignment step, so creators with frequent asset output and repeated fine-tuning are likely
+    to try it first; retention and payment evidence is currently absent.'
+- id: req-full-polox-ai-2026-09-14
+  project_slug: polox-ai
+  level: full
+  reviewed_at: '2026-09-14T00:35:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成与编辑分离、素材反复搬运的需求，痛点具体且旧做法可指认；但支持模态与交付格式未说明，属工作流结构推理而非采用数据。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 46 星，属关注度信号，无用户评价、案例或重复使用证据，无法证明创作者已把它留在工作流里。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、收费或买方路径，钱可能来自 to C 订阅或 to B 部署，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持模态、输出格式、部署方式与人工确认边界，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  next_validation: 追踪该仓库 README 与 issue/discussion 中关于支持模态、输出格式与部署方式的公开说明。
+  market: ''
+  job: 内容创作者或设计人员在需要批量产出并反复修改图片、视频素材时，把生成、修改与拼接放在同一 agent 对话与无限画布上完成，最终拿到可继续编辑的素材。
+  job_en: A content creator or designer producing and repeatedly revising image and video assets does
+    generation, revision and assembly inside one agent conversation and infinite canvas, ending with assets
+    that remain editable.
+  pain: 生成工具与本地编辑器分离，素材要在多个工具间导出导入，版本容易混乱，重复劳动多；公开材料只说明统一生成与编辑，未说明具体模态与交付格式。
+  pain_en: Generation tools and local editors are separate, so assets must be exported and imported across
+    tools, versions get confused and work is repeated; public material only claims unified generation
+    and editing, without specifying modalities or delivery formats.
+  current_alternative: 在多个单点生成工具出图后，再下载到本地编辑器或设计软件里拼接修改。
+  current_alternative_en: Generating images in several single-purpose tools, then downloading them into
+    a local editor or design software to assemble and revise.
+  usage_reason: 推断：相较在多个生成工具与本地编辑器之间搬运文件，它把生成与编辑收进同一段对话和同一块画布，省掉导出导入与版本对齐这一步，因此素材产出频繁、需要反复微调的创作者会优先试用；目前缺少留存与付费证据。
+  usage_reason_en: 'Inference: compared with shuttling files between several generation tools and a local
+    editor, it keeps generation and editing in one conversation and one canvas, removing the export-import
+    and version-alignment step, so creators with frequent asset output and repeated fine-tuning are likely
+    to try it first; retention and payment evidence is currently absent.'

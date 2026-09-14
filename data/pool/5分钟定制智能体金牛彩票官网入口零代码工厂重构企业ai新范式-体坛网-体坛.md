@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CVnh5eUE1eDJS
 summary: 5分钟定制智能体：金牛彩票官网入口，零代码工厂重构企业AI新范式-体坛网_体坛+ 体坛
 first_seen: '2026-09-06T00:32:02Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

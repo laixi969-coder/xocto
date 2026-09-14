@@ -1,0 +1,87 @@
+- id: req-initial-tiny-2026-09-14
+  project_slug: tiny
+  level: initial
+  reviewed_at: '2026-09-14T00:13:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是独立接单者找客户的需求，但公开材料只有一句口号，说不清旧流程卡在哪一步，也看不到不采用的代价。
+    evidence_ids:
+    - ev-c8d48c9c377223d8
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 个点、0 条评论，没有用户反馈或采用记录，无法判断是否有人真的把它放进获客流程。
+    evidence_ids:
+    - ev-c8d48c9c377223d8
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径信息，买方是个人顾问还是团队无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c8d48c9c377223d8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对线索质量、是否真的带来成单，也没有人工确认边界的说明。
+    evidence_ids:
+    - ev-c8d48c9c377223d8
+  next_validation: 收集该产品官方页面或文档中关于线索筛选依据与交付形式的说明，以及是否公开定价。
+  market: ''
+  job: 独立顾问或自由职业者在没有稳定客源时，需要从社交平台的公开帖子和对话里找出可能愿意付费的潜在客户，并整理成可联系的名单。
+  job_en: A solo consultant or freelancer without steady inbound work needs to find potentially paying
+    clients in public social posts and threads and turn them into a contactable list.
+  pain: 公开材料只给出“在 X 上找下一个客户”一句，没有说明旧做法具体卡在哪一步，也没有用户抱怨或替代行为的记录。
+  pain_en: The public material only states 'find your next client on X'; it does not show which step of
+    the old process hurts, and no user complaints or workaround records are provided.
+  current_alternative: 推断：此前多靠人工刷信息流、关键词搜索或同行转介绍来攒线索。
+  current_alternative_en: 'Inference: previously done by manually scrolling feeds, keyword searching,
+    or relying on peer referrals to accumulate leads.'
+  usage_reason: 推断：若它能把公开帖子直接转成候选客户名单，就省掉逐条翻看和手工摘录这一步，靠个人接单的顾问会在需要补充客源时试用；但公开材料未说明筛选依据，无法确认这一步是否真的被减少。
+  usage_reason_en: 'Inference: if it turns public posts directly into a candidate client list, it removes
+    the step of scrolling and manually transcribing; solo consultants would try it when they need more
+    pipeline. But the public material does not explain the filtering basis, so it is unconfirmed that
+    this step is actually reduced.'
+- id: req-full-tiny-2026-09-14
+  project_slug: tiny
+  level: full
+  reviewed_at: '2026-09-14T00:35:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决独立接单者找客户的需求，但公开材料只有一句口号，说不清旧流程卡在哪一步、不采用的代价是什么，也看不到任何用户抱怨或替代行为，连需求与痛点都还原不出来。
+    evidence_ids:
+    - ev-5877661235057053
+    - ev-46fa9f6fd8ae8d7e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或文档中关于线索筛选依据、交付形式与是否公开定价的说明。
+  market: ''
+  job: 独立顾问或自由职业者在没有稳定客源时，打开它扫描社交平台上的公开帖子和对话线索，希望从中得到一份可能愿意付费的候选客户名单，再自行判断是否联系。
+  job_en: A solo consultant or freelancer without steady inbound work opens it to scan public social posts
+    and threads, hoping to get a list of potentially paying prospects and then decide whether to reach
+    out.
+  pain: 公开材料只有一句“在 X 上找下一个客户”的口号，没有任何用户抱怨、旧流程卡点或替代行为的记录，无法说明独立接单者获客时具体哪里难受。
+  pain_en: The public material offers only the tagline 'find your next client on X'; there are no user
+    complaints, no record of where the old process breaks, and no workaround behavior, so the specific
+    pain of solo-client acquisition cannot be established.
+  current_alternative: 推断：此前多靠人工刷信息流、关键词搜索或同行转介绍来攒线索，但公开材料未记录任何真实替代行为。
+  current_alternative_en: 'Inference: previously done by manually scrolling feeds, keyword searching,
+    or peer referrals to accumulate leads, but no actual substitute behavior is documented in the public
+    material.'
+  usage_reason: 推断：若它能把公开帖子直接转成候选客户名单，就省掉逐条翻看和手工摘录这一步，靠个人接单的顾问会在需要补充客源时试用；但公开材料未说明筛选口径与交付形式，无法确认这一步是否真的被减少。
+  usage_reason_en: 'Inference: if it turns public posts directly into a candidate client list, it removes
+    the step of scrolling and manually transcribing, and solo consultants would try it when they need
+    more pipeline. But the public material does not explain the filtering criteria or delivery format,
+    so it is unconfirmed that this step is actually reduced.'

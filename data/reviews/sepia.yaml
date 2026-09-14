@@ -201,3 +201,48 @@
   usage_reason_en: 'No reason for adoption can be inferred: the skill capabilities in the candidate summary
     have no supporting official docs, sample outputs, or user feedback, so no step saved versus the old
     approach can be stated.'
+- id: req-full-sepia-2026-09-14
+  project_slug: sepia
+  level: full
+  reviewed_at: '2026-09-14T00:35:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 AI 文本机器味重、需按叙事架构或场合规则改写的问题，但全部公开证据只解释 sepia 一词的颜料、颜色与顺势疗法含义，没有一条写作者痛点、旧替代行为或采用记录，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-9c8ff1396cc46cb3
+    - ev-c9bb71aafa1ff13b
+    - ev-eea9e320bc8d37c1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 sepia 官方仓库或 Agent Skills 目录中的 README、示例改写前后对照与 issue/discussion，确认是否有写作者实际使用与效果反馈。
+  market: ''
+  job: 小说作者或专业写作者在完成 AI 辅助初稿后，把稿件交给兼容 Agent Skills 的代理（如 Claude Code、Codex），要求按叙事架构或场合规则改写，以产出可投稿或可交付的文本。
+  job_en: A fiction or professional writer, after producing an AI-assisted draft, hands the manuscript
+    to an Agent Skills-compatible agent (e.g., Claude Code, Codex) to rewrite it under narrative-architecture
+    or venue-matched rules, aiming at submittable or deliverable prose.
+  pain: 公开证据中没有一条描述写作者的实际痛点：现有证据全部是 sepia 一词的词典、颜色与顺势疗法释义，没有任何用户抱怨、改写工作流或 AI 痕迹被拒稿的记录。
+  pain_en: 'No public evidence describes any writer''s actual pain: all available evidence defines the
+    word ''sepia'' as a pigment, color, or homeopathic remedy, with no user complaint, rewriting workflow,
+    or rejection record tied to AI traces.'
+  current_alternative: 公开材料未记录写作者当前如何绕过该问题；只能从产品定位推断他们可能手动改写或使用通用改写工具，但这是结构推理，不是有引用的事实。
+  current_alternative_en: Public material does not record how writers currently work around this; only
+    inference from the product positioning suggests manual rewriting or generic rewriting tools, which
+    is structural reasoning, not cited fact.
+  usage_reason: 推断：若写作者已在用 Claude Code 等代理写作，sepia 作为技能可在同一代理内直接调用，省去把稿件复制到另一个改写工具再贴回的步骤；但没有任何用户反馈或案例支持这一动机，因此不能断言用户会因此选择它。
+  usage_reason_en: 'Inference: if a writer already drafts inside an agent such as Claude Code, sepia as
+    a skill can be invoked in the same agent, removing the copy-out-and-paste-back step to a separate
+    rewriting tool; however, no user feedback or case supports this motive, so it cannot be asserted that
+    users choose it for this reason.'

@@ -367,3 +367,44 @@
   usage_reason_en: 'No causal explanation is possible: materials do not show which concrete step the product
     removes or which checkable result it improves, so it cannot be judged which users would choose it
     and when.'
+- id: req-full-unreel-2026-09-14
+  project_slug: unreel
+  level: full
+  reviewed_at: '2026-09-14T00:35:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有一句“个人 AI 视频流媒体服务”简介，未公开输入、动作与交付闭环，无法还原用户任务、痛点强度与不采用代价，连需求与痛点都写不出来，故价值关不成立。
+    evidence_ids:
+    - ev-d077449e06b7e019
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/blendi-remade/unreel 的 README、部署文档与 issue/discussion，确认它接受什么输入、产出什么视频流、替代了哪种旧流程。
+  market: ''
+  job: 视频消费者或内容创作者在需要观看或产出视频内容时，处理的是自己已有的视频素材或想看的视频内容，要完成的任务是获得一个可个性化编排、按自己口味播放的视频流。
+  job_en: A video consumer or content creator, when watching or producing video, works with their own
+    video material or desired content and needs to obtain a personally curated, taste-matched video stream.
+  pain: 公开材料只有一句仓库简介“Your personal AI video streaming service”，没有说明用户当前在找片、编排播放或生成视频时具体卡在哪一步、多频繁、不解决会损失什么，因此痛点无法从公开事实还原。
+  pain_en: Public material contains only the one-line repo description 'Your personal AI video streaming
+    service'; it does not show which step of finding, curating, or generating video actually hurts, how
+    often, or what is lost if unsolved, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明用户现在用什么替代——是通用流媒体平台、自建媒体库（如 Jellyfin/Plex）、还是手工剪辑与推荐算法，替代行为缺失。
+  current_alternative_en: Public material does not state the current alternative — a general streaming
+    platform, a self-hosted library such as Jellyfin/Plex, or manual editing and recommendation feeds;
+    the substitute behavior is missing.
+  usage_reason: 由于输入、动作与交付方式均未公开，无法说明它相较旧做法减少哪一步负担或改善哪项可核对结果，因此用户为何选择它只能留空，不能以“提高效率”代替。
+  usage_reason_en: Because inputs, actions, and delivery are all undisclosed, it is impossible to say
+    which step it removes or which checkable result it improves versus the old way; why users would choose
+    it must stay blank rather than be replaced by 'more efficient'.

@@ -79,3 +79,55 @@
   usage_reason: 用户要完成的任务是：投标专员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Bid Specialist Public materials do not yet explain why users choose this
     product over their existing approach.'
+- id: req-full-cloud-platform-for-construction-project-bidding-2026-09-14
+  project_slug: cloud-platform-for-construction-project-bidding
+  level: full
+  reviewed_at: '2026-09-14T00:33:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决建筑工程投标专员编制标书的需求：招标条款与企业资质、历史标书需人工逐条比对，遗漏或错配可致废标，返工代价高且窗口紧。公开仓库说明覆盖标书编制、知识库、合规检查与工作流协同，可还原输入—动作—交付闭环，属工作流结构推理；尚无用户抱怨或废标案例佐证强度。
+    evidence_ids:
+    - ev-6619fbb4b806f1de
+    - ev-4ad6eb4b069353cb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 43 增至 52，说明开发者社区有关注，但收藏属关注度证据，不能证明投标专员持续使用或形成工作流依赖；公开材料未见用户评价、部署案例或场景讨论，强场景是否成立仍缺行为证据。
+    evidence_ids:
+    - ev-6619fbb4b806f1de
+    - ev-335933568109e91b
+    - ev-4ad6eb4b069353cb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体与单位经济，钱可能来自建筑企业 to B 采购或投标专员个人订阅，属判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险，但付费路径未核验。
+    evidence_ids:
+    - ev-6619fbb4b806f1de
+  - gate: truth
+    status: insufficient
+    reason: AI 生成标书内容与合规检查能否稳定交付、错误条款由谁复核、人工与安全边界如何设定，公开材料均未说明；标书废标后果严重，交付确定性缺可复现证据。
+    evidence_ids:
+    - ev-6619fbb4b806f1de
+    - ev-4ad6eb4b069353cb
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档、issue 与 discussion，确认是否有建筑企业或投标专员公开描述实际部署场景、替代的旧流程与合规检查结果。
+  market: ''
+  job: 建筑工程投标专员在拿到招标文件后，需要把招标要求、企业资质、历史标书等材料组织成一份可提交的投标文件，并完成合规自查与内部多角色会签，最终产出可人工复核的标书草稿与合规意见。
+  job_en: A construction bid specialist, after receiving tender documents, must assemble tender requirements,
+    company qualifications and past bids into a submittable bid document, run compliance self-checks and
+    multi-role internal sign-off, producing a human-reviewable draft and compliance notes.
+  pain: 招投标标书编制高度依赖人工比对招标条款与企业资质、历史标书，条款遗漏或资质错配会直接导致废标，返工成本高且时间窗口紧；公开材料只说明产品覆盖这些环节，未给出用户抱怨或废标案例，痛点强度属工作流结构推理。
+  pain_en: Bid preparation relies heavily on manual cross-checking of tender clauses against qualifications
+    and past bids; a missed clause or mismatched qualification can void the bid, with costly rework under
+    tight deadlines. Public materials only show the product covers these steps, not user complaints or
+    void-bid cases, so pain intensity is a workflow-structure inference.
+  current_alternative: 投标专员目前多以 Word/Excel 加共享盘、邮件或即时通讯工具协作，靠个人经验与人工逐条核对招标文件，历史标书散落在个人电脑或网盘中复用。
+  current_alternative_en: Bid specialists today typically work in Word/Excel with shared drives, email
+    or chat, checking tender documents clause by clause from personal experience, with past bids scattered
+    across local machines or cloud drives.
+  usage_reason: 推断：相较人工逐条比对与分散文件协作，该平台把招标文件、企业资质与历史标书集中进知识库，由 AI 生成标书内容并做合规检查，再走工作流协同，减少的是“翻找历史标书+逐条核对条款+多轮邮件催办”这几步负担；因此条款密集、投标频次高的投标专员在赶标期更可能选择它。公开材料未提供用户反馈或客户案例，此为基于产品能力的推断。
+  usage_reason_en: 'Inference: versus manual clause-by-clause checking and scattered file collaboration,
+    the platform centralizes tender documents, qualifications and past bids in a knowledge base, uses
+    AI to draft content and run compliance checks, then routes workflow coordination, cutting the steps
+    of hunting past bids, checking clauses one by one and chasing sign-off by email; bid specialists facing
+    clause-heavy, high-frequency tenders are therefore more likely to choose it near deadlines. N'

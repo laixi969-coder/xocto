@@ -146,3 +146,42 @@
   usage_reason: 公开代码仓库有 1,995 个收藏、253 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,995 stars and 253 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-cindy-2026-09-14
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-09-14T00:33:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cindy 官方仓库的 README、release 与 issue/discussion，确认是否披露定价、企业部署方式及用户对跨模型记忆保留的实际使用反馈。
+  market: ''
+  job: 开发者在同一工作区里调用不同厂商的写代码助手，在任务中途切换模型，同时保留上下文记忆与未完成的任务状态。
+  job_en: Developers run coding assistants from different vendors in one workspace, switching models mid-task
+    while keeping context memory and unfinished task state.
+  pain: 多模型并用时上下文散落在各家客户端，切换模型要重新粘贴代码与需求，长任务被切断后要重建上下文，重复劳动且容易丢状态。
+  pain_en: When using multiple models, context is scattered across vendor clients; switching means re-pasting
+    code and requirements, and long tasks must be rebuilt after interruption, causing repeated work and
+    lost state.
+  current_alternative: 在多个厂商的网页或 IDE 插件之间手动复制粘贴，或只用单一模型放弃其他模型的长处。
+  current_alternative_en: Manually copy-pasting between vendor web apps or IDE plugins, or sticking to
+    a single model and giving up other models' strengths.
+  usage_reason: 推断：相较手动跨客户端搬运上下文，它把模型切换与记忆保留放在同一工作区，省去重新粘贴和重建任务状态这一步，因此同时使用多个编码模型、且任务跨模型延续的开发者会在中途换模型时选择它。
+  usage_reason_en: 'Inference: versus manually moving context across clients, it keeps model switching
+    and memory in one workspace, removing the re-paste and task-state rebuild step, so developers who
+    use several coding models and continue tasks across them would pick it when switching mid-task.'

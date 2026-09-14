@@ -1,0 +1,81 @@
+- id: req-initial-resurf-2026-09-14
+  project_slug: resurf
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有一句定位，说不清解决什么需求与痛点，无法形成价值判断。
+    evidence_ids:
+    - ev-2103ee48afee9cc5
+  - gate: consensus
+    status: insufficient
+    reason: 无采用、评价或关注度数据可引用。
+    evidence_ids:
+    - ev-2103ee48afee9cc5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，收费路径完全未知。
+    evidence_ids:
+    - ev-2103ee48afee9cc5
+  - gate: truth
+    status: insufficient
+    reason: 输入材料、处理动作与交付结果均未说明，无法核对承诺。
+    evidence_ids:
+    - ev-2103ee48afee9cc5
+  next_validation: Resurf 官方产品页或文档中关于可导入材料类型、处理动作与输出结果的说明。
+  market: ''
+  job: Mac 用户在本机资料分散、需要集中整理以便后续检索或调用时，把资料汇入个人上下文库。
+  job_en: A Mac user whose local material is scattered consolidates it into a personal context library
+    for later retrieval or use.
+  pain: 公开材料未说明具体痛点，只能推断本机资料分散、检索困难，缺少可引用的用户抱怨或替代行为。
+  pain_en: The public material does not state a concrete pain; it can only be inferred that local material
+    is scattered and hard to search, with no citable user complaint or substitute behavior.
+  current_alternative: 公开材料未提供现有替代方式，可能仍是系统搜索或笔记软件，属推断。
+  current_alternative_en: The public material provides no current alternative; it may still be system
+    search or note-taking software, which is an inference.
+  usage_reason: 无法判断：材料只有一句定位描述，说不清它相较旧做法减少哪一步负担，因此无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material is a single positioning line and does not show which
+    step of the old workflow it removes, so it cannot explain why users would choose it.'
+- id: req-full-resurf-2026-09-14
+  project_slug: resurf
+  level: full
+  reviewed_at: '2026-09-14T00:35:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅一句定位描述，未说明接收什么材料、执行什么动作、交付什么结果，连用户任务与痛点都无法还原，无法形成价值判断。
+    evidence_ids:
+    - ev-2103ee48afee9cc5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: Resurf 官方产品页或文档中关于可导入材料类型、处理动作与输出结果的说明。
+  market: ''
+  job: Mac 用户在本机资料（文档、笔记、网页剪藏等）散落各处时，希望把它们汇入一个个人上下文库，以便日后检索或调用。
+  job_en: A Mac user with scattered local material (documents, notes, web clippings) wants to consolidate
+    it into a personal context library for later retrieval or use.
+  pain: 公开材料只有一句定位描述，未说明具体痛点；只能推断本机资料分散、跨应用检索困难，缺少可引用的用户抱怨或替代行为证据。
+  pain_en: The public material is a single positioning line and states no concrete pain; it can only be
+    inferred that local material is scattered and hard to search across apps, with no citable user complaint
+    or substitute behavior.
+  current_alternative: 公开材料未提供现有替代方式；可能仍是系统 Spotlight 搜索或笔记软件，属推断。
+  current_alternative_en: The public material provides no current alternative; it may still be system
+    Spotlight search or note-taking software, which is an inference.
+  usage_reason: 无法判断：材料只有一句定位，说不清它接收什么材料、执行什么动作、交付什么结果，因此无法解释相较旧做法减少哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material is a single positioning line and does not show what
+    material it ingests, what action it performs, or what it delivers, so it cannot explain which step
+    of the old workflow it removes or which users would choose it in what situation.'

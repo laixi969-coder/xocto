@@ -1,0 +1,92 @@
+- id: req-initial-beatscope-2026-09-14
+  project_slug: beatscope
+  level: initial
+  reviewed_at: '2026-09-14T00:12:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决音频分析与对拍视频生成的需求，但公开材料未说明旧流程中哪一步最痛、不采用会失去什么，痛点刚性无法判断。
+    evidence_ids:
+    - ev-110855d01871cb2c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 69 个星标与 9 次复刻，属于关注度信号，没有用户评价、案例或重复使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-110855d01871cb2c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或收费方式，to C 或 to B 的付费路径均无法确认，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-110855d01871cb2c
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料核对输出是否确定性交付、人工确认边界在哪，也未说明与音乐版权或素材安全相关的处理方式。
+    evidence_ids:
+    - ev-110855d01871cb2c
+  next_validation: 收集该仓库的 README、示例输出与 issue/discussion，确认它实际接收的音频格式、生成的视频规格以及是否已有用户报告在真实剪辑流程中使用。
+  market: ''
+  job: 音乐创作者或视频剪辑者拿到一段音频后，需要先弄清节拍与段落结构，再生成与音乐对齐的视频画面，最终交付成片。
+  job_en: A music creator or video editor receives an audio track, must first understand its beats and
+    section structure, then generate visuals aligned to the music and deliver a finished video.
+  pain: 公开材料只说明它做本地音乐分析和确定性视频生成，没有说明旧流程里具体哪一步最耗时、最容易出错，也没有用户抱怨或替代行为的记录，痛点强度无法确认。
+  pain_en: The public material only states that it performs local music analysis and deterministic video
+    generation; it does not identify which step of the old workflow is slowest or most error-prone, and
+    there is no record of user complaints or workarounds, so pain intensity cannot be confirmed.
+  current_alternative: 常见旧做法是人工听音频打点、在剪辑软件里手动对齐画面，或使用云端音频分析服务；候选材料未说明它具体替代其中哪一步。
+  current_alternative_en: The common old approach is manually marking beats by ear, aligning visuals by
+    hand in editing software, or using cloud audio-analysis services; the candidate material does not
+    say which of these steps it replaces.
+  usage_reason: 推断：如果本地分析能直接输出节拍与结构数据并驱动视频生成，用户可省去手动打点和反复对齐这一步，因此在意素材不出本地、又需要批量产出对拍视频的独立创作者可能选择它；但缺少使用反馈，无法确认是否被长期留在工作流里。
+  usage_reason_en: 'Inference: if local analysis directly outputs beat and structure data that drives
+    video generation, users could skip manual beat-marking and repeated alignment, so independent creators
+    who care about keeping assets local and need batch beat-synced videos might choose it; without usage
+    feedback, it cannot be confirmed as a lasting part of the workflow.'
+- id: req-full-beatscope-2026-09-14
+  project_slug: beatscope
+  level: full
+  reviewed_at: '2026-09-14T00:32:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决音频节拍与结构分析后生成对拍视频的需求，痛点在于手动打点与反复对齐的重复劳动；公开材料能还原输入音频、本地分析、确定性生成视频的闭环，属工作流结构推理，痛点刚性与交付确定性可判。
+    evidence_ids:
+    - ev-110855d01871cb2c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 69 个星标，属关注度信号，可说明有人注意到它；但没有用户评价、客户案例或重复使用记录，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-110855d01871cb2c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或收费方式，to C 与 to B 的付费路径均无法确认；这是判断而非已验证事实，但价值关成立不因此取消。
+    evidence_ids:
+    - ev-110855d01871cb2c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输出视频规格、人工确认边界，也未提及音乐版权或素材安全处理方式，确定性交付与安全边界无法从现有证据核对。
+    evidence_ids:
+    - ev-110855d01871cb2c
+  next_validation: 追踪该仓库 README、示例输出与 issue/discussion，确认实际接收的音频格式、生成的视频规格，以及是否有用户报告在真实剪辑流程中重复使用。
+  market: ''
+  job: 音乐创作者或视频剪辑者拿到一段本地音频后，需要先弄清节拍与段落结构，再据此生成与音乐对齐的视频画面，最终交付可用的视频文件；编码代理也会在自动化流程中调用同一能力。
+  job_en: A music creator or video editor receives a local audio track, must first understand its beats
+    and section structure, then generate visuals aligned to the music and deliver a usable video file;
+    coding agents also call the same capability inside automated pipelines.
+  pain: 公开材料只说明它做本地音乐分析与确定性视频生成，没有记录用户抱怨或旧流程中哪一步最耗时；痛点强度属于工作流结构推理，而非用户口述事实。
+  pain_en: The public material only states that it performs local music analysis and deterministic video
+    generation; it records no user complaints or which step of the old workflow is slowest, so pain intensity
+    is a workflow-structure inference rather than a stated user fact.
+  current_alternative: 常见旧做法是人工听音频打点、在剪辑软件里手动对齐画面，或把音频上传到云端分析服务；候选材料未说明它具体替代其中哪一步。
+  current_alternative_en: The common old approach is marking beats by ear, aligning visuals by hand in
+    editing software, or uploading audio to a cloud analysis service; the candidate material does not
+    say which of these steps it replaces.
+  usage_reason: 推断：相较手动打点和反复对齐，它把节拍与结构分析放在本地完成并直接驱动视频生成，省去逐段试听与对齐这一步，因此在意素材不出本地、又需要批量产出对拍视频的独立创作者或编码代理会在该场景选择它；缺少使用反馈，不能确认已被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with manual beat-marking and repeated alignment, it performs beat
+    and structure analysis locally and drives video generation directly, removing the step of listening
+    through and re-aligning each section, so independent creators or coding agents who need batch beat-synced
+    videos while keeping assets local would choose it in that situation; without usage feedback, it cannot
+    be confirmed as a lasting part of the workflow.'

@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/488447.html
 summary: Agent的下一步是关系型生产力
 first_seen: '2026-09-13T06:40:25Z'
 last_seen: '2026-09-14T00:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

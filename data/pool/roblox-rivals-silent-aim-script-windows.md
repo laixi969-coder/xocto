@@ -22,7 +22,7 @@ summary: 'Roblox Rivals Silent Aim Script for Windows: aim behavior, runtime, ve
   script reference guide with setup, workflow comparisons and practical troubleshooting.'
 first_seen: '2026-09-12T23:28:44Z'
 last_seen: '2026-09-14T00:12:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

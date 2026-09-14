@@ -1,6 +1,6 @@
 ---
 slug: openai-pauses-pro-subscriptions-over-astra-demand
-name: OpenAI Pauses Pro Subscriptions Over Astra Demand
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxONkNPSGhBcDZB
 summary: OpenAI Pauses Pro Subscriptions Over Astra Demand innovation-village.com
 first_seen: '2026-09-11T13:21:04Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI Pauses Pro Subscriptions Over Astra Demand
+# OpenAI
 
 OpenAI Pauses Pro Subscriptions Over Astra Demand innovation-village.com
 

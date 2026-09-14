@@ -21,7 +21,7 @@ canonical_url: https://pluralistic.net/2026/09/12/god-in-the-box
 summary: AI is fake
 first_seen: '2026-09-12T13:47:28Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

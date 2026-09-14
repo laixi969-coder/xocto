@@ -1,0 +1,83 @@
+- id: req-initial-aqqai-2026-09-14
+  project_slug: aqqai
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是问答答案不可信、用户无法低成本核对的问题，痛点存在；但材料只有一句口号，说不清校验对象与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-191ceca41f1fff42
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅5点2评论，属于极小范围关注，不能说明用户已把它纳入问答流程。
+    evidence_ids:
+    - ev-191ceca41f1fff42
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；面向个人订阅还是面向企业合规采购都只是推断。
+    evidence_ids:
+    - ev-191ceca41f1fff42
+  - gate: truth
+    status: insufficient
+    reason: 无法核对校验由谁执行、依据什么标准、是否覆盖高风险问题，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-191ceca41f1fff42
+  next_validation: 收集 Aqqai 官方文档或演示中关于校验执行方、校验标准与覆盖问题类型的公开说明。
+  market: ''
+  job: 用户在向问答系统提问并准备把答案用于实际决策时，需要先确认这个答案是否可靠，再决定是否采信。
+  job_en: When a user asks a Q&A system a question and intends to act on the answer, they need to confirm
+    the answer is reliable before trusting it.
+  pain: 问答系统会给出看似流畅但可能错误的答案，用户缺少低成本的方式判断哪一句可信，错误答案被采信的代价可能很高。
+  pain_en: Q&A systems produce fluent but possibly wrong answers, users lack a cheap way to tell which
+    sentence is trustworthy, and acting on a wrong answer can be costly.
+  current_alternative: 用户自己交叉搜索多个来源、凭经验判断，或干脆不用问答结果。
+  current_alternative_en: Users cross-search multiple sources themselves, judge by experience, or simply
+    do not use the Q&A output.
+  usage_reason: 推断：如果校验真的在展示前发生并给出可核对的依据，用户就不必自己逐条交叉验证，在采信答案前少一道手工核对；但材料只有一句口号，没有说明校验主体、标准或覆盖范围，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if the check really happens before display and yields checkable grounds,
+    users would not have to cross-verify each claim themselves, removing one manual step before trusting
+    an answer. But the material is a single slogan with no checker, standard or coverage, so it cannot
+    be confirmed that this step is actually reduced.'
+- id: req-full-aqqai-2026-09-14
+  project_slug: aqqai
+  level: full
+  reviewed_at: '2026-09-14T00:32:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决问答答案不可信、用户无法低成本核对的问题，痛点存在；但材料只有一句口号，说不清校验对象、执行方与交付形式，价值结构无法还原，属公开事实不足而非需求不存在。
+    evidence_ids:
+    - ev-191ceca41f1fff42
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Aqqai 官方文档或演示中关于校验执行方、校验标准与覆盖问题类型的公开说明。
+  market: ''
+  job: 用户在向问答系统提问并准备把答案用于实际决策时，需要先确认这个答案是否可靠，再决定是否采信。
+  job_en: When a user asks a Q&A system a question and intends to act on the answer, they need to confirm
+    the answer is reliable before trusting it.
+  pain: 问答系统会给出看似流畅但可能错误的答案，用户缺少低成本方式判断哪一句可信，错误答案被采信的代价可能很高。
+  pain_en: Q&A systems produce fluent but possibly wrong answers, users lack a cheap way to tell which
+    sentence is trustworthy, and acting on a wrong answer can be costly.
+  current_alternative: 用户自己交叉搜索多个来源、凭经验判断，或干脆不用问答结果。
+  current_alternative_en: Users cross-search multiple sources themselves, judge by experience, or simply
+    do not use the Q&A output.
+  usage_reason: 推断：如果校验真的在展示前发生并给出可核对依据，用户就不必自己逐条交叉验证，在采信答案前少一道手工核对；但材料只有一句口号，未说明校验主体、标准或覆盖范围，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if the check really happens before display and yields checkable grounds,
+    users would not have to cross-verify each claim themselves, removing one manual step before trusting
+    an answer. But the material is a single slogan with no checker, standard or coverage, so it cannot
+    be confirmed that this step is actually reduced.'

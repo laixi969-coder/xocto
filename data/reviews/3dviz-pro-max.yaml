@@ -178,3 +178,55 @@
     is a runnable Three.js/Blender project rather than code to be assembled, cutting the stitching and
     debugging step between example and debuggable prototype; frontend or 3D developers needing a fast
     3D visualization prototype would therefore pick it at the kickoff stage.'
+- id: req-full-3dviz-pro-max-2026-09-14
+  project_slug: 3dviz-pro-max
+  level: full
+  reviewed_at: '2026-09-14T00:32:24Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把创意快速转成可运行 Three.js/Blender 场景的需求，痛点是样板代码与资产导出门槛高；公开材料未给用户抱怨，属工作流结构推理，但输入、动作与交付闭环可还原。
+    evidence_ids:
+    - ev-fac1753bcbec2196
+    - ev-a27db56ce53a6161
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 133 增至 216，说明开发者持续关注并试用；但收藏属关注度证据，不能证明已长期留在工作流，卡点可能在感知而非场景。
+    evidence_ids:
+    - ev-fac1753bcbec2196
+    - ev-81ffae8753957fdb
+    - ev-835697c588029d39
+    - ev-a27db56ce53a6161
+  - gate: model
+    status: insufficient
+    reason: 作为 Claude Code 与 Codex 插件，付费路径可能依附宿主订阅或开源捐赠，公开材料未见定价页或买方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fac1753bcbec2196
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成代码的调试通过率、Blender 资产导出是否确定成功，以及人工复核边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-a27db56ce53a6161
+  next_validation: 追踪 3dviz.dev 仓库的 issue 与 discussion，确认生成场景的实际可运行率、失败模式与是否出现付费或企业采用记录。
+  market: ''
+  job: 前端工程师或 3D 设计师在需要为网页搭建可交互 3D 场景时，把自然语言创意描述交给 Claude Code 或 Codex 插件，由 Agent 结合预置配方与知识库产出 Three.js
+    或 Blender 可运行代码与场景资产，得到可直接调试的 3D 可视化原型。
+  job_en: A frontend engineer or 3D designer building an interactive web 3D scene hands a natural-language
+    idea to a Claude Code or Codex plugin, which uses preset recipes and a knowledge base to produce runnable
+    Three.js or Blender code and scene assets, yielding a directly debuggable 3D visualization prototype.
+  pain: 从零写 Three.js 场景需要同时掌握渲染管线、材质光照与 Blender 资产导出，起步样板代码和调试成本高；公开材料未给出用户抱怨原文，此痛点由工作流结构推理得出。
+  pain_en: Writing a Three.js scene from scratch requires command of the render pipeline, materials and
+    lighting, plus Blender asset export, making boilerplate and debugging costly; the public material
+    gives no verbatim user complaint, so this pain is a workflow-structure inference.
+  current_alternative: 旧做法是手写 Three.js 样板、翻官方示例与论坛片段，或在 Blender 中手工建模再导出，缺少把创意直接转成可运行场景的中间层。
+  current_alternative_en: The old approach is hand-writing Three.js boilerplate, hunting official examples
+    and forum snippets, or modeling manually in Blender and exporting, with no middle layer turning an
+    idea directly into a runnable scene.
+  usage_reason: 推断：相较手写样板与零散检索，它把 223 条配方、440 条知识记录和 22 个已验证套件作为可检索上下文直接注入 Agent，减少从示例拼装到可运行代码的检索与试错步骤，因此需要快速产出可调试
+    3D 原型的前端与 3D 开发者会在起步阶段选择它。
+  usage_reason_en: 'Inference: versus hand-writing boilerplate and scattered searching, it injects 223
+    recipes, 440 knowledge records and 22 proved kits as retrievable context into the agent, cutting the
+    search-and-trial step from snippets to runnable code, so frontend and 3D developers needing a debuggable
+    3D prototype quickly would pick it at the starting stage.'

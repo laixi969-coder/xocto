@@ -1,0 +1,93 @@
+- id: req-initial-minimax-h3-turbo-lora-2026-09-14
+  project_slug: minimax-h3-turbo-lora
+  level: initial
+  reviewed_at: '2026-09-14T00:12:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是音画分两步制作、需要手动对齐时间轴的问题，痛点具体；但公开材料只有一句功能描述，无法确认输入、时长与交付质量，价值结构尚不能判定。
+    evidence_ids:
+    - ev-b9d6b8c8eeab8a21
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一个演示空间和18个点赞，没有创作者讨论、使用反馈或场景案例，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-b9d6b8c8eeab8a21
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方式或买方，无法判断钱来自个人创作者、广告主还是制作公司；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-b9d6b8c8eeab8a21
+  - gate: truth
+    status: insufficient
+    reason: 无法核验生成结果是否真的音画同步、是否可复现，也未说明人工确认边界，交付确定性未知。
+    evidence_ids:
+    - ev-b9d6b8c8eeab8a21
+  next_validation: 收集该演示空间的官方说明或仓库文档，确认输入格式、输出时长与音画同步的可复现实测结果。
+  market: ''
+  job: 短视频创作者或广告素材制作者在需要一段带声音的成片片段时，把文字脚本或已有画面交给该模型，生成画面与音轨同步的视频，再人工挑选可用镜头。
+  job_en: Short-video creators or ad-creative producers who need a sound-bearing clip hand a text script
+    or existing footage to the model to generate video with synchronized audio, then manually pick usable
+    shots.
+  pain: 音画同步目前通常要分两步完成：先生成或拍摄画面，再单独配音、配乐并对齐时间轴，这一步耗时且需要额外工具。
+  pain_en: 'Audio-visual sync today usually takes two steps: generate or shoot the picture first, then
+    dub, score and align it to the timeline separately, which is time-consuming and needs extra tools.'
+  current_alternative: 现有做法是先用视频生成或实拍得到画面，再用剪辑软件或配音工具单独加音轨并手动对齐。
+  current_alternative_en: The current practice is to obtain footage via video generation or shooting,
+    then add an audio track separately in an editing or dubbing tool and align it by hand.
+  usage_reason: 推断：如果该模型确实能在一次生成中输出音画同步的片段，用户省掉的是“单独配音并对齐时间轴”这一步，因此对批量出片、对同步敏感的广告和电商短视频团队更有吸引力；但公开材料未给出任何用户反馈或采用证据，这一判断仅为工作流推理。
+  usage_reason_en: 'Inference: if the model truly outputs audio-synced segments in one generation, users
+    skip the ''dub separately and align the timeline'' step, which appeals more to ad and e-commerce short-video
+    teams producing clips in batches where sync matters; however, no user feedback or adoption evidence
+    is public, so this is workflow reasoning only.'
+- id: req-full-minimax-h3-turbo-lora-2026-09-14
+  project_slug: minimax-h3-turbo-lora
+  level: full
+  reviewed_at: '2026-09-14T00:34:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是短视频/广告成片需要画面与音轨同步的问题，痛点是音画分两步制作、手动对齐时间轴耗时且依赖额外工具；H3 公开说明可一次生成带原生立体声、最高 2K、15 秒的视频，交付形态可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-c9e7780c3d577ff6
+    - ev-6dcf1ca03698e388
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方模型发布说明与演示空间入口，没有创作者讨论、使用反馈或场景案例，无法判断共识卡在感知、想象还是场景环节；关注度不等于持续采用。
+    evidence_ids:
+    - ev-c9e7780c3d577ff6
+    - ev-f8161f13affa3580
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露该 LoRA 演示空间的定价、付费方式或买方，钱可能来自个人创作者、广告主或制作公司，这是判断而非已验证事实；母公司融资叙事不能替代用户付费路径。
+    evidence_ids:
+    - ev-550c5fb8a6db3229
+    - ev-5905daaf15ef0b54
+  - gate: truth
+    status: insufficient
+    reason: 官方仅说明可生成带原生立体声的视频，未给出输入格式、时长限制、可复现实测或人工确认边界，音画是否真同步、能否稳定交付仍无法核验。
+    evidence_ids:
+    - ev-eab8dd1d71f9394e
+    - ev-3bf7674d8ce1515c
+  next_validation: 追踪 MiniMax 官方 H3 模型页或该 LoRA 演示空间的部署文档与可复现实测，确认输入格式、输出时长与音画同步的实际交付结果。
+  market: ''
+  job: 短视频或广告素材制作者在需要一段带声音的成片片段时，把文字脚本或已有画面交给基于 MiniMax H3 Turbo 的 LoRA 演示空间，由模型一次生成画面与音轨同步的视频片段，再人工挑选可用镜头。
+  job_en: Short-video or ad-creative producers who need a sound-bearing clip hand a text script or existing
+    footage to a MiniMax H3 Turbo LoRA demo space, which generates a video segment with synchronized audio
+    in one pass, then they manually pick usable shots.
+  pain: 公开材料显示 H3 可生成带原生立体声、最高 2K、15 秒的视频，说明旧流程中画面与声音是分开产出的：先出画面，再单独配音配乐并对齐时间轴，这一步耗时且依赖额外工具。
+  pain_en: 'Public material shows H3 generates video with native stereo audio at up to 2K and 15 seconds,
+    implying the old workflow produces picture and sound separately: footage first, then dubbing/scoring
+    and timeline alignment, a time-consuming step needing extra tools.'
+  current_alternative: 现有做法是先用视频生成模型或实拍得到画面，再在剪辑或配音工具里单独加音轨并手动对齐时间轴。
+  current_alternative_en: The current practice is to obtain footage via a video-generation model or shooting,
+    then add an audio track separately in an editing or dubbing tool and align it to the timeline by hand.
+  usage_reason: 推断：若该 LoRA 演示空间确实在一次生成中输出音画同步片段，用户省掉的是“单独配音并对齐时间轴”这一步，因此对批量出片、对同步敏感的广告与电商短视频团队更有吸引力；公开材料未给出用户反馈或采用证据，此判断为工作流结构推理。
+  usage_reason_en: 'Inference: if the LoRA demo space truly outputs audio-synced segments in one generation,
+    users skip the ''dub separately and align the timeline'' step, which appeals more to ad and e-commerce
+    short-video teams producing clips in batches where sync matters; no user feedback or adoption evidence
+    is public, so this is workflow-structure reasoning.'

@@ -303,3 +303,54 @@
     between two conversations and planning flows into execution in one chain; developers already using
     Codex for multi-step repo-level tasks and accustomed to designing plans in ChatGPT would choose it
     when they need plan-then-execute.'
+- id: req-full-codex-with-chatgpt-2026-09-14
+  project_slug: codex-with-chatgpt
+  level: full
+  reviewed_at: '2026-09-14T00:33:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者用编码代理完成复杂任务时规划与执行割裂、需手工搬运计划的问题；公开事实仅有仓库定位与星数，痛点刚性来自工作流结构推理，非用户口述，故价值成立但把握有限。
+    evidence_ids:
+    - ev-9dafa7c6e128baa8
+    - ev-591c6769a164d57f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 2694 增至 4179，说明关注度上升，但公开材料没有 issue、讨论或用户评价证明开发者已把它长期留在编码工作流中，采用共识尚未核验。
+    evidence_ids:
+    - ev-9dafa7c6e128baa8
+    - ev-591c6769a164d57f
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页、无付费或采购记录，谁付钱、以何种方式变现均无公开证据；这是判断而非已验证事实，不能据此否定需求本身。
+    evidence_ids:
+    - ev-9dafa7c6e128baa8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 ChatGPT 规划与 Codex 执行之间的接口、上下文传递方式及失败回退，交付是否确定发生无法从现有证据核对，安全与人工边界亦未披露。
+    evidence_ids:
+    - ev-9dafa7c6e128baa8
+    - ev-456bef00bce26600
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，核对 ChatGPT 规划如何接入 Codex 执行、是否有用户贴出实际使用流程与结果反馈。
+  market: ''
+  job: 使用 Codex 等编码代理的开发者，在需要完成多步骤、跨文件的复杂代码任务时，把 ChatGPT 作为规划大脑产出方案，再交给保留的 Codex 执行框架落地代码。
+  job_en: Developers using coding agents such as Codex, when facing multi-step, cross-file coding tasks,
+    use ChatGPT as the planning brain to produce a plan and hand it to the retained Codex harness to execute
+    the code.
+  pain: 公开材料只给出“ChatGPT 思考、Codex 工作”的定位，未提供用户抱怨或案例；从工作流结构推断，痛点是单一编码代理在长任务中规划与执行耦合，规划质量不足导致返工，而换用其他代理又要放弃已熟悉的
+    Codex 执行环境。
+  pain_en: Public material only states the positioning 'ChatGPT thinks, Codex works' with no user complaints
+    or cases; inferred from workflow structure, the pain is that a single coding agent couples planning
+    and execution, weak planning causes rework, while switching agents means abandoning the familiar Codex
+    harness.
+  current_alternative: 开发者当前要么只用单一编码代理（如 Codex 或 ChatGPT 内置能力）完成规划与执行，要么在 ChatGPT 与 Codex 之间手工复制粘贴计划、反复切换窗口。
+  current_alternative_en: Developers currently either use a single coding agent (Codex or ChatGPT's built-in
+    capability) for both planning and execution, or manually copy plans between ChatGPT and Codex, repeatedly
+    switching windows.
+  usage_reason: 推断：相较手工在两个工具间搬运计划，该仓库把 ChatGPT 的规划输出直接接入 Codex 执行框架，省去复制粘贴与上下文重建这一步，因此已习惯 Codex 工作流、又希望提升复杂任务规划质量的开发者会在处理多步骤任务时选择它；公开材料未提供用户反馈，动机属结构推断。
+  usage_reason_en: 'Inference: compared with manually moving plans between two tools, this repository
+    wires ChatGPT''s planning output directly into the Codex harness, removing the copy-paste and context-rebuild
+    step, so developers already used to Codex who want better planning on complex tasks would choose it;
+    no user feedback is public, so the motive is a structural inference.'

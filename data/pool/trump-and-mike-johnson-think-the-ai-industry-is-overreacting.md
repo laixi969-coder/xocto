@@ -24,7 +24,7 @@ summary: Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter s
   Donald Trump and House Speaker Mike Johnson, however, […]
 first_seen: '2026-09-13T19:41:48Z'
 last_seen: '2026-09-14T00:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

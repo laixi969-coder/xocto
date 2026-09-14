@@ -92,3 +92,54 @@
     logins and data leaving the premises, which appeals to developers and IT administrators who cannot
     let data leave the intranet yet need to compare models; public material provides no retention or repeat-use
     evidence.'
+- id: req-full-oriveo-2026-09-14
+  project_slug: oriveo
+  level: full
+  reviewed_at: '2026-09-14T00:34:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型切换与对话数据外流的痛点：用户要在一个客户端里用自有密钥完成多模型问答并让记录留在本地，受合规约束的团队不采用就得逐家登录且数据留在第三方账号。交付边界清楚，属工作流结构推理。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从 51 增至 66 的关注度信号，没有用户评价、企业采用案例或社区讨论，是否形成使用共识无法判断。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+    - ev-773761ca3e07477b
+  - gate: model
+    status: insufficient
+    reason: AGPL-3.0 开源、无账号体系，公开材料未披露任何收费方式或买方，钱可能来自自托管支持、托管服务或捐赠，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  - gate: truth
+    status: supported
+    reason: 本地优先、可自托管、密钥由用户自持，数据留存位置可核对，未发现把用户对话交给第三方的承诺冲突，交付方式与第一性目标一致。
+    evidence_ids:
+    - ev-7dfecc97ab23efb2
+  next_validation: 追踪 oriveo 官方仓库的 README、release 说明与 issue/discussion，确认是否出现自托管部署文档、企业采用案例或任何付费/托管服务入口。
+  market: ''
+  job: 个人开发者或企业 IT 管理员在需要同时试用或对比多家模型、又受数据不得外流约束时，处理自己持有的各家 API Key 与对话内容，要在一个 iOS、Android 或网页客户端里完成多模型问答，并让记录留在本地或自托管环境。
+  job_en: An individual developer or enterprise IT administrator who must pilot or compare several models
+    while being restricted from letting data leave the premises handles their own provider API keys and
+    conversation content, and must run multi-model chat in one iOS, Android or web client with records
+    kept locally or self-hosted.
+  pain: 同时使用多家模型意味着在多个官方网页或应用间切换、重复登录，密钥与对话记录分散在各家账号里；对受合规约束的团队，对话内容留在第三方账号不可接受，而自行拼装开源前端又要自己维护。
+  pain_en: Using several providers means switching between multiple official sites or apps and logging
+    in repeatedly, with keys and conversation history scattered across vendor accounts; for compliance-bound
+    teams, leaving conversation content in third-party accounts is unacceptable, while assembling an open-source
+    front end oneself requires ongoing maintenance.
+  current_alternative: 分别使用 OpenAI、Anthropic、Gemini 等各家官方客户端或网页，或自行拼装开源聊天前端并接入自建端点；前者无法统一管理密钥与记录，后者需要自己维护。
+  current_alternative_en: Using each vendor's official client or website separately, or assembling an
+    open-source chat front end wired to self-hosted endpoints; the former cannot unify key and record
+    management, the latter needs self-maintenance.
+  usage_reason: 推断：相较逐家登录官方客户端的旧做法，它把“多平台切换 + 账号登录”合并为“一次填入自有密钥、本地留存、可自托管”，省掉逐家登录与数据出内网这一步，因此对数据不能出内网、又要横向比较模型的开发者与
+    IT 管理员更有吸引力；公开材料仅有仓库星标，未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with logging into each vendor client separately, it merges ''switching
+    platforms and logging in'' into ''enter your own key once, keep data local, self-host if needed'',
+    removing repeated logins and data leaving the intranet, which appeals to developers and IT administrators
+    who cannot let data leave the premises yet need to compare models; public material offers only repository
+    stars, with no retention or repeat-use evidence.'

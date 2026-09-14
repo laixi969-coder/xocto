@@ -194,3 +194,55 @@
     and context, removing the step of re-explaining background; thus individuals and developers who frequently
     switch among multiple AI clients and devices on long-context projects would choose it when continuing
     the same task. This causal claim is inferred from product capability and task st'
+- id: req-full-memory-bridge-2026-09-14
+  project_slug: memory-bridge
+  level: full
+  reviewed_at: '2026-09-14T00:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备、跨 AI 客户端记忆不互通、每次切换需重述背景与偏好的需求；痛点随切换频率反复发生，不解决则上下文丢失、重复劳动。仓库说明与 CDSMP 实现给出输入—写入—跨端读回的交付闭环，属工作流结构推理；尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+    - ev-e42b8499f0905c70
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的采用信号只有仓库收藏数从 85 增至 111，属关注度而非持续使用；没有 issue、discussion 或客户案例说明谁在何种场景长期使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+    - ev-e42b8499f0905c70
+  - gate: model
+    status: insufficient
+    reason: 项目为开源实现，公开材料未见定价页、付费主体或采购记录；谁付钱（个人订阅、企业部署还是纯社区维护）无法核验，这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+  - gate: truth
+    status: insufficient
+    reason: 跨设备同步范围、隐私边界与人工确认环节在公开材料中未说明，记忆跨端写入是否可确定交付、敏感上下文如何隔离尚缺可复现证据，交付确定性未核验。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+  next_validation: 追踪 memory-bridge 仓库的 README、部署文档与 issue/discussion，确认跨设备同步范围、隐私边界与是否出现真实使用者的部署或反馈记录。
+  market: ''
+  job: 个人用户与开发者在多台设备（笔记本、台式机、手机）和多个 AI 客户端（不同厂商的对话助手、IDE 插件）之间切换时，需要把已积累的对话记忆、偏好与上下文写入一份共享记忆层，并在另一台设备或另一个客户端里读回，从而不必每次重新交代背景。
+  job_en: Individuals and developers switching between multiple devices (laptop, desktop, phone) and multiple
+    AI clients (different vendors' assistants, IDE plugins) need to write accumulated conversation memory,
+    preferences and context into one shared memory layer and read it back on another device or client,
+    so they do not have to re-explain context each time.
+  pain: AI 客户端的记忆被锁在各自账号与设备内，换设备或换客户端后上下文归零，用户要重复粘贴背景、重述偏好；对同时用多个 AI 工具的人，这种重复是每次切换都发生的固定摩擦，不解决的代价是时间与上下文丢失。
+  pain_en: AI client memory is locked inside each vendor account and device; after switching device or
+    client the context resets, forcing users to re-paste background and restate preferences. For people
+    using several AI tools at once this repetition recurs on every switch, and the cost of leaving it
+    unsolved is lost time and lost context.
+  current_alternative: 当前替代方式是手动复制粘贴历史对话、把偏好写进提示词模板或系统提示、依赖单一厂商的账号内记忆，或干脆放弃跨客户端复用、每次重新交代。
+  current_alternative_en: Today users manually copy-paste past conversations, keep preference snippets
+    in prompt templates or system prompts, rely on a single vendor's in-account memory, or give up on
+    cross-client reuse and re-explain each time.
+  usage_reason: 推断：相较手动复制粘贴或依赖单一厂商记忆，它把记忆写入与读回抽成一个跨设备共享层，用户只需在切换设备或客户端时从同一份记忆读取，省掉重新粘贴背景与重述偏好这一步；因此同时使用多台设备、多个
+    AI 客户端的个人用户与开发者，会在换端或换客户端时选择它。公开材料尚未提供用户反馈或留存证据，此因果为基于产品能力的结构推理。
+  usage_reason_en: 'Inference: versus manual copy-paste or single-vendor memory, it abstracts memory write
+    and read into one cross-device shared layer, so on switching device or client the user reads from
+    the same store, removing the step of re-pasting background and restating preferences. Individuals
+    and developers using multiple devices and AI clients would therefore choose it when changing endpoint
+    or client. Public materials provide no user feedback or retention evidence; this causal claim i'

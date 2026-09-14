@@ -160,3 +160,44 @@
   usage_reason_en: With no citable product description, documentation, or user feedback, there is no way
     to say which step it removes versus the old approach or which checkable result it improves, so why
     users would choose it cannot be explained.
+- id: req-full-ai-video-ad-studio-2026-09-14
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-09-14T00:32:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，用户任务与痛点均无法从公开事实还原，价值结构无法判断。
+    evidence_ids:
+    - ev-c644718256779914
+    - ev-b3156df8785ddefa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 AI 的输入素材、执行步骤与交付产物，以及是否有用户描述实际使用场景。
+  market: ''
+  job: 营销或内容人员在需要为投放准备视频广告素材时，打开该仓库，把素材交给 AI 处理，产出可投放的成片或文件。
+  job_en: A marketing or content person preparing video ad creatives for a campaign opens this repository,
+    feeds material to the AI, and produces a deliverable cut or file for placement.
+  pain: 公开材料只有仓库名称与收藏数，未说明用户当前在剪辑或投放准备中具体卡在哪一步、不解决会付出什么代价，痛点无法从公开事实还原。
+  pain_en: Public material contains only the repository name and star counts; it does not show which step
+    of editing or placement prep actually hurts, or what it costs to leave unsolved, so the pain cannot
+    be reconstructed from public facts.
+  current_alternative: 公开材料未说明用户目前用什么工具或流程完成视频广告素材制作，也未说明该仓库替代了哪一步。
+  current_alternative_en: Public material does not show what tools or process users currently use to produce
+    video ad creatives, nor which step this repository replaces.
+  usage_reason: 缺少 README、文档或用户反馈说明 AI 接收什么素材、执行什么动作、交付什么文件，无法解释用户为何会在现有做法之外选择它。
+  usage_reason_en: There is no README, documentation, or user feedback describing what input the AI takes,
+    what action it performs, or what file it delivers, so there is no basis to explain why a user would
+    choose it over their current approach.

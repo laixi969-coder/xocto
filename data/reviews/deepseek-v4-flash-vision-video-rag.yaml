@@ -382,3 +382,52 @@
     playable clips, keyframes, and a self-contained HTML preview page, removing the step of manually locating
     and screenshotting after finding an answer; analysts who must hand video conclusions to others for
     verification would therefore choose it for long-video review.'
+- id: req-full-deepseek-v4-flash-vision-video-rag-2026-09-14
+  project_slug: deepseek-v4-flash-vision-video-rag
+  level: full
+  reviewed_at: '2026-09-14T00:33:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长视频中定位并核对具体内容的需求，痛点是逐帧回看与手动记录时间点成本高、结论难复核；公开说明给出抽帧索引、粗筛精排、带 [MM:SS] 引用与可播放片段的交付闭环，属工作流结构推理，痛点刚性与交付确定性可判。
+    evidence_ids:
+    - ev-1997a186d4a3ce70
+    - ev-e7c979af11ac5a11
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 63 升至 64，说明有开发者关注；但未见目标用户持续使用、复刻或评价证据，关注度不能证明已进入稳定工作流。
+    evidence_ids:
+    - ev-1997a186d4a3ce70
+    - ev-e7c979af11ac5a11
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济，钱可能来自个人开发者订阅或企业部署，这是判断而非已验证事实；同作者另有带货视频提示词 skill，但无采购记录。
+    evidence_ids:
+    - ev-9de01619f9a7f018
+    - ev-806173aac77eee2d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料描述了抽帧、索引与带时间戳回答的流程，但未见可复现实测、准确率或人工复核边界说明，交付能否稳定发生仍缺公开证据。
+    evidence_ids:
+    - ev-1997a186d4a3ce70
+  next_validation: 追踪该 skill 在 skillhub.cn 的项目页与关联仓库 issue/discussion，收集可复现的实测输出、时间戳准确率反馈或部署说明，以核验交付确定性。
+  market: ''
+  job: 视频内容分析师或需要核对长视频素材的创作者，在拿到一段完整视频后，要回答“某个结论出现在第几分几秒、原话或画面是什么”，并需要把该片段与关键帧切出来交给他人核对。
+  job_en: A video content analyst or creator holding a full-length video must answer 'at which minute
+    and second does a given claim appear, and what exactly is said or shown', then cut that segment and
+    keyframes out for others to verify.
+  pain: 公开材料显示该 skill 的定位是让 AI 真正看懂视频并给出带 [MM:SS] 时间戳的答案；这对应长视频逐帧回看、手动定位时间点、再截图或剪辑取证的重复劳动，定位成本高且难以复核。
+  pain_en: Public materials position the skill as letting AI actually understand a video and answer with
+    [MM:SS] timestamps; this maps to the repetitive labor of scrubbing long videos, manually locating
+    time points, then screenshotting or clipping evidence, which is costly and hard to verify.
+  current_alternative: 旧做法是人工拖动进度条逐段回看并手动记录时间点，或把整段视频丢给通用多模态模型提问，但后者通常不给可核对的时间戳与可播放片段。
+  current_alternative_en: The old way is to scrub the timeline manually and note timestamps by hand, or
+    to feed the whole video to a general multimodal model, which typically returns no verifiable timestamp
+    or playable clip.
+  usage_reason: 推断：相较手动回看，它先按时间轴抽帧建索引，再经本地粗筛、视觉精排、深读回答，直接输出 [MM:SS] 引用并生成内嵌可播放片段与关键帧的自包含 HTML 页，用户省去逐段定位与剪辑取证这一步，因此需要交付带出处视频证据的分析者会在核对素材时选择它。
+  usage_reason_en: 'Inference: versus manual scrubbing, it first indexes frames along the timeline, then
+    runs local coarse filtering, visual re-ranking and deep reading, emitting [MM:SS] citations plus a
+    self-contained HTML page with playable clips and keyframes, removing the locate-and-clip step, so
+    analysts who must deliver sourced video evidence would pick it when verifying footage.'

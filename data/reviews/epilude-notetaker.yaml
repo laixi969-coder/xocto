@@ -1,0 +1,82 @@
+- id: req-initial-epilude-notetaker-2026-09-14
+  project_slug: epilude-notetaker
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决会议记录留存问题，但材料未说明旧流程、痛点强度与不采用的后果，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-0a40e6fc95b6cf90
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料没有用户评价、采用或场景描述，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-0a40e6fc95b6cf90
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱来自个人、企业还是其他方。
+    evidence_ids:
+    - ev-0a40e6fc95b6cf90
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对隐私承诺如何实现、是否本地处理，交付确定性无从判断。
+    evidence_ids:
+    - ev-0a40e6fc95b6cf90
+  next_validation: 收集该产品的官方定价页或隐私处理说明，确认其是否本地处理、按什么计价。
+  market: ''
+  job: 需要留存会议结论的团队或个人，在会议进行或结束后处理语音与对话材料，要产出一份可回看的会议记录。
+  job_en: Teams or individuals who need to retain meeting outcomes process audio and conversation material
+    during or after a meeting to produce reviewable meeting notes.
+  pain: 公开材料只给出“100% 私密会议笔记”一句，未说明用户此前用什么方式记录、哪一步最费时，也未给出任何用户抱怨或替代行为的描述。
+  pain_en: Public material offers only the line "100% private meeting notes"; it does not say how users
+    recorded meetings before, which step was most costly, and gives no user complaints or workaround descriptions.
+  current_alternative: 公开材料未披露现有替代方式，无法确认用户此前是手工记录、使用通用转写工具还是其他做法。
+  current_alternative_en: Public material does not disclose existing alternatives, so it is unclear whether
+    users previously took notes by hand, used generic transcription tools, or something else.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，仅凭“私密”一词不足以解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not explain which step of the old workflow it
+    removes or which checkable result it improves; the word "private" alone does not explain why users
+    would choose it.'
+- id: req-full-epilude-notetaker-2026-09-14
+  project_slug: epilude-notetaker
+  level: full
+  reviewed_at: '2026-09-14T00:33:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决会议记录留存问题，但材料未说明旧流程、痛点强度与不采用的后果，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-0a40e6fc95b6cf90
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或隐私处理说明，确认其是否本地处理、按什么计价。
+  market: ''
+  job: 需要留存会议结论的团队或个人，在会议进行或结束后处理语音与对话材料，要产出一份可回看的会议记录。
+  job_en: Teams or individuals who need to retain meeting outcomes process audio and conversation material
+    during or after a meeting to produce reviewable meeting notes.
+  pain: 公开材料只有“100% 私密会议笔记”一句，未说明用户此前如何记录、哪一步最费时，也没有任何用户抱怨或替代行为的描述，痛点强度无从判断。
+  pain_en: Public material offers only the line "100% private meeting notes"; it does not say how users
+    recorded meetings before, which step was most costly, and gives no user complaints or workaround descriptions,
+    so pain intensity cannot be judged.
+  current_alternative: 公开材料未披露现有替代方式，无法确认用户此前是手工记录、使用通用转写工具还是其他做法。
+  current_alternative_en: Public material does not disclose existing alternatives, so it is unclear whether
+    users previously took notes by hand, used generic transcription tools, or something else.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，仅凭“私密”一词不足以解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not explain which step of the old workflow it
+    removes or which checkable result it improves; the word "private" alone does not explain why users
+    would choose it.'

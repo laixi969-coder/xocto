@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/Xenova/navier-stokes-vortex-webgpu
 summary: Finite-time blowup in smoothly forced Navier–Stokes flow
 first_seen: '2026-09-13T07:38:49Z'
 last_seen: '2026-09-14T00:12:54Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

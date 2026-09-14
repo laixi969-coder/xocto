@@ -1,0 +1,88 @@
+- id: req-initial-hoplagames-2026-09-14
+  project_slug: hoplagames
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决家庭体感玩法在 Kinect 停产后缺硬件的问题，痛点具体；但公开材料只有开发者自述，无法确认识别方式与交付是否稳定。
+    evidence_ids:
+    - ev-dffabd9035fbc3fe
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分 2 评论，没有可归因到该产品的采用或持续使用证据。
+    evidence_ids:
+    - ev-dffabd9035fbc3fe
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；家庭订阅或内容付费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-dffabd9035fbc3fe
+  - gate: truth
+    status: insufficient
+    reason: 未说明摄像头型号、动作识别是否用模型、延迟与人工边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-dffabd9035fbc3fe
+  next_validation: 收集 hoplagames 官方页面或仓库中的摄像头支持列表、动作识别说明与延迟数据，以及是否有家庭用户的实际使用反馈。
+  market: ''
+  job: 家长在客厅陪孩子玩体感游戏时，用普通摄像头代替已停产的 Kinect 捕捉身体动作，让孩子无需手柄即可完成游戏动作。
+  job_en: A parent playing motion games with children in the living room uses an ordinary camera instead
+    of the discontinued Kinect to capture body movement so children can play without a controller.
+  pain: Kinect 停产后，家庭体感玩法缺少便宜且无需专用主机的替代；买旧硬件或换主机成本高、来源不稳。
+  pain_en: After the Kinect was discontinued, home motion play lacks a cheap replacement that needs no
+    dedicated console; buying old hardware or switching consoles is costly and unreliable.
+  current_alternative: 买二手 Kinect 配旧主机，或直接用手机、平板上的触屏游戏替代体感。
+  current_alternative_en: Buying a used Kinect with an old console, or replacing motion play with touch
+    games on phones and tablets.
+  usage_reason: 推断：若浏览器端动作识别延迟可接受，家长无需购买任何专用硬件，打开页面即可开始，省去采购与接线这一步；但公开材料未给出识别方式、延迟或任何使用反馈，无法确认它是否真的比旧做法省事。
+  usage_reason_en: 'Inference: if in-browser motion recognition latency is acceptable, parents need no
+    dedicated hardware and can start by opening a page, skipping purchase and wiring; but public material
+    gives no recognition method, latency or user feedback, so it is unconfirmed whether this is actually
+    less work than the old way.'
+- id: req-full-hoplagames-2026-09-14
+  project_slug: hoplagames
+  level: full
+  reviewed_at: '2026-09-14T00:33:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Kinect 停产后家庭体感玩法缺便宜入口的需求，痛点是旧硬件难买、触屏丢失全身动作；公开自述已还原输入（普通摄像头）、动作（浏览器内识别）与交付（无需手柄完成游戏动作），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-dffabd9035fbc3fe
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有开发者自述与一条市场检索记录，没有可归因到该产品的采用、留存或重复使用证据，无法判断家长是否把它留在日常陪玩流程里。
+    evidence_ids:
+    - ev-dffabd9035fbc3fe
+    - ev-1854fb510eeab099
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；家庭订阅或内容付费只是推断，不是已验证事实，谁付钱仍说不清。
+    evidence_ids:
+    - ev-dffabd9035fbc3fe
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持的摄像头型号、动作识别是否用模型、延迟表现与人工边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-dffabd9035fbc3fe
+  next_validation: 追踪 hoplagames 官网或仓库中的摄像头支持列表、动作识别与延迟说明，以及是否出现家庭用户的实际使用反馈或评价。
+  market: ''
+  job: 家长在客厅陪孩子玩体感游戏时，打开浏览器页面，用普通摄像头捕捉孩子的身体动作，让孩子不拿手柄就能完成游戏动作。
+  job_en: A parent playing motion games with children in the living room opens a browser page and uses
+    an ordinary camera to capture the child's body movement so the child can play without a controller.
+  pain: Kinect 停产后，家庭体感玩法失去便宜且无需专用主机的入口；买二手 Kinect 配旧主机成本高、来源不稳，触屏游戏又丢掉了全身动作这一核心体验。
+  pain_en: After the Kinect was discontinued, home motion play lost a cheap entry point that needs no
+    dedicated console; buying a used Kinect with an old console is costly and unreliable, while touch
+    games lose the whole-body movement that defines the experience.
+  current_alternative: 买二手 Kinect 配旧主机，或退回到手机、平板上的触屏游戏。
+  current_alternative_en: Buying a used Kinect with an old console, or falling back to touch games on
+    phones and tablets.
+  usage_reason: 推断：相较买旧硬件或换主机，它把入口压缩成“打开浏览器页面”这一步，省去采购、接线与主机启动，家长在客厅临时起意陪玩时更可能选它；但公开材料未给出识别方式、延迟或任何使用反馈，这一因果仍属结构推理。
+  usage_reason_en: 'Inference: compared with buying old hardware or switching consoles, it compresses
+    the entry to opening a browser page, skipping purchase, wiring and console boot, so a parent deciding
+    on the spot in the living room is more likely to pick it; but public material gives no recognition
+    method, latency or user feedback, so this causal link remains structural reasoning.'

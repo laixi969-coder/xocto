@@ -1,0 +1,83 @@
+- id: req-initial-screencursor-2026-09-14
+  project_slug: screencursor
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决录屏后手动打缩放关键帧的重复劳动，痛点具体但非刚性，公开材料未说明自动缩放的触发方式与成片可控程度。
+    evidence_ids:
+    - ev-056d3da34851f79f
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品说明外无用户评价、案例或采用信号，无法判断录屏人群是否真的把这一步外包给工具。
+    evidence_ids:
+    - ev-056d3da34851f79f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按成片收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-056d3da34851f79f
+  - gate: truth
+    status: insufficient
+    reason: 自动缩放是否贴近演示视频的第一性目标、能否确定性交付，公开材料不足以核对。
+    evidence_ids:
+    - ev-056d3da34851f79f
+  next_validation: 收集 ScreenCursor 官方定价页或产品文档，确认自动缩放的触发机制、成片导出规格与收费方式。
+  market: ''
+  job: 产品演示录制者、在线课程讲师在录制软件操作教程时，处理的是原始屏幕录像，要完成一段可直接发布、镜头有节奏的演示视频。
+  job_en: Product demo recorders and online course instructors capture raw screen recordings of software
+    walkthroughs and need a publishable demo video with paced camera movement.
+  pain: 录屏本身容易，但成片需要在剪辑软件里逐段打关键帧做缩放，重复且耗时；不做的后果是视频平淡、观众看不清操作重点。
+  pain_en: Recording is easy, but finishing requires keyframing zoom segment by segment in an editor;
+    skipping it leaves flat videos where viewers cannot see the operation focus.
+  current_alternative: 录屏后用剪辑软件手动打缩放关键帧，或干脆不缩放直接发布。
+  current_alternative_en: Record, then manually keyframe zooms in an editor, or publish without zooms
+    at all.
+  usage_reason: 推断：若它能在录制过程中自动生成缩放，用户就省掉剪辑软件里逐段打关键帧这一步，录制结束即接近成片；因此高频出演示视频的售前和课程团队会在赶交付时选择它。公开材料未给出实际使用或留存证据。
+  usage_reason_en: 'Inference: if it generates zooms during recording, users skip the segment-by-segment
+    keyframing step and finish close to the recording itself; pre-sales and course teams shipping demos
+    frequently would pick it when deadlines are tight. No public usage or retention evidence is given.'
+- id: req-full-screencursor-2026-09-14
+  project_slug: screencursor
+  level: full
+  reviewed_at: '2026-09-14T00:35:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决录屏后手动打缩放关键帧的重复劳动，痛点具体但非刚性：不缩放也能发布，属可做可不做的润色；公开材料仅一句产品说明，未说明自动缩放的触发方式与成片可控程度，也无用户抱怨或替代行为佐证。
+    evidence_ids:
+    - ev-056d3da34851f79f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 ScreenCursor 官方定价页或产品文档，确认自动缩放的触发机制、成片导出规格与收费方式，以判断它是独立工具还是录屏软件的附属功能。
+  market: ''
+  job: 产品演示录制者或在线课程讲师在录制软件操作教程时，处理的是原始屏幕录像，要完成一段可直接发布、镜头有节奏的演示视频。
+  job_en: Product demo recorders and online course instructors capture raw screen recordings of software
+    walkthroughs and need a publishable demo video with paced camera movement.
+  pain: 录屏后需在剪辑软件里逐段打缩放关键帧，重复耗时；不做的后果是视频平淡、观众看不清操作重点。但公开材料仅一句产品说明，未显示用户抱怨、频率或返工代价。
+  pain_en: After recording, users keyframe zooms segment by segment in an editor, which is repetitive;
+    skipping it leaves flat videos where viewers miss the operation focus. But public material is one
+    product line, with no user complaints, frequency, or rework cost shown.
+  current_alternative: 录屏后用剪辑软件手动打缩放关键帧，或干脆不缩放直接发布；也可用已有录屏工具自带的缩放或后期模板。
+  current_alternative_en: Record, then manually keyframe zooms in an editor, or publish without zooms;
+    existing recorders' built-in zoom or post-production templates are also options.
+  usage_reason: 推断：若自动缩放能在录制中生成，用户可省掉剪辑里逐段打关键帧这一步。但公开材料未说明触发方式与成片可控程度，且手动缩放属可做可不做的润色，不做也能发布，因此难以确认用户会为此单独采用一个工具。
+  usage_reason_en: 'Inference: if auto zoom is generated during recording, users skip segment-by-segment
+    keyframing. But public material does not show the trigger mechanism or how controllable the output
+    is, and manual zooming is optional polish that can be skipped, so it is hard to confirm users would
+    adopt a separate tool for it.'

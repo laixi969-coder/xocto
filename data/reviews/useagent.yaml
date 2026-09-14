@@ -176,3 +176,53 @@
     task and receives a finished website, report or PR, skipping environment setup, context shuttling
     and fragment assembly; developers or PMs would choose it when the task is well bounded and the deliverable
     is checkable. Public material provides no user feedback or customer case, so this causal '
+- id: req-full-useagent-2026-09-14
+  project_slug: useagent
+  level: full
+  reviewed_at: '2026-09-14T00:35:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把整段工作交出去并拿回成品：公开说明代理自带云电脑、接入团队工具与上下文，交付网站、演示文稿、表格、报告、PR。旧做法是在本地编码助手里逐段生成再人工整合，收尾负担留在人身上；不解决的后果是任务无法整段委派。这是工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-608a8fa77fdc4e03
+    - ev-c4d627a7e9644a3c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 283 缓慢升至 306，属关注度而非持续采用；公开材料未见用户讨论、案例或复购证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-608a8fa77fdc4e03
+    - ev-ba47b98cedbd56e0
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价页或付费路径，谁付钱只能推断为团队自建或订阅自有模型额度；这是判断，不是已验证事实，to B 采购与托管收费均未核验。
+    evidence_ids:
+    - ev-c4d627a7e9644a3c
+  - gate: truth
+    status: insufficient
+    reason: 交付承诺为网站、报告、PR 等成品，但公开材料未给出交付质量、失败率或人工复核边界；云电脑执行涉及凭据与代码权限，安全边界未说明，确定性交付待核验。
+    evidence_ids:
+    - ev-608a8fa77fdc4e03
+  next_validation: 追踪 useagent 官方仓库的 README、issues 与 discussion，确认是否有真实交付示例、用户反馈与云电脑权限/安全边界说明。
+  market: ''
+  job: 开发者或产品经理在需要产出网站、演示文稿、电子表格、报告或 PR 时，把任务连同团队工具与上下文交给一个拥有独立云电脑的开源 AI 代理，由代理在云端执行并交回成品。
+  job_en: A developer or PM hands a task plus team tools and context to an open-source AI agent with its
+    own cloud computer, and receives finished artifacts such as websites, decks, spreadsheets, reports,
+    or PRs.
+  pain: 公开材料显示旧做法是自己在本地或订阅的编码助手（Claude Code、Codex、OpenCode）里逐段生成代码与文档，再人工整合成可交付成品；跨工具、跨环境的拼接与收尾步骤由人承担，任务无法整段交出去。
+  pain_en: Public material indicates the old path is generating code and documents piecewise in local
+    or subscription coding assistants (Claude Code, Codex, OpenCode) and manually assembling them into
+    a deliverable; the stitching and finishing across tools and environments stays with the human, so
+    the task cannot be handed off whole.
+  current_alternative: 使用 Claude Code、Codex、OpenCode 等编码助手在本地逐段生成，再自行整合；或外包给人工团队制作网站、演示文稿和报告。
+  current_alternative_en: Using coding assistants such as Claude Code, Codex, or OpenCode locally to generate
+    pieces and integrating them by hand; or outsourcing websites, decks, and reports to human teams.
+  usage_reason: 推断：相较在本地助手逐段生成再人工拼接，它把执行环境搬到代理自带的云电脑，并接入团队工具与上下文，使任务可以整段提交、由代理跑完并交回成品，减少人工搬运与收尾环节；因此需要批量产出网站、报告、PR
+    等成品、又不想逐步盯着的开发者或产品经理会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus generating piecewise in a local assistant and stitching by hand,
+    it moves execution onto the agent''s own cloud computer and connects team tools and context, so a
+    task can be submitted whole, run to completion, and returned as a finished artifact, cutting manual
+    shuttling and finishing; developers or PMs who need websites, reports, or PRs produced in volume without
+    step-by-step babysitting would choose it in that situation.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9idG81QUxjdkdH
 summary: AI Safety Burden Falls on Chief Executives as Trump Prioritizes China Race BeInCrypto
 first_seen: '2026-09-13T17:10:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

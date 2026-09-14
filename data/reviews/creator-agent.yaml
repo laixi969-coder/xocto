@@ -423,3 +423,53 @@
     documents, audio and video directly and builds an agent grounded in the personal corpus, removing
     the step of transcribing and pasting material into prompts and keeping answers traceable to one''s
     own sources; creators with large, audio/video-heavy archives would choose it when reusing old content.'
+- id: req-full-creator-agent-2026-09-14
+  project_slug: creator-agent
+  level: full
+  reviewed_at: '2026-09-14T00:33:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者把文档、音频、视频沉淀为可问答智能体的需求，痛点是长音视频素材检索与复用成本高；公开事实仅有仓库定位与收藏数，痛点与替代方式属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-87b50e2c8f6d51bd
+    - ev-9ad0e43708ce1d4a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从126升至253，说明开发者关注度在增长，但收藏不等于目标创作者持续使用；公开材料没有issue、discussion或评价说明谁在什么场景反复调用它，采用共识尚未形成。
+    evidence_ids:
+    - ev-87b50e2c8f6d51bd
+    - ev-9ad0e43708ce1d4a
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费客户或采购记录，谁付钱尚不清楚；按开源项目常见路径，钱可能来自托管服务、企业定制或赞助，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-87b50e2c8f6d51bd
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句定位描述，没有部署文档、输入输出示例或可复现测试，无法确认音频视频解析与知识库交付能否稳定发生，人工与安全边界也未披露。
+    evidence_ids:
+    - ev-87b50e2c8f6d51bd
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现具体创作者部署案例、输入素材类型与交付结果的可复现说明。
+  market: ''
+  job: 独立创作者或内容运营者手上积累了大量长视频、播客音频和文档，需要把这些素材变成可检索、可问答、可再生成脚本或文案的个人知识智能体，用于持续产出新内容或回答粉丝提问。
+  job_en: An independent creator or content operator holds large volumes of long videos, podcast audio
+    and documents, and needs to turn them into a searchable, queryable personal-knowledge agent that can
+    answer questions or regenerate scripts and copy for ongoing content output.
+  pain: 公开材料只给出产品定位，没有用户抱怨或案例；从工作流结构推理，创作者素材散落在视频平台、音频文件和本地文档中，想复用旧内容只能靠人工回看、手动记笔记或反复翻找，长音视频的检索成本高且难以沉淀成可复用的知识资产。
+  pain_en: Public materials give only the product positioning, with no user complaints or cases; by workflow
+    inference, creator assets are scattered across video platforms, audio files and local documents, so
+    reusing old content requires manual re-watching, note-taking or repeated searching, making long audio/video
+    retrieval costly and hard to accumulate into reusable knowledge assets.
+  current_alternative: 当前替代方式是人工回看视频、听音频并手写笔记，或把素材丢进通用大模型对话窗口做一次性问答，素材无法沉淀为可反复调用的个人知识库。
+  current_alternative_en: The current alternative is manually re-watching video, listening to audio and
+    taking notes, or pasting assets into a general-purpose LLM chat for one-off Q&A, where material cannot
+    accumulate into a reusable personal knowledge base.
+  usage_reason: 推断：相较人工回看和通用对话，它把文档、音频、视频直接作为智能体的知识底座，用户提问或生成内容时不必再逐条搬运素材，减少的是素材整理与重复检索这一步负担；因此素材量大、需要反复复用旧内容的创作者会在做问答或二次创作时选择它。
+  usage_reason_en: 'Inference: compared with manual re-watching and generic chat, it uses documents, audio
+    and video directly as the agent''s knowledge base, so users no longer have to move assets piece by
+    piece when asking questions or generating content, removing the asset-organizing and repeated-retrieval
+    step; creators with large asset volumes who need to reuse old content would therefore choose it for
+    Q&A or derivative creation.'

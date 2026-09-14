@@ -1,6 +1,6 @@
 ---
 slug: samsung-biologics-signs-262m-manufacturing-deal-through-2033
-name: Samsung Biologics signs $262M manufacturing deal through 2033, pushing longer CDMO bookings
+name: Samsung Biologics
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxORVhaQzJJNlVJ
 summary: Samsung Biologics signs $262M manufacturing deal through 2033, pushing longer CDMO bookings MarketScale
 first_seen: '2026-09-13T11:54:54Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Samsung Biologics signs $262M manufacturing deal through 2033, pushing longer CDMO bookings
+# Samsung Biologics
 
 Samsung Biologics signs $262M manufacturing deal through 2033, pushing longer CDMO bookings MarketScale
 

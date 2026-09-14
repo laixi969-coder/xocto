@@ -321,3 +321,54 @@
     source into a structured theorem dependency graph with proof evidence and external dependencies, so
     researchers or agents get a checkable reading order without section-by-section manual tracing; users
     handling long math papers who care about dependency accuracy would choose it in that situation.'
+- id: req-full-papergraph-mcp-2026-09-14
+  project_slug: papergraph-mcp
+  level: full
+  reviewed_at: '2026-09-14T00:34:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学论文阅读中定理依赖链分散、人工梳理慢且易漏、AI 代理裸读易在未验证引理上猜测的问题；不解决的后果是理解与生成出错。公开材料已能还原输入（arXiv ID/LaTeX）、动作（抽取定理与依赖）、交付（依赖图/阅读地图），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-bf5e239f02c418f6
+    - ev-aa41b7aaec985cb2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 98 增至 161，说明开发者社区持续关注，但收藏与环比只属关注度证据，不能证明目标用户已把它留在阅读或代理工作流中；缺少 issue、discussion 或使用反馈说明谁在何种场景采用。
+    evidence_ids:
+    - ev-91282cdf8cd08ea2
+    - ev-aa41b7aaec985cb2
+  - gate: model
+    status: insufficient
+    reason: 这是开源 MCP 服务器，公开材料未见定价页、付费主体或采购记录；可能路径是 to C 研究者与 to B 代理开发者免费采用后衍生服务，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-bf5e239f02c418f6
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺'不猜测'地给出证据锚定阅读地图，但公开材料未提供解析准确率、对复杂 LaTeX 宏包或跨论文外部依赖的处理边界，也未见人工复核与安全边界的部署文档，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-bf5e239f02c418f6
+    - ev-aa41b7aaec985cb2
+  next_validation: 追踪 papergraph-mcp 仓库的 README、issue 与 discussion，确认是否有用户报告在具体论文上部署、解析准确率与替代了哪种旧阅读流程。
+  market: ''
+  job: 数学/理论方向研究人员或为其构建工具的 AI 代理开发者，在阅读 arXiv 或 LaTeX 数学论文时，输入论文源文件或 arXiv ID，需要先弄清定理之间的依赖顺序、哪些结论依赖外部引理，才能决定从哪读起、证明是否自洽。
+  job_en: Math/theory researchers or AI-agent developers building for them, when reading an arXiv or LaTeX
+    math paper, feed the source or arXiv ID and need to establish theorem dependency order and which results
+    rest on external lemmas, so they can decide reading order and whether a proof is self-contained.
+  pain: 数学论文的证明依赖链分散在正文、附录与外部引用中，人工梳理定理依赖既慢又易漏；AI 代理直接读全文时容易在未验证的引理上'猜'结论，导致理解或生成出错。公开材料只给出产品定位，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Proof dependency chains in math papers are scattered across body, appendix and external citations,
+    so manual tracing is slow and error-prone; an AI agent reading the full text can 'guess' results on
+    unverified lemmas, producing wrong understanding or output. Public material only states positioning,
+    with no user complaints or frequency data, so pain intensity is a workflow-structure inference.
+  current_alternative: 研究人员靠人工通读、做笔记或看综述来梳理依赖；AI 代理侧则把整篇论文塞进上下文让模型自行推断，或用通用 PDF/文本解析工具抽取，缺少显式的定理级依赖结构。
+  current_alternative_en: Researchers trace dependencies by manual close reading, notes or survey papers;
+    on the agent side, the whole paper is stuffed into context and the model infers on its own, or generic
+    PDF/text parsers extract content without explicit theorem-level dependency structure.
+  usage_reason: 相较人工通读或让模型裸读全文，它把论文解析成定理级依赖图并标注证明证据与外部依赖，使代理在回答时能引用具体定理而非猜测，研究人员也能据此确定阅读顺序。这是基于产品能力与任务结构的推断，尚无用户反馈或案例证实其实际采用动机。
+  usage_reason_en: Compared with manual close reading or letting a model read the raw text, it parses
+    the paper into a theorem-level dependency graph with proof evidence and external dependencies, so
+    an agent can cite specific theorems instead of guessing and a researcher can set reading order. This
+    is an inference from product capability and task structure; no user feedback or case yet confirms
+    actual adoption motive.

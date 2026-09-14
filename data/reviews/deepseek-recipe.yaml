@@ -152,3 +152,44 @@
   usage_reason: 缺少产品说明、文档、issue 或用户反馈，无法解释用户相较现有做法为何选择它；收藏数只反映关注度，不构成使用理由。
   usage_reason_en: With no product description, docs, issues, or user feedback, there is no explanation
     of why users choose it over existing approaches; star counts reflect attention only, not usage rationale.
+- id: req-full-deepseek-recipe-2026-09-14
+  project_slug: deepseek-recipe
+  level: full
+  reviewed_at: '2026-09-14T00:33:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有仓库名称与收藏数，既写不出用户要完成的任务，也写不出痛点、频率与不采用的后果，无法还原输入—动作—交付闭环；连需求与痛点都无从表述，故价值关不成立。
+    evidence_ids:
+    - ev-d41d907af8a8ac34
+    - ev-a9091ebb647f813d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 deepseek-recipe 仓库的 README 与 release 说明，确认它实际提供什么能力、面向哪类使用者，以及是否有可引用的使用说明或示例。
+  market: ''
+  job: 公开材料未说明具体用户、场景与材料：仓库仅有名称与收藏数，无法还原谁在什么情况下处理什么内容、要完成什么任务。
+  job_en: 'Public materials do not identify the user, situation, or material: the repo shows only a name
+    and star count, so it is impossible to reconstruct who handles what content under what circumstances
+    to complete which task.'
+  pain: 公开材料未给出任何用户痛点、抱怨或替代行为，无法判断它缓解的是什么摩擦，也无法判断不解决的后果。
+  pain_en: Public materials give no user pain, complaint, or workaround, so it is impossible to tell what
+    friction it relieves or what happens if left unsolved.
+  current_alternative: 公开材料未说明用户目前如何完成相关工作，也未说明它替代了什么做法。
+  current_alternative_en: Public materials do not show how users currently do the related work or what
+    practice it replaces.
+  usage_reason: 无法写出使用理由：仓库除名称与收藏数外没有可引用的功能、文档或用户反馈，收藏增长只反映关注度，不能解释用户为何选择它。
+  usage_reason_en: 'No usage reason can be written: beyond a name and star count the repo offers no citable
+    capability, documentation, or user feedback, and star growth reflects attention only, not why users
+    would choose it.'

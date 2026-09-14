@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNMmhuakxhWkx4
 summary: 对话蚂蚁数科负责人：用“智能体超级工厂”，帮企业进入AI时代 新浪网
 first_seen: '2026-09-13T06:27:48Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

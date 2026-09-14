@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/shiui-hinomaru-ink-ui-kit
 summary: Hinomaru Ink Web UI Kit in Japanese Hinomaru style
 first_seen: '2026-09-09T14:21:15Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

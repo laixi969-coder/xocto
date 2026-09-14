@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1tcl9ud3kxbHlh
 summary: Amazon | E-commerce, Amazon Web Services, History, & Facts Britannica
 first_seen: '2026-09-11T07:00:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

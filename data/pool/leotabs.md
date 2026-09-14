@@ -21,7 +21,7 @@ canonical_url: https://github.com/ringlochid/leotabs
 summary: Open-Sourced Chrome Extension to Save, Organize and Switch Bookmarks
 first_seen: '2026-09-13T02:05:09Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

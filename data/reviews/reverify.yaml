@@ -454,3 +454,54 @@
     fixes ''model proposes, deterministic tools decide, each claim checked against ground truth with evidence''
     into a repeatable step, reducing manual checking and context loss, so accuracy-sensitive AI developers
     and reverse engineers would choose it when analyzing binaries or protocols.'
+- id: req-full-reverify-2026-09-14
+  project_slug: reverify
+  level: full
+  reviewed_at: '2026-09-14T00:35:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LLM 在逆向与代码分析中自信出错、结论无法核对的需求，痛点是错误结论进入交付物后返工代价高；公开仓库说明其机制为模型提议、确定性工具裁决并保留带证据上下文，旧做法是人工逐条回查。属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+    - ev-760b235dae1207df
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1,178 增至 1,188，说明开发者注意到该项目，但星标属关注度而非持续采用；未见 issue、discussion 或用户评价说明谁在何种场景长期使用。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+    - ev-760b235dae1207df
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济，MCP 服务器与 CLI 可能走开源加托管或企业支持，但这是判断而非已验证事实；买方不清不否定需求成立。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明确定性工具覆盖哪些事实源、裁决失败时如何回退，以及人工与安全边界；交付能否确定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+  next_validation: 追踪 reverify 仓库的 issue 与 discussion，确认实际部署场景、被替代的旧校验流程以及是否出现付费或托管版本线索。
+  market: ''
+  job: AI 应用开发者或逆向工程师在让 LLM 代理分析二进制、协议或未知代码时，处理的是模型给出的主张与推断，要完成的是把每条结论落到可核对的 ground truth 上，而不是拿到一段看似合理但无法验证的输出。
+  job_en: AI application developers and reverse engineers working with LLM agents on binaries, protocols,
+    or unknown code handle model claims and inferences, and must land each conclusion on checkable ground
+    truth rather than plausible but unverifiable output.
+  pain: LLM 在逆向与代码分析中会给出自信但错误的结论，人工逐条回查成本高；不核验的后果是错误结论进入后续分析或交付物，返工代价大。公开材料只给出产品自述，未提供用户抱怨或案例。
+  pain_en: LLMs produce confident but wrong conclusions in reverse engineering and code analysis, and
+    manually re-checking each claim is costly; skipping verification lets errors flow into later analysis
+    or deliverables with expensive rework. Public material offers only the product's own claim, no user
+    complaints or cases.
+  current_alternative: 靠人工逐条复核模型输出，或在提示词里要求模型自证、再手动比对文档与工具输出；没有把确定性工具作为裁决方的固定流程。
+  current_alternative_en: Manually re-checking model output claim by claim, or prompting the model to
+    justify itself and hand-comparing against docs and tool output; no fixed workflow where deterministic
+    tools act as the decider.
+  usage_reason: 推断：相较人工逐条回查，它把模型主张交给确定性工具裁决并保留带证据的上下文，用户省掉的是自己写校验脚本和跨会话重建事实这一步；因此高频用 LLM 做逆向或代码分析的开发者会在需要可核对结论时选择它。仓库
+    1,178→1,188 星只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual claim-by-claim re-checking, it routes model claims to deterministic
+    tools for adjudication and keeps evidence-backed context, removing the need to write one-off validators
+    and rebuild facts across sessions; developers doing frequent LLM-assisted reverse engineering or code
+    analysis would pick it when conclusions must be checkable. The 1,178→1,188 stars show attention only,
+    not sustained use.'

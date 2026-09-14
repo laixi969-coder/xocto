@@ -365,3 +365,52 @@
     ready loop, with the vendor claiming an agent can be packaged into a standalone commercial product
     in 30 minutes — removing the step of implementing payments and accounts from scratch, so DSH-based
     developers who want independent pricing would pick it at launch time.'
+- id: req-full-jingyun-dsh-2026-09-14
+  project_slug: jingyun-dsh
+  level: full
+  reviewed_at: '2026-09-14T00:33:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 开发者把智能体变成可收费商品的需求，痛点是自建登录、会员、订阅支付、云端资产与多端同步这套商业闭环，缺一环就收不到钱；公开说明称可 30 分钟封装为独立商业产品。这是工作流结构推理，尚无用户付费或留存证据。
+    evidence_ids:
+    - ev-3683512bb59c6387
+    - ev-231cbf68aab3e1e8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 128 增至 346，说明开发者社区持续关注；但收藏与关注只属规模信号，公开材料没有用户评价、案例或重复使用记录，无法证明目标开发者已把它留在售卖流程里。
+    evidence_ids:
+    - ev-277fde191ca7f5f6
+    - ev-231cbf68aab3e1e8
+  - gate: model
+    status: insufficient
+    reason: 公开说明提到会员体系与订阅支付，指向 to C 开发者订阅或交易抽成，但未见定价页、费率与买方采购记录；这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-3683512bb59c6387
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出部署文档、可复现实测或支付与资产同步的稳定性证据，交付能否确定性发生、以及资金与账号安全边界如何划分，均缺可核对材料。
+    evidence_ids:
+    - ev-3683512bb59c6387
+  next_validation: 追踪 jingyun.studio 官方定价页与 DSH 商业化部署文档，确认订阅费率、抽成方式及是否有真实开发者上线售卖的客户案例。
+  market: ''
+  job: AI 智能体/技能/工作流开发者（个人或小团队）在已有可运行的 DSH 智能体后，需要把它变成能对外售卖的商品：处理登录注册、会员、订阅支付、云端资产与多端同步等材料，完成从开发产物到可收费独立产品的封装与上线。
+  job_en: 'An AI agent/skill/workflow developer (individual or small team) who already has a working DSH
+    agent needs to turn it into a sellable product: handling login, membership, subscription payment,
+    cloud assets and multi-device sync, to ship a chargeable standalone product from a dev artifact.'
+  pain: 公开说明指出，开发者要把智能体变成可交易商品，必须自建登录注册、会员体系、订阅支付、云端资产与多端同步这一整套商业闭环；这些与智能体本身无关，却决定能否收到钱，缺一环就无法对外售卖。
+  pain_en: Public materials state that turning an agent into a tradable product requires building login,
+    membership, subscription payment, cloud assets and multi-device sync; this commercial loop is unrelated
+    to the agent itself yet determines whether money can be collected at all.
+  current_alternative: 当前替代方式是自己从零搭建账号、支付与同步后端，或把智能体挂在通用平台上、由平台统一收费而无法独立定价；公开材料未给出这些替代路径的具体使用比例。
+  current_alternative_en: Today developers either build account, payment and sync backends from scratch,
+    or host the agent on a generic platform that bills centrally and prevents independent pricing; public
+    materials give no usage share for these paths.
+  usage_reason: 推断：相较自建后端或寄居通用平台，该客户端把登录注册、会员、订阅支付、云端资产与多端同步作为现成模块注入 DSH，开发者只需封装自己的智能体即可上线收费，省去自建支付与账号体系这一步；因此已跑通智能体、但缺商业化后端且希望独立定价的开发者会在准备售卖时选择它。
+  usage_reason_en: 'Inference: versus building a backend or renting a generic platform, the client injects
+    ready-made login, membership, subscription payment, cloud assets and multi-device sync into DSH, so
+    a developer only packages the agent to start charging, removing the step of building payment and account
+    systems; thus developers with a working agent but no commercial backend, who want independent pricing,
+    would pick it when preparing to sell.'

@@ -181,3 +181,55 @@
     conversations and decisions as Markdown single source of truth shared by Claude Code and Codex, removing
     the step of re-pasting context after switching tools; local retrieval and no API key lower the adoption
     barrier, so developers who switch tools frequently would choose it in that situation.'
+- id: req-full-agent-memory-2026-09-14
+  project_slug: agent-memory
+  level: full
+  reviewed_at: '2026-09-14T00:32:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理跨工具、跨会话的上下文丢失：开发者换用 Claude Code 与 Codex 时要重复交代项目背景与历史决策。旧做法是各自维护 CLAUDE.md/AGENTS.md
+      或手工粘贴，不解决的后果是重复劳动与决策不一致。公开事实仅证明产品以 Markdown 为单一事实来源、本地检索并共享存储，痛点刚性属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+    - ev-0a36bfbd38f04642
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 739 增至 1,281，说明开发者持续关注，但收藏与复刻只是关注度证据，不能证明目标用户已把它留在日常工作流；公开材料没有 issue、discussion 或评价说明共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+    - ev-1dee1ebd1491bd6b
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费主体或单位经济，to C 开发者自用、to B 团队采购还是 to VC 叙事无法判断；这是商业证据缺口，不反推需求不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0a36bfbd38f04642
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只承诺 Markdown 单一事实来源、本地检索与空闲整理，未给出可复现的整理效果、记忆冲突处理或人工边界证据，交付能否稳定发生尚不可核对。
+    evidence_ids:
+    - ev-44cef59acd8e1cb0
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认 Markdown 记忆的实际收录范围、空闲整理是否可复现，以及是否有团队在真实项目中持续使用。
+  market: ''
+  job: 同时使用 Claude Code 与 Codex 的开发者，在同一个代码库上跨工具切换时，需要把对话、决策与项目约定沉淀成一份可被两个代理共同读取的长期记忆，避免每次重新交代背景。
+  job_en: A developer who uses both Claude Code and Codex on the same codebase needs conversations, decisions
+    and project conventions persisted into one long-term memory that both agents can read, so context
+    is not re-explained on every switch.
+  pain: 编码代理的上下文窗口是会话级的，换工具或重开会话后此前的决策与约定丢失，开发者要重复粘贴或重述项目背景；公开材料只给出产品能力，未提供用户抱怨或案例，因此痛感强度属于工作流结构推理而非已验证事实。
+  pain_en: 'Coding-agent context is session-scoped: after switching tools or restarting a session, prior
+    decisions and conventions are gone and the developer must re-paste or restate project background.
+    Public material only states product capability, with no user complaints or cases, so pain intensity
+    is workflow inference, not verified fact.'
+  current_alternative: 旧做法是每个工具各自维护 CLAUDE.md、AGENTS.md 之类的项目说明文件，或手工把历史决策粘贴进新会话；跨工具时两套配置互不相通，也没有空闲时段整理机制。
+  current_alternative_en: The old approach is per-tool project files such as CLAUDE.md or AGENTS.md, or
+    manually pasting past decisions into a new session; the two configs do not talk to each other and
+    nothing consolidates memory during idle time.
+  usage_reason: 推断：相较各自维护配置文件，它把记忆统一为纯 Markdown 单一事实来源，Claude Code 与 Codex 读同一份存储，省去在两个工具间同步或重述背景这一步；本地排序检索免去手工翻找，空闲时段的
+    Manage 层把散落对话整理回 Markdown，因此同时用两个代理、且在意上下文连续性的开发者会在切换工具时选择它。
+  usage_reason_en: 'Inference: versus separate config files, it makes plain Markdown the single source
+    of truth so Claude Code and Codex read one store, removing the step of syncing or restating context
+    between tools; local ranked retrieval removes manual searching, and the sleep-time Manage layer writes
+    scattered conversations back into Markdown. Developers running two agents who care about context continuity
+    would therefore pick it when switching tools.'

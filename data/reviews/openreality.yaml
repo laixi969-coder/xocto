@@ -177,3 +177,46 @@
     pipeline and MCP tools in one BSD-2 repo and allows a self-hosted broker, cutting setup and integration
     steps, so developers who need AI agents to read real space while keeping data local would choose it
     in that situation.'
+- id: req-full-openreality-2026-09-14
+  project_slug: openreality
+  level: full
+  reviewed_at: '2026-09-14T00:34:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图让 AI 查询手机视频重建的三维场景，但公开证据里没有用户任务、痛点、旧替代或不解决的后果，只有功能描述，无法还原真实需求。
+    evidence_ids:
+    - ev-2fc3a9f6df73f779
+    - ev-ea7c5bc7a5ac5791
+    - ev-2a2052ebd0528a02
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有开发者描述具体使用场景、替代的旧流程与部署结果。
+  market: ''
+  job: 开发者想让 AI 助手（Claude、Codex、Cursor）理解真实空间时，用手机拍一段视频，经 VGGT-SLAM 重建三维场景，再通过 MCP 接口把场景作为可查询对象交给 AI 使用。
+  job_en: A developer who wants an AI assistant (Claude, Codex, Cursor) to understand a real space films
+    a phone video, reconstructs a 3D scene with VGGT-SLAM, and exposes it as a queryable object to the
+    AI via MCP tools.
+  pain: 公开材料只给出产品能力描述，没有任何用户抱怨、旧流程摩擦或未解决后果的记录；无法说明不采用它会失去什么。
+  pain_en: Public materials only describe product capabilities; there is no record of user complaints,
+    friction in the old workflow, or consequences of not solving it, so what is lost by not adopting it
+    cannot be stated.
+  current_alternative: 公开材料未说明开发者目前如何让 AI 理解真实空间，也未说明它替代了哪种既有做法。
+  current_alternative_en: Public materials do not state how developers currently let AI understand real
+    spaces, nor which existing approach this replaces.
+  usage_reason: 推断：相较手工整理照片或点云再喂给模型，MCP 工具可能减少一步格式转换，但缺少用户反馈或案例支持，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: versus manually preparing photos or point clouds for a model, MCP tools
+    may remove a format-conversion step, but without user feedback or cases it cannot be confirmed which
+    users would choose it for that reason.'

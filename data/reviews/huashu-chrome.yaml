@@ -192,3 +192,54 @@
     and hands page actions to an already-connected agent, removing the step of moving cookies and rewriting
     scripts, so developers already using Claude Code or Cursor whose tasks live behind a login would choose
     it in that situation.'
+- id: req-full-huashu-chrome-2026-09-14
+  project_slug: huashu-chrome
+  level: full
+  reviewed_at: '2026-09-14T00:33:55Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 自动化卡在登录态的需求：无头浏览器需重新登录、过验证码，已登录会话拿不到；公开说明已还原输入（本地已登录 Chrome）、动作（MCP 加扩展接管页面）与交付（agent
+      完成页面操作），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-8d3e8562944b4132
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 156 增至 191，说明开发者持续关注并把它纳入工具链；但收藏只属关注度证据，不能证明长期留在工作流，故仅支持共识关。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-18ba421b72593f7e
+    - ev-9b8d813d1fec6ce3
+    - ev-8d3e8562944b4132
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；开源仓库本身不构成付费路径，谁付钱仍说不清，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-41502e9c03214554
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持哪些站点、操作边界与安全边界，带着全部登录态让 agent 操作页面的风险与承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-8d3e8562944b4132
+  next_validation: 追踪 huashu-chrome 仓库的 README、issue 与 discussion，确认支持的站点范围、登录态安全边界与是否有开发者报告实际部署场景。
+  market: ''
+  job: 开发者在自己电脑上打开已登录的 Chrome，让 Claude Code、Codex、Cursor 或 Gemini CLI 这类 agent 通过 MCP 与浏览器扩展接管页面操作，处理需要登录态的后台、表单或数据抓取任务。
+  job_en: A developer opens their logged-in Chrome on their own machine and lets an agent such as Claude
+    Code, Codex, Cursor or Gemini CLI take over page actions through MCP and a browser extension to handle
+    logged-in back-office, form or scraping tasks.
+  pain: agent 自动化常卡在登录态：无头浏览器要重新登录、过验证码，或拿不到用户已登录的会话，导致需要登录的后台与表单任务无法交给 agent 完成。
+  pain_en: 'Agent automation often stalls at authentication: headless browsers must log in again, pass
+    CAPTCHAs, or cannot reach the user''s already-authenticated session, so logged-in back-office and
+    form tasks cannot be handed to the agent.'
+  current_alternative: 用 Playwright、Puppeteer 等无头浏览器脚本自行处理登录与验证码，或手动复制粘贴页面数据。
+  current_alternative_en: Writing Playwright or Puppeteer headless scripts that handle login and CAPTCHAs
+    themselves, or manually copying and pasting page data.
+  usage_reason: 推断：相较无头脚本，它直接复用用户已登录的 Chrome 会话，省去重新登录、维护 cookie 与绕过验证码这一步，因此需要登录态的后台或表单任务的开发者会在本地调试与半自动操作时选它；但公开材料未给出站点兼容范围与操作边界。
+  usage_reason_en: 'Inference: compared with headless scripts, it reuses the user''s already-logged-in
+    Chrome session, skipping re-login, cookie maintenance and CAPTCHA workarounds, so developers with
+    logged-in back-office or form tasks would pick it for local debugging and semi-automated operation;
+    but public material gives no site compatibility scope or action boundaries.'

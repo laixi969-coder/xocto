@@ -322,3 +322,59 @@
     to deliver a runnable preview, removing the switch-out, manual build trigger, and simulator launch;
     developers already using an AI agent for mobile work who frequently need to see runtime results would
     choose it during UI iteration.'
+- id: req-full-mobilecode-2026-09-14
+  project_slug: mobilecode
+  level: full
+  reviewed_at: '2026-09-14T00:34:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动开发者在 AI 代理改码后无法即时看到 App 运行结果的问题：旧做法要切到 Xcode/Android Studio 或命令行构建再手动定位页面，反馈回路长、打断编码节奏，AI
+      生成代码的错误会延迟暴露。MobileCode 把构建与预览并入 OpenCode 代理循环，交付可运行预览，属工作流结构推理，尚无用户评价佐证。
+    evidence_ids:
+    - ev-a4e1aea26c304ae4
+    - ev-059e60a88f3678a1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 179 升至 234，说明英文生态开发者持续关注，但收藏与复刻只是关注度，不能证明目标用户已把它留在日常移动开发工作流里；缺少 issue、discussion 或用户评价说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-a4e1aea26c304ae4
+    - ev-fef92384fdc53bb8
+  - gate: model
+    status: insufficient
+    reason: 作为 OpenCode 分支的开源项目，公开材料未见定价页、赞助、商业授权或企业采购记录，钱可能来自 to C 开发者捐赠或 to B 支持服务，但这是判断而非已验证事实；未出现融资叙事，暂无每日优鲜风险。
+    evidence_ids:
+    - ev-059e60a88f3678a1
+  - gate: truth
+    status: insufficient
+    reason: 公开事实只说明它构建并预览 iOS/Android 项目，未披露构建失败处理、签名与证书、模拟器依赖、人工介入边界等交付确定性细节，也无 issue 或文档佐证预览能否稳定复现，需补部署文档与
+      issue 证据。
+    evidence_ids:
+    - ev-a4e1aea26c304ae4
+    - ev-181e8d11ddd65fc1
+  next_validation: 追踪 公开代码仓库.com/hsandhu/mobilecode 的 README、部署文档与 issue/discussion，确认构建预览的依赖条件、失败处理与真实使用场景。
+  market: ''
+  job: 移动开发者在用 AI 编码代理修改 iOS/Android 项目代码时，需要把代码变更落到可运行的 App 上，在编辑器内直接构建并预览界面与交互，确认改动是否生效。
+  job_en: Mobile developers using an AI coding agent to modify iOS/Android project code need to turn code
+    changes into a running app, building and previewing UI and interaction inside the editor to confirm
+    the change works.
+  pain: 移动端改动无法像 Web 那样刷新浏览器即见结果：需切到 Xcode/Android Studio 或命令行编译、等模拟器启动、再手动定位到改动页面，反馈回路长且打断编码节奏；AI 生成的代码若不能立即构建预览，错误会累积到后面才暴露。
+  pain_en: 'Mobile changes cannot be verified by refreshing a browser as on the web: developers must switch
+    to Xcode/Android Studio or the CLI, wait for a build and simulator boot, then navigate manually to
+    the changed screen, so the feedback loop is long and breaks coding flow; AI-generated code that cannot
+    be built and previewed immediately lets errors accumulate.'
+  current_alternative: 在 OpenCode 等通用 AI 编码代理里改完代码后，切到 Xcode/Android Studio 或命令行手动构建，再在模拟器或真机上查看效果；或依赖热重载/预览工具，但需自行配置且与
+    AI 代理流程分离。
+  current_alternative_en: After editing with a general AI coding agent such as OpenCode, developers switch
+    to Xcode/Android Studio or the CLI to build manually and inspect the result on a simulator or device;
+    or they rely on hot-reload/preview tooling that must be configured separately and sits outside the
+    agent workflow.
+  usage_reason: 推断：相较“改完再切工具手动构建”的旧做法，MobileCode 把构建与预览并入 OpenCode 的代理循环，AI 接收代码变更后直接执行构建并回传可运行预览，省去切换
+    IDE、手动触发构建和定位页面的步骤，因此正在用 AI 代理写移动端代码、又不想离开编辑器验证的开发者会在迭代界面时选择它。
+  usage_reason_en: 'Inference: versus the old practice of switching tools and building manually after
+    each edit, MobileCode folds build and preview into OpenCode''s agent loop, where the AI takes the
+    code change, runs the build, and returns a runnable preview, removing the steps of switching IDEs,
+    triggering builds, and locating the screen; developers already using an AI agent on mobile code who
+    want to verify without leaving the editor would choose it during UI iteration.'

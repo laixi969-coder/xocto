@@ -21,7 +21,7 @@ canonical_url: https://xeiaso.net/notes/2026/everyone-slowdown-but-me
 summary: Everyone should slow down AI development except for me
 first_seen: '2026-09-13T00:30:44Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

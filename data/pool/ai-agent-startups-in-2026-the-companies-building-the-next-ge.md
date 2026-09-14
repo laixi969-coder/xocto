@@ -22,7 +22,7 @@ summary: 'AI Agent Startups in 2026: The Companies Building the Next Generation 
   BBN Times'
 first_seen: '2026-09-13T21:39:54Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

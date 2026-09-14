@@ -317,3 +317,50 @@
     request intake, provider routing and failover into one layer, so developers no longer implement failure
     handling per AI call; this appeals to developers running multi-provider image, video or LLM calls
     in production without a unified fault-tolerance layer.'
+- id: req-full-failoverai-2026-09-14
+  project_slug: failoverai
+  level: full
+  reviewed_at: '2026-09-14T00:33:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多供应商 AI 任务调用失败后无人接管的问题，痛点在于任务中断直接阻塞下游业务；公开材料仅给出网关定位，旧流程与交付闭环属工作流结构推理，尚无用户抱怨或事故记录佐证。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 94 增至 112，说明有开发者关注，但公开材料没有 issue、讨论或客户案例显示真实采用与持续使用，共识尚未形成。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+    - ev-b98a7868aa5f25a2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、商业版或采购记录，付费方可能是自建网关的开发者团队或采购托管服务的企业，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+  - gate: truth
+    status: supported
+    reason: 故障转移贴近任务可靠执行的第一性目标，请求入口统一接管失败检测与后端切换，交付结果可核对；但公开材料未说明安全边界与人工兜底，属结构推理。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+  next_validation: 追踪 FailoverAI 仓库的 issue、discussion 与 README 部署文档，确认是否有真实用户报告故障转移场景、采用方式或商业版信息。
+  market: ''
+  job: 开发者在生产环境调用图片、视频和 LLM 推理接口时，处理多供应商 API 的限流、超时和宕机，把一次任务请求可靠地送到可用后端并拿到结果。
+  job_en: Developers calling image, video and LLM inference APIs in production must route each job request
+    to a working backend despite rate limits, timeouts and provider outages, and still get a result back.
+  pain: 公开材料只说明它是面向可靠图片、视频和 LLM 任务的开源网关，未提供用户抱怨或事故记录；从工作流结构推理，多供应商调用一旦失败，开发者需自行写重试、切换和状态跟踪逻辑，任务中断直接阻塞下游业务。
+  pain_en: Public material only describes it as an open-source gateway for reliable image, video and LLM
+    jobs, with no user complaints or incident records; by workflow inference, when a multi-provider call
+    fails, developers must hand-write retry, switching and state-tracking logic, and the interrupted job
+    blocks downstream work.
+  current_alternative: 开发者通常在各云厂商 SDK 自带重试之上自行拼装故障转移逻辑，或依赖单一供应商的可用性；公开材料未显示已有统一故障转移层的采用证据。
+  current_alternative_en: Developers typically hand-build failover on top of each cloud SDK's built-in
+    retries, or depend on a single provider's availability; public material shows no adoption evidence
+    of a unified failover layer.
+  usage_reason: 推断：相较自行编写重试与切换代码，该网关把故障转移收进请求入口，开发者不必在每个调用点重复实现失败检测与后端切换，因此多供应商依赖的生产团队会在任务失败代价高时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus writing retry and switching code themselves, the gateway folds failover
+    into the request entry point so developers need not reimplement failure detection and backend switching
+    at every call site; production teams depending on multiple providers would choose it when job failure
+    is costly, though public material has no user feedback confirming this motive.'

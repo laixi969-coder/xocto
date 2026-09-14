@@ -277,3 +277,96 @@
   usage_reason: 开源且免费，针对 AI 电影制作流程，能帮助用户组织创作过程，提高效率。
   usage_reason_en: Open source and free, tailored to AI filmmaking workflow, helps users organize creative
     process and improve efficiency.
+- id: req-initial-slate-2026-09-14
+  project_slug: slate
+  level: initial
+  reviewed_at: '2026-09-14T00:12:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨生成器提示词格式不一与连贯性靠记忆的痛点，旧做法是手工拼提示词，不采用则改一个镜头要重写一批，结构上成立。
+    evidence_ids:
+    - ev-f532d66ec606f4ba
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与讨论热度，没有用户评价或客户案例说明谁在持续使用，卡在场景感知一环。
+    evidence_ids:
+    - ev-f532d66ec606f4ba
+  - gate: model
+    status: insufficient
+    reason: 仓库说明只提到自愿捐赠 30 美元，没有定价页或付费路径，买方是个人创作者还是制作公司属推断。
+    evidence_ids:
+    - ev-f532d66ec606f4ba
+  - gate: truth
+    status: insufficient
+    reason: 提示词包能否稳定产出可用画面、连贯性是否真被保住，公开材料没有可复现结果或人工边界说明。
+    evidence_ids:
+    - ev-f532d66ec606f4ba
+  next_validation: 收集该仓库的 issue、discussion 或官方文档中关于跨生成器提示词包实际产出与连贯性效果的公开记录。
+  market: ''
+  job: 独立制片或广告短片的分镜师、导演在开拍前的筹备阶段，处理剧本与镜头清单，要产出各生成器都能用的分镜提示词并保持角色与场景连贯。
+  job_en: A storyboard artist or director on an indie film or ad short, in pre-production, works from
+    the script and shot list to produce shot prompts usable across generators while keeping characters
+    and scenes consistent.
+  pain: 不同图像、视频、音乐、语音生成器的提示词格式与参数各不相同，连贯性靠人脑记忆和反复试错，改一个镜头往往要重写一批提示词。
+  pain_en: Prompt formats and parameters differ across image, video, music and voice generators; continuity
+    relies on memory and trial and error, and changing one shot often means rewriting a batch of prompts.
+  current_alternative: 现在多用散落的文档、表格和聊天记录手工拼提示词，或直接在单个生成器里反复试，跨工具时靠复制粘贴。
+  current_alternative_en: Today people hand-assemble prompts in scattered docs, spreadsheets and chat
+    logs, or iterate inside a single generator and copy-paste across tools.
+  usage_reason: 推断：它把镜头规划、覆盖与连贯性要求集中成一份结构化提示词包，省掉跨生成器逐条改写和记忆连贯性的步骤，因此需要同时用多个生成器、且镜头数量多的短片与广告团队会先选它。
+  usage_reason_en: 'Inference: it consolidates shot planning, coverage and continuity into one structured
+    prompt package, removing the step of rewriting prompts per generator and remembering continuity, so
+    short-film and ad teams using several generators across many shots would pick it first.'
+- id: req-full-slate-2026-09-14
+  project_slug: slate
+  level: full
+  reviewed_at: '2026-09-14T00:35:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨生成器提示词格式不一、连贯性靠记忆的痛点，旧做法是手工拼提示词，不采用则改一个镜头要重写一批，结构上成立；但公开材料无用户抱怨或案例，属工作流推理。
+    evidence_ids:
+    - ev-ab01c639e33e1e9e
+    - ev-2cb13903bd825080
+    - ev-9e64af51a00edcef
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有市场检索与通用助手页面，没有用户评价、客户案例或持续使用记录说明谁在用，卡在场景感知一环。
+    evidence_ids:
+    - ev-ab01c639e33e1e9e
+    - ev-9e64af51a00edcef
+  - gate: model
+    status: insufficient
+    reason: 摘要只提到自愿捐赠 30 美元，没有定价页或付费路径，买方是个人创作者还是制作公司属推断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-ab01c639e33e1e9e
+  - gate: truth
+    status: insufficient
+    reason: 提示词包能否稳定产出可用画面、连贯性是否真被保住，公开材料没有可复现结果或人工边界说明。
+    evidence_ids:
+    - ev-ab01c639e33e1e9e
+    - ev-942d3b3ea3b022e3
+  next_validation: 追踪 Slate 官网或仓库的公开文档、issue/discussion 与客户案例，核验跨生成器提示词包的实际产出效果与是否出现付费或捐赠以外的采购记录。
+  market: ''
+  job: 独立制片或广告短片的分镜师、导演在开拍前的筹备阶段，处理剧本与镜头清单，要产出图像、视频、音乐、语音各生成器都能直接使用的分镜提示词，并保持角色与场景连贯。
+  job_en: A storyboard artist or director on an indie film or ad short, in pre-production, works from
+    the script and shot list to produce shot prompts directly usable by image, video, music and voice
+    generators while keeping characters and scenes consistent.
+  pain: 不同生成器的提示词格式与参数各不相同，连贯性靠人脑记忆和反复试错，改一个镜头往往要重写一批提示词；公开材料未给出用户抱怨或案例，此痛点由工作流结构推理得出。
+  pain_en: Prompt formats and parameters differ across generators; continuity relies on memory and trial
+    and error, and changing one shot often means rewriting a batch of prompts. Public material offers
+    no user complaints or cases, so this pain is a workflow-structure inference.
+  current_alternative: 现在多用散落的文档、表格和聊天记录手工拼提示词，或直接在单个生成器里反复试，跨工具时靠复制粘贴；通用助手如 ChatGPT、Gemini 只能逐条生成文本，不维护镜头级连贯性。
+  current_alternative_en: Today people hand-assemble prompts in scattered docs, spreadsheets and chat
+    logs, or iterate inside a single generator and copy-paste across tools; general assistants like ChatGPT
+    and Gemini generate text per request and do not maintain shot-level continuity.
+  usage_reason: 推断：它把镜头规划、覆盖与连贯性要求集中成一份结构化提示词包，省掉跨生成器逐条改写和凭记忆维持连贯的步骤，因此同时使用多个生成器、镜头数量多的短片与广告团队会在筹备阶段先选它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: it consolidates shot planning, coverage and continuity into one structured
+    prompt package, removing the step of rewriting prompts per generator and remembering continuity, so
+    short-film and ad teams using several generators across many shots would pick it in pre-production;
+    no public user feedback yet confirms this motive.'

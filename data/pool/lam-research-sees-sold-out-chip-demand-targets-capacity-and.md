@@ -1,6 +1,6 @@
 ---
 slug: lam-research-sees-sold-out-chip-demand-targets-capacity-and
-name: Lam Research Sees Sold-Out Chip Demand, Targets Capacity and AI Service Gains
+name: Lam Research
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcC1hT2xCUzJR
 summary: Lam Research Sees Sold-Out Chip Demand, Targets Capacity and AI Service Gains TradingView
 first_seen: '2026-09-11T16:03:33Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Lam Research Sees Sold-Out Chip Demand, Targets Capacity and AI Service Gains
+# Lam Research
 
 Lam Research Sees Sold-Out Chip Demand, Targets Capacity and AI Service Gains TradingView
 

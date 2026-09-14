@@ -21,7 +21,7 @@ canonical_url: https://github.com/nwiizo/oi-owarasero
 summary: 書籍「おい、とりあえず終わらせろ」の5ステップで、内省と次の一歩を支えるClaude Code / Codex向けAgent Skill
 first_seen: '2026-08-25T03:48:07Z'
 last_seen: '2026-09-14T00:12:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

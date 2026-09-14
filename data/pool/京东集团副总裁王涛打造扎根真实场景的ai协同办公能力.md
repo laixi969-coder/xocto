@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rbnR2dDZNTjM0
 summary: 京东集团副总裁王涛：打造扎根真实场景的AI协同办公能力 上海证券报·中国证券网
 first_seen: '2026-09-13T13:32:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

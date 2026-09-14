@@ -21,7 +21,7 @@ canonical_url: https://github.com/ricardoborges/DiskTriage
 summary: A simple CLI tool to reclaim space on your Win C drive
 first_seen: '2026-09-12T23:31:57Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

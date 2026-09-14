@@ -1,0 +1,96 @@
+- id: req-initial-pdfidelity-2026-09-14
+  project_slug: pdfidelity
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是外文 PDF 阅读中“翻译后版式丢失、需手工重排”的具体痛点，旧做法明确存在，不采用的代价是反复对照原文或支付人工排版费用。
+    evidence_ids:
+    - ev-e2df5392f7cd1381
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条社区发布记录，6 个点赞、1 条评论，没有用户评价或采用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-e2df5392f7cd1381
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式；按份收费还是订阅制属于推断，尚无已验证的付费路径。
+    evidence_ids:
+    - ev-e2df5392f7cd1381
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持语言、文件限制与人工校对边界，翻译错误在合同或论文场景的后果无法评估，交付确定性待核验。
+    evidence_ids:
+    - ev-e2df5392f7cd1381
+  next_validation: 收集 PDFidelity 官方定价页或产品文档，确认其支持的语言、文件限制、是否按份收费以及是否提供人工校对环节。
+  market: ''
+  job: 处理外文合同、论文或产品说明书的法务、研究人员或跨境从业者，在需要读懂一份排版复杂、含表格图表的 PDF 时，要把它变成自己能读的目标语言版本，同时不丢失版式信息。
+  job_en: Legal staff, researchers or cross-border practitioners handling foreign-language contracts,
+    papers or product manuals need to turn a layout-heavy PDF with tables and figures into a readable
+    target-language version without losing formatting information.
+  pain: 现有做法要么只翻文字、版式全乱，要么手动复制到文档里重排，表格和图表位置对不上，读者要反复对照原文才能确认哪句话对应哪个数字。
+  pain_en: Existing options either translate text only and destroy the layout, or require manually copying
+    into a document and re-laying it out, so tables and figures no longer line up and readers must constantly
+    cross-check the original to see which sentence matches which figure.
+  current_alternative: 用通用翻译工具复制粘贴文本、用 PDF 编辑器手工重排，或直接请人工翻译并重新排版，后者成本高、周期长。
+  current_alternative_en: Copy-pasting text into general translation tools, manually re-laying out in
+    a PDF editor, or hiring a human translator who then re-typesets the document, which is costly and
+    slow.
+  usage_reason: 推断：相较复制粘贴再手工重排，它把“翻译”和“保持版面”合并成一次动作，省掉重新对齐表格与图表这一步，因此对版式有硬要求、又不想付人工排版费用的法务、研究和跨境业务人员会先试用它。公开材料没有用户反馈或留存数据，这一判断来自工作流结构推理。
+  usage_reason_en: 'Inference: compared with copy-paste plus manual re-layout, it merges ''translate''
+    and ''keep the layout'' into one action, removing the step of re-aligning tables and figures, so legal,
+    research and cross-border staff who need layout fidelity but do not want to pay for manual typesetting
+    would try it first. The public material has no user feedback or retention data; this judgment comes
+    from workflow-structure reasoning.'
+- id: req-full-pdfidelity-2026-09-14
+  project_slug: pdfidelity
+  level: full
+  reviewed_at: '2026-09-14T00:34:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决外文 PDF 阅读中“翻译后版式丢失、需手工重排”的痛点：旧做法是复制粘贴或人工重排，不采用的代价是反复对照原文或支付人工排版费用。公开材料仅一句产品说明，交付闭环属工作流结构推理。
+    evidence_ids:
+    - ev-e2df5392f7cd1381
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有官网一句产品说明，没有用户评价、采用规模或社区讨论，无法判断是否形成使用共识；该条也不足以说明哪类用户已持续使用。
+    evidence_ids:
+    - ev-e2df5392f7cd1381
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，按份收费还是订阅制均属推断，尚无已验证的付费路径；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e2df5392f7cd1381
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持语言、文件大小限制与人工校对边界，翻译错误在合同或论文场景的后果无法评估，交付确定性待核验。
+    evidence_ids:
+    - ev-e2df5392f7cd1381
+  next_validation: 追踪 PDFidelity 官网定价页或产品文档，确认支持语言、文件限制、是否按份收费以及是否提供人工校对环节。
+  market: ''
+  job: 处理外文合同、论文或产品说明书的法务、研究人员或跨境从业者，在需要读懂一份含表格、图表、多栏排版的复杂 PDF 时，把整份文件交给工具翻译，拿到一份版式基本不变的目标语言 PDF，再自行核对术语与关键数字。
+  job_en: Legal staff, researchers or cross-border practitioners handling foreign-language contracts,
+    papers or product manuals feed a layout-heavy PDF with tables, figures and multi-column text into
+    the tool and receive a target-language PDF whose layout is largely unchanged, then check terminology
+    and key numbers themselves.
+  pain: 通用翻译工具只翻文字、版式全乱，表格与图表位置对不上；手工复制到文档重排耗时且易错；请人工翻译再排版成本高、周期长。读者必须反复对照原文才能确认哪句话对应哪个数字。
+  pain_en: General translation tools translate text only and destroy the layout, so tables and figures
+    no longer line up; manually copying into a document to re-lay out is slow and error-prone; hiring
+    a human translator plus typesetting is costly and slow. Readers must constantly cross-check the original
+    to see which sentence matches which figure.
+  current_alternative: 用通用翻译工具复制粘贴文本、用 PDF 编辑器手工重排，或直接请人工翻译并重新排版。
+  current_alternative_en: Copy-pasting text into general translation tools, manually re-laying out in
+    a PDF editor, or hiring a human translator who then re-typesets the document.
+  usage_reason: 推断：相较复制粘贴再手工重排，它把“翻译”与“保持版面”合并为一次动作，省掉重新对齐表格与图表这一步，因此对版式有硬要求、又不愿承担人工排版费用的法务、研究与跨境业务人员会在处理复杂
+    PDF 时先试用它。公开材料无用户反馈或留存数据，此判断来自工作流结构推理。
+  usage_reason_en: 'Inference: compared with copy-paste plus manual re-layout, it merges ''translate''
+    and ''keep the layout'' into one action, removing the step of re-aligning tables and figures, so legal,
+    research and cross-border staff who need layout fidelity but do not want to pay for manual typesetting
+    would try it first when handling complex PDFs. The public material has no user feedback or retention
+    data; this judgment comes from workflow-structure reasoning.'

@@ -185,3 +185,51 @@
     and a seam-safe playback guide that fixes the stitching steps from footage to clickable video states,
     so frontend developers building interactive landing pages who do not want to debug seams and state
     transitions from scratch would choose it in that situation.'
+- id: req-full-video-states-website-2026-09-14
+  project_slug: video-states-website
+  level: full
+  reviewed_at: '2026-09-14T00:35:54Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 AI 生成视频素材组织成点击驱动多状态落地页的需求，痛点在素材、提示词、构建规格与接缝播放多环节易出错；仓库说明已还原输入、动作与交付，属工作流结构推理，痛点刚性中等但交付路径可确定。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-ec7063019fb539cf
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 111 增至 138，说明英文生态开发者持续关注并把它纳入参考；但收藏只属关注度证据，不能证明已长期留在工作流，故共识成立而采用强度有限。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-47d083e0cc9289c7
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费主体或采购记录；谁付钱尚不清，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-ec7063019fb539cf
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺可交付点击驱动视频网站，但公开材料未见可复现的部署文档或实测结果，交付能否稳定发生与人工边界仍缺证据。
+    evidence_ids:
+    - ev-590ea8d13e445124
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有可复现的部署文档或使用者反馈，以核验交付能否稳定发生。
+  market: ''
+  job: 前端开发者或互动内容设计师在为客户做品牌互动落地页时，需要把 LTX 生成的视频片段、图像与提示词组织成点击切换的视频状态，并按无缝播放指南拼接片段，最终交付一个可点击驱动的电影感视频网站。
+  job_en: A frontend developer or interactive content designer building a branded interactive landing
+    page must organize LTX-generated video clips, images and prompts into click-driven video states and
+    stitch clips using the seam-safe playback guide, delivering a click-driven cinematic video website.
+  pain: 公开仓库说明显示，这类工作要同时处理 AI 生成素材、提示词、编码代理构建规格与片段接缝播放，环节多且容易在拼接与状态切换处出错；不解决的后果是落地页视频跳帧、状态错乱，需要反复返工。
+  pain_en: The public repo description shows the job spans AI-generated footage, prompts, a coding-agent
+    build spec and seam-safe playback; without it, clip seams and state transitions break, forcing repeated
+    rework of the landing page.
+  current_alternative: 当前替代方式是开发者自行拼装 LTX 生成素材、手写视频状态切换逻辑并逐段调试接缝，或直接使用通用视频落地页模板，缺少针对点击驱动多状态视频的现成规格。
+  current_alternative_en: Today developers hand-assemble LTX footage, write their own video-state switching
+    logic and debug seams clip by clip, or fall back to generic video landing-page templates that lack
+    a spec for click-driven multi-state video.
+  usage_reason: 推断：相较自行拼装，该仓库把 LTX 素材、图像/视频提示词、编码代理构建规格与无缝播放指南打包成一套可照做的流程，减少了从零设计状态切换与接缝处理这一步负担，因此需要快速产出点击驱动视频落地页的前端开发者会在项目启动时选择它。
+  usage_reason_en: 'Inference: versus hand-assembling, the repo bundles LTX footage, image/video prompts,
+    a coding-agent build spec and a seam-safe playback guide into one followable workflow, removing the
+    step of designing state switching and seam handling from scratch, so frontend developers needing a
+    click-driven video landing page quickly would pick it at project start.'

@@ -186,3 +186,43 @@
   usage_reason_en: 'Public evidence cannot explain why users would choose it over existing practices:
     there is no pricing, documentation, customer case, or user feedback, only repository stars creeping
     from 90 to 97, which is attention rather than a usage reason.'
+- id: req-full-agent-2-2026-09-14
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-09-14T00:32:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有一句功能描述和仓库星标，未说明具体输入、动作、交付与不解决的后果，连要解决什么需求、什么痛点都写不出来，无法做结构推理。
+    evidence_ids:
+    - ev-6f674c0bc396bab3
+    - ev-330662c122d41d8a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Agent-2 仓库 README 或官方文档中关于具体工作流程、输入输出与交付结果的说明，以确认它实际完成的任务闭环。
+  market: ''
+  job: 开发者需要在终端或编码环境中处理代码、安全扫描与终端命令等材料，把一段任务描述交给代理后自动完成编码、扫描或命令操作并拿到结果或日志。
+  job_en: Developers need to hand a task description to an agent in a terminal or coding environment so
+    it can autonomously write code, run security scans, or execute terminal commands and return results
+    or logs.
+  pain: 公开材料只给出功能清单，未说明手动执行这些任务具体耗时在哪一步、出错代价是什么，也没有用户抱怨或替代行为的记录，痛点无法还原。
+  pain_en: Public material only lists capabilities; it does not show which manual step is costly, what
+    errors cost, or any user complaint or workaround, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未记录开发者当前用什么替代方式完成同类任务，只能推测是手动编码、手动跑扫描或使用其他终端工具，属于推断而非事实。
+  current_alternative_en: Public material records no current alternative; manual coding, manual scanning,
+    or other terminal tools are only an inference, not a fact.
+  usage_reason: 缺少用户反馈或案例，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: Without user feedback or cases, there is no way to say which step it removes or which
+    verifiable result it improves, so why users would choose it cannot be explained.

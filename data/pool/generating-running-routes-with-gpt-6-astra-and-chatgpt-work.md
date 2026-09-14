@@ -1,11 +1,14 @@
 ---
 slug: generating-running-routes-with-gpt-6-astra-and-chatgpt-work
-name: Generating running routes with GPT-6 Astra and ChatGPT Work
+name: ChatGPT Work
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是通用助手产品 ChatGPT Work 的一次公开使用记录：用户给出住址与距离要求，模型调用地图数据源自行计算跑步环线，并交付可视化页面与 GPX、GeoJSON 文件。该记录同时暴露执行过程不可见、线程压缩后代码无法取回的问题。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a public usage record of the general assistant ChatGPT Work: given an address and
+  distance requirements, the model called mapping data sources to compute running loops and delivered
+  a visualization page plus GPX and GeoJSON files. The record also exposes that the execution process
+  was invisible and the code could not be retrieved after thread compaction.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -53,7 +56,7 @@ summary: "Here's a neat thing I had  ChatGPT Work  with GPT-6 Astra (Max) do thi
   \  geospatial ,  ai ,  d3 ,  openai ,  generative-ai ,  chatgpt ,  llms ,  skills ,  gpt-6-astra"
 first_seen: '2026-09-12T23:56:42Z'
 last_seen: '2026-09-14T00:12:56Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -64,7 +67,7 @@ sightings:
   kind: news
 ---
 
-# Generating running routes with GPT-6 Astra and ChatGPT Work
+# ChatGPT Work
 
 Here's a neat thing I had  ChatGPT Work  with GPT-6 Astra (Max) do this morning: 
  

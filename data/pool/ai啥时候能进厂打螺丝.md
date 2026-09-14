@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Ealp4NmhYSW01
 summary: AI啥时候能进厂“打螺丝”？ 湖北日报传媒集团
 first_seen: '2026-09-13T23:23:31Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

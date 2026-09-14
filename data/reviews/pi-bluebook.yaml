@@ -87,3 +87,55 @@
     path ordered from installation to a first verifiable task, removing the step of assembling a learning
     order, so Chinese-speaking teams rolling out a coding agent would use it as onboarding material. However,
     the public material gives no completion rate, team purchase, or any payment evidence.'
+- id: req-full-pi-bluebook-2026-09-14
+  project_slug: pi-bluebook
+  level: full
+  reviewed_at: '2026-09-14T00:35:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文开发者上手编码 Agent 时缺少结构化中文路径的需求，痛点是英文文档概念跳跃导致卡在配置环节、无法接入日常开发；公开简介已能还原从安装到可验收任务的输入—动作—交付闭环，属工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-adf7bbaf8d6a7a23
+    - ev-3b5b55d7fd8349d0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 139 增至 182 只反映开源关注度，没有读者反馈、完成率或团队采用证据，无法判断中文开发者是否真的把它留在学习工作流里。
+    evidence_ids:
+    - ev-adf7bbaf8d6a7a23
+    - ev-3b5b55d7fd8349d0
+  - gate: model
+    status: insufficient
+    reason: 内容以开源形式发布，买方可能是企业培训或个人付费课程，但公开材料没有任何定价或商业路径披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-adf7bbaf8d6a7a23
+  - gate: truth
+    status: insufficient
+    reason: 无法核对内容是否随上游版本更新、示例是否仍可运行，也没有配套练习与验收标准说明，交付确定性尚未被公开材料证实。
+    evidence_ids:
+    - ev-adf7bbaf8d6a7a23
+    - ev-3b5b55d7fd8349d0
+  next_validation: 追踪 pi-bluebook 仓库的 commit 与 release 更新记录，确认内容是否随 Pi Coding Agent 上游版本维护、示例是否可复现。
+  market: ''
+  job: 中文开发者在团队要求使用 Pi Coding Agent 时，需要按中文路径把安装、Session、Context、Skill、Extension、Subagent 逐项配置跑通，并完成一个可验收的长期
+    Agent 工作流任务。
+  job_en: Chinese-speaking developers asked to use Pi Coding Agent at work need a Chinese-language path
+    to configure installation, Session, Context, Skill, Extension, and Subagent step by step and complete
+    a verifiable long-running agent workflow task.
+  pain: 上游文档以英文为主、概念跳跃，中文开发者容易卡在 Session 与 Context 配置环节，无法把编码 Agent 真正接入日常开发流程；不解决的后果是团队推行 Agent 时反复试错、上手周期拉长。
+  pain_en: Upstream documentation is mostly English and jumps between concepts, so Chinese-speaking developers
+    get stuck configuring Session and Context and cannot fold the coding agent into daily development;
+    the cost of not solving it is repeated trial and error and a longer onboarding cycle when a team rolls
+    out the agent.
+  current_alternative: 现有做法是读英文官方文档、翻零散社区博客和视频，或在群里问人，自己拼出一条上手顺序。
+  current_alternative_en: The current practice is reading English official docs, browsing scattered community
+    blogs and videos, or asking in chat groups, piecing together an onboarding order alone.
+  usage_reason: 推断：相较零散英文资料，它把 Session、Context、Skill、Extension、Subagent 按从安装到第一个可验收任务的顺序组织成中文路径，省掉读者自行拼装学习顺序这一步，因此中文团队在推行编码
+    Agent 时会拿它做入门材料；公开材料未给出读者完成率或团队采购证据。
+  usage_reason_en: 'Inference: compared with scattered English material, it organizes Session, Context,
+    Skill, Extension, and Subagent into a Chinese path running from installation to a first verifiable
+    task, removing the step of assembling a learning order, so Chinese-speaking teams rolling out a coding
+    agent would use it as onboarding material. The public material gives no completion rate or team purchase
+    evidence.'

@@ -21,7 +21,7 @@ canonical_url: https://kibblebites.com/app
 summary: a reader for AI news, tutorials, code and models
 first_seen: '2026-09-13T19:39:57Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

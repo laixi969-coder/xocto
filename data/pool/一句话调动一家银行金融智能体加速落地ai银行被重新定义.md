@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9lYjcycGhiRmFo
 summary: 一句话调动一家银行：金融智能体加速落地，AI银行被重新定义 新浪财经
 first_seen: '2026-09-13T05:21:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

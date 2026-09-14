@@ -319,3 +319,46 @@
     scores or a leaderboard, developers might try it for quick demos or agent comparisons; but public
     material does not say which step it removes or which checkable result it improves versus the benchmarks
     above, so it cannot be confirmed that users would choose it for that reason.'
+- id: req-full-bot-crossing-2026-09-14
+  project_slug: bot-crossing
+  level: full
+  reviewed_at: '2026-09-14T00:32:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者把 agent 接入游戏环境做测试或训练，但公开材料只有一句产品描述，没有说明现有评测方式的痛点、频率与不采用代价，需求与痛点无法还原。
+    evidence_ids:
+    - ev-775e4f9f9d9d7514
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bot-crossing 官方仓库与 botcrossing.com 的 README、issue 和 discussion，确认开发者实际用它替代了哪种 agent
+    评测或训练流程。
+  market: ''
+  job: AI 工程师或游戏开发者在需要评估 agent 决策能力时，把 agent 接入一个游戏环境，让它接收动作指令并观察模拟世界的反馈，以完成对 agent 表现的测试或训练。
+  job_en: An AI engineer or game developer evaluating an agent's decision-making connects the agent to
+    a game environment, feeds it action commands, and observes simulated-world feedback to test or train
+    the agent's performance.
+  pain: 公开材料只有一句“为 AI agent 设计的视频游戏”，没有说明现有评测环境哪里不够用、开发者遇到什么具体困难，也没有用户抱怨或案例。
+  pain_en: Public materials offer only the one-line description 'a video game for AI agents'; they do
+    not say what is lacking in existing evaluation environments, what concrete difficulty developers hit,
+    or include any user complaint or case.
+  current_alternative: 公开材料未说明开发者现在用什么评测或训练 agent，也未说明它替代的是自建环境、通用 benchmark 还是其他游戏类测试平台。
+  current_alternative_en: Public materials do not show what developers currently use to evaluate or train
+    agents, nor whether it replaces self-built environments, general benchmarks, or other game-based test
+    platforms.
+  usage_reason: 推断：若它提供现成的游戏世界与动作接口，开发者可省去自建模拟环境的一步；但缺少用户反馈或案例，无法确认哪类开发者会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it provides a ready game world and action interface, developers skip
+    building a simulation themselves; without user feedback or cases, it is unverified which developers
+    would choose it and when.'

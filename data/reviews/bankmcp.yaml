@@ -257,3 +257,62 @@
     the export and paste steps and, being self-hosted, avoiding handing bank credentials to a third party;
     privacy-conscious European individuals and indie developers already using Claude or Cursor would therefore
     choose it when reconciling transactions.'
+- id: req-full-bankmcp-2026-09-14
+  project_slug: bankmcp
+  level: full
+  reviewed_at: '2026-09-14T00:32:47Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让本地 AI 助手直接读取用户真实银行流水，痛点是网银数据封闭、手动导出粘贴繁琐且凭证外泄有顾虑；只读、自托管、经 Enable Banking 覆盖 2,700+
+      欧洲银行的交付路径明确，不采用则 AI 只能基于过期或手工数据回答。此为工作流结构推理，尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-1e753252a98ae7f8
+    - ev-8dd6c4a2a07569db
+    - ev-1972378c3ce56e87
+  - gate: consensus
+    status: supported
+    reason: 公开仓库星标从 200 增至 214，说明开发者社区持续关注并有人实际部署自托管服务；但星标属关注度证据，不能证明目标用户已把它长期留在工作流或形成复购，强场景共识仍待客户案例补充。
+    evidence_ids:
+    - ev-1972378c3ce56e87
+    - ev-00c29246106e75f4
+  - gate: model
+    status: insufficient
+    reason: 项目为开源自托管，公开材料未见定价页、付费层级或商业主体，谁付钱尚不清楚；可能路径是个人开发者自用、或未来对托管版/企业版收费，但这是判断而非已验证事实，也未出现仅靠融资续命的叙事。
+    evidence_ids:
+    - ev-910a65ecb194d1e2
+    - ev-8dd6c4a2a07569db
+  - gate: truth
+    status: supported
+    reason: 产品贴近第一性目标：只读、自托管、经 PSD2 开放银行授权，凭证不交给第三方，AI 客户端拿到的是结构化余额与交易，交付边界清晰；但公开材料未展示授权失效、多银行并发或错误处理的可复现结果，安全与人工边界仍缺实测证据。
+    evidence_ids:
+    - ev-1e753252a98ae7f8
+    - ev-c36e6992c5921267
+  next_validation: 追踪 公开代码仓库 仓库 noskillish/bankmcp 的 issue 与 discussion，确认是否有用户报告实际部署、连接了哪些银行、替代了何种旧流程，以及是否出现托管版或付费层级的公开信息。
+  market: ''
+  job: 个人用户或独立开发者在自己电脑上运行自托管服务，把 Enable Banking 开放银行授权接入的欧洲银行账户余额、交易与订阅数据，通过标准 MCP 暴露给 Claude Desktop、Claude
+    Code 或 Cursor，让 AI 助手在对话中直接读取并核对真实财务流水。
+  job_en: An individual user or indie developer runs a self-hosted service on their own machine, connects
+    their European bank accounts via Enable Banking open banking authorization, and exposes balances,
+    transactions and subscriptions through standard MCP to Claude Desktop, Claude Code or Cursor so the
+    AI assistant can read and reconcile real financial records in conversation.
+  pain: 用户想让 AI 助手基于真实账户流水回答问题，但银行数据被锁在网银和各家 App 里，手动导出 CSV 再粘贴既繁琐又容易过期；把银行凭证交给第三方聚合服务又带来隐私与授权顾虑。公开材料只说明产品定位，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Users want their AI assistant to answer questions grounded in real account activity, but bank
+    data is locked inside each bank's web portal and app; manually exporting CSVs and pasting them is
+    tedious and quickly stale, while handing bank credentials to a third-party aggregator raises privacy
+    and authorization concerns. Public materials state the product positioning only, with no user complaints
+    or frequency data, so pain intensity is a workflow-structure inference.
+  current_alternative: 现状是登录各家网银或银行 App 逐条查看、手动导出 CSV/PDF 再粘贴给 AI，或使用第三方个人财务聚合应用；这些做法要么无法被 AI 直接调用，要么需要把凭证交给外部服务。
+  current_alternative_en: Today users log into each bank's portal or app, manually export CSV/PDF and
+    paste it into the AI, or use third-party personal-finance aggregators; those routes either cannot
+    be called directly by the AI or require handing credentials to an external service.
+  usage_reason: 推断：相较手动导出再粘贴，BankMCP 通过 Enable Banking 的 PSD2 授权一次性连接 2,700+ 家欧洲银行，以只读方式把余额、交易和订阅直接暴露为
+    MCP 工具，用户在自己的机器上运行、凭证不离开本地，AI 客户端即可在对话中调用结构化数据，省去反复导出与粘贴这一步；重视数据自主权、已在用 Claude/Cursor 的欧洲独立开发者与自由职业者会在需要让
+    AI 核对真实流水时选择它。
+  usage_reason_en: 'Inference: versus manual export-and-paste, BankMCP connects 2,700+ European banks
+    through a single Enable Banking PSD2 authorization and exposes balances, transactions and subscriptions
+    as read-only MCP tools, running on the user''s own machine so credentials stay local and the AI client
+    can call structured data in conversation, removing the repeated export-and-paste step; privacy-conscious
+    European indie developers and freelancers already using Claude or Cursor would choose i'

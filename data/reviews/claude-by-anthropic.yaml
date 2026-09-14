@@ -145,3 +145,41 @@
   usage_reason: 公开记录显示月活跃用户 39.81M、环比增长 10.79%，表明大量用户关注和使用，但付费与留存尚未核验。
   usage_reason_en: Public records show 39.81M MAU and 10.79% MoM growth, indicating significant attention
     and usage, but payment and retention are not yet verified.
+- id: req-full-claude-by-anthropic-2026-09-14
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-09-14T00:33:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方定价页与模型卡/系统卡更新，核对订阅与 API 计费档位、上下文长度及安全边界的公开披露。
+  market: ''
+  job: 开发者、写作者与研究人员在对话界面里提交代码、长文档或复杂推理问题，要求模型给出可用的代码修改、长文草稿或分步推理结论。
+  job_en: Developers, writers, and researchers submit code, long documents, or hard reasoning problems
+    in a chat interface, expecting usable code edits, long-form drafts, or step-by-step conclusions.
+  pain: 复杂编码与长文任务超出普通助手能力，用户需要反复返工修正错误输出；重度使用还受额度限制，任务做到一半被截断。
+  pain_en: Complex coding and long-writing tasks exceed ordinary assistants, forcing repeated rework of
+    wrong output; heavy use also hits usage limits, cutting tasks off mid-way.
+  current_alternative: 使用其他通用对话助手、搜索引擎加人工整理，或在 IDE 内使用补全插件处理局部代码。
+  current_alternative_en: Other general chat assistants, search plus manual synthesis, or in-IDE completion
+    plugins for local code edits.
+  usage_reason: 公开记录显示月活 39.81M、环比 10.79%，说明大量用户在持续使用；推断其选择原因是长上下文与复杂推理在代码和长文任务上减少返工轮次，重度用户按用量付费以换取不被额度频繁打断。
+  usage_reason_en: A public record shows 39.81M MAU and 10.79% month-over-month growth, indicating sustained
+    use; the inferred reason is that long context and hard reasoning cut rework rounds on code and long-writing
+    tasks, and heavy users pay by usage to avoid frequent quota interruptions.

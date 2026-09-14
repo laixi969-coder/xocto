@@ -244,3 +244,56 @@
     review, removing the step of transcribing requirements and building the document skeleton from scratch;
     teams facing tight deadlines and dense clauses would choose it at the draft stage, though no real
     user feedback or retention is shown publicly.'
+- id: req-full-tender-assistant-v25-2026-09-14
+  project_slug: tender-assistant-v25
+  level: full
+  reviewed_at: '2026-09-14T00:35:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决招投标文档的条款解析与响应草稿生成需求，痛点是漏项导致废标或扣分、多角色复核串行压缩投标窗口；公开仓库说明已实现解析、草稿生成、角色审查与 AI 采用追踪，可还原输入—动作—交付闭环，属工作流结构推理，尚无用户抱怨或废标案例佐证强度。
+    evidence_ids:
+    - ev-5856037d5ed4c5fc
+    - ev-1bb6a545422a540b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 49 增至 102 说明开发者关注度上升，但收藏属关注度证据，不能证明投标专员持续使用或形成工作流依赖；公开材料未见 issue、discussion 或客户案例说明谁在何种场景采用。
+    evidence_ids:
+    - ev-5856037d5ed4c5fc
+    - ev-3a82ecae4a536c5c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断收入来自企业采购、个人订阅还是开源免费；这是判断而非已验证事实，商业证据缺口不反推需求不存在。
+    evidence_ids:
+    - ev-5856037d5ed4c5fc
+  - gate: truth
+    status: insufficient
+    reason: 产品定位为原型，公开材料未说明草稿交付的准确率、条款追溯是否可复现，以及人工确认与安全边界如何界定；招投标属高风险场景，交付确定性尚缺可核验证据。
+    evidence_ids:
+    - ev-5856037d5ed4c5fc
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现真实投标团队部署记录、条款解析准确率说明或企业采购/定价信息。
+  market: ''
+  job: 投标专员或商务经理在收到招标文件后，需要在有限投标窗口内逐条比对资质、技术、商务与评分要求，处理招标文件与公司既有资质、业绩、方案素材，产出一份可提交、可被评标专家逐条核对的投标响应文件。
+  job_en: A bid specialist or business manager, after receiving a tender document, must within a tight
+    submission window map qualification, technical, commercial and scoring requirements against the company's
+    existing credentials, past performance and solution material, and produce a submittable bid response
+    that evaluators can check clause by clause.
+  pain: 招标文件条款密集且评分点分散，人工通读容易漏项、错配资质或漏答评分项，而废标或扣分往往源于单条遗漏；同时草稿撰写与多角色复核串行，压缩了本已紧张的投标窗口。公开材料只给出产品功能描述，未提供用户抱怨或废标案例，因此痛点强度属于工作流结构推理。
+  pain_en: Tender documents are dense and scoring points scattered, so manual reading easily misses clauses,
+    mismatches credentials or skips scored items, and disqualification or point loss often traces to a
+    single omission; drafting and multi-role review also run serially, squeezing an already tight bid
+    window. Public material only describes product features, not user complaints or disqualification cases,
+    so pain intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式是投标专员用 Word/Excel 人工拆解招标文件、建检查清单，靠模板库和历史标书拼装草稿，再由技术、商务、法务等角色线下传阅批注；部分团队使用通用大模型对话辅助写作，但缺少条款级追溯与角色化复核。
+  current_alternative_en: Today bid specialists manually decompose tenders in Word/Excel, build checklists,
+    assemble drafts from template libraries and past bids, then circulate them offline for technical,
+    commercial and legal review; some teams use general-purpose LLM chat for writing help, but without
+    clause-level traceability or role-based review.
+  usage_reason: 推断：相较人工通读加模板拼装，该原型把招标文件解析成结构化要求并直接生成可编辑草稿，把“逐条找要求—再逐条写响应”的两步合并为一次核对，并用角色化审查和 AI 采用追踪让复核者看到每条响应的来源，因此投标专员在标书密集、窗口紧张时会选择它先出草稿再人工确认。
+  usage_reason_en: 'Inference: versus manual reading plus template assembly, the prototype parses the
+    tender into structured requirements and generates an editable draft, merging ''find each requirement''
+    and ''write each response'' into one check, while role-based review and AI-adoption tracing let reviewers
+    see each response''s origin, so bid specialists facing dense documents and tight windows would use
+    it to produce a draft before human confirmation.'

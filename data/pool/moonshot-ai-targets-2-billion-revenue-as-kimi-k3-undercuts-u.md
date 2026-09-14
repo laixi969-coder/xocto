@@ -1,6 +1,6 @@
 ---
 slug: moonshot-ai-targets-2-billion-revenue-as-kimi-k3-undercuts-u
-name: Moonshot AI Targets $2 Billion Revenue as Kimi K3 Undercuts US Rivals
+name: Moonshot AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3lESVY4TnJT
 summary: Moonshot AI Targets $2 Billion Revenue as Kimi K3 Undercuts US Rivals Startup Fortune
 first_seen: '2026-09-11T22:16:12Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Moonshot AI Targets $2 Billion Revenue as Kimi K3 Undercuts US Rivals
+# Moonshot AI
 
 Moonshot AI Targets $2 Billion Revenue as Kimi K3 Undercuts US Rivals Startup Fortune
 

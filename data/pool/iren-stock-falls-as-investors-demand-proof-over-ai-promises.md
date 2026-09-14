@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTFBKQlJkcXA1dUY4
 summary: IREN Stock Falls as Investors Demand Proof Over AI Promises BeInCrypto
 first_seen: '2026-09-11T02:29:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

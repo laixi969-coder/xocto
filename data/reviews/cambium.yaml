@@ -265,3 +265,44 @@
   usage_reason: 公开代码仓库有 238 个收藏、11 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 238 stars and 11 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-cambium-2026-09-14
+  project_slug: cambium
+  level: full
+  reviewed_at: '2026-09-14T00:32:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有一句仓库描述，未说明LLM维护知识库的具体痛点、发生频率或不治理的后果，无法还原用户任务与旧替代流程，价值结构尚不可判。
+    evidence_ids:
+    - ev-04fc850bf053c595
+    - ev-549e905315427fe6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/KimGLee/Cambium 的 README、issue 与 discussion，确认其治理对象、输入输出与是否有真实部署案例。
+  market: ''
+  job: 知识管理者或数据治理人员在LLM已生成或持续维护企业知识语料的情况下，需要对这些AI产出内容做版本、来源与质量治理，使语料可被审计和复用。
+  job_en: A knowledge manager or data governance professional, when an LLM has generated or continuously
+    maintains a corporate knowledge corpus, must govern that AI-produced content for versioning, provenance
+    and quality so the corpus stays auditable and reusable.
+  pain: 公开材料只有一句仓库描述，未说明AI维护语料带来的具体痛点、发生频率或不治理的后果，无法确认痛点是否刚性。
+  pain_en: Public material is limited to a single repository description and does not state the concrete
+    pain, frequency, or consequence of leaving AI-maintained corpora ungoverned, so the rigidity of the
+    pain cannot be confirmed.
+  current_alternative: 公开材料未说明用户当前用什么方式治理LLM维护的知识库，也未说明Cambium替代了哪一步旧流程。
+  current_alternative_en: Public material does not show how users currently govern LLM-maintained knowledge
+    bases, nor which prior step Cambium replaces.
+  usage_reason: 仅凭仓库描述无法解释用户为何选择它；缺少用户反馈、案例或可核对结果，无法形成采用因果。
+  usage_reason_en: The repository description alone cannot explain why a user would choose it; without
+    user feedback, cases, or checkable outcomes, no adoption causality can be established.

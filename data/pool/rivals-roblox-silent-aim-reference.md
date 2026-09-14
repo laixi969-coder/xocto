@@ -22,7 +22,7 @@ summary: Rivals Roblox silent aim script reference for Windows, covering aim ter
   records and testing limitations. No verified script or account protection is provided.
 first_seen: '2026-09-13T14:37:00Z'
 last_seen: '2026-09-14T00:12:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

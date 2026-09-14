@@ -428,3 +428,52 @@
     skip the step of designing how the agent connects to catalog and order systems and focus on business
     logic; teams introducing Claude agents into their own commerce or merchant backends would therefore
     pick it when they need fast validation or a shorter path to launch.'
+- id: req-full-commerce-agents-2026-09-14
+  project_slug: commerce-agents
+  level: full
+  reviewed_at: '2026-09-14T00:33:12Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者搭建购物/商家智能体时缺少可复用起点的需求，痛点在于从零编排工具调用与订单动作成本高；公开材料仅说明这是参考蓝图，痛点强度属工作流结构推理，尚无用户抱怨或采用行为佐证。
+    evidence_ids:
+    - ev-d000fefb006ebe86
+    - ev-0a09fd072d15f475
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 2,398 增至 2,811，说明开发者社区持续关注并收藏该蓝图；但收藏属关注度证据，不能证明目标用户已将其长期留在工作流或持续使用。
+    evidence_ids:
+    - ev-d000fefb006ebe86
+    - ev-e2a9028103df52b6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；作为 Anthropic 发布的参考蓝图，其价值可能服务于 Claude 生态采用而非直接收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0a09fd072d15f475
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明蓝图交付的智能体能否稳定运行、人工与安全边界如何设定，也缺少可复现的部署或实测记录，交付确定性尚未核验。
+    evidence_ids:
+    - ev-d000fefb006ebe86
+  next_validation: 追踪该蓝图仓库的 README、issue 与 discussion，确认是否有开发者公开报告实际部署场景、替代的旧流程及运行结果。
+  market: ''
+  job: 零售、电商、电信或娱乐企业的开发者，在需要为自己的业务搭建购物助手或商家运营智能体时，处理商品目录、用户查询、订单等业务材料，要完成从零到可运行智能体原型的搭建任务。
+  job_en: Developers at retail, e-commerce, telecom, or entertainment companies who need to build a shopping
+    assistant or merchant-operations agent, working with product catalogs, user queries, and order data
+    to produce a runnable agent prototype from scratch.
+  pain: 公开材料只说明这是参考蓝图，未披露用户抱怨；从工作流结构推理，自建购物/商家智能体需自行设计工具调用、商品检索与订单动作编排，缺少可复用起点会拉长从零搭建到可演示的周期。
+  pain_en: Public materials only describe it as a reference blueprint and disclose no user complaints;
+    by workflow inference, building a shopping or merchant agent from scratch requires designing tool
+    calls, product retrieval, and order-action orchestration without a reusable starting point, lengthening
+    the path from zero to a demo.
+  current_alternative: 开发者目前通常自行从零编写智能体脚手架，或参考零散博客与通用 agent 示例，缺少官方整理的零售/电商/电信/娱乐领域参考实现。
+  current_alternative_en: Developers today typically hand-roll agent scaffolding from scratch or follow
+    scattered blog posts and generic agent examples, lacking an officially curated reference implementation
+    for retail, e-commerce, telecom, and entertainment.
+  usage_reason: 推断：相较从零搭建，该蓝图直接提供按行业组织的购物与商家智能体示例，开发者可跳过工具调用与流程编排的初始设计，在需要快速产出可演示智能体原型时选择它；这是基于产品能力与任务的结构推理，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus building from scratch, the blueprint supplies industry-organized
+    shopping and merchant agent examples, letting developers skip initial tool-call and flow orchestration
+    design when they need a demoable agent prototype quickly; this is structural reasoning from product
+    capability and task, not yet confirmed by user feedback.'

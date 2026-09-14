@@ -23,7 +23,7 @@ summary: 'Astera Labs vs. Taiwan Semiconductor Manufacturing: Which AI Supplier 
   in 2026? The Globe and Mail'
 first_seen: '2026-09-11T18:54:28Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

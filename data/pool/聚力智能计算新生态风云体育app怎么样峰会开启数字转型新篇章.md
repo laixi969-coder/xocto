@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9PdHRJcmdEbTRY
 summary: 聚力智能计算新生态，风云体育app怎么样峰会开启数字转型新篇章 体坛加
 first_seen: '2026-09-11T11:56:45Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

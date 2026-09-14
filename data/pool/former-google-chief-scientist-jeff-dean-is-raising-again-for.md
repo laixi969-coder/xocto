@@ -23,7 +23,7 @@ summary: Former Google chief scientist Jeff Dean is raising again for his new AI
   a $50 billion valuation businessinsider.com
 first_seen: '2026-09-11T22:42:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -121,3 +121,48 @@
   usage_reason_en: 'Inference: if developers genuinely need daily review of prompts and commits, bough''s
     local single Go binary reading logs without uploading data removes the step of manually digging through
     session files; but no user feedback or case supports this motive.'
+- id: req-full-bough-2026-09-14
+  project_slug: bough
+  level: full
+  reviewed_at: '2026-09-14T00:32:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是把 Claude Code、Codex 会话日志与提交历史整理成按天工作视图，但公开证据全是词典对 bough 一词的释义，没有任何用户痛点、旧替代行为或不整理的后果，需求与痛点均无法从公开事实还原。
+    evidence_ids:
+    - ev-e2b1c63ff90e4ce5
+    - ev-5e041063e29d83b1
+    - ev-06d36086b6642e85
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bough 官方仓库的 README、release 与 issue/discussion，确认其是否公开说明输入来源、输出形态与真实使用反馈。
+  market: ''
+  job: 开发者在一天编码结束后，面对 Claude Code、Codex 留下的会话记录与提交历史，打开 bough 把这些原始日志整理成按天组织的工作视图，逐条列出提示词与已提交内容，得到一份可回看的当日工作记录。
+  job_en: After a day of coding, a developer takes the session logs and commit history left by Claude
+    Code and Codex, opens bough to organize those raw logs into a day-based work view listing each prompt
+    and what was committed, and ends up with a reviewable record of the day's work.
+  pain: 公开材料只给出产品自述的整理动作，没有任何用户反馈、抱怨或 workaround 说明会话日志散乱带来的具体代价、发生频率或不整理的后果，因此痛点无法从公开事实还原。
+  pain_en: Public materials only state the product's own organizing action; no user feedback, complaint,
+    or workaround shows the concrete cost, frequency, or consequence of leaving scattered session logs
+    unsolved, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者目前如何回看当日 AI 编码会话与提交，例如直接翻 Claude Code/Codex 原始日志、git log，或干脆不回看，替代方式无法确认。
+  current_alternative_en: Public materials do not show how developers currently review a day's AI coding
+    sessions and commits, e.g. scrolling raw Claude Code/Codex logs, git log, or not reviewing at all;
+    the alternative cannot be confirmed.
+  usage_reason: 推断：若开发者确实需要按天回看提示词与提交的对应关系，bough 以单机 Go 二进制在本地把两类日志合并成一份视图，省去手动对照原始会话与 git 记录这一步；但公开材料没有用户反馈或案例支持这一动机，也没有留存或重复使用证据。
+  usage_reason_en: 'Inference: if developers genuinely need a day-level mapping between prompts and commits,
+    bough''s single local Go binary merges the two log sources into one view, removing the manual step
+    of cross-referencing raw sessions against git records; however, no user feedback or case supports
+    this motive, and there is no retention or repeat-use evidence.'

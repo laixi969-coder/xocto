@@ -1,0 +1,81 @@
+- id: req-initial-1baton-2026-09-14
+  project_slug: 1baton
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决把多个 API 串成自动流程的需求，但材料未给出具体用户、旧流程与不采用的后果，痛点无法还原。
+    evidence_ids:
+    - ev-40514a1d8349f6d9
+  - gate: consensus
+    status: insufficient
+    reason: 仅 5 分、0 评论，没有可归因到该产品的采用或讨论证据，无法判断卡在感知还是场景。
+    evidence_ids:
+    - ev-40514a1d8349f6d9
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径信息，买方是 to C 还是 to B 无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-40514a1d8349f6d9
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标、交付是否确定，也看不到人工确认边界。
+    evidence_ids:
+    - ev-40514a1d8349f6d9
+  next_validation: 收集 1Baton 官方定价页或文档，确认它支持哪些 API、按什么计价以及是否有真实使用案例。
+  market: ''
+  job: 非技术岗位的业务人员需要把两三个已有 API 按顺序串起来，在定时或触发条件下自动跑完一次数据搬运或通知任务。
+  job_en: A non-technical business user needs to chain two or three existing APIs in order so a data-move
+    or notification task runs automatically on a schedule or trigger.
+  pain: 候选材料只说明它是无代码串联 API 的工具，没有给出任何具体用户、具体旧流程或具体痛点，无法判断不采用会失去什么。
+  pain_en: The candidate only says it is a no-code API-chaining tool, giving no specific user, old workflow
+    or pain point, so what is lost without it cannot be judged.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类串联，可能是写脚本、用 Zapier 类工具或手工操作，均未在候选资料中出现。
+  current_alternative_en: The public material does not say what users previously used for such chaining,
+    possibly scripts, Zapier-like tools or manual work; none appear in the candidate data.
+  usage_reason: 无法给出因果解释：材料没有说明它相较旧做法减少了哪一步、改善了哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus the old approach or which checkable result it improves, so which users would choose it and
+    when cannot be judged.'
+- id: req-full-1baton-2026-09-14
+  project_slug: 1baton
+  level: full
+  reviewed_at: '2026-09-14T00:32:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决把多个 API 串成自动流程的需求，但材料未给出具体用户、旧流程与不采用的后果，痛点无法还原。
+    evidence_ids:
+    - ev-40514a1d8349f6d9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 1Baton 官网文档与定价页，确认它支持哪些 API、按什么计价，以及是否公开真实使用案例。
+  market: ''
+  job: 非工程背景的运营或业务人员需要把几个已有 API 按顺序串成一条自动流程，在定时或触发条件下完成数据搬运或通知任务。
+  job_en: A non-engineering operations or business user needs to chain several existing APIs in order
+    so a data-move or notification task runs automatically on a schedule or trigger.
+  pain: 公开材料只有一句产品定位，没有给出任何具体用户、旧流程、失败后果或发生频率，无法还原痛点强度。
+  pain_en: The public material is a single positioning line, giving no specific user, old workflow, failure
+    consequence or frequency, so pain intensity cannot be reconstructed.
+  current_alternative: 公开材料未说明用户此前如何完成同类串联，可能是写脚本、用 Zapier 类工具或手工操作，均未在候选资料中出现。
+  current_alternative_en: The public material does not say how users previously did such chaining, possibly
+    scripts, Zapier-like tools or manual work; none appear in the candidate data.
+  usage_reason: 无法给出因果解释：材料没有说明它相较旧做法减少了哪一步或改善了哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus the old approach or which checkable result it improves, so which users would choose it and
+    when cannot be judged.'

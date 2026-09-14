@@ -172,3 +172,49 @@
     a topic directly into code-drawn Remotion frames and auto-generates TTS voiceover and subtitles, removing
     the animation, dubbing, and subtitle-alignment labor, so content creators or educators who need frequent
     explainer videos without an animation team would choose it for batch output.'
+- id: req-full-anything2explainer-2026-09-14
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-14T00:32:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把任意主题快速转成带配音、字幕和章节进度条的中英文 MG 讲解视频这一任务；公开材料只给出输入输出闭环，未记录用户抱怨或返工代价，痛点刚性属工作流结构推理，但交付物明确可核对。
+    evidence_ids:
+    - ev-11fbcc49d5d872c0
+    - ev-0a28d9b949635c17
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 收藏从 933 增至 1,164，说明开发者社区持续关注；但收藏与关注度不等于目标创作者持续使用或付费，缺少使用频次与留存证据。
+    evidence_ids:
+    - ev-0d86724bc13d1433
+    - ev-9711ab73d86d3b04
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；作为开源 skill 其变现路径可能是 to C 订阅、to B 定制或 to VC，均属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成视频的确定性、失败率与人工审核边界，也未提供可复现的成片质量证据，交付确定性尚不可核验。
+    evidence_ids:
+    - ev-bf351dc9b9f03b2c
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否出现官方定价、付费部署或客户案例等公开付费与交付证据。
+  market: ''
+  job: 内容创作者、教育者或营销人员在需要把某个主题做成科普讲解视频时，在 Claude Code / Codex 里输入主题，由 skill 生成黑底 MG 动图、TTS 配音、字幕和章节进度条的中英文成片。
+  job_en: A content creator, educator, or marketer who needs a topic turned into an explainer video inputs
+    the topic inside Claude Code / Codex and gets a black-canvas motion-graphics video with TTS voiceover,
+    subtitles, and a chapter progress bar in Chinese or English.
+  pain: 公开材料只说明输入主题即产出带配音讲解视频，未记录用户抱怨、制作耗时或返工代价；痛点强度属于工作流结构推理，而非用户口述事实。
+  pain_en: Public materials only state that a topic yields a narrated explainer video; they record no
+    user complaints, production time, or rework cost, so pain intensity is a workflow inference rather
+    than user-stated fact.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类讲解视频，也未说明它替代了哪一步旧流程。
+  current_alternative_en: Public materials do not state how users previously produced comparable explainer
+    videos or which prior step this replaces.
+  usage_reason: 推断：相较手工剪辑或逐帧制作，它把主题直接转成代码绘制的 Remotion 帧并附带 TTS 配音、字幕与章节进度条，减少从脚本到成片的中间环节，因此需要批量产出中英文科普视频的创作者会尝试它；公开材料未提供用户选择动机的反馈。
+  usage_reason_en: 'Inference: versus manual editing or frame-by-frame production, it turns a topic directly
+    into code-drawn Remotion frames with TTS voiceover, subtitles, and a chapter bar, cutting intermediate
+    steps from script to finished video, so creators needing batch Chinese/English explainers would try
+    it; public materials provide no user feedback on motivation.'

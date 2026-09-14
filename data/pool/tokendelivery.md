@@ -21,7 +21,7 @@ canonical_url: https://tokendelivery.ai
 summary: Determinstic LLM inference for lowest price Gemma 4, with Windows XP
 first_seen: '2026-09-12T16:45:14Z'
 last_seen: '2026-09-14T00:12:30Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

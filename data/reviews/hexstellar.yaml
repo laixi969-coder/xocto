@@ -466,3 +466,54 @@
     manual re-checking step, so agent developers and computational researchers needing verifiable numeric
     results would choose it when building automated compute workflows; public materials contain no user
     feedback or case confirming this motive.'
+- id: req-full-hexstellar-2026-09-14
+  project_slug: hexstellar
+  level: full
+  reviewed_at: '2026-09-14T00:33:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理执行数值计算时结果不可自证、不可追溯的痛点：开发者需自行拼装求解器并人工核对，错误结论会污染下游决策。公开说明给出输入（计算问题）、动作（CLI/API 求解）、交付（确定性标签与验证收据）的闭环，结构上成立，属工作流推理；痛点频率与代价尚无量化证据。
+    evidence_ids:
+    - ev-eda348a444145c7d
+    - ev-93f368ab185ff7fb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 940 增至 1,193，说明开发者持续关注，但收藏与复刻只属关注度证据，不能证明目标用户已把它留在代理工作流中；缺少 issue、discussion 或用户反馈说明实际使用场景与替代行为。
+    evidence_ids:
+    - ev-eda348a444145c7d
+    - ev-93f368ab185ff7fb
+  - gate: model
+    status: insufficient
+    reason: 公开材料只提到免费沙箱与 pip 安装，未披露定价页、付费主体或单位经济；开源库可能走 to B 支持/托管或 to VC 路径，这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-eda348a444145c7d
+  - gate: truth
+    status: insufficient
+    reason: 验证收据与确定性标签的承诺能否在量子、优化等不同求解器上稳定兑现，缺少可复现的公开测试或部署文档；安全与人工复核边界也未说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-eda348a444145c7d
+    - ev-93f368ab185ff7fb
+  next_validation: 追踪 HexStellar Cortex 仓库的 issue、discussion 与 README 示例，确认是否有用户公开描述在代理工作流中实际调用并替代了原有求解脚本。
+  market: ''
+  job: AI 代理开发者或计算研究员在构建需要数值求解的代理流程时，把优化、量子模拟或科学计算问题交给 HexStellar Cortex，通过 Python CLI 或 API 执行计算，并拿到带确定性标签和验证收据的结果，用于核验后再进入下游决策。
+  job_en: AI agent developers or computational researchers building agent workflows that need numerical
+    solving hand optimization, quantum simulation, or scientific computing problems to HexStellar Cortex
+    via Python CLI or API, and receive results with certainty labels and verification receipts for downstream
+    verification.
+  pain: LLM 代理直接生成数值结果时无法自证正确性，开发者需要额外写求解脚本、跑数值库并人工核对，结果不可复现、无法追溯，错误结论会污染后续决策；公开材料未给出该痛点的发生频率与量化代价。
+  pain_en: LLMs generating numerical results cannot self-certify correctness; developers must write solver
+    scripts, run numerical libraries, and manually verify, producing non-reproducible, untraceable results
+    that can contaminate downstream decisions. Public materials do not quantify frequency or cost.
+  current_alternative: 当前替代方式是让代理直接调用 SciPy、CVXPY、Qiskit 等数值库并自行拼装求解流程，或由人工编写脚本、手工记录结果；公开材料未说明用户此前具体如何完成这一环节。
+  current_alternative_en: The current alternative is having agents call SciPy, CVXPY, Qiskit and similar
+    numerical libraries directly with hand-assembled solving pipelines, or humans writing scripts and
+    recording results manually; public materials do not describe the prior workflow in detail.
+  usage_reason: 推断：相较自行拼装数值库并人工核对，Cortex 把求解与验证收据、确定性标签打包成一次 CLI/API 调用，减少“写脚本—跑库—人工复核”中的复核步骤，因此需要可追溯数值结论的代理开发者会在构建计算型代理时选择它；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: 'Inference: compared with hand-assembling numerical libraries and manually verifying,
+    Cortex packages solving plus verification receipts and certainty labels into a single CLI/API call,
+    removing the manual re-check step, so agent developers needing traceable numerical conclusions would
+    choose it when building computational agents; this is inferred from product capability and task structure,
+    not confirmed by user feedback.'

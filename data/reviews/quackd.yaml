@@ -321,3 +321,56 @@
     pre-validated in a simulator, and with memory across runs; therefore a developer who has assembled
     a small robot and wants it to complete a concrete task would choose it while debugging motion sequences.
     This is an inference from product capability and task structure, not yet confirmed by u
+- id: req-full-quackd-2026-09-14
+  project_slug: quackd
+  level: full
+  reviewed_at: '2026-09-14T00:35:10Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是自建小机器人“动作会做但不会串联”的规划缺口：用户已组装硬件，却要手写脚本逐条编排或自搭 LLM 管线。公开说明直接点出该痛点，且给出 CLI、LLM 规划、.duck
+      安全契约、模拟器与跨运行记忆的完整交付闭环，属工作流结构推理；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-16a916d955ed0734
+    - ev-e47b2f7fc0c55dec
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 171 增至 196，说明英文生态的机器人开发者持续关注并把它加入自建工作流候选；但这是关注度与规模证据，不能证明已长期留在工作流中，也未见用户评价或客户案例说明采用动机。
+    evidence_ids:
+    - ev-16a916d955ed0734
+    - ev-e47b2f7fc0c55dec
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，开源项目可能走社区免费加托管或支持收费，但这是判断而非已验证事实；谁付钱、按什么计费均无公开证据。
+    evidence_ids:
+    - ev-16a916d955ed0734
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺用 .duck 安全契约与模拟器约束 LLM 规划执行，但公开材料未展示可复现的部署记录、失败案例或人工接管边界，交付能否稳定发生尚缺公开验证。
+    evidence_ids:
+    - ev-e47b2f7fc0c55dec
+  next_validation: 追踪 quackd 官方仓库的 README、issue 与 discussion，确认是否有用户公开报告在具体机器人上跑通任务、替代了原有脚本流程，以及是否出现定价或赞助页面。
+  market: ''
+  job: 自建 Microduck、Open Duck Mini、LeRobot 机械臂或 ROS 底盘的创客与机器人开发者，在已组装好硬件、机器人只会单条动作但不会串联的情况下，用自然语言说出目标，让
+    LLM 规划并执行动作序列，完成一次可运行的任务（如走过去、抓取、多机协同）。
+  job_en: Makers and robotics developers who built a Microduck, Open Duck Mini, LeRobot arm, or ROS base—hardware
+    assembled, individual moves working but not connected—state a goal in natural language so an LLM plans
+    and runs the step sequence to complete a runnable task (walk over, grasp, coordinate a flock).
+  pain: 公开说明明确点出痛点：机器人“knows its moves but not how to connect them”，即底层动作已具备但缺少把动作串成任务序列的规划层；自建者要么手写脚本逐条编排，要么自己接
+    LLM 做规划，重复劳动且容易出错。
+  pain_en: 'The public description states the pain directly: the robot ''knows its moves but not how to
+    connect them''—low-level moves exist but the planning layer that chains them into a task is missing,
+    so builders hand-script each sequence or wire up an LLM planner themselves, duplicating work and inviting
+    errors.'
+  current_alternative: 当前替代是用户自己写动作脚本、逐条调用机器人 SDK，或自行搭建 LLM 规划与工具调用管线；公开材料未展示现成的同类自然语言编排层。
+  current_alternative_en: Today users hand-write motion scripts, call the robot SDK step by step, or build
+    their own LLM planning and tool-calling pipeline; public materials show no ready-made natural-language
+    orchestration layer of this kind.
+  usage_reason: 推断：相较手写脚本，quackd 用一条 CLI 接入多种机器人，把自然语言目标交给任意 LLM 规划，并用 .duck 安全契约约束执行、模拟器先验证、跨运行记忆保留上下文，从而省去用户自己写规划与安全封装这一步；已组装硬件、想快速让机器人跑通任务的创客会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus hand-written scripts, quackd exposes one CLI across multiple robots,
+    hands a natural-language goal to any LLM for planning, constrains execution with .duck safety contracts,
+    validates in a simulator first, and keeps memory between runs—removing the step where users build
+    their own planner and safety wrapper; makers with assembled hardware who want a task running quickly
+    would pick it in that situation.'

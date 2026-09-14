@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/SachinAmliyar15/voice-clone-free
 summary: anyone-voice-cloning
 first_seen: '2026-09-13T13:19:18Z'
 last_seen: '2026-09-14T00:12:54Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

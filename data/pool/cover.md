@@ -3,45 +3,34 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: 开发者在把用户数据交给外部大模型前，先用它把姓名、地址等敏感字段替换成逼真假值，模型只看到假数据；返回结果在本地再还原成真实值，人工仍需确认还原映射是否完整。具体支持的字段类型与部署方式仍待核验。
-inspiration: 趋势是敏感数据外发前的“脱敏—还原”环节正被单独拆成一层，而不是塞进每个应用里各写一遍。切入可从处理大量个人数据的行业（保险理赔、医疗记录、金融客服）入手，按调用量或按合规审计报告收费，而不是卖通用工具。
-summary_en: Before sending user data to an external large model, developers use it to swap sensitive fields
-  such as names and addresses for realistic fake values, so the model only sees fakes; results are restored
-  to real values locally, and a human still has to confirm the mapping is complete. The supported field
-  types and deployment options still need verification.
-inspiration_en: 'The trend is that the de-identify-and-restore step before sending sensitive data out
-  is being split into its own layer instead of being rewritten inside every app. Entry point: industries
-  handling large volumes of personal data (insurance claims, medical records, financial support), charged
-  by call volume or by compliance audit report rather than sold as a generic tool.'
+summary_zh: 开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值。用户拿到的是可继续使用的真实输出，替换与还原都在本地完成，具体支持的字段类型与还原准确度仍待核验。
+inspiration: 趋势是数据合规正在从法务条款下沉到调用链路上，谁能在请求发出前完成脱敏谁就拿到企业订单。切入可以从处理个人身份信息的行业（医疗、金融、法务外包）做起，卖点是可审计的替换日志与本地还原，而不是又一个代理网关。
+summary_en: Before sending text or fields containing real customer information to a third-party LLM API,
+  a developer runs this tool to swap the originals for format-consistent fakes, then restores the real
+  values locally from the returned output. The user ends up with usable real output; substitution and
+  restoration happen locally, while the supported field types and restoration accuracy still need verification.
+inspiration_en: 'The trend is that data compliance is moving from legal terms down into the call path:
+  whoever de-identifies before the request leaves wins enterprise deals. A wedge is to start with personal-data-heavy
+  sectors such as healthcare, finance and legal outsourcing, selling auditable substitution logs and local
+  restoration rather than yet another proxy gateway.'
 priority_review: false
 project_type: open_source
-industries:
-- 软件与信息服务
-- 金融与保险
-- 医疗健康
-industries_en:
-- Software and IT services
-- Finance and insurance
-- Healthcare
+industries: []
+industries_en: []
 jobs:
-- AI应用开发者
-- 数据合规与隐私工程师
-- 企业安全负责人
+- 开发者在把真实客户数据交给第三方大模型接口前，需要先替换成假数据再在本地还原
 jobs_en:
-- AI application developer
-- Data compliance and privacy engineer
-- Enterprise security lead
-regions:
-- 全球
-regions_en:
-- Global
+- Developers replacing real customer data with realistic fakes before sending it to third-party LLM APIs,
+  then restoring originals locally
+regions: []
+regions_en: []
 open_source: true
 url: https://github.com/DavidCarliez/cover
 canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - officialfeeds

@@ -1,0 +1,88 @@
+- id: req-initial-loopera-2026-09-14
+  project_slug: loopera
+  level: initial
+  reviewed_at: '2026-09-14T00:12:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决因子假设验证与留痕的需求，但公开材料未说明具体数据源、验证口径和不采用的实际代价，痛点强度无法判断。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  - gate: consensus
+    status: insufficient
+    reason: 148 星与 21 次 fork 只说明开源关注度，没有研究员持续使用或团队采用的证据。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方可能是自建研究流程的团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  - gate: truth
+    status: insufficient
+    reason: 证据门控验证的说法与投研第一性目标一致，但缺少可复现实测或客户案例来确认交付确定性。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它接入的数据源、验证口径和是否有研究团队实际使用。
+  market: ''
+  job: 量化或基本面研究员在形成因子假设后，需要把行情、财报等材料交给工具做可追溯的验证，并保留研究过程记录。
+  job_en: After forming a factor hypothesis, a quant or fundamental researcher needs to hand market and
+    filing material to a tool for traceable validation and keep a record of the research process.
+  pain: 因子研究里假设与验证过程散落在脚本、笔记和聊天记录中，复现和交接成本高；但公开材料没有说明这一痛点具体发生在哪一步。
+  pain_en: In factor research, hypotheses and validation steps scatter across scripts, notes and chat
+    logs, making reproduction and handover costly; the public material does not say which step this pain
+    actually hits.
+  current_alternative: 研究员通常自己写 Python 脚本、用回测框架加笔记软件手工记录，或依赖团队内部的研究平台。
+  current_alternative_en: Researchers typically write their own Python scripts, use backtesting frameworks
+    plus note-taking tools, or rely on an in-house research platform.
+  usage_reason: 推断：相较自写脚本加笔记，它把验证步骤和证据门控收进同一流程并保留研究记忆，可能减少复现与交接时的翻找；但公开材料未给出用户反馈或采用证据，选择动机无法核实。
+  usage_reason_en: 'Inference: versus self-written scripts plus notes, it folds validation steps and evidence
+    gating into one flow with research memory, potentially cutting the digging needed for reproduction
+    and handover; no user feedback or adoption evidence is public, so the choice motive cannot be verified.'
+- id: req-full-loopera-2026-09-14
+  project_slug: loopera
+  level: full
+  reviewed_at: '2026-09-14T00:34:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决因子假设验证与留痕的需求：假设、验证脚本和结论散落导致复现与交接成本高，不采用则重复劳动与结论不可追溯。公开材料只给出假设驱动、证据门控与研究记忆的定位，未说明数据源与验证口径，故属工作流结构推理。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  - gate: consensus
+    status: insufficient
+    reason: 148 星只说明开源关注度，属规模信号，不能证明研究员持续使用或团队采用；公开材料没有用户评价、案例或重复使用记录，强场景存在但采用共识未核验。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页或付费路径，买方可能是自建研究流程的团队或研究员个人，这是判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  - gate: truth
+    status: insufficient
+    reason: 证据门控验证与投研可追溯的第一性目标一致，但缺少可复现实测、部署文档或客户案例来确认交付确定性与人工复核边界，安全与人工边界未公开。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认其接入的数据源、验证口径，以及是否有研究团队公开报告实际使用或部署。
+  market: ''
+  job: 量化或基本面研究员在形成因子假设后，把行情、财报等研究材料交给该智能体，按假设驱动方式完成可追溯的验证，并保留研究记忆以便复现与交接。
+  job_en: After forming a factor hypothesis, a quant or fundamental researcher hands market and filing
+    material to the agent to run hypothesis-driven, traceable validation and keep research memory for
+    reproduction and handover.
+  pain: 因子研究里假设、验证脚本与结论散落在脚本、笔记和聊天记录中，复现和交接成本高；公开材料未说明痛点具体落在哪一步，属结构推理。
+  pain_en: In factor research, hypotheses, validation scripts and conclusions scatter across scripts,
+    notes and chat logs, making reproduction and handover costly; the public material does not pin down
+    which step the pain hits, so this is structural inference.
+  current_alternative: 研究员通常自己写 Python 脚本、用回测框架加笔记软件手工记录，或依赖团队内部研究平台。
+  current_alternative_en: Researchers typically write their own Python scripts, use backtesting frameworks
+    plus note-taking tools, or rely on an in-house research platform.
+  usage_reason: 推断：相较自写脚本加笔记，它把假设、验证步骤与证据门控收进同一流程并保留研究记忆，减少复现与交接时翻找脚本和记录的那一步负担，因此需要可追溯因子验证的研究员会在做新假设时选择它；公开材料尚无用户反馈或采用证据。
+  usage_reason_en: 'Inference: versus self-written scripts plus notes, it folds hypotheses, validation
+    steps and evidence gating into one flow with research memory, cutting the step of digging through
+    scripts and notes for reproduction and handover, so researchers needing traceable factor validation
+    would pick it when testing a new hypothesis; no public user feedback or adoption evidence yet.'

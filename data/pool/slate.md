@@ -1,28 +1,34 @@
 ---
 slug: slate
-name: slate
+name: Slate
 builder: wassermanproductions
 category: AI + 创作
-summary_zh: slate 是一个面向 AI 电影制作的开源提示词工作台。导演或分镜师在规划镜头、指导拍摄、保持连续性时，用它来整理镜头计划、生成连贯的提示词，并可直接用于图像、视频、音乐或语音生成器。具体流程和交付仍待核验。
-inspiration: AI 视频生成正从单镜头走向完整叙事，slate 切入的是制作流程中的规划与连续性管理环节。可考虑从专业影视团队的分镜与场记工作流切入，提供更结构化的项目管理功能。
-summary_en: slate is an open-source prompt studio for AI filmmaking. Directors or storyboard artists use
-  it to plan shots, direct coverage, maintain continuity, and compile production-ready prompts for image,
-  video, music, or voice generators. Specific workflow and deliverables remain to be verified.
-inspiration_en: AI video generation is moving from single shots to full narratives. slate targets the
-  planning and continuity management stage. Consider entering through professional storyboarding and continuity
-  workflows, offering more structured project management features.
+summary_zh: 面向 AI 影视制作的提示词工作台：分镜师或导演在筹备阶段把镜头规划、覆盖方式与连贯性要求整理成结构化提示词，再交给图像、视频、音乐或语音生成器出素材；用户拿到的是可直接投喂生成器的提示词包，无需
+  API key，最终画面仍需人工确认。具体流程与交付形态仍待核验。
+inspiration: 趋势：生成式视频把影视前期从“画分镜”推向“写可执行提示词”，分镜与连贯性管理正在变成独立工序。切入：从短片、广告与独立制片的筹备环节进入，卖按项目或按镜头包交付的提示词与连贯性方案，而不是卖生成额度。
+summary_en: 'A prompt studio for AI filmmaking: during pre-production, a storyboard artist or director
+  lays out shot plans, coverage and continuity requirements into structured prompts, then feeds them to
+  image, video, music or voice generators. The deliverable is a production-ready prompt package usable
+  without API keys; final frames still need human review. The exact workflow and deliverable format remain
+  unverified.'
+inspiration_en: 'Trend: generative video is pushing film pre-production from drawing storyboards to writing
+  executable prompts, making shot planning and continuity management a separate step. Entry: start with
+  short films, ads and indie production, selling per-project or per-shot prompt and continuity packages
+  rather than generation credits.'
 priority_review: false
 project_type: new_application
 industries:
 - 影视制作
+- 广告与营销内容
 industries_en:
-- Film production
+- Film and TV production
+- Advertising and marketing content
 jobs:
-- 导演
 - 分镜师
+- 导演
 jobs_en:
-- Director
 - Storyboard artist
+- Director
 regions: []
 regions_en: []
 open_source: true
@@ -33,7 +39,7 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
 last_seen: '2026-09-14T00:12:56Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds
@@ -93,7 +99,7 @@ sightings:
   kind: news
 ---
 
-# slate
+# Slate
 
 The prompt studio for AI filmmaking — plan shots, direct coverage, keep continuity, and compile production-ready prompts for any image, video, music, or voice generator. No API keys. Suggested Donation of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 

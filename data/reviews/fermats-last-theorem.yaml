@@ -342,3 +342,45 @@
   usage_reason_en: Only star growth from 916 to 1,128 is available, which is an attention signal and cannot
     explain why users choose it; with no feature description, feedback, or case, no usage reason can be
     given.
+- id: req-full-fermats-last-theorem-2026-09-14
+  project_slug: fermats-last-theorem
+  level: full
+  reviewed_at: '2026-09-14T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据只有仓库名称与收藏数，未披露功能、输入输出或用户任务，连它解决什么需求、什么痛点都写不出来，因此无法做价值结构判断。
+    evidence_ids:
+    - ev-f400a6efbec8dbc4
+    - ev-34f37ed84b4b0803
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认它实际提供什么功能、面向哪类数学或形式化验证任务。
+  market: ''
+  job: 公开材料仅显示这是 Anthropic 发布、以费马大定理命名的 公开代码仓库 仓库，未披露 README、文档或任何可执行功能，因此无法写明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public materials only show a public code repository repository published by Anthropic named
+    after Fermat's Last Theorem, with no README, docs, or executable capability disclosed, so it is impossible
+    to state who handles what material in what situation to complete what task.
+  pain: 没有任何公开材料说明用户的具体痛点、发生频率或不解决的后果；仓库名称与数学推理或形式化验证的关联只是推测，不能当作痛点证据。
+  pain_en: No public material describes a concrete user pain, its frequency, or the consequence of leaving
+    it unsolved; the link between the repository name and mathematical reasoning or formal verification
+    is speculation, not pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了哪种旧流程或工具。
+  current_alternative_en: Public materials do not state how users currently complete the related work,
+    nor which prior workflow or tool this repository replaces.
+  usage_reason: 无法给出使用理由：缺少功能说明、输入输出、文档或用户反馈，无法解释它相较任何旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'No usage reason can be given: with no feature description, inputs/outputs, docs, or
+    user feedback, it is impossible to explain which step it removes or which checkable result it improves
+    versus any prior approach.'

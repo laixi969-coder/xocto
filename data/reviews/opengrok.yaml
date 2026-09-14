@@ -243,3 +243,42 @@
   usage_reason_en: No user feedback, customer cases, or adoption behavior exist in the evidence, so it
     is impossible to explain which users would choose it under what circumstances or which step it removes
     versus the old approach.
+- id: req-full-opengrok-2026-09-14
+  project_slug: opengrok
+  level: full
+  reviewed_at: '2026-09-14T00:34:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决在 Grok Bot 中切换非默认模型的配置负担，但公开证据只有仓库自述与星标，没有用户抱怨、issue 或案例证明该痛点刚性；不装它也可手动改配置或换平台，属于没有也行。
+    evidence_ids:
+    - ev-ec0ece8e2866dddd
+    - ev-331ddb73452ae38d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 公开代码仓库 仓库 OnlyTerp/opengrok 的 issue 与 discussion，确认是否有用户报告实际配置失败、模型切换成功或持续使用场景。
+  market: ''
+  job: 开发者在 Grok Bot 聊天机器人中运行非默认模型时，需要安装并配置 opengrok，通过模型选择界面切换提供商，并核对连接状态是否可用。
+  job_en: Developers running non-default models inside Grok Bot install and configure opengrok, switch
+    providers via a model picker UI, and verify that the connection state is usable.
+  pain: 公开材料只说明默认模型可能不满足需求、切换需要配置，但没有用户抱怨、issue 或案例证明这一配置负担真实存在且足够痛。
+  pain_en: Public material only states that default models may not fit and switching requires configuration,
+    but no user complaints, issues, or cases show this configuration burden is real and painful enough.
+  current_alternative: 手动修改配置文件，或直接使用其他聊天机器人平台。
+  current_alternative_en: Manually editing configuration files, or simply using another chatbot platform.
+  usage_reason: 推断：相较手动改配置，一键安装与模型选择界面减少了一步配置负担，因此偏好折腾模型路由的开发者可能试用；但缺少用户反馈证明他们会持续选择它。
+  usage_reason_en: 'Inference: versus hand-editing config, one-command setup and a model picker remove
+    one configuration step, so developers who like tinkering with model routing may try it; no user feedback
+    shows they keep choosing it.'

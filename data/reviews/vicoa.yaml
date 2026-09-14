@@ -244,3 +244,52 @@
     sessions in one self-hostable surface reachable from phone or VPS, removing the step of maintaining
     a separate remote terminal per agent; developers who want code to stay in-house yet need off-desk
     visibility would pick it.'
+- id: req-full-vicoa-2026-09-14
+  project_slug: vicoa
+  level: full
+  reviewed_at: '2026-09-14T00:35:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多编码代理并行时跨设备统一调度与接管的协作需求，痛点在于会话分散、切换与远程维持成本高；公开事实仅为其自述 ADE 定位与自托管能力，痛点强度属工作流结构推理，尚无用户抱怨或代价数据。
+    evidence_ids:
+    - ev-d169f44505ed2f0c
+    - ev-3682d61bb4de05ba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 159 增至 249，说明开发者社区持续关注，但收藏与关注只属规模信号，不能证明目标用户已把它留在日常工作流或形成强场景共识。
+    evidence_ids:
+    - ev-d169f44505ed2f0c
+    - ev-3682d61bb4de05ba
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，公开材料未见定价页、付费主体或采购记录；钱可能来自 to C 开发者订阅或 to B 团队自托管支持，但这只是判断而非已验证事实，属商业证据缺口。
+    evidence_ids:
+    - ev-1ccb1723122b5d45
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、可复现实测或人工与安全边界说明，无法核验多代理调度与跨设备接管能否确定性交付，也未发现夸大承诺的证据。
+    evidence_ids:
+    - ev-ba3ec87e71faa936
+  next_validation: 追踪 Vicoa 官方仓库的 README、部署文档与 issue/discussion，确认多代理调度与自托管部署的实际交付方式及用户报告的使用场景。
+  market: ''
+  job: 软件开发者或技术团队负责人在同时运行多个编码代理（如并行处理多个仓库任务、长时任务）时，需要从桌面、手机或自托管 VPS 上统一查看、调度和接管这些代理的会话与产出，而不是逐个终端窗口切换。
+  job_en: A software developer or tech lead running several coding agents at once (parallel repo tasks,
+    long-running jobs) needs to view, dispatch, and take over those agent sessions and outputs from desktop,
+    phone, or a self-hosted VPS instead of switching between terminal windows.
+  pain: 公开材料只说明它是跨设备运行代理团队的 ADE，未提供用户抱怨、频率或误工代价；从工作流结构推理，多代理并行时上下文分散在多个终端与设备，切换和接管成本高，且云端 IDE 无法满足自托管与移动查看的诉求。
+  pain_en: Public materials only describe it as an ADE for running a team of agents across devices, with
+    no user complaints, frequency, or cost data; by workflow inference, parallel agents scatter context
+    across terminals and devices, making switching and takeover costly, while cloud IDEs cannot satisfy
+    self-hosting and mobile viewing.
+  current_alternative: 当前替代方式推断为：在本地终端或单一 IDE 中逐个启动编码代理、用 tmux/SSH 远程维持会话，或使用云端托管 IDE；公开材料未说明它具体替代了哪一种。
+  current_alternative_en: 'Inferred alternatives: launching coding agents one by one in a local terminal
+    or single IDE, keeping sessions alive via tmux/SSH, or using a cloud-hosted IDE; public materials
+    do not say which one it replaces.'
+  usage_reason: 推断：相较逐个终端/tmux 的旧做法，它把多代理会话集中到一个可跨桌面、移动端和自托管 VPS 访问的界面，减少在设备与窗口间切换、手动维持远程会话这一步负担，因此需要并行跑多个代理又要求自托管或移动查看的开发者会尝试它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus per-terminal/tmux workflows, it centralizes multi-agent sessions
+    into one interface reachable from desktop, mobile, and a self-hosted VPS, cutting the step of switching
+    devices/windows and manually keeping remote sessions alive, so developers running parallel agents
+    who need self-hosting or mobile access would try it; no user feedback yet confirms this motive.'

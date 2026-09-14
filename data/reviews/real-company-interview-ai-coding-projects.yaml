@@ -327,3 +327,48 @@
     decomposition approach, cutting the step of collecting and piecing together questions themselves;
     that is why people preparing for AI coding interviews star or fork it. Stars rising from 320 to 328
     shows continued attention, not retention, and the usage motive is an inference.
+- id: req-full-real-company-interview-ai-coding-projects-2026-09-14
+  project_slug: real-company-interview-ai-coding-projects
+  level: full
+  reviewed_at: '2026-09-14T00:35:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者准备 AI Coding 面试时缺少公开真题与解题方法的问题，痛点在于题目来源不透明、练习方向难判断；仓库提供三个匿名化真题与通用方法，交付物明确。这是基于任务结构的工作流推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-33c7c25e145065cb
+    - ev-c939643c9521102a
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 322 增至 330，说明开发者持续关注；但无用户评价、issue 或复刻使用记录，无法证明目标求职者已把它留在面试准备流程中。
+    evidence_ids:
+    - ev-33c7c25e145065cb
+    - ev-f20279f56decde02
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或赞助信息，谁付钱无法从公开材料核验；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 仓库未公开题目质量校验、答案正确性说明或人工边界，交付能否确定发生缺少可复现证据。
+    evidence_ids:
+    - ev-33c7c25e145065cb
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现题目来源说明、用户练习反馈或付费/赞助入口。
+  market: ''
+  job: 准备 AI Coding 岗位面试的求职者在投递与面试前，拿到三个匿名化的真实公司项目题，需要把题目拆解成可练习的解题步骤并形成自己的答题材料。
+  job_en: Job seekers preparing for AI coding interviews obtain three anonymized real-company project
+    prompts and must break them into practiceable solution steps and their own answer materials.
+  pain: 公开材料只说明仓库提供匿名化真题与通用解题方法，未给出用户抱怨、失败代价或频率；从任务结构看，AI Coding 面试题缺乏公开题库、题目来源不透明，求职者难以判断练习方向，这是工作流推理而非用户口述。
+  pain_en: Public materials only state the repo offers anonymized real prompts and a general method; no
+    user complaints, failure costs, or frequency are shown. Structurally, AI coding interview prompts
+    lack public banks and transparent sourcing, making practice direction hard to judge; this is workflow
+    inference, not user testimony.
+  current_alternative: 求职者目前依赖零散面经、论坛帖、LeetCode 类通用题库或自行回忆面试题，缺少针对 AI Coding 项目题的公开整理。
+  current_alternative_en: Candidates currently rely on scattered interview write-ups, forum posts, generic
+    LeetCode-style banks, or their own recall, lacking a public collection of AI coding project prompts.
+  usage_reason: 推断：相较翻找零散面经，该仓库把三个匿名化真题与一套通用解题方法集中在一处，求职者可据此直接对照练习，减少自行搜集与筛选题目的步骤，因此正在准备 AI Coding 面试的人会收藏或复刻它。
+  usage_reason_en: 'Inference: versus hunting scattered write-ups, the repo centralizes three anonymized
+    prompts plus a general method, letting candidates practice against them directly and cutting the search-and-filter
+    step, so those preparing for AI coding interviews star or fork it.'

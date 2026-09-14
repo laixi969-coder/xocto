@@ -1,0 +1,97 @@
+- id: req-initial-legal-ai-startup-harvey-hits-156-billion-value-with-550-mill-2026-09-14
+  project_slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
+  level: initial
+  reviewed_at: '2026-09-14T00:13:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师在尽调与合同审阅中逐条比对、检索摘录耗时的痛点，旧行为明确且不采用代价高，需求结构成立。
+    evidence_ids:
+    - ev-0a906c994fb8a095
+    - ev-2d819dbe759593fe
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与估值，没有客户数、律所采用范围或使用频次，无法判断共识是否形成。
+    evidence_ids:
+    - ev-0a906c994fb8a095
+    - ev-2d819dbe759593fe
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与计费方式，买方可能是律所或法务部门，但付费路径与交付确定性均未核验，属判断而非事实。
+    evidence_ids:
+    - ev-0a906c994fb8a095
+  - gate: truth
+    status: insufficient
+    reason: 法律产出需律师确认，人工边界合理；但公开材料未说明错误率、引用可核验性与安全边界。
+    evidence_ids:
+    - ev-0a906c994fb8a095
+    - ev-2d819dbe759593fe
+  next_validation: 收集 Harvey 官方定价页或公开客户案例，确认计费方式与已披露的律所采用范围。
+  market: ''
+  job: 律所律师与公司法务在尽调、合同审阅或判例检索时，处理合同、案卷与法规材料，要产出可复核的备忘录、条款比对结论或检索摘要。
+  job_en: Lawyers at firms and in-house counsel handle contracts, case files and regulatory material during
+    diligence, contract review or case-law research, and must produce reviewable memos, clause comparisons
+    or research summaries.
+  pain: 这类材料量大、术语密集，人工逐条比对耗时且容易漏项，初级律师大量时间花在重复检索与摘录上。
+  pain_en: Such material is voluminous and terminology-heavy; manual clause-by-clause comparison is slow
+    and error-prone, and junior lawyers spend much of their time on repetitive search and extraction.
+  current_alternative: 旧做法是初级律师与 paralegal 手工检索数据库、逐条比对合同并撰写备忘录，或外包给外部律师。
+  current_alternative_en: The old approach is junior lawyers and paralegals manually searching databases,
+    comparing contracts clause by clause and drafting memos, or outsourcing to outside counsel.
+  usage_reason: 相较手工检索与逐条比对，Harvey 直接接收合同与案卷材料并输出条款比对与初稿，减少的是初级律师从零检索和摘录这一步；推断在文档量大、时限紧的尽调与合同审阅场景中，律所会选择它来压缩初稿时间，但公开材料未给出留存或复购证据。
+  usage_reason_en: Compared with manual search and clause-by-clause comparison, Harvey takes in contracts
+    and case files and outputs clause comparisons and drafts, removing the junior lawyer's from-scratch
+    search and extraction step; the inference is that firms choose it in high-volume, tight-deadline diligence
+    and contract review to compress drafting time, though public material provides no retention or repeat-use
+    evidence.
+- id: req-full-legal-ai-startup-harvey-hits-156-billion-value-with-550-mill-2026-09-14
+  project_slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
+  level: full
+  reviewed_at: '2026-09-14T00:34:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师在尽调与合同审阅中逐条比对、检索摘录耗时的痛点，旧行为明确且不采用代价高，需求结构成立；但公开材料未展开具体流程与交付形态，属工作流结构推理。
+    evidence_ids:
+    - ev-de66a9eab6294b14
+    - ev-29456a57607b6637
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与估值，没有客户数、律所采用范围或使用频次，无法判断共识是否形成；估值与融资只属关注度证据。
+    evidence_ids:
+    - ev-29456a57607b6637
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与计费方式，买方可能是律所或法务部门，但付费路径与交付确定性均未核验，属判断而非事实。
+    evidence_ids:
+    - ev-29456a57607b6637
+  - gate: truth
+    status: insufficient
+    reason: 法律产出需律师确认，人工边界合理；但公开材料未说明错误率、引用可核验性与安全边界，无法判断承诺能否确定性交付。
+    evidence_ids:
+    - ev-29456a57607b6637
+    - ev-de66a9eab6294b14
+  next_validation: 收集 Harvey 官方定价页或公开客户案例，确认计费方式与已披露的律所采用范围。
+  market: ''
+  job: 律所律师与公司法务在尽调、合同审阅或判例检索时，处理合同、案卷与法规材料，要产出可复核的备忘录、条款比对结论或检索摘要。
+  job_en: Lawyers at firms and in-house counsel handle contracts, case files and regulatory material during
+    diligence, contract review or case-law research, and must produce reviewable memos, clause comparisons
+    or research summaries.
+  pain: 这类材料量大、术语密集，人工逐条比对耗时且容易漏项，初级律师大量时间花在重复检索与摘录上；公开材料以融资报道与检索查询间接反映该痛点，缺少客户口述。
+  pain_en: Such material is voluminous and terminology-heavy; manual clause-by-clause comparison is slow
+    and error-prone, and junior lawyers spend much of their time on repetitive search and extraction;
+    public material reflects this only indirectly via funding coverage and search queries, lacking client
+    testimony.
+  current_alternative: 旧做法是初级律师与 paralegal 手工检索数据库、逐条比对合同并撰写备忘录，或外包给外部律师。
+  current_alternative_en: The old approach is junior lawyers and paralegals manually searching databases,
+    comparing contracts clause by clause and drafting memos, or outsourcing to outside counsel.
+  usage_reason: 推断：相较手工检索与逐条比对，Harvey 直接接收合同与案卷材料并输出条款比对与初稿，减少的是初级律师从零检索和摘录这一步；在文档量大、时限紧的尽调与合同审阅场景中，律所会选择它来压缩初稿时间。但公开材料未给出留存或复购证据，动机属推断。
+  usage_reason_en: 'Inference: compared with manual search and clause-by-clause comparison, Harvey takes
+    in contracts and case files and outputs clause comparisons and drafts, removing the junior lawyer''s
+    from-scratch search and extraction step; firms would choose it in high-volume, tight-deadline diligence
+    and contract review to compress drafting time. However, public material provides no retention or repeat-use
+    evidence, so the motive is inferred.'

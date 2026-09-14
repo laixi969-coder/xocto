@@ -1,6 +1,6 @@
 ---
 slug: lightfield-raises-47m-after-a-seven-person-reset
-name: Lightfield Raises $47M After a Seven-Person Reset
+name: Lightfield
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNbXBCRzRPUGlh
 summary: Lightfield Raises $47M After a Seven-Person Reset quasa.io
 first_seen: '2026-09-13T08:51:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Lightfield Raises $47M After a Seven-Person Reset
+# Lightfield
 
 Lightfield Raises $47M After a Seven-Person Reset quasa.io
 

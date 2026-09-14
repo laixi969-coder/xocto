@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNMTZiWWswWWlt
 summary: Google named Gartner leader in enterprise AI assistants IT Brief Asia
 first_seen: '2026-09-11T15:45:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

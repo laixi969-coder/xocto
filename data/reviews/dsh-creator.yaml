@@ -168,3 +168,45 @@
     for the model to process, cutting the steps of moving and organizing material across tools, so self-media
     creators producing drafts in volume would choose it for routine updates; no user feedback is public,
     so continued use is unproven.'
+- id: req-full-dsh-creator-2026-09-14
+  project_slug: dsh-creator
+  level: full
+  reviewed_at: '2026-09-14T00:33:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决创作者本地生成内容草稿与运营文案的需求，但公开材料只有一句仓库简介，未说明具体痛点、频率与不采用后果；网页版通用模型已能完成同类任务，本地部署反而增加负担，属自嗨拼凑。
+    evidence_ids:
+    - ev-6bd6b4e2ca27be02
+    - ev-da78cd0550d5f4f5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 DSH-Creator 仓库的 README、issue 与 discussion，确认是否有创作者描述具体使用场景、输入材料与替代掉的旧流程。
+  market: ''
+  job: 内容创作者在本地打开 DSH-Creator，把选题、文案与运营素材交给它，由 DeepSeek 模型生成内容草稿与运营文案，创作者确认后自行发布到各平台。
+  job_en: A content creator opens DSH-Creator locally, feeds in topic ideas, copy and operational material,
+    has a DeepSeek model generate drafts and operational copy, then reviews and publishes to platforms
+    themselves.
+  pain: 公开材料只给出仓库一句话简介，未说明创作者在选题、成稿或运营环节的具体痛点、发生频率与不解决的后果；本地跑 DeepSeek 对创作者而言还多出环境配置负担。
+  pain_en: Public material offers only a one-line repository description; it does not state the creator's
+    specific pain, frequency, or consequence of not solving it, and running DeepSeek locally adds environment
+    setup burden for creators.
+  current_alternative: 创作者目前普遍直接用网页版 DeepSeek、ChatGPT 等通用对话工具或平台自带创作助手完成同类草稿，无需本地部署。
+  current_alternative_en: Creators today typically use web-based DeepSeek, ChatGPT or platform-native
+    writing assistants for the same drafts, with no local deployment needed.
+  usage_reason: 推断：本地运行可避免把未发布选题上传第三方，但公开材料未说明输入格式、交付形态或任何用户反馈，无法确认它相较网页版通用模型减少了哪一步负担，因此选择动机不成立。
+  usage_reason_en: 'Inference: local execution may avoid uploading unpublished topics to third parties,
+    but public material shows no input format, delivery form or user feedback, so it is unverifiable which
+    step it removes versus a web-based general model.'

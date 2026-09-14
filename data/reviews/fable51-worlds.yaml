@@ -413,3 +413,43 @@
     world elements in code and have the system generate/render them, removing the repeated placement-and-rebuild
     step, so developers who frequently change rules or build procedural world prototypes would pick it
     in early prototyping; no user feedback or case yet confirms this motive.'
+- id: req-full-fable51-worlds-2026-09-14
+  project_slug: fable51-worlds
+  level: full
+  reviewed_at: '2026-09-14T00:33:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决用代码生成虚拟世界的问题，但公开材料只有一句仓库描述，没有说明手工搭建的具体痛点、发生频率或不采用代价，也没有用户抱怨或案例，属于功能自述而非需求证据。
+    evidence_ids:
+    - ev-101e9b1465de7b5c
+    - ev-7fbb63cb18616433
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该公开代码仓库仓库的README、issue与discussion，确认是否有开发者描述具体使用场景、替代的旧流程及可运行交付结果。
+  market: ''
+  job: 游戏开发者或世界构建师在需要快速产出可运行虚拟世界原型时，用代码定义世界元素并生成场景，以替代手工搭建关卡与美术资产。
+  job_en: Game developers or world builders who need a runnable virtual-world prototype use code to define
+    world elements and generate scenes, replacing manual level and asset construction.
+  pain: 公开材料只有一句“worlds via code, from fable 5.1”，没有说明手工搭建世界耗时、迭代慢或成本高的具体痛点，也没有用户抱怨或案例支撑。
+  pain_en: Public material is limited to 'worlds via code, from fable 5.1'; it does not document the time,
+    iteration, or cost pain of manual world building, nor any user complaint or case.
+  current_alternative: 公开材料未说明用户当前用什么替代，按行业常识推断是 Unity、Unreal 等引擎的手工关卡编辑与脚本化生成。
+  current_alternative_en: Public material does not state the current alternative; by industry convention
+    it would be manual level editing and scripting in Unity, Unreal, or similar engines.
+  usage_reason: 推断：若代码生成世界能减少手工摆放资产这一步，开发者可能试用；但公开材料没有说明它比引擎脚本生成多解决了哪一步，也没有用户反馈支持选择动机。
+  usage_reason_en: 'Inference: if code-generated worlds remove the manual asset-placement step, developers
+    might try it; but public material does not show what it solves beyond engine scripting, and no user
+    feedback supports the choice.'

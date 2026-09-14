@@ -358,3 +358,52 @@
     replay and forking, turning ''cannot reproduce, must guess'' into ''return to a specific step and
     compare outcomes after a change'', so AI engineers debugging non-deterministic agent failures would
     pick it during triage.'
+- id: req-full-orcareplay-2026-09-14
+  project_slug: orcareplay
+  level: full
+  reviewed_at: '2026-09-14T00:34:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 工程师调试不可复现代理运行的需求：多步随机调用导致失败难定位，旧做法是翻日志或手工重跑。记录、重放、分叉的闭环在结构上直接对应这一任务，属工作流推理；公开材料未给出痛点频率与代价，故为结构成立而非量化证实。
+    evidence_ids:
+    - ev-3d5c82b5ab0b8fee
+    - ev-da1ac757ad851dc7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 171 增至 242，说明开发者持续关注，但收藏与关注只属规模信号，不能证明目标用户已把它留在日常调试流程或形成重复使用；缺少 issue、discussion 或用户评价说明实际使用场景。
+    evidence_ids:
+    - ev-3d5c82b5ab0b8fee
+    - ev-da1ac757ad851dc7
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，只能推断其由 OrcaRouter.ai 团队以开源加商业产品组合方式变现，可能面向 to B 开发者工具或 to VC 叙事；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-3d5c82b5ab0b8fee
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出记录、重放、分叉、调试的能力声明，未提供部署文档、可复现实测或安全与人工边界说明，无法核验交付是否稳定发生，也无法确认重放对随机模型输出的保真程度。
+    evidence_ids:
+    - ev-3d5c82b5ab0b8fee
+    - ev-0cb3da2fe8ca5365
+  next_validation: 追踪 OrcaReplay 官方仓库的 README、部署文档与 issue/discussion，确认是否有用户描述具体调试场景、替代了哪种旧流程，以及是否出现定价或商业版本说明。
+  market: ''
+  job: AI 工程师在调试多步 LLM 代理时，面对一次失败或异常运行，需要把当时的模型调用、工具调用与中间状态完整记录下来，事后重放同一轨迹、分叉出变体来定位是哪一步导致失败，而不是靠日志片段猜测。
+  job_en: AI engineers debugging a multi-step LLM agent run need to capture the model calls, tool calls
+    and intermediate state of a failed run, then replay that exact trajectory and fork variants to isolate
+    which step caused the failure, instead of guessing from log fragments.
+  pain: 代理运行具有随机性和多步依赖，失败往往不可复现；公开材料只说明它支持记录、重放、分叉与调试任意模型下的代理运行，未提供用户抱怨、频率或代价数据，因此痛点强度属于工作流结构推理而非已核验事实。
+  pain_en: Agent runs are stochastic and multi-step, so failures are hard to reproduce; public material
+    only states it records, replays, forks and debugs agent runs with any model, with no user complaints,
+    frequency or cost data, so pain intensity is workflow-structure inference rather than verified fact.
+  current_alternative: 公开材料未描述用户当前做法；按工作流结构推理，旧做法是散落的日志、打印语句、手工重跑，或依赖各模型厂商自带的 trace 面板，这些方式难以精确复现同一条运行轨迹。
+  current_alternative_en: Public material does not describe current practice; by workflow-structure inference
+    the old approach is scattered logs, print statements, manual re-runs, or vendor-specific trace dashboards,
+    none of which reliably reproduce the same run trajectory.
+  usage_reason: 推断：相较手工重跑或翻日志，它把一次运行作为可保存对象，直接重放同一轨迹并分叉变体，省去重新构造输入与环境这一步，因此正在调试不可复现代理失败的 AI 工程师会在排查阶段选择它；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus manual re-runs or log reading, it treats a run as a saved object
+    that can be replayed and forked, removing the step of reconstructing inputs and environment, so AI
+    engineers chasing non-reproducible agent failures would pick it during debugging; this is inferred
+    from product capability and task structure, not confirmed by user feedback.'

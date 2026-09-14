@@ -1,12 +1,13 @@
 ---
 slug: ayar-labs-raises-additional-150-million-bringing-2026-fundin
-name: Ayar Labs Raises Additional $150 Million, Bringing 2026 Funding To $650 Million, To Scale AI Co-Packaged
-  Optics
+name: Ayar Labs
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Ayar Labs 面向 AI 数据中心提供共封装光学互连器件，本次新增 1.5 亿美元融资用于扩大该产品产能。它属于基础层供给变化，不是面向终端用户的独立应用产品。
 inspiration: ''
-summary_en: ''
+summary_en: Ayar Labs supplies co-packaged optics interconnect for AI data centers, and this additional
+  $150 million funds capacity expansion. It is a foundational supply shift, not a standalone end-user
+  application.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ summary: Ayar Labs Raises Additional $150 Million, Bringing 2026 Funding To $650
   Co-Packaged Optics Pulse 2.0
 first_seen: '2026-09-11T12:42:18Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Ayar Labs Raises Additional $150 Million, Bringing 2026 Funding To $650 Million, To Scale AI Co-Packaged Optics
+# Ayar Labs
 
 Ayar Labs Raises Additional $150 Million, Bringing 2026 Funding To $650 Million, To Scale AI Co-Packaged Optics Pulse 2.0
 

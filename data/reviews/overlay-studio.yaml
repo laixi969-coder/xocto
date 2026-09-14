@@ -328,3 +328,55 @@
     keyframe placement step; versus one-click video tools, it exports a transparent overlay layer into
     CapCut with the base footage untouched, so quality-conscious talking-head creators who need per-element
     edit control would choose it within their existing CapCut workflow.'
+- id: req-full-overlay-studio-2026-09-14
+  project_slug: overlay-studio
+  level: full
+  reviewed_at: '2026-09-14T00:34:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播视频动效层逐句手工摆放、且在线工具会重编码压原片画质的问题；字幕稿输入、AI 编排、可逐元素修改、导出透明层进剪映的闭环在公开说明中完整，痛点与交付可确定，属工作流结构推理，尚无用户抱怨或耗时数据。
+    evidence_ids:
+    - ev-566c04be9be1e0a2
+    - ev-a49d2bd1ead025ab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 62 增至 80，说明有开发者关注，但这是关注度而非持续采用；公开材料没有用户反馈、部署记录或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-566c04be9be1e0a2
+    - ev-a49d2bd1ead025ab
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价页、付费主体或单位经济，钱可能来自 to C 创作者订阅或 to B 团队授权，这是判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-566c04be9be1e0a2
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出可复现的导出结果、剪映兼容性验证或人工与安全边界说明，交付能否稳定发生尚缺证据；但产品定位贴近口播剪辑的第一性目标，未见貂丁式功能堆砌。
+    evidence_ids:
+    - ev-566c04be9be1e0a2
+  next_validation: 追踪 overlay-studio 仓库的 README、release 与 issue/discussion，确认是否公开导出透明动效层的实测样例、剪映兼容说明及用户使用反馈。
+  market: ''
+  job: 口播视频创作者（个人或小团队）在剪映里剪完口播原片后，把字幕稿交给 overlay-studio，由 AI 按字幕内容自动编排动效层，创作者逐元素修改后导出透明动效层，再导入剪映与原片合成成片。
+  job_en: A talking-head video creator (individual or small team) finishes the raw cut in CapCut, hands
+    the subtitle script to overlay-studio, lets the AI auto-arrange a motion-graphics layer keyed to the
+    script, edits each element, then exports a transparent overlay layer and imports it back into CapCut
+    to composite the final video.
+  pain: 口播视频的动效层（字幕条、关键词强调、转场贴纸）需要逐句手工摆放和对齐，重复且耗时；同时创作者不愿把原片交给在线工具重编码，因为会损失画质。公开材料只给出产品说明，未提供用户抱怨或耗时数据，痛点强度属工作流结构推理。
+  pain_en: Motion-graphics layers for talking-head videos (caption bars, keyword emphasis, transition
+    stickers) must be placed and timed sentence by sentence, which is repetitive and slow; creators also
+    resist uploading the raw footage to online tools that re-encode it and degrade quality. Public material
+    only gives the product description, with no user complaints or time data, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 在剪映内手工逐句添加和调整动效元素，或使用剪映自带模板/自动字幕；也可能用其他在线 AI 视频工具，但需上传原片并接受重编码。
+  current_alternative_en: Manually adding and adjusting motion elements sentence by sentence inside CapCut,
+    or using CapCut's built-in templates and auto-captions; alternatively other online AI video tools
+    that require uploading the raw footage and accepting re-encoding.
+  usage_reason: 推断：相较在剪映里逐句手工摆放，它用字幕稿作为输入让 AI 一次性生成整条动效层，创作者只需修改而非从零搭建，减少逐句对齐这一步；导出透明层而非成片，使原片不经二次编码，画质可核对地不被压缩。因此在意画质、又不想逐句手动做动效的口播创作者会在剪映工作流中选用它。
+  usage_reason_en: 'Inference: versus placing elements sentence by sentence in CapCut, it takes the subtitle
+    script as input and has the AI generate the whole motion layer at once, so the creator edits rather
+    than builds from scratch, removing the per-sentence alignment step; exporting a transparent layer
+    instead of a finished video means the raw footage is not re-encoded, so quality is verifiably preserved.
+    Creators who care about quality and dislike manual per-sentence motion work would theref'

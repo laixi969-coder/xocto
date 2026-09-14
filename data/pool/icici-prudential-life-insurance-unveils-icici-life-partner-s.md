@@ -23,7 +23,7 @@ summary: ICICI Prudential Life Insurance unveils 'ICICI Life Partner Stack 2.0' 
   of advisors and distribution partners Yahoo Finance
 first_seen: '2026-09-11T10:42:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

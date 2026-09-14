@@ -330,3 +330,54 @@
     into one pipeline, removing the step of watching the full video and manually locating and timing segments;
     therefore creators who already have long-form footage and want to mass-produce multilingual vertical
     clips would choose it when they need to scale output quickly. This is an inference '
+- id: req-full-short-video-generator-ai-2026-09-14
+  project_slug: short-video-generator-ai
+  level: full
+  reviewed_at: '2026-09-14T00:35:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频转竖屏短视频的批量生产需求，痛点是人工定位高光、打轴字幕、翻译配音耗时且难复用；不采用则长内容无法低成本分发到短视频渠道。公开说明已能还原输入链接、自动切片加字幕配音的交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-0d1eb8392145f382
+    - ev-c37e341596bc3844
+  - gate: consensus
+    status: supported
+    reason: 同一仓库收藏数从 120 增至 719，另有 1,146 至 1,169 的仓库记录，说明开发者社区持续关注并收藏该工具；但收藏属关注度证据，尚不能证明目标创作者已将其长期留在工作流中。
+    evidence_ids:
+    - ev-c37e341596bc3844
+    - ev-b0e53f4d6007fb85
+    - ev-cda48e4fb73e9eff
+    - ev-0d1eb8392145f382
+  - gate: model
+    status: insufficient
+    reason: 项目标注为免费开源，公开材料未见定价页、付费主体或 to B 服务路径；谁付钱、按什么单位收费尚不可知，这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-0d1eb8392145f382
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出功能描述，未见部署文档、可复现输出样例或 issue 讨论，无法核验高光检测与翻译配音的交付质量是否稳定，人工与安全边界也未说明。
+    evidence_ids:
+    - ev-0d1eb8392145f382
+    - ev-c37e341596bc3844
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认实际输出样例、支持语言与用户反馈的交付质量。
+  market: ''
+  job: 内容创作者或短视频运营者手上已有一条长 YouTube 视频，需要把它切成多条带字幕、可翻译配音的竖屏短视频，用于在 TikTok、Reels、Shorts 等平台分发。
+  job_en: A content creator or short-video operator who already has a long YouTube video needs to cut
+    it into multiple vertical short clips with subtitles and translated voiceover for distribution on
+    TikTok, Reels, and Shorts.
+  pain: 长视频转短视频需要人工反复回看定位高光片段、逐句打轴字幕、再翻译配音，单条视频耗时长且难以批量；不做则长内容无法低成本复用到短视频渠道。
+  pain_en: Turning long videos into shorts requires manually re-watching to find highlights, timing subtitles
+    line by line, then translating and dubbing; each clip is slow and hard to batch, and skipping it means
+    long content cannot be cheaply reused on short-video channels.
+  current_alternative: 现有替代是人工用剪辑软件（如 Premiere、剪映）手动切片加字幕，或分别使用高光检测、字幕、翻译、配音等单点工具拼接流程。
+  current_alternative_en: The current alternative is manual clipping and subtitling in editors like Premiere
+    or CapCut, or stitching together separate point tools for highlight detection, subtitles, translation,
+    and voiceover.
+  usage_reason: 推断：相较手动切片加多工具拼接，该开源项目把高光检测、字幕、翻译、配音串成一条流水线，用户只需输入 YouTube 链接即可得到成品短视频，省去逐段回看定位和跨工具搬运字幕的步骤，因此需要批量产出多语言短视频的创作者会选它。
+  usage_reason_en: 'Inference: versus manual clipping plus multi-tool stitching, this open-source project
+    chains highlight detection, subtitles, translation, and voiceover into one pipeline, so a user only
+    inputs a YouTube link to get finished shorts, removing the steps of re-watching for highlights and
+    moving subtitles across tools; creators needing batch multilingual shorts would choose it.'

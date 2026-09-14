@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbVVTbDVWLTBf
 summary: 'BigBear.ai vs. Cerebras Systems: Which Tech Stock Is a Better Buy in 2026? The Globe and Mail'
 first_seen: '2026-09-11T06:36:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

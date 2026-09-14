@@ -1,6 +1,6 @@
 ---
 slug: okta-targets-ai-agent-confusion-with-identity-security-push
-name: Okta Targets AI Agent Confusion With Identity Security Push
+name: Okta
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxOZzUxRlVjYi04
 summary: Okta Targets AI Agent Confusion With Identity Security Push tradingview.com
 first_seen: '2026-09-12T06:01:00Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Okta Targets AI Agent Confusion With Identity Security Push
+# Okta
 
 Okta Targets AI Agent Confusion With Identity Security Push tradingview.com
 

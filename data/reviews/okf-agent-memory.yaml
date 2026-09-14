@@ -327,3 +327,56 @@
     of standing up an external database and query layer and letting knowledge version alongside code.
     Engineers already using AI agents who care about context cost and auditability would pick it for new
     projects or cross-session continuation. 604 stars show developer attention, but there is no r'
+- id: req-full-okf-agent-memory-2026-09-14
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-14T00:34:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程代理跨会话丢失项目知识、反复重读上下文导致 token 膨胀的需求，痛点来自代理长任务中记忆缺失；公开仓库说明以 Git 原生 markdown 加嵌入式 MCP
+      检索削减约 80% token，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-813131cc6b2a0df4
+    - ev-f2b14dcb4f88f9d2
+    - ev-6ede625a35c08ca8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 604 增至 627，说明开发者关注度在上升，但收藏与复刻只反映关注规模，公开材料没有目标用户持续使用、复购或留在工作流的证据，无法确认共识。
+    evidence_ids:
+    - ev-813131cc6b2a0df4
+    - ev-f2b14dcb4f88f9d2
+  - gate: model
+    status: insufficient
+    reason: 这是开源工具，公开材料未见定价页、付费主体或单位经济，钱可能来自 to C 开发者赞助或 to B 支持服务，属判断而非已验证事实；模式缺口不否定需求。
+    evidence_ids:
+    - ev-813131cc6b2a0df4
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出纯 Go 实现、内存 BM25 与嵌入式 MCP 的能力描述，未见可复现的部署文档、实测结果或安全与人工边界说明，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-813131cc6b2a0df4
+    - ev-f2b14dcb4f88f9d2
+  next_validation: 追踪 okf-memory.dev 与对应 公开代码仓库 仓库的 README、issue 和 discussion，确认是否有可复现的部署说明、实测 token 对比与真实使用场景记录。
+  market: ''
+  job: AI 编程代理用户在大型代码库中让代理跨会话记住项目约定与历史决策，处理 Git 仓库中的代码与文档材料，完成让代理在长任务中不重复读取全量上下文、仍能正确改代码的任务。
+  job_en: AI coding agent users need the agent to retain project conventions and past decisions across
+    sessions while working on a Git repository, so long-running edits stay correct without re-reading
+    the whole context.
+  pain: 公开仓库说明该工具以渐进披露和嵌入式检索削减约 80% 的 token 膨胀，说明代理反复把大量项目知识塞进上下文是真实摩擦；但公开材料未给出用户抱怨、频率或错误后果，痛点强度属结构推理。
+  pain_en: The repository states the tool cuts token bloat by about 80% via progressive disclosure and
+    embedded retrieval, implying real friction from agents stuffing project knowledge into context; however
+    no user complaints, frequency, or failure consequences are public, so pain intensity is structural
+    inference.
+  current_alternative: 旧做法是让代理每次会话重新读取仓库文件、依赖人工在提示里粘贴项目约定，或使用服务端元数据存储与外部数据库；公开材料未记录用户实际采用哪种替代。
+  current_alternative_en: The old approach is re-reading repository files each session, manually pasting
+    conventions into prompts, or using service-owned metadata stores and external databases; public materials
+    do not record which alternative users actually use.
+  usage_reason: 推断：相较每次重读全库或手工粘贴约定，它把记忆以 Git 原生 markdown 存储并通过嵌入式 MCP 服务器做内存 BM25 检索，减少代理读取上下文的步骤与 token
+    消耗，因此处理大型仓库、在意上下文成本与可版本化记忆的开发者会在长任务中选用它。
+  usage_reason_en: 'Inference: versus re-reading the whole repo or pasting conventions by hand, it stores
+    memory as Git-native markdown and retrieves it via an embedded MCP server with in-memory BM25, cutting
+    context-reading steps and token use, so developers on large repos who care about context cost and
+    versioned memory would pick it for long tasks.'

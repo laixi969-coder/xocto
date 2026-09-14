@@ -1,6 +1,6 @@
 ---
 slug: 75way-technologies-showcases-ai-agents-and-voice-platform-at
-name: 75way Technologies Showcases AI Agents and Voice Platform at Ai4 Las Vegas 2026
+name: 75way Technologies
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPY3lQY2owbk54
 summary: 75way Technologies Showcases AI Agents and Voice Platform at Ai4 Las Vegas 2026 Issuewire.com
 first_seen: '2026-09-11T09:09:33Z'
 last_seen: '2026-09-14T00:13:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 75way Technologies Showcases AI Agents and Voice Platform at Ai4 Las Vegas 2026
+# 75way Technologies
 
 75way Technologies Showcases AI Agents and Voice Platform at Ai4 Las Vegas 2026 Issuewire.com
 

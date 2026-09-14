@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/face00/cybersecurity
 summary: AI Security Auditor for JavaScript/HTML using Chain-of-T
 first_seen: '2026-09-13T06:35:03Z'
 last_seen: '2026-09-14T00:12:54Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

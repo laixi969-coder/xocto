@@ -1,0 +1,83 @@
+- id: req-initial-agent-dev-team-2026-09-14
+  project_slug: agent-dev-team
+  level: initial
+  reviewed_at: '2026-09-14T00:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多步编码改动缺乏角色与升级约束的问题，但材料未给出具体旧流程与不采用的后果，痛点无法还原。
+    evidence_ids:
+    - ev-16fffbd864731738
+  - gate: consensus
+    status: insufficient
+    reason: 仅 5 分、0 评论，没有可归因到该项目的采用或讨论证据，无法判断卡在哪一环。
+    evidence_ids:
+    - ev-16fffbd864731738
+  - gate: model
+    status: insufficient
+    reason: 开源项目，没有定价或付费路径信息，买方与收费方式无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-16fffbd864731738
+  - gate: truth
+    status: insufficient
+    reason: 无法核对角色划分是否贴近真实研发流程、升级是否确定发生，也看不到人工确认边界。
+    evidence_ids:
+    - ev-16fffbd864731738
+  next_validation: 收集该仓库的 README 与 issue / discussion，确认角色划分、升级触发条件以及是否有团队实际使用记录。
+  market: ''
+  job: 使用 Claude Code 或 Cursor 的开发者，在一次涉及多文件、多步骤的改动中，需要让助手按角色分工推进并知道何时升级给人工。
+  job_en: A developer using Claude Code or Cursor, during a multi-file, multi-step change, needs the assistant
+    to advance by role and know when to escalate to a human.
+  pain: 候选材料只给出分层角色与升级这一句描述，没有说明开发者当前在哪一步失控、不解决会付出什么代价。
+  pain_en: The candidate gives only one line about tiers, roles and escalation, without saying where developers
+    currently lose control or what it costs them.
+  current_alternative: 公开材料未说明开发者此前如何组织多步改动，可能是手工拆分提示词或直接单轮对话，均未在候选资料中出现。
+  current_alternative_en: The public material does not say how developers previously organized multi-step
+    changes, possibly manually splitting prompts or using single-turn chat; neither appears in the candidate
+    data.
+  usage_reason: 无法给出因果解释：材料没有说明相较手工拆分提示词，它减少了哪一步或改善了哪项可核对结果，因此无法判断谁会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus manually splitting prompts or which checkable result it improves, so who would choose it and
+    when cannot be judged.'
+- id: req-full-agent-dev-team-2026-09-14
+  project_slug: agent-dev-team
+  level: full
+  reviewed_at: '2026-09-14T00:32:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多步编码改动缺乏角色与升级约束的问题，但材料未给出具体旧流程与不采用的后果，痛点无法还原。
+    evidence_ids:
+    - ev-16fffbd864731738
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 与 issue / discussion，确认角色划分、升级触发条件以及是否有团队实际使用记录。
+  market: ''
+  job: 使用 Claude Code 或 Cursor 的开发者，在一次涉及多文件、多步骤的改动中，需要让助手按角色分工推进并知道何时升级给人工。
+  job_en: A developer using Claude Code or Cursor, during a multi-file, multi-step change, needs the assistant
+    to advance by role and know when to escalate to a human.
+  pain: 候选材料只给出分层角色与升级这一句描述，没有说明开发者当前在哪一步失控、不解决会付出什么代价。
+  pain_en: The candidate gives only one line about tiers, roles and escalation, without saying where developers
+    currently lose control or what it costs them.
+  current_alternative: 公开材料未说明开发者此前如何组织多步改动，可能是手工拆分提示词或直接单轮对话，均未在候选资料中出现。
+  current_alternative_en: The public material does not say how developers previously organized multi-step
+    changes, possibly manually splitting prompts or using single-turn chat; neither appears in the candidate
+    data.
+  usage_reason: 无法给出因果解释：材料没有说明相较手工拆分提示词，它减少了哪一步或改善了哪项可核对结果，因此无法判断谁会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus manually splitting prompts or which checkable result it improves, so who would choose it and
+    when cannot be judged.'
