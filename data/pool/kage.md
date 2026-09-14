@@ -32,8 +32,8 @@ url: https://kage.design/
 canonical_url: https://kage.design
 summary: Real product design inspiration turned into prompts for agents
 first_seen: '2026-09-11T13:50:46Z'
-last_seen: '2026-09-12T00:18:40Z'
-status: watching
+last_seen: '2026-09-14T00:12:30Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -44,6 +44,13 @@ sightings:
     points: 6
     comments: 7
   kind: product
+- source: hackernews
+  url: https://cpak.it/
+  seen_at: '2026-09-14T00:12:30Z'
+  metrics:
+    points: 45
+    comments: 17
+  kind: news
 ---
 
 # Kage

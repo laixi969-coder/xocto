@@ -36,17 +36,17 @@ canonical_url: https://github.com/alchaincyf/huashu-chrome
 summary: 让任何 AI agent 操控你自己的 Chrome——带着全部登录态。MCP + Chrome 扩展，Claude Code / Codex / Cursor / Gemini CLI
   通用。
 first_seen: '2026-08-26T03:25:10Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/alchaincyf/huashu-chrome
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
-    stars: 185
-    forks: 27
+    stars: 191
+    forks: 29
     open_issues: 4
   kind: product
 ---

@@ -38,8 +38,8 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-13T00:01:15Z'
-status: market_context
+last_seen: '2026-09-14T00:12:30Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -188,10 +188,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.bbc.com/news/articles/c14dpgm0rg4o
-  seen_at: '2026-09-13T00:00:05Z'
+  seen_at: '2026-09-14T00:12:30Z'
   metrics:
-    points: 49
-    comments: 105
+    points: 55
+    comments: 108
   kind: news
 - source: hackernews
   url: https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/
@@ -204,6 +204,13 @@ sightings:
   url: https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development
   seen_at: '2026-09-13T00:01:15Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan
+  seen_at: '2026-09-14T00:12:30Z'
+  metrics:
+    points: 46
+    comments: 32
   kind: news
 ---
 

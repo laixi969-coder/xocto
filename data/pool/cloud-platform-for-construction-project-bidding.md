@@ -35,16 +35,16 @@ canonical_url: https://github.com/xinsuifan-web/Cloud-Platform-for-Construction-
 summary: A SaaS collaboration platform for construction project bidding, covering bid document preparation,
   knowledge base management, compliance review, workflow coordination, and AI-assisted content generation.
 first_seen: '2026-09-01T13:00:11Z'
-last_seen: '2026-09-11T00:10:34Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xinsuifan-web/Cloud-Platform-for-Construction-Project-Bidding
-  seen_at: '2026-09-11T00:10:34Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
-    stars: 51
+    stars: 52
     forks: 0
     open_issues: 0
   kind: product

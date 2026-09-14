@@ -31,17 +31,17 @@ canonical_url: https://boardui.com
 summary: React design system for agentic interfaces. Every free BoardUI component as source, with a working
   AI chat app on your own model key as the homepage.
 first_seen: '2026-09-01T23:26:56Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.boardui.com
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
-    stars: 417
-    forks: 50
+    stars: 431
+    forks: 51
     open_issues: 0
   kind: product
 ---

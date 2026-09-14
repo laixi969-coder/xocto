@@ -35,16 +35,16 @@ summary: 'Bug Hunt Bench: 105 real bugs in two production repos, frontier coding
   Grok, Gemini, DeepSeek...) find and fix them in their own CLI, graded blind. Live leaderboard + every
   receipt.'
 first_seen: '2026-08-25T11:43:42Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://bughunt.productcompass.pm
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
-    stars: 48
+    stars: 58
     forks: 2
     open_issues: 0
   kind: product

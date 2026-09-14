@@ -29,18 +29,18 @@ url: https://github.com/mekoand/sub2sub
 canonical_url: https://github.com/mekoand/sub2sub
 summary: Share AI subscriptions across your team, task by task, without signing in to anyone else's account.
 first_seen: '2026-09-06T14:12:44Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mekoand/sub2sub
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
-    stars: 54
+    stars: 62
     forks: 7
-    open_issues: 4
+    open_issues: 11
   kind: product
 ---
 

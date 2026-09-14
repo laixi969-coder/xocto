@@ -1,0 +1,41 @@
+---
+slug: perplexity-deploys-gpt-6-astra-for-production-systems-reduce
+name: Perplexity deploys GPT-6 Astra for production systems, reduces oversight
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEE4OUVBQ2lRVTZKZ0FXT3I4RkQ1TDRWZ19weVlrOFFUaGR5eXZaZlYzNk9LT1VPMzJpMzVKODNTOU83d2VBeXNkQ3M5REFUbjhHUG9fZ2FLM0FVQmcwa1prdHpBQUxyWUh1aVJyOGdJWVpHV0w0dUo4cGhxZmVXS0hqTG5NTVdSbE94bTdiV2FqTW9sNHZ1MmZKdG5UbGtxYnJzUmx1b2xta19pMzk5blk5QUM4cm1zOUVWeNIBvAFBVV95cUxPOEE4OUVBQ2lRVTZKZ0FXT3I4RkQ1TDRWZ19weVlrOFFUaGR5eXZaZlYzNk9LT1VPMzJpMzVKODNTOU83d2VBeXNkQ3M5REFUbjhHUG9fZ2FLM0FVQmcwa1prdHpBQUxyWUh1aVJyOGdJWVpHV0w0dUo4cGhxZmVXS0hqTG5NTVdSbE94bTdiV2FqTW9sNHZ1MmZKdG5UbGtxYnJzUmx1b2xta19pMzk5blk5QUM4cm1zOUVWeA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEE4OUVBQ2lRVTZKZ0FXT3I4RkQ1TDRWZ19weVlrOFFUaGR5eXZaZlYzNk9LT1VPMzJpMzVKODNTOU83d2VBeXNkQ3M5REFUbjhHUG9fZ2FLM0FVQmcwa1prdHpBQUxyWUh1aVJyOGdJWVpHV0w0dUo4cGhxZmVXS0hqTG5NTVdSbE94bTdiV2FqTW9sNHZ1MmZKdG5UbGtxYnJzUmx1b2xta19pMzk5blk5QUM4cm1zOUVWeNIBvAFBVV95cUxPOEE4OUVBQ2lRVTZKZ0FXT3I4RkQ1TDRWZ19weVlrOFFUaGR5eXZaZlYzNk9LT1VPMzJpMzVKODNTOU83d2VBeXNkQ3M5REFUbjhHUG9fZ2FLM0FVQmcwa1prdHpBQUxyWUh1aVJyOGdJWVpHV0w0dUo4cGhxZmVXS0hqTG5NTVdSbE94bTdiV2FqTW9sNHZ1MmZKdG5UbGtxYnJzUmx1b2xta19pMzk5blk5QUM4cm1zOUVWeA?oc=5
+summary: Perplexity deploys GPT-6 Astra for production systems, reduces oversight Tech Observer Magazine
+first_seen: '2026-09-13T19:51:02Z'
+last_seen: '2026-09-14T00:13:04Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEE4OUVBQ2lRVTZKZ0FXT3I4RkQ1TDRWZ19weVlrOFFUaGR5eXZaZlYzNk9LT1VPMzJpMzVKODNTOU83d2VBeXNkQ3M5REFUbjhHUG9fZ2FLM0FVQmcwa1prdHpBQUxyWUh1aVJyOGdJWVpHV0w0dUo4cGhxZmVXS0hqTG5NTVdSbE94bTdiV2FqTW9sNHZ1MmZKdG5UbGtxYnJzUmx1b2xta19pMzk5blk5QUM4cm1zOUVWeNIBvAFBVV95cUxPOEE4OUVBQ2lRVTZKZ0FXT3I4RkQ1TDRWZ19weVlrOFFUaGR5eXZaZlYzNk9LT1VPMzJpMzVKODNTOU83d2VBeXNkQ3M5REFUbjhHUG9fZ2FLM0FVQmcwa1prdHpBQUxyWUh1aVJyOGdJWVpHV0w0dUo4cGhxZmVXS0hqTG5NTVdSbE94bTdiV2FqTW9sNHZ1MmZKdG5UbGtxYnJzUmx1b2xta19pMzk5blk5QUM4cm1zOUVWeA?oc=5
+  seen_at: '2026-09-14T00:13:04Z'
+  metrics: {}
+  kind: news
+---
+
+# Perplexity deploys GPT-6 Astra for production systems, reduces oversight
+
+Perplexity deploys GPT-6 Astra for production systems, reduces oversight Tech Observer Magazine
+
+## 笔记
+
+

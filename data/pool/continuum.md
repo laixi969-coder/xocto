@@ -11,26 +11,42 @@ inspiration_en: 'The trend is people-management leaving memory and becoming a tr
   The entry is line managers with five to ten reports: log signals around one-on-ones and revise the call,
   billed per person. Client and channel work are next-door cuts.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.producthunt.com/products/continuum-2027
 canonical_url: https://producthunt.com/products/continuum-2027
 summary: Remember what you know about the people you manage
 first_seen: '2026-08-06T12:38:18Z'
-last_seen: '2026-08-17T22:41:16Z'
-status: analyzed
+last_seen: '2026-09-14T00:13:04Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/continuum-2027
   seen_at: '2026-08-11T11:08:03Z'
   metrics: {}
+  kind: product
 - source: hackernews
   url: https://continuum-app.xyz/
   seen_at: '2026-08-17T22:41:16Z'
   metrics:
     points: 7
     comments: 9
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWmN1MVpMUXRpSkp6UktSc05zQ0FmN2hUdDNBUEtaVzJWeHJLZHRxRkNkWE44bm43U21VM3p6Q3hOSUUwWXN4MXRTMEM3cjc2NTktV2dXVlpQU01UU1BOcHdyOGhyWjNpeF9IM0kyZURJNDdreWxlSXB3NGpvdUxWdXJKNWdnRUljd0ZZNjZGcXVTUVdLWERFWlZheDFjZlNqZGVzRWFTSWVNSEpGSnJMcGk1MHg1UjIxQkJqUmhnUG9HcWNpcW91VVR5S1ZlQnc2Um9JWnJ3?oc=5
+  seen_at: '2026-09-14T00:13:04Z'
+  metrics: {}
+  kind: news
 ---
 
 # Continuum

@@ -20,17 +20,17 @@ url: https://prydt.xyz/blog/a-few-good-ideas-in-pl/
 canonical_url: https://prydt.xyz/blog/a-few-good-ideas-in-pl
 summary: A few good ideas in programming languages
 first_seen: '2026-09-12T13:07:52Z'
-last_seen: '2026-09-13T00:00:05Z'
-status: rejected
+last_seen: '2026-09-14T00:12:30Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://prydt.xyz/blog/a-few-good-ideas-in-pl/
-  seen_at: '2026-09-13T00:00:05Z'
+  seen_at: '2026-09-14T00:12:30Z'
   metrics:
-    points: 78
-    comments: 52
+    points: 106
+    comments: 71
   kind: news
 ---
 

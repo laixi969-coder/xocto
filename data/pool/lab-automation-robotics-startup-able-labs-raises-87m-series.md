@@ -33,8 +33,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-12T00:19:09Z'
-status: rejected
+last_seen: '2026-09-14T00:12:30Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -179,6 +179,13 @@ sightings:
   url: https://news.crunchbase.com/ai/moats-that-actually-work-moatti-mighty-capital/
   seen_at: '2026-09-12T00:19:09Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.vals.ai/blogs/fable-solves-cyphral-distich
+  seen_at: '2026-09-14T00:12:30Z'
+  metrics:
+    points: 351
+    comments: 138
   kind: news
 ---
 

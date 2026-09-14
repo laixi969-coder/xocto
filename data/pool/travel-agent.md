@@ -32,16 +32,16 @@ canonical_url: https://opentravelagent.vercel.app
 summary: 'An open-source travel agent that works on real websites: plan trips, book in a browser beside
   the chat, stop at the payment page. Desktop app for macOS, Windows and Linux.'
 first_seen: '2026-08-31T03:01:14Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://opentravelagent.vercel.app
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
-    stars: 56
+    stars: 60
     forks: 3
     open_issues: 2
   kind: product

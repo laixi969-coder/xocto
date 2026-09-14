@@ -32,17 +32,17 @@ url: https://withspecific.com/benchmarks/real-swe
 canonical_url: https://withspecific.com/benchmarks/real-swe
 summary: Benchmarking AI models on private, real-world, enterprise codebases
 first_seen: '2026-09-12T20:25:48Z'
-last_seen: '2026-09-13T00:00:05Z'
-status: watching
+last_seen: '2026-09-14T00:12:30Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://withspecific.com/benchmarks/real-swe
-  seen_at: '2026-09-13T00:00:05Z'
+  seen_at: '2026-09-14T00:12:30Z'
   metrics:
-    points: 77
-    comments: 52
+    points: 268
+    comments: 147
   kind: news
 ---
 

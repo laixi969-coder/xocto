@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CVnh5eUE1eDJSMHhNREMxRV
 canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CVnh5eUE1eDJSMHhNREMxRVpzQnJNd0JBcXJDX3hFMXlqdFJoWEE5VUhKdVpvV21lamRjcTJwSUVHOXB0SWtTc1dvM2xfa3ZBeTRKSnNBMHZHU00?oc=5
 summary: 5分钟定制智能体：金牛彩票官网入口，零代码工厂重构企业AI新范式-体坛网_体坛+ 体坛
 first_seen: '2026-09-06T00:32:02Z'
-last_seen: '2026-09-06T02:59:55Z'
-status: rejected
+last_seen: '2026-09-14T00:13:04Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CVnh5eUE1eDJSMHhNREMxRVpzQnJNd0JBcXJDX3hFMXlqdFJoWEE5VUhKdVpvV21lamRjcTJwSUVHOXB0SWtTc1dvM2xfa3ZBeTRKSnNBMHZHU00?oc=5
   seen_at: '2026-09-06T02:59:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xanZ1Yk1pc2dJb0Y5ZDVkVjRLb25LZi0teVRKbk1SZ0c5LXB1bHpBbmJVUTNPN05iaWVBWEpBNjdoZFFmc3lKWk5CUWcyNXM?oc=5
+  seen_at: '2026-09-14T00:13:04Z'
   metrics: {}
   kind: news
 ---

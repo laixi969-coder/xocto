@@ -38,18 +38,18 @@ summary: 'SEO Landing: Give your AI coding agent the capabilities of a senior Te
   agent into a technical SEO specialist.  Build and improve landing pages with: • 🚀 100/100 Google PageSpeed
   target • ⚡ Core Web Vitals optimization'
 first_seen: '2026-08-28T20:01:23Z'
-last_seen: '2026-09-12T00:18:44Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aleksandr-alhoff/seo-landing
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
     stars: 152
     forks: 13
-    open_issues: 2
+    open_issues: 12
   kind: product
 ---
 

@@ -34,16 +34,16 @@ url: https://github.com/juliodelimas/jmeter-mcp-server
 canonical_url: https://github.com/juliodelimas/jmeter-mcp-server
 summary: Stdio MCP server to build, run and read reports for JMeter test plans
 first_seen: '2026-08-26T21:16:32Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/juliodelimas/jmeter-mcp-server
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
-    stars: 84
+    stars: 85
     forks: 13
     open_issues: 0
   kind: product

@@ -21,16 +21,16 @@ canonical_url: https://github.com/Albertchamberlain/Awesome-OKF
 summary: OKF (Open Knowledge Format) — curated catalog of tools, plugins, skills, proposals, and docs
   for agent-friendly knowledge. YAML-driven, agent-searchable, MCP-ready.
 first_seen: '2026-09-07T06:12:39Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-14T00:12:35Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Albertchamberlain/Awesome-OKF
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-14T00:12:35Z'
   metrics:
-    stars: 103
+    stars: 104
     forks: 2
     open_issues: 0
   kind: product

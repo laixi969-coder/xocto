@@ -32,8 +32,8 @@ url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNckpuYmE5X0VWUHN1R2RUUm
 canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNckpuYmE5X0VWUHN1R2RUUmY1ekU3LWRhczg3NERzdk9hV0RLcHZXVmd1QjNLdmpHdGI1Sjd2Tmk1SmxOb1psRGktSkNGRFJvLVk0R0RrUVZQWkpwV0VtQlc3WmNEWkZHRi1meFprN0ctQ0paeWxTelI0NW5vX2VSZ25NOE1DZw?oc=5
 summary: AI Startup Cognition Set to Raise Around $1 Billion at a $47 Billion Value Yahoo! Finance Canada
 first_seen: '2026-09-02T00:29:00Z'
-last_seen: '2026-09-12T00:18:40Z'
-status: queued
+last_seen: '2026-09-14T00:13:04Z'
+status: pending_filter
 sources:
 - newssearch
 - ia40
@@ -76,6 +76,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWjdndE9ibnpYN2tDMnJoLUtFVE5DUjgtMjhjQ3lDdzJqRUNidlF2eHR3VDh2R3Q1Tl95Q3BmOXJZdVE3dWQwRllpcmZnOXB5NVhxT0NjVEdwai1nUkpsMTA5TnBjQ2FKU2pHVTc0LXpGNi1tWkl2UmRuVFhWWnpHb3pxX0xlaExtcmNQa3k5NzhuZzRPTlh5aThab0JoaUZweW5Xb19QZXJBR1F6dVdoZnNSTlVjT2RsSmx3OUtNUU5SajhyRzBiOWVCb2R3Nkp5UENxRnN3WS1peWpoUDd5d3Qzano5LWQ0TElHOHF1S0Y?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQclhtUGFkVWRVdGE1VVhMMVA4X1FUb29JV3RubW5qS3FFV3JGY3hFUFJUazR0R3FjWGo3VkhhT0hHdzVIUUdrT3NMS3FkYVhjOTh5TDU0THVnbUR6c1djaEd6N21YQS1iVUNRZF80RnFZWW9QcjNMd2V4bl9GWGVXNkJXM01CUDZrWWlGOUJ5bFcwOHRqQlhCSjJxMjFZTnA0blY3d3pnc0RBc2xQNFNLYXdNdzNXOVQyN2lsYUVpMHBuY1BE?oc=5
+  seen_at: '2026-09-14T00:13:04Z'
   metrics: {}
   kind: news
 ---

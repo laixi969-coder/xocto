@@ -28,10 +28,11 @@ url: https://ardent.ai/
 canonical_url: https://ardent.ai
 summary: a code-first agent for non-engineering work
 first_seen: '2026-09-03T15:01:24Z'
-last_seen: '2026-09-04T14:23:26Z'
-status: watching
+last_seen: '2026-09-14T00:13:04Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://ardent.ai/
@@ -40,6 +41,11 @@ sightings:
     points: 10
     comments: 2
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxNNkp6eHhQWDJLZWRrUkYzZ2tPQjRDazRZUlNrZ081TklPM1Vhb1hGVjBQY19GRmtDQUdoTktZNFNleDdTSWJta3hRalN6dG83NkZYX2pPZzloWFBwMnB2d2NIbzg0cEl3ZEk1VDY0a0lvaTlua250QTlVWU5yUEIyV3dscW9YS2J4aFlaUWlHckstV0tad3hGTXQ2WTd6QQ?oc=5
+  seen_at: '2026-09-14T00:13:04Z'
+  metrics: {}
+  kind: news
 ---
 
 # Ardent

@@ -26,8 +26,8 @@ url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOG
 canonical_url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOGZjXzNNeW1BbmZUMHdPeWFiWmlEMDB2Y3dMUnBJS1V3ekROMGR6aFZyd2RSaHNfRGs0di1XMThtMGtGeHlfZkNmSWR3aURoUENOV3d1b0ctSFA0Q2NtWHFfX1N2bVVEQUY2YU9qZHE4YWhYS2M2WEhqSEtxNHlWa0JWS2thZ041SXZGR3ZzMmFvWkZGeWc0eHpIR1IteDRZWVhHWVEtMWpvSncxWHVVQ01Ib3cyUlJrWURYOWxqRjREbnBMUHp3UWtvZmFHUjVN0gHkAUFVX3lxTE1MSXI2d0puVUtmQ2hQdnYzNHlKRU5DYVRQU29uOWRfSGZLNU9WT2pvSTQ1ZW00enFMNjVZUXZjZlpLcTRBRWpjQ21HVGFkNW9iQUo2QnIyejBnbDVqVUhOaGJNTGZzUDFIWTBodmZoNVlGQlladWJ4b3RPUlBKWkNmUUNFci1CWTQxVndJUWctbTU5MkJzRURoYkhBWHJFVFRVSzVNWDYzWUNiXzRmQmZMc01CcjVjWncxZ2ZvNXgwa2VrYm9pN25vNFhaQWxSbmFSUEZPeGVUcUlnY0pNcWUwZkVMRg?oc=5
 summary: 'Weekly funding roundup: The startup deals you may have missed in week of August 30 Moneycontrol.com'
 first_seen: '2026-08-29T13:52:47Z'
-last_seen: '2026-09-13T00:02:40Z'
-status: rejected
+last_seen: '2026-09-14T00:13:04Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -59,6 +59,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNOERoTm5XRzZ4bG5ZcXBxM2Jsb2xfUnZvYVMyZXp6akVPM1lnNk4yemJ2U21ieEQwWm9MemRqVmhmeXFZS0pNQnNlM3RfaVJydXFjNERKTWplb3hpd20teTk1akhiZnJxSEF2bWduYkx0bnZ5eHFDSGNDeGswYWg2SlY1U1Frc09rd0E?oc=5
   seen_at: '2026-09-13T00:02:40Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxQa1hSRnlpTEtqVDhNc0dZUVFpLURyU0x5aWtiV3RtNnNFaVRock5NazFIY0lja2NsX3hqLVpDNnh5MlllNFNFYTIyOTVaWUtwSmRtZl9BWWozY1ROcG8zNUs5SW9jYUk4U21WUGdGcHJLejdPNjRNX09vNGlMWjhMX1lrNVM0N1NOYzlhNXpPenoxazZnRjdoZlBMY0puYVBLa1dEVjN4OVE1V0dGYURpMGNqTTIwR2RyaVZ1NVE2UdIBvwFBVV95cUxQa1hSRnlpTEtqVDhNc0dZUVFpLURyU0x5aWtiV3RtNnNFaVRock5NazFIY0lja2NsX3hqLVpDNnh5MlllNFNFYTIyOTVaWUtwSmRtZl9BWWozY1ROcG8zNUs5SW9jYUk4U21WUGdGcHJLejdPNjRNX09vNGlMWjhMX1lrNVM0N1NOYzlhNXpPenoxazZnRjdoZlBMY0puYVBLa1dEVjN4OVE1V0dGYURpMGNqTTIwR2RyaVZ1NVE2UQ?oc=5
+  seen_at: '2026-09-14T00:13:04Z'
   metrics: {}
   kind: news
 ---

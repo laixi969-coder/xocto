@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0ZvZ0VVbUhMa19qem5iS2
 canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0ZvZ0VVbUhMa19qem5iS21NOEJneXdVck9pTmNnVkJoTzFOU0FlNDhMVGFWbzFOckxtTGxsdmlFdjhZNDZxV2FUd1AzcHRNT2lTZjFwbHZLWTZhTlB0SXBqNm1Ec3pqVTVDWTU4OVN1SW41NEN1QXhIN1JwTFNFX0FDN1FNZ3ZHLTdnZmdhdzZLZ0tQY3M5ZnJndXZDVEREbWZabC13c3JoVFJw?oc=5
 summary: 'Intel (NASDAQ:INTC): Can AI Demand Overcome Its Biggest Challenges? Kalkine Media'
 first_seen: '2026-09-05T10:49:00Z'
-last_seen: '2026-09-13T00:01:15Z'
-status: rejected
+last_seen: '2026-09-14T00:12:56Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -71,6 +71,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/487860.html
   seen_at: '2026-09-13T00:01:15Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/
+  seen_at: '2026-09-14T00:12:56Z'
   metrics: {}
   kind: news
 ---
