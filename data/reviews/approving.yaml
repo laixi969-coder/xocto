@@ -271,3 +271,45 @@
     sandboxed execution, structured artifact handoff and human approval at critical nodes into the platform,
     cutting post-hoc rollback and line-by-line review; teams wiring coding agents into privileged repos
     while needing audit trails and sign-off would choose it there.'
+- id: req-full-approving-2026-09-15
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-09-15T01:04:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 approving 官方仓库的 README、release 说明与 issue/discussion，确认是否出现真实部署案例、人工 Approve 节点的实际使用反馈或托管/定价信息。
+  market: ''
+  job: 使用编码代理的开发者或小团队，在让代理自动改代码时，把代理放进真实 Docker 沙箱执行，产出结构化产物，并在关键节点暂停等待人工批准后才继续，从而完成一次可审查、可回滚的交付。
+  job_en: Developers or small teams using coding agents run the agent inside a real Docker sandbox, exchange
+    structured artifacts, and pause at critical nodes for human approval before continuing, so a change
+    can be reviewed and recovered as a delivery.
+  pain: 编码代理直接在主环境执行命令、改文件时，出错会污染工作区且难以回滚；无人值守的连续执行让关键改动缺少人工确认点，事后追责和恢复成本高。
+  pain_en: When a coding agent executes commands and edits files directly in the main environment, mistakes
+    pollute the workspace and are hard to roll back; unattended continuous execution leaves critical changes
+    without a human checkpoint, raising recovery and accountability cost.
+  current_alternative: 常见旧做法是让代理直接在本地仓库或终端里跑，靠 git 分支、手动 review diff、人工盯着终端输出，或干脆不用代理、自己写代码。
+  current_alternative_en: The common alternative is letting the agent run directly in the local repo or
+    terminal, relying on git branches, manual diff review, watching the terminal, or simply not using
+    an agent and writing the code by hand.
+  usage_reason: 推断：相较本地直跑加人工盯屏，它把执行隔离进 Docker 沙箱、把交互固化为结构化产物、并在关键节点强制暂停等待 Approve，从而减少“出错后清理环境”和“事后补 review”这两步负担；因此在意可回滚与人工把关的代理使用者会在需要无人值守跑长任务时选择它。
+  usage_reason_en: 'Inference: versus running locally and watching the terminal, it isolates execution
+    in a Docker sandbox, fixes exchanges as structured artifacts, and forces a pause for Approve at critical
+    nodes, removing the ''clean up after a bad run'' and ''review after the fact'' steps; agent users
+    who care about rollback and human gating would pick it for long unattended runs.'

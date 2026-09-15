@@ -388,3 +388,52 @@
     of building the formal skeleton and recomputation script from scratch, so researchers tracking prime-gap
     bounds who need to verify or extend it would adopt it; public material shows no retention or repeat
     use, so the motive is structural inference.'
+- id: req-full-primegaps186-2026-09-15
+  project_slug: primegaps186
+  level: full
+  reviewed_at: '2026-09-15T01:07:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决素数间隙上界结果难以机器复核的需求：条件性证明加数值证书若不可形式化检查，同行复现与扩展成本高。仓库提供 Lean 形式化与证书，交付物可确定地被编译器检查，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-d81ace787f329358
+    - ev-34a8513d1910b01b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 146 缓慢升至 162，说明有研究者关注并收藏，但公开材料没有 issue、discussion 或客户案例说明谁在何种场景实际使用或复现，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-d81ace787f329358
+    - ev-03eb6660b4ab2232
+  - gate: model
+    status: insufficient
+    reason: 这是 OpenAI 发布的开源仓库，公开材料未见定价页、付费路径或采购记录；谁付钱、以何种方式变现均未披露，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-6e240727d973adc4
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明存在条件性 Lean 形式化与数值证书，未提供可复现的编译结果、依赖版本或人工边界说明，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-7b0b252c3c9cecaa
+  next_validation: 追踪该仓库的 README、issue 与 Lean 编译说明，确认依赖版本、可复现的构建结果以及是否被其他形式化项目引用或复用。
+  market: ''
+  job: 数学家或形式化验证工程师在推进素数间隙上界研究时，需要把条件性证明与数值证书整理成可被 Lean 机器检查的形式，以便他人复现或在其上继续扩展结论。
+  job_en: Mathematicians or formal verification engineers advancing research on prime gap upper bounds
+    need to turn a conditional proof plus numerical certificate into a Lean machine-checkable form so
+    others can reproduce it or extend the result.
+  pain: 素数间隙上界这类结果依赖大量数值计算与条件性假设，人工审稿难以逐条核对；若证明与证书不可机器检查，同行复现成本高、错误难以定位，结论的可信度只能靠信任作者。
+  pain_en: Results on prime gap upper bounds rest on heavy numerical computation and conditional assumptions;
+    manual review cannot check every step, so without machine-checkable proofs and certificates peer reproduction
+    is costly, errors are hard to localize, and credibility rests on trusting the authors.
+  current_alternative: 当前替代方式是论文附录加非形式化数值脚本，或各自用 Sage、PARI/GP、Python 重算并人工比对；Lean 生态中此前缺少针对该具体上界的现成形式化与证书。
+  current_alternative_en: The current alternative is a paper appendix plus informal numerical scripts,
+    or independently recomputing with Sage, PARI/GP or Python and comparing by hand; the Lean ecosystem
+    previously lacked a ready formalization and certificate for this specific bound.
+  usage_reason: 推断：相较自行重写 Lean 证明或只读论文，该仓库直接提供可编译检查的 Lean 形式化与数值证书，使用者可省去从零搭建形式化框架和重算证书的步骤，并得到可机器核对的结论；因此做素数分布形式化或需要复用该上界的数学家和形式化工程师会在复现或扩展该结果时选择它。
+  usage_reason_en: 'Inference: versus rewriting the Lean proof from scratch or only reading the paper,
+    the repository supplies a compilable Lean formalization and numerical certificate, sparing users the
+    step of building the formal framework and recomputing the certificate while yielding a machine-checkable
+    result; hence mathematicians and formal verification engineers formalizing prime distribution or reusing
+    this bound would choose it when reproducing or extending the result.'

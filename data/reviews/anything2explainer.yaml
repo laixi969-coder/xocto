@@ -218,3 +218,52 @@
     into code-drawn Remotion frames with TTS voiceover, subtitles, and a chapter bar, cutting intermediate
     steps from script to finished video, so creators needing batch Chinese/English explainers would try
     it; public materials provide no user feedback on motivation.'
+- id: req-full-anything2explainer-2026-09-15
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-15T01:04:50Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把主题快速变成带配音字幕的 MG 讲解视频这一需求，痛点在于手工动效、配音、字幕多工具串联成本高；公开说明已能还原输入主题、代码逐帧绘制、输出成片的闭环，属工作流结构推理，痛点刚性与交付确定性有依据。
+    evidence_ids:
+    - ev-97856e3b821ab08d
+    - ev-cd27515f7e657651
+  - gate: consensus
+    status: supported
+    reason: 公开代码仓库 仓库收藏从 933 增至 1,319，说明开发者社区持续关注并收藏该 skill；但收藏属关注度证据，尚不能证明目标用户已将其长期留在工作流中。
+    evidence_ids:
+    - ev-0d86724bc13d1433
+    - ev-761e267f8303e681
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，谁付钱尚不清；这是判断而非已验证事实，开源 skill 可能靠生态或后续商业化，模式缺口不否定需求。
+    evidence_ids:
+    - ev-0d86724bc13d1433
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺由代码逐帧生成并合成配音字幕，但公开材料未提供可复现的成片质量、失败率或人工介入边界证据，交付确定性尚待核验。
+    evidence_ids:
+    - ev-cd27515f7e657651
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开的成片案例、部署说明或使用反馈，以核验交付质量与持续使用。
+  market: ''
+  job: 内容创作者、教育者或营销人员拿到一个主题（如概念科普、产品介绍），需要产出一条带配音、字幕和章节进度条的黑底 MG 讲解视频，用于发布到视频平台或课程中。
+  job_en: A content creator, educator, or marketer takes a topic (e.g., a concept explainer or product
+    intro) and needs to produce a narrated black-canvas motion-graphics explainer video with subtitles
+    and a chapter progress bar for publishing to a video platform or course.
+  pain: 制作 MG 讲解视频通常需要写脚本、逐帧设计动效、配音、加字幕和章节条，涉及多个工具与手工步骤，非专业剪辑者难以独立完成，外包或使用模板工具又受风格与成本限制。
+  pain_en: Producing an MG explainer video normally requires scripting, frame-by-frame motion design,
+    voiceover, subtitles, and chapter bars across multiple tools and manual steps; non-editors struggle
+    to do it alone, while outsourcing or template tools constrain style and cost.
+  current_alternative: 公开材料未直接说明用户当前的具体替代流程；从产品定位推断，旧做法可能是手工使用剪辑/动效软件（如 Premiere、After Effects）或套用在线模板工具逐项制作。
+  current_alternative_en: Public materials do not directly state the user's current alternative; inferred
+    from the product positioning, the old approach is likely manual editing/motion tools (e.g., Premiere,
+    After Effects) or online template tools assembled step by step.
+  usage_reason: 推断：相较手工逐帧制作，该 skill 在 Claude Code / Codex 中接收主题后由代码生成每一帧并自动合成 TTS 配音、字幕和章节进度条，减少脚本到成片之间的多工具切换与手工动效步骤，因此需要快速产出统一风格讲解视频的创作者会在有主题、缺剪辑资源时选择它。
+  usage_reason_en: 'Inference: versus manual frame-by-frame production, the skill takes a topic inside
+    Claude Code / Codex and generates every frame in code, auto-compositing TTS voiceover, subtitles,
+    and a chapter bar, cutting multi-tool switching and manual motion steps between script and finished
+    video; creators needing fast, consistent explainer videos would choose it when they have a topic but
+    lack editing resources.'

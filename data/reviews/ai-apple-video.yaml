@@ -242,3 +242,52 @@
   usage_reason_en: Versus outsourcing or manual editing, it packages stylized scripting, shots, and pacing
     into one generation step, cutting storyboard and color-grading work; stars rising from 47 to 108 show
     sustained developer attention, though retention and payment are unverified (inference).
+- id: req-full-ai-apple-video-2026-09-15
+  project_slug: ai-apple-video
+  level: full
+  reviewed_at: '2026-09-15T01:04:36Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决普通产品缺少高质感宣传视频的需求，痛点是小团队无发布会级拍摄剪辑预算却要投放素材；公开仓库说明其输入产品素材、输出30秒苹果风格视频，旧替代为外包或手工剪辑，不解决则素材质感与产出速度受限。属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-e7066c35eb258877
+    - ev-ce9a08e150c1d330
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从53增至113，说明开发者社区持续关注并把它加入收藏；但这是关注度证据，不能证明目标营销用户已将其长期留在工作流，也缺少使用评价或案例。
+    evidence_ids:
+    - ev-e7066c35eb258877
+    - ev-ce9a08e150c1d330
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能，公开材料未见定价页、付费主体或采购记录；谁付钱尚不清，可能靠作者影响力或后续服务变现，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e7066c35eb258877
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供可复现的生成样例、交付稳定性说明或人工与安全边界；30秒成片能否确定性产出、风格一致性如何，尚缺部署文档或实测证据。
+    evidence_ids:
+    - ev-ce9a08e150c1d330
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有可复现的生成样例、部署说明及用户实际使用反馈。
+  market: ''
+  job: 电商卖家或产品营销人员在需要为普通商品制作投放素材时，把产品图片或素材输入该开源技能，由 Seedance 2.5 生成约30秒苹果发布会风格的产品视频，用于社交媒体或广告投放。
+  job_en: E-commerce sellers or product marketers who need ad creative for ordinary products input product
+    images or assets into this open-source skill, which uses Seedance 2.5 to generate a roughly 30-second
+    Apple-keynote-style product video for social media or ad placement.
+  pain: 公开材料只说明它把普通产品包装成高端消费电子风格，未给出用户抱怨、不采用代价或频率；从任务结构看，痛点在于小团队缺乏发布会级拍摄与剪辑预算，却需要高质感视频素材，这是工作流推理而非用户口述。
+  pain_en: Public materials only state that it packages ordinary products in a high-end consumer-electronics
+    style, with no user complaints, cost of not adopting, or frequency; structurally the pain is that
+    small teams lack keynote-grade filming and editing budgets yet need high-quality video assets, which
+    is workflow inference rather than user testimony.
+  current_alternative: 公开材料未说明现有替代方式；按任务结构推断，用户此前依赖外包视频团队、模板化剪辑工具或自行拍摄剪辑，成本与周期更高。
+  current_alternative_en: Public materials do not describe current alternatives; by task structure, users
+    previously relied on outsourced video teams, template editing tools, or self-shot editing, which cost
+    more and take longer.
+  usage_reason: 推断：相较外包或手工剪辑，该技能把风格化脚本、镜头与成片流程压缩为一次输入生成，减少拍摄与逐帧剪辑环节，因此预算有限、需要快速产出投放素材的电商卖家或营销人员会在赶素材时选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with outsourcing or manual editing, the skill compresses stylized
+    scripting, shots, and final cut into a single input generation, removing filming and frame-by-frame
+    editing, so budget-limited sellers or marketers needing fast ad assets would choose it under deadline;
+    no user feedback or case yet confirms this motive.'

@@ -26,7 +26,7 @@ canonical_url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-
 summary: Report shows Meta's challenges replacing people with AI agents.
 first_seen: '2026-08-26T21:25:27Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - hackernews

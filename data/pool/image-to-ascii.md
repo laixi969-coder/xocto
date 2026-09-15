@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/image-to-ascii-2
 summary: Make ASCII art for READMEs, Discord & creative visuals
 first_seen: '2026-09-13T07:52:20Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

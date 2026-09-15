@@ -1,6 +1,6 @@
 ---
 slug: askya-launches-growth-programme-with-up-to-200000-investment
-name: Askya Launches Growth Programme With Up to $200,000 Investment for African AI Startups
+name: Askya
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Askya Launches Growth Programme With Up to $200,000 Investment for Afri
   Africa
 first_seen: '2026-09-14T18:19:24Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Askya Launches Growth Programme With Up to $200,000 Investment for African AI Startups
+# Askya
 
 Askya Launches Growth Programme With Up to $200,000 Investment for African AI Startups Tech In Africa
 

@@ -1,6 +1,6 @@
 ---
 slug: temporal
-name: temporal
+name: Temporal
 builder: gk1
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://temporal.io/blog/temporal-raises-usd550m-series-e-at-usd1
 summary: Temporal raises $550M at a $12.55B valuation
 first_seen: '2026-09-14T13:16:31Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# temporal
+# Temporal
 
 Temporal raises $550M at a $12.55B valuation
 

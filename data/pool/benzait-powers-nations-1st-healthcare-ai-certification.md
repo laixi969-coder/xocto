@@ -1,6 +1,6 @@
 ---
 slug: benzait-powers-nations-1st-healthcare-ai-certification
-name: BENZAIT Powers Nation’s 1st Healthcare AI Certification
+name: BENZAIT
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaF8yNUNzNW0w
 summary: BENZAIT Powers Nation’s 1st Healthcare AI Certification Biz New Orleans
 first_seen: '2026-09-14T12:02:40Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# BENZAIT Powers Nation’s 1st Healthcare AI Certification
+# BENZAIT
 
 BENZAIT Powers Nation’s 1st Healthcare AI Certification Biz New Orleans
 

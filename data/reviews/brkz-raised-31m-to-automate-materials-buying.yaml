@@ -1,0 +1,91 @@
+- id: req-initial-brkz-raised-31m-to-automate-materials-buying-2026-09-15
+  project_slug: brkz-raised-31m-to-automate-materials-buying
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决建材采购比价分散、账期与交期难核对的痛点，旧做法是逐家电话询价加表格记录，痛点刚性且不采用会拖累工期。
+    evidence_ids:
+    - ev-f05899f943339adc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例或采购方公开采用证据，场景共识尚未核验。
+    evidence_ids:
+    - ev-f05899f943339adc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式与买方结构，融资不等于已验证付费路径，属判断而非事实。
+    evidence_ids:
+    - ev-f05899f943339adc
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 具体承担询价、比价还是履约哪一步，人工确认边界不明。
+    evidence_ids:
+    - ev-f05899f943339adc
+  next_validation: 收集 BRKZ 官方定价或客户案例页面，确认其采购服务的收费方式与已部署的采购方类型。
+  market: ''
+  job: 建筑总包或建材采购员在项目备料阶段，处理多家供应商的报价单、规格与交期信息，要完成比价、下单和账期安排。
+  job_en: A general contractor or materials buyer, at the project material-preparation stage, handles
+    quotes, specifications, and lead times from multiple suppliers to complete price comparison, ordering,
+    and payment-term arrangements.
+  pain: 报价分散在电话、聊天和表格里，比价耗时，账期与供货稳定性难以核对，采购延误直接影响工期。
+  pain_en: Quotes are scattered across calls, chats, and spreadsheets; comparison is slow, and payment
+    terms and supply reliability are hard to verify, so procurement delays directly hit the schedule.
+  current_alternative: 采购员靠电话、即时通讯和 Excel 逐家询价，或依赖长期合作的本地经销商，价格与账期信息不透明。
+  current_alternative_en: Buyers call or message suppliers one by one and track quotes in Excel, or rely
+    on long-standing local distributors, leaving price and payment-term information opaque.
+  usage_reason: 推断：相较逐家询价，若 BRKZ 把多家供应商的报价、规格与账期汇总为可比较的采购方案，采购员可少做一轮人工比价与跟单，因此区域总包和中小建材买家在备料阶段可能选择它；公开材料未提供客户案例或复购证据。
+  usage_reason_en: 'Inference: compared with calling suppliers one by one, if BRKZ consolidates quotes,
+    specifications, and payment terms from multiple suppliers into a comparable procurement proposal,
+    buyers skip a round of manual comparison and follow-up, which is why regional contractors and small
+    materials buyers may choose it at the material-preparation stage; public materials provide no customer
+    cases or repeat-purchase evidence.'
+- id: req-full-brkz-raised-31m-to-automate-materials-buying-2026-09-15
+  project_slug: brkz-raised-31m-to-automate-materials-buying
+  level: full
+  reviewed_at: '2026-09-15T01:05:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决建材采购比价分散、账期与交期难核对的痛点，旧做法是逐家电话询价加表格记录，痛点刚性且不采用会拖累工期；但公开材料仅称“自动化材料采购”，具体输入与交付为工作流结构推理。
+    evidence_ids:
+    - ev-f05899f943339adc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例或采购方公开采用证据，场景共识尚未核验。
+    evidence_ids:
+    - ev-f05899f943339adc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式与买方结构，融资不等于已验证付费路径，属判断而非事实。
+    evidence_ids:
+    - ev-f05899f943339adc
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 具体承担询价、比价还是履约哪一步，人工确认边界不明。
+    evidence_ids:
+    - ev-f05899f943339adc
+  next_validation: 收集 BRKZ 官方定价或客户案例页面，确认其采购服务的收费方式与已部署的采购方类型。
+  market: ''
+  job: 建筑总包或建材采购员在项目备料阶段，处理多家供应商的报价单、规格与交期信息，要完成比价、询价、下单与账期安排。
+  job_en: A general contractor or materials buyer, at the project material-preparation stage, handles
+    quotes, specifications, and lead times from multiple suppliers to complete price comparison, RFQ,
+    ordering, and payment-term arrangements.
+  pain: 报价分散在电话、聊天与表格中，逐家询价耗时，账期与供货稳定性难以核对，采购延误直接拖累工期；公开材料仅以“自动化材料采购”概括，未说明具体痛点细节。
+  pain_en: Quotes are scattered across calls, chats, and spreadsheets; per-supplier RFQ is slow, and payment
+    terms and supply reliability are hard to verify, so procurement delays directly hit the schedule;
+    public materials only summarize this as 'automating materials buying' without detailing the pain.
+  current_alternative: 采购员靠电话、即时通讯和 Excel 逐家询价，或依赖长期合作的本地经销商，价格与账期信息不透明。
+  current_alternative_en: Buyers call or message suppliers one by one and track quotes in Excel, or rely
+    on long-standing local distributors, leaving price and payment-term information opaque.
+  usage_reason: 推断：相较逐家询价，若 BRKZ 把多家供应商的报价、规格与账期汇总为可比较的采购方案并提供采购融资，采购员可少做一轮人工比价与跟单，因此区域总包和中小建材买家在备料阶段可能选择它；公开材料未提供客户案例或复购证据。
+  usage_reason_en: 'Inference: compared with calling suppliers one by one, if BRKZ consolidates quotes,
+    specifications, and payment terms from multiple suppliers into a comparable procurement proposal and
+    adds procurement financing, buyers skip a round of manual comparison and follow-up, which is why regional
+    contractors and small materials buyers may choose it at the material-preparation stage; public materials
+    provide no customer cases or repeat-purchase evidence.'

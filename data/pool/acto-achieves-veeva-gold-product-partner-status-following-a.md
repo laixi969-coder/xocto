@@ -40,7 +40,7 @@ summary: ACTO Achieves Veeva Gold Product Partner Status, Following a Nearly Dec
   Supporting Mutual Customer Success Yahoo Finance
 first_seen: '2026-09-02T12:30:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - hackernews

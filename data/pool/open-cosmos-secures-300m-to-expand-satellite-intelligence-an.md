@@ -1,6 +1,6 @@
 ---
 slug: open-cosmos-secures-300m-to-expand-satellite-intelligence-an
-name: Open Cosmos secures €300M to expand satellite intelligence and connectivity
+name: Open Cosmos
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: European satellite company Open Cosmos has secured €300million in fun
   manufacturing capacity andaccelerate the deployment of its connectivity and Earth observation services...
 first_seen: '2026-09-14T13:00:00Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Open Cosmos secures €300M to expand satellite intelligence and connectivity
+# Open Cosmos
 
 European satellite company Open Cosmos has secured €300million in funding to expand its satellite manufacturing capacity andaccelerate the deployment of its connectivity and Earth observation services...
 

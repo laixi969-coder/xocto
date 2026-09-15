@@ -1,0 +1,89 @@
+- id: req-initial-research-work-system-2026-09-15
+  project_slug: research-work-system
+  level: initial
+  reviewed_at: '2026-09-15T00:38:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投资初筛中步骤散乱、结论难追溯的痛点，旧做法是手工拼模板，属于刚性研究流程。
+    evidence_ids:
+    - ev-6d075f1181e0142c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库收藏数，缺少机构采用或分析师实际使用的公开证据，无法判断共识。
+    evidence_ids:
+    - ev-6d075f1181e0142c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是基金内部自建，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6d075f1181e0142c
+  - gate: truth
+    status: insufficient
+    reason: 模板与脚本可核验，但缺少真实调研产出与人工复核边界的公开材料。
+    evidence_ids:
+    - ev-6d075f1181e0142c
+  next_validation: 收集该仓库的 issue、discussion 或使用案例，确认是否有机构把它用于真实尽调流程。
+  market: ''
+  job: 投资分析师在初筛一家公司或一个赛道时，需要把访谈笔记、公开资料和行业数据整理成可复核的调研文档，供投委会讨论。
+  job_en: When first screening a company or sector, an investment analyst must turn interview notes, public
+    materials and industry data into a reviewable research document for the investment committee.
+  pain: 调研步骤散落在个人笔记和模板里，换人接手就断档，重复劳动多，结论依据难以追溯。
+  pain_en: Research steps are scattered across personal notes and templates, break down when work changes
+    hands, involve much repetition, and leave conclusions hard to trace.
+  current_alternative: 靠个人经验加 Word/Excel 模板手工拼装，或购买第三方数据库与研究报告。
+  current_alternative_en: Manual assembly from personal experience plus Word/Excel templates, or paid
+    third-party databases and research reports.
+  usage_reason: 推断：相较手工拼模板，它把调研拆成固定步骤并配模板与记忆库，减少重新搭框架和翻找历史结论的动作，因此适合人手少、需要交接的早期基金分析师。
+  usage_reason_en: 'Inference: compared with manual template assembly, it fixes research into defined
+    steps with templates and a memory store, cutting the work of rebuilding frameworks and hunting past
+    conclusions, which suits analysts at small early-stage funds that need handovers.'
+- id: req-full-research-work-system-2026-09-15
+  project_slug: research-work-system
+  level: full
+  reviewed_at: '2026-09-15T01:07:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投资初筛中调研步骤散乱、结论难追溯的需求，痛点是换人接手即断档、重复搭框架；旧做法是手工拼 Word/Excel 模板或买第三方报告。公开材料仅给出流程与模板结构，痛点刚性属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-6d075f1181e0142c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 102 个 star，属关注度而非采用证据；缺少机构部署、分析师实际使用或工作流留存的公开记录，无法判断共识是否形成。
+    evidence_ids:
+    - ev-6d075f1181e0142c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是基金内部自建或开源免费使用；这是基于仓库形态的判断，不是已验证的付费事实。
+    evidence_ids:
+    - ev-6d075f1181e0142c
+  - gate: truth
+    status: insufficient
+    reason: 模板与脚本可核验，但缺少真实调研产出、人工复核边界与安全边界的公开材料，承诺能否确定性交付尚未被证实。
+    evidence_ids:
+    - ev-6d075f1181e0142c
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否出现机构将其用于真实尽调流程的公开记录或使用案例。
+  market: ''
+  job: VC/PE 投资分析师在初筛一家公司或一个赛道时，把访谈笔记、公开资料和行业数据交给这套开源流程，按 7 步流水线与 A/B/C 三套方案模板逐项生成结构化调研文档，供投委会讨论与交接。
+  job_en: When first screening a company or sector, a VC/PE investment analyst feeds interview notes,
+    public materials and industry data into this open-source workflow, which generates structured research
+    documents step by step via a 7-stage pipeline and three A/B/C templates for investment-committee discussion
+    and handover.
+  pain: 调研步骤散落在个人笔记与 Word/Excel 模板中，换人接手即断档，重复搭框架、翻找历史结论耗时，且结论依据难以追溯；公开材料只说明流程与模板结构，未提供分析师抱怨或工时数据，痛点强度属工作流结构推理。
+  pain_en: Research steps are scattered across personal notes and Word/Excel templates, break down on
+    handover, cost time in rebuilding frameworks and hunting past conclusions, and leave conclusions hard
+    to trace; public materials only describe the pipeline and templates, with no analyst complaints or
+    time data, so pain intensity is a workflow-structure inference.
+  current_alternative: 靠个人经验加 Word/Excel 模板手工拼装调研文档，或购买第三方数据库与券商/咨询研究报告。
+  current_alternative_en: Manual assembly of research documents from personal experience plus Word/Excel
+    templates, or paid third-party databases and brokerage/consulting research reports.
+  usage_reason: 推断：相较手工拼模板，它把调研固定为 7 步流水线并配 8 套模板与长期记忆库，减少重新搭框架和翻找历史结论这两步动作，因此人手少、需要交接的早期基金分析师在初筛公司或赛道时会选择它。
+  usage_reason_en: 'Inference: versus manual template assembly, it fixes research into a 7-stage pipeline
+    with 8 templates and a long-term memory store, cutting the two steps of rebuilding frameworks and
+    hunting past conclusions, so analysts at small early-stage funds that need handovers choose it when
+    screening a company or sector.'

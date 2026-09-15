@@ -191,3 +191,45 @@
   usage_reason_en: 'No usage reason can be given: existing evidence is unrelated to product capability,
     with no user feedback, cases, or checkable outcomes explaining why anyone would choose it over the
     old approach.'
+- id: req-full-ravage-2026-09-15
+  project_slug: ravage
+  level: full
+  reviewed_at: '2026-09-15T01:07:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决授权 Web 安全测试的自动化，但公开证据里没有一条用户痛点、旧流程或采用行为，全是词典释义与同名电影，连需求与痛点都还原不出，价值关不成立。
+    evidence_ids:
+    - ev-e9a6d4dd40736f77
+    - ev-464043ac24e93ea2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/duriantaco/ravage 的 README、issue 与 discussion，确认是否有真实授权测试场景的使用记录、报告样例与人工确认环节。
+  market: ''
+  job: 安全测试工程师或渗透测试员在获得书面授权的目标上，输入一个 URL，让工具自动执行 Web 漏洞扫描与渗透测试，并据此产出可交付的测试结论。
+  job_en: A security test engineer or penetration tester, working on a written-authorized target, submits
+    a URL so the tool automatically runs web vulnerability scanning and penetration testing and produces
+    a deliverable test conclusion.
+  pain: 公开证据里没有任何用户痛点材料：现有证据全是词典释义、同名词条和一部 2019 年同名电影，无法说明安全测试人员当前哪里难受、频率多高、不解决会有什么后果。
+  pain_en: 'No user-pain evidence exists in the public record: the evidence is dictionary definitions,
+    a thesaurus entry, and a 2019 film of the same name, so nothing shows where security testers hurt
+    today, how often, or what happens if it stays unsolved.'
+  current_alternative: 公开材料未记录用户目前用什么完成这项工作，也未说明它替代了手工渗透测试、Burp Suite、Nessus 等既有工具中的哪一步。
+  current_alternative_en: Public materials do not record how users do this job today, nor which step of
+    manual pentesting, Burp Suite, or Nessus it replaces.
+  usage_reason: 无法给出因果解释：唯一可归因到该产品的证据是 公开代码仓库 仓库 46 个 star，这只能说明有人关注，不能说明哪类用户因减少了哪一步负担而选择它。
+  usage_reason_en: 'No causal explanation is possible: the only product-attributable evidence is 46 public
+    code repository stars, which shows attention, not which users choose it because a specific step of
+    work got lighter.'

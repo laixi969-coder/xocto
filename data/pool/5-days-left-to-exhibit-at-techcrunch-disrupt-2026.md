@@ -23,7 +23,7 @@ summary: The last day to apply for an exhibit table at TechCrunch Disrupt 2026 o
   and tech leaders.
 first_seen: '2026-09-14T14:00:00Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

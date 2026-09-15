@@ -553,3 +553,56 @@
     composition, evolution, compression and pruning events as a panel and command, so users no longer
     scroll turn-by-turn or re-paste files to locate what was dropped and decide whether to restore it;
     DSH users hitting forgetting in long sessions would pick it for that triage.'
+- id: req-full-dsh-context-2026-09-15
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-09-15T01:05:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后不可见的需求，痛点是关键约束被静默丢弃导致返工；旧替代是翻记录或重开会话。交付闭环为面板与命令展示组成、演进、压缩、剪枝事件，属工作流结构推理，公开材料未量化频率与损失。
+    evidence_ids:
+    - ev-fde8fec1b33a482a
+    - ev-1d524d9b0a4d58dc
+  - gate: consensus
+    status: insufficient
+    reason: 同生态 DSH 插件（opencode2dsh 星标 56→63、dsh-acp-interactive 41）显示社区在关注 DSH 插件形态，但均为相邻项目而非本插件自身采用数据，无法证明目标用户持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-fde8fec1b33a482a
+    - ev-1df8b55da969ace6
+    - ev-1d524d9b0a4d58dc
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自开发者个人订阅或 DSH 生态赞助，属判断而非已验证事实；同生态插件多为免费发布，付费路径尚未在公开材料中出现。
+    evidence_ids:
+    - ev-1df8b55da969ace6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出部署文档、可复现实测或安全边界说明，无法确认上下文数据读取范围与压缩事件展示是否与真实运行一致，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-1d524d9b0a4d58dc
+  next_validation: 追踪 dsh-context 在 npm 或代码仓库的官方 README、issue 与 discussion，确认其上下文面板的实际输入来源、压缩/剪枝事件覆盖范围及是否有用户报告真实排查场景。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或重度 AI 编码用户在长会话中处理多轮对话与代码上下文，需要查看当前上下文由哪些片段组成、哪些被压缩或剪枝丢弃，以判断模型为何遗忘关键信息并决定下一步如何组织输入。
+  job_en: Developers and heavy AI-coding users of DeepSeek Harness, working with long multi-turn sessions
+    and code context, need to inspect which segments make up the current context and which were dropped
+    by compaction or pruning, so they can tell why the model forgot key facts and how to restructure the
+    next input.
+  pain: 长会话中上下文被自动压缩、剪枝后，用户看不到丢了什么，只能靠模型答错后反复重述或重开会话，关键约束被静默丢弃的代价是返工与错误结论；这是从上下文管理机制推出的结构性痛点，公开材料未给出频率或损失量化。
+  pain_en: After automatic compaction and pruning in long sessions, users cannot see what was dropped;
+    they only notice when the model errs, then restate or restart the session. The cost of silently losing
+    key constraints is rework and wrong conclusions; this is a structural inference from context-management
+    mechanics, not a quantified public figure.
+  current_alternative: 旧做法是凭记忆或翻看原始对话记录猜测上下文状态，或直接重开会话、手工重贴关键文件与约束；也可用通用日志/调试输出间接观察，但没有面向上下文组成与演进的可视化面板。
+  current_alternative_en: The old way is guessing context state from memory or scrolling raw transcripts,
+    or restarting the session and manually re-pasting key files and constraints; generic logs or debug
+    output give only indirect visibility, with no panel for context composition and evolution.
+  usage_reason: 推断：相较翻记录或重开会话，该插件通过 Context 面板与 Context 命令直接列出上下文的组成、演进、压缩与剪枝事件，把“猜哪里丢了”变成“看到哪一步丢了”，因此长会话中反复被遗忘问题困扰的
+    DSH 用户会在排查上下文异常时选择它；公开材料尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: versus scrolling transcripts or restarting sessions, the plugin''s Context
+    panel and Context command list composition, evolution, compaction and pruning events directly, turning
+    ''guess what was lost'' into ''see which step dropped it''. DSH users repeatedly hit by forgotten
+    context would pick it when debugging context anomalies; public materials do not yet contain user feedback
+    or retention evidence for this motive.'

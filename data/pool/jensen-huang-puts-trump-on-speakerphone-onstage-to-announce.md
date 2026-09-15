@@ -24,7 +24,7 @@ summary: Nvidia CEO Jensen Huang took a call from President Trump on Monday whil
   into his […]
 first_seen: '2026-09-14T20:03:37Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

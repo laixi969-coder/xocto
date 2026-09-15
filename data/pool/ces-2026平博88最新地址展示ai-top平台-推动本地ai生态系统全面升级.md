@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTFBKaXdYWTdyaUdn
 summary: CES 2026：平博88最新地址展示AI TOP平台 推动本地AI生态系统全面升级 体坛
 first_seen: '2026-09-12T09:53:13Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -255,3 +255,53 @@
     and booking-form steps to an agent on real websites, leaving the user to review beside the chat and
     complete payment personally, cutting repeated cross-site form filling and price comparison; users
     who accept agent-operated browsing but insist on controlling payment would choose it in that situation.'
+- id: req-full-travel-agent-2026-09-15
+  project_slug: travel-agent
+  level: full
+  reviewed_at: '2026-09-15T01:07:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自助出行者跨多个真实预订网站搜索、比价与填单的行程规划需求，痛点是重复跨站操作与不敢自动付款；公开说明已还原输入、动作与交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-ec3f6713631f6791
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从43升至66，说明开源社区持续关注，但这是关注度而非目标旅行者的持续采用；缺少issue、discussion或用户评价说明谁在何种场景反复使用，共识尚未形成。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-ec3f6713631f6791
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径，开源桌面应用可能靠捐赠、托管服务或企业授权变现，但均属推断而非已验证事实，买方与单位经济仍不清。
+    evidence_ids:
+    - ev-5658a2955b526a01
+  - gate: truth
+    status: insufficient
+    reason: 在支付页停止的设计把付款与安全边界交还用户，方向合理，但公开材料未给出预订成功率、网站兼容性或失败回退的可复现证据，交付确定性尚未核验。
+    evidence_ids:
+    - ev-5658a2955b526a01
+    - ev-ec3f6713631f6791
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认用户实际在哪些预订网站成功完成搜索与填单、失败或回退发生在哪一步。
+  market: ''
+  job: 自助出行者在规划一次多站行程时，需要把机票、酒店、门票等分散在多个真实预订网站上的信息与操作串起来，边聊边在浏览器里完成搜索、比价与下单，最终拿到可出行的订单。
+  job_en: Self-directed travelers planning a multi-leg trip need to stitch together information and actions
+    scattered across real booking websites — searching, comparing and ordering beside a chat — and end
+    up with an actual bookable itinerary.
+  pain: 公开材料显示该产品把操作放在真实网站上并在支付页停下，说明旧流程中用户要在多个网站间反复切换、重复填写相同信息，且不敢把付款交给自动化；不解决的后果是行程规划耗时且容易在比价环节漏掉更优选项。
+  pain_en: The public description shows the agent operates on real websites and halts at the payment page,
+    implying the old workflow forces users to switch among many sites, re-enter the same details, and
+    distrust handing payment to automation; the cost of leaving it unsolved is slow planning and missed
+    better fares.
+  current_alternative: 当前替代方式是用户自己在浏览器里逐个打开航司、酒店与OTA网站手动搜索比价，或使用只给建议、不能代为操作网页的通用聊天助手，再自行复制信息完成下单。
+  current_alternative_en: Today users manually open airline, hotel and OTA sites one by one to search
+    and compare, or use general chat assistants that only advise and cannot act on web pages, then copy
+    the details themselves to complete the order.
+  usage_reason: 推断：相较手动逐个网站操作，该产品在聊天旁的真实浏览器里代为执行搜索与填写，把重复的跨站操作收敛为一次对话，并在支付页交还控制权，因此在意比价又对自动付款有顾虑的自助出行者会在规划阶段选择它。
+  usage_reason_en: 'Inference: versus manual site-by-site work, it performs searches and form-filling
+    in a real browser beside the chat, collapsing repeated cross-site actions into one conversation and
+    returning control at the payment page, so self-directed travelers who compare prices but distrust
+    automated payment would pick it during planning.'

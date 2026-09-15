@@ -297,3 +297,54 @@
     and probing actions after target input into one AI-driven flow, cutting tool-switching and result-stitching
     steps, so red teams or SRC participants needing fast broad coverage without dedicated recon staff
     would try it; no user feedback is public, so the motive remains inferred.'
+- id: req-full-strikeagent-atkbrain-flash-2026-09-15
+  project_slug: strikeagent-atkbrain-flash
+  level: full
+  reviewed_at: '2026-09-15T01:07:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队打点与 SRC 场景下目标信息到漏洞验证、报告交付的任务，痛点在于多工具人工编排耗时且结果分散；仓库说明覆盖红队、SRC、CTF，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-be316e6c0b1a20ff
+    - ev-a8d363786a7c4196
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 254 增至 343，说明社区关注度上升，但收藏与排名只属关注度证据，不能证明目标用户持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-be316e6c0b1a20ff
+    - ev-a8d363786a7c4196
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断收入来自 to B 安全团队、to C 研究者还是 to VC；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-be316e6c0b1a20ff
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明未给出自动化程度、交付物格式与人工复核边界，无法核验渗透测试结果能否确定性交付，也未说明授权与安全合规约束。
+    evidence_ids:
+    - ev-be316e6c0b1a20ff
+    - ev-50875f8a15546bbb
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认实际支持的自动化步骤、输出报告样例与部署方式，以核验交付确定性。
+  market: ''
+  job: 红队渗透测试工程师或安全研究员在授权测试或 SRC 项目中拿到目标资产清单后，需要完成信息收集、打点、漏洞验证与报告整理，把零散的目标信息转成可复现的攻击路径与交付报告。
+  job_en: A red-team penetration tester or security researcher, given an authorized target asset list
+    in an engagement or SRC program, must perform reconnaissance, initial access, vulnerability validation
+    and reporting, turning scattered target data into reproducible attack paths and a deliverable report.
+  pain: 公开材料只说明该平台覆盖红队打点、SRC 与 CTF，未提供用户抱怨或案例；从工作流结构推理，打点阶段需人工在大量工具间切换、重复执行扫描与验证，耗时且结果分散，不解决的后果是测试周期拉长、覆盖遗漏。
+  pain_en: Public materials only state the platform covers red-team initial access, SRC and CTF, with
+    no user complaints or cases; by workflow inference, the initial-access phase requires manual switching
+    among many tools and repeated scanning and validation, which is slow and scatters results, leaving
+    longer cycles and coverage gaps if unsolved.
+  current_alternative: 公开材料未说明现有替代方式；结构上推断用户目前依赖 Metasploit、Nmap、Burp Suite 等单点工具加人工编排，或使用其他自动化渗透框架。
+  current_alternative_en: Public materials do not describe current alternatives; structurally, users likely
+    rely on point tools such as Metasploit, Nmap and Burp Suite with manual orchestration, or other automated
+    pentest frameworks.
+  usage_reason: 推断：相较人工在多个单点工具间切换并手工汇总，该平台把目标信息输入后的扫描与攻击模拟收敛到一条自动化流程并直接产出报告，减少工具切换与结果拼接步骤，因此做红队打点或 SRC
+    的安全人员会在需要快速覆盖目标时选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with manually switching among point tools and consolidating results
+    by hand, the platform funnels scanning and attack simulation after target input into one automated
+    flow that outputs a report, cutting tool-switching and result-stitching steps, so red-team or SRC
+    practitioners needing fast target coverage would choose it; no user feedback yet confirms this motive.'

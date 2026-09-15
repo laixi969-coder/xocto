@@ -179,3 +179,56 @@
     into a persistent wiki and gates skill selection from that wiki, removing a manual summarization step;
     the repo claims reproducible multi-domain validation experiments and a live run log, but no user feedback
     or repeat-use evidence is public, so long-term retention in the workflow cannot be confirmed.'
+- id: req-full-wikiskill-2026-09-15
+  project_slug: wikiskill
+  level: full
+  reviewed_at: '2026-09-15T01:08:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体经验无法跨会话沉淀、技能互相干扰的问题，痛点刚性来自同类任务反复调试与缺少可核对启用边界；公开材料已给出输入（运行经验）、动作（写入持久 wiki 并据此筛选技能）、交付（可复用技能与运行日志）的闭环，属工作流结构推理。谁付钱未披露，留待模式关。
+    evidence_ids:
+    - ev-f45b09adcf044b7e
+    - ev-e648e23d1d5d4c87
+    - ev-1ee5e0ae008643b6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 199 stars 与论文、仓库自述，属关注度而非采用证据；没有用户评价、客户案例或团队重复使用记录，无法判断是否形成共识，也无法确认开发者是否长期留在工作流中。
+    evidence_ids:
+    - ev-1ee5e0ae008643b6
+    - ev-e648e23d1d5d4c87
+  - gate: model
+    status: insufficient
+    reason: 开源框架，公开材料未披露定价、付费方或服务方式；可能路径是 to B 的团队自建部署或 to VC 的研究资助，但均无公开证据，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e648e23d1d5d4c87
+    - ev-f45b09adcf044b7e
+  - gate: truth
+    status: insufficient
+    reason: 宣称忠实实现论文 Algorithm 1 并有真实运行日志与多领域可复现实验，但缺少独立第三方复现、技能启用准确率与安全边界说明，交付确定性尚未被外部核验。
+    evidence_ids:
+    - ev-1ee5e0ae008643b6
+    - ev-e648e23d1d5d4c87
+  next_validation: 追踪 公开代码仓库 仓库 Stahl-G/wikiskill 的 issue 与 discussion，确认是否有团队在真实任务中重复使用并报告技能启用效果与失败案例。
+  market: ''
+  job: 使用 Hermes Agent 的开发者，在反复执行同类可评测任务（如多领域基准任务）后，需要把每次运行的成功与失败经验沉淀为持久知识，并据此筛选、启用可复用技能，最终产出可复用的技能条目与可核对的运行日志。
+  job_en: Developers running Hermes Agent who, after repeatedly executing similar evaluable tasks (e.g.,
+    multi-domain benchmark tasks), need to consolidate each run's successes and failures into persistent
+    knowledge, then gate and enable reusable skills from it, producing reusable skill entries and a checkable
+    run log.
+  pain: 智能体经验无法跨会话保留，同类任务反复调试；技能之间互相干扰，缺少可核对的启用边界，导致经验无法稳定转化为可复用能力。
+  pain_en: Agent experience does not persist across sessions, similar tasks are re-debugged, skills interfere
+    with each other, and there is no checkable gating boundary, so experience cannot reliably convert
+    into reusable capability.
+  current_alternative: 手工维护提示词模板、把经验写在文档里，或依赖 Hermes Agent 框架自带的记忆模块。
+  current_alternative_en: Hand-maintained prompt templates, experience kept in documents, or the memory
+    modules bundled with the Hermes Agent framework.
+  usage_reason: 推断：相较手工维护提示词与文档，它把每次运行结果自动写入持久知识 wiki，再据此筛选并启用技能，减少人工整理与逐次重写提示这一步；因此需要跨任务复用经验、且要求技能启用可核对的
+    Hermes Agent 开发者会在重复执行同类任务时选择它。公开材料尚无用户反馈或重复使用证据，长期留存无法确认。
+  usage_reason_en: 'Inference: versus hand-maintained prompts and documents, it auto-writes each run''s
+    outcomes into a persistent knowledge wiki and gates skills from it, removing the manual curation and
+    per-run prompt rewriting step; so Hermes Agent developers who need cross-task experience reuse and
+    checkable skill gating would choose it when repeating similar tasks. No public user feedback or repeat-use
+    evidence exists, so long-term retention cannot be confirmed.'

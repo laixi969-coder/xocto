@@ -1,0 +1,83 @@
+- id: req-initial-triangllabs-2026-09-15
+  project_slug: triangllabs
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决本地 agent 配置繁琐的问题，但公开材料只有一句介绍，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-1084010b894de73d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅19点、2条评论，属于早期关注，不构成采用共识。
+    evidence_ids:
+    - ev-1084010b894de73d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、开源许可与付费路径，买方是个人开发者还是企业无法判断。
+    evidence_ids:
+    - ev-1084010b894de73d
+  - gate: truth
+    status: insufficient
+    reason: 缺少模型支持清单、部署文档与可复现实测，交付是否确定无法核对。
+    evidence_ids:
+    - ev-1084010b894de73d
+  next_validation: 收集 Otis 官方仓库或文档页，核对其支持的本地模型清单、安装步骤与开源许可。
+  market: ''
+  job: 开发者或技术用户在本地机器上运行 AI agent，需要让 agent 调用本地模型完成自动化任务，处理的是本机文件与本地推理请求。
+  job_en: Developers or technical users run an AI agent on their own machine and need it to call local
+    models for automation tasks, working with local files and local inference requests.
+  pain: 本地跑 agent 通常要自己装模型、配运行环境、调依赖，配置成本高且容易失败；公开材料未说明 Otis 具体消除了哪一步。
+  pain_en: Running an agent locally usually means installing models, configuring runtimes and fixing dependencies
+    yourself, which is costly and failure-prone; public material does not say which step Otis removes.
+  current_alternative: 手动配置本地模型加自建 agent 脚本，或直接使用云端 agent 服务。
+  current_alternative_en: Manually configuring local models plus self-built agent scripts, or using cloud
+    agent services directly.
+  usage_reason: 推断：若 Otis 真能开箱即用调用本地模型，用户可省去环境配置这一步，从而在数据不能出本机的情况下仍能跑 agent；但公开材料只有一句介绍，缺少文档、模型清单与实测，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if Otis truly calls local models out of the box, users skip environment
+    setup and can still run an agent when data cannot leave the machine; but public material is a single
+    sentence with no docs, model list or reproducible test, so this causal claim is unconfirmed.'
+- id: req-full-triangllabs-2026-09-15
+  project_slug: triangllabs
+  level: full
+  reviewed_at: '2026-09-15T01:07:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它要解决本地 agent 配置繁琐的问题，但公开材料只有一句介绍，未说明替代了哪一步旧工作、痛点强度与不采用后果，连需求与痛点都难以还原，价值关不成立。
+    evidence_ids:
+    - ev-add29392ff2c7219
+    - ev-47928d6babf562b6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Otis 官方仓库或文档页，核对其支持的本地模型清单、安装步骤与开源许可。
+  market: ''
+  job: 开发者或技术用户在本地机器上运行 AI agent，需要让 agent 调用本地模型完成自动化任务，处理本机文件与本地推理请求。
+  job_en: Developers or technical users run an AI agent on their own machine and need it to call local
+    models for automation tasks, working with local files and local inference requests.
+  pain: 本地跑 agent 通常要自己装模型、配运行环境、调依赖，配置成本高且容易失败；但公开材料只有一句介绍，未说明 Otis 具体消除了哪一步，也未给出任何用户抱怨或 workaround 证据。
+  pain_en: Running an agent locally usually means installing models, configuring runtimes and fixing dependencies
+    yourself, which is costly and failure-prone; but public material is a single sentence that does not
+    say which step Otis removes, and offers no user complaint or workaround evidence.
+  current_alternative: 手动配置本地模型加自建 agent 脚本，或直接使用云端 agent 服务。
+  current_alternative_en: Manually configuring local models plus self-built agent scripts, or using cloud
+    agent services directly.
+  usage_reason: 推断：若 Otis 真能开箱即用调用本地模型，用户可省去环境配置这一步，从而在数据不能出本机的情况下仍能跑 agent；但公开材料只有一句介绍，缺少文档、模型清单与实测，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if Otis truly calls local models out of the box, users skip environment
+    setup and can still run an agent when data cannot leave the machine; but public material is a single
+    sentence with no docs, model list or reproducible test, so this causal claim is unconfirmed.'

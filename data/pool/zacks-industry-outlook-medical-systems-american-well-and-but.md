@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNMmx5am9nWVN4
 summary: Zacks Industry Outlook Medical Systems, American Well and Butterfly Network TradingView
 first_seen: '2026-09-14T08:17:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

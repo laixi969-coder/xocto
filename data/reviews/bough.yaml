@@ -166,3 +166,50 @@
     bough''s single local Go binary merges the two log sources into one view, removing the manual step
     of cross-referencing raw sessions against git records; however, no user feedback or case supports
     this motive, and there is no retention or repeat-use evidence.'
+- id: req-full-bough-2026-09-15
+  project_slug: bough
+  level: full
+  reviewed_at: '2026-09-15T01:05:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 编码代理日志分散、与提交记录割裂、事后无法按天复盘的问题；痛点在于过程记录不可回看，旧做法是手动翻日志加 git log 或干脆不复盘。产品以本机单二进制读取会话与提交并输出按天视图，交付路径可确定，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-8b99e8dba2ca247a
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅记录 53 个收藏，说明有开发者注意到该项目，但没有评价、issue 或案例显示目标用户把它留在日常复盘流程里，持续采用与强场景均未核验。
+    evidence_ids:
+    - ev-8b99e8dba2ca247a
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自开发者个人订阅或开源赞助，属判断而非已验证事实；本地处理、不上传数据的定位也限制了企业侧付费路径。
+    evidence_ids:
+    - ev-8b99e8dba2ca247a
+  - gate: truth
+    status: insufficient
+    reason: 官网只说明本机运行、不外发数据，未公开日志解析的准确率、是否需要人工校对，以及多代理、多仓库下的交付边界，承诺能否确定性兑现缺少可复现证据。
+    evidence_ids:
+    - ev-8b99e8dba2ca247a
+  next_validation: 追踪 bough 官方仓库的 README、release 说明与 issue/discussion，确认它实际解析哪些代理日志格式、输出形态与是否需要人工校对，并观察是否有用户公开描述将其纳入日常复盘流程。
+  market: ''
+  job: 使用 Claude Code 或 Codex 的开发者，在一天编码结束后，面对本机积累的会话日志与 git 提交历史，打开 bough 把这些原始记录整理成按天组织的工作视图，逐条回看当天写了哪些提示词、哪些改动最终被提交。
+  job_en: A developer using Claude Code or Codex, at the end of a coding day, takes the locally accumulated
+    session logs and git commit history and runs bough to turn those raw records into a day-organized
+    work view listing each prompt and what was actually committed.
+  pain: AI 编码代理把过程写进本机日志，但这些日志分散、按会话而非按天组织，与 git 提交记录彼此割裂；开发者事后想复盘当天到底让代理做了什么、哪些真正落地，只能自己翻文件或凭记忆，缺少一份可回看的当日记录。
+  pain_en: AI coding agents write their process into local logs, but those logs are scattered, organized
+    by session rather than by day, and disconnected from git commits; reconstructing what the agent was
+    asked to do and what actually landed means digging through files or relying on memory, with no reviewable
+    daily record.
+  current_alternative: 当前替代方式是手动翻查 Claude Code / Codex 的会话日志文件、结合 git log 自行拼凑，或干脆不复盘、只依赖记忆与终端滚动历史。
+  current_alternative_en: Today users manually dig through Claude Code / Codex session log files, cross-reference
+    git log, or simply skip the retrospective and rely on memory and terminal scrollback.
+  usage_reason: 相较手动翻日志再对照 git log，bough 以单个 Go 二进制在本机读取代理会话记录与提交历史，直接输出按天聚合、逐条列出提示词与已提交内容的视图，省去跨文件比对与手工整理这一步；注重隐私、不愿把编码日志上传到第三方服务的开发者会因此选择它。这是基于产品能力与旧流程作出的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with manually reading logs and cross-referencing git log, bough runs as a
+    single local Go binary that reads agent session records and commit history and directly emits a day-grouped
+    view listing each prompt and what was committed, removing the cross-file comparison and manual assembly
+    step; developers who care about privacy and will not upload coding logs to a third party would choose
+    it on that basis. This is an inference from product capability and the old workflow

@@ -1,6 +1,6 @@
 ---
 slug: ayar-labs-150m-funding-and-2027-production-target
-name: Ayar Labs’ $150M Funding and 2027 Production Target
+name: Ayar Labs
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxONHZaS1FIWl8t
 summary: Ayar Labs’ $150M Funding and 2027 Production Target quasa.io
 first_seen: '2026-09-14T06:04:56Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Ayar Labs’ $150M Funding and 2027 Production Target
+# Ayar Labs
 
 Ayar Labs’ $150M Funding and 2027 Production Target quasa.io
 

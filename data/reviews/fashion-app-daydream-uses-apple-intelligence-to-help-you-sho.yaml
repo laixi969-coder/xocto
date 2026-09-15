@@ -1,0 +1,89 @@
+- id: req-initial-fashion-app-daydream-uses-apple-intelligence-to-help-you-sho-2026-09-15
+  project_slug: fashion-app-daydream-uses-apple-intelligence-to-help-you-sho
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决看到穿搭却找不到同款的搜索痛点，旧行为是截图后手动搜索或发帖求同款，结构上成立。
+    evidence_ids:
+    - ev-dae10685d98fb184
+  - gate: consensus
+    status: insufficient
+    reason: 只有媒体报道，缺少用户评价、下载或使用数据，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-dae10685d98fb184
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与佣金方式，买方可能是消费者或品牌方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dae10685d98fb184
+  - gate: truth
+    status: insufficient
+    reason: 识别准确率与商品库覆盖未披露，能否稳定交付可购买结果无法核对。
+    evidence_ids:
+    - ev-dae10685d98fb184
+  next_validation: 收集 Daydream 官方定价页或应用商店说明，确认其收费方式与商品库覆盖范围。
+  market: ''
+  job: 普通消费者在浏览相册里保存的穿搭截图或街拍照片时，想找到同款或相似单品并完成购买。
+  job_en: Ordinary consumers browsing saved outfit screenshots or street-style photos in their camera
+    roll who want to find the same or similar items and buy them.
+  pain: 看到喜欢的穿搭却不知道品牌和款式，只能靠截图后手动搜索或发帖求同款，往往找不到或耗时很久。
+  pain_en: When users like an outfit they often do not know the brand or style, so they must manually
+    search after screenshotting or post asking for the item, which often fails or takes a long time.
+  current_alternative: 旧做法是截图后用关键词在电商平台反复搜索、用图片搜索工具试运气，或在社交平台发帖询问同款。
+  current_alternative_en: The old approach is to screenshot and repeatedly search e-commerce platforms
+    with keywords, try image search tools, or post on social platforms asking for the item.
+  usage_reason: 相较手动关键词搜索，Daydream 直接读取相册中已有的穿搭照片并输出可购买结果，省去用户自己描述款式、品牌再逐条比对的步骤，因此常存穿搭图、又懒得手动找同款的消费者会在看到心仪穿搭时选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with manual keyword search, Daydream reads existing outfit photos in the camera
+    roll and returns shoppable results, removing the step of describing the style and brand and comparing
+    listings one by one; consumers who save outfit images but dislike manual searching would choose it
+    when they spot an outfit they like. This is an inference based on product capability.
+- id: req-full-fashion-app-daydream-uses-apple-intelligence-to-help-you-sho-2026-09-15
+  project_slug: fashion-app-daydream-uses-apple-intelligence-to-help-you-sho
+  level: full
+  reviewed_at: '2026-09-15T01:05:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决看到穿搭却找不到同款的搜索痛点，旧行为是截图后手动搜索或发帖求同款，痛点刚性且交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-dae10685d98fb184
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开资料 报道该功能随 iOS 27 上线，缺少用户评价、下载或使用数据，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-dae10685d98fb184
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与佣金方式，买方可能是消费者或品牌方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dae10685d98fb184
+  - gate: truth
+    status: insufficient
+    reason: 识别准确率与商品库覆盖未披露，能否稳定交付可购买结果无法核对，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-dae10685d98fb184
+  next_validation: 收集 Daydream 官方定价页或应用商店说明，确认其收费方式与商品库覆盖范围。
+  market: ''
+  job: 普通消费者在相册里存下穿搭截图或街拍照片后，打开 Daydream 让系统识别图中服饰单品并返回可购买结果，或直接通过 Siri 搜索商品，最终由自己确认购买。
+  job_en: Ordinary consumers who have saved outfit screenshots or street-style photos in their camera
+    roll open Daydream to have the garments identified and returned as shoppable results, or search products
+    via Siri, then confirm the purchase themselves.
+  pain: 看到喜欢的穿搭却不知道品牌和款式，只能截图后手动用关键词反复搜索或发帖求同款，常常找不到或耗时很久；相册里积累的灵感图无法直接转化为可购买信息。
+  pain_en: Users who like an outfit often do not know the brand or style, so they must screenshot and
+    repeatedly search with keywords or post asking for the item, which often fails or takes long; saved
+    inspiration images cannot be turned directly into purchasable information.
+  current_alternative: 旧做法是截图后用关键词在电商平台反复搜索、用通用图片搜索工具试运气，或在社交平台发帖询问同款。
+  current_alternative_en: The old approach is to screenshot and repeatedly search e-commerce platforms
+    with keywords, try generic image search tools, or post on social platforms asking for the item.
+  usage_reason: 相较手动关键词搜索，Daydream 直接读取相册中已有的穿搭照片并输出可购买结果，省去用户自己描述款式、品牌再逐条比对的步骤，因此常存穿搭图又懒得手动找同款的消费者会在看到心仪穿搭时选择它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manual keyword search, Daydream reads existing outfit photos in the camera
+    roll and returns shoppable results, removing the step of describing the style and brand and comparing
+    listings one by one; consumers who save outfit images but dislike manual searching would choose it
+    when they spot an outfit they like. This is an inference based on product capability, not yet supported
+    by user feedback.

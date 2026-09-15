@@ -1,0 +1,84 @@
+- id: req-initial-assist-2026-09-15
+  project_slug: assist
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出语音标注屏幕这一动作，说不清解决谁的什么刚性痛点，价值关证据不足。
+    evidence_ids:
+    - ev-2bdc6dbae39f5f9a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值未成立，且无采用或重复使用证据，无法判断共识。
+    evidence_ids:
+    - ev-2bdc6dbae39f5f9a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值未成立，买方与收费方式均无材料支持。
+    evidence_ids:
+    - ev-2bdc6dbae39f5f9a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值未成立，标注结果能否确定性交付给他人无法核对。
+    evidence_ids:
+    - ev-2bdc6dbae39f5f9a
+  next_validation: 收集该产品官方页面或文档，确认语音标注产出的交付物形态以及是否可分享给他人。
+  market: ''
+  job: 公开材料只说明 Mac 用户可用语音标注屏幕并管理截图与剪贴板，未说明谁在什么情况下、处理什么材料、要完成什么任务。
+  job_en: Public material only says Mac users can annotate the screen by voice and manage screenshots
+    and clipboard; it does not say who does this, in what situation, with what material, to finish what
+    task.
+  pain: 材料未给出用户抱怨或旧做法受阻的具体描述，痛点只能推测。
+  pain_en: The material gives no concrete description of user complaints or of an old approach being blocked,
+    so the pain can only be inferred.
+  current_alternative: 材料未说明用户现在如何完成屏幕标注与说明，常见做法是截图后打字，但候选未证实。
+  current_alternative_en: The material does not say how users currently annotate and explain screens;
+    screenshotting then typing is common, but the candidate does not confirm it.
+  usage_reason: 若语音标注能省去截图后打字解释这一步，远程协作或评审中的用户可能选择它，但缺少交付形态与使用证据，这是推断。
+  usage_reason_en: If voice annotation removes the step of typing an explanation after screenshotting,
+    users in remote collaboration or review might choose it, but the delivery form and usage evidence
+    are missing; this is an inference.
+- id: req-full-assist-2026-09-15
+  project_slug: assist
+  level: full
+  reviewed_at: '2026-09-15T01:04:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只给出语音标注屏幕这一动作，未说明谁在什么工作节点、处理什么材料、产出什么交付物，也写不出具体痛点与旧替代，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-ef23680b47c33c0d
+    - ev-a0dea29720070f1c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官方页面或文档，确认语音标注产出的交付物形态以及是否可分享给他人。
+  market: ''
+  job: 公开材料只说明 Mac 用户可用语音标注屏幕并管理截图与剪贴板，未说明谁在什么情况下、处理什么材料、要完成什么任务。
+  job_en: Public material only says Mac users can annotate the screen by voice and manage screenshots
+    and clipboard; it does not say who does this, in what situation, with what material, to finish what
+    task.
+  pain: 材料未给出用户抱怨或旧做法受阻的具体描述，痛点只能推测。
+  pain_en: The material gives no concrete description of user complaints or of an old approach being blocked,
+    so the pain can only be inferred.
+  current_alternative: 材料未说明用户现在如何完成屏幕标注与说明，常见做法是截图后打字，但候选未证实。
+  current_alternative_en: The material does not say how users currently annotate and explain screens;
+    screenshotting then typing is common, but the candidate does not confirm it.
+  usage_reason: 若语音标注能省去截图后打字解释这一步，远程协作或评审中的用户可能选择它，但缺少交付形态与使用证据，这是推断。
+  usage_reason_en: If voice annotation removes the step of typing an explanation after screenshotting,
+    users in remote collaboration or review might choose it, but the delivery form and usage evidence
+    are missing; this is an inference.

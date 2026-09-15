@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EUFhlaENyUC1U
 summary: ky888官网登录注册荣获多项权威认证，AI技术实力获认可 体坛
 first_seen: '2026-09-13T07:03:50Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

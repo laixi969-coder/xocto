@@ -293,3 +293,56 @@
     into one interface reachable from desktop, mobile, and a self-hosted VPS, cutting the step of switching
     devices/windows and manually keeping remote sessions alive, so developers running parallel agents
     who need self-hosting or mobile access would try it; no user feedback yet confirms this motive.'
+- id: req-full-vicoa-2026-09-15
+  project_slug: vicoa
+  level: full
+  reviewed_at: '2026-09-15T01:08:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码代理并行时的会话分散与远程接管需求：开发者要在桌面、手机或自托管 VPS 上统一调度一组代理。公开材料只给出产品定位与自托管能力，痛点强度属工作流结构推理，尚无用户抱怨或量化代价，但任务、旧替代与不解决的后果可还原。
+    evidence_ids:
+    - ev-1ccb1723122b5d45
+    - ev-799fa078b2a83c99
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 181 升至 253，说明开源社区持续关注，但收藏与增长只属关注度证据，不能证明目标开发者已把它留在日常工作流；缺少 issue、discussion 或用户评价说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-1ccb1723122b5d45
+    - ev-6f681d98ab929977
+  - gate: model
+    status: insufficient
+    reason: 开源可自托管，公开材料未见定价页、付费版本或企业采购记录，钱可能来自托管服务、支持或 to VC，属判断而非已验证事实；买方与单位经济尚未核验，但不反推问题不存在。
+    evidence_ids:
+    - ev-1ccb1723122b5d45
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行失败、权限边界与人工接管如何确定性交付，也无可复现的部署文档或实测记录；跨设备远程操作编码代理的安全边界尤其缺少公开证据。
+    evidence_ids:
+    - ev-1ccb1723122b5d45
+    - ev-799fa078b2a83c99
+  next_validation: 追踪 Vicoa 官方仓库的 issue、discussion 与部署文档，确认是否有用户公开描述多代理并行的具体使用场景、自托管部署方式及代理失败时的人工接管流程。
+  market: ''
+  job: 软件开发者或技术团队负责人在同时运行多个编码代理（如并行修 bug、跑重构、开多个分支任务）时，需要从桌面、手机或自托管 VPS 上统一查看、调度和接管这些代理的会话与产出，而不是守在一台机器的一个终端窗口前。
+  job_en: A software developer or tech lead running several coding agents at once (parallel bug fixes,
+    refactors, branch tasks) needs to view, dispatch and take over those agent sessions and outputs from
+    desktop, mobile or a self-hosted VPS, instead of sitting in front of one terminal window on one machine.
+  pain: 公开材料只说明它是可自托管、跨设备的代理开发环境，未给出用户抱怨或量化痛点；从工作流结构推理：多代理并行时，会话分散在本地终端、缺少统一状态视图与远程接管手段，离开工位或换设备就难以继续推进，代理跑偏或卡住时无法及时干预。
+  pain_en: Public materials only describe a self-hostable, cross-device agent development environment
+    and give no user complaints or quantified pain; by workflow inference, parallel agents scatter across
+    local terminals with no unified status view or remote takeover, so progress stalls when the developer
+    leaves the desk or switches devices, and a drifting or stuck agent cannot be intervened on in time.
+  current_alternative: 当前替代方式推断为：在本地终端或 IDE 里逐个手动启动编码代理，用 tmux/SSH 维持远程会话，靠人工切换窗口和复制粘贴来跟踪多个代理的状态；公开材料未说明它具体替代了哪套旧流程。
+  current_alternative_en: The inferred current alternative is launching coding agents one by one in a
+    local terminal or IDE, keeping remote sessions alive with tmux/SSH, and tracking multiple agents by
+    manually switching windows and copy-pasting; public materials do not state which prior workflow it
+    replaces.
+  usage_reason: 推断：相较逐个终端加 SSH 的旧做法，它把多个代理会话收进一个可跨设备访问的界面并支持自托管，用户不必为每个代理单独维持远程连接或守在机器前，因此同时管理多个代理、又需要离开工位或把运行放在自有
+    VPS 上的开发者会选它；这是基于产品能力与任务结构的推断，尚无用户反馈或案例证实。
+  usage_reason_en: 'Inference: versus one-terminal-per-agent plus SSH, it consolidates multiple agent
+    sessions into one cross-device interface with self-hosting, so users need not keep a separate remote
+    connection per agent or stay at the machine; that is why developers juggling several agents who must
+    leave the desk or run on their own VPS would pick it. This is inferred from product capability and
+    task structure, not confirmed by user feedback or cases.'

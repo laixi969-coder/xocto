@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/wayneworkman2012/peacebell-v1-291M-
 summary: ''
 first_seen: '2026-09-14T15:44:03Z'
 last_seen: '2026-09-15T00:39:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

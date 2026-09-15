@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxObmpIdXJOZ002
 summary: FinTech GCC Playbook Nasscom
 first_seen: '2026-09-12T07:56:40Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

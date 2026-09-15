@@ -1,6 +1,6 @@
 ---
 slug: 亿格云完成近亿元b轮融资加速构建企业ai治理基础设施
-name: 亿格云完成近亿元B+轮融资，加速构建企业AI治理基础设施
+name: 亿格云
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE42T1FnVGZfZ1dY
 summary: 亿格云完成近亿元B+轮融资，加速构建企业AI治理基础设施 投资界
 first_seen: '2026-09-14T03:54:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 亿格云完成近亿元B+轮融资，加速构建企业AI治理基础设施
+# 亿格云
 
 亿格云完成近亿元B+轮融资，加速构建企业AI治理基础设施 投资界
 

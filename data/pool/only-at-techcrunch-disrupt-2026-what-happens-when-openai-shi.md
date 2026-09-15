@@ -23,7 +23,7 @@ summary: If you're building an AI company, the question isn't whether foundation
   session on the Builders Stage at TechCrunch Disrupt 2026.
 first_seen: '2026-09-14T15:00:00Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

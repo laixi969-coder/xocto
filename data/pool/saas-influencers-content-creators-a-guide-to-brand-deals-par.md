@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNRjE4aGQxZFQ0
 summary: 'SaaS INFLUENCERS & CONTENT CREATORS: A GUIDE TO BRAND DEALS, PARTNERSHIPS & COLLABORATIONS futuristsspeakers.com'
 first_seen: '2026-09-14T11:42:41Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,86 @@
+- id: req-initial-telox-2026-09-15
+  project_slug: telox
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 LaTeX 环境配置繁琐、在线编辑器依赖网络这一痛点，旧流程清楚；但公开材料只有一句介绍，无法确认交付是否稳定可靠。
+    evidence_ids:
+    - ev-a2a5a42d3f294a8f
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分 4 条评论，没有采用或留存证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a2a5a42d3f294a8f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，本地优先工具可能按授权或机构采购收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a2a5a42d3f294a8f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明是否含 AI 生成或改写能力，也未说明本地保存与协作之间的边界，求真判断缺少依据。
+    evidence_ids:
+    - ev-a2a5a42d3f294a8f
+  next_validation: 收集 telox 官方页面或文档，确认其是否包含 AI 公式生成或改写能力，以及本地保存与协作的具体边界。
+  market: ''
+  job: 科研人员或教师在浏览器中撰写论文与讲义时，直接编辑 LaTeX 公式和文本并即时查看排版结果，最终得到可继续使用的 LaTeX 草稿。
+  job_en: Researchers or teachers writing papers and lecture notes edit LaTeX formulas and text in the
+    browser with immediate typeset preview, ending with a reusable LaTeX draft.
+  pain: 本地 LaTeX 环境安装配置繁琐，在线编辑器又依赖网络与账号，临时写公式时切换成本高。
+  pain_en: Local LaTeX setups are cumbersome to install and configure, while online editors depend on
+    network and accounts, making quick formula writing costly to switch into.
+  current_alternative: 现有做法是安装本地 TeX 发行版配合编辑器，或使用 Overleaf 等在线协作平台。
+  current_alternative_en: Today people install a local TeX distribution with an editor, or use online
+    collaboration platforms such as Overleaf.
+  usage_reason: 推断：相较本地安装与在线平台，它把公式编辑与预览压缩进一个小于 15MB 的浏览器页面并本地保存，省去环境配置与登录这一步；但公开材料未说明是否含 AI 能力，也未给出用户反馈，选择动机仍属推断。
+  usage_reason_en: 'Inference: compared with local installs and online platforms, it compresses formula
+    editing and preview into a sub-15MB browser page with local storage, removing environment setup and
+    login; but the public material shows no AI capability and no user feedback, so the reason to choose
+    it remains an inference.'
+- id: req-full-telox-2026-09-15
+  project_slug: telox
+  level: full
+  reviewed_at: '2026-09-15T01:07:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LaTeX 环境配置繁琐、在线编辑器依赖网络这一痛点，旧流程清楚；但公开材料只有一句介绍，无法确认交付是否稳定可靠。
+    evidence_ids:
+    - ev-a2a5a42d3f294a8f
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分 4 条评论，没有采用或留存证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a2a5a42d3f294a8f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，本地优先工具可能按授权或机构采购收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a2a5a42d3f294a8f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明是否含 AI 生成或改写能力，也未说明本地保存与协作之间的边界，求真判断缺少依据。
+    evidence_ids:
+    - ev-a2a5a42d3f294a8f
+  next_validation: 收集 telox 官方页面或文档，确认其是否包含 AI 公式生成或改写能力，以及本地保存与协作的具体边界。
+  market: ''
+  job: 科研人员或教师在浏览器中撰写论文与讲义时，直接编辑 LaTeX 公式和文本并即时查看排版结果，最终得到可继续使用的 LaTeX 草稿。
+  job_en: Researchers or teachers writing papers and lecture notes edit LaTeX formulas and text in the
+    browser with immediate typeset preview, ending with a reusable LaTeX draft.
+  pain: 本地 LaTeX 环境安装配置繁琐，在线编辑器又依赖网络与账号，临时写公式时切换成本高。
+  pain_en: Local LaTeX setups are cumbersome to install and configure, while online editors depend on
+    network and accounts, making quick formula writing costly to switch into.
+  current_alternative: 现有做法是安装本地 TeX 发行版配合编辑器，或使用 Overleaf 等在线协作平台。
+  current_alternative_en: Today people install a local TeX distribution with an editor, or use online
+    collaboration platforms such as Overleaf.
+  usage_reason: 推断：相较本地安装与在线平台，它把公式编辑与预览压缩进一个小于 15MB 的浏览器页面并本地保存，省去环境配置与登录这一步；但公开材料未说明是否含 AI 能力，也未给出用户反馈，选择动机仍属推断。
+  usage_reason_en: 'Inference: compared with local installs and online platforms, it compresses formula
+    editing and preview into a sub-15MB browser page with local storage, removing environment setup and
+    login; but the public material shows no AI capability and no user feedback, so the reason to choose
+    it remains an inference.'

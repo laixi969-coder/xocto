@@ -21,7 +21,7 @@ canonical_url: https://spectrum.ieee.org/ai-robots
 summary: When will they be in our homes
 first_seen: '2026-09-14T00:44:23Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

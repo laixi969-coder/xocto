@@ -1,0 +1,84 @@
+- id: req-initial-kinesis-2026-09-15
+  project_slug: kinesis
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决键鼠操作中手部反复移动与行动不便者难以操作的问题，痛点方向成立；但公开材料只有一句功能描述，无法确认控制是否可靠。
+    evidence_ids:
+    - ev-5c79ebf99599a835
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 107 点与 34 条评论，说明有技术关注，但没有用户长期使用或采用证据，关注不等于持续采用。
+    evidence_ids:
+    - ev-5c79ebf99599a835
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业模式，买方可能是个人用户或辅助设备采购方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5c79ebf99599a835
+  - gate: truth
+    status: insufficient
+    reason: 依赖第三方腕带硬件，公开材料未说明识别错误时如何回退以及安全边界。
+    evidence_ids:
+    - ev-5c79ebf99599a835
+  next_validation: 收集该仓库的 README 与 issue 讨论，确认支持的手势、识别准确率、依赖的硬件型号与已知失败场景。
+  market: ''
+  job: 长时间使用 Mac 的重度用户或行动不便者，在需要频繁切换窗口、滚动和点击时，处理腕带采集的手势信号，要完成对 Mac 的免手控制。
+  job_en: A heavy Mac user or person with motor impairments who frequently switches windows, scrolls and
+    clicks takes gesture signals from the wristband and must achieve hands-free control of the Mac.
+  pain: 键鼠操作需要手在设备间反复移动，对长时间使用者造成疲劳，对行动不便者则可能根本无法完成某些操作。
+  pain_en: Keyboard and mouse work forces hands to move repeatedly between devices, tiring long-session
+    users and sometimes making certain actions impossible for people with motor impairments.
+  current_alternative: 使用键盘快捷键、触控板手势、语音控制或辅助开关设备；部分人靠外接脚踏板等专用硬件。
+  current_alternative_en: Using keyboard shortcuts, trackpad gestures, voice control or assistive switch
+    devices; some rely on dedicated hardware such as foot pedals.
+  usage_reason: 推断：相较快捷键和语音控制，该工具把手势信号直接映射为 Mac 操作，省去记快捷键或说出指令的步骤，因此手部活动受限或追求免手操作的用户会尝试；但公开材料没有准确率、延迟或持续使用证据，无法确认可替代现有输入方式。
+  usage_reason_en: 'Inference: compared with shortcuts and voice control, the tool maps gesture signals
+    directly to Mac actions, removing the need to memorize shortcuts or speak commands, so users with
+    limited hand mobility or seeking hands-free work would try it; yet public material has no accuracy,
+    latency or continued-use evidence, so replacing existing input methods is unconfirmed.'
+- id: req-full-kinesis-2026-09-15
+  project_slug: kinesis
+  level: full
+  reviewed_at: '2026-09-15T01:06:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决键鼠操作中手部反复移动与行动不便者难以操作的问题，但公开材料只有一句功能描述，未说明痛点强度、频率或不采用的后果，连需求与痛点都难以还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官网或仓库 README 与 issue 讨论，确认支持的手势、识别准确率、依赖的 Meta Neural Band 型号与已知失败场景。
+  market: ''
+  job: 长时间使用 Mac 的重度用户或行动不便者，在需要频繁切换窗口、滚动和点击时，处理 Meta Neural Band 腕带采集的手势信号，要完成对 Mac 的免手控制。
+  job_en: A heavy Mac user or person with motor impairments who frequently switches windows, scrolls and
+    clicks takes gesture signals from the Meta Neural Band and must achieve hands-free control of the
+    Mac.
+  pain: 公开材料只有一句功能描述，未说明键鼠操作带来的具体负担、频率或用户抱怨，无法确认痛点强度与刚性。
+  pain_en: Public material contains only a one-line feature description and does not state the concrete
+    burden, frequency or user complaints caused by keyboard-and-mouse work, so pain intensity and rigidity
+    cannot be confirmed.
+  current_alternative: 键盘快捷键、触控板手势、语音控制或辅助开关设备；部分人靠外接脚踏板等专用硬件。
+  current_alternative_en: Keyboard shortcuts, trackpad gestures, voice control or assistive switch devices;
+    some rely on dedicated hardware such as foot pedals.
+  usage_reason: 推断：若手势信号能直接映射为 Mac 操作，可省去记快捷键或说出指令的步骤，手部活动受限者可能尝试；但公开材料没有准确率、延迟或持续使用证据，无法确认用户会改用它。
+  usage_reason_en: 'Inference: if gesture signals map directly to Mac actions, it could remove the need
+    to memorize shortcuts or speak commands, so users with limited hand mobility might try it; yet public
+    material has no accuracy, latency or continued-use evidence, so adoption over existing input methods
+    is unconfirmed.'

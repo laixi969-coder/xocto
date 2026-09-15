@@ -354,3 +354,53 @@
     wires ChatGPT''s planning output directly into the Codex harness, removing the copy-paste and context-rebuild
     step, so developers already used to Codex who want better planning on complex tasks would choose it;
     no user feedback is public, so the motive is a structural inference.'
+- id: req-full-codex-with-chatgpt-2026-09-15
+  project_slug: codex-with-chatgpt
+  level: full
+  reviewed_at: '2026-09-15T01:05:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让规划与执行在同一流程内衔接，痛点是单一 harness 长任务易失焦、需人工搬运上下文；公开事实仅有仓库定位与星数，无用户抱怨或案例，故价值判断为工作流结构推理，非采用事实。
+    evidence_ids:
+    - ev-456bef00bce26600
+    - ev-62d2548a456640a8
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库星数从 3,014 增至 4,299，属关注度而非持续采用；缺少 issue、discussion 或用户评价说明开发者是否把它留在日常编码流程里。
+    evidence_ids:
+    - ev-456bef00bce26600
+    - ev-94f2fc03d76bf521
+    - ev-62d2548a456640a8
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页、无付费或采购记录，钱可能来自捐赠、赞助或后续商业化，均未在公开材料中出现；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-456bef00bce26600
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明该组合是否贴近 Codex 第一性目标、计划与执行不一致时如何兜底，也未披露安全与人工边界；交付确定性无法从现有事实核验。
+    evidence_ids:
+    - ev-456bef00bce26600
+    - ev-7f7b11ce7a2c3ed4
+  next_validation: 追踪该仓库的 issue 与 discussion 区，收集开发者是否报告实际使用该组合完成多步编码任务及效果反馈。
+  market: ''
+  job: 开发者在用 Codex 执行多步编码任务时，需要先由 ChatGPT 产出结构化计划，再把计划交给 Codex 的 harness 落地，从而在同一工作流里完成从需求拆解到代码改动的任务。
+  job_en: Developers running multi-step coding tasks with Codex need ChatGPT to produce a structured plan
+    first, then hand that plan to the Codex harness so requirement breakdown and code changes happen in
+    one workflow.
+  pain: 公开材料只给出“ChatGPT 思考、Codex 工作”的定位，未提供用户抱怨或案例；可推断的痛点是单一 harness 在长任务规划上易失焦，开发者需在规划工具与执行工具之间反复搬运上下文。
+  pain_en: Public material only states 'ChatGPT thinks, Codex works' with no user complaints or cases;
+    the inferable pain is that a single harness loses focus on long tasks, forcing developers to shuttle
+    context between a planning tool and an execution tool.
+  current_alternative: 旧做法是手动在 ChatGPT 里写计划、复制到 Codex 会话，或只用单一工具的限制模式，靠人工搬运上下文。
+  current_alternative_en: The old way is manually drafting a plan in ChatGPT, pasting it into a Codex
+    session, or using a single tool's limited mode, with humans shuttling context by hand.
+  usage_reason: 推断：相较手动复制计划，该仓库把 ChatGPT 规划与 Codex harness 串成固定流程，省去在两端之间搬运上下文这一步，因此常做多步编码任务的开发者会在需要先规划再执行时选择它；仓库星数从
+    3,014 增至 4,299 只说明关注度，不构成采用理由。
+  usage_reason_en: 'Inference: versus manually copying plans, this repo wires ChatGPT planning into the
+    Codex harness as a fixed flow, removing the step of shuttling context between two ends, so developers
+    doing multi-step coding tasks would pick it when they need plan-then-execute; the star rise from 3,014
+    to 4,299 shows attention, not adoption.'

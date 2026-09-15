@@ -186,3 +186,53 @@
   usage_reason: 无法从公开证据判断用户为何会选择它：现有证据与产品能力无关，缺少任何可归因到该产品的用户反馈、案例或使用记录。
   usage_reason_en: 'Cannot determine from public evidence why users would choose it: the available evidence
     is unrelated to the product, and there is no attributable user feedback, case or usage record.'
+- id: req-full-geiger-2026-09-15
+  project_slug: geiger
+  level: full
+  reviewed_at: '2026-09-15T01:05:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器上 AI agent、MCP server 与插件无台账、权限不可见的问题：组件由不同工具陆续装上，出事后只能靠记忆和手工翻目录，漏检与说不清权限范围是刚性代价。公开材料只证明一条只读清点命令的能力，尚未证明用户已把它纳入固定流程，故为工作流结构推理。
+    evidence_ids:
+    - ev-e3de598c9ed92fc7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 129 星说明有开发者关注，但公开材料没有客户案例、团队采用声明或 issue/discussion 中的持续使用记录，无法判断是否形成“先清点再收紧权限”的共识。
+    evidence_ids:
+    - ev-e3de598c9ed92fc7
+  - gate: model
+    status: insufficient
+    reason: 它是开源只读工具，公开材料未给出定价、付费路径或商业主体收入，买方与收费方式均属未知；这是判断而非已验证事实，但不足以否定需求本身。
+    evidence_ids:
+    - ev-e3de598c9ed92fc7
+  - gate: truth
+    status: insufficient
+    reason: 清点结果是否准确、覆盖哪些 agent 与 MCP 实现、误报漏报如何，公开材料未提供可复现验证；只读不拦截的边界也意味着它不解决修复与权限收紧本身。
+    evidence_ids:
+    - ev-e3de598c9ed92fc7
+  next_validation: 追踪 Geiger 仓库（atomburst.io/geiger 对应开源仓库）的 README、issue 与 discussion，核对它实际能识别哪些 agent
+    与 MCP server、是否有可复现的扫描结果说明。
+  market: ''
+  job: 开发者或安全工程师在本地开发机、CI 机器或同事电脑上，面对陆续由不同工具和不同人装上的 AI agent、MCP server 与插件，需要先列出一份完整清单，弄清哪些组件存在、各自能访问什么，再决定保留、隔离还是收紧权限。
+  job_en: A developer or security engineer on a local dev machine, CI box or a colleague's computer, facing
+    AI agents, MCP servers and plugins installed over time by different tools and people, needs a complete
+    inventory of which components exist and what each can reach before deciding what to keep, isolate
+    or restrict.
+  pain: 这些组件没有统一台账，来源与权限范围说不清；出问题时只能靠记忆和手工翻目录，既慢又容易漏，也无法向团队或合规方交代机器上到底装了什么。
+  pain_en: These components have no unified register and their origin and permission scope are unclear;
+    when something goes wrong, teams rely on memory and manual directory browsing, which is slow, error-prone
+    and leaves them unable to account for what is actually installed.
+  current_alternative: 手工检查配置文件、翻插件目录、逐个查看已安装扩展，或干脆不查，等出事再说。
+  current_alternative_en: Manually checking config files, browsing plugin directories, inspecting installed
+    extensions one by one, or simply not checking until something breaks.
+  usage_reason: 相较手工逐个翻目录，Geiger 用一条只读命令一次性列出机器上的 agent、MCP server、插件与扩展，把“先找齐有哪些”从逐项排查压缩成一次输出，且只读不改动环境、上手成本低；因此正在把
+    agent 铺进开发或生产环境、又需要向团队或合规方交代组件清单的人会先试它。这是基于产品能力与工作流结构的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with browsing directories component by component, Geiger lists agents, MCP
+    servers, plugins and extensions on a machine in one read-only command, compressing 'first find out
+    what exists' from a per-item search into a single output while leaving the environment untouched;
+    people rolling agents into dev or production environments and needing to account for the component
+    list to a team or compliance owner are therefore likely to try it first. This is an inference from
+    p

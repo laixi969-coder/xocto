@@ -220,3 +220,47 @@
   usage_reason_en: 'Inference: versus manually preparing photos or point clouds for a model, MCP tools
     may remove a format-conversion step, but without user feedback or cases it cannot be confirmed which
     users would choose it for that reason.'
+- id: req-full-openreality-2026-09-15
+  project_slug: openreality
+  level: full
+  reviewed_at: '2026-09-15T01:06:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部指向 OpenAI、Open English、Philip Morris 等无关站点，没有一条描述 Open Reality 的用户任务、痛点或替代行为；连需求与痛点都无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-c6dca00a377c236a
+    - ev-6554e80b030b5010
+    - ev-3525be0e8dda502a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Open Reality 官方仓库的 README、issue 与 discussion，确认是否有开发者描述具体使用场景、替代的旧流程与部署反馈。
+  market: ''
+  job: 开发者想让 AI 助手理解真实空间时，用手机拍摄一段视频，经 VGGT-SLAM 重建为三维场景，再通过 MCP 接口让 Claude、Codex、Cursor 等查询该场景，交付可自托管的场景查询服务。
+  job_en: 'A developer wants an AI assistant to understand a real space: shoot a phone video, reconstruct
+    it into a 3D scene via VGGT-SLAM, and expose it through MCP tools so Claude, Codex, or Cursor can
+    query that scene, delivered as a self-hostable scene-query service.'
+  pain: 公开材料只给出项目自述的功能组合（手机视频、VGGT-SLAM、MCP、可自托管 broker），没有任何用户痛点、抱怨、workaround 或客户案例；无法说明不解决会失去什么、发生频率或后果。
+  pain_en: Public materials only describe the project's own feature bundle (phone video, VGGT-SLAM, MCP,
+    self-hostable broker); there is no user pain, complaint, workaround, or customer case, so the cost,
+    frequency, or consequence of leaving it unsolved cannot be stated.
+  current_alternative: 公开材料未说明开发者今天如何让 AI 理解真实空间（例如手工建模、点云工具、截图描述或直接上传视频），也未说明本项目实际替代了哪一步。
+  current_alternative_en: Public materials do not show how developers today let AI understand a real space
+    (e.g., manual modeling, point-cloud tools, screenshot descriptions, or raw video upload), nor which
+    step this project actually replaces.
+  usage_reason: 推断：若开发者已在用 Claude/Codex/Cursor 且需要空间上下文，MCP 封装可省去自行搭建重建与查询接口的一步；但缺少用户反馈或案例，无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if a developer already uses Claude/Codex/Cursor and needs spatial context,
+    the MCP wrapper could save the step of building reconstruction and query plumbing themselves; without
+    user feedback or cases, it is unconfirmed which users would choose it and when.'

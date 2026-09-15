@@ -1,0 +1,90 @@
+- id: req-initial-how-ninth-wave-built-ai-powered-open-finance-onboarding-on-a-2026-09-15
+  project_slug: how-ninth-wave-built-ai-powered-open-finance-onboarding-on-a
+  level: initial
+  reviewed_at: '2026-09-15T00:39:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开放金融开户中人工逐条核对规范、周期以周计的问题，旧做法是工程师与合规人员手工比对文档。
+    evidence_ids:
+    - ev-068427147ec67cbb
+  - gate: consensus
+    status: insufficient
+    reason: 只有厂商与云平台的技术博客，没有客户案例、采用规模或持续使用证据。
+    evidence_ids:
+    - ev-068427147ec67cbb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按项目还是按接入量收费属判断而非已验证事实。
+    evidence_ids:
+    - ev-068427147ec67cbb
+  - gate: truth
+    status: insufficient
+    reason: 合规评分能否替代人工结论、出错责任如何划分，公开材料未说明。
+    evidence_ids:
+    - ev-068427147ec67cbb
+  next_validation: Ninth Wave 官方产品页或客户案例页，用于核验 Compass 的交付形态与已披露客户。
+  market: ''
+  job: 银行与开放金融数据服务商的对接与合规人员在接入新数据源时，需要按 FDX 标准逐项核对银行 API 定义并判断能否放行。
+  job_en: Integration and compliance staff at banks and open-finance data providers, when connecting a
+    new data source, must check bank API definitions item by item against FDX standards and decide whether
+    to approve.
+  pain: 规范条目多、人工比对耗时，开户周期以周计，且校验过程需要留下可审计的合规依据。
+  pain_en: The specification has many items, manual comparison is slow, onboarding takes weeks, and the
+    checking process must leave auditable compliance evidence.
+  current_alternative: 由工程师与合规人员对照 FDX 文档手工逐条核对，配合表格与内部评审记录。
+  current_alternative_en: Engineers and compliance staff manually check each item against FDX documentation,
+    supported by spreadsheets and internal review records.
+  usage_reason: 相较人工逐条比对文档，它把校验动作变成对 API 定义的自动检查并直接给出合规评分，减少整理核对记录这一步；推断，需要频繁接入新数据源的机构更可能采用。
+  usage_reason_en: Compared with manually comparing documentation item by item, it turns checking into
+    automated inspection of API definitions and returns a compliance score directly, removing the step
+    of compiling check records; this is inference, and institutions that frequently connect new data sources
+    are more likely to adopt it.
+- id: req-full-how-ninth-wave-built-ai-powered-open-finance-onboarding-on-a-2026-09-15
+  project_slug: how-ninth-wave-built-ai-powered-open-finance-onboarding-on-a
+  level: full
+  reviewed_at: '2026-09-15T01:06:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开放金融开户中按 FDX 标准逐项校验银行 API 的需求，痛点是人工比对耗时、周期以周计且需留可审计依据；旧做法是工程师与合规人员手工核对文档。属工作流结构推理。
+    evidence_ids:
+    - ev-068427147ec67cbb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 AWS 与厂商技术博客描述产品能力，未出现客户案例、采用规模或持续使用证据，无法判断对接与合规人员是否已把它留在开户流程里。
+    evidence_ids:
+    - ev-068427147ec67cbb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按项目、按接入量还是随云平台计费均属判断而非已验证事实；可推断付费方为采用该方案的银行或数据服务商。
+    evidence_ids:
+    - ev-068427147ec67cbb
+  - gate: truth
+    status: insufficient
+    reason: 合规评分能否替代人工结论、误判责任如何划分、人工复核边界在哪，公开材料未说明，交付确定性尚缺可核对依据。
+    evidence_ids:
+    - ev-068427147ec67cbb
+  next_validation: 追踪 Ninth Wave 官方产品页或客户案例页，核验 Compass 的交付形态、已披露客户与定价方式。
+  market: ''
+  job: 银行与开放金融数据服务商的对接与合规人员，在接入一家新银行数据源的开户环节，拿到该行 API 定义与 FDX 规范文档，需要逐项校验接口是否符合标准并给出能否放行的合规判断。
+  job_en: Integration and compliance staff at banks and open-finance data providers, during the onboarding
+    step of connecting a new bank data source, take the bank's API definitions and the FDX specification
+    and must check each item for conformance and produce a compliance decision on whether to approve.
+  pain: FDX 规范条目多，人工逐条比对 API 定义耗时，开户周期以周计；校验过程还要留下可审计的合规依据，否则无法通过 SOC 2、PCI DSS 类审查。
+  pain_en: The FDX specification has many items, manual item-by-item comparison of API definitions is
+    slow, onboarding runs in weeks, and the check must leave auditable compliance evidence or it cannot
+    pass SOC 2 and PCI DSS style review.
+  current_alternative: 工程师与合规人员对照 FDX 文档手工逐条核对，用表格和内部评审记录留痕，再走人工放行。
+  current_alternative_en: Engineers and compliance staff manually check each item against FDX documentation,
+    keep spreadsheets and internal review records as evidence, then approve by hand.
+  usage_reason: 相较人工逐条比对文档，它把校验动作变成对 API 定义的自动检查并直接输出合规评分与问题清单，减少整理核对记录这一步；这是基于产品能力与任务结构的推断，需要频繁接入新数据源的机构更可能在开户环节选择它。
+  usage_reason_en: Compared with manually comparing documentation item by item, it turns checking into
+    automated inspection of API definitions and directly returns a compliance score and issue list, removing
+    the step of compiling check records; this is inference from product capability and task structure,
+    and institutions that frequently connect new data sources are more likely to choose it at the onboarding
+    step.

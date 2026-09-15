@@ -1,6 +1,6 @@
 ---
 slug: tandem-health-scores-100m-series-b-led-by-eus-5bn-tech-start
-name: Tandem Health scores $100M Series B, led by EU’s €5bn tech startup fund
+name: Tandem Health
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Swedish healthtech startup Tandem Health hasraised $100m in a Series B 
   B, ...
 first_seen: '2026-09-14T06:30:00Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Tandem Health scores $100M Series B, led by EU’s €5bn tech startup fund
+# Tandem Health
 
 Swedish healthtech startup Tandem Health hasraised $100m in a Series B funding round, which was led by the EU-backed €5bn Scaleup EuropeFund, a new investor. The round, which is large for a Series B, ...
 

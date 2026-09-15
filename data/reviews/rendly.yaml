@@ -84,3 +84,50 @@
     point of a demo video from recording to code, removing the record-and-rough-cut step, so developer-tool
     teams that release often and lack video staff are likely to try it first; there is currently no retention
     or payment evidence.'
+- id: req-full-rendly-2026-09-15
+  project_slug: rendly
+  level: full
+  reviewed_at: '2026-09-15T01:07:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发版演示视频靠人工录屏剪辑的问题：旧流程要录屏再粗剪、每次发版重做，不做则发版缺少演示素材，交付物是可发布视频，结构上成立。
+    evidence_ids:
+    - ev-fa7c9f73949b9ece
+    - ev-b13bfdc8bf6db6a1
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有 issue、discussion、客户案例或评价说明谁在什么场景下采用，关注度证据也不足。
+    evidence_ids:
+    - ev-fa7c9f73949b9ece
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，收费路径属判断而非已验证事实；开发者工具团队与 DevRel 是可能的付费方，但无公开采购或订阅记录。
+    evidence_ids:
+    - ev-fa7c9f73949b9ece
+  - gate: truth
+    status: insufficient
+    reason: 输入形式、生成时长与输出视频的可编辑程度未知，能否确定性交付一条可发布视频尚无法核对。
+    evidence_ids:
+    - ev-fa7c9f73949b9ece
+    - ev-b13bfdc8bf6db6a1
+  next_validation: 抓取 Rendly 官方仓库或产品页中关于输入形式、生成时长与输出格式的说明，核对交付确定性。
+  market: ''
+  job: 开发者关系或产品市场人员在开源项目发版、需要给项目或产品做演示视频时，处理代码仓库与功能变更这类材料，要完成一条可直接对外发布的演示视频。
+  job_en: Developer-relations or product-marketing staff producing a demo video for an open-source project
+    or product release work from the code repository and feature changes to end up with a publishable
+    demo video.
+  pain: 演示视频通常靠人工录屏再剪辑，耗时且每次发版都要重做，缺少视频人力的小团队往往干脆不做，导致发版缺少可传播的演示素材。
+  pain_en: Demo videos are usually made by manual screen recording and editing, which is slow and must
+    be redone at every release, so small teams without video staff often skip them, leaving releases without
+    shareable demo material.
+  current_alternative: 人工录屏后用剪辑软件拼接，或干脆不做演示视频。
+  current_alternative_en: Recording the screen manually and cutting it in editing software, or simply
+    not making a demo video.
+  usage_reason: 推断：相较人工录屏加剪辑，它把演示视频的产出起点从录制改成代码，省掉录制与粗剪这一步，因此发版频繁、又缺少视频人力的开发者工具团队会在发版节点优先试用；目前没有留存或付费证据。
+  usage_reason_en: 'Inference: compared with manual screen recording plus editing, it moves the starting
+    point of a demo video from recording to code, removing the record-and-rough-cut step, so developer-tool
+    teams that release often and lack video staff are likely to try it first at release time; there is
+    currently no retention or payment evidence.'

@@ -163,3 +163,44 @@
   usage_reason_en: 'Inference: an enterprise lacking engineers who can handle its own data, security review,
     and business-metric explanation might choose an embedded external team; however, public materials
     provide no adoption, payment, or repeat-use evidence to confirm this choice occurs.'
+- id: req-full-deploymentinc-hiring-problems-2026-09-15
+  project_slug: deploymentinc-hiring-problems
+  level: full
+  reviewed_at: '2026-09-15T01:05:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅有一句岗位自述，未记录任何用户痛点、旧替代行为或不解决的后果，连需求与痛点都无法还原，价值结构无从判断。
+    evidence_ids:
+    - ev-c45afa178671b648
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Deployment.inc 官网或 公开代码仓库 仓库（Deployment-inc/Deployment.inc-Hiring-Problems）的 README、issue
+    与 discussion，确认是否公开客户案例、交付物说明或定价页。
+  market: ''
+  job: 企业内部的 AI 项目负责人需要在预算与安全团队审查约束下，把演示阶段的模型落到企业自有数据上，跑出可解释的业务指标并向业务负责人解释该指标。
+  job_en: An enterprise AI project owner must take a demo-stage model onto the company's own data under
+    budget and security-team review, produce an explainable business metric, and justify that number to
+    a business owner.
+  pain: 公开材料只有一句岗位描述，未记录任何用户抱怨、失败案例或旧流程摩擦；无法说明不解决会付出什么代价、发生频率或后果。
+  pain_en: Public materials contain only a one-line role description; no user complaints, failure cases,
+    or legacy-process friction are recorded, so the cost, frequency, or consequence of leaving the problem
+    unsolved cannot be stated.
+  current_alternative: 公开材料未说明企业目前如何完成这项工作，也未说明它替代了内部数据团队、外部咨询还是自建 MLOps 流程。
+  current_alternative_en: Public materials do not show how enterprises complete this job today, nor whether
+    it replaces an internal data team, external consultants, or a self-built MLOps pipeline.
+  usage_reason: 缺少用户反馈或客户案例，无法说明哪类用户会在什么情况下选择它；仅凭产品自述不能构成使用理由。
+  usage_reason_en: With no user feedback or customer cases, it is impossible to say which users would
+    choose it and when; a product's own description cannot serve as a usage reason.

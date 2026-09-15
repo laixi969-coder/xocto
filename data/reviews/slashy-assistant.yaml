@@ -1,0 +1,86 @@
+- id: req-initial-slashy-assistant-2026-09-15
+  project_slug: slashy-assistant
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决大量邮件逐封阅读与回复的需求，痛点是时间占用和漏回风险，不采用就要继续人工处理；谁付钱在公开材料中不清楚。
+    evidence_ids:
+    - ev-964672907dca993b
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价、客户案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-964672907dca993b
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页，钱可能来自个人订阅或团队席位采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-964672907dca993b
+  - gate: truth
+    status: insufficient
+    reason: 代发邮件涉及误发与权限边界，公开材料没有说明人工确认环节和发送权限如何控制。
+    evidence_ids:
+    - ev-964672907dca993b
+  next_validation: 收集该产品的官方定价页或客户案例，确认它接管邮件的哪些步骤以及是否按席位或处理量收费。
+  market: ''
+  job: 销售、客服或行政人员在每天收到大量邮件时，需要逐封阅读并写出得体的回复，把收件箱清空并维持对外沟通。
+  job_en: Sales, support or administrative staff receiving many emails daily must read each one and write
+    appropriate replies to clear the inbox and keep external communication going.
+  pain: 逐封阅读和撰写回复占用大量时间，措辞和跟进节奏容易不一致，漏回或迟回会直接影响客户关系和业务推进。
+  pain_en: Reading and drafting each reply consumes large amounts of time, tone and follow-up cadence
+    drift, and missed or late replies directly hurt client relationships and deals.
+  current_alternative: 现在多靠人工逐封处理，或使用邮件模板、规则过滤和通用写作助手起草后再手动发送。
+  current_alternative_en: Today this is mostly done manually, or with email templates, rule-based filters
+    and general writing assistants that draft text the user still sends by hand.
+  usage_reason: 推断：相较模板加通用助手，它直接读取邮件内容并完成撰写与发送，省掉复制到另一个工具再贴回邮箱这一步，因此更可能被邮件量大、回复模式固定的销售或客服团队选用；公开材料没有用户反馈或留存数据，这一判断来自工作流结构推理。
+  usage_reason_en: 'Inference: compared with templates plus a general assistant, it reads the email and
+    completes drafting and sending, removing the step of copying text into another tool and back into
+    the mailbox, which is why sales or support teams with high volume and fixed reply patterns may choose
+    it; the public material has no user feedback or retention data, so this comes from workflow reasoning.'
+- id: req-full-slashy-assistant-2026-09-15
+  project_slug: slashy-assistant
+  level: full
+  reviewed_at: '2026-09-15T01:07:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决大量邮件逐封阅读与回复的需求，痛点是时间占用和漏回风险，不采用就要继续人工处理；谁付钱在公开材料中不清楚。
+    evidence_ids:
+    - ev-964672907dca993b
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价、客户案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-964672907dca993b
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页，钱可能来自个人订阅或团队席位采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-964672907dca993b
+  - gate: truth
+    status: insufficient
+    reason: 代发邮件涉及误发与权限边界，公开材料没有说明人工确认环节和发送权限如何控制。
+    evidence_ids:
+    - ev-964672907dca993b
+  next_validation: 收集该产品的官方定价页或客户案例，确认它接管邮件的哪些步骤以及是否按席位或处理量收费。
+  market: ''
+  job: 销售、客服或行政人员在每天收到大量邮件时，需要逐封阅读并写出得体的回复，把收件箱清空并维持对外沟通。
+  job_en: Sales, support or administrative staff receiving many emails daily must read each one and write
+    appropriate replies to clear the inbox and keep external communication going.
+  pain: 逐封阅读和撰写回复占用大量时间，措辞和跟进节奏容易不一致，漏回或迟回会直接影响客户关系和业务推进。
+  pain_en: Reading and drafting each reply consumes large amounts of time, tone and follow-up cadence
+    drift, and missed or late replies directly hurt client relationships and deals.
+  current_alternative: 现在多靠人工逐封处理，或使用邮件模板、规则过滤和通用写作助手起草后再手动发送。
+  current_alternative_en: Today this is mostly done manually, or with email templates, rule-based filters
+    and general writing assistants that draft text the user still sends by hand.
+  usage_reason: 推断：相较模板加通用助手，它直接读取邮件内容并完成撰写与发送，省掉复制到另一个工具再贴回邮箱这一步，因此更可能被邮件量大、回复模式固定的销售或客服团队选用；公开材料没有用户反馈或留存数据，这一判断来自工作流结构推理。
+  usage_reason_en: 'Inference: compared with templates plus a general assistant, it reads the email and
+    completes drafting and sending, removing the step of copying text into another tool and back into
+    the mailbox, which is why sales or support teams with high volume and fixed reply patterns may choose
+    it; the public material has no user feedback or retention data, so this comes from workflow reasoning.'

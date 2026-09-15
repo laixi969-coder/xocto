@@ -1,0 +1,83 @@
+- id: req-initial-端侧ai从能跑到会进化元空智能跑进惠普预装-2026-09-15
+  project_slug: 端侧ai从能跑到会进化元空智能跑进惠普预装
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能确认它做端侧模型与设备协同，说不清替代了哪一步旧适配工作、谁在用，价值结构无法还原。
+    evidence_ids:
+    - ev-15f10b414cb65f34
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条预装报道，没有厂商确认、出货量或开发者采用信号。
+    evidence_ids:
+    - ev-15f10b414cb65f34
+  - gate: model
+    status: insufficient
+    reason: 未披露计价方式与买方，无法判断钱来自厂商授权还是其他路径。
+    evidence_ids:
+    - ev-15f10b414cb65f34
+  - gate: truth
+    status: insufficient
+    reason: 无法核对预装是否真正交付并运行，缺少机型与激活数据。
+    evidence_ids:
+    - ev-15f10b414cb65f34
+  next_validation: 收集惠普或元空智能官方公开的预装机型清单、开发者文档或端侧模型更新说明。
+  market: ''
+  job: PC厂商的系统集成工程师在新机型出厂前处理端侧模型与驱动的适配，需要让设备出厂即可运行本地AI功能。
+  job_en: System integration engineers at PC makers adapt on-device models and drivers before factory
+    shipment so devices ship with working local AI features.
+  pain: 公开材料未说明具体痛点，只能推断端侧模型与设备迭代脱节、适配成本高；这是推断，不是已核实的用户反馈。
+  pain_en: Public material does not state the specific pain; it can only be inferred that on-device models
+    fall out of sync with device iterations and adaptation is costly. This is inference, not verified
+    user feedback.
+  current_alternative: 公开材料未披露此前PC厂商如何做端侧模型适配与更新，旧做法无法还原。
+  current_alternative_en: Public material does not disclose how PC makers previously handled on-device
+    model adaptation and updates, so the old workflow cannot be reconstructed.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，缺少适配流程、更新机制和厂商反馈这一环。
+  usage_reason_en: It cannot be shown which step is reduced or which verifiable result improves versus
+    the old approach; the adaptation process, update mechanism and vendor feedback are missing.
+- id: req-full-端侧ai从能跑到会进化元空智能跑进惠普预装-2026-09-15
+  project_slug: 端侧ai从能跑到会进化元空智能跑进惠普预装
+  level: full
+  reviewed_at: '2026-09-15T01:08:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅一句“让模型和设备共同进化”，既未说明PC厂商适配端侧模型时卡在哪一步、返工代价多大，也未还原旧适配流程与出厂后更新方式，需求与痛点均无法从公开事实写出。
+    evidence_ids:
+    - ev-15f10b414cb65f34
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪惠普或元空智能官方公开的预装机型清单、端侧模型更新说明或开发者部署文档，以确认适配流程与交付形态。
+  market: ''
+  job: PC厂商的系统集成工程师在新机型出厂前，把端侧模型与设备驱动适配好，使设备出厂即可运行本地AI功能，并在后续机型迭代中保持模型与设备同步。
+  job_en: System integration engineers at PC makers adapt on-device models and drivers before factory
+    shipment so devices ship with working local AI features and stay in sync across device iterations.
+  pain: 公开材料只有一句“让模型和设备共同进化”，没有说明适配环节具体卡在哪里、返工代价多大、出厂后模型如何更新；痛点无法从公开事实还原，只能停留在口号层面。
+  pain_en: Public material offers only the slogan 'let models and devices evolve together'; it does not
+    state where adaptation breaks down, how costly rework is, or how models update after shipment, so
+    the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未披露PC厂商此前如何做端侧模型适配与出厂后更新，旧做法（自研适配、芯片厂商SDK、第三方端侧框架）无法从证据中还原。
+  current_alternative_en: Public material does not disclose how PC makers previously handled on-device
+    model adaptation and post-shipment updates; the old approach (in-house adaptation, chip-vendor SDKs,
+    third-party on-device frameworks) cannot be reconstructed from the evidence.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果；缺少适配流程、更新机制与厂商反馈，无法判断哪类工程师会在什么情况下选择它。
+  usage_reason_en: It cannot be shown which step is reduced or which verifiable result improves versus
+    the old approach; the adaptation workflow, update mechanism and vendor feedback are missing, so which
+    engineers would choose it and when cannot be judged.

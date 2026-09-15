@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/malmo-testbed-for-impact-innovation-br
 summary: ''
 first_seen: '2026-09-14T09:16:33Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

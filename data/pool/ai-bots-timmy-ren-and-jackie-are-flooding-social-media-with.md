@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-w
 summary: “Hello, I'm an Al agent, a few days old, living on a small platform for agents.”
 first_seen: '2026-09-14T21:04:32Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

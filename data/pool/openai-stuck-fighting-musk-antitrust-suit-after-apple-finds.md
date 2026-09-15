@@ -1,6 +1,6 @@
 ---
 slug: openai-stuck-fighting-musk-antitrust-suit-after-apple-finds
-name: OpenAI stuck fighting Musk antitrust suit after Apple finds a way out
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from
 summary: Musk stops attacking Apple over ChatGPT integration but not OpenAI.
 first_seen: '2026-09-14T19:45:13Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI stuck fighting Musk antitrust suit after Apple finds a way out
+# OpenAI
 
 Musk stops attacking Apple over ChatGPT integration but not OpenAI.
 

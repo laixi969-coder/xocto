@@ -453,3 +453,42 @@
   usage_reason_en: 'Inference: if code-generated worlds remove the manual asset-placement step, developers
     might try it; but public material does not show what it solves beyond engine scripting, and no user
     feedback supports the choice.'
+- id: req-full-fable51-worlds-2026-09-15
+  project_slug: fable51-worlds
+  level: full
+  reviewed_at: '2026-09-15T01:05:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有一句“worlds via code, from fable 5.1”和星标数，未说明用户任务、痛点强度、旧替代方式与不解决的后果，无法还原价值结构。
+    evidence_ids:
+    - ev-7fbb63cb18616433
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际替代的世界构建流程、输入输出与可复现的交付结果。
+  market: ''
+  job: 游戏开发者或世界构建师在搭建虚拟世界原型时，用代码定义世界元素并生成可运行场景，以完成世界构建任务。
+  job_en: A game developer or world builder defines world elements in code and generates a runnable scene
+    to complete a world-building task.
+  pain: 公开材料只有一句“worlds via code, from fable 5.1”，未说明手工搭建世界耗时、迭代慢或协作困难等具体痛点，也未给出不解决的后果。
+  pain_en: Public material is limited to 'worlds via code, from fable 5.1' and does not state concrete
+    pain such as slow manual world building, iteration cost, or the consequence of leaving it unsolved.
+  current_alternative: 公开材料未说明用户目前如何搭建世界，是手写引擎脚本、用关卡编辑器还是其他工具。
+  current_alternative_en: Public material does not show how users build worlds today, whether via engine
+    scripting, level editors, or other tools.
+  usage_reason: 无法从现有公开事实说明相较旧做法减少了哪一步负担，仅能推断代码化世界构建可能省去手工摆放；缺少用户反馈或案例支持。
+  usage_reason_en: Existing public facts cannot explain which step is reduced versus the old approach;
+    it can only be inferred that code-based world building may remove manual placement, with no user feedback
+    or case support.

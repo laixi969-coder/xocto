@@ -215,3 +215,51 @@
     into clickable actions inside one Go binary, it could remove the step of memorizing subcommands and
     switching tools; but without user feedback or cases, it is unconfirmed which engineers would choose
     it over existing TUIs such as k9s.'
+- id: req-full-k10s-2026-09-15
+  project_slug: k10s
+  level: full
+  reviewed_at: '2026-09-15T01:06:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是终端内管理 Kubernetes 集群时反复敲 kubectl、在日志/exec/端口转发间切换的摩擦，痛点刚性来自排障必须完成这些动作；公开仓库说明给出输入—动作—交付闭环，属工作流结构推理，尚无用户抱怨或耗时数据佐证强度。
+    evidence_ids:
+    - ev-1f63b81beaddcb9d
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 91 个收藏，说明社区已注意到该工具，但收藏与关注只属规模信号，不能证明目标工程师已把它留在日常排障流程中；缺少 issue、discussion 或评价中的持续使用证据。
+    evidence_ids:
+    - ev-1f63b81beaddcb9d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，单二进制开源工具可能走 to C 捐赠或 to B 支持，但这是判断而非已验证事实；其余 Behringer 音箱证据与本项目无关，不能作为收入依据。
+    evidence_ids:
+    - ev-1f63b81beaddcb9d
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺单二进制完成搜索、日志、exec、端口转发与 AI 辅助，但公开材料未提供可复现的部署文档或实测，AI 建议在集群操作中的安全与人工确认边界也未见说明。
+    evidence_ids:
+    - ev-1f63b81beaddcb9d
+  next_validation: 追踪 k10s 公开仓库的 README、release 说明与 issue/discussion，确认是否有可复现的安装部署文档、真实排障使用反馈及 AI 操作的安全边界说明。
+  market: ''
+  job: DevOps 工程师或平台工程师在终端里排查线上 Kubernetes 故障时，面对多个命名空间和 Pod 的日志、exec 会话与端口转发需求，要快速定位并操作目标工作负载，而不必反复敲长串
+    kubectl 命令。
+  job_en: A DevOps or platform engineer triaging a live Kubernetes incident in the terminal, facing logs,
+    exec sessions and port-forwards across many namespaces and pods, needs to locate and act on the target
+    workload quickly without retyping long kubectl commands.
+  pain: kubectl 的纯命令行操作需要记忆并拼写资源名、命名空间与子命令，切换日志、exec、端口转发要在多个终端间来回；公开材料只给出产品功能描述，未提供用户抱怨或故障耗时数据，因此痛点强度属于工作流结构推理而非已核验事实。
+  pain_en: Plain kubectl requires memorizing and typing resource names, namespaces and subcommands, and
+    switching between logs, exec and port-forward means juggling terminals; public material only describes
+    product features, with no user complaints or incident-time data, so pain intensity is workflow inference
+    rather than verified fact.
+  current_alternative: 现有替代是原生 kubectl 命令行，以及 k9s、Lens 等终端或图形 Kubernetes 客户端；公开材料未说明用户具体从哪一种迁移过来。
+  current_alternative_en: The current alternatives are raw kubectl plus terminal or GUI Kubernetes clients
+    such as k9s and Lens; public material does not say which one users migrate from.
+  usage_reason: 推断：相较逐条敲 kubectl，k10s 把可点击的 TUI、即时搜索、日志/exec/端口转发和上下文感知 AI 收进单个 Go 二进制，减少记忆子命令与切换终端这一步负担，因此常在终端里做集群排障、又不想离开键盘的工程师会在故障排查时选择它；尚无用户反馈或留存证据支持这一动机为事实。
+  usage_reason_en: 'Inference: versus typing kubectl commands one by one, k10s folds a clickable TUI,
+    instant search, logs/exec/port-forward and context-aware AI into a single Go binary, removing the
+    step of recalling subcommands and switching terminals, so engineers who triage clusters from the terminal
+    and prefer to stay on the keyboard would pick it during incident work; no user feedback or retention
+    evidence yet supports this motive as fact.'

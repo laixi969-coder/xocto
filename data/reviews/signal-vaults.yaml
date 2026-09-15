@@ -288,3 +288,52 @@
     by one and landing digests in a form Codex/Claude Code can consume directly; knowledge workers who
     routinely handle WeChat group and official-account material and use coding agents would therefore
     choose it when they need to turn fragments into a searchable base.'
+- id: req-full-signal-vaults-2026-09-15
+  project_slug: signal-vaults
+  level: full
+  reviewed_at: '2026-09-15T01:07:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微信群与公众号内容碎片化、人工摘录耗时且难以交给代理使用的问题；不处理的后果是信息沉没、无法检索。公开材料仅给出产品说明与仓库描述，旧流程与交付闭环属工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-cecf90c3373e19b8
+    - ev-20d4f83d684bb40d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 65 缓慢升至 70，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在日常知识工作流中；缺少 issue、discussion 或使用反馈说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-cecf90c3373e19b8
+    - ev-b937510d37e59086
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费主体或采购记录；谁付钱、按什么单位收费尚不可知。这是判断而非已验证事实，但不影响价值关成立。
+    evidence_ids:
+    - ev-20d4f83d684bb40d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明支持 Windows/macOS/Linux 与代理友好，未见部署文档、可复现实测或人工与安全边界说明，无法确认摘要交付能否稳定发生、微信数据导入的合规边界如何处理。
+    evidence_ids:
+    - ev-06e4b1636a21206f
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开描述实际导入的微信材料类型、生成的摘要交付物形态以及替代掉的旧流程。
+  market: ''
+  job: 知识工作者或研究人员在微信群与公众号里持续收到大量零散消息和长文，需要把聊天记录与文章导入工具，由 AI 生成结构化摘要，再交给 Codex 或 Claude Code 等代理继续处理，形成可复用的知识条目。
+  job_en: Knowledge workers or researchers who continuously receive scattered messages and long articles
+    in WeChat groups and official accounts import chat logs and articles into the tool, have AI produce
+    structured digests, and hand them to agents such as Codex or Claude Code for further processing into
+    reusable knowledge items.
+  pain: 微信群与公众号内容碎片化、体量大、格式不统一，人工逐条阅读、摘录和整理耗时且容易遗漏；不处理则重要信息沉没在聊天流里，后续无法被检索或交给代理使用。
+  pain_en: WeChat group and official-account content is fragmented, high-volume and inconsistently formatted;
+    reading, excerpting and organizing it by hand is slow and error-prone, and if left unsolved important
+    information sinks into the chat stream and cannot later be retrieved or fed to agents.
+  current_alternative: 公开材料未说明具体替代方式，按任务结构推断，用户目前靠人工翻聊天记录、复制粘贴到笔记软件，或直接用通用 AI 对话逐段粘贴处理。
+  current_alternative_en: Public materials do not specify the alternative; inferred from the task structure,
+    users currently scroll chats manually, copy-paste into note apps, or paste segments into general AI
+    chats.
+  usage_reason: 推断：相较人工翻记录和逐段粘贴，它把导入、摘要、结构化输出串成一条可交给 Codex/Claude Code 的流水线，减少手工摘录与格式整理这一步，因此需要把微信内容接入代理工作流的知识工作者会在批量整理时选择它。
+  usage_reason_en: 'Inference: compared with manually scrolling chats and pasting segments, it chains
+    import, summarization and structured output into a pipeline that can be handed to Codex/Claude Code,
+    removing the manual excerpting and formatting step, so knowledge workers who need WeChat content inside
+    an agent workflow would choose it for batch organization.'

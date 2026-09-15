@@ -3,12 +3,12 @@ slug: spacex-eyes-orbital-ai-compute-as-starship-reuse-pushes-cost
 name: SpaceX
 builder: ''
 category: ''
-summary_zh: SpaceX 于 2026 年 9 月被报道考虑轨道 AI 算力，并称 Starship 复用正在压低成本。若轨道算力可行，可能为 AI 训练与推理提供新的算力供给来源并影响长期成本结构；但材料仅提及公司意向，尚无部署或定价事实，对成本与竞争格局的实际影响仍属推断。
+summary_zh: SpaceX 正考虑将轨道 AI 算力作为新方向，同时星舰复用推动发射成本下降。这一变化意味着太空基础设施可能成为 AI 算力的新供给来源，若成本持续走低，或影响 AI 训练与推理的算力成本结构和竞争格局（推断）。
 inspiration: ''
-summary_en: In September 2026 SpaceX was reported to be eyeing orbital AI compute, with Starship reuse
-  said to be pushing costs lower. If orbital compute proves viable it could add a new supply source for
-  AI training and inference and affect long-term cost structure; however, the material only mentions company
-  intent, with no deployment or pricing facts, so actual impact on cost and competition remains inference.
+summary_en: SpaceX is reportedly exploring orbital AI compute while Starship reuse pushes launch costs
+  lower. This suggests space infrastructure could become a new supply source for AI compute; if costs
+  keep falling, it may affect the cost structure and competitive landscape of AI training and inference
+  (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQWWczdGdqS0ZU
 summary: SpaceX Eyes Orbital AI Compute as Starship Reuse Pushes Costs Lower tradingview.com
 first_seen: '2026-09-12T08:02:00Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

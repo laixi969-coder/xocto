@@ -140,3 +140,45 @@
     steps, while onchain provenance replaces self-reported sourcing; small robotics teams lacking collection
     capacity but needing traceable data would therefore pick it when assembling a training set. Public
     material gives no collection scale, data quality, or reuse evidence.'
+- id: req-full-phyzical-org-2026-09-15
+  project_slug: phyzical-org
+  level: full
+  reviewed_at: '2026-09-15T01:07:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决机器人操作数据采集与来源记录的问题，但公开材料只有一句项目自述，没有用户抱怨、workaround 或客户案例，无法确认痛点刚性，也写不出当前替代方式。
+    evidence_ids:
+    - ev-492404c44eec0119
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Phyzical_org 仓库的 issue、discussion 或文档，确认是否有团队实际用其 episode 训练模型，以及数据规模与格式转换的可用性。
+  market: ''
+  job: 具身智能数据工程师与机器人学习研究者，在准备机器人操作训练集时，需要采集带来源记录的操作轨迹，并把它整理成 elizaOS 等训练框架可读的 episode 格式。
+  job_en: Embodied-AI data engineers and robot-learning researchers preparing a manipulation training
+    set need to collect trajectories with provenance records and reshape them into episode formats readable
+    by frameworks such as elizaOS.
+  pain: 公开材料只有一句项目自述，未提供任何用户抱怨、workaround 或客户案例，无法确认自建遥操作设备与格式转换是否构成真实痛点。
+  pain_en: The public material contains only a one-line project self-description, with no user complaints,
+    workarounds, or customer cases, so it cannot be confirmed whether building teleoperation rigs and
+    converting formats is a real pain point.
+  current_alternative: 公开材料未说明目标用户当前用什么替代方式采集与整理机器人操作数据。
+  current_alternative_en: The public material does not state what target users currently use as an alternative
+    to collect and organize robot manipulation data.
+  usage_reason: 推断：若浏览器遥操作与 trajectory_db 转换器真能省去自建硬件和手写格式转换，缺采集能力的小型机器人团队可能试用；但公开材料没有用户反馈或案例支持这一动机，无法确认选择理由。
+  usage_reason_en: 'Inference: if browser teleoperation and the trajectory_db converter really remove
+    the need to build hardware and hand-write format conversions, small robotics teams lacking collection
+    capacity might try it; but no user feedback or cases support this motive, so the reason for choosing
+    it cannot be confirmed.'

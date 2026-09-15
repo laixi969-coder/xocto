@@ -1,6 +1,6 @@
 ---
 slug: ggerganov-llamacpp-v041
-name: 'ggerganov/llama.cpp: v0.4.1'
+name: llama.cpp
 builder: ggerganov
 category: ''
 summary_zh: ''
@@ -186,7 +186,7 @@ summary: "## Overview\r\n\r\nllama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4, a
   \ cached store (#27432)\r\n49c0dc82b model : add Tencent Hy 4 (hy_v4) preview architecture support (#28127)"
 first_seen: '2026-09-14T18:27:29Z'
 last_seen: '2026-09-15T00:38:44Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -198,7 +198,7 @@ sightings:
   kind: news
 ---
 
-# ggerganov/llama.cpp: v0.4.1
+# llama.cpp
 
 ## Overview
 

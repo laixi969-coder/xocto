@@ -237,3 +237,55 @@
     script, do not want to learn an AE timeline, and need video-grade motion can generate a first-cut
     motion page inside the coding agent they already use. This is inferred from product capability and
     task'
+- id: req-full-bang-motion-2026-09-15
+  project_slug: bang-motion
+  level: full
+  reviewed_at: '2026-09-15T01:04:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把已有脚本快速变成浏览器可播放动态图形这一需求，痛点在脚本到成片之间反复手工搭建关键帧与导出视频；公开说明已能还原输入脚本、生成单文件 index.html 的交付闭环，属工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+    - ev-0cbf83f725ff85e8
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 119 增至 248，说明开发者社区持续关注并把它加入工具链；但这是关注度证据，公开材料没有用户评价或案例说明它在真实工作流中被反复使用，因此共识只到关注层。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+    - ev-0cbf83f725ff85e8
+  - gate: model
+    status: insufficient
+    reason: 这是开源 agent skill，公开材料没有定价页、付费主体或采购记录，钱可能来自 to C 开发者或 to B 团队，但均属判断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺输出单个 index.html，但可编辑程度、动效质量与跨浏览器一致性没有可复现的公开验证，人工介入与安全边界也未说明，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+  next_validation: 追踪 bang-motion 仓库的 README、issue 与 discussion，确认是否有用户公开贴出实际生成的 index.html 成品、使用场景与替代了哪种旧流程。
+  market: ''
+  job: 动态设计师或短视频/宣传片制作人员在已有文案或脚本的情况下，把内容交给这个 agent skill，在 Claude Code、Codex、Gemini CLI 或 Cursor 中生成可在浏览器播放的片头、宣传片、bumper、动态字体或讲解视频页面，最终交付一个
+    index.html 文件。
+  job_en: A motion designer or short-video/promo producer with an existing script hands the content to
+    this agent skill inside Claude Code, Codex, Gemini CLI, or Cursor to generate a browser-playable opener,
+    promo, bumper, kinetic-typography, or explainer page, delivering a single index.html file.
+  pain: 公开材料显示它针对的是把静态幻灯片式页面做成真正有动效的视频感内容这一环节；传统路径要在 After Effects 或 Premiere 里手工做关键帧、导出视频，或在网页里手写 CSS/JS
+    动画，脚本到成片之间反复返工，这是结构推理而非用户口述的痛点。
+  pain_en: Public materials indicate it targets the step of turning slide-like static pages into genuinely
+    video-feeling motion content; the traditional path means hand-keyframing in After Effects or Premiere
+    and exporting video, or hand-writing CSS/JS animation, with repeated rework between script and finished
+    piece — this is structural inference, not user testimony.
+  current_alternative: 旧做法是 After Effects/Premiere 手工关键帧加视频导出，或用网页模板手写 CSS/JS 动画，或直接用幻灯片工具做静态页面；公开材料未说明用户此前具体用哪一种。
+  current_alternative_en: The old approach is hand-keyframing and video export in After Effects/Premiere,
+    hand-writing CSS/JS animation on a web template, or using slide tools for static pages; public materials
+    do not say which one users previously used.
+  usage_reason: 推断：相较手工关键帧或手写动画，它把脚本直接转成单个 index.html，省去在时间线上逐帧搭建和导出视频这一步，因此已有脚本、又需要快速产出浏览器可播放动态图形的人会在赶片头或讲解视频时选择它；这是基于产品能力与任务的结构推理，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus hand-keyframing or hand-written animation, it turns a script directly
+    into a single index.html, removing the step of building frames on a timeline and exporting video,
+    so someone with an existing script who needs fast browser-playable motion graphics would pick it for
+    openers or explainers; this is structural reasoning from product capability and task, not confirmed
+    by user feedback.'

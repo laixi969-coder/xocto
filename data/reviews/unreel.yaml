@@ -408,3 +408,45 @@
   usage_reason_en: Because inputs, actions, and delivery are all undisclosed, it is impossible to say
     which step it removes or which checkable result it improves versus the old way; why users would choose
     it must stay blank rather than be replaced by 'more efficient'.
+- id: req-full-unreel-2026-09-15
+  project_slug: unreel
+  level: full
+  reviewed_at: '2026-09-15T01:07:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有一句“个人 AI 视频流媒体服务”简介，未说明用户要完成的具体任务、痛点、发生频率或不解决的后果，连需求与痛点都无法还原，因此价值关无法成立。
+    evidence_ids:
+    - ev-8413b9f410ad1b2c
+    - ev-524d4b6d77db4a13
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 unreel 仓库的 README、issue 与 discussion，确认其具体输入、输出、部署方式及是否有用户描述实际使用场景。
+  market: ''
+  job: 视频消费者或内容创作者在想要观看或制作个性化视频内容时，处理自己的观看偏好或素材，试图获得一个由 AI 驱动的个人视频流媒体体验。
+  job_en: A video consumer or content creator, when wanting to watch or produce personalized video content,
+    works with their own viewing preferences or footage to obtain an AI-driven personal video streaming
+    experience.
+  pain: 公开材料只有一句仓库简介“Your personal AI video streaming service”，没有说明用户当前在观看或创作视频时具体卡在哪一步、痛点发生频率或不解决的后果，因此无法确认痛点是否真实存在。
+  pain_en: Public material contains only the repository tagline 'Your personal AI video streaming service';
+    it does not state which step of watching or creating video users are stuck on, how often the pain
+    occurs, or the consequence of leaving it unsolved, so the pain cannot be confirmed as real.
+  current_alternative: 公开材料未说明用户目前用什么方式完成个人化视频观看或创作，也未说明 unreel 替代了哪一步旧流程。
+  current_alternative_en: Public material does not describe how users currently accomplish personalized
+    video watching or creation, nor which prior workflow step unreel replaces.
+  usage_reason: 由于仓库仅有简介和收藏数，没有功能说明、输入输出或用户反馈，无法解释用户相较现有做法为什么会选择它；只能推断它可能面向想用 AI 定制视频流的用户，但缺少可核对的因果链。
+  usage_reason_en: With only a tagline and star count, no feature description, input/output, or user feedback,
+    there is no way to explain why users would choose it over their current approach; one can only infer
+    it may target users wanting AI-customized video streams, but the causal chain is unverifiable.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRTVsZUh3Rnox
 summary: 从图谱到智能体：海致科技首份中报里的产业AI账 Sohu
 first_seen: '2026-09-14T11:20:01Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

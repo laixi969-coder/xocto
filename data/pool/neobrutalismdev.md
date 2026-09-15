@@ -21,7 +21,7 @@ canonical_url: https://neobrutalism.dev
 summary: Just added Base UI support and added new color theme
 first_seen: '2026-09-14T16:02:02Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

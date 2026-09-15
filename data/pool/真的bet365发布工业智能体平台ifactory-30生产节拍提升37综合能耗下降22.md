@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE42aFJRcFJmU1JP
 summary: 真的Bet?365发布工业智能体平台iFactory 3.0：生产节拍提升37%，综合能耗下降22% 体坛
 first_seen: '2026-09-14T10:13:43Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

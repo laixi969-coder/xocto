@@ -87,3 +87,51 @@
     graph, removing the step of re-explaining project background in each tool and keeping the same context
     readable after switching. macOS developers running several coding assistants who care about context
     consistency would therefore pick it when switching tools.'
+- id: req-full-agentic-stack-desktop-2026-09-15
+  project_slug: agentic-stack-desktop
+  level: full
+  reviewed_at: '2026-09-15T01:04:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码助手上下文割裂的需求：同一代码库上切换工具要重复交代背景、结论无法复用，开发者现在靠各工具独立配置或手工粘贴。公开材料仅一句描述，旧流程与后果属工作流结构推理。
+    evidence_ids:
+    - ev-77186790b716d27b
+    - ev-3d0f7290588a4e87
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 59 增至 60，属关注度而非持续采用；没有 issue、讨论或团队使用记录，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-77186790b716d27b
+    - ev-3d0f7290588a4e87
+  - gate: model
+    status: insufficient
+    reason: 开源仓库，未见定价或付费路径；买方可能是愿意为本地工作台付费的开发者或小团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-77186790b716d27b
+  - gate: truth
+    status: insufficient
+    reason: 知识图谱收录范围、更新方式与共享是否确定发生均未说明，本地存储的权限与人工确认边界也看不到，交付确定性无法核对。
+    evidence_ids:
+    - ev-77186790b716d27b
+    - ev-3d0f7290588a4e87
+  next_validation: 追踪该仓库 README 与 issue，确认知识图谱收录范围、更新机制以及是否有团队持续使用。
+  market: ''
+  job: 同时使用 Claude Code、Codex、OpenCode 与 Cursor 的开发者，在同一份代码库上切换工具时，打开这个 macOS 工作台，让几个助手共用一份本地知识图谱，避免每次重新交代项目背景。
+  job_en: A developer using Claude Code, Codex, OpenCode and Cursor together, when switching tools on
+    the same codebase, opens this macOS workspace so the assistants share one local knowledge graph instead
+    of re-explaining the project each time.
+  pain: 多助手各自维护上下文，切换工具要重复交代项目背景、结论无法复用；公开材料只描述共享知识图谱这一能力，没有用户抱怨或案例量化重复交代的代价。
+  pain_en: Each assistant keeps its own context, so switching tools means re-explaining the project and
+    conclusions cannot be reused; the public material only describes the shared knowledge graph capability,
+    with no user complaints or cases quantifying the cost of re-explaining.
+  current_alternative: 开发者目前在各工具里分别维护配置文件、CLAUDE.md 一类说明或手工粘贴项目背景。
+  current_alternative_en: Developers currently maintain separate config files, CLAUDE.md-style notes or
+    manually paste project background in each tool.
+  usage_reason: 推断：相比每个助手各存一份上下文，它把知识图谱放在本地由多个助手共用，省掉切换工具时重新交代项目背景这一步，因此同时用多个编码助手的开发者会在跨工具协作时选择它；但仓库只有星标数，没有留存或团队持续使用证据。
+  usage_reason_en: 'Inference: instead of each assistant holding its own context, it keeps one local knowledge
+    graph shared across assistants, removing the step of re-explaining the project when switching tools,
+    so developers running several coding assistants would choose it for cross-tool work; but the repo
+    only shows stars, with no retention or sustained team-use evidence.'

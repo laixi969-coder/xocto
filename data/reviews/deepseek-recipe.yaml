@@ -193,3 +193,43 @@
   usage_reason_en: 'No usage reason can be written: beyond a name and star count the repo offers no citable
     capability, documentation, or user feedback, and star growth reflects attention only, not why users
     would choose it.'
+- id: req-full-deepseek-recipe-2026-09-15
+  project_slug: deepseek-recipe
+  level: full
+  reviewed_at: '2026-09-15T01:05:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据仅有仓库收藏数从 217 增至 331，没有产品说明、文档或用户反馈，无法写出它解决什么需求、什么痛点，也无法还原输入、动作与交付。
+    evidence_ids:
+    - ev-d41d907af8a8ac34
+    - ev-b97463bce83cd6b6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、文档、issue 与 discussion，确认它面向的具体任务、输入输出与替代的旧流程。
+  market: ''
+  job: 公开材料只给出仓库名与收藏数，未说明谁在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public materials provide only a repository name and star counts, with no description of who,
+    in what situation, handling what material, completes what task; the concrete job cannot be reconstructed.
+  pain: 没有任何公开事实说明用户在该任务上遇到什么摩擦、频率多高、不解决会有什么后果，痛点无法识别。
+  pain_en: No public fact describes what friction users hit, how often, or what happens if unsolved; the
+    pain cannot be identified.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧流程。
+  current_alternative_en: Public materials do not show how users currently complete the related work or
+    what prior process this repository replaces.
+  usage_reason: 缺少产品说明、文档、issue 或用户反馈，无法解释用户相较旧做法为何会选择它；现有证据仅为收藏数变化，属于关注度而非使用理由。
+  usage_reason_en: With no product description, docs, issues, or user feedback, there is no basis to explain
+    why users would choose it over their existing approach; the only evidence is star counts, which indicate
+    attention, not usage reasons.

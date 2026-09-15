@@ -1,0 +1,89 @@
+- id: req-initial-petrelvoyage-2026-09-15
+  project_slug: petrelvoyage
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多日行程编排这一具体任务，痛点是手工排表易错且改动成本高，旧替代行为明确存在。
+    evidence_ids:
+    - ev-5054b3bc89aa799f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户评价或案例说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-5054b3bc89aa799f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按份收费还是订阅只能作为判断，不是已验证事实。
+    evidence_ids:
+    - ev-5054b3bc89aa799f
+  - gate: truth
+    status: insufficient
+    reason: 行程是否含实时交通、开放时间与预订，能否确定性交付，公开材料未说明。
+    evidence_ids:
+    - ev-5054b3bc89aa799f
+  next_validation: 收集该产品官方页面上的定价与功能说明，确认行程生成是否包含实时交通或预订环节。
+  market: ''
+  job: 自由行旅客在出发前规划多日多城市行程时，处理景点清单、交通与住宿信息，要产出一份逐日可执行的行程表。
+  job_en: An independent traveler planning a multi-day, multi-city trip works from a list of sights, transport
+    and lodging details to produce a day-by-day executable itinerary.
+  pain: 手工排行程要在攻略帖、地图和表格之间反复搬运，容易忽略通勤时间和开放时间，改一次要重排全表。
+  pain_en: Hand-building an itinerary means shuttling between guide posts, maps and spreadsheets, easily
+    missing travel time and opening hours, and any change forces a full re-plan.
+  current_alternative: 旧做法是看攻略帖、用地图逐个查距离，再在表格或备忘录里手工排顺序。
+  current_alternative_en: The old way is reading guide posts, checking distances one by one on maps, then
+    ordering stops by hand in a spreadsheet or notes app.
+  usage_reason: 相较手工排表，它把景点、交通与住宿信息一次性转成逐日行程，省掉逐条查距离和重排顺序这一步；对行程较长、改动频繁的自由行旅客更有价值。这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual scheduling, it turns sights, transport and lodging into a day-by-day
+    plan in one pass, removing the step of checking each distance and reordering stops; most valuable
+    for travelers with long or frequently changing trips. This is inference from product capability, with
+    no retention or repeat-use evidence yet.
+- id: req-full-petrelvoyage-2026-09-15
+  project_slug: petrelvoyage
+  level: full
+  reviewed_at: '2026-09-15T01:07:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多日行程编排这一具体任务，痛点是手工排表易错且改动成本高，旧替代行为明确存在；但公开材料仅一句作者自述，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-5054b3bc89aa799f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条作者自述与一条市场检索记录，没有用户评价、案例或采用数据说明谁在什么场景下持续使用，关注度不等于持续采用。
+    evidence_ids:
+    - ev-5054b3bc89aa799f
+    - ev-797aedc1a0ef24b7
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按份收费、订阅还是免费自用只能作为判断，不是已验证事实；也未显示 to B 或 to G 路径。
+    evidence_ids:
+    - ev-5054b3bc89aa799f
+  - gate: truth
+    status: insufficient
+    reason: 行程是否含实时交通、开放时间与预订，能否确定性交付，公开材料未说明；AI 排程的准确性与人工核对边界也未披露。
+    evidence_ids:
+    - ev-5054b3bc89aa799f
+  next_validation: 追踪 petrelvoyage.com 官方页面与 /app 的定价、功能说明及是否含实时交通或预订环节，并留意仓库 issue/discussion 中关于行程准确性的公开反馈。
+  market: ''
+  job: 自由行旅客在出发前规划西班牙多日多城市行程时，把想去的景点、交通与住宿信息交给工具，要产出一份逐日可直接照着走的行程表。
+  job_en: An independent traveler planning a multi-day, multi-city Spain trip feeds in desired sights,
+    transport and lodging details to produce a day-by-day itinerary they can follow directly.
+  pain: 手工排行程要在攻略帖、地图和表格之间反复搬运信息，容易忽略通勤时间与开放时间，行程一改就要重排全表；公开材料只说明作者为自身西班牙之行做了自动排程工具，痛点强度属工作流结构推理。
+  pain_en: Hand-building an itinerary means shuttling between guide posts, maps and spreadsheets, easily
+    missing travel time and opening hours, and any change forces a full re-plan; public material only
+    shows the author built an automated organizer for their own Spain trip, so pain intensity is workflow
+    inference.
+  current_alternative: 旧做法是看攻略帖、用地图逐个查距离，再在表格或备忘录里手工排顺序，或直接购买现成的跟团/半自助行程。
+  current_alternative_en: The old way is reading guide posts, checking distances one by one on maps, then
+    ordering stops by hand in a spreadsheet or notes app, or buying a packaged tour itinerary.
+  usage_reason: 相较手工排表，它把景点、交通与住宿信息一次性转成逐日行程，省掉逐条查距离和重排顺序这一步；对行程较长、改动频繁的自由行旅客更有价值。这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual scheduling, it converts sights, transport and lodging into a day-by-day
+    plan in one pass, removing the step of checking each distance and reordering stops; most valuable
+    for travelers with long or frequently changing trips. This is inference from product capability, with
+    no retention or repeat-use evidence yet.

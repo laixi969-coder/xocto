@@ -1,0 +1,85 @@
+- id: req-initial-stemjson-2026-09-15
+  project_slug: stemjson
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是原生应用改动必须发版这一具体痛点，旧流程清楚；但公开材料只有一句介绍，无法确认生成结果能否确定性交付，价值判断证据不足。
+    evidence_ids:
+    - ev-a9a1d7bdd941b27a
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 8 分 6 条评论，没有采用、留存或客户案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a9a1d7bdd941b27a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，是判断而非已验证事实；开发者工具常见按席位或按量收费，但此处无材料支持。
+    evidence_ids:
+    - ev-a9a1d7bdd941b27a
+  - gate: truth
+    status: insufficient
+    reason: 让模型直接改动线上原生应用涉及安全与人工边界，公开材料未说明权限控制、回滚或审核机制。
+    evidence_ids:
+    - ev-a9a1d7bdd941b27a
+  next_validation: 收集 StemJSON 官方文档或仓库，确认其支持的移动平台、生成扩展的运行方式与是否需要人工复核。
+  market: ''
+  job: 移动端开发者在不重新发版的情况下，把新功能需求交给大模型，由模型生成可运行的原生应用扩展，让线上应用立即具备新能力。
+  job_en: Mobile developers hand a new feature requirement to an LLM so it generates a runnable native
+    app extension, letting a live app gain new capability without a new release.
+  pain: 原生应用改动要走开发、审核、发版流程，周期长，临时活动页或小改动也要等版本更新。
+  pain_en: Native app changes must go through development, review and release, so even small or temporary
+    changes wait for a version update.
+  current_alternative: 现有做法是写原生代码后提交应用商店审核，或用 WebView、热更新框架承载可变部分。
+  current_alternative_en: Today teams write native code and submit it for store review, or carry variable
+    parts in WebView or hot-update frameworks.
+  usage_reason: 推断：如果模型真能生成可运行扩展，开发者可跳过发版等待，直接在线上应用生效；但公开材料没有说明支持哪些平台、生成结果是否可靠、是否需要人工复核，因此选择动机尚不能确认为事实。
+  usage_reason_en: 'Inference: if the model truly produces runnable extensions, developers could skip
+    the release wait and change a live app directly; however the public material does not say which platforms
+    are supported, whether output is reliable, or whether human review is needed, so the reason to choose
+    it cannot yet be stated as fact.'
+- id: req-full-stemjson-2026-09-15
+  project_slug: stemjson
+  level: full
+  reviewed_at: '2026-09-15T01:07:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决原生应用改动必须发版这一任务，但公开材料只有一句定位，既无用户痛点陈述，也无旧替代行为与不采用后果，连需求与痛点都还原不出，只能判伪需求。
+    evidence_ids:
+    - ev-a9a1d7bdd941b27a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 StemJSON 官网文档或公开仓库，确认其支持的移动平台、生成扩展的运行方式、是否需要人工复核，以及是否出现真实用户案例或采用记录。
+  market: ''
+  job: 移动端开发者（含独立开发者）在已上线原生应用需要临时加功能或做小改动时，把需求交给大模型，由模型用 StemJSON 生成可运行的扩展逻辑，让线上应用在不重新发版的情况下获得新能力。
+  job_en: Mobile and indie developers, when a shipped native app needs a temporary feature or small change,
+    hand the requirement to an LLM so it generates runnable extension logic in StemJSON, letting the live
+    app gain new capability without a new release.
+  pain: 公开材料只有一句产品定位，未说明任何用户抱怨、旧流程耗时或改动受阻的具体事实，因此无法确认原生发版流程对目标用户构成何种刚性痛点。
+  pain_en: The public material is a single positioning line with no user complaints, no evidence of release-cycle
+    delay, and no blocked-change account, so it is impossible to confirm what rigid pain the native release
+    process causes for the target user.
+  current_alternative: 公开材料未提及用户当前用什么方式绕过发版，WebView、热更新框架或服务端下发配置都只是行业常见做法，不是该项目证据支持的替代行为。
+  current_alternative_en: The public material names no current workaround; WebView, hot-update frameworks
+    or server-driven config are generic industry practices, not alternative behaviour supported by this
+    project's evidence.
+  usage_reason: 推断：若模型真能生成可运行扩展，开发者可跳过发版等待；但公开材料未说明支持平台、交付形态、可靠性或人工复核，无法解释哪类用户会因减少哪一步负担而选择它。
+  usage_reason_en: 'Inference: if the model truly produced runnable extensions, developers could skip
+    the release wait; but the material does not state supported platforms, delivery form, reliability
+    or human review, so it cannot explain which users would choose it by removing which step.'

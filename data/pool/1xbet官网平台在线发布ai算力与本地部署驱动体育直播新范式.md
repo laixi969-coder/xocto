@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE0xdUdITFJpWmNh
 summary: 1XBET官网平台在线发布：AI算力与本地部署驱动体育直播新范式 体坛
 first_seen: '2026-09-13T07:50:57Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

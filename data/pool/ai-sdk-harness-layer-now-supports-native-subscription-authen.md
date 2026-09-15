@@ -1,6 +1,6 @@
 ---
 slug: ai-sdk-harness-layer-now-supports-native-subscription-authen
-name: AI SDK harness layer now supports native subscription authentication
+name: AI SDK harness layer
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/ai-sdk-harness-native-subscription-a
 summary: ''
 first_seen: '2026-09-14T21:28:00Z'
 last_seen: '2026-09-15T00:39:08Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI SDK harness layer now supports native subscription authentication
+# AI SDK harness layer
 
 _（源没给简介）_
 

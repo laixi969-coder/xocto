@@ -21,7 +21,7 @@ canonical_url: https://sftitlealert.com
 summary: ''
 first_seen: '2026-09-13T21:11:52Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

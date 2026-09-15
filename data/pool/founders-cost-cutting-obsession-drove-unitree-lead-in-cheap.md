@@ -1,6 +1,6 @@
 ---
 slug: founders-cost-cutting-obsession-drove-unitree-lead-in-cheap
-name: Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots
+name: Unitree
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsessio
 summary: Wang Xingxing micromanaged Unitree to success—will his leadership style scale?
 first_seen: '2026-09-14T19:38:46Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots
+# Unitree
 
 Wang Xingxing micromanaged Unitree to success—will his leadership style scale?
 

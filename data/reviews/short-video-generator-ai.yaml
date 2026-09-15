@@ -381,3 +381,57 @@
     chains highlight detection, subtitles, translation, and voiceover into one pipeline, so a user only
     inputs a YouTube link to get finished shorts, removing the steps of re-watching for highlights and
     moving subtitles across tools; creators needing batch multilingual shorts would choose it.'
+- id: req-full-short-video-generator-ai-2026-09-15
+  project_slug: short-video-generator-ai
+  level: full
+  reviewed_at: '2026-09-15T01:07:41Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频转竖屏短视频的需求：人工回看定位高光、逐句打字幕、另做翻译配音，一条长视频产出多条短片时重复劳动成倍放大，不做的后果是分发频率上不去。公开仓库说明其把高光检测、字幕、翻译、配音串成一条流水线，交付物明确；这是工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-c37e341596bc3844
+    - ev-bd1f0d8862e3ce04
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 120 增至 736，说明持续有人关注并把它加入工具清单，属于关注度与采用意向证据；但缺少 issue、discussion 或用户评价说明谁在何种场景实际使用、是否替代了旧流程，因此不能据此断言已进入长期工作流。
+    evidence_ids:
+    - ev-c37e341596bc3844
+    - ev-0584d6adc0e8faac
+  - gate: model
+    status: insufficient
+    reason: 项目标注为 free open-source，公开材料没有定价页、付费客户或采购记录，谁付钱尚不清楚；开源项目常见路径是捐赠、托管服务或商业授权，但均未在证据中出现，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c37e341596bc3844
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出功能描述，没有部署文档、可复现输出或质量评测，无法确认高光检测与翻译配音的交付是否稳定、人工校对边界在哪；仓库收藏增长不能替代对交付确定性的核验。
+    evidence_ids:
+    - ev-bd1f0d8862e3ce04
+    - ev-0584d6adc0e8faac
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有部署文档、实际输出样例或用户反馈说明它在何种场景替代了人工剪辑流程。
+  market: ''
+  job: 内容创作者或短视频运营者手上已有一条长 YouTube 视频（访谈、播客、教程），需要在发布前把它切成若干条带字幕、可翻译配音的竖屏短视频，用于 TikTok、Reels、Shorts 等平台分发。
+  job_en: A content creator or short-video operator already has a long YouTube video (interview, podcast,
+    tutorial) and needs to cut it into several vertical short clips with subtitles and optional translated
+    voiceover before publishing to TikTok, Reels, Shorts and similar feeds.
+  pain: 公开材料只说明它做高光检测、字幕、翻译、配音，未提供用户抱怨或案例；从工作流结构推理，痛点是长视频转短视频需人工反复回看定位高光、逐句打字幕、再单独配音，一条长视频产出多条短片时重复劳动成倍放大，且高光判断依赖个人经验。
+  pain_en: Public materials only describe highlight detection, subtitles, translation and voiceover, with
+    no user complaints or cases; by workflow inference, the pain is that turning long video into shorts
+    requires manually re-watching to locate highlights, typing subtitles line by line, and dubbing separately,
+    so the repetitive work multiplies per clip and highlight judgment depends on individual experience.
+  current_alternative: 旧做法是人工用剪辑软件（如 Premiere、剪映）回看长视频、手动标记时间点、逐条导出竖屏片段，再用字幕工具或人工听写加字幕，翻译配音另找工具或外包；也可用付费
+    SaaS 剪辑工具，但需上传素材并受额度限制。
+  current_alternative_en: The old way is to re-watch the long video in an editor (Premiere, CapCut), mark
+    timecodes by hand, export each vertical clip, then add subtitles via a subtitle tool or manual transcription,
+    with translation and dubbing done in another tool or outsourced; paid SaaS clippers exist but require
+    uploading footage and are quota-limited.
+  usage_reason: 推断：相较人工回看与逐条处理，该开源项目把高光检测、字幕、翻译、配音串成一条自动流水线，用户只需提供 YouTube 链接或视频，减少的是“回看定位高光”和“逐句打字幕”这两步重复劳动，并可在本地或自托管环境运行、不受
+    SaaS 额度约束；因此处理长视频批量产出短片、且在意成本与数据不出本地的创作者会尝试它。
+  usage_reason_en: 'Inference: versus manual re-watching and per-clip processing, this open-source project
+    chains highlight detection, subtitles, translation and voiceover into one automated pipeline, so the
+    user only supplies a YouTube link or video; it removes the ''re-watch to find highlights'' and ''type
+    subtitles line by line'' steps and can run locally or self-hosted without SaaS quotas, so creators
+    who batch-produce shorts from long videos and care about cost and keeping footage local would t'

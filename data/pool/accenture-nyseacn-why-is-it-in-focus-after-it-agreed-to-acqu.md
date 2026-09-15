@@ -23,7 +23,7 @@ summary: 'Accenture (NYSE:ACN): Why Is It in Focus After It agreed to acquire a 
   enterprise software and artificial-intelligence capabilities? Kalkine Media'
 first_seen: '2026-08-26T09:16:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

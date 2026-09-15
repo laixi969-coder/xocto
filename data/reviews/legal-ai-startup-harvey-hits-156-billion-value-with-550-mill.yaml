@@ -95,3 +95,95 @@
     from-scratch search and extraction step; firms would choose it in high-volume, tight-deadline diligence
     and contract review to compress drafting time. However, public material provides no retention or repeat-use
     evidence, so the motive is inferred.'
+- id: req-initial-legal-ai-startup-harvey-hits-156-billion-value-with-550-mill-2026-09-15
+  project_slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是法律材料批量审阅中定位条款、比对先例、产出初稿的需求，痛点在时间压力下刚性，交付物明确为可复核的初稿。
+    evidence_ids:
+    - ev-56bc95b7f9c79c6e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资标题与一篇法律 AI 采购评估文章，未见客户名单、部署案例或使用规模，共识强度无法判断。
+    evidence_ids:
+    - ev-56bc95b7f9c79c6e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、按席位还是按产出计费，也未说明买方是律所、企业法务还是保险公司；钱可能来自 to B，但这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 法律场景对准确性与可追溯引用要求高，公开材料未说明人工复核边界、错误率或数据安全合规安排。
+    evidence_ids:
+    - ev-56bc95b7f9c79c6e
+  next_validation: 收集 Harvey 官方定价页或公开客户案例，确认其计费方式与部署形态。
+  market: ''
+  job: 律所律师与公司法务在合同审阅、尽职调查或法律意见起草时，处理成批合同、判例与内部文件，需要定位关键条款、比对先例并产出可复核的初稿。
+  job_en: Lawyers and in-house counsel handling contract review, due diligence, or opinion drafting work
+    through batches of contracts, precedents, and internal documents, needing to locate key clauses, compare
+    precedents, and produce a reviewable first draft.
+  pain: 这类材料量大、术语密集，人工逐份阅读耗时且容易漏掉条款差异；按小时计费的模式也让客户对基础审阅的成本敏感。
+  pain_en: Such materials are voluminous and term-dense; reading them one by one is slow and prone to
+    missed clause differences, and the hourly billing model makes clients cost-sensitive about basic review.
+  current_alternative: 初级律师或法务助理人工逐份阅读并做摘要，配合关键词检索和模板库；部分团队用通用大模型做初步问答，但缺少法律语料与可追溯引用。
+  current_alternative_en: Junior lawyers or legal assistants read and summarize each document by hand,
+    aided by keyword search and template libraries; some teams use general-purpose LLMs for preliminary
+    Q&A, but without legal corpora or traceable citations.
+  usage_reason: 相较人工逐份阅读，它把条款抽取、先例比对和初稿生成合并成一次动作，减少的是基础审阅这一步的翻页与摘录负担，律师只需复核输出；因此处理大批量合同或尽调材料的团队会在时间压力下选择它。这是基于产品能力与任务结构的推断，公开材料未提供客户留存或复购证据。
+  usage_reason_en: Compared with reading each document by hand, it merges clause extraction, precedent
+    comparison, and draft generation into one action, cutting the page-turning and note-taking burden
+    of first-pass review so lawyers only review the output; teams facing large contract or diligence volumes
+    would therefore choose it under time pressure. This is an inference from product capability and task
+    structure, not evidence of retention or repeat purchase.
+- id: req-full-legal-ai-startup-harvey-hits-156-billion-value-with-550-mill-2026-09-15
+  project_slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
+  level: full
+  reviewed_at: '2026-09-15T01:06:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是法律材料批量审阅中定位条款、比对先例、产出初稿的需求，痛点在时间压力下刚性，交付物明确为可复核的初稿。
+    evidence_ids:
+    - ev-b82fbff262714372
+  - gate: consensus
+    status: insufficient
+    reason: 官网仅自述服务律所与企业法务，未见客户名单、部署案例或使用规模；检索到的多为同名歌曲页与通用大模型页面，无法归因到该产品，共识强度无法判断。
+    evidence_ids:
+    - ev-b82fbff262714372
+    - ev-0692a8f4f3048e2b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、按席位还是按产出计费，也未说明买方是律所、企业法务还是保险公司；钱可能来自 to B，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b82fbff262714372
+  - gate: truth
+    status: insufficient
+    reason: 法律场景对准确性与可追溯引用要求高，公开材料未说明人工复核边界、错误率或数据安全合规安排，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-b82fbff262714372
+  next_validation: 追踪 Harvey 官网定价页或公开客户案例页面，确认其计费方式、部署形态与已披露的律所/企业法务采用记录。
+  market: ''
+  job: 律所律师与公司法务在合同审阅、尽职调查或法律意见起草时，处理成批合同、判例与内部文件，需要定位关键条款、比对先例并产出可复核的初稿。
+  job_en: Lawyers and in-house counsel handling contract review, due diligence, or opinion drafting work
+    through batches of contracts, precedents, and internal documents, needing to locate key clauses, compare
+    precedents, and produce a reviewable first draft.
+  pain: 这类材料量大、术语密集，人工逐份阅读耗时且容易漏掉条款差异；按小时计费的模式也让客户对基础审阅的成本敏感。
+  pain_en: Such materials are voluminous and term-dense; reading them one by one is slow and prone to
+    missed clause differences, and the hourly billing model makes clients cost-sensitive about basic review.
+  current_alternative: 初级律师或法务助理人工逐份阅读并做摘要，配合关键词检索和模板库；部分团队用通用大模型做初步问答，但缺少法律语料与可追溯引用。
+  current_alternative_en: Junior lawyers or legal assistants read and summarize each document by hand,
+    aided by keyword search and template libraries; some teams use general-purpose LLMs for preliminary
+    Q&A, but without legal corpora or traceable citations.
+  usage_reason: 相较人工逐份阅读，它把条款抽取、先例比对和初稿生成合并成一次动作，减少的是基础审阅这一步的翻页与摘录负担，律师只需复核输出；因此处理大批量合同或尽调材料的团队会在时间压力下选择它。这是基于产品能力与任务结构的推断，公开材料未提供客户留存或复购证据。
+  usage_reason_en: Compared with reading each document by hand, it merges clause extraction, precedent
+    comparison, and draft generation into one action, cutting the page-turning and note-taking burden
+    of first-pass review so lawyers only review the output; teams facing large contract or diligence volumes
+    would therefore choose it under time pressure. This is an inference from product capability and task
+    structure, not evidence of retention or repeat purchase.

@@ -21,7 +21,7 @@ canonical_url: https://inflightsimulator.com
 summary: I made a flight simulator, except you're just a passenger
 first_seen: '2026-09-14T09:08:56Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

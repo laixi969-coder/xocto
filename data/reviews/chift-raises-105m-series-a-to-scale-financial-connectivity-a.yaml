@@ -1,0 +1,88 @@
+- id: req-initial-chift-raises-105m-series-a-to-scale-financial-connectivity-a-2026-09-15
+  project_slug: chift-raises-105m-series-a-to-scale-financial-connectivity-a
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决财务软件商逐个对接银行与会计平台、维护字段映射的重复工程负担，旧流程与痛点清楚；具体 AI 作用未披露。
+    evidence_ids:
+    - ev-104dbb476fc97c14
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，未见客户数量、接入平台清单或开发者持续使用的公开证据。
+    evidence_ids:
+    - ev-104dbb476fc97c14
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费口径，收入可能来自软件商订阅或按连接计费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-104dbb476fc97c14
+  - gate: truth
+    status: insufficient
+    reason: 数据同步的准确率、合规边界与故障处理承诺均无公开材料支持。
+    evidence_ids:
+    - ev-104dbb476fc97c14
+  next_validation: 收集 Chift 官方定价页或开发者文档，核验其计费方式与已接入的金融平台清单。
+  market: ''
+  job: 财务软件开发者与集成工程师在为客户接入银行、会计和发票系统时，处理各平台接口文档与字段差异，要完成账户和交易数据的稳定同步。
+  job_en: Financial software developers and integration engineers connecting banks, accounting and invoicing
+    systems for clients handle each platform's API docs and field differences to keep account and transaction
+    data syncing reliably.
+  pain: 每个金融平台接口和字段口径不同，自建对接与维护成本高，接口变更时容易中断数据同步。
+  pain_en: Each finance platform has different APIs and field definitions, so in-house integration and
+    maintenance are costly and data sync breaks when APIs change.
+  current_alternative: 旧做法是各软件商自己逐个对接银行与会计平台，并长期维护映射和异常处理。
+  current_alternative_en: The old way is each software vendor integrating banks and accounting platforms
+    one by one and maintaining mappings and error handling long term.
+  usage_reason: 推断：相较自建并维护多套银行与会计接口，它把连接与字段映射收敛到一层，减少每接一家平台就重写对接的步骤，因此产品线多、对接平台杂的中小财务软件商会选择它。
+  usage_reason_en: 'Inference: compared with building and maintaining multiple bank and accounting integrations,
+    it consolidates connectivity and field mapping into one layer, removing the need to rewrite integration
+    for each new platform, so small finance software vendors with many products and platforms would choose
+    it.'
+- id: req-full-chift-raises-105m-series-a-to-scale-financial-connectivity-a-2026-09-15
+  project_slug: chift-raises-105m-series-a-to-scale-financial-connectivity-a
+  level: full
+  reviewed_at: '2026-09-15T01:05:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决财务软件商逐个对接银行与会计平台、维护字段映射的重复工程负担，旧流程与痛点清楚；具体 AI 作用未披露。
+    evidence_ids:
+    - ev-104dbb476fc97c14
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，未见客户数量、接入平台清单或开发者持续使用的公开证据。
+    evidence_ids:
+    - ev-104dbb476fc97c14
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费口径，收入可能来自软件商订阅或按连接计费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-104dbb476fc97c14
+  - gate: truth
+    status: insufficient
+    reason: 数据同步的准确率、合规边界与故障处理承诺均无公开材料支持。
+    evidence_ids:
+    - ev-104dbb476fc97c14
+  next_validation: 收集 Chift 官方定价页或开发者文档，核验其计费方式与已接入的金融平台清单。
+  market: ''
+  job: 财务软件开发者与集成工程师在为客户接入银行、会计和发票系统时，处理各平台接口文档与字段差异，要完成账户和交易数据的稳定同步。
+  job_en: Financial software developers and integration engineers connecting banks, accounting and invoicing
+    systems for clients handle each platform's API docs and field differences to keep account and transaction
+    data syncing reliably.
+  pain: 每个金融平台接口和字段口径不同，自建对接与维护成本高，接口变更时容易中断数据同步。
+  pain_en: Each finance platform has different APIs and field definitions, so in-house integration and
+    maintenance are costly and data sync breaks when APIs change.
+  current_alternative: 旧做法是各软件商自己逐个对接银行与会计平台，并长期维护映射和异常处理。
+  current_alternative_en: The old way is each software vendor integrating banks and accounting platforms
+    one by one and maintaining mappings and error handling long term.
+  usage_reason: 推断：相较自建并维护多套银行与会计接口，它把连接与字段映射收敛到一层，减少每接一家平台就重写对接的步骤，因此产品线多、对接平台杂的中小财务软件商会选择它。
+  usage_reason_en: 'Inference: compared with building and maintaining multiple bank and accounting integrations,
+    it consolidates connectivity and field mapping into one layer, removing the need to rewrite integration
+    for each new platform, so small finance software vendors with many products and platforms would choose
+    it.'

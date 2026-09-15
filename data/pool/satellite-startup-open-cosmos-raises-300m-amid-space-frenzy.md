@@ -1,6 +1,6 @@
 ---
 slug: satellite-startup-open-cosmos-raises-300m-amid-space-frenzy
-name: Satellite startup Open Cosmos raises €300m amid space frenzy
+name: Open Cosmos
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/open-cosmos-fundraise-space
 summary: ''
 first_seen: '2026-09-14T14:00:22Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Satellite startup Open Cosmos raises €300m amid space frenzy
+# Open Cosmos
 
 _（源没给简介）_
 

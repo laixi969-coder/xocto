@@ -22,7 +22,7 @@ summary: Voice AI startup Arrowhead eyes fresh funding to accelerate internation
   Times
 first_seen: '2026-09-14T07:23:50Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

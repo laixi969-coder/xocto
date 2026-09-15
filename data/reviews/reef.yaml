@@ -450,3 +450,44 @@
   usage_reason: 用户要完成的任务是：AI 智能体开发者、机器学习工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI agent developers, Machine learning engineers Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-reef-2026-09-15
+  project_slug: reef
+  level: full
+  reviewed_at: '2026-09-15T01:07:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其为智能体持续学习基础设施，但全部证据指向同名鞋类品牌与同名酒店，无一条可归因到该产品，连用户任务、痛点与旧替代都无法还原，价值结构无从成立。
+    evidence_ids:
+    - ev-30bedf3b41d46d79
+    - ev-ffc175fb594d2754
+    - ev-c7675e3c40097e41
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官方站点或代码仓库（如 公开代码仓库 仓库、README、issue/discussion），确认其真实产品身份、输入数据格式与持续学习交付流程，替换当前同名品牌噪声证据。
+  market: ''
+  job: 按候选摘要，AI 智能体开发者与机器学习工程师在智能体上线后，把运行日志与交互数据接入持续学习流程，让智能体从经验中更新自身；但公开证据中没有任何一条来自该产品，具体输入材料与交付物无法还原。
+  job_en: Per the candidate summary, AI agent developers and ML engineers would feed runtime logs and
+    interaction data into a continual-learning pipeline so agents update from experience; however, no
+    public evidence comes from this product, so inputs and deliverables cannot be reconstructed.
+  pain: 公开证据里找不到该产品用户的任务摩擦、失败代价或频率描述，无法确认存在何种痛点。
+  pain_en: No public evidence describes task friction, failure cost, or frequency for this product's users,
+    so no pain point can be confirmed.
+  current_alternative: 公开材料未说明开发者目前如何做智能体持续学习，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently handle continual learning
+    for agents, nor what prior practice it replaces.
+  usage_reason: 无法给出选择理由：现有证据全部指向同名鞋类品牌与同名酒店，与该产品无关，缺少任何可归因到它的使用或采用事实。
+  usage_reason_en: 'No usage rationale can be given: all available evidence points to same-named footwear
+    and hotel brands unrelated to this product, with no attributable usage or adoption facts.'

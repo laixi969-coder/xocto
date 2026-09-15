@@ -1,0 +1,89 @@
+- id: req-initial-marqly-60-2026-09-15
+  project_slug: marqly-60
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是书签存多后找不到的问题，痛点真实但强度中等，公开材料未说明检索准确度与交付形态，价值结构尚不足以判定。
+    evidence_ids:
+    - ev-5b2054dec7a049bb
+  - gate: consensus
+    status: insufficient
+    reason: 除官方一句话说明外，没有用户评价、社区讨论或采用信号，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-5b2054dec7a049bb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、买方类型或收费方式，to C 订阅还是 to B 采购均属未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5b2054dec7a049bb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检索结果是否可溯源、是否需人工确认，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-5b2054dec7a049bb
+  next_validation: 收集 Marqly 官方定价页或产品文档，确认其检索交付形态、是否保留原文出处以及收费方式。
+  market: ''
+  job: 研究与内容从业者在需要引用自己过去收藏的网页资料时，打开 Marqly 用自然语言提问，从书签库中取回相关条目。
+  job_en: Researchers and content professionals who need to cite web pages they saved earlier open Marqly,
+    ask in natural language, and retrieve relevant items from their bookmark library.
+  pain: 书签越存越多后难以再找到，旧做法靠文件夹分类和关键词搜索，常常找不到当初存的那一条。
+  pain_en: Bookmarks pile up until they are hard to find again; the old approach relies on folders and
+    keyword search and often fails to surface the item originally saved.
+  current_alternative: 浏览器自带书签管理器、文件夹分类、关键词搜索，或把链接另存到笔记软件里。
+  current_alternative_en: The browser's built-in bookmark manager, folder taxonomy, keyword search, or
+    copying links into a note-taking app.
+  usage_reason: 推断：相较文件夹加关键词搜索，它让用户用自然语言直接问书签库，省去回忆标题和逐层翻文件夹这一步；但公开材料未说明检索准确度、是否保留原文出处，也没有留存或复购证据，因此尚不能确认用户会持续使用。
+  usage_reason_en: 'Inference: compared with folders plus keyword search, it lets users query the bookmark
+    library in natural language, removing the step of recalling titles and digging through folders; however,
+    public material does not state retrieval accuracy or whether sources are preserved, and there is no
+    retention or repeat-use evidence, so sustained use cannot be confirmed.'
+- id: req-full-marqly-60-2026-09-15
+  project_slug: marqly-60
+  level: full
+  reviewed_at: '2026-09-15T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决书签只增不减后无法找回旧资料的需求，痛点在收藏量大时刚性：找不到等于白存，只能重复检索。公开说明已能还原输入（书签库）、动作（自然语言提问）、交付（返回相关书签）与不解决的后果，属工作流结构推理；检索准确度与出处保留未披露，故把握有限。
+    evidence_ids:
+    - ev-5b2054dec7a049bb
+  - gate: consensus
+    status: insufficient
+    reason: 除官方一句产品说明外，没有用户评价、社区讨论或采用数据，无法判断“用自然语言问书签”是否已被目标人群接受，也看不出卡在感知还是场景环节。
+    evidence_ids:
+    - ev-5b2054dec7a049bb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、买方类型或收费方式，to C 订阅还是 to B 采购均属未知；这是基于公开材料的判断，不是已验证事实，但买方不清不否定需求本身。
+    evidence_ids:
+    - ev-5b2054dec7a049bb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检索结果是否可溯源到原始链接、是否需人工确认，以及书签数据如何导入与同步，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-5b2054dec7a049bb
+  next_validation: 追踪 Marqly 官网定价页与产品文档，确认其检索交付形态、是否保留原文出处与链接、书签导入方式及收费模式。
+  market: ''
+  job: 研究与内容从业者在需要引用自己过去收藏的网页资料时，打开 Marqly 用自然语言提问，从积累的书签库中取回与问题相关的条目并用于写作或引用。
+  job_en: Researchers and content professionals who need to cite web pages they saved earlier open Marqly,
+    ask in natural language, and retrieve relevant items from their accumulated bookmark library for writing
+    or citation.
+  pain: 书签长期只增不减，靠文件夹分类和关键词搜索找回旧链接时，常因记不起标题或分类位置而找不到当初存的那一条，导致收藏等于失效、重复检索浪费时间。
+  pain_en: Bookmarks only accumulate; when retrieving an old link via folders and keyword search, users
+    often cannot recall the title or folder, so the saved item is effectively lost and the same research
+    is repeated.
+  current_alternative: 浏览器自带书签管理器加文件夹分类与关键词搜索，或把链接另存到笔记软件、稍后读工具中再手动翻找。
+  current_alternative_en: The browser's built-in bookmark manager with folders and keyword search, or
+    copying links into note-taking or read-later tools and scrolling manually.
+  usage_reason: 推断：相较文件夹加关键词搜索需要用户先回忆标题或分类路径，Marqly 让用户直接用自然语言描述要找的内容，由 AI 在书签库中匹配语义相关条目，省去回忆标题和逐层翻文件夹这一步；因此收藏量大、常需回头引用旧资料的研究与内容从业者会在写作或查证时选择它。公开材料未说明检索准确度与是否保留原文出处，也无留存或复购证据，持续使用仍属推断。
+  usage_reason_en: 'Inference: whereas folders plus keyword search require recalling a title or folder
+    path first, Marqly lets users describe what they are looking for in natural language and has AI match
+    semantically related items in the bookmark library, removing the step of recalling titles and digging
+    through folders; hence researchers and content professionals with large bookmark collections who often
+    cite old material would choose it while writing or fact-checking. Public material does not'

@@ -1,0 +1,96 @@
+- id: req-initial-lint-2026-09-15
+  project_slug: lint
+  level: initial
+  reviewed_at: '2026-09-15T00:38:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理生成样式代码后设计系统规则难以逐条核对的问题，痛点具体且不解决的后果是样式债累积；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-23d27d3eda575f82
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与 fork 数，属于关注度信号，没有团队采用、集成案例或社区讨论说明它已进入日常流程。
+    evidence_ids:
+    - ev-23d27d3eda575f82
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，钱可能来自企业支持或托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-23d27d3eda575f82
+  - gate: truth
+    status: insufficient
+    reason: 规则能否覆盖真实设计系统、代理是否会绕过检查、误报率如何，公开材料均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-23d27d3eda575f82
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有团队报告接入自身设计系统后的规则覆盖范围与误报情况。
+  market: ''
+  job: 维护 Tailwind 设计系统的前端工程师在提交组件或样式改动时，需要处理代理生成或人工编写的样式代码，确认它是否符合团队既定的设计系统规则。
+  job_en: Frontend engineers maintaining a Tailwind design system, when submitting component or style
+    changes, must handle agent-generated or hand-written style code and confirm it complies with the team's
+    established design-system rules.
+  pain: 设计系统规则通常写在文档或口头约定里，代理批量生成代码后，人只能逐行读 diff 找违规，规则越细越难查全，漏掉的偏差会累积成样式债。
+  pain_en: Design-system rules usually live in docs or verbal agreements; after an agent generates code
+    in bulk, humans must read diffs line by line to find violations, and the finer the rules the harder
+    to check completely, so missed deviations accumulate as style debt.
+  current_alternative: 目前多靠人工代码评审、通用 lint 规则或事后抽查，设计系统层面的约束往往没有可执行形式。
+  current_alternative_en: Today teams mostly rely on manual code review, generic lint rules or after-the-fact
+    spot checks, and design-system-level constraints often have no executable form.
+  usage_reason: 推断：相比人工逐行读 diff，它把设计系统规则变成代理可执行的检查项，在代码生成后直接产出违规清单，省掉人工通读这一步，因此规则明确、代理产出量大的前端团队会优先试用；公开材料尚未显示持续使用或付费证据。
+  usage_reason_en: 'Inference: compared with reading diffs line by line, it turns design-system rules
+    into agent-executable checks and outputs a violation list right after code generation, removing the
+    manual read-through step, so frontend teams with explicit rules and heavy agent output would try it
+    first; public material does not yet show sustained use or payment evidence.'
+- id: req-full-lint-2026-09-15
+  project_slug: lint
+  level: full
+  reviewed_at: '2026-09-15T01:06:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理生成样式代码后设计系统规则难以逐条核对的问题，痛点具体且不解决的后果是样式债累积；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-a2acb306ddc3aee9
+    - ev-8d39bcdb7d27a9cf
+  - gate: consensus
+    status: insufficient
+    reason: 现有证据只说明 lint 类工具做静态源码分析的历史与通用定义，没有团队采用、集成案例或社区讨论说明该产品已进入日常流程。
+    evidence_ids:
+    - ev-a2acb306ddc3aee9
+    - ev-83144df055d64e88
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或商业路径，钱可能来自企业支持或托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0cf5b51d54453fdd
+  - gate: truth
+    status: insufficient
+    reason: 规则能否覆盖真实设计系统、代理是否会绕过检查、误报率如何，公开材料均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-8d39bcdb7d27a9cf
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有团队报告接入自身 Tailwind 设计系统后的规则覆盖范围与误报情况。
+  market: ''
+  job: 维护 Tailwind 设计系统的前端工程师在提交组件或样式改动时，处理 AI 编码代理生成或人工编写的样式代码，要完成的任务是确认这些代码是否符合团队既定的设计系统规则并得到可核对的违规清单。
+  job_en: Frontend engineers maintaining a Tailwind design system, when submitting component or style
+    changes, handle agent-generated or hand-written style code to confirm it complies with the team's
+    established design-system rules and obtain a checkable violation list.
+  pain: 设计系统规则通常散落在文档或口头约定中，代理批量生成代码后只能逐行读 diff 找违规，规则越细越难查全，漏掉的偏差会累积成样式债；公开材料未提供用户抱怨或误报率数据，此痛点由工作流结构推理得出。
+  pain_en: Design-system rules usually live in docs or verbal agreements; after an agent generates code
+    in bulk, humans must read diffs line by line to find violations, and the finer the rules the harder
+    to check completely, so missed deviations accumulate as style debt; public material provides no user
+    complaints or false-positive data, so this pain is inferred from workflow structure.
+  current_alternative: 目前多靠人工代码评审、通用 lint 规则或事后抽查，设计系统层面的约束往往没有可执行形式；公开证据只说明 lint 类工具做静态源码分析，未说明 Tailwind
+    设计系统规则如何被现有工具覆盖。
+  current_alternative_en: Today teams mostly rely on manual code review, generic lint rules or after-the-fact
+    spot checks, and design-system-level constraints often have no executable form; public evidence only
+    shows lint-type tools perform static source analysis, not how Tailwind design-system rules are covered
+    by existing tools.
+  usage_reason: 推断：相较人工逐行读 diff，它把设计系统规则写成代理可执行的检查项，在代码生成后直接产出违规清单，省掉人工通读这一步，因此规则明确、代理产出量大的前端团队会在提交前选择它；公开材料尚未显示持续使用或付费证据。
+  usage_reason_en: 'Inference: compared with reading diffs line by line, it turns design-system rules
+    into agent-executable checks and outputs a violation list right after code generation, removing the
+    manual read-through step, so frontend teams with explicit rules and heavy agent output would choose
+    it before committing; public material does not yet show sustained use or payment evidence.'

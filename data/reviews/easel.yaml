@@ -501,3 +501,51 @@
   usage_reason: 无法给出使用理由：证据中的产品是免费在线 CNC 设计软件，与候选描述的 AI 社交媒体智能体不是同一产品，用户为何选择它缺少任何可核对的动作或结果。
   usage_reason_en: 'No usage reason can be given: the evidenced product is free online CNC design software,
     not the AI social-media agent described, so no verifiable action or outcome explains user choice.'
+- id: req-full-easel-2026-09-15
+  project_slug: easel
+  level: full
+  reviewed_at: '2026-09-15T01:05:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多平台内容运营中热点发现、逐平台改写分发与效果复盘分散的问题，痛点在于重复劳动和难以判断有效内容；公开仓库说明其覆盖小红书、抖音、知乎、B站并串联趋势、创作、发布与学习，旧流程为手工刷榜加逐平台发布，属工作流结构推理，痛点刚性与交付闭环可辨。
+    evidence_ids:
+    - ev-3bf31fa35d3dcd49
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 1,088 个收藏，说明开发者社区已注意到该项目，但收藏属关注度证据，不能证明目标创作者持续使用或把它留在日常工作流中，缺少使用反馈与复购类材料。
+    evidence_ids:
+    - ev-3bf31fa35d3dcd49
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页、付费主体或单位经济，钱可能来自 to C 创作者订阅、to B 代运营团队或 to VC 赞助，均属判断而非已验证事实；买方不清是模式缺口，不否定需求。
+    evidence_ids:
+    - ev-3bf31fa35d3dcd49
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述智能体可发现趋势、生成内容并发布，未提供多平台发布接口的稳定性、账号安全边界或人工审核环节的可复现证据，交付确定性尚不可核验。
+    evidence_ids:
+    - ev-3bf31fa35d3dcd49
+  next_validation: 追踪 Easel 官方仓库的 README、issue 与 discussion，确认其支持哪些平台发布接口、是否需要人工审核，以及是否有用户公开描述实际部署与替代旧流程的记录。
+  market: ''
+  job: 内容创作者或社交媒体运营者在小红书、抖音、知乎、B站等多平台发布前，需要处理热点趋势数据与选题素材，完成内容草稿生成、多平台发布和发布后效果复盘这一整套任务。
+  job_en: A content creator or social media operator, before publishing across Xiaohongshu, Douyin, Zhihu
+    and Bilibili, must process trend data and topic material to produce drafts, publish to multiple platforms,
+    and review post-publish performance.
+  pain: 多平台运营的痛点是热点发现、逐平台改写与分发、效果复盘分散在不同工具和手工流程中，重复劳动多且难以判断哪类内容有效；公开材料只给出产品能力描述，未提供用户抱怨或量化代价，痛点强度属工作流结构推理。
+  pain_en: The pain is that trend discovery, per-platform rewriting and distribution, and performance
+    review are scattered across tools and manual steps, creating repetitive work and making it hard to
+    tell what content works; public material only describes product capability, so pain intensity is a
+    workflow inference.
+  current_alternative: 当前替代方式是创作者手工刷各平台热榜、用通用 AI 或模板写稿、逐平台手动发布，再用平台自带后台分别看数据；公开材料未记录用户对旧流程的具体抱怨。
+  current_alternative_en: Today users manually scan each platform's trending lists, write with generic
+    AI or templates, publish platform by platform, and check each platform's own analytics; public material
+    does not record specific complaints about this old workflow.
+  usage_reason: 推断：相较手工刷榜、逐平台改写与分发，Easel 把趋势输入、草稿生成、多平台发布和效果学习串成一个智能体流程，减少跨平台重复操作与分散复盘的步骤，因此多平台日更或矩阵运营的创作者会在需要批量产出并统一复盘时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manually scanning trends, rewriting per platform and distributing
+    by hand, Easel chains trend input, draft generation, multi-platform publishing and performance learning
+    into one agent flow, cutting cross-platform repetition and scattered review, so creators running multi-platform
+    or matrix accounts would choose it when they need batch output with unified review; public material
+    has no user feedback confirming this motive.'

@@ -278,3 +278,45 @@
   usage_reason: 缺少用户反馈与案例，无法说明相较旧做法它减少了哪一步负担或改善了哪项可核对结果，因此选择动机无法成立。
   usage_reason_en: Without user feedback or cases, there is no way to say which step it removes or which
     checkable result it improves versus the old approach, so the adoption motive cannot be established.
+- id: req-full-qanat-2026-09-15
+  project_slug: qanat
+  level: full
+  reviewed_at: '2026-09-15T01:07:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 alpha 因子构建与回测的流程编排，但公开材料只有仓库一句话描述，没有用户任务、痛点、旧替代或不解决的后果，连需求与痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-bd1204c80d23a6bd
+    - ev-2f3657f401794ecb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/fidetolabs/qanat 的 README、issue 与 discussion，确认是否有量化研究员描述具体因子研究流程、替代的旧工具及可复现的交付结果。
+  market: ''
+  job: 量化研究员或投资组合经理在开发新 alpha 因子时，需要把数据获取、因子计算、回测与结果评估串成可复现的流水线，并让 AI agent 按节点执行这些步骤。
+  job_en: A quantitative researcher or portfolio manager developing a new alpha factor needs to chain
+    data ingestion, factor computation, backtesting and evaluation into a reproducible pipeline, with
+    AI agents executing each node.
+  pain: 公开材料只有一句仓库描述，没有任何用户反馈、issue 或案例说明当前因子研究流程中哪一步最痛、出错频率多高、不解决会损失什么。
+  pain_en: The only public material is a one-line repository description; no user feedback, issue or case
+    shows which step of the current factor-research workflow hurts most, how often it fails, or what is
+    lost if unsolved.
+  current_alternative: 公开材料未说明量化研究员目前用什么工具完成因子构建与回测，也未说明 qanat 替代了哪套旧流程。
+  current_alternative_en: Public materials do not state what tools quant researchers currently use for
+    factor construction and backtesting, nor which prior workflow qanat replaces.
+  usage_reason: 无法从公开事实说明用户为何会选择它：仓库描述只给出功能定位，没有用户动机、采用行为或可核对的结果改善证据。
+  usage_reason_en: 'No public fact explains why a user would choose it: the repository description only
+    states a functional positioning, with no user motivation, adoption behavior or verifiable outcome
+    improvement.'

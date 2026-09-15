@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/naoma
 summary: Turns website traffic into booked, qualified meetings
 first_seen: '2026-09-09T12:36:36Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

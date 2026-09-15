@@ -1,0 +1,87 @@
+- id: req-initial-buildots获13亿美元融资扩展ai建筑管理平台-ai应用-2026-09-15
+  project_slug: buildots获13亿美元融资扩展ai建筑管理平台-ai应用
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工地进度核对中人工比对照片与计划、偏差发现滞后的问题，痛点刚性且旧流程明确；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-47ce7d24c5870696
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户名单、部署案例或现场团队持续使用的公开证据。
+    evidence_ids:
+    - ev-47ce7d24c5870696
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，钱可能来自总包或业主的项目预算，属判断而非已验证事实。
+    evidence_ids:
+    - ev-47ce7d24c5870696
+  - gate: truth
+    status: insufficient
+    reason: 影像采集与进度比对的准确率、人工复核边界和交付确定性均无公开材料支持。
+    evidence_ids:
+    - ev-47ce7d24c5870696
+  next_validation: 收集 Buildots 官方客户案例或部署文档，核验其进度偏差交付形式与人工复核边界。
+  market: ''
+  job: 施工项目经理和现场工程师在工地进度核对时，处理现场照片、图纸与进度计划，要判断实际施工是否偏离计划并找出偏差位置。
+  job_en: Construction project managers and site engineers checking site progress handle site photos,
+    drawings and schedules to judge whether actual work deviates from plan and where.
+  pain: 人工比对照片与计划耗时且容易漏项，偏差往往到例会或返工阶段才被发现，纠偏成本高。
+  pain_en: Manual comparison of photos and plans is slow and error-prone; deviations often surface only
+    at meetings or during rework, when correction is costly.
+  current_alternative: 旧做法是现场人员拍照、填表，再由项目团队在例会前人工比对图纸和进度表。
+  current_alternative_en: The old way is site staff taking photos and filling forms, then the project
+    team manually comparing drawings and schedules before meetings.
+  usage_reason: 推断：相较人工逐张比对照片与计划，它把影像采集与计划比对自动化，直接产出偏差清单，减少例会前整理和找差异的步骤，因此进度管控频繁、返工代价高的大型项目团队会考虑使用。
+  usage_reason_en: 'Inference: compared with manually comparing each photo against the plan, it automates
+    image capture and plan comparison and outputs a deviation list, cutting the pre-meeting sorting and
+    diff-finding steps, so teams on large projects with frequent progress control and costly rework would
+    consider it.'
+- id: req-full-buildots获13亿美元融资扩展ai建筑管理平台-ai应用-2026-09-15
+  project_slug: buildots获13亿美元融资扩展ai建筑管理平台-ai应用
+  level: full
+  reviewed_at: '2026-09-15T01:05:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工地进度核对中人工比对照片与计划、偏差发现滞后的问题，痛点刚性且旧流程明确；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-47ce7d24c5870696
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户名单、部署案例或现场团队持续使用的公开证据，无法判断是否形成稳定采用。
+    evidence_ids:
+    - ev-47ce7d24c5870696
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，钱可能来自总包或业主的项目预算，属判断而非已验证事实。
+    evidence_ids:
+    - ev-47ce7d24c5870696
+  - gate: truth
+    status: insufficient
+    reason: 影像采集与进度比对的准确率、人工复核边界和交付确定性均无公开材料支持，无法核验承诺能否确定性交付。
+    evidence_ids:
+    - ev-47ce7d24c5870696
+  next_validation: 追踪 Buildots 官网客户案例页或部署文档，核验其进度偏差交付形式、人工复核边界与公开定价信息。
+  market: ''
+  job: 施工项目经理和现场工程师在工地进度核对环节，处理现场照片、图纸与进度计划，要判断实际施工是否偏离计划并定位偏差部位。
+  job_en: Construction project managers and site engineers checking site progress handle site photos,
+    drawings and schedules to judge whether actual work deviates from plan and locate the deviation.
+  pain: 人工逐张比对照片与计划耗时且易漏项，偏差常在例会或返工阶段才暴露，纠偏成本高；这是从旧流程结构推出的痛点，尚无用户反馈直接佐证。
+  pain_en: Manually comparing each photo against the plan is slow and error-prone; deviations often surface
+    only at meetings or during rework, when correction is costly. This pain is inferred from the old workflow
+    structure, not from user feedback.
+  current_alternative: 旧做法是现场人员拍照、填表，项目团队在例会前人工比对图纸与进度表，靠经验判断偏差。
+  current_alternative_en: The old way is site staff taking photos and filling forms, then the project
+    team manually comparing drawings and schedules before meetings, judging deviations by experience.
+  usage_reason: 推断：相较人工逐张比对，它把影像采集与计划比对自动化并直接产出偏差清单，省去例会前整理照片和人工找差异的步骤，因此进度管控频繁、返工代价高的大型项目团队会在进度核对场景选择它。
+  usage_reason_en: 'Inference: compared with manual photo-by-photo comparison, it automates image capture
+    and plan comparison and outputs a deviation list, removing the pre-meeting sorting and manual diff-finding
+    steps, so teams on large projects with frequent progress control and costly rework would choose it
+    for progress checks.'

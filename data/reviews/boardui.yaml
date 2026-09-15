@@ -298,3 +298,54 @@
     components plus a runnable chat app on the user''s own model key, removing the step of implementing
     streaming chat and state management from scratch, so frontend developers prototyping an AI product
     would pick it when they need an editable source starting point.'
+- id: req-full-boardui-2026-09-15
+  project_slug: boardui
+  level: full
+  reviewed_at: '2026-09-15T01:05:00Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是搭建智能体界面时缺少专用组件与可运行示例的需求，痛点是前端从零手写对话流与工具调用状态；公开材料显示其以组件源码加自有模型密钥聊天应用交付，旧替代为通用组件库自行拼装，不解决的后果是重复造轮子。此为工作流结构推理，公开用户抱怨与频率尚未核验。
+    evidence_ids:
+    - ev-31f561a98075084d
+    - ev-90f65031fd0a993d
+  - gate: consensus
+    status: supported
+    reason: 公开代码仓库收藏数从 387 持续升至 445，说明开发者社区在注意到并持续关注该项目；但收藏属关注度证据，不能证明目标用户已把它长期留在工作流或持续使用，强场景采用仍缺公开材料。
+    evidence_ids:
+    - ev-31f561a98075084d
+    - ev-90f65031fd0a993d
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明免费组件与自有模型密钥，未披露定价页、付费主体或单位经济；钱可能来自 to C 开发者订阅或 to B 团队授权，这是判断而非已验证事实，商业证据缺口不反推需求不存在。
+    evidence_ids:
+    - ev-31f561a98075084d
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺交付组件源码与可运行聊天应用，但公开材料未提供部署文档、可复现实测或安全与人工边界说明，交付能否稳定发生尚缺可核验证据。
+    evidence_ids:
+    - ev-31f561a98075084d
+  next_validation: 追踪 BoardUI 官方仓库的 README、issue 与 discussion，确认是否有开发者公开描述在何种项目、替代了哪套旧组件方案并持续使用。
+  market: ''
+  job: 前端开发者或 UI 设计师在搭建 AI 聊天/智能体产品界面时，需要处理对话流、消息气泡、输入框、工具调用状态等交互材料，要完成一个可运行、可接入自有模型密钥的聊天前端，而不是从零手写组件。
+  job_en: Frontend developers or UI designers building an AI chat/agent product interface must handle
+    conversation flow, message bubbles, input controls, and tool-call states, and need to ship a runnable
+    chat frontend wired to their own model key rather than hand-rolling components from scratch.
+  pain: 公开材料显示该产品以“每个免费组件都提供源码 + 首页即一个可接入自有模型密钥的可用 AI 聊天应用”为交付形态，说明其针对的是从零搭建智能体界面时组件与示例缺失的摩擦；但公开证据未给出用户抱怨、频率或不采用的具体代价，痛点强度属工作流结构推理。
+  pain_en: Public materials show the product ships every free component as source plus a working AI chat
+    app on the user's own model key as the homepage, indicating it targets the friction of missing components
+    and examples when building agent interfaces from scratch; however, no public user complaints, frequency,
+    or cost of not adopting are given, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是前端开发者自行手写聊天 UI 组件，或直接采用通用 React 组件库（如 MUI、Ant Design、shadcn/ui）再自行拼装对话流与工具调用状态；公开材料未说明用户实际替代了什么。
+  current_alternative_en: The old approach is for frontend developers to hand-write chat UI components,
+    or to use general React component libraries (e.g., MUI, Ant Design, shadcn/ui) and assemble conversation
+    flow and tool-call states themselves; public materials do not state what users actually replace.
+  usage_reason: 推断：相较手写或通用组件库拼装，BoardUI 直接提供智能体界面专用组件源码，并把一个可接入自有模型密钥的可用聊天应用放在首页作为起点，减少“先搭骨架再调对话状态”这一步负担；因此正在做
+    AI 聊天/智能体前端、又不想从零写组件的开发者会在项目启动阶段选择它。这是基于产品交付形态的推断，不是用户反馈支持的事实。
+  usage_reason_en: 'Inference: versus hand-writing or assembling from general component libraries, BoardUI
+    provides agent-interface-specific component source and puts a working chat app on the user''s own
+    model key on the homepage as a starting point, removing the step of first scaffolding and then wiring
+    conversation state; therefore developers building an AI chat/agent frontend who do not want to write
+    components from scratch would choose it at project kickoff. This is an inference from the pro'

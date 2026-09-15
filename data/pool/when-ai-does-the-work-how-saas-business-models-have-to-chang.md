@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MMmxiV29hdl9Z
 summary: 'When AI Does the Work: How SaaS Business Models Have to Change unite.ai'
 first_seen: '2026-09-14T11:40:03Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -293,3 +293,86 @@
   usage_reason: 用户可能因隐私或离线需求尝试本地 AI，但零摩擦的承诺需验证是否真正简化了安装和配置。
   usage_reason_en: Users may try local AI for privacy or offline needs, but the zero-friction claim needs
     validation whether it truly simplifies installation and configuration.
+- id: req-initial-local-2026-09-15
+  project_slug: local
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决敏感材料不能上云、本地推理配置繁琐的问题，痛点具体；但公开材料未说明支持的模型、输入与交付结果，价值链条尚不完整。
+    evidence_ids:
+    - ev-ee41221b5c5d12ae
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有一定热度，但缺少可归因到该产品的采用、留存或重复使用证据，无法判断是否形成稳定使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是个人开发者还是企业团队不明；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对本地推理的确定性交付、模型来源与安全边界，也未见人工确认环节的说明。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或部署文档，确认支持的模型清单、硬件要求与是否收费。
+  market: ''
+  job: Mac 用户在处理不便上传云端的合同、病历或代码时，需要在本机完成问答与生成，并拿到可直接使用的输出。
+  job_en: A Mac user handling contracts, medical records or code that cannot be uploaded needs to run
+    Q&A and generation on the machine and get usable output.
+  pain: 把敏感材料交给云端模型存在合规与泄露顾虑，而自行搭建本地推理环境需要配置运行环境、下载权重、调参数，门槛高。
+  pain_en: Sending sensitive material to cloud models raises compliance and leakage concerns, while self-hosting
+    local inference requires setting up runtimes, downloading weights and tuning parameters.
+  current_alternative: 用户目前要么直接用云端聊天工具，要么自行安装命令行推理工具并手动配置模型。
+  current_alternative_en: Users currently either use cloud chat tools directly or install command-line
+    inference tools and configure models by hand.
+  usage_reason: 推断：若它真能免配置完成模型下载与运行，用户可省去环境搭建和参数调试这一步，从而让不愿碰命令行的 Mac 用户也能用上本地模型；但公开材料未给出模型清单、硬件要求或实际使用反馈，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if it truly handles model download and execution without configuration,
+    users skip environment setup and parameter tuning, letting Mac users who avoid the command line use
+    local models; however, public material gives no model list, hardware requirements or usage feedback,
+    so this causal claim is unproven.'
+- id: req-full-local-2026-09-15
+  project_slug: local
+  level: full
+  reviewed_at: '2026-09-15T01:06:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决敏感材料不便上云、本地推理配置繁琐的问题，但全部证据均为墨西哥商业地产租赁页、共享办公介绍与通用 AI 官网，无一条可归因到该产品，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-0a92f9cea42f8fbf
+    - ev-ac6d3075c6f80e43
+    - ev-c4034eadef70c862
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或发布页（含定价、模型清单与部署文档），确认其真实产品形态与可归因的公开使用证据。
+  market: ''
+  job: Mac 用户在处理不便上传云端的合同、病历或代码时，希望在本机加载模型完成问答或生成，直接拿到可用的本机推理结果。
+  job_en: A Mac user handling contracts, medical records or code that should not be uploaded wants to
+    load a model locally, run Q&A or generation on the machine, and get usable on-device output.
+  pain: 公开材料未提供任何可归因到该产品的用户痛点证据：没有用户抱怨、workaround 或客户案例，只有一句“Zero (!) friction local AI for your Mac”的自我描述，无法确认敏感材料上云顾虑或本地配置门槛是否真实驱动使用。
+  pain_en: 'No attributable pain evidence exists for this product: no user complaints, workarounds or
+    customer cases, only the self-description ''Zero (!) friction local AI for your Mac'', so it cannot
+    be confirmed that cloud-upload concerns or local setup friction actually drive usage.'
+  current_alternative: 公开材料未说明用户现在用什么替代；可推断的旧做法是直接用云端聊天工具，或自行安装命令行推理工具并手动配置模型，但这一替代行为同样没有证据支持。
+  current_alternative_en: Public material does not state what users currently use instead; the inferable
+    alternatives are cloud chat tools or self-installed command-line inference tools with manual model
+    configuration, but this substitution behavior is equally unsupported.
+  usage_reason: 无法给出有依据的使用理由：现有证据中没有产品页面、模型清单、输入格式、交付形态或任何用户反馈，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'No evidence-based usage reason can be given: the evidence contains no product page,
+    model list, input format, delivery form or any user feedback, so it cannot be shown which step it
+    removes or which verifiable result it improves versus the old approach.'

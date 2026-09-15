@@ -21,7 +21,7 @@ canonical_url: https://github.com/SorBalda/vibeworld
 summary: a shared terminal world for developers and scientists
 first_seen: '2026-09-13T20:00:14Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

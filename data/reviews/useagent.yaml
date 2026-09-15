@@ -226,3 +226,56 @@
     task can be submitted whole, run to completion, and returned as a finished artifact, cutting manual
     shuttling and finishing; developers or PMs who need websites, reports, or PRs produced in volume without
     step-by-step babysitting would choose it in that situation.'
+- id: req-full-useagent-2026-09-15
+  project_slug: useagent
+  level: full
+  reviewed_at: '2026-09-15T01:08:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把整段工作交给代理并拿回成品，痛点在于旧方式只给片段、仍需人工搭环境与拼装交付；不采用就要自行整合或外包，代价明确。这是基于产品说明与任务结构的工作流推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-83fe80d6bd9d033f
+    - ev-c4d627a7e9644a3c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 284 缓慢升至 306，属关注度而非采用共识；公开材料没有用户讨论、案例或评价，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-83fe80d6bd9d033f
+    - ev-fa4bb3904e0d5d02
+    - ev-ba47b98cedbd56e0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页或买方，仅说明可运行在用户自己的 Claude Code、Codex、OpenCode 订阅上，因此钱可能来自团队自建部署或后续托管订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-83fe80d6bd9d033f
+    - ev-20144b123e2d8f46
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺交付网站、报告、PR 等成品，但公开材料没有部署文档、权限说明或可复现实测，交付是否确定性发生、安全边界如何划定均无法核对。
+    evidence_ids:
+    - ev-c4d627a7e9644a3c
+    - ev-72a43a0f475a386e
+  next_validation: 追踪 useagent 官方仓库的 README、部署文档与 issues/discussions，核对交付示例、权限边界与是否出现真实用户使用反馈。
+  market: ''
+  job: 开发者或产品经理在需要交付网站、演示文稿、电子表格、报告或 PR 时，把任务连同团队工具与上下文交给一个拥有独立云电脑的代理，由代理在云端执行并交回成品。
+  job_en: A developer or PM hands a task—website, deck, spreadsheet, report, or PR—plus team tools and
+    context to an agent with its own cloud computer, which executes in the cloud and returns the finished
+    artifact.
+  pain: 公开材料显示其定位是替代“只给片段、需人工整合”的旧方式：现有编码助手产出代码片段或草稿，用户仍要自己搭环境、跑命令、拼装并交付；把整段工作交出去可省掉这些中间步骤。这是从产品说明与任务结构作出的推断，尚无用户抱怨或案例佐证。
+  pain_en: 'The public positioning targets the old pattern of getting fragments that must be assembled:
+    existing coding assistants emit snippets or drafts, leaving the user to set up environments, run commands,
+    and stitch the deliverable together; handing off the whole task removes those intermediate steps.
+    This is inferred from product description and task structure, not from user complaints or cases.'
+  current_alternative: 使用 Claude Code、Codex、OpenCode 等编码助手生成片段后自行整合，或由团队成员手动搭建环境、编写并交付网站、报告与 PR。
+  current_alternative_en: Using coding assistants such as Claude Code, Codex, or OpenCode to generate
+    snippets and integrate them manually, or having team members hand-build environments and deliver websites,
+    reports, and PRs themselves.
+  usage_reason: 推断：相较自行拼装片段，它把“配置云电脑、调用团队工具与上下文、执行并产出成品”合并为一次任务交接，用户只需给出任务即可拿到可交付物，因此需要频繁产出网站、报告、PR 的开发者或产品经理会在批量交付场景选择它；但公开材料未提供交付质量、留存或复购证据，采用动机仍属推断。
+  usage_reason_en: 'Inference: versus assembling snippets yourself, it merges cloud-computer setup, tool
+    and context access, and execution into a single handoff so the user supplies a task and receives a
+    deliverable; developers or PMs producing websites, reports, and PRs frequently would pick it for batch
+    delivery. No public evidence on deliverable quality, retention, or repeat use, so the adoption motive
+    remains inferred.'

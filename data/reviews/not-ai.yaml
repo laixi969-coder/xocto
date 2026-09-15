@@ -171,3 +171,47 @@
     users from crafting prompts or polishing sentence by sentence, so students and creators worried about
     AI detection or an AI-sounding voice may try it; however, no user feedback or case supports this motive,
     and continued retention is unproven.'
+- id: req-full-not-ai-2026-09-15
+  project_slug: not-ai
+  level: full
+  reviewed_at: '2026-09-15T01:06:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把 AI 草稿改写成人类风格文字的需求，但公开材料只有产品自述，没有用户抱怨、不采用代价或频率证据；检测规避随检测器更新失效，属于没有也行，价值关不成立。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+    - ev-5f42e4d9ef3717c4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现具体使用场景、用户反馈或检测器更新后的失效报告。
+  market: ''
+  job: 学生或内容创作者在提交作业、发布社交帖或公开 公开代码仓库 README 前，把 AI 生成的草稿交给它，按人类写作标准改写成更清晰自然的成稿。
+  job_en: Students and content creators hand an AI-generated draft to it before submitting coursework,
+    publishing social posts, or public public code repository READMEs, to rewrite it into clearer, more
+    natural human-standard prose.
+  pain: 公开材料只说明它把文字改得更清晰自然，未给出任何用户抱怨、不采用代价或频率证据；AI 检测规避本身是猫鼠博弈，检测器更新即失效，痛点刚性不足。
+  pain_en: Public materials only claim it makes prose clearer and more natural; there is no user complaint,
+    cost-of-not-adopting, or frequency evidence, and AI-detector evasion is a cat-and-mouse game that
+    breaks when detectors update, so the pain is not rigid.
+  current_alternative: 用户可直接用 ChatGPT、Claude 等通用模型重写，或用 Grammarly、QuillBot 等改写工具，也可自行润色；公开材料未说明它比这些旧做法多交付了什么。
+  current_alternative_en: Users can already rewrite with general models like ChatGPT or Claude, use rewriting
+    tools like Grammarly or QuillBot, or polish the text themselves; public materials do not show what
+    it delivers beyond these existing options.
+  usage_reason: 推断：它把改写动作收进一个以人类写作标准为卖点的工具，可能省去在通用模型里反复调提示词的一步；但公开材料没有用户反馈或案例说明谁会在什么情况下选它，且检测规避价值随检测器更新而失效，因此不足以支撑持续使用。
+  usage_reason_en: 'Inference: it packages rewriting into a tool marketed on human-writing standards,
+    potentially saving the step of repeatedly tuning prompts in a general model; but no public user feedback
+    or case shows who would choose it when, and the detector-evasion value expires as detectors update,
+    so sustained use is unsupported.'

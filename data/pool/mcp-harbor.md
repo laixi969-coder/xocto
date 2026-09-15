@@ -21,7 +21,7 @@ canonical_url: https://ai.mcpharbor.dev
 summary: An MCP Registry
 first_seen: '2026-09-14T16:59:00Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

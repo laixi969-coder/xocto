@@ -23,7 +23,7 @@ summary: In November and December 2025, inspired by Simon Willison’s pelican-r
   octopus operating a pip…
 first_seen: '2026-09-14T13:20:22Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

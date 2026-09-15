@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQYTJIY3pSYjB2
 summary: AI驱动MLCC、ABF双爆发！高盛重磅看多三星电机 目标价直指225万韩元 新浪财经
 first_seen: '2026-09-14T06:42:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

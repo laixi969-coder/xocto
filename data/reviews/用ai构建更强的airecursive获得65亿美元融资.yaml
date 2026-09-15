@@ -1,0 +1,84 @@
+- id: req-initial-用ai构建更强的airecursive获得65亿美元融资-2026-09-15
+  project_slug: 用ai构建更强的airecursive获得65亿美元融资
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有“用AI改进AI”的方向和融资数字，价值关无法成立。
+    evidence_ids:
+    - ev-4fc3e8bffb2c6b6d
+    - ev-ca282b0d51751132
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论集中在递归自我改进是否临近这一研究议题，没有具体产品采用或场景共识的证据。
+    evidence_ids:
+    - ev-fe11a229099b5dad
+    - ev-919bc6d32002ba36
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料未披露定价、买方或交付方式，只有融资叙事，无法判断付费路径。
+    evidence_ids:
+    - ev-4fc3e8bffb2c6b6d
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验其承诺的自我改进能否确定性交付，也看不到安全与人工边界说明。
+    evidence_ids:
+    - ev-ca282b0d51751132
+  next_validation: 收集 Recursive 官方发布的技术说明或评测文档，确认其训练循环的输入、动作与可核对产出。
+  market: ''
+  job: 公开材料未说明具体使用者是谁、在什么工作节点、处理什么材料、要完成什么任务；只能确认公司方向是让AI参与改进AI模型本身。
+  job_en: Public material does not identify who the users are, at which work step, handling what material,
+    to finish what task; it only confirms the company aims to let AI help improve AI models themselves.
+  pain: 公开材料未给出任何具体痛点，既没有说明现有模型训练或研究流程中哪一步低效、昂贵或不可靠，也没有用户抱怨或替代行为的记录。
+  pain_en: 'No concrete pain is given: the material does not say which step of current model training
+    or research is slow, costly or unreliable, and records no user complaints or workaround behavior.'
+  current_alternative: 公开材料未描述当前替代方式，无法确认研究者现在用什么方法做同类工作。
+  current_alternative_en: The material does not describe current alternatives, so it is unclear what method
+    researchers use today for comparable work.
+  usage_reason: 无法判断：公开材料只有融资与方向叙事，没有说明产品通过什么具体动作减少哪一步负担或改善哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material offers only funding and a direction narrative, not
+    which concrete step is relieved or which verifiable result improves, so it cannot explain why users
+    would choose it.'
+- id: req-full-用ai构建更强的airecursive获得65亿美元融资-2026-09-15
+  project_slug: 用ai构建更强的airecursive获得65亿美元融资
+  level: full
+  reviewed_at: '2026-09-15T01:08:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有“用AI改进AI”的方向和融资数字，价值关无法成立。
+    evidence_ids:
+    - ev-4fc3e8bffb2c6b6d
+    - ev-ca282b0d51751132
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Recursive 官方发布的技术说明或评测文档，确认其训练循环的输入、动作与可核对产出。
+  market: ''
+  job: 公开材料未说明具体使用者是谁、在什么工作节点、处理什么材料、要完成什么任务；只能确认公司方向是让AI参与改进AI模型本身。
+  job_en: Public material does not identify who the users are, at which work step, handling what material,
+    to finish what task; it only confirms the company aims to let AI help improve AI models themselves.
+  pain: 公开材料未给出任何具体痛点，既没有说明现有模型训练或研究流程中哪一步低效、昂贵或不可靠，也没有用户抱怨或替代行为的记录。
+  pain_en: 'No concrete pain is given: the material does not say which step of current model training
+    or research is slow, costly or unreliable, and records no user complaints or workaround behavior.'
+  current_alternative: 公开材料未描述当前替代方式，无法确认研究者现在用什么方法做同类工作。
+  current_alternative_en: The material does not describe current alternatives, so it is unclear what method
+    researchers use today for comparable work.
+  usage_reason: 无法判断：公开材料只有融资与方向叙事，没有说明产品通过什么具体动作减少哪一步负担或改善哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material offers only funding and a direction narrative, not
+    which concrete step is relieved or which verifiable result improves, so it cannot explain why users
+    would choose it.'

@@ -1,6 +1,6 @@
 ---
 slug: highbyte-achieves-aws-artificial-intelligence-competency
-name: HighByte Achieves AWS Artificial Intelligence Competency
+name: HighByte
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZGIxSU9uWjNO
 summary: HighByte Achieves AWS Artificial Intelligence Competency Advanced Manufacturing
 first_seen: '2026-09-14T15:27:34Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# HighByte Achieves AWS Artificial Intelligence Competency
+# HighByte
 
 HighByte Achieves AWS Artificial Intelligence Competency Advanced Manufacturing
 

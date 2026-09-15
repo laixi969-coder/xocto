@@ -1,0 +1,80 @@
+- id: req-initial-metanovas-launches-orphic-an-agentic-ai-platform-to-take-cpg-2026-09-15
+  project_slug: metanovas-launches-orphic-an-agentic-ai-platform-to-take-cpg
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决消费品从配方到上架的推进需求，但公开材料未说明具体痛点、旧做法与交付物，价值关证据不足。
+    evidence_ids:
+    - ev-7ab1e011085dea29
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有发布消息，没有客户、采用或行业共识证据。
+    evidence_ids:
+    - ev-7ab1e011085dea29
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-7ab1e011085dea29
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近该工作的第一性目标，也无法确认交付确定性。
+    evidence_ids:
+    - ev-7ab1e011085dea29
+  next_validation: 收集 Orphic 官方产品页或发布文档，确认其输入材料、产出交付物与是否公布定价。
+  market: ''
+  job: 消费品品牌的配方或产品团队在准备把新配方推进到上架时，处理配方、合规与包装材料，要完成从实验室到货架的推进任务。
+  job_en: A CPG brand's formulation or product team, preparing to move a new formula to shelf, handles
+    formulation, compliance and packaging materials to complete the lab-to-shelf push.
+  pain: 公开材料只说明它宣称覆盖实验室到货架，未说明具体痛点，无法确认哪一步手工交接最痛。
+  pain_en: The public material only says it claims to cover lab to shelf; it does not state the specific
+    pain, so which manual handoff hurts most cannot be confirmed.
+  current_alternative: 公开材料未说明旧做法，无法确认此前由谁、用什么工具完成这段流程。
+  current_alternative_en: The public material does not describe the prior practice, so who did this work
+    and with what tools cannot be confirmed.
+  usage_reason: 缺少可核验的输入、动作与交付说明，无法解释用户为何会选择它而非旧做法；这是事实缺口，不是推断。
+  usage_reason_en: With no verifiable description of inputs, actions or deliverables, there is no basis
+    to explain why a user would choose it over the old practice; this is a factual gap, not an inference.
+- id: req-full-metanovas-launches-orphic-an-agentic-ai-platform-to-take-cpg-2026-09-15
+  project_slug: metanovas-launches-orphic-an-agentic-ai-platform-to-take-cpg
+  level: full
+  reviewed_at: '2026-09-15T01:06:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决消费品配方到上架的推进需求，但公开材料只有一句发布标题，未说明具体痛点、旧做法与交付物，连需求与痛点都还原不出，价值关无法成立。
+    evidence_ids:
+    - ev-7ab1e011085dea29
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 MetaNovas 官网 Orphic 产品页或官方发布文档，确认其接收的输入材料、智能体动作、产出交付物与是否公布定价。
+  market: ''
+  job: 消费品品牌的配方或产品团队在准备把新配方推进到上架时，处理配方、合规、包装与渠道材料，要完成从实验室到货架的推进任务。
+  job_en: A CPG brand's formulation or product team, preparing to move a new formula to shelf, handles
+    formulation, compliance, packaging and channel materials to complete the lab-to-shelf push.
+  pain: 公开材料只给出“从实验室到货架”的宣称，未说明具体卡在哪一步、交接有多痛、不解决会有什么后果，因此无法确认痛点是否刚性。
+  pain_en: The public material only claims 'lab to shelf' coverage; it does not state which step stalls,
+    how painful the handoffs are, or what happens if unsolved, so the rigidity of the pain cannot be confirmed.
+  current_alternative: 公开材料未描述旧做法，无法确认此前由谁、用什么工具或表格完成配方、合规与包装之间的交接。
+  current_alternative_en: The public material does not describe the prior practice, so who did this work
+    and with what tools or spreadsheets across formulation, compliance and packaging cannot be confirmed.
+  usage_reason: 缺少可核验的输入材料、智能体动作与交付物说明，无法解释用户为何会选它而非旧做法；这是事实缺口，不是推断。
+  usage_reason_en: With no verifiable description of input materials, agent actions or deliverables, there
+    is no basis to explain why a user would choose it over the old practice; this is a factual gap, not
+    an inference.

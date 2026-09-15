@@ -23,7 +23,7 @@ summary: We ranked August’s most active startup investors across several categ
   familiar names.
 first_seen: '2026-09-14T11:00:45Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

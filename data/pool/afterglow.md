@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/afterglow-4
 summary: Run classic After Dark screen savers on modern macOS
 first_seen: '2026-09-10T00:35:06Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

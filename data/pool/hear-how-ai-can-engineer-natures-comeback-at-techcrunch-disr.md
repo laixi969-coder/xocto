@@ -23,7 +23,7 @@ summary: Not long ago, bringing an extinct species back to life belonged to scie
   founders. Secure your Disrupt pass today.
 first_seen: '2026-09-14T14:30:00Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -22,7 +22,7 @@ summary: 'Exclusive: AI startup Sapien raises at $180M valuation to help compani
   driving profit fortune.com'
 first_seen: '2026-09-08T12:21:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

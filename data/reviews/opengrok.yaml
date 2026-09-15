@@ -282,3 +282,46 @@
   usage_reason_en: 'Inference: versus hand-editing config, one-command setup and a model picker remove
     one configuration step, so developers who like tinkering with model routing may try it; no user feedback
     shows they keep choosing it.'
+- id: req-full-opengrok-2026-09-15
+  project_slug: opengrok
+  level: full
+  reviewed_at: '2026-09-15T01:06:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅重复 OpenGrok 是源码搜索与交叉引用引擎，未提供用户任务情境、痛点强度、旧替代行为或不采用的后果，无法还原具体需求与刚性，价值关证据不足。
+    evidence_ids:
+    - ev-8d4995ce2b6daf3e
+    - ev-31ce580a991878be
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 oracle/opengrok 仓库的 issue 与 discussion，收集用户报告的具体检索任务、旧替代方式与使用反馈，以确认痛点与采用动机。
+  market: ''
+  job: 开发者或开源维护者在需要理解大型遗留代码库时，用 OpenGrok 对源码树做全文检索、符号交叉引用与跳转，以定位定义、调用点和相关实现。
+  job_en: Developers or open-source maintainers working with large legacy codebases use OpenGrok to full-text
+    search, cross-reference symbols, and navigate the source tree to locate definitions, call sites, and
+    related implementations.
+  pain: 公开材料只说明 OpenGrok 是源码搜索与交叉引用引擎，未提供任何用户抱怨、检索耗时、上手成本或替代方案对比的公开事实，因此无法确认具体痛点及其刚性。
+  pain_en: Public materials only state that OpenGrok is a source code search and cross-reference engine;
+    no public facts describe user complaints, search latency, onboarding cost, or comparisons with alternatives,
+    so the specific pain and its rigidity cannot be confirmed.
+  current_alternative: 公开材料未记录用户此前用什么方式完成同一任务，无法确认旧替代是 IDE 全局搜索、grep、公开代码仓库 代码搜索还是其他工具。
+  current_alternative_en: Public materials do not record what users did before to accomplish the same
+    task, so the prior alternative (IDE global search, grep, public code repository code search, or other
+    tools) cannot be confirmed.
+  usage_reason: 公开材料仅说明 OpenGrok 能搜索、交叉引用和导航源码树，未提供用户反馈或客户案例说明为何选择它而非旧做法，因此无法给出可归因的使用理由。
+  usage_reason_en: Public materials only state that OpenGrok can search, cross-reference, and navigate
+    source trees; no user feedback or customer cases explain why it is chosen over prior practice, so
+    an attributable usage reason cannot be given.

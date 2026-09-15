@@ -362,3 +362,55 @@
   usage_reason_en: 'Inference: if it provides a ready game world and action interface, developers skip
     building a simulation themselves; without user feedback or cases, it is unverified which developers
     would choose it and when.'
+- id: req-full-bot-crossing-2026-09-15
+  project_slug: bot-crossing
+  level: full
+  reviewed_at: '2026-09-15T01:05:06Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 agent 决策能力缺少可交互、可观察评测环境的问题：开发者要测试或演示 agent 在复杂任务中的表现，自建沙盒需自行搭建规则与反馈，成本高且难复现。公开仓库与站点说明其以游戏世界接收
+      agent 动作并返回反馈，交付闭环可确定；痛点强度属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-2b1834d63e67df5e
+    - ev-e158a1970a0431d6
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 198 持续升至 542，说明英文开发者社区持续关注并把它加入观察列表；但这是关注度证据，不是持续采用或付费证据，也没有用户评价说明它被留在工作流里。
+    evidence_ids:
+    - ev-2b1834d63e67df5e
+    - ev-c16062d6e73cc12d
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-e158a1970a0431d6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 agent 接入方式、评测结果如何复现、以及安全与人工边界；交付能否稳定发生缺少可复现的公开证据。
+    evidence_ids:
+    - ev-2b1834d63e67df5e
+  next_validation: 追踪 bot-crossing 官方仓库的 README、issue 与 discussion，确认 agent 接入方式、评测结果复现步骤，以及是否有开发者公开描述它替代了自建沙盒或静态
+    benchmark。
+  market: ''
+  job: AI 工程师或 agent 开发者在需要评估、调试或演示一个 LLM agent 的决策与导航能力时，把 agent 接入 bot-crossing 这个游戏世界，让 agent 在规则化的环境中执行动作、接收世界反馈，从而完成一次可观察、可复现的能力测试。
+  job_en: An AI engineer or agent developer who needs to evaluate, debug, or demo an LLM agent's decision-making
+    and navigation ability connects the agent to the bot-crossing game world, lets it take actions and
+    receive world feedback, and thereby completes an observable, reproducible capability test.
+  pain: 公开材料只说明它是给 AI agent 玩的视频游戏，没有用户反馈或案例说明现有评测方式（如静态 benchmark、自建沙盒）具体哪里不够用、失败代价多大；痛点强度属于工作流结构推理，不是已核验的用户事实。
+  pain_en: Public materials only describe it as a video game for AI agents; no user feedback or case shows
+    exactly where existing evaluation methods (static benchmarks, self-built sandboxes) fall short or
+    what failure costs. Pain intensity is a workflow inference, not verified user fact.
+  current_alternative: agent 能力评测目前多依赖静态 benchmark、自建沙盒或人工观察对话日志；这些替代方式在公开材料中未被直接对比，属于从任务结构推出的常见做法。
+  current_alternative_en: Agent capability evaluation today typically relies on static benchmarks, self-built
+    sandboxes, or manually reading conversation logs; these alternatives are not directly compared in
+    public materials and are inferred from the task structure.
+  usage_reason: 推断：相较自建沙盒需要自己搭环境、写规则和渲染反馈，bot-crossing 以现成游戏世界接收 agent 动作并返回世界状态，减少了搭建与维护评测环境这一步，因此需要快速获得可观察
+    agent 行为反馈的开发者会在做能力演示或调试时选择它；公开材料未提供用户自述的采用理由。
+  usage_reason_en: 'Inference: compared with building a sandbox (setting up the environment, rules, and
+    feedback rendering yourself), bot-crossing provides a ready game world that accepts agent actions
+    and returns world state, removing the step of building and maintaining an evaluation environment;
+    developers who need quick, observable agent-behavior feedback would therefore choose it for demos
+    or debugging. Public materials provide no user-stated adoption reason.'

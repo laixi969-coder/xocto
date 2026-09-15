@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiRkFVX3lxTFBLT05TTGhNTmp3
 summary: 超6亿！深圳AI芯片创企获新融资，前地平线芯片总裁创办 智东西
 first_seen: '2026-09-14T03:49:17Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://screensize.net/reports/viewport-stats
 summary: 1080p is 920px tall – 1k real browser viewports
 first_seen: '2026-09-14T07:35:00Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

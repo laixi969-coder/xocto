@@ -3,33 +3,36 @@ slug: ai-engineering-lab
 name: AI-Engineering-Lab
 builder: zorost
 category: AI + 开发
-summary_zh: 软件工程师转型 AI 工程时打开这份免费开源课程，原本要在零散文档与付费课之间自行拼学习路径；课程用 43 个可运行笔记本、沿一个连续案例讲解 Python、RAG、微调、Agent
-  与主流云平台，学员最终跑通整套案例代码；MIT 协议、免注册，是否用 AI 辅助教学仍待核验。
-inspiration: 趋势：企业把大模型落进生产环境，工程师再培训需求膨胀，免费实战教材正蚕食贵价训练营的生意。切入：可面向转型者做按就业结果收费的实战训练，或做垂直行业版企业内训，不与免费内容拼价格而是拼交付与就业结果。
-summary_en: 'A free, MIT-licensed 24-week open-source course for software engineers moving into AI engineering:
-  43 runnable notebooks cover Python, ML, RAG, fine-tuning, agents and cloud platforms via one continuous
-  case study, ending in working code with no signup.'
-inspiration_en: 'Trend: as firms push LLMs into production, engineer retraining demand grows and free
-  hands-on material undercuts paid bootcamps. Entry: sell outcome-priced job training to career switchers
-  or vertical corporate programs, charging on results not subscriptions.'
+summary_zh: 想转做 AI 应用的开发者，在自学阶段打开这套 24 周课程，按顺序跑 43 个 notebook，把 Python、机器学习、LLM、RAG、微调、agent 与 MCP，以及
+  Azure、Vertex、Bedrock、Databricks 串成一条贯穿案例；最终拿到的是可本地运行的练习与代码，是否真正掌握仍需自己验证。
+inspiration: 趋势是 AI 工程学习材料正从零散博客转向可运行、可复现的完整仓库，fork 数高于星数说明不少人想改造成自己的内部培训。切入可做垂直行业的落地版：把同一套 notebook 换成律所、货代或诊所的真实数据与合规约束，按团队交付培训或按项目交付可运行原型，而不是再做一个通用课程站。
+summary_en: Developers moving into AI application work open this 24-week course, run 43 notebooks in order,
+  and follow one continuous case study through Python, machine learning, LLMs, RAG, fine-tuning, agents
+  and MCP, plus Azure, Vertex, Bedrock and Databricks; what they get is locally runnable exercises and
+  code, while real mastery still has to be checked by themselves.
+inspiration_en: 'The trend is that AI engineering learning material is shifting from scattered blog posts
+  to runnable, reproducible repositories, and forks outnumbering stars suggests many want to adapt it
+  for internal training. The opening is a vertical version: swap the same notebooks for real data and
+  compliance constraints in law firms, freight forwarding or clinics, and sell team training or runnable
+  prototypes per project rather than another general course site.'
 priority_review: false
 project_type: open_source
 industries:
 - 软件与信息技术服务
-- 职业教育与培训
+- 教育培训
 industries_en:
-- Software & IT services
-- Vocational education & training
+- Software and IT services
+- Education and training
 jobs:
-- 软件工程师
-- 数据工程师
+- AI 应用工程师
+- 数据平台工程师
 jobs_en:
-- Software engineers
-- Data engineers
+- AI application engineer
+- Data platform engineer
 regions:
-- 全球英语市场
+- 全球
 regions_en:
-- Global English-speaking markets
+- Global
 open_source: true
 url: https://zorost.com/ai-engineering-lab
 canonical_url: https://zorost.com/ai-engineering-lab
@@ -38,7 +41,7 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - newssearch

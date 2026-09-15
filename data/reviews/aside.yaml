@@ -1,0 +1,93 @@
+- id: req-initial-aside-2026-09-15
+  project_slug: aside
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句口号式描述，价值关无法成立。
+    evidence_ids:
+    - ev-e36745b1388d0180
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注度证据可判断共识。
+    evidence_ids:
+    - ev-e36745b1388d0180
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-e36745b1388d0180
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-e36745b1388d0180
+  next_validation: 收集该产品官方页面或文档，确认它接收什么输入、执行什么动作、交付什么结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开它、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: Public material does not state who opens it, in what situation, with what material, to finish
+    what task, so the use scenario cannot be reconstructed.
+  pain: 材料未给出任何用户痛点或旧做法受阻的描述。
+  pain_en: The material gives no description of user pain or of an old approach being blocked.
+  current_alternative: 材料未说明用户现在用什么方式完成同类网页任务。
+  current_alternative_en: The material does not say what users currently use to complete comparable web
+    tasks.
+  usage_reason: 缺少功能细节与旧流程对照，无法解释用户为何选择它而非现有浏览器加助手组合，这是判断而非已验证事实。
+  usage_reason_en: With no feature detail or comparison to an old workflow, there is no explanation of
+    why a user would choose it over an existing browser plus assistant combination; this is a judgment,
+    not a verified fact.
+- id: req-full-aside-2026-09-15
+  project_slug: aside
+  level: full
+  reviewed_at: '2026-09-15T01:04:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它要解决的是跨多个已登录网站与账号完成连续网页操作的任务，痛点是手动切换标签、重复登录与逐步点击导致步骤长且易中断；官方称浏览器代理可跨站点与账号工作，交付为完成后的网页结果。材料无用户原话，属工作流结构推理，但需求与交付闭环可还原。
+    evidence_ids:
+    - ev-4f39c7658bf50664
+    - ev-9c373790d91a3c9e
+  - gate: consensus
+    status: insufficient
+    reason: 官方称在 Online-Mind2Web、BU-Bench-V1、Odysseys 三个浏览器代理基准上排名第一并超过 OpenAI、Anthropic 与 Browser Use，这是能力与关注度证据，不是用户持续采用；材料无下载量、留存或复购数据，共识无法确认。
+    evidence_ids:
+    - ev-4f39c7658bf50664
+  - gate: model
+    status: insufficient
+    reason: 材料只提供 macOS 下载入口，没有定价页、订阅档位或企业采购信息，to C 买断还是订阅、是否有 to B 席位均无法判断；这是判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-9c373790d91a3c9e
+    - ev-9c6b18bc36a994b9
+  - gate: truth
+    status: insufficient
+    reason: 基准排名说明代理在受控评测中能完成任务，但公开材料未说明真实站点上的失败处理、登录凭据与安全边界、人工接管方式，交付能否在用户实际工作流中确定性发生仍缺证据。
+    evidence_ids:
+    - ev-4f39c7658bf50664
+    - ev-9c373790d91a3c9e
+  next_validation: 追踪 Aside 官网是否上线定价页与客户案例页，确认其收费方式（订阅/席位）及真实用户跨站任务的完成与留存记录。
+  market: ''
+  job: 需要在多个网站与账号之间完成跨站操作的用户（如做调研、比价、填表、跨后台取数的人），在 macOS 上打开 Aside，把原本要手动在多个标签页和登录态之间来回切换的网页任务交给浏览器代理执行，最终拿到完成后的结果页面或数据。
+  job_en: A user who must complete cross-site operations across multiple websites and accounts (research,
+    comparison, form filling, pulling data from several backends) opens Aside on macOS and hands the web
+    task that would otherwise require manual tab-switching and re-login to a browser agent, receiving
+    the finished page or data as output.
+  pain: 公开材料只给出“works across your websites and accounts”与“do real work for you”，可还原的痛点是：跨站任务需要在多个登录态之间反复切换、逐步手动点击，步骤长且易中断；但材料没有用户原话或抱怨记录，这一痛点属工作流结构推理。
+  pain_en: Public material only offers 'works across your websites and accounts' and 'do real work for
+    you'; the reconstructable pain is that cross-site tasks require repeated switching between logged-in
+    states and step-by-step manual clicking, which is long and interruption-prone. No user quotes or complaints
+    are present, so this pain is a workflow-structure inference.
+  current_alternative: 当前替代方式是普通浏览器加通用 AI 助手：用户自己在标签页间切换、手动登录各站点，再把页面内容复制给聊天式助手，由助手给出建议而由用户自己执行点击。
+  current_alternative_en: 'The current alternative is a normal browser plus a general AI assistant: the
+    user switches tabs, logs into each site manually, pastes page content into a chat assistant, and then
+    performs the clicks themselves based on the assistant''s suggestions.'
+  usage_reason: 相较“浏览器+聊天助手”的旧做法，Aside 把执行动作放进浏览器本身，直接跨已登录的网站与账号操作，减少用户手动切换标签、复制粘贴和逐步点击这一段负担；因此当任务需要跨多个已登录站点连续操作时，这类用户会倾向选择它。这是基于产品能力与旧流程对照的推断，尚无用户反馈或留存证据支持。
+  usage_reason_en: Compared with the browser-plus-chat-assistant routine, Aside puts execution inside
+    the browser itself and operates across already logged-in sites and accounts, removing the manual tab-switching,
+    copy-pasting and step-by-step clicking burden; users facing tasks that span several logged-in sites
+    would therefore tend to choose it. This is an inference from product capability versus the old workflow,
+    not yet supported by user feedback or retention evidence.

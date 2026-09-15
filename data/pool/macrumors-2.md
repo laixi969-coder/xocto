@@ -21,7 +21,7 @@ canonical_url: https://macrumors.com/2026/08/31/google-maps-lake-america
 summary: Google Maps Showing 'Lake America' in U.S.
 first_seen: '2026-08-31T13:40:46Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

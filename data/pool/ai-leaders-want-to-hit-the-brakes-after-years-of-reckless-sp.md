@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-bra
 summary: Safety is the watchword, but there could be ulterior benefits for the industry.
 first_seen: '2026-09-14T19:06:13Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

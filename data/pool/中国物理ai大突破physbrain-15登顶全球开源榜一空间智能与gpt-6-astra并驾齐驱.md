@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/488725.html
 summary: 这家中国公司，刚跑完了物理闭环里最难的一段路
 first_seen: '2026-09-14T03:18:42Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

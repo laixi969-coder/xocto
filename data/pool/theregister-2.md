@@ -21,7 +21,7 @@ canonical_url: https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-
 summary: AI models don't kill people – people kill people
 first_seen: '2026-09-13T13:33:34Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

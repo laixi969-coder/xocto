@@ -23,7 +23,7 @@ summary: Pick the right generative AI customization approach on AWS with an 8-st
   simple and escalate only when you must.
 first_seen: '2026-09-14T15:47:12Z'
 last_seen: '2026-09-15T00:39:08Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

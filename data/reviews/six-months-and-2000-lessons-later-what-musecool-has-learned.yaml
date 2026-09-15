@@ -1,0 +1,93 @@
+- id: req-initial-six-months-and-2000-lessons-later-what-musecool-has-learned-2026-09-15
+  project_slug: six-months-and-2000-lessons-later-what-musecool-has-learned
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是课后练习缺少与教师标准一致的即时反馈这一需求，痛点结构上成立，但候选资料未说明 AI 具体接收什么、执行什么、交付什么，价值链条无法闭合。
+    evidence_ids:
+    - ev-0e7bd70b48f7335a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有六个月 2,000 节课这一规模数字，属于关注度与交付量证据，不能说明教师或学生已把它当作固定环节；缺少评价与重复使用证据。
+    evidence_ids:
+    - ev-0e7bd70b48f7335a
+  - gate: model
+    status: insufficient
+    reason: 候选资料未披露定价、买方是机构还是个人、按课时还是按席位收费，钱从哪一方来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0e7bd70b48f7335a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近音乐教学的第一性目标，也无法确认交付是否确定性发生；候选资料只给出课程数量与经验总结，缺少可复现的交付结果。
+    evidence_ids:
+    - ev-0e7bd70b48f7335a
+  next_validation: 收集 MuseCool 官方定价页或公开客户案例，确认其收费对象、计价方式与交付物。
+  market: ''
+  job: 音乐教师或学生在课后练习与授课环节，处理学生演奏录音与教师批改标准这类材料，要完成的是给出可执行的练习纠正与进度判断。
+  job_en: A music teacher or student, around lesson and practice time, works with student performance
+    recordings and the teacher's grading standard to produce actionable practice corrections and progress
+    judgements.
+  pain: 音乐教学长期依赖师徒口传，方法陈旧且因人而异，学生课后练习缺少即时、与教师标准一致的反馈；候选资料未给出用户抱怨或替代行为的直接证据，此痛点为结构推理。
+  pain_en: Music teaching has long relied on master-to-apprentice transmission with outdated, teacher-specific
+    methods, leaving students without immediate feedback aligned to their teacher's standard; the candidate
+    material gives no direct user complaints or workaround evidence, so this pain is a structural inference.
+  current_alternative: 旧做法是学生课后自行练习、下次上课由教师口头纠正，或使用通用节拍器与录播课程；这些替代方式无法对齐单个教师的标准。
+  current_alternative_en: The old way is self-practice between lessons with verbal correction at the next
+    lesson, or generic metronomes and recorded courses; none of these align with an individual teacher's
+    standard.
+  usage_reason: 推断：若它能把学生练习音频按教师既有批改标准转成具体纠正点，就省掉了教师逐条回听与重复讲解这一步，因此课时紧张、学生分散的琴行与独立教师会在课后练习环节选择它；候选资料未说明
+    AI 具体动作，也未提供留存或复购证据，无法确认用户已长期留在工作流里。
+  usage_reason_en: 'Inference: if it turns student practice audio into specific corrections matching the
+    teacher''s existing grading standard, it removes the step of the teacher re-listening and repeating
+    explanations, so music schools and independent teachers with tight schedules and scattered students
+    would choose it at the post-lesson practice step; the candidate material does not describe the AI''s
+    concrete action and offers no retention or repeat-use evidence, so long-term workflow embedding '
+- id: req-full-six-months-and-2000-lessons-later-what-musecool-has-learned-2026-09-15
+  project_slug: six-months-and-2000-lessons-later-what-musecool-has-learned
+  level: full
+  reviewed_at: '2026-09-15T01:07:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是课后练习缺少与教师标准一致的即时反馈这一需求，痛点结构上成立，但候选资料未说明 AI 具体接收什么、执行什么、交付什么，价值链条无法闭合。
+    evidence_ids:
+    - ev-0e7bd70b48f7335a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 MuseCool 官方定价页或公开客户案例，确认其收费对象、计价方式与交付物。
+  market: ''
+  job: 音乐教师或学生在课后练习与授课环节，处理学生演奏录音与教师批改标准这类材料，要完成的是给出可执行的练习纠正与进度判断。
+  job_en: A music teacher or student, around lesson and practice time, works with student performance
+    recordings and the teacher's grading standard to produce actionable practice corrections and progress
+    judgements.
+  pain: 音乐教学长期依赖师徒口传，方法陈旧且因人而异，学生课后练习缺少即时、与教师标准一致的反馈；候选资料未给出用户抱怨或替代行为的直接证据，此痛点为结构推理。
+  pain_en: Music teaching has long relied on master-to-apprentice transmission with outdated, teacher-specific
+    methods, leaving students without immediate feedback aligned to their teacher's standard; the candidate
+    material gives no direct user complaints or workaround evidence, so this pain is a structural inference.
+  current_alternative: 旧做法是学生课后自行练习、下次上课由教师口头纠正，或使用通用节拍器与录播课程；这些替代方式无法对齐单个教师的标准。
+  current_alternative_en: The old way is self-practice between lessons with verbal correction at the next
+    lesson, or generic metronomes and recorded courses; none of these align with an individual teacher's
+    standard.
+  usage_reason: 推断：若它能把学生练习音频按教师既有批改标准转成具体纠正点，就省掉了教师逐条回听与重复讲解这一步，因此课时紧张、学生分散的琴行与独立教师会在课后练习环节选择它；候选资料未说明
+    AI 具体动作，也未提供留存或复购证据，无法确认用户已长期留在工作流里。
+  usage_reason_en: 'Inference: if it turns student practice audio into specific corrections matching the
+    teacher''s existing grading standard, it removes the step of the teacher re-listening and repeating
+    explanations, so music schools and independent teachers with tight schedules and scattered students
+    would choose it at the post-lesson practice step; the candidate material does not describe the AI''s
+    concrete action and offers no retention or repeat-use evidence, so long-term workflow embedding '

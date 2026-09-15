@@ -1,0 +1,86 @@
+- id: req-initial-mcp-auth-keydris-template-2026-09-15
+  project_slug: mcp-auth-keydris-template
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体调用工具时凭据外泄与越权难追溯的问题，痛点刚性，且已有可运行的模板交付，属工作流推理。
+    evidence_ids:
+    - ev-a643bcbc2e10409f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 6 条社区评论，没有客户案例或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a643bcbc2e10409f
+  - gate: model
+    status: insufficient
+    reason: 开源模板未披露商业路径，to B 授权服务还是 to VC 叙事均属未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a643bcbc2e10409f
+  - gate: truth
+    status: insufficient
+    reason: 未说明授权边界如何界定、是否有人工确认环节，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-a643bcbc2e10409f
+  next_validation: 收集该仓库的 issue、discussion 或部署文档，确认授权边界定义方式与是否有人工确认环节。
+  market: ''
+  job: 后端与安全工程师在让智能体调用企业内部 MCP 工具时，用该模板配置授权，使工具调用可执行而不把长期凭据交给智能体。
+  job_en: Backend and security engineers wiring agents to internal MCP tools use this template to configure
+    authorization so tool calls can run without handing long-lived credentials to the agent.
+  pain: 把凭据直接交给智能体意味着一旦被提示注入或误用，攻击面覆盖所有已授权系统，事后难以追溯是哪次调用越权。
+  pain_en: Handing credentials directly to an agent means a prompt injection or misuse exposes every authorized
+    system, and it is hard to trace afterwards which call exceeded its scope.
+  current_alternative: 把 API key 写进智能体配置或环境变量，靠人工轮换密钥和事后日志排查。
+  current_alternative_en: Putting API keys into agent configuration or environment variables, relying
+    on manual key rotation and after-the-fact log review.
+  usage_reason: 推断：相较把密钥直接塞进智能体配置，它把凭据留在授权层、只暴露受限工具权限，减少密钥轮换和越权排查这一步负担；面向需要让智能体接入内部系统的工程团队，但公开材料未给出采用或留存证据。
+  usage_reason_en: 'Inference: compared with stuffing keys into agent configuration, it keeps credentials
+    in an authorization layer and exposes only scoped tool permissions, reducing the burden of key rotation
+    and scope-violation triage; aimed at engineering teams connecting agents to internal systems, though
+    no adoption or retention evidence is public.'
+- id: req-full-mcp-auth-keydris-template-2026-09-15
+  project_slug: mcp-auth-keydris-template
+  level: full
+  reviewed_at: '2026-09-15T01:06:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体调用工具时凭据外泄与越权难追溯的问题，痛点刚性，且已有可运行的模板交付，属工作流推理。
+    evidence_ids:
+    - ev-a643bcbc2e10409f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 6 条社区评论，没有客户案例或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a643bcbc2e10409f
+  - gate: model
+    status: insufficient
+    reason: 开源模板未披露商业路径，to B 授权服务还是 to VC 叙事均属未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a643bcbc2e10409f
+  - gate: truth
+    status: insufficient
+    reason: 未说明授权边界如何界定、是否有人工确认环节，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-a643bcbc2e10409f
+  next_validation: 收集该仓库的 issue、discussion 或部署文档，确认授权边界定义方式与是否有人工确认环节。
+  market: ''
+  job: 后端与安全工程师在让智能体调用企业内部 MCP 工具时，用该模板配置授权，使工具调用可执行而不把长期凭据交给智能体。
+  job_en: Backend and security engineers wiring agents to internal MCP tools use this template to configure
+    authorization so tool calls can run without handing long-lived credentials to the agent.
+  pain: 把凭据直接交给智能体意味着一旦被提示注入或误用，攻击面覆盖所有已授权系统，事后难以追溯是哪次调用越权。
+  pain_en: Handing credentials directly to an agent means a prompt injection or misuse exposes every authorized
+    system, and it is hard to trace afterwards which call exceeded its scope.
+  current_alternative: 把 API key 写进智能体配置或环境变量，靠人工轮换密钥和事后日志排查。
+  current_alternative_en: Putting API keys into agent configuration or environment variables, relying
+    on manual key rotation and after-the-fact log review.
+  usage_reason: 推断：相较把密钥直接塞进智能体配置，它把凭据留在授权层、只暴露受限工具权限，减少密钥轮换和越权排查这一步负担；面向需要让智能体接入内部系统的工程团队，但公开材料未给出采用或留存证据。
+  usage_reason_en: 'Inference: compared with stuffing keys into agent configuration, it keeps credentials
+    in an authorization layer and exposes only scoped tool permissions, reducing the burden of key rotation
+    and scope-violation triage; aimed at engineering teams connecting agents to internal systems, though
+    no adoption or retention evidence is public.'

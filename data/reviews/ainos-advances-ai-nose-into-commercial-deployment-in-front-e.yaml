@@ -1,0 +1,85 @@
+- id: req-initial-ainos-advances-ai-nose-into-commercial-deployment-in-front-e-2026-09-15
+  project_slug: ainos-advances-ai-nose-into-commercial-deployment-in-front-e
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开材料还原，缺少旧检测流程与交付描述，价值关证据不足。
+    evidence_ids:
+    - ev-33f92509a7c38ac1
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有客户名称或产线采用信号可判断共识。
+    evidence_ids:
+    - ev-33f92509a7c38ac1
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径未披露，仅有部署表述。
+    evidence_ids:
+    - ev-33f92509a7c38ac1
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对判定准确性与人工复核边界。
+    evidence_ids:
+    - ev-33f92509a7c38ac1
+  next_validation: 收集 Ainos 官方公告或投资者材料，确认 AI Nose 在半导体产线的具体工序、客户名称与部署规模。
+  market: ''
+  job: 半导体前端产线的工艺工程师在监控生产状态时，需要处理产线气味或气体样本，并判断是否出现工艺异常以便及时处置。
+  job_en: Process engineers on front-end semiconductor lines monitoring production status need to handle
+    odour or gas samples from the line and judge whether a process anomaly has occurred so it can be addressed
+    in time.
+  pain: 公开材料只说明进入商业部署，没有说明此前由谁、用什么方式完成同类检测，也没有良率损失或人工成本描述，痛点无法还原。
+  pain_en: Public material only states commercial deployment, without saying who previously performed
+    comparable inspection and how, nor any yield-loss or labour-cost description, so the pain cannot be
+    reconstructed.
+  current_alternative: 公开材料未提及现有替代方式，无法确认此前是否依赖离线取样、人工嗅辨或传统气体传感器。
+  current_alternative_en: Public material mentions no existing alternative, so it is impossible to confirm
+    whether offline sampling, human sniffing or conventional gas sensors were used before.
+  usage_reason: 仅有部署进展，缺少输入样本、判定输出与采用证据，无法解释产线为何选择它而非旧检测方式；这是事实缺口，不是推断。
+  usage_reason_en: Only deployment progress is available, with no input samples, decision output or adoption
+    evidence, so there is no basis to explain why a line would choose it over existing inspection methods;
+    this is a factual gap, not an inference.
+- id: req-full-ainos-advances-ai-nose-into-commercial-deployment-in-front-e-2026-09-15
+  project_slug: ainos-advances-ai-nose-into-commercial-deployment-in-front-e
+  level: full
+  reviewed_at: '2026-09-15T01:04:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称 AI Nose 进入前端半导体制造商业部署，未说明谁在哪个工序处理什么样本、输出什么判定，也未给出旧检测流程与不采用后果，需求与痛点无法还原。
+    evidence_ids:
+    - ev-33f92509a7c38ac1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Ainos 官方公告或投资者材料，确认 AI Nose 在半导体产线的具体工序、客户名称与部署规模。
+  market: ''
+  job: 前端半导体产线的工艺/良率工程师在监控生产状态时，需要处理产线气体或气味样本，判断是否出现工艺异常或污染以便及时处置。
+  job_en: Process/yield engineers on front-end semiconductor lines monitoring production status need to
+    handle gas or odour samples from the line and judge whether a process anomaly or contamination has
+    occurred so it can be addressed in time.
+  pain: 公开材料只称进入商业部署，未说明此前由谁、用什么方式完成同类检测，也没有良率损失、停机成本或人工嗅辨负担的描述，痛点无法还原。
+  pain_en: Public material only states commercial deployment, without saying who previously performed
+    comparable inspection and how, nor any yield-loss, downtime-cost or manual-sniffing burden, so the
+    pain cannot be reconstructed.
+  current_alternative: 公开材料未提及现有替代方式，无法确认此前是否依赖离线取样、人工嗅辨或传统气体传感器。
+  current_alternative_en: Public material mentions no existing alternative, so it is impossible to confirm
+    whether offline sampling, human sniffing or conventional gas sensors were used before.
+  usage_reason: 仅有部署进展，缺少输入样本、判定输出与采用证据，无法解释产线为何选择它而非旧检测方式；这是事实缺口，不是推断。
+  usage_reason_en: Only deployment progress is available, with no input samples, decision output or adoption
+    evidence, so there is no basis to explain why a line would choose it over existing inspection methods;
+    this is a factual gap, not an inference.

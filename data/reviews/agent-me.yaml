@@ -203,3 +203,52 @@
   usage_reason: 用户要完成的任务是：希望沉淀个人经验的专家；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Experts preserving personal know-how Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-agent-me-2026-09-15
+  project_slug: agent-me
+  level: full
+  reviewed_at: '2026-09-15T01:04:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人经验无法结构化复用、本人不在场即无法应答的需求，痛点是经验随人流失且难以核验；公开说明已能还原输入经验材料、提炼为可检查分身、以本人视角应答的闭环，属工作流结构推理，尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-077f122162f1c585
+    - ev-3d73d54d83479403
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从160升至343，说明开发者社区持续关注，但收藏与关注只属规模信号，公开材料没有用户评价、案例或重复使用证据，无法证明目标专家已把它留在工作流里。
+    evidence_ids:
+    - ev-077f122162f1c585
+    - ev-6b44e71c8fc95f3c
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、付费主体或采购记录，钱可能来自个人订阅、企业定制或赞助，这是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-3d73d54d83479403
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出定位描述，未见部署文档、提炼流程说明或安全与人工边界，交付能否稳定发生、分身应答是否可核验仍缺可复现证据。
+    evidence_ids:
+    - ev-077f122162f1c585
+  next_validation: 追踪 agent-me 仓库的 README、issue 与 discussion，确认是否有用户公开描述实际部署场景、提炼流程与替代的旧做法。
+  market: ''
+  job: 独立专家、顾问或资深从业者在需要把多年积累的判断经验、决策案例与个人记忆整理成可对外应答的资产时，提交自己的经验材料，产出一个能以本人视角回答问题的开源、可检查的代理分身。
+  job_en: Independent experts, consultants, or senior practitioners who need to turn years of judgment,
+    decision cases, and personal memory into an answerable asset submit their own experience material
+    and produce an open-source, inspectable agent twin that answers in their voice.
+  pain: 个人经验散落在聊天记录、笔记与口头传授中，无法结构化复用；本人不在场时无法应答重复咨询，经验随人流失且难以被他人核验。公开材料只给出产品定位，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Personal expertise is scattered across chats, notes, and verbal transmission, so it cannot
+    be reused structurally; when the person is unavailable, repeated inquiries go unanswered and the know-how
+    is lost and hard to audit. Public material gives only positioning, not user complaints or frequency,
+    so pain intensity is a workflow inference.
+  current_alternative: 当前替代是手工写文档、录课程、做知识库或直接由本人反复口头答疑；这些方式要么不产生可交互应答，要么无法以本人视角自动回应。
+  current_alternative_en: Today the alternatives are hand-written docs, recorded courses, knowledge bases,
+    or the person answering verbally again and again; these either produce no interactive response or
+    cannot answer automatically in the person's own voice.
+  usage_reason: 推断：相较手工整理文档或知识库，它把“提炼经验—形成可应答分身”合并为一次提交后的自动产出，并因开源可检查而让使用者能审阅分身依据，因此在意经验可核验与可迁移的专家会在需要对外复用判断时选择它。
+  usage_reason_en: 'Inference: versus hand-built docs or knowledge bases, it merges distilling experience
+    and producing an answerable twin into one submission, and being open-source and inspectable lets users
+    audit the twin''s basis, so experts who care about verifiable, transferable know-how would choose
+    it when they need to reuse judgment externally.'

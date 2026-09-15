@@ -133,3 +133,49 @@
     aggregation while leaving an inspectable reasoning trace; so a developer or analyst needing a high-confidence
     conclusion without manual comparison would choose it for important judgments. There is no user feedback
     or adoption evidence to confirm continued use.'
+- id: req-full-dsh-council-2026-09-15
+  project_slug: dsh-council
+  level: full
+  reviewed_at: '2026-09-15T01:05:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型结论难以核对、缺少可追溯依据的问题：用户把同一问题交给多个模型独立作答并匿名互评，再人工查看最终决策依据。不采用则需手工逐个提问比对或盲信单模型。公开材料未说明具体输入材料与任务范围，痛点与交付闭环属工作流结构推理。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 53 增至 88，属开源关注度而非持续采用；无 issue、discussion 或用户评价说明谁在什么场景反复使用，也未说明卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+    - ev-93f5355b20749ffb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，无法判断钱来自个人开发者、团队采购还是仅靠开源维护；这是判断而非已验证事实，但不足以否定需求本身。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  - gate: truth
+    status: insufficient
+    reason: 多模型匿名互评是否真能提高结论可靠性、人工在何处介入、结论能否确定性交付，公开材料未给可核对结果；仅凭功能描述无法确认贴近该工作的第一性目标。
+    evidence_ids:
+    - ev-075ea16d42c2aa9d
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认它实际接收的问题类型、输出结论形态，以及是否有使用者报告在真实决策中采用。
+  market: ''
+  job: 开发者或分析人员在需要高置信度结论时，把同一问题交给多个模型独立作答，由模型匿名互评，再人工查看可追溯的最终决策依据。
+  job_en: A developer or analyst needing a high-confidence conclusion sends one question to multiple models
+    for independent answers, has the models peer-review anonymously, then manually inspects a traceable
+    final decision basis.
+  pain: 单一模型输出难以核对、缺少可追溯依据，用户无法判断该结论是否可靠；公开材料只给出产品能力，未提供用户抱怨或案例，痛点属工作流结构推理。
+  pain_en: A single model's output is hard to check and lacks a traceable basis, so the user cannot judge
+    whether the conclusion is reliable; public material only states product capability, so this pain is
+    a workflow-structure inference.
+  current_alternative: 分别向多个模型提问并人工比对答案，或直接采信单一模型的回答。
+  current_alternative_en: Querying several models separately and comparing answers by hand, or simply
+    trusting one model's answer.
+  usage_reason: 推断：相较人工逐个模型提问再汇总，它把独立作答、匿名互评与最终结论串成一次流程，省去手工收集与比对这一步，并留下可查看的推理过程；因此需要为结论留痕的开发者会在做技术选型或方案判断时选择它。公开材料无用户反馈，持续采用未核验。
+  usage_reason_en: 'Inference: compared with querying each model manually and aggregating, it chains independent
+    answers, anonymous peer review and a final conclusion into one flow, removing the manual collection-and-comparison
+    step and leaving an inspectable reasoning trace; developers who need an auditable conclusion would
+    pick it for technical or design decisions. No user feedback is public, so continued use is unverified.'

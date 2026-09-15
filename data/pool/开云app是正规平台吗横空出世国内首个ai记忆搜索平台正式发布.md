@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE1vLWZDaDd2NTV2
 summary: 开云app是正规平台吗横空出世！国内首个AI记忆搜索平台正式发布 体坛
 first_seen: '2026-09-14T09:33:45Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

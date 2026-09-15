@@ -364,3 +364,54 @@
     memoizes by episode id and persists rules and base facts as tab-separated snapshots, so developers
     can check which facts a conclusion derives from; agent developers needing an auditable reasoning chain
     would pick it for debugging or compliance scenarios.'
+- id: req-full-lemmalog-2026-09-15
+  project_slug: lemmalog
+  level: full
+  reviewed_at: '2026-09-15T01:06:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 记忆逻辑不一致、事实冲突且无法溯源的需求，痛点在于多步任务中结论互相矛盾且不可审计；公开材料显示其以分层规则、溯源事实和增量推导交付，属工作流结构推理，采用规模尚未核验。
+    evidence_ids:
+    - ev-7d79b7fc944fd85f
+    - ev-ef6109b1c3e96143
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 308 星显示开发者关注，但仅有仓库描述与星数，缺少 issue、discussion、客户案例或重复使用证据，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-ac1f22c4a146bc5c
+    - ev-7328d7566c43de1d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页或付费路径，仓库为开源项目，买方可能是自建 agent 的工程团队或企业，但这是判断而非已验证事实，收入模式尚不可核验。
+    evidence_ids:
+    - ev-7d79b7fc944fd85f
+    - ev-ef6109b1c3e96143
+  - gate: truth
+    status: supported
+    reason: 产品贴近 agent 可靠记忆的第一性目标：以分层规则和增量推导保证结论可复现，以溯源标注支持审计，并在 provider 出错时降级为零事实而非编造，交付边界相对确定。
+    evidence_ids:
+    - ev-ef6109b1c3e96143
+    - ev-7d79b7fc944fd85f
+  next_validation: 追踪 lemmalog 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有真实 agent 项目集成案例或使用反馈，以核验持续采用与交付效果。
+  market: ''
+  job: Agent 开发者在构建需要跨会话、跨工具共享上下文的 LLM agent 时，把对话与工具调用产生的事实、规则和来源材料交给 lemmalog，通过 MCP 服务器让 agent 查询并推导出带溯源的结论，以完成需要逻辑一致记忆的任务。
+  job_en: Agent developers building LLM agents that need shared context across sessions and tools feed
+    facts, rules and source material into lemmalog, and via its MCP server let the agent query and derive
+    provenance-tracked conclusions for tasks requiring logically consistent memory.
+  pain: 公开材料显示 lemmalog 针对的是 agent 记忆缺乏逻辑一致性、事实冲突且难以追溯的问题：向量库只能做相似检索，无法表达分层规则与推导链，事实来源也无法回溯，导致 agent 在多步任务中给出互相矛盾的结论。
+  pain_en: 'Public material indicates lemmalog targets agent memory that lacks logical consistency, contains
+    conflicting facts and is hard to trace: vector stores only do similarity retrieval, cannot express
+    stratified rules or derivation chains, and cannot trace fact provenance, so agents produce contradictory
+    conclusions in multi-step tasks.'
+  current_alternative: 开发者目前用向量数据库、图数据库或简单键值存储保存 agent 记忆，靠提示词拼接上下文，缺少规则推导与溯源机制。
+  current_alternative_en: Developers currently store agent memory in vector databases, graph databases
+    or simple key-value stores, stitching context via prompts, without rule derivation or provenance.
+  usage_reason: 推断：相较向量检索只能返回相似片段，lemmalog 以分层规则和增量推导直接算出结论，并保留每条事实的来源与置信标注，还通过 MCP 让 harness 以共享大脑方式调用；因此需要可审计、可复现推理链的
+    agent 开发者会在多步任务中选用它。
+  usage_reason_en: 'Inference: unlike vector retrieval that only returns similar snippets, lemmalog computes
+    conclusions via stratified rules and incremental derivation, keeps provenance and confidence annotations
+    per fact, and exposes them to the harness as a shared brain over MCP; thus agent developers needing
+    auditable, reproducible reasoning chains would choose it for multi-step tasks.'

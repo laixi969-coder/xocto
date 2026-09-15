@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQekFtUVpWM19V
 summary: OnTrac appoints Sainath as CTO American Journal of Transportation
 first_seen: '2026-09-14T13:22:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,82 @@
+- id: req-initial-kasbahtts-v1-2026-09-15
+  project_slug: kasbahtts-v1
+  level: initial
+  reviewed_at: '2026-09-15T00:39:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决达里贾语配音供给稀缺、人工录制慢的问题，痛点方向成立；但公开材料只有一句功能描述，无法确认音质与交付是否可靠。
+    evidence_ids:
+    - ev-434781dff02d0aec
+  - gate: consensus
+    status: insufficient
+    reason: 仅 4 个点赞，没有用户评价、使用量或社区讨论，无法判断是否有人真正把它放进工作流。
+    evidence_ids:
+    - ev-434781dff02d0aec
+  - gate: model
+    status: insufficient
+    reason: 开源演示未披露定价、授权或商用条款，买方与付费路径均不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-434781dff02d0aec
+  - gate: truth
+    status: insufficient
+    reason: 声音克隆涉及本人声音授权与方言数据来源，公开材料未说明安全与人工确认边界。
+    evidence_ids:
+    - ev-434781dff02d0aec
+  next_validation: 收集该演示页面的模型卡或仓库说明，确认训练数据来源、声音克隆授权条款与是否允许商用。
+  market: ''
+  job: 阿尔及利亚语内容创作者或本地化人员，在需要为视频、广告或教学材料配上达里贾语人声时，处理达里贾语文本，要产出可发布的方言语音片段。
+  job_en: An Algerian Darija content creator or localizer who needs Darija voice for videos, ads or teaching
+    material takes Darija text and must produce publishable dialect speech clips.
+  pain: 达里贾语缺少商业语音合成供给，只能请方言配音员或自己录音，成本高、周期长，且同一批内容难以批量产出。
+  pain_en: Darija lacks commercial speech-synthesis supply, so work depends on dialect voice actors or
+    self-recording, which is costly, slow and hard to batch.
+  current_alternative: 请本地配音员录制，或创作者自己反复录音后剪辑；部分人改用大语种语音合成再人工模仿方言。
+  current_alternative_en: Hiring local voice actors, or creators recording and editing themselves; some
+    use major-language TTS and imitate the dialect manually.
+  usage_reason: 推断：相较请配音员，该演示把达里贾语文本直接转成语音并支持声音克隆，省去约人、约棚和反复重录的环节，因此需要低成本批量方言音频的创作者会先试用；但公开材料没有音质、授权或付费证据，无法确认其可长期替代人工。
+  usage_reason_en: 'Inference: compared with hiring voice actors, the demo turns Darija text directly
+    into speech with voice cloning, removing the steps of booking people, studios and re-recording, so
+    creators needing cheap batch dialect audio would try it; yet public material has no quality, licensing
+    or payment evidence, so long-term replacement of human work is unconfirmed.'
+- id: req-full-kasbahtts-v1-2026-09-15
+  project_slug: kasbahtts-v1
+  level: full
+  reviewed_at: '2026-09-15T01:06:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决达里贾语配音供给稀缺、人工录制慢的问题，痛点方向可辨；但公开材料只有一句功能描述，无法确认音质与交付是否可靠，需求与痛点均无法从公开事实还原。
+    evidence_ids:
+    - ev-434781dff02d0aec
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该演示页面的模型卡或仓库说明，确认训练数据来源、声音克隆授权条款与是否允许商用。
+  market: ''
+  job: 阿尔及利亚语内容创作者或本地化人员，在需要为视频、广告或教学材料配上达里贾语人声时，处理达里贾语文本，要产出可发布的方言语音片段。
+  job_en: An Algerian Darija content creator or localizer who needs Darija voice for videos, ads or teaching
+    material takes Darija text and must produce publishable dialect speech clips.
+  pain: 公开材料只有一句功能描述，无法确认达里贾语配音供给稀缺、人工录制慢这一痛点是否真实存在，也说不清谁在什么情况下受此困扰。
+  pain_en: Public material is limited to a one-line feature description, so it is unclear whether scarce
+    Darija voice supply and slow manual recording are real pains or who faces them in which situation.
+  current_alternative: 公开材料未说明当前替代方式，请配音员或自行录音只是推测，缺乏可引用的旧做法证据。
+  current_alternative_en: Public material does not describe current alternatives; hiring voice actors
+    or self-recording is only speculation without citable evidence.
+  usage_reason: 推断：若达里贾语文本能直接合成语音并支持声音克隆，可省去约人、约棚和反复重录的环节；但公开材料没有音质、授权或使用记录，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if Darija text can be synthesized directly with voice cloning, the steps
+    of booking people, studios and re-recording are removed; but public material has no quality, licensing
+    or usage record, so which users would choose it remains unconfirmed.'

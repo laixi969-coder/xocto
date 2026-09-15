@@ -1,0 +1,89 @@
+- id: req-initial-how-fyxer-built-an-ai-executive-assistant-people-trust-2026-09-15
+  project_slug: how-fyxer-built-an-ai-executive-assistant-people-trust
+  level: initial
+  reviewed_at: '2026-09-15T00:39:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决收件箱堆积与逐封起草耗时的问题，痛点刚性来自沟通频率与措辞影响结果，旧做法是人工阅读起草。
+    evidence_ids:
+    - ev-210dea5e492b2259
+  - gate: consensus
+    status: insufficient
+    reason: 只有官方案例描述，没有用户评价、采用规模或持续使用证据，场景是否强仍待观察。
+    evidence_ids:
+    - ev-210dea5e492b2259
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按处理量收费是判断而非已验证事实。
+    evidence_ids:
+    - ev-210dea5e492b2259
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代发权限、人工确认边界与出错责任，交付确定性无法核验。
+    evidence_ids:
+    - ev-210dea5e492b2259
+  next_validation: Fyxer 官方定价页，用于核验其计价单位与目标买方。
+  market: ''
+  job: 高管与行政助理在每天处理收件箱时，面对大量往来邮件，需要完成分类、优先级排序并按本人语气起草回复。
+  job_en: Executives and administrative assistants, while working through the inbox each day, face large
+    volumes of correspondence and must sort it, set priorities, and draft replies in the principal's own
+    voice.
+  pain: 收件箱持续堆积，逐封阅读与起草占用大量时间；回复语气与措辞需要贴合本人风格，代写后往往还要大幅改写。
+  pain_en: The inbox keeps piling up, and reading and drafting each message consumes substantial time;
+    replies must match the principal's style, so delegated drafts often need heavy rewriting.
+  current_alternative: 本人或助理手工逐封阅读、标记与起草，或使用通用写作助手生成后自行改写。
+  current_alternative_en: The principal or an assistant reads, flags, and drafts each message by hand,
+    or uses a general writing assistant and rewrites the output.
+  usage_reason: 相较手工逐封起草，它通过记忆与微调保留用户语气，直接产出接近可发送状态的草稿，减少“生成后再整体改写”这一步；推断，语气贴合度高的高频对外沟通者更可能选择它。
+  usage_reason_en: Compared with drafting each message by hand, it preserves the user's voice through
+    memory and fine-tuning and returns drafts close to send-ready, removing the 'rewrite the whole thing
+    after generating' step; this is inference, and users with high-frequency external communication who
+    need close voice matching are more likely to choose it.
+- id: req-full-how-fyxer-built-an-ai-executive-assistant-people-trust-2026-09-15
+  project_slug: how-fyxer-built-an-ai-executive-assistant-people-trust
+  level: full
+  reviewed_at: '2026-09-15T01:05:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决收件箱堆积与逐封起草耗时的问题，痛点刚性来自沟通频率与措辞影响结果，旧做法是人工阅读起草；这是工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-210dea5e492b2259
+  - gate: consensus
+    status: insufficient
+    reason: 只有官方产品说明，没有用户评价、采用规模或持续使用证据，场景是否强仍无法从公开材料确认。
+    evidence_ids:
+    - ev-210dea5e492b2259
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按处理量收费属判断而非已验证事实，付费路径尚不明确。
+    evidence_ids:
+    - ev-210dea5e492b2259
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代发权限、人工确认边界与出错责任，交付确定性无法核验，安全边界仍待公开材料补充。
+    evidence_ids:
+    - ev-210dea5e492b2259
+  next_validation: Fyxer 官方定价页，用于核验其计价单位、目标买方与是否提供企业部署说明。
+  market: ''
+  job: 高管与行政助理在每天处理收件箱时，面对大量往来邮件，需要完成分类、优先级排序，并按本人语气起草可直接发送的回复。
+  job_en: Executives and administrative assistants, while working through the daily inbox, face large
+    volumes of correspondence and must sort it, set priorities, and draft send-ready replies in the principal's
+    own voice.
+  pain: 收件箱持续堆积，逐封阅读与起草占用大量时间；回复语气与措辞需贴合本人风格，交给他人代写后往往还要大幅改写，等于重复劳动。
+  pain_en: The inbox keeps piling up, and reading and drafting each message consumes substantial time;
+    replies must match the principal's style, so delegated drafts often need heavy rewriting, duplicating
+    the work.
+  current_alternative: 本人或助理手工逐封阅读、标记与起草，或使用通用写作助手生成后自行改写。
+  current_alternative_en: The principal or an assistant reads, flags, and drafts each message by hand,
+    or uses a general writing assistant and rewrites the output.
+  usage_reason: 相较手工逐封起草，它通过记忆与微调保留用户语气，直接产出接近可发送状态的草稿，减少“生成后再整体改写”这一步；这是基于产品能力与任务结构的推断，语气贴合度要求高的高频对外沟通者更可能选择它。
+  usage_reason_en: Compared with drafting each message by hand, it preserves the user's voice through
+    memory and fine-tuning and returns drafts close to send-ready, removing the 'rewrite the whole thing
+    after generating' step; this is inference from product capability and task structure, and users with
+    high-frequency external communication who need close voice matching are more likely to choose it.

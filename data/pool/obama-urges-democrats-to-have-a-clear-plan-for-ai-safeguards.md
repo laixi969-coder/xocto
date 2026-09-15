@@ -23,7 +23,7 @@ summary: Obama recently said that Democrats need to make artificial intelligence
   safety.
 first_seen: '2026-09-13T16:30:00Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

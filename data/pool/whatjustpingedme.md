@@ -21,7 +21,7 @@ canonical_url: https://whatjustpingedme.com
 summary: What Just Pinged Me?
 first_seen: '2026-09-13T22:05:07Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

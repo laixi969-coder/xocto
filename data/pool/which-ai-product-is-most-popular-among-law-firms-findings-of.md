@@ -22,7 +22,7 @@ summary: Which AI Product Is Most Popular Among Law Firms? Findings of ILTA’s 
   You LawSites
 first_seen: '2026-09-14T16:45:18Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

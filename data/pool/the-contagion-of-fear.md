@@ -1,11 +1,16 @@
 ---
 slug: the-contagion-of-fear
-name: The contagion of fear
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026 年 9 月，前 Anthropic 员工 Jacob Coxon 的推文被指证实许多 Anthropic 研究人员相信 AI 可能在本十年末导致人类灭绝，Bryan Cantrill
+  公开反驳此类缺乏专业依据的恐慌性主张。这属于行业内部关于 AI 风险话语的公开争论，可能影响公众与开发者对 AI 安全叙事的信任（推断），但不构成产品、融资或政策事实。
 inspiration: ''
-summary_en: ''
+summary_en: In September 2026, a tweet by former Anthropic employee Jacob Coxon was cited as confirming
+  that many Anthropic researchers believe AI could kill us all by the end of the decade, and Bryan Cantrill
+  publicly pushed back on such alarmist claims lacking domain expertise. This is a public argument within
+  the industry over AI-risk discourse that could affect public and developer trust in AI-safety narratives
+  (inference), but it is not a product, funding, or policy fact.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -41,7 +46,7 @@ summary: "The contagion of fear   \nBryan Cantrill responds to the  tweet by for
   \     Tags:  ai ,  anthropic ,  bryan-cantrill ,  ai-ethics"
 first_seen: '2026-09-14T21:18:13Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -52,7 +57,7 @@ sightings:
   kind: news
 ---
 
-# The contagion of fear
+# Anthropic
 
 The contagion of fear   
 Bryan Cantrill responds to the  tweet by former Anthropic employee Jacob Coxon  confirming that many Anthropic researchers believe AI "could kill us all by the end of the decade". 

@@ -86,3 +86,49 @@
     data to the assistant and returns team-specific candidate picks at the moment of drafting or setting
     lineups, removing the cross-site comparison step; inference, with no user feedback or retention evidence
     yet.
+- id: req-full-fantasy-football-manager-2026-09-15
+  project_slug: fantasy-football-manager
+  level: full
+  reviewed_at: '2026-09-15T01:05:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决选秀与排阵时跨站比对球员信息、赶截止时间的痛点，旧行为是手动查榜填表，产品以浏览器登录、审批模式和按球队限额完成交付，结构上成立。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从66增至94，属关注度而非持续采用，缺少玩家实际使用、复用或口碑的公开证据。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+    - ev-956c63c93bdba818
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是玩家自付或联盟付费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  - gate: truth
+    status: insufficient
+    reason: 建议质量依赖数据源与模型判断，仓库未说明数据来源、准确率与人工复核边界，交付确定性待核验。
+    evidence_ids:
+    - ev-885f3d84e6c6bb6e
+  next_validation: 收集该仓库 README、issue 或 discussion 中关于数据来源、实际使用反馈与建议准确率的公开记录。
+  market: ''
+  job: 梦幻橄榄球玩家在选秀夜和每周阵容截止前，处理球员名单、伤病消息、对手阵容与联盟规则，要选出本轮选秀或首发的具体球员。
+  job_en: A fantasy football player, before draft night and each weekly lineup deadline, works through
+    player pools, injury news, opponent rosters and league rules to pick the specific players to draft
+    or start.
+  pain: 信息分散在多个站点且截止时间紧，人工比对球员价值与阵容需求容易漏掉伤病或轮换变化，选错一次影响整季战绩。
+  pain_en: Information is scattered across sites under a hard deadline, and manually weighing player value
+    against roster needs easily misses injury or rotation changes; one wrong pick affects the whole season.
+  current_alternative: 玩家自己开多个标签页查排名与新闻，或依赖论坛和付费榜单的静态建议，再手动填进 ESPN。
+  current_alternative_en: Players keep several tabs open for rankings and news, or rely on static advice
+    from forums and paid cheat sheets, then enter picks into ESPN by hand.
+  usage_reason: 相较手动查榜，它把联盟规则、名单和对手信息交给接入 MCP 的助手，在选秀与排阵当下产出针对本队的候选建议，省掉跨站比对这一步；浏览器登录、审批模式与按球队限额约束自动操作，最终决定仍由玩家确认。此为推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with manual cheat-sheet checking, it feeds league rules, rosters and opponent
+    data to an MCP-connected assistant and returns team-specific candidate picks at the moment of drafting
+    or setting lineups, removing the cross-site comparison step; browser sign-in, approval modes and per-team
+    limits constrain automation while the player confirms the final call. This is inference, with no user
+    feedback or retention evidence yet.

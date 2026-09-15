@@ -1,0 +1,88 @@
+- id: req-initial-superhuman-acquires-yc-backed-notetaker-fathom-as-productivi-2026-09-15
+  project_slug: superhuman-acquires-yc-backed-notetaker-fathom-as-productivi
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会后整理纪要与待办的需求，痛点是漏记与重听耗时，旧做法是人工笔记加重听录音，结构上成立。
+    evidence_ids:
+    - ev-65bc7d5bcae1e87f
+  - gate: consensus
+    status: supported
+    reason: 报道称其月活超过 40 万、累计超 100 万人录制过会议，说明已有相当规模的使用者接受这一工作方式。
+    evidence_ids:
+    - ev-65bc7d5bcae1e87f
+  - gate: model
+    status: insufficient
+    reason: 免费方案带来规模，但公开材料未披露付费转化、客单价或企业采购路径，钱从哪来仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-65bc7d5bcae1e87f
+  - gate: truth
+    status: insufficient
+    reason: 转写与摘要的准确率、人工复核边界以及被收购后产品是否延续，公开材料均未说明。
+    evidence_ids:
+    - ev-65bc7d5bcae1e87f
+  next_validation: Superhuman 官方公告或 Fathom 官方定价页，确认收购后 Fathom 的定价、付费方案与产品存续安排。
+  market: ''
+  job: 销售、咨询顾问或项目经理在开完客户会议后，要处理录音和零散笔记，整理成可发给客户或团队的纪要与待办清单。
+  job_en: After a client meeting, a salesperson, consultant or project manager handles recordings and
+    scattered notes to produce minutes and a to-do list that can be sent to the client or team.
+  pain: 边开会边记会漏掉细节，会后重听录音整理纪要耗时且容易漏掉承诺事项，跟进不及时会直接影响成交与交付。
+  pain_en: Note-taking during the call misses details, and replaying recordings afterwards is slow and
+    easily drops commitments, so follow-up delays directly hurt deals and delivery.
+  current_alternative: 人工记笔记加会后重听录音，或使用其他转写工具再手工粘贴进文档和 CRM。
+  current_alternative_en: Manual notes plus replaying recordings afterwards, or another transcription
+    tool with manual pasting into documents and the CRM.
+  usage_reason: 相较人工重听录音，它自动产出转写、摘要和行动项，省掉逐段回听与从零起草纪要这一步；推断经常开客户会议、又需要把结论同步给团队或客户的销售与顾问会选它，但纪要准确性仍需人工确认。
+  usage_reason_en: Compared with replaying recordings, it automatically produces transcription, summary
+    and action items, removing the step of listening back and drafting minutes from scratch; by inference,
+    salespeople and consultants who hold frequent client calls and must share conclusions will choose
+    it, though accuracy still needs human checking.
+- id: req-full-superhuman-acquires-yc-backed-notetaker-fathom-as-productivi-2026-09-15
+  project_slug: superhuman-acquires-yc-backed-notetaker-fathom-as-productivi
+  level: full
+  reviewed_at: '2026-09-15T01:07:45Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会后整理纪要与待办的需求，痛点是漏记与重听耗时，旧做法是人工笔记加重听录音，产品以自动转写摘要交付，结构上成立。
+    evidence_ids:
+    - ev-0a4cd94c2406e19c
+    - ev-523db3d68d290017
+  - gate: consensus
+    status: supported
+    reason: 公开报道称其月活超 40 万、累计超 100 万人录制过会议，说明已有相当规模使用者接受这一工作方式，但未披露留存与复购。
+    evidence_ids:
+    - ev-0a4cd94c2406e19c
+  - gate: model
+    status: insufficient
+    reason: 免费方案带来规模，但公开材料未披露付费转化、客单价或企业采购路径，钱从哪来仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-0a4cd94c2406e19c
+  - gate: truth
+    status: insufficient
+    reason: 转写与摘要的准确率、人工复核边界以及被 Superhuman 收购后产品是否延续，公开材料均未说明。
+    evidence_ids:
+    - ev-993c21b0db26a4b4
+    - ev-48da6af1f06fdc20
+  next_validation: Superhuman 官方公告或 Fathom 官方定价页，确认收购后 Fathom 的定价、付费方案与产品存续安排。
+  market: ''
+  job: 销售、咨询顾问或项目经理在开完线上客户会议后，处理会议录音与零散笔记，整理成可发给客户或团队的纪要与待办清单。
+  job_en: After an online client meeting, a salesperson, consultant or project manager handles the recording
+    and scattered notes to produce minutes and a to-do list that can be sent to the client or team.
+  pain: 边开会边记会漏掉细节，会后重听录音整理纪要耗时且容易漏掉承诺事项，跟进不及时会直接影响成交与交付。
+  pain_en: Taking notes during the call misses details, and replaying recordings afterwards is slow and
+    easily drops commitments, so delayed follow-up directly hurts deals and delivery.
+  current_alternative: 人工记笔记加会后重听录音，或使用其他转写工具再手工粘贴进文档和 CRM。
+  current_alternative_en: Manual notes plus replaying recordings afterwards, or another transcription
+    tool with manual pasting into documents and the CRM.
+  usage_reason: 相较人工重听录音，Fathom 通过加入会议音视频自动产出转写、摘要与行动项，省掉逐段回听和从零起草纪要这一步；推断经常开客户会议、又需把结论同步给团队或客户的销售与顾问会在这种情况下选择它，但纪要准确性仍需人工确认。
+  usage_reason_en: Compared with replaying recordings, Fathom joins the meeting audio/video and automatically
+    produces transcription, summary and action items, removing the step of listening back and drafting
+    minutes from scratch; by inference, salespeople and consultants who hold frequent client calls and
+    must share conclusions will choose it, though accuracy still needs human checking.

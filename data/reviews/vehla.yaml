@@ -1,0 +1,81 @@
+- id: req-initial-vehla-2026-09-15
+  project_slug: vehla
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要减少桌面跨应用操作，但公开材料只有一句定位，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-3cf2f0eab97d33ef
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅5点、0条评论，属于极早期关注，不构成采用共识。
+    evidence_ids:
+    - ev-3cf2f0eab97d33ef
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是个人订阅还是团队采购无法判断。
+    evidence_ids:
+    - ev-3cf2f0eab97d33ef
+  - gate: truth
+    status: insufficient
+    reason: 缺少功能清单、权限说明与可复现实测，交付是否确定无法核对。
+    evidence_ids:
+    - ev-3cf2f0eab97d33ef
+  next_validation: 收集 Vehla 官方定价页与功能文档，核对其具体接管的桌面操作范围与计费方式。
+  market: ''
+  job: macOS 用户在桌面处理日常任务时，需要跨应用完成操作，处理的是本机文件与应用内容，目标是少切换应用把任务做完。
+  job_en: macOS users handling daily desktop tasks need to complete actions across apps, working with
+    local files and app content, aiming to finish tasks with fewer app switches.
+  pain: 桌面任务分散在多个应用，切换与重复操作耗时；公开材料未说明 Vehla 具体接管哪一步，痛点强度无法判断。
+  pain_en: Desktop tasks are scattered across apps, and switching plus repeated operations cost time;
+    public material does not say which step Vehla takes over, so pain intensity cannot be judged.
+  current_alternative: 手动在多个 macOS 应用间切换，或使用系统聚焦搜索与快捷键工具。
+  current_alternative_en: Manually switching among macOS apps, or using Spotlight and shortcut utilities.
+  usage_reason: 推断：若 Vehla 能把跨应用操作收敛为一条自然语言指令，用户可省去切换与查找菜单的步骤；但公开材料只有一句定位，缺少功能清单与实测，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if Vehla collapses cross-app actions into one natural-language instruction,
+    users skip switching and menu hunting; but public material is a one-line positioning with no feature
+    list or test, so the causal claim is unconfirmed.'
+- id: req-full-vehla-2026-09-15
+  project_slug: vehla
+  level: full
+  reviewed_at: '2026-09-15T01:08:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图减少桌面跨应用操作，但公开材料只有一句定位，说不清替代了哪一步旧工作、处理什么材料、交付什么结果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-3cf2f0eab97d33ef
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Vehla 官网的功能文档与定价页，核对它具体接管哪些 macOS 应用操作、输入输出与计费方式。
+  market: ''
+  job: macOS 用户在桌面处理日常任务时，需要跨多个应用完成操作，处理本机文件与应用内容，目标是少切换应用把任务做完。
+  job_en: macOS users handling daily desktop tasks need to act across multiple apps, working with local
+    files and app content, aiming to finish tasks with fewer app switches.
+  pain: 公开材料只有一句“macOS 的 AI 命令中心”，没有说明它接管哪一步操作、处理什么输入、产出什么结果，因此无法确认用户具体痛点及其强度。
+  pain_en: Public material is a single line, 'the AI command center for macOS,' with no statement of which
+    step it takes over, what input it handles, or what it outputs, so the specific user pain and its intensity
+    cannot be established.
+  current_alternative: 手动在多个 macOS 应用间切换，或使用 Spotlight、快捷键工具与脚本自动化完成跨应用操作。
+  current_alternative_en: Manually switching among macOS apps, or using Spotlight, shortcut utilities,
+    and scripts to automate cross-app actions.
+  usage_reason: 推断：若它能把跨应用操作收敛为一条自然语言指令，用户可省去切换与查找菜单的步骤；但公开材料只有一句定位，缺少功能清单、权限说明与实测，无法确认这一因果成立，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it collapses cross-app actions into one natural-language instruction,
+    users skip switching and menu hunting; but public material is a one-line positioning with no feature
+    list, permission notes, or test, so the causal claim and the target user scenario cannot be confirmed.'

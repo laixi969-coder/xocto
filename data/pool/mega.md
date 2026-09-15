@@ -21,7 +21,7 @@ canonical_url: https://mega.dev/autonomous-product-development
 summary: I rebuilt a 4-year-old app in 5 days using many agents – here's harness
 first_seen: '2026-09-14T16:55:32Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxQb2JKWjJnOWxj
 summary: Can C3.ai (NYSE:AI) Rebound Change Its Valuation Story? Kalkine Media
 first_seen: '2026-09-14T15:40:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

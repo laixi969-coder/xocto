@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=49695744
 summary: esp32s31.fun is an experiment to see how far it can go, maybe a week without crash&#x2F;reboot?
 first_seen: '2026-09-14T12:29:41Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

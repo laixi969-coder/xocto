@@ -1,0 +1,81 @@
+- id: req-initial-立德机器人拿10亿元订单闯船舶ai赛道-2026-09-15
+  project_slug: 立德机器人拿10亿元订单闯船舶ai赛道
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能确认它做船舶加工自动化，说不清替代了哪一步旧工序、谁在用、不采用会失去什么，价值结构无法还原。
+    evidence_ids:
+    - ev-fe0c2000437945bb
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条订单金额报道，没有客户确认、行业采用或重复采购信号。
+    evidence_ids:
+    - ev-fe0c2000437945bb
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、计价方式与收入确认，无法判断钱从哪来。
+    evidence_ids:
+    - ev-fe0c2000437945bb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，订单金额与验收结果之间缺少材料。
+    evidence_ids:
+    - ev-fe0c2000437945bb
+  next_validation: 收集立德机器人官方或客户方公开披露的订单公告、交付验收说明或船厂合作案例。
+  market: ''
+  job: 船舶制造企业的产线工程师在船体分段焊接与打磨环节处理大型钢结构件，需要完成符合工艺标准的加工任务。
+  job_en: Production engineers at shipyards process large steel structures in hull-section welding and
+    grinding, needing to complete work that meets process standards.
+  pain: 公开材料未说明具体痛点，只能推断焊接与打磨环节对持证工人依赖强、质量一致性难保证；这是推断，不是已核实的用户反馈。
+  pain_en: Public material does not state the specific pain; it can only be inferred that welding and
+    grinding depend heavily on certified workers and struggle with consistency. This is inference, not
+    verified user feedback.
+  current_alternative: 公开材料未披露此前由谁、用什么设备完成这些工序，旧做法无法还原。
+  current_alternative_en: Public material does not disclose who or what equipment previously performed
+    these steps, so the old workflow cannot be reconstructed.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，缺少工序、验收标准和客户反馈这一环。
+  usage_reason_en: It cannot be shown which step is reduced or which verifiable result improves versus
+    the old approach; the process, acceptance criteria and customer feedback are missing.
+- id: req-full-立德机器人拿10亿元订单闯船舶ai赛道-2026-09-15
+  project_slug: 立德机器人拿10亿元订单闯船舶ai赛道
+  level: full
+  reviewed_at: '2026-09-15T01:08:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅一条订单金额标题，未说明焊接打磨环节的具体痛点、旧工序与不采用后果，需求与痛点均无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-fe0c2000437945bb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪立德机器人官网或船厂客户方公开披露的订单公告、交付验收说明或船厂合作案例页面。
+  market: ''
+  job: 船舶制造企业的产线工程师在船体分段焊接与打磨环节处理大型钢结构件，需要完成符合工艺标准的加工任务。
+  job_en: Production engineers at shipyards process large steel structures in hull-section welding and
+    grinding, needing to complete work that meets process standards.
+  pain: 公开材料只给出订单金额标题，未说明焊接打磨环节的具体痛点，也未给出任何用户反馈或工序描述，痛点无法还原。
+  pain_en: Public material only provides an order-value headline; it does not state the specific pain
+    in welding and grinding, nor any user feedback or process description, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未披露此前由谁、用什么设备或工艺完成这些工序，旧替代方式无法还原。
+  current_alternative_en: Public material does not disclose who or what equipment or process previously
+    performed these steps, so the prior alternative cannot be reconstructed.
+  usage_reason: 缺少工序、验收标准与客户反馈，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: With no process, acceptance criteria or customer feedback, it cannot be shown which
+    step is reduced or which verifiable result improves versus the old approach, so why users would choose
+    it cannot be explained.

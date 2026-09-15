@@ -1,0 +1,85 @@
+- id: req-initial-oats-2026-09-15
+  project_slug: oats
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议记录靠人边听边记、结论易漏的问题，痛点刚性且交付物是明确的纪要；本地运行还消除了上传录音的合规障碍。
+    evidence_ids:
+    - ev-b7a1026385eb6961
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有用户评价、客户案例或采用规模，无法判断团队是否真的把它放进日常会议流程。
+    evidence_ids:
+    - ev-b7a1026385eb6961
+  - gate: model
+    status: insufficient
+    reason: 免费开源意味着没有可见的付费路径，钱可能来自企业部署与支持服务，但这是判断而非已验证事实，公开材料未给定价。
+    evidence_ids:
+    - ev-b7a1026385eb6961
+  - gate: truth
+    status: insufficient
+    reason: 本地转写贴近会议记录的第一性目标，但公开材料未说明支持的会议平台、导出格式与人工校对边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-b7a1026385eb6961
+  next_validation: 收集 Oats 官方仓库的 README 与 issue/discussion，核对支持的会议平台、导出格式与本地模型要求。
+  market: ''
+  job: 需要留存会议结论的团队在会议进行时打开它，处理现场语音材料，产出一份可回查的会议纪要。
+  job_en: Teams that need a record of decisions open it during the meeting, process live speech, and produce
+    reviewable meeting minutes.
+  pain: 会议内容靠人边听边记，容易漏掉结论和待办；用云端转写工具又要把内部谈话上传给第三方，合规上过不去。
+  pain_en: People take notes while listening and miss decisions and action items; cloud transcription
+    tools require uploading internal conversations to a third party, which compliance blocks.
+  current_alternative: 人工速记加会后补纪要，或使用云端会议转写服务，再人工整理成文档。
+  current_alternative_en: Manual note-taking plus after-the-fact minutes, or cloud transcription services
+    whose output is manually cleaned into a document.
+  usage_reason: 推断：相较云端转写，它在本地完成语音到文字的转换，省掉上传录音和申请合规审批这一步，因此对谈话不能外传的团队更有吸引力；但公开材料没有留存或复购证据，无法确认它已被长期放进工作流。
+  usage_reason_en: 'Inference: unlike cloud transcription it converts speech to text locally, removing
+    the upload and compliance-approval step, which appeals to teams whose conversations cannot leave the
+    device; the public material shows no retention or repeat-use evidence, so long-term workflow adoption
+    cannot be confirmed.'
+- id: req-full-oats-2026-09-15
+  project_slug: oats
+  level: full
+  reviewed_at: '2026-09-15T01:06:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其为本地会议记录工具，但全部证据指向作为谷物的燕麦，无任何会议记录需求、痛点或替代行为事实，连要解决什么需求都无法从公开材料还原。
+    evidence_ids:
+    - ev-f2357575bba8d915
+    - ev-5be8af7bdc49213c
+    - ev-3238149db0c6978b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Oats 官方仓库或官网的 README 与定价页，确认其是否为会议记录产品并核对支持的会议平台、导出格式与本地模型要求。
+  market: ''
+  job: 会议参与者（尤其是对录音外传有顾虑的团队）在会议进行时打开本地工具，处理现场语音材料，产出一份留在自己设备上的会议纪要。
+  job_en: Meeting participants, especially teams wary of recordings leaving the device, open a local tool
+    during the meeting, process live speech, and produce minutes that stay on their own machine.
+  pain: 公开材料中没有任何用户痛点、抱怨或替代行为的证据；现有证据全部指向作为谷物的燕麦，与会议记录任务无关，无法确认痛点存在及其强度。
+  pain_en: The public material contains no user pain points, complaints, or workaround evidence; all evidence
+    concerns oats as a cereal grain, unrelated to meeting-notes work, so the pain and its intensity cannot
+    be confirmed.
+  current_alternative: 无法从公开证据确认当前替代方式；材料中出现的替代行为是购买和食用燕麦，与会议记录无关。
+  current_alternative_en: The current alternative cannot be confirmed from public evidence; the workarounds
+    shown are buying and eating oats, unrelated to meeting notes.
+  usage_reason: 无法判断用户为何选择它：公开证据没有产品页面、用户反馈或采用记录，只有谷物营养与电商信息，缺少可归因到该产品的任何使用理由。
+  usage_reason_en: 'Why users would choose it cannot be judged: public evidence has no product page, user
+    feedback, or adoption record, only grain-nutrition and e-commerce content, so no product-attributable
+    usage reason exists.'

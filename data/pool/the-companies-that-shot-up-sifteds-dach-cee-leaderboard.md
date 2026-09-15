@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/the-companies-that-shot-up-sifteds-dac
 summary: ''
 first_seen: '2026-09-14T05:00:19Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

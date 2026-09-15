@@ -181,3 +181,43 @@
   usage_reason_en: 'Inference: if it collapses several tool configs into one declarative install, users
     skip editing each file by hand; without user feedback or cases, it is unverified which users would
     choose it and when.'
+- id: req-full-bootagent-2026-09-15
+  project_slug: bootagent
+  level: full
+  reviewed_at: '2026-09-15T01:05:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“新电脑到手，把常用的AI助手一次配好，不用再逐个改设置”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 BootAgent 公开仓库的 README、release 与 issue/discussion，确认是否出现可复现的安装实测记录、配置回退说明或用户使用反馈。
+  market: ''
+  job: 开发者在拿到一台全新或重装的机器时，需要把常用的多个 AI 编码助手（各自的配置、密钥、工具链）一次性装好并保持一致，让新机器立刻进入可用的助手工作状态。
+  job_en: A developer on a fresh or reinstalled machine needs to install several AI coding assistants
+    at once—each with its own config, keys, and toolchain—and keep them consistent, so the new machine
+    is immediately usable.
+  pain: 公开说明指出痛点是逐个手改各工具专属配置文件；多助手并存时配置分散、易漏项、换机或重装后要重复劳动，且没有统一入口核对是否配齐。
+  pain_en: The public description names the pain as hand-editing each tool-specific config file; with
+    multiple assistants, configs are scattered, easy to miss, and must be redone on every new or reinstalled
+    machine, with no single place to verify completeness.
+  current_alternative: 当前替代是手工逐个编辑各 AI 助手的配置文件，或依赖各工具自带的安装与初始化流程，没有跨工具的本地统一管理方式。
+  current_alternative_en: The current alternative is manually editing each AI assistant's config file
+    one by one, or relying on each tool's own install and init flow, with no cross-tool local management.
+  usage_reason: 推断：相较逐个手改配置，它把多助手的安装与配置收敛为一次可重复执行的本地动作，减少换机时逐文件编辑和漏配的负担，因此频繁换机、重装或同时使用多个 AI 助手的开发者会在新环境初始化时选择它。
+  usage_reason_en: 'Inference: versus hand-editing each config, it collapses multi-assistant setup into
+    one repeatable local action, cutting per-file editing and missed settings on machine changes, so developers
+    who frequently reinstall or run several assistants would pick it when initializing a new environment.'

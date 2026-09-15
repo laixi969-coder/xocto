@@ -346,3 +346,43 @@
   usage_reason_en: There are no user reviews or cases showing which step conversational search removes
     compared with classic search, so there is no basis to explain why users would migrate from their old
     search habit.
+- id: req-full-ai-搜索-百度-2026-09-15
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-09-15T01:04:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有产品介绍，未说明用户在复杂问题上具体卡在哪一步、不解决会有什么后果，也未见用户反馈或行为数据，需求结构无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度 AI 搜索官方页面的定价或会员说明、客户案例与公开用户评价，确认谁在什么场景下持续使用以及是否付费。
+  market: ''
+  job: 百度搜索用户在 PC 端提出复杂问题时，希望在同一页面内获得对话式回答、继续追问、并顺手完成写作或做图，而不必在搜索、对话与创作工具之间来回切换。
+  job_en: Baidu search users on PC with a complex question want a conversational answer, follow-up digging,
+    and writing or image creation on the same page, without switching between search, chat, and creation
+    tools.
+  pain: 公开材料只有产品介绍，没有用户反馈或行为数据说明当前搜索方式在复杂问题上具体哪里低效、不解决会付出什么代价，痛点强度无法确认。
+  pain_en: Public material only contains a product description; no user feedback or behavioral data shows
+    where current search specifically fails on complex questions or what it costs to leave unsolved, so
+    pain intensity cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成复杂问题检索与后续创作，也未说明它替代了哪些旧工具或旧流程。
+  current_alternative_en: Public material does not show how users currently handle complex queries and
+    follow-up creation, nor which prior tools or workflows it replaces.
+  usage_reason: 月访问 44.85M、环比 13.76% 只说明关注度与规模，不能解释用户为何选择它；缺少用户反馈或案例说明相较旧搜索方式减少了哪一步负担。
+  usage_reason_en: 44.85M monthly visits and 13.76% MoM growth only show attention and scale, not why
+    users choose it; without user feedback or cases, which step it removes versus old search cannot be
+    explained.

@@ -241,3 +241,54 @@
     shipped with the results and machine-check each step, removing the rebuild step, so formal-verification
     engineers or researchers following this result would choose it when independent checking is needed;
     the star count rising from 1,592 to 1,856 shows attention only, not sustained use.'
+- id: req-full-navierstokesandeuler-2026-09-15
+  project_slug: navierstokesandeuler
+  level: full
+  reviewed_at: '2026-09-15T01:06:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是偏微分方程与流体力学证明难以独立复核的需求：人工逐行检查成本高、审稿时间有限，不采用则结论可信度依赖作者声誉。仓库把 Lean 证书随论文发布，使机器可逐条检查推导，交付结果可确定；这是工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-bfa0924700ce4f1a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 1,592 增至 1,892，说明社区持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在核验工作流中；缺少 issue、discussion 或客户案例说明谁在何种场景实际使用。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-9a19940a2dad21c3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断钱来自 to C、to B 还是 to G；作为 OpenAI 发布的开放仓库，其经济模式可能不依赖直接收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f4c0fef408881008
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明称提供 Lean 证书，但公开证据未展示证书覆盖范围与配套论文的对应关系，也未提供可复现的检查通过记录；交付能否稳定发生、人工判断边界如何划分仍缺公开材料。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-5fdc7a8ab2a2f13f
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认 Lean 证书覆盖哪些论文结果、是否给出可复现的检查通过记录，以及谁在何种核验场景中实际使用。
+  market: ''
+  job: 数学研究者与形式化验证工程师在核验 Navier-Stokes 与 Euler 方程相关论文结果时，打开该仓库，把随论文一同发布的 Lean 证书文件交给 Lean 证明助手，逐条检查推导步骤，得到机器可复核的通过或失败结论。
+  job_en: Mathematics researchers and formal verification engineers verifying Navier-Stokes and Euler
+    results open this repository, feed the Lean certificate files released alongside the paper into the
+    Lean proof assistant, and check the derivation steps one by one to obtain a machine-checkable pass
+    or fail result.
+  pain: 偏微分方程与流体力学证明篇幅长、步骤密，人工逐行复核成本高且容易漏错；审稿人和同行无法在有限时间内独立重走全部推导，导致结果的可信度依赖作者声誉而非可复核链条。
+  pain_en: PDE and fluid-dynamics proofs are long and dense; manual line-by-line checking is costly and
+    error-prone, and referees cannot independently re-walk the full derivation in limited time, so credibility
+    rests on author reputation rather than a checkable chain.
+  current_alternative: 旧做法是人工阅读论文与附录、同行评审、以及作者自述的推导说明；形式化社区此前只能对少量已形式化的定理做机器检查，缺少与具体论文结果配套发布的证书。
+  current_alternative_en: The old approach is manual reading of the paper and appendix, peer review, and
+    the authors' own derivation notes; the formal-methods community could previously machine-check only
+    a few already-formalized theorems, with no certificates released alongside specific paper results.
+  usage_reason: 相较人工逐行复核，该仓库把证书文件直接交给 Lean 逐条检查，把“读懂并相信推导”这一步替换为“机器返回通过或失败”，因此需要独立核验论文结论的形式化验证工程师和审稿场景下的数学研究者会选用它；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with manual line-by-line checking, the repository hands certificate files
+    to Lean for step-by-step checking, replacing 'read and trust the derivation' with 'the machine returns
+    pass or fail'; formal verification engineers needing independent checking and mathematics researchers
+    in review settings would therefore choose it. This is an inference from product capability and task
+    structure, not yet confirmed by user feedback.

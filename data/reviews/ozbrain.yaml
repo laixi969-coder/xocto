@@ -1,0 +1,86 @@
+- id: req-initial-ozbrain-2026-09-15
+  project_slug: ozbrain
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队知识与 agent 上下文分散、同一背景被反复解释的问题，痛点具体，交付物是人和 agent 共用的知识来源。
+    evidence_ids:
+    - ev-dbff32070509422e
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 75 点、46 条评论，说明有人关注，但公开材料没有客户案例或持续采用证据，关注度不等于进入工作流。
+    evidence_ids:
+    - ev-dbff32070509422e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给定价，买方可能是需要统一 agent 上下文的团队，按席位或知识库规模收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-dbff32070509422e
+  - gate: truth
+    status: insufficient
+    reason: 共享知识层贴近 agent 工作的第一性目标，但公开材料未说明权限控制、数据边界与人工审核环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-dbff32070509422e
+  next_validation: 收集 OzBrain 官方定价页或部署文档，核对权限模型、接入方式与是否按席位或用量计费。
+  market: ''
+  job: 同时使用多个 AI agent 的团队在给 agent 和同事准备同一份背景资料时，处理内部文档与知识，让双方读到一致的信息。
+  job_en: Teams running multiple AI agents, when preparing the same background material for agents and
+    colleagues, process internal documents and knowledge so both sides read consistent information.
+  pain: 知识散在个人笔记、聊天记录和各自维护的提示词里，agent 拿到的上下文不一致，同事之间也要重复解释同一件事。
+  pain_en: Knowledge is scattered across personal notes, chat logs and individually maintained prompts,
+    so agents receive inconsistent context and colleagues re-explain the same thing.
+  current_alternative: 各自维护提示词和本地文档，或用通用网盘与 wiki 存放资料，再手动复制给 agent。
+  current_alternative_en: Individually maintained prompts and local documents, or general file drives
+    and wikis whose content is manually copied into agents.
+  usage_reason: 推断：相较各自维护提示词，它把团队文档集中成 agent 和人都能读取的单一来源，省掉每次为 agent 重新拼上下文这一步，因此多 agent 团队会考虑采用；公开材料没有留存或复购证据，无法确认已被长期使用。
+  usage_reason_en: 'Inference: unlike individually maintained prompts, it consolidates team documents
+    into one source readable by both agents and people, removing the step of reassembling context for
+    each agent, which is why multi-agent teams would consider it; the public material shows no retention
+    or repeat-use evidence, so sustained use cannot be confirmed.'
+- id: req-full-ozbrain-2026-09-15
+  project_slug: ozbrain
+  level: full
+  reviewed_at: '2026-09-15T01:07:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队知识与 agent 上下文分散、同一背景被反复解释的问题，痛点具体，交付物是人和 agent 共用的知识来源。
+    evidence_ids:
+    - ev-dbff32070509422e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品页一句定位，没有客户案例、用户评价或持续采用证据，无法判断团队是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-dbff32070509422e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给定价，买方可能是需要统一 agent 上下文的团队，按席位或知识库规模收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-dbff32070509422e
+  - gate: truth
+    status: insufficient
+    reason: 共享知识层贴近 agent 工作的第一性目标，但公开材料未说明权限控制、数据边界与人工审核环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-dbff32070509422e
+  next_validation: 追踪 OzBrain 官方定价页或部署文档，核对权限模型、agent 接入方式与是否按席位或用量计费。
+  market: ''
+  job: 同时运行多个 AI agent 的团队，在给 agent 和同事准备同一份背景资料时，处理内部文档与知识，让双方读到一致的信息。
+  job_en: Teams running multiple AI agents, when preparing the same background material for agents and
+    colleagues, process internal documents and knowledge so both sides read consistent information.
+  pain: 知识散在个人笔记、聊天记录和各自维护的提示词里，agent 拿到的上下文不一致，同事之间也要重复解释同一件事。
+  pain_en: Knowledge is scattered across personal notes, chat logs and individually maintained prompts,
+    so agents receive inconsistent context and colleagues re-explain the same thing.
+  current_alternative: 各自维护提示词和本地文档，或用通用网盘与 wiki 存放资料，再手动复制给 agent。
+  current_alternative_en: Individually maintained prompts and local documents, or general file drives
+    and wikis whose content is manually copied into agents.
+  usage_reason: 推断：相较各自维护提示词，它把团队文档集中成 agent 和人都能读取的单一来源，省掉每次为 agent 重新拼上下文这一步，因此多 agent 团队会考虑采用；公开材料没有留存或复购证据，无法确认已被长期使用。
+  usage_reason_en: 'Inference: unlike individually maintained prompts, it consolidates team documents
+    into one source readable by both agents and people, removing the step of reassembling context for
+    each agent, which is why multi-agent teams would consider it; the public material shows no retention
+    or repeat-use evidence, so sustained use cannot be confirmed.'

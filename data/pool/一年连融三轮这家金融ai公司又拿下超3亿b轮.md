@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/488912.html
 summary: 险资、券商与头部创投持续加码
 first_seen: '2026-09-14T07:55:12Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

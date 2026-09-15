@@ -324,3 +324,54 @@
     narration, removing separate production and translation steps, so learners or creators who need presentable
     explainer material quickly would choose it when preparing lessons or content; no public user feedback
     yet confirms this motive.'
+- id: req-full-vistep-2026-09-15
+  project_slug: vistep
+  level: full
+  reviewed_at: '2026-09-15T01:08:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把抽象概念或步骤转成双语可视化加同步讲解的需求，痛点是多工具拼接、图文与旁白难对齐；公开说明已能还原输入—生成—交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-2475a965dad343a4
+    - ev-83336307031aeb00
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 162 增至 203，说明开发者社区持续关注，但收藏与关注只属规模信号，不能证明目标学习者或创作者已把它留在讲解工作流中；缺少使用评价、复刻用途或案例说明。
+    evidence_ids:
+    - ev-2475a965dad343a4
+    - ev-9b7cdb435d78c781
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断收入来自 to C 订阅、to B 团队授权还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-2475a965dad343a4
+  - gate: truth
+    status: insufficient
+    reason: 双语可视化与交互模型的生成质量、同步讲解是否稳定可复现，以及内容安全与人工校对边界，均无部署文档或可复现实测支撑，交付确定性尚未核验。
+    evidence_ids:
+    - ev-2475a965dad343a4
+  next_validation: 追踪 vistep 官网是否上线定价页与客户案例，并查看其代码仓库 issue/discussion 中用户对生成质量与使用场景的公开反馈。
+  market: ''
+  job: 学习者或内容创作者在自学、备课或制作讲解内容时，面对一段抽象概念或操作步骤（如算法流程、实验步骤、机械原理），需要把它转成双语可视化解释、可交互模型和同步讲解，以便自己理解或对外发布。
+  job_en: A learner or content creator studying, preparing lessons, or producing explainer content takes
+    an abstract concept or procedure (e.g., an algorithm, an experiment, a mechanism) and must turn it
+    into bilingual visual explanations, an interactive model, and synchronized narration for their own
+    understanding or for publication.
+  pain: 公开材料只给出产品定位，未提供用户抱怨或案例；从工作流结构推理，把抽象步骤做成可视化加讲解通常要在绘图、动画、配音、翻译多个工具间来回搬运，产出慢且难以同步，这是推断而非用户口述。
+  pain_en: Public materials give only the product positioning, with no user complaints or cases; by workflow
+    inference, turning abstract steps into visuals plus narration normally requires shuttling between
+    drawing, animation, voiceover, and translation tools, which is slow and hard to keep in sync — this
+    is inference, not user testimony.
+  current_alternative: 公开材料未说明现有替代方式；结构上可推断用户目前用通用绘图/动画工具、幻灯片加人工配音，或直接依赖现成视频与教材，但这些替代路径均未被公开证据确认。
+  current_alternative_en: Public materials do not state the current alternatives; structurally one can
+    infer users rely on generic drawing/animation tools, slides plus manual voiceover, or existing videos
+    and textbooks, but none of these paths is confirmed by public evidence.
+  usage_reason: 推断：相较在多个工具间分别做图、做动画、配音和翻译，vistep 用一次输入同时产出双语可视化、交互模型与同步讲解，省去跨工具拼接与对齐字幕/旁白的步骤，因此需要快速产出可讲解材料的学习者或创作者会在赶内容时选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with separately producing graphics, animation, voiceover, and
+    translation across tools, vistep generates bilingual visuals, an interactive model, and synchronized
+    narration from one input, removing the cross-tool assembly and caption/narration alignment step, so
+    learners or creators needing fast explainer material would choose it under time pressure; no user
+    feedback yet confirms this motive.'

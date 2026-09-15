@@ -289,3 +289,53 @@
     a communication and waiting cycle; small Korean teams or indie developers with limited budget who
     still need Naver coverage would pick it for self-serve site optimization. Stars rising from 399 to
     435 show attention only, not sustained use.'
+- id: req-full-fire-your-seo-agency-2026-09-15
+  project_slug: fire-your-seo-agency
+  level: full
+  reviewed_at: '2026-09-15T01:05:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是站点在传统搜索与 AI 答案引擎中可见性维护的需求，痛点是代理月费 50 万至 350 万韩元且需反复人工巡检，不解决则可见性持续流失；旧替代为外包代理或手工多工具巡检。以上为工作流结构推理，付费方尚未核验。
+    evidence_ids:
+    - ev-d2941a04f2af7f18
+    - ev-8d0efa0a31c82d65
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 400 增至 436，说明开发者持续关注并试用，但公开材料没有目标用户评价、复刻后实际部署或重复使用记录，无法证明它已进入日常工作流。
+    evidence_ids:
+    - ev-d2941a04f2af7f18
+    - ev-a92ce064a704ef48
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出被替代代理的月费区间，未见本技能自身的定价、付费主体或单位经济；钱可能来自 to C 开发者或 to B 站点运营者，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d2941a04f2af7f18
+  - gate: truth
+    status: insufficient
+    reason: 审计与优化能否确定性交付、对 Naver 等渠道的覆盖是否真实有效、以及自动改动站点的安全与人工复核边界，均缺可复现的公开证据。
+    evidence_ids:
+    - ev-d2941a04f2af7f18
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开报告实际部署、替代代理后的效果与人工复核边界。
+  market: ''
+  job: SEO专员或内容营销经理在网站内容与结构需要同时适配 Google、AI 答案引擎和 Naver 时，把站点页面、元数据与内容交给这个 Claude Code 技能，完成一次跨 SEO/AEO/GEO/LLMO/NEO
+    的审计与优化建议落地。
+  job_en: An SEO specialist or content marketing manager, when a site's pages and metadata must be tuned
+    for Google, AI answer engines and Naver at once, hands the site content and structure to this Claude
+    Code skill to run a cross-channel SEO/AEO/GEO/LLMO/NEO audit and apply the optimization output.
+  pain: 公开材料给出的痛点是：AI 搜索优化代理月费 50 万至 350 万韩元，对中小站点是持续现金支出，且优化项分散在多个渠道、需要反复人工巡检；不解决的后果是站点在传统搜索与 AI 答案引擎中的可见性持续流失。
+  pain_en: The stated pain is that AI-search optimization agencies charge KRW 500k-3.5M per month, a recurring
+    cash cost for small sites, while the work spans multiple channels and needs repeated manual auditing;
+    leaving it unsolved means continued loss of visibility in both classic search and AI answer engines.
+  current_alternative: 当前替代方式是外包给按月计费的 AI 搜索优化代理，或由 SEO 专员手工在多个工具与渠道间逐项检查、逐条修改。
+  current_alternative_en: The current alternative is outsourcing to a monthly-fee AI search optimization
+    agency, or having an SEO specialist manually check and edit items across multiple tools and channels.
+  usage_reason: 推断：相较按月付费的代理或手工逐项巡检，该技能在 Claude Code 内直接读取站点内容并一次性产出跨渠道审计与优化动作，省去外包沟通与多工具切换这两步负担，因此预算有限、又需要覆盖
+    Naver 等本地渠道的中小站点运营者会在自建优化流程时选择它。
+  usage_reason_en: 'Inference: versus a monthly agency retainer or manual item-by-item auditing, the skill
+    reads site content inside Claude Code and produces a cross-channel audit and optimization actions
+    in one pass, removing the agency coordination and multi-tool switching steps, so budget-constrained
+    operators of small sites that also need Naver coverage would pick it when building an in-house optimization
+    flow.'

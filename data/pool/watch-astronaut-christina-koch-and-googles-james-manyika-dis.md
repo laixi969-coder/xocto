@@ -22,7 +22,7 @@ summary: Christina Koch sits down with James Manyika, Google’s Senior Vice Pre
   Technology & Society.
 first_seen: '2026-09-14T19:00:00Z'
 last_seen: '2026-09-15T00:39:08Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

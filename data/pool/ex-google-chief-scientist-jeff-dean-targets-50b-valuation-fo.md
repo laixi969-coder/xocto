@@ -1,6 +1,6 @@
 ---
 slug: ex-google-chief-scientist-jeff-dean-targets-50b-valuation-fo
-name: Ex-Google chief scientist Jeff Dean targets $50B valuation for new AI startup Discovery Loop
+name: Discovery Loop
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Ex-Google chief scientist Jeff Dean targets $50B valuation for new AI s
   Tech Funding News
 first_seen: '2026-09-14T11:23:41Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Ex-Google chief scientist Jeff Dean targets $50B valuation for new AI startup Discovery Loop
+# Discovery Loop
 
 Ex-Google chief scientist Jeff Dean targets $50B valuation for new AI startup Discovery Loop Tech Funding News
 

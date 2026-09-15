@@ -194,3 +194,43 @@
   usage_reason_en: With no product description, docs, issues, or user feedback, there is no explanation
     of why users would choose it over their current approach; star growth reflects attention only, not
     a usage reason.
+- id: req-full-mythos-5-incident-transcript-2026-09-15
+  project_slug: mythos-5-incident-transcript
+  level: full
+  reviewed_at: '2026-09-15T01:06:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有仓库名与星标数，无法还原用户任务、痛点、旧替代与不解决的后果，连需求与痛点都写不出来，故不成立。
+    evidence_ids:
+    - ev-82fa89c6a4fcefea
+    - ev-cc8d2f3c597858dd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它声明的具体输入、输出与使用场景，以及是否有可复现的部署或使用说明。
+  market: ''
+  job: 公开材料只给出仓库名与星标数，无法确认谁在什么情况下处理什么材料、要完成什么任务；连基本使用场景都无法还原。
+  job_en: Public materials provide only a repository name and star counts, so it is impossible to identify
+    who handles what material in what situation to complete what task; even the basic usage scenario cannot
+    be reconstructed.
+  pain: 没有任何公开事实说明用户遇到的具体痛点、发生频率或不解决的后果；星标增长只反映关注度，不能当作痛点证据。
+  pain_en: No public fact describes the specific pain, its frequency, or the consequence of leaving it
+    unsolved; star growth reflects attention only and cannot serve as pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了哪一步旧流程。
+  current_alternative_en: Public materials do not state how users currently complete the related work,
+    nor which prior step this repository replaces.
+  usage_reason: 无法给出选择理由：现有证据只有仓库星标从 19 增至 54，属于关注度信号，不能解释用户为何在具体情境下选用它。
+  usage_reason_en: 'No usage rationale can be given: the only evidence is stars rising from 19 to 54,
+    an attention signal that cannot explain why a user would choose it in a concrete situation.'

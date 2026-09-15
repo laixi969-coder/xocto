@@ -33,7 +33,7 @@ summary: "My comment  on  What blog posts influenced your thinking the most?  â€
   \ \n    \n         Tags:  joel-spolsky ,  software-engineering ,  will-larson ,  charity-majors"
 first_seen: '2026-09-14T20:21:48Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

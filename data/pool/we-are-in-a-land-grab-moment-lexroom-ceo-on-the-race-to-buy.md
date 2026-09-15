@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/land-grab-lexroom-ceo-race-to-buy-up-l
 summary: ''
 first_seen: '2026-09-14T05:00:13Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

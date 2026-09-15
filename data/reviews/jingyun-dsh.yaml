@@ -414,3 +414,48 @@
     a developer only packages the agent to start charging, removing the step of building payment and account
     systems; thus developers with a working agent but no commercial backend, who want independent pricing,
     would pick it when preparing to sell.'
+- id: req-full-jingyun-dsh-2026-09-15
+  project_slug: jingyun-dsh
+  level: full
+  reviewed_at: '2026-09-15T01:06:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 开发者把智能体封装成可收费产品的需求，但公开材料只有功能罗列与“30 分钟”说法，没有用户痛点、旧流程或不采用代价的证据，属于功能拼装而非可核验的刚性需求。
+    evidence_ids:
+    - ev-3683512bb59c6387
+    - ev-5cc37ec86af9bb51
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 jingyun.studio 官方定价页与文档，确认订阅支付、分成比例及是否有真实开发者上架并产生交易的公开记录。
+  market: ''
+  job: AI 开发者（个人或小团队）在已有智能体、技能或工作流后，想把它变成可收费的独立产品，需要完成登录注册、会员、订阅支付、云端资产与多端同步这一整套商业化封装。
+  job_en: An AI developer (individual or small team) who already has an agent, skill or workflow wants
+    to turn it into a chargeable standalone product, and must assemble login, membership, subscription
+    payment, cloud assets and multi-device sync.
+  pain: 公开材料只说明它提供登录注册、会员、订阅支付、云端资产、多端同步等模块，并称 30 分钟可封装为商业产品；没有用户抱怨、替代流程或未采用代价的公开证据，痛点强度无法从现有材料确认。
+  pain_en: Public materials only list modules such as login, membership, subscription payment, cloud assets
+    and multi-device sync, claiming a commercial product can be packaged in 30 minutes; there is no public
+    evidence of user complaints, prior workflows or the cost of not adopting, so pain intensity cannot
+    be confirmed.
+  current_alternative: 公开材料未说明开发者现在如何完成这套商业化封装，可能自行搭建支付与账号体系，或直接使用现有平台分发，但均无证据支持。
+  current_alternative_en: Public materials do not say how developers currently handle this commercial
+    packaging; they may build payment and account systems themselves or distribute via existing platforms,
+    but no evidence supports either.
+  usage_reason: 推断：若它真能把账号、支付、云端资产与多端同步一次接好，开发者可省去逐个对接支付与账号服务的工作；但公开材料只有功能罗列与星标增长，没有用户反馈或案例说明谁在什么情况下选择它，因此无法确认采用动因。
+  usage_reason_en: 'Inference: if it truly wires accounts, payment, cloud assets and multi-device sync
+    in one step, developers would skip integrating each payment and account service separately; but public
+    materials only list features and star growth, with no user feedback or cases showing who chooses it
+    and when, so adoption motivation cannot be confirmed.'

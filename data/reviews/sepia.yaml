@@ -246,3 +246,47 @@
     a skill can be invoked in the same agent, removing the copy-out-and-paste-back step to a separate
     rewriting tool; however, no user feedback or case supports this motive, so it cannot be asserted that
     users choose it for this reason.'
+- id: req-full-sepia-2026-09-15
+  project_slug: sepia
+  level: full
+  reviewed_at: '2026-09-15T01:07:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 产品自述称去除 AI 写作痕迹并修复叙事架构，但全部证据均为西班牙语医药、渔业页面，与写作技能无关，无法还原用户任务、痛点与不解决的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-7e1473e16aecbe83
+    - ev-1a13cff2ff138020
+    - ev-d68d8489e6ea0467
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 sepia 官方仓库或发布页的 README、示例输出与 issue/discussion，确认其去 AI 痕迹与叙事修复的实际交付效果及是否有用户采用记录。
+  market: ''
+  job: 小说作者或专业写作者在完成初稿后，用兼容 Agent Skills 的代理处理自己的稿件，去除 AI 写作痕迹并修复叙事结构，使文本符合目标场合的文体要求。
+  job_en: A fiction or professional writer, after drafting, uses an Agent Skills-compatible agent to process
+    their manuscript, removing AI writing traces and repairing narrative architecture so the text matches
+    the target venue's style rules.
+  pain: 公开材料只给出产品自述（去 AI 痕迹、叙事架构修复、场合匹配规则），没有任何用户抱怨、评价或案例说明 AI 痕迹或叙事问题实际造成什么后果，痛点无法从证据中还原。
+  pain_en: Public material only contains the product's own description (de-AI, narrative repair, venue-matched
+    rules); no user complaint, review, or case shows what consequence AI traces or narrative problems
+    actually cause, so the pain cannot be reconstructed from evidence.
+  current_alternative: 公开证据未记录写作者目前如何绕过这一问题，只能推断为人工逐句改写或使用通用改写工具，属于结构推理而非已观察行为。
+  current_alternative_en: Public evidence does not record how writers currently work around this; manual
+    sentence-by-sentence rewriting or generic rewriting tools can only be inferred, which is structural
+    reasoning rather than observed behavior.
+  usage_reason: 推断：若产品真能按场合规则自动标记并改写 AI 痕迹段落，写作者可省去逐句自查与重写；但缺少用户反馈或案例证明这一动作确实被采用，因此无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the product truly flags and rewrites AI-trace passages per venue rules,
+    writers could skip manual self-checking and rewriting; but no user feedback or case confirms this
+    action is adopted, so which users would choose it and when remains unconfirmed.'

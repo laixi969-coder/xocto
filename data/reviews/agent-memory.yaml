@@ -233,3 +233,52 @@
     between tools; local ranked retrieval removes manual searching, and the sleep-time Manage layer writes
     scattered conversations back into Markdown. Developers running two agents who care about context continuity
     would therefore pick it when switching tools.'
+- id: req-full-agent-memory-2026-09-15
+  project_slug: agent-memory
+  level: full
+  reviewed_at: '2026-09-15T01:04:31Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理跨工具切换时上下文丢失、需重复交代项目背景的需求，痛点来自会话记忆绑定单一工具这一结构；Markdown 单一事实来源加本地检索与空闲整理构成可确定的输入—动作—交付闭环，属工作流结构推理，尚无用户口述或量化耗时证据。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+    - ev-44cef59acd8e1cb0
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 739 增至 1,444，说明英文开发者社区持续关注并把它加入工具清单；但收藏与增长只属关注度证据，公开材料未见 issue、评价或案例说明它已被长期留在工作流中，故共识仅到关注层。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+    - ev-ca9fbf62c7876e87
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价页、付费主体或单位经济，谁付钱尚不可知；无 API key 与本地存储意味着成本低，但也意味着 to C 订阅或 to B 支持合同均未被公开材料证实，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-44cef59acd8e1cb0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述 Markdown 事实来源、本地检索与空闲整理层，未见部署文档、可复现实测或安全边界说明，无法核验跨工具共享存储是否稳定交付、整理结果是否可靠，以及记忆写入的隐私边界。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+  next_validation: 追踪该仓库的 README/部署文档与 issue、discussion，确认跨工具共享存储的实际部署方式、记忆整理效果与安全边界，并留意是否出现官方定价或赞助/商业支持入口。
+  market: ''
+  job: 使用 Claude Code 与 Codex 等编码代理的开发者，在多个代理工具之间切换、处理同一项目的对话记录与架构决策时，需要让新会话直接继承此前的上下文与结论，而不是每次从零复述项目背景。
+  job_en: Developers using coding agents such as Claude Code and Codex need a new session to inherit prior
+    context and decisions when they switch between agent tools on the same project, instead of restating
+    project background from scratch each time.
+  pain: 编码代理的会话记忆默认绑定在单一工具内，换工具或重开会话后上下文丢失，开发者要重复粘贴项目背景、架构决策与既有约定；公开材料未给出频率与耗时量化，但跨工具共享同一存储这一设计本身指向该重复劳动。
+  pain_en: Agent session memory is bound to a single tool; after switching tools or restarting a session
+    the context is lost, forcing developers to re-paste project background, architecture decisions and
+    conventions. Public materials give no quantified frequency or time cost, but the cross-tool shared-store
+    design itself points at this repeated labor.
+  current_alternative: 旧做法是依赖各代理工具自带的会话历史或 CLAUDE.md 之类的项目说明文件，靠人工复制粘贴在工具之间搬运上下文，或干脆每次重新交代背景。
+  current_alternative_en: The old approach is relying on each agent tool's own session history or project
+    instruction files like CLAUDE.md, manually copy-pasting context between tools, or simply re-explaining
+    the background each time.
+  usage_reason: 推断：相较人工搬运上下文，它把对话与决策写成 Markdown 单一事实来源，Claude Code 与 Codex 读同一份存储，并在空闲时段做本地排序整理，从而省去切换工具时重新交代背景这一步；经常在两个编码代理间切换、且在意数据留在本地的开发者会因此选择它。
+  usage_reason_en: 'Inference: versus manual context shuttling, it writes conversations and decisions
+    into a single Markdown source of truth that both Claude Code and Codex read, with local ranked retrieval
+    and idle-time consolidation, removing the re-briefing step on tool switch; developers who frequently
+    switch between two coding agents and want data kept local would choose it for that reason.'

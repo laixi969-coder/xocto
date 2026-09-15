@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/AlexWortega/flywire-microduck
 summary: ''
 first_seen: '2026-09-14T09:32:53Z'
 last_seen: '2026-09-15T00:39:07Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

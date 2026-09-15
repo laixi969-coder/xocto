@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbEVPUnA0dHhl
 summary: Lenovo Says Agentic AI SOC Cuts Threat Detection Time TechRepublic
 first_seen: '2026-09-14T20:52:38Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

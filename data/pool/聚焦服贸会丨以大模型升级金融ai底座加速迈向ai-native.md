@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQMTZjdlhfX0ZV
 summary: 聚焦服贸会丨以大模型升级金融AI底座，加速迈向AI Native 新华网客户端
 first_seen: '2026-09-14T09:12:07Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

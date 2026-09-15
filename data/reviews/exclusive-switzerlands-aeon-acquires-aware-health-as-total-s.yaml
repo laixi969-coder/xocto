@@ -1,0 +1,81 @@
+- id: req-initial-exclusive-switzerlands-aeon-acquires-aware-health-as-total-s-2026-09-15
+  project_slug: exclusive-switzerlands-aeon-acquires-aware-health-as-total-s
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有收购与融资事实，未说明解决什么需求、什么痛点，价值关无法判断。
+    evidence_ids:
+    - ev-824c63ddb699ed89
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺少场景与采用证据。
+    evidence_ids:
+    - ev-824c63ddb699ed89
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-824c63ddb699ed89
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-824c63ddb699ed89
+  next_validation: 收集 Aeon 官方产品页或部署文档，确认其实际交付的功能、使用场景与定价方式。
+  market: ''
+  job: 心理治疗师或健康服务提供者在接诊前后整理来访者情绪与行为记录、准备干预方案。
+  job_en: Therapists or health service providers organize client emotional and behavioral records before
+    and after sessions and prepare intervention plans.
+  pain: 公开材料未说明具体痛点，只能推断心理健康服务中记录整理与随访存在人工负担，缺少可引用的事实。
+  pain_en: Public materials do not state a specific pain point; it can only be inferred that record organization
+    and follow-up in mental health services carry manual burden, with no citable facts.
+  current_alternative: 公开材料未披露现有替代方式，无法确认此前由谁、用什么工具完成同类工作。
+  current_alternative_en: Public materials do not disclose existing alternatives, so who previously did
+    this work and with what tools cannot be confirmed.
+  usage_reason: 缺少产品功能、交付物与用户反馈的公开事实，无法说明相较旧做法减少了哪一步负担，因此无法判断用户为何选择它。
+  usage_reason_en: With no public facts on product features, deliverables, or user feedback, it is impossible
+    to say which step of the old workflow it reduces, so why users would choose it cannot be judged.
+- id: req-full-exclusive-switzerlands-aeon-acquires-aware-health-as-total-s-2026-09-15
+  project_slug: exclusive-switzerlands-aeon-acquires-aware-health-as-total-s
+  level: full
+  reviewed_at: '2026-09-15T01:05:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有收购与融资事实，未说明产品解决什么需求、什么痛点，连用户任务与旧替代都无法还原，价值关无法判断。
+    evidence_ids:
+    - ev-824c63ddb699ed89
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Aeon 官网产品页或部署文档，确认其实际交付的功能、使用场景与定价方式。
+  market: ''
+  job: 心理治疗师或健康服务提供者在接诊前后整理来访者情绪与行为记录、准备干预方案。
+  job_en: Therapists or health service providers organize client emotional and behavioral records before
+    and after sessions and prepare intervention plans.
+  pain: 公开材料只披露 Aeon 收购 Aware Health、种子轮累计融资超 1200 万欧元，未说明产品接收什么材料、执行什么动作、交付什么结果，因此无法写出可引用的具体痛点。
+  pain_en: Public materials only disclose that Aeon acquired Aware Health and that total seed funding
+    surpassed EUR 12 million; they do not state what inputs the product takes, what actions it performs,
+    or what it delivers, so no citable specific pain point can be written.
+  current_alternative: 公开材料未披露现有替代方式，无法确认此前由谁、用什么工具完成同类记录整理与干预方案准备工作。
+  current_alternative_en: Public materials do not disclose existing alternatives, so who previously did
+    this work and with what tools cannot be confirmed.
+  usage_reason: 缺少产品功能、交付物与用户反馈的公开事实，无法说明相较旧做法减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no public facts on product features, deliverables, or user feedback, it is impossible
+    to say which step of the old workflow it reduces, so which users would choose it and when cannot be
+    judged.

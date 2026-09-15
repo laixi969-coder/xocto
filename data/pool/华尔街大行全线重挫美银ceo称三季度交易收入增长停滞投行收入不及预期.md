@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IeTF4SlQ4Nmd2
 summary: 华尔街大行全线重挫！美银CEO称三季度交易收入增长停滞，投行收入不及预期 华尔街见闻
 first_seen: '2026-09-14T21:42:39Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

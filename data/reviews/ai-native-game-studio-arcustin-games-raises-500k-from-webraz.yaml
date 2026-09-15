@@ -1,0 +1,81 @@
+- id: req-initial-ai-native-game-studio-arcustin-games-raises-500k-from-webraz-2026-09-15
+  project_slug: ai-native-game-studio-arcustin-games-raises-500k-from-webraz
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开材料还原，缺少旧流程与交付描述，价值关证据不足。
+    evidence_ids:
+    - ev-d5b277843a911a4b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有用户、客户或社区采用信号可判断共识。
+    evidence_ids:
+    - ev-d5b277843a911a4b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露，仅有投资方信息。
+    evidence_ids:
+    - ev-d5b277843a911a4b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-d5b277843a911a4b
+  next_validation: 收集 Arcustin Games 官方站点或应用商店页面，确认其已上线游戏名称、AI 在制作流程中的具体环节与产出物。
+  market: ''
+  job: 移动游戏工作室的制作人员在开发新关卡或新角色时，需要处理美术素材与关卡内容，并按时产出可上线的游戏版本。
+  job_en: Production staff at a mobile game studio need to handle art assets and level content while developing
+    new levels or characters, and ship a releasable build on schedule.
+  pain: 公开材料没有说明它替代了哪一步旧工作，也没有任何用户抱怨、旧流程或人工成本描述，痛点无法从现有事实还原。
+  pain_en: Public material does not say which old step it replaces, and there is no user complaint, legacy
+    workflow or labour-cost description, so the pain cannot be reconstructed from available facts.
+  current_alternative: 公开材料未提及现有替代方式，无法确认此前由谁、用什么工具完成同类工作。
+  current_alternative_en: Public material mentions no existing alternative, so it is impossible to confirm
+    who previously did this work and with what tools.
+  usage_reason: 仅有融资与 AI-native 定位，缺少产品能力、输入输出与采用证据，无法解释用户为何选择它而非旧做法；这是事实缺口，不是推断。
+  usage_reason_en: Only funding and an AI-native positioning are available, with no product capability,
+    input/output or adoption evidence, so there is no basis to explain why users would choose it over
+    the old approach; this is a factual gap, not an inference.
+- id: req-full-ai-native-game-studio-arcustin-games-raises-500k-from-webraz-2026-09-15
+  project_slug: ai-native-game-studio-arcustin-games-raises-500k-from-webraz
+  level: full
+  reviewed_at: '2026-09-15T01:04:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只给出伊斯坦布尔移动游戏工作室、AI-native 定位与 50 万美元 pre-seed 融资，未说明它替代哪一步旧制作流程、输入什么素材、交付什么产物，需求与痛点均无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-d5b277843a911a4b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Arcustin Games 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料只说明这是一家伊斯坦布尔移动游戏工作室，未披露谁在哪个制作环节打开它、AI 接收什么素材、产出什么交付物，因此无法写出具体使用场景。
+  job_en: Public material only identifies an Istanbul mobile game studio; it does not disclose who opens
+    it at which production step, what material the AI receives, or what deliverable it produces, so no
+    concrete job can be written.
+  pain: 没有任何公开事实描述旧流程、人工成本或用户抱怨，痛点无法还原；仅有 AI-native 定位与融资，不构成痛点证据。
+  pain_en: No public fact describes the legacy workflow, labour cost or user complaint, so the pain cannot
+    be reconstructed; an AI-native label and a funding round are not pain evidence.
+  current_alternative: 公开材料未提及此前由谁、用什么工具完成同类制作工作，现有替代方式完全未知。
+  current_alternative_en: Public material does not mention who previously did this production work or
+    with what tools; the current alternative is entirely unknown.
+  usage_reason: 缺少产品能力、输入输出与采用证据，无法解释用户为何选择它而非旧做法；这是事实缺口，不是推断。
+  usage_reason_en: With no product capability, input/output or adoption evidence, there is no basis to
+    explain why users would choose it over the old approach; this is a factual gap, not an inference.

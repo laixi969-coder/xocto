@@ -1,0 +1,83 @@
+- id: req-initial-ai-startup-flam-raises-40-million-in-series-b-led-by-qed-inv-2026-09-15
+  project_slug: ai-startup-flam-raises-40-million-in-series-b-led-by-qed-inv
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开材料还原，缺少旧流程与交付描述，价值关证据不足。
+    evidence_ids:
+    - ev-32335c1c7b07df88
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有用户、客户或社区采用信号可判断共识。
+    evidence_ids:
+    - ev-32335c1c7b07df88
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径未披露，仅有投资方信息。
+    evidence_ids:
+    - ev-32335c1c7b07df88
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-32335c1c7b07df88
+  next_validation: 收集 Flam 官方产品页或定价页，确认其面向的具体客户、内容交付物与收费方式。
+  market: ''
+  job: 品牌或营销团队在筹备互动内容与活动物料时，需要处理创意素材与投放内容，并按时产出可发布的成品。
+  job_en: Brand or marketing teams preparing interactive content and campaign assets need to handle creative
+    material and publishable content, and deliver finished pieces on schedule.
+  pain: 公开材料没有说明它替代了哪一步旧工作，也没有用户抱怨或人工成本描述，痛点无法从现有事实还原。
+  pain_en: Public material does not say which old step it replaces, and there is no user complaint or
+    labour-cost description, so the pain cannot be reconstructed from available facts.
+  current_alternative: 公开材料未提及现有替代方式，无法确认此前由谁、用什么工具完成同类内容制作。
+  current_alternative_en: Public material mentions no existing alternative, so it is impossible to confirm
+    who previously produced this content and with what tools.
+  usage_reason: 仅有融资金额与投资方，缺少产品能力、输入输出与采用证据，无法解释用户为何选择它；这是事实缺口，不是推断。
+  usage_reason_en: Only the funding amount and investors are available, with no product capability, input/output
+    or adoption evidence, so there is no basis to explain why users would choose it; this is a factual
+    gap, not an inference.
+- id: req-full-ai-startup-flam-raises-40-million-in-series-b-led-by-qed-inv-2026-09-15
+  project_slug: ai-startup-flam-raises-40-million-in-series-b-led-by-qed-inv
+  level: full
+  reviewed_at: '2026-09-15T01:04:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只说明这是一家 AI 初创公司并完成 4000 万美元 B 轮融资，未披露它让谁在什么内容制作节点打开、AI 接收什么素材、产出什么交付物，连需求与痛点都无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-920edcd1d1c09d41
+    - ev-cea7be6051556a33
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Flam 官方产品页或定价页（含官网域名与产品说明），确认其面向的具体客户、内容交付物与收费方式。
+  market: ''
+  job: 公开材料只说明这是一家 AI 初创公司并完成 4000 万美元 B 轮融资，未披露谁在什么内容制作节点打开它、AI 接收什么素材、产出什么交付物，因此无法写出具体使用场景。
+  job_en: Public material only shows an AI startup that closed a $40M Series B; it does not disclose who
+    opens it at which content-production step, what material the AI receives, or what it delivers, so
+    no concrete job can be stated.
+  pain: 没有公开材料说明它替代了哪一步旧工作、谁因此受损或耗时，痛点无法从现有事实还原。
+  pain_en: No public material states which prior step it replaces or who is harmed or slowed by the old
+    way, so the pain cannot be reconstructed from available facts.
+  current_alternative: 公开材料未提及任何现有替代方式，无法确认此前由谁、用什么工具完成同类内容制作。
+  current_alternative_en: Public material mentions no existing alternative, so it is impossible to confirm
+    who previously produced this content and with what tools.
+  usage_reason: 仅有融资金额与投资方，缺少产品能力、输入输出与采用证据，无法解释用户为何选择它；这是事实缺口，不是推断。
+  usage_reason_en: Only the funding amount and investors are available, with no product capability, input/output
+    or adoption evidence, so there is no basis to explain why users would choose it; this is a factual
+    gap, not an inference.

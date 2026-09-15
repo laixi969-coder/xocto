@@ -21,7 +21,7 @@ canonical_url: https://thevidmarket.com
 summary: Exploring the intersection of prediction markets and social media
 first_seen: '2026-09-14T01:14:25Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

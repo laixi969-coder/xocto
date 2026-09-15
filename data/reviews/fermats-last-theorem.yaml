@@ -384,3 +384,44 @@
   usage_reason_en: 'No usage reason can be given: with no feature description, inputs/outputs, docs, or
     user feedback, it is impossible to explain which step it removes or which checkable result it improves
     versus any prior approach.'
+- id: req-full-fermats-last-theorem-2026-09-15
+  project_slug: fermats-last-theorem
+  level: full
+  reviewed_at: '2026-09-15T01:05:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有仓库名与星标数，未披露功能、输入输出或使用场景，无法写出用户任务、痛点、不采用代价与当前替代方式，连需求结构都无法还原。
+    evidence_ids:
+    - ev-f7d50506c9276a98
+    - ev-6f305645fe4c0ba1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、文档、issue 与 discussion，确认其实际功能、输入输出与使用场景后再判断需求。
+  market: ''
+  job: 公开材料仅显示这是 Anthropic 发布、以费马大定理命名的代码仓库，未披露任何 README、文档或功能说明，因此无法写明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public materials only show an Anthropic-published repository named after Fermat's Last Theorem,
+    with no README, docs, or feature description, so it is impossible to state who handles what material
+    in what situation to complete what task.
+  pain: 没有任何公开材料说明用户痛点、不解决的后果或发生频率；仓库名称本身不构成痛点证据。
+  pain_en: No public material describes user pain, the consequence of not solving it, or its frequency;
+    the repository name alone is not pain evidence.
+  current_alternative: 公开材料未说明用户目前如何完成相关工作，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently do the related work or what
+    prior approach this repository replaces.
+  usage_reason: 仅有星标数从 964 增至 1,158 的关注度记录，没有功能说明、使用反馈或客户案例，无法解释用户为何选择它而非现有做法。
+  usage_reason_en: Only star counts rising from 964 to 1,158 are recorded; with no feature description,
+    user feedback, or customer case, there is no basis to explain why users would choose it over existing
+    approaches.

@@ -84,3 +84,54 @@
     loop, removing repeated measuring and trial-and-error, so engineers taking over an unfamiliar frontend
     repo who need a checkable score gain would try it; no user feedback or adoption evidence is public
     yet.'
+- id: req-full-makefasterdev-2026-09-15
+  project_slug: makefasterdev
+  level: full
+  reviewed_at: '2026-09-15T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是前端加载慢的定位与改动需求：工程师要逐项测指标、改代码、再复测，重复试错多；作者自述为 200 个仓库的提速循环投入约 1 万美元 API 成本，说明该循环本身昂贵，人工逐仓库做代价更高。交付以
+      Lighthouse 分数为可核对目标，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-2a7c98bd103123c7
+    - ev-fd7c3ec607eaa167
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有作者自述的 200 个仓库循环与约 1 万美元 API 投入，属投入与关注度证据；没有维护者、团队或外部用户持续采用该服务的记录，也没有评价或复购信号，无法判断是否形成共识。
+    evidence_ids:
+    - ev-2a7c98bd103123c7
+    - ev-fd7c3ec607eaa167
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径；作者自述的 1 万美元是 API 成本投入而非收入，买方是开源维护者、企业前端团队还是托管服务订阅方，公开材料未说明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-2a7c98bd103123c7
+  - gate: truth
+    status: insufficient
+    reason: 以 Lighthouse 分数作为可核对结果方向合理，但公开材料未说明改动以补丁、报告还是托管服务交付，也未说明由谁复核合并、自动改动引入回归时如何回退，交付确定性与人工边界待核。
+    evidence_ids:
+    - ev-2a7c98bd103123c7
+    - ev-fd7c3ec607eaa167
+  next_validation: 追踪 makefaster.dev 官网与关联仓库的公开页面，确认它交付的是补丁、报告还是托管服务，以及是否出现维护者采纳记录或定价信息。
+  market: ''
+  job: 前端或性能工程师在接手一个加载偏慢、已有前端代码的开源仓库时，把仓库交给 Makefaster.dev，由自动研究循环反复改动代码并对照 Lighthouse 分数，最终拿到提速后的改动结果。
+  job_en: A frontend or performance engineer who takes over a slow-loading open-source repo hands it to
+    Makefaster.dev, which runs autoresearch loops that repeatedly edit the code against the Lighthouse
+    score, and receives the sped-up result.
+  pain: 性能优化要逐项测指标、改代码、再复测，重复试错多且耗时；作者自述为跑通 200 个仓库的前端提速循环投入约 1 万美元 API 成本，说明这类循环本身昂贵，人工逐仓库做同样的事代价更高。
+  pain_en: Performance work means measuring metrics, editing code and re-measuring over and over; the
+    author reports spending about $10k in API costs to run the loop across 200 frontend repos, showing
+    the loop itself is expensive and doing it by hand per repo costs even more.
+  current_alternative: 工程师通常用 Lighthouse、WebPageTest 等工具手工定位瓶颈，再自行改代码并复测，或依赖人工性能评审与经验规则。
+  current_alternative_en: Engineers typically use Lighthouse or WebPageTest to locate bottlenecks by hand,
+    then edit code and re-measure themselves, or rely on manual performance reviews and rule-of-thumb
+    heuristics.
+  usage_reason: 推断：相较手工逐项排查，它把“测量—改动—复测”整段循环自动化，用 Lighthouse 分数作为可核对的收敛目标，省掉反复手动测量与试错这一步；因此面对大量待优化仓库、又缺少专职性能人力的前端团队会在需要批量提速时选择它。公开材料尚无用户反馈或采纳记录，动机属结构推断。
+  usage_reason_en: 'Inference: versus manual item-by-item diagnosis, it automates the whole measure-edit-remeasure
+    loop and uses the Lighthouse score as a checkable convergence target, removing repeated manual measuring
+    and trial-and-error; so frontend teams facing many repos to optimize without dedicated performance
+    staff would pick it when they need batch speedups. No user feedback or adoption record is public,
+    so the motive is a structural inference.'

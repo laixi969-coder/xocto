@@ -336,3 +336,44 @@
   usage_reason_en: 'The task is: Claims to add skills to an AI assistant, but install asks you to turn
     off antivirus and run a setup file as administrator. Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-agent-skills-collection-2026-09-15
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-09-15T01:04:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 release 说明，确认安装流程是否仍要求关闭杀毒与管理员权限，以及是否有用户反馈实际使用与重复安装。
+  market: ''
+  job: 想让 AI 助手获得额外技能的开发者，在本地安装这个技能集合时，需要按说明关闭杀毒软件并以管理员权限运行安装包，才能把技能装进助手。
+  job_en: A developer who wants to give an AI assistant extra skills must, when installing this skill
+    collection locally, follow instructions to disable antivirus and run the setup file as administrator
+    before the skills are added.
+  pain: 公开材料只给出安装方式本身（关杀毒、管理员权限），没有用户抱怨、issue 或案例说明这种安装带来的实际损失、发生频率或后果；痛点强度无法从公开事实还原。
+  pain_en: The public material only states the install method itself (disable antivirus, run as administrator);
+    no user complaints, issues or cases show the actual loss, frequency or consequence, so pain intensity
+    cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者此前如何为助手添加技能，可能是手工复制提示词或配置文件，均未在候选资料中出现。
+  current_alternative_en: Public material does not say how developers previously added skills to assistants,
+    possibly copying prompts or config files by hand; neither appears in the candidate data.
+  usage_reason: 推断：若安装真能一键把技能接入助手，省掉手工整理提示词这一步，会吸引想快速试用的开发者；但要求关杀毒、提权本身是采用阻力，且没有留存或复购证据，无法确认用户会把它留在工作流里。
+  usage_reason_en: 'Inference: if installation really wires skills into the assistant in one step, it
+    removes the manual prompt-curation step and would attract developers wanting a quick trial; but requiring
+    antivirus off and elevation is itself adoption friction, and with no retention or repeat-use evidence,
+    staying in the workflow cannot be confirmed.'

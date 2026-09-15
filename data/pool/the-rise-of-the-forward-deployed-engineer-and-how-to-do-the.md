@@ -22,7 +22,7 @@ summary: Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built
   pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.
 first_seen: '2026-09-12T15:01:19Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

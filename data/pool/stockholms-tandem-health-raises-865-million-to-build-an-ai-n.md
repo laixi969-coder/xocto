@@ -1,7 +1,6 @@
 ---
 slug: stockholms-tandem-health-raises-865-million-to-build-an-ai-n
-name: Stockholm’s Tandem Health raises €86.5 million to build an AI-native operating system for European
-  healthcare
+name: Tandem Health
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Stockholm’s Tandem Health raises €86.5 million to build an AI-nativ
   healthcare EU-Startups
 first_seen: '2026-09-14T06:21:04Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Stockholm’s Tandem Health raises €86.5 million to build an AI-native operating system for European healthcare
+# Tandem Health
 
 Stockholm’s Tandem Health raises €86.5 million to build an AI-native operating system for European healthcare EU-Startups
 

@@ -1,6 +1,6 @@
 ---
 slug: 打通ai落地最后一公里六联智能fde学院于深圳正式成立
-name: 打通AI落地最后一公里，六联智能FDE学院于深圳正式成立
+name: 六联智能FDE学院
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE40LVJiVnd0TEt5
 summary: 打通AI落地最后一公里，六联智能FDE学院于深圳正式成立 t.cj.sina.cn
 first_seen: '2026-09-13T04:42:56Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 打通AI落地最后一公里，六联智能FDE学院于深圳正式成立
+# 六联智能FDE学院
 
 打通AI落地最后一公里，六联智能FDE学院于深圳正式成立 t.cj.sina.cn
 

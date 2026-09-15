@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/appdesigns
 summary: Design amazing appstore screenshots for free
 first_seen: '2026-09-14T00:19:15Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

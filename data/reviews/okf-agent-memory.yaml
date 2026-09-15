@@ -380,3 +380,45 @@
     memory as Git-native markdown and retrieves it via an embedded MCP server with in-memory BM25, cutting
     context-reading steps and token use, so developers on large repos who care about context cost and
     versioned memory would pick it for long tasks.'
+- id: req-full-okf-agent-memory-2026-09-15
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-15T01:06:48Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只描述 OKF 是通用 markdown 知识格式，未记录代理失忆或重复解释上下文的具体痛点、频率与不解决后果，也未见用户替代行为，无法还原需求强度。
+    evidence_ids:
+    - ev-e54e2205a24adb8b
+    - ev-0d4471b725eabcf0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OKF Agent Memory 官方仓库的 README、issue 与 discussion，确认是否有开发者描述代理失忆场景、替代的旧流程及实际部署记录。
+  market: ''
+  job: AI 编程助手用户或软件工程师在跨会话、跨代理继续同一代码库任务时，需要让代理读取项目历史与既有约定，以完成不重复解释上下文的编码任务。
+  job_en: AI coding assistant users or software engineers continuing work on the same codebase across
+    sessions and agents need the agent to read project history and existing conventions to complete coding
+    tasks without re-explaining context.
+  pain: 公开材料只说明 OKF 是一种以 markdown 加 YAML frontmatter 表示知识的通用格式，未记录代理失忆、重复解释上下文或 token 浪费的具体用户痛点、频率与后果。
+  pain_en: Public materials only describe OKF as a universal markdown-plus-YAML-frontmatter knowledge
+    format; they do not record concrete user pain, frequency, or consequences of agent amnesia, repeated
+    context explanation, or token waste.
+  current_alternative: 公开材料未说明开发者目前如何为代理保留项目记忆，也未记录任何既有替代行为或 workaround。
+  current_alternative_en: Public materials do not show how developers currently preserve project memory
+    for agents, nor any existing alternative behavior or workaround.
+  usage_reason: 推断：若记忆以 Git 原生 markdown 存储并经 MCP 检索，用户可省去每次会话重述项目约定的步骤；但公开材料未提供任何用户采用、反馈或案例，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if memory is stored as Git-native markdown and retrieved via MCP, users
+    could skip restating project conventions each session; however, public materials provide no adoption,
+    feedback, or case evidence to confirm which users would choose it.'

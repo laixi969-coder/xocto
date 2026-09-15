@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxPMUN1MnFMb3ZM
 summary: AI时代，看数字体育多元形态 新华网客户端
 first_seen: '2026-09-13T01:32:57Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

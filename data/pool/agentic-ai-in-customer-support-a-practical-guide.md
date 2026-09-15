@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTE9MVFVaZW9HTUpV
 summary: 'Agentic AI in Customer Support: A Practical Guide RS Web Solutions'
 first_seen: '2026-09-13T20:23:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

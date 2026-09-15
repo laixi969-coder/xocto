@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/memorypet
 summary: Turn your browsers toolbar into an animated usage monitor
 first_seen: '2026-09-11T17:54:42Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

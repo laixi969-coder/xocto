@@ -164,3 +164,48 @@
     could skip rebuilding them each time; but the public material only has a repo positioning line and
     star counts, with no adoption, reuse or customer feedback evidence, so it cannot explain which users
     would choose it over existing tutorials.'
+- id: req-full-reelbench-skills-2026-09-15
+  project_slug: reelbench-skills
+  level: full
+  reviewed_at: '2026-09-15T01:07:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 视频提示词与参数零散、每次重拼的问题，但公开材料只有一句定位描述，未说明输入、产出与替代旧流程的哪一步，痛点刚性与交付确定性都无法还原，属自嗨拼凑。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+    - ev-7c16d1bf5b7eaeb4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该仓库 README 与 issue/discussion 列表，确认它实际替代的视频制作步骤、输入材料与产出物。
+  market: ''
+  job: 视频创作者与剪辑师在准备 AI 视频生成或后期流程时，处理提示词、模型参数与工具调用步骤这类零散材料，要完成把一次可用的生成流程固定下来、下次能重复调用的任务。
+  job_en: Video creators and editors preparing an AI video generation or post-production workflow handle
+    scattered prompts, model parameters and tool-call steps, aiming to fix a working generation flow so
+    it can be reused next time.
+  pain: 公开材料只给出“学习笔记与工具 skill”的定位，没有说明创作者原本卡在哪一步、失败代价是什么；从结构上看，提示词与参数散落在教程、聊天记录和个人笔记里，每次换项目都要重新拼装，但这一痛点是否刚性、是否值得单独采用一个仓库，公开证据无法支撑。
+  pain_en: The public material only positions it as learning notes and tooling skills and never states
+    which step creators were stuck on or what failure costs; structurally, prompts and parameters are
+    scattered across tutorials, chat logs and personal notes and must be reassembled for each project,
+    but the public evidence cannot support that this pain is rigid or worth adopting a separate repository
+    for.
+  current_alternative: 创作者自行收集提示词、看教程、在多个生成工具之间手动搬运参数，或把笔记留在个人文档与聊天记录里。
+  current_alternative_en: Creators collect prompts themselves, watch tutorials, manually move parameters
+    between generation tools, or keep notes in personal documents and chat logs.
+  usage_reason: 推断：若这些 skill 能把提示词与参数固化成可重复调用的步骤，创作者可省去每次从零拼装；但公开材料只有一句定位描述，没有说明输入什么、产出什么、替代旧流程的哪一步，也没有任何采用、复用或反馈证据，因此无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if these skills fix prompts and parameters into repeatable steps, creators
+    would avoid rebuilding them from scratch; but the public material offers only a one-line positioning
+    statement with no input, output, or replaced step, and no adoption, reuse or feedback evidence, so
+    it cannot be confirmed which users would choose it and when.'

@@ -237,3 +237,52 @@
     and style, calling AI visuals and draw.io workflows for diagrams, cutting the layout and illustration
     steps; consultants and researchers who present often and need a still-editable deliverable would choose
     it in that situation.'
+- id: req-full-codex-ppt-style-expanded-2026-09-15
+  project_slug: codex-ppt-style-expanded
+  level: full
+  reviewed_at: '2026-09-15T01:05:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决咨询顾问与研究人员把调研笔记、数据整理成可编辑演示文稿的需求，痛点是排版配图分散、AI 成稿不可编辑需重做；公开说明已能还原输入、动作与交付闭环，属工作流结构推理，痛点刚性与交付确定性成立。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-a021a965025e525b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 57 增至 86，说明开发者持续关注，但收藏与关注只属规模信号，公开材料没有用户评价、案例或重复使用记录，无法证明目标用户已把它留在工作流里。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-a021a965025e525b
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费主体或采购记录；谁付钱尚不清，按判断可能是顾问个人或团队自建，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有仓库描述与收藏数，未见部署文档、可复现实测或 issue 讨论，交付能否稳定生成可编辑幻灯片、AI 配图与 draw.io 图形是否可靠，尚缺可核对证据。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-e1fc08b366c74868
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认实际输入格式、生成结果是否可编辑，以及是否有用户公开报告在客户汇报场景中的部署与替代旧流程。
+  market: ''
+  job: 咨询顾问或研究人员在准备客户汇报或研究分享时，把调研笔记、图表与数据交给 Codex，生成一套按受众与风格定制、可继续手工编辑的演示文稿，并配套 AI 配图与 draw.io 图形。
+  job_en: Consultants or researchers preparing client or research presentations hand research notes, charts
+    and data to Codex to produce an audience- and style-aware, still-editable slide deck with AI visuals
+    and draw.io diagrams.
+  pain: 公开材料只给出产品定位，未记录用户抱怨；从工作流结构推理，痛点是调研笔记、数据与图形分散在多个工具中，成稿需人工逐页排版与配图，且 AI 生成结果常不可编辑、需推倒重来。
+  pain_en: Public materials record no user complaints; by workflow inference the pain is that notes, data
+    and diagrams live in separate tools, decks must be laid out and illustrated page by page, and AI output
+    is often non-editable, forcing rework.
+  current_alternative: 公开材料未说明现有做法；结构上可推断为手工在 PowerPoint/Keynote/Google Slides 中排版，或用通用 AI 生成不可编辑的幻灯片后再人工重做。
+  current_alternative_en: Public materials do not state the current practice; structurally it is manual
+    layout in PowerPoint/Keynote/Google Slides, or generic AI slide generation that yields non-editable
+    output requiring manual redo.
+  usage_reason: 推断：相较手工逐页排版或通用 AI 出图后重做，它把调研笔记与数据直接作为输入，按受众与风格一次生成可编辑幻灯片并调用 AI 配图与 draw.io 图形，省去从零排版与图形重绘的步骤，因此需要反复改稿的顾问与研究人员会在客户汇报前选择它。
+  usage_reason_en: 'Inference: versus manual page-by-page layout or generic AI output that must be redone,
+    it takes research notes and data as input and generates editable slides with AI visuals and draw.io
+    diagrams in one pass, removing from-scratch layout and diagram redrawing, so consultants and researchers
+    who iterate on decks would choose it before client presentations.'

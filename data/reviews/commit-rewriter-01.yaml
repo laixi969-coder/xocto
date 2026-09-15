@@ -1,0 +1,89 @@
+- id: req-initial-commit-rewriter-01-2026-09-15
+  project_slug: commit-rewriter-01
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布前提交历史含私有编号与代理杂乱内容的问题，痛点具体，旧做法是逐条 rebase，不清理会随发布暴露。
+    evidence_ids:
+    - ev-ddc889c04e4d7f4f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有作者自述的使用场景，没有其他维护者的采用、评价或重复使用证据。
+    evidence_ids:
+    - ev-ddc889c04e4d7f4f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是个人维护者或企业团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ddc889c04e4d7f4f
+  - gate: truth
+    status: supported
+    reason: 改写前自动建时间戳分支可回退，改写范围由用户逐条确认，交付边界清楚，未发现夸大承诺。
+    evidence_ids:
+    - ev-ddc889c04e4d7f4f
+  next_validation: 收集该仓库的 issue、discussion 或独立用户评价，确认是否有维护者在真实发布流程中重复使用它。
+  market: ''
+  job: 开源维护者在把仓库对外发布或开源前，面对编码代理生成、含私有 issue 编号的提交历史，需要把它改写成可公开的提交信息。
+  job_en: Before publishing or open-sourcing a repository, an open-source maintainer faces a commit history
+    written by coding agents and containing private issue IDs, and needs to rewrite it into publishable
+    commit messages.
+  pain: 逐条 git rebase 改写提交信息既慢又容易改错，且一旦出错难以回退；不改则私有编号和代理杂乱内容会随发布暴露。
+  pain_en: Rewriting messages one by one with git rebase is slow and error-prone, and mistakes are hard
+    to undo; not rewriting exposes private IDs and agent cruft with the release.
+  current_alternative: 手工 git rebase -i 逐条编辑，或直接放弃清理、带着杂乱提交信息发布。
+  current_alternative_en: Manually editing each commit with git rebase -i, or giving up and publishing
+    with the messy messages.
+  usage_reason: 相较逐条 rebase，它在网页里集中编辑多条提交信息，并在改写前自动建一个带时间戳的分支用于回退，把“改错就回不去”这一步负担去掉，因此经常发布开源仓库、又用编码代理写代码的维护者会在发布前选择它（推断）。
+  usage_reason_en: Compared with one-by-one rebase, it edits many commit messages in one web page and
+    automatically creates a timestamped branch for rollback before rewriting, removing the 'cannot undo
+    a bad edit' burden, so maintainers who publish repositories often and code with agents are likely
+    to reach for it before a release (inference).
+- id: req-full-commit-rewriter-01-2026-09-15
+  project_slug: commit-rewriter-01
+  level: full
+  reviewed_at: '2026-09-15T01:05:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布前提交历史含私有 issue 编号与代理杂乱内容的问题，痛点具体；旧做法是逐条 rebase，不清理会随发布暴露内部引用。这是基于公开说明的工作流结构推理。
+    evidence_ids:
+    - ev-ddc889c04e4d7f4f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有作者自述的使用场景，没有其他维护者的采用、评价或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ddc889c04e4d7f4f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是个人维护者或企业团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ddc889c04e4d7f4f
+  - gate: truth
+    status: supported
+    reason: 改写前自动建时间戳分支可回退，改写范围由用户逐条确认，交付边界清楚，未发现夸大承诺。
+    evidence_ids:
+    - ev-ddc889c04e4d7f4f
+  next_validation: 追踪该项目的公开仓库 issue、discussion 或独立用户评价，确认是否有维护者在真实发布流程中重复使用它。
+  market: ''
+  job: 开源维护者在把仓库对外发布或开源前，面对编码代理生成、夹杂私有 issue 编号的提交历史，需要把提交信息逐条改写成可公开的版本。
+  job_en: Before publishing or open-sourcing a repository, an open-source maintainer faces a commit history
+    written by coding agents and salted with private issue IDs, and needs to rewrite the commit messages
+    into publishable form.
+  pain: 编码代理留下的提交信息杂乱且引用私有仓库 issue 编号，直接发布等于泄露内部信息；用 git rebase -i 逐条改写既慢又易错，改错后难以回退。
+  pain_en: Agent-generated commit messages are noisy and cite private-repo issue IDs, so publishing as-is
+    leaks internal references; rewriting each one with git rebase -i is slow, error-prone, and hard to
+    undo.
+  current_alternative: 手工 git rebase -i 逐条编辑提交信息，或干脆不清理、带着杂乱信息发布。
+  current_alternative_en: Manually editing each commit with git rebase -i, or skipping cleanup and publishing
+    with the messy messages.
+  usage_reason: 相较逐条 rebase，它在网页里集中编辑多条提交信息，并在改写前自动创建带时间戳的分支用于回退，去掉了“改错就回不去”这一步负担，因此频繁发布开源仓库、又用编码代理写代码的维护者会在发布前选择它（推断）。
+  usage_reason_en: Compared with one-by-one rebase, it edits many commit messages in a single web page
+    and automatically creates a timestamped branch for rollback before rewriting, removing the 'cannot
+    undo a bad edit' burden, so maintainers who publish repositories often and code with agents are likely
+    to reach for it before a release (inference).

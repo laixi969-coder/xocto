@@ -1,6 +1,6 @@
 ---
 slug: shot-scraper-112
-name: shot-scraper 1.12
+name: shot-scraper
 builder: ''
 category: ''
 summary_zh: ''
@@ -27,7 +27,7 @@ summary: "Release:   shot-scraper 1.12  \n         I've added WebP support to my
   \  \n    \n         Tags:  playwright ,  shot-scraper"
 first_seen: '2026-09-13T23:58:14Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -38,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# shot-scraper 1.12
+# shot-scraper
 
 Release:   shot-scraper 1.12  
          I've added WebP support to my  shot-scraper  screenshot automation tool. You can now take a WebP screenshot of a web page like this: 

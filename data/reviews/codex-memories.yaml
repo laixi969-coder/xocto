@@ -1,0 +1,93 @@
+- id: req-initial-codex-memories-2026-09-15
+  project_slug: codex-memories
+  level: initial
+  reviewed_at: '2026-09-15T00:38:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨会话上下文丢失、每次重述约定的痛点，旧做法是手工粘贴与项目说明文件，结构上成立；属工作流推理。
+    evidence_ids:
+    - ev-44911248a3f6af0b
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 102 星与 2 次 fork，属关注度信号，未见用户评价或团队采用案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-44911248a3f6af0b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，本地优先、私有部署可能面向个人开发者或团队，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-44911248a3f6af0b
+  - gate: truth
+    status: insufficient
+    reason: 召回准确性与记忆治理效果缺少可复现实测，也未说明人工确认边界，交付确定性尚未核验。
+    evidence_ids:
+    - ev-44911248a3f6af0b
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认其召回机制说明、可复现实测结果及是否出现团队采用或付费部署的公开记录。
+  market: ''
+  job: 软件开发工程师在同一个代码库上分多次使用 Codex 改代码时，需要把前几次会话里已经确认的约定、文件结构和修改意图带进新会话，让模型接着往下改。
+  job_en: A software developer using Codex across multiple sessions on the same codebase needs the conventions,
+    file structure and change intent settled in earlier sessions to carry into a new session so the model
+    can continue editing.
+  pain: 编码助手默认不保留跨会话上下文，开发者每次都要重新粘贴文件、重述约定，长任务里重复交代的成本高，且容易漏掉之前定下的约束。
+  pain_en: Coding assistants do not keep cross-session context by default, so developers re-paste files
+    and restate conventions each time; on long tasks this repetition is costly and previously agreed constraints
+    are easily dropped.
+  current_alternative: 旧做法是手工维护项目说明文件、把关键上下文粘进每次提示，或依赖编辑器与仓库里已有的文档；也有人干脆把长任务压缩在一次会话里做完。
+  current_alternative_en: The old approach is hand-maintained project notes, pasting key context into
+    every prompt, or relying on existing editor and repository documentation; some simply compress long
+    tasks into a single session.
+  usage_reason: 相较每次手工重述上下文，它把历史会话与项目信息落到本地并按受控规则召回，减少重新交代约定这一步，且不把代码送进托管向量库；推断，对数据不能出本机、又需要跨会话连续改代码的开发者更有吸引力。
+  usage_reason_en: Compared with restating context by hand each time, it stores past sessions and project
+    information locally and recalls them under governed rules, removing the step of re-explaining conventions
+    and avoiding a hosted vector database; this is an inference, and it appeals most to developers whose
+    code cannot leave the machine yet who need continuous cross-session editing.
+- id: req-full-codex-memories-2026-09-15
+  project_slug: codex-memories
+  level: full
+  reviewed_at: '2026-09-15T01:05:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨会话上下文丢失、每次重述约定的痛点，旧做法是手工粘贴与项目说明文件，不解决的后果是重复交代与约束遗漏；属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-44911248a3f6af0b
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 102 星，属关注度信号，未见用户评价、issue 讨论或团队采用案例，无法判断是否在开发者中形成持续使用共识。
+    evidence_ids:
+    - ev-44911248a3f6af0b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，本地优先、无托管向量库的形态可能面向个人开发者或团队私有部署，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-44911248a3f6af0b
+  - gate: truth
+    status: insufficient
+    reason: 召回准确性与记忆治理效果缺少可复现实测，也未说明人工确认边界，交付确定性尚未核验。
+    evidence_ids:
+    - ev-44911248a3f6af0b
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认其召回机制说明、可复现实测结果，以及是否出现团队采用或付费部署的公开记录。
+  market: ''
+  job: 软件开发工程师在同一个代码库上分多次使用 OpenAI Codex 改代码时，需要把前几次会话里已确认的命名约定、文件结构与修改意图带进新会话，让模型接着往下改而不是从零开始。
+  job_en: A software developer using OpenAI Codex across multiple sessions on the same codebase needs
+    the naming conventions, file structure and change intent settled in earlier sessions to carry into
+    a new session so the model continues editing instead of starting over.
+  pain: 编码助手默认不保留跨会话上下文，开发者每次都要重新粘贴文件、重述约定；长任务里重复交代成本高，且容易漏掉之前定下的约束，导致改错文件或推翻已确认方案。
+  pain_en: Coding assistants do not retain cross-session context by default, so developers re-paste files
+    and restate conventions each time; on long tasks this repetition is costly and earlier agreed constraints
+    are easily dropped, causing wrong-file edits or reversal of settled decisions.
+  current_alternative: 旧做法是手工维护 AGENTS.md 之类的项目说明文件、把关键上下文粘进每次提示，或依赖仓库里已有的文档；也有人把长任务压缩在一次会话里做完，避免跨会话。
+  current_alternative_en: The old approach is hand-maintained project notes such as AGENTS.md, pasting
+    key context into every prompt, or relying on existing repository documentation; some compress long
+    tasks into a single session to avoid crossing sessions.
+  usage_reason: 相较每次手工重述上下文，它把历史会话与项目信息写入本地存储，并在提问时按受控规则召回相关片段、逐步展开给模型，减少重新交代约定这一步，同时不把代码送进托管向量库；这是基于产品能力与任务结构的推断，对代码不能出本机、又需要跨会话连续改代码的开发者更有吸引力。
+  usage_reason_en: Compared with restating context by hand each time, it writes past sessions and project
+    information to local storage and recalls relevant fragments under governed rules, progressively disclosing
+    them to the model, removing the step of re-explaining conventions while avoiding a hosted vector database;
+    this is an inference from product capability and task structure, and it appeals most to developers
+    whose code cannot leave the machine yet who need continuous cross-session editin

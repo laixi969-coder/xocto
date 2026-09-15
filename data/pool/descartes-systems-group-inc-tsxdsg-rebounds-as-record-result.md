@@ -23,7 +23,7 @@ summary: Descartes Systems Group Inc. (TSX:DSG) Rebounds as Record Results and A
   Support Sentiment kalkine.ca
 first_seen: '2026-09-14T10:47:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

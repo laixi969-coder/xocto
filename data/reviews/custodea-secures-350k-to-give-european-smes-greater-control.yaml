@@ -1,0 +1,82 @@
+- id: req-initial-custodea-secures-350k-to-give-european-smes-greater-control-2026-09-15
+  project_slug: custodea-secures-350k-to-give-european-smes-greater-control
+  level: initial
+  reviewed_at: '2026-09-15T00:39:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只写了集中管理数据，未说明具体痛点、不解决的后果与旧做法，连需求都难以还原。
+    evidence_ids:
+    - ev-58de4ecf2512963a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且公开材料没有客户、采用或评价证据。
+    evidence_ids:
+    - ev-58de4ecf2512963a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立；仅有 35 万欧元种子轮融资，无定价或付费路径，存在靠融资续命的风险。
+    evidence_ids:
+    - ev-58de4ecf2512963a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立；AI 具体动作与交付结果均未披露，无法核对承诺能否确定交付。
+    evidence_ids:
+    - ev-58de4ecf2512963a
+  next_validation: 收集 Custodea 官方产品页或部署文档，确认它接入哪些系统、AI 执行什么动作以及交付形态。
+  market: ''
+  job: 欧洲中小企业主在业务数据分散在多个系统、需要集中查看和管理时，要完成数据归集与统一管理。
+  job_en: A European SME owner needs to consolidate and manage business data when it is scattered across
+    several systems and must be viewed in one place.
+  pain: 公开材料只说明数据分散需要集中管理，没有说明当前具体哪里难受、不解决会造成什么后果。
+  pain_en: The public material only says scattered data needs centralising; it does not say what specifically
+    hurts today or what happens if it is not solved.
+  current_alternative: 公开材料未说明中小企业现在用什么方式管理这些数据，无法确认旧做法。
+  current_alternative_en: The public material does not say how SMEs currently manage this data, so the
+    old behaviour cannot be confirmed.
+  usage_reason: 材料未披露 AI 具体接收什么、执行什么动作、交付什么结果，无法说明相较旧做法减少了哪一步负担，因此无法给出使用理由。
+  usage_reason_en: The material does not disclose what the AI receives, what it does or what it delivers,
+    so it is impossible to say which step of the old process it removes; no usage reason can be given.
+- id: req-full-custodea-secures-350k-to-give-european-smes-greater-control-2026-09-15
+  project_slug: custodea-secures-350k-to-give-european-smes-greater-control
+  level: full
+  reviewed_at: '2026-09-15T01:05:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决中小企业数据分散、需要集中查看管理的需求，但公开材料只重复“集中管理”，未说明具体痛点、不解决的后果与现有替代做法，痛点刚性无法还原，属自嗨式功能拼凑。
+    evidence_ids:
+    - ev-58de4ecf2512963a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Custodea 官网产品页或部署文档，确认它接入哪些系统、AI 执行什么动作以及交付形态。
+  market: ''
+  job: 欧洲中小企业主或运营管理者在业务数据散落在多个系统、需要集中查看和管理时，把企业已有业务数据交给 AI 做归集整理，最终拿到一个集中的数据视图。
+  job_en: A European SME owner or operations manager, when business data is scattered across several systems
+    and must be viewed and managed in one place, hands existing business data to the AI for consolidation
+    and ends up with a centralised data view.
+  pain: 公开材料只笼统说数据分散、需要集中管理，没有说明当前具体哪一步难受、出错或耗时，也没有说明不解决会造成什么后果，痛点强度无法还原。
+  pain_en: The public material only says data is scattered and needs centralising; it does not say which
+    step hurts, errs or wastes time today, nor what happens if it is not solved, so pain intensity cannot
+    be reconstructed.
+  current_alternative: 公开材料未说明中小企业现在用什么方式管理这些数据，是 Excel、ERP 自带报表还是人工汇总均不可知，旧替代行为无法确认。
+  current_alternative_en: The public material does not say how SMEs currently manage this data — Excel,
+    built-in ERP reports or manual consolidation are all unknown — so the old alternative cannot be confirmed.
+  usage_reason: 材料未披露 AI 具体接收什么数据、执行什么动作、交付什么形态，无法说明相较旧做法减少了哪一步负担，因此无法给出用户选择它的因果理由；这是事实缺口，不是推断。
+  usage_reason_en: The material does not disclose what data the AI receives, what it does or what form
+    it delivers, so it is impossible to say which step of the old process it removes; no causal usage
+    reason can be given. This is a factual gap, not an inference.

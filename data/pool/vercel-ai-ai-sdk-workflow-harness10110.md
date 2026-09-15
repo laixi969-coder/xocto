@@ -24,7 +24,7 @@ summary: '### Patch Changes
   - @ai-sdk/harness@1.0.110'
 first_seen: '2026-09-14T19:51:19Z'
 last_seen: '2026-09-15T00:38:44Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

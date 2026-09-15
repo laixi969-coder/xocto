@@ -1,0 +1,85 @@
+- id: req-initial-kairo-2026-09-15
+  project_slug: kairo
+  level: initial
+  reviewed_at: '2026-09-15T00:38:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决自建推理中失败被静默吞掉、难以排查的问题，痛点方向成立，但公开材料只有一句仓库自述，说不清谁在什么节点使用、交付什么结果。
+    evidence_ids:
+    - ev-1d4a3a7b08413a60
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区提交和 5 个点赞、0 条评论，没有采用、讨论或复现记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-1d4a3a7b08413a60
+  - gate: model
+    status: insufficient
+    reason: 开源项目没有定价页、客户或付费路径信息，钱从哪来完全未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1d4a3a7b08413a60
+  - gate: truth
+    status: insufficient
+    reason: 无法核对路由是否真的贴近推理可用性这一第一性目标，也没有部署文档或可复现实测来确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-1d4a3a7b08413a60
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认路由判据、失败关闭行为是否可复现，以及是否有团队报告实际接入。
+  market: ''
+  job: 自建推理服务的工程团队在本地或私有 GPU 上部署模型时，需要处理请求路由与失败处理，让不可用的推理请求明确失败而不是返回错误结果。
+  job_en: Engineering teams running self-hosted inference on local or private GPUs need to handle request
+    routing and failure handling so that unavailable inference requests fail explicitly instead of returning
+    wrong results.
+  pain: 自建推理时，路由和降级逻辑往往靠临时脚本或人工判断，失败被静默吞掉后很难定位，团队要花时间排查错误输出。
+  pain_en: With self-hosted inference, routing and fallback logic is often ad hoc, and silently swallowed
+    failures are hard to trace, forcing teams to spend time debugging wrong outputs.
+  current_alternative: 目前多由团队自己写路由脚本、用通用网关或人工监控 GPU 状态来绕过这个问题。
+  current_alternative_en: Today teams mostly work around this with self-written routing scripts, generic
+    gateways, or manual monitoring of GPU status.
+  usage_reason: 推断：它把 RTX 5090 上的实测延迟与失败数据直接变成路由判据，在无法确认可用时让请求失败关闭，从而减少事后排查错误输出这一步；但公开材料没有说明谁在什么场景下实际采用，因此这只是基于能力的判断，不是已验证的使用动机。
+  usage_reason_en: 'Inference: it turns measured latency and failure data from RTX 5090 hardware directly
+    into routing criteria and fails requests closed when availability cannot be confirmed, removing the
+    step of debugging wrong outputs after the fact; however, the public material does not show who actually
+    adopts it in which scenario, so this is a capability-based judgement, not a verified usage motive.'
+- id: req-full-kairo-2026-09-15
+  project_slug: kairo
+  level: full
+  reviewed_at: '2026-09-15T01:06:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决自建推理中失败被静默吞掉、难以排查的问题，痛点方向可辨；但公开材料只有一句仓库自述，说不清谁在什么节点使用、交付什么结果，需求与痛点均无法从公开事实还原。
+    evidence_ids:
+    - ev-185502b460ab2aef
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认路由判据、失败关闭行为是否可复现，以及是否有团队报告实际接入。
+  market: ''
+  job: 自建推理服务的工程团队在本地或私有 GPU 上部署模型时，处理请求路由与失败处理，让不可用的推理请求明确失败而不是返回错误结果。
+  job_en: Engineering teams running self-hosted inference on local or private GPUs handle request routing
+    and failure handling so unavailable requests fail explicitly instead of returning wrong results.
+  pain: 公开材料只有一句仓库自述，无法确认路由与失败关闭是否真的被团队使用，也说不清失败被静默吞掉这一痛点是否真实存在。
+  pain_en: Public material is limited to a one-line repository description, so it is unclear whether routing
+    and fail-closed behaviour is actually used by teams or whether silently swallowed failures are a real
+    pain.
+  current_alternative: 公开材料未说明团队当前用什么替代，只能推测为自写路由脚本或通用网关，缺乏可引用的旧做法证据。
+  current_alternative_en: Public material does not describe current alternatives; self-written routing
+    scripts or generic gateways are only speculation without citable evidence.
+  usage_reason: 推断：若实测延迟与失败数据能直接变成路由判据并在无法确认可用时失败关闭，可减少事后排查错误输出这一步；但公开材料没有采用、评价或复现记录，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if measured latency and failure data become routing criteria and requests
+    fail closed when availability is unconfirmed, the step of debugging wrong outputs afterwards is reduced;
+    but public material has no adoption, review or reproduction record, so which users would choose it
+    remains unconfirmed.'

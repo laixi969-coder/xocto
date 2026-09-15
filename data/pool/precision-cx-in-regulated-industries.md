@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE00TndxSXRYdFox
 summary: Precision CX in Regulated Industries Emerj Artificial Intelligence Research
 first_seen: '2026-09-14T10:12:51Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -88,3 +88,52 @@
     concept and module relationships; it suits engineers inheriting an unfamiliar repo or explaining AI
     changes to others. Yet how the graph is produced, whether it is accurate, and any sustained use remain
     unverified.'
+- id: req-full-learnlance-2026-09-15
+  project_slug: learnlance
+  level: full
+  reviewed_at: '2026-09-15T01:06:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 批量生成代码后开发者看不懂自己仓库、说不清改动依据的问题，痛点刚性来自提交即负债的维护与交接风险；公开自述已还原输入（AI 写的代码）、动作（反向抽成知识图谱）与交付（可浏览知识结构），属工作流结构推理，抽取方式与准确性仍待核验。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+    - ev-6b2d0418c0423685
+  - gate: consensus
+    status: insufficient
+    reason: 仅有项目自述与英文生态早期信号，没有用户评价、收藏或讨论说明它是否被纳入日常开发流程；中文生态检索未发现相关供给，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+    - ev-7c556cc165c07448
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、企业采购或赞助路径，买方是个人工程师还是团队属推断；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+  - gate: truth
+    status: insufficient
+    reason: 知识图谱若与真实代码语义不符反而误导理解，公开材料未提供准确性验证、人工确认环节或安全边界说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-8b24f25ec029aae8
+    - ev-6b2d0418c0423685
+  next_validation: 追踪 learnlance 仓库的 README、issue 与 discussion，确认知识图谱的生成方式、准确性验证与是否有团队使用案例。
+  market: ''
+  job: 软件工程师在让 AI 批量生成代码后，面对自己并未逐行读过的仓库，需要回看这些代码涉及哪些概念、模块与依赖关系，以便自己理解、交接或补文档。
+  job_en: After letting AI generate code in bulk, a software engineer facing a repo they never read line
+    by line needs to review which concepts, modules and dependencies the code touches, in order to understand
+    it, hand it over, or document it.
+  pain: AI 产出的代码量远超人工阅读速度，开发者容易只提交不理解，后续维护、交接或补文档时说不清改动依据；公开材料以“从 AI 写的代码反向建知识图谱”这一自述间接支持该痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: AI output outpaces human reading speed, so developers commit code they do not fully understand
+    and later cannot explain the changes during maintenance, handover or documentation; the public material
+    only indirectly supports this via the self-description of building a knowledge graph back from AI-written
+    code, with no direct user complaints or cases.
+  current_alternative: 人工翻看 diff、依赖 IDE 全局搜索与调用层级、事后补注释或文档，或干脆不梳理直接提交。
+  current_alternative_en: Manually reading diffs, relying on IDE global search and call hierarchies, writing
+    comments or docs after the fact, or simply committing without review.
+  usage_reason: 推断：相较逐文件人工梳理，它把代码反向抽成可浏览的知识结构，省掉手工追踪概念与模块关系这一步，因此接手陌生仓库或需向他人解释 AI 生成改动的工程师会在这种情况下选择它；但抽取方式、图谱准确性与是否被长期留在工作流中，公开材料均未说明。
+  usage_reason_en: 'Inference: versus tracing files by hand, it turns code back into a browsable knowledge
+    structure, removing the manual step of tracking concept and module relationships, so engineers inheriting
+    an unfamiliar repo or explaining AI-generated changes would pick it in that situation; yet extraction
+    method, graph accuracy and sustained workflow use are not stated in the public material.'

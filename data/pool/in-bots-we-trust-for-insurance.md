@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTFBNYVI1cS05ekVI
 summary: In Bots We Trust? For Insurance? carriermanagement.com
 first_seen: '2026-09-14T12:18:57Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: Office document preview, editing, and DOCX generation for DeepSeek Harn
   Office SDK.
 first_seen: '2026-09-02T09:40:48Z'
 last_seen: '2026-09-15T00:38:44Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

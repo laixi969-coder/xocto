@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwS0E0MlNqUFV0
 summary: AI营销头部公司观察：三条增长路径下，品牌该如何选对服务商 凤凰网
 first_seen: '2026-09-14T07:24:54Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ndlhSSjU0RTJI
 summary: 'Apply Now: $200,000 and Coaching for African AI Startups ICTworks'
 first_seen: '2026-09-14T04:30:34Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

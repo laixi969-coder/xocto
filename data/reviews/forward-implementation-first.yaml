@@ -28,18 +28,17 @@
   next_validation: 关注该开源项目的 issue 和讨论，看是否有用户报告实际使用效果或提出改进需求。
   market: ''
   job: 开发者使用 AI 编码代理时，希望代理快速产出可运行的代码，而不是陷入自我管理的记账、哈希、锁等仪式。
-  job_en: Developers using AI coding agents want agents to quickly produce runnable
-    code, not get stuck in self-invented bookkeeping, hashes, locks, and certification
-    rituals.
+  job_en: Developers using AI coding agents want agents to quickly produce runnable code, not get stuck
+    in self-invented bookkeeping, hashes, locks, and certification rituals.
   pain: 代理在编码过程中花费大量时间在自我验证和记账上，导致实际工作停滞，交付延迟。
-  pain_en: Agents spend significant time on self-verification and bookkeeping during
-    coding, stalling real work and delaying delivery.
+  pain_en: Agents spend significant time on self-verification and bookkeeping during coding, stalling
+    real work and delaying delivery.
   current_alternative: 目前开发者手动调整代理的提示词或工作流，或忍受代理的低效行为。
-  current_alternative_en: Currently developers manually adjust agent prompts or workflows,
-    or tolerate inefficient agent behavior.
+  current_alternative_en: Currently developers manually adjust agent prompts or workflows, or tolerate
+    inefficient agent behavior.
   usage_reason: 该技能包直接针对代理的常见低效行为，提供即插即用的解决方案，开源且免费，开发者容易尝试。
-  usage_reason_en: This skill pack directly targets common agent inefficiencies, offering
-    a plug-and-play solution, open-source and free, easy for developers to try.
+  usage_reason_en: This skill pack directly targets common agent inefficiencies, offering a plug-and-play
+    solution, open-source and free, easy for developers to try.
 - id: req-full-forward-implementation-first-2026-09-01
   project_slug: forward-implementation-first
   level: full
@@ -70,18 +69,17 @@
   next_validation: 关注该开源项目的 issue 和讨论，看是否有用户报告实际使用效果或提出改进需求。
   market: ''
   job: 开发者使用 AI 编码代理时，希望代理快速产出可运行的代码，而不是陷入自我管理的记账、哈希、锁等仪式。
-  job_en: Developers using AI coding agents want agents to quickly produce runnable
-    code, not get stuck in self-invented bookkeeping, hashes, locks, and certification
-    rituals.
+  job_en: Developers using AI coding agents want agents to quickly produce runnable code, not get stuck
+    in self-invented bookkeeping, hashes, locks, and certification rituals.
   pain: 代理在编码过程中花费大量时间在自我验证和记账上，导致实际工作停滞，交付延迟。
-  pain_en: Agents spend significant time on self-verification and bookkeeping during
-    coding, stalling real work and delaying delivery.
+  pain_en: Agents spend significant time on self-verification and bookkeeping during coding, stalling
+    real work and delaying delivery.
   current_alternative: 目前开发者手动调整代理的提示词或工作流，或忍受代理的低效行为。
-  current_alternative_en: Currently developers manually adjust agent prompts or workflows,
-    or tolerate inefficient agent behavior.
+  current_alternative_en: Currently developers manually adjust agent prompts or workflows, or tolerate
+    inefficient agent behavior.
   usage_reason: 该技能包直接针对代理的常见低效行为，提供即插即用的解决方案，开源且免费，开发者容易尝试。
-  usage_reason_en: This skill pack directly targets common agent inefficiencies, offering
-    a plug-and-play solution, open-source and free, easy for developers to try.
+  usage_reason_en: This skill pack directly targets common agent inefficiencies, offering a plug-and-play
+    solution, open-source and free, easy for developers to try.
 - id: req-full-forward-implementation-first-2026-09-05
   project_slug: forward-implementation-first
   level: full
@@ -113,19 +111,68 @@
   next_validation: 追踪 公开代码仓库 仓库的 issue 与 discussion 区，收集用户报告安装该技能后代理是否真的停止记账式停摆、效果对比或负面反馈。
   market: ''
   job: 开发者指挥 AI 编码代理完成任务时，希望代理持续推进实现、直接产出可运行代码，而不是停在自创的记账、哈希、锁与认证流程上。
-  job_en: Developers directing AI coding agents want the agent to push the implementation
-    through and produce runnable code, not stall on self-invented bookkeeping, hashes,
-    locks, and certification rituals.
+  job_en: Developers directing AI coding agents want the agent to push the implementation through and
+    produce runnable code, not stall on self-invented bookkeeping, hashes, locks, and certification rituals.
   pain: 仓库自述代理会停滞在自创记账与认证仪式上，浪费算力与时间、延迟交付；该痛点与代理用户手动改提示词绕过的旧流程吻合（属结构推理），独立用户抱怨记录尚未核验。
-  pain_en: The repo's own description says agents stall on self-invented bookkeeping
-    and certification rituals, wasting compute and time and delaying delivery; this
-    matches the old workaround of hand-tuning prompts (structural reasoning), while
-    independent user complaints remain unverified.
+  pain_en: The repo's own description says agents stall on self-invented bookkeeping and certification
+    rituals, wasting compute and time and delaying delivery; this matches the old workaround of hand-tuning
+    prompts (structural reasoning), while independent user complaints remain unverified.
   current_alternative: 开发者在系统提示词或 CLAUDE.md 中手写规则约束代理，或反复打断纠正其自创流程，或直接忍受低效行为。
-  current_alternative_en: Developers hand-write rules in system prompts or CLAUDE.md,
-    repeatedly interrupt and correct the agent's invented rituals, or simply tolerate
-    the inefficiency.
+  current_alternative_en: Developers hand-write rules in system prompts or CLAUDE.md, repeatedly interrupt
+    and correct the agent's invented rituals, or simply tolerate the inefficiency.
   usage_reason: 免费开源、即装即用，直接对准常见低效行为；星标约一周由 152 升至 163 显示关注与试用意愿——这是关注信号，不等于付费或留存。
-  usage_reason_en: It is free, open source, and plug-and-play, directly targeting
-    a common inefficiency; stars rose from 152 to 163 in about a week, showing attention
-    and willingness to try—attention only, not payment or retention.
+  usage_reason_en: It is free, open source, and plug-and-play, directly targeting a common inefficiency;
+    stars rose from 152 to 163 in about a week, showing attention and willingness to try—attention only,
+    not payment or retention.
+- id: req-full-forward-implementation-first-2026-09-15
+  project_slug: forward-implementation-first
+  level: full
+  reviewed_at: '2026-09-15T01:05:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理把运行时间耗在自创记账、哈希、锁、认证仪式上、真实实现被推迟的问题；开发者当前靠手动改提示词或中途打断来绕过，不解决的后果是交付延迟与 token 浪费。仓库说明已给出输入（编码任务）、动作（注入先实现后验证规则）、交付（可运行代码），属工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-f467d3ed18550952
+    - ev-8f927219d30562a9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 161 缓慢升至 167，仅反映关注度，未见 issue、discussion、用户评价或客户案例说明开发者是否真的把它留在编码工作流中；强场景可判断，但社区共识与持续采用证据缺失。
+    evidence_ids:
+    - ev-f467d3ed18550952
+    - ev-d4ac57f0e0ac8e8c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费路径或赞助方式，作为开源技能包其收入可能来自 to C 开发者捐赠或 to B 团队支持，但这只是判断而非已验证事实；无融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-8f927219d30562a9
+    - ev-bdfa44b9d097aa75
+  - gate: truth
+    status: supported
+    reason: 产品贴近编码工作的第一性目标——先产出可运行实现，验证后置的边界在仓库说明中明确写出，承诺可确定性交付；未发现安全或人工边界被模糊处理，也无昂贵技术堆砌却无场景的貂丁风险。
+    evidence_ids:
+    - ev-bdfa44b9d097aa75
+    - ev-8d36952176abb1a8
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion 区，收集开发者是否报告实际安装后代理行为改变、是否长期保留该技能，以及是否出现团队级采用或赞助线索。
+  market: ''
+  job: 使用 Claude Code、Codex 等 AI 编码代理的开发者，在让代理完成一个具体编码任务时，需要代理直接产出可运行的实现代码，而不是把时间花在代理自己发明的收据、哈希、锁、认证仪式等记账步骤上。
+  job_en: Developers using AI coding agents such as Claude Code and Codex, when assigning a concrete coding
+    task, need the agent to produce runnable implementation code instead of spending the run on self-invented
+    bookkeeping such as receipts, hashes, locks, and certification rituals.
+  pain: 公开仓库说明指出代理会在自创的记账与认证仪式上停滞，真实编码工作被推迟；对开发者而言这意味着等待时间变长、token 消耗在非交付动作上，且需要人工打断或重写提示词才能把代理拉回实现。
+  pain_en: The public repository description states agents stall on self-invented bookkeeping and certification
+    rituals, delaying real coding work; for developers this means longer waits, tokens spent on non-delivery
+    actions, and manual interruption or prompt rewriting to pull the agent back to implementation.
+  current_alternative: 当前替代方式是开发者手动调整提示词或工作流、在代理跑偏时人工打断，或直接忍受代理的低效行为；这些做法都依赖每次任务的人工干预，没有把“先交付再验证”固化成可复用的规则。
+  current_alternative_en: The current alternative is manually adjusting prompts or workflows, interrupting
+    the agent when it drifts, or simply tolerating the inefficient behavior; all of these rely on per-task
+    human intervention and do not codify 'ship first, then verify' into a reusable rule.
+  usage_reason: 推断：相较每次手动改提示词或中途打断，该技能包把“先交付实现、验证后置”作为可安装的规则注入 Claude Code、Codex 等代理，减少的是开发者反复纠正代理跑偏这一步负担；因此当代理频繁在自创记账上停滞、而开发者又不想逐次盯守时，会尝试安装它。仓库星标从
+    161 缓慢增至 167 只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: compared with manually rewriting prompts or interrupting mid-run each time,
+    this skill pack injects ''ship the implementation first, defer verification'' as an installable rule
+    into agents like Claude Code and Codex, removing the repeated burden of correcting agent drift; developers
+    whose agents frequently stall on self-invented bookkeeping and who do not want to babysit every run
+    would try installing it. The star count creeping from 161 to 167 indicates attention on'

@@ -1,0 +1,91 @@
+- id: req-initial-screenwriting-skills-2026-09-15
+  project_slug: screenwriting-skills
+  level: initial
+  reviewed_at: '2026-09-15T00:38:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编剧在剧本与分集写作中反复处理格式和结构规范的需求，痛点具体且不采用就要自己承担这部分重复劳动；买方是谁在公开材料中不清楚。
+    evidence_ids:
+    - ev-b0aaa301a4fe2b05
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与 fork 数，属于关注度证据，没有编剧群体的使用反馈或案例，无法说明是否形成共识。
+    evidence_ids:
+    - ev-b0aaa301a4fe2b05
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页或付费路径，钱可能来自编剧个人订阅或工作室采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0aaa301a4fe2b05
+  - gate: truth
+    status: insufficient
+    reason: 技能包是否真能稳定产出可用的剧本材料、人工改写比例多高，公开材料没有可核对的交付结果。
+    evidence_ids:
+    - ev-b0aaa301a4fe2b05
+  next_validation: 收集该仓库的 issue、discussion 或使用说明，确认编剧实际输入什么材料、产出什么格式的交付物。
+  market: ''
+  job: 编剧或剧本策划在写电影剧本、电视剧分集或戏剧构作材料时，需要把已有的故事设定、人物和草稿整理成符合行业格式的剧本或分集文本。
+  job_en: A screenwriter or script developer drafting a film screenplay, TV episode or dramaturgy material
+    needs to turn existing story setup, characters and drafts into script or episode text that follows
+    industry formats.
+  pain: 剧本写作有大量格式、结构和分集节奏的重复性规范工作，编剧往往要在创作和格式整理之间来回切换，靠通用助手很难稳定贴合这些行业惯例。
+  pain_en: Screenwriting involves heavy repetitive work on format, structure and episodic pacing, forcing
+    writers to switch between creating and formatting, and general assistants rarely hold to these industry
+    conventions reliably.
+  current_alternative: 编剧目前多用通用写作助手、模板文档或自己维护的格式文件来整理剧本，行业规范靠个人经验口口相传。
+  current_alternative_en: Writers currently use general writing assistants, template documents or self-maintained
+    format files, with industry conventions passed on through personal experience.
+  usage_reason: 推断：相较通用助手，这套技能把编剧、电视剧写作和戏剧构作的规范预先固化，编剧不必每次重新交代格式和结构要求，因此更可能被需要稳定产出分集材料的编剧或内容团队选用；但公开材料没有用户反馈或采用数据，这一判断来自工作流结构推理。
+  usage_reason_en: 'Inference: compared with general assistants, these skills pre-encode screenwriting,
+    TV writing and dramaturgy conventions so writers do not have to restate format and structure each
+    time, which is why writers or content teams needing steady episode output may choose it; the public
+    material has no user feedback or adoption data, so this comes from workflow reasoning.'
+- id: req-full-screenwriting-skills-2026-09-15
+  project_slug: screenwriting-skills
+  level: full
+  reviewed_at: '2026-09-15T01:07:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编剧在剧本与分集写作中反复处理格式和结构规范的需求，痛点具体且不采用就要自己承担这部分重复劳动；买方是谁在公开材料中不清楚，属工作流结构推理。
+    evidence_ids:
+    - ev-b0aaa301a4fe2b05
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标 1,083，属于关注度证据，没有编剧群体的使用反馈、案例或复刻行为，无法说明是否形成持续采用共识。
+    evidence_ids:
+    - ev-b0aaa301a4fe2b05
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页或付费路径，钱可能来自编剧个人订阅或工作室采购，这是判断而非已验证事实；开源仓库本身不构成收入路径。
+    evidence_ids:
+    - ev-b0aaa301a4fe2b05
+  - gate: truth
+    status: insufficient
+    reason: 技能包是否真能稳定产出可用的剧本材料、人工改写比例多高，公开材料没有可核对的交付结果或安全边界说明。
+    evidence_ids:
+    - ev-b0aaa301a4fe2b05
+  next_validation: 收集该 公开代码仓库 仓库的 issue、discussion 或使用说明，确认编剧实际输入什么材料、产出什么格式的交付物。
+  market: ''
+  job: 编剧或剧本策划在写电影剧本、电视剧分集或戏剧构作材料时，把已有的故事设定、人物和草稿交给这套面向编剧、电视剧写作与戏剧构作的 agent 技能，产出符合行业格式与结构规范的分集或剧本材料。
+  job_en: A screenwriter or script developer drafting a film screenplay, TV episode or dramaturgy material
+    hands existing story setup, characters and drafts to these screenwriting, TV-writing and dramaturgy
+    agent skills to produce episode or script material that follows industry format and structure conventions.
+  pain: 公开材料只说明这是面向编剧、电视剧写作与戏剧构作的 agent 技能，未记录编剧的具体抱怨、返工频率或不采用代价；痛点强度来自行业格式与分集结构规范本身重复且依赖个人经验这一结构推理。
+  pain_en: Public material only describes agent skills for screenwriting, TV writing and dramaturgy; it
+    records no specific writer complaints, rework frequency or cost of not adopting. Pain intensity rests
+    on the structural inference that format and episodic structure conventions are repetitive and experience-bound.
+  current_alternative: 公开材料未说明编剧目前如何完成这项工作；可观察的替代是通用写作助手、模板文档或编剧自己维护的格式文件，行业规范靠个人经验传递。
+  current_alternative_en: Public material does not show how writers do this today; observable alternatives
+    are general writing assistants, template documents or self-maintained format files, with conventions
+    passed on through personal experience.
+  usage_reason: 推断：相较通用助手，这套技能把编剧、电视剧写作与戏剧构作的规范预先固化，编剧不必每次重新交代格式与结构要求，因此需要稳定产出分集材料的编剧或内容团队会在起草阶段选用它；仓库星标只反映关注度，公开材料没有用户反馈或采用数据。
+  usage_reason_en: 'Inference: versus general assistants, these skills pre-encode screenwriting, TV-writing
+    and dramaturgy conventions so writers need not restate format and structure each time, so writers
+    or content teams needing steady episode output would use it at drafting stage; stars only reflect
+    attention and public material has no user feedback or adoption data.'

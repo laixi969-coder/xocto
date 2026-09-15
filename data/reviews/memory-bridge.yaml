@@ -246,3 +246,56 @@
     the same store, removing the step of re-pasting background and restating preferences. Individuals
     and developers using multiple devices and AI clients would therefore choose it when changing endpoint
     or client. Public materials provide no user feedback or retention evidence; this causal claim i'
+- id: req-full-memory-bridge-2026-09-15
+  project_slug: memory-bridge
+  level: full
+  reviewed_at: '2026-09-15T01:06:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多设备、多 AI 客户端切换时上下文与偏好丢失、需重复交代的问题；旧做法是逐客户端手动复制粘贴或各自积累记忆，不解决的后果是每次换端都要重建背景。公开材料仅有定位与 CDSMP
+      实现，痛点强度属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+    - ev-a323f258f0e15cc1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 85 增至 116，说明开发者社区持续关注，但收藏只属关注度，不能证明目标用户已把它留在工作流；缺少 issue、discussion 或使用反馈来显示谁在何种场景实际采用。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+    - ev-41b0fb4bae0bfd51
+  - gate: model
+    status: insufficient
+    reason: 这是开源实现，公开材料未见定价页、付费主体或采购路径；谁付钱（个人订阅、企业部署还是纯社区维护）无法从现有证据判断，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+  - gate: truth
+    status: insufficient
+    reason: 跨设备记忆同步涉及隐私边界与人工确认环节，公开材料未给出部署文档、同步范围说明或可复现测试，交付能否稳定发生、安全边界如何划定尚不可核对。
+    evidence_ids:
+    - ev-a323f258f0e15cc1
+  next_validation: 追踪 memory-bridge 仓库的 README、部署文档与 issue/discussion，确认实际同步范围、隐私边界以及是否有用户描述替代了哪种旧流程。
+  market: ''
+  job: 个人用户与开发者在多台设备、多个 AI 客户端（如不同厂商的对话助手）之间切换时，需要把对话记忆与偏好写入一个跨设备共享的记忆层，再在另一台设备或另一个客户端里读回，避免每次重新交代背景。
+  job_en: Individuals and developers switching between multiple devices and multiple AI clients need to
+    write conversation memory and preferences into one cross-device shared memory layer and read it back
+    on another device or client, instead of re-explaining context each time.
+  pain: 公开材料只给出产品定位（跨设备、跨平台共享记忆层、CDSMP 实现），未提供用户抱怨、issue 或案例；因此痛点是结构推理：AI 客户端的记忆默认绑定在单一账号与单一应用内，换设备或换客户端后上下文丢失，用户只能重复粘贴或重述偏好，这是可观察的旧流程摩擦，但强度与频率尚无公开量化。
+  pain_en: 'Public materials only give the product positioning (cross-device, cross-platform shared memory
+    layer, CDSMP implementation) with no user complaints, issues, or cases; the pain is therefore structural
+    inference: AI client memory is bound to one account and one app, so context is lost when switching
+    devices or clients and users must re-paste or restate preferences. The friction is observable in the
+    old workflow, but its intensity and frequency are not publicly quantified.'
+  current_alternative: 结构推理下的旧做法是：在每个客户端内各自积累记忆、手动复制粘贴历史对话、把偏好写进提示词模板或本地笔记，或干脆放弃跨端一致性；公开材料未说明用户实际采用哪一种。
+  current_alternative_en: Under structural inference, the old approach is to accumulate memory separately
+    inside each client, manually copy-paste conversation history, keep preferences in prompt templates
+    or local notes, or simply give up cross-device consistency; public materials do not show which one
+    users actually adopt.
+  usage_reason: 推断：相较逐客户端手动搬运上下文，它把记忆写入一个跨设备共享层并在另一客户端读回，减少的是“换端后重新交代背景”这一步；因此多设备、多 AI 客户端并用的个人用户与开发者，在需要延续同一上下文时更可能选择它。这是基于产品能力与任务结构的推断，尚无用户反馈或案例证实。
+  usage_reason_en: 'Inference: compared with manually moving context between clients, it writes memory
+    into one cross-device shared layer and reads it back in another client, removing the step of re-explaining
+    background after switching. Individuals and developers who use multiple devices and AI clients are
+    therefore more likely to choose it when they need continuity of the same context. This is inferred
+    from product capability and task structure, not confirmed by user feedback or cases.'

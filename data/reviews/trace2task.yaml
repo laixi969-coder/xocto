@@ -226,3 +226,57 @@
     into a resettable, repeatable task, removing the step of building evaluation scenarios from scratch;
     this is structural inference from the product description and workflow, and it appeals most to evaluation
     engineers who must regress agent behavior often.
+- id: req-full-trace2task-2026-09-15
+  project_slug: trace2task
+  level: full
+  reviewed_at: '2026-09-15T01:07:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体评测中成功流程难以复现、环境脏后无法重跑、用例需人工手写的需求，痛点是回归评测的刚性环节；不解决的后果是改动后无法区分能力退化与环境差异。公开材料仅一句产品说明，输入格式与通过判定未披露，故价值成立属工作流结构推理而非用户采用证据。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-6e3953c803fb01f8
+  - gate: consensus
+    status: insufficient
+    reason: 公开可归因到该仓库的证据只有收藏数从 42 增至 83，属关注度而非持续采用；没有 issue、discussion、客户案例或部署记录说明谁在什么场景长期使用，因此共识卡在感知与场景验证环节，不能判定已形成采用共识。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-83d0b42e96c6fd1a
+    - ev-6e3953c803fb01f8
+  - gate: model
+    status: insufficient
+    reason: 这是判断不是已验证事实：开源仓库未披露定价页、付费主体或采购路径，钱可能来自 to B 的评测平台团队或 to VC 的开源叙事，两者都无公开证据。缺定价不取消真需求判定，但单位经济与买方完全未核验。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: truth
+    status: insufficient
+    reason: 承诺“可重置、可验证”能否确定性交付，取决于支持哪些 trace 格式、如何判定通过、环境重置是否可靠，这些在公开材料中均未披露；也没有可复现实测或文档说明人工与安全边界，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-83d0b42e96c6fd1a
+  next_validation: 追踪 trace2task 仓库的 README、docs 与 issue/discussion，确认其支持的 trace 格式、环境重置机制与通过判定规则，作为交付确定性的公开证据。
+  market: ''
+  job: AI 应用评测工程师在智能体一次跑通某条真实操作流程后，把这段执行记录（trace）交给 trace2task，将其转成可在干净环境重置并重复执行的评测任务，用于回归核对同一流程是否仍然通过。
+  job_en: An AI application evaluation engineer, after an agent successfully completes a real workflow
+    once, hands that execution trace to trace2task, which converts it into a resettable, repeatable benchmark
+    task run in a clean environment to regression-check whether the same workflow still passes.
+  pain: 智能体评测的痛点在于：跑通一次的过程难以复现，环境状态被污染后无法重跑，评测用例靠人工手写成本高且容易与真实工作流脱节，导致改动后无法判断是能力退化还是环境差异。公开材料只给出“把成功工作流转成可重置可验证基准”这一句，痛点强度属工作流结构推理。
+  pain_en: The pain in agent evaluation is that a once-successful run is hard to reproduce, polluted environment
+    state prevents reruns, and hand-written eval cases are costly and drift from real workflows, so after
+    a change it is unclear whether capability regressed or the environment differed. Public material gives
+    only the one-line claim of turning successful workflows into resettable verifiable benchmarks; pain
+    intensity is workflow-structural inference.
+  current_alternative: 当前替代方式推断为：人工手写评测用例与断言、录制回放脚本、在共享或脏环境中反复手动重跑，或干脆只靠人工观察一次成功运行。公开材料未说明它具体替代了哪一种。
+  current_alternative_en: 'Current alternatives are inferred to be: hand-written eval cases and assertions,
+    record-and-replay scripts, repeated manual reruns in shared or dirty environments, or simply eyeballing
+    a single successful run. Public material does not state which one it replaces.'
+  usage_reason: 推断：相较手写用例或手动重跑，它把“已跑通的 trace”直接作为输入，自动生成可重置、可重复执行的评测任务，省去从零编写用例和手工复原环境这两步，因此正在做智能体回归评测、且手上已有成功执行记录的工程师会在需要稳定复现时选择它。仓库收藏从
+    42 增至 83 只说明关注度上升，不构成选择理由。
+  usage_reason_en: 'Inference: versus hand-written cases or manual reruns, it takes an already-successful
+    trace as input and generates a resettable, repeatable benchmark task, removing the steps of authoring
+    cases from scratch and manually restoring the environment; engineers doing agent regression evaluation
+    who already hold successful execution traces would choose it when stable reproduction is needed. Stars
+    rising from 42 to 83 indicate attention, not a reason for choice.'

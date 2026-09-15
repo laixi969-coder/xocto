@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/monday-data-14-09-2026
 summary: 'Plus: $300 billion chip subsidies, no jobs; a learning slump; AI decodes bio++'
 first_seen: '2026-09-14T09:52:14Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

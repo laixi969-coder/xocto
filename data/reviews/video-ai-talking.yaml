@@ -377,3 +377,57 @@
     the browser with keys never leaving the machine, so a creator needs only one existing clip plus subtitles
     to get a vertical cut, removing both the retake step and the footage-upload step; inferred that creators
     wary of leaking footage or wanting to skip re-shoots would pick it.
+- id: req-full-video-ai-talking-2026-09-15
+  project_slug: video-ai-talking
+  level: full
+  reviewed_at: '2026-09-15T01:08:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是口播视频改文案必须重录、不愿出镜者无法做口播这一具体任务痛点：上传已有真人素材、写字幕、本机配音对口型、导出竖屏 MP4，省掉约人布景重录。公开材料仅有产品说明与仓库关注度，痛点刚性属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-d6fa4ef5d4af2843
+    - ev-b05bb4d3217a59e1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 343 增至 397，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标创作者已把它留在日常出片流程里；缺少 issue、discussion 或用户评价说明实际使用场景与重复使用。
+    evidence_ids:
+    - ev-d6fa4ef5d4af2843
+    - ev-8c55ccb280d265d9
+    - ev-b05bb4d3217a59e1
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费入口或客户采购记录，谁付钱、按什么单位收费均未核验；本地运行且密钥留在浏览器，也意味着难以按调用量收费。此为判断，不是已验证事实。
+    evidence_ids:
+    - ev-d6fa4ef5d4af2843
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺本机完成配音与对口型并合成竖屏 MP4，但公开材料没有可复现的实测、部署文档或输出样例，无法核对口型质量、时长上限与失败边界；真人肖像与声音的授权与安全边界也未说明。
+    evidence_ids:
+    - ev-d6fa4ef5d4af2843
+    - ev-43a7f3bbfc1b439d
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有可复现的输出样例、部署说明以及用户描述的实际出片场景与重复使用情况。
+  market: ''
+  job: 短视频口播创作者或运营者已有一段真人出镜素材，需要按新文案重新配音并让口型对上，产出可直接发布的竖屏 MP4，而不必重新约人、重新布景、重新对着镜头念一遍。
+  job_en: A short-video talking-head creator or operator who already has real on-camera footage needs
+    to re-voice it with new copy and match the lip movement, producing a publish-ready vertical MP4 without
+    rebooking the person, resetting the set, or re-shooting the delivery.
+  pain: 口播内容的核心成本在出镜录制：改一句文案就要重录整条，创作者状态、灯光、场地难以复现，外包或约拍还要排期与费用；不愿出镜的人则被挡在口播形式之外。公开材料只给出产品说明与仓库关注度，未提供用户抱怨或案例，痛点强度属工作流结构推理。
+  pain_en: 'The costly step in talking-head content is the on-camera recording itself: changing one line
+    forces a full re-shoot, and the creator''s state, lighting, and location are hard to reproduce; outsourcing
+    adds scheduling and cost, while people unwilling to appear on camera are shut out of the format entirely.
+    Public material offers only the product description and repo attention, not user complaints or cases,
+    so pain intensity is a workflow-structure inference.'
+  current_alternative: 旧做法是重录一遍口播、改用纯字幕或图文视频、请他人代出镜，或使用云端数字人/对口型服务；后者需要把真人素材上传到第三方并按其计费。
+  current_alternative_en: The old paths are re-shooting the delivery, switching to caption-only or image-text
+    video, hiring someone else to appear, or using cloud digital-human and lip-sync services that require
+    uploading the real footage to a third party and paying per use.
+  usage_reason: 推断：相较重录或云端数字人，它把流程压缩为上传已有真人视频、写字幕、本机配音并对口型、导出竖屏 MP4，省掉重新约人布景与重录这一步，且密钥与素材留在浏览器本地，因此在意重录成本或不愿把真人素材交给第三方云服务的口播创作者会选它。仓库收藏从
+    343 增至 397 只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus re-shooting or cloud digital humans, it compresses the flow to uploading
+    existing footage, writing subtitles, local voice-over and lip-sync, and exporting a vertical MP4,
+    removing the rebooking, re-staging, and re-recording step while keeping keys and footage in the browser,
+    so creators who care about re-shoot cost or refuse to hand real footage to a third-party cloud would
+    choose it. Stars rising from 343 to 397 show attention only, not sustained use.'

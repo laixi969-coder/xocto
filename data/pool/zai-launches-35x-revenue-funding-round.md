@@ -1,6 +1,6 @@
 ---
 slug: zai-launches-35x-revenue-funding-round
-name: Z.AI Launches 35x Revenue Funding Round
+name: Z.AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXoxOEgxekky
 summary: Z.AI Launches 35x Revenue Funding Round chosun.com
 first_seen: '2026-09-14T15:37:28Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Z.AI Launches 35x Revenue Funding Round
+# Z.AI
 
 Z.AI Launches 35x Revenue Funding Round chosun.com
 

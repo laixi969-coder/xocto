@@ -85,3 +85,59 @@
   usage_reason: 无法判断：资料未说明相较自建方案减少了哪一步运维负担，也没有用户反馈或案例支持，不能给出选择理由。
   usage_reason_en: 'Cannot be judged: the material does not say which operational step it removes versus
     self-building, and there is no user feedback or case support, so no reason to choose it can be given.'
+- id: req-full-dsh-cloud-2026-09-15
+  project_slug: dsh-cloud
+  level: full
+  reviewed_at: '2026-09-15T01:05:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队多人共用 DeepSeek Harness 时的隔离、持久工作区与配额需求，痛点在于共用实例会互相覆盖工作区、单成员耗尽资源且缺少访问边界；公开材料已给出输入（自托管或云端部署）、动作（隔离容器/微虚拟机、持久存储、访问控制、配额）与交付（可运行的多租户环境），属工作流结构推理，尚无用户痛点口述。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-010f10374a6dce10
+    - ev-a80cd05d5bbf135b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 61 增至 65 只反映关注度，公开材料没有 issue、discussion、部署记录或用户评价，无法判断共识卡在感知、场景还是利益环节，也不能据此认定已被团队持续采用。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-010f10374a6dce10
+    - ev-a80cd05d5bbf135b
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未披露托管定价、付费路径或采购记录，钱可能来自 to B 团队自托管后的支持服务或 to C 开发者，但这只是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-a80cd05d5bbf135b
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明隔离容器与微虚拟机在真实团队中的交付结果，也未给出安全边界、配额执行效果或人工介入规则，无法核对承诺能否确定性兑现。
+    evidence_ids:
+    - ev-010f10374a6dce10
+    - ev-a80cd05d5bbf135b
+  next_validation: 追踪 dsh-cloud 仓库的 issue 与 discussion，确认是否有团队实际部署并反馈隔离、配额与运维负担。
+  market: ''
+  job: 研发团队的平台或基础设施工程师要在公司内网或云上部署 DeepSeek Harness，为多名成员各自分配隔离、可持久保存且带资源配额的工作区，让成员能并行使用编码代理而不互相污染环境。
+  job_en: Platform or infrastructure engineers on an R&D team need to deploy DeepSeek Harness on an internal
+    network or cloud, giving each member an isolated, persistent workspace with resource quotas so members
+    can use coding agents in parallel without contaminating each other's environments.
+  pain: 公开材料只说明它提供隔离容器/微虚拟机、持久工作区、访问控制与资源配额，未直接描述旧流程的痛点；从工作流结构推断，多人共用一套 dsh 实例时，工作区互相覆盖、单成员跑满资源、成员间无访问边界是必须处理的问题，否则团队无法安全地把编码代理铺给多人使用。
+  pain_en: The public material only states that it provides isolated containers/microVMs, persistent workspaces,
+    access control and resource quotas, without directly describing the old workflow's pain; inferred
+    from workflow structure, when multiple people share one dsh instance, workspace overwrites, one member
+    exhausting resources, and the absence of access boundaries between members are problems that must
+    be handled, otherwise a team cannot safely roll out coding agents to multiple u
+  current_alternative: 团队自行用 Docker、调度工具和存储卷手工搭建多用户 dsh 环境，或让成员各自在本地机器上跑单实例，靠人工约定避免互相干扰。
+  current_alternative_en: Teams hand-build a multi-user dsh environment with Docker, scheduling tools
+    and storage volumes, or let each member run a single instance on their own local machine, relying
+    on manual conventions to avoid interference.
+  usage_reason: 推断：相较自行拼装容器与配额，dsh-cloud 把隔离容器/微虚拟机、持久工作区和资源配额打包成一次部署即可多租户运行的动作，减少了逐成员手工配置容器与存储这一步负担，因此需要在内网给多名成员统一开通
+    dsh 工作区的平台工程师会在自建成本过高时选择它；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with assembling containers and quotas by hand, dsh-cloud packages
+    isolated containers/microVMs, persistent workspaces and resource quotas into a single deployment that
+    runs multi-tenant, removing the step of manually configuring containers and storage per member; therefore
+    platform engineers who need to provision dsh workspaces for multiple members on an internal network
+    would choose it when self-building costs too much. Public material has no user feedbac'

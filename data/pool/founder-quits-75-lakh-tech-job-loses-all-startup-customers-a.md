@@ -22,7 +22,7 @@ summary: Founder quits ₹75 lakh tech job, loses all startup customers after AI
   Storyboard18
 first_seen: '2026-09-12T04:46:01Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

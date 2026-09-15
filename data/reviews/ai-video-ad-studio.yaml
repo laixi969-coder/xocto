@@ -201,3 +201,44 @@
   usage_reason_en: There is no README, documentation, or user feedback describing what input the AI takes,
     what action it performs, or what file it delivers, so there is no basis to explain why a user would
     choose it over their current approach.
+- id: req-full-ai-video-ad-studio-2026-09-15
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-09-15T01:04:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有仓库名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，连用户任务与痛点都还原不出，无法判断需求是否成立。
+    evidence_ids:
+    - ev-c644718256779914
+    - ev-b3156df8785ddefa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 AI 具体接收什么素材、执行哪一步、交付什么成片，以及是否有用户描述替代的旧流程。
+  market: ''
+  job: 营销或内容人员需要为广告投放制作视频素材，在剪辑或投放准备环节打开该工具，把原始素材加工成可投放的成片或文件。
+  job_en: Marketing or content staff need to produce video ad creatives, opening this tool during editing
+    or ad-prep to turn raw material into a deliverable cut or file.
+  pain: 公开材料只有仓库名称和收藏数，没有说明 AI 接收什么素材、执行哪一步、交付什么成片，因此无法确认用户具体卡在哪一步、不解决会有什么后果。
+  pain_en: Public material only shows the repo name and star counts, not what the AI ingests, which step
+    it performs, or what it delivers, so the specific user bottleneck and cost of not solving it cannot
+    be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成视频广告素材制作，也未说明它替代了哪一步旧流程。
+  current_alternative_en: Public material does not show how users currently produce video ad creatives
+    or which prior step this replaces.
+  usage_reason: 缺少产品说明、文档或用户反馈，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果；仅凭仓库名称与收藏数不能推断用户选择理由。
+  usage_reason_en: Without product docs or user feedback, there is no basis to explain which step it removes
+    or which checkable result it improves versus the old approach; repo name and stars alone cannot support
+    a usage reason.

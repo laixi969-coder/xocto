@@ -592,3 +592,95 @@
     so learners reproduce the whole path from basics to agents by running code in order, removing the
     burden of picking materials and stitching examples; this is inferred from the course structure, with
     no completion or repeat-use evidence yet.
+- id: req-initial-ai-engineering-lab-2026-09-15
+  project_slug: ai-engineering-lab
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 工程学习路径断裂、缺少可运行连续案例的痛点，旧行为是拼凑博客与文档，结构上成立，属工作流推理。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 有社区讨论与 fork 数，但 fork 高于星数也可能只是下载收藏，公开材料没有完课、复训或团队采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: MIT 许可、免注册，公开材料未披露任何定价、企业培训或赞助收入路径，买方是谁尚不清楚，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 课程内容与 notebook 可本地复现，交付物是代码与练习，不依赖不可核验的承诺；但掌握程度仍需学习者自证。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 与 release 记录，确认是否有团队将其改造成内部培训或课程被二次分发使用。
+  market: ''
+  job: 想转做 AI 应用的开发者，在自学或团队内训时，面对散落的文档、课程和云厂商教程，需要按一条主线把 LLM、RAG、微调与 agent 部署练到能跑通。
+  job_en: Software engineers, Data engineers
+  pain: 现有学习材料要么是零散博客和视频，要么是厂商文档，缺少可运行、可复现、覆盖从模型到云平台部署的连续案例，学完仍不知道如何拼成一条工程链路。
+  pain_en: Existing learning material is either scattered blogs and videos or vendor documentation, lacking
+    a runnable, reproducible, continuous case that spans from models to cloud deployment, so learners
+    still cannot assemble an engineering pipeline afterwards.
+  current_alternative: 旧做法是拼凑免费博客、官方文档、付费网课，或直接在工作中边做边查；代价是路径断裂、环境配置反复踩坑、缺少可核对的练习结果。
+  current_alternative_en: The old approach is stitching together free blogs, official docs and paid online
+    courses, or learning ad hoc on the job; the cost is a broken path, repeated environment setup failures
+    and no checkable exercise results.
+  usage_reason: 推断：相较拼凑教程，它把 43 个 notebook 和一条贯穿案例按 24 周顺序排好并免注册开放，学习者少掉的是自己设计学习路径和搭环境这一步，因此自驱型开发者或需要内部培训材料的团队会先试它；但公开材料没有留存、完课或付费证据，长期使用尚未核验。
+  usage_reason_en: 'Inference: compared with stitching tutorials together, it sequences 43 notebooks and
+    one continuous case study into 24 weeks and opens them without signup, removing the step of designing
+    a learning path and setting up environments, so self-driven developers or teams needing internal training
+    material would try it first; however, public material shows no retention, completion or payment evidence,
+    so long-term use is unverified.'
+- id: req-full-ai-engineering-lab-2026-09-15
+  project_slug: ai-engineering-lab
+  level: full
+  reviewed_at: '2026-09-15T01:04:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 工程学习路径断裂、缺少可运行连续案例的痛点，旧行为是拼凑博客与厂商文档，不解决的后果是学完仍拼不成工程链路；这是工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-a0517da90f2da45e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有市场对比与行业报道，没有该课程的完课率、复训、团队内训采用或社区讨论证据，无法判断学习者是否把它留在工作流里。
+    evidence_ids:
+    - ev-3c8a90e6e15677a5
+    - ev-7af41129a863ff0e
+  - gate: model
+    status: insufficient
+    reason: MIT 许可、免注册，公开材料未披露定价、企业培训或赞助收入路径，买方是谁尚不清楚；这是判断，不是已验证事实，但不足以否定需求。
+    evidence_ids:
+    - ev-7af41129a863ff0e
+  - gate: truth
+    status: supported
+    reason: 交付物是 43 个可本地运行的 notebook 与一条贯穿案例，内容可复现、不依赖不可核验承诺；但掌握程度仍需学习者自证，安全与人工边界不涉及。
+    evidence_ids:
+    - ev-a0517da90f2da45e
+  next_validation: 追踪该仓库的 issue、discussion 与 release 记录，确认是否有团队将其改造成内部培训或课程被二次分发使用。
+  market: ''
+  job: 想转做 AI 应用的开发者或数据平台工程师，在自学或团队内训时，面对散落的博客、厂商文档和付费网课，需要按一条主线把 Python、机器学习、LLM、RAG、微调、agent 与 MCP 以及
+    Azure、Vertex、Bedrock、Databricks 串成可本地跑通的工程链路。
+  job_en: Developers or data platform engineers moving into AI application work, when self-studying or
+    preparing internal training, face scattered blogs, vendor docs and paid courses, and need one mainline
+    that connects Python, ML, LLMs, RAG, fine-tuning, agents and MCP with Azure, Vertex, Bedrock and Databricks
+    into a locally runnable engineering pipeline.
+  pain: 公开材料支持的痛点是学习路径断裂：现有材料要么零散博客视频，要么厂商文档，缺少可运行、可复现、覆盖从模型到云平台部署的连续案例，学完仍拼不成一条工程链路，环境配置反复踩坑且没有可核对的练习结果。
+  pain_en: 'The publicly supported pain is a broken learning path: existing material is either scattered
+    blogs and videos or vendor documentation, lacking a runnable, reproducible continuous case spanning
+    models to cloud deployment, so learners still cannot assemble a pipeline, repeatedly fail at environment
+    setup and have no checkable exercise results.'
+  current_alternative: 旧做法是拼凑免费博客、官方文档、付费网课，或直接在工作中边做边查；代价是路径断裂、环境反复重搭、缺少可核对的练习结果。
+  current_alternative_en: The old approach is stitching together free blogs, official docs and paid online
+    courses, or learning ad hoc on the job; the cost is a broken path, repeated environment rebuilds and
+    no checkable exercise results.
+  usage_reason: 推断：相较拼凑教程，它把 43 个 notebook 与一条贯穿案例按 24 周顺序排好并免注册开放，学习者少掉的是自己设计学习路径和搭环境这一步，因此自驱型开发者或需要内部培训材料的团队会先试它；公开材料没有完课、留存或付费证据，长期使用尚未核验。
+  usage_reason_en: 'Inference: compared with stitching tutorials together, it sequences 43 notebooks and
+    one continuous case study into 24 weeks and opens them without signup, removing the step of designing
+    a learning path and setting up environments, so self-driven developers or teams needing internal training
+    material would try it first; public material shows no completion, retention or payment evidence, so
+    long-term use is unverified.'

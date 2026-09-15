@@ -1,0 +1,92 @@
+- id: req-initial-perplexity-portable-computer-is-now-available-on-windows-pow-2026-09-15
+  project_slug: perplexity-portable-computer-is-now-available-on-windows-pow
+  level: initial
+  reviewed_at: '2026-09-15T00:39:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感资料不能上云时仍想自动化多步任务的需求，痛点是合规与泄露风险，旧做法是人工整理或先脱敏再核对。
+    evidence_ids:
+    - ev-9bcd22324a2713ce
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方发布，缺少可归因到该产品的采用、评价或持续使用证据。
+    evidence_ids:
+    - ev-9bcd22324a2713ce
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，本地硬件门槛可能把成本转嫁给用户，付费路径尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9bcd22324a2713ce
+  - gate: truth
+    status: insufficient
+    reason: 多步任务的交付确定性与人工确认边界未说明，本地模型能力上限也影响结果可核对性。
+    evidence_ids:
+    - ev-9bcd22324a2713ce
+  next_validation: 收集 Perplexity 官方关于 Portable Computer 的定价页或部署文档，确认支持的任务类型、硬件要求与人工确认环节。
+  market: ''
+  job: 处理敏感资料的知识工作者在不能把材料上传云端的情况下，需要在本机读取数据、汇总信息并完成多步任务，最终拿到留在设备上的结果。
+  job_en: Knowledge workers handling sensitive material, who cannot upload it to the cloud, need to read
+    on-device data, gather information and complete multistep tasks, ending with results that stay on
+    the device.
+  pain: 把敏感材料交给云端智能体存在合规与泄露顾虑，用户要么放弃自动化，要么承担数据外流风险。
+  pain_en: Handing sensitive material to a cloud agent raises compliance and leakage concerns, so users
+    either give up automation or accept data-egress risk.
+  current_alternative: 旧做法是人工在本地整理与汇总，或使用云端助手但需先脱敏、再人工核对，步骤多且存在外流风险。
+  current_alternative_en: The old way is manual local organization and summarization, or a cloud assistant
+    requiring prior redaction and manual checking, which adds steps and carries egress risk.
+  usage_reason: 推断：相较云端助手，它把模型推理放在本机，省去上传与脱敏这一步，使不能外传材料的用户也能让智能体读取本地数据并产出结果；因此对合规敏感的知识工作者在本地处理敏感材料时会选择它。
+  usage_reason_en: 'Inference: compared with cloud assistants, it runs model inference on the device,
+    removing the upload and redaction step so users who cannot send material out can still have an agent
+    read local data and produce results; compliance-sensitive knowledge workers handling sensitive material
+    locally would therefore choose it.'
+- id: req-full-perplexity-portable-computer-is-now-available-on-windows-pow-2026-09-15
+  project_slug: perplexity-portable-computer-is-now-available-on-windows-pow
+  level: full
+  reviewed_at: '2026-09-15T01:07:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感资料不能上云时仍想自动化多步任务的需求，痛点是合规与泄露风险，旧做法是人工整理或先脱敏再核对；这是从产品能力与旧流程作出的工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-9df5110e4f317d5c
+    - ev-572dc68ebe5756fc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Perplexity 官方产品说明，缺少可归因到 Portable Computer 这一功能级产品的采用、评价或持续使用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-9df5110e4f317d5c
+    - ev-572dc68ebe5756fc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，本地推理依赖 NVIDIA GPU，硬件成本可能转嫁给用户；to C 订阅、to B 授权还是随硬件捆绑均属判断而非已验证事实。
+    evidence_ids:
+    - ev-9df5110e4f317d5c
+  - gate: truth
+    status: insufficient
+    reason: 多步任务的交付确定性与人工确认边界未说明，本地模型能力上限也影响结果可核对性，承诺能否确定性交付仍缺公开材料支撑。
+    evidence_ids:
+    - ev-572dc68ebe5756fc
+  next_validation: 追踪 Perplexity 官方 Portable Computer 产品页或部署文档，确认支持的任务类型、硬件要求、人工确认环节与是否公布定价。
+  market: ''
+  job: 处理敏感资料的知识工作者（法务、财务、医疗、研发等）在不能把材料上传云端的情况下，在 Windows PC 上打开 Portable Computer，让本地模型读取设备上的数据、汇总信息并规划执行多步任务，最终拿到留在本机的结果。
+  job_en: Knowledge workers handling sensitive material (legal, finance, healthcare, R&D) who cannot upload
+    it to the cloud open Portable Computer on a Windows PC, let local models read on-device data, gather
+    information and plan/execute multistep tasks, ending with results that stay on the machine.
+  pain: 把敏感材料交给云端智能体存在合规与泄露顾虑，用户要么放弃自动化退回人工，要么承担数据外流风险；本地模型能力提升后，这一取舍本可被绕开。
+  pain_en: Handing sensitive material to a cloud agent raises compliance and leakage concerns, so users
+    either give up automation and fall back to manual work or accept data-egress risk; stronger local
+    models make this trade-off avoidable.
+  current_alternative: 旧做法是人工在本地整理与汇总，或使用云端助手但需先脱敏、再人工核对，步骤多且仍存在外流风险；也可用本地脚本/传统工具，但无法完成多步规划与信息汇总。
+  current_alternative_en: The old way is manual local organization and summarization, or a cloud assistant
+    requiring prior redaction and manual checking, which adds steps and still carries egress risk; local
+    scripts or classic tools exist but cannot do multistep planning and information synthesis.
+  usage_reason: 推断：相较云端助手，它把模型推理放在本机，省去上传与脱敏这一步，使不能外传材料的用户也能让智能体读取本地数据并产出结果；因此对合规敏感的知识工作者在本地处理敏感材料时会选择它。
+  usage_reason_en: 'Inference: compared with cloud assistants, it runs inference on the device, removing
+    the upload and redaction step so users who cannot send material out can still have an agent read local
+    data and produce results; compliance-sensitive knowledge workers handling sensitive material locally
+    would therefore choose it.'

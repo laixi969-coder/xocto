@@ -1,6 +1,6 @@
 ---
 slug: ponyai-unveils-new-gen-4-robotruck-in-collaboration-with-gac
-name: Pony.ai Unveils New Gen-4 Robotruck in Collaboration with GAC Commercial Vehicle
+name: Pony.ai
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa3FEN3ExbG9m
 summary: Pony.ai Unveils New Gen-4 Robotruck in Collaboration with GAC Commercial Vehicle TradingView
 first_seen: '2026-09-14T12:36:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Pony.ai Unveils New Gen-4 Robotruck in Collaboration with GAC Commercial Vehicle
+# Pony.ai
 
 Pony.ai Unveils New Gen-4 Robotruck in Collaboration with GAC Commercial Vehicle TradingView
 

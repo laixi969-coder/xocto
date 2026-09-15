@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNaTZoSzdLcjRW
 summary: AI-integrated services take center stage at China's international trade fair bastillepost.com
 first_seen: '2026-09-13T07:38:00Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

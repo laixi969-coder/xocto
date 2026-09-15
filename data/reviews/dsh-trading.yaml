@@ -416,3 +416,55 @@
     via dry-run and per-order approval, so traders who want a unified cross-market view but won''t let
     an AI trade unattended would try it. Stars rising from 132 to 162 show attention only, not a reason
     to choose it.'
+- id: req-full-dsh-trading-2026-09-15
+  project_slug: dsh-trading
+  level: full
+  reviewed_at: '2026-09-15T01:05:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨市场交易中行情、持仓与下单入口分散、需在多个终端间手工切换的问题，痛点来自交易任务本身对时效与准确的要求；公开说明已能还原输入（多市场行情）、动作（AI 生成建议、人工批准下单）与交付（可核对的决策与订单），属工作流结构推理，尚无用户抱怨或损失数据。
+    evidence_ids:
+    - ev-478eb3b04b884abe
+    - ev-c81b7f239ffc33d3
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有代码仓库收藏数从 144 缓慢升至 170，属关注度而非持续采用；没有用户评价、issue 讨论或客户案例说明谁在真实交易中反复使用，因此无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-478eb3b04b884abe
+    - ev-cb5ea83284f54d86
+  - gate: model
+    status: insufficient
+    reason: BYOK 与不转售数据说明成本由用户自担，但公开材料没有定价页、订阅或采购记录，to C 自用、to B 团队授权还是 to VC 叙事无法区分；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-478eb3b04b884abe
+  - gate: truth
+    status: insufficient
+    reason: 默认模拟运行、每笔实盘订单需人工批准，说明安全边界设计上贴近交易第一性目标；但缺少部署文档、可复现实测或成交记录，无法核验连接器在真实券商与交易所下的交付是否稳定发生。
+    evidence_ids:
+    - ev-478eb3b04b884abe
+    - ev-19f4f130a3e88e37
+  next_validation: 追踪 dsh-trading 仓库的 issue 与 discussion，以及官网是否出现部署文档或客户案例，确认是否有真实交易者在实盘场景中持续使用并替代了原有终端流程。
+  market: ''
+  job: 交易员或量化分析师在同时跟踪加密货币、美股、A股和港股时，把分散在各券商/交易所终端与数据源里的行情、持仓和下单入口汇总到一处，借助 AI 生成交易建议，并在人工确认后执行实盘订单。
+  job_en: A trader or quant analyst tracking crypto, US, CN and HK markets at once consolidates quotes,
+    positions and order entry from separate broker/exchange terminals and data feeds into one place, uses
+    an AI to draft trade suggestions, and executes live orders after human approval.
+  pain: 跨市场交易需要在多个券商与交易所终端之间来回切换，行情、持仓和下单入口分散，人工盯盘与手工下单既慢又容易漏掉或下错单；公开材料未给出用户抱怨或损失数据，痛点强度属工作流结构推理。
+  pain_en: Cross-market trading forces switching among multiple broker and exchange terminals, with quotes,
+    positions and order entry scattered; manual monitoring and order placement is slow and error-prone.
+    Public materials contain no user complaints or loss data, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 现状是分别使用各市场的券商/交易所自带终端、独立行情软件，或自建脚本与量化框架拼接数据源和下单接口；公开材料未说明用户具体替代了哪一套流程。
+  current_alternative_en: Today users rely on each market's native broker/exchange terminal, separate
+    quote software, or self-built scripts and quant frameworks that stitch together data feeds and order
+    APIs; public materials do not say which specific stack is replaced.
+  usage_reason: 推断：相较在多个终端间手工切换，它把 19 个以上可热插拔连接器收进一个三栏界面，AI 直接基于接入的行情产出建议，且默认模拟运行、每笔实盘订单需人工批准，减少了跨终端搬运数据和手工下单的步骤，同时把
+    AI 输出限制在可复核范围内；因此同时交易多市场、又希望保留人工终审的交易者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manually switching among terminals, it puts 19+ hot-swappable connectors
+    into one three-column GUI, has the AI draft suggestions from the connected feeds, and defaults to
+    dry-run with human approval on every live order, cutting the steps of moving data across terminals
+    and placing orders by hand while keeping AI output reviewable; traders active across several markets
+    who still want a human final check would choose it in that situation.'

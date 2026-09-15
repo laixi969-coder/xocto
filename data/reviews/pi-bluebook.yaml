@@ -139,3 +139,53 @@
     task, removing the step of assembling a learning order, so Chinese-speaking teams rolling out a coding
     agent would use it as onboarding material. The public material gives no completion rate or team purchase
     evidence.'
+- id: req-full-pi-bluebook-2026-09-15
+  project_slug: pi-bluebook
+  level: full
+  reviewed_at: '2026-09-15T01:07:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文开发者上手编码 Agent 时缺少结构化中文路径的问题，痛点是官方英文文档概念跳跃、配置易卡住，不解决则无法把 Agent 接入日常开发；公开简介已能还原从安装到可验收任务的输入—动作—交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-adf7bbaf8d6a7a23
+    - ev-3b5b55d7fd8349d0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 139 增至 195，只反映开源关注度上升，没有读者反馈、完成率或团队采用证据，无法确认中文开发者是否真的把它留在学习工作流里。
+    evidence_ids:
+    - ev-adf7bbaf8d6a7a23
+    - ev-33d961daa0cb0b5c
+  - gate: model
+    status: insufficient
+    reason: 内容以开源形式发布，买方可能是企业培训、个人付费课程或赞助，但公开材料没有任何定价、采购或商业路径披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-adf7bbaf8d6a7a23
+  - gate: truth
+    status: insufficient
+    reason: 无法核对内容是否随上游版本更新、示例是否仍可运行，也没有配套练习与验收标准说明，交付确定性存疑。
+    evidence_ids:
+    - ev-adf7bbaf8d6a7a23
+    - ev-3b5b55d7fd8349d0
+  next_validation: 追踪 pi-bluebook 仓库的 issue、commit 更新记录与 release 说明，确认内容是否随上游 Pi Coding Agent 版本维护、示例是否可复现，以及是否出现团队采购或付费形态。
+  market: ''
+  job: 中文开发者在团队要求使用 Pi Coding Agent 时，需要按章节把安装、Session、Context、Skill、Extension、Subagent 配置跑通，并交付一个可验收的长期
+    Agent 工作流任务。
+  job_en: Chinese-speaking developers told to adopt the Pi Coding Agent need to work through installation,
+    Session, Context, Skill, Extension, and Subagent configuration chapter by chapter and deliver a verifiable
+    long-running agent workflow task.
+  pain: 官方文档以英文为主、概念跳跃，中文开发者容易卡在 Session 与 Context 配置环节，无法把 Agent 真正接入日常开发流程。
+  pain_en: Official documentation is mostly English and jumps between concepts, so Chinese-speaking developers
+    get stuck at Session and Context configuration and cannot fold the agent into daily development.
+  current_alternative: 现有做法是读英文官方文档、翻零散社区博客和视频，或在群里问人，自己拼出一条上手路径。
+  current_alternative_en: The current practice is to read English official docs, browse scattered community
+    blogs and videos, or ask in chat groups, piecing together an onboarding path alone.
+  usage_reason: 推断：相较零散英文资料，它把 Session、Context、Skill、Extension、Subagent 按从安装到第一个可验收任务的顺序串成中文路径，省掉读者自行拼装学习顺序这一步，因此中文团队在推行编码
+    Agent 时会拿它做入门材料；公开材料未给出读者完成率、团队采购或付费证据。
+  usage_reason_en: 'Inference: compared with scattered English material, it strings Session, Context,
+    Skill, Extension, and Subagent into a Chinese path ordered from installation to a first verifiable
+    task, removing the step of assembling a learning order, so Chinese-speaking teams rolling out a coding
+    agent would use it as onboarding material. The public material gives no completion rate, team purchase,
+    or payment evidence.'

@@ -230,3 +230,61 @@
     TopK and sampling as callable kernels, removing the step of implementing and tuning from scratch;
     the growing stars (235 to 327) suggest such demand exists, but public material offers no benchmarks
     or adoption cases, so sustained use remains an inference.'
+- id: req-full-deepselect-2026-09-15
+  project_slug: deepselect
+  level: full
+  reviewed_at: '2026-09-15T01:05:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSA 推理中 TopK 选择与采样的算子实现需求：没有优化 kernel，团队需自写或退回稠密注意力，长上下文下显存与延迟代价高。仓库定位与 star 从 235 增至
+      342 表明存在真实关注，但痛点强度与性能收益属工作流结构推理，尚无用户反馈或基准数据。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-6bc5233225684215
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库 star 从 235 增至 342 与仓库定位，属关注度而非持续采用；没有 issue、discussion、下游项目引用或部署案例说明谁在何种场景实际使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-6fb9b7965dea43c8
+    - ev-6bc5233225684215
+  - gate: model
+    status: insufficient
+    reason: 这是 DeepSeek 官方开源的 kernel 仓库，公开材料未显示定价、商业授权或付费主体；钱可能来自母公司生态或云服务间接变现，属判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-2f88068306de0570
+  - gate: truth
+    status: insufficient
+    reason: 仓库定位说明它提供 DSA 与采样器的 TopK kernel，但公开材料没有部署文档、基准数据或数值一致性验证，无法确认交付能否稳定发生及人工与安全边界。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-8be8c3374443b3ab
+  next_validation: 追踪 DeepSelect 仓库的 README、issue 与 discussion，确认是否有下游推理框架或团队公开报告接入方式、性能对比与数值一致性结果。
+  market: ''
+  job: 推理框架与模型部署工程师在把 DeepSeek Sparse Attention（DSA）模型接入自研或第三方推理栈时，需要处理稀疏注意力中每个 query 只保留 TopK 键值的选择步骤，并保证采样器与注意力选择在
+    GPU 上高效、数值一致地执行，从而让长上下文推理跑得动、跑得对。
+  job_en: Inference-framework and model-deployment engineers integrating DeepSeek Sparse Attention (DSA)
+    models into their own or third-party serving stacks must implement the per-query TopK key/value selection
+    step and keep the sampler numerically consistent and GPU-efficient, so long-context inference actually
+    runs and stays correct.
+  pain: DSA 的 TopK 选择与采样是稀疏注意力的关键路径，若没有经过优化的 kernel，工程团队只能自己写或退回稠密注意力：前者要处理索引、分块、数值一致性和 GPU 并行细节，容易出错且反复调试；后者在长上下文下显存与延迟代价高。公开材料只给出仓库定位与
+    star 增长，未提供用户抱怨或性能对比数据，痛点强度属工作流结构推理。
+  pain_en: TopK selection and sampling sit on DSA's critical path. Without optimized kernels, teams must
+    hand-write them—dealing with indexing, tiling, numerical consistency and GPU parallelism—or fall back
+    to dense attention, which costs memory and latency at long context. Public material gives only the
+    repo positioning and star growth, no user complaints or benchmarks, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 当前替代方式是各团队自行实现 TopK/采样 kernel、直接使用稠密注意力，或等待上游推理框架（如 vLLM、SGLang 等）内置 DSA 支持；公开材料未说明这些替代方案的具体实现与差距。
+  current_alternative_en: Today teams hand-roll TopK/sampling kernels, fall back to dense attention, or
+    wait for upstream serving frameworks (e.g. vLLM, SGLang) to ship DSA support; public material does
+    not describe these alternatives' implementations or gaps.
+  usage_reason: 推断：相较自写 kernel 或退回稠密注意力，DeepSelect 把 DSA 的 TopK 选择与采样封装成可直接调用的 kernel，减少工程团队自行处理索引、分块与数值一致性的步骤，并可能改善长上下文下的显存与延迟表现；因此正在部署
+    DSA 模型、又不想从零实现稀疏注意力算子的推理工程师会在接入阶段选择它。仓库 star 从 235 增至 342 只说明关注度上升，不构成采用理由。
+  usage_reason_en: 'Inference: versus hand-written kernels or dense fallback, DeepSelect packages DSA''s
+    TopK selection and sampling as callable kernels, removing the need to handle indexing, tiling and
+    numerical consistency oneself and potentially improving memory and latency at long context; hence
+    inference engineers deploying DSA models who do not want to implement sparse-attention operators from
+    scratch would pick it during integration. Star growth from 235 to 342 indicates attention, not a r'

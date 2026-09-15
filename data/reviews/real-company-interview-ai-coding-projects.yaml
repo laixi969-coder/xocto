@@ -372,3 +372,52 @@
   usage_reason_en: 'Inference: versus hunting scattered write-ups, the repo centralizes three anonymized
     prompts plus a general method, letting candidates practice against them directly and cutting the search-and-filter
     step, so those preparing for AI coding interviews star or fork it.'
+- id: req-full-real-company-interview-ai-coding-projects-2026-09-15
+  project_slug: real-company-interview-ai-coding-projects
+  level: full
+  reviewed_at: '2026-09-15T01:07:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI Coding 面试真题稀缺、求职者练习方向不明的痛点：仓库公开提供三个匿名化真实项目题与通用解题方法，替代零散面经与通用题库。痛点刚性来自面试结果直接关联求职，交付物为可练习题目与解法，结构上可确定；谁付钱未在公开材料中说明，属模式关问题。
+    evidence_ids:
+    - ev-c939643c9521102a
+    - ev-f8f1630d871eb95e
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 323 增至 333，说明开发者持续关注并收藏，但未见 issue、discussion 或用户反馈证明目标求职者已把它纳入长期备考流程，关注度不能等同于持续采用。
+    evidence_ids:
+    - ev-c939643c9521102a
+    - ev-f8f1630d871eb95e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断收入来自求职者 to C 订阅、企业 to B 采购还是仅靠开源维护；这是判断而非已验证事实，不取消需求成立。
+    evidence_ids:
+    - ev-c939643c9521102a
+  - gate: truth
+    status: insufficient
+    reason: 题目是否确为真实公司面试题、解题方法质量与更新维护节奏均无公开可复现证据，交付确定性与匿名化合规边界尚待核验。
+    evidence_ids:
+    - ev-c939643c9521102a
+    - ev-f8f1630d871eb95e
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认题目来源说明、解题方法文档及维护者是否公开回应真实性与更新计划。
+  market: ''
+  job: 准备 AI Coding 岗位面试的求职者在投递与面试前，拿到三个匿名化的真实公司项目题和一套通用解题方法，用来模拟练习并整理可复述的解题思路。
+  job_en: Job seekers preparing for AI coding interviews use three anonymized real-company project questions
+    plus a general solving method to rehearse and organize explainable solution approaches before applying
+    and interviewing.
+  pain: AI Coding 面试题缺乏公开真题，求职者只能刷通用算法题或零散面经，难以判断练习方向是否贴近真实项目考察；不解决则可能在面试中因题型陌生而失分。
+  pain_en: Real AI coding interview questions are rarely public, so candidates grind generic algorithm
+    problems or scattered interview notes and cannot tell whether their practice matches what companies
+    actually assess, risking failure on unfamiliar formats.
+  current_alternative: 公开替代是 LeetCode 类通用题库、论坛面经帖、付费面试辅导或自行搜集零散题目；这些材料与真实 AI Coding 项目题的匹配度不确定。
+  current_alternative_en: Current alternatives are generic problem banks like LeetCode, forum interview-note
+    threads, paid coaching, or self-collected scattered questions, none reliably matching real AI coding
+    project tasks.
+  usage_reason: 推断：相较零散面经，该仓库把三个匿名化真实项目题与一套通用解题方法集中成可直接练习的材料，减少求职者自行搜集和筛选题目这一步负担，因此正在准备 AI Coding 面试、需要贴近真实题型练习的求职者会在备考阶段选择它。
+  usage_reason_en: 'Inference: versus scattered interview notes, the repository bundles three anonymized
+    real project questions with a general solving method into directly practiceable material, removing
+    the step of self-collecting and filtering questions, so candidates preparing for AI coding interviews
+    choose it during their prep phase.'

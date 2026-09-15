@@ -1,0 +1,83 @@
+- id: req-initial-openjiuwen-首发双维度-rsi-框架ai-自修改落地办公智能体算力亲和助力又快又省-2026-09-15
+  project_slug: openjiuwen-首发双维度-rsi-框架ai-自修改落地办公智能体算力亲和助力又快又省
+  level: initial
+  reviewed_at: '2026-09-15T00:39:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从材料中还原，只有框架名称与算力卖点，价值关证据不足。
+    evidence_ids:
+    - ev-8d8f5b316a9973a2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：缺少可归因到该产品的采用、社区讨论或客户使用证据。
+    evidence_ids:
+    - ev-8d8f5b316a9973a2
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是 to C、to B 还是 to G，也无定价或付费路径信息。
+    evidence_ids:
+    - ev-8d8f5b316a9973a2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近办公工作的第一性目标，也无交付确定性与人工边界说明。
+    evidence_ids:
+    - ev-8d8f5b316a9973a2
+  next_validation: 收集 openJiuwen 官方项目页或文档，确认其办公智能体的输入材料、输出交付物与部署方式。
+  market: ''
+  job: 办公人员需要在日常办公流程中处理待办事项与文档材料，并完成相应任务；但公开材料未说明具体是谁、在哪个节点、处理什么材料、交付什么结果。
+  job_en: Office staff need to handle to-dos and document material in daily office workflows and complete
+    the corresponding tasks; however, public material does not specify who, at which step, with what material,
+    or with what deliverable.
+  pain: 报道只提到算力开销与自修改能力，未说明办公人员当前在哪一步感到痛苦、不采用会失去什么。
+  pain_en: The report only mentions compute cost and self-modification, without stating at which step
+    office staff feel pain or what they lose by not adopting it.
+  current_alternative: 公开材料未提供现有替代做法，无法确认此前该办公环节由谁、用什么工具完成。
+  current_alternative_en: Public material provides no existing alternative, so it is impossible to confirm
+    who previously did this office step and with what tool.
+  usage_reason: 无法判断：材料未说明产品通过哪个具体动作减少哪一步负担，也未提供用户反馈或客户案例，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which concrete action reduces which step''s
+    burden, and provides no user feedback or customer cases, so it cannot explain why users would choose
+    it.'
+- id: req-full-openjiuwen-首发双维度-rsi-框架ai-自修改落地办公智能体算力亲和助力又快又省-2026-09-15
+  project_slug: openjiuwen-首发双维度-rsi-框架ai-自修改落地办公智能体算力亲和助力又快又省
+  level: full
+  reviewed_at: '2026-09-15T01:06:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从材料中还原，只有框架名称与算力卖点，价值关证据不足。
+    evidence_ids:
+    - ev-8d8f5b316a9973a2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 openJiuwen 官方项目页或文档，确认其办公智能体的输入材料、输出交付物与部署方式。
+  market: ''
+  job: 办公人员需要在日常办公流程中处理待办与文档材料并完成相应任务；但公开材料未说明具体是谁、在哪个办公节点、处理什么材料、交付什么结果。
+  job_en: Office staff need to handle to-dos and document material in daily office workflows and complete
+    the corresponding tasks; however, public material does not specify who, at which step, with what material,
+    or with what deliverable.
+  pain: 报道只提到算力开销与自修改能力，未说明办公人员当前在哪一步感到痛苦、不采用会失去什么，痛点无法还原。
+  pain_en: The report only mentions compute cost and self-modification, without stating at which step
+    office staff feel pain or what they lose by not adopting it; the pain cannot be reconstructed.
+  current_alternative: 公开材料未提供现有替代做法，无法确认此前该办公环节由谁、用什么工具完成。
+  current_alternative_en: Public material provides no existing alternative, so it is impossible to confirm
+    who previously did this office step and with what tool.
+  usage_reason: 无法判断：材料未说明产品通过哪个具体动作减少哪一步负担，也未提供用户反馈或客户案例，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which concrete action reduces which step''s
+    burden, and provides no user feedback or customer cases, so it cannot explain why users would choose
+    it.'

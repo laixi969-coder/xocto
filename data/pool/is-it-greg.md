@@ -21,7 +21,7 @@ canonical_url: https://github.com/antoineleclair/is-it-greg
 summary: Is It Greg?
 first_seen: '2026-09-14T01:58:41Z'
 last_seen: '2026-09-15T00:38:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

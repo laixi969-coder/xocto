@@ -2,25 +2,22 @@
 slug: local
 name: Local
 builder: Lukas Wesemann
-category: AI + 效率
-summary_zh: Local 是一款面向 Mac 用户的本地 AI 工具，宣称零摩擦，直接在设备上运行 AI 模型，处理本地数据而无需上传云端。用户输入任务，AI 在本地执行，具体支持的任务类型和交付结果尚未明确。
-inspiration: 本地 AI 工具正从开发者走向普通用户，强调隐私和数据主权。切入点是针对 Mac 用户的本地优先场景，如离线写作、代码补全或文档处理，但需明确具体工作流和付费模式。
-summary_en: Local is a local AI tool for Mac users, claiming zero friction, running AI models directly
-  on the device and processing local data without cloud upload. Users input tasks, AI executes locally;
-  specific supported tasks and deliverables are not yet clear.
-inspiration_en: Local AI tools are moving from developers to mainstream users, emphasizing privacy and
-  data sovereignty. The entry point is local-first scenarios for Mac users, such as offline writing, code
-  completion, or document processing, but specific workflows and pricing models need clarification.
+category: 基础层
+summary_zh: Mac 用户在需要处理不便上传云端的文档或代码时打开 Local，由它在本地加载并运行模型，直接在本机完成问答或生成；用户拿到的是本机推理结果，具体支持的模型、输入格式与交付形态仍待核验。
+inspiration: 趋势是本地推理正从命令行玩家走向普通 Mac 用户，隐私与离线成为卖点。切入可考虑对数据不能出本机的律所、诊所、财务团队做预装式本地助手，按设备或年费交付，但需先确认其模型来源与硬件门槛。
+summary_en: Mac users open Local when handling documents or code they would rather not upload to the cloud;
+  it loads and runs a model on the machine to answer or generate locally. The exact supported models,
+  input formats and deliverables still need verification.
+inspiration_en: The trend is local inference moving from command-line hobbyists toward ordinary Mac users,
+  with privacy and offline use as the pitch. A wedge could be preinstalled local assistants for law firms,
+  clinics or finance teams whose data cannot leave the machine, sold per device or per year, but model
+  sourcing and hardware requirements must be confirmed first.
 priority_review: false
 project_type: new_application
-industries:
-- 个人效率
-industries_en:
-- Personal productivity
-jobs:
-- Mac 用户
-jobs_en:
-- Mac users
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
 regions: []
 regions_en: []
 open_source: false
@@ -29,7 +26,7 @@ canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
 last_seen: '2026-09-15T00:39:17Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - officialfeeds

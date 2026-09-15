@@ -1,6 +1,6 @@
 ---
 slug: openai-buys-smartphone-camera-maker-glass-imaging-for-300-mi
-name: OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Glass Imaging was founded by a pair of former Apple engineers who previ
   developed Apple's Portrait Mode.
 first_seen: '2026-09-14T20:44:14Z'
 last_seen: '2026-09-15T00:39:09Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
+# OpenAI
 
 Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.
 
