@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-14</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-15</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">应用微观经济学研究者（博士生、青年教师、RA）在拿到 WRDS/行政数据后，用 Stata 或 LLM 流水线跑事件研究、生成论文级表格，并在投稿或复现审查前确认每个数字能从原始数据重跑出来。</p>
-        <p>研究者目前靠自写 do-file 加手工整理、复制粘贴到 LaTeX，或依赖 AEA 数据编辑的复现检查；也有人用通用 AI 助手临时生成代码，但缺少针对应用微观流程与 WRDS/Stata 的固定技能封装。</p>
-        <p>从原始数据到论文表格的链路长且脆弱：清洗、样本筛选、回归设定、表格格式分散在多个脚本里，审稿人或复现者一旦要求重跑，作者常需数天手工对齐版本与路径；期刊复现政策趋严使这一环节从可选项变成硬约束。</p>
+        <p class="product-lead">应用微观经济学研究者拿到数据集后，需要完成回归、事件研究等分析并产出可复现的论文级表格，用于投稿或内部研究。</p>
+        <p>公开材料未说明研究者目前如何完成这些分析，也未说明该 skill 实际替代了什么旧流程。</p>
+        <p>公开材料仅描述该 skill 覆盖复现审计、LLM 流程方法、事件研究、WRDS、Stata 和论文表格，未提供用户痛点、发生频率或不解决的后果证据。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较自写脚本加手工对表，它把复现审计、事件研究设定、WRDS 取数与出版级表格封装成可复用的技能，让研究者在同一流程里生成并核对数字，减少重跑时逐脚本对齐版本与路径这一步；因此正在准备投稿或应对复现要求的应用微观研究者会在该阶段选用它。</p>
+        <p>公开材料未提供用户反馈或案例，无法说明相较现有做法用户为何选择它；仅凭功能描述不能推断使用动机。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：相较自写脚本加手工对表，它把复现审计、事件研究设定、WRDS 取数与出版级表格封装成可复用的技能，让研究者在同一流程里生成并核对数字，减少重跑时逐脚本对齐版本与路径这一步；因此正在准备投稿或应对复现要求的应用微观研究者会在该阶段选用它。</p>
+        <p><strong>值得拆解</strong>。公开材料未提供用户反馈或案例，无法说明相较现有做法用户为何选择它；仅凭功能描述不能推断使用动机。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -129,8 +129,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较自写脚本加手工对表，它把复现审计、事件研究设定、WRDS 取数与出版级表格封装成可复用的技能，让研究者在同一流程里生成并核对数字，减少重跑时逐脚本对齐版本与路径这一步；因此正在准备投稿或应对复现要求的应用微观研究者会在该阶段选用它。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 README、issue 与 discussion，确认是否公开复现审计的实测示例、支持的 Stata/WRDS 环境与人工复核边界。</p></div>
+        <div><span class="field-k">工作流推理</span><p>公开材料未提供用户反馈或案例，无法说明相较现有做法用户为何选择它；仅凭功能描述不能推断使用动机。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该 skill 的 公开代码仓库 仓库 README、issue 与 discussion，查找是否有研究者公开的使用案例、复现结果或部署文档，以确认具体任务与痛点。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -317,7 +317,7 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 442 个 →
+        AI + 开发 共 451 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -409,8 +409,8 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1508 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-14</span>
+    <span>1552 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-15</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
