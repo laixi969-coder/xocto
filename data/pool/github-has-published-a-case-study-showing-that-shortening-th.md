@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-14T00:12:56Z'
+last_seen: '2026-09-15T00:38:36Z'
 status: rejected
 sources:
 - newssearch
@@ -56,6 +56,12 @@ sightings:
   seen_at: '2026-09-14T00:12:56Z'
   metrics: {}
   kind: news
+- source: v2ex
+  url: https://github.com/caddyserver/xcaddy
+  seen_at: '2026-09-15T00:38:36Z'
+  metrics:
+    comments: 11
+  kind: product
 ---
 
 # GitHub

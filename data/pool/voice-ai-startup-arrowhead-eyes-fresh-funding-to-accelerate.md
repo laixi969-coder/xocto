@@ -1,0 +1,42 @@
+---
+slug: voice-ai-startup-arrowhead-eyes-fresh-funding-to-accelerate
+name: Voice AI startup Arrowhead eyes fresh funding to accelerate international expansion
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTWRNUXlDbDFVcmx5T0RDM0VGLWpvTThnbVpqTHFwTGVPc0pTaXlhbmFWNmJqZmpMblRvbzJ3QmNOcEVHeEVlOFFrbnFobUY4LXlfeEdRS3FtLThKN25qTU9QSlF6NXllajdqUk4xelVrbWEtbmFDUjV6SmJpT2E1UnVSM21HQ21WdVRnSG0xd2NHQTZJcFdTNWh2ckFBdElKOUlLQlZYVm16V0J5blpWZjhKZDVUQWlJeG00NkU2ZklFVGViS0NGX0dOQmV5S2plMmMySG5XWHBuT21zYS1FU3dUcVRKUm_SAewBQVVfeXFMTzkxMGdoYzB5Z3d5cm1aWDJydUNTeVBCVThLVmhIMUlmbE04R1R2S0l6ZEFXQUZjcXpwU3NJQ05aLTRVZC0yYWZ1QllzeW15YkkxQkl0OE5wSHhsT1V4Yk13RmlsV3dvMVVEdEh1RFZzSm9lWDU3S0pPbkJCMVM4Y2NpR2JaZ0lEM3dIdDZ2VlBqb0tkOVQyQTZDeUJIRXBpNnZDQ0pDZFdrN0lzRGw2U2hELVFyZ2FMQ1h3X1hWUG10S1Z3V0NrU2pTZmVXd2g3QVJBRU9CUGFQWjdXQjRNeTBVaklIeGoxY0RzX1A?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTWRNUXlDbDFVcmx5T0RDM0VGLWpvTThnbVpqTHFwTGVPc0pTaXlhbmFWNmJqZmpMblRvbzJ3QmNOcEVHeEVlOFFrbnFobUY4LXlfeEdRS3FtLThKN25qTU9QSlF6NXllajdqUk4xelVrbWEtbmFDUjV6SmJpT2E1UnVSM21HQ21WdVRnSG0xd2NHQTZJcFdTNWh2ckFBdElKOUlLQlZYVm16V0J5blpWZjhKZDVUQWlJeG00NkU2ZklFVGViS0NGX0dOQmV5S2plMmMySG5XWHBuT21zYS1FU3dUcVRKUm_SAewBQVVfeXFMTzkxMGdoYzB5Z3d5cm1aWDJydUNTeVBCVThLVmhIMUlmbE04R1R2S0l6ZEFXQUZjcXpwU3NJQ05aLTRVZC0yYWZ1QllzeW15YkkxQkl0OE5wSHhsT1V4Yk13RmlsV3dvMVVEdEh1RFZzSm9lWDU3S0pPbkJCMVM4Y2NpR2JaZ0lEM3dIdDZ2VlBqb0tkOVQyQTZDeUJIRXBpNnZDQ0pDZFdrN0lzRGw2U2hELVFyZ2FMQ1h3X1hWUG10S1Z3V0NrU2pTZmVXd2g3QVJBRU9CUGFQWjdXQjRNeTBVaklIeGoxY0RzX1A?oc=5
+summary: Voice AI startup Arrowhead eyes fresh funding to accelerate international expansion The Economic
+  Times
+first_seen: '2026-09-14T07:23:50Z'
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTWRNUXlDbDFVcmx5T0RDM0VGLWpvTThnbVpqTHFwTGVPc0pTaXlhbmFWNmJqZmpMblRvbzJ3QmNOcEVHeEVlOFFrbnFobUY4LXlfeEdRS3FtLThKN25qTU9QSlF6NXllajdqUk4xelVrbWEtbmFDUjV6SmJpT2E1UnVSM21HQ21WdVRnSG0xd2NHQTZJcFdTNWh2ckFBdElKOUlLQlZYVm16V0J5blpWZjhKZDVUQWlJeG00NkU2ZklFVGViS0NGX0dOQmV5S2plMmMySG5XWHBuT21zYS1FU3dUcVRKUm_SAewBQVVfeXFMTzkxMGdoYzB5Z3d5cm1aWDJydUNTeVBCVThLVmhIMUlmbE04R1R2S0l6ZEFXQUZjcXpwU3NJQ05aLTRVZC0yYWZ1QllzeW15YkkxQkl0OE5wSHhsT1V4Yk13RmlsV3dvMVVEdEh1RFZzSm9lWDU3S0pPbkJCMVM4Y2NpR2JaZ0lEM3dIdDZ2VlBqb0tkOVQyQTZDeUJIRXBpNnZDQ0pDZFdrN0lzRGw2U2hELVFyZ2FMQ1h3X1hWUG10S1Z3V0NrU2pTZmVXd2g3QVJBRU9CUGFQWjdXQjRNeTBVaklIeGoxY0RzX1A?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+---
+
+# Voice AI startup Arrowhead eyes fresh funding to accelerate international expansion
+
+Voice AI startup Arrowhead eyes fresh funding to accelerate international expansion The Economic Times
+
+## 笔记
+
+

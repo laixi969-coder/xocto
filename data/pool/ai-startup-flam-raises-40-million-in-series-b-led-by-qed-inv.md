@@ -1,0 +1,42 @@
+---
+slug: ai-startup-flam-raises-40-million-in-series-b-led-by-qed-inv
+name: AI startup Flam raises $40 million in Series B led by QED Investors; Shah Rukh Khan joins round
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi_AFBVV95cUxORW1YeU1xLV8za1hZTFdQT1dlLWo0dDZ3UlhwZlZiRGJhb0lJTFJaZEZtU1d5V3p2RldRTTk4bGhHRGxwWFFGVUFicTBUMTNDdGVlQV9LNU51a0s0X1hMSFM5SlY4a2VVaWx2b01EWnU5aDJwTXd2MjItN1QxYzFqMWFQLWxpcnVwMFZHUjl5ZGk5NmE5VktMNGdoVE5JNVBiNzQ0ZGJ5WTJiZXFZZU5tcHV5NEdHbmp6WVRWQndRWUMwLU0tNXJFZHVQWmdKSm5CV1hwd0NWNmtsZXBFbFhoV0NjLVVYQ2VIRExJQ0JCU1pZNlRyc18tOUFOWjjSAYICQVVfeXFMTTV6dkMtQkIxUm93RmY4NmdZNFM3S1p1OHBpeWNKZWxacTZ6cnJET1g5N2JoM291RGh5TU9ob3BGQ0VJNm04S1lxaXNvZWd2TlFkb0FtdEZQdkRSSU5zNE1Eb21oSTZQcmNIS3ZiODRyWkFBQU1Xb2pzVHpXWkwwTFJMcVpqUHYyeTR6WjVmMDVRUnFoTVBsMWRfeHZhTWYycERUeXBTUkg5aUswaHhxdUJqRmZIT0FTQXNWTzlENjhpNVh1dEtXN05rQm5YSzRZWmZEQlBNM25ER3JvTTlrQ2YxYUtsZHZvV3RwMnd4VmUydHg3Z2NQcEEwS3pDaVAtTXpR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi_AFBVV95cUxORW1YeU1xLV8za1hZTFdQT1dlLWo0dDZ3UlhwZlZiRGJhb0lJTFJaZEZtU1d5V3p2RldRTTk4bGhHRGxwWFFGVUFicTBUMTNDdGVlQV9LNU51a0s0X1hMSFM5SlY4a2VVaWx2b01EWnU5aDJwTXd2MjItN1QxYzFqMWFQLWxpcnVwMFZHUjl5ZGk5NmE5VktMNGdoVE5JNVBiNzQ0ZGJ5WTJiZXFZZU5tcHV5NEdHbmp6WVRWQndRWUMwLU0tNXJFZHVQWmdKSm5CV1hwd0NWNmtsZXBFbFhoV0NjLVVYQ2VIRExJQ0JCU1pZNlRyc18tOUFOWjjSAYICQVVfeXFMTTV6dkMtQkIxUm93RmY4NmdZNFM3S1p1OHBpeWNKZWxacTZ6cnJET1g5N2JoM291RGh5TU9ob3BGQ0VJNm04S1lxaXNvZWd2TlFkb0FtdEZQdkRSSU5zNE1Eb21oSTZQcmNIS3ZiODRyWkFBQU1Xb2pzVHpXWkwwTFJMcVpqUHYyeTR6WjVmMDVRUnFoTVBsMWRfeHZhTWYycERUeXBTUkg5aUswaHhxdUJqRmZIT0FTQXNWTzlENjhpNVh1dEtXN05rQm5YSzRZWmZEQlBNM25ER3JvTTlrQ2YxYUtsZHZvV3RwMnd4VmUydHg3Z2NQcEEwS3pDaVAtTXpR?oc=5
+summary: AI startup Flam raises $40 million in Series B led by QED Investors; Shah Rukh Khan joins round
+  Moneycontrol.com
+first_seen: '2026-09-14T17:46:20Z'
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi_AFBVV95cUxORW1YeU1xLV8za1hZTFdQT1dlLWo0dDZ3UlhwZlZiRGJhb0lJTFJaZEZtU1d5V3p2RldRTTk4bGhHRGxwWFFGVUFicTBUMTNDdGVlQV9LNU51a0s0X1hMSFM5SlY4a2VVaWx2b01EWnU5aDJwTXd2MjItN1QxYzFqMWFQLWxpcnVwMFZHUjl5ZGk5NmE5VktMNGdoVE5JNVBiNzQ0ZGJ5WTJiZXFZZU5tcHV5NEdHbmp6WVRWQndRWUMwLU0tNXJFZHVQWmdKSm5CV1hwd0NWNmtsZXBFbFhoV0NjLVVYQ2VIRExJQ0JCU1pZNlRyc18tOUFOWjjSAYICQVVfeXFMTTV6dkMtQkIxUm93RmY4NmdZNFM3S1p1OHBpeWNKZWxacTZ6cnJET1g5N2JoM291RGh5TU9ob3BGQ0VJNm04S1lxaXNvZWd2TlFkb0FtdEZQdkRSSU5zNE1Eb21oSTZQcmNIS3ZiODRyWkFBQU1Xb2pzVHpXWkwwTFJMcVpqUHYyeTR6WjVmMDVRUnFoTVBsMWRfeHZhTWYycERUeXBTUkg5aUswaHhxdUJqRmZIT0FTQXNWTzlENjhpNVh1dEtXN05rQm5YSzRZWmZEQlBNM25ER3JvTTlrQ2YxYUtsZHZvV3RwMnd4VmUydHg3Z2NQcEEwS3pDaVAtTXpR?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+---
+
+# AI startup Flam raises $40 million in Series B led by QED Investors; Shah Rukh Khan joins round
+
+AI startup Flam raises $40 million in Series B led by QED Investors; Shah Rukh Khan joins round Moneycontrol.com
+
+## 笔记
+
+

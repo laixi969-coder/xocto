@@ -39,11 +39,12 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPSHdTN3UwQm4y
 summary: ACTO Achieves Veeva Gold Product Partner Status, Following a Nearly Decade-Long Collaboration
   Supporting Mutual Customer Success Yahoo Finance
 first_seen: '2026-09-02T12:30:00Z'
-last_seen: '2026-09-13T00:02:40Z'
-status: watching
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPSHdTN3UwQm4yR3ljYi1qX1ZlSmZ6MVVkRFRheVJPYmNzcHhFZS1oaGs0SUFlVUtWR1JqelFxSGhDdkk1YkFteWcyN0dGQVdVREtTSk02MmJhdXFPcHlMaXdYU3QxWnIzZU8zMkxaRjgtNV9Md3FpbkJxRGd0NVhJdG9mMW1XeGZKWTJIaHBwVjNoT3l1bWR3cA?oc=5
@@ -70,6 +71,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNU201c0FtVXBraWN3VXVwcmN4bkctTDZJZERkR2c2VVk3VmdOS2xMM0dZMF9qWHVkb1d5YjN3WTZYZE83T2VtM05ncW4wMGFERnRFMkxMZHVVMmJwWExNM0xjbVdVTGZFQ1pSMHVwcGVwdU9lZnhOMXowaFhjTzAxWXBxSUwwbU9wZVE4YmFfQzg4anZJelVFT21XSQ?oc=5
   seen_at: '2026-09-13T00:02:40Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/14/fastwebvodafone-backs-italian-insurtech-mama-insurance-in-new-funding-round/
+  seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT09mNTN3QldkdExIZWVjZnZSNE1vUy04dmIxUjF1YnVFR0RWRl84UmhlajhVUEJLMnl6VUVGQmJCcWE5WU0yWmdmYzdseG5UcXFkbXh4VkJ6dXNXb3FuNWMzRktxazlWQW12b2ptWWtycWJDN2I0dGFUa3IwckM4TlN1MFFRVFpFZEIzRkc0Q2pRdkVZNTRlZVdBNzZyM2s5X29VeDdncG90S2Vmc2dsOUdESVcwU19t?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

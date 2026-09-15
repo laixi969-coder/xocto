@@ -1,0 +1,42 @@
+---
+slug: founder-quits-75-lakh-tech-job-loses-all-startup-customers-a
+name: Founder quits ₹75 lakh tech job, loses all startup customers after AI disrupts first product
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPazRDZ01xMG1sRWUzRHZzLWhBSE1sbmpHdmlsNmtzZl9RemtpSjJBZk9tQnM4S0x6Yk9Ic25LYVhRNG5FQ25OWkxscVZnd1VnZFB5NGRXMGhkZGl5U3hPSTJuSnNTUFpqRkhRd1lnR296WGROQXFkbGx3OExiVzh6SjRXcEJXX2F4OW1tMnpMUlVTTEh0Mk9aTXNVLTRIWWM1RTNwa0tfWmxwdU12U3pybGVMeEhkYmVSSnkycE1TZk9JRDVYd2g0TExHSVFfalhWNWNyWjN0V1BNRUVxek1Ic0g4cG5HZ03SAecBQVVfeXFMT2s0Q2dNcTBtbEVlM0R2cy1oQUhNbG5qR3ZpbDZrc2ZfUXpraUoyQWZPbUJzOEtMemJPSHNuS2FYUTRuRUNuTlpMbHFWZ3dVZ2RQeTRkVzBoZGRpeVN4T0kybkpzU1BaakZIUXdZZ0dvelhkTkFxZGxsdzhMYlc4eko0V3BCV19heDltbTJ6TFJVU0xIdDJPWk1zVS00SFljNUUzcGtLX1pscHVNdlN6cmxlTHhIZGJlUkp5MnBNU2ZPSUQ1WHdoNExMR0lRX2pYVjVjclozdFdQTUVFcXpNSHNIOHBuR2dN?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPazRDZ01xMG1sRWUzRHZzLWhBSE1sbmpHdmlsNmtzZl9RemtpSjJBZk9tQnM4S0x6Yk9Ic25LYVhRNG5FQ25OWkxscVZnd1VnZFB5NGRXMGhkZGl5U3hPSTJuSnNTUFpqRkhRd1lnR296WGROQXFkbGx3OExiVzh6SjRXcEJXX2F4OW1tMnpMUlVTTEh0Mk9aTXNVLTRIWWM1RTNwa0tfWmxwdU12U3pybGVMeEhkYmVSSnkycE1TZk9JRDVYd2g0TExHSVFfalhWNWNyWjN0V1BNRUVxek1Ic0g4cG5HZ03SAecBQVVfeXFMT2s0Q2dNcTBtbEVlM0R2cy1oQUhNbG5qR3ZpbDZrc2ZfUXpraUoyQWZPbUJzOEtMemJPSHNuS2FYUTRuRUNuTlpMbHFWZ3dVZ2RQeTRkVzBoZGRpeVN4T0kybkpzU1BaakZIUXdZZ0dvelhkTkFxZGxsdzhMYlc4eko0V3BCV19heDltbTJ6TFJVU0xIdDJPWk1zVS00SFljNUUzcGtLX1pscHVNdlN6cmxlTHhIZGJlUkp5MnBNU2ZPSUQ1WHdoNExMR0lRX2pYVjVjclozdFdQTUVFcXpNSHNIOHBuR2dN?oc=5
+summary: Founder quits ₹75 lakh tech job, loses all startup customers after AI disrupts first product
+  Storyboard18
+first_seen: '2026-09-12T04:46:01Z'
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPazRDZ01xMG1sRWUzRHZzLWhBSE1sbmpHdmlsNmtzZl9RemtpSjJBZk9tQnM4S0x6Yk9Ic25LYVhRNG5FQ25OWkxscVZnd1VnZFB5NGRXMGhkZGl5U3hPSTJuSnNTUFpqRkhRd1lnR296WGROQXFkbGx3OExiVzh6SjRXcEJXX2F4OW1tMnpMUlVTTEh0Mk9aTXNVLTRIWWM1RTNwa0tfWmxwdU12U3pybGVMeEhkYmVSSnkycE1TZk9JRDVYd2g0TExHSVFfalhWNWNyWjN0V1BNRUVxek1Ic0g4cG5HZ03SAecBQVVfeXFMT2s0Q2dNcTBtbEVlM0R2cy1oQUhNbG5qR3ZpbDZrc2ZfUXpraUoyQWZPbUJzOEtMemJPSHNuS2FYUTRuRUNuTlpMbHFWZ3dVZ2RQeTRkVzBoZGRpeVN4T0kybkpzU1BaakZIUXdZZ0dvelhkTkFxZGxsdzhMYlc4eko0V3BCV19heDltbTJ6TFJVU0xIdDJPWk1zVS00SFljNUUzcGtLX1pscHVNdlN6cmxlTHhIZGJlUkp5MnBNU2ZPSUQ1WHdoNExMR0lRX2pYVjVjclozdFdQTUVFcXpNSHNIOHBuR2dN?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+---
+
+# Founder quits ₹75 lakh tech job, loses all startup customers after AI disrupts first product
+
+Founder quits ₹75 lakh tech job, loses all startup customers after AI disrupts first product Storyboard18
+
+## 笔记
+
+

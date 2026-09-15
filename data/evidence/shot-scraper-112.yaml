@@ -1,0 +1,15 @@
+- id: ev-f8112de1b0a16ea0
+  project_slug: shot-scraper-112
+  url: https://simonwillison.net/2026/Sep/13/shot-scraper/
+  title: shot-scraper 1.12
+  published_at: '2026-09-13T23:58:14Z'
+  collected_at: '2026-09-15T00:39:09Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Release:   shot-scraper 1.12  \n         I've added WebP support to my  shot-scraper  screenshot\
+    \ automation tool. You can now take a WebP screenshot of a web page like this: \n  shot-scraper https://simonwillison.net\
+    \ -o screenshot.webp --quality 80\n  \n The  --quality  option sets the quality - without that option\
+    \ the WebP file will be lossless. \n In my experience WebP screenshots are almost always significantly\
+    \ smaller in file size than their JPEG or PNG equivalents. See  the PR  for some examples. \n I shipped\
+    \ this feature so I could use it to generate the screenshot  for my new commit-rewriter tool . \n\
+    \    \n    \n         Tags:  playwright ,  shot-scraper"

@@ -45,18 +45,18 @@ summary: Cross-platform remote desktop for macOS and Windows with hardware accel
   support, clipboard transfer for text, images, files and folders, and MCP integration for AI agents to
   connect to and control remote computers.
 first_seen: '2026-09-08T03:53:34Z'
-last_seen: '2026-09-14T00:12:35Z'
+last_seen: '2026-09-15T00:38:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/VaderChen
-  seen_at: '2026-09-14T00:12:35Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
-    stars: 200
-    forks: 30
-    open_issues: 3
+    stars: 228
+    forks: 33
+    open_issues: 6
   kind: product
 ---
 

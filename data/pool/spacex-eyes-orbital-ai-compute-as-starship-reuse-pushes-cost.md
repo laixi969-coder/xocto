@@ -23,14 +23,20 @@ url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQWWczdGdqS0ZUX0gzM2NZQz
 canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQWWczdGdqS0ZUX0gzM2NZQzBWaFcxQzk0dlUxWlM1RktWMU1udWhoZW5YSlVJWldudmJCXzhDMWR5LWZUM3M1QVpSSU5XT19PNzBpd3I0N0c3aXpuME5XZXR3QmdKZmh5eFBTbjRBSGVJZEFoZ05DdXMyNlZkSFJLRk9aRnp4SklDbG9keV9JcHVQTmhiVGdvOFd4UUVhaHZfTDBIanl1TWVwak9VVTdZaEt2UzlGdkNGQjZVYUdGSUw1RlRXRThR?oc=5
 summary: SpaceX Eyes Orbital AI Compute as Starship Reuse Pushes Costs Lower tradingview.com
 first_seen: '2026-09-12T08:02:00Z'
-last_seen: '2026-09-14T00:13:04Z'
-status: market_context
+last_seen: '2026-09-15T00:39:09Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQWWczdGdqS0ZUX0gzM2NZQzBWaFcxQzk0dlUxWlM1RktWMU1udWhoZW5YSlVJWldudmJCXzhDMWR5LWZUM3M1QVpSSU5XT19PNzBpd3I0N0c3aXpuME5XZXR3QmdKZmh5eFBTbjRBSGVJZEFoZ05DdXMyNlZkSFJLRk9aRnp4SklDbG9keV9JcHVQTmhiVGdvOFd4UUVhaHZfTDBIanl1TWVwak9VVTdZaEt2UzlGdkNGQjZVYUdGSUw1RlRXRThR?oc=5
   seen_at: '2026-09-14T00:13:04Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/488699.html
+  seen_at: '2026-09-15T00:39:09Z'
   metrics: {}
   kind: news
 ---

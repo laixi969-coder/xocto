@@ -21,14 +21,20 @@ canonical_url: https://openai.com/index/gpt-6-astra-next-generation-work
 summary: Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer
   use, and stronger writing and design judgment.
 first_seen: '2026-09-09T11:00:00Z'
-last_seen: '2026-09-10T05:13:54Z'
+last_seen: '2026-09-15T00:39:17Z'
 status: pending_filter
 sources:
 - officialfeeds
+- newssearch
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/gpt-6-astra-next-generation-work
   seen_at: '2026-09-10T05:13:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiakFVX3lxTE5CMVNUYU5VZ0ZwQm56OGo4bVhKSmtEU1dLT01wR0hmbzE2ektwRS1LNnVqRkVha3ZzLXJyVE9GdHpMREM5dnRXS1Q2MHJoNGV3RFVLZ3VvZ3dwcGphbnI2RWx4dnFBMWM0Zmc?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

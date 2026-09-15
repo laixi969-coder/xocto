@@ -32,17 +32,17 @@ summary: I had a bunch of extra Fable credits, so I spent around $10k in api cos
   loops on the top 200 github repos with frontends. The goal was to speed up the frontend &#x2F; improve
   the lighthouse score. I …
 first_seen: '2026-09-13T18:24:29Z'
-last_seen: '2026-09-14T00:12:30Z'
+last_seen: '2026-09-15T00:38:38Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://makefaster.dev
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 8
-    comments: 1
+    points: 17
+    comments: 2
   kind: product
 ---
 

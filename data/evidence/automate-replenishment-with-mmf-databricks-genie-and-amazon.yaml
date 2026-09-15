@@ -1,0 +1,12 @@
+- id: ev-0c8c1f28eb9ffef9
+  project_slug: automate-replenishment-with-mmf-databricks-genie-and-amazon
+  url: https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/
+  title: Automate replenishment with MMF, Databricks Genie, and Amazon Quick
+  published_at: '2026-09-14T15:42:06Z'
+  collected_at: '2026-09-15T00:39:08Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the
+    forecast. This post builds a closed detect-decide-act loop on Databricks and Amazon Quick that reconciles
+    demand surges against live supplier availability and places replenishment orders unattended, escalating
+    to a human only when no supplier can cover a surge.

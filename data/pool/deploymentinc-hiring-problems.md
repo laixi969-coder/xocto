@@ -39,17 +39,17 @@ summary: 'Deployment.inc puts engineers inside enterprises to take AI from demo 
   is not "make the model smarter." It is: hit a number under a budget, on someone else''s data, with a
   security team watching, and explain to a business owner why the number is what it is.'
 first_seen: '2026-09-03T12:27:43Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-15T00:38:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Deployment-inc/Deployment.inc-Hiring-Problems
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
     stars: 45
-    forks: 24
+    forks: 25
     open_issues: 2
   kind: product
 ---

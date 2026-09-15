@@ -20,16 +20,16 @@ url: https://www.kibblebites.com/app/
 canonical_url: https://kibblebites.com/app
 summary: a reader for AI news, tutorials, code and models
 first_seen: '2026-09-13T19:39:57Z'
-last_seen: '2026-09-14T00:12:30Z'
+last_seen: '2026-09-15T00:38:38Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.kibblebites.com/app/
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

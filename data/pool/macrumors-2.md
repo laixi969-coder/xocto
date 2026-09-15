@@ -20,7 +20,7 @@ url: https://www.macrumors.com/2026/08/31/google-maps-lake-america/
 canonical_url: https://macrumors.com/2026/08/31/google-maps-lake-america
 summary: Google Maps Showing 'Lake America' in U.S.
 first_seen: '2026-08-31T13:40:46Z'
-last_seen: '2026-09-01T14:55:58Z'
+last_seen: '2026-09-15T00:38:38Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 32
     comments: 41
+  kind: news
+- source: hackernews
+  url: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/
+  seen_at: '2026-09-15T00:38:38Z'
+  metrics:
+    points: 219
+    comments: 154
   kind: news
 ---
 

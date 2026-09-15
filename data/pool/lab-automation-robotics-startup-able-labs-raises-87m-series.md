@@ -33,8 +33,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-14T00:12:30Z'
-status: rejected
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -182,10 +182,20 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.vals.ai/blogs/fable-solves-cyphral-distich
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 351
-    comments: 138
+    points: 1171
+    comments: 545
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/startups/cap-table-dead-weight-avoiding-litigation-siegel-grellas/
+  seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1NazRMOHJlSi1sTkItdGpUbTl4cXdRMHRyZmdmUWdYc3A1bllGcS1kVkpxNjV0UmtOSVZYdHJzTHphcV9NYk1yTVRaSl9WR0Fpckl0cWVIbEx2Z3VOOGRVaHhrX09OdTAxWE4wUQ?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
   kind: news
 ---
 

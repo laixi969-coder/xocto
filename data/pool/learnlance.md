@@ -36,16 +36,16 @@ url: https://github.com/aeroscissorz/learnlance/
 canonical_url: https://github.com/aeroscissorz/learnlance
 summary: I built my own knowledge graph from the code AI writes
 first_seen: '2026-09-13T15:07:42Z'
-last_seen: '2026-09-14T00:12:30Z'
+last_seen: '2026-09-15T00:38:38Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/aeroscissorz/learnlance/
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 6
+    points: 8
     comments: 4
   kind: product
 ---

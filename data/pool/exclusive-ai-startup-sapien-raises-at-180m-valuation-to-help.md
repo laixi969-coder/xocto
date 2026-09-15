@@ -21,14 +21,19 @@ canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxONFFwNWtYTDhq
 summary: 'Exclusive: AI startup Sapien raises at $180M valuation to help companies find what’s really
   driving profit fortune.com'
 first_seen: '2026-09-08T12:21:00Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: market_context
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMivwFBVV95cUxONFFwNWtYTDhqNDFJbzVPTDBMNjNfR1EzSm1kaTkwaFpFVUlRZkxlbVhqcHJ4czB6U1RMM2dOZEV2NWRsOTJJTFNUREhMU3M3RXhhZUVkTDlkRmltREQyTlJuWW5lSFFiZWNMTklwZlhRajJpVXp6S191WW9tbGlHeUpJYm9TMEM2UzlwYzJxYkJ4NHF4S2tPeEJ6UjhXdHc2YWdiUlFxSUN0Uld6NTlTS2NzSndOTVhOMk9SUV96aw?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQc1d5b0o4QjZfNXhOUDZNdjlxWi02NHRpck9GU2VFTFJTTjhnSUE2QkJBUXQyS1dnWFNJX3puME1uRmpoY2FKdVhoOHEyYlZtX29tcWVlRk00VFc2MWZVOW9mVHQ3dUZmRy1mRG1VSGg0STRoajg0MlNvSmJPTkRKUDc0ZFgwY2NNajI5amNLWFY4WHppRGc?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

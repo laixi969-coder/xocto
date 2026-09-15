@@ -21,8 +21,8 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: rejected
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -65,6 +65,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN05rS3BCOEZDb28wNG1MQk12UUpQMkFZUDhsZ01MV3I2WGRQX3hKYVpCczFyaHA2OUxlc2E3elN0WnhZVkxkVHlXemlKSUNTbm1vWUw2WDMwdHNBYks1Mll4RDBuWUFrNDFFZWxRSVRUb0V5UklRVUZJZzlmcWZSS0gzbURCYVdyVk4wVk9rU2FZSW93N1QtYzlBVWh1Xy0wXzVaaE5EUTNoVmc?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/
+  seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxNeElUS3QyVlk4M2RxeEZWdExvc01EOXZzMHRDUVkxV1Q5azBaclItNFd0c184QXZnUmhuZF9tZmFJRTFzeWprMjZHaFdkNVpLSjRrMXBMRlJwV3M4bW9HaW53MHVmNDRQZjQ5STdobXJucmdhd2Vad2pvUl80SndQMlZ0UWd3Y0k4S29YY3FSTUlncHdGWURxbnlwUUc2UdIBqwFBVV95cUxQaXZDd2FiU0Rmd3dSejU1YUxxSEh3NXBFUXAweTRwWklmWm9MUFl6WWpsSUNXZmZ5NlhhVDZTcm5ILWY2OWZCSGJBS0x6TTVXakJZWHplMExrQjlnN1luSnM3YnJobjFVZVIyaGljX21WbHg4UllaZkVjbmtRaFBnR0RMeVBlbGlwX08xUTN5VlFFa2gzWHUwekZ5Q01uUTJsaG13b1JaSnpqcWM?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

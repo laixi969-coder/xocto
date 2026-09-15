@@ -20,17 +20,17 @@ url: https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jar
 canonical_url: https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript
 summary: There Is No AI (It's Just People) with Jaron Lanier
 first_seen: '2026-09-13T19:41:06Z'
-last_seen: '2026-09-14T00:12:30Z'
-status: rejected
+last_seen: '2026-09-15T00:38:38Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 62
-    comments: 79
+    points: 77
+    comments: 109
   kind: news
 ---
 

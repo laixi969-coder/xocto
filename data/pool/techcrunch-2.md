@@ -25,18 +25,18 @@ url: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-we
 canonical_url: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too
 summary: Garry Tan wants US open-weight AI labs to 'distill' frontier models, too
 first_seen: '2026-09-13T15:44:38Z'
-last_seen: '2026-09-14T00:12:56Z'
-status: market_context
+last_seen: '2026-09-15T00:38:38Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
 sightings:
 - source: hackernews
   url: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 332
-    comments: 169
+    points: 405
+    comments: 232
   kind: news
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/

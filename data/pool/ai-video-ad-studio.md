@@ -36,16 +36,16 @@ url: https://github.com/Kaleidoscope-XinFang/ai-video-ad-studio
 canonical_url: https://github.com/Kaleidoscope-XinFang/ai-video-ad-studio
 summary: ''
 first_seen: '2026-09-06T12:09:13Z'
-last_seen: '2026-09-14T00:12:35Z'
+last_seen: '2026-09-15T00:38:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Kaleidoscope-XinFang/ai-video-ad-studio
-  seen_at: '2026-09-14T00:12:35Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
-    stars: 147
+    stars: 161
     forks: 3
     open_issues: 0
   kind: product

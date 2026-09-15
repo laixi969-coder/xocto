@@ -35,16 +35,16 @@ canonical_url: https://github.com/jiabaobei/memory-bridge
 summary: 记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP
   implementation)
 first_seen: '2026-08-29T04:34:06Z'
-last_seen: '2026-09-14T00:12:35Z'
+last_seen: '2026-09-15T00:38:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jiabaobei/memory-bridge
-  seen_at: '2026-09-14T00:12:35Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
-    stars: 111
+    stars: 116
     forks: 1
     open_issues: 0
   kind: product

@@ -67,3 +67,21 @@
   source_kind: market_signal
   tier: independent
   fact: 出身寒微不是耻辱，放弃自己才是。
+- id: ev-bc69a2cd7028e235
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1241952
+  title: 连续肝了好几周， tauri 开发的轻量级数据库管理软件 DataZen v0.2.0 版本终于发布了
+  published_at: '2026-09-14T10:49:22Z'
+  collected_at: '2026-09-15T00:38:36Z'
+  source_kind: product
+  tier: independent
+  fact: "## 前言\r\n\r\n之前在 V2EX 上发了两篇关于 DataZen 的帖子，尤其是上一篇发完之后有很多朋友到 github 上给了 star ，特别感谢大家的支持，同时也有很多朋友提出了宝贵的意见，让我意识到这个赛道的竞争到底有多激烈。重量级传统选手有\
+    \ Navicat/DataGrip/DBeaver/TablePlus 等等，最近的 DBX 也很火功能也很强大。既然这个赛道竞争这么激烈，我为啥还要继续做 v0.2.0 版本呢，实事求是的说，一个是\
+    \ vibe coding 极大的降低了开发成本，另一个也是寻求一个技术人的最后尊严吧：还想在这个代码急剧贬值的时代证明自己的价值，我可以不写代码了，但是我依然可以做出一个架构良好的软件，我做的软件依然比绝大部分零编程基础的人用\
+    \ vibe coding 出来的软件要好。接下来就给大家简单介绍一下 DataZen 的大体架构。\r\n\r\n## DataZen 的大体架构\r\n\r\n总体上来说，DataZen 采用的是\
+    \ Host + 插件的架构。插件又包括运行时插件、编译期插件以及外观主题插件、Workspace App 。\r\n\r\n### 一、编译期插件（驱动插件）\r\n\r\n编译期主要是用来支持不同的数据库\
+    \ driver ，这个方案的灵感来自 Caddy 的 [xcaddy]( https://github.com/caddyserver/xcaddy) 方案：在编译前选择我需要使用到的功能模块，通过编译脚本将所需模块写入\
+    \ main.go 中的 import 部分，编译后就自然带上了选择好的功能模块。那为啥用这个方案呢？主要是 rust 的 ABI 兼容做得不咋地，如果做成 DDL 会存在不可控的二进制兼容性问题。当然也可以考虑将驱动做成独立的进程，host\
+    \ 和驱动插件之间通过进程间通信来控制数据库操作，但这个方案相对比较复杂，暂时不考虑。\r\n\r\nDriver 插件有几个要考虑的点：\r\n\r\n- 既然是走插件架构，那就要做到插件相关的逻辑不能污染侵入到\
+    \ host 中，比如不能在 host 中有 ```if driver == 'postgre'``` 这种代码，必须保证 host 对具体 driver 的内部实现逻辑是无感知的。要做到这一点，就要设计好一套\
+    \ driver api 接口规范，各个 driver 插件按照这个 api 接口规范来"

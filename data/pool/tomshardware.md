@@ -20,17 +20,17 @@ url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for
 canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
-last_seen: '2026-09-14T00:12:30Z'
-status: rejected
+last_seen: '2026-09-15T00:38:38Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 119
-    comments: 104
+    points: 132
+    comments: 108
   kind: news
 ---
 

@@ -32,16 +32,16 @@ url: https://github.com/mukundzha/rendly
 canonical_url: https://github.com/mukundzha/rendly
 summary: Build demo videos from code in seconds
 first_seen: '2026-09-13T13:00:47Z'
-last_seen: '2026-09-14T00:12:30Z'
+last_seen: '2026-09-15T00:38:38Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mukundzha/rendly
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

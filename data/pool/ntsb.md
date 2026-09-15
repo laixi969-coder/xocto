@@ -20,10 +20,11 @@ url: https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx
 canonical_url: https://ntsb.gov/news/press-releases/Pages/NR20260909.aspx
 summary: NTSB issues investigative update on B-767 runway excursion accident in Miami
 first_seen: '2026-09-10T21:30:55Z'
-last_seen: '2026-09-12T00:18:40Z'
-status: rejected
+last_seen: '2026-09-15T00:39:09Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx
@@ -31,6 +32,11 @@ sightings:
   metrics:
     points: 145
     comments: 279
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/eth-zurich-students-humanoid-xalun/
+  seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
   kind: news
 ---
 

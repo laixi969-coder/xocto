@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-14T00:13:04Z'
-status: rejected
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -252,6 +252,23 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEUxZXUza00wek1TRmlvdWt6aXJPMDJCOVY1WXd0eXZPX3BXZWlZSXJ0bVNCZ1NJeFdLUTJtZ3p2VmRLLVNnQnJhX19DcGM0MmszWTA4OWRfLVJZSUNTWlhfb21GYWdkdmZ3cEpIc2pQVklTWU13bEppQjRqbGlsWkh2V2lQMjZUcy1qV0NuQXdlcGRvOS02enBWVkg3NUZablNnWlZlalpOSDZldF9ELW13cEt2Ml85QlZwVzYwWEtzeFU?oc=5
   seen_at: '2026-09-14T00:13:04Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.ilinmaks.com/blog/en/ai-jobs-market-2026
+  seen_at: '2026-09-15T00:38:38Z'
+  metrics:
+    points: 63
+    comments: 68
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPNzFFUkctemZFY2gyY1k4ZHVYMmNaUWUyODduOGcxXzZLVlhDZkg3SVdCRE1ubmhmcG9tNW5PZ0dkdFNkdUE3d044YTJkU1JUazFUS3NkSGNGelY0dl91VmhxdXpRZlZuYVc2bmI0SDVGYVlvLXRJbFFpY2hDcG5NaFVnZFpIdXE0MENFVzRuN1k4WEV6c1F4cQ?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxORGtMV0tRbDJyOXhTa19QblVncW5lMGx5V3BocHJlU3hhQTh1RUVoRGJlUGxmY29VWTJZdWJLMkd1OVVCaVFFQ1RfQXI1MDNxWHJ0cDR2Yl9vVVc1OU52RjhZNWp5cmsxWEhwX0RJR3JDWkZrQ1FBVko2amtScGwwWnQxN0dkWmdNMG8zRGIwZnFVcUVLVFdqZzg3elNpbm55SFdCcURoelJfUUc1VFVxdzczMzEyWTdMQWc4dHVNZXF3eFU?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

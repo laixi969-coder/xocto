@@ -1,0 +1,42 @@
+---
+slug: superhuman-acquires-yc-backed-notetaker-fathom-as-productivi
+name: Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/
+canonical_url: https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work
+summary: The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active
+  users. The company said that over 1 million people have recorded meetings until now.
+first_seen: '2026-09-14T14:45:44Z'
+last_seen: '2026-09-15T00:39:09Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/
+  seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+---
+
+# Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work
+
+The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.
+
+## 笔记
+
+

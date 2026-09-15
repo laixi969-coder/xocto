@@ -22,14 +22,19 @@ canonical_url: https://news.google.com/rss/articles/CBMipAJBVV95cUxPVzNmSW1xWnJn
 summary: 'Accenture (NYSE:ACN): Why Is It in Focus After It agreed to acquire a specialist that strengthens
   enterprise software and artificial-intelligence capabilities? Kalkine Media'
 first_seen: '2026-08-26T09:16:00Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: market_context
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipAJBVV95cUxPVzNmSW1xWnJnUnhWUklyUmZBVTBsY1VTT2lvSVdUbno1a2tNYkl1Qlp4TW40Y2tOS2tUdjNNTTllOGZuNFJWQmd6M01vOHFKbE5MMUE3NnFRVWJGYVBzbzZBZEdqeTF0MWJWUEdsSFROQ1dWcmM2M0I3NEY1QlV4dnU2eXBJSWNRaTVTblZEaFNLSWNsTXdHTXkyOFQ1Wi1RWV9JTUhKTGZrTkl3RGlHMWJFb3dxTnN0cXkyU0ZybUhuRGZHRGRnazZZN3k0ajlNQ1pGdjVWb0gxOFhrN243LV9tNmlNTmZDMUw2YUoxSS0xdmt0U2FaQ1hJNHR0UEVZVDhBX0xkSk5nRnZUVFNhM2FkMTBFeU84ZUEzOGtaMFlaV3RI?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxQdFM3TGQ4NXVBUFYwT0liam00OEFyV1BTVzBjOUxCYkYybEdTTVFKUDJsemNtM0xMa050ejJ4aGlwYTVBbDNjQ1dqcUMwbE5UWHR3cnlHNnRycmVHZURuaWliSjJKeTI2M3N2ZmxwbzhIZXJkd2E3MF9jMkRCV0VhWTJWNXB2dVJXQkIyNmFxZllkNjRReHY0c21Ya3Rqdw?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

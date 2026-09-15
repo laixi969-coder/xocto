@@ -28,8 +28,8 @@ url: https://www.producthunt.com/products/local-7
 canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
-last_seen: '2026-09-04T14:23:54Z'
-status: watching
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - producthunt
 - officialfeeds
@@ -92,6 +92,16 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home
   seen_at: '2026-09-04T14:23:54Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/exclusive-localglobe-cherry-resolutiion/
+  seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5RjNDelFKV0k3cEF0SENiYXZTd3pXUG85TUR5aFl0UHE4T1ZLR0pycmVKNVVheVJhQ3ZiV05Udkx4aWFFNmJRMVlLUHdoTkQyQ1VnRFhwUQ?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

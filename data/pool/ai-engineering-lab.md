@@ -37,8 +37,8 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: queued
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - github
 - newssearch
@@ -83,6 +83,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdmcxb05kZ1ZjeHc5LTMwaFZaUm0xc0lOV01iWTVWZm5XMGxYck5ESTVXTWRNVEl6dUMyQjh2OUstcXhSUUdZTEt2WEs4azBGX3A3ODlqazF5SFA3ZHNOQjRULUJFNXVoN1FwemFaUzFTbXpMbEJRNDRMbENKWmJ2bXl6LV96Nzd2dERnSllxZl9fT25ZYTZZVUtFSHpkTEZEemMtR0VRaUJaX3BKcG5CLVUySXo0UUhoTG5ic2ZIQWJsb1R6NFFXbl9wLWlnc1dqOUwwOEM0VXdoUF9NWnBJanlmNTFtVHZFb3NxUXBLckhlZw?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Sep/14/laurie-voss/
+  seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQNm1IN25hV1hmV2xrR0JHY0RfYmdQY1FKZkpnV29XSXlmWGVIdzFoSWhRZXMwRDhEdWROV2QycDRXU290eXpsSTdrcU81SWdWc0NucFd0dGNONHNnejducHl1UTlKRGtmTUY0R3ZObzl6aVZna3kyaTNJd2JkdVNLRGh0d0tNb2ZDYlRMeVBmOGVjN083VnZXUVM5TkxjV0hndlpadFdtb0dIc0NPQ3AybkEwbWktemfSAbcBQVVfeXFMUDZtSDduYVdYZldsa0dCR2NEX2JnUGNRSmZKZ1dvV0l5ZlhlSHcxaEloUWVzMEQ4RHVkTldkMnA0V1NvdHl6bEk3a3FPNUlnVnNDbnBXdHRjTjRzZ3o3bnB5dVE5SkRrZk1GNEd2Tm85emlWZ2t5MmkzSXdiZHVTS0RodHdLTW9mQ2JUTHlQZjhlYzdPN1Z2V1FTOU5MY1dIZ3ZaWnRXbW9HSHNDT0NwMm5BMG1pLXpn?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

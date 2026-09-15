@@ -20,8 +20,8 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -46,6 +46,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQejl3N0J4cE5hdEFPR3RyNWg0QXNmamp4emtRbGpjWTRSS0xFZUluWG5HUmIzRUhjSlVMMjhIVWpLZzhLMmRzQVFybXhYWkFBTUVEdjVNbXhFOHlQMFlmRUtDeTMycy14SkZyZkdVUW9od3czVk15N0tWNlJ3RFlVYXlGb0prNTMtUXFhRXlZd2dDZGNjN1FDM0hQWDdrbGtvLVBCSjJ4RVYwd1N0QzJDVVZONkxMeTRHWnhjNmhNd1B1MmVrZ0lfVzRzM0RhQQ?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOMkNIMF9LcmRTZk5jb0Itc0NCZ2k5SGtLQWNYcmFKY1J1NmtrTnp4azZrVUdLTXBHTTdPdG1FUWlyUjQzMjJiWEp3MEZwbE53QjU5TW1oeXJhNlQ5ZXRZRmV0UjZ0Z2NsWm80bUdVQmZZaTVyTWVDWFprTlFmRmVhTkJIak9QVFp2aEVTWlJJMnlISF8yeTFSdVZxQ1VWanc5bm5oTk9KRWhtMkdxRmhyeXM5Qm9HZ3NJdjZOcURUNlJHSmJkU29WVE1B?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNN2VoWlRRM0pIWVdodWhvZUVYa1FtMVVQRlpjN01pcUJJMmhmMDBJSnNac1VzMERzN1Z3aU1HNWd5QXJaM3c1QVhrSTBMTFVBMzZRd0EwZVhrRzhRQWxod1RLY1RLR0pYZFlfUjFkc253b0NZQ1pDYmVLSHpfNVk2SVEwSmhMZlZDd01NUWZGbjV3c0Myb3Axbkp3MmdKREwxUkN2RWxkM0VPZkYw?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

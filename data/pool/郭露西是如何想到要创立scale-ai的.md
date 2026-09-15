@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-12T00:19:09Z'
-status: rejected
+last_seen: '2026-09-15T00:39:09Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -143,6 +143,16 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/scaleup-challenge-defence-tech-innovation-brnd/
   seen_at: '2026-09-12T00:19:09Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/
+  seen_at: '2026-09-15T00:39:08Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/eu-scaleup-fund-leads-100m-tandem-health-raise/
+  seen_at: '2026-09-15T00:39:09Z'
   metrics: {}
   kind: news
 ---

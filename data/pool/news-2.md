@@ -20,8 +20,8 @@ url: https://news.social-protocols.org/penalties
 canonical_url: https://news.social-protocols.org/penalties
 summary: Most Penalized HN Stories
 first_seen: '2026-09-13T00:36:00Z'
-last_seen: '2026-09-14T00:13:04Z'
-status: rejected
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -36,6 +36,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMifkFVX3lxTE9DWjFuYldDeUgyeXVmSHpFTG4yZVJ5WElmaVpNMXZINDFaMmh3MUk4WTY0TmNZQVNEZ3lyaVRtRWJrUmV4b1hxVE5faVZTZlF6MUhPbmgtT1RXVlA3Z3dRbjVQc3Y2WXo4NGN6MnZOVmFwa29rSm5MeWF6TVNFdw?oc=5
   seen_at: '2026-09-14T00:13:04Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FWVZxZjVHR0Iyek03ZmV5OTh1MzN0bVVHNFQ3cVBKSUFUeVdIRkZta3JFU1dQZ3N0ckVVWW5hVzVzcTJ5OGc2b3R5ckRZdndMTnVBV3hlNkxMWDhOUGRFdHR3?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5LY1BXS0dJSGNYWmlfSUxtRXp4SDRkRjd4eGt4SnBRYTVXUEFxbXlWcUJwN0dsbk9GaUV4MEZqOTFTeEpna1B6RW5heGR2TmQ3Tm12WlZ4VFZWRXR3ZzFnenM0MWM4a2VpSTNhZi1PcUE2c3BudmJkWm9WU1U0bjA?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNSXJTR19jd2o1Q0IyMjhDVFZOM1VKZ0hkTlY2aWNuQi12R3llVGRBN1VCZGY4c2hndkw0bUdRTEx4LTVXbkFiM09CVjFKWXdLTDNHOHZwV1pCU1JZbGFVeUNDY3lpY05saEdXMW9BUklIU0V5YTI1V3pKN2RocmczTVJIdm9JRFI0SUdsd2RrVVY3cS1BeFJNMEFHVkhqNDVNa0dOcTl3UGV0dG5GeVBvTFdDNE9SNnF6cWYwa0I5bXNwUVl5X1NWeE9R0gHKAUFVX3lxTE1JclNHX2N3ajVDQjIyOENUVk4zVUpnSGROVjZpY25CLXZHeWVUZEE3VUJkZjhzaGd2TDRtR1FMTHgtNVduQWIzT0JWMUpZd0tMM0c4dnBXWkJTUllsYVV5Q0NjeWljTmxoR1cxb0FSSUhTRXlhMjVXeko3ZGhyZzNNUkh2b0lEUjRJR2x3ZGtVVjdxLUF4Uk0wQUdWSGo0NU1rR05xOXdQZXR0bkZ5UG9MV0M0T1I2cXpxZjBrQjltc3BRWXlfU1Z4T1E?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BVDZSeXlSR0NsOThMRVR5UXczZk5PT2Fsb0hvemJTcURlSzBrdDh0MTFWdHJJY1F5WnlPQWVMYmxDNDVaa2dYV0tnSE44cTlhdnRzWUNBdHBXTkt3c2c?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBTOXhCS3lEcWlqNC1JMUZUdFFiWW1sNmcwaTZvcllSWGlOZENHTnh1c2hTcDI2RUl2VnJtaU43bUdUNmtxaHFadDU3bWxsMTh0ak5Ia2xRZ0lObTR0?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---

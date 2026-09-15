@@ -27,16 +27,16 @@ url: https://github.com/DAOZHENREN/trace2task
 canonical_url: https://github.com/DAOZHENREN/trace2task
 summary: Turn successful workflows into resettable, verifiable benchmarks for AI agents.
 first_seen: '2026-08-27T13:21:49Z'
-last_seen: '2026-09-14T00:12:35Z'
+last_seen: '2026-09-15T00:38:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DAOZHENREN/trace2task
-  seen_at: '2026-09-14T00:12:35Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
-    stars: 72
+    stars: 83
     forks: 0
     open_issues: 0
   kind: product

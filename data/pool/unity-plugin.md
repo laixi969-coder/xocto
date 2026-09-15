@@ -28,16 +28,16 @@ url: https://github.com/opdsh/unity-plugin
 canonical_url: https://github.com/opdsh/unity-plugin
 summary: 'DeepSeek Harness plugin: control the Unity Editor through the unity CLI'
 first_seen: '2026-08-28T18:05:04Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-15T00:38:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/opdsh/unity-plugin
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
-    stars: 55
+    stars: 54
     forks: 0
     open_issues: 0
   kind: product

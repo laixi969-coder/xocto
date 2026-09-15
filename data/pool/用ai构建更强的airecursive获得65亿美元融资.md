@@ -21,11 +21,12 @@ url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZM2pIeUx1WHBmRm1fLWwzWW
 canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZM2pIeUx1WHBmRm1fLWwzWW4xR2xIUENYRXJERXlEQW5FOW96cGRGOVhJRGpOMExPUlJRdDd6T09Zcl9Xc09NUGYybVFiUQ?oc=5
 summary: 用AI构建更强的AI，Recursive获得6.5亿美元融资 36 Kr
 first_seen: '2026-08-31T13:01:56Z'
-last_seen: '2026-09-14T00:12:30Z'
-status: rejected
+last_seen: '2026-09-15T00:39:09Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZM2pIeUx1WHBmRm1fLWwzWW4xR2xIUENYRXJERXlEQW5FOW96cGRGOVhJRGpOMExPUlJRdDd6T09Zcl9Xc09NUGYybVFiUQ?oc=5
@@ -46,10 +47,15 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/
-  seen_at: '2026-09-14T00:12:30Z'
+  seen_at: '2026-09-15T00:38:38Z'
   metrics:
-    points: 60
-    comments: 56
+    points: 77
+    comments: 80
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/recursive
+  seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
   kind: news
 ---
 

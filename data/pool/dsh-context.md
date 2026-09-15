@@ -26,10 +26,11 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-09-13T00:00:57Z'
+last_seen: '2026-09-15T00:38:44Z'
 status: queued
 sources:
 - github
+- hackernews
 sightings:
 - source: github
   url: https://www.npmjs.com/package/dsh-context
@@ -177,17 +178,17 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/@opencode2dsh/dsh-plugin
-  seen_at: '2026-09-13T00:00:57Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
-    stars: 57
+    stars: 63
     forks: 7
-    open_issues: 3
+    open_issues: 4
   kind: product
 - source: github
   url: https://www.npmjs.com/package/baoer_signal_grep
-  seen_at: '2026-09-12T00:18:44Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
-    stars: 78
+    stars: 80
     forks: 5
     open_issues: 1
   kind: product
@@ -197,6 +198,21 @@ sightings:
   metrics:
     stars: 57
     forks: 7
+    open_issues: 0
+  kind: product
+- source: hackernews
+  url: https://www.npmjs.com/package/dep-radius
+  seen_at: '2026-09-15T00:38:38Z'
+  metrics:
+    points: 6
+    comments: 0
+  kind: product
+- source: github
+  url: https://www.npmjs.com/package/deepseekharness-acp-interactive
+  seen_at: '2026-09-15T00:38:44Z'
+  metrics:
+    stars: 41
+    forks: 0
     open_issues: 0
   kind: product
 ---

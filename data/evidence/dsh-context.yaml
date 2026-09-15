@@ -1726,3 +1726,43 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-bb502b6901a57769
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dep-radius
+  title: Dep-radius
+  published_at: '2026-09-13T22:57:58Z'
+  collected_at: '2026-09-15T00:38:38Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: know which dependency updates touch your code
+- id: ev-1df8b55da969ace6
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@opencode2dsh/dsh-plugin
+  title: opencode2dsh
+  published_at: '2026-08-29T07:22:12Z'
+  collected_at: '2026-09-15T00:38:44Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DSH plugin — free OpenCode Zen models for DeepSeek Harness (DSH). Free LLM API, no API key needed.
+    在 DSH 中使用 OpenCode Zen 免费模型，无需 API key | repository stars: 63'
+- id: ev-1d524d9b0a4d58dc
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/deepseekharness-acp-interactive
+  title: dsh-acp-interactive
+  published_at: '2026-09-02T06:25:26Z'
+  collected_at: '2026-09-15T00:38:44Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Editor-facing ACP server for Zed and other ACP clients, composed from published DeepSeek Harness
+    plugins. Community-maintained; not affiliated with DeepSeek. | repository stars: 41'
+- id: ev-2748f7a453c06897
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/baoer_signal_grep
+  title: baoer_signal_grep
+  published_at: '2026-08-27T11:39:55Z'
+  collected_at: '2026-09-15T00:38:44Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Context-efficient project search and bounded code analysis for Claude Code & Codex & Pi & OMP.
+    and remote MCP clients, powered by ripgrep with stable cursors, source inspection, and structural
+    evidence. | repository stars: 80'

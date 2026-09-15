@@ -20,18 +20,18 @@ url: https://glama.ai/mcp/connectors
 canonical_url: https://glama.ai/mcp/connectors
 summary: A collection of remote MCP servers.
 first_seen: '2026-09-08T00:43:30Z'
-last_seen: '2026-09-14T00:12:35Z'
+last_seen: '2026-09-15T00:38:44Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://glama.ai/mcp/connectors
-  seen_at: '2026-09-14T00:12:35Z'
+  seen_at: '2026-09-15T00:38:44Z'
   metrics:
-    stars: 192
-    forks: 283
-    open_issues: 109
+    stars: 215
+    forks: 310
+    open_issues: 137
   kind: product
 ---
 

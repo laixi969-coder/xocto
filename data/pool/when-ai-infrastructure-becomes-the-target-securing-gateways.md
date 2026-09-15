@@ -21,8 +21,8 @@ url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4OElRUDlhNU
 canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4OElRUDlhNUVRWnUtTUUtVUlNcmNWZjAwbkZubWZ4X2FLSjhfQ0l6a0pVbDg3S1pucXhLSXN2blJPdTZYbm5kdW1yX2luLWVxQ3M2NHJRRXgxYV9aODFQUXZkRVFVdVBWdkJMQ3VYcGVhdTM4Y0xsaU1KTGtMZy1ZaEdvR0hxWVdIZENDVnNFVFN0WTRCYk5semo5VUpEQ3owOWthVnpHeTVKVmVRV1BBWUx3bWJnU0VSaTZhMmxR?oc=5
 summary: 'When AI infrastructure becomes the target: Securing gateways and control points Microsoft'
 first_seen: '2026-08-26T16:43:53Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-15T00:39:17Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -70,6 +70,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQanFNRzlfRGNGNHpDaFNCM2tieUpXZ3lHVlhvR0FzcVZneFI5V3B3VFg2WFVRTEJrQXhCdlFyMW52ZDVncmxyN1E3R0c3UURhWEU0ZFpWTUR4ZWZlVGxYRkhBNmlkdEdGNUl5bVRBa1dMZjNjMUNfSXFIUVNDZjlYcURDcTlXNzVjY1lLOGJuaS1SUlFsZ2U1MUF1NHVyWWk4N18xUjVXTTVvaUtjcHFyOXFUTFkyVFFjOE5iY2N4Yi00dw?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeGxuNi04LTNuYVlTMzNLQk94SnMwQUNIaHcyemtsZEhHR3ZJSjFKQlpsZ2JENFBiUklQVEUxVjhGbDJiVmFWb2t2cUlhdWlITFduWEpDNGNRM3k5LTJDM09FZzBnc0Q2TURqT203c1VBdkNvSy1aSnBCTmFqaVBlQmVwY2k4cFlJOEJwWEVMOVI2X0Iza1ZaRGhMYmI1LW1hNGVacGMyWnJwSC1TS0FQZkpIaUZHX0hkMDFtVVN1QmU3OWJRWVlQMDRVX0o4WG1BQWJ2ZFNxQkpIdlNrVDZWOA?oc=5
+  seen_at: '2026-09-15T00:39:17Z'
   metrics: {}
   kind: news
 ---
