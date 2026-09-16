@@ -26,8 +26,8 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxQZFh3QlBfSGF3
 summary: The Insurance Industry’s Retreat from AI Threatens to Slow Innovation and Adoption CSIS | Center
   for Strategic and International Studies
 first_seen: '2026-09-04T21:10:09Z'
-last_seen: '2026-09-12T00:19:17Z'
-status: market_context
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -44,6 +44,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMickFVX3lxTE1SVU5RU0ZNOXdCdkozS0ZYSnhzbTRrOXE0MEk1c2VJenBScVMwZ1U0eldNVnU1ZGo2alpKOUhINlYySWxuZ3BvWWRTLWRERzZyQmt3aWJ6czQtblJSb2xGTk9jMTFWNG1xYXZpUFV4Mmp2QQ?oc=5
   seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE55clhxaFlNTXpUaFpDRkg2VlZzRHdpQXhSRlVNRjBOVDdsZnJOX1hrNjlfTXR6NENscUxxYVBkYmtEQzNGZ3pKc3B3czc1M3k5TGNj?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

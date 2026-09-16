@@ -20,17 +20,17 @@ url: https://pushie.net
 canonical_url: https://pushie.net
 summary: Get notified with a simple webhook
 first_seen: '2026-09-14T14:51:54Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pushie.net
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 17
-    comments: 9
+    points: 21
+    comments: 13
   kind: product
 ---
 

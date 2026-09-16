@@ -29,17 +29,17 @@ url: https://tokencanopy.com/products/agentdrive
 canonical_url: https://tokencanopy.com/products/agentdrive
 summary: persistent, versioned file storage for AI agents
 first_seen: '2026-09-14T16:09:02Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tokencanopy.com/products/agentdrive
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 5
-    comments: 4
+    points: 6
+    comments: 11
   kind: product
 ---
 

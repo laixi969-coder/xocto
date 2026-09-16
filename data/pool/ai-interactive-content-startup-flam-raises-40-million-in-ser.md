@@ -1,0 +1,42 @@
+---
+slug: ai-interactive-content-startup-flam-raises-40-million-in-ser
+name: AI interactive content startup Flam raises $40 million in Series B led by QED Investors
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxPOEtTY3NkRC1wRThmcHF2aG1vVTF4VkFoZGw5MUM3a3BBYkZrU25DUXRZcjQ5Q2hhUDB4QTQtQ3dVT2MzYWhJMFFBOVdPM2twQ3JZdG1SZkVrMWVyb1VRczdzVHFlRUl1VW5uZzJRVGVWOUVfc2ZwSDVQbGRwNlVIbkVfZ1ZDRG52MDg2bGgzMUs4aUhkS29iTFJvd2FweHd3MTFRU05NVnRDazExYXpTMUJyR2pEenViaERvX0FlazJHa2tWdGxOWWpQckhLUdIBzgFBVV95cUxPOEtTY3NkRC1wRThmcHF2aG1vVTF4VkFoZGw5MUM3a3BBYkZrU25DUXRZcjQ5Q2hhUDB4QTQtQ3dVT2MzYWhJMFFBOVdPM2twQ3JZdG1SZkVrMWVyb1VRczdzVHFlRUl1VW5uZzJRVGVWOUVfc2ZwSDVQbGRwNlVIbkVfZ1ZDRG52MDg2bGgzMUs4aUhkS29iTFJvd2FweHd3MTFRU05NVnRDazExYXpTMUJyR2pEenViaERvX0FlazJHa2tWdGxOWWpQckhLUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxPOEtTY3NkRC1wRThmcHF2aG1vVTF4VkFoZGw5MUM3a3BBYkZrU25DUXRZcjQ5Q2hhUDB4QTQtQ3dVT2MzYWhJMFFBOVdPM2twQ3JZdG1SZkVrMWVyb1VRczdzVHFlRUl1VW5uZzJRVGVWOUVfc2ZwSDVQbGRwNlVIbkVfZ1ZDRG52MDg2bGgzMUs4aUhkS29iTFJvd2FweHd3MTFRU05NVnRDazExYXpTMUJyR2pEenViaERvX0FlazJHa2tWdGxOWWpQckhLUdIBzgFBVV95cUxPOEtTY3NkRC1wRThmcHF2aG1vVTF4VkFoZGw5MUM3a3BBYkZrU25DUXRZcjQ5Q2hhUDB4QTQtQ3dVT2MzYWhJMFFBOVdPM2twQ3JZdG1SZkVrMWVyb1VRczdzVHFlRUl1VW5uZzJRVGVWOUVfc2ZwSDVQbGRwNlVIbkVfZ1ZDRG52MDg2bGgzMUs4aUhkS29iTFJvd2FweHd3MTFRU05NVnRDazExYXpTMUJyR2pEenViaERvX0FlazJHa2tWdGxOWWpQckhLUQ?oc=5
+summary: AI interactive content startup Flam raises $40 million in Series B led by QED Investors Indian
+  Startup News
+first_seen: '2026-09-15T10:49:12Z'
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxPOEtTY3NkRC1wRThmcHF2aG1vVTF4VkFoZGw5MUM3a3BBYkZrU25DUXRZcjQ5Q2hhUDB4QTQtQ3dVT2MzYWhJMFFBOVdPM2twQ3JZdG1SZkVrMWVyb1VRczdzVHFlRUl1VW5uZzJRVGVWOUVfc2ZwSDVQbGRwNlVIbkVfZ1ZDRG52MDg2bGgzMUs4aUhkS29iTFJvd2FweHd3MTFRU05NVnRDazExYXpTMUJyR2pEenViaERvX0FlazJHa2tWdGxOWWpQckhLUdIBzgFBVV95cUxPOEtTY3NkRC1wRThmcHF2aG1vVTF4VkFoZGw5MUM3a3BBYkZrU25DUXRZcjQ5Q2hhUDB4QTQtQ3dVT2MzYWhJMFFBOVdPM2twQ3JZdG1SZkVrMWVyb1VRczdzVHFlRUl1VW5uZzJRVGVWOUVfc2ZwSDVQbGRwNlVIbkVfZ1ZDRG52MDg2bGgzMUs4aUhkS29iTFJvd2FweHd3MTFRU05NVnRDazExYXpTMUJyR2pEenViaERvX0FlazJHa2tWdGxOWWpQckhLUQ?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+---
+
+# AI interactive content startup Flam raises $40 million in Series B led by QED Investors
+
+AI interactive content startup Flam raises $40 million in Series B led by QED Investors Indian Startup News
+
+## 笔记
+
+

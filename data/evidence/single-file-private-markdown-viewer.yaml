@@ -1,0 +1,11 @@
+- id: ev-7a26f0c9822b1088
+  project_slug: single-file-private-markdown-viewer
+  url: https://news.ycombinator.com/item?id=49697103
+  title: Single-file private Markdown viewer
+  published_at: '2026-09-14T14:05:37Z'
+  collected_at: '2026-09-16T00:20:36Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: We built this to view Markdown files securely in our corporate environment as a lightweight alternative
+    to firing up VS Code. It’s just a single HTML file that executes entirely client-side. Alongside standard
+    rendering,…

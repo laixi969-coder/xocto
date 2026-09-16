@@ -20,8 +20,8 @@ url: https://drop.space
 canonical_url: https://drop.space
 summary: They chose your competitor. Find out why
 first_seen: '2026-09-10T02:20:02Z'
-last_seen: '2026-09-11T00:10:31Z'
-status: rejected
+last_seen: '2026-09-16T00:20:36Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -32,6 +32,13 @@ sightings:
     points: 6
     comments: 2
   kind: product
+- source: hackernews
+  url: https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/
+  seen_at: '2026-09-16T00:20:36Z'
+  metrics:
+    points: 149
+    comments: 29
+  kind: news
 ---
 
 # drop

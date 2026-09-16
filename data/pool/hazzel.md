@@ -20,17 +20,17 @@ url: https://github.com/mukundzha/hazzel
 canonical_url: https://github.com/mukundzha/hazzel
 summary: A tiny, minimal, Git-native coding agent
 first_seen: '2026-09-09T12:22:17Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mukundzha/hazzel
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 9
-    comments: 1
+    points: 6
+    comments: 0
   kind: product
 ---
 

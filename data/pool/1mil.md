@@ -33,11 +33,12 @@ url: https://1mil.app/
 canonical_url: https://1mil.app
 summary: My startup-idea scanner scored 500 ideas; the best got 6.3/10
 first_seen: '2026-08-30T11:35:01Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: watching
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://1mil.app/
@@ -54,6 +55,16 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/10/bynario-raises-eur21m-to-develop-ai-powered-platform-for-software-vulnerabilities/
   seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/15/originalvoices-raises-ps1m-pre-seed-round-led-by-iona-star/
+  seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOSTJOUm56ajl2RUg4c2J6Q3dNQVNIbmFZVkRPRTBqWWJsOXZFWkRUUzZ5TVFSWGlTRGpDUmtESzNIdFhmTGhZcFZESjhMWlZGS0VxVTlTYUc0SGJGQ3VtY3BJdDVEQkhnM05tOTk3bWtheE0xbktuVWllUFdxVXlxbUVibUIzbE45eTQ5Q0NqSnV5Z1pZS09lc1BJODFTNmV3LXh5SnNyUmg2MzV6OVNTSVB4eDNYb3F5WV9YcFp6Y0VrdHFO?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

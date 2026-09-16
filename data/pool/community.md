@@ -41,10 +41,11 @@ summary: "昨天晚上用 AI 从 0 开始 2 小时就完成了一个插件的开
   计划中还会加两个功能:\r\n- 类似 onenote 的简单公式计算功能\r\n- 在外部复制网页/markdown 后 粘贴到 obsidian 中会多出很多空行的问题\r\n\r\n我的目标不是做一个功能特别复杂的大插件，而是做一个自己真正会长期使用的小工具箱。\
   \  \r\n哪里不顺手，就补哪里。\r\n\r\n最后: \r\n\r\n对程序员来说，这可能是一个让人焦虑的时代。\r\n\r\n对创造者来说，这可能又是最好的时代。"
 first_seen: '2026-09-01T04:47:57Z'
-last_seen: '2026-09-01T14:55:55Z'
+last_seen: '2026-09-16T00:21:13Z'
 status: pending_filter
 sources:
 - v2ex
+- newssearch
 sightings:
 - source: v2ex
   url: https://community.obsidian.md/plugins/ob-toolbox
@@ -52,6 +53,11 @@ sightings:
   metrics:
     comments: 3
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3REODJmdEdnVFJ4ek52OTgwaG9la1NWWm5EdUZMTFpvb2NPaXNHY3pLNnlzYURnNUI1M3pLXzNUUjBIeW9vZk5YQXZDalBLcU1xVEx3RkQ3a1hxNW9nUVZSa2NCNldudFAxd3N0S05NelB4U2VINjk4WUN2Um1qUHY5QndObktodlBwQ0hhZEo0NWdVc2tKM3o3bGdfWjNKUTVSRzRCNlJYZEJlMVRVUTM1SXFMN1E?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
 ---
 
 # Community

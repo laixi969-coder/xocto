@@ -40,16 +40,16 @@ canonical_url: https://x.com/undefinedKi/status/2068306794116501544
 summary: An AI second brain that maintains itself. Full guide, starter vault, agent skills and scripts
   for a self-organizing knowledge base in Claude Code and Obsidian.
 first_seen: '2026-09-07T15:08:13Z'
-last_seen: '2026-09-14T00:12:35Z'
+last_seen: '2026-09-16T00:20:40Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://x.com/undefinedKi/status/2068306794116501544
-  seen_at: '2026-09-14T00:12:35Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
-    stars: 59
+    stars: 61
     forks: 9
     open_issues: 0
   kind: product

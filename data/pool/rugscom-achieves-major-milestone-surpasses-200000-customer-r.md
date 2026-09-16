@@ -1,0 +1,41 @@
+---
+slug: rugscom-achieves-major-milestone-surpasses-200000-customer-r
+name: 'Rugs.com Achieves Major Milestone: Surpasses 200,000 Customer Reviews'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3J2Vnl5T2hLVnFmTjN6UEc4eUNiTnJqYkZCcjdJV21MQzJjNzBhM3pqM0FSTHp2N2NGYTNBT3p2Q3F3bVo1WVVKVjI3RGtNVzBIcFBGNW1Kc29pREhyRjEwbTFiaE5uTlFqRmVkOVFjOFdpYXF5enlpRFkteUdKQzN0Wl9NQ0VaLWt4QkZBVkgwSGFHcE1nYjlGTFZaTmVtUDJaYjFmTnM3Z1dTVkxad3M0RDh0aFl5RUJaajU2X2lMUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3J2Vnl5T2hLVnFmTjN6UEc4eUNiTnJqYkZCcjdJV21MQzJjNzBhM3pqM0FSTHp2N2NGYTNBT3p2Q3F3bVo1WVVKVjI3RGtNVzBIcFBGNW1Kc29pREhyRjEwbTFiaE5uTlFqRmVkOVFjOFdpYXF5enlpRFkteUdKQzN0Wl9NQ0VaLWt4QkZBVkgwSGFHcE1nYjlGTFZaTmVtUDJaYjFmTnM3Z1dTVkxad3M0RDh0aFl5RUJaajU2X2lMUQ?oc=5
+summary: 'Rugs.com Achieves Major Milestone: Surpasses 200,000 Customer Reviews Business Wire'
+first_seen: '2026-09-15T13:17:00Z'
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3J2Vnl5T2hLVnFmTjN6UEc4eUNiTnJqYkZCcjdJV21MQzJjNzBhM3pqM0FSTHp2N2NGYTNBT3p2Q3F3bVo1WVVKVjI3RGtNVzBIcFBGNW1Kc29pREhyRjEwbTFiaE5uTlFqRmVkOVFjOFdpYXF5enlpRFkteUdKQzN0Wl9NQ0VaLWt4QkZBVkgwSGFHcE1nYjlGTFZaTmVtUDJaYjFmTnM3Z1dTVkxad3M0RDh0aFl5RUJaajU2X2lMUQ?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+---
+
+# Rugs.com Achieves Major Milestone: Surpasses 200,000 Customer Reviews
+
+Rugs.com Achieves Major Milestone: Surpasses 200,000 Customer Reviews Business Wire
+
+## 笔记
+
+

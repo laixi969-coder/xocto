@@ -39,8 +39,8 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPSHdTN3UwQm4y
 summary: ACTO Achieves Veeva Gold Product Partner Status, Following a Nearly Decade-Long Collaboration
   Supporting Mutual Customer Success Yahoo Finance
 first_seen: '2026-09-02T12:30:00Z'
-last_seen: '2026-09-15T00:39:17Z'
-status: rejected
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
@@ -81,6 +81,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT09mNTN3QldkdExIZWVjZnZSNE1vUy04dmIxUjF1YnVFR0RWRl84UmhlajhVUEJLMnl6VUVGQmJCcWE5WU0yWmdmYzdseG5UcXFkbXh4VkJ6dXNXb3FuNWMzRktxazlWQW12b2ptWWtycWJDN2I0dGFUa3IwckM4TlN1MFFRVFpFZEIzRkc0Q2pRdkVZNTRlZVdBNzZyM2s5X29VeDdncG90S2Vmc2dsOUdESVcwU19t?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOWmI1bldFbkpJWG96M0tuWlVJSWtJU1lKeXhwcENBVHptZExpZ2dnNkhySzZwUWdYdlJNZ082SlNORWtpR2dxT09SS0FncjRYTmNzV29QMVMyenJ4bmNSeUtZZnRlSDZVWU5ZaWNBTnVkZFQ0OG9ic2lxVTdaUVhqdUtjQVEtYTdTOWZ3UW9BSGV6VTJxWFhEXzVLUk90Q2pzYTdibU1R?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

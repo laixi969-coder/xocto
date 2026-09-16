@@ -37,16 +37,16 @@ summary: An open-source, agent-native platform for multimodal AI generation, bui
   Every interaction lives in agent conversations and an infinite canvas, unifying creation, generation,
   and editing.
 first_seen: '2026-09-09T01:16:40Z'
-last_seen: '2026-09-15T00:38:44Z'
+last_seen: '2026-09-16T00:20:40Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/saihhold-zhao/polox_ai
-  seen_at: '2026-09-15T00:38:44Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
-    stars: 47
+    stars: 49
     forks: 5
     open_issues: 0
   kind: product

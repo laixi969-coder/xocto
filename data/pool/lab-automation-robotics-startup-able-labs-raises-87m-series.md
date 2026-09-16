@@ -31,8 +31,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-15T00:39:17Z'
-status: watching
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -193,6 +193,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1NazRMOHJlSi1sTkItdGpUbTl4cXdRMHRyZmdmUWdYc3A1bllGcS1kVkpxNjV0UmtOSVZYdHJzTHphcV9NYk1yTVRaSl9WR0Fpckl0cWVIbEx2Z3VOOGRVaHhrX09OdTAxWE4wUQ?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOSnZyY0d3QTM2bk9KV3Jkakg5UExDeE1kU1lralNfRmJueWJiVlBnZ3lsbzlabmpaZ3F3ZXJLNmNSY2dzd1ZmZ253ZDZiQkhKQXROV09aS3doM0ZvM0ZCZHV6YTZxclJCUENIV2VFdVllcHplclh5ZmxwbGFoWU5ReFVSamU2WFE3czdQTVQ4bGZuOURG?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

@@ -22,17 +22,17 @@ summary: In November and December 2025, inspired by Simon Willison’s pelican-r
   I had some then-current LLMs create SVGs from thirty similar prompts, such as “Generate an SVG of an
   octopus operating a pip…
 first_seen: '2026-09-14T13:20:22Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://gally.net/temp/20260914pelican-alternatives/index.html
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 107
-    comments: 41
+    points: 128
+    comments: 45
   kind: product
 ---
 

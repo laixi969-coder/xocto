@@ -32,17 +32,17 @@ summary: Stop your AI from making things up — it proposes, deterministic tools
   against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is
   the proving ground. MCP server + CLI.
 first_seen: '2026-08-31T01:02:18Z'
-last_seen: '2026-09-15T00:38:44Z'
+last_seen: '2026-09-16T00:20:40Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/2akouwu/reverify
-  seen_at: '2026-09-15T00:38:44Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
-    stars: 1201
-    forks: 235
+    stars: 1207
+    forks: 237
     open_issues: 7
   kind: product
 ---

@@ -20,16 +20,16 @@ url: https://github.com/onsi/biloba
 canonical_url: https://github.com/onsi/biloba
 summary: fast and stable Chrome-based browser tests in Go and Vitest
 first_seen: '2026-09-14T16:41:52Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/onsi/biloba
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 6
+    points: 9
     comments: 1
   kind: product
 ---

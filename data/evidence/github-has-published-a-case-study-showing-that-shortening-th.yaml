@@ -85,3 +85,34 @@
     \ 和驱动插件之间通过进程间通信来控制数据库操作，但这个方案相对比较复杂，暂时不考虑。\r\n\r\nDriver 插件有几个要考虑的点：\r\n\r\n- 既然是走插件架构，那就要做到插件相关的逻辑不能污染侵入到\
     \ host 中，比如不能在 host 中有 ```if driver == 'postgre'``` 这种代码，必须保证 host 对具体 driver 的内部实现逻辑是无感知的。要做到这一点，就要设计好一套\
     \ driver api 接口规范，各个 driver 插件按照这个 api 接口规范来"
+- id: ev-e9f1b14e2b2fdfce
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1242163
+  title: '[开源] 做了一个 Go Runtime 的 Python Agent SDK，附一轮与 Claude Agent SDK 的对照测试'
+  published_at: '2026-09-15T07:21:02Z'
+  collected_at: '2026-09-16T00:20:34Z'
+  source_kind: product
+  tier: independent
+  fact: "最近给 Nexus 的 Agent Runtime 做了 Python 封装，叫 `nexus-agent-sdk-python`。\r\n\r\nPython 侧负责接入，实际调用模型、执行工具和管理上下文的是\
+    \ Go 写的 nxs 。可以用它给自己的程序接一个能读文件、改代码、跑命令的 Agent ，也可以接自定义工具。\r\n\r\n支持单次任务和多轮会话，提供 MCP 、Hooks 和工具权限配置。模型可以通过\
+    \ Anthropic 兼容接口接入，也支持 OpenAI Chat Completions / Responses 。平台 wheel 带了 nxs 和 rg ，覆盖 macOS 、Linux\
+    \ 、Windows 的 x86_64 和 ARM64 。\r\n\r\n项目在这里。\r\n\r\n- [GitHub]( https://github.com/nexus-research-lab/nexus-agent-sdk-python)\r\
+    \n- [Python SDK 文档]( https://www.nexusos.cn/docs/sdk-python)\r\n\r\nPython 3.11+，先安装并配置模型 Key 。\r\n\
+    \r\n```bash\r\npip install nexus-agent-sdk-python\r\nexport ANTHROPIC_API_KEY=\"你的 API Key\"\r\n```\r\
+    \n\r\n下面这个例子读取当前目录的 README ，不开放写文件或执行命令的权限。\r\n\r\n```python\r\nimport asyncio\r\nfrom nexus_agent_sdk\
+    \ import NexusAgentOptions, query\r\n\r\nasync def main():\r\n    options = NexusAgentOptions(\r\n\
+    \        cwd=\".\",\r\n        tools=[\"Read\", \"Glob\", \"Grep\"],\r\n        allowed_tools=[\"\
+    Read\", \"Glob\", \"Grep\"],\r\n    )\r\n    async for message in query(\r\n        prompt=\"找到并阅读当前项目的\
+    \ README ，用中文介绍这个项目。\",\r\n        options=options,"
+- id: ev-cc18efc4e0106449
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1242151
+  title: 开源分享 ProxyLane - 拖拽即透明代理的开源工具
+  published_at: '2026-09-15T06:42:44Z'
+  collected_at: '2026-09-16T00:20:34Z'
+  source_kind: product
+  tier: independent
+  fact: "把你要走代理的应用(例如 chatgpt.exe ，cmd.exe )拖到这个工具启动，被启动的应用以及其子进程才会走过你指定的代理 Profile 。不使用全局 Tun ，不修改系统全局代理设置，其他应用进程不影响。\r\
+    \n\r\n例如打开 ProxyLane ，设置一个 profile （通常是你的梯纸的 HTTP/Socks5 协议的代理地址和端口）。\r\n然后往 ProxyLane 界面拖入 chatgpt.exe\
+    \ 就可以， 如果拖入 cmd 启动这个命令行窗口，这个窗口里执行的 codex 、git 、curl 、npm 、pip 甚至浏览器等等自动透明代理。\r\n\r\nhttps://github.com/threatexpert/ProxyLane\r\
+    \n\r\n这个代码库有 90%以上的 C++代码是多年前手搓的，一直自己用。最近用 AI 优化了一下易用性，感觉值得分享一下。"

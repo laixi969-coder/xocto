@@ -20,16 +20,16 @@ url: https://github.com/Ibtisam-Mohammad/Fly.exe
 canonical_url: https://github.com/Ibtisam-Mohammad/Fly.exe
 summary: An EON systems like virtual fruit fly uploaded to computer
 first_seen: '2026-09-14T15:56:39Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Ibtisam-Mohammad/Fly.exe
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 21
+    points: 23
     comments: 4
   kind: product
 ---

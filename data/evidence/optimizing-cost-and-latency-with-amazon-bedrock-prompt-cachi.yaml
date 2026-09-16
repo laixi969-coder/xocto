@@ -1,0 +1,12 @@
+- id: ev-dc7af604be04003f
+  project_slug: optimizing-cost-and-latency-with-amazon-bedrock-prompt-cachi
+  url: https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/
+  title: Optimizing cost and latency with Amazon Bedrock prompt caching
+  published_at: '2026-09-15T16:18:19Z'
+  collected_at: '2026-09-16T00:21:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send
+    the same context to foundation models. This post walks through six practical prompt caching scenarios
+    using the Converse API: message content, system prompt, tool definition, mixed TTL, tenant isolation,
+    and LangChain integration.'

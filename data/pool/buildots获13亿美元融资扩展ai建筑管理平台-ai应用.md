@@ -35,14 +35,19 @@ url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9rZk9pTk9aYTdxUkFXSE1uTX
 canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9rZk9pTk9aYTdxUkFXSE1uTXhwQWlvQmdYWjhoTGg4WlpHeWVfVjhGOHFmVG11aDdsdENfTFFsQWNmVm1sS0JvMjl6UmM1TmtlS0Q4RVRiMlFjV1pzWnRaRFJJMFR0LXpKWE4zMzR2dw?oc=5
 summary: Buildots获1.3亿美元融资，扩展AI建筑管理平台-AI应用 至顶网
 first_seen: '2026-09-14T16:03:20Z'
-last_seen: '2026-09-15T00:39:17Z'
-status: queued
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9rZk9pTk9aYTdxUkFXSE1uTXhwQWlvQmdYWjhoTGg4WlpHeWVfVjhGOHFmVG11aDdsdENfTFFsQWNmVm1sS0JvMjl6UmM1TmtlS0Q4RVRiMlFjV1pzWnRaRFJJMFR0LXpKWE4zMzR2dw?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNVWlaNlFlbEJna1ZwS2VFYkJGb0NyWnBjWXY4SUtnQm1mOUxXUF85VWtuZ3o3TXpWcnI4eHo0dXNhaUY2NGJTQzQ1dkNCaTNqLUZvOWtvVzdQU19CVGxTSXR6Y1NYaS1XM3ByaWEzakc5aFZEeFAyeTFjYkh1T0hwaHU2cGFqZw?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

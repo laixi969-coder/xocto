@@ -20,10 +20,11 @@ url: https://spectrum.ieee.org/ai-robots
 canonical_url: https://spectrum.ieee.org/ai-robots
 summary: When will they be in our homes
 first_seen: '2026-09-14T00:44:23Z'
-last_seen: '2026-09-15T00:38:38Z'
-status: rejected
+last_seen: '2026-09-16T00:21:06Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://spectrum.ieee.org/ai-robots
@@ -31,6 +32,11 @@ sightings:
   metrics:
     points: 42
     comments: 45
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/
+  seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
   kind: news
 ---
 

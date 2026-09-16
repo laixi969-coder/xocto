@@ -32,16 +32,16 @@ canonical_url: https://github.com/xinsuifan-web/Tender-Assistant-V2.5
 summary: AI Agent prototype for tender and bid document workflows, featuring tender parsing, industry
   Skills, draft generation, role-based review, and traceable AI adoption.
 first_seen: '2026-09-01T12:37:47Z'
-last_seen: '2026-09-14T00:12:35Z'
+last_seen: '2026-09-16T00:20:40Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xinsuifan-web/Tender-Assistant-V2.5
-  seen_at: '2026-09-14T00:12:35Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
-    stars: 102
+    stars: 100
     forks: 0
     open_issues: 0
   kind: product

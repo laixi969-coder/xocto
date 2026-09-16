@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOVG9FeEhMYlJ4bDhLakVmOX
 canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOVG9FeEhMYlJ4bDhLakVmOXcwSFUwb0VTU0I5RGVzd2JnMFI1UjN3cG5RSXg0NFhHZjUwbWM5ZkEyZThHMWFRaEdwaE1XUE1CZHpaZENVUXBnYUJDeHZaMmlhWlR4eThQeWE2bWZ5WUVrYU82ODZtVE55emV4UWZzSzZ1dHRQMFhza3h6VGp3R3ZBelBpQk1xdmh1bGE4YjIxbFI0VFBSV1pqSWhlLVU1d1hFSQ?oc=5
 summary: 'ASML or AAOI: Which Tech Stock Is Better-Placed at Present? TradingView'
 first_seen: '2026-08-26T16:27:00Z'
-last_seen: '2026-08-29T15:06:37Z'
-status: market_context
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOVG9FeEhMYlJ4bDhLakVmOXcwSFUwb0VTU0I5RGVzd2JnMFI1UjN3cG5RSXg0NFhHZjUwbWM5ZkEyZThHMWFRaEdwaE1XUE1CZHpaZENVUXBnYUJDeHZaMmlhWlR4eThQeWE2bWZ5WUVrYU82ODZtVE55emV4UWZzSzZ1dHRQMFhza3h6VGp3R3ZBelBpQk1xdmh1bGE4YjIxbFI0VFBSV1pqSWhlLVU1d1hFSQ?oc=5
   seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE5USHplRktJcHZwSnJTWGs1OTB6R0c4cWp4eVV5MnZfQkFIZzFNQ3l6MW95Szl0NDBpbGdiRXc5NjByQUpsakE?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

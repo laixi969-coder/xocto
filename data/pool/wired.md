@@ -20,7 +20,7 @@ url: https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/
 canonical_url: https://wired.com/story/insurance-claims-adjusters-really-hate-ai
 summary: You Know Who Hates AI? Insurance Claims Adjusters
 first_seen: '2026-08-31T11:01:19Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: pending_filter
 sources:
 - hackernews
@@ -44,6 +44,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOblFXM05KMVB3UGJsRjYzSmkxZFZXR1FBUDdmVWZZQzdTU2RZZ0tWVmdiTkE3RWFENlRxelhoUU1YUDVQR05wN0dZT0liMHpMSzJuWHJKTnQ4Y2t6c2FoTVR5dUZWMTFwaUVVUE9YbFJ6UkdvS2VTUndwNkcyTm41SmNWTmloV2NTSWNic0JnajJXS0VMR2JzUHF3R1MyVDFUSmZoMDAtT2I?oc=5
   seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/
+  seen_at: '2026-09-16T00:20:36Z'
+  metrics:
+    points: 13
+    comments: 5
   kind: news
 ---
 

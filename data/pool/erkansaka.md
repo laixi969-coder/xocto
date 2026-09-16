@@ -20,17 +20,17 @@ url: https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/
 canonical_url: https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype
 summary: For AI leaders Doom is a form of hype
 first_seen: '2026-09-14T16:15:05Z'
-last_seen: '2026-09-15T00:38:38Z'
-status: rejected
+last_seen: '2026-09-16T00:20:36Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype/
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 122
-    comments: 170
+    points: 131
+    comments: 181
   kind: news
 ---
 

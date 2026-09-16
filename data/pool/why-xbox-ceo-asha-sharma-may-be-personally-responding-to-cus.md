@@ -1,0 +1,41 @@
+---
+slug: why-xbox-ceo-asha-sharma-may-be-personally-responding-to-cus
+name: Why Xbox CEO Asha Sharma may be personally responding to customer complaints
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNHBDanhleWVCMjlmZkwyRENWS3NFMGRnOFozZThXUjRnSm13WU5jS3hYUW53STdKNHhITTM5UzBOLWNJM211cjNxbDRLS1pMNGt2Q2lXMWpaWmtVRnRGNXBYZzJCUjEyMENGSzN1SlRxQ2lNeFlvV0F1UFk4RE1nWHlqUlRUVzh6bUtSQVRDQ01oNGp0TDNfcnZyZS1nZWtTT2xhbzVoMHpmMU9UVGE2cjk5WjBwYWtuUDVZUjdfOEhtYUZvMjRQQU9rQklrUHI3OVRUb3FZX0RqeU8wXzdDZWlQSkdOX2vSAewBQVVfeXFMTXhLYzhyelZYYkRoSllVQTdCZ25JRzVSR0FwdS1ITTJSNXBRU0ZORkFGaVpaeXcxYVgxWHRlZjRCTWRqNWdmZlJldEtETmVQYnJ5ZV9ibkUzS1ZEU0RDYmgwV0poLVBsLVFRVTJ5LTNTaEZlb3pyRTRRdVpyUW91M1hFblBpNUpxc0hyOGIza1d6NmduS3FtQ3Jsb0R2ZFlOeENXTkw4VXhVMXlsWVhIT0I5R0YwM2s4dDVTLWhLd1lSbjhhTjBmaUQ4aXBSREE2QW80d3h1YVJPcFdFNmhuV24zNHlGdjcwNnhtTFo?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNHBDanhleWVCMjlmZkwyRENWS3NFMGRnOFozZThXUjRnSm13WU5jS3hYUW53STdKNHhITTM5UzBOLWNJM211cjNxbDRLS1pMNGt2Q2lXMWpaWmtVRnRGNXBYZzJCUjEyMENGSzN1SlRxQ2lNeFlvV0F1UFk4RE1nWHlqUlRUVzh6bUtSQVRDQ01oNGp0TDNfcnZyZS1nZWtTT2xhbzVoMHpmMU9UVGE2cjk5WjBwYWtuUDVZUjdfOEhtYUZvMjRQQU9rQklrUHI3OVRUb3FZX0RqeU8wXzdDZWlQSkdOX2vSAewBQVVfeXFMTXhLYzhyelZYYkRoSllVQTdCZ25JRzVSR0FwdS1ITTJSNXBRU0ZORkFGaVpaeXcxYVgxWHRlZjRCTWRqNWdmZlJldEtETmVQYnJ5ZV9ibkUzS1ZEU0RDYmgwV0poLVBsLVFRVTJ5LTNTaEZlb3pyRTRRdVpyUW91M1hFblBpNUpxc0hyOGIza1d6NmduS3FtQ3Jsb0R2ZFlOeENXTkw4VXhVMXlsWVhIT0I5R0YwM2s4dDVTLWhLd1lSbjhhTjBmaUQ4aXBSREE2QW80d3h1YVJPcFdFNmhuV24zNHlGdjcwNnhtTFo?oc=5
+summary: Why Xbox CEO Asha Sharma may be personally responding to customer complaints The Times of India
+first_seen: '2026-09-15T16:51:00Z'
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNHBDanhleWVCMjlmZkwyRENWS3NFMGRnOFozZThXUjRnSm13WU5jS3hYUW53STdKNHhITTM5UzBOLWNJM211cjNxbDRLS1pMNGt2Q2lXMWpaWmtVRnRGNXBYZzJCUjEyMENGSzN1SlRxQ2lNeFlvV0F1UFk4RE1nWHlqUlRUVzh6bUtSQVRDQ01oNGp0TDNfcnZyZS1nZWtTT2xhbzVoMHpmMU9UVGE2cjk5WjBwYWtuUDVZUjdfOEhtYUZvMjRQQU9rQklrUHI3OVRUb3FZX0RqeU8wXzdDZWlQSkdOX2vSAewBQVVfeXFMTXhLYzhyelZYYkRoSllVQTdCZ25JRzVSR0FwdS1ITTJSNXBRU0ZORkFGaVpaeXcxYVgxWHRlZjRCTWRqNWdmZlJldEtETmVQYnJ5ZV9ibkUzS1ZEU0RDYmgwV0poLVBsLVFRVTJ5LTNTaEZlb3pyRTRRdVpyUW91M1hFblBpNUpxc0hyOGIza1d6NmduS3FtQ3Jsb0R2ZFlOeENXTkw4VXhVMXlsWVhIT0I5R0YwM2s4dDVTLWhLd1lSbjhhTjBmaUQ4aXBSREE2QW80d3h1YVJPcFdFNmhuV24zNHlGdjcwNnhtTFo?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+---
+
+# Why Xbox CEO Asha Sharma may be personally responding to customer complaints
+
+Why Xbox CEO Asha Sharma may be personally responding to customer complaints The Times of India
+
+## 笔记
+
+

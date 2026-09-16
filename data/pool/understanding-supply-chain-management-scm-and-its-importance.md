@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kQmlQbmg2VmFqVGJzN1dfT2
 canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kQmlQbmg2VmFqVGJzN1dfT2FUd2tSZEN2UEVRLTlUVm9SVmdjSlJCaXgzcHctMWJtYVh6SkZhd1lMd0RwVnZXLTZfa0hkWTZVWk1QLWtOaw?oc=5
 summary: Understanding Supply Chain Management (SCM) and Its Importance Investopedia
 first_seen: '2026-09-03T07:00:00Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-09-16T00:21:13Z'
 status: pending_filter
 sources:
 - newssearch
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ09NTFlUZnRIYy1aVThpN1V4bEhXZnozMDBYVWoyUGlHNHJPbkRKdm1DZmNPa1VKZDJCX21XUVJvblZVZGwxR2g3aEhmQmVHZVlJWDhGVTNlVktnY0YxNzNZTWZMUVJDRDVCczNMVGNnRDZyaXhybVV0dVh4ekJtN3VTOXBHUFdoV3dZUXo0bWJySHI5dzU1VF9DVl8tUTdaVmY4?oc=5
   seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxOYmE4NkJJQW8tMEVnQy1qeVlGa0lOaWFrbmE0eWpYOVZVUll4Uk1iV2hYUWxEcEhRcEl0RThIdl9wNFVrajFkQVMzUFRDYWcwb2VHb3AzNFFidVJNUDlfZDFwdWFpaUZ6ZlB0TTFYRGEyTVBWTXkxYjI2T0U4Ti03V0J5Zm5LYmJUdVg0Y2N4Z1E3dmE5bFNDaDFXb05TTjJuVzJKNDZIclpnMHRJ?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

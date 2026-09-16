@@ -1,0 +1,41 @@
+---
+slug: experiencing-new-changes-in-ai-applications-at-ciftis
+name: Experiencing New Changes in AI Applications at CIFTIS
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNSGNrX1ZrRXkyQnFmeVJqRkFubUZQZFpMd0h4WWpaQzM1d2UzbkZEV2JRbUlSVjJxTlFIV2xzNG5lWGVpN3lTZmJkdlNraGdjN3hza0J0RWhXZG9ZeGYwb1dPaFFwTGpfRURld09iNGVyR0hwemtnT0tVdTlYUmRUUVpZZWY4TFA3ZmIzblZmZVhhVHpnVHRMdGpaTVlmVWgyaVJRZGJ3ZUZwd2NQWXVyWFQ5cUE4am4yT0FVcm41TW5DTXlidHIySUVTWdIBywFBVV95cUxNSGNrX1ZrRXkyQnFmeVJqRkFubUZQZFpMd0h4WWpaQzM1d2UzbkZEV2JRbUlSVjJxTlFIV2xzNG5lWGVpN3lTZmJkdlNraGdjN3hza0J0RWhXZG9ZeGYwb1dPaFFwTGpfRURld09iNGVyR0hwemtnT0tVdTlYUmRUUVpZZWY4TFA3ZmIzblZmZVhhVHpnVHRMdGpaTVlmVWgyaVJRZGJ3ZUZwd2NQWXVyWFQ5cUE4am4yT0FVcm41TW5DTXlidHIySUVTWQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNSGNrX1ZrRXkyQnFmeVJqRkFubUZQZFpMd0h4WWpaQzM1d2UzbkZEV2JRbUlSVjJxTlFIV2xzNG5lWGVpN3lTZmJkdlNraGdjN3hza0J0RWhXZG9ZeGYwb1dPaFFwTGpfRURld09iNGVyR0hwemtnT0tVdTlYUmRUUVpZZWY4TFA3ZmIzblZmZVhhVHpnVHRMdGpaTVlmVWgyaVJRZGJ3ZUZwd2NQWXVyWFQ5cUE4am4yT0FVcm41TW5DTXlidHIySUVTWdIBywFBVV95cUxNSGNrX1ZrRXkyQnFmeVJqRkFubUZQZFpMd0h4WWpaQzM1d2UzbkZEV2JRbUlSVjJxTlFIV2xzNG5lWGVpN3lTZmJkdlNraGdjN3hza0J0RWhXZG9ZeGYwb1dPaFFwTGpfRURld09iNGVyR0hwemtnT0tVdTlYUmRUUVpZZWY4TFA3ZmIzblZmZVhhVHpnVHRMdGpaTVlmVWgyaVJRZGJ3ZUZwd2NQWXVyWFQ5cUE4am4yT0FVcm41TW5DTXlidHIySUVTWQ?oc=5
+summary: Experiencing New Changes in AI Applications at CIFTIS The Manila Times
+first_seen: '2026-09-15T13:02:37Z'
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNSGNrX1ZrRXkyQnFmeVJqRkFubUZQZFpMd0h4WWpaQzM1d2UzbkZEV2JRbUlSVjJxTlFIV2xzNG5lWGVpN3lTZmJkdlNraGdjN3hza0J0RWhXZG9ZeGYwb1dPaFFwTGpfRURld09iNGVyR0hwemtnT0tVdTlYUmRUUVpZZWY4TFA3ZmIzblZmZVhhVHpnVHRMdGpaTVlmVWgyaVJRZGJ3ZUZwd2NQWXVyWFQ5cUE4am4yT0FVcm41TW5DTXlidHIySUVTWdIBywFBVV95cUxNSGNrX1ZrRXkyQnFmeVJqRkFubUZQZFpMd0h4WWpaQzM1d2UzbkZEV2JRbUlSVjJxTlFIV2xzNG5lWGVpN3lTZmJkdlNraGdjN3hza0J0RWhXZG9ZeGYwb1dPaFFwTGpfRURld09iNGVyR0hwemtnT0tVdTlYUmRUUVpZZWY4TFA3ZmIzblZmZVhhVHpnVHRMdGpaTVlmVWgyaVJRZGJ3ZUZwd2NQWXVyWFQ5cUE4am4yT0FVcm41TW5DTXlidHIySUVTWQ?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+---
+
+# Experiencing New Changes in AI Applications at CIFTIS
+
+Experiencing New Changes in AI Applications at CIFTIS The Manila Times
+
+## 笔记
+
+

@@ -1775,3 +1775,34 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-574ef56b35261b32
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@opencode2dsh/dsh-plugin
+  title: opencode2dsh
+  published_at: '2026-08-29T07:22:12Z'
+  collected_at: '2026-09-16T00:20:40Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DSH plugin — free OpenCode Zen models for DeepSeek Harness (DSH). Free LLM API, no API key needed.
+    在 DSH 中使用 OpenCode Zen 免费模型，无需 API key | repository stars: 64'
+- id: ev-94e5e95d97803cda
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/deepseekharness-acp-interactive
+  title: dsh-acp-interactive
+  published_at: '2026-09-02T06:25:26Z'
+  collected_at: '2026-09-16T00:20:40Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Editor-facing ACP server for Zed and other ACP clients, composed from published DeepSeek Harness
+    plugins. Community-maintained; not affiliated with DeepSeek. | repository stars: 46'
+- id: ev-b306c3f996fabdb2
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/baoer_signal_grep
+  title: baoer_signal_grep
+  published_at: '2026-08-27T11:39:55Z'
+  collected_at: '2026-09-16T00:20:40Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Context-efficient project search and bounded code analysis for Claude Code & Codex & Pi & OMP.
+    and remote MCP clients, powered by ripgrep with stable cursors, source inspection, and structural
+    evidence. | repository stars: 80'

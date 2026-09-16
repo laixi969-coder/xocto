@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-15T00:39:09Z'
-status: rejected
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -153,6 +153,21 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/eu-scaleup-fund-leads-100m-tandem-health-raise/
   seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/euclyd-efficient-ai-series-a/
+  seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/15/depotcharge-lands-eur27m-and-bgl-partnership-to-scale-electric-truck-charging/
+  seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwJBVV95cUxPUnhIME9SZnc3d3pGLTN3Y1ZneElUMnM3Ty1CTmlCZkIzWUV2ay1aS25WTGpuaWhyZ09mdGVEaGtoUlM4ekh6WS15TnVwM0RvQ0xFaFpZZDJtTlFOVmU0UTVxU211Zkh4aGVhREplTF9fdnJTVmVVbnNBYzd1cm0tZlhUb2Y3cU5qTVlsQjBMOURXY0NfNUlobjc2NGdBcGtaRFJtZEVSRmZsclNqSGxkTFg3WW9XX1Bob0Z1VmhTSmlYMXVzSWJuSEtIdnF4eXZVaGpmaFFKRGtBekdCRXBYcnBaNTdhRGYySHVpNWo4VTRMT1lBSjluMFJtTkloYnkzYURqVFVrM2RGWEtOMEx30gGUAkFVX3lxTE4tdXNFcGhGcnVqMnBkb0stQXJXVjVBd2JHeHRqbDRHZnI4WUY4SHlOekFEbHhQSnlacXQxdjJtV3NSQXNIS1hSbGFxcmZZeXgwVVVmQ3d6U2tBSDQyV2JqRmZ2Z29zck9hWmxvbVl4VEFOUFpkcDFpbmRPSmctVFpZdnZ3RFU0ZHg1bjNJNTZGaks5LVBoZkJFS3hIMEk4VHBtcHNVdHEzenROOENzQ2JkemVybHN1WFBKcXJPQkVpdHFiNzM1ZFFzTzZyU1FkY3BEaDZJb3JhR2ZDbGxoc0V6TGdGOWw3aG9QYmVnLUY5RThORnlHUDhCYlZ6VXBtWVJZanBGWGxkV05hOEZlTTlRSHhjYg?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

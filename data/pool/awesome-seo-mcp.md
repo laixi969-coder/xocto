@@ -21,18 +21,18 @@ canonical_url: https://rankspot.ai
 summary: A curated list of MCP servers for SEO. Search Console, keywords, backlinks, crawling, SERPs and
   AI search visibility, verified with install details and auth requirements.
 first_seen: '2026-09-06T12:32:34Z'
-last_seen: '2026-09-15T00:38:44Z'
+last_seen: '2026-09-16T00:20:40Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://www.rankspot.ai/
-  seen_at: '2026-09-15T00:38:44Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
-    stars: 94
-    forks: 0
-    open_issues: 0
+    stars: 90
+    forks: 1
+    open_issues: 1
   kind: product
 ---
 

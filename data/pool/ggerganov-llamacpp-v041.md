@@ -185,16 +185,16 @@ summary: "## Overview\r\n\r\nllama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4, a
   \ more jobs to ccache-buckets (#28375)\r\n1863ac033 ui: export conversations from database instead of\
   \ cached store (#27432)\r\n49c0dc82b model : add Tencent Hy 4 (hy_v4) preview architecture support (#28127)"
 first_seen: '2026-09-14T18:27:29Z'
-last_seen: '2026-09-15T00:38:44Z'
-status: rejected
+last_seen: '2026-09-16T00:20:40Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1
-  seen_at: '2026-09-15T00:38:44Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
-    reactions: 25
+    reactions: 46
   kind: news
 ---
 

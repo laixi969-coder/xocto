@@ -1,7 +1,7 @@
 ---
 slug: manus
 name: Manus
-builder: ''
+builder: droidjj
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -20,11 +20,12 @@ url: https://www.aicpb.com/product/Manus/webid1D6F371D9
 canonical_url: https://aicpb.com/product/Manus/webid1D6F371D9
 summary: Find the best Manus Playbook and setups built by Manus community members.
 first_seen: '2026-08-17T22:41:21Z'
-last_seen: '2026-09-01T14:56:33Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: pending_filter
 sources:
 - aicpb
 - newssearch
+- hackernews
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Manus/webid1D6F371D9
@@ -44,6 +45,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPNFBFTzZiT092NUZ3amV3aGhwcEpNdE5jNWVwOGhMMUtUb3R3VEhCWWxOVXA3SUlEemZBLXFFLTdNYV9seG5kanhqNzgxMmItUzR4Y3JZZFhMRmlDMjFlREw0cFFzbFdPWVFwUEtRLU13LWxEVHY3Mk9CVWlIRHhTMDlpaG1MaUt4d2x0MWZIVV9kRmlLZ09NaTJ3bzRFYmZY?oc=5
   seen_at: '2026-09-01T14:56:33Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.abc.net.au/news/2026-09-10/christopher-duff-to-stand-trial-over-nsw-ai-court-data-breach/107135032
+  seen_at: '2026-09-16T00:20:36Z'
+  metrics:
+    points: 9
+    comments: 0
   kind: news
 ---
 

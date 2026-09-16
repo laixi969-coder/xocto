@@ -27,10 +27,12 @@ url: https://www.tryprofound.com/
 canonical_url: https://tryprofound.com
 summary: Named to Madrona's 2026 Intelligent Applications 40 (Mid stage).
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-09-10T16:51:24Z'
-status: watching
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - ia40
+- marketfeeds
+- newssearch
 sightings:
 - source: ia40
   url: https://www.tryprofound.com/
@@ -39,6 +41,21 @@ sightings:
     stage: Mid
     edition: '2026'
   kind: product
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/
+  seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUHR5WFhXd0NtM0ZrR0FwQkJzTXdST2xXWE5YY2VPcTJPb2gtMnE2VVlBWlN3eVlYWWZWWXhEaDR6TmtlR19KYXFHXzJqV0p5SXFJVk9YdDdoRFJ0RnVXSEkxMTZBNEpCYy1nSmNMMENUSGRseEx0TG0wVm9neElIS083VEFuTUtzNzloNGFlQ0tZWklhWS02d0Q1U05NYVAzV1hoYkFCOEk2cVFVZ3FSUzVPLTFWdGFyZkNBTFdxanVJWFk?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQOVg2YXplNWhxcXQwVnJob2t0TTJhY3pWVVB3Q1ZDVjRDOEZZLUo5OTRaN1F5dTFJVEM2NUFMQjVxNW1wV3NBQllDVV9xRE1tTThUdUJScG1DNGU0ZHhqczRSZmphLTJxdnZwcUhERG5Ka25mdnE5Tnc4cS1Va0RCZE5HOG5HdkJKaUhqdWZR?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
 ---
 
 # Profound

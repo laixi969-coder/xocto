@@ -1,0 +1,11 @@
+- id: ev-f828a80c77f803a0
+  project_slug: announcing-instance-preference-lists-for-amazon-sagemaker-ai
+  url: https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/
+  title: Announcing instance preference lists for Amazon SageMaker AI training jobs
+  published_at: '2026-09-15T16:01:47Z'
+  collected_at: '2026-09-16T00:21:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify
+    an ordered list of up to five instance types, and SageMaker AI automatically launches on the first
+    type with available capacity, eliminating manual retry loops and capacity-watching scripts.

@@ -33,8 +33,8 @@ url: https://github.com/kelviq/tare
 canonical_url: https://github.com/kelviq/tare
 summary: My Claude quota ran out in 10 minutes, so I made a tool to find out why
 first_seen: '2026-08-27T16:37:44Z'
-last_seen: '2026-09-12T00:19:09Z'
-status: watching
+last_seen: '2026-09-16T00:21:06Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -70,6 +70,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
   seen_at: '2026-09-12T00:19:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september
+  seen_at: '2026-09-16T00:21:06Z'
   metrics: {}
   kind: news
 ---

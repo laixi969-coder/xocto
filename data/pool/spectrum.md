@@ -22,24 +22,24 @@ url: https://spectrum.ieee.org/china-ai-chatbot-regulation
 canonical_url: https://spectrum.ieee.org/china-ai-chatbot-regulation
 summary: China's Regulators Take Aim at "AI Boyfriends"
 first_seen: '2026-09-14T15:30:56Z'
-last_seen: '2026-09-15T00:38:38Z'
-status: market_context
+last_seen: '2026-09-16T00:20:36Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://spectrum.ieee.org/china-ai-chatbot-regulation
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 54
-    comments: 49
+    points: 58
+    comments: 52
   kind: news
 - source: hackernews
   url: https://spectrum.ieee.org/adversarial-fashion
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 93
-    comments: 44
+    points: 111
+    comments: 48
   kind: news
 ---
 

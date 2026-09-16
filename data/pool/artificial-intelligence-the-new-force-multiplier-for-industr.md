@@ -1,0 +1,42 @@
+---
+slug: artificial-intelligence-the-new-force-multiplier-for-industr
+name: 'Artificial intelligence: The new force multiplier for industrial manufacturing organisations'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMickFVX3lxTE1vM29RWFBZU1Rzek50cndtTjZHN0ExSnVNQ21RT1U0U1Iyc1F5Y2tlTjhRLWJGbF9VeXFfX05hbXhWOXl5V1NWY1JuRk5CZlNHNWhLN0diMUhraTRVckN1LUJfcEhSY2RVM3hyRlo5cVV6QQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE1vM29RWFBZU1Rzek50cndtTjZHN0ExSnVNQ21RT1U0U1Iyc1F5Y2tlTjhRLWJGbF9VeXFfX05hbXhWOXl5V1NWY1JuRk5CZlNHNWhLN0diMUhraTRVckN1LUJfcEhSY2RVM3hyRlo5cVV6QQ?oc=5
+summary: 'Artificial intelligence: The new force multiplier for industrial manufacturing organisations
+  Manufacturing Today India'
+first_seen: '2026-09-15T05:45:00Z'
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTE1vM29RWFBZU1Rzek50cndtTjZHN0ExSnVNQ21RT1U0U1Iyc1F5Y2tlTjhRLWJGbF9VeXFfX05hbXhWOXl5V1NWY1JuRk5CZlNHNWhLN0diMUhraTRVckN1LUJfcEhSY2RVM3hyRlo5cVV6QQ?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+---
+
+# Artificial intelligence: The new force multiplier for industrial manufacturing organisations
+
+Artificial intelligence: The new force multiplier for industrial manufacturing organisations Manufacturing Today India
+
+## 笔记
+
+

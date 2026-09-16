@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMivgFBVV95cUxPQnEzc3FSVHNBQjhHVlhnSn
 canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxPQnEzc3FSVHNBQjhHVlhnSnJKMVZpM1BuN2diemp0WTlod3JoeE1fMTdkYzc4T2pJbDF0eGFoZmE5UXlxTzdYTVlwM1hUckt1S2ZIbVNUbjFubS1wWUtzdWRGMTFRZjM3b0J4SnRmdzZhSmxTMXpKVmg3VEpkcFk0QlhaTkhVdVJLOHNvMUE5b1ZhcHEtenVGSjJjcXF5cUZmdWp3TzZTMUhPSlRPQVJ4cGZuVDJYVUF5M2tsU2NB?oc=5
 summary: Brickworks implements Boomi Enterprise Platform Architecture & Design
 first_seen: '2026-09-06T08:42:57Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: rejected
+last_seen: '2026-09-16T00:21:06Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -36,6 +36,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/10/antler-research-reveals-europe-s-unicorn-boom-is-masking-an-early-stage-funding-crisis/
   seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/
+  seen_at: '2026-09-16T00:21:06Z'
   metrics: {}
   kind: news
 ---

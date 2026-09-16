@@ -27,17 +27,17 @@ url: https://triangllabs.ai/otis
 canonical_url: https://triangllabs.ai/otis
 summary: I built Otis, a minimal AI agent that runs local models out of the box
 first_seen: '2026-09-14T12:58:32Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://triangllabs.ai/otis
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
     points: 19
-    comments: 2
+    comments: 4
   kind: product
 ---
 

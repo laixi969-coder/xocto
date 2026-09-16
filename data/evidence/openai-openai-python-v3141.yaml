@@ -1,0 +1,28 @@
+- id: ev-f3a0ae9b898bccab
+  project_slug: openai-openai-python-v3141
+  url: https://github.com/openai/openai-python/releases/tag/v3.14.1
+  title: 'openai/openai-python: v3.14.1'
+  published_at: '2026-09-15T23:12:54Z'
+  collected_at: '2026-09-16T00:20:40Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.14.1](https://github.com/openai/openai-python/compare/v3.14.0...v3.14.1) (2026-09-15)
+
+
+
+    ### Bug Fixes
+
+
+    * **client:** validate retry limits and preserve application errors ([#3867](https://github.com/openai/openai-python/issues/3867))
+    ([f86c721](https://github.com/openai/openai-python/commit/f86c7214093038faa512bd4883558b093bdb8c9a))
+
+    * correct typo "th" to "the" in StreamAlreadyConsumed error message ([#3022](https://github.com/openai/openai-python/issues/3022))
+    ([7186203](https://github.com/openai/openai-python/commit/718620397c38a546d2cbbc964983c286db7abf97))
+
+    * **examples:** correct Azure endpoint hostname ([#3298](https://github.com/openai/openai-python/issues/3298))
+    ([543516c](https://github.com/openai/openai-python/commit/543516c4223372a7fb830d560f26d8e6ad081d02))
+
+    * **examples:** refresh chat streaming examples ([#2974](https://github.com/openai/openai-python/issues/2974))
+    ([54f460e](https://github.com/openai/openai-python/commit/54f460ef8c212a7849d10cef69853dffb48c4491))
+
+    * *'

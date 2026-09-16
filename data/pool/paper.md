@@ -42,8 +42,8 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Early stage). Near
   with Cognition, CodeRabbit, and Zed, CRM with Clarify, quote-to-cash with Roadrunner, and design with
   Paper.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-09-15T00:39:17Z'
-status: rejected
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - ia40
 - newssearch
@@ -73,6 +73,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fYzRyYnRqZTVyNWQta3RLbHRIY0E2WnI2TVFHVm5tbm5fazQ4aUdISUpaTWY3bEdTR1R6dDdYNTRjaFR4cC1RSjBwZFNpNlFhangzbVV2b2Mtai1wcFEzbw?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE80N1NYM1h4YkhKcERBVjY3TmtYOFk2VGNob0JXcUtfQW5OMFkyS0VqRjRZeVZpMWlXSkJxSGtYTXk5OWVLRi1JckF3WWF2MnJ2SVJpX0hBb2pGcl8tRGc?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

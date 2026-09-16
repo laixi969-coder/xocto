@@ -24,14 +24,19 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQblVZM1N5U3lzLUJMQjJ3M3
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQblVZM1N5U3lzLUJMQjJ3M3VnUFVYT21RZGc0RmJPcHVVRVpNNkF0UjVlNmFtMEYzanUtZ01JM2I4OGlBTFR4QWRIZlpaWlFRdzJnUERWYzkzcUZXOS1fa25YcUNyakl4M090UFMtbUF4R0NHQk1ZYzFnMjFHdDdQTGFxZXEwNG9iWG9qZVNKVTNxUQ?oc=5
 summary: UK commission proposes new healthcare AI regulations MobiHealthNews
 first_seen: '2026-09-14T19:53:16Z'
-last_seen: '2026-09-15T00:39:17Z'
-status: market_context
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQblVZM1N5U3lzLUJMQjJ3M3VnUFVYT21RZGc0RmJPcHVVRVpNNkF0UjVlNmFtMEYzanUtZ01JM2I4OGlBTFR4QWRIZlpaWlFRdzJnUERWYzkzcUZXOS1fa25YcUNyakl4M090UFMtbUF4R0NHQk1ZYzFnMjFHdDdQTGFxZXEwNG9iWG9qZVNKVTNxUQ?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ2Y5MWpGSDNPMzN4SV9mRVNhaUM1RWZXQTY1a1pPWXg4YmJFelNXcUJFWjdKMm1OLXBRcmlmUUhxSkdHOVMzdlBvd0l3WUF5VURkR1VUNTFZMW5ybWQtSWJBQkRaZmdaaVhmWUhzaVd0YVNjVkVpZ0tTWUtGYk9EOS1NRlFmdkJNdVRaMnpFeXJyLXBB?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

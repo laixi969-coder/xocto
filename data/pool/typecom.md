@@ -38,11 +38,12 @@ url: https://www.producthunt.com/products/type-com
 canonical_url: https://producthunt.com/products/type-com
 summary: A shared workspace for Claude, Codex, and your team
 first_seen: '2026-09-09T03:54:10Z'
-last_seen: '2026-09-11T00:10:31Z'
-status: watching
+last_seen: '2026-09-16T00:21:05Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
+- officialfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/type-com
@@ -56,6 +57,18 @@ sightings:
     points: 14
     comments: 10
   kind: product
+- source: hackernews
+  url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
+  seen_at: '2026-09-16T00:20:36Z'
+  metrics:
+    points: 664
+    comments: 213
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/is-agentic-report-categories
+  seen_at: '2026-09-16T00:21:05Z'
+  metrics: {}
+  kind: news
 ---
 
 # Type.com

@@ -20,17 +20,17 @@ url: https://github.com/JamesRyanATX/fcbnerd
 canonical_url: https://github.com/JamesRyanATX/fcbnerd
 summary: Macros with a Behringer FCB1010 MIDI Pedalboard in macOS
 first_seen: '2026-09-14T23:01:36Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/JamesRyanATX/fcbnerd
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 22
-    comments: 0
+    points: 83
+    comments: 21
   kind: product
 ---
 

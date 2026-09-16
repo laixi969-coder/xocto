@@ -30,16 +30,22 @@ url: https://www.producthunt.com/products/drive-gforce-telemetry
 canonical_url: https://producthunt.com/products/drive-gforce-telemetry
 summary: Vehicle telemetry for your next weekend drive with LPR alert
 first_seen: '2026-09-09T16:20:28Z'
-last_seen: '2026-09-11T00:10:31Z'
-status: watching
+last_seen: '2026-09-16T00:21:13Z'
+status: pending_filter
 sources:
 - producthunt
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/drive-gforce-telemetry
   seen_at: '2026-09-11T00:10:31Z'
   metrics: {}
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPcm50ZExOWTY0SlI4bl94dmZwT0dOci1rdDZlWUlpWEY1cEN6ck9Rb0pSRVBnWEM5elExUHZxRmxyb0xnS1B6TjM3OW1vUWFYUVBCWlIzRWFzRGhsZjR1QkdnUzdjSzBkLWtqWU5WTUg2Q255UXpSYTIzUXo1aHpFUkk1MWJoSWdFeFJEdXdvMU9oR0RHV3NyQjhsUHBGUjhsVTh1RG1nZ0ktdlhORGZVdWZOVlcwa09uTGFCbzMtZw?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
 ---
 
 # Drive

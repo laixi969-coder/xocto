@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: ''
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: rejected
 sources:
 - modelscope
@@ -76,17 +76,24 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S2-397B
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    likes: 10
-    downloads: 145
+    likes: 17
+    downloads: 292
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/Agnes-AI/Agnes-3.0-Flash
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    likes: 10
-    downloads: 146
+    likes: 22
+    downloads: 262
+  kind: product
+- source: modelscope
+  url: https://modelscope.cn/models/Shanghai_AI_Laboratory/Atria-Dawn-Preview
+  seen_at: '2026-09-16T00:20:36Z'
+  metrics:
+    likes: 14
+    downloads: 440
   kind: product
 ---
 

@@ -26,7 +26,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-09-15T00:38:44Z'
+last_seen: '2026-09-16T00:20:40Z'
 status: queued
 sources:
 - github
@@ -178,19 +178,19 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/@opencode2dsh/dsh-plugin
-  seen_at: '2026-09-15T00:38:44Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
-    stars: 63
-    forks: 7
-    open_issues: 4
+    stars: 64
+    forks: 8
+    open_issues: 5
   kind: product
 - source: github
   url: https://www.npmjs.com/package/baoer_signal_grep
-  seen_at: '2026-09-15T00:38:44Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
     stars: 80
     forks: 5
-    open_issues: 1
+    open_issues: 2
   kind: product
 - source: github
   url: https://www.npmjs.com/package/shopware-mcp
@@ -209,9 +209,9 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/deepseekharness-acp-interactive
-  seen_at: '2026-09-15T00:38:44Z'
+  seen_at: '2026-09-16T00:20:40Z'
   metrics:
-    stars: 41
+    stars: 46
     forks: 0
     open_issues: 0
   kind: product

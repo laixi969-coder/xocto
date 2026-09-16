@@ -20,17 +20,17 @@ url: https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthr
 canonical_url: https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms
 summary: Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama
 first_seen: '2026-09-14T13:59:09Z'
-last_seen: '2026-09-15T00:38:38Z'
-status: rejected
+last_seen: '2026-09-16T00:20:36Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 110
-    comments: 63
+    points: 139
+    comments: 74
   kind: news
 ---
 

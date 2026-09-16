@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-15T00:38:36Z'
+last_seen: '2026-09-16T00:20:34Z'
 status: rejected
 sources:
 - newssearch
@@ -61,6 +61,18 @@ sightings:
   seen_at: '2026-09-15T00:38:36Z'
   metrics:
     comments: 11
+  kind: product
+- source: v2ex
+  url: https://github.com/nexus-research-lab/nexus-agent-sdk-python
+  seen_at: '2026-09-16T00:20:34Z'
+  metrics:
+    comments: 0
+  kind: product
+- source: v2ex
+  url: https://github.com/threatexpert/ProxyLane
+  seen_at: '2026-09-16T00:20:34Z'
+  metrics:
+    comments: 14
   kind: product
 ---
 

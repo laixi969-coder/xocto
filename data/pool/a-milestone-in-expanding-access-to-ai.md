@@ -23,7 +23,7 @@ canonical_url: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
 summary: ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting
   broader access to AI through free and affordable options.
 first_seen: '2026-08-31T04:00:00Z'
-last_seen: '2026-09-14T00:12:56Z'
+last_seen: '2026-09-16T00:21:13Z'
 status: pending_filter
 sources:
 - officialfeeds
@@ -285,6 +285,16 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/488380.html
   seen_at: '2026-09-14T00:12:56Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/489288.html
+  seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTZCNTBSWXJYYUlJTkJ3R0dNU2RiY1M4WlY4TnhuZk05QWtrMzg4bWtsT3diT3d4R1BFcVF5LXBRX2dSQzhzMl80a25EeXoyUGN3SEt2Mk9ya1A4NkFMd2JEWXQyN0MxX1FPaWhZaW9RR1RIYTgtUXNuTmVDUFM1SHNLNlFGVnoyZnJsaTdyTFBOcmVr?oc=5
+  seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
   kind: news
 ---

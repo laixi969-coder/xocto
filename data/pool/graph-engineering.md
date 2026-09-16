@@ -11,13 +11,21 @@ inspiration_en: The trend is knowledge graphs having a second life because agent
   model. Don't rush to build a graph. Start with knowledge bases, research, and support, and decide when
   a graph is needed versus search. The course is open; consulting fees are undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/codejunkie99/graph-engineering
 canonical_url: https://github.com/codejunkie99/graph-engineering
 summary: 'Graph engineering for AI agents: the 9-stage knowledge-graph pipeline (translated from SEU''s
   graduate course) + task-graph orchestration patterns, as a Claude skill with teaching mode and paste-ready
   workflows'
 first_seen: '2026-07-23T14:10:49Z'
-last_seen: '2026-08-12T03:21:52Z'
+last_seen: '2026-09-16T00:20:40Z'
 status: analyzed
 sources:
 - github
@@ -29,6 +37,15 @@ sightings:
     stars: 376
     forks: 53
     open_issues: 0
+  kind: product
+- source: github
+  url: https://github.com/bydtesla1609/graph-engineering
+  seen_at: '2026-09-16T00:20:40Z'
+  metrics:
+    stars: 49
+    forks: 0
+    open_issues: 0
+  kind: product
 ---
 
 # graph-engineering

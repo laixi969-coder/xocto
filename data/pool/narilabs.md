@@ -20,17 +20,17 @@ url: https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/
 canonical_url: https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks
 summary: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost
 first_seen: '2026-09-14T16:07:58Z'
-last_seen: '2026-09-15T00:38:38Z'
+last_seen: '2026-09-16T00:20:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/
-  seen_at: '2026-09-15T00:38:38Z'
+  seen_at: '2026-09-16T00:20:36Z'
   metrics:
-    points: 61
-    comments: 19
+    points: 89
+    comments: 31
   kind: news
 ---
 
