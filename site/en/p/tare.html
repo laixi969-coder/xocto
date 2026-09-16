@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>tare · x-octo</title>
-<meta name="description" content="When developers burn through their LLM API quota quickly, they open tare to see which requests or code paths consumed it; it takes call records and at…">
+<meta name="description" content="Developers using metered models such as Claude open tare when their quota drains unexpectedly fast; it reads their call records and breaks down which …">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/tare.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/tare.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/tare.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/tare.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="tare · x-octo">
-<meta property="og:description" content="When developers burn through their LLM API quota quickly, they open tare to see which requests or code paths consumed it; it takes call records and at…">
+<meta property="og:description" content="Developers using metered models such as Claude open tare when their quota drains unexpectedly fast; it reads their call records and breaks down which …">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/tare.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/tare.html#webpage", "@type": "WebPage", "description": "When developers burn through their LLM API quota quickly, they open tare to see which requests or code paths consumed it; it takes call records and at\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "tare", "url": "https://xocto.vercel.app/en/p/tare.html"}, {"@id": "https://xocto.vercel.app/en/p/tare.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-12", "datePublished": "2026-08-28", "description": "When developers burn through their LLM API quota quickly, they open tare to see which requests or code paths consumed it; it takes call records and attributes them to specific sources, returning a breakdown of quota consumption, though the exact collection method and deliverable still need verification.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/tare.html#webpage"}, "name": "tare", "sameAs": "https://github.com/kelviq/tare", "url": "https://xocto.vercel.app/en/p/tare.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/tare.html", "name": "tare", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/tare.html#webpage", "@type": "WebPage", "description": "Developers using metered models such as Claude open tare when their quota drains unexpectedly fast; it reads their call records and breaks down which \u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "tare", "url": "https://xocto.vercel.app/en/p/tare.html"}, {"@id": "https://xocto.vercel.app/en/p/tare.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-16", "datePublished": "2026-08-28", "description": "Developers using metered models such as Claude open tare when their quota drains unexpectedly fast; it reads their call records and breaks down which requests and which kinds of context consumed the budget, returning a usage attribution the developer can act on by changing prompts or call patterns. The exact accounting method and output format still need verification.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/tare.html#webpage"}, "name": "tare", "sameAs": "https://github.com/kelviq/tare", "url": "https://xocto.vercel.app/en/p/tare.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/tare.html", "name": "tare", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>tare</h1>
       </div>
-      <p class="product-lede">When developers burn through their LLM API quota quickly, they open tare to see which requests or code paths consumed it; it takes call records and attributes them to specific sources, returning a breakdown of quota consumption, though the exact collection method and deliverable still need verification.</p>
+      <p class="product-lede">Developers using metered models such as Claude open tare when their quota drains unexpectedly fast; it reads their call records and breaks down which requests and which kinds of context consumed the budget, returning a usage attribution the developer can act on by changing prompts or call patterns. The exact accounting method and output format still need verification.</p>
       <div class="meta product-meta">
 <span class="tag sig">Not a business yet</span>        <span class="tag">Early</span>
-<span class="tag">Open-source project</span><span class="tag">AI + Dev</span><span class="tag">Software Development</span><span class="tag">IT Services</span><span class="tag">AI Application Developer</span><span class="tag">Developer Productivity Engineer</span><span class="tag sig">Community score 86</span>      </div>
+<span class="tag">Open-source project</span><span class="tag">AI + Dev</span><span class="tag">Software Development</span><span class="tag">AI application developer</span><span class="tag sig">Community score 86</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>Team / maker</dt><dd>sachinneravath</dd></div>
       <div><dt>First tracked here</dt><dd class="num">2026-08-28</dd></div>
-      <div><dt>Last updated here</dt><dd class="num">2026-09-12</dd></div>
+      <div><dt>Last updated here</dt><dd class="num">2026-09-16</dd></div>
       <div><dt>Product site</dt><dd><a href="https://github.com/kelviq/tare" target="_blank" rel="noopener">Visit site ↗</a></dd></div>
     </dl>
   </header>
@@ -82,25 +82,25 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + commercial validation · 2026-09-12</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + workflow reasoning · 2026-09-16</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">An AI application developer, when monthly LLM API quota is exhausted early, works through API call records and usage data to locate which requests or code paths consumed the quota.</p>
-        <p>Public material provides no information on how developers currently diagnose quota consumption, so it is unknown whether the old workflow is reading bills, self-built log scripts, or something else.</p>
-        <p>No public user complaint, issue, review, or case supports the pain of &#39;quota burning fast and being unattributable&#39;; the only evidence is dictionary definitions of the word tare and generic AI market pages, so the pain&#39;s existence and intensity cannot be confirmed.</p>
+        <p class="product-lead">An indie developer or small-team engineer on metered models such as Claude, when quota drains abnormally fast, works through their own call and context records to find out which requests and which kinds of context consumed the budget, then adjusts prompts or call patterns.</p>
+        <p>Checking the platform&#39;s built-in usage dashboard, manually reading logs, trimming prompts by intuition, or simply upgrading the plan.</p>
+        <p>Quota exhaustion reports only a total, not where it went; developers trim prompts by intuition or trial-and-error request by request, which is costly and can recur.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
-        <h3>Useful problem, weak urgency</h3>
-        <p>The trend is that model quota is becoming an operating cost teams must account for rather than a free resource. An entry point is per-project or per-team quota attribution and budget alerts sold to engineering teams building AI features; no public pricing is disclosed, so per-seat charging is unconfirmed.</p>
+        <h3>Demand is evidenced</h3>
+        <p>The trend: once models are metered, quota becomes a production resource that must be managed, so observability into where spend goes tends to appear before optimization tooling. The entry point is individual developers and small AI app teams, starting with single-account usage attribution and later charging per seat or per monitored call volume; no pricing is disclosed, so none is assumed.</p>
       </article>
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
         <h3>Why users would choose it</h3>
-        <p>Inference: if the product truly attributes call records to specific sources, it could remove the step of manually matching log lines; but with no user feedback or cases, it is unconfirmed which users would choose it and when.</p>
+        <p>Inference: compared with a totals-only dashboard, tare reads call records and attributes spend to specific requests and context types, removing the manual log-by-log comparison step, so developers who repeatedly overrun quota would run it first when investigating.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -112,28 +112,28 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Clue only</strong>. Inference: if the product truly attributes call records to specific sources, it could remove the step of manually matching log lines; but with no user feedback or cases, it is unconfirmed which users would choose it and when.</p>
+        <p><strong>Worth trying</strong>. Inference: compared with a totals-only dashboard, tare reads call records and attributes spend to specific requests and context types, removing the manual log-by-log comparison step, so developers who repeatedly overrun quota would run it first when investigating.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
-        <p>The trend is that model quota is becoming an operating cost teams must account for rather than a free resource. An entry point is per-project or per-team quota attribution and budget alerts sold to engineering teams building AI features; no public pricing is disclosed, so per-seat charging is unconfirmed.</p>
+        <p>The trend: once models are metered, quota becomes a production resource that must be managed, so observability into where spend goes tends to appear before optimization tooling. The entry point is individual developers and small AI app teams, starting with single-account usage attribution and later charging per seat or per monitored call volume; no pricing is disclosed, so none is assumed.</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">Public fact</span><p>When developers burn through their LLM API quota quickly, they open tare to see which requests or code paths consumed it; it takes call records and attributes them to specific sources, returning a breakdown of quota consumption, though the exact collection method and deliverable still need verification.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Inference: if the product truly attributes call records to specific sources, it could remove the step of manually matching log lines; but with no user feedback or cases, it is unconfirmed which users would choose it and when.</p></div>
+        <div><span class="field-k">Public fact</span><p>Developers using metered models such as Claude open tare when their quota drains unexpectedly fast; it reads their call records and breaks down which requests and which kinds of context consumed the budget, returning a usage attribution the developer can act on by changing prompts or call patterns. The exact accounting method and output format still need verification.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Inference: compared with a totals-only dashboard, tare reads call records and attributes spend to specific requests and context types, removing the manual log-by-log comparison step, so developers who repeatedly overrun quota would run it first when investigating.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · Value</span>
-            <strong>Challenged</strong>
+            <strong>Supported</strong>
           </div>
-          <p>The product claims to help users complete: “When developers burn through their LLM API quota quickly, they open tare to see which requests or co”. User evidence has not yet verified pain intensity or the cost of doing without it.</p>
+          <p>The assessment is recorded; an English explanation is pending.</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -172,12 +172,12 @@
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-12</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-16</p>
       </div>
       <div class="field">
         <span class="field-k">Chinese ecosystem · CN</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-12</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-16</p>
       </div>
     </div>
   </section>
@@ -209,9 +209,9 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="row-desc">Market comparison · We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems.</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Google AI - How we&#39;re making AI helpful for everyone</span>
-        <span class="row-desc">Market comparison · Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</span>
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">‎Google Gemini</span>
+        <span class="row-desc">Market comparison · Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.</span>
         <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
@@ -219,30 +219,50 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="row-desc">Market comparison · Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://en.m.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Artificial intelligence - Wikipedia</span>
-        <span class="row-desc">Market comparison · Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.</span>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Google AI Studio</span>
+        <span class="row-desc">Market comparison · Generate photorealistic window views based on live weather and specific locations. Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s...</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">‎Google Gemini</span>
-        <span class="row-desc">Market comparison · Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.</span>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Google AI - How we&#39;re making AI helpful for everyone</span>
+        <span class="row-desc">Market comparison · Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">DeepAI</span>
-        <span class="row-desc">Market comparison · DeepAI is the all-in-one creative AI platform built for everyone. We got our start in late 2016 with the first browser-based text-to-image generator (and some other generative tools). Since then, we have greatly expanded: with a single prompt, you can generate images, edit photos, chat with an AI that browses the internet, create short videos, compose original music, or chat with a realistic ...</span>
+      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">What is Artificial Intelligence (AI)? | Google Cloud</span>
+        <span class="row-desc">Market comparison · Artificial intelligence (AI) is a set of technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to require human intelligence, such as...</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://www.top10.com/best-lists/best-ai-apps" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Top 10 Best AI Apps &amp; Websites in 2026: Free and Paid</span>
-        <span class="row-desc">Market comparison · Explore the top AI apps and websites of {year}! From ChatGPT to Midjourney, find the best free and paid tools to enhance your creativity, productivity, and more.</span>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Perplexity AI</span>
+        <span class="row-desc">Market comparison · Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://gemini.google/us/about/?hl=en" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Gemini – Your AI assistant from Google</span>
+        <span class="row-desc">Market comparison · Supercharge your creativity and productivity with Google’s AI assistant. Brainstorm ideas, simplify complex topics, and rehearse for important moments.</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.dfps.texas.gov/Adoption_and_Foster_Care/About_TARE/Adoption/default.asp" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Texas Adoption Resource Exchange (TARE)</span>
+        <span class="row-desc">User pain · The Texas Adoption Resource Exchange (TARE) website contains photographs, profiles and videos on children waiting for adoption, how to become a foster care or adoptive family, parent video testimonials, successful family and youth stories, myths, barriers, joys and challenges of foster care and adoption, adoption assistance resources and ...</span>
         <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://www.merriam-webster.com/dictionary/tare" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">TARE Definition &amp; Meaning - Merriam-Webster</span>
         <span class="row-desc">User pain · When used of vehicles, tare weight refers to a vehicle&#39;s weight exclusive of any load. The term tare is closely tied to net weight, which is defined as &#34;weight excluding all tare.&#34; Examples are automatically compiled from online sources to show current usage.</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Tare_weight" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Tare weight - Wikipedia</span>
+        <span class="row-desc">User pain · Tare weight is often displayed upon the sides of railway cars and transport vehicles to facilitate the computation of the load carried. It is also used in body composition assessment when doing underwater weighing.</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">AI and data centers are incredibly unpopular in every poll</span>
+        <span class="row-desc">market_signal · Poll data released Tuesday by the New York Times and Siena University confirms what we&#39;ve already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […]</span>
+        <span class="row-tail">2026-09-16</span>
       </div></a></li>
       <li><a href="https://en.m.wikipedia.org/wiki/Tare_weight" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">Tare weight - Wikipedia</span>
@@ -273,16 +293,6 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="row-name">John Deere launched an AI chatbot for farmers</span>
         <span class="row-desc">market_signal · John Deere is testing a new &#34;JD&#34; AI assistant that it says can help farmers make more money, with answers about best practices and historical trends that are based on their own data. It uses their &#34;field, machine and operational data&#34; to answer questions on topics like equipment settings, fuel usage, or harvest timing. The […]</span>
         <span class="row-tail">2026-09-02</span>
-      </div></a></li>
-      <li><a href="https://www.dfps.texas.gov/Adoption_and_Foster_Care/About_TARE/Adoption/default.asp" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Texas Adoption Resource Exchange (TARE)</span>
-        <span class="row-desc">Current workaround · The Texas Adoption Resource Exchange (TARE) website contains photographs, profiles and videos on children waiting for adoption, how to become a foster care or adoptive family, parent video testimonials, successful family and youth stories, myths, barriers, joys and challenges of foster care and adoption, adoption assistance resources and national resources on adoption.</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Tare_weight" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Tare weight - Wikipedia</span>
-        <span class="row-desc">Current workaround · Tare weight: 2,230 kg (4,920 lb) Tare weight / ˈtɛər /, sometimes called unladen weight or empty weight, is the weight of an empty vehicle or container. [1] By subtracting tare weight from gross weight (laden weight), one can determine the weight of the goods carried or contained (the net weight).</span>
-        <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">Instagram cracks down on AI accounts pretending to be human</span>
@@ -348,7 +358,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        451 in AI + Dev →
+        465 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -440,8 +450,8 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>1552 cases · 177 business reads</span>
-    <span class="gen">Data through 2026-09-15</span>
+    <span>1600 cases · 177 business reads</span>
+    <span class="gen">Data through 2026-09-16</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>
     <span>·</span>

@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mobilecode.html#webpage", "@type": "WebPage", "description": "MobileCode is a fork of OpenCode that provides built-in build and preview for iOS and Android projects; developers can build and preview mobile apps w\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "MobileCode", "url": "https://xocto.vercel.app/en/p/mobilecode.html"}, {"@id": "https://xocto.vercel.app/en/p/mobilecode.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-14", "datePublished": "2026-09-05", "description": "MobileCode is a fork of OpenCode that provides built-in build and preview for iOS and Android projects; developers can build and preview mobile apps while coding, AI receives code changes and executes builds, delivering runnable previews, but specific workflow still to be verified.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mobilecode.html#webpage"}, "name": "MobileCode", "sameAs": "https://github.com/hsandhu/mobilecode", "url": "https://xocto.vercel.app/en/p/mobilecode.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mobilecode.html", "name": "MobileCode", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mobilecode.html#webpage", "@type": "WebPage", "description": "MobileCode is a fork of OpenCode that provides built-in build and preview for iOS and Android projects; developers can build and preview mobile apps w\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "MobileCode", "url": "https://xocto.vercel.app/en/p/mobilecode.html"}, {"@id": "https://xocto.vercel.app/en/p/mobilecode.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-16", "datePublished": "2026-09-05", "description": "MobileCode is a fork of OpenCode that provides built-in build and preview for iOS and Android projects; developers can build and preview mobile apps while coding, AI receives code changes and executes builds, delivering runnable previews, but specific workflow still to be verified.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mobilecode.html#webpage"}, "name": "MobileCode", "sameAs": "https://github.com/hsandhu/mobilecode", "url": "https://xocto.vercel.app/en/p/mobilecode.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mobilecode.html", "name": "MobileCode", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -72,7 +72,7 @@
     <dl class="product-kv desk-stats">
       <div><dt>Team / maker</dt><dd>rsandhu</dd></div>
       <div><dt>First tracked here</dt><dd class="num">2026-09-05</dd></div>
-      <div><dt>Last updated here</dt><dd class="num">2026-09-14</dd></div>
+      <div><dt>Last updated here</dt><dd class="num">2026-09-16</dd></div>
       <div><dt>Product site</dt><dd><a href="https://github.com/hsandhu/mobilecode" target="_blank" rel="noopener">Visit site ↗</a></dd></div>
     </dl>
   </header>
@@ -82,15 +82,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-09-14</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-09-16</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">Mobile developers using an AI coding agent to modify iOS/Android project code need to turn code changes into a running app, building and previewing UI and interaction inside the editor to confirm the change works.</p>
-        <p>After editing with a general AI coding agent such as OpenCode, developers switch to Xcode/Android Studio or the CLI to build manually and inspect the result on a simulator or device; or they rely on hot-reload/preview tooling that must be configured separately and sits outside the agent workflow.</p>
-        <p>Mobile changes cannot be verified by refreshing a browser as on the web: developers must switch to Xcode/Android Studio or the CLI, wait for a build and simulator boot, then navigate manually to the changed screen, so the feedback loop is long and breaks coding flow; AI-generated code that cannot be built and previewed immediately lets errors accumulate.</p>
+        <p class="product-lead">Mobile developers using an AI coding agent to modify iOS/Android project code need the change built and rendered on a simulator or device to confirm it works, rather than receiving unverified code.</p>
+        <p>Today general AI coding agents (including upstream OpenCode) only edit code and do not build or preview mobile targets; developers switch to Xcode/Android Studio or the CLI to build, boot a simulator and check visually.</p>
+        <p>Unlike web changes, mobile edits cannot be seen instantly in a browser: they require Xcode/Gradle builds, simulator boot, install and screenshot steps. After an agent edits code, the developer must leave the terminal, run the build and chase compile errors, lengthening and breaking the feedback loop.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
@@ -100,7 +100,7 @@
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
         <h3>Why users would choose it</h3>
-        <p>Inference: versus the old practice of switching tools and building manually after each edit, MobileCode folds build and preview into OpenCode&#39;s agent loop, where the AI takes the code change, runs the build, and returns a runnable preview, removing the steps of switching IDEs, triggering builds, and locating the screen; developers already using an AI agent on mobile code who want to verify without leaving the editor would choose it during UI iteration.</p>
+        <p>Inference: versus manually switching to an IDE to build, MobileCode folds build and preview into the agent loop — on receiving a code change the agent triggers the iOS/Android build and produces a runnable preview, removing the step of leaving the terminal, running the build and relaying errors back. Developers already using an AI agent on mobile code who want to avoid toolchain switching would pick it.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -112,7 +112,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Worth trying</strong>. Inference: versus the old practice of switching tools and building manually after each edit, MobileCode folds build and preview into OpenCode&#39;s agent loop, where the AI takes the code change, runs the build, and returns a runnable preview, removing the steps of switching IDEs, triggering builds, and locating the screen; developers already using an AI agent on mobile code who want to verify without leaving the editor would choose it during UI iteration.</p>
+        <p><strong>Worth trying</strong>. Inference: versus manually switching to an IDE to build, MobileCode folds build and preview into the agent loop — on receiving a code change the agent triggers the iOS/Android build and produces a runnable preview, removing the step of leaving the terminal, running the build and relaying errors back. Developers already using an AI agent on mobile code who want to avoid toolchain switching would pick it.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
@@ -124,7 +124,7 @@
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">Public fact</span><p>MobileCode is a fork of OpenCode that provides built-in build and preview for iOS and Android projects; developers can build and preview mobile apps while coding, AI receives code changes and executes builds, delivering runnable previews, but specific workflow still to be verified.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus the old practice of switching tools and building manually after each edit, MobileCode folds build and preview into OpenCode&#39;s agent loop, where the AI takes the code change, runs the build, and returns a runnable preview, removing the steps of switching IDEs, triggering builds, and locating the screen; developers already using an AI agent on mobile code who want to verify without leaving the editor would choose it during UI iteration.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus manually switching to an IDE to build, MobileCode folds build and preview into the agent loop — on receiving a code change the agent triggers the iOS/Android build and produces a runnable preview, removing the step of leaving the terminal, running the build and relaying errors back. Developers already using an AI agent on mobile code who want to avoid toolchain switching would pick it.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
@@ -175,12 +175,12 @@
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Emerging<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-14</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-16</p>
       </div>
       <div class="field">
         <span class="field-k">Chinese ecosystem · CN</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-14</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-16</p>
       </div>
     </div>
   </section>
@@ -251,7 +251,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        451 in AI + Dev →
+        465 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -298,14 +298,14 @@ Public information is limited; this view will update as more evidence appears.  
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/agentic-product-demo.html">
+      <a class="pager-item pager-prev" href="../../p/yourdesk.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">agentic-product-demo</span>
+        <span class="pager-n">YourDesk</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/modex-mh-agent.html">
+      <a class="pager-item pager-next" href="../../p/linkedin-agent-skill.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">modex-mh-agent</span>
+        <span class="pager-n">linkedin-agent-skill</span>
       </a>
     </div>
   </nav>
@@ -343,8 +343,8 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>1552 cases · 177 business reads</span>
-    <span class="gen">Data through 2026-09-15</span>
+    <span>1600 cases · 177 business reads</span>
+    <span class="gen">Data through 2026-09-16</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>
     <span>·</span>

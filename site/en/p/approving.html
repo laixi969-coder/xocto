@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-09-15</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-09-16</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">Developers or small teams using coding agents run the agent inside a real Docker sandbox, exchange structured artifacts, and pause at critical nodes for human approval before continuing, so a change can be reviewed and recovered as a delivery.</p>
-        <p>The common alternative is letting the agent run directly in the local repo or terminal, relying on git branches, manual diff review, watching the terminal, or simply not using an agent and writing the code by hand.</p>
-        <p>When a coding agent executes commands and edits files directly in the main environment, mistakes pollute the workspace and are hard to roll back; unattended continuous execution leaves critical changes without a human checkpoint, raising recovery and accountability cost.</p>
+        <p class="product-lead">Developers or teams using coding agents run the agent inside a Docker sandbox on a real codebase, pause at critical nodes for human approval, and end up with a reviewable, recoverable delivery result.</p>
+        <p>Public material does not state the current alternative; structurally it can be inferred as running the agent directly in a local terminal, relying on git branches and manual code review, or using other agent orchestration tools.</p>
+        <p>Coding agents execute many steps in a row, making mistakes hard to roll back and leaving no checkpoint for human intervention; public material does not quantify the cost or frequency, but sandbox isolation plus approval nodes point to concern over uncontrolled automated changes.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
         <h3>Why users would choose it</h3>
-        <p>Inference: versus running locally and watching the terminal, it isolates execution in a Docker sandbox, fixes exchanges as structured artifacts, and forces a pause for Approve at critical nodes, removing the &#39;clean up after a bad run&#39; and &#39;review after the fact&#39; steps; agent users who care about rollback and human gating would pick it for long unattended runs.</p>
+        <p>Inference: versus running the agent locally and rolling back via git afterwards, it confines the agent to a real Docker sandbox and forces a pause for human approval at critical nodes, removing the step of cleaning up runaway changes after the fact; developers running coding agents on real codebases who need controllable checkpoints would choose it in that situation.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Worth dissecting</strong>. Inference: versus running locally and watching the terminal, it isolates execution in a Docker sandbox, fixes exchanges as structured artifacts, and forces a pause for Approve at critical nodes, removing the &#39;clean up after a bad run&#39; and &#39;review after the fact&#39; steps; agent users who care about rollback and human gating would pick it for long unattended runs.</p>
+        <p><strong>Worth dissecting</strong>. Inference: versus running the agent locally and rolling back via git afterwards, it confines the agent to a real Docker sandbox and forces a pause for human approval at critical nodes, removing the step of cleaning up runaway changes after the fact; developers running coding agents on real codebases who need controllable checkpoints would choose it in that situation.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
@@ -129,7 +129,7 @@
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">Public fact</span><p>Runs a coding AI in an isolated box and pauses at critical steps until a person approves before it continues.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus running locally and watching the terminal, it isolates execution in a Docker sandbox, fixes exchanges as structured artifacts, and forces a pause for Approve at critical nodes, removing the &#39;clean up after a bad run&#39; and &#39;review after the fact&#39; steps; agent users who care about rollback and human gating would pick it for long unattended runs.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus running the agent locally and rolling back via git afterwards, it confines the agent to a real Docker sandbox and forces a pause for human approval at critical nodes, removing the step of cleaning up runaway changes after the fact; developers running coding agents on real codebases who need controllable checkpoints would choose it in that situation.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
@@ -338,7 +338,7 @@ product. Revisit in three months against the checks above.</p></article></div>
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        451 in AI + Dev →
+        465 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -430,8 +430,8 @@ product. Revisit in three months against the checks above.</p></article></div>
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>1552 cases · 177 business reads</span>
-    <span class="gen">Data through 2026-09-15</span>
+    <span>1600 cases · 177 business reads</span>
+    <span class="gen">Data through 2026-09-16</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>
     <span>·</span>

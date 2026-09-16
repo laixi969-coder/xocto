@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>cover · x-octo</title>
-<meta name="description" content="开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值。用户拿到的是可继续使用的真实输出，替换与还原都在本地完成，具体支持的字段类型与还原准确度仍待核验。">
+<meta name="description" content="开发者在把真实客户数据交给外部大模型接口前打开它：代理层把姓名、账号等敏感字段替换成格式一致的假值再转发给模型，模型返回后在本机把假值还原成原文，开发者拿到的是可用的模型输出，同时原始数据没有离开本地。具体还原范围与人工确认环节仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/cover.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/cover.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/cover.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/cover.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="cover · x-octo">
-<meta property="og:description" content="开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值。用户拿到的是可继续使用的真实输出，替换与还原都在本地完成，具体支持的字段类型与还原准确度仍待核验。">
+<meta property="og:description" content="开发者在把真实客户数据交给外部大模型接口前打开它：代理层把姓名、账号等敏感字段替换成格式一致的假值再转发给模型，模型返回后在本机把假值还原成原文，开发者拿到的是可用的模型输出，同时原始数据没有离开本地。具体还原范围与人工确认环节仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/cover.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/cover.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u628a\u542b\u771f\u5b9e\u5ba2\u6237\u4fe1\u606f\u7684\u6587\u672c\u6216\u5b57\u6bb5\u9001\u8fdb\u7b2c\u4e09\u65b9\u5927\u6a21\u578b\u63a5\u53e3\u524d\u6253\u5f00\u5b83\uff0c\u7531\u5b83\u628a\u539f\u6587\u66ff\u6362\u6210\u683c\u5f0f\u4e00\u81f4\u7684\u5047\u6570\u636e\u518d\u53d1\u51fa\uff0c\u8fd4\u56de\u7ed3\u679c\u5728\u672c\u5730\u8fd8\u539f\u6210\u771f\u5b9e\u503c\u3002\u7528\u6237\u62ff\u5230\u7684\u662f\u53ef\u7ee7\u7eed\u4f7f\u7528\u7684\u771f\u5b9e\u8f93\u51fa\uff0c\u66ff\u6362\u4e0e\u8fd8\u539f\u90fd\u5728\u672c\u5730\u5b8c\u6210\uff0c\u5177\u4f53\u652f\u6301\u7684\u5b57\u6bb5\u7c7b\u578b\u4e0e\u8fd8\u539f\u51c6\u786e\u5ea6\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@id": "https://xocto.vercel.app/p/cover.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-14", "datePublished": "2026-08-22", "description": "\u5f00\u53d1\u8005\u5728\u628a\u542b\u771f\u5b9e\u5ba2\u6237\u4fe1\u606f\u7684\u6587\u672c\u6216\u5b57\u6bb5\u9001\u8fdb\u7b2c\u4e09\u65b9\u5927\u6a21\u578b\u63a5\u53e3\u524d\u6253\u5f00\u5b83\uff0c\u7531\u5b83\u628a\u539f\u6587\u66ff\u6362\u6210\u683c\u5f0f\u4e00\u81f4\u7684\u5047\u6570\u636e\u518d\u53d1\u51fa\uff0c\u8fd4\u56de\u7ed3\u679c\u5728\u672c\u5730\u8fd8\u539f\u6210\u771f\u5b9e\u503c\u3002\u7528\u6237\u62ff\u5230\u7684\u662f\u53ef\u7ee7\u7eed\u4f7f\u7528\u7684\u771f\u5b9e\u8f93\u51fa\uff0c\u66ff\u6362\u4e0e\u8fd8\u539f\u90fd\u5728\u672c\u5730\u5b8c\u6210\uff0c\u5177\u4f53\u652f\u6301\u7684\u5b57\u6bb5\u7c7b\u578b\u4e0e\u8fd8\u539f\u51c6\u786e\u5ea6\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/cover.html#webpage"}, "name": "cover", "sameAs": "https://github.com/DavidCarliez/cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/cover.html", "name": "cover", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/cover.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u628a\u771f\u5b9e\u5ba2\u6237\u6570\u636e\u4ea4\u7ed9\u5916\u90e8\u5927\u6a21\u578b\u63a5\u53e3\u524d\u6253\u5f00\u5b83\uff1a\u4ee3\u7406\u5c42\u628a\u59d3\u540d\u3001\u8d26\u53f7\u7b49\u654f\u611f\u5b57\u6bb5\u66ff\u6362\u6210\u683c\u5f0f\u4e00\u81f4\u7684\u5047\u503c\u518d\u8f6c\u53d1\u7ed9\u6a21\u578b\uff0c\u6a21\u578b\u8fd4\u56de\u540e\u5728\u672c\u673a\u628a\u5047\u503c\u8fd8\u539f\u6210\u539f\u6587\uff0c\u5f00\u53d1\u8005\u62ff\u5230\u7684\u662f\u53ef\u7528\u7684\u6a21\u578b\u8f93\u51fa\uff0c\u540c\u65f6\u539f\u59cb\u6570\u636e\u6ca1\u6709\u79bb\u5f00\u672c\u5730\u3002\u5177\u4f53\u8fd8\u539f\u8303\u56f4\u4e0e\u4eba\u5de5\u786e\u8ba4\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@id": "https://xocto.vercel.app/p/cover.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-16", "datePublished": "2026-08-22", "description": "\u5f00\u53d1\u8005\u5728\u628a\u771f\u5b9e\u5ba2\u6237\u6570\u636e\u4ea4\u7ed9\u5916\u90e8\u5927\u6a21\u578b\u63a5\u53e3\u524d\u6253\u5f00\u5b83\uff1a\u4ee3\u7406\u5c42\u628a\u59d3\u540d\u3001\u8d26\u53f7\u7b49\u654f\u611f\u5b57\u6bb5\u66ff\u6362\u6210\u683c\u5f0f\u4e00\u81f4\u7684\u5047\u503c\u518d\u8f6c\u53d1\u7ed9\u6a21\u578b\uff0c\u6a21\u578b\u8fd4\u56de\u540e\u5728\u672c\u673a\u628a\u5047\u503c\u8fd8\u539f\u6210\u539f\u6587\uff0c\u5f00\u53d1\u8005\u62ff\u5230\u7684\u662f\u53ef\u7528\u7684\u6a21\u578b\u8f93\u51fa\uff0c\u540c\u65f6\u539f\u59cb\u6570\u636e\u6ca1\u6709\u79bb\u5f00\u672c\u5730\u3002\u5177\u4f53\u8fd8\u539f\u8303\u56f4\u4e0e\u4eba\u5de5\u786e\u8ba4\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/cover.html#webpage"}, "name": "cover", "sameAs": "https://github.com/DavidCarliez/cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/cover.html", "name": "cover", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>cover</h1>
       </div>
-      <p class="product-lede">开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值。用户拿到的是可继续使用的真实输出，替换与还原都在本地完成，具体支持的字段类型与还原准确度仍待核验。</p>
+      <p class="product-lede">开发者在把真实客户数据交给外部大模型接口前打开它：代理层把姓名、账号等敏感字段替换成格式一致的假值再转发给模型，模型返回后在本机把假值还原成原文，开发者拿到的是可用的模型输出，同时原始数据没有离开本地。具体还原范围与人工确认环节仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">开发者在把真实客户数据交给第三方大模型接口前，需要先替换成假数据再在本地还原</span><span class="tag sig">社区热度 68</span><span class="tag sig">开源关注 41</span>      </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件与信息服务</span><span class="tag">金融合规</span><span class="tag">AI 应用开发者</span><span class="tag">数据合规工程师</span><span class="tag sig">社区热度 68</span><span class="tag sig">开源关注 41</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>DavidCarliez</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-08-22</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-14</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-16</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://github.com/DavidCarliez/cover" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,79 +82,83 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-14</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-16</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者在把含真实客户信息的文本或字段送进第三方大模型接口前，需要先替换成格式一致的假数据，拿到模型返回后再在本地还原成真实值。</p>
-        <p>目前常见做法是人工编造假数据、在提示词里要求模型不要记录敏感信息，或干脆放弃使用外部模型。</p>
-        <p>把真实数据直接发给外部模型会触碰合规与客户保密要求，而手工编造假数据再逐条对回原文既慢又容易出错。</p>
+        <p class="product-lead">AI 应用开发者或数据合规工程师在把含真实客户姓名、账号等字段的业务材料送进外部大模型接口前，需要让模型完成分析或生成，同时不让原始字段离开本地环境。</p>
+        <p>目前多靠人工改写或删除敏感字段、内部自建脱敏脚本，或干脆放弃在敏感数据上使用模型。</p>
+        <p>直接把原始数据发给第三方模型会触发合规与隐私风险，而手工逐条脱敏再人工还原既慢又容易出错，导致受监管场景干脆不敢接入模型。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
-        <p>趋势是数据合规正在从法务条款下沉到调用链路上，谁能在请求发出前完成脱敏谁就拿到企业订单。切入可以从处理个人身份信息的行业（医疗、金融、法务外包）做起，卖点是可审计的替换日志与本地还原，而不是又一个代理网关。</p>
+        <h3>需求有依据</h3>
+        <p>趋势是模型调用正在被合规和隐私审查卡住，尤其是金融、医疗这类不能把原始数据外发的场景。切入可以从受监管行业的 AI 接入环节做：不做通用脱敏工具，而是绑定某一类数据（如券商客户记录、病历字段）做可逆替换加本地还原，按接入的模型调用量或按合规审计报告收费。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>相较人工编造与手工对回，它在请求发出前自动完成替换、在本地自动还原，省掉逐条比对这一步；推断，因为尚无用户反馈或客户案例说明实际采用动机。</p>
+        <p>相较人工脱敏后无法还原、自建脚本要自己维护映射表，它把替换与还原做成一次代理调用：开发者只改接口地址，模型输出里的假值在本机自动换回原文，省掉手工回填这一步，因此受监管行业里想接入模型又不敢外发原始数据的团队会选它。这是基于产品能力的推断，尚无用户反馈或客户案例支持。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>收集该开源仓库的 README、issue 与 discussion，核验其支持的字段类型、还原准确度说明以及是否有企业部署案例。</p>
+        <p>追踪该项目的官方仓库 README 与 issue / discussion，确认还原范围、失败兜底机制和实际部署场景的公开说明。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。相较人工编造与手工对回，它在请求发出前自动完成替换、在本地自动还原，省掉逐条比对这一步；推断，因为尚无用户反馈或客户案例说明实际采用动机。</p>
+        <p><strong>值得试用</strong>。相较人工脱敏后无法还原、自建脚本要自己维护映射表，它把替换与还原做成一次代理调用：开发者只改接口地址，模型输出里的假值在本机自动换回原文，省掉手工回填这一步，因此受监管行业里想接入模型又不敢外发原始数据的团队会选它。这是基于产品能力的推断，尚无用户反馈或客户案例支持。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是数据合规正在从法务条款下沉到调用链路上，谁能在请求发出前完成脱敏谁就拿到企业订单。切入可以从处理个人身份信息的行业（医疗、金融、法务外包）做起，卖点是可审计的替换日志与本地还原，而不是又一个代理网关。</p>
+        <p>趋势是模型调用正在被合规和隐私审查卡住，尤其是金融、医疗这类不能把原始数据外发的场景。切入可以从受监管行业的 AI 接入环节做：不做通用脱敏工具，而是绑定某一类数据（如券商客户记录、病历字段）做可逆替换加本地还原，按接入的模型调用量或按合规审计报告收费。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值。用户拿到的是可继续使用的真实输出，替换与还原都在本地完成，具体支持的字段类型与还原准确度仍待核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>相较人工编造与手工对回，它在请求发出前自动完成替换、在本地自动还原，省掉逐条比对这一步；推断，因为尚无用户反馈或客户案例说明实际采用动机。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>收集该开源仓库的 README、issue 与 discussion，核验其支持的字段类型、还原准确度说明以及是否有企业部署案例。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决敏感字段不能外发给模型这一具体卡点：开发者要在不泄露真实客户数据的前提下拿到可用模型输出，旧做法是人工脱敏后无法还原或自建映射脚本，不解决的后果是受监管场景放弃接入模型。这是从输入—替换—还原闭环作出的工作流结构推理，尚无用户反馈佐证。</p></div>
+        <div><span class="field-k">工作流推理</span><p>相较人工脱敏后无法还原、自建脚本要自己维护映射表，它把替换与还原做成一次代理调用：开发者只改接口地址，模型输出里的假值在本机自动换回原文，省掉手工回填这一步，因此受监管行业里想接入模型又不敢外发原始数据的团队会选它。这是基于产品能力的推断，尚无用户反馈或客户案例支持。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该项目的官方仓库 README 与 issue / discussion，确认还原范围、失败兜底机制和实际部署场景的公开说明。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决敏感字段不能外发给模型这一具体卡点：开发者要在不泄露真实客户数据的前提下拿到可用模型输出，旧做法是人工脱敏后无法还原或自建映射脚本，不解决的后果是受监管场景放弃接入模型。这是从输入—替换—还原闭环作出的工作流结构推理，尚无用户反馈佐证。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>公开材料只有市场覆盖检索与通用 AI 助手页面，没有客户案例、行业采用或开发者讨论能证明受监管团队已把它放进日常流程，因此无法判断共识是否形成。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://gemini.google.com/" target="_blank" rel="noopener">gemini.google.com ↗</a>
+            <a href="https://chatgpt.com/" target="_blank" rel="noopener">chatgpt.com ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>公开材料未出现定价页或收费说明，买方可能是自建合规能力的开发团队，也可能是采购合规工具的企业，属判断而非已验证事实；仅凭现有证据无法确认付费路径。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>可逆替换能否覆盖真实业务字段、还原是否确定发生、失败时如何人工兜底，公开材料均未说明；代理层一旦还原错位，输出会静默失真，这是交付确定性的关键缺口。</p>
         </article>
       </div>
     </details>
@@ -172,12 +176,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-14。未发现仅限该覆盖范围。 · 2026-09-14</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-16。未发现仅限该覆盖范围。 · 2026-09-16</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-14。未发现仅限该覆盖范围。 · 2026-09-14</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-16。未发现仅限该覆盖范围。 · 2026-09-16</p>
       </div>
     </div>
   </section>
@@ -239,6 +243,31 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
+      <li><a href="https://www.covers.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">covers.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.covergirl.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">covergirl.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.amazon.com/Full-Exterior-Covers/b?node=15735581" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">amazon.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPTnFId3lDXzdGUE5OMjA5bmVlSFY5VnNMWUVZNVJQUG5wb05vMXk2T1JMbzlWNzdWVUZod0lIcVJjNTlnZWVJX2d4WHhtOTVxVUNnZDBaaGJxLUxUT2NGQkplS1JxcWJjNzNFc3VPSXMwNmNjc1puNlJ3SDV0R3p2WkZjeC1MODVMUy1wUkdod3U5TWpQ0gGaAUFVX3lxTE5lRWlhbWNvemt3TmJ3Q09xdWRQNlR4WjdmNDFscnE0UDgxSUFIVkR3d2JLVG8yX0NCbG8wS1dzWUlKdm8ydG1kdUdwRUhicFdVV2p2bEg5NVJndEZNcVVud2xzMVBIbENMdVkwakxOblo2UmJNTmlJcmV3QzRCdV9fVm81eU1adnhPcGxGUTJfR0gwWTJsRXNTVkE?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-15</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxQU2ZKSHFFZ2RIcUhZYUFfZjFiVlA4WjN6X19RWTl1VGJqNllWc0JEclF2SmpabzZrLWhzalRTWXZmWkNpb1ZfUnB6NEN5eTNyc1I4cHVQcmcwVUE3bTNfbk9uTlZ2ZnpDX2hQemVHVGNhMDJTSGlGU0pqem9ORmJINVYzcFloVjg4S1V0UUJqY0Y5a1dpX1BESHNPZWROUXJhczlqMm1OeUhTQUpmXzVFSEpNQW5jVmc?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-14</span>
+      </div></a></li>
       <li><a href="https://account.covermymeds.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">account.covermymeds.com</span>
         <span class="row-desc">现有替代方式</span>
@@ -268,11 +297,6 @@
         <span class="row-name">news.google.com</span>
         <span class="row-desc">market_signal</span>
         <span class="row-tail">2026-09-12</span>
-      </div></a></li>
-      <li><a href="https://www.covers.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">covers.com</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://www.covers.com/sports/mlb/matchups" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">covers.com</span>
@@ -366,7 +390,7 @@
       </div></a></li>
       <li><a href="https://github.com/DavidCarliez/cover" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">cover</span>
-        <span class="row-desc">开源信息 · 开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值。用户拿到的是可继续使用的真实输出，替换与还原都在本地完成，具体支持的字段类型与还原准确度仍待核验。</span>
+        <span class="row-desc">开源信息 · 开发者在把真实客户数据交给外部大模型接口前打开它：代理层把姓名、账号等敏感字段替换成格式一致的假值再转发给模型，模型返回后在本机把假值还原成原文，开发者拿到的是可用的模型输出，同时原始数据没有离开本地。具体还原范围与人工确认环节仍待核验。</span>
         <span class="row-tail">2026-08-22</span>
       </div></a></li>
     </ul>
@@ -408,7 +432,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 179 个 →
+        基础层 共 189 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -500,8 +524,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1552 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-15</span>
+    <span>1600 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-16</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
