@@ -1,0 +1,84 @@
+- id: req-initial-axt-verify-2026-09-16
+  project_slug: axt-verify
+  level: initial
+  reviewed_at: '2026-09-16T00:20:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决 AI 生成代码的校验需求，但材料未写出具体痛点、输入与交付，无法确认价值成立。
+    evidence_ids:
+    - ev-85c5149dbf4afb46
+    - ev-ae5f47a289c49554
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 1 个 star、0 个 fork，没有用户评价、采用或讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ae5f47a289c49554
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费路径或买方，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-85c5149dbf4afb46
+  - gate: truth
+    status: insufficient
+    reason: 没有文档说明它校验什么、如何交付、人工边界在哪，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-85c5149dbf4afb46
+    - ev-ae5f47a289c49554
+  next_validation: 收集该仓库的 README 与发布说明，确认它接收什么输入、执行什么校验动作、产出什么结果。
+  market: ''
+  job: 开发者可能在提交或发布 AI 生成的代码前，打开该仓库对产物做一次校验；但材料未说明处理什么材料、由谁执行、产出什么结果。
+  job_en: A developer might open this repository to check AI-generated code before committing or releasing
+    it; the material does not say what input is handled, who runs it, or what output results.
+  pain: 候选材料没有写出任何具体痛点，无法确认 AI 生成产物的校验是否已成为某类开发者必须解决的负担。
+  pain_en: The candidate states no concrete pain point, so it cannot be confirmed whether verifying AI-generated
+    output is a burden any developer must resolve.
+  current_alternative: 公开材料未说明现有替代方式，无法判断此前这一步是由人工评审、既有测试框架还是其他工具完成。
+  current_alternative_en: The public material does not describe existing alternatives, so it is unclear
+    whether this step was previously done by manual review, existing test frameworks or other tools.
+  usage_reason: 缺少仓库说明与交付内容，无法解释它相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；这是信息缺口，不是需求结论。
+  usage_reason_en: With no repository description or deliverable, it is impossible to explain which step
+    it removes versus the old approach or which users would choose it in what situation; this is an information
+    gap, not a demand conclusion.
+- id: req-full-axt-verify-2026-09-16
+  project_slug: axt-verify
+  level: full
+  reviewed_at: '2026-09-16T00:48:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它可能解决 AI 生成代码的校验需求，但材料未写出具体痛点、输入与交付，连用户任务都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-85c5149dbf4afb46
+    - ev-ae5f47a289c49554
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 axt-verify 仓库的 README 与发布说明，确认它接收什么输入、执行什么校验动作、产出什么结果。
+  market: ''
+  job: 开发者可能在提交或发布 AI 生成的代码前，打开该仓库对产物做一次校验；但材料未说明处理什么材料、由谁执行、产出什么结果。
+  job_en: A developer might open this repository to check AI-generated code before committing or releasing
+    it; the material does not say what input is handled, who runs it, or what output results.
+  pain: 候选材料没有写出任何具体痛点，无法确认 AI 生成产物的校验是否已成为某类开发者必须解决的负担。
+  pain_en: The candidate states no concrete pain point, so it cannot be confirmed whether verifying AI-generated
+    output is a burden any developer must resolve.
+  current_alternative: 公开材料未说明现有替代方式，无法判断此前这一步是由人工评审、既有测试框架还是其他工具完成。
+  current_alternative_en: The public material does not describe existing alternatives, so it is unclear
+    whether this step was previously done by manual review, existing test frameworks or other tools.
+  usage_reason: 缺少仓库说明与交付内容，无法解释它相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；这是信息缺口，不是需求结论。
+  usage_reason_en: With no repository description or deliverable, it is impossible to explain which step
+    it removes versus the old approach or which users would choose it in what situation; this is an information
+    gap, not a demand conclusion.

@@ -1,6 +1,6 @@
 ---
 slug: 钧崴电子ai服务器相关产品营收处于快速拓展阶段整体毛利率水平保持较高位
-name: 钧崴电子：AI服务器相关产品营收处于快速拓展阶段，整体毛利率水平保持较高位
+name: 钧崴电子
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RNWdKTjVVR1FU
 summary: 钧崴电子：AI服务器相关产品营收处于快速拓展阶段，整体毛利率水平保持较高位 东方财富
 first_seen: '2026-09-15T10:01:24Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 钧崴电子：AI服务器相关产品营收处于快速拓展阶段，整体毛利率水平保持较高位
+# 钧崴电子
 
 钧崴电子：AI服务器相关产品营收处于快速拓展阶段，整体毛利率水平保持较高位 东方财富
 

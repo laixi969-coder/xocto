@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/mac-duo
 summary: Turn your display into frosted glass as you close the lid
 first_seen: '2026-09-15T00:02:32Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

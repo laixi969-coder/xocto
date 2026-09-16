@@ -345,3 +345,41 @@
   usage_reason: 公开材料未提供用户反馈或案例，无法说明相较现有做法用户为何选择它；仅凭功能描述不能推断使用动机。
   usage_reason_en: Public materials provide no user feedback or cases to explain why users would choose
     it over existing approaches; feature descriptions alone cannot support a usage motive.
+- id: req-full-applied-micro-skills-2026-09-16
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-09-16T00:48:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮研究者从数据到论文表并复现数字，但公开材料未记录用户痛点、不采用代价或现有替代方式，连需求与痛点都难以从证据写出。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的 公开代码仓库 仓库 README、issue 与 discussion，确认是否公开了具体研究场景、可复现流程或客户案例。
+  market: ''
+  job: 应用微观经济学研究者在处理数据、跑回归到产出论文表格时，用 Claude Code / Codex 的 skill 做可复现性审计、LLM 流程方法、事件研究、WRDS 与 Stata 操作，并生成发表级表格。
+  job_en: An applied-microeconomics researcher working from data and regressions to paper tables uses
+    Claude Code / Codex skills for reproducibility auditing, LLM-pipeline methods, event studies, WRDS,
+    and Stata, producing publication-grade tables.
+  pain: 公开材料未记录任何用户痛点、返工代价或复现失败的具体后果，无法从现有证据说明不解决会失去什么。
+  pain_en: Public materials record no user pain, rework cost, or consequence of failed reproduction, so
+    the evidence cannot show what is lost if the problem goes unsolved.
+  current_alternative: 公开材料未说明研究者目前如何完成这项工作，也未说明该 skill 实际替代了哪一步旧流程。
+  current_alternative_en: Public materials do not state how researchers currently do this work or which
+    prior step the skill replaces.
+  usage_reason: 公开材料未说明用户为何选择它；仅有仓库收藏数属关注度证据，不能解释选择原因或持续使用。
+  usage_reason_en: Public materials do not explain why users choose it; repository stars are attention
+    evidence and cannot explain choice or continued use.

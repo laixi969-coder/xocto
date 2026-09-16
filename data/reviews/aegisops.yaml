@@ -1,0 +1,91 @@
+- id: req-initial-aegisops-2026-09-16
+  project_slug: aegisops
+  level: initial
+  reviewed_at: '2026-09-16T00:20:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决运维排障定位慢、结论无证据链的痛点，旧做法是人工翻日志再手工建单，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-8f39c0e09e612be0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 78 星、13 次 fork 只说明有开发者关注，没有企业部署或团队采用的公开证据。
+    evidence_ids:
+    - ev-8f39c0e09e612be0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方、定价或按结果收费方式；钱可能来自企业 IT 预算，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8f39c0e09e612be0
+  - gate: truth
+    status: insufficient
+    reason: 附有可复现实测记录，但缺少生产环境接入、误判率与人工审批边界的公开说明。
+    evidence_ids:
+    - ev-8f39c0e09e612be0
+  next_validation: 收集该仓库的部署文档与 issue/discussion，确认是否有企业实际接入系统并留下处置结果记录。
+  market: ''
+  job: 企业运维工程师在夜间或告警高峰时，面对服务器与业务系统的日志和巡检数据，要定位故障原因并开出可追溯的处置工单。
+  job_en: An enterprise operations engineer, at night or during alert peaks, works through server and
+    business-system logs and inspection data to locate the fault cause and open a traceable remediation
+    ticket.
+  pain: 排障依赖人工翻日志和跨系统比对，定位慢且结论难以留痕，交接和审批时缺少证据链。
+  pain_en: Diagnosis relies on manually reading logs and cross-checking systems, so localization is slow,
+    conclusions are hard to trace, and handover and approval lack an evidence chain.
+  current_alternative: 现有做法是人工查日志、靠监控告警和经验判断，再用工单系统手工补写处置记录。
+  current_alternative_en: The current practice is manually reading logs, relying on monitoring alerts
+    and experience, then hand-writing remediation records into a ticketing system.
+  usage_reason: 相较人工翻日志，它把日志与巡检数据直接交给 Agent 生成带证据的排查结论和工单，减少从定位到建单之间的手工整理与转述；推断缺少值守人力、又需要留痕审批的运维团队会因此选择它。
+  usage_reason_en: Compared with manually reading logs, it feeds logs and inspection data to an agent
+    that produces evidence-backed findings and tickets, cutting the manual collation and retelling between
+    localization and ticket creation; inference is that operations teams short on on-call staff but needing
+    traceable approval would choose it.
+- id: req-full-aegisops-2026-09-16
+  project_slug: aegisops
+  level: full
+  reviewed_at: '2026-09-16T00:47:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决运维排障定位慢、结论无证据链的痛点，旧做法是人工翻日志再手工建单，不解决则交接与审批缺依据；由产品输入—动作—交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-8f39c0e09e612be0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 78 星仅说明有开发者关注，公开材料没有企业部署、团队采用或运维人员持续使用的证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-8f39c0e09e612be0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方、定价或收费方式；钱可能来自企业 IT 运维预算，这是判断而非已验证事实，也未出现采购或付费记录。
+    evidence_ids:
+    - ev-8f39c0e09e612be0
+  - gate: truth
+    status: insufficient
+    reason: 仓库附可复现实测记录，但缺少生产环境接入范围、误判率与人工审批边界的公开说明，交付确定性尚不能核验。
+    evidence_ids:
+    - ev-8f39c0e09e612be0
+  next_validation: 追踪该仓库的部署文档与 issue/discussion，确认是否有企业实际接入系统并留下处置结果或审批记录。
+  market: ''
+  job: 企业运维工程师或 SRE 在夜间值守或告警高峰时，面对服务器与业务系统的日志、巡检数据，要定位故障原因并开出可追溯、可审批的处置工单。
+  job_en: An enterprise operations engineer or SRE, during night on-call or alert peaks, works through
+    server and business-system logs and inspection data to locate the fault cause and open a traceable,
+    approvable remediation ticket.
+  pain: 排障依赖人工翻日志、跨系统比对和经验判断，定位慢；结论难以留痕，交接与审批时缺少证据链，处置动作也难追溯。
+  pain_en: Diagnosis relies on manually reading logs, cross-system comparison and experience, so localization
+    is slow; conclusions are hard to trace, handover and approval lack an evidence chain, and remediation
+    actions are hard to audit.
+  current_alternative: 现有做法是人工查日志、依赖监控告警与经验判断，再在工单系统里手工补写处置记录并走线下审批。
+  current_alternative_en: The current practice is manually reading logs, relying on monitoring alerts
+    and experience, then hand-writing remediation records into a ticketing system and routing approval
+    offline.
+  usage_reason: 相较人工翻日志再手工建单，它把日志与巡检数据交给 Agent 直接产出带证据的排查结论和工单，减少从定位到建单之间的整理与转述环节，并让审批有据可查；推断缺少值守人力、又需要留痕审批的运维团队会在告警高峰时选择它。
+  usage_reason_en: Compared with manually reading logs and hand-creating tickets, it feeds logs and inspection
+    data to an agent that directly produces evidence-backed findings and tickets, cutting the collation
+    and retelling between localization and ticket creation and giving approval a traceable basis; inference
+    is that operations teams short on on-call staff but needing auditable approval would choose it during
+    alert peaks.

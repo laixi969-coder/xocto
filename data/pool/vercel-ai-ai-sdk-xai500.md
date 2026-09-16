@@ -1,6 +1,6 @@
 ---
 slug: vercel-ai-ai-sdk-xai500
-name: 'vercel/ai: @ai-sdk/xai@5.0.0'
+name: '@ai-sdk/xai'
 builder: vercel
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: '### Major Changes
   - 1f20dba: feat(xai)!: remove Chat Completions API'
 first_seen: '2026-09-15T18:30:24Z'
 last_seen: '2026-09-16T00:20:40Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -36,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/xai@5.0.0
+# @ai-sdk/xai
 
 ### Major Changes
 

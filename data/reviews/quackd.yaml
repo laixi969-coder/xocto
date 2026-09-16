@@ -425,3 +425,56 @@
     .duck safety contracts and keeps context via cross-run memory, removing the step of rewriting orchestration
     code per robot; makers and developers who already own such hardware and want to test multi-step tasks
     would choose it in that situation.'
+- id: req-full-quackd-2026-09-16
+  project_slug: quackd
+  level: full
+  reviewed_at: '2026-09-16T00:51:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把已有机器人技能用自然语言目标串成可执行步骤，痛点是机器人“知道动作却不知道如何连接”，用户只能手写编排。这是从产品说明与工作流结构推出的判断，非用户口述；不解决的后果是每个新目标都要重写串联逻辑。
+    evidence_ids:
+    - ev-08ec8b940909683d
+    - ev-e47b2f7fc0c55dec
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 188 增至 201，说明有开发者关注，但这是关注度而非持续采用；没有 issue、discussion 或用户反馈说明谁在什么场景反复使用，也未证明它已留在工作流里。
+    evidence_ids:
+    - ev-08ec8b940909683d
+    - ev-a2d544e9c94af3ae
+  - gate: model
+    status: insufficient
+    reason: 项目为开源，公开材料未见定价页、付费路径或买方说明；钱可能来自 to C 开发者捐赠、to B 集成服务或 to VC 融资，均属判断而非已验证事实，需警惕只有融资叙事而无用户付费路径。
+    evidence_ids:
+    - ev-08ec8b940909683d
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺用 .duck 安全契约与模拟器约束动作，但公开材料未展示可复现的部署记录、失败案例或人工接管边界，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-e47b2f7fc0c55dec
+  next_validation: 追踪 quackd 官方仓库的 issue 与 discussion，确认是否有用户公开报告在具体机器人上完成部署、替代了何种手写编排流程。
+  market: ''
+  job: 机器人开发者、教育工作者或创客在自建 Microduck、Open Duck Mini、LeRobot 机械臂、Aloha Mini 或 ROS 底盘后，面对一堆已注册但彼此不连通的技能，需要用自然语言说出一个目标，让
+    LLM 规划并串起动作序列，在模拟器或真机上跑完一次任务。
+  job_en: A robotics developer, educator, or maker who has assembled a Microduck, Open Duck Mini, LeRobot
+    arm, Aloha Mini, or ROS base, and who has a set of registered but unconnected skills, needs to state
+    a goal in natural language so an LLM plans and chains the steps and runs the task in simulator or
+    on hardware.
+  pain: 公开说明直接点出痛点：机器人“知道自己的动作，但不知道如何把它们连起来”。用户手里已有技能库，却缺少把目标拆成步骤并串联执行的规划层，只能自己写编排代码或逐条手动触发，任务越复杂越难复用。
+  pain_en: 'The public description states the pain directly: the robot ''knows its moves but not how to
+    connect them.'' Users already have a skill library but lack a planning layer that decomposes a goal
+    into steps and chains execution, so they hand-write orchestration or trigger skills one by one, and
+    reuse gets harder as tasks grow.'
+  current_alternative: 旧做法是用户自己写脚本或状态机把已有技能串起来，或按 ROS 方式逐条调用；公开材料未展示任何现成的自然语言规划层替代品，也没有用户自述的替代流程。
+  current_alternative_en: The old approach is to hand-write scripts or state machines that chain existing
+    skills, or to invoke them one by one in the ROS manner; public materials show no existing natural-language
+    planning layer as an alternative, nor any user-described workaround.
+  usage_reason: 推断：相较手写编排，quackd 用一个 CLI 接入多款机器人，把自然语言目标交给 Claude、OpenAI、Gemini、Grok 或本地 Ollama/vLLM 规划，并复用机器人已有技能执行，同时用
+    .duck 安全契约约束动作、用模拟器先验证、用跨运行记忆保留上下文。因此当用户已有技能但不想为每个新目标重写串联逻辑时，会选它而不是继续手写脚本。
+  usage_reason_en: 'Inference: versus hand-written orchestration, quackd exposes one CLI across several
+    robot bodies, hands a natural-language goal to Claude, OpenAI, Gemini, Grok, or a local Ollama/vLLM
+    model for planning, and executes by reusing the robot''s existing skills, while .duck safety contracts
+    constrain actions, the simulator allows pre-validation, and memory between runs preserves context.
+    So a user who already has skills but does not want to rewrite chaining logic per goal would pic'

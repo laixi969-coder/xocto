@@ -186,7 +186,7 @@ summary: "## Overview\r\n\r\nllama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4, a
   \ cached store (#27432)\r\n49c0dc82b model : add Tencent Hy 4 (hy_v4) preview architecture support (#28127)"
 first_seen: '2026-09-14T18:27:29Z'
 last_seen: '2026-09-16T00:20:40Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

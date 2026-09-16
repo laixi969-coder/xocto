@@ -1,0 +1,81 @@
+- id: req-initial-jurniti-2026-09-16
+  project_slug: jurniti
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决长跑 agent 的隔离与持续运行问题，但公开材料只有一句运行环境描述，说不清谁在什么节点用、交付什么结果，痛点强度无法判断。
+    evidence_ids:
+    - ev-f5de815adb073dfc
+  - gate: consensus
+    status: insufficient
+    reason: 除发布帖外没有社区讨论、采用或复述，无法判断是否有人真的需要这种常驻运行方式。
+    evidence_ids:
+    - ev-f5de815adb073dfc
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、客户或付费路径信息，买方是个人开发者还是团队均未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f5de815adb073dfc
+  - gate: truth
+    status: insufficient
+    reason: 无法核对常驻 agent 是否真能确定性交付任务、崩溃后如何恢复，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-f5de815adb073dfc
+  next_validation: 收集 jurniti 官方文档或仓库中关于任务输入、输出交付与失败恢复的说明，确认它是否定义了可核对的结果。
+  market: ''
+  job: 需要让 AI agent 连续数小时执行任务的开发者或运维人员，在本地或服务器上跑批处理、巡检类任务时，要保证任务持续运行且不污染主环境。
+  job_en: Developers or operators who need an AI agent to run tasks for hours, executing batch or inspection
+    jobs locally or on a server while keeping the host environment clean.
+  pain: 长时间运行的 agent 一旦崩溃或写入错误状态，会污染主环境并难以回滚；公开材料未说明这一痛点是否真实存在或有多严重。
+  pain_en: A long-running agent that crashes or writes bad state can pollute the host and is hard to roll
+    back; public material does not show whether this pain is real or how severe it is.
+  current_alternative: 常见做法是在本地进程、容器或云沙箱里跑 agent，自行处理隔离与重启。
+  current_alternative_en: The common approach is running agents in local processes, containers or cloud
+    sandboxes, handling isolation and restarts manually.
+  usage_reason: 推断：若 Firecracker 微虚拟机确实能提供更轻的隔离与更快的启动，用户可能因为不想让长跑 agent 影响主环境而选择它；但缺少任何使用、留存或付费证据，无法确认这一选择已经发生。
+  usage_reason_en: 'Inference: if Firecracker microVMs really offer lighter isolation and faster startup,
+    users might pick it to keep long-running agents away from the host; but with no usage, retention or
+    payment evidence, this choice cannot be confirmed.'
+- id: req-full-jurniti-2026-09-16
+  project_slug: jurniti
+  level: full
+  reviewed_at: '2026-09-16T00:49:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决长跑 agent 的隔离与持续运行问题，但公开材料只有一句运行环境描述，说不清谁在什么节点用、交付什么结果，痛点强度无法判断。
+    evidence_ids:
+    - ev-f5de815adb073dfc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 jurniti 官方文档或仓库中关于任务输入、输出交付与失败恢复的说明，确认它是否定义了可核对的结果。
+  market: ''
+  job: 需要让 AI agent 连续数小时执行任务的开发者或运维人员，在本地或服务器上跑批处理、巡检类任务时，要保证任务持续运行且不污染主环境。
+  job_en: Developers or operators who need an AI agent to run tasks for hours, executing batch or inspection
+    jobs locally or on a server while keeping the host environment clean.
+  pain: 长时间运行的 agent 一旦崩溃或写入错误状态，会污染主环境并难以回滚；公开材料未说明这一痛点是否真实存在或有多严重。
+  pain_en: A long-running agent that crashes or writes bad state can pollute the host and is hard to roll
+    back; public material does not show whether this pain is real or how severe it is.
+  current_alternative: 常见做法是在本地进程、容器或云沙箱里跑 agent，自行处理隔离与重启。
+  current_alternative_en: The common approach is running agents in local processes, containers or cloud
+    sandboxes, handling isolation and restarts manually.
+  usage_reason: 推断：若 Firecracker 微虚拟机确实能提供更轻的隔离与更快的启动，用户可能因为不想让长跑 agent 影响主环境而选择它；但缺少任何使用、留存或付费证据，无法确认这一选择已经发生。
+  usage_reason_en: 'Inference: if Firecracker microVMs really offer lighter isolation and faster startup,
+    users might pick it to keep long-running agents away from the host; but with no usage, retention or
+    payment evidence, this choice cannot be confirmed.'

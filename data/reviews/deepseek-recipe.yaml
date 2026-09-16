@@ -233,3 +233,43 @@
   usage_reason_en: With no product description, docs, issues, or user feedback, there is no basis to explain
     why users would choose it over their existing approach; the only evidence is star counts, which indicate
     attention, not usage reasons.
+- id: req-full-deepseek-recipe-2026-09-16
+  project_slug: deepseek-recipe
+  level: full
+  reviewed_at: '2026-09-16T00:49:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据仅有仓库星标从217增至335，无产品说明、文档或用户反馈，无法写出它解决什么需求与痛点，故价值关不成立。
+    evidence_ids:
+    - ev-d41d907af8a8ac34
+    - ev-70749606d390398d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/deepseek-ai/deepseek-recipe 的 README、issue 与 discussion，确认其声明的输入、动作、交付物与目标用户。
+  market: ''
+  job: 公开材料只给出仓库名与星标数，未说明谁在什么情况下、处理什么材料、要完成什么任务；无法还原具体工作流。
+  job_en: Public materials provide only a repository name and star counts, with no description of who,
+    in what situation, handling what material, completes what task; the workflow cannot be reconstructed.
+  pain: 没有任何公开事实说明用户遇到什么摩擦、频率多高、不解决会有什么后果；星标增长只反映关注度，不是痛点证据。
+  pain_en: No public fact describes the friction users face, its frequency, or the consequence of leaving
+    it unsolved; star growth reflects attention, not pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成这项工作，也未说明该仓库替代了哪一步旧流程。
+  current_alternative_en: Public materials do not state how users currently complete this work, nor which
+    step of an existing process this repository replaces.
+  usage_reason: 缺少产品说明、文档与用户反馈，无法解释相较旧做法它减少了哪一步负担或改善哪项可核对结果，因此无法说明用户为何选择它。
+  usage_reason_en: With no product description, documentation, or user feedback, it is impossible to explain
+    which step it removes or which verifiable result it improves versus the old approach, so no reason
+    for choosing it can be stated.

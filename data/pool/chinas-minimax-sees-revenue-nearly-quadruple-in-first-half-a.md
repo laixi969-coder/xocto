@@ -2,28 +2,31 @@
 slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
 name: MiniMax
 builder: ''
-category: 通用助手
-summary_zh: MiniMax 是模型与视频生成能力提供方，本次公开材料只给出收入接近翻两番、模型在第三方网关打折、以及第三方称视频出片速度提升等事实，未提供可核验的客户、定价或留存细节，因此作为模型供给与价格变化的行业背景处理。
-inspiration: 趋势是 AI 公司收入高速增长，多模态能力成为竞争焦点。切入可从垂直行业应用如内容创作、音频生成等细分场景，提供定制化解决方案。
-summary_en: MiniMax supplies model and video-generation capabilities; the public material here only states
-  near-quadrupling revenue, a discount on a third-party gateway, and third-party claims about faster video
-  output, with no verifiable customer, pricing or retention detail, so it is treated as industry context
-  on model supply and pricing.
-inspiration_en: Trend is AI companies' rapid revenue growth, with multimodal capabilities becoming a competitive
-  focus. Entry could be vertical applications like content creation or audio generation, offering customized
-  solutions.
+category: 基础层
+summary_zh: 内容与广告团队在需要批量产出短视频素材时，把脚本或提示词交给 MiniMax 的视频模型，由模型直接生成成片片段，再人工挑选与剪辑；公开材料只给出收入接近翻两番、模型打折与第三方出片速度测试，具体计费方式与交付流程仍待核验。
+inspiration: 趋势是视频生成从演示走向按条计费的商业交付，出片速度与单条成本成为竞争点。切入可考虑面向电商与本地生活商家的成片交付服务，按条收费并对成片质量负责，而不是卖模型调用额度；模型层价格战意味着应用层不宜自建模型。
+summary_en: Content and advertising teams that need short-video assets in bulk hand scripts or prompts
+  to MiniMax's video model, which generates clips that humans then select and edit; public material only
+  shows revenue nearly quadrupling, a model discount and a third-party render-speed test, so pricing and
+  delivery flow remain unverified.
+inspiration_en: The trend is video generation moving from demos to per-clip commercial delivery, where
+  render speed and cost per clip decide competition. A wedge is a finished-video service for e-commerce
+  and local-services merchants, charged per clip with quality accountability rather than selling model
+  credits; model-layer price wars argue against building your own model.
 priority_review: false
-project_type: new_application
+project_type: ai_transformation
 industries:
-- 互联网
+- 媒体与内容制作
+- 广告与营销
 industries_en:
-- Internet
+- Media and content production
+- Advertising and marketing
 jobs:
-- 产品经理
-- 工程师
+- 视频内容制作
+- 广告素材生产
 jobs_en:
-- Product managers
-- Engineers
+- Video content production
+- Ad creative production
 regions:
 - 中国
 regions_en:
@@ -34,7 +37,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9X
 summary: China’s MiniMax sees revenue nearly quadruple in first half as AI demand surges WTVB
 first_seen: '2026-08-26T11:23:49Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 - officialfeeds

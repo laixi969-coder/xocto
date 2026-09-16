@@ -21,7 +21,7 @@ canonical_url: https://bkovac.github.io/modem-thing
 summary: Hacking a $20 4G wireless hotspot into a texting device
 first_seen: '2026-09-15T13:20:24Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,81 @@
+- id: req-initial-mulacover-2026-09-16
+  project_slug: mulacover
+  level: initial
+  reviewed_at: '2026-09-16T00:21:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是把歌词和参考音频变成翻唱成品，但材料没有说明用户原来的做法、卡点和不做的后果，需求与痛点都写不出来。
+    evidence_ids:
+    - ev-d08660bc3f4ef56b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有 3 个点赞，无法判断任何人群是否真的需要它。
+    evidence_ids:
+    - ev-d08660bc3f4ef56b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料未披露定价、买方或任何付费路径。
+    evidence_ids:
+    - ev-d08660bc3f4ef56b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对生成结果是否达到可发布质量，也看不到人工确认边界。
+    evidence_ids:
+    - ev-d08660bc3f4ef56b
+  next_validation: 该演示空间的说明页或仓库文档，用于确认输入格式、生成样例与是否公开定价或使用条款。
+  market: ''
+  job: 独立音乐人或翻唱爱好者在自己有歌词和一段参考音频的情况下，想快速得到一首可发布的翻唱成品，用于短视频配乐或社交平台发布。
+  job_en: An independent musician or cover hobbyist who already has lyrics and a reference audio clip
+    wants a publishable cover track quickly, for short-video scoring or social posting.
+  pain: 公开材料只说明它能生成翻唱，没有说明用户此前卡在哪一步、失败代价是什么，也没有任何用户抱怨或替代行为的记录。
+  pain_en: Public material only says it can generate covers; it does not say which step users were stuck
+    on, what failure costs, and there is no record of user complaints or workarounds.
+  current_alternative: 公开材料未提及用户此前用什么方式做翻唱，无法确认旧做法是人工翻唱、音频软件还是其他生成工具。
+  current_alternative_en: Public material does not mention how users made covers before, so the prior
+    practice cannot be confirmed as manual singing, audio software or another generation tool.
+  usage_reason: 无法判断：材料没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能给出使用理由。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old practice
+    or which checkable result it improves, so no usage reason can be given.'
+- id: req-full-mulacover-2026-09-16
+  project_slug: mulacover
+  level: full
+  reviewed_at: '2026-09-16T00:50:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想把歌词和参考音频变成翻唱成品，但公开材料只有一句功能描述，没有用户卡点、失败代价或替代行为记录；人工翻唱与现成音频软件已能完成同样任务，不用它也不失去什么，属自嗨拼凑。
+    evidence_ids:
+    - ev-d08660bc3f4ef56b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开模型社区 Space 的说明页或仓库文档更新，确认输入格式、公开生成样例与是否披露使用条款或定价。
+  market: ''
+  job: 独立音乐人或翻唱爱好者手上有自己写的歌词和一段参考音频，想把它变成一首可发布的翻唱成品，用于短视频配乐或社交平台发布。
+  job_en: An independent musician or cover hobbyist with their own lyrics and a reference audio clip wants
+    to turn them into a publishable cover track for short-video scoring or social posting.
+  pain: 公开材料只有一句功能描述，没有说明用户此前卡在哪一步、失败代价是什么，也没有任何用户抱怨、替代行为或使用记录；从结构上看，翻唱成品也可由人工翻唱或现成音频软件完成，不采用它并不会失去什么。
+  pain_en: 'Public material is a single feature line: it does not say which step users were stuck on,
+    what failure costs, and there is no record of complaints, workarounds or usage; structurally, a cover
+    can also be made by manual singing or existing audio software, so not adopting it costs the user nothing.'
+  current_alternative: 公开材料未提及用户此前如何做翻唱，无法确认旧做法是人工翻唱、音频软件还是其他生成工具。
+  current_alternative_en: Public material does not mention how users made covers before, so the prior
+    practice cannot be confirmed as manual singing, audio software or another generation tool.
+  usage_reason: 无法给出因果解释：材料没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，也没有任何用户反馈或案例支持动机会成立，因此不能判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation can be given: the material does not say which step it removes
+    versus the old practice or which checkable result it improves, and no user feedback or case supports
+    the motivation, so which users would choose it and when cannot be judged.'

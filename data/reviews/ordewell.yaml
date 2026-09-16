@@ -1,0 +1,88 @@
+- id: req-initial-ordewell-2026-09-16
+  project_slug: ordewell
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多步开发目标缺少任务排序与依赖管理的问题，痛点来自编码智能体单次只做局部任务，不采用就要人工拆解并承担返工；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-c86778e5877e285f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论帖的49点与29条评论，属于关注度而非持续采用，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-c86778e5877e285f
+  - gate: model
+    status: insufficient
+    reason: 仓库未提供定价、付费或企业采购信息，钱可能来自开发者自付或团队订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c86778e5877e285f
+  - gate: truth
+    status: insufficient
+    reason: 任务拆解质量、依赖判断是否可靠、出错后如何回退均无公开材料，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-c86778e5877e285f
+  next_validation: 收集 Ordewell 仓库的 README、issue 与 discussion，核验任务拆解的实际输入输出示例及是否有用户报告重复使用。
+  market: ''
+  job: 研发工程师在接到一个跨多个文件、需要多步改动的开发目标时，把目标描述交给 Ordewell，由它产出有先后顺序的编码智能体任务清单，再按清单驱动智能体执行。
+  job_en: A software engineer who receives a multi-step development goal spanning several files hands
+    the goal description to Ordewell, which produces an ordered list of coding-agent tasks that then drives
+    agent execution.
+  pain: 编码智能体一次只擅长一个局部任务，多步目标需要人自己拆解、排序、记住依赖，拆错顺序会导致返工和上下文丢失。
+  pain_en: Coding agents handle one local task well at a time, so multi-step goals force people to decompose,
+    order and remember dependencies themselves; a wrong order causes rework and lost context.
+  current_alternative: 目前多数人靠手工写任务清单、在对话里逐步追问，或用 issue 列表和待办工具人工排序。
+  current_alternative_en: Today most people hand-write task lists, prompt step by step in a chat, or manually
+    order issues and to-dos.
+  usage_reason: 相较手工拆解，它把“目标→有序任务”这一步交给模型完成，减少人工排依赖和反复重述上下文的工作；推断这类用户会在目标较大、步骤多于几步时选择它，但公开材料未显示留存或复购证据。
+  usage_reason_en: Compared with manual decomposition, it moves the goal-to-ordered-tasks step to a model,
+    cutting the work of arranging dependencies and restating context; this is an inference that such users
+    would choose it for goals with more than a few steps, and no public retention or repeat-use evidence
+    is shown.
+- id: req-full-ordewell-2026-09-16
+  project_slug: ordewell
+  level: full
+  reviewed_at: '2026-09-16T00:50:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多步开发目标缺少任务排序与依赖管理的问题，痛点来自编码智能体单次只做局部任务，不采用就要人工拆解并承担返工；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-c86778e5877e285f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库自述与英文生态早期信号，没有用户评价、issue 或 discussion 说明谁在什么场景下重复使用，无法判断是否形成稳定工作流。
+    evidence_ids:
+    - ev-c86778e5877e285f
+  - gate: model
+    status: insufficient
+    reason: 仓库未提供定价、付费或企业采购信息，钱可能来自开发者自付或团队订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c86778e5877e285f
+  - gate: truth
+    status: insufficient
+    reason: 任务拆解质量、依赖判断是否可靠、出错后如何回退均无公开材料，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-c86778e5877e285f
+  next_validation: 收集 Ordewell 仓库的 README、issue 与 discussion，核验任务拆解的实际输入输出示例及是否有用户报告重复使用。
+  market: ''
+  job: 研发工程师在接到一个跨多个文件、需要多步改动的开发目标时，把目标描述交给 Ordewell，由它产出有先后顺序的编码智能体任务清单，再按清单驱动智能体逐条执行。
+  job_en: A software engineer who receives a multi-step development goal spanning several files hands
+    the goal description to Ordewell, which produces an ordered list of coding-agent tasks that then drives
+    agent execution.
+  pain: 编码智能体一次只擅长一个局部任务，多步目标需要人自己拆解、排序、记住依赖，拆错顺序会导致返工和上下文丢失。
+  pain_en: Coding agents handle one local task well at a time, so multi-step goals force people to decompose,
+    order and remember dependencies themselves; a wrong order causes rework and lost context.
+  current_alternative: 目前多数人靠手工写任务清单、在对话里逐步追问，或用 issue 列表和待办工具人工排序。
+  current_alternative_en: Today most people hand-write task lists, prompt step by step in a chat, or manually
+    order issues and to-dos.
+  usage_reason: 相较手工拆解，它把“目标→有序任务”这一步交给模型完成，减少人工排依赖和反复重述上下文的工作；推断这类用户会在目标较大、步骤多于几步时选择它，但公开材料未显示留存或复购证据。
+  usage_reason_en: Compared with manual decomposition, it moves the goal-to-ordered-tasks step to a model,
+    cutting the work of arranging dependencies and restating context; this is an inference that such users
+    would choose it for goals with more than a few steps, and no public retention or repeat-use evidence
+    is shown.

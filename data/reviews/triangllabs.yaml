@@ -81,3 +81,44 @@
   usage_reason_en: 'Inference: if Otis truly calls local models out of the box, users skip environment
     setup and can still run an agent when data cannot leave the machine; but public material is a single
     sentence with no docs, model list or reproducible test, so this causal claim is unconfirmed.'
+- id: req-full-triangllabs-2026-09-16
+  project_slug: triangllabs
+  level: full
+  reviewed_at: '2026-09-16T00:51:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决本地 agent 配置繁琐的问题，但公开材料只有一句介绍，且全部证据指向电梯公司 Otis、俄勒冈州 OTIS 规则与密歇根囚犯查询系统，与该项目无关，连用户任务与痛点都无法还原。
+    evidence_ids:
+    - ev-c6bc15b0b19e7c2a
+    - ev-74078d489ead8673
+    - ev-4237ff83bfce56ff
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 triangllabs/Otis 的官方仓库或产品页，核对支持的本地模型清单、安装步骤与开源许可，确认该项目是否真实存在及其交付形态。
+  market: ''
+  job: 开发者或技术用户在本地机器上运行 AI agent，需要让 agent 调用本地模型完成自动化任务，处理本机文件与本地推理请求。
+  job_en: Developers or technical users run an AI agent on their own machine and need it to call local
+    models for automation tasks, working with local files and local inference requests.
+  pain: 公开材料只有一句产品介绍，无法确认本地跑 agent 的配置成本、失败率或数据不能出本机的具体约束，痛点强度无从判断。
+  pain_en: Public material is a single product sentence; the configuration cost, failure rate, or data-cannot-leave-machine
+    constraint of running a local agent cannot be confirmed, so pain intensity is undeterminable.
+  current_alternative: 手动配置本地模型加自建 agent 脚本，或直接使用云端 agent 服务。
+  current_alternative_en: Manually configuring local models plus self-built agent scripts, or using cloud
+    agent services directly.
+  usage_reason: 推断：若 Otis 真能开箱即用调用本地模型，用户可省去环境配置这一步；但现有证据全部指向电梯公司 Otis、俄勒冈州 OTIS 规则与密歇根囚犯查询系统，与该项目无关，无法建立任何采用因果。
+  usage_reason_en: 'Inference: if Otis truly calls local models out of the box, users skip environment
+    setup; but all available evidence points to the elevator company Otis, Oregon''s OTIS rules, and Michigan''s
+    offender search, unrelated to this project, so no adoption causality can be established.'

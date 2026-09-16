@@ -141,3 +141,55 @@
     runs multi-tenant, removing the step of manually configuring containers and storage per member; therefore
     platform engineers who need to provision dsh workspaces for multiple members on an internal network
     would choose it when self-building costs too much. Public material has no user feedbac'
+- id: req-full-dsh-cloud-2026-09-16
+  project_slug: dsh-cloud
+  level: full
+  reviewed_at: '2026-09-16T00:49:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人共用 dsh 时工作区互相污染、凭据混杂、无配额约束的问题，团队只能手工起容器逐台分配机器；不解决的后果是成员互相干扰且运维负担压在平台工程师身上。这是从产品能力与旧流程作出的工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-a80cd05d5bbf135b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 61 增至 70 只反映关注度，没有 issue、讨论或团队实际部署反馈，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-084935ca07fdf050
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明支持自托管或云端托管，未披露定价页、付费用户或采购记录，钱来自 to B 团队还是 to VC 尚属判断而非已验证事实。
+    evidence_ids:
+    - ev-010f10374a6dce10
+    - ev-a80cd05d5bbf135b
+  - gate: truth
+    status: insufficient
+    reason: 隔离容器与 microVM 两种描述并存，配额与访问控制的实际交付结果、安全边界和人工介入方式均无公开文档或实测可核对。
+    evidence_ids:
+    - ev-cb20aa82e30dcf42
+    - ev-010f10374a6dce10
+  next_validation: 追踪 dsh-cloud 仓库的 issue 与 discussion，确认是否有团队实际部署并反馈隔离、配额与运维负担，以及是否出现托管定价或采购记录。
+  market: ''
+  job: 研发团队的平台/基础设施工程师要在公司内网或云上为多名成员部署 DeepSeek Harness（dsh）编码代理，需要给每人分配互相隔离、可持久保存且带资源上限的工作区，并统一管理访问权限。
+  job_en: Platform or infrastructure engineers on an R&D team need to deploy DeepSeek Harness (dsh) coding
+    agents for multiple members on an internal network or cloud, giving each person an isolated, persistent
+    workspace with resource caps and unified access control.
+  pain: dsh 本身是单实例工具，多人共用时工作区会互相污染、文件与凭据混在一起，且没有配额约束，单个成员跑满资源会影响其他人；团队只能靠手工起容器、逐个分配机器来绕开，运维负担落在平台工程师身上。
+  pain_en: dsh itself is a single-instance tool; when shared by a team, workspaces contaminate each other,
+    files and credentials mix, and there is no quota, so one member can exhaust resources for everyone.
+    Teams work around this by hand-starting containers and assigning machines one by one, pushing the
+    operational burden onto platform engineers.
+  current_alternative: 团队自行用 Docker、虚拟机或调度工具手工搭建多用户环境，或让成员各自在本机跑 dsh、靠人工约定目录和端口，缺少统一的隔离、持久化与配额管理。
+  current_alternative_en: Teams hand-build multi-user setups with Docker, VMs or schedulers, or let each
+    member run dsh locally with manual conventions for directories and ports, lacking unified isolation,
+    persistence and quota management.
+  usage_reason: 推断：相较手工起容器，dsh-cloud 把每个实例放进隔离容器或 microVM、自动挂载持久工作区并施加资源配额，省掉逐台分配机器和手工配置隔离这一步，因此需要给多名成员统一发放
+    dsh 环境的平台工程师会在内部部署时选择它。
+  usage_reason_en: 'Inference: versus hand-starting containers, dsh-cloud places each instance in an isolated
+    container or microVM, auto-mounts persistent workspaces and enforces resource quotas, removing the
+    step of assigning machines and configuring isolation by hand, so platform engineers who must provision
+    dsh for multiple members would choose it for internal deployment.'

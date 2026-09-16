@@ -1,0 +1,90 @@
+- id: req-initial-amika-2026-09-16
+  project_slug: amika
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是多人使用编码代理时环境不一致、难以共享的问题，痛点存在但公开材料未说明具体协作流程与不采用的后果，需求强度无法确认。
+    evidence_ids:
+    - ev-dd9d8e3ddf41d2de
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅有6个点赞和3条评论，没有用户反馈、案例或持续采用迹象，无法判断是否形成共识场景。
+    evidence_ids:
+    - ev-dd9d8e3ddf41d2de
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费方式或目标买方，是面向个人开发者还是团队采购无法判断，收入路径不明。
+    evidence_ids:
+    - ev-dd9d8e3ddf41d2de
+  - gate: truth
+    status: insufficient
+    reason: 共享环境下的权限边界、代理操作是否可审计、结果能否确定性交付均无公开说明，安全与人工边界无法核对。
+    evidence_ids:
+    - ev-dd9d8e3ddf41d2de
+  next_validation: 收集Amika官方定价页或部署文档，确认其计费方式、目标买方以及共享环境中的权限与审计能力。
+  market: ''
+  job: 使用编码代理的开发者或小团队，在多人需要同时查看和操作同一套代码与运行环境时，处理本地或云端的开发环境，要完成让人类与代理在同一环境里协同执行任务。
+  job_en: Developers or small teams using coding agents who need several people to view and operate the
+    same code and runtime, working with local or cloud development environments to let humans and agents
+    execute tasks in one shared environment.
+  pain: 代理在个人机器上运行，环境配置和状态难以共享，多人协作时容易出现环境不一致、重复搭建和结果无法复现的问题。
+  pain_en: Agents run on individual machines, so environment configuration and state are hard to share,
+    and multi-person collaboration suffers from inconsistent environments, repeated setup and irreproducible
+    results.
+  current_alternative: 旧做法是各自在本地搭建环境，或用容器、远程开发机与共享仓库约定配置，靠文档和口头同步保持环境一致。
+  current_alternative_en: The old approach is for each person to set up locally, or to use containers,
+    remote development machines and shared repositories with agreed configuration, keeping environments
+    aligned through documentation and verbal sync.
+  usage_reason: 推断：相较各自本地搭建再靠文档同步，Amika把代码与运行环境放进同一个可共同进入的云工作站，减少的是环境重复搭建和状态对齐这一步，因此多人同时使用编码代理、且对结果可复现性有要求的团队会考虑它；目前没有客户案例或使用数据支持。
+  usage_reason_en: 'Inference: compared with local setup plus documentation sync, Amika puts code and
+    runtime into one jointly accessible cloud workstation, removing the step of repeated environment setup
+    and state alignment, so teams where several people use coding agents and need reproducible results
+    may consider it; there is no customer case or usage data supporting this yet.'
+- id: req-full-amika-2026-09-16
+  project_slug: amika
+  level: full
+  reviewed_at: '2026-09-16T00:48:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称是编码代理的多人云工作站，但全部证据均为同名美发品牌 loveamika.com 的商品页，与开发环境协作无关，无法还原用户任务、痛点与旧替代，价值结构无法成立。
+    evidence_ids:
+    - ev-88e3ca578ff82fc7
+    - ev-225bab0a4b529ef6
+    - ev-380d5b124b3cc30d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Amika 官方产品页或 公开代码仓库 仓库，确认其是否真实存在编码代理共享云工作站功能、部署文档与定价页。
+  market: ''
+  job: 使用编码代理的开发者或小团队，在多人需要同时查看和操作同一套代码与运行环境时，处理本地或云端的开发环境，要完成让人类与代理在同一环境里协同执行任务。
+  job_en: Developers or small teams using coding agents who need several people to view and operate the
+    same code and runtime, working with local or cloud development environments to let humans and agents
+    execute tasks in one shared environment.
+  pain: 公开材料未提供任何关于 Amika 云工作站的产品说明、用户反馈或使用记录，无法还原用户卡在哪一步、不解决会有什么后果，痛点无法从现有事实确认。
+  pain_en: Public material provides no product description, user feedback or usage record for Amika's
+    cloud workstation, so it is impossible to reconstruct which step users are stuck on or what happens
+    if it is not solved; the pain cannot be confirmed from available facts.
+  current_alternative: 无法从材料确认。按品类推断可能是各自本地搭建环境或用容器、远程开发机共享配置，但这是推测，不是披露的事实。
+  current_alternative_en: Cannot be confirmed from the material. By category inference it might be local
+    setup or containers and remote dev machines with shared configuration, but this is speculation, not
+    a disclosed fact.
+  usage_reason: 无法判断。材料中没有 Amika 云工作站的功能说明、输入输出或交付形式，无法解释用户为何会在旧做法之外选择它；缺少的正是产品动作与交付这一环。
+  usage_reason_en: Cannot be judged. The material contains no functional description, input/output or
+    deliverable form for Amika's cloud workstation, so there is no basis to explain why a user would choose
+    it over the old approach; the missing link is exactly the product action and deliverable.

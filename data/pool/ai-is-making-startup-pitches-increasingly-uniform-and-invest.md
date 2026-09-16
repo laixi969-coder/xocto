@@ -23,7 +23,7 @@ summary: AI is making startup pitches increasingly uniform, and investors say th
   funding — TFN Tech Funding News
 first_seen: '2026-09-15T08:02:27Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

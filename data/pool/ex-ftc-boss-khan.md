@@ -21,7 +21,7 @@ canonical_url: https://theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urg
 summary: break out the handcuffs for AI CEOs, citing 1934 precedent
 first_seen: '2026-09-15T00:40:14Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -242,3 +242,43 @@
   usage_reason_en: Without product docs or user feedback, there is no basis to explain which step it removes
     or which checkable result it improves versus the old approach; repo name and stars alone cannot support
     a usage reason.
+- id: req-full-ai-video-ad-studio-2026-09-16
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-09-16T00:48:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，用户任务与痛点无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-5eca27b1db6e8d46
+    - ev-b3156df8785ddefa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 AI 的输入素材、执行步骤与交付成片格式，以及是否出现真实使用反馈。
+  market: ''
+  job: 营销或内容人员需要为广告投放准备视频素材时，打开该仓库工具，把原始素材加工成可投放的短视频广告成片。
+  job_en: Marketing or content staff preparing video assets for ad delivery open this repository tool
+    to turn raw material into a deliverable short-video ad.
+  pain: 公开材料只给出仓库名与收藏数，未说明用户当前在剪辑或投放准备中具体卡在哪一步、返工频率与不解决的代价，痛点无法还原。
+  pain_en: Public material gives only the repo name and star counts, not which step of editing or ad prep
+    users are stuck on, how often they redo it, or the cost of leaving it unsolved.
+  current_alternative: 公开材料未说明用户目前用剪辑软件、外包团队还是模板工具完成同类素材，替代关系不明。
+  current_alternative_en: Public material does not show whether users currently rely on editing software,
+    outsourced teams, or template tools, so the substitution relationship is unclear.
+  usage_reason: 因缺少输入素材、AI 动作与交付物的公开说明，无法解释相较旧做法减少了哪一步负担，只能推断它可能面向视频广告素材制作场景。
+  usage_reason_en: Without public detail on inputs, AI actions, and deliverables, it is impossible to
+    explain which step it removes versus the old approach; only an inference toward video ad creative
+    production is possible.

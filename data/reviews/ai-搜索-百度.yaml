@@ -386,3 +386,44 @@
   usage_reason_en: 44.85M monthly visits and 13.76% MoM growth only show attention and scale, not why
     users choose it; without user feedback or cases, which step it removes versus old search cannot be
     explained.
+- id: req-full-ai-搜索-百度-2026-09-16
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-09-16T00:48:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度AI搜索官方页面是否上线独立定价或会员说明，以及是否公开客户/机构采用案例或使用数据，用以核验付费路径与持续采用。
+  market: ''
+  job: 普通中文用户在PC端遇到需要多轮澄清的复杂问题（如资料梳理、方案比较、写作初稿）时，把问题交给百度AI搜索，在同一页面完成追问、阅读来源、生成文字或图片，并继续用智能体处理后续任务。
+  job_en: Ordinary Chinese-speaking PC users facing a complex question that needs multi-turn clarification
+    (research synthesis, option comparison, drafting) hand it to Baidu AI Search, then keep asking follow-ups,
+    reading sources, generating text or images, and continuing with agents on the same page.
+  pain: 传统关键词搜索只返回链接列表，用户要自己逐个打开、筛选、拼接答案，多轮追问时上下文丢失，写作和做图还要切换到别的工具，重复搬运材料。
+  pain_en: Classic keyword search returns a list of links, so users must open, filter and stitch answers
+    themselves; context is lost across follow-up queries, and writing or image work requires switching
+    to other tools and re-pasting material.
+  current_alternative: 旧做法是百度网页搜索加多个标签页，再配合独立写作工具、图片工具和通用聊天机器人，人工在它们之间复制粘贴、自行核对来源。
+  current_alternative_en: The old way is Baidu web search with many tabs, plus separate writing tools,
+    image tools and general chatbots, with manual copy-paste and self-checking of sources between them.
+  usage_reason: 推断：相较逐个开链接再切工具，它把追问、来源阅读、文字与图片生成收进同一对话页，减少了跨标签页搬运和重新描述问题的步骤，因此需要连续深挖同一问题的PC办公与学习用户会在复杂问题上优先选它；公开材料尚未提供留存或付费证据。
+  usage_reason_en: 'Inference: versus opening links one by one and switching tools, it keeps follow-ups,
+    source reading, and text/image generation inside one chat page, cutting tab-hopping and re-describing
+    the question, so PC work and study users who need to dig into one problem continuously would pick
+    it for complex questions; public materials still lack retention or payment evidence.'

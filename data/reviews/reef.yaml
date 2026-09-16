@@ -491,3 +491,44 @@
   usage_reason: 无法给出选择理由：现有证据全部指向同名鞋类品牌与同名酒店，与该产品无关，缺少任何可归因到它的使用或采用事实。
   usage_reason_en: 'No usage rationale can be given: all available evidence points to same-named footwear
     and hotel brands unrelated to this product, with no attributable usage or adoption facts.'
+- id: req-full-reef-2026-09-16
+  project_slug: reef
+  level: full
+  reviewed_at: '2026-09-16T00:51:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名珊瑚礁百科条目与 REEF 凉鞋电商页，与“自我改进智能体持续学习基础设施”无关；连它解决什么需求、什么痛点都无法从公开材料还原，价值关不成立。
+    evidence_ids:
+    - ev-bbe53ccd483fbead
+    - ev-f2372509800d665d
+    - ev-3556185b014ae332
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或官网文档（README、issue、discussion），确认其数据接入方式、学习机制与真实使用场景，以替换当前同名无关证据。
+  market: ''
+  job: AI 智能体开发者或机器学习工程师在智能体上线后，把运行轨迹与反馈数据接入持续学习流程，让智能体从经验中更新自身行为。
+  job_en: AI agent developers or ML engineers feed runtime traces and feedback from deployed agents into
+    a continual-learning loop so the agent updates its own behavior from experience.
+  pain: 公开材料只给出“持续学习基础设施”这一句产品定位，没有说明开发者当前在更新智能体时具体卡在哪一步、多久发生一次、不解决会有什么后果，因此痛点无法从证据中还原。
+  pain_en: Public material offers only the one-line positioning of 'continual learning infra'; it does
+    not show which step of updating an agent breaks today, how often, or what happens if left unsolved,
+    so the pain cannot be reconstructed from evidence.
+  current_alternative: 公开材料未说明开发者目前如何完成智能体更新，也未说明它替代了微调脚本、人工标注回流还是其他流程。
+  current_alternative_en: Public material does not show how developers currently update agents, nor whether
+    it replaces fine-tuning scripts, manual label feedback loops, or something else.
+  usage_reason: 缺少可引用的产品文档、使用说明或用户反馈，无法解释相较旧做法它减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no citable product docs, usage instructions, or user feedback, it is impossible
+    to explain which step of the old workflow it removes, hence which users would choose it and when.

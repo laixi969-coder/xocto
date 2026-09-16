@@ -1,6 +1,6 @@
 ---
 slug: splunk重构平台架构全面拥抱ai智能体时代-ai基础设施
-name: Splunk重构平台架构，全面拥抱AI智能体时代-AI基础设施
+name: Splunk
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE1KaXdnX1ZRckxS
 summary: Splunk重构平台架构，全面拥抱AI智能体时代-AI基础设施 至顶网
 first_seen: '2026-09-15T16:03:58Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Splunk重构平台架构，全面拥抱AI智能体时代-AI基础设施
+# Splunk
 
 Splunk重构平台架构，全面拥抱AI智能体时代-AI基础设施 至顶网
 

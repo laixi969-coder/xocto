@@ -1,6 +1,6 @@
 ---
 slug: procurement-automation-startup-aron-launches-with-8m-in-fund
-name: Procurement automation startup Aron launches with $8M in funding
+name: Aron
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPckVrb2xIcUJD
 summary: Procurement automation startup Aron launches with $8M in funding SiliconANGLE
 first_seen: '2026-09-15T00:10:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Procurement automation startup Aron launches with $8M in funding
+# Aron
 
 Procurement automation startup Aron launches with $8M in funding SiliconANGLE
 

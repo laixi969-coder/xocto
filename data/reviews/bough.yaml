@@ -213,3 +213,44 @@
     view listing each prompt and what was committed, removing the cross-file comparison and manual assembly
     step; developers who care about privacy and will not upload coding logs to a third party would choose
     it on that basis. This is an inference from product capability and the old workflow
+- id: req-full-bough-2026-09-16
+  project_slug: bough
+  level: full
+  reviewed_at: '2026-09-16T00:48:38Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决开发者回看当日 AI 编码会话与提交记录的需求，但公开证据只有产品自述，无用户抱怨、替代行为或案例，痛点刚性与不解决的后果均无法确认，价值结构缺依据。
+    evidence_ids:
+    - ev-648e141970fd41e8
+    - ev-f4a1922bb17cc4c4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bough 官方仓库的 README、release 说明与 issue/discussion，确认是否有开发者描述实际回看会话日志的旧流程与采用反馈。
+  market: ''
+  job: 开发者在一天编码结束后，面对 Claude Code、Codex 留下的会话记录与提交历史，打开 bough 把这些原始日志整理成按天组织的工作视图，逐条列出提示词与已提交内容，得到一份可回看的当日工作记录。
+  job_en: After a day of coding, a developer takes the session logs and commit history left by Claude
+    Code and Codex, opens bough to organize those raw logs into a day-based work view listing each prompt
+    and what was committed, ending with a reviewable record of the day's work.
+  pain: 公开材料只给出产品自述，未提供任何用户抱怨、workaround 或客户案例，无法确认会话日志散落、难以回看这一痛点是否真实存在及其代价。
+  pain_en: Public materials contain only the product's own description; no user complaints, workarounds,
+    or customer cases confirm that scattered, hard-to-review session logs are a real pain or what it costs.
+  current_alternative: 公开材料未说明开发者目前如何回看当日 AI 编码会话与提交，也未说明 bough 实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently review a day's AI coding
+    sessions and commits, nor what practice bough actually replaces.
+  usage_reason: 推断：若开发者确实需要逐日回看提示词与提交，bough 以单机 Go 二进制本地读取日志、不上传数据，省去手工翻找会话文件这一步；但缺少用户反馈或案例，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if developers genuinely need a per-day review of prompts and commits, bough''s
+    single local Go binary reading logs without uploading data removes the step of manually digging through
+    session files; without user feedback or cases, it is unconfirmed which users would choose it for this.'

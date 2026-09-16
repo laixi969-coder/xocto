@@ -21,7 +21,7 @@ canonical_url: https://rdio-docs.vercel.app
 summary: an open-source internet radio control suite
 first_seen: '2026-08-14T12:12:30Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

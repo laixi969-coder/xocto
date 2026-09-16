@@ -85,3 +85,46 @@
     gathers configuration and launch into one desktop entry, removing repeated setup and window switching,
     so developers maintaining several agent CLIs would choose it when running tasks in parallel; no user
     feedback or repeat-use evidence supports this yet.'
+- id: req-full-agent-launcher-2026-09-16
+  project_slug: agent-launcher
+  level: full
+  reviewed_at: '2026-09-16T00:47:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理 CLI 各自配置、密钥与启动方式分散的重复劳动，痛点来自工作流结构而非功能罗列；不采用则每次切换都要重复配置，交付是集中启动的代理会话，结构上成立但属推理。
+    evidence_ids:
+    - ev-dab457ab04d1e675
+  - gate: consensus
+    status: insufficient
+    reason: 140 星与 178 星只说明有人关注，属于规模或关注度证据，不能证明开发者已把它留在日常工作流里，缺少 issue、discussion 或评价中的使用反馈。
+    evidence_ids:
+    - ev-dab457ab04d1e675
+    - ev-4a4b8e0546d2a6c4
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是谁无法从公开材料判断，这是判断而非已验证事实；可能来自 to C 开发者或 to B 团队，但均无证据。
+    evidence_ids:
+    - ev-dab457ab04d1e675
+  - gate: truth
+    status: insufficient
+    reason: 它只是调度已有代理，不改变代理本身的产出质量，交付确定性取决于被调用的工具，安全与人工边界未说明，承诺能否确定性交付存疑。
+    evidence_ids:
+    - ev-dab457ab04d1e675
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有开发者描述在多代理配置上的具体重复劳动与使用反馈。
+  market: ''
+  job: 开发者在本地同时维护多个编码代理命令行工具时，需要把它们集中配置并逐个启动，以便在同一台机器上并行推进不同任务。
+  job_en: Developers maintaining several coding-agent CLIs locally need to configure and launch them together
+    so different tasks can proceed in parallel on one machine.
+  pain: 多个代理 CLI 各自有配置、密钥和启动方式，切换与重复配置消耗时间；但公开材料没有说明这种切换痛到什么程度、多久发生一次。
+  pain_en: Each agent CLI has its own configuration, keys and launch path, so switching and re-configuring
+    costs time; the public material does not say how severe or how frequent this is.
+  current_alternative: 开发者目前用终端、脚本或各自的配置文件分别启动这些代理，或干脆只用一个代理。
+  current_alternative_en: Developers currently start these agents separately through terminals, scripts
+    or per-tool config files, or simply stick to one agent.
+  usage_reason: 推断：相比逐个开终端配置，它把多个代理的配置和启动收进一个桌面入口，省掉重复配置这一步，因此同时用多个代理的开发者可能愿意试；但没有任何用户反馈或重复使用证据支持这一判断。
+  usage_reason_en: 'Inference: compared with opening terminals and configuring each tool, it gathers configuration
+    and launch into one desktop entry, removing repeated setup, so developers using several agents may
+    try it; no user feedback or repeat-use evidence supports this.'

@@ -21,7 +21,7 @@ canonical_url: https://theguardian.com/technology/2026/sep/14/google-deepmind-ai
 summary: I worked at Google DeepMind. You should listen to the warnings about AI
 first_seen: '2026-09-15T02:25:41Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

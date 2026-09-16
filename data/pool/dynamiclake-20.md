@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dynamiclake
 summary: Dynamic Island for Mac with 3rd Live Activities and more
 first_seen: '2026-09-11T14:34:55Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

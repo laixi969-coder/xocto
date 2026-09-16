@@ -1,0 +1,87 @@
+- id: req-initial-protec-general-insurance-selects-insuremo-to-power-its-insur-2026-09-16
+  project_slug: protec-general-insurance-selects-insuremo-to-power-its-insur
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是保险承保与保单运营任务，但公开材料只有一句选型声明，说不清原来哪一步最痛、不解决会失去什么，价值结构无法还原。
+    evidence_ids:
+    - ev-e6ebb37897081d14
+  - gate: consensus
+    status: insufficient
+    reason: 只有一家保险公司的一次选型公告，没有其他客户、行业讨论或采用扩散证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-e6ebb37897081d14
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式与买方预算归属，无法判断钱从保险公司 IT 预算还是按保单量收费，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-e6ebb37897081d14
+  - gate: truth
+    status: insufficient
+    reason: 无法核实交付是否确定发生、AI 在承保判断中承担哪一步、人工复核边界在哪，承诺与第一性目标的关系不明。
+    evidence_ids:
+    - ev-e6ebb37897081d14
+  next_validation: 收集 insureMO 官方客户案例或部署文档，确认 Protec 项目覆盖的具体承保与保单环节及上线状态。
+  market: ''
+  job: 保险公司核保与保单运营人员在收到投保单和承保规则后，需要完成核保判断、出单和后续保单管理，把材料交给核心系统处理并拿到可用的保单记录。
+  job_en: Insurance underwriting and policy operations staff receive applications and underwriting rules,
+    need to complete underwriting decisions, policy issuance and later administration, and hand the material
+    to a core system to obtain usable policy records.
+  pain: 公开材料没有说明 Protec 原来用什么系统、哪一步最痛、不解决会有什么后果，因此无法确认痛点是否刚性。
+  pain_en: The public material does not say what system Protec used before, which step hurt most, or what
+    happens if it is not solved, so the rigidity of the pain cannot be confirmed.
+  current_alternative: 公开材料未披露其原有做法，可能是自建或本地核心保险系统，也可能是人工维护承保规则，均无法核实。
+  current_alternative_en: The public material does not disclose the prior approach; it could be a self-built
+    or local core insurance system, or manually maintained underwriting rules, and none of this can be
+    verified.
+  usage_reason: 推断：若 insureMO 能把承保规则配置和保单出单从人工维护改为平台化执行，保险公司会在旧系统改造成本过高时选择它；但公开材料没有说明它具体减少了哪一步负担，也没有客户使用反馈，因此这只是结构推断，不是已验证事实。
+  usage_reason_en: 'Inference: if insureMO moves underwriting rule configuration and policy issuance from
+    manual maintenance to platform execution, an insurer facing high legacy migration costs might choose
+    it; however the public material does not show which step''s burden is reduced, nor any customer feedback,
+    so this is structural inference, not verified fact.'
+- id: req-full-protec-general-insurance-selects-insuremo-to-power-its-insur-2026-09-16
+  project_slug: protec-general-insurance-selects-insuremo-to-power-its-insur
+  level: full
+  reviewed_at: '2026-09-16T00:51:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决保险承保与保单运营任务，但公开材料只有一句选型声明，说不清原来哪一步最痛、不解决会失去什么，价值结构无法还原。
+    evidence_ids:
+    - ev-e6ebb37897081d14
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 insureMO 官方客户案例或部署文档，确认 Protec 项目覆盖的具体承保与保单环节及上线状态。
+  market: ''
+  job: 保险公司核保与保单运营人员在收到投保单与承保规则后，需要完成核保判断、出单与后续保单管理，把材料交给核心系统并拿到可用的保单记录。
+  job_en: Insurance underwriting and policy operations staff receive applications and underwriting rules,
+    need to complete underwriting decisions, policy issuance and later administration, and hand the material
+    to a core system to obtain usable policy records.
+  pain: 公开材料只有一句 Protec 选用 insureMO 的选型声明，没有说明原来哪一步最痛、不解决会失去什么，痛点强度无法还原。
+  pain_en: The public material contains only a one-line selection announcement that Protec chose insureMO;
+    it does not say which step hurt most before or what is lost if unsolved, so pain intensity cannot
+    be reconstructed.
+  current_alternative: 公开材料未披露其原有做法，可能是自建或本地核心保险系统，也可能是人工维护承保规则，均无法核实。
+  current_alternative_en: The public material does not disclose the prior approach; it could be a self-built
+    or local core insurance system, or manually maintained underwriting rules, none of which can be verified.
+  usage_reason: 推断：若 insureMO 能把承保规则配置与保单出单从人工维护改为平台化执行，旧系统改造成本高的保险公司可能选择它；但公开材料未说明它具体减少哪一步负担，也无客户使用反馈，这只是结构推断。
+  usage_reason_en: 'Inference: if insureMO moves underwriting rule configuration and policy issuance from
+    manual maintenance to platform execution, an insurer facing high legacy migration costs might choose
+    it; however the public material does not show which step''s burden is reduced, nor any customer feedback,
+    so this is structural inference only.'

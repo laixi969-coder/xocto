@@ -1,0 +1,99 @@
+- id: req-initial-exclusive-manufacturing-ai-startup-caddi-valued-at-12-billio-2026-09-16
+  project_slug: exclusive-manufacturing-ai-startup-caddi-valued-at-12-billio
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是制造业询价与比价这一具体任务，但公开材料只有融资信息，未说明痛点强度、频率与不采用的后果，价值判断缺少材料。
+    evidence_ids:
+    - ev-6090499bf0eed441
+  - gate: consensus
+    status: insufficient
+    reason: 除融资与估值外，没有客户采用、复购或行业共识证据，无法判断采购方是否已把它放进工作流。
+    evidence_ids:
+    - ev-6090499bf0eed441
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价或买方是工厂还是采购方，钱从哪来只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-6090499bf0eed441
+  - gate: truth
+    status: insufficient
+    reason: 无法核对报价与交期是否确定交付、人工确认边界在哪，也没有安全与责任划分的公开说明。
+    evidence_ids:
+    - ev-6090499bf0eed441
+  next_validation: 收集 CADDi 官方定价页或客户案例，确认其按什么计价、买方是谁以及报价交付是否含人工确认环节。
+  market: ''
+  job: 制造业采购与报价人员拿到零件图纸和清单后，需要向多家加工厂询价、比价并确定交期，才能完成下单。
+  job_en: Manufacturing procurement and quoting staff receive part drawings and lists and must request
+    quotes from several job shops, compare them and fix lead times before placing an order.
+  pain: 公开材料未说明询价环节的具体痛点，只能从流程推断人工逐家询价耗时且比价口径不一；缺少用户抱怨或案例支持。
+  pain_en: Public material does not state the specific pain in the quoting step; it can only be inferred
+    from the workflow that manual per-supplier requests are slow and comparisons inconsistent, with no
+    user complaints or cases to support it.
+  current_alternative: 现有替代是采购人员用邮件、电话和表格逐家向供应商询价并人工比价，公开材料未给出其他替代方式。
+  current_alternative_en: The current alternative is procurement staff emailing, calling and tabulating
+    quotes from each supplier by hand; public material gives no other alternative.
+  usage_reason: 推断：若 AI 能直接读取图纸并返回可加工供应商的报价与交期，采购方可以省去逐家发询价和整理回价这一步，因此多品种小批量、供应商分散的采购方可能选择它；但缺少用户反馈或客户案例，动机尚未被事实支持。
+  usage_reason_en: 'Inference: if the AI reads drawings directly and returns quotes and lead times from
+    capable suppliers, buyers could skip sending requests one by one and consolidating replies, so buyers
+    with high-mix low-volume parts and scattered suppliers might choose it; user feedback or customer
+    cases are missing, so the motive is not yet factually supported.'
+- id: req-full-exclusive-manufacturing-ai-startup-caddi-valued-at-12-billio-2026-09-16
+  project_slug: exclusive-manufacturing-ai-startup-caddi-valued-at-12-billio
+  level: full
+  reviewed_at: '2026-09-16T00:49:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制造业采购拿到图纸与零件清单后逐家询价、人工比价的报价任务，痛点是报价周期长、比价口径不一、图纸与零件数据分散在多系统；不采用则继续靠邮件电话表格逐家问价。CADDi 官方称把分散制造数据连接为可分析资产，融资报道确认其卖
+      AI 软件帮制造商组织并使用工程与生产数据，交付闭环可还原，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-b6b9cbbddfb66e33
+    - ev-48239e3a215e64ad
+    - ev-950c9e08eafdb948
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网对数据整合能力的描述与 1.14 亿美元 D 轮、12 亿美元估值的融资报道，没有客户采用、复购或采购方把它放进日常询价流程的证据，无法判断行业共识是否形成；融资与估值只属关注度，不能当作持续采用。
+    evidence_ids:
+    - ev-950c9e08eafdb948
+    - ev-b6b9cbbddfb66e33
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、计价单位与买方是工厂采购部门还是加工供应商，钱可能来自 to B 制造企业软件订阅，但这是判断而非已验证事实；仅有融资叙事，尚无公开付费或采购记录，需警惕只靠融资续命的风险。
+    evidence_ids:
+    - ev-950c9e08eafdb948
+    - ev-48239e3a215e64ad
+  - gate: truth
+    status: challenged
+    reason: 官网只称把制造数据转为可分析资产，未公开报价与交期是否确定性交付、人工确认边界在哪、错报或交期偏差由谁负责；报价与交期直接影响下单决策，缺少安全与责任划分说明使承诺可交付性无法核对。
+    evidence_ids:
+    - ev-b6b9cbbddfb66e33
+    - ev-48239e3a215e64ad
+  next_validation: 追踪 CADDi 官网是否上线定价页或公开客户案例，确认其计价方式、买方类型以及报价与交期交付是否包含人工确认环节。
+  market: ''
+  job: 制造业采购与报价人员拿到零件图纸和零件清单后，需要向多家加工厂询价、比价并确认交期，才能完成下单与交付安排。
+  job_en: Manufacturing procurement and quoting staff receive part drawings and parts lists, then must
+    request quotes from several job shops, compare them and confirm lead times before placing orders and
+    scheduling delivery.
+  pain: 公开材料只说明 CADDi 把分散在部门、地点和系统中的制造数据整合为可分析资产，未直接描述询价环节的痛点；从工作流结构推断，逐家发询价、等待回价、人工统一比价口径会拉长报价周期，且图纸与零件数据分散导致同一零件在不同环节口径不一致。
+  pain_en: Public material only states that CADDi connects manufacturing data fragmented across departments,
+    locations and systems into an analyzable asset, without directly describing quoting pain; inferred
+    from the workflow, sending requests one by one, waiting for replies and manually normalizing quote
+    formats lengthens the quoting cycle, while fragmented drawing and part data causes inconsistent part
+    definitions across steps.
+  current_alternative: 现有替代是采购人员用邮件、电话和表格逐家向供应商询价并人工比价，图纸与零件数据分散在各部门、地点和系统中各自维护。
+  current_alternative_en: The current alternative is procurement staff emailing, calling and tabulating
+    quotes from each supplier by hand, with drawings and part data maintained separately across departments,
+    locations and systems.
+  usage_reason: 推断：相较逐家发询价再人工整理回价，CADDi 通过读取并连接分散的图纸与零件数据、自动匹配可加工供应商并给出报价与交期，减少采购方逐家询价和统一比价口径这两步负担，因此多品种、供应商分散、图纸数据散落多系统的制造企业采购方会在需要快速拿到可比报价时选择它；该动机为结构推理，尚无用户反馈或客户案例支持。
+  usage_reason_en: 'Inference: compared with sending requests one by one and manually consolidating replies,
+    CADDi reads and connects fragmented drawing and part data, automatically matches capable suppliers
+    and returns quotes and lead times, removing the steps of per-supplier requests and manual quote normalization;
+    therefore procurement teams at manufacturers with high-mix parts, scattered suppliers and drawing
+    data spread across systems would choose it when they need comparable quotes quickly'

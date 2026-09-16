@@ -447,3 +447,55 @@
     real session logs and automatically distills recurring patterns, removing the step of reviewing logs
     and transcribing them by hand and turning output into reusable skills and checks, so developers who
     use coding agents heavily and feel the repetition burden would adopt it at session review time.'
+- id: req-full-penelopaai-2026-09-16
+  project_slug: penelopaai
+  level: full
+  reviewed_at: '2026-09-16T00:50:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理会话不可积累、同类错误与项目约定反复重讲的需求，痛点是重复返工且现有做法靠手工维护规则文件；输入会话日志、输出可复用技能与检查项的闭环清晰，不采用则每次会话重新解释约定。属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-8b598f2086d9b994
+    - ev-7cdcdafc90865a25
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库收藏从 116 增至 140，说明开发者社区持续关注该方向，但收藏与关注只属规模信号，不能证明目标用户已把它留在日常会话工作流中；缺少 issue、discussion
+      或使用反馈说明真实采用。
+    evidence_ids:
+    - ev-8b598f2086d9b994
+    - ev-fb605c708a20a50f
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，无法判断钱来自个人开发者订阅、团队席位还是企业授权；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8b598f2086d9b994
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺把会话记录转化为可复用技能与检查项，但公开材料未展示抽取准确率、误报处理、会话数据隐私与人工审核边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-7cdcdafc90865a25
+  next_validation: 追踪 Penelopa.ai 仓库的 issue、discussion 与 README/文档更新，确认是否有开发者报告实际接入 Codex/Claude Code
+    会话、生成技能被复用，以及是否出现定价或付费入口。
+  market: ''
+  job: 使用 Codex、Claude Code 等 AI 编码代理的开发者，在一次或多次代理会话结束后，把真实会话记录（日志、提示、工具调用轨迹）交给 Penelopa，让它识别反复出现的失败与工作流模式，产出可复用的技能、检查项和提示词，供后续会话直接调用。
+  job_en: Developers using AI coding agents such as Codex and Claude Code hand over real session logs
+    after one or more agent sessions, so Penelopa can identify recurring failure and workflow patterns
+    and turn them into reusable skills, checks and prompts for later sessions.
+  pain: AI 编码代理每次会话都从零开始，同一类错误、同一套项目约定和检查步骤反复出现，开发者只能靠记忆或手工复制提示词来纠正；会话记录散落在本地，没人把它沉淀成可复用资产，重复返工的成本持续存在。
+  pain_en: 'Each AI coding agent session starts from scratch: the same mistakes, project conventions and
+    check steps recur, and developers must correct them from memory or by manually copying prompts; session
+    logs sit unused locally instead of becoming reusable assets, so rework costs persist.'
+  current_alternative: 开发者目前靠手工维护 CLAUDE.md/AGENTS.md 之类的规则文件、复制粘贴历史提示词、在会话中反复口头纠正代理，或干脆不沉淀、每次重新解释项目约定。
+  current_alternative_en: Developers today hand-maintain rule files such as CLAUDE.md/AGENTS.md, copy-paste
+    past prompts, repeatedly correct the agent mid-session, or skip accumulation entirely and re-explain
+    project conventions each time.
+  usage_reason: 相较手工维护规则文件或反复口头纠正，Penelopa 直接读取真实会话记录并自动抽取重复模式，省去开发者自己回顾日志、归纳规律、再手写提示词这几步；因此频繁使用 Codex/Claude
+    Code 且被同类返工困扰的开发者会在会话结束后选择它来生成下一轮可用的技能与检查项。这是基于产品输入—动作—交付闭环的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with hand-maintaining rule files or correcting the agent verbally, Penelopa
+    reads real session logs and automatically extracts recurring patterns, removing the steps of reviewing
+    logs, generalizing rules and hand-writing prompts; developers who use Codex/Claude Code heavily and
+    suffer repeated rework would therefore turn to it after sessions to generate reusable skills and checks.
+    This is an inference from the product's input-action-delivery loop, not yet backed by u

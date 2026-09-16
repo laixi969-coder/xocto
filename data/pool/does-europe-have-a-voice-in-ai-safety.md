@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/europe-ai-safety-podcast
 summary: ''
 first_seen: '2026-09-15T15:02:23Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

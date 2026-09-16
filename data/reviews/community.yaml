@@ -1,0 +1,88 @@
+- id: req-initial-community-2026-09-16
+  project_slug: community
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Markdown 表格无法转置、只能手工搬格的具体痛点，旧做法耗时且易错，需求结构成立。
+    evidence_ids:
+    - ev-4f2a6683ed9a118e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区帖与少量评论，没有下载量、评分或持续使用数据，无法判断是否形成稳定采用。
+    evidence_ids:
+    - ev-4f2a6683ed9a118e
+  - gate: model
+    status: insufficient
+    reason: 插件免费上架社区市场，公开材料未披露任何付费路径或买方，商业模式尚不明确。
+    evidence_ids:
+    - ev-4f2a6683ed9a118e
+  - gate: truth
+    status: insufficient
+    reason: 功能单一且可被手工或电子表格替代，交付确定但价值边界窄，是否值得长期保留在工作流缺少证据。
+    evidence_ids:
+    - ev-4f2a6683ed9a118e
+  next_validation: 收集该插件在官方社区插件市场的下载量、评分与更新记录，判断是否有持续使用与维护信号。
+  market: ''
+  job: 使用 Obsidian 管理笔记的人，在整理含表格的笔记时，需要把一张 Markdown 表格的行列方向调换，得到可直接粘贴使用的转置表格。
+  job_en: People managing notes in Obsidian who, while tidying notes containing tables, need to swap the
+    rows and columns of a Markdown table to get a transposed table ready to paste.
+  pain: Markdown 表格本身不支持转置，手工逐格搬动既慢又容易错位，属于高频但琐碎的负担。
+  pain_en: Markdown tables do not support transposition, and moving cells by hand is slow and error-prone,
+    a frequent but trivial burden.
+  current_alternative: 此前用户要么手工重排单元格，要么把表格贴进电子表格转置后再转回 Markdown。
+  current_alternative_en: Previously users either rearranged cells by hand or pasted the table into a
+    spreadsheet, transposed it, and converted it back to Markdown.
+  usage_reason: 相比手工重排或绕道电子表格，该插件在笔记内直接对选中表格执行一次转置动作，省掉导出、转换、再粘回的三步，因此常写含表格笔记的 Obsidian 用户会在遇到方向错误时选择它；这是基于功能与旧流程的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual rearrangement or a spreadsheet detour, the plugin performs one
+    transposition action on the selected table inside the note, removing the export-convert-paste-back
+    steps, so Obsidian users who write table-heavy notes would choose it when orientation is wrong; this
+    is inference from capability and the old workflow, with no retention or repeat-use evidence yet.
+- id: req-full-community-2026-09-16
+  project_slug: community
+  level: full
+  reviewed_at: '2026-09-16T00:48:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Obsidian 内 Markdown 表格无法转置、只能复制到 AI 或手工搬格的具体痛点，旧做法多步且易错，输入—动作—交付闭环清晰；但痛点偏琐碎，属工作流结构推理。
+    evidence_ids:
+    - ev-4f2a6683ed9a118e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 V2EX 发布帖与作者自述，未披露插件市场下载量、评分或评论反馈，无法判断是否形成稳定采用或强场景共识。
+    evidence_ids:
+    - ev-4f2a6683ed9a118e
+  - gate: model
+    status: insufficient
+    reason: 插件免费上架 Obsidian 社区市场，公开材料未披露定价、捐赠或任何买方；钱可能来自作者自用或社区声誉，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4f2a6683ed9a118e
+  - gate: truth
+    status: insufficient
+    reason: 转置逻辑确定、可核对，但功能单一且可被 AI 或电子表格替代，作者计划追加公式计算与空行清理，是否值得长期留在工作流缺少使用证据。
+    evidence_ids:
+    - ev-4f2a6683ed9a118e
+  next_validation: 追踪 OB Toolbox 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 使用 Obsidian 管理笔记的人，在整理含 Markdown 表格的笔记时，需要把一张表格的行列方向调换，得到可直接留在原位的转置表格。
+  job_en: People managing notes in Obsidian who, while tidying notes containing Markdown tables, need
+    to swap a table's rows and columns to get a transposed table left in place.
+  pain: 作者公开自述 Markdown 表格缺少顺手的小工具，转置只能复制表格发给 AI 再粘回，一来一回麻烦；这是单点琐碎负担，不是高频刚需。
+  pain_en: The author states publicly that Markdown tables lack handy tools and transposing meant copying
+    the table to an AI and pasting it back, a back-and-forth hassle; this is a trivial single-point burden,
+    not a high-frequency must-have.
+  current_alternative: 公开材料写明的旧做法是复制表格发给 AI 要求转置再复制回 Obsidian；手工逐格重排或绕道电子表格也是同类替代。
+  current_alternative_en: The public material states the old way was copying the table to an AI, asking
+    it to transpose, and pasting back into Obsidian; manual cell rearrangement or a spreadsheet detour
+    are similar alternatives.
+  usage_reason: 相较复制到 AI 再粘回，插件在光标所在表格上执行一次命令即原地替换，省掉复制、外部转换、粘回三步；推断常写含表格笔记的 Obsidian 用户会在方向不对时选择它，尚无留存或复购证据。
+  usage_reason_en: Versus copying to an AI and pasting back, the plugin runs one command on the table
+    at the cursor and replaces it in place, removing the copy-convert-paste-back steps; inferred that
+    Obsidian users writing table-heavy notes would choose it when orientation is wrong, with no retention
+    or repeat-use evidence yet.

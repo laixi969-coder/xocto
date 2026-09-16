@@ -1,0 +1,86 @@
+- id: req-initial-linux-doctor-2026-09-16
+  project_slug: linux-doctor
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决服务器排障时不知道从哪查、容易漏根因的问题，交付物是一份说明哪里出错的只读检查结果，运维场景中该任务真实且高频。
+    evidence_ids:
+    - ev-13ac17e9b257263c
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量很低，没有用户反馈或复述，无法判断它是否被纳入日常排障流程。
+    evidence_ids:
+    - ev-13ac17e9b257263c
+  - gate: model
+    status: insufficient
+    reason: 开源项目未说明是否有托管版或付费支持，买方与付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-13ac17e9b257263c
+  - gate: truth
+    status: insufficient
+    reason: 只读设计降低了误操作风险，但诊断结论的准确率与人工确认边界未说明，无法核对。
+    evidence_ids:
+    - ev-13ac17e9b257263c
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告实际排障结果与误报情况。
+  market: ''
+  job: 运维或后端工程师在服务器出现异常、需要快速定位原因时，运行只读检查工具处理系统状态与日志材料，完成“哪里坏了”的判断任务。
+  job_en: An SRE or backend engineer facing an abnormal server runs a read-only checker over system state
+    and logs to complete the task of judging what is broken.
+  pain: 排障时要翻大量日志和指标，经验不足的人容易漏掉根因，误操作还可能影响生产环境。
+  pain_en: Troubleshooting means digging through logs and metrics; less experienced people miss root causes,
+    and a wrong move can affect production.
+  current_alternative: 旧做法是手动执行 top、df、journalctl 等命令逐项排查，或依赖已有的监控告警平台。
+  current_alternative_en: The old approach is manually running top, df, journalctl and similar commands
+    one by one, or relying on an existing monitoring and alerting platform.
+  usage_reason: 推断：相较逐条敲命令再自己拼结论，只读检查把常见故障的排查步骤固定下来并直接给出说明，减少的是“不知道该看哪一项”的摸索，因此缺少资深 SRE 的小团队会在单机排障时选择它；公开材料未提供留存或付费证据。
+  usage_reason_en: 'Inference: compared with typing commands one by one and assembling a conclusion, the
+    read-only checker fixes the common troubleshooting steps and states the finding, cutting the ''don''t
+    know what to look at'' fumbling, so small teams without a senior SRE would pick it for single-machine
+    diagnosis; no retention or payment evidence is public.'
+- id: req-full-linux-doctor-2026-09-16
+  project_slug: linux-doctor
+  level: full
+  reviewed_at: '2026-09-16T00:49:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据均为 Linux 操作系统通用介绍与发行版下载页，未包含该产品自身的功能、输入输出或用户痛点，无法还原它解决什么需求、痛点是否刚性，故价值关不成立。
+    evidence_ids:
+    - ev-6fc46fb3a72dec76
+    - ev-6209cd7828b4eec9
+    - ev-a539adff124f09f9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Linux Doctor 项目自身的官方仓库 README、release 说明与 issue/discussion，确认其实际检查项、输出形式与用户报告的使用结果。
+  market: ''
+  job: 运维或后端工程师在服务器出现异常时，运行 Linux Doctor 以只读方式检查系统状态，完成“哪里出了问题”的判断任务。
+  job_en: An SRE or backend engineer facing an abnormal server runs Linux Doctor to perform read-only
+    checks of system state and complete the task of judging what is wrong.
+  pain: 公开材料未提供任何关于该产品用户痛点的证据；现有证据只描述 Linux 操作系统本身，未说明排障时哪里难受、频率多高、不解决会怎样。
+  pain_en: No public evidence describes this product's user pain; the available evidence only describes
+    the Linux operating system itself, not what hurts during troubleshooting, how often, or the cost of
+    not solving it.
+  current_alternative: 公开材料未说明用户当前用什么方式替代；只能从运维常识推断为手动执行 top、df、journalctl 等命令或依赖监控告警平台，但这不是有引用的公开事实。
+  current_alternative_en: Public material does not state the current alternative; one could only infer
+    from ops common sense manual top/df/journalctl commands or monitoring platforms, but that is not cited
+    public fact.
+  usage_reason: 无法给出有依据的使用理由：现有证据全部指向 Linux.org 与 Wikipedia 的 Linux 通用介绍，未包含该产品的能力、输入、输出或用户反馈，因此无法解释用户为何选择它。
+  usage_reason_en: 'No grounded usage reason can be given: all available evidence points to generic Linux
+    introductions on Linux.org and Wikipedia, with nothing on this product''s capabilities, inputs, outputs,
+    or user feedback, so why a user would choose it cannot be explained.'

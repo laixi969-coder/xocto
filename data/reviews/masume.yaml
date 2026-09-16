@@ -227,3 +227,55 @@
     schema-copying step and reduces wrong queries caused by the agent not seeing real columns; however
     the repository has no user feedback or usage record, so this causal link is not supported by public
     evidence.'
+- id: req-full-masume-2026-09-16
+  project_slug: masume
+  level: full
+  reviewed_at: '2026-09-16T00:50:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 agent 看不到真实表结构、工程师要在客户端与对话窗口间手工搬运表名字段的问题；旧做法易让模型按臆想字段写错查询，需人工逐条核对。仓库自述为终端数据库客户端并带 AI
+      chat 与 MCP server，输入—动作—交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-eeadab0c47c9dc6d
+    - ev-314f14bfe3a8d232
+  - gate: consensus
+    status: insufficient
+    reason: 仓库自 2026-08-30 起星标从 72 缓慢升至 74，说明有开发者关注，但公开材料没有用户评价、issue 讨论或采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-314f14bfe3a8d232
+    - ev-eeadab0c47c9dc6d
+    - ev-e178c80af5cfcc43
+  - gate: model
+    status: insufficient
+    reason: 公开材料只显示开源仓库，未披露定价、付费方或商业路径；谁付钱、按什么收费均无事实，开源本身不构成收入模式，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-314f14bfe3a8d232
+    - ev-eeadab0c47c9dc6d
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述含 AI chat 与 MCP server，贴近终端查库这一第一性目标，但公开材料未说明支持哪些数据库、agent 如何接入，也未交代 agent 操作数据库的权限与人工确认边界，交付确定性待核验。
+    evidence_ids:
+    - ev-eeadab0c47c9dc6d
+    - ev-314f14bfe3a8d232
+  next_validation: 追踪 masume 仓库 README 与 issue/discussion，确认其支持的数据库清单、agent/MCP 接入方式，以及是否已有用户描述实际查库与生成查询的使用场景。
+  market: ''
+  job: 后端工程师在排查线上数据问题或核对表结构时，在终端里打开数据库、读取表和字段，并让 AI agent 基于同一份目录生成或修改查询，最终由工程师自己确认执行。
+  job_en: A backend engineer investigating a production data issue or checking a schema opens a database
+    in the terminal, reads tables and columns, and has an AI agent generate or edit queries from the same
+    catalog, with the engineer confirming the final execution.
+  pain: 旧流程要在数据库客户端和 AI 对话窗口之间来回切换，手工复制表名与字段；一旦 agent 看不到真实目录，就容易按臆想的字段写错查询，工程师还得回头逐条核对。
+  pain_en: The old workflow requires switching between a database client and an AI chat window and hand-copying
+    table and column names; when the agent cannot see the real catalog it writes queries against imagined
+    columns, forcing the engineer to re-check each one.
+  current_alternative: 用 psql、DBeaver 等客户端查看结构，再手工把表名和字段粘贴进 AI 对话窗口，或凭记忆让模型写 SQL。
+  current_alternative_en: Inspecting schemas in clients such as psql or DBeaver, then manually pasting
+    table and column names into an AI chat window, or asking the model to write SQL from memory.
+  usage_reason: 推断：相较手工复制表结构，masume 在终端内直接读取真实目录并把同一份目录交给 agent，省掉复制粘贴这一步，并让生成的查询基于真实字段而非模型猜测，因此常在终端工作、又用
+    agent 写 SQL 的后端工程师会在排查数据时选择它。
+  usage_reason_en: 'Inference: compared with hand-copying schemas, masume reads the real catalog inside
+    the terminal and hands the same catalog to the agent, removing the copy-paste step and grounding generated
+    queries in real columns rather than model guesses, so backend engineers who work in the terminal and
+    use an agent for SQL would pick it when investigating data.'

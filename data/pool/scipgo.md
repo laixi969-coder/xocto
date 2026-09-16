@@ -21,7 +21,7 @@ canonical_url: https://github.com/egoisutolabs/scipgo
 summary: SCIP MIP solver bindings for Go, ported from russcip
 first_seen: '2026-09-15T15:56:14Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

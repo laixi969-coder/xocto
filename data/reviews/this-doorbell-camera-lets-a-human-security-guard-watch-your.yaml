@@ -1,0 +1,89 @@
+- id: req-initial-this-doorbell-camera-lets-a-human-security-guard-watch-your-2026-09-16
+  project_slug: this-doorbell-camera-lets-a-human-security-guard-watch-your
+  level: initial
+  reviewed_at: '2026-09-16T00:21:06Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决住户不在门口时无人判断和处置门口事件的需求，痛点是错过当场制止的时机，旧替代只留录像。
+    evidence_ids:
+    - ev-d2bfdbb5d901b9de
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有发布与定价，没有采用规模、续订或用户评价，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-d2bfdbb5d901b9de
+  - gate: model
+    status: supported
+    reason: 硬件 199.99 美元加 49.99 美元/月起订阅，to C 月费路径明确，但续费率与毛利未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d2bfdbb5d901b9de
+  - gate: truth
+    status: insufficient
+    reason: AI 初筛与真人坐席的误报率、响应时限和人工介入边界均未公开，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-d2bfdbb5d901b9de
+  next_validation: 收集 SimpliSafe 官方 Active Guard Outdoor Protection 服务条款或帮助文档，核对 AI 初筛与真人坐席的响应时限、误报处理与人工介入边界。
+  market: ''
+  job: 家庭住户在无人看门、门口出现访客或可疑人员时，需要处理门铃摄像头拍到的实时画面，并完成判断、喊话或报警这一处置任务。
+  job_en: A household, when nobody is watching the door and a visitor or suspicious person appears, must
+    handle the live doorbell footage and complete the task of judging, speaking to, or alerting on it.
+  pain: 住户不在家或没看手机时，普通门铃只留下录像，威胁要等事后回看才发现，错过当场制止的时机。
+  pain_en: When residents are away or not checking their phone, an ordinary doorbell only leaves a recording,
+    so threats are found only on later review and the moment to intervene is missed.
+  current_alternative: 旧做法是普通门铃摄像头加事后回看录像，或购买传统安防监控公司的报警服务，由人工值守但通常不接入 AI 初筛。
+  current_alternative_en: The old approach is an ordinary doorbell camera with after-the-fact playback,
+    or a traditional monitored alarm service with human operators but usually no AI pre-screening.
+  usage_reason: 相较只留录像的旧做法，它让 AI 先筛出可疑事件、再由真人坐席当场查看并喊话或报警，省掉住户自己盯屏和事后翻录像这一步，因此不在家或不便看手机的家庭会在门口安全场景选择它；这是基于产品能力与任务结构的推断。
+  usage_reason_en: Compared with recording-only doorbells, it has AI flag suspicious events first and
+    a live agent review and speak or escalate on the spot, removing the step of residents watching a screen
+    or scrubbing footage later, so households that are away or cannot check their phone would choose it
+    for door security; this is an inference from product capability and task structure.
+- id: req-full-this-doorbell-camera-lets-a-human-security-guard-watch-your-2026-09-16
+  project_slug: this-doorbell-camera-lets-a-human-security-guard-watch-your
+  level: full
+  reviewed_at: '2026-09-16T00:51:46Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决住户不在门口时无人判断和处置门口事件的需求，痛点是普通门铃只留录像、威胁要事后回看才发现，错过当场制止的时机；交付是 AI 初筛加真人坐席的实时处置，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-effcfab0a803ef61
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有公司层面的 600 万用户与 24/7 监控表述，没有该门铃型号的采用规模、续订或用户评价，无法判断这一功能是否形成持续使用。
+    evidence_ids:
+    - ev-effcfab0a803ef61
+    - ev-9812b046e608244a
+  - gate: model
+    status: supported
+    reason: 硬件 199.99 美元加 49.99 美元/月起订阅，to C 月费路径明确，但续费率与毛利未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-effcfab0a803ef61
+    - ev-9812b046e608244a
+  - gate: truth
+    status: insufficient
+    reason: AI 初筛与真人坐席的误报率、响应时限和人工介入边界均未公开，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-effcfab0a803ef61
+  next_validation: 追踪 SimpliSafe 官方 Active Guard Outdoor Protection 服务条款或帮助文档，核对 AI 初筛与真人坐席的响应时限、误报处理与人工介入边界。
+  market: ''
+  job: 家庭住户在无人看门、门口出现访客或可疑人员时，需要处理门铃摄像头拍到的实时画面，完成判断、喊话或报警这一处置任务。
+  job_en: A household, when nobody is watching the door and a visitor or suspicious person appears, must
+    handle the live doorbell footage and complete the task of judging, speaking to, or alerting on it.
+  pain: 住户不在家或没看手机时，普通门铃只留下录像，威胁要等事后回看才发现，错过当场制止的时机。
+  pain_en: When residents are away or not checking their phone, an ordinary doorbell only leaves a recording,
+    so threats are found only on later review and the moment to intervene is missed.
+  current_alternative: 旧做法是普通门铃摄像头加事后回看录像，或购买传统安防监控公司的报警服务，由人工值守但通常不接入 AI 初筛。
+  current_alternative_en: The old approach is an ordinary doorbell camera with after-the-fact playback,
+    or a traditional monitored alarm service with human operators but usually no AI pre-screening.
+  usage_reason: 相较只留录像的旧做法，它让 AI 先筛出可疑事件、再由真人坐席当场查看并喊话或报警，省掉住户自己盯屏和事后翻录像这一步，因此不在家或不便看手机的家庭会在门口安全场景选择它；这是基于产品能力与任务结构的推断，尚无采用或留存证据。
+  usage_reason_en: Compared with recording-only doorbells, it has AI flag suspicious events first and
+    a live agent review and speak or escalate on the spot, removing the step of residents watching a screen
+    or scrubbing footage later, so households that are away or cannot check their phone would choose it
+    for door security; this is an inference from product capability and task structure, with no adoption
+    or retention evidence yet.

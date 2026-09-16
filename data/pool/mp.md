@@ -45,7 +45,7 @@ summary: "这不是 V 友天天在讨论的，怎么没人讨论\r\n\r\nhttps://
   \ head dim = 512 的 MQA attention ，不包括用于选出 top-k 重要的 token 的 indexer ，那部"
 first_seen: '2026-09-15T14:46:24Z'
 last_seen: '2026-09-16T00:20:34Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

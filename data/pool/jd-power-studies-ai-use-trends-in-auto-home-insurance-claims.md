@@ -3,14 +3,14 @@ slug: jd-power-studies-ai-use-trends-in-auto-home-insurance-claims
 name: J.D. Power
 builder: ''
 category: ''
-summary_zh: J.D. Power 于 2026 年 8 月底至 9 月发布研究，显示约 29% 的车险与家险客户已在理赔申报和选购环节使用 AI。这意味着保险这一高合规、重人工的行业开始出现消费者端
-  AI 采用，对面向保险场景的 AI 应用而言，需求侧接受度上升，但落地仍取决于理赔与承保流程的运营整合。
+summary_zh: J.D. Power 于 2026 年 8 月底至 9 月发布研究，显示约 29% 的美国车险与家险客户已在理赔申报和选购环节使用 AI，并发布 2026 年美国房屋保险研究。保险这一强合规、重流程的行业出现可量化的
+  AI 使用率，意味着面向保险的 AI 应用已从试点进入消费者自发采用阶段，服务商在理赔与比价场景的交付需求上升（推断）。
 inspiration: ''
-summary_en: J.D. Power published research in late August and September 2026 showing that about 29% of
-  auto and home insurance customers already use AI in claims filing and shopping. This indicates consumer-side
-  AI adoption is emerging in insurance, a highly regulated, labor-intensive industry; for AI applications
-  targeting insurance, demand-side acceptance is rising, though deployment still depends on operational
-  integration with claims and underwriting workflows.
+summary_en: J.D. Power published research between late August and September 2026 showing that about 29%
+  of U.S. auto and home insurance customers already use AI for claims filing and shopping, alongside its
+  2026 U.S. Home Insurance Study. A measurable AI adoption rate in insurance, a heavily regulated and
+  process-driven industry, means insurance-facing AI applications have moved from pilots to consumer-driven
+  adoption, raising delivery demand for providers in claims and comparison scenarios (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPTzIzeDdLMXp0
 summary: JD Power studies AI use trends in auto, home insurance claims filing and shopping repairerdrivennews.com
 first_seen: '2026-08-28T10:00:47Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

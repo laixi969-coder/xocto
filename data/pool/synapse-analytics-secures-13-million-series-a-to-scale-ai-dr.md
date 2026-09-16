@@ -1,6 +1,6 @@
 ---
 slug: synapse-analytics-secures-13-million-series-a-to-scale-ai-dr
-name: Synapse Analytics secures $13 million Series A to scale AI-driven financial decision software
+name: Synapse Analytics
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Synapse Analytics secures $13 million Series A to scale AI-driven finan
   innovation-village.com
 first_seen: '2026-09-15T12:51:21Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Synapse Analytics secures $13 million Series A to scale AI-driven financial decision software
+# Synapse Analytics
 
 Synapse Analytics secures $13 million Series A to scale AI-driven financial decision software innovation-village.com
 

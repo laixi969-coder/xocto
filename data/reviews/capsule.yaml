@@ -1,0 +1,87 @@
+- id: req-initial-capsule-2026-09-16
+  project_slug: capsule
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决单文件应用的数据保存需求，但公开材料未说明旧流程中具体卡点与不解决的后果，痛点刚性无法确认。
+    evidence_ids:
+    - ev-9ccde5a9a12a86ec
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度只反映关注度，不能证明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-9ccde5a9a12a86ec
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、托管或付费路径，买方与收入来源无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9ccde5a9a12a86ec
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据安全边界、并发写入与人工确认环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-9ccde5a9a12a86ec
+  next_validation: 收集 Capsule 官方仓库的 README、issue 与 discussion，确认其部署方式、数据边界与是否有开发者实际用于生产项目。
+  market: ''
+  job: 独立开发者或小团队在搭建单文件 Web 小工具或原型时，需要把用户产生的数据保存下来，以便下次打开还能读到。
+  job_en: An independent developer or small team building a single-file web tool or prototype needs to
+    save the data users generate so it can be read again next time.
+  pain: 公开材料只说明数据写入 SQLite，没有说明此前用户具体卡在哪一步、不解决会付出什么代价，痛点强度无法从现有事实判断。
+  pain_en: Public material only says data is written into SQLite; it does not say which step users were
+    stuck on before or what it costs not to solve it, so pain intensity cannot be judged from available
+    facts.
+  current_alternative: 常见旧做法是单独部署数据库服务，或使用托管数据库、本地文件与浏览器存储来绕过持久化问题。
+  current_alternative_en: The common old approach is to deploy a separate database service, or to work
+    around persistence with a hosted database, local files, or browser storage.
+  usage_reason: 推断：相较单独部署数据库，Capsule 把存储动作收进单文件应用本身，可能省去配置与运维数据库这一步，因此不想维护数据库的独立开发者会尝试它；但公开材料未给出用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: compared with deploying a separate database, Capsule folds the storage
+    action into the single-file app itself, potentially removing the step of configuring and operating
+    a database, so indie developers who do not want to maintain one may try it; however, no user feedback
+    or repeat-use evidence is provided in public material.'
+- id: req-full-capsule-2026-09-16
+  project_slug: capsule
+  level: full
+  reviewed_at: '2026-09-16T00:48:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决单文件应用的数据持久化需求，但现有证据全部指向同名 CRM 与药房产品，没有任何 Capsule 单文件 SQLite 应用的官方说明、文档或用户反馈，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-7f02202f0fb21e2a
+    - ev-55657222d6243690
+    - ev-0f29fa5a0424691f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Capsule 单文件 SQLite 应用的官方仓库 README、release 与 issue/discussion，确认其真实产品形态、部署方式与数据边界。
+  market: ''
+  job: 独立开发者或小团队在搭建单文件 Web 小工具或原型时，需要把用户产生的数据保存下来，以便下次打开还能读到。
+  job_en: An independent developer or small team building a single-file web tool or prototype needs to
+    persist user-generated data so it can be read again on the next open.
+  pain: 公开材料只说明数据写入 SQLite，没有说明此前用户具体卡在哪一步、不解决会付出什么代价，痛点强度无法从现有事实判断。
+  pain_en: Public material only states that data is written into SQLite; it does not say which step users
+    were stuck on before or what it costs not to solve, so pain intensity cannot be judged from available
+    facts.
+  current_alternative: 常见旧做法是单独部署数据库服务，或使用托管数据库、本地文件与浏览器存储来绕过持久化问题。
+  current_alternative_en: The common old approach is to deploy a separate database service, or to work
+    around persistence with a hosted database, local files, or browser storage.
+  usage_reason: 推断：相较单独部署数据库，Capsule 把存储动作收进单文件应用本身，可能省去配置与运维数据库这一步，因此不想维护数据库的独立开发者会尝试它；但公开材料未给出用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: compared with deploying a separate database, Capsule folds the storage
+    action into the single-file app itself, potentially removing the step of configuring and operating
+    a database, so indie developers who do not want to maintain one may try it; however, no user feedback
+    or repeat-use evidence is provided in public material.'

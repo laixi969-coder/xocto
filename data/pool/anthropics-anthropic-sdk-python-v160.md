@@ -1,6 +1,6 @@
 ---
 slug: anthropics-anthropic-sdk-python-v160
-name: 'anthropics/anthropic-sdk-python: v1.6.0'
+name: Anthropic Python SDK
 builder: anthropics
 category: ''
 summary_zh: ''
@@ -90,7 +90,7 @@ summary: '## 1.6.0 (2026-09-15)
   * use markdown formatting in most docstrings ([25f344f](https://github.com/anthropics/anthropic-sdk-python/commit/25f344fd7fcbe281d2173fe12ecd2caa3dd5d044))'
 first_seen: '2026-09-15T15:14:42Z'
 last_seen: '2026-09-16T00:20:40Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -102,7 +102,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.6.0
+# Anthropic Python SDK
 
 ## 1.6.0 (2026-09-15)
 

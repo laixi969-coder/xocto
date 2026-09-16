@@ -571,3 +571,52 @@
     removing the steps of standing up a solver environment and manually recording confidence afterward;
     AI agent developers who must make agent numerical output auditable, and computational researchers
     who need traceable computation receipts, would choose it when results must be trusted or reproduced'
+- id: req-full-hexstellar-2026-09-16
+  project_slug: hexstellar
+  level: full
+  reviewed_at: '2026-09-16T00:49:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理执行优化、量子与科学计算时结果不可核验的需求，痛点是代理数值结论缺少确定性标签与验证收据；不采用则用户需自行搭建校验。此为工作流结构推理，公开材料未含用户抱怨或频率数据。
+    evidence_ids:
+    - ev-cc1f83dad1547ba4
+    - ev-c69285edf77ad5cf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 1106 增至 1234，说明开发者关注度上升，但收藏属关注度证据，不能证明目标用户已持续使用或形成强场景共识；公开材料无 issue、discussion 或客户案例佐证采用。
+    evidence_ids:
+    - ev-cc1f83dad1547ba4
+    - ev-c69285edf77ad5cf
+  - gate: model
+    status: insufficient
+    reason: 公开材料仅有 pip 安装与免费沙箱，未见定价页、付费主体或单位经济；谁付钱（to C 开发者、to B 团队或 to VC）尚属判断而非已验证事实，但这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-cc1f83dad1547ba4
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺带确定性标签与验证收据，但公开材料未提供可复现的交付验证、精度边界或人工与安全边界说明；能否稳定交付尚缺公开证据。
+    evidence_ids:
+    - ev-cc1f83dad1547ba4
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际部署场景、替代的旧流程及验证收据的可复现结果。
+  market: ''
+  job: AI 代理开发者或计算研究员在构建需要数值求解的代理流程时，把优化、量子计算或科学计算问题交给 HexStellar Cortex，通过 pip 安装的 Python CLI/API 执行计算，并拿到带确定性标签和验证收据的结果，再决定是否采信或继续调用。
+  job_en: AI agent developers or computational researchers hand optimization, quantum, or scientific computing
+    problems to HexStellar Cortex via its pip-installed Python CLI/API, receive results with certainty
+    labels and verification receipts, and decide whether to trust or continue the agent's computation.
+  pain: 公开材料显示其定位是让 AI 代理执行计算研究并给出可核验结果；结构推理上，代理自行生成数值结论时缺少确定性标签与验证收据，使用者无法判断结果是否可信，这是该场景的核心摩擦。公开证据未给出用户抱怨或频率数据。
+  pain_en: Public materials position it as letting AI agents perform computational research with verifiable
+    results; by structural inference, agent-generated numeric conclusions lack certainty labels and verification
+    receipts, leaving users unable to judge trustworthiness. Public evidence shows no user complaints
+    or frequency data.
+  current_alternative: 公开材料未直接说明旧做法；结构推理上，用户当前可能让代理直接调用通用数值库（如 SciPy、CVXPY）或自行编写求解脚本，结果缺少统一的确定性标注与验证收据。此为推断，非用户口述。
+  current_alternative_en: Public materials do not state the prior approach; by structural inference, users
+    likely let agents call general numeric libraries (SciPy, CVXPY) or write ad-hoc solver scripts, without
+    unified certainty labeling or verification receipts. This is inference, not user testimony.
+  usage_reason: 推断：相较自行拼装数值库并手工判断结果可信度，该产品把求解与验证收据、确定性标签打包进一次 CLI/API 调用，减少用户自行搭建校验环节的负担，因此需要代理输出可核验数值结论的开发者会在构建此类流程时选择它。公开材料未提供用户反馈佐证。
+  usage_reason_en: 'Inference: versus assembling numeric libraries and manually judging result trustworthiness,
+    the product bundles solving with verification receipts and certainty labels into one CLI/API call,
+    reducing the burden of building one''s own validation step; developers needing verifiable numeric
+    agent outputs would choose it when building such flows. No public user feedback corroborates this.'

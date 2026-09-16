@@ -404,3 +404,50 @@
     Codex harness as a fixed flow, removing the step of shuttling context between two ends, so developers
     doing multi-step coding tasks would pick it when they need plan-then-execute; the star rise from 3,014
     to 4,299 shows attention, not adoption.'
+- id: req-full-codex-with-chatgpt-2026-09-16
+  project_slug: codex-with-chatgpt
+  level: full
+  reviewed_at: '2026-09-16T00:48:51Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者用 AI 编码时规划与执行割裂的需求，痛点是单框架缺规划、上下文需手工搬运；仓库说明给出输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-cac995321082df7c
+    - ev-8c990465108dc269
+  - gate: consensus
+    status: supported
+    reason: 仓库星数从 3933 增至 4427，说明有持续关注与收藏行为，但星数只属关注度证据，不能证明开发者已把它长期留在工作流里。
+    evidence_ids:
+    - ev-cac995321082df7c
+    - ev-8c990465108dc269
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页与付费路径，谁付钱说不清；按能力推断可能靠捐赠或托管服务，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cac995321082df7c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出部署文档、issue 或实测结果，无法核对规划与执行衔接是否确定性交付，也未说明安全与人工边界。
+    evidence_ids:
+    - ev-8c990465108dc269
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，收集开发者实际使用案例、部署方式与效果反馈，以核验规划—执行链路是否确定性交付。
+  market: ''
+  job: 开发者在用 Codex 执行多步编码任务时，需要先让 ChatGPT 产出结构化计划，再把计划交给 Codex 执行框架落地，从而完成从需求拆解到代码改动的整条链路。
+  job_en: Developers running multi-step coding tasks with Codex need ChatGPT to produce a structured plan
+    first, then hand that plan to the Codex harness for execution, completing the path from requirement
+    breakdown to code changes.
+  pain: 公开材料只给出“ChatGPT 思考、Codex 工作”的定位，未提供用户抱怨或案例；可推断的痛点是单一执行框架缺少规划环节，开发者需在对话工具与执行框架之间手工搬运上下文，长任务容易丢失意图。
+  pain_en: Public material only states 'ChatGPT thinks, Codex works' with no user complaints or cases;
+    the inferable pain is that a single execution harness lacks a planning stage, forcing developers to
+    manually shuttle context between a chat tool and the harness, so long tasks lose intent.
+  current_alternative: 旧做法是只用 Codex 单工具执行，或人工在 ChatGPT 里写计划再复制粘贴到 Codex，靠手工切换维持规划与执行两段流程。
+  current_alternative_en: The old way is to run Codex alone, or manually draft a plan in ChatGPT and paste
+    it into Codex, maintaining planning and execution as two hand-switched stages.
+  usage_reason: 推断：相较手工复制粘贴计划，该方案把 ChatGPT 规划与 Codex 执行框架串成一条链路，省去在工具间搬运上下文这一步，因此处理多步编码任务、希望保留 Codex 执行环境的开发者会在长任务场景选择它。
+  usage_reason_en: 'Inference: versus manually copy-pasting plans, this links ChatGPT planning to the
+    Codex harness in one chain, removing the step of shuttling context between tools, so developers handling
+    multi-step coding tasks who want to keep the Codex execution environment would choose it for long
+    tasks.'

@@ -43,3 +43,102 @@
     models as a single interface, cutting the work of latency tuning and pipeline assembly, so teams needing
     to ship voice interaction quickly would try it first; public materials show no retention or repeat-purchase
     evidence.'
+- id: req-initial-cartesia-2026-09-16
+  project_slug: cartesia
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把文字实时转成自然语音的需求，痛点在于自建语音合成的延迟与工程成本；但候选未给出任何用户抱怨、替代行为或采用证据，价值只能靠任务结构推断。
+    evidence_ids:
+    - ev-77794542c66efe9e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有入选某榜单的第三方名单信号与社区讨论热度，没有可归因到该产品的使用规模或持续采用证据，共识卡在感知环节。
+    evidence_ids:
+    - ev-77794542c66efe9e
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价页、客户合同或收费方式，买方是开发者团队还是企业客户无法确认，钱从哪来属于判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对延迟、音质与并发等承诺是否确定性交付，也未见安全与人工边界说明，求真环节缺少可验证材料。
+    evidence_ids: []
+  next_validation: 收集 Cartesia 官方定价页或公开客户案例，确认其收费方式与实际部署场景。
+  market: ''
+  job: 语音应用开发者或客服系统集成工程师，在需要让产品实时开口说话或进行语音对话时，处理文本或对话内容，要完成把文字转成低延迟自然语音并接入现有系统的任务。
+  job_en: A voice application developer or customer service system integrator, when a product needs to
+    speak or hold voice conversations in real time, handles text or dialogue content to turn it into low-latency
+    natural speech and wire it into existing systems.
+  pain: 自建语音合成需要处理延迟、音质与并发，工程成本高；候选材料未提供任何用户抱怨、替代行为或采用证据，痛点只能从任务结构推断。
+  pain_en: Building speech synthesis in-house means handling latency, audio quality and concurrency at
+    high engineering cost; the candidate material offers no user complaints, workaround behaviour or adoption
+    evidence, so the pain is only inferred from task structure.
+  current_alternative: 公开材料未说明现有替代方式，按任务结构推断可能是自建语音模型、使用其他语音合成接口或直接不做实时语音。
+  current_alternative_en: The public material does not state current alternatives; by task structure these
+    are likely self-built speech models, other speech synthesis APIs, or simply not offering real-time
+    voice.
+  usage_reason: 推断：相较自建模型，接入现成语音接口可省去训练与延迟调优这一步，因此需要快速上线实时语音的团队可能选择它；但候选未给出定价、客户案例或留存证据，无法确认用户是否真的长期使用。
+  usage_reason_en: 'Inference: compared with self-building models, calling an existing speech API removes
+    the training and latency-tuning step, so teams needing to ship real-time voice quickly may choose
+    it; however the candidate gives no pricing, customer cases or retention evidence, so sustained use
+    cannot be confirmed.'
+- id: req-full-cartesia-2026-09-16
+  project_slug: cartesia
+  level: full
+  reviewed_at: '2026-09-16T00:48:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文字实时转成自然语音、供 AI 智能体与交互应用开口说话的需求，痛点是自建合成的延迟与工程成本高、实时对话体验差。官网公开 Sonic-3.6 流式 TTS API、44
+      种语言与低延迟语音智能体能力，可还原输入—调用—语音流交付闭环；这是工作流结构推理，尚无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-3431c1b81c460c24
+    - ev-13081e3d9212cd4d
+    - ev-d61eb50934f46601
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有入选 Madrona 2026 Intelligent Applications 40 的第三方名单信号与 Playground 入口，没有可归因到 Cartesia
+      的使用规模、开发者采用或持续调用证据，共识卡在感知环节，无法判断是否形成强场景。
+    evidence_ids:
+    - ev-13081e3d9212cd4d
+    - ev-939ac27d7be46691
+  - gate: model
+    status: insufficient
+    reason: 官网页面未披露定价页、套餐或合同条款，买方是开发者团队按量付费还是企业客户采购无法确认；按 API 产品结构推断钱可能来自 to B 开发者按调用量付费，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2e1ddf5ee055e928
+    - ev-c5cf0e5fb6556192
+  - gate: truth
+    status: insufficient
+    reason: 官网承诺低延迟、44 种语言与带情绪语音，但缺少可核对的延迟指标、并发上限、安全与人工边界说明，承诺能否确定性交付无法验证；产品贴近实时语音这一第一性目标，但交付证据不足。
+    evidence_ids:
+    - ev-3431c1b81c460c24
+    - ev-945238b64987edbc
+  next_validation: 追踪 Cartesia 官网定价页与公开客户案例（如 Sonic-3.6 部署文档或企业采用公告），确认收费方式、延迟指标与实际部署场景。
+  market: ''
+  job: 语音应用开发者或客服系统集成工程师，在构建需要实时开口说话的 AI 智能体或交互式应用时，处理文本或对话内容，要完成把文字转成低延迟、带情绪的自然语音流并接入现有系统的任务。
+  job_en: A voice application developer or customer service system integrator, when building AI agents
+    or interactive apps that must speak in real time, handles text or dialogue content to turn it into
+    a low-latency, expressive speech stream and wire it into existing systems.
+  pain: 自建语音合成要自己处理延迟、音质、并发与多语言，工程成本高；实时对话场景下延迟直接决定体验，做不好用户就会挂断或弃用。公开材料只给出产品能力说明，没有用户抱怨或采用数据，痛点属工作流结构推理。
+  pain_en: Building speech synthesis in-house means handling latency, audio quality, concurrency and multilingual
+    support at high engineering cost; in real-time dialogue latency directly determines experience, and
+    poor latency makes users hang up or abandon. Public material only states product capability, with
+    no user complaints or adoption data, so the pain is a workflow-structure inference.
+  current_alternative: 按任务结构推断，现有替代是自建语音模型、接入其他 TTS 接口（如 ElevenLabs 等），或干脆不做实时语音、只用文字交互。公开材料未直接说明用户当前用什么替代。
+  current_alternative_en: By task structure, current alternatives are self-built speech models, other
+    TTS APIs (such as ElevenLabs), or simply not offering real-time voice and staying text-only. The public
+    material does not directly state what users currently substitute.
+  usage_reason: 推断：相较自建模型，Cartesia 以流式 TTS API 形式提供 Sonic-3.6，开发者只需调用接口即可拿到 44 种语言、带笑声与情绪的低延迟语音，省去训练模型和延迟调优这一步；因此需要快速上线实时语音智能体的团队会在该场景选择它。公开材料未提供定价、客户案例或留存证据，长期采用无法确认。
+  usage_reason_en: 'Inference: compared with self-building models, Cartesia offers Sonic-3.6 as a streaming
+    TTS API, so developers just call the endpoint to get low-latency speech with laughter and emotion
+    in 44 languages, removing the model-training and latency-tuning step; teams needing to ship real-time
+    voice agents quickly would choose it in that situation. Public material provides no pricing, customer
+    cases or retention evidence, so sustained use cannot be confirmed.'

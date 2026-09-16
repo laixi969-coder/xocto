@@ -1,6 +1,6 @@
 ---
 slug: everycarbon-wins-flair-subcontract-to-scale-fossil-independe
-name: EveryCarbon wins FLAIR subcontract to scale fossil-independent materials production
+name: EveryCarbon
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: EveryCarbon, a high-performance shielding materials company developing 
   for demanding industrial and construction environments, today announced it has been awarded a subcon...
 first_seen: '2026-09-15T11:56:02Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# EveryCarbon wins FLAIR subcontract to scale fossil-independent materials production
+# EveryCarbon
 
 EveryCarbon, a high-performance shielding materials company developing engineered polyester systems for demanding industrial and construction environments, today announced it has been awarded a subcon...
 

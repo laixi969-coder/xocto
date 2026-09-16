@@ -132,3 +132,53 @@
     editor, it keeps generation and editing in one conversation and one infinite canvas, removing the
     export-import and version-alignment step, so creators with frequent asset output and repeated fine-tuning
     are likely to try it first; retention and payment evidence is currently absent.'
+- id: req-full-polox-ai-2026-09-16
+  project_slug: polox-ai
+  level: full
+  reviewed_at: '2026-09-16T00:50:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成与编辑分离、素材反复搬运的需求，痛点具体、旧做法可指认，属工作流结构推理；但支持模态与交付格式未说明，且无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+    - ev-da2ce915c466e2f4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 46 增至 49，仅属关注度信号，无 issue、discussion 或用户评价证明创作者已把它留在工作流里持续使用。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+    - ev-c90fc2f132cee0c3
+    - ev-da2ce915c466e2f4
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费或买方路径，钱可能来自 to C 创作者或 to B 团队，但这是判断而非已验证事实，也无融资叙事可依。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些模态、输出格式、部署方式与人工确认边界，承诺能否确定性交付无法核对，安全与人工边界亦未提及。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+    - ev-c90fc2f132cee0c3
+  next_validation: 追踪该 公开代码仓库 仓库 README 与 issue/discussion 中关于支持模态、输出格式、部署方式及使用者反馈的公开说明。
+  market: ''
+  job: 内容创作者或设计人员在需要批量产出并反复修改图片、视频素材时，把生成、修改与拼接放在同一 agent 对话和无限画布上完成，最终拿到可继续编辑的素材。
+  job_en: A content creator or designer producing and repeatedly revising image and video assets does
+    generation, revision and assembly inside one agent conversation and infinite canvas, ending with assets
+    that remain editable.
+  pain: 生成工具与本地编辑器分离，素材要在多个工具间导出导入，版本容易混乱，重复劳动多；公开材料只给出产品定位，未提供用户抱怨或案例佐证。
+  pain_en: Generation tools and local editors are separate, so assets must be exported and imported across
+    tools, versions get confused and work is repeated; public material only states the product positioning
+    and offers no user complaints or cases.
+  current_alternative: 在多个单点生成工具出图后，再下载到本地编辑器或设计软件里拼接修改，并靠人工命名管理版本。
+  current_alternative_en: Generating images in several single-purpose tools, then downloading them into
+    a local editor or design software to assemble and revise, managing versions by manual naming.
+  usage_reason: 推断：相较在多个生成工具与本地编辑器之间搬运文件，它把生成与编辑收进同一画布和同一段对话，省掉导出导入与版本对齐这一步，因此素材产出频繁、需要反复微调的创作者会优先试用；仓库仅
+    46→49 星，缺少留存与付费证据。
+  usage_reason_en: 'Inference: compared with shuttling files between several generation tools and a local
+    editor, it keeps generation and editing on one canvas and in one conversation, removing the export-import
+    and version-alignment step, so creators with frequent asset output and repeated fine-tuning are likely
+    to try it first; the repo only shows 46→49 stars, with no retention or payment evidence.'

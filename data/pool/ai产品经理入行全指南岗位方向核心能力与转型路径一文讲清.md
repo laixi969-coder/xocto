@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JQ3A1ZUkwN1ln
 summary: AI产品经理入行全指南：岗位方向、核心能力与转型路径一文讲清 36 Kr
 first_seen: '2026-09-14T10:07:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -288,3 +288,50 @@
     numerical consistency oneself and potentially improving memory and latency at long context; hence
     inference engineers deploying DSA models who do not want to implement sparse-attention operators from
     scratch would pick it during integration. Star growth from 235 to 342 indicates attention, not a r'
+- id: req-full-deepselect-2026-09-16
+  project_slug: deepselect
+  level: full
+  reviewed_at: '2026-09-16T00:49:05Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 DeepSeek 稀疏注意力与采样中 TopK 选择缺少高效 kernel 的问题：没有专用算子，长上下文下显存与吞吐受限、正确性难对齐，属于模型能否跑动的刚性环节；这是基于仓库定位与工作流的结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-9430df21bff9be30
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 235 增至 358，说明该算子被开发者持续关注并纳入视野；但收藏只反映关注度，不能证明已长期嵌入训练或推理工作流，采用深度仍缺证据。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-9430df21bff9be30
+  - gate: model
+    status: insufficient
+    reason: 这是 DeepSeek 官方开源仓库，公开材料未见定价、许可条款或商业支持路径，谁付钱尚不清；开源算子的回报可能来自模型生态而非直接收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2f88068306de0570
+  - gate: truth
+    status: insufficient
+    reason: 仓库定位指向 DSA 与采样器 kernel，但公开材料未给出基准数据、正确性验证或与上游模型的版本对齐说明，交付能否稳定复现尚缺可核对证据。
+    evidence_ids:
+    - ev-2f88068306de0570
+    - ev-6fb9b7965dea43c8
+  next_validation: 追踪 DeepSelect 仓库的 README、benchmark 与 issue/discussion，确认其是否给出可复现的性能与正确性数据，以及是否被下游训练或推理项目实际引用。
+  market: ''
+  job: 训练或推理 DeepSeek 稀疏注意力（DSA）模型的工程师，在 GPU 上跑长上下文注意力与采样时，需要把 TopK 选择与采样算子落到高效 kernel 上，以完成可用的前向/反向计算。
+  job_en: Engineers training or serving DeepSeek Sparse Attention (DSA) models need efficient TopK-selection
+    and sampler kernels on GPU so long-context attention and sampling actually run.
+  pain: 稀疏注意力与采样中的 TopK 选择若没有专用 kernel，只能靠通用算子或手写实现，长上下文下显存与吞吐成为瓶颈，且正确性难对齐；这是模型能否跑起来、跑得动的刚性环节。
+  pain_en: Without dedicated TopK kernels, sparse attention and sampling fall back to generic or hand-rolled
+    operators, making long-context memory and throughput a bottleneck and correctness hard to align; this
+    is a hard blocker for running the model.
+  current_alternative: 当前替代是通用 PyTorch 算子、社区 Triton/FlashAttention 类实现，或团队自行手写 CUDA kernel 并逐次调优。
+  current_alternative_en: Today's alternatives are generic PyTorch operators, community Triton/FlashAttention-style
+    implementations, or teams hand-writing and tuning their own CUDA kernels.
+  usage_reason: 推断：相较自行手写并调优 kernel，DeepSelect 由 DeepSeek 官方仓库直接提供 DSA 与采样器的 TopK kernel，使用者可省去从零实现与正确性对齐这一步，因此跑
+    DeepSeek 稀疏注意力栈的团队会在需要该算子时直接取用。
+  usage_reason_en: 'Inference: versus hand-writing and tuning kernels, DeepSelect ships official DeepSeek
+    TopK kernels for DSA and samplers, removing the from-scratch implementation and correctness-alignment
+    step, so teams running the DeepSeek sparse-attention stack would adopt it when they need that operator.'

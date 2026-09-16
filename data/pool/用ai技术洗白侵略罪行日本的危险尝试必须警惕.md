@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE80VTVpUmJocFc4
 summary: 用AI技术洗白侵略罪行，日本的危险尝试必须警惕 peopleapp.com
 first_seen: '2026-09-15T05:25:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

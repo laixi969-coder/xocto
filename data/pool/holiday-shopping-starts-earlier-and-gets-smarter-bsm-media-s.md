@@ -23,7 +23,7 @@ summary: 'Holiday Shopping Starts Earlier and Gets Smarter: BSM Media Study Find
   Video, Creators and AI EIN News'
 first_seen: '2026-09-15T14:30:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

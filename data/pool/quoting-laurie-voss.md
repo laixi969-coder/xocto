@@ -27,7 +27,7 @@ summary: "The cost of writing code collapsed, and the cost of reviewing, fixing 
   \ ,  careers"
 first_seen: '2026-09-14T14:34:29Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

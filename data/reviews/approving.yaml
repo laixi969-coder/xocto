@@ -313,3 +313,44 @@
     in a Docker sandbox, fixes exchanges as structured artifacts, and forces a pause for Approve at critical
     nodes, removing the ''clean up after a bad run'' and ''review after the fact'' steps; agent users
     who care about rollback and human gating would pick it for long unattended runs.'
+- id: req-full-approving-2026-09-16
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-09-16T00:48:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 approving 仓库的 README、部署文档与 issue/discussion，确认沙箱执行、人工批准节点与回滚交付的实际行为及是否有团队自托管采用记录。
+  market: ''
+  job: 使用编码代理的开发者或团队在让 AI 修改真实代码库时，把代理放进 Docker 沙箱执行任务，在关键节点停下来人工批准后继续，最终得到可审查、可回滚的交付结果。
+  job_en: Developers or teams using coding agents run the agent inside a Docker sandbox on a real codebase,
+    pause at critical nodes for human approval, and end up with a reviewable, recoverable delivery result.
+  pain: 编码代理会连续执行多步改动，出错时难以回滚，也缺少人工介入的检查点；公开材料未给出不采用的具体代价与发生频率，但沙箱隔离与人工批准节点本身指向对不可控自动改动的担忧。
+  pain_en: Coding agents execute many steps in a row, making mistakes hard to roll back and leaving no
+    checkpoint for human intervention; public material does not quantify the cost or frequency, but sandbox
+    isolation plus approval nodes point to concern over uncontrolled automated changes.
+  current_alternative: 公开材料未说明现有替代方式；结构上可推断为在本地终端直接运行代理、依赖 git 分支与人工 code review，或使用其他代理编排工具。
+  current_alternative_en: Public material does not state the current alternative; structurally it can
+    be inferred as running the agent directly in a local terminal, relying on git branches and manual
+    code review, or using other agent orchestration tools.
+  usage_reason: 推断：相较在本地直接跑代理、事后靠 git 回滚，它把代理限制在真实 Docker 沙箱内，并在关键节点强制暂停等待人工批准，从而减少事后清理失控改动这一步；对在真实代码库上使用编码代理、又需要可控检查点的开发者，会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus running the agent locally and rolling back via git afterwards, it
+    confines the agent to a real Docker sandbox and forces a pause for human approval at critical nodes,
+    removing the step of cleaning up runaway changes after the fact; developers running coding agents
+    on real codebases who need controllable checkpoints would choose it in that situation.'

@@ -1,0 +1,95 @@
+- id: req-initial-movo-2026-09-16
+  project_slug: movo
+  level: initial
+  reviewed_at: '2026-09-16T00:20:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决企业内网使用 Agent 的问题，但公开材料没有说明具体工作节点、输入材料和交付结果，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-2f2dcd3290579c8a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 42 个星标和 7 个分支，没有客户案例、部署记录或社区讨论，看不出谁在真实使用。
+    evidence_ids:
+    - ev-2f2dcd3290579c8a
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或采购说明，买方与付费路径不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2f2dcd3290579c8a
+  - gate: truth
+    status: insufficient
+    reason: 38 个未关闭 issue 说明项目仍在早期，交付确定性和人工边界都没有公开材料支持。
+    evidence_ids:
+    - ev-2f2dcd3290579c8a
+  next_validation: 收集该项目的官方部署文档与权限治理说明，确认它实际接管了哪些内部流程和交付物。
+  market: ''
+  job: 企业内部的 IT 或知识管理团队，在需要让多个部门使用 Agent 处理内部文档、研究任务和浏览器操作时，希望这些数据不出内网，并要由管理员统一分配权限。
+  job_en: An internal IT or knowledge-management team that wants several departments to use Agents on
+    internal documents, research tasks and browser actions, without data leaving the intranet and with
+    admin-controlled permissions.
+  pain: 公开材料只列出知识、深度研究、内容生成、代码生成、浏览器自动化和治理等能力，没有说明谁在什么节点打开它、处理什么材料、拿到什么交付，因此无法确认它替代了哪一步旧工作。
+  pain_en: Public material only lists capabilities such as knowledge, deep research, content generation,
+    code generation, browser automation and governance; it does not say who opens it at which step, on
+    what material, or what they receive, so the old step it replaces cannot be confirmed.
+  current_alternative: 企业目前通常直接用公有云模型接口，或由内部团队自行拼装开源模型与权限系统。
+  current_alternative_en: Enterprises currently use public cloud model APIs directly, or have internal
+    teams assemble open-source models and permission systems themselves.
+  usage_reason: 推断：如果它真能把权限、治理和多种 Agent 任务收进一次自托管部署，企业就不必自己维护模型接入与权限拼装，从而减少内部集成工作量；但公开材料未给出部署文档、客户案例或使用反馈，这一因果链尚不成立。
+  usage_reason_en: 'Inference: if it truly bundles permissions, governance and multiple Agent tasks into
+    one self-hosted deployment, enterprises would not have to maintain model access and permission glue
+    themselves, cutting internal integration work; but no deployment docs, customer cases or usage feedback
+    are public, so this causal chain is not yet established.'
+- id: req-full-movo-2026-09-16
+  project_slug: movo
+  level: full
+  reviewed_at: '2026-09-16T00:50:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业内网使用 Agent 的需求：内部文档、研究与代码不能出网，权限需管理员统一治理；旧做法是公有云接口或自行拼装开源模型与权限系统，不解决的后果是数据外流与集成运维负担。公开材料已列出知识、深度研究、内容生成、代码生成、浏览器自动化与治理能力，可还原输入—动作—交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-2f2dcd3290579c8a
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据仅有仓库 42 个星标，没有客户案例、部署记录、issue 讨论或用户评价，无法确认有团队已把它放进真实工作流；关注度不等于持续采用。
+    evidence_ids:
+    - ev-2f2dcd3290579c8a
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或采购说明，买方与付费路径未公开；按能力形态推断可能来自企业 to B 自托管授权或服务，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2f2dcd3290579c8a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出部署文档、人工确认环节与安全边界说明，交付能否确定性发生无法核验；自托管 Agent 涉及权限与数据治理，缺少这些材料时求真关只能存疑。
+    evidence_ids:
+    - ev-2f2dcd3290579c8a
+  next_validation: 追踪 movo 官网或仓库的部署文档与权限治理说明，确认它实际接管哪些内部流程、交付物形态与人工确认环节。
+  market: ''
+  job: 企业内部 IT 或知识管理团队，在需要让多个部门用 Agent 处理内部文档检索、深度研究、内容与代码生成、浏览器操作时，把 DeepSeek Harness 自托管部署在内网，由管理员统一分配权限并完成治理，交付可审计的
+    Agent 工作结果。
+  job_en: An internal IT or knowledge-management team that self-hosts DeepSeek Harness on the intranet
+    so several departments can run Agent tasks on internal documents, deep research, content and code
+    generation and browser actions, with admin-controlled permissions and governance, delivering auditable
+    Agent work output.
+  pain: 企业把内部文档、研究材料和代码交给公有云 Agent 时，数据出网与权限失控是刚性约束；而自行拼装开源模型、权限与治理组件需要持续投入集成与运维，公开材料显示 movo 正是把这一层收进一次自托管部署。
+  pain_en: Handing internal documents, research material and code to public-cloud Agents creates a hard
+    constraint around data egress and uncontrolled permissions; assembling open-source models, permissions
+    and governance in-house requires ongoing integration and operations, and the public material shows
+    movo packages exactly this layer into one self-hosted deployment.
+  current_alternative: 企业目前通常直接调用公有云模型接口，或由内部团队自行拼装开源模型、权限系统与治理组件。
+  current_alternative_en: Enterprises currently call public-cloud model APIs directly, or have internal
+    teams assemble open-source models, permission systems and governance components themselves.
+  usage_reason: 推断：相较自行拼装，movo 把知识检索、深度研究、内容生成、代码生成、浏览器自动化与管理员权限治理放进同一套自托管部署，企业可省去模型接入与权限组件的集成运维步骤，因此对数据不能出内网、又需要多部门共用
+    Agent 的团队有选择理由；但公开材料尚无部署文档或客户案例佐证这一因果链。
+  usage_reason_en: 'Inference: compared with in-house assembly, movo puts knowledge retrieval, deep research,
+    content generation, code generation, browser automation and admin governance into one self-hosted
+    deployment, letting enterprises skip the integration and operations of model access and permission
+    components, giving teams that cannot let data leave the intranet yet need multi-department Agent use
+    a reason to choose it; no deployment docs or customer cases yet corroborate this causal chai'

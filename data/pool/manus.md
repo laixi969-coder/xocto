@@ -2,26 +2,42 @@
 slug: manus
 name: Manus
 builder: droidjj
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: 面向需要跨网页完成多步骤任务的个人与小团队：用户给出目标后，由智能体代为浏览、点击与整理材料，最终交付一份可复核的结果或文件，人工仍需确认关键结论。具体流程与交付形态在公开材料中未完整披露，仍待核验。
+inspiration: 趋势：通用智能体已从演示走向有真实访问规模的独立产品，但环比下滑说明热度不等于留存。切入：不要做又一个通用智能体入口，而是选一个旧流程里交付物明确、结果可核对的垂直环节（如尽调材料整理、合规文件比对），按产出而非席位收费，把人工复核点写进交付标准。
+summary_en: 'For individuals and small teams that need multi-step tasks completed across websites: the
+  user states a goal, the agent browses, clicks and compiles material, and returns a reviewable result
+  or file, with humans still confirming key conclusions. The exact workflow and deliverable form are not
+  fully disclosed in public material and remain to be verified.'
+inspiration_en: 'Trend: general agents have moved from demos to standalone products with real traffic
+  scale, but the month-over-month decline shows attention is not retention. Entry point: rather than another
+  general agent entry, pick a vertical step with a clear, checkable deliverable in an old workflow (due-diligence
+  compilation, compliance document comparison), charge per output rather than per seat, and write the
+  human review point into the delivery standard.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: new_application
+industries:
+- 法律与合规
+- 专业服务
+industries_en:
+- Legal and compliance
+- Professional services
+jobs:
+- 个人或小团队用户在处理跨网页多步骤任务时，把资料搜集、网页操作与结果整理交给通用智能体执行，再自行复核产出
+jobs_en:
+- Individual or small-team users hand multi-step web tasks such as research, browsing and result compilation
+  to a general agent, then review the output themselves
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://www.aicpb.com/product/Manus/webid1D6F371D9
 canonical_url: https://aicpb.com/product/Manus/webid1D6F371D9
 summary: Find the best Manus Playbook and setups built by Manus community members.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

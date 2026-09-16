@@ -1,0 +1,83 @@
+- id: req-initial-ai-interactive-content-startup-flam-raises-40-million-in-ser-2026-09-16
+  project_slug: ai-interactive-content-startup-flam-raises-40-million-in-ser
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决互动内容制作的问题，但材料未说明具体输入、动作与交付，连痛点环节都无法定位，价值结构无法成立。
+    evidence_ids:
+    - ev-c97d0a03dc53b123
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且材料未提供任何用户采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-c97d0a03dc53b123
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均未披露，仅有融资叙事。
+    evidence_ids:
+    - ev-c97d0a03dc53b123
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-c97d0a03dc53b123
+  next_validation: 收集 Flam 官方产品页或公开客户案例，确认其输入材料、生成交付与使用环节。
+  market: ''
+  job: 品牌营销人员在投放前需要产出可点击、可交互的广告或内容素材，本轮材料未说明 Flam 具体接收什么材料、产出什么交付。
+  job_en: Brand marketers need clickable, interactive ad or content assets before a campaign; this material
+    does not say what inputs Flam takes or what it delivers.
+  pain: 互动素材制作通常依赖设计人力手工搭建，周期长、迭代慢；但 Flam 是否针对这一环节、痛点强度如何，公开材料未提供。
+  pain_en: Interactive asset production usually depends on manual design labor, making cycles long and
+    iteration slow; whether Flam targets this step and how acute the pain is are not shown publicly.
+  current_alternative: 现有替代方式可能是设计团队手工搭建互动素材或使用通用设计工具，本轮材料未给出对比信息。
+  current_alternative_en: The current alternative may be design teams hand-building interactive assets
+    or using general design tools; this material offers no comparison.
+  usage_reason: 无法判断：材料只披露融资与投资方，未说明产品通过什么具体动作减少哪一步负担，因此不能解释用户为何选择它（推断缺失，非事实）。
+  usage_reason_en: 'Cannot be judged: the material only discloses the round and its lead investor, not
+    what concrete step the product removes, so it cannot explain why users choose it (inference missing,
+    not fact).'
+- id: req-full-ai-interactive-content-startup-flam-raises-40-million-in-ser-2026-09-16
+  project_slug: ai-interactive-content-startup-flam-raises-40-million-in-ser
+  level: full
+  reviewed_at: '2026-09-16T00:48:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决互动内容制作的问题，但公开材料只披露 4000 万美元 B 轮融资与 QED 领投，未说明输入素材、生成交付与使用环节，连痛点发生在哪一步都无法定位，价值结构无法成立。
+    evidence_ids:
+    - ev-96fd307908e2fef3
+    - ev-8236d49249ad5409
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Flam 官方产品页或公开客户案例，确认其接收的输入素材、生成的交付物与具体使用环节。
+  market: ''
+  job: 品牌营销人员在投放前需要产出可点击、可交互的广告或内容素材；但本轮材料未说明 Flam 接收什么素材、产出什么交付、由谁在哪个环节使用。
+  job_en: Brand marketers need clickable, interactive ad or content assets before a campaign; this material
+    does not say what inputs Flam takes, what it delivers, or who uses it at which step.
+  pain: 公开材料只披露 4000 万美元 B 轮融资与 QED Investors 领投，未说明互动素材制作中哪一步难受、痛点强度如何，无法定位具体痛点环节。
+  pain_en: Public material only discloses a $40M Series B led by QED Investors; it does not say which
+    step of interactive asset production hurts or how acute the pain is, so no specific pain point can
+    be located.
+  current_alternative: 现有替代方式可能是设计团队手工搭建互动素材或使用通用设计工具，但本轮材料未提供任何对比信息。
+  current_alternative_en: The current alternative may be design teams hand-building interactive assets
+    or using general design tools, but this material offers no comparison.
+  usage_reason: 无法判断：材料只披露融资与投资方，未说明产品通过什么具体动作减少哪一步负担，因此不能解释哪类用户会在什么情况下选择它（推断缺失，非事实）。
+  usage_reason_en: 'Cannot be judged: the material only discloses the round and its lead investor, not
+    what concrete step the product removes, so it cannot explain which users would choose it under what
+    circumstances (inference missing, not fact).'

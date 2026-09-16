@@ -1,6 +1,6 @@
 ---
 slug: defense-startup-shield-ai-in-talks-for-valuation-of-at-least
-name: Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion
+name: Shield AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNeWZ6a1k3SkRS
 summary: Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion The Information
 first_seen: '2026-09-14T20:44:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion
+# Shield AI
 
 Defense Startup Shield AI in Talks for Valuation of at Least $20 Billion The Information
 

@@ -1,0 +1,82 @@
+- id: req-initial-saga-2-danish-asr-2026-09-16
+  project_slug: saga-2-danish-asr
+  level: initial
+  reviewed_at: '2026-09-16T00:21:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决丹麦语转写需求，但公开材料只有模型结构，没有痛点、旧流程或交付结果，价值判断缺依据。
+    evidence_ids:
+    - ev-88fe9b30cead7df5
+  - gate: consensus
+    status: insufficient
+    reason: 仅 2 个点赞，无社区讨论或采用信号，无法判断是否有人真的在用。
+    evidence_ids:
+    - ev-88fe9b30cead7df5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或部署方式，付费路径完全未知。
+    evidence_ids:
+    - ev-88fe9b30cead7df5
+  - gate: truth
+    status: insufficient
+    reason: 无准确率、人工校对边界或安全说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-88fe9b30cead7df5
+  next_validation: 收集该模型页面的模型卡与评测结果，确认丹麦语识别准确率及是否有机构部署案例。
+  market: ''
+  job: 丹麦语媒体或机构工作人员在拿到丹麦语录音后，需要把它转成可编辑的丹麦语文字稿，用于字幕、会议记录或归档。
+  job_en: Staff at Danish-language media or institutions who receive Danish audio need it turned into
+    editable Danish text for subtitles, minutes or archiving.
+  pain: 公开材料只说明模型结构，未提供任何用户抱怨、旧流程耗时或错误率信息，无法确认丹麦语转写当前痛在哪里。
+  pain_en: The public material only describes the model architecture and gives no user complaints, legacy
+    process time or error rates, so the pain of Danish transcription cannot be confirmed.
+  current_alternative: 公开材料未说明现有替代方式，按常识可能是通用语音识别服务或人工听写，但候选未提供证据。
+  current_alternative_en: The material does not state existing alternatives; plausibly general speech
+    recognition services or manual transcription, but the candidate provides no evidence.
+  usage_reason: 推断：若通用模型对丹麦语识别不佳，本地团队可能因语言覆盖而试用它；但缺少准确率对比与用户反馈，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if general models handle Danish poorly, local teams might try it for language
+    coverage; but without accuracy comparisons or user feedback, it is unconfirmed that users would choose
+    it.'
+- id: req-full-saga-2-danish-asr-2026-09-16
+  project_slug: saga-2-danish-asr
+  level: full
+  reviewed_at: '2026-09-16T00:51:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决丹麦语转写需求，但公开材料只有模型结构，没有痛点、旧流程、不采用后果或交付结果，连需求与痛点都写不实，价值关不成立。
+    evidence_ids:
+    - ev-88fe9b30cead7df5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开模型社区 Space 的模型卡与评测结果，确认丹麦语识别准确率、部署方式及是否有机构部署案例。
+  market: ''
+  job: 丹麦语媒体、公共机构或转录人员在拿到丹麦语录音后，需要把它转成可编辑的丹麦语文字稿，用于字幕、会议记录或归档。
+  job_en: Staff at Danish-language media, public institutions or transcription roles who receive Danish
+    audio need it turned into editable Danish text for subtitles, minutes or archiving.
+  pain: 公开材料只给出模型结构（RoPE Whisper 编码器加 Qwen3 解码器），没有任何用户抱怨、旧流程耗时或错误率信息，无法确认丹麦语转写当前痛在哪里、是否刚性。
+  pain_en: The public material only gives the model architecture (RoPE Whisper encoder plus Qwen3 decoder)
+    with no user complaints, legacy process time or error rates, so the pain of Danish transcription and
+    its rigidity cannot be confirmed.
+  current_alternative: 公开材料未说明现有替代方式；按常识可能是通用语音识别服务或人工听写，但候选未提供任何证据支持。
+  current_alternative_en: The material states no existing alternatives; plausibly general speech recognition
+    services or manual transcription, but the candidate provides no supporting evidence.
+  usage_reason: 推断：若通用模型对丹麦语识别不佳，本地团队可能因语言覆盖而试用它；但缺少准确率对比、部署方式与用户反馈，无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if general models handle Danish poorly, local teams might try it for language
+    coverage; but without accuracy comparisons, deployment details or user feedback, it is unconfirmed
+    which users would choose it and when.'

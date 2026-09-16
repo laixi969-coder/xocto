@@ -1,0 +1,84 @@
+- id: req-initial-warp-2026-09-16
+  project_slug: warp
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决本地低内存跑大模型的需求，痛点真实，但公开材料只有一句性能宣称，无法确认实际可用性与交付确定性。
+    evidence_ids:
+    - ev-73e6d390896b20cb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该项目的采用、评价或复现记录。
+    evidence_ids:
+    - ev-73e6d390896b20cb
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、商业主体或付费路径，钱从哪来无法判断。
+    evidence_ids:
+    - ev-73e6d390896b20cb
+  - gate: truth
+    status: insufficient
+    reason: 3.77 tok/s 的实测条件、硬件配置与量化方式均未披露，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-73e6d390896b20cb
+  next_validation: 收集该仓库的 README、issue 与 release 记录，核验其宣称的 5 GB 内存运行条件、实测速度与维护活跃度。
+  market: ''
+  job: 开发者需要在没有稳定网络或不便上传数据的设备上运行大模型推理，处理本地文本输入并得到生成结果。
+  job_en: A developer needs to run large-model inference on a device without stable network access or
+    where uploading data is undesirable, processing local text input and getting generated output.
+  pain: 云端推理依赖网络和 API 费用，敏感数据外传有合规顾虑；本地跑大模型又常受显存和内存限制。
+  pain_en: Cloud inference depends on network and API costs, and sending sensitive data out raises compliance
+    concerns; running large models locally is often limited by VRAM and RAM.
+  current_alternative: 使用云端 API 调用模型，或采用 llama.cpp、Ollama 等本地推理方案。
+  current_alternative_en: Calling models through cloud APIs, or using local inference tools such as llama.cpp
+    and Ollama.
+  usage_reason: 推断：若它确实能在 5 GB 内存下运行该模型，用户可省去租用 GPU 或上传数据的步骤，在离线或隐私敏感场景直接得到本地输出；但速度仅 3.77 tok/s，是否够用取决于任务，且缺少采用与留存证据。
+  usage_reason_en: 'Inference: if it truly runs the model within 5 GB of RAM, users skip renting GPUs
+    or uploading data and get local output in offline or privacy-sensitive settings; at only 3.77 tokens
+    per second, adequacy depends on the task, and adoption or retention evidence is absent.'
+- id: req-full-warp-2026-09-16
+  project_slug: warp
+  level: full
+  reviewed_at: '2026-09-16T00:52:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决本地低内存跑大模型，但全部证据指向 Cloudflare WARP 客户端、词典释义与 1.1.1.1，与本地推理无关，连用户任务与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-12966ff9fc75a20b
+    - ev-873506ca5fe0cb54
+    - ev-f7e80708f97b23f2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README、release 记录与 issue 讨论，核验其宣称的 5 GB 内存运行条件、实测速度与维护活跃度。
+  market: ''
+  job: 开发者需要在本地设备或边缘硬件上加载 DeepSeek v4.1 Flash 权重，处理本地文本输入并得到生成的 token 流，用于离线或不便上传数据的推理场景。
+  job_en: A developer needs to load DeepSeek v4.1 Flash weights on a local device or edge hardware, process
+    local text input, and obtain a generated token stream for offline or upload-restricted inference scenarios.
+  pain: 公开材料未提供任何用户痛点、抱怨或 workaround 证据；候选摘要只给出 5 GB 内存与 3.77 tok/s 的性能宣称，无法确认这是用户真实遭遇的困难还是编辑者的推测。
+  pain_en: The public material provides no user pain points, complaints, or workaround evidence; the candidate
+    summary only states a 5 GB RAM and 3.77 tok/s performance claim, so it is impossible to confirm whether
+    this is a real user difficulty or an editor's inference.
+  current_alternative: 公开证据未记录任何现有替代方式；候选摘要提到的云端 API、llama.cpp、Ollama 等均无对应证据条目支持。
+  current_alternative_en: The public evidence records no existing alternatives; cloud APIs, llama.cpp,
+    and Ollama mentioned in the candidate summary have no supporting evidence entries.
+  usage_reason: 无法给出使用理由：现有证据条目全部指向 Cloudflare WARP 客户端、Merriam-Webster 词典释义和 1.1.1.1 页面，与本地大模型推理无关，无法解释任何用户为何选择该产品。
+  usage_reason_en: 'No usage reason can be given: all existing evidence entries point to the Cloudflare
+    WARP client, a Merriam-Webster dictionary definition, and the 1.1.1.1 page, none of which relate to
+    local large-model inference, so no user choice can be explained.'

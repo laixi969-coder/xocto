@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ROU5jb2pWcUxS
 summary: 'Technology news: AI regulation, chip funding and startup deals in US eciks.org'
 first_seen: '2026-09-15T12:15:32Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

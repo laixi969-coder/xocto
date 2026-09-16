@@ -23,7 +23,7 @@ summary: We built this to view Markdown files securely in our corporate environm
   rendering,…
 first_seen: '2026-09-14T14:05:37Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

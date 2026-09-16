@@ -456,3 +456,51 @@
     and supports replay and forking, turning ''guess which step broke'' into ''return to that step, change
     one variable, re-run'', removing the burden of rebuilding context and re-calling the model; developers
     chasing non-reproducible agent failures would pick it during regression triage.'
+- id: req-full-orcareplay-2026-09-16
+  project_slug: orcareplay
+  level: full
+  reviewed_at: '2026-09-16T00:50:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理运行不可复现的调试需求：模型采样与工具调用使同一输入走出不同路径，出错后只能靠日志和重跑猜测，无法回到失败前一步。公开说明已给出记录、重放、分叉的输入—动作—交付闭环，属工作流结构推理；谁付钱公开材料未说明。
+    evidence_ids:
+    - ev-b377fa136a803f69
+    - ev-616cb9db1415e18b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 218 增至 247，说明开发者持续关注，但收藏与排名属关注度证据，不能证明目标用户已把它留在日常调试流程里；缺少 issue、discussion 或用户反馈说明实际使用场景。
+    evidence_ids:
+    - ev-b377fa136a803f69
+    - ev-616cb9db1415e18b
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与 OrcaRouter.ai 团队署名，没有定价页、付费或采购记录；钱可能来自开发者自付、团队订阅或与 OrcaRouter 的捆绑，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b377fa136a803f69
+  - gate: truth
+    status: insufficient
+    reason: 记录与重放能否在任意模型、任意工具调用下确定性复现，以及分叉后状态如何回退、是否涉及敏感轨迹存储，均无公开文档或可复现实测支撑。
+    evidence_ids:
+    - ev-b377fa136a803f69
+  next_validation: 追踪 OrcaReplay 仓库的 README、issue 与 discussion，核验是否有用户报告用重放定位到具体失败步骤，以及是否披露轨迹存储与确定性重放的实现边界。
+  market: ''
+  job: AI 工程师在调试一个多步代理运行时，把该次运行的完整轨迹（模型调用、工具调用、中间状态）交给 OrcaReplay，记录后重放或分叉，以定位失败步骤并验证修复。
+  job_en: An AI engineer debugging a multi-step agent run hands the full trajectory (model calls, tool
+    calls, intermediate state) to OrcaReplay to record, replay or fork it, so as to locate the failing
+    step and verify a fix.
+  pain: 代理运行依赖模型采样与外部工具，同一输入不必然复现同一路径；出错后只能靠日志片段和重新跑一遍来猜原因，无法回到出错前那一步，排查成本高且结论不可靠。
+  pain_en: Agent runs depend on model sampling and external tools, so the same input does not reliably
+    reproduce the same path; after a failure, engineers can only guess from log fragments and re-run,
+    with no way to return to the step before the failure.
+  current_alternative: 当前替代是打印日志、加断点、把 prompt 和工具调用手工拼回上下文，或直接重跑整个代理；这些做法无法保证同一轨迹可重放。
+  current_alternative_en: Today the alternatives are print logging, breakpoints, manually reconstructing
+    prompts and tool calls, or simply re-running the whole agent; none guarantees the same trajectory
+    can be replayed.
+  usage_reason: 相较手工拼日志与整段重跑，它把一次运行作为可记录、可重放、可分叉的对象保存下来，省去重建上下文这一步，并让失败步骤可被单独复现；推断在代理步骤多、失败难复现时，AI 工程师会优先选择它，但公开材料未显示留存或复购证据。
+  usage_reason_en: Compared with manual log stitching and full re-runs, it stores a run as a recordable,
+    replayable, forkable object, removing the context-reconstruction step and letting a failing step be
+    reproduced in isolation; this is an inference that AI engineers would prefer it when agent runs are
+    long and failures hard to reproduce, and no public retention or repeat-use evidence is shown.

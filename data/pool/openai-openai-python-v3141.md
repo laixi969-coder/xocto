@@ -1,6 +1,6 @@
 ---
 slug: openai-openai-python-v3141
-name: 'openai/openai-python: v3.14.1'
+name: openai-python
 builder: openai
 category: ''
 summary_zh: ''
@@ -93,7 +93,7 @@ summary: '## [3.14.1](https://github.com/openai/openai-python/compare/v3.14.0...
   ([929a8a5](https://github.com/openai/openai-python/commit/929a8a500a0e95df090ef53fe38890eba1e97660))'
 first_seen: '2026-09-15T23:12:54Z'
 last_seen: '2026-09-16T00:20:40Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -105,7 +105,7 @@ sightings:
   kind: news
 ---
 
-# openai/openai-python: v3.14.1
+# openai-python
 
 ## [3.14.1](https://github.com/openai/openai-python/compare/v3.14.0...v3.14.1) (2026-09-15)
 

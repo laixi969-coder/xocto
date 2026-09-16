@@ -346,3 +346,51 @@
     connection per agent or stay at the machine; that is why developers juggling several agents who must
     leave the desk or run on their own VPS would pick it. This is inferred from product capability and
     task structure, not confirmed by user feedback or cases.'
+- id: req-full-vicoa-2026-09-16
+  project_slug: vicoa
+  level: full
+  reviewed_at: '2026-09-16T00:51:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多编码代理并行时分散在多个终端窗口、会话与产出难以集中调度的问题，并满足自托管诉求；公开事实仅说明产品定位与自托管能力，痛点强度属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-53159ef6e20bce16
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 221 增至 256，说明开发者社区持续关注，但收藏与访问量只属关注度证据，不能证明目标用户已把它留在日常工作流或形成强场景共识。
+    evidence_ids:
+    - ev-60c7995c5de1217d
+    - ev-53159ef6e20bce16
+  - gate: model
+    status: insufficient
+    reason: 开源可自托管意味着钱可能来自企业自托管支持、托管版订阅或 to VC，但公开材料没有定价页、付费记录或采购信息，买方与单位经济均未核验，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-53159ef6e20bce16
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出部署文档、可复现实测或人工接管与安全边界说明，多代理并发下的交付能否稳定发生尚缺可核对证据。
+    evidence_ids:
+    - ev-53159ef6e20bce16
+  next_validation: 追踪 Vicoa 官方仓库的 README、部署文档与 issue/discussion，确认多代理会话调度与自托管部署的实际使用记录和交付结果。
+  market: ''
+  job: 软件开发者或技术团队负责人在同时运行多个编码代理（如并行处理多个仓库的修复、重构或测试任务）时，需要从桌面、手机或自托管 VPS 上统一查看、调度和接管这些代理的会话与产出，而不是逐个终端窗口手动切换。
+  job_en: A software developer or tech lead running several coding agents in parallel (e.g. fixes, refactors,
+    or test tasks across repos) needs one place on desktop, mobile, or a self-hosted VPS to view, dispatch,
+    and take over those agent sessions instead of switching between individual terminal windows.
+  pain: 公开材料只说明它是可自托管、跨设备的代理开发环境，未披露用户抱怨、频率或不采用的具体代价；从工作流结构推理，多代理并行时终端窗口分散、会话状态与产出难以集中追踪，且把代码交给云端代理存在自托管诉求，这是推断而非用户口述。
+  pain_en: Public materials only describe a self-hostable, cross-device agent development environment
+    and disclose no user complaints, frequency, or cost of not adopting; by workflow inference, parallel
+    agents scatter across terminal windows with hard-to-track session state and outputs, and handing code
+    to cloud agents creates a self-hosting need. This is inference, not user testimony.
+  current_alternative: 当前替代方式是直接在终端或单一 IDE 里逐个启动编码代理、用多个窗口或 tmux 会话手动切换，或使用云端托管的代理平台；公开材料未说明 Vicoa 具体替代了哪一种。
+  current_alternative_en: Today users launch coding agents one by one in a terminal or single IDE, switch
+    manually between windows or tmux sessions, or use a cloud-hosted agent platform; public materials
+    do not say which one Vicoa replaces.
+  usage_reason: 推断：相较逐个终端窗口手动切换，Vicoa 把多个代理会话集中到一个可从桌面、移动端或自托管 VPS 访问的界面，减少切换与状态查找这一步负担，并让不愿把代码放到第三方云端的团队自行部署；因此多代理并行且在意自托管的开发者会尝试它。
+  usage_reason_en: 'Inference: versus manually switching between terminal windows, Vicoa consolidates
+    multiple agent sessions into one interface reachable from desktop, mobile, or a self-hosted VPS, removing
+    the switching and state-hunting step and letting teams that avoid third-party clouds deploy it themselves;
+    hence developers running parallel agents who care about self-hosting would try it.'

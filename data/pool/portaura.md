@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/portaura
 summary: See what’s listening on your Mac
 first_seen: '2026-09-12T16:13:43Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

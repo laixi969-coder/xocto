@@ -21,7 +21,7 @@ canonical_url: https://lawfaremedia.org/article/25-years-of-mass-surveillance-is
 summary: '25 Years of Mass Surveillance Is Enough [Auth: Cindy Cohn; Bruce Schneier]'
 first_seen: '2026-09-15T12:08:26Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

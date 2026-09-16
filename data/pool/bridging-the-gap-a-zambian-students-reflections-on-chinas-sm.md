@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPd1cyWHJCWW1T
 summary: 'Bridging the Gap: A Zambian Student’s Reflections on China’s Smart Manufacturing times.co.zm'
 first_seen: '2026-09-15T13:45:03Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

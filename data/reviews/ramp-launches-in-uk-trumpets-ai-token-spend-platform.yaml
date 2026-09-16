@@ -1,0 +1,98 @@
+- id: req-initial-ramp-launches-in-uk-trumpets-ai-token-spend-platform-2026-09-16
+  project_slug: ramp-launches-in-uk-trumpets-ai-token-spend-platform
+  level: initial
+  reviewed_at: '2026-09-16T00:21:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业 AI token 支出无法归因和分摊的痛点，旧做法是人工汇总多份模型账单，不采用则财务无法核对这笔经常性支出，价值结构成立。
+    evidence_ids:
+    - ev-2fe11b56c18b34ad
+  - gate: consensus
+    status: insufficient
+    reason: 只有一家客户被点名，没有公开的行业讨论或多家企业采用证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-2fe11b56c18b34ad
+  - gate: model
+    status: insufficient
+    reason: 未披露该 AI token 支出平台的定价与计价方式，买方可能是企业财务预算，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2fe11b56c18b34ad
+  - gate: truth
+    status: insufficient
+    reason: 无法核实归集口径是否准确、能否与模型供应商账单对账，以及人工复核边界，交付确定性尚未验证。
+    evidence_ids:
+    - ev-2fe11b56c18b34ad
+  next_validation: 收集 Ramp 官方定价页或 AI token 支出平台的产品文档，确认计价方式与账单归集口径。
+  market: ''
+  job: 企业财务与工程负责人在各团队模型调用账单增长、无法归因到具体项目时，需要核对 AI token 支出并把它纳入公司费用审批与预算流程。
+  job_en: Corporate finance and engineering leads, when model bills grow across teams and cannot be attributed
+    to specific projects, need to reconcile AI token spend and fold it into company expense approval and
+    budgeting.
+  pain: 模型调用按量计费、分散在多个团队和供应商，账单难以归因和分摊，财务无法像管差旅和软件订阅那样管控，支出失控时缺少可核对依据。
+  pain_en: Model usage is metered, spread across teams and vendors, and hard to attribute or allocate,
+    so finance cannot control it the way it controls travel and software subscriptions, and lacks reconcilable
+    evidence when spend runs away.
+  current_alternative: 旧做法是工程团队自行看云厂商或模型供应商账单，财务靠人工汇总表格或事后报销，缺少统一归集口径。
+  current_alternative_en: The old approach is engineering teams reading cloud or model vendor bills themselves,
+    with finance manually consolidating spreadsheets or reimbursing after the fact, without a unified
+    aggregation standard.
+  usage_reason: 推断：相较人工汇总多份模型账单，Ramp 把 token 消耗直接接入既有费用管理流程，减少财务逐笔核对与分摊这一步，使已经用 Ramp 管费用的公司不必再为 AI 支出另建一套台账；ElevenLabs
+    作为客户是公开事实，但尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually consolidating multiple model bills, Ramp plugs token
+    consumption into an existing expense management flow, removing the step of line-by-line reconciliation
+    and allocation, so companies already using Ramp for expenses need not build a separate ledger for
+    AI spend; the ElevenLabs client is public fact, but retention or repeat-use evidence is absent.'
+- id: req-full-ramp-launches-in-uk-trumpets-ai-token-spend-platform-2026-09-16
+  project_slug: ramp-launches-in-uk-trumpets-ai-token-spend-platform
+  level: full
+  reviewed_at: '2026-09-16T00:51:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业 AI token 支出无法归因、分摊并纳入费用管控的痛点，旧做法是工程看供应商账单、财务人工汇总，不采用则这笔经常性支出缺少可核对依据；价值结构成立，属工作流推理。
+    evidence_ids:
+    - ev-3251b53537761d86
+    - ev-7474e04d69cd36eb
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只点名 ElevenLabs 一家客户，未见多家企业采用或行业讨论，共识是否形成无法判断；官网自述的费用管理能力不能当作持续采用证据。
+    evidence_ids:
+    - ev-3251b53537761d86
+    - ev-47e67c30f6c156e1
+  - gate: model
+    status: insufficient
+    reason: 未披露该 AI token 支出平台的定价与计价方式，买方可能是企业财务预算或工程预算，这是判断而非已验证事实；Ramp 整体以企业费用管理订阅与公司卡为付费路径。
+    evidence_ids:
+    - ev-7474e04d69cd36eb
+    - ev-47e67c30f6c156e1
+  - gate: truth
+    status: insufficient
+    reason: 无法核实 token 消耗归集口径是否准确、能否与模型供应商账单对账，以及人工复核边界，交付确定性尚未验证；官网仅说明自动化财务运营，未给出对账机制。
+    evidence_ids:
+    - ev-3251b53537761d86
+    - ev-7474e04d69cd36eb
+  next_validation: 追踪 Ramp 官网 AI token 支出平台的产品文档或定价页，确认 token 消耗归集口径、与模型供应商账单的对账方式及计价模式。
+  market: ''
+  job: 企业财务与工程负责人在各团队模型调用账单持续增长、无法归因到具体项目时，把 AI token 消耗数据接入 Ramp 的费用管理平台，完成归集、分类并纳入公司支出审批与预算流程。
+  job_en: Corporate finance and engineering leads, when model bills keep growing across teams and cannot
+    be attributed to specific projects, feed AI token consumption into Ramp's expense management platform
+    to aggregate, classify and fold it into company expense approval and budgeting.
+  pain: 模型调用按量计费、分散在多个团队与供应商，账单难以归因和分摊，财务无法像管差旅和软件订阅那样管控这笔经常性支出，支出失控时缺少可核对依据。
+  pain_en: Model usage is metered and spread across teams and vendors, so bills are hard to attribute
+    or allocate; finance cannot control this recurring spend the way it controls travel and software subscriptions,
+    and lacks reconcilable evidence when it runs away.
+  current_alternative: 旧做法是工程团队自行查看云厂商或模型供应商账单，财务靠人工汇总表格或事后报销，缺少统一归集口径。
+  current_alternative_en: The old approach is engineering teams reading cloud or model vendor bills themselves,
+    with finance manually consolidating spreadsheets or reimbursing after the fact, without a unified
+    aggregation standard.
+  usage_reason: 推断：相较人工汇总多份模型账单，Ramp 把 token 消耗接入其既有的公司卡与费用管理流程，减少财务逐笔核对与分摊这一步，使已用 Ramp 管费用的公司不必为 AI 支出另建台账；ElevenLabs
+    成为客户是公开事实，但尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually consolidating multiple model bills, Ramp plugs token
+    consumption into its existing corporate-card and expense management flow, removing the step of line-by-line
+    reconciliation and allocation, so companies already using Ramp need not build a separate ledger for
+    AI spend; the ElevenLabs client is public fact, but retention or repeat-use evidence is absent.'

@@ -415,3 +415,58 @@
     conclusions via stratified rules and incremental derivation, keeps provenance and confidence annotations
     per fact, and exposes them to the harness as a shared brain over MCP; thus agent developers needing
     auditable, reproducible reasoning chains would choose it for multi-step tasks.'
+- id: req-full-lemmalog-2026-09-16
+  project_slug: lemmalog
+  level: full
+  reviewed_at: '2026-09-16T00:49:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 记忆不可靠、事实冲突且难溯源的需求，痛点在于向量记忆缺乏逻辑一致性与来源追踪；公开材料显示其以分层规则、溯源事实和 provider 出错降级为零事实来交付，属工作流结构推理，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-ef6109b1c3e96143
+    - ev-2b03bb4ec4854f63
+    - ev-d3318e2b0d76d3a9
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星数从 308 缓升至 309，说明有开发者关注，但公开材料未见 issue、discussion、客户案例或持续采用证据，无法确认已进入真实工作流，关注度不等于采用。
+    evidence_ids:
+    - ev-ac1f22c4a146bc5c
+    - ev-2471c6cd98ba6cac
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费记录或采购信息，开源免费下买方可能是企业 agent 团队或 MCP 生态集成方，这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-2b03bb4ec4854f63
+  - gate: truth
+    status: supported
+    reason: 产品贴近 agent 记忆可靠性的第一性目标，以确定性 Datalog 推导、溯源事实和持久化快照承诺可核对的交付结果，并在 provider 出错时降级为零事实而非静默保留脏数据，人工与安全边界清晰。
+    evidence_ids:
+    - ev-ef6109b1c3e96143
+    - ev-b520966e07fc20ed
+  next_validation: 追踪 lemmalog 公开代码仓库 仓库的 issue、discussion 与 release 记录，确认是否有真实 agent 项目报告接入 MCP 服务器后的使用与留存情况。
+  market: ''
+  job: Agent 开发者在构建需要跨会话、跨工具共享上下文的 LLM agent 时，把对话与工具调用产生的事实、规则和来源材料交给 lemmalog，通过 MCP 服务器让多个 harness
+    读写同一份带溯源的事实库，完成可推理、可追溯的记忆管理任务。
+  job_en: Agent developers building LLM agents that need shared context across sessions and tools feed
+    facts, rules and source material into lemmalog via its MCP server, so multiple harnesses read and
+    write one provenance-tracked fact store for reasoning and traceable memory.
+  pain: 公开材料显示 agent 记忆常以向量库或键值存储实现，事实之间缺乏逻辑一致性，冲突与来源难以追溯；lemmalog 还专门处理 provider 报错时降级为零事实、按 episode
+    id 记忆化，说明推理链断裂和事实污染是真实存在的工程痛点。
+  pain_en: Public material shows agent memory is often implemented with vector or key-value stores, where
+    facts lack logical consistency and conflicts or provenance are hard to trace; lemmalog's degradation-to-zero-facts
+    on provider errors and memoization by episode id indicate broken reasoning chains and fact contamination
+    are real engineering pains.
+  current_alternative: 开发者目前用向量数据库、图数据库或简单键值存储拼接 agent 记忆，或把上下文直接塞进 prompt，缺少分层规则与溯源机制。
+  current_alternative_en: Developers currently stitch agent memory from vector databases, graph databases
+    or simple key-value stores, or stuff context directly into the prompt, without stratified rules or
+    provenance.
+  usage_reason: 推断：相较把上下文塞进 prompt 或自建向量记忆，lemmalog 以分层规则做增量推导、为每条事实保留溯源、并在 provider 出错时降级为零事实而非保留脏数据，减少了开发者自行校验事实一致性和排查错误来源的步骤，因此需要可审计推理链的
+    agent 团队会在构建共享记忆层时选择它。
+  usage_reason_en: 'Inference: versus stuffing context into prompts or hand-rolling vector memory, lemmalog
+    performs incremental derivation over stratified rules, keeps provenance per fact, and degrades to
+    zero facts on provider errors instead of retaining dirty data, cutting the steps developers spend
+    validating fact consistency and tracing error sources, so agent teams needing auditable reasoning
+    chains would pick it when building a shared memory layer.'

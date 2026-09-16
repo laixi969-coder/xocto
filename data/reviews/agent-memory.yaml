@@ -282,3 +282,51 @@
     into a single Markdown source of truth that both Claude Code and Codex read, with local ranked retrieval
     and idle-time consolidation, removing the re-briefing step on tool switch; developers who frequently
     switch between two coding agents and want data kept local would choose it for that reason.'
+- id: req-full-agent-memory-2026-09-16
+  project_slug: agent-memory
+  level: full
+  reviewed_at: '2026-09-16T00:48:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理跨工具切换时上下文与决策丢失的问题，痛点来自会话记忆绑定单一工具这一工作流结构，不解决的后果是反复重述项目背景；公开材料仅说明产品定位，痛点强度属结构推理，非用户口述。
+    evidence_ids:
+    - ev-0a36bfbd38f04642
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 840 增至约 1,444 后回落至 1,315，说明开发者持续关注并试用；但收藏与排名只属关注度证据，不能证明已长期留在工作流，也未见 issue 或评价说明持续使用。
+    evidence_ids:
+    - ev-0a36bfbd38f04642
+    - ev-57e596bca351a946
+    - ev-ca9fbf62c7876e87
+    - ev-881be4610b95a2fa
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或商业化路径，开源仓库本身不构成收入证据；谁付钱、按什么单位收费均无法判断，这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-0a36bfbd38f04642
+  - gate: truth
+    status: insufficient
+    reason: Markdown 作为唯一事实来源、本地检索与空闲时段整理能否稳定交付，公开材料没有可复现实测或案例；记忆整理质量与人工边界尚无法核对。
+    evidence_ids:
+    - ev-0a36bfbd38f04642
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户报告跨 Claude Code 与 Codex 的实际使用场景、记忆整理效果，以及是否出现定价或商业化说明。
+  market: ''
+  job: 使用 Claude Code、Codex 等编码代理的开发者，在多个代理工具之间切换、继续同一项目时，把对话记录、决策与项目上下文交给它，要完成的是让新会话不必从零重建项目记忆。
+  job_en: Developers using coding agents such as Claude Code and Codex who switch between tools on the
+    same project hand over conversation records, decisions and project context so a new session does not
+    have to rebuild project memory from scratch.
+  pain: 编码代理的会话记忆默认绑定在单一工具内，换工具或开新会话就丢失此前决策与上下文，开发者只能反复重述项目背景；公开材料只说明产品定位，未给出用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Coding-agent session memory is bound to a single tool by default, so switching tools or starting
+    a new session loses prior decisions and context and the developer must restate project background;
+    public materials only state the product positioning, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是在每个工具里各自维护上下文文件、每次会话重新粘贴项目说明，或依赖单一代理自带的记忆功能，跨工具时无法共享。
+  current_alternative_en: The old approach is to keep separate context files per tool, re-paste project
+    instructions each session, or rely on one agent's built-in memory, which cannot be shared across tools.
+  usage_reason: 推断：相较在每个工具里重复粘贴项目背景，它把对话与决策以 Markdown 存为唯一事实来源并在本地检索，减少的是跨工具重建上下文这一步，因此同时使用多个编码代理、且在意上下文可迁移的开发者会在切换工具时选择它；尚无用户反馈或留存数据支持。
+  usage_reason_en: 'Inference: compared with re-pasting project background in each tool, it stores conversations
+    and decisions as Markdown as a single source of truth with local retrieval, removing the step of rebuilding
+    context across tools, so developers who use multiple coding agents and care about portable context
+    may choose it when switching tools; no user feedback or retention data supports this yet.'

@@ -1,0 +1,84 @@
+- id: req-initial-jexxa-2026-09-16
+  project_slug: jexxa
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长时段口述录入要把音频上传云端的问题，痛点具体，本机转写可减少上传与等待这一步。
+    evidence_ids:
+    - ev-0a601d0fe1df6290
+  - gate: consensus
+    status: insufficient
+    reason: 社区有 15 条评论但无采用或留存数据，是否形成持续使用共识无法判断。
+    evidence_ids:
+    - ev-0a601d0fe1df6290
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，本机工具可能走个人订阅或企业采购，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-0a601d0fe1df6290
+  - gate: truth
+    status: insufficient
+    reason: 准确率、支持语言与平台未公开，交付是否稳定可核对尚不清楚。
+    evidence_ids:
+    - ev-0a601d0fe1df6290
+  next_validation: 收集 Jexxa 官方定价页与支持语言、平台说明，核对本机转写的准确率与交付方式。
+  market: ''
+  job: 需要长时间口述录入的专业人士在电脑前口述材料时，要把语音变成可直接使用的文本。
+  job_en: Professionals who dictate for long sessions speak their material at the computer and need it
+    turned into directly usable text.
+  pain: 云端听写要把音频上传，存在隐私与延迟顾虑，长时段录入时等待和纠错成本明显。
+  pain_en: Cloud dictation requires uploading audio, raising privacy and latency concerns, and the waiting
+    and correction cost is noticeable in long sessions.
+  current_alternative: 目前多用云端听写服务，或事后手工整理录音。
+  current_alternative_en: Today people mostly use cloud dictation services or transcribe recordings by
+    hand afterwards.
+  usage_reason: 推断：在本机完成语音转文字，省去上传音频这一步，对录音不便外传的用户更可接受，因此有合规顾虑的人会优先试它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: converting speech to text on the device removes the upload step, which
+    is more acceptable to users who cannot send recordings out, so people with compliance concerns may
+    try it first; no retention or payment evidence yet.'
+- id: req-full-jexxa-2026-09-16
+  project_slug: jexxa
+  level: full
+  reviewed_at: '2026-09-16T00:49:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长时段口述录入要把音频上传云端的问题，痛点具体，本机转写可减少上传与等待这一步；这是基于产品说明的工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-0a601d0fe1df6290
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品标语，没有用户评价、社区讨论或采用数据，是否形成持续使用共识无法判断。
+    evidence_ids:
+    - ev-0a601d0fe1df6290
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，本机工具可能走个人订阅或企业采购，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-0a601d0fe1df6290
+  - gate: truth
+    status: insufficient
+    reason: 准确率、支持语言与平台未公开，交付是否稳定可核对尚不清楚。
+    evidence_ids:
+    - ev-0a601d0fe1df6290
+  next_validation: 收集 Jexxa 官方定价页与支持语言、平台说明，核对本机转写的准确率与交付方式。
+  market: ''
+  job: 需要长时间口述录入的专业人士（如写作者、律师、医生）在电脑前连续口述材料时，要把语音实时变成可直接编辑使用的文本。
+  job_en: Professionals who dictate for long sessions (writers, lawyers, doctors) speak their material
+    continuously at the computer and need it turned into directly editable text in real time.
+  pain: 云端听写必须先把音频上传，长时段录入时既有隐私外泄顾虑，又要等待上传与返回，纠错成本高。
+  pain_en: Cloud dictation requires uploading audio first; in long sessions this raises privacy exposure
+    and forces waiting for upload and return, with high correction cost.
+  current_alternative: 目前多用云端听写服务（如系统自带或第三方在线听写），或事后手工整理录音。
+  current_alternative_en: Today people mostly use cloud dictation services (built-in or third-party online)
+    or transcribe recordings by hand afterwards.
+  usage_reason: 推断：Jexxa 在本机完成语音转文字，省去上传音频这一步，对录音不便外传的用户更可接受，因此有合规或隐私顾虑的长时段口述者会优先试它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: Jexxa converts speech to text on the device, removing the upload step,
+    which is more acceptable to users who cannot send recordings out, so long-session dictators with compliance
+    or privacy concerns may try it first; no retention or payment evidence yet.'

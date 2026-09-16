@@ -21,7 +21,7 @@ canonical_url: https://onmyway133.com
 summary: My favorite Claude Code tips & tricks
 first_seen: '2026-09-13T12:38:38Z'
 last_seen: '2026-09-16T00:20:40Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

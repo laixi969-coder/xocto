@@ -1,6 +1,6 @@
 ---
 slug: cybersecurity-startup-exein-secures-270m-at-17b-to-protect-a
-name: Cybersecurity startup Exein secures $270M at $1.7B to protect AI-powered machines
+name: Exein
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Cybersecurity startup Exein secures $270M at $1.7B to protect AI-powere
   News
 first_seen: '2026-09-15T09:33:12Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Cybersecurity startup Exein secures $270M at $1.7B to protect AI-powered machines
+# Exein
 
 Cybersecurity startup Exein secures $270M at $1.7B to protect AI-powered machines Tech Funding News
 

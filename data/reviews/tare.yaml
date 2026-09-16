@@ -315,3 +315,85 @@
   usage_reason_en: 'Inference: if the product truly attributes call records to specific sources, it could
     remove the step of manually matching log lines; but with no user feedback or cases, it is unconfirmed
     which users would choose it and when.'
+- id: req-initial-tare-2026-09-16
+  project_slug: tare
+  level: initial
+  reviewed_at: '2026-09-16T00:21:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决额度去向不明的问题：开发者只知道配额耗尽，不知道哪类请求吃掉额度，不排查会持续超支；旧做法是翻日志或升级套餐。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区帖获得 86 点、62 条评论，说明有同类困扰的讨论，但没有采用或留存证据，无法判断是否形成稳定使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明收费方式；可能走开源加托管或团队版，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 用量归因依赖平台是否开放细粒度调用数据，若只能拿到总量，交付确定性会受限，公开材料未说明数据来源。
+    evidence_ids: []
+  next_validation: 收集 tare 仓库的 README 与 issue/discussion，确认它读取哪些用量数据源、输出什么形式的归因结果。
+  market: ''
+  job: 独立开发者或小团队工程师在按量计费的模型额度被异常快速耗尽时，处理自己的调用与上下文记录，要弄清额度具体消耗在哪些请求上。
+  job_en: An indie developer or small-team engineer, when a metered model quota drains abnormally fast,
+    works through their own call and context records to find out which requests consumed the budget.
+  pain: 额度耗尽只给出总量，不说明去向，开发者只能靠猜或逐个试错，排查成本高且可能反复发生。
+  pain_en: Quota exhaustion reports only a total, not where it went, so developers guess or trial-and-error
+    request by request, which is costly and can recur.
+  current_alternative: 查看平台自带的用量面板、手动翻日志、凭经验删减提示词，或干脆升级套餐。
+  current_alternative_en: Checking the platform's built-in usage dashboard, manually reading logs, trimming
+    prompts by intuition, or simply upgrading the plan.
+  usage_reason: 推断：相较只看总量面板，tare 把调用记录归因到具体请求和上下文，省掉人工逐条比对日志这一步，因此额度频繁超支的开发者会在排查时先跑它。
+  usage_reason_en: 'Inference: compared with a totals-only dashboard, tare attributes calls to specific
+    requests and context, removing the manual log-by-log comparison step, so developers who repeatedly
+    overrun quota would run it first when investigating.'
+- id: req-full-tare-2026-09-16
+  project_slug: tare
+  level: full
+  reviewed_at: '2026-09-16T00:51:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按量计费模型额度去向不明的问题：开发者只知配额耗尽、不知哪类请求吃掉额度，不排查会持续超支；旧做法是翻日志或升级套餐。属工作流结构推理，公开材料未给出采用数据。
+    evidence_ids:
+    - ev-aa99859c16cfc21d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有市场检索条目，未发现社区讨论、采用或留存证据，无法判断是否形成稳定使用；有强场景但共识证据缺失。
+    evidence_ids:
+    - ev-aa99859c16cfc21d
+    - ev-75874e19a349030f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明收费方式，可能走开源加托管或团队版，属判断而非已验证事实；买方与付费路径均未核验。
+    evidence_ids:
+    - ev-aa99859c16cfc21d
+  - gate: truth
+    status: insufficient
+    reason: 用量归因依赖平台是否开放细粒度调用数据，若只能拿到总量，交付确定性受限；公开材料未说明数据来源与统计口径。
+    evidence_ids:
+    - ev-aa99859c16cfc21d
+  next_validation: 收集 tare 仓库的 README 与 issue/discussion，确认它读取哪些用量数据源、输出什么形式的归因结果。
+  market: ''
+  job: 按量计费模型（如 Claude）的独立开发者或小团队工程师，在配额被异常快速耗尽时，处理自己的调用与上下文记录，要弄清额度具体消耗在哪些请求、哪类上下文上，据此调整提示或调用方式。
+  job_en: An indie developer or small-team engineer on metered models such as Claude, when quota drains
+    abnormally fast, works through their own call and context records to find out which requests and which
+    kinds of context consumed the budget, then adjusts prompts or call patterns.
+  pain: 配额耗尽只给出总量，不说明去向；开发者只能凭经验删减提示词或逐条试错，排查成本高且可能反复超支。
+  pain_en: Quota exhaustion reports only a total, not where it went; developers trim prompts by intuition
+    or trial-and-error request by request, which is costly and can recur.
+  current_alternative: 查看平台自带的用量面板、手动翻日志、凭经验删减提示词，或干脆升级套餐。
+  current_alternative_en: Checking the platform's built-in usage dashboard, manually reading logs, trimming
+    prompts by intuition, or simply upgrading the plan.
+  usage_reason: 推断：相较只看总量面板，tare 读取调用记录并把额度归因到具体请求与上下文类型，省掉人工逐条比对日志这一步，因此额度频繁超支的开发者会在排查时先跑它。
+  usage_reason_en: 'Inference: compared with a totals-only dashboard, tare reads call records and attributes
+    spend to specific requests and context types, removing the manual log-by-log comparison step, so developers
+    who repeatedly overrun quota would run it first when investigating.'

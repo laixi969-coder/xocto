@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxQdFM3TGQ4NXVB
 summary: Accenture Digital Consulting Model for Business Growth blog.kirnanitechnologies.com
 first_seen: '2026-09-14T07:30:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -267,3 +267,52 @@
     and a chapter bar, cutting multi-tool switching and manual motion steps between script and finished
     video; creators needing fast, consistent explainer videos would choose it when they have a topic but
     lack editing resources.'
+- id: req-full-anything2explainer-2026-09-16
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-16T00:48:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把主题快速变成带旁白字幕的解释视频这一需求，痛点在于手工逐帧排版与配音成本高；公开材料只给出输入主题、输出成片与代码绘制流程，痛点强度与替代方式属工作流结构推理，尚无用户抱怨或量化数据。
+    evidence_ids:
+    - ev-d3d8ac2d0113d000
+    - ev-06cb862a9fdb700a
+  - gate: consensus
+    status: insufficient
+    reason: 公开页面记录 1.3k 星标，说明开发者已注意到该 skill，但星标属关注度证据，不能证明目标用户持续使用或形成稳定场景。
+    evidence_ids:
+    - ev-642cb374146e4e2b
+    - ev-a451419e5a43a2fc
+  - gate: model
+    status: insufficient
+    reason: 它是开源 skill，公开材料未见定价、付费主体或单位经济；谁付钱只能推断为使用 Claude Code / Codex 的创作者或团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bdbbc143c69a41c9
+    - ev-9d9c646cff37186e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明每帧由 Remotion 代码绘制，未见可复现的成片样例、失败率或人工与安全边界，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-49f56f42606ebc4c
+    - ev-bd0ba3c2c7b72349
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有可复现的成片样例、使用场景描述或部署说明。
+  market: ''
+  job: 内容创作者、教育者或营销人员在需要把某个主题快速做成带旁白与字幕的解释视频时，在 Claude Code / Codex 里输入主题，由 skill 生成黑底动效画面、TTS 语音、字幕和章节进度条，交付一支可直接发布的解释视频。
+  job_en: A content creator, educator, or marketer who needs a narrated explainer video on a given topic
+    enters the topic in Claude Code / Codex and the skill produces black-canvas motion graphics, TTS voiceover,
+    subtitles, and a chapter progress bar as a publishable explainer video.
+  pain: 公开材料只说明输入主题即输出成片，未记录用户抱怨、制作耗时或返工代价；痛点强度属于从任务结构推断，而非用户口述事实。
+  pain_en: Public materials only state topic-in/video-out; they record no user complaints, production
+    time, or rework cost, so pain intensity is inferred from the task structure rather than stated by
+    users.
+  current_alternative: 公开材料未说明用户此前用什么替代；按任务结构推断，旧做法是手工在剪辑或动效软件里逐帧排版、配音与加字幕。
+  current_alternative_en: Public materials do not state the prior alternative; by task structure it is
+    inferred to be manual frame layout, voiceover, and subtitling in editing or motion-graphics tools.
+  usage_reason: 推断：相较手工逐帧排版与配音，该 skill 把主题直接转成代码绘制的 Remotion 画面并附带 TTS 与字幕，省去逐帧搭建和单独配音这两步，因此需要批量或快速产出解释视频的创作者会在有主题、缺成片时选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual frame-by-frame layout and voiceover, the skill turns a topic
+    directly into code-drawn Remotion frames with TTS and subtitles, removing the frame-building and separate
+    voiceover steps, so creators needing fast or batch explainer output would pick it when they have a
+    topic but no video; no user feedback yet confirms this motive.'

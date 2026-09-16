@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iYlNwbmhpbW0y
 summary: AI融资模式日趋复杂多元化 手机网易网
 first_seen: '2026-09-15T15:08:45Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

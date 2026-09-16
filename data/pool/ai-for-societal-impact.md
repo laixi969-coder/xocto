@@ -22,7 +22,7 @@ summary: Explore this collection to see how experts and local leaders are using 
   everyone can share the opportunity of AI.
 first_seen: '2026-09-15T16:00:00Z'
 last_seen: '2026-09-16T00:21:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

@@ -225,3 +225,51 @@
     generation, leaving the user only to verify and send, so consumers facing a refusal over a modest
     amount who will not hire a lawyer would pick it up at their next refusal; only repository-star growth
     exists, with no retention or payment evidence.'
+- id: req-full-refund-anything-ai-prompt-2026-09-16
+  project_slug: refund-anything-ai-prompt
+  level: full
+  reviewed_at: '2026-09-16T00:51:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决被拒退消费者写不出有分量退款函的需求，痛点是措辞与规则门槛导致直接放弃、损失已付金额；旧做法是自写邮件或搜模板，产品按辖区生成两段升级函件，交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-ec45334584180021
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从68增至79，说明有开发者关注，但无用户评价、issue或案例说明谁在何种拒退场景实际使用，无法判断该环节是否被普遍接受为独立步骤。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-0ac90bfcd8f93963
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或买方，向个人消费者按次收费或向法律服务平台授权都只是判断，不是已验证事实；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-ec45334584180021
+  - gate: truth
+    status: insufficient
+    reason: 30多个辖区的规则准确性、函件是否贴近真实维权目标、以及法律升级措辞的安全边界，均无公开可复现证据核验。
+    evidence_ids:
+    - ev-79d374874a1db558
+  next_validation: 追踪该仓库的 issue 与 discussion，确认用户实际提交的拒退场景、辖区与对函件结果的反馈。
+  market: ''
+  job: 普通消费者在订阅、数字购买或预订被商家拒退时，把订单信息、拒退理由和所在司法辖区交给这套提示词，由模型生成一封先礼貌交涉、必要时升级为法律措辞的退款函件，用户核对后自行发送。
+  job_en: When a merchant refuses a refund on a subscription, digital purchase, or booking, an ordinary
+    consumer feeds the order details, refusal reason, and jurisdiction into this prompt set, which drafts
+    a refund letter that opens politely and escalates to legal language if needed; the user checks it
+    and sends it themselves.
+  pain: 被拒退后消费者往往不知道如何措辞、该引用哪条规则、下一步该升级到什么程度，写一封有分量的函件本身成为放弃退款的门槛，钱就直接损失。
+  pain_en: After a refusal, consumers often do not know how to phrase the demand, which rule to cite,
+    or how far to escalate, so drafting a credible letter itself becomes the barrier that makes them give
+    up and lose the money.
+  current_alternative: 自己硬写一封邮件、在客服聊天里反复争辩、上网搜模板，或者干脆放弃退款。
+  current_alternative_en: Writing an email from scratch, arguing repeatedly in customer-service chat,
+    searching for templates online, or simply giving up on the refund.
+  usage_reason: 推断：相较自己从零起草或套用通用模板，它按辖区和拒退理由直接产出分两段升级的函件，省去查规则、组织措辞和判断升级时机的步骤，因此被拒退且金额值得追的消费者会在发送前用它。
+  usage_reason_en: 'Inference: compared with drafting from scratch or pasting a generic template, it produces
+    a two-stage escalation letter keyed to jurisdiction and refusal reason, removing the steps of looking
+    up rules, structuring the argument, and deciding when to escalate, so consumers facing a refusal worth
+    chasing would use it before sending.'

@@ -280,3 +280,55 @@
     cases from scratch and manually restoring the environment; engineers doing agent regression evaluation
     who already hold successful execution traces would choose it when stable reproduction is needed. Stars
     rising from 42 to 83 indicate attention, not a reason for choice.'
+- id: req-full-trace2task-2026-09-16
+  project_slug: trace2task
+  level: full
+  reviewed_at: '2026-09-16T00:51:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体成功流程难以复现、回归评测靠手工重搭环境的问题，痛点在于一次跑通无法沉淀为可重复验证的任务，不解决的后果是回归漏检。公开仓库说明已给出输入（成功 trace）、动作（转成可重置任务）与交付（干净环境重跑核对），属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-3f36119ba2f523c6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 89，说明开发者社区注意到该项目，但收藏只属关注度证据，不能证明评测工程师已把它放进日常回归流程；公开材料没有 issue、discussion 或客户案例说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-3f36119ba2f523c6
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，开源项目也可能靠托管或企业版变现，但均未披露。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺把成功 trace 转成可重置、可验证的评测任务，但公开材料未说明支持哪些记录格式、如何判定通过、重置是否真能还原初始状态，交付确定性与人工边界尚缺可复现证据。
+    evidence_ids:
+    - ev-b628234673733367
+    - ev-83d0b42e96c6fd1a
+  next_validation: 追踪 trace2task 仓库的 README、issue 与 discussion，确认其声明的支持 trace 格式、重置机制与通过判定规则，以及是否有公开使用案例。
+  market: ''
+  job: AI 应用评测工程师在智能体一次跑通某条真实操作流程后，把这段执行记录（trace）交给 trace2task，将其转成可在干净环境重置并重复执行的评测任务，用于回归核对同一流程是否仍然跑通。
+  job_en: An AI application evaluation engineer takes a trace from an agent run that succeeded once, feeds
+    it to trace2task, and converts it into a resettable, repeatable evaluation task that can be re-run
+    in a clean environment to regression-check whether the same workflow still passes.
+  pain: 智能体流程的成功往往只发生在一次具体运行里，环境状态、工具调用顺序和中间产物难以复原；工程师要复现同一场景只能手工重搭环境、重写脚本，回归验证成本高且容易漏掉失败。公开材料只给出转换动作，未披露失败率或耗时数据。
+  pain_en: 'An agent workflow''s success often exists only inside one concrete run: environment state,
+    tool-call order and intermediate artifacts are hard to restore. To reproduce the same scenario engineers
+    must manually rebuild the environment and rewrite scripts, making regression checks costly and easy
+    to skip. Public materials give only the conversion action, not failure rates or time costs.'
+  current_alternative: 当前替代方式是人工重搭环境并手写评测脚本，或直接复用原始 trace 在受污染的状态下重跑，导致结果不可比；公开材料未说明它具体替代了哪套既有工具链。
+  current_alternative_en: Today the alternative is manually rebuilding the environment and hand-writing
+    evaluation scripts, or re-running the original trace in a polluted state so results are not comparable;
+    public materials do not say which existing toolchain it replaces.
+  usage_reason: 推断：相较手工重搭环境再写脚本，它把一次成功 trace 直接转成带重置能力的评测任务，省去重建初始状态和编写断言这两步，因此做智能体回归评测的工程师在需要反复验证同一流程时会选择它。仓库收藏从
+    42 增至 89 说明有开发者持续关注，但尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus manually rebuilding the environment and writing scripts, it converts
+    a successful trace directly into an evaluation task with reset capability, removing the steps of reconstructing
+    the initial state and authoring assertions, so engineers doing agent regression evaluation would pick
+    it when they must repeatedly verify the same workflow. Stars rising from 42 to 89 shows sustained
+    developer attention, but there is no retention or repeat-use evidence yet.'

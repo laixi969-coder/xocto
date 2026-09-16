@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPSW1VZGlzcXkz
 summary: 联博称：放缓AI发展的呼声不会阻碍行业融资 新浪财经
 first_seen: '2026-09-15T10:31:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

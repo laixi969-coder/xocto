@@ -1,0 +1,86 @@
+- id: req-initial-panel-2026-09-16
+  project_slug: panel
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决智能体实验界面反复搭建的问题，但材料未说明原来谁在做、耗时与不做的后果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-bae691b00851663b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有48点讨论与11条评论，属于关注度信号，不能说明研究者已形成采用共识。
+    evidence_ids:
+    - ev-bae691b00851663b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、买方或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bae691b00851663b
+  - gate: truth
+    status: insufficient
+    reason: 未说明智能体生成面板的确定性、失败处理与人工边界，交付能否稳定发生无法核验。
+    evidence_ids:
+    - ev-bae691b00851663b
+  next_validation: 收集该仓库的 issue、discussion 与 README 更新，确认是否有研究者描述具体实验流程、替代做法或重复使用记录。
+  market: ''
+  job: 研究人员或开发者在调试智能体行为时，需要反复搭建和调整实验界面，以便观察智能体在任务中的表现。
+  job_en: A researcher or developer debugging agent behaviour needs to repeatedly build and adjust an
+    experiment interface to observe how the agent performs on a task.
+  pain: 公开材料只说明智能体能自建面板，未说明原来由谁手工搭建界面、耗时多久或出错代价，痛点强度无法确认。
+  pain_en: Public material only says the agent can build its own panes; it does not say who previously
+    built the interface by hand, how long it took, or the cost of errors, so pain intensity cannot be
+    confirmed.
+  current_alternative: 现有替代方式可能是研究者自行编写前端或使用通用笔记本环境，但候选材料未提供任何替代行为证据。
+  current_alternative_en: The current alternative may be researchers writing their own front end or using
+    general notebook environments, but the candidate material provides no evidence of such substitute
+    behaviour.
+  usage_reason: 推断：若智能体能按任务自行生成面板，研究者可省去手工搭界面的步骤，但缺少用户反馈或案例支持，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the agent can generate panes per task, researchers could skip hand-building
+    the interface, but without user feedback or cases it is unclear which users would choose it for that
+    reason.'
+- id: req-full-panel-2026-09-16
+  project_slug: panel
+  level: full
+  reviewed_at: '2026-09-16T00:50:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部是词典释义、拼写辨析与墙面装饰板材页面，与智能体研究界面无关，无法还原用户任务、痛点与不解决的后果，价值结构无从成立。
+    evidence_ids:
+    - ev-2819e679f68d0c2a
+    - ev-e31d19d3681b83e5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README、issue 与 discussion，确认是否出现研究者描述的具体实验流程、替代做法或重复使用记录。
+  market: ''
+  job: 研究人员或开发者在调试智能体行为时，把任务交给智能体，由智能体自行生成并组织界面面板，最终得到一个可继续操作的研究界面。
+  job_en: A researcher or developer debugging agent behaviour hands a task to the agent, which generates
+    and organises its own interface panes, ending with a research interface they can keep operating.
+  pain: 公开材料只说明智能体能自建面板，未说明原来由谁手工搭建界面、耗时多久或出错代价，痛点强度无法确认。
+  pain_en: Public material only says the agent can build its own panes; it does not say who previously
+    built the interface by hand, how long it took, or the cost of errors, so pain intensity cannot be
+    confirmed.
+  current_alternative: 现有替代方式可能是研究者自行编写前端或使用通用笔记本环境，但候选材料未提供任何替代行为证据。
+  current_alternative_en: The current alternative may be researchers writing their own front end or using
+    general notebook environments, but the candidate material provides no evidence of such substitute
+    behaviour.
+  usage_reason: 推断：若智能体能按任务自行生成面板，研究者可省去手工搭界面的步骤，但缺少用户反馈或案例支持，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the agent can generate panes per task, researchers could skip hand-building
+    the interface, but without user feedback or cases it is unclear which users would choose it for that
+    reason.'

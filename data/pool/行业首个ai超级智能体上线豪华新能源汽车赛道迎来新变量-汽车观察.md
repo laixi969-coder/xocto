@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPV0ZDa2R4U3Zy
 summary: 行业首个AI超级智能体上线，豪华新能源汽车赛道迎来新变量｜汽车观察 新浪财经
 first_seen: '2026-09-15T09:21:06Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -35,7 +35,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOZlZxMVktdDZz
 summary: 微软纳德拉发布Opal：用户只需提目标，AI跑流程交付成品 新浪财经
 first_seen: '2026-09-08T08:43:04Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - hackernews

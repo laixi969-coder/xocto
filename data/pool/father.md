@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/father-web-monitoring
 summary: A Mac dashboard for site traffic, deploys, uptime, and SEO
 first_seen: '2026-09-14T20:10:06Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

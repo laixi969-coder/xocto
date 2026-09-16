@@ -23,7 +23,7 @@ summary: Learn how to scale your startup breakthrough from prototype to producti
   Robotics). Register before September 25 to save up to $200 on your pass.
 first_seen: '2026-09-15T14:30:00Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

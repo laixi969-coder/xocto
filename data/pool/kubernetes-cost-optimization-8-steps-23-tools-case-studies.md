@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PX2xpZF9BaDMz
 summary: 'Kubernetes Cost Optimization: 8 Steps, 23 Tools & Case Studies AIMultiple'
 first_seen: '2026-09-15T10:03:07Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

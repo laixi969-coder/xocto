@@ -320,3 +320,45 @@
   usage_reason_en: 'No public fact explains why a user would choose it: the repository description only
     states a functional positioning, with no user motivation, adoption behavior or verifiable outcome
     improvement.'
+- id: req-full-qanat-2026-09-16
+  project_slug: qanat
+  level: full
+  reviewed_at: '2026-09-16T00:51:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仓库仅有一句功能描述，未说明量化研究员当前如何构建与回测 alpha、哪一步最痛、不解决会失去什么；无法还原具体旧流程与不采用代价，价值结构无法成立。
+    evidence_ids:
+    - ev-bd1204c80d23a6bd
+    - ev-2f3657f401794ecb
+    - ev-d24c07994eb890a6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 公开代码仓库.com/fidetolabs/qanat 的 README、issue 与 discussion，确认其输入数据、节点执行方式、回测输出与用户实际替代的旧流程。
+  market: ''
+  job: 量化研究员或投资组合经理在构建 alpha 因子时，需要把数据获取、因子计算、回测与结果评估等步骤组织成可复现的流程，并交由 AI agent 按节点执行。
+  job_en: A quantitative researcher or portfolio manager building alpha factors needs to organize data
+    fetching, factor computation, backtesting, and evaluation into a reproducible pipeline executed by
+    AI agents per node.
+  pain: 公开材料只有一句仓库描述，未说明当前流程中哪一步最耗时、出错代价是什么、不解决会失去什么，因此无法确认痛点刚性。
+  pain_en: Public materials contain only a one-line repository description and do not state which step
+    is most costly, what errors cost, or what is lost if unsolved, so pain rigidity cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前用脚本、Notebook 还是既有回测框架完成同类工作，也未说明 qanat 替代了哪一步。
+  current_alternative_en: Public materials do not state whether users currently rely on scripts, notebooks,
+    or existing backtesting frameworks, nor which step qanat replaces.
+  usage_reason: 仓库描述称其以 DAG 编排 alpha 构建与回测并由 agent 执行节点，但缺少用户反馈或案例说明这一动作减少了哪一步负担，因此无法解释用户为何选择它。
+  usage_reason_en: The repository describes orchestrating alpha construction and backtesting as DAGs with
+    agent-executed nodes, but without user feedback or cases showing which step's burden is reduced, it
+    cannot explain why users would choose it.

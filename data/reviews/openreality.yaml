@@ -264,3 +264,47 @@
   usage_reason_en: 'Inference: if a developer already uses Claude/Codex/Cursor and needs spatial context,
     the MCP wrapper could save the step of building reconstruction and query plumbing themselves; without
     user feedback or cases, it is unconfirmed which users would choose it and when.'
+- id: req-full-openreality-2026-09-16
+  project_slug: openreality
+  level: full
+  reviewed_at: '2026-09-16T00:50:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图让 AI 查询手机视频重建的三维场景，但公开证据全部指向 OpenAI、OpenEvidence、OPEN 体育课程等无关站点，没有一条说明开发者在此任务上的痛点、频率、不解决的后果或现有替代行为，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-306069738d84296e
+    - ev-09f6cdb0b082157d
+    - ev-524b10d6baded041
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Open Reality 仓库的 README、issue 与 discussion，确认是否有开发者描述具体使用场景、替代的旧流程或部署反馈。
+  market: ''
+  job: 开发者想让 AI 助手（Claude、Codex、Cursor）理解真实物理空间时，用手机拍摄一段视频，经 VGGT-SLAM 重建为三维场景，再通过 MCP 工具让 AI 查询该场景，交付可自托管的场景查询服务。
+  job_en: A developer who wants an AI assistant (Claude, Codex, Cursor) to understand a real physical
+    space shoots a phone video, reconstructs it into a 3D scene via VGGT-SLAM, and exposes it through
+    MCP tools so the AI can query the scene, delivering a self-hostable scene-query service.
+  pain: 公开证据中没有任何用户痛点、抱怨或旧流程摩擦的记录；现有证据条目全部指向 OpenAI、OpenEvidence、OPEN 体育课程等无关站点，无法说明开发者在此任务上哪里难受、频率多高、不解决会失去什么。
+  pain_en: No public evidence records any user pain, complaint, or friction in the old workflow; all evidence
+    items point to unrelated sites (OpenAI, OpenEvidence, an OPEN PE curriculum), so nothing shows where
+    developers hurt, how often, or what they lose by not solving this.
+  current_alternative: 公开材料未说明开发者目前如何让 AI 理解真实空间（例如手工建模、点云工具、截图描述或直接放弃该需求），因此无法确认它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently let AI understand real
+    spaces (e.g., manual modeling, point-cloud tools, screenshot descriptions, or simply not doing it),
+    so what it replaces is unknown.
+  usage_reason: 推断：若开发者确实需要让 AI 查询真实空间，MCP 接口可省去为每个 AI 客户端单独写集成的一步；但公开证据未记录任何用户反馈或采用行为，无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if developers genuinely need AI to query real spaces, the MCP interface
+    could save writing a separate integration per AI client; however, no public evidence records user
+    feedback or adoption, so which users would choose it and when cannot be confirmed.'

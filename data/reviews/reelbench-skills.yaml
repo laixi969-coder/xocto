@@ -209,3 +209,55 @@
     would avoid rebuilding them from scratch; but the public material offers only a one-line positioning
     statement with no input, output, or replaced step, and no adoption, reuse or feedback evidence, so
     it cannot be confirmed which users would choose it and when.'
+- id: req-full-reelbench-skills-2026-09-16
+  project_slug: reelbench-skills
+  level: full
+  reviewed_at: '2026-09-16T00:51:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 视频创作者提示词、参数与工具调用步骤零散、难以复用的问题；公开材料只给定位描述，痛点强度与不采用后果由工作流结构推理得出，属结构推理而非用户口述，故价值关成立但把握有限。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+    - ev-7c16d1bf5b7eaeb4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 163 增至 695 只反映关注度上升，没有 issue、discussion、客户案例或使用反馈说明谁在什么场景下真正采用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+    - ev-bb4160085c2f9135
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页、无买方与收费路径信息，钱可能来自 to C 创作者赞助或 to B 团队定制，但均属判断而非已验证事实，公开材料未给出任何付费证据。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+    - ev-6012a71336220758
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近 AI 视频制作的第一性目标，也没有交付结果、人工边界或安全说明；仅有仓库定位描述，承诺能否确定性交付无法验证。
+    evidence_ids:
+    - ev-2b52fe94477adda3
+    - ev-7a7b3f54bf323eb1
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际替代的视频制作步骤、产出物形态与是否被重复调用。
+  market: ''
+  job: AI 视频创作者与剪辑师在准备生成或后期流程时，需要把散落在教程、聊天记录和工具文档里的提示词、模型参数与工具调用步骤整理成可复用的操作资料，以便下一次做同类镜头时直接调用而不是从零拼装。
+  job_en: AI video creators and editors preparing a generation or post-production workflow need to consolidate
+    prompts, model parameters and tool-call steps scattered across tutorials, chat logs and tool docs
+    into reusable operating material, so the next similar shot can be called up directly instead of rebuilt
+    from scratch.
+  pain: 公开材料只给出定位描述（学习笔记与工具 skill），未说明创作者具体卡在哪一步、失败代价多大；从工作流结构推理，痛点是 AI 视频工具链迭代快、参数与提示词经验难以沉淀，每次新项目都要重新试错。
+  pain_en: The public material only gives a positioning statement (learning notes and tooling skills)
+    and does not say which step creators get stuck on or how costly failure is; inferred from workflow
+    structure, the pain is that AI video toolchains iterate fast and prompt/parameter know-how is hard
+    to accumulate, forcing re-experimentation on every new project.
+  current_alternative: 创作者自行收藏教程、在聊天记录和笔记软件里翻找提示词、逐个工具手动搬运参数，或依赖社区零散分享。
+  current_alternative_en: Creators bookmark tutorials themselves, dig prompts out of chat logs and note
+    apps, manually move parameters between tools, or rely on scattered community sharing.
+  usage_reason: 推断：若这些 skill 把提示词与参数固化为可重复调用的步骤，创作者在新项目里就省去重新试参和翻找笔记这一步，因此正在做系列化 AI 视频、需要复用同一套参数的人会选用它；仓库星标从
+    163 增至 695 只说明关注度上升，不构成复用或留存证据。
+  usage_reason_en: 'Inference: if these skills fix prompts and parameters into repeatable steps, creators
+    skip re-testing parameters and hunting through notes on a new project, so those producing serialized
+    AI video who need to reuse one parameter set would pick it; the star count rising from 163 to 695
+    only shows attention, not reuse or retention.'

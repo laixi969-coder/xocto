@@ -431,3 +431,54 @@
     removing the rebooking, re-staging, and re-recording step while keeping keys and footage in the browser,
     so creators who care about re-shoot cost or refuse to hand real footage to a third-party cloud would
     choose it. Stars rising from 343 to 397 show attention only, not sustained use.'
+- id: req-full-video-ai-talking-2026-09-16
+  project_slug: video-ai-talking
+  level: full
+  reviewed_at: '2026-09-16T00:52:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决真人口播需频繁换文案却要反复重录的问题：上传已有出镜视频、写字幕、本机配音对口型并导出竖屏 MP4，省去布光、机位与 NG 重录，密钥不出浏览器降低素材外泄顾虑。痛点刚性来自口播更新频率，属工作流结构推理；仓库
+      366→409 星说明有持续关注，但无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-c2c9709749efee3f
+    - ev-b990a2b03659ef7e
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有 公开代码仓库 仓库星标从 366 增至 409 与复刻数，属关注度而非持续采用；没有 issue、discussion、用户评价或客户案例说明谁在什么场景反复使用、替代了哪条旧流程。强场景可判断，但共识证据仍薄。
+    evidence_ids:
+    - ev-c2c9709749efee3f
+    - ev-b990a2b03659ef7e
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费入口或采购记录，买方是个人创作者自用、团队采购还是靠赞助/融资维持无法判断。密钥留在浏览器意味着无云端算力成本转嫁，但收入路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-c2c9709749efee3f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述本机配音与对口型、导出竖屏 MP4，未见部署文档、可复现实测或输出质量样例，无法确认口型对齐与音画同步能否稳定交付；也未说明真人肖像与声音使用的授权与安全边界。
+    evidence_ids:
+    - ev-c2c9709749efee3f
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现可复现的部署说明、输出样例或用户反馈，以核验口型对齐交付质量与真实使用场景。
+  market: ''
+  job: 真人口播创作者或短视频运营者已有一段真人出镜素材，需要为它配上新的口播文案与配音，并让嘴型对齐，最终产出可直接发布的竖屏 MP4，而不必重新对着镜头逐条重录。
+  job_en: A talking-head creator or short-video operator who already has real on-camera footage needs
+    to attach new voiceover script and audio to it, align the lip movement, and export a publish-ready
+    vertical MP4 without re-shooting themselves on camera.
+  pain: 口播内容需要频繁更新文案，但重录意味着重新布光、重摆机位、反复 NG 和重新剪辑；出镜者还可能因形象、口音或状态不愿反复面对镜头。公开材料只给出产品定位，未提供用户抱怨或频率数据，因此痛点强度属工作流结构推理。
+  pain_en: Talking-head content needs frequent script updates, but re-shooting means re-lighting, re-framing,
+    repeated takes and re-editing; the on-camera person may also be unwilling to face the lens repeatedly.
+    Public materials give only the product positioning, not user complaints or frequency data, so pain
+    intensity is a workflow-structure inference.
+  current_alternative: 旧做法是本人重新出镜逐条重录，或改用纯字幕/图文/无人出镜的剪辑，或使用云端数字人口播服务（需上传素材并交出密钥与素材）。公开材料未说明用户实际在用哪一种。
+  current_alternative_en: The old way is to re-shoot on camera take by take, or to fall back to subtitle/text-only
+    edits with no face, or to use cloud digital-human services that require uploading footage and handing
+    over keys and assets. Public materials do not show which one users actually use.
+  usage_reason: 推断：相较重录，它把「重新出镜」这一步替换为上传已有视频加字幕，在本机完成配音与口型对齐并直接导出竖屏 MP4，省掉布光、机位与反复 NG；相较云端数字人服务，密钥只留在浏览器减少了素材外泄顾虑。因此已有一段可用出镜素材、但需要频繁换文案的创作者会在这种情况下选择它。公开材料未提供用户反馈或案例佐证这一动机。
+  usage_reason_en: 'Inference: versus re-shooting, it replaces the ''go back on camera'' step with uploading
+    existing footage plus a script, doing voiceover and lip-sync locally and exporting a vertical MP4,
+    removing lighting, framing and repeated takes; versus cloud digital-human services, keeping keys in
+    the browser reduces asset-exposure concerns. Creators who already have usable footage but need frequent
+    script changes would choose it in that situation. Public materials provide no user feedbac'

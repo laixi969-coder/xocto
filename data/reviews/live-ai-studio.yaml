@@ -39,3 +39,82 @@
   usage_reason: 提供免绿幕的即时人脸追踪和虚拟背景切换，降低中小型创作者的开播布景门槛。
   usage_reason_en: Enables instant face tracking and virtual background substitution without physical
     green screens, lowering setup barriers for creators.
+- id: req-initial-live-ai-studio-2026-09-16
+  project_slug: live-ai-studio
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是直播画面中背景与人脸处理的实时化需求，但材料未说明旧流程、频率与不采用的后果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-779a18d56f8d06ae
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有可归因到该产品的采用、留存或付费证据，无法判断共识卡在哪一环。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，无法判断钱来自主播、MCN 还是平台，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对实时处理是否稳定交付、人工确认边界在哪，也缺少与第一性目标贴近程度的证据。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或演示文档，确认实时人脸跟踪与背景替换的输入、输出与是否需要人工确认。
+  market: ''
+  job: 主播或视频创作者在开播或录制时，处理摄像头实时画面，要完成带人脸跟踪与背景替换的可用直播画面。
+  job_en: A streamer or video creator handles the live camera feed while broadcasting or recording, aiming
+    to produce a usable live picture with face tracking and background replacement.
+  pain: 候选材料只给出产品一句话描述，没有说明旧做法是谁、用什么、花多久完成同一件事，也没有用户抱怨或替代行为的记录。
+  pain_en: The candidate only provides a one-line product description; it does not say who did this before,
+    with what tool, or how long it took, and there is no record of user complaints or workarounds.
+  current_alternative: 公开材料未说明现有替代方式，无法确认是绿幕与硬件采集卡，还是后期剪辑软件。
+  current_alternative_en: Public material does not describe the current alternative, so it is unclear
+    whether that is a green screen and capture card or post-production editing software.
+  usage_reason: 推断：若它能在开播当下直接输出替换背景后的画面，可省去布置实体布景或后期抠像这一步，中小主播可能因此选择它；但缺少用户反馈与重复使用证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if it outputs a background-replaced picture at broadcast time, it could
+    remove the step of building a physical set or keying in post, which might lead small streamers to
+    choose it; without user feedback or repeat-use evidence this motive cannot be confirmed.'
+- id: req-full-live-ai-studio-2026-09-16
+  project_slug: live-ai-studio
+  level: full
+  reviewed_at: '2026-09-16T00:50:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决直播画面中背景与人脸处理的实时化需求，但材料未说明旧流程、频率与不采用的后果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-779a18d56f8d06ae
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Live AI Studio 官方产品页或演示文档，确认实时人脸跟踪与背景替换的输入、输出与是否需要人工确认。
+  market: ''
+  job: 主播或视频创作者在开播或录制时，把摄像头画面交给实时人脸跟踪与背景替换处理，直接得到可用的直播画面。
+  job_en: A streamer or video creator hands the camera feed to real-time face tracking and background
+    replacement while broadcasting or recording, aiming to get a usable live picture directly.
+  pain: 公开材料只有一句产品描述，没有说明旧做法是谁、用什么工具、花多久完成同一件事，也没有用户抱怨或替代行为的记录，痛点强度无法判断。
+  pain_en: Public material offers only a one-line product description; it does not say who did this before,
+    with what tool, or how long it took, and there is no record of user complaints or workarounds, so
+    pain intensity cannot be judged.
+  current_alternative: 公开材料未说明现有替代方式，无法确认是绿幕与硬件采集卡、OBS 虚拟摄像头，还是后期剪辑软件。
+  current_alternative_en: Public material does not describe the current alternative, so it is unclear
+    whether that is a green screen with capture card, OBS virtual camera, or post-production editing software.
+  usage_reason: 推断：若它能在开播当下直接输出替换背景后的画面，可省去布置实体布景或后期抠像这一步，中小主播可能因此选择它；但缺少用户反馈与重复使用证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if it outputs a background-replaced picture at broadcast time, it could
+    remove the step of building a physical set or keying in post, which might lead small streamers to
+    choose it; without user feedback or repeat-use evidence this motive cannot be confirmed.'

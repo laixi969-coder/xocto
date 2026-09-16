@@ -1,6 +1,6 @@
 ---
 slug: 博通ceo回应ai放缓担忧算力需求仍强劲-长期收入目标不变
-name: 博通CEO回应AI放缓担忧：算力需求仍强劲 长期收入目标不变
+name: 博通
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yY2NCNEV5aDdI
 summary: 博通CEO回应AI放缓担忧：算力需求仍强劲 长期收入目标不变 东方财富
 first_seen: '2026-09-15T11:56:36Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 博通CEO回应AI放缓担忧：算力需求仍强劲 长期收入目标不变
+# 博通
 
 博通CEO回应AI放缓担忧：算力需求仍强劲 长期收入目标不变 东方财富
 

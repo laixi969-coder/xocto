@@ -1,0 +1,83 @@
+- id: req-initial-deplo-2026-09-16
+  project_slug: deplo
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决部署配置繁琐的问题，但公开材料只有一句定位，说不清替代了哪一步旧工作，价值结构无法确认。
+    evidence_ids:
+    - ev-1d5d5e19b1e4ae4b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页收录，没有可归因到该产品的采用、评价或持续使用证据。
+    evidence_ids:
+    - ev-1d5d5e19b1e4ae4b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是否按项目、按席位还是按用量收费均不清楚，属判断而非事实。
+    evidence_ids:
+    - ev-1d5d5e19b1e4ae4b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对部署是否确定性完成、失败时如何回滚，公开材料未提供可复现的验证结果。
+    evidence_ids:
+    - ev-1d5d5e19b1e4ae4b
+  next_validation: 收集 Deplo 官方定价页与部署文档，确认它支持的技术栈、计费方式以及是否有公开客户案例。
+  market: ''
+  job: 开发者或小团队在把做好的应用上线时，需要完成服务器配置、容器打包和发布，让服务能被外部访问并保持可用。
+  job_en: A developer or small team putting a finished application online needs to handle server configuration,
+    container packaging and release so the service is reachable and stays available.
+  pain: 云部署的配置步骤多、出错后排查成本高；但公开材料没有说明 Deplo 具体减少了哪一步，也没有用户抱怨或案例佐证。
+  pain_en: Cloud deployment involves many configuration steps and costly troubleshooting when things break;
+    the public material does not say which step Deplo removes, and there is no user complaint or case
+    to support it.
+  current_alternative: 自行配置云主机与容器，或使用现有托管部署平台和 CI/CD 流水线。
+  current_alternative_en: Configuring cloud hosts and containers by hand, or using existing managed deployment
+    platforms and CI/CD pipelines.
+  usage_reason: 推断：若它真能把配置与发布合并成一次提交，使用者可省去逐项设置服务器和流水线的工作，因此不熟悉运维的小团队可能选择它；目前没有定价、客户案例或使用数据支持这一判断。
+  usage_reason_en: 'Inference: if it truly merges configuration and release into a single submission,
+    users skip setting up servers and pipelines item by item, so small teams unfamiliar with operations
+    may choose it; no pricing, customer case or usage data currently supports this.'
+- id: req-full-deplo-2026-09-16
+  project_slug: deplo
+  level: full
+  reviewed_at: '2026-09-16T00:49:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决部署配置繁琐的问题，但公开材料只有一句定位，说不清替代了哪一步旧工作，也写不出痛点强度与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-1d5d5e19b1e4ae4b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Deplo 官方产品页与部署文档，确认其支持的技术栈、交付形态与是否公开定价或客户案例。
+  market: ''
+  job: 开发者或小团队在把做好的应用上线时，需要完成服务器配置、容器打包与发布，让服务能被外部访问并保持可用。
+  job_en: A developer or small team putting a finished application online needs to handle server configuration,
+    container packaging and release so the service is reachable and stays available.
+  pain: 公开材料只有一句定位，未说明 Deplo 具体替代哪一步旧工作，也没有用户抱怨、案例或使用行为佐证部署配置的痛点强度。
+  pain_en: The public material contains only a one-line positioning; it does not say which step of the
+    old workflow Deplo replaces, and there is no user complaint, case or usage behavior to support the
+    intensity of the deployment-configuration pain.
+  current_alternative: 自行配置云主机与容器，或使用现有托管部署平台和 CI/CD 流水线。
+  current_alternative_en: Configuring cloud hosts and containers by hand, or using existing managed deployment
+    platforms and CI/CD pipelines.
+  usage_reason: 推断：若它真能把配置与发布合并成一次提交，使用者可省去逐项设置服务器和流水线的工作，不熟悉运维的小团队可能因此选择它；但公开材料没有定价、客户案例或使用数据支持这一判断。
+  usage_reason_en: 'Inference: if it truly merges configuration and release into a single submission,
+    users skip setting up servers and pipelines item by item, so small teams unfamiliar with operations
+    may choose it; however, no pricing, customer case or usage data in the public material supports this.'

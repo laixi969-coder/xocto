@@ -297,3 +297,53 @@
     and ''write each response'' into one check, while role-based review and AI-adoption tracing let reviewers
     see each response''s origin, so bid specialists facing dense documents and tight windows would use
     it to produce a draft before human confirmation.'
+- id: req-full-tender-assistant-v25-2026-09-16
+  project_slug: tender-assistant-v25
+  level: full
+  reviewed_at: '2026-09-16T00:51:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是投标专员从招标文件中提取要求并生成可提交响应文档的需求，痛点是漏项即废标、多角色复核难追溯，属刚性后果；公开仓库说明已还原输入—解析—草稿—角色审查的交付闭环，但这是工作流结构推理，尚无用户反馈或客户案例佐证痛点强度。
+    evidence_ids:
+    - ev-51127f37496633aa
+    - ev-1bb6a545422a540b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 53 升至 101 后回落至 100，说明开发者社区持续关注，但收藏属关注度证据，不能证明投标专员已把它留在日常投标流程中；公开材料未见用户评价、issue 讨论或部署案例说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-51127f37496633aa
+    - ev-1bb6a545422a540b
+    - ev-71c5e880963877f9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购记录，无法判断收入来自投标企业采购、按席位订阅还是开源免费加服务；这是判断而非已验证事实，买方缺口不反推需求不存在。
+    evidence_ids:
+    - ev-0aa60f452f5342f3
+  - gate: truth
+    status: insufficient
+    reason: 产品自述草稿需人工确认，但公开材料未给出解析准确率、漏项率或人工复核边界的可复现证据，无法核验交付能否稳定发生；招投标场景对错误容忍度极低，这一环缺失会直接影响可用性判断。
+    evidence_ids:
+    - ev-915bbb62a2fd21df
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开解析准确率、人工复核边界或真实投标场景的部署与使用记录。
+  market: ''
+  job: 投标专员或商务经理在收到一份几十到上百页的招标文件后，需要逐条提取资质、技术、商务与评分要求，据此组织并撰写可提交的投标响应文档，再交由技术、商务、法务等角色分头复核。
+  job_en: A bid specialist or business manager receives a tender document of dozens to hundreds of pages,
+    must extract qualification, technical, commercial and scoring requirements line by line, then draft
+    a submittable bid response and route it to technical, commercial and legal reviewers.
+  pain: 招标文件条款密集、评分点分散，人工逐条比对容易漏项，漏掉一条废标条款就可能导致整份投标作废，前期投入全部沉没；多角色复核又依赖邮件和文档版本传递，责任与修改痕迹难以追溯。
+  pain_en: Tender terms are dense and scoring points scattered; manual line-by-line checking easily misses
+    a disqualifying clause, which can void the entire bid and sink all prior effort, while multi-role
+    review via email and document versions makes responsibility and edit trails hard to trace.
+  current_alternative: 当前替代方式是人工通读招标文件并手工摘录要求，用 Word 模板和历史标书拼装草稿，再通过邮件或共享盘在技术、商务、法务之间来回传阅修改。
+  current_alternative_en: Today the work is done by manually reading the tender and hand-extracting requirements,
+    assembling drafts from Word templates and past bids, then circulating revisions among technical, commercial
+    and legal reviewers by email or shared drive.
+  usage_reason: 推断：相较人工通读加邮件传阅，该原型把招标文件作为输入直接解析出关键要求，按行业 Skill 生成可编辑草稿，并以角色化审查和可追溯的 AI 采用记录替代版本散落的邮件往返，因此投标专员在赶标期、需要快速出初稿并留痕复核时更可能选择它。
+  usage_reason_en: 'Inference: versus manual reading plus email circulation, the prototype takes the tender
+    as input, parses key requirements, generates an editable draft via industry Skills, and replaces scattered
+    email versions with role-based review and traceable AI adoption records, so bid specialists under
+    deadline pressure are more likely to choose it when they need a fast first draft with an auditable
+    review trail.'

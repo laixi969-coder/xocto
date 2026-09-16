@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/lucidbit
 summary: Your clipboard, within reach
 first_seen: '2026-09-15T00:44:31Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

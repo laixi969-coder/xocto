@@ -348,3 +348,55 @@
     by hand, the platform funnels scanning and attack simulation after target input into one automated
     flow that outputs a report, cutting tool-switching and result-stitching steps, so red-team or SRC
     practitioners needing fast target coverage would choose it; no user feedback yet confirms this motive.'
+- id: req-full-strikeagent-atkbrain-flash-2026-09-16
+  project_slug: strikeagent-atkbrain-flash
+  level: full
+  reviewed_at: '2026-09-16T00:51:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队打点与 SRC/CTF 场景下信息收集和漏洞验证重复耗时的需求，痛点是时限与漏项后果刚性；旧做法是多工具人工串联，属工作流结构推理，公开材料未给出用户采用证据。
+    evidence_ids:
+    - ev-739b80f76ca1f8f3
+    - ev-ee27df2d369530b1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 由 317 升至 350，说明开发者关注度在增长，但无 issue、discussion 或用户反馈说明它被持续用于真实授权测试，关注度不等于持续采用。
+    evidence_ids:
+    - ev-739b80f76ca1f8f3
+    - ev-a8d363786a7c4196
+    - ev-ee27df2d369530b1
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、授权方式或商业主体说明，买方可能是安全团队、SRC 平台或个人研究者，属推断而非已验证事实；开源仓库本身不构成付费路径。
+    evidence_ids:
+    - ev-739b80f76ca1f8f3
+  - gate: truth
+    status: insufficient
+    reason: 自动化程度、扫描是否越权、报告是否可复现均未在公开材料披露；渗透测试涉及授权边界与法律风险，缺少部署文档与安全边界说明无法核对交付确定性。
+    evidence_ids:
+    - ev-739b80f76ca1f8f3
+  next_validation: 抓取该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，核对实际输入输出、授权边界说明以及是否披露定价或商业使用条款。
+  market: ''
+  job: 红队渗透测试工程师或安全研究员在拿到授权目标（域名、IP 段、SRC 项目范围）后，需要完成信息收集、打点、漏洞验证并产出可提交的渗透测试报告，CTF 场景下则要在限时内完成题目利用。
+  job_en: A red-team penetration tester or security researcher who has an authorized target (domain, IP
+    range, SRC scope) must run reconnaissance, initial access, vulnerability validation and produce a
+    submittable pentest report; in CTF the same person must complete exploitation within a time limit.
+  pain: 打点与信息收集高度重复且耗时，人工逐项枚举子域、端口、指纹和已知漏洞容易漏项；SRC 与 CTF 有明确时限和排名压力，漏掉一个入口就失去提交机会，而现有工具链需要人工在多个脚本之间搬运结果。
+  pain_en: Reconnaissance and initial access are repetitive and slow; manually enumerating subdomains,
+    ports, fingerprints and known vulnerabilities misses items, while SRC and CTF have hard deadlines
+    and ranking pressure where one missed entry point loses the submission, and today's toolchain forces
+    manual shuttling of results between scripts.
+  current_alternative: 公开材料未说明其内部流程，但该岗位的通行旧做法是 Nmap、子域枚举脚本、Burp Suite、Metasploit 等工具人工串联，再手工整理成报告；候选证据未提供用户对其替代关系的描述。
+  current_alternative_en: Public materials do not describe its internal pipeline, but the standard prior
+    practice for this role is manually chaining Nmap, subdomain enumeration scripts, Burp Suite and Metasploit,
+    then writing the report by hand; the candidate evidence does not include user statements about what
+    it replaces.
+  usage_reason: 推断：若它把目标输入后的枚举、扫描与攻击模拟串成一次自动执行并直接产出报告，用户省去的是在多个工具间搬运结果和手工整理报告这两步；因此赶 SRC 提交窗口或 CTF 赛时的红队人员会优先试它。仓库
+    star 从 317 增至 350 只说明关注度上升，不能证明已被长期留在工作流中。
+  usage_reason_en: 'Inference: if it chains enumeration, scanning and attack simulation into one automated
+    run from a target input and emits a report directly, users skip shuttling results between tools and
+    hand-assembling the report, which is why red-teamers facing an SRC submission window or a CTF clock
+    would try it first. Stars rising from 317 to 350 shows attention only, not sustained workflow retention.'

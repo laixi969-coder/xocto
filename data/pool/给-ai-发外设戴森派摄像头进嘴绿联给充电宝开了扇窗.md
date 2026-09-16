@@ -1,6 +1,6 @@
 ---
 slug: 给-ai-发外设戴森派摄像头进嘴绿联给充电宝开了扇窗
-name: 给 AI 发外设，戴森派摄像头进嘴、绿联给充电宝开了扇窗
+name: Violoop
 builder: ''
 category: ''
 summary_zh: ''
@@ -63,7 +63,7 @@ summary: "AI 正在把所有硬件重新做一遍，这句话说了三年，这�
   \ instax 一年出货上千万台，比很多手机厂商的旗舰机卖得都多，它证明的是人们愿意为「照片的实体」付钱。"
 first_seen: '2026-09-15T06:01:55Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -74,7 +74,7 @@ sightings:
   kind: news
 ---
 
-# 给 AI 发外设，戴森派摄像头进嘴、绿联给充电宝开了扇窗
+# Violoop
 
 AI 正在把所有硬件重新做一遍，这句话说了三年，这周轮到了一把牙刷。 
  今天，IFA 柏林开展，一千九百个品牌都在不同角度展示自己的创新力，连戴森都掏出了一款牙刷来告诉行业，我也能用 AI 玩出花样，牙刷 Dyson CameraJe 刷头下藏着一颗 1 毫米的摄像头，每秒盯着你哪颗牙没刷干净。联想打造了个人智能体 Qira，横跨着电脑、手机、手表等多设备生态。你在哪里，智能体跟随服务到哪里。 

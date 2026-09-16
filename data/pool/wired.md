@@ -21,7 +21,7 @@ canonical_url: https://wired.com/story/insurance-claims-adjusters-really-hate-ai
 summary: You Know Who Hates AI? Insurance Claims Adjusters
 first_seen: '2026-08-31T11:01:19Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

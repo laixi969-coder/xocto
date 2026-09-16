@@ -606,3 +606,55 @@
     ''guess what was lost'' into ''see which step dropped it''. DSH users repeatedly hit by forgotten
     context would pick it when debugging context anomalies; public materials do not yet contain user feedback
     or retention evidence for this motive.'
+- id: req-full-dsh-context-2026-09-16
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-09-16T00:49:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后不可见、模型遗忘关键信息却无法定位的需求，痛点在长任务中刚性且反复出现；公开材料仅给出插件功能说明，旧流程与交付闭环属工作流结构推理，谁付钱未核验。
+    evidence_ids:
+    - ev-2998a1b740e8da34
+    - ev-1d524d9b0a4d58dc
+  - gate: consensus
+    status: insufficient
+    reason: 同生态 DSH 插件（opencode2dsh 57→64 星、dsh-acp-interactive 41→46 星）显示社区在关注 DSH 插件形态，但这些是相邻项目而非本插件自身的采用或持续使用证据，无法证明目标用户已把它留在工作流里。
+    evidence_ids:
+    - ev-2998a1b740e8da34
+    - ev-1df8b55da969ace6
+    - ev-1d524d9b0a4d58dc
+    - ev-94e5e95d97803cda
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自开发者个人订阅、DSH 生态赞助或开源捐赠，属判断而非已验证事实；这是模式缺口，不否定需求本身。
+    evidence_ids:
+    - ev-2998a1b740e8da34
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有功能描述，缺少可复现的部署文档、issue 或实测，无法确认上下文事件展示是否准确、压缩行为是否与 DSH 实际一致，以及是否存在误报或安全边界问题。
+    evidence_ids:
+    - ev-1d524d9b0a4d58dc
+    - ev-2748f7a453c06897
+  next_validation: 追踪该插件在 npm 或代码仓库的 README、issue 与 discussion，确认是否有可复现的上下文事件展示示例及真实用户报告遗忘排查场景。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或重度用户在长对话/多轮编码任务中，处理不断增长的上下文材料（历史消息、工具调用、检索片段），需要看清当前上下文由什么组成、哪些内容被压缩或剪枝丢弃，以便判断模型为何遗忘关键信息并调整提示或工作流。
+  job_en: Developers and heavy users of DeepSeek Harness, working on long multi-turn coding sessions,
+    handle a growing context of history, tool calls and retrieved snippets, and need to see what the context
+    is composed of and what was dropped by compaction or pruning, so they can explain why the model forgot
+    key facts and adjust prompts or workflow.
+  pain: 长会话中上下文会被自动压缩、剪枝，用户看不到哪些信息被丢弃，导致模型突然遗忘关键约束或代码细节，只能靠反复重述、重开会话或猜测来补救，排查成本高且不可预期。
+  pain_en: In long sessions the context is auto-compacted and pruned without visibility, so the model
+    suddenly forgets key constraints or code details; users must restate, restart sessions or guess, making
+    debugging costly and unpredictable.
+  current_alternative: 当前替代方式是凭经验猜测上下文状态、手动重述关键信息、重开会话，或直接阅读原始日志/消息列表自行推断压缩行为。
+  current_alternative_en: Today users guess the context state from experience, manually restate key facts,
+    restart sessions, or read raw logs and message lists to infer compaction behavior.
+  usage_reason: 推断：相较手动翻日志或凭经验猜测，该插件通过 Context 面板与命令直接展示上下文的组成、演进、压缩与剪枝事件，把“猜哪一步丢了信息”变成可核对的事件视图，因此长会话中遇到遗忘问题的
+    DSH 用户会在排查时选择它。
+  usage_reason_en: 'Inference: versus manually reading logs or guessing, the plugin''s Context panel and
+    command surface composition, evolution, compaction and pruning events directly, turning ''guess which
+    step dropped the info'' into a checkable event view, so DSH users hitting forgetting in long sessions
+    would pick it when debugging.'

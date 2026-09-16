@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBZNWxfdUZFQ1lf
 summary: 'Best AI Image Generators of 2026: Google’s Nano Banana vs. ChatGPT Images and More CNET'
 first_seen: '2026-09-14T16:17:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

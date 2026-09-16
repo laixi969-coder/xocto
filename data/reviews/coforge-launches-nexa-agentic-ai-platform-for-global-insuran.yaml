@@ -1,0 +1,87 @@
+- id: req-initial-coforge-launches-nexa-agentic-ai-platform-for-global-insuran-2026-09-16
+  project_slug: coforge-launches-nexa-agentic-ai-platform-for-global-insuran
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决保险核保理赔的跨系统资料核对，但公开材料未说明具体替代哪一步、交付什么结果，价值结构无法确认。
+    evidence_ids:
+    - ev-8006e49b44165b6a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布消息，没有客户采用、试点或行业讨论证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-8006e49b44165b6a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断收入来自保险公司采购还是项目制外包。
+    evidence_ids:
+    - ev-8006e49b44165b6a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对智能体在核保理赔中的准确率、人工复核边界与合规责任划分。
+    evidence_ids:
+    - ev-8006e49b44165b6a
+  next_validation: 收集 Coforge 官方发布的 Nexa 产品页或客户案例，确认其具体接管的保险流程环节、交付物与定价方式。
+  market: ''
+  job: 保险公司的核保或理赔运营人员在处理新报案或新投保件时，需要从多个系统调取保单、理赔与客户资料，完成信息核对与流程推进。
+  job_en: Underwriting or claims operations staff at insurers pull policy, claims and customer records
+    from multiple systems to reconcile information and move a new claim or application forward.
+  pain: 跨系统手工调取与核对资料耗时且易漏项，但公开材料没有说明 Nexa 具体替代哪一步，痛点强度无法从现有事实确认。
+  pain_en: Manual cross-system retrieval and reconciliation is slow and error-prone, but the public material
+    does not say which step Nexa replaces, so pain intensity cannot be confirmed from available facts.
+  current_alternative: 现有做法是人工在核心保单系统、理赔系统与邮件之间切换，或由 Coforge 等 IT 服务商做定制外包开发。
+  current_alternative_en: Today staff switch between core policy systems, claims systems and email, or
+    insurers commission custom outsourced development from firms such as Coforge.
+  usage_reason: 推断：若 Nexa 能直接读取保单与理赔材料并输出可核对的核对结果，可省去人工跨系统取数这一步，核保与理赔团队才会在批量案件处理时选择它；目前缺少功能、客户与定价证据，无法确认这一因果。
+  usage_reason_en: 'Inference: if Nexa can read policy and claims documents directly and output a checkable
+    reconciliation, it removes the manual cross-system retrieval step, which is why underwriting and claims
+    teams would pick it for batch case handling; functional, customer and pricing evidence is missing,
+    so this causal link is unconfirmed.'
+- id: req-full-coforge-launches-nexa-agentic-ai-platform-for-global-insuran-2026-09-16
+  project_slug: coforge-launches-nexa-agentic-ai-platform-for-global-insuran
+  level: full
+  reviewed_at: '2026-09-16T00:48:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决保险核保理赔的跨系统资料核对，但公开材料未说明 Nexa 具体读取哪些材料、替代哪一步、交付什么结果，需求与痛点均无法还原，价值结构不能确认。
+    evidence_ids:
+    - ev-af29c5473ffaf0af
+    - ev-adfadf03dc4813e1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Coforge 官网 Nexa 产品页或客户案例，确认其具体接管的保险流程环节、交付物与定价方式。
+  market: ''
+  job: 保险公司的核保、理赔或保单服务人员，在处理新投保件或新报案时，需要从核心保单系统、理赔系统与邮件中调取保单、理赔与客户资料，完成信息核对并推进流程。
+  job_en: Underwriting, claims or policy-servicing staff at insurers pull policy, claims and customer
+    records from core policy systems, claims systems and email to reconcile information and move a new
+    application or claim forward.
+  pain: 公开材料只说明 Nexa 由智能体承接流程性环节，未说明读取哪些材料、执行哪一步、交付什么结果，因此跨系统手工取数的痛点强度与不解决的后果无法从现有事实确认。
+  pain_en: Public material only says Nexa's agents take over process steps; it does not say which materials
+    are read, which step is executed or what is delivered, so the pain of manual cross-system retrieval
+    and its cost of inaction cannot be confirmed from available facts.
+  current_alternative: 现有做法是人工在核心保单系统、理赔系统与邮件之间切换取数，或由 Coforge 等 IT 服务商做定制外包开发。
+  current_alternative_en: Today staff switch between core policy systems, claims systems and email to
+    retrieve data, or insurers commission custom outsourced development from IT services firms such as
+    Coforge.
+  usage_reason: 推断：若 Nexa 能直接读取保单与理赔材料并输出可核对的核对结果，可省去人工跨系统取数这一步，核保与理赔团队才会在批量案件处理时选择它；但公开材料未给出功能细节、客户案例或定价，这一因果无法确认。
+  usage_reason_en: 'Inference: if Nexa can read policy and claims documents directly and output a checkable
+    reconciliation, it removes the manual cross-system retrieval step, which is why underwriting and claims
+    teams would pick it for batch case handling; but public material gives no functional detail, customer
+    case or pricing, so this causal link is unconfirmed.'

@@ -22,7 +22,7 @@ summary: Last day to exhibit at Disrupt is Sept 18. 4 days left. Get your startu
   founders, investors, operators and tech leaders October 13–15.
 first_seen: '2026-09-15T14:00:00Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

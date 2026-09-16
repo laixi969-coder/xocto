@@ -21,7 +21,7 @@ canonical_url: https://github.com/theronic/eacl
 summary: EACL is a situated ReBAC authorization library for Datomic and Datahike
 first_seen: '2026-09-15T14:09:39Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

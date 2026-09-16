@@ -1,6 +1,6 @@
 ---
 slug: 智能体人才标准迈向出海360-adee认证纳入北京市出海职业认证清单
-name: 智能体人才标准迈向出海：360 ADEE认证纳入北京市出海职业认证清单
+name: 360 ADEE
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE05UmQxbmk2NjZJ
 summary: 智能体人才标准迈向出海：360 ADEE认证纳入北京市出海职业认证清单 央广网
 first_seen: '2026-09-14T10:28:31Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 智能体人才标准迈向出海：360 ADEE认证纳入北京市出海职业认证清单
+# 360 ADEE
 
 智能体人才标准迈向出海：360 ADEE认证纳入北京市出海职业认证清单 央广网
 

@@ -1,0 +1,90 @@
+- id: req-initial-stonelogin-2026-09-16
+  project_slug: stonelogin
+  level: initial
+  reviewed_at: '2026-09-16T00:20:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号运营者被平台关联封号的问题，旧做法是买主流指纹浏览器或自搭虚拟机，痛点刚性且已有付费替代，属工作流推理。
+    evidence_ids:
+    - ev-6d79a4c25ba1156a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区自述帖和 21 条评论，没有独立用户反馈或客户案例，无法判断他人是否真的在用。
+    evidence_ids:
+    - ev-6d79a4c25ba1156a
+  - gate: model
+    status: insufficient
+    reason: 开发者称定价更低但未给出价格页，买方是中小跨境卖家属推断，付费路径尚未核验。
+    evidence_ids:
+    - ev-6d79a4c25ba1156a
+  - gate: truth
+    status: insufficient
+    reason: 指纹隔离与 pixelscan 通过均为开发者自述，无第三方复测；账号安全边界与平台合规风险也未说明。
+    evidence_ids:
+    - ev-6d79a4c25ba1156a
+  next_validation: 抓取 Stonelogin 官网定价页与产品文档，核对是否公开按账号或环境计费的价格，以及是否提供第三方指纹检测报告。
+  market: ''
+  job: 跨境电商卖家或广告投放代理，在同时运营多个平台账号时，需要让每个账号在互相隔离的浏览器环境里登录和操作，避免被平台判定为同一设备。
+  job_en: A cross-border seller or ad agency running several platform accounts needs each account to log
+    in and operate inside an isolated browser environment so the platform does not treat them as one device.
+  pain: 多账号共用一台设备容易被平台关联封号，账号资产和投放预算一起损失；现有主流工具按账号数收费，小团队成本压力大。
+  pain_en: Sharing one device across accounts risks platform linkage and bans, taking account assets and
+    ad budget down together; mainstream tools charge per account, which is costly for small teams.
+  current_alternative: 使用 MoreLogin、AdsPower 等付费指纹浏览器，或手工切换设备、虚拟机、代理来隔离账号。
+  current_alternative_en: Paying for MoreLogin or AdsPower, or manually isolating accounts with separate
+    devices, virtual machines and proxies.
+  usage_reason: 推断：它把隔离环境做进一个改过的浏览器内核里，用户不必再自己搭虚拟机或代理链，直接开环境登录即可；开发者称同步器速度与主流工具相当且定价更低，因此预算有限、账号数不多的中小卖家会先试用它。缺少留存与复购证据，尚不能判断是否长期留在工作流里。
+  usage_reason_en: 'Inference: it bakes isolation into a modified browser kernel, so users skip building
+    their own virtual machines or proxy chains and just open an environment to log in; the developer claims
+    sync speed on par with mainstream tools at a lower price, so small sellers with limited budget and
+    few accounts would try it first. Retention and repeat-purchase evidence is missing, so long-term workflow
+    use cannot be claimed.'
+- id: req-full-stonelogin-2026-09-16
+  project_slug: stonelogin
+  level: full
+  reviewed_at: '2026-09-16T00:51:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号运营者被平台关联封号的问题，旧做法是买主流指纹浏览器或自搭虚拟机加代理，痛点刚性且已有付费替代，属工作流结构推理。
+    evidence_ids:
+    - ev-6d79a4c25ba1156a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条 V2EX 自述帖，没有独立用户反馈或客户案例，无法判断他人是否真的在用或持续采用。
+    evidence_ids:
+    - ev-6d79a4c25ba1156a
+  - gate: model
+    status: insufficient
+    reason: 开发者称定价更低但未公开价格页，买方是中小跨境卖家属推断，付费路径尚未核验，属判断而非已验证事实。
+    evidence_ids:
+    - ev-6d79a4c25ba1156a
+  - gate: truth
+    status: insufficient
+    reason: 指纹隔离与 pixelscan 通过均为开发者自述，无第三方复测；账号安全边界与平台合规风险也未说明。
+    evidence_ids:
+    - ev-6d79a4c25ba1156a
+  next_validation: 抓取 Stonelogin 官网定价页与产品文档，核对是否公开按账号或环境计费的价格，以及是否提供第三方指纹检测报告。
+  market: ''
+  job: 跨境电商卖家或广告投放代理在同时运营多个平台店铺与广告账号时，需要把每个账号放进互相隔离的浏览器环境里分别登录和操作，避免平台把这些账号识别成同一台设备。
+  job_en: A cross-border seller or ad agency running multiple storefronts and ad accounts needs each account
+    to log in and operate inside a separate isolated browser environment so platforms do not treat them
+    as one device.
+  pain: 公开帖自述多环境指纹隔离与 pixelscan 通过，说明作者认为平台关联识别是核心风险；多账号共用一台设备一旦被判定关联，账号资产与投放预算会一起损失，而主流工具按账号数收费，小团队成本压力大。
+  pain_en: The public post frames fingerprint isolation and passing pixelscan as the core concern, implying
+    platform linkage detection is the risk; if accounts on one device are linked, account assets and ad
+    budget are lost together, while mainstream tools charge per account and pressure small teams' budgets.
+  current_alternative: 购买 MoreLogin、AdsPower 等付费指纹浏览器，或手工用多台设备、虚拟机加代理链来隔离账号。
+  current_alternative_en: Paying for MoreLogin or AdsPower, or manually isolating accounts with multiple
+    devices, virtual machines and proxy chains.
+  usage_reason: 推断：它把隔离环境直接做进改过的浏览器内核，用户不必再自建虚拟机或代理链，开环境即可登录；开发者称同步器速度与 MoreLogin、AdsPower 相当且定价更低，因此预算有限、账号数不多的中小卖家会先试用。缺少留存与复购证据，不能声称已长期留在工作流里。
+  usage_reason_en: 'Inference: it bakes isolation into a modified browser kernel, so users skip building
+    virtual machines or proxy chains and just open an environment to log in; the developer claims sync
+    speed on par with MoreLogin and AdsPower at a lower price, so small sellers with limited budget and
+    few accounts would try it first. Retention and repeat-purchase evidence is missing, so long-term workflow
+    use cannot be claimed.'

@@ -21,7 +21,7 @@ canonical_url: https://github.com/ziyao233/a1ex
 summary: A simple LLM coding agent in Lua
 first_seen: '2026-09-14T16:51:42Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

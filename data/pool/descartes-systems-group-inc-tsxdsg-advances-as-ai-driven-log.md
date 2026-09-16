@@ -23,7 +23,7 @@ summary: Descartes Systems Group Inc. (TSX:DSG) Advances as AI-Driven Logistics 
   Strengthen Investor Confidence kalkine.ca
 first_seen: '2026-09-15T11:12:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

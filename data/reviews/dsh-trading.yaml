@@ -468,3 +468,49 @@
     dry-run with human approval on every live order, cutting the steps of moving data across terminals
     and placing orders by hand while keeping AI output reviewable; traders active across several markets
     who still want a human final check would choose it in that situation.'
+- id: req-full-dsh-trading-2026-09-16
+  project_slug: dsh-trading
+  level: full
+  reviewed_at: '2026-09-16T00:49:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨市场数据源分散、下单前人工核对的问题，痛点在于交易员要在多个终端间切换汇总；输入是市场数据，动作是 AI 生成建议，交付是经人工批准的可核对订单，属工作流结构推理。
+    evidence_ids:
+    - ev-b6bcf6cb8f6ac36e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 159 增至 174 只说明关注度上升，没有用户评价或部署记录说明交易员已把它放进日常交易流程，关注度不能替代持续使用证据。
+    evidence_ids:
+    - ev-b6bcf6cb8f6ac36e
+    - ev-3fc5a23efb66471c
+  - gate: model
+    status: insufficient
+    reason: BYOK 模式暗示用户自付模型费用，但项目未披露定价、订阅或分成方式，谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-b6bcf6cb8f6ac36e
+  - gate: truth
+    status: insufficient
+    reason: 默认模拟运行与每笔实盘人工批准是明确的安全边界，但 19 个以上连接器的实际可用性、订单执行稳定性与出错回退均无公开验证。
+    evidence_ids:
+    - ev-b6bcf6cb8f6ac36e
+  next_validation: 追踪 dsh-trading.win 的部署文档与仓库 issue，确认连接器实际可用性、实盘订单执行记录与人工批准流程的公开说明。
+  market: ''
+  job: 交易员或量化分析师在加密货币、美股、A股、港股之间切换时，通过三栏界面接入多个数据源，让 AI 基于市场数据生成交易建议，并在人工批准后执行订单。
+  job_en: When switching across crypto, US, CN and HK markets, a trader or quant analyst connects multiple
+    data sources through a three-column GUI, has the AI generate trade suggestions from market data, and
+    executes orders after human approval.
+  pain: 跨市场数据源分散、下单前需人工核对，公开材料未给出延迟或错单率的量化变化，痛点强度属结构推理。
+  pain_en: Data sources are scattered across markets and orders need manual checking before execution;
+    public materials give no quantified change in latency or error rate, so pain intensity is structural
+    inference.
+  current_alternative: 交易员在多个券商或交易所终端之间切换，手工汇总行情并自行下单，或自建脚本对接各市场 API。
+  current_alternative_en: Traders switch between multiple broker or exchange terminals, manually aggregate
+    quotes and place orders, or build their own scripts against each market's API.
+  usage_reason: 推断：它把多市场连接器统一到一个三栏界面，默认模拟运行且每笔实盘订单需人工批准，省去在多个终端间切换汇总的动作，因此跨市场交易员会在需要统一视图又不想放弃人工把关时选择它；公开材料无留存或复购证据。
+  usage_reason_en: 'Inference: it unifies multi-market connectors into one three-column GUI with dry-run
+    default and human approval on every live order, removing the switch-and-aggregate step across terminals,
+    so cross-market traders wanting a unified view without giving up manual control may choose it; public
+    materials show no retention or repeat-purchase evidence.'

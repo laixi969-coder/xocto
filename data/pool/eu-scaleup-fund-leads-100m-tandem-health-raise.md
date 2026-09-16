@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/eu-scaleup-fund-leads-100m-tandem-heal
 summary: ''
 first_seen: '2026-09-14T07:00:14Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

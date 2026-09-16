@@ -450,3 +450,44 @@
   usage_reason_en: With only a tagline and star count, no feature description, input/output, or user feedback,
     there is no way to explain why users would choose it over their current approach; one can only infer
     it may target users wanting AI-customized video streams, but the causal chain is unverifiable.
+- id: req-full-unreel-2026-09-16
+  project_slug: unreel
+  level: full
+  reviewed_at: '2026-09-16T00:51:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句「个人 AI 视频流媒体服务」定位与仓库收藏数，既未说明用户要完成的具体任务，也未说明痛点、频率、不采用代价与现有替代方式，连需求与痛点都无法还原，因此价值关不成立。
+    evidence_ids:
+    - ev-0c1caa2f715ab6e7
+    - ev-8d3aaf04a11df151
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/blendi-remade/unreel 的 README、部署文档与 issue/discussion，确认它实际接收什么输入、产出什么视频结果、由谁在什么场景使用。
+  market: ''
+  job: 公开材料只给出「个人 AI 视频流媒体服务」这一句定位，无法确定谁在什么情况下、处理什么素材、要完成什么具体任务；视频消费者与内容创作者两个标签都不构成可执行的使用场景。
+  job_en: Public materials offer only the one-line positioning 'your personal AI video streaming service';
+    it is impossible to identify who, in what situation, with what material, completes what concrete task.
+    The labels 'video consumers' and 'content creators' are not an executable job.
+  pain: 公开证据未描述任何用户痛点：没有用户抱怨、workaround、issue 或案例说明现有观看或创作流程哪里难受、多久发生一次、不解决会失去什么。
+  pain_en: 'Public evidence describes no user pain: no complaints, workarounds, issues, or cases show
+    where current viewing or creation workflows hurt, how often, or what is lost if unsolved.'
+  current_alternative: 公开材料未说明用户今天用什么方式完成这件事，也未说明 unreel 替代的是通用视频平台、本地媒体库还是 AI 生成工具。
+  current_alternative_en: Public materials do not state how users accomplish this today, nor whether unreel
+    replaces general video platforms, local media libraries, or AI generation tools.
+  usage_reason: 无法给出选择理由：仓库仅有标题与收藏数，没有功能说明、输入输出、部署文档或用户反馈，无法推断它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'No usage reason can be given: the repository provides only a title and star counts,
+    with no feature description, inputs/outputs, deployment docs, or user feedback, so no step saved versus
+    the old approach can be inferred.'

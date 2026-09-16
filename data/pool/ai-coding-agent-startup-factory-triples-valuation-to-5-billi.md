@@ -1,6 +1,6 @@
 ---
 slug: ai-coding-agent-startup-factory-triples-valuation-to-5-billi
-name: AI coding agent startup Factory triples valuation to $5 billion in latest funding round
+name: Factory
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNG85U1M2Y1Mt
 summary: AI coding agent startup Factory triples valuation to $5 billion in latest funding round Reuters
 first_seen: '2026-09-15T18:23:20Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# AI coding agent startup Factory triples valuation to $5 billion in latest funding round
+# Factory
 
 AI coding agent startup Factory triples valuation to $5 billion in latest funding round Reuters
 

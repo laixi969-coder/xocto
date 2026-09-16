@@ -21,7 +21,7 @@ canonical_url: https://temporal.io/blog/temporal-raises-usd550m-series-e-at-usd1
 summary: Temporal raises $550M at a $12.55B valuation
 first_seen: '2026-09-14T13:16:31Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -73,3 +73,46 @@
   usage_reason_en: 'The task is: A nine-step knowledge-graph method is taught to coding AI on your own
     project, instead of making you sit through another course. Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-graph-engineering-2026-09-16
+  project_slug: graph-engineering
+  level: full
+  reviewed_at: '2026-09-16T00:49:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决把知识图谱九步做法交给 AI 当场练的需求，但公开材料只有仓库自述与 49 个收藏，没有用户痛点、旧流程或不采用后果的证据；教学型 skill 属于没有也行，价值关不成立。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有开发者报告在真实项目中采用该 skill 并替代原有做法。
+  market: ''
+  job: 写代码的 AI 使用者（开发者）在已有项目里，把知识图谱九步做法与任务图编排模式交给 AI 助手，让 AI 按这套流程当场生成可审计的工作流图，而不是自己去啃一门研究生课程。
+  job_en: Developers using coding AI hand the nine-stage knowledge-graph method and task-graph orchestration
+    patterns to their AI assistant so it produces typed, auditable workflow graphs on their own project,
+    instead of sitting through a graduate course themselves.
+  pain: 公开材料只说明这是一个 Claude skill，含教学模式与可粘贴工作流；没有用户反馈、issue 或案例说明不采用会付出什么代价、发生频率多高。痛点强度无法从公开事实确认。
+  pain_en: Public materials only describe a Claude skill with a teaching mode and paste-ready workflows;
+    no user feedback, issues or cases show what it costs to go without it or how often the need arises.
+    Pain intensity cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；可观察的旧做法是直接读课程材料或自行编写提示词，但仓库未记录替代行为。
+  current_alternative_en: Public materials do not show how users do this today; the observable old behaviour
+    would be reading course material or writing prompts by hand, but the repository records no substitution
+    behaviour.
+  usage_reason: 推断：相较自己读课程再手写提示词，它把九步流程与编排模式打包成可粘贴的 skill，省掉整理步骤这一步；但仓库只有 49 个收藏，没有使用、留存或评价证据说明哪类用户会持续选择它。
+  usage_reason_en: 'Inference: versus reading a course and hand-writing prompts, it packages the nine
+    stages and orchestration patterns into a paste-ready skill, removing the step of organising the method;
+    but the repo has only 49 stars and no usage, retention or review evidence showing which users would
+    keep choosing it.'

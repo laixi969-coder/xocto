@@ -1,0 +1,83 @@
+- id: req-initial-kodro-2026-09-16
+  project_slug: kodro
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决编程学习缺反馈、缺硬件的问题，但公开材料只有一句离线模拟器描述，AI 角色与学习结果都说不清，痛点强度无法判断。
+    evidence_ids:
+    - ev-21e6e04ab3bf35da
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外没有教师或学生的使用反馈，无法判断课堂场景是否真的需要它。
+    evidence_ids:
+    - ev-21e6e04ab3bf35da
+  - gate: model
+    status: insufficient
+    reason: 没有定价、学校采购或订阅信息，买方是家长、学校还是个人学习者均未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-21e6e04ab3bf35da
+  - gate: truth
+    status: insufficient
+    reason: 无法核对模拟器是否真能带来可衡量的编程能力提升，AI 是否参与纠错也未说明。
+    evidence_ids:
+    - ev-21e6e04ab3bf35da
+  next_validation: 收集 Kodro 官方页面或应用商店说明，确认 AI 在练习反馈中的具体作用与是否有课程或定价信息。
+  market: ''
+  job: 编程初学者或教师在机房、断网教室等场景下，用 Python 写代码控制模拟机器人，完成编程练习与课堂演示任务。
+  job_en: A beginner programmer or teacher in a lab or offline classroom writes Python code to control
+    simulated robots, completing programming exercises and classroom demos.
+  pain: 学编程缺少即时反馈和硬件条件，抽象语法难以坚持；但公开材料未说明 Kodro 是否解决了这一痛点，也未说明 AI 参与程度。
+  pain_en: Learning to code lacks instant feedback and hardware, making abstract syntax hard to sustain;
+    but public material does not show whether Kodro addresses this or how much AI is involved.
+  current_alternative: 旧做法是看视频教程、刷在线题库，或购买实体机器人套件在课堂上操作。
+  current_alternative_en: The old approach is watching video courses, doing online exercises, or buying
+    physical robot kits for classroom use.
+  usage_reason: 推断：若离线模拟器确实免去硬件采购和网络依赖，教师可能因为机房条件受限而选择它；但缺少任何采用、留存或付费证据，无法确认这一选择已经发生。
+  usage_reason_en: 'Inference: if the offline simulator really removes hardware purchases and network
+    dependence, teachers might pick it where lab conditions are limited; but with no adoption, retention
+    or payment evidence, this choice cannot be confirmed.'
+- id: req-full-kodro-2026-09-16
+  project_slug: kodro
+  level: full
+  reviewed_at: '2026-09-16T00:49:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决编程学习缺反馈、缺硬件的问题，但公开材料只有一句离线模拟器描述，AI 角色与学习结果都说不清，痛点强度无法判断。
+    evidence_ids:
+    - ev-21e6e04ab3bf35da
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Kodro 官方页面或应用商店说明，确认 AI 在练习反馈中的具体作用与是否有课程或定价信息。
+  market: ''
+  job: 编程初学者或教师在机房、断网教室等场景下，用 Python 写代码控制模拟机器人，完成编程练习与课堂演示任务。
+  job_en: A beginner programmer or teacher in a lab or offline classroom writes Python code to control
+    simulated robots, completing programming exercises and classroom demos.
+  pain: 公开材料只有一句“离线 Python 学习模拟器”，未说明初学者在哪一步受挫、教师为何需要它，也未说明 AI 承担什么角色，痛点强度与刚性无法从现有事实还原。
+  pain_en: Public material offers only one line about an offline Python learning simulator; it does not
+    say where beginners get stuck, why teachers need it, or what role AI plays, so pain intensity cannot
+    be reconstructed from available facts.
+  current_alternative: 旧做法是看视频教程、刷在线题库，或购买实体机器人套件在课堂上操作；Kodro 与这些替代方式的差异未被公开材料说明。
+  current_alternative_en: The old approach is watching video courses, doing online exercises, or buying
+    physical robot kits for classroom use; public material does not explain how Kodro differs from these
+    alternatives.
+  usage_reason: 推断：若离线模拟器确实免去硬件采购和网络依赖，教师可能因机房条件受限而选择它；但公开材料未给出任何采用、留存或付费证据，无法确认这一选择已经发生。
+  usage_reason_en: 'Inference: if the offline simulator really removes hardware purchases and network
+    dependence, teachers might pick it where lab conditions are limited; but no adoption, retention or
+    payment evidence is public, so this choice cannot be confirmed.'

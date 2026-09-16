@@ -212,3 +212,56 @@
     multi-provider differences into one layer, so the agent only points at a single endpoint to get routing,
     streaming, tool calls, and fallback; developers facing cost, rate limits, or needing local models
     would tend to choose it. Stars rising from 623 to 635 indicate attention, not sustained use.'
+- id: req-full-my-free-code-2026-09-16
+  project_slug: my-free-code
+  level: full
+  reviewed_at: '2026-09-16T00:50:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理接入多模型时的路由与回退需求：单一提供商下切换模型、处理限流和故障需自行改配置或写适配层，不解决则代理易中断或成本失控；公开材料已给出输入（代理请求）、动作（路由/流式/工具/推理/回退）与交付（模型响应），属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-5877d681b0d91796
+    - ev-94f00c27574724a2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 626 缓升至 637，说明有开发者关注，但公开材料没有用户评价、issue 讨论或客户案例，无法确认已形成使用共识或持续采用。
+    evidence_ids:
+    - ev-5877d681b0d91796
+    - ev-3a23d1eddf718c8b
+    - ev-d76dc3a537dd2ff0
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未披露定价、赞助、托管服务或企业支持等付费路径，买方可能是自建网关的开发者或企业团队，但属判断而非已验证事实。
+    evidence_ids:
+    - ev-5877d681b0d91796
+    - ev-eb671b9e36dbcf3d
+  - gate: truth
+    status: supported
+    reason: 网关贴近编码代理调用模型这一第一性任务，路由与回退承诺可由代码确定性交付；但实际可用性依赖各模型提供商 API 的稳定性与密钥配置，公开材料未给出安全与人工边界说明。
+    evidence_ids:
+    - ev-5877d681b0d91796
+    - ev-9fbd0d9d10838e58
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否出现真实部署案例、多提供商配置文档或用户反馈，以核验持续采用与付费路径。
+  market: ''
+  job: 使用 Claude Code 等编码代理的开发者，在需要调用多个模型提供商（含本地模型）完成代码任务时，把代理请求交给一个统一网关，由它完成模型路由、流式输出、工具调用、推理与失败回退，最终拿到可用的模型响应。
+  job_en: Developers using coding agents such as Claude Code route agent requests through a single gateway
+    that performs model routing, streaming, tool calls, reasoning and fallbacks across multiple providers
+    (including local models), so the agent gets a usable model response.
+  pain: 公开材料只说明该网关支持多提供商路由与回退，未提供用户抱怨或使用反馈；从工作流结构推理，单一提供商接入时切换模型、处理限流或故障回退需要开发者自行改配置或写适配层，代理与模型之间的这层负担缺少统一承接。
+  pain_en: Public material only states the gateway supports multi-provider routing and fallbacks, with
+    no user complaints or feedback; by workflow inference, with a single provider, switching models or
+    handling rate limits and failures requires developers to edit configs or write adapter layers, and
+    no unified layer absorbs that burden between agent and model.
+  current_alternative: 开发者目前可能直接绑定单一模型提供商的 API，或手动切换模型、为每个提供商分别配置代理与密钥，缺少统一的网关层。
+  current_alternative_en: Developers currently likely bind directly to one provider's API, or manually
+    switch models and configure separate agents and keys per provider, without a unified gateway layer.
+  usage_reason: 推断：相较逐个提供商手动配置与切换，该网关把路由、流式、工具调用、推理和回退收敛到一次接入，开发者只需把代理指向网关即可换用或回退模型，因此需要频繁在多个模型间切换或想接入本地模型的
+    Claude Code 用户会在这种情况下选择它；仓库星标从 626 增至 637 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus configuring and switching providers by hand, the gateway consolidates
+    routing, streaming, tool calls, reasoning and fallbacks into one integration, so developers only point
+    the agent at the gateway to switch or fall back models; Claude Code users who frequently switch models
+    or want local models would choose it in that situation. Stars rising from 626 to 637 indicate attention,
+    not sustained use.'

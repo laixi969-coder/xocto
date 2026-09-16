@@ -257,3 +257,58 @@
   usage_reason: 用户要完成的任务是：开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers Public materials do not yet explain why users choose this
     product over their existing approach.'
+- id: req-full-shim-mcp-2026-09-16
+  project_slug: shim-mcp
+  level: full
+  reviewed_at: '2026-09-16T00:51:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 编码代理无法直接操作 WordPress 站点、开发者只能手工复制回填或逐条敲 WP-CLI 的痛点；插件以本地 stdio/HTTP 暴露 56–58 项能力、无需云服务，交付路径明确。这是基于产品说明与工作流结构的推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-249813487d8aa5f1
+    - ev-b4cc129e2b9f0748
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数长期在 46–48 之间徘徊，且已上线 WordPress.org，说明有开发者注意到并可能安装，但公开材料没有评价、issue 或案例说明谁在什么场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-249813487d8aa5f1
+    - ev-8ae27d66606d2061
+    - ev-120d983a21875f3c
+  - gate: model
+    status: insufficient
+    reason: 这是开源插件，公开材料未见定价页、付费版本或企业支持路径，谁付钱尚不清楚；判断可能是 to C 开发者免费使用、to B 站点维护方赞助或 to VC 叙事，但均属推断而非已验证事实。
+    evidence_ids:
+    - ev-b4cc129e2b9f0748
+    - ev-120d983a21875f3c
+  - gate: truth
+    status: insufficient
+    reason: 产品自述自包含、无云服务，但公开材料未给出部署文档、权限边界或安全说明，无法核验写操作在真实站点上的确定性交付与人工确认边界。
+    evidence_ids:
+    - ev-249813487d8aa5f1
+    - ev-b4cc129e2b9f0748
+  next_validation: 追踪该插件在 WordPress.org 插件页与代码仓库的 issue/discussion，确认是否有开发者报告实际部署场景、替代的旧流程以及写操作权限与安全边界。
+  market: ''
+  job: WordPress 开发者或站点维护者在本地或服务器上使用 Claude Code、Cursor 等 MCP 客户端时，需要让 AI 代理直接读取和修改 WordPress 的文章、页面、插件与配置，而不是靠人工在浏览器后台逐项点击或手写
+    WP-CLI 命令。
+  job_en: WordPress developers or site maintainers using MCP clients such as Claude Code or Cursor need
+    the AI agent to read and modify WordPress posts, pages, plugins and configuration directly, instead
+    of clicking through the browser admin or hand-writing WP-CLI commands.
+  pain: WordPress 后台操作是图形界面驱动的，AI 编码代理无法直接触达站点数据；开发者只能把内容或配置复制到对话里，再手工回填，批量改文章、查插件状态、调设置时步骤重复且容易出错。
+  pain_en: The WordPress admin is GUI-driven, so AI coding agents cannot reach site data directly; developers
+    must copy content or configuration into the chat and paste results back by hand, which is repetitive
+    and error-prone for bulk post edits, plugin status checks and settings changes.
+  current_alternative: 现状替代是人工在 wp-admin 里逐项操作、手写 WP-CLI 命令，或使用其他 WordPress MCP 桥接方案；这些做法要么无法被 AI 代理调用，要么需要额外云服务或自建中间层。
+  current_alternative_en: Today the alternatives are manual wp-admin clicking, hand-written WP-CLI commands,
+    or other WordPress MCP bridges; these either cannot be invoked by an AI agent or require an extra
+    cloud service or self-built middleware.
+  usage_reason: 推断：相较手工后台操作或手写 WP-CLI，该插件把 WordPress 能力以 58 项（后为 56 项）MCP 能力暴露给客户端，并通过 stdio（WP-CLI）或
+    HTTP 本地连接、无需云服务，使开发者可以在 AI 代理对话中直接完成读取与修改，省去复制粘贴和逐条敲命令的步骤；因此已在用 Claude Code 或 Cursor 管理 WordPress
+    站点的开发者会在需要批量或对话式改站时选择它。
+  usage_reason_en: 'Inference: versus manual admin work or hand-written WP-CLI, the plugin exposes WordPress
+    capabilities as 58 (later 56) MCP abilities over local stdio (WP-CLI) or HTTP with no cloud service,
+    letting developers read and modify the site directly inside the AI agent conversation and skipping
+    copy-paste and per-command typing; developers already using Claude Code or Cursor on WordPress sites
+    would therefore pick it for bulk or conversational site edits.'

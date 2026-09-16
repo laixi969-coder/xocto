@@ -1,6 +1,6 @@
 ---
 slug: new-italian-unicorn-exein-rides-the-physical-ai-wave
-name: New Italian unicorn Exein rides the physical AI wave
+name: Exein
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOMDVJeDg2VnJu
 summary: New Italian unicorn Exein rides the physical AI wave TechCrunch
 first_seen: '2026-09-15T12:19:38Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# New Italian unicorn Exein rides the physical AI wave
+# Exein
 
 New Italian unicorn Exein rides the physical AI wave TechCrunch
 

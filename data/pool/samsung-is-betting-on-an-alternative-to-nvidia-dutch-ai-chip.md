@@ -22,7 +22,7 @@ summary: Samsung Is Betting On An Alternative To Nvidia. Dutch AI Chip Startup E
   Million. International Business Times
 first_seen: '2026-09-15T18:26:53Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

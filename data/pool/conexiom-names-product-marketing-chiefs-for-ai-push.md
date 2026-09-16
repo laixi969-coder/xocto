@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxQbjlvaEppWEpO
 summary: Conexiom names product & marketing chiefs for AI push IT Brief Australia
 first_seen: '2026-09-15T21:32:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

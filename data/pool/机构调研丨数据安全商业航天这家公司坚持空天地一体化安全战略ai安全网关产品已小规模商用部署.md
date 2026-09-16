@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wZDFOalM3SzF4
 summary: 机构调研丨数据安全+商业航天这家公司坚持空天地一体化安全战略AI安全网关产品已小规模商用部署 东方财富
 first_seen: '2026-09-14T23:36:46Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

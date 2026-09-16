@@ -21,7 +21,7 @@ canonical_url: https://whats-left-over.pages.dev
 summary: ''
 first_seen: '2026-09-15T15:24:11Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

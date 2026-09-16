@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3J2Vnl5T2hL
 summary: 'Rugs.com Achieves Major Milestone: Surpasses 200,000 Customer Reviews Business Wire'
 first_seen: '2026-09-15T13:17:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

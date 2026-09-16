@@ -333,3 +333,53 @@
     technical SEO rules into the agent''s generation step so pages carry semantic structure and performance
     constraints at output time, removing a pre-launch audit pass; developers already using AI agents for
     landing pages without dedicated technical SEO staff would pick it when building or revamping a site.'
+- id: req-full-seo-landing-2026-09-16
+  project_slug: seo-landing
+  level: full
+  reviewed_at: '2026-09-16T00:51:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是落地页技术SEO规范落地问题：开发者写完页面常需事后跑PageSpeed/Lighthouse逐项返工，不处理会损害抓取与转化。公开说明给出输入（页面任务）、动作（代理按技术SEO规则生成）与目标（PageSpeed
+      100/100、Core Web Vitals），属工作流结构推理；痛点刚性与交付确定性尚缺用户侧证据。
+    evidence_ids:
+    - ev-136d011357bce4b6
+    - ev-7fe15a487b467bf0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从148升至153，说明开发者社区持续关注该技能；但收藏与排名只属关注度证据，公开材料没有用户评价、issue或案例说明它被留在日常建页流程中，无法据此判断持续采用。
+    evidence_ids:
+    - ev-136d011357bce4b6
+    - ev-7fe15a487b467bf0
+    - ev-34d2123c5bb6c449
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费层级或企业采购记录，谁付钱尚不清楚；按判断，可能走to C开发者免费加赞助，或to B团队支持，但均非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-136d011357bce4b6
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺PageSpeed 100/100与Core Web Vitals优化，但未见可复现的实测报告、部署文档或issue中的交付结果，承诺能否在不同站点稳定兑现、以及人工复核边界，仍缺公开证据。
+    evidence_ids:
+    - ev-136d011357bce4b6
+    - ev-841d0895bcbfee31
+  next_validation: 追踪该公开代码仓库仓库的README、issue与discussion，确认是否有可复现的PageSpeed/Core Web Vitals实测结果或用户部署案例，以核验交付确定性。
+  market: ''
+  job: 网站开发者或技术SEO工程师在新建或改版营销落地页时，把页面代码与配置交给已接入的AI编码代理，要求它按技术SEO规范产出可上线、可被搜索引擎抓取且通过Core Web Vitals的落地页。
+  job_en: A web developer or technical SEO engineer hands landing-page code and configuration to an AI
+    coding agent and asks it to produce a launch-ready page that follows technical SEO rules, is crawlable,
+    and passes Core Web Vitals.
+  pain: 技术SEO细节（语义化结构、元数据、渲染与资源加载、Core Web Vitals）分散在规范与工具中，开发者写完页面后往往要再跑PageSpeed、Lighthouse逐项返工；不处理的后果是页面排名与转化受损，且返工发生在交付后期。
+  pain_en: Technical SEO details (semantic structure, metadata, rendering and asset loading, Core Web
+    Vitals) are scattered across specs and tools; after writing a page developers often rerun PageSpeed/Lighthouse
+    and fix items one by one, and skipping this hurts ranking and conversion late in delivery.
+  current_alternative: 当前替代是开发者凭经验手写，或事后用Lighthouse/PageSpeed Insights逐项检查再返工，也可能把页面交给专职技术SEO同事评审。
+  current_alternative_en: Today developers hand-code from experience, or check afterwards with Lighthouse/PageSpeed
+    Insights and rework item by item, or route the page to a dedicated technical SEO reviewer.
+  usage_reason: 推断：相较事后跑审计再返工，该技能把技术SEO规则前置到AI代理生成页面的动作里，减少“先写完再逐项修”的往返；已在用AI编码代理做落地页、又缺少专职技术SEO评审的开发者，会在建页阶段直接调用它。
+  usage_reason_en: 'Inference: rather than auditing and reworking after the fact, the skill moves technical
+    SEO rules into the agent''s page-generation step, cutting the write-then-fix loop; developers already
+    using an AI coding agent for landing pages without a dedicated technical SEO reviewer would invoke
+    it during page build.'

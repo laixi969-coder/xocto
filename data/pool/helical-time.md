@@ -21,7 +21,7 @@ canonical_url: https://github.com/nimabeh/helical-time
 summary: Visualizing time as a continuous 3D torus
 first_seen: '2026-09-14T16:39:20Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,89 @@
+- id: req-initial-early-anthropic-hire-former-metr-coo-have-found-a-way-to-rei-2026-09-16
+  project_slug: early-anthropic-hire-former-metr-coo-have-found-a-way-to-rei
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体出错后的责任归属与赔付问题，痛点方向成立，但公开材料未说明评估对象、交付物与使用节点，需求强度无法判断。
+    evidence_ids:
+    - ev-20682a9bf7915729
+    - ev-9aa368230a8919b6
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息与创始人背景，没有客户采用、采购或行业共识证据，无法判断谁已认可这一做法。
+    evidence_ids:
+    - ev-20682a9bf7915729
+  - gate: model
+    status: insufficient
+    reason: 未披露承保险种、定价方式与买方类型，钱从 to B 保费还是其他路径来属于推断，不是已验证事实。
+    evidence_ids:
+    - ev-20682a9bf7915729
+  - gate: truth
+    status: insufficient
+    reason: 承保需要精算数据与理赔经验，公开材料未显示其数据来源、人工复核边界或赔付确定性。
+    evidence_ids:
+    - ev-20682a9bf7915729
+    - ev-9aa368230a8919b6
+  next_validation: 收集 AIUC 官方产品页或承保条款文件，确认其承保对象、定价方式与已披露客户案例。
+  market: ''
+  job: 企业采购或部署 AI 智能体时，需要有人对智能体出错造成的损失给出责任认定与赔付安排，目前公开材料未说明由谁在什么节点处理哪些材料。
+  job_en: When an enterprise procures or deploys AI agents, someone must assign liability and arrange
+    compensation for losses caused by agent failure; public materials do not say who handles which materials
+    at what step.
+  pain: 智能体自主执行动作后，出错责任难以归属，企业缺少可核验的承保或担保凭据，采购决策因此被拖住。
+  pain_en: Once agents act autonomously, fault is hard to attribute, and enterprises lack verifiable underwriting
+    or guarantee evidence, which stalls procurement decisions.
+  current_alternative: 旧做法是依靠通用责任险条款、合同免责约定或内部风控审查，这些方式不针对 AI 智能体的具体失效模式。
+  current_alternative_en: The prior approach relies on general liability clauses, contractual disclaimers,
+    or internal risk review, none of which target the specific failure modes of AI agents.
+  usage_reason: 推断：若它能把智能体的运行记录转成可核验的承保依据，企业就不必在每次采购时重新谈判责任条款，从而减少法务与风控的重复评估；但公开材料未披露评估方法与交付物，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if it can turn agent run records into verifiable underwriting evidence,
+    enterprises would not have to renegotiate liability terms on every purchase, cutting repeated legal
+    and risk review; however, the assessment method and deliverable are undisclosed, so this causal link
+    is unproven.'
+- id: req-full-early-anthropic-hire-former-metr-coo-have-found-a-way-to-rei-2026-09-16
+  project_slug: early-anthropic-hire-former-metr-coo-have-found-a-way-to-rei
+  level: full
+  reviewed_at: '2026-09-16T00:49:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只说明这是做 AI 相关风险承保的初创公司并完成 4000 万美元 A 轮，未说明接收什么材料、按什么标准评估、交付保单还是报告，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-ddf91cf7d4d32771
+    - ev-434384f3aace85a9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 AIUC 官网产品页或承保条款文件，确认其承保对象、评估方法、交付物与已披露客户案例。
+  market: ''
+  job: 企业采购或部署 AI 智能体时，需要有人对智能体自主执行造成的损失给出责任认定与赔付安排；但公开材料未说明由谁在什么节点接收哪些材料、完成什么核保动作。
+  job_en: When an enterprise procures or deploys AI agents, someone must assign liability and arrange
+    compensation for losses caused by autonomous agent actions; public materials do not say who receives
+    which materials at what step or what underwriting action is performed.
+  pain: 公开材料只说明这是一家做 AI 相关风险承保的初创公司并完成 4000 万美元 A 轮，未披露任何用户痛点、失效案例或采购受阻的具体事实，痛点无法从证据中还原。
+  pain_en: Public materials only state this is a startup underwriting AI-related risk that closed a $40M
+    Series A; no user pain, failure case, or stalled-procurement fact is disclosed, so the pain cannot
+    be reconstructed from evidence.
+  current_alternative: 公开材料未提及企业目前用什么方式处理 AI 责任归属，通用责任险、合同免责条款或内部风控审查都只是推测，没有证据支持。
+  current_alternative_en: Public materials do not mention how enterprises currently handle AI liability;
+    general liability insurance, contractual disclaimers, or internal risk review are only speculation
+    without supporting evidence.
+  usage_reason: 无法判断：公开材料未披露承保对象、评估方法、交付物或使用节点，无法说明它相较旧做法减少哪一步负担，因此不能给出用户选择它的因果解释。
+  usage_reason_en: 'Cannot be determined: public materials disclose no underwriting target, assessment
+    method, deliverable, or usage step, so no causal explanation can be given for why a user would choose
+    it over the prior approach.'

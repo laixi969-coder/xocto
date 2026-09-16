@@ -1,6 +1,6 @@
 ---
 slug: 安全可控智能体推荐丨打造企业级元枢纽智能体九科信息bit-agent推动ai安全落地
-name: 安全可控智能体推荐丨打造企业级元枢纽智能体，九科信息bit-Agent推动AI安全落地
+name: 九科信息bit-Agent
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeEdVWWNwRUJv
 summary: 安全可控智能体推荐丨打造企业级元枢纽智能体，九科信息bit-Agent推动AI安全落地 Sohu
 first_seen: '2026-09-15T07:14:02Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 安全可控智能体推荐丨打造企业级元枢纽智能体，九科信息bit-Agent推动AI安全落地
+# 九科信息bit-Agent
 
 安全可控智能体推荐丨打造企业级元枢纽智能体，九科信息bit-Agent推动AI安全落地 Sohu
 

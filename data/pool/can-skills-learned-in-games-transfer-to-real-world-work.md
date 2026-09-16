@@ -22,7 +22,7 @@ summary: Good Start Labs trained an AI on a railroad game — and one version im
   The difference was the training design.
 first_seen: '2026-09-15T20:11:54Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

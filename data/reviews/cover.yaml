@@ -554,3 +554,93 @@
   usage_reason_en: Compared with manual fabrication and hand-mapping, it automates substitution before
     the request leaves and restoration locally, removing the line-by-line reconciliation step; this is
     inference, since no user feedback or customer case documents the actual adoption motive.
+- id: req-initial-cover-2026-09-16
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是敏感数据不能外发给模型这一具体卡点，痛点刚性来自合规后果，旧做法是人工脱敏或放弃接入，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库关注度和社区讨论，没有客户案例或行业采用证据，无法判断受监管团队是否真的把它放进流程。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明收费方式；买方可能是自建合规能力的团队或采购合规工具的企业，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 可逆替换能否覆盖真实业务字段、还原是否确定发生、出错时如何人工兜底，公开材料均未说明。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue / discussion 与 README 中关于还原范围、失败兜底和实际部署场景的公开说明。
+  market: ''
+  job: AI 应用开发者或数据合规工程师在把含真实客户信息的材料送进外部大模型接口前，需要让模型完成分析或生成，同时不让原始字段离开本地环境。
+  job_en: An AI application developer or data compliance engineer, before sending material containing
+    real customer information to an external model API, needs the model to complete analysis or generation
+    without the raw fields leaving the local environment.
+  pain: 直接把原始数据发给第三方模型会触发合规与隐私风险，而手工逐条脱敏再人工还原既慢又容易出错，导致很多受监管场景干脆不敢接入模型。
+  pain_en: Sending raw data to a third-party model triggers compliance and privacy risk, while manual
+    field-by-field redaction and manual restore is slow and error-prone, so many regulated teams simply
+    avoid model integration.
+  current_alternative: 目前多靠人工改写或删除敏感字段、内部自建脚本脱敏，或干脆放弃在敏感数据上使用模型。
+  current_alternative_en: Today teams mostly rewrite or delete sensitive fields by hand, build in-house
+    redaction scripts, or give up on using models with sensitive data at all.
+  usage_reason: 相较人工脱敏后无法还原、自建脚本要自己维护映射表，它把替换与还原做成一次代理调用：开发者只改接口地址，模型输出里的假值在本机自动换回原文，省掉手工回填这一步，因此受监管行业里想接入模型又不敢外发原始数据的团队会选它。这是基于产品能力的推断，尚无用户反馈或客户案例支持。
+  usage_reason_en: 'Compared with manual redaction that cannot be reversed and in-house scripts that require
+    maintaining your own mapping table, it turns substitution and restore into a single proxied call:
+    the developer only changes the endpoint, and fakes in the model output are swapped back locally, removing
+    the manual backfill step. That is why teams in regulated industries who want model access but cannot
+    export raw data would pick it. This is inference from product capability, not supporte'
+- id: req-full-cover-2026-09-16
+  project_slug: cover
+  level: full
+  reviewed_at: '2026-09-16T00:48:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感字段不能外发给模型这一具体卡点：开发者要在不泄露真实客户数据的前提下拿到可用模型输出，旧做法是人工脱敏后无法还原或自建映射脚本，不解决的后果是受监管场景放弃接入模型。这是从输入—替换—还原闭环作出的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-4bbfdcf7a6b79b59
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有市场覆盖检索与通用 AI 助手页面，没有客户案例、行业采用或开发者讨论能证明受监管团队已把它放进日常流程，因此无法判断共识是否形成。
+    evidence_ids:
+    - ev-4bbfdcf7a6b79b59
+    - ev-4821857ead408ca0
+    - ev-545780e0a0ad1e53
+  - gate: model
+    status: insufficient
+    reason: 公开材料未出现定价页或收费说明，买方可能是自建合规能力的开发团队，也可能是采购合规工具的企业，属判断而非已验证事实；仅凭现有证据无法确认付费路径。
+    evidence_ids:
+    - ev-4bbfdcf7a6b79b59
+  - gate: truth
+    status: insufficient
+    reason: 可逆替换能否覆盖真实业务字段、还原是否确定发生、失败时如何人工兜底，公开材料均未说明；代理层一旦还原错位，输出会静默失真，这是交付确定性的关键缺口。
+    evidence_ids:
+    - ev-4bbfdcf7a6b79b59
+  next_validation: 追踪该项目的官方仓库 README 与 issue / discussion，确认还原范围、失败兜底机制和实际部署场景的公开说明。
+  market: ''
+  job: AI 应用开发者或数据合规工程师在把含真实客户姓名、账号等字段的业务材料送进外部大模型接口前，需要让模型完成分析或生成，同时不让原始字段离开本地环境。
+  job_en: An AI application developer or data compliance engineer, before sending business material containing
+    real customer names and account numbers to an external model API, needs the model to complete analysis
+    or generation without the raw fields leaving the local environment.
+  pain: 直接把原始数据发给第三方模型会触发合规与隐私风险，而手工逐条脱敏再人工还原既慢又容易出错，导致受监管场景干脆不敢接入模型。
+  pain_en: Sending raw data to a third-party model triggers compliance and privacy risk, while manual
+    field-by-field redaction and manual restore is slow and error-prone, so regulated teams simply avoid
+    model integration.
+  current_alternative: 目前多靠人工改写或删除敏感字段、内部自建脱敏脚本，或干脆放弃在敏感数据上使用模型。
+  current_alternative_en: Today teams mostly rewrite or delete sensitive fields by hand, build in-house
+    redaction scripts, or give up on using models with sensitive data at all.
+  usage_reason: 相较人工脱敏后无法还原、自建脚本要自己维护映射表，它把替换与还原做成一次代理调用：开发者只改接口地址，模型输出里的假值在本机自动换回原文，省掉手工回填这一步，因此受监管行业里想接入模型又不敢外发原始数据的团队会选它。这是基于产品能力的推断，尚无用户反馈或客户案例支持。
+  usage_reason_en: 'Compared with manual redaction that cannot be reversed and in-house scripts that require
+    maintaining your own mapping table, it turns substitution and restore into a single proxied call:
+    the developer only changes the endpoint, and fakes in the model output are swapped back locally, removing
+    the manual backfill step. That is why teams in regulated industries who want model access but cannot
+    export raw data would pick it. This is inference from product capability, not supporte'

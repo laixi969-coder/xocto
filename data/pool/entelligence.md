@@ -21,7 +21,7 @@ canonical_url: https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.
 summary: 'GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?'
 first_seen: '2026-09-14T19:56:20Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

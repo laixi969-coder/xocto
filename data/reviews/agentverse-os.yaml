@@ -92,3 +92,50 @@
     setup, app installation and public-exposure configuration, so self-hosting-oriented developers who
     do not want to maintain multiple scripts may choose it when running several coding agents at once;
     user feedback and repeat-use evidence are missing.'
+- id: req-full-agentverse-os-2026-09-16
+  project_slug: agentverse-os
+  level: full
+  reviewed_at: '2026-09-16T00:48:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者在自有服务器上同时运行编码代理与自托管应用时的隔离、备份和内网访问需求；痛点是把代理和服务装在一台机器上会互相干扰、手工备份更新、公网暴露有风险，不解决的后果是环境不可长期安全运行。这是工作流结构推理，公开材料只有仓库自述，缺少真实使用情境。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+    - ev-edbe6ab93c7b5441
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 274 增至 582，说明开源关注度上升，但星标与 fork 只反映关注，不能证明开发者已把它作为长期运行环境；缺少 issue、discussion 或用户反馈来显示持续使用。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+    - ev-edbe6ab93c7b5441
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价或商业路径，买方与收费方式无法从公开材料确认；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+  - gate: truth
+    status: insufficient
+    reason: 它把代理运行与自托管应用放在同一台服务器，安全边界依赖 Tailscale，人工确认与故障恢复流程未说明；交付能否稳定发生尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者是否报告长期运行、备份恢复或权限隔离方面的具体问题。
+  market: ''
+  job: 独立开发者或小团队在自有 Ubuntu 服务器上，为 VS Code、Claude Code、Codex 等编码代理和自托管应用建立隔离工作区，并通过内网访问、备份与更新来长期运行这些工具。
+  job_en: A solo developer or small team on their own Ubuntu server sets up isolated workspaces for coding
+    agents such as VS Code, Claude Code and Codex plus self-hosted apps, and keeps them running long-term
+    with private-network access, backups and updates.
+  pain: 把代理和自托管服务装在同一台机器上，环境互相干扰、备份和更新要手工处理、公网暴露有风险；公开材料未给出这些痛点在真实使用中的频率与代价。
+  pain_en: Putting agents and self-hosted services on one machine causes environments to interfere, backups
+    and updates must be handled by hand, and public exposure is risky; the public material does not show
+    how often or how costly this is in practice.
+  current_alternative: 开发者目前用 Docker、手动脚本、云主机或现成的自托管面板自行拼装环境。
+  current_alternative_en: Developers currently assemble environments themselves using Docker, manual scripts,
+    cloud hosts or existing self-hosting panels.
+  usage_reason: 推断：相比自己拼 Docker 与备份脚本，它用一条安装命令给出隔离工作区、944 个自托管应用库和仅经 Tailscale 的内网访问，省掉环境搭建与暴露配置这几步，因此自托管倾向强的开发者可能采用；但缺少用户反馈与重复使用证据。
+  usage_reason_en: 'Inference: instead of assembling Docker and backup scripts, one install command provides
+    isolated workspaces, a store of 944 self-hosted apps and Tailscale-only private access, removing setup
+    and exposure configuration, so self-hosting-oriented developers may adopt it; user feedback and repeat-use
+    evidence are missing.'

@@ -425,3 +425,51 @@
     from the graph and locate the proof evidence for each result, removing the step of manually rebuilding
     the dependency chain; researchers who need agents to cite proof evidence reliably, or who must quickly
     decide reading order for a long paper, would choose it when working through math pap'
+- id: req-full-papergraph-mcp-2026-09-16
+  project_slug: papergraph-mcp
+  level: full
+  reviewed_at: '2026-09-16T00:50:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学论文定理依赖难追踪、AI 代理读论文易猜测的需求，痛点是证明依据必须可核对、漏依赖会导致理解错误；公开说明已给出输入（arXiv/LaTeX）、动作（抽取结果、追踪证明证据、规划阅读顺序）与交付（证据锚定阅读图），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-d9b7935715ab8372
+    - ev-20162bf5287521f6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 130 增至 175，说明开发者社区持续关注，但收藏与增长只属关注度证据，未见用户评价、issue 讨论或案例说明谁在何种场景持续使用，无法证明已进入稳定工作流。
+    evidence_ids:
+    - ev-d9b7935715ab8372
+    - ev-c18718060fdce909
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，开源仓库本身不显示收入路径；这是判断而非已验证事实，to C 研究者或 to B 实验室均可能付费，但尚无公开证据支撑。
+    evidence_ids:
+    - ev-20162bf5287521f6
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺证据锚定、不猜测，但未见部署文档、可复现实测或解析准确率数据，交付能否稳定发生、解析失败与人工复核边界仍缺公开证据。
+    evidence_ids:
+    - ev-30fe70c5a2689859
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否公开解析准确率、部署方式或真实使用案例，以核验交付确定性与使用场景。
+  market: ''
+  job: 数学研究者或构建科研代理的开发者，在阅读 arXiv 或 LaTeX 数学论文时，需要把定理、证明与外部依赖整理成可追溯的阅读顺序，供自己或 AI 代理按依赖关系理解论文。
+  job_en: A math researcher or agent developer reading an arXiv or LaTeX paper needs to turn theorems,
+    proofs and external dependencies into a traceable reading order so that they or an AI agent can follow
+    the paper's dependency structure.
+  pain: 数学论文的定理依赖链常跨多篇文献，人工逐条追踪证明依据与外部依赖耗时且易漏；AI 代理直接读原文容易在依赖关系上猜测，导致结论不可核对。
+  pain_en: Theorem dependency chains in math papers often span multiple references; tracing proof evidence
+    and external dependencies by hand is slow and error-prone, and an AI agent reading raw text tends
+    to guess at dependencies, making conclusions unverifiable.
+  current_alternative: 当前替代是人工通读论文与参考文献、自行画依赖草图，或让通用大模型直接总结论文；前者慢且难覆盖外部依赖，后者缺少证据锚定。
+  current_alternative_en: Today users read the paper and its references manually, sketch dependencies
+    by hand, or ask a general LLM to summarize the paper; the first is slow and misses external dependencies,
+    the second lacks evidence grounding.
+  usage_reason: 推断：相较人工通读或通用摘要，该工具从论文源文件抽取定理并输出带证据的依赖图与阅读顺序，把“逐条翻参考文献核对依赖”这一步交给结构化输出，因此需要可追溯阅读路径的数学研究者和代理开发者会在处理陌生数学论文时选择它。
+  usage_reason_en: 'Inference: versus manual reading or generic summarization, the tool extracts theorems
+    from the source and emits an evidence-grounded dependency graph and reading order, offloading the
+    step of cross-checking each reference; researchers and agent developers who need a traceable reading
+    path would choose it when facing an unfamiliar math paper.'

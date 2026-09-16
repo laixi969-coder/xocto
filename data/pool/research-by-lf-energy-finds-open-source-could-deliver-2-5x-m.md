@@ -23,7 +23,7 @@ summary: LF Energy, a Linux Foundation project dedicated to building the digital
   Ener...
 first_seen: '2026-09-15T08:49:40Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

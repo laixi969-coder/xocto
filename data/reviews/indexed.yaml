@@ -273,3 +273,45 @@
   usage_reason_en: 'Inference only: if the product truly indexes video into agent-queryable memory, users
     might choose it to skip manual organizing; but this is inference, with no public user feedback or
     case support.'
+- id: req-full-indexed-2026-09-16
+  project_slug: indexed
+  level: full
+  reviewed_at: '2026-09-16T00:49:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据仅为词典对 indexed 一词的释义，未记录任何视频记忆用户的任务、痛点、替代行为或不解决的后果，连需求与痛点都无法写出，价值结构无从成立。
+    evidence_ids:
+    - ev-f7bba56808d79dce
+    - ev-11d683268e0f8232
+    - ev-e08ae3377586c00d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 indexed 官网或产品文档页，确认其面向人类与 AI 代理的视频记忆具体输入、输出与使用场景，以补足可引用的产品事实。
+  market: ''
+  job: 公开材料仅称 indexed 是面向人类与 AI 代理的多模态视频记忆系统，未说明谁在什么情况下、处理什么视频材料、要完成什么任务，使用场景无法还原。
+  job_en: Public materials only describe indexed as a multimodal video memory for humans and AI agents,
+    without specifying who, in what situation, with what video material, or to complete what task, so
+    the job cannot be reconstructed.
+  pain: 公开材料未记录任何用户痛点、抱怨或既有替代行为；现有证据全部是词典对 indexed 一词的释义，与视频记忆产品无关。
+  pain_en: Public materials record no user pain, complaint, or existing workaround; all current evidence
+    is dictionary definitions of the word 'indexed', unrelated to a video memory product.
+  current_alternative: 公开材料未说明用户目前如何完成视频记忆或检索任务，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently handle video memory or retrieval,
+    nor what prior approach it replaces.
+  usage_reason: 缺少产品文档、使用反馈或客户案例，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果，因此无法说明用户为何选择它。
+  usage_reason_en: With no product documentation, user feedback, or customer cases, there is no way to
+    explain which step it removes or which verifiable result it improves versus the old approach, so why
+    users would choose it cannot be stated.

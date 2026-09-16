@@ -26,7 +26,7 @@ canonical_url: https://producthunt.com/products/assist-4
 summary: Voice annotate your Mac, get screenshots + clipboard manager
 first_seen: '2026-09-06T10:08:53Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

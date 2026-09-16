@@ -78,3 +78,89 @@
   usage_reason: 收入激增表明大量用户采用，可能因其多模态能力或本地化优势；具体采用原因尚未核验。
   usage_reason_en: Revenue surge indicates widespread adoption, possibly due to multimodal capabilities
     or localization advantages; specific reasons not yet verified.
+- id: req-initial-chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a-2026-09-16
+  project_slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
+  level: initial
+  reviewed_at: '2026-09-16T00:21:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量短视频素材的产出问题，痛点是拍摄剪辑周期长、单条成本高，旧行为是外包或手工剪辑，结构上成立。
+    evidence_ids:
+    - ev-bb029190bf96d363
+    - ev-f93a31907990367a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有收入接近翻两番的报道与第三方出片速度测试，缺少客户名单与持续使用证据。
+    evidence_ids:
+    - ev-7f02c202e8421364
+    - ev-f93a31907990367a
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页，模型在第三方网关五折促销，收入来自 API、订阅还是定制无法确认，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dd70f136fd0d450a
+  - gate: truth
+    status: insufficient
+    reason: 出片速度与成片可用度由第三方测试给出，人工仍需挑选与剪辑，交付确定性缺少官方说明。
+    evidence_ids:
+    - ev-f93a31907990367a
+  next_validation: 收集 MiniMax 官方定价页或客户案例，确认视频生成的计费单位与成片交付责任。
+  market: ''
+  job: 电商与广告团队在需要按周产出多条短视频素材时，处理脚本与商品素材，要拿到可直接投放的成片片段。
+  job_en: E-commerce and ad teams producing multiple short-video assets per week work from scripts and
+    product assets to obtain clips ready for placement.
+  pain: 传统拍摄与剪辑按条外包，周期长、单条成本高，改一版就要重拍或重剪。
+  pain_en: Traditional shooting and editing is outsourced per clip, slow and costly, and any revision
+    means reshooting or recutting.
+  current_alternative: 外包拍摄剪辑团队，或用通用剪辑软件手工拼接素材。
+  current_alternative_en: Outsourced shoot-and-edit crews, or manual assembly in general editing software.
+  usage_reason: 推断：相较外包拍摄，模型直接由脚本生成片段，省掉拍摄与初剪环节，第三方实测称 15 秒视频约 50 秒出片，使需要快速试多条素材的投放团队更愿意先试生成再人工挑选。
+  usage_reason_en: 'Inference: versus outsourced shooting, the model generates clips straight from scripts,
+    skipping filming and first-cut editing; a third-party test reporting about 50 seconds for a 15-second
+    video makes teams that test many creatives more willing to generate first and select manually.'
+- id: req-full-chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a-2026-09-16
+  project_slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
+  level: full
+  reviewed_at: '2026-09-16T00:48:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量短视频素材的产出问题，痛点是拍摄剪辑周期长、单条成本高、改版需重拍，旧行为是外包或手工剪辑；这是工作流结构推理，公开材料已能还原输入、动作与交付。
+    evidence_ids:
+    - ev-6481f2461b9fdd6e
+    - ev-4a8add51a733c189
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有收入接近翻两番的报道与第三方出片速度测试，缺少客户名单、持续使用与复购证据，无法确认已形成稳定采用共识。
+    evidence_ids:
+    - ev-2be77a9fabf90abe
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页，收入来自 API、订阅还是定制无法确认，谁付钱与计费单位属判断而非已验证事实。
+    evidence_ids:
+    - ev-2be77a9fabf90abe
+  - gate: truth
+    status: insufficient
+    reason: 出片速度与成片可用度由第三方测试给出，人工仍需挑选与剪辑，交付确定性缺少官方说明与安全边界披露。
+    evidence_ids:
+    - ev-4a8add51a733c189
+  next_validation: 收集 MiniMax 官方定价页或客户案例，确认视频生成的计费单位与成片交付责任。
+  market: ''
+  job: 内容与广告团队在需要按周批量产出短视频素材时，把脚本或提示词交给 MiniMax 的视频模型，由模型生成成片片段，再人工挑选与剪辑，最终拿到可投放的成片。
+  job_en: Content and advertising teams producing short-video assets in bulk per week hand scripts or
+    prompts to MiniMax's video model, which generates clips that humans then select and edit into placement-ready
+    cuts.
+  pain: 传统拍摄与剪辑按条外包，周期长、单条成本高，改一版就要重拍或重剪；批量试素材时产能受限。
+  pain_en: Traditional shoot-and-edit is outsourced per clip, slow and costly, and any revision means
+    reshooting or recutting; bulk creative testing is capacity-constrained.
+  current_alternative: 外包拍摄剪辑团队，或用通用剪辑软件手工拼接素材。
+  current_alternative_en: Outsourced shoot-and-edit crews, or manual assembly in general editing software.
+  usage_reason: 推断：相较外包拍摄，模型直接由脚本生成带原生立体声的 2K/15 秒片段，省掉拍摄与初剪环节，使需要快速试多条素材的投放团队更愿意先让模型出片再人工挑选。
+  usage_reason_en: 'Inference: versus outsourced shooting, the model generates 2K/15-second clips with
+    native stereo audio straight from scripts, skipping filming and first-cut editing, so teams testing
+    many creatives prefer to generate first and select manually.'

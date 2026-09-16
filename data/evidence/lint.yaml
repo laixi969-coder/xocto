@@ -192,3 +192,187 @@
   tier: behavioural
   fact: 'An agent-first linter for Tailwind design systems. Write design system rules that agents can
     verify. | repository stars: 1,724'
+- id: ev-ef022c6e6403cb70
+  project_slug: lint
+  url: https://zhuanlan.zhihu.com/p/685155516
+  title: 什么是Lint工具？何时需要使用Lint工具？ - 知乎
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: pain
+  tier: independent
+  fact: Lint工具是一种基础的 静态代码分析器。 Linting一词最初来自于C语言的Unix实用程序。 这个名字本身相当诙谐，因为“Lint”指的是衣物脱落的棉絮。 类似地，由 计算机科学家
+    斯蒂芬·约翰逊（Stephen C. Johnson）编写的Lint命令就像一个干衣机中的棉絮陷阱，因为它在不影响整块布的情况下捕获了多余的“纤维”。 换句话说，代码中的“Lint”是指在技术上能正常工作的代码，但可能存在漏洞或在其他方面不够理想。
+    在最初的Lint工具之后，涌现了一系列衍生产品，如 PC-Lint PLus。 后续的Linter和类似Lint的工具不仅仅关注样式和格式，还通过查找更广泛的问题扩展了功能，例如未解决的 合并冲突
+    、已弃用的函数以及使用不安全的语言功能。
+- id: ev-11b87bfe432a62bb
+  project_slug: lint
+  url: https://mistystar.cn/post/what-is-lint
+  title: 什么是 Lint？程序员的代码"拼写检查器" | 计算机工程 / 开源与工程实践 | Misty的小站
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: pain
+  tier: independent
+  fact: 在编程世界里，Lint（或者叫 Linter）本质上就是代码的”拼写和语法检查器”。 更准确地说，Lint 是一种 静态代码分析工具 ——它在你不运行（或编译）代码的情况下，自动扫描源代码，把可能存在的低级错误或不规范的地方揪出来。
+    这个名字来源于 1978 年贝尔实验室的 Stephen C. Johnson 为 C 语言编写的工具 lint，就像烘干机里的绒毛过滤器（lint trap）一样，帮你过滤掉代码中的”毛球”。
+    Lint 工具的眼光非常挑剔，主要盯着以下几个方面： 少写了一个逗号、括号没有闭合、关键字拼错——这些手误靠肉眼很难发现，但 Lint 能在你保存文件的瞬间就标出红线。 return `Hello,
+    ${name}`;
+- id: ev-069481c7a7e0c043
+  project_slug: lint
+  url: https://en.wikipedia.org/wiki/Lint_(software)
+  title: Lint (software) - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: pain
+  tier: independent
+  fact: Stephen C. Johnson, a computer scientist at Bell Labs, came up with the term "lint" in 1978 while
+    debugging the yacc grammar he was writing for C and dealing with portability issues stemming from
+    porting Unix to a 32-bit machine. [1]
+- id: ev-88e4a89b874ecd2e
+  project_slug: lint
+  url: https://zhuanlan.zhihu.com/p/685155516
+  title: 什么是Lint工具？何时需要使用Lint工具？ - 知乎
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: workaround
+  tier: independent
+  fact: Lint工具是一种基础的 静态代码分析器。 Linting一词最初来自于C语言的Unix实用程序。 这个名字本身相当诙谐，因为“Lint”指的是衣物脱落的棉絮。 类似地，由 计算机科学家
+    斯蒂芬·约翰逊（Stephen C. Johnson）编写的Lint命令就像一个干衣机中的棉絮陷阱，因为它在不影响整块布的情况下捕获了多余的“纤维”。 换句话说，代码中的“Lint”是指在技术上能正常工作的代码，但可能存在漏洞或在其他方面不够理想。
+    在最初的Lint工具之后，涌现了一系列衍生产品，如 PC-Lint PLus。 后续的Linter和类似Lint的工具不仅仅关注样式和格式，还通过查找更广泛的问题扩展了功能，例如未解决的 合并冲突
+    、已弃用的函数以及使用不安全的语言功能。
+- id: ev-84503e1d47a5b171
+  project_slug: lint
+  url: https://mistystar.cn/post/what-is-lint
+  title: 什么是 Lint？程序员的代码"拼写检查器" | 计算机工程 / 开源与工程实践 | Misty的小站
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: workaround
+  tier: independent
+  fact: 在编程世界里，Lint（或者叫 Linter）本质上就是代码的”拼写和语法检查器”。 更准确地说，Lint 是一种 静态代码分析工具 ——它在你不运行（或编译）代码的情况下，自动扫描源代码，把可能存在的低级错误或不规范的地方揪出来。
+    这个名字来源于 1978 年贝尔实验室的 Stephen C. Johnson 为 C 语言编写的工具 lint，就像烘干机里的绒毛过滤器（lint trap）一样，帮你过滤掉代码中的”毛球”。
+    Lint 工具的眼光非常挑剔，主要盯着以下几个方面： 少写了一个逗号、括号没有闭合、关键字拼错——这些手误靠肉眼很难发现，但 Lint 能在你保存文件的瞬间就标出红线。 return `Hello,
+    ${name}`;
+- id: ev-bbed4c5df80d85e0
+  project_slug: lint
+  url: https://en.wikipedia.org/wiki/Lint_(software)
+  title: Lint (software) - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: workaround
+  tier: independent
+  fact: Stephen C. Johnson, a computer scientist at Bell Labs, came up with the term "lint" in 1978 while
+    debugging the yacc grammar he was writing for C and dealing with portability issues stemming from
+    porting Unix to a 32-bit machine. [1]
+- id: ev-878976bedec7793b
+  project_slug: lint
+  url: https://zhuanlan.zhihu.com/p/685155516
+  title: 什么是Lint工具？何时需要使用Lint工具？ - 知乎
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Lint工具是一种基础的 静态代码分析器。 Linting一词最初来自于C语言的Unix实用程序。 这个名字本身相当诙谐，因为“Lint”指的是衣物脱落的棉絮。 类似地，由 计算机科学家
+    斯蒂芬·约翰逊（Stephen C. Johnson）编写的Lint命令就像一个干衣机中的棉絮陷阱，因为它在不影响整块布的情况下捕获了多余的“纤维”。 换句话说，代码中的“Lint”是指在技术上能正常工作的代码，但可能存在漏洞或在其他方面不够理想。
+    在最初的Lint工具之后，涌现了一系列衍生产品，如 PC-Lint PLus。 后续的Linter和类似Lint的工具不仅仅关注样式和格式，还通过查找更广泛的问题扩展了功能，例如未解决的 合并冲突
+    、已弃用的函数以及使用不安全的语言功能。
+- id: ev-92bb6ec357a88551
+  project_slug: lint
+  url: https://mistystar.cn/post/what-is-lint
+  title: 什么是 Lint？程序员的代码"拼写检查器" | 计算机工程 / 开源与工程实践 | Misty的小站
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 在编程世界里，Lint（或者叫 Linter）本质上就是代码的”拼写和语法检查器”。 更准确地说，Lint 是一种 静态代码分析工具 ——它在你不运行（或编译）代码的情况下，自动扫描源代码，把可能存在的低级错误或不规范的地方揪出来。
+    这个名字来源于 1978 年贝尔实验室的 Stephen C. Johnson 为 C 语言编写的工具 lint，就像烘干机里的绒毛过滤器（lint trap）一样，帮你过滤掉代码中的”毛球”。
+    Lint 工具的眼光非常挑剔，主要盯着以下几个方面： 少写了一个逗号、括号没有闭合、关键字拼错——这些手误靠肉眼很难发现，但 Lint 能在你保存文件的瞬间就标出红线。 return `Hello,
+    ${name}`;
+- id: ev-ed0c48279b4d43bf
+  project_slug: lint
+  url: https://en.wikipedia.org/wiki/Lint_(software)
+  title: Lint (software) - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Stephen C. Johnson, a computer scientist at Bell Labs, came up with the term "lint" in 1978 while
+    debugging the yacc grammar he was writing for C and dealing with portability issues stemming from
+    porting Unix to a 32-bit machine. [1]
+- id: ev-da092881e4bc8d25
+  project_slug: lint
+  url: https://zhuanlan.zhihu.com/p/685155516
+  title: 什么是Lint工具？何时需要使用Lint工具？ - 知乎
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: pricing
+  tier: independent
+  fact: Lint工具是一种基础的 静态代码分析器。 Linting一词最初来自于C语言的Unix实用程序。 这个名字本身相当诙谐，因为“Lint”指的是衣物脱落的棉絮。 类似地，由 计算机科学家
+    斯蒂芬·约翰逊（Stephen C. Johnson）编写的Lint命令就像一个干衣机中的棉絮陷阱，因为它在不影响整块布的情况下捕获了多余的“纤维”。 换句话说，代码中的“Lint”是指在技术上能正常工作的代码，但可能存在漏洞或在其他方面不够理想。
+    在最初的Lint工具之后，涌现了一系列衍生产品，如 PC-Lint PLus。 后续的Linter和类似Lint的工具不仅仅关注样式和格式，还通过查找更广泛的问题扩展了功能，例如未解决的 合并冲突
+    、已弃用的函数以及使用不安全的语言功能。
+- id: ev-2c0f1ff85347ecbf
+  project_slug: lint
+  url: https://mistystar.cn/post/what-is-lint
+  title: 什么是 Lint？程序员的代码"拼写检查器" | 计算机工程 / 开源与工程实践 | Misty的小站
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: pricing
+  tier: independent
+  fact: 在编程世界里，Lint（或者叫 Linter）本质上就是代码的”拼写和语法检查器”。 更准确地说，Lint 是一种 静态代码分析工具 ——它在你不运行（或编译）代码的情况下，自动扫描源代码，把可能存在的低级错误或不规范的地方揪出来。
+    这个名字来源于 1978 年贝尔实验室的 Stephen C. Johnson 为 C 语言编写的工具 lint，就像烘干机里的绒毛过滤器（lint trap）一样，帮你过滤掉代码中的”毛球”。
+    Lint 工具的眼光非常挑剔，主要盯着以下几个方面： 少写了一个逗号、括号没有闭合、关键字拼错——这些手误靠肉眼很难发现，但 Lint 能在你保存文件的瞬间就标出红线。 return `Hello,
+    ${name}`;
+- id: ev-e04a31f2f8b52bc3
+  project_slug: lint
+  url: https://en.wikipedia.org/wiki/Lint_(software)
+  title: Lint (software) - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: pricing
+  tier: independent
+  fact: Stephen C. Johnson, a computer scientist at Bell Labs, came up with the term "lint" in 1978 while
+    debugging the yacc grammar he was writing for C and dealing with portability issues stemming from
+    porting Unix to a 32-bit machine. [1]
+- id: ev-92e0cb62f9744a69
+  project_slug: lint
+  url: https://zhuanlan.zhihu.com/p/685155516
+  title: 什么是Lint工具？何时需要使用Lint工具？ - 知乎
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: retention
+  tier: independent
+  fact: Lint工具是一种基础的 静态代码分析器。 Linting一词最初来自于C语言的Unix实用程序。 这个名字本身相当诙谐，因为“Lint”指的是衣物脱落的棉絮。 类似地，由 计算机科学家
+    斯蒂芬·约翰逊（Stephen C. Johnson）编写的Lint命令就像一个干衣机中的棉絮陷阱，因为它在不影响整块布的情况下捕获了多余的“纤维”。 换句话说，代码中的“Lint”是指在技术上能正常工作的代码，但可能存在漏洞或在其他方面不够理想。
+    在最初的Lint工具之后，涌现了一系列衍生产品，如 PC-Lint PLus。 后续的Linter和类似Lint的工具不仅仅关注样式和格式，还通过查找更广泛的问题扩展了功能，例如未解决的 合并冲突
+    、已弃用的函数以及使用不安全的语言功能。
+- id: ev-01a058c2a438ec2b
+  project_slug: lint
+  url: https://mistystar.cn/post/what-is-lint
+  title: 什么是 Lint？程序员的代码"拼写检查器" | 计算机工程 / 开源与工程实践 | Misty的小站
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: retention
+  tier: independent
+  fact: 在编程世界里，Lint（或者叫 Linter）本质上就是代码的”拼写和语法检查器”。 更准确地说，Lint 是一种 静态代码分析工具 ——它在你不运行（或编译）代码的情况下，自动扫描源代码，把可能存在的低级错误或不规范的地方揪出来。
+    这个名字来源于 1978 年贝尔实验室的 Stephen C. Johnson 为 C 语言编写的工具 lint，就像烘干机里的绒毛过滤器（lint trap）一样，帮你过滤掉代码中的”毛球”。
+    Lint 工具的眼光非常挑剔，主要盯着以下几个方面： 少写了一个逗号、括号没有闭合、关键字拼错——这些手误靠肉眼很难发现，但 Lint 能在你保存文件的瞬间就标出红线。 return `Hello,
+    ${name}`;
+- id: ev-826d793e46c6d177
+  project_slug: lint
+  url: https://en.wikipedia.org/wiki/Lint_(software)
+  title: Lint (software) - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-16T00:44:31Z'
+  source_kind: retention
+  tier: independent
+  fact: Stephen C. Johnson, a computer scientist at Bell Labs, came up with the term "lint" in 1978 while
+    debugging the yacc grammar he was writing for C and dealing with portability issues stemming from
+    porting Unix to a 32-bit machine. [1]
+- id: ev-94dbb6a262d123d5
+  project_slug: lint
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E4%B8%8E%E4%BA%92%E8%81%94%E7%BD%91%E6%9C%8D%E5%8A%A1+%E4%B8%93%E4%B8%9A%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%9B%E6%84%8F%E6%9C%8D%E5%8A%A1+%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88+%E8%AE%BE%E8%AE%A1%E7%B3%BB%E7%BB%9F%E7%BB%B4%E6%8A%A4%E8%80%85
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-09-16T00:46:09Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件与互联网服务 专业设计与创意服务 前端工程师 设计系统维护者'

@@ -21,7 +21,7 @@ canonical_url: https://dank.systems/posts/2026-09-15-ai-bear.html
 summary: Why I'm still bearish on LLMs after Navier-Stokes
 first_seen: '2026-09-15T17:37:12Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

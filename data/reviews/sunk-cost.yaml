@@ -1,0 +1,86 @@
+- id: req-initial-sunk-cost-2026-09-16
+  project_slug: sunk-cost
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自建推理设备回本周期算不清的问题，旧做法是手工表格估算，采购决策有真实金额后果，属工作流推理。
+    evidence_ids:
+    - ev-34b4936172fadd30
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条社区讨论帖的互动数据，没有用户反馈说明计算结果是否被采纳，关注度不等于持续采用。
+    evidence_ids:
+    - ev-34b4936172fadd30
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，买方可能是个人开发者或中小团队，属推断，付费路径未核验。
+    evidence_ids:
+    - ev-34b4936172fadd30
+  - gate: truth
+    status: insufficient
+    reason: 计算口径、数据来源与是否考虑折旧和闲置均未披露，无法核对结果是否可信。
+    evidence_ids:
+    - ev-34b4936172fadd30
+  next_validation: 抓取 sunkcost.ai 页面与说明文档，核对计算输入项、数据来源及是否公开定价或收费方式。
+  market: ''
+  job: 准备自购显卡或整机跑本地大模型的开发者，在采购前需要把设备价格、电费与云 API 用量放在一起，算清多久回本。
+  job_en: A developer about to buy a GPU or full machine for local LLM inference needs to put hardware
+    price, electricity and cloud API usage side by side before purchase to see the payback period.
+  pain: 本地推理的隐性成本（电费、折旧、闲置率）难以估算，买贵或买错就是一笔沉没成本，而云 API 账单又随用量波动。
+  pain_en: Hidden costs of local inference such as power, depreciation and idle time are hard to estimate,
+    so a wrong purchase becomes sunk cost, while cloud API bills swing with usage.
+  current_alternative: 自己用表格估算，或凭经验对比云 API 价格，缺少统一口径。
+  current_alternative_en: Estimating in a spreadsheet or comparing cloud API prices by rule of thumb,
+    with no shared basis.
+  usage_reason: 推断：它把设备成本与云 API 用量放进同一个回本计算里，用户不必自己拼表格就能得到一个可比较的年限数字，因此准备采购 GPU 的开发者会先算一遍再下单。缺少实际使用与复购证据，无法判断是否被长期使用。
+  usage_reason_en: 'Inference: it puts hardware cost and cloud API usage into one payback calculation,
+    so users get a comparable number of years without building their own spreadsheet, which is why developers
+    about to buy GPUs would run it before ordering. Actual usage and repeat-use evidence is missing, so
+    long-term use cannot be claimed.'
+- id: req-full-sunk-cost-2026-09-16
+  project_slug: sunk-cost
+  level: full
+  reviewed_at: '2026-09-16T00:51:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自建推理设备回本周期算不清的问题，旧做法是手工表格估算，采购决策有真实金额后果，属工作流推理。
+    evidence_ids:
+    - ev-34b4936172fadd30
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条社区讨论帖的互动数据，没有用户反馈说明计算结果是否被采纳，关注度不等于持续采用。
+    evidence_ids:
+    - ev-34b4936172fadd30
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，买方可能是个人开发者或中小团队，属推断，付费路径未核验。
+    evidence_ids:
+    - ev-34b4936172fadd30
+  - gate: truth
+    status: insufficient
+    reason: 计算口径、数据来源与是否考虑折旧和闲置均未披露，无法核对结果是否可信。
+    evidence_ids:
+    - ev-34b4936172fadd30
+  next_validation: 抓取 sunkcost.ai 页面与说明文档，核对计算输入项、数据来源及是否公开定价或收费方式。
+  market: ''
+  job: 准备自购显卡或整机跑本地大模型的开发者，在采购前需要把设备价格、电费与云 API 用量放在一起，算清多久回本。
+  job_en: A developer about to buy a GPU or full machine for local LLM inference needs to put hardware
+    price, electricity and cloud API usage side by side before purchase to see the payback period.
+  pain: 本地推理的隐性成本（电费、折旧、闲置率）难以估算，买贵或买错就是一笔沉没成本，而云 API 账单又随用量波动。
+  pain_en: Hidden costs of local inference such as power, depreciation and idle time are hard to estimate,
+    so a wrong purchase becomes sunk cost, while cloud API bills swing with usage.
+  current_alternative: 自己用表格估算，或凭经验对比云 API 价格，缺少统一口径。
+  current_alternative_en: Estimating in a spreadsheet or comparing cloud API prices by rule of thumb,
+    with no shared basis.
+  usage_reason: 推断：它把设备成本与云 API 用量放进同一个回本计算里，用户不必自己拼表格就能得到一个可比较的年限数字，因此准备采购 GPU 的开发者会先算一遍再下单。缺少实际使用与复购证据，无法判断是否被长期使用。
+  usage_reason_en: 'Inference: it puts hardware cost and cloud API usage into one payback calculation,
+    so users get a comparable number of years without building their own spreadsheet, which is why developers
+    about to buy GPUs would run it before ordering. Actual usage and repeat-use evidence is missing, so
+    long-term use cannot be claimed.'

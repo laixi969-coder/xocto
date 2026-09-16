@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOVG9FeEhMYlJ4
 summary: 'ASML or AAOI: Which Tech Stock Is Better-Placed at Present? TradingView'
 first_seen: '2026-08-26T16:27:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

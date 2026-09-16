@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE5xbzkwVWljM0Uz
 summary: 视频丨AI智能体藏数据泄露风险，专家提醒：关键操作必须二次核实 京报网
 first_seen: '2026-09-15T09:48:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

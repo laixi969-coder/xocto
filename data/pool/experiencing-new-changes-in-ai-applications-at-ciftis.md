@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNSGNrX1ZrRXky
 summary: Experiencing New Changes in AI Applications at CIFTIS The Manila Times
 first_seen: '2026-09-15T13:02:37Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

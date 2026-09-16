@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE13blJ2cndCc0Vj
 summary: 黄仁勋反对“AI降速”！存储芯片概念走强融资客抢筹9股过亿_证券要闻 中金在线
 first_seen: '2026-09-15T12:59:23Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -34,7 +34,7 @@ canonical_url: https://1mil.app
 summary: My startup-idea scanner scored 500 ideas; the best got 6.3/10
 first_seen: '2026-08-30T11:35:01Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

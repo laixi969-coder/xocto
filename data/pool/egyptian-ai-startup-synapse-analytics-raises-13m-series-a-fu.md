@@ -1,6 +1,6 @@
 ---
 slug: egyptian-ai-startup-synapse-analytics-raises-13m-series-a-fu
-name: Egyptian AI startup Synapse Analytics raises $13m Series A funding round
+name: Synapse Analytics
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPOXNMeHNRbmts
 summary: Egyptian AI startup Synapse Analytics raises $13m Series A funding round - Disrupt Africa
 first_seen: '2026-09-15T06:00:53Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Egyptian AI startup Synapse Analytics raises $13m Series A funding round
+# Synapse Analytics
 
 Egyptian AI startup Synapse Analytics raises $13m Series A funding round - Disrupt Africa
 

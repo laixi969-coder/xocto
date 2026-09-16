@@ -1,6 +1,6 @@
 ---
 slug: 日立升级hmax产品矩阵-提出2026为物理ai元年发力基础设施自主进化
-name: 日立升级HMAX产品矩阵 提出2026为物理AI元年，发力基础设施自主进化
+name: 日立 HMAX
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxQeFZOMVNEMTBN
 summary: 日立升级HMAX产品矩阵 提出2026为物理AI元年，发力基础设施自主进化 新浪财经
 first_seen: '2026-09-15T16:09:40Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 日立升级HMAX产品矩阵 提出2026为物理AI元年，发力基础设施自主进化
+# 日立 HMAX
 
 日立升级HMAX产品矩阵 提出2026为物理AI元年，发力基础设施自主进化 新浪财经
 

@@ -299,3 +299,58 @@
     background after switching. Individuals and developers who use multiple devices and AI clients are
     therefore more likely to choose it when they need continuity of the same context. This is inferred
     from product capability and task structure, not confirmed by user feedback or cases.'
+- id: req-full-memory-bridge-2026-09-16
+  project_slug: memory-bridge
+  level: full
+  reviewed_at: '2026-09-16T00:50:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多设备、多 AI 客户端之间对话记忆与偏好无法复用的问题：各客户端记忆封闭，换端即上下文归零，用户需重复交代背景。仓库公开说明确认其定位为跨设备跨平台共享记忆层（CDSMP
+      实现），输入—写入—跨端读回的闭环可还原，属工作流结构推理；痛点刚性中等，尚未见用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-fe322f2470e63267
+    - ev-9f877d42e8ca51a5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 92 增至 121，说明开发者社区持续关注，属关注度证据；但公开材料没有 issue、discussion 或用户评价说明谁在何种场景持续使用、替代了哪套旧流程，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-fe322f2470e63267
+    - ev-27661fbbaa26b12b
+  - gate: model
+    status: insufficient
+    reason: 这是开源实现，公开材料未见定价页、付费主体或采购记录；可能路径是开发者自托管、后续托管服务订阅或企业授权，但均属判断而非已验证事实，to C 与 to B 付费路径都未核验。
+    evidence_ids:
+    - ev-fe322f2470e63267
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出定位与 CDSMP 实现，未见部署文档、同步范围说明、隐私边界与人工确认环节的可复现证据，无法确认跨端交付是否稳定发生、记忆写入是否可控。
+    evidence_ids:
+    - ev-fe322f2470e63267
+    - ev-0f46e67a8df197a4
+  next_validation: 追踪 memory-bridge 仓库的 README、部署文档与 issue/discussion，确认跨端同步范围、隐私边界与人工确认环节，以及是否有用户描述实际替代的旧流程。
+  market: ''
+  job: 个人用户与开发者在多台设备（如笔记本与台式机）和多个 AI 客户端（如不同厂商的对话助手、本地模型前端）之间切换时，需要把此前对话中积累的偏好、上下文与结论写入一份共享记忆层，并在另一台设备或另一个客户端里读回，继续同一项工作而不必重新交代背景。
+  job_en: Individuals and developers who switch between multiple devices (e.g. laptop and desktop) and
+    multiple AI clients (e.g. different vendors' assistants, local model front-ends) need to write accumulated
+    preferences, context and conclusions from prior conversations into one shared memory layer and read
+    them back on another device or client, continuing the same work without re-briefing the model.
+  pain: 公开材料只给出产品定位（跨设备、跨平台的 AI 共享记忆层，CDSMP 实现），未提供用户抱怨或案例；从工作流结构推理，痛点是每个 AI 客户端各自维护会话记忆，换设备或换客户端后上下文归零，用户必须重复粘贴背景、重述偏好，且同一份结论散落在多个封闭记忆里无法复用。
+  pain_en: Public materials only give the product positioning (a cross-device, cross-platform shared memory
+    layer for AI, a CDSMP implementation) with no user complaints or cases; reasoning from workflow structure,
+    the pain is that each AI client keeps its own conversation memory, so switching device or client resets
+    context, forcing users to re-paste background and restate preferences while conclusions stay scattered
+    across closed memory silos.
+  current_alternative: 当前替代方式是各客户端自带的会话历史与记忆功能，或用户手动复制粘贴关键上下文、维护本地笔记与提示词模板；这些做法都绑定单一客户端或单一设备，跨端时需要人工搬运。
+  current_alternative_en: The current alternative is each client's built-in conversation history and memory,
+    or users manually copying key context and maintaining local notes and prompt templates; these stay
+    bound to one client or one device and require manual transport across devices.
+  usage_reason: 推断：相较手动复制粘贴或依赖单一客户端记忆，它把记忆写入与读回抽成一个跨设备共享层，用户在一台设备上确认过的偏好与结论可在另一台设备或另一个客户端直接调用，省去重新交代背景这一步；因此频繁在设备与
+    AI 客户端之间切换、且在意上下文连续性的个人用户与开发者会在这种场景下选择它。公开材料尚未提供用户反馈或留存数据来证实这一动机。
+  usage_reason_en: 'Inference: compared with manual copy-paste or relying on a single client''s memory,
+    it abstracts memory write and read-back into a cross-device shared layer, so preferences and conclusions
+    confirmed on one device can be called directly on another device or client, removing the step of re-briefing
+    context; therefore individuals and developers who frequently switch between devices and AI clients
+    and care about context continuity would choose it in that situation. Public material'

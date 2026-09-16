@@ -1,6 +1,6 @@
 ---
 slug: afl-and-alcyon-photonics-collaborate-to-advance-next-generat
-name: AFL and Alcyon Photonics Collaborate to Advance Next-Generation Fiber to PIC Coupling for AI Infrastructure
+name: AFL
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: AFL and Alcyon Photonics Collaborate to Advance Next-Generation Fiber t
   Infrastructure 01net
 first_seen: '2026-09-15T23:18:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AFL and Alcyon Photonics Collaborate to Advance Next-Generation Fiber to PIC Coupling for AI Infrastructure
+# AFL
 
 AFL and Alcyon Photonics Collaborate to Advance Next-Generation Fiber to PIC Coupling for AI Infrastructure 01net
 

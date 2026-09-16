@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/the-top-10-investors-across-dach-cee
 summary: ''
 first_seen: '2026-09-15T05:00:20Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

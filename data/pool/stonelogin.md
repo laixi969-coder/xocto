@@ -2,19 +2,42 @@
 slug: stonelogin
 name: Stonelogin
 builder: eliojames
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 做跨境电商多店铺或广告投放的人，在需要同时登录多个平台账号时打开它，把每个账号放进互相隔离的浏览器环境里，避免平台把多个账号识别成同一台设备。开发者称它基于修改后的谷歌内核做指纹隔离、并通过
+  pixelscan 检测，用户最终拿到的是可并行登录的独立环境；具体交付流程与检测结果仍待核验。
+inspiration: 趋势：指纹浏览器已是跨境电商和广告投放的成熟旧工作流，新进入者开始把 AI 能力（如 MCP）往这套环境里塞。切入：不要正面拼内核和指纹库，可从「账号环境 + 自动化操作」的结果交付切，例如按店铺数或按跑量结果收费，服务中小跨境卖家；价格未披露，不能编。
+summary_en: People running multiple cross-border storefronts or ad accounts open it when they need to
+  log into several platform accounts at once, placing each account in an isolated browser environment
+  so platforms do not read them as one device. The developer says it isolates fingerprints on a modified
+  Chromium kernel and passes pixelscan checks, leaving users with parallel independent environments; the
+  exact delivery flow and test results still need verification.
+inspiration_en: 'Trend: fingerprint browsers are an established workflow in cross-border e-commerce and
+  ad buying, and newcomers are now pushing AI capabilities such as MCP into that environment. Entry: do
+  not fight on kernel or fingerprint libraries; sell the outcome of account environment plus automated
+  operations, for example charging per store or per campaign result for small cross-border sellers. No
+  price was disclosed, so none is stated.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 跨境电商
+- 广告投放
+- 账号运营
+industries_en:
+- Cross-border e-commerce
+- Advertising operations
+- Account operations
+jobs:
+- 多账号运营人员
+- 跨境电商卖家
+- 广告投放代理
+jobs_en:
+- Multi-account operators
+- Cross-border e-commerce sellers
+- Ad agency staff
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: https://www.stonelogin.com/
 canonical_url: https://stonelogin.com
@@ -27,7 +50,7 @@ summary: "目前自己开发了一款自研的指纹浏览器，但是，由于�
   \n2026-EBBE5532AA6FB267\r\n2026-EE61ED2F78650D32\r\n2026-F4E8C15A53BC28E6\r\n2026-FB6669B0AD7C91D0"
 first_seen: '2026-09-15T07:49:20Z'
 last_seen: '2026-09-16T00:20:34Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 sightings:

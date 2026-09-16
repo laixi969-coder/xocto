@@ -1,0 +1,87 @@
+- id: req-initial-runtherepo-2026-09-16
+  project_slug: runtherepo
+  level: initial
+  reviewed_at: '2026-09-16T00:20:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决陌生仓库跑不起来就无法验证的需求，痛点是环境与启动步骤缺失导致手工排查耗时，旧做法是照 README 手工试错。
+    evidence_ids:
+    - ev-51d3e8f366f33da6
+  - gate: consensus
+    status: insufficient
+    reason: 只有开源仓库关注度，没有用户反馈或团队采用证据，无法判断环境复现是否已被当作独立环节。
+    evidence_ids:
+    - ev-51d3e8f366f33da6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按仓库或运行次数向工程团队收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-51d3e8f366f33da6
+  - gate: truth
+    status: insufficient
+    reason: 无法核验它在复杂项目上的成功率、加固动作是否安全，以及人工确认边界如何设定。
+    evidence_ids:
+    - ev-51d3e8f366f33da6
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认用户实际提交的项目类型与运行结果反馈。
+  market: ''
+  job: 开发者在评估或接手一个陌生的 Docker Compose 项目时，需要把仓库跑起来并跑通测试，才能判断它是否可用。
+  job_en: When evaluating or taking over an unfamiliar Docker Compose project, a developer needs to get
+    the repository running and pass its tests before judging whether it is usable.
+  pain: 环境依赖、配置和启动步骤往往没有写清，手工排查要花掉大量时间，跑不起来就无法验证。
+  pain_en: Dependencies, configuration and startup steps are often undocumented, manual troubleshooting
+    eats hours, and without a running instance nothing can be verified.
+  current_alternative: 照着 README 手工装依赖、逐条试错启动命令，或在本地反复调试容器配置。
+  current_alternative_en: Installing dependencies by hand from the README, trying startup commands one
+    by one, or repeatedly debugging container configuration locally.
+  usage_reason: 推断：它把装依赖、试启动、跑测试这几步合并为一次自动执行并输出可运行环境，省去人工逐条排查启动失败原因的过程，因此需要快速验证陌生仓库的团队会在评估阶段使用它。
+  usage_reason_en: 'Inference: it merges dependency install, startup attempts and test runs into one automated
+    pass that outputs a working environment, removing the manual hunt for why startup fails, so teams
+    that must quickly validate unfamiliar repositories would use it during evaluation.'
+- id: req-full-runtherepo-2026-09-16
+  project_slug: runtherepo
+  level: full
+  reviewed_at: '2026-09-16T00:51:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决陌生 Docker Compose 仓库跑不起来就无法验证的需求，痛点是依赖与启动步骤缺失导致手工排查耗时；旧做法是照 README 逐条试错。这是基于仓库说明与开发者工作流的结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-51d3e8f366f33da6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 102 星标，属关注度而非采用证据；没有 issue、讨论或团队使用反馈，无法判断环境复现是否已被当作独立环节，也无法确认是否有人持续使用。
+    evidence_ids:
+    - ev-51d3e8f366f33da6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或授权方式，按仓库或运行次数向工程团队收费只是判断，不是已验证事实；开源仓库本身也未显示付费路径。
+    evidence_ids:
+    - ev-51d3e8f366f33da6
+  - gate: truth
+    status: insufficient
+    reason: 无法核验它在复杂项目上的成功率、加固动作是否安全、是否改动用户配置，以及人工确认边界如何设定，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-51d3e8f366f33da6
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认用户实际提交的项目类型、运行成功率和加固动作反馈。
+  market: ''
+  job: 后端或运维工程师在评估、接手或复现一个陌生的 公开代码仓库 Docker Compose 项目时，把仓库交给该 Agent，需要它把应用跑起来、执行测试并加固配置，最终拿到可运行环境和测试结果。
+  job_en: A backend or ops engineer evaluating, taking over or reproducing an unfamiliar public code repository
+    Docker Compose project hands the repository to the agent and needs it to bring the app up, run tests
+    and harden configuration, ending with a runnable environment and test results.
+  pain: 公开仓库常缺依赖版本、环境变量与启动顺序说明，手工照 README 逐条试错要反复调试容器配置；跑不起来就无法验证项目是否可用，评估被卡在环境复现这一步。
+  pain_en: Public repositories often omit dependency versions, environment variables and startup order,
+    so hand-trying commands from the README means repeated container debugging; without a running instance
+    the project cannot be validated and evaluation stalls at environment reproduction.
+  current_alternative: 照 README 手工安装依赖、逐条试启动命令、本地反复调试 docker-compose 配置，或直接放弃该仓库。
+  current_alternative_en: Manually installing dependencies from the README, trying startup commands one
+    by one, repeatedly debugging docker-compose configuration locally, or abandoning the repository.
+  usage_reason: 推断：相较手工逐条试错，它把装依赖、试启动、跑测试合并为一次自动执行并输出可运行环境，省去人工定位启动失败原因这一步，因此需要在评估阶段快速验证陌生仓库的工程师会选它。
+  usage_reason_en: 'Inference: versus manual trial-and-error, it merges dependency install, startup attempts
+    and test runs into one automated pass that outputs a working environment, removing the manual step
+    of locating why startup fails, so engineers who must quickly validate unfamiliar repositories during
+    evaluation would choose it.'

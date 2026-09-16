@@ -434,3 +434,55 @@
     overlay into CapCut to composite, skipping both per-line alignment and redoing the whole clip; thus
     creators who care about original quality but dislike manual effect layout would pick it inside a CapCut
     workflow. This is an inference from product capability, not yet backed by user feedback.
+- id: req-full-overlay-studio-2026-09-16
+  project_slug: overlay-studio
+  level: full
+  reviewed_at: '2026-09-16T00:50:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播视频动效层制作的需求：手工逐条打关键帧耗时数小时，整段 AI 重生成又压原片、不可逐元素改。产品以字幕稿为输入自动编排动效层、导出透明层叠回剪映，交付路径明确，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-b064416ea11217e4
+    - ev-acc3e719ec7f71b5
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库星标从 75 缓升至 84，说明有开发者关注，但公开材料未见 issue、discussion、部署记录或用户评价，无法证明创作者已把它留在日常剪辑工作流中。
+    evidence_ids:
+    - ev-b064416ea11217e4
+    - ev-c6d4ef7f6cbebd82
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、付费主体或采购记录，谁付钱、按什么单位收费均未核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-b064416ea11217e4
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述导出透明动效层进剪映的流程，未见部署文档、可复现实测或对 AI 编排错误、人工修正边界与安全边界的说明，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-0cb45a4f570f4038
+    - ev-a49d2bd1ead025ab
+  next_validation: 追踪 overlay-studio 仓库的 issue 与 discussion，确认创作者是否报告在剪映工作流中实际使用、替代了手工打关键帧，以及导出透明层是否可复现。
+  market: ''
+  job: 口播视频创作者在剪映里剪完口播原片后，把字幕稿交给 overlay-studio，由 AI 按字幕内容自动编排动效层，创作者逐元素手动修改后导出透明动效层，再叠回剪映原片完成成片。
+  job_en: A talking-head video creator, after cutting the raw take in CapCut, hands the subtitle script
+    to overlay-studio so the AI auto-arranges a motion-graphics overlay layer; the creator then edits
+    each element by hand, exports a transparent overlay layer, and composites it back over the untouched
+    original in CapCut.
+  pain: 口播视频的动效层（字幕条、关键词弹出、图示）通常要逐条手工打关键帧，一条几分钟的口播要花数小时；而把整段素材丢进 AI 生成工具又会重编码原片、损失画质并让创作者失去对每个元素的控制。
+  pain_en: Motion overlays for talking-head videos (lower thirds, keyword pops, callouts) are normally
+    keyframed by hand, costing hours per few-minute clip; meanwhile feeding the whole take into an AI
+    generation tool re-encodes the original, degrades quality, and strips per-element control from the
+    creator.
+  current_alternative: 当前替代是剪映内置动效/贴纸模板逐条手工摆放，或使用 AI 视频生成工具重做整段素材；前者费时，后者压原片且不可逐元素修改。
+  current_alternative_en: Today creators either hand-place CapCut's built-in motion/sticker templates
+    one by one, or regenerate the whole clip with an AI video tool; the former is slow, the latter re-compresses
+    the original and is not element-editable.
+  usage_reason: 相较手工逐条打关键帧，它用字幕稿作为输入让 AI 一次性生成整层动效，创作者只需在生成结果上做局部修改，省掉从零摆放每个元素的步骤；相较整段 AI 重生成，它只导出透明动效层、原片一帧不压，因此在意画质与逐元素可控性的口播创作者会在剪映工作流中选用它。此为基于产品能力与工作流的结构推理，尚无用户反馈佐证。
+  usage_reason_en: Versus hand-keyframing every element, it takes the subtitle script as input so the
+    AI generates the whole overlay layer at once and the creator only tweaks the result, removing the
+    from-scratch placement step; versus full AI regeneration, it exports only a transparent overlay layer
+    and leaves the original untouched, so creators who care about quality and per-element control would
+    adopt it inside a CapCut workflow. This is structural inference from product capability and workf

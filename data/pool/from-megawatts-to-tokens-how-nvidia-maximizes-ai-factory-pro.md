@@ -24,7 +24,7 @@ summary: On a sweltering August evening in Silicon Valley, as the sun dropped an
   room, engineers […]
 first_seen: '2026-09-15T16:55:59Z'
 last_seen: '2026-09-16T00:21:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

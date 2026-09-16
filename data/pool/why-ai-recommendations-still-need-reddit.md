@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPNDNaZHZLamhJ
 summary: Why AI Recommendations Still Need Reddit CX Today
 first_seen: '2026-09-15T12:24:04Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

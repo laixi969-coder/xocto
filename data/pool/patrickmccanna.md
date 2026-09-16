@@ -21,7 +21,7 @@ canonical_url: https://patrickmccanna.net/notes-on-migrating-large-prompts-away-
 summary: Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama
 first_seen: '2026-09-14T13:59:09Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

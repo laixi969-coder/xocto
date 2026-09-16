@@ -21,7 +21,7 @@ canonical_url: https://attalambda.com
 summary: a language where types and data are made of untyped lambdas
 first_seen: '2026-09-14T16:21:10Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

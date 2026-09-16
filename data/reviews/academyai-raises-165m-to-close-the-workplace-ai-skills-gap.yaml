@@ -1,0 +1,89 @@
+- id: req-initial-academyai-raises-165m-to-close-the-workplace-ai-skills-gap-2026-09-16
+  project_slug: academyai-raises-165m-to-close-the-workplace-ai-skills-gap
+  level: initial
+  reviewed_at: '2026-09-16T00:21:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是岗位 AI 技能评估与培训脱节的问题，痛点方向成立，但公开材料未说明评估口径、交付形式与人工确认环节，价值链条尚不完整。
+    evidence_ids:
+    - ev-fae7f72632f18243
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户名单、采购方或使用规模，无法判断企业侧是否已形成共识。
+    evidence_ids:
+    - ev-fae7f72632f18243
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式与付费方，to B 还是 to C 只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-fae7f72632f18243
+  - gate: truth
+    status: insufficient
+    reason: 无法核对评估结果是否贴近岗位第一性目标，也未说明人工复核与安全边界。
+    evidence_ids:
+    - ev-fae7f72632f18243
+  next_validation: 获取 AcademyAI 官方定价页或客户案例页，确认评估口径、培训交付形式与付费方。
+  market: ''
+  job: 企业学习与发展负责人或 HR 在年度技能盘点或岗位调整时，处理员工的 AI 使用情况与岗位要求，要产出一份按岗位划分的技能差距清单和培训安排。
+  job_en: A corporate L&D lead or HR manager, during annual skills reviews or role changes, works with
+    employees' AI usage and role requirements to produce a role-by-role skills-gap list and a training
+    plan.
+  pain: 岗位对 AI 能力的要求变化快，企业缺少统一的评估口径，培训往往与岗位实际任务脱节，盘点结果难以核对。
+  pain_en: Role expectations for AI skills shift quickly, firms lack a shared assessment standard, training
+    often drifts from actual job tasks, and inventory results are hard to verify.
+  current_alternative: 多数企业目前靠通用在线课程、外部讲师工作坊或员工自评表格来应付，评估与岗位任务不挂钩。
+  current_alternative_en: Most firms currently rely on generic online courses, external instructor workshops
+    or self-assessment forms, with assessment disconnected from actual job tasks.
+  usage_reason: 推断：若该平台能按岗位任务而非通用课程来出题和生成培训，企业可省去自行设计评估标准这一步，并在复测时得到可对照的结果，因此有岗位资质要求、需要留痕的企业培训负责人可能选择它；公开材料未给出客户案例或复购证据，无法确认持续使用。
+  usage_reason_en: 'Inference: if the platform generates assessments and training from role tasks rather
+    than generic courses, firms skip designing their own assessment standard and get comparable results
+    on re-test, which may lead L&D owners in credential-heavy firms to choose it; no customer cases or
+    repeat-use evidence are public, so sustained use cannot be confirmed.'
+- id: req-full-academyai-raises-165m-to-close-the-workplace-ai-skills-gap-2026-09-16
+  project_slug: academyai-raises-165m-to-close-the-workplace-ai-skills-gap
+  level: full
+  reviewed_at: '2026-09-16T00:47:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决岗位 AI 技能评估与培训脱节的需求：企业缺统一口径、通用课程与岗位任务不挂钩、盘点结果难核对，痛点刚性且交付可确定；谁付钱未披露，属模式关问题。
+    evidence_ids:
+    - ev-fae7f72632f18243
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户名单、采购方或使用规模，无法判断企业侧是否已形成采用共识；关注度不等于持续使用。
+    evidence_ids:
+    - ev-fae7f72632f18243
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式与付费方，to B 还是 to C 只能推测，属判断而非已验证事实；融资叙事本身不构成付费路径。
+    evidence_ids:
+    - ev-fae7f72632f18243
+  - gate: truth
+    status: insufficient
+    reason: 无法核对评估结果是否贴近岗位第一性目标，也未说明人工复核与安全边界，交付确定性缺公开证据。
+    evidence_ids:
+    - ev-fae7f72632f18243
+  next_validation: 追踪 AcademyAI 官网定价页或客户案例页，确认评估口径、培训交付形式与付费方。
+  market: ''
+  job: 企业学习与发展负责人或 HR 管理者在年度技能盘点或岗位调整时，把员工现有 AI 使用情况与岗位要求交给平台，要产出一份按岗位划分的技能差距清单和对应培训安排。
+  job_en: A corporate L&D lead or HR manager, during annual skills reviews or role changes, feeds employees'
+    current AI usage and role requirements into the platform to produce a role-by-role skills-gap list
+    and matching training plan.
+  pain: 岗位对 AI 能力的要求变化快，企业缺少统一评估口径，通用课程与岗位实际任务脱节，盘点结果难以核对，培训投入难以证明与岗位相关。
+  pain_en: Role expectations for AI skills shift fast, firms lack a shared assessment standard, generic
+    courses drift from actual job tasks, inventory results are hard to verify, and training spend is hard
+    to tie back to roles.
+  current_alternative: 多数企业目前靠通用在线课程、外部讲师工作坊或员工自评表格应付，评估与岗位任务不挂钩。
+  current_alternative_en: Most firms currently rely on generic online courses, external instructor workshops,
+    or employee self-assessment forms, with assessment disconnected from actual job tasks.
+  usage_reason: 推断：相较通用课程加自评表，该平台按岗位任务生成评估与培训，企业可省去自行设计评估标准这一步，并在复测时得到可对照的岗位级结果，因此有岗位资质要求、需要留痕的企业培训负责人可能选择它；公开材料尚无客户案例或复购证据，持续使用未获证实。
+  usage_reason_en: 'Inference: versus generic courses plus self-assessment forms, the platform generates
+    assessments and training from role tasks, letting firms skip designing their own assessment standard
+    and get comparable role-level results on re-test, so L&D owners in credential-heavy firms may choose
+    it; no customer cases or repeat-use evidence are public, so sustained use is unconfirmed.'

@@ -1,0 +1,90 @@
+- id: req-initial-grimo-ai-2026-09-16
+  project_slug: grimo-ai
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口头交代后要手动拆成待办、日程和笔记并分别录入的问题，痛点高频且旧行为清楚。
+    evidence_ids:
+    - ev-f0bf93cd0f7c2b54
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有采用规模、评价或重复使用信号，无法判断是否形成习惯。
+    evidence_ids:
+    - ev-f0bf93cd0f7c2b54
+  - gate: model
+    status: insufficient
+    reason: 未见定价页与买方信息，按席位还是按结果收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-f0bf93cd0f7c2b54
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持哪些日历与笔记工具、误识别条目如何纠正，交付确定性无法核对。
+    evidence_ids:
+    - ev-f0bf93cd0f7c2b54
+  next_validation: 收集该产品的官方定价页与集成说明，核对支持的日历、笔记工具及条目确认方式。
+  market: ''
+  job: 日程密集的职场人士在会议结束或通勤途中，把一段口头交代的待办、会议时间和零散笔记交给它，最终得到已排入日历的日程和归好类的任务与笔记，仍需自己确认条目是否准确。
+  job_en: Schedule-heavy professionals finishing a meeting or commuting hand over a spoken set of to-dos,
+    meeting times and loose notes, and end up with calendar entries plus categorised tasks and notes,
+    still needing to confirm the items themselves.
+  pain: 口头交代的信息要事后手动拆成待办、日程和笔记，分别录入不同工具，容易漏项或拖延；不解决就出现遗忘和重复整理。
+  pain_en: Verbally given information must later be split by hand into to-dos, schedule items and notes
+    across different tools, which is easily dropped or postponed; not solving it causes forgotten items
+    and repeated sorting.
+  current_alternative: 手动在日历和待办应用里逐条录入，或用语音转文字后再自己复制粘贴到各工具。
+  current_alternative_en: Typing items one by one into calendar and to-do apps, or transcribing voice
+    and copy-pasting into each tool manually.
+  usage_reason: 相较先转文字再手动分派到日历和笔记，它把拆分与落位合并成一次口述动作，省掉逐条录入这一步，因此适合会议多、口头交代多的岗位；这是基于产品说明的推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with transcribing first and manually dispatching into calendar and notes,
+    it merges splitting and filing into one spoken action, removing the item-by-item entry step, which
+    suits roles with many meetings and verbal hand-offs; this is inference from the product description,
+    with no user feedback or retention evidence.
+- id: req-full-grimo-ai-2026-09-16
+  project_slug: grimo-ai
+  level: full
+  reviewed_at: '2026-09-16T00:49:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口头交代后要手动拆成待办、日程和笔记并分别录入的问题，痛点高频且旧行为清楚。
+    evidence_ids:
+    - ev-f0bf93cd0f7c2b54
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有采用规模、评价或重复使用信号，无法判断是否形成习惯。
+    evidence_ids:
+    - ev-f0bf93cd0f7c2b54
+  - gate: model
+    status: insufficient
+    reason: 未见定价页与买方信息，按席位还是按结果收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-f0bf93cd0f7c2b54
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持哪些日历与笔记工具、误识别条目如何纠正，交付确定性无法核对。
+    evidence_ids:
+    - ev-f0bf93cd0f7c2b54
+  next_validation: 收集该产品的官方定价页与集成说明，核对支持的日历、笔记工具及条目确认方式。
+  market: ''
+  job: 日程密集的职场人士在会议结束或通勤途中，把一段口头交代的待办、会议时间和零散笔记交给它，最终得到已排入日历的日程和归好类的任务与笔记，仍需自己确认条目是否准确。
+  job_en: Schedule-heavy professionals finishing a meeting or commuting hand over a spoken set of to-dos,
+    meeting times and loose notes, and end up with calendar entries plus categorised tasks and notes,
+    still needing to confirm the items themselves.
+  pain: 口头交代的信息要事后手动拆成待办、日程和笔记，分别录入不同工具，容易漏项或拖延；不解决就出现遗忘和重复整理。
+  pain_en: Verbally given information must later be split by hand into to-dos, schedule items and notes
+    across different tools, which is easily dropped or postponed; not solving it causes forgotten items
+    and repeated sorting.
+  current_alternative: 手动在日历和待办应用里逐条录入，或用语音转文字后再自己复制粘贴到各工具。
+  current_alternative_en: Typing items one by one into calendar and to-do apps, or transcribing voice
+    and copy-pasting into each tool manually.
+  usage_reason: 相较先转文字再手动分派到日历和笔记，它把拆分与落位合并成一次口述动作，省掉逐条录入这一步，因此适合会议多、口头交代多的岗位；这是基于产品说明的推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with transcribing first and manually dispatching into calendar and notes,
+    it merges splitting and filing into one spoken action, removing the item-by-item entry step, which
+    suits roles with many meetings and verbal hand-offs; this is inference from the product description,
+    with no user feedback or retention evidence.

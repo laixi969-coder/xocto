@@ -1,6 +1,6 @@
 ---
 slug: waffles-screen-free-kids-phone-skips-apps-and-social-media-w
-name: Waffle's screen-free kids phone skips apps and social media — where to pre-order now
+name: Waffle
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTFBGUEk5WWFhblkw
 summary: Waffle's screen-free kids phone skips apps and social media — where to pre-order now Mashable
 first_seen: '2026-09-14T17:30:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Waffle's screen-free kids phone skips apps and social media — where to pre-order now
+# Waffle
 
 Waffle's screen-free kids phone skips apps and social media — where to pre-order now Mashable
 

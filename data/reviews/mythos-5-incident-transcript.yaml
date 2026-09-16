@@ -234,3 +234,44 @@
   usage_reason: 无法给出选择理由：现有证据只有仓库星标从 19 增至 54，属于关注度信号，不能解释用户为何在具体情境下选用它。
   usage_reason_en: 'No usage rationale can be given: the only evidence is stars rising from 19 to 54,
     an attention signal that cannot explain why a user would choose it in a concrete situation.'
+- id: req-full-mythos-5-incident-transcript-2026-09-16
+  project_slug: mythos-5-incident-transcript
+  level: full
+  reviewed_at: '2026-09-16T00:50:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有仓库名与收藏数，未说明它解决什么需求、痛点是什么、用户当前如何替代，连用户任务都无法还原，因此无法做出价值判断。
+    evidence_ids:
+    - ev-20bef2fb7e771f7d
+    - ev-8fe4a55270727b34
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它声明的输入材料、执行动作与交付结果，以及是否有用户描述替代了哪一步旧流程。
+  market: ''
+  job: 公开材料仅显示这是一个名为 mythos-5-incident-transcript 的 公开代码仓库 仓库，未说明谁在什么情况下处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public materials only show a public code repository repository named mythos-5-incident-transcript;
+    they do not state who handles what material in what situation to complete what task, so no concrete
+    job can be reconstructed.
+  pain: 公开证据中没有用户痛点、抱怨或 workaround 记录，只有仓库收藏数变化，无法说明任何具体摩擦或不解决的后果。
+  pain_en: Public evidence contains no user pain points, complaints, or workarounds, only star-count changes,
+    so no specific friction or consequence of leaving it unsolved can be stated.
+  current_alternative: 公开材料未说明用户目前如何完成相关工作，也未说明该仓库替代了什么旧做法或工具。
+  current_alternative_en: Public materials do not show how users currently complete the related work,
+    nor what prior practice or tool this repository replaces.
+  usage_reason: 缺少产品说明、文档、issue 或用户反馈，无法解释用户相较现有做法为什么会选择它；收藏数上升只反映关注度，不能作为使用理由。
+  usage_reason_en: With no product description, documentation, issues, or user feedback, there is no explanation
+    of why users would choose it over existing approaches; rising stars reflect attention only, not a
+    usage reason.

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/umeiko/haidass-translate-app
 summary: ''
 first_seen: '2026-09-15T01:26:55Z'
 last_seen: '2026-09-16T00:21:04Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

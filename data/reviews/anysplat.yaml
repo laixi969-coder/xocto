@@ -1,0 +1,91 @@
+- id: req-initial-anysplat-2026-09-16
+  project_slug: anysplat
+  level: initial
+  reviewed_at: '2026-09-16T00:21:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决照片转三维场景的重建任务，但公开材料只有一句速度自述，说不清谁在什么节点用、不解决会失去什么，痛点无法还原。
+    evidence_ids:
+    - ev-948e670687b92b47
+  - gate: consensus
+    status: insufficient
+    reason: 仅 2 个点赞，无社区讨论、无采用或复述，无法判断是否有人真的把它放进工作流。
+    evidence_ids:
+    - ev-948e670687b92b47
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；开源演示可能靠后续服务或托管变现，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-948e670687b92b47
+  - gate: truth
+    status: insufficient
+    reason: 速度声明无基准、无代码仓库、无复现记录，交付是否确定发生无法核对。
+    evidence_ids:
+    - ev-948e670687b92b47
+  next_validation: 收集该项目的公开代码仓库或基准测试页面，核对重建速度对比数据与可复现的输入输出示例。
+  market: ''
+  job: 三维重建工程师或场景美术在需要把一组实拍照片转成可浏览三维场景时，把照片素材交给重建工具，产出一份可用于展示或后续编辑的三维场景。
+  job_en: A 3D reconstruction engineer or scene artist who needs to turn a set of captured photos into
+    a browsable 3D scene feeds the photos to a reconstruction tool and produces a 3D scene usable for
+    display or further editing.
+  pain: 公开材料只说明它比 Dust3r 快，没有说明慢在哪里造成什么后果，也没有用户抱怨或替代流程描述，痛点无法从现有事实还原。
+  pain_en: Public material only says it is faster than Dust3r, without saying what the slowness costs
+    or any user complaint or substitute workflow, so the pain cannot be reconstructed from available facts.
+  current_alternative: 现有替代是 Dust3r 等开源重建流程，以及外包给建模人员手工建模；两者耗时与成本差异在公开材料中未给出。
+  current_alternative_en: Current alternatives are open reconstruction pipelines such as Dust3r and outsourcing
+    manual modeling to artists; the time and cost difference is not given in public material.
+  usage_reason: 推断：若重建速度确实显著快于 Dust3r，需要批量试拍、快速看效果的三维美术或房产可视化人员会先试它，因为可以少等一轮重建再决定是否继续拍摄；但速度优势尚无基准数据支持，也未证明有人重复使用。
+  usage_reason_en: 'Inference: if reconstruction is indeed markedly faster than Dust3r, 3D artists or
+    real estate visualization staff who need batch test shots and quick previews would try it first, since
+    they wait one less reconstruction round before deciding whether to keep shooting; the speed advantage
+    has no benchmark support and repeated use is unproven.'
+- id: req-full-anysplat-2026-09-16
+  project_slug: anysplat
+  level: full
+  reviewed_at: '2026-09-16T00:48:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决照片转三维场景的重建任务，痛点在于重建耗时拖慢试拍—看效果—补拍循环；不采用则只能等 Dust3r 或外包建模。公开材料仅一句速度自述，痛点与交付闭环属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-948e670687b92b47
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开模型社区 Space 上“比 Dust3r 更快”的自述，无社区讨论、采用复述或收藏规模，无法判断是否有人把它放进工作流；中文生态检索也未发现相关公开资料。
+    evidence_ids:
+    - ev-948e670687b92b47
+    - ev-148f3dee1f9810b1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；开源演示可能靠托管或后续服务变现，这属于判断而非已验证事实，谁付钱仍说不清。
+    evidence_ids:
+    - ev-948e670687b92b47
+  - gate: truth
+    status: insufficient
+    reason: 速度声明无基准、无代码仓库、无复现记录，输入格式与输出交付物未说明，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-948e670687b92b47
+  next_validation: 追踪该项目的公开代码仓库或基准测试页面，核对重建速度对比数据与可复现的输入输出示例。
+  market: ''
+  job: 三维重建工程师或场景美术在拿到一组实拍照片、需要快速判断拍摄是否够用或产出可浏览三维场景时，把照片交给高斯泼溅重建流程，得到一份三维场景结果用于展示或后续编辑。
+  job_en: A 3D reconstruction engineer or scene artist who has a set of captured photos and needs to quickly
+    judge whether the shoot is sufficient or produce a browsable 3D scene feeds the photos into a Gaussian-splatting
+    reconstruction pipeline and obtains a 3D scene for display or further editing.
+  pain: 公开材料只给出“比 Dust3r 更快”这一句自述，没有用户抱怨、耗时数据或失败案例，因此痛点只能从重建工作流结构推断：重建耗时越长，试拍—看效果—补拍的循环越慢，批量素材的等待成本越高。
+  pain_en: 'Public material offers only the single claim of being faster than Dust3r, with no user complaints,
+    timing data, or failure cases, so the pain can only be inferred from the reconstruction workflow structure:
+    the longer reconstruction takes, the slower the shoot-preview-reshoot loop and the higher the waiting
+    cost for batch footage.'
+  current_alternative: 现有替代是 Dust3r 等开源重建流程，以及外包给建模人员手工建模；公开材料未给出两者的耗时与成本差异。
+  current_alternative_en: Current alternatives are open reconstruction pipelines such as Dust3r and outsourcing
+    manual modeling to artists; public material gives no time or cost comparison between them.
+  usage_reason: 推断：若重建速度确实快于 Dust3r，需要批量试拍、快速看效果的三维美术或房产可视化人员会先试它，因为可以在同一轮拍摄现场就拿到重建结果、少等一轮再决定是否补拍；但速度优势尚无基准数据，也没有重复使用证据。
+  usage_reason_en: 'Inference: if reconstruction is indeed faster than Dust3r, 3D artists or real estate
+    visualization staff doing batch test shots and quick previews would try it first, since they can get
+    a reconstruction within the same shooting session and wait one less round before deciding whether
+    to reshoot; the speed advantage has no benchmark data and no repeated-use evidence.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1YSVhqRmw2cXJX
 summary: 巨头鏖战AI智能体终端，用Agent重做一遍操作系统，荣耀先交卷了 智东西
 first_seen: '2026-09-15T11:22:08Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

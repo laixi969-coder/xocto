@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/payflip
 summary: Pay anyone you can name. No IBAN, no wallet address.
 first_seen: '2026-09-14T13:25:02Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

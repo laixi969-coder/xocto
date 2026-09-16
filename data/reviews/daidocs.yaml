@@ -1,0 +1,84 @@
+- id: req-initial-daidocs-2026-09-16
+  project_slug: daidocs
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决记忆被服务锁定、难以审阅迁移的问题，但公开材料只有一句定位，说不清谁在什么任务里因此受损，价值结构尚未成形。
+    evidence_ids:
+    - ev-20af09887346d553
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分 1 评论，没有可归因到该项目的采用或持续使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-20af09887346d553
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，开源项目可能靠托管或支持收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-20af09887346d553
+  - gate: truth
+    status: insufficient
+    reason: 纯文本记忆能否在真实长会话中稳定读写、避免冲突，公开材料未给出可复现的验证结果。
+    evidence_ids:
+    - ev-20af09887346d553
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认记忆文件的读写流程、冲突处理方式以及是否有真实使用案例。
+  market: ''
+  job: 开发者或小团队在给 AI 助手接入长期记忆时，需要把历史上下文保存下来，让助手在后续会话里继续使用，并保证自己随时能查看和修改这些内容。
+  job_en: A developer or small team wiring long-term memory into an AI assistant needs to persist prior
+    context so the assistant can reuse it in later sessions, while keeping the content viewable and editable
+    at any time.
+  pain: 现有记忆方案多绑定某家托管服务，数据存在对方数据库里，迁移、审阅和人工修正都不方便；但公开材料没有说明这种不便造成了什么具体损失。
+  pain_en: Existing memory options are mostly tied to a hosted service, with data sitting in the vendor's
+    database, which makes migration, review and manual correction awkward; the public material does not
+    say what concrete loss this causes.
+  current_alternative: 把上下文写进向量数据库或托管记忆服务，或直接在提示词里粘贴历史内容。
+  current_alternative_en: Writing context into a vector database or a hosted memory service, or pasting
+    history directly into the prompt.
+  usage_reason: 推断：相较托管记忆服务，纯文本文件让使用者能直接打开、编辑和搬走记忆内容，省去导出与格式转换这一步，因此在意数据归属和可审阅性的开发者可能选择它；目前没有用户反馈或采用数据支持这一判断。
+  usage_reason_en: 'Inference: compared with a hosted memory service, a plain-text file lets users open,
+    edit and move memory content directly, removing an export and format-conversion step, so developers
+    who care about data ownership and reviewability may choose it; no user feedback or adoption data currently
+    supports this.'
+- id: req-full-daidocs-2026-09-16
+  project_slug: daidocs
+  level: full
+  reviewed_at: '2026-09-16T00:49:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句定位，未说明谁在什么任务里因记忆被服务锁定而受损，连具体需求与痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-20af09887346d553
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认记忆文件的读写流程、冲突处理方式以及是否有真实使用案例。
+  market: ''
+  job: 开发者或小团队在给 AI 助手接入长期记忆时，需要把历史上下文保存下来，让助手在后续会话里继续使用，并保证自己随时能查看和修改这些内容。
+  job_en: A developer or small team wiring long-term memory into an AI assistant needs to persist prior
+    context so the assistant can reuse it in later sessions, while keeping the content viewable and editable
+    at any time.
+  pain: 公开材料只有一句定位，未说明记忆被服务锁定造成了什么具体损失，无法确认痛点。
+  pain_en: Public material contains only a one-line positioning statement and does not describe what concrete
+    loss vendor lock-in of memory causes, so the pain cannot be confirmed.
+  current_alternative: 公开材料未说明当前替代方式，无法确认开发者现在如何为 AI 助手保存长期记忆。
+  current_alternative_en: Public material does not describe the current alternative, so how developers
+    currently persist long-term memory for AI assistants cannot be confirmed.
+  usage_reason: 公开材料未说明纯文本记忆文件的具体读写流程与工具链，无法解释开发者为何会选择它。
+  usage_reason_en: Public material does not describe the specific read/write workflow or toolchain of
+    the plain-text memory file, so why developers would choose it cannot be explained.

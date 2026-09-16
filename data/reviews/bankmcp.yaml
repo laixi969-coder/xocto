@@ -376,3 +376,61 @@
     a read-only MCP connector to any MCP client, so a user completes PSD2 authorization once and then
     queries directly inside Claude and similar clients, removing the repeated export-and-reformat step;
     self-hosting and read-only design make it more acceptable to users who want data to stay local. Th
+- id: req-full-bankmcp-2026-09-16
+  project_slug: bankmcp
+  level: full
+  reviewed_at: '2026-09-16T00:48:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决让 AI 读取本人真实银行流水的需求：旧做法是逐家网银手动导出再粘贴，多账户时重复且需把数据交给云端聚合器。只读、自托管、经 Enable Banking 覆盖 2,700+
+      欧洲银行的交付路径明确，痛点与不采用代价可由工作流结构推理得出，但尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-d804c7fd8f359b0f
+    - ev-c2f76cb41cc88215
+    - ev-e95837931d4517c3
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 收藏从 200 增至 219，说明开发者社区持续关注；但收藏与关注属规模信号，公开材料没有用户评价、issue 或案例说明谁在何种场景持续使用，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-1972378c3ce56e87
+    - ev-ae21064c47c27042
+  - gate: model
+    status: insufficient
+    reason: 项目为开源自托管，公开材料未见定价页、付费层级或商业主体，Enable Banking 的接口成本由谁承担也不清楚。钱可能来自个人开发者自付 API 费用或后续托管订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c2f76cb41cc88215
+    - ev-e95837931d4517c3
+  - gate: truth
+    status: insufficient
+    reason: 只读设计降低了误操作风险，但公开材料未说明开放银行授权令牌如何存储、自托管部署的失败模式，以及 AI 误读流水时的人工核对边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-d804c7fd8f359b0f
+    - ev-1972378c3ce56e87
+  next_validation: 追踪 BankMCP 官方仓库的 issue 与 discussion，确认是否有用户公开描述实际部署场景、替代的旧流程以及授权或数据边界问题。
+  market: ''
+  job: 个人用户或独立开发者在自己电脑上运行自托管服务，把 Enable Banking 开放银行授权接入的账户余额、交易与订阅数据，通过标准 MCP 暴露给 Claude Desktop、Claude
+    Code、Cursor 或 Ollama，让 AI 助手在对话中直接读取并核对真实财务流水。
+  job_en: An individual user or indie developer runs a self-hosted server on their own machine, connects
+    bank accounts via Enable Banking open banking authorization, and exposes balances, transactions and
+    subscriptions to Claude Desktop, Claude Code, Cursor or Ollama through standard MCP so the AI assistant
+    can read and reconcile real financial records in conversation.
+  pain: 公开材料显示用户此前只能手动登录各家银行网银或 App 逐条导出流水，再粘贴进 AI 对话；多银行、多账户时重复劳动明显，且把完整账户数据交给第三方云端聚合器存在隐私顾虑。这是从产品能力与旧流程推导的结构性痛点，尚无用户抱怨或案例直接佐证强度。
+  pain_en: Public materials indicate users previously had to log into each bank's portal or app, export
+    transactions manually and paste them into an AI chat; with multiple banks and accounts this is repetitive,
+    and handing full account data to a third-party cloud aggregator raises privacy concerns. This is a
+    structural pain inferred from product capability and the old workflow, not yet corroborated by user
+    complaints or cases.
+  current_alternative: 手动登录网银导出 CSV 或截图后粘贴给 AI；使用云端个人财务聚合应用；或直接放弃让 AI 接触真实账户数据，只凭记忆和手工记账。
+  current_alternative_en: Manually logging into online banking to export CSV or screenshots and pasting
+    them into an AI; using cloud personal-finance aggregators; or giving up on letting AI touch real account
+    data and relying on memory and manual bookkeeping.
+  usage_reason: 相较手动导出再粘贴，BankMCP 通过一次开放银行授权把 2,700+ 欧洲银行的余额、交易与订阅以只读方式接入本地 MCP 服务，AI 客户端可直接调用，省去逐账户导出与格式整理这一步；自托管与只读设计回应了不愿把账户数据交给云端聚合器的顾虑。因此注重数据自主、已使用
+    Claude 或 Cursor 等 MCP 客户端的欧洲个人用户和开发者会在需要让 AI 分析真实流水时选择它。这是基于产品能力与旧流程的推断，尚无用户反馈直接证实。
+  usage_reason_en: Compared with manual export-and-paste, BankMCP uses a single open-banking authorization
+    to connect balances, transactions and subscriptions from 2,700+ European banks to a local MCP server
+    in read-only mode, which AI clients call directly, removing the per-account export and reformatting
+    step; self-hosting and read-only design address the reluctance to hand account data to cloud aggregators.
+    European individuals and developers who value data autonomy and already use MCP clien

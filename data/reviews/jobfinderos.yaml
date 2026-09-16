@@ -84,3 +84,46 @@
     crawling, recruiter-view screening and market analysis into fixed steps and writes straight into Obsidian,
     removing the organising step; job seekers who already track applications in a notes vault would choose
     it, though no retention or repeat-use evidence is public.'
+- id: req-full-jobfinderos-2026-09-16
+  project_slug: jobfinderos
+  level: full
+  reviewed_at: '2026-09-16T00:49:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职中岗位信息分散、筛选与整理耗时的需求，痛点具体且不采用就要继续手工逐站浏览；买方是谁尚未公开。
+    evidence_ids:
+    - ev-18b6c6398fe8e919
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 103 星、17 次 fork 只说明开发者关注度，没有用户反馈或客户案例说明求职者是否真的把它放进流程。
+    evidence_ids:
+    - ev-18b6c6398fe8e919
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页或付费路径，钱可能来自求职者个人订阅或招聘方，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-18b6c6398fe8e919
+  - gate: truth
+    status: insufficient
+    reason: 抓取范围、结果准确性和人工确认边界未公开，无法核对交付是否稳定发生。
+    evidence_ids:
+    - ev-18b6c6398fe8e919
+  next_validation: 收集该仓库的 README、issue 与 discussion，核对实际抓取范围、输出格式以及是否有用户报告持续使用。
+  market: ''
+  job: 求职者在集中投递期，面对分散在多个招聘网站和公司页面的岗位信息，需要筛出匹配岗位并整理成可追踪的清单。
+  job_en: During an intensive application period, a job seeker faces postings scattered across job boards
+    and company pages and needs to filter matching roles into a trackable list.
+  pain: 岗位信息分散、重复阅读和手工摘录耗时，容易漏掉合适岗位，也难以横向比较不同岗位的要求。
+  pain_en: Postings are scattered, reading and transcribing them by hand is slow, suitable roles get missed,
+    and requirements are hard to compare across roles.
+  current_alternative: 现在多靠人工逐站浏览、复制到表格或笔记，或用招聘网站的订阅提醒被动接收。
+  current_alternative_en: Today people mostly browse site by site, copy into spreadsheets or notes, or
+    passively receive job-board alerts.
+  usage_reason: 推断：相较逐站浏览和手工摘录，它把抓取、按招聘官视角筛选和市场分析拆成固定步骤并直接写入 Obsidian，省掉整理这一步；习惯用笔记库管理求职进度的求职者会因此选择它，但公开材料没有留存或复购证据。
+  usage_reason_en: 'Inference: compared with browsing site by site and transcribing by hand, it splits
+    crawling, recruiter-view screening and market analysis into fixed steps and writes straight into Obsidian,
+    removing the organising step; job seekers who already track applications in a notes vault would choose
+    it, though no retention or repeat-use evidence is public.'

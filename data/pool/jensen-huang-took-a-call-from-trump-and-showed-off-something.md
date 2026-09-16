@@ -22,7 +22,7 @@ summary: When Jensen Huang took a live call from Trump, some of us were more foc
   to take it.
 first_seen: '2026-09-15T01:50:48Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

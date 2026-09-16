@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNHBDanhleWVC
 summary: Why Xbox CEO Asha Sharma may be personally responding to customer complaints The Times of India
 first_seen: '2026-09-15T16:51:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

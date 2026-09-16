@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/kairunwen/Awesome-Robot-Use-Agent
 summary: Papers, tools, benchmarks and demos for robot-use agents
 first_seen: '2026-09-15T14:58:38Z'
 last_seen: '2026-09-16T00:21:04Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

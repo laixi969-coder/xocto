@@ -3,34 +3,35 @@ slug: cartesia
 name: Cartesia
 builder: eustoria
 category: 基础层
-summary_zh: 面向需要把语音交互嵌入自己产品的开发团队：他们原本要自行拼接语音识别、合成与对话编排，Cartesia 提供实时语音模型接口，让开发者把语音输入转成可实时回应的语音输出，最终交付的是可接入的语音能力，具体延迟、定价与人工复核环节仍待核验。
-inspiration: 语音正在从“录音转文字”变成实时对话的底层能力，趋势是模型层被少数供应商收拢。切入不在再造一个语音模型，而在客服、教育、无障碍等具体场景里，把实时语音接到已有工单、课程或呼叫流程上，按通话时长或解决量收费。
-summary_en: 'For development teams embedding voice interaction into their own products: instead of stitching
-  together speech recognition, synthesis and dialogue orchestration, Cartesia offers real-time speech
-  model interfaces so developers can turn voice input into spoken responses in real time. The deliverable
-  is an integrable voice capability; latency, pricing and human review steps remain unverified.'
-inspiration_en: Voice is shifting from transcription into a real-time conversational layer, and the trend
-  is consolidation of that layer among a few model suppliers. The opening is not another speech model
-  but wiring real-time voice into existing ticketing, course or call-center workflows in customer service,
-  education and accessibility, charging by call minutes or resolved cases.
+summary_zh: 做实时语音功能的开发者或客服系统集成方，在需要把文字或对话实时转成自然语音时接入 Cartesia 的语音模型接口，由模型完成语音合成与低延迟输出，最终拿到可播放的语音流；具体接入流程、延迟指标与交付形态仍待核验。
+inspiration: 趋势是实时语音正从演示走向被别的产品当作底层零件调用，价值不在界面而在延迟与稳定性。切入可考虑垂直场景的语音交付，例如客服外呼、有声内容批量生产或教育陪练，按产出或调用量收费；但该层已有成熟厂商，窗口是否还开需先看公开定价与客户案例。
+summary_en: Developers building real-time voice features, or integrators wiring speech into customer service
+  systems, call Cartesia's speech models to turn text or dialogue into natural-sounding audio in real
+  time and receive a playable speech stream; the exact integration flow, latency figures and delivery
+  form still need verification.
+inspiration_en: The trend is that real-time voice is moving from demos to being called as an underlying
+  component by other products, where value sits in latency and reliability rather than interface. An entry
+  point is vertical voice delivery such as outbound customer service, batch audio content or education
+  practice, priced per output or per call; but this layer already has established vendors, so whether
+  the window is still open depends first on public pricing and customer cases.
 priority_review: false
 project_type: new_application
 industries:
-- 客户服务
 - 媒体与娱乐
-- 软件
+- 客户服务
+- 教育
 industries_en:
-- Customer Service
 - Media & Entertainment
-- Software
+- Customer Service
+- Education
 jobs:
 - 语音应用开发者
-- 客服产品负责人
-- 内容制作团队
+- 客服系统集成工程师
+- 有声内容制作人
 jobs_en:
 - Voice application developer
-- Customer service product lead
-- Content production team
+- Customer service system integrator
+- Audio content producer
 regions:
 - 美国
 regions_en:
@@ -43,7 +44,7 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Enabler stage). Wi
   real-time speech models under the hood, while HeyGen is doing the same work for video.
 first_seen: '2026-08-31T15:00:01+00:00'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: watching
 sources:
 - ia40
 - hackernews

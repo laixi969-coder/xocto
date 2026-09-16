@@ -289,3 +289,53 @@
     so someone with an existing script who needs fast browser-playable motion graphics would pick it for
     openers or explainers; this is structural reasoning from product capability and task, not confirmed
     by user feedback.'
+- id: req-full-bang-motion-2026-09-16
+  project_slug: bang-motion
+  level: full
+  reviewed_at: '2026-09-16T00:48:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是已有脚本后快速产出浏览器动态图形页面的需求，痛点在于传统 AE/剪辑手工搭时间轴成本高；公开说明确认输入为脚本、输出为单个 index.html，属工作流结构推理，用户抱怨与频率证据仍缺。
+    evidence_ids:
+    - ev-9f851290e47b532c
+    - ev-edc67f509dbcd2ee
+  - gate: consensus
+    status: supported
+    reason: 公开代码仓库 仓库收藏从 131 增至 334，说明开发者社区持续关注并把它加入工具链；但收藏属关注度证据，不能证明目标设计师已长期留存或复购。
+    evidence_ids:
+    - ev-9f851290e47b532c
+    - ev-edc67f509dbcd2ee
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；作为开源 agent skill，钱可能来自 to C 开发者捐赠或 to B 定制，但这是判断而非已验证事实，买方路径尚未核验。
+    evidence_ids:
+    - ev-9f851290e47b532c
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺单文件 index.html 输出，但未提供可复现的交付质量、可编辑程度或人工边界证据，承诺能否确定性交付仍缺公开验证。
+    evidence_ids:
+    - ev-9f851290e47b532c
+  next_validation: 追踪 bang-motion 仓库的 issue、discussion 与 README 更新，确认是否有用户公开报告实际生成的 index.html 交付质量、可编辑程度与使用场景。
+  market: ''
+  job: 动态设计师或短视频/宣传片制作人员在已有文案或脚本的情况下，把内容交给这个 agent skill，在 Claude Code、Codex、Gemini CLI 或 Cursor 中生成可在浏览器播放的片头、宣传片、bumper、动态字体或讲解视频页面，最终拿到一个
+    index.html 交付物。
+  job_en: A motion designer or short-video/promo producer with an existing script hands the content to
+    this agent skill inside Claude Code, Codex, Gemini CLI, or Cursor to generate a browser-playable opener,
+    promo, bumper, kinetic-typography, or explainer page, ending with a single index.html deliverable.
+  pain: 公开材料只说明它输出的是“会动的视频感页面而非幻灯片”，未提供用户抱怨、频率或不采用代价；从工作流结构推断，痛点是传统动效制作需在 AE/剪辑软件中手动搭时间轴、逐帧调关键帧，脚本到成片之间存在高人工转换成本。
+  pain_en: Public materials only state that it outputs motion that feels like video rather than slides,
+    with no user complaints, frequency, or cost-of-inaction data; inferred from workflow structure, the
+    pain is that traditional motion work requires manually building timelines and keyframes in AE/editing
+    tools, creating high manual conversion cost from script to finished motion.
+  current_alternative: 旧做法是 After Effects、Premiere 等专业动效/剪辑软件手工制作，或使用幻灯片式模板工具；公开材料未说明用户当前具体如何完成这项工作。
+  current_alternative_en: The old approach is manual production in After Effects, Premiere, or similar
+    motion/editing software, or slide-style template tools; public materials do not specify how users
+    currently complete this job.
+  usage_reason: 推断：相较在 AE 中从零搭时间轴，它把“已有脚本”直接作为输入，由 agent 在编辑器内生成单个 index.html 动态页面，省去手动建关键帧与导出视频的步骤；因此已有脚本、想快速产出浏览器可播放动效页面的设计师或制作人员会在需要快速出片头/讲解页时选择它。
+  usage_reason_en: 'Inference: versus building a timeline from scratch in AE, it takes an existing script
+    as input and has the agent generate a single index.html motion page inside the editor, skipping manual
+    keyframing and video export; thus designers or producers with a script who want a fast browser-playable
+    motion page would choose it for quick openers or explainer pages.'

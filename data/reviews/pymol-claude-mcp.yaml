@@ -322,3 +322,59 @@
     so users need not memorize selection syntax or repeatedly edit scripts to have the AI perform selection,
     coloring, and figure export. Structural biology or computational chemistry users who are unfamiliar
     with PyMOL command syntax but already use Claude Code would therefore choose it for routine '
+- id: req-full-pymol-claude-mcp-2026-09-16
+  project_slug: pymol-claude-mcp
+  level: full
+  reviewed_at: '2026-09-16T00:51:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在 PyMOL 中完成结构选择、着色、对齐与出图时命令语法门槛高、需反复查文档试错的痛点；不采用则继续手写 .pml 或逐项点选，重复操作占用分析时间。公开仓库说明已能还原输入（结构文件与实时会话）、动作（XML-RPC
+      下发命令）与交付（结构图像/分析结果），属工作流结构推理；痛点刚性中等，故判成立。
+    evidence_ids:
+    - ev-375645298628d2f6
+    - ev-8ec57c714f41572a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 49 增至 58，说明有开发者关注并可能试用，但公开材料没有 issue、discussion 或用户评价说明谁在何种场景持续使用、替代了哪条旧流程；关注度不能等同于采用共识。
+    evidence_ids:
+    - ev-375645298628d2f6
+    - ev-23e25beee2948678
+    - ev-a071089744b9aed1
+  - gate: model
+    status: insufficient
+    reason: 这是开源 MCP 服务器，公开材料未见定价页、付费客户或采购记录，买方与收入路径不明；可能走 to C 开发者自用或 to B 实验室工具链集成，但均属判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-375645298628d2f6
+  - gate: truth
+    status: insufficient
+    reason: XML-RPC 直连实时 PyMOL 会话意味着 AI 可执行任意命令，公开材料未见权限限制、命令白名单或失败回滚说明，交付能否稳定复现、人工与安全边界如何划定仍缺可核验证据。
+    evidence_ids:
+    - ev-375645298628d2f6
+    - ev-8ec57c714f41572a
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否披露安装部署步骤、支持的命令范围、权限/安全边界，以及是否有用户报告在真实结构分析流程中替代手写
+    .pml 脚本的案例。
+  market: ''
+  job: 结构生物学家或计算化学家在拿到蛋白质结构文件（PDB/mmCIF）后，需要在 PyMOL 会话中反复执行选择、着色、对齐、测量、出图等命令，把结构分析结果整理成可展示的图片或可复核的分析结论。
+  job_en: A structural biologist or computational chemist, holding a protein structure file (PDB/mmCIF),
+    needs to repeatedly run selection, coloring, alignment, measurement and rendering commands inside
+    a live PyMOL session to turn structural analysis into presentable figures or reviewable conclusions.
+  pain: PyMOL 的痛点在于命令行语法与对象/选择表达式门槛高，非专职脚本用户要查文档、试错、反复重跑才能得到一张正确出图；会话状态与命令历史难以复用，重复性操作占用分析时间。公开材料只给出产品能力，未提供用户抱怨或耗时数据，此判断为工作流结构推理。
+  pain_en: 'PyMOL''s pain is the high barrier of its command syntax and object/selection expressions:
+    non-specialist users must consult docs, trial-and-error and re-run to get one correct figure, while
+    session state and command history are hard to reuse, so repetitive operations eat into analysis time.
+    Public material only states product capability, not user complaints or time data; this is workflow-structural
+    inference.'
+  current_alternative: 旧做法是手写 PyMOL 命令或 .pml 脚本、复制论坛/文档片段、在 GUI 里逐项点选，或让同事代跑脚本；也有人改用 ChimeraX 等替代工具。公开材料未说明这些替代方式的具体使用比例。
+  current_alternative_en: The old way is hand-writing PyMOL commands or .pml scripts, copying snippets
+    from forums/docs, clicking through the GUI item by item, or asking a colleague to run a script; some
+    switch to alternatives such as ChimeraX. Public material does not quantify how widely each is used.
+  usage_reason: 推断：相较手写命令或翻文档，该 MCP 服务器让 Claude Code 通过 XML-RPC 直接向已打开的 PyMOL 会话下发操作，用户用自然语言描述意图即可完成选择、着色、对齐与出图，省去查语法和逐条试错这一步；因此不熟悉
+    PyMOL 脚本、又需要快速迭代出图的结构生物学家或计算化学家会在探索性分析场景选择它。仓库收藏从 49 增至 58 只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus hand-writing commands or digging through docs, this MCP server lets
+    Claude Code issue operations over XML-RPC directly into an already-open PyMOL session, so users can
+    express intent in natural language to complete selection, coloring, alignment and rendering, skipping
+    the syntax lookup and per-command trial-and-error step; therefore structural biologists or computational
+    chemists who are not PyMOL scripting experts but need fast iterative figures would choo'

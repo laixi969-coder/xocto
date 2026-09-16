@@ -1,6 +1,6 @@
 ---
 slug: samsung-backs-nvidia-ai-chip-rival-in-230-million-funding-ro
-name: Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom
+name: Euclyd
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ydVhNMHFzRmct
 summary: Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom CNBC
 first_seen: '2026-09-14T23:30:02Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom
+# Euclyd
 
 Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom CNBC
 

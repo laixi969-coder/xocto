@@ -85,3 +85,95 @@
     and plan comparison and outputs a deviation list, removing the pre-meeting sorting and manual diff-finding
     steps, so teams on large projects with frequent progress control and costly rework would choose it
     for progress checks.'
+- id: req-initial-buildots获13亿美元融资扩展ai建筑管理平台-ai应用-2026-09-16
+  project_slug: buildots获13亿美元融资扩展ai建筑管理平台-ai应用
+  level: initial
+  reviewed_at: '2026-09-16T00:21:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决施工进度核对这一具体任务，痛点是人工比对滞后、偏差发现晚，旧做法是拍照加表格汇报，结构上成立。
+    evidence_ids:
+    - ev-1d92a0c0f392b02a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资消息，未见客户案例或行业采用描述，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1d92a0c0f392b02a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，钱可能来自总包方或业主，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1d92a0c0f392b02a
+  - gate: truth
+    status: insufficient
+    reason: 无法核验偏差识别准确率、人工复核边界与交付确定性，需看部署文档或客户案例。
+    evidence_ids:
+    - ev-1d92a0c0f392b02a
+  next_validation: 收集Buildots官方定价页或公开客户案例，确认买方类型、计价方式与交付结果。
+  market: ''
+  job: 施工项目经理和现场工程管理人员在工地巡检和进度例会前，处理现场照片、图纸与施工计划，要判断实际进度与计划偏差并形成可追溯的进度记录。
+  job_en: Construction project managers and site engineering managers, before site inspections and progress
+    meetings, work with site photos, drawings and construction schedules to judge deviations between actual
+    and planned progress and produce a traceable progress record.
+  pain: 人工比对现场影像与图纸、计划耗时且滞后，偏差往往在例会或结算阶段才被发现，返工与索赔举证成本高。
+  pain_en: Manually comparing site imagery with drawings and schedules is slow and lagging; deviations
+    are often found only at meetings or settlement, making rework and claim evidence costly.
+  current_alternative: 目前多由现场工程师拍照、手工整理表格，再在例会或周报中口头或文档汇报进度。
+  current_alternative_en: Today site engineers usually take photos, compile spreadsheets by hand, and
+    report progress verbally or in documents at meetings or in weekly reports.
+  usage_reason: 相较人工拍照加表格汇报，它把现场影像与建筑信息模型和进度计划自动比对，减少逐张核对照片这一步，让项目经理在例会前就拿到偏差提示；推断，因为公开材料未提供客户留存或复购证据。
+  usage_reason_en: Compared with manual photo-taking plus spreadsheet reporting, it automatically compares
+    site imagery with BIM models and schedules, removing the step of checking photos one by one and giving
+    project managers deviation alerts before meetings; this is inference, as public materials provide
+    no retention or repeat-use evidence.
+- id: req-full-buildots获13亿美元融资扩展ai建筑管理平台-ai应用-2026-09-16
+  project_slug: buildots获13亿美元融资扩展ai建筑管理平台-ai应用
+  level: full
+  reviewed_at: '2026-09-16T00:48:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决施工进度核对这一具体任务，痛点是人工比对滞后、偏差发现晚，旧做法是拍照加表格汇报，结构上成立；买方与计价未披露，属模式关问题。
+    evidence_ids:
+    - ev-2bb6f5f5e7b9d9ae
+    - ev-7377d8cd2c15274b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有官网定位与融资消息，未见客户案例、行业采用或用户评价，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-f540c331be28d1ac
+    - ev-2bb6f5f5e7b9d9ae
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与买方结构，钱可能来自总包方或业主，属判断而非已验证事实；融资规模只说明资本关注，不等于付费路径成立。
+    evidence_ids:
+    - ev-f540c331be28d1ac
+  - gate: truth
+    status: insufficient
+    reason: 无法核验偏差识别准确率、人工复核边界与交付确定性，官网仅称提供已验证数据与预测洞察，缺部署文档或客户案例佐证。
+    evidence_ids:
+    - ev-7377d8cd2c15274b
+    - ev-2bb6f5f5e7b9d9ae
+  next_validation: 追踪 Buildots 官网定价页或公开客户案例页面，确认买方类型、计价方式与已披露的交付结果。
+  market: ''
+  job: 施工项目经理与现场工程管理人员在工地巡检和进度例会前，处理现场照片、图纸与施工计划，要判断实际进度与计划的偏差并形成可追溯的进度记录。
+  job_en: Construction project managers and site engineering managers, before site inspections and progress
+    meetings, work with site photos, drawings and construction schedules to judge deviations between actual
+    and planned progress and produce a traceable progress record.
+  pain: 人工比对现场影像与图纸、计划耗时且滞后，偏差常在例会或结算阶段才暴露，返工与索赔举证成本高；公开材料未给出量化损失数据。
+  pain_en: Manually comparing site imagery with drawings and schedules is slow and lagging; deviations
+    surface only at meetings or settlement, making rework and claim evidence costly; public materials
+    give no quantified loss data.
+  current_alternative: 现场工程师拍照、手工整理表格，再在例会或周报中口头或文档汇报进度，进度核对依赖人工经验。
+  current_alternative_en: Site engineers take photos, compile spreadsheets by hand, and report progress
+    verbally or in documents at meetings or weekly reports, with progress checks relying on manual judgement.
+  usage_reason: 相较人工拍照加表格汇报，它把现场影像与建筑信息模型、进度计划自动比对，省去逐张核对照片这一步，让项目经理在例会前拿到偏差提示；此为基于产品能力与任务的结构推理，公开材料未提供客户留存或复购证据。
+  usage_reason_en: Compared with manual photo-taking plus spreadsheet reporting, it automatically compares
+    site imagery with BIM models and schedules, removing the step of checking photos one by one and giving
+    project managers deviation alerts before meetings; this is structural inference from product capability
+    and task, as public materials provide no retention or repeat-use evidence.

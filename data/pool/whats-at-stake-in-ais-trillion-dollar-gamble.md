@@ -24,7 +24,7 @@ summary: 'When Jessica Wachter, a finance professor at the University of Pennsyl
   A handful of so-called…'
 first_seen: '2026-09-15T10:00:00Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

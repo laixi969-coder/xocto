@@ -1,0 +1,94 @@
+- id: req-initial-hazzel-2026-09-16
+  project_slug: hazzel
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只知是极小 Git 原生编码代理，价值关无法成立。
+    evidence_ids:
+    - ev-615efec1128614f6
+    - ev-3c547466d848cd78
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区仅 6 个点赞、0 条评论，无采用信号。
+    evidence_ids:
+    - ev-615efec1128614f6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未说明买方与收费方式。
+    evidence_ids:
+    - ev-3c547466d848cd78
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-615efec1128614f6
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际替代的具体编码步骤与可复现的交付结果。
+  market: ''
+  job: 软件工程师在本地仓库中修改代码时，需要让代理读取仓库内容并执行改动，再自行确认提交。
+  job_en: A software engineer editing code in a local repository wants an agent to read the repository
+    and make changes, then review and commit them.
+  pain: 公开材料只说明它是极小的 Git 原生编码代理，未说明它替代了哪一步手工操作、哪类任务更省事，痛点无法从现有事实还原。
+  pain_en: The public material only says it is a tiny Git-native coding agent; it does not say which manual
+    step it replaces or which tasks it makes easier, so the pain cannot be reconstructed from available
+    facts.
+  current_alternative: 开发者目前多使用现有编码助手或直接在编辑器与命令行中手工改代码。
+  current_alternative_en: Developers currently use existing coding assistants or edit code by hand in
+    the editor and command line.
+  usage_reason: 推断：自带密钥、贴近 Git 仓库的轻量形态可能减少配置与上下文搬运，但公开材料未给出任何用户反馈或采用证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: a lightweight, bring-your-own-key form close to the Git repository may
+    reduce setup and context shuffling, but no user feedback or adoption evidence is public, so why users
+    would choose it cannot be confirmed.'
+- id: req-full-hazzel-2026-09-16
+  project_slug: hazzel
+  level: full
+  reviewed_at: '2026-09-16T00:49:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在本地 Git 仓库中让编码代理直接读仓库、用自带密钥执行改动并自行确认提交的需求；痛点是通用代理需额外配置或把上下文搬出仓库。公开材料仅给出“极小、Git 原生、自带密钥”三点，未说明替代的具体手工步骤，故这是工作流结构推理而非用户采用证据。
+    evidence_ids:
+    - ev-615efec1128614f6
+    - ev-3c547466d848cd78
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库自述，未提供点赞、评论、issue、discussion 或任何采用与持续使用数据，无法判断开发者是否已把它纳入工作流；Git 原生与自带密钥的定位是否被接受仍缺公开行为证据。
+    evidence_ids:
+    - ev-615efec1128614f6
+    - ev-3c547466d848cd78
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方与收费方式，自带密钥意味着模型成本由用户承担，但项目本身是否收费、面向个人还是团队均未披露；这是判断而非已验证事实，不能据此取消真需求判定。
+    evidence_ids:
+    - ev-3c547466d848cd78
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持的任务范围与交付形态，无法核对改动是否可确定复现、是否需人工兜底；Git 原生与自带密钥的承诺能否确定性交付，缺少文档或实测证据。
+    evidence_ids:
+    - ev-615efec1128614f6
+  next_validation: 追踪该仓库 README、issue 与 discussion 的公开更新，确认它实际替代的具体编码步骤、支持的任务范围与可复现的交付结果。
+  market: ''
+  job: 软件工程师在本地 Git 仓库中修改代码时，打开这个命令行编码代理，让它读取仓库内容并调用自己配置的模型密钥执行代码改动，最后自行确认并提交。
+  job_en: A software engineer editing code in a local Git repository opens this CLI coding agent, lets
+    it read the repository and run code changes using their own model API key, then reviews and commits
+    the result.
+  pain: 公开材料只给出“极小、Git 原生、自带密钥”三点，未说明它替代了哪一步手工操作；从工作流结构推断，痛点是通用编码代理需要额外配置、上传或脱离仓库上下文，而开发者希望代理直接贴着本地 Git
+    工作区跑，并自己掌控模型密钥与成本。
+  pain_en: Public material only states 'tiny, Git-native, bring your own keys' and does not say which
+    manual step it replaces; inferred from workflow structure, the pain is that general coding agents
+    require extra setup, upload, or context outside the repo, while developers want an agent running directly
+    against the local Git workspace with their own model key and cost control.
+  current_alternative: 开发者目前使用现有编码助手（如云端或 IDE 内置代理），或直接在编辑器与命令行中手工改代码。
+  current_alternative_en: Developers currently use existing coding assistants (cloud or IDE-embedded agents),
+    or edit code by hand in the editor and command line.
+  usage_reason: 推断：相较云端或 IDE 内置代理，它通过直接读取本地 Git 仓库、复用用户自带密钥这两个具体动作，减少把代码上下文搬出仓库和额外配置模型账号的步骤，因此在意密钥归属与轻量配置的开发者会在本地改代码时选择它；公开材料尚无用户反馈或采用证据支持这一动机。
+  usage_reason_en: 'Inference: versus cloud or IDE-embedded agents, it reduces moving code context out
+    of the repo and configuring a separate model account by reading the local Git repository directly
+    and reusing the user''s own key; developers who care about key ownership and lightweight setup would
+    choose it when editing locally, though no public user feedback or adoption evidence yet supports this
+    motive.'

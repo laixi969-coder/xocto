@@ -137,3 +137,52 @@
     and records for reproduction and handover, and making each conclusion''s evidential support checkable;
     it would therefore be chosen by researchers who must explain a factor''s provenance to a team or investment
     committee and keep validation traceable. No user feedback or adoption evidence is publi'
+- id: req-full-loopera-2026-09-16
+  project_slug: loopera
+  level: full
+  reviewed_at: '2026-09-16T00:50:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决因子假设验证与留痕的需求：假设、验证脚本和结论散落在脚本与笔记中，复现交接成本高且缺证据门控。公开说明已能还原输入材料、假设驱动验证动作与带证据门控的结论交付，痛点刚性来自投研对可复现性的要求，属工作流结构推理。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从148升至154，只说明开源关注度缓慢累积，没有研究员持续使用、团队采用或工作流留存的公开证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+    - ev-1193a3dd312077c7
+    - ev-88d0943e6d0946cf
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页或付费路径，买方可能是自建研究流程的量化团队或资管机构，但这是判断而非已验证事实；公开材料未显示任何付费或采购记录。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  - gate: truth
+    status: insufficient
+    reason: 证据门控验证与投研可复现的第一性目标一致，但缺少可复现实测、部署文档或客户案例来确认交付确定性与人工复核边界，安全与人工边界也未公开。
+    evidence_ids:
+    - ev-6cfd903d5ee14b73
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它接入的数据源、验证口径、人工复核环节，以及是否有研究团队公开报告实际使用。
+  market: ''
+  job: 量化或基本面研究员在形成因子假设后，把行情、财报等研究材料交给该智能体，按假设驱动方式跑验证并保留研究记忆，最终拿到带证据门控的验证结论，用于决定该因子是否进入后续研究或组合。
+  job_en: After forming a factor hypothesis, a quant or fundamental researcher hands market and filing
+    material to the agent, which runs hypothesis-driven validation and keeps research memory, producing
+    an evidence-gated conclusion used to decide whether the factor advances into further research or the
+    portfolio.
+  pain: 因子研究里假设、验证脚本与结论散落在个人脚本、笔记和聊天记录中，复现与交接成本高，且验证过程缺少证据门控，容易把未经验证的假设当成结论继续使用。
+  pain_en: In factor research, hypotheses, validation scripts and conclusions scatter across personal
+    scripts, notes and chat logs, making reproduction and handover costly, while the lack of evidence
+    gating lets unvalidated hypotheses pass as conclusions.
+  current_alternative: 研究员通常自己写 Python 脚本、用回测框架加笔记软件手工记录，或依赖团队内部自建的研究平台。
+  current_alternative_en: Researchers typically write their own Python scripts, use backtesting frameworks
+    plus note-taking tools, or rely on an in-house research platform.
+  usage_reason: 推断：相较自写脚本加笔记的旧做法，它把假设、验证步骤与证据门控收进同一流程并保留研究记忆，减少复现和交接时重新翻找脚本与笔记的负担，因此自建流程成本高、又需要可追溯验证记录的研究员会在新因子立项或交接时选择它；公开材料尚无用户反馈或采用证据支持这一动机。
+  usage_reason_en: 'Inference: versus self-written scripts plus notes, it folds hypothesis, validation
+    steps and evidence gating into one flow with research memory, cutting the burden of re-digging scripts
+    and notes during reproduction and handover, so researchers with costly self-built pipelines who need
+    traceable validation records would pick it when starting or handing over a factor; no public user
+    feedback or adoption evidence yet supports this motive.'

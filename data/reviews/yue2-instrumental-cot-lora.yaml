@@ -1,0 +1,95 @@
+- id: req-initial-yue2-instrumental-cot-lora-2026-09-16
+  project_slug: yue2-instrumental-cot-lora
+  level: initial
+  reviewed_at: '2026-09-16T00:21:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决按段落生成器乐素材的需求，但公开材料没有用户痛点、旧替代行为或不采用后果，价值结构无法还原。
+    evidence_ids:
+    - ev-62bd2a25ef8fc5e2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量收藏，属于关注度信号，不能说明创作者已把它纳入配乐流程。
+    evidence_ids:
+    - ev-62bd2a25ef8fc5e2
+  - gate: model
+    status: insufficient
+    reason: 开源演示未披露定价、买方或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-62bd2a25ef8fc5e2
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成音频的时长、音质、授权与人工确认边界，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-62bd2a25ef8fc5e2
+  next_validation: 收集该开源演示仓库或讨论区的 issue、使用反馈与授权说明，确认生成音频的实际可用性与使用条款。
+  market: ''
+  job: 配乐师或视频创作者在需要无版权背景音乐时，输入风格标签与段落结构，生成器乐小样。
+  job_en: A composer or video creator needing royalty-free background music inputs style tags and a section
+    plan to generate an instrumental draft.
+  pain: 公开材料只说明输入风格标签与段落结构可生成器乐，未提供任何用户抱怨、替代流程或采用行为，无法确认痛点强度。
+  pain_en: Public material only states that style tags plus a section plan yield instrumental music; no
+    user complaints, prior workflow or adoption behaviour is given, so pain intensity cannot be confirmed.
+  current_alternative: 公开材料未说明此前用户用什么方式获得器乐素材，旧做法未知。
+  current_alternative_en: Public material does not state how users previously obtained instrumental material;
+    the prior method is unknown.
+  usage_reason: 无法判断：材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，仅知输入标签与段落结构这一动作。
+  usage_reason_en: 'Cannot be judged: the material does not say which step is reduced or which checkable
+    result improves versus the old method, only that tags and a section plan are the input.'
+- id: req-full-yue2-instrumental-cot-lora-2026-09-16
+  project_slug: yue2-instrumental-cot-lora
+  level: full
+  reviewed_at: '2026-09-16T00:52:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按段落生成可控器乐素材的需求，痛点是配乐需与画面段落对齐而曲库授权受限、自行编曲耗时；YuE2 先写可编辑乐谱再渲染音频，交付为可试听小样，结构上成立，属工作流推理而非用户采用证据。
+    evidence_ids:
+    - ev-bfa380bf39018123
+    - ev-a7db378321380557
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出模型能力与可编辑乐谱说明，未见配乐师或视频创作者的实际使用反馈、案例或重复使用记录，无法确认它已进入配乐工作流。
+    evidence_ids:
+    - ev-4eb9c0cf822e902c
+    - ev-9edb9a37a5a65ddc
+  - gate: model
+    status: insufficient
+    reason: 这是开源模型与演示页，公开材料未披露定价、买方或收费方式；钱可能来自模型托管、API 或企业授权，但均属判断而非已验证事实。
+    evidence_ids:
+    - ev-c50d084da2fd34de
+    - ev-08e43688ab1e57ea
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成音频的时长上限、音质指标、授权条款与人工确认边界，交付能否稳定发生无法核对，需以部署文档或授权说明补足。
+    evidence_ids:
+    - ev-d95ff18d6020d332
+    - ev-7aedad55e8d2f68a
+  next_validation: 追踪 公开模型社区 模型卡与项目仓库的授权条款、生成时长/音质说明及 issue 中的实际使用反馈，确认交付可用性与使用边界。
+  market: ''
+  job: 配乐师或视频创作者在需要一段无版权器乐时，打开该开源演示，输入风格标签与分段结构，让模型按段落生成器乐音频小样，再人工试听挑选可用片段。
+  job_en: A composer or video creator needing royalty-free instrumental music opens this open-source demo,
+    inputs style tags and a section plan, and has the model generate section-by-section instrumental drafts
+    for human audition and selection.
+  pain: 公开材料未记录用户抱怨，但结构上可还原痛点：影视配乐与视频配乐需要按段落对齐的器乐素材，传统上要么购买曲库授权、要么自己编曲，前者受授权与曲库匹配限制，后者耗时且需要乐器与混音能力；YuE2
+    的符号规划先写出可编辑乐谱再渲染成音频，正是针对“段落可控”这一环节。
+  pain_en: 'Public material records no user complaints, but the pain is structurally reconstructable:
+    film and video scoring needs instrumental material aligned to sections; traditionally this means buying
+    library licences or composing oneself, the former constrained by licensing and library fit, the latter
+    slow and requiring instrument and mixing skill. YuE2''s symbolic planning writes an editable score
+    before rendering audio, targeting exactly this section-controllability step.'
+  current_alternative: 公开材料未直接描述旧流程，可推断的替代方式是商用曲库授权（如素材站配乐）或自行编曲/使用其他 AI 音乐工具生成整首歌再裁剪。
+  current_alternative_en: Public material does not directly describe the prior workflow; inferable alternatives
+    are commercial music-library licensing, self-composition, or generating a full song with other AI
+    music tools and cutting it down.
+  usage_reason: 推断：相较曲库检索或整首歌生成后再裁剪，该产品通过“先输出可编辑乐谱、再按分段结构渲染器乐”的具体动作，把段落对齐与结构调整提前到生成阶段，减少反复重生成与后期裁剪的负担；需要按段落精确对齐配乐、又不想自己编曲的配乐师或视频创作者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus library search or generating a full song and cutting it, the product''s
+    concrete action of emitting an editable score first and rendering instrumentals per section moves
+    section alignment and structural adjustment into the generation stage, reducing repeated regeneration
+    and post-editing; composers or video creators needing section-accurate scoring without composing themselves
+    would choose it in that situation.'

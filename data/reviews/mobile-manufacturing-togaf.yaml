@@ -263,3 +263,50 @@
     so architects can reuse its structure and prototypes and hand the bundled requirements and design
     to AI coding tools, skipping the steps of building an industry architecture from a blank template
     and redrawing prototypes.'
+- id: req-full-mobile-manufacturing-togaf-2026-09-16
+  project_slug: mobile-manufacturing-togaf
+  level: full
+  reviewed_at: '2026-09-16T00:50:15Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决手机制造企业架构师缺少行业TOGAF样例的问题，但公开材料只有仓库自述与收藏数，没有用户抱怨、不采用代价或频率；规划文档与原型可用通用文档、绘图和建模工具完成，缺少该案例库不阻断任务，属看着有用但没有也行。
+    evidence_ids:
+    - ev-36de42df5db0770e
+    - ev-a9fd6d6dddd09e08
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该公开代码仓库仓库的issue、discussion与release记录，确认是否有企业架构师报告实际用于规划交付、复刻后使用或提出采购与定制需求。
+  market: ''
+  job: 手机制造企业的企业架构师或IT规划人员，在制定数字化转型与架构规划方案时，需要处理TOGAF规划正文、可视化原型与LTC知识图谱等材料，产出一份可评审、可落地的架构规划文档与配套可视化系统。
+  job_en: Enterprise architects or IT planners at mobile-manufacturing firms, when drafting digital-transformation
+    and architecture plans, work with TOGAF planning text, visualization prototypes and LTC knowledge-graph
+    material to produce a reviewable, implementable architecture plan and its supporting visualization
+    system.
+  pain: 公开材料只说明仓库提供6章规划正文、76个可视化原型与LTC知识图谱原型，未给出任何用户抱怨、不采用代价或频率证据；从工作流结构看，架构规划文档与原型本身可被通用文档、绘图与建模工具替代，缺少该案例库并不阻断任务完成。
+  pain_en: Public material only states the repo offers six chapters of planning text, 76 visualization
+    prototypes and an LTC knowledge-graph prototype; it shows no user complaints, cost of non-adoption
+    or frequency. Structurally, architecture planning documents and prototypes can be produced with generic
+    document, diagramming and modeling tools, so the absence of this case library does not block the job.
+  current_alternative: 企业架构师通常使用通用文档工具、Visio/ProcessOn等绘图工具、Archi等建模工具，或直接参考TOGAF官方资料与厂商咨询模板完成同类规划。
+  current_alternative_en: Enterprise architects typically use generic document tools, diagramming tools
+    such as Visio or ProcessOn, modeling tools such as Archi, or TOGAF official material and vendor consulting
+    templates for comparable planning work.
+  usage_reason: 推断：相较自行整理TOGAF模板与绘图，该仓库把规划正文、原型与需求设计打包成可参考样例，可能减少从零搭建示例的起步成本，因此对需要快速获得手机制造行业样例的架构师有参考价值；但公开材料未显示任何用户反馈、复刻后实际使用或持续采用证据，43至50的收藏增长只反映关注度，不能证明它被留在工作流中。
+  usage_reason_en: 'Inference: versus assembling TOGAF templates and diagrams from scratch, the repo packages
+    planning text, prototypes and requirement designs as a reference sample, which may lower the starting
+    cost for architects needing a mobile-manufacturing example. However, public material shows no user
+    feedback, post-fork usage or sustained adoption; star growth from 43 to 50 reflects attention only
+    and cannot show it stays in the workflow.'

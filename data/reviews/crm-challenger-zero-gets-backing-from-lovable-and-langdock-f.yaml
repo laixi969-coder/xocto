@@ -1,0 +1,82 @@
+- id: req-initial-crm-challenger-zero-gets-backing-from-lovable-and-langdock-f-2026-09-16
+  project_slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
+  level: initial
+  reviewed_at: '2026-09-16T00:21:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售手工录入 CRM 导致数据不可信、预测失真的问题，旧行为明确且痛点刚性，价值结构成立。
+    evidence_ids:
+    - ev-1105d30462f2e5cc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息与投资方背景，没有客户采用或使用反馈，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-1105d30462f2e5cc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，收入可能来自中小企业订阅或按成交收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1105d30462f2e5cc
+  - gate: truth
+    status: insufficient
+    reason: 无法核对自动写入 CRM 的准确率、人工确认边界与数据合规处理方式。
+    evidence_ids:
+    - ev-1105d30462f2e5cc
+  next_validation: 收集 Zero 官方定价页或客户案例，确认其自动记录 CRM 的具体动作、交付结果与收费方式。
+  market: ''
+  job: 销售代表在打完电话或发完邮件后，需要把联系人信息、沟通要点和商机阶段录入 CRM，以便团队跟进和预测。
+  job_en: After a call or email, a sales rep must log contact details, conversation points and pipeline
+    stage into the CRM so the team can follow up and forecast.
+  pain: 手工录入占用销售时间且常被拖延或漏填，导致 CRM 数据不可信、预测失真，这是销售团队长期存在的刚性痛点。
+  pain_en: Manual entry consumes selling time and is often delayed or skipped, making CRM data unreliable
+    and forecasts distorted, a long-standing rigid pain for sales teams.
+  current_alternative: 现有做法是销售手工填表，或购买 Salesforce、HubSpot 等 CRM 并额外配置自动化插件，仍以人工录入为主。
+  current_alternative_en: Today reps fill forms by hand, or companies buy Salesforce or HubSpot and bolt
+    on automation plugins, with manual entry still dominant.
+  usage_reason: 推断：若 Zero 能直接从通话与邮件中生成客户记录并写入 CRM，就省去销售逐条录入这一步，销售团队会在录入负担重、数据质量差的场景下选择它；目前缺少功能细节与付费证据，无法确认这一因果。
+  usage_reason_en: 'Inference: if Zero can generate customer records directly from calls and email and
+    write them into the CRM, it removes the step-by-step manual entry, so sales teams with heavy logging
+    burden and poor data quality would choose it; functional detail and payment evidence are missing,
+    so this causal link is unconfirmed.'
+- id: req-full-crm-challenger-zero-gets-backing-from-lovable-and-langdock-f-2026-09-16
+  project_slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
+  level: full
+  reviewed_at: '2026-09-16T00:49:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅称 Zero 是挑战 Salesforce 和 HubSpot 的 AI 原生 CRM，未说明读取什么材料、自动写入什么、交付什么结果，连具体需求与痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-56491599c9eaa0a5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Zero 官网产品页或客户案例，确认其读取的输入材料、自动写入 CRM 的具体字段与交付结果。
+  market: ''
+  job: 销售代表在打完电话或发完邮件后，需要把联系人信息、沟通要点和商机阶段录入 CRM，以便团队跟进和预测。
+  job_en: After a call or email, a sales rep must log contact details, conversation points and pipeline
+    stage into the CRM so the team can follow up and forecast.
+  pain: 公开材料只说明 Zero 定位为 AI 原生 CRM，未说明它读取哪些材料、自动写入什么、交付什么结果，无法确认它解决的具体痛点。
+  pain_en: Public material only states Zero positions itself as an AI-native CRM, without specifying what
+    inputs it reads, what it writes automatically, or what it delivers, so the specific pain it solves
+    cannot be confirmed.
+  current_alternative: 公开材料未说明当前替代方式，无法确认销售团队现在如何完成客户与商机记录维护。
+  current_alternative_en: Public material does not describe the current alternative, so how sales teams
+    currently maintain customer and pipeline records cannot be confirmed.
+  usage_reason: 公开材料未说明 Zero 的具体动作与交付结果，无法解释用户为何会选择它而非现有 CRM。
+  usage_reason_en: Public material does not describe Zero's specific actions or delivered results, so
+    why users would choose it over existing CRMs cannot be explained.

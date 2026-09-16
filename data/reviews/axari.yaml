@@ -1,0 +1,87 @@
+- id: req-initial-axari-2026-09-16
+  project_slug: axari
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决安全杂务占用人力的问题，但公开材料未说明处理什么材料、交付什么结果，连痛点都难以还原，需求强度未明。
+    evidence_ids:
+    - ev-baa69f68e3b825f0
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价、客户案例或采用信号，无法判断安全团队是否真的把这类工作交给它。
+    evidence_ids:
+    - ev-baa69f68e3b825f0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自安全团队预算、外包替代还是合规支出，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-baa69f68e3b825f0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近安全工作的第一性目标，也看不到人工复核边界与交付确定性。
+    evidence_ids:
+    - ev-baa69f68e3b825f0
+  next_validation: 收集 Axari 官方产品页或文档，确认它接收哪些安全材料、执行哪些动作、交付什么结果以及是否有人工复核环节。
+  market: ''
+  job: 安全运营人员在日常值班中处理告警、安全问卷和合规材料等重复性事务，需要把这些杂务处理完并留下可交付的结果。
+  job_en: Security operations staff handle repetitive chores such as alerts, security questionnaires and
+    compliance materials during daily shifts, and need to get this busywork done with a deliverable result.
+  pain: 安全杂务量大、重复度高，占用本应用于真实风险处置的时间；公开材料未说明这些杂务目前由谁、用什么方式完成，也未说明不处理的后果。
+  pain_en: Security busywork is voluminous and repetitive, consuming time that should go to real risk
+    handling; public material does not say who currently does this work, with what tools, or what happens
+    if it is not done.
+  current_alternative: 公开材料未披露现有替代方式，无法确认是人工逐条处理、外包给安全服务商，还是使用既有安全运营平台。
+  current_alternative_en: Public material does not disclose the current alternative, so it is unclear
+    whether this is handled manually case by case, outsourced to a security service provider, or done
+    on an existing security operations platform.
+  usage_reason: 推断：若它真能自动接收告警与问卷材料并产出可直接提交的处理结果，就能省掉人工逐条整理这一步，安全团队人手不足时可能选择它；但公开材料只有一句定位，缺少输入、动作与交付证据，因此无法确认用户为何会选它。
+  usage_reason_en: 'Inference: if it can truly ingest alerts and questionnaire materials and produce directly
+    submittable results, it would remove the manual step of sorting through them one by one, and understaffed
+    security teams might choose it; however, public material offers only one line of positioning and lacks
+    evidence on inputs, actions and deliverables, so why users would pick it cannot be confirmed.'
+- id: req-full-axari-2026-09-16
+  project_slug: axari
+  level: full
+  reviewed_at: '2026-09-16T00:48:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决安全杂务占用人力的问题，但公开材料未说明处理什么材料、交付什么结果，连用户任务与痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-baa69f68e3b825f0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Axari 官方产品页或文档，确认它接收哪些安全材料、执行哪些动作、交付什么结果以及是否有人工复核环节。
+  market: ''
+  job: 安全运营人员在日常值班中处理告警、安全问卷和合规材料等重复性事务，需要把这些杂务处理完并留下可交付的结果。
+  job_en: Security operations staff handle repetitive chores such as alerts, security questionnaires and
+    compliance materials during daily shifts, and need to get this busywork done with a deliverable result.
+  pain: 公开材料只有一句“把安全杂务交给 AI 分身”，未说明处理什么材料、由谁执行、交付什么结果，连痛点都难以还原，无法确认安全杂务是否已成为必须解决的负担。
+  pain_en: Public material offers only one line about handing security busywork to an AI twin, without
+    saying what materials are handled, who runs it, or what result is delivered, so even the pain point
+    cannot be reconstructed.
+  current_alternative: 公开材料未披露现有替代方式，无法确认是人工逐条处理、外包给安全服务商，还是使用既有安全运营平台。
+  current_alternative_en: Public material does not disclose the current alternative, so it is unclear
+    whether this is handled manually case by case, outsourced to a security service provider, or done
+    on an existing security operations platform.
+  usage_reason: 推断：若它真能自动接收告警与问卷材料并产出可直接提交的处理结果，就能省掉人工逐条整理这一步；但公开材料只有一句定位，缺少输入、动作与交付证据，无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it can truly ingest alerts and questionnaire materials and produce directly
+    submittable results, it would remove the manual step of sorting through them one by one; however,
+    public material offers only one line of positioning and lacks evidence on inputs, actions and deliverables,
+    so which users would choose it and when cannot be confirmed.'

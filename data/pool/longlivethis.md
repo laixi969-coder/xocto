@@ -21,7 +21,7 @@ canonical_url: https://longlivethis.site
 summary: The web is dead. Keep this app alive
 first_seen: '2026-09-15T04:43:18Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

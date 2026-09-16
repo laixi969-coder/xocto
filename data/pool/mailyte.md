@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/mailyte
 summary: Email for your team, your app, and your customers.
 first_seen: '2026-09-14T07:20:35Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

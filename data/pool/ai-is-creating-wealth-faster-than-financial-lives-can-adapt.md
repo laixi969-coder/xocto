@@ -24,7 +24,7 @@ summary: AI startups are reaching massive valuations and liquidity events so qui
   long-term security with future opportunities.
 first_seen: '2026-09-15T11:00:56Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

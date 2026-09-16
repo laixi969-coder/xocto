@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE1ta3N3WkJSaVFL
 summary: CIOE观察 | 瑞康光联：从供应链管理到高端产品供给 瞄准AI光互联迫切需求 iccsz.com
 first_seen: '2026-09-14T23:30:57Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

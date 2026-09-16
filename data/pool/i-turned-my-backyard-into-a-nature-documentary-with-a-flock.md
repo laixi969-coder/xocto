@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SaGNmdTV4N0hE
 summary: I Turned My Backyard Into a Nature Documentary With a Flock of Smart Bird Feeders WIRED
 first_seen: '2026-09-13T11:00:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

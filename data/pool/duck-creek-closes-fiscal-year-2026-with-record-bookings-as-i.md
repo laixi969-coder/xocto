@@ -1,7 +1,6 @@
 ---
 slug: duck-creek-closes-fiscal-year-2026-with-record-bookings-as-i
-name: Duck Creek Closes Fiscal Year 2026 with Record Bookings as Insurers Accelerate Core Systems Modernization
-  and Agentic AI Adoption
+name: Duck Creek Technologies
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Duck Creek Closes Fiscal Year 2026 with Record Bookings as Insurers Acc
   and Agentic AI Adoption PA Media
 first_seen: '2026-09-15T14:29:13Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Duck Creek Closes Fiscal Year 2026 with Record Bookings as Insurers Accelerate Core Systems Modernization and Agentic AI Adoption
+# Duck Creek Technologies
 
 Duck Creek Closes Fiscal Year 2026 with Record Bookings as Insurers Accelerate Core Systems Modernization and Agentic AI Adoption PA Media
 

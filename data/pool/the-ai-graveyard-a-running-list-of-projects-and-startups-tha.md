@@ -22,7 +22,7 @@ summary: From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" l
   the AI projects that shut down or missed expectations.
 first_seen: '2026-09-15T19:00:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

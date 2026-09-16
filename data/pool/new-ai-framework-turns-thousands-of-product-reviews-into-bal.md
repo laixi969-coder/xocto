@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQcjBocjNWNjJa
 summary: New AI Framework Turns Thousands of Product Reviews Into Balanced, Bias-Resistant Summaries bioengineer.org
 first_seen: '2026-09-13T00:27:32Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

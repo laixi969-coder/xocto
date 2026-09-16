@@ -1,0 +1,87 @@
+- id: req-initial-icelandic-ocr-leaderboard-2026-09-16
+  project_slug: icelandic-ocr-leaderboard
+  level: initial
+  reviewed_at: '2026-09-16T00:21:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决小语种 OCR 选型缺少可比错误率的问题，但公开材料未说明谁在用、替代了哪一步人工试跑。
+    evidence_ids:
+    - ev-362264a0e9016b89
+  - gate: consensus
+    status: insufficient
+    reason: 仅 2 个点赞，无采用或引用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-362264a0e9016b89
+  - gate: model
+    status: insufficient
+    reason: 榜单本身无收费路径，买方与付费方式均未披露，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-362264a0e9016b89
+  - gate: truth
+    status: insufficient
+    reason: 评测集构成与更新机制未公开，无法核对错误率是否可复现。
+    evidence_ids:
+    - ev-362264a0e9016b89
+  next_validation: 收集该榜单的评测集说明与更新记录，核对错误率口径是否可复现。
+  market: ''
+  job: 档案与文献数字化人员在处理冰岛语扫描件时，需要判断哪个 OCR 或视觉语言模型识别错误更少。
+  job_en: Archive and digitisation staff handling Icelandic scans need to judge which OCR or vision-language
+    model makes fewer recognition errors.
+  pain: 小语种文档识别缺少公开可比的错误率口径，选型只能靠试跑或经验，但公开材料未说明谁在用、用后省下哪一步。
+  pain_en: Small-language document recognition lacks a public, comparable error-rate baseline, so model
+    choice relies on trial runs or experience, but the public material does not say who uses it or which
+    step it saves.
+  current_alternative: 目前多靠人工试跑几个模型、凭经验挑选，或直接沿用通用 OCR。
+  current_alternative_en: Today people trial a few models, pick by experience, or simply keep using general-purpose
+    OCR.
+  usage_reason: 推断：把多个模型在同一批冰岛语材料上的字符错误率并列，可减少逐个试跑比对这一步，因此做小语种数字化的团队在选型时会参考它；尚无用户反馈支持。
+  usage_reason_en: 'Inference: listing character error rates of several models on the same Icelandic material
+    removes the step of trialling each one, so teams digitising small-language documents may consult it
+    when choosing a model; no user feedback supports this yet.'
+- id: req-full-icelandic-ocr-leaderboard-2026-09-16
+  project_slug: icelandic-ocr-leaderboard
+  level: full
+  reviewed_at: '2026-09-16T00:49:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决冰岛语 OCR 选型缺少可比错误率的问题，但现有证据全是冰岛语人口与语言史介绍，未说明谁在选型、遇到什么具体困难、不解决会怎样，连榜单评测集与使用者都未披露，无法还原用户任务与痛点。
+    evidence_ids:
+    - ev-867433545c0a67fe
+    - ev-928eef936fedfc3c
+    - ev-e6cc3fb4d90718fb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该榜单官网或代码仓库的评测集说明、模型清单与更新记录，核对字符错误率口径是否可复现。
+  market: ''
+  job: 做冰岛语文档数字化的机器学习工程师或档案数字化人员，在需要为一批冰岛语扫描件选定 OCR 或视觉语言模型时，希望先看到多个模型在同一批冰岛语材料上的字符错误率对比，再决定用哪个模型。
+  job_en: ML engineers or archive digitisation staff working on Icelandic documents want to compare character
+    error rates of several OCR or vision-language models on the same Icelandic material before choosing
+    which model to run on a batch of scans.
+  pain: 公开材料只说明冰岛语使用人数少、语言独特，没有任何证据说明选型者遇到的具体困难、频率或不采用榜单的后果；连榜单的评测集构成、更新机制和实际使用者都未披露。
+  pain_en: The public material only notes that Icelandic has few speakers and a distinctive history; it
+    gives no evidence of the specific difficulty, frequency, or consequence of not using the leaderboard,
+    and the benchmark composition, update mechanism, and actual users are undisclosed.
+  current_alternative: 公开材料未记录任何现有替代行为，只能推测为人工试跑若干模型或沿用通用 OCR，这属于推断而非已观察事实。
+  current_alternative_en: No current alternative behaviour is documented in the public material; trialling
+    several models manually or defaulting to general-purpose OCR is an inference, not an observed fact.
+  usage_reason: 推断：若榜单确实把多个模型在同一批冰岛语材料上的字符错误率并列，可省去逐个试跑比对这一步，做小语种数字化的团队在选型时可能参考它；但现有证据全部是冰岛语背景介绍，无用户反馈、采用或引用记录支持这一因果。
+  usage_reason_en: 'Inference: if the leaderboard really lists character error rates of several models
+    on the same Icelandic material, it could remove the step of trialling each model, so teams digitising
+    small-language documents might consult it when choosing; but all current evidence is Icelandic-language
+    background, with no user feedback, adoption, or citation record supporting this causal link.'

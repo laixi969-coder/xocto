@@ -1,0 +1,94 @@
+- id: req-initial-lithuanian-legaltech-enforceshield-secures-17m-for-automated-2026-09-16
+  project_slug: lithuanian-legaltech-enforceshield-secures-17m-for-automated
+  level: initial
+  reviewed_at: '2026-09-16T00:21:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌方批量识别线上侵权、固定证据并推进下架的需求，痛点是人工逐条处理成本高、时效易错过，旧替代行为明确存在。
+    evidence_ids:
+    - ev-a090fbc6612f782e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有种子轮融资与领投方信息，没有客户案例、用户评价或采用规模，无法判断买方是否已形成共识。
+    evidence_ids:
+    - ev-a090fbc6612f782e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与收费方式，买方可能是品牌法务、代理机构或律所，属推断；融资叙事存在，但用户付费路径未核验。
+    evidence_ids:
+    - ev-a090fbc6612f782e
+  - gate: truth
+    status: insufficient
+    reason: 自动化识别与取证能否达到可提交标准、人工法律复核边界如何划分，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-a090fbc6612f782e
+  next_validation: 收集 EnforceShield 官方定价页或客户案例页面，确认其收费方式与已披露的采用方。
+  market: ''
+  job: 品牌方法务或外部律所的知识产权维权人员，在发现电商平台或网站上出现仿冒商品、盗图或侵权链接时，需要批量识别侵权对象、固定证据并推进下架或索赔流程。
+  job_en: IP enforcement staff at brand legal teams or outside law firms who, on finding counterfeit listings,
+    stolen images or infringing links on marketplaces and websites, must identify infringers at scale,
+    capture evidence and push takedown or claim processes forward.
+  pain: 侵权链接数量大、平台规则各异，人工逐条筛查、截图取证和填写投诉表单耗时且容易漏掉时效窗口，维权成本常常高于单个案件的标的。
+  pain_en: Infringing links are numerous and platform rules differ; manually screening each one, capturing
+    screenshots and filing complaint forms is slow and easily misses time windows, so enforcement cost
+    often exceeds the value of a single case.
+  current_alternative: 目前多由法务或代理机构人工巡查平台、手工截图存档，再用平台投诉入口或律师函逐条处理，部分品牌直接放弃小额侵权。
+  current_alternative_en: Today legal teams or agencies manually patrol platforms, screenshot and archive
+    evidence, then file platform complaints or send cease-and-desist letters one by one; some brands simply
+    abandon low-value infringements.
+  usage_reason: 推断：相较人工逐条巡查与填表，平台把识别、取证和流程推进串成一条自动链路，减少的是重复筛查与材料整理这两步人力，因此侵权量大、单案金额小、需要持续监测的品牌方或代理机构更可能选择它；公开材料未提供客户案例或留存数据，实际采用尚未核验。
+  usage_reason_en: 'Inference: versus manual patrolling and form-filling, the platform chains detection,
+    evidence capture and process steps into one automated flow, cutting the repetitive screening and document-assembly
+    labour, so brands or agencies with high infringement volume, low per-case value and continuous monitoring
+    needs are more likely to adopt it; no customer cases or retention data are public, so actual adoption
+    is unverified.'
+- id: req-full-lithuanian-legaltech-enforceshield-secures-17m-for-automated-2026-09-16
+  project_slug: lithuanian-legaltech-enforceshield-secures-17m-for-automated
+  level: full
+  reviewed_at: '2026-09-16T00:49:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌方批量识别线上侵权、固定证据并推进下架的需求，痛点是人工逐条处理成本高、时效易错过，旧替代行为明确存在。
+    evidence_ids:
+    - ev-a090fbc6612f782e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有种子轮融资与领投方信息，没有客户案例、用户评价或采用规模，无法判断买方是否已形成共识。
+    evidence_ids:
+    - ev-a090fbc6612f782e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与收费方式，买方可能是品牌法务、代理机构或律所，属推断；融资叙事存在，但用户付费路径未核验。
+    evidence_ids:
+    - ev-a090fbc6612f782e
+  - gate: truth
+    status: insufficient
+    reason: 自动化识别与取证能否达到可提交标准、人工法律复核边界如何划分，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-a090fbc6612f782e
+  next_validation: 收集 EnforceShield 官方定价页或客户案例页面，确认其收费方式与已披露的采用方。
+  market: ''
+  job: 品牌方法务或外部律所的知识产权维权人员，在电商平台或网站上发现仿冒商品、盗图或侵权链接时，需要批量识别侵权对象、固定证据并推进下架或索赔流程。
+  job_en: IP enforcement staff at brand legal teams or outside law firms who, on finding counterfeit listings,
+    stolen images or infringing links on marketplaces and websites, must identify infringers at scale,
+    capture evidence and push takedown or claim processes forward.
+  pain: 侵权链接数量大、平台规则各异，人工逐条筛查、截图取证和填写投诉表单耗时且容易漏掉时效窗口，维权成本常常高于单个案件的标的。
+  pain_en: Infringing links are numerous and platform rules differ; manually screening each one, capturing
+    screenshots and filing complaint forms is slow and easily misses time windows, so enforcement cost
+    often exceeds the value of a single case.
+  current_alternative: 目前多由法务或代理机构人工巡查平台、手工截图存档，再用平台投诉入口或律师函逐条处理，部分品牌直接放弃小额侵权。
+  current_alternative_en: Today legal teams or agencies manually patrol platforms, screenshot and archive
+    evidence, then file platform complaints or send cease-and-desist letters one by one; some brands simply
+    abandon low-value infringements.
+  usage_reason: 推断：相较人工逐条巡查与填表，平台把识别、取证和流程推进串成一条自动链路，减少的是重复筛查与材料整理这两步人力，因此侵权量大、单案金额小、需要持续监测的品牌方或代理机构更可能选择它；公开材料未提供客户案例或留存数据，实际采用尚未核验。
+  usage_reason_en: 'Inference: versus manual patrolling and form-filling, the platform chains detection,
+    evidence capture and process steps into one automated flow, cutting the repetitive screening and document-assembly
+    labour, so brands or agencies with high infringement volume, low per-case value and continuous monitoring
+    needs are more likely to adopt it; no customer cases or retention data are public, so actual adoption
+    is unverified.'

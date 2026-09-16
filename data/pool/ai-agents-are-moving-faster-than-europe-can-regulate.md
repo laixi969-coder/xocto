@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/ai-agents-anthropic-openai-eu-uk-laws
 summary: ''
 first_seen: '2026-09-15T05:00:14Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/what-to-watch-free-meta-quest-tv-vr-film-se
 summary: ''
 first_seen: '2026-09-15T18:00:00Z'
 last_seen: '2026-09-16T00:21:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

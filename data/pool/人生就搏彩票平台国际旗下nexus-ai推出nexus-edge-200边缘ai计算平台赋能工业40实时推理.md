@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iTXZpT0FRRjI2
 summary: 人生就搏彩票平台国际旗下Nexus AI推出Nexus Edge 200边缘AI计算平台，赋能工业4.0实时推理 体坛加
 first_seen: '2026-09-15T03:14:13Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://github.com/mwbpNFTechnology/toluTag
 summary: Open-source passive NFC tag that signs with ECDSA, verified on-chain
 first_seen: '2026-09-15T13:17:04Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

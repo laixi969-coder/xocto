@@ -3,29 +3,26 @@ slug: tare
 name: tare
 builder: sachinneravath
 category: AI + 开发
-summary_zh: 开发者在调用大模型 API 时额度被快速耗尽，会打开 tare 查看是哪些请求、哪段代码在消耗额度；它接收调用记录并归因到具体来源，最终给出额度消耗的分布结果，具体采集方式与交付形态仍待核验。
-inspiration: 趋势是模型额度正变成团队要核算的运营成本，而不是随手可用的免费资源。切入可以从按项目或按团队做额度归因与预算告警入手，卖给自建 AI 功能的研发团队；公开材料未披露定价，是否按席位收费尚不清楚。
-summary_en: When developers burn through their LLM API quota quickly, they open tare to see which requests
-  or code paths consumed it; it takes call records and attributes them to specific sources, returning
-  a breakdown of quota consumption, though the exact collection method and deliverable still need verification.
-inspiration_en: The trend is that model quota is becoming an operating cost teams must account for rather
-  than a free resource. An entry point is per-project or per-team quota attribution and budget alerts
-  sold to engineering teams building AI features; no public pricing is disclosed, so per-seat charging
-  is unconfirmed.
+summary_zh: 使用 Claude 等按量计费模型的开发者，在配额被意外快速耗尽时打开 tare，让它读取自己的调用记录，拆出是哪些请求、哪类上下文吃掉了额度，最终得到一份用量去向的分解结果，据此调整提示或调用方式；具体统计口径与交付形式仍待核验。
+inspiration: 趋势是模型按量计费后，额度本身成了需要被管理的生产资源，围绕“钱花在哪一步”的观测会先于优化工具出现。切入可以从独立开发者和小型 AI 应用团队入手，先做单账户的用量归因，再考虑按团队席位或按被监控的调用量收费；价格未披露，不做假设。
+summary_en: Developers using metered models such as Claude open tare when their quota drains unexpectedly
+  fast; it reads their call records and breaks down which requests and which kinds of context consumed
+  the budget, returning a usage attribution the developer can act on by changing prompts or call patterns.
+  The exact accounting method and output format still need verification.
+inspiration_en: 'The trend: once models are metered, quota becomes a production resource that must be
+  managed, so observability into where spend goes tends to appear before optimization tooling. The entry
+  point is individual developers and small AI app teams, starting with single-account usage attribution
+  and later charging per seat or per monitored call volume; no pricing is disclosed, so none is assumed.'
 priority_review: false
 project_type: open_source
 industries:
 - 软件开发
-- 信息技术服务
 industries_en:
-- Software Development
-- IT Services
+- Software development
 jobs:
 - AI 应用开发者
-- 研发效能工程师
 jobs_en:
-- AI Application Developer
-- Developer Productivity Engineer
+- AI application developer
 regions: []
 regions_en: []
 open_source: true
@@ -34,7 +31,7 @@ canonical_url: https://github.com/kelviq/tare
 summary: My Claude quota ran out in 10 minutes, so I made a tool to find out why
 first_seen: '2026-08-27T16:37:44Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

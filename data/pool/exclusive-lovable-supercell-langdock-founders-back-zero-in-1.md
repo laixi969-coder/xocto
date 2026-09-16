@@ -1,6 +1,6 @@
 ---
 slug: exclusive-lovable-supercell-langdock-founders-back-zero-in-1
-name: 'Exclusive: Lovable, Supercell, Langdock founders back Zero in $10.3m seed round'
+name: Zero
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/exclusive-zero-10-3m-seed-round
 summary: ''
 first_seen: '2026-09-15T05:00:13Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Exclusive: Lovable, Supercell, Langdock founders back Zero in $10.3m seed round
+# Zero
 
 _（源没给简介）_
 

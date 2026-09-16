@@ -1,0 +1,96 @@
+- id: req-initial-manus-2026-09-16
+  project_slug: manus
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨网页多步骤任务的搜集与整理需求，痛点是步骤多、易漏项，旧做法是人工逐页摘录，结构上成立。
+    evidence_ids:
+    - ev-8683568f83f8f679
+  - gate: consensus
+    status: insufficient
+    reason: 有公开访问规模与榜单位置，但环比下降17.19%，且无用户评价或客户案例说明持续采用。
+    evidence_ids:
+    - ev-8683568f83f8f679
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页与买方，to C 订阅或 to B 席位收费均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-8683568f83f8f679
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性、人工复核边界与安全边界在公开材料中未说明，法律相关报道也未指明所用产品。
+    evidence_ids:
+    - ev-8683568f83f8f679
+    - ev-9f8953b979c2b62c
+  next_validation: 收集 Manus 官方定价页或客户案例页面，确认其收费方式与交付边界。
+  market: ''
+  job: 个人或小团队在需要跨多个网站搜集、比对并整理材料时，把浏览、点击和初步汇总交给智能体执行，自己只做结论复核。
+  job_en: When individuals or small teams need to gather, compare and compile material across multiple
+    websites, they let an agent do the browsing, clicking and first-pass summarisation and only review
+    the conclusions themselves.
+  pain: 这类任务步骤多、页面杂，人工逐页打开、复制、粘贴耗时且容易漏项；不做的代价是结论依据不全或交付延期。
+  pain_en: Such tasks involve many steps and messy pages; opening, copying and pasting page by page is
+    slow and error-prone, and skipping it means incomplete evidence or delayed delivery.
+  current_alternative: 旧做法是人工开多个标签页逐页摘录，或把零散链接丢给通用聊天助手，由用户自己拼接和核对。
+  current_alternative_en: The old way is manually opening many tabs and excerpting page by page, or pasting
+    scattered links into a general chat assistant and stitching and checking the results yourself.
+  usage_reason: 相较人工逐页摘录，它把浏览、点击与初步汇总这几步交给智能体连续执行，用户从操作者变成复核者，减少的是逐页搬运这一步负担；这是推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with manual page-by-page excerpting, it has the agent carry out browsing,
+    clicking and first-pass compilation in one continuous run, turning the user from operator into reviewer
+    and removing the page-by-page handling step; this is inference, as public material provides no retention
+    or repeat-use evidence.
+- id: req-full-manus-2026-09-16
+  project_slug: manus
+  level: full
+  reviewed_at: '2026-09-16T00:50:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨网页多步骤任务的搜集与整理需求，痛点是步骤多、易漏项，旧做法是人工逐页摘录或丢给聊天助手自行拼接；不采用则依据不全或交付延期。公开材料仅有能力描述，无用户抱怨或采用数据，故为工作流结构推理。
+    evidence_ids:
+    - ev-302f5f2355c7bdd6
+    - ev-e28c26f204230c46
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品能力自述与 Meta 收购报道，未提供用户评价、客户案例或持续采用证据；收购金额属关注度与资本信号，不能证明用户已把它留在工作流里。
+    evidence_ids:
+    - ev-93d71b098964f53d
+    - ev-2bb1f1e0ad75f6f5
+  - gate: model
+    status: insufficient
+    reason: 证据中无官方定价页或采购记录，to C 订阅还是 to B 席位收费均属推断，不是已验证事实；买方与付费路径在公开材料中尚未核验。
+    evidence_ids:
+    - ev-57189ac572caf919
+    - ev-eda02c5842677be5
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性、人工复核边界与安全边界在公开材料中未说明，仅称可执行任务与自动化工作流；法律合规场景的报道也未指明所用产品，无法核对承诺是否确定性交付。
+    evidence_ids:
+    - ev-8fafbb0953ba75c6
+    - ev-c1fac73e922c9183
+  next_validation: 追踪 Manus 官网定价页与客户案例页面，确认其收费方式、买方类型与交付边界。
+  market: ''
+  job: 个人或小团队在需要跨多个网站搜集、比对并整理材料时，把浏览、点击与初步汇总交给通用智能体连续执行，自己只复核关键结论并产出可交付结果。
+  job_en: When individuals or small teams need to gather, compare and compile material across multiple
+    websites, they let a general agent carry out browsing, clicking and first-pass summarisation continuously,
+    and only review key conclusions to produce a deliverable.
+  pain: 跨网页多步骤任务页面杂、步骤多，人工逐页打开、复制、粘贴耗时且容易漏项；不做的代价是依据不全或交付延期。公开材料只给出“execute tasks, automate workflows”的能力描述，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: Multi-step cross-web tasks involve messy pages and many steps; opening, copying and pasting
+    page by page is slow and error-prone, and skipping it means incomplete evidence or delayed delivery.
+    Public material only states the capability to 'execute tasks, automate workflows' and offers no user
+    complaints or adoption data, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是人工开多个标签页逐页摘录，或把零散链接丢给通用聊天助手，由用户自己拼接、核对与整理成文。
+  current_alternative_en: The old way is manually opening many tabs and excerpting page by page, or pasting
+    scattered links into a general chat assistant and stitching, checking and compiling the output yourself.
+  usage_reason: 相较人工逐页摘录，它把浏览、点击与初步汇总这几步交给智能体连续执行，用户从操作者变成复核者，减少的是逐页搬运这一步负担，因此需要批量跨站搜集材料的小团队会在赶交付时选择它；这是基于产品能力与任务结构的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with manual page-by-page excerpting, it has the agent carry out browsing,
+    clicking and first-pass compilation in one continuous run, turning the user from operator into reviewer
+    and removing the page-by-page handling step, so small teams needing bulk cross-site gathering would
+    choose it under delivery pressure; this is inference from product capability and task structure, as
+    public material provides no retention or repeat-use evidence.

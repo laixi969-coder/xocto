@@ -377,3 +377,45 @@
     removes the manual prompt-curation step and would attract developers wanting a quick trial; but requiring
     antivirus off and elevation is itself adoption friction, and with no retention or repeat-use evidence,
     staying in the workflow cannot be confirmed.'
+- id: req-full-agent-skills-collection-2026-09-16
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-09-16T00:48:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue / discussion 与 README 安装说明，确认是否有用户报告实际接入流程、安全顾虑或替代方案，作为判断痛点与交付确定性的公开证据。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的 agent 加装模块化技能，在本地或自建环境里把技能包接入自己的助手，完成扩展能力这件事。
+  job_en: A developer or LLM-agent user wants to add modular skills to an LLM-based agent, wiring skill
+    packages into a local or self-hosted assistant to extend its capabilities.
+  pain: 公开材料只给出产品自述与安装摩擦描述：安装过程要求关闭杀毒软件、以管理员权限运行安装包。这属于分发方式带来的安全与信任负担，而非用户已表达的刚性痛点；没有用户抱怨、workaround 或案例说明不装技能会损失什么。
+  pain_en: 'Public material only offers the product''s own description plus an install-friction note:
+    setup asks users to disable antivirus and run an installer as administrator. That is a distribution-side
+    security and trust burden, not a user-expressed rigid pain; no complaints, workarounds, or cases show
+    what is lost without these skills.'
+  current_alternative: 公开材料未说明用户当前如何完成同一任务；结构上可推断的旧做法是直接调用模型 API、自行编写提示词或函数调用、或使用框架自带的工具/插件机制，但这些替代路径均无公开证据支撑。
+  current_alternative_en: Public material does not show how users do this job today; structurally inferable
+    alternatives are calling model APIs directly, writing prompts or function calls by hand, or using
+    a framework's built-in tool/plugin mechanism, but none of these paths is backed by public evidence.
+  usage_reason: 推断：若技能包确实省去逐个手写工具定义与接入代码，开发者可能因省一步集成而试用；但公开证据只有仓库 209 收藏、4 复刻这类关注度信号，不能解释选择原因，也不能证明持续使用，且安装需关杀毒、提权反而增加信任成本。
+  usage_reason_en: 'Inference: if the skill packages genuinely remove hand-writing each tool definition
+    and integration, developers might try it to skip one integration step; but public evidence is only
+    attention signals such as 209 stars and 4 forks, which neither explain the choice nor prove repeat
+    use, while the disable-antivirus and admin-privilege install adds trust cost.'

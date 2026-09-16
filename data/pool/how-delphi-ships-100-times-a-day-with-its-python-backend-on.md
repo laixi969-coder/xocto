@@ -1,6 +1,6 @@
 ---
 slug: how-delphi-ships-100-times-a-day-with-its-python-backend-on
-name: How Delphi ships 100 times a day with its Python backend on Vercel
+name: Delphi
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its
 summary: ''
 first_seen: '2026-09-15T04:00:00Z'
 last_seen: '2026-09-16T00:21:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# How Delphi ships 100 times a day with its Python backend on Vercel
+# Delphi
 
 _（源没给简介）_
 

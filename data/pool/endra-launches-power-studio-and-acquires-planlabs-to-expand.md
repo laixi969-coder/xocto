@@ -1,6 +1,6 @@
 ---
 slug: endra-launches-power-studio-and-acquires-planlabs-to-expand
-name: Endra launches Power Studio and acquires Planlabs to expand into mechanical engineering
+name: Endra
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Endra, a platform developing AI tools for mechanical,electrical and plu
   Th...
 first_seen: '2026-09-15T12:35:00Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Endra launches Power Studio and acquires Planlabs to expand into mechanical engineering
+# Endra
 
 Endra, a platform developing AI tools for mechanical,electrical and plumbing (MEP) engineering, has launched Endra Power Studio, anagentic platform designed specifically for electrical engineering. Th...
 

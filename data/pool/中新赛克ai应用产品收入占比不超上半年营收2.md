@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE54WXVnc1c5TU9z
 summary: 中新赛克：AI应用产品收入占比不超上半年营收2% 东方财富
 first_seen: '2026-09-11T12:36:40Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

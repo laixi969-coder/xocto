@@ -554,3 +554,53 @@
     deterministic tools and keeps evidence-backed context, removing the step of re-verifying after the
     model answers, so reverse engineers and AI app developers needing high-accuracy conclusions would
     pick it for binary or protocol analysis; stars only show attention, not adoption.'
+- id: req-full-reverify-2026-09-16
+  project_slug: reverify
+  level: full
+  reviewed_at: '2026-09-16T00:51:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LLM 在逆向工程等场景编造结论、需人工逐条复核且会话重置后证据丢失的痛点；仓库说明给出“代理提出、确定性工具裁决、证据留存”的输入—动作—交付闭环，属工作流结构推理，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+    - ev-b3e9a95468600fb5
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库收藏从 1,178 增至 1,207，说明开发者社区持续关注；但收藏属关注度证据，未见 issue、discussion 或客户案例证明目标用户已把它留在工作流中。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+    - ev-b3e9a95468600fb5
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自 to C 开发者订阅或 to B 团队授权，这是判断而非已验证事实；开源仓库本身不构成付费路径。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺“每条主张对照 ground truth 核查”，但未见部署文档、可复现实测或人工/安全边界说明，无法核验核查覆盖率与误判处理是否确定发生。
+    evidence_ids:
+    - ev-3c867d0c08569a78
+  next_validation: 追踪 https://公开代码仓库.com/2akouwu/reverify 的 README、部署文档与 issue/discussion，确认是否有真实用户描述部署场景、替代的旧流程与核查结果。
+  market: ''
+  job: AI 应用开发者或逆向工程师在让 LLM 代理分析二进制、协议或代码时，需要代理给出可核对的结论，于是把代理提出的每条主张交给确定性工具（MCP 服务器 + CLI）对照 ground truth
+    逐条核查，并保留带证据的上下文，避免会话重置后丢失已确认事实。
+  job_en: 'An AI application developer or reverse engineer working with an LLM agent on binaries, protocols,
+    or code needs verifiable conclusions: the agent proposes claims, and a deterministic tool (MCP server
+    + CLI) checks each claim against ground truth, keeping evidence-backed context that survives resets.'
+  pain: LLM 在逆向工程等场景会编造函数行为、地址或协议字段，开发者必须逐条人工复核，一旦会话重置已确认的结论还会丢失，导致重复劳动和错误结论被继续使用。
+  pain_en: In reverse engineering, LLMs fabricate function behavior, addresses, or protocol fields; developers
+    must manually re-check each claim, and confirmed conclusions are lost when the session resets, causing
+    rework and propagation of wrong conclusions.
+  current_alternative: 当前替代方式是人工逐条核对模型输出、在对话里反复追问，或依赖通用 LLM 工具自身的记忆与检索，缺少把主张与确定性工具结果绑定的机制。
+  current_alternative_en: Today users manually re-check model output, repeatedly re-prompt in the chat,
+    or rely on generic LLM memory/retrieval, with no mechanism binding each claim to a deterministic tool
+    result.
+  usage_reason: 推断：相较人工逐条复核，它把“代理提出主张—确定性工具裁决—证据留存”固化为 MCP/CLI 流程，减少人工比对这一步，并让已核实的上下文在重置后仍可用，因此做逆向或高准确性
+    AI 应用的开发者会在需要可核对结论时选用它。
+  usage_reason_en: 'Inference: versus manual claim-by-claim checking, it fixes the propose–deterministic-decide–retain-evidence
+    loop into an MCP/CLI workflow, removing the manual comparison step and keeping verified context across
+    resets, so developers doing reverse engineering or high-accuracy AI work would choose it when they
+    need checkable conclusions.'

@@ -85,3 +85,52 @@
     verification and review into one reusable plain-text constraint, removing the step of restating the
     process; but no tests or customer feedback in the public material show the agent actually complies,
     so the reason to choose it remains an inference.'
+- id: req-full-sureforge-2026-09-16
+  project_slug: sureforge
+  level: full
+  reviewed_at: '2026-09-16T00:51:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理在复杂任务上跳过需求澄清与交付前验证、产出需返工这一痛点，旧做法是人工反复叮嘱流程或事后评审兜底，痛点刚性且交付物明确；但约束是否真被执行属结构推理，公开材料无实测。
+    evidence_ids:
+    - ev-2efd1b349dba37be
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 103 增至 105 只反映关注度，公开材料没有采用、留存或团队落地案例，无法证明共识已形成。
+    evidence_ids:
+    - ev-2efd1b349dba37be
+    - ev-b1efc186fa2e5717
+  - gate: model
+    status: insufficient
+    reason: 纯文本开源项目未披露任何收费方式，买方与付费路径只能推测为个人开发者或团队自用，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2efd1b349dba37be
+  - gate: truth
+    status: insufficient
+    reason: 无运行时意味着约束依赖代理自觉遵守，公开材料未说明如何核验代理是否真的执行了这些步骤，承诺能否确定性交付尚未被证明。
+    evidence_ids:
+    - ev-2efd1b349dba37be
+  next_validation: 追踪该仓库的 issue 与 discussion，查看是否有团队报告代理遵守流程后的实际交付结果或失败案例。
+  market: ''
+  job: 使用编码代理的研发人员在让代理处理复杂任务时，把 SureForge 作为纯文本流程约束交给代理，要求代理按调研、提问、规划、构建、验证、独立复核的顺序推进，最终拿到经过自检的代码或方案。
+  job_en: Developers using coding agents on complex tasks hand SureForge to the agent as a plain-text
+    process constraint, requiring it to research, ask, plan, build, verify and run an independent review,
+    ending with self-checked code or a plan.
+  pain: 公开说明显示代理在复杂任务上容易直接动手，跳过需求澄清与交付前验证，产出需要人反复返工；旧做法靠人工在提示词里反复叮嘱流程或事后评审兜底，属于重复劳动且漏检成本高。
+  pain_en: The public description shows agents on complex tasks tend to start building immediately, skipping
+    requirement clarification and pre-delivery verification, so output needs repeated rework; the old
+    fix is restating the process in prompts or catching problems in post-hoc review, which is repetitive
+    and costly when missed.
+  current_alternative: 当前替代是每次在提示词里手写流程叮嘱，或依赖团队代码评审制度事后发现问题；也有把流程写进自定义指令、模板或内部规范文档的做法。
+  current_alternative_en: Today the alternative is hand-writing process reminders into each prompt, or
+    relying on post-hoc team code review; some teams also bake the process into custom instructions, templates
+    or internal spec documents.
+  usage_reason: 推断：相较每次手写提示词，它把调研、提问、规划、验证、复核固化成一份可复用的纯文本约束，减少重复交代流程这一步，并让复杂任务的推进顺序可被统一引用；因此频繁用编码代理做复杂任务的研发人员会尝试它。但公开材料没有实测或客户反馈证明代理确实遵守，选择动机仍属推断。
+  usage_reason_en: 'Inference: compared with rewriting prompts each time, it fixes research, asking, planning,
+    verification and review into one reusable plain-text constraint, removing the step of restating the
+    process and giving complex tasks a single referenceable order; so developers who frequently run coding
+    agents on complex tasks would try it. But no tests or customer feedback in the public material show
+    the agent actually complies, so the reason to choose it remains an inference.'

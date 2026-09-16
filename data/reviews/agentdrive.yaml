@@ -87,3 +87,55 @@
     get persistence and versioning as a ready interface for agents, removing that build step, so developers
     shipping multi-session agent apps would pick it when cross-session file state is needed; without customer
     cases or repeat-use evidence, long-term adoption cannot be confirmed.'
+- id: req-full-agentdrive-2026-09-16
+  project_slug: agentdrive
+  level: full
+  reviewed_at: '2026-09-16T00:48:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理跨会话读写文件时状态丢失、版本无法回溯的需求，痛点在于文件散落临时目录、出错难定位；公开材料仅一句产品定位，未说明接入方式与人工确认环节，价值判断基于工作流结构推理而非用户采用数据。
+    evidence_ids:
+    - ev-af5f0a99c93a3128
+    - ev-4f47f7d2838dad1e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品定位描述与检索覆盖记录，没有开发者讨论、接入案例或采用规模，无法判断是否形成使用共识；现有证据只说明英文生态出现早期供给信号。
+    evidence_ids:
+    - ev-af5f0a99c93a3128
+    - ev-9de7ef1e489076c3
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、计费方式或买方信息，钱可能来自 to B 开发者工具订阅或按用量计费，但这是判断而非已验证事实；公开材料也未说明是自建销售还是平台分发。
+    evidence_ids:
+    - ev-af5f0a99c93a3128
+    - ev-4f47f7d2838dad1e
+  - gate: truth
+    status: insufficient
+    reason: 存储层本身不决定代理任务是否完成，交付确定性依赖上层应用；公开材料未说明权限、安全边界与人工确认环节，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-af5f0a99c93a3128
+    - ev-4f47f7d2838dad1e
+  next_validation: 追踪 AgentDrive 官网的定价页与部署文档，确认其计费方式、代理接入接口以及是否披露权限与版本回滚的安全边界。
+  market: ''
+  job: 构建代理应用的开发者在代理需要跨会话读写文件时，把代理生成或修改的文件写入该存储并保留版本，以便代理任务能接着上次的文件状态继续，并能在出错时回溯到某个版本。
+  job_en: Developers building agent applications write files produced or modified by agents into this
+    storage with version history when agents must read and write files across sessions, so a task can
+    resume from the previous file state and roll back to a version when something breaks.
+  pain: 代理产出的文件散落在本地或临时目录，会话结束即丢失，多次修改后无法回溯到先前版本，出错时难以定位是哪一步写坏了文件；公开材料只给出产品定位，未提供用户抱怨或事故案例来量化这一痛点的严重程度。
+  pain_en: Files produced by agents scatter across local or temporary directories, disappear when a session
+    ends, and cannot be traced back to an earlier version after repeated edits, making it hard to locate
+    which step corrupted a file; the public material only states the product positioning and offers no
+    user complaints or incident cases to quantify severity.
+  current_alternative: 开发者目前用本地文件系统、对象存储或数据库自行拼接持久化与版本管理，或让代理在单次会话内处理完文件后丢弃。
+  current_alternative_en: Developers currently stitch together persistence and versioning using local
+    file systems, object storage or databases, or let agents process files within a single session and
+    discard them afterwards.
+  usage_reason: 推断：相较自建存储与版本逻辑，它把持久化和版本作为现成接口交给代理调用，省掉开发者自己实现文件状态保存与回滚这一步；因此正在做多轮、跨会话代理任务且不想自建存储层的开发者会优先试用它，但公开材料没有客户案例或重复使用证据，无法确认其已被长期留在工作流中。
+  usage_reason_en: 'Inference: instead of building storage and versioning themselves, developers get persistence
+    and versioning as a ready interface for agents, removing the step of implementing file-state saving
+    and rollback; developers running multi-turn, cross-session agent tasks who do not want to build that
+    layer would try it first, but the public material has no customer cases or repeat-use evidence to
+    confirm it stays in the workflow long term.'

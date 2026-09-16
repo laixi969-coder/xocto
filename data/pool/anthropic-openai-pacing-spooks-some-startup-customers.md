@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQaHlOdzd3cFlw
 summary: Anthropic, OpenAI ‘Pacing’ Spooks Some Startup Customers The Information
 first_seen: '2026-09-15T23:25:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

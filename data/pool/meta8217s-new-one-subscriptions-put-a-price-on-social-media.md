@@ -1,11 +1,13 @@
 ---
 slug: meta8217s-new-one-subscriptions-put-a-price-on-social-media
-name: Meta&#8217;s new One subscriptions put a price on social media and AI
+name: Meta One
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Meta 将 Muse 助手与社交应用订阅打包为 Meta One 全球订阅，按个人、创作者、企业分档收费，属于平台订阅与定价变化，不是独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: Meta packages its Muse assistant with social app subscriptions into the global Meta One subscription,
+  tiered for individuals, creators and businesses; this is a platform subscription and pricing change,
+  not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +26,7 @@ summary: Shortly after launching its new do-everything AI assistant Muse, Meta's
   for individual users, creators, and businesses. Meta says the […]
 first_seen: '2026-09-15T15:00:00Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Meta&#8217;s new One subscriptions put a price on social media and AI
+# Meta One
 
 Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today, with several tiers for individual users, creators, and businesses. Meta says the […]
 

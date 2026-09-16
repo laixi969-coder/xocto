@@ -1,0 +1,79 @@
+- id: req-initial-multimodal-agents-by-sierra-2026-09-16
+  project_slug: multimodal-agents-by-sierra
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决什么需求、什么痛点都写不出来，仅有一句多模态切换的功能描述，价值关无法成立。
+    evidence_ids:
+    - ev-3660bd3ba58e81c7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注证据。
+    evidence_ids:
+    - ev-3660bd3ba58e81c7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-3660bd3ba58e81c7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-3660bd3ba58e81c7
+  next_validation: 收集 Sierra 官方产品页或文档，确认其多模态代理的具体输入材料、交付结果与适用工作流。
+  market: ''
+  job: 客服团队在售后环节处理客户发来的语音描述与图片凭证，需要判断问题类型并给出处理结论。
+  job_en: Support teams handle customer voice descriptions and image evidence in after-sales cases, needing
+    to classify the issue and give a resolution.
+  pain: 候选材料未说明客户在现有流程中具体卡在哪一步，也未给出任何痛点描述。
+  pain_en: The candidate material does not state where customers get stuck in the current process, nor
+    describe any pain point.
+  current_alternative: 候选材料未提供现有替代方式的信息。
+  current_alternative_en: The candidate material provides no information about current alternatives.
+  usage_reason: 资料仅说明代理可在语音、文字与图像间切换，未说明相较旧做法减少了哪一步负担，无法判断用户为何选择它。
+  usage_reason_en: The material only says the agent switches between voice, text and visuals; it does
+    not show which step is reduced versus the old way, so why users would choose it cannot be judged.
+- id: req-full-multimodal-agents-by-sierra-2026-09-16
+  project_slug: multimodal-agents-by-sierra
+  level: full
+  reviewed_at: '2026-09-16T00:50:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决什么需求、什么痛点都写不出来，仅有一句多模态切换的功能描述，价值关无法成立。
+    evidence_ids:
+    - ev-91202e76cd22de73
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sierra 官方产品页或文档，确认其多模态代理的具体输入材料、交付结果与适用工作流。
+  market: ''
+  job: 候选资料只说明 Sierra 提供可在语音、文字与图像之间切换的 AI 客服代理，未给出谁在哪个工作节点打开它、接收什么材料、产出什么结果，具体使用场景无法还原。
+  job_en: The candidate material only says Sierra offers an AI support agent that switches between voice,
+    text and visuals; it does not say who opens it at which workflow step, what material it receives,
+    or what it outputs, so the concrete job cannot be reconstructed.
+  pain: 候选材料未说明客户在现有流程中卡在哪一步，也未给出任何痛点描述，连要解决什么需求都写不出来。
+  pain_en: The candidate material does not state where customers get stuck in the current process and
+    gives no pain description, so even the need being solved cannot be written.
+  current_alternative: 候选材料未提供现有替代方式的信息。
+  current_alternative_en: The candidate material provides no information about current alternatives.
+  usage_reason: 资料仅说明代理可在语音、文字与图像间切换，未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，无法判断用户为何选择它。
+  usage_reason_en: The material only says the agent switches between voice, text and visuals; it does
+    not show which step is reduced versus the old way or which checkable result improves, so why users
+    would choose it cannot be judged.

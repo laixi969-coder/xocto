@@ -1,6 +1,6 @@
 ---
 slug: predictiv-ai-completes-end-to-end-logistics-platform-for-pro
-name: Predictiv AI Completes End-to-End Logistics Platform for Prompt Xpress's National Delivery Network
+name: Predictiv AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Predictiv AI Completes End-to-End Logistics Platform for Prompt Xpress'
   TradingView
 first_seen: '2026-09-15T12:30:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Predictiv AI Completes End-to-End Logistics Platform for Prompt Xpress's National Delivery Network
+# Predictiv AI
 
 Predictiv AI Completes End-to-End Logistics Platform for Prompt Xpress's National Delivery Network TradingView
 

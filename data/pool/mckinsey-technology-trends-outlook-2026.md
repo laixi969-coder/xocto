@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxOS0wzb1RmNmZP
 summary: McKinsey Technology Trends Outlook 2026 McKinsey & Company
 first_seen: '2026-09-15T21:57:33Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

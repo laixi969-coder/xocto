@@ -549,3 +549,48 @@
     into one agent flow, cutting cross-platform repetition and scattered review, so creators running multi-platform
     or matrix accounts would choose it when they need batch output with unified review; public material
     has no user feedback confirming this motive.'
+- id: req-full-easel-2026-09-16
+  project_slug: easel
+  level: full
+  reviewed_at: '2026-09-16T00:49:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述的是社交媒体 AI 智能体，但全部公开证据指向 Inventables 的 CNC 设计软件 Easel，两者不是同一产品。没有该产品的用户任务、痛点、旧替代或不解决后果，连需求与痛点都无法写出，价值结构不成立。
+    evidence_ids:
+    - ev-0f40f89a1a92466f
+    - ev-f069fb90bf59ce74
+    - ev-c4ddddec8d6b136c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: xOcto 应追踪该社交媒体智能体项目的官方仓库或官网，确认其真实产品标识、README 与 issue/discussion 中记录的用户任务与使用场景，以排除与
+    Inventables CNC 软件 Easel 的证据混淆。
+  market: ''
+  job: 候选摘要声称内容创作者与社交媒体运营在小红书、抖音、知乎、B站发布前，用 AI 接收热点趋势、生成草稿并一键多平台发布，再回收效果反馈；但公开证据中没有任何一条来自该产品，无法确认谁在什么情况下处理什么材料、完成什么任务。
+  job_en: The candidate summary claims content creators and social media managers use AI to ingest trend
+    data, draft posts, publish across Xiaohongshu, Douyin, Zhihu and Bilibili, and learn what works; but
+    no public evidence comes from this product, so the actual user, situation, material and task cannot
+    be confirmed.
+  pain: 公开材料未记录该产品用户的任何痛点：没有用户抱怨、没有旧流程描述、没有不解决的后果。现有证据全部指向 Inventables 的 CNC 设计软件 Easel，与社交媒体内容创作无关。
+  pain_en: 'No user pain for this product is documented: no complaints, no description of the old workflow,
+    no consequence of leaving it unsolved. All available evidence points to Inventables'' CNC design software
+    Easel, unrelated to social media content creation.'
+  current_alternative: 公开材料未说明目标用户目前如何完成多平台内容创作与发布，也未说明该产品替代了什么旧做法。
+  current_alternative_en: Public materials do not show how target users currently handle multi-platform
+    content creation and publishing, nor what old approach this product replaces.
+  usage_reason: 无法从公开证据解释用户为何选择它：证据中的 Easel 是面向 CNC 机床与 X-Carve 的免费在线设计软件，用户选择它的原因是设计、预览雕刻并发送到已有 CNC 设备，与社交媒体智能体无关。
+  usage_reason_en: 'No public evidence explains why users would choose it: the Easel in the evidence is
+    free online design software for CNC machines and X-Carve, chosen to design, preview a carve and send
+    it to an existing CNC, unrelated to a social media agent.'

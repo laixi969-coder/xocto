@@ -1,21 +1,37 @@
 ---
 slug: community
-name: Community
+name: OB Toolbox
 builder: knowckx
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: Obsidian 用户在整理笔记时，遇到 Markdown 表格行列方向不对、需要手工逐格搬动的情况，会打开这个社区插件，由它把整张表格的行列互换，直接得到转置后的 Markdown
+  表格；目前只有这一项功能，其他流程与交付仍待核验。
+inspiration: 趋势是 AI 把个人开发者的插件开发周期压到小时级，笔记工具的边角功能开始被个人补齐。切入可看 Obsidian、Notion 这类笔记生态里表格、公式、批量整理等被官方长期忽略的细碎环节，以免费插件积累用户后再考虑增值或定制。
+summary_en: When Obsidian users find a Markdown table with rows and columns in the wrong orientation,
+  they open this community plugin, which swaps rows and columns and returns a transposed Markdown table;
+  only this one function is documented, and the rest of the workflow and delivery remain unverified.
+inspiration_en: The trend is that AI compresses plugin development for individual builders to hours, letting
+  solo developers fill the neglected corners of note-taking tools. The opening is in small, long-ignored
+  chores such as tables, formulas and bulk cleanup inside Obsidian or Notion ecosystems, building users
+  with a free plugin before considering paid add-ons or customization.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+industries:
+- 个人知识管理
+- 软件工具
+industries_en:
+- Personal knowledge management
+- Software tools
+jobs:
+- 笔记用户
+- 插件开发者
+jobs_en:
+- Note-taking users
+- Plugin developers
+regions:
+- 中国
+regions_en:
+- China
+open_source: true
 url: https://community.obsidian.md/plugins/ob-toolbox
 canonical_url: https://community.obsidian.md/plugins/ob-toolbox
 summary: "昨天晚上用 AI 从 0 开始 2 小时就完成了一个插件的开发，用于表格转置的插件，希望对你们有用！\r\n\r\n我不想重复写正文了，正文说明就偷懒从 blog 粘贴了过来，对这个工具有想法的可以直接评论区留言:\r\
@@ -42,7 +58,7 @@ summary: "昨天晚上用 AI 从 0 开始 2 小时就完成了一个插件的开
   \  \r\n哪里不顺手，就补哪里。\r\n\r\n最后: \r\n\r\n对程序员来说，这可能是一个让人焦虑的时代。\r\n\r\n对创造者来说，这可能又是最好的时代。"
 first_seen: '2026-09-01T04:47:57Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 - newssearch
@@ -60,7 +76,7 @@ sightings:
   kind: news
 ---
 
-# Community
+# OB Toolbox
 
 昨天晚上用 AI 从 0 开始 2 小时就完成了一个插件的开发，用于表格转置的插件，希望对你们有用！
 

@@ -21,7 +21,7 @@ canonical_url: https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-c
 summary: ''
 first_seen: '2026-09-15T09:00:42Z'
 last_seen: '2026-09-16T00:21:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

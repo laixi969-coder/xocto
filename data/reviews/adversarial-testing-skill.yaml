@@ -371,3 +371,42 @@
   usage_reason: 公开代码仓库有 43 个收藏，说明开发者注意到它；但缺少用户反馈或案例，无法解释为何会选择它而非现有安全测试方式。
   usage_reason_en: The public repository has 43 stars, showing developer attention; but without user feedback
     or cases, it cannot explain why users would choose it over existing security testing methods.
+- id: req-full-adversarial-testing-skill-2026-09-16
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-09-16T00:47:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它替代的具体测试流程、使用者反馈与交付结果。
+  market: ''
+  job: 开发者或安全测试人员在发布前，把产品源码交给一个 AI 阅读、另一个 AI 盲测攻击，要完成一轮对抗性安全测试并得到漏洞线索。
+  job_en: A developer or security tester, before release, feeds product source to one AI and has another
+    attack it blind, to run an adversarial security test and surface vulnerability leads.
+  pain: 公开材料只给出产品自述，未说明用户当前在安全测试中遇到的具体代价、发生频率或后果，痛点强度无法从公开事实确认。
+  pain_en: Public materials give only the product's own description and do not show the concrete cost,
+    frequency, or consequence users face in security testing, so pain intensity cannot be confirmed from
+    public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了哪些既有做法。
+  current_alternative_en: Public materials do not show how users complete this job today or which existing
+    practices it replaces.
+  usage_reason: 公开代码仓库有 43 个收藏，说明开发者注意到该项目，但收藏属关注度证据，不能解释用户为何选择它，也不能证明持续使用；缺少用户反馈或客户案例。
+  usage_reason_en: The public repository has 43 stars, showing developer attention, but stars are attention
+    evidence and cannot explain why users choose it or prove sustained use; user feedback or customer
+    cases are absent.

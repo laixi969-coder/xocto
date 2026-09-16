@@ -279,3 +279,56 @@
     deliverable; developers or PMs producing websites, reports, and PRs frequently would pick it for batch
     delivery. No public evidence on deliverable quality, retention, or repeat use, so the adoption motive
     remains inferred.'
+- id: req-full-useagent-2026-09-16
+  project_slug: useagent
+  level: full
+  reviewed_at: '2026-09-16T00:51:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队把整块工作交给代理并拿回成品（网站、报告、PR）的需求，痛点是现有编码助手只给片段、环境与工具串联仍需人工完成；不解决的后果是交付周期与整合成本留在用户侧。公开材料仅描述能力，痛点与采用理由属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-c4d627a7e9644a3c
+    - ev-20144b123e2d8f46
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 284 缓慢升至 307，属关注度而非采用证据；未发现用户讨论、案例或评价，无法判断是否形成使用共识，也无法归因持续使用。
+    evidence_ids:
+    - ev-c4d627a7e9644a3c
+    - ev-2427abe40109cf6f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费方式或买方类型；可推断其依赖用户自带的 Claude Code、Codex 等订阅运行，开源仓库本身不构成收入路径，谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-c4d627a7e9644a3c
+    - ev-20144b123e2d8f46
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺交回成品，但公开材料未说明交付标准、失败处理与人工介入边界，也未披露代理在云电脑上的权限与安全约束，交付确定性无法核对。
+    evidence_ids:
+    - ev-c4d627a7e9644a3c
+    - ev-20144b123e2d8f46
+  next_validation: 追踪 useagent 官方仓库与 useagent.org 的 README、issues 与 discussion，确认是否出现真实交付示例、用户反馈或部署文档，以核对成品交付的确定性与使用场景。
+  market: ''
+  job: 开发者或产品经理在需要产出网站、演示文稿、电子表格、报告或 PR 等成品时，把任务连同团队工具与上下文交给一个拥有独立云电脑的代理，由代理在云端执行并交回可用的成品文件或代码变更。
+  job_en: A developer or product manager who needs a finished website, deck, spreadsheet, report or PR
+    hands the task, along with team tools and context, to an agent with its own cloud computer, which
+    executes in the cloud and returns a usable artifact or code change.
+  pain: 公开材料只说明代理交回成品，未披露用户抱怨、失败案例或返工数据；可确认的痛点是现有编码助手只产出片段，用户仍需自行搭建运行环境、串联工具并整合成可交付成果，这一步的负担与不解决后果属于工作流结构推理。
+  pain_en: Public material only states that the agent returns finished work; no user complaints, failure
+    cases or rework data are disclosed. The identifiable pain is that existing coding assistants produce
+    fragments, leaving the user to set up a runtime, wire tools together and assemble a deliverable; this
+    burden and its consequence are inferred from workflow structure.
+  current_alternative: 使用 Claude Code、Codex、OpenCode 等编码助手生成代码片段后自行整合，或把整块工作外包给外部团队、由内部成员手工制作。
+  current_alternative_en: Using coding assistants such as Claude Code, Codex or OpenCode to generate snippets
+    and integrate them manually, or outsourcing the whole task to an external team or producing it by
+    hand internally.
+  usage_reason: 推断：相较自行拼接片段或外包，它把运行环境、团队工具与上下文预先放进代理的云电脑，用户只需提交任务并接收成品，省去搭建环境和逐段整合的步骤；因此当任务边界清晰、成品可核对（如网站、报告、PR）时，熟悉
+    Claude Code 等订阅的团队会倾向选择它。公开材料未提供用户反馈或留存证据，此因果为结构推断。
+  usage_reason_en: 'Inference: compared with stitching snippets together or outsourcing, it pre-loads
+    the runtime, team tools and context into the agent''s cloud computer, so the user only submits a task
+    and receives a finished artifact, skipping environment setup and piece-by-piece integration. Teams
+    already on Claude Code-style subscriptions would therefore choose it when the task is well-bounded
+    and the artifact is checkable (website, report, PR). No user feedback or retention evidence is publ'

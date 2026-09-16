@@ -21,7 +21,7 @@ canonical_url: https://cubespotting.com
 summary: A New Way to Learn
 first_seen: '2026-09-15T11:44:46Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/thoughts-for-mac
 summary: Capture notes from your menubar using text, images or voice
 first_seen: '2026-09-14T17:46:39Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

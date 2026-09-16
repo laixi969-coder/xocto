@@ -1,6 +1,6 @@
 ---
 slug: duke-health-and-queens-health-systems-will-be-first-to-use-g
-name: Duke Health and Queen’s Health Systems will be first to use GE HealthCare’s hospital AI
+name: GE HealthCare
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Duke Health and Queen’s Health Systems will be first to use GE Health
   Titan
 first_seen: '2026-09-15T12:00:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Duke Health and Queen’s Health Systems will be first to use GE HealthCare’s hospital AI
+# GE HealthCare
 
 Duke Health and Queen’s Health Systems will be first to use GE HealthCare’s hospital AI Stock Titan
 

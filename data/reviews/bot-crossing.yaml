@@ -414,3 +414,47 @@
     and returns world state, removing the step of building and maintaining an evaluation environment;
     developers who need quick, observable agent-behavior feedback would therefore choose it for demos
     or debugging. Public materials provide no user-stated adoption reason.'
+- id: req-full-bot-crossing-2026-09-16
+  project_slug: bot-crossing
+  level: full
+  reviewed_at: '2026-09-16T00:48:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅有一句“给 AI agent 玩的视频游戏”和仓库收藏数，无法还原具体用户任务、痛点强度、不采用代价或旧替代流程；产品能力说明不能代替痛点证据，价值结构无法成立。
+    evidence_ids:
+    - ev-083b9d287aec1de1
+    - ev-aa0bc274a76dc1ce
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bot-crossing 官方仓库的 README、issue 和 discussion，确认是否有开发者公开描述接入 agent 的具体任务、替代的旧流程以及可复现的评估结果。
+  market: ''
+  job: AI 工程师或游戏开发者在需要评估、调试或演示 LLM/agent 的决策与导航能力时，把 agent 接入 bot-crossing 这个游戏环境，让 agent 接收游戏状态并输出动作，观察其在复杂任务中的表现。
+  job_en: An AI engineer or game developer evaluating, debugging, or demoing an LLM/agent's decision-making
+    and navigation ability connects the agent to the bot-crossing game environment, lets it receive game
+    state and emit actions, and observes its performance on complex tasks.
+  pain: 公开材料只说明这是一个“给 AI agent 玩的视频游戏”，没有给出任何用户抱怨、失败案例或旧流程摩擦的公开证据；因此无法确认不采用它会带来什么具体代价。
+  pain_en: Public materials only describe it as 'a video game for AI agents' and provide no public evidence
+    of user complaints, failure cases, or friction in the old workflow; the concrete cost of not adopting
+    it cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成 agent 决策能力测试；常见旧做法可能是自建游戏或仿真环境、使用 Gymnasium 等基准、或直接在生产日志中观察，但这些替代方式均未被该项目证据证实。
+  current_alternative_en: Public materials do not show how users currently test agent decision-making;
+    common alternatives might be building a custom game/simulation, using benchmarks like Gymnasium, or
+    observing production logs, but none of these are confirmed by this project's evidence.
+  usage_reason: 推断：相较自建环境，bot-crossing 可能通过提供现成的游戏世界和动作接口，减少搭建仿真环境这一步负担，因此需要快速演示或比较 agent 表现的开发者可能选择它；但公开材料没有用户反馈或案例支持这一动机，也没有留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with building a custom environment, bot-crossing may reduce the
+    burden of setting up a simulation by providing a ready-made game world and action interface, so developers
+    needing quick demos or agent comparisons might choose it; however, public materials contain no user
+    feedback or case support for this motive, nor retention or repeat-use evidence.'

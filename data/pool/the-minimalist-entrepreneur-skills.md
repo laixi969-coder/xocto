@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/the-minimalist-entrepreneur-skil
 summary: Book playbook as Claude Code slash skills
 first_seen: '2026-09-14T01:20:09Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

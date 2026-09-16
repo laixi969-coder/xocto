@@ -21,7 +21,7 @@ canonical_url: https://farseer.space
 summary: fly anywhere in the universe in your browser
 first_seen: '2026-09-15T19:50:08Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

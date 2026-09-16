@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQQUZwVTFNMmtP
 summary: PCB涨价，只是AI抢产能的开始 21jingji.com
 first_seen: '2026-09-15T07:07:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

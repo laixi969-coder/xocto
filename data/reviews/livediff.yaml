@@ -1,0 +1,90 @@
+- id: req-initial-livediff-2026-09-16
+  project_slug: livediff
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理批量改文件时改动不可见、难回退的问题，旧做法是事后 diff 或翻日志，痛点具体且不解决的后果明确；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-5b8480ad77a3f899
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论量很小，只有少量点赞与评论，没有客户案例或团队采用证据，尚看不出是否形成共识。
+    evidence_ids:
+    - ev-5b8480ad77a3f899
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或收费方式，开源项目可能的付费路径（托管、团队版、企业支持）只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-5b8480ad77a3f899
+  - gate: truth
+    status: insufficient
+    reason: 只呈现差异、不自动回退，人工确认边界清楚；但缺少真实仓库中的使用与留存证据，交付确定性未核验。
+    evidence_ids:
+    - ev-5b8480ad77a3f899
+  next_validation: 收集 livediff 仓库的 issue、discussion 与发布记录，确认是否有开发者报告在真实仓库中持续使用并给出具体工作流反馈。
+  market: ''
+  job: 开发者在把编码代理接入真实代码仓库、让它连续改多个文件时，需要在终端里持续看到哪些文件被写入、具体差异是什么，以便决定继续、中断还是回退。
+  job_en: When a developer wires a coding agent into a real repository and lets it edit many files in
+    a row, they need to watch in the terminal which files were written and what the diffs are, in order
+    to continue, interrupt or revert.
+  pain: 代理批量改文件后，改动分散在多个文件里，事后用一次性 diff 或翻提交历史很难判断它中途做了什么、有没有越界修改，出错时定位和回退成本高。
+  pain_en: Once an agent edits many files, the changes are scattered, and a one-off diff or commit history
+    makes it hard to tell what it did mid-run or whether it went out of scope, so locating and reverting
+    mistakes is costly.
+  current_alternative: 现在多数人靠事后运行 git diff、翻 git log、在编辑器里逐个文件查看，或干脆让代理自己汇报改了什么。
+  current_alternative_en: Most people currently run git diff after the fact, scroll git log, inspect files
+    one by one in the editor, or simply trust the agent's own summary of what it changed.
+  usage_reason: 相较事后一次性 diff，livediff 在终端里持续刷新差异，把“代理正在改什么”变成实时可见的一屏，省掉反复手动执行 diff 和逐个文件翻找这一步；推断那些把代理放进真实仓库、需要随时叫停的开发者会因此选择它。
+  usage_reason_en: Compared with a one-off diff afterwards, livediff keeps refreshing the diff in the
+    terminal, turning 'what the agent is changing right now' into a live view and removing the repeated
+    manual diff runs and file-by-file hunting; by inference, developers running agents against real repositories
+    who need to stop them at any moment would pick it for that.
+- id: req-full-livediff-2026-09-16
+  project_slug: livediff
+  level: full
+  reviewed_at: '2026-09-16T00:50:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理批量改文件时改动不可见、难回退的问题，旧做法是事后 diff 或翻日志，痛点具体且不解决的后果明确；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-5b8480ad77a3f899
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论量很小，只有少量点赞与评论，没有客户案例或团队采用证据，尚看不出是否形成共识。
+    evidence_ids:
+    - ev-5b8480ad77a3f899
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或收费方式，开源项目可能的付费路径（托管、团队版、企业支持）只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-5b8480ad77a3f899
+  - gate: truth
+    status: insufficient
+    reason: 只呈现差异、不自动回退，人工确认边界清楚；但缺少真实仓库中的使用与留存证据，交付确定性未核验。
+    evidence_ids:
+    - ev-5b8480ad77a3f899
+  next_validation: 收集 livediff 仓库的 issue、discussion 与发布记录，确认是否有开发者报告在真实仓库中持续使用并给出具体工作流反馈。
+  market: ''
+  job: 开发者在把编码代理接入真实代码仓库、让它连续改多个文件时，需要在终端里持续看到哪些文件被写入、具体差异是什么，以便决定继续、中断还是回退。
+  job_en: When a developer wires a coding agent into a real repository and lets it edit many files in
+    a row, they need to watch in the terminal which files were written and what the diffs are, in order
+    to continue, interrupt or revert.
+  pain: 代理批量改文件后，改动分散在多个文件里，事后用一次性 diff 或翻提交历史很难判断它中途做了什么、有没有越界修改，出错时定位和回退成本高。
+  pain_en: Once an agent edits many files, the changes are scattered, and a one-off diff or commit history
+    makes it hard to tell what it did mid-run or whether it went out of scope, so locating and reverting
+    mistakes is costly.
+  current_alternative: 现在多数人靠事后运行 git diff、翻 git log、在编辑器里逐个文件查看，或干脆让代理自己汇报改了什么。
+  current_alternative_en: Most people currently run git diff after the fact, scroll git log, inspect files
+    one by one in the editor, or simply trust the agent's own summary of what it changed.
+  usage_reason: 相较事后一次性 diff，livediff 在终端里持续刷新差异，把“代理正在改什么”变成实时可见的一屏，省掉反复手动执行 diff 和逐个文件翻找这一步；推断那些把代理放进真实仓库、需要随时叫停的开发者会因此选择它。
+  usage_reason_en: Compared with a one-off diff afterwards, livediff keeps refreshing the diff in the
+    terminal, turning 'what the agent is changing right now' into a live view and removing the repeated
+    manual diff runs and file-by-file hunting; by inference, developers running agents against real repositories
+    who need to stop them at any moment would pick it for that.

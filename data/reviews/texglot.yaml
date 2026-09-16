@@ -1,0 +1,95 @@
+- id: req-initial-texglot-2026-09-16
+  project_slug: texglot
+  level: initial
+  reviewed_at: '2026-09-16T00:20:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非母语论文阅读中公式、引用与结构被翻译打乱的问题，痛点具体且旧做法要人工复原排版，结构上成立；买方是谁尚不清楚。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  - gate: consensus
+    status: insufficient
+    reason: 仅 47 星、1 个 fork，属于早期关注度，不能说明科研人群已形成持续采用。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，未见定价页或付费路径；可能靠自带 API 免费使用，也可能由高校或翻译服务采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  - gate: truth
+    status: insufficient
+    reason: 公式与引用是否在长文档中稳定对齐、人工复核边界如何，公开材料未给出可复现结果或评测。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于长论文翻译后公式与引用对齐的可复现实测记录。
+  market: ''
+  job: 科研人员或研究生在阅读非母语 arXiv 论文或接手他人 LaTeX 项目时，需要把整份 .tex 源码连同公式、引用和章节结构翻成自己熟悉的语言，并拿到可继续编辑的版本。
+  job_en: A researcher or graduate student reading a non-native-language arXiv paper or taking over someone
+    else's LaTeX project needs the whole .tex source, including equations, citations and section structure,
+    translated into a familiar language and returned in an editable form.
+  pain: 通用翻译工具会把公式、引用编号和章节结构打乱，读者要逐段对照原文手工修复，读一篇论文的额外整理成本很高。
+  pain_en: Generic translation tools scramble equations, citation numbers and section structure, forcing
+    readers to repair the text against the original by hand, which adds heavy cleanup cost to every paper.
+  current_alternative: 现在多是把 PDF 丢进通用翻译或复制段落进聊天助手，再人工对照原文修正公式与引用；也有人直接硬读英文原文。
+  current_alternative_en: Today people paste the PDF into a generic translator or copy paragraphs into
+    a chat assistant and then manually fix formulas and citations against the original, or simply read
+    the English text directly.
+  usage_reason: 相较通用翻译后手工修复，texglot 直接处理 .tex 源码并保留公式、引用与结构，把最耗时的排版复原一步省掉，因此经常读非母语论文、又需要可编辑源码的研究者会在整篇精读或接手项目时选择它；这是基于产品能力的推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with fixing a generic translation by hand, texglot works directly on the .tex
+    source and preserves equations, citations and structure, removing the most time-consuming reformatting
+    step, so researchers who regularly read non-native-language papers and need editable source would
+    choose it for close reading or taking over a project; this is an inference from product capability,
+    with no user feedback or retention evidence yet.
+- id: req-full-texglot-2026-09-16
+  project_slug: texglot
+  level: full
+  reviewed_at: '2026-09-16T00:51:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非母语论文精读中公式、引用与章节结构被翻译打乱的需求，痛点是旧做法必须逐段对照原文手工复原排版，不解决就要为每篇论文额外付出整理成本；交付物是可编辑源码与译文 PDF，结构上成立，属工作流推理，买方是谁尚不清楚。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 47 星，属早期关注度，公开材料没有用户评价、issue 讨论或重复使用记录，无法说明科研人群已把它留在日常阅读流程里。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，用户自带 LLM API，未见定价页或付费路径；可能靠免费开源使用，也可能由高校、实验室或翻译服务采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  - gate: truth
+    status: insufficient
+    reason: 长论文中公式与引用能否稳定对齐、人工复核边界如何，公开材料未给出可复现结果或评测，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  next_validation: 追踪该仓库 README、issue 或 discussion 中关于长论文翻译后公式与引用对齐的可复现实测记录与用户反馈。
+  market: ''
+  job: 科研人员或研究生在精读非母语 arXiv 论文、或接手他人 LaTeX 项目时，把整份 .tex 源码连同公式、引用编号和章节结构交给 texglot，用自带 LLM API 翻译，拿到可继续编辑的译文源码与
+    PDF。
+  job_en: A researcher or graduate student doing a close read of a non-native-language arXiv paper, or
+    taking over someone else's LaTeX project, hands the whole .tex source with equations, citation numbers
+    and section structure to texglot, translates it with their own LLM API, and gets back editable translated
+    source and a PDF.
+  pain: 通用翻译工具处理 PDF 或段落时会打乱公式、引用编号和章节结构，读者必须逐段对照原文手工复原排版，每读一篇论文都要额外付出大量整理成本。
+  pain_en: Generic translators working on PDFs or paragraphs scramble equations, citation numbers and
+    section structure, so readers must rebuild the layout by hand against the original, adding heavy cleanup
+    cost to every paper they read.
+  current_alternative: 现在多是把 PDF 丢进通用翻译、把段落复制进聊天助手，再人工对照原文修正公式与引用；也有人直接硬读英文原文。
+  current_alternative_en: Today people paste the PDF into a generic translator or copy paragraphs into
+    a chat assistant and then manually fix formulas and citations against the original, or simply read
+    the English text directly.
+  usage_reason: 相较通用翻译后手工复原排版，texglot 直接以 .tex 源码为输入、按文档结构逐段调用用户自己的 LLM API，把公式、引用与章节结构保留在可编辑源码里，省掉最耗时的排版复原一步，因此经常精读非母语论文、又需要可编辑源码的研究者会在整篇翻译或接手项目时选择它；这是基于产品能力与任务结构的推断，尚无用户反馈或留存证据。
+  usage_reason_en: 'Compared with manually rebuilding a generic translation, texglot takes the .tex source
+    directly and translates it segment by segment through the user''s own LLM API while keeping equations,
+    citations and section structure in editable source, removing the most time-consuming reformatting
+    step, so researchers who regularly close-read non-native-language papers and need editable source
+    would choose it for full-paper translation or taking over a project; this is an inference from '

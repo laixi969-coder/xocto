@@ -284,3 +284,50 @@
     with rollover tools, durable notes and history recovery so developers need not restate settled decisions
     and file state when the window rolls over; Pi users in long sessions would therefore adopt it as context
     nears its limit.'
+- id: req-full-pi-posthorse-2026-09-16
+  project_slug: pi-posthorse
+  level: full
+  reviewed_at: '2026-09-16T00:50:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中 AI 编码代理上下文丢失、需反复重述需求的问题，痛点刚性来自长任务被迫中断；公开仓库说明其以无摘要窗口、滚动工具、持久笔记与历史恢复交付，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-0375a1d143d9fa84
+    - ev-4ee758801247a6ce
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 230 缓慢升至 244，说明有开发者关注该分支，但无 issue、discussion 或评价证明目标用户已把它留在日常编码工作流中，持续采用尚未核验。
+    evidence_ids:
+    - ev-0375a1d143d9fa84
+    - ev-4ee758801247a6ce
+  - gate: model
+    status: insufficient
+    reason: 这是开源扩展，公开材料未见定价页、赞助、商业授权或企业采购路径，钱可能来自 to C 开发者捐赠或 to B 支持，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0375a1d143d9fa84
+  - gate: truth
+    status: insufficient
+    reason: 无摘要上下文窗口能否在真实长会话中稳定交付、滚动与历史恢复的边界及人工干预点，公开仓库描述未给出可复现验证或失败案例。
+    evidence_ids:
+    - ev-0375a1d143d9fa84
+  next_validation: 追踪 公开代码仓库.com/fitchmultz/pi-posthorse 的 issue 与 discussion，确认开发者是否报告在真实长会话中替代摘要压缩并持续使用。
+  market: ''
+  job: 使用 fitchmultz/pi 分支的 AI 编码代理开发者，在长时间多轮编码会话中处理代码库、对话历史与任务笔记，需要让代理在上下文窗口滚动后仍保留任务连续性并恢复历史。
+  job_en: Developers running the fitchmultz/pi fork of the Pi coding agent who, across long multi-turn
+    coding sessions, handle a codebase, conversation history and task notes, and need the agent to keep
+    task continuity and recover history after context-window rollover.
+  pain: AI 编码代理在长会话中上下文窗口耗尽后，通常靠摘要压缩历史，导致早期决策、约束和未完成事项丢失，开发者需反复重述需求或重开会话，长任务被迫中断。
+  pain_en: When an AI coding agent's context window fills in a long session, history is usually compressed
+    into summaries, so earlier decisions, constraints and open items are lost; developers must restate
+    requirements or restart sessions, breaking long tasks.
+  current_alternative: 现有做法是依赖代理自带的摘要式上下文压缩、手动重述需求、把关键信息复制到外部笔记，或直接开新会话重来。
+  current_alternative_en: Today users rely on the agent's built-in summary-based context compression,
+    manually restate requirements, copy key facts into external notes, or simply start a fresh session.
+  usage_reason: 推断：相较摘要压缩会丢失细节，该扩展以原生无摘要上下文窗口配合滚动工具、持久笔记和历史恢复，把“重述需求、重建上下文”这一步交给工具自动完成，因此长会话开发者会在上下文即将溢出时选择它。
+  usage_reason_en: 'Inference: unlike lossy summary compression, this extension pairs native no-summary
+    context windows with rollover tools, durable notes and history recovery, offloading the ''restate
+    and rebuild context'' step to the tool, so long-session developers would adopt it as the window nears
+    overflow.'

@@ -1,6 +1,6 @@
 ---
 slug: einride-and-lidl-deploy-germanys-first-driverless-cab-less-t
-name: Einride and Lidl deploy Germany’s first driverless cab-less truck on public roads
+name: Einride
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Cab-less trucking company Einride and German food retailer Lidl – a c
   on...
 first_seen: '2026-09-15T11:29:03Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Einride and Lidl deploy Germany’s first driverless cab-less truck on public roads
+# Einride
 
 Cab-less trucking company Einride and German food retailer Lidl – a company of Schwarz Group –- today announced the deployment of the first cab-less SAE Level 4 autonomous truck in daily operations on...
 

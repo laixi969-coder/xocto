@@ -21,7 +21,7 @@ canonical_url: https://raw.githubusercontent.com/kbr-/math-research/3979e0cc0a75
 summary: I solved a 12yr math problem using AI (formalized; awaiting review) [pdf]
 first_seen: '2026-09-15T19:24:06Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

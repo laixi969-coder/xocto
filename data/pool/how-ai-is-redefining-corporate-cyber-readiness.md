@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/ai-redefining-corporate-cyber-readines
 summary: ''
 first_seen: '2026-09-15T09:03:42Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

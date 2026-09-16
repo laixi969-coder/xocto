@@ -21,7 +21,7 @@ canonical_url: https://404media.co/theres-a-100-chance-ai-agents-are-already-rui
 summary: There's a 100% Chance AI Agents Are Ruining the Internet
 first_seen: '2026-09-15T16:38:45Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

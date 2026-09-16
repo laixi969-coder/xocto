@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxNemF2TXU1NGNs
 summary: 工业富联AI扩张的双刃剑 毛利改善与资金占用 新浪财经
 first_seen: '2026-09-15T10:26:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

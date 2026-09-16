@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/489260.html
 summary: 刘慈欣督战
 first_seen: '2026-09-15T07:48:48Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

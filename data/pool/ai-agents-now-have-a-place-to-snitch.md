@@ -22,7 +22,7 @@ summary: The AI Contact Hotline is designed to be a discreet place where agents 
   can tip off authorities.
 first_seen: '2026-09-15T17:42:59Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -85,3 +85,48 @@
     skills and scripts to auto-file new notes under fixed rules, removing the periodic manual archiving
     step; note-heavy consultants and researchers would rely on it before writing proposals. No public
     evidence of sustained use or retention is given.'
+- id: req-full-second-brain-os-2026-09-16
+  project_slug: second-brain-os
+  level: full
+  reviewed_at: '2026-09-16T00:51:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决笔记库长期无人整理、检索失效的问题，痛点在于手动归档一旦停下材料就找不到，不整理的后果是写方案时重复劳动；Claude Code 与 Obsidian 的 agent 技能加脚本可把归类动作自动化，交付闭环结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 59 至 61 星关注度，但无用户评价、案例或讨论，无法判断知识工作者是否真把整理这一步交给 agent；关注度只说明有人看见，不证明持续采用。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+    - ev-2b906d3d79afa693
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式与买方，是自用配置还是可交付服务不明；谁付钱只能推断为 to C 个人知识工作者或 to B 团队，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: truth
+    status: insufficient
+    reason: 自动归类是否贴近知识复用的第一性目标、错误归类由谁纠正、人工确认边界在哪，公开材料均未说明，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  next_validation: 追踪该仓库的 issue 与 discussion，确认自动归类规则、人工确认环节以及是否有用户报告长期使用。
+  market: ''
+  job: 咨询顾问、独立研究者在 Obsidian 里积累了大量散乱笔记与资料，需要在写方案或做研究前，把新笔记持续归入可检索、可复用的知识库。
+  job_en: Consulting advisors and independent researchers with large Obsidian vaults need to keep new
+    notes filed into a searchable, reusable knowledge base before writing proposals or doing research.
+  pain: 笔记越积越多，归类靠人定期手动做，一旦停下就变成无法检索的堆积；不整理的后果是写方案时找不到已有材料，重复劳动。
+  pain_en: Notes pile up and filing depends on periodic manual effort; once it stops the vault becomes
+    an unsearchable pile, and existing material cannot be found when writing a proposal, causing duplicated
+    work.
+  current_alternative: 手动打标签、建文件夹，或放弃结构只靠 Obsidian 全文搜索。
+  current_alternative_en: Manual tags and folders, or abandoning structure and relying on Obsidian full-text
+    search.
+  usage_reason: 推断：相较手动整理，该套件用 agent skills 与脚本按既定规则自动归类新笔记，省掉定期手动归档这一步，因此笔记量大、又不想放弃结构的研究者会在持续记笔记时选择它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: versus manual filing, the kit uses agent skills and scripts to auto-file
+    new notes under fixed rules, removing the periodic manual archiving step, so note-heavy researchers
+    who still want structure would choose it while continuously taking notes. No retention or repeat-use
+    evidence is public.'

@@ -1,0 +1,87 @@
+- id: req-initial-anthropologic-2026-09-16
+  project_slug: anthropologic
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决消费者研究这件事，但公开材料只有一句定位，说不清替代哪一步旧工作、不做的后果是什么，价值结构无法成立。
+    evidence_ids:
+    - ev-e4c6bbf21b1b69c0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有任何用户评价、客户案例或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-e4c6bbf21b1b69c0
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，材料未披露买方、定价或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-e4c6bbf21b1b69c0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对它是否贴近消费者研究的第一性目标，也无法判断交付是否确定。
+    evidence_ids:
+    - ev-e4c6bbf21b1b69c0
+  next_validation: 收集 Anthropologic 官方产品页或文档，确认它接收的输入类型、执行的分析步骤与交付物形式，以及是否公布定价。
+  market: ''
+  job: 品牌方或研究团队在需要了解某类消费者真实想法时，处理原本来自访谈、问卷和焦点小组的消费者材料，要产出一份可用的消费者研究结论。
+  job_en: A brand or research team that needs to understand what a consumer group really thinks works
+    with material originally gathered from interviews, surveys and focus groups, and must produce a usable
+    consumer research conclusion.
+  pain: 公开材料只给出“零距离消费者研究平台”一句定位，没有说明用户原来卡在哪一步、不解决会有什么后果，痛点无法从现有事实还原。
+  pain_en: Public material gives only the one-line positioning of a "zero distance consumer research platform"
+    and does not say which step users were stuck on or what happens if it is not solved, so the pain cannot
+    be reconstructed from available facts.
+  current_alternative: 按常理是委托传统市场研究公司做访谈、问卷和焦点小组，再由分析师写报告；这是从品类推断，不是材料中披露的事实。
+  current_alternative_en: Conventionally, brands commission traditional market research firms for interviews,
+    surveys and focus groups, then analysts write the report; this is inferred from the category, not
+    stated in the material.
+  usage_reason: 无法判断。材料没有说明它接收什么输入、替代访谈还是替代分析、交付什么结果，因此无法解释用户为何会在旧做法之外选择它；缺少的正是产品动作与交付这一环。
+  usage_reason_en: Cannot be judged. The material does not say what it ingests, whether it replaces interviewing
+    or analysis, or what it delivers, so there is no basis to explain why a user would choose it over
+    the old approach; the missing link is exactly the product action and deliverable.
+- id: req-full-anthropologic-2026-09-16
+  project_slug: anthropologic
+  level: full
+  reviewed_at: '2026-09-16T00:48:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决消费者研究这件事，但公开材料只有一句定位，说不清替代哪一步旧工作、不做的后果是什么，价值结构无法成立。
+    evidence_ids:
+    - ev-e4c6bbf21b1b69c0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Anthropologic 官方产品页或文档，确认它接收的输入类型、执行的分析步骤与交付物形式，以及是否公布定价。
+  market: ''
+  job: 品牌方或研究团队在需要了解某类消费者真实想法时，处理原本来自访谈、问卷和焦点小组的消费者材料，要产出一份可用的消费者研究结论。
+  job_en: A brand or research team that needs to understand what a consumer group really thinks works
+    with material originally gathered from interviews, surveys and focus groups, and must produce a usable
+    consumer research conclusion.
+  pain: 公开材料只有“零距离消费者研究平台”一句定位，没有说明用户原来卡在哪一步、不解决会有什么后果，痛点无法从现有事实还原。
+  pain_en: Public material gives only the one-line positioning of a "zero distance consumer research platform"
+    and does not say which step users were stuck on or what happens if it is not solved, so the pain cannot
+    be reconstructed from available facts.
+  current_alternative: 按常理是委托传统市场研究公司做访谈、问卷和焦点小组，再由分析师写报告；这是从品类推断，不是材料中披露的事实。
+  current_alternative_en: Conventionally, brands commission traditional market research firms for interviews,
+    surveys and focus groups, then analysts write the report; this is inferred from the category, not
+    stated in the material.
+  usage_reason: 无法判断。材料没有说明它接收什么输入、替代访谈还是替代分析、交付什么结果，因此无法解释用户为何会在旧做法之外选择它；缺少的正是产品动作与交付这一环。
+  usage_reason_en: Cannot be judged. The material does not say what it ingests, whether it replaces interviewing
+    or analysis, or what it delivers, so there is no basis to explain why a user would choose it over
+    the old approach; the missing link is exactly the product action and deliverable.

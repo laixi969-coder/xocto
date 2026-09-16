@@ -76,3 +76,52 @@
   usage_reason: 提供跨公共注册表的联邦检索、动态工具接口提取以及评测基准 ARD-Bench。
   usage_reason_en: Provides federated search across public registries, live tool endpoint verification,
     and the ARD-Bench benchmark.
+- id: req-full-agentic-resource-discovery-2026-09-16
+  project_slug: agentic-resource-discovery
+  level: full
+  reviewed_at: '2026-09-16T00:48:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体运行时跨注册表发现并校验可调用 MCP 工具的需求，痛点是工具分散、接口结构不一导致人工核对成本高；公开材料只描述智能体自主用工具，未给用户抱怨，故为工作流结构推理，交付闭环明确。
+    evidence_ids:
+    - ev-412ed572c1c521b6
+    - ev-a55e09f2ada9fa6a
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据仅泛述智能体可自主规划与使用工具，未出现开发者对该索引的采用、集成或讨论记录，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-9f1204f8f207bed5
+    - ev-f6dd0a36ade4a532
+  - gate: model
+    status: insufficient
+    reason: 证据中没有定价页、商业授权或托管 API 说明，买方可能是 Agent 平台或企业开发者，但公开材料未披露任何付费路径，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0443ef4836d619d2
+    - ev-ee11c889dbc5d0b3
+  - gate: truth
+    status: insufficient
+    reason: 读取 MCP 服务端 tools/list 与混合检索在结构上可复现，但公开证据未提供 ARD-Bench 结果、端点校验准确率或安全边界说明，交付确定性尚缺可核对材料。
+    evidence_ids:
+    - ev-0a4bdbf4edadccb4
+    - ev-53e0b5bcf47c2e1e
+  next_validation: 追踪该 ARD 索引官方仓库或文档中公开的 ARD-Bench 评测结果与 MCP tools/list 校验准确率说明。
+  market: ''
+  job: AI 工程师或后端开发者在构建多工具智能体系统时，需要按功能描述跨公开 ARD 注册表与各 MCP 服务端检索可调用工具，拿到经校验的端点与工具清单，供 Agent 运行时动态调度。
+  job_en: AI engineers and backend developers building multi-tool agent systems need to search public
+    ARD registries and MCP servers by capability description, then obtain verified endpoints and tool
+    lists for runtime dispatch.
+  pain: 公开材料仅说明智能体需自主使用工具并采取行动，未提供工具散落、接口不一致或人工硬编码连接的具体用户抱怨；痛点由工作流结构推理得出：工具分散在多个注册表、各服务端 tools/list 结构不一，人工逐个核对成本高且易失效。
+  pain_en: 'Public sources only describe agents using tools autonomously; no user complaint about scattered
+    tools or inconsistent interfaces is documented. The pain is inferred from workflow structure: tools
+    spread across registries with varying tools/list schemas make manual verification costly and brittle.'
+  current_alternative: 推断：开发者手动查阅各注册表文档，把固定 MCP 服务器端点写死在代码里，工具变更后需人工重新核对。
+  current_alternative_en: 'Inferred: developers manually read registry docs and hardcode fixed MCP server
+    endpoints, re-checking by hand when tools change.'
+  usage_reason: 推断：相较手工查文档写死端点，它把跨注册表检索与读取各服务端 tools/list 的校验合并为一次调用，省去逐个核对接口结构这一步，因此需要频繁接入新工具的多工具 Agent
+    开发者会在工具集变动时选择它。
+  usage_reason_en: 'Inferred: versus manually reading docs and hardcoding endpoints, it merges cross-registry
+    search and tools/list verification into one call, removing the per-server schema check, so multi-tool
+    agent developers who frequently add tools would choose it when their toolset changes.'

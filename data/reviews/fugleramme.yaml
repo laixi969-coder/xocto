@@ -1,0 +1,93 @@
+- id: req-initial-fugleramme-2026-09-16
+  project_slug: fugleramme
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是想知道附近鸟种却要自己辨认、查图鉴的问题，痛点反复出现且旧行为明确；不采用只是错过观察，刚性中等。
+    evidence_ids:
+    - ev-204f086addc574b9
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论热度较高，但只有一次曝光，缺少持续使用或复购证据，无法判断是否留在日常场景中。
+    evidence_ids:
+    - ev-204f086addc574b9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；硬件成本与内容订阅是否成立属推断，不是已验证事实。
+    evidence_ids:
+    - ev-204f086addc574b9
+  - gate: truth
+    status: insufficient
+    reason: 识别准确率、误识别后的处理以及长期运行的稳定性均未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-204f086addc574b9
+  next_validation: 收集该开源仓库的 issue 与讨论，核对鸟种识别准确率、误识别处理方式和长期运行反馈。
+  market: ''
+  job: 自然爱好者或家庭用户在阳台、庭院等户外场景中，把持续采集的鸟鸣音频交给设备识别，最终得到一幅可长期展示的鸟类插画，无需自己录音、查图鉴和绘制。
+  job_en: Nature hobbyists or households in a garden or balcony setting feed continuously captured birdsong
+    audio to the device and end up with a long-display bird illustration, without recording, looking up
+    field guides or drawing themselves.
+  pain: 想知道附近来了什么鸟，通常要凭记忆辨认叫声、事后翻图鉴或录音回听，过程零散且容易放弃；不解决就只是错过观察，代价不高但反复发生。
+  pain_en: Wanting to know which bird is nearby usually means identifying calls from memory, checking
+    a field guide afterwards or replaying recordings; the process is fragmented and easily abandoned.
+    Not solving it only means missed observations, a low but recurring cost.
+  current_alternative: 用手机录音后回听、查图鉴或观鸟 App，或干脆不记录；也有人用摄像头和喂鸟器观察，但都需要主动操作。
+  current_alternative_en: Recording on a phone and replaying it, checking field guides or birding apps,
+    or simply not recording; some use cameras and bird feeders, but all require active effort.
+  usage_reason: 相较录音回听再查图鉴，它把识别和出图合并成一次自动动作，用户只需挂上相框，省掉辨认与查找这一步，因此适合愿意为家居陈列和自然兴趣付费、又不想主动记录的人群；这是基于产品能力的推断，尚无用户反馈支持。
+  usage_reason_en: 'Compared with replaying recordings and checking guides, it merges identification and
+    rendering into one automatic action: the user only hangs the frame, skipping the identification and
+    lookup step. This suits people willing to pay for home display and nature interest who do not want
+    to log observations; this is inference from product capability, not user feedback.'
+- id: req-full-fugleramme-2026-09-16
+  project_slug: fugleramme
+  level: full
+  reviewed_at: '2026-09-16T00:49:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是想知道附近鸟种却要自己辨认、查图鉴的问题，痛点反复出现且旧行为明确；不采用只是错过观察，刚性中等。
+    evidence_ids:
+    - ev-da9e5b4ef1ba5af9
+    - ev-c4657f14dd1a9b50
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论热度较高，但只有一次曝光，缺少持续使用或复购证据，无法判断是否留在日常场景中。
+    evidence_ids:
+    - ev-da9e5b4ef1ba5af9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；硬件成本与内容订阅是否成立属推断，不是已验证事实。
+    evidence_ids:
+    - ev-a570a24904b90127
+  - gate: truth
+    status: insufficient
+    reason: 识别准确率、误识别后的处理以及长期运行的稳定性均未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-a2cdb73db4136ef4
+  next_validation: 收集该开源仓库的 issue 与讨论，核对鸟种识别准确率、误识别处理方式和长期运行反馈。
+  market: ''
+  job: 自然爱好者或家庭用户在自家厨房窗、阳台或庭院挂上电子墨水相框，设备持续采集环境鸟鸣音频，识别出鸟种后自动生成一幅19世纪手绘风格的鸟类插画并长期显示，用户无需自己录音、查图鉴或作画。
+  job_en: Nature hobbyists or households hang an e-ink frame by a kitchen window, balcony or garden; the
+    device continuously captures ambient birdsong, identifies the species and automatically renders a
+    19th-century hand-cut bird illustration for long-term display, with no need to record, consult field
+    guides or draw.
+  pain: 想知道窗外来了什么鸟，通常要凭记忆辨认叫声、事后翻图鉴或回听录音，过程零散且容易放弃；不解决只是错过观察，代价不高但反复发生，属于低强度但持续的自然兴趣痛点。
+  pain_en: Wanting to know which bird is outside usually means identifying calls from memory, checking
+    a field guide afterwards or replaying recordings; the process is fragmented and easily abandoned.
+    Not solving it only means missed observations, a low but recurring cost tied to a persistent nature
+    interest.
+  current_alternative: 用手机录音后回听、查图鉴或观鸟 App，或干脆不记录；也有人用摄像头和喂鸟器观察，但都需要主动操作。
+  current_alternative_en: Recording on a phone and replaying it, checking field guides or birding apps,
+    or simply not recording; some use cameras and bird feeders, but all require active effort.
+  usage_reason: 相较录音回听再查图鉴，它把识别与出图合并为一次自动动作，用户只需挂上相框，省掉辨认与查找这一步，因此适合愿意为家居陈列和自然兴趣付费、又不想主动记录的人群；这是基于产品能力的推断，尚无用户反馈支持。
+  usage_reason_en: 'Compared with replaying recordings and checking guides, it merges identification and
+    rendering into one automatic action: the user only hangs the frame, skipping the identification and
+    lookup step. This suits people willing to pay for home display and nature interest who do not want
+    to log observations; this is inference from product capability, not user feedback.'

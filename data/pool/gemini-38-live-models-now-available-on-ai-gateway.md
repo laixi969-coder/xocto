@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/gemini-3-8-live-models-now-available
 summary: ''
 first_seen: '2026-09-15T00:00:00Z'
 last_seen: '2026-09-16T00:21:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

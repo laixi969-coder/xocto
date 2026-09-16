@@ -252,3 +252,46 @@
     and producing an answerable twin into one submission, and being open-source and inspectable lets users
     audit the twin''s basis, so experts who care about verifiable, transferable know-how would choose
     it when they need to reuse judgment externally.'
+- id: req-full-agent-me-2026-09-16
+  project_slug: agent-me
+  level: full
+  reviewed_at: '2026-09-16T00:47:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它要解决的是个人经验沉淀为可应答分身，但公开材料只有一句定位描述，没有用户抱怨、案例或旧流程细节，无法说明不做的具体代价与频率；从结构看知识流失确实存在，但“做成分身”更像自嗨拼凑，缺少刚性痛点支撑。
+    evidence_ids:
+    - ev-358c4103ac43a447
+    - ev-3d73d54d83479403
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 README、issue 与 discussion，确认是否有真实用户描述部署场景、替代的旧流程与使用反馈。
+  market: ''
+  job: 个人专家（顾问、资深工程师、研究者）在积累多年判断与经验后，希望把散落在笔记、聊天记录和口头决策中的知识整理成一个可被他人查询、以本人视角应答的代理分身，用于对外答疑或传承。
+  job_en: An individual expert (consultant, senior engineer, researcher) who has accumulated years of
+    judgment wants to consolidate know-how scattered across notes, chats and verbal decisions into a queryable
+    agent twin that answers in their own voice, for external Q&A or handover.
+  pain: 公开材料只给出产品定位句，没有用户抱怨、访谈或案例说明不沉淀会造成什么具体损失；从工作流看，知识确实会随人流失，但“必须做成可应答分身”这一刚性未被任何公开事实支持。
+  pain_en: Public material offers only a positioning sentence; no user complaint, interview or case shows
+    what is concretely lost by not distilling. Structurally knowledge does leave with the person, but
+    the rigidity of 'must become an answering twin' is unsupported by any public fact.
+  current_alternative: 公开材料未说明现有替代方式；可观察到的旧做法是写文档、录课程、做知识库或直接由本人答疑，但这些替代在证据里均未被提及或对比。
+  current_alternative_en: Public material does not describe current alternatives; the observable old ways
+    are writing docs, recording courses, building a knowledge base, or simply answering in person, none
+    of which are mentioned or compared in the evidence.
+  usage_reason: 推断：若用户选择它，理由可能是分身可被他人随时查询、减少本人重复答疑；但公开证据只有一句产品描述与仓库收藏数增长，没有任何用户反馈或案例说明这一因果，因此无法确认用户会因此采用。
+  usage_reason_en: 'Inference: a user might choose it because a twin can be queried anytime, cutting the
+    expert''s repeated answering; but the public evidence is only one product sentence plus rising repo
+    stars, with no user feedback or case confirming this causal link, so adoption cannot be established.'

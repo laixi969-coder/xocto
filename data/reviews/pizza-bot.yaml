@@ -1,0 +1,83 @@
+- id: req-initial-pizza-bot-2026-09-16
+  project_slug: pizza-bot
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决后台 agent 结果无处汇总的问题，但材料未给出任何痛点、旧流程或不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-35c5bb975f6f8952
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 24 点与 9 条评论的社区讨论，属于关注度信号，不能说明持续采用或强场景。
+    evidence_ids:
+    - ev-35c5bb975f6f8952
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-35c5bb975f6f8952
+  - gate: truth
+    status: insufficient
+    reason: 无法确认交付是否确定发生，也看不到人工确认与安全边界的设计。
+    evidence_ids:
+    - ev-35c5bb975f6f8952
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它接收什么输入、产出什么交付以及是否有人实际接入使用。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，只能推断为运行多个后台 AI agent 的开发者或运营人员，需要集中查看 agent 产出的结果并决定是否采纳。
+  job_en: Public material does not name the user or scenario; it can only be inferred that developers
+    or operators running several background AI agents need one place to review agent output and decide
+    whether to accept it.
+  pain: 材料未给出任何用户痛点、抱怨或替代行为的描述，无法确认后台 agent 结果分散是否真的造成损失。
+  pain_en: The material gives no user pain, complaint or workaround, so it cannot be confirmed that scattered
+    agent output actually causes loss.
+  current_alternative: 公开材料未说明现有替代方式，无法判断用户此前是用日志、聊天窗口还是人工汇总来处理 agent 结果。
+  current_alternative_en: No current alternative is described, so it is unclear whether users previously
+    handled agent output via logs, chat windows or manual summaries.
+  usage_reason: 缺少可核对的功能说明与使用反馈，无法解释用户为何会选择它而不是现有做法，这一环是事实缺口而非结论。
+  usage_reason_en: With no verifiable feature description or user feedback, there is no basis to explain
+    why a user would choose it over existing practice; this is a factual gap, not a conclusion.
+- id: req-full-pizza-bot-2026-09-16
+  project_slug: pizza-bot
+  level: full
+  reviewed_at: '2026-09-16T00:50:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它自称是后台 agent 的收件箱，但公开材料未给出任何用户任务、痛点、旧流程或不采用的后果，连解决什么需求都写不出来，价值结构无法还原。
+    evidence_ids:
+    - ev-e3d0dc199e491883
+    - ev-c3259f21a90a0407
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方仓库 README、issue 与 discussion，确认它接收什么输入、产出什么交付，以及是否有开发者实际接入使用。
+  market: ''
+  job: 公开材料只给出“面向后台运行 AI agent 的收件箱”这一句定位，未说明谁在什么情况下打开它、处理哪些 agent 产出的材料、要完成什么任务，使用场景无法还原。
+  job_en: Public material offers only the positioning 'an inbox for AI agents that work in the background';
+    it does not say who opens it, under what circumstances, what agent output material they handle, or
+    what task they complete, so the job cannot be reconstructed.
+  pain: 没有任何用户抱怨、旧流程描述或不采用后果的公开证据，无法确认后台 agent 结果分散是否真的造成损失或返工。
+  pain_en: There is no public evidence of user complaints, prior workflow descriptions, or consequences
+    of non-adoption, so it cannot be confirmed that scattered background-agent output actually causes
+    loss or rework.
+  current_alternative: 公开材料未描述现有替代方式，无法判断用户此前是用日志、终端、聊天窗口还是人工汇总来处理 agent 结果。
+  current_alternative_en: No current alternative is described, so it is unclear whether users previously
+    handled agent output via logs, terminals, chat windows, or manual summaries.
+  usage_reason: 缺少可核对的功能说明与使用反馈，无法解释用户为何会选择它而非现有做法；这是事实缺口，不是结论。
+  usage_reason_en: With no verifiable feature description or user feedback, there is no basis to explain
+    why a user would choose it over existing practice; this is a factual gap, not a conclusion.

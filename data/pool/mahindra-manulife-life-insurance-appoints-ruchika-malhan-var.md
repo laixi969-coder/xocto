@@ -22,7 +22,7 @@ summary: Mahindra Manulife Life Insurance appoints Ruchika Malhan Varma as Chief
   Officer medianews4u.com
 first_seen: '2026-09-15T08:41:10Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

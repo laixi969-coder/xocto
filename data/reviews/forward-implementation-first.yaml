@@ -176,3 +176,52 @@
     into agents like Claude Code and Codex, removing the repeated burden of correcting agent drift; developers
     whose agents frequently stall on self-invented bookkeeping and who do not want to babysit every run
     would try installing it. The star count creeping from 161 to 167 indicates attention on'
+- id: req-full-forward-implementation-first-2026-09-16
+  project_slug: forward-implementation-first
+  level: full
+  reviewed_at: '2026-09-16T00:49:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理把轮次耗在自创记账、哈希、锁与认证仪式上、真实编码任务停滞的问题；痛点来自代理工作流结构而非产品功能自述，交付动作明确（先实现后验证），属工作流结构推理，尚无用户反馈量化。
+    evidence_ids:
+    - ev-bdfa44b9d097aa75
+    - ev-8d36952176abb1a8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 163 缓慢升至 169，说明有持续关注，但公开材料中没有用户评价、issue 讨论或采用案例，无法确认开发者是否把它留在日常代理工作流中。
+    evidence_ids:
+    - ev-bdfa44b9d097aa75
+    - ev-e407ea3645475430
+  - gate: model
+    status: insufficient
+    reason: 这是开源免费 skill，公开材料未见定价页、赞助、付费支持或企业采购路径；谁付钱、以何种方式付钱均无公开事实，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8d36952176abb1a8
+  - gate: truth
+    status: supported
+    reason: 它贴近编码工作的第一性目标——产出可运行代码，承诺的交付动作（跳过自创仪式、先实现后验证）可确定发生；验证后置的边界在仓库说明中已明示，未发现安全或人工边界被掩盖。
+    evidence_ids:
+    - ev-bdfa44b9d097aa75
+    - ev-584726ad8d059fb5
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion 区，收集是否有开发者报告安装后代理停滞减少、或提出具体失败场景的公开记录。
+  market: ''
+  job: 使用 Claude Code、Codex 等 AI 编码代理的开发者，在让代理执行具体编码任务时，需要代理直接产出可运行的实现，而不是把时间花在自创的收据、哈希、锁、认证仪式等自我记账步骤上。
+  job_en: Developers using AI coding agents such as Claude Code and Codex, when assigning concrete coding
+    tasks, need the agent to produce runnable implementations instead of spending its turns on self-invented
+    receipts, hashes, locks and certification rituals.
+  pain: 公开仓库说明指出代理会因自创的记账与认证仪式而停滞真实工作，导致编码任务被拖延、代理轮次被消耗在非交付动作上；这是代理工作流中的结构性摩擦，属于工作流结构推理，尚无用户反馈量化其严重程度。
+  pain_en: The public repository description states agents stall real work on self-invented bookkeeping
+    and certification rituals, delaying coding tasks and consuming agent turns on non-delivery actions;
+    this is a structural workflow inference, not yet quantified by user feedback.
+  current_alternative: 开发者目前靠手动改写提示词、反复催促代理、或在代理卡住时人工接管来绕过这些仪式；也有人直接容忍代理的低效行为。
+  current_alternative_en: Developers currently work around these rituals by manually rewriting prompts,
+    repeatedly nudging the agent, or taking over when it stalls; some simply tolerate the inefficiency.
+  usage_reason: 推断：相较手动改提示词或人工接管，该技能包以可安装的 skill 形式直接约束代理的行为顺序——先交付实现、验证后置，从而省去开发者逐轮纠偏的步骤；因此正在被代理自创仪式卡住的
+    Claude Code / Codex 用户会在遇到停滞时选择安装它。
+  usage_reason_en: 'Inference: compared with manually rewriting prompts or taking over, this skill pack
+    installs as a skill that constrains the agent''s action order—ship first, verify later—removing the
+    developer''s per-turn correction step; thus Claude Code / Codex users blocked by self-invented rituals
+    would install it when they hit a stall.'

@@ -1,6 +1,6 @@
 ---
 slug: meta-platforms拟在上半年部署新款自研arke芯片有望减少对英伟达的依赖
-name: Meta Platforms拟在上半年部署新款自研Arke芯片，有望减少对英伟达的依赖
+name: Meta Arke
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQVEyU29hRkpD
 summary: Meta Platforms拟在上半年部署新款自研Arke芯片，有望减少对英伟达的依赖 TradingKey
 first_seen: '2026-09-15T00:35:00Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Meta Platforms拟在上半年部署新款自研Arke芯片，有望减少对英伟达的依赖
+# Meta Arke
 
 Meta Platforms拟在上半年部署新款自研Arke芯片，有望减少对英伟达的依赖 TradingKey
 

@@ -27,7 +27,7 @@ summary: The Insurance Industry’s Retreat from AI Threatens to Slow Innovation
   for Strategic and International Studies
 first_seen: '2026-09-04T21:10:09Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

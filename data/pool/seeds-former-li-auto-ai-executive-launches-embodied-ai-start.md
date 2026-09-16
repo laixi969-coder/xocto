@@ -22,7 +22,7 @@ summary: Seeds | Former Li Auto AI Executive Launches Embodied AI Startup, Raise
   Gasgoo
 first_seen: '2026-09-15T06:01:21Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

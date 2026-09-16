@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNSlM3S3ppZ25l
 summary: 'Sanmina Stock: AI Rack Manufacturing Is Rewriting The Earnings Base (NASDAQ:SANM) Seeking Alpha'
 first_seen: '2026-09-15T14:14:19Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

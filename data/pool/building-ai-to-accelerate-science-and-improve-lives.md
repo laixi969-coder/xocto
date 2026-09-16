@@ -22,7 +22,7 @@ summary: The true measure of AI is who it helps. Here’s how it’s impacting l
   on key areas where advanced technology can help make extraordinary progress …
 first_seen: '2026-09-15T16:00:00Z'
 last_seen: '2026-09-16T00:21:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

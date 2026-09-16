@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/adam-smith-ai
 summary: A Smithian inquiry amidst the chaos
 first_seen: '2026-09-15T09:48:43Z'
 last_seen: '2026-09-16T00:21:06Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

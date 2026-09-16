@@ -34,7 +34,7 @@ canonical_url: https://producthunt.com/products/expertise-ai
 summary: Turn your GTM skills into recurring revenue
 first_seen: '2026-08-22T10:59:49Z'
 last_seen: '2026-09-16T00:20:36Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

@@ -1,6 +1,6 @@
 ---
 slug: profound-hits-18-billion-value-to-boost-brands-in-ai-search
-name: Profound Hits $1.8 Billion Value to Boost Brands in AI Search
+name: Profound
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPVmZXclFRajJY
 summary: Profound Hits $1.8 Billion Value to Boost Brands in AI Search Bloomberg.com
 first_seen: '2026-09-15T11:30:13Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Profound Hits $1.8 Billion Value to Boost Brands in AI Search
+# Profound
 
 Profound Hits $1.8 Billion Value to Boost Brands in AI Search Bloomberg.com
 

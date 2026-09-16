@@ -232,3 +232,53 @@
     per-run prompt rewriting step; so Hermes Agent developers who need cross-task experience reuse and
     checkable skill gating would choose it when repeating similar tasks. No public user feedback or repeat-use
     evidence exists, so long-term retention cannot be confirmed.'
+- id: req-full-wikiskill-2026-09-16
+  project_slug: wikiskill
+  level: full
+  reviewed_at: '2026-09-16T00:52:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体经验无法跨会话沉淀、同类任务反复调试的问题，公开材料明确把原始执行经验、累积知识与可执行技能分离并持续固化进 wiki；不采用的后果是每次重写提示词、技能互相干扰。这是工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-c5b0bc6d06a8f631
+    - ev-4fb14b6322a36281
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 arXiv 论文与参考实现仓库，未见用户评价、客户案例或团队采用记录，无法判断是否形成共识；公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-4fb14b6322a36281
+  - gate: model
+    status: insufficient
+    reason: 开源参考实现，公开材料未披露定价、付费方或服务方式，to C、to B 还是 to VC 路径均不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-4fb14b6322a36281
+  - gate: truth
+    status: insufficient
+    reason: 宣称忠实实现论文算法并有真实运行日志与隔离技能门控，但缺少可复现的独立评测、技能生效判定标准与安全边界说明。
+    evidence_ids:
+    - ev-9005ee6317343b22
+    - ev-4fb14b6322a36281
+  next_validation: 追踪 公开代码仓库 仓库 kenhuangus/wikiskill 的 issue 与 discussion，确认是否有团队在真实任务中重复使用并报告技能启用效果与失败案例。
+  market: ''
+  job: 使用 Hermes Agent 的开发者，在反复执行同类任务（如代码修复、检索问答）后，需要把每次运行的成功经验沉淀为可复用技能，让后续运行直接调用已有技能，而不是每次重新写提示词或重新调试。
+  job_en: Developers running Hermes Agent who, after repeatedly executing similar tasks (e.g., code fixes,
+    retrieval QA), need to consolidate each run's successful experience into reusable skills so later
+    runs call existing skills instead of rewriting prompts or re-debugging each time.
+  pain: 公开材料说明其把原始执行经验、累积知识与可执行技能分离，说明现状是经验散落在各次运行中、无法跨会话沉淀；同类任务反复调试，技能之间可能互相干扰，且技能是否生效仍需人工核对，缺少可核对的启用边界。
+  pain_en: The public material states it separates raw execution experience, accumulated knowledge, and
+    executable skills, implying experience currently scatters across runs and does not persist across
+    sessions; similar tasks are re-debugged, skills may interfere, and whether a skill takes effect still
+    needs manual checking, with no checkable gating boundary.
+  current_alternative: 手工维护提示词模板、把经验写在文档里，或依赖 Hermes Agent 框架自带的记忆模块；技能启用靠人工判断。
+  current_alternative_en: Hand-maintained prompt templates, experience kept in documents, or the memory
+    modules bundled with the Hermes Agent framework; skill activation judged manually.
+  usage_reason: 推断：相较手工维护提示词，它把每次运行结果自动写入持久知识 wiki，再据此筛选并启用技能，减少人工整理与逐次重写提示词这一步；因此需要跨任务复用经验的 Hermes Agent
+    开发者会在重复任务场景下选择它。公开材料无用户反馈或重复使用证据，长期留存无法确认。
+  usage_reason_en: 'Inference: versus hand-maintained prompts, it auto-writes each run''s outcome into
+    a persistent knowledge wiki and gates skills from it, removing the manual curation and per-run prompt
+    rewriting step; hence Hermes Agent developers needing cross-task experience reuse would choose it
+    in repeated-task settings. No public user feedback or repeat-use evidence, so long-term retention
+    is unconfirmed.'

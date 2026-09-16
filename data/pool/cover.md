@@ -3,25 +3,32 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: 开发者在把含真实客户信息的文本或字段送进第三方大模型接口前打开它，由它把原文替换成格式一致的假数据再发出，返回结果在本地还原成真实值。用户拿到的是可继续使用的真实输出，替换与还原都在本地完成，具体支持的字段类型与还原准确度仍待核验。
-inspiration: 趋势是数据合规正在从法务条款下沉到调用链路上，谁能在请求发出前完成脱敏谁就拿到企业订单。切入可以从处理个人身份信息的行业（医疗、金融、法务外包）做起，卖点是可审计的替换日志与本地还原，而不是又一个代理网关。
-summary_en: Before sending text or fields containing real customer information to a third-party LLM API,
-  a developer runs this tool to swap the originals for format-consistent fakes, then restores the real
-  values locally from the returned output. The user ends up with usable real output; substitution and
-  restoration happen locally, while the supported field types and restoration accuracy still need verification.
-inspiration_en: 'The trend is that data compliance is moving from legal terms down into the call path:
-  whoever de-identifies before the request leaves wins enterprise deals. A wedge is to start with personal-data-heavy
-  sectors such as healthcare, finance and legal outsourcing, selling auditable substitution logs and local
-  restoration rather than yet another proxy gateway.'
+summary_zh: 开发者在把真实客户数据交给外部大模型接口前打开它：代理层把姓名、账号等敏感字段替换成格式一致的假值再转发给模型，模型返回后在本机把假值还原成原文，开发者拿到的是可用的模型输出，同时原始数据没有离开本地。具体还原范围与人工确认环节仍待核验。
+inspiration: 趋势是模型调用正在被合规和隐私审查卡住，尤其是金融、医疗这类不能把原始数据外发的场景。切入可以从受监管行业的 AI 接入环节做：不做通用脱敏工具，而是绑定某一类数据（如券商客户记录、病历字段）做可逆替换加本地还原，按接入的模型调用量或按合规审计报告收费。
+summary_en: 'Before sending real customer data to an external model API, a developer routes it through
+  this proxy: sensitive fields such as names and account numbers are swapped for format-consistent fakes,
+  the model answers on the fakes, and the originals are restored locally so the usable output comes back
+  without the raw data leaving the machine. The exact restore scope and any human confirmation step still
+  need verification.'
+inspiration_en: 'The trend is that model calls are increasingly gated by compliance and privacy review,
+  especially where raw data cannot leave the building. The entry point is the AI onboarding step inside
+  regulated industries: instead of a generic redaction tool, bind to one data class (brokerage client
+  records, medical fields) with reversible substitution plus local restore, and charge by model call volume
+  or by compliance audit report.'
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
+industries:
+- 软件与信息服务
+- 金融合规
+industries_en:
+- Software & IT Services
+- Financial Compliance
 jobs:
-- 开发者在把真实客户数据交给第三方大模型接口前，需要先替换成假数据再在本地还原
+- AI 应用开发者
+- 数据合规工程师
 jobs_en:
-- Developers replacing real customer data with realistic fakes before sending it to third-party LLM APIs,
-  then restoring originals locally
+- AI Application Developer
+- Data Compliance Engineer
 regions: []
 regions_en: []
 open_source: true
@@ -30,7 +37,7 @@ canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-09-16T00:21:13Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - officialfeeds

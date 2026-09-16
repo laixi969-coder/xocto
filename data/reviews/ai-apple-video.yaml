@@ -291,3 +291,53 @@
     scripting, shots, and final cut into a single input generation, removing filming and frame-by-frame
     editing, so budget-limited sellers or marketers needing fast ad assets would choose it under deadline;
     no user feedback or case yet confirms this motive.'
+- id: req-full-ai-apple-video-2026-09-16
+  project_slug: ai-apple-video
+  level: full
+  reviewed_at: '2026-09-16T00:48:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决普通产品缺少高端调性宣传视频的需求：小卖家自拍自剪或外包成本高、周期长，不解决则投放素材质量与产出速度受限。公开说明已能还原输入素材、按苹果发布会风格生成约30秒视频的交付闭环，属工作流结构推理；仓库收藏由85增至119，但无用户痛点或效果证据。
+    evidence_ids:
+    - ev-727cfd4bcb1b0f6c
+    - ev-de8497746f37939a
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库收藏从85增至119，属关注度而非持续采用；没有用户评价、案例或复刻后实际使用记录，无法判断目标营销与电商人群是否把它留在工作流里。
+    evidence_ids:
+    - ev-727cfd4bcb1b0f6c
+    - ev-de8497746f37939a
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能，公开材料未见定价、付费路径或买方；可能靠作者影响力、后续服务或平台分成变现，但均属判断而非已验证事实，无法确认谁付钱。
+    evidence_ids:
+    - ev-727cfd4bcb1b0f6c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供生成样例、可复现部署文档或输出质量证据，无法核验30秒成片能否稳定交付，也未说明素材版权与品牌风格合规边界。
+    evidence_ids:
+    - ev-727cfd4bcb1b0f6c
+  next_validation: 追踪该 公开代码仓库 仓库的 README、示例输出与 issue/discussion，确认是否有可复现的生成样例、部署说明及用户对成片质量与使用场景的公开反馈。
+  market: ''
+  job: 电商卖家或产品营销人员在需要为普通商品制作投放素材时，把产品图片或视频素材输入该开源技能，由 Seedance 2.5 生成约30秒苹果发布会风格的高端产品视频，用于社交媒体或广告投放。
+  job_en: E-commerce sellers or product marketers who need ad creative for ordinary products input product
+    images or footage into this open-source skill, and Seedance 2.5 generates a roughly 30-second Apple-keynote-style
+    premium product video for social media or ad placement.
+  pain: 公开材料只说明它把普通产品包装成高端消费电子风格，未给出用户抱怨、制作成本或投放效果数据；从工作流看，痛点在于传统产品视频需脚本、拍摄、剪辑多环节，小卖家难以低成本产出统一高端调性的素材，这是结构推理而非用户口述。
+  pain_en: Public materials only state that it packages ordinary products in a premium consumer-electronics
+    style, with no user complaints, production-cost or ad-performance data; structurally, the pain is
+    that conventional product videos require scripting, shooting and editing, which small sellers struggle
+    to produce cheaply with a consistent premium tone. This is structural inference, not user testimony.
+  current_alternative: 公开材料未说明用户当前做法；按任务推断，替代方式是自拍自剪、外包视频团队或使用通用 AI 视频工具再手动调风格，该技能把风格模板与生成流程打包成一步。
+  current_alternative_en: Public materials do not state current practice; by task inference, alternatives
+    are self-shooting and editing, outsourcing to a video team, or using generic AI video tools and manually
+    tuning the style, while this skill bundles the style template and generation flow into one step.
+  usage_reason: 推断：相较自剪或外包，它把“写脚本—拍摄—剪辑—调色”压缩为输入素材后按苹果发布会风格直接出片，减少拍摄与后期环节；需要批量、低成本产出统一高端调性投放素材的电商卖家或营销人员会在这种情况下选择它。仓库收藏从85增至119说明有持续关注，但尚无用户反馈证明长期留存。
+  usage_reason_en: 'Inference: versus self-editing or outsourcing, it compresses script-shooting-editing-grading
+    into feeding in assets and getting an Apple-keynote-style cut, removing shooting and post-production
+    steps; e-commerce sellers or marketers needing batch, low-cost, consistently premium ad creative would
+    choose it in that situation. Stars rising from 85 to 119 show sustained attention, but no user feedback
+    yet proves long-term retention.'

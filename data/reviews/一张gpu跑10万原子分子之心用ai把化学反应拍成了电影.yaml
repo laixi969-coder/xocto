@@ -1,0 +1,89 @@
+- id: req-initial-一张gpu跑10万原子分子之心用ai把化学反应拍成了电影-2026-09-16
+  project_slug: 一张gpu跑10万原子分子之心用ai把化学反应拍成了电影
+  level: initial
+  reviewed_at: '2026-09-16T00:21:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分子模拟算力门槛高、迭代慢的需求，痛点刚性来自研发周期与成本；买方是药企或材料研发团队，公开材料未说明谁付费。
+    evidence_ids:
+    - ev-692de7762a57fc55
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有发布消息，未见客户案例、同行复现或社区讨论，共识卡在场景验证环节。
+    evidence_ids:
+    - ev-692de7762a57fc55
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，可能来自 to B 软件授权或按模拟量计费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-692de7762a57fc55
+  - gate: truth
+    status: insufficient
+    reason: 单卡 10 万原子的精度与物理可信度缺少第三方复核，人工确认边界未说明。
+    evidence_ids:
+    - ev-692de7762a57fc55
+  next_validation: 收集分子之心官方文档或论文中的精度基准与第三方复现结果，核实单卡 10 万原子模拟的误差范围。
+  market: ''
+  job: 计算化学研究员或药物发现团队在筛选候选分子、评估稳定性与反应路径时，需要处理大规模原子体系并得到可解释的模拟结果。
+  job_en: A computational chemistry researcher or drug discovery team screening candidate molecules and
+    assessing stability and reaction pathways must handle large atomic systems and obtain interpretable
+    simulation results.
+  pain: 传统分子动力学模拟对算力要求高，多卡集群排队与长时间运行拖慢迭代，小团队和实验室往往负担不起。
+  pain_en: Conventional molecular dynamics demands heavy compute; multi-GPU queueing and long runtimes
+    slow iteration, and small teams and labs often cannot afford it.
+  current_alternative: 使用经典力场或第一性原理软件在多卡集群上跑模拟，或降低体系规模、牺牲精度换取速度。
+  current_alternative_en: Running classical force-field or first-principles software on multi-GPU clusters,
+    or shrinking system size and trading accuracy for speed.
+  usage_reason: 推断：相较排队等集群，单卡处理 10 万原子把算力调度这一步从流程中移除，使小团队能在本地反复试算；是否被长期采用取决于其精度能否被实验或高精度方法复核，公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with waiting for cluster time, handling 100,000 atoms on one GPU
+    removes the compute-scheduling step and lets small teams iterate locally; long-term adoption depends
+    on whether accuracy can be checked against experiments or higher-precision methods, and no retention
+    or repeat-use evidence is public.'
+- id: req-full-一张gpu跑10万原子分子之心用ai把化学反应拍成了电影-2026-09-16
+  project_slug: 一张gpu跑10万原子分子之心用ai把化学反应拍成了电影
+  level: full
+  reviewed_at: '2026-09-16T00:52:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分子模拟算力门槛高、迭代慢的需求，痛点刚性来自研发周期与成本；公开报道称单卡可跑十万原子，但买方与付费方式未披露，属工作流结构推理。
+    evidence_ids:
+    - ev-692de7762a57fc55
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一篇发布报道，未见客户案例、同行复现或社区讨论，共识卡在场景验证环节，无法判断是否形成强使用场景。
+    evidence_ids:
+    - ev-692de7762a57fc55
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，可能来自 to B 软件授权或按模拟量计费，这是判断而非已验证事实，也未出现融资续命叙事。
+    evidence_ids:
+    - ev-692de7762a57fc55
+  - gate: truth
+    status: insufficient
+    reason: 单卡十万原子的精度与物理可信度缺少第三方复核，人工确认边界未说明，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-692de7762a57fc55
+  next_validation: 追踪分子之心官网或论文中的精度基准与第三方复现结果，核实单卡十万原子模拟的误差范围与交付形式。
+  market: ''
+  job: 计算化学研究员或药物发现团队在筛选候选分子、评估稳定性与反应路径时，需要处理十万级原子体系并得到可解释的模拟轨迹或结构结果。
+  job_en: A computational chemistry researcher or drug discovery team screening candidate molecules and
+    assessing stability and reaction pathways must handle 100k-atom systems and obtain interpretable simulation
+    trajectories or structures.
+  pain: 公开报道称传统分子模拟存在算力、精度与规模难以兼得的“不可能三角”，多卡集群排队数天到数周拖慢迭代，小团队与实验室难以负担。
+  pain_en: Public coverage describes an 'impossible triangle' among compute, accuracy and scale in molecular
+    simulation; multi-GPU queueing for days to weeks slows iteration and is hard for small teams and labs
+    to afford.
+  current_alternative: 使用经典力场或第一性原理软件在多卡集群上跑模拟，或缩小体系规模、牺牲精度换取速度。
+  current_alternative_en: Running classical force-field or first-principles software on multi-GPU clusters,
+    or shrinking system size and trading accuracy for speed.
+  usage_reason: 推断：相较排队等集群，单卡处理十万原子把算力调度这一步从流程中移除，使小团队能在本地反复试算；是否被长期采用取决于精度能否被实验或高精度方法复核，公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with waiting for cluster time, handling 100k atoms on one GPU
+    removes the compute-scheduling step and lets small teams iterate locally; long-term adoption depends
+    on whether accuracy can be checked against experiments or higher-precision methods, and no retention
+    or repeat-use evidence is public.'

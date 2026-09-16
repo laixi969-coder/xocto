@@ -1,0 +1,88 @@
+- id: req-initial-kilo-code-for-ios-and-android-2026-09-16
+  project_slug: kilo-code-for-ios-and-android
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码 agent 产出后人工确认被卡在电脑前的问题，痛点来自 agent 已进入日常开发流程这一既有事实，交付物是可合并或驳回的 PR。
+    evidence_ids:
+    - ev-f0fac9bb3b7c11ce
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布信息，没有用户反馈或采用数据，无法判断移动端审阅是否成为习惯动作。
+    evidence_ids:
+    - ev-f0fac9bb3b7c11ce
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明移动端是否单独收费、按席位还是按用量计价，买方与付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-f0fac9bb3b7c11ce
+  - gate: truth
+    status: insufficient
+    reason: 手机端审阅 PR 的准确性与安全边界未说明，小屏上误合并的风险无法核对。
+    evidence_ids:
+    - ev-f0fac9bb3b7c11ce
+  next_validation: 收集 Kilo Code 官方定价页或移动端功能文档，确认移动端审阅是否单独计费以及支持的操作范围。
+  market: ''
+  job: 软件工程师或技术负责人在通勤、值班或离开工位时，用手机处理编码 agent 已产出的代码改动，完成启动会话、查看进度和审阅 PR 的任务。
+  job_en: A software engineer or tech lead commuting, on call or away from the desk uses a phone to handle
+    code changes already produced by a coding agent, starting sessions, checking progress and reviewing
+    PRs.
+  pain: 编码 agent 产出后需要人工确认才能合并，人一旦离开电脑，确认环节就停住，改动堆积、上线被拖慢。
+  pain_en: Agent output needs human confirmation before merging; once the person leaves the computer the
+    confirmation step stalls, changes pile up and releases slip.
+  current_alternative: 旧做法是回到电脑前打开编辑器或网页端查看 diff 再合并，或干脆等第二天处理。
+  current_alternative_en: The old approach is returning to a computer, opening the editor or web UI to
+    read the diff and merge, or simply waiting until the next day.
+  usage_reason: 推断：相较必须回到电脑前审 diff，移动端把审阅动作提前到手机上完成，减少的是“等人回到工位”这一段等待，因此值班工程师和远程负责验收的人会在离开工位时选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with having to return to a computer to read diffs, the mobile
+    app moves the review action onto the phone, cutting the wait for the person to get back to the desk,
+    so on-call engineers and remote reviewers would pick it while away; no retention or repeat-use evidence
+    is public.'
+- id: req-full-kilo-code-for-ios-and-android-2026-09-16
+  project_slug: kilo-code-for-ios-and-android
+  level: full
+  reviewed_at: '2026-09-16T00:49:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码 agent 产出后人工确认被卡在电脑前的问题，痛点来自 agent 已进入日常开发流程这一既有事实，交付物是可合并或驳回的 PR。
+    evidence_ids:
+    - ev-f0fac9bb3b7c11ce
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布信息，没有用户反馈或采用数据，无法判断移动端审阅是否成为习惯动作。
+    evidence_ids:
+    - ev-f0fac9bb3b7c11ce
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明移动端是否单独收费、按席位还是按用量计价，买方与付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-f0fac9bb3b7c11ce
+  - gate: truth
+    status: insufficient
+    reason: 手机端审阅 PR 的准确性与安全边界未说明，小屏上误合并的风险无法核对。
+    evidence_ids:
+    - ev-f0fac9bb3b7c11ce
+  next_validation: 收集 Kilo Code 官方定价页或移动端功能文档，确认移动端审阅是否单独计费以及支持的操作范围。
+  market: ''
+  job: 软件工程师或技术负责人在通勤、值班或离开工位时，用手机处理编码 agent 已产出的代码改动，完成启动会话、查看进度和审阅 PR 的任务。
+  job_en: A software engineer or tech lead commuting, on call or away from the desk uses a phone to handle
+    code changes already produced by a coding agent, starting sessions, checking progress and reviewing
+    PRs.
+  pain: 编码 agent 产出后需要人工确认才能合并，人一旦离开电脑，确认环节就停住，改动堆积、上线被拖慢。
+  pain_en: Agent output needs human confirmation before merging; once the person leaves the computer the
+    confirmation step stalls, changes pile up and releases slip.
+  current_alternative: 旧做法是回到电脑前打开编辑器或网页端查看 diff 再合并，或干脆等第二天处理。
+  current_alternative_en: The old approach is returning to a computer, opening the editor or web UI to
+    read the diff and merge, or simply waiting until the next day.
+  usage_reason: 推断：相较必须回到电脑前审 diff，移动端把审阅动作提前到手机上完成，减少的是“等人回到工位”这一段等待，因此值班工程师和远程负责验收的人会在离开工位时选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with having to return to a computer to read diffs, the mobile
+    app moves the review action onto the phone, cutting the wait for the person to get back to the desk,
+    so on-call engineers and remote reviewers would pick it while away; no retention or repeat-use evidence
+    is public.'

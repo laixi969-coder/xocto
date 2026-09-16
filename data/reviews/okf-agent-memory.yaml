@@ -422,3 +422,59 @@
   usage_reason_en: 'Inference: if memory is stored as Git-native markdown and retrieved via MCP, users
     could skip restating project conventions each session; however, public materials provide no adoption,
     feedback, or case evidence to confirm which users would choose it.'
+- id: req-full-okf-agent-memory-2026-09-16
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-16T00:50:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理跨会话丢失项目上下文、需重复投喂背景与 token 的问题；公开材料显示 OKF 以纯 markdown 加 YAML frontmatter 存储知识，无需 SDK
+      即可被工程师与 LLM 直接读取，替代托管元数据服务。痛点刚性与交付闭环属工作流结构推理，尚无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-82c6aa9ce2c43146
+    - ev-967f46f0cc6b9d7d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明 OKF 是面向人类与代理的开放格式、可由人编写并由代理生成，未见开发者讨论、采用规模或持续使用证据，无法判断目标用户是否已把它留在工作流里。
+    evidence_ids:
+    - ev-3f62c192a73a70eb
+    - ev-c9be881bb20eb1bc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未出现定价、付费主体或采购记录，OKF 以开放规范形式发布，钱可能来自 to B 支持或 to VC，属判断而非已验证事实；这是模式缺口，不否定需求。
+    evidence_ids:
+    - ev-1e9569ab6a256f5c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出可复现的检索效果、token 节省数据或人工与安全边界说明，交付能否确定性发生尚缺证据；格式本身可版本化、可审计，但未验证实际运行结果。
+    evidence_ids:
+    - ev-480ea7907126dc5e
+  next_validation: 追踪 OKF 官方仓库的 issue 与 discussion，确认是否有开发者报告在真实代码库中部署该格式、替代了何种旧上下文流程及可复现的 token 或检索结果。
+  market: ''
+  job: 软件工程师在让 AI 编程代理接手一个已有代码库时，需要把项目约定、架构决策和历史上下文以代理可直接读取的形式交给代理，使代理在跨会话、跨工具时不必每次重新解释项目。
+  job_en: Software engineers handing an existing codebase to an AI coding agent need to supply project
+    conventions, architecture decisions and history in a form the agent can read directly, so the agent
+    does not need the project re-explained on every session or tool switch.
+  pain: 公开材料显示 OKF 把知识存为带 YAML frontmatter 的纯 markdown 目录，强调无需 SDK 或查询语言即可让工程师 cat、让 LLM 原样读入上下文；这对应 AI
+    代理每次会话丢失项目上下文、需要重复投喂背景、token 被重复消耗的摩擦。但公开证据未给出用户抱怨、频率或返工代价，痛点强度属工作流结构推理。
+  pain_en: Public materials show OKF stores knowledge as plain markdown with YAML frontmatter in a directory
+    hierarchy, stressing that no SDK or query language stands between reader and content, so an engineer
+    can cat a concept and an LLM can ingest it verbatim. This maps to the friction of agents losing project
+    context each session, requiring repeated re-feeding of background and repeated token spend. Public
+    evidence gives no user complaints, frequency or rework cost, so pain intensity
+  current_alternative: 旧做法是让代理每次重新扫描仓库、把上下文塞进提示词，或依赖服务方托管的元数据存储（需 SDK 或查询语言访问）；OKF 的公开说明明确把自身定位为替代 service-owned
+    metadata store 的纯文件方案。
+  current_alternative_en: The old approach is to have the agent re-scan the repo each time, paste context
+    into prompts, or rely on a service-owned metadata store accessed via SDK or query language; OKF's
+    public description explicitly positions plain files as the alternative to a service-owned metadata
+    store.
+  usage_reason: 推断：相较每次重新投喂上下文或依赖托管元数据服务，OKF 通过把记忆写成 Git 可版本化的 markdown 文件、由代理直接原样读入，省去“把项目背景重新整理成提示词”这一步，并让知识随仓库版本一起演进；因此已在用
+    AI 代理处理既有代码库、且在意上下文可审计与可迁移的工程师会在新会话或换代理时选择它。公开材料未提供用户自述动机或留存数据。
+  usage_reason_en: 'Inference: versus re-feeding context each time or depending on a hosted metadata service,
+    OKF writes memory as Git-versionable markdown that the agent ingests verbatim, removing the step of
+    re-packaging project background into prompts and letting knowledge evolve with the repo. Engineers
+    already using agents on existing codebases who care about auditable, portable context would choose
+    it on a new session or when switching agents. Public materials provide no user-stated motiva'

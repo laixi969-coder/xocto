@@ -1,0 +1,87 @@
+- id: req-initial-tangerine-2026-09-16
+  project_slug: tangerine
+  level: initial
+  reviewed_at: '2026-09-16T00:20:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地文件转换需上传的隐私与可用性问题，旧做法是在线转换站或拼装单功能工具，属工作流推理。
+    evidence_ids:
+    - ev-6a073873476519aa
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品发布页的一句定位，没有用户评价或采用数据，无法判断是否有人持续使用。
+    evidence_ids:
+    - ev-6a073873476519aa
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方是个人 Mac 用户属推断，付费路径未核验。
+    evidence_ids:
+    - ev-6a073873476519aa
+  - gate: truth
+    status: insufficient
+    reason: 支持格式、AI 参与环节与离线能力边界均未披露，无法核对交付是否确定。
+    evidence_ids:
+    - ev-6a073873476519aa
+  next_validation: 抓取 Tangerine 产品页与定价信息，核对支持的格式清单、是否含 AI 处理环节及收费方式。
+  market: ''
+  job: Mac 用户在需要转换或修改本地文件时，希望不上传文件就能完成格式转换与修改，例如处理合同、报表或设计素材。
+  job_en: A Mac user converting or modifying local files wants to finish format conversion and edits without
+    uploading the file, for example when handling contracts, statements or design assets.
+  pain: 在线转换站要求上传文件，涉及合同、财务或客户资料时存在泄露顾虑，且断网或大文件时不可用。
+  pain_en: Online converters require uploading files, which raises leak concerns for contracts, financials
+    or client data, and they fail offline or with large files.
+  current_alternative: 使用在线文件转换网站，或安装多个单功能本地工具、用系统自带功能手工处理。
+  current_alternative_en: Using online conversion sites, or installing several single-purpose local tools
+    and handling files manually with built-in system features.
+  usage_reason: 推断：它把转换动作放在本地完成，用户省掉上传与等待这一步，文件不出设备，因此处理敏感材料的 Mac 用户会在需要转换时选它。缺少留存与付费证据，无法判断是否被长期使用。
+  usage_reason_en: 'Inference: it performs conversion locally, removing the upload-and-wait step and keeping
+    files on the device, which is why Mac users handling sensitive material would pick it when a conversion
+    is needed. Retention and payment evidence is missing, so long-term use cannot be claimed.'
+- id: req-full-tangerine-2026-09-16
+  project_slug: tangerine
+  level: full
+  reviewed_at: '2026-09-16T00:51:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选仅一句「Mac 离线文件修改器」，所引三条证据分别是餐厅、柑橘词条与加拿大银行，与文件处理无关，无法还原用户任务、痛点、旧替代与不解决的后果，连需求都写不出来。
+    evidence_ids:
+    - ev-bb7305efb9868571
+    - ev-2778b1f4dc4fca9b
+    - ev-c6bdceb5a487b2b8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Tangerine 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 候选材料只给出「Mac 离线文件修改器」一句定位，无法还原具体是谁、在什么情况下、处理什么材料、要完成什么任务；证据链中的三条链接分别是餐厅、柑橘词条与加拿大银行，均与 Mac 文件处理无关。
+  job_en: The candidate material only gives the one-line positioning 'offline file modifier for Mac',
+    so it is impossible to reconstruct who, in what situation, handling what material, completes what
+    task; the three linked sources are a restaurant, a citrus encyclopedia entry and a Canadian bank,
+    none related to Mac file handling.
+  pain: 公开证据中没有出现任何 Mac 用户文件处理的痛点陈述，既无用户抱怨、也无 workaround 记录；现有证据描述的是早午餐菜单、柑橘分类和免手续费银行账户，无法支撑任何文件处理痛点。
+  pain_en: No pain statement about Mac file handling appears in the public evidence, neither user complaints
+    nor workaround records; the evidence describes brunch menus, citrus taxonomy and no-fee banking, which
+    cannot support any file-handling pain.
+  current_alternative: 无法确认。材料未披露用户此前用什么方式转换或修改本地文件，也没有在线转换站、单功能本地工具或系统自带功能的任何使用痕迹。
+  current_alternative_en: Cannot be determined. The material does not disclose how users previously converted
+    or modified local files, and shows no trace of online converters, single-purpose local tools or built-in
+    system features.
+  usage_reason: 无法给出。产品能力、支持格式、AI 参与环节与交付结果均未披露，且所引证据与该项目无关，无法解释任何用户会在什么情况下选择它；此处不构成使用理由。
+  usage_reason_en: Cannot be given. Product capability, supported formats, AI involvement and delivery
+    output are all undisclosed, and the cited evidence is unrelated to the project, so no reason any user
+    would choose it can be explained; this is not a usage reason.
