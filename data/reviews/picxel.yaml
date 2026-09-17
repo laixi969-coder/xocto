@@ -1,0 +1,43 @@
+- id: req-initial-picxel-2026-09-17
+  project_slug: picxel
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把参考图转成像素素材这一步，但公开材料未说明输出能否直接进游戏、是否可编辑，痛点强度与不采用后果无法确认。
+    evidence_ids:
+    - ev-be3ae55834a6295d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 6 点、1 条评论，没有可归因到该产品的采用或重复使用信号，无法判断是否形成共识。
+    evidence_ids:
+    - ev-be3ae55834a6295d
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或买方，开源项目可能的收入来源无法从公开材料判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-be3ae55834a6295d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成素材的授权、风格一致性与人工确认边界，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-be3ae55834a6295d
+  next_validation: 收集 Picxel 仓库的 README、示例输出与 issue/discussion，核验生成素材的格式、可编辑性与授权条款。
+  market: ''
+  job: 独立游戏开发者或像素美术在制作 2D 游戏素材时，需要把已有的参考图转成风格统一的像素风角色、道具或场景素材，用于游戏内实际使用。
+  job_en: Indie game developers or pixel artists producing 2D game assets need to convert existing reference
+    images into style-consistent pixel-art characters, props or scenes for actual in-game use.
+  pain: 像素素材需要逐张手绘或外包，风格统一和迭代成本高；但公开材料没有说明生成结果能否直接进游戏、是否可编辑、授权是否清晰，痛点强度无法从现有事实确认。
+  pain_en: Pixel assets must be hand-drawn or outsourced one by one, making style consistency and iteration
+    costly; however, public material does not say whether outputs are game-ready, editable or clearly
+    licensed, so pain intensity cannot be confirmed from available facts.
+  current_alternative: 人工像素画师绘制、素材商店购买现成像素包，或使用通用图像生成工具再手工修图。
+  current_alternative_en: Human pixel artists, buying ready-made pixel packs from asset stores, or using
+    generic image generators and then retouching by hand.
+  usage_reason: 推断：如果生成结果能直接作为可用的像素素材并保持风格一致，开发者会省去逐张手绘或反复向外包描述风格这一步；但公开材料未提供用户反馈、案例或留存证据，无法确认这一替代是否真的发生。
+  usage_reason_en: 'Inference: if outputs are directly usable pixel assets with consistent style, developers
+    would skip drawing each asset by hand or repeatedly briefing outsourced artists; but no user feedback,
+    case study or retention evidence is public, so this substitution cannot be confirmed.'

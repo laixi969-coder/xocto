@@ -3,32 +3,41 @@ slug: loom
 name: Loom
 builder: ''
 category: AI + 效率
-summary_zh: 分布式团队成员在需要跨时区沟通或汇报时打开该工具，录制屏幕操作与人像讲解；系统自动生成转录文本、章节与摘要，输出可直接分享和评论的结构化视频链接，减少同步会议时间。
-inspiration: 趋势是从实时开会转向异步结构化沟通；切入应避开通用录屏红线，转向特定垂直领域如代码评审复现或医疗质检流程的自动化证据留存。
-summary_en: Knowledge workers open Loom to capture screen walkthroughs and webcam explanations, while
-  AI generates transcripts, summaries, and action items for asynchronous team collaboration.
-inspiration_en: Shift from synchronous meetings to structured async video; new entrants should avoid general
-  recording and target vertical compliance workflows like clinical documentation or code review walkthroughs.
+summary_zh: 远程团队负责人或客户成功经理在需要向同事、客户说明一个界面问题或操作步骤时，打开 Loom 录制屏幕与摄像头，把口头讲解变成一段可分享的视频链接，对方随时点开就能看到完整演示；具体录制时长限制、协作与权限细节仍待核验。
+inspiration: 趋势：异步视频说明已经从“录屏工具”变成混合办公的默认沟通层，会议被一段链接替代。切入：不要做通用录屏，而是切进具体旧流程——客户成功团队的产品答疑、设计评审的反馈留痕、培训机构的课程片段，按“每条可交付讲解视频”或按团队席位卖给已有客户关系的行业软件服务商。
+summary_en: A remote team lead or customer success manager who needs to explain an interface problem or
+  a procedure to colleagues or clients opens Loom to record screen and camera, turning a spoken walkthrough
+  into a shareable video link that the other side can open at any time; recording limits, collaboration
+  and permission details still need verification.
+inspiration_en: 'Trend: asynchronous video explanation has moved from screen recorder to the default communication
+  layer of hybrid work, replacing a meeting with a link. Entry: avoid generic screen capture and target
+  a concrete old workflow - customer success answering product questions, design reviews keeping feedback
+  on record, training providers cutting course clips - sold per deliverable walkthrough video or per team
+  seat to software vendors that already own the customer relationship.'
 priority_review: false
-project_type: ai_transformation
+project_type: new_application
 industries:
-- 企业服务
-- 软件开发
+- 软件与互联网服务
+- 教育培训
+- 专业服务
 industries_en:
-- Enterprise Services
-- Software Development
+- Software and Internet Services
+- Education and Training
+- Professional Services
 jobs:
-- 产品经理
-- 软件工程师
+- 远程团队负责人
 - 客户成功经理
+- 产品与设计评审人员
 jobs_en:
-- Product Managers
-- Software Engineers
-- Customer Success Managers
+- Remote Team Lead
+- Customer Success Manager
+- Product and Design Reviewer
 regions:
-- 全球
+- 北美
+- 欧洲
 regions_en:
-- Global
+- North America
+- Europe
 open_source: false
 url: https://www.aicpb.com/product/Loom/webid1D6F371B9
 canonical_url: https://aicpb.com/product/Loom/webid1D6F371B9
@@ -36,7 +45,7 @@ summary: Use Loom to record quick videos of your screen and cam. Explain anythin
   and skip the meeting. An essential tool for hybrid workplaces.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

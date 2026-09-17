@@ -1,0 +1,42 @@
+- id: req-initial-agent-git-2026-09-17
+  project_slug: agent-git
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体会话不可复现、改动后无法对照的痛点，旧做法是手工翻日志，属于工作流推理。
+    evidence_ids:
+    - ev-88cc52728fc27c17
+  - gate: consensus
+    status: insufficient
+    reason: 仅 87 星、6 个 fork，社区讨论量小，尚看不出开发者是否把它纳入日常排查流程。
+    evidence_ids:
+    - ev-88cc52728fc27c17
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业主体，买方与付费路径均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-88cc52728fc27c17
+  - gate: truth
+    status: insufficient
+    reason: 会话版本化能否覆盖真实多步工具调用、比对结果是否可信，公开材料未给出可复现实测。
+    evidence_ids:
+    - ev-88cc52728fc27c17
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者是否用它复现真实线上智能体故障。
+  market: ''
+  job: AI 应用开发者在线上智能体出错或需要复现某次结果时，处理一次运行留下的多步对话与工具调用记录，要还原当时到底发生了什么。
+  job_en: AI application developers, when a production agent fails or a result must be reproduced, work
+    with the multi-step dialogue and tool-call records of one run to reconstruct what actually happened.
+  pain: 智能体会话默认不留版本，改动提示词或工具后旧行为无法对照，排查只能靠翻日志和记忆。
+  pain_en: Agent sessions are not versioned by default, so after changing prompts or tools the old behavior
+    cannot be compared, and debugging relies on log digging and memory.
+  current_alternative: 手工复制日志、截图或把会话粘进文档，缺少可对比的版本。
+  current_alternative_en: Manually copying logs, taking screenshots, or pasting sessions into documents,
+    with no comparable versions.
+  usage_reason: 推断：它把会话直接存成可版本化的对象并支持比对，省掉手工整理日志这一步，因此需要复现线上智能体故障的开发者会在排查时选择它；目前没有留存或付费证据。
+  usage_reason_en: 'Inference: it stores sessions as versionable objects and supports comparison, removing
+    the manual log-tidying step, so developers who must reproduce production agent failures would pick
+    it during debugging; there is no retention or payment evidence yet.'

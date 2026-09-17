@@ -1,0 +1,43 @@
+- id: req-initial-weave-router-20-2026-09-17
+  project_slug: weave-router-20
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多编码智能体订阅下额度分配的问题，痛点具体；但公开材料只有一句定位描述，说不清替代了哪一步旧工作，也无用户反馈。
+    evidence_ids:
+    - ev-fd187b02cffebbec
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未给出关注度、采用或讨论数据，无法判断开发者是否真的把它放进日常编码流程。
+    evidence_ids:
+    - ev-fd187b02cffebbec
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或商业交付方式，买方与付费路径无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fd187b02cffebbec
+  - gate: truth
+    status: insufficient
+    reason: 路由能否按额度准确分派、是否真的减少浪费，公开材料未给出可核对结果，交付确定性无法验证。
+    evidence_ids:
+    - ev-fd187b02cffebbec
+  next_validation: 收集Weave Router的官方定价页或产品文档，核对路由规则、支持的订阅类型与计费方式。
+  market: ''
+  job: 使用多个编码智能体订阅的开发者或团队在额度快用完或任务类型不同时，需要决定把哪段编码任务交给哪个智能体，以免额度浪费或任务卡住。
+  job_en: Developers or teams with several coding-agent subscriptions who, when quotas run low or tasks
+    differ in type, need to decide which coding task goes to which agent to avoid wasted quota or stalled
+    work.
+  pain: 多个订阅各有额度和擅长范围，人工分配容易把额度用在不合适的任务上，月底浪费或关键任务没额度。
+  pain_en: Each subscription has its own quota and strengths, and manual allocation easily burns quota
+    on the wrong tasks, wasting it by month-end or leaving key work without quota.
+  current_alternative: 目前靠开发者自己记住各订阅剩余额度并手动切换工具，或用脚本粗略分配。
+  current_alternative_en: Today developers track remaining quota across subscriptions themselves and switch
+    tools manually, or use rough scripts to allocate.
+  usage_reason: 推断：它把额度感知的分派动作自动化，省掉人工记录剩余额度并手动切换这一步，因此对同时订阅多个编码智能体的团队有吸引力；但路由准确性和实际节省额度没有公开数据。
+  usage_reason_en: 'Inference: it automates quota-aware dispatch, removing the step of manually tracking
+    remaining quota and switching tools, which appeals to teams subscribing to several coding agents;
+    routing accuracy and actual quota savings lack public data.'

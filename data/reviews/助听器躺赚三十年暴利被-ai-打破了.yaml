@@ -1,0 +1,44 @@
+- id: req-initial-助听器躺赚三十年暴利被-ai-打破了-2026-09-17
+  project_slug: 助听器躺赚三十年暴利被-ai-打破了
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决听损用户在嘈杂环境听不清对话、且线下验配价格过高的痛点，旧行为明确，交付可核对。
+    evidence_ids:
+    - ev-d5815e5be62ee7c7
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道给出用户数与类目排名，但缺少独立评价与持续使用证据，共识强度有限。
+    evidence_ids:
+    - ev-d5815e5be62ee7c7
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价页与付费结构，买方与复购路径只能推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d5815e5be62ee7c7
+  - gate: truth
+    status: insufficient
+    reason: 音频分离效果、验配准确性与售后确定性均无公开可核对材料，交付确定性待核验。
+    evidence_ids:
+    - ev-d5815e5be62ee7c7
+  next_validation: 收集昂听官方产品页或亚马逊商品页，核验其定价、验配流程与用户评价中关于嘈杂环境听清效果的描述。
+  market: ''
+  job: 听力受损用户在嘈杂餐厅、家庭聚会等场景佩戴设备，处理多人同时说话的混合声音，要完成听清对面一人说话的任务。
+  job_en: Hearing-impaired users wear the device in noisy restaurants or family gatherings, process mixed
+    voices from several speakers at once, and need to hear one person clearly.
+  pain: 传统助听器在嘈杂环境下音频分离能力有限，且线下验配门店把一对旗舰产品卖到七到十万元，用户要么听不清，要么付不起。
+  pain_en: Traditional hearing aids separate voices poorly in noise, and offline fitting clinics price
+    a flagship pair at RMB 70,000-100,000, so users either cannot hear clearly or cannot afford it.
+  current_alternative: 过去用户依赖五大外资品牌的线下验配门店，用芯片和算法做到七八十分的产品，并接受高价与封闭的验配体系。
+  current_alternative_en: Users previously relied on offline fitting clinics of the five major foreign
+    brands, accepting products whose chips and algorithms scored 70-80 and a closed, high-priced fitting
+    system.
+  usage_reason: 推断：相较线下验配门店的旧做法，它把音频分离交给AI处理并以线上直销交付，省掉了门店验配与渠道加价这一步，因此对价格敏感又需要嘈杂环境听清的听损用户会在换机或首次购买时选择它。
+  usage_reason_en: 'Inference: compared with the old offline fitting-clinic route, it hands audio separation
+    to AI and delivers through direct online sales, removing the clinic fitting and channel markup step,
+    so price-sensitive hearing-impaired users who need clarity in noise would choose it when replacing
+    or first buying a device.'

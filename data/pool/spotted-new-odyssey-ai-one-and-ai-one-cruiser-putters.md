@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSUtmM29qS0J3
 summary: 'Spotted: New Odyssey Ai-One and Ai-One Cruiser putters GolfWRX'
 first_seen: '2026-09-15T19:26:14Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

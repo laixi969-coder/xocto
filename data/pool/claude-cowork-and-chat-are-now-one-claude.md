@@ -1,11 +1,16 @@
 ---
 slug: claude-cowork-and-chat-are-now-one-claude
-name: Claude Cowork and chat are now one Claude
+name: Claude
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Claude 是 Anthropic 的通用对话助手，本次变化是把 Cowork 与对话合并为单一入口，并先在 Pro、Max 套餐推送，用户可交付一份报告后关闭电脑由它继续执行。对做任务型
+  agent 的团队而言，这意味着「把任务交出去、异步完成」这一层正被通用助手收编，垂直机会要落在它无法覆盖的行业数据、审批与责任归属上。
 inspiration: ''
-summary_en: ''
+summary_en: Claude is Anthropic's general chat assistant; this change merges Cowork and chat into a single
+  entry point, rolling out first to Pro and Max plans, where a user can hand over a report and it keeps
+  working after the laptop closes. For teams building task agents, it means the "hand off a task and get
+  it done asynchronously" layer is being absorbed by general assistants, so vertical openings lie in industry
+  data, approvals and accountability they cannot cover.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -32,7 +37,7 @@ summary: "Claude Cowork and chat are now one Claude   \nIn hopefully good news f
   \ ,  llms ,  anthropic ,  claude ,  general-agents"
 first_seen: '2026-09-16T18:09:49Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -43,7 +48,7 @@ sightings:
   kind: news
 ---
 
-# Claude Cowork and chat are now one Claude
+# Claude
 
 Claude Cowork and chat are now one Claude   
 In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: 

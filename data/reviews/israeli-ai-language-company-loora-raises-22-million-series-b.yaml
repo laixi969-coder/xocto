@@ -1,0 +1,42 @@
+- id: req-initial-israeli-ai-language-company-loora-raises-22-million-series-b-2026-09-17
+  project_slug: israeli-ai-language-company-loora-raises-22-million-series-b
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口语练习机会稀缺与纠错滞后的问题，旧替代是付费外教与语伴，属工作流推理。
+    evidence_ids:
+    - ev-37a12bba436e722e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见用户规模、续费或学习结果数据，共识环节证据不足。
+    evidence_ids:
+    - ev-37a12bba436e722e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与订阅结构，买方为个人还是企业培训部门属判断而非已验证事实。
+    evidence_ids:
+    - ev-37a12bba436e722e
+  - gate: truth
+    status: insufficient
+    reason: 口语提升依赖长期坚持，公开材料未说明练习频率与效果核验方式。
+    evidence_ids:
+    - ev-37a12bba436e722e
+  next_validation: 收集 Loora 官方定价页与公开用户评价，确认订阅价格、续费情况以及是否有可核对的口语提升结果。
+  market: ''
+  job: 准备英文面试或涉外岗位沟通的职场人士，在缺少真人陪练时段时，用对话练习纠正发音和表达。
+  job_en: Professionals preparing for English interviews or cross-border roles practise conversation to
+    fix pronunciation and phrasing when human tutoring slots are unavailable.
+  pain: 真人外教贵且需预约，开口练习机会少，错误表达长期固化；免费语伴难以稳定约到。
+  pain_en: Human tutors are costly and need booking, speaking opportunities are scarce, and wrong phrasing
+    becomes habitual; free language partners are hard to schedule reliably.
+  current_alternative: 预约真人外教按课时付费，或用录播课程与语言交换应用自行练习。
+  current_alternative_en: Booking paid human tutors per lesson, or self-practising with recorded courses
+    and language-exchange apps.
+  usage_reason: 推断：相较按课时预约真人，它把练习变成随时可发起并即时得到纠错反馈，省去约课与等待，因此面试或出差前时间紧的人会先试用；公开材料未披露留存或续费数据。
+  usage_reason_en: 'Inference: versus booking human tutors by the hour, it makes practice startable at
+    any time with immediate correction, removing scheduling and waiting, so people with tight interview
+    or travel deadlines would try it first; no retention or renewal data is disclosed.'

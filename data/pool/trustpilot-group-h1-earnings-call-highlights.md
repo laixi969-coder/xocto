@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVVpUc05seW5N
 summary: Trustpilot Group H1 Earnings Call Highlights TradingView
 first_seen: '2026-09-15T10:02:39Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

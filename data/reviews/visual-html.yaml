@@ -1,0 +1,43 @@
+- id: req-initial-visual-html-2026-09-17
+  project_slug: visual-html
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决AI生成HTML被人改后结构被破坏、无法继续迭代的问题，痛点具体；但公开材料只有一句描述，替代了哪一步旧工作仍说不清。
+    evidence_ids:
+    - ev-54116ecdf76aa986
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅6点且无评论，属于早期关注度，没有采用或持续使用证据。
+    evidence_ids:
+    - ev-54116ecdf76aa986
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或商业交付方式，买方与付费路径无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-54116ecdf76aa986
+  - gate: truth
+    status: insufficient
+    reason: 保留源码结构这一承诺缺少可复现的实测对比，改完的页面能否继续被AI稳定接手无法核对。
+    evidence_ids:
+    - ev-54116ecdf76aa986
+  next_validation: 收集该编辑器的官方说明或可复现实测，核对编辑后源码结构的保留程度与导出结果。
+  market: ''
+  job: 非专业开发者或设计师拿到AI生成的HTML页面后，需要在浏览器里直接调整版式和文案，同时不破坏原有源码结构以便继续交给AI迭代。
+  job_en: Non-expert developers or designers who receive AI-generated HTML pages and need to adjust layout
+    and copy directly in the browser without breaking the original source structure, so it can keep being
+    iterated by AI.
+  pain: AI生成的页面改起来要么动源码容易改坏，要么用可视化工具后代码结构被打乱，后续再让AI改就接不上。
+  pain_en: Editing AI-generated pages either means touching source code and risking breakage, or using
+    visual tools that scramble the code structure so later AI edits no longer work.
+  current_alternative: 目前靠手工改HTML、用通用可视化建站工具重做，或把页面贴回对话里让AI整段重写。
+  current_alternative_en: Today this is done by hand-editing HTML, rebuilding in generic visual site builders,
+    or pasting the page back into a chat and having AI rewrite it wholesale.
+  usage_reason: 推断：它把可视化编辑限制在不破坏源码结构的范围内，省掉改完之后再让AI重新理解页面这一步，因此对反复用AI迭代落地页的建站与营销团队有吸引力；但保留源码的实际效果没有公开验证。
+  usage_reason_en: 'Inference: it constrains visual editing so the source structure survives, removing
+    the step of making AI re-understand the page after edits, which appeals to site-building and marketing
+    teams iterating landing pages with AI; the actual source-preservation effect is not publicly verified.'

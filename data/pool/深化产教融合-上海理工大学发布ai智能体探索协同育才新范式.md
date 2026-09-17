@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9SdDRsM2xmT1BC
 summary: 深化产教融合 上海理工大学发布AI智能体探索协同育才新范式 stdaily.com
 first_seen: '2026-09-16T14:33:04Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

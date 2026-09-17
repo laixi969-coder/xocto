@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wTS1YZWdmSk1Z
 summary: 智元AI全面激活身份，产品重磅上线——欧宝体育软件的启示 体坛加
 first_seen: '2026-09-16T06:02:40Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

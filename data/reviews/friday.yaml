@@ -1,0 +1,43 @@
+- id: req-initial-friday-2026-09-17
+  project_slug: friday
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨会话重复交代项目背景的痛点，旧做法是手工粘贴上下文，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-7592d676c1cb895b
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量很小，只有少量点赞与评论，尚不能说明形成共识。
+    evidence_ids:
+    - ev-7592d676c1cb895b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源自托管下付费路径不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-7592d676c1cb895b
+  - gate: truth
+    status: insufficient
+    reason: 记忆写入、检索准确性与人工确认边界均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-7592d676c1cb895b
+  next_validation: 收集该仓库的 issue 与 discussion，核验记忆写入、检索准确性和实际使用反馈。
+  market: ''
+  job: 软件工程师在跨天、跨会话调试同一代码库时，需要让编码代理读取此前积累的项目约定与改动历史，再继续产出代码修改。
+  job_en: Software engineers debugging the same codebase across days and sessions need the coding agent
+    to read previously accumulated project conventions and change history before producing further code
+    edits.
+  pain: 每次新会话都要重新交代项目背景，代理重复犯错或重复询问，工程师要反复粘贴上下文。
+  pain_en: Every new session requires re-explaining project background, the agent repeats mistakes or
+    questions, and engineers repeatedly paste context.
+  current_alternative: 手工维护说明文件、把上下文粘进提示词，或依赖代理自带的会话记忆。
+  current_alternative_en: Hand-maintained instruction files, pasting context into prompts, or relying
+    on the agent's built-in session memory.
+  usage_reason: 推断：它把项目记忆放在自托管存储里由代理按需读取，省掉每次会话重新粘贴背景这一步，因此长期维护同一代码库的团队会尝试它；公开材料未显示留存或复购证据。
+  usage_reason_en: 'Inference: it keeps project memory in self-hosted storage that the agent reads on
+    demand, removing the step of re-pasting background each session, so teams maintaining one codebase
+    long-term would try it; public material shows no retention or repeat-use evidence.'

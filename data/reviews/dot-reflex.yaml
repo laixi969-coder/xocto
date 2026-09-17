@@ -1,0 +1,43 @@
+- id: req-initial-dot-reflex-2026-09-17
+  project_slug: dot-reflex
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决智能体执行失败后的恢复问题，痛点方向清楚，但公开材料未说明恢复策略、接入方式与交付结果，无法确认痛点是否被真正解决。
+    evidence_ids:
+    - ev-61c0a10b9490e352
+  - gate: consensus
+    status: insufficient
+    reason: 仅见约 80 颗星、0 fork、0 issue，没有用户评价、讨论或采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-61c0a10b9490e352
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露任何定价、付费或商业路径，买方是谁无法判断。
+    evidence_ids:
+    - ev-61c0a10b9490e352
+  - gate: truth
+    status: insufficient
+    reason: 无法核对恢复动作是否确定发生、人工边界在哪，也缺少可复现的实测或文档说明。
+    evidence_ids:
+    - ev-61c0a10b9490e352
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认它接入智能体的具体方式、恢复策略与可复现的运行结果。
+  market: ''
+  job: AI 智能体开发工程师在调试会调用工具、执行代码的智能体时，处理失败步骤的日志与状态，让任务能继续跑完而不是中断。
+  job_en: An AI agent developer debugging an agent that calls tools and runs code handles logs and state
+    from failed steps so the task can continue instead of aborting.
+  pain: 智能体执行到中途失败后，开发者要人工定位失败原因并重写重试逻辑，长任务因此频繁中断，公开材料未说明这一痛点被解决到什么程度。
+  pain_en: When an agent fails mid-run, developers must manually locate the cause and rewrite retry logic,
+    so long tasks break often; public materials do not say how far this pain is actually relieved.
+  current_alternative: 开发者目前多自行编写重试与异常处理代码，或依赖所用智能体框架自带的错误处理。
+  current_alternative_en: Developers currently write their own retry and exception-handling code, or rely
+    on the error handling built into their agent framework.
+  usage_reason: 推断：相较自行编写重试逻辑，它把失败检测与恢复动作收敛到一个可复用的控制器里，可能省去为每个智能体重复实现容错的那一步，因此正在搭建长任务智能体的团队会尝试它；但公开材料没有用户反馈或采用证据支持这一判断。
+  usage_reason_en: 'Inference: compared with hand-written retry logic, it consolidates failure detection
+    and recovery into a reusable controller, potentially removing the step of reimplementing fault tolerance
+    for each agent, so teams building long-running agents may try it; public materials contain no user
+    feedback or adoption evidence for this claim.'

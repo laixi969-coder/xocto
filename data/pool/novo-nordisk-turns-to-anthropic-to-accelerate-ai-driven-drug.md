@@ -1,6 +1,6 @@
 ---
 slug: novo-nordisk-turns-to-anthropic-to-accelerate-ai-driven-drug
-name: Novo Nordisk Turns to Anthropic to Accelerate AI-Driven Drug Development
+name: Novo Nordisk
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQdkhpRlJCVmpX
 summary: Novo Nordisk Turns to Anthropic to Accelerate AI-Driven Drug Development AIM Media House
 first_seen: '2026-09-16T18:53:40Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Novo Nordisk Turns to Anthropic to Accelerate AI-Driven Drug Development
+# Novo Nordisk
 
 Novo Nordisk Turns to Anthropic to Accelerate AI-Driven Drug Development AIM Media House
 

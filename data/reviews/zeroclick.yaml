@@ -1,0 +1,45 @@
+- id: req-initial-zeroclick-2026-09-17
+  project_slug: zeroclick
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决卖家在智能体购物入口中失去曝光的问题，方向可辨，但候选材料只有一句标语，无法还原输入、动作与交付，痛点强度无法确认。
+    evidence_ids:
+    - ev-3c4a0068c617b359
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一条记录，没有评论、采用或社区讨论，无法判断卖家是否认可这一新入口。
+    evidence_ids:
+    - ev-3c4a0068c617b359
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方可能是卖家或品牌方，收费方式属判断而非已验证事实，也无法排除只靠融资叙事推进的可能。
+    evidence_ids:
+    - ev-3c4a0068c617b359
+  - gate: truth
+    status: insufficient
+    reason: 智能体是否真的会读取并推荐这些商品、推荐结果能否被卖家核对，候选材料均未说明，交付确定性无法确认。
+    evidence_ids:
+    - ev-3c4a0068c617b359
+  next_validation: 收集该产品的官方定价页与客户案例，确认它按什么计价、卖家能拿到哪些可核对的曝光或成交结果。
+  market: ''
+  job: 独立站或电商卖家在智能体开始代替消费者挑选商品时，需要把自己手上的商品目录和库存信息整理成机器可读的形式，以便被 AI 购物助手检索并推荐。
+  job_en: An independent-store or e-commerce seller, as agents start choosing products on consumers' behalf,
+    needs to turn its catalogue and inventory information into a machine-readable form so AI shopping
+    assistants can retrieve and recommend it.
+  pain: 如果商品信息只为人浏览设计，智能体可能读不到或读错，卖家在新入口里失去曝光；但候选材料没有给出任何卖家抱怨、流量损失或替代行为的证据。
+  pain_en: If product information is designed only for human browsing, agents may fail to read it or read
+    it wrongly, costing the seller visibility in the new entry point; but the candidate material gives
+    no evidence of seller complaints, lost traffic or workaround behaviour.
+  current_alternative: 现有做法是优化搜索引擎和平台内搜索的商品标题与详情页，或投放平台广告获取曝光。
+  current_alternative_en: The existing approach is optimising product titles and detail pages for search
+    engines and in-platform search, or buying platform ads for visibility.
+  usage_reason: 推断：相较只为人浏览优化的商品页，它把商品信息整理成智能体可读取的供给，减少卖家自己研究智能体抓取规则这一步，因此可能被想抢占新购物入口的卖家选择；候选材料未提供任何采用或付费证据。
+  usage_reason_en: 'Inference: compared with product pages optimised only for human browsing, it packages
+    product information into agent-readable supply, removing the step of sellers figuring out agent crawling
+    rules themselves, which may attract sellers chasing the new shopping entry point; the candidate material
+    provides no adoption or payment evidence.'

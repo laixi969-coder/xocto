@@ -191,3 +191,44 @@
   usage_reason_en: Compared with scattered hand-written checks, it centralises validation at the call
     entry point so one configuration covers all tool calls, cutting per-site code edits and missed cases;
     teams in regulated or high-volume settings are more likely to adopt it (inference).
+- id: req-initial-conduct-2026-09-17
+  project_slug: conduct
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型调用外部工具时缺少统一拦截点的问题，误调用代价高且现有做法是散写校验，痛点具体。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论量很小，没有客户案例或采用数据，无法判断团队是否已把它放进工作流。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明托管服务、企业版或支持收费方式，买方与付费路径不清，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 拦截规则能否覆盖真实越权场景、误拦率如何，公开材料没有可复现的测试或部署文档。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 与部署文档，确认是否有团队报告在真实工具调用链中启用拦截规则。
+  market: ''
+  job: 开发团队在把大模型接入内部系统、让它调用数据库或业务工具时，需要在每次工具调用真正执行前处理这次调用请求，决定放行、拦截还是改写，最终得到一次被约束过的执行结果。
+  job_en: When a dev team wires an LLM into internal systems and lets it call databases or business tools,
+    it must handle each tool call before execution, deciding to allow, block or rewrite it, and end up
+    with a constrained execution result.
+  pain: 模型一旦直接操作真实系统，一次误调用就可能改错数据或触发越权操作，而事后排查比事前拦截贵得多；团队目前缺少一个统一的拦截点。
+  pain_en: Once a model acts on real systems, one wrong call can corrupt data or trigger unauthorized
+    actions, and post-hoc investigation costs far more than pre-call blocking; teams lack a single interception
+    point.
+  current_alternative: 多数团队靠自己在业务代码里写 if 判断、加人工复核，或者干脆限制模型只能做只读操作，规则分散且难以统一维护。
+  current_alternative_en: Most teams hand-write if-checks in business code, add manual review, or simply
+    restrict models to read-only actions, leaving rules scattered and hard to maintain.
+  usage_reason: 相较在每处业务代码里散写校验，它把判断集中到调用发生前的一个环节，减少逐个接口改代码和事后追责的负担，因此正在接入多个工具、又需要统一操作边界的团队会先试它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with scattering checks across business code, it centralizes the decision at
+    one point before the call, cutting per-endpoint code changes and post-hoc blame; teams wiring up many
+    tools that need one consistent boundary would try it first. This is inference from product capability,
+    not user feedback.

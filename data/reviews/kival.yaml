@@ -1,0 +1,44 @@
+- id: req-initial-kival-2026-09-17
+  project_slug: kival
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合规组织内部资料可检索又不外流的需求，痛点是资料分散与合规冲突；旧做法是共享盘或外部 SaaS，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-d9fe939ab34deb99
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区讨论仅个位数互动，没有组织采用、部署案例或用户评价，无法判断是否有人真正在用。
+    evidence_ids:
+    - ev-d9fe939ab34deb99
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露商业路径，买方与收费方式均不明确，部署与维护收费只是判断。
+    evidence_ids:
+    - ev-d9fe939ab34deb99
+  - gate: truth
+    status: insufficient
+    reason: 权限模型、审计能力与检索质量均未说明，交付能否满足合规要求无法核对。
+    evidence_ids:
+    - ev-d9fe939ab34deb99
+  next_validation: 收集 Kival 仓库的部署文档与 issue/discussion，确认权限模型、审计能力以及是否有组织公开描述实际部署使用情况。
+  market: ''
+  job: 有数据合规要求的组织里，IT 运维或知识管理负责人在同事需要查内部资料时，要处理分散的内部文档，让资料可被检索又不离开自有环境。
+  job_en: In an organization with data-compliance requirements, an IT operations or knowledge management
+    lead, when colleagues need to look up internal material, must handle scattered internal documents
+    so they can be searched without leaving the organization's own environment.
+  pain: 内部资料散落在共享盘和邮件里，检索靠人问人；放到外部 SaaS 又过不了合规审查，导致知识沉淀和复用都停在原地。
+  pain_en: Internal material is scattered across shared drives and email and is found by asking colleagues;
+    putting it on external SaaS fails compliance review, so knowledge capture and reuse stall.
+  current_alternative: 目前多靠共享盘加关键词搜索、内部 wiki 或人工转问同事，部分组织用外部 SaaS 但受合规限制。
+  current_alternative_en: Today this usually relies on shared drives with keyword search, an internal
+    wiki, or asking colleagues directly; some organizations use external SaaS but are constrained by compliance.
+  usage_reason: 相较共享盘搜索或外部 SaaS，它让组织在自己的环境里部署并导入内部材料，省掉为合规而放弃集中检索这一步；推断受合规约束的机构会因此选择它，但尚无部署案例或维护活跃度证据。
+  usage_reason_en: Compared with shared-drive search or external SaaS, it lets an organization deploy
+    in its own environment and load internal material, removing the trade-off of giving up centralized
+    search for compliance; by inference, compliance-constrained institutions would choose it, though there
+    is no deployment case or maintenance-activity evidence yet.

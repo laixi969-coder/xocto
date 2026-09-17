@@ -1,7 +1,6 @@
 ---
 slug: linklive-appoints-mike-bourke-as-ceo-to-accelerate-agentic-a
-name: LinkLive Appoints Mike Bourke as CEO to Accelerate Agentic AI-Powered Customer Engagement for Regulated
-  Industries
+name: LinkLive
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: LinkLive Appoints Mike Bourke as CEO to Accelerate Agentic AI-Powered C
   Regulated Industries PR Newswire
 first_seen: '2026-09-16T12:00:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# LinkLive Appoints Mike Bourke as CEO to Accelerate Agentic AI-Powered Customer Engagement for Regulated Industries
+# LinkLive
 
 LinkLive Appoints Mike Bourke as CEO to Accelerate Agentic AI-Powered Customer Engagement for Regulated Industries PR Newswire
 

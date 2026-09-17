@@ -3,38 +3,39 @@ slug: expertise-ai
 name: Expertise AI
 builder: Zac Zuo
 category: AI + 商业
-summary_zh: 面向市场营销顾问与 GTM 专业人士，该产品主打将其市场拓展与营销经验打包转化为持续订阅收入；具体输入物、模型处理流程及最终交付给客户的交互形式在公开资料中仍待核验。
-inspiration: 趋势在于知识工作者的咨询方法论正在被尝试封装为自动化服务；切入点应避开抽象概念，聚焦于把具体的 GTM 获客策略或销售话术拆解为可按次或按月交付的确定性执行报告。
-summary_en: Expertise AI is a platform designed to help marketing professionals and GTM leaders turn their
-  domain expertise and go-to-market skills into recurring revenue streams.
-inspiration_en: The broader trend is productizing professional consulting knowledge into automated services.
-  A practical angle is packaging concrete GTM playbooks into verifiable delivery pipelines instead of
-  abstract advice.
+summary_zh: 面向 GTM 从业者，候选标语称其把 GTM 技能转化为经常性收入，但具体由谁在哪个工作节点打开、AI 接收什么材料、执行什么动作、交付什么结果均未在候选材料中说明，具体流程或交付仍待核验。
+inspiration: 趋势：垂直经验正在被尝试打包成可重复售卖的服务，而不是按小时卖人力。切入：若要做，应从某类顾问反复交付的同一份材料（如渠道诊断、定价方案）入手，把交付物标准化后再谈订阅，而不是先做通用技能市场；候选未披露价格，不能假设其卖法。
+summary_en: Aimed at GTM practitioners, the candidate's tagline claims to turn GTM skills into recurring
+  revenue, but the candidate material does not state who opens it at which work step, what material the
+  AI receives, what action it performs, or what output it delivers; the concrete workflow and deliverable
+  remain unverified.
+inspiration_en: 'Trend: vertical expertise is being repackaged as a repeatable service rather than hourly
+  labor. Entry: start from one deliverable a specific type of consultant produces repeatedly (e.g. channel
+  diagnosis, pricing proposal), standardize that output, then consider subscription; the candidate discloses
+  no pricing, so no sales model should be assumed.'
 priority_review: false
 project_type: new_application
 industries:
-- 销售与市场营销
 - 企业服务
+- 市场营销
 industries_en:
-- Sales & Marketing
-- Enterprise Services
+- Business Services
+- Marketing
 jobs:
-- 市场营销顾问
-- GTM 负责人
+- GTM 顾问
+- 增长顾问
 jobs_en:
-- Marketing Consultant
-- GTM Lead
-regions:
-- 全球
-regions_en:
-- Global
+- GTM consultant
+- Growth consultant
+regions: []
+regions_en: []
 open_source: false
 url: https://www.producthunt.com/products/expertise-ai
 canonical_url: https://producthunt.com/products/expertise-ai
 summary: Turn your GTM skills into recurring revenue
 first_seen: '2026-08-22T10:59:49Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - newssearch

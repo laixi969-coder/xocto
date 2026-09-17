@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CNS1ZNlZnYjRp
 summary: 华阳集团：AI业务新获订单金额大幅增长，华阳精机东兴工厂即将投产 东方财富
 first_seen: '2026-09-15T22:57:12Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

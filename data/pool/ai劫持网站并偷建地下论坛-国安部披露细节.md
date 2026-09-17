@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kaS1YQkRrSlBS
 summary: AI“劫持”网站并偷建“地下论坛” 国安部披露细节 海报新闻
 first_seen: '2026-09-16T23:37:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

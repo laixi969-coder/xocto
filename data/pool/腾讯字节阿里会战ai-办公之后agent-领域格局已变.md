@@ -1,11 +1,19 @@
 ---
 slug: 腾讯字节阿里会战ai-办公之后agent-领域格局已变
-name: 腾讯、字节、阿里「会战」AI 办公之后：Agent 领域格局已变
+name: 豆包工作
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年夏季，中国科技巨头在AI办公与Agent领域展开集中布局：豆包工作正式发布，TRAE与扣子团队整体并入豆包体系，飞书产品团队于7月底并入豆包；腾讯WorkBuddy月活达到千万级，阿里整合桌面Agent、云端Agent与钉钉能力。同期国产模型（如GLM-5.3-Flash、DeepSeek-V4-Flash）在指令遵循能力提升的同时显著降低成本。这一变化意味着Agent应用的成本门槛下降、大厂竞争从模型层转向办公场景与Agent入口，交付形态与生态整合成为竞争焦点；但材料仅反映上述厂商的布局与模型成本变化，不足以推断整个行业已完成转向。
 inspiration: ''
-summary_en: ''
+summary_en: 'In the summer of 2026, Chinese tech giants concentrated their efforts on AI office and agent
+  products: Doubao Work was officially launched, with the TRAE and Coze teams merged into the Doubao system,
+  and the Feishu product team merged into Doubao at the end of July; Tencent''s WorkBuddy reached tens
+  of millions of monthly active users, while Alibaba consolidated its desktop agent, cloud agent and DingTalk
+  capabilities. Domestic models such as GLM-5.3-Flash and DeepSeek-V4-Flash improved instruction-following
+  while significantly lowering costs. This implies lower cost barriers for agent applications and a shift
+  in competition from model layers toward office scenarios and agent entry points, with delivery formats
+  and ecosystem integration becoming the focus; however, the material only reflects these vendors'' moves
+  and model cost changes and is insufficient to conclude that the entire industry has already pivoted.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -149,7 +157,7 @@ summary: "「这仗打错了，最多是白烧几十亿；但如果不打，可�
   \ \n 再往后，当 Agent 时代真正到来，尤其是物理世界的 Agent 或者 Robotics 起来之后，大厂就更只能做基础设施了。（完）"
 first_seen: '2026-09-16T06:39:11Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -160,7 +168,7 @@ sightings:
   kind: news
 ---
 
-# 腾讯、字节、阿里「会战」AI 办公之后：Agent 领域格局已变
+# 豆包工作
 
 「这仗打错了，最多是白烧几十亿；但如果不打，可能是生死问题。」 
  这是创新工场联合首席执行官、管理合伙人汪华对大厂重金押注 AI 办公的判断。 

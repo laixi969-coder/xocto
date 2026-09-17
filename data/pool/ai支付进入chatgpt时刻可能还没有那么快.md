@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PZVBkVG1fdGpy
 summary: AI支付进入“ChatGPT时刻”？可能还没有那么快 DoNews
 first_seen: '2026-09-16T09:50:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

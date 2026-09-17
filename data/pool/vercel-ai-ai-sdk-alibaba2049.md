@@ -1,6 +1,6 @@
 ---
 slug: vercel-ai-ai-sdk-alibaba2049
-name: 'vercel/ai: @ai-sdk/alibaba@2.0.49'
+name: Vercel AI SDK
 builder: vercel
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: '### Patch Changes
   - 7f803af: feat(alibaba): preserve reasoning in multi-turn requests by default on supported models'
 first_seen: '2026-09-17T00:24:53Z'
 last_seen: '2026-09-17T00:32:43Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -36,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/alibaba@2.0.49
+# Vercel AI SDK
 
 ### Patch Changes
 

@@ -22,7 +22,7 @@ summary: A categorized directory of X accounts covering AI, LLMs, agents, and te
   profile bios and follower counts. Available in 7 languages.
 first_seen: '2026-09-13T08:57:52Z'
 last_seen: '2026-09-17T00:32:43Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

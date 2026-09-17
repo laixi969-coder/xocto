@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kQmlQbmg2VmFq
 summary: Understanding Supply Chain Management (SCM) and Its Importance Investopedia
 first_seen: '2026-09-03T07:00:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

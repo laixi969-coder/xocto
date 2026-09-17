@@ -1,11 +1,13 @@
 ---
 slug: stalled-security-reviews-push-platform-teams-to-define-who-o
-name: Stalled Security Reviews Push Platform Teams to Define Who Owns AI Agent Authorization
+name: AI Agent Authorization
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月16日报道指出，安全审查流程停滞正迫使平台团队明确 AI 智能体授权的归属责任。这一治理缺口意味着企业在部署自主智能体时面临授权边界不清的交付与合规风险，可能拖慢智能体在生产环境中的采用速度。
 inspiration: ''
-summary_en: ''
+summary_en: A September 16, 2026 report says stalled security reviews are pushing platform teams to define
+  who owns AI agent authorization. This governance gap means enterprises deploying autonomous agents face
+  unclear authorization boundaries and compliance risk, which could slow agent adoption in production.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +24,7 @@ summary: Stalled Security Reviews Push Platform Teams to Define Who Owns AI Agen
   Times
 first_seen: '2026-09-16T13:36:38Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Stalled Security Reviews Push Platform Teams to Define Who Owns AI Agent Authorization
+# AI Agent Authorization
 
 Stalled Security Reviews Push Platform Teams to Define Who Owns AI Agent Authorization The Manila Times
 

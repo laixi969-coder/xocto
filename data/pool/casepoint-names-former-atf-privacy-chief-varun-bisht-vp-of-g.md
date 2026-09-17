@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWGNkMFpJMElj
 summary: Casepoint Names Former ATF Privacy Chief Varun Bisht VP of Governance and Compliance citybiz
 first_seen: '2026-09-16T13:41:54Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

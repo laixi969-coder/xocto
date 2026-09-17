@@ -1,0 +1,42 @@
+- id: req-initial-startup-keewano-launches-agent-focused-database-and-pulls-in-2026-09-17
+  project_slug: startup-keewano-launches-agent-focused-database-and-pulls-in
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么用户任务、什么痛点都写不出来，只有发布与融资标题，价值关无法成立。
+    evidence_ids:
+    - ev-a7578a96d02e47f8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无用户评价或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a7578a96d02e47f8
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立；仅有 1200 万美元融资，无定价或付费路径信息，存在每日优鲜风险。
+    evidence_ids:
+    - ev-a7578a96d02e47f8
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与安全边界。
+    evidence_ids:
+    - ev-a7578a96d02e47f8
+  next_validation: 收集 Keewano 官方产品文档或定价页，核验其面向 agent 的数据库具体功能、使用方式与客户案例。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用 Keewano 的 agent 数据库，也未说明处理什么材料、要完成什么任务。
+  job_en: Public material does not say who uses Keewano's agent database, in what situation, with what
+    material, or to complete what task.
+  pain: 候选材料只有发布与融资标题，未说明用户此前在 agent 数据存储或状态管理上遇到什么具体困难。
+  pain_en: The candidate material only has a launch-and-funding headline; it does not describe any concrete
+    difficulty users had with agent data storage or state management.
+  current_alternative: 未提供；无法确认开发者此前是用通用数据库、向量库还是自建方案替代。
+  current_alternative_en: Not provided; it is not possible to confirm whether developers previously used
+    a general database, a vector store, or a self-built solution.
+  usage_reason: 推断：若它针对 agent 的状态与记忆做了专门存储设计，开发者可能省去自行拼装数据库这一步；但公开材料未给出功能细节、用户反馈或采用证据，无法确认选择理由。
+  usage_reason_en: 'Inference: if it designs storage specifically for agent state and memory, developers
+    might skip assembling a database themselves; however, public material gives no feature detail, user
+    feedback or adoption evidence, so the reason for choosing it cannot be confirmed.'

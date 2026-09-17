@@ -79,3 +79,47 @@
   usage_reason: 一键录屏并即时生成云端分享链接，结合 AI 自动提炼核心结论与时间戳，大幅降低接收方观看和确认成本。
   usage_reason_en: Instant link sharing combined with AI-generated chapters and summaries minimizes viewing
     friction and replaces live syncs effectively.
+- id: req-initial-loom-2026-09-17
+  project_slug: loom
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是远程协作中“操作过程说不清、约会议成本高”的需求，痛点刚性且交付可确定；买方是团队或企业，具体付费方在公开材料中未核验。
+    evidence_ids:
+    - ev-a531a0ee80163219
+  - gate: consensus
+    status: insufficient
+    reason: 候选只给出访问量与榜单位置，没有用户评价、客户案例或团队采用证据，无法判断共识卡在感知还是场景。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 候选未提供定价页或采购信息，to B 席位订阅是判断而非已验证事实，付费路径仍不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 录屏讲解贴近沟通第一性目标，但候选未给出交付确定性、安全边界或人工确认环节的材料。
+    evidence_ids: []
+  next_validation: 收集 Loom 官方定价页与公开客户案例，核验其按席位或按用量计费的方式以及企业采用情况。
+  market: ''
+  job: 远程团队负责人、客户成功经理或设计评审人员在需要向同事或客户解释一个界面问题、操作步骤或设计改动时，处理的是屏幕操作过程与口头说明，要完成的任务是让对方不用开会也能看懂并照做。
+  job_en: A remote team lead, customer success manager or design reviewer who must explain an interface
+    problem, a procedure or a design change to colleagues or clients works with on-screen actions and
+    spoken explanation, and the task is to let the other side understand and follow it without a meeting.
+  pain: 文字说明和截图难以还原操作顺序，约会议又要对齐时区与日程，反复解释同一件事消耗双方时间；不采用的代价是沟通轮次增加、误解返工。
+  pain_en: Text and screenshots struggle to reproduce the order of actions, scheduling a meeting requires
+    aligning time zones and calendars, and explaining the same thing repeatedly costs both sides time;
+    the cost of not adopting is more communication rounds and rework from misunderstanding.
+  current_alternative: 写长邮件配截图、拉一次视频会议现场演示，或把步骤写成文档；这些方式要么信息丢失，要么需要双方同时在线。
+  current_alternative_en: Long emails with screenshots, a live video meeting for a walkthrough, or written
+    step-by-step documents; these either lose information or require both sides to be online at the same
+    time.
+  usage_reason: 相较写邮件配截图或约会议，Loom 把屏幕与摄像头一次录成可回放的链接，省掉“双方同时在线”这一步，接收方可以按自己的时间反复查看；因此跨时区、需要反复解释同一操作步骤的团队会在客户答疑或设计评审时选择它。这是基于产品能力与任务结构的推断，候选未提供留存或复购证据。
+  usage_reason_en: Compared with screenshot emails or scheduled meetings, Loom records screen and camera
+    once into a replayable link, removing the step of both sides being online at the same time so the
+    receiver can rewatch on their own schedule; teams across time zones that repeatedly explain the same
+    procedure would therefore choose it for client Q&A or design review. This is an inference from product
+    capability and task structure, as the candidate offers no retention or repeat-use evidence.

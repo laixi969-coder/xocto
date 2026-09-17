@@ -1,6 +1,6 @@
 ---
 slug: temasek-backed-xora-leads-53m-funding-for-ai-startup-hang-te
-name: Temasek-backed Xora leads $53m funding for AI startup Hang Ten
+name: Hang Ten
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHI5YUVYaGNk
 summary: Temasek-backed Xora leads $53m funding for AI startup Hang Ten DealStreetAsia
 first_seen: '2026-09-17T00:19:33Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Temasek-backed Xora leads $53m funding for AI startup Hang Ten
+# Hang Ten
 
 Temasek-backed Xora leads $53m funding for AI startup Hang Ten DealStreetAsia
 

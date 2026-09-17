@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxPV3JKWEhrNHlB
 summary: Salesforce’s Job-Ready Agents Target Enterprise AI’s Biggest Gap The Futurum Group
 first_seen: '2026-09-11T13:37:36Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

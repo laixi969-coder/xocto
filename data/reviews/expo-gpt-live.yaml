@@ -1,0 +1,44 @@
+- id: req-initial-expo-gpt-live-2026-09-17
+  project_slug: expo-gpt-live
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决移动端接入实时语音对话的工程需求，但公开材料只有一句仓库描述，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-0e6550fef00a0f9b
+  - gate: consensus
+    status: insufficient
+    reason: 72 星、10 次 fork 只说明有少量开发者关注，没有评论、issue 或采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-0e6550fef00a0f9b
+  - gate: model
+    status: insufficient
+    reason: 开源示例仓库没有定价页或付费路径，钱可能来自后续托管服务或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0e6550fef00a0f9b
+  - gate: truth
+    status: insufficient
+    reason: 无法从仓库描述确认语音链路是否端到端可用、延迟与人工确认边界如何，交付确定性未核验。
+    evidence_ids:
+    - ev-0e6550fef00a0f9b
+  next_validation: 收集该仓库的 README、示例运行说明与 issue/discussion，确认语音链路是否端到端可跑及其实际交付边界。
+  market: ''
+  job: 移动端开发者要在自己的 App 里加入实时语音对话，需要处理麦克风采集、流式传输和对话状态，最终交付一个可上线的语音交互界面。
+  job_en: A mobile developer wants real-time voice conversation inside an app, handling microphone capture,
+    streaming transport and dialogue state, and delivering a shippable voice interface.
+  pain: 自建语音链路要同时处理音频采集、实时传输和对话状态，对不熟悉音频的移动开发者是额外负担；但公开材料未说明具体卡在哪一步。
+  pain_en: Building a voice pipeline means handling audio capture, streaming and dialogue state at once,
+    an extra burden for mobile developers unfamiliar with audio; the public material does not say which
+    step actually blocks them.
+  current_alternative: 开发者通常参考官方语音 API 文档、开源语音示例或自行拼接第三方语音 SDK。
+  current_alternative_en: Developers typically follow official voice API docs, open-source voice samples,
+    or stitch together third-party voice SDKs themselves.
+  usage_reason: 推断：相较从零拼接语音链路，该仓库直接给出 Expo 工程骨架与语音对话接线，可能省掉搭建示例工程这一步，因此想快速验证移动端语音交互的开发者会先试用它；但缺少用户反馈或采用证据，无法确认是否被长期使用。
+  usage_reason_en: 'Inference: compared with assembling a voice pipeline from scratch, this repository
+    hands over an Expo project skeleton already wired for voice dialogue, potentially saving the step
+    of building a sample project, so developers wanting to quickly test mobile voice interaction may try
+    it first; without user feedback or adoption evidence, long-term use cannot be confirmed.'

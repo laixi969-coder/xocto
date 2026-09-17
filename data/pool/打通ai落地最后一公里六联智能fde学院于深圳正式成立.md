@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE40LVJiVnd0TEt5
 summary: 打通AI落地最后一公里，六联智能FDE学院于深圳正式成立 t.cj.sina.cn
 first_seen: '2026-09-13T04:42:56Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

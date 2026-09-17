@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPSDZDRXNDcl81
 summary: 酒店场景AI智能体创新实践交流大会在贵阳举行 Sohu
 first_seen: '2026-09-16T12:28:46Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

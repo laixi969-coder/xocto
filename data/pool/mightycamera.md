@@ -21,7 +21,7 @@ canonical_url: https://mightycamera.com/story
 summary: I built a tiny camera that knows where it is
 first_seen: '2026-09-15T13:30:14Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

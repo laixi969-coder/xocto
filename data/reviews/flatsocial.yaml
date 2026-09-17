@@ -1,0 +1,44 @@
+- id: req-initial-flatsocial-2026-09-17
+  project_slug: flatsocial
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决远程团队聚集交流的需求，但材料只有一句产品描述，说不清具体痛点、旧流程和不采用的后果，价值判断缺少依据。
+    evidence_ids:
+    - ev-1705bf5a66562639
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且材料没有任何用户采用、评价或场景共识信息可供判断。
+    evidence_ids:
+    - ev-1705bf5a66562639
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是谁、按什么收费，也没有定价页或付费路径信息。
+    evidence_ids:
+    - ev-1705bf5a66562639
+  - gate: truth
+    status: insufficient
+    reason: 未进入：材料未说明 AI 在其中的具体作用、交付是否确定，以及人工边界，无法做求真检查。
+    evidence_ids:
+    - ev-1705bf5a66562639
+  next_validation: 收集 flat.social 官方产品页或定价页，确认其是否使用 AI、具体功能动作与收费方式。
+  market: ''
+  job: 远程团队在需要非正式聚会或协作时，打开一个 3D 虚拟空间让成员以虚拟形象聚集交流，但公开材料未说明具体处理什么材料、要完成什么任务。
+  job_en: When a remote team needs informal gathering or collaboration, it opens a 3D virtual space where
+    members gather and interact as avatars, but public material does not state what materials are handled
+    or what task is completed.
+  pain: 公开材料只给出“远程团队聚集的 3D 空间”这一句描述，没有说明用户遇到的具体困难、不采用的后果或现有做法哪里难受。
+  pain_en: Public material gives only the single line '3D spaces where remote teams hang out', without
+    stating the concrete difficulty users face, the cost of not adopting it, or what hurts in current
+    practice.
+  current_alternative: 公开材料未提及替代方式；按常理推断可能是视频会议、团队聊天工具或线下聚会，但这是推断，不是材料支持的事实。
+  current_alternative_en: Public material mentions no alternative; by common sense it might be video calls,
+    team chat tools or offline meetups, but that is inference, not a fact supported by the material.
+  usage_reason: 材料未提供任何用户反馈、客户案例或采用证据，无法说明相较旧做法它减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由。
+  usage_reason_en: The material provides no user feedback, customer case or adoption evidence, so it cannot
+    explain which step of burden it reduces versus the old way or which verifiable result it improves;
+    no usage reason can be given.

@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/secure-compute-and-static-ip-builds-
 summary: ''
 first_seen: '2026-09-16T17:00:00Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

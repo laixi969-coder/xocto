@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/phrasevault
 summary: Now lock one sensitive phrase at a time with a PIN
 first_seen: '2026-09-15T13:45:29Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

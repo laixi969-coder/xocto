@@ -21,7 +21,7 @@ canonical_url: https://eurekaleo.github.io/awesome-ai-for-games
 summary: A curated, searchable collection of research on AI and foundation models across the game lifecycle.
 first_seen: '2026-09-04T01:05:57Z'
 last_seen: '2026-09-17T00:32:43Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

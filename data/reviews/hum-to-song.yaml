@@ -1,0 +1,43 @@
+- id: req-initial-hum-to-song-2026-09-17
+  project_slug: hum-to-song
+  level: initial
+  reviewed_at: '2026-09-17T00:32:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是“有旋律但做不出成品歌”的需求，痛点真实；但公开材料只有一句功能描述，无法确认交付是否可控、版权是否清晰，价值结构尚不能判定。
+    evidence_ids:
+    - ev-6511e39781ee21a3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 11 个点赞，属于关注度信号，不能说明音乐人或创作者已把它放进日常工作流。
+    evidence_ids:
+    - ev-6511e39781ee21a3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、授权方式或买方，to C 订阅、按首收费还是商用授权都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-6511e39781ee21a3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对成品是否达到可发布水准、人声与编曲是否可编辑，也未说明版权与人工确认边界。
+    evidence_ids:
+    - ev-6511e39781ee21a3
+  next_validation: 收集该 Space 的官方说明或示例输出页，核对成品歌曲的可编辑程度、人声来源与商用授权条款。
+  market: ''
+  job: 独立音乐人或短视频创作者手上只有一段哼出的旋律，需要把它变成能直接用的成品歌曲，用于发布或配乐。
+  job_en: An independent musician or short-video creator has only a hummed melody and needs it turned
+    into a finished song usable for release or scoring.
+  pain: 没有编曲和制作能力的人，从哼唱到成品歌要经过编曲、录音、混音多道工序，通常要找人协作或学 DAW，成本高、周期长。
+  pain_en: Without arrangement or production skills, going from a hum to a finished song requires arranging,
+    recording and mixing, usually by hiring people or learning a DAW, which is costly and slow.
+  current_alternative: 找编曲或制作人外包、用现成伴奏套唱，或在 DAW 里自己一步步做。
+  current_alternative_en: Outsourcing to an arranger or producer, singing over ready-made backing tracks,
+    or building it step by step in a DAW.
+  usage_reason: 推断：它把“哼唱”直接当作输入，省掉把旋律转写成谱、再找人编曲这一步，因此只有旋律灵感、没有制作能力的人会先试它；但公开材料没有说明成品可控程度、版权归属或是否可商用，无法确认它能否替代现有外包流程。
+  usage_reason_en: 'Inference: it takes the hum directly as input, skipping the step of transcribing the
+    melody and finding an arranger, so people with melodic ideas but no production skill would try it
+    first; however public material does not state output controllability, rights ownership or commercial
+    usability, so it cannot be confirmed as a replacement for current outsourcing.'

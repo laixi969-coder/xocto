@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/flowpay-dach-cee-leaderboard
 summary: ''
 first_seen: '2026-09-16T05:00:04Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

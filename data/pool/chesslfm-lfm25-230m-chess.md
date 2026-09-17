@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/mlabonne-lfm2-5-230m-c
 summary: Play chess against a 230M-parameter language model
 first_seen: '2026-09-16T09:13:00Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

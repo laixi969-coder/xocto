@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/16/after-accusations-of-selling-pe
 summary: Can Meta dodge the "pervert glasses" accusations with a new camera-free product?
 first_seen: '2026-09-16T20:12:00Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

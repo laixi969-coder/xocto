@@ -1,0 +1,42 @@
+- id: req-initial-docx-to-markdown-2026-09-17
+  project_slug: docx-to-markdown
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 Word 迁入 Markdown 时的版式丢失问题，但公开材料未写出具体痛点、旧流程和不采用的后果，价值关证据不足。
+    evidence_ids:
+    - ev-31927dfc5d9aee55
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区讨论量很小，没有场景描述或用户评价，无法判断共识卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-31927dfc5d9aee55
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱从哪来，也未进入可核验的付费路径。
+    evidence_ids:
+    - ev-31927dfc5d9aee55
+  - gate: truth
+    status: insufficient
+    reason: 无法核对转换结果是否确定可用、人工校对边界在哪，交付确定性没有材料支持。
+    evidence_ids:
+    - ev-31927dfc5d9aee55
+  next_validation: 收集 Docx-to-Markdown 官方页面的定价与使用说明，确认转换后的交付形态、是否需要人工校对以及按什么方式收费。
+  market: ''
+  job: 技术文档工程师或内容编辑在把已有 Word 文档迁入 Markdown 知识库或文档站时，需要把带版式的 .docx 转成可继续编辑的 Markdown。
+  job_en: A technical writer or content editor migrating existing Word documents into a Markdown knowledge
+    base or docs site needs to convert layout-bearing .docx files into editable Markdown.
+  pain: 公开材料只给出“保留版式”这一句，未说明旧做法哪里出错、返工多少，也没有用户抱怨或案例，痛点强度无法确认。
+  pain_en: Public material gives only the phrase 'layout-aware', without saying where the old approach
+    fails or how much rework occurs, and there are no user complaints or cases, so pain intensity cannot
+    be confirmed.
+  current_alternative: 公开材料未提及现有替代方式，无法确认用户目前是用通用转换脚本、在线转换器还是手工重排。
+  current_alternative_en: No current alternative is mentioned; it is unclear whether users rely on generic
+    conversion scripts, online converters or manual reformatting today.
+  usage_reason: 无法判断。候选没有说明相较旧做法减少了哪一步返工，也没有用户反馈或客户案例支持选择动机。
+  usage_reason_en: Cannot be judged. The candidate does not say which rework step it removes versus the
+    old way, and there is no user feedback or customer case supporting the choice.

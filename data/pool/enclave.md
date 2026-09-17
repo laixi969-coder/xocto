@@ -21,7 +21,7 @@ canonical_url: https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hackin
 summary: DeepSeek v4.1 Flash Is Now Our Best Hacking Model
 first_seen: '2026-09-16T12:19:55Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

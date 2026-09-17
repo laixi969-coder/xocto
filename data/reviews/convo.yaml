@@ -1,0 +1,41 @@
+- id: req-initial-convo-2026-09-17
+  project_slug: convo
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决销售沟通后的记录与推进问题，但公开材料未写出具体痛点、旧流程和不采用的后果，价值关证据不足。
+    evidence_ids:
+    - ev-7b6334879d80404d
+  - gate: consensus
+    status: insufficient
+    reason: 除一句定位描述外没有场景描述、用户评价或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-7b6334879d80404d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱从哪来，也未进入可核验的付费路径。
+    evidence_ids:
+    - ev-7b6334879d80404d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近销售工作的第一性目标，也没有交付确定性与人工边界的说明。
+    evidence_ids:
+    - ev-7b6334879d80404d
+  next_validation: 收集 Convo 官方产品页或定价页，确认它接收什么销售材料、执行哪一步动作、交付什么结果以及按什么方式收费。
+  market: ''
+  job: 销售代表在与客户通话或跟进商机后，需要把沟通内容整理成可继续推进的记录与下一步动作。
+  job_en: A sales rep, after a customer call or deal follow-up, needs to turn the conversation into a
+    record and next steps that keep the deal moving.
+  pain: 公开材料未说明它解决的具体痛点，只能推断销售在通话后整理记录、更新商机状态这一步存在手工负担，但候选未提供任何用户抱怨或旧流程描述。
+  pain_en: Public material does not state the specific pain; one can only infer manual burden in post-call
+    note-taking and pipeline updates, and the candidate offers no user complaint or old-process description.
+  current_alternative: 公开材料未提及现有替代方式，无法确认销售目前是用 CRM 手工录入、通用会议纪要工具还是其他做法。
+  current_alternative_en: No current alternative is mentioned in the public material; it is unclear whether
+    reps use manual CRM entry, generic meeting-note tools or something else today.
+  usage_reason: 无法判断。候选只有一句定位描述，既没有说明它相较旧做法减少了哪一步负担，也没有用户反馈或客户案例支持选择动机。
+  usage_reason_en: Cannot be judged. The candidate has only a positioning line, with no explanation of
+    which step it removes versus the old way and no user feedback or customer case supporting the choice.

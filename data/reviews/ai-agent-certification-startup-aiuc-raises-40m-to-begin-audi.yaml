@@ -1,0 +1,42 @@
+- id: req-initial-ai-agent-certification-startup-aiuc-raises-40m-to-begin-audi-2026-09-17
+  project_slug: ai-agent-certification-startup-aiuc-raises-40m-to-begin-audi
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决模型行为缺少第三方核验的问题，痛点方向成立，但公开材料未说明审计对象、交付物与不采用后果，价值结构无法还原。
+    evidence_ids:
+    - ev-5acad81898adb931
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户名单、采购方或行业标准采纳的证据，共识环节无法判断。
+    evidence_ids:
+    - ev-5acad81898adb931
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按次还是按年收费、买方是模型厂商还是企业客户，付费路径不明。
+    evidence_ids:
+    - ev-5acad81898adb931
+  - gate: truth
+    status: insufficient
+    reason: 审计方法、人工边界与结论是否可复现均未公开，无法判断承诺能否确定性交付。
+    evidence_ids:
+    - ev-5acad81898adb931
+  next_validation: 收集 AIUC 官方发布的审计方法说明或公开客户案例页面，确认审计对象、交付物与买方类型。
+  market: ''
+  job: 企业采购或合规人员在引入前沿模型与智能体时，需要向内部或监管方说明模型行为是否合规，目前只能自行整理材料。
+  job_en: Procurement or compliance staff adopting frontier models and agents must explain model behavior
+    to internal or regulatory reviewers, and today can only assemble material themselves.
+  pain: 缺少第三方可核验的模型行为审计结论，采购与合规判断只能依赖供应商自述，难以对外交代。
+  pain_en: There is no third-party verifiable audit conclusion on model behavior, so procurement and compliance
+    rely on vendor self-reporting and struggle to justify decisions.
+  current_alternative: 由内部安全团队或外部咨询做一次性评估，或直接采信模型供应商的合规声明。
+  current_alternative_en: One-off internal security reviews or external consultants, or simply trusting
+    the model vendor's compliance statements.
+  usage_reason: 推断：若 AIUC 的审计结论能被采购与监管方接受，买方可在一次采购中省去自建评估流程；但公开材料未给出审计方法、报告样例或客户采用证据，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if AIUC''s audit conclusions are accepted by procurement and regulators,
+    buyers could skip building their own evaluation process; but no audit method, sample report or customer
+    adoption evidence is public, so user choice cannot be confirmed.'

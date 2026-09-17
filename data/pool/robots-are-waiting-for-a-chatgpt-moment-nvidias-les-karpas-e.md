@@ -24,7 +24,7 @@ summary: The robotics industry is still waiting for their breakthrough into day-
   up to $200 on your pass.
 first_seen: '2026-09-16T15:00:00Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3VQYXVpV0V3
 summary: 'EY: Supply Chain AI Has a Deployment Problem The Futurum Group'
 first_seen: '2026-09-16T13:51:56Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

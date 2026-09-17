@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQV2tvcUpuN1la
 summary: Top 10 Real Estate Software Development Companies to Watch in 2026 TechStory
 first_seen: '2026-09-16T14:46:58Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

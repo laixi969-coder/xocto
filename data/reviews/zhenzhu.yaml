@@ -1,0 +1,44 @@
+- id: req-initial-zhenzhu-2026-09-17
+  project_slug: zhenzhu
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决阅读中文时查词打断阅读节奏的问题，旧做法是切浏览器或词典应用逐个查，痛点具体且高频，交付是就地返回释义。
+    evidence_ids:
+    - ev-cb155839856980b9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 5 个社区点赞、0 条评论，属于关注度信号，不能说明学习者已经把它留在日常阅读流程里。
+    evidence_ids:
+    - ev-cb155839856980b9
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方可能是个人学习者，收费方式属判断而非已验证事实，也没有付费或采购证据。
+    evidence_ids:
+    - ev-cb155839856980b9
+  - gate: truth
+    status: insufficient
+    reason: 候选材料未说明释义来源、是否给出整句翻译或例句，学习者能否核对释义准确性这一环缺失。
+    evidence_ids:
+    - ev-cb155839856980b9
+  next_validation: 收集该产品官网的定价页与用户评价，确认释义来源、是否提供整句翻译，以及是否有学习者报告持续使用。
+  market: ''
+  job: 在 macOS 上阅读中文文章或书籍的学习者，遇到不认识的词句时，需要在不离开原文的情况下拿到释义，以便继续读下去。
+  job_en: A learner reading Chinese articles or books on macOS, on encountering an unfamiliar word or
+    phrase, needs a definition without leaving the original text so they can keep reading.
+  pain: 查词要切到浏览器或词典应用，打断阅读节奏，长文阅读中反复切换成本高；候选材料未提供用户抱怨或使用频率的直接证据。
+  pain_en: Looking up a word requires switching to a browser or dictionary app, breaking reading rhythm,
+    and the repeated switching cost is high in long texts; the candidate material offers no direct evidence
+    of user complaints or usage frequency.
+  current_alternative: 现有做法是切到浏览器搜索、使用系统词典或第三方词典应用，逐个词查询。
+  current_alternative_en: The existing approach is switching to a browser search, the system dictionary,
+    or a third-party dictionary app to look up words one by one.
+  usage_reason: 推断：相较切窗口查词，它在阅读位置直接接收选中文本并返回释义，省去切换应用和重新定位原文这两步，因此对需要长时间连续阅读中文的学习者更可能被选择；候选材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with switching windows to look up words, it takes the selected
+    text in place and returns a definition, removing the steps of changing apps and relocating the passage,
+    so learners who read Chinese continuously for long stretches are more likely to choose it; the candidate
+    material provides no retention or repeat-use evidence.'

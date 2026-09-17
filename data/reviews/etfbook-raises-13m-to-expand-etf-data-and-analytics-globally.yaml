@@ -1,0 +1,44 @@
+- id: req-initial-etfbook-raises-13m-to-expand-etf-data-and-analytics-globally-2026-09-17
+  project_slug: etfbook-raises-13m-to-expand-etf-data-and-analytics-globally
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来：材料只提 ETF 数据与分析平台，未说明旧流程、输入、动作与不采用的后果。
+    evidence_ids:
+    - ev-828d576340588d1c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。材料未提供任何用户采用、客户案例或社区讨论证据。
+    evidence_ids:
+    - ev-828d576340588d1c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。仅披露 1300 万美元融资与领投方，未说明买方、定价或付费路径。
+    evidence_ids:
+    - ev-828d576340588d1c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核对交付是否确定发生，也无安全与人工边界信息。
+    evidence_ids:
+    - ev-828d576340588d1c
+  next_validation: 收集 ETFBOOK 官方产品页或定价页，确认其数据覆盖范围、具体交付物与收费方式。
+  market: ''
+  job: ETF 数据团队与投资研究人员在需要整理某只或某组 ETF 的持仓、费用与业绩材料时，把分散的基金披露文件汇总成可核对的 ETF 数据与分析结果。
+  job_en: ETF data teams and investment researchers compile scattered fund disclosure documents into checkable
+    ETF data and analysis when they need holdings, fees and performance material for one or a group of
+    ETFs.
+  pain: 公开材料只说明平台做 ETF 数据与分析，未说明原来由谁、用什么工具、花多久完成，也未说明具体痛点，因此无法确认痛感强度。
+  pain_en: Public material only says the platform does ETF data and analytics; it does not say who did
+    this before, with what tools, or how long it took, nor the specific pain, so pain intensity cannot
+    be confirmed.
+  current_alternative: 公开材料未披露用户此前用什么方式替代，例如手工整理披露文件、采购数据终端或使用内部表格，均属未知。
+  current_alternative_en: Public material does not disclose what users used before, such as manually compiling
+    filings, buying data terminals or using internal spreadsheets; all unknown.
+  usage_reason: 无法判断：材料未说明 AI 具体接收什么、执行哪一步、减少哪一步负担，也未给出客户案例或使用反馈，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what the AI ingests, which step it performs,
+    or which burden it removes, and gives no customer case or user feedback, so it cannot explain why
+    users would choose it.'

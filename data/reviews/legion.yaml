@@ -1,0 +1,44 @@
+- id: req-initial-legion-2026-09-17
+  project_slug: legion
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是应用内动态执行逻辑的需求，痛点真实存在，但公开材料只有一句描述，无法确认沙箱隔离与交付是否可靠，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-a144b8f2d9f2db84
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 9 分、0 评论，没有可归因到该项目的采用或关注证据，共识环节无法成立。
+    evidence_ids:
+    - ev-a144b8f2d9f2db84
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，开源项目可能靠托管或支持收费，但这只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-a144b8f2d9f2db84
+  - gate: truth
+    status: insufficient
+    reason: 沙箱安全边界、人工确认环节和失败处理均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-a144b8f2d9f2db84
+  next_validation: 收集 Legion 官方仓库的 README、issue 与 discussion，确认沙箱隔离机制、接入方式和是否有团队实际部署使用。
+  market: ''
+  job: Elixir 后端工程师在需要让应用执行一段可变逻辑时，处理由 AI 生成的 Lua 脚本，要把它安全地跑在现有服务里并拿到执行结果。
+  job_en: An Elixir backend engineer who needs the app to run variable logic handles AI-generated Lua
+    scripts, aiming to execute them safely inside the existing service and get results.
+  pain: 旧做法要么把逻辑硬编码进应用再发版，要么自建脚本执行层并自己处理隔离与权限，前者慢、后者容易出安全问题。
+  pain_en: The old way is either hardcoding logic and shipping a release, or building a script execution
+    layer and handling isolation and permissions alone; the first is slow, the second is error-prone on
+    security.
+  current_alternative: 手写 Elixir 代码走正常发布流程，或自行搭建脚本引擎与沙箱。
+  current_alternative_en: Hand-writing Elixir code through the normal release process, or building a script
+    engine and sandbox in-house.
+  usage_reason: 推断：如果 Legion 真能把沙箱隔离、脚本生成和执行串成一步，团队就不必自己维护脚本引擎，也不必为每次逻辑变更走完整发版；但公开材料只有一句项目描述，缺少接入方式、隔离机制说明和任何使用反馈，因此尚不能确认它会进入工作流。
+  usage_reason_en: 'Inference: if Legion truly chains sandbox isolation, script generation and execution
+    into one step, teams would not need to maintain a script engine or run a full release for each logic
+    change; but public material is a single project description with no integration path, isolation details
+    or usage feedback, so entry into the workflow cannot be confirmed.'

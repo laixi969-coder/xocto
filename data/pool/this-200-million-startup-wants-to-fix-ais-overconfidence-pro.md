@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQa2R2bWlzTEtZ
 summary: This $200 Million Startup Wants To Fix AI’s Overconfidence Problem Forbes
 first_seen: '2026-09-15T20:17:13Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

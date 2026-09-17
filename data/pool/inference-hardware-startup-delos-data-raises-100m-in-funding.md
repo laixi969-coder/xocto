@@ -1,6 +1,6 @@
 ---
 slug: inference-hardware-startup-delos-data-raises-100m-in-funding
-name: Inference hardware startup Delos Data raises $100M+ in funding
+name: Delos Data
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxNRW51bHhVaElj
 summary: Inference hardware startup Delos Data raises $100M+ in funding SiliconANGLE
 first_seen: '2026-09-17T00:21:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Inference hardware startup Delos Data raises $100M+ in funding
+# Delos Data
 
 Inference hardware startup Delos Data raises $100M+ in funding SiliconANGLE
 

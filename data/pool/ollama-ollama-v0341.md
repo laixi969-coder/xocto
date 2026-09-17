@@ -3,12 +3,11 @@ slug: ollama-ollama-v0341
 name: Ollama
 builder: ollama
 category: ''
-summary_zh: 这是本地模型运行工具 Ollama 的一次版本更新，不是新的独立产品。它调整的是模型创建与量化路径、Apple Silicon 上的内存处理、接口响应速度和采样参数，面向的是自己在本机跑模型、做本地推理与模型转换的开发者。
+summary_zh: 这是本地模型运行工具的一次版本更新，不是新的独立产品。它把 Apple Silicon 上的 MLX 模型创建从实验状态转为正式支持，并大幅加快大模型库的列表查询速度，影响的是本地部署与推理环节的开发者体验。
 inspiration: ''
-summary_en: This is a version update to the local model runtime Ollama, not a new standalone product.
-  It changes model creation and quantization paths, memory handling on Apple Silicon, API response speed
-  and a sampling parameter, aimed at developers who run models locally and do local inference and model
-  conversion.
+summary_en: This is a version update to a local model runtime, not a new standalone product. It promotes
+  MLX model creation on Apple Silicon out of experimental status and speeds up listing large model libraries,
+  affecting developer experience in local deployment and inference.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -30,7 +29,7 @@ summary: "## What's Changed\r\n* MLX safetensors `ollama create` no longer exper
   \n* MLX and llama.cpp updates\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.0...v0.34.1-rc1"
 first_seen: '2026-09-14T22:14:03Z'
 last_seen: '2026-09-17T00:32:43Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:

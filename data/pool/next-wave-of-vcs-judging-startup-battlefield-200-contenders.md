@@ -23,7 +23,7 @@ summary: Meet the next five top-tier investors judging the Startup Battlefield 2
   the ultimate startup pitch competition.
 first_seen: '2026-09-16T14:15:00Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

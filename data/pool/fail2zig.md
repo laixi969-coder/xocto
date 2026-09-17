@@ -21,7 +21,7 @@ canonical_url: https://fail2zig.com
 summary: Fail2zig. A single-binary fail2ban replacement written in Zig
 first_seen: '2026-09-16T19:52:26Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

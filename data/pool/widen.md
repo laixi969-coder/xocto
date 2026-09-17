@@ -3,28 +3,41 @@ slug: widen
 name: Widen
 builder: thedreammachine
 category: AI + 开发
-summary_zh: 在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面
-inspiration: 趋势是问数据的人不会写查询语句，但数据又不能出门。切入先做财务、运营这种天天问「这个数怎么来的」、还不能把库交给云的岗位。
-summary_en: When you query the company database on a Mac, the on-device AI helps ask for the number, and
-  the data never leaves the machine.
-inspiration_en: The trend is that the people who need numbers cannot write queries, yet the data cannot
-  leave. Enter finance and ops seats that ask “where did this number come from?” every day and cannot
-  hand the database to the cloud.
+summary_zh: 开发者在 macOS 上查看和操作 Postgres 数据库时打开它，原本要在客户端工具里手写 SQL 才能查表、看结构；它把自然语言交给 Apple 的设备端模型转成查询，在本地
+  Postgres 上执行后把结果表返回给用户，具体支持的查询范围与是否需要人工复核仍待核验。
+inspiration: 趋势是本地小模型开始被塞进开发者日常工具，把「写 SQL」这一步换成说人话；切入可以选那些数据不能出内网、又不想为 BI 工具付席位的团队，从数据库日常查询这一环做单点替代，而不是做通用
+  SQL 助手。
+summary_en: A developer working with Postgres on macOS opens it instead of hand-writing SQL in a client;
+  it sends natural language to Apple's on-device model, runs the resulting query against a local Postgres
+  instance and returns the result table, while the exact query coverage and whether human review is required
+  remain unverified.
+inspiration_en: The trend is small on-device models being embedded into everyday developer tools, replacing
+  the step of writing SQL with plain language; the entry point is teams whose data cannot leave the internal
+  network and who do not want to pay per-seat BI licences, attacking the routine database query step rather
+  than building a general SQL assistant.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: open_source
+industries:
+- 软件开发
+- 信息技术服务
+industries_en:
+- Software Development
+- IT Services
+jobs:
+- 数据库开发与运维
+- 后端工程师
+jobs_en:
+- Database Developer / DBA
+- Backend Engineer
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/betocmn/widen
 canonical_url: https://github.com/betocmn/widen
 summary: a native Postgres GUI using Apple's on-device LLM
 first_seen: '2026-08-16T02:35:51Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch

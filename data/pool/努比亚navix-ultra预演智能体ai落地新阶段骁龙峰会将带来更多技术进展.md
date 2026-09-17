@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yTGVJSW9JSjdf
 summary: 努比亚NaviX Ultra预演智能体AI落地新阶段，骁龙峰会将带来更多技术进展 icloudnews.net
 first_seen: '2026-09-16T11:27:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

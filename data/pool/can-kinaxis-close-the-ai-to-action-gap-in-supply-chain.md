@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2VNZUVPRzdh
 summary: Can Kinaxis Close the AI-to-Action Gap in Supply Chain? The Futurum Group
 first_seen: '2026-09-16T13:28:44Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-ai-native-semiconductor-verification-startup-verifaix-raises-2026-09-17
+  project_slug: ai-native-semiconductor-verification-startup-verifaix-raises
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决半导体验证环节的问题，但材料未说明具体输入、动作与交付，连痛点都只能靠推断，价值结构尚无法确认。
+    evidence_ids:
+    - ev-61829714a34ab0af
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有融资报道，没有客户采用、公开评价或场景共识证据。
+    evidence_ids:
+    - ev-61829714a34ab0af
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露买方、定价或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-61829714a34ab0af
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近验证工作的第一性目标，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-61829714a34ab0af
+  next_validation: 收集 VerifAIX 官方产品页或技术文档，确认它接收的设计输入、执行的验证动作与交付物形态。
+  market: ''
+  job: 芯片验证工程师在流片前需要针对设计规格搭建测试平台、跑回归并定位失败用例，以确认设计是否满足功能要求。
+  job_en: Before tape-out, chip verification engineers must build testbenches against the design spec,
+    run regressions, and localize failing cases to confirm the design meets functional requirements.
+  pain: 公开材料未说明 VerifAIX 具体缓解哪一步痛苦，只能推断验证环节人力稀缺、回归周期长；缺少可引用的用户抱怨或旧流程描述。
+  pain_en: Public material does not state which step VerifAIX relieves; it can only be inferred that verification
+    talent is scarce and regression cycles are long, with no citable user complaint or legacy-process
+    description.
+  current_alternative: 现有做法是商用 EDA 验证工具加资深工程师手工编写约束与调试波形，公开材料未说明 VerifAIX 相对这一做法的差异。
+  current_alternative_en: The current approach is commercial EDA verification tools plus senior engineers
+    hand-writing constraints and debugging waveforms; public material does not describe how VerifAIX differs
+    from this.
+  usage_reason: 无法判断：材料只给出融资事实，未说明它替代哪一步旧动作、减少哪一步负担，因此不能解释工程师为何会选择它。
+  usage_reason_en: 'Cannot be judged: the material only gives the funding fact and does not say which
+    legacy step it replaces or which burden it removes, so it cannot explain why engineers would choose
+    it.'

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/drinkmoonshine/parallel-constrained
 summary: ''
 first_seen: '2026-09-16T06:00:48Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

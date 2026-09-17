@@ -23,7 +23,7 @@ summary: "Release:   datasette 0.65.5  \n         Security fix for an issue wher
   \  in  GHSA-h547-rmjf-5m2m . \n    \n    \n         Tags:  security ,  datasette"
 first_seen: '2026-09-16T23:51:08Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-cartesian-2026-09-17
+  project_slug: cartesian
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决概念阶段从想法到可编辑三维形体的任务，手工建模耗时是真实痛点，替代行为明确。
+    evidence_ids:
+    - ev-1d0107b234d82e2d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度说明有人关注，但没有用户反馈或案例说明它被持续用于实际设计流程。
+    evidence_ids:
+    - ev-1d0107b234d82e2d
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料没有定价页、买方类型或收费方式，付费路径无法核验。
+    evidence_ids:
+    - ev-1d0107b234d82e2d
+  - gate: truth
+    status: insufficient
+    reason: 未进入：生成结果是否满足可制造或可施工要求、人工需要复核到哪一步，材料均未说明。
+    evidence_ids:
+    - ev-1d0107b234d82e2d
+  next_validation: 收集 Cartesian 官方定价页与导出格式说明，确认它按什么计价、生成结果能否直接进入下游建模或制造流程。
+  market: ''
+  job: 工业设计师或建筑室内设计师在概念阶段，根据文字描述或草图，需要快速得到可继续编辑的三维形体，用于方案比选和向客户展示。
+  job_en: Industrial or interior designers at the concept stage need to turn text descriptions or sketches
+    into editable 3D forms for option comparison and client presentation.
+  pain: 从草图到可编辑模型通常要手工建模数小时到数天，早期方案反复修改时这部分成本被重复支付。
+  pain_en: Going from sketch to editable model usually takes hours to days of manual modeling, and that
+    cost is paid again each time an early concept changes.
+  current_alternative: 用传统建模软件手工拉面，或先用图生成工具出效果图再另行建模。
+  current_alternative_en: Manual surface modeling in traditional CAD software, or generating concept images
+    first and modeling separately afterwards.
+  usage_reason: 推断：相较手工建模，它把形体生成提前到描述或草图阶段，减少从零搭建基础几何的步骤，因此需要快速产出多个概念方案的设计师会在方案比选阶段选择它。
+  usage_reason_en: 'Inference: compared with manual modeling, it moves form generation earlier to the
+    description or sketch stage and removes the step of building base geometry from scratch, so designers
+    who need several concept options quickly would choose it during option comparison.'

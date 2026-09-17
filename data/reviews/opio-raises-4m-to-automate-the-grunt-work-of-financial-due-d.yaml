@@ -1,0 +1,45 @@
+- id: req-initial-opio-raises-4m-to-automate-the-grunt-work-of-financial-due-d-2026-09-17
+  project_slug: opio-raises-4m-to-automate-the-grunt-work-of-financial-due-d
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决并购与投资前账目核查的重复劳动问题，痛点是人工逐项比对耗时且易漏，旧做法是手工底稿核对，结构上成立。
+    evidence_ids:
+    - ev-6bfe0c79ec402e37
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，未见客户名单、事务所采用或审计师公开评价，尚不能判断买方共识。
+    evidence_ids:
+    - ev-6bfe0c79ec402e37
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，买方可能是审计所或交易顾问，按项目还是按席位收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-6bfe0c79ec402e37
+  - gate: truth
+    status: insufficient
+    reason: 未见交付准确率、人工复核边界或与审计准则的合规说明，承诺能否确定性交付仍缺公开材料。
+    evidence_ids:
+    - ev-6bfe0c79ec402e37
+  next_validation: 收集 Opio 官方定价页或客户案例页面，确认其收费方式与已披露的审计所、尽调团队使用情况。
+  market: ''
+  job: 审计师或财务尽调分析师在并购、投资交易前核查目标公司账目时，需要处理大量财务凭证与账目资料，完成账目核对并形成可供复核的核查结论。
+  job_en: Auditors or financial due diligence analysts checking a target company's accounts before a deal
+    or investment must work through large volumes of financial records and vouchers to complete account
+    reconciliation and produce reviewable findings.
+  pain: 账目核查以人工逐项比对为主，重复劳动多、耗时长，且容易在密集核对中漏项；交易时间表紧时，人力排期直接成为瓶颈。
+  pain_en: 'Account checking is largely manual item-by-item comparison: repetitive, slow and prone to
+    missed items under dense workloads; when deal timelines are tight, staffing becomes the bottleneck.'
+  current_alternative: 目前主要靠审计师手工核对账目、Excel 底稿与事务所内部模板，部分环节借助通用表格公式或通用大模型做零散辅助。
+  current_alternative_en: Today this is mainly done by auditors checking accounts by hand, with Excel
+    working papers and firm-internal templates, occasionally aided by spreadsheet formulas or general-purpose
+    LLMs for isolated steps.
+  usage_reason: 推断：相较纯手工核对，Opio 把账目检查中的重复比对动作交给专用模型执行，减少逐项人工翻查这一步，使审计师把时间放在异常判断与结论确认上；因此交易时间紧、人手有限的审计与尽调团队会在核查阶段选择它。
+  usage_reason_en: 'Inference: compared with purely manual checking, Opio hands the repetitive comparison
+    steps of account examination to a specialised model, cutting the item-by-item manual search so auditors
+    can spend time on anomaly judgement and sign-off; audit and due diligence teams facing tight deal
+    timelines and limited staff would therefore choose it during the verification stage.'

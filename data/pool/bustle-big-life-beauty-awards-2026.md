@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE51R2NGSHNvWHFD
 summary: Bustle Big Life Beauty Awards 2026 Bustle
 first_seen: '2026-09-15T07:00:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOQTc5Ynh0U2dY
 summary: OnTrac Names Arjun Sainath Chief Technology Officer to Advance AI Strategy citybiz
 first_seen: '2026-09-14T21:04:52Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

@@ -1,6 +1,6 @@
 ---
 slug: migrating-the-github-copilot-runtime-to-rust-using-copilot
-name: Migrating the GitHub Copilot runtime to Rust, using Copilot
+name: Copilot
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: "A rewrite this size wasn't affordable before agents. Here's what porti
   \ to Rust, using Copilot  appeared first on  The GitHub Blog ."
 first_seen: '2026-09-17T00:26:43Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Migrating the GitHub Copilot runtime to Rust, using Copilot
+# Copilot
 
 A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. 
  The post  Migrating the GitHub Copilot runtime to Rust, using Copilot  appeared first on  The GitHub Blog .

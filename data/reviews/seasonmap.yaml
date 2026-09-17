@@ -1,0 +1,44 @@
+- id: req-initial-seasonmap-2026-09-17
+  project_slug: seasonmap
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨目的地比较季节适宜度这一步，但公开材料未说明输出形态与是否由模型生成，用户任务与不采用后果无法完整还原。
+    evidence_ids:
+    - ev-e7bafd9d92387cc5
+  - gate: consensus
+    status: insufficient
+    reason: 10 点、9 条评论只说明一次讨论热度，没有可归因到该产品的持续使用信号。
+    evidence_ids:
+    - ev-e7bafd9d92387cc5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，收入来源无法从公开材料判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e7bafd9d92387cc5
+  - gate: truth
+    status: insufficient
+    reason: 气候数据来源、更新频率与建议是否可核对，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-e7bafd9d92387cc5
+  next_validation: 收集 SeasonMap 官方页面的数据来源说明与定价信息，核验气候数据口径、更新频率与是否由模型生成建议。
+  market: ''
+  job: 旅行规划者在决定某段时间去哪里时，需要比较多个目的地的季节与气候适宜度，避免选到雨季或极端天气时段。
+  job_en: Trip planners deciding where to go in a given period need to compare seasonal and climate suitability
+    across destinations to avoid rainy seasons or extreme weather windows.
+  pain: 气候信息散落在气象网站、攻略和论坛里，跨目的地比较费时；但公开材料只说明用气候数据做可视化，没有用户抱怨或采用证据，痛点强度无法确认。
+  pain_en: Climate information is scattered across weather sites, guides and forums, making cross-destination
+    comparison time-consuming; but public material only says climate data is visualized, with no user
+    complaints or adoption evidence, so pain intensity cannot be confirmed.
+  current_alternative: 在气象网站、旅行攻略和论坛帖之间逐个查目的地，或依赖他人经验判断季节。
+  current_alternative_en: Checking destinations one by one across weather sites, travel guides and forum
+    posts, or relying on others' experience to judge seasons.
+  usage_reason: 推断：如果气候数据被整理成可横向比较的视图，规划者可省去逐个查目的地气候这一步，因此在意季节与天气的自由行规划者会在选目的地时使用它；公开材料未说明是否由模型生成建议，也无留存证据。
+  usage_reason_en: 'Inference: if climate data is organized into a comparable view, planners would skip
+    looking up each destination''s climate, so independent travelers who care about season and weather
+    would use it when choosing destinations; whether a model generates recommendations and any retention
+    evidence are not public.'

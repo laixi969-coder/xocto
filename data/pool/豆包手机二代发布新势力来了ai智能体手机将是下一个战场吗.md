@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9SWmM3LWN4VkpD
 summary: 豆包手机二代发布，新势力来了，AI智能体手机将是下一个战场吗？ t.cj.sina.cn
 first_seen: '2026-09-16T13:29:24Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

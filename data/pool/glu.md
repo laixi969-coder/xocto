@@ -21,7 +21,7 @@ canonical_url: https://glu.run
 summary: installing Homebrew packages 2x faster on macOS
 first_seen: '2026-09-16T05:15:40Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

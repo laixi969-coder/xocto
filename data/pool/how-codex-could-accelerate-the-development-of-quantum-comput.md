@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizAFBVV95cUxONngtZkRTRVE4
 summary: How Codex Could Accelerate the Development of Quantum Computing Analytics Insight
 first_seen: '2026-09-16T04:00:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

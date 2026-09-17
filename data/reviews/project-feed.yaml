@@ -1,0 +1,43 @@
+- id: req-initial-project-feed-2026-09-17
+  project_slug: project-feed
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把文件审阅并入项目管理，但公开材料未说明 AI 在审阅中做什么，也说不清用户任务与不采用后果，价值结构无法还原。
+    evidence_ids:
+    - ev-4345ad2d8680f578
+  - gate: consensus
+    status: insufficient
+    reason: 除一句功能描述外没有采用、评价或讨论信号，无法判断是否形成共识。
+    evidence_ids:
+    - ev-4345ad2d8680f578
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，收入来源无法从公开材料判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4345ad2d8680f578
+  - gate: truth
+    status: insufficient
+    reason: 审阅由模型还是人工完成、结果如何确认，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-4345ad2d8680f578
+  next_validation: 收集 Project Feed 的官方产品页与定价页，核验文件审阅环节由 AI 还是人工承担、以及具体交付物。
+  market: ''
+  job: 项目经理或创意团队负责人在推进需要反复过稿的协作项目时，需要把文件审阅意见和项目进度放在同一处，避免意见散落在邮件与聊天里。
+  job_en: Project managers or creative team leads running projects with repeated draft reviews need file
+    review comments and project progress in one place, so feedback does not scatter across email and chat.
+  pain: 审阅意见分散、版本对不上是常见问题，但公开材料只有一句功能描述，没有说明 AI 在审阅中做什么，也没有用户抱怨或案例，痛点强度无法确认。
+  pain_en: Scattered review comments and mismatched versions are common problems, but public material
+    is one feature line with no description of the AI's role in review and no user complaints or cases,
+    so pain intensity cannot be confirmed.
+  current_alternative: 用通用项目管理工具加云盘或邮件来回传文件，审阅意见写在评论、批注或邮件里。
+  current_alternative_en: Generic project management tools plus cloud drives or email for file exchange,
+    with review comments living in comments, annotations or email.
+  usage_reason: 推断：如果审阅意见能直接落在项目节点上，团队可省去在项目工具与文件工具之间来回切换、手工汇总意见这一步；但公开材料未说明 AI 具体动作，也无用户反馈，无法确认这一替代是否成立。
+  usage_reason_en: 'Inference: if review comments land directly on project milestones, teams would skip
+    switching between project and file tools and manually consolidating feedback; but the AI''s concrete
+    action is unstated and no user feedback exists, so this substitution cannot be confirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RUmJNWVh3OEVr
 summary: 'AI in Customer Service Statistics 2026: 250+ Data Points You Need to Know Memeburn'
 first_seen: '2026-09-16T03:56:12Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

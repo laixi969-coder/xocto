@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/cat-me-app
 summary: See yourself or your friends as cats
 first_seen: '2026-09-14T21:28:07Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPVnNpVXdXVjNp
 summary: Keysight's 56% Order Jump Puts AI Demand and Q4 Guidance in Focus TradingView
 first_seen: '2026-09-16T15:23:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

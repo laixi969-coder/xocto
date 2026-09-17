@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NZTNyQnVPcC1R
 summary: 天元互动发布全新雷竞技app免费下载安装版本 以技术创新驱动棋牌产业绿色转型 体坛加
 first_seen: '2026-09-16T00:55:16Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

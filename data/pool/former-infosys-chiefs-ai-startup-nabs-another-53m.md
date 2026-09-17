@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFd1UlB6TUNf
 summary: Former Infosys chief’s AI startup nabs another $53M techcrunch.com
 first_seen: '2026-09-16T13:00:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

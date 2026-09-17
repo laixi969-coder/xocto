@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UZW52ZG1QOUt5
 summary: ag百家乐客户端官方推出AI录音笔，赋能办公效率新升级 体坛加
 first_seen: '2026-09-16T11:09:54Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

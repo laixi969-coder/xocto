@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JSXpKU1FKaXdS
 summary: 拿下全球八成造船订单，中国船厂拿AI碾压日韩 eet-china.com
 first_seen: '2026-09-16T08:30:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

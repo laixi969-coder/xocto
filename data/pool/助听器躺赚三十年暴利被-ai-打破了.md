@@ -1,20 +1,42 @@
 ---
 slug: 助听器躺赚三十年暴利被-ai-打破了
-name: 助听器躺赚三十年暴利，被 AI 打破了
+name: 昂听
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: 听力受损用户在嘈杂餐厅等场景佩戴它，设备接收环境中的混合人声并做音频分离与放大，让用户听清对面一人的说话内容；据公开报道其已在美国亚马逊助听器类目做到第一，但具体验配流程、人工确认环节与售后交付方式仍待核验。
+inspiration: 趋势是助听器这类被五家外资品牌用芯片算法加线下验配门店锁住的高价品类，正被深圳团队用AI音频分离加线上直销拆开。切入可考虑从验配与售后这一环进入：为出海助听器品牌做远程听力测试、参数调试与复购耗材服务，按次或按年收费，而不是再做一个硬件。
+summary_en: Hearing-impaired users wear it in noisy restaurants and similar settings; the device picks
+  up mixed voices from the environment and performs audio separation and amplification so the user can
+  hear one person clearly. Public reports say it became the top seller in the US Amazon hearing-aid category,
+  but the fitting process, human confirmation steps and after-sales delivery still need verification.
+inspiration_en: 'The trend: a high-priced category locked by five foreign brands through chip algorithms
+  plus offline fitting clinics is being opened up by Shenzhen teams using AI audio separation and direct
+  online sales. The opening is the fitting and after-sales step: remote hearing tests, parameter tuning
+  and consumable subscriptions for overseas hearing-aid brands, charged per session or per year, rather
+  than building another device.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 医疗器械
+- 消费电子
+- 听力健康服务
+industries_en:
+- medical devices
+- consumer electronics
+- hearing health services
+jobs:
+- 听力受损用户在嘈杂餐厅等场景中佩戴设备，处理多人交谈的混合声音，需要听清对面一人的说话内容
+jobs_en:
+- Hearing-impaired users wear the device in noisy restaurants and other settings, process mixed voices
+  from several speakers, and need to hear one person clearly
+regions:
+- 中国
+- 美国
+- 日本
+regions_en:
+- China
+- United States
+- Japan
 open_source: false
 url: http://www.geekpark.net/news/370445
 canonical_url: https://geekpark.net/news/370445
@@ -80,7 +102,7 @@ summary: "一个塞在耳朵里的小东西，卖到十万一副，丢失甚至�
   \ \n AI 能改变很多东西。但能不能让一个老人重新听清世界的声音，这件事，值得更多人一起来做。"
 first_seen: '2026-09-16T08:06:55Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -91,7 +113,7 @@ sightings:
   kind: news
 ---
 
-# 助听器躺赚三十年暴利，被 AI 打破了
+# 昂听
 
 一个塞在耳朵里的小东西，卖到十万一副，丢失甚至需要动用全城搜索？ 
  助听器，是一门奇特的生意。 

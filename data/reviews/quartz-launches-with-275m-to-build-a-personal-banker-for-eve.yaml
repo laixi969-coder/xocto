@@ -1,0 +1,43 @@
+- id: req-initial-quartz-launches-with-275m-to-build-a-personal-banker-for-eve-2026-09-17
+  project_slug: quartz-launches-with-275m-to-build-a-personal-banker-for-eve
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是分散账户难以形成资金安排的问题，痛点方向成立，但公开材料未说明建议如何交付、是否可执行，价值强度无法确认。
+    evidence_ids:
+    - ev-caeb0e6c41b4e683
+  - gate: consensus
+    status: insufficient
+    reason: 仅有上线与融资信息，没有采用、评价或场景验证材料，共识环节缺少可核对依据。
+    evidence_ids:
+    - ev-caeb0e6c41b4e683
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或按结果收费均属推断，付费路径尚未核验。
+    evidence_ids:
+    - ev-caeb0e6c41b4e683
+  - gate: truth
+    status: insufficient
+    reason: 理财建议涉及合规与人工边界，公开材料未说明建议是否经人工复核或受监管约束。
+    evidence_ids:
+    - ev-caeb0e6c41b4e683
+  next_validation: 收集Quartz官方定价页或产品文档，确认其收费方式、账户接入范围与建议交付形式。
+  market: ''
+  job: 英国有多张银行卡和多个账户的个人用户，在月末或收入到账时，需要把分散的账户与支出记录整理成一份可执行的资金安排。
+  job_en: UK individuals with several cards and accounts who, at month-end or when income arrives, need
+    to turn scattered account and spending records into an actionable money plan.
+  pain: 账户分散、支出记录零散，用户难以判断钱花在哪里、下一步该怎么分配；公开材料未说明这一痛点被验证到什么程度。
+  pain_en: Accounts are fragmented and spending records are scattered, so users struggle to see where
+    money goes and how to allocate it next; the public material does not show how far this pain has been
+    validated.
+  current_alternative: 用户目前多靠银行自带账单、手工记账表格或通用聊天助手做粗略整理。
+  current_alternative_en: Users currently rely on bank statements, manual spreadsheets or general chat
+    assistants for rough organisation.
+  usage_reason: 推断：若产品能直接读取账户与交易数据并输出资金安排，用户可省去手工汇总账单这一步；但公开材料未给出定价、留存或客户案例，无法确认用户会持续使用。
+  usage_reason_en: 'Inference: if the product can read account and transaction data directly and output
+    a money plan, users skip the manual step of aggregating statements; however, no pricing, retention
+    or customer cases are public, so continued use cannot be confirmed.'

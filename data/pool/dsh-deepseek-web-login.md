@@ -22,7 +22,7 @@ summary: 'Unofficial DSH (DeepSeek Harness) plugin: use chat.deepseek.com web mo
   - browser-login capture, PoW solving, SSE streaming, prompting-based tool calls.'
 first_seen: '2026-09-10T13:10:31Z'
 last_seen: '2026-09-17T00:32:43Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

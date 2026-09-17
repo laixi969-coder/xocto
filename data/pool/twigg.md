@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/twigg
 summary: The context layer you never have to build
 first_seen: '2026-09-14T16:29:15Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

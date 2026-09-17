@@ -1,0 +1,43 @@
+- id: req-initial-snap-is-launching-a-new-specs-ai-tool-and-its-coming-to-ios-2026-09-17
+  project_slug: snap-is-launching-a-new-specs-ai-tool-and-its-coming-to-ios
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨账户汇总工作与行程信息的任务，但公开材料未说明用户此前卡在哪一步、不采用会失去什么，痛点刚性无法判断。
+    evidence_ids:
+    - ev-869b9e4ece0f950b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，没有用户评价、采用规模或场景验证，无法判断共识卡在感知、想象还是场景。
+    evidence_ids:
+    - ev-869b9e4ece0f950b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，Snap 可能走订阅或生态绑定，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-869b9e4ece0f950b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对账户授权边界、数据安全与人工确认环节，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-869b9e4ece0f950b
+  next_validation: 收集 Specs Intelligence 的官方产品页或支持文档，核验其账户授权范围、可用地区与是否收费。
+  market: ''
+  job: Snap 用户在 iOS 或 Mac 上处理工作任务与行程信息时，需要把分散在其他数字账户里的内容汇总起来并得到协助。
+  job_en: Snap users on iOS or Mac handling work tasks and travel information need to pull together content
+    scattered across other digital accounts and get assistance.
+  pain: 公开材料只说明它能连接账户并协助工作与旅行信息，未说明用户此前具体卡在哪一步、不采用会失去什么。
+  pain_en: Public material only says it connects accounts and helps with work and travel information;
+    it does not say which step users were stuck on or what they lose without it.
+  current_alternative: 用户目前可能分别打开各个账户应用手动查看，或使用 Meta Muse、Gemini Spark 等已有助手；候选材料未给出可核验的替代行为细节。
+  current_alternative_en: Users may currently open each account app manually or use existing assistants
+    such as Meta Muse and Gemini Spark; the candidate material gives no verifiable detail on that alternative
+    behavior.
+  usage_reason: 推断：若它能在授权后自动读取多个账户并主动提示行程或任务，用户可省去逐个打开应用核对这一步；但公开材料未说明交付是否确定发生，也未给出用户反馈或采用证据。
+  usage_reason_en: 'Inference: if it can read multiple accounts after authorization and proactively surface
+    trips or tasks, users could skip opening each app to check; however, public material does not show
+    that delivery reliably happens, nor any user feedback or adoption evidence.'

@@ -1,6 +1,6 @@
 ---
 slug: 开启中国创新药智能体时代veeva发布研发与质量领域ai-产品与路线图
-name: 开启中国创新药智能体时代，Veeva发布研发与质量领域AI 产品与路线图
+name: Veeva
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VY0tMWVRmS3JJ
 summary: 开启中国创新药智能体时代，Veeva发布研发与质量领域AI 产品与路线图 美通社
 first_seen: '2026-09-16T14:18:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 开启中国创新药智能体时代，Veeva发布研发与质量领域AI 产品与路线图
+# Veeva
 
 开启中国创新药智能体时代，Veeva发布研发与质量领域AI 产品与路线图 美通社
 

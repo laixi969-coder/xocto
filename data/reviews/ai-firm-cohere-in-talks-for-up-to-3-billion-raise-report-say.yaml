@@ -1,0 +1,44 @@
+- id: req-initial-ai-firm-cohere-in-talks-for-up-to-3-billion-raise-report-say-2026-09-17
+  project_slug: ai-firm-cohere-in-talks-for-up-to-3-billion-raise-report-say
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受监管企业把敏感数据接入外部模型时的安全审查痛点，旧做法是合同条款或私有化部署，不解决的后果是项目无法过审。
+    evidence_ids:
+    - ev-e79bd407be5b7d51
+    - ev-55dc9ece4cfdd75a
+  - gate: consensus
+    status: insufficient
+    reason: 有与 OpenText 在受监管行业的合作公告，但未见客户采用规模或采购方名单，共识仍待更多公开材料。
+    evidence_ids:
+    - ev-55dc9ece4cfdd75a
+  - gate: model
+    status: insufficient
+    reason: 未披露 Model Vault 的定价与计费方式，买方是企业客户还是通过合作方转售尚不明确，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e79bd407be5b7d51
+  - gate: truth
+    status: insufficient
+    reason: 加密推理的技术边界、密钥归属与人工介入方式未在公开材料中说明，交付确定性无法完全核验。
+    evidence_ids:
+    - ev-e79bd407be5b7d51
+  next_validation: 收集 Cohere 官方 Model Vault 文档或定价页，确认加密推理的密钥归属、部署方式与计费口径。
+  market: ''
+  job: 受监管行业的企业 AI 与安全团队在把客户数据接入模型推理时，需要完成内部安全审查并留下可对外说明的隔离证据。
+  job_en: Enterprise AI and security teams in regulated industries must complete internal security review
+    and keep documentable isolation evidence when connecting customer data to model inference.
+  pain: 数据一旦进入第三方推理服务，企业难以向内部审计或监管方证明服务商无法读取，导致项目卡在安全审查环节。
+  pain_en: Once data enters a third-party inference service, enterprises struggle to prove to internal
+    audit or regulators that the provider cannot read it, so projects stall at security review.
+  current_alternative: 依赖合同保密条款、私有化部署或干脆不把敏感数据接入外部模型。
+  current_alternative_en: Relying on contractual confidentiality clauses, on-premise deployment, or simply
+    keeping sensitive data out of external models.
+  usage_reason: 推断：相较仅靠合同承诺，推理加密把“服务商看不到数据”变成可技术核验的事实，安全团队可据此少做一轮自建隔离验证，因此受监管行业的企业在采购外部模型时会优先考虑这类方案。
+  usage_reason_en: 'Inference: compared with contractual promises alone, inference encryption turns ''the
+    provider cannot see the data'' into a technically checkable fact, letting security teams skip a round
+    of self-built isolation checks, so regulated enterprises may prefer such options when buying external
+    models.'

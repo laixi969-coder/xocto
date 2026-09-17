@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPRmR0NnA2WGVO
 summary: LinkLive Names Mike Bourke CEO to Scale Agentic AI Platform citybiz
 first_seen: '2026-09-16T14:06:54Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

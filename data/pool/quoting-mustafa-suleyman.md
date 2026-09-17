@@ -25,7 +25,7 @@ summary: "We should not treat models as though they have feelings, preferences, 
   \ welfare’ \n\n     Tags:  ai-ethics ,  generative-ai ,  ai ,  microsoft ,  llms"
 first_seen: '2026-09-16T16:00:54Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

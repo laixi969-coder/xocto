@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNanNhMXd1amVq
 summary: Instinct AI Assistant Targets $10 Billion Valuation PYMNTS.com
 first_seen: '2026-09-16T16:15:08Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

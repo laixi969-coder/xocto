@@ -42,3 +42,45 @@
   usage_reason_en: 'Inference: compared with running locally and pasting results, it lets several people
     join one cloud session, removing the step of copying results and rebuilding context, so non-technical
     teams that must review the same AI output together would choose it.'
+- id: req-initial-typecom-2026-09-17
+  project_slug: typecom
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多人代理会话分散、评审时上下文不一致的问题，痛点具体；但公开材料只给出定位，未说明共享粒度与交付形态，价值结构尚不完整。
+    evidence_ids:
+    - ev-39da6013ede04771
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度很高，但热度只说明关注度，不能证明团队已把它放进日常评审流程。
+    evidence_ids:
+    - ev-39da6013ede04771
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，钱来自团队订阅还是企业采购无法判断，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 共享会话涉及代码与文档权限，公开材料未说明安全边界与人工确认环节，承诺能否确定性交付未知。
+    evidence_ids: []
+  next_validation: 收集 Type.com 官方定价页或权限与共享机制文档，确认共享粒度、计费方式与安全边界。
+  market: ''
+  job: 非技术团队成员把文档、表格或调研材料交给云端 Claude 或 Codex 运行，并与同事共享同一份会话与产出；团队负责人评审 AI 草稿时合并多人并行会话并确认最终交付。
+  job_en: Non-technical team members run documents, spreadsheets or research material through cloud Claude
+    or Codex and share the same session and output with colleagues; team leads merge parallel sessions
+    and confirm the final deliverable when reviewing AI drafts.
+  pain: 多人各自持有代理会话，过程与结论分散在个人账号，评审时无法看到同一份上下文，合并结论要人工搬运。
+  pain_en: Each person holds their own agent session, so process and conclusions are scattered across
+    personal accounts; reviewers cannot see the same context and must manually merge conclusions.
+  current_alternative: 靠复制粘贴聊天记录、截图或导出文档在群里同步，或干脆各人各自跑一遍。
+  current_alternative_en: Copy-pasting chat logs, screenshots or exported documents into group chats,
+    or simply having each person run the task separately.
+  usage_reason: 推断：如果共享工作区能让同事直接在同一份会话上继续追问和批注，就省掉了导出、转发、对齐上下文这几步，多人评审 AI 草稿的团队会因此选择它；但目前没有公开材料证明共享粒度、权限控制或真实留存。
+  usage_reason_en: 'Inference: if the shared workspace lets colleagues continue asking and annotating
+    on the same session, it removes exporting, forwarding and context alignment, which is why teams reviewing
+    AI drafts together would pick it; however no public material yet proves sharing granularity, permission
+    control or retention.'

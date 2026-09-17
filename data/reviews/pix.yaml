@@ -1,0 +1,44 @@
+- id: req-initial-pix-2026-09-17
+  project_slug: pix
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多路径探索时上下文被覆盖、需手工重建的痛点，旧做法是复制粘贴维护分支，工作流推理上成立。
+    evidence_ids:
+    - ev-e9dd7fe681db32c2
+  - gate: consensus
+    status: insufficient
+    reason: 116 星与 10 个未关闭 issue 只说明关注度与待办，不能证明开发者已把它长期留在工作流里。
+    evidence_ids:
+    - ev-e9dd7fe681db32c2
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方与收入来源无法从公开材料判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e9dd7fe681db32c2
+  - gate: truth
+    status: insufficient
+    reason: 分支上下文如何与具体 agent 工具衔接、是否会产生错误累积，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-e9dd7fe681db32c2
+  next_validation: 收集 PiX 仓库的 README、issue 与 discussion，核验分支上下文与主流 agent 工具的集成方式和实际使用反馈。
+  market: ''
+  job: 软件工程师或 AI 应用开发者在用 agent 处理多步骤编码、调试或调研任务时，需要同时探索多条实现路径，并让每条路径保留各自的上下文。
+  job_en: Software engineers or AI application developers using agents for multi-step coding, debugging
+    or research need to explore several implementation paths at once while keeping each path's context
+    intact.
+  pain: 单线会话里一旦改方向，之前的上下文和中间结论就被覆盖或需要手工复制粘贴重建，回溯某条被放弃的路径成本高。
+  pain_en: In a single-thread session, changing direction overwrites earlier context and intermediate
+    conclusions or forces manual copy-paste reconstruction, making it costly to revisit an abandoned path.
+  current_alternative: 在多个聊天窗口或标签页之间手工复制上下文，或把中间结论粘贴到文档里自行维护分支。
+  current_alternative_en: Manually copying context across multiple chat windows or tabs, or pasting intermediate
+    conclusions into documents to maintain branches by hand.
+  usage_reason: 推断：相较手工复制上下文，PiX 在会话树上直接分叉并让上下文跟随分支，省去重建上下文的步骤，因此需要并行试错、又不想丢失旧路径的开发者会在多方案比较时选择它；公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually copying context, PiX forks directly on the session
+    tree and lets context follow the branch, removing the rebuild step, so developers who need parallel
+    trial and error without losing old paths would choose it when comparing options; no retention or repeat-use
+    evidence is public yet.'

@@ -1,0 +1,41 @@
+- id: req-initial-exclusive-ai-coding-startup-factory-more-than-triples-valuat-2026-09-17
+  project_slug: exclusive-ai-coding-startup-factory-more-than-triples-valuat
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来：材料仅给出估值变化，未说明旧流程、输入、动作与不采用的后果。
+    evidence_ids:
+    - ev-c55fa4ceae1a3194
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。材料未提供采用、留存或社区讨论证据，估值不构成共识证据。
+    evidence_ids:
+    - ev-c55fa4ceae1a3194
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。仅披露估值涨至 50 亿美元，未说明买方、定价或付费路径。
+    evidence_ids:
+    - ev-c55fa4ceae1a3194
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核对交付是否确定发生，也无安全与人工边界信息。
+    evidence_ids:
+    - ev-c55fa4ceae1a3194
+  next_validation: 收集 Factory 官方产品页或定价页，确认其面向的代码任务、交付物与收费方式。
+  market: ''
+  job: 软件工程团队在编写与评审代码时，把代码库与任务描述交给 AI 编码工具，生成或修改代码并拿到可提交的改动。
+  job_en: Software engineering teams hand a codebase and task description to an AI coding tool when writing
+    and reviewing code, generating or modifying code and getting committable changes.
+  pain: 公开材料只有估值变化，未说明工程师在编码或评审中具体卡在哪一步、不解决会有什么后果，因此无法确认痛点。
+  pain_en: Public material only shows a valuation change; it does not say which step of coding or review
+    engineers get stuck on or what happens if unsolved, so the pain cannot be confirmed.
+  current_alternative: 公开材料未披露用户此前用什么替代，例如手工编码、其他编码助手或内部脚本，均属未知。
+  current_alternative_en: Public material does not disclose prior alternatives such as manual coding,
+    other coding assistants or internal scripts; all unknown.
+  usage_reason: 无法判断：材料未说明该工具相较旧做法减少哪一步负担或改善哪项可核对结果，也未给出用户反馈或客户案例。
+  usage_reason_en: 'Cannot be judged: the material does not say which step the tool removes versus the
+    old way or which checkable result it improves, and gives no user feedback or customer case.'

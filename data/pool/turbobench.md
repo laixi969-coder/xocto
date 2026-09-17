@@ -21,7 +21,7 @@ canonical_url: https://github.com/powturbo/TurboBench/blob/master/benchmark.md
 summary: the Compression Lie Detector, 100 Codecs, Daily Update
 first_seen: '2026-09-16T11:56:01Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

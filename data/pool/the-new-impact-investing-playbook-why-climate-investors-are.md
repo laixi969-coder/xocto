@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/new-impact-investing-playbook-brnd
 summary: ''
 first_seen: '2026-09-16T08:48:51Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

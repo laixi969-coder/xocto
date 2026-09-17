@@ -1,6 +1,6 @@
 ---
 slug: 优傲机器人发布全新gen-7平台-赋能工业自动化与物理ai规模化部署
-name: 优傲机器人发布全新Gen 7平台 赋能工业自动化与物理AI规模化部署
+name: 优傲机器人 Gen 7 平台
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOThvMHVrbkw1
 summary: 优傲机器人发布全新Gen 7平台 赋能工业自动化与物理AI规模化部署 tomorrow-city.com
 first_seen: '2026-09-15T19:14:59Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 优傲机器人发布全新Gen 7平台 赋能工业自动化与物理AI规模化部署
+# 优傲机器人 Gen 7 平台
 
 优傲机器人发布全新Gen 7平台 赋能工业自动化与物理AI规模化部署 tomorrow-city.com
 

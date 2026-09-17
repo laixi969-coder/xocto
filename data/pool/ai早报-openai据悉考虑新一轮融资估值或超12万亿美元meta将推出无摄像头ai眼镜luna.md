@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iemNRWnl0RnQ4
 summary: AI早报 | OpenAI据悉考虑新一轮融资，估值或超1.2万亿美元；Meta将推出无摄像头AI眼镜“Luna” Jiemian.com
 first_seen: '2026-09-17T00:27:48Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,48 @@
+- id: req-initial-strix-2026-09-17
+  project_slug: strix
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中人工逐项翻查配置与凭证、难以串起完整攻击链的问题，痛点刚性且不做的后果明确；买方是安全服务商或企业安全团队。
+    evidence_ids:
+    - ev-5256911949a31a27
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，但只有一次演示结果，缺少安全从业者对结果准确性与误报的独立评价。
+    evidence_ids:
+    - ev-5256911949a31a27
+    - ev-121aa206cde27137
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、授权范围与责任边界，钱可能来自安全服务商或企业安全预算，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5256911949a31a27
+  - gate: truth
+    status: insufficient
+    reason: 演示针对单一目标，缺少人工复核环节说明与误报率数据，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-5256911949a31a27
+    - ev-121aa206cde27137
+  next_validation: 收集 Strix 官方定价页或授权范围说明，以及第三方安全团队对其入侵路径结果准确性的独立评测。
+  market: ''
+  job: 安全工程师或渗透测试人员在获得客户授权的红队演练中，处理目标企业的代码托管、云配置与凭证材料，要完成一次可复现的入侵路径验证并交付报告。
+  job_en: Security engineers or penetration testers, in a client-authorized red-team exercise, work with
+    the target's code hosting, cloud configuration and credential material to complete a reproducible
+    intrusion-path validation and deliver a report.
+  pain: 人工渗透测试需要逐项翻查配置、权限与凭证，耗时长且容易漏掉关键路径；不做的后果是漏洞在上线后才被发现。
+  pain_en: Manual penetration testing requires checking configurations, permissions and credentials item
+    by item, which is slow and easily misses critical paths; the consequence of skipping it is that vulnerabilities
+    surface only after launch.
+  current_alternative: 目前主要靠人工渗透测试、脚本化扫描工具和外包安全服务，扫描工具通常只报已知模式，难以串起完整攻击链。
+  current_alternative_en: Today this relies mainly on manual penetration testing, scripted scanners and
+    outsourced security services; scanners usually flag known patterns and struggle to chain a full attack
+    path.
+  usage_reason: 推断：相较人工逐项翻查，Strix 由 AI 自动串联侦察与凭证获取步骤，把“找到一条可用入侵路径”这一步从数天压缩到一次自动化执行，因此承接红队演练的安全团队会在时间紧、资产面大的项目中选择它；公开材料尚未显示留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual item-by-item checking, Strix uses AI to chain reconnaissance
+    and credential-acquisition steps, compressing ''find a usable intrusion path'' from days into one
+    automated run, so security teams running red-team exercises would choose it on tight-timeline, broad-asset
+    engagements; public material does not yet show retention or repeat-use evidence.'

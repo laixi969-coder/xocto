@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/what-to-wear-interviews
 summary: ''
 first_seen: '2026-09-16T10:40:16Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

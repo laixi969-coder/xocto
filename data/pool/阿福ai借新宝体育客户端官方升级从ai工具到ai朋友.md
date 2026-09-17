@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE15RXpEOXlZOGhH
 summary: 阿福AI借新宝体育客户端官方升级：从AI工具到AI朋友 体坛加
 first_seen: '2026-09-16T01:11:48Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

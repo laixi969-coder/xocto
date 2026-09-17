@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wWG5md1E4Wjhv
 summary: AI短剧进入“认知时代” thepaper.cn
 first_seen: '2026-09-16T06:42:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

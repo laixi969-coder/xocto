@@ -24,7 +24,7 @@ summary: According to The Information, Apple is planning to get back into the se
   to […]
 first_seen: '2026-09-16T17:20:29Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

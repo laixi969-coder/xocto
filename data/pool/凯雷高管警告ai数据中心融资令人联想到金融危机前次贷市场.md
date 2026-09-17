@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rR1RpUy1Kdnhs
 summary: 凯雷高管警告AI数据中心融资令人联想到金融危机前次贷市场 观点网
 first_seen: '2026-09-16T01:47:14Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

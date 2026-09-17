@@ -1,0 +1,42 @@
+- id: req-initial-dsh-better-display-2026-09-17
+  project_slug: dsh-better-display
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决长会话中过程与结论混杂、回看费时的问题，痛点真实但强度偏弱，缺少用户反馈证明这是刚性需求。
+    evidence_ids:
+    - ev-5d6bc60105e739df
+  - gate: consensus
+    status: insufficient
+    reason: 48 星、6 个 fork 只说明小范围关注，没有采用或持续使用的公开证据。
+    evidence_ids:
+    - ev-5d6bc60105e739df
+  - gate: model
+    status: insufficient
+    reason: 开源插件，未见定价、赞助或商业交付路径，钱从哪来无法判断。
+    evidence_ids:
+    - ev-5d6bc60105e739df
+  - gate: truth
+    status: insufficient
+    reason: 依赖 DeepSeek Harness 的界面结构，上游一变即可能失效，交付确定性未核验。
+    evidence_ids:
+    - ev-5d6bc60105e739df
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有开发者反馈在真实调试流程中持续使用它。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在长会话中同时处理推理过程、工具调用日志和最终答案，需要把过程与结论分开阅读以便定位问题。
+  job_en: Developers using DeepSeek Harness who, in long sessions, handle reasoning traces, tool-call
+    logs and final answers together and need to read process and conclusion separately to locate problems.
+  pain: 推理与答案混在一起时，回看一次失败调用要在大量输出里翻找，判断哪一步出错很费时。
+  pain_en: When reasoning and answers are mixed, reviewing a failed call means digging through large outputs,
+    and judging which step went wrong is slow.
+  current_alternative: 直接使用 DeepSeek Harness 自带界面，或把原始输出复制到编辑器、笔记里自行整理。
+  current_alternative_en: Using the built-in DeepSeek Harness interface directly, or copying raw output
+    into an editor or notes to organize manually.
+  usage_reason: 推断：相较在原始输出里翻找，它把进程详情、实时推理与最终答案分栏呈现，减少定位结论那一步的翻找负担，因此重度调试 agent 会话的开发者可能选择它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: compared with digging through raw output, it splits process details, live
+    reasoning and final answers into separate views, cutting the effort of locating the conclusion, so
+    developers debugging agent sessions heavily may choose it; no retention or payment evidence yet.'

@@ -1,0 +1,44 @@
+- id: req-initial-integral-lands-18m-series-a-for-ai-native-accounting-and-tax-2026-09-17
+  project_slug: integral-lands-18m-series-a-for-ai-native-accounting-and-tax
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决月末记账与报税的人工录入和合规风险，旧流程明确、不做的后果可核对，属工作流推理。
+    evidence_ids:
+    - ev-cb1137532b10add1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例或事务所采用规模，共识环节缺证据。
+    evidence_ids:
+    - ev-cb1137532b10add1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能为中小企业或代账机构，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cb1137532b10add1
+  - gate: truth
+    status: insufficient
+    reason: 财税结果需人工确认与责任归属，公开材料未说明复核边界与差错处理。
+    evidence_ids:
+    - ev-cb1137532b10add1
+  next_validation: 收集 Integral 官方定价页与客户案例页，确认按什么计价、由谁付费以及人工复核环节如何划分。
+  market: ''
+  job: 中小企业主或代账会计在月末结账和报税截止前，处理票据、银行流水与工资表，要按时交出合规账目和申报材料。
+  job_en: SME owners or outsourced accountants handle receipts, bank statements and payroll sheets before
+    month-end close and filing deadlines, needing compliant books and filings delivered on time.
+  pain: 手工录入与分类耗时，税规变动频繁，错漏会带来罚款和补缴；小企业请不起全职会计，外包沟通成本高。
+  pain_en: Manual entry and categorisation are slow, tax rules change often, and errors bring penalties
+    and back payments; small firms cannot afford a full-time accountant and outsourcing carries high coordination
+    cost.
+  current_alternative: 本地代账事务所按年收费人工做账，或使用传统财务软件自行录入，报税季集中加班处理。
+  current_alternative_en: Local bookkeeping firms do the work manually for an annual fee, or firms use
+    traditional accounting software and enter data themselves, with crunch hours at filing season.
+  usage_reason: 推断：相较人工录入加外包复核，它把票据分类、科目匹配和申报表准备这几步自动化，减少逐笔录入与反复对账，因此月末时间紧、票据量大的小企业会优先试用；公开材料未披露留存或复购数据。
+  usage_reason_en: 'Inference: versus manual entry plus outsourced review, it automates categorisation,
+    account matching and return preparation, cutting line-by-line entry and repeated reconciliation, so
+    small firms with tight month-end deadlines and high receipt volume would try it first; no retention
+    or repeat-purchase data is disclosed.'

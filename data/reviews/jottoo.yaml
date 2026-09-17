@@ -1,0 +1,44 @@
+- id: req-initial-jottoo-2026-09-17
+  project_slug: jottoo
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会后把口头承诺变成可跟进待办的需求，痛点是漏项与责任人不明；旧做法是人工摘录建卡，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-7c14724393dc5415
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品说明，没有用户评价、客户案例或采用数据，无法判断团队是否真的把它放进会后流程。
+    evidence_ids:
+    - ev-7c14724393dc5415
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 按席位或按项目收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-7c14724393dc5415
+  - gate: truth
+    status: insufficient
+    reason: 任务归属与措辞仍需人工确认，且未说明同步到哪个任务系统，交付确定性无法核对。
+    evidence_ids:
+    - ev-7c14724393dc5415
+  next_validation: 收集 Jottoo 官方定价页或客户案例，确认其按什么计价、任务同步到哪些系统，以及是否有团队公开描述会后跟进流程的变化。
+  market: ''
+  job: 项目经理或团队负责人在会议结束后，面对一份会议记录，需要把其中的口头承诺拆成带责任人和截止时间的待办，并持续跟进完成情况。
+  job_en: After a meeting, a project manager or team lead works from a set of meeting notes and must break
+    verbal commitments into to-dos with owners and due dates, then keep tracking completion.
+  pain: 会议记录里的行动项散落在叙述中，靠人工逐条摘出并分派，容易漏项、责任人不明，会后跟进往往断在第一步。
+  pain_en: Action items are scattered inside the narrative of meeting notes; extracting and assigning
+    them by hand easily misses items and leaves owners unclear, so follow-up often breaks at the first
+    step.
+  current_alternative: 目前多由会议记录人手工整理成邮件或文档，再复制到任务工具里逐条建卡，或干脆口头提醒。
+  current_alternative_en: Today a note-taker usually compiles minutes into an email or document by hand,
+    then copies items into a task tool one by one, or simply reminds people verbally.
+  usage_reason: 相较手工摘录再建卡，它把会议记录直接转成带责任人和状态的待办，省掉逐条复制建卡这一步；推断经常开会并依赖会后跟进的项目型团队会因此选择它，但尚无用户反馈或留存证据支持长期使用。
+  usage_reason_en: Compared with manually extracting items and creating cards, it converts meeting notes
+    directly into to-dos with owners and status, removing the copy-and-create step; by inference, project-based
+    teams that meet often and depend on follow-up would choose it, though no user feedback or retention
+    evidence yet supports long-term use.

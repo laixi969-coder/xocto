@@ -1,0 +1,45 @@
+- id: req-initial-seoagent-releases-a-new-software-update-for-coding-agents-ad-2026-09-17
+  project_slug: seoagent-releases-a-new-software-update-for-coding-agents-ad
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 搜索可见性这一需求，但材料未说明用户此前卡在哪一步、不采用会失去什么，痛点刚性无法判断。
+    evidence_ids:
+    - ev-74b804937c307f72
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布消息，没有客户案例、用户评价或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-74b804937c307f72
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是判断而非已验证事实；to B 内容团队付费路径存在但无证据。
+    evidence_ids:
+    - ev-74b804937c307f72
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成内容是否真被 AI 搜索引用，交付确定性缺少可验证结果。
+    evidence_ids:
+    - ev-74b804937c307f72
+  next_validation: 收集 SEOAgent 官方定价页或客户案例，确认其交付物与计费方式。
+  market: ''
+  job: SEO 或内容运营人员在维护站点与文档的 AI 搜索可见性时，处理站点内容与知识材料，要产出符合 Grok Bot 与 Open Knowledge Format 规则、可被 AI 搜索引用的发布内容。
+  job_en: SEO or content operators maintaining a site's AI search visibility handle site content and knowledge
+    material to produce publishable output that follows Grok Bot and Open Knowledge Format rules and can
+    be cited in AI search.
+  pain: 公开材料只说明新增了 Grok Bot 支持与知识格式发布，未说明此前用户具体卡在哪一步、不采用会失去什么，痛点强度无法从现有事实判断。
+  pain_en: The public material only states that Grok Bot support and knowledge-format publishing were
+    added; it does not say which step users were stuck on or what they lose without it, so pain intensity
+    cannot be judged from available facts.
+  current_alternative: 推断：内容团队目前多靠人工撰写结构化内容、手动提交站点地图或使用传统 SEO 工具，具体替代方式未在材料中说明。
+  current_alternative_en: 'Inference: content teams currently rely on manually writing structured content,
+    submitting sitemaps or using traditional SEO tools; the material does not specify the actual alternative.'
+  usage_reason: 推断：若它能把知识格式的生成与发布从人工改写中抽出来，内容运营就不必逐条按代理规则手改文档；但材料未给出用户反馈或采用证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it removes manual rewriting from knowledge-format generation and publishing,
+    content operators would not have to hand-edit documents per agent rules; however the material offers
+    no user feedback or adoption evidence, so it cannot be confirmed that users would choose it for this
+    reason.'

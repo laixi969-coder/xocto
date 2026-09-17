@@ -1,0 +1,44 @@
+- id: req-initial-copenhagens-complir-raises-11m-to-tackle-product-compliance-2026-09-17
+  project_slug: copenhagens-complir-raises-11m-to-tackle-product-compliance
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是上架前逐条核对多国法规、漏项即被下架罚款的痛点，旧做法是人工加外部顾问，结构上成立；买方是品牌或卖家，公开材料未说明具体付费方。
+    evidence_ids:
+    - ev-2007b0dbbbe12e63
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，没有客户名单、使用量或行业采购案例，无法判断合规人员是否已把它放进日常流程。
+    evidence_ids:
+    - ev-2007b0dbbbe12e63
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，只能推断可能按品类、SKU 或订阅向品牌方收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-2007b0dbbbe12e63
+  - gate: truth
+    status: insufficient
+    reason: 合规结论若出错后果严重，材料未说明人工复核边界、法规库更新机制与责任划分，交付确定性无法核对。
+    evidence_ids:
+    - ev-2007b0dbbbe12e63
+  next_validation: 收集 Complir 官方定价页或客户案例页，确认其计费方式、覆盖的法规辖区以及是否披露人工复核流程。
+  market: ''
+  job: 零售品牌或跨境卖家的合规专员，在商品上架或进入新市场前，需要处理产品成分、标签、认证等材料，核对目标市场的监管要求并整理成可提交的合规文件。
+  job_en: A compliance specialist at a retail brand or cross-border seller, before listing a product or
+    entering a new market, handles ingredient, labelling and certification material, checks it against
+    the target market's regulatory requirements and turns it into submittable compliance documents.
+  pain: 各国法规分散、更新频繁，人工逐条比对耗时且容易漏项，漏掉一项就可能导致下架、罚款或整批货被扣。
+  pain_en: Regulations are scattered across countries and change frequently; checking them line by line
+    is slow and error-prone, and one missed item can mean delisting, fines or a held shipment.
+  current_alternative: 合规人员用表格、邮件和外部律所或检测机构逐项人工核对，法规更新靠订阅邮件或顾问通知。
+  current_alternative_en: Compliance staff check items manually with spreadsheets, email and outside law
+    firms or testing labs, and learn about regulatory updates through subscription emails or consultants.
+  usage_reason: 推断：相较人工逐条比对，它把产品资料与法规库做结构化匹配，减少的是“找适用条款并逐项核对”这一步，因此品类多、上架频繁的跨境卖家更可能在每次上新前使用它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual line-by-line checking, it structurally matches product
+    data against a regulatory library, removing the step of finding applicable clauses and verifying each
+    one, so cross-border sellers with many categories and frequent listings are more likely to use it
+    before each launch; public material provides no retention or repeat-purchase evidence.'

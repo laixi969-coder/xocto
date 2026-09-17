@@ -1,0 +1,46 @@
+- id: req-initial-ip-2026-09-17
+  project_slug: ip
+  level: initial
+  reviewed_at: '2026-09-17T00:32:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是账号被风控或 AI 平台访问失败时，无法快速定位是出口 IP、DNS 还是浏览器指纹出问题的痛点，旧做法要跨多个站点手工比对，痛点具体且反复出现。
+    evidence_ids:
+    - ev-423292143c51e5bc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 8 条社区讨论，属于关注度信号，不能说明运营者已把它作为例行检查长期使用。
+    evidence_ids:
+    - ev-423292143c51e5bc
+  - gate: model
+    status: insufficient
+    reason: 项目完全开源且可自部署，公开材料未披露任何收费方式，买方与付费路径只能推断为面向团队的自建或托管服务，不是已验证事实。
+    evidence_ids:
+    - ev-423292143c51e5bc
+  - gate: truth
+    status: insufficient
+    reason: 未说明检测阈值、判定准确率与误报情况，也未说明结果是否需要人工复核，交付确定性无法核对。
+    evidence_ids:
+    - ev-423292143c51e5bc
+  next_validation: 收集该开源仓库的 README 与 issue 讨论，核对检测项的判定阈值、误报反馈以及是否有团队将其用于持续监测。
+  market: ''
+  job: 跨境电商运营或多账号投放人员在账号被风控、或 ChatGPT、Claude 等平台访问失败时，需要判断当前网络出口和浏览器环境哪里出了问题。
+  job_en: A cross-border e-commerce operator or multi-account advertiser, when accounts get risk-flagged
+    or access to ChatGPT, Claude and similar platforms fails, needs to find out what is wrong with the
+    current network egress and browser environment.
+  pain: 出口 IP 是否被标记为机房、DNS 是否泄漏、浏览器指纹是否暴露自动化特征，这些信息分散在多个查询站点，排查一次要来回切换，且不查清就无法判断是账号问题还是网络问题。
+  pain_en: Whether the egress IP is flagged as datacenter, whether DNS leaks, whether the browser fingerprint
+    exposes automation, are scattered across many lookup sites; checking takes repeated switching and
+    without it you cannot tell whether the account or the network is at fault.
+  current_alternative: 分别打开 IP 查询站、指纹检测站、平台状态页，手工拼凑结论。
+  current_alternative_en: Opening separate IP lookup sites, fingerprint test sites and platform status
+    pages, and piecing the conclusion together by hand.
+  usage_reason: 推断：它把出口探测、IP 画像、指纹检查和八个 AI 平台连通性测试收在一次运行里，省掉在多个查询站之间来回切换并手工比对这一步，因此经常被风控、需要反复确认环境的多账号运营者会选它；但公开材料没有留存或复购证据，无法确认它已被长期留在工作流里。
+  usage_reason_en: 'Inference: it bundles egress probing, IP profiling, fingerprint checks and connectivity
+    tests for eight AI platforms into one run, removing the step of switching between lookup sites and
+    comparing by hand, so multi-account operators who are frequently risk-flagged and must repeatedly
+    confirm their environment would choose it; but public material has no retention or repeat-use evidence,
+    so it cannot be confirmed as a long-term part of the workflow.'

@@ -21,7 +21,7 @@ canonical_url: https://depletion.org
 summary: How much oil-market buffer is left?
 first_seen: '2026-09-15T19:56:56Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

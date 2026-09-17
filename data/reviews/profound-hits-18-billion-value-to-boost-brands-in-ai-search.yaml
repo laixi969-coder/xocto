@@ -1,0 +1,44 @@
+- id: req-initial-profound-hits-18-billion-value-to-boost-brands-in-ai-search-2026-09-17
+  project_slug: profound-hits-18-billion-value-to-boost-brands-in-ai-search
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在 AI 回答中是否被提及、被如何描述这一新问题，痛点具体，旧做法是人工逐个助手查询，结构上成立。
+    evidence_ids:
+    - ev-803600fb2ad5dbc7
+    - ev-294842f560daedfc
+  - gate: consensus
+    status: insufficient
+    reason: 有融资与估值报道，说明资本关注，但缺少公开的客户采用与持续使用证据。
+    evidence_ids:
+    - ev-294842f560daedfc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与计费方式，买方是品牌方还是代理机构、按什么收费仍属推断。
+    evidence_ids:
+    - ev-803600fb2ad5dbc7
+  - gate: truth
+    status: insufficient
+    reason: 监测结果能否稳定反映真实 AI 回答、是否可被品牌方核对，缺少独立验证材料。
+    evidence_ids:
+    - ev-803600fb2ad5dbc7
+  next_validation: Profound 官方定价页或公开客户案例，用以核验计费方式与交付结果。
+  market: ''
+  job: 品牌营销负责人在 AI 搜索与对话式回答成为用户获取信息的入口时，需要处理自家品牌在 AI 回答中的提及情况与竞品对比材料，据此决定内容与投放怎么改。
+  job_en: Brand marketing leads, as AI search and conversational answers become how users find information,
+    need to work through how their brand is mentioned in AI answers versus competitors, and decide how
+    to change content and spend.
+  pain: 传统搜索排名工具看不到 AI 回答里品牌被如何描述，团队无法判断自己在新的信息入口中是否缺席或被误述。
+  pain_en: Traditional search ranking tools cannot see how a brand is described inside AI answers, so
+    teams cannot tell whether they are absent or misrepresented in the new information entry point.
+  current_alternative: 团队此前依赖传统 SEO 排名工具、人工在多个 AI 助手里逐个提问截图，或干脆不做监测。
+  current_alternative_en: Teams previously relied on traditional SEO rank trackers, manually queried several
+    AI assistants and took screenshots, or simply did not monitor at all.
+  usage_reason: 推断：相较人工在多个 AI 助手里逐个提问，它把跨助手的品牌提及与竞品对比集中成可定期查看的报告，省去重复手工查询这一步，因此预算已投向 AI 搜索的品牌团队会采用它。
+  usage_reason_en: 'Inference: compared with manually querying several AI assistants one by one, it consolidates
+    cross-assistant brand mentions and competitor comparisons into a recurring report, removing repeated
+    manual checks, so brand teams already spending on AI search would adopt it.'

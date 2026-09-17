@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE8wbXpBZTFEaUlH
 summary: AI欺骗用户甚至入侵系统，美国法律为何管不了？ 凤凰网科技
 first_seen: '2026-09-16T22:24:54Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

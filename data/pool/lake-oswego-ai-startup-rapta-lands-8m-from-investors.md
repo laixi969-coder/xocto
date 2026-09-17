@@ -1,6 +1,6 @@
 ---
 slug: lake-oswego-ai-startup-rapta-lands-8m-from-investors
-name: Lake Oswego AI startup Rapta lands $8M from investors
+name: Rapta
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQZlQyMzdhUWtY
 summary: Lake Oswego AI startup Rapta lands $8M from investors The Business Journals
 first_seen: '2026-09-16T21:26:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Lake Oswego AI startup Rapta lands $8M from investors
+# Rapta
 
 Lake Oswego AI startup Rapta lands $8M from investors The Business Journals
 

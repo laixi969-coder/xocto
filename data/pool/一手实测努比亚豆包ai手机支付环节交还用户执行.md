@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oLW45QUtqVUdz
 summary: 一手实测努比亚“豆包AI手机”，支付环节交还用户执行 第一财经
 first_seen: '2026-09-16T08:41:29Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,26 +1,35 @@
 ---
 slug: 全球首款ai智能体手机努比亚navix-ultra获入网许可9月正式上市
-name: 努比亚NaviX Ultra
+name: 努比亚 NaviX Ultra
 builder: ''
 category: AI + 生活
-summary_zh: 努比亚NaviX Ultra是一款宣称内置AI智能体的手机，获入网许可，计划9月上市。具体AI功能、工作流与交付细节未在资料中说明。
-inspiration: AI智能体正从软件走向硬件终端，手机成为入口。新进入者可关注特定场景（如语音助手、自动化任务）的深度集成，而非泛化功能。
-summary_en: Nubia NaviX Ultra is a phone claiming to feature an AI agent, having received network access
-  approval and planned for September launch. Specific AI functions, workflows, and delivery details are
-  not described in the material.
-inspiration_en: AI agents are moving from software to hardware terminals, with phones becoming entry points.
-  New entrants could focus on deep integration in specific scenarios (e.g., voice assistants, automated
-  tasks) rather than generic features.
+summary_zh: 普通消费者在手机上要完成订票、点餐、查信息这类跨应用任务时，原本需要自己在多个App之间来回切换、逐步点击。努比亚 NaviX Ultra 把智能体放进手机系统，由它接收用户的自然语言指令并代为操作应用，用户最终拿到的是被执行的跨应用任务结果；具体哪些任务能自动完成、哪些仍需人工确认，公开材料尚未给出细节，仍待核验。
+inspiration: 趋势：智能体正从独立App下沉到手机系统层，入口从“打开某个应用”变成“直接说要做的事”，这会重划移动端流量分发和App被调用的方式。切入：不要做又一个通用手机智能体，而是挑一个高频、跨应用、结果可核对的窄场景（如出行改签、本地生活下单）做深，把交付结果而非功能列表作为卖点；对希望被智能体调用的服务方，可切入其接口与履约适配环节。
+summary_en: When ordinary consumers need to complete cross-app tasks such as booking tickets, ordering
+  food or looking up information on their phone, they normally switch between multiple apps and tap through
+  each step themselves. Nubia's NaviX Ultra embeds an agent in the phone system that takes natural-language
+  instructions and operates apps on the user's behalf, delivering the executed cross-app task result;
+  which tasks run automatically and which still need human confirmation is not detailed in public materials
+  and remains to be verified.
+inspiration_en: 'Trend: agents are sinking from standalone apps into the phone system layer, shifting
+  the entry point from ''open an app'' to ''state what you want done'', which redraws mobile traffic distribution
+  and how apps get invoked. Entry point: rather than build another general phone agent, go deep on one
+  high-frequency, cross-app, verifiable-outcome niche (trip rebooking, local-services ordering) and sell
+  the delivered result instead of a feature list; for service providers that want to be invoked by agents,
+  target their API and fulfillment adaptation layer.'
 priority_review: false
 project_type: new_application
 industries:
 - 消费电子
+- 移动通信
 industries_en:
 - Consumer Electronics
+- Mobile Telecommunications
 jobs:
-- 消费者
+- 普通消费者在手机上处理跨应用任务（如订票、点餐、信息查询）时，把原本需要自己在多个App间手动切换、逐步点击的操作交给手机内置智能体代为执行
 jobs_en:
-- Consumers
+- Ordinary consumers handling cross-app tasks on their phone (booking, ordering, information lookup) hand
+  over multi-app manual switching and step-by-step tapping to the phone's built-in agent
 regions:
 - 中国
 regions_en:
@@ -31,7 +40,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BTy03bVJnOEw5
 summary: 全球首款AI智能体手机努比亚NaviX Ultra获入网许可，9月正式上市 icloudnews.net
 first_seen: '2026-09-02T07:15:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:
@@ -62,7 +71,7 @@ sightings:
   kind: news
 ---
 
-# 努比亚NaviX Ultra
+# 努比亚 NaviX Ultra
 
 全球首款AI智能体手机努比亚NaviX Ultra获入网许可，9月正式上市 icloudnews.net
 

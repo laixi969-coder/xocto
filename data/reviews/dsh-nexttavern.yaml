@@ -1,0 +1,46 @@
+- id: req-initial-dsh-nexttavern-2026-09-17
+  project_slug: dsh-nexttavern
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长篇角色扮演中设定丢失与人物不一致的痛点，旧做法是手动粘贴设定，结构上成立，但公开材料未给出实际使用反馈。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度信号，没有社区讨论或用户评价说明创作者是否真的把它放进写作流程。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价或付费路径，买方可能是个人创作者或订阅制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+  - gate: truth
+    status: insufficient
+    reason: 记忆检索与多角色集群的实际交付质量、是否需人工校对，公开材料未说明，无法确认承诺能否确定性兑现。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+  next_validation: 收集该仓库的 issue 与 discussion，确认创作者是否报告长篇一致性改善或导出文本的实际使用情况。
+  market: ''
+  job: 角色扮演创作者或互动小说作者在续写长篇剧情时，处理人物卡、世界书和文风预设等设定材料，要让 AI 在多轮对话中保持人物一致并推进情节，最终产出可导出的长篇文本。
+  job_en: A roleplay creator or interactive fiction writer continuing a long story handles character cards,
+    world books and style presets, needs the AI to keep characters consistent across many turns and advance
+    the plot, and ends with exportable long-form text.
+  pain: 通用聊天窗口的上下文有限，长篇设定容易丢失或前后矛盾，作者要反复粘贴设定、手动纠正人物口吻，越写越难维持一致性。
+  pain_en: General chat windows have limited context, so long settings get lost or contradict each other;
+    authors repeatedly paste settings and manually fix character voice, and consistency gets harder as
+    the story grows.
+  current_alternative: 作者通常用通用聊天助手加手动粘贴设定，或使用 SillyTavern 一类角色扮演前端自行管理记忆，靠人工维护世界书和文风。
+  current_alternative_en: Authors typically use a general chat assistant with manual setting pasting,
+    or a roleplay front end like SillyTavern with self-managed memory, maintaining world books and style
+    by hand.
+  usage_reason: 相较手动粘贴设定，它把人物卡、世界书和文风预设作为可复用输入，用混合检索和本地嵌入模型自动召回相关记忆，减少作者每轮重述设定的动作；推断这类长篇创作者会在设定量大、需要跨章节一致时选择它。
+  usage_reason_en: Compared with pasting settings by hand, it treats character cards, world books and
+    style presets as reusable inputs and auto-recalls relevant memory via hybrid retrieval and a local
+    embedding model, cutting the per-turn restating of settings; inference is that long-form creators
+    pick it when settings are large and cross-chapter consistency matters.

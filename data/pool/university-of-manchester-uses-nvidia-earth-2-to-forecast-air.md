@@ -1,6 +1,6 @@
 ---
 slug: university-of-manchester-uses-nvidia-earth-2-to-forecast-air
-name: University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK
+name: University of Manchester
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: Air pollution is a serious public health risk, contributing to an estim
   be run.  David Topping, a professor in the […]
 first_seen: '2026-09-16T05:00:42Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK
+# University of Manchester
 
 Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run.  David Topping, a professor in the […]
 

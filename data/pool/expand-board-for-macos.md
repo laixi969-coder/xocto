@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/expand-board-for-macos
 summary: Expand ideas, concepts, and plans across limitless boards
 first_seen: '2026-09-15T16:28:05Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

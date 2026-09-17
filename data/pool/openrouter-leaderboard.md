@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/ginigen-ai/open-router-leaderboard
 summary: LLM API price, measured speed and Korean quality
 first_seen: '2026-09-16T05:09:43Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

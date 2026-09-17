@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/peak-hour
 summary: Real-time network monitor for Mac w/ detailed WiFi insights
 first_seen: '2026-09-14T02:26:27Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

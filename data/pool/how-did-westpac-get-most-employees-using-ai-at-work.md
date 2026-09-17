@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWp2YUV0U3NM
 summary: How Did Westpac Get Most Employees Using AI at Work? Kalkine Media
 first_seen: '2026-09-16T06:52:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

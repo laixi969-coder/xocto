@@ -1,6 +1,6 @@
 ---
 slug: 我坐进特斯拉-cybercab吃下马斯克-robotaxi-的新饼
-name: 我坐进特斯拉 Cybercab，吃下马斯克 Robotaxi 的「新饼」
+name: Tesla Cybercab
 builder: ''
 category: ''
 summary_zh: ''
@@ -50,7 +50,7 @@ summary: "2013 年 9 月，苹果推出了新品 iPhone 5S 手机，这款手机
   \ 8 毛钱，可能仍需要很长时间。 \n  但Cybercab 的出现，无疑在设计、制造、运营等多个方面，给未来的 Robotaxi 车型打了样 ，它也成了未来友商很难绕过的一个新标杆。"
 first_seen: '2026-09-16T05:35:49Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -61,7 +61,7 @@ sightings:
   kind: news
 ---
 
-# 我坐进特斯拉 Cybercab，吃下马斯克 Robotaxi 的「新饼」
+# Tesla Cybercab
 
 2013 年 9 月，苹果推出了新品 iPhone 5S 手机，这款手机除了延续苹果在智能手机上一往无前的势头外，新增的金色配色，深受大众喜爱，并获得了「土豪金」的称号。 
  2026 年 9 月，特斯拉也发布了一款「土豪金」产品——不是Space Phone，而是特斯拉 Cybercab，用于 Robotaxi 的无人驾驶电动车。 

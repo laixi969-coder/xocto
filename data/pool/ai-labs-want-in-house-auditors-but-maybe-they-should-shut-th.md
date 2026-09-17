@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-
 summary: There may be a simpler and more effective fix for rogue agents, hiding in plain sight.
 first_seen: '2026-09-16T18:25:25Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

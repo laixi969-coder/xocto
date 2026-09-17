@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1YV09STkR4MUNs
 summary: 'AI assistant startup Instinct targets $10B valuation in new funding talks: Report Cryptonews.net'
 first_seen: '2026-09-16T03:46:40Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

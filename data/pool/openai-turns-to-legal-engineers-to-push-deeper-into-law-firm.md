@@ -1,6 +1,6 @@
 ---
 slug: openai-turns-to-legal-engineers-to-push-deeper-into-law-firm
-name: OpenAI Turns to ‘Legal Engineers’ to Push Deeper Into Law Firms
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPSHBVbjAzSzdk
 summary: OpenAI Turns to ‘Legal Engineers’ to Push Deeper Into Law Firms Tekedia
 first_seen: '2026-09-15T19:52:09Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI Turns to ‘Legal Engineers’ to Push Deeper Into Law Firms
+# OpenAI
 
 OpenAI Turns to ‘Legal Engineers’ to Push Deeper Into Law Firms Tekedia
 

@@ -23,7 +23,7 @@ summary: 'Benchmark Scores Don’t Save Patients: Why Clinical AI Needs RCT-Grad
   a Workflow The Clinical Trial Vanguard'
 first_seen: '2026-09-16T07:31:54Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

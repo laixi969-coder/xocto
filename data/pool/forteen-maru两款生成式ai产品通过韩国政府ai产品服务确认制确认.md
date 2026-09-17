@@ -1,6 +1,6 @@
 ---
 slug: forteen-maru两款生成式ai产品通过韩国政府ai产品服务确认制确认
-name: Forteen Maru两款生成式AI产品通过韩国政府“AI产品・服务确认制”确认
+name: Forteen Maru
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQWnBUZ2FqcDRn
 summary: Forteen Maru两款生成式AI产品通过韩国政府“AI产品・服务确认制”确认 디지털투데이
 first_seen: '2026-09-16T09:21:21Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Forteen Maru两款生成式AI产品通过韩国政府“AI产品・服务确认制”确认
+# Forteen Maru
 
 Forteen Maru两款生成式AI产品通过韩国政府“AI产品・服务确认制”确认 디지털투데이
 

@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/490185.html
 summary: 从想法到结果，一次对话实现
 first_seen: '2026-09-16T03:40:35Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

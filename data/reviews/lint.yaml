@@ -143,3 +143,47 @@
     into agent-executable checks and outputs a violation list right after code generation, removing the
     manual read-through step; so frontend teams with explicit rules and heavy agent output would adopt
     it before commits, though public material does not yet show sustained use or payment evidence.'
+- id: req-initial-lint-2026-09-17
+  project_slug: lint
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计系统规则难以在提交环节被逐条核对的问题，痛点来自规范漂移与人工 review 漏检；公开材料已能还原输入、动作与交付，属工作流推理。
+    evidence_ids:
+    - ev-c7774b0ab7d541db
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与 fork 等关注度信号，缺少团队采用、issue 讨论或用户反馈来证明它已进入日常流程。
+    evidence_ids:
+    - ev-c7774b0ab7d541db
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是团队或企业，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c7774b0ab7d541db
+  - gate: truth
+    status: insufficient
+    reason: 规则如何编写、agent 校验的准确率与人工复核边界均未在公开材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-c7774b0ab7d541db
+  next_validation: 收集该仓库的 README、规则示例与 issue/discussion，确认规则编写方式、agent 校验流程与人工复核边界。
+  market: ''
+  job: 前端工程师或设计系统维护者在提交组件代码时，需要处理 Tailwind 类名与设计规范，确认改动是否符合团队设计系统规则。
+  job_en: A frontend engineer or design-system maintainer committing component code needs to work through
+    Tailwind class names and design rules to confirm the change matches the team's design system.
+  pain: 设计规范通常写在文档里，人工 review 容易漏掉类名、间距、颜色等细节，规范漂移后返工成本高。
+  pain_en: Design rules usually live in documents, manual review easily misses class names, spacing and
+    color details, and drift in the rules creates costly rework.
+  current_alternative: 靠人工 code review、团队约定文档，或通用 lint 规则自行拼装检查项。
+  current_alternative_en: Manual code review, team convention documents, or hand-assembled checks on top
+    of generic lint rules.
+  usage_reason: 相较人工 review 和通用 lint，它把设计系统规则直接写成 agent 可校验的条目，在提交环节自动指出违规位置，减少维护者逐条比对文档这一步；推断这类已有设计系统、review
+    负担重的前端团队会在提交前使用它。
+  usage_reason_en: Compared with manual review and generic lint, it writes design-system rules as agent-verifiable
+    items and points out violations at commit time, removing the step of maintainers comparing code against
+    documents line by line; the inference is that frontend teams with an existing design system and heavy
+    review load would use it before committing.

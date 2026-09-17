@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-wi
 summary: SK Hynix told TechCrunch the company hasn't finalized any plans or arrangements yet.
 first_seen: '2026-09-16T13:23:02Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

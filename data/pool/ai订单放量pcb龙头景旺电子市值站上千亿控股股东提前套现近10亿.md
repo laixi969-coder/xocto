@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE4yZFdrbU9BcWYz
 summary: AI订单放量，PCB龙头景旺电子市值站上千亿，控股股东提前套现近10亿 新浪财经
 first_seen: '2026-09-15T13:05:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

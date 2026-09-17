@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3REODJmdEdn
 summary: How Can Community Platforms Turn Peer Engagement Into Retention? CX Today
 first_seen: '2026-09-15T15:23:26Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

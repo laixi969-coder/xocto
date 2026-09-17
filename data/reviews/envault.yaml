@@ -1,0 +1,44 @@
+- id: req-initial-envault-2026-09-17
+  project_slug: envault
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把凭证交给编码智能体时的暴露痛点，旧做法是明文环境变量，结构上成立，但公开材料未给出实际采用反馈。
+    evidence_ids:
+    - ev-510d635c21bee392
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与分支数，属于关注度信号，没有 issue 或用户评价说明开发者是否真的在智能体流程中使用。
+    evidence_ids:
+    - ev-510d635c21bee392
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，买方可能是个人开发者或团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-510d635c21bee392
+  - gate: truth
+    status: insufficient
+    reason: 加密保险库与智能体之间的隔离边界、密钥是否可能被间接读取，公开材料未说明，无法确认安全承诺能否确定性兑现。
+    evidence_ids:
+    - ev-510d635c21bee392
+  next_validation: 收集该仓库的 issue 与部署文档，确认密钥隔离机制的实际边界以及开发者是否在真实智能体流程中持续使用。
+  market: ''
+  job: 后端或 DevOps 工程师在让编码智能体执行部署、调用第三方 API 时，处理 API key、数据库口令等凭证材料，要完成任务又不让模型看到明文密钥。
+  job_en: A backend or DevOps engineer letting a coding agent run deployments or call third-party APIs
+    handles credentials such as API keys and database passwords, and must complete the task without the
+    model seeing plaintext secrets.
+  pain: 把密钥写进环境变量或配置文件交给智能体，等于把凭证暴露给模型和日志，一旦泄露需要轮换全部密钥，代价高且难追溯。
+  pain_en: Putting keys into env vars or config files for an agent exposes credentials to the model and
+    logs; a leak forces rotating every key, which is costly and hard to trace.
+  current_alternative: 工程师通常把密钥放在 .env 文件、系统环境变量或云端密钥管理服务里，靠人工控制哪些进程能读到。
+  current_alternative_en: Engineers usually keep secrets in .env files, system environment variables or
+    cloud secret managers, relying on manual control over which processes can read them.
+  usage_reason: 相较把明文密钥交给智能体，它在本地加密保存凭证并让智能体在调用时使用而不读取明文，减少密钥进入模型上下文和日志这一步；推断需要让 AI 代跑外部服务调用的小团队会因此选择它。
+  usage_reason_en: Compared with handing plaintext keys to an agent, it stores credentials encrypted locally
+    and lets the agent use them on calls without reading plaintext, removing the step where keys enter
+    model context and logs; inference is that small teams letting AI call external services pick it for
+    this.

@@ -1,0 +1,42 @@
+- id: req-initial-agent-isles-2026-09-17
+  project_slug: agent-isles
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决初学者学不会动手、缺即时反馈的痛点，旧做法是看视频抄代码，属工作流推理。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+  - gate: consensus
+    status: insufficient
+    reason: 64 星、10 个未关闭 issue，关注度低且问题积压，看不出学习者是否持续使用。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露课程定价或机构合作，买方可能是个人或学校，均未验证。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+  - gate: truth
+    status: insufficient
+    reason: 关卡内容深度、智能体生成代码的正确率与人工校对边界，公开材料均未说明。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+  next_validation: 查看该项目的部署文档与 issue，确认关卡内容深度和智能体生成代码的校对方式。
+  market: ''
+  job: 零基础或转行的编程初学者在自学时，面对教程与练习脱节的问题，要在一个能立刻动手的环境里完成可运行的小项目。
+  job_en: Beginner or career-switching programmers studying alone, facing a gap between tutorials and
+    practice, need an environment where they can immediately build a runnable mini-project.
+  pain: 看视频和文档学不会动手，环境配置和项目选题卡住大多数人，缺少即时反馈。
+  pain_en: Watching videos and reading docs does not build hands-on skill; environment setup and project
+    selection block most learners, and immediate feedback is missing.
+  current_alternative: 看免费视频教程、刷在线题库，或跟着博客一步步抄代码。
+  current_alternative_en: Watching free video courses, grinding online exercises, or copying code step
+    by step from blog posts.
+  usage_reason: 推断：它把练习包成有进度感的关卡并由智能体直接生成可运行代码，省掉配置环境和找选题这两步，因此自学者会在入门阶段尝试；尚无完课或付费证据。
+  usage_reason_en: 'Inference: it wraps practice into leveled stages and has the agent generate runnable
+    code directly, removing environment setup and project selection, so self-learners would try it at
+    the entry stage; no completion or payment evidence yet.'

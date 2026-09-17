@@ -1,18 +1,15 @@
 ---
 slug: blog-5
-name: Google Gemini 3.8 Live
+name: Gemini 3.8 Live
 builder: leumon
 category: ''
-summary_zh: Google 于 2026 年 9 月 15 日在官方博客发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个模型版本。从命名看（推断），这是其
-  Live 实时交互系列的迭代并新增延长思考变体；对做实时语音、多模态交互应用的开发者，意味着模型层能力基线可能上移，需重新核算调用该模型与自建实时链路的成本对比。本次材料仅含发布条目，具体能力提升、定价与开放范围未披露，上述影响为基于命名与发布事实的推断。
+summary_zh: 2026年9月15日，Google发布Gemini 3.8 Live与Gemini 3.8 Live Extended Thinking两款模型。这是前沿模型的一次版本更新，意味着实时与扩展推理能力继续迭代，AI应用开发者可获得新的模型选项并据此调整成本与延迟取舍；材料未给出定价、基准或客户数据，对竞争格局的具体影响为推断。
 inspiration: ''
-summary_en: On September 15, 2026, Google announced two model versions, Gemini 3.8 Live and Gemini 3.8
-  Live Extended Thinking, on its official blog. Based on the naming (inference), this updates its Live
-  real-time interaction line and adds an extended-reasoning variant. For developers building real-time
-  voice or multimodal applications, the model-layer capability baseline may move up, changing the cost
-  trade-off between calling the model and self-building real-time pipelines. The material contains only
-  the release entry; capability gains, pricing, and availability are undisclosed, so the stated impact
-  is an inference drawn from the naming and the release fact itself.
+summary_en: On 15 September 2026, Google released the Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking
+  models. This is a version update of a frontier model line, implying continued iteration of real-time
+  and extended-reasoning capabilities and giving AI application developers new model options to weigh
+  against cost and latency; the material provides no pricing, benchmark or customer data, so specific
+  competitive effects are inference.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -28,7 +25,7 @@ canonical_url: https://blog.google/innovation-and-ai/models-and-research/gemini-
 summary: Gemini 3.8 Live and 3.8 Live Extended Thinking
 first_seen: '2026-09-15T17:38:18Z'
 last_seen: '2026-09-17T00:32:40Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -41,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# Google Gemini 3.8 Live
+# Gemini 3.8 Live
 
 Gemini 3.8 Live and 3.8 Live Extended Thinking
 

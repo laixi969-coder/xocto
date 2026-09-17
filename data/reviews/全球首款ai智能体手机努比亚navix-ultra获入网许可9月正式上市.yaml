@@ -37,3 +37,52 @@
   current_alternative_en: Using built-in phone assistants or installing third-party AI apps.
   usage_reason: 用户可能因“AI智能体”概念而关注，但实际需求强度未明。
   usage_reason_en: Users may be attracted by the 'AI agent' concept, but actual demand intensity is unclear.
+- id: req-initial-全球首款ai智能体手机努比亚navix-ultra获入网许可9月正式上市-2026-09-17
+  project_slug: 全球首款ai智能体手机努比亚navix-ultra获入网许可9月正式上市
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用任务需手动切换、逐步点击的痛点，旧行为明确且高频，交付为被执行的跨应用结果；但可自动完成的任务范围与成功率未公开。
+    evidence_ids:
+    - ev-f1196e57edac812b
+    - ev-e4dccb91b1e69083
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有发布、开售与价格报道，没有用户评价、复购或持续使用证据，无法判断用户是否把它留在日常流程里。
+    evidence_ids:
+    - ev-f1196e57edac812b
+    - ev-e4dccb91b1e69083
+    - ev-05e20b85b934585e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明智能体能力由谁提供、按什么方式收费，也未披露与豆包的合作分成或订阅模式，买方与付费路径不清。
+    evidence_ids:
+    - ev-f1196e57edac812b
+    - ev-e4dccb91b1e69083
+  - gate: truth
+    status: insufficient
+    reason: 跨应用代操作涉及支付、账号与隐私边界，公开材料未说明权限范围、人工确认机制与出错责任归属，交付确定性无法核对。
+    evidence_ids:
+    - ev-f1196e57edac812b
+    - ev-e4dccb91b1e69083
+  next_validation: 收集努比亚官方对 NaviX Ultra 智能体可自动完成的任务清单、权限与人工确认机制的说明页或官方发布材料。
+  market: ''
+  job: 普通消费者在手机上处理订票、点餐、查信息等跨应用任务时，需要自己在多个App之间切换并逐步点击完成操作。
+  job_en: Ordinary consumers handling cross-app tasks such as booking, ordering or looking up information
+    must switch between multiple apps and tap through each step themselves.
+  pain: 跨应用操作步骤多、路径长，用户要在不同App间反复跳转，重复输入相同信息，操作负担集中在手动点击与切换上。
+  pain_en: Cross-app tasks involve many steps and long paths; users jump repeatedly between apps and re-enter
+    the same information, with the burden concentrated in manual tapping and switching.
+  current_alternative: 旧做法是用户自己在各App内手动操作，或使用语音助手完成单点指令（如设闹钟、打电话），跨应用连续任务仍靠人工完成。
+  current_alternative_en: The old way is for users to operate each app manually, or use voice assistants
+    for single-point commands (alarms, calls), while continuous cross-app tasks are still done by hand.
+  usage_reason: 推断：相较手动逐App操作，它把自然语言指令直接转成跨应用执行动作，省去用户在多个App间切换和逐步点击的环节，因此对高频处理出行、本地生活类跨应用任务的用户更有吸引力；但公开材料未给出可自动完成的任务范围与成功率，持续使用证据缺失。
+  usage_reason_en: 'Inference: compared with manually operating app by app, it turns a natural-language
+    instruction directly into cross-app execution, removing the switching and step-by-step tapping; this
+    appeals to users who frequently handle travel and local-services cross-app tasks. However, public
+    materials do not state the range of tasks it can complete automatically or its success rate, and evidence
+    of sustained use is missing.'

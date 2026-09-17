@@ -22,7 +22,7 @@ summary: 'Hushfeed v0.39.0: 81 patches for TikTok 46.2.3. Ads no longer appear w
   videos, and Hide Tako AI now covers the Ask strip under a video.'
 first_seen: '2026-09-05T10:51:22Z'
 last_seen: '2026-09-17T00:32:43Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

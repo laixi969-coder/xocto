@@ -112,3 +112,45 @@
   usage_reason: 尝试借助 AI 工具将顾问专业能力资产化以获取订阅收入，但具体功能机制尚不明确
   usage_reason_en: Attracted by turning advisory skills into recurring SaaS revenue, though exact mechanisms
     remain unverified
+- id: req-initial-expertise-ai-2026-09-17
+  project_slug: expertise-ai
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决顾问经验复用的问题，但候选未写清用户任务、痛点与不采用的后果，连需求都难以还原。
+    evidence_ids:
+    - ev-e080e4ae03ba0fbc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有目标用户反馈或采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-f7963369da39eb46
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、买方或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-066b02169afe470c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工确认边界与安全约束。
+    evidence_ids:
+    - ev-c4b40092e9f0b500
+  next_validation: 收集 Expertise AI 官方产品页或定价页，确认其具体输入材料、交付物与收费方式。
+  market: ''
+  job: GTM 或增长顾问在为客户做渠道与增长方案时，需要把个人经验整理成可重复交付的成果，但候选未说明具体处理什么材料、完成什么任务。
+  job_en: A GTM or growth consultant preparing channel and growth plans for clients needs to turn personal
+    experience into a repeatable deliverable, but the candidate does not specify what material is handled
+    or what task is completed.
+  pain: 候选未提供任何用户痛点描述，无法确认顾问在整理与复用经验时具体卡在哪一步。
+  pain_en: The candidate provides no user pain description, so it is impossible to confirm which step
+    of organizing and reusing expertise actually hurts.
+  current_alternative: 候选未说明现有替代方式，按常识可能是顾问自己写文档、做模板或按小时交付，但这属于推断，不是材料事实。
+  current_alternative_en: The candidate does not describe existing alternatives; plausibly consultants
+    write their own documents, build templates or bill hourly, but this is inference, not material fact.
+  usage_reason: 候选未说明产品通过什么具体动作减少哪一步负担，也没有可核对的结果或用户反馈，因此无法解释用户为何会选择它。
+  usage_reason_en: The candidate does not explain what concrete action reduces which step of effort, and
+    offers no verifiable outcome or user feedback, so it cannot explain why users would choose it.

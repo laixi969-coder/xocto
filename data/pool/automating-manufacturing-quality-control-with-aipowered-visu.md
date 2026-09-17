@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSmdhN3lnWmcx
 summary: Automating Manufacturing Quality Control with AI‑Powered Visual Inspection sdcexec.com
 first_seen: '2026-09-16T18:58:35Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

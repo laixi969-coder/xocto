@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UX0dtaFJ1SDBo
 summary: How Meituan is bringing AI into travel’s physical world China Travel News
 first_seen: '2026-09-14T03:00:12Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-appwrite-20-2-2026-09-17
+  project_slug: appwrite-20-2
+  level: initial
+  reviewed_at: '2026-09-17T00:32:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决自建后端组件多、集成运维重的问题，痛点结构可辨；但候选只有一句定位，无法确认 2.0 具体替代了哪一步旧工作。
+    evidence_ids:
+    - ev-8668efd4e9870960
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供开发者采用、社区讨论或迁移案例，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-8668efd4e9870960
+  - gate: model
+    status: insufficient
+    reason: 开源项目，钱可能来自托管云服务订阅或企业支持，属推断；候选未披露定价或付费证据。
+    evidence_ids:
+    - ev-8668efd4e9870960
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 2.0 的确定性交付、安全边界与人工确认环节，候选材料不足以支撑求真判断。
+    evidence_ids:
+    - ev-8668efd4e9870960
+  next_validation: Appwrite 官方 2.0 发布说明或更新日志，用于确认本次实际新增的能力与交付形态。
+  market: ''
+  job: 后端开发者与 agent 构建者在启动一个新应用或 agent 服务时，需要一套可自托管的身份、数据库、存储与函数后端，以替代逐项自建。
+  job_en: Backend developers and agent builders starting a new application or agent service need a self-hostable
+    identity, database, storage and function backend instead of building each piece themselves.
+  pain: 自建后端需要分别选型、集成与运维多个组件，前期投入大；但候选未给出任何用户抱怨或替代行为的直接证据。
+  pain_en: Building a backend means selecting, integrating and operating several components, which is
+    heavy upfront work; however, the candidate offers no direct evidence of user complaints or workaround
+    behaviour.
+  current_alternative: 自行组合开源组件（如数据库、认证库、对象存储）并部署到云主机，或采用其他托管后端服务。
+  current_alternative_en: Assembling open-source components such as databases, auth libraries and object
+    storage on cloud hosts, or adopting another managed backend service.
+  usage_reason: 推断：若 2.0 确实把身份、数据、存储与函数收敛到一套可自托管的开源后端，开发者可省去逐项集成与运维的步骤，因此自建后端成本敏感或需要数据自控的团队会考虑它；候选未披露具体能力，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if 2.0 genuinely consolidates identity, data, storage and functions into
+    one self-hostable open-source backend, developers could skip per-component integration and operations,
+    so teams sensitive to backend build cost or needing data control would consider it; the candidate
+    discloses no concrete capabilities, so the reduction in that step cannot be confirmed.'

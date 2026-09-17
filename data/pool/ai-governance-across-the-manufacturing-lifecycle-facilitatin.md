@@ -23,7 +23,7 @@ summary: 'AI Governance Across the Manufacturing Lifecycle: Facilitating Innovat
   AI Use JD Supra'
 first_seen: '2026-09-16T21:01:09Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

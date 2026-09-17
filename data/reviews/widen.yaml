@@ -36,3 +36,47 @@
   usage_reason_en: 'It promises a simpler way to complete this job: When you query the company database
     on a Mac, the on-device AI helps ask for the number, and the data never leaves the machine. The exact
     adoption motive and repeat use are not yet verified.'
+- id: req-initial-widen-2026-09-17
+  project_slug: widen
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是查库前回忆 schema、手写 SQL 的负担，痛点方向成立，但候选材料只有一句产品描述，没有用户抱怨、替代行为或使用场景细节，价值强度无法确认。
+    evidence_ids:
+    - ev-b6583f126443243a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 8 个社区点赞、0 条评论，属于关注度信号，不能说明开发者已经把它放进日常工作流。
+    evidence_ids:
+    - ev-b6583f126443243a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方可能是个人开发者或团队，但没有任何采购或付费证据，属判断而非事实。
+    evidence_ids:
+    - ev-b6583f126443243a
+  - gate: truth
+    status: insufficient
+    reason: 依赖设备端模型生成查询，候选材料未说明是否展示生成的 SQL、是否要求人工确认，错误查询可能直接改动数据，安全边界待核验。
+    evidence_ids:
+    - ev-b6583f126443243a
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它是否展示生成的 SQL、是否要求人工确认，以及是否有开发者报告重复使用。
+  market: ''
+  job: 后端工程师或数据库运维人员在 macOS 上排查数据时，面对本地 Postgres 库中的表和记录，需要快速取出一份查询结果，而不必先回忆表结构和字段名。
+  job_en: A backend engineer or DBA troubleshooting data on macOS needs to pull a query result from a
+    local Postgres database without first recalling table structures and column names.
+  pain: 写 SQL 前要先确认表名、字段和关联关系，对不熟悉 schema 的人是重复的检索负担；候选材料没有给出任何用户抱怨或替代行为的证据。
+  pain_en: Before writing SQL one must confirm table names, columns and joins, a repeated lookup burden
+    for anyone unfamiliar with the schema; the candidate material provides no evidence of user complaints
+    or workaround behaviour.
+  current_alternative: 现有做法是使用 Postgres 客户端、命令行 psql 或带 AI 补全的商业数据库工具，手写并调试 SQL。
+  current_alternative_en: The existing approach is a Postgres client, the psql command line, or commercial
+    database tools with AI completion, writing and debugging SQL by hand.
+  usage_reason: 推断：相较手写 SQL，它把自然语言直接转成查询并在本地库执行，省去回忆 schema 和拼写语句这一步，因此对不熟悉表结构、又要求数据不出本机的开发者可能有吸引力；但候选材料未提供任何采用或留存证据。
+  usage_reason_en: 'Inference: compared with hand-writing SQL, it turns natural language directly into
+    a query executed against the local database, removing the step of recalling the schema and composing
+    the statement, which may appeal to developers unfamiliar with the schema who require data to stay
+    on-device; however the candidate material offers no adoption or retention evidence.'

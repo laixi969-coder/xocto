@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ocDFKTzJ4ck8w
 summary: CES 2026展示南宫真人手机版开户 推动本地AI生态系统 体坛加
 first_seen: '2026-09-16T04:53:59Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

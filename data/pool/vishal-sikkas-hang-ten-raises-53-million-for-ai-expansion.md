@@ -1,6 +1,6 @@
 ---
 slug: vishal-sikkas-hang-ten-raises-53-million-for-ai-expansion
-name: Vishal Sikka’s Hang Ten Raises $53 Million for AI Expansion
+name: Hang Ten
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLVlUVVFDT1VN
 summary: Vishal Sikka’s Hang Ten Raises $53 Million for AI Expansion Whalesbook
 first_seen: '2026-09-16T19:20:55Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Vishal Sikka’s Hang Ten Raises $53 Million for AI Expansion
+# Hang Ten
 
 Vishal Sikka’s Hang Ten Raises $53 Million for AI Expansion Whalesbook
 

@@ -1,0 +1,43 @@
+- id: req-initial-veyra-nrvideo-2026-09-17
+  project_slug: veyra-nrvideo
+  level: initial
+  reviewed_at: '2026-09-17T00:32:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决直播与录制中低清高噪画面无法实时改善的问题，痛点具体；但公开材料只有一句功能描述，说不清替代了哪一步旧工作，也未见用户反馈。
+    evidence_ids:
+    - ev-04c0eaff7ad6a27f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约158星、12次fork，属于早期关注度，没有社区讨论或采用证据说明主播是否真的把它放进工作流。
+    evidence_ids:
+    - ev-04c0eaff7ad6a27f
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、赞助或商业交付路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-04c0eaff7ad6a27f
+  - gate: truth
+    status: insufficient
+    reason: 实时超分与插帧对延迟和显卡要求高，公开材料未给出可复现的实测结果，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-04c0eaff7ad6a27f
+  next_validation: 收集该仓库的README、issue与release说明，核对实时增强的延迟、硬件门槛与可复现实测结果。
+  market: ''
+  job: 游戏主播或视频创作者在直播或录制时处理采集卡输入的低分辨率、高噪点画面，需要实时得到更清晰、更流畅的预览与成片素材。
+  job_en: Game streamers or video creators handling low-resolution, noisy capture-card input during live
+    streaming or recording, who need a clearer, smoother real-time preview and final footage.
+  pain: 采集卡与旧素材画质差，直播中无法停下来做后期处理，观众看到的就是原始画质。
+  pain_en: Capture-card and legacy footage looks poor, and there is no way to pause a live stream for
+    post-processing, so viewers see the raw quality.
+  current_alternative: 主播通常直接推流原始画面，或事后用剪辑软件和独立超分工具处理，实时场景基本没有替代方案。
+  current_alternative_en: Streamers usually push the raw feed, or process it afterwards with editing software
+    and standalone upscaling tools; real-time scenarios have almost no alternative.
+  usage_reason: 推断：它把超分、降噪和插帧放进播放与采集链路，省掉事后单独跑一遍增强软件这一步，因此对在意实时画质又不想增加后期工序的主播有吸引力；但延迟、显卡门槛和实际画质尚无公开数据支撑。
+  usage_reason_en: 'Inference: it puts super-resolution, denoising and frame generation into the playback
+    and capture chain, removing the separate post-hoc enhancement pass, which appeals to streamers who
+    care about live quality without adding post-production steps; latency, GPU requirements and actual
+    quality lack public data.'

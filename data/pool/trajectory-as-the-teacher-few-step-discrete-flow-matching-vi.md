@@ -26,7 +26,7 @@ summary: 'Discrete flow matching generates text by iteratively transforming nois
   quality; a single bad decision at an early midpoint propagates through subsequent steps…'
 first_seen: '2026-09-16T00:00:00Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

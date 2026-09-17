@@ -22,7 +22,7 @@ summary: Hyrox fitness race organizers to reviews protocols after athlete soils 
   Desk
 first_seen: '2026-09-15T02:10:05Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

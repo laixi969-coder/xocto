@@ -1,6 +1,6 @@
 ---
 slug: mem0-joins-the-vercel-marketplace
-name: Mem0 joins the Vercel Marketplace
+name: Mem0
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/mem0-joins-the-vercel-marketplace
 summary: ''
 first_seen: '2026-09-16T17:00:00Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Mem0 joins the Vercel Marketplace
+# Mem0
 
 _（源没给简介）_
 

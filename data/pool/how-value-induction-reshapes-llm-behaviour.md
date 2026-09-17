@@ -26,7 +26,7 @@ summary: Conversational Large Language Models are post-trained on language that 
   through language used in the generations, with a potential detrimental effect on the…
 first_seen: '2026-09-16T00:00:00Z'
 last_seen: '2026-09-17T00:32:59Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

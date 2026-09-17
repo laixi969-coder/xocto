@@ -1,0 +1,45 @@
+- id: req-initial-acoubatt-raises-11m-to-improve-battery-manufacturing-safety-2026-09-17
+  project_slug: acoubatt-raises-11m-to-improve-battery-manufacturing-safety
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决电池质检判断缺陷的需求，但公开材料未说明现有检测痛点、漏检代价与人工耗时，价值结构无法确认。
+    evidence_ids:
+    - ev-c67f79b457ac2128
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与工业试点意向，未见客户采用、复购或产线部署证据，共识环节无法判断。
+    evidence_ids:
+    - ev-c67f79b457ac2128
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或买方是电池厂还是设备集成商，收入路径只能推断为 to B，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c67f79b457ac2128
+  - gate: truth
+    status: insufficient
+    reason: 未披露检测精度、误判率与人工复核边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-c67f79b457ac2128
+  next_validation: 收集 AcouBatt 官方产品页或工业试点公告，确认检测对象、精度指标与是否已有电池制造商付费部署。
+  market: ''
+  job: 电池制造商的产线质检或工艺工程师，在电芯或电池组下线检测时，处理生产与测试过程中采集的声学信号，要判断该批次是否存在影响安全与可靠性的缺陷。
+  job_en: A battery manufacturer's production quality or process engineer, at the end-of-line check of
+    cells or packs, works with acoustic signals captured during production and testing to decide whether
+    a batch carries defects affecting safety and reliability.
+  pain: 公开材料只说明融资用于开发诊断技术并推进工业试点，未说明现有检测方式的具体痛点、漏检代价或人工检测耗时，痛点强度无法从现有事实确认。
+  pain_en: The public material only says the funding develops diagnostics technology and advances industrial
+    pilots; it does not describe the pain of current inspection methods, the cost of missed defects, or
+    manual inspection time, so pain intensity cannot be confirmed from available facts.
+  current_alternative: 公开材料未披露电池制造商目前用什么方式做同类检测，无法确认替代的是人工抽检、实验室测试还是其他设备。
+  current_alternative_en: The public material does not disclose how battery manufacturers currently perform
+    comparable inspection, so it is unclear whether it replaces manual sampling, lab testing or other
+    equipment.
+  usage_reason: 推断：若声学诊断能在产线上直接给出缺陷判定，质检人员可省去把样品送实验室等待结果的一步；但公开材料没有检测精度、节拍或客户验证结果，无法确认这一替代是否成立。
+  usage_reason_en: 'Inference: if acoustic diagnostics can return a defect judgement directly on the line,
+    quality staff could skip sending samples to a lab and waiting for results; however, no accuracy, cycle-time
+    or customer validation results are public, so this substitution cannot be confirmed.'

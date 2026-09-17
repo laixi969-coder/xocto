@@ -1,0 +1,43 @@
+- id: req-initial-veridion-lands-20m-to-take-business-intelligence-beyond-stat-2026-09-17
+  project_slug: veridion-lands-20m-to-take-business-intelligence-beyond-stat
+  level: initial
+  reviewed_at: '2026-09-17T00:33:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业信息分散、更新滞后导致尽调与准入判断失准的问题，旧做法是人工逐源检索，痛点刚性且交付可核对。
+    evidence_ids:
+    - ev-8d10853ae9522dc0
+  - gate: consensus
+    status: insufficient
+    reason: 材料只给出融资事实，没有客户名单、使用规模或行业口碑，无法判断买方是否已形成共识。
+    evidence_ids:
+    - ev-8d10853ae9522dc0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方类型，钱从哪来只能推断为 to B 数据订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8d10853ae9522dc0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对字段覆盖、更新频率与准确率，交付确定性缺少公开材料支持。
+    evidence_ids:
+    - ev-8d10853ae9522dc0
+  next_validation: 收集 Veridion 官方定价页或公开客户案例，核对其企业档案的字段覆盖、更新频率与计费方式。
+  market: ''
+  job: 采购、合规或风控人员在筛选供应商或做客户尽调时，需要把分散在登记信息、官网和新闻里的企业现状拼成一份可用的企业档案。
+  job_en: Procurement, compliance or risk staff screening suppliers or running customer due diligence
+    need to assemble a company's current state from registries, websites and news into a usable profile.
+  pain: 企业信息分散且变动频繁，人工逐个来源核对耗时，且容易用过时信息做准入或授信判断。
+  pain_en: Company information is scattered and changes often; checking each source by hand is slow and
+    risks onboarding or credit decisions based on stale data.
+  current_alternative: 人工检索工商登记、官网与新闻，或购买更新滞后的静态企业数据库。
+  current_alternative_en: Manual lookups across registries, websites and news, or static company databases
+    that lag behind changes.
+  usage_reason: 推断：相较人工逐源检索，它把抓取与更新做成持续动作，用户直接查询已合并的企业档案，省去重复核对来源这一步；因此高频做供应商准入或尽调的团队会在需要最新企业状态时选择它。
+  usage_reason_en: 'Inference: compared with manual source-by-source lookups, it turns collection and
+    refresh into a continuous process so users query an already merged company profile, removing the repeated
+    source-checking step; teams doing frequent vendor onboarding or due diligence would choose it when
+    they need current company status.'

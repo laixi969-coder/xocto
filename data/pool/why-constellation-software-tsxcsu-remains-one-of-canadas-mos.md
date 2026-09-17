@@ -22,7 +22,7 @@ summary: Why Constellation Software (TSX:CSU) Remains One of Canada's Most-Watch
   kalkine.ca
 first_seen: '2026-09-16T11:53:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

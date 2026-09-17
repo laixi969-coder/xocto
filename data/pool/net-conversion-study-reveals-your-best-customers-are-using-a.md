@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOT2xXUnRNZG9t
 summary: Net Conversion Study Reveals Your Best Customers Are Using AI to Find You lbbonline.com
 first_seen: '2026-09-16T14:58:55Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

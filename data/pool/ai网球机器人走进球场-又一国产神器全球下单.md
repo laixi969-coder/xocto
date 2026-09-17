@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE4tN09jMUNiREdK
 summary: AI网球机器人走进球场 又一国产“神器”全球下单！ 深圳新闻网
 first_seen: '2026-09-14T10:13:35Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

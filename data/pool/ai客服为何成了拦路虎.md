@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFKb0VwZXJ4
 summary: AI客服为何成了“拦路虎” 新华网客户端
 first_seen: '2026-09-16T00:11:13Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

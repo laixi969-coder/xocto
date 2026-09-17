@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQWjBYbE9zU0M0
 summary: 借助moomoo AI挖掘基本面洞察：分析耐克的营收轨迹 Moomoo
 first_seen: '2026-09-16T08:26:23Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

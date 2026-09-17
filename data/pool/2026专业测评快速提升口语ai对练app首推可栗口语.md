@@ -1,6 +1,6 @@
 ---
 slug: 2026专业测评快速提升口语ai对练app首推可栗口语
-name: 2026专业测评：快速提升！口语AI对练APP首推可栗口语
+name: 可栗口语
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOQk02QlFwQmU5
 summary: 2026专业测评：快速提升！口语AI对练APP首推可栗口语 凤凰网科技
 first_seen: '2026-09-14T10:38:16Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 2026专业测评：快速提升！口语AI对练APP首推可栗口语
+# 可栗口语
 
 2026专业测评：快速提升！口语AI对练APP首推可栗口语 凤凰网科技
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE9zUldlQXNEN2xf
 summary: 钉钉DingTalk A1双11天猫、抖音双榜第一，国产AI硬件走向普惠，立姣体育引领智能娱乐新体验 体坛加
 first_seen: '2026-09-16T00:55:30Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

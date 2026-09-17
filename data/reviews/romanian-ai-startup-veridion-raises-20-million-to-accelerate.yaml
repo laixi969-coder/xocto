@@ -1,0 +1,42 @@
+- id: req-initial-romanian-ai-startup-veridion-raises-20-million-to-accelerate-2026-09-17
+  project_slug: romanian-ai-startup-veridion-raises-20-million-to-accelerate
+  level: initial
+  reviewed_at: '2026-09-17T00:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决企业信息分散、人工核查耗时的问题，痛点方向成立，但公开材料未说明数据来源与交付结果，价值强度无法确认。
+    evidence_ids:
+    - ev-ecc947e04af5a0b2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户采用或评价材料，共识环节缺少可核对依据。
+    evidence_ids:
+    - ev-ecc947e04af5a0b2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，to B 订阅或按查询量收费均属推断，付费路径尚未核验。
+    evidence_ids:
+    - ev-ecc947e04af5a0b2
+  - gate: truth
+    status: insufficient
+    reason: 企业数据涉及准确性与合规，公开材料未说明数据更新机制或人工校验环节。
+    evidence_ids:
+    - ev-ecc947e04af5a0b2
+  next_validation: 收集Veridion官方产品页或客户案例，确认其数据来源、交付形式与收费方式。
+  market: ''
+  job: 采购、风控或供应链人员，在供应商准入或比价时，需要把分散的企业名录与资质材料整理成可核对的企业信息。
+  job_en: Procurement, risk or supply chain staff who, during supplier onboarding or price comparison,
+    need to turn scattered company directories and credential documents into verifiable company information.
+  pain: 企业信息来源分散、格式不一，人工逐个检索耗时且容易遗漏；公开材料未说明该痛点被验证到什么程度。
+  pain_en: Company information is scattered and inconsistently formatted, so manual lookups are slow and
+    error-prone; the public material does not show how far this pain has been validated.
+  current_alternative: 目前多靠人工检索工商名录、行业数据库或采购人员经验判断。
+  current_alternative_en: Today this is mostly done by manually searching registries, industry databases
+    or relying on buyer experience.
+  usage_reason: 推断：若产品能批量把企业名称转成结构化数据，采购人员可省去逐个检索名录这一步；但公开材料只有融资信息，没有客户案例或使用数据，无法确认持续使用。
+  usage_reason_en: 'Inference: if the product can convert company names into structured data in bulk,
+    buyers skip the step of searching directories one by one; however, only funding information is public,
+    with no customer cases or usage data, so continued use cannot be confirmed.'

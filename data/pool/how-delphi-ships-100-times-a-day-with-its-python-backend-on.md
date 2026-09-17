@@ -22,7 +22,7 @@ summary: National outcry against data center construction has spread to Philadel
   suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.
 first_seen: '2026-09-15T04:00:00Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 - marketfeeds

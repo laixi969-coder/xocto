@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxPR1g4QmxhUDZJ
 summary: StoreClaw to Exhibit at Amazon Accelerate 2026 to Help Sellers Prepare for Holiday Season markets.businessinsider.com
 first_seen: '2026-09-16T15:17:52Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

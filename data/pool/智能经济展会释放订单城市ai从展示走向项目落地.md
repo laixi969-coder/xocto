@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2JIV3JON0xk
 summary: 智能经济展会释放订单，城市AI从展示走向项目落地 Sohu
 first_seen: '2026-09-15T16:17:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

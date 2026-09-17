@@ -1,11 +1,15 @@
 ---
 slug: token-之后谁来组织-ai-计算arm-寻找下一代计算的答案
-name: Token 之后，谁来组织 AI 计算？Arm 寻找下一代计算的答案
+name: Arm
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Arm 在上海的 Arm Everywhere China 活动上把方向拆成云 AI、边缘 AI、物理 AI 三条线，并称算力会在云、端侧和物理世界之间流动，想成为组织这些计算资源的底座；今年3月它还推出了首款自研
+  CPU 芯片。这是芯片 IP 厂商的角色与平台叙事变化，不是一款可独立使用的 AI 应用。
 inspiration: ''
-summary_en: ''
+summary_en: At its Arm Everywhere China event in Shanghai, Arm split its direction into cloud AI, edge
+  AI and physical AI, saying compute will flow between cloud, devices and the physical world, and positioning
+  itself as the base for organizing those compute resources; in March 2026 it also shipped its first self-designed
+  CPU chip. This is a change in a chip IP vendor's role and platform narrative, not a standalone AI application.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -94,7 +98,7 @@ summary: "如果说今年 3 月，Arm 推出首款自研 CPU 芯片，是这家�
   \ AI 时代计算基础设施的一部分。 \n 在一个未来形态仍未确定的时代，Arm 选择的不是预测唯一答案，而是建立一个能够适应不同答案的平台。 \n 这或许也是它对 AI 时代最大的判断， 下一个阶段的竞争，不只是计算能力的竞争，而是组织计算能力的竞争。"
 first_seen: '2026-09-16T08:34:03Z'
 last_seen: '2026-09-17T00:33:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -105,7 +109,7 @@ sightings:
   kind: news
 ---
 
-# Token 之后，谁来组织 AI 计算？Arm 寻找下一代计算的答案
+# Arm
 
 如果说今年 3 月，Arm 推出首款自研 CPU 芯片，是这家公司向市场释放的一个信号，它开始尝试突破过去「只提供底层架构授权」的角色边界。那么在上海举办的 Arm Everywhere China 活动上，Arm 想传递的信息更加明确，不要再用过去「CPU IP 供应商」的方式理解今天的 Arm。 
  在这场活动中，Arm 没有只围绕某一个产品展开叙事，而是第一次更加完整地将自己的未来方向拆成三条线，云 AI、边缘 AI 和物理 AI。 

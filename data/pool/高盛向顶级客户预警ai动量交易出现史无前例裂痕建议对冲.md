@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBXS2dBV1JMSHp6
 summary: 高盛向顶级客户预警：AI动量交易出现史无前例裂痕，建议对冲 华尔街见闻
 first_seen: '2026-09-16T03:14:31Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

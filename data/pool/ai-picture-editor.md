@@ -22,7 +22,7 @@ summary: 2026 年编程导航 AI 编程实战新项目，基于 React 19 + FastA
   种编辑工具、文生图、智能抠图、图层拆分、区域编辑、多步计划。覆盖 AI Agent 架构、SSE 实时推送、异步任务队列、Canvas 画布引擎。用一套教程掌握 AI Agent 全栈开发，不到一周学完，给你的简历增加竞争力
 first_seen: '2026-09-01T06:41:08Z'
 last_seen: '2026-09-17T00:32:43Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

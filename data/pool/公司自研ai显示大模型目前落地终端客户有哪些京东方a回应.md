@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOZk5fS25ObVIt
 summary: 公司自研AI显示大模型目前落地终端客户有哪些？京东方A回应 Sohu
 first_seen: '2026-09-16T13:32:00Z'
 last_seen: '2026-09-17T00:33:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
