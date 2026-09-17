@@ -116,3 +116,31 @@
     \n\r\n例如打开 ProxyLane ，设置一个 profile （通常是你的梯纸的 HTTP/Socks5 协议的代理地址和端口）。\r\n然后往 ProxyLane 界面拖入 chatgpt.exe\
     \ 就可以， 如果拖入 cmd 启动这个命令行窗口，这个窗口里执行的 codex 、git 、curl 、npm 、pip 甚至浏览器等等自动透明代理。\r\n\r\nhttps://github.com/threatexpert/ProxyLane\r\
     \n\r\n这个代码库有 90%以上的 C++代码是多年前手搓的，一直自己用。最近用 AI 优化了一下易用性，感觉值得分享一下。"
+- id: ev-34b6bb0cd9014776
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1242549
+  title: '[开源自荐] tool-bridge: Agent 的触手, 连接 设备/Context/MCP. 支持反向注册, SDK...'
+  published_at: '2026-09-16T15:46:50Z'
+  collected_at: '2026-09-17T00:32:38Z'
+  source_kind: product
+  tier: independent
+  fact: "> 先上链接: https://github.com/TokenRollAI/tool-bridge\r\n> 官方文档: https://tool-bridge.tokenroll.ai/\r\
+    \n\r\n过去一年在一些 AI Starup 工作, 在这些强调 AI Native 的公司中做 Agent Infra 的过程中, 经常会遇到一些问题:\r\n\r\n1. 大量的不同业务的\
+    \ Agent 希望能够共享工具, 但是也希望有足够的限制(某些工具禁止访问)\r\n2. 希望 Agent 和 Agent 之间能够共享 Context, 用飞书 cli 太重, 而且 agent\
+    \ 创建的文档访问权限控制很麻烦\r\n3. 聚合 MCP, 提供统一的开发体验, 某些 MCP 由于 Seat 限制不能够添加过多的 User 席位, 而且最好能够自部署, 没有商业风险\r\n\
+    4. 希望能够直接让 Agent 使用某些命令排查线上的机器/Pod/服务\r\n5. 自建的 mcp 又总是很难注册到 MCP Gateway\r\n\r\n以上就是我在做 Agent Infra\
+    \ 遇到的一些问题, 分散来看, 每一个其实都有解决方案.\r\n\r\n比如说 mcporter / mintlify / 各种 mcp gateway / agentdock ...\r\n\r\
+    \n但是作为部署/管理/成本/维护的考虑, 把这些功能分散到 N 个服务中好像有太过于舍本逐末.\r\n\r\n于是最近两个月, 我做了 tool-bridge, 简单来说: 基于树描述组织中的所有工具/MCP/Context/设备,\
+    \ 提供类似 cli 的 help 语义 + agent 自主的 feedback + SDK + 支持反向注册, 实现的一套 Agent 的工具调用方式.\r\n\r\n当然, 本身是兼容 MCP\
+    \ 的, 同时 tool-bridge 也支持 接入 mcp, 也支持以 mcp 的方式暴露.\r\n\r\n# 几个用例\r\n\r\n<img width=\"2516\" height=\"\
+    1504\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6624fd9e-c939-428e-ba0a-8bbbd2cc1c3f\"\
+    \ />\r\n\r\n<img width=\"1200\" height=\"2608\" alt=\"Imag"
+- id: ev-90081ed01333e7c3
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1242518
+  title: 开源我常用的一些 AI 约束对话的 SKILL 工具
+  published_at: '2026-09-16T12:08:43Z'
+  collected_at: '2026-09-17T00:32:38Z'
+  source_kind: product
+  tier: independent
+  fact: "有喜欢的朋友可以看看： \r\n\r\nhttps://github.com/lulufoo/lulu-dialogue-skills"

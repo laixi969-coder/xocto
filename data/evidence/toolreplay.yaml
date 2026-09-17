@@ -36,3 +36,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 金融与保险 AI 平台工程师 合规与风控人员'
+- id: ev-5309990e3af9e139
+  project_slug: toolreplay
+  url: http://quartzjer.github.io/pennybank/
+  title: ToolReplay
+  published_at: '2026-09-14T10:11:00Z'
+  collected_at: '2026-09-17T00:32:43Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach
+    checks. Dependency-free Python CLI. | repository stars: 173'

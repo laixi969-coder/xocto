@@ -20,17 +20,17 @@ url: https://www.depletion.org
 canonical_url: https://depletion.org
 summary: How much oil-market buffer is left?
 first_seen: '2026-09-15T19:56:56Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: rejected
+last_seen: '2026-09-17T00:32:40Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.depletion.org
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 86
-    comments: 138
+    points: 112
+    comments: 173
   kind: news
 ---
 

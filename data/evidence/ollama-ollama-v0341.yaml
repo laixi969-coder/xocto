@@ -13,3 +13,18 @@
     \ (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently.\r\n* Deprecated\
     \ `typical_p`: it can no longer be set when creating new models, existing GGUF models retain support.\r\
     \n* MLX and llama.cpp updates\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.0...v0.34.1-rc1"
+- id: ev-6ecaaf85cea83a6a
+  project_slug: ollama-ollama-v0341
+  url: https://github.com/ollama/ollama/releases/tag/v0.34.1
+  title: 'ollama/ollama: v0.34.1'
+  published_at: '2026-09-14T22:14:03Z'
+  collected_at: '2026-09-17T00:32:43Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## What's Changed\r\n* MLX safetensors `ollama create` no longer experimental.  GGUF model creation\
+    \ now requires using llama.cpp tooling for safetensor conversion and quantization.\r\n* Improved MLX\
+    \ memory handling on Apple Silicon\r\n* Runaway repeat token detection now requires 100 repeat tokens\
+    \ for reduced false positives (e.g. OCR)\r\n* `/api/tags` is much faster on large model libraries\
+    \ (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently.\r\n* Deprecated\
+    \ `typical_p`: it can no longer be set when creating new models, existing GGUF models retain support.\r\
+    \n* MLX and llama.cpp updates\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.0...v0.34.1-rc1"

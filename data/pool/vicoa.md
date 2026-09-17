@@ -31,18 +31,18 @@ canonical_url: https://vicoa.ai
 summary: Vicoa is the ADE for running a team of coding agents from any device. Desktop, mobile, VPS, open-source,
   self-hostable.
 first_seen: '2026-08-28T16:30:26Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://vicoa.ai
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    stars: 256
+    stars: 258
     forks: 24
-    open_issues: 3
+    open_issues: 4
   kind: product
 ---
 

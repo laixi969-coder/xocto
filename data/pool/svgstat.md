@@ -48,7 +48,7 @@ summary: "2026 年 7 月初，萍萍给我打了个微信语音。\r\n\r\n她是
   \n\r\n电话挂断，事情彻底翻了篇。\r\n\r\n今天下午，我开通了抖音和视频号，发了第一条视频，标题就叫：车还没开，人先散了。\r\n\r\n关上办公室的门，我开车回家的路上，看着沿途的路灯一盏盏飞速向后退去，恍惚之间，又好像回到了二十多年前在\
   \ 107 国道上晃荡的那些夜晚。\r\n\r\n车是散了，但路还在。开通这个账号没别的心思，既然退无可退，那后面这趟车，我自己一个人把它开下去。\r\n\r\n![Visits]( https://svgstat.com/svg/refactoring-the-self/counter/visits.svg?page_id=blog/car-not-started-people-already-gone)"
 first_seen: '2026-09-12T16:11:38Z'
-last_seen: '2026-09-14T00:12:28Z'
+last_seen: '2026-09-17T00:32:38Z'
 status: rejected
 sources:
 - v2ex
@@ -58,6 +58,12 @@ sightings:
   seen_at: '2026-09-14T00:12:28Z'
   metrics:
     comments: 5
+  kind: product
+- source: v2ex
+  url: https://svgstat.com/svg/refactoring-the-self/counter/visits.svg?page_id=blog/kill-the-self-absorbed-craftsman
+  seen_at: '2026-09-17T00:32:38Z'
+  metrics:
+    comments: 2
   kind: product
 ---
 

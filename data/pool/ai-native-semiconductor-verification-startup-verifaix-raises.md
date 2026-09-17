@@ -1,0 +1,43 @@
+---
+slug: ai-native-semiconductor-verification-startup-verifaix-raises
+name: AI-native semiconductor verification startup VerifAIX raises $5 million to expand growth, engineering
+  teams
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRWFwNjRNdWNTT0dPeVAxQjNaUDRfLV8za2Z4UXdYNk56U2ZwMDBrNEd3RlJjek8xdEdYTDBwQWpnWTZwTnlWdmM4b2xnRWRYQTBobWZaTmRkdHBaMDBRT2pmU0liLTMyRTFfOWRZOEdFZTV0NjlCTXIxaDlTNml2WjZRcU1ZNUsxUXN1MTBEVWpmRWtvMHd0eGxadTNiWG5TNTd1NkpNeURlR3hLM1VzSzAyeVppZ2c4OTJidDRybGZBNk90bnQ2R2d6TXNIRkhVWjg2ZXpyaWhWSmVWTThUOW12ankxNlnSAecBQVVfeXFMTUVhcDY0TXVjU09HT3lQMUIzWlA0Xy1fM2tmeFF3WDZOelNmcDAwazRHd0ZSY3pPMXRHWEwwcEFqZ1k2cE55VnZjOG9sZ0VkWEEwaG1mWk5kZHRwWjAwUU9qZlNJYi0zMkUxXzlkWThHRWU1dDY5Qk1yMWg5UzZpdlo2UXFNWTVLMVFzdTEwRFVqZkVrbzB3dHhsWnUzYlhuUzU3dTZKTXlEZUd4SzNVc0swMnlaaWdnODkyYnQ0cmxmQTZPdG50Nkdnek1zSEZIVVo4NmV6cmloVkplVk04VDltdmp5MTZZ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRWFwNjRNdWNTT0dPeVAxQjNaUDRfLV8za2Z4UXdYNk56U2ZwMDBrNEd3RlJjek8xdEdYTDBwQWpnWTZwTnlWdmM4b2xnRWRYQTBobWZaTmRkdHBaMDBRT2pmU0liLTMyRTFfOWRZOEdFZTV0NjlCTXIxaDlTNml2WjZRcU1ZNUsxUXN1MTBEVWpmRWtvMHd0eGxadTNiWG5TNTd1NkpNeURlR3hLM1VzSzAyeVppZ2c4OTJidDRybGZBNk90bnQ2R2d6TXNIRkhVWjg2ZXpyaWhWSmVWTThUOW12ankxNlnSAecBQVVfeXFMTUVhcDY0TXVjU09HT3lQMUIzWlA0Xy1fM2tmeFF3WDZOelNmcDAwazRHd0ZSY3pPMXRHWEwwcEFqZ1k2cE55VnZjOG9sZ0VkWEEwaG1mWk5kZHRwWjAwUU9qZlNJYi0zMkUxXzlkWThHRWU1dDY5Qk1yMWg5UzZpdlo2UXFNWTVLMVFzdTEwRFVqZkVrbzB3dHhsWnUzYlhuUzU3dTZKTXlEZUd4SzNVc0swMnlaaWdnODkyYnQ0cmxmQTZPdG50Nkdnek1zSEZIVVo4NmV6cmloVkplVk04VDltdmp5MTZZ?oc=5
+summary: AI-native semiconductor verification startup VerifAIX raises $5 million to expand growth, engineering
+  teams Indian Startup News
+first_seen: '2026-09-16T07:29:28Z'
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRWFwNjRNdWNTT0dPeVAxQjNaUDRfLV8za2Z4UXdYNk56U2ZwMDBrNEd3RlJjek8xdEdYTDBwQWpnWTZwTnlWdmM4b2xnRWRYQTBobWZaTmRkdHBaMDBRT2pmU0liLTMyRTFfOWRZOEdFZTV0NjlCTXIxaDlTNml2WjZRcU1ZNUsxUXN1MTBEVWpmRWtvMHd0eGxadTNiWG5TNTd1NkpNeURlR3hLM1VzSzAyeVppZ2c4OTJidDRybGZBNk90bnQ2R2d6TXNIRkhVWjg2ZXpyaWhWSmVWTThUOW12ankxNlnSAecBQVVfeXFMTUVhcDY0TXVjU09HT3lQMUIzWlA0Xy1fM2tmeFF3WDZOelNmcDAwazRHd0ZSY3pPMXRHWEwwcEFqZ1k2cE55VnZjOG9sZ0VkWEEwaG1mWk5kZHRwWjAwUU9qZlNJYi0zMkUxXzlkWThHRWU1dDY5Qk1yMWg5UzZpdlo2UXFNWTVLMVFzdTEwRFVqZkVrbzB3dHhsWnUzYlhuUzU3dTZKTXlEZUd4SzNVc0swMnlaaWdnODkyYnQ0cmxmQTZPdG50Nkdnek1zSEZIVVo4NmV6cmloVkplVk04VDltdmp5MTZZ?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+---
+
+# AI-native semiconductor verification startup VerifAIX raises $5 million to expand growth, engineering teams
+
+AI-native semiconductor verification startup VerifAIX raises $5 million to expand growth, engineering teams Indian Startup News
+
+## 笔记
+
+

@@ -1,0 +1,12 @@
+- id: ev-89c2270ad484d8e9
+  project_slug: fault-tolerant-distributed-training-on-amazon-eks-using-nvrx
+  url: https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/
+  title: Fault tolerant distributed training on Amazon EKS using NVRx
+  published_at: '2026-09-16T18:59:25Z'
+  collected_at: '2026-09-17T00:32:59Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap
+    checkpoint I/O with training and recover from GPU faults in seconds. This post covers async checkpointing,
+    in-process restart, and ft_launcher in-job restart, with H100 benchmarks at 2 to 8 nodes showing 99%+
+    training efficiency and second-scale recovery.

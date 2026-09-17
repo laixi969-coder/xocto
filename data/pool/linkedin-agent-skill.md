@@ -37,17 +37,17 @@ summary: 'Eleven free Claude skills that run a LinkedIn account: posts off 21 ho
   replies, profile score, weekly plan, and a humanizer that strips the AI fingerprint and scores the draft
   before it goes out.'
 first_seen: '2026-09-07T22:58:16Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://opusjake.ai/r/linkedin-agent
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    stars: 230
-    forks: 38
+    stars: 262
+    forks: 41
     open_issues: 4
   kind: product
 ---

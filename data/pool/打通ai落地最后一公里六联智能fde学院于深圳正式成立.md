@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMickFVX3lxTE40LVJiVnd0TEt5cEJ3dDMxR1
 canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE40LVJiVnd0TEt5cEJ3dDMxR1RselZSckhOTkUzdVd2RGJmT1pCejJzU0pEX3JlTlhfT3NIdFJNS09QYnhha1dYVGFRWjFTV0JuY1k3U2c3NVZwVUhkYjFNc1RJNFZDN3V5NlJieXFyUHNPdw?oc=5
 summary: 打通AI落地最后一公里，六联智能FDE学院于深圳正式成立 t.cj.sina.cn
 first_seen: '2026-09-13T04:42:56Z'
-last_seen: '2026-09-16T00:21:13Z'
+last_seen: '2026-09-17T00:33:07Z'
 status: pending_filter
 sources:
 - newssearch
@@ -43,6 +43,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibkFVX3lxTE9QamNlZlE0OGx6UUxib2VzYjVEX2RjbzdhWFc1MzFpNzBKekJvS3B0T1V1Z0Y4VVluYUlJcjlaVElVMjRSdU5UOEMwNndDX01qYjJGSWd6QlV1cmtfOGpHWWJneUNWWFRCZWNWbHRR?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinARBVV95cUxNaldaem5RVU93b1c5Wll2aGlyeUhwbzg3VGRSVWE1dmNDZ0JFTDZvVmNKSjhyUHRncW9BWVFOTGxfMmhWLUU5OUc5elU2bGM1QlFFc1VZUUg1dTd4U0g1YUdvaS1ibkd4elVORXlSSWRuMjNCd2cyWThiWHpzeFJ2NThhcWdtS0lZdlIwNTNpT0ZyeGNJUEFiUkRlRDVOSmZfdFJndTYwTy05Znc0QlREYWFESkQwNGg5WFdHNlVsWHowc3RIWkZzRVFiYXFPbVFiTFVtendUS1dTRHZXTEZjeWFTUWxELWs0cTcwMUdIbjRJd0xwT296TXJyclJabTBiYzQ1bDl3X1hnYUhoZjR4ajRQdmdOVFZydW5LMHg3Qm41LUhmV0JTNHdDaXpmX3c0TWl1aUdyREZNS2xnRW9FWHcxbWExZE1fNEtpMkRZMnBFVVZuQlR4VGVKS1FLUGdTRG5IMjNua2xaS2cwelBjWlFDWkdoV1RKTGY4MUZsNXJIeEt5bWd5SWkwQWpMbHBvMzRPcEg0SjJmVkdVSzRac2F1RVhmaWxEOFNUSzFMQzZhdS1mZ25LVk9ydGpBN0otWU1xUjhheUU4QnRGN3ZqRWZrYUZYNXIyLUoyTTRWaVFHak1TaDFfUGw5blYycnhtd20xV1dCTTVENWZjZDBzRF8xeGV4VU11M09lckZkQmdNUUdIRXczcVctOFo?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
   metrics: {}
   kind: news
 ---

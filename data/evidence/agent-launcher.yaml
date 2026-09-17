@@ -34,3 +34,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 开发者在本地同时运行多个编码代理命令行工具时，需要统一配置与启动这些工具'
+- id: ev-f633ff91495dc0a5
+  project_slug: agent-launcher
+  url: https://github.com/agent-launch/agent-launcher
+  title: agent-launcher
+  published_at: '2026-09-10T22:07:14Z'
+  collected_at: '2026-09-17T00:32:43Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Configure and run existing coding-agent CLIs from one desktop app. | repository stars: 212'

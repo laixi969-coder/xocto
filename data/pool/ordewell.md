@@ -30,17 +30,17 @@ url: https://github.com/ordewell/ordewell
 canonical_url: https://github.com/ordewell/ordewell
 summary: turn one goal into an ordered plan of coding-agent tasks
 first_seen: '2026-09-15T13:31:37Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/ordewell/ordewell
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 49
-    comments: 29
+    points: 50
+    comments: 33
   kind: product
 ---
 

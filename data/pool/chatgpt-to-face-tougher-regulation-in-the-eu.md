@@ -28,8 +28,8 @@ summary: OpenAI will soon be held accountable for mitigating risks related to Ch
   is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws
   regulating major online services and […]
 first_seen: '2026-08-31T13:27:36Z'
-last_seen: '2026-09-15T00:39:17Z'
-status: market_context
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -83,6 +83,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sNjRVRnJmNWpDNzBQUkFLbU1JTTZKOWdrMXpkd0RKQWNkN0NpanEzTWtkWHV6bmVrVGMxeDN6Si1GYlhBVXcwOVNHSDJzZXRWbXBZ?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1NEYWhmSjV5LUE4aHVBcEpzWGFVVkxYR0dyXzh2Y0plN0ttUmlOTERyZDVRVkd1MDhZVTJXbWVxOWJoVlpGTE1yV2tVaUFiLTJIUE9MV2NwOEl3VEM2QThKLTd3RTFlMG02aV9CNGdSdGJ1QWE3ZVRsRTAtTUd6MmlhR0Y0dWF5T2Q3S3lJVW5IUko1b1Q3VkVmTUZMLWV20gG0AUFVX3lxTE9lSWJiWG1YLU8taVdMOUJKVlY3Z2l3Sm9Tb0NZRXpJdm5qVzhyVWhCc05FejV3LWRPcnEzTm5UTFRmUG03UEJ1LVJWS3RTMkxSVFNQeDVQRGNtQVJtUjFvVkJPemxGY2lBSGE1emFlWWdJejdrWUwzdTB4NmgxZUhQOTJ4RjNNRW5GSG9IakptNkxFdGdsaVVmN0xnWHNSQ2lmd2xNTWxpTDBXejdBM3Y2WXo5LQ?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
   metrics: {}
   kind: news
 ---

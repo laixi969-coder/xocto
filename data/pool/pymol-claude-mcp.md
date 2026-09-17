@@ -34,16 +34,16 @@ url: https://github.com/stavasol96-arch/Pymol-Claude-MCP
 canonical_url: https://github.com/stavasol96-arch/Pymol-Claude-MCP
 summary: MCP server that connects Claude Code to a live PyMOL session over XML-RPC
 first_seen: '2026-09-02T19:44:18Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/stavasol96-arch/Pymol-Claude-MCP
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    stars: 58
+    stars: 59
     forks: 11
     open_issues: 1
   kind: product

@@ -32,15 +32,23 @@ url: https://www.producthunt.com/products/monid
 canonical_url: https://producthunt.com/products/monid
 summary: OpenRouter for agent tools
 first_seen: '2026-08-31T07:07:32Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - producthunt
+- hackernews
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/monid
   seen_at: '2026-09-02T14:31:39Z'
   metrics: {}
+  kind: product
+- source: hackernews
+  url: https://github.com/monid-ai/monid
+  seen_at: '2026-09-17T00:32:40Z'
+  metrics:
+    points: 10
+    comments: 3
   kind: product
 ---
 

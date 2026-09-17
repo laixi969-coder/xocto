@@ -22,17 +22,17 @@ url: https://github.com/anthropics/fermats-last-theorem
 canonical_url: https://github.com/anthropics/fermats-last-theorem
 summary: ''
 first_seen: '2026-09-04T14:21:04Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/fermats-last-theorem
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    stars: 1174
-    forks: 100
+    stars: 1185
+    forks: 102
     open_issues: 9
   kind: product
 ---

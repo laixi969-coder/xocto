@@ -20,17 +20,17 @@ url: https://workatloss.com/
 canonical_url: https://workatloss.com
 summary: Loss. a tiny satire about AI progress
 first_seen: '2026-09-15T14:16:44Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://workatloss.com/
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 29
-    comments: 8
+    points: 36
+    comments: 10
   kind: product
 ---
 

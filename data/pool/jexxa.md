@@ -31,17 +31,17 @@ url: https://jexxa.org
 canonical_url: https://jexxa.org
 summary: High Speed on Device Dictation
 first_seen: '2026-09-15T14:05:42Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://jexxa.org
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
     points: 6
-    comments: 15
+    comments: 18
   kind: product
 ---
 

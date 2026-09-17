@@ -106,3 +106,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-d3c89b73c50b23f4
+  project_slug: deepjit
+  url: https://github.com/deepseek-ai/DeepJIT
+  title: DeepJIT
+  published_at: '2026-09-08T03:57:22Z'
+  collected_at: '2026-09-17T00:32:43Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A lightweight library for xPU kernel JIT compilation | repository stars: 326'

@@ -16,3 +16,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者在让编码代理批量改代码时，实时查看工作区里被改动的文件与差异'
+- id: ev-0e19043f814fa7a0
+  project_slug: livediff
+  url: https://github.com/stagas/livediff
+  title: livediff
+  published_at: '2026-09-15T13:37:25Z'
+  collected_at: '2026-09-17T00:32:40Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: A live Git diff view cli to stay on top of what agents are doing

@@ -161,3 +161,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 独立开发者与小型团队在搭建内部小工具或原型时，需要为单文件应用保存数据，却不想单独部署数据库服务'
+- id: ev-8c277d06c0b84f77
+  project_slug: capsule
+  url: https://withcapsule.app/
+  title: Capsule
+  published_at: '2026-09-15T13:31:40Z'
+  collected_at: '2026-09-17T00:32:40Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Single-file web apps that save their data into SQLite

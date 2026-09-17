@@ -26,17 +26,17 @@ url: https://github.com/pizza-bot-app/pizza-bot
 canonical_url: https://github.com/pizza-bot-app/pizza-bot
 summary: An inbox for AI agents that work in the background
 first_seen: '2026-09-15T15:20:26Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/pizza-bot-app/pizza-bot
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 24
-    comments: 9
+    points: 56
+    comments: 33
   kind: product
 ---
 

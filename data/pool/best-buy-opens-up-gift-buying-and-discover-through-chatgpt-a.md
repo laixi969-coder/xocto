@@ -1,0 +1,42 @@
+---
+slug: best-buy-opens-up-gift-buying-and-discover-through-chatgpt-a
+name: Best Buy opens up gift-buying and discover through ChatGPT ahead of holidays
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNcWN3aGJ4Ti1mZG9HMzVCVlJWVDdfNFdqUTljTDhXd2w3ZDhYOXpvcl8zb2RyRmtaLWVLaXhaU3pBdldRSV9NOVZRNWtWSmdZdzFNcDBjajRlMks1QTdZTzM3aWFJNzNXMWxKcW5wS0dnanpBR25YZTZESlBNVzhIbXRYWXBfYS1MTDZrdHFfejlsQUxHOXRlcHRSTTB4UDJLa1hLdTJoQTM2Ui1hS3lUTE5UMUpiSkRIRnNGY0JOZzNQakVyUnfSAcYBQVVfeXFMTXFjd2hieE4tZmRvRzM1QlZSVlQ3XzRXalE5Y0w4V3dsN2Q4WDl6b3JfM29kckZrWi1lS2l4WlN6QXZXUUlfTTlWUTVrVkpnWXcxTXAwY2o0ZTJLNUE3WU8zN2lhSTczVzFsSnFucEtHZ2p6QUduWGU2REpQTVc4SG10WFlwX2EtTEw2a3RxX3o5bEFMRzl0ZXB0Uk0weFAyS2tYS3UyaEEzNlItYUt5VExOVDFKYkpESEZzRmNCTmczUGpFclJ3?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNcWN3aGJ4Ti1mZG9HMzVCVlJWVDdfNFdqUTljTDhXd2w3ZDhYOXpvcl8zb2RyRmtaLWVLaXhaU3pBdldRSV9NOVZRNWtWSmdZdzFNcDBjajRlMks1QTdZTzM3aWFJNzNXMWxKcW5wS0dnanpBR25YZTZESlBNVzhIbXRYWXBfYS1MTDZrdHFfejlsQUxHOXRlcHRSTTB4UDJLa1hLdTJoQTM2Ui1hS3lUTE5UMUpiSkRIRnNGY0JOZzNQakVyUnfSAcYBQVVfeXFMTXFjd2hieE4tZmRvRzM1QlZSVlQ3XzRXalE5Y0w4V3dsN2Q4WDl6b3JfM29kckZrWi1lS2l4WlN6QXZXUUlfTTlWUTVrVkpnWXcxTXAwY2o0ZTJLNUE3WU8zN2lhSTczVzFsSnFucEtHZ2p6QUduWGU2REpQTVc4SG10WFlwX2EtTEw2a3RxX3o5bEFMRzl0ZXB0Uk0weFAyS2tYS3UyaEEzNlItYUt5VExOVDFKYkpESEZzRmNCTmczUGpFclJ3?oc=5
+summary: Best Buy opens up gift-buying and discover through ChatGPT ahead of holidays Digital Commerce
+  360
+first_seen: '2026-09-16T17:45:51Z'
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNcWN3aGJ4Ti1mZG9HMzVCVlJWVDdfNFdqUTljTDhXd2w3ZDhYOXpvcl8zb2RyRmtaLWVLaXhaU3pBdldRSV9NOVZRNWtWSmdZdzFNcDBjajRlMks1QTdZTzM3aWFJNzNXMWxKcW5wS0dnanpBR25YZTZESlBNVzhIbXRYWXBfYS1MTDZrdHFfejlsQUxHOXRlcHRSTTB4UDJLa1hLdTJoQTM2Ui1hS3lUTE5UMUpiSkRIRnNGY0JOZzNQakVyUnfSAcYBQVVfeXFMTXFjd2hieE4tZmRvRzM1QlZSVlQ3XzRXalE5Y0w4V3dsN2Q4WDl6b3JfM29kckZrWi1lS2l4WlN6QXZXUUlfTTlWUTVrVkpnWXcxTXAwY2o0ZTJLNUE3WU8zN2lhSTczVzFsSnFucEtHZ2p6QUduWGU2REpQTVc4SG10WFlwX2EtTEw2a3RxX3o5bEFMRzl0ZXB0Uk0weFAyS2tYS3UyaEEzNlItYUt5VExOVDFKYkpESEZzRmNCTmczUGpFclJ3?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+---
+
+# Best Buy opens up gift-buying and discover through ChatGPT ahead of holidays
+
+Best Buy opens up gift-buying and discover through ChatGPT ahead of holidays Digital Commerce 360
+
+## 笔记
+
+

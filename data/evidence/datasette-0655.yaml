@@ -1,0 +1,11 @@
+- id: ev-4dfe27846c9e03cf
+  project_slug: datasette-0655
+  url: https://simonwillison.net/2026/Sep/16/datasette-2/
+  title: datasette 0.65.5
+  published_at: '2026-09-16T23:51:08Z'
+  collected_at: '2026-09-17T00:33:01Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Release:   datasette 0.65.5  \n         Security fix for an issue where a trailing newline in\
+    \ a requested table name could bypass table permissions and expose private rows, reported by  dpfkdlemtp\
+    \  in  GHSA-h547-rmjf-5m2m . \n    \n    \n         Tags:  security ,  datasette"

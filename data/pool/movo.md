@@ -29,18 +29,18 @@ canonical_url: https://himovo.com
 summary: Turn DeepSeek Harness into a self-hosted enterprise Agent platform with knowledge, deep research,
   content generation, vibe coding, browser automation, governance, and admin controls.
 first_seen: '2026-09-01T08:46:57Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.himovo.com
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    stars: 42
-    forks: 7
-    open_issues: 38
+    stars: 51
+    forks: 10
+    open_issues: 32
   kind: product
 ---
 

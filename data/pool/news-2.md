@@ -20,8 +20,8 @@ url: https://news.social-protocols.org/penalties
 canonical_url: https://news.social-protocols.org/penalties
 summary: Most Penalized HN Stories
 first_seen: '2026-09-13T00:36:00Z'
-last_seen: '2026-09-16T00:21:13Z'
-status: rejected
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -71,6 +71,33 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE41akZXX3ViS3VxMGJ5N1BlM0pEOTJJM2pfckhDSmdDdEI1dl8yN1VoS3p6SG5hQUhWa29kdWtMdkV2WWpyU3V0NlFvWGl2RWY1bmRZb255V3VEX1ZjMHc?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.euronews.com/business/2026/09/16/why-this-fast-growing-german-ai-start-up-is-moving-its-parent-company-from-the-us
+  seen_at: '2026-09-17T00:32:40Z'
+  metrics:
+    points: 49
+    comments: 19
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZR3BpR2w4aFJKaFFqamxYODJ1UXcxS01NczVNZ0N5Zjd0b09pdHdHNWhRSWZxclhRek5CUjNpLWMwdE5XRzdNVEZ1RGpxMVc4U0VDVXkyU2xUZms?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVndOUHh1SlJWbFRMTTNDemxQaTA2N01rVHNEYUQ1SWo2Vm8yTFdONi1oTThBMzlONzlyN3JQSU9mTll1TThvUU84SlhTQkxMdWJzT1pDTEl6WXhlX3R4U0dQM2M3OThjZnNoNmV3Y2RaZzMtMjNPX0pfeVZDU2t3bmZ4QVZoYnhHNWQtdlE2aHZ3NzR4anlhMTFCLVNTSmcyR0lMQ1hIbTVHRi00Z1FqZDExWTUtbzJISkhZZ3g4bmNMdTZnMFVZQkpyLXdCZ01wd28zdktCaw?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1nSlZGUHpuSnp3aHI4REVfa0h3cTNlbFdfY0RMeFdNMWxPVHJ5a3RGWUJJZkVmRHpGMUh6MTRjZXJRZDB3Vjl1b3k5Z0V2RGMxR2JFOEdvOXkweXh1Z1lqd2dJeDJNOUhULXhGVjEwcGMzbkRzVDF0WHNKLVAzUDDSAYQBQVVfeXFMTURtZi1ZNEhMS0hnRVVtOWNVYzhtdDhsa2d4YmJVZkMyTG9LZXY5RWFFSTA4ZC1yZy1xaF90M1prY1BZWTRIay1UTE1TMi1FS2hrVWU0MVl0M1NkN0tHSV90bG5rR3A2cTBXS2pXSWtsSDRkVllRd2lnS0c0R1dYNHBXOUVY?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE95U2tFajV5UDdKWFRrSEdPb0JvRE91ekJGNHFBN3NaMGR1NTR2OFN4WkdYYU9SUlUwTjRZVUpwbk0yMk5HSHh6MXBYeVk0Qlo0UVRXRFRUVTk0YXJxRFE?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
   metrics: {}
   kind: news
 ---

@@ -95,14 +95,20 @@ summary: "头图来源：视觉中国 \n   \n 前段时间，Anthropic 发布�
   \ 才可能从腾讯内部的 AI 办公产品，成长为面向更多行业与开发者的工作平台。 \n OS 无法依靠一次发布完成。开放生态能否让 Agent 在每个用户的工作流里积累出足够密度的上下文，让模型有真实信号可以优化，让伙伴有持续回报愿意留下来——这是比技术架构更根本的问题。\
   \ \n WorkBuddy 可以率先提出 Agent OS 的方向，但这套系统是否真正成立，最终仍取决于它能否把腾讯的模型、产品与连接能力转化为一种可持续的生态秩序。"
 first_seen: '2026-09-03T04:52:10Z'
-last_seen: '2026-09-03T14:36:52Z'
-status: watching
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: http://www.geekpark.net/news/369767
   seen_at: '2026-09-03T14:36:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fdnZ2Yk5hcEoyUWVJMU1tejNSQVh2Q0docEJ6MEdMUktkS0R3M0liaTBOMGpfVERfYzJBQ0t3MzQ2TUdiYUZyN2k4ZXdkRTBa?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
   metrics: {}
   kind: news
 ---

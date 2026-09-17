@@ -30,7 +30,7 @@ url: https://reefinfra.ai/docs/
 canonical_url: https://reefinfra.ai/docs
 summary: Continual learning infra for self-improving agents
 first_seen: '2026-08-31T01:39:18Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: watching
 sources:
 - github
@@ -45,11 +45,11 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/Human-Agent-Society/reef
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    stars: 1977
-    forks: 110
-    open_issues: 64
+    stars: 2582
+    forks: 187
+    open_issues: 59
   kind: product
 ---
 

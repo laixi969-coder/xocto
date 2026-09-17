@@ -26,17 +26,17 @@ url: https://github.com/sqliteai/warp
 canonical_url: https://github.com/sqliteai/warp
 summary: Run DeepSeek v4.1 Flash with 5 GB of RAM at 3.77 tok/s
 first_seen: '2026-09-15T15:28:23Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/sqliteai/warp
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 5
-    comments: 2
+    points: 12
+    comments: 3
   kind: product
 ---
 

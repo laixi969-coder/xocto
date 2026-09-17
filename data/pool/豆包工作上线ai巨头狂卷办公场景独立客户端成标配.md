@@ -30,10 +30,11 @@ url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFA5MVBBTVM0OTVTRmxnQzVCMk
 canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFA5MVBBTVM0OTVTRmxnQzVCMkV5S2pWemZ2enR2WEgzSEFmMmxTVFc2cFFMRnZxYWtqVWxwMnZJRnl2Nmd1bm1ON3FLSEMwdw?oc=5
 summary: 「豆包工作」上线，AI巨头狂卷办公场景，独立客户端成标配？ 36 Kr
 first_seen: '2026-08-31T15:57:07Z'
-last_seen: '2026-09-16T00:21:13Z'
+last_seen: '2026-09-17T00:33:01Z'
 status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFA5MVBBTVM0OTVTRmxnQzVCMkV5S2pWemZ2enR2WEgzSEFmMmxTVFc2cFFMRnZxYWtqVWxwMnZJRnl2Nmd1bm1ON3FLSEMwdw?oc=5
@@ -43,6 +44,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoalN6WmtHQ1V2dmhkM3NKQmx0X01OSHhBWGh4MHA4cnh6MGtvTzliWTRsMmVzY3pjaUtacndfUGVVMG16eC0xTTRQcXNBU1ZKYWJGZEhOc1NYYUU4QlhiYWNiQnE?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/490686.html
+  seen_at: '2026-09-17T00:33:01Z'
   metrics: {}
   kind: news
 ---

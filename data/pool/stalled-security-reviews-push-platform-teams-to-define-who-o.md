@@ -1,0 +1,42 @@
+---
+slug: stalled-security-reviews-push-platform-teams-to-define-who-o
+name: Stalled Security Reviews Push Platform Teams to Define Who Owns AI Agent Authorization
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaFZaUU9jaFhTUTBZWUp0cDFXNjNsa1V3djJia1RDdjdXMW1felNBZ3htTDh0blp6blFxSFVjSEVuUE4zbm5TUWt5aGpPSmpWU29QWGVPVS0tRHFaZGpJcnJmaVFna2RRZzNoSWZJS0NYaXV0T2p2MkppR1RTNGpabmpMREtZd2E0UzhPbW9IRnNoRm1CdVRyRVFLYnZNZ1dXd0VxSGV6bFR1cU9TVjRwOUpjZTBIUV9uOTJXdmhrVnc3SzhYdU9neTM5d2RJcnRjalVMRUhydDJETWlYRjBnYWpTRFF2M2EtdGNiUllpMNIB9AFBVV95cUxPM1lkR2lxWnZhZWVnbmlaa3hVMDBrUllNMnJqemgzMF8zQXl2S1oxVDl4Q29DVmdSbm1RcDZNS2FkWndKT2UwQkozcUJxTzdzUFlkOUZ5Y1NhM3RLLUxiSWNBeWRBWEVjbU1sdDRmaUVFOFd3b0dVdUlkNlphX2RVVDBVWVlzSnZoVGJjY0VqSVIzVWRxM1g2Y3pEQ2lteXdrc2Z3QlhYT3VfdU9pLUl6VFRrdzJhUV80ZlVMNkNELWR4ZHFOamZIS1FhTGhIdTFiQkwwQThFb2xMREFEUi10TGtTSjFVaGdMOS13aTdVUnlsUjho?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaFZaUU9jaFhTUTBZWUp0cDFXNjNsa1V3djJia1RDdjdXMW1felNBZ3htTDh0blp6blFxSFVjSEVuUE4zbm5TUWt5aGpPSmpWU29QWGVPVS0tRHFaZGpJcnJmaVFna2RRZzNoSWZJS0NYaXV0T2p2MkppR1RTNGpabmpMREtZd2E0UzhPbW9IRnNoRm1CdVRyRVFLYnZNZ1dXd0VxSGV6bFR1cU9TVjRwOUpjZTBIUV9uOTJXdmhrVnc3SzhYdU9neTM5d2RJcnRjalVMRUhydDJETWlYRjBnYWpTRFF2M2EtdGNiUllpMNIB9AFBVV95cUxPM1lkR2lxWnZhZWVnbmlaa3hVMDBrUllNMnJqemgzMF8zQXl2S1oxVDl4Q29DVmdSbm1RcDZNS2FkWndKT2UwQkozcUJxTzdzUFlkOUZ5Y1NhM3RLLUxiSWNBeWRBWEVjbU1sdDRmaUVFOFd3b0dVdUlkNlphX2RVVDBVWVlzSnZoVGJjY0VqSVIzVWRxM1g2Y3pEQ2lteXdrc2Z3QlhYT3VfdU9pLUl6VFRrdzJhUV80ZlVMNkNELWR4ZHFOamZIS1FhTGhIdTFiQkwwQThFb2xMREFEUi10TGtTSjFVaGdMOS13aTdVUnlsUjho?oc=5
+summary: Stalled Security Reviews Push Platform Teams to Define Who Owns AI Agent Authorization The Manila
+  Times
+first_seen: '2026-09-16T13:36:38Z'
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaFZaUU9jaFhTUTBZWUp0cDFXNjNsa1V3djJia1RDdjdXMW1felNBZ3htTDh0blp6blFxSFVjSEVuUE4zbm5TUWt5aGpPSmpWU29QWGVPVS0tRHFaZGpJcnJmaVFna2RRZzNoSWZJS0NYaXV0T2p2MkppR1RTNGpabmpMREtZd2E0UzhPbW9IRnNoRm1CdVRyRVFLYnZNZ1dXd0VxSGV6bFR1cU9TVjRwOUpjZTBIUV9uOTJXdmhrVnc3SzhYdU9neTM5d2RJcnRjalVMRUhydDJETWlYRjBnYWpTRFF2M2EtdGNiUllpMNIB9AFBVV95cUxPM1lkR2lxWnZhZWVnbmlaa3hVMDBrUllNMnJqemgzMF8zQXl2S1oxVDl4Q29DVmdSbm1RcDZNS2FkWndKT2UwQkozcUJxTzdzUFlkOUZ5Y1NhM3RLLUxiSWNBeWRBWEVjbU1sdDRmaUVFOFd3b0dVdUlkNlphX2RVVDBVWVlzSnZoVGJjY0VqSVIzVWRxM1g2Y3pEQ2lteXdrc2Z3QlhYT3VfdU9pLUl6VFRrdzJhUV80ZlVMNkNELWR4ZHFOamZIS1FhTGhIdTFiQkwwQThFb2xMREFEUi10TGtTSjFVaGdMOS13aTdVUnlsUjho?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+---
+
+# Stalled Security Reviews Push Platform Teams to Define Who Owns AI Agent Authorization
+
+Stalled Security Reviews Push Platform Teams to Define Who Owns AI Agent Authorization The Manila Times
+
+## 笔记
+
+

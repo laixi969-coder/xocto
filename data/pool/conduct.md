@@ -25,8 +25,8 @@ url: https://github.com/sseshachala/conductai
 canonical_url: https://github.com/sseshachala/conductai
 summary: open-source guardrails for LLM and MCP tool calls
 first_seen: '2026-08-28T19:29:20Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: watching
+last_seen: '2026-09-17T00:33:01Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -52,6 +52,11 @@ sightings:
 - source: marketfeeds
   url: https://news.crunchbase.com/venture/august-2026-new-unicorns-ai-robotics-semiconductors-xpeng-lumilens-river-source/
   seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/
+  seen_at: '2026-09-17T00:33:01Z'
   metrics: {}
   kind: news
 ---

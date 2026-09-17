@@ -41,18 +41,18 @@ canonical_url: https://quartzjer.github.io/pennybank
 summary: 'Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach
   checks. Dependency-free Python CLI.'
 first_seen: '2026-09-14T10:11:00Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: http://quartzjer.github.io/pennybank/
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    stars: 170
-    forks: 18
-    open_issues: 0
+    stars: 173
+    forks: 19
+    open_issues: 1
   kind: product
 ---
 

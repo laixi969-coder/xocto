@@ -20,17 +20,17 @@ url: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover
 canonical_url: https://strix.ai/blog/baseten-harbor-github-pat-takeover
 summary: We got admin access to Baseten's production GitHub in 25 minutes
 first_seen: '2026-09-15T18:11:24Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: rejected
+last_seen: '2026-09-17T00:32:40Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 195
-    comments: 106
+    points: 321
+    comments: 184
   kind: news
 ---
 

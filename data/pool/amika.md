@@ -32,17 +32,17 @@ url: https://www.amika.dev/
 canonical_url: https://amika.dev
 summary: Multiplayer cloud workstations for coding agents and humans
 first_seen: '2026-09-15T17:58:41Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.amika.dev/
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 6
-    comments: 3
+    points: 7
+    comments: 5
   kind: product
 ---
 

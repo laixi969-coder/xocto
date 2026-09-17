@@ -32,17 +32,17 @@ url: https://withcapsule.app/
 canonical_url: https://withcapsule.app
 summary: Single-file web apps that save their data into SQLite
 first_seen: '2026-09-15T13:31:40Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://withcapsule.app/
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 270
-    comments: 116
+    points: 366
+    comments: 156
   kind: product
 ---
 

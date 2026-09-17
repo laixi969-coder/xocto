@@ -20,17 +20,17 @@ url: https://haveibeenproxied.com/
 canonical_url: https://haveibeenproxied.com
 summary: Check if your IP has appeared in a residential proxy network
 first_seen: '2026-09-15T14:24:47Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://haveibeenproxied.com/
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 52
-    comments: 35
+    points: 71
+    comments: 47
   kind: product
 ---
 

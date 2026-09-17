@@ -1,0 +1,14 @@
+- id: ev-5f214848f3760f3f
+  project_slug: trajectory-as-the-teacher-few-step-discrete-flow-matching-vi
+  url: https://machinelearning.apple.com/research/trajectory-teacher-flow-matching
+  title: 'Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation'
+  published_at: '2026-09-16T00:00:00Z'
+  collected_at: '2026-09-17T00:32:59Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Discrete flow matching generates text by iteratively transforming noise tokens into coherent
+    language, but may require hundreds of forward passes. Distillation uses the multi-step trajectory
+    to train a student to reproduce the process in a few steps. When the student underperforms, the usual
+    explanation is insufficient capacity. We argue the opposite: the trajectory is the bottleneck, not
+    the student. Each training trajectory is built through a chain of blind stochastic jumps with no evaluation
+    of sequence quality; a single bad decision at an early midpoint propagates through subsequent steps…'

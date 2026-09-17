@@ -20,8 +20,8 @@ url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for
 canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: rejected
+last_seen: '2026-09-17T00:32:40Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.tomshardware.com/pc-components/cpus/apples-a20-pro-shatters-geekbench-7-single-core-record-2nm-chip-beats-desktop-intel-core-i9-and-amd-ryzen-9-by-up-to-32-percent
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 25
-    comments: 10
+    points: 31
+    comments: 13
   kind: news
 ---
 

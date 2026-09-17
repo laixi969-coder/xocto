@@ -30,17 +30,17 @@ url: https://github.com/greentfrapp/panel
 canonical_url: https://github.com/greentfrapp/panel
 summary: A research workspace where the agent can build its own panes
 first_seen: '2026-09-15T13:58:37Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/greentfrapp/panel
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 48
-    comments: 11
+    points: 52
+    comments: 21
   kind: product
 ---
 

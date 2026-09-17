@@ -29,16 +29,16 @@ summary: "## What's Changed\r\n* MLX safetensors `ollama create` no longer exper
   \ `typical_p`: it can no longer be set when creating new models, existing GGUF models retain support.\r\
   \n* MLX and llama.cpp updates\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.0...v0.34.1-rc1"
 first_seen: '2026-09-14T22:14:03Z'
-last_seen: '2026-09-16T00:20:40Z'
-status: market_context
+last_seen: '2026-09-17T00:32:43Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.34.1
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    reactions: 24
+    reactions: 28
   kind: news
 ---
 

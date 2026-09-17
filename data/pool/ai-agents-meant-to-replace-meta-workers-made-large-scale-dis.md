@@ -25,8 +25,8 @@ url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-inc
 canonical_url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent
 summary: Report shows Meta's challenges replacing people with AI agents.
 first_seen: '2026-08-26T21:25:27Z'
-last_seen: '2026-09-16T00:21:13Z'
-status: rejected
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -108,6 +108,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTE1fYVpMQjBmUV9wbFJBN0dJQWxieTV6Um1pOTRKMVNFM2E1cmdVNlNFeWktVW9lZFhVZ3F5WjI1Q1gwX2VobHA0RDFiUThiYVZMX2JWc1FmLS1GZHVMN01taHVtX2U3WmliWHhmUFNxVjNhb1ZuZktmWA?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/16/monzo-launches-metal-credit-card-that-auto-invests-cashback/
+  seen_at: '2026-09-17T00:33:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CRW45U2RFcXFOVVBiYlJLdmhFN25YTU1iclhoWjBEREtsN2lleFZSWWwwQjZEbnRPVEFYNExITHBuX0pfR3BIbW9fdnExb2pJTkJLM2RlWjA?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
   metrics: {}
   kind: news
 ---

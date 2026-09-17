@@ -30,17 +30,17 @@ url: https://github.com/stagas/livediff
 canonical_url: https://github.com/stagas/livediff
 summary: A live Git diff view cli to stay on top of what agents are doing
 first_seen: '2026-09-15T13:37:25Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/stagas/livediff
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
     points: 6
-    comments: 2
+    comments: 4
   kind: product
 ---
 

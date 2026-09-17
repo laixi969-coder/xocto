@@ -20,14 +20,20 @@ url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOQTc5Ynh0U2dYZ0xRSGx0UD
 canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOQTc5Ynh0U2dYZ0xRSGx0UDE1V3VURl9RNFhHekFzcXc3REVYdkdvZ1FUZDhoZFNfdmU1N1VWRWFDSjlWVmYzRzFHNzhmTzh0bUdVUTVUckc0bGlhei1LdkM1SFh0MEpKQVVPME5YdHpYbV80UGF2S0RmR1VwMl9zd2tmdHVRQVY3Z09YR0lCWkd1bjlXbWVld2JZMlBwYnljSVltZjUwV1pkUmd0d1RXUGRtWQ?oc=5
 summary: OnTrac Names Arjun Sainath Chief Technology Officer to Advance AI Strategy citybiz
 first_seen: '2026-09-14T21:04:52Z'
-last_seen: '2026-09-15T00:39:17Z'
-status: rejected
+last_seen: '2026-09-17T00:33:01Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOQTc5Ynh0U2dYZ0xRSGx0UDE1V3VURl9RNFhHekFzcXc3REVYdkdvZ1FUZDhoZFNfdmU1N1VWRWFDSjlWVmYzRzFHNzhmTzh0bUdVUTVUckc0bGlhei1LdkM1SFh0MEpKQVVPME5YdHpYbV80UGF2S0RmR1VwMl9zd2tmdHVRQVY3Z09YR0lCWkd1bjlXbWVld2JZMlBwYnljSVltZjUwV1pkUmd0d1RXUGRtWQ?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/
+  seen_at: '2026-09-17T00:33:01Z'
   metrics: {}
   kind: news
 ---

@@ -33,8 +33,8 @@ url: https://www.producthunt.com/products/expertise-ai
 canonical_url: https://producthunt.com/products/expertise-ai
 summary: Turn your GTM skills into recurring revenue
 first_seen: '2026-08-22T10:59:49Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: rejected
+last_seen: '2026-09-17T00:32:40Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -57,10 +57,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 83
-    comments: 72
+    points: 92
+    comments: 79
   kind: news
 ---
 

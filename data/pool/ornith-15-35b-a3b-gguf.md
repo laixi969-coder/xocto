@@ -1,7 +1,7 @@
 ---
 slug: ornith-15-35b-a3b-gguf
 name: Ornith-1.5-35B-A3B-GGUF
-builder: ''
+builder: modelscope
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -18,12 +18,13 @@ regions_en: []
 open_source: true
 url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
-summary: ''
+summary: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: rejected
 sources:
 - modelscope
+- github
 sightings:
 - source: modelscope
   url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
@@ -76,30 +77,45 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S2-397B
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    likes: 17
-    downloads: 292
+    likes: 25
+    downloads: 435
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/Agnes-AI/Agnes-3.0-Flash
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    likes: 22
-    downloads: 262
+    likes: 28
+    downloads: 386
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/Shanghai_AI_Laboratory/Atria-Dawn-Preview
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    likes: 14
-    downloads: 440
+    likes: 28
+    downloads: 633
+  kind: product
+- source: modelscope
+  url: https://modelscope.cn/models/TaichuAI/ZDTaichu5.0-9B
+  seen_at: '2026-09-17T00:32:40Z'
+  metrics:
+    likes: 19
+    downloads: 243
+  kind: product
+- source: github
+  url: https://modelscope.cn/active/ms-cookbook
+  seen_at: '2026-09-17T00:32:43Z'
+  metrics:
+    stars: 153
+    forks: 23
+    open_issues: 0
   kind: product
 ---
 
 # Ornith-1.5-35B-A3B-GGUF
 
-_（源没给简介）_
+魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
 
 ## 笔记
 

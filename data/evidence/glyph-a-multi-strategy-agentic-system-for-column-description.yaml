@@ -1,0 +1,16 @@
+- id: ev-ab012baafef6a140
+  project_slug: glyph-a-multi-strategy-agentic-system-for-column-description
+  url: https://machinelearning.apple.com/research/glyph-column-description-tagging
+  title: 'Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging
+    of Enterprise Data Catalogs'
+  published_at: '2026-09-16T00:00:00Z'
+  collected_at: '2026-09-17T00:32:59Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Enterprise data lakes accumulate tables faster than human stewards can document or classify them,
+    leaving columns with missing descriptions and unassigned governance labels. This documentation debt
+    undermines data discovery, access control, and regulatory compliance. We present Glyph, a production
+    system that frames two coupled problems, column description generation and column type annotation
+    for data classification, as cooperating LLM agents orchestrated as stateful graphs. The Descriptor
+    grounds generation in the pipeline source code that produces each column, retrieved on demand from
+    an…

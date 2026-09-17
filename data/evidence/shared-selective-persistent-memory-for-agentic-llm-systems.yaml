@@ -1,0 +1,14 @@
+- id: ev-731939c240774956
+  project_slug: shared-selective-persistent-memory-for-agentic-llm-systems
+  url: https://machinelearning.apple.com/research/shared-selective-persistent-memory
+  title: Shared Selective Persistent Memory for Agentic LLM Systems
+  published_at: '2026-09-16T00:00:00Z'
+  collected_at: '2026-09-17T00:32:59Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Agentic LLM systems that generate code through multi-turn tool use face a fundamental context
+    problem: each session starts from zero, discarding the configuration choices, domain constraints,
+    data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire
+    conversation histories is both token-inefficient and counterproductive—irrelevant context degrades
+    generation quality. We introduce shared selective persistent memory, a memory architecture for agentic
+    systems that identifies and retains four categories of reusable context—task specifications, data…'

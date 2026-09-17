@@ -20,17 +20,17 @@ url: https://whats-left-over.pages.dev/#s=50_40_10&c=1&u=person&t=0&tm=cbo&b=0&t
 canonical_url: https://whats-left-over.pages.dev
 summary: ''
 first_seen: '2026-09-15T15:24:11Z'
-last_seen: '2026-09-16T00:20:36Z'
+last_seen: '2026-09-17T00:32:40Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://whats-left-over.pages.dev/#s=50_40_10&c=1&u=person&t=0&tm=cbo&b=0&ts=100&k=0&cc=12201&im=nominal&by=2000&ir=2.5&ao=0&ar=20&at=200000&ip=10&rm=sp500&rr=8&pv=portfolio&p=1&iv=left&hp=1&e=food.housing.transport.health.insurance
-  seen_at: '2026-09-16T00:20:36Z'
+  seen_at: '2026-09-17T00:32:40Z'
   metrics:
-    points: 36
-    comments: 53
+    points: 38
+    comments: 73
   kind: product
 ---
 

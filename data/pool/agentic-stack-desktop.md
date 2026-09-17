@@ -26,16 +26,16 @@ canonical_url: https://github.com/codejunkie99/agentic-stack-desktop
 summary: Native macOS workspace with one local knowledge graph across Claude Code, Codex, OpenCode, and
   Cursor.
 first_seen: '2026-09-08T09:48:30Z'
-last_seen: '2026-09-15T00:38:44Z'
+last_seen: '2026-09-17T00:32:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/codejunkie99/agentic-stack-desktop
-  seen_at: '2026-09-15T00:38:44Z'
+  seen_at: '2026-09-17T00:32:43Z'
   metrics:
-    stars: 60
+    stars: 63
     forks: 9
     open_issues: 0
   kind: product

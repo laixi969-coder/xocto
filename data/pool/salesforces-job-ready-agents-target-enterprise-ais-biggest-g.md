@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMingFBVV95cUxPV3JKWEhrNHlBdno1b215Y2
 canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxPV3JKWEhrNHlBdno1b215Y28wdG05RzBYVTJ3aXNwUUJzUG9yczB6OEJpTzFNTnN2anJiMUdoenY3a1g2MWhBN0F2V0JIbkxpN2ZSc0xVOFdHX25ST09wSWItbkpTWU9MNm8wNkxIMTNreDd3OEtNUF82YU55YjNFdVpfN3ZMZ1RkLTQwTXRxQlFaSUpuZGtJVFFzODRqUQ?oc=5
 summary: Salesforce’s Job-Ready Agents Target Enterprise AI’s Biggest Gap The Futurum Group
 first_seen: '2026-09-11T13:37:36Z'
-last_seen: '2026-09-12T00:19:17Z'
-status: rejected
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMingFBVV95cUxPV3JKWEhrNHlBdno1b215Y28wdG05RzBYVTJ3aXNwUUJzUG9yczB6OEJpTzFNTnN2anJiMUdoenY3a1g2MWhBN0F2V0JIbkxpN2ZSc0xVOFdHX25ST09wSWItbkpTWU9MNm8wNkxIMTNreDd3OEtNUF82YU55YjNFdVpfN3ZMZ1RkLTQwTXRxQlFaSUpuZGtJVFFzODRqUQ?oc=5
   seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZXp0R1dMUEI3NGdGbmhVcUktN2pJZ2djNjlJYVRoWVY5QW9wWmtoQTZLSGZOV2h6VDRBc3ZIRTZhTlE5UWhjRWhOSG5QbWs4MmdpbGtTVERJSXRoaEhVblJyb3U2WWtCY0RWSC03OFhZTWJMVlk4ME5BUExlMUdSdkh3ZFpnbFp3?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
   metrics: {}
   kind: news
 ---

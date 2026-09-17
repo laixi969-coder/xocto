@@ -166,3 +166,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-1eb036bd412574a5
+  project_slug: warp
+  url: https://github.com/sqliteai/warp
+  title: Warp
+  published_at: '2026-09-15T15:28:23Z'
+  collected_at: '2026-09-17T00:32:40Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Run DeepSeek v4.1 Flash with 5 GB of RAM at 3.77 tok/s

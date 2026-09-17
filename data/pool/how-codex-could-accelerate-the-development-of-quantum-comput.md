@@ -1,0 +1,41 @@
+---
+slug: how-codex-could-accelerate-the-development-of-quantum-comput
+name: How Codex Could Accelerate the Development of Quantum Computing
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxONngtZkRTRVE4X1FfbWFIMXhjWjNrc0V6TEZCZUVMb3NQaGpYQUpxVGZzUFpkLW1CcEdKRVVISUxXYzZDa19pdjhJUXdraDJjT0pmWmlCYjVCd3JGaTZqMG1ZU09NTjk1WllGdUpfaG9aQVRRQkpHcGVuUHpRSUxFc05RMC10MnZ5a3VpbXEzYWdOdFlndXE1aTV5MkFKNmJQeXVYaWxxN1pEQ1hsUTFhZHRQS0dHdWg3S1hWcEdvSnBscWFnUFRqUFh3SWbSAdoBQVVfeXFMUF96d05DQjZRTE5YT3lhNWtYS0NIMXk4QzVsTzlaeVNzeFNmT0UyMzBYVEpBcWpKRDlwMGlCa3d5ak5NTnZOSW9WN2llX2h3UndsVzc5V25JTXh6TWhMdExRcWlNYXBpb1kyMkNNT2htbmx5T2VkbTBST0s5cXZ5dG9EWE1WenFTcll5UDVnSnlwbjlmeDctd3Zta05JaU14Z0xVVEhuZ3lwSFBiRi1tYzIxcUdBVS05OWlKbnpjd3lvZm9NTGNlWkxpV2hDNmNKWkhFbjcwSDM2WkE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizAFBVV95cUxONngtZkRTRVE4X1FfbWFIMXhjWjNrc0V6TEZCZUVMb3NQaGpYQUpxVGZzUFpkLW1CcEdKRVVISUxXYzZDa19pdjhJUXdraDJjT0pmWmlCYjVCd3JGaTZqMG1ZU09NTjk1WllGdUpfaG9aQVRRQkpHcGVuUHpRSUxFc05RMC10MnZ5a3VpbXEzYWdOdFlndXE1aTV5MkFKNmJQeXVYaWxxN1pEQ1hsUTFhZHRQS0dHdWg3S1hWcEdvSnBscWFnUFRqUFh3SWbSAdoBQVVfeXFMUF96d05DQjZRTE5YT3lhNWtYS0NIMXk4QzVsTzlaeVNzeFNmT0UyMzBYVEpBcWpKRDlwMGlCa3d5ak5NTnZOSW9WN2llX2h3UndsVzc5V25JTXh6TWhMdExRcWlNYXBpb1kyMkNNT2htbmx5T2VkbTBST0s5cXZ5dG9EWE1WenFTcll5UDVnSnlwbjlmeDctd3Zta05JaU14Z0xVVEhuZ3lwSFBiRi1tYzIxcUdBVS05OWlKbnpjd3lvZm9NTGNlWkxpV2hDNmNKWkhFbjcwSDM2WkE?oc=5
+summary: How Codex Could Accelerate the Development of Quantum Computing Analytics Insight
+first_seen: '2026-09-16T04:00:00Z'
+last_seen: '2026-09-17T00:33:07Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxONngtZkRTRVE4X1FfbWFIMXhjWjNrc0V6TEZCZUVMb3NQaGpYQUpxVGZzUFpkLW1CcEdKRVVISUxXYzZDa19pdjhJUXdraDJjT0pmWmlCYjVCd3JGaTZqMG1ZU09NTjk1WllGdUpfaG9aQVRRQkpHcGVuUHpRSUxFc05RMC10MnZ5a3VpbXEzYWdOdFlndXE1aTV5MkFKNmJQeXVYaWxxN1pEQ1hsUTFhZHRQS0dHdWg3S1hWcEdvSnBscWFnUFRqUFh3SWbSAdoBQVVfeXFMUF96d05DQjZRTE5YT3lhNWtYS0NIMXk4QzVsTzlaeVNzeFNmT0UyMzBYVEpBcWpKRDlwMGlCa3d5ak5NTnZOSW9WN2llX2h3UndsVzc5V25JTXh6TWhMdExRcWlNYXBpb1kyMkNNT2htbmx5T2VkbTBST0s5cXZ5dG9EWE1WenFTcll5UDVnSnlwbjlmeDctd3Zta05JaU14Z0xVVEhuZ3lwSFBiRi1tYzIxcUdBVS05OWlKbnpjd3lvZm9NTGNlWkxpV2hDNmNKWkhFbjcwSDM2WkE?oc=5
+  seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+---
+
+# How Codex Could Accelerate the Development of Quantum Computing
+
+How Codex Could Accelerate the Development of Quantum Computing Analytics Insight
+
+## 笔记
+
+

@@ -30,8 +30,8 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Enabler stage). To
   are all roughly doubling or more their valuations year over year as demand for GPU capacity and multi-model
   routing outstrips supply, and although all well-funded there is not yet one clear winner pulling away.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-09-12T00:19:09Z'
-status: market_context
+last_seen: '2026-09-17T00:33:01Z'
+status: pending_filter
 sources:
 - ia40
 - marketfeeds
@@ -46,6 +46,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/
   seen_at: '2026-09-12T00:19:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review
+  seen_at: '2026-09-17T00:33:01Z'
   metrics: {}
   kind: news
 ---
