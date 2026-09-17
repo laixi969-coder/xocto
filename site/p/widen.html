@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>Widen · x-octo</title>
-<meta name="description" content="在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面">
+<meta name="description" content="开发者在 macOS 上查看和操作 Postgres 数据库时打开它，原本要在客户端工具里手写 SQL 才能查表、看结构；它把自然语言交给 Apple 的设备端模型转成查询，在本地 Postgres 上执行后把结果表返回给用户，具体支持的查询范围与是否需要人工复核仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/widen.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/widen.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/widen.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/widen.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Widen · x-octo">
-<meta property="og:description" content="在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面">
+<meta property="og:description" content="开发者在 macOS 上查看和操作 Postgres 数据库时打开它，原本要在客户端工具里手写 SQL 才能查表、看结构；它把自然语言交给 Apple 的设备端模型转成查询，在本地 Postgres 上执行后把结果表返回给用户，具体支持的查询范围与是否需要人工复核仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/widen.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/widen.html#webpage", "@type": "WebPage", "description": "\u5728 Mac \u4e0a\u67e5\u516c\u53f8\u6570\u636e\u5e93\u65f6\uff0c\u7528\u7535\u8111\u81ea\u5e26\u7684 AI \u5e2e\u5fd9\u628a\u6570\u95ee\u51fa\u6765\uff0c\u6570\u636e\u4e0d\u7528\u4f20\u5230\u5916\u9762", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Widen", "url": "https://xocto.vercel.app/p/widen.html"}, {"@id": "https://xocto.vercel.app/p/widen.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-08-17", "datePublished": "2026-08-16", "description": "\u5728 Mac \u4e0a\u67e5\u516c\u53f8\u6570\u636e\u5e93\u65f6\uff0c\u7528\u7535\u8111\u81ea\u5e26\u7684 AI \u5e2e\u5fd9\u628a\u6570\u95ee\u51fa\u6765\uff0c\u6570\u636e\u4e0d\u7528\u4f20\u5230\u5916\u9762", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/widen.html#webpage"}, "name": "Widen", "sameAs": "https://github.com/betocmn/widen", "url": "https://xocto.vercel.app/p/widen.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/widen.html", "name": "Widen", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/widen.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728 macOS \u4e0a\u67e5\u770b\u548c\u64cd\u4f5c Postgres \u6570\u636e\u5e93\u65f6\u6253\u5f00\u5b83\uff0c\u539f\u672c\u8981\u5728\u5ba2\u6237\u7aef\u5de5\u5177\u91cc\u624b\u5199 SQL \u624d\u80fd\u67e5\u8868\u3001\u770b\u7ed3\u6784\uff1b\u5b83\u628a\u81ea\u7136\u8bed\u8a00\u4ea4\u7ed9 Apple \u7684\u8bbe\u5907\u7aef\u6a21\u578b\u8f6c\u6210\u67e5\u8be2\uff0c\u5728\u672c\u5730 Postgres \u4e0a\u6267\u884c\u540e\u628a\u7ed3\u679c\u8868\u8fd4\u56de\u7ed9\u7528\u6237\uff0c\u5177\u4f53\u652f\u6301\u7684\u67e5\u8be2\u8303\u56f4\u4e0e\u662f\u5426\u9700\u8981\u4eba\u5de5\u590d\u6838\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Widen", "url": "https://xocto.vercel.app/p/widen.html"}, {"@id": "https://xocto.vercel.app/p/widen.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-17", "datePublished": "2026-08-16", "description": "\u5f00\u53d1\u8005\u5728 macOS \u4e0a\u67e5\u770b\u548c\u64cd\u4f5c Postgres \u6570\u636e\u5e93\u65f6\u6253\u5f00\u5b83\uff0c\u539f\u672c\u8981\u5728\u5ba2\u6237\u7aef\u5de5\u5177\u91cc\u624b\u5199 SQL \u624d\u80fd\u67e5\u8868\u3001\u770b\u7ed3\u6784\uff1b\u5b83\u628a\u81ea\u7136\u8bed\u8a00\u4ea4\u7ed9 Apple \u7684\u8bbe\u5907\u7aef\u6a21\u578b\u8f6c\u6210\u67e5\u8be2\uff0c\u5728\u672c\u5730 Postgres \u4e0a\u6267\u884c\u540e\u628a\u7ed3\u679c\u8868\u8fd4\u56de\u7ed9\u7528\u6237\uff0c\u5177\u4f53\u652f\u6301\u7684\u67e5\u8be2\u8303\u56f4\u4e0e\u662f\u5426\u9700\u8981\u4eba\u5de5\u590d\u6838\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/widen.html#webpage"}, "name": "Widen", "sameAs": "https://github.com/betocmn/widen", "url": "https://xocto.vercel.app/p/widen.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/widen.html", "name": "Widen", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>Widen</h1>
       </div>
-      <p class="product-lede">在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面</p>
+      <p class="product-lede">开发者在 macOS 上查看和操作 Postgres 数据库时打开它，原本要在客户端工具里手写 SQL 才能查表、看结构；它把自然语言交给 Apple 的设备端模型转成查询，在本地 Postgres 上执行后把结果表返回给用户，具体支持的查询范围与是否需要人工复核仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">AI + 开发</span><span class="tag sig">社区热度 8</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">信息技术服务</span><span class="tag">数据库开发与运维</span><span class="tag">后端工程师</span><span class="tag sig">社区热度 8</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>thedreammachine</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-08-16</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-08-17</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-17</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://github.com/betocmn/widen" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,50 +82,50 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-08-28</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-17</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="product-lead">后端工程师或数据库运维人员在 macOS 上排查数据时，面对本地 Postgres 库中的表和记录，需要快速取出一份查询结果，而不必先回忆表结构和字段名。</p>
+        <p>现有做法是使用 Postgres 客户端、命令行 psql 或带 AI 补全的商业数据库工具，手写并调试 SQL。</p>
+        <p>写 SQL 前要先确认表名、字段和关联关系，对不熟悉 schema 的人是重复的检索负担；候选材料没有给出任何用户抱怨或替代行为的证据。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>问题已识别，需求强度未明</h3>
-        <p>趋势是问数据的人不会写查询语句，但数据又不能出门。切入先做财务、运营这种天天问「这个数怎么来的」、还不能把库交给云的岗位。</p>
+        <p>趋势是本地小模型开始被塞进开发者日常工具，把「写 SQL」这一步换成说人话；切入可以选那些数据不能出内网、又不想为 BI 工具付席位的团队，从数据库日常查询这一环做单点替代，而不是做通用 SQL 助手。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>它承诺用更直接的方式完成这项任务：在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面；具体采用动机与持续使用情况尚未核验。</p>
+        <p>推断：相较手写 SQL，它把自然语言直接转成查询并在本地库执行，省去回忆 schema 和拼写语句这一步，因此对不熟悉表结构、又要求数据不出本机的开发者可能有吸引力；但候选材料未提供任何采用或留存证据。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p>
+        <p>收集该仓库的 README、issue 与 discussion，确认它是否展示生成的 SQL、是否要求人工确认，以及是否有开发者报告重复使用。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>继续观察</strong>。它承诺用更直接的方式完成这项任务：在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面；具体采用动机与持续使用情况尚未核验。</p>
+        <p><strong>值得拆解</strong>。推断：相较手写 SQL，它把自然语言直接转成查询并在本地库执行，省去回忆 schema 和拼写语句这一步，因此对不熟悉表结构、又要求数据不出本机的开发者可能有吸引力；但候选材料未提供任何采用或留存证据。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是问数据的人不会写查询语句，但数据又不能出门。切入先做财务、运营这种天天问「这个数怎么来的」、还不能把库交给云的岗位。</p>
+        <p>趋势是本地小模型开始被塞进开发者日常工具，把「写 SQL」这一步换成说人话；切入可以选那些数据不能出内网、又不想为 BI 工具付席位的团队，从数据库日常查询这一环做单点替代，而不是做通用 SQL 助手。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面</p></div>
-        <div><span class="field-k">工作流推理</span><p>它承诺用更直接的方式完成这项任务：在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面；具体采用动机与持续使用情况尚未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p></div>
+        <div><span class="field-k">公开事实</span><p>开发者在 macOS 上查看和操作 Postgres 数据库时打开它，原本要在客户端工具里手写 SQL 才能查表、看结构；它把自然语言交给 Apple 的设备端模型转成查询，在本地 Postgres 上执行后把结果表返回给用户，具体支持的查询范围与是否需要人工复核仍待核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较手写 SQL，它把自然语言直接转成查询并在本地库执行，省去回忆 schema 和拼写语句这一步，因此对不熟悉表结构、又要求数据不出本机的开发者可能有吸引力；但候选材料未提供任何采用或留存证据。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集该仓库的 README、issue 与 discussion，确认它是否展示生成的 SQL、是否要求人工确认，以及是否有开发者报告重复使用。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -133,28 +133,40 @@
             <span class="field-k">01 · 价值</span>
             <strong>证据不足</strong>
           </div>
-          <p>产品主张帮助用户完成：“在 Mac 上查公司数据库时，用电脑自带的 AI 帮忙把数问出来，数据不用传到外面”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>产品主张帮助用户完成：“开发者在 macOS 上查看和操作 Postgres 数据库时打开它，原本要在客户端工具里手写 SQL 才能查表、看结构；它把自然语言交给 Apple 的设备端模型转成查询，在本地 Postgres”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNEhGWUIxdGFnWUZiaUd1Z3NPaG96dVktUERCaGtLRU53Njc2ZFQwVGpYX2tqclNWemtNQi11UXA0akQ4TVk2by0yMGRRczY0Rko4dU5Tb0pYdzV2SWl0clhGVlZWcFBtMnNpNl8tZnVoVEpIT284SmxpU3cyNnFxY3MtYnZMVW5mZnFhYjRpUHV0N2RDdTdzZ25SRzEyZGVSMml4YjctSXd2dk9odkREMi1XRWRxbEVoU00xejNHMC1KY0owaHFfdnJWV1hsVmVRUkYzQ1BQaWpmdlQyOWN5a1hrVmJ6TWRQU2xNRks5QkNfQVFGUUHSAfsBQVVfeXFMTV9sTGlNcks4UTVWaEIwX2E5RUZkMkNOTWl2dUxSZ095YjJ5b2VSb1gzem9jTlpaZ3p1UktHUEE5OVBQc1lMZWJTODFsREtaR1kwODZaRndRcjJJWk9nd1J4Tm9ZZG9WNDBJV05HWW45Y3FqUl9tZUVENTJSbHdoTURUVHZmLTNmRF9namR6UWxQR0U4UEZPakh6emphZ2lacUg0cTI3SjJORDRLYkQtem9TZ24tMmJ5TjdxVURzUTBSZ2wybllWUFJQLWJHWEtPeEJ3VWtkU0JTcDAycGpycDJtUnRrTHFKcy1Rc3p5NGtSZE5JV1VqVUFQc2M?oc=5" target="_blank" rel="noopener">news.google.com · 2026-09-16 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>已有采用或关注仍应记录，但不能替代痛点证据；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。</p>
+          <p>仅有 8 个社区点赞、0 条评论，属于关注度信号，不能说明开发者已经把它放进日常工作流。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNEhGWUIxdGFnWUZiaUd1Z3NPaG96dVktUERCaGtLRU53Njc2ZFQwVGpYX2tqclNWemtNQi11UXA0akQ4TVk2by0yMGRRczY0Rko4dU5Tb0pYdzV2SWl0clhGVlZWcFBtMnNpNl8tZnVoVEpIT284SmxpU3cyNnFxY3MtYnZMVW5mZnFhYjRpUHV0N2RDdTdzZ25SRzEyZGVSMml4YjctSXd2dk9odkREMi1XRWRxbEVoU00xejNHMC1KY0owaHFfdnJWV1hsVmVRUkYzQ1BQaWpmdlQyOWN5a1hrVmJ6TWRQU2xNRks5QkNfQVFGUUHSAfsBQVVfeXFMTV9sTGlNcks4UTVWaEIwX2E5RUZkMkNOTWl2dUxSZ095YjJ5b2VSb1gzem9jTlpaZ3p1UktHUEE5OVBQc1lMZWJTODFsREtaR1kwODZaRndRcjJJWk9nd1J4Tm9ZZG9WNDBJV05HWW45Y3FqUl9tZUVENTJSbHdoTURUVHZmLTNmRF9namR6UWxQR0U4UEZPakh6emphZ2lacUg0cTI3SjJORDRLYkQtem9TZ24tMmJ5TjdxVURzUTBSZ2wybllWUFJQLWJHWEtPeEJ3VWtkU0JTcDAycGpycDJtUnRrTHFKcy1Rc3p5NGtSZE5JV1VqVUFQc2M?oc=5" target="_blank" rel="noopener">news.google.com · 2026-09-16 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。</p>
+          <p>开源项目，未见定价页或付费路径；买方可能是个人开发者或团队，但没有任何采购或付费证据，属判断而非事实。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNEhGWUIxdGFnWUZiaUd1Z3NPaG96dVktUERCaGtLRU53Njc2ZFQwVGpYX2tqclNWemtNQi11UXA0akQ4TVk2by0yMGRRczY0Rko4dU5Tb0pYdzV2SWl0clhGVlZWcFBtMnNpNl8tZnVoVEpIT284SmxpU3cyNnFxY3MtYnZMVW5mZnFhYjRpUHV0N2RDdTdzZ25SRzEyZGVSMml4YjctSXd2dk9odkREMi1XRWRxbEVoU00xejNHMC1KY0owaHFfdnJWV1hsVmVRUkYzQ1BQaWpmdlQyOWN5a1hrVmJ6TWRQU2xNRks5QkNfQVFGUUHSAfsBQVVfeXFMTV9sTGlNcks4UTVWaEIwX2E5RUZkMkNOTWl2dUxSZ095YjJ5b2VSb1gzem9jTlpaZ3p1UktHUEE5OVBQc1lMZWJTODFsREtaR1kwODZaRndRcjJJWk9nd1J4Tm9ZZG9WNDBJV05HWW45Y3FqUl9tZUVENTJSbHdoTURUVHZmLTNmRF9namR6UWxQR0U4UEZPakh6emphZ2lacUg0cTI3SjJORDRLYkQtem9TZ24tMmJ5TjdxVURzUTBSZ2wybllWUFJQLWJHWEtPeEJ3VWtkU0JTcDAycGpycDJtUnRrTHFKcy1Rc3p5NGtSZE5JV1VqVUFQc2M?oc=5" target="_blank" rel="noopener">news.google.com · 2026-09-16 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。</p>
+          <p>依赖设备端模型生成查询，候选材料未说明是否展示生成的 SQL、是否要求人工确认，错误查询可能直接改动数据，安全边界待核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNEhGWUIxdGFnWUZiaUd1Z3NPaG96dVktUERCaGtLRU53Njc2ZFQwVGpYX2tqclNWemtNQi11UXA0akQ4TVk2by0yMGRRczY0Rko4dU5Tb0pYdzV2SWl0clhGVlZWcFBtMnNpNl8tZnVoVEpIT284SmxpU3cyNnFxY3MtYnZMVW5mZnFhYjRpUHV0N2RDdTdzZ25SRzEyZGVSMml4YjctSXd2dk9odkREMi1XRWRxbEVoU00xejNHMC1KY0owaHFfdnJWV1hsVmVRUkYzQ1BQaWpmdlQyOWN5a1hrVmJ6TWRQU2xNRks5QkNfQVFGUUHSAfsBQVVfeXFMTV9sTGlNcks4UTVWaEIwX2E5RUZkMkNOTWl2dUxSZ095YjJ5b2VSb1gzem9jTlpaZ3p1UktHUEE5OVBQc1lMZWJTODFsREtaR1kwODZaRndRcjJJWk9nd1J4Tm9ZZG9WNDBJV05HWW45Y3FqUl9tZUVENTJSbHdoTURUVHZmLTNmRF9namR6UWxQR0U4UEZPakh6emphZ2lacUg0cTI3SjJORDRLYkQtem9TZ24tMmJ5TjdxVURzUTBSZ2wybllWUFJQLWJHWEtPeEJ3VWtkU0JTcDAycGpycDJtUnRrTHFKcy1Rc3p5NGtSZE5JV1VqVUFQc2M?oc=5" target="_blank" rel="noopener">news.google.com · 2026-09-16 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -168,7 +180,18 @@
         <p class="note">市场对照</p>
       </div>
     </div>
-    <p class="noanalysis-sub">尚未完成中英文市场对照。待覆盖范围和可核验证据补齐后再给出结论。</p>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-17。未发现仅限该覆盖范围。 · 2026-09-17</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-17。未发现仅限该覆盖范围。 · 2026-09-17</p>
+      </div>
+    </div>
   </section>
 
   <section class="band desk-band">
@@ -184,6 +207,52 @@
   </section>
 
 
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aistudio.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.merriam-webster.com/dictionary/widen" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">merriam-webster.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.acquia.com/products/acquia-dam" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">acquia.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://dictionary.cambridge.org/dictionary/english/widen" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">dictionary.cambridge.org</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNEhGWUIxdGFnWUZiaUd1Z3NPaG96dVktUERCaGtLRU53Njc2ZFQwVGpYX2tqclNWemtNQi11UXA0akQ4TVk2by0yMGRRczY0Rko4dU5Tb0pYdzV2SWl0clhGVlZWcFBtMnNpNl8tZnVoVEpIT284SmxpU3cyNnFxY3MtYnZMVW5mZnFhYjRpUHV0N2RDdTdzZ25SRzEyZGVSMml4YjctSXd2dk9odkREMi1XRWRxbEVoU00xejNHMC1KY0owaHFfdnJWV1hsVmVRUkYzQ1BQaWpmdlQyOWN5a1hrVmJ6TWRQU2xNRks5QkNfQVFGUUHSAfsBQVVfeXFMTV9sTGlNcks4UTVWaEIwX2E5RUZkMkNOTWl2dUxSZ095YjJ5b2VSb1gzem9jTlpaZ3p1UktHUEE5OVBQc1lMZWJTODFsREtaR1kwODZaRndRcjJJWk9nd1J4Tm9ZZG9WNDBJV05HWW45Y3FqUl9tZUVENTJSbHdoTURUVHZmLTNmRF9namR6UWxQR0U4UEZPakh6emphZ2lacUg0cTI3SjJORDRLYkQtem9TZ24tMmJ5TjdxVURzUTBSZ2wybllWUFJQLWJHWEtPeEJ3VWtkU0JTcDAycGpycDJtUnRrTHFKcy1Rc3p5NGtSZE5JV1VqVUFQc2M?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">客户案例</span>
+        <span class="row-tail">2026-09-16</span>
+      </div></a></li>
+    </ul>
+  </section>
 
   <section class="band desk-band">
     <div class="sec-head desk-sec">
@@ -221,7 +290,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 465 个 →
+        AI + 开发 共 481 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -313,8 +382,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1600 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-16</span>
+    <span>1650 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-09-17</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

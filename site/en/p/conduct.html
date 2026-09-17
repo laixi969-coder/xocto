@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>Conduct · x-octo</title>
-<meta name="description" content="For engineering teams that let models call external tools: Conduct sits in front of LLM and MCP tool calls, checking each request against rules and re…">
+<meta name="description" content="For teams calling LLMs and MCP tools inside their apps: when a model is about to run a tool call, Conduct receives the request, applies preset rules t…">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/conduct.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/conduct.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/conduct.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/conduct.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Conduct · x-octo">
-<meta property="og:description" content="For engineering teams that let models call external tools: Conduct sits in front of LLM and MCP tool calls, checking each request against rules and re…">
+<meta property="og:description" content="For teams calling LLMs and MCP tools inside their apps: when a model is about to run a tool call, Conduct receives the request, applies preset rules t…">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/conduct.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/conduct.html#webpage", "@type": "WebPage", "description": "For engineering teams that let models call external tools: Conduct sits in front of LLM and MCP tool calls, checking each request against rules and re\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Conduct", "url": "https://xocto.vercel.app/en/p/conduct.html"}, {"@id": "https://xocto.vercel.app/en/p/conduct.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-09-11", "datePublished": "2026-08-29", "description": "For engineering teams that let models call external tools: Conduct sits in front of LLM and MCP tool calls, checking each request against rules and returning an allow-or-block result, while developers still configure the rules and confirm boundaries. The exact workflow and delivery form remain unverified.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/conduct.html#webpage"}, "name": "Conduct", "sameAs": "https://github.com/sseshachala/conductai", "url": "https://xocto.vercel.app/en/p/conduct.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/conduct.html", "name": "Conduct", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/conduct.html#webpage", "@type": "WebPage", "description": "For teams calling LLMs and MCP tools inside their apps: when a model is about to run a tool call, Conduct receives the request, applies preset rules t\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Conduct", "url": "https://xocto.vercel.app/en/p/conduct.html"}, {"@id": "https://xocto.vercel.app/en/p/conduct.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-09-17", "datePublished": "2026-08-29", "description": "For teams calling LLMs and MCP tools inside their apps: when a model is about to run a tool call, Conduct receives the request, applies preset rules to allow, block or rewrite it, and returns the result to the caller. What users get is a constrained call result; the rule configuration and delivery format still need verification.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/conduct.html#webpage"}, "name": "Conduct", "sameAs": "https://github.com/sseshachala/conductai", "url": "https://xocto.vercel.app/en/p/conduct.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/conduct.html", "name": "Conduct", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,7 +64,7 @@
       <div class="product-title-row">
         <h1>Conduct</h1>
       </div>
-      <p class="product-lede">For engineering teams that let models call external tools: Conduct sits in front of LLM and MCP tool calls, checking each request against rules and returning an allow-or-block result, while developers still configure the rules and confirm boundaries. The exact workflow and delivery form remain unverified.</p>
+      <p class="product-lede">For teams calling LLMs and MCP tools inside their apps: when a model is about to run a tool call, Conduct receives the request, applies preset rules to allow, block or rewrite it, and returns the result to the caller. What users get is a constrained call result; the rule configuration and delivery format still need verification.</p>
       <div class="meta product-meta">
 <span class="tag sig">Not a business yet</span>        <span class="tag">Early</span>
 <span class="tag">Open-source project</span><span class="tag">Infrastructure</span><span class="tag sig">Community score 22</span>      </div>
@@ -72,7 +72,7 @@
     <dl class="product-kv desk-stats">
       <div><dt>Team / maker</dt><dd>sudhendra1</dd></div>
       <div><dt>First tracked here</dt><dd class="num">2026-08-29</dd></div>
-      <div><dt>Last updated here</dt><dd class="num">2026-09-11</dd></div>
+      <div><dt>Last updated here</dt><dd class="num">2026-09-17</dd></div>
       <div><dt>Product site</dt><dd><a href="https://github.com/sseshachala/conductai" target="_blank" rel="noopener">Visit site ↗</a></dd></div>
     </dl>
   </header>
@@ -95,7 +95,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
         <h3>Problem identified, demand strength unclear</h3>
-        <p>The trend is that once tool calling moves from demo to production, interception and audit become a separate layer. A wedge is compliance and platform teams in regulated sectors such as finance and healthcare, selling a hosted rule library and audit trail priced by call volume rather than shipping only an open-source library.</p>
+        <p>The trend is models acting directly on external tools, so an error shifts from a wrong sentence to a corrupted record, making a pre-call interception layer a real need. A wedge is to start with finance or healthcare, where operation trails are mandatory, and sell rule sets plus audit records as compliance deliverables rather than just an open-source library.</p>
       </article>
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
@@ -116,14 +116,14 @@
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
-        <p>The trend is that once tool calling moves from demo to production, interception and audit become a separate layer. A wedge is compliance and platform teams in regulated sectors such as finance and healthcare, selling a hosted rule library and audit trail priced by call volume rather than shipping only an open-source library.</p>
+        <p>The trend is models acting directly on external tools, so an error shifts from a wrong sentence to a corrupted record, making a pre-call interception layer a real need. A wedge is to start with finance or healthcare, where operation trails are mandatory, and sell rule sets plus audit records as compliance deliverables rather than just an open-source library.</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">Public fact</span><p>For engineering teams that let models call external tools: Conduct sits in front of LLM and MCP tool calls, checking each request against rules and returning an allow-or-block result, while developers still configure the rules and confirm boundaries. The exact workflow and delivery form remain unverified.</p></div>
+        <div><span class="field-k">Public fact</span><p>For teams calling LLMs and MCP tools inside their apps: when a model is about to run a tool call, Conduct receives the request, applies preset rules to allow, block or rewrite it, and returns the result to the caller. What users get is a constrained call result; the rule configuration and delivery format still need verification.</p></div>
         <div><span class="field-k">Workflow reasoning</span><p>The open-source project has gained some attention in the developer community, but no adoption or payment evidence yet.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
@@ -133,7 +133,7 @@
             <span class="field-k">01 · Value</span>
             <strong>Insufficient evidence</strong>
           </div>
-          <p>The product claims to help users complete: “For engineering teams that let models call external tools: Conduct sits in front of LLM and MCP tool”. User evidence has not yet verified pain intensity or the cost of doing without it.</p>
+          <p>The product claims to help users complete: “For teams calling LLMs and MCP tools inside their apps: when a model is about to run a tool call, Co”. User evidence has not yet verified pain intensity or the cost of doing without it.</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -172,12 +172,12 @@
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-11</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-17</p>
       </div>
       <div class="field">
         <span class="field-k">Chinese ecosystem · CN</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-11</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-17</p>
       </div>
     </div>
   </section>
@@ -205,7 +205,7 @@ Public information is limited; this view will update as more evidence appears.  
     </div>
     <ul class="rows desk-list">
       <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Google Gemini</span>
+        <span class="row-name">‎Google Gemini</span>
         <span class="row-desc">Market comparison · Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -253,6 +253,11 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="row-name">global.bing.com</span>
         <span class="row-desc">User pain</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Building the materials foundation for AI</span>
+        <span class="row-desc">market_signal · The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do…</span>
+        <span class="row-tail">2026-09-16</span>
       </div></a></li>
       <li><a href="https://news.crunchbase.com/venture/august-2026-new-unicorns-ai-robotics-semiconductors-xpeng-lumilens-river-source/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">29 Companies Joined The Unicorn Board In August, Led By AI Software And Semiconductors</span>
@@ -313,7 +318,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=Infrastructure">
-        189 in Infrastructure →
+        195 in Infrastructure →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -405,8 +410,8 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>1600 cases · 177 business reads</span>
-    <span class="gen">Data through 2026-09-16</span>
+    <span>1650 cases · 176 business reads</span>
+    <span class="gen">Data through 2026-09-17</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>
     <span>·</span>
