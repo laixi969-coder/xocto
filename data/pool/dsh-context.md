@@ -26,7 +26,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-09-17T00:32:43Z'
+last_seen: '2026-09-18T00:19:49Z'
 status: queued
 sources:
 - github
@@ -154,9 +154,9 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-token-pet
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 55
+    stars: 56
     forks: 0
     open_issues: 0
   kind: product
@@ -178,11 +178,11 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/@opencode2dsh/dsh-plugin
-  seen_at: '2026-09-17T00:32:43Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 66
-    forks: 9
-    open_issues: 7
+    stars: 69
+    forks: 10
+    open_issues: 10
   kind: product
 - source: github
   url: https://www.npmjs.com/package/baoer_signal_grep
@@ -209,10 +209,18 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/deepseekharness-acp-interactive
-  seen_at: '2026-09-17T00:32:43Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 54
+    stars: 67
     forks: 0
+    open_issues: 0
+  kind: product
+- source: github
+  url: https://www.npmjs.com/package/aside-codemode
+  seen_at: '2026-09-18T00:19:49Z'
+  metrics:
+    stars: 109
+    forks: 12
     open_issues: 0
   kind: product
 ---

@@ -36,14 +36,19 @@ url: https://www.qbitai.com/2026/09/483274.html
 canonical_url: https://qbitai.com/2026/09/483274.html
 summary: SkyProduction（天工工作台）全新版本于8月31日正式上线
 first_seen: '2026-09-02T09:22:16Z'
-last_seen: '2026-09-02T14:32:03Z'
-status: queued
+last_seen: '2026-09-18T00:20:10Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/483274.html
   seen_at: '2026-09-02T14:32:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/491147.html
+  seen_at: '2026-09-18T00:20:10Z'
   metrics: {}
   kind: news
 ---

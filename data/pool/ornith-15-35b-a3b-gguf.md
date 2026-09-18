@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-09-17T00:32:43Z'
+last_seen: '2026-09-18T00:19:49Z'
 status: rejected
 sources:
 - modelscope
@@ -77,17 +77,17 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S2-397B
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
-    likes: 25
-    downloads: 435
+    likes: 26
+    downloads: 556
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/Agnes-AI/Agnes-3.0-Flash
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
-    likes: 28
-    downloads: 386
+    likes: 32
+    downloads: 488
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/Shanghai_AI_Laboratory/Atria-Dawn-Preview
@@ -105,11 +105,18 @@ sightings:
   kind: product
 - source: github
   url: https://modelscope.cn/active/ms-cookbook
-  seen_at: '2026-09-17T00:32:43Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 153
-    forks: 23
-    open_issues: 0
+    stars: 269
+    forks: 43
+    open_issues: 2
+  kind: product
+- source: modelscope
+  url: https://modelscope.cn/models/XingChen-AGI/Xing4.0-29B-A4B
+  seen_at: '2026-09-18T00:19:45Z'
+  metrics:
+    likes: 54
+    downloads: 103
   kind: product
 ---
 

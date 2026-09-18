@@ -1,7 +1,7 @@
 ---
 slug: reimagining-advertising-with-ai
 name: OpenAI
-builder: ''
+builder: vertigoruntime
 category: ''
 summary_zh: OpenAI 在 2026 年 9 月 16 日公布 AI 广告形态，包括 Sponsored Agents、面向营销人员的工具以及与 HubSpot、Shopify 的集成。这意味着对话式入口开始承载广告位与营销工作流，对依赖搜索与社交投放获客的
   AI 应用而言，投放渠道与竞争位置可能被重新划分；具体计费方式与效果数据尚未披露，相关影响属推断。
@@ -26,15 +26,23 @@ canonical_url: https://openai.com/index/reimagining-advertising-with-ai
 summary: Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools
   for marketers, and integrations with HubSpot and Shopify.
 first_seen: '2026-09-16T13:00:00Z'
-last_seen: '2026-09-17T00:32:59Z'
-status: market_context
+last_seen: '2026-09-18T00:19:45Z'
+status: pending_filter
 sources:
 - officialfeeds
+- hackernews
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/reimagining-advertising-with-ai
   seen_at: '2026-09-17T00:32:59Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://openai.com/index/reimagining-advertising-with-ai/
+  seen_at: '2026-09-18T00:19:45Z'
+  metrics:
+    points: 156
+    comments: 178
   kind: news
 ---
 

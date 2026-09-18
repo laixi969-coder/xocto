@@ -32,7 +32,7 @@ url: https://dshdesktop.com
 canonical_url: https://dshdesktop.com
 summary: DSHDesktop：DeepSeek Harness Desktop
 first_seen: '2026-08-13T13:45:50Z'
-last_seen: '2026-09-14T00:12:35Z'
+last_seen: '2026-09-18T00:19:49Z'
 status: queued
 sources:
 - github
@@ -55,9 +55,9 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/LuxUmbra697/DSH-Desktop/releases/latest
-  seen_at: '2026-09-14T00:12:35Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 61
+    stars: 62
     forks: 3
     open_issues: 0
   kind: product

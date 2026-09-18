@@ -20,17 +20,17 @@ url: https://runboli.com
 canonical_url: https://runboli.com
 summary: playable in the browser, as my personal website
 first_seen: '2026-09-16T20:08:16Z'
-last_seen: '2026-09-17T00:32:40Z'
+last_seen: '2026-09-18T00:19:45Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://runboli.com
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
-    points: 12
-    comments: 5
+    points: 26
+    comments: 9
   kind: product
 ---
 

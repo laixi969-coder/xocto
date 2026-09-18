@@ -32,16 +32,16 @@ url: https://github.com/AbuZar-Ansarii/Needle
 canonical_url: https://github.com/AbuZar-Ansarii/Needle
 summary: This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.
 first_seen: '2026-08-30T06:43:48Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-18T00:19:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AbuZar-Ansarii/Needle
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 113
+    stars: 112
     forks: 37
     open_issues: 1
   kind: product

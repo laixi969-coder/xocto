@@ -21,8 +21,8 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-09-15T00:39:17Z'
-status: rejected
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -75,6 +75,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMingFBVV95cUxNeElUS3QyVlk4M2RxeEZWdExvc01EOXZzMHRDUVkxV1Q5azBaclItNFd0c184QXZnUmhuZF9tZmFJRTFzeWprMjZHaFdkNVpLSjRrMXBMRlJwV3M4bW9HaW53MHVmNDRQZjQ5STdobXJucmdhd2Vad2pvUl80SndQMlZ0UWd3Y0k4S29YY3FSTUlncHdGWURxbnlwUUc2UdIBqwFBVV95cUxQaXZDd2FiU0Rmd3dSejU1YUxxSEh3NXBFUXAweTRwWklmWm9MUFl6WWpsSUNXZmZ5NlhhVDZTcm5ILWY2OWZCSGJBS0x6TTVXakJZWHplMExrQjlnN1luSnM3YnJobjFVZVIyaGljX21WbHg4UllaZkVjbmtRaFBnR0RMeVBlbGlwX08xUTN5VlFFa2gzWHUwekZ5Q01uUTJsaG13b1JaSnpqcWM?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTE84Q2c3dTJUVzBOdHRXTGlNcTVlZXFEZHlQWGhkM2o2cFRxNVZBVGhEeC1TTXBEOG9HVi14eTJCVDkyd2dkRHV4RUROcTJuMHVlTHkzVmxPbGZyQ3YtZlVxc2ZWS2pVeVpadEJEcHhn?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiakFVX3lxTE9fd2hEOUs3cUpVbU9ISUdZWlp0T0x5UlJOV1VvYVJzVWxYZnBlaXFUNDdtQVNoX2M5S3NxeVV0R3Z3OGUyYTNaTV9qTGV5N3lla2RmeDlQSkNRbTZkRDR0UXdqUmJFS2RocVE?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

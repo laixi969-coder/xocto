@@ -1,0 +1,14 @@
+- id: ev-1be60b2ef3910c6e
+  project_slug: reversal-bench-a-reversibility-axis-and-reset-oracle-for-mea
+  url: https://machinelearning.apple.com/research/reversal-bench-rl-cliff
+  title: 'REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff'
+  published_at: '2026-09-17T00:00:00Z'
+  collected_at: '2026-09-18T00:20:09Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: A central goal of autonomous reinforcement learning is continuous policy training without external
+    resets. However, existing paradigms largely depend on underlying environmental reversibility, a property
+    absent in real world manipulation, where events such as pushing objects off tables or spilling granular
+    substances cannot be undone. We introduce REVERSAL-BENCH, a benchmark that controls reversibility
+    via a continuous parameter ρ∈ [0, 1] and provides a reset oracle, a ground-truth verification mechanism
+    to test state recoverability across eight manipulation settings in five physics engines…

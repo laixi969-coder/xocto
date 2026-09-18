@@ -20,17 +20,17 @@ url: https://stale.jock.pl/
 canonical_url: https://stale.jock.pl
 summary: How Stale Is Your AI? Release age and training cutoff for 20 models
 first_seen: '2026-09-16T13:01:52Z'
-last_seen: '2026-09-17T00:32:40Z'
+last_seen: '2026-09-18T00:19:45Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://stale.jock.pl/
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
-    points: 69
-    comments: 44
+    points: 78
+    comments: 45
   kind: product
 ---
 

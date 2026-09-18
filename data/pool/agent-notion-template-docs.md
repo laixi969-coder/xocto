@@ -36,16 +36,16 @@ canonical_url: https://github.com/heyman333/agent-notion-template-docs
 summary: Make your AI agent write documents like Notion — Claude Code skill that locks document structure
   & Notion visual style
 first_seen: '2026-08-30T23:36:34Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-18T00:19:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/heyman333/agent-notion-template-docs
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 90
+    stars: 92
     forks: 13
     open_issues: 1
   kind: product

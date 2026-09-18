@@ -22,10 +22,11 @@ url: https://www.semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-
 canonical_url: https://semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-bills-climb
 summary: Alphabet stock sheds $700B as AI bills climb
 first_seen: '2026-08-28T02:23:11Z'
-last_seen: '2026-08-29T03:43:08Z'
-status: market_context
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://www.semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-bills-climb
@@ -33,6 +34,11 @@ sightings:
   metrics:
     points: 49
     comments: 6
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOdWxyRFFXMVRyWUpiZmU4dm0ybEhUVGtaUlVKcmZsTjd6dTBEUDBpU2hHVURKejg3WVl0S3BLOW1zUDdEMFFzUUFFRTBzT25iN3ZXN2d0UzRIR0xfOFFNVWhLclVHWFJ5c0VZU1FxRmE2LXBGRlcwcDNNWjg5eG5BRllnazRzRVRTa1VRXzNVTFpGakdCYVdqamJBRUxpT29ZY0RCWGFEek1JeFFxNGYyQw?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
   kind: news
 ---
 

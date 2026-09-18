@@ -22,8 +22,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: rejected
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -70,6 +70,18 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPemQ5RFVzR3d1YVZIQUlibFJTSl9NNDd0R28xMDYyUDFja05oMTFZYllhNHlCSFRNSjRjb3BVQk40QU9xUzc0OV9GaHVxdmppaUs1X1ZDZ1J2VXotS0tPNGptQ2dkTE9kNm5NQ2dRQ2FOSU9Wc0VnQVBsNFI1clhHcHNsZW5vOW9LM2h5RXF4R1hXbTdVR3E0YkZNV2pRb0NrczBEdlRWQQ?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://asiaai.fyi/openai-misalignment-framework-global-governance/
+  seen_at: '2026-09-18T00:19:45Z'
+  metrics:
+    points: 40
+    comments: 77
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMib0FVX3lxTE5NLUczbldIVXJ3R04wQTNVQ3JzWWpDS29OaUIxRjJUQjJKaktvSVZRT05FMmpOX0FHYzVGWDhKVmdUWlVVZEU1MnVVbGxHOXpkZUF3WTF5ZlpqcEdPUTRUd0NRaHhmTUFVT0duVUpYRQ?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

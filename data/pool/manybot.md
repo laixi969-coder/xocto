@@ -20,16 +20,16 @@ url: https://manybot.org
 canonical_url: https://manybot.org
 summary: Framework to build WhatsApp bots, without the boring part
 first_seen: '2026-09-16T14:31:40Z'
-last_seen: '2026-09-17T00:32:40Z'
+last_seen: '2026-09-18T00:19:45Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://manybot.org
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
-    points: 6
+    points: 9
     comments: 0
   kind: product
 ---

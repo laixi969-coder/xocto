@@ -20,11 +20,12 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-09-16T00:21:13Z'
-status: rejected
+last_seen: '2026-09-18T00:20:10Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://tools.techtransit.org/nginx-generator
@@ -66,6 +67,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQNVM2eEU5SS0tTDBHWm9mM1BmMjNQZ2E0ZWNsNmdXTmdwbFFWd1JWdDJHVVRBQWNSb0Z6MEhGNms2czBuLXBvVXk2dlJhdDV0SXF5Y25qVGtsX3BjR0FuOFlTWmZTbGxXSVRxZjBUNUxMSllxa2YtdUtLX29HaVRQNWFGcGVUOWVISnFoajFLcVlnU3ZaekZ5S2ZiYldLTjJoSjVxbm1qV0U5QWItU3VwNDQ2bVBZaUE?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/17/creem-secures-eur5m-to-build-financial-infrastructure-for-ai-native-startups/
+  seen_at: '2026-09-18T00:20:10Z'
   metrics: {}
   kind: news
 ---

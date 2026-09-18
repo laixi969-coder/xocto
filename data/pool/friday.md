@@ -29,17 +29,17 @@ url: https://github.com/itskie/friday
 canonical_url: https://github.com/itskie/friday
 summary: Self-hosted persistent memory for AI coding agents (MCP)
 first_seen: '2026-09-16T18:55:09Z'
-last_seen: '2026-09-17T00:32:40Z'
+last_seen: '2026-09-18T00:19:45Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/itskie/friday
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
     points: 9
-    comments: 2
+    comments: 4
   kind: product
 ---
 

@@ -26,8 +26,8 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWT
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWTlCZGdIRjZSeFVqV1Q3MWs3TzFuMENONGJJVFdNMGhscEVET1llOWphZ3dSY3NicGxTU1lnaUhlZDIwaS0xcFg1VUo2elBaLWhTNHFBTFpaZkdzc0ZjUmY?oc=5
 summary: AI算力短缺蔓延：Intel、AMD寻求中国客户长期锁定服务器CPU采购 新浪网
 first_seen: '2026-09-13T15:30:58Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: market_context
+last_seen: '2026-09-18T00:20:10Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -45,6 +45,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zampiWk5jdVFLQlJJa3ozMzdGbGJDOXBxazRUdHRZdms0R0NsZXU1dktpYlNBTF8xQ2ZmamxBa01VenhNel9HaVQwUmhXeTF0cUZkOG5uVm5UZEk?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/17/kuva-space-takes-on-illicit-crop-monitoring-with-hyperspectral-satellites-and-ai/
+  seen_at: '2026-09-18T00:20:10Z'
   metrics: {}
   kind: news
 ---

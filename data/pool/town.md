@@ -20,10 +20,11 @@ url: https://town.com/
 canonical_url: https://town.com
 summary: Named to Madrona's 2026 Intelligent Applications 40 (Mid stage).
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-09-10T16:51:24Z'
-status: rejected
+last_seen: '2026-09-18T00:20:10Z'
+status: pending_filter
 sources:
 - ia40
+- marketfeeds
 sightings:
 - source: ia40
   url: https://town.com/
@@ -32,6 +33,11 @@ sightings:
     stage: Mid
     edition: '2026'
   kind: product
+- source: marketfeeds
+  url: https://sifted.eu/articles/a-founders-guide-to-early-ip-management-brnd/
+  seen_at: '2026-09-18T00:20:10Z'
+  metrics: {}
+  kind: news
 ---
 
 # Town

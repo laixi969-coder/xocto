@@ -20,11 +20,12 @@ url: https://news.social-protocols.org/penalties
 canonical_url: https://news.social-protocols.org/penalties
 summary: Most Penalized HN Stories
 first_seen: '2026-09-13T00:36:00Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: rejected
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://news.social-protocols.org/penalties
@@ -75,10 +76,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.euronews.com/business/2026/09/16/why-this-fast-growing-german-ai-start-up-is-moving-its-parent-company-from-the-us
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
-    points: 49
-    comments: 19
+    points: 54
+    comments: 24
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZR3BpR2w4aFJKaFFqamxYODJ1UXcxS01NczVNZ0N5Zjd0b09pdHdHNWhRSWZxclhRek5CUjNpLWMwdE5XRzdNVEZ1RGpxMVc4U0VDVXkyU2xUZms?oc=5
@@ -98,6 +99,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE95U2tFajV5UDdKWFRrSEdPb0JvRE91ekJGNHFBN3NaMGR1NTR2OFN4WkdYYU9SUlUwTjRZVUpwbk0yMk5HSHh6MXBYeVk0Qlo0UVRXRFRUVTk0YXJxRFE?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-reality-checks-on-ai-news
+  seen_at: '2026-09-18T00:20:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNMlFwWHVhSGNuQnBiLUFCQ1lFTzUzQlBJUDlxaTBKN0NwdDBkWGRaRzY0MUk2MnFXODZVaUJhYzRHb0xwVG9qbWhqajB1VUhEWmNKMjJ2TE5pUFd0Qmx4czdrY1BSazJ2VlhvX3pnUUJCdmdNSzZJWUstV1p0SG1lNHVCSnkySHEwbjFmNFk0Y1lMOWZRdWd4RW9mU3dldHZIX0hFY0dIOUFiQnhiNGt3RDg5TE5pdjQ?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5wRFkxcUFqR2dxNWdZSmhQQ3Y2eEpiZTg0a3d6UmxJSmxoNmQyN0VKUE1zMTItNWt6RDV2X0FVSzREMGRVaG1FMkhkTUNQclRqb3o5dHZ2X1ZLOE1tU19vbWpfak5EV3czN0F1RVhIZFdjZTBHVi0yYUhhNXo?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

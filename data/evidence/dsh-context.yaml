@@ -1844,3 +1844,44 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-09abe69e1744c8c2
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@opencode2dsh/dsh-plugin
+  title: opencode2dsh
+  published_at: '2026-08-29T07:22:12Z'
+  collected_at: '2026-09-18T00:19:49Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DSH plugin — free OpenCode Zen models for DeepSeek Harness (DSH). Free LLM API, no API key needed.
+    在 DSH 中使用 OpenCode Zen 免费模型，无需 API key | repository stars: 69'
+- id: ev-39a1983ac5f7f0ad
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-token-pet
+  title: dsh-token-pet
+  published_at: '2026-09-01T04:06:22Z'
+  collected_at: '2026-09-18T00:19:49Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Bilingual floating DeepSeek Harness pet with live context, lifetime token ledger, trends, opt-in
+    completion sound, and editable Prompt Optimizer enhancement. | repository stars: 56'
+- id: ev-db3d5b9041ab7f98
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/deepseekharness-acp-interactive
+  title: dsh-acp-interactive
+  published_at: '2026-09-02T06:25:26Z'
+  collected_at: '2026-09-18T00:19:49Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Editor-facing ACP server for Zed and other ACP clients, composed from published DeepSeek Harness
+    plugins. Community-maintained; not affiliated with DeepSeek. | repository stars: 67'
+- id: ev-e055de652755e7d4
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/aside-codemode
+  title: aside-codemode
+  published_at: '2026-09-13T09:08:26Z'
+  collected_at: '2026-09-18T00:19:49Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'One call where Aside used to spend fifty — rg-backed search, Aside-shaped file tools, and batched
+    browser work inside a single sandboxed JavaScript block. On a real folder, 55s of find+grep became
+    1s. | repository stars: 109'

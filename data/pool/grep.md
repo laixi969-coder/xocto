@@ -28,8 +28,8 @@ url: https://grep.codemod.com/
 canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
-last_seen: '2026-09-05T13:28:57Z'
-status: queued
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -66,6 +66,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQSTBrZnlwQmRPS2tib1FOX2VDQm1LT2dCYlVQN2tZa0x3cWtMN2lPeldlb1U1NDI4dUJZdWd0QlA4MllsRk5qNlo2SnVzeDhmczd1SlRVTUFLYkljQlRVVFBtU1d2aWZLWFZMOEVaVlU3dDM0V19XS3ZSLU5TQUlzdmpVVFJjejdKWUw3S3EzNjZqUQ?oc=5
   seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPbUJIVkJXOTQwcUZpYllxbGhCN2VzSmNnQ21hUUo2U0twRUROS1dpejBLNG9DNnNCa0ZXT25SY0F5M2xZSkdBbmE3cF84dnZDMk9hZS1QR0RUN0RCSllEQk9DbWc3RjVtSnU1SFRhNThWdGlkTWtoTDJQVG5vS3lTNFVncmx6V1M4bFBDaU5wMA?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

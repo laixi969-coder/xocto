@@ -93,3 +93,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 开发者或分析人员在需要高置信度结论时，把同一问题交给多个模型独立作答并互评，再人工查看最终决策依据'
+- id: ev-4114254c7ee23289
+  project_slug: dsh-council
+  url: https://github.com/a1exsun/dsh-council
+  title: dsh-council
+  published_at: '2026-08-30T10:42:19Z'
+  collected_at: '2026-09-18T00:19:49Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Multi-model council for DeepSeek Harness: independent answers, anonymous peer reviews, and an
+    inspectable final decision. | repository stars: 133'

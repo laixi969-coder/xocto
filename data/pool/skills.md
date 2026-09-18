@@ -31,12 +31,13 @@ canonical_url: https://github.com/coleam00/skills
 summary: The agent skills I actually use to build software with coding agents. The PIV loop, planning,
   worktrees, and the meta-skills for building your own AI Layer.
 first_seen: '2026-08-04T22:14:35Z'
-last_seen: '2026-09-16T00:21:13Z'
-status: rejected
+last_seen: '2026-09-18T00:20:09Z'
+status: pending_filter
 sources:
 - github
 - hackernews
 - newssearch
+- officialfeeds
 sightings:
 - source: github
   url: https://github.com/coleam00/skills
@@ -66,6 +67,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizgFBVV95cUxPV0tDUGZjV3FHWVBLZTJWa185MlFnOUozU2k5NTlUVHBsdTh3bU9jRVBwRlZQSjV6elRpSDh3OVlGRTQtR0ZNN0t5bUc1cjFnd3BzYS0wQTFmdE5kWFpNTnU5c2JQaFh3aFRtZVFyS1RVeW1OdDJobnZqSEphTU9lczFoT0c0RVQwOG9QTFNCdm1rbmJnUzdHTzdaUGlnVTJ3STM1YmhIR2FvdXhEM1pqZFZnLW9yT2JLUC1ta1ZlNXZsWEdEUmFDdU9ucVowUQ?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/skills-cli-notion-skills
+  seen_at: '2026-09-18T00:20:09Z'
   metrics: {}
   kind: news
 ---

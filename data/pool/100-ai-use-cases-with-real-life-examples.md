@@ -21,8 +21,8 @@ url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE9mSlNZNVhRQ1VaM1hrZkxxcz
 canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE9mSlNZNVhRQ1VaM1hrZkxxczlQQWpoM2NibTRsYV9hZXFqQ04xQWpueENZdkRETFUwYmx2a0ZKUjBJRmdqeTV6Rmx3?oc=5
 summary: 100+ AI Use Cases with Real Life Examples AIMultiple
 first_seen: '2026-08-27T07:00:00Z'
-last_seen: '2026-09-05T13:28:57Z'
-status: rejected
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -34,6 +34,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KNEs3c3JNNGx4b2ZQUmZvT2ppZDlwMFBnc2NZSzZoZUpNVURtS2l4QVpMTXRnVWlVU0hJYWVZZDFEdnM4MnlmMzA3bTVKUFdsYTRIQ0NBa0FrOGUyRHc?oc=5
   seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

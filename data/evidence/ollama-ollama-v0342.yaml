@@ -1,0 +1,13 @@
+- id: ev-a89dfa6b4ce4e252
+  project_slug: ollama-ollama-v0342
+  url: https://github.com/ollama/ollama/releases/tag/v0.34.2
+  title: 'ollama/ollama: v0.34.2'
+  published_at: '2026-09-15T21:21:07Z'
+  collected_at: '2026-09-18T00:19:49Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## What's Changed\r\n\r\n- Added first-run setup when running `ollama`, with options to sign\
+    \ in or continue locally. Setup completion is shared with the desktop app on macOS and Windows.\r\n\
+    - Added `ollama://apps` to open the desktop app’s Apps page directly on macOS and Windows.\r\n- Fixed\
+    \ excessive memory growth during long generations with MLX speculative decoding.\r\n- Updated llama.cpp.\r\
+    \n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2"

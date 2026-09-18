@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: rejected
+last_seen: '2026-09-18T00:20:10Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -173,6 +173,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilAJBVV95cUxOLXVzRXBoRnJ1ajJwZG9LLUFyV1Y1QXdiR3h0amw0R2ZyOFlGOEh5TnpBRGx4UEp5WnF0MXYybVdzUkFzSEtYUmxhcXJmWXl4MFVVZkN3elNrQUg0MldiakZmdmdvc3JPYVpsb21ZeFRBTlBaZHAxaW5kT0pnLVRaWXZ2d0RVNGR4NW4zSTU2RmpLOS1QaGZCRUt4SDBJOFRwbXBzVXRxM3p0TjhDc0NiZHplcmxzdVhQSnFyT0JFaXRxYjczNWRRc082clNRZGNwRGg2SW9yYUdmQ2xsaHNFekxnRjlsN2hvUGJlZy1GOUU4TkZ5R1A4QmJWelVwbVlSWWpwRlhsZFdOYThGZU05UUh4Y2LSAZQCQVVfeXFMTi11c0VwaEZydWoycGRvSy1BcldWNUF3Ykd4dGpsNEdmcjhZRjhIeU56QURseFBKeVpxdDF2Mm1Xc1JBc0hLWFJsYXFyZll5eDBVVWZDd3pTa0FINDJXYmpGZnZnb3NyT2FabG9tWXhUQU5QWmRwMWluZE9KZy1UWll2dndEVTRkeDVuM0k1NkZqSzktUGhmQkVLeEgwSThUcG1wc1V0cTN6dE44Q3NDYmR6ZXJsc3VYUEpxck9CRWl0cWI3MzVkUXNPNnJTUWRjcERoNklvcmFHZkNsbGhzRXpMZ0Y5bDdob1BiZWctRjlFOE5GeUdQOEJiVnpVcG1ZUllqcEZYbGRXTmE4RmVNOVFIeGNi?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/17/nearby-computing-secures-eur680k-to-scale-cloud-to-edge-orchestration-platform/
+  seen_at: '2026-09-18T00:20:10Z'
   metrics: {}
   kind: news
 ---

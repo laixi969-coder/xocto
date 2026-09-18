@@ -36,17 +36,17 @@ url: https://seasonmap.app
 canonical_url: https://seasonmap.app
 summary: when to travel where? visualized with climate data
 first_seen: '2026-09-16T15:43:07Z'
-last_seen: '2026-09-17T00:32:40Z'
+last_seen: '2026-09-18T00:19:45Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://seasonmap.app
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
-    points: 10
-    comments: 9
+    points: 21
+    comments: 11
   kind: product
 ---
 

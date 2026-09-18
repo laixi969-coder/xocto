@@ -38,3 +38,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 学术研究 高等教育 科研人员 研究生'
+- id: ev-a8f768af17ab27c9
+  project_slug: texglot
+  url: https://github.com/Mengqi-Lei/texglot
+  title: texglot
+  published_at: '2026-09-09T04:49:08Z'
+  collected_at: '2026-09-18T00:19:49Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Translate arXiv papers and LaTeX projects with your own LLM API, preserving equations, citations,
+    and document structure. Generate translated PDFs and editable source through a local app or batch
+    CLI. | repository stars: 69'

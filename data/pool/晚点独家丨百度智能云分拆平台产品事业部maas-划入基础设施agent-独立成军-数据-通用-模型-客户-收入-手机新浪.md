@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOUm1Iem9GaU50eVNiUjk5Xz
 canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOUm1Iem9GaU50eVNiUjk5XzQ1Vmp1VmU3V1V3YV8xTTZBcGhqMDRCVEwxU2U0YWhTUnlNWEFmWm9ZVGQ3c3pCRU4xR3JCZDMxYXlmbldEbkpkcTJqek1oYmJSdEw2cl9Ia1VrdndWUFRlUGtTc0pHM2RTam82R0lpT0d0d00wQlB2bk5kZk1DMUVyM243OG1ETUNvYmxQNjhjQTZqbUNxSQ?oc=5
 summary: 晚点独家丨百度智能云分拆平台产品事业部：MaaS 划入基础设施、Agent 独立成军|数据|通用|模型|客户|收入_手机新浪网 新浪财经
 first_seen: '2026-08-29T07:49:49Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: market_context
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -65,6 +65,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9ucm9WRFJGc282S3BVVnliYzlqNUVxNUoybDhQckphZVY1aHNwZnlkVE1qUWItUTM0eVFramptNjdXdFJuYkNUUzltczQxNnJjYjJZTVNSOW1LSjk2ZlM4Wl9jcm56WFFHTzN6MWYxMks?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN3JjeEFGdTR3SEl3MzY2NERtSTZKSlY2c2pyUXNhSVR4a0dIcVRqckhfWWFzOEtVcndyT0JqU2VFYTAyZXloWE1WZi1VWGxjSWs0Z0lTSVhQZzAyeHpyWWQweWdzTnFUQ2xCcjBPdnN4elFvNy13eDhFMkZzY3pCelVzaEl4Q1dKVmZTOW82SEVQUUZ2NEdWWUtLV05VeFJOMGNQU0hUbUZ3ZnhlcFBWUENlOWtwN0pLVkZheFFLbFNDWG8?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wc1l2SVpUVkRQdUJoSmVVMVhqVk1VSlk0VFF6WFVXOUk5RnZOY1JHTWdpN2l3VzVTaDFtMWhmU2ZrV2lXbkhIS3BHdlFDNWR6X2RRQWl2LXZycVBvSHc?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNXy1LTEhCLUN6R0oyWnRGN0ZlSWZtOGZuZ0VubTBIVlZYNEh6NURRbDlWVUVHRlpucTF6c25Tck0zV1k2T0NUaHBvczBjbmVYQ2VaQW9RNEF1QnJvekhxVnVhcHR2YklfOEd5VklzUHJzR1ptWDhDRjVid2tCQWVPSlNPV0dXalB1TUpvbmxn?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNcmgxNGN2MXdCbE5GamJ2V3V3UWJiRnR2WWxGczhSMWludndyaUdVaUxSX2VIZzhzRHV3Rl9tR3NXbFZkeGsxN1BpeHgwcnRaaTN5UVFn?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

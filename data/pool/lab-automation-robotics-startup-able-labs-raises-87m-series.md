@@ -31,8 +31,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: rejected
+last_seen: '2026-09-18T00:20:10Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -202,14 +202,19 @@ sightings:
   kind: news
 - source: hackernews
   url: https://openspec.dev/
-  seen_at: '2026-09-17T00:32:40Z'
+  seen_at: '2026-09-18T00:19:45Z'
   metrics:
-    points: 42
-    comments: 10
+    points: 189
+    comments: 95
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinAFBVV95cUxPdlFKTUFtb2NqVWFIblh4NG1FX0dqMDFQSjhKM1NiWWpNbml5RnJjeWZkc1U3eVYxdFBNaEt6QXB6VTY3VHppcUtQU2VVMEx1UXRiaGVCU1ZfZUotZ1duYXdjenBlSnBNbHNqdURTckNyUHA0bkU5MzRKb3Q0cEdwMWxRU05OekxFcDluVG1Cc0RFMXRUd2ZsWllFdW0?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/
+  seen_at: '2026-09-18T00:20:10Z'
   metrics: {}
   kind: news
 ---

@@ -31,12 +31,13 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: rejected
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
 - newssearch
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://mark.q1z.org
@@ -269,6 +270,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxORGtMV0tRbDJyOXhTa19QblVncW5lMGx5V3BocHJlU3hhQTh1RUVoRGJlUGxmY29VWTJZdWJLMkd1OVVCaVFFQ1RfQXI1MDNxWHJ0cDR2Yl9vVVc1OU52RjhZNWp5cmsxWEhwX0RJR3JDWkZrQ1FBVko2amtScGwwWnQxN0dkWmdNMG8zRGIwZnFVcUVLVFdqZzg3elNpbm55SFdCcURoelJfUUc1VFVxdzczMzEyWTdMQWc4dHVNZXF3eFU?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/custom-environments-support-for-marketplace-integrations
+  seen_at: '2026-09-18T00:20:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTE80dmpGZ0g4V2NqeDdXWnhnTVE5RkRGNmxQeXJ4ME5IT3kybndFT2N5bEttQmJrSk4zd3B3Sm50aHRTVlM2cU4wMENTRmpPR2FlVHgxVm9sMzZ0Ry1LMEdCRk9pM3lhYmZLZkcteU15ckpOTjJqQnVjczNqVnA?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

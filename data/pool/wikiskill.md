@@ -28,17 +28,17 @@ summary: WikiSkill (arXiv:2608.27454) for Hermes Agent — self-evolving agent s
   wiki. Faithful Algorithm 1 implementation with real agent runs, isolated skill gating, and a documented
   live run log.
 first_seen: '2026-08-29T20:44:02Z'
-last_seen: '2026-09-17T00:32:43Z'
+last_seen: '2026-09-18T00:19:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://ashutoshsinghpr7.github.io/wikiskill/
-  seen_at: '2026-09-17T00:32:43Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 219
-    forks: 25
+    stars: 223
+    forks: 24
     open_issues: 5
   kind: product
 ---

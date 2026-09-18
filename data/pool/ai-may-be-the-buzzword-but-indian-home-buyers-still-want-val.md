@@ -1,0 +1,41 @@
+---
+slug: ai-may-be-the-buzzword-but-indian-home-buyers-still-want-val
+name: 'AI may be the buzzword, but Indian home buyers still want value: Report'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRkxTYkxkQTFJQXdfRVFvRFY2NGhrM2tsVGM1QWhaenF1ZGxHMmFQblR3dFd5Y05Hd0s1UzMwc2NsRGJadW5KN1FZMU9JbF9NRUFuZHF5YXNGTmpkamRwOUF5dEVCcm1RNjZnMnkxQ1NDMm1lQ0dpWFh3Q3JhcU11dDM5YTR6VXZhM2RTbGNJQk44Tk8tVy1RNWJlZUw1V3V2YzItN2NvUVJqdE5vWmo0SE0tYzM1bVdnaWZHMl9PS1FkeDJzWVpGU1lJVXpvaWNIQkVuNUtRRVFqUXZrdHhidnJR0gHiAUFVX3lxTE1GTFNiTGRBMUlBd19FUW9EVjY0aGsza2xUYzVBaFp6cXVkbEcyYVBuVHd0V3ljTkd3SzVTMzBzY2xEYlp1bko3UVkxT0lsX01FQW5kcXlhc0ZOamRqZHA5QXl0RUJybVE2NmcyeTFDU0MybWVDR2lYWHdDcmFxTXV0MzlhNHpVdmEzZFNsY0lCTjhOTy1XLVE1YmVlTDVXdXZjMi03Y29RUmp0Tm9aajRITS1jMzVtV2dpZkcyX09LUWR4MnNZWkZTWUlVem9pY0hCRW41S1FFUWpRdmt0eGJ2clE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRkxTYkxkQTFJQXdfRVFvRFY2NGhrM2tsVGM1QWhaenF1ZGxHMmFQblR3dFd5Y05Hd0s1UzMwc2NsRGJadW5KN1FZMU9JbF9NRUFuZHF5YXNGTmpkamRwOUF5dEVCcm1RNjZnMnkxQ1NDMm1lQ0dpWFh3Q3JhcU11dDM5YTR6VXZhM2RTbGNJQk44Tk8tVy1RNWJlZUw1V3V2YzItN2NvUVJqdE5vWmo0SE0tYzM1bVdnaWZHMl9PS1FkeDJzWVpGU1lJVXpvaWNIQkVuNUtRRVFqUXZrdHhidnJR0gHiAUFVX3lxTE1GTFNiTGRBMUlBd19FUW9EVjY0aGsza2xUYzVBaFp6cXVkbEcyYVBuVHd0V3ljTkd3SzVTMzBzY2xEYlp1bko3UVkxT0lsX01FQW5kcXlhc0ZOamRqZHA5QXl0RUJybVE2NmcyeTFDU0MybWVDR2lYWHdDcmFxTXV0MzlhNHpVdmEzZFNsY0lCTjhOTy1XLVE1YmVlTDVXdXZjMi03Y29RUmp0Tm9aajRITS1jMzVtV2dpZkcyX09LUWR4MnNZWkZTWUlVem9pY0hCRW41S1FFUWpRdmt0eGJ2clE?oc=5
+summary: 'AI may be the buzzword, but Indian home buyers still want value: Report Business Standard'
+first_seen: '2026-09-17T11:07:45Z'
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRkxTYkxkQTFJQXdfRVFvRFY2NGhrM2tsVGM1QWhaenF1ZGxHMmFQblR3dFd5Y05Hd0s1UzMwc2NsRGJadW5KN1FZMU9JbF9NRUFuZHF5YXNGTmpkamRwOUF5dEVCcm1RNjZnMnkxQ1NDMm1lQ0dpWFh3Q3JhcU11dDM5YTR6VXZhM2RTbGNJQk44Tk8tVy1RNWJlZUw1V3V2YzItN2NvUVJqdE5vWmo0SE0tYzM1bVdnaWZHMl9PS1FkeDJzWVpGU1lJVXpvaWNIQkVuNUtRRVFqUXZrdHhidnJR0gHiAUFVX3lxTE1GTFNiTGRBMUlBd19FUW9EVjY0aGsza2xUYzVBaFp6cXVkbEcyYVBuVHd0V3ljTkd3SzVTMzBzY2xEYlp1bko3UVkxT0lsX01FQW5kcXlhc0ZOamRqZHA5QXl0RUJybVE2NmcyeTFDU0MybWVDR2lYWHdDcmFxTXV0MzlhNHpVdmEzZFNsY0lCTjhOTy1XLVE1YmVlTDVXdXZjMi03Y29RUmp0Tm9aajRITS1jMzVtV2dpZkcyX09LUWR4MnNZWkZTWUlVem9pY0hCRW41S1FFUWpRdmt0eGJ2clE?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+---
+
+# AI may be the buzzword, but Indian home buyers still want value: Report
+
+AI may be the buzzword, but Indian home buyers still want value: Report Business Standard
+
+## 笔记
+
+

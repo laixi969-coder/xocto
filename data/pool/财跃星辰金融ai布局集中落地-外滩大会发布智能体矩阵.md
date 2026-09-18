@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nVE5FNnZwYnV2Y2NoYmlNak
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nVE5FNnZwYnV2Y2NoYmlNakQ5V1F1RTBrTUZOalhza2s3Z3BfR2k3c292cGJvQjBnX2JNa04wY0J0MjQ1eDFuNQ?oc=5
 summary: 财跃星辰金融AI布局集中落地 外滩大会发布智能体矩阵 财联社
 first_seen: '2026-09-10T01:23:24Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nVE5FNnZwYnV2Y2NoYmlNakQ5V1F1RTBrTUZOalhza2s3Z3BfR2k3c292cGJvQjBnX2JNa04wY0J0MjQ1eDFuNQ?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9EaVFoNVdESC05d2hJdk5URldydHdsSzVZc2FJRGNBMmJQWUZCbDlfVDgwODZQNGRaU1VCdmJ5T1JoaG51R1REUw?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

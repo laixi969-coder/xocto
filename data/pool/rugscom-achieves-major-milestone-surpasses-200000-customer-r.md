@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3J2Vnl5T2hLVnFmTjN6UE
 canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3J2Vnl5T2hLVnFmTjN6UEc4eUNiTnJqYkZCcjdJV21MQzJjNzBhM3pqM0FSTHp2N2NGYTNBT3p2Q3F3bVo1WVVKVjI3RGtNVzBIcFBGNW1Kc29pREhyRjEwbTFiaE5uTlFqRmVkOVFjOFdpYXF5enlpRFkteUdKQzN0Wl9NQ0VaLWt4QkZBVkgwSGFHcE1nYjlGTFZaTmVtUDJaYjFmTnM3Z1dTVkxad3M0RDh0aFl5RUJaajU2X2lMUQ?oc=5
 summary: 'Rugs.com Achieves Major Milestone: Surpasses 200,000 Customer Reviews Business Wire'
 first_seen: '2026-09-15T13:17:00Z'
-last_seen: '2026-09-16T00:21:13Z'
-status: rejected
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3J2Vnl5T2hLVnFmTjN6UEc4eUNiTnJqYkZCcjdJV21MQzJjNzBhM3pqM0FSTHp2N2NGYTNBT3p2Q3F3bVo1WVVKVjI3RGtNVzBIcFBGNW1Kc29pREhyRjEwbTFiaE5uTlFqRmVkOVFjOFdpYXF5enlpRFkteUdKQzN0Wl9NQ0VaLWt4QkZBVkgwSGFHcE1nYjlGTFZaTmVtUDJaYjFmTnM3Z1dTVkxad3M0RDh0aFl5RUJaajU2X2lMUQ?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQWm42NkM1TUhLZUdRR1FnZUl4TWNoTlJBNmpmYmVlWG1fN2JGb3o2V3Y0MHJtUFNhazdLV2hsMWJ3ZkJSZnBvUlZLQ19PdFZjZHdtQXpScjhtZDBEZ3NTVzRzYmdGdGxMU0hFejcweUcxWG9EcGRaLXFOUC1BNjJEUnVWQmRDRzR5aVhuM0xsTElpTEZtMjV3SkFyOG8zNEswRm1wQ2ZXMGZNVFF3dnlWeURWUTc2UTk5RzJoRDRObXgwVnhHNDFF?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

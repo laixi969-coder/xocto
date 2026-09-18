@@ -36,8 +36,8 @@ url: https://www.aicpb.com/product/Manus/webid1D6F371D9
 canonical_url: https://aicpb.com/product/Manus/webid1D6F371D9
 summary: Find the best Manus Playbook and setups built by Manus community members.
 first_seen: '2026-08-17T22:41:21Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: queued
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - aicpb
 - newssearch
@@ -68,6 +68,11 @@ sightings:
   metrics:
     points: 9
     comments: 0
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOaG9iNlNHQlc2Ti1TMDEtbkZrNEQ2ZEZPdnhfaHZKSkZtODNQRmFtX0JWbEFVMVM0MDlRVXFJaGJFbG5qU00zanBpM2tSUHdMNGE1LXBUVTVzR3c4YWczUkdKc2JtWFBaSjljYWFJQkM3cGdhQUE2VkUtUFlxN0tobFk0N254TUhpSjhTTFBvSUFwVTNTVnV0bDN6dzhIRDVtOFhZR3lWa19RbjdVcWFqLUU0Ukl6V3cyQ1pPMl9aUQ?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
   kind: news
 ---
 

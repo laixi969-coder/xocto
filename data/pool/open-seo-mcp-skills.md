@@ -36,7 +36,7 @@ summary: Open-source SEO + GEO skills for Claude — keyword research, rank trac
   competitor gaps, AI visibility. Runs on your real Search Console / GA4 / ads data via MCP, with DataForSEO
   built in. Free, MIT.
 first_seen: '2026-08-29T23:37:01Z'
-last_seen: '2026-09-17T00:32:43Z'
+last_seen: '2026-09-18T00:19:49Z'
 status: queued
 sources:
 - github
@@ -51,9 +51,9 @@ sightings:
   kind: product
 - source: github
   url: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
-  seen_at: '2026-09-17T00:32:43Z'
+  seen_at: '2026-09-18T00:19:49Z'
   metrics:
-    stars: 949
+    stars: 996
     forks: 12
     open_issues: 1
   kind: product

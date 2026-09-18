@@ -24,8 +24,8 @@ url: https://www.producthunt.com/products/workflo-2
 canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen
 first_seen: '2026-08-08T22:35:22Z'
-last_seen: '2026-09-11T00:10:51Z'
-status: watching
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
@@ -92,6 +92,11 @@ sightings:
 - source: officialfeeds
   url: https://huggingface.co/blog/gradio-workflow-1111
   seen_at: '2026-09-11T00:10:51Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE80cU1pM2ZWOWdaY1NSV0p3T3VFdU1rSTY0ZFlEV0hIXzRqanJaWWdaQ2FDLXNQUFRSaHhlQ0dtajFYWHBBYjdCUllVbGg1NDFtSUpxZUZR?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---

@@ -39,8 +39,8 @@ url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BTy03bVJnOEw5R2F5WFFZZE
 canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BTy03bVJnOEw5R2F5WFFZZEhOaU9feUNIMUJURFVyX1cyTE5rZW5PX0N6MnVTOGIydzlLZ0RsRDdMTlFkMUlmVWlORzJYMEZfRVE?oc=5
 summary: 全球首款AI智能体手机努比亚NaviX Ultra获入网许可，9月正式上市 icloudnews.net
 first_seen: '2026-09-02T07:15:00Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: watching
+last_seen: '2026-09-18T00:20:29Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -67,6 +67,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yRmVObUxJV2ppS1dMcGxWSVVJVHFXWFBCZDZPQUMtQUFaT1RMdTcybThCMW1QNko2QnY0ZkFPeEo1bUtzVlR5MEZrbjVwc19VWHBJbFlTY0c?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jVGhOcUhOU1VvVXYwZUVBd2JwdnJtM0NSeXBsaERMY0JXMGxJdXY5SUpseHRxb1BjbWpVOHVNSWd4WVZGSC12UWhBMnhobWoxaldqNW5EUExIRTcwZVlyUlc2Rkp2dw?oc=5
+  seen_at: '2026-09-18T00:20:29Z'
   metrics: {}
   kind: news
 ---
