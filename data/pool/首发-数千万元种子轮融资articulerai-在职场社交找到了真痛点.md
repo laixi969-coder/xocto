@@ -1,6 +1,6 @@
 ---
 slug: 首发-数千万元种子轮融资articulerai-在职场社交找到了真痛点
-name: 首发｜数千万元种子轮融资，Articuler.ai 在职场社交找到了真痛点
+name: Articuler.ai
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE4yclhKV0duakNX
 summary: 首发｜数千万元种子轮融资，Articuler.ai 在职场社交找到了真痛点 hub.baai.ac.cn
 first_seen: '2026-09-17T02:40:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 首发｜数千万元种子轮融资，Articuler.ai 在职场社交找到了真痛点
+# Articuler.ai
 
 首发｜数千万元种子轮融资，Articuler.ai 在职场社交找到了真痛点 hub.baai.ac.cn
 

@@ -1,6 +1,6 @@
 ---
 slug: microlub-raises-10m-to-cut-fat-and-calories-without-compromi
-name: MicroLub raises $10M to cut fat and calories without compromising taste
+name: MicroLub
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: MicroLub, a deeptech ingredient solutions company spun out from the Uni
   parti...
 first_seen: '2026-09-17T06:00:00Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# MicroLub raises $10M to cut fat and calories without compromising taste
+# MicroLub
 
 MicroLub, a deeptech ingredient solutions company spun out from the University of Leeds, has completed a $10 million funding round led by Northern Gritstone. All of MicroLub's existing investors parti...
 

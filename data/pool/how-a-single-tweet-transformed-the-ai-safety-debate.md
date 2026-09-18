@@ -21,7 +21,7 @@ canonical_url: https://understandingai.org/p/how-a-single-tweet-transformed-the
 summary: Most people think AI is risky, but they don’t agree what to do next.
 first_seen: '2026-09-17T20:21:40Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

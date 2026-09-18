@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFBmQ01FMnA2bGst
 summary: Agent产业化加速：2026全栈式AI智能体解决方案提供商推荐参考 财富号
 first_seen: '2026-09-17T02:34:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

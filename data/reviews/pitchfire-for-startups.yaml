@@ -1,0 +1,44 @@
+- id: req-initial-pitchfire-for-startups-2026-09-18
+  project_slug: pitchfire-for-startups
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决创业者找匹配投资人的需求，但公开材料只有一句定位，说不清原来卡在哪一步、不采用会失去什么，痛点强度无法判断。
+    evidence_ids:
+    - ev-3e9ca36cde6dce95
+  - gate: consensus
+    status: insufficient
+    reason: 除上线信息外没有用户评价、采用或讨论证据，无法判断创业者是否认为这一步值得外包。
+    evidence_ids:
+    - ev-3e9ca36cde6dce95
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自创业者订阅或按次收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3e9ca36cde6dce95
+  - gate: truth
+    status: insufficient
+    reason: 无法核对匹配质量与交付确定性，也看不到人工确认环节，承诺能否兑现未知。
+    evidence_ids:
+    - ev-3e9ca36cde6dce95
+  next_validation: 收集该产品官方定价页或公开客户案例，确认其按什么计价、交付物是投资人名单还是直接外联。
+  market: ''
+  job: 早期创业者在准备融资、需要找到方向匹配的投资人时，整理投资人名单与项目介绍材料，要完成的是筛出值得接触的投资人并发起联系。
+  job_en: An early-stage founder preparing a raise and looking for aligned investors works through investor
+    lists and pitch materials to shortlist investors worth contacting and start outreach.
+  pain: 公开材料只给出“触达匹配投资人”一句定位，未说明创业者原来卡在哪一步、耗时多久或失败代价，痛点无法从现有事实确认。
+  pain_en: Public material gives only the one-line positioning of reaching aligned investors, without
+    saying which step founders were stuck on, how long it took, or the cost of failure, so the pain cannot
+    be confirmed from available facts.
+  current_alternative: 旧做法通常是靠人脉引荐、在社交平台逐个私信投资人，或购买投资人数据库后手工筛选；这些替代方式在候选材料中未被提及，属于常识性推断。
+  current_alternative_en: The old approach is typically warm introductions, individually messaging investors
+    on social platforms, or buying an investor database and filtering by hand; these alternatives are
+    not mentioned in the candidate material and are common-knowledge inference.
+  usage_reason: 推断：若它真能按方向自动筛出匹配投资人，可省去手工翻数据库和逐个判断是否对口这一步，因此正在集中融资、缺少人脉的早期创业者可能试用；但缺少定价、客户案例或重复使用证据，无法确认用户是否留下。
+  usage_reason_en: 'Inference: if it truly filters aligned investors automatically, it could remove the
+    manual step of scanning databases and judging fit one by one, so founders raising without networks
+    might try it; but with no pricing, customer cases or repeat-use evidence, retention cannot be confirmed.'

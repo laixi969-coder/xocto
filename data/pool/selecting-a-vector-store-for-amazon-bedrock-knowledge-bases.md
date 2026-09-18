@@ -1,6 +1,6 @@
 ---
 slug: selecting-a-vector-store-for-amazon-bedrock-knowledge-bases
-name: Selecting a vector store for Amazon Bedrock Knowledge Bases
+name: Amazon Bedrock Knowledge Bases
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Choosing the right vector store for your Amazon Bedrock Knowledge Bases
   and Amazon S3 Vectors across three RAG use cases, with benchmarks and a practical selection framework.
 first_seen: '2026-09-17T15:53:13Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Selecting a vector store for Amazon Bedrock Knowledge Bases
+# Amazon Bedrock Knowledge Bases
 
 Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Amazon OpenSearch Service, Amazon Aurora PostgreSQL with pgvector, and Amazon S3 Vectors across three RAG use cases, with benchmarks and a practical selection framework.
 

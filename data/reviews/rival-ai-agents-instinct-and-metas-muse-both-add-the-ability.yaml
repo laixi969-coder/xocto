@@ -1,0 +1,42 @@
+- id: req-initial-rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-2026-09-18
+  project_slug: rival-ai-agents-instinct-and-metas-muse-both-add-the-ability
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决打电话订位、取消订阅这类琐事，痛点真实但强度有限，且公开材料未说明失败与确认环节，价值判断证据不足。
+    evidence_ids:
+    - ev-df0e60a3c5157d83
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇报道提到两家助手同时上线该能力，没有用户采用、评价或重复使用证据。
+    evidence_ids:
+    - ev-df0e60a3c5157d83
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方，通话成本由谁承担、是否按次收费均不清楚，属判断而非已验证事实。
+    evidence_ids:
+    - ev-df0e60a3c5157d83
+  - gate: truth
+    status: insufficient
+    reason: 通话涉及身份说明与授权边界，公开材料未说明助手如何表明身份、如何避免误订或误取消。
+    evidence_ids:
+    - ev-df0e60a3c5157d83
+  next_validation: 收集 Instinct 官方页面或帮助文档，确认通话代办的授权方式、结果确认流程与是否收费。
+  market: ''
+  job: 个人用户在需要订餐厅或取消订阅时，让助手代打电话与对方沟通，完成预订或取消。
+  job_en: An individual who needs to book a restaurant or cancel a subscription has an assistant call
+    the other party and complete the booking or cancellation.
+  pain: 打电话需要等待接通、反复说明需求，取消订阅还常遇到挽留流程，占用个人时间。
+  pain_en: Calling means waiting on hold and repeating the request, and cancelling a subscription often
+    runs into retention scripts, consuming personal time.
+  current_alternative: 用户自己打电话，或使用餐厅的在线订位页面、订阅方的网页或 App 自助取消。
+  current_alternative_en: Users call themselves, or use a restaurant's online booking page and the subscription
+    provider's web or app self-service cancellation.
+  usage_reason: 相较自己打电话，助手直接代拨并完成对话，省去等待接通和重复说明这一步；但公开材料未给出通话成功率、失败处理或用户反馈，因此哪类用户会持续选择它仍属推断。
+  usage_reason_en: Compared with calling oneself, the assistant dials and completes the conversation,
+    removing the wait and repetition step; however no success rate, failure handling or user feedback
+    is public, so which users would keep choosing it is inference.

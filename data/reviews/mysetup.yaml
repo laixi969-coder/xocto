@@ -1,0 +1,42 @@
+- id: req-initial-mysetup-2026-09-18
+  project_slug: mysetup
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决配置分享与参考，但公开材料未说明具体痛点与不采用的后果，价值关证据不足。
+    evidence_ids:
+    - ev-703ddb3cb1afe679
+  - gate: consensus
+    status: insufficient
+    reason: 172 点、88 条评论只反映一次社区关注，不能说明持续采用或留存。
+    evidence_ids:
+    - ev-703ddb3cb1afe679
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，是否面向个人订阅或企业采购均无材料。
+    evidence_ids:
+    - ev-703ddb3cb1afe679
+  - gate: truth
+    status: insufficient
+    reason: 站点说明未交代 AI 的具体动作与交付结果，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-703ddb3cb1afe679
+  next_validation: 收集 mysetup 官网的功能说明与定价页，确认 AI 在配置分享中执行的具体动作及是否收费。
+  market: ''
+  job: 同时使用多个 AI 工具的人想整理自己的配置，并参考他人的配置来调整自己的用法。
+  job_en: People using several AI tools want to organize their own setup and consult others' setups to
+    adjust how they work.
+  pain: 公开材料未说明具体痛点，只能推断配置分散、难以比较；缺少用户抱怨或替代行为的证据。
+  pain_en: Public material states no specific pain; one can only infer that setups are scattered and hard
+    to compare, with no evidence of user complaints or workarounds.
+  current_alternative: 在社交平台、博客或聊天群里零散分享截图与提示词，没有统一的结构化配置展示。
+  current_alternative_en: Scattered screenshots and prompts shared on social platforms, blogs or chat
+    groups, with no structured setup display.
+  usage_reason: 推断：若配置以结构化形式呈现，浏览者可比对他人做法而少走试错弯路；但公开材料未说明 AI 在其中做什么，也无用户反馈支持这一动机。
+  usage_reason_en: 'Inference: if setups are shown in structured form, visitors could compare approaches
+    and avoid trial and error; but public material does not say what the AI does, and no user feedback
+    supports this motive.'

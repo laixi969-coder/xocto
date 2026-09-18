@@ -1,0 +1,43 @@
+- id: req-initial-opendocbot-2026-09-18
+  project_slug: opendocbot
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想省去内容外带这一步，但公开材料未说明具体处理动作与交付结果，需求强度无法判断。
+    evidence_ids:
+    - ev-0e5b79107c92fa93
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分 1 条评论，没有用户采用或评价证据。
+    evidence_ids:
+    - ev-0e5b79107c92fa93
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，自带模型意味着用户自付推理成本，付费路径不明。
+    evidence_ids:
+    - ev-0e5b79107c92fa93
+  - gate: truth
+    status: insufficient
+    reason: 文档内处理涉及数据流向与权限边界，材料未说明模型调用位置与人工确认环节。
+    evidence_ids:
+    - ev-0e5b79107c92fa93
+  next_validation: 收集 OpenDocBot 官方定价页或产品文档，确认支持的操作范围、模型接入方式与数据处理位置。
+  market: ''
+  job: 日常处理 Word、Excel、PowerPoint 的办公人员在需要改写、整理或生成文档内容时，希望不离开当前文件完成处理。
+  job_en: Office workers handling Word, Excel and PowerPoint want to rewrite, organize or generate document
+    content without leaving the current file.
+  pain: 把文档内容复制到外部聊天工具再贴回，既打断操作，也可能把敏感内容带出本地环境。
+  pain_en: Copying document content into an external chat tool and pasting it back interrupts the work
+    and may move sensitive content outside the local environment.
+  current_alternative: 目前多使用外部通用聊天工具或办公套件自带的 AI 功能，复制粘贴完成处理。
+  current_alternative_en: Today people mostly use external general chat tools or built-in AI features
+    in office suites, copying and pasting to get work done.
+  usage_reason: 相较复制到外部工具，OpenDocBot 让用户自带模型并在文档界面内处理，减少的是内容外带这一步；推断对数据外流敏感的律所、财税或医疗行政人员会因此选择它，但公开材料未说明具体功能、交付形态与是否有人持续使用。
+  usage_reason_en: Compared with copying into an external tool, OpenDocBot lets users bring their own
+    model and process inside the document interface, removing the step of moving content out; by inference,
+    law firms, accounting or medical administration staff sensitive to data leakage would choose it, but
+    public material does not describe specific features, deliverable form or sustained use.

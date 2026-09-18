@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wcVR5ZFdSbDJm
 summary: 从制造到部署－因应AI逆向工程的物联网固件防护 电子工程专辑
 first_seen: '2026-09-17T09:00:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

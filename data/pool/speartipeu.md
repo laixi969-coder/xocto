@@ -21,7 +21,7 @@ canonical_url: https://speartip.eu/en/launch
 summary: A software launch directory for EU-founders
 first_seen: '2026-09-17T10:01:10Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

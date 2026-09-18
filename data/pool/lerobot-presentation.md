@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/imstevenpmwork/lerobot-presentation
 summary: ''
 first_seen: '2026-09-17T10:14:38Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

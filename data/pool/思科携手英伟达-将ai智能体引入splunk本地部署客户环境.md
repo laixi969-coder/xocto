@@ -1,11 +1,15 @@
 ---
 slug: 思科携手英伟达-将ai智能体引入splunk本地部署客户环境
-name: 思科携手英伟达 将AI智能体引入Splunk本地部署客户环境
+name: 思科与英伟达合作将AI智能体引入Splunk本地部署环境
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是思科与英伟达在既有产品上的合作：把AI智能体接入Splunk的本地部署客户环境，面向因合规或数据本地化要求而无法上云的企业运维与安全团队。它本身不是独立产品，具体可用的智能体能力、交付形态与计价方式在公开材料中尚未给出，属于平台侧的能力集成变化。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a partnership between Cisco and Nvidia on their existing products: bringing AI agents
+  into on-premises Splunk customer environments, aimed at enterprise operations and security teams that
+  cannot move to the cloud because of compliance or data-localization requirements. It is not a standalone
+  product, and the specific agent capabilities, delivery form and pricing are not given in the public
+  material; it is a platform-side capability integration.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi8wJBVV95cUxOYTBtTVNPQnJU
 summary: 思科携手英伟达 将AI智能体引入Splunk本地部署客户环境 新浪财经
 first_seen: '2026-09-17T06:59:14Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# 思科携手英伟达 将AI智能体引入Splunk本地部署客户环境
+# 思科与英伟达合作将AI智能体引入Splunk本地部署环境
 
 思科携手英伟达 将AI智能体引入Splunk本地部署客户环境 新浪财经
 

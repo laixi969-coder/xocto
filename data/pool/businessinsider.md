@@ -21,7 +21,7 @@ canonical_url: https://businessinsider.com/coffee-shop-owner-ai-menu-backlash-20
 summary: A coffee shop owner used AI to make a menu poster. Then came the angry DMs
 first_seen: '2026-09-16T18:59:42Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

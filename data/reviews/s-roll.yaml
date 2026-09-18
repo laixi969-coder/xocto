@@ -1,0 +1,42 @@
+- id: req-initial-s-roll-2026-09-18
+  project_slug: s-roll
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句“把长视频变成片段”，价值关无法成立。
+    evidence_ids:
+    - ev-fb87fb5f531f86ee
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无公开关注或采用数据可判断卡在哪一环。
+    evidence_ids:
+    - ev-fb87fb5f531f86ee
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开材料可判断。
+    evidence_ids:
+    - ev-fb87fb5f531f86ee
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对片段挑选标准与交付确定性。
+    evidence_ids:
+    - ev-fb87fb5f531f86ee
+  next_validation: 收集该产品的官方定价页或客户案例，确认按什么计价、输出是成片还是候选清单。
+  market: ''
+  job: 公开材料未说明具体是谁、在什么情况下、处理什么素材、要完成什么任务，只给出“长视频变片段”一句。
+  job_en: The public material does not state who, under what circumstances, handling what material, to
+    complete what task; it only says long videos become clips.
+  pain: 候选资料未提供任何用户痛点或旧流程受阻的描述，无法判断切条环节哪里难受。
+  pain_en: The candidate material provides no user pain point or blocked legacy process, so where the
+    clipping step hurts cannot be judged.
+  current_alternative: 未提供现有替代方式的信息，无法说明此前由谁、用什么工具完成切条。
+  current_alternative_en: No information is provided about current alternatives, so who previously did
+    the clipping and with what tools cannot be described.
+  usage_reason: 缺少可核对的功能细节、定价与采用证据，无法解释相较人工剪辑减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: Verifiable feature detail, pricing and adoption evidence are missing, so it cannot
+    be explained which step of burden is reduced versus manual editing, or which users would choose it
+    under what circumstances.

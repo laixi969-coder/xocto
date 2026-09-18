@@ -1,0 +1,43 @@
+- id: req-initial-fable-cities-2026-09-18
+  project_slug: fable-cities
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是原型阶段从零写 3D 城市建造代码的负担，痛点结构成立，但公开材料只有一句描述，无法确认交付是否可运行。
+    evidence_ids:
+    - ev-ec3b02a23bcc6ec4
+  - gate: consensus
+    status: insufficient
+    reason: 72 星、12 次 fork 属于早期关注度，不能说明开发者已把它放进工作流。
+    evidence_ids:
+    - ev-ec3b02a23bcc6ec4
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、赞助或商业交付路径，钱从哪来无法判断。
+    evidence_ids:
+    - ev-ec3b02a23bcc6ec4
+  - gate: truth
+    status: insufficient
+    reason: 作者称代码完成才发布，尚无成品可核验，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-ec3b02a23bcc6ec4
+  next_validation: 仓库的 release 或可运行 demo 页面，用于确认是否已交付可玩的城市建造版本。
+  market: ''
+  job: 独立游戏开发者在立项早期，需要把城市建造类玩法做成可运行原型，用来判断玩法是否值得继续投入。
+  job_en: An indie game developer in early pre-production needs a runnable prototype of city-builder gameplay
+    to judge whether the concept deserves further investment.
+  pain: 从零搭建 3D 城市建造原型需要引擎、渲染与系统代码，单人开发者往往在验证玩法前就耗尽时间。
+  pain_en: Building a 3D city-builder prototype from scratch requires engine, rendering and systems code,
+    and solo developers often run out of time before gameplay is validated.
+  current_alternative: 用现成引擎模板、素材商店资源或外包小规模代码，手工拼出可玩原型。
+  current_alternative_en: Hand-assembling a playable prototype from engine templates, asset-store packs
+    or small outsourced coding work.
+  usage_reason: 推断：若 AI 智能体真能产出可运行的城市建造工程，开发者可省去从零写渲染与模拟系统这一步，把时间放在玩法调优上；但目前只有仓库描述，没有可玩版本或用户反馈，无法确认这一环节是否真的被省掉。
+  usage_reason_en: 'Inference: if AI agents really produce a runnable city-builder project, developers
+    could skip writing rendering and simulation systems from scratch and spend time on gameplay tuning;
+    however only a repository description exists, with no playable build or user feedback, so this saving
+    cannot be confirmed.'

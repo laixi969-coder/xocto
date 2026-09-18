@@ -1,0 +1,45 @@
+- id: req-initial-ai-security-tool-2026-09-18
+  project_slug: ai-security-tool
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决安全巡检与漏洞梳理，但材料未说明旧流程痛点与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-59aa26679f7a19a5
+  - gate: consensus
+    status: insufficient
+    reason: 仅 64 星、8 分支、无 issue 讨论，没有可归因到该产品的采用或口碑证据。
+    evidence_ids:
+    - ev-59aa26679f7a19a5
+  - gate: model
+    status: insufficient
+    reason: 开源免费，买方与付费路径均未披露，是否有人为结果付费无从判断。
+    evidence_ids:
+    - ev-59aa26679f7a19a5
+  - gate: truth
+    status: insufficient
+    reason: 安全场景对误报与自动处置边界要求高，材料未说明人工确认环节与安全边界。
+    evidence_ids:
+    - ev-59aa26679f7a19a5
+  next_validation: 收集该仓库的 issue、discussion 或 README 中的部署与使用说明，确认是否有人把它接入真实安全巡检流程。
+  market: ''
+  job: 安全工程师或 DevSecOps 工程师在例行巡检或应急排查时，面对一批服务器与网络设备，需要完成漏洞扫描、CVE 比对和 SBOM 梳理，输出可处置的清单。
+  job_en: A security or DevSecOps engineer on a routine sweep or incident triage faces a set of servers
+    and network devices and must complete vulnerability scanning, CVE matching and SBOM inventory, producing
+    an actionable list.
+  pain: 候选材料只列出连接协议与代理数量，没有说明旧流程哪里慢、哪里出错，也没有用户抱怨或替代行为的记录，痛点无法从现有事实还原。
+  pain_en: The candidate only lists connection protocols and agent counts; it does not say where the old
+    process is slow or error-prone, and records no user complaints or workarounds, so the pain cannot
+    be reconstructed from available facts.
+  current_alternative: 推断：安全团队通常用 Nessus、OpenVAS 等扫描器加人工整理，或直接手工敲命令核对 CVE。
+  current_alternative_en: 'Inference: security teams typically use Nessus or OpenVAS scanners plus manual
+    collation, or hand-type commands to check CVEs.'
+  usage_reason: 推断：若模型代理能直接接管终端会话并自动串起扫描与清单生成，可省去在多个扫描器与终端之间来回切换、手工汇总的一步；但材料未给出任何采用或留存证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the agents can take over terminal sessions and chain scanning to inventory
+    generation, that removes the step of switching between scanners and terminals and collating by hand;
+    but no adoption or retention evidence is given, so it is unconfirmed that users would choose it for
+    this.'

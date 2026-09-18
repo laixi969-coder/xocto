@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPY1FZZVRDTWZG
 summary: 美联储加息改写AI行业融资格局 新浪财经
 first_seen: '2026-09-17T10:06:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

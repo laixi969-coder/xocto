@@ -23,7 +23,7 @@ summary: Portfolio DAM software and ICScolor Launch Complete Solutions for Manag
   Color Proofing EIN News
 first_seen: '2026-09-17T20:20:07Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

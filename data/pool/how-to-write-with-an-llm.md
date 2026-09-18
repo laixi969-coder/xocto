@@ -30,7 +30,7 @@ summary: "How To Write With An LLM   \nThomas Ptacek on using LLMs as copyeditor
   \ ,  writing ,  ai ,  generative-ai ,  llms"
 first_seen: '2026-09-17T23:37:27Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

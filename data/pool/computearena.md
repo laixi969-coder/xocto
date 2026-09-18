@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/compute-arena-local-ai-benchmark
 summary: Community submitted benchmarks for Local AI
 first_seen: '2026-09-17T05:42:27Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -1,0 +1,45 @@
+- id: req-initial-onco-2026-09-18
+  project_slug: onco
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决肿瘤领域信息分散、人工跨库汇总耗时的问题，痛点刚性且交付物（带引用条目页与结构化数据）明确，属工作流推理。
+    evidence_ids:
+    - ev-3011c7f14b2867f1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 139 星与 25 次 fork，属关注度信号，未见临床或药企用户的采用与评价。
+    evidence_ids:
+    - ev-3011c7f14b2867f1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是医院、药企或研究机构，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3011c7f14b2867f1
+  - gate: truth
+    status: insufficient
+    reason: 引用来源与更新机制未在材料中说明，医学场景对准确性和时效要求高，人工复核边界不清。
+    evidence_ids:
+    - ev-3011c7f14b2867f1
+  next_validation: 收集 OnCo 官方页面或仓库中关于数据来源、更新频率与引用机制的说明文档。
+  market: ''
+  job: 肿瘤科医生、临床研究者或药企医学事务人员在查某个癌种、靶点或试验进展时，需要把文献、试验注册库和机构信息汇总成可引用的结论。
+  job_en: Oncologists, clinical researchers or pharma medical affairs staff checking a cancer type, target
+    or trial need to consolidate literature, trial registries and institutional information into a citable
+    conclusion.
+  pain: 这些材料分散在多个数据库和机构页面，格式不统一，人工汇总耗时且容易漏掉最新试验或靶点信息。
+  pain_en: This material is scattered across databases and institutional pages in inconsistent formats,
+    so manual consolidation is slow and easily misses the latest trial or target information.
+  current_alternative: 目前多靠 PubMed、临床试验注册库和机构官网逐条检索，再手工整理成笔记或表格。
+  current_alternative_en: Today people search PubMed, clinical trial registries and institutional sites
+    item by item, then manually compile notes or tables.
+  usage_reason: 相较逐库检索再手工整理，OnCo 把同一实体相关的癌症、疗法、靶点、试验和机构聚合成一页并附引用，还提供 API 与 MCP server 让工具直接取数，减少的是跨库拼接这一步；推断需要快速建立领域全貌的研究者或医学事务人员会优先选它，但尚无公开的持续使用或付费证据。
+  usage_reason_en: Compared with searching each database and compiling by hand, OnCo aggregates cancers,
+    treatments, targets, trials and institutions for one entity onto a single cited page and exposes an
+    API and MCP server for direct tool access, removing the cross-database stitching step; by inference,
+    researchers or medical affairs staff who need a fast domain overview would pick it, though no public
+    evidence of sustained use or payment exists.

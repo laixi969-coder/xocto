@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/ukisai/Swift-Qwen3.8-27b
 summary: -58.3% thinking, x1.95 speed, accuracy of xhigh
 first_seen: '2026-09-16T14:24:05Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

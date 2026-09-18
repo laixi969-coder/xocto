@@ -1,6 +1,6 @@
 ---
 slug: eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re
-name: EU Scaleup Fund in talks to back ElevenLabs in $500m round, reports say
+name: ElevenLabs
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/elevenlabs-funding-round-scaleup-europ
 summary: ''
 first_seen: '2026-09-17T16:20:47Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# EU Scaleup Fund in talks to back ElevenLabs in $500m round, reports say
+# ElevenLabs
 
 _（源没给简介）_
 

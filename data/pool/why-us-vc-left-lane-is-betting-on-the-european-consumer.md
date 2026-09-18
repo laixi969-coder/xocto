@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/us-vc-left-lane-european-consumer-star
 summary: ''
 first_seen: '2026-09-17T05:00:18Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

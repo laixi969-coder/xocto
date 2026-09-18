@@ -22,7 +22,7 @@ summary: Hanwha Vision puts its AI vision solutions to the ultimate test in ‘N
   Asia
 first_seen: '2026-09-17T02:13:19Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

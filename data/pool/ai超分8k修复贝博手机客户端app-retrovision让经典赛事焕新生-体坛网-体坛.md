@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZNEZsRncwblpm
 summary: AI超分+8K修复贝博手机客户端app RetroVision让经典赛事焕新生- 体坛网_体坛+ 体坛
 first_seen: '2026-09-17T06:14:55Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: snap-tries-to-make-the-case-again-for-its-2200-smart-glasses
-name: Snap tries to make the case again for its $2,200 smart glasses
+name: Snap Specs
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Since Specs' debut earlier this year, Snap has clearly been looking for
   why the smart glasses deserve to exist.
 first_seen: '2026-09-17T00:58:49Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Snap tries to make the case again for its $2,200 smart glasses
+# Snap Specs
 
 Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.
 

@@ -3,17 +3,15 @@ slug: manus
 name: Manus
 builder: droidjj
 category: 通用助手
-summary_zh: 面向需要跨网页完成多步骤任务的个人与小团队：用户给出目标后，由智能体代为浏览、点击与整理材料，最终交付一份可复核的结果或文件，人工仍需确认关键结论。具体流程与交付形态在公开材料中未完整披露，仍待核验。
-inspiration: 趋势：通用智能体已从演示走向有真实访问规模的独立产品，但环比下滑说明热度不等于留存。切入：不要做又一个通用智能体入口，而是选一个旧流程里交付物明确、结果可核对的垂直环节（如尽调材料整理、合规文件比对），按产出而非席位收费，把人工复核点写进交付标准。
-summary_en: 'For individuals and small teams that need multi-step tasks completed across websites: the
-  user states a goal, the agent browses, clicks and compiles material, and returns a reviewable result
-  or file, with humans still confirming key conclusions. The exact workflow and deliverable form are not
-  fully disclosed in public material and remain to be verified.'
-inspiration_en: 'Trend: general agents have moved from demos to standalone products with real traffic
-  scale, but the month-over-month decline shows attention is not retention. Entry point: rather than another
-  general agent entry, pick a vertical step with a clear, checkable deliverable in an old workflow (due-diligence
-  compilation, compliance document comparison), charge per output rather than per seat, and write the
-  human review point into the delivery standard.'
+summary_zh: 个人或小团队在处理跨网页的多步骤任务时，把资料搜集、网页操作和结果整理交给 Manus 执行，用户拿到整理后的产出并自行复核。公开材料只说明它是执行任务的智能体，具体流程与交付形态仍待核验。
+inspiration: 通用智能体已被大厂收编，正面做通用入口的窗口基本关闭；机会在把这类执行能力绑到具体行业的旧流程上，例如法律合规的资料检索与归档，按产出而非席位收费，用行业数据与复核责任建立非模型壁垒。
+summary_en: Solo users and small teams hand cross-web, multi-step tasks to Manus, which gathers material,
+  operates web pages and collates results; the user reviews the output. Public material only describes
+  it as a task-executing agent, so the exact workflow and deliverable still need verification.
+inspiration_en: The generic agent entry point has been absorbed by a large platform, so competing head-on
+  there is largely closed. The opening is binding such execution to a specific industry's old workflow,
+  for example legal and compliance research and filing, charging per deliverable rather than per seat,
+  and building non-model moats through industry data and review accountability.
 priority_review: false
 project_type: new_application
 industries:
@@ -23,10 +21,11 @@ industries_en:
 - Legal and compliance
 - Professional services
 jobs:
-- 个人或小团队用户在处理跨网页多步骤任务时，把资料搜集、网页操作与结果整理交给通用智能体执行，再自行复核产出
+- 个人或小团队运营者
+- 跨网页资料搜集与整理
 jobs_en:
-- Individual or small-team users hand multi-step web tasks such as research, browsing and result compilation
-  to a general agent, then review the output themselves
+- Solo or small-team operators
+- Cross-web research and collation
 regions:
 - 全球
 regions_en:
@@ -37,7 +36,7 @@ canonical_url: https://aicpb.com/product/Manus/webid1D6F371D9
 summary: Find the best Manus Playbook and setups built by Manus community members.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

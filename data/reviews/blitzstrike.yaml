@@ -1,0 +1,44 @@
+- id: req-initial-blitzstrike-2026-09-18
+  project_slug: blitzstrike
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决渗透测试中侦察、分析与验证步骤分散、依赖个人经验的问题，痛点具体且旧流程明确；但实际交付形态仍待核验。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: consensus
+    status: insufficient
+    reason: 634 个星标只说明开源关注度，没有用户评价或团队采用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式，买方可能是安全服务商或企业安全团队，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: truth
+    status: insufficient
+    reason: 渗透测试涉及授权边界与误报风险，仓库未公开验证准确率、误报处理或人工复核机制，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  next_validation: 收集该仓库的 issue 与 discussion，确认实际使用者在授权测试中的验证准确率、误报处理方式与人工复核流程。
+  market: ''
+  job: 渗透测试工程师在授权测试中，面对目标系统的代码与运行环境，需要完成侦察、攻击面测绘、source-to-sink 分析和漏洞实弹验证，并留下可复核的过程。
+  job_en: Penetration testers, in authorized engagements, face a target's code and runtime environment
+    and must complete reconnaissance, attack-surface mapping, source-to-sink analysis and live vulnerability
+    validation while leaving a reviewable trail.
+  pain: 渗透测试工具链分散、方法论靠个人经验，重复的侦察与验证步骤占用大量时间，且过程难以标准化复现。
+  pain_en: Pentest toolchains are fragmented and methodology lives in individual experience; repetitive
+    reconnaissance and validation consume much time and the process is hard to reproduce consistently.
+  current_alternative: 工程师手工组合 Burp、nmap、自写脚本与检查清单，逐项执行并人工整理结果。
+  current_alternative_en: Engineers manually combine Burp, nmap, custom scripts and checklists, executing
+    step by step and compiling results by hand.
+  usage_reason: 推断：相较手工拼装工具与个人检查清单，它把侦察、分析与验证串成可被智能体调用的结构化流程，减少重复的脚本编排与结果搬运，因此承接授权测试的安全团队会在重复性任务上先试用；但公开材料只有仓库描述与星标，缺少实际使用与留存证据。
+  usage_reason_en: 'Inference: compared with hand-assembled tools and personal checklists, it chains reconnaissance,
+    analysis and validation into a structured flow agents can call, cutting repetitive scripting and result
+    handling, so security teams on authorized engagements would try it for repetitive tasks; however,
+    only a repository description and stars are public, with no usage or retention evidence.'

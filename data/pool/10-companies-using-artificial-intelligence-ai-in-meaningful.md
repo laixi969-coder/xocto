@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNUU43U3M3NWla
 summary: 10 Companies Using Artificial Intelligence (AI) in Meaningful Ways The Motley Fool
 first_seen: '2026-09-17T04:29:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

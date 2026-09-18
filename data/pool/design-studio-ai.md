@@ -3,29 +3,26 @@ slug: design-studio-ai
 name: design-studio-ai
 builder: bestagentkits
 category: AI + 创作
-summary_zh: 设计师或前端工程师在需要产出可编辑的视觉稿、三维或动效素材时，打开这个云端工作区，由 AI 智能体或人直接在其中编辑同一份设计文件，并通过命令行或 MCP 类接口把生成动作接进流程；最终交付的是可继续修改的设计产物，人工仍需确认取舍。具体流程与交付形态仍待核验。
-inspiration: 趋势是设计文件的编辑权开始同时向人和智能体开放，接口层（MCP、CLI）成为新的协作面。切入可考虑为品牌设计工作室或电商视觉团队做“智能体产出＋人工定稿”的交付流程，卖的是按项目定稿的成品，而不是编辑器席位；公开材料未披露任何定价。
-summary_en: When a designer or front-end engineer needs editable visual, 3D or motion assets, they open
-  this cloud workspace where an AI agent or a human edits the same design file, and generation is wired
-  into the pipeline through CLI or MCP-style interfaces; the deliverable is a design artifact that can
-  still be revised, with human sign-off required. The exact workflow and deliverable form still need verification.
-inspiration_en: The trend is that editing rights over design files are opening to humans and agents at
-  once, with interface layers such as MCP and CLI becoming the new collaboration surface. A wedge could
-  be running an agent-produces, human-finalizes delivery process for brand studios or e-commerce visual
-  teams, selling finished per-project output rather than editor seats; no pricing is disclosed in the
-  public material.
+summary_zh: 设计师或前端工程师在需要产出可交付的界面、3D 或动效素材时，打开这个云端工作区，由 AI 代理或人直接编辑画布，最终拿到可导出的设计文件；具体输入格式与交付物仍待核验。
+inspiration: 趋势：AI 代理开始被当作设计工作区里的协作者而非单点生成按钮。切入：可从需要多人+多代理协作产出 3D 与动效素材的小型设计工作室切入，按项目交付收费，但价格未披露。
+summary_en: When designers or front-end engineers need deliverable UI, 3D or motion assets, they open
+  this cloud workspace where AI agents or humans edit the canvas directly and export design files; input
+  formats and deliverables still need verification.
+inspiration_en: 'Trend: AI agents are being treated as collaborators inside a design workspace rather
+  than one-off generation buttons. Entry: start with small design studios that need humans and multiple
+  agents co-producing 3D and motion assets, charging per project, though pricing is undisclosed.'
 priority_review: false
 project_type: open_source
 industries:
-- 设计服务
 - 软件与互联网
+- 设计服务
 industries_en:
-- Design services
-- Software and internet
+- Software & Internet
+- Design Services
 jobs:
 - 设计师与前端工程师
 jobs_en:
-- Designers and front-end engineers
+- Designers and Front-end Engineers
 regions: []
 regions_en: []
 open_source: true
@@ -35,7 +32,7 @@ summary: Open-source design workspace for AI agents and humans. Cloud editing, 3
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

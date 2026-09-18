@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/webml-community/ternary-bonsai-2-we
 summary: Run Ternary-Bonsai-2-27B locally in your browser on WebGPU
 first_seen: '2026-09-17T14:46:17Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

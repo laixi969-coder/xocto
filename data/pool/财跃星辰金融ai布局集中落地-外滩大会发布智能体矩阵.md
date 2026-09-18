@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nVE5FNnZwYnV2
 summary: 财跃星辰金融AI布局集中落地 外滩大会发布智能体矩阵 财联社
 first_seen: '2026-09-10T01:23:24Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

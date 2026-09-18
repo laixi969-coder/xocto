@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/491596.html
 summary: 工程师的核心永远是Problem Solving。
 first_seen: '2026-09-17T11:56:13Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

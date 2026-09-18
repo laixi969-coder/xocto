@@ -1,0 +1,41 @@
+- id: req-initial-skillsync-yc-w26-2026-09-18
+  project_slug: skillsync-yc-w26
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决跨 Agent 切换时的上下文断裂痛点，工作流逻辑成立。
+    evidence_ids:
+    - ev-e28ee36197a74a6e
+  - gate: consensus
+    status: insufficient
+    reason: 社区有初步讨论，但缺少真实采用规模与留存证据。
+    evidence_ids:
+    - ev-e28ee36197a74a6e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露商业化方案与买方付费路径。
+    evidence_ids:
+    - ev-e28ee36197a74a6e
+  - gate: truth
+    status: supported
+    reason: 会话导出与上下文结构化转换具备确定性工程实现路径。
+    evidence_ids:
+    - ev-e28ee36197a74a6e
+  next_validation: 官方发布支持的具体 Agent 框架列表及实际使用文档。
+  market: ''
+  job: 开发者与重度 AI 用户在跨平台使用不同 Agent 处理复杂任务时，需要无缝迁移对话历史与工作上下文。
+  job_en: Developers and heavy AI users migrating conversation history and context when switching across
+    different AI agents during complex workflows.
+  pain: 不同智能体平台数据互不通，更换工具需重新交代背景、指令和约束，造成重复沟通与状态丢失。
+  pain_en: Siloed agent platforms force users to repeatedly re-explain context and constraints, causing
+    lost progress and manual friction.
+  current_alternative: 手动复制粘贴过往对话摘要或重新编写系统提示词与输入上下文。
+  current_alternative_en: Manually copying conversation summaries or re-prompting context into new agent
+    tools.
+  usage_reason: 推断该产品通过统一会话格式与导出动作，省去手动整理历史记录的步骤，适合常在多款 Agent 间切流的重度用户。
+  usage_reason_en: Inferred that the product minimizes manual prompt reconstruction by standardizing session
+    portability across different agent environments.

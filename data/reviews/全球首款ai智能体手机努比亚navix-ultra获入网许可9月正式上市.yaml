@@ -86,3 +86,47 @@
     appeals to users who frequently handle travel and local-services cross-app tasks. However, public
     materials do not state the range of tasks it can complete automatically or its success rate, and evidence
     of sustained use is missing.'
+- id: req-initial-全球首款ai智能体手机努比亚navix-ultra获入网许可9月正式上市-2026-09-18
+  project_slug: 全球首款ai智能体手机努比亚navix-ultra获入网许可9月正式上市
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决跨应用手动操作这一具体负担，痛点方向清楚，但材料未说明智能体实际能执行哪些动作、如何确认交付，价值链条不完整。
+    evidence_ids:
+    - ev-f4faa8f37b6ac225
+  - gate: consensus
+    status: insufficient
+    reason: 仅有上市与定价报道，没有用户评价、采用或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-f4faa8f37b6ac225
+  - gate: model
+    status: insufficient
+    reason: 材料未披露智能体能力由谁提供、是否收费、按什么计价，买方与付费路径均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f4faa8f37b6ac225
+  - gate: truth
+    status: insufficient
+    reason: 跨应用代办涉及账号授权、支付确认与失败兜底，材料未给出安全边界与人工确认机制，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-f4faa8f37b6ac225
+  next_validation: 收集努比亚官方产品页或系统说明文档，核对智能体可执行的跨应用动作清单、授权与支付确认机制及交付失败的处理方式。
+  market: ''
+  job: 普通消费者在手机上要完成订票、点餐、查信息等跨应用任务时，需要打开并操作多个 App 才能拿到结果。
+  job_en: Ordinary consumers completing cross-app tasks such as booking tickets, ordering food or looking
+    up information must open and operate multiple apps to get a result.
+  pain: 跨应用操作步骤多、跳转频繁，用户要自己记住流程并在各 App 间重复输入信息。
+  pain_en: Cross-app tasks involve many steps and frequent switching; users must remember the flow and
+    re-enter information across apps.
+  current_alternative: 用户手动在多个 App 间切换、逐个操作，或使用通用聊天助手查询信息后自己完成下单。
+  current_alternative_en: Users manually switch between apps and operate each one, or ask a general chat
+    assistant for information and then place the order themselves.
+  usage_reason: 推断：若智能体能在系统层直接调用各 App 完成订票、点餐等动作，用户可省去逐个 App 操作与重复输入这一步，因此会在高频跨应用任务中尝试它；但候选材料未给出任何实际执行、授权或交付确认的细节，也缺少用户使用与留存证据，无法确认这一环节是否真的被替代。
+  usage_reason_en: 'Inference: if the agent can call apps at the system level to complete ticketing or
+    food ordering, users could skip operating each app and re-entering information, so they would try
+    it for high-frequency cross-app tasks; however, the candidate material gives no detail on actual execution,
+    authorization or delivery confirmation, and lacks usage or retention evidence, so whether this step
+    is truly replaced cannot be confirmed.'

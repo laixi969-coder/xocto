@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTE5fenV3ODM0WHQ0
 summary: 优学派AI学习机用户使用时长稳居行业第一，aiyouxi体育首页最新版成为孩子学习好伙伴 体坛
 first_seen: '2026-09-17T07:08:54Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

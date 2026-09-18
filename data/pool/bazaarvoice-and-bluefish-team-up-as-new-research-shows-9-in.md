@@ -1,21 +1,34 @@
 ---
 slug: bazaarvoice-and-bluefish-team-up-as-new-research-shows-9-in
-name: Bazaarvoice and Bluefish team up as new research shows 9 in 10 shoppers want real reviews behind
-  AI product recommendations
+name: Bazaarvoice
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 电商运营在准备商品页与推荐位素材时，需要把真实用户评论接入 AI 生成的商品推荐内容；Bazaarvoice 与 Bluefish 的合作指向由平台侧提供评论数据、由 AI 侧生成推荐文案的组合，但本次材料未说明具体输入、动作与交付形式，具体流程或交付仍待核验。
+inspiration: 趋势是 AI 商品推荐开始被要求可追溯到真实评论，评论资产从展示位变成推荐系统的输入；切入可考虑为中小独立站卖家做评论采集与推荐文案合规校验，但需先确认平台是否已把该能力内置。
+summary_en: E-commerce operators preparing product pages and recommendation slots need real user reviews
+  wired into AI-generated product recommendation content; the Bazaarvoice and Bluefish tie-up points to
+  a combination of platform-side review data and AI-side copy generation, but the material does not describe
+  the concrete input, action or deliverable, so the workflow and output still need verification.
+inspiration_en: The trend is that AI product recommendations are being asked to trace back to real reviews,
+  turning review assets from display content into recommendation input; an opening could be review collection
+  and recommendation-copy compliance checks for small independent sellers, but it must first be confirmed
+  whether platforms already build this in.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 零售
+- 电子商务
+industries_en:
+- Retail
+- E-commerce
+jobs:
+- 电商运营与商品内容管理
+jobs_en:
+- E-commerce operations and product content management
+regions:
+- 北美
+regions_en:
+- North America
 open_source: false
 url: https://news.google.com/rss/articles/CBMiowJBVV95cUxOV0t0T3lQa1dUYmo2Qmh5UkZPM2FudjVLZ0IwdTNJQ2JhUEgwUFQ1dHNMM3U3UFUzNWM4WXNyczJOWXZwaWxMcHNZM0xCblBsa2NhVk9IanVERjh0dlVxak1IQWVxRThfN1huU0NqMy1vdGo0eFZiSWJMWmpsR2ZrODNIX29HNWhtRkhwTzdzbE50YlpKaHAxVmpyR1VXUjBJbWU3TEVmUGx2MGN3Tl8zbUkwb0hfeGFIREdZNkhTUUhHZW41MVBTZi1JZHNKbC05aktlTjN6X2g0eVQxc2NVV2t3Z1pabHVPTmxvNmFRUFVySlA4US1GUk1pSXZJSFBZS0ZxYk9vdV9VTGpPcDdLZWo4ZzVtTG8yaV9PMWQ1cm5nTVXSAagCQVVfeXFMT3A4VWVmblNHSU9naURoblFhY1pYVXYyMDRKdUJ4SjViZWk2UHBNNTR6ODdkSXFqNG1NVGVLYUl6czJueGhHZ0ZmazdHRWhSR1BGM3FtbUtuaUlmTDcydGg5SzliQTNTcFlKWmpVSG9PY2oydnhCYXZNSV9FUjA3ZzNDUzByQUV2ZkQ0eTF2Y2VwVzhSRUxTbktlTTVKYkQ5OUhCSGxzS25HeUg4My1kWmtvazJxYnlST1ZWN0RXOG5FQlVidHg5N2VTQktiUE00OG5TTlRCczFRUjdjbFVYX0dyeVp5OUt2dXMzVmJLYksweDFFN0VFQUZqR0pGUnJSek1PTGRwTkN3MjR6N0ZXYmFRUTZfLUZHeTNSdnlVLTktVGdRaldicEw?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMiowJBVV95cUxOV0t0T3lQa1dUYmo2Qmh5UkZPM2FudjVLZ0IwdTNJQ2JhUEgwUFQ1dHNMM3U3UFUzNWM4WXNyczJOWXZwaWxMcHNZM0xCblBsa2NhVk9IanVERjh0dlVxak1IQWVxRThfN1huU0NqMy1vdGo0eFZiSWJMWmpsR2ZrODNIX29HNWhtRkhwTzdzbE50YlpKaHAxVmpyR1VXUjBJbWU3TEVmUGx2MGN3Tl8zbUkwb0hfeGFIREdZNkhTUUhHZW41MVBTZi1JZHNKbC05aktlTjN6X2g0eVQxc2NVV2t3Z1pabHVPTmxvNmFRUFVySlA4US1GUk1pSXZJSFBZS0ZxYk9vdV9VTGpPcDdLZWo4ZzVtTG8yaV9PMWQ1cm5nTVXSAagCQVVfeXFMT3A4VWVmblNHSU9naURoblFhY1pYVXYyMDRKdUJ4SjViZWk2UHBNNTR6ODdkSXFqNG1NVGVLYUl6czJueGhHZ0ZmazdHRWhSR1BGM3FtbUtuaUlmTDcydGg5SzliQTNTcFlKWmpVSG9PY2oydnhCYXZNSV9FUjA3ZzNDUzByQUV2ZkQ0eTF2Y2VwVzhSRUxTbktlTTVKYkQ5OUhCSGxzS25HeUg4My1kWmtvazJxYnlST1ZWN0RXOG5FQlVidHg5N2VTQktiUE00OG5TTlRCczFRUjdjbFVYX0dyeVp5OUt2dXMzVmJLYksweDFFN0VFQUZqR0pGUnJSek1PTGRwTkN3MjR6N0ZXYmFRUTZfLUZHeTNSdnlVLTktVGdRaldicEw?oc=5
@@ -23,7 +36,7 @@ summary: Bazaarvoice and Bluefish team up as new research shows 9 in 10 shoppers
   AI product recommendations The Manila Times
 first_seen: '2026-09-17T13:09:44Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:
@@ -34,7 +47,7 @@ sightings:
   kind: news
 ---
 
-# Bazaarvoice and Bluefish team up as new research shows 9 in 10 shoppers want real reviews behind AI product recommendations
+# Bazaarvoice
 
 Bazaarvoice and Bluefish team up as new research shows 9 in 10 shoppers want real reviews behind AI product recommendations The Manila Times
 

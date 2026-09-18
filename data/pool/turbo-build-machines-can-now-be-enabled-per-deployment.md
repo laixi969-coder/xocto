@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/turbo-build-machines-can-now-be-enab
 summary: ''
 first_seen: '2026-09-17T20:00:00Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

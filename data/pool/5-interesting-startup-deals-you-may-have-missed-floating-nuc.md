@@ -24,7 +24,7 @@ summary: From putting nuclear reactors on barges to grading how well AI models c
   software stack.
 first_seen: '2026-09-17T11:00:13Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

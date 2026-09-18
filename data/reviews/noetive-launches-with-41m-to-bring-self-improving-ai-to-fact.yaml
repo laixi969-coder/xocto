@@ -1,0 +1,41 @@
+- id: req-initial-noetive-launches-with-41m-to-bring-self-improving-ai-to-fact-2026-09-18
+  project_slug: noetive-launches-with-41m-to-bring-self-improving-ai-to-fact
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决工厂与物流的流程优化需求，但公开材料未写清具体痛点、旧流程与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-7098592570ba9f12
+  - gate: consensus
+    status: insufficient
+    reason: 除融资消息外，没有客户采用、场景共识或行业讨论证据，无法判断谁在什么场景下认可它。
+    evidence_ids:
+    - ev-7098592570ba9f12
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，4100 万美元融资只能说明资本关注，不能说明付费路径成立。
+    evidence_ids:
+    - ev-7098592570ba9f12
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近工厂与物流工作的第一性目标，也看不到人工边界与交付确定性。
+    evidence_ids:
+    - ev-7098592570ba9f12
+  next_validation: 收集 Noetive 官方产品页或部署文档，确认其输入数据、执行动作与交付结果，以及是否披露客户案例或定价。
+  market: ''
+  job: 工厂生产与物流调度人员需要在产线异常或运力紧张时，处理设备与运输数据并完成排产或调拨决策。
+  job_en: Factory and logistics staff need to process equipment and transport data and make scheduling
+    or dispatch decisions when a line fails or capacity is tight.
+  pain: 公开材料只说明面向工厂与物流，未说明具体痛点、当前由谁手工处理哪一步，无法确认痛点刚性。
+  pain_en: The public material only names factories and logistics; it does not state the specific pain
+    or which manual step is replaced, so the rigidity of the pain cannot be confirmed.
+  current_alternative: 公开材料未披露现有替代方式，无法判断用户此前是用人工排产、传统 APS 系统还是外包分析。
+  current_alternative_en: The public material does not disclose the current alternative, so it is unclear
+    whether users relied on manual scheduling, legacy APS systems or outsourced analysis.
+  usage_reason: 仅有融资与方向描述，缺少产品动作与交付结果，无法解释用户为何会选择它而非旧做法；这是事实缺口，不是推断。
+  usage_reason_en: With only funding and a direction statement, there is no product action or delivery
+    result to explain why a user would choose it over the old way; this is a factual gap, not an inference.

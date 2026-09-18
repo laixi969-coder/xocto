@@ -22,7 +22,7 @@ summary: Last day to book your exhibit table at Disrupt is September 18. Two day
   in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.
 first_seen: '2026-09-17T14:00:00Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

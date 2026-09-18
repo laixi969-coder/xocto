@@ -1,6 +1,6 @@
 ---
 slug: google-deepmind-launches-institute-to-widen-the-agi-debate
-name: Google DeepMind launches institute to widen the AGI debate
+name: Google DeepMind AGI institute
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/17/google-deepmind-launches-instit
 summary: Google DeepMind just launched an institute to hash out the big AGI questions in public
 first_seen: '2026-09-17T23:21:17Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Google DeepMind launches institute to widen the AGI debate
+# Google DeepMind AGI institute
 
 Google DeepMind just launched an institute to hash out the big AGI questions in public
 

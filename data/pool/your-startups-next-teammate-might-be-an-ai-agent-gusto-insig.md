@@ -24,7 +24,7 @@ summary: This session will explore how early-stage companies are building teams 
   or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200.
 first_seen: '2026-09-17T03:30:00Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-bitrise-remote-dev-environments-2026-09-18
+  project_slug: bitrise-remote-dev-environments
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决智能体改完 iOS 代码后无处验证构建的问题，痛点具体；但公开材料只有一句定位描述，无法确认输入、交付与人工确认环节。
+    evidence_ids:
+    - ev-278999ff45e9e95f
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页定位外，没有开发者讨论、采用或口碑证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-278999ff45e9e95f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是移动开发团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-278999ff45e9e95f
+  - gate: truth
+    status: insufficient
+    reason: 云端 Mac 构建是确定性交付，但并发能力、构建成功率与安全边界均未公开，无法核对承诺。
+    evidence_ids:
+    - ev-278999ff45e9e95f
+  next_validation: 收集 Bitrise Remote Dev Environments 的官方定价页与部署文档，确认计费单位、并发环境上限与构建执行方式。
+  market: ''
+  job: 移动应用开发者在编码智能体修改 iOS 代码后，需要一台能执行 Xcode 构建的云端 Mac，把改动跑成可验证的构建结果。
+  job_en: Mobile developers, after a coding agent edits iOS code, need a cloud Mac that can run an Xcode
+    build and turn the change into a verifiable build result.
+  pain: 本地 Mac 资源有限、构建排队，智能体改完代码后无法立即验证，容易把不可构建的改动带进后续流程。
+  pain_en: Local Mac capacity is limited and builds queue, so agent edits cannot be verified immediately
+    and non-buildable changes leak downstream.
+  current_alternative: 开发者自建 Mac mini 构建机、使用通用 CI 流水线，或人工在本地手动跑一次构建。
+  current_alternative_en: Developers self-host Mac minis, use general CI pipelines, or manually run a
+    build locally.
+  usage_reason: 推断：相较自建 Mac 构建机或通用 CI，它把可执行构建的 Mac 环境直接交给智能体调用，省去排队和人工搬运代码这一步，因此让智能体改 iOS 代码的团队会优先试用；但公开材料未给出定价、客户或重复使用证据。
+  usage_reason_en: 'Inference: compared with self-hosted Mac builders or general CI, it hands an executable
+    Mac environment directly to the agent, removing queueing and manual code handoff, so teams letting
+    agents edit iOS code would try it first; however, no pricing, customer or repeat-use evidence is public.'

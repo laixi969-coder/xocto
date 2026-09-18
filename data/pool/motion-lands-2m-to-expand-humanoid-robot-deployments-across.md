@@ -38,7 +38,7 @@ summary: Brussels-basedrobotics company Motion has raised $2 million in pre-seed
   (HaaS) platform and move its existing industrial pilotsinto commercial deployment. T...
 first_seen: '2026-08-27T06:45:42Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

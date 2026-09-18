@@ -81,3 +81,47 @@
   usage_reason_en: 'Inference: if an agent can edit directly inside the same design file, users could
     skip shuttling assets between a generation tool and design software; without user feedback or cases
     this cannot be confirmed as a reason for choosing it.'
+- id: req-initial-design-studio-ai-2026-09-18
+  project_slug: design-studio-ai
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决设计产出任务，但公开材料未写清替代了哪一步旧流程、谁的哪项痛苦，价值结构无法判定。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+    - ev-cae48c40025e00e9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 131 增至 179，属关注度而非持续采用，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+    - ev-cae48c40025e00e9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或买方，无法判断钱来自 to C、to B 还是 to VC，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近设计工作的第一性目标与交付确定性，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际替代的旧设计流程与交付物。
+  market: ''
+  job: 设计师与前端工程师在需要产出界面、3D 或动效素材时，处理设计画布与素材文件，要完成可交付的设计产出。
+  job_en: Designers and front-end engineers producing UI, 3D or motion assets work on design canvases
+    and asset files to deliver finished design output.
+  pain: 公开材料只列出云端编辑、3D、动效、MCP、CLI 等功能，未说明替代了哪一步旧流程或谁的哪项具体痛苦。
+  pain_en: Public material only lists cloud editing, 3D, motion, MCP and CLI features, without stating
+    which old workflow step or specific pain it replaces.
+  current_alternative: 公开材料未提供现有替代方式，无法确认此前由谁、用什么工具完成同一任务。
+  current_alternative_en: Public material provides no current alternative, so it is unclear who previously
+    did this task and with what tools.
+  usage_reason: 缺少旧流程与交付结果的可核对描述，无法解释用户为何选择它而非旧做法；这是事实不足，不是已验证的采用。
+  usage_reason_en: Without a verifiable description of the old workflow and delivered result, there is
+    no explanation of why users would choose it over the old way; this is missing evidence, not verified
+    adoption.

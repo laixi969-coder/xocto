@@ -1,0 +1,41 @@
+- id: req-initial-uplifting-biomolecular-modeling-2026-09-18
+  project_slug: uplifting-biomolecular-modeling
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都无法从材料中写出，价值关无法判定。
+    evidence_ids:
+    - ev-8744519de847c274
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 33 个星标与 8 次复刻，属于关注度信号，不能说明持续采用。
+    evidence_ids:
+    - ev-8744519de847c274
+  - gate: model
+    status: insufficient
+    reason: 材料未披露任何定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-8744519de847c274
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标，也无法判断交付是否确定。
+    evidence_ids:
+    - ev-8744519de847c274
+  next_validation: 收集该仓库的 README、文档与议题讨论，确认其输入数据、执行动作与产出交付。
+  market: ''
+  job: 候选材料未说明谁在什么情况下处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The candidate material does not state who, under what circumstances, processes what material
+    to complete what task, so no concrete usage scenario can be reconstructed.
+  pain: 材料未给出任何用户痛点、抱怨或旧流程描述，无法判断痛点是否存在。
+  pain_en: The material gives no user pain point, complaint or legacy-process description, so the existence
+    of a pain point cannot be judged.
+  current_alternative: 材料未说明当前替代方式，无法判断它替代了哪一步旧工作。
+  current_alternative_en: The material does not describe any current alternative, so which legacy step
+    it replaces cannot be judged.
+  usage_reason: 缺少仓库说明、输入输出与交付方式，无法解释用户为何会选择它；这是事实不足，不是需求不成立。
+  usage_reason_en: With no repository description, inputs, outputs or delivery, there is no basis to explain
+    why a user would choose it; this is missing facts, not proof of absent demand.

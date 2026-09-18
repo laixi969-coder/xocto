@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called
 summary: Microsoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs.
 first_seen: '2026-09-17T20:10:41Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

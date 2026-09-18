@@ -1,6 +1,6 @@
 ---
 slug: 追觅四大赛道-ifa-首秀一套技术四个出口
-name: 追觅四大赛道 IFA 首秀：一套技术，四个出口
+name: 追觅
 builder: ''
 category: ''
 summary_zh: ''
@@ -58,7 +58,7 @@ summary: "追觅在 IFA 上展出的不是四条产品线，是一套技术的�
   \ \n \n \n \n  \n \n \n \n  极客一问  \n \n \n  一套技术，能否撑起多形态机器人？"
 first_seen: '2026-09-17T04:42:23Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -69,7 +69,7 @@ sightings:
   kind: news
 ---
 
-# 追觅四大赛道 IFA 首秀：一套技术，四个出口
+# 追觅
 
 追觅在 IFA 上展出的不是四条产品线，是一套技术的四个出口。 
  

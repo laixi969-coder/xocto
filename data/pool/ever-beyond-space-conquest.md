@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/ever-beyond-space-conquest
 summary: Tactical Battles & Idle Merge
 first_seen: '2026-09-16T07:09:19Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

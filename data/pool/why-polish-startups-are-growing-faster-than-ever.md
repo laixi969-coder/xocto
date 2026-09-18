@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/why-polish-startups-are-growing-faster
 summary: ''
 first_seen: '2026-09-17T05:00:15Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: beacon-acquires-haize-labs-to-power-ai-for-the-real-economy
-name: Beacon Acquires Haize Labs to Power AI for the Real Economy
+name: Beacon
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2RvM1Q4NVpK
 summary: Beacon Acquires Haize Labs to Power AI for the Real Economy Via TT
 first_seen: '2026-09-17T14:30:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Beacon Acquires Haize Labs to Power AI for the Real Economy
+# Beacon
 
 Beacon Acquires Haize Labs to Power AI for the Real Economy Via TT
 

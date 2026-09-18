@@ -428,3 +428,44 @@
     recovers past decisions, removing the log-digging and re-briefing steps; inference: heavy AI-assisted
     developers juggling projects would adopt first. Retention evidence is missing, so long-term workflow
     fit cannot yet be claimed.'
+- id: req-initial-lore-2026-09-18
+  project_slug: lore
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是代理会话散落、改动原因难回溯的问题，旧做法是逐个翻本地日志，痛点具体且不解决的代价是可核对的重跑成本。
+    evidence_ids:
+    - ev-8cd34a8ef3152d97
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库的星标与分支数，缺少用户评价、issue 讨论或团队采用记录，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，开源项目可能的收入来自托管或企业版，这属于判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 本地归档与检索的承诺是否在长会话、多代理场景下确定性交付，公开材料未给出可复现验证。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者是否在真实排查与交接中重复使用会话检索。
+  market: ''
+  job: 使用 Claude Code、Codex 的软件工程师在排查回归或交接任务时，需要从本地散落的会话日志中找回某次改动的原因和上下文，以决定下一步怎么改。
+  job_en: Software engineers using Claude Code or Codex, when debugging a regression or handing off work,
+    need to recover the reason and context of a past change from scattered local session logs in order
+    to decide the next edit.
+  pain: 代理会话默认散落在本地、按时间而非按任务组织，回忆一次改动要逐个翻文件，找不到就只能重跑或凭记忆猜。
+  pain_en: Agent sessions sit scattered on local disk, ordered by time rather than by task, so recalling
+    one change means opening files one by one; if it cannot be found, the developer reruns the agent or
+    guesses from memory.
+  current_alternative: 手动翻本地日志文件、依赖 shell 历史或 git 提交信息，或者干脆让代理重新生成一遍。
+  current_alternative_en: Manually opening local log files, relying on shell history or git commit messages,
+    or simply asking the agent to regenerate the work.
+  usage_reason: 推断：相较逐个翻日志，lore 把会话统一归档并支持检索，省掉定位文件这一步，让排查和交接时能直接取回历史上下文；因此频繁使用编码代理、需要回溯改动的开发者会尝试它。
+  usage_reason_en: 'Inference: compared with opening logs one by one, lore archives sessions in one place
+    and supports search, removing the file-locating step so debugging and handover can retrieve past context
+    directly; developers who use coding agents heavily and need to trace changes would try it.'

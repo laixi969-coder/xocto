@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lSXFCZEpfbjJh
 summary: 智算科技发布 开元ky官网登录下载入口 本地AI推理一体机，加速行业智能化落地 体坛
 first_seen: '2026-09-16T19:41:15Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

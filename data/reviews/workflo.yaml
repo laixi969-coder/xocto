@@ -151,3 +151,44 @@
     users skip the step of executing each action by hand, which appeals to Mac users handling sensitive
     material who will not upload their screen; however the public material does not describe the actions
     or output, so this causal link is unconfirmed.'
+- id: req-initial-workflo-2026-09-18
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决重复桌面操作耗时的问题，但公开材料未说明替代了哪一步手工操作，也未见用户抱怨或采用行为，需求强度无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，缺少可归因到该产品的使用量、付费或持续采用证据，无法判断共识卡在哪一环。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，无法判断收入来自个人订阅还是企业采购，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: “不读取屏幕”的承诺能否确定性交付、人工确认边界如何，公开材料均未说明。
+    evidence_ids: []
+  next_validation: 收集 Workflo 官方产品页或文档，确认其输入方式、可执行的具体桌面动作清单与是否提供定价页。
+  market: ''
+  job: Mac 知识工作者在一天中反复进行跨应用的复制、整理与触发操作时，希望把这些重复桌面动作交给工具自动完成，而不是自己逐步点击。
+  job_en: Mac knowledge workers who repeatedly copy, organise and trigger actions across applications
+    during the day want those repetitive desktop actions done automatically instead of clicking through
+    each step.
+  pain: 重复桌面操作占用时间且容易出错，而把屏幕内容交给云端自动化工具又带来敏感信息外泄顾虑；候选只给出“不读取屏幕”的宣称，未说明具体痛点场景。
+  pain_en: Repetitive desktop operations consume time and invite errors, while handing screen content
+    to cloud automation tools raises sensitive-data exposure concerns; the candidate only states the 'never
+    sees your screen' claim without specific pain scenarios.
+  current_alternative: 用户目前依靠系统自带快捷指令、AppleScript、Keyboard Maestro 等本地自动化脚本，或手动逐步操作。
+  current_alternative_en: Users currently rely on built-in Shortcuts, AppleScript, Keyboard Maestro and
+    similar local automation scripts, or do the steps manually.
+  usage_reason: 推断：若它真能在不读取屏幕内容的前提下完成跨应用操作，用户可能因为不必把敏感材料交给云端而选择它；但公开材料未说明它替代了哪一步手工操作，也未给出留存或复购证据，因此选择动机无法核实。
+  usage_reason_en: 'Inference: if it truly completes cross-application actions without reading screen
+    content, users might choose it to avoid sending sensitive material to the cloud; however, public material
+    does not say which manual step it replaces and offers no retention or repeat-use evidence, so the
+    motivation cannot be verified.'

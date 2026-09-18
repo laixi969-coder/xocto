@@ -1,6 +1,6 @@
 ---
 slug: implementing-defense-in-depth-authorization-for-mcp-tools-on
-name: Implementing defense-in-depth authorization for MCP tools on Amazon Quick
+name: Amazon Quick
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: Learn how to enforce defense-in-depth authorization for Model Context P
   control, with a server-side check and an immutable audit trail.
 first_seen: '2026-09-17T15:30:17Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Implementing defense-in-depth authorization for MCP tools on Amazon Quick
+# Amazon Quick
 
 Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft Entra ID group and claims-based JWTs through an Amazon Bedrock AgentCore Gateway interceptor to apply per-user, per-tool role-based and attribute-based access control, with a server-side check and an immutable audit trail.
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNT3hWLW1IUElC
 summary: The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones WSJ
 first_seen: '2026-09-17T09:00:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

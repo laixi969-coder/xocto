@@ -1,0 +1,44 @@
+- id: req-initial-autobot-2026-09-18
+  project_slug: autobot
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决长任务执行中无法随时干预的问题，痛点方向可辨，但公开材料未说明任务类型、指令范围与不采用的实际代价，价值强度无法确认。
+    evidence_ids:
+    - ev-dda8af584bfd7292
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论区仅 16 个点赞、3 条评论，属于关注度信号，不能说明开发者已形成采用共识。
+    evidence_ids:
+    - ev-dda8af584bfd7292
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-dda8af584bfd7292
+  - gate: truth
+    status: insufficient
+    reason: 语音控制能否稳定对接长任务进程、误识别时如何安全中止，公开材料未提供可核验的交付说明。
+    evidence_ids:
+    - ev-dda8af584bfd7292
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际支持的任务类型、指令集与进程对接方式。
+  market: ''
+  job: AI 应用开发者在本地或服务器上运行耗时较长的 AI 任务时，需要在不中断任务的情况下对执行过程下达调整或停止指令。
+  job_en: An AI application developer running a long AI task locally or on a server needs to issue adjustment
+    or stop commands to the running process without interrupting it.
+  pain: 长任务跑偏或需要改方向时，开发者必须切回终端或界面手动输入，等待和切换打断注意力；但公开材料未说明这一痛点有多普遍、多强烈。
+  pain_en: When a long task goes off track or needs redirection, the developer must switch back to a terminal
+    or UI and type manually, breaking attention; however, public materials do not show how common or intense
+    this pain is.
+  current_alternative: 守在终端或界面旁手动输入指令，或直接中断任务重新启动。
+  current_alternative_en: Sitting at the terminal or UI and typing commands manually, or interrupting
+    and restarting the task.
+  usage_reason: 推断：相较守在终端手动输入，语音控制可让开发者在离开键盘时仍能叫停或调整任务，减少一次切换界面的动作；但公开材料未给出用户反馈或重复使用证据，尚不能确认开发者会把它留在日常工作流里。
+  usage_reason_en: 'Inference: compared with sitting at the terminal typing commands, voice control lets
+    a developer stop or adjust a task while away from the keyboard, removing one context switch; but public
+    materials give no user feedback or repeat-use evidence, so it cannot be confirmed that developers
+    keep it in their daily workflow.'

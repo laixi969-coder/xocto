@@ -21,7 +21,7 @@ canonical_url: https://github.com/emo-xiaoyu/harness-mix
 summary: ''
 first_seen: '2026-09-07T09:50:46Z'
 last_seen: '2026-09-18T00:19:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

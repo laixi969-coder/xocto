@@ -3,24 +3,27 @@ slug: grep
 name: grep
 builder: mohebifar
 category: AI + 开发
-summary_zh: grep 是一个面向开发者的代码搜索工具，允许用户在公开 公开代码仓库 仓库中进行结构化搜索。开发者输入查询，工具返回匹配的代码片段，帮助快速定位代码模式。具体工作流程和交付细节待核验。
-inspiration: 趋势：代码搜索正从文本匹配转向结构化语义搜索，开发者需要更精准的代码检索。切入：可从代码审查、安全审计等垂直场景切入，提供针对特定框架或漏洞模式的搜索服务。
-summary_en: grep is a code search tool for developers, enabling structural search across public public
-  code repository repositories. Developers input queries, and the tool returns matching code snippets
-  to quickly locate code patterns. Specific workflow and deliverables are yet to be verified.
-inspiration_en: 'Trend: Code search is shifting from text matching to structural semantic search, as developers
-  need more precise code retrieval. Entry: Could target vertical scenarios like code review or security
-  auditing, offering search services for specific frameworks or vulnerability patterns.'
+summary_zh: 开发者在排查跨仓库代码用法、寻找可复用实现或为编码智能体准备检索上下文时，打开它输入结构化检索条件，由系统在公开 公开代码仓库 仓库中匹配代码结构并返回结果片段；最终交付是可直接阅读或喂给智能体的代码命中列表，是否可用仍需人工判断。具体检索语法、覆盖范围与交付形式仍待核验。
+inspiration: 趋势：编码智能体的检索习惯正在反向决定工具形态，简单可组合的检索接口比复杂语义工具更容易被智能体调用。切入：可从企业内部私有仓库的代码检索与合规审计环节进入，面向有大量历史代码、需要跨仓库追溯用法的工程团队，按检索量或私有仓库席位收费；公开材料未披露定价。
+summary_en: When developers need to trace how code is used across repositories, find reusable implementations,
+  or prepare retrieval context for a coding agent, they open it, enter a structural query, and the system
+  matches code structures across public public code repository repositories and returns result snippets;
+  the deliverable is a list of code hits for humans or agents, still subject to human judgement. Query
+  syntax, coverage and delivery format remain unverified.
+inspiration_en: 'Trend: coding agents'' retrieval habits are reshaping tool design, and simple composable
+  search interfaces get called more often than heavier semantic tools. Entry point: private-repository
+  code search and compliance auditing for engineering teams with large legacy codebases that need cross-repo
+  usage tracing, sold per query volume or private-repo seats; no public pricing disclosed.'
 priority_review: false
 project_type: new_application
 industries:
 - 软件开发
 industries_en:
-- Software Development
+- Software development
 jobs:
-- 开发者
+- 软件工程师
 jobs_en:
-- Developers
+- Software engineers
 regions: []
 regions_en: []
 open_source: false
@@ -29,7 +32,7 @@ canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch

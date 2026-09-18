@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTE96UTdZcEMycV9w
 summary: 雅博备用注册入口亮相行业大会：以本地化AI基础设施赋能政企数智化转型 体坛
 first_seen: '2026-09-17T04:58:52Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

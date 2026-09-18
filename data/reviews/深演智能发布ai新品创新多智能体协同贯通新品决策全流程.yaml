@@ -38,3 +38,49 @@
   usage_reason: 深演智能已有营销技术背景，新品可能吸引寻求自动化决策支持的企业。
   usage_reason_en: Deepintent has a background in marketing technology; the new product may attract enterprises
     seeking automated decision support.
+- id: req-initial-深演智能发布ai新品创新多智能体协同贯通新品决策全流程-2026-09-18
+  project_slug: 深演智能发布ai新品创新多智能体协同贯通新品决策全流程
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决新品决策材料汇总与贯通的问题，痛点方向成立，但公开材料未说明AI具体接收什么、产出什么，价值关证据不足。
+    evidence_ids:
+    - ev-a4fcaebb817d1621
+    - ev-756f2956121a6799
+  - gate: consensus
+    status: insufficient
+    reason: 仅有国标检测通过与海外合作两条公告，没有客户采用、使用反馈或场景共识证据。
+    evidence_ids:
+    - ev-a4fcaebb817d1621
+    - ev-756f2956121a6799
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价或买方是品牌方还是代理公司，付费路径无法判断。
+    evidence_ids:
+    - ev-756f2956121a6799
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生、人工确认边界在哪，也未说明与既有营销数据产品的差别。
+    evidence_ids:
+    - ev-a4fcaebb817d1621
+  next_validation: 收集深演智能官方发布的“AI新品创新”产品说明或客户案例页，确认其输入材料、交付物形态与计价方式。
+  market: ''
+  job: 品牌方市场与产品团队在新品立项和上市前，处理竞品、消费者与渠道材料，要产出一份能支撑立项或上市决策的依据。
+  job_en: Brand marketing and product teams, before a new-product scoping or launch decision, work through
+    competitor, consumer and channel material to produce a basis that supports the go/no-go decision.
+  pain: 这些材料分散在多个来源，人工汇总耗时且口径不一，决策会容易变成各说各话；但公开材料没有说明深演智能具体减少了哪一步负担。
+  pain_en: This material is scattered across sources, manual assembly is slow and inconsistent, and decision
+    meetings drift into competing opinions; public material does not say which step Shenyan Intelligent
+    concretely removes.
+  current_alternative: 目前多由品牌方内部市场研究或外部咨询公司人工整理竞品与消费者报告，再开会讨论。
+  current_alternative_en: Today brand-side market research teams or external consultancies manually compile
+    competitor and consumer reports, then hold meetings to discuss them.
+  usage_reason: 推断：若多智能体能直接产出可复核的立项依据，品牌方可能省去跨部门收集与初稿整理这一步，从而在立项会上直接讨论结论；但公开材料未给出交付形态、客户案例或重复使用证据，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the agents can directly produce a reviewable scoping basis, brand teams
+    could skip cross-department collection and first-draft assembly and discuss conclusions directly in
+    the scoping meeting; however, public material gives no deliverable format, customer case or repeat-use
+    evidence, so it cannot be confirmed that users would choose it for this reason.'

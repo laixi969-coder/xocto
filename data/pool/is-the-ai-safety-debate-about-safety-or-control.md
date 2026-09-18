@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-s
 summary: Not everyone agrees with Amodei's call for globally coordinated action for AI safety.
 first_seen: '2026-09-17T20:19:37Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

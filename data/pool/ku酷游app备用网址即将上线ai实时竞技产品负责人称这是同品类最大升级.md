@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4UVNWRDRoTU13
 summary: ku酷游app备用网址即将上线AI实时竞技：产品负责人称“这是同品类最大升级” 体坛
 first_seen: '2026-09-17T01:43:36Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

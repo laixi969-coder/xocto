@@ -1,0 +1,44 @@
+- id: req-initial-aclif-2026-09-18
+  project_slug: aclif
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨 SaaS 自动化要重复写适配脚本的问题，痛点真实，但公开材料未说明支持哪些服务、交付边界与人工确认环节，价值结构尚不完整。
+    evidence_ids:
+    - ev-2655b66a26bc490d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 29 点、16 条评论的社区讨论，属于关注度而非持续采用，无法判断是否形成共识。
+    evidence_ids:
+    - ev-2655b66a26bc490d
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，钱可能来自开发者自用或企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2655b66a26bc490d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对跨服务操作是否确定性交付、失败如何回滚，安全与人工边界未披露。
+    evidence_ids:
+    - ev-2655b66a26bc490d
+  next_validation: 收集 Aclif 官方文档或仓库中列出的支持服务清单、鉴权与失败处理说明，以核验跨系统操作的实际交付边界。
+  market: ''
+  job: 运维或平台工程师在需要让 AI agent 同时操作多家 SaaS（如工单、CRM、云资源）时，处理各服务不同的命令与鉴权材料，要完成一次跨系统的自动化操作。
+  job_en: An operations or platform engineer who needs an AI agent to act across several SaaS tools (ticketing,
+    CRM, cloud resources) handles each service's differing commands and credentials to complete one cross-system
+    automated action.
+  pain: 每家 SaaS 的命令、参数和鉴权方式都不同，跨系统自动化要重复写适配脚本，改一处要动多处。
+  pain_en: Each SaaS tool has different commands, parameters and auth, so cross-system automation means
+    repeatedly writing adapters, and one change ripples across many places.
+  current_alternative: 现在多由工程师手写各家 CLI 脚本、Zapier 类连接器或自建内部封装层来打通。
+  current_alternative_en: Today engineers hand-write per-vendor CLI scripts, use connector services, or
+    build an internal wrapper layer.
+  usage_reason: 推断：相较逐家写脚本，它把命令名和语法收敛成一套，减少为每个 SaaS 单独维护适配的那一步；但公开材料未说明支持范围、鉴权方式与失败处理，因此哪类用户会真正选择它尚无法确认。
+  usage_reason_en: 'Inference: versus writing per-vendor scripts, it collapses command names and grammar
+    into one set, removing the step of maintaining a separate adapter for each SaaS; however public material
+    does not state supported scope, auth or failure handling, so which users would actually choose it
+    cannot be confirmed.'

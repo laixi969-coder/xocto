@@ -26,7 +26,7 @@ summary: A central goal of autonomous reinforcement learning is continuous polic
   to test state recoverability across eight manipulation settings in five physics engines…
 first_seen: '2026-09-17T00:00:00Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

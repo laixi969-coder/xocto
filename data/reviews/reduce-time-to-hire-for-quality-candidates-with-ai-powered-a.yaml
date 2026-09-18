@@ -1,0 +1,45 @@
+- id: req-initial-reduce-time-to-hire-for-quality-candidates-with-ai-powered-a-2026-09-18
+  project_slug: reduce-time-to-hire-for-quality-candidates-with-ai-powered-a
+  level: initial
+  reviewed_at: '2026-09-18T00:20:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决大规模初筛中标准不一、记录耗时的问题，替代人工筛简历与电话初筛，交付为可追溯的评估与评分。
+    evidence_ids:
+    - ev-ec7f21b706ec2d60
+  - gate: consensus
+    status: insufficient
+    reason: 招聘方对初筛自动化有明确需求，但公开材料未给出客户采用或持续使用的证据。
+    evidence_ids:
+    - ev-ec7f21b706ec2d60
+  - gate: model
+    status: insufficient
+    reason: 买方为使用亚马逊云服务的企业招聘团队，但未披露定价与计费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ec7f21b706ec2d60
+  - gate: truth
+    status: supported
+    reason: 材料明确最终录用决定仍由招聘方掌握，评估、面试与评分可追溯，人工边界清晰。
+    evidence_ids:
+    - ev-ec7f21b706ec2d60
+  next_validation: 收集 Amazon Connect Talent 官方定价页或客户案例，确认计费方式与已公开的采用情况。
+  market: ''
+  job: 大规模招聘的招聘负责人在初筛阶段处理成批简历与面试安排，要筛出进入下一轮的候选人并保持评估口径一致。
+  job_en: Talent acquisition leads handling hiring at scale work through batches of resumes and interview
+    scheduling at the screening stage, needing to shortlist candidates for the next round while keeping
+    assessment criteria consistent.
+  pain: 初筛量大、面试官标准不一，人工安排与记录耗时，且评估结果难以横向比较。
+  pain_en: Screening volume is large, interviewer standards vary, manual scheduling and note-taking are
+    time-consuming, and assessment results are hard to compare across candidates.
+  current_alternative: 目前主要靠招聘专员人工筛简历、电话初筛和面试官各自记录评价。
+  current_alternative_en: Today this relies mainly on recruiters manually screening resumes, phone screens
+    and interviewers keeping their own evaluation notes.
+  usage_reason: 相较人工初筛，它按统一标准发起 AI 面试并生成可追溯的评估与评分，减少招聘专员逐份安排与整理记录的工作，也让不同候选人的结果可横向比较；因此招聘量大、需要统一口径的招聘团队会在初筛环节选择它。这是基于产品能力的推断，尚无客户案例佐证。
+  usage_reason_en: Compared with manual screening, it runs AI-led interviews to a consistent standard
+    and produces traceable assessments and scores, reducing the recruiter's work of scheduling and compiling
+    notes one by one and making results comparable across candidates; teams with high hiring volume and
+    a need for consistent criteria would therefore choose it at the screening stage. This is inference
+    from product capability, not yet supported by customer cases.

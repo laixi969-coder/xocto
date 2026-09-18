@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Mdl81X0RKWkFI
 summary: 星体科技发布77体育app下载官网：打造安全可控的AI基础设施平台-体坛网_体坛+ 体坛
 first_seen: '2026-09-17T04:59:34Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

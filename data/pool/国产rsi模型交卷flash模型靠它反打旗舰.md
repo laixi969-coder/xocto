@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/491091.html
 summary: 1亿Tokens人人免费领
 first_seen: '2026-09-17T03:26:21Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

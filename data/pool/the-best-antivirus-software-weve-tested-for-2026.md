@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Od0NZOU5mZTRF
 summary: The Best Antivirus Software We've Tested for 2026 PCMag
 first_seen: '2026-09-15T07:00:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

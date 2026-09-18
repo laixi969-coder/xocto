@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE94cFhoUFF6SmZC
 summary: 美联储加息改写AI融资格局 Moomoo
 first_seen: '2026-09-17T07:52:12Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

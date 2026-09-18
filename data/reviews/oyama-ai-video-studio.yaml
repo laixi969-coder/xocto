@@ -1,0 +1,39 @@
+- id: req-initial-oyama-ai-video-studio-2026-09-18
+  project_slug: oyama-ai-video-studio
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连解决什么需求、什么痛点都写不出来，仅有仓库星标数据。
+    evidence_ids:
+    - ev-d49dc841f1b1ed7f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，42 星与 11 次 fork 不足以说明采用。
+    evidence_ids:
+    - ev-d49dc841f1b1ed7f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无定价或买方信息。
+    evidence_ids:
+    - ev-d49dc841f1b1ed7f
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付确定性与人工边界。
+    evidence_ids:
+    - ev-d49dc841f1b1ed7f
+  next_validation: 收集 Oyama-AI-Video-Studio 仓库 README 与示例输出，确认其输入素材、处理步骤与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法确定谁在什么情况下处理什么素材。
+  job_en: Public material does not identify the specific user or work step, so who handles what material
+    under what circumstances is undetermined.
+  pain: 未提供任何痛点或旧流程描述，无法判断它解决什么问题。
+  pain_en: No pain point or legacy workflow is described, so the problem it solves cannot be determined.
+  current_alternative: 公开材料未提供现有替代做法。
+  current_alternative_en: Public material provides no current alternative.
+  usage_reason: 由于未说明产品通过什么动作减少哪一步负担，无法解释用户为何选择它；仅有仓库星标属关注度信号。
+  usage_reason_en: Because it does not state which step the product removes through what action, there
+    is no basis to explain why users would choose it; repository stars are only an attention signal.

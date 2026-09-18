@@ -1,0 +1,42 @@
+- id: req-initial-mr-agent-2026-09-18
+  project_slug: mr-agent
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 MR 评审与 CI 失败排查这两个具体任务，痛点刚性来自合入被阻塞；公开材料仅一句描述，旧流程还原属工作流推理。
+    evidence_ids:
+    - ev-b953918dd7020b18
+  - gate: consensus
+    status: insufficient
+    reason: 86 星、0 fork、0 开放 issue，说明有人关注但无采用或讨论证据，无法判断团队是否真的接入。
+    evidence_ids:
+    - ev-b953918dd7020b18
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；推断可能由研发团队自建或按仓库付费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b953918dd7020b18
+  - gate: truth
+    status: insufficient
+    reason: 自愈动作是否安全、是否需人工确认、误改代码的边界均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-b953918dd7020b18
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认评审与 CI 自愈的实际执行步骤及人工确认边界。
+  market: ''
+  job: 使用自建 GitLab 的中小研发团队在成员提交 Merge Request 时，需要有人读完代码改动给出评审意见，并在流水线失败时定位原因。
+  job_en: Small and mid-size teams on self-hosted GitLab need someone to read each merge request diff
+    and give review comments, and to locate the cause when the pipeline fails.
+  pain: 评审依赖资深工程师，人手不足时 MR 排队等待；CI 失败往往要人工翻日志逐条排查，拖慢合入。
+  pain_en: Review depends on senior engineers, so merge requests queue when they are busy; CI failures
+    are usually traced by hand through logs, slowing merges.
+  current_alternative: 人工评审加人工看 CI 日志，或使用通用代码助手逐段提问，缺少与 GitLab 流程绑定的自动评审与自愈。
+  current_alternative_en: Manual review plus reading CI logs by hand, or a general coding assistant queried
+    piece by piece, with no automated review and healing tied to the GitLab flow.
+  usage_reason: 推断：它把评审与 CI 排障直接挂在 MR 流程上，减少人工逐条读 diff 和翻日志这一步，因此缺少专职评审人的自建 GitLab 团队会在 MR 密集时选择它；尚无用户反馈或客户案例支持这一动机。
+  usage_reason_en: 'Inference: it attaches review and CI triage to the merge request flow, removing the
+    step of reading diffs and logs line by line, so self-hosted GitLab teams without a dedicated reviewer
+    would pick it during merge-heavy periods; no user feedback or customer case supports this motive yet.'

@@ -1,0 +1,43 @@
+- id: req-initial-tinykpi-2026-09-18
+  project_slug: tinykpi
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是随时查看业务指标的需求，痛点真实但强度不明；公开材料只有一句描述，无法确认数据来源与交付是否确定。
+    evidence_ids:
+    - ev-80c10c8f9c41a7be
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布记录，没有用户评价、采用或讨论证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-80c10c8f9c41a7be
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，to C 订阅还是 to B 席位均无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-80c10c8f9c41a7be
+  - gate: truth
+    status: insufficient
+    reason: 无法核对指标口径、数据准确性与人工确认边界，交付确定性尚未验证。
+    evidence_ids:
+    - ev-80c10c8f9c41a7be
+  next_validation: 收集TinyKPI官方产品页或定价页，确认其数据接入来源、更新频率与收费方式。
+  market: ''
+  job: 创业者或运营负责人在电脑前工作时，想随时看到营收、转化等业务指标，需要把分散在多个后台的数据汇总成一眼可见的常驻视图。
+  job_en: Founders or operations leads want revenue and conversion metrics visible while working at their
+    computers, needing scattered back-office data consolidated into an always-visible view.
+  pain: 指标分散在多个后台，需要反复切换页面或打开表格才能确认当前经营状况，容易错过变化。
+  pain_en: Metrics are scattered across back offices, requiring repeated page switching or spreadsheet
+    opening to confirm current business status, making changes easy to miss.
+  current_alternative: 手动打开各平台后台、导出表格或使用仪表盘工具定期查看。
+  current_alternative_en: Manually opening each platform's back office, exporting spreadsheets, or checking
+    a dashboard tool periodically.
+  usage_reason: 推断：相较反复切换后台，常驻刘海区域可减少一次主动查询动作，让指标始终可见；但公开材料未说明数据接入方式、更新频率与准确性，尚不能确认它比现有仪表盘更省事。
+  usage_reason_en: 'Inference: compared with repeatedly switching back offices, a resident notch view
+    can remove one active lookup step and keep metrics visible; however, the public material does not
+    explain data integration, refresh frequency, or accuracy, so it cannot yet be confirmed as less effort
+    than existing dashboards.'

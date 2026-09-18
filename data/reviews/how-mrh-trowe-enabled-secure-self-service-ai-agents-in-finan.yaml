@@ -1,0 +1,46 @@
+- id: req-initial-how-mrh-trowe-enabled-secure-self-service-ai-agents-in-finan-2026-09-18
+  project_slug: how-mrh-trowe-enabled-secure-self-service-ai-agents-in-finan
+  level: initial
+  reviewed_at: '2026-09-18T00:20:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受监管机构让员工安全使用智能体的需求，痛点是数据驻留、越权与审计缺失；旧做法是消费级工具或逐人开通，不采用会带来合规风险。
+    evidence_ids:
+    - ev-0fedb0e993afb7d6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明首月约400名员工获得访问，没有员工评价、使用频率或留存数据，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-0fedb0e993afb7d6
+  - gate: model
+    status: insufficient
+    reason: 买方应是保险经纪公司自身的合规与IT预算，但公开材料未披露定价、采购方式或是否对外售卖，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0fedb0e993afb7d6
+  - gate: truth
+    status: supported
+    reason: 权限按人按工具判定并留审计轨迹，贴近金融合规的第一性目标；但智能体输出的人工复核边界未在材料中说明。
+    evidence_ids:
+    - ev-0fedb0e993afb7d6
+  next_validation: 收集 MRH Trowe 或同类持牌机构公开的部署文档与合规说明，核验权限模型、审计留存与人工复核环节。
+  market: ''
+  job: 保险经纪公司的合规与IT人员，在员工要求使用AI智能体、而监管要求数据驻留与权限隔离的情况下，处理员工身份、角色与工具清单，要完成让约400人安全自助调用智能体的开通任务。
+  job_en: Compliance and IT staff at an insurance brokerage, when employees want AI agents but regulators
+    require data residency and permission isolation, work on employee identities, roles and tool lists
+    to provision safe self-service agent access for about 400 people.
+  pain: 受监管行业若直接放开通用助手，会面临数据出境、越权调用与无法审计的风险；逐个手工审批又拖慢开通。
+  pain_en: If a regulated firm simply opens a general assistant, it faces data-egress, over-permission
+    and auditability risks, while manual approval one by one slows provisioning.
+  current_alternative: 旧做法是员工各自使用消费级聊天工具，或由IT逐人开通账号并人工记录权限，缺少按工具粒度的控制与不可篡改审计。
+  current_alternative_en: The old way is employees using consumer chat tools on their own, or IT opening
+    accounts person by person with manual permission notes, lacking tool-level control and tamper-proof
+    audit.
+  usage_reason: 相较逐人开通与事后补审计，该方案把身份组与声明式令牌接到智能体网关，在调用时按人、按工具判定权限并自动留痕，减少的是IT逐条配置与合规事后取证这两步负担，因此受监管机构的合规与IT团队会在员工规模上量时选择它（推断）。
+  usage_reason_en: Compared with per-person provisioning and after-the-fact audit, this approach wires
+    identity groups and claims-based tokens into the agent gateway, deciding per-user, per-tool permission
+    at call time and logging automatically, removing the burden of line-by-line IT configuration and retrospective
+    compliance evidence, so compliance and IT teams at regulated firms would choose it as headcount scales
+    (inference).

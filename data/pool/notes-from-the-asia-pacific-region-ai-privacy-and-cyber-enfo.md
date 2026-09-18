@@ -22,7 +22,7 @@ summary: 'Notes from the Asia-Pacific region: AI, privacy and cyber enforcement 
   Kong IAPP'
 first_seen: '2026-09-17T16:16:39Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

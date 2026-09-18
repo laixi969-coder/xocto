@@ -21,7 +21,7 @@ canonical_url: https://mustafa-suleyman.ai/a-warning-about-model-welfare
 summary: A warning about 'model welfare'
 first_seen: '2026-09-16T14:27:47Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

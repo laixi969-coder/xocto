@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNTkpQZjBOU1h5
 summary: African Startups Gain Momentum as AI and Climate-Tech Investments Rise Tech In Africa
 first_seen: '2026-09-17T17:26:24Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-portland-startup-antfly-raises-2m-to-streamline-data-infrast-2026-09-18
+  project_slug: portland-startup-antfly-raises-2m-to-streamline-data-infrast
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 智能体接入企业数据确有痛点，但材料未说明它替代哪一步旧工作、输入与交付是什么。
+    evidence_ids:
+    - ev-38ac0a56630b8ab4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有融资消息，没有客户采用或持续使用的公开证据。
+    evidence_ids:
+    - ev-38ac0a56630b8ab4
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价与买方，仅有融资叙事，存在靠融资续命的风险。
+    evidence_ids:
+    - ev-38ac0a56630b8ab4
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验数据一致性承诺能否确定性交付。
+    evidence_ids:
+    - ev-38ac0a56630b8ab4
+  next_validation: 收集 Antfly 官方产品页或文档，确认其数据接入范围、交付形态与是否公开定价。
+  market: ''
+  job: 企业工程团队在把智能体接入内部业务系统时，需要整理和同步分散的数据，让智能体能稳定读取和写入。
+  job_en: Enterprise engineering teams connecting agents to internal business systems must organise and
+    sync scattered data so agents can read and write reliably.
+  pain: 业务数据分散在多个系统，格式与状态不一致，智能体调用时容易失败或读到过期数据。
+  pain_en: Business data is scattered across systems with inconsistent formats and states, so agent calls
+    fail or read stale data.
+  current_alternative: 目前多由工程团队自行编写连接器与同步脚本，或使用通用数据管道工具拼接。
+  current_alternative_en: Today engineering teams usually write their own connectors and sync scripts,
+    or stitch together general data pipeline tools.
+  usage_reason: 公开材料只有融资消息，未说明产品如何减少哪一步负担，也未给出可核对结果，因此无法判断用户为何选择它；此处为推断，缺少产品能力与客户证据。
+  usage_reason_en: The public material is only a funding announcement and does not say which step the
+    product removes or what verifiable result it produces, so user choice cannot be judged; this is inference
+    and lacks product and customer evidence.

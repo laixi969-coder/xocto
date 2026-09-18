@@ -1,0 +1,45 @@
+- id: req-initial-amy-by-jellyfish-2026-09-18
+  project_slug: amy-by-jellyfish
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决招聘寻源任务，但公开材料未说明具体痛点、旧流程与交付结果，无法判断需求刚性。
+    evidence_ids:
+    - ev-70187f8fa30c374c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有产品定位描述，没有招聘团队采用、评价或场景证据。
+    evidence_ids:
+    - ev-70187f8fa30c374c
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-70187f8fa30c374c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有交付确定性、人工复核边界或结果质量的可核对信息。
+    evidence_ids:
+    - ev-70187f8fa30c374c
+  next_validation: 收集 Amy by Jellyfish 的官方产品页或文档，确认它接收的输入、执行的寻源动作与交付物，以及是否公布定价或客户案例。
+  market: ''
+  job: 招聘专员或人才寻源顾问在启动一个新岗位、需要先建立候选人名单时，处理招聘网站和人才库里的简历材料，要完成从零到可联系候选人的寻源任务。
+  job_en: A recruiter or talent sourcing specialist starting a new role and needing an initial candidate
+    list works through resumes on job boards and talent pools to complete the task of sourcing contactable
+    candidates from scratch.
+  pain: 公开材料只给出“AI 寻源员工”这一句定位，没有说明寻源过程中哪一步最耗时、哪一步最容易出错，也没有用户抱怨或旧流程描述，痛点无法从现有事实还原。
+  pain_en: Public material gives only the one-line positioning of an 'AI sourcing employee'; it does not
+    say which sourcing step is most time-consuming or error-prone, and there are no user complaints or
+    old-workflow descriptions, so the pain cannot be reconstructed from available facts.
+  current_alternative: 招聘团队通常用招聘网站搜索、内部人才库检索和人工筛选简历来完成寻源，但候选资料没有描述它具体替代了其中哪一步。
+  current_alternative_en: Recruiting teams typically source through job-board search, internal talent-pool
+    queries, and manual resume screening, but the candidate material does not describe which of these
+    steps it replaces.
+  usage_reason: 无法判断。公开材料未说明它相较人工搜索减少了哪一步负担或改善了哪项可核对结果，因此不能给出用户选择它的因果解释；这是事实不足，不是需求不成立。
+  usage_reason_en: Cannot be determined. Public material does not say which step of manual search it reduces
+    or which checkable result it improves, so no causal explanation for user choice can be given; this
+    is a lack of facts, not proof the need is absent.

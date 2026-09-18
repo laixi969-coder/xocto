@@ -22,7 +22,7 @@ summary: In an interview with TechCrunch, Al Gore suggested he isn't losing slee
   emissions — he's more worried about the AI industry's own warnings about where the technology is headed.
 first_seen: '2026-09-16T23:43:09Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

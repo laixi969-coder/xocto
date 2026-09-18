@@ -1,11 +1,15 @@
 ---
 slug: making-global-data-easier-to-explore
-name: Making global data easier to explore
+name: UN System Data Commons
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Google 与联合国系统联合发布 UN System Data Commons，把分散的全球统计数据放到一个开放平台上供检索。这是机构层面的数据基础设施发布，不是独立产品；公开材料未说明对
+  AI 应用的成本、采用或交付产生何种具体影响。
 inspiration: ''
-summary_en: ''
+summary_en: Google and the UN system jointly launched the UN System Data Commons, placing scattered global
+  statistics on one open platform for search. This is an institutional data-infrastructure release rather
+  than an independent product; public material does not state any concrete effect on the cost, adoption
+  or delivery of AI applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +26,7 @@ summary: Google and the UN system have launched the UN System Data Commons, a ne
   global statistics accessible and easy to search.
 first_seen: '2026-09-17T20:00:00Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Making global data easier to explore
+# UN System Data Commons
 
 Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.
 

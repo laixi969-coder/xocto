@@ -1,0 +1,42 @@
+- id: req-initial-bend-2026-09-18
+  project_slug: bend
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决模型生成代码难以核对、错误后置暴露的问题，痛点方向成立，但公开材料未说明拦截哪些错误、是否覆盖真实故障，价值强度无法确认。
+    evidence_ids:
+    - ev-49d7778ace88a472
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，说明有人关注，但没有可归因到该产品的采用、付费或持续使用证据，关注不等于共识。
+    evidence_ids:
+    - ev-49d7778ace88a472
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未给出定价、商业主体或买方，钱可能来自企业支持或托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-49d7778ace88a472
+  - gate: truth
+    status: insufficient
+    reason: 证明检查能否确定性交付、与人工复核边界如何划分均未说明，也未见与第一性目标对齐的实测结果。
+    evidence_ids:
+    - ev-49d7778ace88a472
+  next_validation: 收集该语言官方文档与仓库 issue/discussion，确认它实际拦截的错误类型、与人工复核的边界及可复现实测结果。
+  market: ''
+  job: AI 应用开发者与编译器工程师在把模型生成的代码并入生产程序时，处理该语言源码与并行执行配置，要完成的是让程序在 CPU 与 GPU 上跑起来且不因模型写错而崩溃。
+  job_en: AI application developers and compiler engineers, when merging model-generated code into production
+    programs, handle source in this language and parallel execution settings to get programs running on
+    CPU and GPU without breaking from model mistakes.
+  pain: 模型生成的代码难以人工逐行核对，错误往往在运行或上线后才暴露，返工成本高；公开材料未给出具体错误类型与发生频率。
+  pain_en: Model-generated code is hard to review line by line, errors surface only at runtime or in production,
+    and rework is costly; public material gives no specific error types or frequency.
+  current_alternative: 靠人工代码评审、单元测试与类型检查，或直接在生产环境试错。
+  current_alternative_en: Manual code review, unit tests and type checking, or trial and error in production.
+  usage_reason: 推断：相较人工评审与测试，它在编译阶段用证明检查直接拒绝一类错误，省去事后定位与返工这一步，因此对正确性要求高、又大量使用模型生成代码的团队可能选择它；目前缺少采用与留存证据。
+  usage_reason_en: 'Inference: versus manual review and testing, it rejects a class of errors at compile
+    time, removing the later debugging and rework step, so teams with high correctness demands that heavily
+    use model-generated code may choose it; adoption and retention evidence is missing.'

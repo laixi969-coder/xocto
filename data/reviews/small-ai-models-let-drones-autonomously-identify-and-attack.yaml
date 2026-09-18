@@ -1,0 +1,46 @@
+- id: req-initial-small-ai-models-let-drones-autonomously-identify-and-attack-2026-09-18
+  project_slug: small-ai-models-let-drones-autonomously-identify-and-attack
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是机上目标识别与侦察打击任务衔接的需求，但材料未给出痛点、频率或不采用的后果，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-2e603f7d2bf36ae2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有受北约支持这一背景描述，没有客户、采购方或使用单位的公开采用证据，共识环节无法判断。
+    evidence_ids:
+    - ev-2e603f7d2bf36ae2
+  - gate: model
+    status: insufficient
+    reason: 买方应为国防机构或军方，属推断；材料未披露定价、合同金额或采购路径，也未说明是否按结果收费。
+    evidence_ids:
+    - ev-2e603f7d2bf36ae2
+  - gate: truth
+    status: challenged
+    reason: 自主识别并攻击涉及致命决策与人工边界，材料未说明人工确认环节、误伤责任与合规约束，交付确定性存疑。
+    evidence_ids:
+    - ev-2e603f7d2bf36ae2
+  next_validation: 收集 Scaleout 官方页面或公开采购公告，核验其是否披露部署单位、合同金额与人工确认流程。
+  market: ''
+  job: 军事侦察任务规划人员在任务前需要处理无人机采集的战场影像与目标信息，判断哪些目标值得跟踪或打击，并据此安排飞行与打击任务。
+  job_en: Military reconnaissance mission planners handle battlefield imagery and target information collected
+    by drones before a mission, decide which targets merit tracking or strike, and schedule flight and
+    strike tasks accordingly.
+  pain: 公开材料未说明现有做法哪里难受，也未给出操作者抱怨、误判率或任务耗时等事实；只能确认目标识别发生在机上这一能力变化，痛点强度无法从现有证据判断。
+  pain_en: Public material does not say where the current practice hurts, nor offer operator complaints,
+    error rates or mission time; only the shift of target identification onto the drone is confirmed,
+    so pain intensity cannot be judged from available evidence.
+  current_alternative: 可推断的旧做法是无人机回传影像后由后方人员或服务器端模型判读，再下达任务；这是工作流推理，不是材料中的用户陈述。
+  current_alternative_en: The inferable prior practice is that drones send imagery back for rear-echelon
+    personnel or server-side models to interpret before tasks are issued; this is workflow reasoning,
+    not a user statement in the material.
+  usage_reason: 推断：机上识别可减少对回传链路的依赖，在通信受限时仍能给出目标判断，因此通信被干扰或延迟敏感的任务单位可能选择它；但材料未提供任何采用、客户或部署证据，无法确认这一选择已发生。
+  usage_reason_en: 'Inference: on-board identification reduces dependence on the backhaul link and can
+    still produce target judgments when communications are constrained, so units with jammed or latency-sensitive
+    links might choose it; however the material offers no adoption, customer or deployment evidence that
+    this choice has occurred.'

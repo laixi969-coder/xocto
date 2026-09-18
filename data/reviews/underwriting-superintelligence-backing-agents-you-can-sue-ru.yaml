@@ -1,0 +1,44 @@
+- id: req-initial-underwriting-superintelligence-backing-agents-you-can-sue-ru-2026-09-18
+  project_slug: underwriting-superintelligence-backing-agents-you-can-sue-ru
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体上线后责任归属与赔付路径缺失的问题，旧做法是通用责任险加律师逐案审阅，痛点具体。
+    evidence_ids:
+    - ev-ba2a7ee8e1bb6b7e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅为一档访谈，未见承保客户、保单数量或行业采纳证据，共识无法判断。
+    evidence_ids:
+    - ev-ba2a7ee8e1bb6b7e
+  - gate: model
+    status: insufficient
+    reason: 保费定价、承保范围与理赔流程均未披露，买方与收费方式属推断而非已验证事实。
+    evidence_ids:
+    - ev-ba2a7ee8e1bb6b7e
+  - gate: truth
+    status: insufficient
+    reason: 如何核保智能体行为、出险后如何认定因果，公开材料未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-ba2a7ee8e1bb6b7e
+  next_validation: 查找 AIUC 官方页面或监管备案中的承保条款与定价说明，确认其承保范围与理赔认定方式。
+  market: ''
+  job: 企业风险与合规负责人在把 AI 智能体接入对外业务前，需要处理责任划分与赔付安排，产出可被审计的承保或免责文件以通过内部与客户审查。
+  job_en: Enterprise risk and compliance leads, before putting AI agents into customer-facing operations,
+    must handle liability allocation and payout arrangements and produce auditable underwriting or exemption
+    documents to pass internal and client review.
+  pain: 智能体出错后责任归属不清，采购方不敢上线，出事后没有理赔路径，只能靠人工兜底或干脆不上线。
+  pain_en: When an agent errs, liability is unclear, buyers hesitate to go live, and there is no claims
+    path afterwards, so work is either manually backstopped or never launched.
+  current_alternative: 通用责任险条款加律师逐案审阅合同，或由供应商在服务协议里单方承诺赔偿。
+  current_alternative_en: Generic liability insurance clauses plus case-by-case legal review of contracts,
+    or a one-sided indemnity promise from the vendor in the service agreement.
+  usage_reason: 推断：相较通用责任险加律师逐案审阅，它把智能体这一新标的纳入可承保范围并给出赔付口径，减少上线前反复谈判责任条款的环节；因此要把智能体推向客户的企业会在采购阶段引入它。
+  usage_reason_en: 'Inference: compared with generic liability cover plus case-by-case legal review, it
+    brings agents into an insurable scope with a stated payout basis, cutting repeated negotiation of
+    liability terms before launch; enterprises pushing agents to customers would bring it in at the procurement
+    stage.'

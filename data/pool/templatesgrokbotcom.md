@@ -23,7 +23,7 @@ summary: TemplatesGrokBot.com is a library of 3,000+ ready-made Grok Bot templat
   Made by Jeroen / Nexibeo.com to help anyone build a full team of AI agents for their job.
 first_seen: '2026-09-17T09:14:16Z'
 last_seen: '2026-09-18T00:19:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

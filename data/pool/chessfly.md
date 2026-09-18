@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/mlabonne/chessfly
 summary: Just a fruit fly's brain, playing chess
 first_seen: '2026-09-17T04:45:19Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

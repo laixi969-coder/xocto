@@ -21,7 +21,7 @@ canonical_url: https://stale.jock.pl
 summary: How Stale Is Your AI? Release age and training cutoff for 20 models
 first_seen: '2026-09-16T13:01:52Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

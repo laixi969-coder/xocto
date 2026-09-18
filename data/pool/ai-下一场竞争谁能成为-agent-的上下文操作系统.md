@@ -1,54 +1,44 @@
 ---
 slug: ai-下一场竞争谁能成为-agent-的上下文操作系统
-name: WorkBuddy
+name: 腾讯 WorkBuddy
 builder: ''
-category: 通用助手
-summary_zh: 腾讯 WorkBuddy 是一个面向办公场景的 AI 助手，试图连接专业软件与智能硬件，将分散在不同工具中的任务组织成可推进的流程。用户可在工作现场通过语音或文本唤起它，由它调用通达信、北大法宝等软件获取行业知识，或通过
-  Plaud、Rokid 等硬件获取现场信息，最终输出可执行的任务链或操作建议。具体工作流与交付细节仍待核验。
-inspiration: 趋势：AI 助手正从聊天窗口走向实体工作现场，竞争焦点从模型能力转向连接工具、硬件与数据的生态能力。切入：可从金融、法律等垂直行业的现场作业切入，例如证券分析师需要同时查询行情、研报与合规信息，WorkBuddy
-  若能整合这些动作并输出可核对的结论，便有机会替代原有手工切换流程。
-summary_en: Tencent WorkBuddy is an AI assistant for office scenarios, aiming to connect professional
-  software and smart hardware, organizing tasks scattered across different tools into actionable workflows.
-  Users can invoke it via voice or text at work sites, where it calls software like Tongdaxin or PKULaw
-  for domain knowledge, or hardware like Plaud or Rokid for on-site information, ultimately delivering
-  executable task chains or operational suggestions. Specific workflows and deliverables remain to be
-  verified.
-inspiration_en: 'Trend: AI assistants are moving from chat windows to physical work sites, with competition
-  shifting from model capabilities to the ecosystem ability to connect tools, hardware, and data. Entry:
-  Focus on vertical industries like finance or legal, where professionals such as securities analysts
-  need to simultaneously access market data, research reports, and compliance information; if WorkBuddy
-  can integrate these actions and deliver verifiable conclusions, it could replace manual workflow switching.'
+category: AI + 效率
+summary_zh: 办公人员在与证券、法律、财税等专业软件和录音笔、眼镜等硬件打交道时，把任务交给 WorkBuddy，由它调用这些软件与设备的数据和动作，串成一条可推进的任务链；最终交付形态与人工确认环节在公开材料中仍待核验。
+inspiration: 趋势是 Agent 的竞争从模型能力转向谁能接入更多专业软件与现场硬件。切入可考虑从某个垂直行业（如证券投顾或法律检索）的单一软件接口做起，把该行业的数据与动作先接全，再谈跨设备编排；卖法未披露，不宜假设。
+summary_en: Office workers dealing with professional software in securities, legal and finance/tax fields
+  plus hardware such as recorders and smart glasses hand tasks to WorkBuddy, which calls those tools'
+  data and actions and strings them into a task chain; the final deliverable and human confirmation step
+  still need verification from public materials.
+inspiration_en: The trend is that Agent competition is shifting from model capability to who can connect
+  more professional software and on-site hardware. A possible entry is to start with a single software
+  interface in one vertical, such as securities advisory or legal search, wire that industry's data and
+  actions first, then talk about cross-device orchestration; pricing is undisclosed and should not be
+  assumed.
 priority_review: false
 project_type: new_application
 industries:
-- 金融
-- 法律
-- 教育
-- 企业服务
+- 证券
+- 法律服务
+- 企业软件
 - 消费电子
 industries_en:
-- Finance
-- Legal
-- Education
-- Enterprise Services
-- Consumer Electronics
+- Securities
+- Legal services
+- Enterprise software
+- Consumer electronics
 jobs:
-- 证券分析师
-- 法律研究者
-- 教师
-- 企业管理者
-- 硬件用户
+- 办公人员
+- 企业软件集成开发者
+- 硬件厂商生态合作人员
 jobs_en:
-- Securities Analyst
-- Legal Researcher
-- Teacher
-- Business Manager
-- Hardware User
+- Office workers
+- Enterprise software integration developers
+- Hardware vendor ecosystem partnership staff
 regions:
 - 中国
 regions_en:
 - China
-open_source: false
+open_source: true
 url: http://www.geekpark.net/news/369767
 canonical_url: https://geekpark.net/news/369767
 summary: "头图来源：视觉中国 \n   \n 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI Agent 建立一套与硬件沟通的通用语言。接入这套标准后，显微镜、机械臂等不同厂商、不同接口的设备，可以被\
@@ -96,7 +86,7 @@ summary: "头图来源：视觉中国 \n   \n 前段时间，Anthropic 发布�
   \ \n WorkBuddy 可以率先提出 Agent OS 的方向，但这套系统是否真正成立，最终仍取决于它能否把腾讯的模型、产品与连接能力转化为一种可持续的生态秩序。"
 first_seen: '2026-09-03T04:52:10Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - newssearch
@@ -118,7 +108,7 @@ sightings:
   kind: news
 ---
 
-# WorkBuddy
+# 腾讯 WorkBuddy
 
 头图来源：视觉中国 
    

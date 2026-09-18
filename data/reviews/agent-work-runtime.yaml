@@ -1,0 +1,43 @@
+- id: req-initial-agent-work-runtime-2026-09-18
+  project_slug: agent-work-runtime
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决长时 agent 状态丢失与上下文膨胀的问题，痛点具体，但公开材料未说明接口、部署与交付结果，价值结构尚不完整。
+    evidence_ids:
+    - ev-6e8931a5428c3c24
+  - gate: consensus
+    status: insufficient
+    reason: 129 星、18 次 fork 属于开源关注度，不能证明已被持续采用或形成共识。
+    evidence_ids:
+    - ev-6e8931a5428c3c24
+  - gate: model
+    status: insufficient
+    reason: 未见定价或商业主体说明，钱可能来自开源赞助或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6e8931a5428c3c24
+  - gate: truth
+    status: insufficient
+    reason: 无法核对长任务是否确定性恢复、上下文裁剪是否影响结果正确性，安全与人工边界未披露。
+    evidence_ids:
+    - ev-6e8931a5428c3c24
+  next_validation: 收集该仓库的 issue 与讨论，核验长任务状态恢复、上下文裁剪的实际表现与是否有生产环境使用记录。
+  market: ''
+  job: AI 应用后端开发者在搭建需要跨小时甚至跨天运行的 agent 时，处理会话状态、上下文与中断恢复材料，要完成一次不丢状态的长任务执行。
+  job_en: An AI application backend developer building agents that run for hours or days handles session
+    state, context and recovery material to complete one long task without losing state.
+  pain: 长任务中上下文会膨胀、进程中断后状态丢失，开发者要自己写状态存储与裁剪逻辑，重复且易错。
+  pain_en: In long tasks context balloons and state is lost after interruption, so developers write their
+    own state storage and trimming logic, which is repetitive and error-prone.
+  current_alternative: 现在多用自建数据库加缓存、通用工作流引擎或各家 agent 框架自带的内存机制来凑。
+  current_alternative_en: Today teams cobble together self-built databases plus caches, general workflow
+    engines, or the built-in memory of agent frameworks.
+  usage_reason: 推断：相较自建状态存储与上下文裁剪，它把持久状态和最小上下文做成现成组件，减少开发者自己维护恢复逻辑的那一步；但仓库未披露接口稳定性与生产案例，哪类团队会长期采用无法确认。
+  usage_reason_en: 'Inference: versus self-built state storage and context trimming, it packages persistent
+    state and minimal context as ready components, removing the step of maintaining recovery logic; but
+    the repository discloses no interface stability or production cases, so which teams would adopt it
+    long term cannot be confirmed.'

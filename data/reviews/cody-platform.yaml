@@ -1,0 +1,44 @@
+- id: req-initial-cody-platform-2026-09-18
+  project_slug: cody-platform
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决编码 agent 进入企业仓库后的审批、权限与审计问题，痛点真实；但公开材料只有仓库自述，具体旧流程与交付结果无法核对。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+  - gate: consensus
+    status: insufficient
+    reason: 82 星属于关注度信号，不能说明研发团队已把它纳入治理流程，也未见企业采用或讨论记录。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+  - gate: model
+    status: insufficient
+    reason: 开源参考实现，未见定价、商业授权或服务收费路径，买方是自建团队还是采购方尚不清楚，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+  - gate: truth
+    status: insufficient
+    reason: 仓库无 issue 与讨论，无法核对人审与事务性写入在真实仓库中的确定性交付，也未见安全边界说明。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+  next_validation: 收集该仓库的 README 与部署文档，核对人审、权限与事务性写入的实际实现范围及是否给出可复现的部署步骤。
+  market: ''
+  job: 企业研发团队在把编码 agent 接入内部代码仓库时，由治理负责人处理 agent 的写入请求与权限配置，要完成一次可审计、可回滚的代码变更。
+  job_en: When an enterprise engineering team connects a coding agent to internal repositories, a governance
+    owner handles the agent's write requests and permission settings to complete an auditable, rollback-capable
+    code change.
+  pain: 编码 agent 直接改仓库时，缺少人审、权限边界和审计记录，出错后难以追溯责任，团队不敢放开使用。
+  pain_en: When a coding agent edits repositories directly, there is no human review, permission boundary
+    or audit record, making accountability hard to trace after errors and leaving teams unwilling to widen
+    access.
+  current_alternative: 目前多靠人工在代码评审里逐条检查 agent 提交，或用分支保护和 CI 规则临时兜底，治理逻辑散落在多个工具里。
+  current_alternative_en: Today teams mostly rely on manual review of agent commits or ad-hoc branch protection
+    and CI rules, with governance logic scattered across several tools.
+  usage_reason: 推断：相较散落的评审与 CI 规则，它把审批、权限、事务性写入和审计收进一条显式状态机，减少团队自己拼治理链的搭建步骤，因此正在试点编码 agent 的研发团队会先拿它跑通流程。
+  usage_reason_en: 'Inference: compared with scattered review and CI rules, it folds approval, permissions,
+    transactional writes and audit into one explicit state machine, cutting the work of assembling a governance
+    chain yourself, so teams piloting coding agents would use it to trial the flow first.'

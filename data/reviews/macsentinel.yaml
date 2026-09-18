@@ -1,0 +1,45 @@
+- id: req-initial-macsentinel-2026-09-18
+  project_slug: macsentinel
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是判断哪些文件可安全删除、避免误删导致系统损坏的需求，痛点真实；但公开材料只有一句描述，无法确认 AI 具体替代了旧流程中的哪一步，价值结构尚不完整。
+    evidence_ids:
+    - ev-fa2d286d0c61df68
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品描述外，没有用户评价、社区讨论或采用信号，无法判断是否有人真的把它放进日常维护流程。
+    evidence_ids:
+    - ev-fa2d286d0c61df68
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、付费方式或买方，是 to C 一次性买断还是订阅均不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-fa2d286d0c61df68
+  - gate: truth
+    status: insufficient
+    reason: 清理类工具的第一性目标是安全删除，误删代价高；材料未说明是否有人工确认、备份或回滚机制，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-fa2d286d0c61df68
+  next_validation: 收集 MacSentinel 官方定价页或产品文档，确认其扫描输入、清理建议的生成方式以及是否提供删除前确认或回滚机制。
+  market: ''
+  job: 普通 Mac 用户在电脑变卡或磁盘占满时，需要判断是哪些进程或文件导致变慢，并决定哪些可以安全删除；IT 支持人员则为同事排查卡顿原因并给出清理建议。
+  job_en: Ordinary Mac users whose machine has slowed down or whose disk is full need to identify which
+    processes or files cause the slowdown and decide what can be safely removed; IT support staff diagnose
+    a colleague's slow Mac and recommend what to clean.
+  pain: 用户面对系统目录和进程列表时无法判断哪些内容可以安全删除，误删可能损坏系统，不清理则机器持续变慢。
+  pain_en: Facing system directories and process lists, users cannot tell what is safe to delete; deleting
+    the wrong item can break the system, while doing nothing leaves the machine slow.
+  current_alternative: 用户目前依靠系统自带的存储管理、活动监视器，或 CleanMyMac 等老牌清理工具，也有人直接重装系统或换机。
+  current_alternative_en: Users currently rely on built-in storage management, Activity Monitor, or established
+    cleaners such as CleanMyMac; some simply reinstall the OS or replace the machine.
+  usage_reason: 推断：如果它能把“这个文件为什么可以删”讲清楚，用户就不必自己在活动监视器和系统目录之间逐项比对，减少的是判断哪一步可以安全执行的心理负担。但公开材料没有说明 AI 读取什么、输出什么，也没有任何用户反馈或客户案例，因此无法确认它相较现有清理工具减少了哪一步，缺少可核验的交付环节。
+  usage_reason_en: 'Inference: if it clearly explains why a given file is safe to delete, users no longer
+    have to cross-check Activity Monitor against system directories item by item, reducing the burden
+    of judging which step is safe. However, the public material does not state what the AI reads or outputs,
+    and there is no user feedback or customer case, so it is impossible to confirm which step it removes
+    relative to existing cleaners; a verifiable deliverable is missing.'

@@ -24,7 +24,7 @@ summary: Newly unsealed court filings show Microsoft privately called OpenAI's d
   it would gut publishers.
 first_seen: '2026-09-17T19:46:08Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

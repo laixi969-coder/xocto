@@ -1,0 +1,43 @@
+- id: req-initial-fight-prompt-director-2026-09-18
+  project_slug: fight-prompt-director
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决动作戏提示编排这一具体任务，痛点是生成不连贯需反复试错，旧做法是手写或抄模板，结构上成立。
+    evidence_ids:
+    - ev-e397759198603b43
+  - gate: consensus
+    status: insufficient
+    reason: 40 星、4 次 fork 只说明早期关注，不能证明创作者已持续使用。
+    evidence_ids:
+    - ev-e397759198603b43
+  - gate: model
+    status: insufficient
+    reason: 开源 Skill，未见定价或付费路径，买方与收费方式无法判断。
+    evidence_ids:
+    - ev-e397759198603b43
+  - gate: truth
+    status: insufficient
+    reason: 未见生成效果对比或人工确认边界说明，交付确定性待核验。
+    evidence_ids:
+    - ev-e397759198603b43
+  next_validation: 仓库 README 或 issue 中的生成前后对比示例，用于确认提示编排是否稳定产出连贯打斗镜头。
+  market: ''
+  job: AI 视频创作者或动作导演在制作打斗片段时，需要把一段动作设计拆成多个镜头提示，交给 Seedance、MiniMax-H3 等模型逐镜生成。
+  job_en: An AI video creator or action director making a fight sequence needs to break a choreographed
+    action into multiple shot prompts and feed them shot by shot to models such as Seedance and MiniMax-H3.
+  pain: 动作戏依赖镜头衔接与节奏，直接写一句提示往往生成不出连贯打斗，创作者要反复试错，浪费生成额度与时间。
+  pain_en: Fight scenes depend on shot continuity and rhythm; a single prompt rarely yields coherent combat,
+    so creators iterate by trial and error, burning generation credits and time.
+  current_alternative: 自己凭经验手写提示词，或参考社区里零散的动作提示模板，逐条试。
+  current_alternative_en: Hand-writing prompts from personal experience, or copying scattered action-prompt
+    templates from communities and testing them one by one.
+  usage_reason: 推断：它把动作戏拆成按镜头组织的提示结构，创作者不必每次从零构思镜头衔接，可直接套用再逐镜微调，因此常做打斗片段的短剧与广告团队会在需要批量出动作镜头时选择它；尚无用户反馈证实这一节省。
+  usage_reason_en: 'Inference: it structures a fight scene into per-shot prompts, so creators need not
+    reinvent shot continuity each time and can adapt then fine-tune shot by shot; short-drama and ad teams
+    producing fight footage would pick it when generating action shots at volume. No user feedback yet
+    confirms this saving.'

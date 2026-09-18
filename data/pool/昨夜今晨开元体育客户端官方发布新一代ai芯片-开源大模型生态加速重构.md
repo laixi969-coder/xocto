@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfYTdRNFlsZ3dO
 summary: 昨夜今晨：开元体育客户端官方发布新一代AI芯片 开源大模型生态加速重构 体坛
 first_seen: '2026-09-17T05:07:01Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

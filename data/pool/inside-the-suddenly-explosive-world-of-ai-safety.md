@@ -24,7 +24,7 @@ summary: On a sunny July day in Berkeley, California, the country's top AI safet
   model had gone rogue, executing a stunningly […]
 first_seen: '2026-09-17T11:30:00Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

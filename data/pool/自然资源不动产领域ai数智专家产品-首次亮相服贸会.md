@@ -1,6 +1,6 @@
 ---
 slug: 自然资源不动产领域ai数智专家产品-首次亮相服贸会
-name: 自然资源（不动产）领域AI“数智专家”产品 首次亮相服贸会
+name: 自然资源（不动产）领域AI“数智专家”
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE95U2tFajV5UDdK
 summary: 自然资源（不动产）领域AI“数智专家”产品 首次亮相服贸会 京报网
 first_seen: '2026-09-15T03:37:36Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 自然资源（不动产）领域AI“数智专家”产品 首次亮相服贸会
+# 自然资源（不动产）领域AI“数智专家”
 
 自然资源（不动产）领域AI“数智专家”产品 首次亮相服贸会 京报网
 

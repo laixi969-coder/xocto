@@ -1,6 +1,6 @@
 ---
 slug: amazon-quick推桌面程式-解决企业ai-agent痛点-知识图谱建个人化体验
-name: Amazon Quick推桌面程式 解决企业AI Agent痛点 「知识图谱」建个人化体验
+name: Amazon Quick
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgNBVV95cUxOSDFyS2htd2V2
 summary: Amazon Quick推桌面程式 解决企业AI Agent痛点 「知识图谱」建个人化体验 星島頭條
 first_seen: '2026-09-17T10:05:14Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Amazon Quick推桌面程式 解决企业AI Agent痛点 「知识图谱」建个人化体验
+# Amazon Quick
 
 Amazon Quick推桌面程式 解决企业AI Agent痛点 「知识图谱」建个人化体验 星島頭條
 

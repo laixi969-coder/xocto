@@ -1,0 +1,41 @@
+- id: req-initial-zella-2026-09-18
+  project_slug: zella
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点写不出来：材料只有一句自动剪辑描述，未说明替代哪一步旧工作、不采用会失去什么。
+    evidence_ids:
+    - ev-3a8eff545d6b3ad3
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。无采用、留存或用户反馈证据。
+    evidence_ids:
+    - ev-3a8eff545d6b3ad3
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。买方与定价方式均未披露。
+    evidence_ids:
+    - ev-3a8eff545d6b3ad3
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核对成片质量与人工确认边界。
+    evidence_ids:
+    - ev-3a8eff545d6b3ad3
+  next_validation: Zella 官方产品页或定价页，用于核验支持的素材类型、自动剪辑规则、成片导出规格与收费方式。
+  market: ''
+  job: Mac 或 iPhone 上的视频创作者在拍完素材后，需要把原始片段整理成可发布的成片。
+  job_en: Video creators on Mac or iPhone need to turn raw clips into a publishable cut after shooting.
+  pain: 公开材料只给出“自动剪辑”这一句描述，没有说明创作者此前在剪辑上具体卡在哪一步、不剪会失去什么。
+  pain_en: The public material gives only the phrase 'edits itself'; it does not say which editing step
+    creators were stuck on, nor what is lost by not editing.
+  current_alternative: 创作者此前通常使用 iMovie、剪映等剪辑软件手动挑选片段并拼接，候选材料未提供与该流程的对比。
+  current_alternative_en: Creators typically used editors such as iMovie or CapCut to manually select
+    and assemble clips; the candidate material offers no comparison with that process.
+  usage_reason: 推断：若自动剪辑能省去手动挑选与拼接片段这一步，怕麻烦的日常创作者会在拍完即发的场景中选择它；但公开材料未说明剪辑质量与可控性，无法确认这一因果。
+  usage_reason_en: 'Inference: if automatic editing removes the manual clip-selection and assembly step,
+    casual creators who dislike editing would pick it for shoot-and-publish scenarios; but edit quality
+    and controllability are not disclosed, so the causal claim cannot be confirmed.'

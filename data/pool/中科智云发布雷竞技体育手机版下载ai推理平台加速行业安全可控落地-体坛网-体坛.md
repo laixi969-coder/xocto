@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XOHdtZnFmT0st
 summary: 中科智云发布“雷竞技体育手机版下载”AI推理平台，加速行业安全可控落地- 体坛网_体坛+ 体坛
 first_seen: '2026-09-17T03:53:32Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -23,7 +23,7 @@ summary: 'HG Insights Katie Allison on AI Trust Stalling and What it Means for B
   Q&A Demand Gen Report'
 first_seen: '2026-09-17T11:02:17Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

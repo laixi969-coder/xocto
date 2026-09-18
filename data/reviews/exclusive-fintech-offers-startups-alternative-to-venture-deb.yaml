@@ -1,0 +1,45 @@
+- id: req-initial-exclusive-fintech-offers-startups-alternative-to-venture-deb-2026-09-18
+  project_slug: exclusive-fintech-offers-startups-alternative-to-venture-deb
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是获客资金前置、股权被稀释的痛点，旧做法是股权融资或砍投放，结构上成立；但材料未说明 AI 具体做什么，价值主张仍不清晰。
+    evidence_ids:
+    - ev-29544bba4913d463
+  - gate: consensus
+    status: insufficient
+    reason: 只有一篇报道描述模式，没有客户案例、签约量或使用反馈，无法判断买方是否真的接受这种还款方式。
+    evidence_ids:
+    - ev-29544bba4913d463
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、利率、还款比例或收入分成方式，钱来自创业公司偿还还是其他方无法确认，属判断而非已验证事实。
+    evidence_ids:
+    - ev-29544bba4913d463
+  - gate: truth
+    status: insufficient
+    reason: 无法核对获客归因与还款核算是否可靠，也没有交付结果或违约处理信息，确定性交付尚未证明。
+    evidence_ids:
+    - ev-29544bba4913d463
+  next_validation: 收集 Skalar 官方定价或条款页面，确认还款比例、获客归因方式与已公开的客户案例。
+  market: ''
+  job: 初创公司创始人在需要扩大销售与市场投放、但不愿再出让股权时，处理获客预算与投放计划，要完成的是拿到可用的获客资金并把投放跑起来。
+  job_en: A startup founder who needs to scale sales and marketing but does not want to give up more equity
+    works with acquisition budgets and campaign plans to obtain usable acquisition capital and get campaigns
+    running.
+  pain: 早期公司获客支出前置、回报滞后，用股权融资支付投放会稀释股份，用风险债又缺少可抵押资产，创始人常被迫压缩投放规模。
+  pain_en: For early-stage companies acquisition spend comes before returns; paying for it with equity
+    dilutes founders, while venture debt needs collateral they lack, so founders often have to cut campaign
+    scale.
+  current_alternative: 旧做法是拿股权融资或风险债来支付销售与市场费用，或直接削减投放、靠自然增长。
+  current_alternative_en: The old approach is to fund sales and marketing from equity rounds or venture
+    debt, or to simply cut spend and rely on organic growth.
+  usage_reason: 推断：相较股权融资，Skalar 把还款绑定到这批资金带来的客户收入上，减少了创始人一次性让出股份这一步；但候选材料未说明 AI 在获客或还款核算中的具体动作，因此哪类用户会因此选择它仍缺少可核对依据。
+  usage_reason_en: 'Inference: unlike equity funding, Skalar ties repayment to the revenue from customers
+    that the capital acquires, removing the step of giving up equity up front; however the material does
+    not describe AI''s specific action in acquisition or repayment accounting, so which users would choose
+    it lacks verifiable support.'

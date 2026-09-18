@@ -1,0 +1,47 @@
+- id: req-initial-manybot-2026-09-18
+  project_slug: manybot
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是搭建 WhatsApp 机器人的工程负担，但公开材料未说明具体繁琐环节、耗时与不采用的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-6208ba81554b337d
+    - ev-151ef2b358406d7b
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 9 点、0 条评论，没有开发者采用、案例或重复使用的公开证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-6208ba81554b337d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、开源许可与商业主体，买方可能是开发者自建或代运营服务商，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6208ba81554b337d
+    - ev-151ef2b358406d7b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近商家消息自动化的第一性目标，也看不到交付确定性与人工兜底边界的说明。
+    evidence_ids:
+    - ev-6208ba81554b337d
+  next_validation: 收集 ManyBot 的官方文档或代码仓库，确认它实际封装了哪些 WhatsApp 接口环节、是否开源及许可条款。
+  market: ''
+  job: 开发者或代运营人员为使用 WhatsApp 做客服、下单或通知的商家搭建机器人，需要把消息收发、接口对接和部署串成一条可运行的服务。
+  job_en: A developer or outsourced operator builds a bot for a merchant that uses WhatsApp for support,
+    ordering or notifications, and must wire message handling, API integration and deployment into one
+    runnable service.
+  pain: 公开材料只说明它省去搭建中的繁琐部分，没有说明具体是哪一步繁琐、耗时多久、失败率如何，因此痛点强度无法从现有事实判断。
+  pain_en: The public material only says it removes the tedious part of setup; it does not say which step
+    is tedious, how long it takes or how often it fails, so pain intensity cannot be judged from available
+    facts.
+  current_alternative: 商家和开发者目前通常直接使用 WhatsApp 官方商业接口自行开发，或采购现成的客服机器人 SaaS，也可能继续用人工在手机上回复。
+  current_alternative_en: Merchants and developers currently build directly on the official WhatsApp Business
+    API, buy an off-the-shelf support-bot SaaS, or keep replying manually on a phone.
+  usage_reason: 推断：如果框架确实把接口对接与部署封装成可复用组件，开发者可以少写这部分胶水代码，从而在需要快速上线多个商家机器人时选择它；但缺少文档、示例或用户反馈，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if the framework really packages API integration and deployment into reusable
+    components, developers write less glue code and may pick it when they need to launch bots for several
+    merchants quickly; without docs, examples or user feedback, it cannot be confirmed that this burden
+    is actually reduced.'

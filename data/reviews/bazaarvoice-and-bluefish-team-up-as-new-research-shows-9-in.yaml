@@ -1,0 +1,43 @@
+- id: req-initial-bazaarvoice-and-bluefish-team-up-as-new-research-shows-9-in-2026-09-18
+  project_slug: bazaarvoice-and-bluefish-team-up-as-new-research-shows-9-in
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 推荐缺少真实评论支撑的问题，痛点方向成立，但材料未说明具体输入、动作与交付，价值证据不足。
+    evidence_ids:
+    - ev-8a223015c3554876
+  - gate: consensus
+    status: insufficient
+    reason: 仅有合作与研究结论，未见商家或平台的实际采用与持续使用证据。
+    evidence_ids:
+    - ev-8a223015c3554876
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与收费方式，无法判断钱从哪一方来，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8a223015c3554876
+  - gate: truth
+    status: insufficient
+    reason: 无法核对推荐内容是否确实引用真实评论，也未见人工审核边界与交付结果。
+    evidence_ids:
+    - ev-8a223015c3554876
+  next_validation: Bazaarvoice 官方页面或客户案例中是否披露该合作的具体产品形态、接入方式与商家使用结果。
+  market: ''
+  job: 电商运营在准备商品推荐位与商品页文案时，需要处理用户评论与商品信息，产出可被 AI 推荐系统引用的内容。
+  job_en: E-commerce operators preparing recommendation slots and product page copy handle user reviews
+    and product information to produce content that AI recommendation systems can cite.
+  pain: AI 生成的商品推荐缺少真实评论支撑，购物者不信任；运营需要人工核对评论与推荐文案是否对得上。
+  pain_en: AI-generated product recommendations lack real review backing and shoppers distrust them; operators
+    must manually check whether reviews and recommendation copy match.
+  current_alternative: 目前多由运营人工挑选评论、手动粘贴进商品页或推荐文案，或直接使用平台默认推荐。
+  current_alternative_en: Today operators usually hand-pick reviews and paste them into product pages
+    or recommendation copy, or simply accept platform default recommendations.
+  usage_reason: 推断：若合作能把评论数据直接接入推荐内容生成，运营可省去人工挑选与核对评论这一步，因此对评论量大、推荐位多的电商团队更有吸引力；但材料未给出实际使用反馈，无法确认是否被长期采用。
+  usage_reason_en: 'Inference: if the partnership pipes review data directly into recommendation content
+    generation, operators could skip the manual step of selecting and checking reviews, which appeals
+    to e-commerce teams with large review volumes and many recommendation slots; the material gives no
+    actual usage feedback, so sustained adoption cannot be confirmed.'

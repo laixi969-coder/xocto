@@ -21,7 +21,7 @@ canonical_url: https://cloudx.ai/posts/setup-go
 summary: Scaling Golang CI by Replacing actions/setup-go
 first_seen: '2026-09-16T13:02:14Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

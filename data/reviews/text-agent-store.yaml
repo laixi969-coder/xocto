@@ -1,0 +1,42 @@
+- id: req-initial-text-agent-store-2026-09-18
+  project_slug: text-agent-store
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句市场定位，价值关无法成立。
+    evidence_ids:
+    - ev-248d45c5df9717df
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用、评价或使用信号可判断共识。
+    evidence_ids:
+    - ev-248d45c5df9717df
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无公开信息。
+    evidence_ids:
+    - ev-248d45c5df9717df
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-248d45c5df9717df
+  next_validation: 收集该产品的官方说明页或文档，确认一条短信能完成的具体任务、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify a specific user or scenario, so it is unclear who handles
+    what material under what conditions to complete which task.
+  pain: 未提供任何用户痛点、旧做法或抱怨，无法判断要缓解哪一步负担。
+  pain_en: No user pain, prior workaround, or complaint is provided, so it is impossible to tell which
+    step's burden is being reduced.
+  current_alternative: 未说明现有替代方式，无法判断用户此前如何完成同类事务。
+  current_alternative_en: No existing alternative is described, so it is unclear how users handled comparable
+    tasks before.
+  usage_reason: 缺少可核对的功能、流程与交付描述，无法解释用户为何会选择它而非旧做法；这是事实不足，不是需求不成立。
+  usage_reason_en: With no verifiable description of function, flow, or deliverable, there is no basis
+    to explain why a user would choose it over the old way; this is missing facts, not proof the need
+    is absent.

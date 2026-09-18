@@ -1,0 +1,44 @@
+- id: req-initial-typesafe-computer-use-2026-09-18
+  project_slug: typesafe-computer-use
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是没有 API 的桌面软件无法被程序操作、只能人工重复点击的问题，痛点具体且旧替代行为明确；但公开材料未给出真实流程的成功率。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标和 fork 数，属于关注度而非采用证据，没有客户案例或团队内部落地描述，无法判断是否形成共识。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+  - gate: model
+    status: insufficient
+    reason: 按步计价的成本数字来自项目自述，未见定价页或付费记录；买方可能是自建自动化的企业团队，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+  - gate: truth
+    status: insufficient
+    reason: OCR 加分类的链路在界面变化、弹窗和权限受限场景下能否确定性交付点击结果，公开材料没有说明，也未见人工兜底边界。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+  next_validation: 收集该仓库的 issue 与 discussion，核对真实用户报告的成功率、失败场景与界面变动后的维护情况。
+  market: ''
+  job: 做 RPA 或内部自动化的开发者，在需要让程序操作没有 API 的 macOS 桌面软件时，处理屏幕截图和界面文字，要完成把「下一步点哪里」变成可执行点击的任务。
+  job_en: Developers building RPA or internal automation who need a program to operate macOS desktop apps
+    that have no API, working from screenshots and on-screen text to turn 'where to click next' into an
+    executed click.
+  pain: 没有 API 的桌面软件只能靠人重复点击，或写死坐标的脚本；界面一改脚本就失效，维护成本高。
+  pain_en: Desktop software without an API can only be driven by humans clicking repeatedly or by scripts
+    with hard-coded coordinates; any UI change breaks the script and maintenance cost is high.
+  current_alternative: 旧做法是人工重复点击，或写基于固定坐标和图像匹配的自动化脚本，界面变动后需要人工重新录制和修脚本。
+  current_alternative_en: The old way is manual repeated clicking, or automation scripts based on fixed
+    coordinates and image matching that must be re-recorded and patched by hand after UI changes.
+  usage_reason: 推断：它把「看懂界面」交给 OCR、把「决定动作」交给分类模型，开发者不必为每个界面写坐标规则，界面小改动时可能不必重录脚本，因此做内部自动化、且目标软件没有 API 的团队会先试它。缺少的是真实流程中的成功率与长期维护记录。
+  usage_reason_en: 'Inference: it delegates reading the screen to OCR and choosing the action to a classifier,
+    so developers need not write coordinate rules per screen and may avoid re-recording scripts after
+    small UI changes; teams doing internal automation on API-less software would try it first. What is
+    missing is success-rate and long-term maintenance evidence from real flows.'

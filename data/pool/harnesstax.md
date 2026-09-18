@@ -21,7 +21,7 @@ canonical_url: https://harnesstax.github.io
 summary: How Much Does the Harness Matter for Coding Agents?
 first_seen: '2026-09-16T22:10:13Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

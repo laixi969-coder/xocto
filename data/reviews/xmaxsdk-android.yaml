@@ -1,0 +1,42 @@
+- id: req-initial-xmaxsdk-android-2026-09-18
+  project_slug: xmaxsdk-android
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来：材料只说明是实时交互式视频生成 SDK，未说明替代哪一步旧工作、不采用会失去什么。
+    evidence_ids:
+    - ev-34d8f1534818026c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。仅有 40 个星标，无采用、集成或客户证据。
+    evidence_ids:
+    - ev-34d8f1534818026c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。买方、定价与收费方式均未披露。
+    evidence_ids:
+    - ev-34d8f1534818026c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核对生成时延、输出规格与安全边界。
+    evidence_ids:
+    - ev-34d8f1534818026c
+  next_validation: 该 SDK 的官方文档或仓库 README，用于核验输入形式、生成时延、输出规格与商用授权条件。
+  market: ''
+  job: Android 应用开发者需要在自有 App 内加入实时交互式视频生成能力，处理用户触发的视频生成请求并返回可播放结果。
+  job_en: Android app developers need to add real-time interactive video generation inside their own app,
+    handling user-triggered generation requests and returning playable results.
+  pain: 公开材料只说明这是一个 SDK，没有说明它替代了开发者此前的哪一步手工或第三方流程，也没有说明不采用会失去什么。
+  pain_en: The public material only says this is an SDK; it does not say which manual or third-party step
+    it replaces, nor what is lost by not adopting it.
+  current_alternative: 开发者此前可能自行调用视频生成 API 或使用其他厂商 SDK，但候选材料未提供对比信息。
+  current_alternative_en: Developers may previously have called video generation APIs directly or used
+    other vendors' SDKs, but the candidate material provides no comparison.
+  usage_reason: 推断：若该 SDK 能省去开发者自行封装实时视频生成链路的工程工作，开发者会在需要端侧实时生成的场景中选择它；但公开材料未给出时延、成本或集成难度，无法确认这一因果。
+  usage_reason_en: 'Inference: if the SDK removes the engineering work of wrapping a real-time video generation
+    pipeline, developers would pick it for on-device real-time scenarios; but latency, cost and integration
+    effort are not disclosed, so the causal claim cannot be confirmed.'

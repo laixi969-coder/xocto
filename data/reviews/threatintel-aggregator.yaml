@@ -1,0 +1,45 @@
+- id: req-initial-threatintel-aggregator-2026-09-18
+  project_slug: threatintel-aggregator
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决情报源分散、人工逐条分诊与映射 ATT&CK 耗时的问题，旧做法是手工浏览加表格记录，痛点和替代行为都具体，交付物为分诊条目与检测规则。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 41 星、4 个 fork，无用户评价或客户案例，尚不能说明安全团队已把它放进日常流程。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  - gate: model
+    status: insufficient
+    reason: 开源自托管，未见定价页或商业主体，钱可能来自企业自建或托管服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  - gate: truth
+    status: insufficient
+    reason: AI 分诊准确率、误报处理与人工复核边界均未披露，检测规则能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认 AI 分诊的输入输出、人工复核边界以及是否已有团队在实际部署中使用。
+  market: ''
+  job: 安全运营中心分析师在每日值班时，面对多个外部威胁情报源推送的 IOC、报告和告警，需要筛出与本组织资产相关的条目，并转成可部署的检测规则。
+  job_en: During daily shifts, a SOC analyst receives IOCs, reports and alerts pushed by multiple external
+    threat intelligence feeds, must filter the items relevant to the organization's assets, and turn them
+    into deployable detection rules.
+  pain: 情报源分散、格式不一，人工逐条阅读和映射 ATT&CK 耗时，且容易漏掉与自身资产相关的条目；不处理的后果是检测规则更新滞后。
+  pain_en: Feeds are fragmented and inconsistently formatted; reading and mapping each item to ATT&CK
+    by hand is slow and easily misses items relevant to one's own assets, leaving detection rules stale.
+  current_alternative: 分析师手工浏览情报源邮件与网页，用表格记录 IOC，再凭经验写 Sigma 或 Sentinel 规则；或购买商业威胁情报平台。
+  current_alternative_en: Analysts manually browse feed emails and pages, log IOCs in spreadsheets, and
+    hand-write Sigma or Sentinel rules from experience; or they buy a commercial threat intelligence platform.
+  usage_reason: 相较手工浏览与表格记录，它把情报源聚合后由 AI 先做一轮分诊并自动映射 ATT&CK，分析师只需复核被筛出的条目，省掉逐条阅读和手工归类这一步；预算有限、又已用 Azure
+    Sentinel 的安全团队会因此选择它（推断）。
+  usage_reason_en: Compared with manual browsing and spreadsheets, it aggregates feeds and lets AI do
+    a first triage pass with automatic ATT&CK mapping, so analysts only review the filtered items instead
+    of reading and classifying each one; security teams with limited budget already on Azure Sentinel
+    would choose it for that reason (inference).

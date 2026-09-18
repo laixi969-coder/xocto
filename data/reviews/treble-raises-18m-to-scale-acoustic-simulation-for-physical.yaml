@@ -1,0 +1,44 @@
+- id: req-initial-treble-raises-18m-to-scale-acoustic-simulation-for-physical-2026-09-18
+  project_slug: treble-raises-18m-to-scale-acoustic-simulation-for-physical
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决硬件声学早期验证缺数据、实测周期长的问题，旧流程是造样机加消声室测量，痛点刚性且可核对。
+    evidence_ids:
+    - ev-661cc5a05a97b700
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资消息，未见客户名单、采用规模或工程师社区讨论，无法判断共识是否形成。
+    evidence_ids:
+    - ev-661cc5a05a97b700
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按项目、按席位还是按仿真量收费不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-661cc5a05a97b700
+  - gate: truth
+    status: insufficient
+    reason: 仿真结果与实测的偏差、人工复核边界均未公开，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-661cc5a05a97b700
+  next_validation: 收集 Treble 官方定价页或公开客户案例，确认其按什么计价以及是否有硬件厂商披露仿真替代实测的具体结果。
+  market: ''
+  job: 硬件厂商的声学工程师在开发扬声器、耳机或车内音响时，需要在没有物理样机的阶段处理结构几何与材料参数，产出可比较的声学性能数据以决定设计方向。
+  job_en: Acoustics engineers at hardware makers developing speakers, headphones or in-car audio need
+    to work from geometry and material parameters before a physical prototype exists and produce comparable
+    acoustic performance data to choose a design direction.
+  pain: 传统做法要反复造样机、预约消声室或实地测量，单轮周期长、成本高，早期设计阶段拿不到足够数据，只能靠经验取舍。
+  pain_en: The traditional route requires repeated prototypes, booked anechoic chambers or field measurement,
+    so each round is slow and costly and early design stages lack enough data, forcing decisions by intuition.
+  current_alternative: 商业声学仿真软件加人工建模，配合后期样机实测；部分团队用简化公式或历史项目数据估算。
+  current_alternative_en: Commercial acoustic simulation software with manual modelling, plus later prototype
+    measurement; some teams estimate with simplified formulas or past project data.
+  usage_reason: 推断：相较先造样机再测，它把声学验证提前到设计阶段，减少一轮样机与消声室排期，使团队在投入模具前就能比较方案；因此早期设计阶段缺数据、又负担不起多轮实测的硬件团队会选它。
+  usage_reason_en: 'Inference: compared with building a prototype first and measuring later, it moves
+    acoustic validation into the design stage and removes one prototype and chamber booking cycle, letting
+    teams compare options before committing to tooling; hardware teams short on early-stage data and unable
+    to afford repeated measurement would choose it.'

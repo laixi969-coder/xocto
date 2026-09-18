@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLcEhWc3JJT1I1
 summary: Consumer AI：从模型能力到产品成立，下一代Killer App 还缺什么？ 虎嗅网
 first_seen: '2026-09-15T02:59:18Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

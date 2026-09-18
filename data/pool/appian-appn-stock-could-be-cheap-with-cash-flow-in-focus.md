@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQYy1weERNZmZX
 summary: Appian (APPN) Stock Could Be Cheap With Cash Flow In Focus simplywall.st
 first_seen: '2026-09-17T00:32:24Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: idc发布agent评估报告-中国电信teleagent跻身国内ai智能体第一梯队
-name: IDC发布Agent评估报告 中国电信TeleAgent跻身国内AI智能体第一梯队
+name: 中国电信 TeleAgent
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yZTUxelZxUFc5
 summary: IDC发布Agent评估报告 中国电信TeleAgent跻身国内AI智能体第一梯队 光明网
 first_seen: '2026-09-17T02:25:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# IDC发布Agent评估报告 中国电信TeleAgent跻身国内AI智能体第一梯队
+# 中国电信 TeleAgent
 
 IDC发布Agent评估报告 中国电信TeleAgent跻身国内AI智能体第一梯队 光明网
 

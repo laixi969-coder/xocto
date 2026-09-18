@@ -1,0 +1,46 @@
+- id: req-initial-jev-review-2026-09-18
+  project_slug: jev-review
+  level: initial
+  reviewed_at: '2026-09-18T00:19:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码增多后人工评审跟不上的问题，把评审拆成阶段交给代理执行，痛点具体且旧做法明确；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+    - ev-5395f25dff03dcab
+  - gate: consensus
+    status: insufficient
+    reason: 两个仓库分别有 161 和 77 个星标，属关注度信号，未见用户评价或团队采用案例，尚不能说明形成共识。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+    - ev-5395f25dff03dcab
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；钱可能来自团队自建或后续商业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明是评审工作流与 MCP 插件，未披露检查项、误报处理和人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+    - ev-5395f25dff03dcab
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认评审阶段划分、检查项清单以及是否有团队实际接入的公开记录。
+  market: ''
+  job: 开发者在提交代码前，需要让 AI 编码代理对本次改动做分阶段质量评审，并在本地看板中查看结果后决定是否提交。
+  job_en: Before committing, developers need an AI coding agent to run staged quality review on the change
+    and to inspect the results in a local dashboard before deciding whether to commit.
+  pain: AI 生成的代码量增加后，人工逐行评审跟不上，评审标准散落在个人习惯里，容易漏掉质量问题。
+  pain_en: As AI-generated code volume grows, line-by-line human review cannot keep up, and review standards
+    scattered across individual habits let quality issues slip through.
+  current_alternative: 目前多依赖人工代码评审、CI 静态检查或通用编码助手附带的自查提示，缺少把评审阶段和标准固定下来的流程。
+  current_alternative_en: Today teams mostly rely on manual code review, CI static checks, or ad-hoc self-check
+    prompts inside general coding assistants, with no fixed review stages or standards.
+  usage_reason: 推断：相较人工逐行评审，它把评审拆成阶段并交给代理执行，开发者只需在本地看板确认结果，减少的是逐行通读这一步负担；对频繁使用 AI 编码代理、又需要保留评审记录的团队更可能被选用。
+  usage_reason_en: 'Inference: compared with line-by-line manual review, it splits review into stages
+    executed by an agent, so developers only confirm results in a local dashboard, removing the burden
+    of reading every line; teams that heavily use AI coding agents and need review records are more likely
+    to adopt it.'

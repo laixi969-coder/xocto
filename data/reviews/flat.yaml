@@ -1,0 +1,43 @@
+- id: req-initial-flat-2026-09-18
+  project_slug: flat
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决网格会议缺少非正式交流的问题，痛点方向成立，但 AI 在其中的作用与交付结果均未说明。
+    evidence_ids:
+    - ev-313ec789cf4908a6
+  - gate: consensus
+    status: insufficient
+    reason: 92 点、52 条评论属于一次社区讨论热度，不能说明持续采用。
+    evidence_ids:
+    - ev-313ec789cf4908a6
+  - gate: model
+    status: insufficient
+    reason: 未见定价或买方说明，按席位还是按场次收费未知。
+    evidence_ids:
+    - ev-313ec789cf4908a6
+  - gate: truth
+    status: insufficient
+    reason: 无法核验会议稳定性与人工边界，交付确定性未知。
+    evidence_ids:
+    - ev-313ec789cf4908a6
+  next_validation: 官方定价页或客户案例页面，用于确认 AI 功能、交付形式与付费方式。
+  market: ''
+  job: 远程团队组织者或在线活动主持需要在会议中安排小组讨论与自由交流，让参与者像在同一空间里走动交谈。
+  job_en: A remote team organizer or online event host needs to run small-group discussion and free-form
+    mingling so participants can move around and talk as if in one space.
+  pain: 网格视频会议里参与者只能轮流发言，非正式交流与临时搭话难以发生，小组讨论体验差。
+  pain_en: In grid video calls participants can only speak in turn, informal exchange and spontaneous
+    side conversations rarely happen, and small-group discussion suffers.
+  current_alternative: 用常规视频会议软件加分组房间，或另开语音频道模拟自由交流。
+  current_alternative_en: Standard video-conferencing tools with breakout rooms, or separate voice channels
+    to imitate free-form mingling.
+  usage_reason: 推断：空间化场景让参与者能自行走近交谈，组织者不必手动分配分组房间，因此常办工作坊或培训的团队会尝试；但材料未说明 AI 承担什么动作，也无留存或复购证据，无法确认它被长期留在会议流程里。
+  usage_reason_en: 'Inference: a spatial scene lets participants walk up and talk on their own, so organizers
+    need not manually assign breakout rooms, which is why teams running frequent workshops or training
+    would try it; but the material does not say what AI does, and there is no retention or repeat-use
+    evidence, so long-term embedding in meeting workflows cannot be confirmed.'

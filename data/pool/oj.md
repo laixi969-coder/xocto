@@ -21,7 +21,7 @@ canonical_url: https://github.com/lovablelabs/oj
 summary: A drop-in replacement for Vite in Rust
 first_seen: '2026-09-17T21:21:01Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

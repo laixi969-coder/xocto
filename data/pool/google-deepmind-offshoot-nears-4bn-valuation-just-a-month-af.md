@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmlNUHJWS1RG
 summary: Google DeepMind offshoot nears $4bn valuation just a month after founding ft.com
 first_seen: '2026-09-17T04:00:11Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

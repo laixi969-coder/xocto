@@ -1,0 +1,45 @@
+- id: req-initial-syte-raises-9m-to-automate-early-stage-real-estate-planning-2026-09-18
+  project_slug: syte-raises-9m-to-automate-early-stage-real-estate-planning
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决拿地前判断地块能否开发的需求，痛点是资料分散、人工翻查慢且漏项代价高，旧流程与不采用的后果都能说清。
+    evidence_ids:
+    - ev-440efddc80fb78d1
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息，没有客户名单、使用规模或行业口碑，无法判断买方是否已形成共识。
+    evidence_ids:
+    - ev-440efddc80fb78d1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方是开发商、中介还是政府无法确认，收入路径属推断。
+    evidence_ids:
+    - ev-440efddc80fb78d1
+  - gate: truth
+    status: insufficient
+    reason: 无法核对评估结果是否贴近规划审批的真实约束，也未说明人工复核边界与出错责任。
+    evidence_ids:
+    - ev-440efddc80fb78d1
+  next_validation: 收集 syte 官方定价页或公开客户案例，确认按地块、按项目还是按席位收费，以及是否有开发商重复使用。
+  market: ''
+  job: 德国地产开发商或项目方在决定是否拿一块地之前，需要处理地籍、规划与地块资料，判断这块地能否开发、以什么方式开发，并形成前期可行性判断。
+  job_en: Before deciding whether to acquire a site, a German developer or project owner works through
+    cadastral, zoning and plot records to judge whether and how it can be developed, forming an early
+    feasibility view.
+  pain: 这些资料分散在多个登记与规划来源，人工翻查耗时且容易漏掉限制条件，判断错误会在拿地后变成高昂的返工或直接损失。
+  pain_en: These records sit across multiple registries and planning sources; manual review is slow, easily
+    misses constraints, and a wrong call becomes costly rework or a direct loss after acquisition.
+  current_alternative: 目前多由开发商内部人员或外部顾问手工查资料、做表格和初步测算，再凭经验给出结论。
+  current_alternative_en: Today this is usually done by in-house staff or external consultants manually
+    pulling records, building spreadsheets and rough estimates, then judging by experience.
+  usage_reason: 推断：相较人工逐份翻查，syte 把土地与房产数据集中进分析平台并直接产出前期评估结果，省掉的是资料搜集与初步测算这一步，因此会在拿地决策前需要快速筛掉不可行地块的开发商或中介选择它；公开材料未披露定价与客户案例，付费与复用尚未核验。
+  usage_reason_en: 'Inference: compared with manually paging through records, syte centralises land and
+    property data in an analytics platform and returns an early assessment, removing the data-gathering
+    and first-pass estimation step, so developers or brokers screening out unviable sites before an acquisition
+    decision would choose it; pricing and customer cases are not disclosed, so payment and repeat use
+    remain unverified.'

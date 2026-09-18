@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5UUFjMm5ja3N4
 summary: AI时代 跨境电商服务商的增量空间在哪里？ 亿邦动力网
 first_seen: '2026-09-17T02:21:47Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

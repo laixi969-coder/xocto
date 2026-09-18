@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4UVNJT1JQRlI0
 summary: 【专访】宋雪涛：加息也救不了美债长端利率，AI何时兑现是关键 Jiemian.com
 first_seen: '2026-09-17T05:49:57Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

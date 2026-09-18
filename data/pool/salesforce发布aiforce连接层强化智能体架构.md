@@ -1,6 +1,6 @@
 ---
 slug: salesforce发布aiforce连接层强化智能体架构
-name: Salesforce发布AIforce连接层强化智能体架构
+name: Salesforce
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VNUZHaHJDNlZv
 summary: Salesforce发布AIforce连接层强化智能体架构 thepaper.cn
 first_seen: '2026-09-17T05:41:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Salesforce发布AIforce连接层强化智能体架构
+# Salesforce
 
 Salesforce发布AIforce连接层强化智能体架构 thepaper.cn
 

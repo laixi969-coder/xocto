@@ -24,7 +24,7 @@ summary: Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As
   just published a […]
 first_seen: '2026-09-17T14:00:00Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

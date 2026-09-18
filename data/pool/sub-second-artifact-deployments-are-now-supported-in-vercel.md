@@ -1,6 +1,6 @@
 ---
 slug: sub-second-artifact-deployments-are-now-supported-in-vercel
-name: Sub-second artifact deployments are now supported in Vercel CLI
+name: Vercel CLI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/sub-second-artifact-deployments-are-
 summary: ''
 first_seen: '2026-09-17T22:00:00Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Sub-second artifact deployments are now supported in Vercel CLI
+# Vercel CLI
 
 _（源没给简介）_
 

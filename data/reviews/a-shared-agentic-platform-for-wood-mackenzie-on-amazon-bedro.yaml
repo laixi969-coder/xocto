@@ -1,0 +1,44 @@
+- id: req-initial-a-shared-agentic-platform-for-wood-mackenzie-on-amazon-bedro-2026-09-18
+  project_slug: a-shared-agentic-platform-for-wood-mackenzie-on-amazon-bedro
+  level: initial
+  reviewed_at: '2026-09-18T00:20:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决研究机构重复搭建智能体底座、缺少统一护栏导致生产交付不稳的问题，痛点与旧做法清楚。
+    evidence_ids:
+    - ev-3753f8f882dde9b4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方技术博客描述，未见其他团队采用或行业共识证据。
+    evidence_ids:
+    - ev-3753f8f882dde9b4
+  - gate: model
+    status: insufficient
+    reason: 平台为内部共享，未披露对外定价或收费方式，买方路径不明。
+    evidence_ids:
+    - ev-3753f8f882dde9b4
+  - gate: truth
+    status: insufficient
+    reason: 未说明智能体输出的核验方式与人工边界，交付确定性待核验。
+    evidence_ids:
+    - ev-3753f8f882dde9b4
+  next_validation: Wood Mackenzie或AWS公开的APEX部署文档与客户案例页面，说明已上线智能体的具体任务与人工复核环节。
+  market: ''
+  job: 能源行业分析师与研究数据工程师在需要把内部数据和分析流程做成可复用智能体时，处理公司专有数据与报告口径，要完成可上线的分析型智能体交付。
+  job_en: Energy analysts and research data engineers, when turning internal data and analysis workflows
+    into reusable agents, work with proprietary data and report conventions to deliver a deployable analytical
+    agent.
+  pain: 每个团队各自搭建运行时、身份、可观测与护栏会重复投入，且缺少统一护栏时生产级智能体难以稳定交付。
+  pain_en: Each team rebuilding runtime, identity, observability and guardrails duplicates effort, and
+    without shared guardrails production agents are hard to deliver reliably.
+  current_alternative: 此前各团队自行搭建或直接调用模型接口，重复解决运行时与合规问题。
+  current_alternative_en: Previously each team built its own stack or called model APIs directly, re-solving
+    runtime and compliance issues.
+  usage_reason: 推断：相较各团队自建，APEX把运行时、身份、可观测与护栏做成共享底座，团队只需在其上定义任务与数据，减少了重复搭建这一步，因此拥有专有数据、需要多个智能体上线的研究机构会采用它。
+  usage_reason_en: 'Inference: compared with each team building its own stack, APEX makes runtime, identity,
+    observability and guardrails a shared base so teams only define tasks and data, removing the rebuild
+    step; research firms with proprietary data that need several agents in production would therefore
+    adopt it.'

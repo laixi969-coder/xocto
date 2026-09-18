@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPSTFKSGpIZTRj
 summary: Aventura AI startup raises $34 million, plans to add South Florida jobs The Business Journals
 first_seen: '2026-09-17T13:57:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

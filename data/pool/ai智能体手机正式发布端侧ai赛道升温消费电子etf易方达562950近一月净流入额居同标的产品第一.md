@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BeVVjanJTdHZr
 summary: AI智能体手机正式发布，端侧AI赛道升温，消费电子ETF易方达（562950）近一月净流入额居同标的产品第一 财联社
 first_seen: '2026-09-17T08:10:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

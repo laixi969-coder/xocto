@@ -21,7 +21,7 @@ canonical_url: https://rhopool.com
 summary: 'Trading on-chain with 0 gas: A <1ms DEX router at 0.50% fees'
 first_seen: '2026-09-17T11:26:29Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

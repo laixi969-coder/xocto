@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSzNiRU5XUkcz
 summary: 80% Of U.S. Consumers Are Either Negatively, Positively Influenced By Reviews 11/27/2024 MediaPost
 first_seen: '2026-09-15T15:47:05Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

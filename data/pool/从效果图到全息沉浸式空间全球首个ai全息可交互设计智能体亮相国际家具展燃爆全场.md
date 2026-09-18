@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JM1lRdEVnSUg2
 summary: 从效果图到全息沉浸式空间，全球首个AI全息可交互设计智能体亮相国际家具展，燃爆全场 CSDN
 first_seen: '2026-09-16T01:45:51Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE93TlloM3RqVHdt
 summary: 模型满分，业务归零——AI商业化的最后一公里 36 Kr
 first_seen: '2026-09-16T21:59:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

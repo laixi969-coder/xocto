@@ -22,7 +22,7 @@ summary: King Charles hosted a private summit Thursday with some of the most pro
   the U.K. government.
 first_seen: '2026-09-17T17:26:25Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

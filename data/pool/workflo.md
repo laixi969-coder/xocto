@@ -3,20 +3,26 @@ slug: workflo
 name: Workflo
 builder: Chirag Chopra
 category: AI + 效率
-summary_zh: 面向 Mac 用户的本地工作区自动化工具，宣称在不读取屏幕内容的前提下自动完成重复操作；具体接收什么输入、执行哪些动作、交付什么结果，公开材料未给出细节，流程与交付仍待核验。
-inspiration: 趋势是自动化开始把“不采集屏幕内容”当作卖点，隐私边界本身成为产品差异；切入可考虑把同类能力做进对数据外流敏感的行业，如律所、诊所、财税代账的本地重复操作环节，按处理量或席位收费，但需先确认其真实动作范围。
-summary_en: A Mac workspace automation tool that claims to complete repetitive operations without reading
-  screen content; what it accepts as input, which actions it performs and what it delivers are not detailed
-  in the public material, so the workflow and output remain unverified.
-inspiration_en: The trend is that automation now sells privacy boundaries as a differentiator; an entry
-  point is applying similar capability inside data-sensitive sectors such as law firms, clinics and accounting
-  practices, charging per volume or seat, but its actual action scope must be confirmed first.
+summary_zh: Mac 用户在处理跨应用的重复桌面操作时打开它，由工具在本地执行工作区自动化动作，宣称不读取屏幕内容；用户最终得到的是被自动完成的桌面操作结果，但具体接收什么输入、执行哪些动作、交付形态如何，公开材料未给出细节，仍待核验。
+inspiration: 趋势：桌面端自动化开始把“不读取屏幕内容”当作卖点，说明隐私边界正成为这类工具能否进入企业工作流的门槛。切入：可从需要处理敏感材料的岗位切入，例如财务、法务、医疗行政的本地文件整理与跨应用搬运，卖点放在数据不出本机；但需先确认它究竟替代了哪一步手工操作。
+summary_en: Mac users open it when handling repetitive cross-application desktop operations; the tool
+  performs workspace automation actions locally and claims not to read screen content. The user ends up
+  with completed desktop operations, but what input it takes, which actions it runs and what the deliverable
+  looks like are not detailed in public material and remain unverified.
+inspiration_en: 'Trend: desktop automation now markets ''never sees your screen'', suggesting privacy
+  boundaries are becoming the gate for entering enterprise workflows. Entry: target roles handling sensitive
+  material, such as finance, legal or medical admin doing local file organisation and cross-app transfers,
+  selling on data staying on-device; first confirm which manual step it actually replaces.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 软件与信息技术服务
+industries_en:
+- Software and IT services
+jobs:
+- 知识工作者日常重复性桌面操作
+jobs_en:
+- Knowledge workers' repetitive desktop operations
 regions: []
 regions_en: []
 open_source: false
@@ -25,7 +31,7 @@ canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen
 first_seen: '2026-08-08T22:35:22Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - hackernews

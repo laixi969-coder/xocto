@@ -1,0 +1,44 @@
+- id: req-initial-claude-code-relaunches-projects-to-manage-multiple-ai-agents-2026-09-18
+  project_slug: claude-code-relaunches-projects-to-manage-multiple-ai-agents
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 并行时上下文丢失与目标错位的问题，痛点来自真实编码流程，交付物是可合入的改动，结构上成立。
+    evidence_ids:
+    - ev-52ada4fac995bbf6
+  - gate: consensus
+    status: insufficient
+    reason: 报道说明功能已发布并被拿来与同类工具比较，但没有可归因到该功能的采用规模或留存数据。
+    evidence_ids:
+    - ev-52ada4fac995bbf6
+  - gate: model
+    status: insufficient
+    reason: 属于 Anthropic 订阅体系内的功能，买方是现有付费开发者，但本次材料未给出该功能的独立定价或席位变化，属判断。
+    evidence_ids:
+    - ev-52ada4fac995bbf6
+  - gate: truth
+    status: insufficient
+    reason: 并行 agent 的产出仍需人工审查，协调者能否确定性交付、失败如何回滚在公开材料中未说明。
+    evidence_ids:
+    - ev-52ada4fac995bbf6
+  next_validation: 收集 Anthropic 官方文档与发布说明，确认 Projects 的并行上限、共享记忆机制、失败回滚方式及是否单独计价。
+  market: ''
+  job: 软件工程师与研发负责人在一个仓库里同时推进多项编码任务时，处理代码文件、任务目标与历史资料，要完成的是让多个 agent 并行干活并汇总可合入的改动。
+  job_en: Software engineers and engineering leads, when pushing several coding tasks in one repository
+    at once, handle code files, task goals and history to get multiple agents working in parallel and
+    collect mergeable changes.
+  pain: 多个 agent 各自为战会丢失上下文、重复劳动，任务之间的目标与文件状态难以对齐，人工来回搬运上下文成本高。
+  pain_en: Separate agents lose context and duplicate work, goals and file state drift apart across tasks,
+    and humans pay a high cost shuttling context back and forth.
+  current_alternative: 开多个终端或会话分别跑 agent，靠人工复制粘贴上下文与目标，或用脚本自行拼接。
+  current_alternative_en: Running agents in separate terminals or sessions and manually copying context
+    and goals, or gluing them together with scripts.
+  usage_reason: 相较人工在多个会话间搬运上下文，它把共享记忆、目标与文件库放在同一项目下，由协调者分配并行线程，省去重复交代背景这一步，因此同时推进多项编码任务的团队会在这种情况下选择它；持续使用证据尚未公开。
+  usage_reason_en: Compared with manually moving context between sessions, it keeps shared memory, goals
+    and a file library in one project and lets a coordinator assign parallel threads, removing the step
+    of re-explaining background, so teams running several coding tasks at once would choose it; sustained-use
+    evidence is not public.

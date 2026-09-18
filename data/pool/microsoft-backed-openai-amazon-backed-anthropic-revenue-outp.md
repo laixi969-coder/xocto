@@ -23,7 +23,7 @@ summary: Microsoft-Backed OpenAI, Amazon-backed Anthropic Revenue Outpaces China
   Firm Says marketscreener.com
 first_seen: '2026-09-17T10:14:11Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

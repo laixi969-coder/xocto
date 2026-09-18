@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRkxTYkxkQTFJ
 summary: 'AI may be the buzzword, but Indian home buyers still want value: Report Business Standard'
 first_seen: '2026-09-17T11:07:45Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

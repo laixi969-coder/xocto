@@ -37,3 +37,45 @@
   usage_reason: AI 辅助能显著降低制作成本和时间，吸引独立创作者和小型团队。
   usage_reason_en: AI assistance significantly reduces cost and time, attracting independent creators
     and small teams.
+- id: req-initial-skyproduction天工工作台从剧本到成片一套工作台把精品短剧创作真正跑起来-2026-09-18
+  project_slug: skyproduction天工工作台从剧本到成片一套工作台把精品短剧创作真正跑起来
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短剧从剧本到成片片段的分镜与初剪产能问题，痛点刚性且旧流程明确；买方是承制方还是平台尚未核验。
+    evidence_ids:
+    - ev-1c2441680c27f5f4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有促销与版本上线信息，缺少客户案例或公开采用数据，无法判断行业是否已形成共识。
+    evidence_ids:
+    - ev-1c2441680c27f5f4
+  - gate: model
+    status: insufficient
+    reason: 促销显示按积分计费，但公开材料未给出完整定价页与付费客户，收入路径属推断。
+    evidence_ids:
+    - ev-1c2441680c27f5f4
+  - gate: truth
+    status: insufficient
+    reason: 未披露生成质量、人工确认边界与交付确定性，无法核对成片是否可直接使用。
+    evidence_ids:
+    - ev-1c2441680c27f5f4
+  next_validation: 收集SkyProduction官方定价页或客户案例，核验按积分/按集计费方式与成片交付结果。
+  market: ''
+  job: 短剧编剧与制片在拿到一个短剧项目后，处理剧本、分镜和拍摄素材，要在有限周期内产出可交付的成片版本。
+  job_en: Short-drama writers and producers take a project's script, storyboards and footage and must
+    deliver a finished cut within a tight cycle.
+  pain: 短剧集数多、周期短，分镜和初剪高度依赖人工，产能是瓶颈；不解决就要么压集数，要么外包加价。
+  pain_en: Short dramas have many episodes and short cycles; storyboarding and rough cuts are heavily
+    manual, so capacity is the bottleneck, forcing fewer episodes or pricier outsourcing.
+  current_alternative: 目前多靠人工编剧加剪辑师逐集处理，或零散使用通用生成工具再手工拼接。
+  current_alternative_en: Today teams rely on human writers plus editors working episode by episode, or
+    scattered general-purpose generation tools stitched together by hand.
+  usage_reason: 推断：相较逐集人工分镜与初剪，它把剧本到成片片段串成一条工作台流程，减少在多个工具间搬运和重复搭建的步骤，因此周期紧、集数多的短剧承制团队会在试制阶段选择它。
+  usage_reason_en: 'Inference: versus manual per-episode storyboarding and rough cuts, it chains script-to-clip
+    into one workbench flow, cutting the steps spent moving between tools and rebuilding setups, so studios
+    with tight cycles and many episodes would pick it for pilots.'

@@ -1,0 +1,45 @@
+- id: req-initial-warehouse-robotics-labs-geekplus-lets-companies-test-ai-auto-2026-09-18
+  project_slug: warehouse-robotics-labs-geekplus-lets-companies-test-ai-auto
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自动化采购前无法验证实际表现的问题，旧做法是看演示和样板仓，痛点与旧流程都具体。
+    evidence_ids:
+    - ev-e67a9d9819e26243
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一条报道，未见参与测试的企业、测试规模或复购情况，共识无法判断。
+    evidence_ids:
+    - ev-e67a9d9819e26243
+  - gate: model
+    status: insufficient
+    reason: 测试是否收费、按项目还是随设备打包，均未披露，买方与收费路径属推断。
+    evidence_ids:
+    - ev-e67a9d9819e26243
+  - gate: truth
+    status: insufficient
+    reason: 实验室结果与真实仓库表现的差距、人工复核边界未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-e67a9d9819e26243
+  next_validation: 查找 Geekplus 官方关于该实验室服务的说明或客户案例，确认测试范围、计价方式与测试报告内容。
+  market: ''
+  job: 仓储运营经理与物流自动化规划工程师在决定是否引入机器人调度系统时，需要处理自家 SKU、订单波峰与库内动线数据，产出可支撑采购决策的实测结论。
+  job_en: Warehouse operations managers and logistics automation planners deciding whether to adopt robot
+    scheduling must work with their own SKUs, order peaks and in-warehouse routing data to produce measured
+    results that support a procurement decision.
+  pain: 自动化项目投入大、上线后难回退，厂商方案书与实际表现常有落差，企业不敢直接采购，只能靠同行经验或小范围试跑，结论不完整。
+  pain_en: Automation projects are capital-heavy and hard to reverse, vendor proposals often diverge from
+    real performance, and companies hesitate to buy outright, relying on peer experience or partial pilots
+    that yield incomplete conclusions.
+  current_alternative: 看厂商演示与同行案例、参观样板仓，或自行划出一小块区域做人工试跑。
+  current_alternative_en: Watching vendor demos and peer cases, visiting reference warehouses, or carving
+    out a small area for a manual pilot.
+  usage_reason: 推断：相较看演示和样板仓，它让企业用自己的货品与订单结构在受控环境里跑一遍，把采购依据从厂商承诺换成可复现的测试结果，减少上线后才发现不匹配的返工；因此决策金额大、流程特殊的仓储团队会先做这一步。
+  usage_reason_en: 'Inference: compared with demos and reference sites, it lets a company run its own
+    goods and order mix in a controlled setting, replacing vendor promises with reproducible test results
+    and cutting rework discovered only after go-live; warehouse teams with large budgets and unusual processes
+    would take this step first.'

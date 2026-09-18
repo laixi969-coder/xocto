@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/navkey
 summary: Control Windows with only your keyboard
 first_seen: '2026-09-17T03:15:12Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -3,24 +3,26 @@ slug: ai-pulse
 name: AI Pulse
 builder: leog_me
 category: AI + 开发
-summary_zh: 开发者在 macOS 上同时跑多个编码代理时，Dock 旁会出现一条仿 LED 灯带，把代理的运行状态直接显示在屏幕上；用户据此判断哪个代理还在跑、哪个已经结束，不必逐个切回终端窗口查看。具体支持哪些代理、状态如何映射到灯带，公开材料未说明，仍待核验。
-inspiration: 趋势是编码代理从单次对话变成后台常驻的多任务，状态可见性成了新的摩擦点。切入可以从「同时跑多个代理的小团队」做起，把状态灯做成可挂到工位硬件或团队看板上的信号，而不是只服务单个开发者的桌面装饰。
-summary_en: When developers run several coding agents at once on macOS, a fake LED strip beside the Dock
-  shows each agent's status on screen, so the user can tell which agent is still running and which has
-  finished without switching back to each terminal window. Which agents are supported and how status maps
-  to the strip are not stated in the public material and remain unverified.
-inspiration_en: The trend is that coding agents move from one-off chats to always-on background tasks,
-  making status visibility a new friction point. An entry point is small teams running several agents
-  at once, turning the status light into a signal that can live on desk hardware or a team board rather
-  than a single developer's desktop ornament.
+summary_zh: 开发者在 macOS 上同时运行多个编码智能体时，需要在终端与编辑器之间来回切换才能确认某个任务是否跑完；AI Pulse 在 Dock 旁放一条虚拟 LED 灯带，把智能体运行状态映射成灯光信号，让用户抬眼即可看到当前状态。具体支持哪些智能体、状态如何判定、是否需人工确认，公开材料未说明，仍待核验。
+inspiration: 趋势：编码智能体从单次问答变成长时间后台任务后，人的注意力从写代码转向盯任务，状态可见性成了新的摩擦点。切入：可从需要同时盯多个长任务的岗位进入，例如运维值班、数据流水线调度、客服工单队列，把状态灯做成桌面或工位实体硬件，按设备或按席位卖给团队；目前只有开源桌面小工具，尚无定价与客户证据。
+summary_en: When developers run several coding agents at once on macOS, they must switch between terminal
+  and editor to check whether a task has finished; AI Pulse places a virtual LED strip beside the Dock
+  that maps agent status to light signals, so the user can see the current state at a glance. Which agents
+  are supported, how status is determined, and whether human confirmation is needed are not stated in
+  the public material and remain unverified.
+inspiration_en: 'Trend: as coding agents move from single answers to long background tasks, attention
+  shifts from writing code to watching tasks, making status visibility a new friction point. Entry: start
+  with roles that watch many long-running tasks at once, such as on-call operations, data pipeline scheduling,
+  or support ticket queues, and turn the status light into desktop or desk hardware sold per device or
+  seat; today it is only an open-source desktop widget with no pricing or customer evidence.'
 priority_review: false
-project_type: new_application
+project_type: open_source
 industries:
-- 软件与信息服务
+- 软件与信息技术服务
 industries_en:
 - Software and IT services
 jobs:
-- 开发者
+- 软件开发者
 jobs_en:
 - Software developers
 regions: []
@@ -31,7 +33,7 @@ canonical_url: https://github.com/leog/ai-pulse
 summary: AI Pulse a fake LED strip beside the macOS Dock that shows agent status
 first_seen: '2026-08-10T22:07:41Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch

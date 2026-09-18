@@ -3,30 +3,30 @@ slug: skyproduction天工工作台从剧本到成片一套工作台把精品短�
 name: SkyProduction（天工工作台）
 builder: ''
 category: AI + 创作
-summary_zh: SkyProduction（天工工作台）面向短剧创作者，提供从剧本到成片的一体化工具。创作者将剧本、素材等输入平台，AI 协助生成分镜、剪辑和成片，减少手工环节。具体流程和交付细节仍需核验。
-inspiration: 趋势：AI 视频生成正从单点工具走向全流程工作台，降低短剧制作门槛。切入：可聚焦特定类型（如竖屏短剧）或特定环节（如分镜设计），提供更专业的垂直方案。
-summary_en: SkyProduction (Tiangong Workbench) offers an integrated tool for short-drama creators, from
-  script to final cut. Creators input scripts and materials; AI assists in generating storyboards, editing,
-  and final videos, reducing manual steps. Specific workflow and deliverables need verification.
-inspiration_en: 'Trend: AI video generation moves from point tools to full workflows, lowering barriers
-  for short-drama production. Entry: focus on specific formats (e.g., vertical short dramas) or stages
-  (e.g., storyboarding) for specialized solutions.'
+summary_zh: 短剧编剧和制片在写剧本、拆分镜、出成片的流程里打开它，把剧本、分镜和素材交给工作台，由AI生成分镜与成片片段，最终拿到可继续剪辑的短剧成片素材，仍需人工确认与精修；具体输入格式与交付环节仍待核验。
+inspiration: 短剧供给正在从“人写人拍”转向“剧本进、成片出”的流水线，趋势是内容生产被压缩成一条可计价的工序链。切入可从短剧承制方或平台自制剧的单集试制环节进入，按集或按成片交付收费，而不是卖创作工具席位。
+summary_en: Short-drama writers and producers open it inside the script-to-shot-to-cut workflow, feeding
+  scripts, storyboards and footage into the workbench, where AI generates storyboard and finished-clip
+  material they can keep editing; human review and fine-tuning remain, and the exact input formats and
+  delivery steps still need verification.
+inspiration_en: 'Short-drama supply is shifting from hand-written, hand-shot production to a script-in,
+  finished-cut-out pipeline, compressing content production into a billable chain of steps. Entry point:
+  single-episode pilots for short-drama studios or platform originals, charged per episode or per delivered
+  cut rather than per creator seat.'
 priority_review: false
 project_type: new_application
 industries:
-- 影视制作
-- 内容创作
+- 短剧与网络视听
+- 影视内容制作
 industries_en:
-- Film production
-- Content creation
+- short drama and online video
+- film and TV content production
 jobs:
-- 短剧编剧
-- 短剧导演
-- 视频剪辑师
+- 短剧编剧与制片
+- 短剧后期剪辑
 jobs_en:
-- Short-drama screenwriter
-- Short-drama director
-- Video editor
+- short drama writer and producer
+- short drama post-production editor
 regions:
 - 中国
 regions_en:
@@ -37,7 +37,7 @@ canonical_url: https://qbitai.com/2026/09/483274.html
 summary: SkyProduction（天工工作台）全新版本于8月31日正式上线
 first_seen: '2026-09-02T09:22:16Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 sightings:

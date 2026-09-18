@@ -1,0 +1,42 @@
+- id: req-initial-die-with-me-2026-09-18
+  project_slug: die-with-me
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决额度可见性问题，但公开材料未写清额度耗尽的具体后果与旧应对方式，价值结构无法判定。
+    evidence_ids:
+    - ev-1c4f4a487dca3775
+    - ev-c8cf55f5ba54acbe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 11 分、17 条评论的社区讨论，属关注度而非持续采用，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1c4f4a487dca3775
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或买方，无法判断钱来自 to C、to B 还是 to VC，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-1c4f4a487dca3775
+  - gate: truth
+    status: insufficient
+    reason: 无法核对限额数据的真实性与刷新确定性，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-c8cf55f5ba54acbe
+  next_validation: 收集该产品加入页与官方说明，确认限额数据来源、刷新方式与是否收费。
+  market: ''
+  job: 使用 Claude Code 与 Codex 的开发者在自己额度将满时，查看自己与好友的用量限额状态，以决定何时继续编码。
+  job_en: Developers using Claude Code and Codex check their own and friends' usage-limit status when
+    quota nears its cap, to decide when to keep coding.
+  pain: 公开材料只说明把限额显示成好友列表，未说明额度耗尽造成什么具体损失或此前如何应对。
+  pain_en: Public material only says limits are shown as a buddy list, without stating what specific loss
+    quota exhaustion causes or how it was handled before.
+  current_alternative: 公开材料未提供现有替代方式，无法确认此前开发者如何查看或协调额度。
+  current_alternative_en: Public material provides no current alternative, so it is unclear how developers
+    previously checked or coordinated quota.
+  usage_reason: 缺少旧做法与可核对结果的描述，无法解释开发者为何选择它；这是事实不足，不是已验证的持续使用。
+  usage_reason_en: Without a description of the old practice and a verifiable result, there is no explanation
+    of why developers would choose it; this is missing evidence, not verified ongoing use.

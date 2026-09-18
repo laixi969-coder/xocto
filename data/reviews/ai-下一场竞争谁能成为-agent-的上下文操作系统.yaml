@@ -40,3 +40,48 @@
   usage_reason: WorkBuddy 提供统一入口，能调用专业软件和硬件，减少切换成本，因此专业人士可能采用它来提升工作效率。
   usage_reason_en: WorkBuddy offers a unified entry point that can invoke professional software and hardware,
     reducing switching costs, so professionals may adopt it to improve work efficiency.
+- id: req-initial-ai-下一场竞争谁能成为-agent-的上下文操作系统-2026-09-18
+  project_slug: ai-下一场竞争谁能成为-agent-的上下文操作系统
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨专业软件与硬件办公时信息分散、任务链断裂的需求，痛点来自真实工作被切碎在多个工具中；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-eaca03ecfc7185bd
+    - ev-549e7836cf2a38c0
+  - gate: consensus
+    status: insufficient
+    reason: 生态伙伴名单说明厂商愿意接入，但没有公开的用户采用、留存或重复使用证据，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-eaca03ecfc7185bd
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计费方式或付费客户，钱可能来自 to B 软件伙伴或 to C 订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-549e7836cf2a38c0
+  - gate: truth
+    status: insufficient
+    reason: 跨软件与硬件的动作能否确定性交付、人工确认边界在哪，公开材料未给出可核对结果，需看部署文档或实测。
+    evidence_ids:
+    - ev-eaca03ecfc7185bd
+  next_validation: 收集腾讯 WorkBuddy 官方仓库或产品页的部署文档与定价说明，确认其接入方式、交付结果与收费模式。
+  market: ''
+  job: 办公人员在与证券、法律、财税等专业软件以及录音笔、智能眼镜等硬件协作时，需要把分散在不同软件和设备里的资料与动作汇总，推进一件跨工具的办公任务。
+  job_en: Office workers collaborating with professional software in securities, legal and finance/tax
+    fields plus hardware such as recorders and smart glasses need to gather materials and actions scattered
+    across tools and devices to push one cross-tool office task forward.
+  pain: 真实工作分散在不同软件、设备和账目之间，用户要在多个界面之间手工搬运信息、重复录入，任务链容易断在工具切换处。
+  pain_en: Real work is scattered across different software, devices and accounts, so users manually move
+    information and re-enter it across interfaces, and the task chain easily breaks at tool switches.
+  current_alternative: 目前用户靠人工在多个软件之间复制粘贴、手动整理，或分别使用各软件自带的助手，没有统一的跨工具编排方式。
+  current_alternative_en: Today users copy and paste manually between software, organize by hand, or use
+    each tool's built-in assistant separately, with no unified cross-tool orchestration.
+  usage_reason: 相较人工在多个软件间搬运，WorkBuddy 通过接入专业软件与硬件的接口直接读取数据和触发动作，减少手工复制与重复录入这一步；推断需要跨多套专业软件办公、且这些软件已在其生态内的用户会优先尝试。
+  usage_reason_en: Compared with manually moving data between software, WorkBuddy reads data and triggers
+    actions directly through connected software and hardware interfaces, removing the manual copy-and-re-enter
+    step; by inference, users whose work spans several professional tools already in its ecosystem would
+    try it first.

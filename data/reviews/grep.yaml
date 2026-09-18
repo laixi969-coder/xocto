@@ -75,3 +75,50 @@
   usage_reason: 结构化搜索能提高代码检索的准确性和效率，尤其对于大型项目。
   usage_reason_en: Structural search improves accuracy and efficiency of code retrieval, especially for
     large projects.
+- id: req-initial-grep-2026-09-18
+  project_slug: grep
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨仓库查找代码用法时纯文本搜索噪声大、需人工逐库排除的问题，痛点具体且旧替代行为明确；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-f8fb71ef4b9dbc5d
+    - ev-2a143023ee141801
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度与一篇技术博客，没有可归因到该产品的采用规模、客户案例或持续使用证据。
+    evidence_ids:
+    - ev-2a143023ee141801
+    - ev-e90860ecf0de911a
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱可能来自开发者订阅或企业私有仓库授权，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f8fb71ef4b9dbc5d
+  - gate: truth
+    status: insufficient
+    reason: 检索结果是否准确、覆盖范围与人工确认边界均未公开，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-f8fb71ef4b9dbc5d
+  next_validation: 收集该产品官方定价页或私有仓库部署文档，确认其收费方式与交付边界。
+  market: ''
+  job: 软件工程师在接手陌生代码库、排查跨仓库依赖或为编码智能体准备上下文时，处理公开 公开代码仓库 上的源码，要找出某个函数、模式或 API 在哪些仓库被怎样使用。
+  job_en: Software engineers taking over an unfamiliar codebase, tracing cross-repository dependencies,
+    or preparing context for a coding agent work with source code on public public code repository to
+    find where and how a function, pattern or API is used across repositories.
+  pain: 普通文本搜索会返回大量注释、字符串和无关命名，工程师需要逐个打开仓库人工排除，跨仓库检索尤其耗时；不解决就要靠记忆或零散书签反复翻找。
+  pain_en: Plain text search returns comments, strings and unrelated names, forcing engineers to open
+    repositories one by one to filter manually; cross-repository search is especially slow, and without
+    it people rely on memory or scattered bookmarks.
+  current_alternative: 公开代码仓库 自带搜索、本地 ripgrep、IDE 全局查找，以及逐个克隆仓库后手工检索。
+  current_alternative_en: public code repository's built-in search, local ripgrep, IDE-wide find, and
+    cloning repositories to search them by hand.
+  usage_reason: 推断：相较 公开代码仓库 搜索或本地 ripgrep，它按代码结构而非纯文本匹配，减少工程师逐条打开仓库排除注释与字符串的那一步，因此需要跨仓库追溯用法的工程师会在排查依赖或准备智能体上下文时选择它。公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with public code repository search or local ripgrep, it matches
+    code structure rather than raw text, removing the step of opening repositories one by one to filter
+    out comments and strings, so engineers tracing cross-repository usage would pick it when investigating
+    dependencies or preparing agent context. No retention or repeat-use evidence is public.'

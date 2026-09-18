@@ -3,24 +3,25 @@ slug: lore
 name: lore
 builder: hsusul
 category: AI + 开发
-summary_zh: 开发者用 Claude Code、Codex 等 AI 编程助手完成任务后，原本只能翻找散落的本地会话记录来回忆改了什么、为什么改；lore 把这些会话存进本地可搜索档案，输入关键词即可查回历史会话。具体检索效果与交付形式仍待核验。
-inspiration: 趋势：AI 编程助手从单次问答走向跨会话长期协作，会话记忆开始被当作独立需求对待。切入：不与模型厂商正面拼记忆功能，可面向需要审计 AI 改码记录的团队或受监管行业，做可追溯的会话存档。
-summary_en: Developers using AI coding agents like Claude Code used to dig through scattered local session
-  logs to recall past changes; lore archives sessions in a local, searchable store so keyword queries
-  retrieve prior content. Retrieval quality remains unverified.
-inspiration_en: 'Trend: AI coding is shifting to cross-session collaboration, making agent memory a contested
-  layer. Entry: target teams needing auditable records of AI code changes, not head-on competition with
-  model vendors.'
+summary_zh: 使用 Claude Code、Codex 等编码代理的开发者，在需要回忆此前会话里改过什么、为什么改时，原本要翻散落在本地的会话日志；lore 把这些会话归档成本地可检索的存档，让开发者按关键词找回历史改动记录。具体检索粒度与交付形态仍待核验。
+inspiration: 趋势：编码代理开始被当成需要长期记忆的同事，会话记录本身变成可检索资产。切入：从需要审计与交接的团队入手，把代理会话沉淀成可追溯的变更档案，而不是再做一个代理外壳。
+summary_en: Developers using coding agents such as Claude Code and Codex previously had to dig through
+  scattered local session logs to recall what changed and why; lore archives those sessions into a local,
+  searchable store so past changes can be retrieved by keyword. The exact retrieval granularity and delivery
+  format still need verification.
+inspiration_en: 'Trend: coding agents are being treated as long-lived collaborators, so their session
+  records become a searchable asset. Entry: start with teams that need audit and handover, turning agent
+  sessions into a traceable change archive rather than another agent wrapper.'
 priority_review: false
 project_type: open_source
 industries:
-- 软件开发
+- 软件与信息技术服务
 industries_en:
-- Software Development
+- Software and IT services
 jobs:
-- 使用 AI 编程助手的软件工程师
+- 软件工程师
 jobs_en:
-- Software engineers using AI coding assistants
+- Software engineers
 regions: []
 regions_en: []
 open_source: true
@@ -29,7 +30,7 @@ canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

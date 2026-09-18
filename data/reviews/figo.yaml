@@ -1,0 +1,43 @@
+- id: req-initial-figo-2026-09-18
+  project_slug: figo
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决竞品变化人工翻查的负担，痛点方向成立，但材料未说明监控什么、交付什么，无法确认价值闭环。
+    evidence_ids:
+    - ev-5cc1f2cb7c4edc98
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无采用、评价或使用数据可判断共识。
+    evidence_ids:
+    - ev-5cc1f2cb7c4edc98
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，to B 还是 to C、按什么收费均未知。
+    evidence_ids:
+    - ev-5cc1f2cb7c4edc98
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其抓取是否准确、是否需人工复核，交付确定性未知。
+    evidence_ids:
+    - ev-5cc1f2cb7c4edc98
+  next_validation: 官方定价页或客户案例页面，用于确认监控范围、交付形式与付费方式。
+  market: ''
+  job: 市场运营或竞品分析师需要定期掌握竞争对手的价格、上新与活动变化，用于调整自己的投放与定价。
+  job_en: A marketing operator or competitive analyst needs regular visibility into rivals' pricing, new
+    products and campaign changes in order to adjust their own spend and pricing.
+  pain: 竞品信息分散在多个页面与渠道，人工定期翻查耗时且容易漏掉变化。
+  pain_en: Competitive information is scattered across many pages and channels, and manual periodic checking
+    is time-consuming and easy to miss changes.
+  current_alternative: 人工定期浏览竞品官网与社媒，或用表格手工记录变化。
+  current_alternative_en: Manually browsing rival sites and social accounts on a schedule, or logging
+    changes by hand in spreadsheets.
+  usage_reason: 推断：若它能把竞品变化自动汇总成可读提醒，运营人员可省去逐页翻查这一步，因此需要盯多个竞品的市场团队会尝试；但公开材料只有一句口号，没有监控范围、输出样例或用户反馈，无法确认这一步是否真被省掉。
+  usage_reason_en: 'Inference: if it automatically summarizes rival changes into readable alerts, operators
+    could skip page-by-page checking, so marketing teams watching several competitors would try it; but
+    public material is only a tagline, with no monitoring scope, sample output or user feedback, so the
+    saving cannot be confirmed.'

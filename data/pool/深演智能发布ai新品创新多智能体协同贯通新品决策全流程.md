@@ -3,40 +3,44 @@ slug: 深演智能发布ai新品创新多智能体协同贯通新品决策全流
 name: 深演智能
 builder: ''
 category: AI + 商业
-summary_zh: 深演智能发布 AI 新品，面向企业新品决策场景，通过多智能体协同，贯通从市场洞察、概念测试到上市策略的全流程。具体功能细节与交付物待核验。
-inspiration: 新品决策涉及多环节信息整合，多智能体协同可替代部分人工调研与分析工作。趋势是 AI 从单点工具走向流程自动化，切入可从特定行业（如快消、美妆）提供行业模板和结果导向的收费模式。
-summary_en: Deepintent released a new AI product for enterprise new product decisions, using multi-agent
-  collaboration to cover the entire process from market insight, concept testing to launch strategy. Specific
-  features and deliverables remain to be verified.
-inspiration_en: New product decisions involve integrating information from multiple stages; multi-agent
-  collaboration can replace parts of manual research and analysis. The trend is AI moving from point tools
-  to process automation. Entry could target specific industries like FMCG or beauty with industry templates
-  and outcome-based pricing.
+summary_zh: 品牌方在新品立项与上市决策阶段，原本要人工汇总市场、竞品与消费者材料再开会定方向；深演智能称其“AI新品创新”由多个智能体协同处理这些材料并贯通决策流程，最终交付什么形态的结论、由谁确认，公开材料未说明，具体流程与交付仍待核验。
+inspiration: 趋势是营销决策环节开始被拆成多智能体分工，而不是单个生成按钮。切入可看快消与美妆品牌的新品立项会：把竞品监测、消费者反馈、渠道数据整理成一份可复核的立项依据，按项目或按报告收费，而不是卖席位。
+summary_en: At the new-product scoping and launch-decision stage, brand teams previously had to manually
+  assemble market, competitor and consumer material before meeting to set direction; Shenyan Intelligent
+  says its "AI New Product Innovation" uses multiple agents to process that material and span the decision
+  workflow. The delivered output format and who signs off are not stated in public material, so the concrete
+  workflow and deliverable remain unverified.
+inspiration_en: 'The trend is that marketing decision work is being split across multiple agents rather
+  than a single generate button. A wedge is the new-product scoping meeting at consumer and beauty brands:
+  turn competitor monitoring, consumer feedback and channel data into a reviewable scoping brief, sold
+  per project or per report rather than per seat.'
 priority_review: false
 project_type: ai_transformation
 industries:
-- 营销
-- 消费品
+- 营销与广告
+- 消费品与零售
 industries_en:
-- Marketing
-- Consumer goods
+- Marketing and Advertising
+- Consumer Goods and Retail
 jobs:
-- 产品经理
-- 市场研究员
+- 品牌新品决策
+- 营销投放策划
 jobs_en:
-- Product managers
-- Market researchers
+- Brand new-product decision making
+- Marketing campaign planning
 regions:
 - 中国
+- 越南
 regions_en:
 - China
+- Vietnam
 open_source: false
 url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlZU1NZkRKc1gwZHRhS0U0TDJqSVE4cFo3cHJKSFpJRG5VQUdMb0l2Tnhya0F0WnFXUlp3WE5tcUxxWkpvY2FXUllxSXctRWdZalBxTWI0R0Y?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlZU1NZkRKc1gwZHRhS0U0TDJqSVE4cFo3cHJKSFpJRG5VQUdMb0l2Tnhya0F0WnFXUlp3WE5tcUxxWkpvY2FXUllxSXctRWdZalBxTWI0R0Y?oc=5
 summary: 深演智能发布“AI新品创新”：多智能体协同贯通新品决策全流程 界面新闻
 first_seen: '2026-09-03T04:23:02Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:

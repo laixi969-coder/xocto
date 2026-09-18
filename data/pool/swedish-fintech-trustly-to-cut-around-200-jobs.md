@@ -1,6 +1,6 @@
 ---
 slug: swedish-fintech-trustly-to-cut-around-200-jobs
-name: Swedish fintech Trustly to cut around 200 jobs
+name: Trustly
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Swedish fintech Trustly is cuttingaround 200 jobs, around a quarter of 
   is ...
 first_seen: '2026-09-17T10:53:00Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Swedish fintech Trustly to cut around 200 jobs
+# Trustly
 
 Swedish fintech Trustly is cuttingaround 200 jobs, around a quarter of its overall headcount, as it looks to streamlineits operations and focus on key areas of the business, it said.Trustly, which is ...
 

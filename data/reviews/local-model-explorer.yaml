@@ -1,0 +1,44 @@
+- id: req-initial-local-model-explorer-2026-09-18
+  project_slug: local-model-explorer
+  level: initial
+  reviewed_at: '2026-09-18T00:20:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是本地部署前的量化选型问题，痛点真实但公开材料只有一句功能描述，说不清匹配依据与交付形态，价值强度无法确认。
+    evidence_ids:
+    - ev-c14d7de9ebd245b5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 8 个点赞，没有社区讨论、issue 或独立评价，看不出有形成使用共识的迹象。
+    evidence_ids:
+    - ev-c14d7de9ebd245b5
+  - gate: model
+    status: insufficient
+    reason: 开源免费工具，公开材料未提任何收费方式或买方，钱从哪来完全未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c14d7de9ebd245b5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对匹配结果是否与真实运行一致，也没有人工确认边界或安全说明，交付确定性未明。
+    evidence_ids:
+    - ev-c14d7de9ebd245b5
+  next_validation: 收集该开源项目的仓库 issue、discussion 或更新记录，核对其量化匹配依据是理论估算还是实测数据，以及是否有用户报告实际运行结果。
+  market: ''
+  job: 个人开发者或小团队在准备本地跑开源大模型时，面对一堆 GGUF 量化文件，要判断哪一个能装进自己手上的 GPU 显存、Mac 统一内存或 CPU 内存并跑得动。
+  job_en: An individual developer or small team preparing to run an open-source model locally faces a
+    pile of GGUF quant files and must decide which one fits their GPU VRAM, Mac unified memory or CPU
+    RAM and still runs.
+  pain: 量化档位与硬件容量的对应关系分散在模型卡、社区帖和试错里，选错就要重新下载几十 GB 文件再重跑，浪费带宽和时间。
+  pain_en: The mapping between quant levels and hardware capacity is scattered across model cards, community
+    posts and trial and error; a wrong pick means re-downloading tens of gigabytes and rerunning.
+  current_alternative: 查模型卡说明、翻社区讨论帖，或直接下载几个量化版本逐个试跑，靠经验估算显存占用。
+  current_alternative_en: Reading model cards, browsing community threads, or downloading several quants
+    and testing each one, estimating memory use from experience.
+  usage_reason: 推断：它把硬件条件与量化规格的匹配集中到一次查询里，省掉逐个下载试跑这一步；但公开材料只给出一句功能描述，没有说明匹配依据是理论估算还是实测数据，也没有留存或复购证据，因此无法确认用户会把它留在工作流里。
+  usage_reason_en: 'Inference: it consolidates hardware-to-quant matching into a single lookup, removing
+    the download-and-test loop; however the public material offers only a one-line description, does not
+    say whether matching is theoretical or measured, and shows no retention or repeat-use evidence, so
+    it cannot be confirmed as a lasting part of the workflow.'

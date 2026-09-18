@@ -1,0 +1,44 @@
+- id: req-initial-logibot-bags-14m-to-build-a-temp-agency-for-robots-2026-09-18
+  project_slug: logibot-bags-14m-to-build-a-temp-agency-for-robots
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决仓库旺季临时搬运分拣人力缺口，痛点方向成立，但公开材料只有融资描述，没有旧流程成本、用户抱怨或替代行为证据，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-d3973fa257a8a278
+  - gate: consensus
+    status: insufficient
+    reason: 除领投方与金额外，没有客户、试点或行业采用信息，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-d3973fa257a8a278
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价或买方是仓库还是机器人厂商，钱从哪来只能作为判断而非已验证事实。
+    evidence_ids:
+    - ev-d3973fa257a8a278
+  - gate: truth
+    status: insufficient
+    reason: 人形机器人在真实仓库的作业可靠性、安全边界与人工接管方式均未披露，交付能否确定性发生无法核对。
+    evidence_ids:
+    - ev-d3973fa257a8a278
+  next_validation: 收集 Logibot 官方页面或部署文档，确认其调度软件的实际作业流程、计费方式与已公开的仓库客户或试点记录。
+  market: ''
+  job: 物流仓库的运营调度员在旺季或订单波动时，需要临时补充搬运和分拣人力，把当天的作业量分配到可用的人或设备上。
+  job_en: A logistics warehouse operations scheduler needs temporary extra moving and sorting capacity
+    during peak season or order swings, allocating the day's workload across available people or equipment.
+  pain: 临时用工招聘慢、到岗不稳定，旺季缺口直接影响出库时效；但公开材料没有说明仓库当前为这类缺口付出多少成本，也没有用户抱怨或替代行为的记录。
+  pain_en: Temp hiring is slow and attendance is unreliable, and peak-season gaps directly hit outbound
+    timeliness; however, public material does not state what warehouses currently pay for such gaps, nor
+    record user complaints or workarounds.
+  current_alternative: 临时工中介、加班排班，或采购固定式自动化分拣设备。
+  current_alternative_en: Temp-work agencies, overtime shifts, or purchasing fixed automated sorting equipment.
+  usage_reason: 推断：若软件层能把仓库的零散作业需求直接翻译成机器人可执行的任务，仓库就不必先招人再培训，可能减少临时用工的招聘与到岗等待环节；但公开材料未给出任何仓库使用记录、计费方式或交付结果，因此无法确认用户是否会因此选择它。
+  usage_reason_en: 'Inference: if the software layer can translate scattered warehouse task demand directly
+    into robot-executable jobs, a warehouse would not need to recruit and train people first, potentially
+    cutting the recruiting and onboarding wait in temp hiring; however, public material gives no warehouse
+    usage record, pricing or delivery outcome, so it cannot be confirmed that users would choose it for
+    this reason.'

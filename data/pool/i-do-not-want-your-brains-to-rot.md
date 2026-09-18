@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/i-do-not-want-your-brains-to-rot
 summary: An email I sent to the team
 first_seen: '2026-09-17T11:00:57Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

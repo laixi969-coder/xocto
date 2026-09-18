@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOcmR4S0ZVcDJM
 summary: 梅西百货AI补货部署瞄准库存效率 - 新闻和统计 IndexBox
 first_seen: '2026-09-16T15:10:50Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

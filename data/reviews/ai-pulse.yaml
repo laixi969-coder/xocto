@@ -75,3 +75,44 @@
   usage_reason_en: 'Inference: it turns status from terminal output the user must actively check into
     a passively visible signal beside the Dock, removing the step of repeatedly switching windows, so
     developers running several agents at once would keep it on their desktop.'
+- id: req-initial-ai-pulse-2026-09-18
+  project_slug: ai-pulse
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多智能体并行时状态不可见、需反复切窗口确认进度的问题，痛点具体且不解决的代价是可核对的等待与漏错；但公开材料未说明支持哪些智能体与状态判定方式。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的少量热度，没有用户评价、客户案例或持续采用证据，无法判断开发者是否真的把它留在日常流程里。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、付费路径或企业采购信息；买方是个人开发者还是团队尚不清楚，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 状态灯只是提示，不改变智能体本身的执行与交付；若状态判定不准或需要人工二次确认，提示价值会被削弱，公开材料未说明准确性与人工边界。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 issue、discussion 与 README 更新，确认它实际支持哪些智能体、状态判定方式以及是否有用户反馈的持续使用记录。
+  market: ''
+  job: 开发者在本地同时运行多个编码智能体处理不同任务时，需要判断哪个任务已完成、哪个卡住或报错，以便决定下一步是继续等待还是介入处理。
+  job_en: A developer running several coding agents locally on different tasks needs to tell which task
+    has finished and which is stuck or failing, in order to decide whether to keep waiting or step in.
+  pain: 状态只存在于各自的终端窗口或编辑器面板里，用户必须反复切换窗口或滚动日志才能确认进度，长任务等待期间注意力被切碎，容易漏掉失败或空等。
+  pain_en: Status lives only inside separate terminal windows or editor panels, so the user must repeatedly
+    switch windows or scroll logs to confirm progress; attention is fragmented during long waits and failures
+    or idle waits are easily missed.
+  current_alternative: 现在多数人靠手动切换终端标签、盯日志输出、设置系统通知或定时回来看一眼，没有统一的状态提示。
+  current_alternative_en: Most people currently switch terminal tabs manually, watch log output, set system
+    notifications, or simply come back periodically; there is no unified status indicator.
+  usage_reason: 推断：相比反复切窗口看日志，它把智能体状态直接映射到 Dock 旁的灯光，用户不需要打开任何窗口就能判断是否需要介入，因此同时跑多个长任务的开发者会在等待期间选择它；但公开材料没有留存或重复使用证据，长期是否留在工作流中尚不清楚。
+  usage_reason_en: 'Inference: compared with repeatedly switching windows to read logs, it maps agent
+    status directly to a light beside the Dock, so the user can judge whether to intervene without opening
+    any window; developers running several long tasks would therefore pick it while waiting. However,
+    the public material contains no retention or repeated-use evidence, so whether it stays in the workflow
+    long term is unclear.'

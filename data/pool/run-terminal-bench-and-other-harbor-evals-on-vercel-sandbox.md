@@ -1,6 +1,6 @@
 ---
 slug: run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox
-name: Run Terminal-Bench and other Harbor evals on Vercel Sandbox
+name: Vercel Sandbox
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/run-terminal-bench-and-other-harbor-
 summary: ''
 first_seen: '2026-09-17T19:00:00Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Run Terminal-Bench and other Harbor evals on Vercel Sandbox
+# Vercel Sandbox
 
 _（源没给简介）_
 

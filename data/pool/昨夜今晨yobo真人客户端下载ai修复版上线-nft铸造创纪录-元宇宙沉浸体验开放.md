@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5yY01oQjhOQkNy
 summary: 昨夜今晨：yobo真人客户端下载AI修复版上线 NFT铸造创纪录 元宇宙沉浸体验开放 体坛
 first_seen: '2026-09-17T03:59:27Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

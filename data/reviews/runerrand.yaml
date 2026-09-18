@@ -1,0 +1,42 @@
+- id: req-initial-runerrand-2026-09-18
+  project_slug: runerrand
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句“自带电脑的 AI 队友”，价值关无法成立。
+    evidence_ids:
+    - ev-6d0116e46ccfab85
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且公开讨论量极小，无法判断卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-6d0116e46ccfab85
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开材料可判断。
+    evidence_ids:
+    - ev-6d0116e46ccfab85
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对它是否贴近该工作的第一性目标与交付确定性。
+    evidence_ids:
+    - ev-6d0116e46ccfab85
+  next_validation: 收集该开源仓库的 README 与 issue/discussion，确认它实际执行的任务、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境与所处理的材料，无法还原一个可核对的工作任务。
+  job_en: The public material does not state the specific user, situation or material handled, so no checkable
+    work task can be reconstructed.
+  pain: 候选资料未给出任何用户痛点、抱怨或旧流程受阻的描述，无法判断哪里难受。
+  pain_en: The candidate material gives no user pain point, complaint or blocked legacy process, so it
+    is impossible to judge where the friction lies.
+  current_alternative: 未提供现有替代方式的信息，无法说明用户此前如何完成同类任务。
+  current_alternative_en: No information is provided about current alternatives, so how users previously
+    completed comparable tasks cannot be described.
+  usage_reason: 缺少可核对的功能细节与采用证据，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: Verifiable feature detail and adoption evidence are missing, so it cannot be explained
+    which step of burden is reduced versus the old approach, or which users would choose it under what
+    circumstances.

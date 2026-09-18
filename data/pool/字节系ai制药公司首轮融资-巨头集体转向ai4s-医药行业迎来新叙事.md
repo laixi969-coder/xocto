@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBleFJMV05OZVVS
 summary: 字节系AI制药公司首轮融资 巨头集体转向AI4S 医药行业迎来新叙事？ 财联社
 first_seen: '2026-09-17T02:36:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

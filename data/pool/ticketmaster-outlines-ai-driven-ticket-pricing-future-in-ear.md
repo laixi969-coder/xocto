@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb2x0TkYtYU9N
 summary: Ticketmaster Outlines AI-Driven Ticket Pricing Future in Earnings Call TicketNews
 first_seen: '2026-09-17T16:39:49Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

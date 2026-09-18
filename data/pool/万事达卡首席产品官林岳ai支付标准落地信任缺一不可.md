@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxObm5EakltZ2Jh
 summary: 万事达卡首席产品官林岳：AI支付标准、落地、信任缺一不可 21财经
 first_seen: '2026-09-16T23:00:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

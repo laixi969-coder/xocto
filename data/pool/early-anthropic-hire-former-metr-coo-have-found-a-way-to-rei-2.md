@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2ZRQVhFTGpn
 summary: Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents TechCrunch
 first_seen: '2026-09-15T13:00:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

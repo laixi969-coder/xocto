@@ -1,0 +1,45 @@
+- id: req-initial-开启中国创新药智能体时代veeva发布研发与质量领域ai-产品与路线图-2026-09-18
+  project_slug: 开启中国创新药智能体时代veeva发布研发与质量领域ai-产品与路线图
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，候选材料只有发布标题，价值关无法成立。
+    evidence_ids:
+    - ev-777769dd3215d648
+    - ev-0aec00b3ac5d6239
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无采用或场景证据可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-777769dd3215d648
+    - ev-0aec00b3ac5d6239
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-777769dd3215d648
+    - ev-0aec00b3ac5d6239
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对合规交付的确定性与人工边界。
+    evidence_ids:
+    - ev-777769dd3215d648
+    - ev-0aec00b3ac5d6239
+  next_validation: 收集 Veeva 官方发布的该 AI 产品页面或文档，确认产品名称、适用工作流与交付结果。
+  market: ''
+  job: 候选材料未指明具体使用者与任务，只能推断为药企研发与质量人员在准备申报或质量文档时整理数据并核对合规要求。
+  job_en: The material names no specific user or task; it can only be inferred that pharma R&D and quality
+    staff organize data and check compliance when preparing submissions or quality documents.
+  pain: 候选材料未描述任何痛点，无法判断研发与质量文档工作是否真的耗时或易错。
+  pain_en: The material describes no pain point, so it is impossible to judge whether R&D and quality
+    documentation work is genuinely slow or error-prone.
+  current_alternative: 候选材料未说明此前由谁、用什么工具完成同类工作。
+  current_alternative_en: The material does not say who or what tool previously did this work.
+  usage_reason: 缺少产品名称、功能与交付说明，无法解释用户为何选择它而非旧做法；仅有发布报道属于关注度证据，不能说明使用动机。
+  usage_reason_en: With no product name, features or deliverable description, there is no explanation
+    of why a user would choose it over the old way; a launch report is attention evidence, not a usage
+    motive.

@@ -21,7 +21,7 @@ canonical_url: https://nullsec.pntr.dev
 summary: server-blind encrypted paste
 first_seen: '2026-09-17T00:03:47Z'
 last_seen: '2026-09-18T00:19:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

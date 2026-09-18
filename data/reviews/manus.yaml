@@ -94,3 +94,47 @@
     and removing the page-by-page handling step, so small teams needing bulk cross-site gathering would
     choose it under delivery pressure; this is inference from product capability and task structure, as
     public material provides no retention or repeat-use evidence.
+- id: req-initial-manus-2026-09-18
+  project_slug: manus
+  level: initial
+  reviewed_at: '2026-09-18T00:20:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨网页多步骤任务的搜集与整理需求，痛点是步骤多、易漏项；旧做法是人工逐页操作，结构上成立，但交付确定性仍待核验。
+    evidence_ids:
+    - ev-17d0254d54d0f763
+    - ev-c1fac73e922c9183
+  - gate: consensus
+    status: insufficient
+    reason: 有第三方榜单访问量与融资报道，属于规模与关注度证据，不能证明持续采用；缺少客户案例或复购数据。
+    evidence_ids:
+    - ev-d579fc9599fba2d1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页与买方结构，钱可能来自 to C 订阅或 to B 采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-17d0254d54d0f763
+  - gate: truth
+    status: insufficient
+    reason: 被收购与融资叙事不构成交付结果证据，缺少可核对的产出质量与人工复核边界说明。
+    evidence_ids:
+    - ev-8fafbb0953ba75c6
+    - ev-4c47c330ab426e22
+  next_validation: 收集 Manus 官方定价页或公开客户案例，核验其按什么计价、由谁付费以及交付结果如何被确认。
+  market: ''
+  job: 个人或小团队运营者在处理跨网页多步骤任务时，需要把散落在多个页面的资料搜集、页面操作和结果整理成一份可用产出，再自行复核。
+  job_en: Solo or small-team operators handling cross-web, multi-step tasks need scattered material gathered,
+    pages operated and results collated into a usable output, which they then review themselves.
+  pain: 这类任务原本要在多个网页间反复切换、手工复制粘贴并整理，步骤多、耗时长，且容易漏项。
+  pain_en: Such tasks previously required switching between many pages, copying and pasting by hand and
+    collating, which is slow, multi-step and error-prone.
+  current_alternative: 用户此前靠人工在浏览器里逐页操作、复制到文档再整理，或把任务拆成多个单点工具分别完成。
+  current_alternative_en: Users previously worked page by page in a browser, pasted into documents and
+    collated, or split the task across several single-purpose tools.
+  usage_reason: 相较人工逐页操作，Manus 直接接管网页操作与资料汇总，把多步手工流程压缩成一次任务提交，用户只需复核产出；这是基于产品能力的工作流推断，尚无公开的留存或复购证据。
+  usage_reason_en: Compared with manual page-by-page work, Manus takes over web operations and collation,
+    compressing a multi-step manual process into one task submission that the user only reviews; this
+    is workflow inference from product capability, with no public retention or repeat-use evidence yet.

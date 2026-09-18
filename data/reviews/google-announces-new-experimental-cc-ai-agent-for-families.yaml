@@ -1,0 +1,43 @@
+- id: req-initial-google-announces-new-experimental-cc-ai-agent-for-families-2026-09-18
+  project_slug: google-announces-new-experimental-cc-ai-agent-for-families
+  level: initial
+  reviewed_at: '2026-09-18T00:20:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭多成员事务协调中信息分散、反复对齐的问题，旧行为是共享日历加群聊，痛点具体且高频。
+    evidence_ids:
+    - ev-bb0b496fabbcd98f
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅见发布报道，无家庭用户采用、反馈或场景共识证据。
+    evidence_ids:
+    - ev-bb0b496fabbcd98f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径；家庭场景可能由 Google 订阅承载，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bb0b496fabbcd98f
+  - gate: truth
+    status: insufficient
+    reason: 实验性产品，任务执行边界、权限与人工确认机制未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-bb0b496fabbcd98f
+  next_validation: 检索 Google 官方博客或帮助文档，确认 CC 支持的任务类型、数据权限范围与是否需要人工确认。
+  market: ''
+  job: 多成员家庭在安排共同日程、家务分工或出行时，需要把分散在各人日历与清单里的信息汇总成可执行安排。
+  job_en: Multi-member families arranging shared schedules, chores, or trips need to consolidate information
+    scattered across members' calendars and lists into an executable plan.
+  pain: 家庭事务协调依赖反复沟通与人工对齐，信息分散在不同成员手中，容易遗漏或冲突。
+  pain_en: Household coordination relies on repeated communication and manual alignment, with information
+    scattered across members and prone to omissions or conflicts.
+  current_alternative: 家庭目前多用共享日历、群聊和口头约定来协调事务。
+  current_alternative_en: Families currently coordinate mainly through shared calendars, group chats,
+    and verbal agreements.
+  usage_reason: 推断：相较共享日历只记录、群聊需人反复确认，该代理可直接读取多成员数据并生成计划、执行任务，减少一轮轮对齐；但公开材料未给出留存或重复使用证据，长期留在工作流中尚未证实。
+  usage_reason_en: 'Inference: unlike shared calendars that only record and group chats that require repeated
+    confirmation, this agent can read multi-member data, generate plans, and execute tasks, cutting rounds
+    of alignment; however, public materials give no retention or repeat-use evidence, so long-term workflow
+    embedding is unproven.'

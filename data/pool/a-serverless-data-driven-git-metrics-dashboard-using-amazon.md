@@ -23,7 +23,7 @@ summary: Learn how to build a fully serverless pipeline that automatically colle
   near-real-time delivery analytics at low cost.
 first_seen: '2026-09-17T15:42:31Z'
 last_seen: '2026-09-18T00:20:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

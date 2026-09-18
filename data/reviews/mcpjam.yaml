@@ -1,0 +1,45 @@
+- id: req-initial-mcpjam-2026-09-18
+  project_slug: mcpjam
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 MCP 服务器接入前的验证需求，痛点是异常在集成后才暴露、排查靠手工重放；旧做法是写脚本加看日志，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-8d2c1fc445c8b498
+    - ev-ff5c5a1e593a37ea
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品定位描述，社区讨论量很小，无法判断开发者是否已把它当作固定验证环节。
+    evidence_ids:
+    - ev-8d2c1fc445c8b498
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、买方类型或收费方式，钱来自 to B 开发者工具还是 to C 尚属推断，不是已验证事实。
+    evidence_ids:
+    - ev-ff5c5a1e593a37ea
+  - gate: truth
+    status: insufficient
+    reason: 测试用例形式、评估指标与人工确认边界均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-8d2c1fc445c8b498
+  next_validation: 收集 MCPJam 官方定价页或文档，确认其测试与评估的输入形式、指标定义及收费方式。
+  market: ''
+  job: AI 应用开发者在把自建或第三方 MCP 服务器接入产品前，需要处理这些服务器的调用返回，确认工具调用在真实场景下是否按预期工作，再决定能否上线。
+  job_en: Before wiring a self-built or third-party MCP server into a product, AI application developers
+    need to work through those servers' call returns and confirm tool calls behave as expected in real
+    scenarios before deciding whether to ship.
+  pain: MCP 服务器一旦行为异常，问题往往在集成后才暴露，排查要翻日志、手工重放调用，定位成本高且容易漏掉边界情况。
+  pain_en: When an MCP server misbehaves, the problem often only surfaces after integration, and debugging
+    means digging through logs and manually replaying calls, which is costly and easily misses edge cases.
+  current_alternative: 开发者目前多靠手工写脚本调用、看日志和临时复现来验证 MCP 服务器，缺少固定的测试与评估环节。
+  current_alternative_en: Developers currently rely on hand-written call scripts, log reading and ad-hoc
+    reproduction to validate MCP servers, with no fixed testing and evaluation step.
+  usage_reason: 相较手工写脚本逐个调用，MCPJam 把测试与评估集中到一个平台上执行并给出可核对结果，省去自行搭建调用与记录环节；推断经常改动 MCP 服务器、需要上线前回归验证的团队会因此选择它，但公开材料未提供用户反馈或留存证据。
+  usage_reason_en: Compared with hand-written scripts calling one endpoint at a time, MCPJam runs tests
+    and evaluations in one platform and returns checkable results, removing the need to build call-and-record
+    scaffolding; by inference, teams that change MCP servers often and need pre-release regression checks
+    would choose it, though no user feedback or retention evidence is public.

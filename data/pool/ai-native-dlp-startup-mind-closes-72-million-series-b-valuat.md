@@ -1,6 +1,6 @@
 ---
 slug: ai-native-dlp-startup-mind-closes-72-million-series-b-valuat
-name: AI-Native DLP Startup MIND Closes $72 Million Series B, Valuation Reaches $300 Million
+name: MIND
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTFBlQmcwaTlXWjd4
 summary: AI-Native DLP Startup MIND Closes $72 Million Series B, Valuation Reaches $300 Million finance.biggo.com
 first_seen: '2026-09-17T12:25:00Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI-Native DLP Startup MIND Closes $72 Million Series B, Valuation Reaches $300 Million
+# MIND
 
 AI-Native DLP Startup MIND Closes $72 Million Series B, Valuation Reaches $300 Million finance.biggo.com
 

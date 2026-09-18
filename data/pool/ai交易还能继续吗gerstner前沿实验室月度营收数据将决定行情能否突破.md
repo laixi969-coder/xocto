@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQbTRUZTczWDRE
 summary: “AI交易”还能继续吗？Gerstner：前沿实验室月度营收数据将决定行情能否突破 Moomoo
 first_seen: '2026-09-17T08:59:48Z'
 last_seen: '2026-09-18T00:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

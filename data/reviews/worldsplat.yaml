@@ -1,0 +1,44 @@
+- id: req-initial-worldsplat-2026-09-18
+  project_slug: worldsplat
+  level: initial
+  reviewed_at: '2026-09-18T00:19:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决草图到三维场景之间的建模负担，痛点结构成立，但公开材料只有一句描述，说不清输入、动作与交付物，无法确认价值是否真的被交付。
+    evidence_ids:
+    - ev-beb052dd57a41eaa
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品描述外没有任何关注、采用或社区讨论证据，无法判断是否有人真的在用它替代旧流程。
+    evidence_ids:
+    - ev-beb052dd57a41eaa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to C 订阅还是按场景交付都无从判断，这是未知而非已验证失败。
+    evidence_ids:
+    - ev-beb052dd57a41eaa
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成结果是否可编辑、是否需人工修模，也无法判断三维资产的安全与版权边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-beb052dd57a41eaa
+  next_validation: 收集 worldsplat 官方页面或演示视频，确认其输入格式、输出资产类型（网格/贴图/可编辑场景）以及是否公布定价或客户案例。
+  market: ''
+  job: 游戏关卡美术或动画场景设计者在只有草图、需要快速得到可用三维场景时，把草图交给工具生成场景资产。
+  job_en: A game level artist or animation set designer who only has a sketch and needs a usable 3D scene
+    quickly hands the sketch to the tool to generate scene assets.
+  pain: 从草图到可编辑场景要经过建模、展 UV、贴图、布光等多道手工工序，耗时且依赖熟练美术，小团队常常卡在这一步。
+  pain_en: Going from sketch to editable scene requires manual modelling, UV unwrapping, texturing and
+    lighting, which is slow and depends on a skilled artist, a step small teams often get stuck on.
+  current_alternative: 现有做法是手工在 Blender、Maya 等软件里建模，或购买素材包、外包给场景美术；也有用图生 3D 模型工具再手工修整。
+  current_alternative_en: The current practice is manual modelling in Blender or Maya, buying asset packs,
+    or outsourcing to an environment artist; some also use image-to-3D tools and then fix the result by
+    hand.
+  usage_reason: 推断：如果它真能把草图直接转成可编辑场景，用户省下的是从零建模这一步，而不是渲染或后期；但公开材料没有说明输出是否可编辑、是否带贴图，也没有任何用户反馈或案例，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it really converts a sketch into an editable scene, the step users save
+    is modelling from scratch rather than rendering or post-production; however public material does not
+    say whether the output is editable or textured, and there is no user feedback or case, so it cannot
+    be confirmed that users would choose it for this reason.'

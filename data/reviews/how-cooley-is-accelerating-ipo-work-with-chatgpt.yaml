@@ -1,0 +1,42 @@
+- id: req-initial-how-cooley-is-accelerating-ipo-work-with-chatgpt-2026-09-18
+  project_slug: how-cooley-is-accelerating-ipo-work-with-chatgpt
+  level: initial
+  reviewed_at: '2026-09-18T00:20:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 IPO 尽调中文件量大、早期风险易漏的问题，旧行为是律师人工通读，痛点刚性且高频。
+    evidence_ids:
+    - ev-6263229c3ba3ade6
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅见律所与平台方联合发布，无客户采用规模或律师反馈证据。
+    evidence_ids:
+    - ev-6263229c3ba3ade6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式；律所自建工具可能按项目计费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6263229c3ba3ade6
+  - gate: truth
+    status: insufficient
+    reason: 未说明问题筛查的准确率、人工复核边界与责任归属，交付确定性待核验。
+    evidence_ids:
+    - ev-6263229c3ba3ade6
+  next_validation: 检索 Cooley 官方页面或案例材料，确认 GO Public 的审阅范围、交付形式与是否披露客户使用数据。
+  market: ''
+  job: 律所律师在 IPO 项目中审阅招股书与尽调材料，需要尽早发现潜在法律问题并形成判断。
+  job_en: Lawyers on IPO projects review prospectuses and due diligence materials, needing to surface
+    potential legal issues early and form judgments.
+  pain: IPO 文件量大、合规要求高，人工通读耗时且容易漏掉早期风险信号。
+  pain_en: IPO documents are voluminous and compliance-heavy; manual full review is time-consuming and
+    can miss early risk signals.
+  current_alternative: 此前主要依靠律师团队人工通读与初级律师逐份筛查。
+  current_alternative_en: Previously this relied mainly on lawyer teams reading manually and junior lawyers
+    screening document by document.
+  usage_reason: 推断：相较初级律师逐份通读，该工具先对材料做问题筛查，把律师的时间从找问题转向判断问题，减少前期通读负担；公开材料未披露留存或复购数据，长期使用尚未证实。
+  usage_reason_en: 'Inference: unlike junior lawyers reading document by document, the tool screens materials
+    for issues first, shifting lawyer time from finding problems to judging them and cutting upfront reading
+    load; public materials disclose no retention or repeat-purchase data, so long-term use is unproven.'
