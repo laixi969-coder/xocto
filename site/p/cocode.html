@@ -82,37 +82,37 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-03</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-19</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者需要在本地或特定环境部署和运行 DeepSeek 模型。</p>
-        <p>使用官方命令行工具或自行编写脚本。</p>
-        <p>官方部署工具可能缺乏图形界面或集成不便。</p>
+        <p class="product-lead">需要在本地或特定环境部署并运行 DeepSeek 模型的开发者，希望用现成发行版替代自行拼装命令行与集成脚本，拿到可运行的桌面 GUI 或终端 TUI。</p>
+        <p>使用官方命令行工具或自行编写脚本完成 DeepSeek Harness 的安装与集成；公开材料未说明旧做法具体不便在哪。</p>
+        <p>公开材料只称其为“最佳即用发行版”，没有说明官方工具具体卡在哪一步、开发者为此付出什么代价，也没有用户抱怨或案例可引用，痛点强度无法确认。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>解决问题，但需求刚性不足</h3>
         <p>趋势：模型部署工具链走向分发和易用化。切入：可面向需要本地运行 DeepSeek 的企业，提供定制化支持和服务，但需验证与官方工具的差异。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>提供 GUI 和 TUI 可能降低使用门槛，但需求强度未证实。</p>
+        <p>推断：若发行版真把安装与集成打包成 GUI/TUI，开发者可省去自行拼装环境这一步；但公开材料未给出具体步骤、可核对结果或用户反馈，无法说明哪类用户会在什么情况下选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>官方文档或用户讨论</p>
+        <p>追踪 cocode 官网与仓库 README/发布说明，确认发行版具体打包了哪些安装与集成步骤、是否有开发者报告在实际环境中重复使用。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。提供 GUI 和 TUI 可能降低使用门槛，但需求强度未证实。</p>
+        <p><strong>值得拆解</strong>。推断：若发行版真把安装与集成打包成 GUI/TUI，开发者可省去自行拼装环境这一步；但公开材料未给出具体步骤、可核对结果或用户反馈，无法说明哪类用户会在什么情况下选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -124,14 +124,14 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>cocode 是一个 DeepSeek Harness 的发行版，提供桌面 GUI 和终端 TUI，用于集成和运行 DeepSeek 模型。开发者可下载使用，但具体功能和适用场景待核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>提供 GUI 和 TUI 可能降低使用门槛，但需求强度未证实。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>官方文档或用户讨论</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若发行版真把安装与集成打包成 GUI/TUI，开发者可省去自行拼装环境这一步；但公开材料未给出具体步骤、可核对结果或用户反馈，无法说明哪类用户会在什么情况下选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 cocode 官网与仓库 README/发布说明，确认发行版具体打包了哪些安装与集成步骤、是否有开发者报告在实际环境中重复使用。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>存在反证</strong>
           </div>
           <p>产品主张帮助用户完成：“cocode 是一个 DeepSeek Harness 的发行版，提供桌面 GUI 和终端 TUI，用于集成和运行 DeepSeek 模型。开发者可下载使用，但具体功能和适用场景待核验”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
           <div class="gate-links" aria-label="需求证据档">
@@ -143,21 +143,21 @@
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>未进入：价值不成立，缺乏用户反馈或采用证据。</p>
+          <p>价值闸门未通过，共识闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>未进入：价值不成立，商业模式未提及。</p>
+          <p>价值闸门未通过，模式闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>未进入：价值不成立，交付确定性未验证。</p>
+          <p>价值闸门未通过，求真闸门未进入。</p>
         </article>
       </div>
     </details>
@@ -251,7 +251,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 503 个 →
+        AI + 开发 共 511 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -343,8 +343,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1714 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-18</span>
+    <span>1761 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-19</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

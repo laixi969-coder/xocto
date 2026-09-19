@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>WhaleRead · x-octo</title>
+<meta name="description" content="外文书读者拿到没有现成译本的 TXT、Markdown 或 EPUB 文件时打开它：AI 在本地接收整本书的文本并执行翻译，不经过云端上传；用户最终得到保留原格式的译文文件，译文是否通顺仍需自己通读确认。">
+<link rel="canonical" href="https://xocto.vercel.app/p/whaleread.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/whaleread.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/whaleread.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/whaleread.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="WhaleRead · x-octo">
+<meta property="og:description" content="外文书读者拿到没有现成译本的 TXT、Markdown 或 EPUB 文件时打开它：AI 在本地接收整本书的文本并执行翻译，不经过云端上传；用户最终得到保留原格式的译文文件，译文是否通顺仍需自己通读确认。">
+<meta property="og:url" content="https://xocto.vercel.app/p/whaleread.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/whaleread.html#webpage", "@type": "WebPage", "description": "\u5916\u6587\u4e66\u8bfb\u8005\u62ff\u5230\u6ca1\u6709\u73b0\u6210\u8bd1\u672c\u7684 TXT\u3001Markdown \u6216 EPUB \u6587\u4ef6\u65f6\u6253\u5f00\u5b83\uff1aAI \u5728\u672c\u5730\u63a5\u6536\u6574\u672c\u4e66\u7684\u6587\u672c\u5e76\u6267\u884c\u7ffb\u8bd1\uff0c\u4e0d\u7ecf\u8fc7\u4e91\u7aef\u4e0a\u4f20\uff1b\u7528\u6237\u6700\u7ec8\u5f97\u5230\u4fdd\u7559\u539f\u683c\u5f0f\u7684\u8bd1\u6587\u6587\u4ef6\uff0c\u8bd1\u6587\u662f\u5426\u901a\u987a\u4ecd\u9700\u81ea\u5df1\u901a\u8bfb\u786e\u8ba4\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "WhaleRead", "url": "https://xocto.vercel.app/p/whaleread.html"}, {"@id": "https://xocto.vercel.app/p/whaleread.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u751f\u6d3b", "dateModified": "2026-09-19", "datePublished": "2026-09-18", "description": "\u5916\u6587\u4e66\u8bfb\u8005\u62ff\u5230\u6ca1\u6709\u73b0\u6210\u8bd1\u672c\u7684 TXT\u3001Markdown \u6216 EPUB \u6587\u4ef6\u65f6\u6253\u5f00\u5b83\uff1aAI \u5728\u672c\u5730\u63a5\u6536\u6574\u672c\u4e66\u7684\u6587\u672c\u5e76\u6267\u884c\u7ffb\u8bd1\uff0c\u4e0d\u7ecf\u8fc7\u4e91\u7aef\u4e0a\u4f20\uff1b\u7528\u6237\u6700\u7ec8\u5f97\u5230\u4fdd\u7559\u539f\u683c\u5f0f\u7684\u8bd1\u6587\u6587\u4ef6\uff0c\u8bd1\u6587\u662f\u5426\u901a\u987a\u4ecd\u9700\u81ea\u5df1\u901a\u8bfb\u786e\u8ba4\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/whaleread.html#webpage"}, "name": "WhaleRead", "url": "https://xocto.vercel.app/p/whaleread.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/whaleread.html", "name": "WhaleRead", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/whaleread.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">AI 应用的生意判断</p>
+      <div class="product-title-row">
+        <h1>WhaleRead</h1>
+      </div>
+      <p class="product-lede">外文书读者拿到没有现成译本的 TXT、Markdown 或 EPUB 文件时打开它：AI 在本地接收整本书的文本并执行翻译，不经过云端上传；用户最终得到保留原格式的译文文件，译文是否通顺仍需自己通读确认。</p>
+      <div class="meta product-meta">
+<span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
+<span class="tag">新应用 / 服务</span><span class="tag">AI + 生活</span><span class="tag">数字阅读</span><span class="tag">外语书读者</span><span class="tag sig">跨国机会</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>团队 / 作者</dt><dd>New User</dd></div>
+      <div><dt>本站首次收录</dt><dd class="num">2026-09-18</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-19</dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>它为什么会被需要</h2>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-09-19</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">使用场景</span>
+        <p class="product-lead">外文电子书读者拿到一本没有目标语言版本的 TXT、Markdown 或 EPUB 文件时，需要把整本书转成保留原格式、可通读的译文文件。</p>
+        <p>逐段复制到网页翻译器再手动拼回文件、使用需上传整本书的云端 EPUB 翻译服务、等待官方译本或付费请人翻译。</p>
+        <p>逐段复制到网页翻译器再手工拼回文件费时且丢格式；用云端整书翻译必须上传整本书，带来隐私与版权顾虑；等官方译本周期长或价格高。</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>需求有依据</h3>
+        <p>趋势：长文翻译正从逐段粘贴走向整文件交付，本地处理叠加隐私卖点。切入：从网文、轻小说或论文预印本等具体读者群进入，按本或订阅卖成品译文，比通用翻译工具更容易被记住。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">使用理由</span>
+        <h3>为什么用户会选择它</h3>
+        <p>推断：它在本地一次性接收整书文本并输出保留原格式的译文，省掉拆文件、逐段翻译、拼回格式的多步手工，也免去上传整本书这一步；因此在意藏书隐私、又急需可读译本的外文读者会在拿到无译本电子书时选择它。译文是否通顺仍需自行通读确认，尚无留存或复购证据。</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>收集 WhaleRead 官方定价页或部署文档，确认按本/订阅的收费方式与本地翻译支持的模型与格式范围。</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>值得试用</strong>。推断：它在本地一次性接收整书文本并输出保留原格式的译文，省掉拆文件、逐段翻译、拼回格式的多步手工，也免去上传整本书这一步；因此在意藏书隐私、又急需可读译本的外文读者会在拿到无译本电子书时选择它。译文是否通顺仍需自行通读确认，尚无留存或复购证据。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>趋势：长文翻译正从逐段粘贴走向整文件交付，本地处理叠加隐私卖点。切入：从网文、轻小说或论文预印本等具体读者群进入，按本或订阅卖成品译文，比通用翻译工具更容易被记住。</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">公开事实</span><p>它解决外文电子书无译本时的整书翻译需求：痛点是逐段粘贴丢格式、云端上传整本书有隐私与版权顾虑、等官方译本周期长；依据产品说明还原旧流程属工作流推理，尚无用户反馈佐证。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：它在本地一次性接收整书文本并输出保留原格式的译文，省掉拆文件、逐段翻译、拼回格式的多步手工，也免去上传整本书这一步；因此在意藏书隐私、又急需可读译本的外文读者会在拿到无译本电子书时选择它。译文是否通顺仍需自行通读确认，尚无留存或复购证据。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集 WhaleRead 官方定价页或部署文档，确认按本/订阅的收费方式与本地翻译支持的模型与格式范围。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>它解决外文电子书无译本时的整书翻译需求：痛点是逐段粘贴丢格式、云端上传整本书有隐私与版权顾虑、等官方译本周期长；依据产品说明还原旧流程属工作流推理，尚无用户反馈佐证。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>公开材料只有一句产品说明，没有用户评价、社区讨论或采用数据，无法判断读者是否真把整书翻译当成待办；场景强度仍属未知。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>未披露定价页与买方，本地翻译的算力成本由谁承担不明；按本收费还是订阅只能推测，属判断而非已验证事实。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>整书译文质量、格式还原度与本地模型能力均无实测或文档佐证，交付能否稳定达到可读标准尚不可核对。</p>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>中英文生态与跨国机会</h2>
+        <p class="note">市场对照 · 跨国机会</p>
+      </div>
+    </div>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：早期出现<br>需求证据：尚未核验</p>
+        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-19</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-19。未发现仅限该覆盖范围。 · 2026-09-19</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析尚未完成，可先阅读上方的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/everycube.html">everycube</a>、        <a href="../p/ai-agent-book.html">ai-agent-book</a>      </p>
+    </div>
+  </section>
+
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>从产品名直接追到一手材料</h2>
+        <p class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22WhaleRead%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">官网与文档</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22WhaleRead%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">定价与套餐</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22WhaleRead%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">用户评价与抱怨</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22WhaleRead%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">客户案例与结果</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22WhaleRead%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">替代品与对比</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="继续浏览">
+    <div class="sec-head desk-sec">
+      <div><h2>同类产品</h2></div>
+      <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E7%94%9F%E6%B4%BB">
+        AI + 生活 共 175 个 →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../p/everycube.html">
+          <div class="row-head desk-row">
+            <span class="row-name">everycube</span>
+            <span class="row-desc">普通人滚动鼠标，就能亲手穿过魔方全部四十多垓种状态，像走一条长廊</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/ai-agent-book.html">
+          <div class="row-head desk-row">
+            <span class="row-name">ai-agent-book</span>
+            <span class="row-desc">把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/whodunnitai.html">
+          <div class="row-head desk-row">
+            <span class="row-name">whodunnitai</span>
+            <span class="row-desc">用嘴审问五个会撒谎的AI嫌疑人，十几分钟内指认谁是凶手</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/loomfeed.html">
+          <div class="row-head desk-row">
+            <span class="row-name">loomfeed</span>
+            <span class="row-desc">人和 AI 同场发帖，来源、确定性标签和人类印章写在帖上，可信度不再靠读者瞎猜</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/week-35-asia-top-startup-funding-rounds-led-by-gestala.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">Gestala</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/what-does-docusign-docu-mean-for-legal-teams-with-its-new-ai.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">DocuSign</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>1761 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-19</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

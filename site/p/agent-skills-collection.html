@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-16</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-19</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者或 AI 助手使用者想给基于 LLM 的 agent 加装模块化技能，在本地或自建环境里把技能包接入自己的助手，完成扩展能力这件事。</p>
-        <p>公开材料未说明用户当前如何完成同一任务；结构上可推断的旧做法是直接调用模型 API、自行编写提示词或函数调用、或使用框架自带的工具/插件机制，但这些替代路径均无公开证据支撑。</p>
-        <p>公开材料只给出产品自述与安装摩擦描述：安装过程要求关闭杀毒软件、以管理员权限运行安装包。这属于分发方式带来的安全与信任负担，而非用户已表达的刚性痛点；没有用户抱怨、workaround 或案例说明不装技能会损失什么。</p>
+        <p class="product-lead">开发者或 AI 助手使用者想给本地 LLM agent 增加模块化技能，在拿到一个技能集合后，需要把技能装进自己的 agent 环境并让它可被调用。</p>
+        <p>用户可直接手写 prompt、函数调用或使用 agent 框架自带的工具注册机制，无需关闭杀毒或提权安装。</p>
+        <p>公开摘要显示安装环节要求关闭杀毒软件并以管理员权限运行安装包，这本身制造了安全与信任负担，而不是消除原有摩擦；用户为装技能反而要承担系统风险。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：若技能包确实省去逐个手写工具定义与接入代码，开发者可能因省一步集成而试用；但公开证据只有仓库 209 收藏、4 复刻这类关注度信号，不能解释选择原因，也不能证明持续使用，且安装需关杀毒、提权反而增加信任成本。</p>
+        <p>推断：只有愿意接受关杀毒、提权安装这类代价的开发者才可能试用；相较直接写 prompt 或框架自带工具注册，它并未减少步骤，反而增加安全负担，因此缺少让用户选择它的因果理由。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：若技能包确实省去逐个手写工具定义与接入代码，开发者可能因省一步集成而试用；但公开证据只有仓库 209 收藏、4 复刻这类关注度信号，不能解释选择原因，也不能证明持续使用，且安装需关杀毒、提权反而增加信任成本。</p>
+        <p><strong>值得拆解</strong>。推断：只有愿意接受关杀毒、提权安装这类代价的开发者才可能试用；相较直接写 prompt 或框架自带工具注册，它并未减少步骤，反而增加安全负担，因此缺少让用户选择它的因果理由。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -129,8 +129,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：若技能包确实省去逐个手写工具定义与接入代码，开发者可能因省一步集成而试用；但公开证据只有仓库 209 收藏、4 复刻这类关注度信号，不能解释选择原因，也不能证明持续使用，且安装需关杀毒、提权反而增加信任成本。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的公开 issue / discussion 与 README 安装说明，确认是否有用户报告实际接入流程、安全顾虑或替代方案，作为判断痛点与交付确定性的公开证据。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：只有愿意接受关杀毒、提权安装这类代价的开发者才可能试用；相较直接写 prompt 或框架自带工具注册，它并未减少步骤，反而增加安全负担，因此缺少让用户选择它的因果理由。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 README 与 release 说明，确认安装流程是否仍要求关闭杀毒或管理员权限，以及是否提供无需提权的标准包管理安装方式。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -290,7 +290,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 503 个 →
+        AI + 开发 共 511 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -342,9 +342,9 @@
         <span class="pager-n">dsh-mobile</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/qanat.html">
+      <a class="pager-item pager-next" href="../p/bivor.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">qanat</span>
+        <span class="pager-n">Bivor</span>
       </a>
     </div>
   </nav>
@@ -382,8 +382,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1714 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-18</span>
+    <span>1761 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-19</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

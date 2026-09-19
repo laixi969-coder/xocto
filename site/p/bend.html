@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>Bend · x-octo</title>
-<meta name="description" content="开发者在编写会调用大模型的程序时打开 Bend：它接收用该语言写好的源码，在 CPU 与 GPU 上并行执行，并在编译阶段用证明检查挡住模型生成代码里的一类错误，最终交付可运行程序；具体拦截哪些错误类型与人工复核环节仍待核验。">
+<meta name="description" content="开发者在编写并行或 GPU 程序时，需要同时处理正确性验证与硬件调度，通常要分别写验证代码和并行代码。Bend 让开发者用同一份源码表达并行计算，并借助证明机制在编译阶段拦截 AI 生成代码中的错误，最终产出可在 CPU 或 GPU 上运行的程序；具体语言特性、工具链成熟度与交付流程仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/bend.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/bend.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/bend.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/bend.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Bend · x-octo">
-<meta property="og:description" content="开发者在编写会调用大模型的程序时打开 Bend：它接收用该语言写好的源码，在 CPU 与 GPU 上并行执行，并在编译阶段用证明检查挡住模型生成代码里的一类错误，最终交付可运行程序；具体拦截哪些错误类型与人工复核环节仍待核验。">
+<meta property="og:description" content="开发者在编写并行或 GPU 程序时，需要同时处理正确性验证与硬件调度，通常要分别写验证代码和并行代码。Bend 让开发者用同一份源码表达并行计算，并借助证明机制在编译阶段拦截 AI 生成代码中的错误，最终产出可在 CPU 或 GPU 上运行的程序；具体语言特性、工具链成熟度与交付流程仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/bend.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/bend.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u7f16\u5199\u4f1a\u8c03\u7528\u5927\u6a21\u578b\u7684\u7a0b\u5e8f\u65f6\u6253\u5f00 Bend\uff1a\u5b83\u63a5\u6536\u7528\u8be5\u8bed\u8a00\u5199\u597d\u7684\u6e90\u7801\uff0c\u5728 CPU \u4e0e GPU \u4e0a\u5e76\u884c\u6267\u884c\uff0c\u5e76\u5728\u7f16\u8bd1\u9636\u6bb5\u7528\u8bc1\u660e\u68c0\u67e5\u6321\u4f4f\u6a21\u578b\u751f\u6210\u4ee3\u7801\u91cc\u7684\u4e00\u7c7b\u9519\u8bef\uff0c\u6700\u7ec8\u4ea4\u4ed8\u53ef\u8fd0\u884c\u7a0b\u5e8f\uff1b\u5177\u4f53\u62e6\u622a\u54ea\u4e9b\u9519\u8bef\u7c7b\u578b\u4e0e\u4eba\u5de5\u590d\u6838\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Bend", "url": "https://xocto.vercel.app/p/bend.html"}, {"@id": "https://xocto.vercel.app/p/bend.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-18", "datePublished": "2026-09-18", "description": "\u5f00\u53d1\u8005\u5728\u7f16\u5199\u4f1a\u8c03\u7528\u5927\u6a21\u578b\u7684\u7a0b\u5e8f\u65f6\u6253\u5f00 Bend\uff1a\u5b83\u63a5\u6536\u7528\u8be5\u8bed\u8a00\u5199\u597d\u7684\u6e90\u7801\uff0c\u5728 CPU \u4e0e GPU \u4e0a\u5e76\u884c\u6267\u884c\uff0c\u5e76\u5728\u7f16\u8bd1\u9636\u6bb5\u7528\u8bc1\u660e\u68c0\u67e5\u6321\u4f4f\u6a21\u578b\u751f\u6210\u4ee3\u7801\u91cc\u7684\u4e00\u7c7b\u9519\u8bef\uff0c\u6700\u7ec8\u4ea4\u4ed8\u53ef\u8fd0\u884c\u7a0b\u5e8f\uff1b\u5177\u4f53\u62e6\u622a\u54ea\u4e9b\u9519\u8bef\u7c7b\u578b\u4e0e\u4eba\u5de5\u590d\u6838\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/bend.html#webpage"}, "name": "Bend", "sameAs": "https://bend-lang.com/", "url": "https://xocto.vercel.app/p/bend.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/bend.html", "name": "Bend", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/bend.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u7f16\u5199\u5e76\u884c\u6216 GPU \u7a0b\u5e8f\u65f6\uff0c\u9700\u8981\u540c\u65f6\u5904\u7406\u6b63\u786e\u6027\u9a8c\u8bc1\u4e0e\u786c\u4ef6\u8c03\u5ea6\uff0c\u901a\u5e38\u8981\u5206\u522b\u5199\u9a8c\u8bc1\u4ee3\u7801\u548c\u5e76\u884c\u4ee3\u7801\u3002Bend \u8ba9\u5f00\u53d1\u8005\u7528\u540c\u4e00\u4efd\u6e90\u7801\u8868\u8fbe\u5e76\u884c\u8ba1\u7b97\uff0c\u5e76\u501f\u52a9\u8bc1\u660e\u673a\u5236\u5728\u7f16\u8bd1\u9636\u6bb5\u62e6\u622a AI \u751f\u6210\u4ee3\u7801\u4e2d\u7684\u9519\u8bef\uff0c\u6700\u7ec8\u4ea7\u51fa\u53ef\u5728 CPU \u6216 GPU \u4e0a\u8fd0\u884c\u7684\u7a0b\u5e8f\uff1b\u5177\u4f53\u8bed\u8a00\u7279\u6027\u3001\u5de5\u5177\u94fe\u6210\u719f\u5ea6\u4e0e\u4ea4\u4ed8\u6d41\u7a0b\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Bend", "url": "https://xocto.vercel.app/p/bend.html"}, {"@id": "https://xocto.vercel.app/p/bend.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-19", "datePublished": "2026-09-18", "description": "\u5f00\u53d1\u8005\u5728\u7f16\u5199\u5e76\u884c\u6216 GPU \u7a0b\u5e8f\u65f6\uff0c\u9700\u8981\u540c\u65f6\u5904\u7406\u6b63\u786e\u6027\u9a8c\u8bc1\u4e0e\u786c\u4ef6\u8c03\u5ea6\uff0c\u901a\u5e38\u8981\u5206\u522b\u5199\u9a8c\u8bc1\u4ee3\u7801\u548c\u5e76\u884c\u4ee3\u7801\u3002Bend \u8ba9\u5f00\u53d1\u8005\u7528\u540c\u4e00\u4efd\u6e90\u7801\u8868\u8fbe\u5e76\u884c\u8ba1\u7b97\uff0c\u5e76\u501f\u52a9\u8bc1\u660e\u673a\u5236\u5728\u7f16\u8bd1\u9636\u6bb5\u62e6\u622a AI \u751f\u6210\u4ee3\u7801\u4e2d\u7684\u9519\u8bef\uff0c\u6700\u7ec8\u4ea7\u51fa\u53ef\u5728 CPU \u6216 GPU \u4e0a\u8fd0\u884c\u7684\u7a0b\u5e8f\uff1b\u5177\u4f53\u8bed\u8a00\u7279\u6027\u3001\u5de5\u5177\u94fe\u6210\u719f\u5ea6\u4e0e\u4ea4\u4ed8\u6d41\u7a0b\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/bend.html#webpage"}, "name": "Bend", "sameAs": "https://bend-lang.com/", "url": "https://xocto.vercel.app/p/bend.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/bend.html", "name": "Bend", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>Bend</h1>
       </div>
-      <p class="product-lede">开发者在编写会调用大模型的程序时打开 Bend：它接收用该语言写好的源码，在 CPU 与 GPU 上并行执行，并在编译阶段用证明检查挡住模型生成代码里的一类错误，最终交付可运行程序；具体拦截哪些错误类型与人工复核环节仍待核验。</p>
+      <p class="product-lede">开发者在编写并行或 GPU 程序时，需要同时处理正确性验证与硬件调度，通常要分别写验证代码和并行代码。Bend 让开发者用同一份源码表达并行计算，并借助证明机制在编译阶段拦截 AI 生成代码中的错误，最终产出可在 CPU 或 GPU 上运行的程序；具体语言特性、工具链成熟度与交付流程仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件与信息服务</span><span class="tag">AI 应用开发者</span><span class="tag">编译器与运行时工程师</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 235</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件与信息服务</span><span class="tag">编译器与运行时工程师</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 589</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>nicolas-siplis</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-09-18</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-18</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-19</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://bend-lang.com/" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,58 +82,58 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-09-18</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-09-19</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">AI 应用开发者与编译器工程师在把模型生成的代码并入生产程序时，处理该语言源码与并行执行配置，要完成的是让程序在 CPU 与 GPU 上跑起来且不因模型写错而崩溃。</p>
-        <p>靠人工代码评审、单元测试与类型检查，或直接在生产环境试错。</p>
-        <p>模型生成的代码难以人工逐行核对，错误往往在运行或上线后才暴露，返工成本高；公开材料未给出具体错误类型与发生频率。</p>
+        <p class="product-lead">编译器与运行时工程师在把 AI 生成的并行计算代码部署到 GPU 前，需要处理源码与验证脚本两套材料，完成正确性检查并让程序在 CPU 或 GPU 上跑通。</p>
+        <p>现有做法是人工审查 AI 输出，再另写测试或验证脚本，并在 CPU 与 GPU 之间分别维护代码路径。</p>
+        <p>AI 生成的并行代码错误往往在运行期才暴露，人工审查和补写测试成本高；但候选材料未给出任何用户抱怨、采用或复购证据。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
-        <p>趋势：模型写代码变便宜后，稀缺的变成“怎么确认它没写错”，验证环节开始被单独做成工具。切入：从对正确性有硬要求的行业软件或金融、工业控制类代码库进入，卖编译期校验与可复现执行，而不是再做一个代码生成器。</p>
+        <h3>解决问题，但需求刚性不足</h3>
+        <p>趋势：AI 写代码的速度已经超过人工审查速度，正确性验证正从“事后测试”前移到语言与编译层。切入：可从对错误零容忍的环节进入，例如金融清算、芯片验证、自动驾驶感知模块的并行内核，卖法可以是按项目交付可验证内核，而非按席位卖编辑器；该语言本身尚处早期，不宜从通用应用开发切入。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较人工评审与测试，它在编译阶段用证明检查直接拒绝一类错误，省去事后定位与返工这一步，因此对正确性要求高、又大量使用模型生成代码的团队可能选择它；目前缺少采用与留存证据。</p>
+        <p>推断：若证明机制真能在编译阶段拦截错误，工程师可省去为 AI 生成代码补写验证脚本这一步，并在同一份源码上切换 CPU 与 GPU；但候选材料只有官网定位与社区讨论热度，缺少文档、实测或用户反馈来支撑这一因果，因此尚不能确认用户会因此选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>收集该语言官方文档与仓库 issue/discussion，确认它实际拦截的错误类型、与人工复核的边界及可复现实测结果。</p>
+        <p>收集 Bend 官方文档与仓库中的语言特性说明、编译与 GPU 运行示例，以及 issue/discussion 中关于证明机制实际拦截错误的可复现记录。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>继续观察</strong>。推断：相较人工评审与测试，它在编译阶段用证明检查直接拒绝一类错误，省去事后定位与返工这一步，因此对正确性要求高、又大量使用模型生成代码的团队可能选择它；目前缺少采用与留存证据。</p>
+        <p><strong>仅作线索</strong>。推断：若证明机制真能在编译阶段拦截错误，工程师可省去为 AI 生成代码补写验证脚本这一步，并在同一份源码上切换 CPU 与 GPU；但候选材料只有官网定位与社区讨论热度，缺少文档、实测或用户反馈来支撑这一因果，因此尚不能确认用户会因此选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势：模型写代码变便宜后，稀缺的变成“怎么确认它没写错”，验证环节开始被单独做成工具。切入：从对正确性有硬要求的行业软件或金融、工业控制类代码库进入，卖编译期校验与可复现执行，而不是再做一个代码生成器。</p>
+        <p>趋势：AI 写代码的速度已经超过人工审查速度，正确性验证正从“事后测试”前移到语言与编译层。切入：可从对错误零容忍的环节进入，例如金融清算、芯片验证、自动驾驶感知模块的并行内核，卖法可以是按项目交付可验证内核，而非按席位卖编辑器；该语言本身尚处早期，不宜从通用应用开发切入。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>开发者在编写会调用大模型的程序时打开 Bend：它接收用该语言写好的源码，在 CPU 与 GPU 上并行执行，并在编译阶段用证明检查挡住模型生成代码里的一类错误，最终交付可运行程序；具体拦截哪些错误类型与人工复核环节仍待核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较人工评审与测试，它在编译阶段用证明检查直接拒绝一类错误，省去事后定位与返工这一步，因此对正确性要求高、又大量使用模型生成代码的团队可能选择它；目前缺少采用与留存证据。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>收集该语言官方文档与仓库 issue/discussion，确认它实际拦截的错误类型、与人工复核的边界及可复现实测结果。</p></div>
+        <div><span class="field-k">公开事实</span><p>开发者在编写并行或 GPU 程序时，需要同时处理正确性验证与硬件调度，通常要分别写验证代码和并行代码。Bend 让开发者用同一份源码表达并行计算，并借助证明机制在编译阶段拦截 AI 生成代码中的错误，最终产出可在 CPU 或 GPU 上运行的程序；具体语言特性、工具链成熟度与交付流程仍待核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若证明机制真能在编译阶段拦截错误，工程师可省去为 AI 生成代码补写验证脚本这一步，并在同一份源码上切换 CPU 与 GPU；但候选材料只有官网定位与社区讨论热度，缺少文档、实测或用户反馈来支撑这一因果，因此尚不能确认用户会因此选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集 Bend 官方文档与仓库中的语言特性说明、编译与 GPU 运行示例，以及 issue/discussion 中关于证明机制实际拦截错误的可复现记录。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>存在反证</strong>
           </div>
-          <p>产品主张帮助用户完成：“开发者在编写会调用大模型的程序时打开 Bend：它接收用该语言写好的源码，在 CPU 与 GPU 上并行执行，并在编译阶段用证明检查挡住模型生成代码里的一类错误，最终交付可运行程序；具体拦截哪些错误类”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>产品主张帮助用户完成：“开发者在编写并行或 GPU 程序时，需要同时处理正确性验证与硬件调度，通常要分别写验证代码和并行代码”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
           <div class="gate-links" aria-label="需求证据档">
             <a href="https://bend-lang.com/" target="_blank" rel="noopener">Bend · 2026-09-18 ↗</a>
           </div>
@@ -143,30 +143,21 @@
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>社区讨论热度较高，说明有人关注，但没有可归因到该产品的采用、付费或持续使用证据，关注不等于共识。</p>
-          <div class="gate-links" aria-label="需求证据档">
-            <a href="https://bend-lang.com/" target="_blank" rel="noopener">Bend · 2026-09-18 ↗</a>
-          </div>
+          <p>价值闸门未通过，共识闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>开源项目，公开材料未给出定价、商业主体或买方，钱可能来自企业支持或托管服务，这是判断而非已验证事实。</p>
-          <div class="gate-links" aria-label="需求证据档">
-            <a href="https://bend-lang.com/" target="_blank" rel="noopener">Bend · 2026-09-18 ↗</a>
-          </div>
+          <p>价值闸门未通过，模式闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>证明检查能否确定性交付、与人工复核边界如何划分均未说明，也未见与第一性目标对齐的实测结果。</p>
-          <div class="gate-links" aria-label="需求证据档">
-            <a href="https://bend-lang.com/" target="_blank" rel="noopener">Bend · 2026-09-18 ↗</a>
-          </div>
+          <p>价值闸门未通过，求真闸门未进入。</p>
         </article>
       </div>
     </details>
@@ -184,12 +175,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：初步成立</p>
-        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-18</p>
+        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-19</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-18。未发现仅限该覆盖范围。 · 2026-09-18</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-19。未发现仅限该覆盖范围。 · 2026-09-19</p>
       </div>
     </div>
   </section>
@@ -216,8 +207,8 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://www.merriam-webster.com/dictionary/bend" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">merriam-webster.com</span>
+      <li><a href="https://en.wikipedia.org/wiki/Bend,_Oregon" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.wikipedia.org</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -226,8 +217,8 @@
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://en.m.wikipedia.org/wiki/Bend,_Oregon" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">en.m.wikipedia.org</span>
+      <li><a href="https://visitcentraloregon.com/cities/bend/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">visitcentraloregon.com</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -235,6 +226,16 @@
         <span class="row-name">Bend</span>
         <span class="row-desc">market_signal</span>
         <span class="row-tail">2026-09-18</span>
+      </div></a></li>
+      <li><a href="https://www.merriam-webster.com/dictionary/bend" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">merriam-webster.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://en.m.wikipedia.org/wiki/Bend,_Oregon" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.m.wikipedia.org</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
       </div></a></li>
     </ul>
   </section>
@@ -275,7 +276,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 503 个 →
+        AI + 开发 共 511 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -322,14 +323,14 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/bankmcp.html">
+      <a class="pager-item pager-prev" href="../p/orbify.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">BankMCP</span>
+        <span class="pager-n">Orbify</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/mobilecode.html">
+      <a class="pager-item pager-next" href="../p/determinflow.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">MobileCode</span>
+        <span class="pager-n">DeterminFlow</span>
       </a>
     </div>
   </nav>
@@ -367,8 +368,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1714 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-18</span>
+    <span>1761 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-19</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
