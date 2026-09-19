@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HdU56azYycVlX
 summary: ai chatbot alternatives Latest Android Version Học viện Nông nghiệp Việt Nam
 first_seen: '2026-09-18T02:23:04Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -644,3 +644,92 @@
     the developer only changes the endpoint, and fakes in the model output are swapped back locally, removing
     the manual backfill step. That is why teams in regulated industries who want model access but cannot
     export raw data would pick it. This is inference from product capability, not supporte'
+- id: req-initial-cover-2026-09-19
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-19T00:21:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感材料进模型时的暴露风险，痛点刚性来自合规后果，旧做法是人工脱敏或放弃使用模型，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有开源星标与社区讨论，属于关注度，不能证明团队已把它放进日常流程。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价或付费路径，买方可能是企业合规预算，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 替换规则能否覆盖全部敏感字段、还原是否可靠，公开材料未给出可复现验证。
+    evidence_ids: []
+  next_validation: 收集该仓库的部署文档、issue 与讨论，确认替换规则覆盖范围与本地还原的可复现结果。
+  market: ''
+  job: 合规或数据保护工程师在把客户名单、病历、合同等敏感材料交给外部大模型处理时，需要在不暴露真实字段的前提下拿到可用的模型输出。
+  job_en: A compliance or data protection engineer handing sensitive material such as client lists, medical
+    records or contracts to an external model needs usable model output without exposing real fields.
+  pain: 真实数据一旦进入第三方模型就难以撤回，脱敏靠人工替换既慢又容易漏字段，漏一个就可能构成合规事故。
+  pain_en: Once real data enters a third-party model it cannot be recalled; manual masking is slow and
+    easily misses fields, and one miss can become a compliance incident.
+  current_alternative: 目前多靠人工改写或删除敏感字段、内部自建脱敏脚本，或干脆放弃把这类材料交给模型。
+  current_alternative_en: Today teams manually rewrite or delete sensitive fields, build in-house masking
+    scripts, or simply avoid sending such material to models.
+  usage_reason: 相较人工脱敏，它把替换和还原做成链路中的固定一步：模型只看到假值，本地自动还原，减少逐字段手工改写这一环，并让替换规则可被检查；推断，尚无用户反馈或客户案例支持。
+  usage_reason_en: 'Compared with manual masking, it makes substitution and restoration a fixed pipeline
+    step: the model only sees fakes and restoration happens locally, removing per-field manual rewriting
+    and making rules inspectable; inference, with no user feedback or customer case yet.'
+- id: req-full-cover-2026-09-19
+  project_slug: cover
+  level: full
+  reviewed_at: '2026-09-19T00:52:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感材料进外部模型时的暴露风险，痛点刚性来自合规后果，旧做法是人工脱敏或放弃用模型，替换—还原闭环结构上成立；但公开证据未含用户抱怨或案例，属工作流推理。
+    evidence_ids:
+    - ev-64b4ddcd1f552610
+    - ev-c82618aae34698e8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有通用AI工具与检索页，未出现该代理的采用、评价或社区讨论，无法判断合规工程师是否已把它放进日常流程；关注度不等于持续采用。
+    evidence_ids:
+    - ev-69faf1594be288d4
+    - ev-9fbc5cf7365b254e
+    - ev-8843ad6625ad2f69
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是企业合规预算或开发者自购，这是判断而非已验证事实；公开材料也未显示采购或订阅记录。
+    evidence_ids:
+    - ev-a812dfc76b01c46f
+    - ev-66612da9ec917d4d
+  - gate: truth
+    status: insufficient
+    reason: 替换规则能否覆盖全部敏感字段、本地还原是否可靠、假值是否会被模型误判，公开材料未给出可复现验证或部署文档，承诺的确定性交付尚未核验。
+    evidence_ids:
+    - ev-64b4ddcd1f552610
+    - ev-c82618aae34698e8
+  next_validation: 追踪该项目的官方仓库或官网部署文档与 issue/discussion，确认替换规则覆盖范围、本地还原的可复现结果及是否出现定价或客户案例。
+  market: ''
+  job: 合规与数据保护工程师或处理敏感数据的AI应用开发者，在把客户名单、病历、合同等材料交给外部大模型处理前，需要先经代理把真实字段替换成格式逼真的假值，模型返回后在本地还原，从而拿到可继续使用的真实结果。
+  job_en: A compliance/data-protection engineer or AI app developer, before sending client lists, medical
+    records or contracts to an external model, routes them through a proxy that swaps real fields for
+    realistic fakes and restores originals locally, so the returned output is usable real data.
+  pain: 真实数据一旦进入第三方模型就难以撤回，人工逐字段脱敏既慢又容易漏字段，漏一个就可能构成合规事故；公开材料未给出用户抱怨或事故案例，痛点强度来自合规后果的结构推理。
+  pain_en: Once real data enters a third-party model it cannot be recalled; manual field-by-field masking
+    is slow and easily misses fields, and one miss can become a compliance incident; public material offers
+    no user complaint or incident case, so severity is structural inference from compliance consequences.
+  current_alternative: 目前多靠人工改写或删除敏感字段、内部自建脱敏脚本，或干脆放弃把这类材料交给模型；公开证据只覆盖通用AI工具与检索页，未出现同类可逆代理的公开对比。
+  current_alternative_en: Teams today manually rewrite or delete sensitive fields, build in-house masking
+    scripts, or simply avoid sending such material to models; public evidence only covers generic AI tools
+    and search pages, with no public comparison of a comparable reversible proxy.
+  usage_reason: 相较人工脱敏，它把替换与还原做成链路中的固定一步：模型只看到假值，本地自动还原，减少逐字段手工改写这一环，并让替换规则可被检查；这是基于产品能力与任务结构的推断，尚无用户反馈或客户案例支持。
+  usage_reason_en: 'Compared with manual masking, it makes substitution and restoration a fixed pipeline
+    step: the model only sees fakes and restoration happens locally, removing per-field manual rewriting
+    and making rules inspectable; this is inference from product capability and task structure, with no
+    user feedback or customer case yet.'

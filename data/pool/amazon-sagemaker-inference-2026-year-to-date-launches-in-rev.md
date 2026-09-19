@@ -1,6 +1,6 @@
 ---
 slug: amazon-sagemaker-inference-2026-year-to-date-launches-in-rev
-name: 'Amazon SageMaker Inference: 2026 year-to-date launches in review'
+name: Amazon SageMaker AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: 'Amazon SageMaker AI shipped 13 inference launches in year-to-date acro
   and decode.'
 first_seen: '2026-09-18T20:52:14Z'
 last_seen: '2026-09-19T00:21:44Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Amazon SageMaker Inference: 2026 year-to-date launches in review
+# Amazon SageMaker AI
 
 Amazon SageMaker AI shipped 13 inference launches in year-to-date across two deployment paths: fully managed endpoints and Amazon SageMaker HyperPod Inference. This post reviews each launch, from inference recommendations and capacity-aware instance pools to tiered KV caching and disaggregated prefill and decode.
 

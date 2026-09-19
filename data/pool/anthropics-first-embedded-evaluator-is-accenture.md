@@ -1,6 +1,6 @@
 ---
 slug: anthropics-first-embedded-evaluator-is-accenture
-name: Anthropic’s first embedded evaluator is … Accenture?
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/18/anthropics-first-embedded-evalu
 summary: Accenture is about to take on its most high-risk consulting engagement ever.
 first_seen: '2026-09-18T21:44:33Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic’s first embedded evaluator is … Accenture?
+# Anthropic
 
 Accenture is about to take on its most high-risk consulting engagement ever.
 

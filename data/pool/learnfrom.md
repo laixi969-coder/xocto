@@ -34,7 +34,7 @@ canonical_url: https://learnfrom.co
 summary: I built a SaaS without knowing how to code – am I an idiot?
 first_seen: '2026-08-25T14:55:10Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

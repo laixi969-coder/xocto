@@ -23,7 +23,7 @@ summary: Nvidia's Nader Khalil and Sydney Sykes discuss one of the decisions sha
   on the Builders Stage at TechCrunch Disrupt 2026.
 first_seen: '2026-09-18T15:30:00Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

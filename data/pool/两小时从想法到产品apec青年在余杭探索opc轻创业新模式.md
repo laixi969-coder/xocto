@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTE5SZFZWUkttYVJ4
 summary: 两小时从想法到产品，APEC青年在余杭探索OPC轻创业新模式 ori.hangzhou.com.cn
 first_seen: '2026-09-17T09:32:58Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

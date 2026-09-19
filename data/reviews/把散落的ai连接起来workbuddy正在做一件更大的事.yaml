@@ -37,3 +37,86 @@
   usage_reason: 如果WorkBuddy能无缝集成常用AI工具，可能减少切换成本，但证据不足。
   usage_reason_en: If WorkBuddy can seamlessly integrate common AI tools, it may reduce switching costs,
     but evidence is insufficient.
+- id: req-initial-把散落的ai连接起来workbuddy正在做一件更大的事-2026-09-19
+  project_slug: 把散落的ai连接起来workbuddy正在做一件更大的事
+  level: initial
+  reviewed_at: '2026-09-19T00:21:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有标题里的“把散落的 AI 连接起来”，无法还原旧流程与交付。
+    evidence_ids:
+    - ev-b0ed89a4fe4f5595
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。除一篇报道标题外，没有社区讨论、采用或评价材料可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-b0ed89a4fe4f5595
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。材料未说明买方、定价或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-b0ed89a4fe4f5595
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。没有功能说明、仓库或部署文档，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-b0ed89a4fe4f5595
+  next_validation: 收集腾讯 WorkBuddy 的官方开源仓库页面，核对其功能说明、许可协议与提交记录。
+  market: ''
+  job: 候选材料未说明具体使用者与场景；从标题只能推测是让开发者或业务人员把多个分散的 AI 工具串成一条流程，但谁在什么情况下、处理什么材料、要完成什么任务均未给出。
+  job_en: The material does not identify users or scenarios; the headline only suggests developers or
+    business staff chaining several scattered AI tools into one flow, but who does this, under what circumstances,
+    with what material, and to finish what task is not stated.
+  pain: 材料未描述任何具体痛点，只能推测多工具之间来回切换、上下文需要人工搬运会带来负担，这属于推断而非已证实事实。
+  pain_en: No concrete pain point is described; one can only infer the burden of switching between tools
+    and manually moving context, which is inference rather than established fact.
+  current_alternative: 材料未提及现有替代方式；按常理推断，用户此前可能靠手工复制粘贴或自写脚本串联多个 AI 工具，但无公开证据支持。
+  current_alternative_en: No current alternative is mentioned; by inference users may previously have
+    chained AI tools by manual copy-paste or self-written scripts, but no public evidence supports this.
+  usage_reason: 无法判断用户为何会选择它：候选材料没有说明它相较手工串联减少了哪一步负担，也没有任何采用、评价或留存证据，缺少可核对的功能与交付描述这一环。
+  usage_reason_en: 'Why users would choose it cannot be judged: the material does not say which step it
+    removes compared with manual chaining, and there is no adoption, review, or retention evidence; the
+    missing link is a checkable description of function and deliverable.'
+- id: req-full-把散落的ai连接起来workbuddy正在做一件更大的事-2026-09-19
+  project_slug: 把散落的ai连接起来workbuddy正在做一件更大的事
+  level: full
+  reviewed_at: '2026-09-19T00:55:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有标题里的“把散落的 AI 连接起来”，无法还原旧流程、输入与交付，价值结构无从判断。
+    evidence_ids:
+    - ev-99df2ed7bd2b6efe
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集腾讯 WorkBuddy 的官方开源仓库页面，核对其功能说明、许可协议与提交记录。
+  market: ''
+  job: 候选材料未说明具体使用者与场景；标题只暗示有人想把分散的多个 AI 工具串成一条流程，但谁在什么情况下、处理什么材料、要完成什么任务均未给出。
+  job_en: The material does not identify users or scenarios; the headline only suggests someone wants
+    to chain several scattered AI tools into one flow, but who does this, under what circumstances, with
+    what material, and to finish what task is not stated.
+  pain: 材料未描述任何具体痛点，只能推测多工具之间来回切换、上下文需人工搬运会带来负担，这属于推断而非已证实事实。
+  pain_en: No concrete pain point is described; one can only infer the burden of switching between tools
+    and manually moving context, which is inference rather than established fact.
+  current_alternative: 材料未提及现有替代方式；按常理推断，用户此前可能靠手工复制粘贴或自写脚本串联多个 AI 工具，但无公开证据支持。
+  current_alternative_en: No current alternative is mentioned; by inference users may previously have
+    chained AI tools by manual copy-paste or self-written scripts, but no public evidence supports this.
+  usage_reason: 无法判断用户为何会选择它：候选材料没有说明它相较手工串联减少了哪一步负担，也没有任何采用、评价或留存证据，缺少可核对的功能与交付描述这一环。
+  usage_reason_en: 'Why users would choose it cannot be judged: the material does not say which step it
+    removes compared with manual chaining, and there is no adoption, review, or retention evidence; the
+    missing link is a checkable description of function and deliverable.'

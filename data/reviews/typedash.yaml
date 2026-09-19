@@ -1,0 +1,87 @@
+- id: req-initial-typedash-2026-09-19
+  project_slug: typedash
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决口述转文字与快捷指令的需求，但公开材料只有一句描述，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-0053c5e993eadf8f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有用户评价、采用或社区讨论证据，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-0053c5e993eadf8f
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱来自个人订阅还是机构采购。
+    evidence_ids:
+    - ev-0053c5e993eadf8f
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对转写准确率、是否需人工校对，以及安全与隐私边界。
+    evidence_ids:
+    - ev-0053c5e993eadf8f
+  next_validation: 收集 TypeDash 官方定价页或支持应用清单，确认它相对系统听写新增的具体动作与收费方式。
+  market: ''
+  job: 桌面用户在不离开当前窗口的情况下，把口述内容变成文字或触发预设指令，替代键盘输入。
+  job_en: A desktop user turns spoken content into text or fires a preset command without leaving the
+    current window, replacing keyboard input.
+  pain: 打字慢、切换输入法或复制粘贴打断思路；但公开材料没有说明具体痛点强度，也没有用户抱怨或替代行为的记录。
+  pain_en: Typing is slow and switching input methods or copy-pasting breaks flow, but the public material
+    gives no record of pain intensity, user complaints or workaround behaviour.
+  current_alternative: 操作系统自带听写、第三方听写工具，或直接手打。
+  current_alternative_en: Built-in OS dictation, third-party dictation tools, or simply typing by hand.
+  usage_reason: 推断：如果它能把常用话术存成语音快捷指令，用户就不必每次重打同一段文字，可能减少重复输入这一步；但公开材料只有一句产品描述，无法确认它比系统听写多做了什么，因此无法判断用户为何会选择它。
+  usage_reason_en: 'Inference: if it stores recurring phrasing as voice shortcuts, users would not retype
+    the same passage each time, potentially removing one repetitive step; but the public material is a
+    single product line, so what it adds over OS dictation, and why users would pick it, cannot be established.'
+- id: req-full-typedash-2026-09-19
+  project_slug: typedash
+  level: full
+  reviewed_at: '2026-09-19T00:55:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决桌面端口述转文字与语音快捷指令的需求，痛点是打字慢、重复话术重打、切换输入法打断思路，旧替代为系统听写或手打；不采用则继续承担重复输入成本。公开材料仅一句描述，痛点强度与交付确定性属工作流结构推理，非用户已证事实。
+    evidence_ids:
+    - ev-0053c5e993eadf8f
+  - gate: consensus
+    status: insufficient
+    reason: 只有 公开资料 产品页一句描述，没有用户评价、采用数据或社区讨论，无法判断共识卡在感知、想象、场景还是利益环节；有强场景（重复话术输入）但缺采用证据。
+    evidence_ids:
+    - ev-0053c5e993eadf8f
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或买方信息，无法判断钱来自个人订阅还是团队采购；按桌面效率工具惯例推断可能为 to C 订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0053c5e993eadf8f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对转写准确率、是否需人工校对、支持哪些应用，以及语音数据的隐私与安全边界；交付能否稳定发生缺可复现公开证据。
+    evidence_ids:
+    - ev-0053c5e993eadf8f
+  next_validation: 追踪 TypeDash 官方产品页或定价页，确认其相对系统听写新增的具体动作（快捷指令机制）、支持应用清单与收费方式。
+  market: ''
+  job: 桌面用户（写作者、客服、开发者等）在任意输入窗口里，用口述代替键盘，把一段话变成可直接使用的文本，或触发预设的语音快捷指令，从而不离开当前窗口完成输入。
+  job_en: A desktop user (writer, support agent, developer) dictates instead of typing inside any input
+    window, turning speech into usable text or firing a preset voice shortcut, so input is completed without
+    leaving the current window.
+  pain: 打字速度低于说话速度，长段落输入、重复话术重打、切换输入法或复制粘贴都会打断思路；公开材料只有一句产品描述，没有用户抱怨或替代行为的记录，痛点强度属结构推理而非已证事实。
+  pain_en: Typing is slower than speech; long passages, retyping recurring phrasing, and switching input
+    methods or copy-pasting all break flow. The public material is a single product line with no recorded
+    user complaints or workarounds, so pain intensity is structural inference, not established fact.
+  current_alternative: 操作系统自带听写（macOS/Windows 语音输入）、第三方听写工具，或直接手打并复制粘贴常用话术。
+  current_alternative_en: Built-in OS dictation (macOS/Windows voice input), third-party dictation tools,
+    or simply typing by hand and copy-pasting recurring phrasing.
+  usage_reason: 推断：相较系统听写只能逐句转写、常用话术仍需重打，TypeDash 把常用话术存成语音快捷指令，用户说一个触发词即可插入整段文本，省掉重复输入这一步；因此高频重复输入同一批话术的桌面用户（如客服、销售、写作者）会在系统听写不够用时选择它。公开材料未说明它比系统听写多做了什么，此因果为工作流推理。
+  usage_reason_en: 'Inference: whereas OS dictation only transcribes sentence by sentence and recurring
+    phrasing must still be retyped, TypeDash stores recurring phrasing as voice shortcuts so one trigger
+    word inserts a whole passage, removing the repetitive-typing step; desktop users who repeatedly enter
+    the same phrasing (support, sales, writers) would pick it when OS dictation is not enough. The public
+    material does not state what it adds over OS dictation, so this causal link is workflow inf'

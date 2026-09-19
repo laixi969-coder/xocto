@@ -425,3 +425,55 @@
     input, removing the separate steps of drawing, aligning captions and audio, and re-translating, so
     learners and creators who need explainable material quickly would pick it when preparing lessons or
     content.'
+- id: req-full-vistep-2026-09-19
+  project_slug: vistep
+  level: full
+  reviewed_at: '2026-09-19T00:55:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把多步骤复杂过程转成可看可动双语解释的需求，痛点在于手工跨绘图、动画、配音、翻译多工具拼装且步骤与讲解难对齐；公开说明已能还原输入—生成—交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-d8edc73ff4ef20f3
+    - ev-9b7cdb435d78c781
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 195 缓慢增至 214，说明有开发者关注，但这是关注度而非目标学习者或创作者的持续使用证据；公开材料没有评价、复刻使用或场景讨论，无法判断强场景是否形成。
+    evidence_ids:
+    - ev-d8edc73ff4ef20f3
+    - ev-972b8a3c39b9e291
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断钱来自 to C 订阅、to B 授权还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-9b7cdb435d78c781
+  - gate: truth
+    status: insufficient
+    reason: 双语可视化、交互模型与同步讲解能否稳定生成、生成质量与人工校对边界如何，公开材料只有一句能力描述，缺可复现的交付证据与安全边界说明。
+    evidence_ids:
+    - ev-62a144e63fac263e
+  next_validation: 追踪 vistep 官网是否上线定价页与客户案例，以及其代码仓库的 issue/discussion 中是否出现真实使用场景与交付质量反馈。
+  market: ''
+  job: 学习者或内容创作者在需要理解或讲解一个多步骤复杂过程（如算法流程、实验步骤、操作教程）时，把概念或步骤文本交给 vistep，产出双语可视化解释、可交互模型与同步讲解，用于自学或对外讲解。
+  job_en: A learner or content creator who needs to understand or explain a multi-step process (e.g.,
+    an algorithm, an experiment, an operating procedure) feeds the concept or steps into vistep to produce
+    bilingual visual explanations, an interactive model, and synchronized narration for self-study or
+    for teaching others.
+  pain: 公开材料只给出产品能力描述，未提供用户抱怨或案例；从工作流结构推理，把抽象步骤转成可看可动的解释通常要在绘图、动画、配音、翻译多个工具间来回切换，重复劳动且难以保证步骤与讲解一致。
+  pain_en: Public materials only describe product capability, with no user complaints or cases; by workflow-structure
+    inference, turning abstract steps into something watchable and manipulable normally requires shuttling
+    between drawing, animation, voiceover, and translation tools, which is repetitive and makes step-narration
+    consistency hard to guarantee.
+  current_alternative: 结构推理下的旧做法是：用 PPT/Keynote 或绘图工具手工画步骤图，用动画或录屏工具做演示，再单独配音、单独翻译；或直接依赖现成视频教程与教科书插图，无法按自己的材料定制。
+  current_alternative_en: 'Under structural inference, the old approach is: hand-drawing step diagrams
+    in PPT/Keynote or drawing tools, building demos in animation or screen-recording tools, then adding
+    voiceover and translation separately; or relying on existing video tutorials and textbook figures
+    that cannot be customized to one''s own material.'
+  usage_reason: 推断：相较手工多工具拼装，vistep 用一次输入同时生成可视化步骤、交互模型与同步讲解，减少的是“画图—做动画—配音—翻译”之间的多次转手与对齐成本，因此需要按自有材料快速产出可讲解内容的学习者或创作者会在赶讲解/备课/出教程时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual multi-tool assembly, vistep generates visual steps, an interactive
+    model, and synchronized narration from a single input, cutting the repeated hand-offs and alignment
+    work across drawing, animating, voiceover, and translation; learners or creators who must quickly
+    turn their own material into explainable content would choose it when preparing a lesson or tutorial.
+    Public materials contain no user feedback confirming this motive.'

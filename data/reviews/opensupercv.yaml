@@ -1,0 +1,91 @@
+- id: req-initial-opensupercv-2026-09-19
+  project_slug: opensupercv
+  level: initial
+  reviewed_at: '2026-09-19T00:21:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它归集跨应用文本，但说不出用户具体任务、痛点强度与不采用的后果，价值关证据不足。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有约 45 颗星与 1 个 issue，缺少用户评价或讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  - gate: model
+    status: insufficient
+    reason: 未进入：开源项目无定价与客户信息，买方与付费路径均不可知。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对 agent 处理工作区条目是否贴近该工作的第一性目标、交付是否确定。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认 agent 处理工作区条目的具体输入输出与人工确认环节。
+  market: ''
+  job: 需要在多个应用之间收集资料的知识工作者，在整理一份报告或案件材料时，处理散落在聊天、文档与网页中的文本片段，要形成可检索、可复用的上下文。
+  job_en: A knowledge worker who gathers material across several applications and, while assembling a
+    report or case file, handles text fragments scattered across chats, documents and web pages to form
+    searchable, reusable context.
+  pain: 公开材料只说明它能归集内容，没有用户抱怨、替代行为或采用记录，无法确认跨应用复制粘贴是否构成足够强的痛点。
+  pain_en: The public material only says it collects content; there are no user complaints, workaround
+    records or adoption evidence, so it cannot be confirmed that cross-application copying is a strong
+    enough pain.
+  current_alternative: 推断：用户目前依靠系统剪贴板历史、笔记软件、浏览器书签或手动粘贴到文档中暂存素材。
+  current_alternative_en: 'Inference: users currently rely on system clipboard history, note-taking apps,
+    browser bookmarks, or manually pasting material into a document for temporary storage.'
+  usage_reason: 无法判断。材料未说明相较剪贴板历史或笔记软件，它减少了哪一步操作或改善了哪项可核对结果，也没有用户反馈支持选择动机。
+  usage_reason_en: Cannot be judged. The material does not say which step it removes or which checkable
+    result it improves relative to clipboard history or note apps, and no user feedback supports a reason
+    to choose it.
+- id: req-full-opensupercv-2026-09-19
+  project_slug: opensupercv
+  level: full
+  reviewed_at: '2026-09-19T00:53:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用文本碎片归集与复用：用户写报告或调试时素材散在聊天、文档、网页，系统剪贴板历史浅且无结构，笔记软件需先建页再粘贴，不解决就要反复翻找重贴。仓库说明已给出输入（跨应用复制内容）—动作（收进可搜索可编辑工作区、agent
+      按需处理）—交付（整理后的上下文条目）闭环，属工作流结构推理；痛点刚性中等，交付形态与人工确认环节尚未核验。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 45 颗星，无用户评价、issue 讨论或采用记录，无法判断共识卡在感知、想象、场景还是利益哪一环；关注度数字不能替代持续采用证据。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页、无客户案例、无采购记录，to C 订阅、to B 团队授权或 to VC 均无公开依据；这是判断而非已验证事实，买方与付费路径仍不可知。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 agent 处理工作区条目是否贴近该工作的第一性目标、输出是否确定、人工确认边界在哪；仓库说明只描述能力，未给出可复现的输入输出与安全边界。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 agent 处理工作区条目的具体输入输出、人工确认环节与是否有用户报告实际使用场景。
+  market: ''
+  job: 知识工作者、开发者或研究分析人员在写报告、调试或做调研时，需要把散落在聊天、文档、网页、终端里的文本片段集中起来，形成可搜索、可编辑、可交给 agent 处理的上下文条目。
+  job_en: A knowledge worker, developer or researcher assembling a report, debugging or doing research
+    needs to gather text fragments scattered across chats, documents, web pages and terminals into searchable,
+    editable context items that an agent can process.
+  pain: 跨应用复制粘贴的素材散落在系统剪贴板历史、笔记软件和文档草稿里，检索和复用成本高；系统剪贴板历史容量有限、无结构、无法按需交给模型处理，用户往往要重新翻找来源或重复复制。
+  pain_en: Material copied across applications ends up scattered in system clipboard history, note apps
+    and draft documents, making retrieval and reuse costly; system clipboard history is shallow, unstructured
+    and cannot be handed to a model on demand, so users re-hunt sources or re-copy.
+  current_alternative: 推断：系统剪贴板历史（如 Windows/macOS 剪贴板）、笔记软件（Notion、Obsidian）、浏览器书签与手动粘贴到文档中暂存。
+  current_alternative_en: 'Inference: system clipboard history (Windows/macOS), note apps (Notion, Obsidian),
+    browser bookmarks, and manually pasting into a document for temporary storage.'
+  usage_reason: 推断：相较系统剪贴板历史只能按时间倒序翻找、笔记软件需要先建页面再粘贴，OpenSuperCV 把复制动作直接落成可搜索、可编辑的工作区条目，并允许 agent 按需处理其中条目，省去“先找地方存、再回头整理”的两步；常在多应用间搬运素材、又想让模型直接消费这些片段的知识工作者会因此选择它。
+  usage_reason_en: 'Inference: unlike system clipboard history, which is only reverse-chronological, or
+    note apps, which require creating a page before pasting, OpenSuperCV turns the copy action directly
+    into searchable, editable workspace items and lets an agent process them on demand, removing the ''find
+    somewhere to store it, then tidy it later'' steps; knowledge workers who shuttle material between
+    apps and want a model to consume those fragments would choose it.'

@@ -1,0 +1,84 @@
+- id: req-initial-foleyfy-2026-09-19
+  project_slug: foleyfy
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队缺音效素材与音频处理能力的问题，旧做法是买素材库或自己录音后期。
+    evidence_ids:
+    - ev-74084106e061f580
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句说明，没有用户评价或案例证明开发者真的用它替代素材库。
+    evidence_ids:
+    - ev-74084106e061f580
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，按包收费还是订阅均无材料支持，买方是否为开发者本人也不确定。
+    evidence_ids:
+    - ev-74084106e061f580
+  - gate: truth
+    status: insufficient
+    reason: 生成音效的版权归属与商用授权范围未说明，这是游戏团队采用前的关键一环。
+    evidence_ids:
+    - ev-74084106e061f580
+  next_validation: 收集 Foleyfy 官方定价页或授权条款，确认音效包的商用许可与收费方式。
+  market: ''
+  job: 独立游戏开发者在为场景补齐脚步声、环境音等音效时，处理自己录制的日常声音，要得到能直接放进游戏的音效包。
+  job_en: Indie game developers, when filling scenes with footsteps and ambience, handle their own recordings
+    of everyday sounds to get sound packs that drop straight into the game.
+  pain: 素材库音效同质化且授权复杂，自己录音再后期处理又需要音频技能，小团队往往卡在这一步。
+  pain_en: Stock sound effects are generic with tangled licensing, while self-recording plus post-processing
+    needs audio skills, a step small teams often get stuck on.
+  current_alternative: 购买音效素材库、在免费素材站筛选，或自己录音后用音频软件手工处理。
+  current_alternative_en: Buying sound libraries, filtering free asset sites, or recording and hand-processing
+    in audio software.
+  usage_reason: 推断：相较在素材库筛选或自学后期，它把日常录音直接转成可用音效包，省掉格式转换与基础处理这一步，因此缺音频人手的小型游戏团队会先试用。
+  usage_reason_en: 'Inference: compared with filtering libraries or learning post-production, it turns
+    everyday recordings into usable packs, removing format conversion and basic processing, so small game
+    teams without audio staff would try it first.'
+- id: req-full-foleyfy-2026-09-19
+  project_slug: foleyfy
+  level: full
+  reviewed_at: '2026-09-19T00:52:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队缺音效素材与音频处理能力的问题，旧做法是买素材库或自己录音后期，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-74084106e061f580
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句说明，没有用户评价或案例证明开发者真的用它替代素材库，采用共识未形成。
+    evidence_ids:
+    - ev-74084106e061f580
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，按包收费还是订阅均无材料支持，买方是否为开发者本人也不确定，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-74084106e061f580
+  - gate: truth
+    status: insufficient
+    reason: 生成音效的版权归属与商用授权范围未说明，这是游戏团队采用前的关键一环，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-74084106e061f580
+  next_validation: 收集 Foleyfy 官方定价页或授权条款，确认音效包的商用许可与收费方式。
+  market: ''
+  job: 独立游戏开发者在为场景补齐脚步声、开门声、环境音等音效时，处理自己录制的日常声音素材，要得到能直接放进游戏的音效包。
+  job_en: Indie game developers, when filling scenes with footsteps, door sounds and ambience, handle
+    their own recordings of everyday sounds to get sound packs that drop straight into the game.
+  pain: 素材库音效同质化且授权条款复杂，自己录音再后期处理又需要音频技能与时间，小团队常卡在这一步。
+  pain_en: Stock sound effects are generic with tangled licensing, while self-recording plus post-processing
+    needs audio skills and time, a step small teams often get stuck on.
+  current_alternative: 购买音效素材库、在免费素材站筛选，或自己录音后用音频软件手工处理。
+  current_alternative_en: Buying sound libraries, filtering free asset sites, or recording and hand-processing
+    in audio software.
+  usage_reason: 推断：相较在素材库筛选或自学后期，它把日常录音直接转成可用音效包，省掉格式转换与基础处理这一步，因此缺音频人手的小型游戏团队会先试用。
+  usage_reason_en: 'Inference: compared with filtering libraries or learning post-production, it turns
+    everyday recordings into usable packs, removing format conversion and basic processing, so small game
+    teams without audio staff would try it first.'

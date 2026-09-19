@@ -123,3 +123,45 @@
   usage_reason_en: 'Inference: it turns repository rules into automatic pre-commit gates, removing the
     manual step of checking each line against conventions, so teams adopt it when AI-generated volume
     is high and compliance matters.'
+- id: req-full-gap-trap-2026-09-19
+  project_slug: gap-trap
+  level: full
+  reviewed_at: '2026-09-19T00:52:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码后人工逐行审阅这一具体痛点，旧做法是人工 review 加零散 lint，不解决的后果是漏审与返工，结构上成立。
+    evidence_ids:
+    - ev-c26ae0188725a222
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 42 升至 171，说明关注度在增长，但没有用户评价、issue 或团队采用记录，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-c26ae0188725a222
+    - ev-acd1bf707837efdb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价与买方，推断可能按仓库或团队订阅收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0b0146d34bb87fb7
+  - gate: truth
+    status: insufficient
+    reason: 规则由谁维护、误报如何处理、是否需人工最终确认均未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-c26ae0188725a222
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认规则配置方式、误报处理与是否有团队实际采用记录。
+  market: ''
+  job: 软件工程师在 AI 代理批量改写代码后，需要处理大量自动生成的改动，并在合并前确认这些改动符合仓库既有规则。
+  job_en: Software engineers, after AI agents rewrite code in bulk, must handle large volumes of generated
+    changes and confirm they follow existing repository rules before merging.
+  pain: AI 生成代码的速度超过人工审阅速度，逐行 review 成为瓶颈，漏审会带来线上故障。
+  pain_en: AI generates code faster than humans can review it, so line-by-line review becomes the bottleneck
+    and missed checks cause production incidents.
+  current_alternative: 靠人工逐行审阅、CI 里零散的 lint 与测试，或口头约定规范。
+  current_alternative_en: Manual line-by-line review, scattered lint and tests in CI, or unwritten conventions.
+  usage_reason: 推断：它把仓库规则固化成提交前的自动关卡，省掉人工逐行比对规范这一步，因此团队在 AI 生成改动量大、又必须保证合规时会选择它。
+  usage_reason_en: 'Inference: it turns repository rules into automatic pre-commit gates, removing the
+    manual step of checking each line against conventions, so teams adopt it when AI-generated volume
+    is high and compliance matters.'

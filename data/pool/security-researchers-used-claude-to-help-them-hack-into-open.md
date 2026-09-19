@@ -24,7 +24,7 @@ summary: A team of three independent security researchers at Hacktron says it to
   contains "OpenAI's algorithmic secrets," according to The […]
 first_seen: '2026-09-18T15:30:16Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

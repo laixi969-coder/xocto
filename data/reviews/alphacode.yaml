@@ -76,3 +76,48 @@
   usage_reason: 用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software Developer Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-alphacode-2026-09-19
+  project_slug: alphacode
+  level: full
+  reviewed_at: '2026-09-19T00:51:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多文件改动中在编辑器、终端与模型对话间反复切换、手工串联上下文的痛点，把多模型与工具调度收进终端一次执行；这是从仓库说明与编码工作流结构推出的判断，交付物为可审阅的代码变更，形态可确定。
+    evidence_ids:
+    - ev-8b60f3956d859fc7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 77 增至 81，说明有开发者关注，但未见 issue、discussion 或用户反馈证明它被持续用于真实改动，关注度不能替代采用共识。
+    evidence_ids:
+    - ev-8b60f3956d859fc7
+    - ev-97e0074d668ba3d3
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未披露定价、付费主体或商业变现方式，谁付钱尚属判断而非已验证事实；开源采用与商业收入之间路径不明。
+    evidence_ids:
+    - ev-8b60f3956d859fc7
+  - gate: truth
+    status: insufficient
+    reason: 多模型与 40 多个工具自动执行代码改动，公开材料未说明权限边界、回滚机制与人工审阅强制点，交付能否稳定且安全发生缺可复现证据。
+    evidence_ids:
+    - ev-8b60f3956d859fc7
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者报告在真实代码库中持续使用、替代了哪一步旧流程及审阅边界。
+  market: ''
+  job: 软件开发者在自己终端里打开这个开源编码代理，把代码库与任务交给它，由它调度多个模型和 40 多个工具执行改动，最终产出代码变更，仍需开发者自行审阅。
+  job_en: Software developers open this open-source coding agent in their own terminal, hand it a codebase
+    and task, let it orchestrate multiple models and 40+ tools to make changes, and review the resulting
+    code changes themselves.
+  pain: 多文件改动需要在编辑器、终端、模型对话与各类工具间反复切换，手工串联上下文与命令，重复劳动多且容易漏改。
+  pain_en: Multi-file changes require constant switching among editor, terminal, model chat, and various
+    tools, manually stitching context and commands, causing repetitive work and missed edits.
+  current_alternative: 旧做法是开发者手动在 IDE 与终端间编辑运行，或使用单一模型对话复制粘贴代码，再自行执行测试与提交。
+  current_alternative_en: The old way is manual editing and running across IDE and terminal, or copy-pasting
+    code from a single model chat, then running tests and committing by hand.
+  usage_reason: 推断：相较手动编辑加单模型复制粘贴，它在终端内直接调度多模型与 40 多个工具执行改动，省去切换窗口与手工串联命令的步骤，因此习惯终端工作流、需要批量改动的开发者会试用它；仓库收藏数只说明关注度，不证明持续使用。
+  usage_reason_en: 'Inference: versus manual editing plus single-model copy-paste, it orchestrates multiple
+    models and 40+ tools inside the terminal, removing window-switching and manual command chaining, so
+    terminal-centric developers doing bulk edits would try it; star counts show attention, not sustained
+    use.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbl80UzJwRUFU
 summary: 构建“以客户为中心”的“华为+伙伴”协同体系，让AI惠及千行百业 7its.com
 first_seen: '2026-09-18T16:40:41Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

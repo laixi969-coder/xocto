@@ -532,3 +532,44 @@
   usage_reason_en: 'Inference: if it truly generates runnable worlds quickly via code, it might attract
     developers preferring code-driven workflows; but public material does not show which step it removes
     or which checkable result it improves versus the old approach, so the choice motive cannot be confirmed.'
+- id: req-full-fable51-worlds-2026-09-19
+  project_slug: fable51-worlds
+  level: full
+  reviewed_at: '2026-09-19T00:52:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅一句“worlds via code, from fable 5.1”与星标数，未说明用户任务、痛点强度、当前替代或不采用代价，连需求与痛点都无法还原，故价值关不成立。
+    evidence_ids:
+    - ev-783cd4a82d094165
+    - ev-48d9787537d9b98a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/PhiloLabs/fable51-worlds 的 README、issue 与 discussion，确认是否出现具体世界构建任务、旧流程替代与可复现交付说明。
+  market: ''
+  job: 游戏开发者或世界构建师在需要搭建可运行虚拟世界场景时，用代码定义世界元素并生成或渲染出可运行的世界，替代手工在引擎里逐项摆放资产。
+  job_en: Game developers or world builders who need a runnable virtual world scene define world elements
+    in code and generate or render a runnable world, instead of manually placing assets in an engine.
+  pain: 公开材料只有一句“worlds via code, from fable 5.1”，没有说明手工搭建世界的具体耗时、返工或协作摩擦，也没有用户抱怨或案例，痛点内容无法还原。
+  pain_en: Public material is only the line 'worlds via code, from fable 5.1'; it does not describe the
+    time, rework, or collaboration friction of hand-building worlds, and no user complaints or cases exist,
+    so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明用户当前用什么方式完成世界构建，无法确认它替代的是引擎手工摆放、程序化生成脚本还是其他工具。
+  current_alternative_en: Public material does not state how users currently build worlds, so it is unclear
+    whether it replaces manual engine placement, procedural generation scripts, or other tools.
+  usage_reason: 缺少文档、issue、discussion 或用户反馈，无法说明相较旧做法它减少了哪一步负担或改善了哪项可核对结果，因此不能判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no docs, issues, discussions, or user feedback, it is impossible to say which
+    step it removes or which checkable result it improves versus the old approach, so no user segment
+    or situation can be identified as choosing it.

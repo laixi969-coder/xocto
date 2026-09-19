@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE00Z0cyMkE4Y3Z4
 summary: 投行巨头：中国消费端AI普及领先美国 guancha.cn
 first_seen: '2026-09-17T10:28:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

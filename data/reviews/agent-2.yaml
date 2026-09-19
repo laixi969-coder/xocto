@@ -307,3 +307,48 @@
   usage_reason_en: 'Inference: if it consolidates coding, security scanning, and terminal operations into
     one agent entry point, it may reduce switching between tools, but no user feedback, case study, or
     repeat-use evidence supports this.'
+- id: req-full-agent-2-2026-09-19
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-09-19T00:51:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据仅一句“自主 AI 代理，面向编程、网络安全、终端自动化”，未说明具体任务、卡点、频率与不解决的后果；把编码、安全、终端三块拼在一起却无聚焦场景，属自嗨拼凑，价值关不成立。
+    evidence_ids:
+    - ev-1add8c21fe750ced
+    - ev-330662c122d41d8a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Agent-2 仓库 README、issue 与 discussion，确认它实际替代的旧流程、具体交付物与是否有用户复现记录。
+  market: ''
+  job: 开发者（程序员）在本地终端或编码环境中，把一段任务描述交给 Agent-2，让它自动完成代码编写、安全扫描或终端命令操作，并取回任务结果或操作日志。
+  job_en: A developer (programmer) hands a task description to Agent-2 in a local terminal or coding environment
+    so it can autonomously write code, run security scans, or execute terminal commands, and returns the
+    task result or operation log.
+  pain: 公开材料只给出“自主代理”这一句功能描述，没有说明手动编码、扫描或敲命令具体卡在哪一步、发生频率多高、不解决会有什么后果；痛点无法从公开事实还原。
+  pain_en: Public material offers only a one-line 'autonomous agent' description; it does not show which
+    step of manual coding, scanning, or command entry hurts, how often, or what happens if unsolved, so
+    the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者现在用什么完成同类任务；按工作流结构推理，最接近的旧做法是手动编码加专用工具（如 linter、扫描器）或已有的编码代理，但项目未披露它替代了哪一步。
+  current_alternative_en: Public material does not state what developers use today; by workflow inference
+    the nearest alternatives are manual coding plus specialized tools (linters, scanners) or existing
+    coding agents, but the project does not disclose which step it replaces.
+  usage_reason: 推断：若它真能一次接收任务描述并自动完成编码、扫描与终端操作，可省去在多个工具间切换和逐步敲命令的负担，因此偏好终端一体化的开发者可能试用；但公开材料没有用户反馈或案例支持这一动机，且“编码+安全+终端”三合一缺乏聚焦场景，属于拼装式能力。
+  usage_reason_en: 'Inference: if it truly accepts a task description and autonomously completes coding,
+    scanning, and terminal operations, it could remove the burden of switching among tools and typing
+    commands step by step, so developers who prefer a terminal-integrated flow might try it; however,
+    no user feedback or case supports this motive, and the coding+security+terminal bundle lacks a focused
+    scenario, reading as assembled capability.'

@@ -1,0 +1,86 @@
+- id: req-initial-contextsbase-backlog-for-coding-agents-2026-09-19
+  project_slug: contextsbase-backlog-for-coding-agents
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把零散提示词变成可执行待办这一需求，痛点真实存在；但公开材料只有一句定位，说不清输入、交付与验收，价值结构尚不完整。
+    evidence_ids:
+    - ev-209664f35d163f3a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布记录，没有用户评价、采用或重复使用证据，无法判断工程师是否已把它放进日常工作流。
+    evidence_ids:
+    - ev-209664f35d163f3a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式；按席位还是按产出收费属于推断，尚无已验证事实。
+    evidence_ids:
+    - ev-209664f35d163f3a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近工程第一性目标，也未说明代理执行出错时的人工边界与回滚方式。
+    evidence_ids:
+    - ev-209664f35d163f3a
+  next_validation: 收集 ContextsBase 官方产品页或文档，确认待办清单的生成方式、支持的代码仓库与验收流程。
+  market: ''
+  job: 软件工程师在接到一批零散需求、准备交给编码代理执行时，需要把聊天里的提示词整理成一份有顺序、可逐条执行的待办清单，并拿到对应的代码改动。
+  job_en: A software engineer who has received a batch of scattered requirements and is about to hand
+    them to a coding agent needs to turn chat prompts into an ordered, item-by-item backlog and obtain
+    the corresponding code changes.
+  pain: 提示词散落在聊天记录里，顺序、边界和完成标准都不清楚，代理执行到一半就偏离目标，人还得回头重新描述。
+  pain_en: Prompts are scattered across chat history, with unclear order, scope and completion criteria,
+    so the agent drifts mid-task and the person has to re-describe the work.
+  current_alternative: 工程师手工维护任务列表或 issue，再把单条提示词逐次粘贴给编码代理，靠人工判断哪一条算做完。
+  current_alternative_en: Engineers maintain a task list or issues by hand and paste prompts to the coding
+    agent one at a time, judging completion manually.
+  usage_reason: 推断：它把提示词集中成一份待办清单，让代理按条目连续执行，省去逐条重述和人工排序这一步；但公开材料没有说明清单如何生成、如何验收，因此哪类用户会持续选择它尚不清楚。
+  usage_reason_en: 'Inference: it consolidates prompts into one backlog so the agent can run items in
+    sequence, removing the step of re-stating and manually ordering each prompt. The public material does
+    not explain how the backlog is generated or accepted, so which users would keep choosing it is unclear.'
+- id: req-full-contextsbase-backlog-for-coding-agents-2026-09-19
+  project_slug: contextsbase-backlog-for-coding-agents
+  level: full
+  reviewed_at: '2026-09-19T00:52:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把散落聊天提示词整理成可逐条执行的待办这一需求，痛点是代理中途偏离后人工重述；旧做法是手工维护 issue 并逐条粘贴，不解决的后果是返工。这是工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-209664f35d163f3a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条 公开资料 发布记录，没有用户评价、采用或重复使用证据，无法判断工程师是否已把它放进日常工作流。
+    evidence_ids:
+    - ev-209664f35d163f3a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式；按席位还是按产出收费属于推断，尚无已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-209664f35d163f3a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近工程第一性目标，也未说明代理执行出错时的人工边界与回滚方式，交付确定性缺公开证据。
+    evidence_ids:
+    - ev-209664f35d163f3a
+  next_validation: 收集 ContextsBase 官方产品页或文档，确认待办清单的生成方式、支持的代码仓库与验收流程。
+  market: ''
+  job: 软件工程师在接到一批零散需求、准备交给编码代理执行时，需要把聊天里的提示词整理成一份有顺序、可逐条执行的待办清单，并拿到对应的代码改动。
+  job_en: A software engineer who has received a batch of scattered requirements and is about to hand
+    them to a coding agent needs to turn chat prompts into an ordered, item-by-item backlog and obtain
+    the corresponding code changes.
+  pain: 提示词散落在聊天记录里，顺序、边界和完成标准都不清楚，代理执行到一半就偏离目标，人还得回头重新描述。
+  pain_en: Prompts are scattered across chat history, with unclear order, scope and completion criteria,
+    so the agent drifts mid-task and the person has to re-describe the work.
+  current_alternative: 工程师手工维护任务列表或 issue，再把单条提示词逐次粘贴给编码代理，靠人工判断哪一条算做完。
+  current_alternative_en: Engineers maintain a task list or issues by hand and paste prompts to the coding
+    agent one at a time, judging completion manually.
+  usage_reason: 推断：它把提示词集中成一份待办清单，让代理按条目连续执行，省去逐条重述和人工排序这一步；但公开材料没有说明清单如何生成、如何验收，因此哪类用户会持续选择它尚不清楚。
+  usage_reason_en: 'Inference: it consolidates prompts into one backlog so the agent can run items in
+    sequence, removing the step of re-stating and manually ordering each prompt. The public material does
+    not explain how the backlog is generated or accepted, so which users would keep choosing it is unclear.'

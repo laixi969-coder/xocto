@@ -1,0 +1,84 @@
+- id: req-initial-ax-checkcom-2026-09-19
+  project_slug: ax-checkcom
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决代理无法使用产品的问题，但公开材料只有一句主张，说不清具体任务、失败后果与旧做法，价值结构无法还原。
+    evidence_ids:
+    - ev-295ec9f9e5c06071
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 27 分、32 条评论，属于关注度信号，不能证明持续采用或形成共识。
+    evidence_ids:
+    - ev-295ec9f9e5c06071
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是网站主还是代理平台无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-295ec9f9e5c06071
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检测是否真实反映代理行为，也未见人工确认边界与交付结果。
+    evidence_ids:
+    - ev-295ec9f9e5c06071
+  next_validation: 收集 Ax-check.com 官方页面或文档，确认其检测对象、输出报告样例与是否公布定价。
+  market: ''
+  job: 网站或产品负责人在上线或改版后，用自家产品页面作为材料，检查 AI 代理能否识别并完成操作。
+  job_en: A website or product owner uses their own product page after launch or redesign to check whether
+    AI agents can recognize it and complete operations.
+  pain: 如果代理无法识别或操作产品，代理带来的流量与任务会直接失败，但公开材料没有说明这一失败的具体后果与频率。
+  pain_en: If agents cannot recognize or operate the product, agent-driven traffic and tasks fail outright,
+    but public material does not describe the concrete consequences or frequency of such failures.
+  current_alternative: 目前多靠人工用浏览器或脚本模拟代理访问，逐页排查，缺少统一检查方式。
+  current_alternative_en: Today this is mostly done manually by simulating agent visits with browsers
+    or scripts, page by page, without a unified check.
+  usage_reason: 推断：若它能把代理访问失败的页面与原因一次性列出，用户可省去逐页人工模拟这一步；但公开材料未说明检测方式与输出，无法确认这一因果。
+  usage_reason_en: 'Inference: if it lists failing pages and causes in one pass, users could skip manual
+    page-by-page simulation; however, public material does not describe the detection method or output,
+    so this causal link is unconfirmed.'
+- id: req-full-ax-checkcom-2026-09-19
+  project_slug: ax-checkcom
+  level: full
+  reviewed_at: '2026-09-19T00:51:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决代理无法识别和操作产品的问题，但公开材料只有一句主张，说不清具体任务、失败后果与旧做法，连需求和痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-8c367285c7114696
+    - ev-77e00d1b38c20c9b
+    - ev-e027dee48f2a4de7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Ax-check.com 官方页面或文档，确认其检测对象、输出报告样例与是否公布定价。
+  market: ''
+  job: 网站或产品负责人在上线或改版后，用自家产品页面作为材料，检查 AI 代理能否识别并完成操作。
+  job_en: A website or product owner uses their own product page after launch or redesign to check whether
+    AI agents can recognize it and complete operations.
+  pain: 公开材料只有一句主张，没有说明代理识别失败会造成什么具体后果、发生频率多高，也没有用户抱怨或案例支撑这一痛点。
+  pain_en: Public material offers only a single claim, with no description of what concrete consequences
+    agent-recognition failures cause, how often they occur, or any user complaint or case supporting this
+    pain.
+  current_alternative: 公开材料未说明当前替代方式；按工作流推断，可能靠人工用浏览器或脚本逐页模拟代理访问，但无证据确认。
+  current_alternative_en: Public material does not describe the current alternative; by workflow inference
+    it may be manual page-by-page simulation of agent visits with browsers or scripts, but this is unconfirmed.
+  usage_reason: 无法判断用户为何选择它：公开材料未说明检测对象、执行动作与交付结果，无法还原相较旧做法减少哪一步负担，因此使用理由无法成立。
+  usage_reason_en: 'Why users would choose it cannot be judged: public material does not describe the
+    detection target, actions performed, or delivered output, so no step-reduction versus the old approach
+    can be reconstructed and the usage reason cannot stand.'

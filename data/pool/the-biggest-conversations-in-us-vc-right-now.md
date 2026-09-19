@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/us-vc-conversations-ai-anthropic-agent
 summary: ''
 first_seen: '2026-09-18T11:55:11Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

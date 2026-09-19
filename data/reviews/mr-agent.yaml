@@ -76,3 +76,54 @@
   usage_reason: 用户要完成的任务是：代码评审、持续集成运维；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Code review, CI operations Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-mr-agent-2026-09-19
+  project_slug: mr-agent
+  level: full
+  reviewed_at: '2026-09-19T00:53:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 GitLab MR 评审与 CI 失败排查的重复人工步骤：评审排队与失败重跑拖慢合入，旧做法是人工逐条看 diff 并手动读日志重跑，产品把评审与自愈嵌入 MR 流程，属工作流结构推理。
+    evidence_ids:
+    - ev-b953918dd7020b18
+    - ev-d2f0443c5d2d8b1e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 86 增至 94，说明社区注意到它，但这是关注度而非持续采用；没有客户案例、部署记录或 issue 讨论证明团队已把它留在评审工作流里。
+    evidence_ids:
+    - ev-b953918dd7020b18
+    - ev-d2f0443c5d2d8b1e
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未公开定价、企业版或采购说明，买方与付费路径不明；这是判断，不是已验证事实，但不影响价值关成立。
+    evidence_ids:
+    - ev-b953918dd7020b18
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句功能描述，没有部署文档、自愈成功率或人工确认边界说明，无法确认评审意见与修复动作能否稳定交付、出错时如何回退。
+    evidence_ids:
+    - ev-b953918dd7020b18
+    - ev-d2f0443c5d2d8b1e
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有团队公开部署记录、CI 自愈成功率或人工确认边界说明。
+  market: ''
+  job: 使用 GitLab 的研发团队在开发者提交 Merge Request 时，让 AI 读取该 MR 的代码改动，执行评审与治理检查，并在 CI 失败时尝试自愈，最终产出评审意见或修复动作，由人工确认后合入。
+  job_en: A GitLab-based engineering team, when a developer opens a Merge Request, has AI read the MR
+    diff, run review and governance checks, attempt CI self-healing on failure, and produce review comments
+    or fixes that a human confirms before merge.
+  pain: 公开材料只给出仓库一句话描述，未提供用户抱怨或案例；结构推理上，MR 评审与 CI 失败排查是每次提交都要重复的人工步骤，评审排队与失败重跑会拖慢合入，但具体代价与频率尚无公开量化证据。
+  pain_en: Public material offers only a one-line repository description with no user complaints or cases;
+    structurally, MR review and CI failure triage are manual steps repeated on every submission, and review
+    queues plus failure reruns slow merges, though the concrete cost and frequency lack public quantitative
+    evidence.
+  current_alternative: 团队目前依靠人工评审者在 GitLab 上逐条看 diff、写评论，CI 失败后由提交者或值班工程师手动读日志定位并重跑流水线。
+  current_alternative_en: Teams today rely on human reviewers reading diffs and writing comments in GitLab,
+    and after a CI failure the author or on-call engineer manually reads logs, locates the cause and reruns
+    the pipeline.
+  usage_reason: 推断：相较人工逐条评审与手动排查 CI 日志，它把评审意见生成和失败自愈放进 MR 流程本身，减少评审者逐行阅读与工程师翻日志重跑这两步负担，因此已在用 GitLab 且评审排队或
+    CI 频繁失败的团队会尝试它；但尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus line-by-line human review and manual CI log triage, it puts comment
+    generation and failure self-healing inside the MR flow itself, cutting the reviewer''s line-by-line
+    reading and the engineer''s log-reading rerun; teams already on GitLab with review queues or frequent
+    CI failures would try it, though no user feedback yet confirms this motive.'

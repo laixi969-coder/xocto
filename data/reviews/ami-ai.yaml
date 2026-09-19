@@ -1,0 +1,86 @@
+- id: req-initial-ami-ai-2026-09-19
+  project_slug: ami-ai
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决获客需求，但公开材料未说明用户卡在哪一步、不采用会失去什么，痛点无法还原，价值判断证据不足。
+    evidence_ids:
+    - ev-726da980cf5b77b5
+  - gate: consensus
+    status: insufficient
+    reason: 除一句定位外没有用户评价、采用或场景描述，无法判断共识卡在感知、想象、场景还是利益哪一环。
+    evidence_ids:
+    - ev-726da980cf5b77b5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱来自 to C、to B 还是 to VC，模式关证据不足。
+    evidence_ids:
+    - ev-726da980cf5b77b5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近获客工作的第一性目标、承诺能否确定性交付，以及人工边界在哪。
+    evidence_ids:
+    - ev-726da980cf5b77b5
+  next_validation: 收集 Ami AI 官方产品页或定价页，确认其具体输入、执行动作、交付结果与收费方式。
+  market: ''
+  job: 独立创业者或小团队负责人在没有专职销售、需要把潜在客户线索转化为成交客户时，打开该产品处理线索与获客渠道材料，完成获取客户的任务。
+  job_en: A solo founder or small-team lead without dedicated sales, needing to convert prospect leads
+    into paying customers, opens the product to work on leads and acquisition-channel material and complete
+    the customer-acquisition task.
+  pain: 公开材料只给出“获取客户”这一目标，未说明用户当前卡在哪一步、不采用会失去什么，痛点无法从现有事实还原。
+  pain_en: The public material only states the goal of "getting customers" and does not say which step
+    users are stuck on or what they lose by not adopting it, so the pain cannot be reconstructed from
+    available facts.
+  current_alternative: 公开材料未说明用户此前用什么方式获客，无法确认替代的是手工外呼、投放、代理还是其他旧做法。
+  current_alternative_en: The public material does not say how users previously acquired customers, so
+    it cannot be confirmed whether it replaces manual outreach, paid ads, agencies, or another old practice.
+  usage_reason: 缺少可核验的输入、动作与交付说明，无法解释相较旧做法减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no verifiable description of input, action, or deliverable, it is impossible to
+    explain which step of burden it removes versus the old practice, and therefore which users would choose
+    it and when.
+- id: req-full-ami-ai-2026-09-19
+  project_slug: ami-ai
+  level: full
+  reviewed_at: '2026-09-19T00:51:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决无销售人手时的获客任务，但公开材料只给一句定位，未说明用户卡在哪一步、不采用会失去什么，痛点与交付均无法还原，价值关不成立。
+    evidence_ids:
+    - ev-ac96638299b7fc89
+    - ev-8f348bc12d875fb9
+    - ev-9502664e98c13579
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Ami AI 官方产品页或定价页，确认其具体输入、执行动作、交付结果与收费方式。
+  market: ''
+  job: 独立创业者或小团队负责人在没有专职销售的情况下，处理潜在客户线索与获客渠道材料，试图把线索转化为成交客户。
+  job_en: A solo founder or small-team lead without dedicated sales works on prospect leads and acquisition-channel
+    material, trying to convert leads into paying customers.
+  pain: 公开材料只给出“获取客户”这一目标，未说明用户卡在识别线索、触达、跟进还是成交哪一步，也未说明不采用会失去什么，痛点无法从现有事实还原。
+  pain_en: The public material only states the goal of "getting customers" and does not say whether users
+    are stuck at identifying leads, outreach, follow-up, or closing, nor what they lose by not adopting
+    it, so the pain cannot be reconstructed from available facts.
+  current_alternative: 公开材料未说明用户此前用什么方式获客，无法确认替代的是手工外呼、投放、代理还是其他旧做法。
+  current_alternative_en: The public material does not say how users previously acquired customers, so
+    it cannot be confirmed whether it replaces manual outreach, paid ads, agencies, or another old practice.
+  usage_reason: 缺少可核验的输入、动作与交付说明，无法解释相较旧做法减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no verifiable description of input, action, or deliverable, it is impossible to
+    explain which step of burden it removes versus the old practice, and therefore which users would choose
+    it and when.

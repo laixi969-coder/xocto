@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/cubicles-lol
 summary: A metaverse for builders, side projects, and bad driving
 first_seen: '2026-09-17T04:26:44Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

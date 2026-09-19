@@ -143,3 +143,43 @@
   usage_reason: 公开记录显示月访问 7.49M、环比增长 30%，表明开发者关注和使用，但留存与付费尚未核验。
   usage_reason_en: Public records show 7.49M monthly visits and 30% MoM growth, indicating developer attention
     and usage, but retention and payment are not yet verified.
+- id: req-full-codebuddy-tencetn-2026-09-19
+  project_slug: codebuddy-tencetn
+  level: full
+  reviewed_at: '2026-09-19T00:52:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者在插件、独立软件与命令行中调用同一编码助手，但公开材料只有形态描述，未说明具体编码环节的痛点、不采用代价与现有替代，无法还原用户任务闭环，价值判断缺依据。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪腾讯 CodeBuddy 官方产品页与文档，确认其定价、客户案例或公开使用数据，以核实谁付钱、解决哪一步编码痛点及交付结果。
+  market: ''
+  job: 开发者（个人或团队）在编写、调试与交付代码时，使用腾讯 CodeBuddy 的插件、独立软件或命令行形态，让助手参与代码生成、修改与命令执行，完成从写代码到跑通流程的任务。
+  job_en: A developer (individual or team) writing, debugging, and shipping code uses Tencent CodeBuddy
+    as a plugin, standalone app, or CLI so the assistant participates in code generation, edits, and command
+    execution, completing the path from writing code to running it.
+  pain: 公开材料只有一句产品形态描述，未说明用户在编码中具体卡在哪一步、不解决会造成什么后果，也没有用户抱怨或替代行为记录，痛点强度无法从公开事实还原。
+  pain_en: The public material is only a one-line description of product forms; it does not show which
+    coding step users get stuck on, what happens if unsolved, or any user complaints or workaround behavior,
+    so pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明用户目前用什么完成同类任务，无法确认它替代的是手动编码、其他 AI 编码助手，还是 IDE 内置补全。
+  current_alternative_en: Public materials do not show what users currently use for the same job, so it
+    is unclear whether it replaces manual coding, other AI coding assistants, or built-in IDE completion.
+  usage_reason: 推断：三种形态覆盖编辑器、独立窗口与终端，可能让开发者在不切换工具的情况下调用同一助手；但公开材料没有用户反馈、留存或付费证据，无法说明哪类用户因哪一步负担减轻而选择它。
+  usage_reason_en: 'Inference: three forms covering editor, standalone window, and terminal may let developers
+    invoke the same assistant without switching tools; however, there is no public user feedback, retention,
+    or payment evidence to show which users choose it because which step''s burden is reduced.'

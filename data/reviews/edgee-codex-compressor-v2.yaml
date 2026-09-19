@@ -1,0 +1,84 @@
+- id: req-initial-edgee-codex-compressor-v2-2026-09-19
+  project_slug: edgee-codex-compressor-v2
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长上下文调用成本高的问题，痛点具体，替代的是手工裁剪上下文与限制使用。
+    evidence_ids:
+    - ev-0d34098d856c38be
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页的成本宣称，未见开发者反馈或采用数据支持它已被持续使用。
+    evidence_ids:
+    - ev-0d34098d856c38be
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，是否按节省金额分成或按席位收费无法确认，属判断而非事实。
+    evidence_ids:
+    - ev-0d34098d856c38be
+  - gate: truth
+    status: insufficient
+    reason: 35.6% 的降幅由厂商自述，压缩对代码任务正确性的影响缺少独立验证。
+    evidence_ids:
+    - ev-0d34098d856c38be
+  next_validation: 查找该产品的官方定价页或独立复现测试，核验压缩后的成本降幅与代码任务质量。
+  market: ''
+  job: 开发者在使用编码助手处理大型代码库或长对话时，需要把大量上下文送进模型，同时控制每次调用的花费，最终拿到可用的代码改动。
+  job_en: A developer using a coding assistant on a large codebase or long conversation must send a lot
+    of context to the model while controlling the cost of each call, and end up with usable code changes.
+  pain: 长上下文调用费用高，团队要么砍掉上下文导致回答变差，要么承担高额账单，缺少中间选项。
+  pain_en: Long-context calls are expensive, so teams either cut context and get worse answers or absorb
+    a high bill, with no middle option.
+  current_alternative: 现在多靠手工裁剪上下文、换更便宜的模型或限制使用次数来控制成本。
+  current_alternative_en: Today teams control cost mainly by manually trimming context, switching to cheaper
+    models or capping usage.
+  usage_reason: 推断：相比手工裁剪上下文，它在请求前自动压缩，减少开发者逐次整理输入的那一步，并直接反映在账单上，因此高频使用编码助手的团队会在成本敏感时选择它。
+  usage_reason_en: 'Inference: unlike manual context trimming, it compresses automatically before the
+    request, removing the step of hand-curating input each time and showing up directly on the bill, so
+    cost-sensitive teams using coding assistants heavily would pick it.'
+- id: req-full-edgee-codex-compressor-v2-2026-09-19
+  project_slug: edgee-codex-compressor-v2
+  level: full
+  reviewed_at: '2026-09-19T00:52:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长上下文调用成本高的问题，痛点具体，替代的是手工裁剪上下文与限制使用。
+    evidence_ids:
+    - ev-0d34098d856c38be
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页的成本宣称，未见开发者反馈或采用数据支持它已被持续使用。
+    evidence_ids:
+    - ev-0d34098d856c38be
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，是否按节省金额分成或按席位收费无法确认，属判断而非事实。
+    evidence_ids:
+    - ev-0d34098d856c38be
+  - gate: truth
+    status: insufficient
+    reason: 35.6% 的降幅由厂商自述，压缩对代码任务正确性的影响缺少独立验证。
+    evidence_ids:
+    - ev-0d34098d856c38be
+  next_validation: 查找该产品的官方定价页或独立复现测试，核验压缩后的成本降幅与代码任务质量。
+  market: ''
+  job: 开发者在使用编码助手处理大型代码库或长对话时，需要把大量上下文送进模型，同时控制每次调用的花费，最终拿到可用的代码改动。
+  job_en: A developer using a coding assistant on a large codebase or long conversation must send a lot
+    of context to the model while controlling the cost of each call, and end up with usable code changes.
+  pain: 长上下文调用费用高，团队要么砍掉上下文导致回答变差，要么承担高额账单，缺少中间选项。
+  pain_en: Long-context calls are expensive, so teams either cut context and get worse answers or absorb
+    a high bill, with no middle option.
+  current_alternative: 现在多靠手工裁剪上下文、换更便宜的模型或限制使用次数来控制成本。
+  current_alternative_en: Today teams control cost mainly by manually trimming context, switching to cheaper
+    models or capping usage.
+  usage_reason: 推断：相比手工裁剪上下文，它在请求前自动压缩，减少开发者逐次整理输入的那一步，并直接反映在账单上，因此高频使用编码助手的团队会在成本敏感时选择它。
+  usage_reason_en: 'Inference: unlike manual context trimming, it compresses automatically before the
+    request, removing the step of hand-curating input each time and showing up directly on the bill, so
+    cost-sensitive teams using coding assistants heavily would pick it.'

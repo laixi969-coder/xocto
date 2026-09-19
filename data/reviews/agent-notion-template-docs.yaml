@@ -87,3 +87,48 @@
     the document skeleton and visual style, removing the step of adjusting format paragraph by paragraph;
     but format consistency is not essential for most developers, and without user feedback or adoption
     data it is unclear which users would choose it for this reason.'
+- id: req-full-agent-notion-template-docs-2026-09-19
+  project_slug: agent-notion-template-docs
+  level: full
+  reviewed_at: '2026-09-19T00:51:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决代理产出文档格式不统一、需人工返工的问题，但公开材料仅有仓库自述与星标数，无用户抱怨、issue 或案例证明该痛点刚性；格式锁定属可选优化，不用也能靠提示词或手工模板完成，属自嗨拼凑型工具。
+    evidence_ids:
+    - ev-e306b406d0cc0d4e
+    - ev-1f99e6c28da5713e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion 区，确认是否有用户报告实际使用场景、格式返工是否减少，以及是否出现付费或商业化说明。
+  market: ''
+  job: 使用 Claude Code 或 Codex 等 AI 编码代理的开发者/技术写作者，在需要为项目产出说明文档时，把已有草稿或代码上下文交给该技能包，让代理按预设文档骨架和 Notion 风格生成格式统一的成稿。
+  job_en: Developers or technical writers using AI coding agents such as Claude Code or Codex who, when
+    producing project documentation, hand existing drafts or code context to this skill so the agent generates
+    a format-consistent document following a preset skeleton and Notion-like style.
+  pain: 代理每次生成的文档标题层级、样式和排版不一致，需要人工逐段返工；但公开材料只有仓库自述，没有用户抱怨、issue 或案例证明这种返工构成刚性痛点。
+  pain_en: Agent-generated documents vary in heading levels, styles and layout each time, forcing manual
+    rework; but public material is limited to the repository's own description, with no user complaints,
+    issues or cases showing this rework is a rigid pain point.
+  current_alternative: 旧做法是在提示词里反复粘贴格式要求、让代理自由生成后人工逐段调整，或直接套用现成文档模板手工改写；这些做法成本低且已被广泛使用。
+  current_alternative_en: The old approach is to repeatedly paste formatting instructions into prompts,
+    let the agent generate freely and fix formatting by hand, or adapt an existing document template manually;
+    these are low-cost and already widely used.
+  usage_reason: 推断：该技能把文档骨架与视觉样式固定下来，省去逐段调格式这一步，因此经常产出同类文档且在意格式一致性的开发者可能试用；但仓库仅 90→102 星、无 issue、评论或客户案例，无法证明用户已把它留在工作流里，格式锁定也属可选优化而非必须。
+  usage_reason_en: 'Inference: the skill fixes the document skeleton and visual style, removing the step
+    of adjusting format paragraph by paragraph, so developers who produce similar documents often and
+    care about consistency may try it; but with only 90→102 stars and no issues, comments or customer
+    cases, there is no proof users keep it in their workflow, and format locking is an optional optimization
+    rather than a necessity.'

@@ -23,7 +23,7 @@ summary: Security researchers used Anthropic’s Claude to exploit vulnerabiliti
   flaws.
 first_seen: '2026-09-18T14:00:14Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

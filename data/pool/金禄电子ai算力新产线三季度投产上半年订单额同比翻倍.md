@@ -1,6 +1,6 @@
 ---
 slug: 金禄电子ai算力新产线三季度投产上半年订单额同比翻倍
-name: 金禄电子AI算力新产线三季度投产，上半年订单额同比翻倍
+name: 金禄电子
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE03anY2UlNUNGtV
 summary: 金禄电子AI算力新产线三季度投产，上半年订单额同比翻倍 电子工程专辑
 first_seen: '2026-09-18T07:00:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 金禄电子AI算力新产线三季度投产，上半年订单额同比翻倍
+# 金禄电子
 
 金禄电子AI算力新产线三季度投产，上半年订单额同比翻倍 电子工程专辑
 

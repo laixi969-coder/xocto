@@ -330,3 +330,54 @@
     and decisions as Markdown as a single source of truth with local retrieval, removing the step of rebuilding
     context across tools, so developers who use multiple coding agents and care about portable context
     may choose it when switching tools; no user feedback or retention data supports this yet.'
+- id: req-full-agent-memory-2026-09-19
+  project_slug: agent-memory
+  level: full
+  reviewed_at: '2026-09-19T00:51:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理跨工具、跨会话的上下文丢失：开发者被迫反复重述项目背景与既有决策，不解决的后果是重复交代与决策不一致。公开说明已能还原输入（对话与决策）、动作（Markdown 存储、本地检索、空闲整理）与交付（跨工具共享记忆），属工作流结构推理；痛点刚性来自代理会话天然无状态。
+    evidence_ids:
+    - ev-1dee1ebd1491bd6b
+    - ev-6a7d64bb573343ed
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数在 920 至 1,444 间波动，说明社区已注意到该项目，但收藏与排名只属关注度证据，不能证明目标开发者已把它长期留在工作流；公开材料未见用户评价、issue 讨论或客户案例说明持续使用。
+    evidence_ids:
+    - ev-1dee1ebd1491bd6b
+    - ev-6c28348b53dcfa97
+    - ev-6a7d64bb573343ed
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，谁付钱尚不清楚；按开源本地运行、无 API key 的形态，钱可能来自 to C 开发者订阅或 to B 团队支持，但这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-1dee1ebd1491bd6b
+  - gate: truth
+    status: insufficient
+    reason: Markdown 作为唯一事实来源、本地检索与空闲时段整理层的实际召回质量、整理是否会引入错误，以及人工与安全边界，均缺可复现的公开证据；交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-1dee1ebd1491bd6b
+    - ev-6a7d64bb573343ed
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者实际部署场景、替代了哪种旧流程，以及是否出现跨工具记忆的持续使用反馈。
+  market: ''
+  job: 使用 Claude Code 与 Codex 等编码代理的开发者，在跨工具切换或重开会话、需要延续此前对话与架构决策时，把对话记录与决策以 Markdown 存入统一存储，由本地检索在需要时召回，从而不必重新交代项目背景即可继续编码任务。
+  job_en: Developers using coding agents such as Claude Code and Codex, when switching tools or restarting
+    sessions and needing to carry forward prior conversations and architecture decisions, store dialogue
+    and decisions as Markdown in one shared store and recall them via local ranked retrieval, so they
+    can continue coding without re-briefing the project context.
+  pain: 编码代理的上下文随会话结束而丢失，换用另一个代理工具时记忆不互通，开发者被迫反复重述项目背景与既有决策；不解决的后果是重复交代、决策前后不一致，且每次都要重新建立上下文。
+  pain_en: Coding-agent context dies with the session and does not transfer between tools, forcing developers
+    to restate project background and prior decisions; leaving it unsolved means repeated re-briefing,
+    inconsistent decisions, and rebuilding context each time.
+  current_alternative: 当前替代方式是每次会话手工粘贴背景、维护 CLAUDE.md 之类的项目说明文件，或依赖各代理工具自带的会话记忆，跨工具时无法共享。
+  current_alternative_en: Today developers manually paste context each session, maintain project instruction
+    files such as CLAUDE.md, or rely on each agent tool's built-in session memory, which cannot be shared
+    across tools.
+  usage_reason: 推断：相较手工粘贴与各工具自带记忆，它把对话与决策固化为 Markdown 单一事实来源，Claude Code 与 Codex 共用同一存储，并以本地检索在需要时召回，省去每次重述背景这一步；因此频繁在多个编码代理间切换、且在意上下文连续性的开发者会选它。
+  usage_reason_en: 'Inference: versus manual pasting and per-tool memory, it persists dialogue and decisions
+    as a single Markdown source of truth shared by Claude Code and Codex, and recalls them via local retrieval,
+    removing the step of re-briefing each session; developers who frequently switch between coding agents
+    and care about context continuity would choose it.'

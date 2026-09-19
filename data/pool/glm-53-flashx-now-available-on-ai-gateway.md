@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-g
 summary: ''
 first_seen: '2026-09-18T00:00:00Z'
 last_seen: '2026-09-19T00:21:44Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

@@ -79,3 +79,57 @@
   usage_reason: 用户要完成的任务是：AI 应用开发者、后端工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI Application Developer, Backend Engineer Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-mcpjam-2026-09-19
+  project_slug: mcpjam
+  level: full
+  reviewed_at: '2026-09-19T00:53:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 MCP 服务器上线前缺少可核对验证的问题：开发者需在多种客户端配置与模型下确认 tools、prompts、resources、OAuth 按预期返回，手工调用难以定位
+      JSON-RPC 异常并防回归。公开文档已给出输入、动作与交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-4b11211accd14ca5
+    - ev-cbdf8db55cf24696
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 组织有 22 个仓库、文档与官网均存在，说明已有公开供给与关注，但缺少部署范围、持续使用或复购的直接证据，无法确认开发者已把它留在日常工作流中。
+    evidence_ids:
+    - ev-1804489e8c723106
+    - ev-4b11211accd14ca5
+  - gate: model
+    status: insufficient
+    reason: 官网与文档提到 CI/CD 集成和评估能力，但公开材料未见定价页、付费主体或单位经济；钱可能来自开发者个人、团队订阅或企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cbdf8db55cf24696
+    - ev-9bb708b9c652a8d3
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺在 16 种客户端配置和 170+ 模型下测试并拦截回归，但公开材料未给出可复现的评估指标、准确率基准或人工确认边界，交付确定性尚缺公开验证。
+    evidence_ids:
+    - ev-4b11211accd14ca5
+    - ev-0a6514da2f38f6d0
+  next_validation: 追踪 MCPJam 官网定价页与客户案例页，确认是否出现公开定价、付费主体或企业采购记录，以核验商业路径与持续采用。
+  market: ''
+  job: AI 应用开发者或后端工程师在把自建或第三方 MCP 服务器接入 AI 应用、ChatGPT 应用并准备上线前，需要处理服务器暴露的 tools、prompts、resources 与 OAuth
+    配置，在多种客户端配置和模型下跑通调用，确认返回结果符合预期并防止回归。
+  job_en: Before shipping an AI app or ChatGPT app, an AI application developer or backend engineer must
+    take a self-built or third-party MCP server, exercise its tools, prompts, resources and OAuth across
+    multiple client configurations and models, and confirm the returned results match expectations without
+    regressions.
+  pain: MCP 服务器通过 JSON-RPC 与客户端交互，行为受客户端配置和模型影响，出错时调用链不透明；开发者若只靠手工调用，很难定位是哪一层返回异常，也难以在改动后判断是否引入回归，问题可能直到生产环境才暴露。
+  pain_en: MCP servers talk JSON-RPC to clients and behave differently across client configurations and
+    models; with only manual calls the failure point is opaque, regressions after changes are hard to
+    detect, and defects can surface only in production.
+  current_alternative: 公开材料未直接描述旧做法，但按工作流结构推断，开发者目前多依赖手工构造 JSON-RPC 请求、逐个客户端试跑、临时脚本或自建测试来验证 MCP 服务器，缺少统一的用例与评估记录。
+  current_alternative_en: Public materials do not describe the prior workflow directly, but by workflow
+    inference developers currently rely on hand-built JSON-RPC calls, trying one client at a time, ad-hoc
+    scripts, or self-built tests, without a unified case and eval record.
+  usage_reason: 推断：相较手工逐个客户端试跑，MCPJam 把 tools、prompts、resources、OAuth 的交互测试集中到一处并展示每条 JSON-RPC 消息，还支持在测试用例上跑评估、跟踪准确率并在进入生产前拦截回归，因此需要跨多客户端和模型验证
+    MCP 服务器的开发者会在上线前选择它。
+  usage_reason_en: 'Inference: compared with trying clients by hand, MCPJam centralizes interactive testing
+    of tools, prompts, resources and OAuth with every JSON-RPC message visible, and supports running evals
+    on test cases, tracking accuracy and gating regressions before production, so developers who must
+    validate MCP servers across many clients and models would choose it before shipping.'

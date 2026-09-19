@@ -658,3 +658,56 @@
     command surface composition, evolution, compaction and pruning events directly, turning ''guess which
     step dropped the info'' into a checkable event view, so DSH users hitting forgetting in long sessions
     would pick it when debugging.'
+- id: req-full-dsh-context-2026-09-19
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-09-19T00:52:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后用户看不见组成与丢失内容、只能事后发现模型遗忘关键信息的问题；痛点刚性来自不可见导致的返工，交付由面板与命令确定完成。属工作流结构推理，公开材料未量化频率与代价。
+    evidence_ids:
+    - ev-831f46dfdb4aa033
+    - ev-39a1983ac5f7f0ad
+  - gate: consensus
+    status: insufficient
+    reason: 同生态插件有 44–114 星标，说明 DSH 插件社区活跃、上下文类工具被关注，但这些星标属于其他插件，不能归因到 dsh-context 本身，也非持续采用证据。
+    evidence_ids:
+    - ev-09abe69e1744c8c2
+    - ev-e055de652755e7d4
+    - ev-392cbca467263a1a
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；作为社区维护的 DSH 插件，钱可能来自 to C 开发者捐赠或 to B 集成，但这是判断而非已验证事实，存在只靠生态热度续命的风险。
+    evidence_ids:
+    - ev-831f46dfdb4aa033
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明上下文可视化是否贴近 DSH 真实上下文状态、压缩剪枝事件能否被准确捕获，也未见部署文档或可复现实测，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-39a1983ac5f7f0ad
+  next_validation: 追踪 dsh-context 在 npm 的官方包页面与仓库 README/issue/discussion，确认其上下文面板实际读取的 DSH 事件、安装部署方式及是否有用户反馈或使用案例。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或重度用户在长对话/长任务中，处理不断累积的上下文材料（系统提示、历史消息、工具输出、压缩与剪枝事件），需要看清当前上下文由什么组成、哪些内容被压缩或丢弃，以便判断模型为何遗忘关键信息并调整提示或工作流。
+  job_en: Developers and heavy users of DeepSeek Harness, working through long conversations or long tasks
+    with accumulating context material (system prompts, history, tool output, compaction and pruning events),
+    need to see what the current context is composed of and what was compressed or dropped, so they can
+    judge why the model forgot key facts and adjust prompts or workflow.
+  pain: 长会话中上下文会被压缩、剪枝或截断，用户看不到哪些内容被丢弃，只能事后发现模型“悄悄忘了”关键信息，导致返工、重复解释和错误输出；这是结构推理，公开材料未给出频率或代价的量化数据。
+  pain_en: In long sessions the context gets compacted, pruned or truncated, and users cannot see what
+    was dropped; they only discover after the fact that the model quietly forgot key facts, causing rework,
+    repeated explanation and wrong output. This is structural inference; public materials give no quantified
+    frequency or cost.
+  current_alternative: 当前替代方式是盲用：直接读原始对话记录、凭记忆猜测上下文状态，或依赖 DSH 自带但不可视化的上下文管理，用户无法核对组成与演进。
+  current_alternative_en: 'The current alternative is working blind: reading raw transcripts, guessing
+    context state from memory, or relying on DSH''s built-in but non-visualized context management, with
+    no way to verify composition or evolution.'
+  usage_reason: 推断：相较盲读原始记录，该插件通过 Context 面板/浏览器与 Context 命令把上下文组成、压缩、剪枝事件直接呈现出来，省去用户手动翻查和猜测“哪一步丢了什么”的负担，因此长会话调试或提示调优的
+    DSH 用户会在排查遗忘问题时选择它；公开材料尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: versus reading raw transcripts blind, the plugin surfaces context composition,
+    compaction and pruning events through a Context panel/browser and Context command, removing the burden
+    of manually digging and guessing what was lost at which step, so DSH users debugging long sessions
+    or tuning prompts would pick it when chasing forgetting issues; public materials contain no user feedback
+    or retention evidence for this motive.'

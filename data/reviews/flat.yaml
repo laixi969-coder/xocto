@@ -79,3 +79,41 @@
   usage_reason: 用户要完成的任务是：远程团队组织者、在线活动主持；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Remote Team Organizer, Online Event Host Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-flat-2026-09-19
+  project_slug: flat
+  level: full
+  reviewed_at: '2026-09-19T00:52:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图让远程团队以虚拟形象在 3D 空间开会，但公开材料未说明现有会议的具体痛点、不采用的后果，也未说明 AI 承担什么动作，连需求与痛点都难以还原，价值关不成立。
+    evidence_ids:
+    - ev-e21149a5ade35ac2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 3D 会议应用的官网或发布页，确认其是否公开产品说明、使用场景与用户评价，以判断需求是否可还原。
+  market: ''
+  job: 远程团队组织者或在线活动主持需要在三维空间中以虚拟形象聚集开会，完成一场趣味性在线会议或活动。
+  job_en: A remote team organizer or online event host needs to gather attendees as avatars in a 3D space
+    to run a fun online meeting or event.
+  pain: 公开材料未说明现有在线会议在趣味性或空间感上的具体痛点，也未说明不采用该产品会造成什么后果。
+  pain_en: Public materials do not describe a specific pain in existing online meetings around fun or
+    spatial presence, nor the consequence of not adopting this product.
+  current_alternative: 公开材料未说明用户目前如何完成在线会议，也未说明它替代了 Zoom、腾讯会议等何种旧做法。
+  current_alternative_en: Public materials do not show how users currently run online meetings or what
+    prior tools such as Zoom or Tencent Meeting it replaces.
+  usage_reason: 公开材料未说明用户相较原有会议工具为什么会选择它，缺少使用动机证据。
+  usage_reason_en: Public materials do not explain why users would choose it over existing meeting tools;
+    usage motivation evidence is missing.

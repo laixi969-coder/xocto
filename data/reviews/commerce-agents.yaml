@@ -577,3 +577,44 @@
     commerce, telecom, and entertainment that developers can follow to wire Claude into an input-action-delivery
     structure, removing the step of designing agent orchestration themselves, so teams needing to quickly
     validate a shopping or merchant agent would pick it at project kickoff.'
+- id: req-full-commerce-agents-2026-09-19
+  project_slug: commerce-agents
+  level: full
+  reviewed_at: '2026-09-19T00:52:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决的是开发者搭建购物与商家智能体的参考需求，但公开材料只有一句蓝图定位与示例范围，没有用户任务、痛点强度或不采用代价；示例集合属于可看可不看的参考资料，价值关不成立。
+    evidence_ids:
+    - ev-e2a9028103df52b6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 claude.com/solutions/commerce 页面是否补充客户案例或部署文档，确认是否有具体商家或开发者公开说明用该蓝图替代了原有流程。
+  market: ''
+  job: 开发者或商家技术团队在需要为零售、电商、电信、娱乐场景搭建购物助手或商家运营智能体时，参考 Anthropic 发布的蓝图，把商品信息与用户查询接入 Claude，产出推荐或订单处理类自动化流程。
+  job_en: A developer or merchant tech team building a shopping assistant or merchant-operations agent
+    for retail, e-commerce, telecom or entertainment uses Anthropic's blueprint to wire product data and
+    user queries into Claude and produce recommendation or order-handling automation.
+  pain: 公开材料只说明这是参考蓝图与示例集合，没有给出任何用户抱怨、失败流程或不采用的具体代价；痛点强度无法从现有证据还原。
+  pain_en: The public material only describes a reference blueprint and example set; it contains no user
+    complaints, failing workflows, or stated cost of not adopting, so pain intensity cannot be reconstructed
+    from the available evidence.
+  current_alternative: 公开材料未说明开发者此前如何完成同类任务，也未说明该蓝图替代了哪些自建脚手架、示例仓库或框架文档。
+  current_alternative_en: Public materials do not show how developers completed this job before, nor which
+    self-built scaffolding, sample repos or framework docs the blueprint replaces.
+  usage_reason: 推断：它把零售、电商、电信、娱乐的示例集中成一份可参考蓝图，省去从零搭建智能体骨架这一步；但仓库收藏数只反映关注度，没有用户反馈或案例说明谁在什么情况下会持续选择它。
+  usage_reason_en: 'Inference: it consolidates retail, commerce, telecom and entertainment examples into
+    one reference blueprint, removing the step of building an agent skeleton from scratch. But repository
+    stars only reflect attention; no user feedback or case shows who would keep choosing it and when.'

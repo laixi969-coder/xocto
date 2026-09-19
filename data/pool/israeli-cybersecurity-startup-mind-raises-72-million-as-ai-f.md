@@ -1,6 +1,6 @@
 ---
 slug: israeli-cybersecurity-startup-mind-raises-72-million-as-ai-f
-name: Israeli cybersecurity startup MIND raises $72 million as AI fuels data-security drive
+name: MIND
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE9ka0o0QUR4aGpV
 summary: Israeli cybersecurity startup MIND raises $72 million as AI fuels data-security drive Ynetnews
 first_seen: '2026-09-18T01:53:56Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Israeli cybersecurity startup MIND raises $72 million as AI fuels data-security drive
+# MIND
 
 Israeli cybersecurity startup MIND raises $72 million as AI fuels data-security drive Ynetnews
 

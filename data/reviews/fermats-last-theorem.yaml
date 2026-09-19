@@ -466,3 +466,45 @@
   usage_reason_en: 'No usage reason can be given: there is no feature description, input/output, delivery
     form, or user feedback, only star counts rising from 1,013 to 1,174, which cannot explain why users
     would choose it.'
+- id: req-full-fermats-last-theorem-2026-09-19
+  project_slug: fermats-last-theorem
+  level: full
+  reviewed_at: '2026-09-19T00:52:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有仓库名与收藏数，未披露功能、用户任务、痛点与替代方式，连它解决什么需求都写不出来，因此价值关不成立。
+    evidence_ids:
+    - ev-4952a876d5fedf9b
+    - ev-3cc70c33bf5f5e7f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认其实际功能、输入材料与目标用户任务，以判断是否存在可还原的使用场景。
+  market: ''
+  job: 公开材料仅显示 Anthropic 发布了一个名为 fermats-last-theorem 的仓库，未披露谁在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public materials only show that Anthropic released a repository named fermats-last-theorem;
+    they do not disclose who, in what situation, handling what material, would complete what task, so
+    no concrete job can be reconstructed.
+  pain: 仓库名称指向费马大定理，可能涉及数学推理或形式化验证，但没有任何公开说明指出用户在此任务上遇到的具体痛点、频率或不解决的后果。
+  pain_en: The name points to Fermat's Last Theorem, possibly involving mathematical reasoning or formal
+    verification, but no public material identifies a concrete user pain, its frequency, or the consequence
+    of leaving it unsolved.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了哪种旧做法。
+  current_alternative_en: Public materials do not state how users currently perform the related work,
+    nor what prior approach this repository replaces.
+  usage_reason: 缺少功能说明与用户反馈，无法解释相较现有做法它减少了哪一步负担或改善了哪项可核对结果；1,141 至 1,197 的收藏增长只反映关注度，不能作为使用理由。
+  usage_reason_en: With no feature description or user feedback, it is impossible to explain which step
+    it removes or which checkable result it improves versus current practice; the star growth from 1,141
+    to 1,197 reflects attention only and cannot serve as a usage reason.

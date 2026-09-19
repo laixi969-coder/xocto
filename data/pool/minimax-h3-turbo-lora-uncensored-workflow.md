@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/glitchlab/MiniMax-H3-Turbo-Lora-UNC
 summary: Video generation with a synchronized soundtrack
 first_seen: '2026-09-18T14:51:08Z'
 last_seen: '2026-09-19T00:21:43Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

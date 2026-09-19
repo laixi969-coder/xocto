@@ -1,0 +1,84 @@
+- id: req-initial-shall-we-talk-2026-09-19
+  project_slug: shall-we-talk
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口述内容转成可留存文字的需求，旧做法是系统听写或录音后手动整理，痛点具体；但转写质量与留存方式未核验。
+    evidence_ids:
+    - ev-68319c842c01dd0c
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布信息，没有用户评价或采用数据，无法判断是否被持续使用。
+    evidence_ids:
+    - ev-68319c842c01dd0c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是买断、订阅还是免费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-68319c842c01dd0c
+  - gate: truth
+    status: insufficient
+    reason: 多语言、离线能力、导出与隐私处理均无公开材料，交付确定性无法确认。
+    evidence_ids:
+    - ev-68319c842c01dd0c
+  next_validation: 收集 Shall We Talk 官方定价页或应用商店说明，确认计价方式、支持语言与转写文本的导出能力。
+  market: ''
+  job: 记者、学生或会议记录者在采访、上课或开会时说话，需要把口述内容变成可保存、可回看的文字材料。
+  job_en: A journalist, student, or meeting note taker speaks during an interview, class, or meeting and
+    needs the spoken content turned into text they can keep and revisit.
+  pain: 边听边记会漏内容，事后凭记忆补写容易失真，录音又难以检索和引用。
+  pain_en: Taking notes while listening loses content, reconstructing from memory distorts it, and raw
+    audio is hard to search or quote.
+  current_alternative: 现在多用系统自带听写、录音后手动整理，或使用通用转写服务再复制到笔记里。
+  current_alternative_en: Today people use built-in dictation, record and transcribe manually, or run
+    a generic transcription service and paste results into notes.
+  usage_reason: 推断：它把转写结果直接留在设备上，省去录音导出再转写再粘贴的中间步骤，对需要长期积累口述素材的人减少一次搬运；是否比系统听写更准尚无公开证据。
+  usage_reason_en: 'Inference: it keeps transcripts on the device, removing the export-transcribe-paste
+    chain, which saves one transfer for people accumulating spoken material; whether it beats built-in
+    dictation in accuracy is not publicly evidenced.'
+- id: req-full-shall-we-talk-2026-09-19
+  project_slug: shall-we-talk
+  level: full
+  reviewed_at: '2026-09-19T00:54:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决口述转文字并留存的需求，但全部公开证据均为英语情态动词 shall 的词典释义，与语音转写任务无关，无法还原用户任务、痛点、旧替代或不采用的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-28163b57e452c1f5
+    - ev-369c26c89e8cb5c6
+    - ev-dfa0b480990d2cca
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Shall We Talk 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 记者、学生或会议记录者在采访、上课或开会时说话，需要把口述内容变成可保存、可回看的文字材料。
+  job_en: A journalist, student, or meeting note taker speaks during an interview, class, or meeting and
+    needs the spoken content turned into text they can keep and revisit.
+  pain: 公开材料未提供任何关于该产品用户痛点的证据；现有证据全部是英语情态动词 shall 的词典释义，与语音转写任务无关，无法确认用户具体在哪个环节受挫。
+  pain_en: No public evidence describes this product's user pain; all available evidence is dictionary
+    definitions of the English modal verb 'shall', unrelated to voice transcription, so the specific point
+    of friction cannot be confirmed.
+  current_alternative: 公开材料未记录任何现有替代方式；无法确认用户当前是用系统听写、录音后手动整理还是通用转写服务。
+  current_alternative_en: No public evidence records any current alternative; it cannot be confirmed whether
+    users rely on built-in dictation, manual transcription after recording, or generic transcription services.
+  usage_reason: 公开材料未提供任何用户选择该产品的理由；现有证据与产品功能无关，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: No public evidence explains why a user would choose this product; the available evidence
+    is unrelated to its functionality, so it cannot show which step it removes or which verifiable outcome
+    it improves versus the old approach.

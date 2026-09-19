@@ -164,3 +164,96 @@
   usage_reason_en: 'Inference: versus outsourced shooting, the model generates 2K/15-second clips with
     native stereo audio straight from scripts, skipping filming and first-cut editing, so teams testing
     many creatives prefer to generate first and select manually.'
+- id: req-initial-chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a-2026-09-19
+  project_slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
+  level: initial
+  reviewed_at: '2026-09-19T00:21:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队缺少多模态生成底座、自建成本高的问题，痛点刚性且交付可确定；买方可能是企业或开发者，公开材料未说明具体付费方。
+    evidence_ids:
+    - ev-c4b2ef39ff67b44d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示收入与股票资金流入，未见客户名单或持续采用数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-c4b2ef39ff67b44d
+  - gate: model
+    status: insufficient
+    reason: 收入近四倍增长说明存在付费路径，但未披露定价页与客户结构，to B 还是 to C 为主属推断。
+    evidence_ids:
+    - ev-c4b2ef39ff67b44d
+  - gate: truth
+    status: insufficient
+    reason: 未见交付确定性、安全边界或人工复核机制的公开说明，无法核对承诺是否稳定兑现。
+    evidence_ids:
+    - ev-c4b2ef39ff67b44d
+  next_validation: 收集 MiniMax 官方定价页或财报中披露的客户与收入结构，确认付费方与交付方式。
+  market: ''
+  job: 企业与开发团队在需要文本、语音或视频生成能力时，调用 MiniMax 的模型与接口，把生成结果接入自有应用或内容生产流程并交付给最终用户。
+  job_en: Enterprise and developer teams call MiniMax models and APIs when they need text, speech or video
+    generation, wiring the output into their own applications or content pipelines for end users.
+  pain: 自建同等规模的模型训练与推理能力成本高、周期长，团队缺少可用的多模态生成底座，只能推迟产品上线或依赖外部不稳定方案。
+  pain_en: Building comparable model training and inference in-house is costly and slow; teams lack a
+    usable multimodal generation base and must delay launches or depend on unstable outside options.
+  current_alternative: 此前团队多依赖海外模型接口、开源模型自行部署，或干脆不做生成功能。
+  current_alternative_en: Previously teams relied on overseas model APIs, self-hosted open-source models,
+    or simply skipped generative features.
+  usage_reason: 推断：相较自建或拼装开源模型，直接调用 MiniMax 的接口可省去训练与推理运维这一步，让团队把精力放在产品集成上；对需要快速上线多模态功能且不愿承担算力运维的团队，这是选择它的直接原因。
+  usage_reason_en: 'Inference: compared with self-building or assembling open-source models, calling MiniMax
+    APIs removes the training and inference operations step so teams can focus on product integration;
+    that is the direct reason teams needing fast multimodal launches without compute operations would
+    choose it.'
+- id: req-full-chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a-2026-09-19
+  project_slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
+  level: full
+  reviewed_at: '2026-09-19T00:51:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队缺少多模态生成底座、自建训练与推理成本高周期长的需求，痛点刚性且交付可确定；公开材料显示其自研多模态基础模型与 Agent 能力，但买方具体是谁未说明，属工作流结构推理。
+    evidence_ids:
+    - ev-8f43fda920592d13
+    - ev-7a961d84c2b2dcc8
+    - ev-6f107e7b84c9b9c2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出收入与资金数据，未见客户名单、持续采用或用户评价，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-8f43fda920592d13
+    - ev-7a961d84c2b2dcc8
+  - gate: model
+    status: insufficient
+    reason: 收入近四倍增长说明存在付费路径，但未披露定价页与客户结构，to B 还是 to C 为主属推断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6f107e7b84c9b9c2
+    - ev-8f43fda920592d13
+  - gate: truth
+    status: insufficient
+    reason: 未见交付确定性、安全边界或人工复核机制的公开说明，无法核对多模态生成承诺是否稳定兑现。
+    evidence_ids:
+    - ev-7a961d84c2b2dcc8
+    - ev-297c1ce2cc1f7a06
+  next_validation: 追踪 MiniMax 官方定价页与财报中披露的客户与收入结构，确认付费方与交付方式。
+  market: ''
+  job: 企业与开发团队在需要文本、语音、图像或视频生成能力时，调用 MiniMax 的多模态模型与 Agent 接口，把生成结果接入自有应用或内容生产流程，交付给最终用户。
+  job_en: Enterprise and developer teams call MiniMax's multimodal models and Agent APIs when they need
+    text, speech, image or video generation, wiring the output into their own applications or content
+    pipelines for end users.
+  pain: 自建同等规模的多模态训练与推理能力成本高、周期长，团队缺少可用的生成底座，只能推迟功能上线或依赖外部不稳定方案；公开材料未给出客户对痛点的直接陈述。
+  pain_en: Building comparable multimodal training and inference in-house is costly and slow; teams lack
+    a usable generation base and must delay launches or depend on unstable outside options; public materials
+    give no direct customer statement of this pain.
+  current_alternative: 此前团队多依赖海外模型接口（如 Gemini、ChatGPT）、自行部署开源模型，或干脆不做生成功能。
+  current_alternative_en: Previously teams relied on overseas model APIs (e.g. Gemini, ChatGPT), self-hosted
+    open-source models, or simply skipped generative features.
+  usage_reason: 推断：相较自建或拼装开源模型，直接调用 MiniMax 的模型与 Agent 接口可省去训练与推理运维这一步，并覆盖文本、音频、图像、视频、音乐多模态与超长上下文，让团队把精力放在产品集成上；需要快速上线多模态功能且不愿承担算力运维的团队会因此选择它。
+  usage_reason_en: 'Inference: compared with self-building or assembling open-source models, calling MiniMax''s
+    model and Agent APIs removes the training and inference operations step and covers text, audio, image,
+    video and music modalities with ultra-long context, letting teams focus on product integration; teams
+    needing fast multimodal launches without compute operations would choose it for that reason.'

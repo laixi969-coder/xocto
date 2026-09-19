@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LMkR6dXpYZnJV
 summary: AI行业融资热潮持续，投资机构从"选赛道"转向"抢位置"，初创公司估值水涨船高 虎嗅
 first_seen: '2026-09-18T10:37:05Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

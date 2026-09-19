@@ -3,10 +3,10 @@ slug: ambarella与macnica达成长期战略分销协议加速边缘ai布局-ai�
 name: Ambarella
 builder: ''
 category: ''
-summary_zh: Ambarella 与 Macnica 达成长期分销协议，旨在扩大边缘 AI 芯片的销售渠道，属于基础设施层面的行业合作。
+summary_zh: 这是芯片厂商的分销与模型适配动作，不是独立AI应用产品。
 inspiration: ''
-summary_en: Ambarella and Macnica have formed a long-term distribution agreement to expand sales channels
-  for edge AI chips, an industry collaboration at the infrastructure level.
+summary_en: This is a chip vendor's distribution and model-porting move, not a standalone AI application
+  product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE9tNTQxT2N1QXJr
 summary: Ambarella与Macnica达成长期战略分销协议，加速边缘AI布局-AI基础设施 至顶网
 first_seen: '2026-09-04T15:04:17Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

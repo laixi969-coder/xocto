@@ -21,7 +21,7 @@ canonical_url: https://jev-pong.ably.dev
 summary: Jev vs. GPT-5.6 and Claude Haiku at Pong
 first_seen: '2026-09-18T13:58:15Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

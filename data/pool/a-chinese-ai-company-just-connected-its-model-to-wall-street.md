@@ -1,11 +1,14 @@
 ---
 slug: a-chinese-ai-company-just-connected-its-model-to-wall-street
-name: A Chinese AI company just connected its model to Wall Street's leading data providers
+name: Chinese AI Model Financial Data Integration
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 一家中国AI公司将其模型接入华尔街主要数据提供商。该变化意味着金融数据与AI模型的结合正在推进，可能降低金融分析类AI应用的开发门槛并加剧该领域的竞争，但材料未指明具体公司名称。
 inspiration: ''
-summary_en: ''
+summary_en: A Chinese AI company connected its model to Wall Street's leading data providers. This implies
+  growing integration between financial data and AI models, potentially lowering the barrier to building
+  financial-analysis AI applications and intensifying competition in that space, though the material does
+  not name the specific company.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxOOWlmNmR0T1BV
 summary: A Chinese AI company just connected its model to Wall Street's leading data providers cnbc.com
 first_seen: '2026-09-17T14:30:25Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# A Chinese AI company just connected its model to Wall Street's leading data providers
+# Chinese AI Model Financial Data Integration
 
 A Chinese AI company just connected its model to Wall Street's leading data providers cnbc.com
 

@@ -383,3 +383,42 @@
   usage_reason: 公开材料未说明用户为何选择它；仅有仓库收藏数属关注度证据，不能解释选择原因或持续使用。
   usage_reason_en: Public materials do not explain why users choose it; repository stars are attention
     evidence and cannot explain choice or continued use.
+- id: req-full-applied-micro-skills-2026-09-19
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-09-19T00:51:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮研究者从数据、回归到论文表并复现数字，但公开材料没有用户痛点、旧替代或不解决的后果，连需求与痛点都写不出来，只能判需求不成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认是否有研究者公开描述旧流程痛点、使用场景或可复现的交付结果。
+  market: ''
+  job: 应用微观经济学研究者在处理数据、跑回归、生成论文表格时，用 Claude Code / Codex 的 skill 完成可复现性审计、LLM 流程方法、事件研究、WRDS、Stata 和出版级表格。
+  job_en: Applied microeconomics researchers use Claude Code / Codex skills to handle data, run regressions,
+    and produce publication-grade tables, including reproducibility auditing, LLM-pipeline methods, event
+    studies, WRDS, and Stata.
+  pain: 公开材料未记录任何用户痛点、抱怨或旧流程代价；仅从任务描述无法判断不解决会失去什么、发生频率或后果。
+  pain_en: Public materials record no user pain, complaints, or old-workflow cost; the task description
+    alone cannot establish what is lost if unsolved, its frequency, or its consequence.
+  current_alternative: 公开材料未说明研究者目前如何完成这些工作，也未说明该 skill 替代了什么旧做法。
+  current_alternative_en: Public materials do not state how researchers currently complete this work or
+    what the skill replaces.
+  usage_reason: 公开材料未提供用户反馈、案例或采用动机；无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能给出使用理由。
+  usage_reason_en: Public materials provide no user feedback, cases, or adoption motive; it cannot be
+    shown which step is reduced or which checkable result improves versus the old approach, so no usage
+    reason can be given.

@@ -25,7 +25,7 @@ summary: The most-fundable startups prioritize a clear go-to-market strategy and
   AI designed as core infrastructure.
 first_seen: '2026-09-18T11:00:18Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

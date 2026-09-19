@@ -1,0 +1,84 @@
+- id: req-initial-nepotism-network-2026-09-19
+  project_slug: nepotism-network
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决找人引荐时关系链不透明的问题，痛点存在，但材料只有一句口号，说不清 AI 做什么、交付什么，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-dab5a6c11577c226
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有用户评价、使用场景或采用信号，无法判断卡在感知、想象还是场景。
+    evidence_ids:
+    - ev-dab5a6c11577c226
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价、买方或收费方式信息，是面向个人还是企业均未知。
+    evidence_ids:
+    - ev-dab5a6c11577c226
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对引荐结果能否确定性交付，也看不到隐私与人工边界如何处理。
+    evidence_ids:
+    - ev-dab5a6c11577c226
+  next_validation: 收集 Nepotism Network 官方产品页或说明文档，确认其匹配机制、输入的人脉数据来源与交付形式。
+  market: ''
+  job: 求职者、创业者或商务人员在自己缺少直接人脉时，处理自己的关系网络信息，要找到能引荐到目标公司或合作方的中间人。
+  job_en: Job seekers, founders or business developers who lack direct contacts handle information about
+    their own network to find an intermediary who can introduce them to a target company or partner.
+  pain: 想接触某个人时，往往不知道谁认识谁，只能靠逐个私聊打听，引荐链条不透明，成功率低且耗时。
+  pain_en: When trying to reach someone, people often do not know who knows whom, so they ask around one
+    by one; the referral chain is opaque, slow and low-yield.
+  current_alternative: 在社交平台手动搜索二度人脉、请朋友帮忙转介绍、参加线下活动或付费给猎头与中介。
+  current_alternative_en: Manually searching second-degree connections on social platforms, asking friends
+    to forward an introduction, attending offline events, or paying recruiters and brokers.
+  usage_reason: 推断：如果它能把间接关系直接算成一条可执行的引荐路径，用户就不必逐个私聊打听，在需要内推或对接合作方时会选择它；但公开材料只有一句口号，无法确认它是否真的产出可用的引荐路径，需求强度未明。
+  usage_reason_en: 'Inference: if it can turn indirect connections into an actionable introduction path,
+    users would not have to ask around one by one and would choose it when they need a referral or a partner
+    introduction; however, public material offers only a tagline, so whether it actually produces a usable
+    path cannot be confirmed and demand strength is unclear.'
+- id: req-full-nepotism-network-2026-09-19
+  project_slug: nepotism-network
+  level: full
+  reviewed_at: '2026-09-19T00:53:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决找人引荐时关系链不透明的问题，但公开材料只有一句口号，既无用户痛点陈述，也无输入、动作与交付说明，连需求和痛点都还原不出，只能判需求不成立。
+    evidence_ids:
+    - ev-4dc1fdd0169d00c1
+    - ev-ca876566dceac372
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Nepotism Network 官方产品页或说明文档，确认其匹配机制、输入的人脉数据来源与交付形式。
+  market: ''
+  job: 求职者、创业者或商务人员在缺少直接人脉时，整理自己已有的关系网络信息，试图找到能引荐到目标公司或合作方的中间人。
+  job_en: Job seekers, founders or business developers who lack direct contacts organize information about
+    their own network to find an intermediary who can introduce them to a target company or partner.
+  pain: 公开材料只有一句口号，没有任何用户抱怨、workaround 或案例说明引荐链条不透明带来的具体损失，痛点只能靠常识推测，无法从证据确认。
+  pain_en: Public material offers only a tagline; no user complaints, workarounds or cases document the
+    concrete cost of an opaque referral chain, so the pain can only be assumed, not evidenced.
+  current_alternative: 公开材料未说明用户现在如何绕过，只能推测为在社交平台手动搜索二度人脉、请朋友转介绍或付费给猎头中介。
+  current_alternative_en: Public material does not state how users currently work around this; it can
+    only be inferred as manually searching second-degree connections, asking friends to forward introductions,
+    or paying recruiters.
+  usage_reason: 推断：若它能把间接关系算成可执行的引荐路径，用户可省去逐个私聊打听；但公开材料未说明 AI 接收什么、执行什么动作、交付什么结果，无法确认用户为何会选择它。
+  usage_reason_en: 'Inference: if it could turn indirect connections into an actionable introduction path,
+    users could skip asking around one by one; but public material does not state what the AI takes in,
+    does, or delivers, so why users would choose it cannot be confirmed.'

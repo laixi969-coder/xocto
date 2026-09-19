@@ -23,7 +23,7 @@ summary: 'Weekly Startup Funding Roundup: AI Drives Startup Funding Wave as Five
   Million Analytics Insight'
 first_seen: '2026-09-18T08:33:26Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE13empsSVRMdVQ1
 summary: 传神语联与海光信息达成战略合作，根原创AI与国产算力协同释放产业势能_行业动态 投资界
 first_seen: '2026-09-16T05:04:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

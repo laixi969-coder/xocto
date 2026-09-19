@@ -21,7 +21,7 @@ canonical_url: https://oneusefulthing.org/p/the-overhang
 summary: Using your deep knowledge, wide knowledge, taste, and agency
 first_seen: '2026-09-18T17:54:32Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

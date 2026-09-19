@@ -1,0 +1,90 @@
+- id: req-initial-whaleread-2026-09-19
+  project_slug: whaleread
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决外文电子书无译本时的整书翻译需求：痛点是逐段粘贴丢格式、云端上传有隐私顾虑；依据产品说明还原旧流程属工作流推理，尚无用户反馈佐证
+    evidence_ids:
+    - ev-67ff8af82359d5b0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品说明，没有用户评价、社区讨论或采用数据，无法判断读者是否真的把整书翻译当成待办；场景是否强仍属未知
+    evidence_ids:
+    - ev-67ff8af82359d5b0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与买方，本地翻译的算力成本由谁承担不明；按本收费还是订阅只能推测，属判断而非已验证事实
+    evidence_ids:
+    - ev-67ff8af82359d5b0
+  - gate: truth
+    status: insufficient
+    reason: 整书译文质量、格式还原度与本地模型能力均无实测或文档佐证，交付能否稳定达到可读标准尚不可核对
+    evidence_ids:
+    - ev-67ff8af82359d5b0
+  next_validation: 收集 WhaleRead 官方定价页或部署文档，确认按本/订阅的收费方式与本地翻译支持的模型与格式范围。
+  market: ''
+  job: 外文电子书读者在拿到一本没有目标语言版本的 TXT、Markdown 或 EPUB 电子书时，需要把整本书转成可读的译文版本。
+  job_en: A reader who has obtained a TXT, Markdown, or EPUB book with no edition in their language needs
+    the whole book turned into a readable translated version.
+  pain: 整本书手动分段粘贴进翻译工具费时且丢格式；用云端整书翻译则必须把整本书上传，带来隐私和版权顾虑；等官方译本往往遥遥无期或价格高。
+  pain_en: Pasting a whole book section by section into translators is slow and breaks formatting; cloud
+    whole-book services require uploading the full file, raising privacy and copyright concerns; official
+    editions are delayed or costly.
+  current_alternative: 此前读者要么逐段复制到网页翻译器再手动拼回文件，要么使用需要上传整本书的云端 EPUB 翻译服务，要么等待官方译本或花钱请人翻译。
+  current_alternative_en: Readers previously pasted passages into web translators and reassembled the
+    file by hand, used cloud EPUB translation services that require uploading the whole book, waited for
+    an official edition, or paid a human translator.
+  usage_reason: 推断：它在本地完成整书翻译，省掉拆文件、逐段翻译、拼回格式的多步手工，也免去上传整本书的步骤；对在意藏书隐私、只想快速拿到可读译本的读者应有吸引力。是否反复使用尚无留存证据。
+  usage_reason_en: 'Inferred: translating the full book locally removes the multi-step paste-and-reassemble
+    work and the upload step, which should attract readers who want to keep their library private and
+    just get a readable translation. No evidence yet of repeated use or retention.'
+- id: req-full-whaleread-2026-09-19
+  project_slug: whaleread
+  level: full
+  reviewed_at: '2026-09-19T00:55:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决外文电子书无译本时的整书翻译需求：痛点是逐段粘贴丢格式、云端上传整本书有隐私与版权顾虑、等官方译本周期长；依据产品说明还原旧流程属工作流推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-67ff8af82359d5b0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品说明，没有用户评价、社区讨论或采用数据，无法判断读者是否真把整书翻译当成待办；场景强度仍属未知。
+    evidence_ids:
+    - ev-67ff8af82359d5b0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与买方，本地翻译的算力成本由谁承担不明；按本收费还是订阅只能推测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-67ff8af82359d5b0
+  - gate: truth
+    status: insufficient
+    reason: 整书译文质量、格式还原度与本地模型能力均无实测或文档佐证，交付能否稳定达到可读标准尚不可核对。
+    evidence_ids:
+    - ev-67ff8af82359d5b0
+  next_validation: 收集 WhaleRead 官方定价页或部署文档，确认按本/订阅的收费方式与本地翻译支持的模型与格式范围。
+  market: ''
+  job: 外文电子书读者拿到一本没有目标语言版本的 TXT、Markdown 或 EPUB 文件时，需要把整本书转成保留原格式、可通读的译文文件。
+  job_en: A reader who has a TXT, Markdown, or EPUB book with no edition in their language needs the whole
+    book turned into a readable translated file that keeps the original formatting.
+  pain: 逐段复制到网页翻译器再手工拼回文件费时且丢格式；用云端整书翻译必须上传整本书，带来隐私与版权顾虑；等官方译本周期长或价格高。
+  pain_en: Pasting passages into web translators and reassembling the file by hand is slow and breaks
+    formatting; cloud whole-book translation requires uploading the entire file, raising privacy and copyright
+    concerns; official editions are slow or costly.
+  current_alternative: 逐段复制到网页翻译器再手动拼回文件、使用需上传整本书的云端 EPUB 翻译服务、等待官方译本或付费请人翻译。
+  current_alternative_en: Pasting passages into web translators and reassembling by hand, using cloud
+    EPUB translation services that require uploading the whole book, waiting for an official edition,
+    or paying a human translator.
+  usage_reason: 推断：它在本地一次性接收整书文本并输出保留原格式的译文，省掉拆文件、逐段翻译、拼回格式的多步手工，也免去上传整本书这一步；因此在意藏书隐私、又急需可读译本的外文读者会在拿到无译本电子书时选择它。译文是否通顺仍需自行通读确认，尚无留存或复购证据。
+  usage_reason_en: 'Inferred: it ingests the whole book locally and outputs a translation that keeps the
+    original formatting, removing the multi-step split-translate-reassemble work and the upload step;
+    readers who care about keeping their library private and need a readable translation quickly would
+    choose it when they obtain a book with no existing edition. Fluency still requires the reader''s own
+    pass, and no retention or repeat-use evidence exists yet.'

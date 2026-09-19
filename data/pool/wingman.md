@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/wingman-8
 summary: A little nudge to text your girlfriend
 first_seen: '2026-09-17T12:06:57Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

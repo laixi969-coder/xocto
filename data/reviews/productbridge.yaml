@@ -1,0 +1,88 @@
+- id: req-initial-productbridge-2026-09-19
+  project_slug: productbridge
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是反馈散落多渠道、人工分类回复耗时且漏问题的问题，旧流程明确，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-1b98723080e0dd38
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有客户案例或采用数据，卡在场景感知环节。
+    evidence_ids:
+    - ev-1b98723080e0dd38
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按坐席或按处理量收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-1b98723080e0dd38
+  - gate: truth
+    status: insufficient
+    reason: 无法确认接入渠道、自动回复边界与人工复核方式，交付确定性未核验。
+    evidence_ids:
+    - ev-1b98723080e0dd38
+  next_validation: 收集该产品官方页面上的渠道接入清单、定价与客户案例，确认反馈归类结果是否被产品团队实际使用。
+  market: ''
+  job: 客服负责人或产品经理在用户反馈散落在工单、应用商店评论和聊天里时，处理这些零散反馈，要完成回复用户并把问题归类给产品团队。
+  job_en: A support lead or product manager whose user feedback is scattered across tickets, app store
+    reviews and chats works from that fragmented input to reply to users and route issues to the product
+    team.
+  pain: 反馈分散在多个渠道，人工逐条读、分类、回复耗时，且容易漏掉重复出现的问题。
+  pain_en: Feedback sits in multiple channels, so reading, classifying and replying by hand is slow and
+    recurring issues are easily missed.
+  current_alternative: 现在多数团队用工单系统加人工标签，或让客服在表格里手工汇总反馈。
+  current_alternative_en: Most teams use a ticketing system with manual tags, or have support staff compile
+    feedback by hand in a spreadsheet.
+  usage_reason: 推断：相较人工逐条打标签，它把支持与反馈内容直接处理成回复和归类结果，省掉手工汇总这一步，因此没有专职客服、又想让反馈回流到产品侧的团队会尝试它。
+  usage_reason_en: 'Inference: versus tagging each item by hand, it turns support and feedback content
+    directly into replies and categories, removing the manual consolidation step, so teams without dedicated
+    support staff who want feedback to reach the product side would try it.'
+- id: req-full-productbridge-2026-09-19
+  project_slug: productbridge
+  level: full
+  reviewed_at: '2026-09-19T00:54:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决反馈散落多渠道、人工分类回复耗时且漏问题的问题，产品页自述为 AI-native 客服与反馈 agent，旧流程可指认，属工作流结构推理。
+    evidence_ids:
+    - ev-1b98723080e0dd38
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开资料 产品页一句描述，无客户案例、采用数据或用户评价，无法判断客服与产品团队是否真的把它放进日常流程，卡在场景感知环节。
+    evidence_ids:
+    - ev-1b98723080e0dd38
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按坐席或按处理量收费只是推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1b98723080e0dd38
+  - gate: truth
+    status: insufficient
+    reason: 无法确认接入哪些渠道、自动回复边界与人工复核方式，客服场景下的错误回复风险与交付确定性均未核验。
+    evidence_ids:
+    - ev-1b98723080e0dd38
+  next_validation: 追踪该产品官方页面的渠道接入清单、定价与客户案例，确认反馈归类结果是否被产品团队实际使用。
+  market: ''
+  job: 客服负责人或产品经理在用户反馈散落在工单、应用商店评论和聊天里时，处理这些零散内容，要完成回复用户并把问题归类给产品团队。
+  job_en: A support lead or product manager whose user feedback is scattered across tickets, app store
+    reviews and chats works from that fragmented input to reply to users and route issues to the product
+    team.
+  pain: 反馈分散在多个渠道，人工逐条阅读、分类、回复耗时，且容易漏掉重复出现的问题；产品页仅自述为 AI-native 客服与反馈 agent，未给出用户抱怨原文。
+  pain_en: Feedback sits in multiple channels, so reading, classifying and replying by hand is slow and
+    recurring issues are easily missed; the product page only describes it as an AI-native support and
+    feedback agent, with no user complaint text.
+  current_alternative: 多数团队用工单系统加人工标签，或让客服在表格里手工汇总反馈。
+  current_alternative_en: Most teams use a ticketing system with manual tags, or have support staff compile
+    feedback by hand in a spreadsheet.
+  usage_reason: 推断：相较人工逐条打标签与汇总，它把支持与反馈内容直接处理成回复和归类结果，省掉手工汇总这一步，因此没有专职客服、又想让反馈回流到产品侧的团队会尝试它；目前无客户案例与采用数据。
+  usage_reason_en: 'Inference: versus tagging and consolidating each item by hand, it turns support and
+    feedback content directly into replies and categories, removing the manual consolidation step, so
+    teams without dedicated support staff who want feedback to reach the product side would try it; no
+    customer cases or adoption data exist yet.'

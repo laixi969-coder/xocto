@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTE1YV0lfYlI0MjN4
 summary: Top DevOps Testing Tools for Faster Software Delivery in 2026 The Next Hint
 first_seen: '2026-09-18T05:23:11Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://jinx.fyi
 summary: a link shortener you host free on GitHub Pages
 first_seen: '2026-09-18T02:56:04Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

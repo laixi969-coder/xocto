@@ -1,27 +1,44 @@
 ---
 slug: kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho
-name: Kenco Innovation Lab Showcases GreyOrange’s AI-Powered Warehouse Orchestration
+name: GreyOrange
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 仓储运营团队在订单波次与机器人调度冲突时，把仓库布局、订单流和机器人状态交给 GreyOrange 的编排系统，由 AI 分配拣选与搬运任务，输出可执行的调度指令；人工仍需处理异常与优先级冲突。具体部署流程与交付结果仍待核验。
+inspiration: 趋势：仓储自动化正从单机机器人转向由 AI 统一编排多设备与订单流。切入：可从第三方物流与区域零售仓的波次调度环节进入，按仓或按吞吐量收费，而不是卖机器人硬件。
+summary_en: When order waves and robot dispatch conflict, warehouse operations teams feed layout, order
+  flow and robot status into GreyOrange's orchestration system, which assigns picking and transport tasks
+  and outputs executable dispatch instructions; humans still handle exceptions and priority conflicts.
+  The concrete deployment process and delivered results remain unverified.
+inspiration_en: 'Trend: warehouse automation is shifting from single robots to AI that orchestrates multiple
+  devices and order flow. Entry: start with wave scheduling at third-party logistics and regional retail
+  warehouses, charging per site or per throughput rather than selling robot hardware.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 物流
+- 仓储
+- 零售
+industries_en:
+- Logistics
+- Warehousing
+- Retail
+jobs:
+- 仓储运营经理
+- 物流调度员
+jobs_en:
+- Warehouse operations manager
+- Logistics dispatcher
+regions:
+- 美国
+regions_en:
+- United States
 open_source: false
 url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNTR6MlpxQWo0TW84NzlkSi11OXpxWUtQMGEwX0o5WDFJOFlIZ1ZKMW5YVzBtc2FWcXVGN2RaZ3VYRkdfb196LWE5UkhMQkV0cDNDUFlwSWlHQ3h3V0FJbnNJaEhrR2RTMU1JaUlndkNuQm9kWFNGbjlhRmlVV3B4QzdmZi1VVHprTklEUDdUeG1ZcVlMWG9QU1lJaDVKekVjQndqLWZIRnlYTl9hOEl3R0Z6Z3hSMWEyd1ZDYm1JblhCdGw0UU9LbnV6MmFTMDlFbUJlQWdxMHROcGNaMGg2Y0J1TDJpYTFvWElr0gHrAUFVX3lxTE81NHoyWnFBajRNbzg3OWRKLXU5enFZS1AwYTBfSjlYMUk4WUhnVkoxblhXMG1zYVZxdUY3ZFpndVhGR19vX3otYTlSSExCRXRwM0NQWXBJaUdDeHdXQUluc0loSGtHZFMxTUlpSWd2Q25Cb2RYU0ZuOWFGaVVXcHhDN2ZmLVVUemtOSURQN1R4bVlxWUxYb1BTWUloNUp6RWNCd2otZkhGeVhOX2E4SXdHRnpneFIxYTJ3VkNibUluWEJ0bDRRT0tudXoyYVMwOUVtQmVBZ3EwdE5wY1owaDZjQnVMMmlhMW9YSWs?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNTR6MlpxQWo0TW84NzlkSi11OXpxWUtQMGEwX0o5WDFJOFlIZ1ZKMW5YVzBtc2FWcXVGN2RaZ3VYRkdfb196LWE5UkhMQkV0cDNDUFlwSWlHQ3h3V0FJbnNJaEhrR2RTMU1JaUlndkNuQm9kWFNGbjlhRmlVV3B4QzdmZi1VVHprTklEUDdUeG1ZcVlMWG9QU1lJaDVKekVjQndqLWZIRnlYTl9hOEl3R0Z6Z3hSMWEyd1ZDYm1JblhCdGw0UU9LbnV6MmFTMDlFbUJlQWdxMHROcGNaMGg2Y0J1TDJpYTFvWElr0gHrAUFVX3lxTE81NHoyWnFBajRNbzg3OWRKLXU5enFZS1AwYTBfSjlYMUk4WUhnVkoxblhXMG1zYVZxdUY3ZFpndVhGR19vX3otYTlSSExCRXRwM0NQWXBJaUdDeHdXQUluc0loSGtHZFMxTUlpSWd2Q25Cb2RYU0ZuOWFGaVVXcHhDN2ZmLVVUemtOSURQN1R4bVlxWUxYb1BTWUloNUp6RWNCd2otZkhGeVhOX2E4SXdHRnpneFIxYTJ3VkNibUluWEJ0bDRRT0tudXoyYVMwOUVtQmVBZ3EwdE5wY1owaDZjQnVMMmlhMW9YSWs?oc=5
 summary: Kenco Innovation Lab Showcases GreyOrange’s AI-Powered Warehouse Orchestration The Manila Times
 first_seen: '2026-09-17T13:10:49Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:
@@ -37,7 +54,7 @@ sightings:
   kind: news
 ---
 
-# Kenco Innovation Lab Showcases GreyOrange’s AI-Powered Warehouse Orchestration
+# GreyOrange
 
 Kenco Innovation Lab Showcases GreyOrange’s AI-Powered Warehouse Orchestration The Manila Times
 

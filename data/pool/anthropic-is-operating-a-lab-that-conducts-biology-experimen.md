@@ -1,6 +1,6 @@
 ---
 slug: anthropic-is-operating-a-lab-that-conducts-biology-experimen
-name: Anthropic is operating a lab that conducts biology experiments
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: AI leaders have been promising that AI is the key to curing human disea
   have also been warning that AI might kill us all.
 first_seen: '2026-09-18T23:13:31Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic is operating a lab that conducts biology experiments
+# Anthropic
 
 AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.
 

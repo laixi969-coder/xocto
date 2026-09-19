@@ -119,3 +119,46 @@
   usage_reason_en: 'The task is: Game streamers or video creators handling low-resolution, noisy capture-card
     input during live streaming or recording, who need a clearer, smoother real-time preview and final
     footage Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-veyra-nrvideo-2026-09-19
+  project_slug: veyra-nrvideo
+  level: full
+  reviewed_at: '2026-09-19T00:55:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决直播/录制中低清高噪画面实时增强的需求，但公开材料只有功能复述与“PS5 GTA6 120FPS”式宣传，没有用户抱怨、不解决的后果或频率；采集卡可直出干净画面，痛点刚性不足，属自嗨拼凑。
+    evidence_ids:
+    - ev-04c0eaff7ad6a27f
+    - ev-a2477c14abcdf629
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有真实用户描述具体直播/录制场景、替代的旧流程与可复现的画质结果。
+  market: ''
+  job: 游戏主播或视频创作者在直播、录制时，把采集卡或本地视频、图片这类低清高噪素材交给该工具，实时得到更清晰流畅的预览与成片画面。
+  job_en: Game streamers or video creators feed low-resolution, noisy capture-card or local video/image
+    material into the tool during streaming or recording to obtain a clearer, smoother real-time preview
+    and final footage.
+  pain: 公开材料只复述了超分、降噪、插帧功能，没有用户抱怨、画质不达标的具体后果或发生频率；采集卡本身可直出1080p60，低清高噪并非该工作流的普遍刚性痛点。
+  pain_en: Public materials only restate super-resolution, denoising and frame-generation features; there
+    is no user complaint, concrete consequence or frequency of poor quality, and capture cards already
+    output clean 1080p60, so low-quality noisy input is not a universal rigid pain in this workflow.
+  current_alternative: 主播通常直接用采集卡原始输出或OBS内置滤镜；后期创作者用Topaz Video AI、剪映等成熟超分降噪工具，公开材料未说明本产品替代了其中哪一步。
+  current_alternative_en: Streamers typically use raw capture-card output or OBS built-in filters; post-production
+    creators use mature tools such as Topaz Video AI or CapCut for super-resolution and denoising, and
+    public materials do not show which step this product replaces.
+  usage_reason: 仓库标题以“让PS5 GTA6跑到120FPS”为卖点，属于营销式想象而非可核验的用户任务；公开材料没有用户反馈或案例说明相较旧做法减少了哪一步负担，因此无法确认哪类用户会在什么情况下选择它（推断）。
+  usage_reason_en: The repository headline sells 'Bring PS5 GTA6 to 120FPS', which is marketing imagination
+    rather than a verifiable user task; no user feedback or case shows which step it removes versus the
+    old approach, so it is unclear which users would choose it and when (inference).

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9jTFg3YlFUdm00
 summary: 云开彩票app官方发布新一代AI智能训练系统，引领体育科技革命 体坛加
 first_seen: '2026-09-17T22:31:51Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

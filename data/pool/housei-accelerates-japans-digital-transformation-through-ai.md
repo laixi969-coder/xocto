@@ -22,7 +22,7 @@ summary: HOUSEI Accelerates Japan’s Digital Transformation Through AI, Softwar
   The Worldfolio
 first_seen: '2026-09-18T05:26:31Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

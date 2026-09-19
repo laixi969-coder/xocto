@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE14OXhicHZBTDBk
 summary: Reimagining research papers as interactive and reliable AI agents Nature
 first_seen: '2026-09-16T15:51:35Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -116,3 +116,56 @@
   usage_reason: 用户要完成的任务是：角色扮演创作者、互动小说作者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Roleplay Creator, Interactive Fiction Writer Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-dsh-nexttavern-2026-09-19
+  project_slug: dsh-nexttavern
+  level: full
+  reviewed_at: '2026-09-19T00:52:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长篇角色扮演中上下文耗尽导致设定遗忘、人物崩坏的需求，痛点刚性来自长篇创作必须维持一致性；旧做法是手工粘贴设定或人工摘要，不解决则剧情断裂需重开。产品以混合检索加本地嵌入维持记忆并导出小说，交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+    - ev-a5652bf03ce752b9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 43 增至 76，说明开发者社区注意到该项目，但收藏与关注只属规模信号，不能证明目标创作者已持续使用或形成稳定场景；缺少 issue、discussion 或用户评价说明谁在何种强场景下反复使用。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+    - ev-a5652bf03ce752b9
+    - ev-f31df471914a9345
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径，插件形态可能走开源捐赠或依附 DSH 生态，to C 付费与 to B 授权均无法核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+  - gate: truth
+    status: insufficient
+    reason: 混合检索与本地嵌入能否在长篇中稳定维持一致性、多角色 Agent 集群的剧情推进是否可控、小说导出质量与人工确认边界，均缺可复现的公开测试或部署文档佐证。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+    - ev-a5652bf03ce752b9
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现长篇使用反馈、记忆召回效果实测或小说导出案例，以核验交付稳定性与真实使用场景。
+  market: ''
+  job: 写长篇角色扮演或互动小说的创作者，在 DeepSeek Harness 里打开该插件，导入 SillyTavern 人物卡或自行写卡，把设定、世界书与文风预设交给它，让多角色 Agent 集群推进剧情，最后导出小说文本。
+  job_en: Writers of long-form roleplay or interactive fiction open this plugin inside DeepSeek Harness,
+    import SillyTavern character cards or author their own, hand over settings, world books and style
+    presets, let a multi-character agent cluster advance the plot, and export the novel text.
+  pain: 长篇角色扮演的核心痛点是上下文窗口耗尽后角色设定、世界书与既有剧情被遗忘，导致人物崩坏、世界线断裂，创作者被迫反复手工粘贴设定或重开对话；公开材料未给出该痛点的发生频率与不采用代价的量化数据。
+  pain_en: The core pain of long-form roleplay is that once the context window is exhausted, character
+    settings, world books and prior plot are forgotten, causing character drift and broken worldlines;
+    creators are forced to repeatedly paste settings by hand or restart the conversation. Public materials
+    give no quantified frequency or cost of leaving this unsolved.
+  current_alternative: 旧做法是在通用聊天界面里手工维护设定文档、反复粘贴人物卡与世界观，或依赖 SillyTavern 等前端加人工摘要来维持记忆；这些替代方式把记忆维护的负担留在创作者身上。
+  current_alternative_en: The old approach is to maintain setting documents by hand in a generic chat
+    interface, repeatedly paste character cards and worldviews, or rely on front-ends such as SillyTavern
+    plus manual summarization to sustain memory; these alternatives leave the memory-maintenance burden
+    on the creator.
+  usage_reason: 相较手工粘贴与人工摘要，该插件用关键词加语义混合检索配合本地嵌入模型自动召回相关设定与历史片段，并把人物卡、世界书、文风预设纳入同一流程，减少创作者每轮重述设定的步骤；这是基于产品能力与任务结构作出的推断，尚无用户反馈或案例证实其实际留存。
+  usage_reason_en: Compared with manual pasting and hand-written summaries, the plugin uses hybrid keyword
+    and semantic retrieval with a local embedding model to automatically recall relevant settings and
+    history, and folds character cards, world books and style presets into one flow, cutting the step
+    of restating settings each turn. This is an inference from product capability and task structure;
+    no user feedback or case yet confirms retention.

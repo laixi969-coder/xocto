@@ -377,3 +377,58 @@
     the agent''s output to explanation and instructional feedback, removing the step of re-asking why
     the code works or going back to docs. Developers learning a new stack or reviewing code who need understanding
     rather than a deliverable would choose it in those situations.'
+- id: req-full-manware-s-ai-learning-toolkit-2026-09-19
+  project_slug: manware-s-ai-learning-toolkit
+  level: full
+  reviewed_at: '2026-09-19T00:53:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者学代码时“拿到答案却学不到原理”的需求，痛点是通用助手默认直出代码、学习者仍需自行反推，属于反复出现的刚性学习摩擦；公开仓库说明其把代理输出改为解释与教学反馈，输入代码或问题、交付讲解，闭环可确定。此为工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-67b5bb7dc46d013b
+    - ev-3294bbbd5313bde2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 425 增至 524，说明英文生态有持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在学习或审查流程中；中文生态检索未发现对应供给，也缺少场景讨论。
+    evidence_ids:
+    - ev-67b5bb7dc46d013b
+    - ev-3294bbbd5313bde2
+    - ev-534fa9133673131b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费路径或买方说明，无法判断钱来自个人开发者订阅、团队采购还是纯开源赞助；这是商业证据缺口，不反推教学需求不存在。
+    evidence_ids:
+    - ev-67b5bb7dc46d013b
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述承诺把代理变成教学者，但公开材料未给出部署文档、可复现实测或人工边界说明，无法核验解释质量与交付是否稳定发生；承诺与第一性学习目标方向一致，确定性待证。
+    evidence_ids:
+    - ev-67b5bb7dc46d013b
+    - ev-9046cec5e872c904
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否出现用户描述的具体学习或代码审查场景、替代了哪种旧做法，以及是否公开部署方式与使用反馈。
+  market: ''
+  job: 开发者在学习新语言、接手陌生代码库或做代码审查时，把一段代码或一个技术问题交给 AI 代理，要求它像老师一样逐步讲解原理、指出错误原因并给出可理解的反馈，而不是直接吐出可复制的成品代码。
+  job_en: 'While learning a new language, taking over an unfamiliar codebase, or reviewing code, a developer
+    hands a snippet or technical question to an AI agent and asks it to act like a teacher: explain the
+    reasoning step by step, point out why something is wrong, and give understandable feedback instead
+    of dumping copy-pasteable finished code.'
+  pain: 公开材料把痛点定位为“代码唠叨机器”：主流 AI 编程助手默认直接产出代码，学习者拿到答案却学不到原理，遇到同类问题仍不会独立解决；这种“答案到手、能力没长”的落差在自学和代码审查场景反复出现。
+  pain_en: 'The public framing targets the ''code yapping machine'' problem: mainstream AI coding assistants
+    default to emitting finished code, so learners get an answer without the underlying reasoning and
+    still cannot solve similar problems on their own; this gap between receiving an answer and gaining
+    ability recurs in self-study and code review.'
+  current_alternative: 旧做法是直接使用通用 AI 编程助手（如 Copilot 类补全或对话式代码生成）拿现成代码，或去搜索引擎、Stack Overflow、教程视频里自行拼凑解释；这些渠道以给答案或给零散资料为主，不保证按学习者当前这段代码做教学式拆解。
+  current_alternative_en: The existing route is to use general AI coding assistants (completion or chat-based
+    code generation) to get ready-made code, or to piece together explanations from search engines, Stack
+    Overflow, and tutorial videos; these channels mainly deliver answers or scattered material and do
+    not guarantee a teaching-style breakdown of the learner's specific snippet.
+  usage_reason: 推断：相较直接向通用助手要代码，该工具把代理的输出目标从“生成可运行代码”改为“生成解释与教学反馈”，减少的是学习者拿到答案后仍需自己反推原理这一步；因此正在自学、接手陌生代码或做代码审查、且希望理解而非照抄的开发者，会在需要弄懂一段代码时选择它。仓库收藏从
+    425 增至 524 说明有人关注，但尚无用户反馈或案例证明其被长期留在工作流中。
+  usage_reason_en: 'Inference: compared with asking a general assistant for code, this toolkit changes
+    the agent''s output target from ''produce runnable code'' to ''produce explanation and teaching feedback,''
+    removing the step where the learner must reverse-engineer the reasoning after getting an answer; developers
+    who are self-studying, onboarding onto unfamiliar code, or reviewing code and want understanding rather
+    than copying would choose it when they need to grasp a snippet. Stars rising from '

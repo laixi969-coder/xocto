@@ -341,3 +341,53 @@
     steps; e-commerce sellers or marketers needing batch, low-cost, consistently premium ad creative would
     choose it in that situation. Stars rising from 85 to 119 show sustained attention, but no user feedback
     yet proves long-term retention.'
+- id: req-full-ai-apple-video-2026-09-19
+  project_slug: ai-apple-video
+  level: full
+  reviewed_at: '2026-09-19T00:51:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决普通产品缺少高端宣传视频的需求，痛点是拍摄剪辑成本高、中小卖家难快速产出可投放素材；公开说明已能还原输入产品素材、按发布会风格生成约30秒成片的闭环，属工作流结构推理，痛点刚性与交付确定性成立。
+    evidence_ids:
+    - ev-fd58168abbdb0e8c
+    - ev-239fa99297d886fe
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从108增至124，说明开发者社区持续关注，但收藏与关注只属规模信号，不能证明目标营销用户已把它留在投放工作流；缺少使用评价、案例或复现记录。
+    evidence_ids:
+    - ev-fd58168abbdb0e8c
+    - ev-239fa99297d886fe
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能，公开材料未见定价、付费路径或买方；可能靠作者影响力、后续付费技能包或服务变现，但均属判断而非已验证事实，付费主体尚不明确。
+    evidence_ids:
+    - ev-fd58168abbdb0e8c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出成片样例、生成稳定性、Seedance 2.5 调用成本与版权/商标风险边界；能否确定性交付30秒可用视频尚缺可复现证据。
+    evidence_ids:
+    - ev-fd58168abbdb0e8c
+    - ev-239fa99297d886fe
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开成片样例、Seedance 2.5 调用方式与部署文档，以核验交付稳定性与真实使用场景。
+  market: ''
+  job: 电商卖家或产品营销人员在需要为普通商品制作投放素材时，把产品图片或现有素材输入该开源技能，由 Seedance 2.5 生成约30秒苹果发布会风格的高端产品视频，用于社交媒体或广告投放。
+  job_en: An e-commerce seller or product marketer preparing ad creative inputs product images or existing
+    assets into this open-source skill, which uses Seedance 2.5 to generate a roughly 30-second Apple-keynote-style
+    premium product video for social media or ad placement.
+  pain: 公开材料只说明它把普通产品包装成高端消费电子风格，未给出用户抱怨、不采用代价或频率；从工作流结构推理，痛点在于高质量产品视频通常需要拍摄、布光与剪辑，中小卖家难以低成本快速产出可投放素材。
+  pain_en: Public materials only state that it packages ordinary products in a premium consumer-electronics
+    style, with no user complaints, cost of inaction, or frequency; by workflow inference, the pain is
+    that high-quality product videos normally require shooting, lighting, and editing, which small sellers
+    struggle to produce cheaply and quickly for ad placement.
+  current_alternative: 公开材料未说明用户当前做法；结构推理上，替代方式是外包拍摄剪辑团队、使用通用 AI 视频工具自行拼提示词，或直接不做视频只投图文素材。
+  current_alternative_en: Public materials do not state current practice; by structural inference, alternatives
+    are outsourcing a shooting/editing team, using general AI video tools with self-written prompts, or
+    skipping video and running static-image ads.
+  usage_reason: 推断：相较外包拍摄或自行拼提示词，该技能把发布会风格的分镜、节奏与包装固化为可复用模板，用户只需提供产品素材即可得到成片，省去布光拍摄与逐段调提示词这两步；因此缺少拍摄预算、又需要风格统一投放素材的电商卖家会在赶素材时选择它。
+  usage_reason_en: 'Inference: versus outsourcing a shoot or hand-writing prompts, the skill hard-codes
+    keynote-style shot structure, pacing, and packaging into a reusable template, so users only supply
+    product assets to get a finished clip, removing the lighting/shooting step and per-shot prompt tuning;
+    sellers without a shooting budget who need consistent ad creative would choose it when rushing assets.'

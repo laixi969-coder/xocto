@@ -23,7 +23,7 @@ summary: '[2026 Asia Construction Grand Prize] Improving Construction Quality wi
   in Smart Residential Technology 아시아경제'
 first_seen: '2026-09-17T08:00:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -228,3 +228,54 @@
     and produces a comparison plus an exportable report, removing the step of writing parsers and assembling
     evidence; this is an inference from product capability, and it appeals most to developers who must
     explain an agent failure to a client or team.
+- id: req-full-tracecrate-2026-09-19
+  project_slug: tracecrate
+  level: full
+  reviewed_at: '2026-09-19T00:54:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 运行日志难比对、失败原因难定位的问题，旧做法是手工翻日志或自写脚本，不解决的后果是排查慢且结论不可复现；本地解析并导出报告形成输入—动作—交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-dcaabedf670264b0
+    - ev-25b5d5180703ea0b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从 116 增至 156，属关注度而非持续采用，尚无用户评价、issue 或团队使用证据说明它已进入日常工作流。
+    evidence_ids:
+    - ev-dcaabedf670264b0
+    - ev-d26d41b906964995
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，未见定价页或付费路径；买方可能是自建 agent 的团队或独立开发者，但这是判断而非已验证事实，也无采购或订阅记录。
+    evidence_ids:
+    - ev-25b5d5180703ea0b
+    - ev-0343c03262b51f9d
+  - gate: truth
+    status: insufficient
+    reason: 本地运行、无需 API key 与后端，隐私边界清楚，贴近排查第一性目标；但对比维度与报告字段是否覆盖真实排查需求仍待核验。
+    evidence_ids:
+    - ev-4d3cf7bff01197a9
+    - ev-25428e0913df647c
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际用它排查的具体 agent 失败类型、对比维度和报告字段。
+  market: ''
+  job: AI 应用开发者在把基于 Claude Code、Codex 的 agent 交付或上线前，导入这些工具或 OTLP 格式的运行日志，对比多次运行并导出报告，定位某次失败或行为变化的原因。
+  job_en: An AI application developer, before shipping or handing off a Claude Code or Codex agent, imports
+    those tools' or OTLP run logs, compares multiple runs and exports a report to locate why one run failed
+    or behaved differently.
+  pain: agent 单次运行产生大量分散日志，失败原因藏在多步调用之间；手工翻日志难以看出两次运行的差别，排查慢且结论不可复现，向客户或团队解释时也缺少可交付的证据。
+  pain_en: A single agent run produces large, scattered logs and the failure cause is buried across many
+    steps; reading by hand makes run-to-run differences hard to see, slow to find and hard to reproduce,
+    and there is no deliverable evidence when explaining to a client or team.
+  current_alternative: 开发者目前靠终端输出、自写解析脚本或通用日志平台手工比对，缺少针对 agent 轨迹的对比视图与可导出报告。
+  current_alternative_en: Developers currently rely on terminal output, self-written parsing scripts or
+    general log platforms and compare by hand, with no comparison view or exportable report built for
+    agent traces.
+  usage_reason: 相较手工翻日志或自写脚本，它把多次运行导入同一本地工作台，直接产出对比结果与可导出报告，省掉自己写解析和整理证据这一步；这是基于产品能力的推断，对需要向客户或团队解释某次
+    agent 失败的开发者更有吸引力。
+  usage_reason_en: Compared with reading logs by hand or writing scripts, it loads several runs into one
+    local workbench and directly produces a comparison and an exportable report, removing the step of
+    writing parsers and assembling evidence; this is an inference from product capability, and it appeals
+    most to developers who must explain an agent failure to a client or team.

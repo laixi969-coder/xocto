@@ -1,0 +1,81 @@
+- id: req-initial-omadesign-2026-09-19
+  project_slug: omadesign
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它是 Linux 创作套件，说不出用户具体任务、痛点与不采用的后果，价值关证据不足。
+    evidence_ids:
+    - ev-6a6ee889f421c40c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料没有用户评价、采用或社区讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-6a6ee889f421c40c
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页、客户或采购信息，买方与付费路径均不可知。
+    evidence_ids:
+    - ev-6a6ee889f421c40c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近设计工作的第一性目标，交付是否确定发生。
+    evidence_ids:
+    - ev-6a6ee889f421c40c
+  next_validation: 收集 omadesign 官方产品页或文档，确认 AI 在设计流程中具体接收什么输入、执行哪一步、输出什么文件。
+  market: ''
+  job: Linux 桌面上的平面设计师或排版编辑，在需要完成一份版式或一段动效时，处理图片、字体与版式素材，要产出可交付的设计文件。
+  job_en: A graphic designer or layout editor on the Linux desktop who, when producing a layout or a motion
+    piece, works with images, fonts and layout assets to deliver a finished design file.
+  pain: 公开材料只给出品类定位，没有说明用户在哪个环节卡住、不解决会损失什么，也没有任何用户抱怨或替代行为的记录。
+  pain_en: The public material gives only a category label; it does not say where users get stuck, what
+    is lost if the problem stays unsolved, and records no user complaints or workaround behaviour.
+  current_alternative: 推断：Linux 用户目前多依赖网页版设计工具、跨系统切换到 Windows 或 macOS 上的商业套件，或用 GIMP、Inkscape、Krita 等分散工具拼接流程。
+  current_alternative_en: 'Inference: Linux users today rely on web-based design tools, switch to commercial
+    suites on Windows or macOS, or stitch together separate tools such as GIMP, Inkscape and Krita.'
+  usage_reason: 无法判断。材料未说明 AI 具体接收什么、替代旧流程中的哪一步，也没有用户反馈或案例支持选择动机，因此缺少可核对的选择理由。
+  usage_reason_en: Cannot be judged. The material does not say what the AI receives or which step of the
+    old workflow it replaces, and there is no user feedback or case supporting a reason to choose it,
+    so no checkable rationale exists.
+- id: req-full-omadesign-2026-09-19
+  project_slug: omadesign
+  level: full
+  reviewed_at: '2026-09-19T00:53:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅知它是 Linux 创作套件，公开材料说不出用户具体任务、痛点与不采用的后果，连需求与痛点都无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-6a6ee889f421c40c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 omadesign 官方产品页或文档，确认 AI 在设计流程中具体接收什么输入、执行哪一步、输出什么文件。
+  market: ''
+  job: Linux 桌面上的平面设计师或排版编辑，在需要完成一份版式或一段动效时，处理图片、字体与版式素材，要产出可交付的设计文件。
+  job_en: A graphic designer or layout editor on the Linux desktop who, when producing a layout or a motion
+    piece, works with images, fonts and layout assets to deliver a finished design file.
+  pain: 公开材料只给出品类定位，没有说明用户在哪个环节卡住、不解决会损失什么，也没有任何用户抱怨或替代行为的记录。
+  pain_en: The public material gives only a category label; it does not say where users get stuck, what
+    is lost if the problem stays unsolved, and records no user complaints or workaround behaviour.
+  current_alternative: 推断：Linux 用户目前多依赖网页版设计工具、跨系统切换到 Windows 或 macOS 上的商业套件，或用 GIMP、Inkscape、Krita 等分散工具拼接流程。
+  current_alternative_en: 'Inference: Linux users today rely on web-based design tools, switch to commercial
+    suites on Windows or macOS, or stitch together separate tools such as GIMP, Inkscape and Krita.'
+  usage_reason: 无法判断。材料未说明 AI 具体接收什么、替代旧流程中的哪一步，也没有用户反馈或案例支持选择动机，因此缺少可核对的选择理由。
+  usage_reason_en: Cannot be judged. The material does not say what the AI receives or which step of the
+    old workflow it replaces, and there is no user feedback or case supporting a reason to choose it,
+    so no checkable rationale exists.

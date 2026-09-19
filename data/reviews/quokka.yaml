@@ -1,0 +1,82 @@
+- id: req-initial-quokka-2026-09-19
+  project_slug: quokka
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有“自举、确定性语言”一句，说不清解决什么用户任务与痛点，无法还原旧流程。
+    evidence_ids:
+    - ev-0e7d25de468c29b3
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，社区讨论量极小，不构成采用信号。
+    evidence_ids:
+    - ev-0e7d25de468c29b3
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，无买方与付费路径信息。
+    evidence_ids:
+    - ev-0e7d25de468c29b3
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-0e7d25de468c29b3
+  next_validation: 收集 Quokka 官方文档或仓库 README，确认它面向的具体任务、与 AI 工作流的关系以及是否有实际使用案例。
+  market: ''
+  job: 开发者在构建需要可复现结果的程序时，用 Quokka 这门语言编写并运行代码，以获得确定性输出。
+  job_en: A developer building programs that need reproducible results writes and runs code in Quokka
+    to obtain deterministic output.
+  pain: 公开材料未说明任何具体痛点；可复现性带来的困扰属于对确定性语言的一般性推断，不是该项目的用户证据。
+  pain_en: Public material states no concrete pain; reproducibility trouble is a general inference about
+    deterministic languages, not user evidence for this project.
+  current_alternative: 开发者目前可能使用已有语言加容器、锁文件或构建缓存来追求可复现构建。
+  current_alternative_en: Developers today likely use existing languages plus containers, lockfiles or
+    build caches to pursue reproducible builds.
+  usage_reason: 无法判断：材料没有说明它相较现有语言减少了哪一步负担，也没有可核对的结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus existing
+    languages, nor any verifiable result, so it cannot explain why a user would choose it.'
+- id: req-full-quokka-2026-09-19
+  project_slug: quokka
+  level: full
+  reviewed_at: '2026-09-19T00:54:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只有“自举、确定性语言”一句定位，说不清用户任务、痛点、旧替代与不解决的后果，连需求与痛点都写不出来，故判需求不成立。
+    evidence_ids:
+    - ev-697652aaa84f4ecb
+    - ev-8bfa97d4eb1b0d8d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Quokka 编程语言的官方仓库 README 或官网文档，确认其面向的具体任务、与 AI 工作流的关系以及是否有实际使用案例。
+  market: ''
+  job: 公开材料只给出“自举、确定性的编程语言”一句定位，无法还原谁在什么情况下、处理什么材料、要完成什么具体任务；连编程语言这一层都缺少面向对象与使用情境。
+  job_en: Public material offers only the one-line positioning of a self-hosting, deterministic programming
+    language, so it is impossible to reconstruct who, in what situation, handling what material, completes
+    what task; even the language's intended users and context are absent.
+  pain: 材料未说明任何具体痛点；可复现构建、确定性执行带来的困扰属于对确定性语言的一般性推断，不是该项目的用户证据。
+  pain_en: The material states no concrete pain; reproducibility and deterministic-execution friction
+    is a general inference about deterministic languages, not user evidence for this project.
+  current_alternative: 无法从公开材料确认现有替代方式；只能一般性推断开发者会用已有语言加容器、锁文件或构建缓存来追求可复现构建，但这不是该项目的证据。
+  current_alternative_en: The current alternative cannot be confirmed from public material; one can only
+    generally infer that developers use existing languages plus containers, lockfiles or build caches
+    for reproducible builds, but this is not evidence about this project.
+  usage_reason: 无法判断：材料没有说明它相较现有语言减少了哪一步负担，也没有可核对的结果，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus existing
+    languages, nor any verifiable result, so it cannot explain which users would choose it and when.'

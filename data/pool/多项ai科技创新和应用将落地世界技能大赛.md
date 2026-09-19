@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE5zdk9SZFlWMzNI
 summary: 多项AI科技创新和应用将落地世界技能大赛 中国科技网
 first_seen: '2026-09-18T07:06:59Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

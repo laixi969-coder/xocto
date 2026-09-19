@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPUWloeEt3aFhu
 summary: 'The State of Play: Retail’s Emerging Legal Terms for AI The Fashion Law'
 first_seen: '2026-09-17T13:10:52Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -604,3 +604,45 @@
     loop into an MCP/CLI workflow, removing the manual comparison step and keeping verified context across
     resets, so developers doing reverse engineering or high-accuracy AI work would choose it when they
     need checkable conclusions.'
+- id: req-full-reverify-2026-09-19
+  project_slug: reverify
+  level: full
+  reviewed_at: '2026-09-19T00:54:33Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 输出不可核验的问题，但公开证据只有产品自述，没有用户痛点、旧替代行为或不核验的后果，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-a4e47616b3e33e18
+    - ev-31d75532cc39f22d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 reverify 官方仓库或官网的 README、部署文档与 issue/discussion，确认是否存在具体使用场景、旧流程替代描述与可复现的核验示例。
+  market: ''
+  job: AI 应用开发者或逆向工程师在让模型输出技术结论（如二进制结构、协议字段、漏洞成因）时，需要把模型提出的每条主张落到可核对的确定性工具上，产出带证据的结论。
+  job_en: An AI application developer or reverse engineer, when letting a model produce technical conclusions
+    (binary structure, protocol fields, root cause), needs each model claim to be checked by deterministic
+    tools and delivered with evidence.
+  pain: 公开材料只给出产品自述（防 AI 编造、主张由确定性工具裁决），没有任何用户抱怨、事故记录或旧流程描述说明不核验会造成什么后果。
+  pain_en: Public material only contains the product's own claim (stop AI fabrication, deterministic tools
+    decide). No user complaint, incident record, or old-workflow description shows what goes wrong without
+    verification.
+  current_alternative: 公开材料未说明开发者现在如何核验模型输出（人工复核、单元测试、静态分析、人工比对文档等），因此无法判断它替代了哪一步。
+  current_alternative_en: Public material does not say how developers verify model output today (manual
+    review, unit tests, static analysis, doc cross-checking), so the step it replaces is unknown.
+  usage_reason: 无法给出因果解释：现有证据只有产品功能描述，缺少用户为何在具体情况下选择它而非旧做法的任何公开事实，故只能标为推断不成立。
+  usage_reason_en: 'No causal explanation is possible: evidence is limited to feature description, with
+    no public fact on why a user would pick it over the old approach in a concrete situation, so no inference
+    can be supported.'

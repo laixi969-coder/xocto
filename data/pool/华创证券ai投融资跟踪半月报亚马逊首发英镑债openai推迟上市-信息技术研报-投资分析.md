@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HRGtpWDQxU29O
 summary: 华创证券:《AI投融资跟踪半月报：亚马逊首发英镑债，OpenAI推迟上市｜信息技术研报｜投资分析》 发现报告
 first_seen: '2026-09-18T05:43:38Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

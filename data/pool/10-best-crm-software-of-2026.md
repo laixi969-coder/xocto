@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1iLS0yWDJrYzVP
 summary: 10 Best CRM Software Of 2026 Forbes
 first_seen: '2026-09-16T11:40:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

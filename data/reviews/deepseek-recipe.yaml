@@ -273,3 +273,42 @@
   usage_reason_en: With no product description, documentation, or user feedback, it is impossible to explain
     which step it removes or which verifiable result it improves versus the old approach, so no reason
     for choosing it can be stated.
+- id: req-full-deepseek-recipe-2026-09-19
+  project_slug: deepseek-recipe
+  level: full
+  reviewed_at: '2026-09-19T00:52:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据仅有仓库星标从322增至341，既无产品说明、文档，也无用户任务、痛点与现有替代的描述，连它解决什么需求都写不出来，故无法形成价值判断。
+    evidence_ids:
+    - ev-44b4d19a4b6d689c
+    - ev-a34acc5debacb92a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/deepseek-ai/deepseek-recipe 的 README、release 与 issue/discussion，确认其声明的输入、动作与交付结果，以及是否出现真实使用反馈。
+  market: ''
+  job: 公开材料只给出仓库名与星标数，未说明谁在什么情况下、处理什么材料、要完成什么任务；无法还原具体工作流。
+  job_en: Public materials provide only a repository name and star counts, with no description of who,
+    in what situation, handling what material, completes what task; the workflow cannot be reconstructed.
+  pain: 没有任何公开事实说明用户遇到的具体痛点、发生频率或不解决的后果；星标增长只反映关注度，不是痛点证据。
+  pain_en: No public fact describes the specific pain, its frequency, or the consequence of leaving it
+    unsolved; star growth reflects attention, not pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成同类工作，也未说明该仓库替代了哪一步旧流程。
+  current_alternative_en: Public materials do not show how users currently complete comparable work, nor
+    which prior step this repository replaces.
+  usage_reason: 无法判断用户为何选择它：既无产品说明、文档或使用反馈，也无从对比旧做法的具体动作差异；星标数不能解释选择动机。
+  usage_reason_en: 'Why users would choose it cannot be judged: there is no product description, documentation,
+    or usage feedback to compare against the old approach; star counts cannot explain choice motivation.'

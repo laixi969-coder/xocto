@@ -78,3 +78,57 @@
   usage_reason: 用户要完成的任务是：企业研发团队的 AI 编码工具治理负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI coding tool governance owner in enterprise engineering teams Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-cody-platform-2026-09-19
+  project_slug: cody-platform
+  level: full
+  reviewed_at: '2026-09-19T00:52:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业把编码 agent 接入内部仓库时的治理需求：人审、统一权限、事务性写入与审计缺一不可，否则越权改动与不可追溯写入会阻断 agent 进入正式研发流程；公开仓库说明已能还原输入、动作与交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+    - ev-f8d8789b9de30f88
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 82 增至 87，说明开发者注意到该项目，但公开材料没有目标治理负责人的评价、部署记录或持续使用证据，无法判断共识卡在感知还是场景落地。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+    - ev-f8d8789b9de30f88
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径；作为开源参考实现，钱可能来自企业自建改造或后续商业支持，这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+  - gate: truth
+    status: insufficient
+    reason: 项目自述为单机参考实现，公开材料未给出部署文档、可复现运行结果或人工与安全边界的验证，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+    - ev-f8d8789b9de30f88
+  next_validation: 追踪 cody-platform 仓库的 README、部署文档与 issue/discussion，确认是否有企业团队公开描述其接入内部仓库、替代原有审批或 CI
+    流程的具体部署记录。
+  market: ''
+  job: 企业研发团队的 AI 编码工具治理负责人，在把编码 agent 接入内部代码仓库与 CI 流程时，需要让 agent 的每次改动都经过人审、统一权限校验、事务性写入和审计留痕，从而在可控前提下跑通一条可复现的
+    agent 工作流。
+  job_en: An AI coding tool governance owner in an enterprise engineering team, when wiring a coding agent
+    into internal repositories and CI, must route every agent change through human review, unified permission
+    checks, transactional writes, and audit logging so the agent workflow can run under control.
+  pain: 编码 agent 直接写仓库会带来越权改动、半途失败留下脏状态、事后无法追溯谁批准了哪次写入等问题；治理负责人若没有一条把审批、权限、事务与审计串起来的链路，就只能靠人工盯守或干脆禁止 agent
+    触碰生产仓库，agent 的产出无法进入正式研发流程。
+  pain_en: A coding agent writing directly to repositories risks unauthorized changes, half-finished dirty
+    state, and no trace of who approved which write; without a chain linking approval, permissions, transactions,
+    and audit, the governance owner must either babysit the agent or ban it from production repos, so
+    agent output never enters the formal development flow.
+  current_alternative: 当前替代方式包括：让 agent 只产出补丁由人工复制提交、用 CI 分支保护加人工 review 兜底、或直接禁用 agent 写权限；这些做法把治理负担压回人工，缺少统一权限与事务性写入的机制保证。
+  current_alternative_en: Current alternatives include having the agent only emit patches that humans
+    copy in, relying on CI branch protection plus manual review, or disabling agent write access entirely;
+    these push governance burden back onto humans and lack mechanism-level guarantees for unified permissions
+    and transactional writes.
+  usage_reason: 推断：相较人工复制补丁或纯 CI 兜底，该项目用 LangGraph 显式状态机把审批、权限、事务性写入与审计固化为可运行流程，减少治理负责人逐次手工核对与事后补审计记录的步骤，因此需要先跑通治理链再决定是否改造内部平台的团队会选用它。
+  usage_reason_en: 'Inference: versus manually copying patches or relying on CI alone, this project encodes
+    approval, permissions, transactional writes, and audit as an explicit LangGraph state machine, cutting
+    the governance owner''s step-by-step manual checks and after-the-fact audit reconstruction, so teams
+    that want to pilot a governance chain before reworking internal platforms would choose it.'

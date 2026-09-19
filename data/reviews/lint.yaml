@@ -187,3 +187,43 @@
     items and points out violations at commit time, removing the step of maintainers comparing code against
     documents line by line; the inference is that frontend teams with an existing design system and heavy
     review load would use it before committing.
+- id: req-full-lint-2026-09-19
+  project_slug: lint
+  level: full
+  reviewed_at: '2026-09-19T00:53:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其为 Tailwind 设计系统 agent 校验器，但全部证据均为 lint 一词的词典与维基释义，未涉及该产品、用户任务或痛点，无法还原需求。
+    evidence_ids:
+    - ev-dd856bd528631afa
+    - ev-7c22b84d7110a45f
+    - ev-d8f14127a0316e7d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库的 README、规则示例与 issue/discussion，确认其是否真实存在并说明规则编写方式与校验流程。
+  market: ''
+  job: 前端工程师或设计系统维护者在提交组件代码时，需要处理 Tailwind 类名与团队设计规范，确认改动是否符合设计系统规则。
+  job_en: A frontend engineer or design-system maintainer committing component code needs to work through
+    Tailwind class names and team design rules to confirm the change matches the design system.
+  pain: 公开证据中没有任何用户抱怨、workaround 或客户案例说明设计规范核对带来的具体痛点，无法确认痛点刚性。
+  pain_en: The public evidence contains no user complaints, workarounds, or customer cases describing
+    the specific pain of checking design-system rules, so the rigidity of the pain cannot be confirmed.
+  current_alternative: 公开材料未记录当前替代方式，只能推测为人工 code review 或通用 lint 规则，但无证据支持。
+  current_alternative_en: The public material records no current alternative; manual code review or generic
+    lint rules can only be conjectured, without supporting evidence.
+  usage_reason: 缺少用户反馈或客户案例，无法说明相较旧做法减少了哪一步负担，因此无法解释用户为何选择它。
+  usage_reason_en: With no user feedback or customer cases, it is impossible to explain which step of
+    burden it removes versus the old approach, and therefore why users would choose it.

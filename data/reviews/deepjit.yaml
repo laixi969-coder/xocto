@@ -340,3 +340,53 @@
     removing the step of building and maintaining a compilation chain for each accelerator; teams deploying
     inference across multiple xPUs who do not want to own a compiler stack would therefore pick it when
     onboarding new hardware. Stars rising from 208 to 324 shows attention only, not a reason to ch'
+- id: req-full-deepjit-2026-09-19
+  project_slug: deepjit
+  level: full
+  reviewed_at: '2026-09-19T00:52:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在非英伟达 xPU 上部署推理时，需为每种加速卡手写并维护内核编译流程的需求；痛点在于多卡适配的重复维护成本，不解决的后果是推理无法在该硬件上跑通或需自建编译管线。这是基于工作流结构的推理，非用户口述；公开材料仅给出轻量级
+      xPU 内核 JIT 编译库这一事实。
+    evidence_ids:
+    - ev-bef540873eff4f0e
+    - ev-a4786bc8c749798e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 300 增至 327，说明开发者社区有关注，但收藏与排名只属关注度证据，不能证明目标用户已持续采用或形成强场景共识；公开材料未见 issue、discussion 或客户案例说明谁在何种场景使用。
+    evidence_ids:
+    - ev-bef540873eff4f0e
+    - ev-0d2d50eb3bdf9419
+  - gate: model
+    status: insufficient
+    reason: 这是开源库，公开材料未见定价页、付费路径或买方信息；钱可能来自 to B 的工程团队自建或云厂商集成，也可能纯靠开源维护，属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-bef540873eff4f0e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、可复现实测或支持的硬件清单，无法核验编译结果能否确定性交付、覆盖哪些 xPU，以及人工与安全边界；交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-bef540873eff4f0e
+    - ev-7d03e6ac8c72869e
+  next_validation: 追踪 DeepJIT 仓库的 README/文档与 issue、discussion，确认其声明支持的 xPU 硬件清单、部署方式与可复现的编译交付结果。
+  market: ''
+  job: 在非英伟达加速卡（xPU）上部署推理的工程团队，拿到算子/内核代码后，需要在运行时完成即时编译，产出可直接调用的编译结果，以便把模型跑在该类硬件上。
+  job_en: Engineering teams deploying inference on non-NVIDIA accelerators (xPU) take kernel code and
+    need just-in-time compilation at runtime, producing callable compiled output so the model runs on
+    that hardware.
+  pain: 公开材料只说明它是轻量级 xPU 内核 JIT 编译库；痛点强度、发生频率与不采用的具体代价尚无用户材料佐证，只能从“每种 xPU 需各自维护编译流程”这一工作流结构推断摩擦存在。
+  pain_en: Public materials only describe it as a lightweight xPU kernel JIT compilation library; pain
+    intensity, frequency and the concrete cost of not adopting it lack user evidence and are inferred
+    from the workflow structure of maintaining a separate compilation pipeline per xPU.
+  current_alternative: 公开材料未说明用户当前如何完成该工作；结构上可推断的旧做法是为每种 xPU 手写并维护各自的内核编译流程，或依赖厂商自带工具链。
+  current_alternative_en: Public materials do not show how users do this today; the structurally inferable
+    alternative is hand-writing and maintaining a separate kernel compilation pipeline per xPU, or relying
+    on vendor toolchains.
+  usage_reason: 推断：相较逐卡手写编译流程，它把内核代码的即时编译收敛为一个轻量库调用，减少为每种 xPU 单独维护编译管线这一步负担；因此需要在非英伟达卡上快速跑通推理的工程团队会在该场景下选择它。公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus hand-writing a compilation pipeline per card, it collapses JIT compilation
+    of kernel code into a lightweight library call, removing the burden of maintaining a separate pipeline
+    per xPU; teams needing to get inference running quickly on non-NVIDIA cards would choose it in that
+    situation. No public user feedback or case yet confirms this motive.'

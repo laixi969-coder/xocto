@@ -24,7 +24,7 @@ summary: 'On Wednesday, MIT Technology Review hosted a live Roundtables event fo
   Douglas Heaven and…'
 first_seen: '2026-09-18T11:29:22Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

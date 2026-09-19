@@ -43,7 +43,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPMUpHQV8zVUtY
 summary: AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says Bloomberg.com
 first_seen: '2026-09-11T18:03:31Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - hackernews

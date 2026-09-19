@@ -192,3 +192,81 @@
     content, users might choose it to avoid sending sensitive material to the cloud; however, public material
     does not say which manual step it replaces and offers no retention or repeat-use evidence, so the
     motivation cannot be verified.'
+- id: req-initial-workflo-2026-09-19
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-09-19T00:21:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地自动化与隐私的冲突，但材料未说明替代哪一步旧操作、不做的后果是什么，需求结构无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且社区讨论只反映关注度，不能说明持续采用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，公开材料也未说明买方与收费方式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对交付是否确定发生及人工边界。
+    evidence_ids: []
+  next_validation: 收集 Workflo 官方产品页或文档，确认它接收的输入、执行的具体动作与交付结果。
+  market: ''
+  job: Mac 用户在处理含敏感信息的界面材料时，希望把重复的点击与录入步骤交给本地自动化完成，而不把屏幕内容外传。
+  job_en: A Mac user handling on-screen material with sensitive information wants repetitive clicking
+    and data entry handled by local automation without sending screen content off the machine.
+  pain: 公开材料只给出“看不到你的屏幕”这一句，未说明用户原来卡在哪一步、耗时多久、出错代价是什么，痛点无法从现有事实还原。
+  pain_en: The public material only offers the line 'never sees your screen' and does not say which step
+    users were stuck on, how long it took, or what errors cost, so the pain cannot be reconstructed from
+    available facts.
+  current_alternative: 现有替代可能是系统自带快捷指令、AppleScript 或通用 RPA 工具，但候选材料未提供任何对比事实。
+  current_alternative_en: The likely alternatives are built-in Shortcuts, AppleScript, or general RPA
+    tools, but the candidate material provides no comparison facts.
+  usage_reason: 无法判断：材料未说明它通过哪个具体动作减少哪一步负担，也未给出可核对的结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which concrete action reduces which step''s
+    burden, nor any checkable result, so it cannot explain why a user would choose it.'
+- id: req-full-workflo-2026-09-19
+  project_slug: workflo
+  level: full
+  reviewed_at: '2026-09-19T00:55:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地自动化与隐私外传的冲突，但公开材料未说明接收什么输入、替代哪一步旧操作、不做的后果，需求结构无法还原。
+    evidence_ids:
+    - ev-960707c866939967
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Workflo 官方产品页或文档，确认其接收的输入、执行的具体动作与交付结果。
+  market: ''
+  job: Mac 用户在处理含敏感信息的屏幕材料（如内部报表、客户资料）时，希望把重复的点击、录入与窗口切换交给本地自动化执行，且不把屏幕内容上传到外部服务。
+  job_en: A Mac user working with sensitive on-screen material (internal reports, client data) wants repetitive
+    clicking, data entry and window switching handled by local automation without uploading screen content
+    to an external service.
+  pain: 公开材料只有一句“看不到你的屏幕”，没有说明用户原来卡在哪一步、重复操作耗时多少、出错或数据外泄的代价是什么，痛点无法从现有事实还原。
+  pain_en: The public material offers only the line 'never sees your screen'; it does not say which step
+    users were stuck on, how much time repetition cost, or what errors or data leakage would cost, so
+    the pain cannot be reconstructed from available facts.
+  current_alternative: 可能替代是 macOS 快捷指令、AppleScript、Keyboard Maestro 或通用 RPA 工具，但候选材料未提供任何对比事实。
+  current_alternative_en: Likely alternatives are macOS Shortcuts, AppleScript, Keyboard Maestro or general
+    RPA tools, but the candidate material provides no comparison facts.
+  usage_reason: 无法判断：材料未说明它通过哪个具体动作减少哪一步负担，也未给出可核对的结果，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which concrete action reduces which step''s
+    burden, nor any checkable result, so it cannot explain which users would choose it and when.'

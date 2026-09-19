@@ -93,3 +93,48 @@
     deployment, letting enterprises skip the integration and operations of model access and permission
     components, giving teams that cannot let data leave the intranet yet need multi-department Agent use
     a reason to choose it; no deployment docs or customer cases yet corroborate this causal chai'
+- id: req-full-movo-2026-09-19
+  project_slug: movo
+  level: full
+  reviewed_at: '2026-09-19T00:53:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决企业自托管 Agent 的权限与多任务问题，但全部公开证据指向摄影音频器材品牌 Movo，既无目标用户任务，也无痛点与旧替代，连需求本身都无法还原。
+    evidence_ids:
+    - ev-bde5aa25bf4b7463
+    - ev-20e2e5601a2a7eca
+    - ev-971c95ea59315960
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 Agent 平台自身的官方仓库或官网，确认其部署文档、权限治理说明与真实客户案例，以区分它与同名摄影器材品牌 Movo。
+  market: ''
+  job: 待核验：候选摘要称企业团队在自建部署环境中让内部人员用 Agent 做知识检索、深度研究、内容生成、代码生成与浏览器自动化，但公开证据全部指向摄影音频器材品牌 Movo，无法还原谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: 'Unverified: the candidate summary describes enterprise teams running knowledge retrieval, deep
+    research, content generation, code generation and browser automation on a self-hosted Agent platform,
+    but all public evidence points to the photo/audio gear brand Movo, so who does what, on which material,
+    and to what end cannot be reconstructed.'
+  pain: 公开材料只描述摄影麦克风与配件对智能手机创作者的兼容性，没有任何关于企业 Agent 部署、权限治理或内部流程摩擦的用户痛点证据，因此无法写出该产品要缓解的具体痛点。
+  pain_en: Public material only describes camera-microphone and accessory compatibility for smartphone
+    creators; there is no user-pain evidence about enterprise Agent deployment, permission governance
+    or internal workflow friction, so no concrete pain can be stated.
+  current_alternative: 公开材料显示创作者目前用手机配合 Movo 麦克风与配件完成录音录像，与企业自托管 Agent 平台所声称替代的旧做法（公有云模型接口或自建开源模型加权限系统）完全对不上。
+  current_alternative_en: Public material shows creators using phones with Movo microphones and accessories
+    for recording, which does not match the old approach the self-hosted Agent platform claims to replace
+    (public cloud model APIs or self-assembled open-source models plus permission systems).
+  usage_reason: 无法给出使用理由：现有证据指向的是摄影器材购买行为，而非企业 Agent 平台的采用动机，缺少任何可归因到该产品的用户反馈、部署记录或使用场景，因此不能推断用户为何选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence points to photo-gear purchasing behaviour,
+    not adoption of an enterprise Agent platform, and there is no product-attributable user feedback,
+    deployment record or usage scenario from which to infer why anyone would choose it.'

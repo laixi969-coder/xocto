@@ -434,3 +434,55 @@
     in read-only mode, which AI clients call directly, removing the per-account export and reformatting
     step; self-hosting and read-only design address the reluctance to hand account data to cloud aggregators.
     European individuals and developers who value data autonomy and already use MCP clien
+- id: req-full-bankmcp-2026-09-19
+  project_slug: bankmcp
+  level: full
+  reviewed_at: '2026-09-19T00:51:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让本地 AI 助手直接读取本人银行账户的只读流水，痛点是默认模型看不到真实账户数据、只能手工导出再粘贴且数据外流；不解决的后果是核对资产仍靠人工搬运。公开事实仅说明自托管只读
+      MCP 与开放银行接入，痛点与替代流程属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-00c29246106e75f4
+    - ev-ead16c4ce6933a8d
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实只有仓库收藏数从 214 缓慢升至 238，属关注度而非持续采用；没有 issue、discussion 或用户评价说明谁在何种场景反复使用，因此无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-00c29246106e75f4
+    - ev-d4067bfb248ec335
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径，无法判断钱来自 to C 订阅、to B 授权还是 to VC；这是判断而非已验证事实，不因此否定需求本身。
+    evidence_ids:
+    - ev-00c29246106e75f4
+  - gate: truth
+    status: insufficient
+    reason: 自托管只读与开放银行授权在结构上贴近“让 AI 看账”的第一性目标，但公开材料未给出部署文档、授权失败处理或安全边界说明，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-00c29246106e75f4
+    - ev-9de1b35f2c2d951c
+  next_validation: 追踪 BankMCP 官方仓库的 README、部署文档与 issue/discussion，确认实际部署者、支持的银行范围与授权失败处理方式。
+  market: ''
+  job: 个人用户或独立开发者在自己电脑上运行本地 AI 助手（Claude、Ollama）时，需要让助手读取本人银行账户的余额与交易流水，以便在对话中核对资产明细、整理收支，而不必手工导出对账单再粘贴。
+  job_en: An individual or indie developer running a local AI assistant (Claude, Ollama) needs the assistant
+    to read their own bank account balances and transactions so they can reconcile assets and organize
+    spending inside the chat, instead of manually exporting statements and pasting them in.
+  pain: 公开材料只说明这是自托管、只读的开放银行 MCP 服务，未提供用户抱怨或案例；从工作流结构推理，痛点是 AI 助手默认看不到真实账户数据，用户只能手工导出 CSV 或截图再喂给模型，步骤繁琐且数据离开本地。
+  pain_en: Public materials only describe a self-hosted, read-only open-banking MCP server and provide
+    no user complaints or cases; by workflow inference, the pain is that AI assistants cannot see real
+    account data by default, forcing users to export CSVs or screenshots and feed them in manually, which
+    is tedious and moves data off the local machine.
+  current_alternative: 旧做法是登录网银或银行 App 手工导出对账单/CSV，再粘贴或上传给 AI 对话；或直接放弃让 AI 接触真实流水，只凭记忆提问。
+  current_alternative_en: The old approach is logging into online banking or the bank app to export statements/CSV
+    and then pasting or uploading them into the AI chat, or giving up on letting the AI touch real transactions
+    and asking from memory.
+  usage_reason: 推断：相较手工导出再粘贴，它通过标准 MCP 协议让本地 AI 客户端直接以只读方式调用开放银行接口（Enable Banking），省去导出与上传这一步，并让数据留在自托管环境；因此在意数据不出本机、又想让
+    Claude/Ollama 直接查账的开发者会在需要核对流水时选择它。
+  usage_reason_en: 'Inference: versus manual export-and-paste, it lets the local AI client call the open-banking
+    API (Enable Banking) read-only through the standard MCP protocol, removing the export/upload step
+    and keeping data in a self-hosted environment; developers who care about data staying local yet want
+    Claude/Ollama to query accounts directly would choose it when reconciling transactions.'

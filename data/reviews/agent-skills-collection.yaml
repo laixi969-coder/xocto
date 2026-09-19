@@ -419,3 +419,42 @@
     and integration, developers might try it to skip one integration step; but public evidence is only
     attention signals such as 209 stars and 4 forks, which neither explain the choice nor prove repeat
     use, while the disable-antivirus and admin-privilege install adds trust cost.'
+- id: req-full-agent-skills-collection-2026-09-19
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-09-19T00:51:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README 与 release 说明，确认安装流程是否仍要求关闭杀毒或管理员权限，以及是否提供无需提权的标准包管理安装方式。
+  market: ''
+  job: 开发者或 AI 助手使用者想给本地 LLM agent 增加模块化技能，在拿到一个技能集合后，需要把技能装进自己的 agent 环境并让它可被调用。
+  job_en: Developers or AI-assistant users want to add modular skills to a local LLM agent; after obtaining
+    a skill collection they must install the skills into their agent environment and make them callable.
+  pain: 公开摘要显示安装环节要求关闭杀毒软件并以管理员权限运行安装包，这本身制造了安全与信任负担，而不是消除原有摩擦；用户为装技能反而要承担系统风险。
+  pain_en: The public summary says installation requires disabling antivirus and running a setup file
+    as administrator, which creates a security and trust burden instead of removing friction; users take
+    on system risk just to add skills.
+  current_alternative: 用户可直接手写 prompt、函数调用或使用 agent 框架自带的工具注册机制，无需关闭杀毒或提权安装。
+  current_alternative_en: Users can hand-write prompts, function calls, or use the tool-registration mechanisms
+    built into agent frameworks, without disabling antivirus or elevated installs.
+  usage_reason: 推断：只有愿意接受关杀毒、提权安装这类代价的开发者才可能试用；相较直接写 prompt 或框架自带工具注册，它并未减少步骤，反而增加安全负担，因此缺少让用户选择它的因果理由。
+  usage_reason_en: 'Inference: only developers willing to accept disabling antivirus and elevated installs
+    might try it; versus writing prompts directly or using built-in tool registration, it adds steps and
+    security burden rather than reducing them, so there is no causal reason for users to choose it.'

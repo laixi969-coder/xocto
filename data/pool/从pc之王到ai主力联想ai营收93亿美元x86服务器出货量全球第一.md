@@ -1,6 +1,6 @@
 ---
 slug: 从pc之王到ai主力联想ai营收93亿美元x86服务器出货量全球第一
-name: 从PC之王到AI主力：联想AI营收93亿美元，x86服务器出货量全球第一
+name: 联想集团
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBHRVJvQTZyUDVa
 summary: 从PC之王到AI主力：联想AI营收93亿美元，x86服务器出货量全球第一 凤凰网科技
 first_seen: '2026-09-18T13:14:20Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 从PC之王到AI主力：联想AI营收93亿美元，x86服务器出货量全球第一
+# 联想集团
 
 从PC之王到AI主力：联想AI营收93亿美元，x86服务器出货量全球第一 凤凰网科技
 

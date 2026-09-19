@@ -116,3 +116,48 @@
   usage_reason: 用户要完成的任务是：软件工程师、AI 应用开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software engineer, AI application developer Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-pix-2026-09-19
+  project_slug: pix
+  level: full
+  reviewed_at: '2026-09-19T00:54:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI agent 线性会话无法并行比较方案、回退即丢上下文的痛点；旧做法是手动复制上下文另开会话，不解决的后果是重复劳动与方案对比成本高。交付闭环（分叉—上下文跟随）在仓库说明中可还原，属工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-11b01c030f76f0ac
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 145 星说明开发者社区已注意到该项目，但公开材料没有用户反馈、issue 讨论或持续使用记录，关注度不能等同于采用。
+    evidence_ids:
+    - ev-11b01c030f76f0ac
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费主体或单位经济，谁付钱尚不可知；这是模式缺口，不否定需求本身。
+    evidence_ids:
+    - ev-11b01c030f76f0ac
+  - gate: truth
+    status: insufficient
+    reason: 分支树与上下文跟随能否在长任务中确定性交付、人工确认与安全边界如何设定，公开材料未给出可复现证据。
+    evidence_ids:
+    - ev-11b01c030f76f0ac
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认实际使用者在何种编码任务中部署、替代了哪种线性会话流程。
+  market: ''
+  job: 软件工程师或 AI 应用开发者在用 AI agent 处理多步骤编码或调研任务时，把一次会话交给 PiX，在任意节点分叉并让上下文跟随分支，从而并行探索不同实现方案。
+  job_en: A software engineer or AI app developer running a multi-step coding or research task with an
+    AI agent hands the session to PiX, branches at any node with context following the branch, and explores
+    alternative approaches in parallel.
+  pain: 线性会话里一旦走错方向或想比较两种方案，只能回退重开或复制上下文，之前的推理链和中间结果被丢弃，多方案对比成本高。
+  pain_en: In a linear session, once a direction goes wrong or two approaches need comparing, the user
+    must rewind, restart, or copy context, discarding the prior reasoning chain and intermediate results,
+    making multi-approach comparison costly.
+  current_alternative: 现在多数人用单线程 AI 编码助手（如 Cursor、Claude Code 等）的线性会话，靠手动复制粘贴或另开会话来模拟分支。
+  current_alternative_en: Most people today use the linear session of a single-thread AI coding assistant
+    (e.g. Cursor, Claude Code) and simulate branching by manually copying context or opening separate
+    sessions.
+  usage_reason: 推断：相较手动复制上下文另开会话，PiX 把会话本身组织成树，分叉时上下文自动跟随该分支，省掉重建上下文的步骤，因此需要并行比较多套实现方案的开发者会在探索阶段选择它。
+  usage_reason_en: 'Inference: versus manually copying context into a new session, PiX organizes the session
+    itself as a tree so context follows the branch automatically, removing the context-rebuilding step,
+    so developers comparing multiple implementation approaches would choose it during exploration.'

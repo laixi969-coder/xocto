@@ -22,7 +22,7 @@ summary: A curated, source-backed list of projects built with Jev, TypeSafe AI's
   typed decisions.
 first_seen: '2026-09-18T10:12:18Z'
 last_seen: '2026-09-19T00:21:19Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

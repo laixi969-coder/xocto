@@ -339,3 +339,56 @@
     as input and has the agent generate a single index.html motion page inside the editor, skipping manual
     keyframing and video export; thus designers or producers with a script who want a fast browser-playable
     motion page would choose it for quick openers or explainer pages.'
+- id: req-full-bang-motion-2026-09-19
+  project_slug: bang-motion
+  level: full
+  reviewed_at: '2026-09-19T00:51:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是已有脚本后快速产出片头、宣传片、讲解视频动效页面的需求，痛点是手工在 AE/PR 搭时间轴、调关键帧、导出视频的反复返工；公开说明给出输入（文案/脚本）、动作（agent
+      生成）与交付（单个 index.html），属工作流结构推理，痛点刚性与交付确定性尚待用户材料佐证。
+    evidence_ids:
+    - ev-806575157379ab7d
+    - ev-edc67f509dbcd2ee
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 197 增至 390，说明开发者社区持续关注，但收藏与环比只属关注度证据，不能证明目标制作人员已把它留在工作流；公开材料没有用户评价、案例或重复使用记录，卡在感知与场景验证一环。
+    evidence_ids:
+    - ev-806575157379ab7d
+    - ev-e922f9b9b7d61d34
+  - gate: model
+    status: insufficient
+    reason: 这是开源 agent skill，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者或 to B 团队，但均属判断而非已验证事实；无融资叙事，不构成每日优鲜风险，但付费路径尚未核验。
+    evidence_ids:
+    - ev-806575157379ab7d
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺单文件 index.html 输出，但未提供可复现的生成质量、可编辑程度、渲染稳定性或人工与安全边界证据，交付能否确定性发生仍缺公开材料支撑。
+    evidence_ids:
+    - ev-806575157379ab7d
+    - ev-edc67f509dbcd2ee
+  next_validation: 追踪 bang-motion 仓库的 issue、discussion 与 README 更新，确认是否有用户公开报告实际生成的 index.html 交付质量、可编辑程度与重复使用场景。
+  market: ''
+  job: 动态设计师或短视频/宣传片制作人员在已有文案或脚本的情况下，把内容交给这个 agent skill，在 Claude Code、Codex、Gemini CLI 或 Cursor 中生成可在浏览器播放的片头、宣传片、bumper、动态字体或讲解视频页面，最终交付一个
+    index.html 文件。
+  job_en: A motion designer or short-video/promo producer with an existing script hands the content to
+    this agent skill inside Claude Code, Codex, Gemini CLI or Cursor to generate a browser-playable opener,
+    promo, bumper, kinetic-typography or explainer page, delivering a single index.html file.
+  pain: 公开说明只给出功能定位，未提供用户抱怨或案例；从工作流结构推理，旧做法要在 After Effects 或 Premiere 中手工搭时间轴、调关键帧、导出视频，脚本到成片之间反复返工，而该
+    skill 把这一步压缩为一次生成可播放页面。
+  pain_en: The public description only states the feature; no user complaints or cases are given. By workflow
+    inference, the old path means manually building timelines and keyframes in After Effects or Premiere
+    and exporting video, with repeated rework between script and finished cut, whereas this skill compresses
+    that into one generated playable page.
+  current_alternative: 公开材料未说明用户当前替代方式；结构上对应的是 After Effects、Premiere 等手工动效与视频剪辑流程，或套用现成模板，而非由 agent 直接产出浏览器页面。
+  current_alternative_en: Public materials do not state the current alternative; structurally it corresponds
+    to manual motion-graphics and video editing in After Effects or Premiere, or reusing templates, rather
+    than an agent directly producing a browser page.
+  usage_reason: 推断：相较手工在 AE/PR 里搭时间轴再导出视频，它把脚本直接转成单个 index.html 的浏览器动效页面，省去关键帧搭建与视频导出环节，因此已有脚本、想快速拿到可播放片头或讲解页面的制作人员会在需要快速出稿时选择它；公开材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus manually building timelines in AE/PR and exporting video, it turns
+    a script directly into a single index.html browser motion page, skipping keyframe construction and
+    video export, so producers with a ready script who want a playable opener or explainer quickly would
+    choose it; public materials provide no user feedback or retention evidence.'

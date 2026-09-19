@@ -260,3 +260,45 @@
   usage_reason_en: A public record shows 39.81M mau and 10.79% month-over-month growth. That explains
     the attention, but product-level retention and payment are not verified, so this does not explain
     why users choose it.
+- id: req-full-claude-by-anthropic-2026-09-19
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-09-19T00:52:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方定价页与客户案例页，确认 Claude 的付费档位、企业采购记录及公开披露的交付结果。
+  market: ''
+  job: 开发者、写作者与研究人员在写代码、长文写作和复杂推理时，把材料交给 Claude 对话助手，要求它产出可用的代码、文稿或推理结论。
+  job_en: Developers, writers, and researchers hand material to the Claude chat assistant for coding,
+    long-form writing, and hard reasoning, expecting usable code, drafts, or conclusions.
+  pain: 公开材料未直接给出用户抱怨；从工作流结构推理，这类任务原本依赖人工检索、逐段起草与反复校对，长文与复杂推理的返工成本高，但具体频率与代价属推断而非用户口述。
+  pain_en: Public materials give no direct user complaints; by workflow inference these tasks otherwise
+    rely on manual search, drafting, and repeated proofreading, with high rework cost on long writing
+    and hard reasoning, though frequency and cost are inferred, not user-stated.
+  current_alternative: 结构上可推断的旧做法是搜索引擎加人工整理、自己逐段起草，或使用其他通用对话助手；公开材料未说明用户实际替换了什么。
+  current_alternative_en: The structurally inferable alternative is search plus manual assembly, drafting
+    by hand, or another general chat assistant; public materials do not state what users actually replace.
+  usage_reason: 推断：相较搜索加人工起草再逐段校对，它把长文与复杂推理的初稿和代码生成收进一次对话，减少从零起草这一步，因此需要处理长材料或难推理任务、又要求输出可直接使用的开发者与写作者会在该场景选择它；39.81M
+    MAU 与 10.79% 环比只说明规模与关注度，不解释选择原因，也不证明留存。
+  usage_reason_en: 'Inference: versus search plus manual drafting and line-by-line proofreading, it folds
+    first drafts of long writing and code generation into one conversation, removing the from-scratch
+    drafting step, so developers and writers handling long material or hard reasoning who need directly
+    usable output would choose it in that situation; 39.81M MAU and 10.79% MoM show scale and attention
+    only, not the reason for choosing it or retention.'

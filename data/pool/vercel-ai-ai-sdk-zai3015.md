@@ -22,7 +22,7 @@ summary: "### Patch Changes\n\n- Updated dependencies [2973485]\n- Updated depen
   \ dependencies [2937ea2]\n  - @ai-sdk/provider-utils@5.0.45\n  - @ai-sdk/openai-compatible@3.0.53"
 first_seen: '2026-09-18T22:33:55Z'
 last_seen: '2026-09-19T00:21:19Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

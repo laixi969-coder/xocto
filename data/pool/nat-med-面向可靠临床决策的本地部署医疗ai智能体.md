@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pclhZN3c0OEU1
 summary: Nat. Med. | 面向可靠临床决策的本地部署医疗AI智能体 智源社区
 first_seen: '2026-09-18T08:30:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

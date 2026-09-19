@@ -80,3 +80,46 @@
   usage_reason: 用户要完成的任务是：AI 应用开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI application developer Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-autobot-2026-09-19
+  project_slug: autobot
+  level: full
+  reviewed_at: '2026-09-19T00:51:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决开发者等待长任务时只能守在终端手动输入的问题，但公开证据全部指向变形金刚角色与同名网络安全平台，没有任何可归因到该产品的用户任务、痛点或旧替代行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-d3f8bb61170f47a3
+    - ev-ac8385ec769027ea
+    - ev-095e8de8de728036
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库（如 公开代码仓库 repo、README、issue/discussion）中关于语音指令与长任务进程对接的部署文档与可复现实测记录，确认其真实产品形态。
+  market: ''
+  job: 开发者（AI 应用开发者）在运行耗时较长的 AI 任务时，打开该工具，用语音对正在执行的任务下达控制指令，以完成对长任务的实时干预与调度。
+  job_en: A developer (AI application developer) running a long-duration AI task opens the tool and issues
+    voice control commands to the in-flight task, in order to intervene in and steer a long-running job
+    in real time.
+  pain: 公开材料未提供任何用户痛点、抱怨或既有替代行为的证据；现有证据全部指向变形金刚角色或同名网络安全平台，无法说明长任务等待期间的具体摩擦。
+  pain_en: Public materials provide no user pain, complaint, or existing workaround evidence; all available
+    evidence points to Transformers characters or a same-named cybersecurity platform, so the specific
+    friction of waiting on long tasks cannot be established.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently complete this job or what prior
+    practice it replaces.
+  usage_reason: 无法给出使用理由：现有证据与所述语音控制长任务的产品能力不对应，缺少任何可归因到该产品的用户反馈或采用事实，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the available evidence does not correspond to the described
+    voice-control-of-long-tasks capability, and there is no product-attributable user feedback or adoption
+    fact, so it is impossible to explain which users would choose it and when.'

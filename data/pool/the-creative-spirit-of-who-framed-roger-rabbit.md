@@ -27,7 +27,7 @@ summary: "The Creative Spirit of Who Framed Roger Rabbit   \nI love  Who Framed 
   \   \n\n\n     Tags:  animation ,  film ,  pelican-riding-a-bicycle"
 first_seen: '2026-09-18T14:36:41Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

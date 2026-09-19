@@ -228,3 +228,52 @@
     aggregation and disagreement-sorting step; developers who need an auditable conclusion without building
     their own multi-model orchestration would choose it for technical selection or design review. No user
     feedback is public, so continued use is unverified.'
+- id: req-full-dsh-council-2026-09-19
+  project_slug: dsh-council
+  level: full
+  reviewed_at: '2026-09-19T00:52:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型结论难以核对、单模型答案不可追溯的需求，痛点是人工逐个提问比对成本高且无留痕；公开说明已给出独立作答、匿名互评、可查看最终决策的完整闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-3d934bda9143ab34
+    - ev-0f3e4cd2ed02997a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 72 增至 146 属开源关注度，只能说明有人关注，不能证明开发者已把它纳入日常决策流程；无 issue、讨论或评价显示持续使用。
+    evidence_ids:
+    - ev-3d934bda9143ab34
+    - ev-2f5ea8443c01068a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或付费路径，钱可能来自个人开发者自用或团队采购，属判断而非已验证事实；开源仓库本身不构成收入证据。
+    evidence_ids:
+    - ev-3d934bda9143ab34
+  - gate: truth
+    status: insufficient
+    reason: 多模型匿名互评是否真能提高结论可靠性、人工在何处介入，公开材料未给出可核对结果；匿名互评也可能放大同源模型偏差，交付确定性未被验证。
+    evidence_ids:
+    - ev-3d934bda9143ab34
+    - ev-5d6006ef28fd2f8e
+  next_validation: 追踪该 公开代码仓库 仓库的 README 与 issue/discussion，确认实际接收的问题类型、输出结论形态，以及是否有使用者报告在真实决策中采用。
+  market: ''
+  job: 开发者或分析人员在需要对某个问题给出高置信度结论时，把同一问题交给多个模型独立作答，再由模型匿名互评，最后人工查看可追溯的决策依据并自行决定是否采纳。
+  job_en: A developer or analyst needing a high-confidence conclusion on a question sends it to multiple
+    models for independent answers, has the models peer-review anonymously, then manually inspects the
+    traceable decision basis and decides whether to adopt it.
+  pain: 单一模型给出的答案难以核对，用户无法判断结论是稳定共识还是单次采样偏差；要自己逐个模型提问再人工比对，汇总成本高且过程不可追溯。
+  pain_en: 'A single model''s answer is hard to verify: the user cannot tell whether it is a stable consensus
+    or one sampling artifact, and querying each model separately then comparing by hand is costly and
+    leaves no traceable process.'
+  current_alternative: 现有做法是分别向多个模型提问并人工比对答案，或直接采信单一模型的回答。
+  current_alternative_en: The current practice is to query several models separately and compare the answers
+    by hand, or simply trust one model's answer.
+  usage_reason: 推断：相较人工逐个模型提问再比对，它把独立作答、匿名互评和最终结论串成一次可查看的流程，省去手工汇总与逐条对照这一步，并让结论依据可被复查；因此需要为高风险判断留痕的开发者或分析人员会在做重要结论时选择它。公开材料尚无用户反馈或采用证据，持续使用未被证实。
+  usage_reason_en: 'Inference: versus querying each model manually and comparing, it chains independent
+    answers, anonymous peer review and a final conclusion into one inspectable flow, removing the manual
+    aggregation and line-by-line comparison step and making the basis reviewable; developers or analysts
+    who need an auditable trail for high-stakes judgments would therefore pick it. There is no user feedback
+    or adoption evidence yet, so continued use is unproven.'

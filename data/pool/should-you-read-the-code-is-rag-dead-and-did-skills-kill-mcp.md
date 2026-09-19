@@ -23,7 +23,7 @@ summary: "We dive into these questions and other AI hot takes on the latest epis
   \ GitHub Blog ."
 first_seen: '2026-09-18T15:00:00Z'
 last_seen: '2026-09-19T00:21:44Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

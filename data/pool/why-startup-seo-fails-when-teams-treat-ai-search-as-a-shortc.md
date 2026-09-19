@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNX0RGTU9zcG9w
 summary: Why Startup SEO Fails When Teams Treat AI Search as a Shortcut OfficeChai
 first_seen: '2026-09-18T11:02:11Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

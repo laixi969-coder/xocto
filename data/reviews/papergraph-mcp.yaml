@@ -473,3 +473,49 @@
     from the source and emits an evidence-grounded dependency graph and reading order, offloading the
     step of cross-checking each reference; researchers and agent developers who need a traceable reading
     path would choose it when facing an unfamiliar math paper.'
+- id: req-full-papergraph-mcp-2026-09-19
+  project_slug: papergraph-mcp
+  level: full
+  reviewed_at: '2026-09-19T00:54:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学论文定理依赖难追溯、通用 LLM 易编造依据的问题，旧流程是人工回翻引用，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-aa41b7aaec985cb2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 161 增至 217，说明开发者关注度上升，但无 issue、讨论或部署记录证明目标用户持续使用。
+    evidence_ids:
+    - ev-aa41b7aaec985cb2
+    - ev-4315eb21c73fa1c4
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，谁付钱、按什么单位收费均无公开事实，属商业证据缺口。
+    evidence_ids:
+    - ev-aa41b7aaec985cb2
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称不猜测依赖，但抽取准确率、对 LaTeX 变体的覆盖与人工复核边界尚无公开可复现证据。
+    evidence_ids:
+    - ev-aa41b7aaec985cb2
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有研究者或代理开发者报告实际部署、替代的旧流程与抽取准确率反馈。
+  market: ''
+  job: 数学或理论方向的研究人员与 AI 代理开发者在读一篇 arXiv 或 LaTeX 数学论文时，处理论文源文件，要理清定理之间的依赖关系、确定阅读顺序，并把这份结构交给 AI 代理使用。
+  job_en: A mathematics or theory researcher, or an AI agent developer, reading an arXiv or LaTeX math
+    paper works from the paper source to map theorem dependencies, decide a reading order, and hand that
+    structure to an AI agent.
+  pain: 数学论文的定理依赖链藏在正文与证明里，读者要自己顺着引用往回翻，容易漏掉前置结果或误判证明依据；交给通用 LLM 又可能被编造依赖关系，需要人工复核。
+  pain_en: Theorem dependency chains are buried in the body and proofs, so readers must trace citations
+    backwards by hand, risking missed prerequisites or misread proof evidence; handing it to a general
+    LLM risks fabricated dependencies that need manual checking.
+  current_alternative: 目前多靠人工通读并手画依赖草图，或用通用 LLM 摘要，但后者不保证依赖关系有出处。
+  current_alternative_en: Today people read through manually and sketch dependencies by hand, or use a
+    general LLM summary, which does not guarantee the dependencies are grounded in the source.
+  usage_reason: 推断：相较人工通读或通用 LLM 摘要，它从论文源文件抽取结果并追溯证明依据，把依赖关系以可核对的结构输出给代理，减少人工回翻引用和复核幻觉的步骤，因此需要把论文结构喂给代理的研究者或代理开发者会在处理长数学论文时选择它。
+  usage_reason_en: 'Inference: versus manual reading or a general LLM summary, it extracts results from
+    the paper source and traces proof evidence, emitting dependencies as a checkable structure for agents,
+    cutting the steps of re-tracing citations and auditing hallucinations, so researchers or agent developers
+    feeding paper structure to agents would pick it for long math papers.'

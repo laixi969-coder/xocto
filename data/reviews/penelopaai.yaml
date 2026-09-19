@@ -499,3 +499,55 @@
     logs, generalizing rules and hand-writing prompts; developers who use Codex/Claude Code heavily and
     suffer repeated rework would therefore turn to it after sessions to generate reusable skills and checks.
     This is an inference from the product's input-action-delivery loop, not yet backed by u
+- id: req-full-penelopaai-2026-09-19
+  project_slug: penelopaai
+  level: full
+  reviewed_at: '2026-09-19T00:54:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理会话经验不沉淀、用户反复重述约束与检查项的需求，痛点来自代理会话天然无状态；旧做法是手工维护规则文件与提示词。公开材料仅给出产品说明与仓库收藏，未给频率或返工代价，故价值判断属工作流结构推理而非采用验证。
+    evidence_ids:
+    - ev-7cdcdafc90865a25
+    - ev-8234c86630015591
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 121 增至 140 后回落至 136，说明开发者社区注意到该项目，但收藏与关注度不等于持续采用；公开材料没有 issue、discussion 或用户反馈说明谁在何种场景反复使用。
+    evidence_ids:
+    - ev-7cdcdafc90865a25
+    - ev-fb605c708a20a50f
+    - ev-ce9914166dd8bcb8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断收入来自个人开发者订阅、团队席位还是开源赞助；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-7cdcdafc90865a25
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺把会话日志转化为可复用技能，但公开材料未说明集成方式、生成资产能否被 Codex/Claude Code 直接加载，以及日志中代码与密钥的安全边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-7cdcdafc90865a25
+    - ev-b073801d394e2bf3
+  next_validation: 追踪 Penelopa.ai 仓库的 README、issue 与 discussion，确认会话日志的接入方式、生成技能能否被 Codex/Claude Code
+    直接加载，以及是否有用户公开描述重复使用。
+  market: ''
+  job: 使用 Codex 或 Claude Code 的开发者，在一次或多次代理会话结束后，把真实会话日志交给 Penelopa，让它提取反复出现的工作流模式，并生成可复用的技能、检查项和提示词，用于下一次会话。
+  job_en: Developers using Codex or Claude Code hand real session logs to Penelopa after one or more agent
+    sessions, so it can extract recurring workflow patterns and produce reusable skills, checks and prompts
+    for the next session.
+  pain: AI 编码代理每次会话都从零开始，用户反复交代同样的约束、检查项和提示词，上一轮踩过的坑不会自动沉淀；公开材料只说明产品要解决这种重复摩擦，未给出频率或返工代价的量化数据。
+  pain_en: 'Each AI coding agent session starts from scratch: users re-state the same constraints, checks
+    and prompts, and lessons from earlier runs are not retained. Public materials describe this repetition
+    but give no quantified frequency or rework cost.'
+  current_alternative: 现状是开发者手工维护 CLAUDE.md、AGENTS.md、自定义提示词或规则文件，靠记忆和复制粘贴在会话间搬运经验；公开材料未说明 Penelopa 具体替代了其中哪一步。
+  current_alternative_en: Today developers hand-maintain CLAUDE.md, AGENTS.md, custom prompts or rule
+    files, moving lessons between sessions by memory and copy-paste; public materials do not say which
+    step Penelopa replaces.
+  usage_reason: 推断：相较手工整理规则文件，Penelopa 直接读取真实会话记录并自动归纳重复模式，省去开发者逐条回看日志、手写规则这一步；因此频繁使用 Codex/Claude Code
+    且已感到重复交代负担的开发者会在会话积累后尝试它。仓库收藏从 121 增至 140 后回落至 136，只能说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus manually curating rule files, Penelopa reads real session logs and
+    auto-summarises recurring patterns, removing the step of re-reading logs and hand-writing rules; developers
+    who use Codex/Claude Code heavily and feel the repetition burden would try it once sessions accumulate.
+    Stars rising 121→140 then easing to 136 indicate attention only, not sustained use.'

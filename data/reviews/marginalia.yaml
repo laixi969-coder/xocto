@@ -1,0 +1,87 @@
+- id: req-initial-marginalia-2026-09-19
+  project_slug: marginalia
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决判例阅读中引注跳转与整理的需求，痛点具体；但公开材料只有一句自述，无法确认引注识别是否自动完成、交付是否确定，价值结构尚不完整。
+    evidence_ids:
+    - ev-e094e08ed629fd4d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区提交、5 个点数且无评论，没有法律从业者反馈或采用迹象，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-e094e08ed629fd4d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；法律数据库订阅与按份简报都是可能路径，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e094e08ed629fd4d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对引注链接是否准确、是否覆盖完整判例集，也未说明人工复核边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-e094e08ed629fd4d
+  next_validation: 收集该工具官方页面或文档，确认判例与引注数据来源、是否由 AI 生成引注识别，以及是否公开定价或客户案例。
+  market: ''
+  job: 律师、法务或法律研究者需要跟踪上一季度美国最高法院判例，在阅读判决全文时同步核对其中引用的法条与先例，形成可引用的阅读记录。
+  job_en: Lawyers, in-house counsel or legal researchers need to track last quarter's US Supreme Court
+    cases, checking cited statutes and precedents while reading the full opinion, and produce a citable
+    reading record.
+  pain: 判例引注密集，阅读时要在判决全文与引注来源之间反复跳转，人工整理引用耗时且容易漏引。
+  pain_en: Case opinions are citation-dense, so readers repeatedly jump between the opinion text and cited
+    sources, and manually organising citations is slow and easy to miss.
+  current_alternative: 现在多靠 Westlaw、LexisNexis 等法律数据库检索，或下载 PDF 后自行标注引注。
+  current_alternative_en: Today this is mostly done via legal databases such as Westlaw or LexisNexis,
+    or by downloading the PDF and annotating citations by hand.
+  usage_reason: 推断：如果它确实把判例与引注放在同一阅读界面并自动建立链接，用户可省去逐条复制检索引注这一步，因此做判例追踪的律师与法务在快速通读季度判例时可能选择它；但公开材料未说明是否由
+    AI 完成引注识别，也无用户反馈或留存证据。
+  usage_reason_en: 'Inference: if it truly places cases and citations in one reading view and links them
+    automatically, users skip the step of copying and searching each citation, so lawyers and counsel
+    tracking cases may choose it when skimming a quarter''s opinions; however, the public material does
+    not say whether AI performs citation recognition, and there is no user feedback or retention evidence.'
+- id: req-full-marginalia-2026-09-19
+  project_slug: marginalia
+  level: full
+  reviewed_at: '2026-09-19T00:53:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决判例阅读中引注跳转与整理的需求，痛点具体；但公开材料只有一句自述，无法确认引注识别是否自动完成、交付是否确定，价值结构尚不完整。
+    evidence_ids:
+    - ev-d6fbd0e6f25cc760
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该工具官方页面或文档，确认判例与引注数据来源、是否由 AI 生成引注识别，以及是否公开定价或客户案例。
+  market: ''
+  job: 律师、法务或法律研究者需要跟踪上一季度美国最高法院判例，在阅读判决全文时同步核对其中引用的法条与先例，形成可引用的阅读记录。
+  job_en: Lawyers, in-house counsel or legal researchers need to track last quarter's US Supreme Court
+    cases, checking cited statutes and precedents while reading the full opinion, and produce a citable
+    reading record.
+  pain: 判例引注密集，阅读时要在判决全文与引注来源之间反复跳转，人工整理引用耗时且容易漏引。
+  pain_en: Case opinions are citation-dense, so readers repeatedly jump between the opinion text and cited
+    sources, and manually organising citations is slow and easy to miss.
+  current_alternative: 现在多靠 Westlaw、LexisNexis 等法律数据库检索，或下载 PDF 后自行标注引注。
+  current_alternative_en: Today this is mostly done via legal databases such as Westlaw or LexisNexis,
+    or by downloading the PDF and annotating citations by hand.
+  usage_reason: 推断：若它确实把判例与引注放在同一阅读界面并自动建立链接，用户可省去逐条复制检索引注这一步，因此做判例追踪的律师与法务在快速通读季度判例时可能选择它；但公开材料未说明是否由
+    AI 完成引注识别，也无用户反馈或留存证据。
+  usage_reason_en: 'Inference: if it truly places cases and citations in one reading view and links them
+    automatically, users skip the step of copying and searching each citation, so lawyers and counsel
+    tracking cases may choose it when skimming a quarter''s opinions; however, the public material does
+    not say whether AI performs citation recognition, and there is no user feedback or retention evidence.'

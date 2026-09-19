@@ -21,7 +21,7 @@ canonical_url: https://tokenstead.ai/guides/zcode-silent-git-history-upload
 summary: the GLM coding agent, silently uploads your Git history
 first_seen: '2026-09-18T10:35:28Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

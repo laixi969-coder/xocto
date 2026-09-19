@@ -1,0 +1,86 @@
+- id: req-initial-echocat-skill-panel-30-2026-09-19
+  project_slug: echocat-skill-panel-30
+  level: initial
+  reviewed_at: '2026-09-19T00:21:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 技能调用不可见、排查靠翻日志的问题，痛点具体，替代的是原始日志与自建检索。
+    evidence_ids:
+    - ev-47d6fe1a8143c9a8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 103 星标，属关注度信号，未见开发者反馈或采用案例说明它已进入日常工作流。
+    evidence_ids:
+    - ev-47d6fe1a8143c9a8
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见收费方式，是否有人为托管或企业版付费无法从公开材料确认。
+    evidence_ids:
+    - ev-47d6fe1a8143c9a8
+  - gate: truth
+    status: insufficient
+    reason: 审计记录是否完整、能否覆盖生产环境调用，公开材料未说明。
+    evidence_ids:
+    - ev-47d6fe1a8143c9a8
+  next_validation: 查看该仓库的 issue 与 discussion，确认开发者实际用它排查过哪些调用异常。
+  market: ''
+  job: AI 应用开发者在调试或排查自建 agent 时，需要处理一次任务里连续发生的多次技能调用记录，定位是哪一步调用出错或越权，最终拿到可复现的调用链证据。
+  job_en: An AI application developer debugging or troubleshooting a self-built agent must work through
+    the chain of skill calls inside a single task, locate which step failed or overreached, and end up
+    with reproducible call-chain evidence.
+  pain: 技能调用分散在日志里，开发者只能靠翻文本日志拼出调用顺序，排查一次异常要花大量时间，也难发现越权调用。
+  pain_en: Skill calls are scattered across logs, so developers must piece the order together from raw
+    text, spending a lot of time on each incident and struggling to spot overreaching calls.
+  current_alternative: 现在多靠框架自带日志、控制台打印或自建日志检索，缺少针对技能调用的结构化视图。
+  current_alternative_en: Today teams mostly rely on framework logs, console prints or self-built log
+    search, with no structured view dedicated to skill calls.
+  usage_reason: 推断：相比翻原始日志，它把技能调用按会话结构化展示并提供应用内管理入口，减少开发者手工拼接调用顺序的那一步，因此自建 agent 的团队在排查异常调用时会选择它。
+  usage_reason_en: 'Inference: compared with reading raw logs, it presents skill calls in a structured
+    per-session view with an in-app management entry, removing the step of manually reconstructing call
+    order, so teams running their own agents would pick it when investigating abnormal calls.'
+- id: req-full-echocat-skill-panel-30-2026-09-19
+  project_slug: echocat-skill-panel-30
+  level: full
+  reviewed_at: '2026-09-19T00:52:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 技能调用不可见、排查靠翻日志的问题，痛点具体，替代的是原始日志与自建检索。
+    evidence_ids:
+    - ev-47d6fe1a8143c9a8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 103 星标，属关注度信号，未见开发者反馈或采用案例说明它已进入日常工作流。
+    evidence_ids:
+    - ev-47d6fe1a8143c9a8
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见收费方式，是否有人为托管或企业版付费无法从公开材料确认。
+    evidence_ids:
+    - ev-47d6fe1a8143c9a8
+  - gate: truth
+    status: insufficient
+    reason: 审计记录是否完整、能否覆盖生产环境调用，公开材料未说明。
+    evidence_ids:
+    - ev-47d6fe1a8143c9a8
+  next_validation: 查看该仓库的 issue 与 discussion，确认开发者实际用它排查过哪些调用异常。
+  market: ''
+  job: AI 应用开发者在调试或排查自建 agent 时，需要处理一次任务里连续发生的多次技能调用记录，定位是哪一步调用出错或越权，最终拿到可复现的调用链证据。
+  job_en: An AI application developer debugging or troubleshooting a self-built agent must work through
+    the chain of skill calls inside a single task, locate which step failed or overreached, and end up
+    with reproducible call-chain evidence.
+  pain: 技能调用分散在日志里，开发者只能靠翻文本日志拼出调用顺序，排查一次异常要花大量时间，也难发现越权调用。
+  pain_en: Skill calls are scattered across logs, so developers must piece the order together from raw
+    text, spending a lot of time on each incident and struggling to spot overreaching calls.
+  current_alternative: 现在多靠框架自带日志、控制台打印或自建日志检索，缺少针对技能调用的结构化视图。
+  current_alternative_en: Today teams mostly rely on framework logs, console prints or self-built log
+    search, with no structured view dedicated to skill calls.
+  usage_reason: 推断：相比翻原始日志，它把技能调用按会话结构化展示并提供应用内管理入口，减少开发者手工拼接调用顺序的那一步，因此自建 agent 的团队在排查异常调用时会选择它。
+  usage_reason_en: 'Inference: compared with reading raw logs, it presents skill calls in a structured
+    per-session view with an in-app management entry, removing the step of manually reconstructing call
+    order, so teams running their own agents would pick it when investigating abnormal calls.'

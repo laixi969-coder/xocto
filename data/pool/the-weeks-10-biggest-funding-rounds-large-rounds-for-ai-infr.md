@@ -25,7 +25,7 @@ summary: After a week of multiple billion-dollar-plus rounds, startup investors 
   and a $308 million investment in space vehicle developer Impulse Space.
 first_seen: '2026-09-18T18:29:32Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

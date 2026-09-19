@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/492426.html
 summary: 协同布局AI基础设施
 first_seen: '2026-09-18T15:58:21Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

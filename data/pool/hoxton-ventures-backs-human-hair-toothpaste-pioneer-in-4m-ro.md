@@ -23,7 +23,7 @@ summary: HoxtonVentures is backing a UK startup which hopes to commercialise a p
   wh...
 first_seen: '2026-09-16T14:52:11Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -75,3 +75,43 @@
   usage_reason: 用户要完成的任务是：生物分子建模研究、药物发现计算；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: biomolecular modeling research, computational drug discovery Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-uplifting-biomolecular-modeling-2026-09-19
+  project_slug: uplifting-biomolecular-modeling
+  level: full
+  reviewed_at: '2026-09-19T00:55:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有仓库名与 star 数，未说明谁在什么工作节点使用、AI 接收什么输入、产出什么交付，连需求和痛点都无法还原，无法做价值结构判断。
+    evidence_ids:
+    - ev-8744519de847c274
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/anthropics/uplifting-biomolecular-modeling 的 README、issue 与 discussion，确认它接收什么分子输入、产出什么交付、面向哪类具体建模场景。
+  market: ''
+  job: 生物分子建模或药物发现计算的研究者在需要构建或分析分子模型时，打开该仓库，处理分子结构或建模数据，完成建模或计算分析任务。
+  job_en: A researcher in biomolecular modeling or computational drug discovery who needs to build or
+    analyze molecular models opens this repository to process molecular structures or modeling data and
+    complete a modeling or computational analysis task.
+  pain: 公开材料只有仓库名和 star 数，没有说明研究者当前建模流程中的具体摩擦、耗时环节或不解决的后果，痛点无法确认。
+  pain_en: Public material contains only a repository name and star counts; it does not describe any concrete
+    friction, time cost, or consequence in current modeling workflows, so the pain point cannot be confirmed.
+  current_alternative: 公开材料未说明研究者目前使用什么工具或流程完成建模，也未说明该仓库替代了什么。
+  current_alternative_en: Public material does not show what tools or workflows researchers currently
+    use for modeling, nor what this repository replaces.
+  usage_reason: 缺少功能说明、输入输出与用户反馈，无法解释研究者相较现有建模工具为什么会选择它；star 数只反映关注度，不能作为使用理由。
+  usage_reason_en: With no feature description, input/output detail, or user feedback, there is no explanation
+    of why researchers would choose it over existing modeling tools; star counts reflect attention, not
+    usage reasons.

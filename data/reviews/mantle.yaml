@@ -1,0 +1,89 @@
+- id: req-initial-mantle-2026-09-19
+  project_slug: mantle
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是后台界面与接口重复搭建的问题，痛点方向成立，但公开材料只有一句功能描述，无法确认替代了哪一步具体旧流程，也未说明交付是否可用。
+    evidence_ids:
+    - ev-659398c39c6ae631
+  - gate: consensus
+    status: insufficient
+    reason: 除发布本身外没有用户评价、社区讨论或采用信号，无法判断开发者是否认为这一步值得交给工具做。
+    evidence_ids:
+    - ev-659398c39c6ae631
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；按席位还是按生成量收费无从判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-659398c39c6ae631
+  - gate: truth
+    status: insufficient
+    reason: 生成的后台与 MCP 接口是否贴近真实业务约束、是否需要大量人工返工，公开材料未提供可核对结果。
+    evidence_ids:
+    - ev-659398c39c6ae631
+  next_validation: 收集 Mantle 官方文档或仓库中关于生成产物范围、支持框架与人工修改步骤的说明，以确认它替代的是哪一步具体旧流程。
+  market: ''
+  job: 后台或全栈开发者在已有业务逻辑需要对外提供管理界面和 AI 可调用接口时，处理的是自己写的业务代码与数据模型，要产出可操作的后台页面和 MCP 接口。
+  job_en: A backend or full-stack developer whose existing business logic needs an admin interface and
+    AI-callable endpoints works from their own business code and data models to produce operable admin
+    pages and MCP endpoints.
+  pain: 管理后台界面和接口层通常要重复手工搭建，与业务逻辑脱节，改一次逻辑要同步改多处。
+  pain_en: Admin interfaces and the endpoint layer are usually rebuilt by hand, drift from the business
+    logic, and must be updated in several places whenever the logic changes.
+  current_alternative: 手写后台页面，或使用低代码后台生成器、内部脚手架，再单独手写 MCP 接口。
+  current_alternative_en: Hand-writing admin pages, or using low-code admin generators and internal scaffolding,
+    then hand-writing MCP endpoints separately.
+  usage_reason: 推断：相较手写后台加单独写接口，它把同一份逻辑描述同时转成界面与接口，省掉界面搭建和接口对齐这两步；但公开材料未说明生成结果的可用程度，也没有用户反馈或采用证据，因此尚不能确认开发者会持续使用。
+  usage_reason_en: 'Inference: compared with hand-building an admin panel plus separate endpoints, it
+    turns one logic description into both interface and endpoints, removing the UI build and the endpoint
+    alignment step; however, public material does not show how usable the output is, and there is no user
+    feedback or adoption evidence, so sustained use cannot be confirmed.'
+- id: req-full-mantle-2026-09-19
+  project_slug: mantle
+  level: full
+  reviewed_at: '2026-09-19T00:53:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称用自然语言生成 Admin UI 与 MCP 接口，但全部证据指向以太坊 Layer 2 项目 Mantle、地球地幔与英文单词释义，与该产品无关，连用户任务和痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-b289ae441ac77646
+    - ev-dfc6de7b61008187
+    - ev-e5141a9729727942
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Mantle 官方站点或代码仓库中关于 Admin UI 与 MCP/WebMCP 生成范围、支持框架及人工修改步骤的文档，确认是否存在可归因到该产品的公开说明。
+  market: ''
+  job: 后台或全栈开发者在已有业务逻辑需要对外提供管理界面和 AI 可调用接口时，处理自己写的业务代码与数据模型，要产出可操作的后台页面和 MCP/WebMCP 接口。
+  job_en: A backend or full-stack developer whose existing business logic needs an admin interface and
+    AI-callable endpoints works from their own business code and data models to produce operable admin
+    pages and MCP/WebMCP endpoints.
+  pain: 公开材料只有一句功能描述，未说明管理后台与接口层重复搭建具体带来哪一步负担、改逻辑时是否要同步改多处，痛点无法从证据还原。
+  pain_en: Public material offers only a one-line feature description; it does not show which specific
+    step of rebuilding admin panels and endpoint layers is burdensome, nor whether logic changes require
+    multi-place edits, so the pain cannot be reconstructed from evidence.
+  current_alternative: 公开材料未披露开发者现在用手写后台、低代码后台生成器还是内部脚手架，也未说明 MCP 接口此前如何交付，替代方式无法确认。
+  current_alternative_en: Public material does not disclose whether developers currently hand-write admin
+    panels, use low-code admin generators, or rely on internal scaffolding, nor how MCP endpoints were
+    delivered before, so the alternative cannot be confirmed.
+  usage_reason: 无法判断：现有证据全部指向以太坊 Layer 2 项目 Mantle、地球地幔与英文单词释义，与所述 Admin UI/MCP 生成产品无关，缺少任何可归因到该产品的用户任务、采用或反馈，因此不能说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: all available evidence points to the Ethereum Layer 2 project Mantle,
+    Earth''s mantle, and a dictionary entry, none related to the described Admin UI/MCP generation product;
+    with no attributable user task, adoption, or feedback, it is impossible to say which users would choose
+    it and when.'

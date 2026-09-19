@@ -1,0 +1,81 @@
+- id: req-initial-proto-mind-2026-09-19
+  project_slug: proto-mind
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的需求和痛点都写不出来，只有“浮动 AI 工作区”一句，无法还原旧流程与交付。
+    evidence_ids:
+    - ev-fbd000ce93ab6f5c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有可归因到该产品的使用或关注数据。
+    evidence_ids:
+    - ev-fbd000ce93ab6f5c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-fbd000ce93ab6f5c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近该工作的第一性目标，也无交付确定性证据。
+    evidence_ids:
+    - ev-fbd000ce93ab6f5c
+  next_validation: 收集 Proto-Mind 官方产品页或文档，确认它接收什么输入、执行什么动作、交付什么结果以及是否公布定价。
+  market: ''
+  job: Mac 用户在多应用之间切换工作时，把当前屏幕或文档里的材料交给一个常驻的 AI 工作区处理，以完成某项尚未说明的任务。
+  job_en: A Mac user switching between apps hands material from the current screen or document to an always-present
+    AI workspace to complete a task that is not yet specified.
+  pain: 公开材料未说明任何具体痛点，只能推测跨应用搬运素材存在摩擦，这属于推断而非事实。
+  pain_en: Public material states no concrete pain; friction in moving material across apps is only an
+    inference, not a fact.
+  current_alternative: 用户目前可能用浏览器标签页里的通用聊天助手，或系统自带的复制粘贴加切换窗口来完成同类操作。
+  current_alternative_en: Users today likely use a general chat assistant in a browser tab, or copy-paste
+    plus window switching, for comparable work.
+  usage_reason: 无法判断：材料没有说明它通过哪个具体动作减少哪一步负担，也没有可核对的结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which concrete step it removes or what
+    verifiable result it improves, so it cannot explain why a user would choose it.'
+- id: req-full-proto-mind-2026-09-19
+  project_slug: proto-mind
+  level: full
+  reviewed_at: '2026-09-19T00:54:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅一句“浮动 AI 工作区”，未说明接收什么材料、执行什么动作、交付什么结果，连用户任务与痛点都无法还原，故价值关不成立。
+    evidence_ids:
+    - ev-fbd000ce93ab6f5c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Proto-Mind 官方产品页或文档，确认它接收什么输入、执行什么动作、交付什么结果，以及是否公布定价。
+  market: ''
+  job: Mac 用户在其他应用里工作时，把当前屏幕或文档中的材料交给一个悬浮常驻的 AI 工作区，以完成某项任务——但公开材料未说明具体是什么材料、要完成什么任务。
+  job_en: A Mac user working in other apps hands material from the current screen or document to a floating,
+    always-present AI workspace to complete a task — but public material does not say which material or
+    which task.
+  pain: 公开材料只有一句“浮动 AI 工作区”，没有说明任何具体痛点；跨应用搬运素材存在摩擦只是推断，不是事实。
+  pain_en: Public material offers only the phrase 'a floating AI workspace for your Mac' and states no
+    concrete pain; friction in moving material across apps is inference, not fact.
+  current_alternative: 用户目前可能用浏览器标签页里的通用聊天助手，或复制粘贴加切换窗口来完成同类操作，但这也只是推断。
+  current_alternative_en: Users today likely use a general chat assistant in a browser tab, or copy-paste
+    plus window switching, for comparable work — but this too is inference.
+  usage_reason: 无法判断：材料没有说明它接收什么输入、执行什么动作、交付什么结果，因此无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what input it takes, what action it performs,
+    or what it delivers, so it cannot explain which step it removes versus the old way, nor which users
+    would choose it in which situation.'

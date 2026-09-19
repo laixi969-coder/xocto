@@ -82,3 +82,53 @@
   usage_reason_en: 'Inference: it narrows review into one focused pass over the diff and change plan and
     returns concrete edits, removing the step of reading everything line by line and drafting review comments
     by hand, so teams merging AI code often would use it before committing.'
+- id: req-full-reslop-2026-09-19
+  project_slug: reslop
+  level: full
+  reviewed_at: '2026-09-19T00:54:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码合并前的审查需求，痛点是漏审会把缺陷带进主分支，旧做法是人工逐行读差异；公开材料仅含产品定位与仓库关注度，价值成立属工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-b08590a78eca83fa
+    - ev-8570f3154b2b30d1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库 star 从 98 增至 105 的关注度变化，没有用户评价、团队采用或讨论记录，无法判断 AI 代码审查是否已被普遍接受为独立步骤。
+    evidence_ids:
+    - ev-b08590a78eca83fa
+    - ev-199f94ffa030d124
+    - ev-15bfb26c165ca7ed
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、买方或收费方式，向工程团队按仓库或审查次数收费只是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-b08590a78eca83fa
+  - gate: truth
+    status: insufficient
+    reason: 无法核验它是否贴近真实审查目标、能否确定性交付，以及人工确认与安全边界如何设定；支持的代码托管平台与审查流程同样未公开。
+    evidence_ids:
+    - ev-b08590a78eca83fa
+    - ev-8570f3154b2b30d1
+  next_validation: 追踪 reslop 开源仓库的 issue 与 discussion，确认用户实际提交的审查场景、支持的代码托管平台与反馈。
+  market: ''
+  job: 开发者在把 AI 生成的代码改动合并进主分支之前，打开 reslop，把待审的代码差异和改动计划交给它，完成一次能标出问题并给出修改方案的审查。
+  job_en: Before merging AI-generated code changes into the main branch, a developer opens reslop, hands
+    it the pending diff and change plan, and completes a review that flags problems and returns concrete
+    edits.
+  pain: AI 生成代码的产出速度已超过人工逐行审查的承受能力，漏审会把缺陷直接带进主分支；公开材料只给出产品定位与仓库关注度，没有用户抱怨或案例佐证这一痛点强度。
+  pain_en: AI-generated code now arrives faster than humans can review line by line, and missed review
+    puts defects straight into the main branch; public material offers only the product positioning and
+    repo attention, with no user complaints or cases confirming the pain's intensity.
+  current_alternative: 人工逐行读差异、用通用代码助手做零散提示，或降低审查标准直接合并。
+  current_alternative_en: Reading diffs line by line by hand, using general coding assistants for scattered
+    hints, or lowering the review bar and merging anyway.
+  usage_reason: 推断：相较人工逐行通读，它把审查收敛为对差异和改动计划的一次集中检查并直接产出修改方案，省去自行组织审查意见这一步，因此频繁合并 AI 代码的开发者会在提交前选择它；仓库
+    star 从 98 增至 105 只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus reading everything line by line, it narrows review into one focused
+    pass over the diff and change plan and returns concrete edits, removing the step of drafting review
+    comments by hand, so developers merging AI code often would pick it before committing; stars rising
+    from 98 to 105 shows attention only, not sustained use.'

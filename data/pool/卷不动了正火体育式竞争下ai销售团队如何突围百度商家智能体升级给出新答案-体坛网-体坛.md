@@ -34,7 +34,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jOGdRcEFrMmUw
 summary: 卷不动了？正火体育式竞争下，AI销售团队如何突围？——百度商家智能体升级给出新答案-体坛网_体坛+ 体坛加
 first_seen: '2026-09-07T19:42:50Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

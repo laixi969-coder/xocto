@@ -1,0 +1,88 @@
+- id: req-initial-papereffects-2026-09-19
+  project_slug: papereffects
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是转场文字画面要手工排版对位的重复劳动，旧流程明确、不做的代价是反复试错，结构上成立，但属工作流推理。
+    evidence_ids:
+    - ev-59bbf6ba025949bf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有剪辑师群体持续使用或口碑扩散的证据，卡在场景感知环节。
+    evidence_ids:
+    - ev-59bbf6ba025949bf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按素材或按次收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-59bbf6ba025949bf
+  - gate: truth
+    status: insufficient
+    reason: 无法确认导出格式、分辨率与是否仍需人工微调，交付确定性尚未核验。
+    evidence_ids:
+    - ev-59bbf6ba025949bf
+  next_validation: 收集该工具官方页面上的导出格式、分辨率说明与定价信息，确认交付物是否可直接进剪辑时间线。
+  market: ''
+  job: 视频剪辑师或短视频创作者在剪一条需要“报纸/书页文字”转场的片子时，处理自己写的文案和已有镜头素材，要做出能与前后镜头对齐的文字画面转场。
+  job_en: A video editor or short-form creator cutting a piece that needs a newspaper- or book-page text
+    transition works from their own copy and existing footage to produce a text frame that aligns with
+    the surrounding shots.
+  pain: 这类画面要在图像或视频软件里手工排版、调字号行距、再逐帧对位，单条转场往往要反复试错，属于重复且不产生创意增量的劳动。
+  pain_en: Such frames must be laid out by hand in image or video software, with font sizes, leading and
+    frame alignment tuned by trial and error, so each transition is repetitive work that adds no creative
+    value.
+  current_alternative: 现在多数人用 Photoshop 或剪辑软件手工排版，或套用现成的报纸/书籍模板再手动改字改版式。
+  current_alternative_en: Most people lay it out manually in Photoshop or an editing suite, or reuse an
+    existing newspaper/book template and hand-edit the text and layout.
+  usage_reason: 推断：相较手工排版，它把“排版—对位”这一步压缩成输入文字后直接得到可用画面，省掉反复调字号行距和对齐的试错，因此接单量大、需要频繁做同类转场的剪辑师会在赶工时选择它。
+  usage_reason_en: 'Inference: versus manual layout, it compresses the layout-and-alignment step into
+    entering text and receiving a usable frame, removing repeated font and alignment trial and error,
+    so editors with high order volume and frequent similar transitions would pick it when rushing a cut.'
+- id: req-full-papereffects-2026-09-19
+  project_slug: papereffects
+  level: full
+  reviewed_at: '2026-09-19T00:54:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是转场文字画面要手工排版对位的重复劳动，旧流程明确、不做的代价是反复试错，结构上成立，但属工作流推理。
+    evidence_ids:
+    - ev-59bbf6ba025949bf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有剪辑师群体持续使用或口碑扩散的证据，卡在场景感知环节。
+    evidence_ids:
+    - ev-59bbf6ba025949bf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按素材或按次收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-59bbf6ba025949bf
+  - gate: truth
+    status: insufficient
+    reason: 无法确认导出格式、分辨率与是否仍需人工微调，交付确定性尚未核验。
+    evidence_ids:
+    - ev-59bbf6ba025949bf
+  next_validation: 收集该工具官方页面上的导出格式、分辨率说明与定价信息，确认交付物是否可直接进剪辑时间线。
+  market: ''
+  job: 视频剪辑师或短视频创作者在剪一条需要“报纸/书页文字”转场的片子时，处理自己写的文案和已有镜头素材，要做出能与前后镜头对齐的文字画面转场。
+  job_en: A video editor or short-form creator cutting a piece that needs a newspaper- or book-page text
+    transition works from their own copy and existing footage to produce a text frame that aligns with
+    the surrounding shots.
+  pain: 这类画面要在图像或视频软件里手工排版、调字号行距、再逐帧对位，单条转场往往要反复试错，属于重复且不产生创意增量的劳动。
+  pain_en: Such frames must be laid out by hand in image or video software, with font sizes, leading and
+    frame alignment tuned by trial and error, so each transition is repetitive work that adds no creative
+    value.
+  current_alternative: 现在多数人用 Photoshop 或剪辑软件手工排版，或套用现成的报纸/书籍模板再手动改字改版式。
+  current_alternative_en: Most people lay it out manually in Photoshop or an editing suite, or reuse an
+    existing newspaper/book template and hand-edit the text and layout.
+  usage_reason: 推断：相较手工排版，它把“排版—对位”这一步压缩成输入文字后直接得到可用画面，省掉反复调字号行距和对齐的试错，因此接单量大、需要频繁做同类转场的剪辑师会在赶工时选择它。
+  usage_reason_en: 'Inference: versus manual layout, it compresses the layout-and-alignment step into
+    entering text and receiving a usable frame, removing repeated font and alignment trial and error,
+    so editors with high order volume and frequent similar transitions would pick it when rushing a cut.'

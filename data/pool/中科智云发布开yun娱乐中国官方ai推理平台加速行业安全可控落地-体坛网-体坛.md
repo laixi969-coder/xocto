@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE54bEk5YlAtVW9U
 summary: 中科智云发布“开yun娱乐中国官方”AI推理平台，加速行业安全可控落地-体坛网_体坛+ 体坛加
 first_seen: '2026-09-17T17:54:56Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

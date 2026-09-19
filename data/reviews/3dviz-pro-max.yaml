@@ -333,3 +333,55 @@
     has a runnable baseline for materials, lighting and camera setup, removing the step of looking up
     docs and trial-and-error per item; hence web frontend and 3D design users who need a debuggable 3D
     prototype quickly would pick it at the prototyping stage.'
+- id: req-full-3dviz-pro-max-2026-09-19
+  project_slug: 3dviz-pro-max
+  level: full
+  reviewed_at: '2026-09-19T00:51:04Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是网页3D场景从创意到可运行代码的落地需求，痛点在渲染管线与样板代码的重复试错；旧替代是查文档、抄片段、手改脚本。公开材料未给用户抱怨原文，但输入—动作—交付闭环清晰，属工作流结构推理成立。
+    evidence_ids:
+    - ev-a27db56ce53a6161
+    - ev-0978703efd873b8b
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从216升至463，说明开发者持续关注并把它纳入工具链视野；但收藏与排名只属关注度证据，公开材料未见issue、discussion或评价说明实际使用频率与留存，故共识仅到关注层。
+    evidence_ids:
+    - ev-a27db56ce53a6161
+    - ev-adc87e08c33b73ca
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与插件形态，未见定价页、付费主体或采购记录，to C开发者自用还是to B团队采购无法判定；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-a27db56ce53a6161
+  - gate: truth
+    status: insufficient
+    reason: 223条配方与37个可运行研究样例是公开事实，但未见可复现的生成质量评测、失败率或人工边界说明，交付能否稳定发生仍缺公开验证。
+    evidence_ids:
+    - ev-0978703efd873b8b
+    - ev-83fd119871b40a5c
+  next_validation: 追踪该仓库的issue与discussion区，收集用户报告的实际生成场景、失败案例与重复使用情况，以核验交付稳定性与持续采用。
+  market: ''
+  job: 前端工程师或3D设计师在需要为网页交付可交互3D场景时，把自然语言创意描述交给Claude Code/Codex插件，由Agent调用223条配方与440条知识记录生成Three.js或Blender可运行代码与场景资产，产出可直接调试的3D可视化原型。
+  job_en: A frontend engineer or 3D designer who must ship an interactive 3D web scene hands a natural-language
+    creative brief to the Claude Code / Codex plugin, which uses 223 recipes and 440 knowledge records
+    to generate runnable Three.js or Blender code and scene assets, producing a debuggable 3D visualization
+    prototype.
+  pain: Three.js/Blender场景搭建需要同时掌握渲染管线、材质光照与性能调优，从零写样板代码和反复试错占用大量时间；公开材料未给出用户抱怨原文，痛点强度属工作流结构推理。
+  pain_en: Building Three.js/Blender scenes requires simultaneous command of render pipelines, materials,
+    lighting and performance tuning; writing boilerplate from scratch and iterating by trial and error
+    consumes large amounts of time. Public materials give no verbatim user complaints, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 旧做法是查阅Three.js官方文档与示例、在公开代码仓库或CodePen上找可复用片段、手动改写Blender脚本，或直接让通用代码助手生成片段后自行调试。
+  current_alternative_en: The old path is reading Three.js docs and examples, hunting reusable snippets
+    on public code repository or CodePen, hand-editing Blender scripts, or asking a general code assistant
+    for snippets and debugging them manually.
+  usage_reason: 相较通用代码助手只给零散片段，该插件把配方、知识记录与可运行研究样例作为结构化上下文注入Agent，使生成结果直接落在可调试的Three.js/Blender工程结构上，减少从片段到可运行场景之间的拼接与排错步骤；因此需要快速产出3D原型的前端或设计人员会在起步阶段选择它。此为基于产品能力与任务结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Unlike a general code assistant that returns isolated snippets, this plugin injects
+    recipes, knowledge records and runnable study samples as structured context into the agent, so output
+    lands directly in a debuggable Three.js/Blender project structure and cuts the stitching-and-debugging
+    step between snippet and running scene; frontend or design users needing a fast 3D prototype would
+    pick it at the kickoff stage. This is an inference from product capability and task structur

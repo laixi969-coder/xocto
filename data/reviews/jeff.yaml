@@ -1,0 +1,85 @@
+- id: req-initial-jeff-2026-09-19
+  project_slug: jeff
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是提交前审查代码这一具体任务，痛点成立；但公开材料只有一句仓库描述，说不清审查范围与交付形态，价值判断证据不足。
+    evidence_ids:
+    - ev-5ce761b51f4a6385
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用、评价或团队使用证据，共识环节无法判断。
+    evidence_ids:
+    - ev-5ce761b51f4a6385
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；命令行开发者工具可能走开源加托管服务，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-5ce761b51f4a6385
+  - gate: truth
+    status: insufficient
+    reason: 只读设计降低了误改代码的风险，方向合理；但审查结果是否可靠、是否需要人工复核，公开材料未说明。
+    evidence_ids:
+    - ev-5ce761b51f4a6385
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认审查范围、输出格式以及是否有团队在流水线中实际使用。
+  market: ''
+  job: 开发者在提交代码前，把待审的代码改动交给这个只读命令行工具，希望拿到语义层面的问题清单，再决定是否修改。
+  job_en: Before submitting code, a developer hands pending changes to this read-only CLI to get a semantic
+    list of issues, then decides what to change.
+  pain: 人工逐行读改动容易漏掉跨文件的语义问题，而现有审查工具多绑定在特定托管平台或编辑器里，难以在本地或流水线中单独调用。
+  pain_en: Reading diffs line by line misses cross-file semantic problems, and existing review tools are
+    tied to a specific host or editor, so they are hard to call locally or in a pipeline.
+  current_alternative: 同事互审、托管平台的合并请求评论，或把改动贴进通用聊天助手让模型看一遍。
+  current_alternative_en: Peer review, merge-request comments on a hosting platform, or pasting the diff
+    into a general chat assistant.
+  usage_reason: 推断：相较把改动贴进聊天窗口，只读 CLI 能直接在本地仓库上运行并保持不写回代码，减少复制粘贴和担心被自动改动的顾虑，因此习惯命令行、又不想让工具改代码的开发者会试用它。公开材料没有用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with pasting a diff into a chat window, a read-only CLI runs against
+    the local repository and never writes back, removing copy-paste and the worry of automatic edits,
+    so developers who live in the terminal and do not want a tool to modify code may try it. No user feedback
+    or retention evidence is public.'
+- id: req-full-jeff-2026-09-19
+  project_slug: jeff
+  level: full
+  reviewed_at: '2026-09-19T00:53:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称其为基于 Jev 的只读代码审查 CLI，但所引证据全部是英文人名 Jeff 与 Jeff Bezos 的百科和富豪榜条目，与代码审查任务无关，无法还原用户任务、痛点、旧替代与交付后果，价值关不成立。
+    evidence_ids:
+    - ev-400a01d0c566c4e5
+    - ev-469626e8b71023f2
+    - ev-76d167cf44f36b82
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 CLI 的官方仓库 README、release 说明与 issue/discussion，确认其审查范围、输出格式、是否只读以及是否有团队在流水线中实际使用。
+  market: ''
+  job: 开发者在提交代码前，把待审的代码改动交给这个只读命令行工具，希望拿到语义层面的问题清单，再决定是否修改。
+  job_en: Before submitting code, a developer hands pending changes to this read-only CLI to get a semantic
+    list of issues, then decides what to change.
+  pain: 公开材料只有一句仓库描述，无法说明它具体解决哪类审查痛点；人工逐行读改动容易漏掉跨文件语义问题这一说法属于行业常识推理，不是该项目公开证据。
+  pain_en: The public material is only a one-line repository description and does not show which review
+    pain it addresses; the claim that line-by-line reading misses cross-file semantic issues is industry
+    common sense, not project evidence.
+  current_alternative: 公开材料未披露它替代什么做法；同事互审、托管平台合并请求评论或把改动贴进通用聊天助手都只是推测，不是该项目证据。
+  current_alternative_en: The public material does not disclose what it replaces; peer review, merge-request
+    comments, or pasting diffs into a chat assistant are only speculation, not project evidence.
+  usage_reason: 无法从公开材料说明用户为何选择它；现有证据全部指向 Jeff Bezos 或英文人名 Jeff，与代码审查 CLI 无关，缺少任何产品级事实。
+  usage_reason_en: No public material explains why a user would choose it; all available evidence points
+    to Jeff Bezos or the given name Jeff and is unrelated to a code-review CLI, so no product-level fact
+    exists.

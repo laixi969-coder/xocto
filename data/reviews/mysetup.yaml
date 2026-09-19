@@ -76,3 +76,44 @@
   usage_reason: 用户要完成的任务是：AI 工具配置整理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI tooling setup curation Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-mysetup-2026-09-19
+  project_slug: mysetup
+  level: full
+  reviewed_at: '2026-09-19T00:53:44Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是 AI 工具配置的展示与浏览需求，但公开材料只有一句站点说明，没有用户抱怨、不采用代价或频率证据；配置分享属于兴趣展示，不解决会阻塞任务的刚性痛点，属于没有也行。
+    evidence_ids:
+    - ev-cae59a29b3615101
+    - ev-0d48ce836f5a96fb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 mysetup.ai 官网是否出现定价页、客户案例或公开使用数据，以确认配置分享是否形成可核验的持续使用或付费路径。
+  market: ''
+  job: 使用多种 AI 工具的个人用户，在配置了若干模型、提示词或代理后，把自己的配置整理成可分享的条目发布到 mysetup，并浏览他人配置来调整自己的用法。
+  job_en: Individual users of multiple AI tools, after configuring models, prompts, or agents, publish
+    their setup as a shareable entry on mysetup and browse others' setups to adjust their own usage.
+  pain: 公开材料只说明可以浏览和分享配置，未给出任何用户抱怨、不采用代价或频率证据；从工作流看，配置分享属于兴趣型展示，不解决会阻塞任务的刚性痛点。
+  pain_en: Public materials only state that setups can be browsed and shared; no user complaints, cost
+    of not adopting, or frequency evidence is given. Structurally, setup sharing is interest-driven display
+    rather than a blocking, rigid pain.
+  current_alternative: 用户目前可在 Reddit、X、Discord、YouTube 或博客中零散分享 AI 工具配置，也可自行记录笔记；mysetup 只是把这些内容集中到一个展示页。
+  current_alternative_en: Users currently share AI tool setups piecemeal on Reddit, X, Discord, YouTube,
+    or blogs, or keep personal notes; mysetup merely aggregates these into a display page.
+  usage_reason: 推断：浏览者可能因看到他人具体配置而省去自行试错的一步，但公开材料未说明配置如何被校验、复制或应用到自己的工具链，也未说明分享者获得什么回报，因此无法确认用户会持续选择它而非现有社区。
+  usage_reason_en: 'Inference: browsers may skip some trial-and-error by seeing others'' concrete setups,
+    but public materials do not show how a setup is validated, copied, or applied to one''s own toolchain,
+    nor what sharers get in return, so continued choice over existing communities is unconfirmed.'

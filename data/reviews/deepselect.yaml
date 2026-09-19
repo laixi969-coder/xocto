@@ -335,3 +335,56 @@
   usage_reason_en: 'Inference: versus hand-writing and tuning kernels, DeepSelect ships official DeepSeek
     TopK kernels for DSA and samplers, removing the from-scratch implementation and correctness-alignment
     step, so teams running the DeepSeek sparse-attention stack would adopt it when they need that operator.'
+- id: req-full-deepselect-2026-09-19
+  project_slug: deepselect
+  level: full
+  reviewed_at: '2026-09-19T00:52:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 DeepSeek 稀疏注意力与采样中 TopK 选择的内核效率需求，痛点在于通用算子带来的显存与启动开销会拖慢长上下文训练与推理；不解决则吞吐受限或成本上升。仓库明确提供
+      DSA 与 Sampler 的 TopK 内核，交付物确定，属工作流结构推理，尚无用户抱怨或性能对比数据。
+    evidence_ids:
+    - ev-be06a30f1829fbf0
+    - ev-9430df21bff9be30
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数由 327 增至 367，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标团队已把它放进训练或推理工作流；缺少 issue、discussion 或下游项目引用等采用痕迹。
+    evidence_ids:
+    - ev-be06a30f1829fbf0
+    - ev-5e61c80818c7d1ad
+  - gate: model
+    status: insufficient
+    reason: 这是 DeepSeek 官方开源仓库，未见定价页、商业授权或采购记录，钱可能来自 DeepSeek 自身模型训练降本或生态影响力，而非直接向用户收费；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-be06a30f1829fbf0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有仓库标题与收藏数，缺少内核正确性、与通用算子的性能对比、支持硬件与精度边界等可复现证据，无法确认交付能否在具体 GPU 上稳定达成。
+    evidence_ids:
+    - ev-6bc5233225684215
+    - ev-4e639e4f87ca400f
+  next_validation: 追踪 DeepSelect 仓库的 README、benchmark 脚本与 issue/discussion，核对是否有与通用 topk 算子的性能对比及支持的 GPU
+    型号与精度范围。
+  market: ''
+  job: 训练或推理 DeepSeek 稀疏注意力（DSA）模型的工程师，在 GPU 上跑长上下文注意力与采样时，需要把 TopK 选择与采样这两步做成高效 CUDA 内核，以便在有限显存和算力下完成前向与生成。
+  job_en: Engineers training or serving DeepSeek Sparse Attention (DSA) models need efficient CUDA kernels
+    for the TopK selection and sampling steps so that long-context attention and generation fit within
+    limited GPU memory and compute.
+  pain: 稀疏注意力与采样中的 TopK 选择若用通用算子实现，会带来额外显存占用与内核启动开销，长上下文场景下成为吞吐瓶颈；不解决则训练/推理成本上升或上下文长度受限。这是从内核功能定位推导的结构性痛点，公开材料未给出用户抱怨原文。
+  pain_en: A generic implementation of TopK selection inside sparse attention and sampling adds memory
+    traffic and kernel-launch overhead, becoming a throughput bottleneck at long context; leaving it unsolved
+    raises training/serving cost or caps context length. This is a structural inference from the kernel's
+    stated purpose, not a quoted user complaint.
+  current_alternative: 当前替代是直接使用 PyTorch/框架自带的通用 topk 与采样算子，或自行手写 CUDA/Triton 内核；公开材料未说明这些替代方案的具体性能差距。
+  current_alternative_en: The current alternative is using generic topk and sampling operators shipped
+    with PyTorch/frameworks, or hand-writing CUDA/Triton kernels; public materials do not quantify the
+    performance gap.
+  usage_reason: 推断：相较通用算子或自研内核，DeepSelect 直接提供针对 DSA 与采样器优化的 TopK 内核，省去工程师自行编写和调优 CUDA 内核这一步，因此做 DeepSeek
+    稀疏注意力训练或推理的团队会在需要长上下文吞吐时选用它。仓库收藏数从 327 升至 367 只说明关注度上升，不构成采用理由。
+  usage_reason_en: 'Inference: versus generic operators or in-house kernels, DeepSelect ships TopK kernels
+    already tuned for DSA and samplers, removing the step of writing and tuning CUDA kernels yourself,
+    so teams training or serving DeepSeek sparse attention would pick it when long-context throughput
+    matters. The star count rising from 327 to 367 indicates attention, not a reason for adoption.'

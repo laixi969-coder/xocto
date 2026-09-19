@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxONzhkSW5FMUFq
 summary: Enterprise AI desperately needs a lifecycle for context cio.com
 first_seen: '2026-09-18T10:06:29Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GNHZ2Zm5pZUtI
 summary: 中国AI完成“本土化”跨越，真正赚钱的“微笑曲线”已经浮现 华尔街见闻
 first_seen: '2026-09-18T02:58:22Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

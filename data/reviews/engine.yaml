@@ -1,0 +1,82 @@
+- id: req-initial-engine-2026-09-19
+  project_slug: engine
+  level: initial
+  reviewed_at: '2026-09-19T00:21:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 agent 产出偏离品牌调性的问题，但材料只有一句定位，说不清具体任务、频率与不采用的后果。
+    evidence_ids:
+    - ev-cbcd79acc36adaba
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区讨论仅 5 分且无评论，没有用户反馈或案例说明谁在什么场景下需要它。
+    evidence_ids:
+    - ev-cbcd79acc36adaba
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按调用量还是按品牌授权收费均无材料支持。
+    evidence_ids:
+    - ev-cbcd79acc36adaba
+  - gate: truth
+    status: insufficient
+    reason: 品牌约束能否确定性交付、偏离时如何人工复核，公开材料未说明。
+    evidence_ids:
+    - ev-cbcd79acc36adaba
+  next_validation: 收集 engine 官方文档或定价页，确认其向 agent 提供品牌约束的具体输入输出与收费方式。
+  market: ''
+  job: 品牌设计师或营销内容负责人在用 agent 批量生成物料时，处理品牌规范与生成结果，要让产出符合既有调性。
+  job_en: Brand designers or marketing content leads, when using agents to mass-generate assets, handle
+    brand guidelines and generated output so results match the existing voice.
+  pain: agent 生成的内容容易偏离品牌调性，团队需要人工逐条校对，但材料未说明这一痛点有多强或多频繁。
+  pain_en: Agent-generated content drifts from brand voice and teams proofread item by item, but the material
+    does not show how strong or frequent this pain is.
+  current_alternative: 人工撰写品牌规范文档、在提示词里粘贴风格说明，或由设计师逐条返工。
+  current_alternative_en: Hand-written brand guideline documents, pasting style notes into prompts, or
+    designers reworking each item.
+  usage_reason: 推断：相较把风格说明粘进提示词，它把品牌约束固化成可调用的接口，省掉每次重写提示这一步，因此高频产出物料的品牌团队可能采用；但公开材料未给出任何采用证据。
+  usage_reason_en: 'Inference: compared with pasting style notes into prompts, it fixes brand constraints
+    as a callable interface, removing the step of rewriting prompts each time, so brand teams producing
+    assets frequently might adopt it; however no adoption evidence is public.'
+- id: req-full-engine-2026-09-19
+  project_slug: engine
+  level: full
+  reviewed_at: '2026-09-19T00:52:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 agent 产出偏离品牌调性的问题，但公开材料只有一句定位，无法还原具体任务、频率、不采用后果与旧流程，连需求与痛点都难以写清。
+    evidence_ids:
+    - ev-8eda9034a24e9860
+    - ev-fa1a37248277765c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 engine 官网的产品页、定价页或部署文档，确认其向 agent 提供品牌约束的具体输入输出、交付形态与收费方式。
+  market: ''
+  job: 品牌设计师或营销内容负责人在用 agent 批量生成文案与图片时，需要把品牌规范交给 agent，让产出符合既有品牌调性。
+  job_en: Brand designers or marketing content leads, when using agents to mass-generate copy and images,
+    need to hand brand guidelines to the agent so output matches the existing brand voice.
+  pain: 公开材料只有一句定位，无法还原具体任务、频率、不采用后果与旧流程，痛点强度无从判断。
+  pain_en: Public material offers only a one-line positioning; the specific task, frequency, cost of not
+    adopting, and old workflow cannot be reconstructed, so pain intensity is undeterminable.
+  current_alternative: 公开材料未说明当前替代方式，无法确认是人工撰写规范、提示词粘贴还是设计师逐条返工。
+  current_alternative_en: Public material does not describe the current alternative, so it is unclear
+    whether teams hand-write guidelines, paste style notes into prompts, or have designers rework each
+    item.
+  usage_reason: 公开材料未给出任何采用证据或用户反馈，无法说明用户为何会选择它，也无法与旧做法形成可核对的因果比较。
+  usage_reason_en: Public material provides no adoption evidence or user feedback, so why users would
+    choose it, and how it compares with the old approach, cannot be stated.

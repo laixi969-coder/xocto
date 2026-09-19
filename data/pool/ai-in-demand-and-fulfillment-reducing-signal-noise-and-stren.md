@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxONzNKYzhJd0Fi
 summary: 'AI in Demand and Fulfillment: Reducing Signal Noise and Strengthening the Customer Promise Maersk'
 first_seen: '2026-09-17T12:37:34Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

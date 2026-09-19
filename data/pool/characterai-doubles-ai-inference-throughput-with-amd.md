@@ -35,7 +35,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxPX2NjWmQ0c01w
 summary: Character.AI Doubles AI Inference Throughput with AMD AMD
 first_seen: '2026-08-28T21:08:01Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

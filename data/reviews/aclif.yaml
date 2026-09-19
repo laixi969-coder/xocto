@@ -79,3 +79,44 @@
   usage_reason: 用户要完成的任务是：运维与平台工程师、自动化集成开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Operations and platform engineers, Automation and integration developers
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-aclif-2026-09-19
+  project_slug: aclif
+  level: full
+  reviewed_at: '2026-09-19T00:51:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨 SaaS 命令适配的重复劳动，但公开材料只有一句产品定位，未说明用户当前如何完成该任务、痛点强度或不解决的后果，无法还原具体旧流程与交付闭环。
+    evidence_ids:
+    - ev-2655b66a26bc490d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Aclif 官网是否发布支持的具体 SaaS 列表、部署文档或客户案例，以确认交付边界与使用场景。
+  market: ''
+  job: 运维与平台工程师、自动化集成开发者在把 AI agent 接入多个 SaaS 系统时，需要为每家服务分别记忆命令、编写适配脚本，并让 agent 执行跨服务操作，最终产出可复用的命令行动作。
+  job_en: Operations/platform engineers and automation integration developers, when connecting AI agents
+    to multiple SaaS systems, must memorize per-service commands, write adapter scripts, and have the
+    agent execute cross-service operations to produce reusable CLI actions.
+  pain: 公开材料仅给出产品定位（一套统一语法、规范命令名），未说明用户当前在跨 SaaS 命令适配上的具体痛点、发生频率或不解决的后果。
+  pain_en: Public materials only state the product positioning (one grammar, canonical names across SaaS);
+    they do not describe the specific pain, frequency, or consequence of the current cross-SaaS command
+    adaptation problem.
+  current_alternative: 公开材料未说明用户目前如何完成跨 SaaS 命令调用，也未说明它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not describe how users currently perform cross-SaaS command
+    invocation or what existing approach it replaces.
+  usage_reason: 推断：若统一语法能减少为每家 SaaS 单独记命令、写适配脚本的步骤，开发者可能因此选择它；但公开材料未提供用户反馈或采用证据支持这一因果。
+  usage_reason_en: 'Inference: if the unified grammar reduces the step of memorizing per-SaaS commands
+    and writing adapters, developers might choose it; however, public materials provide no user feedback
+    or adoption evidence supporting this causal link.'

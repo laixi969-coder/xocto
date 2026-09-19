@@ -27,7 +27,7 @@ canonical_url: https://producthunt.com/products/deplo-2
 summary: A simple-to-use alternative to cloud deployments
 first_seen: '2026-09-11T22:44:38Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

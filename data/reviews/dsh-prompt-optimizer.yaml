@@ -85,3 +85,55 @@
     step and scaling process length by task difficulty with per-session isolation, so DSH users writing
     complex task instructions may choose it before submitting; public materials show no retention or repeated-use
     evidence.'
+- id: req-full-dsh-prompt-optimizer-2026-09-19
+  project_slug: dsh-prompt-optimizer
+  level: full
+  reviewed_at: '2026-09-19T00:52:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决一句话提示词含糊导致工作 AI 返工的问题，公开材料点明五类缺口与依据只搬不造，痛点与旧替代可还原；但改写后返工次数变化无量化数据，属工作流结构推理。
+    evidence_ids:
+    - ev-cb8e16e6fad297e4
+    - ev-19a403b633d367be
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 43 升至 63 只说明小范围关注度增长，公开材料没有用户评价、issue 或采用数据说明开发者已把它放进日常流程。
+    evidence_ids:
+    - ev-19a403b633d367be
+    - ev-cb8e16e6fad297e4
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价页、收费方式或买方，钱可能来自 to C 开发者或 to B 团队，但这是判断而非已验证事实，也无融资叙事。
+    evidence_ids:
+    - ev-cb8e16e6fad297e4
+  - gate: truth
+    status: insufficient
+    reason: 它绑定 dsh-0.1.6-alpha.1 且处于 beta，公开材料未说明改写出错时的回退方式与人工边界，交付确定性待核验。
+    evidence_ids:
+    - ev-19a403b633d367be
+    - ev-cb8e16e6fad297e4
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户报告改写后任务返工次数或执行成功率的变化，以及是否出现重复使用与付费意愿的公开记录。
+  market: ''
+  job: 使用 DSH Web 的开发者（或依赖 DSH 执行体的使用者）在输入框里写下一句话式的复杂任务需求时，需要把它变成工作 AI 能直接执行、且带依据与验收判据的指令，再发送出去。
+  job_en: A developer using DSH Web writes a one-line complex task request in the input box and needs
+    it turned into an instruction the working AI can execute directly, with sources and acceptance criteria,
+    before sending it.
+  pain: 公开材料显示原始一句话提示词存在五类缺口：指代定位、验收判据、约束边界、隐含决定、入口锚点；缺口导致工作 AI 反复返工，用户要自己多轮补写、调试指令，且改写时容易凭空编造依据。
+  pain_en: 'Public materials describe five gap types in a one-line prompt: referent grounding, acceptance
+    criteria, constraint boundaries, implicit decisions, and entry anchors; these gaps cause the working
+    AI to redo work, forcing users into repeated rewriting and debugging, while rewriting risks fabricating
+    sources.'
+  current_alternative: 开发者自己手写并多轮迭代提示词，或切到通用聊天助手先润色再粘贴回输入框；也可能直接发送含糊指令后靠多轮追问补救。
+  current_alternative_en: Developers hand-write and iterate prompts over multiple rounds, or switch to
+    a general chat assistant to polish text before pasting it back; alternatively they send the vague
+    instruction and patch it through follow-up rounds.
+  usage_reason: 推断：相较切窗口润色再粘贴的旧做法，它在输入框内自动完成改写，且按 SPEC v0.5 只从原话、会话上下文、项目文件中搬运依据、每条事实带出处，只补五类缺口而不写形式模板，因此常写复杂任务指令的
+    DSH 用户会在提交前选择它；公开材料尚无留存或重复使用证据。
+  usage_reason_en: 'Inference: unlike switching windows to polish and paste, it rewrites inside the input
+    box and, per SPEC v0.5, only carries over sources from the original wording, session context, and
+    project files with per-fact attribution, filling just the five gap types instead of adding boilerplate,
+    so DSH users writing complex task instructions would choose it before submitting; public materials
+    show no retention or repeated-use evidence yet.'

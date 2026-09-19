@@ -3,30 +3,35 @@ slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
 name: MiniMax
 builder: ''
 category: 基础层
-summary_zh: 内容与广告团队在需要批量产出短视频素材时，把脚本或提示词交给 MiniMax 的视频模型，由模型直接生成成片片段，再人工挑选与剪辑；公开材料只给出收入接近翻两番、模型打折与第三方出片速度测试，具体计费方式与交付流程仍待核验。
-inspiration: 趋势是视频生成从演示走向按条计费的商业交付，出片速度与单条成本成为竞争点。切入可考虑面向电商与本地生活商家的成片交付服务，按条收费并对成片质量负责，而不是卖模型调用额度；模型层价格战意味着应用层不宜自建模型。
-summary_en: Content and advertising teams that need short-video assets in bulk hand scripts or prompts
-  to MiniMax's video model, which generates clips that humans then select and edit; public material only
-  shows revenue nearly quadrupling, a model discount and a third-party render-speed test, so pricing and
-  delivery flow remain unverified.
-inspiration_en: The trend is video generation moving from demos to per-clip commercial delivery, where
-  render speed and cost per clip decide competition. A wedge is a finished-video service for e-commerce
-  and local-services merchants, charged per clip with quality accountability rather than selling model
-  credits; model-layer price wars argue against building your own model.
+summary_zh: MiniMax 是面向企业与开发者的中国大模型与多模态产品提供方，团队在需要文本、语音或视频生成能力时调用其模型与接口，把生成结果接入自有应用或内容生产流程；本次公开材料只给出收入与股价资金数据，具体产品流程与交付仍待核验。
+inspiration: 趋势是头部模型厂商的收入开始由真实调用需求而非单纯融资叙事支撑，模型层正在变成可计费的基础供给。切入不在正面做通用模型，而在其能力之上做垂直行业的交付层：例如为内容、客服或本地化团队按产出结果计费地封装语音与视频生成，把模型调用变成可验收的成品。
+summary_en: MiniMax is a Chinese large-model and multimodal provider serving enterprises and developers;
+  teams call its models and APIs when they need text, speech or video generation and wire the output into
+  their own applications or content pipelines. The public material here only reports revenue and stock-inflow
+  figures, so the concrete product workflow and deliverables still need verification.
+inspiration_en: 'The trend is that a leading model vendor''s revenue is now backed by real usage demand
+  rather than financing narrative alone, making the model layer a billable input. The opening is not to
+  compete head-on on general models but to build the vertical delivery layer on top: for example packaging
+  speech and video generation for content, support or localization teams and charging per accepted output
+  rather than per seat.'
 priority_review: false
-project_type: ai_transformation
+project_type: new_application
 industries:
-- 媒体与内容制作
-- 广告与营销
+- 软件与信息服务
+- 媒体与内容
+- 企业服务
 industries_en:
-- Media and content production
-- Advertising and marketing
+- Software and IT services
+- Media and content
+- Enterprise services
 jobs:
-- 视频内容制作
-- 广告素材生产
+- 企业技术采购负责人
+- 内容与产品团队负责人
+- 应用开发者
 jobs_en:
-- Video content production
-- Ad creative production
+- Enterprise technology procurement lead
+- Content and product team lead
+- Application developer
 regions:
 - 中国
 regions_en:
@@ -37,7 +42,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9X
 summary: China’s MiniMax sees revenue nearly quadruple in first half as AI demand surges WTVB
 first_seen: '2026-08-26T11:23:49Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 - officialfeeds

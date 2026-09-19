@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/makersclaw
 summary: The operating system for a company run by agents
 first_seen: '2026-09-16T10:46:19Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

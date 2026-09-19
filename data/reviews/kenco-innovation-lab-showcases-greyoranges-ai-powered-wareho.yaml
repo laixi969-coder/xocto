@@ -1,0 +1,94 @@
+- id: req-initial-kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho-2026-09-19
+  project_slug: kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho
+  level: initial
+  reviewed_at: '2026-09-19T00:21:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订单波次与多设备调度冲突下的排产难题，痛点在高峰出库时刚性，不解决的后果是堵单与错发；买方与付费路径公开材料未披露。
+    evidence_ids:
+    - ev-43dc2cc900b05229
+    - ev-7d6e07b397b53e87
+  - gate: consensus
+    status: insufficient
+    reason: 仅有创新实验室展示这一事实，没有客户名单、部署数量或运营方评价，无法判断仓储团队是否已把它纳入日常调度。
+    evidence_ids:
+    - ev-43dc2cc900b05229
+    - ev-7d6e07b397b53e87
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按仓还是按吞吐量计费、由谁采购；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-43dc2cc900b05229
+  - gate: truth
+    status: insufficient
+    reason: 没有调度准确率、出库时效或人工介入比例等可核对结果，承诺能否确定性交付无法从公开材料确认。
+    evidence_ids:
+    - ev-7d6e07b397b53e87
+  next_validation: 收集 GreyOrange 官方客户案例页或 Kenco 公开的部署说明，确认实际部署仓库数量与可核对的效果指标。
+  market: ''
+  job: 仓储运营经理在订单波次与多台机器人调度冲突时，处理订单流、库位和机器人状态数据，要完成拣选与搬运任务的分配并保证出库时效。
+  job_en: A warehouse operations manager, when order waves conflict with multiple robots' dispatch, works
+    with order flow, bin location and robot status data to allocate picking and transport tasks and keep
+    outbound deadlines.
+  pain: 人工排产难以同时兼顾订单优先级、机器人路径与库位约束，波次高峰时容易堵单、错发，靠加人加班只能缓解。
+  pain_en: Manual scheduling struggles to balance order priority, robot routing and bin constraints at
+    once, so peak waves cause congestion and mis-shipments that overtime staffing only partly relieves.
+  current_alternative: 多数仓库仍用 WMS 报表加人工排产，或用机器人厂商自带的单机调度软件，跨设备协同靠电话和表格。
+  current_alternative_en: Most warehouses still use WMS reports plus manual scheduling, or single-vendor
+    robot dispatch software, coordinating across devices by phone and spreadsheets.
+  usage_reason: 相较人工排产，它把订单、库位与机器人状态统一进一个调度模型，直接产出任务分配，减少调度员逐单比对和临时改派这一步；推断在波次密集、设备种类多的仓库里，运营团队会因此选择它。
+  usage_reason_en: Compared with manual scheduling, it unifies orders, bin locations and robot status
+    into one dispatch model and directly outputs task allocation, removing the step where dispatchers
+    compare orders one by one and reassign on the fly; by inference, operations teams at warehouses with
+    dense waves and mixed device fleets would choose it for this reason.
+- id: req-full-kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho-2026-09-19
+  project_slug: kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho
+  level: full
+  reviewed_at: '2026-09-19T00:53:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订单波次与多设备调度冲突下的排产难题，痛点在高峰出库时刚性，不解决的后果是堵单与错发；买方与付费路径公开材料未披露。
+    evidence_ids:
+    - ev-43dc2cc900b05229
+    - ev-7d6e07b397b53e87
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Kenco 创新实验室展示这一事实，没有客户名单、部署数量或运营方评价，无法判断仓储团队是否已把它纳入日常调度。
+    evidence_ids:
+    - ev-43dc2cc900b05229
+    - ev-7d6e07b397b53e87
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按仓还是按吞吐量计费、由谁采购；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-43dc2cc900b05229
+  - gate: truth
+    status: insufficient
+    reason: 没有调度准确率、出库时效或人工介入比例等可核对结果，承诺能否确定性交付无法从公开材料确认。
+    evidence_ids:
+    - ev-7d6e07b397b53e87
+  next_validation: 收集 GreyOrange 官方客户案例页或 Kenco 公开的部署说明，确认实际部署仓库数量与可核对的效果指标。
+  market: ''
+  job: 仓储运营经理或物流调度员在订单波次与多台机器人调度冲突时，处理订单流、库位和机器人状态数据，要完成拣选与搬运任务的分配并保证出库时效。
+  job_en: A warehouse operations manager or logistics dispatcher, when order waves conflict with multi-robot
+    dispatch, works with order flow, bin location and robot status data to allocate picking and transport
+    tasks and keep outbound deadlines.
+  pain: 人工排产难以同时兼顾订单优先级、机器人路径与库位约束，波次高峰时容易堵单、错发，靠加人加班只能部分缓解；公开材料仅以 Kenco 创新实验室展示该编排能力这一事实间接支持，未给出运营方自述的痛点细节。
+  pain_en: Manual scheduling struggles to balance order priority, robot routing and bin constraints at
+    once, so peak waves cause congestion and mis-shipments that overtime staffing only partly relieves;
+    public material supports this only indirectly, via the fact that Kenco's innovation lab showcased
+    the orchestration capability, with no operator-stated pain detail.
+  current_alternative: 多数仓库仍用 WMS 报表加人工排产，或用机器人厂商自带的单机调度软件，跨设备协同靠电话和表格。
+  current_alternative_en: Most warehouses still use WMS reports plus manual scheduling, or single-vendor
+    robot dispatch software, coordinating across devices by phone and spreadsheets.
+  usage_reason: 相较人工排产，它把订单、库位与机器人状态统一进一个调度模型并直接产出任务分配，减少调度员逐单比对和临时改派这一步；这是基于产品能力与任务结构作出的推断，尚无用户反馈或案例证实其动机。
+  usage_reason_en: Compared with manual scheduling, it unifies orders, bin locations and robot status
+    into one dispatch model and directly outputs task allocation, removing the step where dispatchers
+    compare orders one by one and reassign on the fly; this is an inference from product capability and
+    task structure, not yet confirmed by user feedback or cases.

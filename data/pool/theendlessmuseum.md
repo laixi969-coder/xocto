@@ -21,7 +21,7 @@ canonical_url: https://theendlessmuseum.com
 summary: The Endless Museum, Wikipedia as a walkable museum
 first_seen: '2026-09-17T18:58:09Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

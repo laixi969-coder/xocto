@@ -1,6 +1,6 @@
 ---
 slug: 亚马逊拟首次发行英镑债券为ai基建全球融资
-name: 亚马逊
+name: Amazon
 builder: ''
 category: ''
 summary_zh: 亚马逊拟首次发行英镑债券，为其全球AI基础设施建设融资；超大规模厂商的AI资本开支已大到需要动用多币种债券市场分摊，AI基建竞赛进入债务融资阶段。
@@ -23,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE1NYS1laF9scUNh
 summary: 亚马逊拟首次发行英镑债券，为AI基建全球融资 t.cj.sina.cn
 first_seen: '2026-09-08T08:46:47Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds
@@ -40,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# 亚马逊
+# Amazon
 
 亚马逊拟首次发行英镑债券，为AI基建全球融资 t.cj.sina.cn
 

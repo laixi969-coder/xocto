@@ -24,7 +24,7 @@ summary: As the tech sector sounds alarms about AI's potential to destroy humani
   on bringing generative AI into the mainstream […]
 first_seen: '2026-09-18T16:35:19Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

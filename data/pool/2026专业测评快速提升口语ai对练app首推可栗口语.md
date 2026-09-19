@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOQk02QlFwQmU5
 summary: 2026专业测评：快速提升！口语AI对练APP首推可栗口语 凤凰网科技
 first_seen: '2026-09-14T10:38:16Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

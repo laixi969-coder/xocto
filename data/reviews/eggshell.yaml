@@ -1,0 +1,86 @@
+- id: req-initial-eggshell-2026-09-19
+  project_slug: eggshell
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 重复计算导致 token 浪费与响应变慢的问题，痛点具体，旧做法是手工拼上下文或自建缓存。
+    evidence_ids:
+    - ev-15fd6ec57d8e883d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句定位，没有用户评价、采用或重复使用证据，无法判断开发者是否真的把它留在工作流里。
+    evidence_ids:
+    - ev-15fd6ec57d8e883d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按席位或按节省调用量收费都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-15fd6ec57d8e883d
+  - gate: truth
+    status: insufficient
+    reason: 记忆的准确性与过期处理是否可靠、出错时人工如何介入，公开材料均未说明。
+    evidence_ids:
+    - ev-15fd6ec57d8e883d
+  next_validation: 收集 Eggshell 官方定价页或部署文档，确认其记忆写入与复用机制及收费方式。
+  market: ''
+  job: AI 应用开发者在调试和运行需要多轮调用模型的 agent 时，处理历史任务记录与上下文，要让 agent 复用已有结果而不是每次重算。
+  job_en: AI application developers, while debugging and running agents that call models over many turns,
+    handle past task records and context so the agent reuses earlier results instead of recomputing each
+    time.
+  pain: 重复调用模型既费 token 又拖慢响应，开发者目前靠手工拼接上下文或自建缓存来绕过，维护成本高。
+  pain_en: Repeated model calls burn tokens and slow responses; developers currently work around this
+    by hand-assembling context or building their own caches, which is costly to maintain.
+  current_alternative: 手工拼接提示词、自建向量库或缓存层，或直接接受重复计算的成本。
+  current_alternative_en: Hand-assembled prompts, self-built vector stores or cache layers, or simply
+    accepting the cost of recomputation.
+  usage_reason: 推断：相较自建缓存，它把记忆的写入与复用做成现成一层，省掉开发者自己设计存储与召回逻辑这一步，因此自建 agent 且对调用成本敏感的小团队会先试用。
+  usage_reason_en: 'Inference: compared with self-built caches, it packages memory writing and reuse as
+    a ready layer, removing the step of designing storage and recall logic, so small teams building their
+    own agents and sensitive to call cost would try it first.'
+- id: req-full-eggshell-2026-09-19
+  project_slug: eggshell
+  level: full
+  reviewed_at: '2026-09-19T00:52:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 多轮调用中重复计算导致 token 浪费与响应变慢的问题，痛点具体；旧做法是手工拼上下文或自建缓存，不解决的后果是成本与延迟持续累积，交付闭环可确定。
+    evidence_ids:
+    - ev-15fd6ec57d8e883d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句定位，没有用户评价、采用或重复使用证据，无法判断开发者是否真的把它留在工作流里。
+    evidence_ids:
+    - ev-15fd6ec57d8e883d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按席位或按节省调用量收费都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-15fd6ec57d8e883d
+  - gate: truth
+    status: insufficient
+    reason: 记忆的准确性与过期处理是否可靠、出错时人工如何介入，公开材料均未说明。
+    evidence_ids:
+    - ev-15fd6ec57d8e883d
+  next_validation: 收集 Eggshell 官方定价页或部署文档，确认其记忆写入与复用机制及收费方式。
+  market: ''
+  job: AI 应用开发者在调试和运行需要多轮调用模型的 agent 时，处理历史任务记录与上下文，要让 agent 复用已有结果而不是每次从零重算。
+  job_en: AI application developers, while debugging and running agents that call models over many turns,
+    handle past task records and context so the agent reuses earlier results instead of recomputing from
+    scratch each time.
+  pain: 重复调用模型既消耗 token 又拖慢响应，开发者目前靠手工拼接上下文或自建缓存绕过，维护成本高且容易失效。
+  pain_en: Repeated model calls burn tokens and slow responses; developers currently work around this
+    by hand-assembling context or building their own caches, which is costly to maintain and easy to break.
+  current_alternative: 手工拼接提示词、自建向量库或缓存层，或直接接受重复计算的成本。
+  current_alternative_en: Hand-assembled prompts, self-built vector stores or cache layers, or simply
+    accepting the cost of recomputation.
+  usage_reason: 推断：相较自建缓存，它把记忆的写入与复用做成现成一层，省掉开发者自己设计存储与召回逻辑这一步，因此自建 agent 且对调用成本敏感的小团队会先试用。
+  usage_reason_en: 'Inference: compared with self-built caches, it packages memory writing and reuse as
+    a ready layer, removing the step of designing storage and recall logic, so small teams building their
+    own agents and sensitive to call cost would try it first.'

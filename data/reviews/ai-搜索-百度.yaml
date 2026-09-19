@@ -427,3 +427,42 @@
     source reading, and text/image generation inside one chat page, cutting tab-hopping and re-describing
     the question, so PC work and study users who need to dig into one problem continuously would pick
     it for complex questions; public materials still lack retention or payment evidence.'
+- id: req-full-ai-搜索-百度-2026-09-19
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-09-19T00:51:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度 AI 搜索官方页面是否公开独立定价、会员权益或企业采购说明，以核验付费路径与交付边界。
+  market: ''
+  job: 普通中文用户在 PC 端遇到需要多轮追问、查证或边查边写的问题时，把问题交给百度 AI 搜索，在同一页完成检索、追问、阅读与文字/图片产出。
+  job_en: Chinese PC users with questions needing multi-turn follow-up, verification, or writing-while-researching
+    hand the task to Baidu AI Search and complete search, follow-up, reading, and text/image output on
+    one page.
+  pain: 传统关键词搜索返回链接列表，用户需自行打开多个页面、筛选与拼接答案，追问要重开检索；写作与做图还要切换到别的工具，步骤割裂。
+  pain_en: Keyword search returns link lists; users must open, filter, and stitch pages themselves, restart
+    search for follow-ups, and switch tools for writing or images, fragmenting the workflow.
+  current_alternative: 旧做法是百度关键词搜索加人工翻页筛选，再配合独立写作或绘图工具；也可转向其他对话式 AI 助手。
+  current_alternative_en: The old way is Baidu keyword search with manual page filtering plus separate
+    writing or drawing tools; users may also switch to other conversational AI assistants.
+  usage_reason: 推断：相较关键词搜索，它在同一页把检索、追问、阅读与创作串成一条链，省去反复开页、复制粘贴和切换工具的动作，因此需要边查边写、边问边深挖的 PC 用户会优先选它；公开材料未提供留存或付费证据。
+  usage_reason_en: 'Inference: versus keyword search, it chains retrieval, follow-up, reading, and creation
+    on one page, removing repeated page-opening, copy-pasting, and tool-switching, so PC users who research
+    and write together would prefer it; public materials show no retention or payment evidence.'

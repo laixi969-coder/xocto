@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/ariso
 summary: AI bar raiser for the most ambitious teams
 first_seen: '2026-09-14T23:03:04Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -112,3 +112,55 @@
   usage_reason: 用户要完成的任务是：编程初学者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Beginner programmers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-agent-isles-2026-09-19
+  project_slug: agent-isles
+  level: full
+  reviewed_at: '2026-09-19T00:51:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决初学者学 AI 编程缺少可运行成果与即时反馈的需求，痛点在于教程式学习停在看懂却跑不起来；公开事实仅有关卡式岛屿世界与智能体生成代码，痛点刚性属工作流结构推理，尚无用户抱怨或放弃率佐证。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-a4d6d249900b02cb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 64 增至 119 再到 188，说明开发者社区注意到它，但收藏属关注度而非持续采用；没有 issue、discussion 或用户反馈说明谁在什么场景反复使用，也未发现中文生态对应供给。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-ab06d8fc6da08bbf
+    - ev-a4d6d249900b02cb
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费主体或采购记录，钱可能来自 to C 学习者订阅或 to B 培训采购，但均为判断而非已验证事实；开源仓库本身不构成收入路径。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-a4d6d249900b02cb
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明关卡课程体系、智能体生成代码的完成度与失败处理，也未给出人工介入或安全边界；交付能否稳定产出可运行项目缺少可复现证据。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-a4d6d249900b02cb
+  next_validation: 追踪 agent-isles 仓库的 README、issue 与 discussion，确认关卡课程结构、智能体生成项目的可运行率，以及是否出现用户复访或付费线索。
+  market: ''
+  job: 想学 AI 编程的初学者在浏览器中进入可探索的岛屿世界，按关卡把任务描述交给 AI 智能体，处理代码生成与调试材料，最终拿到一个可运行的小项目作为学习成果。
+  job_en: Beginner AI-coding learners enter an explorable island world in the browser, hand task descriptions
+    to AI agents level by level, work through generated code and debugging material, and end up with a
+    runnable small project as the learning outcome.
+  pain: 公开材料只说明它是可探索的岛屿世界加关卡式 AI 编程学习，未给出用户抱怨、卡点或放弃率；从工作流结构推理，初学者自学 AI 编程时缺少可运行成果与即时反馈，容易停在教程阶段，这是推断而非用户口述。
+  pain_en: Public material only describes an explorable island world with level-based AI coding; no user
+    complaints, blockers, or dropout data are given. By workflow inference, self-learners of AI coding
+    lack runnable outcomes and immediate feedback and stall at the tutorial stage; this is inference,
+    not user testimony.
+  current_alternative: 公开材料未说明用户现在用什么替代；结构上可对应看视频教程、读文档、在通用聊天机器人里零散提问，或直接照抄示例代码，这些替代缺少关卡化任务与可运行交付。
+  current_alternative_en: Public material does not state the current substitute; structurally it maps
+    to video tutorials, docs, scattered prompts in general chatbots, or copying sample code, none of which
+    pairs level-based tasks with a runnable deliverable.
+  usage_reason: 推断：相较看教程或零散问聊天机器人，它把任务描述直接交给智能体并生成可运行项目，减少“看懂但跑不起来”这一步落差，因此想边做边学、需要可见成果的初学者会在入门阶段选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus tutorials or scattered chatbot prompts, it hands the task description
+    to an agent and produces a runnable project, cutting the gap between understanding and running code,
+    so beginners who want learning-by-doing with a visible artifact would pick it at the entry stage;
+    no user feedback yet confirms this motive.'

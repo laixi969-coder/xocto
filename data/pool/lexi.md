@@ -31,7 +31,7 @@ canonical_url: https://producthunt.com/products/lexi-5
 summary: The operating system for legal work
 first_seen: '2026-08-10T18:11:41Z'
 last_seen: '2026-09-19T00:21:44Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - officialfeeds

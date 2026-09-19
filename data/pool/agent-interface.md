@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/agent-interface
 summary: Give AI agents a better way to use computers
 first_seen: '2026-09-15T06:39:50Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

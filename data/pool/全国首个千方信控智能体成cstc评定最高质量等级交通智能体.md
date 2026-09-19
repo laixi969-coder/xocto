@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE80NGhwendlUWVz
 summary: 全国首个！千方信控智能体成CSTC评定最高质量等级交通智能体 同花顺财经
 first_seen: '2026-09-18T02:26:51Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

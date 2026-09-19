@@ -1,6 +1,6 @@
 ---
 slug: 工业ai从概念验证走向现场部署贝加莱加速本土化转型
-name: 工业AI从概念验证走向现场部署，贝加莱加速本土化转型
+name: 贝加莱
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOT1o2VXJ4TkxG
 summary: 工业AI从概念验证走向现场部署，贝加莱加速本土化转型 Sohu
 first_seen: '2026-09-18T14:20:40Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 工业AI从概念验证走向现场部署，贝加莱加速本土化转型
+# 贝加莱
 
 工业AI从概念验证走向现场部署，贝加莱加速本土化转型 Sohu
 

@@ -193,3 +193,55 @@
     container or microVM, auto-mounts persistent workspaces and enforces resource quotas, removing the
     step of assigning machines and configuring isolation by hand, so platform engineers who must provision
     dsh for multiple members would choose it for internal deployment.'
+- id: req-full-dsh-cloud-2026-09-19
+  project_slug: dsh-cloud
+  level: full
+  reviewed_at: '2026-09-19T00:52:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队多人共用自托管 dsh 时的隔离、持久化与配额需求，痛点来自自托管形态下多人共用的干扰与资源争抢；公开材料只列功能，未给用户抱怨，故为工作流结构推理，但任务、旧替代与不解决的后果可还原。
+    evidence_ids:
+    - ev-010f10374a6dce10
+    - ev-a80cd05d5bbf135b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 63 增至 80 属关注度信号，未见 issue、讨论或团队部署反馈，无法判断共识卡在感知、场景还是利益环节，也不能据此认定持续采用。
+    evidence_ids:
+    - ev-010f10374a6dce10
+    - ev-b266bd68f23db3c1
+  - gate: model
+    status: insufficient
+    reason: 项目为开源自托管形态，公开材料未披露托管定价、付费用户或采购记录，钱可能来自自托管团队自建成本或未来托管订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a80cd05d5bbf135b
+    - ev-084935ca07fdf050
+  - gate: truth
+    status: insufficient
+    reason: 隔离容器或 microVMs、持久工作区与配额能否在真实团队规模下确定性交付，缺少部署文档、实测或案例核对，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-010f10374a6dce10
+    - ev-9512d8ac5cffe335
+  next_validation: 追踪 dsh-cloud 仓库的 issue 与 discussion，确认是否有团队实际部署并反馈隔离、配额与运维负担。
+  market: ''
+  job: 研发团队的平台或基础设施工程师要在公司内网或自有服务器上部署 DeepSeek Harness，为多名成员分配彼此隔离、可持久保存且带资源上限的工作区，并统一管理访问权限。
+  job_en: Platform or infrastructure engineers on an R&D team need to deploy DeepSeek Harness on the company
+    intranet or their own servers, give multiple members mutually isolated, persistent workspaces with
+    resource caps, and manage access centrally.
+  pain: 公开材料显示 dsh 本身是自托管形态，团队多人共用时若没有隔离工作区、持久存储、访问控制与配额，成员之间会互相干扰、工作区无法留存、资源被单点占满；这些正是产品明确要补齐的环节，属于工作流结构推理，候选资料未给出用户抱怨原文。
+  pain_en: Public material shows dsh is self-hosted; when a team shares it without isolated workspaces,
+    persistent storage, access control and quotas, members interfere with each other, workspaces are not
+    retained, and resources can be exhausted by one user. These are exactly the gaps the product targets;
+    this is workflow-structure inference, not quoted user complaints.
+  current_alternative: 旧做法是团队自行用 Docker、调度工具和手工账号管理拼出一套多用户环境，或让成员各自本地跑 dsh 实例，缺少统一配额与访问控制。
+  current_alternative_en: The old approach is for the team to assemble a multi-user environment from Docker,
+    scheduling tools and manual account management, or to let each member run a local dsh instance, without
+    unified quotas or access control.
+  usage_reason: 推断：相较自建容器与手工账号管理，它把隔离工作区、持久存储、访问控制与资源配额打包成可直接自托管部署的多用户平台，减少团队自己拼装隔离与配额逻辑这一步，因此需要在内网多人共用
+    dsh 且不愿自行维护这套基础设施的团队会选它。
+  usage_reason_en: 'Inference: versus self-built containers and manual account management, it packages
+    isolated workspaces, persistent storage, access control and resource quotas into a directly self-hostable
+    multi-user platform, removing the step of assembling isolation and quota logic, so teams that must
+    share dsh internally and do not want to maintain that infrastructure themselves would choose it.'

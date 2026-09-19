@@ -1,6 +1,6 @@
 ---
 slug: 港股异动-华曦达00901涨超7-公司全面展示可部署ai-home服务转化实践路径获gcp生态背书
-name: 港股异动| 华曦达(00901)涨超7% 公司全面展示可部署AI Home服务转化实践路径获GCP“生态背书”
+name: 华曦达
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBueHJqaVhOREZ4
 summary: 港股异动| 华曦达(00901)涨超7% 公司全面展示可部署AI Home服务转化实践路径获GCP“生态背书” i.ifeng.com
 first_seen: '2026-09-18T02:51:45Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 港股异动| 华曦达(00901)涨超7% 公司全面展示可部署AI Home服务转化实践路径获GCP“生态背书”
+# 华曦达
 
 港股异动| 华曦达(00901)涨超7% 公司全面展示可部署AI Home服务转化实践路径获GCP“生态背书” i.ifeng.com
 

@@ -1,0 +1,91 @@
+- id: req-initial-codex-gpu-queue-2026-09-19
+  project_slug: codex-gpu-queue
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决单卡下多会话争抢 GPU、需手动停启的问题，痛点具体；但公开材料只有一句描述，无法确认排队是否真的减少人工干预，价值判断只能算结构上可能成立。
+    evidence_ids:
+    - ev-3cb4bd0b00d91997
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句话外没有用户评价、社区讨论或采用信号，无法判断开发者是否真的需要独立排队层，还是直接用现有脚本即可。
+    evidence_ids:
+    - ev-3cb4bd0b00d91997
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；单卡开发者付费意愿通常有限，是否向小团队按席位或按任务收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-3cb4bd0b00d91997
+  - gate: truth
+    status: insufficient
+    reason: 无法核对排队是否确定性交付、失败任务如何处理、是否需人工确认；这些正是决定它能否贴近编码工作第一性目标的关键环节。
+    evidence_ids:
+    - ev-3cb4bd0b00d91997
+  next_validation: 收集该产品的官方说明或仓库文档，核对其排队调度机制、是否支持多机与失败重试，以及是否公布定价或使用数据。
+  market: ''
+  job: 个人开发者或小团队在本地只有一块 GPU 的情况下，同时提交多个 Codex 编码会话，需要让这些任务依次执行并拿到各自结果。
+  job_en: An individual developer or small team with only one local GPU submits several Codex coding sessions
+    at once and needs them to run in order and return their own results.
+  pain: 多个会话争抢同一块 GPU 时，用户要手动停掉一个再启动另一个，任务排队和上下文切换都靠人盯，容易中断或空转。
+  pain_en: When several sessions compete for the same GPU, the user must manually stop one to start another,
+    with queuing and context switching watched by hand, which easily causes interruption or idle time.
+  current_alternative: 旧做法是手动串行运行会话、用终端脚本或通用任务队列工具自行拼装，缺少针对编码会话的排队与状态管理。
+  current_alternative_en: The old approach is to run sessions serially by hand or assemble terminal scripts
+    and generic job-queue tools, lacking queueing and state management tailored to coding sessions.
+  usage_reason: 推断：它把并发会话收进一个队列统一调度，省去用户手动停启和盯守这一步，因此单卡开发者会在同时跑多个编码任务时选择它；但公开材料未给出调度机制、留存或付费证据，无法确认用户是否长期留在工作流里。
+  usage_reason_en: 'Inference: it collects concurrent sessions into one queue for unified scheduling,
+    removing the manual stop-start and watching step, so single-GPU developers would choose it when running
+    several coding tasks at once; however, the public material gives no scheduling mechanism, retention,
+    or payment evidence, so long-term workflow use cannot be confirmed.'
+- id: req-full-codex-gpu-queue-2026-09-19
+  project_slug: codex-gpu-queue
+  level: full
+  reviewed_at: '2026-09-19T00:52:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决单卡下多个 Codex 会话争抢 GPU、需手动停启的问题，痛点具体且刚性；旧替代是手动串行或自拼脚本，不解决就持续中断空转。产品以队列统一调度交付结果，属工作流结构推理，公开材料仅一句描述，故为结构成立而非已验证。
+    evidence_ids:
+    - ev-82fca0506372ea0e
+    - ev-1f772b5e57f39067
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句话外，没有用户评价、社区讨论或采用信号，无法判断开发者是否真的需要独立排队层，还是直接用现有脚本即可；关注度不等于持续采用。
+    evidence_ids:
+    - ev-9db1b30370a52e5a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；单卡开发者付费意愿通常有限，向小团队按席位或按任务收费只是推断，不是已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-a346498cd4dde81a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对排队是否确定性交付、失败任务如何处理、是否需人工确认；这些正是决定它能否贴近编码工作第一性目标的关键环节，公开材料未覆盖。
+    evidence_ids:
+    - ev-1f772b5e57f39067
+  next_validation: 追踪该产品的官方仓库或文档，核对排队调度机制、失败重试与多机支持，并查看是否公布定价或使用数据。
+  market: ''
+  job: 个人开发者或小团队在本地只有一块 GPU 时，同时提交多个 Codex 编码会话，需要这些会话依次执行并各自返回结果，而不是互相抢占显存与算力。
+  job_en: An individual developer or small team with only one local GPU submits several Codex coding sessions
+    at once and needs them to run in sequence and each return its own result, instead of competing for
+    VRAM and compute.
+  pain: 多个 Codex 会话争抢同一块 GPU 时，用户要手动停掉一个再启动另一个，排队与上下文切换全靠人盯，容易中断或空转；这是从单卡并发这一工作流结构推出的痛点，公开材料未给出用户抱怨或频率数据。
+  pain_en: When several Codex sessions compete for one GPU, the user must manually stop one to start another,
+    with queueing and context switching watched by hand, easily causing interruption or idle time; this
+    pain is inferred from the single-GPU concurrency workflow structure, and public materials give no
+    user complaints or frequency data.
+  current_alternative: 旧做法是手动串行运行会话，或用终端脚本、通用任务队列工具自行拼装，缺少针对编码会话的排队与状态管理。
+  current_alternative_en: The old approach is to run sessions serially by hand or assemble terminal scripts
+    and generic job-queue tools, lacking queueing and state management tailored to coding sessions.
+  usage_reason: 推断：相较手动停启或自拼脚本，它把并发 Codex 会话收进一个队列统一调度，省去用户盯守与手动切换这一步，因此单卡开发者会在同时跑多个编码任务时选择它；公开材料未给出调度机制、留存或付费证据，长期留在工作流中尚不能确认。
+  usage_reason_en: 'Inference: compared with manual stop-start or self-assembled scripts, it collects
+    concurrent Codex sessions into one queue for unified scheduling, removing the watching and manual
+    switching step, so single-GPU developers would choose it when running several coding tasks at once;
+    public materials give no scheduling mechanism, retention, or payment evidence, so long-term workflow
+    use cannot be confirmed.'

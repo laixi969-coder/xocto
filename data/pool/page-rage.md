@@ -21,7 +21,7 @@ canonical_url: https://page-rage.com
 summary: Free game to destroy any web page
 first_seen: '2026-09-17T21:40:18Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

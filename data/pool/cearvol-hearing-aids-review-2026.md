@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5sQWpibDFiMG5V
 summary: Cearvol Hearing Aids Review 2026 The National Council on Aging (NCOA)
 first_seen: '2026-09-16T04:00:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: china-ai-startup-manus-pursues-500m-fundraise-considers-hong
-name: 'China AI startup Manus pursues $500M fundraise; considers Hong Kong IPO after Meta split: report'
+name: Manus
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: 'China AI startup Manus pursues $500M fundraise; considers Hong Kong IP
   Seeking Alpha'
 first_seen: '2026-09-18T13:37:36Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# China AI startup Manus pursues $500M fundraise; considers Hong Kong IPO after Meta split: report
+# Manus
 
 China AI startup Manus pursues $500M fundraise; considers Hong Kong IPO after Meta split: report Seeking Alpha
 

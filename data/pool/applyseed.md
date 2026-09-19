@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/applyseed
 summary: Raise your seed from accelerators
 first_seen: '2026-09-16T20:22:02Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

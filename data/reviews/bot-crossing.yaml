@@ -458,3 +458,51 @@
     burden of setting up a simulation by providing a ready-made game world and action interface, so developers
     needing quick demos or agent comparisons might choose it; however, public materials contain no user
     feedback or case support for this motive, nor retention or repeat-use evidence.'
+- id: req-full-bot-crossing-2026-09-19
+  project_slug: bot-crossing
+  level: full
+  reviewed_at: '2026-09-19T00:51:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 agent 决策能力缺少现成、可交互评测环境的需求，痛点是自建模拟器成本高且结果难比较；不采用则只能靠自研或人工观察。这是基于产品说明与工作流结构的推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-f5ced5ac8c0891f5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 524 增至 617，说明英文生态开发者持续关注该项目，但收藏与复刻属关注度指标，不能证明它已被纳入日常评测流程；中文生态检索未发现对应供给。
+    evidence_ids:
+    - ev-f5ced5ac8c0891f5
+    - ev-a70930530c5bcb0d
+    - ev-2352cc90f5c72a9e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价、付费主体或采购记录，无法判断收入来自个人开发者、企业授权还是赞助；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-6e4ef6f419f78e75
+  - gate: truth
+    status: insufficient
+    reason: 游戏机制、可复现的评测结果与 agent 接入方式在公开材料中仅有“为 AI agent 设计的视频游戏”一句，交付能否稳定发生、以及人工与安全边界尚缺可核验文档。
+    evidence_ids:
+    - ev-c16062d6e73cc12d
+  next_validation: 追踪 bot-crossing 官网与公开仓库的 README、release 与 issue/discussion，确认 agent 接入方式、可复现的评测输出与真实使用反馈。
+  market: ''
+  job: AI 工程师或游戏开发者在需要评估、演示或训练 agent 的决策能力时，把 agent 接入一个游戏化环境，让 agent 输出动作指令、环境返回世界状态，从而观察其在复杂任务中的表现。
+  job_en: An AI engineer or game developer evaluating, demoing or training an agent's decision-making
+    connects the agent to a game-like environment where the agent emits actions and the world returns
+    state, so its behavior on complex tasks can be observed.
+  pain: 自建评测环境需要自己写模拟器、状态反馈和计分逻辑，成本高且难以横向比较不同 agent；公开材料只给出“为 AI agent 设计的视频游戏”这一句，未提供用户抱怨原文，痛点强度属结构推理。
+  pain_en: Building an evaluation environment means writing the simulator, state feedback and scoring
+    yourself, which is costly and hard to compare across agents; public material only states it is a video
+    game for AI agents, with no quoted user complaints, so pain intensity is inferred.
+  current_alternative: 当前替代是自研简易模拟环境、使用通用 benchmark 套件，或直接在真实任务上人工观察 agent 表现。
+  current_alternative_en: Today the alternatives are a self-built toy simulator, generic benchmark suites,
+    or manually watching agents on real tasks.
+  usage_reason: 推断：相较自研模拟器，它直接提供一个现成的游戏化交互环境，省掉搭建状态反馈与计分这一步，因此需要快速演示或对比 agent 决策能力的工程师会在评测和展示场景中选择它；仓库收藏从
+    524 增至 617 只反映关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus a self-built simulator, it supplies a ready game-like interaction
+    environment, removing the step of building state feedback and scoring, so engineers needing quick
+    demos or agent comparisons would choose it for evaluation and showcase; stars rising from 524 to 617
+    reflect attention only, not sustained use.'

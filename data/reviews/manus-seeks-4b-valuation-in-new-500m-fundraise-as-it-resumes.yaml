@@ -1,0 +1,93 @@
+- id: req-initial-manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-2026-09-19
+  project_slug: manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes
+  level: initial
+  reviewed_at: '2026-09-19T00:21:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多步任务需人工串联工具、交付被流程占满的问题，痛点在需要一次性成品的场景中成立；谁付钱公开材料未说明。
+    evidence_ids:
+    - ev-353f164f4cbb6d5c
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资洽谈这一事实，没有用户规模、使用频次或社区评价，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-353f164f4cbb6d5c
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价、订阅或按量计费方式与付费用户数；融资叙事不等于已验证付费路径，存在每日优鲜风险。
+    evidence_ids:
+    - ev-353f164f4cbb6d5c
+  - gate: truth
+    status: insufficient
+    reason: 没有交付成功率、人工返工比例或任务边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-353f164f4cbb6d5c
+  next_validation: 收集 Manus 官方定价页或公开客户案例，确认计费方式与实际付费使用情况。
+  market: ''
+  job: 知识工作者或运营人员在需要交付一份调研、方案或网页时，处理零散资料与任务要求，要完成从拆解步骤到产出成品的全过程。
+  job_en: A knowledge worker or operations staffer, when needing to deliver research, a proposal or a
+    web page, works with scattered materials and task requirements to complete everything from step decomposition
+    to a finished output.
+  pain: 多步任务要在多个工具间来回切换、手动串联，重复劳动多且容易漏步，交付时间被流程而非思考占满。
+  pain_en: Multi-step tasks require switching among many tools and stitching steps manually, creating
+    repetitive work and missed steps, with delivery time consumed by process rather than thinking.
+  current_alternative: 用户目前靠自己在浏览器、文档与脚本之间手动串联，或分别使用单点 AI 工具再人工拼接结果。
+  current_alternative_en: Users currently chain browsers, documents and scripts manually, or use single-point
+    AI tools separately and stitch the results by hand.
+  usage_reason: 相较手动串联多个工具，它把拆解、调用与产出收进一次任务执行，减少用户在工具间搬运中间结果这一步；推断需要一次性拿到完整成品的用户会因此选择它，但公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with manually chaining tools, it folds decomposition, tool calls and output
+    into one task run, removing the step of moving intermediate results between tools; by inference, users
+    who need a complete deliverable in one pass would choose it, though no retention or repeat-purchase
+    evidence is public.
+- id: req-full-manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-2026-09-19
+  project_slug: manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes
+  level: full
+  reviewed_at: '2026-09-19T00:53:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多步任务需人工串联工具、交付被流程占满的问题，痛点在需要一次性成品的场景中刚性；官网称其为执行任务、自动化工作流的行动引擎，可还原输入—动作—交付闭环，属工作流结构推理；谁付钱公开材料未说明。
+    evidence_ids:
+    - ev-9814b706e9ce5fee
+    - ev-584314353bad03a7
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 Meta 收购洽谈与新一轮融资估值讨论，属关注度与资本信号；没有用户规模、使用频次、社区评价或客户案例，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-9961b8f3bf2891a7
+    - ev-d3ab4e75be67c087
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价、订阅或按量计费方式与付费用户数，买方是个人订阅还是企业采购无法确认；仅融资叙事支撑估值，存在每日优鲜风险，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9961b8f3bf2891a7
+  - gate: truth
+    status: insufficient
+    reason: 没有交付成功率、人工返工比例或任务边界说明，官网仅称其执行任务并自动化工作流，承诺能否确定性交付无法核对，安全与人工复核边界也未公开。
+    evidence_ids:
+    - ev-9814b706e9ce5fee
+    - ev-584314353bad03a7
+  next_validation: 追踪 Manus 官网定价页与公开客户案例（manus.im 定价或 case study 页面），确认计费方式、买方类型与实际付费使用情况。
+  market: ''
+  job: 知识工作者或运营人员在需要交付一份调研、方案或网页成品时，把目标、零散资料与约束交给 Manus，由它拆解步骤、调用工具并产出文档或网页，用户再确认修改。
+  job_en: A knowledge worker or operations staffer who must deliver research, a proposal or a web page
+    hands goals, scattered materials and constraints to Manus, which decomposes steps, calls tools and
+    produces a document or page for the user to confirm and revise.
+  pain: 多步任务要在浏览器、文档与脚本之间手动串联，中间结果靠人工搬运，重复劳动多、易漏步，交付时间被流程而非思考占满。
+  pain_en: Multi-step tasks must be stitched manually across browsers, documents and scripts, with intermediate
+    results carried by hand, causing repetitive work, missed steps and delivery time consumed by process
+    rather than thinking.
+  current_alternative: 用户目前靠自己在浏览器、文档与脚本之间手动串联，或分别使用 ChatGPT、Gemini、Perplexity 等单点 AI 工具再人工拼接结果。
+  current_alternative_en: Users currently chain browsers, documents and scripts by hand, or use single-point
+    AI tools such as ChatGPT, Gemini and Perplexity separately and stitch the results manually.
+  usage_reason: 相较手动串联多个单点工具，Manus 把拆解、工具调用与成品产出收进一次任务执行，减少用户在工具间搬运中间结果这一步，因此需要一次性拿到完整成品的知识工作者会在该情境下选择它；此为基于产品说明与旧流程的结构推理，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with manually chaining single-point tools, Manus folds decomposition, tool
+    calls and deliverable production into one task run, removing the step of moving intermediate results
+    between tools; by inference from the product description and the old workflow, knowledge workers needing
+    a complete deliverable in one pass would choose it, though no retention or repeat-use evidence is
+    public.

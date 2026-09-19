@@ -77,3 +77,52 @@
   usage_reason: 用户要完成的任务是：AI 应用后端开发者、agent 平台工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI application backend developers, Agent platform engineers Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-agent-work-runtime-2026-09-19
+  project_slug: agent-work-runtime
+  level: full
+  reviewed_at: '2026-09-19T00:51:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长时 agent 的状态持久与上下文最小化需求：不解决则任务中断后从头重跑、上下文超限，开发者须自建状态保存与恢复。公开仓库说明与 129→130 收藏显示开发者已关注，属工作流结构推理，痛点刚性、交付可确定。
+    evidence_ids:
+    - ev-6e8931a5428c3c24
+    - ev-106d3b6f25acc054
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 129 至 130 个收藏，说明开发者注意到该项目，但无 issue、discussion 或客户案例显示它被持续部署进长任务工作流，共识证据不足。
+    evidence_ids:
+    - ev-6e8931a5428c3c24
+    - ev-106d3b6f25acc054
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断 to C、to B 还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-6e8931a5428c3c24
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺持久状态与最小上下文，但缺少部署文档、issue 或可复现实测来验证中断恢复能否稳定发生，以及人工与安全边界如何界定。
+    evidence_ids:
+    - ev-6e8931a5428c3c24
+    - ev-106d3b6f25acc054
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者在真实长任务场景中报告中断恢复与上下文裁剪的实际使用结果。
+  market: ''
+  job: AI 应用后端开发者或 agent 平台工程师在构建需要长时间运行的 agent 时，把 agent 的运行状态与上下文材料交给该运行时，由它保存持久工作状态并只保留最小上下文，让长任务中断后能接着跑。
+  job_en: AI application backend developers or agent platform engineers building long-running agents hand
+    the agent's runtime state and context material to this runtime, which persists work state and keeps
+    only minimal context so long tasks can resume after interruption.
+  pain: 长任务 agent 一旦进程中断或上下文超限，开发者要自己维护会话状态、裁剪上下文并实现恢复逻辑，否则任务从头重跑，浪费 token 与时间；这是构建长时 agent 的结构性负担。
+  pain_en: When a long-running agent's process is interrupted or context overflows, developers must maintain
+    session state, trim context, and implement recovery themselves; otherwise the task restarts from scratch,
+    wasting tokens and time. This is a structural burden of building long-running agents.
+  current_alternative: 开发者自行在应用层维护会话状态、上下文裁剪与中断恢复，或依赖 agent 框架自带的记忆与状态组件。
+  current_alternative_en: Developers maintain session state, context trimming, and interruption recovery
+    in their own application layer, or rely on memory and state components bundled with agent frameworks.
+  usage_reason: 推断：相较自行在应用层维护状态与恢复逻辑，它把持久工作状态与最小上下文作为运行时能力直接提供，减少开发者自己实现状态保存与上下文裁剪这一步；需要跑长任务、又不想自建恢复机制的
+    agent 后端开发者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus maintaining state and recovery logic in the application layer, it
+    provides persistent work state and minimal context as runtime capabilities, removing the step of implementing
+    state persistence and context trimming; backend agent developers running long tasks who don''t want
+    to build recovery themselves would choose it in that situation.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UVVBGQ1VlUDZf
 summary: 与激情共鸣，华为云携手AG体育注册登录，共启智能体育新纪元 体坛
 first_seen: '2026-09-05T07:13:01Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

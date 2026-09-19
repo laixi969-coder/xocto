@@ -79,3 +79,57 @@
   usage_reason: 用户要完成的任务是：安全运营中心分析师、威胁情报分析师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Security operations center analyst, Threat intelligence analyst Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-threatintel-aggregator-2026-09-19
+  project_slug: threatintel-aggregator
+  level: full
+  reviewed_at: '2026-09-19T00:54:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多源威胁情报聚合、分诊并转成检测规则的需求，痛点在情报量大、人工逐条处理易漏且检测覆盖滞后；不处理的后果是已知攻击技术无规则覆盖。当前替代是跨门户手工汇总加手写 Sentinel
+      规则。以上为工作流结构推理，公开仓库说明支持输入—动作—交付闭环，但尚无用户痛点或案例直接佐证。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+    - ev-71a4d2dd9bdbbe50
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 41 升至 42，说明有开发者注意到该项目，但收藏与复刻属关注度证据，不能证明安全运营团队已把它放进日常流程或持续使用；缺少 issue、discussion 或部署反馈说明谁在何种场景采用。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+    - ev-71a4d2dd9bdbbe50
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断收入来自 to B 安全团队、Azure 生态集成方还是 to VC；自托管开源形态下付费路径不明，这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺 AI 分诊并生成 Sentinel 检测内容，但公开材料未披露分诊准确率、误报处理方式与人工确认边界，交付能否稳定发生缺少可复现证据；自托管部署与 Azure 集成文档也未见公开核验。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+    - ev-71a4d2dd9bdbbe50
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认是否有安全团队公开描述实际部署场景、替代的旧流程与 AI 分诊结果的人工确认方式。
+  market: ''
+  job: 安全运营中心分析师或威胁情报分析师在每日值班时，面对多个外部情报源推送的零散 IOC、报告与告警，需要把它们整理、分诊并转成可落地的检测规则，最终产出经人工确认的情报条目与可对接 Azure
+    Sentinel 的检测内容。
+  job_en: A SOC analyst or threat intelligence analyst on daily shift receives scattered IOCs, reports
+    and alerts from multiple external feeds, and must triage them into usable detection rules, delivering
+    human-confirmed intelligence items and Azure Sentinel-ready detection content.
+  pain: 公开材料显示痛点在多源情报的聚合与分诊环节：情报源分散、条目量大，人工逐条阅读、去重、映射 MITRE ATT&CK 并写成检测规则耗时且易漏；不处理的后果是检测覆盖滞后、已知攻击技术未被规则覆盖。这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: 'Public materials locate the pain in aggregation and triage across many feeds: scattered sources
+    and high item volume make manual reading, deduplication, ATT&CK mapping and rule authoring slow and
+    error-prone; leaving it unsolved means lagging detection coverage for known techniques. This is inferred
+    from product description and workflow structure, not yet from user complaints or cases.'
+  current_alternative: 旧做法是分析师在多个情报源门户之间切换，用表格或工单手工汇总 IOC，再凭经验映射 ATT&CK 并手写 Sentinel 规则；也可能只订阅单一商业情报源，放弃跨源聚合。公开材料未给出用户实际替代流程的细节。
+  current_alternative_en: The old way is analysts switching between feed portals, manually consolidating
+    IOCs in spreadsheets or tickets, mapping ATT&CK by experience and hand-writing Sentinel rules; or
+    subscribing to a single commercial feed and forgoing cross-source aggregation. Public materials do
+    not detail the actual replacement workflow.
+  usage_reason: 推断：相较手工跨源汇总，该产品把聚合、AI 初筛与 ATT&CK 映射串成一条流水线，并直接产出可导入 Sentinel 的检测内容，减少的是逐条阅读与手写规则这两步负担；因此已用
+    Azure Sentinel 且需要覆盖多源情报的团队，会在情报量大、人手有限时选择它，但仍需分析师确认结果。
+  usage_reason_en: 'Inference: versus manual cross-source consolidation, it chains aggregation, AI triage
+    and ATT&CK mapping into one pipeline and outputs Sentinel-importable detection content, cutting the
+    per-item reading and hand-written rule steps; teams already on Azure Sentinel needing multi-feed coverage
+    would choose it when volume is high and staff limited, with analyst confirmation still required.'

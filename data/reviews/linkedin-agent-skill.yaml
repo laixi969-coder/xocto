@@ -345,3 +345,58 @@
     callable skills, so users do not maintain their own template library or rewrite line by line and get
     a score before publishing; that is why LinkedIn operators who need steady weekly output but do not
     want to draft from scratch would pick it. Stars rising from 112 to 230 shows attention, not'
+- id: req-full-linkedin-agent-skill-2026-09-19
+  project_slug: linkedin-agent-skill
+  level: full
+  reviewed_at: '2026-09-19T00:53:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LinkedIn 账号持续产出内容与回评的需求，痛点是周更压力与 AI 文本痕迹损伤个人品牌；公开仓库说明给出钩子公式、评论回复、资料页评分与发布前去 AI 打分，可还原输入—动作—交付闭环，属工作流结构推理，尚无用户抱怨或后果的一手证据。
+    evidence_ids:
+    - ev-fedcc3c2a97fa5e5
+    - ev-ae28986b9f515e07
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 184 增至 393，说明英文开发者社区持续关注并把它加入收藏；但这是关注度证据，公开材料未见用户评价、复刻后实际使用或留存说明，不能据此断言已进入长期工作流。
+    evidence_ids:
+    - ev-fedcc3c2a97fa5e5
+    - ev-ae28986b9f515e07
+  - gate: model
+    status: insufficient
+    reason: 技能标注为免费，公开材料未见定价页、付费层级或企业采购路径，谁付钱尚不可知；这是判断而非已验证事实，免费开源也可能靠引流或后续服务变现，属商业证据缺口。
+    evidence_ids:
+    - ev-fedcc3c2a97fa5e5
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称草稿需用户确认后发布，人工边界清晰；但去 AI 痕迹打分能否稳定降低被识别率、钩子公式是否真带来互动，均无公开实测或结果数据，交付确定性未核验。
+    evidence_ids:
+    - ev-fedcc3c2a97fa5e5
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开报告实际发布后的互动变化或去 AI 打分与平台识别结果的一致性。
+  market: ''
+  job: 做个人品牌或代运营 LinkedIn 账号的人（创始人、顾问、SDR、代运营者）在需要按周持续产出帖子、评论和回复时，把账号定位与素材交给这组 Claude 技能，产出可发布的草稿、评论回复和资料页评分，再自行确认后发布。
+  job_en: People building a personal brand or running a LinkedIn account (founders, consultants, SDRs,
+    agency operators) hand their positioning and raw material to this set of Claude skills when they need
+    to keep producing posts, comments and replies on a weekly cadence, and get back publishable drafts,
+    comment replies and a profile score to approve before posting.
+  pain: LinkedIn 内容运营的痛点是持续产出压力：每周都要想钩子、写帖、回评，断更就掉曝光；同时 AI 生成文本带有明显痕迹，发出去会被读者识别为机器稿而损伤个人品牌。公开材料只给出功能与仓库收藏增长，未提供用户抱怨或后果的原始陈述，痛点强度属工作流结构推理。
+  pain_en: 'The pain in LinkedIn content operations is the pressure of continuous output: hooks, posts
+    and replies must be produced every week or reach decays; at the same time AI-generated text carries
+    a recognizable fingerprint that damages a personal brand when published. Public material only shows
+    features and rising repo stars, not first-hand user complaints, so pain intensity is a workflow-structure
+    inference.'
+  current_alternative: 旧做法是自己在编辑器里从零写帖、凭经验套钩子、手动回评，或直接用通用大模型生成后人工改写去 AI 味；也有人用 Buffer、Taplio 等排程与内容工具，但它们不提供钩子公式库与发布前去
+    AI 痕迹打分这一组合。
+  current_alternative_en: The old way is writing posts from scratch in an editor, applying hooks by intuition,
+    replying manually, or generating with a general LLM and hand-editing to remove the AI tone; scheduling/content
+    tools like Buffer or Taplio exist but do not combine a hook-formula library with a pre-publish AI-fingerprint
+    score.
+  usage_reason: 相较从零手写或通用大模型直出，它把 21 条钩子公式、评论/回复模板和去 AI 痕迹打分打包成 Claude 内可调用的技能，用户在同一个对话里完成选题到草稿再到自检，省掉在多个工具间搬运和事后逐句改写去
+    AI 味这一步；推断会优先被已在用 Claude 且需要稳定周更的 LinkedIn 运营者选用。
+  usage_reason_en: Compared with writing from scratch or raw LLM output, it packages 21 hook formulas,
+    comment/reply templates and an AI-fingerprint score into Claude-callable skills, so the user goes
+    from topic to draft to self-check in one conversation, removing the step of shuttling between tools
+    and hand-editing every sentence to strip AI tone; inference is that LinkedIn operators already using
+    Claude and needing steady weekly output would pick it.

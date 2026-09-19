@@ -1,0 +1,90 @@
+- id: req-initial-meshedit-2026-09-19
+  project_slug: meshedit
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决游戏资产绑定与动画耗时的问题，痛点方向成立，但公开材料未说明 AI 具体替代哪一步，也未给出旧流程对比，价值判断证据不足。
+    evidence_ids:
+    - ev-3973391f29f604fd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布记录，没有用户评价、案例或重复使用信号，无法判断是否形成共识。
+    evidence_ids:
+    - ev-3973391f29f604fd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，浏览器内工具可能按席位或按资产收费，属推断，不是已验证事实。
+    evidence_ids:
+    - ev-3973391f29f604fd
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成资产能否确定性交付到游戏引擎，也看不到人工确认边界，交付可靠性未明。
+    evidence_ids:
+    - ev-3973391f29f604fd
+  next_validation: 收集 MeshEdit 官方产品页或文档，确认其导出格式、AI 介入的具体步骤与是否公布定价。
+  market: ''
+  job: 游戏美术或独立开发者在制作角色、道具等游戏资产时，需要完成建模、骨骼绑定和动画，并把结果导出到游戏引擎中使用。
+  job_en: A game artist or indie developer producing character and prop assets needs to model, rig and
+    animate them and export the result into a game engine.
+  pain: 绑定与动画在传统桌面软件里步骤多、耗时长，小团队往往缺少专职动画人员；但公开材料没有说明该产品具体省掉哪一步，也没有用户抱怨或案例佐证。
+  pain_en: Rigging and animation involve many steps and long hours in traditional desktop software, and
+    small teams often lack a dedicated animator; however the public material does not say which step this
+    product removes, and there are no user complaints or cases as support.
+  current_alternative: 现有做法是使用 Blender、Maya 等桌面软件手工绑定与制作动画，或把资产外包给美术团队。
+  current_alternative_en: The current approach is manual rigging and animation in desktop software such
+    as Blender or Maya, or outsourcing assets to an art team.
+  usage_reason: 推断：如果它真能在浏览器里把绑定与动画从手工步骤变成一次生成加人工修正，用户省下的是逐骨骼调整的时间，独立开发者和小型美术团队在赶版本时可能选择它；但公开材料未给出任何采用或留存证据，这一因果仍属推断。
+  usage_reason_en: 'Inference: if it truly turns rigging and animation from manual steps into one generation
+    plus human correction inside the browser, users save the time spent adjusting bones one by one, and
+    indie developers or small art teams on a deadline might choose it; but no adoption or retention evidence
+    is public, so this causal claim remains an inference.'
+- id: req-full-meshedit-2026-09-19
+  project_slug: meshedit
+  level: full
+  reviewed_at: '2026-09-19T00:53:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏资产绑定与动画耗时、小团队缺专职动画人员的需求，痛点刚性来自版本节点前必须交付可用资产；浏览器内完成建模到动画的闭环在结构上替代桌面软件逐骨骼手工流程，属工作流推理，公开材料未说明
+      AI 具体介入哪一步。
+    evidence_ids:
+    - ev-3973391f29f604fd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布记录，没有用户评价、案例或重复使用信号，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-3973391f29f604fd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，浏览器内工具可能按席位或按资产收费，这是判断而非已验证事实；公开材料也未说明是 to C 独立开发者还是 to B 工作室采购。
+    evidence_ids:
+    - ev-3973391f29f604fd
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成资产能否确定性交付到游戏引擎，导出格式、AI 介入步骤与人工确认边界均未公开，交付可靠性未明。
+    evidence_ids:
+    - ev-3973391f29f604fd
+  next_validation: 收集 MeshEdit 官方产品页或文档，核验其导出格式、AI 介入的具体步骤与是否公布定价。
+  market: ''
+  job: 游戏美术或独立开发者在制作角色、道具等游戏资产时，需要完成建模、骨骼绑定与动画，并把结果导出到游戏引擎中使用。
+  job_en: A game artist or indie developer producing character and prop assets needs to model, rig and
+    animate them and export the result into a game engine.
+  pain: 绑定与动画在 Blender、Maya 等桌面软件里步骤多、耗时长，小团队常缺专职动画人员，赶版本时这一步最容易卡住；公开材料只给出产品定位，未提供用户抱怨或案例佐证。
+  pain_en: Rigging and animation involve many steps and long hours in desktop tools such as Blender or
+    Maya, and small teams often lack a dedicated animator, so this step is the most likely bottleneck
+    near a deadline; the public material only states the product positioning and offers no user complaints
+    or cases.
+  current_alternative: 现有做法是在 Blender、Maya 等桌面软件里手工逐骨骼绑定与制作动画，或把资产外包给美术团队。
+  current_alternative_en: The current approach is manual bone-by-bone rigging and animation in desktop
+    software such as Blender or Maya, or outsourcing assets to an art team.
+  usage_reason: 推断：相较桌面软件逐骨骼调整，它把建模、绑定、动画收进浏览器一次流程，省去安装配置与在工具间搬运资产的动作，独立开发者和小型美术团队在赶版本、缺专职动画人员时可能选择它；公开材料未给出采用或留存证据，此因果仍属推断。
+  usage_reason_en: 'Inference: compared with bone-by-bone work in desktop software, it folds modeling,
+    rigging and animation into one browser flow, removing install/config and asset-shuttling between tools,
+    so indie developers and small art teams short on animators near a deadline might choose it; no adoption
+    or retention evidence is public, so this causal claim remains an inference.'

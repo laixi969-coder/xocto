@@ -1,6 +1,6 @@
 ---
 slug: amazon-india-targets-15-million-small-businesses-with-ai-by
-name: Amazon India Targets 15 Million Small Businesses With AI by 2030; Eyes Next Phase of MSME Growth
+name: Amazon India
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Amazon India Targets 15 Million Small Businesses With AI by 2030; Eyes 
   India Retailing
 first_seen: '2026-09-18T15:30:40Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Amazon India Targets 15 Million Small Businesses With AI by 2030; Eyes Next Phase of MSME Growth
+# Amazon India
 
 Amazon India Targets 15 Million Small Businesses With AI by 2030; Eyes Next Phase of MSME Growth India Retailing
 

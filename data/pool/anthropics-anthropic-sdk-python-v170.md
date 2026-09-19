@@ -1,6 +1,6 @@
 ---
 slug: anthropics-anthropic-sdk-python-v170
-name: 'anthropics/anthropic-sdk-python: v1.7.0'
+name: Anthropic Python SDK
 builder: anthropics
 category: ''
 summary_zh: ''
@@ -70,7 +70,7 @@ summary: '## 1.7.0 (2026-09-18)
   * **internal:** set ruff''s target version to Python 3.10 ([2bdfd41](https://github.com/anthropics/anthropic-sdk-python/commit/2bdfd415fe4842b44f871b31328cc76135b48fbb))'
 first_seen: '2026-09-18T16:12:53Z'
 last_seen: '2026-09-19T00:21:19Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -82,7 +82,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.7.0
+# Anthropic Python SDK
 
 ## 1.7.0 (2026-09-18)
 

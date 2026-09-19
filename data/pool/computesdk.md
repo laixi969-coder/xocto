@@ -21,7 +21,7 @@ canonical_url: https://computesdk.com/benchmarks/ai-gateway/models
 summary: A model index from the AI Gateways
 first_seen: '2026-09-18T18:56:24Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

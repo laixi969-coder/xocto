@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fZFItYzhnOERY
 summary: AI进工厂车间，究竟能做些什么？ shobserver.com
 first_seen: '2026-09-18T13:12:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

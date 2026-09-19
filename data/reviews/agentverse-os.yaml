@@ -139,3 +139,52 @@
     isolated workspaces, a store of 944 self-hosted apps and Tailscale-only private access, removing setup
     and exposure configuration, so self-hosting-oriented developers may adopt it; user feedback and repeat-use
     evidence are missing.'
+- id: req-full-agentverse-os-2026-09-19
+  project_slug: agentverse-os
+  level: full
+  reviewed_at: '2026-09-19T00:51:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者在自有服务器上跑编码代理与自托管应用时的环境隔离、备份更新和内网访问需求；痛点刚性来自环境互相干扰与公网暴露风险，交付闭环（一条命令安装、浏览器桌面、Tailscale
+      访问）可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+    - ev-aa62d6826ab24916
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 274 升至 853 只说明开源关注度增长，未见 issue、discussion 或用户反馈证明开发者已把它作为长期运行环境，持续采用证据缺失。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+    - ev-aa62d6826ab24916
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价页、付费版本或采购记录，买方与收费方式无法从公开材料确认；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+  - gate: truth
+    status: insufficient
+    reason: 代理运行与自托管应用共用一台服务器，安全边界依赖 Tailscale，公开材料未说明人工确认、故障恢复与更新回滚流程，交付确定性待核验。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者是否报告长期运行、备份恢复或权限隔离方面的具体问题与使用反馈。
+  market: ''
+  job: 独立开发者或小团队在自有 Ubuntu 服务器上，处理编码代理（Claude Code、Codex）与自托管应用的环境搭建，要完成隔离工作区、备份更新和仅内网访问的长期运行环境。
+  job_en: A solo developer or small team, on their own Ubuntu server, sets up coding agents (Claude Code,
+    Codex) and self-hosted apps, and must deliver isolated workspaces, backups/updates and private-network-only
+    access for long-running use.
+  pain: 把代理和自托管服务装在同一台机器上，环境互相干扰、备份与更新要手工处理、公网暴露有风险；公开材料未给出这些痛点的发生频率与代价，属结构推理。
+  pain_en: Running agents and self-hosted services on one machine causes environment interference, manual
+    backup/update work and public-exposure risk; the public material gives no frequency or cost data,
+    so this is structural inference.
+  current_alternative: 开发者目前用 Docker、手写脚本、云主机或现成自托管面板自行拼装环境，并自行配置反向代理与访问控制。
+  current_alternative_en: Developers currently assemble environments themselves with Docker, hand-written
+    scripts, cloud hosts or existing self-hosting panels, configuring reverse proxies and access control
+    by hand.
+  usage_reason: 推断：相较自己拼 Docker 与备份脚本，它用一条安装命令给出隔离工作区、944 个自托管应用库和 Tailscale 内网访问，省掉环境搭建与公网暴露配置这几步，因此自托管倾向强的开发者会在需要长期跑代理时选择它；缺少用户反馈与重复使用证据。
+  usage_reason_en: 'Inference: instead of assembling Docker and backup scripts, one install command provides
+    isolated workspaces, a 944-app self-hosted store and Tailscale-only access, removing setup and public-exposure
+    configuration, so self-hosting-oriented developers may choose it for long-running agents; user feedback
+    and repeat-use evidence are missing.'

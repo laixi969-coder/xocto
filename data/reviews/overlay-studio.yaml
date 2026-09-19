@@ -486,3 +486,57 @@
     from-scratch placement step; versus full AI regeneration, it exports only a transparent overlay layer
     and leaves the original untouched, so creators who care about quality and per-element control would
     adopt it inside a CapCut workflow. This is structural inference from product capability and workf
+- id: req-full-overlay-studio-2026-09-19
+  project_slug: overlay-studio
+  level: full
+  reviewed_at: '2026-09-19T00:54:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播视频动效层逐句手工对轴、重复劳动且怕重编码原片的需求，痛点来自剪辑工作流结构而非产品自述；交付路径（字幕稿→AI 编排→逐元素可改→导出透明层进剪映）闭环清晰，属工作流结构推理，尚无用户抱怨或耗时数据佐证强度。
+    evidence_ids:
+    - ev-a49d2bd1ead025ab
+    - ev-2d92c5b6420123b2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 80 缓升至 93，说明有开发者关注，但公开材料没有 issue、discussion、部署记录或用户反馈，无法判断是否形成持续使用或场景共识；关注度不能替代采用证据。
+    evidence_ids:
+    - ev-a49d2bd1ead025ab
+    - ev-b220c860cec317c4
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、付费主体或采购记录，谁付钱（创作者订阅、团队授权还是纯开源）无法核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-a49d2bd1ead025ab
+  - gate: truth
+    status: insufficient
+    reason: 导出透明动效层进剪映、原片不压缩的承诺是否稳定可复现，缺少部署文档、实测或 issue 佐证；AI 编排结果与人工修改边界也未公开说明，交付确定性待核。
+    evidence_ids:
+    - ev-a49d2bd1ead025ab
+    - ev-8bb63a83d82dedad
+  next_validation: 追踪 overlay-studio 仓库的 issue 与 discussion，确认是否有创作者报告实际用它替代手工对轴、导出透明层进剪映的复现结果与失败案例。
+  market: ''
+  job: 口播视频创作者（如知识口播、带货口播的独立创作者或小团队剪辑者）在剪映里剪完原片后，拿到自己的字幕稿，需要为整条口播视频配上与台词节奏对齐的动效层（关键词弹出、字幕强调、贴纸动画），并把这些动效作为可继续微调的素材交付到成片里。
+  job_en: A talking-head video creator (an independent creator or small-team editor doing knowledge or
+    commerce talking-head clips) who has finished the base cut in CapCut takes their subtitle script and
+    needs to build a motion-graphics overlay layer (keyword pops, subtitle emphasis, sticker animation)
+    aligned to the spoken rhythm, delivered as still-editable material into the final video.
+  pain: 口播视频的动效层要逐句手工对齐字幕时间轴，一条几分钟的片子往往要反复拖拽、复制、改关键帧，重复劳动密集且容易错位；同时创作者不愿为加动效而重编码原片，怕损失画质或破坏已剪好的时间线。公开材料只给出产品自述，未提供用户抱怨或耗时数据，痛点强度属工作流结构推理。
+  pain_en: Overlay motion for talking-head videos must be hand-aligned to the subtitle timeline sentence
+    by sentence; a few-minute clip means repeated dragging, copying and keyframe edits, which is labor-intensive
+    and easy to misalign. Creators also resist re-encoding the base footage just to add motion, for fear
+    of quality loss or breaking the finished timeline. Public material only offers the product's own description,
+    with no user complaints or time data, so pain intensity is a workf
+  current_alternative: 当前替代是：在剪映（或 Premiere/After Effects）里手工逐句添加文字与贴纸动效并手动对轴；或使用剪映自带模板/一键成片，但模板难以逐元素修改且常需重编码或另起工程；或干脆不做动效，只保留静态字幕。
+  current_alternative_en: 'Today''s alternatives are: hand-adding text and sticker motion sentence by
+    sentence in CapCut (or Premiere/After Effects) and manually syncing to the timeline; using CapCut''s
+    built-in templates or one-click edits, which are hard to tweak element-by-element and often require
+    re-encoding or a separate project; or simply skipping motion and keeping static subtitles.'
+  usage_reason: 推断：相较手工逐句对轴，该产品让 AI 先读字幕稿自动生成动效编排，创作者只需在生成结果上逐元素修改，并把结果导出为透明动效层直接叠进剪映，从而省掉“从零搭建动效并手动对时间轴”这一步，同时避免重编码原片。因此，已在剪映完成原片、又想要动效但不愿重做时间线的口播创作者，会在需要批量产出时选择它。
+  usage_reason_en: 'Inference: versus manual sentence-by-sentence syncing, the product has AI read the
+    subtitle script and auto-arrange the motion layer, so the creator only edits individual generated
+    elements and exports a transparent overlay layer straight into CapCut. This removes the step of building
+    motion from scratch and hand-aligning the timeline, while avoiding re-encoding the base footage. Hence
+    creators who already finished their base cut in CapCut and want motion without rebuilding t'

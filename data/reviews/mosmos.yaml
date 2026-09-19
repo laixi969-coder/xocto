@@ -1,0 +1,89 @@
+- id: req-initial-mosmos-2026-09-19
+  project_slug: mosmos
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决会议前中后的文字产出需求，痛点真实，但公开材料只有一句定位，说不清输入、动作与交付，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-eec2cb3a2cc9231b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有一条上线描述，没有用户评价、场景描述或采用信号，无法判断卡在感知、想象还是场景。
+    evidence_ids:
+    - ev-eec2cb3a2cc9231b
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页、客户类型或付费路径信息，买方与收费方式均未知。
+    evidence_ids:
+    - ev-eec2cb3a2cc9231b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近会议记录的第一性目标，也看不到人工确认边界与交付确定性。
+    evidence_ids:
+    - ev-eec2cb3a2cc9231b
+  next_validation: 收集 MosMos 官方产品页或定价页，确认其输入方式、输出交付物与是否按席位或按份收费。
+  market: ''
+  job: 会议参与者（如销售、顾问、项目经理）在会前准备、会中记录、会后跟进的连续节点上，处理口头讨论内容，要产出可发送的书面记录与待办。
+  job_en: Meeting participants such as salespeople, consultants and project managers handle spoken discussion
+    across preparation, in-meeting capture and follow-up, and must produce sendable written records and
+    action items.
+  pain: 会议信息散落在口头讨论里，会后靠回忆补写纪要容易漏掉承诺和细节；现有做法要么边听边打字，要么会后重听录音。
+  pain_en: Meeting information lives in spoken discussion, and writing notes afterwards from memory easily
+    loses commitments and details; current practice is either typing while listening or replaying recordings
+    later.
+  current_alternative: 人工速记或边听边打字、通用语音转写工具加人工整理、会后重听录音补写纪要。
+  current_alternative_en: Manual shorthand or typing while listening, generic speech-to-text tools plus
+    manual cleanup, or replaying recordings to write notes afterwards.
+  usage_reason: 推断：如果它能在会中直接产出结构化文字、省掉会后重听录音这一步，那么高频开会的销售和顾问会在需要当天发出纪要和待办时选择它；但公开材料只有一句定位，无法确认它是否真的减少了这一步，因此需求强度未明。
+  usage_reason_en: 'Inference: if it produces structured text during the meeting and removes the step
+    of replaying recordings afterwards, frequent meeting-goers such as salespeople and consultants would
+    choose it when notes and action items must go out the same day; however, public material offers only
+    a one-line positioning, so whether that step is actually removed cannot be confirmed and demand strength
+    is unclear.'
+- id: req-full-mosmos-2026-09-19
+  project_slug: mosmos
+  level: full
+  reviewed_at: '2026-09-19T00:53:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决会议前中后的文字产出需求，痛点方向真实，但公开材料只有一句定位，说不清输入方式、具体动作与交付物，无法确认替代了哪一步旧工作，也看不出不采用的刚性代价。
+    evidence_ids:
+    - ev-eec2cb3a2cc9231b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 MosMos 官方产品页或定价页，确认其输入方式、输出交付物与是否按席位或按份收费。
+  market: ''
+  job: 销售、顾问、项目经理等高频开会者在会前准备、会中记录、会后跟进的连续节点上，处理口头讨论内容，要产出可发送的书面纪要与待办事项。
+  job_en: Frequent meeting-goers such as salespeople, consultants, and project managers handle spoken
+    discussion across preparation, in-meeting capture, and follow-up, and must produce sendable written
+    minutes and action items.
+  pain: 会议信息散落在口头讨论中，会后靠回忆补写纪要容易漏掉承诺与细节；现有做法要么边听边打字，要么会后重听录音，占用额外时间。
+  pain_en: Meeting information lives in spoken discussion, and writing notes afterwards from memory easily
+    loses commitments and details; current practice is either typing while listening or replaying recordings
+    later, costing extra time.
+  current_alternative: 人工速记或边听边打字、通用语音转写工具加人工整理、会后重听录音补写纪要。
+  current_alternative_en: Manual shorthand or typing while listening, generic speech-to-text tools plus
+    manual cleanup, or replaying recordings to write notes afterwards.
+  usage_reason: 推断：若它能在会中直接产出结构化文字、省掉会后重听录音这一步，高频开会的销售与顾问会在需要当天发出纪要和待办时选择它；但公开材料只有一句定位，无法确认输入方式、输出交付物与是否真的减少这一步，因此需求强度未明。
+  usage_reason_en: 'Inference: if it produces structured text during the meeting and removes the step
+    of replaying recordings afterwards, frequent meeting-goers such as salespeople and consultants would
+    choose it when minutes and action items must go out the same day; however, public material offers
+    only a one-line positioning, so the input method, output deliverable, and whether that step is actually
+    removed cannot be confirmed, leaving demand strength unclear.'

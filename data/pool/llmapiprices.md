@@ -24,7 +24,7 @@ summary: "最近在整理 LLM API Prices  https://llmapiprices.com/ 的模型数
   \ 、任务路由、内容分类、自动审核、风险判断等场景。\r\n\r\n官方公布的性能最高可达 250K tokens/s 、1,200 RPM 。\r\n\r\n如果你正在做 Agent 或自动化工作流，这个项目值得看看。"
 first_seen: '2026-09-18T16:19:51Z'
 last_seen: '2026-09-19T00:21:13Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

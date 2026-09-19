@@ -32,3 +32,44 @@
   current_alternative_en: Using official CLI tools or writing custom scripts.
   usage_reason: 提供 GUI 和 TUI 可能降低使用门槛，但需求强度未证实。
   usage_reason_en: Providing GUI and TUI may lower the barrier, but demand intensity is unverified.
+- id: req-full-cocode-2026-09-19
+  project_slug: cocode
+  level: full
+  reviewed_at: '2026-09-19T00:52:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 DeepSeek 部署与集成不便这一需求，但公开材料只有一句发行版描述，未说明官方工具卡在哪一步、不装会失去什么，也无可引用痛点或采用行为，价值结构无法还原，属自嗨拼凑。
+    evidence_ids:
+    - ev-4cbd469a1dd98db3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cocode 官网与仓库 README/发布说明，确认发行版具体打包了哪些安装与集成步骤、是否有开发者报告在实际环境中重复使用。
+  market: ''
+  job: 需要在本地或特定环境部署并运行 DeepSeek 模型的开发者，希望用现成发行版替代自行拼装命令行与集成脚本，拿到可运行的桌面 GUI 或终端 TUI。
+  job_en: A developer who needs to deploy and run DeepSeek models locally or in a specific environment,
+    wanting a ready-made distribution instead of assembling CLI and integration scripts, to get a runnable
+    desktop GUI or terminal TUI.
+  pain: 公开材料只称其为“最佳即用发行版”，没有说明官方工具具体卡在哪一步、开发者为此付出什么代价，也没有用户抱怨或案例可引用，痛点强度无法确认。
+  pain_en: The public material only calls it the best ready-to-run distribution; it does not say where
+    the official tooling actually blocks developers or what it costs them, and no complaints or cases
+    are available, so pain intensity cannot be confirmed.
+  current_alternative: 使用官方命令行工具或自行编写脚本完成 DeepSeek Harness 的安装与集成；公开材料未说明旧做法具体不便在哪。
+  current_alternative_en: Using official CLI tools or writing custom scripts to install and integrate
+    the DeepSeek Harness; the public material does not describe where the prior practice is inconvenient.
+  usage_reason: 推断：若发行版真把安装与集成打包成 GUI/TUI，开发者可省去自行拼装环境这一步；但公开材料未给出具体步骤、可核对结果或用户反馈，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the distribution really packages install and integration into a GUI/TUI,
+    developers would skip assembling the environment themselves; but no concrete steps, checkable results
+    or user feedback are public, so which users would choose it and when cannot be stated.'

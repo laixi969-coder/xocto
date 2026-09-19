@@ -362,3 +362,46 @@
   usage_reason_en: The repository describes orchestrating alpha construction and backtesting as DAGs with
     agent-executed nodes, but without user feedback or cases showing which step's burden is reduced, it
     cannot explain why users would choose it.
+- id: req-full-qanat-2026-09-19
+  project_slug: qanat
+  level: full
+  reviewed_at: '2026-09-19T00:54:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决 alpha 因子构建与回测的流程编排需求，但全部公开证据均为古代伊朗 qanat 灌溉系统的历史介绍，与量化研究任务无关，无法还原用户任务、痛点、旧替代或不解决的后果，价值结构无从成立。
+    evidence_ids:
+    - ev-f7a7910b4d27e718
+    - ev-5da58e8a4138a546
+    - ev-165346e4e4f7b66d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 qanat 项目自身的官方仓库或产品页（README、issue、discussion、部署文档），确认其真实功能、输入输出与是否有量化研究者实际使用。
+  market: ''
+  job: 量化研究员或投资组合经理在开发 alpha 因子时，需要把数据获取、因子计算、回测与结果评估串成可复现的流程，并希望由 AI agent 按 DAG 节点自动执行各步骤。
+  job_en: A quantitative researcher or portfolio manager developing alpha factors needs to chain data
+    ingestion, factor computation, backtesting and evaluation into a reproducible pipeline, and wants
+    AI agents to execute each DAG node automatically.
+  pain: 公开材料未提供任何用户痛点证据：现有证据全部是关于古代伊朗地下灌溉渠道 qanat 的历史与遗产介绍，与量化研究流程无关，无法说明因子构建或回测环节存在何种摩擦、频率或代价。
+  pain_en: 'No user-pain evidence is available: all collected evidence concerns the ancient Iranian underground
+    irrigation tunnels called qanat, unrelated to quantitative research, so no friction, frequency or
+    cost in factor construction or backtesting can be established.'
+  current_alternative: 公开材料未说明量化研究员目前如何完成因子构建与回测，也未说明 qanat 替代了哪些现有工具或脚本流程。
+  current_alternative_en: Public materials do not show how quantitative researchers currently build and
+    backtest factors, nor what existing tools or scripts qanat replaces.
+  usage_reason: 由于缺乏任何与产品相关的用户反馈、案例或使用数据，无法解释用户为何会选择它而非现有做法；现有证据仅涉及同名古代灌溉系统，不能作为采用理由。
+  usage_reason_en: With no product-related user feedback, cases or usage data, there is no basis to explain
+    why users would choose it over existing approaches; the only evidence concerns the identically named
+    ancient irrigation system and cannot serve as a usage reason.

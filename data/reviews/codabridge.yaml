@@ -1,0 +1,83 @@
+- id: req-initial-codabridge-2026-09-19
+  project_slug: codabridge
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决尾音录音的收听、切分与检索需求，但公开材料未说明旧流程、耗时环节与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-fdb71c739781298c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无用户评价、社区讨论或采用数据，无法判断是否有人真的把它用于研究。
+    evidence_ids:
+    - ev-fdb71c739781298c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或采购方式，钱从哪来无法判断。
+    evidence_ids:
+    - ev-fdb71c739781298c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 Astra 对尾音的处理是否贴近声学研究的第一性目标，也未说明人工确认边界与结果确定性。
+    evidence_ids:
+    - ev-fdb71c739781298c
+  next_validation: 收集该产品的官方说明或演示材料，确认 Astra 具体接收什么录音格式、执行哪些处理步骤、输出什么结果，以及是否有科研团队公开使用案例。
+  market: ''
+  job: 鲸类声学研究者或科普工作者，在拿到抹香鲸尾音录音后，需要收听、切分并检索这些片段，以完成研究分析或对外展示。
+  job_en: A cetacean acoustics researcher or science communicator who, after obtaining sperm whale coda
+    recordings, needs to listen to, segment and search those clips for research analysis or public presentation.
+  pain: 公开材料只有一句产品描述，没有说明旧流程中哪一步耗时或易错，也没有研究者抱怨、案例或采用行为可引用，痛点无法确认。
+  pain_en: The public material contains only a one-line product description; it does not say which step
+    of the old process was slow or error-prone, and no researcher complaints, cases or adoption behaviour
+    are available, so the pain point cannot be confirmed.
+  current_alternative: 研究者目前可能使用通用声学分析软件或自行编写脚本处理录音；公开材料未说明具体替代对象。
+  current_alternative_en: Researchers currently likely use general acoustic analysis software or write
+    their own scripts to process recordings; the public material does not name the specific alternative.
+  usage_reason: 推断：如果该产品把收听、编辑与检索集中在一个界面，研究者可省去在多个音频工具间来回导出的步骤；但公开材料未说明具体动作与可核对结果，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the product consolidates listening, editing and searching in one interface,
+    researchers would skip exporting files between several audio tools; however the public material does
+    not describe the concrete action or a checkable result, so why users would choose it cannot be confirmed.'
+- id: req-full-codabridge-2026-09-19
+  project_slug: codabridge
+  level: full
+  reviewed_at: '2026-09-19T00:52:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决尾音录音的收听、切分与检索需求，但公开材料未说明旧流程、耗时环节与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-fdb71c739781298c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方说明或演示材料，确认 Astra 具体接收什么录音格式、执行哪些处理步骤、输出什么结果，以及是否有科研团队公开使用案例。
+  market: ''
+  job: 鲸类声学研究者或科普工作者在拿到抹香鲸尾音（coda）录音后，需要收听、切分并检索这些片段，以完成声学分析或对外展示。
+  job_en: A cetacean acoustics researcher or science communicator who, after obtaining sperm whale coda
+    recordings, needs to listen to, segment and search those clips for acoustic analysis or public presentation.
+  pain: 公开材料只有一句产品描述，未说明旧流程中哪一步耗时或易错，也没有研究者抱怨、案例或采用行为可引用，痛点无法确认。
+  pain_en: The public material contains only a one-line product description; it does not say which step
+    of the old process was slow or error-prone, and no researcher complaints, cases or adoption behaviour
+    are available, so the pain point cannot be confirmed.
+  current_alternative: 研究者目前可能使用通用声学分析软件或自行编写脚本处理录音；公开材料未说明具体替代对象。
+  current_alternative_en: Researchers currently likely use general acoustic analysis software or write
+    their own scripts to process recordings; the public material does not name the specific alternative.
+  usage_reason: 推断：若产品把收听、编辑与检索集中在一个界面，研究者可省去在多个音频工具间来回导出的步骤；但公开材料未说明具体动作与可核对结果，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the product consolidates listening, editing and searching in one interface,
+    researchers would skip exporting files between several audio tools; however the public material does
+    not describe the concrete action or a checkable result, so why users would choose it cannot be confirmed.'

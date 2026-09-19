@@ -23,7 +23,7 @@ summary: This week, we tracked more than 70 tech funding deals worth over €1.7
   M&A transactions, rumours, and related news stories across Europe.If email is more your thing, you ...
 first_seen: '2026-09-18T15:39:48Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

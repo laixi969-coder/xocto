@@ -1,0 +1,91 @@
+- id: req-initial-sider-omni-sidebar-2026-09-19
+  project_slug: sider-omni-sidebar
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决切换应用打断任务的问题，但公开材料未说明具体替代哪一步旧操作，连需求场景都难以还原。
+    evidence_ids:
+    - ev-d4afd7b987829ed5
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有用户评价或采用数据。
+    evidence_ids:
+    - ev-d4afd7b987829ed5
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，定价与买方均未披露。
+    evidence_ids:
+    - ev-d4afd7b987829ed5
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，权限边界与人工确认方式也无公开材料。
+    evidence_ids:
+    - ev-d4afd7b987829ed5
+  next_validation: 收集 Sider Omni Sidebar 官方文档或演示，确认它能读取哪些应用内容、执行哪些具体动作以及如何交付结果。
+  market: ''
+  job: Mac 办公用户在浏览器、文档或邮件等应用里工作时，希望不切换窗口就完成一次查询或内容生成。
+  job_en: A Mac office user working in a browser, document, or mail app wants to complete a lookup or
+    content generation without switching windows.
+  pain: 切换应用和复制粘贴会打断当前任务，但公开材料没有说明它具体替代哪一步操作，痛点强度无法确认。
+  pain_en: Switching apps and copy-pasting interrupts the current task, but the public material does not
+    say which step it replaces, so the pain intensity cannot be confirmed.
+  current_alternative: 现在多靠系统分屏、复制粘贴到聊天助手，或使用浏览器插件式助手。
+  current_alternative_en: Today people use split screen, copy-paste into a chat assistant, or browser-extension
+    assistants.
+  usage_reason: 推断：它把助手放进当前应用侧边，省去切换窗口和复制粘贴这一步；但由于不清楚它能读取什么、能做什么动作，无法判断用户为何会选它而非现有插件。
+  usage_reason_en: 'Inference: it puts the assistant beside the current app, removing window switching
+    and copy-pasting; but without knowing what it can read or do, it is unclear why users would choose
+    it over existing extensions.'
+- id: req-full-sider-omni-sidebar-2026-09-19
+  project_slug: sider-omni-sidebar
+  level: full
+  reviewed_at: '2026-09-19T00:54:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在浏览器与 Mac 应用间切换 AI 工具、反复复制上下文的痛点，Sider 自述创建动机即为消除这种跳转；摘要、笔记、报告与多模型对话构成可还原的输入—动作—交付闭环，属工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-a7f55d96fd98cc67
+    - ev-ca30f920978097c5
+    - ev-29be667b16affc0f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方下载页与商店描述，没有用户评价、评分或采用数据，无法判断用户是否已把它留在日常工作流；关注度不等于持续使用。
+    evidence_ids:
+    - ev-29be667b16affc0f
+    - ev-ca30f920978097c5
+  - gate: model
+    status: insufficient
+    reason: 证据中标注为定价的条目实际只是下载页与商店描述，未披露价格、订阅档位或买方类型；谁付钱只能推断为 to C 订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0e1fee646dfe5295
+    - ev-5dc6dcf022ff98d3
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明侧边栏能读取哪些应用内容、能执行哪些动作、权限边界与人工确认方式，交付确定性无法核对，存在越权读取与误操作风险。
+    evidence_ids:
+    - ev-a7f55d96fd98cc67
+    - ev-29be667b16affc0f
+  next_validation: 追踪 Sider 官方定价页与 Mac 版部署/权限文档，确认订阅价格、可读取的应用范围与动作执行边界。
+  market: ''
+  job: Mac 办公用户在浏览器、文档或邮件等应用里处理网页、笔记和报告材料时，希望不离开当前窗口就完成摘要、检索、写作与报告生成。
+  job_en: A Mac office user handling web pages, notes, and report material in a browser, document, or
+    mail app wants to summarize, search, write, and generate reports without leaving the current window.
+  pain: 公开材料显示用户需要在多个 AI 模型与当前工作材料之间来回切换，复制粘贴上下文会打断任务；Sider 自述的创建动机正是让用户不必在 AI 工具与工作内容之间反复跳转。
+  pain_en: Public material shows users must switch between multiple AI models and their working material,
+    and copy-pasting context interrupts the task; Sider's own stated reason for existing is to stop users
+    from jumping between AI tools and their work.
+  current_alternative: 当前替代方式是在浏览器标签间切换 ChatGPT、Claude、Gemini 等独立模型页面，或使用浏览器插件式助手，再手动复制粘贴内容。
+  current_alternative_en: The current alternative is switching browser tabs among standalone ChatGPT,
+    Claude, and Gemini pages, or using browser-extension assistants, then manually copy-pasting content.
+  usage_reason: 推断：相较逐个打开模型页面并复制粘贴，Sider 把多个模型与摘要、笔记、报告动作放进当前页面的侧边栏，减少切换标签和搬运上下文这一步，因此常在浏览器里读资料、写报告的知识工作者会在处理网页材料时选择它。
+  usage_reason_en: 'Inference: compared with opening each model page and copy-pasting, Sider places multiple
+    models plus summarize, note, and report actions in a sidebar on the current page, removing the tab-switching
+    and context-carrying step, so knowledge workers who read and write in the browser would choose it
+    while handling web material.'

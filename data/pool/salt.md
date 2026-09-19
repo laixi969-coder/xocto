@@ -21,7 +21,7 @@ canonical_url: https://saltapp.ai
 summary: Human and AI Economies driven across E2E encrypted chats
 first_seen: '2026-09-17T22:02:07Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

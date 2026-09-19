@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFBZWHNxU1VYWUQy
 summary: AI智能体选型参考：国内企业级Agent定制开发优质服务商一览 财富号
 first_seen: '2026-09-18T23:25:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

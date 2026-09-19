@@ -23,7 +23,7 @@ summary: ⚡ Modular prompt-engineering framework for AI Agents (Cursor, Claude 
   Stop vibe coding, start agentic discipline! 🚀
 first_seen: '2026-09-14T20:11:30Z'
 last_seen: '2026-09-19T00:21:19Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

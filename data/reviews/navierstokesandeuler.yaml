@@ -342,3 +342,55 @@
     so users can have the proof assistant check each step, replacing 'trust the authors' with reproducible
     machine checking; researchers and formal verification engineers following this result would therefore
     choose it when verifying (inference).
+- id: req-full-navierstokesandeuler-2026-09-19
+  project_slug: navierstokesandeuler
+  level: full
+  reviewed_at: '2026-09-19T00:53:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是高争议数学结果难以被独立复核的需求：论文证明只能人工逐行读，细微错误难排除。仓库随论文发布 Lean 4 证书，让证明助手逐条检查推导，交付结果是机器可复核的通过或失败（ev-53d6806240f8a8a8）。痛点刚性与交付闭环由任务结构推出，尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-53d6806240f8a8a8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 1,928 增至 1,949（ev-9957c9bf9d218602、ev-2e22bc44a3bf3d42），说明社区关注度上升，但收藏与关注只属规模信号，公开材料没有目标用户持续使用、复现检查或将其纳入核验流程的记录，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-9957c9bf9d218602
+    - ev-2e22bc44a3bf3d42
+  - gate: model
+    status: insufficient
+    reason: 这是 OpenAI 随论文发布的开放仓库，公开材料未显示定价、付费主体或任何采购路径；钱可能来自机构研究经费或学术出版方，但均无公开证据。这是判断，不是已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-9fe1730987219163
+  - gate: truth
+    status: insufficient
+    reason: Lean 4 证书的检查结果可确定性复现，但公开材料未说明证书覆盖范围与论文结果的对应关系、是否覆盖全部关键引理，以及人工判断与机器结论的边界，交付完整性尚缺可核验证据。
+    evidence_ids:
+    - ev-53d6806240f8a8a8
+  next_validation: 追踪该仓库的 README、release 与 issue/discussion，确认 Lean 4 证书覆盖的定理范围、与两篇论文结果的逐条对应关系，以及是否有人公开报告成功复现检查。
+  market: ''
+  job: 数学研究者与形式化验证工程师在核验 Navier–Stokes 与 Euler 方程有限时间爆破这类高争议论文结果时，打开该仓库，用 Lean 4 证明助手加载随论文一同发布的证书文件，逐条检查推导步骤，得到机器可复核的通过或失败结果，再自行判断其数学含义。
+  job_en: Mathematics researchers and formal verification engineers verifying high-stakes results such
+    as finite-time blowup for Navier–Stokes and Euler open this repository, load the Lean 4 certificates
+    shipped with the papers into a proof assistant, check each derivation step, and obtain a machine-checkable
+    pass/fail result before interpreting its mathematical meaning themselves.
+  pain: 公开事实显示该仓库是随 OpenAI 两篇爆破结果论文发布的 Lean 4 形式化证书（ev-53d6806240f8a8a8）。这类结果推翻长期悬置的猜想，同行评审只能靠人工逐行读证明，复核成本极高且难以排除细微推导错误；不采用形式化核验，错误结论可能长期留在文献中。这是从任务结构推出的痛点，公开材料未给出用户抱怨或频率数据。
+  pain_en: Public facts show the repository ships Lean 4 formalizations accompanying OpenAI's two blowup
+    papers (ev-53d6806240f8a8a8). Such results overturn long-standing conjectures; peer review relies
+    on humans reading proofs line by line, which is costly and can miss subtle derivation errors. Without
+    formal checking, a wrong result can persist in the literature. This pain is inferred from the task
+    structure; public materials give no user complaints or frequency data.
+  current_alternative: 旧做法是人工阅读论文证明、依赖同行评审与讨论，或由验证者自行在 Lean/Coq 中重写证明；公开材料未说明该仓库之外是否已有同类可复用的证书发布方式。
+  current_alternative_en: The old approach is reading the proof by hand, relying on peer review and discussion,
+    or having a verifier rewrite the proof in Lean/Coq independently; public materials do not show whether
+    comparable reusable certificates were published elsewhere.
+  usage_reason: 推断：相较自行重写证明，该仓库直接提供与论文结果对应的 Lean 4 证书，验证者只需让证明助手加载并检查，省去从零形式化整条推导的步骤，因此关注该结果、需要独立确认其正确性的数学研究者与形式化验证工程师会在核验时选择它。公开材料未提供用户反馈或采用记录，此为基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: compared with rewriting the proof from scratch, the repository supplies
+    Lean 4 certificates tied to the papers'' results, so a verifier only needs to load and check them
+    in a proof assistant, skipping the step of formalizing the whole derivation. Researchers and formal
+    verification engineers who need independent confirmation of this result would therefore choose it
+    when verifying. Public materials provide no user feedback or adoption records; this is inferred from
+    p'

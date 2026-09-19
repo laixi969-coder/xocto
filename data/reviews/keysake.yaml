@@ -1,0 +1,86 @@
+- id: req-initial-keysake-2026-09-19
+  project_slug: keysake
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决中文用户写英文时的表达问题，但材料只有一句说明，说不清原来卡在哪一步、不用的后果是什么，价值结构无法还原。
+    evidence_ids:
+    - ev-04bb62535df1e83a
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品页一句描述，没有用户评价、场景描述或采用迹象，无法判断卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-04bb62535df1e83a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自个人订阅、企业采购还是其他路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-04bb62535df1e83a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近真实写作任务、输出是否可直接使用，也看不到人工确认边界。
+    evidence_ids:
+    - ev-04bb62535df1e83a
+  next_validation: 收集 Keysake 官方定价页或产品文档，确认它按什么计价、面向个人还是团队，以及输出是否需要人工修改。
+  market: ''
+  job: 中文母语者在写英文邮件、外贸沟通或跨境客服回复时，一边打字一边需要把中文意思转成得体的英文表达。
+  job_en: Native Chinese speakers writing English emails, trade messages or cross-border support replies
+    need to turn Chinese meaning into appropriate English phrasing while typing.
+  pain: 公开材料只说明“边打中文边学英语”，没有说明用户原来卡在哪一步、错误如何被纠正，痛点强度无法从现有事实确认。
+  pain_en: The public material only says 'learn English as you type Chinese'; it does not show which step
+    users were stuck on or how errors get corrected, so pain intensity cannot be confirmed from available
+    facts.
+  current_alternative: 现有替代是翻译工具、输入法自带翻译或直接查词典，但这些做法与打字学习是否被替代，材料未说明。
+  current_alternative_en: Current alternatives are translation tools, built-in input-method translation
+    or looking words up in a dictionary, but the material does not say whether these are replaced.
+  usage_reason: 推断：如果它能在打字当下直接给出可用的英文句子并标出用词问题，用户可能省去切换翻译工具再复制粘贴的一步；但缺少任何用户反馈或使用数据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if it delivers a usable English sentence at the moment of typing and flags
+    wording problems, users could skip switching to a translation tool and copy-pasting back; with no
+    user feedback or usage data, this causal claim cannot be confirmed.'
+- id: req-full-keysake-2026-09-19
+  project_slug: keysake
+  level: full
+  reviewed_at: '2026-09-19T00:53:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决中文用户写英文时的表达问题，但公开材料只有一句产品说明，说不清原来卡在哪一步、不用的后果是什么；且用户真实任务是发出英文，边打字学英语属附带收益，没有也行，价值刚性不足。
+    evidence_ids:
+    - ev-04bb62535df1e83a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Keysake 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 中文母语者在写英文邮件、外贸消息或跨境客服回复时，一边打字一边需要把中文意思转成可用的英文表达。
+  job_en: Native Chinese speakers writing English emails, trade messages or cross-border support replies
+    need to turn Chinese meaning into usable English phrasing while typing.
+  pain: 公开材料只有一句“Learn English as you type Chinese”，没有说明用户原来卡在哪一步、错误如何被纠正、不用的后果是什么；从结构上看，中文母语者写英文的真实痛点是“要交付一封能发出去的英文”，而边打字边学英语是附带收益，不是刚性任务。
+  pain_en: The only public material is the line 'Learn English as you type Chinese'; it does not show
+    which step users were stuck on, how errors get corrected, or the cost of not using it. Structurally,
+    the real pain for Chinese native speakers writing English is delivering a sendable English message,
+    while learning English while typing is a side benefit, not a rigid task.
+  current_alternative: 翻译工具、输入法自带翻译、词典或直接让 AI 代写英文，这些做法已经能直接产出可发送的英文，且不需要用户在学习上额外投入。
+  current_alternative_en: Translation tools, built-in input-method translation, dictionaries, or simply
+    having an AI write the English directly already produce sendable English without requiring extra learning
+    effort.
+  usage_reason: 推断：它把中文输入即时转成英文并附用词提示，理论上省去切换翻译工具再复制粘贴的一步；但用户要的是“发出英文”，不是“顺便学英语”，学习负担反而可能被视为额外成本，公开材料没有任何用户反馈或使用数据支持这类用户会主动选择它。
+  usage_reason_en: 'Inference: it converts Chinese input into English with wording hints, in theory saving
+    the step of switching to a translation tool and copy-pasting back. But users want sendable English,
+    not incidental English learning, and the learning burden may be seen as extra cost; no public user
+    feedback or usage data supports that such users would actively choose it.'

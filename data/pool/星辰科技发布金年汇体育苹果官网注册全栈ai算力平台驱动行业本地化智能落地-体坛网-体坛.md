@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE4tWE9GeDdUUFp1
 summary: 星辰科技发布金年汇体育苹果官网注册全栈AI算力平台，驱动行业本地化智能落地_体坛网_体坛+ 体坛加
 first_seen: '2026-09-17T05:20:18Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

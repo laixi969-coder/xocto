@@ -40,3 +40,92 @@
   usage_reason_en: 'Inference: versus manual review and testing, it rejects a class of errors at compile
     time, removing the later debugging and rework step, so teams with high correctness demands that heavily
     use model-generated code may choose it; adoption and retention evidence is missing.'
+- id: req-initial-bend-2026-09-19
+  project_slug: bend
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 AI 生成并行代码难以验证、CPU 与 GPU 代码需分别维护的问题，痛点方向清楚；但候选材料只有一句官网定位，无法还原具体输入、动作与交付，也未出现任何用户痛点或替代行为证据。
+    evidence_ids:
+    - ev-8484a74dc393571a
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论获得 589 点与 302 条评论，说明开发者关注度较高，但关注不等于采用；没有可归因到该语言的下载、使用或留存数据。
+    evidence_ids:
+    - ev-8484a74dc393571a
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、许可模式或买方，开源项目的付费路径无法从现有事实判断，属于未知而非失败。
+    evidence_ids:
+    - ev-8484a74dc393571a
+  - gate: truth
+    status: insufficient
+    reason: 证明机制能否确定性拦截 AI 生成代码错误、GPU 支持是否可用，均无文档或实测材料支撑，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-8484a74dc393571a
+  next_validation: 收集 Bend 官方文档与仓库中的语言特性说明、编译与 GPU 运行示例，以及 issue/discussion 中关于证明机制实际拦截错误的可复现记录。
+  market: ''
+  job: 编译器与运行时工程师在把 AI 生成的并行计算代码部署到 GPU 前，需要处理源码与验证脚本两套材料，完成正确性检查并让程序在 CPU 或 GPU 上跑通。
+  job_en: Compiler and runtime engineers, before deploying AI-generated parallel code to GPUs, work with
+    two sets of material — source code and verification scripts — to check correctness and get the program
+    running on CPU or GPU.
+  pain: AI 生成的并行代码错误往往在运行期才暴露，人工审查和补写测试成本高；候选材料未给出任何用户抱怨、采用或复购证据。
+  pain_en: Errors in AI-generated parallel code often surface only at runtime, and manual review plus
+    test writing is costly; the candidate material provides no user complaints, adoption or repeat-use
+    evidence.
+  current_alternative: 现有做法是人工审查 AI 输出，再另写测试或验证脚本，并在 CPU 与 GPU 之间分别维护代码路径。
+  current_alternative_en: The current practice is to manually review AI output, write separate tests or
+    verification scripts, and maintain separate code paths for CPU and GPU.
+  usage_reason: 推断：若证明机制真能在编译阶段拦截错误，工程师可省去为 AI 生成代码补写验证脚本这一步，并在同一份源码上切换 CPU 与 GPU；但候选材料只有官网定位与社区讨论热度，缺少文档、实测或用户反馈来支撑这一因果，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the proof mechanism really catches errors at compile time, engineers
+    could skip writing verification scripts for AI-generated code and switch CPU/GPU from one source;
+    but the material only offers site positioning and community attention, lacking docs, hands-on tests
+    or user feedback to support this causal claim, so it is not yet confirmed that users would choose
+    it for this reason.'
+- id: req-full-bend-2026-09-19
+  project_slug: bend
+  level: full
+  reviewed_at: '2026-09-19T00:51:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 AI 生成并行代码难以验证、CPU 与 GPU 代码需分别维护的问题，痛点方向清楚；但候选材料只有一句官网定位，无法还原具体输入、动作与交付，也未出现任何用户痛点或替代行为证据。
+    evidence_ids:
+    - ev-8484a74dc393571a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Bend 官方文档与仓库中的语言特性说明、编译与 GPU 运行示例，以及 issue/discussion 中关于证明机制实际拦截错误的可复现记录。
+  market: ''
+  job: 编译器与运行时工程师在把 AI 生成的并行计算代码部署到 GPU 前，需要处理源码与验证脚本两套材料，完成正确性检查并让程序在 CPU 或 GPU 上跑通。
+  job_en: Compiler and runtime engineers, before deploying AI-generated parallel code to GPUs, work with
+    two sets of material — source code and verification scripts — to check correctness and get the program
+    running on CPU or GPU.
+  pain: AI 生成的并行代码错误往往在运行期才暴露，人工审查和补写测试成本高；但候选材料未给出任何用户抱怨、采用或复购证据。
+  pain_en: Errors in AI-generated parallel code often surface only at runtime, and manual review plus
+    test writing is costly; the candidate material provides no user complaints, adoption or repeat-use
+    evidence.
+  current_alternative: 现有做法是人工审查 AI 输出，再另写测试或验证脚本，并在 CPU 与 GPU 之间分别维护代码路径。
+  current_alternative_en: The current practice is to manually review AI output, write separate tests or
+    verification scripts, and maintain separate code paths for CPU and GPU.
+  usage_reason: 推断：若证明机制真能在编译阶段拦截错误，工程师可省去为 AI 生成代码补写验证脚本这一步，并在同一份源码上切换 CPU 与 GPU；但候选材料只有官网定位与社区讨论热度，缺少文档、实测或用户反馈来支撑这一因果，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the proof mechanism really catches errors at compile time, engineers
+    could skip writing verification scripts for AI-generated code and switch CPU/GPU from one source;
+    but the material only offers site positioning and community attention, lacking docs, hands-on tests
+    or user feedback to support this causal claim, so it is not yet confirmed that users would choose
+    it for this reason.'

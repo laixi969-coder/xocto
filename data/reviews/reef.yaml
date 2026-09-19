@@ -532,3 +532,44 @@
   usage_reason: 缺少可引用的产品文档、使用说明或用户反馈，无法解释相较旧做法它减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
   usage_reason_en: With no citable product docs, usage instructions, or user feedback, it is impossible
     to explain which step of the old workflow it removes, hence which users would choose it and when.
+- id: req-full-reef-2026-09-19
+  project_slug: reef
+  level: full
+  reviewed_at: '2026-09-19T00:54:28Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向珊瑚礁、香水与凉鞋品牌，与持续学习基础设施无关；连它解决什么需求、什么痛点都无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-270dd387fbc21780
+    - ev-83d385d8c8b8dfd6
+    - ev-61fae2a5012d1f38
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或官网，收集 README、部署文档与 issue/discussion，确认其数据接入方式、学习机制与真实使用场景。
+  market: ''
+  job: AI 智能体开发者或机器学习工程师在智能体上线运行后，收集其运行轨迹与反馈数据，并据此更新智能体策略，使智能体在后续任务中表现更好。
+  job_en: AI agent developers or ML engineers collect runtime traces and feedback from deployed agents
+    and use them to update agent policies so the agent performs better on later tasks.
+  pain: 公开材料只有一句产品定位，未提供任何用户痛点、抱怨、workaround 或客户案例；无法说明不解决会造成什么具体代价。
+  pain_en: Public materials contain only a one-line positioning statement, with no user pain points, complaints,
+    workarounds, or customer cases, so the concrete cost of leaving the problem unsolved cannot be stated.
+  current_alternative: 公开材料未说明开发者目前如何完成持续学习，例如手工重训、离线微调、提示词迭代或自建流水线，均无证据支持。
+  current_alternative_en: Public materials do not describe how developers currently handle continual learning,
+    such as manual retraining, offline fine-tuning, prompt iteration, or self-built pipelines; none of
+    these is evidenced.
+  usage_reason: 缺少可归因到该产品的用户反馈、案例或采用证据，无法解释相较旧做法它减少了哪一步负担，因此无法给出使用理由。
+  usage_reason_en: There is no product-attributable user feedback, case study, or adoption evidence, so
+    it is impossible to explain which step of the old workflow it removes; no usage reason can be given.

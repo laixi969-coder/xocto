@@ -1,0 +1,94 @@
+- id: req-initial-wish-farms-and-clarifresh-transform-berry-quality-control-wi-2026-09-19
+  project_slug: wish-farms-and-clarifresh-transform-berry-quality-control-wi
+  level: initial
+  reviewed_at: '2026-09-19T00:21:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是采收后分选线上逐批质检、分级与剔除的需求，痛点是人工翻检慢、标准漂移、漏检导致下游退货；不采用的代价是整批索赔，属于刚性环节。
+    evidence_ids:
+    - ev-7e066c9217d1e050
+  - gate: consensus
+    status: insufficient
+    reason: 只有一则合作报道，未见种植商侧公开评价、产线数量或复购信息，无法判断是否已被行业普遍接受。
+    evidence_ids:
+    - ev-7e066c9217d1e050
+  - gate: model
+    status: insufficient
+    reason: 买方应为种植商或包装厂，但公开材料未披露定价、按线还是按量计费、以及是否按减损结果结算，付费路径属推断。
+    evidence_ids:
+    - ev-7e066c9217d1e050
+  - gate: truth
+    status: insufficient
+    reason: 报道未说明判定类别、准确率与人工复核边界，无法核对“减少拒收”这一结果是否可确定性交付。
+    evidence_ids:
+    - ev-7e066c9217d1e050
+  next_validation: 收集 Clarifresh 官方产品页或部署文档，核对拍摄方式、判定类别、准确率指标与人工复核流程。
+  market: ''
+  job: 浆果种植商或包装厂的质检人员在采收后分选线上，面对成批鲜果，需要逐批判断霉变、碰伤和成熟度并决定分级或剔除，同时记录批次质量以便对下游客户交代。
+  job_en: Inspectors at berry growers or packing houses work the post-harvest sorting line, judging mould,
+    bruising and ripeness batch by batch to decide grading or rejection, and recording batch quality to
+    answer to downstream buyers.
+  pain: 人眼翻检速度有限、标准随人和疲劳漂移，漏检的坏果到下游会变成整批退货或索赔；旺季临时工多，判断更不一致。
+  pain_en: Manual inspection is slow and its standard drifts with the person and with fatigue; missed
+    bad fruit becomes whole-batch returns or claims downstream, and seasonal temp staff make judgements
+    even less consistent.
+  current_alternative: 目前主要靠人工抽检加经验分级，辅以简单称重或尺寸设备；部分环节用抽样代替全检，坏果风险由下游承担。
+  current_alternative_en: Today it is mostly manual sampling plus experience-based grading, with simple
+    weight or size equipment; sampling often substitutes for full inspection, pushing the risk of bad
+    fruit downstream.
+  usage_reason: 推断：相较人工抽检，图像判读可以对每颗或每盘果实给出统一判定，把“逐颗翻看”这一步从人眼转移到相机与模型，减少漏检和人员标准漂移，因此旺季用工紧张、退货损失敏感的种植商和包装厂会先试用；但公开材料未给出准确率、复核流程或持续使用证据。
+  usage_reason_en: 'Inference: versus manual sampling, image judgement can give a consistent decision
+    per fruit or per tray, moving the ''flip through each fruit'' step from eyes to camera and model,
+    reducing misses and drift between inspectors, so growers and packers facing peak-season labour shortages
+    and return losses would trial it first; public material gives no accuracy, review process or repeat-use
+    evidence.'
+- id: req-full-wish-farms-and-clarifresh-transform-berry-quality-control-wi-2026-09-19
+  project_slug: wish-farms-and-clarifresh-transform-berry-quality-control-wi
+  level: full
+  reviewed_at: '2026-09-19T00:55:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决采收后分选线上逐批质检、分级与剔除的需求，痛点是人工翻检慢、标准漂移、漏检导致下游退货索赔；不采用代价是整批索赔，属刚性环节，但仅一则合作报道，属工作流结构推理。
+    evidence_ids:
+    - ev-7e066c9217d1e050
+  - gate: consensus
+    status: insufficient
+    reason: 仅一则 Wish Farms 合作报道，未见种植商侧公开评价、部署产线数量或复购信息，无法判断行业是否已普遍接受该做法。
+    evidence_ids:
+    - ev-7e066c9217d1e050
+  - gate: model
+    status: insufficient
+    reason: 买方应为种植商或包装厂，但公开材料未披露定价、按线还是按量计费、是否按减损结果结算，付费路径属推断而非已验证事实。
+    evidence_ids:
+    - ev-7e066c9217d1e050
+  - gate: truth
+    status: insufficient
+    reason: 报道未说明拍摄方式、判定类别、准确率与人工复核边界，无法核对“减少拒收”这一结果能否确定性交付。
+    evidence_ids:
+    - ev-7e066c9217d1e050
+  next_validation: 追踪 Clarifresh 官网产品页或部署文档，核对拍摄方式、判定类别、准确率指标与人工复核流程。
+  market: ''
+  job: 浆果种植商或包装厂的质检人员在采收后分选线上，面对成批鲜果，需要逐批判断霉变、碰伤与成熟度并决定分级或剔除，同时记录批次质量以便向下游客户交代。
+  job_en: Inspectors at berry growers or packing houses work the post-harvest sorting line, judging mould,
+    bruising and ripeness batch by batch to decide grading or rejection, and recording batch quality to
+    answer to downstream buyers.
+  pain: 人眼翻检速度有限、标准随人和疲劳漂移，漏检坏果到下游会变成整批退货或索赔；旺季临时工多，判断更不一致。
+  pain_en: Manual inspection is slow and its standard drifts with the person and with fatigue; missed
+    bad fruit becomes whole-batch returns or claims downstream, and seasonal temp staff make judgements
+    even less consistent.
+  current_alternative: 目前主要靠人工抽检加经验分级，辅以简单称重或尺寸设备；部分环节用抽样代替全检，坏果风险由下游承担。
+  current_alternative_en: Today it is mostly manual sampling plus experience-based grading, with simple
+    weight or size equipment; sampling often substitutes for full inspection, pushing the risk of bad
+    fruit downstream.
+  usage_reason: 推断：相较人工抽检，图像判读可对每颗或每盘果实给出统一判定，把“逐颗翻看”这一步从人眼转移到相机与模型，减少漏检与人员标准漂移，因此旺季用工紧张、退货损失敏感的种植商和包装厂会先试用；公开材料未给出准确率、复核流程或持续使用证据。
+  usage_reason_en: 'Inference: versus manual sampling, image judgement can give a consistent decision
+    per fruit or per tray, moving the ''flip through each fruit'' step from eyes to camera and model,
+    reducing misses and drift between inspectors, so growers and packers facing peak-season labour shortages
+    and return losses would trial it first; public material gives no accuracy, review process or repeat-use
+    evidence.'

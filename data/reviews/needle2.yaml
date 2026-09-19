@@ -74,3 +74,50 @@
   usage_reason_en: 'The task is: Tell a phone or watch to turn on the light. No network, no cloud wait
     — the device finishes in tens of milliseconds. Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-needle2-2026-09-19
+  project_slug: needle2
+  level: full
+  reviewed_at: '2026-09-19T00:53:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决端侧语音/自动化指令的离线即时执行需求：云端助手断网即失效且延迟可感，端侧大模型又受内存算力限制。公开事实称 8-29MB 模型可对标 DeepSeek V4 Flash，说明小体积端侧能力可行；用户任务、旧替代与不采用后果可由工作流结构推理还原，属结构推理而非采用数据。
+    evidence_ids:
+    - ev-28bb232de54c3e67
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅给出模型体积与能力对标这一产品事实，未提供下载量、部署范围、开发者讨论或用户评价等采用与持续使用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-28bb232de54c3e67
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、许可条款或客户采购记录，无法判断钱来自 to C 开发者、to B 设备厂商还是 to VC；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-28bb232de54c3e67
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明模型在真实设备上的延迟、功耗、准确率与安全边界，也未提供可复现的部署文档或实测结果，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-28bb232de54c3e67
+  next_validation: 追踪 Cactus Compute 官网 Needle 产品页与仓库，收集端侧部署文档、支持设备清单、许可与定价条款，以及公开的延迟/准确率实测或开发者 issue
+    讨论。
+  market: ''
+  job: 手机、手表、智能家居或机器人用户，在无网络或不便等待云端的场景下，对着设备说“开灯”等指令，需要本机在几十毫秒内完成语音理解与动作执行。
+  job_en: A phone, watch, smart-home, or robot user, in a no-network or cloud-latency-intolerant situation,
+    speaks a command such as 'turn on the light' and needs the device to understand and act locally in
+    tens of milliseconds.
+  pain: 云端语音助手依赖联网，断网或弱网时指令失效，且往返云端带来可感知延迟；把大模型塞进端侧又受内存与算力限制，用户要么忍受等待，要么放弃语音控制。
+  pain_en: Cloud voice assistants require connectivity, fail offline or on weak networks, and add perceptible
+    round-trip latency; fitting a capable model on-device is constrained by memory and compute, so users
+    either wait or abandon voice control.
+  current_alternative: 云端语音助手（如手机自带助手、智能音箱）或本地小模型/规则式语音命令；前者依赖网络与云端算力，后者能力有限、需手工配置。
+  current_alternative_en: Cloud voice assistants (built-in phone assistants, smart speakers) or local
+    small models / rule-based voice commands; the former depends on network and cloud compute, the latter
+    is limited and requires manual setup.
+  usage_reason: 推断：相较云端助手，Needle2 把 8-29MB 的模型直接跑在本机，省去联网与云端往返这一步，因此在断网、弱网或对延迟敏感的场景下，需要离线即时语音控制的手机、手表、智能家居与机器人用户会倾向选择它；公开材料尚未给出用户实际采用与持续使用的证据。
+  usage_reason_en: 'Inference: versus cloud assistants, Needle2 runs an 8-29MB model directly on-device,
+    removing the connectivity and cloud round-trip step, so users needing offline, low-latency voice control
+    on phones, watches, smart-home devices, and robots would prefer it in no-network or latency-sensitive
+    situations; public materials do not yet show actual adoption or sustained use.'

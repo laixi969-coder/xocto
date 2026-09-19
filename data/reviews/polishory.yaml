@@ -1,0 +1,86 @@
+- id: req-initial-polishory-2026-09-19
+  project_slug: polishory
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是网站文案像机器生成、运营者看不出问题且改不动的问题，旧做法明确，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-6404be36f9c813d2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有用户反馈或采用数据，卡在场景感知环节。
+    evidence_ids:
+    - ev-6404be36f9c813d2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按份或按项目收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-6404be36f9c813d2
+  - gate: truth
+    status: insufficient
+    reason: 无法确认检查范围、是否直接改稿以及计划能否落地，交付确定性未核验。
+    evidence_ids:
+    - ev-6404be36f9c813d2
+  next_validation: 收集该产品官方页面上的定价、检查范围与交付样例，确认改进计划是否包含可直接替换的文案。
+  market: ''
+  job: 网站运营者或中小企业主在发现官网文案像机器批量生成、访客不转化时，处理自己网站上的页面内容，要得到一份能照着改的改进计划。
+  job_en: A website operator or small business owner who finds their site copy reads machine-generated
+    and visitors do not convert works from their own site pages to get an improvement plan they can act
+    on.
+  pain: 自己看不出问题出在哪，改文案靠感觉，改完仍像模板；请外部顾问成本高、周期长。
+  pain_en: They cannot see what is wrong, edit copy by feel and still end up with template-like text,
+    while hiring an outside consultant is costly and slow.
+  current_alternative: 现在多数人靠通用 AI 对话工具给建议，或自己凭经验逐页改文案。
+  current_alternative_en: Most people ask a general AI chat tool for advice, or rewrite page copy by experience,
+    page by page.
+  usage_reason: 推断：相较通用对话工具给出的泛泛建议，它把网站内容作为输入直接产出针对该站的整改计划，省掉自己整理问题清单这一步，因此没有专职内容团队、又急着提升转化的运营者会尝试它。
+  usage_reason_en: 'Inference: versus generic advice from a chat tool, it takes the site''s own content
+    as input and produces a remediation plan for that site, removing the step of compiling a problem list,
+    so operators without a content team who need conversion gains would try it.'
+- id: req-full-polishory-2026-09-19
+  project_slug: polishory
+  level: full
+  reviewed_at: '2026-09-19T00:54:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决网站文案像机器生成、运营者看不出问题且改不动的问题，旧做法明确，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-6404be36f9c813d2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有用户反馈或采用数据，卡在场景感知环节。
+    evidence_ids:
+    - ev-6404be36f9c813d2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按份或按项目收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-6404be36f9c813d2
+  - gate: truth
+    status: insufficient
+    reason: 无法确认检查范围、是否直接改稿以及计划能否落地，交付确定性未核验。
+    evidence_ids:
+    - ev-6404be36f9c813d2
+  next_validation: 收集该产品官方页面上的定价、检查范围与交付样例，确认改进计划是否包含可直接替换的文案。
+  market: ''
+  job: 网站运营者或中小企业主在发现官网文案读起来像机器批量生成、访客不转化时，处理自己网站上的页面内容，要得到一份能照着改的改进计划。
+  job_en: A website operator or small business owner whose site copy reads machine-generated and whose
+    visitors do not convert works from their own site pages to obtain an improvement plan they can act
+    on.
+  pain: 自己看不出问题出在哪，改文案靠感觉，改完仍像模板；请外部顾问成本高、周期长。
+  pain_en: They cannot see what is wrong, edit copy by feel and still end up with template-like text,
+    while hiring an outside consultant is costly and slow.
+  current_alternative: 现在多数人靠通用 AI 对话工具给建议，或自己凭经验逐页改文案。
+  current_alternative_en: Most people ask a general AI chat tool for advice, or rewrite page copy by experience,
+    page by page.
+  usage_reason: 推断：相较通用对话工具给出的泛泛建议，它把网站内容作为输入直接产出针对该站的整改计划，省掉自己整理问题清单这一步，因此没有专职内容团队、又急着提升转化的运营者会尝试它。
+  usage_reason_en: 'Inference: versus generic advice from a chat tool, it takes the site''s own content
+    as input and produces a remediation plan for that site, removing the step of compiling a problem list,
+    so operators without a content team who need conversion gains would try it.'

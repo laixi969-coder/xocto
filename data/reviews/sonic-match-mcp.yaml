@@ -1,0 +1,88 @@
+- id: req-initial-sonic-match-mcp-2026-09-19
+  project_slug: sonic-match-mcp
+  level: initial
+  reviewed_at: '2026-09-19T00:21:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决成片配乐选曲、授权核对与混音参数这一具体环节，旧做法是人工试听加手动调参，痛点明确且不采用会有版权与返工代价。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: consensus
+    status: insufficient
+    reason: 仅约 45 星，没有用户评价、客户案例或社区讨论，无法判断剪辑师是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是个人创作者或后期团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: truth
+    status: insufficient
+    reason: 可商用授权曲库的来源与匹配准确度未说明，若授权不实或匹配偏差大，交付确定性会打折。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  next_validation: 收集该仓库的 README 与 issue/discussion，核验其音乐授权来源、匹配准确度说明以及是否有真实剪辑工作流的使用反馈。
+  market: ''
+  job: 短视频剪辑师或内容运营在成片后期，面对一段已剪好的视频素材，需要选出可商用授权的背景音乐并确定开场钩子位置和混音参数。
+  job_en: A short-video editor or content operator in post-production, holding a finished cut, needs to
+    pick license-safe background music and decide the opening hook position and mixing parameters.
+  pain: 找可商用音乐要反复试听和核对授权，混音参数靠经验调，返工多且存在版权风险。
+  pain_en: Finding commercially usable music means repeated listening and license checking, and mixing
+    parameters are tuned by experience, causing rework and copyright risk.
+  current_alternative: 在曲库网站手动搜索试听，用剪辑软件手动对齐节拍并手动设置音量包络。
+  current_alternative_en: Manually searching and auditioning on stock music sites, then aligning beats
+    and setting volume envelopes by hand in an editor.
+  usage_reason: 推断：它把试听筛选、授权核对和混音参数计算合并成一次调用，剪辑师不必在曲库和剪辑软件之间来回切换，直接拿到可执行的配乐方案，因此独立创作者和小型后期团队在赶片时会优先试用。
+  usage_reason_en: 'Inference: it merges auditioning, license checking and mixing-parameter calculation
+    into one call, so editors no longer switch between a music site and an editor and get an executable
+    plan, which is why solo creators and small post teams would try it under deadline.'
+- id: req-full-sonic-match-mcp-2026-09-19
+  project_slug: sonic-match-mcp
+  level: full
+  reviewed_at: '2026-09-19T00:54:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决成片配乐选曲、授权核对与混音参数这一具体环节，旧做法是人工试听加手动调参，痛点明确且不采用会有版权与返工代价。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: consensus
+    status: insufficient
+    reason: 仅约 45 星，没有用户评价、客户案例或社区讨论，无法判断剪辑师是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是个人创作者或后期团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: truth
+    status: insufficient
+    reason: 可商用授权曲库的来源与匹配准确度未说明，若授权不实或匹配偏差大，交付确定性会打折。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  next_validation: 收集该仓库的 README 与 issue/discussion，核验其音乐授权来源、匹配准确度说明以及是否有真实剪辑工作流的使用反馈。
+  market: ''
+  job: 短视频剪辑师或内容运营在成片后期，手里已有一段剪好的视频素材，需要选出可商用授权的背景音乐、确定开场钩子时间窗，并拿到可直接执行的 ffmpeg 混音与压低人声参数。
+  job_en: A short-video editor or content operator in post-production, holding a finished cut, needs to
+    pick license-safe background music, decide the opening hook window, and obtain directly executable
+    ffmpeg mixing and ducking parameters.
+  pain: 公开材料支持的痛点是：可商用音乐需要反复试听并核对授权，混音与压低人声参数靠经验手调，返工多且存在版权风险；不采用则要么承担授权风险，要么在曲库与剪辑软件之间反复切换。
+  pain_en: 'The pain supported by public material: commercially usable music requires repeated auditioning
+    and license checking, while mixing and ducking parameters are tuned by experience, causing rework
+    and copyright risk; not adopting it means either bearing license risk or repeatedly switching between
+    a music site and an editor.'
+  current_alternative: 在曲库网站手动搜索试听并核对授权，再在剪辑软件里手动对齐节拍、手动设置音量包络与压低人声。
+  current_alternative_en: Manually searching and auditioning on stock music sites while checking licenses,
+    then aligning beats and setting volume envelopes and ducking by hand in an editor.
+  usage_reason: 推断：相较手动试听加手调参数，它把授权筛选、钩子时间窗识别和 ffmpeg 混音参数计算合并为一次调用，剪辑师少掉在曲库与剪辑软件之间来回切换、以及凭经验试参数这两步，直接拿到可执行的配乐方案，因此赶片的独立创作者和小型后期团队会在成片后期选择它。
+  usage_reason_en: 'Inference: versus manual auditioning plus hand-tuned parameters, it merges license
+    filtering, hook-window detection and ffmpeg mixing-parameter calculation into one call, removing the
+    switch between music site and editor and the trial-and-error parameter step, delivering an executable
+    plan, which is why solo creators and small post teams under deadline would choose it in post-production.'

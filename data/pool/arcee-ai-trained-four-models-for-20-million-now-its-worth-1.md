@@ -1,6 +1,6 @@
 ---
 slug: arcee-ai-trained-four-models-for-20-million-now-its-worth-1
-name: Arcee AI trained four models for $20 million. Now, it’s worth $1 billion.
+name: Arcee AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNSC15RUY5UEhf
 summary: Arcee AI trained four models for $20 million. Now, it’s worth $1 billion. Fortune
 first_seen: '2026-09-16T11:12:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Arcee AI trained four models for $20 million. Now, it’s worth $1 billion.
+# Arcee AI
 
 Arcee AI trained four models for $20 million. Now, it’s worth $1 billion. Fortune
 

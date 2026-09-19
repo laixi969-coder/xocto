@@ -1,0 +1,80 @@
+- id: req-initial-bring-them-to-life-2026-09-19
+  project_slug: bring-them-to-life
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决静态素材吸引力不足的问题，但公开材料只有一句宣传语，说不清输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-01ff00acaa854d12
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外无采用、评价或复购证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-01ff00acaa854d12
+  - gate: model
+    status: insufficient
+    reason: 未见定价页与买方说明，按条、按套还是按席位收费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-01ff00acaa854d12
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成动画是否可直接用于投放，也未见人工确认环节。
+    evidence_ids:
+    - ev-01ff00acaa854d12
+  next_validation: 收集 Bring Them to Life 官方产品页或定价页，确认输入格式、输出样例与计费方式。
+  market: ''
+  job: 营销或产品人员在准备推广素材时，用静态产品图或页面作为材料，制作可发布的动画素材。
+  job_en: Marketing or product staff use static product images or pages as material when preparing promo
+    assets, to produce publishable animated assets.
+  pain: 静态素材在信息流中吸引力有限，重新制作动画需要设计或外包，周期与成本高；公开材料未说明这一痛点是否被直接解决。
+  pain_en: Static assets attract limited attention in feeds, and re-making animations requires designers
+    or outsourcing with high lead time and cost; public material does not show this pain being directly
+    addressed.
+  current_alternative: 目前多由设计师用动效工具手工制作，或外包给视频团队。
+  current_alternative_en: Today this is mostly done by designers using motion tools by hand, or outsourced
+    to video teams.
+  usage_reason: 推断：若它能直接吃进现有产品图并输出可用动画，用户可省去手工动效或外包沟通这一步；但公开材料未给出输入输出细节，无法确认。
+  usage_reason_en: 'Inference: if it takes existing product images and outputs usable animations, users
+    could skip manual motion work or outsourcing coordination; but public material gives no input/output
+    detail, so this is unconfirmed.'
+- id: req-full-bring-them-to-life-2026-09-19
+  project_slug: bring-them-to-life
+  level: full
+  reviewed_at: '2026-09-19T00:51:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决静态素材吸引力不足的问题，但公开材料只有一句宣传语，说不清输入、动作与交付，连需求和痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-1be580ae3505d25f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Bring Them to Life 官方产品页或定价页，确认输入格式、输出样例与计费方式。
+  market: ''
+  job: 营销或产品人员在准备推广素材时，把静态产品图或页面作为材料，制作可发布的动画素材。
+  job_en: Marketing or product staff use static product images or pages as material when preparing promo
+    assets, to produce publishable animated assets.
+  pain: 公开材料只有一句宣传语，未说明静态素材的痛点、输入形式或交付结果，无法还原具体痛点。
+  pain_en: Public material is only a tagline, with no stated pain of static assets, input format, or deliverable,
+    so the specific pain cannot be reconstructed.
+  current_alternative: 公开材料未提及当前替代方式。
+  current_alternative_en: Public material does not mention any current alternative.
+  usage_reason: 公开材料未说明产品如何完成交付，无法解释用户为何会选择它。
+  usage_reason_en: Public material does not explain how the product delivers, so it cannot explain why
+    users would choose it.

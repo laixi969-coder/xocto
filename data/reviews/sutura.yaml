@@ -1,0 +1,86 @@
+- id: req-initial-sutura-2026-09-19
+  project_slug: sutura
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 CI 失败后定位与修复这一具体环节，旧做法是人工读日志、复现、反复重跑，痛点刚性且不采用会持续消耗等待时间。
+    evidence_ids:
+    - ev-b0f0d86974fdd08f
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品宣称，没有用户评价、客户案例或采用数据，无法判断团队是否真的把修复权交给它。
+    evidence_ids:
+    - ev-b0f0d86974fdd08f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能是按仓库或按修复量向研发团队收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0f0d86974fdd08f
+  - gate: truth
+    status: insufficient
+    reason: “证明修复有效”的验证机制未说明，若无法在私有仓库安全复现，交付确定性存疑。
+    evidence_ids:
+    - ev-b0f0d86974fdd08f
+  next_validation: 收集 Sutura 官方定价页与部署文档，核验其支持的代码托管平台、验证修复的具体机制以及是否公开客户案例。
+  market: ''
+  job: 后端或 DevOps 工程师在持续集成流水线失败时，面对构建日志和失败用例，需要定位原因并提交一个能通过验证的修复。
+  job_en: A backend or DevOps engineer facing a failed CI pipeline, with build logs and failing tests,
+    needs to locate the cause and submit a fix that passes verification.
+  pain: 失败日志冗长、复现环境搭建耗时，修复后还要反复重跑流水线确认，占用大量等待时间。
+  pain_en: Failure logs are long, reproducing the environment is slow, and after fixing, the pipeline
+    must be re-run repeatedly to confirm, consuming long waiting time.
+  current_alternative: 人工阅读日志、本地复现、手写补丁并反复推送触发流水线重跑。
+  current_alternative_en: Reading logs manually, reproducing locally, writing the patch by hand and pushing
+    repeatedly to re-trigger the pipeline.
+  usage_reason: 推断：它把读日志、生成补丁和重跑验证串成一次自动流程，工程师不必自己复现和反复推送，直接拿到已被验证的补丁，因此流水线频繁失败的中小研发团队会优先试用。
+  usage_reason_en: 'Inference: it chains log reading, patch generation and re-run verification into one
+    automatic flow, so engineers skip manual reproduction and repeated pushes and receive an already verified
+    patch, which is why teams with frequent CI failures would try it first.'
+- id: req-full-sutura-2026-09-19
+  project_slug: sutura
+  level: full
+  reviewed_at: '2026-09-19T00:54:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 CI 失败后定位与修复这一具体环节：工程师要读冗长日志、搭复现环境、反复重跑确认，旧做法耗时且不采用会持续消耗等待时间，结构上成立；谁付钱尚未披露。
+    evidence_ids:
+    - ev-b0f0d86974fdd08f
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品宣称，没有用户评价、客户案例或采用数据，无法判断团队是否真的把修复权交给它。
+    evidence_ids:
+    - ev-b0f0d86974fdd08f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能是按仓库或按修复量向研发团队收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0f0d86974fdd08f
+  - gate: truth
+    status: insufficient
+    reason: “证明修复有效”的验证机制未说明，若无法在私有仓库安全复现，交付确定性存疑。
+    evidence_ids:
+    - ev-b0f0d86974fdd08f
+  next_validation: 收集 Sutura 官方定价页与部署文档，核验其支持的代码托管平台、验证修复的具体机制以及是否公开客户案例。
+  market: ''
+  job: 后端或 DevOps 工程师在持续集成流水线失败时，面对构建日志和失败用例，需要定位原因并提交一个能通过验证的修复。
+  job_en: A backend or DevOps engineer facing a failed CI pipeline, with build logs and failing tests,
+    needs to locate the cause and submit a fix that passes verification.
+  pain: 失败日志冗长、复现环境搭建耗时，修复后还要反复重跑流水线确认，占用大量等待时间。
+  pain_en: Failure logs are long, reproducing the environment is slow, and after fixing, the pipeline
+    must be re-run repeatedly to confirm, consuming long waiting time.
+  current_alternative: 人工阅读日志、本地复现、手写补丁并反复推送触发流水线重跑。
+  current_alternative_en: Reading logs manually, reproducing locally, writing the patch by hand and pushing
+    repeatedly to re-trigger the pipeline.
+  usage_reason: 推断：相较人工读日志、复现、反复推送重跑，它把读日志、生成补丁与重跑验证串成一次自动流程，工程师不必自己复现和反复推送，直接拿到已被验证的补丁，因此流水线频繁失败、修复等待成本高的研发团队会在
+    CI 报错时优先试用。
+  usage_reason_en: 'Inference: compared with manually reading logs, reproducing and re-pushing, it chains
+    log reading, patch generation and re-run verification into one automatic flow, so engineers skip manual
+    reproduction and repeated pushes and receive an already verified patch, which is why teams with frequent
+    CI failures and high fix-wait cost would try it first.'

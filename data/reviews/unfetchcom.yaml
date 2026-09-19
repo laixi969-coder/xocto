@@ -1,0 +1,87 @@
+- id: req-initial-unfetchcom-2026-09-19
+  project_slug: unfetchcom
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决广告后台手动调整这一步，痛点方向成立，但公开材料只有一句功能描述，说不清替代哪一步旧操作、交付什么结果，价值判断缺依据。
+    evidence_ids:
+    - ev-cafb15a233ee7a3e
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页外没有用户评价、采用或讨论证据，无法判断是否有人真的把投放交给它。
+    evidence_ids:
+    - ev-cafb15a233ee7a3e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方和收费方式；广告账户授权与代理关系可能带来合规成本，钱从哪来无法判断。
+    evidence_ids:
+    - ev-cafb15a233ee7a3e
+  - gate: truth
+    status: insufficient
+    reason: 广告投放涉及真实预算，若执行错误代价高；公开材料未说明人工确认环节与安全边界，确定性交付无法核对。
+    evidence_ids:
+    - ev-cafb15a233ee7a3e
+  next_validation: 收集 Unfetch.com 官方定价页或部署文档，确认它接入哪些广告平台、执行哪些具体动作以及是否需要人工确认。
+  market: ''
+  job: 中小商家或投放运营在广告后台里调整预算、素材和出价，希望把“看数据—改设置”这一步交给对话助手完成。
+  job_en: A small merchant or paid media operator adjusts budgets, creatives and bids in an ad console
+    and wants the read-data-then-change-settings step handed to a conversational assistant.
+  pain: 投放后台操作琐碎、需要反复登录和手动改参数，非专业商家容易漏掉调整；但公开材料没有说明它替代了哪一步具体操作，也没有用户抱怨或使用记录。
+  pain_en: Ad console work is fiddly, requiring repeated logins and manual parameter changes that non-specialist
+    merchants easily skip; however the public material does not show which specific step it replaces,
+    nor any user complaint or usage record.
+  current_alternative: 商家自己登录广告后台手动调整，或雇代理/投手代运营，或使用已有的自动化投放规则工具。
+  current_alternative_en: Merchants log into the ad console and adjust manually, hire an agency or media
+    buyer, or use existing automated bidding and rule tools.
+  usage_reason: 推断：如果它真能通过对话直接执行投放调整，省下的是登录后台、逐项改参数这一步，对没有专职投手的小商家有吸引力；但公开材料只有一句功能描述，无法确认执行范围、权限边界和结果，因此选择理由尚未成立。
+  usage_reason_en: 'Inference: if it truly executes campaign changes through conversation, it saves the
+    login-and-edit-each-parameter step, which appeals to small merchants without a dedicated media buyer;
+    but the public material is a single feature line, so scope, permission boundaries and outcomes cannot
+    be confirmed and the reason to choose it is not yet established.'
+- id: req-full-unfetchcom-2026-09-19
+  project_slug: unfetchcom
+  level: full
+  reviewed_at: '2026-09-19T00:55:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决广告后台手动调预算、改素材这一步，痛点方向成立，但公开材料只有一句功能描述，说不清替代哪一步旧操作、交付什么结果，连需求与痛点都无法还原，价值判断缺依据。
+    evidence_ids:
+    - ev-37728ea87edf46cd
+    - ev-93801c70db99d12f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Unfetch.com 官方定价页或部署文档，确认它接入哪些广告平台、执行哪些具体动作以及是否需要人工确认。
+  market: ''
+  job: 中小商家或投放运营在广告后台里调整预算、素材和出价，希望把“看数据—改设置”这一步交给 ChatGPT 或 Claude 这类对话助手完成。
+  job_en: A small merchant or paid media operator adjusts budgets, creatives and bids in an ad console
+    and wants the read-data-then-change-settings step handed to a conversational assistant such as ChatGPT
+    or Claude.
+  pain: 公开材料只有一句“让 ChatGPT 和 Claude 管理你的广告”，没有说明它接管哪个平台、替代哪一步旧操作、人工是否确认，也没有用户抱怨或使用记录，痛点无法还原。
+  pain_en: The public material is a single line, 'Let ChatGPT and Claude manage your ads,' with no indication
+    of which platforms it covers, which old step it replaces, or whether a human confirms actions, and
+    no user complaints or usage records, so the pain cannot be reconstructed.
+  current_alternative: 商家自己登录广告后台手动调整，或雇代理/投手代运营，或使用已有的自动化投放规则工具。
+  current_alternative_en: Merchants log into the ad console and adjust manually, hire an agency or media
+    buyer, or use existing automated bidding and rule tools.
+  usage_reason: 推断：若它真能通过对话直接执行投放调整，省下的是登录后台、逐项改参数这一步，对没有专职投手的小商家有吸引力；但公开材料只有一句功能描述，执行范围、权限边界和结果均无法确认，选择理由尚未成立。
+  usage_reason_en: 'Inference: if it truly executes campaign changes through conversation, it saves the
+    login-and-edit-each-parameter step, which appeals to small merchants without a dedicated media buyer;
+    but the public material is a single feature line, so scope, permission boundaries and outcomes cannot
+    be confirmed and the reason to choose it is not yet established.'

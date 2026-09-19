@@ -26,7 +26,7 @@ summary: Activation steering has emerged as a powerful method for guiding the be
   across layers and inputs, intervening strongly only when undesired behavior is detected…
 first_seen: '2026-09-18T00:00:00Z'
 last_seen: '2026-09-19T00:21:44Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

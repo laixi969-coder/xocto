@@ -204,3 +204,45 @@
   usage_reason: 缺少用户反馈或客户案例，无法说明哪类用户会在什么情况下选择它；仅凭产品自述不能构成使用理由。
   usage_reason_en: With no user feedback or customer cases, it is impossible to say which users would
     choose it and when; a product's own description cannot serve as a usage reason.
+- id: req-full-deploymentinc-hiring-problems-2026-09-19
+  project_slug: deploymentinc-hiring-problems
+  level: full
+  reviewed_at: '2026-09-19T00:52:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决企业把 AI 从演示推进到生产的落地任务，但公开材料只有一句岗位描述，没有用户痛点、失败代价、频率或既有替代行为，连需求和痛点都还原不出来。
+    evidence_ids:
+    - ev-f375e4f228b47134
+    - ev-e610a7b1ec4a43b8
+    - ev-297e15ecbbec4392
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Deployment.inc 官网的客户案例页与交付说明文档，确认其实际交付物、部署方式与已公开的客户名称。
+  market: ''
+  job: 企业内部的 AI 项目负责人需要在预算与安全团队审查的约束下，把演示阶段的模型落到企业自有数据上，跑出可解释的业务指标并向业务负责人解释该指标为何如此。
+  job_en: An enterprise AI project owner must take a demo-stage model onto the company's own data under
+    budget and security-team review, produce an explainable business metric, and justify that number to
+    a business owner.
+  pain: 公开材料只给出岗位描述式的一句话，没有说明当前流程哪里卡住、失败代价多大、发生频率如何，也没有任何用户抱怨或替代行为记录。
+  pain_en: Public material offers only a one-line role description; it does not show where the current
+    process breaks, how costly failure is, how often it occurs, or any user complaint or workaround behavior.
+  current_alternative: 公开材料未说明企业今天如何完成这项工作，也未说明它替代了内部数据团队、外部咨询还是自建平台。
+  current_alternative_en: Public material does not show how enterprises do this work today, nor whether
+    it replaces an internal data team, outside consultants, or a self-built platform.
+  usage_reason: 缺少可核验的交付物、计价与客户案例，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no verifiable deliverable, pricing, or customer case, it is impossible to say
+    which step of the old approach it removes or which checkable result it improves, so no user-selection
+    rationale can be established.

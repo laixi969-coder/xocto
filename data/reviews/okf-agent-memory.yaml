@@ -478,3 +478,58 @@
     re-packaging project background into prompts and letting knowledge evolve with the repo. Engineers
     already using agents on existing codebases who care about auditable, portable context would choose
     it on a new session or when switching agents. Public materials provide no user-stated motiva'
+- id: req-full-okf-agent-memory-2026-09-19
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-19T00:53:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程代理跨会话失忆与重复读文件导致的 token 膨胀，痛点是代理工作流中真实存在的上下文浪费；公开材料给出 Git 原生 Markdown 记忆、嵌入式 MCP 与本地
+      BM25 检索的完整输入—动作—交付闭环，属工作流结构推理，尚无用户侧代价量化。
+    evidence_ids:
+    - ev-a37673de1899fe20
+    - ev-480ea7907126dc5e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 682 增至 697，说明开发者已注意到该项目，但收藏与关注度只反映规模与兴趣，缺少 issue、discussion 或用户反馈证明它被持续留在日常编码工作流中。
+    evidence_ids:
+    - ev-a37673de1899fe20
+    - ev-4547d3baa59c46c5
+    - ev-c4ad8f683cac0cf1
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、付费主体或单位经济；钱可能来自 to C 开发者自愿支持或 to B 团队支持，但均属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-a37673de1899fe20
+  - gate: truth
+    status: insufficient
+    reason: 承诺的 80% token 削减与亚 300 微秒检索只有项目自述，未见可复现实测或第三方评测；记忆写入与代理自动修改之间的安全与人工边界也未在公开文档中说明。
+    evidence_ids:
+    - ev-a37673de1899fe20
+    - ev-7e317f10ad8e0cd7
+  next_validation: 追踪 okf-memory.dev 与 公开代码仓库 仓库的 issue/discussion 及 README 部署文档，确认是否有用户报告实际接入代理、替代了原有提示文件或向量库流程，并核对
+    token 削减是否有可复现实测。
+  market: ''
+  job: 软件工程师在本地仓库中用 Claude Code、Cursor 等 AI 编程代理改代码时，需要让代理读取项目历史、约定与既有知识，并把这些记忆以可版本化的 Markdown 文件形式随代码一起提交和复用。
+  job_en: Software engineers working with AI coding agents (e.g. Claude Code, Cursor) inside a local repository
+    need the agent to read project history, conventions and prior knowledge, and to keep that memory as
+    versionable Markdown files committed alongside the code.
+  pain: AI 代理每次会话都从零开始，重复读取大量文件导致 token 膨胀、上下文被无关内容挤占，且项目知识散落在会话里无法跨会话、跨同事复用；公开材料把这一痛点表述为 token bloat，但未给出用户侧的具体代价或频率数据。
+  pain_en: Agents restart from zero each session, re-reading large file sets, which bloats tokens and
+    crowds out relevant context; project knowledge stays trapped in individual sessions and cannot be
+    reused across sessions or teammates. Public material frames this as token bloat but gives no user-side
+    cost or frequency data.
+  current_alternative: 常见旧做法是依赖代理自带的会话上下文、手工维护 CLAUDE.md/AGENTS.md 之类的提示文件，或把知识放进外部向量数据库与检索服务；这些方式要么不持久，要么需要额外服务与依赖。
+  current_alternative_en: The usual workarounds are the agent's own session context, hand-maintained prompt
+    files such as CLAUDE.md/AGENTS.md, or pushing knowledge into an external vector database or retrieval
+    service; these are either non-persistent or require extra services and dependencies.
+  usage_reason: 推断：相较手工维护提示文件或外挂向量库，它把记忆直接写成 Git 仓库里的 Markdown 文件，用嵌入式 MCP 服务器和内存 BM25 检索在本地完成召回，从而省掉搭建与同步外部数据库这一步，并让记忆随代码一起版本化；因此在意
+    token 成本、又不想引入外部依赖的本地代理用户会优先试它。
+  usage_reason_en: 'Inference: versus hand-maintained prompt files or an external vector store, it stores
+    memory as Markdown files inside the Git repo and retrieves locally via an embedded MCP server and
+    in-memory BM25 search, removing the step of standing up and syncing an external database and letting
+    memory version with the code; users who care about token cost and want no external dependency are
+    the ones likely to try it.'

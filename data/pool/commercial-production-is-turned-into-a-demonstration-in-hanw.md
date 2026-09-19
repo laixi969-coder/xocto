@@ -22,7 +22,7 @@ summary: Commercial Production is Turned into a Demonstration in Hanwha Visionâ€
   Marketing Communication News
 first_seen: '2026-09-17T12:28:45Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

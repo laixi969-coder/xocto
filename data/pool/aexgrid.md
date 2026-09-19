@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/aexgrid
 summary: Coordinate AI agents. From anywhere.
 first_seen: '2026-09-18T05:42:36Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -331,3 +331,51 @@
     context windows with rollover tools, durable notes and history recovery, offloading the ''restate
     and rebuild context'' step to the tool, so long-session developers would adopt it as the window nears
     overflow.'
+- id: req-full-pi-posthorse-2026-09-19
+  project_slug: pi-posthorse
+  level: full
+  reviewed_at: '2026-09-19T00:54:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长编码会话中上下文丢失、代理遗忘早期决策的痛点，不解决的后果是重述需求与重启会话；旧替代是摘要压缩或手动重述。这是基于产品说明与工作流结构的推理，非用户采用数据。
+    evidence_ids:
+    - ev-49815c681b0b586d
+    - ev-8e8b9ef1c5854ced
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 236 缓慢增至 246，说明有持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在日常工作流或持续使用。
+    evidence_ids:
+    - ev-49815c681b0b586d
+    - ev-8e8b9ef1c5854ced
+  - gate: model
+    status: insufficient
+    reason: 这是 Pi fork 的开源扩展，公开材料未见定价页、付费主体或采购路径；谁付钱尚不清，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-49815c681b0b586d
+  - gate: truth
+    status: insufficient
+    reason: 无摘要上下文窗口与历史恢复能否在长会话中稳定交付、以及人工与安全边界，尚缺可复现的公开文档或 issue 证据。
+    evidence_ids:
+    - ev-49815c681b0b586d
+  next_validation: 追踪 pi-posthorse 仓库的 README、issue 与 discussion，确认无摘要上下文窗口的实际部署方式、已知失败模式与用户报告的使用场景。
+  market: ''
+  job: 使用 Pi 编码代理（fitchmultz/pi fork）的开发者，在长时间多轮编码会话中处理代码库与对话历史，需要在不丢失早期决策与文件上下文的前提下继续推进任务。
+  job_en: Developers using the Pi coding agent (fitchmultz/pi fork) work through long multi-turn coding
+    sessions over a codebase and conversation history, and need to keep advancing the task without losing
+    earlier decisions or file context.
+  pain: 长会话中上下文窗口被填满后，代理会遗忘早前约定、重复提问或偏离原任务，开发者被迫重述需求或重启会话，损失已积累的推理链。
+  pain_en: When the context window fills up in long sessions, the agent forgets earlier agreements, re-asks
+    questions, or drifts from the original task, forcing developers to restate requirements or restart
+    the session and lose accumulated reasoning.
+  current_alternative: 现有做法是依赖代理自带的摘要压缩（summary）机制，或手动重述上下文、开新会话、把关键信息粘贴回提示词。
+  current_alternative_en: Today users rely on the agent's built-in summary compaction, or manually restate
+    context, start a new session, and paste key information back into the prompt.
+  usage_reason: 推断：相较摘要压缩会不可逆地丢失细节，Posthorse 以无摘要的上下文窗口切换、滚动工具、持久笔记和历史恢复，让开发者在会话轮换后仍能取回原始上下文，减少重述与重启这一步负担；因此长会话的
+    Pi fork 用户会在上下文接近上限时选择它。
+  usage_reason_en: 'Inference: unlike lossy summary compaction, Posthorse uses no-summary context window
+    rollover, rollover tools, durable notes, and history recovery so developers can retrieve original
+    context after a window switch, removing the restate-and-restart step; Pi fork users in long sessions
+    would choose it as context approaches its limit.'

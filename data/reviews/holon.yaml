@@ -1,0 +1,81 @@
+- id: req-initial-holon-2026-09-19
+  project_slug: holon
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多步任务执行与跟进，但公开材料只有一句定位，无法说清处理什么材料、交付什么结果，价值结构不完整。
+    evidence_ids:
+    - ev-ce243e8d41d68eef
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、客户案例或采用数据，无法判断是否有人把它放进日常工作流。
+    evidence_ids:
+    - ev-ce243e8d41d68eef
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅还是团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ce243e8d41d68eef
+  - gate: truth
+    status: insufficient
+    reason: 无法核对执行权限、人工确认边界与失败处理，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-ce243e8d41d68eef
+  next_validation: 收集该产品的官方文档或演示，确认其可接入的系统、可执行的任务类型与人工确认环节。
+  market: ''
+  job: 办公人员在有多步任务需要持续推进时，需要有人把后续步骤执行完并跟进。
+  job_en: Office staff with a multi-step task that must keep moving need someone to execute and follow
+    up on the remaining steps.
+  pain: 多步任务容易在交接和等待中停住，人工逐项跟进耗时且容易遗漏。
+  pain_en: Multi-step tasks stall in handoffs and waiting, and following up item by item manually is time-consuming
+    and easy to drop.
+  current_alternative: 用待办清单和提醒工具人工跟进，或使用已有的对话式助手。
+  current_alternative_en: Tracking manually with to-do lists and reminders, or using existing conversational
+    assistants.
+  usage_reason: 推断：若代理能直接执行并跟进后续步骤，可省去人工逐项催办的一步；但公开材料只有一句定位，无法确认它接入哪些系统、能完成哪类任务，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: if the agent can directly execute and follow up on later steps, it saves
+    the manual step of chasing each item; but only one positioning line is public, so which systems it
+    connects to and what tasks it completes cannot be confirmed, leaving the reason to choose it unestablished.'
+- id: req-full-holon-2026-09-19
+  project_slug: holon
+  level: full
+  reviewed_at: '2026-09-19T00:53:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅一句定位，无法说清处理什么材料、交付什么结果、旧替代是什么，价值结构不完整，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-ce243e8d41d68eef
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Holon 官方文档或演示页，确认其可接入的系统、可执行的任务类型与人工确认环节。
+  market: ''
+  job: 办公人员在有多步任务需要持续推进时，需要有人把后续步骤执行完并跟进。
+  job_en: Office staff with a multi-step task that must keep moving need someone to execute and follow
+    up on the remaining steps.
+  pain: 公开材料只有一句定位，未说明多步任务在交接或等待中停住的具体痛点，也无用户抱怨或案例支持。
+  pain_en: Public materials offer only a one-line positioning and do not describe the specific pain of
+    multi-step tasks stalling in handoffs or waiting, nor any user complaint or case.
+  current_alternative: 公开材料未说明用户当前用什么方式跟进多步任务，待办清单或对话式助手均属推断。
+  current_alternative_en: Public materials do not state how users currently follow up on multi-step tasks;
+    to-do lists or conversational assistants are inference only.
+  usage_reason: 公开材料未说明它接入哪些系统、能完成哪类任务，无法解释相较旧做法减少哪一步负担，选择理由尚不成立。
+  usage_reason_en: Public materials do not state which systems it connects to or what tasks it completes,
+    so which step it removes versus the old approach cannot be explained and the reason to choose it is
+    unestablished.

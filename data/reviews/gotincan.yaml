@@ -1,0 +1,81 @@
+- id: req-initial-gotincan-2026-09-19
+  project_slug: gotincan
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多代理协作这一具体任务，但公开材料只有一句描述，无法还原输入、动作与交付，价值结构不完整。
+    evidence_ids:
+    - ev-5ae8da1f9eac605b
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅5点、2条评论，属于关注度而非采用证据，无法判断是否有人真正接入使用。
+    evidence_ids:
+    - ev-5ae8da1f9eac605b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源项目靠托管服务还是企业支持收费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5ae8da1f9eac605b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对协作协议、冲突处理与安全边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-5ae8da1f9eac605b
+  next_validation: 收集该项目的官方文档或仓库说明，确认多代理协作的协议、接入方式与冲突处理机制。
+  market: ''
+  job: AI 应用开发者在多个代理需要共同完成同一任务时，需要让它们共享状态并分工推进。
+  job_en: AI application developers need several agents to share state and divide work when they must
+    complete one task together.
+  pain: 多代理协作目前多靠自行拼接消息传递与状态同步，重复造轮子且难以排查冲突。
+  pain_en: Multi-agent collaboration today is mostly hand-stitched message passing and state sync, which
+    duplicates work and makes conflicts hard to trace.
+  current_alternative: 自行编写编排代码，或使用已有的代理框架与工作流引擎。
+  current_alternative_en: Writing orchestration code in-house, or using existing agent frameworks and
+    workflow engines.
+  usage_reason: 推断：若它把共享会话与协作规则做成现成能力，可省去开发者自建状态同步的一步；但公开材料只有一句描述，无法确认它比现有代理框架少做哪些工作。
+  usage_reason_en: 'Inference: if it packages shared sessions and collaboration rules as ready-made capability,
+    it saves developers the step of building state sync themselves; but only one line of description is
+    public, so what it saves versus existing agent frameworks cannot be confirmed.'
+- id: req-full-gotincan-2026-09-19
+  project_slug: gotincan
+  level: full
+  reviewed_at: '2026-09-19T00:52:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多代理协作这一具体任务，但公开材料只有一句描述，无法还原输入、动作与交付，价值结构不完整。
+    evidence_ids:
+    - ev-5ae8da1f9eac605b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方文档或仓库说明，确认多代理协作的协议、接入方式与冲突处理机制。
+  market: ''
+  job: AI 应用开发者在多个代理需要共同完成同一任务时，需要让它们共享状态并分工推进。
+  job_en: AI application developers need several agents to share state and divide work when they must
+    complete one task together.
+  pain: 多代理协作目前多靠自行拼接消息传递与状态同步，重复造轮子且难以排查冲突。
+  pain_en: Multi-agent collaboration today is mostly hand-stitched message passing and state sync, which
+    duplicates work and makes conflicts hard to trace.
+  current_alternative: 自行编写编排代码，或使用已有的代理框架与工作流引擎。
+  current_alternative_en: Writing orchestration code in-house, or using existing agent frameworks and
+    workflow engines.
+  usage_reason: 推断：若它把共享会话与协作规则做成现成能力，可省去开发者自建状态同步的一步；但公开材料只有一句描述，无法确认它比现有代理框架少做哪些工作。
+  usage_reason_en: 'Inference: if it packages shared sessions and collaboration rules as ready-made capability,
+    it saves developers the step of building state sync themselves; but only one line of description is
+    public, so what it saves versus existing agent frameworks cannot be confirmed.'

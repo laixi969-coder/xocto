@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hac
 summary: Researchers used Claude to reach an OpenAI employee account and sensitive GitHub data.
 first_seen: '2026-09-18T13:30:12Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

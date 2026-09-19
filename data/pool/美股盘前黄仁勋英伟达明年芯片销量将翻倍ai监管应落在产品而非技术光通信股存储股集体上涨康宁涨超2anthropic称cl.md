@@ -22,7 +22,7 @@ summary: 【美股盘前】黄仁勋：英伟达明年芯片销量将翻倍，AI
   mrjjxw.com
 first_seen: '2026-09-18T09:01:30Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

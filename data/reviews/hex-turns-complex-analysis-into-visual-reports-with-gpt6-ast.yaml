@@ -1,0 +1,82 @@
+- id: req-initial-hex-turns-complex-analysis-into-visual-reports-with-gpt6-ast-2026-09-19
+  project_slug: hex-turns-complex-analysis-into-visual-reports-with-gpt6-ast
+  level: initial
+  reviewed_at: '2026-09-19T00:21:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分析师把结果转成可交互汇报材料的需求，痛点是手工制图与反复导出耗时，旧做法明确。
+    evidence_ids:
+    - ev-57b275853e5ed821
+  - gate: consensus
+    status: insufficient
+    reason: 仅见模型厂商发布的案例，缺少独立用户评价或采用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-57b275853e5ed821
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按席位还是按报告收费属推断，付费路径未核验。
+    evidence_ids:
+    - ev-57b275853e5ed821
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定复现、人工确认边界如何划分均未说明，缺少可核对结果。
+    evidence_ids:
+    - ev-57b275853e5ed821
+  next_validation: 收集 Hex 官方定价页或公开客户案例，确认其数据代理的收费方式与交付结果。
+  market: ''
+  job: 数据分析师在完成查询和建模后，需要把结果整理成同事能看懂、能交互查看的汇报材料。
+  job_en: After finishing queries and modeling, a data analyst needs to turn results into briefing materials
+    colleagues can read and explore interactively.
+  pain: 把分析结果手工做成图表和汇报材料耗时，且每次口径变化都要重做，交付慢。
+  pain_en: Manually turning analysis results into charts and briefings is time-consuming, and every change
+    in definitions forces rework, slowing delivery.
+  current_alternative: 分析师用 BI 工具或表格手工搭图表，再导出成静态文档或幻灯片发给同事。
+  current_alternative_en: Analysts build charts by hand in BI tools or spreadsheets, then export static
+    documents or slides to colleagues.
+  usage_reason: 推断：相较手工搭图表再导出，数据代理直接接收分析结果并生成可交互报告，省去逐张制图和反复导出这一步，因此需要频繁向业务方交付分析结论的团队会选它。
+  usage_reason_en: 'Inference: compared with hand-building charts and exporting them, the data agent takes
+    analysis results and generates interactive reports, removing the step of charting and re-exporting
+    one by one, so teams that frequently deliver analysis to business stakeholders would choose it.'
+- id: req-full-hex-turns-complex-analysis-into-visual-reports-with-gpt6-ast-2026-09-19
+  project_slug: hex-turns-complex-analysis-into-visual-reports-with-gpt6-ast
+  level: full
+  reviewed_at: '2026-09-19T00:53:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向颜色代码查询网站，与数据分析可视化报告无关，无法还原用户任务、痛点、旧替代与交付闭环，价值结构无法成立。
+    evidence_ids:
+    - ev-f40eb19ee17d63e0
+    - ev-6594b8352158de91
+    - ev-6bf363773042174a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Hex 官方产品页或文档，确认其数据代理的输入、输出与交付流程，而非颜色代码工具页面。
+  market: ''
+  job: 数据分析师在完成查询与建模后，需要把结果整理成同事能看懂、能交互查看的汇报材料。
+  job_en: After finishing queries and modeling, a data analyst needs to turn results into briefing materials
+    colleagues can read and explore interactively.
+  pain: 公开材料未提供任何关于手工制图、反复导出或口径变更返工的用户痛点证据，无法确认痛点是否真实存在。
+  pain_en: Public materials provide no user-pain evidence about manual charting, repeated exporting, or
+    rework from changing definitions, so the pain cannot be confirmed as real.
+  current_alternative: 公开材料未说明分析师当前用什么工具或流程完成图表与汇报材料制作。
+  current_alternative_en: Public materials do not describe what tools or processes analysts currently
+    use to produce charts and briefing materials.
+  usage_reason: 公开材料未说明用户为何会选择它，无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: Public materials do not explain why users would choose it, so which step it removes
+    versus the old approach or which checkable result it improves cannot be stated.

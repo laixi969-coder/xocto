@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjdE5TcDkyTEk2
 summary: Top 7 AI Product Demos You Can’t Miss Small Business Trends
 first_seen: '2026-09-17T20:31:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -182,3 +182,52 @@
     editor, it keeps generation and editing on one canvas and in one conversation, removing the export-import
     and version-alignment step, so creators with frequent asset output and repeated fine-tuning are likely
     to try it first; the repo only shows 46→49 stars, with no retention or payment evidence.'
+- id: req-full-polox-ai-2026-09-19
+  project_slug: polox-ai
+  level: full
+  reviewed_at: '2026-09-19T00:54:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成与编辑分离、素材在多个工具间反复搬运且版本易乱的问题，作者在 V2EX 自述核心思路即把创作与修改集中在 agent 交互上，旧做法可指认，属工作流结构推理。
+    evidence_ids:
+    - ev-57f87a48eed37adb
+    - ev-bf32d953598a4f3d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 46 增至 65，属关注度信号；V2EX 帖仅称按微信群内开发与设计朋友的反馈更新，未给出持续采用或留存证据，卡在场景感知环节。
+    evidence_ids:
+    - ev-ead3d17a004fdab4
+    - ev-57f87a48eed37adb
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费或买方路径，谁付钱只能推断为自部署团队或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明基于 DeepSeek Harness 与无限画布，未说明支持模态、输出格式、部署方式与人工确认边界，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-bf32d953598a4f3d
+    - ev-57f87a48eed37adb
+  next_validation: 追踪该仓库 README 与 issue/discussion 中关于支持模态、输出格式与部署方式的说明，确认生成结果能否确定性交付。
+  market: ''
+  job: 内容创作者或设计人员在需要产出并反复修改图片、视频等素材时，把生成、修改与拼接集中在与 agent 的对话和一块无限画布上完成，最终拿到可继续编辑的素材。
+  job_en: A content creator or designer producing and repeatedly revising image and video assets does
+    generation, revision and assembly inside an agent conversation and one infinite canvas, ending with
+    assets that remain editable.
+  pain: 生成工具与本地编辑器分离，素材要在多个工具间导出导入，版本容易混乱，重复劳动多；作者在 V2EX 帖中称其核心思路正是让用户把创作与修改的关注点集中在与 agent 的交互上。
+  pain_en: Generation tools and local editors are separate, so assets must be exported and imported across
+    tools, versions get confused and work is repeated; the author states on V2EX that the core idea is
+    to keep creation and revision focused in the agent interaction.
+  current_alternative: 在多个单点生成工具出图后，再下载到本地编辑器或设计软件里拼接修改；作者自述其产品类似 Lovart，说明该形态已有可比替代。
+  current_alternative_en: Generating images in several single-purpose tools, then downloading them into
+    a local editor or design software to assemble and revise; the author describes it as similar to Lovart,
+    indicating a comparable existing form.
+  usage_reason: 推断：相较在多个生成工具与本地编辑器之间搬运文件，它把生成与编辑收进同一段对话和同一块画布，省掉导出导入与版本对齐这一步，因此素材产出频繁、需要反复微调的创作者会先试用；目前只有星标增长，缺少留存与付费证据。
+  usage_reason_en: 'Inference: compared with shuttling files between several generation tools and a local
+    editor, it keeps generation and editing in one conversation and one canvas, removing the export-import
+    and version-alignment step, so creators with frequent output and repeated fine-tuning would try it
+    first; only star growth exists, with no retention or payment evidence.'

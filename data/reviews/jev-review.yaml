@@ -82,3 +82,55 @@
   usage_reason_en: 'The task is: Developers having AI coding agents run staged quality review on pending
     changes and inspect results in a local dashboard before committing Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-jev-review-2026-09-19
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-09-19T00:53:07Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 代理快速产出改动后、提交前缺少分阶段质量把关的需求，痛点是人工逐行审阅跟不上代理产出速度、问题要到 CI/PR 才暴露；公开事实仅说明这是基于 Jev 的本地优先
+      MCP 评审插件与本地看板，旧流程与交付闭环由工作流结构推理得出，尚无缺陷率或返工代价的量化验证。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+    - ev-5395f25dff03dcab
+  - gate: consensus
+    status: supported
+    reason: 两个同名仓库在两天内收藏从 161/77 升至 267/119，说明已有开发者关注并把它纳入本地评审尝试；但公开材料没有 issue、discussion 或评价说明谁在何种场景持续使用，关注度不等于持续采用，强场景仍只能由任务结构推断。
+    evidence_ids:
+    - ev-3f1a101daf3935d3
+    - ev-937c37972b8684a0
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费记录或采购信息，无法判断钱来自 to C 开发者订阅、to B 团队采购还是 to VC 融资；本地优先开源插件更可能走开源加托管/团队版路径，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+    - ev-5395f25dff03dcab
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出仓库描述与收藏数，没有部署文档、可复现实测或检查项清单，无法确认分阶段评审能否稳定交付、人工确认与安全边界如何界定；本地优先设计降低了代码外传风险，但交付确定性仍缺公开证据。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+    - ev-937c37972b8684a0
+  next_validation: 追踪 jev-review 仓库的 README、部署文档与 issue/discussion，确认分阶段检查项、本地看板交付格式，以及是否有开发者公开描述在提交前替代人工评审的实际使用记录。
+  market: ''
+  job: 开发者在本地提交代码前，把待评审的改动交给 AI 编码代理，由代理按阶段做质量检查，结果汇总到本地看板供人工确认后再提交。
+  job_en: Before committing locally, developers hand pending changes to an AI coding agent that runs staged
+    quality checks and aggregates results into a local dashboard for human confirmation.
+  pain: AI 编码代理产出改动的速度已超过人工逐行审阅的速度，提交前缺少可复现、分阶段的质量把关，容易把未审阅的改动直接推入主干；公开材料只说明它是本地优先的 MCP 评审插件，未给出缺陷率或返工代价的量化数据。
+  pain_en: AI agents now produce changes faster than humans can line-by-line review them, and there is
+    no reproducible staged quality gate before commit, so unreviewed changes can reach the main branch;
+    public materials only describe a local-first MCP review plugin and give no quantified defect or rework
+    cost.
+  current_alternative: 旧做法是人工逐行读 diff、依赖 CI 或 PR 评审在提交后才拦截问题，或让 AI 代理一次性输出评审意见而不分阶段、不留本地看板记录。
+  current_alternative_en: The old way is reading diffs line by line, relying on CI or PR review to catch
+    problems only after commit, or having the agent emit a one-shot review with no staged structure and
+    no local dashboard record.
+  usage_reason: 推断：相较提交后由 CI/PR 拦截或人工逐行读 diff，它把评审前移到提交前，由代理按阶段执行检查并把结果落到本地看板，减少“先提交再返工”这一步；本地优先意味着代码不出本机，因此在意改动不外传、又想让
+    AI 代理承担首轮评审的开发者会在提交前选择它。
+  usage_reason_en: 'Inference: versus post-commit CI/PR gating or manual line-by-line diff reading, it
+    moves review before commit, has the agent run staged checks and writes results to a local dashboard,
+    removing the commit-then-rework step; local-first means code never leaves the machine, so developers
+    who want AI agents to do first-pass review without shipping changes off-box would pick it before committing.'

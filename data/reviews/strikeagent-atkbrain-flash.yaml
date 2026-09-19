@@ -400,3 +400,51 @@
     run from a target input and emits a report directly, users skip shuttling results between tools and
     hand-assembling the report, which is why red-teamers facing an SRC submission window or a CTF clock
     would try it first. Stars rising from 317 to 350 shows attention only, not sustained workflow retention.'
+- id: req-full-strikeagent-atkbrain-flash-2026-09-19
+  project_slug: strikeagent-atkbrain-flash
+  level: full
+  reviewed_at: '2026-09-19T00:54:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队打点与渗透测试中信息收集、漏洞验证重复且依赖经验的问题，漏项会削弱攻击路径结论；公开仓库说明覆盖红队打点、SRC、CTF，可还原输入目标、执行扫描模拟、输出报告的闭环，属工作流结构推理，痛点刚性与交付确定性成立。
+    evidence_ids:
+    - ev-69b2798a28840678
+    - ev-7ee8dbb4d44901bc
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 336 增至 365，说明社区持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在日常渗透工作流；缺少 issue、discussion 或使用反馈说明真实采用。
+    evidence_ids:
+    - ev-69b2798a28840678
+    - ev-7ee8dbb4d44901bc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、授权方式或客户采购记录，谁付钱（安全团队、SRC 平台还是个人研究者）无法核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-29be841e7bdd1336
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明自动化程度、误报控制与授权边界，攻击模拟类工具若误用或误报会带来合规与安全风险；交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-a8d363786a7c4196
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认实际部署方式、授权边界与用户反馈的交付结果。
+  market: ''
+  job: 红队渗透测试工程师或安全研究员在授权评估或 SRC/CTF 场景下，拿到目标资产信息后，需要完成信息收集、漏洞发现与攻击路径验证，并产出可交付的渗透测试结论。
+  job_en: A red-team penetration tester or security researcher, given authorized target asset information
+    in an engagement, SRC, or CTF setting, must perform reconnaissance, vulnerability discovery, and attack-path
+    validation, then produce deliverable penetration-test findings.
+  pain: 公开材料只说明它覆盖红队打点、SRC、CTF，未给出用户抱怨或耗时数据；从工作流看，打点与信息收集高度重复、依赖人工经验，漏项会直接影响后续攻击路径是否成立，这是结构推理而非用户口述。
+  pain_en: Public materials only state coverage of red-team foothold, SRC, and CTF; no user complaints
+    or time data are given. Structurally, foothold and reconnaissance are repetitive and experience-dependent,
+    and omissions directly undermine later attack paths; this is inference, not user testimony.
+  current_alternative: 公开材料未说明现有替代方式；按工作流推断，用户目前依赖手工命令、脚本组合与既有扫描器（如 Nmap、Burp、 nuclei 类工具）逐项完成打点与验证，缺少统一编排。
+  current_alternative_en: Public materials do not state the current alternative; by workflow inference,
+    users today rely on manual commands, script combinations, and existing scanners (e.g., Nmap, Burp,
+    nuclei-like tools) executed step by step, without unified orchestration.
+  usage_reason: 推断：相较手工逐项打点，它把目标信息输入后的信息收集与攻击模拟串成一次自动执行并输出报告，减少人工重复执行与结果汇总环节，因此会在授权测试或 CTF 时间受限、需要快速覆盖目标面时被选择；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual step-by-step foothold work, it chains reconnaissance and
+    attack simulation from target input into one automated run with a report, cutting repetitive execution
+    and result aggregation, so it would be chosen when authorized testing or CTF time is limited and broad
+    target coverage is needed; public materials do not yet confirm this motive via user feedback.'

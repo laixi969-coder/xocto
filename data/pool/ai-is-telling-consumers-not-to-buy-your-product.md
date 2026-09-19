@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTFA3dTVrUHRBS2lD
 summary: AI is telling consumers not to buy your product MarTech
 first_seen: '2026-09-18T14:37:57Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

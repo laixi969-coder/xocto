@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBISG9BUzlLWGNx
 summary: B站AI转型，站在盈利与生态的十字路口 CBNData-第一财经商业数据中心
 first_seen: '2026-09-18T09:37:24Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

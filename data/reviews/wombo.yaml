@@ -1,0 +1,88 @@
+- id: req-initial-wombo-2026-09-19
+  project_slug: wombo
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是 2D 游戏素材产能与风格统一问题，痛点真实；但公开材料只有一句功能描述，无法还原输入、动作与交付，价值结构尚不能确认。
+    evidence_ids:
+    - ev-a17dd841a7c59ceb
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品简介外，没有开发者讨论、采用或复购信号，无法判断是否卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-a17dd841a7c59ceb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与计费方式；按素材包或按项目收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-a17dd841a7c59ceb
+  - gate: truth
+    status: insufficient
+    reason: 素材可商用授权、风格一致性与人工确认边界均未说明，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-a17dd841a7c59ceb
+  next_validation: 收集 Wombo 官方定价页与素材授权条款，确认按什么计价、生成素材是否可商用。
+  market: ''
+  job: 独立游戏开发者在制作 2D 游戏时，需要为角色、场景、UI 准备贴图，并配上音效与音轨，最终交付一套可直接导入引擎的素材。
+  job_en: Indie game developers building a 2D game need textures for characters, scenes and UI plus sound
+    effects and music, delivering an asset set that can be imported into the engine.
+  pain: 素材来源分散，外包画师和音效库成本高、周期长，风格还容易不统一；小团队常常卡在素材产能上。
+  pain_en: Asset sources are scattered, freelance artists and sound libraries are costly and slow, and
+    styles drift apart; small teams often stall on asset throughput.
+  current_alternative: 在素材商店购买现成素材包、外包给自由画师、使用通用图像与音频生成工具再手工拼接。
+  current_alternative_en: Buying ready-made packs from asset stores, outsourcing to freelance artists,
+    or using general image and audio generators and stitching results by hand.
+  usage_reason: 推断：如果它能在同一处按统一风格产出图形与音效，开发者就省掉了在多个素材站比价、向画师反复描述风格这两步；但公开材料只有一句功能描述，没有素材授权、风格一致性或实际交付的证据，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it produces graphics and SFX in one place under a consistent style,
+    developers skip comparing prices across asset stores and re-describing style to artists; but the public
+    material is a single feature line with no evidence on licensing, style consistency or actual delivery,
+    so user choice cannot yet be confirmed.'
+- id: req-full-wombo-2026-09-19
+  project_slug: wombo
+  level: full
+  reviewed_at: '2026-09-19T00:55:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只显示 Dream by WOMBO 是通用文生图与文生视频工具，未出现游戏素材、音效或音轨能力，也无可还原的输入—动作—交付闭环；所谓 2D 游戏素材痛点属行业外推，缺少刚性依据，接近自嗨拼凑。
+    evidence_ids:
+    - ev-de8d5d7d4636056a
+    - ev-1bfa653dc55deded
+    - ev-56b880f74d37865c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Wombo/Dream by WOMBO 官方定价页与素材授权条款，确认按什么计价、生成素材是否可商用。
+  market: ''
+  job: 独立游戏开发者在制作 2D 游戏时，需要为角色、场景、UI 准备贴图并配上音效与音轨，最终交付一套可直接导入引擎的素材。
+  job_en: Indie game developers building a 2D game need textures for characters, scenes and UI plus sound
+    effects and music, delivering an asset set importable into the engine.
+  pain: 公开材料只说明 Dream by WOMBO 提供文生图与文生视频、100+ 风格和自定义画幅，并未出现任何游戏素材工作流、音效或音轨能力，也没有开发者抱怨素材产能或风格统一的证据；痛点只能靠行业常识外推。
+  pain_en: Public material only describes Dream by WOMBO as text-to-image and text-to-video with 100+
+    styles and custom aspect ratios; there is no game-asset workflow, SFX or music capability, and no
+    developer complaint about asset throughput or style consistency, so the pain is only extrapolated
+    from industry common sense.
+  current_alternative: 公开材料未记录任何替代行为；按行业常识推断为素材商店购买素材包、外包自由画师、使用通用图像与音频生成工具再手工拼接。
+  current_alternative_en: No substitute behavior is documented; by industry common sense it would be buying
+    asset packs, outsourcing to freelance artists, or using general image and audio generators and stitching
+    by hand.
+  usage_reason: 推断：若它真能按统一风格产出图形与音效，开发者可省去跨素材站比价和向画师反复描述风格；但现有证据只支持一个通用文生图/文生视频工具，与游戏素材交付之间缺少可核对的因果链，无法说明哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly produced graphics and SFX in one consistent style, developers
+    would skip price comparison across asset stores and re-describing style to artists; but the evidence
+    only supports a generic text-to-image/video tool, with no checkable causal link to game-asset delivery,
+    so which users would choose it cannot be stated.'

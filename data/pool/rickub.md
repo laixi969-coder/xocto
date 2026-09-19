@@ -21,7 +21,7 @@ canonical_url: https://rickub.com
 summary: The Smartest Git in the Universe
 first_seen: '2026-09-18T14:56:41Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -75,3 +75,42 @@
   usage_reason: 用户要完成的任务是：软件工程师、提示词工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software Engineer, Prompt Engineer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-skillsync-yc-w26-2026-09-19
+  project_slug: skillsync-yc-w26
+  level: full
+  reviewed_at: '2026-09-19T00:54:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“开发者或重度 AI 用户在切换不同 Agent 工具时打开它，产品接收并转换原始对话上下文与历史状态，输出可直接导入其他智能体的结构化会话数据，减少跨工具重复交代背景与调试的成本”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''
+  job: 软件工程师或提示词工程师在切换 Claude Code、Codex、Cursor 等不同 Agent 工具时，需要把已有会话上下文与历史状态迁移到新工具，避免重复交代背景。
+  job_en: Software engineers or prompt engineers switching between Claude Code, Codex, and Cursor need
+    to migrate existing session context and history to a new tool to avoid re-explaining background.
+  pain: 公开材料只说明产品会拾取本机会话并转为可复用技能，未说明用户当前跨工具迁移时具体损失什么、发生频率或不解决的后果。
+  pain_en: Public materials only state the product picks up local sessions and turns them into reusable
+    skills; they do not show what users currently lose when migrating across tools, how often it happens,
+    or the consequence of not solving it.
+  current_alternative: 公开材料尚未说明用户目前如何完成跨工具上下文迁移，或它实际替代了什么做法。
+  current_alternative_en: Public materials do not yet show how users currently migrate context across
+    tools or what approach this replaces.
+  usage_reason: 推断：它通过自动拾取本机已有会话并转为可共享技能，省去手动复制粘贴上下文这一步；但公开材料未说明哪类用户会在什么情况下选择它，也无用户反馈支持。
+  usage_reason_en: 'Inference: it automatically picks up local sessions and converts them into shareable
+    skills, removing manual copy-paste of context; however, public materials do not show which users choose
+    it under what circumstances, and no user feedback supports this.'

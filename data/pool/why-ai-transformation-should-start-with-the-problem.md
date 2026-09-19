@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV1p1MktIWkpE
 summary: Why AI Transformation Should Start with the Problem HealthLeaders Media
 first_seen: '2026-09-18T10:07:52Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

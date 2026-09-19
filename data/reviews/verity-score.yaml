@@ -1,0 +1,88 @@
+- id: req-initial-verity-score-2026-09-19
+  project_slug: verity-score
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决店铺在 AI 回答中被说错或不被提及的问题，痛点是曝光损失，旧做法是人工提问加手动改页面，工作流结构成立。
+    evidence_ids:
+    - ev-93b170b78997aab6
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页外没有用户评价或采用数据，无法判断商家是否真的把 AI 可见度当作日常指标。
+    evidence_ids:
+    - ev-93b170b78997aab6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按订阅还是按内容产出收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-93b170b78997aab6
+  - gate: truth
+    status: insufficient
+    reason: AI 回答本身不稳定，评分能否复现、生成内容是否需人工审核都未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-93b170b78997aab6
+  next_validation: 收集 Verity Score 官方定价页或客户案例，确认评分口径、内容生成是否需人工审核以及是否有商家持续使用。
+  market: ''
+  job: 独立站或电商店铺运营在发现 AI 助手对店铺描述不准或缺失时，需要修正商品页与博客内容，让 AI 回答里出现正确的店铺信息。
+  job_en: An independent store or e-commerce operator who finds AI assistants describing the store inaccurately
+    or not at all needs to fix product pages and blog content so correct store information appears in
+    AI answers.
+  pain: AI 回答正在成为一部分用户的购物入口，店铺被说错或不被提及会直接损失曝光；运营目前只能靠人工反复提问、逐条记录，再手动改页面。
+  pain_en: AI answers are becoming a shopping entry point for some users, and being described wrongly
+    or not mentioned costs exposure; operators currently have to ask repeatedly by hand, log each answer,
+    then edit pages manually.
+  current_alternative: 运营自己向多个 AI 助手提问截图，人工整理差异，再手动改商品页、写博客，或依赖传统 SEO 工具。
+  current_alternative_en: Operators ask several AI assistants themselves, screenshot and compare answers
+    by hand, then edit product pages and write blog posts manually, or rely on traditional SEO tools.
+  usage_reason: 推断：相较人工逐条提问再改页面，它把“查 AI 怎么说—列出要改的点—生成可发布内容”串成一次操作，省掉整理与起草两步，因此做独立站内容营销、又没有专职 SEO 的人会先试用；但评分口径与内容质量尚无公开验证。
+  usage_reason_en: 'Inference: compared with asking each assistant by hand and then editing pages, it
+    chains checking what AI says, listing fixes and generating publishable content into one pass, removing
+    the collation and drafting steps, so independent-store content marketers without a dedicated SEO hire
+    would try it first; the scoring method and content quality are not publicly verified.'
+- id: req-full-verity-score-2026-09-19
+  project_slug: verity-score
+  level: full
+  reviewed_at: '2026-09-19T00:55:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名 Minecraft 插件、小说与信用合作社，与电商 AI 可见度无关，无法还原用户任务、痛点与旧替代，连需求本身都写不出来。
+    evidence_ids:
+    - ev-c059926174a8c610
+    - ev-c163df01b7193ebc
+    - ev-6f19cb7bacb09a37
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Verity Score 官方产品页或文档，确认其是否真实存在、面向电商 AI 可见度，并公开评分口径与内容生成流程。
+  market: ''
+  job: 独立站或电商店铺运营在发现 AI 助手对店铺描述不准或缺失时，需要修正商品页与博客内容，让 AI 回答里出现正确的店铺信息。
+  job_en: An independent store or e-commerce operator who finds AI assistants describing the store inaccurately
+    or not at all needs to fix product pages and blog content so correct store information appears in
+    AI answers.
+  pain: 公开材料未提供任何关于该产品用户任务、痛点或使用行为的可引用事实；现有证据全部指向同名 Minecraft 插件、小说与信用合作社，与电商 AI 可见度无关。
+  pain_en: The public material provides no citable fact about this product's user task, pain, or usage
+    behavior; all available evidence points to an unrelated Minecraft addon, a novel, and a credit union
+    that merely share the name.
+  current_alternative: 无公开证据说明运营当前如何绕过该问题；无法确认旧做法是人工向 AI 提问、传统 SEO 工具还是其他方式。
+  current_alternative_en: No public evidence describes how operators currently work around this problem;
+    it cannot be confirmed whether the old approach is manual AI querying, traditional SEO tools, or something
+    else.
+  usage_reason: 无公开证据支持任何用户选择理由；现有证据与产品功能无关，无法推断谁会在什么情况下采用它。
+  usage_reason_en: No public evidence supports any reason a user would choose it; the available evidence
+    is unrelated to the product's function, so it is impossible to infer who would adopt it and when.

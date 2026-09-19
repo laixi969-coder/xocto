@@ -1,11 +1,16 @@
 ---
 slug: 英国国王召集ai峰会-黄仁勋监管产品而非技术
-name: 英国国王召集AI峰会 黄仁勋：监管产品而非技术
+name: 英国国王召集AI峰会
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月18日报道，英国国王召集AI峰会，英伟达CEO黄仁勋在会上主张AI监管应落在产品而非技术层面。该表态将监管焦点从底层技术转向具体应用产品，若被采纳，可能改变AI应用在合规审查、上市节奏与责任划分上的要求，进而影响产品交付与竞争门槛；目前仅为峰会上的政策主张，尚未形成具体监管规则（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: On September 18, 2026, it was reported that the British King convened an AI summit, where
+  Nvidia CEO Jensen Huang argued that AI regulation should target products rather than technology. The
+  stance shifts the regulatory focus from underlying technology to concrete application products; if adopted,
+  it could change compliance review, launch timing and liability allocation for AI applications, thereby
+  affecting delivery and competitive barriers. It remains a policy position voiced at a summit, with no
+  specific regulatory rules yet formed (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi7wNBVV95cUxObHhRY21Idm5O
 summary: 英国国王召集AI峰会 黄仁勋：监管产品而非技术 新浪财经_金融信息服务商
 first_seen: '2026-09-18T08:43:28Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 英国国王召集AI峰会 黄仁勋：监管产品而非技术
+# 英国国王召集AI峰会
 
 英国国王召集AI峰会 黄仁勋：监管产品而非技术 新浪财经_金融信息服务商
 

@@ -279,3 +279,56 @@
     the terminal and hands the same catalog to the agent, removing the copy-paste step and grounding generated
     queries in real columns rather than model guesses, so backend engineers who work in the terminal and
     use an agent for SQL would pick it when investigating data.'
+- id: req-full-masume-2026-09-19
+  project_slug: masume
+  level: full
+  reviewed_at: '2026-09-19T00:53:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决后端工程师在终端查库时 agent 看不到真实表结构、需手工搬运表名字段的问题；旧做法是客户端与对话窗口来回切换，不解决则 agent 易写错查询。仓库说明与 MCP 目录共享构成结构推理，非用户口述。
+    evidence_ids:
+    - ev-88d23397dd55c5e5
+    - ev-7997cb72616b2a9d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库及 82→87 星的增长，属关注度而非采用证据；没有用户评价、issue 讨论或客户案例说明谁在什么场景持续使用，强场景只能从产品能力推断。
+    evidence_ids:
+    - ev-88d23397dd55c5e5
+    - ev-ae1252474e16bfef
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或商业模式，开源仓库本身不构成收入路径；钱可能来自 to C 开发者订阅或 to B 团队授权，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-88d23397dd55c5e5
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料确认它支持哪些数据库、agent 如何接入，以及 agent 直接读库时的写权限与人工确认边界如何设定，交付确定性尚未核验。
+    evidence_ids:
+    - ev-88d23397dd55c5e5
+    - ev-7997cb72616b2a9d
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的数据库清单、agent/MCP 接入方式，以及是否已有用户描述实际排查场景与写权限边界。
+  market: ''
+  job: 后端工程师在排查线上数据问题或核对表结构时，在终端里打开数据库读取表与字段，并让 AI agent 基于同一份目录生成或修改查询，最终由工程师自己确认执行。
+  job_en: A backend engineer investigating a production data issue or checking a schema opens the database
+    in the terminal, inspects tables and columns, and has an AI agent generate or edit queries from the
+    same catalog, with the engineer confirming the final execution.
+  pain: 公开材料只说明它打开数据库并把目录交给 agent，未说明原先哪一步手工操作被替代、耗时多少或出错后果；从工作流结构看，旧做法需要在数据库客户端与 AI 对话窗口之间手工搬运表名字段，agent
+    看不到真实结构就容易写错查询，但痛点强度属于结构推理而非用户口述。
+  pain_en: The public material only says it opens a database and hands the catalog to an agent; it does
+    not state which manual step was replaced, how long it took, or what errors followed. Structurally,
+    the old workflow requires hand-carrying table and column names between a database client and an AI
+    chat window, and an agent that cannot see the real schema tends to write wrong queries, but this pain
+    strength is inference, not user testimony.
+  current_alternative: 工程师通常用 psql、DBeaver 等数据库客户端查看结构，再手工把表名和字段粘贴进 AI 对话窗口，或让 agent 通过通用 MCP 工具自行猜测结构。
+  current_alternative_en: Engineers typically inspect schemas in database clients such as psql or DBeaver,
+    then paste table and column names into an AI chat window by hand, or let an agent guess the schema
+    through generic MCP tooling.
+  usage_reason: 推断：相较手工复制表结构再粘贴进对话窗口，masume 让终端客户端与 agent 共享同一份目录，省掉搬运表名字段这一步，并让 agent 基于真实字段而非猜测生成查询，因此会在排查线上数据、核对表结构这类需要边看结构边改查询的场景被后端工程师选用；仓库尚无用户反馈或使用记录，该因果仍属推断。
+  usage_reason_en: 'Inference: compared with copying schema by hand into a chat window, masume lets the
+    terminal client and the agent share one catalog, removing the step of carrying table and column names
+    and letting the agent generate queries from real fields rather than guesses. That is why a backend
+    engineer would pick it when investigating production data or checking a schema while editing queries;
+    the repository has no user feedback or usage record, so this causal link remains an inference'

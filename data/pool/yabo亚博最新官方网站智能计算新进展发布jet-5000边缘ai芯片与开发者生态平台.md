@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qUlJzYkgyT1dF
 summary: Yabo亚博最新官方网站智能计算新进展：发布JET-5000边缘AI芯片与开发者生态平台 体坛加
 first_seen: '2026-09-17T15:46:06Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

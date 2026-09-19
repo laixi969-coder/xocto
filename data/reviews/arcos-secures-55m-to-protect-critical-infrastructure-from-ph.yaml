@@ -1,0 +1,85 @@
+- id: req-initial-arcos-secures-55m-to-protect-critical-infrastructure-from-ph-2026-09-19
+  project_slug: arcos-secures-55m-to-protect-critical-infrastructure-from-ph
+  level: initial
+  reviewed_at: '2026-09-19T00:21:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决关键基础设施物理安防的监测与响应需求，但公开材料未写清痛点强度、旧流程和不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-e0b06526d5a5e48e
+  - gate: consensus
+    status: insufficient
+    reason: 除融资消息外，没有客户采用、部署案例或行业采购信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-e0b06526d5a5e48e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，钱从哪来只能推测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e0b06526d5a5e48e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对识别准确率、误报处理与人工确认边界，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-e0b06526d5a5e48e
+  next_validation: 收集 Arcos 官方产品页或部署文档，确认其监测对象、事件识别方式、人工确认环节与收费口径。
+  market: ''
+  job: 关键基础设施的安保运营人员在夜间或人手不足时，处理摄像头、传感器和门禁等监控材料，要完成对入侵或异常事件的发现与初步处置。
+  job_en: Security operations staff at critical infrastructure sites, especially at night or short-staffed,
+    work with camera, sensor and access-control material to detect and initially respond to intrusions
+    or anomalies.
+  pain: 公开材料只说明平台用于监测和响应安全事件，未给出具体痛点、误报率或人工值守负担的描述。
+  pain_en: Public material only says the platform monitors and responds to security incidents; it gives
+    no specific pain point, false-alarm rate or description of manual watchkeeping burden.
+  current_alternative: 公开材料未说明此前由谁、用什么方式完成同类监测与响应，旧替代行为不明。
+  current_alternative_en: Public material does not state who or what previously performed comparable monitoring
+    and response, so the prior alternative is unclear.
+  usage_reason: 推断：若平台能自动从既有摄像头与传感器信号中筛出事件并触发响应，可减少安保人员持续盯屏这一步；但缺少功能细节、客户案例或使用反馈，尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the platform automatically filters incidents from existing camera and
+    sensor signals and triggers response, it could remove the step of staff continuously watching screens;
+    however, without feature detail, customer cases or usage feedback, it cannot be confirmed that users
+    would choose it for this reason.'
+- id: req-full-arcos-secures-55m-to-protect-critical-infrastructure-from-ph-2026-09-19
+  project_slug: arcos-secures-55m-to-protect-critical-infrastructure-from-ph
+  level: full
+  reviewed_at: '2026-09-19T00:51:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决关键基础设施物理安防的监测与响应需求，但公开材料未写清痛点强度、旧流程和不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-bea5f84f829bba03
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Arcos 官方产品页或部署文档，确认其监测对象、事件识别方式、人工确认环节与收费口径。
+  market: ''
+  job: 关键基础设施站点的安保运营人员在夜间或人手不足时，处理摄像头、传感器与门禁等监控材料，要完成对入侵或异常事件的发现与初步处置。
+  job_en: Security operations staff at critical infrastructure sites, especially at night or short-staffed,
+    work with camera, sensor and access-control material to detect and initially respond to intrusions
+    or anomalies.
+  pain: 公开材料只说明平台用于监测和响应安全事件，未给出具体痛点、误报率或人工值守负担的描述。
+  pain_en: Public material only says the platform monitors and responds to security incidents; it gives
+    no specific pain point, false-alarm rate or description of manual watchkeeping burden.
+  current_alternative: 公开材料未说明此前由谁、用什么方式完成同类监测与响应，旧替代行为不明。
+  current_alternative_en: Public material does not state who or what previously performed comparable monitoring
+    and response, so the prior alternative is unclear.
+  usage_reason: 推断：若平台能自动从既有摄像头与传感器信号中筛出事件并触发响应，可减少安保人员持续盯屏这一步；但缺少功能细节、客户案例或使用反馈，尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the platform automatically filters incidents from existing camera and
+    sensor signals and triggers response, it could remove the step of staff continuously watching screens;
+    however, without feature detail, customer cases or usage feedback, it cannot be confirmed that users
+    would choose it for this reason.'

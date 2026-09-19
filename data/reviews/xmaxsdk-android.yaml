@@ -82,3 +82,46 @@
     Input formats, latency, output specs and commercial terms are not described in the public material,
     so the concrete workflow and deliverable remain unverified. Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-xmaxsdk-android-2026-09-19
+  project_slug: xmaxsdk-android
+  level: full
+  reviewed_at: '2026-09-19T00:55:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让 Android 开发者在自有 App 内调用实时交互式视频生成，但公开材料只有一句 SDK 定位与仓库收藏数，未说明输入形式、时延、输出规格，也未说明开发者现在如何实现同类能力、不采用会失去什么，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-34d8f1534818026c
+    - ev-4bf957b77eb0522f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 XmaxSDK-Android 仓库的 README、release 说明与 issue/discussion，确认是否公开输入输出规格、时延指标、集成示例与商用条款。
+  market: ''
+  job: Android 应用开发者在自己 App 内接入 Xmax AI 的实时交互式视频生成能力，由应用侧发起生成请求，把生成结果嵌入自有产品流程。
+  job_en: Android app developers embed Xmax AI's real-time interactive video generation into their own
+    apps, issuing generation requests from the app side and placing the output into their own product
+    flow.
+  pain: 公开材料只给出 SDK 定位与仓库收藏数，未说明开发者当前用什么方式实现同类实时视频生成、集成摩擦有多大、不采用会失去什么，因此痛点强度无法从公开事实还原。
+  pain_en: Public material only gives the SDK positioning and repository star count; it does not show
+    how developers achieve comparable real-time video generation today, how large the integration friction
+    is, or what is lost without it, so pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明替代路径，可能是自建推理管线、调用其他视频生成 API 或不做实时生成，均属推断而非已证实事实。
+  current_alternative_en: Public material does not describe the alternative path; self-hosted inference
+    pipelines, other video-generation APIs, or skipping real-time generation are inferences, not confirmed
+    facts.
+  usage_reason: 缺少输入形式、时延、输出规格与商用条件的公开说明，无法说明相较旧做法减少了哪一步负担或改善哪项可核对结果，因此选择动机无法成立。
+  usage_reason_en: With no public description of input formats, latency, output specs or commercial terms,
+    it is impossible to say which step it removes or which checkable result it improves versus the old
+    approach, so the adoption motive cannot be established.

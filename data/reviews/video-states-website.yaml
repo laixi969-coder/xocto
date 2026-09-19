@@ -283,3 +283,51 @@
     workflow, removing the burden of designing state switching and seam handling from scratch, so frontend
     developers needing to ship an interactive video landing page quickly would choose it when a branded
     page is required.'
+- id: req-full-video-states-website-2026-09-19
+  project_slug: video-states-website
+  level: full
+  reviewed_at: '2026-09-19T00:55:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 LTX 生成素材组织成点击驱动视频网站时状态切换与接缝拼接的痛点，任务、输入与交付闭环在仓库说明中可还原，属工作流结构推理；痛点刚性中等，不采用则需自行试错。
+    evidence_ids:
+    - ev-fcb304284c12155d
+    - ev-01ae430959d5ce6d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 136 缓慢升至 140，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或评价显示目标用户已把它放进实际工作流，关注度不等于持续采用。
+    evidence_ids:
+    - ev-fcb304284c12155d
+    - ev-01ae430959d5ce6d
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价、赞助、商业授权或企业采购路径，钱可能来自 to C 开发者免费使用或 to VC 关注，属判断而非已验证事实。
+    evidence_ids:
+    - ev-fcb304284c12155d
+  - gate: truth
+    status: insufficient
+    reason: 仓库声称提供构建规格与无缝播放指南，但公开材料未给出可复现的部署结果或接缝质量实测，交付能否稳定发生仍缺公开验证。
+    evidence_ids:
+    - ev-01ae430959d5ce6d
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有开发者报告实际部署、接缝处理结果或替代了原有手写流程。
+  market: ''
+  job: 前端开发者或互动内容设计师在为客户搭建品牌互动落地页时，需要把 LTX 生成的视频片段、图像与提示词组织成点击切换的视频状态，并拼接成可无缝播放的电影感视频网站。
+  job_en: A frontend developer or interactive content designer building a branded interactive landing
+    page needs to organize LTX-generated video clips, images and prompts into click-driven video states
+    and stitch them into a cinematic, seam-safe video website.
+  pain: 公开仓库说明显示，这类任务要同时处理 AI 生成素材、提示词、点击状态切换与片段接缝，缺少统一构建规格时，开发者需自行摸索状态机与播放衔接，返工成本高。
+  pain_en: The public repo description shows this job spans AI-generated footage, prompts, click-state
+    switching and clip seams; without a unified build spec, developers must figure out the state machine
+    and playback transitions themselves, with high rework cost.
+  current_alternative: 当前替代方式是开发者自行用前端框架手写视频状态切换、逐段调试接缝，或直接套用通用视频模板，缺少针对 LTX 素材与点击驱动场景的现成规格。
+  current_alternative_en: Today developers hand-write video state switching in a frontend framework, debug
+    seams clip by clip, or reuse generic video templates, with no ready spec aimed at LTX footage and
+    click-driven scenes.
+  usage_reason: 推断：相较手写状态机与逐段试接缝，该仓库直接给出构建规格、提示词与无缝播放指南，把状态定义和接缝处理这两步从试错变成照规格执行，因此正在做 AI 视频互动落地页的前端开发者会在起步阶段选择它。
+  usage_reason_en: 'Inference: versus hand-writing a state machine and trial-and-error seam fixing, the
+    repo supplies a build spec, prompts and a seam-safe playback guide, turning state definition and seam
+    handling from guesswork into spec-following, so frontend developers starting an AI-video interactive
+    landing page would pick it up early.'

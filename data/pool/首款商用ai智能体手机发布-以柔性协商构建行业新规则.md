@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNNExPVDFNZ0h0
 summary: 首款商用AI智能体手机发布 以柔性协商构建行业新规则 广州日报新花城
 first_seen: '2026-09-18T13:51:14Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,89 @@
+- id: req-initial-remiqora-2026-09-19
+  project_slug: remiqora
+  level: initial
+  reviewed_at: '2026-09-19T00:21:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地生成音乐后难以拆轨继续编辑、且素材需上传云端的痛点，旧流程是云端生成加手工导入 DAW。
+    evidence_ids:
+    - ev-733ee8f887b06017
+  - gate: consensus
+    status: insufficient
+    reason: 90 星与 10 个 fork 只说明开源关注度，没有用户评价或案例证明它被持续使用。
+    evidence_ids:
+    - ev-733ee8f887b06017
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，付费路径不明；本地部署与硬件成本由用户承担，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-733ee8f887b06017
+  - gate: truth
+    status: supported
+    reason: 生成、分轨、MIDI 转写与 DAW 编辑都留在本地，成品仍需人工确认，交付边界与人工边界清楚。
+    evidence_ids:
+    - ev-733ee8f887b06017
+  next_validation: 收集 remiqora 仓库的 issue 与 discussion，确认是否有用户报告实际完成分轨或编曲工作流。
+  market: ''
+  job: 独立音乐人或制作人在本地电脑上制作小样时，处理文字描述或已有音频素材，要生成曲目、拆出分轨并转写 MIDI，以便继续编曲。
+  job_en: An independent musician or producer making a demo on a local machine works from text descriptions
+    or existing audio to generate tracks, split stems and transcribe MIDI so arranging can continue.
+  pain: 云端音乐生成工具按订阅计费、素材需上传，且生成结果难以拆成分轨继续编辑，定制音色也受限；这是从产品能力推出的推断。
+  pain_en: Cloud music generation tools charge subscriptions, require uploading material, and produce
+    output that is hard to split into editable stems, with limited timbre customization; this is an inference
+    from product capability.
+  current_alternative: 目前音乐人通常用云端生成工具出片段，再手工导入 DAW 分轨、对拍和重录，或直接使用付费采样库。
+  current_alternative_en: Musicians today typically generate clips with cloud tools, then manually import
+    into a DAW for stem splitting, tempo alignment and re-recording, or use paid sample libraries.
+  usage_reason: 相较云端工具加手工导入的旧做法，它把生成、分轨、MIDI 转写和微调放在同一个本地界面里，省去素材上传与跨工具搬运这一步，因此在意版权与音色定制的独立音乐人会在做小样时选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with cloud tools plus manual import, it puts generation, stem separation,
+    MIDI transcription and fine-tuning in one local interface, removing the upload and cross-tool transfer
+    step, so rights- and timbre-conscious independent musicians would choose it when making demos; this
+    is an inference from product capability.
+- id: req-full-remiqora-2026-09-19
+  project_slug: remiqora
+  level: full
+  reviewed_at: '2026-09-19T00:54:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地生成音乐后难以拆轨继续编辑、素材需上传云端的痛点，旧流程是云端生成加手工导入 DAW；痛点刚性来自编曲必须可编辑，交付边界清楚，属工作流结构推理。
+    evidence_ids:
+    - ev-733ee8f887b06017
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 90 星只说明开源关注度，没有用户评价、案例或重复使用记录证明它被留在编曲工作流里；关注度不等于持续采用。
+    evidence_ids:
+    - ev-733ee8f887b06017
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，付费路径不明；本地部署与硬件成本由用户承担，钱可能来自捐赠、托管服务或 to B 定制，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-733ee8f887b06017
+  - gate: truth
+    status: supported
+    reason: 生成、分轨、MIDI 转写与 DAW 编辑都留在本地，成品仍需人工确认，交付边界与人工边界清楚，未承诺全自动出成品。
+    evidence_ids:
+    - ev-733ee8f887b06017
+  next_validation: 追踪 remiqora 仓库的 issue 与 discussion，确认是否有用户报告实际完成分轨或编曲工作流，以及是否出现付费或托管服务的公开线索。
+  market: ''
+  job: 独立音乐人或制作人在本地电脑上做小样时，把文字描述或已有音频交给 remiqora，生成曲目、分离分轨、转写 MIDI，并在内置多轨 DAW 里继续编曲，最终交付可继续加工的音频与分轨素材。
+  job_en: An independent musician or producer making a demo on a local machine feeds text prompts or existing
+    audio into remiqora to generate tracks, split stems and transcribe MIDI, then continues arranging
+    in the built-in multitrack DAW, delivering further-editable audio and stem material.
+  pain: 云端音乐生成工具按订阅计费、素材需上传，生成结果难以拆成分轨继续编辑，音色定制也受限；这是从产品能力推出的推断，尚无用户抱怨或评价直接佐证。
+  pain_en: Cloud music generation tools charge subscriptions, require uploading material, and produce
+    output that is hard to split into editable stems, with limited timbre customization; this is an inference
+    from product capability, not yet backed by user complaints or reviews.
+  current_alternative: 音乐人目前多用云端生成工具出片段，再手工导入 DAW 分轨、对拍和重录，或直接购买付费采样库。
+  current_alternative_en: Musicians today typically generate clips with cloud tools, then manually import
+    into a DAW for stem splitting, tempo alignment and re-recording, or buy paid sample libraries.
+  usage_reason: 相较云端工具加手工导入的旧做法，它把生成、分轨、MIDI 转写和 LoRA 微调收进同一个本地界面，省去素材上传与跨工具搬运这一步，因此在意版权与音色定制的独立音乐人会在做小样时选择它；这是基于产品能力的推断，尚无采用证据。
+  usage_reason_en: Compared with cloud tools plus manual import, it folds generation, stem separation,
+    MIDI transcription and LoRA fine-tuning into one local interface, removing the upload and cross-tool
+    transfer step, so rights- and timbre-conscious independent musicians would choose it when making demos;
+    this is an inference from product capability, not adoption evidence.

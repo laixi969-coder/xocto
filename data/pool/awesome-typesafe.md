@@ -22,7 +22,7 @@ summary: A curated list of official resources and community projects for TypeSaf
   and Jev.
 first_seen: '2026-09-17T06:56:37Z'
 last_seen: '2026-09-19T00:21:19Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

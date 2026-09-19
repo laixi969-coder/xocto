@@ -260,3 +260,46 @@
     social posts, and READMEs, saving users the step of repeatedly tuning prompts in a general model;
     but no public feedback or case shows who actually chooses it and when, and detector-bypass value is
     a preference-level gain that detector updates or school rules can erase.'
+- id: req-full-not-ai-2026-09-19
+  project_slug: not-ai
+  level: full
+  reviewed_at: '2026-09-19T00:53:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把 AI 草稿改写成人类写作标准文本的需求，但公开材料只有产品自述，没有用户抱怨、案例或 workaround 证明该痛点刚性；AI 草稿本身已可提交，不解决的后果不明确，属于看着有用但可以不用。
+    evidence_ids:
+    - ev-ecf9efc2ac185c79
+    - ev-5f42e4d9ef3717c4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告具体使用场景、替代的旧流程或付费/部署记录。
+  market: ''
+  job: 学生或内容创作者在提交作业、发布 LinkedIn/X 帖子、邮件或 公开代码仓库 README 前，把 AI 生成的草稿交给它，改写成更清晰、更自然、符合人类写作标准的成稿。
+  job_en: Students and content creators hand an AI-generated draft to it before submitting coursework,
+    publishing LinkedIn/X posts, emails, or public code repository READMEs, and get back clearer, more
+    natural prose that meets human writing standards.
+  pain: 公开材料只说明它想解决 AI 文本被检测或读起来不像人写的问题，但没有用户反馈、抱怨或案例说明这种改写是刚性需求；对多数场景而言，AI 草稿本身已可提交，不解决的后果不明确。
+  pain_en: Public materials only state the intent to fix AI-sounding or detector-flagged text; no user
+    feedback, complaint, or case shows this rewriting is a rigid need, and for most scenarios an AI draft
+    is already submittable, so the cost of not solving it is unclear.
+  current_alternative: 用户当前可直接提交 AI 草稿，或用 ChatGPT/Claude 等通用模型再改写一遍，或自己手动润色；公开材料未说明它相较这些做法有何不可替代之处。
+  current_alternative_en: Users can submit the AI draft directly, re-prompt a general model like ChatGPT/Claude
+    to rewrite it, or hand-polish it themselves; public materials do not show what makes this product
+    irreplaceable versus those options.
+  usage_reason: 推断：它把改写动作封装成一次提交，省去用户自己反复提示通用模型的步骤；但公开材料没有用户反馈或案例说明哪类用户会因此选择它，也没有留存或重复使用证据，因此选择动机无法被证实。
+  usage_reason_en: 'Inference: it packages the rewrite into a single submission, saving users from repeatedly
+    prompting a general model; but public materials contain no user feedback or case showing which users
+    would choose it, nor retention or repeat-use evidence, so the choice motive cannot be confirmed.'

@@ -260,3 +260,46 @@
   usage_reason: 公开代码仓库有 1,995 个收藏、253 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验，不能据此解释用户为何选择它。
   usage_reason_en: Its public repository has 1,995 stars and 253 forks, showing developer attention; repeat
     use and payment are not verified, so this does not explain why users choose it.
+- id: req-full-cindy-2026-09-19
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-09-19T00:52:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cindy 官方仓库的 README、release 与 issue/discussion，确认多模型切换时记忆与任务状态的实际保留情况，以及是否出现定价或付费入口。
+  market: ''
+  job: 开发者在一个工作区里同时调用多家厂商的写代码助手，在任务中途切换模型，同时保留上下文记忆与未完成的工作。
+  job_en: A developer runs coding assistants from multiple vendors inside one workspace, switches models
+    mid-task, and keeps context memory and unfinished work intact.
+  pain: 公开材料只说明它把多家助手收进同一工作区，未给出用户抱怨、频率或不采用的具体代价；从工作流结构推理，跨工具切换会打断上下文与任务状态，重建上下文的负担是真实摩擦，但强度属推断而非用户口述。
+  pain_en: Public materials only describe consolidating multiple assistants into one workspace; no user
+    complaints, frequency, or cost of not adopting are given. By workflow inference, switching across
+    tools breaks context and task state, and rebuilding context is real friction, but the intensity is
+    inferred, not user-stated.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是分别打开各家厂商的网页或 CLI 助手，手动复制上下文与任务状态。
+  current_alternative_en: Public materials do not state how users do this today; the structurally inferable
+    alternative is opening each vendor's web or CLI assistant separately and manually copying context
+    and task state.
+  usage_reason: 推断：相较分别打开多家助手并手动搬运上下文，它把多模型调用与记忆收进同一工作区，减少切换与重建上下文这一步，因此同时使用多家编码助手、又不想丢任务状态的开发者会在中途换模型时选择它；仓库
+    1,995 收藏、253 复刻只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus opening several assistants separately and manually moving context,
+    it keeps multi-model calls and memory in one workspace, removing the switch-and-rebuild step, so developers
+    who use several coding assistants and do not want to lose task state would pick it when switching
+    models mid-task; the 1,995 stars and 253 forks show attention only, not sustained use.'

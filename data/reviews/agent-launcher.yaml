@@ -128,3 +128,51 @@
   usage_reason_en: 'Inference: compared with opening terminals and configuring each tool, it gathers configuration
     and launch into one desktop entry, removing repeated setup, so developers using several agents may
     try it; no user feedback or repeat-use evidence supports this.'
+- id: req-full-agent-launcher-2026-09-19
+  project_slug: agent-launcher
+  level: full
+  reviewed_at: '2026-09-19T00:51:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理 CLI 配置与启动的重复劳动：每个工具各有密钥、参数和启动方式，逐个切换消耗时间且易丢上下文。旧做法是终端加脚本分别启动，不解决的后果是并行任务时反复配置。这是工作流结构推理，公开材料仅一句功能描述，无频率量化。
+    evidence_ids:
+    - ev-dab457ab04d1e675
+    - ev-eecfbb7b53b1703b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 140 升至 300，说明关注度在增长，但星标只属规模与关注度证据，不能证明开发者已把它留在日常工作流；公开材料没有 issue、discussion 或评价描述实际使用与重复使用。
+    evidence_ids:
+    - ev-dab457ab04d1e675
+    - ev-eecfbb7b53b1703b
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价页或付费路径，买方可能是个人开发者或团队，但公开材料无法核验；这是判断而非已验证事实，不因此取消价值关结论。
+    evidence_ids:
+    - ev-dab457ab04d1e675
+  - gate: truth
+    status: insufficient
+    reason: 它只调度已有代理 CLI，不改变代理本身的产出质量，交付确定性取决于被调用工具；公开材料未说明安全边界、密钥管理与人工介入点，第一性目标贴近度无法核验。
+    evidence_ids:
+    - ev-dab457ab04d1e675
+    - ev-eecfbb7b53b1703b
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者描述多代理配置的具体重复劳动、使用反馈或重复使用记录。
+  market: ''
+  job: 同时使用多个编码代理 CLI 的开发者，在本地机器上要并行推进不同任务时，需要把各代理的配置、密钥与启动方式集中到一处，一次启动多个代理会话。
+  job_en: Developers who use several coding-agent CLIs need to gather each agent's configuration, keys
+    and launch path into one place and start multiple agent sessions at once when running different tasks
+    in parallel on a local machine.
+  pain: 每个代理 CLI 各有自己的配置、密钥和启动命令，切换与重复配置消耗时间，且容易在多个终端间丢失上下文；公开材料只有一句功能描述，未给出频率或严重程度的量化数据。
+  pain_en: Each agent CLI has its own configuration, keys and launch command, so switching and re-configuring
+    costs time and context is easily lost across terminals; the public material gives only a one-line
+    description, with no quantified frequency or severity.
+  current_alternative: 开发者目前用终端、shell 脚本或各工具自己的配置文件分别启动代理，或只固定使用一个代理。
+  current_alternative_en: Developers currently launch agents separately through terminals, shell scripts
+    or per-tool config files, or simply stick to a single agent.
+  usage_reason: 推断：相较逐个开终端、分别改配置的旧做法，它把多个代理的配置与启动收进一个桌面入口，省掉重复配置和逐个切换这一步，因此同时用多个代理的开发者会在并行推进任务时选择它；目前没有用户反馈或重复使用证据支持这一判断。
+  usage_reason_en: 'Inference: compared with opening terminals and editing each config separately, it
+    gathers configuration and launch into one desktop entry, removing repeated setup and per-tool switching,
+    so developers running several agents would choose it when working on parallel tasks; no user feedback
+    or repeat-use evidence supports this yet.'

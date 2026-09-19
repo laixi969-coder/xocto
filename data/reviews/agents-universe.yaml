@@ -179,3 +179,53 @@
   usage_reason: 无法说明：公开材料只有一句定位描述与星数变化，未说明产品通过什么具体动作减少哪一步负担，也没有用户反馈或案例支持选择动机。
   usage_reason_en: 'Cannot be stated: public material offers only a one-line positioning and star counts,
     with no specific action that removes a step and no user feedback or case supporting a choice motive.'
+- id: req-full-agents-universe-2026-09-19
+  project_slug: agents-universe
+  level: full
+  reviewed_at: '2026-09-19T00:51:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人代理项目中代理与项目上下文无法共享、经验无法沉淀的需求，痛点是协作中上下文不一致与重复配置；公开说明已给出共享智能体、共享项目上下文与经验抽象写回的工作流，属结构推理，交付路径可确定。
+    evidence_ids:
+    - ev-2832e078434ee28e
+    - ev-5b2bfb067108c376
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 299 增至 319 属关注度证据，另有 110 星标的子域记录，但无用户评价、issue 讨论或采用案例说明谁在何种场景持续使用，无法确认共识已形成。
+    evidence_ids:
+    - ev-5b2bfb067108c376
+    - ev-172aff74235611cd
+    - ev-2832e078434ee28e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费方式或客户采购记录，无法判断收入来自 to C 开发者、to B 团队还是 to VC；共享记忆与协作能力存在向团队版收费的可能，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2832e078434ee28e
+  - gate: truth
+    status: insufficient
+    reason: 共享记忆与经验抽象贴近代理协作的第一性目标，但公开材料未说明记忆写入的确定性、冲突处理与人工边界，也无交付结果或留存复购证据，承诺能否稳定兑现尚未核验。
+    evidence_ids:
+    - ev-2832e078434ee28e
+    - ev-5b2bfb067108c376
+  next_validation: 追踪 agents-universe 官方仓库的 README、issue 与 discussion，确认共享记忆的写入与冲突处理机制、部署文档及是否有团队采用或付费说明。
+  market: ''
+  job: 开发团队在多人协作的 AI 代理项目中，处理分散的代理配置、提示词与项目资料，需要让多个成员共享同一批智能体和项目上下文，并把资料与工作经验沉淀为可复用的项目记忆。
+  job_en: Development teams working on multi-agent projects handle scattered agent configs, prompts and
+    project materials, and need members to share the same set of agents and project context while distilling
+    materials and work experience into reusable project memory.
+  pain: 公开说明指出代理缺少共享记忆、项目上下文分散，成员各自维护代理与上下文，导致重复配置、经验无法沉淀、协作时上下文不一致；不解决的后果是同一项目内代理行为不统一、知识随会话丢失。
+  pain_en: Public descriptions state agents lack shared memory and project context is fragmented; members
+    maintain agents and context separately, causing duplicated configuration, unretained experience and
+    inconsistent context across collaborators.
+  current_alternative: 当前替代方式是各成员手动管理上下文、使用单一代理，或把提示词与项目资料分散保存在各自工具和文档中，缺少跨成员共享的代理与记忆层。
+  current_alternative_en: The current alternative is manually managing context per member, using single
+    agents, or keeping prompts and project materials scattered across individual tools and documents,
+    with no shared agent and memory layer across members.
+  usage_reason: 推断：相较手动维护上下文，它把智能体与项目上下文集中为共享对象，成员直接复用同一批代理，并让代理从资料和工作中抽象经验写回项目上下文，从而省去逐人重复配置与手工整理记忆的步骤；多人协作的代理项目团队在需要统一上下文时会选择它。
+  usage_reason_en: 'Inference: versus manually maintaining context, it centralizes agents and project
+    context as shared objects so members reuse the same agents and agents abstract experience from materials
+    and work back into project context, removing per-person reconfiguration and manual memory curation;
+    multi-member agent project teams choose it when they need unified context.'

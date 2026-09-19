@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/convaiinnovations/laya-demo
 summary: Fast System 1 decisions with calibrated probabilities
 first_seen: '2026-09-18T03:21:41Z'
 last_seen: '2026-09-19T00:21:43Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

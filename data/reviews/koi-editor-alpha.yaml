@@ -1,0 +1,82 @@
+- id: req-initial-koi-editor-alpha-2026-09-19
+  project_slug: koi-editor-alpha
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决剪辑中的什么问题、替代哪一步旧操作，材料都没有写，价值结构无法还原。
+    evidence_ids:
+    - ev-a0ffebe5350ea0f1
+  - gate: consensus
+    status: insufficient
+    reason: 只有下载地址和反馈邀请，没有用户评价或使用场景，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a0ffebe5350ea0f1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自个人创作者还是团队采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a0ffebe5350ea0f1
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 动作是否贴近真实剪辑目标、输出是否可直接使用，人工确认边界也未说明。
+    evidence_ids:
+    - ev-a0ffebe5350ea0f1
+  next_validation: 收集 Koi Editor 官方文档或发布说明，确认 AI 具体执行哪一步剪辑动作、输出形态以及是否收费。
+  market: ''
+  job: 剪辑师或内容创作者在本地整理视频素材时，需要完成剪辑并导出成片。
+  job_en: Editors or content creators organizing footage locally need to complete an edit and export a
+    finished cut.
+  pain: 公开材料没有说明用户在剪辑的哪一步遇到困难，也没有说明 AI 承担什么动作，痛点无法从现有事实确认。
+  pain_en: The public material does not say which editing step users struggle with, nor what action the
+    AI performs, so the pain point cannot be confirmed from available facts.
+  current_alternative: 现有替代是 Premiere、Final Cut 或剪映等成熟剪辑软件，材料未说明它替代其中哪一步。
+  current_alternative_en: Current alternatives are established editors such as Premiere, Final Cut or
+    CapCut; the material does not say which step it replaces.
+  usage_reason: 推断：如果它把某一步剪辑动作自动化并保留本地处理，用户可能省去手动逐段操作；但材料未说明具体动作，也没有用户反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if it automates one editing step while keeping processing local, users
+    could skip manual clip-by-clip work; but the material names no specific action and there is no user
+    feedback, so the causal claim cannot be confirmed.'
+- id: req-full-koi-editor-alpha-2026-09-19
+  project_slug: koi-editor-alpha
+  level: full
+  reviewed_at: '2026-09-19T00:53:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决剪辑中的什么问题、替代哪一步旧操作，材料都没有写，价值结构无法还原。
+    evidence_ids:
+    - ev-218c201cef0a99d1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Koi Editor 的 公开代码仓库 releases 与仓库 README/issue，确认 AI 具体执行哪一步剪辑动作、输出形态以及是否收费。
+  market: ''
+  job: 剪辑师或内容创作者在 macOS 上整理视频素材时，需要完成剪辑并导出成片。
+  job_en: Editors or content creators organizing footage on macOS need to complete an edit and export
+    a finished cut.
+  pain: 公开材料只给出下载地址与反馈邀请，没有说明用户在剪辑的哪一步遇到困难、AI 承担什么动作、不用的后果是什么，连需求和痛点都无法从现有事实还原。
+  pain_en: The public material only gives a download link and a feedback invitation; it does not say which
+    editing step users struggle with, what action the AI performs, or the cost of not using it, so neither
+    the need nor the pain can be reconstructed from available facts.
+  current_alternative: 现有替代是 Premiere、Final Cut 或剪映等成熟剪辑软件，材料未说明它替代其中哪一步。
+  current_alternative_en: Current alternatives are established editors such as Premiere, Final Cut or
+    CapCut; the material does not say which step it replaces.
+  usage_reason: 推断：如果它把某一步剪辑动作自动化并保留本地处理，用户可能省去手动逐段操作；但材料未说明具体动作，也没有用户反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if it automates one editing step while keeping processing local, users
+    could skip manual clip-by-clip work; but the material names no specific action and there is no user
+    feedback, so the causal claim cannot be confirmed.'

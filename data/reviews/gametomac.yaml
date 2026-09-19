@@ -1,0 +1,81 @@
+- id: req-initial-gametomac-2026-09-19
+  project_slug: gametomac
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 Mac 玩 Windows 游戏这一具体任务，痛点存在，但公开材料只有一句描述，无法确认兼容范围与交付结果。
+    evidence_ids:
+    - ev-0815a2d63b84e47d
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户反馈、可运行游戏清单或采用数据，无法判断玩家是否真的转向它。
+    evidence_ids:
+    - ev-0815a2d63b84e47d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人玩家订阅还是向发行商收费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0815a2d63b84e47d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对帧率、反作弊兼容与法律边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-0815a2d63b84e47d
+  next_validation: 收集该产品的官方支持游戏清单或性能实测说明，确认实际可运行范围与帧率表现。
+  market: ''
+  job: Mac 用户在本地想运行某款只在 Windows 上发布的游戏时，需要把游戏跑起来。
+  job_en: A Mac user who wants to run a game released only for Windows locally needs to get that game
+    running.
+  pain: Mac 原生不支持大量 Windows 游戏，手动配置兼容层对普通玩家门槛高，失败后没有明确原因。
+  pain_en: Mac natively supports few Windows games, manual compatibility-layer setup is a high bar for
+    ordinary players, and failures give no clear cause.
+  current_alternative: 使用已有的兼容层工具手动配置，或改用云游戏、双系统、另购 Windows 设备。
+  current_alternative_en: Manually configuring existing compatibility-layer tools, or switching to cloud
+    gaming, dual boot or a separate Windows machine.
+  usage_reason: 推断：若 AI 能自动判断并修补兼容配置，可省去玩家查教程、逐项试参数的一步；但公开材料未给出可运行游戏清单与性能数据，无法确认它比现有兼容层工具更省事。
+  usage_reason_en: 'Inference: if AI can automatically diagnose and patch compatibility settings, it saves
+    players the step of hunting tutorials and trying parameters one by one; but no runnable-title list
+    or performance data is public, so it cannot be confirmed as easier than existing compatibility tools.'
+- id: req-full-gametomac-2026-09-19
+  project_slug: gametomac
+  level: full
+  reviewed_at: '2026-09-19T00:52:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 Mac 玩 Windows 游戏这一具体任务，痛点存在，但公开材料只有一句描述，无法确认兼容范围与交付结果。
+    evidence_ids:
+    - ev-0815a2d63b84e47d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 GameToMac 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: Mac 用户在本地想运行某款只在 Windows 上发布的游戏时，需要把游戏跑起来。
+  job_en: A Mac user who wants to run a game released only for Windows locally needs to get that game
+    running.
+  pain: Mac 原生不支持大量 Windows 游戏，手动配置兼容层对普通玩家门槛高，失败后没有明确原因。
+  pain_en: Mac natively supports few Windows games, manual compatibility-layer setup is a high bar for
+    ordinary players, and failures give no clear cause.
+  current_alternative: 使用已有的兼容层工具手动配置，或改用云游戏、双系统、另购 Windows 设备。
+  current_alternative_en: Manually configuring existing compatibility-layer tools, or switching to cloud
+    gaming, dual boot or a separate Windows machine.
+  usage_reason: 推断：若 AI 能自动判断并修补兼容配置，可省去玩家查教程、逐项试参数的一步；但公开材料未给出可运行游戏清单与性能数据，无法确认它比现有兼容层工具更省事。
+  usage_reason_en: 'Inference: if AI can automatically diagnose and patch compatibility settings, it saves
+    players the step of hunting tutorials and trying parameters one by one; but no runnable-title list
+    or performance data is public, so it cannot be confirmed as easier than existing compatibility tools.'

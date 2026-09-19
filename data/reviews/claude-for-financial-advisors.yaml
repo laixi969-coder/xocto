@@ -128,3 +128,46 @@
     existing systems, one manual export-and-paste step disappears, so advisors already inside the Claude
     ecosystem may try it first; without pricing, customer cases or repeat-use evidence, long-term retention
     in the workflow cannot be judged.'
+- id: req-full-claude-for-financial-advisors-2026-09-19
+  project_slug: claude-for-financial-advisors
+  level: full
+  reviewed_at: '2026-09-19T00:52:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决顾问汇总数据、产出客户材料的任务，但公开材料未说明原先哪一步手工耗时、不做的后果是什么，痛点无法还原，价值判断只能停在结构猜测。
+    evidence_ids:
+    - ev-24e76655736dae9a
+    - ev-af1eb90846419a08
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该插件的官方说明或部署文档，确认它接入哪些第三方数据源、输出什么交付物以及是否标注定价。
+  market: ''
+  job: 理财顾问在为客户准备会议、整理投资组合或撰写沟通材料时，需要把分散在多个系统的持仓与客户数据汇总成可直接交付的分析与说明文件。
+  job_en: A financial advisor preparing client meetings, portfolio reviews or written communication needs
+    to consolidate holdings and client data scattered across several systems into deliverable analysis
+    and explanatory documents.
+  pain: 公开材料只说明该插件提供预置工作流并接入第三方连接器，没有说明顾问原先哪一步手工耗时、出错或返工，痛点无法从公开事实还原。
+  pain_en: Public material only states the plugin offers preset workflows and third-party connectors;
+    it does not say which step advisors previously did by hand, where errors or rework occurred, so the
+    pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未披露顾问此前用什么工具或流程完成同类工作，无法确认被替代的旧做法。
+  current_alternative_en: Public material does not disclose what tools or process advisors previously
+    used for the same work, so the incumbent alternative cannot be confirmed.
+  usage_reason: 推断：若连接器能直接取到顾问日常系统里的持仓与客户数据，可省去手工导出再粘贴进模板的一步，已在用 Claude 生态的顾问可能先试用；但缺少定价、客户案例与重复使用证据，无法判断是否会长期留在工作流里。
+  usage_reason_en: 'Inference: if the connectors can pull holdings and client data directly from the advisor''s
+    existing systems, one manual export-and-paste step disappears, so advisors already inside the Claude
+    ecosystem may try it first; without pricing, customer cases or repeat-use evidence, long-term retention
+    in the workflow cannot be judged.'

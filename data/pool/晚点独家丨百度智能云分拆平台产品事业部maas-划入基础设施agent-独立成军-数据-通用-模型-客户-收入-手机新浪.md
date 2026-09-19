@@ -3,13 +3,12 @@ slug: 晚点独家丨百度智能云分拆平台产品事业部maas-划入基础
 name: 百度智能云
 builder: ''
 category: ''
-summary_zh: 百度智能云把MaaS归入基础设施、Agent独立成军，并发布面向产业的智能体操作系统，意味着云厂商正把智能体从模型调用层拆成独立交付单元。对应用方而言，模型调用与智能体编排的供给边界被重新划分，采购与集成路径可能随之改变；具体客户、收入与定价未在材料中披露。
+summary_zh: 百度智能云对平台产品条线做组织调整，把模型即服务归入基础设施、把智能体业务独立成军，并对外提出“产业智能体操作系统”的定位。公开材料只支持这是一次云厂商的条线与叙事调整，具体产品形态、客户与收入变化未披露。
 inspiration: ''
-summary_en: Baidu AI Cloud is folding MaaS into infrastructure, making its Agent business a standalone
-  unit, and releasing an industrial agent operating system, signaling that cloud vendors are splitting
-  agents out of the model-call layer into a separate delivery unit. For application builders, the supply
-  boundary between model calls and agent orchestration is being redrawn, which may change procurement
-  and integration paths; specific customers, revenue and pricing are not disclosed in the material.
+summary_en: Baidu AI Cloud reorganized its platform product lines, folding model-as-a-service into infrastructure
+  and making its agent business a standalone unit, while positioning itself around an "industrial agent
+  operating system." Public material only supports this as a cloud vendor's structural and narrative shift;
+  product form, customers and revenue changes are not disclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOUm1Iem9GaU50
 summary: 晚点独家丨百度智能云分拆平台产品事业部：MaaS 划入基础设施、Agent 独立成军|数据|通用|模型|客户|收入_手机新浪网 新浪财经
 first_seen: '2026-08-29T07:49:49Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

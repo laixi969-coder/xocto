@@ -1,0 +1,90 @@
+- id: req-initial-dungeonq-2026-09-19
+  project_slug: dungeonq
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决入侵者进入真实系统后无法安全观察其手法的问题，痛点刚性，替代的是静态蜜罐与人工封禁。
+    evidence_ids:
+    - ev-0cdf072a2f177b4b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有安全团队采用、部署案例或公开评价，无法判断是否形成共识。
+    evidence_ids:
+    - ev-0cdf072a2f177b4b
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或采购信息，买方可能是企业安全预算，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0cdf072a2f177b4b
+  - gate: truth
+    status: insufficient
+    reason: 诱饵内容能否长期不被识破、误伤正常用户的风险边界，公开材料均未说明。
+    evidence_ids:
+    - ev-0cdf072a2f177b4b
+  next_validation: 收集该产品的官方定价页或部署文档，确认其计费方式与人工介入边界。
+  market: ''
+  job: 安全运营工程师在监控到可疑登录或异常操作会话时，需要处理入侵者的实时交互流量，把攻击者从生产系统引开并持续观察其手法，最终产出可复盘的行为记录。
+  job_en: A security operations engineer monitoring a suspicious login or anomalous session must handle
+    the intruder's live traffic, pull the attacker away from production systems, keep observing their
+    techniques, and produce a reviewable behaviour record.
+  pain: 真实系统一旦被入侵，数据泄露和业务中断的代价很高；而直接封禁会让攻击者立刻转移，安全团队拿不到对手的手法信息。
+  pain_en: Once a real system is breached, data loss and downtime are costly, while outright blocking
+    makes the attacker move on immediately and leaves the team without intelligence on their techniques.
+  current_alternative: 目前多靠蜜罐、IDS/IPS 规则和人工封禁处理，蜜罐内容静态、易被识破，规则只能拦截，无法维持长时间的可交互诱饵。
+  current_alternative_en: Teams mostly rely on honeypots, IDS/IPS rules and manual blocking; honeypot
+    content is static and easy to detect, and rules only block rather than sustain a long interactive
+    decoy.
+  usage_reason: 推断：相比静态蜜罐，它用模型按会话实时生成诱饵内容，减少安全团队手工搭建和维护假环境的那一步，让可疑会话被拖住更久，因此有持续对抗需求的安全团队会在发现可疑会话时选择它。
+  usage_reason_en: 'Inference: unlike static honeypots, it uses models to generate decoy content per session
+    in real time, removing the step where the security team manually builds and maintains fake environments
+    and keeping suspicious sessions engaged longer, so teams with ongoing adversary-facing needs would
+    pick it when a suspicious session appears.'
+- id: req-full-dungeonq-2026-09-19
+  project_slug: dungeonq
+  level: full
+  reviewed_at: '2026-09-19T00:52:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决入侵者进入真实系统后无法安全观察其手法的问题，痛点刚性，替代的是静态蜜罐与人工封禁。
+    evidence_ids:
+    - ev-0cdf072a2f177b4b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有安全团队采用、部署案例或公开评价，无法判断是否形成共识。
+    evidence_ids:
+    - ev-0cdf072a2f177b4b
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或采购信息，买方可能是企业安全预算，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0cdf072a2f177b4b
+  - gate: truth
+    status: insufficient
+    reason: 诱饵内容能否长期不被识破、误伤正常用户的风险边界，公开材料均未说明。
+    evidence_ids:
+    - ev-0cdf072a2f177b4b
+  next_validation: 收集该产品的官方定价页或部署文档，确认其计费方式与人工介入边界。
+  market: ''
+  job: 安全运营工程师在监控到可疑登录或异常操作会话时，需要处理入侵者的实时交互流量，把攻击者从生产系统引开并持续观察其手法，最终产出可复盘的行为记录。
+  job_en: A security operations engineer monitoring a suspicious login or anomalous session must handle
+    the intruder's live traffic, pull the attacker away from production systems, keep observing their
+    techniques, and produce a reviewable behaviour record.
+  pain: 真实系统一旦被入侵，数据泄露和业务中断代价很高；直接封禁会让攻击者立刻转移，安全团队拿不到对手的手法信息。
+  pain_en: Once a real system is breached, data loss and downtime are costly, while outright blocking
+    makes the attacker move on immediately and leaves the team without intelligence on their techniques.
+  current_alternative: 目前多靠蜜罐、IDS/IPS 规则和人工封禁处理，蜜罐内容静态、易被识破，规则只能拦截，无法维持长时间的可交互诱饵。
+  current_alternative_en: Teams mostly rely on honeypots, IDS/IPS rules and manual blocking; honeypot
+    content is static and easy to detect, and rules only block rather than sustain a long interactive
+    decoy.
+  usage_reason: 推断：相比静态蜜罐，它用模型按会话实时生成诱饵内容，减少安全团队手工搭建和维护假环境的那一步，让可疑会话被拖住更久，因此有持续对抗需求的安全团队会在发现可疑会话时选择它。
+  usage_reason_en: 'Inference: unlike static honeypots, it uses models to generate decoy content per session
+    in real time, removing the step where the security team manually builds and maintains fake environments
+    and keeping suspicious sessions engaged longer, so teams with ongoing adversary-facing needs would
+    pick it when a suspicious session appears.'

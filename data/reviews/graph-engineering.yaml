@@ -116,3 +116,55 @@
     stages and orchestration patterns into a paste-ready skill, removing the step of organising the method;
     but the repo has only 49 stars and no usage, retention or review evidence showing which users would
     keep choosing it.'
+- id: req-full-graph-engineering-2026-09-19
+  project_slug: graph-engineering
+  level: full
+  reviewed_at: '2026-09-19T00:53:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把知识图谱九步流程与任务图编排落到自己项目上的需求，痛点是课程与论文难以直接变成 AI 可执行流程、手动翻译易漏校验；不采用则要自行拼装 prompt 与编排逻辑。公开仓库说明其提供带类型、可审计、条件路由与证据门控的工作流并附源码、示例与测试，交付闭环可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-4d51ba2cbcf0f970
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 49 增至 54，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或用户评价说明谁在何种场景持续使用、替代了哪条旧流程，关注度不能等同于持续采用。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-4d51ba2cbcf0f970
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill 仓库，公开材料未见定价页、付费路径或企业采购记录，钱可能来自 to C 开发者捐赠、to B 定制或 to VC 叙事，均属判断而非已验证事实，存在只有关注没有付费路径的风险。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述包含源码、示例与测试，但公开材料未展示可复现的部署文档、运行结果或人工与安全边界说明，交付能否稳定发生尚缺可核验证据。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-3a5a42c7b7450871
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告在真实项目中运行该 skill、替代了哪条旧流程，以及是否出现定价或赞助入口。
+  market: ''
+  job: 写代码的开发者或数据工程师在已有项目上需要落地知识图谱与任务图编排时，把九步知识图谱流程和任务图编排模式交给 AI 编码助手，让它在自己的代码库上边做边练，而不是先啃一门研究生课程。
+  job_en: Developers or data engineers who need to land knowledge graphs and task-graph orchestration
+    in an existing project hand the nine-stage KG pipeline and task-graph patterns to a coding AI so it
+    practices on their own codebase instead of first sitting through a graduate course.
+  pain: 知识图谱与 agent 编排的公开资料多为课程、论文或零散博客，缺少可直接粘贴进 AI 编码助手、带类型校验与证据门控的可执行流程；开发者要自己把方法论翻译成 prompt 与工作流，重复劳动且容易漏掉校验环节。
+  pain_en: Public material on knowledge graphs and agent orchestration is mostly courses, papers, or scattered
+    blog posts, with no paste-ready, type-checked, evidence-gated workflow that a coding assistant can
+    execute; developers must translate methodology into prompts and workflows themselves, duplicating
+    effort and often skipping validation steps.
+  current_alternative: 替代方式是自行阅读 SEU 研究生课程材料、论文与博客，手动把九步流程写成 prompt 或脚本，或直接使用通用 agent 框架自行拼装编排逻辑。
+  current_alternative_en: The alternative is reading SEU graduate-course material, papers, and blog posts,
+    hand-writing the nine stages into prompts or scripts, or assembling orchestration logic manually on
+    top of general agent frameworks.
+  usage_reason: 推断：相较自己翻译课程与论文，该 skill 把九步流程和任务图编排固化为带类型、可审计、条件路由与证据门控的可粘贴工作流，并附源码、示例与测试，开发者可直接在自己的项目上运行并当场看到校验结果，因此正在做知识图谱或
+    agent 编排、又不想重学一门课的开发者会在项目起步阶段选择它。
+  usage_reason_en: 'Inference: versus translating courses and papers themselves, the skill hard-codes
+    the nine stages and task-graph patterns into typed, auditable, conditionally routed, evidence-gated
+    paste-ready workflows with source, examples, and tests, so developers can run it on their own project
+    and see validation results immediately; developers starting a KG or agent-orchestration task who do
+    not want to retake a course would pick it.'

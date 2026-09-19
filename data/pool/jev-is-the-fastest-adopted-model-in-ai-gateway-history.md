@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/blog/ai-gateway-jev-model-launch
 summary: ''
 first_seen: '2026-09-18T07:00:00Z'
 last_seen: '2026-09-19T00:21:44Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

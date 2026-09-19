@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/ryansael/airace
 summary: Live 3D race of AI labs, updated every 6 hours
 first_seen: '2026-09-14T14:25:21Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 - marketfeeds

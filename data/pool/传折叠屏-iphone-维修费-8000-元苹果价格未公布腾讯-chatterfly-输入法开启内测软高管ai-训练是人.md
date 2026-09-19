@@ -1,6 +1,6 @@
 ---
 slug: 传折叠屏-iphone-维修费-8000-元苹果价格未公布腾讯-chatterfly-输入法开启内测软高管ai-训练是人
-name: 传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道
+name: 腾讯 Chatterfly
 builder: ''
 category: ''
 summary_zh: ''
@@ -74,7 +74,7 @@ summary: "谷歌最新旗舰模型 Gemini 4 Pro 疑似「偷跑」，多项指�
   \ AI 模型自身也将失去可靠的信息来源。「一个终端产品威胁其核心供应商的经济基础，这是极不寻常的，但这正是我们为 LLM 业务所创造的处境。」赫希特在文件中写道。（来源：手机中国）"
 first_seen: '2026-09-19T00:01:42Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -85,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# 传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道
+# 腾讯 Chatterfly
 
 谷歌最新旗舰模型 Gemini 4 Pro 疑似「偷跑」，多项指标领先 Astra 和 Fable 5.1 
  9 月 18 日，Google 下一代旗舰模型 Gemini 4 Pro 疑似正以「gemini-3.8-flash」名称「偷跑」上线。据反馈，谷歌在 Arena 等基准平台上测试了其最强 Gemini 4 Pro 模型，内部开发代号为 Argon。 

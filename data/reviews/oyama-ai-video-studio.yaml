@@ -73,3 +73,46 @@
   usage_reason: 用户要完成的任务是：视频剪辑与内容制作人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Video editors and content producers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-oyama-ai-video-studio-2026-09-19
+  project_slug: oyama-ai-video-studio
+  level: full
+  reviewed_at: '2026-09-19T00:54:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据只有仓库星标 42→43，未说明谁在什么工作节点打开它、AI 接收什么素材、执行什么动作、用户拿到什么交付，连需求与痛点都写不出来，无法做价值结构推理。
+    evidence_ids:
+    - ev-d49dc841f1b1ed7f
+    - ev-b3dfcaee75701602
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它接收什么素材、执行什么动作、产出什么交付，以及是否有用户描述替代了哪一步旧流程。
+  market: ''
+  job: 视频剪辑与内容制作人员在制作 AI 视频素材时，需要把原始素材交给 AI 处理并拿到可用的成片或片段，但公开材料未说明具体在哪个工作节点打开该工具、输入什么素材、执行什么动作。
+  job_en: Video editors and content producers working with AI video material need to feed source footage
+    into an AI pipeline and obtain usable clips or a finished cut, but public materials do not specify
+    at which workflow step the tool is opened, what input it takes, or what action it performs.
+  pain: 公开材料只有仓库星标数，没有任何用户抱怨、旧流程摩擦或返工代价的记录，无法确认这项任务哪里难受、多久发生一次、不解决会有什么后果。
+  pain_en: Public materials contain only repository star counts, with no user complaints, legacy-workflow
+    friction, or rework cost, so it is impossible to confirm where this job hurts, how often it occurs,
+    or what happens if it is left unsolved.
+  current_alternative: 公开材料未说明用户目前用什么方式完成 AI 视频制作，是手工剪辑、其他开源管线还是商业工具，因此无法定位它替代了哪一步。
+  current_alternative_en: Public materials do not state how users currently complete AI video production—manual
+    editing, another open-source pipeline, or a commercial tool—so it is impossible to locate which step
+    it replaces.
+  usage_reason: 缺少任何用户反馈、案例或可复现的输入—动作—交付说明，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果；仅凭 42→43 的星标变化属于关注度，不能作为选择理由。
+  usage_reason_en: With no user feedback, case study, or reproducible input-action-delivery description,
+    there is no way to explain which step's burden it removes or which checkable result it improves versus
+    the old approach; the 42→43 star change is attention, not a reason for choice.

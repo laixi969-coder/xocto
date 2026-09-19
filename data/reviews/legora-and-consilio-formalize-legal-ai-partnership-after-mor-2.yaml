@@ -88,3 +88,53 @@
     contract clauses, removing the manual first-pass and page-by-page comparison step, so litigation-support
     and compliance teams facing large record volumes and structured review deliverables are more likely
     to choose it; no user-stated motivation or retention data is public.'
+- id: req-full-legora-and-consilio-formalize-legal-ai-partnership-after-mor-2-2026-09-19
+  project_slug: legora-and-consilio-formalize-legal-ai-partnership-after-mor-2
+  level: full
+  reviewed_at: '2026-09-19T00:53:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师在诉讼支持与合同审查中处理海量卷宗、提取证据与风险条款的需求；痛点是人工逐页审阅耗时且易漏检、关键词检索难解法律语义，属刚性专业工作。公开材料仅说明产品定位与用途，交付闭环为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-874a1cec2820b2ec
+    - ev-e0f5da5f6e87303a
+    - ev-aff45b59d2311930
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实仅显示 Legora 是 2023 年成立的瑞典法律 AI 公司，被律所用于合同审查、法律检索与文书起草；候选标题所称 Consilio 一年以上客户部署在现有证据中无对应条目，无法核验实际采用规模与持续使用。
+    evidence_ids:
+    - ev-e0f5da5f6e87303a
+    - ev-874a1cec2820b2ec
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、席位或按案计费方式，也未说明买方是律所、企业法务还是合作服务商；按律所席位订阅或经 Consilio 类服务商分成是判断而非已验证事实，付费路径尚不可核验。
+    evidence_ids:
+    - ev-874a1cec2820b2ec
+    - ev-aff45b59d2311930
+  - gate: truth
+    status: supported
+    reason: 产品定位为协作式 AI，辅助律师更快审阅、检索与起草，最终专业判断仍由持牌律师作出，人工把关边界清晰；公开材料未显示其替代律师出具法律意见，也未发现安全或责任越界承诺。
+    evidence_ids:
+    - ev-874a1cec2820b2ec
+    - ev-aff45b59d2311930
+  next_validation: 追踪 Legora 官网定价页与 Consilio 合作公告中的客户案例或部署说明，确认计费方式与实际采用规模。
+  market: ''
+  job: 律师与法务专家在诉讼支持、电子数据开示和合同审查场景中，把案件卷宗、合同文本与检索需求交给系统，完成跨文档证据梳理、条款比对与结构化审查摘要，再由持牌律师核定结论。
+  job_en: Lawyers and legal counsel in litigation support, e-discovery and contract review feed case files,
+    contracts and search queries into the system to produce cross-document evidence mapping, clause comparison
+    and structured review summaries, with licensed lawyers confirming the final conclusions.
+  pain: 公开材料显示其定位是减少重复劳动、让律师聚焦高价值工作；结构推理上，人工逐页审阅数百页卷宗与合同耗时且易漏掉隐蔽风险条款，通用关键词检索又难以理解法律语义关联。
+  pain_en: Public material positions it as reducing repetition so lawyers focus on high-impact work; structurally,
+    manual page-by-page review of hundreds of pages of files and contracts is slow and misses buried risk
+    clauses, while generic keyword search cannot parse legal semantic relations.
+  current_alternative: 初级律师人工标注比对、传统电子数据开示（e-Discovery）关键词过滤软件，以及 ChatGPT、Gemini 等通用大模型问答。
+  current_alternative_en: Junior associates doing manual annotation and comparison, legacy e-discovery
+    keyword filtering tools, and general-purpose assistants such as ChatGPT and Gemini.
+  usage_reason: （推断）相较关键词检索与通用聊天工具，Legora 按律所既有工作方式接入卷宗与检索需求，直接产出可核对的条款审查清单与摘要，把初筛环节从逐页人工阅读转为结构化复核，因此处理大批量合同与诉讼材料的律师团队会在尽调或开示阶段选择它。
+  usage_reason_en: (Inference) Unlike keyword search or generic chat tools, Legora ingests case files
+    and queries into the firm's existing workflow and returns checkable clause review lists and summaries,
+    turning first-pass screening from page-by-page reading into structured verification, so teams handling
+    large contract or litigation volumes choose it during diligence or discovery.

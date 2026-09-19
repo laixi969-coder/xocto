@@ -22,7 +22,7 @@ summary: “It’s important for service members to understand the uncertainty i
   research scholar warns.
 first_seen: '2026-09-18T23:12:32Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

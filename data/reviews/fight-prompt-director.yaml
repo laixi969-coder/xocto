@@ -77,3 +77,50 @@
   usage_reason: 用户要完成的任务是：动作导演、AI 视频创作者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Action Director, AI Video Creator Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-fight-prompt-director-2026-09-19
+  project_slug: fight-prompt-director
+  level: full
+  reviewed_at: '2026-09-19T00:52:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 视频创作者把打斗场面拆成可生成镜头提示的需求，痛点是手写提示词难以稳定产出动作镜头、需反复试错。公开仓库说明其面向 Seedance、MiniMax-H3 等模型，结构上能还原输入—拆解—交付闭环，属工作流推理；痛点刚性成立。
+    evidence_ids:
+    - ev-e397759198603b43
+    - ev-45183708ba63ff39
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 42，说明社区有初步关注，但公开材料未显示目标创作者持续使用、部署范围或复购，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-e397759198603b43
+    - ev-45183708ba63ff39
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，谁付钱尚不清楚；这是模式缺口，不反推需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、人工确认与安全边界尚缺可复现公开证据，仓库未展示实际生成结果或使用流程文档。
+    evidence_ids:
+    - ev-e397759198603b43
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有创作者公开其实际使用流程、生成结果或替代旧做法的记录。
+  market: ''
+  job: AI 视频创作者或动作导演在使用 Seedance、MiniMax-H3 等视频模型生成打斗场面时，需要把一段动作戏拆解成模型可理解、可逐镜生成的提示词序列，以完成从动作设计到成片镜头的转化。
+  job_en: An AI video creator or action director using video models such as Seedance or MiniMax-H3 needs
+    to break a fight scene into model-understandable, shot-by-shot prompt sequences to turn choreography
+    into generated footage.
+  pain: 打斗场面涉及连续动作、镜头切换和节奏，直接写一句提示词很难让视频模型稳定输出可用的动作镜头，创作者需要反复试错、手动拆解镜头，过程耗时且结果不可控。
+  pain_en: Fight scenes involve continuous motion, shot transitions, and pacing; a single prompt rarely
+    yields usable action footage, forcing creators into repeated trial-and-error and manual shot breakdown
+    that is slow and unpredictable.
+  current_alternative: 当前替代方式是创作者自己凭经验手写提示词、在模型间反复试错，或参考零散的社区提示词模板，缺少专门针对打斗场面的结构化编排方法。
+  current_alternative_en: Today creators hand-write prompts from experience, iterate across models by
+    trial and error, or borrow scattered community prompt templates, with no structured choreography method
+    specific to fight scenes.
+  usage_reason: 推断：相较手写提示词反复试错，该 Skill 通过把动作戏拆成可生成的镜头提示，减少创作者逐镜手动拆解和调试的步骤，因此使用 Seedance、MiniMax-H3 等模型制作动作内容的创作者会在需要稳定产出打斗镜头时选择它。
+  usage_reason_en: 'Inference: versus hand-writing prompts through trial and error, this Skill breaks
+    a fight scene into generatable shot prompts, cutting the manual shot-breakdown and debugging steps,
+    so creators producing action content with models like Seedance or MiniMax-H3 would choose it when
+    they need reliable fight footage.'

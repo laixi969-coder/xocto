@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/gpt-live-1-now-available-on-ai-gatew
 summary: ''
 first_seen: '2026-09-17T00:00:00Z'
 last_seen: '2026-09-19T00:21:44Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

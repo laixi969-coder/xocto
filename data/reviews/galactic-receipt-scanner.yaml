@@ -1,0 +1,81 @@
+- id: req-initial-galactic-receipt-scanner-2026-09-19
+  project_slug: galactic-receipt-scanner
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决收据录入这一具体任务，痛点真实，但公开材料只有一句产品描述，无法确认识别字段与交付结果，价值结构尚不完整。
+    evidence_ids:
+    - ev-f1bd7e763e158d25
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页外没有用户评价、客户案例或采用数据，无法判断是否有人真的把它放进报销流程。
+    evidence_ids:
+    - ev-f1bd7e763e158d25
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 个人报销还是 to B 财务团队付费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f1bd7e763e158d25
+  - gate: truth
+    status: insufficient
+    reason: 无法核对识别准确率、票据类型覆盖与人工复核边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-f1bd7e763e158d25
+  next_validation: 收集该产品的官方定价页或导出格式说明，确认其识别字段与可对接的记账系统。
+  market: ''
+  job: 报销或记账人员在月底整理一叠纸质收据时，需要把每张票据变成可入账的记录。
+  job_en: Expense or bookkeeping staff sorting a stack of paper receipts at month-end need to turn each
+    slip into a bookable record.
+  pain: 逐张对准、拍照、再手工补录金额和日期很费时，票据多时容易漏拍或拍糊。
+  pain_en: Aligning, photographing and then manually re-keying amounts and dates is slow, and with many
+    slips it is easy to miss or blur a shot.
+  current_alternative: 用手机相机逐张拍照后手工录入，或使用已有的扫描类记账应用。
+  current_alternative_en: Photographing slips one by one with the phone camera and keying them in manually,
+    or using existing scanning bookkeeping apps.
+  usage_reason: 推断：免手持连续拍摄可能减少逐张对准和重复拍照的动作，但公开材料未说明识别准确率、导出格式或与记账系统的对接，因此尚不能确认它比现有扫描应用少哪一步负担。
+  usage_reason_en: 'Inference: hands-free sequential capture may reduce the aligning and re-shooting of
+    each slip, but the public material does not state recognition accuracy, export formats or bookkeeping-system
+    integration, so which step it saves versus existing scanning apps cannot yet be confirmed.'
+- id: req-full-galactic-receipt-scanner-2026-09-19
+  project_slug: galactic-receipt-scanner
+  level: full
+  reviewed_at: '2026-09-19T00:52:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决收据录入这一具体任务，痛点真实，但公开材料只有一句产品描述，无法确认识别字段与交付结果，价值结构尚不完整。
+    evidence_ids:
+    - ev-d8208103ea3b587a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或导出格式说明，确认其识别字段与可对接的记账系统。
+  market: ''
+  job: 报销或记账人员在月底整理一叠纸质收据时，需要把每张票据变成可入账的记录。
+  job_en: Expense or bookkeeping staff sorting a stack of paper receipts at month-end need to turn each
+    slip into a bookable record.
+  pain: 逐张对准、拍照、再手工补录金额和日期很费时，票据多时容易漏拍或拍糊。
+  pain_en: Aligning, photographing and then manually re-keying amounts and dates is slow, and with many
+    slips it is easy to miss or blur a shot.
+  current_alternative: 用手机相机逐张拍照后手工录入，或使用已有的扫描类记账应用。
+  current_alternative_en: Photographing slips one by one with the phone camera and keying them in manually,
+    or using existing scanning bookkeeping apps.
+  usage_reason: 推断：免手持连续拍摄可能减少逐张对准和重复拍照的动作，但公开材料未说明识别准确率、导出格式或与记账系统的对接，因此尚不能确认它比现有扫描应用少哪一步负担。
+  usage_reason_en: 'Inference: hands-free sequential capture may reduce the aligning and re-shooting of
+    each slip, but the public material does not state recognition accuracy, export formats or bookkeeping-system
+    integration, so which step it saves versus existing scanning apps cannot yet be confirmed.'

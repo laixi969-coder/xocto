@@ -79,3 +79,56 @@
   usage_reason: 用户要完成的任务是：软件架构师、研发工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software architect, Software engineer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-dsh-normify-2026-09-19
+  project_slug: dsh-normify
+  level: full
+  reviewed_at: '2026-09-19T00:52:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是改动已有代码库前缺少可核对模块边界、越界只能靠人读代码判断的问题；插件把结构归一化为分形模块树并跑写时校验与冻结回执，交付物明确。公开证据仅仓库说明与星标，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+    - ev-b7d7cc128480fa01
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 49 升至 57，说明有开发者关注，但公开材料没有 issue、discussion 或评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+    - ev-b7d7cc128480fa01
+  - gate: model
+    status: insufficient
+    reason: 这是开源 DSH 插件，公开材料未给出定价、付费主体或商业路径；to C 开发者自用、to B 团队采购还是 to VC 叙事均无法确认，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+  - gate: truth
+    status: insufficient
+    reason: 三层校验与冻结回执能否在真实代码库稳定交付、误报与人工确认边界如何，公开材料只有功能描述，缺可复现的部署或实测记录。
+    evidence_ids:
+    - ev-b7d7cc128480fa01
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有开发者报告在真实代码库中部署 normify 并替代原有边界梳理流程。
+  market: ''
+  job: 研发工程师或架构师在接手或改动一个已有代码库、需要先弄清模块边界时，把项目现有结构交给这个 DSH 插件，让它整理成归一化的分形模块树，并在改动前后跑写时校验、校验与冻结回执，最终拿到可核对的模块树与单文件交互式架构图。
+  job_en: 'An engineer or architect taking over or modifying an existing codebase first needs to understand
+    module boundaries: they hand the project''s current structure to this DSH plugin, which normalizes
+    it into a fractal module tree, runs write-time checks, validation and freeze receipts before and after
+    the change, and returns a verifiable module tree plus a single-file interactive architecture diagram.'
+  pain: 公开材料显示的真实摩擦是：改动已有代码库前缺少一份可核对的模块边界描述，改动是否越界只能靠人读代码判断；插件用写时校验与冻结回执把边界检查前置，但公开证据未给出越界返工的具体频率或代价，痛点强度属工作流结构推理。
+  pain_en: 'The public material shows the real friction: before changing an existing codebase there is
+    no verifiable description of module boundaries, so whether a change crosses a boundary is judged by
+    reading code; the plugin front-loads boundary checks via write-time validation and freeze receipts,
+    but public evidence gives no frequency or cost of boundary-crossing rework, so pain intensity is a
+    workflow inference.'
+  current_alternative: 当前替代方式是人工阅读代码与目录、口头或文档约定模块边界，以及通用架构图工具事后补画；这些做法不产出可校验的归一化模块树，也不在改动前后自动跑边界校验。
+  current_alternative_en: Today the alternatives are reading code and directories by hand, agreeing on
+    module boundaries verbally or in docs, and drawing architecture diagrams after the fact with generic
+    tools; none produces a checkable normalized module tree or runs boundary validation before and after
+    a change.
+  usage_reason: 推断：相较人工读代码加事后画图，它把模块边界写成可校验的归一化树，并在 change_open→brief→check→实施→refresh→change_close 的伴随流程里自动跑写时校验与冻结回执，省去改动前手工梳理边界、改动后手工核对是否越界这两步；因此正在改动陌生或大型代码库、需要边界可核对的工程师会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus reading code by hand and drawing diagrams afterwards, it writes
+    module boundaries as a checkable normalized tree and runs write-time validation and freeze receipts
+    inside the change_open→brief→check→implement→refresh→change_close companion flow, removing the manual
+    pre-change boundary mapping and post-change boundary re-checking; engineers modifying unfamiliar or
+    large codebases who need verifiable boundaries would choose it in that situation.'

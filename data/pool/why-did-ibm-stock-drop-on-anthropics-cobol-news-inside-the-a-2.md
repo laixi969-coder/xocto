@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ0dFYmtiNmNz
 summary: Why Did IBM Stock Drop on Anthropic's COBOL News? Inside the AI Disruption Trade mexc.co
 first_seen: '2026-09-17T08:41:56Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

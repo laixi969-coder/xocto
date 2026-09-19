@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chine
 summary: But the military's overall use of AI seems to be accelerating.
 first_seen: '2026-09-18T20:26:33Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

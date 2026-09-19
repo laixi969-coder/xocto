@@ -405,3 +405,46 @@
   usage_reason_en: Its public repository has 221 stars and 21 forks, showing developer attention; stars
     and forks are attention evidence and cannot explain why users choose it, and repeat use and payment
     are not yet verified.
+- id: req-full-ai-agent-book-2026-09-19
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-09-19T00:51:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 release 记录，确认配套实验是否被读者实际跑通、是否随上游更新维护，以核验交付可复现性。
+  market: ''
+  job: 想动手做 AI Agent 的开发者或学生，在自学或课程项目场景下，处理一本开源教材与配套实验代码，要完成从理解 Agent 设计原理到跑通一个可运行 Agent 原型的任务。
+  job_en: Developers or students who want to build AI agents, working through an open textbook plus companion
+    experiment code in self-study or coursework, to go from understanding agent design principles to running
+    a working agent prototype.
+  pain: 公开材料只给出教材定位，未提供用户抱怨或访谈；从工作流结构推理，痛点在于现有资料要么是零散博客与论文、要么是只讲概念的课程，读者难以把原理与可运行代码对应起来，卡在“看得懂但搭不出”的环节。
+  pain_en: Public materials only state the textbook positioning and provide no user complaints or interviews;
+    by workflow inference, the pain is that existing resources are either scattered blog posts and papers
+    or concept-only courses, so readers struggle to map principles onto runnable code and stall at 'I
+    understand it but cannot build it.'
+  current_alternative: 读者目前多依赖零散博客、论文、官方 API 文档、付费课程或直接照抄示例仓库来学习 Agent 设计。
+  current_alternative_en: Readers currently rely on scattered blog posts, papers, official API docs, paid
+    courses, or copying example repositories to learn agent design.
+  usage_reason: 推断：相较零散博客与纯概念课程，该教材把原理讲解与配套实验放在同一仓库，读者可边读边跑，减少在多个来源之间拼接知识、再自行补写示例的那一步负担，因此自学者和课程学习者会在需要动手搭建
+    Agent 时选择它。
+  usage_reason_en: 'Inference: versus scattered posts and concept-only courses, the book keeps explanations
+    and companion experiments in one repository so readers can read and run side by side, removing the
+    step of stitching sources together and writing examples from scratch; self-learners and course students
+    would choose it when they need to actually build an agent.'

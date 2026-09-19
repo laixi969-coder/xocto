@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnMnhsV0ZuOUhD
 summary: 黄仁勋继续乐观表态！AI芯片集体走强 融资客抢筹股曝光 eastmoney.com
 first_seen: '2026-09-18T08:24:42Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

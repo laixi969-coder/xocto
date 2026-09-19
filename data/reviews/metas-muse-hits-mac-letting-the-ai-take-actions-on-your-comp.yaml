@@ -1,0 +1,83 @@
+- id: req-initial-metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp-2026-09-19
+  project_slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
+  level: initial
+  reviewed_at: '2026-09-19T00:21:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让助手在本机文件与应用中代为操作，但材料未给出具体痛点、旧做法与不采用的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-4a3c71223983c0ed
+  - gate: consensus
+    status: insufficient
+    reason: 仅有上线 Mac 的单一报道，没有用户反馈、采用或重复使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-4a3c71223983c0ed
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自 Meta 生态内订阅或捆绑，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4a3c71223983c0ed
+  - gate: truth
+    status: insufficient
+    reason: 本机代操作贴近任务目标，但权限边界、误操作责任与人工确认环节均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-4a3c71223983c0ed
+  next_validation: Meta 官方 Muse 产品页或帮助文档，用于核验可执行动作范围、权限与人工确认机制。
+  market: ''
+  job: Mac 用户在处理本机文件与已装应用时，让 Muse 读取这些材料并代为完成操作，最终拿到被改动或生成的文件与操作结果。
+  job_en: Mac users working with local files and installed apps have Muse read those materials and perform
+    operations, ending with modified or generated files and completed actions.
+  pain: 候选材料只说明它可以代用户操作文件和应用，没有给出具体痛点、旧做法耗时或出错代价，无法确认哪一步旧流程被替代。
+  pain_en: The candidate only states that it can act on files and apps on the user's behalf; it gives
+    no specific pain point, time cost or error cost of the old practice, so which legacy step is replaced
+    cannot be confirmed.
+  current_alternative: 公开材料未说明用户此前如何完成同类操作，无法确认替代的是手动操作、脚本还是其他助手。
+  current_alternative_en: The public material does not say how users previously completed comparable operations,
+    so whether it replaces manual work, scripts or another assistant is unconfirmed.
+  usage_reason: 推断：若它能在本机文件与应用中直接执行动作，用户可省去自己逐步点击和搬运文件的一步；但缺少动作范围、权限边界与人工确认的公开说明，尚不能判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it can execute actions directly across local files and apps, users could
+    skip a step of clicking through and moving files themselves; without public detail on action scope,
+    permission boundaries and human confirmation, which users would choose it and when cannot yet be judged.'
+- id: req-full-metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp-2026-09-19
+  project_slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
+  level: full
+  reviewed_at: '2026-09-19T00:53:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让助手在本机文件与应用中代为操作，但材料未给出具体痛点、旧做法与不采用的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-75b6f652b49ee474
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: Meta 官方 Muse 产品页或帮助文档，用于核验可执行动作范围、权限与人工确认机制。
+  market: ''
+  job: Mac 用户在处理本机文件与已装应用时，让 Muse 读取这些材料并代为执行操作，最终拿到被改动或生成的文件与操作结果。
+  job_en: Mac users working with local files and installed apps have Muse read those materials and perform
+    operations, ending with modified or generated files and completed actions.
+  pain: 候选材料只说明它可代用户操作文件和应用，没有给出具体痛点、旧做法耗时或出错代价，无法确认哪一步旧流程被替代。
+  pain_en: The candidate only states that it can act on files and apps on the user's behalf; it gives
+    no specific pain point, time cost or error cost of the old practice, so which legacy step is replaced
+    cannot be confirmed.
+  current_alternative: 公开材料未说明用户此前如何完成同类操作，无法确认替代的是手动操作、脚本还是其他助手。
+  current_alternative_en: The public material does not say how users previously completed comparable operations,
+    so whether it replaces manual work, scripts or another assistant is unconfirmed.
+  usage_reason: 推断：若它能在本机文件与应用中直接执行动作，用户可省去自己逐步点击和搬运文件的一步；但缺少动作范围、权限边界与人工确认的公开说明，尚不能判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it can execute actions directly across local files and apps, users could
+    skip a step of clicking through and moving files themselves; without public detail on action scope,
+    permission boundaries and human confirmation, which users would choose it and when cannot yet be judged.'

@@ -1,0 +1,90 @@
+- id: req-initial-kv-image-to-clip-2026-09-19
+  project_slug: kv-image-to-clip
+  level: initial
+  reviewed_at: '2026-09-19T00:21:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决图转视频中的什么具体问题、替代哪一步旧操作，材料都没有写，价值结构无法还原。
+    evidence_ids:
+    - ev-bf434fcc4d3314b6
+  - gate: consensus
+    status: insufficient
+    reason: 只有模型与适配器名称和少量点赞，没有用户评价或使用场景，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-bf434fcc4d3314b6
+  - gate: model
+    status: insufficient
+    reason: 开源演示空间未披露定价与买方，无法判断钱来自个人创作者还是企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bf434fcc4d3314b6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成片段是否可直接用于交付、是否可商用，人工筛选边界也未说明。
+    evidence_ids:
+    - ev-bf434fcc4d3314b6
+  next_validation: 收集该开源空间的模型卡或仓库说明，确认生成时长、分辨率、许可条款与是否有可复现的实测样例。
+  market: ''
+  job: 内容创作者或营销人员在需要把一张静态图片变成短视频素材时，输入图片并生成一段视频片段。
+  job_en: Content creators or marketers turning a still image into short-video material input the image
+    and generate a video clip.
+  pain: 公开材料只给出模型与适配器名称，没有说明用户原来如何制作这类片段、卡在哪一步，痛点无法确认。
+  pain_en: The public material only names the model and adapters; it does not say how users previously
+    produced such clips or where they got stuck, so the pain point cannot be confirmed.
+  current_alternative: 现有替代是手动剪辑软件制作动态效果或使用其他图生视频服务，材料未说明它替代其中哪一步。
+  current_alternative_en: Current alternatives are manual motion effects in editing software or other
+    image-to-video services; the material does not say which step it replaces.
+  usage_reason: 推断：如果它能把商品图或房源图直接转成可用片段，用户可能省去手动做动态效果的一步；但缺少生成质量、时长和商用许可信息，也没有用户反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if it turns product or listing images directly into usable clips, users
+    could skip manually building motion effects; but with no quality, length or licensing information
+    and no user feedback, the causal claim cannot be confirmed.'
+- id: req-full-kv-image-to-clip-2026-09-19
+  project_slug: kv-image-to-clip
+  level: full
+  reviewed_at: '2026-09-19T00:53:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把静态图片转成短视频片段这一具体任务，痛点在于手动关键帧与逐帧剪辑耗时且需技能，不采用则只能继续手工做动态效果或另找图生视频服务；产品以图片输入加 Wan 2.2 与 KV
+      适配器生成片段完成交付，结构上成立，属工作流推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-bf434fcc4d3314b6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有模型与适配器名称这一条行为证据，没有用户评价、使用场景或收藏讨论，无法判断共识卡在感知、想象、场景还是利益哪一环，也无法确认是否形成强场景。
+    evidence_ids:
+    - ev-bf434fcc4d3314b6
+  - gate: model
+    status: insufficient
+    reason: 开源演示空间未披露定价与买方，钱可能来自个人创作者自用、企业采购或纯开源无收入，这是判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-bf434fcc4d3314b6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成片段是否可直接用于交付、是否可商用，生成时长、分辨率与人工筛选边界均未说明，承诺能否确定性交付缺乏公开依据。
+    evidence_ids:
+    - ev-bf434fcc4d3314b6
+  next_validation: 追踪该 公开模型社区 Space 的模型卡与仓库说明，确认生成时长、分辨率、许可条款与是否有可复现的实测样例。
+  market: ''
+  job: 内容创作者或营销人员在需要把一张静态图片（商品图、房源图、海报素材）变成短视频片段时，把图片输入这个开源演示空间，由 Wan 2.2 配合 KV 适配器生成一段视频片段，用于投放或内容发布。
+  job_en: Content creators or marketers who need to turn a still image (product shot, listing photo, poster
+    asset) into a short video clip input the image into this open-source demo space, where Wan 2.2 with
+    KV adapters generates a video clip for publishing or ad delivery.
+  pain: 公开材料只给出模型与适配器名称，未说明用户原来如何制作这类片段、卡在哪一步；从工作流结构推理，静态图转动态片段通常依赖手动关键帧或逐帧剪辑，耗时且需要剪辑技能，这是可推断的负担，但缺少用户抱怨或案例佐证。
+  pain_en: The public material only names the model and adapters and does not say how users previously
+    produced such clips or where they got stuck; by workflow inference, turning a still image into motion
+    typically relies on manual keyframing or frame-by-frame editing, which is slow and requires editing
+    skill, but user complaints or cases are absent.
+  current_alternative: 现有替代是手动剪辑软件制作动态效果（关键帧、视差、粒子），或使用其他图生视频服务；材料未说明它替代其中哪一步。
+  current_alternative_en: Current alternatives are manual motion effects in editing software (keyframes,
+    parallax, particles) or other image-to-video services; the material does not say which step it replaces.
+  usage_reason: 推断：相较手动做动态效果，它把“设计运动”这一步换成一次图片输入加模型生成，省去关键帧与逐帧调整；因此没有剪辑技能、需要快速产出图生视频素材的创作者或营销人员会在赶投放素材时选择它。但生成质量、时长与商用许可未披露，也无用户反馈，因果仍属推断。
+  usage_reason_en: 'Inference: versus manually building motion effects, it replaces the ''design the motion''
+    step with one image input plus model generation, skipping keyframing and frame-by-frame tuning; so
+    creators or marketers without editing skills who need image-to-video assets fast would pick it when
+    rushing ad material. But quality, length and commercial licensing are undisclosed and no user feedback
+    exists, so the causal claim remains inference.'

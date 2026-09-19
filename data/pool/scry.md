@@ -21,7 +21,7 @@ canonical_url: https://scry.io
 summary: programmable internet search w/ congestion pricing
 first_seen: '2026-09-17T23:15:57Z'
 last_seen: '2026-09-19T00:21:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

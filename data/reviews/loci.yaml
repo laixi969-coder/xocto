@@ -88,3 +88,52 @@
     hybrid vector plus BM25 retrieval down to the section and then returns cited answers, removing the
     step where the user hunts for and verifies the source, so individuals or small teams that need citations
     without building retrieval themselves would try it first.'
+- id: req-full-loci-2026-09-19
+  project_slug: loci
+  level: full
+  reviewed_at: '2026-09-19T00:53:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是私有资料里找答案并核对出处的问题，痛点在旧做法要么搜不全、要么贴整篇没有引用；不解决的后果是漏掉只出现在某一节的内容且无法回溯。属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-ef518687eb612aed
+  - gate: consensus
+    status: insufficient
+    reason: 现有证据只覆盖词义与记忆法条目，没有用户评价、客户案例或采用数据，无法判断是否形成使用共识；公开关注度也不能替代持续采用证据。
+    evidence_ids:
+    - ev-ef518687eb612aed
+    - ev-78631453d5fda903
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人自用、团队采购还是随代理调用收费均不明；这是判断而非已验证事实，但买方不清不取消价值关判定。
+    evidence_ids:
+    - ev-978effac89859295
+    - ev-05db0a45193b32e9
+  - gate: truth
+    status: insufficient
+    reason: 检索质量、引用准确率与长期留存均无公开证据，约三百行实现能否稳定交付、安全与人工边界如何划定仍缺可核对材料。
+    evidence_ids:
+    - ev-e95a58127955c337
+    - ev-864b834859407ff2
+  next_validation: 追踪该项目的公开仓库 issue 与 discussion，看是否出现用户报告实际检索与引用准确率、以及是否被接入日常工作流。
+  market: ''
+  job: 个人知识工作者在需要回答一个具体问题时，面对散落在多个笔记与文档工具里的材料，要快速定位到相关段落并知道答案出自哪一节，以便自己判断是否采用。
+  job_en: An individual knowledge worker answering a specific question across material scattered in several
+    note and document tools needs to locate the relevant passages quickly and know which section the answer
+    came from, so they can judge whether to rely on it.
+  pain: 旧做法要么在多个工具里反复换关键词搜，要么把整份文档贴进通用对话模型；前者容易漏掉只出现在某一节里的内容，后者没有出处、无法核对，用户还得回头翻原文确认。
+  pain_en: The old way is repeated keyword search across several tools or pasting whole documents into
+    a general chat model; the former misses content that appears in only one section, the latter gives
+    no traceable source, so the user still has to go back to the original text to verify.
+  current_alternative: 手动在多个笔记应用间切换搜索、把文档整段复制进通用对话模型，或自己写一套向量检索脚本。
+  current_alternative_en: Manual search across several note apps, pasting whole documents into a general
+    chat model, or hand-rolling a vector retrieval script.
+  usage_reason: 推断：相较整篇粘贴进对话模型，它先用向量加 BM25 混合检索把范围收敛到章节，再返回带章节级引用的答案，省掉用户自己翻找和逐条核对出处的那一步；因此需要给出处、又不愿自建检索的个人或小团队会在写文档、查资料时先试它。
+  usage_reason_en: 'Inference: compared with pasting whole documents into a chat model, it first narrows
+    the scope to sections via hybrid vector plus BM25 retrieval and then returns section-level cited answers,
+    removing the step where the user hunts for and verifies each source; so individuals or small teams
+    that need citations but do not want to build retrieval themselves would try it first when writing
+    or researching.'

@@ -316,3 +316,53 @@
     directly into code-drawn Remotion frames with TTS and subtitles, removing the frame-building and separate
     voiceover steps, so creators needing fast or batch explainer output would pick it when they have a
     topic but no video; no user feedback yet confirms this motive.'
+- id: req-full-anything2explainer-2026-09-19
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-19T00:51:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把主题快速变成带旁白、字幕和章节进度的解释视频这一任务，痛点在于脚本、配音、动效、渲染多环节手工串联；公开材料只证明产品能力，旧流程代价与频率属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-a1ff099483fe05a1
+    - ev-7e064e60100c1861
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 1,580 增至 1,644，说明开发者关注度在上升，但收藏只属关注度证据，不能证明目标用户持续使用或形成稳定场景。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+    - ev-ce98aa2bd3799428
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济；作为开源 skill 可能靠捐赠或引流，但谁付钱、按什么收费均未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a1ff099483fe05a1
+  - gate: truth
+    status: insufficient
+    reason: README 与 examples 说明逐帧用 Remotion 代码绘制并输出 TTS、字幕和章节条，但未见可复现的成片质量、渲染失败率或人工介入边界的公开证据。
+    evidence_ids:
+    - ev-7e064e60100c1861
+    - ev-c3526c6b55c3f7a4
+  next_validation: 追踪该仓库 examples 目录与 issue/discussion，确认是否有可复现的成片样例、渲染失败记录或用户反馈，以核验交付确定性。
+  market: ''
+  job: 内容创作者、教育者或营销人员在需要把某个主题做成带旁白、字幕和章节进度的解释视频时，用 Claude Code / Codex 输入主题，由 skill 逐帧用 Remotion 代码生成黑底动效视频并输出成片。
+  job_en: Content creators, educators, or marketers who need to turn a topic into a narrated explainer
+    video with subtitles and chapter progress input the topic into Claude Code / Codex, and the skill
+    renders a black-canvas motion-graphics video frame-by-frame in Remotion code.
+  pain: 公开材料只说明产品能做什么，未记录用户抱怨或旧流程的具体代价；从工作流结构推理，制作此类视频通常需要脚本、配音、字幕、动效和渲染多环节协作，不解决则需自行串联这些步骤。
+  pain_en: Public materials describe only what the product does, not user complaints or the cost of the
+    old workflow; by workflow inference, producing such videos normally requires coordinating script,
+    voiceover, subtitles, motion graphics, and rendering, and leaving it unsolved means stitching those
+    steps together manually.
+  current_alternative: 公开材料未说明用户目前用什么替代；结构上可推断为通用视频剪辑软件、动效模板或外包制作，但这是推理而非已证事实。
+  current_alternative_en: Public materials do not state what users currently use instead; structurally
+    this can be inferred as general video editors, motion templates, or outsourcing, but that is inference,
+    not verified fact.
+  usage_reason: 推断：相较手动剪辑或套模板，该 skill 把主题直接转成代码绘制的逐帧动效并附带 TTS 旁白、字幕和章节条，减少了脚本到渲染之间的手工拼接步骤，因此需要快速产出解释视频的创作者或教育者可能选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with manual editing or templates, the skill turns a topic directly
+    into code-drawn frame-by-frame motion graphics with TTS voiceover, subtitles, and a chapter bar, reducing
+    manual stitching from script to render, so creators or educators needing quick explainer videos may
+    choose it; no user feedback or case yet confirms this motive.'

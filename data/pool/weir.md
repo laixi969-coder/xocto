@@ -30,7 +30,7 @@ canonical_url: https://github.com/IdoGol24/weir
 summary: Open tool for testing your AI Agents (No LLM)
 first_seen: '2026-08-28T16:31:56Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

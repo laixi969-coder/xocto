@@ -125,3 +125,91 @@
   usage_reason_en: Without a verifiable description of the old workflow and delivered result, there is
     no explanation of why users would choose it over the old way; this is missing evidence, not verified
     adoption.
+- id: req-initial-design-studio-ai-2026-09-19
+  project_slug: design-studio-ai
+  level: initial
+  reviewed_at: '2026-09-19T00:21:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决设计素材产出，但材料未说明用户卡在哪一步、不做的后果与旧替代方式，痛点结构无法还原。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+    - ev-c357c95da42753da
+  - gate: consensus
+    status: insufficient
+    reason: 星标从131增至189、讨论帖201点57评论，只说明关注度上升，不能证明设计团队已把它放进日常工作流。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+    - ev-c357c95da42753da
+  - gate: model
+    status: insufficient
+    reason: 开源 MIT 且自带密钥，未披露任何定价、付费或采购路径，买方与收费方式均无法判断。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 代理的编辑结果是否可核对、出错时人工如何介入，交付确定性无法评估。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户描述具体设计任务、旧流程与产出结果。
+  market: ''
+  job: 设计师或前端工程师在需要产出界面、3D 或动效素材时，把设计文件与指令交给云端编辑器，由 AI 代理执行编辑动作，得到可继续修改的设计产物。
+  job_en: A designer or front-end engineer, when producing interface, 3D or motion assets, hands design
+    files and instructions to a cloud editor where an AI agent performs editing actions to yield a further-editable
+    design artifact.
+  pain: 候选材料只列出云端编辑、3D、动效、MCP、CLI、BYOK 等功能，没有说明用户原来卡在哪一步、不解决会付出什么代价。
+  pain_en: The candidate material only lists features such as cloud editing, 3D, motion, MCP, CLI and
+    BYOK, without stating which step users were stuck on or what it costs them to leave it unsolved.
+  current_alternative: 候选材料未提供现有替代方式，无法确认用户此前是用传统设计软件、脚本还是其他代理工具完成同类工作。
+  current_alternative_en: The candidate material provides no current alternative, so it cannot be confirmed
+    whether users previously used traditional design software, scripts or other agent tools for the same
+    work.
+  usage_reason: 材料未给出用户反馈或客户案例，无法说明相较旧做法它减少了哪一步负担；仅凭功能清单不能推断用户会选择它。
+  usage_reason_en: The material gives no user feedback or customer cases, so it cannot be shown which
+    step of the old workflow it reduces; a feature list alone cannot support a claim that users would
+    choose it.
+- id: req-full-design-studio-ai-2026-09-19
+  project_slug: design-studio-ai
+  level: full
+  reviewed_at: '2026-09-19T00:52:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决设计素材产出，但材料未说明用户卡在哪一步、不做的后果与旧替代方式，痛点结构无法还原。
+    evidence_ids:
+    - ev-1eeef70efefb4b02
+    - ev-c357c95da42753da
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户描述具体设计任务、旧流程与产出结果。
+  market: ''
+  job: 设计师或前端工程师在需要产出界面、3D 或动效素材时，把设计文件与指令交给云端编辑器，由 AI 代理执行编辑动作，得到可继续修改的设计产物。
+  job_en: A designer or front-end engineer, when producing interface, 3D or motion assets, hands design
+    files and instructions to a cloud editor where an AI agent performs editing actions to yield a further-editable
+    design artifact.
+  pain: 公开材料只列出云端编辑、3D、动效、MCP、WebMCP、CLI、BYOK 等功能清单，没有说明用户原来卡在哪一步、不解决会付出什么代价，痛点结构无法还原。
+  pain_en: The public material only lists features such as cloud editing, 3D, motion, MCP, WebMCP, CLI
+    and BYOK, without stating which step users were stuck on or what it costs them to leave it unsolved,
+    so the pain structure cannot be reconstructed.
+  current_alternative: 材料未提供任何现有替代方式，无法确认用户此前是用传统设计软件、脚本还是其他代理工具完成同类工作。
+  current_alternative_en: The material provides no current alternative, so it cannot be confirmed whether
+    users previously used traditional design software, scripts or other agent tools for the same work.
+  usage_reason: 材料未给出用户反馈或客户案例，无法说明相较旧做法它减少了哪一步负担；仅凭功能清单不能推断用户会选择它。
+  usage_reason_en: The material gives no user feedback or customer cases, so it cannot be shown which
+    step of the old workflow it reduces; a feature list alone cannot support a claim that users would
+    choose it.

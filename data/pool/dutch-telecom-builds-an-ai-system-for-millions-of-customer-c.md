@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOSW02djA4cjhL
 summary: Dutch Telecom Builds an AI System for Millions of Customer Calls PYMNTS.com
 first_seen: '2026-09-18T17:31:33Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

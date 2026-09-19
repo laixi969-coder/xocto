@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE5UZnpURnhGV2xD
 summary: 深度测评：企业级AI智能体定制开发服务商该如何筛选？ 财富号
 first_seen: '2026-09-18T23:26:00Z'
 last_seen: '2026-09-19T00:21:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

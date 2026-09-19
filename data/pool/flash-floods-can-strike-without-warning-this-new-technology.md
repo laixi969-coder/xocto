@@ -23,7 +23,7 @@ summary: On the morning of June 9th, Laura Lin was working from her home in Lane
   rain outside was beginning to flood her yard. "I look over to where the barn is over there, […]
 first_seen: '2026-09-18T11:00:00Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -491,3 +491,44 @@
   usage_reason_en: 'No usage reason can be given: the repository provides only a title and star counts,
     with no feature description, inputs/outputs, deployment docs, or user feedback, so no step saved versus
     the old approach can be inferred.'
+- id: req-full-unreel-2026-09-19
+  project_slug: unreel
+  level: full
+  reviewed_at: '2026-09-19T00:55:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句“个人 AI 视频流媒体服务”简介，未说明用户任务、输入材料、交付物与不解决的后果，连需求和痛点都无法还原，无法做价值结构判断。
+    evidence_ids:
+    - ev-3628ff5258a2a2c4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/blendi-remade/unreel 的 README、issue 与 discussion，确认它接收什么输入、产出什么交付、面向哪类具体使用场景。
+  market: ''
+  job: 视频消费者或内容创作者在想要观看或制作个性化视频内容时，打开 unreel 这个个人 AI 视频流媒体服务，处理视频素材或偏好输入，完成生成或播放个性化视频的任务。
+  job_en: A video consumer or content creator who wants to watch or produce personalized video content
+    opens unreel, a personal AI video streaming service, to process video material or preference input
+    and complete the task of generating or playing personalized video.
+  pain: 公开材料只有一句仓库简介和 star 数，没有说明用户当前在视频消费或创作中遇到的具体摩擦、发生频率或不解决的后果，无法确认痛点存在。
+  pain_en: Public material contains only a one-line repository description and star counts; it does not
+    describe any concrete friction, frequency, or consequence in current video consumption or creation,
+    so the pain point cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成个性化视频消费或创作，也未说明 unreel 替代了什么旧做法。
+  current_alternative_en: Public material does not show how users currently accomplish personalized video
+    consumption or creation, nor what old practice unreel replaces.
+  usage_reason: 缺少功能说明、输入输出和用户反馈，无法解释用户相较现有做法为什么会选择它；仅凭仓库简介和 star 数属于关注度证据，不能作为使用理由。
+  usage_reason_en: With no feature description, input/output detail, or user feedback, there is no explanation
+    of why users would choose it over existing approaches; repository description and star counts are
+    attention signals, not usage reasons.

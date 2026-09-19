@@ -514,3 +514,57 @@
     default and human approval on every live order, removing the switch-and-aggregate step across terminals,
     so cross-market traders wanting a unified view without giving up manual control may choose it; public
     materials show no retention or repeat-purchase evidence.'
+- id: req-full-dsh-trading-2026-09-19
+  project_slug: dsh-trading
+  level: full
+  reviewed_at: '2026-09-19T00:52:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨市场交易中数据源分散、AI建议与下单割裂的需求，痛点是换源与误单风险；19+可热插拔连接器、默认dry-run、每笔实盘人工批准构成可确定的输入—动作—交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-19f4f130a3e88e37
+    - ev-0c29a2ccaa1f326d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从168升至183，说明开发者社区持续关注，但收藏与复刻只属关注度证据，不能证明交易员已把它放进日常交易流程；公开材料没有用户评价、issue讨论或部署案例说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-19f4f130a3e88e37
+    - ev-0c29a2ccaa1f326d
+  - gate: model
+    status: insufficient
+    reason: BYOK与不转售数据说明成本由用户自担，但公开材料没有定价页、订阅或分成说明，谁付钱、按什么计费均未核验；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-19f4f130a3e88e37
+  - gate: truth
+    status: insufficient
+    reason: dry-run默认与逐笔人工批准是公开承诺的安全边界，但缺少可复现的实盘执行记录、连接器故障处理或对账文档，交付能否稳定发生尚未核验；同时AI建议的准确性与责任边界也无公开材料。
+    evidence_ids:
+    - ev-19f4f130a3e88e37
+    - ev-b6bcf6cb8f6ac36e
+  next_validation: 追踪 dsh-trading 仓库的 issue、discussion 与 README/部署文档，确认是否有用户公开描述实际接入的连接器、dry-run转实盘的使用记录或对账结果。
+  market: ''
+  job: 交易员或量化分析师在同时盯加密货币、美股、A股和港股时，把多市场行情与账户数据接入一个三栏终端，让AI基于这些数据给出交易建议，并在人工逐笔批准后完成实盘下单，最终得到可核对的交易决策与订单记录。
+  job_en: A trader or quant analyst watching crypto, US, CN and HK markets connects multi-market quotes
+    and account data into one three-column terminal, has an AI generate trade suggestions from that data,
+    and executes live orders only after per-order human approval, ending with auditable decisions and
+    order records.
+  pain: 公开材料支持的痛点是：跨市场交易需要在多个行情源和券商界面之间来回切换，数据源接入与替换成本高；同时把AI建议直接接到实盘存在误单风险，用户不敢放手。dsh-trading 用19+可热插拔连接器和默认dry-run、每笔实盘人工批准来对应这两点，属于工作流结构推理，尚无用户抱怨或案例直接佐证。
+  pain_en: 'Public materials support two pain points: cross-market trading requires switching among many
+    quote sources and broker UIs with high connector setup and swap cost, and wiring AI suggestions straight
+    to live orders carries misfire risk users won''t accept. dsh-trading addresses both with 19+ hot-swappable
+    connectors plus dry-run default and per-order human approval; this is workflow-structure inference,
+    not yet backed by user complaints or cases.'
+  current_alternative: 旧做法是分别使用各券商的独立交易客户端、自建脚本或量化框架（如自行对接交易所API），再配合人工看盘与手工下单；AI建议则多靠聊天工具另开窗口，与下单环节割裂。公开材料未说明用户具体替代了哪一套流程。
+  current_alternative_en: The old way is separate broker clients per market, self-built scripts or quant
+    frameworks wiring exchange APIs directly, plus manual screen-watching and hand-placed orders; AI suggestions
+    usually live in a separate chat window disconnected from execution. Public materials do not say which
+    specific stack users replaced.
+  usage_reason: 推断：相较自建脚本加多客户端切换，它把行情接入、AI建议与下单放进同一三栏界面，并用可热插拔连接器减少换源改造这一步；默认dry-run与逐笔人工批准让用户可以先在模拟态核对AI建议再决定是否放行实盘，因此对同时跨多个市场、又不愿把下单权完全交给AI的个人交易者或小团队更有吸引力。缺少用户反馈，动机为推断。
+  usage_reason_en: 'Inference: versus self-built scripts plus multiple broker clients, it puts data connection,
+    AI suggestions and order placement in one three-column UI and uses hot-swappable connectors to cut
+    the re-integration step; dry-run default and per-order approval let users check AI suggestions in
+    simulation before releasing live orders, which appeals to individual traders or small teams spanning
+    several markets who won''t hand execution fully to an AI. Motivation is inferred, not user-'

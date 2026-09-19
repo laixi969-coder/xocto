@@ -1,0 +1,83 @@
+- id: req-initial-second-eyes-2026-09-19
+  project_slug: second-eyes
+  level: initial
+  reviewed_at: '2026-09-19T00:21:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决拍摄后逐张选片的耗时问题，旧做法是人工打星或助理粗筛，痛点具体且高频；但筛选标准是否可靠尚未核验。
+    evidence_ids:
+    - ev-a6f187376c018c74
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品发布信息，没有用户评价、采用规模或社区讨论，无法判断摄影师是否真的把它放进工作流。
+    evidence_ids:
+    - ev-a6f187376c018c74
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按批收费还是订阅制不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-a6f187376c018c74
+  - gate: truth
+    status: insufficient
+    reason: 选片准确率、是否需人工复核、交付格式均无公开材料，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-a6f187376c018c74
+  next_validation: 收集 Second Eyes 官方定价页或公开客户案例，确认其按什么计价以及是否有摄影师实际采用。
+  market: ''
+  job: 摄影师或电商运营在一次拍摄后拿到数百张原片，需要在交付或发布前挑出可用照片并完成初筛。
+  job_en: After a shoot, a photographer or e-commerce operator has hundreds of raw images and must pick
+    the usable ones before delivery or publishing.
+  pain: 逐张翻看和标记耗时且枯燥，漏掉好片或选错片会直接影响交付质量和返工。
+  pain_en: Reviewing and flagging image by image is slow and tedious, and missing a good shot or picking
+    a bad one directly hurts delivery quality and causes rework.
+  current_alternative: 现在多靠人工在 Lightroom 或相册里逐张打星、建收藏夹，或让助理先粗筛一遍。
+  current_alternative_en: Today this is mostly manual star-rating and collection-building in Lightroom
+    or a photo library, or having an assistant do a first pass.
+  usage_reason: 推断：它把“逐张翻看”这一步换成先给出候选短名单，用户从看全部照片变成只确认少数几张，减少的是选片阶段的翻看时间；对单次产出量大的摄影师价值最直接。
+  usage_reason_en: 'Inference: it replaces the image-by-image review step with a candidate shortlist,
+    so users confirm a few shots instead of scanning everything, cutting time in the culling stage; the
+    value is clearest for photographers with large per-shoot output.'
+- id: req-full-second-eyes-2026-09-19
+  project_slug: second-eyes
+  level: full
+  reviewed_at: '2026-09-19T00:54:38Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决拍摄后逐张选片的耗时问题，但现有证据全部是“second”一词的词典释义与秒针条目，与选片任务无关，无法还原用户任务、痛点或旧替代方式。
+    evidence_ids:
+    - ev-db917c053e90a7a0
+    - ev-409f3e7c07d02108
+    - ev-f99a716567795f63
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Second Eyes 官网或产品页，确认其是否公开选片标准、交付格式与定价，并查找摄影师公开评价或客户案例。
+  market: ''
+  job: 摄影师或社媒运营在一次拍摄后拿到成百上千张原片，需要在交付或发布前挑出可用的照片并完成初筛。
+  job_en: After a shoot, a photographer or social media operator has hundreds of raw images and must pick
+    the usable ones before delivery or publishing.
+  pain: 公开材料未提供任何关于选片耗时、漏片或返工的用户陈述，痛点只能从任务结构推测，缺少可引用的公开事实支撑。
+  pain_en: Public materials contain no user statement about culling time, missed shots, or rework; the
+    pain can only be inferred from task structure, with no citable public fact.
+  current_alternative: 公开材料未记录摄影师当前如何选片，无法确认是人工打星、助理粗筛还是其他方式。
+  current_alternative_en: Public materials do not record how photographers currently cull images, so it
+    is unclear whether they star-rate manually, use an assistant, or something else.
+  usage_reason: 推断：若产品能给出候选短名单，用户可从翻看全部照片变为只确认少数几张；但筛选标准、准确率与交付形式均无公开材料，无法说明用户为何会选择它。
+  usage_reason_en: 'Inference: if the product returns a candidate shortlist, users confirm a few shots
+    instead of scanning everything; but selection criteria, accuracy, and delivery format are undisclosed,
+    so why users would choose it cannot be explained.'

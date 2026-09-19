@@ -78,3 +78,46 @@
   usage_reason: 用户要完成的任务是：渗透测试工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Penetration testers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-blitzstrike-2026-09-19
+  project_slug: blitzstrike
+  level: full
+  reviewed_at: '2026-09-19T00:51:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图帮助渗透测试工程师把侦察、攻击面测绘与实弹验证交给接入智能体的 MCP 服务；但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 渗透测试工程师在授权测试目标系统时，处理侦察数据、攻击面清单与源码/流量材料，借助接入智能体的 MCP 服务按结构化方法论调用工具目录并推进升级链，完成 source-to-sink 分析与实弹验证。
+  job_en: Penetration testers, when testing an authorized target, work with reconnaissance data, attack-surface
+    inventories and source/traffic material, using an agent-connected MCP service to call a tool catalog
+    along a structured methodology and advance escalation chains, completing source-to-sink analysis and
+    live validation.
+  pain: 公开材料只给出工具目录与升级链数量，未说明测试中具体卡在哪一步、不解决会造成什么后果或发生频率，痛点强度无法从现有事实判断。
+  pain_en: Public material only lists tool-catalog and escalation-chain counts; it does not show which
+    step of testing actually hurts, what happens if unsolved, or how often, so pain intensity cannot be
+    judged from available facts.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：若该 MCP 服务能把侦察、攻击面测绘与验证串成一条可复用流程，工程师可少在工具之间手工搬运结果；但仓库只有一句定位与收藏数，缺少文档、issue 或用户反馈说明谁在什么场景下因此选择它，故无法确认。
+  usage_reason_en: 'Inference: if the MCP service chains reconnaissance, attack-surface mapping and validation
+    into one reusable flow, engineers could spend less effort hand-carrying results between tools; but
+    the repo offers only a one-line positioning and star count, with no docs, issues or user feedback
+    showing who chooses it and when, so this cannot be confirmed.'

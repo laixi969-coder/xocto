@@ -79,3 +79,51 @@
   usage_reason_en: 'The task is: Short-video or advertising creators who see an AI-generated video they
     like and need to extract a reusable prompt so they can reproduce a similar style in their own generation
     workflow Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-video-prompt-reverse-2026-09-19
+  project_slug: video-prompt-reverse
+  level: full
+  reviewed_at: '2026-09-19T00:55:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是创作者看到满意AI视频却拿不到原始提示词、只能肉眼猜词反复试生成的需求，痛点在于复现风格这一步被卡住；公开事实仅有仓库说明与星标，旧替代与不采用后果属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-c1abbcde5dcdb778
+    - ev-168f643361dbde35
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从43升至45，说明开发者社区注意到该技能，但星标与收藏只属关注度，不能证明目标创作者已把它留在日常生成流程里持续使用。
+    evidence_ids:
+    - ev-c1abbcde5dcdb778
+    - ev-168f643361dbde35
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或分发方式，钱可能来自创作者个人订阅或工具方集成，这是判断而非已验证事实；开源仓库本身不构成收入路径。
+    evidence_ids:
+    - ev-c1abbcde5dcdb778
+  - gate: truth
+    status: insufficient
+    reason: 反推精度、支持哪些生成工具与视频类型、以及人工微调边界均无公开可复现证据，交付能否稳定发生尚未核验，但不足以否定已识别的任务需求。
+    evidence_ids:
+    - ev-168f643361dbde35
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的反推范围、实际使用反馈与是否出现定价或集成说明。
+  market: ''
+  job: 短视频或广告创作者在参考他人效果满意的AI生成视频时，把该视频素材交给 Codex 侧的该技能，反推出可再次输入生成工具的提示词文本，用于在自己的生成流程里复现相近风格。
+  job_en: Short-video or ad creators who see an AI-generated video whose look they want, feed that video
+    into this Codex-side skill to reverse-engineer a prompt they can re-enter into their own generation
+    tool and reproduce a similar style.
+  pain: 看到满意的AI视频却拿不到原始提示词，只能凭肉眼猜测镜头、风格、运动与光影描述，反复试生成消耗额度与时间；公开材料未给出频率与代价的量化数据，痛点强度属工作流结构推理。
+  pain_en: When a creator likes an AI video but cannot obtain its original prompt, they must guess camera,
+    style, motion and lighting wording by eye and re-generate repeatedly, burning credits and time; public
+    materials give no quantified frequency or cost, so pain intensity is a workflow-structure inference.
+  current_alternative: 当前替代是人工逐帧观察后手写提示词、在社区里求原作者分享提示词，或直接反复试生成逼近效果；公开材料未说明这些替代的具体使用比例。
+  current_alternative_en: Today users hand-write prompts after frame-by-frame observation, ask the original
+    creator to share the prompt in communities, or brute-force re-generate until the look is close; public
+    materials do not quantify how often each workaround is used.
+  usage_reason: 相较手写猜测或求人分享，该技能把视频直接作为输入、由 Codex 侧能力输出结构化提示词文本，省去逐帧拆解与从零措辞这一步；推断会吸引已在用 Codex 且需要复用他人AI视频风格的创作者，但公开材料尚无用户反馈证实这一选择动机。
+  usage_reason_en: Versus hand-guessing or asking for the prompt, the skill takes the video as input and
+    has Codex-side capability emit structured prompt text, removing the frame-by-frame breakdown and from-scratch
+    wording step; inference suggests it appeals to creators already using Codex who need to reuse another
+    AI video's style, though no public user feedback yet confirms this motive.

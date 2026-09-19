@@ -254,3 +254,45 @@
   usage_reason_en: 'Inference: if developers genuinely need a per-day review of prompts and commits, bough''s
     single local Go binary reading logs without uploading data removes the step of manually digging through
     session files; without user feedback or cases, it is unconfirmed which users would choose it for this.'
+- id: req-full-bough-2026-09-19
+  project_slug: bough
+  level: full
+  reviewed_at: '2026-09-19T00:51:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是把 Claude Code、Codex 会话日志与提交历史整理成按天工作视图这一任务，但公开证据只有产品自述功能，没有任何用户痛点、既有替代行为或不解决的后果，需求与痛点均无法从公开事实还原。
+    evidence_ids:
+    - ev-8dd9a4cf8161f8b8
+    - ev-10af2b81112f46f7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bough 官方仓库或官网的 README、issue 与 discussion，确认是否有开发者描述具体使用场景、替代的旧流程及实际使用反馈。
+  market: ''
+  job: 开发者在一天编码结束后，面对 Claude Code、Codex 留下的会话记录与提交历史，打开 bough 把这些原始日志整理成按天组织的工作视图，逐条列出提示词与已提交内容，得到一份可回看的当日工作记录。
+  job_en: After a day of coding, a developer takes the session logs and commit history left by Claude
+    Code and Codex, opens bough to organize those raw logs into a day-scoped work view listing each prompt
+    and what was committed, ending with a reviewable record of the day's work.
+  pain: 公开材料只给出产品自述的功能描述，没有任何用户反馈、抱怨或既有替代行为能说明不整理这些日志会带来什么具体代价、发生频率或后果，因此痛点无法从公开事实中还原。
+  pain_en: Public materials contain only the product's own feature description; no user feedback, complaint,
+    or existing workaround shows the concrete cost, frequency, or consequence of leaving these logs unorganized,
+    so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者目前如何回看 AI 编码会话与提交记录，也未说明 bough 实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently review AI coding sessions
+    and commits, nor what prior practice bough actually replaces.
+  usage_reason: 缺少用户反馈或客户案例，无法说明相较旧做法 bough 减少了哪一步负担或改善了哪项可核对结果；仅凭功能描述无法推断用户为何选择它。
+  usage_reason_en: With no user feedback or customer case, there is no basis to say which step bough removes
+    or which checkable result it improves versus the old approach; feature description alone cannot explain
+    why users would choose it.

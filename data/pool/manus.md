@@ -3,32 +3,36 @@ slug: manus
 name: Manus
 builder: droidjj
 category: 通用助手
-summary_zh: 个人或小团队在处理跨网页的多步骤任务时，把资料搜集、网页操作和结果整理交给 Manus 执行，用户拿到整理后的产出并自行复核。公开材料只说明它是执行任务的智能体，具体流程与交付形态仍待核验。
-inspiration: 通用智能体已被大厂收编，正面做通用入口的窗口基本关闭；机会在把这类执行能力绑到具体行业的旧流程上，例如法律合规的资料检索与归档，按产出而非席位收费，用行业数据与复核责任建立非模型壁垒。
-summary_en: Solo users and small teams hand cross-web, multi-step tasks to Manus, which gathers material,
-  operates web pages and collates results; the user reviews the output. Public material only describes
-  it as a task-executing agent, so the exact workflow and deliverable still need verification.
-inspiration_en: The generic agent entry point has been absorbed by a large platform, so competing head-on
-  there is largely closed. The opening is binding such execution to a specific industry's old workflow,
-  for example legal and compliance research and filing, charging per deliverable rather than per seat,
-  and building non-model moats through industry data and review accountability.
+summary_zh: 知识工作者在需要把调研、资料整理和成稿串成一条任务链时打开 Manus，把目标描述和素材交给它，由它自行拆解步骤、调用浏览器与工具执行多步操作，最终交付一份可用的文档或任务结果，关键结论仍需人工复核。具体流程与交付形态仍待核验。
+inspiration: 趋势：通用智能体开始被资本按独立产品而非功能模块定价，说明“替人跑完多步任务”被当成一门生意。切入：不要做又一个通用入口，而是把同样的多步执行能力压进一个旧流程极重的垂直场景，例如跨境卖家的选品调研或律所的证据梳理，按交付物而非席位收费。
+summary_en: Knowledge workers open Manus when research, material gathering and drafting need to be chained
+  into one task; they hand over a goal and source material, and it decomposes the steps, drives a browser
+  and tools to execute multi-step actions, and returns a usable document or task result that still needs
+  human review. The exact workflow and deliverable form remain to be verified.
+inspiration_en: 'Trend: general-purpose agents are now being priced by investors as standalone products
+  rather than feature modules, which treats ''running a multi-step task for someone'' as a business. Entry
+  point: rather than building another general entry point, compress the same multi-step execution into
+  a vertical workflow with heavy legacy labor, such as sourcing research for cross-border sellers or evidence
+  review for law firms, and charge per deliverable instead of per seat.'
 priority_review: false
 project_type: new_application
 industries:
-- 法律与合规
 - 专业服务
+- 软件与信息服务
 industries_en:
-- Legal and compliance
 - Professional services
+- Software and IT services
 jobs:
-- 个人或小团队运营者
-- 跨网页资料搜集与整理
+- 知识工作者
+- 运营与市场人员
 jobs_en:
-- Solo or small-team operators
-- Cross-web research and collation
+- Knowledge workers
+- Operations and marketing staff
 regions:
+- 中国
 - 全球
 regions_en:
+- China
 - Global
 open_source: false
 url: https://www.aicpb.com/product/Manus/webid1D6F371D9
@@ -36,7 +40,7 @@ canonical_url: https://aicpb.com/product/Manus/webid1D6F371D9
 summary: Find the best Manus Playbook and setups built by Manus community members.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-09-19T00:21:45Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

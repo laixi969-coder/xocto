@@ -1,0 +1,84 @@
+- id: req-initial-chatpin-2026-09-19
+  project_slug: chatpin
+  level: initial
+  reviewed_at: '2026-09-19T00:21:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型上线前聊天模板被篡改或漂移的问题，痛点具体、旧做法是人工比对，交付是校验结果与版本锁定。
+    evidence_ids:
+    - ev-9c046253e11005e6
+  - gate: consensus
+    status: insufficient
+    reason: 57 颗星属于关注度信号，未见 issue、讨论或团队采用记录，不能证明持续使用。
+    evidence_ids:
+    - ev-9c046253e11005e6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见付费路径，买方可能是自托管团队或合规部门，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9c046253e11005e6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对比对规则是否覆盖真实篡改手法，也未见误报与人工确认边界。
+    evidence_ids:
+    - ev-9c046253e11005e6
+  next_validation: 收集 chatpin 仓库的 issue 与 discussion，确认是否有团队在 CI 中实际接入并报告误报或漏报。
+  market: ''
+  job: 模型部署工程师在把 GGUF 或 safetensors 模型上线前，用模型仓库中的聊天模板作为材料，核对它是否与发布方原始版本一致并锁定版本。
+  job_en: Before shipping GGUF or safetensors models, deployment engineers use the chat template in the
+    model repository as material to verify it matches the publisher's original and pin the version.
+  pain: 聊天模板被改动会改变模型行为，且改动往往藏在条件逻辑里，人工比对容易漏掉，上线后才发现代价高。
+  pain_en: A modified chat template changes model behavior, and the change often hides in conditional
+    logic; manual comparison misses it easily and discovering it after launch is costly.
+  current_alternative: 目前多靠人工比对模板文本，或依赖发布方说明，缺少可重复的校验步骤。
+  current_alternative_en: Today this is mostly manual template text comparison or trusting the publisher's
+    notes, without a repeatable verification step.
+  usage_reason: 它把模板比对与版本锁定放进 CI，模板意外变化会在部署前直接失败，因此自托管模型团队在每次拉取新权重时可用它替代人工比对这一步。
+  usage_reason_en: It puts template comparison and version pinning into CI so unexpected template changes
+    fail before deployment, letting self-hosted model teams replace manual comparison each time they pull
+    new weights.
+- id: req-full-chatpin-2026-09-19
+  project_slug: chatpin
+  level: full
+  reviewed_at: '2026-09-19T00:51:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型上线前聊天模板被篡改或漂移的问题，痛点具体、旧做法是人工比对，交付是校验结果与版本锁定。
+    evidence_ids:
+    - ev-9c046253e11005e6
+  - gate: consensus
+    status: insufficient
+    reason: 57 颗星属于关注度信号，未见 issue、讨论或团队采用记录，不能证明持续使用。
+    evidence_ids:
+    - ev-9c046253e11005e6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见付费路径，买方可能是自托管团队或合规部门，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9c046253e11005e6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对比对规则是否覆盖真实篡改手法，也未见误报与人工确认边界。
+    evidence_ids:
+    - ev-9c046253e11005e6
+  next_validation: 收集 chatpin 仓库的 issue 与 discussion，确认是否有团队在 CI 中实际接入并报告误报或漏报。
+  market: ''
+  job: 模型部署工程师在把 GGUF 或 safetensors 模型上线前，用模型仓库中的聊天模板作为材料，核对它是否与发布方原始版本一致并锁定版本。
+  job_en: Before shipping GGUF or safetensors models, deployment engineers use the chat template in the
+    model repository as material to verify it matches the publisher's original and pin the version.
+  pain: 聊天模板被改动会改变模型行为，且改动往往藏在条件逻辑里，人工比对容易漏掉，上线后才发现代价高。
+  pain_en: A modified chat template changes model behavior, and the change often hides in conditional
+    logic; manual comparison misses it easily and discovering it after launch is costly.
+  current_alternative: 目前多靠人工比对模板文本，或依赖发布方说明，缺少可重复的校验步骤。
+  current_alternative_en: Today this is mostly manual template text comparison or trusting the publisher's
+    notes, without a repeatable verification step.
+  usage_reason: 它把模板比对与版本锁定放进 CI，模板意外变化会在部署前直接失败，因此自托管模型团队在每次拉取新权重时可用它替代人工比对这一步。
+  usage_reason_en: It puts template comparison and version pinning into CI so unexpected template changes
+    fail before deployment, letting self-hosted model teams replace manual comparison each time they pull
+    new weights.
