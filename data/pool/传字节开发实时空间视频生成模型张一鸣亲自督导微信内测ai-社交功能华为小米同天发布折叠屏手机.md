@@ -82,7 +82,7 @@ summary: "消息称字节正开发实时空间视频生成 AI 模型：张一鸣
   \ \n 他表示：「但看到一个通用型智能体能够自主探索游戏世界，并最终一路完成整个游戏，会让人感觉最初的愿景正在逐渐成为现实。」 \n CozyBlaze 所说的「最初愿景」，指的是 OpenAI 早在\
   \ 2016 年提出的一项长期目标。当时，OpenAI 曾设想，未来能够打造一个单一 AI 智能体，让它解决各种不同类型的游戏任务。（来源：IT 之家）"
 first_seen: '2026-09-08T00:34:54Z'
-last_seen: '2026-09-17T00:33:07Z'
+last_seen: '2026-09-19T00:21:52Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -96,6 +96,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tZ0dzSE9ZODZEMkJ4enM4Y1RPWXVRNUJqOERQMkxjelJ1TFRzY25tRFR2VVdvVDhUX0RmT1VGV2FQaFNDeGlwQU11R2Q1b1BfQlRMajRjelBvWk9tTFNydE1B?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiekFVX3lxTE40QlUxU3M5elVZY1RFanN4VnBJR2hHVXYtWENCMHlZdW5TWmU0SXJFQTFBZy14Rk9NaDNjYmh6OHVrcGVITFpPN0tFQnZPMHY5UURUTHl4dUc0LUtVS2xTZ2Z4T0gzaDdzVnJRcV9LcnNMVEdWcVdWN2N3?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

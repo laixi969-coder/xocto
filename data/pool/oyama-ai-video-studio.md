@@ -28,16 +28,16 @@ url: https://github.com/jamesk9526/Oyama-AI-Video-Studio
 canonical_url: https://github.com/jamesk9526/Oyama-AI-Video-Studio
 summary: ''
 first_seen: '2026-09-08T22:34:45Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jamesk9526/Oyama-AI-Video-Studio
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 42
+    stars: 43
     forks: 11
     open_issues: 1
   kind: product

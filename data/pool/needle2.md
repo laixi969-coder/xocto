@@ -11,21 +11,30 @@ inspiration_en: Sending “turn on the light” to the cloud is slow, expensive,
   is tiny commands finishing on-device. The entry is watches, home devices, and robots with almost no
   memory. The model is open-source; platform pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://cactuscompute.com/needle
 canonical_url: https://cactuscompute.com/needle
 summary: 14MB agentic LLM for phones, wearables, smart home and robots
 first_seen: '2026-08-10T17:22:07Z'
-last_seen: '2026-08-12T03:21:51Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: analyzed
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cactuscompute.com/needle
-  seen_at: '2026-08-12T03:21:51Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 509
-    comments: 171
+    points: 157
+    comments: 74
+  kind: product
 ---
 
 # Needle2

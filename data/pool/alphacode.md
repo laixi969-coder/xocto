@@ -32,16 +32,16 @@ canonical_url: https://github.com/dragonked2/alphacode
 summary: Possibly the greatest coding agent ever built. Blazing-fast terminal UI, multi-model orchestration,
   swarm coordination, and 40+ tools.
 first_seen: '2026-09-01T09:57:03Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dragonked2/alphacode
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 77
+    stars: 81
     forks: 5
     open_issues: 0
   kind: product

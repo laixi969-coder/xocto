@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNMURaMGhmNWt5Q2dDUkFqNF
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNMURaMGhmNWt5Q2dDUkFqNFd2dWJocmRQUkc2SS1WaV96bi0ySHJrTXhUQlI4cFdXa1ZYV0lzUWlFc2FHbG9nS183Q3B2VHNxcWVhUHBwNFR4T1VoTERYSV9fc1lzaHdFS2tEU09FallwcTBjSzgyYVhyd1ZETlkxS0szaGxTeV9FSjRodw?oc=5
 summary: 打造智能体互联底座！上海协同推进首套智能体互联国家标准（AIP）落地推广 Sohu
 first_seen: '2026-09-02T11:23:18Z'
-last_seen: '2026-09-03T00:16:50Z'
-status: market_context
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNMURaMGhmNWt5Q2dDUkFqNFd2dWJocmRQUkc2SS1WaV96bi0ySHJrTXhUQlI4cFdXa1ZYV0lzUWlFc2FHbG9nS183Q3B2VHNxcWVhUHBwNFR4T1VoTERYSV9fc1lzaHdFS2tEU09FallwcTBjSzgyYVhyd1ZETlkxS0szaGxTeV9FSjRodw?oc=5
   seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMicEFVX3lxTE50V29pRG9fQTVmMzlWUzNQWnJFNTV3UWw3cm9QTDJuUm0xdkxGY2NMeDFRbU5BQUh5Zkd4WDhmTDNYTjUyX1FvSTRWZUtlVVJjY1A2Q0FiQVd3dTVDSkwtbmUycHJyb3lxaDVTUUpEOVc?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

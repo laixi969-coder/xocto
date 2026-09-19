@@ -33,14 +33,19 @@ url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jOGdRcEFrMmUwS3lXQnppdT
 canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jOGdRcEFrMmUwS3lXQnppdTVpek94QTgzYnFVSWthbGpmMkY3U2p2UllBTEpEa2NOQzZqNW5RTUVYNVJ5dHRad2ZpMnI?oc=5
 summary: 卷不动了？正火体育式竞争下，AI销售团队如何突围？——百度商家智能体升级给出新答案-体坛网_体坛+ 体坛加
 first_seen: '2026-09-07T19:42:50Z'
-last_seen: '2026-09-08T00:25:57Z'
-status: queued
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jOGdRcEFrMmUwS3lXQnppdTVpek94QTgzYnFVSWthbGpmMkY3U2p2UllBTEpEa2NOQzZqNW5RTUVYNVJ5dHRad2ZpMnI?oc=5
   seen_at: '2026-09-08T00:25:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TNGtub0lIMDVNeDNIM3lQNkFTT0ZwTzk5SngxbGtLMHhJZ21tYU4xaXhCck83cUlKRDUzRVY4eG1BYlNLUm9wWmFxcmlMeEpNYTBQYk9VeGkwNW1BYmZjeA?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

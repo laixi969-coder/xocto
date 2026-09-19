@@ -30,14 +30,19 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSEdmNk91Yi14QlppUDBQUC
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSEdmNk91Yi14QlppUDBQUC1SWUNvNWhkZE1ZWEI1R1QxMDFNZ1p3cU5YRVVmNXI3Q3pyeHR3blJaNnZCamo4OW9aOGRaTUNRU0lXcERiSURTdXZKNE54WGg0THA3UGRGQmxIR21RVUVxR2huREl5TzZYb3l5SXJUdzJjUlotUFBM?oc=5
 summary: 把散落的AI连接起来，WorkBuddy正在做一件更大的事 Sohu
 first_seen: '2026-09-04T06:29:54Z'
-last_seen: '2026-09-04T14:24:01Z'
-status: watching
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSEdmNk91Yi14QlppUDBQUC1SWUNvNWhkZE1ZWEI1R1QxMDFNZ1p3cU5YRVVmNXI3Q3pyeHR3blJaNnZCamo4OW9aOGRaTUNRU0lXcERiSURTdXZKNE54WGg0THA3UGRGQmxIR21RVUVxR2huREl5TzZYb3l5SXJUdzJjUlotUFBM?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xSzB5eU1ydTlwZG1JTGZ2NWhpb1NKSU1mM1VMOThTNFlzRkVfZk1ZR1pKd0ZFWExnc1p6eTlvREx1NFV3aGZreER3Zi1BQQ?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

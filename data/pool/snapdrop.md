@@ -20,17 +20,17 @@ url: https://snapdrop.me
 canonical_url: https://snapdrop.me
 summary: Instantly share files between devices. No setup, no signup
 first_seen: '2026-09-17T20:48:04Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://snapdrop.me
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 13
-    comments: 10
+    points: 95
+    comments: 45
   kind: product
 ---
 

@@ -30,7 +30,7 @@ url: https://www.producthunt.com/products/lexi-5
 canonical_url: https://producthunt.com/products/lexi-5
 summary: The operating system for legal work
 first_seen: '2026-08-10T18:11:41Z'
-last_seen: '2026-09-07T15:53:16Z'
+last_seen: '2026-09-19T00:21:44Z'
 status: pending_filter
 sources:
 - producthunt
@@ -56,6 +56,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/07/flex-it-and-t1a-combine-to-create-eur150m-european-circular-it-platform/
   seen_at: '2026-09-07T15:53:16Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/spend-management-enterprise-flex
+  seen_at: '2026-09-19T00:21:44Z'
   metrics: {}
   kind: news
 ---

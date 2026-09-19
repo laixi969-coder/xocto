@@ -26,16 +26,16 @@ url: https://www.xmaxai.com
 canonical_url: https://xmaxai.com
 summary: Native Android SDK for real-time interactive video generation with Xmax AI
 first_seen: '2026-08-30T08:30:20Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.xmaxai.com
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 40
+    stars: 42
     forks: 0
     open_issues: 0
   kind: product

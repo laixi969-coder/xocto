@@ -36,17 +36,17 @@ url: https://www.aclif.ai/
 canonical_url: https://aclif.ai
 summary: 'Agent CLI framework: one grammar, canonical names across SaaS'
 first_seen: '2026-09-17T16:48:17Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.aclif.ai/
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 29
-    comments: 16
+    points: 32
+    comments: 17
   kind: product
 ---
 

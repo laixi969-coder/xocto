@@ -30,17 +30,17 @@ canonical_url: https://github.com/a1exsun/dsh-council
 summary: 'Multi-model council for DeepSeek Harness: independent answers, anonymous peer reviews, and an
   inspectable final decision.'
 first_seen: '2026-08-30T10:42:19Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/a1exsun/dsh-council
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 133
-    forks: 12
+    stars: 146
+    forks: 13
     open_issues: 0
   kind: product
 ---

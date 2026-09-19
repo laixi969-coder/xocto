@@ -39,16 +39,16 @@ canonical_url: https://pi.xiaomovps.com
 summary: Pi Coding Agent 中文学习蓝皮书：从安装与第一个可验收任务开始，逐步掌握 Session、Context、Skill、Extension、Subagent 与长期 Agent
   工作流。
 first_seen: '2026-09-08T12:59:19Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://pi.xiaomovps.com
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 264
+    stars: 268
     forks: 18
     open_issues: 0
   kind: product

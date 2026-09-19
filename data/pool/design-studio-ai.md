@@ -31,24 +31,32 @@ canonical_url: https://studio.agentkit.best
 summary: Open-source design workspace for AI agents and humans. Cloud editing, 3D, motion, MCP, WebMCP,
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
-last_seen: '2026-09-18T00:20:10Z'
-status: watching
+last_seen: '2026-09-19T00:21:19Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
+- hackernews
 sightings:
 - source: github
   url: https://studio.agentkit.best
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 179
-    forks: 56
+    stars: 189
+    forks: 58
     open_issues: 12
   kind: product
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/
   seen_at: '2026-09-18T00:20:10Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://arxiv.org/abs/2609.20804
+  seen_at: '2026-09-19T00:21:15Z'
+  metrics:
+    points: 201
+    comments: 57
   kind: news
 ---
 

@@ -22,8 +22,8 @@ url: https://www.aicpb.com/product/Hostinger/webid1D6F377C9
 canonical_url: https://aicpb.com/product/Hostinger/webid1D6F377C9
 summary: Getting started with Grafana VPS template
 first_seen: '2026-08-17T22:41:21Z'
-last_seen: '2026-09-13T00:02:40Z'
-status: rejected
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - aicpb
 - newssearch
@@ -59,6 +59,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiakFVX3lxTE5xb0xhRERTUG1KRV9CeHdVbkhzbnNuSTBPT283eUFpME1ZZlhOLU5RVUNmbm8tWUJKdU51ZjJnYlN3ejZXbF9SRVJyWTJKTklHcTJqMkhJQk41MVl5WU9xM24tU0dWeUdNNHc?oc=5
   seen_at: '2026-09-13T00:02:40Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNbERhY0ZTZ04yWEhWS0lpQXlrTk9wNkpFbHdhWXdfOEtsZFNtQjN6S3o2dVJZSDFLYkFtSEJObWNVVS1zQ1N3MW9FajZWRnh2bDRpQkNoZjVmcUY4X29rNEU2R05KbENBTDNITTZQNk15WERWd3gtM3JWUDZmMTVQVzdidVNfRUlJcFE?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

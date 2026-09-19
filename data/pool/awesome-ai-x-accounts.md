@@ -21,18 +21,18 @@ canonical_url: https://github.com/everclear077/awesome-ai-x-accounts
 summary: A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original
   profile bios and follower counts. Available in 7 languages.
 first_seen: '2026-09-13T08:57:52Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/everclear077/awesome-ai-x-accounts
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 50
+    stars: 57
     forks: 0
-    open_issues: 5
+    open_issues: 6
   kind: product
 ---
 

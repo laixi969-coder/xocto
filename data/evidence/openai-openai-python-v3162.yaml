@@ -1,0 +1,17 @@
+- id: ev-043b2e6617dde589
+  project_slug: openai-openai-python-v3162
+  url: https://github.com/openai/openai-python/releases/tag/v3.16.2
+  title: 'openai/openai-python: v3.16.2'
+  published_at: '2026-09-18T21:26:27Z'
+  collected_at: '2026-09-19T00:21:19Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.16.2](https://github.com/openai/openai-python/compare/v3.16.1...v3.16.2) (2026-09-18)
+
+
+
+    ### Bug Fixes
+
+
+    * **parsing:** drop TextFormatT parameterization in parse_response to fix memory leak ([#3084](https://github.com/openai/openai-python/issues/3084))
+    ([#3088](https://github.com/openai/openai-python/issues/3088)) ([009b7f6](https://github.com/openai/openai-python/commit/009b7f6ae6493e1abfa7583449595f144c8beb5a))'

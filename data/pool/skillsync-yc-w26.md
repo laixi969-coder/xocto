@@ -33,17 +33,17 @@ url: https://news.ycombinator.com/item?id=49743049
 canonical_url: https://news.ycombinator.com/item?id=49743049
 summary: AI chat sessions made portable across agents
 first_seen: '2026-09-17T16:22:15Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49743049
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 42
-    comments: 46
+    points: 62
+    comments: 53
   kind: product
 ---
 

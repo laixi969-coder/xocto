@@ -34,17 +34,17 @@ canonical_url: https://github.com/Da7-Tech/SureForge
 summary: 'Agent Skill for complex work: research before asking, ask before planning, plan before building,
   verify before delivering, independent review before calling it done. Plain text, no runtime.'
 first_seen: '2026-09-09T12:59:04Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Da7-Tech/SureForge
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 108
-    forks: 12
+    stars: 110
+    forks: 13
     open_issues: 2
   kind: product
 ---

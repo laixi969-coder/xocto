@@ -33,16 +33,16 @@ canonical_url: https://github.com/lotchuazzz-crypto/papergraph-mcp
 summary: Turn arXiv and LaTeX mathematical papers into theorem dependency graphs for AI agents through
   MCP.
 first_seen: '2026-09-02T05:59:46Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lotchuazzz-crypto/papergraph-mcp
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 199
+    stars: 217
     forks: 2
     open_issues: 1
   kind: product

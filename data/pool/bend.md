@@ -34,17 +34,17 @@ url: https://bend-lang.com/
 canonical_url: https://bend-lang.com
 summary: A language that blocks AI mistakes via proof, on CPU and GPU
 first_seen: '2026-09-17T20:36:13Z'
-last_seen: '2026-09-18T00:19:45Z'
-status: watching
+last_seen: '2026-09-19T00:21:15Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://bend-lang.com/
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 235
-    comments: 126
+    points: 589
+    comments: 302
   kind: news
 ---
 

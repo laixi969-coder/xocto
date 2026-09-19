@@ -34,7 +34,7 @@ url: https://www.producthunt.com/products/mcpjam-inspector
 canonical_url: https://producthunt.com/products/mcpjam-inspector
 summary: The testing & evaluations platform for MCP servers
 first_seen: '2026-09-17T06:17:38Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: watching
 sources:
 - producthunt
@@ -47,10 +47,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://www.mcpjam.com
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 9
-    comments: 4
+    points: 11
+    comments: 6
   kind: product
 ---
 

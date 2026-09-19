@@ -35,14 +35,19 @@ canonical_url: https://news.google.com/rss/articles/CBMiowJBVV95cUxOV0t0T3lQa1dU
 summary: Bazaarvoice and Bluefish team up as new research shows 9 in 10 shoppers want real reviews behind
   AI product recommendations The Manila Times
 first_seen: '2026-09-17T13:09:44Z'
-last_seen: '2026-09-18T00:20:29Z'
-status: watching
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiowJBVV95cUxOV0t0T3lQa1dUYmo2Qmh5UkZPM2FudjVLZ0IwdTNJQ2JhUEgwUFQ1dHNMM3U3UFUzNWM4WXNyczJOWXZwaWxMcHNZM0xCblBsa2NhVk9IanVERjh0dlVxak1IQWVxRThfN1huU0NqMy1vdGo0eFZiSWJMWmpsR2ZrODNIX29HNWhtRkhwTzdzbE50YlpKaHAxVmpyR1VXUjBJbWU3TEVmUGx2MGN3Tl8zbUkwb0hfeGFIREdZNkhTUUhHZW41MVBTZi1JZHNKbC05aktlTjN6X2g0eVQxc2NVV2t3Z1pabHVPTmxvNmFRUFVySlA4US1GUk1pSXZJSFBZS0ZxYk9vdV9VTGpPcDdLZWo4ZzVtTG8yaV9PMWQ1cm5nTVXSAagCQVVfeXFMT3A4VWVmblNHSU9naURoblFhY1pYVXYyMDRKdUJ4SjViZWk2UHBNNTR6ODdkSXFqNG1NVGVLYUl6czJueGhHZ0ZmazdHRWhSR1BGM3FtbUtuaUlmTDcydGg5SzliQTNTcFlKWmpVSG9PY2oydnhCYXZNSV9FUjA3ZzNDUzByQUV2ZkQ0eTF2Y2VwVzhSRUxTbktlTTVKYkQ5OUhCSGxzS25HeUg4My1kWmtvazJxYnlST1ZWN0RXOG5FQlVidHg5N2VTQktiUE00OG5TTlRCczFRUjdjbFVYX0dyeVp5OUt2dXMzVmJLYksweDFFN0VFQUZqR0pGUnJSek1PTGRwTkN3MjR6N0ZXYmFRUTZfLUZHeTNSdnlVLTktVGdRaldicEw?oc=5
   seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinwFBVV95cUxObjFWSUVxTXNyUFVtcHRSTUstMDFENENCdFJ1d3RLb011WVlkZUtrYk84T1FKMzV2M29KQVlIeDNIQmhvVF9RQ3VXS2lKcmtCaFNVOW9QSjAtV2pHOWF3cGYzNHdhTWtuVndLR3I4WHRGNXIwLTVudHgtTk5SMjhHendpN2JpQU1SN3d6czRXenFzTUZ5d3VPWGpZU09ycjQ?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

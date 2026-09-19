@@ -20,17 +20,17 @@ url: https://github.com/lovablelabs/oj
 canonical_url: https://github.com/lovablelabs/oj
 summary: A drop-in replacement for Vite in Rust
 first_seen: '2026-09-17T21:21:01Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/lovablelabs/oj
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 7
-    comments: 0
+    points: 17
+    comments: 1
   kind: product
 ---
 

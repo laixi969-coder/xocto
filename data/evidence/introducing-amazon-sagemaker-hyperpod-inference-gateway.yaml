@@ -1,0 +1,11 @@
+- id: ev-c555360574cf58ff
+  project_slug: introducing-amazon-sagemaker-hyperpod-inference-gateway
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/
+  title: Introducing Amazon SageMaker HyperPod Inference Gateway
+  published_at: '2026-09-18T13:08:34Z'
+  collected_at: '2026-09-19T00:21:44Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for
+    Amazon EKS. It uses real-time GPU signals to send each inference request to the best-suited pod, cutting
+    first-token latency by up to 82% with no changes to your model servers or client applications.

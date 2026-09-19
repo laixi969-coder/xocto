@@ -28,17 +28,17 @@ url: https://mysetup.ai/
 canonical_url: https://mysetup.ai
 summary: Share your AI Setup, Learn from others
 first_seen: '2026-09-17T13:01:44Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mysetup.ai/
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 172
-    comments: 88
+    points: 231
+    comments: 134
   kind: product
 ---
 

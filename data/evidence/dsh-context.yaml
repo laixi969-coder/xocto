@@ -1894,3 +1894,45 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-392cbca467263a1a
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/shopware-mcp
+  title: shopware-mcp
+  published_at: '2026-09-03T17:33:14Z'
+  collected_at: '2026-09-19T00:21:19Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'MCP server for Shopware 6. Products, orders, customers, stock, documents, a one-call health audit
+    and sales reports for CODEX, Claude Desktop, Cursor and any MCP host. Read-only by default, guarded
+    writes with dry runs. | repository stars: 44'
+- id: ev-6d4c4fa69db819fa
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-token-pet
+  title: dsh-token-pet
+  published_at: '2026-09-01T04:06:22Z'
+  collected_at: '2026-09-19T00:21:19Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Bilingual floating DeepSeek Harness pet with live context, lifetime token ledger, trends, opt-in
+    completion sound, and editable Prompt Optimizer enhancement. | repository stars: 55'
+- id: ev-ef3e7ca3e95838dd
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/deepseekharness-acp-interactive
+  title: dsh-acp-interactive
+  published_at: '2026-09-02T06:25:26Z'
+  collected_at: '2026-09-19T00:21:19Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Editor-facing ACP server for Zed and other ACP clients, composed from published DeepSeek Harness
+    plugins. Community-maintained; not affiliated with DeepSeek. | repository stars: 77'
+- id: ev-38e87fcd5e0791ed
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/aside-codemode
+  title: aside-codemode
+  published_at: '2026-09-13T09:08:26Z'
+  collected_at: '2026-09-19T00:21:19Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'One call where Aside used to spend fifty — rg-backed search, Aside-shaped file tools, and batched
+    browser work inside a single sandboxed JavaScript block. On a real folder, 55s of find+grep became
+    1s. | repository stars: 114'

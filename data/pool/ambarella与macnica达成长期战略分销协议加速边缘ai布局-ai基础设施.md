@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMickFVX3lxTE9tNTQxT2N1QXJrcFVPVFlmOG
 canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE9tNTQxT2N1QXJrcFVPVFlmOG13dzRxV0tPdEN1YWxnbzVlTUR1QmgwSU9lRzZhQ256dVd3VUlFSWxUNUQtRDRnekxqWm1VQXk4X1duc3NGd1FyWGVOdDFTbmZ1MEZGbnFqTXZhMDl1YlRsUQ?oc=5
 summary: Ambarella与Macnica达成长期战略分销协议，加速边缘AI布局-AI基础设施 至顶网
 first_seen: '2026-09-04T15:04:17Z'
-last_seen: '2026-09-05T00:07:08Z'
-status: market_context
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMickFVX3lxTE9tNTQxT2N1QXJrcFVPVFlmOG13dzRxV0tPdEN1YWxnbzVlTUR1QmgwSU9lRzZhQ256dVd3VUlFSWxUNUQtRDRnekxqWm1VQXk4X1duc3NGd1FyWGVOdDFTbmZ1MEZGbnFqTXZhMDl1YlRsUQ?oc=5
   seen_at: '2026-09-05T00:07:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tTVdpQktYTXU3UHljSVFLaXlXTlVQbTNXSjZERldWN1Fkbm5Iblg5LW1EblNXVEF0OGZOak5DeTBhbmFrcEQ0dDZpRHFhWTEzaU9MdVQtVE5CdXlnRUhlV2VB?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

@@ -20,8 +20,8 @@ url: https://huggingface.co/spaces/ryansael/airace
 canonical_url: https://huggingface.co/spaces/ryansael/airace
 summary: Live 3D race of AI labs, updated every 6 hours
 first_seen: '2026-09-14T14:25:21Z'
-last_seen: '2026-09-18T00:20:29Z'
-status: rejected
+last_seen: '2026-09-19T00:21:45Z'
+status: pending_filter
 sources:
 - huggingface
 - marketfeeds
@@ -41,6 +41,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQODQ3OFVJTzdfSmVaRUhlNnhUSlRDTlUwdkZ1S0NyOTQ1cHJ3UVduX3hLVS1VVXZmN2VIc1VJLUEtN05IenNwLXluR1ZDaU92TV9DYmZ4ZjdzRWw1YXZLay1BRU9INVdMQVUzclNYU2F1bW4waWx0TlVKZV91M3h3eWc4NmVzaUZ0WHdsb2xrQ0k1emZud25jWkxqQ0dPM29KLWJzbg?oc=5
   seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/denis-shilov-white-circle-ai-safety/
+  seen_at: '2026-09-19T00:21:45Z'
   metrics: {}
   kind: news
 ---

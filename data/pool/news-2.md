@@ -20,8 +20,8 @@ url: https://news.social-protocols.org/penalties
 canonical_url: https://news.social-protocols.org/penalties
 summary: Most Penalized HN Stories
 first_seen: '2026-09-13T00:36:00Z'
-last_seen: '2026-09-18T00:20:29Z'
-status: rejected
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -114,6 +114,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5wRFkxcUFqR2dxNWdZSmhQQ3Y2eEpiZTg0a3d6UmxJSmxoNmQyN0VKUE1zMTItNWt6RDV2X0FVSzREMGRVaG1FMkhkTUNQclRqb3o5dHZ2X1ZLOE1tU19vbWpfak5EV3czN0F1RVhIZFdjZTBHVi0yYUhhNXo?oc=5
   seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9TeDYzWWx6dFc5bUZncmJ5cDdPTmRnYi1IcjFWeGRBc1dqMU1WWndVbTFXZ2szR0lzZ0xBN3NRTHV2NHRjTjJVQlgwUmt0ZHV1cWJaTGZCdkpmOFNLUVBEdGlzSnA3T1FST25FcWRyTmlQdHExMDNPTg?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmlBOGF2YlY3cWZ0dXBrNWU2WV8yMGtJVjFCRUx2eUs3b0NNTzBsenpyOEloaVppUlpMOGxOMWtRX3BJYkcxbV9mZ1d5VzZLMmMzM1RNcXUycnRRTGpKV21FT3dJVkpuYTdQeEdJbzgwdUpJcV9kMEVwbkN3VDZKUVV1RlNEVVI5ZGN4eA?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMUTRPbVNsdndiZ0RoOFlyc0RneWNBRzI5MElyS1ZvcktrUDJCbXIzOE9tQW13WG1obW03NjBESG54RUg2U1pQd0hPUFB0M3hwMEhLcmRIQzBMUjR2VjFMbXRpUUF6QQ?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrb1ZCNU9WMGJUTXVhUlNzOEZiZWZkN096RkpONE9BR2RzTTM5WmdFNHJPczBiRG00Uy1MNlQ1VXNwZ3IzamFySHVqTTlydUJYOHc?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ZWmpPZlJ1WjZBeWNYRmh0MmlxOEQwQzhoRHY4bV9PZUxRLVRVNlhHUmZVM3k4aU92RXlJdzRxS3R5bUdoZ3haMjU4dW1aT29BM3lIbG5FVUlwdGZaRnc?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

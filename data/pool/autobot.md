@@ -30,16 +30,16 @@ url: https://github.com/demeyer1/Autobot
 canonical_url: https://github.com/demeyer1/Autobot
 summary: live voice control for long-running AI work
 first_seen: '2026-09-17T16:54:57Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/demeyer1/Autobot
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 16
+    points: 18
     comments: 3
   kind: product
 ---

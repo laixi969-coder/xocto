@@ -30,18 +30,18 @@ url: https://reslop.it
 canonical_url: https://reslop.it
 summary: 👁️ Review AI generated code and plan changes
 first_seen: '2026-09-06T21:28:21Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://reslop.it
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 104
-    forks: 5
-    open_issues: 5
+    stars: 105
+    forks: 6
+    open_issues: 6
   kind: product
 ---
 

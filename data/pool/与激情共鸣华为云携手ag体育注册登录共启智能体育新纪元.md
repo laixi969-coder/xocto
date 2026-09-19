@@ -20,14 +20,34 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UVVBGQ1VlUDZfOU02NVhhT0
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UVVBGQ1VlUDZfOU02NVhhT0VfZGRTMnNJckVJZ1hXb3FOZjNQbUNzdzQtaHBndmwxTkc1cDNxVklJTTFkMllHMThyOGdoMlEyMGNsZHRMSHVMR3M5WWlsVQ?oc=5
 summary: 与激情共鸣，华为云携手AG体育注册登录，共启智能体育新纪元 体坛
 first_seen: '2026-09-05T07:13:01Z'
-last_seen: '2026-09-05T23:54:29Z'
-status: market_context
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UVVBGQ1VlUDZfOU02NVhhT0VfZGRTMnNJckVJZ1hXb3FOZjNQbUNzdzQtaHBndmwxTkc1cDNxVklJTTFkMllHMThyOGdoMlEyMGNsZHRMSHVMR3M5WWlsVQ?oc=5
   seen_at: '2026-09-05T23:54:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9hSFp0cFNiUnY2Wkxoc21hX1lmcWc1bEctM3cybDZZeS1DMmRvMGV6ZkFuZjZuV0J6MWtwUHlsLXRUa1Zfckx5MU9FSnFMcU92UUJaYXE3dmNSUVlpMmc?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMic0FVX3lxTE9DNGFOU19uOXhCd1BFRHB4blRiT1E5cXlIMmNOd3BEV2hRVHNWcmdDY2Z6aTZuYUtKbFpRYzJaeFhTcWNqV3dmVUgyTG5nWEdzUHFWTm5pZGJDVHVvN2YtVzROdGpPZWFrb0lPNTFfcXlGT1k?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMib0FVX3lxTE1zbmVIQXVWbS1mMjEzNGxteWFoeURFZ0NMckpSVHU3QkFrMkF3dG8wbUZxV2s1YmxPQVIyU3BFMXJ0eElWRXAzclk2REpvWm14WGQtNGhGc2VQcEtMZ2x2VVNia3pwRGFvbzNEQl95NA?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XWUl2aWN0RGdLVTZZbUtHYVJyVE9FcjRyaHh5am00NjdKY0F6Q2xPMXlmSC1NYlFZUXNsOGoxc3pUVDJpMEpNUHZUaFMxdjRTejBvVzNpbm1OQQ?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

@@ -21,17 +21,17 @@ canonical_url: https://github.com/cv-superding/dsh-deepseek-web-login
 summary: 'Unofficial DSH (DeepSeek Harness) plugin: use chat.deepseek.com web models as an LLM provider
   - browser-login capture, PoW solving, SSE streaming, prompting-based tool calls.'
 first_seen: '2026-09-10T13:10:31Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cv-superding/dsh-deepseek-web-login
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 73
-    forks: 11
+    stars: 85
+    forks: 16
     open_issues: 6
   kind: product
 ---

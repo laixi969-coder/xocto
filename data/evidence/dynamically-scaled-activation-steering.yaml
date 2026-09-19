@@ -1,0 +1,14 @@
+- id: ev-17b579b5bbae8f1a
+  project_slug: dynamically-scaled-activation-steering
+  url: https://machinelearning.apple.com/research/dynamically-scaled-activation-steering
+  title: Dynamically Scaled Activation Steering
+  published_at: '2026-09-18T00:00:00Z'
+  collected_at: '2026-09-19T00:21:44Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Activation steering has emerged as a powerful method for guiding the behavior of generative models
+    towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions
+    uniformly across all inputs, degrading model performance when steering is unnecessary. We introduce
+    Dynamically Scaled Activation Steering (DSAS), a method-agnostic steering framework that decouples
+    when to steer from how to steer. DSAS adaptively modulates the strength of existing steering transformations
+    across layers and inputs, intervening strongly only when undesired behavior is detected…

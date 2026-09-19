@@ -33,10 +33,11 @@ url: https://www.learnfrom.co/
 canonical_url: https://learnfrom.co
 summary: I built a SaaS without knowing how to code – am I an idiot?
 first_seen: '2026-08-25T14:55:10Z'
-last_seen: '2026-08-25T22:45:07Z'
-status: watching
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://www.learnfrom.co/
@@ -44,6 +45,12 @@ sightings:
   metrics:
     points: 5
     comments: 6
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGWUQyUHlGdjNKSE9FT1ZHWUc5UmhRZ2hLVUJIM1V6LUFIcHRoWnRyNU9oeDd6Wkx4RDJ0WnpoeWoyUDBjZGFNdjByT0RGQTBDWGtBR1hsVnBfbERoRUhjbXVWTVI?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
 ---
 
 # learnfrom

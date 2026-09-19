@@ -32,18 +32,18 @@ url: https://github.com/originoneai/agent-work-runtime
 canonical_url: https://github.com/originoneai/agent-work-runtime
 summary: Persistent work state and minimal context for long-running AI agents.
 first_seen: '2026-09-07T16:09:21Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-19T00:21:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/originoneai/agent-work-runtime
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-19T00:21:19Z'
   metrics:
-    stars: 129
+    stars: 130
     forks: 18
-    open_issues: 4
+    open_issues: 2
   kind: product
 ---
 

@@ -33,16 +33,16 @@ url: https://flat.social
 canonical_url: https://flat.social
 summary: I built a new version of my fun spatial 3D online meeting app
 first_seen: '2026-09-17T12:57:09Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-09-19T00:21:15Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://flat.social
-  seen_at: '2026-09-18T00:19:45Z'
+  seen_at: '2026-09-19T00:21:15Z'
   metrics:
-    points: 92
+    points: 97
     comments: 52
   kind: product
 ---

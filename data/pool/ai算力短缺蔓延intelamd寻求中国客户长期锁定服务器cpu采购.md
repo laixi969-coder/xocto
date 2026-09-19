@@ -1,7 +1,7 @@
 ---
 slug: ai算力短缺蔓延intelamd寻求中国客户长期锁定服务器cpu采购
 name: Intel
-builder: ''
+builder: realsarm
 category: ''
 summary_zh: 2026年9月13日报道显示，AI算力短缺已从加速器蔓延至服务器CPU，Intel与AMD正寻求中国客户以长期协议锁定服务器CPU采购。这一结构性变化意味着算力供给紧张正在向通用计算环节扩散，AI应用方将面临更长的采购周期与更高的硬件成本，服务器CPU的长期合约化也可能改变议价格局与交付节奏。
 inspiration: ''
@@ -24,11 +24,12 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWT
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWTlCZGdIRjZSeFVqV1Q3MWs3TzFuMENONGJJVFdNMGhscEVET1llOWphZ3dSY3NicGxTU1lnaUhlZDIwaS0xcFg1VUo2elBaLWhTNHFBTFpaZkdzc0ZjUmY?oc=5
 summary: AI算力短缺蔓延：Intel、AMD寻求中国客户长期锁定服务器CPU采购 新浪网
 first_seen: '2026-09-13T15:30:58Z'
-last_seen: '2026-09-18T00:20:10Z'
-status: market_context
+last_seen: '2026-09-19T00:21:52Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWTlCZGdIRjZSeFVqV1Q3MWs3TzFuMENONGJJVFdNMGhscEVET1llOWphZ3dSY3NicGxTU1lnaUhlZDIwaS0xcFg1VUo2elBaLWhTNHFBTFpaZkdzc0ZjUmY?oc=5
@@ -48,6 +49,18 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/17/kuva-space-takes-on-illicit-crop-monitoring-with-hyperspectral-satellites-and-ai/
   seen_at: '2026-09-18T00:20:10Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship
+  seen_at: '2026-09-19T00:21:15Z'
+  metrics:
+    points: 374
+    comments: 292
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNR21qekJ3eDg2WVBEZlVCUU9vZGp2UEZtV3FYRDhOZ1NtQ2x1MlZZa2lpMk1kb1ZQM2JtbnZjYUw5X3RTaGJXaDNEU1ZuNzU3VzNNWWpRYWgxa2RhNmhhak1uZVRFOXY2a3I5UGEwNVdJenkzRFNmLWhmYzVVdWpvR1lodVFsR0M5VE85Sjl6WQ?oc=5
+  seen_at: '2026-09-19T00:21:52Z'
   metrics: {}
   kind: news
 ---

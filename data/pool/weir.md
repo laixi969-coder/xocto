@@ -29,10 +29,11 @@ url: https://github.com/IdoGol24/weir
 canonical_url: https://github.com/IdoGol24/weir
 summary: Open tool for testing your AI Agents (No LLM)
 first_seen: '2026-08-28T16:31:56Z'
-last_seen: '2026-08-29T15:06:03Z'
-status: queued
+last_seen: '2026-09-19T00:21:45Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://github.com/IdoGol24/weir
@@ -41,6 +42,11 @@ sightings:
     points: 5
     comments: 4
   kind: product
+- source: marketfeeds
+  url: https://sifted.eu/articles/inside-londons-weirdest-neolab/
+  seen_at: '2026-09-19T00:21:45Z'
+  metrics: {}
+  kind: news
 ---
 
 # weir
