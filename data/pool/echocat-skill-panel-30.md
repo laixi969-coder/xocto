@@ -30,17 +30,17 @@ url: https://github.com/VDERR/echocat-skill-panel-3.0
 canonical_url: https://github.com/VDERR/echocat-skill-panel-3.0
 summary: DSH 技能调用审计 + 应用内 skill 管理器
 first_seen: '2026-09-18T00:02:34Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/VDERR/echocat-skill-panel-3.0
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 103
-    forks: 3
+    stars: 201
+    forks: 6
     open_issues: 0
   kind: product
 ---

@@ -37,7 +37,7 @@ canonical_url: https://github.com/shadcn-ui/lint
 summary: An agent-first linter for Tailwind design systems. Write design system rules that agents can
   verify.
 first_seen: '2026-09-02T11:51:38Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
@@ -45,10 +45,10 @@ sources:
 sightings:
 - source: github
   url: https://github.com/shadcn-ui/lint
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 2136
-    forks: 37
+    stars: 2174
+    forks: 38
     open_issues: 14
   kind: product
 - source: marketfeeds

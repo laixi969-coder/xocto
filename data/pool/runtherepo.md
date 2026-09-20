@@ -32,17 +32,17 @@ canonical_url: https://github.com/Taiquan-Zhou/RunTheRepo
 summary: An AI agent for running, testing, and hardening GitHub Docker Compose apps.一个用于运行、测试和加固 GitHub
   Docker Compose 应用的 AI Agent。
 first_seen: '2026-09-02T03:09:44Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Taiquan-Zhou/RunTheRepo
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 152
-    forks: 8
+    stars: 172
+    forks: 10
     open_issues: 0
   kind: product
 ---

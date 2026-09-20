@@ -144,3 +144,21 @@
   source_kind: product
   tier: independent
   fact: "有喜欢的朋友可以看看： \r\n\r\nhttps://github.com/lulufoo/lulu-dialogue-skills"
+- id: ev-0ea6f8524fcacb10
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1243175
+  title: '[开源] R20 机构级量化决策系统更新 v8.0.0'
+  published_at: '2026-09-19T09:59:08Z'
+  collected_at: '2026-09-20T00:09:17Z'
+  source_kind: product
+  tier: independent
+  fact: "经历多个实盘周期检验与深度重构，我们的开源加密货币波段量化决策操作系统 **R20 Quantum Trader** 现已正式发布 **`v8.0.0`** 里程碑版本。\r\n\r\n\
+    项目完全遵循 **MIT License**，100% 完整开源（前端 Vue 3 + 后端 FastAPI + 计算引擎纯 Python ），坚持**“认知决策归模型，物理风控归底座”**的技术架构哲学，彻底打破传统量化工具“指标硬编码、黑盒盲盒开仓、单边套牢、震荡磨损”的固有顽疾。\r\
+    \n\r\n* \U0001F310 **项目 GitHub 仓库**： https://github.com/555cute/r20-quantum-trader\r\n* \U0001F5A5\
+    ️ **24H 在线实盘操盘看板**： https://www.r20.cn\r\n* \U0001F4DC **开源协议**：MIT License (完全开源，无未开源商业代码，无引流限制)\r\
+    \n\r\n---\r\n\r\n## \U0001F3AF 核心架构哲学：认知决策归模型，物理风控归底座\r\n\r\n市面上的“AI 炒币/量化”软件大多停留在单提示词问答或生硬指标加减分，极易遭遇大模型幻觉导致的意外爆仓。\r\
+    \n\r\nR20 将架构严谨解耦为三层：\r\n1. **大模型与投委会（只有交易意图的“提案权”）**：负责宏观大局研判、多周期动能理解与多席位博弈；\r\n2. **底层 Python 执行底座（拥有一票否决的“拦截权”）**：每一笔开仓必须穿透不可绕过的物理硬拦截门禁（\
+    \ 4H 宏观大势顺势检验、真实盈亏比 R:R ≥ 2.0 几何校验、同向持仓额度控制等），任何拦截插件报错无条件 Fail-Closed 熔断；\r\n3. **多交易所平权执行引擎**：统一\
+    \ OKX 、Binance （币安）、Gate （芝麻开门）数据与风控标准，自动适配币安 Conditional 条件单与 Gate 双向持仓。\r\n\r\n---\r\n\r\n## \U0001F680\
+    \ v8.0.0 重大更新特性\r\n\r\n### 1. 全市场宏观体制自适应识别引擎 (Market Regime Engine)\r\n告别“单边市跑网格被套牢，震荡市跑趋势被反复洗盘扫损”的宿命。系统基于全标的池因果微积分一阶速度\
+    \ $v$、二阶加速度 $a$ 与定积分能量分布，自动推导大盘宏观四态：\r\n- **`TREND_EXPANSION`（单边动量趋势）**：顺应大势做主升浪，给足 1.8x"

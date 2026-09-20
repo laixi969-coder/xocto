@@ -21,7 +21,7 @@ url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3Y3eHRiSXNNSGRfNUJrYz
 canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3Y3eHRiSXNNSGRfNUJrYzVDVUpKMk1YOUl4MURVaExPZTZOVjJmeWVxd2hWeHlXRmJSb0lJZXZHaE9xN25sb3pnNmdrbENMS0U3LURjOVN4ZVNsdjg5V1FHZk9zZl81NV9acWJuMXNvWXpCd0FIRWpvLUVNaTV4NlJkSEpVbWhnSExWb0IyV2ZXcFZK?oc=5
 summary: Why logistics AI is becoming the bext big bet for investors YourStory.com
 first_seen: '2026-08-29T02:42:15Z'
-last_seen: '2026-09-10T05:13:56Z'
+last_seen: '2026-09-20T00:09:53Z'
 status: pending_filter
 sources:
 - newssearch
@@ -50,6 +50,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/09/fryte-mobility-lands-eur35m-to-build-the-coordination-layer-for-etruck-charging/
   seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY21FdFQ1SVpmdmozZHFxYjQ5cktVbjlTWDdVQ2U3aDJuSHl3SmIzdHlNNk9lVTgwSThyckl2LXM1bG1EWm8wRE5UMFhCU1VWZUdVY2FpUUdXd1E4bUM5dXZUZGZvcXl5OVBzaFFZWHFIZjBvQzVjam9hbkdtbmVRSlFybVFEMVhmemRj?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
   kind: news
 ---

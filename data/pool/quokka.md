@@ -28,17 +28,17 @@ url: https://quokka.space/
 canonical_url: https://quokka.space
 summary: a self-hosting, deterministic programming language
 first_seen: '2026-09-18T14:50:00Z'
-last_seen: '2026-09-19T00:21:15Z'
+last_seen: '2026-09-20T00:09:19Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://quokka.space/
-  seen_at: '2026-09-19T00:21:15Z'
+  seen_at: '2026-09-20T00:09:19Z'
   metrics:
     points: 5
-    comments: 1
+    comments: 2
   kind: product
 ---
 

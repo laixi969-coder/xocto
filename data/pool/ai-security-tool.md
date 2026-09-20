@@ -38,16 +38,16 @@ summary: 🛡️ Free open-source AI-powered security terminal & vulnerability s
   SSH, SFTP, RDP, VNC, Serial, and 12+ autonomous AI agents (DeepSeek, OpenAI) for automated security
   workflows, CTF & DevSecOps. Cross-platform & Web UI.
 first_seen: '2026-09-10T09:38:49Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://zerodayevil.cloud
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 102
+    stars: 151
     forks: 7
     open_issues: 0
   kind: product

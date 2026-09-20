@@ -20,8 +20,8 @@ url: https://www.science.org/content/article/how-ai-math-breakthrough-ignited-co
 canonical_url: https://science.org/content/article/how-ai-math-breakthrough-ignited-controversy
 summary: How An AI math breakthrough ignited a controversy
 first_seen: '2026-09-09T10:25:41Z'
-last_seen: '2026-09-19T00:21:45Z'
-status: rejected
+last_seen: '2026-09-20T00:09:19Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -56,10 +56,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret
-  seen_at: '2026-09-19T00:21:15Z'
+  seen_at: '2026-09-20T00:09:19Z'
   metrics:
-    points: 81
-    comments: 94
+    points: 121
+    comments: 100
   kind: news
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/491875.html

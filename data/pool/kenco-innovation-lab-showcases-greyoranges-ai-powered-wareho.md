@@ -37,8 +37,8 @@ url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNTR6MlpxQWo0TW84NzlkSi
 canonical_url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNTR6MlpxQWo0TW84NzlkSi11OXpxWUtQMGEwX0o5WDFJOFlIZ1ZKMW5YVzBtc2FWcXVGN2RaZ3VYRkdfb196LWE5UkhMQkV0cDNDUFlwSWlHQ3h3V0FJbnNJaEhrR2RTMU1JaUlndkNuQm9kWFNGbjlhRmlVV3B4QzdmZi1VVHprTklEUDdUeG1ZcVlMWG9QU1lJaDVKekVjQndqLWZIRnlYTl9hOEl3R0Z6Z3hSMWEyd1ZDYm1JblhCdGw0UU9LbnV6MmFTMDlFbUJlQWdxMHROcGNaMGg2Y0J1TDJpYTFvWElr0gHrAUFVX3lxTE81NHoyWnFBajRNbzg3OWRKLXU5enFZS1AwYTBfSjlYMUk4WUhnVkoxblhXMG1zYVZxdUY3ZFpndVhGR19vX3otYTlSSExCRXRwM0NQWXBJaUdDeHdXQUluc0loSGtHZFMxTUlpSWd2Q25Cb2RYU0ZuOWFGaVVXcHhDN2ZmLVVUemtOSURQN1R4bVlxWUxYb1BTWUloNUp6RWNCd2otZkhGeVhOX2E4SXdHRnpneFIxYTJ3VkNibUluWEJ0bDRRT0tudXoyYVMwOUVtQmVBZ3EwdE5wY1owaDZjQnVMMmlhMW9YSWs?oc=5
 summary: Kenco Innovation Lab Showcases GreyOrange’s AI-Powered Warehouse Orchestration The Manila Times
 first_seen: '2026-09-17T13:10:49Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: watching
+last_seen: '2026-09-20T00:09:53Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -50,6 +50,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdERNUEJKRGJhY3QzbUxEVHZDbFBfZEVlRENXQm9LYV92NDl2STUzZHBjaWlwMVdibkVFeHR3VHByYWVhcThVdnZKMXhNekdleWtIakd1bzU1ZU93RmhocmliSkpnajJkekR2TE9QVHdtN19HMTV0bi1ydktoYlJIdFpRZFptZEcyWkFqcEtVWndDd0ZLX2tZem01ZWdFVzFRM1lRU1RvZlRFU2s4SHNiRjJOOFNEMjVNUUt5RnZ5UlZEbjVXMklGb0s4NVZIYlBXc0VEVGdRdlVmdHJM?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHVBcjBieUxBMkVzeFI2dDV2U19MZE9MNDVLNGJMMDJsR3Jsb01Ba0paVFZoVUtVV3ZrNXRTaUhtcG5FMDZIWWlsRDRjdzhqRThYUWZIRzlFM2J5bk1ycXJTMUhmdXdlcG1xWEdLb2J2cVJZR2hVNE9zQU1CV1NONGxvdHh1d0dqeGE4Yy1IdTE0Ql92RmNOSjNHcEdiWU42TU1HY2lwQktXSGl1LWZOX0FGb3M4S1BKbmlXSk1kTzRHQW9ZRFh3NzNWV0x0anFraUhOejJ2a1huTmt6QlE?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
   kind: news
 ---

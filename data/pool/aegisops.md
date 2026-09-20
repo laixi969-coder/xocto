@@ -33,17 +33,17 @@ url: https://github.com/emma-sue/AegisOps
 canonical_url: https://github.com/emma-sue/AegisOps
 summary: AegisOps企业信息系统智能运维平台：自动巡检、Agent 故障排查、证据工单与审批处置。LangGraph · Deep Agents · MCP；附可复现实测记录。
 first_seen: '2026-09-10T13:08:41Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/emma-sue/AegisOps
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 145
-    forks: 25
+    stars: 171
+    forks: 32
     open_issues: 0
   kind: product
 ---

@@ -21,16 +21,16 @@ canonical_url: https://github.com/plolpl789/dsh-raw-html-v2
 summary: 'VCP visual-synesthesia plugin v2 for DeepSeek Harness (official Slot API): raw-HTML vcp-root
   cards, streaming render, KaTeX/Mermaid/SVG, builtin fonts'
 first_seen: '2026-09-03T09:46:04Z'
-last_seen: '2026-09-17T00:32:43Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/plolpl789/dsh-raw-html-v2
-  seen_at: '2026-09-17T00:32:43Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 48
+    stars: 51
     forks: 2
     open_issues: 2
   kind: product

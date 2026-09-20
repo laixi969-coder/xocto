@@ -34,16 +34,16 @@ url: https://github.com/LunarXuan/video-prompt-reverse
 canonical_url: https://github.com/LunarXuan/video-prompt-reverse
 summary: High-fidelity AI video prompt reverse-engineering skill for Codex
 first_seen: '2026-09-04T12:17:33Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LunarXuan/video-prompt-reverse
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 45
+    stars: 46
     forks: 6
     open_issues: 0
   kind: product

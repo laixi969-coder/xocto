@@ -61,3 +61,21 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 AI 应用开发者'
+- id: ev-5e99be7b344becf1
+  project_slug: agent-git
+  url: https://agentgit.co/
+  title: Agentgit
+  published_at: '2026-09-18T23:14:58Z'
+  collected_at: '2026-09-20T00:09:19Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: a Git host for AI agents, no account, no token, no key
+- id: ev-8f2c8009bc569e80
+  project_slug: agent-git
+  url: https://agent-git.com
+  title: agent-git
+  published_at: '2026-09-01T17:00:33Z'
+  collected_at: '2026-09-20T00:09:25Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Code is cheap, show me the talk: version control for agent sessions | repository stars: 127'

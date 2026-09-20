@@ -20,10 +20,11 @@ url: https://qwen.ai/blog?id=qwen3.8-omni-flash
 canonical_url: https://qwen.ai/blog?id=qwen3.8-omni-flash
 summary: Qwen 3.8 Omni Flash
 first_seen: '2026-09-17T23:05:48Z'
-last_seen: '2026-09-19T00:21:15Z'
+last_seen: '2026-09-20T00:09:45Z'
 status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://qwen.ai/blog?id=qwen3.8-omni-flash
@@ -31,6 +32,11 @@ sightings:
   metrics:
     points: 327
     comments: 126
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/492573.html
+  seen_at: '2026-09-20T00:09:45Z'
+  metrics: {}
   kind: news
 ---
 

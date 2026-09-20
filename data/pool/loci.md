@@ -35,18 +35,24 @@ canonical_url: https://github.com/IvenKooLab/loci
 summary: A queryable second brain over your scattered notes and docs - hybrid retrieval (vector + BM25),
   section-level citations, and an MCP server so AI agents can use it. ~300 lines, no LangChain.
 first_seen: '2026-09-03T16:50:08Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
+- producthunt
 sightings:
 - source: github
   url: https://github.com/IvenKooLab/loci
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 82
+    stars: 95
     forks: 0
     open_issues: 0
+  kind: product
+- source: producthunt
+  url: https://www.producthunt.com/products/loci-4
+  seen_at: '2026-09-20T00:09:19Z'
+  metrics: {}
   kind: product
 ---
 

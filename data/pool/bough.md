@@ -31,17 +31,18 @@ canonical_url: https://bough.run
 summary: 'Claude Code and Codex write down everything you do. bough draws it: a day, the work inside it,
   every prompt, and what got committed. One Go binary, runs on your machine, sends nothing anywhere.'
 first_seen: '2026-09-02T19:32:46Z'
-last_seen: '2026-09-19T00:21:19Z'
-status: watching
+last_seen: '2026-09-20T00:09:45Z'
+status: pending_filter
 sources:
 - github
 - hackernews
+- marketfeeds
 sightings:
 - source: github
   url: https://bough.run
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 67
+    stars: 71
     forks: 9
     open_issues: 1
   kind: product
@@ -52,6 +53,11 @@ sightings:
     points: 10
     comments: 5
   kind: product
+- source: marketfeeds
+  url: https://www.interconnects.ai/p/where-i-stand-on-rsi
+  seen_at: '2026-09-20T00:09:45Z'
+  metrics: {}
+  kind: news
 ---
 
 # bough

@@ -33,14 +33,19 @@ url: https://news.google.com/rss/articles/CBMirgFBVV95cUxObkk1UGN6bXJlNEdEdjVnRT
 canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxObkk1UGN6bXJlNEdEdjVnRTJJYklGT3pTcS1XZGdoX0NtVkZpMU4wVG9iaTFURHVHSVUtRGk2eE5UejVSbG1iaFVLeWcwcm84ZUVoX1JpMTNKZUgtUkxJdkVwRXJVOUUyMWdlWTZ3RUpRZERTS3cwaG54QWhWak1ZZ19FQWRURExxcDNOMlQtbTdkMjlUYzNJck9TbWlpcExKd0RIRi14WlFCMGJxQmc?oc=5
 summary: Suki launches AI dictation tool with EHR integration capabilities Healthcare Dive
 first_seen: '2026-08-26T15:46:35Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-09-20T00:09:53Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxObkk1UGN6bXJlNEdEdjVnRTJJYklGT3pTcS1XZGdoX0NtVkZpMU4wVG9iaTFURHVHSVUtRGk2eE5UejVSbG1iaFVLeWcwcm84ZUVoX1JpMTNKZUgtUkxJdkVwRXJVOUUyMWdlWTZ3RUpRZERTS3cwaG54QWhWak1ZZ19FQWRURExxcDNOMlQtbTdkMjlUYzNJck9TbWlpcExKd0RIRi14WlFCMGJxQmc?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3YnNqZmI3MVRyMnd0ZVgtS1VkcGE4bV91MGRjS05oSnNPNzduLVBuMS01elRnZlo0aGkyblVrTmJ0S2pSblV6SUhJVG1NUDY1TGpLbDln?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
   kind: news
 ---

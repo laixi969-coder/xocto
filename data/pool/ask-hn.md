@@ -20,8 +20,8 @@ url: https://news.ycombinator.com/item?id=49481969
 canonical_url: https://news.ycombinator.com/item?id=49481969
 summary: AI writes better code than me. How to keep my identity?
 first_seen: '2026-08-28T17:40:39Z'
-last_seen: '2026-09-13T00:00:05Z'
-status: rejected
+last_seen: '2026-09-20T00:09:19Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -73,6 +73,13 @@ sightings:
   metrics:
     points: 815
     comments: 382
+  kind: news
+- source: hackernews
+  url: https://news.ycombinator.com/item?id=49768826
+  seen_at: '2026-09-20T00:09:19Z'
+  metrics:
+    points: 25
+    comments: 17
   kind: news
 ---
 

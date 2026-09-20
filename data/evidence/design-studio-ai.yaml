@@ -94,3 +94,22 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与互联网 设计服务 设计师与前端工程师'
+- id: ev-c225f076139077f6
+  project_slug: design-studio-ai
+  url: https://arxiv.org/abs/2609.20804
+  title: arxiv
+  published_at: '2026-09-18T13:06:30Z'
+  collected_at: '2026-09-20T00:09:19Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: An empirical study of harness design for coding agents
+- id: ev-2162f8e702c3593f
+  project_slug: design-studio-ai
+  url: https://studio.agentkit.best
+  title: design-studio-ai
+  published_at: '2026-09-07T15:51:21Z'
+  collected_at: '2026-09-20T00:09:25Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open-source design workspace for AI agents and humans. Cloud editing, 3D, motion, MCP, WebMCP,
+    CLI and BYOK. MIT. | repository stars: 194'

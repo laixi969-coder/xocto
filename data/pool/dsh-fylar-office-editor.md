@@ -21,17 +21,17 @@ canonical_url: https://fylar.ai
 summary: Office document preview, editing, and DOCX generation for DeepSeek Harness, powered by Fylar
   Office SDK.
 first_seen: '2026-09-02T09:40:48Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://fylar.ai
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 65
-    forks: 8
+    stars: 71
+    forks: 9
     open_issues: 0
   kind: product
 ---

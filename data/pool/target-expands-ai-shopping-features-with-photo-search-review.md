@@ -1,7 +1,7 @@
 ---
 slug: target-expands-ai-shopping-features-with-photo-search-review
 name: Target
-builder: ''
+builder: koolba
 category: ''
 summary_zh: 2026年9月，Target 扩展其电商 AI 购物功能，加入拍照搜索、评论要点提炼和个性化复购。对 AI 应用的含义是：大型零售商正把图像识别与评论摘要直接嵌入自有购物链路，第三方比价、选品和评论分析工具的入口被平台收回，独立开发者更难从通用购物助手切入。
 inspiration: ''
@@ -25,10 +25,11 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6
 summary: Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering
   Pulse 2.0
 first_seen: '2026-09-10T20:26:17Z'
-last_seen: '2026-09-16T00:21:13Z'
+last_seen: '2026-09-20T00:09:19Z'
 status: pending_filter
 sources:
 - newssearch
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6d1VzQWFQRjRGanVJNWZFWEZENU10dWluUlYzVkJqa3dkQnRFQWhoM09ZU1BVc2pwdmR6T3hZaTlDOXJkLWUtYVZuZkJpdC1ua3RKc1JDVGNXMTJ0elpVRWZXQ0oxMlYtalJ1RlM4SWozNW9GRk9kc3Y3QmZqZEpydUw3eU81MzExWllGd2pqVXNYRlhkSWhyMWxYU05XRmVpQWZsbXZQOWlYdHpSUHJZV2F1RGlR0gG-AUFVX3lxTE5vc3FhUXRzQnp3VXNBYVBGNEZqdUk1ZkVYRkQ1TXR1aW5SVjNWQmprd2RCdEVBaGgzT1lTUFVzanB2ZHpPeFlpOUM5cmQtZS1hVm5mQml0LW5rdEpzUkNUY1cxMnR6WlVFZldDSjEyVi1qUnVGUzhJajM1b0ZGT2RzdjdCZmpkSnJ1TDd5TzUzMTFaWUZ3ampVc1hGWGRJaHIxbFhTTldGZWlBZmxtdlA5aVh0elJQcllXYXVEaVE?oc=5
@@ -54,6 +55,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOcDl6YVBJYnRNRlBlNjBIV0NFU2hxTkdtLTRDdjFDSGNFUHZMazNreTdSaXY0aV9hLVNiZm5yaUlKMmtGMzdVUFdYaEZlZWlISmlzbVVWTTVZSncwWkFEaGZBcm5idWpJaUs2N1dLc0NqVG9oY0NHZ1kyaDRLd0JRVWVqWURsbXFwWnlzSEFOLXpVcVktLXVMN2hycUZJYlU4UW44THZGc19TRDRkdmc?oc=5
   seen_at: '2026-09-16T00:21:13Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/09/19/business/draftkings-ai.html
+  seen_at: '2026-09-20T00:09:19Z'
+  metrics:
+    points: 57
+    comments: 11
   kind: news
 ---
 

@@ -20,16 +20,16 @@ url: https://github.com/speee/training-web-app
 canonical_url: https://github.com/speee/training-web-app
 summary: AI時代にWebアプリケーションを低レイヤーから理解する、ジュニアエンジニア向け研修ガイダンス
 first_seen: '2026-09-02T02:23:25Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/speee/training-web-app
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 52
+    stars: 53
     forks: 1
     open_issues: 0
   kind: product

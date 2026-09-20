@@ -25,8 +25,8 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWT
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWTlCZGdIRjZSeFVqV1Q3MWs3TzFuMENONGJJVFdNMGhscEVET1llOWphZ3dSY3NicGxTU1lnaUhlZDIwaS0xcFg1VUo2elBaLWhTNHFBTFpaZkdzc0ZjUmY?oc=5
 summary: AI算力短缺蔓延：Intel、AMD寻求中国客户长期锁定服务器CPU采购 新浪网
 first_seen: '2026-09-13T15:30:58Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: market_context
+last_seen: '2026-09-20T00:09:53Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -54,14 +54,19 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship
-  seen_at: '2026-09-19T00:21:15Z'
+  seen_at: '2026-09-20T00:09:19Z'
   metrics:
-    points: 374
-    comments: 292
+    points: 496
+    comments: 374
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNR21qekJ3eDg2WVBEZlVCUU9vZGp2UEZtV3FYRDhOZ1NtQ2x1MlZZa2lpMk1kb1ZQM2JtbnZjYUw5X3RTaGJXaDNEU1ZuNzU3VzNNWWpRYWgxa2RhNmhhak1uZVRFOXY2a3I5UGEwNVdJenkzRFNmLWhmYzVVdWpvR1lodVFsR0M5VE85Sjl6WQ?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxQWnJPLWtnNFZ5Q1VMaTljbVFrLWtvWFJ4dlFNSm1YMkZXLS1xNjRUV05NQlgtNUJWUFhlcWpWTkFzMEdxM3k3VU5MS011SktDa3pzSEZvdEh1dS1GVnZpVkFJWmp1TGVBeWFkRVVoZ2JGRjRHOFVEWkJMNU1kYnNaYjJHM3lrMXluM1U2U2JZOUZqRlNLekplZHpRaVdhcVgteV8wVVJNTHRYTXdwOWJDaGlUYmdVWVFxLTFZREQ4YmJWWERFNUYzN0J1cVFQb0FjNEFnWVJ4elozR2x2TkRWLTl5c09BZ3ROM09qdkhWT2NEZmhr?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
   kind: news
 ---

@@ -30,17 +30,17 @@ url: https://github.com/Alurith/jeff
 canonical_url: https://github.com/Alurith/jeff
 summary: A read-only CLI for semantic code review using Jev
 first_seen: '2026-09-18T17:46:21Z'
-last_seen: '2026-09-19T00:21:15Z'
+last_seen: '2026-09-20T00:09:19Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Alurith/jeff
-  seen_at: '2026-09-19T00:21:15Z'
+  seen_at: '2026-09-20T00:09:19Z'
   metrics:
-    points: 12
-    comments: 1
+    points: 26
+    comments: 4
   kind: product
 ---
 

@@ -30,7 +30,7 @@ url: https://agent-git.com
 canonical_url: https://agent-git.com
 summary: 'Code is cheap, show me the talk: version control for agent sessions'
 first_seen: '2026-09-01T17:00:33Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
@@ -38,17 +38,17 @@ sources:
 sightings:
 - source: github
   url: https://agent-git.com
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 121
+    stars: 127
     forks: 10
     open_issues: 3
   kind: product
 - source: hackernews
   url: https://agentgit.co/
-  seen_at: '2026-09-19T00:21:15Z'
+  seen_at: '2026-09-20T00:09:19Z'
   metrics:
-    points: 6
+    points: 8
     comments: 6
   kind: product
 ---

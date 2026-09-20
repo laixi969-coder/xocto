@@ -33,10 +33,11 @@ url: https://flat.social
 canonical_url: https://flat.social
 summary: I built a new version of my fun spatial 3D online meeting app
 first_seen: '2026-09-17T12:57:09Z'
-last_seen: '2026-09-19T00:21:15Z'
-status: watching
+last_seen: '2026-09-20T00:09:45Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://flat.social
@@ -45,6 +46,11 @@ sightings:
     points: 97
     comments: 52
   kind: product
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in
+  seen_at: '2026-09-20T00:09:45Z'
+  metrics: {}
+  kind: news
 ---
 
 # flat

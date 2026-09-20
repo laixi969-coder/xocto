@@ -22,8 +22,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: rejected
+last_seen: '2026-09-20T00:09:45Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -94,6 +94,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lU291aVJGeTR3VTkyUTFFOUNuVUkyLXVaVDdaekd6Q2JMUDZUekRDdloxclVjMEtiV0VUZXNDQmZZRF9XX1RwbUdocG15aEFlU0FPRkxLd0tNQlVac1E4b25R?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/australian-youth-safety-blueprint
+  seen_at: '2026-09-20T00:09:45Z'
   metrics: {}
   kind: news
 ---

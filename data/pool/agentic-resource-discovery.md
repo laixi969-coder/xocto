@@ -34,16 +34,16 @@ summary: Neuronto Agentic Resource Discovery (ARD) Index. Federated search acros
   plus a verified tool index read from each MCP server's own tools/list, hybrid lexical and semantic retrieval,
   and ARD-Bench.
 first_seen: '2026-08-31T13:53:20Z'
-last_seen: '2026-09-16T00:20:40Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://neuronto.com
-  seen_at: '2026-09-16T00:20:40Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 52
+    stars: 56
     forks: 1
     open_issues: 2
   kind: product

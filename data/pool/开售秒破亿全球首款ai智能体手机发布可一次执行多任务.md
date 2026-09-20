@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xOG54elBndDBNc1J2UFhDOV
 canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xOG54elBndDBNc1J2UFhDOVhKbUNDdGgzeVR0Wjczb0xPX1NjNDBNVlUyd1R1SFViNl9RUlUtVkg0UTJ0MEN6T0pJMndGZ3lWeGxMcG01aXZTVkwwUmFmbWZsRQ?oc=5
 summary: 开售秒破亿！全球首款AI智能体手机发布，可一次执行多任务 东方财富
 first_seen: '2026-09-16T16:45:36Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: rejected
+last_seen: '2026-09-20T00:09:53Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xOG54elBndDBNc1J2UFhDOVhKbUNDdGgzeVR0Wjczb0xPX1NjNDBNVlUyd1R1SFViNl9RUlUtVkg0UTJ0MEN6T0pJMndGZ3lWeGxMcG01aXZTVkwwUmFmbWZsRQ?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lVDZlQ0JEZHdWRVJiRncyREhzbUlaTVNENFp5T3FHcGl4Q0stOG9tcGplNTN1NzF2aGkzb1ZtMU9qV2FhN3RJS0dqU0pLb1Z4dG80V3ZneTZqemVuRGVBTQ?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
   kind: news
 ---

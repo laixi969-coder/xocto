@@ -20,17 +20,17 @@ url: https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree
 canonical_url: https://thebignewsletter.com/p/ai-is-an-elite-crime-spree
 summary: AI is an elite crime spree
 first_seen: '2026-09-18T15:15:33Z'
-last_seen: '2026-09-19T00:21:15Z'
-status: rejected
+last_seen: '2026-09-20T00:09:19Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree
-  seen_at: '2026-09-19T00:21:15Z'
+  seen_at: '2026-09-20T00:09:19Z'
   metrics:
-    points: 115
-    comments: 38
+    points: 118
+    comments: 42
   kind: news
 ---
 

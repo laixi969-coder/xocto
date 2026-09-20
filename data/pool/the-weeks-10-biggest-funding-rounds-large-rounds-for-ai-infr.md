@@ -24,14 +24,20 @@ summary: After a week of multiple billion-dollar-plus rounds, startup investors 
   hundreds of millions, topped by a $550 million financing for AI infrastructure company Temporal Technologies
   and a $308 million investment in space vehicle developer Impulse Space.
 first_seen: '2026-09-18T18:29:32Z'
-last_seen: '2026-09-19T00:21:45Z'
-status: rejected
+last_seen: '2026-09-20T00:09:53Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/
   seen_at: '2026-09-19T00:21:45Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWVjUlo2TXU0ZTVral9NZ09WMjlFZXRJcEQtWWhQNktRcmdZUnkwcVJneV9BanczanZubGtJU0Z0Z0J5azIyNTdSRVVGVU1aczN1ckR0dXl1SThYdl9ZUDlYa05vWmZhMDM2M1daWXB1UGxKLWZEdkpoSUpFdWI5dDdFYUVTNVQzbFp5VC13?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
   kind: news
 ---

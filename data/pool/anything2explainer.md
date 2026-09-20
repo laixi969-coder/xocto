@@ -38,18 +38,18 @@ summary: Topic in, narrated explainer video out. A Claude Code / Codex skill tha
   a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress
   bar. Chinese or English; every frame drawn in code with Remotion.
 first_seen: '2026-09-08T17:19:54Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Vincentwei1021/anything2explainer
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 1644
-    forks: 263
-    open_issues: 3
+    stars: 1757
+    forks: 268
+    open_issues: 4
   kind: product
 ---
 

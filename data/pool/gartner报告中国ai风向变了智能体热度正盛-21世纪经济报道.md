@@ -24,14 +24,24 @@ url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1EeGZCdE1WUUdMZkg1VmFkdT
 canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1EeGZCdE1WUUdMZkg1VmFkdTJkVHJJTGxHMUN4emJMaHB5YVZJUFZPLVZIZXc0YTVKdEFkY2Y4U3AxckQ0bEpGZXBFTV9QVW4ySzVHU08wQ1BOUlNzTWZHalZNWmsycllxQUxaUDNNUF85dzE3Z0Zz?oc=5
 summary: Gartner报告：中国AI风向变了，智能体热度正盛- 21世纪经济报道 ZAKER新闻
 first_seen: '2026-09-11T07:49:41Z'
-last_seen: '2026-09-12T00:19:17Z'
-status: market_context
+last_seen: '2026-09-20T00:09:53Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1EeGZCdE1WUUdMZkg1VmFkdTJkVHJJTGxHMUN4emJMaHB5YVZJUFZPLVZIZXc0YTVKdEFkY2Y4U3AxckQ0bEpGZXBFTV9QVW4ySzVHU08wQ1BOUlNzTWZHalZNWmsycllxQUxaUDNNUF85dzE3Z0Zz?oc=5
   seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR2dudUtMVW9FSnpjYlF0MFM4SzFiRnJWRDdEOC1RY04yQjEyRVhzSF83amEzWldjU3FaM1I1aFRqSDZXY1hkbEl0MDFKTWRoZ2Z5VmZPNWNzT2dRYmFhU1dzWncxdGFZbDJpcEtDNW9WbEJ5bWtTUHNQVVNPYUcyeWlGNE1kOTV6ZzF0RmtUY2l4a09NWGFLMUp3Q0Jqb2RFNTE1VHFlYUkzR1dsU1ZTVlhUR2V1dThNdzZraHY2d2VxUGs?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNWjJadDBUS19kMkpjUDlrTkJFMlFGTmlHcUxsVTJvT1dQNWItZzQtN1BtT2ZlZFN1YjhlbkNzaF80RzNmRE5zN0xROFRjODVjczFKbXNqR0NTUWtWOGFFTXpMVThfQlJ6MEVrYVNuanNvd09jNUtDZmNsZzFjZ1dBR0tHVHZUTy16eE9lbGJmSVBHLVg2WXNTRjRUZmYxSmNXSFFiVUh4am9QSFBQUzhUbWNXWWxNaEhBM3dkMTZLcnhFM0FoQVE?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
   kind: news
 ---

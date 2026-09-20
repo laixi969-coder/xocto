@@ -31,8 +31,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-19T00:21:44Z'
-status: rejected
+last_seen: '2026-09-20T00:09:45Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -225,6 +225,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables
   seen_at: '2026-09-19T00:21:44Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/
+  seen_at: '2026-09-20T00:09:45Z'
   metrics: {}
   kind: news
 ---

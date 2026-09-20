@@ -32,16 +32,16 @@ url: https://github.com/ZJunCher/mr-agent
 canonical_url: https://github.com/ZJunCher/mr-agent
 summary: An open-source multi-agent platform for GitLab MR code review, governance, and CI self-healing.
 first_seen: '2026-09-05T06:09:30Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZJunCher/mr-agent
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 94
+    stars: 99
     forks: 0
     open_issues: 0
   kind: product

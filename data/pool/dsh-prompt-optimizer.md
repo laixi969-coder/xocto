@@ -31,16 +31,16 @@ canonical_url: https://github.com/WestFox-AwA/dsh-prompt-optimizer
 summary: DSH Web 输入框接管（v0.3.0-beta.4 · 复杂任务能力包：3D/法向量/交互/数据/并发/性能细节逐项过关 + 可自动化验收 + 中英双语 · 适用于 dsh-0.1.6-alpha.1）：发送前用独立
   AI（传话者）把提示词优化成可直接发给工作 AI 的命令（四档强度、按难度定流程长度、按会话隔离、极简迷你窗）
 first_seen: '2026-09-11T10:42:22Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/WestFox-AwA/dsh-prompt-optimizer
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 63
+    stars: 67
     forks: 8
     open_issues: 6
   kind: product

@@ -118,3 +118,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 硬件制造 电子工程 硬件原型设计 PCB 设计与布线'
+- id: ev-8b2e564c1a671be7
+  project_slug: pcb-skill
+  url: https://github.com/daishuge/pcb-skill
+  title: pcb-skill
+  published_at: '2026-09-08T10:15:23Z'
+  collected_at: '2026-09-20T00:09:25Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Agent skill for taking a hardware idea to a manufacturable PCB: concept, schematic, sourcing,
+    layout, routing, verification, and a purchase staged to the pre-payment page. Drives EasyEDA Pro over
+    MCP from Claude Code or Codex. | repository stars: 133'

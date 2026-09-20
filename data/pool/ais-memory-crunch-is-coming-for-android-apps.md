@@ -26,8 +26,8 @@ canonical_url: https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for
 summary: Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware
   shortages that could leave lower-cost phones with less memory.
 first_seen: '2026-08-27T14:27:04Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: market_context
+last_seen: '2026-09-20T00:09:53Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -40,6 +40,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UMGhoQW5ZNkJRWDNtU1VpTjhTRVNhVllOTnlDSkVQeGVqaDFZZnpjNVlPdDUwcTJTX21vcFh4WndnamVJajh4YkNSbFhOZ1dxTzRz?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wQVRkR2hoZ3hybG42UjhzcDR1WW0tYmdtcnR2cWVLZnJpWnh3V2NkdEFtLTh4V0Q2UXduTEgyaXJSNlNTRl9qVEt4dGZnQ1BacVNZ?oc=5
+  seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
   kind: news
 ---

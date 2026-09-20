@@ -34,7 +34,7 @@ url: https://github.com/jarrenrocks/bot-crossing
 canonical_url: https://github.com/jarrenrocks/bot-crossing
 summary: A video game for AI agents.
 first_seen: '2026-09-01T19:56:46Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-20T00:09:25Z'
 status: watching
 sources:
 - github
@@ -49,11 +49,11 @@ sightings:
   kind: product
 - source: github
   url: https://botcrossing.com
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-20T00:09:25Z'
   metrics:
-    stars: 617
-    forks: 197
-    open_issues: 4
+    stars: 625
+    forks: 203
+    open_issues: 6
   kind: product
 ---
 
