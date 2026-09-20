@@ -458,3 +458,46 @@
   usage_reason_en: 'Inference: only developers willing to accept disabling antivirus and elevated installs
     might try it; versus writing prompts directly or using built-in tool registration, it adds steps and
     security burden rather than reducing them, so there is no causal reason for users to choose it.'
+- id: req-full-agent-skills-collection-2026-09-20
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-09-20T00:28:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认是否给出具体使用场景、安装安全说明及可复现的交付结果。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的 agent 增加模块化技能，在本地或自建环境里安装这套技能集合，让助手能执行更多具体任务。
+  job_en: Developers or LLM-agent users want to add modular skills to an LLM-based agent, installing this
+    skill collection locally or in a self-hosted environment so the assistant can perform more concrete
+    tasks.
+  pain: 公开材料只显示安装环节要求关闭杀毒软件并以管理员权限运行安装包，这本身是采用门槛而非被解决的用户痛点；没有公开证据说明用户此前在给 agent 装技能时遇到什么具体困难、频率多高、不解决会损失什么。
+  pain_en: Public material only shows that installation asks users to disable antivirus and run a setup
+    file as administrator, which is an adoption barrier rather than a solved user pain; no public evidence
+    shows what specific difficulty users had adding agent skills, how often, or what they lose by not
+    solving it.
+  current_alternative: 公开材料未说明用户当前如何给 agent 添加技能，可推断的旧做法是直接写提示词、调用现成插件或自行编写工具函数，但没有任何公开事实确认这些替代路径及其不足。
+  current_alternative_en: Public materials do not state how users currently add skills to agents; the
+    inferable old approach is writing prompts directly, using existing plugins, or coding tool functions,
+    but no public fact confirms these alternatives or their shortcomings.
+  usage_reason: 公开仓库有 209 个收藏、4 次复刻，只说明开发者注意到该项目，属于关注度而非选择理由；产品通过什么具体动作减少哪一步负担、改善哪项可核对结果，公开材料没有说明，且安装需关杀毒、提权运行，反而增加安全顾虑，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: The public repository's 209 stars and 4 forks only show developer attention, which
+    is visibility rather than a reason to choose it; public materials do not explain what concrete step
+    the product removes or which checkable result it improves, and installation requiring antivirus-off
+    and admin rights adds security concern, so it cannot explain which users would choose it and when.

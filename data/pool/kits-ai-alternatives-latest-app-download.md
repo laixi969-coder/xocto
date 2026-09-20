@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sUEREc2J3dkxl
 summary: Kits AI alternatives Latest App Download Học viện Nông nghiệp Việt Nam
 first_seen: '2026-09-17T09:59:48Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

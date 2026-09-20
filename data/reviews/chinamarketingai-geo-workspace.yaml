@@ -1,0 +1,85 @@
+- id: req-initial-chinamarketingai-geo-workspace-2026-09-20
+  project_slug: chinamarketingai-geo-workspace
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是品牌在 AI 回答中可见度不透明的问题，痛点方向成立，但公开材料未说明输入、产出与交付形态，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-c5ae8b053b5168b7
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品描述外，没有客户案例、用户评价或采用信号，无法判断是否有人真的把它放进工作流。
+    evidence_ids:
+    - ev-c5ae8b053b5168b7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自品牌方、代理商还是订阅；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c5ae8b053b5168b7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它给出的证据是否可复现、改写建议是否被采纳，交付确定性未知。
+    evidence_ids:
+    - ev-c5ae8b053b5168b7
+  next_validation: 收集该产品的官方定价页或公开客户案例，确认交付物形态与买方。
+  market: ''
+  job: 出海品牌的市场负责人或跨境营销代理，在准备面向中国市场的投放与内容时，需要先弄清中国 AI 搜索与问答里品牌被如何提及，再据此改文案和落地页。
+  job_en: A marketing lead at an outbound brand, or a cross-border agency, preparing China-facing campaigns
+    needs to know how the brand is mentioned in Chinese AI search and chat answers, then revise copy and
+    landing pages accordingly.
+  pain: 品牌在 AI 回答中的可见度不透明，团队只能靠人工反复提问和截图来拼凑印象，无法形成可复用的证据。
+  pain_en: Brand visibility inside AI answers is opaque; teams can only piece together an impression by
+    manually asking and screenshotting, with no reusable evidence.
+  current_alternative: 人工在多个中国 AI 助手里反复提问、截图并整理成表格，或依赖代理商的定性判断。
+  current_alternative_en: Manually querying several Chinese AI assistants, screenshotting and compiling
+    spreadsheets, or relying on an agency's qualitative judgement.
+  usage_reason: 推断：若它真能把分散的 AI 回答聚成一份可核对的证据并直接给出改写动作，就省掉了人工逐条提问与整理这一步；但公开材料没有说明输入、产出与确认环节，因此哪类用户会在什么情况下选择它尚无法判断。
+  usage_reason_en: 'Inference: if it truly aggregates scattered AI answers into checkable evidence and
+    directly outputs rewrite actions, it removes the manual query-and-compile step; but public material
+    does not describe inputs, outputs or confirmation, so which users would choose it and when cannot
+    yet be judged.'
+- id: req-full-chinamarketingai-geo-workspace-2026-09-20
+  project_slug: chinamarketingai-geo-workspace
+  level: full
+  reviewed_at: '2026-09-20T00:29:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是品牌在 AI 回答中可见度不透明的问题，痛点方向成立，但公开材料未说明输入、产出与交付形态，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-c5ae8b053b5168b7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或公开客户案例，确认交付物形态与买方。
+  market: ''
+  job: 出海品牌的市场负责人或跨境营销代理，在准备面向中国市场的投放与内容时，需要先弄清中国 AI 搜索与问答里品牌被如何提及，再据此改文案和落地页。
+  job_en: A marketing lead at an outbound brand, or a cross-border agency, preparing China-facing campaigns
+    needs to know how the brand is mentioned in Chinese AI search and chat answers, then revise copy and
+    landing pages accordingly.
+  pain: 品牌在 AI 回答中的可见度不透明，团队只能靠人工反复提问和截图来拼凑印象，无法形成可复用的证据。
+  pain_en: Brand visibility inside AI answers is opaque; teams can only piece together an impression by
+    manually asking and screenshotting, with no reusable evidence.
+  current_alternative: 人工在多个中国 AI 助手里反复提问、截图并整理成表格，或依赖代理商的定性判断。
+  current_alternative_en: Manually querying several Chinese AI assistants, screenshotting and compiling
+    spreadsheets, or relying on an agency's qualitative judgement.
+  usage_reason: 推断：若它真能把分散的 AI 回答聚成一份可核对的证据并直接给出改写动作，就省掉了人工逐条提问与整理这一步；但公开材料没有说明输入、产出与确认环节，因此哪类用户会在什么情况下选择它尚无法判断。
+  usage_reason_en: 'Inference: if it truly aggregates scattered AI answers into checkable evidence and
+    directly outputs rewrite actions, it removes the manual query-and-compile step; but public material
+    does not describe inputs, outputs or confirmation, so which users would choose it and when cannot
+    yet be judged.'

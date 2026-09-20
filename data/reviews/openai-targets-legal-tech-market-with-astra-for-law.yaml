@@ -1,0 +1,81 @@
+- id: req-initial-openai-targets-legal-tech-market-with-astra-for-law-2026-09-20
+  project_slug: openai-targets-legal-tech-market-with-astra-for-law
+  level: initial
+  reviewed_at: '2026-09-20T00:09:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决法律检索与文书处理需求，但候选只有标题，痛点、旧流程与交付均无法还原，价值结构尚不能判定。
+    evidence_ids:
+    - ev-76a233cc6292f9fd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇报道标题，没有律师群体讨论、采用或客户案例，共识卡在哪一环无法判断。
+    evidence_ids:
+    - ev-76a233cc6292f9fd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱来自律所、法务部门还是个人律师均属未知。
+    evidence_ids:
+    - ev-76a233cc6292f9fd
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近法律工作的第一性目标、承诺能否确定性交付以及人工复核边界。
+    evidence_ids:
+    - ev-76a233cc6292f9fd
+  next_validation: 收集 Astra for Law 的官方产品页或定价页，确认其功能范围、计价方式与是否披露客户案例。
+  market: ''
+  job: 律师或企业法务在处理案件材料、合同与法律检索时，需要快速得到可用的法律工作产出。
+  job_en: Lawyers or in-house counsel handling case files, contracts and legal research need usable legal
+    work output quickly.
+  pain: 候选未提供任何用户痛点、抱怨或旧流程描述，无法确认具体难受在哪一步。
+  pain_en: The candidate offers no user pain, complaint or legacy-workflow description, so the specific
+    friction point cannot be confirmed.
+  current_alternative: 候选未说明律师目前用什么方式完成同类工作，旧替代行为未知。
+  current_alternative_en: The candidate does not say how lawyers currently do this work, so the legacy
+    alternative is unknown.
+  usage_reason: 缺少功能、定价与使用证据，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no feature, pricing or usage evidence, it is impossible to explain which step
+    it removes versus the old way or which users would choose it and when.
+- id: req-full-openai-targets-legal-tech-market-with-astra-for-law-2026-09-20
+  project_slug: openai-targets-legal-tech-market-with-astra-for-law
+  level: full
+  reviewed_at: '2026-09-20T00:30:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选只有报道标题，未说明 Astra for Law 接收什么材料、执行哪一步动作、交付什么结果，用户任务与痛点均无法还原，价值结构不能判定。
+    evidence_ids:
+    - ev-80cfdb25e6d84ced
+    - ev-8137e0931c0f0bfb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenAI 官方博客或产品页是否发布 Astra for Law 的功能说明、定价与客户案例，确认其输入材料、交付结果与人工复核边界。
+  market: ''
+  job: 候选仅称律师或法务在处理案件材料、合同与法律检索时可能打开 Astra for Law，但未说明谁在什么情况下、处理什么具体材料、要完成哪一步法律任务。
+  job_en: The candidate only says lawyers or in-house counsel might open Astra for Law when handling case
+    files, contracts and legal research, without specifying who, in what situation, with what material,
+    or which legal task step is completed.
+  pain: 公开材料只有报道标题，没有任何用户痛点、抱怨或旧流程描述，无法确认法律检索或文书处理中具体难受在哪一步。
+  pain_en: The public material is only a report headline, with no user pain, complaint or legacy-workflow
+    description, so the specific friction in legal research or document work cannot be confirmed.
+  current_alternative: 候选未说明律师目前用什么方式完成同类工作，旧替代行为未知。
+  current_alternative_en: The candidate does not say how lawyers currently do this work, so the legacy
+    alternative is unknown.
+  usage_reason: 缺少功能、输入输出与使用证据，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no feature, input-output or usage evidence, it is impossible to explain which
+    step it removes versus the old way or which users would choose it and when.

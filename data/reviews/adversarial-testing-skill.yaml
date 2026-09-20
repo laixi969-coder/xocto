@@ -448,3 +448,42 @@
   usage_reason_en: 'Inference: if the dual-AI approach reduces manual security testing steps, developers
     might choose it; however, public materials only show 43 stars, with no user feedback or adoption evidence
     supporting this causal link.'
+- id: req-full-adversarial-testing-skill-2026-09-20
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-09-20T00:28:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图用双 AI 对打替代人工安全测试，但公开材料只有一句产品说明，没有用户反馈、issue 或案例说明漏测代价与测试频率，需求与痛点无法从公开事实还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、使用文档与 issue/discussion，核对双 AI 对打流程如何运行、结果是否可复现及人工复核边界。
+  market: ''
+  job: 开发者或安全测试者在发布产品前，需要让一个 AI 读取源码、另一个 AI 在不知源码的情况下充当攻击者，对产品做对抗性测试并找出漏洞。
+  job_en: Before shipping, a developer or security tester needs one AI to read the source and another
+    to attack the product blind, running adversarial testing to surface vulnerabilities.
+  pain: 公开材料只有一句产品说明，没有用户反馈、issue 或案例说明人工安全测试的覆盖不足、成本或漏测后果，痛点强度无法从公开事实还原。
+  pain_en: Public materials give only a one-line product description; no user feedback, issues, or cases
+    show the coverage gaps, cost, or missed-vulnerability consequences of manual security testing, so
+    pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users complete this job today or what prior
+    practice it replaces.
+  usage_reason: 推断：若双 AI 对打能自动生成攻击面并减少人工构造测试用例的步骤，理论上可降低安全测试的启动成本；但缺少用户反馈或采用证据，无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the two-AI duel auto-generates attack surfaces and cuts manual test-case
+    construction, it could lower the cost of starting security testing; but without user feedback or adoption
+    evidence, it is unconfirmed which users would choose it and when.'

@@ -422,3 +422,44 @@
   usage_reason_en: Public materials provide no user feedback, cases, or adoption motive; it cannot be
     shown which step is reduced or which checkable result improves versus the old approach, so no usage
     reason can be given.
+- id: req-full-applied-micro-skills-2026-09-20
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-09-20T00:28:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮研究者从数据、回归到论文表并复核复现，但公开材料只有产品描述，未记录任何用户痛点、频率或不采用代价，无法判断需求刚性。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的 公开代码仓库 仓库 README、issue 与 discussion，确认研究者实际用它完成哪一步、替代了什么旧流程，以及是否出现采用或付费线索。
+  market: ''
+  job: 应用微观经济学研究者需要从获取数据（如 WRDS）、跑回归（Stata）到产出论文级表格，并复核数字能否复现，用于投稿或审稿。
+  job_en: An applied microeconomics researcher needs to go from data acquisition (e.g., WRDS) through
+    regressions (Stata) to publication-grade tables, and check that the numbers reproduce, for submission
+    or review.
+  pain: 公开材料只有一句产品描述，未记录任何用户痛点、抱怨或代价；无法从现有证据判断复现失败或表格制作在研究者工作中造成多大摩擦。
+  pain_en: Public materials contain only a one-line product description with no recorded user pain, complaint,
+    or cost; existing evidence cannot establish how much friction reproducibility failures or table production
+    cause in researchers' work.
+  current_alternative: 公开材料未说明研究者目前如何完成这项工作；结构上可推断的替代是手工写 Stata 脚本、用现成模板出表并人工核对复现，但无证据支持。
+  current_alternative_en: Public materials do not state how researchers currently do this job; the structurally
+    inferable alternative is hand-writing Stata scripts, using existing table templates, and manually
+    checking reproducibility, but no evidence supports this.
+  usage_reason: 公开材料未提供任何用户反馈或采用证据，无法说明研究者相较手工脚本为什么会选择它；仅有产品功能描述，不足以构成使用理由。
+  usage_reason_en: Public materials provide no user feedback or adoption evidence to explain why a researcher
+    would choose this over manual scripts; a product feature description alone does not constitute a usage
+    reason.

@@ -24,7 +24,7 @@ summary: "Being a computer scientist who refuses to find anything about LLMs int
   \ for the marketing.\" \n\n     Tags:  llms ,  ai ,  generative-ai"
 first_seen: '2026-09-18T19:21:32Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

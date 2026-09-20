@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE16NXE3X09rT0Jq
 summary: AI公司把全球用户数据给美情报机构 硅谷辩论背后的利益博弈 中华网
 first_seen: '2026-09-19T11:22:51Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

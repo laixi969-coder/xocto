@@ -1,0 +1,90 @@
+- id: req-initial-lumiko-2026-09-20
+  project_slug: lumiko
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决录屏成片缺少视觉引导、手动运镜耗时的问题，旧做法是逐段打关键帧，痛点具体且可核对。
+    evidence_ids:
+    - ev-05d7ba5bd5bee65e
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条发布信息，没有用户评价、使用量或社区讨论，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-05d7ba5bd5bee65e
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，买方可能是个人创作者或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-05d7ba5bd5bee65e
+  - gate: truth
+    status: insufficient
+    reason: 自动运镜是否在真实录屏上稳定可用、是否需要人工返工，公开材料未提供可复现结果。
+    evidence_ids:
+    - ev-05d7ba5bd5bee65e
+  next_validation: 收集 Lumiko 官方定价页或导出规格说明，确认按什么计价以及自动运镜的成片是否需人工复核。
+  market: ''
+  job: 教程作者或产品市场人员在录完屏幕操作后，处理原始录屏素材，要产出一段观众能看清重点、不需要自己盯全程的演示视频。
+  job_en: A tutorial author or product marketer, after finishing a screen recording, works on the raw
+    footage to produce a demo video where viewers can see the key points without tracking the whole screen.
+  pain: 原始录屏画面信息密度低，观众容易迷失；要让人看清重点就得手动打关键帧做缩放平移，逐段调整非常耗时，不做又显得粗糙。
+  pain_en: Raw screen recordings have low information density and viewers get lost; making key points
+    visible requires hand-keyframed zoom and pan, which is slow segment by segment, yet skipping it looks
+    unpolished.
+  current_alternative: 用通用剪辑软件手动打关键帧，或干脆不做运镜、只靠旁白和光标高亮；也有人把录屏交给剪辑外包。
+  current_alternative_en: Hand-keyframing in a general video editor, or skipping camera movement entirely
+    and relying on narration and cursor highlights; some outsource the recording to an editor.
+  usage_reason: 推断：相较手动逐段打关键帧，Lumiko 直接读取录屏画面并自动决定缩放平移的位置，省掉的是“判断该推哪里并手动设置”这一步，因此录屏量大、又请不起剪辑的教程作者和独立 SaaS
+    团队会先试它。
+  usage_reason_en: 'Inference: compared with hand-keyframing each segment, Lumiko reads the screen footage
+    and decides zoom and pan positions itself, removing the step of judging where to push in and setting
+    it manually, so tutorial authors and small SaaS teams with lots of footage but no editor budget would
+    try it first.'
+- id: req-full-lumiko-2026-09-20
+  project_slug: lumiko
+  level: full
+  reviewed_at: '2026-09-20T00:30:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决录屏成片缺少视觉引导、手动运镜耗时的问题，旧做法是逐段打关键帧，痛点具体且可核对，属工作流结构推理。
+    evidence_ids:
+    - ev-05d7ba5bd5bee65e
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条 公开资料 发布信息，没有用户评价、使用量或社区讨论，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-05d7ba5bd5bee65e
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，买方可能是个人创作者或团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-05d7ba5bd5bee65e
+  - gate: truth
+    status: insufficient
+    reason: 自动运镜是否在真实录屏上稳定可用、是否需要人工返工，公开材料未提供可复现结果。
+    evidence_ids:
+    - ev-05d7ba5bd5bee65e
+  next_validation: 追踪 Lumiko 官方定价页或导出规格说明，确认按什么计价以及自动运镜成片是否需人工复核。
+  market: ''
+  job: 教程作者或产品市场人员在录完屏幕操作后，处理原始录屏素材，要产出一段观众能看清重点、不必盯全程的演示视频。
+  job_en: A tutorial author or product marketer, after finishing a screen recording, works on the raw
+    footage to produce a demo video where viewers can see the key points without tracking the whole screen.
+  pain: 原始录屏信息密度低、观众容易迷失；要让人看清重点就得手动逐段打关键帧做缩放平移，非常耗时，不做又显得粗糙。
+  pain_en: Raw screen recordings have low information density and viewers get lost; making key points
+    visible requires hand-keyframing zoom and pan segment by segment, which is slow, yet skipping it looks
+    unpolished.
+  current_alternative: 用通用剪辑软件手动打关键帧，或干脆不做运镜、只靠旁白和光标高亮；也有人把录屏交给剪辑外包。
+  current_alternative_en: Hand-keyframing in a general video editor, or skipping camera movement entirely
+    and relying on narration and cursor highlights; some outsource the recording to an editor.
+  usage_reason: 推断：相较手动逐段打关键帧，Lumiko 直接读取录屏画面并自动决定缩放平移位置，省掉的是“判断该推哪里并手动设置”这一步，因此录屏量大、又请不起剪辑的教程作者和独立 SaaS
+    团队会先试它；尚无用户反馈证实。
+  usage_reason_en: 'Inference: compared with hand-keyframing each segment, Lumiko reads the screen footage
+    and decides zoom and pan positions itself, removing the step of judging where to push in and setting
+    it manually, so tutorial authors and small SaaS teams with lots of footage but no editor budget would
+    try it first; no user feedback yet confirms this.'

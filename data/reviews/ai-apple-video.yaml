@@ -391,3 +391,53 @@
     keynote-style shot structure, pacing, and packaging into a reusable template, so users only supply
     product assets to get a finished clip, removing the lighting/shooting step and per-shot prompt tuning;
     sellers without a shooting budget who need consistent ad creative would choose it when rushing assets.'
+- id: req-full-ai-apple-video-2026-09-20
+  project_slug: ai-apple-video
+  level: full
+  reviewed_at: '2026-09-20T00:28:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是普通产品缺少高端发布会风格视频素材的需求，痛点在于拍摄剪辑与调色成本高、风格难统一；公开仓库说明可把任意普通产品生成约30秒苹果风格视频，输入—动作—交付闭环清晰，属工作流结构推理，尚无用户痛点或采用证据。
+    evidence_ids:
+    - ev-ce9a08e150c1d330
+    - ev-ff16943d55d18bc8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从113增至126，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标营销或电商用户已把它留在工作流；缺少 issue、discussion 或用户评价说明谁在何种场景重复使用。
+    evidence_ids:
+    - ev-ce9a08e150c1d330
+    - ev-9ccc400c9dc913f0
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能，公开材料未见定价页、付费路径或买方归属；钱可能来自 to C 卖家订阅、to B 营销团队采购或 to VC 叙事，均属判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-ce9a08e150c1d330
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出成片质量、生成稳定性、人工审核边界或安全合规说明，交付能否确定性发生缺少可复现证据；技能封装风格模板不等于每次输出都达到发布会级效果。
+    evidence_ids:
+    - ev-ff16943d55d18bc8
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开贴出实际生成成片、使用场景与重复使用记录。
+  market: ''
+  job: 电商卖家或产品营销人员在需要为普通商品制作投放素材时，把产品图片或现有素材输入该开源技能，按苹果发布会风格生成约30秒的高端产品视频，用于社交媒体或广告投放。
+  job_en: An e-commerce seller or product marketer preparing ad creative inputs product images or existing
+    assets into this open-source skill to generate a roughly 30-second Apple-keynote-style premium product
+    video for social media or ad placement.
+  pain: 公开材料只说明它把普通产品包装成高端消费电子风格，未给出用户抱怨、制作成本或频率数据；从工作流结构推理，痛点在于高质量产品视频通常需要脚本、拍摄、剪辑与调色等多环节协作，中小卖家难以低成本稳定产出统一的高端视觉调性。
+  pain_en: Public materials only state that it packages ordinary products in a premium consumer-electronics
+    style, with no user complaints, cost, or frequency data; by workflow inference, the pain is that high-quality
+    product videos normally require scripting, shooting, editing, and color work, which small sellers
+    struggle to produce cheaply with a consistent premium look.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的替代方式是自建拍摄剪辑流程、外包视频制作，或使用通用 AI 视频工具再手工调整风格。
+  current_alternative_en: Public materials do not state how users currently do this job; structurally
+    inferable alternatives are in-house shooting and editing, outsourced video production, or generic
+    AI video tools with manual style adjustment.
+  usage_reason: 推断：相较自建拍摄剪辑或外包，该技能把风格模板与生成流程封装为一次输入即产出约30秒成片的动作，减少脚本、拍摄与调色环节的负担，因此缺少视频团队、又需要统一高端调性的电商卖家或营销人员会在赶投放素材时选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus in-house shooting/editing or outsourcing, the skill packages the
+    style template and generation flow into a single input producing a roughly 30-second clip, cutting
+    scripting, shooting, and color-grading effort, so sellers or marketers without a video team who need
+    a consistent premium tone would choose it when ad deadlines loom; no user feedback or case yet confirms
+    this motive.'

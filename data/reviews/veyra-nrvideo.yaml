@@ -162,3 +162,48 @@
   usage_reason_en: The repository headline sells 'Bring PS5 GTA6 to 120FPS', which is marketing imagination
     rather than a verifiable user task; no user feedback or case shows which step it removes versus the
     old approach, so it is unclear which users would choose it and when (inference).
+- id: req-full-veyra-nrvideo-2026-09-20
+  project_slug: veyra-nrvideo
+  level: full
+  reviewed_at: '2026-09-20T00:31:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决直播/录制中低清高噪采集画面实时增强的需求，但公开材料只有功能描述，没有用户抱怨、案例或替代行为证明痛点刚性；标题式“PS5 GTA6 120FPS”更像营销噱头，缺少不解决的代价与频率，价值关证据不足。
+    evidence_ids:
+    - ev-b121467fcbe192b5
+    - ev-609796a40c2f9b70
+    - ev-35da3901a2affd19
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 说明与 issue/discussion，确认是否公开硬件要求、可复现画质指标及真实用户使用反馈。
+  market: ''
+  job: 游戏主播或视频创作者在直播或录制时，把采集卡输入或本地低清高噪视频、图片交给这个 Windows 工具，实时得到超分、降噪、插帧后的预览画面，用于直播或录制成片。
+  job_en: Game streamers or video creators feed capture-card input or local low-resolution, noisy video
+    and images into this Windows tool during live streaming or recording, to get a real-time super-resolved,
+    denoised, frame-interpolated preview for broadcast or recording.
+  pain: 公开材料只给出产品功能描述，没有用户抱怨、评测或案例说明低清高噪采集画面在直播/录制中造成什么具体损失、发生频率或不解决的后果；痛点强度无法从现有证据确认。
+  pain_en: Public materials only describe product features; no user complaints, reviews, or cases show
+    what specific loss, frequency, or consequence low-resolution noisy capture footage causes in streaming
+    or recording, so pain intensity cannot be confirmed from available evidence.
+  current_alternative: 公开材料未说明用户现在如何完成这项工作；按工作流结构推理，主播通常用 OBS 等直播软件的滤镜、采集卡自带缩放或后期软件处理，但这一替代路径没有公开证据支持。
+  current_alternative_en: Public materials do not state how users currently do this job; by workflow inference,
+    streamers typically rely on OBS-class filters, capture-card scaling, or post-production software,
+    but this alternative path is not backed by public evidence.
+  usage_reason: 推断：相较 OBS 滤镜或后期处理，它把超分、降噪、插帧合并进一个实时预览播放器，可能省去单独后期步骤；但公开材料没有用户反馈或案例说明谁在什么情况下因此选择它，也没有留存或复购证据，无法确认这一理由成立。
+  usage_reason_en: 'Inference: versus OBS filters or post-production, it merges super-resolution, denoising,
+    and frame interpolation into one real-time preview player, potentially removing a separate post step;
+    however, no user feedback or cases show who chooses it for this reason, and no retention or repeat-use
+    evidence confirms it.'

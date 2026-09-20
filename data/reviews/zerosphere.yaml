@@ -1,0 +1,82 @@
+- id: req-initial-zerosphere-2026-09-20
+  project_slug: zerosphere
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只说明 AI 有独立显示，未说清解决什么任务、不采用会失去什么，价值关未过。
+    evidence_ids:
+    - ev-b44d622d809c63dd
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺少用户评价与采用信号。
+    evidence_ids:
+    - ev-b44d622d809c63dd
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，定价与买方均未披露。
+    evidence_ids:
+    - ev-b44d622d809c63dd
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付形态与人工边界无法核对。
+    evidence_ids:
+    - ev-b44d622d809c63dd
+  next_validation: 收集 ZeroSphere 官方产品页或文档，确认它接管哪些输入、与哪些本地模型或应用连接。
+  market: ''
+  job: 在本地机器上跑 AI 工具的个人开发者或知识工作者，在同时处理代码、文档与 AI 输出时，需要让 AI 结果保持可见。
+  job_en: Individual developers or knowledge workers running AI tools locally need AI results to stay
+    visible while they handle code, documents and AI output at the same time.
+  pain: 公开材料只说明 AI 拥有独立显示，未说明切换窗口或输出被遮挡带来什么具体损失。
+  pain_en: The public material only says AI gets its own display; it does not state what concrete loss
+    comes from switching windows or having output obscured.
+  current_alternative: 多显示器、分屏窗口、终端面板或第二台设备。
+  current_alternative_en: Multiple monitors, split-screen windows, terminal panes or a second device.
+  usage_reason: 推断：若独立显示能省去切换窗口这一步，常驻查看 AI 输出的用户会尝试；但材料未说明它接管什么输入、与哪些本地工具连接，选择理由尚不成立。
+  usage_reason_en: 'Inference: if a dedicated display removes window switching, users who keep AI output
+    visible may try it; but the material does not say what inputs it takes over or which local tools it
+    connects to, so the reason to choose it is not yet established.'
+- id: req-full-zerosphere-2026-09-20
+  project_slug: zerosphere
+  level: full
+  reviewed_at: '2026-09-20T00:31:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只说明 AI 有独立显示，未说清解决什么任务、不采用会失去什么，且多显示器与分屏已能实现常驻可见，痛点刚性不足，价值关未过。
+    evidence_ids:
+    - ev-b44d622d809c63dd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ZeroSphere 官方产品页或文档，确认它接管哪些输入、与哪些本地模型或应用连接，以及是否披露定价或客户案例。
+  market: ''
+  job: 在本地机器上运行 AI 工具的个人开发者或知识工作者，在同时处理代码、文档与 AI 输出时，需要让 AI 结果保持常驻可见，以便边写边看。
+  job_en: Individual developers or knowledge workers running AI tools locally need AI output to stay persistently
+    visible while they handle code and documents side by side.
+  pain: 公开材料只给出“AI 获得独立显示”这一句，没有说明切换窗口或输出被遮挡造成什么具体损失，也没有用户抱怨或 workaround 证据，痛点强度无法从公开事实确认。
+  pain_en: The public material only states that AI gets its own display; it does not describe any concrete
+    loss from window switching or obscured output, and there is no user complaint or workaround evidence,
+    so pain intensity cannot be confirmed from public facts.
+  current_alternative: 多显示器、分屏窗口、终端面板或第二台设备，这些做法已能实现 AI 输出常驻可见。
+  current_alternative_en: Multiple monitors, split-screen windows, terminal panes or a second device already
+    keep AI output persistently visible.
+  usage_reason: 推断：若独立显示能省去切换窗口这一步，常驻查看 AI 输出的用户可能尝试；但材料未说明它接管哪些输入、与哪些本地模型或应用连接，相较现有分屏方案没有可核对的改善，选择理由不成立。
+  usage_reason_en: 'Inference: if a dedicated display removes window switching, users keeping AI output
+    visible might try it; but the material does not say what inputs it takes over or which local models
+    or apps it connects to, offering no verifiable improvement over existing split-screen setups, so the
+    reason to choose it does not hold.'

@@ -451,3 +451,41 @@
   usage_reason_en: A public record shows 2.08M monthly visits and 570.29% MoM growth, which explains attention
     but not why users choose it or whether they keep using it; user feedback and adoption evidence are
     missing.
+- id: req-full-agnes-ai-2026-09-20
+  project_slug: agnes-ai
+  level: full
+  reviewed_at: '2026-09-20T00:28:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把团队文档、任务与共同记忆收进同一工作台并由 AI 跟随项目，但公开材料只有产品定位，没有用户任务、痛点强度、旧替代行为或不采用后果，连需求与痛点都无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Agnes AI 官网是否公开定价页、客户案例或部署文档，以确认具体使用场景、替代对象与付费主体。
+  market: ''
+  job: 团队在推进多线项目时，把散落在聊天、文档与任务工具里的项目材料汇总到同一张工作台，让 AI 依据项目上下文持续跟进任务与共同记忆。
+  job_en: While running multi-threaded projects, a team consolidates project material scattered across
+    chat, docs, and task tools onto one desk so an AI can follow tasks and shared memory with project
+    context.
+  pain: 公开材料只给出产品定位，没有用户抱怨、旧流程摩擦或返工代价的公开记录，无法确认不解决会失去什么。
+  pain_en: Public material only states the product positioning; there is no public record of user complaints,
+    old-workflow friction, or rework cost, so what is lost by not solving it cannot be confirmed.
+  current_alternative: 公开材料未说明用户现在用什么方式完成这项工作，也未说明它实际替代了哪类工具或流程。
+  current_alternative_en: Public material does not show how users do this job today or which tools or
+    workflows it actually replaces.
+  usage_reason: 缺少用户反馈与客户案例，无法说明用户为何选择它；访问量只能解释关注度，不能解释采用动机（推断）。
+  usage_reason_en: Without user feedback or customer cases, why users choose it cannot be explained; traffic
+    only explains attention, not adoption motive (inference).

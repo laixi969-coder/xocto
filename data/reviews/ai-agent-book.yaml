@@ -448,3 +448,41 @@
     and companion experiments in one repository so readers can read and run side by side, removing the
     step of stitching sources together and writing examples from scratch; self-learners and course students
     would choose it when they need to actually build an agent.'
+- id: req-full-ai-agent-book-2026-09-20
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-09-20T00:28:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把 AI Agent 的设计与落地写成可跟做的开源教材，但公开材料只有仓库定位与收藏数，没有学习者任务、痛点或旧学习路径代价，需求与痛点均无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ai-agent-book 仓库的 issue、discussion 与 README 更新，确认读者实际卡点、实验可复现性及是否有课程或赞助采用记录。
+  market: ''
+  job: 开发者或技术学习者在准备构建 AI Agent 时，阅读开源教材并跟着做实验，以掌握设计原理与工程落地步骤。
+  job_en: A developer or technical learner preparing to build an AI agent reads an open textbook and follows
+    its experiments to grasp design principles and engineering steps.
+  pain: 公开材料只有教材定位与仓库收藏数，没有学习者抱怨、卡点或旧学习路径代价的记录，痛点强度无法确认。
+  pain_en: Public material only gives the textbook positioning and repo star count; there is no record
+    of learner complaints, blockers, or the cost of the old learning path, so pain intensity cannot be
+    confirmed.
+  current_alternative: 公开材料未说明学习者现在用什么替代方式，例如官方文档、博客教程或付费课程。
+  current_alternative_en: Public material does not show what learners use instead today, such as official
+    docs, blog tutorials, or paid courses.
+  usage_reason: 仓库收藏与复刻只说明开发者注意到它，缺少读者反馈或课程采用记录，无法说明为何选择它而非其他教程（推断）。
+  usage_reason_en: Repo stars and forks only show developer attention; without reader feedback or course
+    adoption records, why it is chosen over other tutorials cannot be explained (inference).

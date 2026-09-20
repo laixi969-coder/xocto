@@ -1,6 +1,6 @@
 ---
 slug: process-intelligence-case-study-underscores-celonis-role-in
-name: Process Intelligence Case Study Underscores Celonis Role in AI-Driven Efficiency
+name: Celonis
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNZlRDZTlwWHRm
 summary: Process Intelligence Case Study Underscores Celonis Role in AI-Driven Efficiency TipRanks
 first_seen: '2026-09-19T21:28:42Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Process Intelligence Case Study Underscores Celonis Role in AI-Driven Efficiency
+# Celonis
 
 Process Intelligence Case Study Underscores Celonis Role in AI-Driven Efficiency TipRanks
 

@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-wi
 summary: Trump claimed, without evidence, that the AI backlash is a Democratic hoax.
 first_seen: '2026-09-19T19:57:47Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

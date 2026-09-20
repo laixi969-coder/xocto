@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/492429.html
 summary: 同一预测核心，跨七类系统验证
 first_seen: '2026-09-19T06:39:32Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

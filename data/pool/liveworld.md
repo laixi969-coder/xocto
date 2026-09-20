@@ -21,7 +21,7 @@ canonical_url: https://liveworld.info
 summary: Every 24/7 YouTube live camera on one globe
 first_seen: '2026-09-19T00:30:34Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -132,3 +132,50 @@
     pass over the diff and change plan and returns concrete edits, removing the step of drafting review
     comments by hand, so developers merging AI code often would pick it before committing; stars rising
     from 98 to 105 shows attention only, not sustained use.'
+- id: req-full-reslop-2026-09-20
+  project_slug: reslop
+  level: full
+  reviewed_at: '2026-09-20T00:30:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码合并前的审查需求，痛点是漏审把缺陷带进主分支，旧做法是人工逐行读差异；公开材料仅给出产品定位与仓库关注度，价值判断属工作流结构推理。
+    evidence_ids:
+    - ev-b08590a78eca83fa
+    - ev-c5356aaf98fecb76
+  - gate: consensus
+    status: insufficient
+    reason: 仓库关注度从 98 升至 112 只说明有人关注，没有用户评价、团队采用或审查环节被独立化的公开证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b08590a78eca83fa
+    - ev-c5356aaf98fecb76
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页或买方，向工程团队按仓库或审查次数收费只是判断，不是已验证事实；也未出现融资叙事。
+    evidence_ids:
+    - ev-b08590a78eca83fa
+  - gate: truth
+    status: insufficient
+    reason: 无法核验它是否贴近真实审查目标、能否确定性交付，以及人工确认与安全边界如何设定；仓库描述未说明支持的托管平台与流程。
+    evidence_ids:
+    - ev-199f94ffa030d124
+  next_validation: 追踪 reslop 开源仓库的 issue 与 discussion，确认用户实际提交的审查场景、支持的代码托管平台与反馈。
+  market: ''
+  job: 开发者在把 AI 生成的代码改动合并进主分支之前，打开 reslop，把待审的代码差异和改动计划交给它，完成一次能标出问题并给出修改方案的审查。
+  job_en: Before merging AI-generated code changes into the main branch, a developer opens reslop, hands
+    it the pending diff and change plan, and completes a review that flags problems and returns concrete
+    fixes.
+  pain: AI 生成代码的产出速度已超过人工逐行审查的承受能力，漏审会把缺陷直接带进主分支；公开材料只给出产品定位与仓库关注度，未提供用户抱怨或漏审事故的直接陈述。
+  pain_en: AI-generated code now arrives faster than humans can review line by line, and missed review
+    puts defects straight into the main branch; public material only gives the product positioning and
+    repo attention, not direct user complaints or incident reports.
+  current_alternative: 人工逐行读差异、依赖通用代码助手做零散提示，或降低审查标准直接合并。
+  current_alternative_en: Reading diffs line by line by hand, relying on general coding assistants for
+    scattered hints, or lowering the review bar and merging anyway.
+  usage_reason: 推断：相较人工逐行通读差异再自行组织评审意见，reslop 把审查收敛为对差异与改动计划的一次集中检查并直接输出修改方案，省去通读和起草意见两步，因此合并 AI 代码频繁的团队会在提交前使用它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with reading diffs line by line and drafting review comments by
+    hand, reslop narrows review into one focused pass over the diff and change plan and returns concrete
+    edits, removing the read-through and comment-drafting steps, so teams merging AI code often would
+    use it before committing; no user feedback yet confirms this motive.'

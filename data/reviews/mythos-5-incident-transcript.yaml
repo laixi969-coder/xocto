@@ -275,3 +275,44 @@
   usage_reason_en: With no product description, documentation, issues, or user feedback, there is no explanation
     of why users would choose it over existing approaches; rising stars reflect attention only, not a
     usage reason.
+- id: req-full-mythos-5-incident-transcript-2026-09-20
+  project_slug: mythos-5-incident-transcript
+  level: full
+  reviewed_at: '2026-09-20T00:30:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据仅有仓库 star 数变化，没有产品说明、文档或用户材料，无法写出它解决什么需求、什么痛点，也说不清用户任务与不采用后果，故价值关无法成立。
+    evidence_ids:
+    - ev-a54afc2da169f2b1
+    - ev-6b6d0cbf16ee839e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它实际处理什么输入、由谁在何种事故或审计场景中使用，以及是否替代了现有记录流程。
+  market: ''
+  job: 公开材料只显示这是一个 公开代码仓库 仓库（anthropics/mythos-5-incident-transcript），未说明谁在什么情况下处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public materials show only a public code repository repository (anthropics/mythos-5-incident-transcript);
+    they do not state who, in what situation, handles what material to complete what task, so no concrete
+    job can be reconstructed.
+  pain: 没有可引用的公开事实说明用户遇到什么困难、频率多高、不解决会有什么后果；仓库名暗示与事故记录相关，但这是推测，不是证据。
+  pain_en: No citable public fact describes what difficulty users face, how often, or what happens if
+    unsolved; the repo name hints at incident transcripts, but that is inference, not evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧流程。
+  current_alternative_en: Public materials do not state how users currently do this work, nor what prior
+    process the repository replaces.
+  usage_reason: 缺少产品说明、文档、issue 或用户反馈，无法解释用户相较现有做法为什么会选择它；仅有 star 数从 50 增至 107，属于关注度信号，不能说明选择原因或持续使用（推断）。
+  usage_reason_en: With no product description, docs, issues, or user feedback, there is no explanation
+    of why users would choose it over their current approach; stars rising from 50 to 107 is an attention
+    signal only, not a reason for choice or sustained use (inference).

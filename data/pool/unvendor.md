@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/unvendor
 summary: A shared UI between you and the AI
 first_seen: '2026-09-17T23:34:12Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

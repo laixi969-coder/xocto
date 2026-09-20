@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVUGRQS2VnMGtK
 summary: AGNTCon欧洲大会：如何让AI智能体不再"失控"-人工智能 至顶网
 first_seen: '2026-09-20T00:01:24Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

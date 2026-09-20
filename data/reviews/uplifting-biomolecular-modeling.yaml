@@ -115,3 +115,46 @@
   usage_reason_en: With no feature description, input/output detail, or user feedback, there is no explanation
     of why researchers would choose it over existing modeling tools; star counts reflect attention, not
     usage reasons.
+- id: req-full-uplifting-biomolecular-modeling-2026-09-20
+  project_slug: uplifting-biomolecular-modeling
+  level: full
+  reviewed_at: '2026-09-20T00:31:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅显示这是 Anthropic 发布的生物分子建模仓库及收藏数变化，未说明谁在什么工作节点使用、输入什么、产出什么交付，也写不出具体痛点与不解决的后果，需求结构无法还原。
+    evidence_ids:
+    - ev-8744519de847c274
+    - ev-4dd9e60387286fca
+    - ev-4569b13f63c48203
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认其声明的输入、输出与使用场景，并查找是否有公开论文或客户案例说明实际建模任务与替代流程。
+  market: ''
+  job: 生物医药研究者或计算药物发现团队在需要构建、评估生物分子结构或候选分子时，打开该仓库获取 Anthropic 提供的建模方法或示例，以完成一轮分子建模或药物发现计算任务。
+  job_en: Biomedical researchers or computational drug-discovery teams open this repository when they
+    need to build or evaluate biomolecular structures or candidate molecules, using Anthropic-provided
+    modeling methods or examples to complete a round of molecular modeling or drug-discovery computation.
+  pain: 公开材料只显示仓库存在与收藏数增长，未说明研究者当前在建模流程中卡在哪一步、错误率或耗时代价如何，因此无法确认痛点刚性。
+  pain_en: Public materials only show the repository exists and its star count grows; they do not state
+    where researchers currently get stuck in the modeling workflow or what error or time cost they bear,
+    so pain rigidity cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前用何种工具或流程完成同类建模任务，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not state which tools or workflows users currently use for
+    comparable modeling tasks, nor what prior practice this repository replaces.
+  usage_reason: 推断：若该仓库提供可复用的建模代码或示例，研究者可能因省去从零搭建流程而选用；但公开材料未给出任何用户反馈或案例，无法确认这一因果。
+  usage_reason_en: 'Inference: if the repository offers reusable modeling code or examples, researchers
+    might adopt it to avoid building a pipeline from scratch; however, no user feedback or case is public,
+    so this causal link is unconfirmed.'

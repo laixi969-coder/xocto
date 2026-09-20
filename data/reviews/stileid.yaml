@@ -1,0 +1,83 @@
+- id: req-initial-stileid-2026-09-20
+  project_slug: stileid
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决判断注册用户是否为真人的需求，但候选只有一句描述，核验依据与不采用的代价都不清楚。
+    evidence_ids:
+    - ev-c693f1cb509ea8e6
+  - gate: consensus
+    status: insufficient
+    reason: 没有客户案例、接入记录或用户评价，无法判断平台是否真的采用。
+    evidence_ids:
+    - ev-c693f1cb509ea8e6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按调用量还是按席位收费无从判断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-c693f1cb509ea8e6
+  - gate: truth
+    status: insufficient
+    reason: 身份核验涉及隐私与合规，候选未说明数据如何处理、误判由谁承担，交付边界不清。
+    evidence_ids:
+    - ev-c693f1cb509ea8e6
+  next_validation: 收集该产品的官方文档或定价页，确认核验依据的数据来源、合规说明与计费方式。
+  market: ''
+  job: 平台的风控或开发人员，在用户注册或登录时，处理待核验的账号信息，要完成判断该用户是否为真实用户的任务。
+  job_en: Platform risk or engineering staff, at signup or login, handle pending account information to
+    decide whether a user is real.
+  pain: 候选只说“私密身份核验”，没有说明现有核验方式哪里不够用，也看不出不采用会付出什么代价。
+  pain_en: The candidate only says 'private identity verification'; it does not say where current verification
+    falls short, nor what it costs not to adopt it.
+  current_alternative: 公开材料未给出旧做法，常见替代是短信验证、人工审核或第三方证件核验服务，这属于推断。
+  current_alternative_en: No prior practice is given; the common alternative is SMS verification, manual
+    review or third-party document checks, which is inference.
+  usage_reason: 推断：相比人工审核，它把核验嵌进注册流程、以接口返回结果，省掉逐条人工判断；但缺少客户案例或调用数据，无法确认平台真的接入并持续使用。
+  usage_reason_en: 'Inference: versus manual review, it embeds verification in the signup flow and returns
+    a result via API, removing case-by-case human judgment; without customer cases or call data, real
+    and sustained adoption cannot be confirmed.'
+- id: req-full-stileid-2026-09-20
+  project_slug: stileid
+  level: full
+  reviewed_at: '2026-09-20T00:31:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决判断注册用户是否为真人的需求，但候选只有一句描述，核验依据、误判后果与不采用的代价都不清楚，连需求与痛点都难以还原。
+    evidence_ids:
+    - ev-0b8d4480fb0cad94
+    - ev-99c7a87852782f6b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Stile.iD 官方产品页或 API 文档，确认其核验依据的数据来源、合规说明与计费方式。
+  market: ''
+  job: 平台的风控或开发人员，在用户注册或登录环节，处理待核验的账号信息，要完成判断该账号是否为真实用户的任务。
+  job_en: Platform risk or engineering staff, at signup or login, handle pending account information to
+    decide whether an account belongs to a real user.
+  pain: 候选仅给出“私密身份核验 API”一句，未说明现有核验方式哪里不够用、误判或漏判会造成什么后果，也看不出不采用会付出什么代价。
+  pain_en: The candidate only offers the phrase 'private identity verification API'; it does not say where
+    current verification falls short, what misjudgment or missed detection costs, or what is lost by not
+    adopting it.
+  current_alternative: 公开材料未给出旧做法；常见替代是短信验证码、人工审核或第三方证件核验服务，这属于推断。
+  current_alternative_en: No prior practice is given publicly; the common alternatives are SMS codes,
+    manual review or third-party document verification services, which is inference.
+  usage_reason: 推断：相较人工逐条审核，它把核验嵌入注册流程并以接口返回结果，省掉人工判断这一步；但缺少客户案例或调用数据，无法确认平台真的接入并持续使用。
+  usage_reason_en: 'Inference: versus case-by-case manual review, it embeds verification in the signup
+    flow and returns a result via API, removing the manual judgment step; without customer cases or call
+    data, real and sustained adoption cannot be confirmed.'

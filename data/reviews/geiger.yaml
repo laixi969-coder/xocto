@@ -325,3 +325,45 @@
     component-by-component search into a single output, so people rolling agents into dev or production
     environments and needing to account for the component list to a team or compliance owner are likely
     to try it first; this is an inference from product capability, with no retention or repeat-use evid
+- id: req-full-geiger-2026-09-20
+  project_slug: geiger
+  level: full
+  reviewed_at: '2026-09-20T00:29:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名混凝土、家具与促销品公司，没有一条描述该 AI agent 清点工具的用户任务、痛点或替代方式，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-16e05135aa38fe81
+    - ev-55ed65f04253f01d
+    - ev-c2316ce6e1117f6a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Geiger 官方仓库或官网的 README、release 与 issue，确认其实际能识别哪些 AI agent 与 MCP server，以及是否有可复现的扫描结果说明。
+  market: ''
+  job: 开发者或安全工程师在本地开发机上排查已安装的 AI agent、MCP server 与插件，需要先弄清有哪些组件、各自能访问什么，再决定是否保留或收紧权限。
+  job_en: A developer or security engineer on a local dev machine auditing installed AI agents, MCP servers
+    and plugins, needing to know which components exist and what each can reach before deciding what to
+    keep or restrict.
+  pain: 公开证据中没有任何一条描述该产品本身或其用户痛点，全部证据指向同名混凝土公司、家具品牌与促销品分销商，无法确认用户任务与痛点。
+  pain_en: None of the public evidence describes this product or its users' pain; all evidence points
+    to unrelated same-name concrete, furniture and promotional-products businesses, so the user task and
+    pain cannot be confirmed.
+  current_alternative: 公开材料未提供任何关于现有替代方式的信息，无法判断用户目前如何绕过该问题。
+  current_alternative_en: Public material provides no information on current alternatives, so how users
+    work around the problem cannot be determined.
+  usage_reason: 缺少可归因到该产品的公开事实，无法说明用户为何会选择它；现有证据均属同名无关企业，不能作为使用理由。
+  usage_reason_en: There is no public fact attributable to this product to explain why a user would choose
+    it; all existing evidence belongs to unrelated same-name businesses and cannot serve as a usage reason.

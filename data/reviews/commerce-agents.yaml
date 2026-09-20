@@ -618,3 +618,54 @@
   usage_reason_en: 'Inference: it consolidates retail, commerce, telecom and entertainment examples into
     one reference blueprint, removing the step of building an agent skeleton from scratch. But repository
     stars only reflect attention; no user feedback or case shows who would keep choosing it and when.'
+- id: req-full-commerce-agents-2026-09-20
+  project_slug: commerce-agents
+  level: full
+  reviewed_at: '2026-09-20T00:29:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是企业开发者搭建购物/商家智能体的需求，痛点是缺少可复用起点导致从立项到可演示周期长；公开事实仅说明这是含零售、电商、电信、娱乐示例的参考蓝图，痛点与替代方式属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-4a42ef9b024c65f2
+    - ev-76e648c6edd7f267
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实是仓库收藏从 2,849 增至 2,976，说明开发者持续关注；但收藏属关注度证据，不能证明目标团队已把它留在工作流或形成强场景采用，缺少 issue、discussion
+      或部署案例。
+    evidence_ids:
+    - ev-4a42ef9b024c65f2
+    - ev-7a904e806435f202
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或采购路径；作为 Anthropic 发布的参考蓝图，其价值更可能服务于 Claude API 的调用与生态绑定，而非独立收费产品，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4a42ef9b024c65f2
+  - gate: truth
+    status: insufficient
+    reason: 公开事实只说明它是参考蓝图与示例集合，未提供部署文档、可复现运行结果或人工与安全边界说明，因此交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-76e648c6edd7f267
+    - ev-18abe68a8f4700a7
+  next_validation: 追踪该蓝图仓库的 README、部署文档与 issue/discussion，确认是否有团队公开说明在何种业务场景部署、替代了哪段旧流程。
+  market: ''
+  job: 零售、电商、电信或娱乐企业的开发者，在需要为自己的业务搭建购物助手或商家运营智能体时，处理商品目录、用户查询与订单等材料，要完成从零到可运行智能体的搭建任务。
+  job_en: Developers at retail, e-commerce, telecom, or entertainment companies who need to build a shopping
+    assistant or merchant-operations agent for their own business, working with product catalogs, user
+    queries, and order data to get from zero to a runnable agent.
+  pain: 公开材料只说明这是参考蓝图，未提供用户抱怨或案例；从工作流结构推理，自建这类智能体需要自行设计工具调用、商品检索与订单动作的编排，缺少可复用起点会拉长从立项到可演示的周期。
+  pain_en: Public materials only describe a reference blueprint and give no user complaints or cases;
+    by workflow inference, building such an agent from scratch requires designing tool calls, product
+    retrieval, and order actions without a reusable starting point, lengthening the path from kickoff
+    to demo.
+  current_alternative: 公开材料未说明用户当前做法；结构上可推断的替代是各团队自行从零编写智能体代码，或直接使用通用 Claude API 文档与示例自行拼装。
+  current_alternative_en: Public materials do not state the current approach; the structurally inferable
+    alternatives are teams writing agent code from scratch or assembling it themselves from generic Claude
+    API docs and samples.
+  usage_reason: 推断：相较从零自建，该蓝图提供零售、电商、电信、娱乐的可运行示例，开发者可直接参照其输入—动作—交付结构改造，减少自行设计编排这一步；因此需要快速验证智能体可行性的团队会在立项或原型阶段选择它。
+  usage_reason_en: 'Inference: versus building from scratch, the blueprint offers runnable examples across
+    retail, commerce, telecom, and entertainment that developers can adapt, removing the step of designing
+    orchestration themselves; teams needing to quickly validate agent feasibility would choose it at kickoff
+    or prototype stage.'

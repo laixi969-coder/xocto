@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/gamereverie
 summary: A Codex Skill for building and iterating games
 first_seen: '2026-09-16T05:54:03Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

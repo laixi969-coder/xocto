@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/492661.html
 summary: 老马想买倒闭公司数据为哪般
 first_seen: '2026-09-19T11:48:06Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

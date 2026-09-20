@@ -83,3 +83,43 @@
   usage_reason_en: No public material explains why a user would choose it; all available evidence points
     to Jeff Bezos or the given name Jeff and is unrelated to a code-review CLI, so no product-level fact
     exists.
+- id: req-full-jeff-2026-09-20
+  project_slug: jeff
+  level: full
+  reviewed_at: '2026-09-20T00:29:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向人名 Jeff 与 Jeff Bezos，与代码审查工具无关，无法还原用户任务、痛点、旧替代与不解决的后果，连需求本身都写不出来。
+    evidence_ids:
+    - ev-ee7e5aadca6ef386
+    - ev-c4859372c0e2cd2d
+    - ev-db30e1e2e2a74169
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 CLI 的官方仓库 README、release 说明与 issue/discussion，确认其审查范围、输出格式与是否有团队在流水线中实际使用。
+  market: ''
+  job: 开发者在提交代码前，把待审的代码改动交给这个只读命令行工具，希望拿到语义层面的问题清单，再决定是否修改。
+  job_en: Before submitting code, a developer hands pending changes to this read-only CLI to get a semantic
+    list of issues, then decides what to change.
+  pain: 公开材料未提供任何关于该工具用户痛点的证据；现有证据全部指向人名 Jeff 与 Jeff Bezos，与代码审查工具无关。
+  pain_en: No public evidence describes user pain for this tool; all collected evidence concerns the given
+    name Jeff and Jeff Bezos, unrelated to code review.
+  current_alternative: 公开材料未说明该工具用户当前用什么方式替代；无法从证据中还原旧流程。
+  current_alternative_en: Public material does not state what current alternative users rely on; the old
+    workflow cannot be reconstructed from the evidence.
+  usage_reason: 无法判断用户为何选择它：证据中没有产品文档、用户反馈或采用记录，只有与代码审查无关的人名条目。
+  usage_reason_en: 'Cannot determine why users would choose it: the evidence contains no product documentation,
+    user feedback, or adoption records, only name entries unrelated to code review.'

@@ -305,3 +305,54 @@
     could skip rebuilding them from scratch each time; however, the public material offers only a positioning
     statement and star counts, with no adoption, reuse or retention evidence, and star growth reflects
     attention rather than user choice, so it cannot be confirmed that it stays in any workflow.'
+- id: req-full-reelbench-skills-2026-09-20
+  project_slug: reelbench-skills
+  level: full
+  reviewed_at: '2026-09-20T00:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 视频流程中提示词、参数与工具调用步骤零散、每次需重新拼装的问题，痛点来自生成工具参数碎片化这一工作流结构；仓库以学习笔记与 skill 形式集中这些资料，交付物可确定。但公开材料未给出用户任务细节与不采用后果，属结构推理而非采用证据。
+    evidence_ids:
+    - ev-7c16d1bf5b7eaeb4
+    - ev-a72d65c4b0870cec
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 669 增至 757，说明有持续关注，但公开材料没有 issue、discussion、用户评价或客户案例说明谁在什么场景下使用它，关注度不能替代采用共识。
+    evidence_ids:
+    - ev-7c16d1bf5b7eaeb4
+    - ev-f518f4b9705cea7d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库没有定价页、收费路径或买方信息，无法判断钱来自 to C、to B 还是赞助；这是判断，不是已验证事实，但价值关已成立，不因此取消真需求判定。
+    evidence_ids:
+    - ev-7c16d1bf5b7eaeb4
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明它是否贴近视频制作的第一性目标、交付结果是否可核对，也没有人工边界或安全说明；仅凭定位描述无法验证承诺能否确定性交付。
+    evidence_ids:
+    - ev-7c16d1bf5b7eaeb4
+    - ev-0a622a82d73054da
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际替代的视频制作步骤、产出物形态与是否有用户反馈其被重复调用。
+  market: ''
+  job: 视频创作者与剪辑师在准备 AI 视频生成或后期流程时，需要把散落在教程、聊天记录和工具文档里的提示词、模型参数与工具调用步骤整理成可复用的操作资料，再据此完成一次视频生成或后期处理。
+  job_en: Video creators and editors preparing an AI video generation or post-production workflow need
+    to consolidate prompts, model parameters and tool-call steps scattered across tutorials, chat logs
+    and tool docs into reusable operating material, then use it to complete a video generation or post-production
+    pass.
+  pain: 公开材料只说明这是 AI 视频的学习笔记与工具 skill，没有说明创作者原本卡在哪一步、失败率多高、不解决会损失什么；痛点强度只能从 AI 视频工具参数与提示词高度碎片化这一工作流结构推断，属于推理而非用户口述。
+  pain_en: The public material only describes learning notes and tooling skills for AI video; it does
+    not state which step creators were stuck on, how often attempts fail, or what is lost if unsolved.
+    Pain intensity can only be inferred from the workflow structure in which AI video tool parameters
+    and prompts are highly fragmented, which is inference rather than user testimony.
+  current_alternative: 创作者自行收集提示词、翻看教程与社区帖子、在多个生成工具之间手动搬运参数，或把笔记留在个人文档里。
+  current_alternative_en: Creators collect prompts themselves, browse tutorials and community posts, manually
+    move parameters between generation tools, or keep notes in personal documents.
+  usage_reason: 推断：相较自行零散收集，该仓库把提示词与工具调用步骤固化成可复用的 skill 资料，减少每次从零拼装参数这一步负担，因此正在搭建 AI 视频流程、需要反复调用同类生成步骤的创作者会尝试它；公开材料没有采用、复用或留存证据，无法确认它已被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with scattered self-collection, this repository fixes prompts
+    and tool-call steps into reusable skill material, reducing the burden of rebuilding parameters from
+    scratch each time, so creators building an AI video pipeline who repeatedly invoke similar generation
+    steps would try it; the public material has no adoption, reuse or retention evidence, so it cannot
+    be confirmed as staying in anyone''s workflow long term.'

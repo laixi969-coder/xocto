@@ -81,3 +81,43 @@
   usage_reason_en: 'Inference: if the plugin really turns verification into a reusable component, developers
     would skip rebuilding scripts each time; but no concrete action, input/output or checkable result
     is public, so which users would choose it and when cannot be stated.'
+- id: req-full-clearai-dsh-2026-09-20
+  project_slug: clearai-dsh
+  level: full
+  reviewed_at: '2026-09-20T00:29:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决模型输出需要额外推理或校验这一需求，但公开材料未说明替代了哪一步旧操作，也无可引用的痛点或采用行为，价值结构无法还原。
+    evidence_ids:
+    - ev-98b4923aa4083c8b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认插件具体接收什么输入、执行什么动作、输出什么结果，以及是否有人报告在实际工作流中重复使用。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在调用模型生成结果的过程中，需要让输出经过一套额外的推理或校验流程，再拿到可用的结果。
+  job_en: A developer using the DeepSeek Harness who, while calling the model to produce results, wants
+    the output to pass through an extra reasoning or verification process before use.
+  pain: 公开材料只说明插件接入了一套名为 Epistemic Loop 的流程，没有说明它替代了哪一步人工或旧工具操作，也没有用户抱怨、案例或采用行为可引用，因此痛点无法确认。
+  pain_en: The public material only says the plugin wires in a process called the Epistemic Loop; it does
+    not say which manual or legacy step it replaces, and no user complaints, cases or adoption behaviour
+    are available, so the pain point cannot be confirmed.
+  current_alternative: 开发者目前可能直接在 Harness 中调用模型，或自行编写提示与校验脚本；公开材料未说明旧做法具体是什么。
+  current_alternative_en: Developers currently likely call the model directly in the Harness or write
+    their own prompts and validation scripts; the public material does not describe the prior practice.
+  usage_reason: 推断：如果该插件确实把校验流程固化为可复用的插件，开发者可省去每次自行搭建校验脚本的步骤；但公开材料未说明具体动作与可核对结果，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the plugin really turns the verification process into a reusable plugin,
+    developers would skip rebuilding validation scripts each time; however the public material does not
+    describe the concrete action or a checkable result, so why users would choose it cannot be confirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQeThwNWVSS1Mx
 summary: Vantora Raises $100M to Build Physical AI Startups The Tech Buzz
 first_seen: '2026-09-18T23:36:00Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

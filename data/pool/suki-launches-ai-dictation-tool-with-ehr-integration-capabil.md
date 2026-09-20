@@ -34,7 +34,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxObkk1UGN6bXJl
 summary: Suki launches AI dictation tool with EHR integration capabilities Healthcare Dive
 first_seen: '2026-08-26T15:46:35Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,82 @@
+- id: req-initial-cua-s1-2026-09-20
+  project_slug: cua-s1
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是无 API 老系统只能人工操作界面的问题，痛点方向成立，但公开材料未说明输入、执行范围与输出，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-6e3f54ed7fd8a0e0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有采用、客户或复现结果，无法判断是否有人真正用于生产流程。
+    evidence_ids:
+    - ev-6e3f54ed7fd8a0e0
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露许可条款与商业路径，买方与收费方式未知；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-6e3f54ed7fd8a0e0
+  - gate: truth
+    status: insufficient
+    reason: 没有基准与失败案例说明，无法核对操作是否可复现、出错时如何人工接管。
+    evidence_ids:
+    - ev-6e3f54ed7fd8a0e0
+  next_validation: 收集该仓库的官方文档或 issue 讨论，确认支持的操作环境、许可条款与可复现的实测结果。
+  market: ''
+  job: 做流程自动化的工程师或 RPA 实施顾问，在目标系统没有可用 API、只能靠人操作桌面界面时，需要让程序完成这些界面操作。
+  job_en: An automation engineer or RPA consultant needs a program to perform desktop interface operations
+    when the target system has no usable API and only humans can operate the screens.
+  pain: 没有 API 的老系统只能靠人工点击录入，脚本一旦界面改版就失效，维护成本高。
+  pain_en: Legacy systems without APIs require manual clicking and entry, and scripts break whenever the
+    interface changes, making maintenance costly.
+  current_alternative: 录制式 RPA 脚本、按键精灵类工具，或直接安排人工重复录入。
+  current_alternative_en: Recorded RPA scripts, macro tools, or simply assigning staff to repeat the data
+    entry.
+  usage_reason: 推断：若该模型能在界面变化时仍稳定完成操作，就省掉了逐条维护脚本这一步；但公开材料没有基准、许可与部署说明，无法判断哪类团队会在什么情况下选它。
+  usage_reason_en: 'Inference: if the model still completes operations reliably when interfaces change,
+    it removes the step of maintaining scripts one by one; but with no benchmarks, licence or deployment
+    documentation, which teams would choose it and when cannot be judged.'
+- id: req-full-cua-s1-2026-09-20
+  project_slug: cua-s1
+  level: full
+  reviewed_at: '2026-09-20T00:29:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是无 API 老系统只能人工操作界面的问题，痛点方向成立，但公开材料未说明输入、执行范围与输出，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-6e3f54ed7fd8a0e0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的官方文档或 issue 讨论，确认支持的操作环境、许可条款与可复现的实测结果。
+  market: ''
+  job: 做流程自动化的工程师或 RPA 实施顾问，在目标系统没有可用 API、只能靠人操作桌面界面时，需要让程序完成这些界面操作。
+  job_en: An automation engineer or RPA consultant needs a program to perform desktop interface operations
+    when the target system has no usable API and only humans can operate the screens.
+  pain: 公开材料只有一句产品定位，未说明输入、执行界面与输出形式，无法确认它替代了旧流程中的哪一步，也无法确认界面改版后是否仍需人工重录。
+  pain_en: The public material is a single positioning line; it does not state inputs, execution surfaces
+    or output form, so which step of the old workflow it replaces, and whether interface changes still
+    force manual re-entry, cannot be confirmed.
+  current_alternative: 录制式 RPA 脚本、按键精灵类宏工具，或直接安排人工重复录入。
+  current_alternative_en: Recorded RPA scripts, macro tools, or simply assigning staff to repeat the data
+    entry.
+  usage_reason: 推断：若该模型能在界面变化时仍稳定完成操作，就省掉逐条维护脚本这一步；但公开材料没有基准、许可与部署说明，无法判断哪类团队会在什么情况下选它。
+  usage_reason_en: 'Inference: if the model still completes operations reliably when interfaces change,
+    it removes the step of maintaining scripts one by one; but with no benchmarks, licence or deployment
+    documentation, which teams would choose it and when cannot be judged.'

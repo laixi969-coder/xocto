@@ -22,7 +22,7 @@ summary: 'Awesome Jev: source-backed open-source ecosystem radar, plain-language
   automatic GitHub sync'
 first_seen: '2026-09-18T06:41:50Z'
 last_seen: '2026-09-20T00:09:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

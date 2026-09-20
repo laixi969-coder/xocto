@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tTEJGS21Pb2Rl
 summary: 联想发布“靠谱的打牌游戏”AI训练集群，性能突破千亿参数 体坛
 first_seen: '2026-09-17T15:45:46Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

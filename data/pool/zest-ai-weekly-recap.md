@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE1paW93MF9LbTJ5
 summary: Zest AI – Weekly Recap TipRanks
 first_seen: '2026-09-19T14:20:25Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -124,3 +124,57 @@
     a fight scene into generatable shot prompts, cutting the manual shot-breakdown and debugging steps,
     so creators producing action content with models like Seedance or MiniMax-H3 would choose it when
     they need reliable fight footage.'
+- id: req-full-fight-prompt-director-2026-09-20
+  project_slug: fight-prompt-director
+  level: full
+  reviewed_at: '2026-09-20T00:29:49Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是用 AI 视频模型生成打斗场面时，把动作设计拆成可执行镜头提示的需求；痛点是动作戏对分镜顺序与动作衔接要求高，手工逐条写提示词负担重且返工成本落在生成算力上。公开材料仅给出
+      Skill 定位与仓库星标，未提供用户抱怨或案例，故该判断为工作流结构推理，非用户采用事实。
+    evidence_ids:
+    - ev-e397759198603b43
+    - ev-45183708ba63ff39
+    - ev-e74132ba5d00e2b4
+  - gate: consensus
+    status: supported
+    reason: 仓库星标从 40 增至 43，说明英文生态有开发者注意到该 Skill，属于关注度证据；但公开材料没有 issue、discussion 或评价说明谁在何种场景持续使用，因此共识仅停留在感知层，尚未进入持续采用。
+    evidence_ids:
+    - ev-e397759198603b43
+    - ev-45183708ba63ff39
+    - ev-e74132ba5d00e2b4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或分发方式，无法判断钱来自 to C 创作者、to B 制作团队还是仅靠开源维护；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-e397759198603b43
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明该 Skill 的输入输出格式、生成结果是否稳定可复现，以及动作安全与人工确认边界；交付确定性尚缺可核验证据。
+    evidence_ids:
+    - ev-e397759198603b43
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认其输入输出格式、实际生成案例与是否出现付费或部署说明。
+  market: ''
+  job: AI 视频创作者或动作导演在使用 Seedance、MiniMax-H3 等视频生成模型制作打斗/动作戏时，需要把一段动作设计拆解成模型可执行的分镜提示词，逐镜生成并拼接出连贯的动作段落。
+  job_en: An AI video creator or action director working with video models such as Seedance and MiniMax-H3
+    needs to break a fight/action sequence into model-executable shot prompts, generate shot by shot,
+    and assemble a coherent action segment.
+  pain: 公开材料只说明它是打斗场面提示词编排 Skill，未提供用户抱怨或案例；从工作流结构推理，动作戏对镜头顺序、动作衔接和节奏的要求远高于普通镜头，创作者若逐条手写提示词，需自行承担分镜拆解与动作连贯性的全部负担，返工成本落在生成算力与时间上。
+  pain_en: Public materials only describe it as a fight-scene prompt choreography skill, with no user
+    complaints or cases; by workflow inference, action scenes demand far more shot ordering, motion continuity
+    and pacing than ordinary shots, so creators writing prompts by hand bear the full burden of shot breakdown
+    and continuity, with rework cost falling on generation compute and time.
+  current_alternative: 当前替代方式是创作者凭经验手工撰写提示词、在社区中搜集动作提示词模板，或反复试生成后逐条修改；公开材料未说明该 Skill 具体替代了其中哪一步。
+  current_alternative_en: Today creators hand-write prompts from experience, collect action-prompt templates
+    from communities, or iterate through repeated generations and manual edits; public materials do not
+    show which of these steps the skill replaces.
+  usage_reason: 推断：相较手工逐条写提示词，该 Skill 以结构化编排把动作戏拆成可生成的镜头提示，减少创作者自行设计分镜顺序与动作衔接的那一步负担；因此正在用 Seedance、MiniMax-H3
+    做动作类短视频或广告片、且缺乏动作分镜经验的创作者，会在需要快速产出连贯打斗段落时选择它。仓库 40→43 星仅说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus hand-writing prompts one by one, the skill structurally choreographs
+    a fight into generatable shot prompts, removing the step where creators must design shot order and
+    motion continuity themselves; thus creators making action shorts or ads with Seedance and MiniMax-H3
+    who lack action-storyboard experience would choose it when they need a coherent fight segment quickly.
+    The 40→43 stars only indicate attention, not sustained use.'

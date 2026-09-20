@@ -1,0 +1,82 @@
+- id: req-initial-ruby-utcp-2026-09-20
+  project_slug: ruby-utcp
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出它想做工具调用协议，但说不清谁在什么情况下因 MCP 受阻、不解决会失去什么。
+    evidence_ids:
+    - ev-37360c29447bd960
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，候选也没有采用或社区讨论证据。
+    evidence_ids:
+    - ev-37360c29447bd960
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，且协议层如何收费在材料中完全没有说明。
+    evidence_ids:
+    - ev-37360c29447bd960
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它宣称的可扩展与安全是否有具体机制支撑。
+    evidence_ids:
+    - ev-37360c29447bd960
+  next_validation: 收集 Ruby UTCP 的官方文档或仓库说明，确认其协议规范、支持的工具类型与安全机制。
+  market: ''
+  job: 开发者在把外部工具接入 AI 代理时，需要选定并实现一层工具调用协议，让代理能安全、可扩展地调用这些工具。
+  job_en: When connecting external tools to an AI agent, developers need to choose and implement a tool-calling
+    protocol layer so the agent can call those tools safely and at scale.
+  pain: 候选资料只称其为 MCP 的可扩展、安全替代，没有说明现有 MCP 在什么场景下失败、用户因此付出什么代价，痛点无法从材料中还原。
+  pain_en: The candidate material only calls it a scalable, secure alternative to MCP and does not say
+    where MCP fails or what it costs users, so the pain cannot be reconstructed from the material.
+  current_alternative: 现有替代是 MCP 或其他工具调用协议；候选资料未说明用户此前具体使用哪一种，也未说明迁移成本。
+  current_alternative_en: The existing alternative is MCP or other tool-calling protocols; the candidate
+    material does not say which one users previously used or what migration costs.
+  usage_reason: 材料只有一句定位，无法说明它相较 MCP 减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由；缺少的是协议差异、支持的工具类型与安全机制的具体说明。
+  usage_reason_en: The material gives only a one-line positioning and cannot show which step it removes
+    versus MCP or which verifiable result it improves, so no usage reason can be given; what is missing
+    is a concrete account of protocol differences, supported tool types and security mechanisms.
+- id: req-full-ruby-utcp-2026-09-20
+  project_slug: ruby-utcp
+  level: full
+  reviewed_at: '2026-09-20T00:30:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选仅一句“MCP 的可扩展安全替代”，未说明谁在什么场景因 MCP 受阻、不解决会失去什么，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-ae8fb0295dbafc09
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Ruby UTCP 的官方仓库 README 或协议规范文档，确认其工具调用接口、安全机制与与 MCP 的具体差异。
+  market: ''
+  job: Ruby 开发者需要把外部工具接入 AI 代理时，选定并实现一层工具调用协议，让代理能安全、可扩展地调用这些工具。
+  job_en: Ruby developers connecting external tools to an AI agent need to choose and implement a tool-calling
+    protocol layer so the agent can call those tools safely and at scale.
+  pain: 候选材料只有一句“MCP 的可扩展、安全替代”，没有说明 MCP 在什么场景下失败、开发者因此付出什么代价，痛点无法从公开材料还原。
+  pain_en: The candidate material offers only a one-line claim of being a scalable, secure alternative
+    to MCP, without saying where MCP fails or what it costs developers, so the pain cannot be reconstructed
+    from public material.
+  current_alternative: 现有替代是 MCP 或其他工具调用协议；材料未说明用户此前具体使用哪一种，也未说明迁移成本。
+  current_alternative_en: The existing alternative is MCP or other tool-calling protocols; the material
+    does not say which one users previously used or what migration costs.
+  usage_reason: 材料只有一句定位，无法说明它相较 MCP 减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由；缺少的是协议差异、支持的工具类型与安全机制的具体说明。
+  usage_reason_en: The material gives only a one-line positioning and cannot show which step it removes
+    versus MCP or which verifiable result it improves, so no usage reason can be given; what is missing
+    is a concrete account of protocol differences, supported tool types and security mechanisms.

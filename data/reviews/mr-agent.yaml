@@ -127,3 +127,58 @@
     generation and failure self-healing inside the MR flow itself, cutting the reviewer''s line-by-line
     reading and the engineer''s log-reading rerun; teams already on GitLab with review queues or frequent
     CI failures would try it, though no user feedback yet confirms this motive.'
+- id: req-full-mr-agent-2026-09-20
+  project_slug: mr-agent
+  level: full
+  reviewed_at: '2026-09-20T00:30:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 GitLab 团队在 MR 合入前的评审与 CI 失败排查需求：评审与 CI 修复是合入必经环节，人工逐条评审和反复重跑 CI 会拖慢合入，不解决的后果是评审负担与合入延迟。公开材料仅一句功能描述，痛点强度属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-b953918dd7020b18
+    - ev-13765c7ea606e983
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 86 增至 94 再到 99，说明有开发者关注该开源项目，但收藏属关注度证据，不能证明目标团队已持续使用或把它留在评审工作流中；公开材料无 issue、discussion
+      或部署案例说明实际采用。
+    evidence_ids:
+    - ev-b953918dd7020b18
+    - ev-d2f0443c5d2d8b1e
+    - ev-13765c7ea606e983
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费主体或采购记录，钱可能来自 to B 团队自建部署或后续商业支持，属判断而非已验证事实；无融资叙事，不构成每日优鲜风险，但付费路径尚未核验。
+    evidence_ids:
+    - ev-b953918dd7020b18
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句功能描述，未见部署文档、可复现运行记录或人工确认与安全边界说明，无法核验评审意见与 CI 自愈能否确定性交付、误改代码如何回退；这些缺口降低把握，不否定已识别的需求。
+    evidence_ids:
+    - ev-b953918dd7020b18
+    - ev-13765c7ea606e983
+  next_validation: 追踪 mr-agent 仓库的 README、部署文档与 issue/discussion，确认是否有团队公开描述在 GitLab MR 流程中实际部署、替代了何种人工评审或
+    CI 排查步骤。
+  market: ''
+  job: 使用 GitLab 的研发团队在提交 Merge Request 时，把 MR 的代码改动交给 mr-agent，由多智能体执行代码评审、治理检查，并在 CI 失败时尝试自愈，最终产出评审意见或修复动作，仍需人工确认后合入。
+  job_en: A GitLab-based engineering team, when opening a Merge Request, hands the MR diff to mr-agent,
+    which runs multi-agent code review, governance checks, and CI self-healing attempts, producing review
+    comments or fix actions that still require human confirmation before merge.
+  pain: 公开材料只说明它做评审、治理与 CI 自愈，未给出用户抱怨、评审耗时或漏检代价等痛点证据；从工作流结构推断，MR 评审与 CI 失败排查是合入前的必经环节，人工逐条评审和反复重跑 CI 会占用开发者时间并拖慢合入。
+  pain_en: 'Public materials only describe review, governance, and CI self-healing; they give no user
+    complaints, review latency, or missed-defect cost. Structural inference from the workflow: MR review
+    and CI failure triage are mandatory pre-merge steps, and manual line-by-line review plus repeated
+    CI reruns consume developer time and delay merge.'
+  current_alternative: 公开材料未说明现有替代方式；结构上对应的是人工评审 MR、人工排查并修复 CI 失败，以及 GitLab 自带的 CI 流水线与既有静态检查工具。
+  current_alternative_en: Public materials do not state the current alternative; structurally it corresponds
+    to manual MR review, manual CI failure triage and fixes, plus GitLab's built-in CI pipelines and existing
+    static-analysis tooling.
+  usage_reason: 推断：相较人工逐条评审和手动排查 CI 失败，mr-agent 在 MR 提交时自动接收代码改动并输出评审意见或修复动作，减少的是开发者逐条阅读 diff 与定位 CI 失败原因这两步负担；因此使用
+    GitLab、且 MR 评审与 CI 维护负担较重的团队会在提交 MR 时选择它。公开材料未提供用户反馈或客户案例，此因果为基于产品能力的推断。
+  usage_reason_en: 'Inference: versus manual line-by-line review and manual CI failure triage, mr-agent
+    automatically ingests the MR diff on submission and emits review comments or fix actions, removing
+    the steps of reading the diff line by line and locating the CI failure cause. Teams on GitLab with
+    heavy MR review and CI maintenance load would therefore choose it at MR submission time. Public materials
+    provide no user feedback or customer cases, so this causal claim is inferred from product ca'

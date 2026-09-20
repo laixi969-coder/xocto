@@ -1,0 +1,90 @@
+- id: req-initial-petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-2026-09-20
+  project_slug: petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi
+  level: initial
+  reviewed_at: '2026-09-20T00:09:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多猫家庭无法归因进食量、早期疾病信号被漏掉的问题，旧做法是肉眼观察或分开喂食，痛点具体且不解决的后果明确。
+    evidence_ids:
+    - ev-4c9134324a5baff8
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有一篇产品报道，没有用户评价、复购或持续使用证据，无法判断饲主是否真的把它留在日常流程里。
+    evidence_ids:
+    - ev-4c9134324a5baff8
+  - gate: model
+    status: insufficient
+    reason: 报道提到最高档健康监测需额外订阅，说明存在付费路径，但价格、订阅转化与买方规模均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4c9134324a5baff8
+  - gate: truth
+    status: insufficient
+    reason: 摄像头识别哪只猫在进食的准确率、多猫同时进食时的边界情况，以及健康结论是否需兽医确认，材料均未说明。
+    evidence_ids:
+    - ev-4c9134324a5baff8
+  next_validation: 收集 Petlibro 官方 Granary 2 产品页与订阅定价页，核对 AI 摄像头识别准确率说明与健康监测订阅的具体计费方式。
+  market: ''
+  job: 多猫家庭饲主在每天喂食时，需要分辨哪只猫吃了多少、什么时候吃的，以便发现某只猫食欲下降或抢食。
+  job_en: In multi-cat homes, owners feeding daily need to tell which cat ate how much and when, to spot
+    appetite loss or food stealing.
+  pain: 多只猫共用一个碗时，饲主无法归因进食量，猫生病早期信号常被漏掉；靠人盯着看既费时也不准。
+  pain_en: With shared bowls, owners cannot attribute intake, so early illness signals are missed; watching
+    by hand is slow and inaccurate.
+  current_alternative: 旧做法是凭肉眼观察、分开房间喂食、手动记笔记，或干脆不记录。
+  current_alternative_en: The old way is eyeballing, feeding in separate rooms, hand-written notes, or
+    no record at all.
+  usage_reason: 推断：相较肉眼观察，称重加摄像头把“哪只猫吃了多少”变成自动记录，省掉人工盯守和事后回忆这一步，因此多猫家庭或需向兽医提供进食数据的饲主会选它；但材料未给出识别准确率与留存证据。
+  usage_reason_en: 'Inference: versus eyeballing, weighing plus a camera turns ''which cat ate how much''
+    into an automatic log, removing manual watching and later recall, so multi-cat owners or those needing
+    vet-ready intake data would choose it; accuracy and retention evidence are absent.'
+- id: req-full-petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-2026-09-20
+  project_slug: petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi
+  level: full
+  reviewed_at: '2026-09-20T00:30:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多猫家庭进食量无法归因、早期疾病信号被漏掉的问题，旧做法是肉眼观察或分房喂食，痛点具体且不解决的后果明确；但识别准确率与订阅价格未公开，属工作流结构推理。
+    evidence_ids:
+    - ev-5d266c1b955c90cb
+    - ev-e476f6638bcfd208
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有品牌官网与亚马逊店铺页，没有用户评价、复购或持续使用证据，无法判断饲主是否真把它留在日常喂食流程里；英文生态仅标为早期信号。
+    evidence_ids:
+    - ev-74726c564019980e
+    - ev-be53a57028e6f54e
+  - gate: model
+    status: insufficient
+    reason: 摘要提到最高档健康监测需额外订阅，说明存在硬件加订阅的付费路径，但订阅价格、转化与买方规模均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5d266c1b955c90cb
+  - gate: truth
+    status: insufficient
+    reason: 摄像头识别哪只猫在进食的准确率、多猫同时进食时的边界情况，以及健康结论是否需兽医确认，材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-e476f6638bcfd208
+  next_validation: 追踪 Petlibro 官方 Granary 2 产品页与订阅定价页，核对 AI 摄像头识别准确率说明、多猫同时进食的处理方式及健康监测订阅的具体计费方式。
+  market: ''
+  job: 多猫家庭饲主在每天定时喂食时，面对多只猫共用一个食盆、无法分辨个体的进食情况，需要记录每只猫吃了多少、什么时候吃，以便发现某只猫食欲下降、抢食或被排挤。
+  job_en: In multi-cat homes, owners feeding on a daily schedule with shared bowls need to record how
+    much each cat ate and when, so they can spot appetite loss, food stealing, or one cat being crowded
+    out.
+  pain: 多只猫共用一个碗时进食量无法归因到个体，猫科动物又擅长隐藏早期病征，食欲变化常被漏掉；靠人盯着看既费时也不准，等到明显症状出现往往已延误。
+  pain_en: With shared bowls, intake cannot be attributed to an individual cat, and cats hide early illness
+    signs, so appetite changes are missed; watching by hand is slow and inaccurate, and by the time symptoms
+    show it is often late.
+  current_alternative: 旧做法是凭肉眼观察、把猫分房间或分时段喂食、手动记笔记，或干脆不记录，就医时只能凭印象向兽医描述。
+  current_alternative_en: The old way is eyeballing, feeding cats in separate rooms or shifts, hand-written
+    notes, or no record at all, leaving owners to describe intake to a vet from memory.
+  usage_reason: 推断：相较肉眼观察与事后回忆，Granary 2 用内置称重把出粮量自动记下，较贵型号再用摄像头把进食事件归到具体某只猫，省掉人工盯守和手动记录这一步，并让饲主在就医时能拿出按猫分列的进食时间线，因此多猫家庭或需向兽医提供进食数据的饲主会选它；材料未给出识别准确率与留存证据。
+  usage_reason_en: 'Inference: versus eyeballing and later recall, Granary 2 logs dispensed weight automatically
+    and, on pricier models, uses a camera to attribute each eating event to a specific cat, removing manual
+    watching and note-taking and giving owners a per-cat intake timeline for vet visits, so multi-cat
+    owners or those needing vet-ready intake data would choose it; accuracy and retention evidence are
+    absent.'

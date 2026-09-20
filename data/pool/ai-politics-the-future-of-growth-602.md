@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/ev-602
 summary: 'Plus: Fruit fly mines bitcoin, easy energy & AI-generated TV'
 first_seen: '2026-09-19T14:22:55Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -121,3 +121,52 @@
     into one reusable flow, engineers could spend less effort hand-carrying results between tools; but
     the repo offers only a one-line positioning and star count, with no docs, issues or user feedback
     showing who chooses it and when, so this cannot be confirmed.'
+- id: req-full-blitzstrike-2026-09-20
+  project_slug: blitzstrike
+  level: full
+  reviewed_at: '2026-09-20T00:28:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决渗透测试中侦察、攻击面测绘、source-to-sink 分析与实弹验证的流程编排需求，痛点是工具零散、升级路径靠人脑串联、覆盖易漏；57 条升级链与 130 工具目录说明交付动作可确定。此为工作流结构推理，尚无用户痛点或案例直接佐证。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+    - ev-fc24c9e7b12a6229
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 634 增至 638，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明渗透测试工程师已把它留在日常工作流或形成持续采用。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+    - ev-fc24c9e7b12a6229
+    - ev-8252c3cb8cb1dd1c
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、客户案例或采购记录，无法判断钱来自 to B 安全团队、to C 工程师还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺按结构化方法论推进升级链并做实弹验证，但公开材料未说明报告形态、人工复核边界与授权范围控制，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有真实授权测试场景的部署记录、报告输出样例与人工复核边界说明。
+  market: ''
+  job: 渗透测试工程师在拿到授权目标后，需要把侦察、攻击面测绘、source-to-sink 分析与实弹验证串成一条可复现的测试流程，并把每一步交给接入的智能体执行，最终产出可复核的验证结果。
+  job_en: A penetration tester with an authorized target must chain reconnaissance, attack-surface mapping,
+    source-to-sink analysis and live validation into one reproducible workflow, delegating each step to
+    a connected agent and producing verifiable results.
+  pain: 公开材料显示该工具把 57 条升级链与 130 个工具编成目录，说明旧做法里工具零散、方法论靠人脑串联、升级路径容易漏步；不解决的后果是测试覆盖不全、验证结果难以复现。这是从产品结构推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: The public listing of 57 escalation chains and a 130-tool catalog implies the old way scatters
+    tools and keeps methodology in the tester's head, so escalation paths get missed; the consequence
+    is incomplete coverage and hard-to-reproduce validation. This pain is inferred from product structure,
+    not from user complaints or cases.
+  current_alternative: 当前替代方式是渗透测试工程师手工组合 Burp、nmap、Metasploit 等单点工具，或依赖自建脚本与个人经验清单来串联侦察到验证的流程。
+  current_alternative_en: Today testers manually combine point tools such as Burp, nmap and Metasploit,
+    or rely on self-built scripts and personal checklists to chain reconnaissance through validation.
+  usage_reason: 推断：相较手工拼装工具链，它把方法论、升级链和工具目录封装成一个 MCP 服务，智能体按结构化步骤调用，减少测试者自己维护编排脚本和记忆升级路径的负担；因此已用智能体做安全测试、又不想自建工具编排的工程师会在授权测试场景下选择它。
+  usage_reason_en: 'Inference: versus hand-assembling a toolchain, it packages methodology, escalation
+    chains and a tool catalog into one MCP server that agents call in structured steps, cutting the burden
+    of maintaining orchestration scripts and remembering escalation paths; testers already using agents
+    who do not want to build their own orchestration would pick it for authorized engagements.'

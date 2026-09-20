@@ -138,3 +138,46 @@
   usage_reason_en: 'No usage reason can be given: the evidence points to photo-gear purchasing behaviour,
     not adoption of an enterprise Agent platform, and there is no product-attributable user feedback,
     deployment record or usage scenario from which to infer why anyone would choose it.'
+- id: req-full-movo-2026-09-20
+  project_slug: movo
+  level: full
+  reviewed_at: '2026-09-20T00:30:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决企业内网使用 Agent 的问题，但公开材料只有能力清单，没有说明具体工作节点、输入材料和交付结果，无法确认替代了哪一步旧工作，也看不出痛点刚性。
+    evidence_ids:
+    - ev-8c20af52ef1f9364
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方部署文档与权限治理说明，确认它实际接管了哪些内部流程和交付物。
+  market: ''
+  job: 企业内部的 IT 或知识管理团队，在需要让多个部门使用 Agent 处理内部文档、深度研究、内容生成、代码生成和浏览器操作时，希望数据不出内网，并由管理员统一分配权限与治理。
+  job_en: An internal IT or knowledge-management team that wants several departments to use Agents on
+    internal documents, deep research, content generation, code generation and browser actions, without
+    data leaving the intranet and with admin-controlled permissions and governance.
+  pain: 公开材料只列出知识、深度研究、内容生成、代码生成、浏览器自动化和治理等能力清单，没有说明谁在什么节点打开它、处理什么材料、拿到什么交付物，因此无法确认它替代了哪一步旧工作，也无法确认痛点是否刚性。
+  pain_en: Public material only lists capabilities such as knowledge, deep research, content generation,
+    code generation, browser automation and governance; it does not say who opens it at which step, on
+    what material, or what they receive, so the old step it replaces and whether the pain is rigid cannot
+    be confirmed.
+  current_alternative: 企业目前通常直接用公有云模型接口，或由内部团队自行拼装开源模型、权限系统与治理流程。
+  current_alternative_en: Enterprises currently use public cloud model APIs directly, or have internal
+    teams assemble open-source models, permission systems and governance processes themselves.
+  usage_reason: 推断：如果它真能把权限、治理和多种 Agent 任务收进一次自托管部署，企业就不必自己维护模型接入与权限拼装，从而减少内部集成工作量；但公开材料未给出部署文档、客户案例或使用反馈，这一因果链尚不成立。
+  usage_reason_en: 'Inference: if it truly bundles permissions, governance and multiple Agent tasks into
+    one self-hosted deployment, enterprises would not have to maintain model access and permission glue
+    themselves, cutting internal integration work; but no deployment docs, customer cases or usage feedback
+    are public, so this causal chain is not yet established.'

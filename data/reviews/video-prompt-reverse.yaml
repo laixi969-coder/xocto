@@ -127,3 +127,49 @@
     has Codex-side capability emit structured prompt text, removing the frame-by-frame breakdown and from-scratch
     wording step; inference suggests it appeals to creators already using Codex who need to reuse another
     AI video's style, though no public user feedback yet confirms this motive.
+- id: req-full-video-prompt-reverse-2026-09-20
+  project_slug: video-prompt-reverse
+  level: full
+  reviewed_at: '2026-09-20T00:31:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是从已有AI视频反推可复用提示词这一任务，但公开材料只有仓库自述与星标数，没有用户抱怨、替代行为或案例证明这一步是刚性痛点；从工作流看创作者可直接模仿或试生成，不用它也能完成，属看着有用但没有也行。
+    evidence_ids:
+    - ev-c1abbcde5dcdb778
+    - ev-168f643361dbde35
+    - ev-9ec5518144df78fd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户报告实际反推效果、使用场景与复现成功率。
+  market: ''
+  job: 短视频或广告创作者看到一段效果满意的AI生成视频时，把该视频素材交给 Codex 侧的 skill，反推出可复用的提示词文本，再拿回自己的生成工具里复现相近风格。
+  job_en: Short-video or ad creators who see an AI-generated video they like hand the footage to a Codex-side
+    skill to reverse-engineer a reusable prompt text, then take it back into their own generation tool
+    to reproduce a similar style.
+  pain: 公开材料只有一句仓库描述，没有用户反馈、issue 或案例说明反推提示词这一步到底多痛、多久做一次、不做会损失什么；从工作流看，创作者通常直接参考视频或凭经验改提示词，反推并非必须环节。
+  pain_en: Public material is limited to a one-line repo description; no user feedback, issues, or cases
+    show how painful prompt reverse-engineering is, how often it recurs, or what is lost by skipping it.
+    Structurally, creators usually just reference the video or tweak prompts by experience, so reverse-engineering
+    is not a required step.
+  current_alternative: 凭经验手写提示词、直接模仿参考视频的构图与运镜、在社区里找现成提示词模板，或反复试生成直到接近目标效果。
+  current_alternative_en: Hand-writing prompts from experience, directly imitating the reference video's
+    composition and camera moves, copying existing prompt templates from communities, or iterating generations
+    until the result is close enough.
+  usage_reason: 推断：它把“看视频猜提示词”变成一次自动反推，省去逐帧观察和试错这一步，因此已经在用 Codex 且需要批量复现某种风格的创作者可能顺手试用；但仓库仅 43–46 星、无使用或留存证据，尚不能说明它被留在工作流里。
+  usage_reason_en: 'Inference: it turns ''watch the video and guess the prompt'' into one automated reverse
+    pass, removing frame-by-frame observation and trial-and-error, so creators already using Codex and
+    needing to reproduce a style at volume might try it casually; but with only 43–46 stars and no usage
+    or retention evidence, it is not shown to stay in the workflow.'

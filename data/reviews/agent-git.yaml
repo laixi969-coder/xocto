@@ -165,3 +165,58 @@
     tool-call records into diffable, revertible version objects, removing the manual step of comparing
     which step changed, so AI application developers debugging or reproducing agent behavior would pick
     it when chasing a regression.'
+- id: req-full-agent-git-2026-09-20
+  project_slug: agent-git
+  level: full
+  reviewed_at: '2026-09-20T00:28:23Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是智能体会话难以复现与对照的问题：多步对话与工具调用轨迹长且非确定，出错后只能靠日志和手工复制重建，回归排查代价高。公开说明已能还原输入（一次运行轨迹）、动作（保存并比对会话版本）与交付（可回溯的会话版本），属工作流结构推理；仓库星标从
+      87 增至 127 说明有开发者关注，但尚无用户反馈直接证明痛点强度。
+    evidence_ids:
+    - ev-88cc52728fc27c17
+    - ev-18c40e2ab403a672
+    - ev-14e0f912c0ee3960
+    - ev-8f2c8009bc569e80
+  - gate: consensus
+    status: supported
+    reason: 英文生态出现同向的公开供给与关注：agent-git 仓库星标在数日内由 87 升至 127，另有 Agentgit 以“面向 AI 智能体的 Git 托管、无需账号与密钥”的形态出现，说明会话版本化这一场景已有开发者主动关注与尝试。但公开材料未显示持续使用、部署范围或团队采用，共识仍停留在早期关注层。
+    evidence_ids:
+    - ev-88cc52728fc27c17
+    - ev-8f2c8009bc569e80
+    - ev-f666a887929ed406
+    - ev-5e99be7b344becf1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，无法判断钱来自 to C 开发者订阅、to B 团队席位还是 to VC 融资。这是商业证据缺口，不反推问题不存在；按当前形态更可能先走开源加托管增值，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-88cc52728fc27c17
+    - ev-f666a887929ed406
+  - gate: truth
+    status: insufficient
+    reason: 会话比对的具体粒度、存储与隐私边界、以及交付能否稳定复现尚未在公开材料中说明；仓库星标只反映关注度，不能证明交付确定性。需要部署文档或 issue 讨论来确认实际比对能力与安全边界。
+    evidence_ids:
+    - ev-18c40e2ab403a672
+    - ev-14e0f912c0ee3960
+  next_validation: 追踪 agent-git 仓库的 README、部署文档与 issue/discussion，确认会话比对的实际粒度、存储与隐私边界，以及是否有开发者报告在回归排查中持续使用。
+  market: ''
+  job: AI 应用开发者在调试或复现一次智能体运行（多步对话与工具调用）时，需要把这次会话的完整轨迹保存下来，与之前或之后的版本对照，定位是哪一步改动导致行为变化。
+  job_en: AI application developers debugging or reproducing a single agent run need to save the full
+    multi-step conversation and tool-call trace, then diff it against earlier or later versions to locate
+    which step changed behavior.
+  pain: 智能体会话是长链路、非确定性的多步轨迹，出错后很难复现同一路径；现有做法只能靠日志、终端回滚或手工复制粘贴，无法把一次运行当作可对照的版本对象，导致回归排查和团队复现成本高。
+  pain_en: Agent sessions are long, non-deterministic multi-step traces that are hard to reproduce; today
+    developers rely on logs, terminal scrollback, or manual copy-paste, with no way to treat a run as
+    a diffable versioned object, making regression hunting and team reproduction costly.
+  current_alternative: 当前替代是终端日志、会话记录文件、手工复制粘贴，或把 prompt 与配置塞进 Git 仓库；这些做法只能版本化代码和提示词，无法版本化一次运行产生的实际对话与工具调用轨迹。
+  current_alternative_en: Current alternatives are terminal logs, session dumps, manual copy-paste, or
+    putting prompts and configs into a Git repo; these version code and prompts but not the actual conversation
+    and tool-call trace produced by a run.
+  usage_reason: 推断：相较日志与手工复制，它把一次会话直接作为可保存、可比对的对象，开发者不必再手工重建轨迹，就能在回归或复现时直接对照两个会话版本，因此正在调试多步智能体的开发者会在排查行为变化时选择它。
+  usage_reason_en: 'Inference: unlike logs and manual copy-paste, it treats a session itself as a saveable,
+    diffable object, so developers no longer rebuild the trace by hand and can compare two session versions
+    directly during regression or reproduction; that is why developers debugging multi-step agents would
+    pick it when chasing a behavior change.'

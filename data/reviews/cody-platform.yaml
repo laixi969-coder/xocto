@@ -132,3 +132,55 @@
     approval, permissions, transactional writes, and audit as an explicit LangGraph state machine, cutting
     the governance owner''s step-by-step manual checks and after-the-fact audit reconstruction, so teams
     that want to pilot a governance chain before reworking internal platforms would choose it.'
+- id: req-full-cody-platform-2026-09-20
+  project_slug: cody-platform
+  level: full
+  reviewed_at: '2026-09-20T00:29:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码 agent 接入内部仓库时缺人审、统一权限、事务性写入与审计的治理需求，痛点刚性来自代码写错难回滚与合规追溯；公开材料仅证明产品能力与流程结构，属工作流结构推理，尚无用户抱怨或事故案例佐证。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+    - ev-676663c1f299b960
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 82 增至 97，说明开发者已注意到该项目，但公开材料没有 issue、discussion 或客户案例显示目标治理负责人把它放进日常工作流，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+    - ev-f8d8789b9de30f88
+    - ev-676663c1f299b960
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断钱来自企业采购、开源赞助还是仅靠融资；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+  - gate: truth
+    status: insufficient
+    reason: 项目自称单机参考实现，公开材料未说明事务性写入如何与真实仓库事务边界对齐、人审节点在何种条件下可跳过，交付确定性与人工安全边界尚缺可复现证据。
+    evidence_ids:
+    - ev-72f8b012a32227b3
+    - ev-676663c1f299b960
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认是否出现企业团队实际接入内部仓库的部署说明或使用反馈。
+  market: ''
+  job: 企业研发团队的 AI 编码工具治理负责人，在把编码 agent 接入内部私有仓库、准备让它自动改代码时，需要处理 agent 的写操作与权限材料，完成一次可审计、可回滚、有人审签字的代码变更流程。
+  job_en: A governance owner in an enterprise engineering team, when wiring a coding agent into internal
+    private repositories and letting it modify code, must handle the agent's write operations and permission
+    materials to complete an auditable, rollback-able, human-approved code change.
+  pain: 公开材料显示该实现把治理环节串成单机参考实现，说明真实痛点是：agent 直接写仓库缺少人审、统一权限、事务性写入与审计记录，一旦出错难以追溯和回滚；这是从产品能力与工作流结构推出的判断，尚无用户抱怨或事故案例佐证。
+  pain_en: 'Public materials show the project chains governance steps into a single-machine reference
+    implementation, implying the real pain: agent writes to repositories lack human review, unified permissions,
+    transactional writes and audit trails, making errors hard to trace or roll back; this is inferred
+    from product capability and workflow structure, not from user complaints or incident reports.'
+  current_alternative: 当前替代方式多为团队自行用脚本、CI 钩子或直接让 agent 提交，再靠 code review 事后兜底；公开材料未说明这些替代方案的具体形态与失败率。
+  current_alternative_en: Teams today typically rely on self-written scripts, CI hooks, or letting the
+    agent commit directly with post-hoc code review as a backstop; public materials do not describe these
+    alternatives' exact form or failure rate.
+  usage_reason: 推断：相较自行拼脚本或事后 review，它用 LangGraph 显式状态机把权限校验、人审节点、事务性写入与审计记录固化为一条可运行流程，减少团队自己设计治理链的搭建步骤，因此正在做
+    agent 接入合规评估的团队会先跑通它再决定是否改造。
+  usage_reason_en: 'Inference: versus hand-rolled scripts or post-hoc review, it fixes permission checks,
+    human-approval nodes, transactional writes and audit logging into one runnable LangGraph state machine,
+    cutting the effort of designing a governance chain, so teams assessing agent-integration compliance
+    would run it first before deciding on adaptation.'

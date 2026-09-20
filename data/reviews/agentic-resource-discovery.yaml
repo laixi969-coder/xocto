@@ -125,3 +125,54 @@
   usage_reason_en: 'Inferred: versus manually reading docs and hardcoding endpoints, it merges cross-registry
     search and tools/list verification into one call, removing the per-server schema check, so multi-tool
     agent developers who frequently add tools would choose it when their toolset changes.'
+- id: req-full-agentic-resource-discovery-2026-09-20
+  project_slug: agentic-resource-discovery
+  level: full
+  reviewed_at: '2026-09-20T00:28:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体运行时跨注册表发现并校验可调用 MCP 工具的需求，痛点是工具散落、接口无统一校验、只能写死端点；公开材料证实智能体需自主调用真实工具并据结果调整，不解决的后果是运行时失败与人工排查。属工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-920630600f58659b
+    - ev-67626dc543519242
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据仅有智能体概念与 NLWeb 等替代方向的行业材料，未见开发者对该索引的集成、讨论或持续使用记录，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-909f9ac6241d65b4
+    - ev-67626dc543519242
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、托管搜索 API 或商业授权，买方是 to B 的 Agent 平台还是 to C 开发者无法核验；这是判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-5387f07073a7c414
+  - gate: truth
+    status: supported
+    reason: 工作流结构推理：交付物为跨注册表检索结果与读取 MCP 服务端 tools/list 得到的工具清单，输入与输出可对照协议复现，承诺边界清晰；但 ARD-Bench 的评测口径与安全边界尚无公开材料佐证。
+    evidence_ids:
+    - ev-920630600f58659b
+  next_validation: 追踪该 ARD 索引仓库的公开 issue/discussion 与 README 中主流 Agent 框架的官方集成说明，确认是否有生产环境调用与工具校验结果记录。
+  market: ''
+  job: AI 工程师或后端开发者在搭建多工具智能体时，需要根据任务描述在运行时跨公开 ARD 注册表与各 MCP 服务端 tools/list 检索并校验可调用的工具端点，再交给 Agent 运行时动态调度。
+  job_en: AI engineers or backend developers building multi-tool agents need to search public ARD registries
+    and each MCP server's tools/list at runtime, verify callable tool endpoints, and hand them to the
+    agent runtime for dynamic dispatch.
+  pain: 公开材料显示智能体需要自主规划步骤并调用真实工具（API、文件、浏览器、代码）并观察结果后调整，而 MCP 工具散落在不同注册表、接口结构缺乏统一校验，开发者只能逐个查阅文档并写死连接，工具不可用或结构不符时只能在运行时失败后排查。
+  pain_en: Public material shows agents must plan steps, call real tools (APIs, files, browsers, code)
+    and adjust after observing results; yet MCP tools are scattered across registries with no unified
+    verification of interface structure, so developers read docs one by one and hardcode connections,
+    discovering unusable or mismatched tools only after runtime failure.
+  current_alternative: 开发者手动在各注册表与文档间查找 MCP 服务器，把固定端点写死在代码里；微软 2025 年推出的 NLWeb 也以 RSS 式接口做语义检索，属于同类替代方向。
+  current_alternative_en: Developers manually search registries and docs for MCP servers and hardcode
+    fixed endpoints; Microsoft's 2025 NLWeb also offers RSS-like interfaces for semantic lookup, a comparable
+    alternative direction.
+  usage_reason: 推断：相较手动查文档写死端点，该索引通过联邦检索跨注册表一次取回候选，并直接读取每个 MCP 服务端自身的 tools/list 做接口校验，把“逐个核对文档、运行时才发现工具不可用”这一步前移到检索阶段，因此构建多工具
+    Agent、需要动态换用工具的开发者会在工具选择环节选用它。
+  usage_reason_en: 'Inference: versus manually reading docs and hardcoding endpoints, the index federates
+    search across registries in one pass and reads each MCP server''s own tools/list to verify interfaces,
+    moving the ''check docs one by one, discover broken tools at runtime'' step forward into retrieval;
+    developers building multi-tool agents that swap tools dynamically would choose it at the tool-selection
+    step.'

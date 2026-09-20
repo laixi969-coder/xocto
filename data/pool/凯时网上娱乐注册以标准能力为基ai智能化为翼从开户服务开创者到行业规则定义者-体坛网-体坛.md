@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qbllROXQtMV9p
 summary: 凯时网上娱乐注册：以标准能力为基、AI智能化为翼，从开户服务开创者到行业规则定义者-体坛网_体坛+ 体坛
 first_seen: '2026-09-17T22:27:07Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

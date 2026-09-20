@@ -134,3 +134,51 @@
     moves review before commit, has the agent run staged checks and writes results to a local dashboard,
     removing the commit-then-rework step; local-first means code never leaves the machine, so developers
     who want AI agents to do first-pass review without shipping changes off-box would pick it before committing.'
+- id: req-full-jev-review-2026-09-20
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-09-20T00:29:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是：AI 代理批量改代码后，开发者缺少固定、可复用的提交前质量检查流程，只能人工逐条读 diff。痛点在于漏检后果由提交者承担，属刚性；交付闭环为代理按阶段检查并汇总到本地看板，可确定发生。这是工作流结构推理，尚无用户抱怨或量化数据佐证。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+    - ev-5395f25dff03dcab
+  - gate: consensus
+    status: insufficient
+    reason: 两个仓库收藏数从 161/77 升至 342/161，说明社区关注在增长，但收藏只属关注度证据，不能证明目标用户持续使用或形成强场景共识；公开材料未见 issue、discussion
+      或用户评价说明谁在何种场景采用。
+    evidence_ids:
+    - ev-0408d8e148a2c127
+    - ev-f5245c8f681eaf86
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC。这是判断而非已验证事实：开源仓库本身不构成付费路径，商业证据尚未核验。
+    evidence_ids:
+    - ev-1e98e078a51b4070
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明它是基于 Jev 的评审工作流与 MCP 插件，未披露具体检查项、交付格式、可复现性，以及人工确认与安全边界如何设定，交付确定性尚缺可核验证据。
+    evidence_ids:
+    - ev-5395f25dff03dcab
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认具体检查项、交付格式与是否有团队在真实提交流程中部署使用。
+  market: ''
+  job: 开发者在提交代码前，把待评审的改动交给 AI 编码代理，由代理按阶段做质量检查，并在本地看板中查看结果后决定是否提交。
+  job_en: Before committing, developers hand pending changes to an AI coding agent that runs staged quality
+    checks, then review the results in a local dashboard before deciding to commit.
+  pain: 公开材料只说明它是本地优先的 MCP 插件，用于 AI 编码代理做持续软件质量评审；未提供用户抱怨、评审耗时或漏检后果的量化数据。可确认的痛点是：AI 代理批量改代码后，人工逐条核对质量缺少固定、可复用的检查流程。
+  pain_en: Public materials only describe a local-first MCP plugin for continuous software-quality review
+    by AI coding agents; no user complaints, review-time, or missed-defect data are given. The identifiable
+    pain is that after agents mass-edit code, humans lack a fixed, reusable check routine for per-change
+    quality review.
+  current_alternative: 旧做法是人工逐条读 diff、依赖 CI 或人工 code review 把关；公开材料未说明它具体替代了哪一种，也未给出对比数据。
+  current_alternative_en: The old approach is reading diffs manually and relying on CI or human code review;
+    public materials do not say which one it replaces or provide comparison data.
+  usage_reason: 推断：相较人工逐条读 diff，它把检查动作交给 AI 代理按阶段执行，结果集中到本地看板，减少人工逐条比对这一步；本地优先意味着代码不出本机，对在意代码外泄的开发者更有吸引力。是否有用户因此长期采用，公开材料未证实。
+  usage_reason_en: 'Inference: versus reading diffs line by line, it delegates staged checks to an AI
+    agent and aggregates results in a local dashboard, removing the manual per-line comparison step; local-first
+    means code stays on the machine, which appeals to developers wary of code leakage. Public materials
+    do not confirm sustained adoption.'

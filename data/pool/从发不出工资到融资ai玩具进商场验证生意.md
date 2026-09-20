@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMUpYNmp0VXho
 summary: 从发不出工资到融资，AI玩具进商场验证生意 新浪财经_金融信息服务商
 first_seen: '2026-09-18T10:11:39Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

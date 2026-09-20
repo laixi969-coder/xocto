@@ -121,3 +121,55 @@
     models and 40+ tools inside the terminal, removing window-switching and manual command chaining, so
     terminal-centric developers doing bulk edits would try it; star counts show attention, not sustained
     use.'
+- id: req-full-alphacode-2026-09-20
+  project_slug: alphacode
+  level: full
+  reviewed_at: '2026-09-20T00:28:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者在终端内完成跨文件代码改动、免于手工串联多模型与多工具的需求；公开事实仅有能力描述与仓库收藏数，痛点刚性来自工作流结构推理而非用户口述，交付为可审阅的代码变更，故价值结构成立。
+    evidence_ids:
+    - ev-8b60f3956d859fc7
+    - ev-97e0074d668ba3d3
+    - ev-38b2c4f98ee6e5b6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 77 增至 82，说明有开发者关注该开源项目，但公开材料没有 issue、discussion 或评价显示谁在何种场景持续使用，关注度不能等同于采用共识。
+    evidence_ids:
+    - ev-8b60f3956d859fc7
+    - ev-97e0074d668ba3d3
+    - ev-38b2c4f98ee6e5b6
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未披露定价、付费主体或任何收费方式，钱可能来自 to C 开发者或 to B 团队，属判断而非已验证事实，商业路径尚未核验。
+    evidence_ids:
+    - ev-8b60f3956d859fc7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明多模型调度与 40 多个工具执行改动时的权限边界、人工复核点与失败回滚方式，承诺能否确定性交付缺少可复现证据。
+    evidence_ids:
+    - ev-8b60f3956d859fc7
+    - ev-97e0074d668ba3d3
+  next_validation: 追踪 alphacode 仓库的 issue 与 discussion，确认开发者实际用它完成哪类跨文件改动、替代了哪些手工步骤，以及是否出现重复使用记录。
+  market: ''
+  job: 软件开发者在自己终端里打开这个开源编码代理，把本地代码库与一项具体改动任务交给它，由它调度多个模型和 40 多个工具执行改动，最终产出代码变更，仍需开发者自行审阅。
+  job_en: A software developer opens this open-source coding agent in their own terminal, hands it a local
+    codebase and a concrete change task, and it orchestrates multiple models and 40+ tools to produce
+    code changes that the developer still reviews.
+  pain: 公开事实只给出产品能力描述与仓库收藏数，没有用户抱怨、耗时或错误率数据；从工作流结构推理，痛点是多文件改动需要在编辑器、终端与多个模型/工具之间反复切换并手工串联，不采用则这些步骤仍由开发者逐一手动完成。
+  pain_en: Public facts give only capability claims and star counts, with no user complaints, time or
+    error-rate data; by workflow inference the pain is that multi-file changes require repeated switching
+    between editor, terminal and multiple models/tools stitched by hand, and without it those steps remain
+    manual.
+  current_alternative: 公开材料未直接说明替代对象；结构推理下旧做法是开发者自己用编辑器加终端手工改代码，或单独调用某个模型/CLI 工具，由人负责串联多步与多工具。
+  current_alternative_en: Public material does not state the replaced practice; by structural inference
+    the old way is the developer editing code by hand in an editor plus terminal, or calling a single
+    model/CLI tool, with the human stitching steps and tools together.
+  usage_reason: 推断：相较手工串联，它把多模型调度与 40 多个工具收进一个终端界面，减少开发者在多个工具间切换并手工编排步骤的负担，因此习惯终端工作流、需要跨文件改动的开发者会在本地任务中试用它；公开材料未提供留存或复购证据，不能声称已被长期留在工作流里。
+  usage_reason_en: 'Inference: versus manual stitching, it folds multi-model orchestration and 40+ tools
+    into one terminal UI, cutting the burden of switching tools and hand-orchestrating steps, so developers
+    who live in the terminal and need cross-file changes would try it on local tasks; public material
+    offers no retention or repeat-use evidence, so long-term workflow embedding cannot be claimed.'

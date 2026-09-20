@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/pc-anatomy
 summary: Explore a PC from case to GPU core in interactive 3D
 first_seen: '2026-09-15T23:17:07Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

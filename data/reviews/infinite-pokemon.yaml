@@ -1,0 +1,88 @@
+- id: req-initial-infinite-pokemon-2026-09-20
+  project_slug: infinite-pokemon
+  level: initial
+  reviewed_at: '2026-09-20T00:09:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决无限内容供给的问题，但材料未说明玩家或开发者的具体痛点强度，也无可观察的旧流程替代证据。
+    evidence_ids:
+    - ev-f831f0ee8d59c680
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 98 星与 19 次 fork 的开源关注度，属于关注度证据，不能说明持续采用或场景共识。
+    evidence_ids:
+    - ev-f831f0ee8d59c680
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、付费路径或买方描述；谁付钱尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f831f0ee8d59c680
+  - gate: truth
+    status: insufficient
+    reason: 生成内容能否确定性交付、是否需人工审核、多人模式如何维持，公开材料均未说明。
+    evidence_ids:
+    - ev-f831f0ee8d59c680
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认是否有开发者实际把它接入自己的项目或反馈生成内容的可用性。
+  market: ''
+  job: 独立游戏开发者或同人创作者在需要持续产出新地图、NPC 与剧情时，用生成模型替代手工编写关卡与对白，最终交付一个可继续游玩的存档世界。
+  job_en: An indie game developer or fan creator needing a continuous supply of new maps, NPCs and story
+    uses a generative model instead of hand-authoring levels and dialogue, delivering a save world that
+    can keep being played.
+  pain: 手工设计无限内容成本极高，单人开发者难以维持长期更新；但候选材料未说明玩家是否真的需要“永不结束”，也未给出任何使用或留存证据。
+  pain_en: Hand-designing endless content is extremely costly and hard for a solo developer to sustain;
+    yet the material never shows players actually wanting an endless adventure, nor any usage or retention
+    evidence.
+  current_alternative: 手工编写关卡与对白、使用现成游戏引擎与素材库，或直接做有限流程的独立游戏。
+  current_alternative_en: Hand-authoring levels and dialogue, using existing game engines and asset libraries,
+    or shipping an indie game with a finite campaign.
+  usage_reason: 推断：相较手工写关卡，它把“设计新地图与 NPC”这一步交给模型自动生成，开发者只需维护存档与规则，因此可能吸引想低成本维持长期更新的个人开发者；但缺少用户反馈，无法确认这是真实选择理由。
+  usage_reason_en: 'Inference: versus hand-writing levels, it hands the step of designing new maps and
+    NPCs to a model, leaving the developer to maintain saves and rules, which may attract solo developers
+    wanting low-cost perpetual updates; without user feedback this cannot be confirmed as a real reason
+    for choosing it.'
+- id: req-full-infinite-pokemon-2026-09-20
+  project_slug: infinite-pokemon
+  level: full
+  reviewed_at: '2026-09-20T00:29:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决无限内容供给，但公开材料只给出功能描述与 98 星关注度，没有任何玩家或开发者表达“冒险必须永不结束”的痛点，也无可观察的旧流程绕行行为；属于技术演示型自嗨，不用它玩有限流程游戏并无损失。
+    evidence_ids:
+    - ev-f831f0ee8d59c680
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认是否有开发者实际把它接入项目或反馈生成内容的可用性，以判断是否存在真实使用而非仅关注。
+  market: ''
+  job: 独立游戏开发者或同人创作者在需要持续产出新地图、NPC 与剧情时，用 Codex 生成内容替代手工编写关卡与对白，交付一个可继续游玩的宝可梦式存档世界。
+  job_en: An indie developer or fan creator needing a continuous supply of new maps, NPCs and story uses
+    Codex generation instead of hand-authoring levels and dialogue, delivering a Pokémon-style save world
+    that keeps being playable.
+  pain: 公开材料只说明手工设计无限内容成本高，但没有任何玩家或开发者表达过“冒险必须永不结束”的痛点，也没有旧流程绕行证据；这更像技术演示的卖点，而非被验证的刚性需求。
+  pain_en: Public material only notes that hand-designing endless content is costly; no player or developer
+    is shown expressing a need for an adventure that never ends, and no workaround evidence exists—this
+    reads as a tech-demo selling point rather than a validated rigid pain.
+  current_alternative: 手工编写关卡与对白、使用现成引擎与素材库，或直接发行有限流程的独立游戏；玩家侧则是玩有明确结局的宝可梦式作品。
+  current_alternative_en: Hand-authoring levels and dialogue, using existing engines and asset libraries,
+    or shipping a finite indie campaign; on the player side, playing Pokémon-style titles with definite
+    endings.
+  usage_reason: 推断：它把“设计新地图与 NPC”这一步交给模型自动生成，开发者只需维护存档与规则，理论上降低长期更新成本；但缺少任何用户反馈或采用记录，无法确认开发者或玩家会因此选择它，且“永不结束”本身不构成必须被满足的任务。
+  usage_reason_en: 'Inference: it hands map and NPC design to a model, leaving the developer to maintain
+    saves and rules, theoretically cutting update cost; but with no user feedback or adoption record,
+    it is unconfirmed that developers or players would choose it, and ''never ending'' is not itself a
+    task that must be fulfilled.'

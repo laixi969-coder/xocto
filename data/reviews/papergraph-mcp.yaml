@@ -519,3 +519,52 @@
     the paper source and traces proof evidence, emitting dependencies as a checkable structure for agents,
     cutting the steps of re-tracing citations and auditing hallucinations, so researchers or agent developers
     feeding paper structure to agents would pick it for long math papers.'
+- id: req-full-papergraph-mcp-2026-09-20
+  project_slug: papergraph-mcp
+  level: full
+  reviewed_at: '2026-09-20T00:30:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学论文定理依赖难追溯、阅读顺序难规划的需求，痛点在于人工回溯引理与证明出处易漏、通用 LLM 总结无出处；不解决的后果是误判结论条件或代理给出无依据路径。公开仓库说明其输入论文源、输出带证据的依赖图与阅读顺序，交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-3a6a4b615aeeb88f
+    - ev-21d6683a5d7accce
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 173 增至 230，说明开发者社区持续关注，但收藏与增长只属关注度证据，不能证明目标研究者已把它留在日常阅读工作流；缺少 issue、discussion 或用户评价说明实际使用场景。
+    evidence_ids:
+    - ev-3a6a4b615aeeb88f
+    - ev-a746eb7b7d1dfa12
+  - gate: model
+    status: insufficient
+    reason: 这是开源 MCP 服务器，公开材料未见定价页、付费主体或采购记录；钱可能来自 to C 研究者订阅、to B 实验室工具采购或 to VC 资助，均属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-3a6a4b615aeeb88f
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺输出证据锚定的依赖图，但未见可复现的解析准确率、对复杂 LaTeX 宏包或跨文献依赖的处理边界，也未说明人工复核与错误依赖的安全边界，交付确定性尚缺公开验证。
+    evidence_ids:
+    - ev-3a6a4b615aeeb88f
+    - ev-21d6683a5d7accce
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有研究者公开报告在具体论文阅读或代理工作流中实际部署、以及解析失败或依赖漏检的案例。
+  market: ''
+  job: 数学/理论方向的研究人员或为其构建工具的 AI 代理开发者，在阅读 arXiv 或 LaTeX 数学论文时，需要先弄清定理之间的依赖关系、证明证据和阅读顺序，才能判断哪些结论可复用、该按什么顺序读。
+  job_en: Math/theory researchers, or AI agent developers building tools for them, reading an arXiv or
+    LaTeX math paper need to first map theorem dependencies, proof evidence, and reading order to judge
+    which results are reusable and in what order to read.
+  pain: 数学论文的定理依赖链常跨章节甚至跨外部文献，读者要手工来回翻找前置引理和证明出处，容易漏掉关键依赖或误判结论成立条件；对 AI 代理而言，缺少结构化依赖图就只能靠猜测生成阅读路径。
+  pain_en: Theorem dependency chains in math papers span sections and external references; readers must
+    manually trace prerequisite lemmas and proof sources, risking missed dependencies or misjudged conditions,
+    and an AI agent without a structured graph can only guess a reading path.
+  current_alternative: 当前替代是人工通读并做笔记、用引用管理或 PDF 搜索逐条回溯引理，或让通用 LLM 直接总结论文（易产生无出处的猜测）。
+  current_alternative_en: Today users read through manually with notes, trace lemmas via reference managers
+    or PDF search, or ask a general LLM to summarize the paper, which tends to produce unsourced guesses.
+  usage_reason: 相较人工逐条回溯或让 LLM 直接总结，该 MCP 服务器把论文源文件解析为带证明证据的定理依赖图并规划阅读顺序，使代理输出可追溯到具体结果而非猜测；因此需要可核对依赖链的研究者或构建论文阅读代理的开发者会在处理长数学论文时选择它。此为基于产品能力与任务的结构推理，尚无用户反馈佐证。
+  usage_reason_en: Versus manual tracing or letting an LLM summarize directly, this MCP server parses
+    the paper source into a theorem dependency graph with proof evidence and plans reading order, so agent
+    output traces to specific results instead of guesses; researchers needing verifiable dependency chains,
+    or developers building paper-reading agents, would pick it for long math papers. This is structural
+    inference from product capability and task, not yet backed by user feedback.

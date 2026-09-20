@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrin
 summary: Without buyouts, Flock would "almost certainly" need to lay off staff.
 first_seen: '2026-09-19T20:39:13Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

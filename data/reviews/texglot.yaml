@@ -140,3 +140,50 @@
     reformatting step, so researchers who regularly read non-native-language papers and need editable
     source would choose it for close reading or taking over a project; this is an inference from product
     capability, with no user feedback or retention evidence yet.'
+- id: req-full-texglot-2026-09-20
+  project_slug: texglot
+  level: full
+  reviewed_at: '2026-09-20T00:31:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非母语论文阅读中公式、引用与结构被翻译打乱的问题，痛点具体且旧做法要人工复原排版，结构上成立；买方是谁尚不清楚。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 47 增至 80，属早期关注度增长，仍无用户评价或采用行为说明科研人群已形成持续使用。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+    - ev-a0c618f7c31e4046
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，未见定价页或付费路径；可能靠自带 API 免费使用，也可能由高校或翻译服务采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a0c618f7c31e4046
+  - gate: truth
+    status: insufficient
+    reason: 公式与引用是否在长文档中稳定对齐、人工复核边界如何，公开材料未给出可复现结果或评测。
+    evidence_ids:
+    - ev-e0da007acdb659ba
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于长论文翻译后公式与引用对齐的可复现实测记录。
+  market: ''
+  job: 科研人员或研究生在阅读非母语 arXiv 论文或接手他人 LaTeX 项目时，需要把整份 .tex 源码连同公式、引用和章节结构翻成自己熟悉的语言，并拿到可继续编辑的版本。
+  job_en: A researcher or graduate student reading a non-native-language arXiv paper or taking over someone
+    else's LaTeX project needs the whole .tex source, including equations, citations and section structure,
+    translated into a familiar language and returned in an editable form.
+  pain: 通用翻译工具会把公式、引用编号和章节结构打乱，读者要逐段对照原文手工修复，读一篇论文的额外整理成本很高。
+  pain_en: Generic translation tools scramble equations, citation numbers and section structure, forcing
+    readers to repair the text against the original by hand, which adds heavy cleanup cost to every paper.
+  current_alternative: 现在多是把 PDF 丢进通用翻译或复制段落进聊天助手，再人工对照原文修正公式与引用；也有人直接硬读英文原文。
+  current_alternative_en: Today people paste the PDF into a generic translator or copy paragraphs into
+    a chat assistant and then manually fix formulas and citations against the original, or simply read
+    the English text directly.
+  usage_reason: 相较通用翻译后手工修复，texglot 直接处理 .tex 源码并保留公式、引用与结构，把最耗时的排版复原一步省掉，因此经常读非母语论文、又需要可编辑源码的研究者会在整篇精读或接手项目时选择它；这是基于产品能力的推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with fixing a generic translation by hand, texglot works directly on the .tex
+    source and preserves equations, citations and structure, removing the most time-consuming reformatting
+    step, so researchers who regularly read non-native-language papers and need editable source would
+    choose it for close reading or taking over a project; this is an inference from product capability,
+    with no user feedback or retention evidence yet.

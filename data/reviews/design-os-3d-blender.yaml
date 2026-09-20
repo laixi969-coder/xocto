@@ -223,3 +223,52 @@
     AGENT_OK/AGENT_FAIL contract and production gate, cutting the rework step of discovering problems
     only after slicing; design or printing-service teams producing printable parts in volume would try
     it.'
+- id: req-full-design-os-3d-blender-2026-09-20
+  project_slug: design-os-3d-blender
+  level: full
+  reviewed_at: '2026-09-20T00:29:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Blender 脚本建模门槛高、可打印性问题暴露太晚的痛点，交付物是可打印零件模型，输入—动作—交付闭环清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-6cfd7d86482353eb
+    - ev-afe8466bec9872a2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 68 缓慢增至 76，属关注度信号；公开材料无用户评价、issue 或客户案例说明持续采用，强场景尚可判断但共识未成立。
+    evidence_ids:
+    - ev-afe8466bec9872a2
+    - ev-6cfd7d86482353eb
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明买方与付费路径，钱可能来自定制服务或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6cfd7d86482353eb
+  - gate: truth
+    status: insufficient
+    reason: 执行契约与生产闸门能否稳定筛出可打印零件，缺少可复现实测或用户反馈支持，安全与人工边界也未公开说明。
+    evidence_ids:
+    - ev-6cfd7d86482353eb
+    - ev-afe8466bec9872a2
+  next_validation: 追踪该仓库的 issue 与 discussion，查看用户对生产闸门筛出可打印零件的实际反馈与失败案例。
+  market: ''
+  job: 3D 打印从业者或工业设计师在 Blender 5.2 中建模时，用自然语言指令驱动 AI 生成或修改 bpy 脚本，产出可交付打印的零件模型（如键盘、桌面机械臂），并需人工确认最终结果。
+  job_en: 3D-printing practitioners or industrial designers modeling in Blender 5.2 use natural-language
+    instructions to drive an AI that generates or edits bpy scripts, producing printable part models (e.g.,
+    a keyboard, a desktop robot arm), with final human confirmation still required.
+  pain: 在 Blender 里脚本化建模需要熟悉 bpy 接口，且零件是否可打印往往要等到切片或打印阶段才暴露，返工成本高；通用编码助手生成的脚本又缺少可打印性校验。
+  pain_en: Scripted modeling in Blender requires bpy API familiarity, and whether a part is printable
+    often surfaces only at slicing or printing time, making rework costly; general coding assistants also
+    lack printability checks.
+  current_alternative: 设计师手工编写 bpy 脚本并在 Blender 中反复试错，或借助通用编码助手生成脚本后人工检查可打印性，再送切片软件验证。
+  current_alternative_en: Designers hand-write bpy scripts and iterate by trial and error in Blender,
+    or use general coding assistants to generate scripts and then manually check printability before slicing.
+  usage_reason: 推断：相较手工写脚本再试错，它用经核验的 bpy 知识库生成脚本，并以 AGENT_OK/AGENT_FAIL 执行契约和生产闸门在生成阶段就筛掉不可打印的零件，减少切片后才发现问题的那一步返工；因此需要批量产出可打印零件的设计或打印服务团队会在脚本化建模场景下尝试它。
+  usage_reason_en: 'Inference: compared with hand-writing scripts and iterating, it generates scripts
+    from a verified bpy knowledge base and filters out non-printable parts at generation time via the
+    AGENT_OK/AGENT_FAIL contract and production gate, cutting the rework step of discovering problems
+    only after slicing; design or printing-service teams producing printable parts in volume would try
+    it in scripted-modeling scenarios.'

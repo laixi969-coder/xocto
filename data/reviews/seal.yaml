@@ -1,0 +1,89 @@
+- id: req-initial-seal-2026-09-20
+  project_slug: seal
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是身后数字凭证交接，痛点方向可辨，但材料只有一句说明，说不清触发条件、交付形态与不采用的后果，价值结构尚不成立。
+    evidence_ids:
+    - ev-adcb41456989c858
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该项目的采用、付费或重复使用证据，共识关无法判断。
+    evidence_ids:
+    - ev-adcb41456989c858
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；可能来自个人订阅或与遗嘱、保险机构分成，属推断，不是已验证事实。
+    evidence_ids:
+    - ev-adcb41456989c858
+  - gate: truth
+    status: insufficient
+    reason: 触发机制、加密实现与法律效力均未说明，承诺能否确定性交付无法核对，安全与人工边界也未知。
+    evidence_ids:
+    - ev-adcb41456989c858
+  next_validation: 收集该开源仓库的 README 与 issue/discussion，核对触发条件、加密方式与交付流程的具体说明。
+  market: ''
+  job: 需要提前安排身后事务的人，在订立遗嘱或整理家庭资料时，处理信件、账号密码等数字凭证，要完成把这些内容在本人去世后交给家人的任务。
+  job_en: A person arranging affairs in advance, while writing a will or organizing family records, handles
+    letters and account passwords and needs to hand them to family after death.
+  pain: 数字凭证分散在多个账号里，家人通常不知道存在哪些、放在哪里，也不掌握解锁方式；候选材料未说明现有做法具体卡在哪一步。
+  pain_en: Digital credentials are scattered across accounts; family members usually do not know what
+    exists, where it is, or how to unlock it. The candidate material does not say exactly where current
+    practice breaks down.
+  current_alternative: 常见旧做法是纸质遗嘱、把密码写在纸上交给律师或亲友保管，或干脆不做安排；候选材料未提供可核对的替代行为证据。
+  current_alternative_en: Common old practice is a paper will, writing passwords on paper for a lawyer
+    or relative, or making no arrangement at all; the candidate material offers no verifiable evidence
+    of these alternatives.
+  usage_reason: 推断：若它能把凭证加密保管并在预设条件触发后自动交给指定家人，就省去家人逐个寻找账号、向平台申诉找回的步骤。但触发条件、加密方式与法律效力均未在公开材料中出现，因此尚不能判断哪类用户会实际选择它。
+  usage_reason_en: 'Inference: if it can store credentials encrypted and release them to designated family
+    once a preset condition triggers, it removes the step of family hunting for accounts and appealing
+    to platforms. But trigger conditions, encryption and legal validity are absent from public material,
+    so which users would actually choose it cannot yet be judged.'
+- id: req-full-seal-2026-09-20
+  project_slug: seal
+  level: full
+  reviewed_at: '2026-09-20T00:31:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料仅一句产品说明，其余证据全部指向英国歌手 Seal 的百科与官网，与身后数字凭证交接无关；触发条件、交付形态、不采用后果均无公开事实支撑，无法还原用户任务与旧流程，价值结构不成立。
+    evidence_ids:
+    - ev-13d9b6a0ccbf3300
+    - ev-6ce0d6d132ad4979
+    - ev-33eab858395f8851
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索该开源项目自身的仓库 README 与 issue/discussion（而非同名歌手页面），核对触发条件、加密方式与交付流程的具体说明。
+  market: ''
+  job: 需要提前安排身后事务的人，在订立遗嘱或整理家庭资料时，处理信件、账号密码等数字凭证，要完成把这些内容在本人去世后交给家人的任务。
+  job_en: A person arranging affairs in advance, while writing a will or organizing family records, handles
+    letters and account passwords and needs to hand them to family after death.
+  pain: 数字凭证分散在多个账号里，家人通常不知道存在哪些、放在哪里，也不掌握解锁方式；候选材料未说明现有做法具体卡在哪一步。
+  pain_en: Digital credentials are scattered across accounts; family members usually do not know what
+    exists, where it is, or how to unlock it. The candidate material does not say exactly where current
+    practice breaks down.
+  current_alternative: 常见旧做法是纸质遗嘱、把密码写在纸上交给律师或亲友保管，或干脆不做安排；候选材料未提供可核对的替代行为证据。
+  current_alternative_en: Common old practice is a paper will, writing passwords on paper for a lawyer
+    or relative, or making no arrangement at all; the candidate material offers no verifiable evidence
+    of these alternatives.
+  usage_reason: 推断：若它能把凭证加密保管并在预设条件触发后自动交给指定家人，就省去家人逐个寻找账号、向平台申诉找回的步骤。但触发条件、加密方式与法律效力均未在公开材料中出现，因此尚不能判断哪类用户会实际选择它。
+  usage_reason_en: 'Inference: if it can store credentials encrypted and release them to designated family
+    once a preset condition triggers, it removes the step of family hunting for accounts and appealing
+    to platforms. But trigger conditions, encryption and legal validity are absent from public material,
+    so which users would actually choose it cannot yet be judged.'

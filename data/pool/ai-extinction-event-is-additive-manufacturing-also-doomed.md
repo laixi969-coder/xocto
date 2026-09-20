@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPdjU3d3dKSkg3
 summary: AI Extinction Event, is Additive Manufacturing also Doomed? 3dprintingindustry.com
 first_seen: '2026-09-17T11:19:23Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

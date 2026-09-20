@@ -646,3 +646,52 @@
   usage_reason_en: 'No causal explanation is possible: evidence is limited to feature description, with
     no public fact on why a user would pick it over the old approach in a concrete situation, so no inference
     can be supported.'
+- id: req-full-reverify-2026-09-20
+  project_slug: reverify
+  level: full
+  reviewed_at: '2026-09-20T00:31:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LLM 在高精度任务中编造结论、且核实结果无法跨会话留存的问题；逆向工程中错误偏移或协议字段会导致整条分析链返工，痛点刚性明确。公开仓库说明其以 MCP 服务器加 CLI
+      交付“提议—确定性裁决—证据留存”闭环，属工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-74c619ef5737a16c
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 1,231 个 star，说明开发者社区已注意到该项目；但 star 只反映关注度，未见 issue、discussion 或用户反馈说明谁在何种场景持续使用，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-74c619ef5737a16c
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自开发者自付的 to C 订阅或团队 to B 采购，这是判断而非已验证事实；仓库为开源项目，尚无收入路径公开证据。
+    evidence_ids:
+    - ev-74c619ef5737a16c
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述承诺“每条主张对照 ground truth 核查”，但未见部署文档、可复现实测或人工介入边界的公开说明，无法确认核查在真实逆向工程任务中能否确定性交付。
+    evidence_ids:
+    - ev-74c619ef5737a16c
+  next_validation: 追踪 reverify 仓库的 issue 与 discussion，确认是否有用户报告在具体逆向工程或安全分析任务中部署、替代了哪一步人工核对流程。
+  market: ''
+  job: AI 应用开发者与逆向工程师在让 LLM 代理处理二进制分析、协议还原等任务时，需要代理给出的每条结论（函数用途、结构偏移、协议字段）都能被确定性工具复核，并把已核实的事实与上下文跨会话保留下来。
+  job_en: AI application developers and reverse engineers need every conclusion an LLM agent produces
+    during binary analysis or protocol recovery (function purpose, struct offsets, protocol fields) to
+    be re-checked by deterministic tools, with verified facts and context persisted across sessions.
+  pain: LLM 在逆向工程这类高精度任务中会编造函数语义、偏移量和协议字段，而这类错误一旦进入后续分析链条，返工成本远高于普通文本幻觉；开发者目前只能靠人工逐条比对反汇编、调试器输出和文档来兜底。
+  pain_en: LLMs fabricate function semantics, offsets and protocol fields in high-precision work like
+    reverse engineering; once such errors enter the downstream analysis chain, rework cost far exceeds
+    ordinary text hallucination, and developers currently fall back on manually cross-checking disassembly,
+    debugger output and documentation.
+  current_alternative: 现状是人工在反汇编器、调试器与文档之间逐条核对 AI 输出，或依赖模型自身的自我检查与提示词约束；这些做法不产生可复用的证据链，会话重置后已确认的事实也会丢失。
+  current_alternative_en: Today users manually cross-check AI output against disassemblers, debuggers
+    and documentation, or rely on the model's own self-checking and prompt constraints; neither yields
+    a reusable evidence chain, and confirmed facts are lost when the session resets.
+  usage_reason: 推断：相较人工逐条比对或纯提示词约束，reverify 把“AI 提议、确定性工具裁决”做成 MCP 服务器与 CLI 的固定动作，每条主张必须附上对照 ground truth
+    的证据才被接受，并把已核实事实持久化，因此逆向工程或安全分析团队在需要可审计结论时会选择它，而不是继续靠人工复核。
+  usage_reason_en: 'Inference: unlike manual line-by-line checking or prompt-only constraints, reverify
+    makes ''AI proposes, deterministic tools decide'' a fixed step in an MCP server and CLI, accepting
+    a claim only with evidence checked against ground truth and persisting verified facts, so reverse-engineering
+    or security-analysis teams needing auditable conclusions would choose it over continued manual review.'

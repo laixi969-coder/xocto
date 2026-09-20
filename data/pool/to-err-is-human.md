@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/to-err-is-human
 summary: Whoops!
 first_seen: '2026-09-19T14:45:05Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

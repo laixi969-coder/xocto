@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbUxtdTAyRFJO
 summary: 何以中国·运河之光｜AI赋能文创出海 智联东盟共绘数字合作新图景 Sohu
 first_seen: '2026-09-18T07:18:00Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,83 @@
+- id: req-initial-snail-walk-2026-09-20
+  project_slug: snail-walk
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是日常步行激励，痛点方向可辨，但材料只有一句说明，说不清输入、机制与交付，价值结构尚不成立。
+    evidence_ids:
+    - ev-1854df4b5607144e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该应用的采用、付费或重复使用证据，共识关无法判断。
+    evidence_ids:
+    - ev-1854df4b5607144e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自个人订阅或应用内购买，属推断，不是已验证事实。
+    evidence_ids:
+    - ev-1854df4b5607144e
+  - gate: truth
+    status: insufficient
+    reason: 步数读取方式、是否使用 AI 以及防作弊机制均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-1854df4b5607144e
+  next_validation: 收集该应用的官方说明或定价页，核对步数读取方式、是否包含 AI 环节与计费方式。
+  market: ''
+  job: 想增加日常步行的上班族或学生，在通勤和休息时间处理自己的步数记录，要完成每天多走一段路以推进游戏进度的任务。
+  job_en: An office worker or student who wants to walk more handles their step records during commute
+    and breaks and needs to walk extra each day to advance in-game progress.
+  pain: 单纯计步和打卡缺少紧迫感，容易中断；候选材料未说明现有做法具体卡在哪一步。
+  pain_en: Plain step counting and check-ins lack urgency and are easily abandoned; the candidate material
+    does not say exactly where current practice breaks down.
+  current_alternative: 旧做法是用手机自带计步、运动手环或打卡类应用自我监督；候选材料未提供可核对的替代行为证据。
+  current_alternative_en: Old practice is self-monitoring with built-in phone step counting, fitness bands
+    or check-in apps; the candidate material offers no verifiable evidence of these alternatives.
+  usage_reason: 推断：若被蜗牛追上的设定能制造损失感，用户会为了不被追上而多走一段路，省去靠自律维持打卡的负担。但材料未说明步数如何读取、是否有 AI 成分，因此哪类用户会实际选择它尚不能判断。
+  usage_reason_en: 'Inference: if being caught by the snail creates a sense of loss, users may walk extra
+    to avoid it, removing the burden of self-discipline in check-ins. But the material does not say how
+    steps are read or whether AI is involved, so which users would actually choose it cannot yet be judged.'
+- id: req-full-snail-walk-2026-09-20
+  project_slug: snail-walk
+  level: full
+  reviewed_at: '2026-09-20T00:31:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决日常步行激励不足的问题，但候选材料只有一句说明，未交代输入、机制与交付形态，连用户当前如何记录步数、卡在哪一步都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-0ba86863a1c39432
+    - ev-1daed25d35350666
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Snail Walk 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 想增加日常步行的上班族或学生，在通勤和休息时间处理自己的步数记录，要完成每天多走一段路以推进游戏进度的任务。
+  job_en: An office worker or student who wants to walk more handles their step records during commute
+    and breaks and needs to walk extra each day to advance in-game progress.
+  pain: 候选材料只有一句产品说明，未说明用户当前用什么方式记录步数、卡在哪一步、不采用会失去什么，痛点无法从公开事实还原。
+  pain_en: The candidate material contains only a one-line product description and does not state how
+    users currently record steps, where the process breaks down, or what is lost by not adopting it, so
+    the pain cannot be reconstructed from public facts.
+  current_alternative: 公开证据未提供任何可核对的替代行为，只能推测为手机自带计步、运动手环或打卡类应用，属推断而非事实。
+  current_alternative_en: The public evidence offers no verifiable alternative behavior; built-in phone
+    step counting, fitness bands or check-in apps are only an inference, not a fact.
+  usage_reason: 推断：若被蜗牛追上的设定能制造损失感，用户可能为不被追上而多走一段路；但材料未说明步数如何读取、是否有 AI 环节、交付形态为何，因此哪类用户会实际选择它无法判断。
+  usage_reason_en: 'Inference: if being caught by the snail creates a sense of loss, users might walk
+    extra to avoid it; but the material does not say how steps are read, whether AI is involved, or what
+    the delivered form is, so which users would actually choose it cannot be judged.'

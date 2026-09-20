@@ -388,3 +388,55 @@
     already tuned for DSA and samplers, removing the step of writing and tuning CUDA kernels yourself,
     so teams training or serving DeepSeek sparse attention would pick it when long-context throughput
     matters. The star count rising from 327 to 367 indicates attention, not a reason for adoption.'
+- id: req-full-deepselect-2026-09-20
+  project_slug: deepselect
+  level: full
+  reviewed_at: '2026-09-20T00:29:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSA 模型长上下文注意力中 TopK 选择与采样的算子效率问题：通用实现下这两步是显存与延迟瓶颈，不解决则训练/推理变慢或显存不足，团队只能自写 kernel。公开仓库明确限定为
+      DSA 的 TopK kernel 与 sampler，输入—动作—交付闭环清晰，属工作流结构推理；但缺性能对比与用户反馈。
+    evidence_ids:
+    - ev-6bc5233225684215
+    - ev-9430df21bff9be30
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 342 升至 368，说明开发者持续关注，但星标只是关注度，不能证明目标用户已把它放进训练/推理工作流；公开材料没有 issue、discussion 或客户案例说明谁在何种场景采用。
+    evidence_ids:
+    - ev-6bc5233225684215
+    - ev-0ab0525863195c92
+  - gate: model
+    status: insufficient
+    reason: 这是 DeepSeek 官方开源仓库，公开材料没有定价页、付费路径或采购记录；钱可能来自 DeepSeek 自身模型训练/推理的降本，或生态采用带来的间接价值，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6bc5233225684215
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述为 TopK kernel 与 sampler，但公开材料没有 benchmark、正确性测试报告或部署文档，无法核验其相较通用算子是否确定性更快、数值是否一致，以及人工调优边界在哪。
+    evidence_ids:
+    - ev-9430df21bff9be30
+    - ev-c6b1f87721bd850f
+  next_validation: 追踪 DeepSelect 仓库的 README/benchmark 与 issue、discussion，确认是否有公开性能对比、正确性测试及实际部署反馈。
+  market: ''
+  job: 训练或推理 DeepSeek 稀疏注意力（DSA）模型的工程师，在 GPU 上跑长上下文注意力与采样时，需要把 TopK 选择与采样算子替换为高效 kernel，以完成可用的前向/反向计算。
+  job_en: Engineers training or serving DeepSeek Sparse Attention (DSA) models need to replace TopK selection
+    and sampler operators with efficient GPU kernels so long-context attention and sampling run correctly
+    and fast.
+  pain: 公开仓库说明只覆盖 TopK kernel 与 sampler 这一层：通用实现下稀疏注意力的 TopK 选择与采样往往是显存与延迟瓶颈，长上下文训练/推理会因此变慢或显存不足；不解决就得自己写或调
+    kernel。
+  pain_en: 'The public repo scope is limited to TopK kernels and samplers: with generic implementations,
+    TopK selection and sampling in sparse attention are memory and latency bottlenecks, making long-context
+    training/serving slow or memory-bound; leaving it unsolved forces teams to hand-write or tune kernels.'
+  current_alternative: 当前替代是使用通用 PyTorch/Triton 算子、框架自带采样实现，或团队自行编写并调优自定义 kernel；公开材料未说明这些替代的具体性能差距。
+  current_alternative_en: Today teams use generic PyTorch/Triton operators, framework-provided samplers,
+    or hand-written custom kernels; public materials do not quantify the performance gap versus these
+    alternatives.
+  usage_reason: 推断：相较自行编写或调优 kernel，DeepSeek 官方发布的专用 TopK/sampler kernel 让使用 DSA 的团队可直接替换算子，省去从零实现与调优这一步；关注度从
+    342 升至 368 星说明有开发者持续关注，但公开材料未提供采用、留存或性能对比证据。
+  usage_reason_en: 'Inference: versus hand-writing or tuning kernels, DeepSeek''s official TopK/sampler
+    kernels let DSA users swap operators directly, removing the from-scratch implementation and tuning
+    step; stars rising from 342 to 368 show developer attention, but public materials provide no adoption,
+    retention, or benchmark evidence.'

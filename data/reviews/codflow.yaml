@@ -110,3 +110,55 @@
   usage_reason: 公开代码仓库有 99 个收藏、18 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 99 stars and 18 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-codflow-2026-09-20
+  project_slug: codflow
+  level: full
+  reviewed_at: '2026-09-20T00:29:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决阿尔及利亚 COD 卖家的订单—配送—回款闭环需求：COD 为主流支付，通用电商默认预付，卖家只能用表格加手工对接配送商，拒收退货造成货损与现金缺口。产品以开源方式把 COD
+      订单与配送调度放进同一流程，交付物可确定；此为工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-a1eed1466b367e7b
+    - ev-3a2d008aff69b593
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 90 增至 100，说明开发者持续关注，但收藏与复刻只属关注度，不能证明阿尔及利亚卖家已把它留在日常订单与配送流程中；缺少 issue、discussion 或部署案例说明真实使用场景。
+    evidence_ids:
+    - ev-a1eed1466b367e7b
+    - ev-3a2d008aff69b593
+  - gate: model
+    status: insufficient
+    reason: 项目为开源，公开材料未见定价页、付费客户或采购记录，谁付钱（卖家自托管、配送商、还是服务商）尚不清楚；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-a1eed1466b367e7b
+  - gate: truth
+    status: insufficient
+    reason: 仓库描述未给出 COD 签收确认、现金对账与拒收处理的具体实现细节，也未见部署文档或可复现实测，交付能否稳定发生、人工与安全边界仍缺公开证据。
+    evidence_ids:
+    - ev-a1eed1466b367e7b
+    - ev-5aae4373da039ad8
+  next_validation: 追踪 codflow 仓库的 README、部署文档与 issue/discussion，确认是否有阿尔及利亚卖家公开描述其 COD 订单与配送流程的实际部署与替代的旧做法。
+  market: ''
+  job: 阿尔及利亚的中小电商卖家在收到货到付款（COD）订单后，需要把订单录入、安排本地配送、跟踪签收与回款，并处理拒收退货，最终完成一笔可结算的 COD 交易。
+  job_en: Small Algerian e-commerce sellers receiving cash-on-delivery (COD) orders need to capture orders,
+    dispatch local delivery, track acceptance and cash collection, and handle refused returns to close
+    a settleable COD transaction.
+  pain: COD 是阿尔及利亚主流支付方式，卖家必须自行拼装订单表、配送商对接与回款核对；拒收和退货直接造成货损与现金缺口，而通用电商平台默认预付、不覆盖 COD 的签收与结算环节。
+  pain_en: COD dominates Algerian payments, so sellers must stitch together order sheets, courier integrations
+    and cash reconciliation; refused deliveries and returns cause direct stock loss and cash gaps, while
+    generic e-commerce stacks assume prepayment and do not cover COD acceptance and settlement.
+  current_alternative: 卖家目前用通用电商建站工具加表格、电话/WhatsApp 确认订单，再手工对接本地配送商并人工核对回款；或使用本地非开源的 COD 工具。
+  current_alternative_en: Sellers today use generic storefront builders plus spreadsheets and phone/WhatsApp
+    order confirmation, then manually hand off to local couriers and reconcile cash by hand; or use closed
+    local COD tools.
+  usage_reason: 推断：相较表格加手工对接，codflow 把 COD 订单、配送调度与状态追踪放进同一开源流程，卖家可自托管并省去跨工具搬运订单与人工对账这一步；预留的智能体接口让订单与配送数据可被自动化调用。适合已用表格跑
+    COD、希望自控数据并减少手工搬运的阿尔及利亚中小卖家。
+  usage_reason_en: 'Inference: versus spreadsheets plus manual courier handoff, codflow puts COD orders,
+    dispatch and status tracking in one open-source flow that sellers can self-host, removing the step
+    of moving orders across tools and reconciling by hand; its agent-ready interface lets order and delivery
+    data be called by automation. It fits small Algerian sellers already running COD on spreadsheets who
+    want data control and less manual transfer.'

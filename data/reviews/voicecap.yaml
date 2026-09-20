@@ -1,0 +1,84 @@
+- id: req-initial-voicecap-2026-09-20
+  project_slug: voicecap
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨语言会议记录这一具体任务，痛点是漏记与会后翻译耗时，旧做法是手写或重听录音，结构上成立。
+    evidence_ids:
+    - ev-6c3469cd088bc430
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有用户评价、客户案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-6c3469cd088bc430
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或 to B 席位采购都只是推断，尚无付费路径证据。
+    evidence_ids:
+    - ev-6c3469cd088bc430
+  - gate: truth
+    status: insufficient
+    reason: 支持语言、转写准确率与人工确认边界均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-6c3469cd088bc430
+  next_validation: 收集 VoiceCap 官方定价页或产品文档，确认支持语言、输出格式与计费方式。
+  market: ''
+  job: 跨国团队或跨语言会议中的参会者，在会议进行时处理多语种语音材料，会后要产出一份可读、可转发的会议纪要。
+  job_en: Participants in multinational or cross-language meetings handle multilingual audio during the
+    call and must produce readable, forwardable minutes afterwards.
+  pain: 边听边记会漏掉内容，非母语段落会后重听和翻译耗时，纪要质量依赖个人语言能力。
+  pain_en: Note-taking while listening loses content, non-native passages cost time to replay and translate
+    afterwards, and minutes quality depends on individual language ability.
+  current_alternative: 人工手写笔记、会后重听录音、通用转写工具加人工翻译，或让双语同事代写纪要。
+  current_alternative_en: Handwritten notes, replaying recordings afterwards, generic transcription plus
+    manual translation, or asking a bilingual colleague to write the minutes.
+  usage_reason: 推断：相较会后重听加翻译，它把转写与目标语言输出合并成一次动作，减少重听和逐句翻译这一步，因此经常开多语会议、又缺少专职记录人的团队会先试用它。
+  usage_reason_en: 'Inference: compared with replaying and translating afterwards, it merges transcription
+    and target-language output into one action, removing the replay-and-translate step, so teams that
+    meet multilingually without a dedicated note-taker are likely to try it first.'
+- id: req-full-voicecap-2026-09-20
+  project_slug: voicecap
+  level: full
+  reviewed_at: '2026-09-20T00:31:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨语言会议记录这一具体任务，痛点是漏记与会后翻译耗时，旧做法是手写或重听录音，结构上成立。
+    evidence_ids:
+    - ev-6c3469cd088bc430
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有用户评价、客户案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-6c3469cd088bc430
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或 to B 席位采购都只是推断，尚无付费路径证据。
+    evidence_ids:
+    - ev-6c3469cd088bc430
+  - gate: truth
+    status: insufficient
+    reason: 支持语言、转写准确率与人工确认边界均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-6c3469cd088bc430
+  next_validation: 收集 VoiceCap 官方定价页或产品文档，确认支持语言、输出格式与计费方式。
+  market: ''
+  job: 跨国团队或跨语言会议中的参会者，在会议进行时处理多语种语音材料，会后要产出一份可读、可转发的会议纪要。
+  job_en: Participants in multinational or cross-language meetings handle multilingual audio during the
+    call and must produce readable, forwardable minutes afterwards.
+  pain: 边听边记会漏掉内容，非母语段落会后重听和翻译耗时，纪要质量依赖个人语言能力。
+  pain_en: Note-taking while listening loses content, non-native passages cost time to replay and translate
+    afterwards, and minutes quality depends on individual language ability.
+  current_alternative: 人工手写笔记、会后重听录音、通用转写工具加人工翻译，或让双语同事代写纪要。
+  current_alternative_en: Handwritten notes, replaying recordings afterwards, generic transcription plus
+    manual translation, or asking a bilingual colleague to write the minutes.
+  usage_reason: 推断：相较会后重听加翻译，它把转写与目标语言输出合并成一次动作，减少重听和逐句翻译这一步，因此经常开多语会议、又缺少专职记录人的团队会先试用它。
+  usage_reason_en: 'Inference: compared with replaying and translating afterwards, it merges transcription
+    and target-language output into one action, removing the replay-and-translate step, so teams that
+    meet multilingually without a dedicated note-taker are likely to try it first.'

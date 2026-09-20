@@ -1,0 +1,83 @@
+- id: req-initial-angle-health-raises-200m-at-27b-valuation-to-expand-ai-power-2026-09-20
+  project_slug: angle-health-raises-200m-at-27b-valuation-to-expand-ai-power
+  level: initial
+  reviewed_at: '2026-09-20T00:09:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决保险核保与理赔的单据处理需求，但材料未给出痛点、旧流程或交付结果，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-b1e6204627ff2ef6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与估值报道，没有客户采用、续保或行业共识证据，无法判断是否形成强场景。
+    evidence_ids:
+    - ev-b1e6204627ff2ef6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断收入来自保险公司、雇主还是个人，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b1e6204627ff2ef6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对承诺能否确定性交付，也未说明人工复核与合规边界，第一性目标是否贴近无从判断。
+    evidence_ids:
+    - ev-b1e6204627ff2ef6
+  next_validation: 收集 Angle Health 官方定价页或公开客户案例，确认其按什么计价、服务哪类保险买方。
+  market: ''
+  job: 健康险公司的核保或理赔人员，在收到投保申请或理赔单据时，需要逐份核对材料并给出核保或赔付结论。
+  job_en: Underwriters or claims staff at health insurers who, on receiving applications or claim documents,
+    must review each file and issue an underwriting or payout decision.
+  pain: 候选材料未说明具体痛点，只能推断单据审阅与合规核对耗时；缺少用户抱怨、旧流程耗时或错误率等公开事实。
+  pain_en: The candidate material states no specific pain; only an inference that document review and
+    compliance checks are time-consuming. Public facts on user complaints, old-process time or error rates
+    are absent.
+  current_alternative: 公开材料未提供现有替代方式，无法确认此前由人工、外包还是传统规则系统处理。
+  current_alternative_en: The public material gives no current alternative, so it is unclear whether humans,
+    outsourcing or legacy rules systems handled this before.
+  usage_reason: 无法判断：材料只披露融资与估值，未说明产品相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material only discloses funding and valuation, not which step
+    the product removes versus the old practice or which checkable result it improves, so it cannot explain
+    why users would choose it.'
+- id: req-full-angle-health-raises-200m-at-27b-valuation-to-expand-ai-power-2026-09-20
+  project_slug: angle-health-raises-200m-at-27b-valuation-to-expand-ai-power
+  level: full
+  reviewed_at: '2026-09-20T00:28:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只有融资与估值标题，未说明核保理赔的具体任务、痛点、旧流程或交付结果，连需求和痛点都写不出来，无法形成价值判断。
+    evidence_ids:
+    - ev-bbf44da1aafab8ad
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Angle Health 官网的定价页或公开客户案例，确认其服务哪类保险买方、按什么计价，以及核保理赔交付如何被核对。
+  market: ''
+  job: 健康险公司的核保或理赔人员，在收到投保申请或理赔单据时，需要逐份核对材料并给出核保或赔付结论。
+  job_en: Underwriters or claims staff at health insurers who, on receiving applications or claim documents,
+    must review each file and issue an underwriting or payout decision.
+  pain: 候选材料只给出融资与估值标题，没有任何关于核保理赔单据处理耗时、错误率或人工负担的公开事实，连痛点本身都无法从证据中还原。
+  pain_en: The candidate material offers only a funding and valuation headline, with no public fact on
+    review time, error rates or manual burden in underwriting and claims, so the pain itself cannot be
+    reconstructed from evidence.
+  current_alternative: 公开材料未说明现有替代方式，无法确认此前由人工逐份审阅、外包还是传统规则系统处理。
+  current_alternative_en: Public material states no current alternative, so it is unclear whether humans,
+    outsourcing or legacy rules systems handled this before.
+  usage_reason: 无法判断：材料未说明产品接收什么材料、输出什么核保或理赔结论、人工如何复核，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what inputs the product takes, what underwriting
+    or claims output it produces, or how humans review it, so it cannot explain why users would choose
+    it.'

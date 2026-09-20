@@ -1,0 +1,95 @@
+- id: req-initial-china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2-2026-09-20
+  project_slug: china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2
+  level: initial
+  reviewed_at: '2026-09-20T00:09:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只写融资与上市意向，未说明解决什么需求、什么痛点，也未还原旧流程，价值关无法成立。
+    evidence_ids:
+    - ev-8a0ef6468681a18b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无场景、无采用或付费证据可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-8a0ef6468681a18b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料未披露买方、定价或付费路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-8a0ef6468681a18b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，缺少交付内容与人工边界信息，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-8a0ef6468681a18b
+  next_validation: 收集 Manus 官方产品页或定价页，确认其具体功能、交付物与收费方式。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境、处理材料与要完成的任务，无法还原一个可核对的工作场景。
+  job_en: Public material does not identify the specific user, situation, material handled or task to
+    complete, so no verifiable work scenario can be reconstructed.
+  pain: 材料未描述任何用户痛点或旧流程中的具体困难，只提到融资与上市意向。
+  pain_en: The material describes no user pain or concrete difficulty in an old workflow, only funding
+    and listing intent.
+  current_alternative: 材料未说明用户此前用什么方式完成同类任务，无法确认替代对象。
+  current_alternative_en: The material does not say what users previously used for the same task, so the
+    substitute is unknown.
+  usage_reason: 缺少产品能力、定价、客户案例或使用反馈等公开事实，无法解释用户为何选择它；融资与上市意向只属关注度证据，不能作为使用理由。
+  usage_reason_en: With no public facts on product capability, pricing, customer cases or user feedback,
+    there is no basis to explain why users choose it; funding and listing intent are attention signals,
+    not usage reasons.
+- id: req-full-china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2-2026-09-20
+  project_slug: china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2
+  level: full
+  reviewed_at: '2026-09-20T00:29:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多步任务需人工跨工具逐步执行、对话式助手只给答案不给交付物的需求，痛点是执行负担与交付缺口；官网称其为执行任务、自动化工作流的行动引擎，可还原输入目标—自主执行—交付结果的闭环，属工作流结构推理，尚无用户痛点原话。
+    evidence_ids:
+    - ev-52997f3054168096
+    - ev-c29ec61a273e0eea
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 Meta 收购传闻与融资上市意向，属关注度与资本信号，未见用户评价、采用规模或持续使用证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-a029564037e05d74
+    - ev-8c29adb17f84f689
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、订阅方式或企业采购记录，买方是个人订阅者还是企业客户无法确认；收购与融资只说明资本路径，不构成已验证的付费路径，此为判断而非事实。
+    evidence_ids:
+    - ev-a029564037e05d74
+    - ev-52997f3054168096
+  - gate: truth
+    status: insufficient
+    reason: 官网仅称执行任务、自动化工作流，未说明交付物格式、失败处理与人工介入边界，无法核对承诺能否确定性交付，也未见安全与人工边界的公开说明。
+    evidence_ids:
+    - ev-52997f3054168096
+    - ev-c29ec61a273e0eea
+  next_validation: 追踪 Manus 官网定价页与客户案例页，确认其收费方式、交付物形态及是否有公开的企业采购或用户采用记录。
+  market: ''
+  job: 知识工作者、运营或开发者面对需要跨网页检索、整理资料并产出可交付文件（报告、表格、网页）的任务时，把目标交给 Manus 这类通用 AI 代理，由它自主拆解步骤、调用工具并交付成品，而不是自己逐步操作。
+  job_en: Knowledge workers, operators or developers facing tasks that require cross-web research, material
+    synthesis and a deliverable file (report, sheet, page) hand the goal to a general AI agent like Manus,
+    which decomposes steps, calls tools and delivers the artifact instead of the user doing each step
+    manually.
+  pain: 公开材料未记录具体用户抱怨，但结构上可还原痛点：多步任务需要在浏览器、文档与工具间反复切换，人工逐步执行耗时且易漏步骤；纯问答式助手只给答案，用户仍要自己把答案变成可交付成果。
+  pain_en: 'Public material records no specific user complaint, but the pain is structurally reconstructable:
+    multi-step tasks require repeated switching between browser, documents and tools, manual step-by-step
+    execution is slow and error-prone, and answer-only assistants leave the user to turn answers into
+    deliverables themselves.'
+  current_alternative: 当前替代是 ChatGPT、Gemini、Perplexity 等对话式助手，用户拿到答案后仍需自己执行后续操作；或由人工在浏览器与办公软件中逐步完成。
+  current_alternative_en: The current alternative is conversational assistants such as ChatGPT, Gemini
+    and Perplexity, where the user still performs follow-up actions after getting an answer, or manual
+    step-by-step work in a browser and office software.
+  usage_reason: 推断：相较对话式助手只输出文本，Manus 以“行动引擎”定位直接执行任务、自动化工作流并交付结果，把用户从“拿到答案再自己动手”这一步中解放出来；需要端到端完成多步任务的用户会在这种情况下选择它。该因果为基于产品定位与任务结构的工作流推理，尚无用户反馈或客户案例佐证。
+  usage_reason_en: 'Inference: unlike answer-only assistants, Manus positions itself as an action engine
+    that executes tasks, automates workflows and delivers results, removing the step where users must
+    act on an answer themselves; users needing end-to-end completion of multi-step tasks would choose
+    it in such situations. This causal claim is workflow reasoning from product positioning and task structure,
+    not yet supported by user feedback or customer cases.'

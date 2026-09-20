@@ -1,0 +1,86 @@
+- id: req-initial-duvi-2026-09-20
+  project_slug: duvi
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决小商家无人接待访客提问的需求，痛点真实；但公开材料只有一句网址生成 AI 的描述，说不清抓取什么、交付什么，价值结构无法还原。
+    evidence_ids:
+    - ev-7ef35d9f85e1f95e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条上线描述，无用户评价、无采用或关注数据，无法判断是否有人真的在用。
+    evidence_ids:
+    - ev-7ef35d9f85e1f95e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 小商家订阅是推断，不是已验证事实。
+    evidence_ids:
+    - ev-7ef35d9f85e1f95e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对抓取准确性、话术边界与转人工机制，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-7ef35d9f85e1f95e
+  next_validation: 收集 Duvi 官方产品页或定价页，确认抓取范围、交付形态（挂件/独立页）与是否按接待量或线索计费。
+  market: ''
+  job: 中小企业主或独立站运营者在官网需要有人接待访客提问时，把现有网站内容交给工具，生成一个能自动回答业务问题的助手。
+  job_en: An SMB owner or independent site operator, when their website needs someone to receive visitor
+    questions, hands existing site content to a tool to generate an assistant that answers business questions
+    automatically.
+  pain: 小商家没有人力做 7×24 客服，访客问题重复且集中在营业时间、价格、服务范围；不回答就流失线索。
+  pain_en: Small businesses lack staff for 24/7 support, and visitor questions repeat around hours, pricing
+    and scope; unanswered questions mean lost leads.
+  current_alternative: 旧做法是人工客服、FAQ 静态页面，或自己接一个通用聊天机器人再手工喂资料。
+  current_alternative_en: The old way is human support, a static FAQ page, or wiring up a generic chatbot
+    and manually feeding it material.
+  usage_reason: 推断：若它真能只凭网址自动完成抓取与知识整理，就省掉了手工整理 FAQ 和配置知识库这一步，因此没有技术人手的小商家会在需要快速上线答疑时选择它；但公开材料未给出抓取范围、交付形态或任何使用反馈，无法确认这一步是否真的被省掉。
+  usage_reason_en: 'Inference: if it truly automates crawling and knowledge structuring from a URL alone,
+    it removes the manual step of compiling FAQs and configuring a knowledge base, so small businesses
+    without technical staff would pick it when they need Q&A live quickly; however, public material gives
+    no crawl scope, deliverable form or usage feedback, so whether that step is actually removed cannot
+    be confirmed.'
+- id: req-full-duvi-2026-09-20
+  project_slug: duvi
+  level: full
+  reviewed_at: '2026-09-20T00:29:38Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅一句“用一个网址为任何业务做 AI”，既未说明访客要完成什么任务，也未说明答错或答不上来的后果，需求与痛点都无法还原，属自嗨式描述而非可判断的价值结构。
+    evidence_ids:
+    - ev-7ef35d9f85e1f95e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Duvi 官方产品页或定价页，确认抓取范围、交付形态（挂件或独立页）与是否按接待量或线索计费。
+  market: ''
+  job: 中小企业主或独立站运营者在官网需要有人接待访客提问时，把现有网站网址交给工具，生成一个能自动回答业务问题的助手。
+  job_en: An SMB owner or independent site operator, when their website needs someone to receive visitor
+    questions, hands the existing site URL to a tool to generate an assistant that answers business questions
+    automatically.
+  pain: 公开材料只有一句“用一个网址为任何业务做 AI”，未说明访客问什么、答错会怎样、谁维护内容，因此无法确认具体痛点是什么。
+  pain_en: Public material offers only one line, 'make an AI for any business just using a URL', and says
+    nothing about what visitors ask, what happens when answers are wrong, or who maintains content, so
+    the specific pain cannot be confirmed.
+  current_alternative: 公开材料未提及任何现有替代方式，无法判断商家此前是人工客服、静态 FAQ 还是通用聊天机器人。
+  current_alternative_en: Public material mentions no existing alternative, so it is impossible to tell
+    whether merchants previously used human support, a static FAQ or a generic chatbot.
+  usage_reason: 无法写出使用理由：公开材料未说明抓取哪些页面、交付形态是挂件还是独立页面、是否需要人工审核，无法判断它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'No usage reason can be written: public material does not say which pages are crawled,
+    whether the deliverable is a widget or standalone page, or whether human review is needed, so which
+    step it removes versus the old way cannot be judged.'

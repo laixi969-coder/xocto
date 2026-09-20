@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-go
 summary: In one particularly odd interview, Norwood seems to malfunction and begin speaking Chinese.
 first_seen: '2026-09-19T00:12:07Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

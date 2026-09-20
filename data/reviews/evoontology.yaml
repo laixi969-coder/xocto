@@ -83,3 +83,47 @@
   usage_reason_en: 'Inference: compared with pasting schema each time, it persists the ontology and evolves
     it with use, removing the step of re-explaining field meaning, so teams maintaining one warehouse
     long term would consider it; public material still lacks adoption or retention evidence.'
+- id: req-full-evoontology-2026-09-20
+  project_slug: evoontology
+  level: full
+  reviewed_at: '2026-09-20T00:29:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 不懂字段业务含义、写出错误查询的问题，旧做法是人工维护数据字典或逐次粘贴表结构。
+    evidence_ids:
+    - ev-2f083f22a2fa2c44
+  - gate: consensus
+    status: insufficient
+    reason: 158 星与 12 次 fork 只说明开源关注度，没有 issue 讨论或用户反馈证明它被持续使用。
+    evidence_ids:
+    - ev-2f083f22a2fa2c44
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费路径，买方与付费方式均无材料支持。
+    evidence_ids:
+    - ev-2f083f22a2fa2c44
+  - gate: truth
+    status: insufficient
+    reason: 本体自动进化是否会产生错误语义、人工如何审核，公开材料未说明。
+    evidence_ids:
+    - ev-2f083f22a2fa2c44
+  next_validation: 收集该仓库的 issue 与 discussion，确认本体层在真实数据仓库中的接入方式与使用反馈。
+  market: ''
+  job: 数据工程师或分析师在让 Claude Code、Codex 这类编码代理查询企业数据仓库时，处理数据表与字段关系，要让代理写出符合业务含义的查询。
+  job_en: Data engineers or analysts, when having coding agents such as Claude Code or Codex query an
+    enterprise data warehouse, handle table and field relationships so the agent writes queries that match
+    business meaning.
+  pain: 代理不了解字段的业务含义，容易写出语义错误的查询，目前靠人工维护数据字典或逐次纠正。
+  pain_en: Agents do not know what fields mean in business terms and write semantically wrong queries,
+    currently handled by hand-maintained data dictionaries or repeated correction.
+  current_alternative: 人工维护数据字典与文档，或在每次提问时把表结构粘贴给代理。
+  current_alternative_en: Hand-maintained data dictionaries and docs, or pasting schema into the prompt
+    on each request.
+  usage_reason: 推断：相较每次粘贴表结构，它把本体层沉淀下来并随使用进化，省掉重复解释字段含义这一步，因此长期维护同一套数仓的团队会考虑采用；但仓库仅 188 星，无 issue 讨论或用户反馈，尚无持续使用证据。
+  usage_reason_en: 'Inference: compared with pasting schema each time, it persists the ontology and evolves
+    it with use, removing the step of re-explaining field meaning, so teams maintaining one warehouse
+    long term would consider it; however, with only 188 stars and no issue discussion or user feedback,
+    there is no evidence of sustained use.'

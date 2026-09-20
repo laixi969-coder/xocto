@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE8ydnBuX0ZJYlp5
 summary: BOB在线登录官网入口发布‘星云’AI数据库，推动智能数据底座新范式-体坛网_体坛+ 体坛
 first_seen: '2026-09-17T18:10:20Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

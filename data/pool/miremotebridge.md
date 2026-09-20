@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/miremotebridge
 summary: a $5 build that lets a Bluetooth remote run your PC
 first_seen: '2026-09-18T05:56:45Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -1,0 +1,92 @@
+- id: req-initial-bolt-forge-2026-09-20
+  project_slug: bolt-forge
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是从需求到可运行项目的起步环节，痛点是从零搭脚手架与联调的重复劳动，旧做法明确，结构上成立。
+    evidence_ids:
+    - ev-06ec2a71995caf9c
+  - gate: consensus
+    status: insufficient
+    reason: 只有官方口径的 50 倍使用量，缺少独立用户评价或客户案例，无法判断开发者是否持续使用。
+    evidence_ids:
+    - ev-06ec2a71995caf9c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，采用开源模型可能压低成本，但付费路径是判断而非已验证事实。
+    evidence_ids:
+    - ev-06ec2a71995caf9c
+  - gate: truth
+    status: insufficient
+    reason: 生成代码的正确性与部署确定性缺少可复现验证，人工确认边界也未说明。
+    evidence_ids:
+    - ev-06ec2a71995caf9c
+  next_validation: 收集 Bolt Forge 的官方定价页与部署文档，确认按什么计价以及生成结果的交付与人工确认边界。
+  market: ''
+  job: 全栈或独立开发者在接到一个需要尽快上线验证的网页应用需求时，把自然语言描述和已有代码交给 agent，让它生成并迭代前后端代码，最终拿到可预览、可继续修改的项目。
+  job_en: A full-stack or indie developer who must ship a web app for quick validation hands a natural-language
+    brief and existing code to the agent, which generates and iterates front-end and back-end code, returning
+    a previewable, editable project.
+  pain: 从零搭脚手架、写样板代码和反复调通前后端连接耗时且重复，拖慢验证节奏。
+  pain_en: Building scaffolding from scratch, writing boilerplate and repeatedly wiring front end to back
+    end is slow and repetitive, delaying validation.
+  current_alternative: 开发者此前用模板仓库、脚手架工具或逐行手写代码起步，再自行部署。
+  current_alternative_en: Developers previously started from template repos, scaffolding tools or hand-written
+    code, then deployed it themselves.
+  usage_reason: 推断：相较从模板仓库起步再手工接线，它把需求描述直接转成可运行项目，省掉搭脚手架和首轮前后端联调这两步，因此赶时间做原型验证的开发者会先试它；公开材料未提供留存或复购证据，长期留在工作流中尚不能确认。
+  usage_reason_en: 'Inference: compared with starting from a template repo and wiring it by hand, it turns
+    a brief directly into a runnable project, removing scaffolding and the first round of front-end/back-end
+    integration, so developers racing to validate a prototype would try it first; public material offers
+    no retention or repeat-use evidence, so long-term workflow adoption cannot be confirmed.'
+- id: req-full-bolt-forge-2026-09-20
+  project_slug: bolt-forge
+  level: full
+  reviewed_at: '2026-09-20T00:29:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从需求描述到可运行网页应用的起步环节，痛点是从零搭脚手架、写样板代码与反复联调耗时且重复，旧做法是模板仓库或手写代码，结构上成立；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-c9f4d8a8785924f1
+    - ev-fa4a87f4073edce8
+    - ev-1379aa02960ed879
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方口径的产品说明，缺少独立用户评价、客户案例或持续使用数据，无法判断开发者是否把它留在工作流里。
+    evidence_ids:
+    - ev-c9f4d8a8785924f1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，采用开源模型可能压低成本，但付费路径是判断而非已验证事实；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-fa4a87f4073edce8
+  - gate: truth
+    status: insufficient
+    reason: 生成代码的正确性与部署确定性缺少可复现验证，人工确认边界也未说明，承诺能否确定性交付尚不能确认。
+    evidence_ids:
+    - ev-1379aa02960ed879
+  next_validation: 收集 Bolt Forge 的官方定价页与部署文档，确认按什么计价以及生成结果的交付与人工确认边界。
+  market: ''
+  job: 全栈或独立开发者在接到一个需要尽快上线验证的网页应用需求时，把自然语言描述和已有代码交给 agent，让它生成并迭代前后端代码，最终拿到可预览、可继续修改的项目。
+  job_en: A full-stack or indie developer who must ship a web app for quick validation hands a natural-language
+    brief and existing code to the agent, which generates and iterates front-end and back-end code, returning
+    a previewable, editable project.
+  pain: 从零搭脚手架、写样板代码和反复调通前后端连接耗时且重复，拖慢验证节奏；bolt.new 页面称其自动测试、重构与迭代以减少错误，说明修复错误本身也是被针对的负担。
+  pain_en: Building scaffolding from scratch, writing boilerplate and repeatedly wiring front end to back
+    end is slow and repetitive, delaying validation; the bolt.new page says it automatically tests, refactors
+    and iterates to reduce errors, indicating error-fixing is also a targeted burden.
+  current_alternative: 开发者此前用模板仓库、脚手架工具或逐行手写代码起步，再自行部署和调试。
+  current_alternative_en: Developers previously started from template repos, scaffolding tools or hand-written
+    code, then deployed and debugged it themselves.
+  usage_reason: 推断：相较从模板仓库起步再手工接线，它把需求描述直接转成可运行项目，并自动测试、重构、迭代，省掉搭脚手架和首轮前后端联调这两步，因此赶时间做原型验证的开发者会先试它；公开材料未提供留存或复购证据，长期留在工作流中尚不能确认。
+  usage_reason_en: 'Inference: compared with starting from a template repo and wiring it by hand, it turns
+    a brief directly into a runnable project and automatically tests, refactors and iterates, removing
+    scaffolding and the first round of front-end/back-end integration, so developers racing to validate
+    a prototype would try it first; public material offers no retention or repeat-use evidence, so long-term
+    workflow adoption cannot be confirmed.'

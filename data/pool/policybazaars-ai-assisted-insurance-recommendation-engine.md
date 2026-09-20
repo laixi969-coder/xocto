@@ -1,6 +1,6 @@
 ---
 slug: policybazaars-ai-assisted-insurance-recommendation-engine
-name: Policybazaar's AI-Assisted Insurance Recommendation Engine
+name: Policybazaar AI-Assisted Insurance Recommendation Engine
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV1ZyN1l5SmdV
 summary: Policybazaar's AI-Assisted Insurance Recommendation Engine MarkHub24
 first_seen: '2026-09-19T03:41:32Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Policybazaar's AI-Assisted Insurance Recommendation Engine
+# Policybazaar AI-Assisted Insurance Recommendation Engine
 
 Policybazaar's AI-Assisted Insurance Recommendation Engine MarkHub24
 

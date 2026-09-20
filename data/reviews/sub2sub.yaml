@@ -283,3 +283,55 @@
     removing the credential-sharing step and avoiding multi-person logins; compared with buying a subscription
     per person, it reuses existing capacity across members. A team that already holds a subscription but
     has uneven member access and needs task-level collaboration would therefore lean to'
+- id: req-full-sub2sub-2026-09-20
+  project_slug: sub2sub
+  level: full
+  reviewed_at: '2026-09-20T00:31:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队内 AI 订阅额度不均时按任务分配调用能力、且不让同事登录他人账号的需求；痛点在于共享凭据与代跑任务带来的协作摩擦和账号暴露，旧替代是交出账号密码或由持有者代执行，不解决则凭据扩散与分配粗放持续存在。此为工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-3cf083d759a26b61
+    - ev-85faa525da18b63a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 51 增至 107，说明开发者社区持续关注，但收藏与关注只属规模信号，公开材料未给出目标团队的实际部署、重复使用或评价，无法证明它已进入团队工作流。
+    evidence_ids:
+    - ev-3cf083d759a26b61
+    - ev-a33aba7aee052d9d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或计费口径，无法判断是团队自建开源、按席位收费还是向订阅持有者收费；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-85faa525da18b63a
+  - gate: truth
+    status: insufficient
+    reason: 产品说明称按任务转交额度而不共享账号，但鉴权方式、额度计量与合规边界（是否违反订阅方条款）均无公开文档可核，交付能否稳定发生尚不可复现验证。
+    evidence_ids:
+    - ev-3cf083d759a26b61
+    - ev-1c613d4c90534d88
+  next_validation: 追踪 sub2sub 仓库的 README、部署文档与 issue/discussion，确认其鉴权与额度计量方式，以及是否有团队公开描述实际部署与替代的旧流程。
+  market: ''
+  job: 团队里有人买了 AI 订阅（如 Codex、Claude Code）、有人没有时，额度管理员要在成员之间按任务分配调用能力，让被授权同事在不登录他人账号的前提下提交任务、取回文件与结果并继续同一任务。
+  job_en: When some teammates hold AI subscriptions (e.g. Codex, Claude Code) and others do not, a quota
+    administrator must allocate call capacity task by task so authorized teammates can submit tasks, collect
+    files and responses, and continue the same task without signing in to someone else's account.
+  pain: 公开说明指向的痛点是：订阅额度集中在少数账号上，团队协作只能靠共享账号密码或让同事代跑任务，既难以按任务切分额度，也把账号凭据暴露给多人；不解决的后果是协作摩擦与凭据扩散风险持续存在。
+  pain_en: 'The stated pain: subscription capacity sits in a few accounts, so team collaboration falls
+    back to sharing credentials or having one person run tasks for others, which makes task-level allocation
+    hard and spreads account credentials; leaving it unsolved keeps both the friction and the credential
+    exposure.'
+  current_alternative: 旧做法是让同事登录订阅持有者的账号，或由持有者本人代为执行任务后转交结果；公开材料未说明是否还存在其他替代工具。
+  current_alternative_en: The prior approach is having teammates sign in to the subscription holder's
+    account, or having the holder run tasks on their behalf and hand over results; public materials do
+    not show other substitute tools.
+  usage_reason: 推断：相较共享账号密码，sub2sub 把额度按任务转给指定成员，成员拿到的是可用的调用能力而非他人凭据，从而省去“把账号交出去”这一步并缩小凭据暴露面；因此会在团队内订阅额度不均、又需要多人协作跑
+    Codex/Claude Code 任务时被选择。这是基于产品说明与任务结构作出的推断，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus sharing credentials, sub2sub delegates capacity task by task to
+    named members, who receive usable call capability rather than someone else''s credentials, removing
+    the step of handing over an account and narrowing credential exposure; teams with uneven subscription
+    coverage that still need several people to run Codex/Claude Code tasks would pick it. This is inferred
+    from the product description and task structure, not from user feedback.'

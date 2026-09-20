@@ -1,0 +1,83 @@
+- id: req-initial-squirrel-2026-09-20
+  project_slug: squirrel
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决减少手机使用的需求，但候选只有一句描述，返还机制与不采用的代价都不清楚，痛点强度无法判断。
+    evidence_ids:
+    - ev-391568c0d55e3e95
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、采用或讨论证据，无法判断激励是否真的改变行为。
+    evidence_ids:
+    - ev-391568c0d55e3e95
+  - gate: model
+    status: insufficient
+    reason: 返还资金来源与定价均未披露，谁付钱、怎么结算无从判断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-391568c0d55e3e95
+  - gate: truth
+    status: insufficient
+    reason: 无法确认返还能否确定性兑现，也看不出 AI 在拦截或结算中的具体角色。
+    evidence_ids:
+    - ev-391568c0d55e3e95
+  next_validation: 收集该产品的官方定价或规则说明页，确认返还如何计算、由谁出资以及是否真实兑现。
+  market: ''
+  job: 想减少手机使用的人，在刷手机影响学习或工作时，处理自己的应用使用行为，要完成把使用时长压到目标以内的任务。
+  job_en: People who want less phone time, when scrolling hurts study or work, deal with their own app
+    usage to bring screen time under a target.
+  pain: 候选只说“拦截并返还”，没有说明返还如何计算、是否真的兑现，也看不出不采用会失去什么。
+  pain_en: The candidate only says 'blocks and pays back'; it does not say how payback is calculated or
+    whether it is actually paid, nor what is lost by not using it.
+  current_alternative: 公开材料未给出旧做法，常见替代是系统自带屏幕时间限制或第三方拦截应用，这属于推断。
+  current_alternative_en: No prior practice is given; the common alternative is built-in screen-time limits
+    or third-party blockers, which is inference.
+  usage_reason: 推断：相比只拦截的旧做法，它把省下的时间变成可结算回报，给自律加了一层外部激励；但缺少用户反馈或兑现证据，无法确认激励真实成立。
+  usage_reason_en: 'Inference: versus plain blocking, it turns saved time into a settleable return, adding
+    an external incentive to self-discipline; without user feedback or payout evidence, the incentive
+    cannot be confirmed as real.'
+- id: req-full-squirrel-2026-09-20
+  project_slug: squirrel
+  level: full
+  reviewed_at: '2026-09-20T00:31:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决减少手机使用并给回报的需求，但候选只有一句描述，返还形式、计价与 AI 动作全无，公开材料也未给出任何用户痛点或旧做法，连需求与痛点都难以还原。
+    evidence_ids:
+    - ev-9962246e61dd0d34
+    - ev-a48a52718007307a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或应用商店页面的官方规则说明，确认返还如何计算、由谁出资以及是否真实兑现。
+  market: ''
+  job: 想减少手机使用的人，在刷手机挤占学习或工作时段时，处理自己的应用使用行为，要把屏幕时间压到自定目标以内。
+  job_en: People who want less phone time, when scrolling crowds out study or work, deal with their own
+    app usage to bring screen time under a self-set target.
+  pain: 候选仅一句“拦截应用并返还”，未说明返还形式、计价方式与 AI 的具体动作，公开材料也未给出任何用户抱怨、旧做法或采用行为，痛点强度无从判断。
+  pain_en: The candidate offers only 'blocks apps and pays back', with no payback form, pricing, or AI
+    action, and no public user complaints, prior practice, or adoption behavior, so pain intensity cannot
+    be judged.
+  current_alternative: 公开材料未给出旧做法；常见替代是系统自带屏幕时间限制或第三方拦截应用，这属于推断而非已证事实。
+  current_alternative_en: No prior practice is given publicly; the common alternative is built-in screen-time
+    limits or third-party blockers, which is inference rather than established fact.
+  usage_reason: 推断：相较只拦截的旧做法，它把省下的时间折算成回报，给自律加一层外部激励；但返还如何计算、由谁出资、能否兑现均无公开证据，无法确认该激励真实成立。
+  usage_reason_en: 'Inference: versus plain blocking, it converts saved time into a return, adding an
+    external incentive to self-discipline; but how payback is computed, who funds it, and whether it is
+    honored have no public evidence, so the incentive cannot be confirmed as real.'

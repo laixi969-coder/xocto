@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/buncha-games
 summary: Instant-play Games & UGC Worlds for desktop & mobile web
 first_seen: '2026-09-17T04:04:08Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -1,0 +1,92 @@
+- id: req-initial-repopilot-2026-09-20
+  project_slug: repopilot
+  level: initial
+  reviewed_at: '2026-09-20T00:09:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从 Issue 与评审反馈到可合并改动的重复劳动，痛点来自工作流结构推理，交付物是可评审改动。
+    evidence_ids:
+    - ev-ef59270c2973dc99
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 152 星与 7 个 fork，属关注度信号，不足以证明团队已把它留在日常流程里。
+    evidence_ids:
+    - ev-ef59270c2973dc99
+  - gate: model
+    status: insufficient
+    reason: 开源自托管，买方可能是研发团队，但候选未披露定价、商业版本或采购路径，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-ef59270c2973dc99
+  - gate: truth
+    status: insufficient
+    reason: 自托管与人工控制合并部署贴近工程第一性目标，但测试覆盖、失败处理与安全边界未在材料中说明。
+    evidence_ids:
+    - ev-ef59270c2973dc99
+  next_validation: 收集 repopilot 仓库的 README 与 issue/discussion，确认其测试执行方式、失败处理与人工合并边界。
+  market: ''
+  job: 软件工程师在收到 公开代码仓库 Issue 或 PR 评审意见后，需要把这些目标与反馈变成可评审、经过测试的代码改动，并决定是否合并与部署。
+  job_en: After receiving a public code repository issue or PR review comment, a software engineer needs
+    to turn those goals and feedback into reviewable, tested code changes and decide whether to merge
+    and deploy.
+  pain: 从 Issue 到可合并改动之间要人工读上下文、改代码、补测试、再走评审，重复且耗时；候选资料未给出用户抱怨或耗时数据，痛点是基于工作流结构的推断。
+  pain_en: Between an issue and a mergeable change, engineers must read context, edit code, add tests
+    and go through review by hand, which is repetitive and slow; the candidate material gives no user
+    complaints or time data, so the pain is inferred from workflow structure.
+  current_alternative: 现有替代是工程师自己读 Issue 与评审意见后手工改代码，或使用托管式代码代理；候选资料未说明用户此前具体使用哪种方式。
+  current_alternative_en: The existing alternative is engineers reading issues and review comments and
+    editing code by hand, or using hosted coding agents; the candidate material does not say which one
+    users previously used.
+  usage_reason: 相较手工从 Issue 改到可评审改动，它把读取目标与评审反馈、生成改动、跑测试串成一条自托管流水线，并把合并与部署留给人确认，因此有私有部署或合规要求的团队会在需要可追溯改动时选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with hand-editing from an issue to a reviewable change, it chains reading
+    goals and review feedback, generating changes and running tests into one self-hosted pipeline while
+    leaving merge and deploy for human confirmation, so teams with private-deployment or compliance needs
+    would choose it when changes must be traceable; this is inference from product capability.
+- id: req-full-repopilot-2026-09-20
+  project_slug: repopilot
+  level: full
+  reviewed_at: '2026-09-20T00:30:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从 Issue 与评审反馈到可合并改动的重复劳动，痛点来自工作流结构推理，交付物是可评审改动；谁付钱未在公开材料说明，留待模式关判断。
+    evidence_ids:
+    - ev-ef59270c2973dc99
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 152 星，属关注度信号，不足以证明团队已把它留在日常流程里；候选材料没有用户评价或持续采用证据。
+    evidence_ids:
+    - ev-ef59270c2973dc99
+  - gate: model
+    status: insufficient
+    reason: 开源自托管，买方可能是研发团队，但候选未披露定价、商业版本或采购路径，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-ef59270c2973dc99
+  - gate: truth
+    status: insufficient
+    reason: 自托管与人工控制合并部署贴近工程第一性目标，但测试覆盖、失败处理与安全边界未在材料中说明。
+    evidence_ids:
+    - ev-ef59270c2973dc99
+  next_validation: 收集 repopilot 仓库的 README 与 issue/discussion，确认其测试执行方式、失败处理与人工合并边界。
+  market: ''
+  job: 软件工程师在收到公开代码仓库的 Issue 或 PR 评审意见后，需要读取这些目标与反馈，产出经过测试、可评审的代码改动，并自行决定是否合并与部署。
+  job_en: After receiving an issue or PR review comment in a public code repository, a software engineer
+    needs to read those goals and feedback, produce tested, reviewable code changes, and personally decide
+    whether to merge and deploy.
+  pain: 从 Issue 到可合并改动之间，工程师要人工读上下文、改代码、补测试、再走评审，重复且耗时；候选材料未给出用户抱怨或耗时数据，痛点是基于工作流结构的推断。
+  pain_en: Between an issue and a mergeable change, engineers must read context, edit code, add tests
+    and go through review by hand, which is repetitive and slow; the candidate material gives no user
+    complaints or time data, so the pain is inferred from workflow structure.
+  current_alternative: 现有替代是工程师自己读 Issue 与评审意见后手工改代码，或使用托管式代码代理；候选资料未说明用户此前具体使用哪种方式。
+  current_alternative_en: The existing alternative is engineers reading issues and review comments and
+    editing code by hand, or using hosted coding agents; the candidate material does not say which one
+    users previously used.
+  usage_reason: 相较手工从 Issue 改到可评审改动，它把读取目标与评审反馈、生成改动、跑测试串成一条自托管流水线，并把合并与部署留给人确认，因此有私有部署或合规要求的团队会在需要可追溯改动时选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with hand-editing from an issue to a reviewable change, it chains reading
+    goals and review feedback, generating changes and running tests into one self-hosted pipeline while
+    leaving merge and deploy for human confirmation, so teams with private-deployment or compliance needs
+    would choose it when changes must be traceable; this is inference from product capability.

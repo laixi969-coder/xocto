@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdlIySW13YUgz
 summary: “豆包汽车”落地，AI智能体跨终端布局提速 Sohu
 first_seen: '2026-09-19T12:01:00Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

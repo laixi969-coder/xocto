@@ -137,3 +137,48 @@
     removing the step where the user hunts for and verifies each source; so individuals or small teams
     that need citations but do not want to build retrieval themselves would try it first when writing
     or researching.'
+- id: req-full-loci-2026-09-20
+  project_slug: loci
+  level: full
+  reviewed_at: '2026-09-20T00:30:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决私有资料中找答案并核对出处的需求，痛点是旧做法搜不全或没有引用；产品以混合检索定位章节并返回引用，交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-ba5bc5a9f1e05e34
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库说明与英文生态项目发布，没有用户评价、客户案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-188328fe20ff9476
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人自用、团队采购还是随代理调用收费均不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9cfb54071766b995
+  - gate: truth
+    status: insufficient
+    reason: 检索质量、引用准确率与长期留存均无公开证据，约三百行实现能否稳定交付仍待核验。
+    evidence_ids:
+    - ev-188328fe20ff9476
+  next_validation: 收集该仓库的 issue 与 discussion，看是否有用户报告实际检索与引用准确率、以及是否被接入日常工作流。
+  market: ''
+  job: 个人知识工作者在回答一个具体问题时，面对散落在多个笔记与文档工具里的材料，要定位到相关段落并知道答案出自哪一节。
+  job_en: An individual knowledge worker answering a specific question across material scattered in several
+    note and document tools needs to locate the relevant passages and know which section the answer came
+    from.
+  pain: 旧做法要么在多个工具里反复关键词搜索，要么把整份文档贴进对话模型，结果没有出处、无法核对，也容易漏掉只出现在某一节里的内容。
+  pain_en: The old way is repeated keyword search across several tools, or pasting whole documents into
+    a chat model, which yields no traceable source, is hard to verify, and misses content that appears
+    in only one section.
+  current_alternative: 手动在多个笔记应用里搜索、把文档整段复制进通用对话模型，或自己搭一套检索脚本。
+  current_alternative_en: Manual search across several note apps, pasting whole documents into a general
+    chat model, or hand-rolling a retrieval script.
+  usage_reason: 推断：相较整篇粘贴进对话模型，它先做向量加 BM25 混合检索并定位到章节，再返回带引用的答案，省掉用户自己翻找和核对出处的那一步，因此需要给出处、又不想自建检索的个人或小团队会先试它。
+  usage_reason_en: 'Inference: compared with pasting whole documents into a chat model, it first runs
+    hybrid vector plus BM25 retrieval down to the section and then returns cited answers, removing the
+    step where the user hunts for and verifies the source, so individuals or small teams that need citations
+    without building retrieval themselves would try it first.'

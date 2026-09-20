@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNR09uRTY2U2FV
 summary: 从传统棋牌到智慧陪伴：OD国际官网以AI重塑老年休闲娱乐新生态 体坛
 first_seen: '2026-09-17T09:19:37Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

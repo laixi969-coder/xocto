@@ -1,6 +1,6 @@
 ---
 slug: ai-ski-coach-startup-heygo-raises-millions-in-angel-funding
-name: AI ski coach startup Heygo raises millions in angel funding
+name: Heygo
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0xSU1gwZmRo
 summary: AI ski coach startup Heygo raises millions in angel funding Travel Daily Media
 first_seen: '2026-09-18T02:16:26Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI ski coach startup Heygo raises millions in angel funding
+# Heygo
 
 AI ski coach startup Heygo raises millions in angel funding Travel Daily Media
 

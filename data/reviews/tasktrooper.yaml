@@ -1,0 +1,82 @@
+- id: req-initial-tasktrooper-2026-09-20
+  project_slug: tasktrooper
+  level: initial
+  reviewed_at: '2026-09-20T00:09:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地编排编码任务的需求，但公开材料未说明用户原来的具体步骤与不采用的后果，痛点无法还原。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 65 星、11 次 fork 的仓库关注度，没有用户评价或采用行为说明谁在什么场景下用它。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方是个人开发者还是团队无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与角色分工的承诺能否确定性交付、人工确认边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它替代的具体旧步骤、实际使用场景与是否出现重复使用或付费线索。
+  market: ''
+  job: 独立开发者或小团队在本地 Mac 上把待办拆给多个角色型 agent，并让编码任务在本机执行完成。
+  job_en: Solo developers or small teams split a backlog across role-based agents on a local Mac and have
+    coding tasks executed on the same machine.
+  pain: 公开材料只给出平台形态，没有说明开发者原来卡在哪一步、不这么做会损失什么，痛点无法从现有事实还原。
+  pain_en: The public material only describes the platform shape; it does not say which step developers
+    were stuck on or what they lose otherwise, so the pain cannot be reconstructed from available facts.
+  current_alternative: 公开材料未说明此前用什么替代，常见做法可能是云端 agent 平台或直接在终端里手动跑编码助手，但这是推断。
+  current_alternative_en: The public material does not state the prior alternative; a common substitute
+    may be cloud agent platforms or running a coding assistant manually in the terminal, but this is inference.
+  usage_reason: 无法判断：缺少它替代了哪一步旧动作、减少了哪项负担的说明，仅凭本地优先与角色 agent 的形态不足以解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: there is no account of which prior step it replaces or which burden
+    it removes, and a local-first, role-agent shape alone does not explain why a user would choose it.'
+- id: req-full-tasktrooper-2026-09-20
+  project_slug: tasktrooper
+  level: full
+  reviewed_at: '2026-09-20T00:31:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决本地编排编码任务的需求，但公开材料只给平台形态，未说明用户原来的具体步骤、不采用的后果，痛点无法还原，属自嗨拼凑。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 README、issue 与 discussion，确认它替代的具体旧步骤、实际使用场景，以及是否出现重复使用或付费线索。
+  market: ''
+  job: 独立开发者或小团队在本地 Mac 上把待办事项放进看板，交给不同角色型 agent 处理，其中编码任务由 Claude Code 在本机执行，最终拿到本机跑完的任务结果与看板状态更新。
+  job_en: A solo developer or small team puts a backlog on a local Mac board, hands items to role-based
+    agents, has coding tasks run by Claude Code on the same machine, and gets locally executed task results
+    plus board status updates.
+  pain: 公开材料只给出平台形态（看板+角色 agent+本机 Claude Code），没有说明开发者原来卡在哪一步、不这么做会损失什么；本地跑编码 agent 的痛点无法从现有事实还原。
+  pain_en: The public material only describes the platform shape (board + role agents + local Claude Code);
+    it does not say which step developers were stuck on or what they lose otherwise, so the pain of running
+    coding agents locally cannot be reconstructed from available facts.
+  current_alternative: 公开材料未说明此前替代方式；常见做法可能是云端 agent 平台或直接在终端手动跑编码助手，但这只是推断。
+  current_alternative_en: The public material does not state the prior alternative; a common substitute
+    may be cloud agent platforms or running a coding assistant manually in the terminal, but this is inference.
+  usage_reason: 无法判断：缺少它替代了哪一步旧动作、减少了哪项负担的说明，仅凭本地优先与角色 agent 的形态不足以解释用户为何选择它；65 星只属关注度，不能作为使用理由。
+  usage_reason_en: 'Cannot be judged: there is no account of which prior step it replaces or which burden
+    it removes, and a local-first, role-agent shape alone does not explain why a user would choose it;
+    65 stars is attention, not a usage reason.'

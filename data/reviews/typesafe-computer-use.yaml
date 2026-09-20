@@ -136,3 +136,56 @@
     the interface changes, removing the script-repair step; developers automating across apps with frequently
     changing UIs and tight budgets would pick it when selector maintenance becomes too costly. The public
     material does not state supported apps or failure recovery, so this causal link is workflo'
+- id: req-full-typesafe-computer-use-2026-09-20
+  project_slug: typesafe-computer-use
+  level: full
+  reviewed_at: '2026-09-20T00:31:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 macOS 界面自动化的动作决策需求：截图经 OCR 与 TypeSafe 分类后输出可执行点击，单步约 0.0002 美元。痛点与替代方式由工作流结构推理得出，公开材料未给用户口述或失败代价，属结构成立而非量化验证。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+    - ev-2a1ff8acc0785a34
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 167 增至 221 再到 506，说明开发者关注度上升，但收藏与排名只属规模或关注度证据，不能证明目标用户持续使用或已把它留在工作流里；缺少 issue、discussion
+      或客户案例佐证强场景。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+    - ev-ee0bbd3ccb5af1d1
+    - ev-2a1ff8acc0785a34
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出约 0.0002 美元/步的成本口径，没有定价页、付费主体或采购记录，无法判断 to C 开发者自付、to B 集成还是 to VC 叙事；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+  - gate: truth
+    status: insufficient
+    reason: OCR 加分类加点击的闭环在公开说明中成立，但支持哪些应用、失败后如何回退、人工与安全边界均未披露，交付能否稳定发生缺少可复现证据。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+    - ev-2a1ff8acc0785a34
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的应用范围、失败回退机制与真实部署场景，作为交付确定性的公开证据。
+  market: ''
+  job: 开发者在 macOS 上构建界面自动化流程时，把屏幕截图交给该库：先 OCR 识别界面文字，再用 TypeSafe 分类出下一步动作，然后执行点击，交付一串可执行的点击动作序列。
+  job_en: 'Developers building macOS UI automation hand a screenshot to this library: it OCRs on-screen
+    text, classifies the next action with TypeSafe, then clicks, delivering an executable click-action
+    sequence.'
+  pain: 公开材料只给出单步约 0.0002 美元的成本与 OCR+分类+点击的流水线，未说明不解决的具体代价、发生频率或失败后果；痛点强度属于工作流结构推理，而非用户口述。
+  pain_en: Public material only states roughly $0.0002 per step and the OCR+classify+click pipeline; it
+    does not state the cost, frequency, or failure consequence of leaving the job unsolved, so pain intensity
+    is workflow inference, not user testimony.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是自建 OCR 加规则或坐标脚本，或直接调用通用 computer-use 模型，但替代关系未被公开证据确认。
+  current_alternative_en: Public material does not state how users do this today; the structurally inferable
+    alternatives are hand-built OCR plus rule/coordinate scripts or a general computer-use model, but
+    the substitution is not confirmed by public evidence.
+  usage_reason: 推断：相较自建 OCR 加规则脚本或调用通用 computer-use 模型，它把识别、动作分类与点击封装成一条固定流水线，并以约 0.0002 美元/步的公开成本给出可核对的价格锚点，因此关注单步成本与可复现流水线的
+    macOS 自动化开发者会在搭建原型时选择它；这是基于产品能力的推断，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus hand-built OCR plus rule scripts or a general computer-use model,
+    it packages OCR, action classification, and clicking into one fixed pipeline and publishes a checkable
+    ~$0.0002/step cost anchor, so macOS automation developers who care about per-step cost and a reproducible
+    pipeline would pick it when prototyping; this is inferred from product capability, not confirmed by
+    user feedback.'

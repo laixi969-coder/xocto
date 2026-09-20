@@ -1,0 +1,82 @@
+- id: req-initial-snooze-files-2026-09-20
+  project_slug: snooze-files
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决文件堆积时先搁置再找回的需求，但候选只有一句功能描述，说不出不采用的代价，痛点刚性无法判断。
+    evidence_ids:
+    - ev-fb26f6ccf295368a
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、采用或讨论证据，无法判断是否有人真的把它放进日常流程。
+    evidence_ids:
+    - ev-fb26f6ccf295368a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅还是团队采购无从判断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-fb26f6ccf295368a
+  - gate: truth
+    status: insufficient
+    reason: 无法确认搁置后的文件是否可确定性恢复、AI 在其中的角色是什么，交付边界不清。
+    evidence_ids:
+    - ev-fb26f6ccf295368a
+  next_validation: 收集该产品的官方定价页或帮助文档，确认搁置与恢复的具体机制、AI 参与环节及是否按订阅收费。
+  market: ''
+  job: 文件堆积的人在桌面或下载目录杂乱、暂时不想整理时，处理一批待归档文件，要先把它们移出视线、之后能原样找回。
+  job_en: People with piled-up files, when their desktop or downloads folder is messy and they do not
+    want to tidy now, handle a batch of pending files by moving them out of sight and later getting them
+    back intact.
+  pain: 候选只说明“搁置并一键恢复”，没有说明不这么做会付出什么代价，也看不出这是刚性痛点还是顺手功能。
+  pain_en: The candidate only says 'shelve and restore in one click'; it does not say what it costs not
+    to do this, nor whether the pain is rigid or just a convenience.
+  current_alternative: 公开材料未给出旧做法，常见替代是手动新建文件夹、拖拽归档或干脆不整理，这属于推断。
+  current_alternative_en: No prior practice is given in the public material; the common alternative is
+    manually creating folders, dragging files away, or simply not tidying, which is inference.
+  usage_reason: 推断：相比手动建文件夹再拖拽，它把“移出视线”和“原样找回”合成一个动作，省掉记住放在哪一步；但缺少用户反馈或案例，无法确认有人因此持续使用。
+  usage_reason_en: 'Inference: versus manually creating folders and dragging files, it merges ''move out
+    of sight'' and ''get back intact'' into one action, removing the step of remembering where things
+    went; without user feedback or cases, sustained use cannot be confirmed.'
+- id: req-full-snooze-files-2026-09-20
+  project_slug: snooze-files
+  level: full
+  reviewed_at: '2026-09-20T00:31:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决文件堆积时先搁置再找回的需求，但候选只有一句功能描述，说不出不采用的代价，也看不出这是刚性痛点还是顺手功能，价值结构无法成立。
+    evidence_ids:
+    - ev-add557b663c9b35f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或帮助文档，确认搁置与恢复的具体机制、AI 参与环节及是否按订阅收费。
+  market: ''
+  job: 桌面或下载目录文件堆积的人，在暂时不想整理时，把一批待处理文件先移出视线，之后需要时再原样找回。
+  job_en: People with piled-up files on their desktop or downloads folder, when they do not want to tidy
+    up right now, move a batch of pending files out of sight and later retrieve them intact.
+  pain: 候选仅有一句“搁置杂乱文件、一键恢复”，没有说明不这么做会付出什么代价，也看不出这是刚性痛点还是顺手功能。
+  pain_en: The candidate only says 'shelve messy files and restore in one click'; it does not say what
+    it costs not to do this, nor whether the pain is rigid or just a convenience.
+  current_alternative: 公开材料未给出旧做法；常见替代是手动新建文件夹、拖拽归档或干脆不整理，这属于推断。
+  current_alternative_en: No prior practice is given in the public material; the common alternative is
+    manually creating folders, dragging files away, or simply not tidying, which is inference.
+  usage_reason: 推断：相比手动建文件夹再拖拽，它把“移出视线”和“原样找回”合成一个动作，省掉记住放在哪一步；但缺少用户反馈或案例，无法确认有人因此持续使用。
+  usage_reason_en: 'Inference: versus manually creating folders and dragging files, it merges ''move out
+    of sight'' and ''get back intact'' into one action, removing the step of remembering where things
+    went; without user feedback or cases, sustained use cannot be confirmed.'

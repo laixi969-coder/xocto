@@ -432,3 +432,55 @@
     removing the step where the learner must reverse-engineer the reasoning after getting an answer; developers
     who are self-studying, onboarding onto unfamiliar code, or reviewing code and want understanding rather
     than copying would choose it when they need to grasp a snippet. Stars rising from '
+- id: req-full-manware-s-ai-learning-toolkit-2026-09-20
+  project_slug: manware-s-ai-learning-toolkit
+  level: full
+  reviewed_at: '2026-09-20T00:30:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者学习与代码审查中“代理只吐代码、不解释原理”的需求，痛点是拿到答案仍不理解、需反复追问；旧替代是通用编码助手与文档教程。产品以教学式反馈交付，属工作流结构推理，公开材料未给用户抱怨或案例，故为初步成立。
+    evidence_ids:
+    - ev-587a644af91a7344
+    - ev-a21c41e1a6fcc096
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由447增至544，说明英文生态有持续关注，但无issue、discussion或评价显示开发者把它留在学习工作流中；关注度不等于持续采用，强场景是否成立仍缺公开行为证据。
+    evidence_ids:
+    - ev-587a644af91a7344
+    - ev-20876c1d660a65c5
+    - ev-a21c41e1a6fcc096
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、赞助、付费版或企业采购路径，谁付钱无法核验；按开源工具推断可能靠捐赠、赞助或后续商业版，属判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-587a644af91a7344
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句定位描述，未见安装文档、可复现演示或交付边界说明，无法确认教学反馈能否稳定生成、以及是否会被代理绕过直接给代码；安全与人工边界亦无公开证据。
+    evidence_ids:
+    - ev-587a644af91a7344
+    - ev-9046cec5e872c904
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现具体学习/代码审查场景的使用记录、安装与交付说明，以及是否出现赞助或付费入口。
+  market: ''
+  job: 开发者在学习新代码库、阅读他人代码或做代码审查时，把代码片段或问题交给AI代理，要求它输出解释、推理过程和教学式反馈，而不是直接给出可粘贴的成品代码，从而完成理解与学习任务。
+  job_en: Developers learning a new codebase, reading others' code, or doing code review hand code snippets
+    or questions to an AI agent and require explanations, reasoning, and teaching-style feedback rather
+    than paste-ready code, so they can understand and learn.
+  pain: 公开材料只给出定位句“把代理变成老师而不是代码复读机”，未提供用户抱怨、issue或案例；可确认的痛点是通用编码代理默认直接吐代码，学习者拿到答案却无法理解原理，需要自己反复追问或另找教程，这一痛点由产品定位反推，属结构推理而非用户口述。
+  pain_en: Public material only gives the positioning line 'turns agents into teachers rather than code
+    yapping machines', with no user complaints, issues, or cases; the inferable pain is that general coding
+    agents default to dumping code, so learners get answers without understanding and must re-prompt or
+    hunt for tutorials. This is structural inference, not user testimony.
+  current_alternative: 旧做法是直接用通用编码助手（如 Copilot、ChatGPT 类工具）提问并自行消化代码，或去读文档、教程、Stack Overflow 与同事讲解；这些替代默认以产出代码为目标，教学反馈需要用户自己额外索取。
+  current_alternative_en: The old approach is asking general coding assistants (Copilot, ChatGPT-like
+    tools) and digesting the code oneself, or reading docs, tutorials, Stack Overflow, and asking colleagues;
+    these default to producing code, so teaching feedback must be extracted by the user.
+  usage_reason: 推断：相较通用助手直接给代码，该工具把代理行为约束为解释与教学反馈，用户少掉“拿到代码后自己反推原理、再追问一轮”的步骤，因此正在学新语言、新框架或做代码审查、希望理解而非抄答案的开发者会在学习场景选择它；仓库收藏从447升至544说明关注度上升，但不构成持续使用证据。
+  usage_reason_en: 'Inference: versus general assistants that hand over code, this toolkit constrains
+    the agent to explanation and teaching feedback, removing the step of reverse-engineering the principle
+    and re-prompting. Developers learning a new language/framework or reviewing code who want understanding
+    rather than a copy-paste answer would choose it; stars rising 447→544 shows attention, not sustained
+    use.'

@@ -508,3 +508,46 @@
   usage_reason_en: With no feature description or user feedback, it is impossible to explain which step
     it removes or which checkable result it improves versus current practice; the star growth from 1,141
     to 1,197 reflects attention only and cannot serve as a usage reason.
+- id: req-full-fermats-last-theorem-2026-09-20
+  project_slug: fermats-last-theorem
+  level: full
+  reviewed_at: '2026-09-20T00:29:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据仅有仓库名与 star 数，未披露功能、输入输出、用户任务或痛点；连它解决什么需求、什么痛点都写不出来，因此无法做价值结构判断。
+    evidence_ids:
+    - ev-6f305645fe4c0ba1
+    - ev-26c86f408c635cf6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、代码目录、issue 与 discussion 公开内容，确认它实际提供的输入、动作与交付物，以及是否对应 Lean/Coq 等证明助手工作流。
+  market: ''
+  job: Anthropic 在 公开代码仓库 发布的名为 fermats-last-theorem 的仓库，公开材料只显示仓库名与 star 数，未披露 README、文档或代码内容，因此无法确定谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Anthropic's public code repository repository named fermats-last-theorem shows only a name and
+    star counts in public evidence; no README, docs, or code content is disclosed, so it is impossible
+    to identify who handles what material in what situation to complete what task.
+  pain: 公开证据未披露任何用户痛点、抱怨、workaround 或使用反馈；仓库名指向费马大定理，可能涉及数学推理或形式化验证，但这是对名称的猜测，不是可引用的痛点事实。
+  pain_en: Public evidence discloses no user pain, complaint, workaround, or usage feedback; the name
+    points to Fermat's Last Theorem and possibly mathematical reasoning or formal verification, but that
+    is an inference from the name, not citable pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了哪种旧做法；无法确认它对应 Lean、Coq、Isabelle 等证明助手，还是别的流程。
+  current_alternative_en: Public materials do not show how users currently do the related work or what
+    old practice this repository replaces; it cannot be confirmed whether it maps to Lean, Coq, Isabelle,
+    or another workflow.
+  usage_reason: 缺少 README、文档、issue、discussion 或用户反馈，无法解释相较现有做法它减少了哪一步负担或改善了哪项可核对结果，因此无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no README, docs, issues, discussions, or user feedback, there is no way to explain
+    which step it removes or which checkable result it improves versus current practice, so no user segment
+    or situation of choice can be identified.

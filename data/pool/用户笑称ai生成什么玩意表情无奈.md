@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPM2dMOFI1N0pC
 summary: 用户笑称AI生成“什么玩意”表情无奈 t.cj.sina.cn
 first_seen: '2026-09-19T13:01:22Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

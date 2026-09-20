@@ -83,3 +83,46 @@
   usage_reason_en: 'Inference: it centralizes skills with versions and client scoping, removing manual
     syncing and diffing across repositories, which reduces cross-client leakage risk for teams serving
     multiple clients; no public evidence yet that teams keep using it long term.'
+- id: req-full-skillbox-2026-09-20
+  project_slug: skillbox
+  level: full
+  reviewed_at: '2026-09-20T00:31:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决多客户端下技能散落、无法回溯与越权共享的问题，但公开证据全部指向同名音乐活动、教师资源站与俄罗斯在线教育平台，没有任何用户痛点、旧替代行为或客户案例支撑该需求，痛点只能从功能反推。
+    evidence_ids:
+    - ev-e4948b8c619052df
+    - ev-9291848c3815bdec
+    - ev-7d345bab3ad5115f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索 skillbox 在 公开代码仓库 或 MCP 生态中的官方仓库与 README，确认其真实产品定位、安装方式与是否有团队公开报告使用。
+  market: ''
+  job: 开发 AI Agent 的团队在多个客户端与项目间复用提示与技能时，需要把技能集中存放、按客户端限定可见范围并保留版本，形成一份可自托管、可回溯的技能库。
+  job_en: A team building AI agents needs to reuse prompts and skills across multiple clients and projects,
+    storing them centrally, scoping visibility per client, and keeping versions in a self-hosted, traceable
+    skills library.
+  pain: 公开材料中没有任何用户抱怨、workaround 或客户案例支持“技能散落、无法回溯、跨客户串用”这一痛点，痛点只能从产品功能反推，缺少可引用的用户侧事实。
+  pain_en: No public user complaints, workarounds, or customer cases support the claimed pain of scattered
+    skills, untraceable changes, or cross-client leakage; the pain is only inferred from product features,
+    with no citable user-side facts.
+  current_alternative: 公开材料未记录开发者当前用什么方式同步提示与技能，Git 仓库、共享文档或复制粘贴都只是推测，没有可引用的旧替代行为。
+  current_alternative_en: Public materials do not record how developers currently sync prompts and skills;
+    Git repos, shared docs, or copy-pasting are only speculation, with no citable prior behavior.
+  usage_reason: 推断：若产品真能集中存放技能并加上版本与客户端范围，可省去跨仓库手工同步与比对差异这一步；但缺少用户反馈或客户案例，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the product truly centralizes skills with versions and client scoping,
+    it could remove manual cross-repo syncing and diffing; but without user feedback or customer cases,
+    it is unconfirmed which users would choose it for that reason.'

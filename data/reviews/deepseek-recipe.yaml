@@ -312,3 +312,43 @@
   usage_reason: 无法判断用户为何选择它：既无产品说明、文档或使用反馈，也无从对比旧做法的具体动作差异；星标数不能解释选择动机。
   usage_reason_en: 'Why users would choose it cannot be judged: there is no product description, documentation,
     or usage feedback to compare against the old approach; star counts cannot explain choice motivation.'
+- id: req-full-deepseek-recipe-2026-09-20
+  project_slug: deepseek-recipe
+  level: full
+  reviewed_at: '2026-09-20T00:29:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有仓库名与收藏数，没有产品说明、README 摘要或用户反馈，无法写出它解决什么需求、什么痛点，也无法还原输入、动作与交付。
+    evidence_ids:
+    - ev-b97463bce83cd6b6
+    - ev-1012c777706da2e1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion 的公开内容，确认它具体解决什么任务、替代哪一步旧流程，以及是否有可复现的部署或使用记录。
+  market: ''
+  job: 公开材料只给出仓库名与收藏数，未说明谁在什么情况下、处理什么材料、要完成什么任务；无法还原具体工作流。
+  job_en: Public materials provide only a repository name and star counts, with no description of who,
+    in what situation, handling what material, completes what task; the concrete workflow cannot be reconstructed.
+  pain: 没有产品说明、README 摘要或用户反馈，无法指出用户当前在哪一步受阻、痛点是否刚性、不解决会有什么后果。
+  pain_en: With no product description, README summary, or user feedback, it is impossible to identify
+    where users are blocked, whether the pain is rigid, or what happens if it goes unsolved.
+  current_alternative: 公开证据未记录用户目前用什么方式完成相关工作，也未说明该仓库替代了哪一步旧做法。
+  current_alternative_en: Public evidence does not record how users currently complete the related work,
+    nor which prior step this repository replaces.
+  usage_reason: 仅能观察到收藏数从 331 缓慢升至 342，这属于关注度信号，不能解释用户为何选择它；缺少功能说明与使用反馈，无法给出选择因果。
+  usage_reason_en: Only a slow star rise from 331 to 342 is observable, which is an attention signal and
+    cannot explain why users choose it; without capability descriptions or usage feedback, no causal reason
+    can be given.

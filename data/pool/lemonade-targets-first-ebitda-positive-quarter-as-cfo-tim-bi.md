@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNLTRTSTVHSTRT
 summary: Lemonade Targets First EBITDA-Positive Quarter as CFO Tim Bixby Transitions to Board TradingView
 first_seen: '2026-09-18T10:02:06Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

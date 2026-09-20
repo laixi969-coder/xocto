@@ -21,7 +21,7 @@ canonical_url: https://newsroom.usra.edu/usra-contributes-planetary-science-expe
 summary: NASA-IBM Lunar Foundation open-Source Geospatial AI Model
 first_seen: '2026-09-19T04:44:35Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

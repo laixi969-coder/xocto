@@ -366,3 +366,53 @@
     into code-drawn frame-by-frame motion graphics with TTS voiceover, subtitles, and a chapter bar, reducing
     manual stitching from script to render, so creators or educators needing quick explainer videos may
     choose it; no user feedback or case yet confirms this motive.'
+- id: req-full-anything2explainer-2026-09-20
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-20T00:28:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把主题快速转成带旁白、字幕和章节条的解释视频这一需求，痛点在于脚本、动效、配音、字幕分工具拼装且逐帧手工绘制；这是工作流结构推理，公开材料未记录用户抱怨或代价，但任务、输入、动作与交付闭环可还原。
+    evidence_ids:
+    - ev-7e064e60100c1861
+    - ev-d214a2c95fab2a56
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 1580 增至 1757，说明开发者持续关注；但收藏属关注度证据，不能证明目标用户已把它留在工作流或持续使用，缺少 issue、discussion 或用户评价佐证。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+    - ev-9ecbf1bbd7f3ecbe
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；这是判断而非已验证事实，钱可能来自 to C 创作者订阅或 to B 团队采购，但公开材料未披露任何付费路径。
+    evidence_ids:
+    - ev-7e064e60100c1861
+  - gate: truth
+    status: insufficient
+    reason: 产品以代码绘制每帧并自动生成旁白字幕，交付形式可确定；但公开材料未说明渲染失败、TTS 质量或人工审核边界，缺少可复现的交付结果证据。
+    evidence_ids:
+    - ev-2a40782297e53db9
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认用户实际用它产出了什么视频、替代了哪一步旧流程，以及是否出现付费或团队采用线索。
+  market: ''
+  job: 内容创作者、教育者或营销人员需要把某个主题（如概念讲解、课程知识点、产品卖点）快速做成一段带旁白、字幕和章节进度条的黑色画布动图解释视频，用于发布或教学。
+  job_en: A content creator, educator, or marketer needs to turn a topic (a concept, a lesson point, a
+    product pitch) into a black-canvas motion-graphics explainer video with voiceover, subtitles, and
+    a chapter progress bar, for publishing or teaching.
+  pain: 公开材料只说明产品能做什么，未记录用户抱怨；从工作流结构推理，制作这类解释视频通常要分别处理脚本、动效、配音、字幕和章节标记，多工具切换且每帧需手工绘制或套模板，这是可推断的摩擦，但公开证据未量化其代价或频率。
+  pain_en: Public materials only describe what the product does, not user complaints; by workflow inference,
+    producing such explainer videos usually means handling script, motion graphics, voiceover, subtitles,
+    and chapter markers separately across tools, with each frame hand-drawn or templated—an inferable
+    friction, though public evidence does not quantify its cost or frequency.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的替代是手工使用动效/剪辑软件（如 After Effects、剪映）加 TTS 工具和字幕工具分步拼装，或直接外包给视频制作方。
+  current_alternative_en: Public materials do not state how users currently do this job; the structurally
+    inferable alternatives are manually assembling motion/clip software (e.g., After Effects, CapCut)
+    plus TTS and subtitle tools, or outsourcing to a video producer.
+  usage_reason: 推断：相较手工分步拼装，该 skill 把主题直接转成代码绘制的 Remotion 帧并自动附带 TTS 旁白、字幕和章节进度条，减少在多个工具间切换和逐帧手工绘制的步骤，因此需要批量或快速产出解释视频的内容创作者、教育者、营销人员会在有主题但缺制作时间时选择它；公开材料未提供用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual step-by-step assembly, the skill turns a topic directly into
+    code-drawn Remotion frames with TTS voiceover, subtitles, and a chapter progress bar, cutting tool-switching
+    and per-frame hand-drawing, so creators, educators, and marketers needing fast or batch explainer
+    videos would choose it when they have a topic but no production time; public materials provide no
+    user feedback confirming this motive.'

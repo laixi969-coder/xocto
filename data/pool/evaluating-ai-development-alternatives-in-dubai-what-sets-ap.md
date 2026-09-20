@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPUWljbTdXd25f
 summary: 'Evaluating AI Development Alternatives in Dubai: What Sets Appinventiv Apart openPR.com'
 first_seen: '2026-09-17T10:00:17Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

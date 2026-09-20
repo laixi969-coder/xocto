@@ -227,3 +227,43 @@
   usage_reason: 缺少用户反馈或客户案例，无法说明相较旧做法减少了哪一步负担，因此无法解释用户为何选择它。
   usage_reason_en: With no user feedback or customer cases, it is impossible to explain which step of
     burden it removes versus the old approach, and therefore why users would choose it.
+- id: req-full-lint-2026-09-20
+  project_slug: lint
+  level: full
+  reviewed_at: '2026-09-20T00:30:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向 lint 一词的词典释义与 1978 年 C 语言 lint 历史，没有任何关于该 Tailwind 设计系统 linter 的产品说明、用户任务或痛点材料，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-f0f30a60820d0d41
+    - ev-914120bf227955e3
+    - ev-d55329c8eae3b36b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 Tailwind 设计系统 linter 的官方仓库 README 与规则示例，确认其规则格式、agent 校验流程与交付形态。
+  market: ''
+  job: 前端工程师或设计系统维护者在提交 Tailwind 组件代码时，需要处理类名与设计规范，确认改动是否符合团队设计系统规则。
+  job_en: A frontend engineer or design-system maintainer committing Tailwind component code needs to
+    work through class names and design rules to confirm the change matches the team's design system.
+  pain: 公开材料未提供任何关于设计规范漂移、review 漏检或返工的用户痛点证据，无法确认痛点真实存在及其强度。
+  pain_en: The public material provides no user-pain evidence about design-rule drift, missed review checks,
+    or rework, so the existence and intensity of the pain cannot be confirmed.
+  current_alternative: 公开材料未说明当前替代方式，无法确认用户现在如何完成设计规范核对。
+  current_alternative_en: The public material does not describe any current alternative, so how users
+    currently check design-rule compliance cannot be confirmed.
+  usage_reason: 缺少产品能力、规则格式与交付形态的公开事实，无法解释用户为何会选择它而非旧做法。
+  usage_reason_en: Public facts about the product's capabilities, rule format, and delivery form are missing,
+    so why users would choose it over the old approach cannot be explained.

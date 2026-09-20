@@ -23,7 +23,7 @@ summary: Around 750,000 truck-driver positions could go unfilled by 2028. DXC an
   deliveries. Stock Titan
 first_seen: '2026-09-17T09:22:00Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

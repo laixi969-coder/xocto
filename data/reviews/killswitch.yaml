@@ -1,0 +1,85 @@
+- id: req-initial-killswitch-2026-09-20
+  project_slug: killswitch
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决代码被模型复制的问题，但材料未说明谁在什么场景下因此受损，痛点刚性不足，接近“看着有意思但没有也行”。
+    evidence_ids:
+    - ev-bc9bb5dd52094320
+  - gate: consensus
+    status: insufficient
+    reason: 仅 7 分、2 条评论的社区讨论，无法说明开发者是否真的需要反模型语言。
+    evidence_ids:
+    - ev-bc9bb5dd52094320
+  - gate: model
+    status: insufficient
+    reason: 未见定价、授权或买方描述，商业模式完全未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bc9bb5dd52094320
+  - gate: truth
+    status: insufficient
+    reason: 语言是否真能稳定阻止模型处理、是否牺牲正常开发体验，公开材料未提供可核对结果。
+    evidence_ids:
+    - ev-bc9bb5dd52094320
+  next_validation: 收集该语言官网的规范文档与示例代码，确认它是否已发布可用工具链及是否有开发者实际采用。
+  market: ''
+  job: 软件工程师或语言设计者在需要防止代码被模型批量生成或改写时，用这门语言编写核心逻辑，最终得到一个模型难以复现的代码库。
+  job_en: A software engineer or language designer wanting to keep code from being mass-generated or rewritten
+    by models writes core logic in this language, ending up with a codebase models struggle to reproduce.
+  pain: 材料只说明语言“对 LLM 困难”，未说明谁因此受损、损失多大，也未给出任何采用或抱怨证据，痛点强度无法判断。
+  pain_en: The material only says the language is hard for LLMs, without showing who is harmed, how much,
+    or any adoption or complaint evidence, so pain intensity cannot be judged.
+  current_alternative: 继续使用主流语言并依赖许可证、混淆或私有部署来限制模型复制。
+  current_alternative_en: Staying with mainstream languages and relying on licenses, obfuscation or private
+    deployment to limit model copying.
+  usage_reason: 推断：相较主流语言加许可证约束，它把“让模型难以生成”写进语言本身，省去额外混淆或授权环节，可能吸引担心代码被模型复制的团队；但无用户反馈支持，属推断。
+  usage_reason_en: 'Inference: versus mainstream languages plus licensing, it builds model-resistance
+    into the language itself, removing extra obfuscation or licensing steps, which may attract teams worried
+    about model copying; unsupported by user feedback, so it is inference.'
+- id: req-full-killswitch-2026-09-20
+  project_slug: killswitch
+  level: full
+  reviewed_at: '2026-09-20T00:30:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它自称让模型难以处理的编程语言，但公开证据里没有用户任务、痛点、受损后果或替代做法，连需求与痛点都写不出来，无法构成价值判断。
+    evidence_ids:
+    - ev-77993a2416024006
+    - ev-77bdf930478eb909
+    - ev-e06a9a988396fb8c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该编程语言的官方规范文档或代码仓库（如 公开代码仓库 仓库、README、issue/discussion），确认是否已发布可用工具链及是否有开发者实际采用。
+  market: ''
+  job: 候选材料未说明谁在什么情况下、处理什么材料、要完成什么任务；仅有一句摘要称其为“让大语言模型难以处理的编程语言”，无语法、工具链或使用流程。
+  job_en: The candidate material does not state who, in what situation, handling what material, to complete
+    what task; only a one-line summary calls it a programming language designed to be difficult for LLMs,
+    with no syntax, toolchain or workflow.
+  pain: 公开证据中没有任何用户痛点、抱怨或受损描述；检索到的证据全部指向同名金属乐队 Killswitch Engage 与 dbrand 的 Switch 2 保护壳，与编程语言无关。
+  pain_en: No user pain, complaint or harm is described in the public evidence; all retrieved evidence
+    points to the metal band Killswitch Engage and dbrand's Switch 2 case, unrelated to a programming
+    language.
+  current_alternative: 无法确定，因为连它要替代的旧做法（如主流语言加许可证、混淆或私有部署）都未在材料中出现。
+  current_alternative_en: Cannot be determined, since even the old practice it would replace (e.g. mainstream
+    languages plus licensing, obfuscation or private deployment) does not appear in the material.
+  usage_reason: 无法给出使用理由：材料未说明产品通过什么具体动作减少哪一步负担或改善哪项可核对结果，也没有任何用户反馈或采用证据。
+  usage_reason_en: 'No usage reason can be given: the material does not explain what concrete action reduces
+    which step of burden or improves which checkable result, and there is no user feedback or adoption
+    evidence.'

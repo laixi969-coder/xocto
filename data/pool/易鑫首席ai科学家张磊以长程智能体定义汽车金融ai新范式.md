@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yc19XWGYzRlNC
 summary: 易鑫首席AI科学家张磊：以长程智能体定义汽车金融AI新范式 东方财富
 first_seen: '2026-09-19T03:45:39Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

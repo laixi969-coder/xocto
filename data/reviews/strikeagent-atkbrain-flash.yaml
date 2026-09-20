@@ -448,3 +448,53 @@
     attack simulation from target input into one automated run with a report, cutting repetitive execution
     and result aggregation, so it would be chosen when authorized testing or CTF time is limited and broad
     target coverage is needed; public materials do not yet confirm this motive via user feedback.'
+- id: req-full-strikeagent-atkbrain-flash-2026-09-20
+  project_slug: strikeagent-atkbrain-flash
+  level: full
+  reviewed_at: '2026-09-20T00:31:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队打点、SRC、CTF 场景下信息收集与漏洞验证的重复劳动，痛点是人工逐项枚举与串联攻击链耗时；公开材料仅说明自监督自循环能力，未给用户抱怨或耗时数据，故价值成立属工作流结构推理。
+    evidence_ids:
+    - ev-e126eca2c3e9a53d
+    - ev-a8d363786a7c4196
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 收藏从 343 增至 387，说明社区关注度上升，但收藏与排名只属规模或关注度证据，公开材料没有用户评价、案例或持续使用记录，无法证明目标用户已把它留在工作流里。
+    evidence_ids:
+    - ev-a8d363786a7c4196
+    - ev-e126eca2c3e9a53d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购记录，无法判断收入来自 to B 安全团队、to C 个人研究者还是 to VC；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-a8d363786a7c4196
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明自动化程度、交付物形态、误报处理与授权边界，无法核验渗透测试结论能否确定性交付，也无法确认人工复核与安全合规边界如何设置。
+    evidence_ids:
+    - ev-e126eca2c3e9a53d
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认是否公开部署文档、实际使用案例或交付物样例。
+  market: ''
+  job: 红队渗透测试工程师或安全研究员在授权评估或 SRC/CTF 场景下，拿到目标资产信息后，需要完成信息收集、漏洞发现与打点验证，并整理出可复现的渗透测试结论。
+  job_en: A red-team penetration tester or security researcher, given authorized target asset information
+    in an assessment, SRC, or CTF setting, must perform reconnaissance, vulnerability discovery, and foothold
+    validation, then produce reproducible penetration-test findings.
+  pain: 公开材料显示该平台强调自监督、自循环、自进化并覆盖红队打点，说明其针对的是打点阶段人工反复枚举、验证与串联攻击链的重复负担；但公开证据未给出用户抱怨原文或耗时数据，痛点强度属工作流结构推理。
+  pain_en: Public materials describe a self-supervising, self-looping, self-evolving agent covering red-team
+    footholds, implying it targets the repetitive manual enumeration, validation, and attack-chain chaining
+    in the foothold phase; however, no verbatim user complaints or time-cost data are public, so pain
+    intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式是渗透测试人员手工使用 Nmap、Burp Suite、Metasploit 等工具逐项扫描与验证，或依赖既有自动化扫描器输出后再人工筛选；公开材料未说明本产品具体替代了哪一步。
+  current_alternative_en: The current alternative is manual use of tools such as Nmap, Burp Suite, and
+    Metasploit for step-by-step scanning and validation, or relying on existing automated scanners and
+    then manually filtering results; public materials do not specify which step this product replaces.
+  usage_reason: 推断：相较手工逐项枚举与验证，该产品以 AI Agent 自循环方式承接目标信息输入并推进打点流程，可能减少人工重复枚举与串联攻击链的步骤，因此红队打点或 CTF 场景下的安全人员会在需要快速覆盖大量目标时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with manual step-by-step enumeration and validation, the product
+    uses a self-looping AI agent to take target input and advance the foothold workflow, potentially reducing
+    repetitive manual enumeration and attack-chain chaining, so red-team or CTF security staff may choose
+    it when needing to cover many targets quickly; public materials contain no user feedback confirming
+    this motivation.'

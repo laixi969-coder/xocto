@@ -1,0 +1,89 @@
+- id: req-initial-punch-2026-09-20
+  project_slug: punch
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出它想保存群聊重要内容，但说不清用户是谁、不采用会失去什么、旧做法是什么，价值结构无法成立。
+    evidence_ids:
+    - ev-168aacee6d1db866
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且候选没有任何采用、评价或场景证据。
+    evidence_ids:
+    - ev-168aacee6d1db866
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，公开材料也未说明买方与付费路径。
+    evidence_ids:
+    - ev-168aacee6d1db866
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对 AI 具体接收什么、执行什么、交付是否确定发生。
+    evidence_ids:
+    - ev-168aacee6d1db866
+  next_validation: 收集 Punch 官方产品页或文档，确认它接收的输入材料、AI 执行的具体动作与最终交付物。
+  market: ''
+  job: 群聊参与者（如项目群、卖家群成员）在聊天记录被大量无关消息淹没时，需要把其中被反复引用或需要留存的信息挑出来并保存下来，以便之后查找。
+  job_en: Group chat participants (e.g. project or seller group members) whose chat history is flooded
+    with noise need to pick out and keep the messages that are repeatedly cited or worth retaining, so
+    they can find them later.
+  pain: 群聊信息流速度快、上下文碎片化，重要内容很快被刷走；候选资料没有说明用户目前因此付出什么代价，也没有用户抱怨或替代行为的记录。
+  pain_en: Group chat moves fast and context is fragmented, so important content is quickly buried; the
+    candidate material does not state what this costs users today, and there is no record of user complaints
+    or workaround behaviour.
+  current_alternative: 公开材料未说明现有替代方式；按常见做法推断，用户可能手动截图、收藏或复制到备忘录，但这是推断，不是候选资料中的事实。
+  current_alternative_en: The public material does not describe existing alternatives; by common practice
+    one might infer users screenshot, bookmark or copy messages into notes, but this is inference, not
+    a fact in the candidate material.
+  usage_reason: 候选资料只有一句产品说明，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由；缺少的是对输入材料、AI 动作与交付物的具体描述。
+  usage_reason_en: The candidate material contains only a one-line product description and cannot show
+    which step of the old workflow it removes or which verifiable result it improves, so no usage reason
+    can be given; what is missing is a concrete description of input material, AI action and deliverable.
+- id: req-full-punch-2026-09-20
+  project_slug: punch
+  level: full
+  reviewed_at: '2026-09-20T00:30:44Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决群聊重要内容被刷走、需要留存的需求，但候选材料只有一句产品说明，说不清用户是谁、不采用会失去什么、旧做法是什么，价值结构无法成立。
+    evidence_ids:
+    - ev-46ad61e9d18ffcbd
+    - ev-7deeecb2c59ddbdc
+    - ev-d801108f889ee333
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Punch 官方产品页或文档，确认它接收的输入材料、AI 执行的具体动作与最终交付物。
+  market: ''
+  job: 群聊参与者（如项目群、卖家群成员）在聊天记录被大量无关消息淹没时，需要把被反复引用或需要留存的信息挑出来并保存，以便之后查找。
+  job_en: Group chat participants (e.g. project or seller group members) whose chat history is flooded
+    with noise need to pick out and keep the messages that are repeatedly cited or worth retaining, so
+    they can find them later.
+  pain: 群聊信息流快、上下文碎片化，重要内容很快被刷走；但候选材料没有说明用户因此付出什么代价，也没有用户抱怨或替代行为的记录。
+  pain_en: Group chat moves fast and context is fragmented, so important content is quickly buried; but
+    the candidate material does not state what this costs users today, and there is no record of user
+    complaints or workaround behaviour.
+  current_alternative: 公开材料未说明现有替代方式；按常见做法推断，用户可能手动截图、收藏或复制到备忘录，但这是推断，不是候选资料中的事实。
+  current_alternative_en: The public material does not describe existing alternatives; by common practice
+    one might infer users screenshot, bookmark or copy messages into notes, but this is inference, not
+    a fact in the candidate material.
+  usage_reason: 候选资料只有一句产品说明，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由；缺少的是对输入材料、AI 动作与交付物的具体描述。
+  usage_reason_en: The candidate material contains only a one-line product description and cannot show
+    which step of the old workflow it removes or which verifiable result it improves, so no usage reason
+    can be given; what is missing is a concrete description of input material, AI action and deliverable.

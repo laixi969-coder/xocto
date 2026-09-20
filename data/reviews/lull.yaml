@@ -1,0 +1,85 @@
+- id: req-initial-lull-2026-09-20
+  project_slug: lull
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决冥想内容与当下情绪不匹配的问题，痛点具体且不采用会放弃练习，旧替代是翻找固定音频库，结构上成立。
+    evidence_ids:
+    - ev-e9c8633dce6ab949
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无用户评价或采用数据，无法判断是否形成场景共识。
+    evidence_ids:
+    - ev-e9c8633dce6ab949
+  - gate: model
+    status: insufficient
+    reason: 未见定价页与买方描述，可能面向个人订阅或机构采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e9c8633dce6ab949
+  - gate: truth
+    status: insufficient
+    reason: 生成内容是否安全、是否涉及心理危机场景的人工边界，公开材料未说明。
+    evidence_ids:
+    - ev-e9c8633dce6ab949
+  next_validation: 收集 Lull 官方定价页或应用商店页面，确认其收费方式与是否有用户评价提及重复使用。
+  market: ''
+  job: 冥想练习者在情绪波动、难以入睡或压力大的时刻，写下当下心事，让产品生成一段贴合此刻状态的冥想文本，用于即时放松。
+  job_en: A meditation practitioner, at a moment of mood swing, sleeplessness or stress, writes down what
+    is on their mind and has the product generate a meditation text matching that state for immediate
+    relaxation.
+  pain: 现成冥想音频是通用内容，与当下情绪不匹配，用户常需在长列表里翻找仍找不到合适的；不解决的后果是放弃练习或继续焦虑。
+  pain_en: Off-the-shelf meditation audio is generic and mismatched to the current mood; users scroll
+    long lists and still find nothing suitable, and the consequence is giving up the practice or staying
+    anxious.
+  current_alternative: 在冥想 App 的固定音频库里挑选课程，或跟着通用引导音频练习。
+  current_alternative_en: Picking a course from a fixed audio library in a meditation app, or following
+    generic guided audio.
+  usage_reason: 推断：相较在固定音频库里翻找，它把“描述当下心情”作为输入直接生成对应脚本，省去筛选与试听这一步，因此情绪波动时想立刻获得匹配内容的用户可能选择它；尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus browsing a fixed audio library, it takes a description of the current
+    mood as input and generates a matching script, removing the filtering and previewing step, so users
+    wanting immediate matching content during mood swings may choose it; no user feedback yet confirms
+    this.'
+- id: req-full-lull-2026-09-20
+  project_slug: lull
+  level: full
+  reviewed_at: '2026-09-20T00:30:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只有一句产品描述，证据全部指向词典释义与同名床垫品牌，未出现任何用户任务、痛点或替代行为的公开记录，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-2ea550268f6bd072
+    - ev-0a8ad8e841b1fe05
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Lull 官方产品页或应用商店页面，确认其生成冥想内容的具体形式、是否配音及是否有用户评价提及重复使用。
+  market: ''
+  job: 冥想练习者在情绪波动、难以入睡或压力大的时刻，写下当下心事，希望得到一段贴合此刻状态的冥想内容用于即时放松。
+  job_en: A meditation practitioner, at a moment of mood swing, sleeplessness or stress, writes down what
+    is on their mind and wants a meditation piece matching that state for immediate relaxation.
+  pain: 公开材料中没有任何用户痛点、抱怨或替代行为的记录，无法确认通用冥想音频与当下情绪不匹配是否构成真实困扰。
+  pain_en: No public material records any user pain, complaint or workaround, so it cannot be confirmed
+    that generic meditation audio mismatching the current mood is a real burden.
+  current_alternative: 公开材料未提供任何关于用户当前如何获得冥想内容的替代方式信息。
+  current_alternative_en: Public material provides no information on how users currently obtain meditation
+    content.
+  usage_reason: 无法判断：候选材料未说明生成内容的形式、是否配音、是否有人工确认，也没有任何用户反馈或采用证据，无法解释用户为何会选择它。
+  usage_reason_en: 'Cannot be judged: the candidate material does not describe the output format, whether
+    it is voiced, or any human review step, and there is no user feedback or adoption evidence to explain
+    why users would choose it.'

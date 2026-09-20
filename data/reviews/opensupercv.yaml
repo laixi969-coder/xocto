@@ -89,3 +89,52 @@
     into searchable, editable workspace items and lets an agent process them on demand, removing the ''find
     somewhere to store it, then tidy it later'' steps; knowledge workers who shuttle material between
     apps and want a model to consume those fragments would choose it.'
+- id: req-full-opensupercv-2026-09-20
+  project_slug: opensupercv
+  level: full
+  reviewed_at: '2026-09-20T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用文本散落、难以检索与复用的问题，痛点在于剪贴板历史与笔记软件无法统一编辑并按需处理；公开仓库说明其归集与 agent 处理能力，属工作流结构推理，交付形态仍待核验。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+    - ev-b5323c5c146c960e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有约 45 至 49 颗星，但缺少用户评价、issue 讨论或客户案例，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+    - ev-b5323c5c146c960e
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价与客户信息，买方与付费路径不可知；这是判断，不是已验证事实，但不足以取消真需求判定。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 agent 处理工作区条目是否贴近该工作的第一性目标、交付是否确定，以及人工确认与安全边界如何设置。
+    evidence_ids:
+    - ev-9860d2fd5b22bd75
+    - ev-b5323c5c146c960e
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认 agent 处理工作区条目的具体输入输出、人工确认环节与是否有用户持续使用反馈。
+  market: ''
+  job: 知识工作者、软件开发者或研究分析人员在跨聊天、文档与网页收集资料、整理报告或代码片段时，把散落文本收进一个可搜索、可编辑的工作区，再由 agent 按需处理条目，形成可复用上下文。
+  job_en: Knowledge workers, developers or research analysts gathering material across chats, documents
+    and web pages while assembling a report or code snippets collect scattered text into a searchable,
+    editable workspace, then let agents process items on demand to form reusable context.
+  pain: 公开材料只说明它能归集跨应用内容，没有用户抱怨或采用记录，跨应用复制粘贴是否构成足够强的痛点无法确认；但结构上，系统剪贴板历史与笔记软件在跨应用检索、编辑与按需处理上存在断点。
+  pain_en: The public material only says it collects cross-application content; with no user complaints
+    or adoption records, it cannot be confirmed that cross-application copying is a strong enough pain.
+    Structurally, however, system clipboard history and note apps have gaps in cross-application search,
+    editing and on-demand processing.
+  current_alternative: 推断：用户目前依靠系统剪贴板历史、笔记软件、浏览器书签或手动粘贴到文档中暂存素材。
+  current_alternative_en: 'Inference: users currently rely on system clipboard history, note-taking apps,
+    browser bookmarks, or manually pasting material into a document for temporary storage.'
+  usage_reason: 推断：相较系统剪贴板历史或笔记软件，它把跨应用文本收进同一可搜索、可编辑工作区，并允许 agent 按需处理条目，减少在多个应用间来回切换与手动整理这一步；需要跨应用收集并复用素材的知识工作者会在整理报告或代码片段时选择它。
+  usage_reason_en: 'Inference: versus system clipboard history or note apps, it collects cross-application
+    text into one searchable, editable workspace and lets agents process items on demand, removing the
+    step of switching between apps and manually organizing material; knowledge workers who gather and
+    reuse material across applications would choose it when assembling reports or code snippets.'

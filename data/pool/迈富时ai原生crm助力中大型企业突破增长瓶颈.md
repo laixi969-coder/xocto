@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxQNXdQUHN3bmNw
 summary: 迈富时AI原生CRM助力中大型企业突破增长瓶颈 新浪财经_金融信息服务商
 first_seen: '2026-09-18T04:51:03Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

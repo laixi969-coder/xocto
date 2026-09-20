@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxPS3V4MzMxdTJE
 summary: 'Vibe Coding: How AI Is Changing the Way We Work innovation-village.com'
 first_seen: '2026-09-18T05:28:59Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

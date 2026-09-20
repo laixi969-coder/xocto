@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lNGhhS0dJbERa
 summary: 攻克“抽卡”痛点！华科团队“闯关”国内首部院线级AI电影 湖北日报传媒集团
 first_seen: '2026-09-19T06:14:38Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

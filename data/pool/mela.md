@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/mela-3
 summary: Play with friends and AI and let the crowd change the game
 first_seen: '2026-09-16T18:58:57Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

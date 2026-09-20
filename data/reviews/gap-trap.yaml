@@ -165,3 +165,49 @@
   usage_reason_en: 'Inference: it turns repository rules into automatic pre-commit gates, removing the
     manual step of checking each line against conventions, so teams adopt it when AI-generated volume
     is high and compliance matters.'
+- id: req-full-gap-trap-2026-09-20
+  project_slug: gap-trap
+  level: full
+  reviewed_at: '2026-09-20T00:29:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码后人工逐行审阅这一具体痛点，旧做法是人工 review 加零散 lint，不解决的后果是漏审与返工，结构上成立。
+    evidence_ids:
+    - ev-c26ae0188725a222
+    - ev-0b0146d34bb87fb7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 42 增至 172，说明关注度上升，但无用户评价、issue 讨论或团队采用记录，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-c26ae0188725a222
+    - ev-1f1d041105988676
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价与买方，推断可能按仓库或团队订阅收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0b0146d34bb87fb7
+  - gate: truth
+    status: insufficient
+    reason: 规则由谁维护、误报如何处理、是否需人工最终确认均未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-0b0146d34bb87fb7
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认规则配置方式、误报处理与是否有团队实际采用记录。
+  market: ''
+  job: 软件工程师在 AI 代理批量改写或生成代码的仓库里，处理大量自动生成的改动，需要在合并前确认这些改动符合仓库既有规则与质量要求。
+  job_en: Software engineers working in repositories where AI agents bulk-generate or rewrite code must
+    handle large volumes of generated changes and confirm they meet existing repository rules and quality
+    bars before merging.
+  pain: AI 生成代码的速度超过人工审阅速度，逐行 review 成为瓶颈；漏审会带来线上故障与返工，而仓库规范往往只存在于口头约定或零散 lint 中。
+  pain_en: AI produces code faster than humans can review it, making line-by-line review the bottleneck;
+    missed checks cause production incidents and rework, while repository conventions often live only
+    in verbal agreements or scattered lint rules.
+  current_alternative: 人工逐行审阅、CI 中零散的 lint 与测试，或口头约定规范。
+  current_alternative_en: Manual line-by-line review, scattered lint and tests in CI, or unwritten conventions.
+  usage_reason: 推断：它把仓库规则固化成提交前的自动关卡，省掉人工逐行比对规范这一步，因此当 AI 生成改动量大、又必须保证合规时，团队会倾向选择它；但公开材料未给出用户反馈或采用案例，动机仍属结构推理。
+  usage_reason_en: 'Inference: it turns repository rules into automatic pre-commit gates, removing the
+    manual step of checking each line against conventions, so teams lean toward it when AI-generated volume
+    is high and compliance matters; however, public materials provide no user feedback or adoption cases,
+    so the motive remains structural reasoning.'

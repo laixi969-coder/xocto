@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOFk5eWJnMkFo
 summary: A Tsinghua Professor’s Stealth LLM Startup Hits $1.4 Billion Valuation The Information
 first_seen: '2026-09-18T12:10:00Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

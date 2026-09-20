@@ -22,7 +22,7 @@ summary: Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ fou
   leaders at Disrupt and save up to $200 on your ticket until then..
 first_seen: '2026-09-19T14:00:00Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -188,3 +188,55 @@
     isolated workspaces, a 944-app self-hosted store and Tailscale-only access, removing setup and public-exposure
     configuration, so self-hosting-oriented developers may choose it for long-running agents; user feedback
     and repeat-use evidence are missing.'
+- id: req-full-agentverse-os-2026-09-20
+  project_slug: agentverse-os
+  level: full
+  reviewed_at: '2026-09-20T00:28:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者在自有服务器上跑编码代理与自托管应用时的隔离、备份更新与内网访问需求，痛点刚性来自环境互相干扰和公网暴露风险；仓库自述已给出输入、动作与交付闭环，属工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+    - ev-420f7b1aed83e76c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 274 升至 931，说明开源关注度持续上升，但星标只属规模与关注度证据，不能证明开发者已把它作为长期运行环境，也未见 issue、discussion 或评价支持持续采用。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+    - ev-420f7b1aed83e76c
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库自述，未见定价页、赞助、托管版或企业支持等付费路径，买方与收费方式无法从公开事实确认；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+  - gate: truth
+    status: insufficient
+    reason: 它把代理运行与 944 个自托管应用放在同一台服务器，安全边界依赖 Tailscale，公开材料未说明人工确认、故障恢复与更新回滚流程，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-11fdb44efe75f66d
+    - ev-420f7b1aed83e76c
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者是否报告长期运行、备份恢复或权限隔离方面的具体问题与采用情况。
+  market: ''
+  job: 独立开发者或小团队在自有 Ubuntu 服务器上，处理编码代理（Claude Code、Codex、VS Code）与自托管应用，要完成的任务是把这些工具装进互相隔离的工作区、可备份可更新，并只经
+    Tailscale 内网访问而不暴露公网。
+  job_en: A solo developer or small team on their own Ubuntu server, working with coding agents (Claude
+    Code, Codex, VS Code) and self-hosted apps, must install these tools into isolated workspaces that
+    can be backed up and updated, reachable only over Tailscale without public exposure.
+  pain: 公开材料显示，把代理与自托管服务放在同一台机器上会带来环境互相干扰、备份与更新需手工处理、公网暴露有风险三类负担；仓库自述把隔离工作区、备份更新与仅内网访问作为核心卖点，说明这些是目标用户实际要绕开的麻烦。
+  pain_en: 'The public material shows that co-locating agents and self-hosted services on one machine
+    creates three burdens: environments interfering, manual backup and update handling, and public-exposure
+    risk; the repository positions isolated workspaces, backups/updates and Tailscale-only access as core,
+    indicating these are real frictions for the target user.'
+  current_alternative: 开发者目前用 Docker、手写脚本、云主机或现成的自托管面板自行拼装环境，并自己配置反向代理与访问控制。
+  current_alternative_en: Developers currently assemble environments themselves with Docker, hand-written
+    scripts, cloud hosts or existing self-hosting panels, configuring reverse proxies and access control
+    on their own.
+  usage_reason: 推断：相较自己拼 Docker 与备份脚本，它用一条 Ubuntu 安装命令直接给出窗口化桌面、隔离工作区、944 个自托管应用库和仅 Tailscale 访问，省掉环境搭建、应用逐个部署与公网暴露配置这几步，因此自托管倾向强、又不想维护整套编排的独立开发者会在需要长期跑代理与自托管服务时选择它；公开材料尚无用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: versus assembling Docker and backup scripts by hand, one Ubuntu install
+    command yields a windowed desktop, isolated workspaces, a 944-app self-hosted store and Tailscale-only
+    access, removing environment setup, per-app deployment and public-exposure configuration, so self-hosting-oriented
+    solo developers who do not want to maintain the whole orchestration may choose it when running agents
+    and self-hosted services long-term; no user feedback or repeat-use evidence i'

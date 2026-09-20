@@ -21,7 +21,7 @@ canonical_url: https://erichgrunewald.substack.com/p/why-you-should-almost-never
 summary: I think you should almost never use AI to write
 first_seen: '2026-09-19T16:35:24Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

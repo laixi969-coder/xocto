@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/tab-doctor
 summary: Closes duplicate tabs and snooze the rest
 first_seen: '2026-09-16T09:17:28Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

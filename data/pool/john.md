@@ -21,7 +21,7 @@ canonical_url: https://john.hartnup.uk/2026/06/07/ai-event-posters.html
 summary: AI-generated posters don’t have to be horrible
 first_seen: '2026-09-19T09:20:58Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

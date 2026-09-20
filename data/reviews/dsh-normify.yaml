@@ -132,3 +132,57 @@
     inside the change_open→brief→check→implement→refresh→change_close companion flow, removing the manual
     pre-change boundary mapping and post-change boundary re-checking; engineers modifying unfamiliar or
     large codebases who need verifiable boundaries would choose it in that situation.'
+- id: req-full-dsh-normify-2026-09-20
+  project_slug: dsh-normify
+  level: full
+  reviewed_at: '2026-09-20T00:29:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是改动已有代码库时模块边界不清、越界改动到评审或运行期才暴露的问题；公开说明给出输入（现有项目结构）、动作（归一化分形模块树＋写时/校验/冻结回执）与交付（单文件交互式架构图），旧替代是人工读目录与手绘架构图，不解决的后果是返工与评审摩擦。这是工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+    - ev-b7d7cc128480fa01
+  - gate: consensus
+    status: insufficient
+    reason: 公开可归因到该仓库的关注度只有 star 数从 49 增至 59，属规模与关注度证据，不能证明目标用户持续使用；无 issue、discussion、评价或客户案例说明谁在什么场景下真正采用。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+    - ev-b7d7cc128480fa01
+    - ev-94c70f0fd551167f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+  - gate: truth
+    status: insufficient
+    reason: 三层校验与冻结回执能否稳定交付、误报与漏报如何处理、人工确认边界在哪，公开材料只有功能描述，缺可复现的部署文档或实测记录。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+    - ev-b7d7cc128480fa01
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者报告在真实代码库中运行 change_open→check→change_close 流程、校验结果是否被采纳，以及是否出现误报或绕过。
+  market: ''
+  job: 研发工程师或架构师接手/改动一个已有代码库时，把项目现有目录与依赖结构交给插件，得到一棵归一化的分形模块树和单文件交互式架构图，并在 change_open→brief→check→实施→refresh→change_close
+    的伴随流程中确认本次改动落在哪个模块边界内。
+  job_en: When a software engineer or architect takes over or modifies an existing codebase, they feed
+    the project's current directory and dependency structure into the plugin, receive a normalized fractal
+    module tree and a single-file interactive architecture diagram, and use the change_open→brief→check→implement→refresh→change_close
+    companion flow to confirm which module boundary the change belongs to.
+  pain: 公开材料只说明它做归一化模块树与三层校验，未提供用户抱怨、issue 或案例来量化痛点强度；从工作流结构推理，改动陌生代码库时模块边界靠人读目录和口头约定，越界改动往往在评审或运行期才暴露，返工成本落在改动者身上。
+  pain_en: Public materials only describe the normalization and three-layer checks; no user complaints,
+    issues, or cases quantify the pain. By workflow inference, when modifying an unfamiliar codebase,
+    module boundaries rely on reading directories and verbal convention, and boundary violations surface
+    only at review or runtime, pushing rework onto the person making the change.
+  current_alternative: 旧做法是人工阅读目录树与依赖、在文档或白板上手绘架构图、靠 code review 和口头约定约束模块边界；公开材料未说明它具体替代了哪一种工具或流程。
+  current_alternative_en: The old approach is manually reading the directory tree and dependencies, hand-drawing
+    architecture diagrams in docs or on a whiteboard, and enforcing module boundaries through code review
+    and verbal convention; public materials do not say which specific tool or process it replaces.
+  usage_reason: 推断：相较人工读目录和手绘架构图，它把结构整理成归一化模块树并在改动前后自动跑写时校验、校验与冻结回执，把“边界是否被越过”从评审期提前到改动当时可核对，因此接手陌生代码库或做跨模块改动的工程师会在动手前选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with manually reading directories and hand-drawing diagrams, it
+    normalizes structure into a module tree and automatically runs write-time checks, validation, and
+    freeze receipts before and after a change, moving ''was the boundary crossed'' from review time to
+    checkable change time, so engineers taking over an unfamiliar codebase or making cross-module changes
+    would choose it before starting; public materials contain no user feedback confirming this motive.'

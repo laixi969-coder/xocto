@@ -23,7 +23,7 @@ summary: "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, U
   \ sign. \n    \n    \n         Tags:  wildlife"
 first_seen: '2026-09-19T17:10:08Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

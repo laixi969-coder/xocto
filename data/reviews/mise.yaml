@@ -1,0 +1,81 @@
+- id: req-initial-mise-2026-09-20
+  project_slug: mise
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多道菜同时上桌的排程问题，但公开材料只有一句描述，说不清用户原来的具体做法与不采用的后果，需求强度未明。
+    evidence_ids:
+    - ev-111dd799e79df5a5
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有产品页一句话，没有用户评价、社区讨论或采用迹象可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-111dd799e79df5a5
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱来自 to C 订阅还是其他路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-111dd799e79df5a5
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否真能确定性交付可执行的时间表，也未说明人工确认边界。
+    evidence_ids:
+    - ev-111dd799e79df5a5
+  next_validation: 收集 Mise 官方产品页或应用商店页面，确认其输入方式、输出交付形态与是否公布定价。
+  market: ''
+  job: 在家做饭的人在准备一餐多道菜时，处理菜谱与烹饪步骤，要完成让所有菜同时上桌的排程任务。
+  job_en: A home cook preparing a multi-dish meal works from recipes and cooking steps to schedule everything
+    so all dishes are ready at the same time.
+  pain: 多道菜的火候与出锅时间互相冲突，靠记忆和手写清单容易顾此失彼；但公开材料未说明用户为此付出过什么代价。
+  pain_en: Burners and finish times for several dishes conflict, and memory or a handwritten list easily
+    slips; the public material does not show what this costs users.
+  current_alternative: 纸笔清单、菜谱 App 里的分步说明，或凭经验边做边调整。
+  current_alternative_en: A paper list, step-by-step instructions inside a recipe app, or adjusting by
+    experience while cooking.
+  usage_reason: 推断：如果它能把多道菜的起锅时间自动排成一张时间表，用户就不必自己逐道推算先后顺序，从而减少临场手忙脚乱；但公开材料只有一句产品描述，无法确认它是否真的替代了这一步，因此需求强度未明。
+  usage_reason_en: 'Inference: if it automatically turns several dishes into one timetable, users no longer
+    have to work out the order themselves, reducing last-minute scrambling. But the public material is
+    a single product line and does not confirm it replaces that step, so demand strength is unclear.'
+- id: req-full-mise-2026-09-20
+  project_slug: mise
+  level: full
+  reviewed_at: '2026-09-20T00:30:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多道菜同时上桌的排程问题，但公开材料只有一句描述，说不清用户原来的具体做法与不采用的后果，需求强度未明。
+    evidence_ids:
+    - ev-73a50c98af36b86c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Mise 官方产品页或应用商店页面，确认其输入方式、输出交付形态与是否公布定价。
+  market: ''
+  job: 在家做饭的人在准备一餐多道菜时，处理菜谱与烹饪步骤，要完成让所有菜同时上桌的排程任务。
+  job_en: A home cook preparing a multi-dish meal works from recipes and cooking steps to schedule everything
+    so all dishes are ready at the same time.
+  pain: 多道菜的火候与出锅时间互相冲突，靠记忆和手写清单容易顾此失彼；但公开材料未说明用户为此付出过什么代价。
+  pain_en: Burners and finish times for several dishes conflict, and memory or a handwritten list easily
+    slips; the public material does not show what this costs users.
+  current_alternative: 纸笔清单、菜谱 App 里的分步说明，或凭经验边做边调整。
+  current_alternative_en: A paper list, step-by-step instructions inside a recipe app, or adjusting by
+    experience while cooking.
+  usage_reason: 推断：如果它能把多道菜的起锅时间自动排成一张时间表，用户就不必自己逐道推算先后顺序，从而减少临场手忙脚乱；但公开材料只有一句产品描述，无法确认它是否真的替代了这一步，因此需求强度未明。
+  usage_reason_en: 'Inference: if it automatically turns several dishes into one timetable, users no longer
+    have to work out the order themselves, reducing last-minute scrambling. But the public material is
+    a single product line and does not confirm it replaces that step, so demand strength is unclear.'

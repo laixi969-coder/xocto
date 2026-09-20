@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRW5kZVpMV0s1
 summary: 'CodeSandbox Review 2026: AI, App, Signup, Download, Alternatives & FAQs Nubia Magazine!'
 first_seen: '2026-09-19T14:15:00Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

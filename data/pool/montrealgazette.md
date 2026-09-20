@@ -21,7 +21,7 @@ canonical_url: https://montrealgazette.com/news/photos-anti-ai-protest-in-montre
 summary: AI Protest in Montreal
 first_seen: '2026-09-18T14:45:41Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -36,7 +36,7 @@ summary: Bazaarvoice and Bluefish team up as new research shows 9 in 10 shoppers
   AI product recommendations The Manila Times
 first_seen: '2026-09-17T13:09:44Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -134,3 +134,54 @@
     OnCo returns structured results through entity-paged cited entries and API/MCP/CLI, removing the cross-database
     retrieval and stitching step, so clinical researchers and pharma intelligence staff needing programmatic
     oncology data would choose it when looking up a cancer type, target or trial.'
+- id: req-full-onco-2026-09-20
+  project_slug: onco
+  level: full
+  reviewed_at: '2026-09-20T00:30:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是肿瘤学信息分散在文献库、试验注册库和机构页面、用户需自行拼接核对的需求；痛点是跨库检索与拼接的重复负担，不解决的后果是条目难以快速汇总且引用来源需另行核对。公开材料只给出产品形态，未给出用户反馈，故这是工作流结构推理而非已核验痛点。
+    evidence_ids:
+    - ev-5386a568c41fd5a5
+    - ev-bd906667c06348e5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示 OncoLink 这类综合癌症信息站点和 ONCO Inc. 这类肿瘤数据管理软件已存在，说明该信息整合场景有既有供给，但没有 OnCo 自身的用户采用、持续使用或社区讨论证据，无法判断目标用户是否已把它留在工作流里。
+    evidence_ids:
+    - ev-5386a568c41fd5a5
+    - ev-bd906667c06348e5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见 OnCo 的定价页、付费主体或采购记录，谁付钱尚不清楚；这是模式缺口，不是需求不存在。判断上，钱可能来自 to B 的医药情报与医学事务团队或 to C 的临床研究者订阅，但这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 OnCo 的条目更新频率、引用来源核对机制以及医学内容的人工审核边界，交付能否确定性发生尚缺可复现证据；肿瘤学信息对准确性要求高，这一环是求真检查的关键缺口。
+    evidence_ids: []
+  next_validation: 追踪 OnCo 官网或仓库的定价页、客户案例与部署文档，确认是否有具体机构或团队公开采用并说明替代了哪条旧流程。
+  market: ''
+  job: 肿瘤科医生或临床研究者在查某个癌种、靶点或试验时，需要把文献库、试验注册库和机构页面里的分散材料汇总成一份可引用的条目；医药情报与医学事务人员则要把这些条目或结构化数据接入自己的检索与情报流程。
+  job_en: Oncologists or clinical researchers looking up a cancer type, target, or trial must consolidate
+    scattered materials from literature databases, trial registries, and institutional pages into a citable
+    entry; pharma intelligence and medical affairs staff need to feed those entries or structured data
+    into their own search and intelligence workflows.
+  pain: 公开材料只说明 OnCo 把肿瘤学材料整理成按癌症、疗法、靶点、试验、机构、人物各一页的公开知识图谱，并给出 JSON API、MCP server 和 CLI；没有用户反馈或案例说明来回翻找文献库、试验注册库和机构页面具体耗时多少、频率多高、出错后果是什么，因此痛点强度属于工作流结构推理，而非已核验事实。
+  pain_en: Public materials only state that OnCo organizes oncology materials into one page per cancer,
+    treatment, target, trial, institution, and person, with a JSON API, MCP server, and CLI; no user feedback
+    or case shows how much time the back-and-forth across literature databases, trial registries, and
+    institutional pages costs, how often it happens, or what errors result, so pain intensity is a workflow-structure
+    inference, not a verified fact.
+  current_alternative: 用户目前靠文献库、临床试验注册库和机构页面之间来回翻找，或使用 OncoLink 这类综合癌症信息站点、ONCO Inc. 这类肿瘤数据管理软件；这些替代方式各自覆盖一部分材料，用户仍需自行拼接和核对。
+  current_alternative_en: Users currently move back and forth among literature databases, clinical trial
+    registries, and institutional pages, or rely on comprehensive cancer information sites such as OncoLink
+    and oncology data management software such as ONCO Inc.; each covers part of the material, and users
+    still assemble and verify it themselves.
+  usage_reason: 推断：相较在多个库之间手动翻找，OnCo 把癌症、疗法、靶点、试验、机构、人物各整理成一页带引用的条目，并通过 JSON API、MCP server 和 CLI 让程序化取用替代逐页复制粘贴，减少的是跨库检索与拼接这一步；需要把肿瘤学条目接入自己检索或情报流程的临床研究者与医药情报人员，会在需要结构化、可引用数据时选择它，但公开材料尚未给出用户实际采用或持续使用的证据。
+  usage_reason_en: 'Inference: compared with manually searching across multiple databases, OnCo organizes
+    cancer, treatment, target, trial, institution, and person entries into one cited page each and exposes
+    them via a JSON API, MCP server, and CLI, replacing page-by-page copying with programmatic retrieval
+    and removing the cross-database search-and-assembly step; clinical researchers and pharma intelligence
+    staff who need to feed oncology entries into their own search or intelligence workflows'

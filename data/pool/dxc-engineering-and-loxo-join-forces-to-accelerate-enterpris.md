@@ -1,7 +1,6 @@
 ---
 slug: dxc-engineering-and-loxo-join-forces-to-accelerate-enterpris
-name: DXC Engineering and LOXO join forces to Accelerate Enterprise-Scale Autonomous Commercial Vehicle
-  Deployment
+name: DXC Engineering
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: DXC Engineering and LOXO join forces to Accelerate Enterprise-Scale Aut
   Deployment TradingView
 first_seen: '2026-09-17T11:22:00Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# DXC Engineering and LOXO join forces to Accelerate Enterprise-Scale Autonomous Commercial Vehicle Deployment
+# DXC Engineering
 
 DXC Engineering and LOXO join forces to Accelerate Enterprise-Scale Autonomous Commercial Vehicle Deployment TradingView
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9UYlQtNjVDT09m
 summary: 'Top 30+ AI Chip Makers: NVIDIA & Its Competitors AIMultiple'
 first_seen: '2026-09-17T07:00:00Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,83 @@
+- id: req-initial-abide-2026-09-20
+  project_slug: abide
+  level: initial
+  reviewed_at: '2026-09-20T00:09:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理不守项目规则的问题，但公开材料未说明偏离规则的具体代价与频率，痛点刚性无法确认。
+    evidence_ids:
+    - ev-915f8f0b6269d096
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 156 个星标和 5 个 fork，属于关注度信号，不能说明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-915f8f0b6269d096
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式或买方，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-915f8f0b6269d096
+  - gate: truth
+    status: insufficient
+    reason: 仓库无 issue 与使用文档细节，无法核对规则约束是否确定性生效，也看不到人工复核边界。
+    evidence_ids:
+    - ev-915f8f0b6269d096
+  next_validation: 收集该仓库的 README、使用文档与 issue/discussion，核对它如何接入编码代理、规则约束是否确定性生效。
+  market: ''
+  job: 软件开发工程师在让编码代理修改已有代码库时，需要处理项目既有的规则文件与代码约定，让代理产出的改动符合这些约定。
+  job_en: A software developer, while having a coding agent modify an existing codebase, needs to work
+    with the project's existing rule files and conventions so the agent's changes comply with them.
+  pain: 代理容易忽略项目规则，产出不符合约定的代码，开发者要反复纠正；但公开材料没有说明这种偏离造成的具体代价。
+  pain_en: Agents tend to ignore project rules and produce non-compliant code that developers must repeatedly
+    correct; public materials do not state the concrete cost of this deviation.
+  current_alternative: 开发者目前靠人工审查代理输出、在提示里重复粘贴规则，或依赖代理自带的规则文件支持。
+  current_alternative_en: Developers currently review agent output by hand, paste rules repeatedly into
+    prompts, or rely on the agent's built-in rule-file support.
+  usage_reason: 推断：相较人工逐条核对，abide 把项目规则作为约束直接施加在代理生成环节，减少事后返工；但缺少用户反馈或采用证据，尚不能确认开发者会持续使用。
+  usage_reason_en: 'Inference: compared with checking rules by hand, abide applies project rules as a
+    constraint during generation, reducing rework; without user feedback or adoption evidence, continued
+    use cannot be confirmed.'
+- id: req-full-abide-2026-09-20
+  project_slug: abide
+  level: full
+  reviewed_at: '2026-09-20T00:28:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决编码代理不遵守项目规则的问题，但公开材料只有一句产品说明，没有用户反馈、issue 或案例说明偏离规则的具体代价与频率，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-7652cfee56b1d1ba
+    - ev-7456731d77548af2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库的 README、使用文档与 issue/discussion，核对它如何接入编码代理、规则约束是否确定性生效。
+  market: ''
+  job: 编码代理在修改已有代码库时，开发者需要把项目既有的规则文件与代码约定交给代理，让代理产出的改动符合这些约定。
+  job_en: When a coding agent modifies an existing codebase, the developer needs to feed the project's
+    existing rule files and conventions to the agent so its changes comply with them.
+  pain: 公开材料只给出产品一句话说明，没有任何用户反馈、issue 或案例说明代理忽略项目规则造成的具体代价、发生频率或后果，痛点强度无法从公开事实还原。
+  pain_en: Public materials give only a one-line product description; no user feedback, issues, or cases
+    show the concrete cost, frequency, or consequence of agents ignoring project rules, so pain intensity
+    cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者目前如何完成这项工作，也未说明它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers complete this job today or what
+    prior practice it replaces.
+  usage_reason: 推断：若它能把项目规则作为约束直接施加在代理生成环节，理论上可减少事后逐条核对；但缺少用户反馈或采用证据，无法确认开发者会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it applies project rules as a constraint during generation, it could
+    reduce line-by-line post-hoc checking; but without user feedback or adoption evidence, it is unconfirmed
+    when developers would choose it.'

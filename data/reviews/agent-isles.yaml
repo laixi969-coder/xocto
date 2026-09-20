@@ -164,3 +164,56 @@
     to an agent and produces a runnable project, cutting the gap between understanding and running code,
     so beginners who want learning-by-doing with a visible artifact would pick it at the entry stage;
     no user feedback yet confirms this motive.'
+- id: req-full-agent-isles-2026-09-20
+  project_slug: agent-isles
+  level: full
+  reviewed_at: '2026-09-20T00:28:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程初学者从零到可运行项目的入门需求，痛点是环境配置与报错反复打断学习、易在首个项目前放弃；旧做法是看教程跟做或问通用聊天机器人，缺少关卡任务与可运行结果的闭环。公开材料仅描述岛屿关卡与智能体生成代码，未给用户抱怨或放弃率，故价值判断为工作流结构推理，非采用事实。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-ab06d8fc6da08bbf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 64 增至 119、188、218，说明开发者社区持续注意到该项目，但收藏与复刻只属关注度证据，不能证明目标初学者持续使用或把它留在学习流程里；公开材料未见用户评价、课程完成度或留存数据。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-ab06d8fc6da08bbf
+    - ev-a4d6d249900b02cb
+    - ev-81cfc5177676fece
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断钱来自 to C 学习者、to B 教育机构还是 to VC；这是判断而非已验证事实，商业证据缺口不反推入门需求不存在。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+  - gate: truth
+    status: insufficient
+    reason: 岛屿关卡课程体系、智能体生成代码的完成度与可运行率、以及人工与安全边界均无公开可复现证据；仓库描述只说明产品定位，未证明交付能稳定发生。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-a4d6d249900b02cb
+  next_validation: 追踪 agent-isles 仓库的 README、issue 与 discussion，确认关卡课程是否完整、智能体生成项目能否稳定运行，以及是否有学习者公开反馈或完成记录。
+  market: ''
+  job: AI 编程初学者在浏览器中进入可探索的岛屿世界，按关卡接收任务描述，用 AI 智能体生成代码并拿到可运行的小项目，以此完成从零到第一个真实项目的学习任务。
+  job_en: AI-coding beginners enter an explorable island world in the browser, take level-based task descriptions,
+    use AI agents to generate code, and obtain runnable small projects, completing the task of going from
+    zero to a first real project.
+  pain: 初学者学 AI 编程时，环境配置、报错排查和项目选题会反复打断学习节奏，容易在写出第一个可运行项目前放弃；公开材料只说明产品用关卡与智能体降低这一摩擦，尚未给出用户抱怨或放弃率数据。
+  pain_en: When beginners learn AI coding, environment setup, error debugging, and project scoping repeatedly
+    interrupt the learning rhythm, and many quit before shipping a first runnable project; public materials
+    only show the product uses levels and agents to reduce this friction, without user complaints or dropout
+    data.
+  current_alternative: 常见旧做法是看视频或文档教程、在本地 IDE 里跟做练习，或直接向通用聊天机器人提问；这些方式缺少关卡化任务与可运行结果的闭环，但公开材料未说明用户具体从哪种替代迁移过来。
+  current_alternative_en: The common old approach is watching video or doc tutorials, following exercises
+    in a local IDE, or asking a general chatbot; these lack a closed loop of leveled tasks plus runnable
+    output, though public materials do not show which alternative users migrate from.
+  usage_reason: 推断：相较看教程后自行搭环境，它把任务描述直接交给智能体生成代码，用户少走环境配置与从零写骨架这两步，直接得到可运行项目，因此缺乏项目经验、又想在浏览器里立刻看到成果的初学者会在入门阶段选择它；这是基于产品能力与任务结构的推断，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: compared with watching a tutorial and then setting up an environment alone,
+    it hands the task description to an agent that generates code, removing the environment-setup and
+    from-scratch-skeleton steps so the user gets a runnable project directly; beginners lacking project
+    experience who want immediate browser-based results would therefore choose it at the entry stage.
+    This is inferred from product capability and task structure, not supported by user feedback.'

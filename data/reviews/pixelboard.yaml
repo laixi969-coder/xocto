@@ -84,3 +84,51 @@
   usage_reason_en: 'Inference: versus third-party keyboard voice input, it brings system-level dictation
     and writing onto the device without root, removing the step of switching keyboards and living with
     limited features, so users blocked by device limits who prefer system dictation would try it.'
+- id: req-full-pixelboard-2026-09-20
+  project_slug: pixelboard
+  level: full
+  reviewed_at: '2026-09-20T00:30:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决被机型或系统版本限制的用户无法使用系统级自然语音听写与写作的问题，痛点是功能被锁、只能退回第三方输入法或手动打字，旧替代行为明确，交付物是可用的听写入口，属工作流结构推理。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+    - ev-41383df15b123c7a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 54 增至 60，仅反映关注度，没有用户反馈、评价或持续使用证据，无法判断是否形成稳定采用。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+    - ev-41383df15b123c7a
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、捐赠或商业收费路径，买方与付费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+  - gate: truth
+    status: insufficient
+    reason: 功能依赖厂商未公开的系统能力，兼容机型、系统版本范围与厂商更新后是否失效均无公开说明，交付确定性存疑。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+    - ev-41383df15b123c7a
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认实际可用机型、系统版本范围以及厂商更新后是否失效。
+  market: ''
+  job: Android 手机用户在需要快速口述记录想法、写消息或长文时，处理自己的语音内容，要把它变成可编辑文字，但自己的机型或系统版本没有提供系统级自然语音听写与写作入口。
+  job_en: An Android user who wants to quickly dictate an idea, message, or longer text works from their
+    own speech and needs it turned into editable text, but their device or OS version does not provide
+    the system-level natural voice dictation and writing entry point.
+  pain: 被机型和系统版本挡在门外，只能退回第三方输入法语音或手动打字，听写准确度与写作辅助能力不一致，且无法获得系统级听写体验。
+  pain_en: Being locked out by device model and OS version forces a fallback to third-party keyboard voice
+    input or manual typing, with inconsistent dictation accuracy and writing assistance, and no access
+    to the system-level dictation experience.
+  current_alternative: 当前多数用户使用第三方输入法自带的语音输入，或直接手动打字；部分用户尝试刷机、root 或等待厂商推送。
+  current_alternative_en: Most users rely on the voice input built into a third-party keyboard or simply
+    type by hand; some try flashing, rooting, or waiting for a vendor rollout.
+  usage_reason: 推断：相较第三方输入法语音，它把系统级听写与写作能力直接搬到本机且无需 root，省掉在输入法之间切换、功能受限以及刷机风险这几步，因此被机型限制、又习惯系统听写的用户会在需要口述长文本时选择它。
+  usage_reason_en: 'Inference: versus third-party keyboard voice input, it brings system-level dictation
+    and writing onto the device without root, removing the steps of switching keyboards, living with limited
+    features, and risking a flash, so users blocked by device limits who prefer system dictation would
+    choose it when dictating longer text.'

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/powermove-2
 summary: The video editor that rewrites itself around your work
 first_seen: '2026-09-15T04:49:11Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

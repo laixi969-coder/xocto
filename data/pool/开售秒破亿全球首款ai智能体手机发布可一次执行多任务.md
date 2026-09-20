@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xOG54elBndDBN
 summary: 开售秒破亿！全球首款AI智能体手机发布，可一次执行多任务 东方财富
 first_seen: '2026-09-16T16:45:36Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

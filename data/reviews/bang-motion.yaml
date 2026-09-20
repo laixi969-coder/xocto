@@ -392,3 +392,53 @@
     a script directly into a single index.html browser motion page, skipping keyframe construction and
     video export, so producers with a ready script who want a playable opener or explainer quickly would
     choose it; public materials provide no user feedback or retention evidence.'
+- id: req-full-bang-motion-2026-09-20
+  project_slug: bang-motion
+  level: full
+  reviewed_at: '2026-09-20T00:28:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是已有脚本后快速产出片头/宣传片动效页面的需求，痛点是专业动效软件路径长、纯幻灯片缺动感；公开说明给出输入（脚本）、动作（agent 生成）、交付（单文件 index.html）闭环，属工作流结构推理，痛点刚性中等但交付可确定。
+    evidence_ids:
+    - ev-0cbf83f725ff85e8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 248 增至 405，说明开发者社区持续关注；但收藏与关注只是规模/关注度证据，不能证明目标设计师已把它留在工作流或持续使用，缺 issue、discussion 或用户评价佐证。
+    evidence_ids:
+    - ev-0cbf83f725ff85e8
+    - ev-18b1920f4bec081f
+  - gate: model
+    status: insufficient
+    reason: 这是开源 agent skill，公开材料未见定价页、付费路径或买方；可能靠 to C 开发者采用或 to VC 叙事，但谁付钱、单位经济均未核验，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-0cbf83f725ff85e8
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺单文件 index.html 输出，但未提供可复现样例、生成质量或人工边界说明；交付能否稳定发生、动效是否达到可用水准尚缺公开证据。
+    evidence_ids:
+    - ev-0cbf83f725ff85e8
+  next_validation: 追踪该 公开代码仓库 仓库的 README 示例、issue 与 discussion，确认是否有真实用户贴出生成结果、替代了哪种旧流程以及是否重复使用。
+  market: ''
+  job: 动态设计师或短视频/宣传片制作人员在已有文案或脚本、需要快速产出片头、宣传片、bumper 或 kinetic typography 时，把脚本交给这个 agent skill，在 Claude
+    Code、Codex、Gemini CLI 或 Cursor 中生成一个可在浏览器播放的动态图形 index.html，用于交付或预览。
+  job_en: A motion designer or short-video/promo producer who already has copy or a script hands it to
+    this agent skill inside Claude Code, Codex, Gemini CLI, or Cursor to produce a browser-playable motion-graphics
+    index.html for an opener, promo, bumper, or kinetic typography piece, for delivery or preview.
+  pain: 公开说明只给出能力范围，未提供用户抱怨或案例；从工作流结构推理，痛点在于片头/宣传片动效通常要在 After Effects 等工具里手工搭时间轴、导出视频，脚本到成片的路径长且依赖专业软件，而纯幻灯片式页面又缺少“像视频一样动”的观感。
+  pain_en: The public description only states capabilities and gives no user complaints or cases; by workflow
+    inference, the pain is that opener/promo motion work normally requires hand-building timelines and
+    exporting video in tools like After Effects, making the script-to-deliverable path long and software-dependent,
+    while slide-style pages lack video-like motion.
+  current_alternative: 旧做法是 After Effects、Premiere 等专业动效/剪辑软件手工制作并导出视频，或用 HTML/CSS/JS 手写动画页面；公开材料未说明它具体替代了哪一种。
+  current_alternative_en: The old approach is hand-building and exporting video in professional motion/editing
+    tools such as After Effects or Premiere, or hand-coding HTML/CSS/JS animation pages; public materials
+    do not say which one it replaces.
+  usage_reason: 推断：相较手工搭时间轴或手写动画代码，它把“脚本→动效页面”压缩为在已有 AI 编码工具里一次生成单文件 index.html，省去在专业软件中逐层搭建与导出视频的步骤，因此已有脚本、想快速拿到可播放动效页面的设计师或制作人员会在赶片头/宣传片时选择它；这是基于产品能力与任务的结构推理，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus hand-building timelines or hand-coding animation, it compresses
+    script-to-motion-page into one generated single-file index.html inside an existing AI coding tool,
+    removing the step of layer-by-layer authoring and video export in professional software; designers
+    or producers with a script who want a playable motion page quickly would choose it for opener/promo
+    deadlines. This is structural inference from product capability and task, not confirmed by user feed'

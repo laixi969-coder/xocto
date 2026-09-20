@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE9MTkJ1akFmTWJo
 summary: Plan to Age in Place? These Tech Devices Can Make it Way Easier. The New York Times
 first_seen: '2026-09-17T19:04:58Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -323,3 +323,43 @@
   usage_reason_en: Without product docs or user feedback, it is impossible to say which step it removes
     or which checkable result it improves versus the old approach, so which users would choose it and
     when cannot be judged.
+- id: req-full-ai-video-ad-studio-2026-09-20
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-09-20T00:28:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有仓库名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，连用户任务与痛点都无法还原，无法做结构推理。
+    evidence_ids:
+    - ev-c6962df194a702c6
+    - ev-6a900fadc53fe413
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 AI 的输入素材、执行步骤与输出成片格式，以及是否出现真实投放场景的使用描述。
+  market: ''
+  job: 营销或内容人员在投放准备阶段，需要把已有素材加工成可投放的视频广告成片；但公开材料未说明 AI 接收什么输入、执行哪一步、输出什么文件。
+  job_en: Marketing or content staff preparing a campaign need to turn existing assets into a deliverable
+    video ad; public materials do not state what the AI ingests, which step it performs, or what file
+    it outputs.
+  pain: 公开材料只有仓库名称与收藏数，没有说明制作视频广告素材时具体卡在哪一步、返工频率或不采用会付出什么代价。
+  pain_en: Public materials contain only a repository name and star counts, with no statement of which
+    step of ad-creative production hurts, how often rework occurs, or what it costs to leave unsolved.
+  current_alternative: 公开材料未说明用户目前用剪辑软件、外包团队还是模板工具完成同类任务，也未说明本产品替代了哪一步。
+  current_alternative_en: Public materials do not show whether users currently rely on editing software,
+    outsourced teams, or template tools, nor which step this product replaces.
+  usage_reason: 无法写出使用理由：缺少输入、动作、交付物与旧流程对比的任何公开事实，收藏数只反映关注度，不能解释用户为何选择它。
+  usage_reason_en: 'No usage reason can be written: there are no public facts on inputs, actions, deliverables,
+    or the old workflow, and star counts reflect attention, not why users would choose it.'

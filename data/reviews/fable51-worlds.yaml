@@ -573,3 +573,42 @@
   usage_reason_en: With no docs, issues, discussions, or user feedback, it is impossible to say which
     step it removes or which checkable result it improves versus the old approach, so no user segment
     or situation can be identified as choosing it.
+- id: req-full-fable51-worlds-2026-09-20
+  project_slug: fable51-worlds
+  level: full
+  reviewed_at: '2026-09-20T00:29:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有一句“worlds via code, from fable 5.1”描述，未说明用户任务细节、痛点强度、现有替代与不采用代价，无法还原输入—动作—交付闭环，价值结构尚不可判。
+    evidence_ids:
+    - ev-48d9787537d9b98a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、docs、issue 与 discussion，确认是否公开具体使用场景、输入输出示例与部署方式，以还原用户任务与交付闭环。
+  market: ''
+  job: 游戏开发者或世界构建师在需要搭建可运行虚拟世界场景时，用代码定义世界元素并生成或渲染出可运行的世界，替代手工在引擎里逐项搭建。
+  job_en: Game developers or world builders who need a runnable virtual world scene define world elements
+    in code and generate or render a runnable world, instead of hand-building it item by item in an engine.
+  pain: 公开材料只有一句仓库描述，没有说明手工搭建世界耗时、迭代慢或协作困难等具体痛点，也没有用户抱怨或案例佐证。
+  pain_en: Public material is limited to a one-line repository description; it does not state concrete
+    pain such as slow hand-building, slow iteration, or collaboration friction, and there are no user
+    complaints or cases.
+  current_alternative: 公开材料未说明用户当前用什么替代，只能推测为在 Unity、Unreal 等引擎中手工搭建或使用既有程序化生成工具，这属于推断。
+  current_alternative_en: Public material does not state the current alternative; it can only be inferred
+    as hand-building in engines such as Unity or Unreal or using existing procedural generation tools.
+  usage_reason: 缺少文档、示例、issue 或用户反馈，无法说明产品通过哪一步具体动作减少负担，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no docs, examples, issues, or user feedback, it is impossible to say which concrete
+    step the product removes or which users would choose it under what circumstances.

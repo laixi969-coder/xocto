@@ -2,32 +2,36 @@
 slug: kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho
 name: GreyOrange
 builder: ''
-category: AI + 效率
-summary_zh: 仓储运营团队在订单波次与机器人调度冲突时，把仓库布局、订单流和机器人状态交给 GreyOrange 的编排系统，由 AI 分配拣选与搬运任务，输出可执行的调度指令；人工仍需处理异常与优先级冲突。具体部署流程与交付结果仍待核验。
-inspiration: 趋势：仓储自动化正从单机机器人转向由 AI 统一编排多设备与订单流。切入：可从第三方物流与区域零售仓的波次调度环节进入，按仓或按吞吐量收费，而不是卖机器人硬件。
-summary_en: When order waves and robot dispatch conflict, warehouse operations teams feed layout, order
-  flow and robot status into GreyOrange's orchestration system, which assigns picking and transport tasks
-  and outputs executable dispatch instructions; humans still handle exceptions and priority conflicts.
-  The concrete deployment process and delivered results remain unverified.
-inspiration_en: 'Trend: warehouse automation is shifting from single robots to AI that orchestrates multiple
-  devices and order flow. Entry: start with wave scheduling at third-party logistics and regional retail
-  warehouses, charging per site or per throughput rather than selling robot hardware.'
+category: AI + 商业
+summary_zh: 仓储运营团队在订单波次与机器人调度冲突时，把仓库订单、库存和机器人状态交给 GreyOrange 的编排系统，由系统决定拣选与搬运任务的分配顺序，最终输出可执行的仓库作业指令；人工仍需处理异常与优先级确认，具体流程与交付细节仍待核验。
+inspiration: 趋势是仓储自动化从单机机器人转向软件编排层，谁掌握订单与机器人之间的调度决策，谁就掌握仓库的交付节奏。切入可考虑中小型第三方仓储：它们买不起整仓机器人，但同样面对多平台订单与人工排程的冲突，可从按仓按单计费的调度服务切入，而非卖硬件。
+summary_en: When order waves and robot scheduling collide, warehouse operations teams feed orders, inventory,
+  and robot status into GreyOrange's orchestration system, which decides the allocation order of picking
+  and transport tasks and outputs executable warehouse work instructions; humans still handle exceptions
+  and priority confirmation, and the exact workflow and deliverables remain unverified.
+inspiration_en: 'The trend is that warehouse automation is shifting from individual robots to a software
+  orchestration layer: whoever owns the scheduling decision between orders and robots owns the warehouse''s
+  delivery rhythm. A wedge could be small and mid-size third-party warehouses that cannot afford full
+  robot fleets but still face multi-channel order and manual scheduling conflicts, sold as per-warehouse
+  or per-order scheduling rather than hardware.'
 priority_review: false
 project_type: ai_transformation
 industries:
 - 物流
 - 仓储
-- 零售
+- 零售供应链
 industries_en:
 - Logistics
 - Warehousing
-- Retail
+- Retail Supply Chain
 jobs:
 - 仓储运营经理
 - 物流调度员
+- 供应链计划员
 jobs_en:
-- Warehouse operations manager
-- Logistics dispatcher
+- Warehouse Operations Manager
+- Logistics Dispatcher
+- Supply Chain Planner
 regions:
 - 美国
 regions_en:
@@ -38,7 +42,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNTR6MlpxQWo0
 summary: Kenco Innovation Lab Showcases GreyOrange’s AI-Powered Warehouse Orchestration The Manila Times
 first_seen: '2026-09-17T13:10:49Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:

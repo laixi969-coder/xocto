@@ -533,3 +533,59 @@
     in-memory BM25 search, removing the step of standing up and syncing an external database and letting
     memory version with the code; users who care about token cost and want no external dependency are
     the ones likely to try it.'
+- id: req-full-okf-agent-memory-2026-09-20
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-20T00:30:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程代理跨会话失忆、需反复交代项目背景的问题，痛点是上下文窗口被占满与 token 成本上升；公开材料给出 Git 原生 markdown 记忆、嵌入式 MCP 与进程内
+      BM25 检索的输入—动作—交付闭环，属工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-a37673de1899fe20
+    - ev-480ea7907126dc5e
+    - ev-608dc413cf23846b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 682 增至 701，说明开发者社区持续关注；但收藏与排名只属关注度证据，未见 issue、discussion 或客户案例说明它被长期留在编码工作流中，持续采用尚未核验。
+    evidence_ids:
+    - ev-a37673de1899fe20
+    - ev-0b846b260e61df4c
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：项目为开源工具，未见定价页、付费主体或采购记录，钱可能来自 to C 开发者自愿付费或 to B 团队支持，也可能长期靠开源维护；公开材料未给出任何付费路径。
+    evidence_ids:
+    - ev-a37673de1899fe20
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出实现描述与性能宣称，未见可复现的基准测试、部署文档或安全边界说明，无法核验 80% token 削减与亚 300 微秒检索是否在真实仓库中确定性交付。
+    evidence_ids:
+    - ev-a37673de1899fe20
+    - ev-608dc413cf23846b
+  next_validation: 追踪 okf-memory.dev 与 公开代码仓库 仓库的 README、issue 和 discussion，确认是否有可复现的基准测试、部署说明或真实仓库使用案例，以核验
+    token 削减与检索性能宣称。
+  market: ''
+  job: 软件工程师在本地仓库中用 Claude Code、Cursor 等 AI 编程代理处理多轮编码任务时，需要让代理跨会话记住项目约定、架构决策与历史上下文，并把这些记忆以可读、可版本化的文件形式留在仓库里。
+  job_en: Software engineers using AI coding agents such as Claude Code or Cursor on a local repository
+    need the agent to retain project conventions, architecture decisions and prior context across sessions,
+    with that memory kept as readable, versionable files inside the repo.
+  pain: AI 代理每次新会话都从零开始，工程师要反复粘贴项目背景与约定，或让代理重新扫描大量文件，导致上下文窗口被无关内容占满、token 消耗上升、回答偏离既有架构决策；公开材料把这一痛点表述为
+    token 膨胀，并称该工具可削减约 80%。
+  pain_en: Each new agent session starts from zero, forcing engineers to re-paste project context and
+    conventions or let the agent rescan many files, which fills the context window with irrelevant content,
+    raises token cost and produces answers that drift from established architecture decisions; public
+    material frames this as token bloat and claims roughly an 80% reduction.
+  current_alternative: 旧做法是每次会话手工粘贴上下文、维护 AGENTS.md/CLAUDE.md 之类的静态说明文件，或依赖服务端托管的记忆/向量库方案；这些要么需要人工重复维护，要么引入外部数据库与依赖。
+  current_alternative_en: The prior approach is manually pasting context each session, maintaining static
+    instruction files such as AGENTS.md or CLAUDE.md, or relying on service-hosted memory and vector-store
+    offerings; these either require repeated manual upkeep or introduce external databases and dependencies.
+  usage_reason: 推断：相较手工粘贴或静态说明文件，它把记忆写成 Git 原生 markdown 文件并随仓库版本化，通过嵌入式 MCP 服务器和进程内 BM25 检索按需取回片段，从而省去每次会话重新交代背景这一步，并减少无关内容进入上下文；因此在意
+    token 成本、又希望记忆可审计可回滚的本地优先开发者会在多会话编码时选择它。
+  usage_reason_en: 'Inference: versus manual pasting or static instruction files, it stores memory as
+    Git-native markdown versioned with the repo and retrieves fragments on demand via an embedded MCP
+    server and in-process BM25 search, removing the step of re-briefing the agent each session and keeping
+    irrelevant content out of context; local-first developers who care about token cost and want auditable,
+    revertible memory would therefore choose it for multi-session coding.'

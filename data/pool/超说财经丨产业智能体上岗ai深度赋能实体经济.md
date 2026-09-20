@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9NbUctOWdyQ01s
 summary: 超说财经丨产业智能体上岗！AI深度赋能实体经济 凤凰网
 first_seen: '2026-09-19T04:56:48Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

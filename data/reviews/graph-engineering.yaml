@@ -168,3 +168,56 @@
     paste-ready workflows with source, examples, and tests, so developers can run it on their own project
     and see validation results immediately; developers starting a KG or agent-orchestration task who do
     not want to retake a course would pick it.'
+- id: req-full-graph-engineering-2026-09-20
+  project_slug: graph-engineering
+  level: full
+  reviewed_at: '2026-09-20T00:29:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把知识图谱九步做法与任务图编排落到 agent 工作流的需求，痛点是多步编排缺类型约束与可审计图结构、只能靠零散提示词手工拼装；仓库公开说明含完整源码、示例与测试，交付边界可核对，属工作流结构推理。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-c1dfb1bc3a2320ef
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 49 增至 56，说明有开发者注意到它，但公开材料没有 issue、discussion 或使用反馈证明目标用户把它留在工作流里持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-c1dfb1bc3a2320ef
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill，公开材料未披露定价、付费主体或任何采购路径；to C 开发者自用还是 to B 团队采购均无法判断，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+  - gate: truth
+    status: insufficient
+    reason: 仓库称含完整源码、示例与测试，但公开材料未给出可复现的交付结果、条件路由在真实项目中的表现，以及 evidence-gated evolution 的人工与安全边界，交付确定性尚缺独立核对。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-3a5a42c7b7450871
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者报告在真实 agent 项目中部署该 skill、替代了原有手工编排流程。
+  market: ''
+  job: 写代码的 AI 使用者（如用 Claude 做 agent 编排的开发者）在构建多步、带条件分支的 agent 工作流时，把知识图谱九步做法与任务图编排模式作为可粘贴的工作流交给 AI，在自己的项目上当场跑通，而不是先啃完一门研究生课程。
+  job_en: A developer using a coding AI (e.g. Claude for agent orchestration) building multi-step, conditionally-routed
+    agent workflows hands the nine-stage knowledge-graph method and task-graph orchestration patterns
+    to the AI as paste-ready workflows and runs them on their own project, instead of first sitting through
+    a graduate course.
+  pain: 公开材料显示该 skill 面向 typed、可审计的工作流图、条件路由与 evidence-gated evolution；结构推理：agent 工作流一旦缺少类型约束与可审计的图结构，多步编排就容易出现不可追踪的分支与难以复现的结果，而现有做法是零散提示词加人工拼接，缺少可复用的编排范式。
+  pain_en: 'Public material shows the skill targets typed, auditable workflow graphs, conditional routing
+    and evidence-gated evolution; structural inference: without typed constraints and an auditable graph,
+    multi-step agent orchestration produces untraceable branches and hard-to-reproduce results, while
+    the current approach is scattered prompts stitched by hand with no reusable orchestration pattern.'
+  current_alternative: 开发者目前靠零散提示词、通用 agent 框架文档、或直接去读 SEU 研究生课程材料自学知识图谱九步流程，再手工拼装编排逻辑。
+  current_alternative_en: Developers currently rely on scattered prompts, generic agent-framework docs,
+    or reading SEU graduate-course material to self-learn the nine-stage knowledge-graph process, then
+    hand-assemble the orchestration logic.
+  usage_reason: 推断：相较自己读课程材料再手工拼编排，该 skill 把九步流程与任务图模式做成可直接粘贴进 Claude 的工作流，并带 teaching mode，让 AI 在用户自己的项目上执行，省去把课程内容翻译成可运行编排这一步；因此正在用
+    Claude 搭 agent 工作流、又缺现成编排范式的开发者会在起步阶段选择它。
+  usage_reason_en: 'Inference: versus reading course material and hand-assembling orchestration, the skill
+    packages the nine-stage process and task-graph patterns as workflows paste-ready into Claude with
+    a teaching mode, letting the AI execute on the user''s own project and removing the step of translating
+    course content into runnable orchestration; developers already building agent workflows in Claude
+    without a ready orchestration pattern would pick it at the starting stage.'

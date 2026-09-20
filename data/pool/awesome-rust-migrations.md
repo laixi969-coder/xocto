@@ -23,7 +23,7 @@ summary: 'The curated hub for migrating to Rust and eliminating memory-safety vu
   it. Originally based on malisper/awesome-ai-rust-rewrites (CC0).'
 first_seen: '2026-09-08T04:26:07Z'
 last_seen: '2026-09-20T00:09:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

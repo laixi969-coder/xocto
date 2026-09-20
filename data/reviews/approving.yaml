@@ -399,3 +399,44 @@
     the error later, then manually roll back'' step and turning review into checkable structured artifacts;
     developers or teams that care about controllable side effects and auditable approval would choose
     it for multi-step agent tasks. Public materials contain no user feedback or customer case '
+- id: req-full-approving-2026-09-20
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-09-20T00:28:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让编码 agent 在沙箱中运行并在关键节点等待人工批准，但公开材料只有产品描述，未记录任何用户痛点、频率或不采用代价，无法判断需求刚性。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的 公开代码仓库 仓库 README、issue 与 discussion，确认开发者实际在什么场景部署、替代了什么旧流程，以及是否出现采用或付费线索。
+  market: ''
+  job: 使用编码 agent 的开发者需要在真实 Docker 沙箱中运行 agent，让它在关键节点暂停等待人工批准后再继续，并交换结构化产物，用于可审查、可恢复的交付流程。
+  job_en: A developer using coding agents needs to run them in real Docker sandboxes, have them pause
+    at critical nodes for human approval before continuing, and exchange structured artifacts, for a reviewable,
+    recoverable delivery workflow.
+  pain: 公开材料只有一句产品描述，未记录任何用户痛点、抱怨或代价；无法从现有证据判断 agent 失控或不可审查在开发流程中造成多大摩擦。
+  pain_en: Public materials contain only a one-line product description with no recorded user pain, complaint,
+    or cost; existing evidence cannot establish how much friction uncontrolled or unauditable agents cause
+    in development workflows.
+  current_alternative: 公开材料未说明开发者目前如何完成这项工作；结构上可推断的替代是手工在本地或 CI 中运行 agent 并人工审查输出，但无证据支持。
+  current_alternative_en: Public materials do not state how developers currently do this job; the structurally
+    inferable alternative is manually running agents locally or in CI and reviewing output by hand, but
+    no evidence supports this.
+  usage_reason: 公开材料未提供任何用户反馈或采用证据，无法说明开发者相较手工审查为什么会选择它；仅有产品功能描述，不足以构成使用理由。
+  usage_reason_en: Public materials provide no user feedback or adoption evidence to explain why a developer
+    would choose this over manual review; a product feature description alone does not constitute a usage
+    reason.

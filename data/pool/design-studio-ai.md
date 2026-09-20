@@ -3,15 +3,17 @@ slug: design-studio-ai
 name: design-studio-ai
 builder: bestagentkits
 category: AI + 创作
-summary_zh: 设计师或前端工程师在需要产出界面、3D 或动效素材时打开这个开源工作区，把设计文件与指令交给云端编辑器，由 AI 代理执行编辑动作，最终得到可继续修改的设计产物；具体由谁在什么节点使用、交付物形态与人工确认环节仍待核验。
-inspiration: 趋势：设计工具开始把 AI 代理当作可编程的编辑者，而不是加一个生成按钮。切入：可从独立设计工作室或电商视觉团队切入，把重复的改版、多尺寸适配做成按件交付的服务，而非卖席位。
-summary_en: A designer or front-end engineer opens this open-source workspace when they need to produce
-  interface, 3D or motion assets, hands design files and instructions to the cloud editor, and an AI agent
-  performs the editing actions to yield a further-editable design artifact; who uses it at which step,
-  the deliverable form and the human confirmation step still need verification.
-inspiration_en: 'Trend: design tools are starting to treat AI agents as programmable editors rather than
-  adding a generate button. Entry: start with independent design studios or e-commerce visual teams, packaging
-  repetitive revisions and multi-size adaptation as per-piece delivery instead of selling seats.'
+summary_zh: 设计师或前端工程师在需要产出可编辑的视觉稿、3D 或动效素材时，打开这个开源工作区，由 AI 代理接收指令并在云端画布上执行编辑，人机在同一份文件里协作；最终交付是可继续修改的设计文件，而非一次性图片。具体输入格式、人工确认环节与交付边界仍待核验。
+inspiration: 趋势：设计工具正从「人操作界面」转向「人给指令、代理在画布上动手」，MCP/CLI 这类接口让代理能直接改文件而不是只出图。切入：先切已有设计系统、需要批量产出可编辑素材的品牌方或外包设计团队，按产出件数或项目收费，而不是卖席位；开源版可作获客入口，托管与团队协作留作付费点。
+summary_en: When designers or front-end engineers need editable visual, 3D or motion assets, they open
+  this open-source workspace; AI agents take instructions and perform edits on a cloud canvas while humans
+  work in the same file. The deliverable is a still-editable design file rather than a one-off image.
+  Input formats, human confirmation steps and delivery boundaries still need verification.
+inspiration_en: 'Trend: design tools are shifting from humans operating a UI to humans giving instructions
+  while agents edit the canvas, with MCP/CLI letting agents modify files instead of only generating images.
+  Entry: start with brands or outsourced design teams that already have a design system and need editable
+  assets in volume, charging per deliverable or project rather than per seat; the open-source build can
+  be the acquisition channel, with hosting and team collaboration as paid layers.'
 priority_review: false
 project_type: open_source
 industries:
@@ -33,7 +35,7 @@ summary: Open-source design workspace for AI agents and humans. Cloud editing, 3
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
 last_seen: '2026-09-20T00:09:25Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

@@ -1,0 +1,89 @@
+- id: req-initial-everything-search-skill-2026-09-20
+  project_slug: everything-search-skill
+  level: initial
+  reviewed_at: '2026-09-20T00:09:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理查找本地文件慢、找错文件导致上下文错误的问题，痛点具体，旧替代是逐层扫描或手工贴路径，结构上成立。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  - gate: consensus
+    status: insufficient
+    reason: 42 星、2 fork、0 issue，只有关注度信号，没有采用或持续使用证据。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价与买方信息，变现路径未披露，属未知而非失败。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  - gate: truth
+    status: insufficient
+    reason: 依赖 Windows 上的 Everything 索引，跨平台与权限边界未说明，能否确定性交付待核验。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  next_validation: 查看该仓库 README 与 issue/discussion，确认支持的平台、权限边界以及检索结果如何回传给代理。
+  market: ''
+  job: 使用 Cursor、Codex 等编程代理的开发者，在代理需要查找本地代码或文件时，让它通过 Everything 索引检索，而不是逐层遍历目录。
+  job_en: Developers using coding agents such as Cursor or Codex, when the agent needs to find local code
+    or files, have it search through the Everything index rather than walking directories level by level.
+  pain: 代理逐层遍历目录在大仓库或大磁盘上很慢，检索不到正确文件就会给出错误上下文，开发者要反复纠正。
+  pain_en: Agents walking directories are slow on large repos or disks, and failing to find the right
+    file yields wrong context that developers must repeatedly correct.
+  current_alternative: 旧做法是让代理用内置的 glob/grep 逐层扫描，或开发者自己手动把文件路径贴进对话。
+  current_alternative_en: The old way is letting the agent scan with built-in glob/grep, or the developer
+    manually pasting file paths into the conversation.
+  usage_reason: 推断：相较逐层扫描，它把检索交给已建好的 Everything 索引，省掉代理遍历目录这一步，因此在大仓库或大磁盘上工作的开发者会在代理频繁找不到文件时选择它；但仓库仅 42
+    星、无 issue 讨论，尚无重复使用或留存证据。
+  usage_reason_en: 'Inference: compared with level-by-level scanning, it delegates retrieval to an already-built
+    Everything index, removing the directory-walk step, so developers on large repos or disks would pick
+    it when the agent frequently misses files; however, with only 42 stars and no issue discussion, there
+    is no evidence of repeated use or retention.'
+- id: req-full-everything-search-skill-2026-09-20
+  project_slug: everything-search-skill
+  level: full
+  reviewed_at: '2026-09-20T00:29:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理查找本地文件慢、找错文件导致上下文错误的问题，痛点具体，旧替代是逐层扫描或手工贴路径，结构上成立。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  - gate: consensus
+    status: insufficient
+    reason: 42 星、2 fork、0 issue，只有关注度信号，没有采用或持续使用证据。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价与买方信息，变现路径未披露，属未知而非失败。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  - gate: truth
+    status: insufficient
+    reason: 依赖 Windows 上的 Everything 索引，跨平台与权限边界未说明，能否确定性交付待核验。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  next_validation: 查看该仓库 README 与 issue/discussion，确认支持的平台、权限边界以及检索结果如何回传给代理。
+  market: ''
+  job: 使用 Cursor、Codex 等编程代理的开发者，在代理需要查找本地代码或文件时，让代理通过 Voidtools Everything 的索引检索文件路径，而不是逐层遍历目录，以便后续读取正确文件。
+  job_en: Developers using coding agents such as Cursor or Codex, when the agent needs to find local code
+    or files, have the agent retrieve file paths through the Voidtools Everything index rather than walking
+    directories level by level, so it can then read the right file.
+  pain: 代理用内置 glob/grep 逐层扫描在大仓库或大磁盘上很慢，且容易找不到正确文件，导致上下文错误，开发者需要反复纠正。
+  pain_en: Agents scanning with built-in glob/grep are slow on large repos or disks and often miss the
+    right file, producing wrong context that developers must repeatedly correct.
+  current_alternative: 让代理用内置的 glob/grep 逐层扫描，或开发者自己手动把文件路径贴进对话。
+  current_alternative_en: Letting the agent scan with built-in glob/grep, or the developer manually pasting
+    file paths into the conversation.
+  usage_reason: 推断：相较逐层扫描，它把检索交给已建好的 Everything 索引，省掉代理遍历目录这一步，因此在大仓库或大磁盘上工作的开发者会在代理频繁找不到文件时选择它；但仓库仅 42
+    星、无 issue 讨论，尚无重复使用或留存证据。
+  usage_reason_en: 'Inference: compared with level-by-level scanning, it delegates retrieval to an already-built
+    Everything index, removing the directory-walk step, so developers on large repos or disks would pick
+    it when the agent frequently misses files; however, with only 42 stars and no issue discussion, there
+    is no evidence of repeated use or retention.'

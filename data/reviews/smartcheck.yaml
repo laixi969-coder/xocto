@@ -1,0 +1,87 @@
+- id: req-initial-smartcheck-2026-09-20
+  project_slug: smartcheck
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是拍照清点物品数量，痛点方向可辨，但材料只有一句说明，说不清输入、准确性与交付，价值结构尚不成立。
+    evidence_ids:
+    - ev-f8923bd50809edf3
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何采用、评价或使用规模数据，共识关无法判断。
+    evidence_ids:
+    - ev-f8923bd50809edf3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自门店订阅或按次计费，属推断，不是已验证事实。
+    evidence_ids:
+    - ev-f8923bd50809edf3
+  - gate: truth
+    status: insufficient
+    reason: 计数准确率、适用品类与人工复核边界均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-f8923bd50809edf3
+  next_validation: 收集该产品的官方说明或定价页，核对计数准确率、适用品类与计费方式。
+  market: ''
+  job: 门店店员或仓库人员在盘点时，处理货架或货堆的照片，要完成数出某类物品数量的任务。
+  job_en: A store clerk or warehouse worker during stocktaking handles photos of shelves or piles and
+    needs to count the quantity of a given item.
+  pain: 人工逐个数容易出错且耗时，物品堆叠或数量大时更明显；候选材料未说明现有做法具体卡在哪一步。
+  pain_en: Counting by hand is error-prone and slow, especially with stacked items or large quantities;
+    the candidate material does not say exactly where current practice breaks down.
+  current_alternative: 旧做法是人工点数、用扫码枪逐个扫描，或使用需要专门训练的视觉计数系统；候选材料未提供可核对的替代行为证据。
+  current_alternative_en: Old practice is manual counting, scanning items one by one with a barcode gun,
+    or using vision counting systems that require dedicated training; the candidate material offers no
+    verifiable evidence of these alternatives.
+  usage_reason: 推断：若三次示例点击就能让系统数出目标物品，就省去逐个扫描或人工点数的步骤，适合没有专门设备的门店。但材料未说明准确率、可数品类与错误处理方式，因此哪类用户会实际选择它尚不能判断。
+  usage_reason_en: 'Inference: if three example taps let the system count the target items, it removes
+    scanning or manual counting steps and suits stores without dedicated equipment. But the material does
+    not state accuracy, countable categories or error handling, so which users would actually choose it
+    cannot yet be judged.'
+- id: req-full-smartcheck-2026-09-20
+  project_slug: smartcheck
+  level: full
+  reviewed_at: '2026-09-20T00:31:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决拍照清点物品数量的需求，痛点是人工点数易错耗时、堆叠时更明显，旧做法是逐个扫码或人工计数；产品以三次示例点击替代逐件操作，属工作流结构推理，交付形态可辨。
+    evidence_ids:
+    - ev-f8923bd50809edf3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开资料 发布页一句功能描述，无采用、评价或使用规模数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-f8923bd50809edf3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自门店订阅或按次计费，属推断，不是已验证事实。
+    evidence_ids:
+    - ev-f8923bd50809edf3
+  - gate: truth
+    status: insufficient
+    reason: 计数准确率、适用品类与人工复核边界均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-f8923bd50809edf3
+  next_validation: 追踪该产品 公开资料 页面与官网，核对是否公布计数准确率、适用品类、人工复核流程与定价。
+  market: ''
+  job: 门店店员或仓库人员在盘点时，处理货架或货堆的照片，要完成数出某类物品数量的任务。
+  job_en: A store clerk or warehouse worker during stocktaking handles photos of shelves or piles and
+    needs to count the quantity of a given item.
+  pain: 人工逐个数容易出错且耗时，物品堆叠或数量大时更明显；候选材料未说明现有做法具体卡在哪一步。
+  pain_en: Counting by hand is error-prone and slow, especially with stacked items or large quantities;
+    the candidate material does not say exactly where current practice breaks down.
+  current_alternative: 旧做法是人工点数、用扫码枪逐个扫描，或使用需要专门训练的视觉计数系统；候选材料未提供可核对的替代行为证据。
+  current_alternative_en: Old practice is manual counting, scanning items one by one with a barcode gun,
+    or using vision counting systems that require dedicated training; the candidate material offers no
+    verifiable evidence of these alternatives.
+  usage_reason: 推断：相较逐个扫码或人工点数，三次示例点击把标注负担降到最低，让没有专门设备的门店用一张照片得到计数结果，因此小门店或临时盘点场景更可能选择它。
+  usage_reason_en: 'Inference: compared with scanning item by item or manual counting, three example taps
+    minimize the labeling burden, letting stores without dedicated equipment get a count from one photo,
+    so small stores or ad-hoc stocktaking are more likely to choose it.'

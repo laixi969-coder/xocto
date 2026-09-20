@@ -531,3 +531,56 @@
     the flow to ''upload an existing real-person clip + write subtitles'', dubs and lip-syncs locally
     and exports vertical MP4 directly, removing the re-shoot and the face-upload step, so creators sensitive
     to on-camera cost or footage privacy would pick it.'
+- id: req-full-video-ai-talking-2026-09-20
+  project_slug: video-ai-talking
+  level: full
+  reviewed_at: '2026-09-20T00:31:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是口播改稿后必须重录、出镜者不便出镜导致内容停摆的问题，痛点来自重录的时间与人力成本，属工作流结构推理；公开仓库自述已给出输入（真人视频+字幕）、动作（本机配音对口型）与交付（竖屏
+      MP4），交付路径可确定，故价值关成立。
+    evidence_ids:
+    - ev-b05bb4d3217a59e1
+    - ev-9c963695d8e9e525
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 397 增至 432，说明社区注意到该项目，但收藏与关注只属规模或关注度证据，不能证明目标创作者已把它留在日常出片流程里；公开材料没有用户评价、复刻后的实际使用或持续采用记录。
+    evidence_ids:
+    - ev-b05bb4d3217a59e1
+    - ev-9c963695d8e9e525
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，谁付钱（创作者自付、代运营团队还是企业采购）无法核验；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-b05bb4d3217a59e1
+  - gate: truth
+    status: insufficient
+    reason: 本机配音与口型对齐能否在普通设备上稳定产出可发布结果、密钥仅留浏览器是否真的不落盘，公开材料只有自述，没有部署文档、可复现实测或 issue 反馈；安全与人工边界同样缺少公开证据。
+    evidence_ids:
+    - ev-b05bb4d3217a59e1
+    - ev-9c963695d8e9e525
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有创作者公开贴出实际出片结果、部署环境与口型对齐质量反馈，以核验交付稳定性与真实使用场景。
+  market: ''
+  job: 真人口播创作者或短视频运营者已有一段真人出镜素材，需要按新文案重新配音并让口型对上，在本机把素材合成为可直接发布的竖屏 MP4，而不必重新约人、重新布景、重新对着镜头念一遍。
+  job_en: A talking-head creator or short-video operator who already has real on-camera footage needs
+    to re-voice it with new copy, match the lip movement, and render a publish-ready vertical MP4 locally,
+    instead of re-shooting the person on camera.
+  pain: 口播内容改稿后必须重录，出镜者要重新化妆、布景、对镜头念稿，一条视频往往反复多遍；创作者不愿出镜或不便出镜时，这条内容线直接停摆。公开材料只给出产品自述，未提供用户抱怨或重录成本的量化数据，痛点强度属工作流结构推理。
+  pain_en: 'When the script changes, the talking-head shot must be re-recorded: the on-camera person has
+    to redo makeup, set, and delivery, often take after take; if the creator is unwilling or unable to
+    appear, the content line stalls. Public material only carries the product''s own description, with
+    no user complaint or quantified re-shoot cost, so pain intensity is a workflow inference.'
+  current_alternative: 旧做法是本人或雇人重新出镜重录，或用通用 AI 数字人口播工具生成一个与真人素材无关的虚拟形象，或手工剪辑配音后接受口型不同步。公开材料未说明用户具体在用哪一种替代，也未给出替代流程的对比数据。
+  current_alternative_en: The old path is to re-shoot with the person or a hired presenter, or to use
+    generic AI avatar tools that generate a synthetic presenter unrelated to the real footage, or to dub
+    manually and accept lip mismatch. Public material does not state which alternative users actually
+    use, nor compare the workflows.
+  usage_reason: 推断：相较重录，它把“重新出镜”这一步替换为上传已有真人视频加字幕，在本机完成配音与口型对齐后直接输出竖屏 MP4，省掉约人、布景和反复念稿；相较通用数字人工具，它保留真人素材本身而非生成虚拟形象，且密钥只留在浏览器，对在意素材与密钥不出本机的创作者更有吸引力。公开材料未提供用户反馈或客户案例，因此这是基于产品能力与任务结构的推断，不是已证实的采用动机。
+  usage_reason_en: 'Inference: versus re-shooting, it replaces the on-camera step with uploading existing
+    real footage plus subtitles, then does voice and lip-sync locally and outputs a vertical MP4, removing
+    the need to schedule a person, set up a scene, and repeat takes; versus generic avatar tools, it keeps
+    the real footage rather than generating a synthetic presenter, and keeps API keys in the browser,
+    which appeals to creators who care about footage and keys not leaving the machine. No user'

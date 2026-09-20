@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FUFJ6T3pYX1Vq
 summary: Fireflies AI alternatives APK Free Download Học viện Nông nghiệp Việt Nam
 first_seen: '2026-09-17T05:30:23Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

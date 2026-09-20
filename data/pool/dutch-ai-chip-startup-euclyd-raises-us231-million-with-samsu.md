@@ -1,6 +1,6 @@
 ---
 slug: dutch-ai-chip-startup-euclyd-raises-us231-million-with-samsu
-name: Dutch AI chip startup Euclyd raises US$231 million with Samsung backing
+name: Euclyd
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNTHBzRzV1UV9a
 summary: Dutch AI chip startup Euclyd raises US$231 million with Samsung backing Tech Edition
 first_seen: '2026-09-19T16:59:17Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Dutch AI chip startup Euclyd raises US$231 million with Samsung backing
+# Euclyd
 
 Dutch AI chip startup Euclyd raises US$231 million with Samsung backing Tech Edition
 

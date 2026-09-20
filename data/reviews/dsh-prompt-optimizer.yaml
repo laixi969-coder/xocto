@@ -137,3 +137,54 @@
     project files with per-fact attribution, filling just the five gap types instead of adding boilerplate,
     so DSH users writing complex task instructions would choose it before submitting; public materials
     show no retention or repeated-use evidence yet.'
+- id: req-full-dsh-prompt-optimizer-2026-09-20
+  project_slug: dsh-prompt-optimizer
+  level: full
+  reviewed_at: '2026-09-20T00:29:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者一句话提示缺指代、验收判据与约束边界，导致工作 AI 按猜测执行、反复返工的问题；插件在发送前补五类缺口且依据带出处，不解决的后果是每轮任务都要人工补写调试，属工作流结构推理。
+    evidence_ids:
+    - ev-cb8e16e6fad297e4
+    - ev-24628b5d01c162a3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 43 增至 67，说明有持续关注，但公开材料没有用户评价、issue 或采用数据说明开发者已把它放进日常提交流程，关注度不等于持续使用。
+    evidence_ids:
+    - ev-19a403b633d367be
+    - ev-24628b5d01c162a3
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、订阅或任何买方，to C 开发者自愿使用或 to B 团队采购均属判断而非已验证事实；目前看不到可核验的付费路径。
+    evidence_ids:
+    - ev-cb8e16e6fad297e4
+  - gate: truth
+    status: insufficient
+    reason: 插件依赖特定 DSH 版本且处于 beta，公开材料未说明改写出错时如何回退、依据引用是否可核对，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-19a403b633d367be
+    - ev-cb8e16e6fad297e4
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有用户报告改写后返工轮次或任务一次通过率的变化。
+  market: ''
+  job: 使用 DSH Web 的开发者（含 PTC 执行体用户）在输入框里写复杂任务指令时，把口语化、指代含糊的一句话交给插件，由独立 AI 补成带出处依据、可直接执行的命令再发送。
+  job_en: A developer using DSH Web, when writing a complex task instruction in the input box, hands a
+    colloquial, under-specified one-liner to the plugin so an independent AI expands it into a source-cited,
+    directly executable command before sending.
+  pain: 公开说明指出原始一句话提示存在五类缺口：指代定位、验收判据、约束边界、隐含决定、入口锚点；缺了这些，工作 AI 会按自己的猜测执行，开发者要反复补写、返工并逐轮调试指令。
+  pain_en: 'The public description names five gaps in a one-line prompt: referent location, acceptance
+    criteria, constraint boundaries, implicit decisions and entry anchors; without them the working AI
+    executes on its own guesses, forcing developers to rewrite, redo and debug instructions round after
+    round.'
+  current_alternative: 开发者自己手写并多轮迭代提示词，或切到通用聊天助手先润色再粘贴回输入框；也有人干脆写长模板和验证套话。
+  current_alternative_en: Developers hand-write and iterate prompts over several rounds, or switch to
+    a general chat assistant to polish text and paste it back; some just write long templates and verification
+    boilerplate.
+  usage_reason: 推断：相较切窗口润色再粘贴，它把改写动作放进输入框内自动完成，且依据只搬不造、每条事实带出处，减少的是开发者自己补指代与验收判据这一步；因此常写复杂任务指令的 DSH 用户会在提交前选择它。公开材料无留存或重复使用证据，采用动机属结构推断。
+  usage_reason_en: 'Inference: versus switching windows to polish and paste, it performs the rewrite inside
+    the input box and only relocates evidence rather than inventing it, each fact carrying a source, removing
+    the step where developers fill in referents and acceptance criteria themselves; hence DSH users writing
+    complex instructions would pick it before submitting. No retention or repeated-use evidence is public,
+    so the adoption motive is structural inference.'

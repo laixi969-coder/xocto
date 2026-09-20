@@ -25,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1EeGZCdE1WUUdM
 summary: Gartner报告：中国AI风向变了，智能体热度正盛- 21世纪经济报道 ZAKER新闻
 first_seen: '2026-09-11T07:49:41Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/steam-machine
 summary: Your Steam library, now on a wearable PC
 first_seen: '2026-09-18T13:28:57Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

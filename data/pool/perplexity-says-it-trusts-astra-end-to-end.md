@@ -1,6 +1,6 @@
 ---
 slug: perplexity-says-it-trusts-astra-end-to-end
-name: Perplexity Says It Trusts Astra End to End
+name: Astra
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ0RuRlFRTElN
 summary: Perplexity Says It Trusts Astra End to End StartupHub.ai
 first_seen: '2026-09-19T14:06:35Z'
 last_seen: '2026-09-20T00:09:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Perplexity Says It Trusts Astra End to End
+# Astra
 
 Perplexity Says It Trusts Astra End to End StartupHub.ai
 

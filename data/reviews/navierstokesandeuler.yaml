@@ -394,3 +394,54 @@
     verification engineers who need independent confirmation of this result would therefore choose it
     when verifying. Public materials provide no user feedback or adoption records; this is inferred from
     p'
+- id: req-full-navierstokesandeuler-2026-09-20
+  project_slug: navierstokesandeuler
+  level: full
+  reviewed_at: '2026-09-20T00:30:23Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长推导证明难以独立复核的需求：PDE 爆破证明步骤极多，人工审稿难以穷尽，不核验则结论只能靠信任。仓库提供与论文配套的 Lean 4 证书，使机器逐条检查成为可能，交付结果可确定。此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-e3db407f7ec1f2f4
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 1,928 持续升至 1,959，说明数学与形式化验证社区持续关注该证书；但收藏只反映关注度，不能证明目标用户已将其长期纳入核验工作流，持续采用仍缺证据。
+    evidence_ids:
+    - ev-9957c9bf9d218602
+    - ev-755f709bdedf0ea9
+    - ev-2e22bc44a3bf3d42
+    - ev-eb17eb0640be70ed
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断钱来自学术机构、研究资助还是个人；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-9fe1730987219163
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明证书与两篇论文结果对应，但公开材料未展示证书能否在标准 Lean 4 环境下稳定复现通过，也未说明覆盖范围与人工判断边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-e3db407f7ec1f2f4
+  next_validation: 追踪该仓库的 README、release 与 issue/discussion，确认 Lean 4 证书的构建与复现说明、覆盖范围及是否被外部研究者引用或复现。
+  market: ''
+  job: 数学研究者与形式化验证工程师在核验 Navier–Stokes 与 Euler 方程有限时间爆破结果时，打开该仓库，让 Lean 4 证明助手接收随论文一同发布的证书文件，逐条检查推导步骤，得到机器可复核的通过或失败结果，再由人工判断其数学含义。
+  job_en: Mathematics researchers and formal verification engineers, when checking the finite-time blowup
+    results for Navier–Stokes and Euler equations, open this repository and let the Lean 4 proof assistant
+    consume the certificates released alongside the papers, checking each derivation step to obtain a
+    machine-checkable pass or fail result, which humans then interpret mathematically.
+  pain: 偏微分方程与流体力学中这类爆破证明推导极长、人工逐行复核成本高且易漏错，审稿人和同行难以在有限时间内独立确认每一步；不采用形式化核验时，结论只能依赖作者声誉与人工阅读。
+  pain_en: Blowup proofs in PDE and fluid dynamics are extremely long; line-by-line human checking is
+    costly and error-prone, and referees or peers cannot independently confirm every step within limited
+    time. Without formal checking, the conclusion rests on author reputation and manual reading.
+  current_alternative: 当前替代方式是人工阅读论文与附录推导、同行评审，或自行在 Lean/Coq 等助手中重写证明；这些做法要么无法穷尽检查，要么需要数月级重写工作。
+  current_alternative_en: The current alternative is manual reading of the paper and appendix, peer review,
+    or independently rewriting the proof in Lean/Coq; these either cannot exhaustively check or require
+    months of rewriting.
+  usage_reason: 相较人工阅读或自行重写，该仓库直接提供与论文结果配套的 Lean 4 证书，用户只需运行证明助手即可逐条复核推导，省去从零形式化的工作；因此关注该结果、需要独立核验或在其上继续形式化工作的数学与验证工程师会在核验阶段选择它。此为基于产品能力与任务结构作出的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manual reading or rewriting from scratch, the repository supplies Lean
+    4 certificates tied to the published results, so users only need to run the proof assistant to check
+    each step, skipping the from-scratch formalization work. Researchers and verification engineers who
+    need independent checking or want to build on the formalization would therefore choose it at the checking
+    stage. This is an inference from product capability and task structure, not yet supporte

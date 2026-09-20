@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/492550.html
 summary: AI能否提出相对论？
 first_seen: '2026-09-19T11:36:11Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

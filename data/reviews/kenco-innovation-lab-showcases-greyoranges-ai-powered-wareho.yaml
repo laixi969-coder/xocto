@@ -92,3 +92,93 @@
     into one dispatch model and directly outputs task allocation, removing the step where dispatchers
     compare orders one by one and reassign on the fly; this is an inference from product capability and
     task structure, not yet confirmed by user feedback or cases.
+- id: req-initial-kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho-2026-09-20
+  project_slug: kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho
+  level: initial
+  reviewed_at: '2026-09-20T00:09:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订单与机器人调度冲突下的出货延迟问题，痛点刚性且旧流程明确；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-5091eac6db04fc35
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Kenco Innovation Lab 的展示报道，缺少仓库数量、订单量或运营方评价，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-5091eac6db04fc35
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、按仓还是按单收费、以及由仓库还是集成商付费，收入路径只能推断。
+    evidence_ids:
+    - ev-5091eac6db04fc35
+  - gate: truth
+    status: insufficient
+    reason: 报道未给出调度准确率、出货时效或异常处理边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-5091eac6db04fc35
+  next_validation: 收集 GreyOrange 官方定价或部署文档，以及 Kenco 侧公开的部署规模与效果数据。
+  market: ''
+  job: 仓储运营经理在订单高峰或波次切换时，处理多平台订单、库存与机器人状态，要完成拣选与搬运任务的排序和分配，让仓库按时出货。
+  job_en: A warehouse operations manager, during order peaks or wave changes, handles multi-channel orders,
+    inventory, and robot status to sequence and allocate picking and transport tasks so the warehouse
+    ships on time.
+  pain: 订单与机器人调度靠人工排程和经验判断，波次冲突时容易堵在拣选环节，出货延迟且难以追溯是哪一步排错。
+  pain_en: Order and robot scheduling relies on manual planning and experience; when waves conflict, picking
+    bottlenecks appear, shipments slip, and it is hard to trace which step was mis-sequenced.
+  current_alternative: 旧做法是仓库管理系统加人工排程表，由调度员凭经验分配任务，或用单机机器人自带软件各自为政。
+  current_alternative_en: The old approach is a warehouse management system plus manual scheduling sheets,
+    with dispatchers allocating tasks by experience, or individual robots running their own separate software.
+  usage_reason: 相较人工排程表，它把订单、库存与机器人状态放进同一套调度决策里，减少调度员逐单比对和手工改派这一步，因此多平台订单、机器人混用的仓库会在波次冲突时选择它；这是基于产品能力与任务结构的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual scheduling sheets, it puts orders, inventory, and robot status
+    into one scheduling decision, removing the step where dispatchers compare orders one by one and reassign
+    by hand; that is why warehouses with multi-channel orders and mixed robots would choose it during
+    wave conflicts. This is an inference from product capability and task structure, with no retention
+    or repeat-purchase evidence yet.
+- id: req-full-kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho-2026-09-20
+  project_slug: kenco-innovation-lab-showcases-greyoranges-ai-powered-wareho
+  level: full
+  reviewed_at: '2026-09-20T00:30:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订单与机器人调度冲突下的出货延迟问题，痛点刚性且旧流程明确；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-5091eac6db04fc35
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Kenco Innovation Lab 的展示报道，缺少仓库数量、订单量或运营方评价，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-5091eac6db04fc35
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、按仓还是按单收费、以及由仓库还是集成商付费，收入路径只能推断。
+    evidence_ids:
+    - ev-5091eac6db04fc35
+  - gate: truth
+    status: insufficient
+    reason: 报道未给出调度准确率、出货时效或异常处理边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-5091eac6db04fc35
+  next_validation: 收集 GreyOrange 官方定价或部署文档，以及 Kenco 侧公开的部署规模与效果数据。
+  market: ''
+  job: 仓储运营经理在订单波次切换或高峰时，处理多平台订单、库存与机器人状态，要完成拣选与搬运任务的排序和分配，让仓库按时出货。
+  job_en: A warehouse operations manager, during order wave changes or peaks, handles multi-channel orders,
+    inventory, and robot status to sequence and allocate picking and transport tasks so the warehouse
+    ships on time.
+  pain: 订单与机器人调度靠人工排程和经验判断，波次冲突时容易堵在拣选环节，出货延迟且难以追溯是哪一步排错。
+  pain_en: Order and robot scheduling relies on manual planning and experience; when waves conflict, picking
+    bottlenecks appear, shipments slip, and it is hard to trace which step was mis-sequenced.
+  current_alternative: 旧做法是仓库管理系统加人工排程表，由调度员凭经验分配任务，或用单机机器人自带软件各自为政。
+  current_alternative_en: The old approach is a warehouse management system plus manual scheduling sheets,
+    with dispatchers allocating tasks by experience, or individual robots running their own separate software.
+  usage_reason: 相较人工排程表，它把订单、库存与机器人状态放进同一套调度决策里，减少调度员逐单比对和手工改派这一步，因此多平台订单、机器人混用的仓库会在波次冲突时选择它；这是基于产品能力与任务结构的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual scheduling sheets, it puts orders, inventory, and robot status
+    into one scheduling decision, removing the step where dispatchers compare orders one by one and reassign
+    by hand; that is why warehouses with multi-channel orders and mixed robots would choose it during
+    wave conflicts. This is an inference from product capability and task structure, with no retention
+    or repeat-purchase evidence yet.

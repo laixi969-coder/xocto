@@ -24,7 +24,7 @@ summary: Today on Decoder, we’ve got the first of a two-part series on the fut
   at Carnegie Mellon. The […]
 first_seen: '2026-09-19T14:00:00Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

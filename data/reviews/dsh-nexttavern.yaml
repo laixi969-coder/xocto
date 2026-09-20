@@ -169,3 +169,58 @@
     history, and folds character cards, world books and style presets into one flow, cutting the step
     of restating settings each turn. This is an inference from product capability and task structure;
     no user feedback or case yet confirms retention.
+- id: req-full-dsh-nexttavern-2026-09-20
+  project_slug: dsh-nexttavern
+  level: full
+  reviewed_at: '2026-09-20T00:29:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长篇角色扮演中上下文耗尽导致人物崩坏、设定遗忘的需求，痛点在连载型创作中刚性；旧做法是手动粘贴设定、重开对话、另存设定文档。插件以人物卡导入、世界书、混合检索与本地嵌入维持记忆并导出小说，交付路径可确定，属工作流结构推理，尚无用户抱怨或采用数据佐证强度。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+    - ev-a5652bf03ce752b9
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 43 升至 87，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标创作者已把它留在长篇写作工作流里；缺少 issue、discussion 或用户评价说明实际使用场景与持续采用。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+    - ev-a5652bf03ce752b9
+    - ev-f31df471914a9345
+    - ev-5f3ce00b36be301f
+  - gate: model
+    status: insufficient
+    reason: 这是开源插件，公开材料未见定价页、赞助、付费插件市场或企业采购路径，谁付钱尚不清楚；判断上最可能来自 to C 创作者的自愿赞助或后续增值，但这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+  - gate: truth
+    status: insufficient
+    reason: 混合检索与本地嵌入能否在长会话中稳定召回、多角色 Agent 集群是否产生角色串味或幻觉，公开材料只有功能描述，没有可复现测试、部署文档或 issue 反馈；人工确认与安全边界也未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+    - ev-a5652bf03ce752b9
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认长篇记忆召回的实际效果反馈、安装部署说明及是否出现赞助或付费入口。
+  market: ''
+  job: 写长篇角色扮演或互动小说的创作者，在 DeepSeek Harness 里导入 SillyTavern 人物卡或自建角色卡，把设定、世界书与文风预设交给插件，需要跨多轮对话维持人物一致性与剧情连贯，并最终把对话导出为小说文本。
+  job_en: Writers of long-form roleplay or interactive fiction open this plugin inside DeepSeek Harness,
+    import SillyTavern character cards or author their own, hand over settings, world books and style
+    presets, and must keep character consistency and plot continuity across many turns before exporting
+    the dialogue as novel text.
+  pain: 长篇角色扮演的核心痛点是上下文窗口耗尽后人物设定、世界书条目和既有剧情被遗忘，导致角色崩坏、前后矛盾，创作者被迫反复粘贴设定或手动整理记忆；公开材料只给出功能描述，未提供用户抱怨或使用数据，此痛点强度属工作流结构推理。
+  pain_en: The core pain of long-form roleplay is that once the context window is exhausted, character
+    settings, world-book entries and prior plot are forgotten, causing character drift and contradictions,
+    forcing creators to re-paste settings or hand-manage memory; public material only describes features,
+    so this pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是直接在通用聊天界面或 SillyTavern 里跑长对话，靠手动复制粘贴设定、定期重开对话、自己维护设定文档来对抗遗忘；插件把人物卡导入、世界书、关键词加语义混合检索与本地嵌入模型接进同一流程，替代这套手工记忆管理。
+  current_alternative_en: The old approach is running long conversations in a generic chat UI or SillyTavern,
+    fighting forgetting by manually re-pasting settings, restarting sessions, and maintaining separate
+    setting documents; the plugin wires card import, world books, hybrid keyword-plus-semantic retrieval
+    and a local embedding model into one flow, replacing that manual memory management.
+  usage_reason: 推断：相较手动粘贴设定与重开对话，插件用本地嵌入模型加关键词与语义混合检索自动召回相关世界书条目和既往剧情，减少创作者每轮重新交代设定的步骤；同时多角色 Agent 集群与文风预设让多角色推进不必逐个手动切换，小说导出省去从对话记录整理成稿的搬运。因此长期连载型角色扮演创作者在单次会话超出上下文窗口、需要维持数十轮以上连贯性时会选择它。
+  usage_reason_en: 'Inference: versus manually re-pasting settings and restarting sessions, the plugin
+    uses a local embedding model plus hybrid keyword-and-semantic retrieval to auto-recall relevant world-book
+    entries and prior plot, cutting the per-turn step of restating settings; multi-character agent clusters
+    and style presets remove manual switching between characters, and novel export removes the copy-out
+    step from chat logs to manuscript. Long-serial roleplay creators therefore pick it whe'

@@ -1,0 +1,82 @@
+- id: req-initial-illusions-2026-09-20
+  project_slug: illusions
+  level: initial
+  reviewed_at: '2026-09-20T00:09:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只给出定位句，说不出它替代写作中的哪一步、解决什么具体痛点，价值关未过。
+    evidence_ids:
+    - ev-46d2276f4a990d7f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或口碑证据。
+    evidence_ids:
+    - ev-46d2276f4a990d7f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，定价与买方均未披露。
+    evidence_ids:
+    - ev-46d2276f4a990d7f
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付内容与人工边界无法核对。
+    evidence_ids:
+    - ev-46d2276f4a990d7f
+  next_validation: 收集该产品的官方页面或发布说明，确认 AI 具体介入写作的哪一步、交付什么以及是否公布定价。
+  market: ''
+  job: 日语小说作者在写长篇或连载时，需要在长时间专注状态下逐段推进草稿并保持设定一致。
+  job_en: A Japanese-language novelist writing a long work or serial needs to advance the draft paragraph
+    by paragraph in sustained focus while keeping settings consistent.
+  pain: 公开材料未说明它替代了写作中的哪一步旧做法，也未给出作者的具体抱怨或绕行方式，痛点无法确认。
+  pain_en: The public material does not say which step of writing it replaces, nor give specific author
+    complaints or workarounds, so the pain point cannot be confirmed.
+  current_alternative: 作者通常使用通用文字编辑器或写作软件，配合自己的设定笔记与校对流程。
+  current_alternative_en: Authors typically use general word processors or writing software together with
+    their own setting notes and proofreading routine.
+  usage_reason: 除“日语优先的专注写作编辑器”这一句外，没有可核对的功能、交付或用户反馈，无法解释作者为何会从现有编辑器切换过来；缺少 AI 环节与定价这一环。
+  usage_reason_en: Beyond the single phrase 'a Japanese-first writing editor for focused fiction', there
+    is no checkable feature, deliverable or user feedback to explain why an author would switch from an
+    existing editor; the AI step and pricing are the missing link.
+- id: req-full-illusions-2026-09-20
+  project_slug: illusions
+  level: full
+  reviewed_at: '2026-09-20T00:29:57Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只给出定位句，说不出它替代写作中的哪一步、解决什么具体痛点，价值关未过。
+    evidence_ids:
+    - ev-d4c02c9207bcaca3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方页面或发布说明，确认 AI 具体介入写作的哪一步、交付什么以及是否公布定价。
+  market: ''
+  job: 日语小说作者在写长篇或连载时，需要在长时间专注状态下逐段推进草稿并保持设定一致。
+  job_en: A Japanese-language novelist writing a long work or serial needs to advance the draft paragraph
+    by paragraph in sustained focus while keeping settings consistent.
+  pain: 公开材料只有一句定位描述，未说明它替代写作中的哪一步、作者的具体抱怨或绕行方式，痛点无法确认。
+  pain_en: The public material offers only a one-line positioning statement and does not say which step
+    of writing it replaces, nor give specific author complaints or workarounds, so the pain point cannot
+    be confirmed.
+  current_alternative: 作者通常使用通用文字编辑器或写作软件，配合自己的设定笔记与校对流程。
+  current_alternative_en: Authors typically use general word processors or writing software together with
+    their own setting notes and proofreading routine.
+  usage_reason: 除“日语优先的专注写作编辑器”这一句外，没有可核对的功能、交付或用户反馈，无法解释作者为何会从现有编辑器切换过来；缺少 AI 环节与定价这一环。
+  usage_reason_en: Beyond the single phrase 'a Japanese-first writing editor for focused fiction', there
+    is no checkable feature, deliverable or user feedback to explain why an author would switch from an
+    existing editor; the AI step and pricing are the missing link.

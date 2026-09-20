@@ -21,7 +21,7 @@ canonical_url: https://fuck-off.ai
 summary: Fuck You
 first_seen: '2026-09-19T08:58:34Z'
 last_seen: '2026-09-20T00:09:19Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

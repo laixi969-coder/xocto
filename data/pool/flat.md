@@ -34,7 +34,7 @@ canonical_url: https://flat.social
 summary: I built a new version of my fun spatial 3D online meeting app
 first_seen: '2026-09-17T12:57:09Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

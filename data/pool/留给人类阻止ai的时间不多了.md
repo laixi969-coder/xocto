@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/492755.html
 summary: AI有可能终结我们所有人
 first_seen: '2026-09-19T11:53:12Z'
 last_seen: '2026-09-20T00:09:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
