@@ -30,14 +30,24 @@ url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUYxN1dHNWNGRG90NW8zZV
 canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUYxN1dHNWNGRG90NW8zZVRBbnVkTEIyMXN1bng1WHFmc2gwZ1A1N3RBZXFnWVpiY0FERjNvSTBPdDZkanUtY1NHR3RPRU45cjhOdGd1dlFJTmFra01zN1pyb0tfQzd0V19vQ3BIMkpqUDhtSE8tbUJEU1dYWjFCdzhlU09rc0Z5eWlXTmxUXzF3MDFtMWtNbGp2akRVLUdsMG5LbWpVTm9KSnVsUmprS3VB?oc=5
 summary: 电厂 | 百度搭子牵手小度，AI Agent开始寻找“身体”|AI助手|小度智能屏|新品发布|小度AI|家庭_手机新浪网 新浪财经
 first_seen: '2026-09-08T11:38:49Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: queued
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUYxN1dHNWNGRG90NW8zZVRBbnVkTEIyMXN1bng1WHFmc2gwZ1A1N3RBZXFnWVpiY0FERjNvSTBPdDZkanUtY1NHR3RPRU45cjhOdGd1dlFJTmFra01zN1pyb0tfQzd0V19vQ3BIMkpqUDhtSE8tbUJEU1dYWjFCdzhlU09rc0Z5eWlXTmxUXzF3MDFtMWtNbGp2akRVLUdsMG5LbWpVTm9KSnVsUmprS3VB?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTE5KamZUeGxVNGVubmp3a3BHMmhXWGcyWDVHbHB6VlNHLWNSWUY4NFhXTlZZR29MLUt6WXpjeFcxaEJxeU0zOGFjZmc5SEdHbzRhWjI5aXo4VGZmaWIyWk1MODlOelowQUVzUEZVcDZhTXBqdw?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ndk1xYVpUWDB1WmZyR1JjMjVyR0dfXzB3Y3lNdkt5WHl4MFRDejJVWlV4V3dTeXB1SjIwemVoajhiMzBOUi0wMHVybw?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
   metrics: {}
   kind: news
 ---

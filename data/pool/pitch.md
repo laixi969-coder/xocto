@@ -34,8 +34,8 @@ canonical_url: https://aicpb.com/product/Pitch/webid1D6F37829
 summary: Deliver your next deck faster with our free presentation templates. They're fully customizable,
   professionally designed, and delightfully easy to use.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-08-30T00:20:30Z'
-status: queued
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
 sources:
 - aicpb
 - newssearch
@@ -56,6 +56,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNREZGN2paUGhyLVZUQU5aMXQ5MThfMUNFYlg1V19xdkxTQm1BRExoQzFSa21IbExPNEpwdHVtdktmM21mVkM3dmF3eGduVVlMX0RwaE83LUFvaWg0d2IxZ3ljWENzZDJkc2JubEdPdFRaMzRodnBmczRMUnlzYkk3Z2ZkUkhtNHNuNXdmaXFSeFA4LUNvY055VUdhZWQyemxFQ2s5ZXd3?oc=5
   seen_at: '2026-08-30T00:20:30Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNd0hFdnVjY19jV25VeUdXYWIyVmdGbHZXd3I0cmVYei0tMm9pa1pwcDRrVkpoRjlfcHVBNXh2enNYT0Nub0dkTEl6ZTJRSlE4aHdjb28waFBnQU9ibERYZXF3MzJYLTZUbVRlZFJOQjh5eG1fNG9RREJqaGdicW1GZWVoSVlBWXViLXpQZnM1T2ViZjZXc3VMSg?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
   metrics: {}
   kind: news
 ---

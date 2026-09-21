@@ -1,0 +1,41 @@
+---
+slug: how-investors-are-reacting-to-ge-healthcare-technologies-geh
+name: How Investors Are Reacting To GE HealthCare Technologies (GEHC) AI Hospital Software Launch
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPME9mZ2pfNDUteS0yUXVOQVJrUnRaV2pWSmZZZVdSRzZRVXE3VXpYNGkteW9zbnNNU2dSZkpuY3hLdnlkbVhBekNwUFRSeEQ2cUtpdWctYTFJSzRjd19RTEdIZFNBOWQwQ1hCTVpxbjlJbGs5NzVRQUtGRDhXRW1JV2paOHk4bTlUclJRWjdmV3h4eW1ESzU5NHUwQXBoUHowb2dJbTktTjlfMi1HWm5pZjltNElsVnZ5Q2pFUDI5ZTVjR3RlSWl4TG1LRGE2WmxiS0laUHhHV2NBNDdYZ0hKWHB3Z9IB6AFBVV95cUxPeGtDT2xOcEt6RG90TTFyR2RhTFNhcW92UXN1SFM5aHlPZWJpN3VGUlpXaFNnUnZjZ1RhUlJNOGV5ZHM0dVFtT0haYUpzQ1R6REtWQWJBRGVJdTN0M1BhcDZBNlNHeUFrRzhHZFgxX1BueExfTHpBX1R6cXNLQXlfMGFvVExCamw5NU9wd3ptNVdYbklSU3FMRUo3eDMzZ0NBUnBJeTEwYjFmSXlLWkpqdXFsMS04T29lbTUtZWRlbDNoWXQ3ZHYwSlMzYmlQTmFvNHdsZ1BqU2ltUENQUkstb05GOGMtSGJX?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPME9mZ2pfNDUteS0yUXVOQVJrUnRaV2pWSmZZZVdSRzZRVXE3VXpYNGkteW9zbnNNU2dSZkpuY3hLdnlkbVhBekNwUFRSeEQ2cUtpdWctYTFJSzRjd19RTEdIZFNBOWQwQ1hCTVpxbjlJbGs5NzVRQUtGRDhXRW1JV2paOHk4bTlUclJRWjdmV3h4eW1ESzU5NHUwQXBoUHowb2dJbTktTjlfMi1HWm5pZjltNElsVnZ5Q2pFUDI5ZTVjR3RlSWl4TG1LRGE2WmxiS0laUHhHV2NBNDdYZ0hKWHB3Z9IB6AFBVV95cUxPeGtDT2xOcEt6RG90TTFyR2RhTFNhcW92UXN1SFM5aHlPZWJpN3VGUlpXaFNnUnZjZ1RhUlJNOGV5ZHM0dVFtT0haYUpzQ1R6REtWQWJBRGVJdTN0M1BhcDZBNlNHeUFrRzhHZFgxX1BueExfTHpBX1R6cXNLQXlfMGFvVExCamw5NU9wd3ptNVdYbklSU3FMRUo3eDMzZ0NBUnBJeTEwYjFmSXlLWkpqdXFsMS04T29lbTUtZWRlbDNoWXQ3ZHYwSlMzYmlQTmFvNHdsZ1BqU2ltUENQUkstb05GOGMtSGJX?oc=5
+summary: How Investors Are Reacting To GE HealthCare Technologies (GEHC) AI Hospital Software Launch simplywall.st
+first_seen: '2026-09-20T11:40:47Z'
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPME9mZ2pfNDUteS0yUXVOQVJrUnRaV2pWSmZZZVdSRzZRVXE3VXpYNGkteW9zbnNNU2dSZkpuY3hLdnlkbVhBekNwUFRSeEQ2cUtpdWctYTFJSzRjd19RTEdIZFNBOWQwQ1hCTVpxbjlJbGs5NzVRQUtGRDhXRW1JV2paOHk4bTlUclJRWjdmV3h4eW1ESzU5NHUwQXBoUHowb2dJbTktTjlfMi1HWm5pZjltNElsVnZ5Q2pFUDI5ZTVjR3RlSWl4TG1LRGE2WmxiS0laUHhHV2NBNDdYZ0hKWHB3Z9IB6AFBVV95cUxPeGtDT2xOcEt6RG90TTFyR2RhTFNhcW92UXN1SFM5aHlPZWJpN3VGUlpXaFNnUnZjZ1RhUlJNOGV5ZHM0dVFtT0haYUpzQ1R6REtWQWJBRGVJdTN0M1BhcDZBNlNHeUFrRzhHZFgxX1BueExfTHpBX1R6cXNLQXlfMGFvVExCamw5NU9wd3ptNVdYbklSU3FMRUo3eDMzZ0NBUnBJeTEwYjFmSXlLWkpqdXFsMS04T29lbTUtZWRlbDNoWXQ3ZHYwSlMzYmlQTmFvNHdsZ1BqU2ltUENQUkstb05GOGMtSGJX?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+---
+
+# How Investors Are Reacting To GE HealthCare Technologies (GEHC) AI Hospital Software Launch
+
+How Investors Are Reacting To GE HealthCare Technologies (GEHC) AI Hospital Software Launch simplywall.st
+
+## 笔记
+
+

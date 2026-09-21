@@ -31,16 +31,16 @@ url: https://github.com/sisyfy-Zhang/cody-platform
 canonical_url: https://github.com/sisyfy-Zhang/cody-platform
 summary: LangGraph 显式状态机实现的 coding agent 平台：人审、统一权限、事务性写入、审计——企业级治理链的单机参考实现（cody-harness 的姊妹项目）
 first_seen: '2026-09-02T11:10:19Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sisyfy-Zhang/cody-platform
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 97
+    stars: 101
     forks: 1
     open_issues: 0
   kind: product

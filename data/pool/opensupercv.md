@@ -43,16 +43,16 @@ summary: AI-driven intelligent clipboard turns scattered content across applicat
   management capabilities. Agents can process workspace items on demand. This is a companion productivity
   tool.
 first_seen: '2026-09-01T07:55:49Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ShuaiKeAng/OpenSuperCV
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 49
+    stars: 54
     forks: 0
     open_issues: 1
   kind: product

@@ -20,8 +20,8 @@ url: https://bsky.app/profile/hnwiki.bsky.social
 canonical_url: https://bsky.app/profile/hnwiki.bsky.social
 summary: A Bluesky bot that shares Wikipedia links from the HN front page
 first_seen: '2026-09-01T04:45:04Z'
-last_seen: '2026-09-20T00:09:19Z'
-status: rejected
+last_seen: '2026-09-21T00:16:52Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -34,10 +34,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q
-  seen_at: '2026-09-20T00:09:19Z'
+  seen_at: '2026-09-21T00:16:52Z'
   metrics:
-    points: 65
-    comments: 39
+    points: 73
+    comments: 44
   kind: news
 ---
 

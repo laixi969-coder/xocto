@@ -25,10 +25,11 @@ url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmpsOTJTbEUzZl
 canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmpsOTJTbEUzZl96b1BDZlNBc3ZnbUh5aXVCWWR0SVpkbWRoRDE0QUc2WGlwUjJ5TUVXUGVnVVlSelBaY1hmQXdrcVZSSDBZczZ0c2prU1dFbnp2cnR0Z1BvQXh1UzhEMkRHQQ?oc=5
 summary: 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战 京报网
 first_seen: '2026-08-26T11:44:00Z'
-last_seen: '2026-09-13T00:02:40Z'
-status: market_context
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmpsOTJTbEUzZl96b1BDZlNBc3ZnbUh5aXVCWWR0SVpkbWRoRDE0QUc2WGlwUjJ5TUVXUGVnVVlSelBaY1hmQXdrcVZSSDBZczZ0c2prU1dFbnp2cnR0Z1BvQXh1UzhEMkRHQQ?oc=5
@@ -43,6 +44,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pTjZsMi1uSHFfUElrM0ppNHlyMEtLTFZ3UHhUYUpLa0NGTERZbTZLLUQxS0FpRE1YM0s4aHVKNnBDQkJ4Z2NxOEVFNkk1YThiMDRiYlRVWGtPMFNTanFBRw?oc=5
   seen_at: '2026-09-13T00:02:40Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/492946.html
+  seen_at: '2026-09-21T00:17:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPVlhTQ2NCSVNobGhMSFFKOG53cnlRTklEcnZ1WnZfa241ZE8tdlpGWGFWYl9nSWcwdVhwUjVyV2JRWW51d0JGdGRNakRSOXBRd0cxejc3b2xjTWd3cjJ0U2k4Mkc0ZXpRclltYV9qX2ZobUNvUWRnMTdTbjNLenlzdXY0TUk0cmxpd2FaQXBBTVBkZGtZY2IzLWZBcWhEdGtLQ2N6STlJTQ?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
   metrics: {}
   kind: news
 ---

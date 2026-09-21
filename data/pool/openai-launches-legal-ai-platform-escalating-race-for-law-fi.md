@@ -1,0 +1,41 @@
+---
+slug: openai-launches-legal-ai-platform-escalating-race-for-law-fi
+name: OpenAI launches legal AI platform, escalating race for law firm users
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX0JIY1c1QnFPU0h0SVJVUnFVYVZLaThnS0VoQzFNaUR2Zm5NNDExc25uaXVrV0lUTklYTDhBWUd1LWV0YkJzUE5ieVI1bHp3SEJKb3VkWncySnZkbjBfYWcyQlJ4b0NaRGJidHJRcEk5V3RLWVhmQW5PclMtRHZKRk9fOEJmREJRNGpxWVBpd0l5a2Jacmk3cGNLV3hoREo2bjlBdHdibmJuWUdzNktNblA0cU1ULTRpU2ppb0JnbVhic01DUXZET1JXVXFFSnVFUGdSOHdtYVJiVm4tWGlUMldEMWhfUzhaM1BRS0VB0gHzAUFVX3lxTE1aX21sTlZCT1FRd3RBX29ZREE1Y2V6aHJlWWlta0EyTU1yT0dVdUc5UkZ3RURkLVhTQmRaOTlVbHRBSFA5aWVJNzZQVlQ4Q1N2TFhjeXk5Z0F0VlMtNUZhZUFpVzZodHRaWW93RmdRSXlPU3FWNzNuQTB2WUJ6d1NZX21LNVNTZXhCdjFvWjdyano2M2V3M0lpOE5HTXBIUUFkRGdzRzdwOTF2MHBaNGh3UlFhRUVIS3RzeFBUZEcwWS1CR3ZRMWN3WldVbTJnek5leFoyNVF1cklBMF8ydTQ3aVZ4YnFvUXNmTEhuQzZFMTlRRQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX0JIY1c1QnFPU0h0SVJVUnFVYVZLaThnS0VoQzFNaUR2Zm5NNDExc25uaXVrV0lUTklYTDhBWUd1LWV0YkJzUE5ieVI1bHp3SEJKb3VkWncySnZkbjBfYWcyQlJ4b0NaRGJidHJRcEk5V3RLWVhmQW5PclMtRHZKRk9fOEJmREJRNGpxWVBpd0l5a2Jacmk3cGNLV3hoREo2bjlBdHdibmJuWUdzNktNblA0cU1ULTRpU2ppb0JnbVhic01DUXZET1JXVXFFSnVFUGdSOHdtYVJiVm4tWGlUMldEMWhfUzhaM1BRS0VB0gHzAUFVX3lxTE1aX21sTlZCT1FRd3RBX29ZREE1Y2V6aHJlWWlta0EyTU1yT0dVdUc5UkZ3RURkLVhTQmRaOTlVbHRBSFA5aWVJNzZQVlQ4Q1N2TFhjeXk5Z0F0VlMtNUZhZUFpVzZodHRaWW93RmdRSXlPU3FWNzNuQTB2WUJ6d1NZX21LNVNTZXhCdjFvWjdyano2M2V3M0lpOE5HTXBIUUFkRGdzRzdwOTF2MHBaNGh3UlFhRUVIS3RzeFBUZEcwWS1CR3ZRMWN3WldVbTJnek5leFoyNVF1cklBMF8ydTQ3aVZ4YnFvUXNmTEhuQzZFMTlRRQ?oc=5
+summary: OpenAI launches legal AI platform, escalating race for law firm users Business Standard
+first_seen: '2026-09-18T05:58:31Z'
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX0JIY1c1QnFPU0h0SVJVUnFVYVZLaThnS0VoQzFNaUR2Zm5NNDExc25uaXVrV0lUTklYTDhBWUd1LWV0YkJzUE5ieVI1bHp3SEJKb3VkWncySnZkbjBfYWcyQlJ4b0NaRGJidHJRcEk5V3RLWVhmQW5PclMtRHZKRk9fOEJmREJRNGpxWVBpd0l5a2Jacmk3cGNLV3hoREo2bjlBdHdibmJuWUdzNktNblA0cU1ULTRpU2ppb0JnbVhic01DUXZET1JXVXFFSnVFUGdSOHdtYVJiVm4tWGlUMldEMWhfUzhaM1BRS0VB0gHzAUFVX3lxTE1aX21sTlZCT1FRd3RBX29ZREE1Y2V6aHJlWWlta0EyTU1yT0dVdUc5UkZ3RURkLVhTQmRaOTlVbHRBSFA5aWVJNzZQVlQ4Q1N2TFhjeXk5Z0F0VlMtNUZhZUFpVzZodHRaWW93RmdRSXlPU3FWNzNuQTB2WUJ6d1NZX21LNVNTZXhCdjFvWjdyano2M2V3M0lpOE5HTXBIUUFkRGdzRzdwOTF2MHBaNGh3UlFhRUVIS3RzeFBUZEcwWS1CR3ZRMWN3WldVbTJnek5leFoyNVF1cklBMF8ydTQ3aVZ4YnFvUXNmTEhuQzZFMTlRRQ?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+---
+
+# OpenAI launches legal AI platform, escalating race for law firm users
+
+OpenAI launches legal AI platform, escalating race for law firm users Business Standard
+
+## 笔记
+
+

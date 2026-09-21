@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yR2pTdnMxN0pFRUhhdDJ3YV
 canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yR2pTdnMxN0pFRUhhdDJ3YVpkQUlLQkZSWWFTZEc2X3NmLW9PTG1CdXA1Tk1CWUloa25yTlFTZU8tMVNXRFk5ZTF3MjZMb3VfeWc?oc=5
 summary: AI智能体的两极：机遇与风险并存 至顶网
 first_seen: '2026-09-19T23:53:00Z'
-last_seen: '2026-09-20T00:09:53Z'
-status: rejected
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yR2pTdnMxN0pFRUhhdDJ3YVpkQUlLQkZSWWFTZEc2X3NmLW9PTG1CdXA1Tk1CWUloa25yTlFTZU8tMVNXRFk5ZTF3MjZMb3VfeWc?oc=5
   seen_at: '2026-09-20T00:09:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcnhGejhXanB4bkFaSHFuNHkwNTFQcVhxS25fYllEakpsSGNsOWUxTE9meEZpend6MlEyQWlxMVoxc3FkdEZvMkRiSXNLeXlldHdSNDRHN3FaaGxpV2ZhSlJhSTVVNkVMSDVOcHg5WXBzVU5OajNmaElMUUgxaGJ5SkJ0V3RHN19j?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
   metrics: {}
   kind: news
 ---

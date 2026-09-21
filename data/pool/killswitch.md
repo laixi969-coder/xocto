@@ -30,16 +30,16 @@ url: https://killswitch-lang.org
 canonical_url: https://killswitch-lang.org
 summary: a programming language designed to be difficult for LLMs
 first_seen: '2026-09-19T19:40:28Z'
-last_seen: '2026-09-20T00:09:19Z'
+last_seen: '2026-09-21T00:16:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://killswitch-lang.org
-  seen_at: '2026-09-20T00:09:19Z'
+  seen_at: '2026-09-21T00:16:52Z'
   metrics:
-    points: 7
+    points: 10
     comments: 2
   kind: product
 ---

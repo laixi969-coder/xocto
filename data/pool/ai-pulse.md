@@ -32,8 +32,8 @@ url: https://github.com/leog/ai-pulse
 canonical_url: https://github.com/leog/ai-pulse
 summary: AI Pulse a fake LED strip beside the macOS Dock that shows agent status
 first_seen: '2026-08-10T22:07:41Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: rejected
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -93,6 +93,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1ENU9TWnpqdVMzdm1xLVltRFhfbmpVNFBOYWxYMzc1RDJ4M296eFdGUXpYMm1LejVHYTcyMEprZWVpOEczcURPSG9iR1pvdG9IU3FRM1BjRXRnZDlXYnFBODVMMHhrOXd2TE9jNlhQYjdEWGNNTm1WNjB5Z2xPdGIxRFRNWjM5UElJUkRSQlFJcXFrZGNZUnpsUW1TN1EycFdNY3Rmd2RSQWvSAbABQVVfeXFMTzNkcGRPck42d0E5WjBFMTdFU1NiMWFJMWNRajlUZWROc0huUVl5QUhtamZaMzJWdEtwUklLam1ScVZWWEtIcUk4RndPMUYyVG1MNHJkMnk4Zm5qdTlkWERfbkFiaEEweGJtQUJ3ZUFBczlrWDlibVhsUE1ZS2NZYmZhbDVic0M4MTgwY3NXOF81OG1PYldzTEEtd3Q0NXpuTi16SzROaEJBTjhqcThJd2g?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNTWlvNFdwdzhuYUlHTC0yYmQ3b1BtdXIwbE1SbVhSYTBkTHU5TXoyb2hKMWlld3JVVXREbW9jQ0VlclNvSmh5RDdfTzFCRnBDZ0R4QlZvT2pNRUxyMi1VVDY1VThRNVhvM2JXcldRTWxrbk5MVzhwblVDZTlhOV9GQ01Yb0ZrWFgwSEo0d2dGUEVSUmxCeE5ZNHFTWjdsRWdEVnNqTGczeVVJMkpmSzR2Q3FEZVpiTk1TcVdnQnZsUTRLOHZSbzRN0gHMAUFVX3lxTE1kTlVXeVZjV3BSMGQ3Uy1qN0FvWTNTYTJCRzhxZzVXRE9FX2ZvbGp6SzdULU56aGRKM1QtZE94bXVDODBSX01KT0NYVlhEUmlIdWNVcjdWV1V6TW9zTnBHMmRwOTRteUpiWHNpNzk0b0pJUk9QMF9sbU10VWxNSDNad0xtT0QtY291QVR0b3FDXzNzSWhyNHhYdFRudU9XT0ZhSXktenZCZDVKSVZiVWRqSDVsX0pDTFlUNTFKQXlVa2xrbUR0THROckdVTA?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
   metrics: {}
   kind: news
 ---

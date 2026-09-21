@@ -31,16 +31,16 @@ summary: Long-term memory runtime for AI agents — plain Markdown as the source
   retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API
   key.
 first_seen: '2026-09-01T21:52:29Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tigerless-labs/agent-memory
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 956
+    stars: 959
     forks: 61
     open_issues: 21
   kind: product

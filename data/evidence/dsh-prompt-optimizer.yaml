@@ -93,3 +93,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者'
+- id: ev-96e251438902eca3
+  project_slug: dsh-prompt-optimizer
+  url: https://github.com/WestFox-AwA/dsh-prompt-optimizer
+  title: dsh-prompt-optimizer
+  published_at: '2026-09-11T10:42:22Z'
+  collected_at: '2026-09-21T00:16:56Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DSH Web 插件 · 提示词优化器（SPEC v0.5 依据驱动架构）：把用户的一句话补成『带依据的执行指令』——依据只搬不造（原话／会话上下文／项目文件，每条事实带出处），只补五类缺口（指代定位／验收判据／约束边界／隐含决定／入口锚点），档位＝依据预算，默认面向
+    PTC 执行体。不写形式模板与验证套话。 | repository stars: 72'

@@ -33,16 +33,16 @@ canonical_url: https://bankmcp.dk
 summary: 'BankMCP™: your AI can now read your bank. Self-hosted, read-only MCP server for your own bank
   accounts via open banking (Enable Banking). Standard MCP; tested with Claude and Ollama.'
 first_seen: '2026-09-07T09:06:03Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://bankmcp.dk/
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 245
+    stars: 248
     forks: 39
     open_issues: 0
   kind: product

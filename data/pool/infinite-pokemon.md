@@ -34,17 +34,17 @@ canonical_url: https://infinite-pokemon-blond.vercel.app
 summary: A Pokémon-style adventure built with Codex, featuring AI-generated maps, NPCs, branching saves,
   and multiplayer. The adventure never ends.
 first_seen: '2026-09-14T01:06:12Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://infinite-pokemon-blond.vercel.app/
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 98
-    forks: 19
+    stars: 114
+    forks: 24
     open_issues: 0
   kind: product
 ---

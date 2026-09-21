@@ -20,8 +20,8 @@ url: https://moonapp.lv
 canonical_url: https://moonapp.lv
 summary: track your mood and see what fills and drains it
 first_seen: '2026-09-03T11:54:56Z'
-last_seen: '2026-09-05T00:07:08Z'
-status: rejected
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -36,6 +36,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQdGYtNnlaRjVpMllRMWprZk04dTZob2VmdjJ4TE5SdTI1OURwRGdCWmRmeXZfSTVmM0ludVVfUVNCOXQyNl8zT252MVZiYUlIY1IxUkpPUGlQODdTUkJON2lxX3dTYjV1OWhiU0ptRXNQalhTVlpuVE9SQi1SRFphWnJCZ0NCYTFZcG9fUlA0WUNRcnRScWc?oc=5
   seen_at: '2026-09-05T00:07:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SRndmYTBQaS1FSWcwdXBoVlRrMWRwZURfQkJfa1BwM3ZfY3FwTy1fNV9NYmdTTkYzd3p3Nk80TUg1d2J5MjhRZDlzbkNFMHNjZWl1Tzhn?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
   metrics: {}
   kind: news
 ---

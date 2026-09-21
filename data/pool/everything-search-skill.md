@@ -37,16 +37,16 @@ canonical_url: https://github.com/Mayuqi-crypto/everything-search-skill
 summary: ⚡ Ultra-fast, index-powered local file search skill for AI agents (Cursor, Codex, PI-Desktop)
   using Voidtools Everything
 first_seen: '2026-09-19T06:08:37Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Mayuqi-crypto/everything-search-skill
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 42
+    stars: 49
     forks: 2
     open_issues: 0
   kind: product

@@ -24,17 +24,17 @@ url: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-s
 canonical_url: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b
 summary: OpenAI and others made illegal agreement on AI slowdown
 first_seen: '2026-09-19T18:36:44Z'
-last_seen: '2026-09-20T00:09:19Z'
-status: market_context
+last_seen: '2026-09-21T00:16:52Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b
-  seen_at: '2026-09-20T00:09:19Z'
+  seen_at: '2026-09-21T00:16:52Z'
   metrics:
-    points: 42
-    comments: 14
+    points: 54
+    comments: 22
   kind: news
 ---
 

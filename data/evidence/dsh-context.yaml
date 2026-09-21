@@ -1975,3 +1975,45 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-1d3f0c02b576bb36
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/awwwards-mcp
+  title: Awwards-mcp
+  published_at: '2026-09-18T10:57:09Z'
+  collected_at: '2026-09-21T00:16:56Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode,
+    ZCode…) design inspiration from award-winning websites — search with real screenshots, pull design
+    DNA, capture and record live sites. A Mobbin alternative. No API key. | repository stars: 41'
+- id: ev-120637c25856db73
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@toddzheng024/dscode
+  title: dscode
+  published_at: '2026-09-11T09:40:02Z'
+  collected_at: '2026-09-21T00:16:56Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP
+    and session telemetry | repository stars: 159'
+- id: ev-db41f8242b528abf
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/deepseekharness-acp-interactive
+  title: dsh-acp-interactive
+  published_at: '2026-09-02T06:25:26Z'
+  collected_at: '2026-09-21T00:16:56Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Editor-facing ACP server for Zed and other ACP clients, composed from published DeepSeek Harness
+    plugins. Community-maintained; not affiliated with DeepSeek. | repository stars: 99'
+- id: ev-d0226f58f05cf0a8
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/aside-codemode
+  title: aside-codemode
+  published_at: '2026-09-13T09:08:26Z'
+  collected_at: '2026-09-21T00:16:56Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'One call where Aside used to spend fifty — rg-backed search, Aside-shaped file tools, and batched
+    browser work inside a single sandboxed JavaScript block. On a real folder, 55s of find+grep became
+    1s. | repository stars: 121'

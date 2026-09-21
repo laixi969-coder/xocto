@@ -30,8 +30,8 @@ url: https://www.producthunt.com/products/drive-gforce-telemetry
 canonical_url: https://producthunt.com/products/drive-gforce-telemetry
 summary: Vehicle telemetry for your next weekend drive with LPR alert
 first_seen: '2026-09-09T16:20:28Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: rejected
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -54,6 +54,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbmNMRlBDbThyczV5TjEyUVZ0OEpXejBjRnJ5QlIwdFVPOGp5QUpwMW1rcUg4cklZZXNYSUMxaFBxWnJOM1Q4R1E1SXlUWmNVR3ZEOThWVk1iSDh6NE4xcHlybjUyaDI4NFF5RS1pNVFtY1ptRlNCODBsVU9HZUNjVEp6NU9EUk4yVGp6VHlKYUJNb0JtNlRPNGhnR2V2N1A0WUJ5ZUdINEk2eUN6bThIWjUtQkhzQ3ZjUGVwRGU0ejdsZFd4SWlFUk9jYkY4U0gxaGZrSGs0QTkzTEk?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWnRUcTVWS0lVa3JrTmozT3ZEajVqWnQxYnlaaldzVUNkRlNaVEgxSWlSZTY2OWdPREhveDVjY2RRQ2tlMWtVcW1XaDRIOFNMaHN3VUNERVc3OWlKS2ZSTlVid2lMWDZXM19xbXdzenZlWGJmZVlWS2l0S3FfeVMwTnFETWJiS2Zy?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGg3ZlBTMkZHSlhqTWhkUEZWM21LOFB0MTdNYzV0MkNyZWdIcU9HeUc4MzJwOUgtRDdVUEJ4RnNZZ3NYRFBPMHB6eWQ3Y3E5aXZGV1NYNjZLSkZKYzZ2ZnZQUnJvV3VzdXQtWGtYdDVkdXpfMkRTT0I1Ykk0SnNNbGZlbXhIY1huNkNtc0NJeURtX2YyWHQyaGZwTm55cGE2RzFYVmZ2VHhTbmwwZFN4cXZDa3JyV1RvSXI4QTc0VHI?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
   metrics: {}
   kind: news
 ---

@@ -34,17 +34,17 @@ canonical_url: https://github.com/ruc-datalab/EvoOntology
 summary: 'EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex
   建立&进化本体层'
 first_seen: '2026-09-15T01:57:40Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ruc-datalab/EvoOntology
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 188
-    forks: 17
+    stars: 211
+    forks: 20
     open_issues: 1
   kind: product
 ---

@@ -22,17 +22,17 @@ summary: 'The curated hub for migrating to Rust and eliminating memory-safety vu
   rewrites, C2Rust case studies, production adoptions at scale, interop tooling, and the evidence behind
   it. Originally based on malisper/awesome-ai-rust-rewrites (CC0).'
 first_seen: '2026-09-08T04:26:07Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kevincouton/awesome-rust-migrations
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 45
-    forks: 2
+    stars: 46
+    forks: 3
     open_issues: 3
   kind: product
 ---

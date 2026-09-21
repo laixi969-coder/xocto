@@ -28,10 +28,11 @@ url: https://www.tryisle.com
 canonical_url: https://tryisle.com
 summary: managed application environments for computer-use agents
 first_seen: '2026-09-07T17:02:15Z'
-last_seen: '2026-09-08T14:34:23Z'
-status: watching
+last_seen: '2026-09-21T00:17:23Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://www.tryisle.com
@@ -40,6 +41,11 @@ sightings:
     points: 12
     comments: 1
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBSa0pZak1hNW1XNS0yMzczWW5ULXRwYV92cG1jQkN0ekd5bjEyeGstMUlEUGlXdE5HVGVLN1NuRVhkdXktWjY4VDZCWWRSN2ZxMmxNOFZXZWZlWWFHM0pXWEFtMVdLWTl3MU5FRVNUZDJXZl9CZ2VqYQ?oc=5
+  seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
 ---
 
 # Isle

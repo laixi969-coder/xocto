@@ -20,17 +20,17 @@ url: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai
 canonical_url: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai
 summary: I think you should almost never use AI to write
 first_seen: '2026-09-19T16:35:24Z'
-last_seen: '2026-09-20T00:09:19Z'
-status: rejected
+last_seen: '2026-09-21T00:16:52Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai
-  seen_at: '2026-09-20T00:09:19Z'
+  seen_at: '2026-09-21T00:16:52Z'
   metrics:
-    points: 200
-    comments: 115
+    points: 340
+    comments: 165
   kind: news
 ---
 

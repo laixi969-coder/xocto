@@ -34,16 +34,16 @@ canonical_url: https://github.com/huang-sh/PiX
 summary: 'A non-linear AI agent workbench — session is a tree: branch anytime, and context follows the
   branch'
 first_seen: '2026-09-04T08:20:23Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huang-sh/PiX
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 162
+    stars: 170
     forks: 10
     open_issues: 7
   kind: product

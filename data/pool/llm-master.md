@@ -20,17 +20,17 @@ url: https://notes.kamacoder.com/llm/
 canonical_url: https://notes.kamacoder.com/llm
 summary: 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。
 first_seen: '2026-09-12T07:33:31Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://notes.kamacoder.com/llm/
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 795
-    forks: 79
+    stars: 828
+    forks: 83
     open_issues: 3
   kind: product
 ---

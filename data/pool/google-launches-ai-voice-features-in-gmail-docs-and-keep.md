@@ -24,8 +24,8 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWm
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWmtvRW1oWnJ5aFNfRUUxQV8tSERkSHJCOXpWVWthUkg2RVFUSS1ncHhBRzdINm8yVTJwdU1ZdlcxQVJJWDRyOUZ1b21FNnhrUl9LMkJTeldNYm9yeDI1XzVWUFNJUWdySDE3VUloUGRzWWVqNjljRy1nWWswRXQ0MlNYUQ?oc=5
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
-last_seen: '2026-09-13T00:02:40Z'
-status: rejected
+last_seen: '2026-09-21T00:16:52Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -67,6 +67,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOWEF4YVFKUDYwTE1jZW5wcmJJTWxlWGpadnNVWUt3WVQ2TU9BZDVFbTNJVzdGaDhMNVdzZTZ1OUdBSWNQMFZKWnBFb3RoX2ZfSDVpUG4tYUItcFBnLW9tamdQcEJzMmpFYUNuOFZHb01JdlE1aTlRRHhDeUxscjZWdE5TS3FmQkxwMU04d2RhclJubC1qWDVqcXhR?oc=5
   seen_at: '2026-09-13T00:02:40Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2
+  seen_at: '2026-09-21T00:16:52Z'
+  metrics:
+    points: 55
+    comments: 42
   kind: news
 ---
 

@@ -37,7 +37,7 @@ canonical_url: https://github.com/shadcn-ui/lint
 summary: An agent-first linter for Tailwind design systems. Write design system rules that agents can
   verify.
 first_seen: '2026-09-02T11:51:38Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
@@ -45,11 +45,11 @@ sources:
 sightings:
 - source: github
   url: https://github.com/shadcn-ui/lint
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 2174
-    forks: 38
-    open_issues: 14
+    stars: 2228
+    forks: 41
+    open_issues: 8
   kind: product
 - source: marketfeeds
   url: https://tech.eu/2026/09/16/hoxton-ventures-backs-human-hair-toothpaste-pioneer-in-4m-round/

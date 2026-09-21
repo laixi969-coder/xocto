@@ -18,3 +18,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 软件工程师把 公开代码仓库 Issue 与 PR 反馈转成经过测试的代码改动'
+- id: ev-4dfcfa6ed537bfa5
+  project_slug: repopilot
+  url: https://github.com/indada/repopilot
+  title: repopilot
+  published_at: '2026-09-18T03:36:12Z'
+  collected_at: '2026-09-21T00:16:56Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Verification-driven AI software iteration, powered by the OpenAI Codex SDK. Self-hosted agents
+    turn goals, GitHub Issues and PR feedback into tested, reviewable changes, with bounded execution
+    and human control over merging and deployment. | repository stars: 153'

@@ -20,16 +20,16 @@ url: https://github.com/CosmosMind-ai/RSI-Harness
 canonical_url: https://github.com/CosmosMind-ai/RSI-Harness
 summary: 'RSIH — versionable, shareable agent harness: Pi coding agent + Genome config layer'
 first_seen: '2026-09-03T08:45:37Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CosmosMind-ai/RSI-Harness
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 695
+    stars: 703
     forks: 25
     open_issues: 11
   kind: product

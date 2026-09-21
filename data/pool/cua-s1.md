@@ -37,17 +37,17 @@ url: https://github.com/trycua/cua
 canonical_url: https://github.com/trycua/cua
 summary: A System One Model for Computer Use
 first_seen: '2026-09-19T15:52:51Z'
-last_seen: '2026-09-20T00:09:19Z'
+last_seen: '2026-09-21T00:16:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/trycua/cua
-  seen_at: '2026-09-20T00:09:19Z'
+  seen_at: '2026-09-21T00:16:52Z'
   metrics:
-    points: 57
-    comments: 7
+    points: 89
+    comments: 10
   kind: product
 ---
 

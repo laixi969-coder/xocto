@@ -20,8 +20,8 @@ url: https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people
 canonical_url: https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368
 summary: AI models don't kill people – people kill people
 first_seen: '2026-09-13T13:33:34Z'
-last_seen: '2026-09-20T00:09:53Z'
-status: rejected
+last_seen: '2026-09-21T00:16:52Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -44,6 +44,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1ZVQ25XYUI0cDFvRUQ4d0UwZ1ZRbF91WXpweU9pQVVPaHhyNUpSREZtWUNyRUJXNnd3X0lZSTFQYTVJdmh2aDd3YTFyOU5IYnEzenRHOWR5VHdwNmMyUXFjVXlPTWpzZ2VkbGppOXlHME9yMzhIRElHYW1sQUZFZjUydlAxVXNiN1l1QUZlQk5lTjMyeld3dU81TU0zNm01bkNpLWFiNXRYVllwYks3MENR?oc=5
   seen_at: '2026-09-20T00:09:53Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282
+  seen_at: '2026-09-21T00:16:52Z'
+  metrics:
+    points: 40
+    comments: 52
   kind: news
 ---
 

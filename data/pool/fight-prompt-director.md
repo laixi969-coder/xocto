@@ -33,16 +33,16 @@ url: https://github.com/irenerachel/fight-prompt-director
 canonical_url: https://github.com/irenerachel/fight-prompt-director
 summary: AI动作导演Skill | Fight-scene prompt choreography for Seedance, MiniMax-H3 and AI video models
 first_seen: '2026-09-02T03:16:50Z'
-last_seen: '2026-09-20T00:09:25Z'
+last_seen: '2026-09-21T00:16:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/irenerachel/fight-prompt-director
-  seen_at: '2026-09-20T00:09:25Z'
+  seen_at: '2026-09-21T00:16:56Z'
   metrics:
-    stars: 43
+    stars: 44
     forks: 4
     open_issues: 0
   kind: product

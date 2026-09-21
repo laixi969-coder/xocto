@@ -24,8 +24,8 @@ url: https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo
 canonical_url: https://bbc.co.uk/news/articles/c6n07ypqz8kzo
 summary: Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity
 first_seen: '2026-09-16T14:32:15Z'
-last_seen: '2026-09-20T00:09:53Z'
-status: rejected
+last_seen: '2026-09-21T00:16:52Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -44,10 +44,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit
-  seen_at: '2026-09-20T00:09:19Z'
+  seen_at: '2026-09-21T00:16:52Z'
   metrics:
-    points: 106
-    comments: 32
+    points: 180
+    comments: 49
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNR21KYmVMdkc2RFVTN210MWg2Y3JwcHQtdTdUbnR1cGhxdl82MTRiUklUb2xtcnlDZnZkMmlIZUt4ZGQ5OGJJZXc4MnYyVnpDYjlHUnBrVEs1UWtVQjl6NnpyWEkweDhzX205bVpLWVZoMEhBWTg4Uy00UDgtUTN5QjFjWk5nNzlCVWlIT2oxcTZOdw?oc=5
