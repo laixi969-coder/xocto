@@ -1,0 +1,44 @@
+- id: req-initial-tz100-2026-09-21
+  project_slug: tz100
+  level: initial
+  reviewed_at: '2026-09-21T00:16:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者从零写十款游戏并调试到可玩的耗时问题，痛点来自工作量而非猜测，交付是可上线可玩的游戏。
+    evidence_ids:
+    - ev-00c9fa3fbc2fe048
+  - gate: consensus
+    status: insufficient
+    reason: 帖子有 18 条评论，说明有人关注，但没有可归因到该站点的持续使用或留存证据。
+    evidence_ids:
+    - ev-00c9fa3fbc2fe048
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明任何收费方式或买方，作者自述消耗的是自己的订阅额度，付费路径属推断。
+    evidence_ids:
+    - ev-00c9fa3fbc2fe048
+  - gate: truth
+    status: insufficient
+    reason: 作者称反复调试到可玩级别，说明人工确认仍在，但联机与调试的具体边界未交代。
+    evidence_ids:
+    - ev-00c9fa3fbc2fe048
+  next_validation: 收集 tz100.com 的公开访问或玩家反馈数据，确认这些游戏是否被重复游玩而非一次性浏览。
+  market: ''
+  job: 独立开发者在想快速上线一批可玩的小游戏时，用模型生成游戏逻辑与站点，再反复调试到可玩并处理联机房间。
+  job_en: An indie developer wanting to launch a batch of playable small games uses a model to generate
+    game logic and the site, then iterates to playable quality and handles online rooms.
+  pain: 从零写十款游戏并调试到可玩需要大量编码与试错时间，个人开发者难以在短期内完成，这是结构推理而非用户口述。
+  pain_en: Writing ten games from scratch and debugging them to playable quality takes heavy coding and
+    trial-and-error time that a solo developer struggles to fit into a short period; this is structural
+    inference, not user testimony.
+  current_alternative: 旧做法是自己写代码或买现成模板，逐款开发并单独处理联机与调试。
+  current_alternative_en: The old practice is writing the code yourself or buying templates, developing
+    each title separately and handling multiplayer and debugging one by one.
+  usage_reason: 推断：模型直接产出游戏逻辑与站点代码，开发者把精力放在反复调试和联机收尾上，省掉从零编写这一步，因此想快速铺量试水的独立开发者会在做小游戏时选择它；但资料未提供留存或复购证据。
+  usage_reason_en: 'Inference: the model produces game logic and site code directly, letting the developer
+    spend effort on iteration and multiplayer finishing instead of writing from scratch, so indie developers
+    wanting to test many ideas quickly would choose it for small games; no retention or repeat-use evidence
+    is provided.'

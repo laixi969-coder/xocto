@@ -1,0 +1,42 @@
+- id: req-initial-tinybrains-2026-09-21
+  project_slug: tinybrains
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决小模型缺少统一可比评测场地的问题，痛点存在但公开材料未说明赛制与交付结果，价值结构尚不完整。
+    evidence_ids:
+    - ev-fa31ff5431eb6e34
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无法判断参赛者是否形成持续参与，也未说明卡在感知还是场景环节。
+    evidence_ids:
+    - ev-fa31ff5431eb6e34
+  - gate: model
+    status: insufficient
+    reason: 未披露任何收费、赞助或买方信息，钱可能来自赛事赞助或教育机构，属判断而非已验证事实。
+    evidence_ids:
+    - ev-fa31ff5431eb6e34
+  - gate: truth
+    status: insufficient
+    reason: 无法核对评测是否公平、结果能否确定性交付，人工边界与安全规则也未说明。
+    evidence_ids:
+    - ev-fa31ff5431eb6e34
+  next_validation: 收集该竞赛官网的赛制说明、评测规则与历届结果页面，确认交付物与参与规模。
+  market: ''
+  job: 算法学习者或研究者在小算力条件下训练策略游戏智能体，需要把自己的模型放到统一规则下与他人模型对局，以判断水平高低。
+  job_en: An algorithm learner or researcher training a strategy-game agent under limited compute needs
+    to pit their model against others under shared rules to judge its level.
+  pain: 缺少统一、可比的评测场地，自测结果无法与外部模型对照，训练成果难以被外部认可。
+  pain_en: There is no unified, comparable evaluation venue, so self-testing results cannot be compared
+    with outside models and training outcomes are hard to have recognized externally.
+  current_alternative: 目前多靠论文榜单、自建脚本对局或在社区发帖约战，流程零散且结果不可比。
+  current_alternative_en: Today people rely on paper leaderboards, self-built match scripts or community
+    posts to arrange matches; the process is fragmented and results are not comparable.
+  usage_reason: 推断：若擂台提供统一规则与公开对局记录，参赛者可省去自建评测环境这一步，直接拿到可对外展示的对局结果，因此小模型训练者和教学场景可能选择它；但公开材料未给出赛制与留存证据。
+  usage_reason_en: 'Inference: if the arena provides shared rules and public match records, participants
+    skip building their own evaluation environment and get presentable match results, so small-model trainers
+    and teaching settings may choose it; however the public material gives no format or retention evidence.'

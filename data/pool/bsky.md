@@ -21,7 +21,7 @@ canonical_url: https://bsky.app/profile/hnwiki.bsky.social
 summary: A Bluesky bot that shares Wikipedia links from the HN front page
 first_seen: '2026-09-01T04:45:04Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

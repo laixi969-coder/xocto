@@ -2,32 +2,38 @@
 slug: pitch
 name: Pitch
 builder: ''
-category: AI + 创作
-summary_zh: Pitch 提供免费演示文稿模板，用户可在线编辑并协作制作演示文稿，AI 辅助生成幻灯片内容，最终交付可分享的演示文稿文件。
-inspiration: 趋势是演示文稿工具从本地编辑转向云端协作和 AI 辅助生成。切入可从垂直场景（如销售提案、融资路演）提供行业模板和内容建议，按模板或高级功能收费。
-summary_en: Pitch offers free presentation templates, allowing users to edit and collaborate online, with
-  AI-assisted slide content generation, delivering shareable presentation files.
-inspiration_en: 'Trend: presentation tools shift from local editing to cloud collaboration and AI-assisted
-  generation. Entry: provide industry-specific templates and content suggestions for vertical scenarios
-  like sales pitches or fundraising, charging for templates or premium features.'
+category: AI + 效率
+summary_zh: 创业者和销售在准备路演或客户提案时，把零散的业务要点、数据和品牌素材交给 Pitch，由它生成可编辑的演示文稿模板与页面，用户再逐页调整后导出成可演示的幻灯片；具体 AI 参与环节与交付边界仍待核验。
+inspiration: 趋势：演示文稿生成已是拥挤赛道，但“AI 味太重反而丢单”的反馈说明买方开始为可信度而非生成速度付费。切入：面向融资顾问或 B2B 销售团队做“人工把关 + 行业数据校验”的提案交付服务，按份收费，而不是再做一个通用生成器。
+summary_en: Founders and sales teams preparing a pitch or client proposal hand scattered business points,
+  data and brand assets to Pitch, which produces editable deck templates and pages that the user then
+  adjusts page by page and exports as a presentable slide deck; the exact AI steps and delivery boundary
+  still need verification.
+inspiration_en: 'Trend: deck generation is crowded, but feedback that over-AI-generated decks lose deals
+  shows buyers starting to pay for credibility rather than generation speed. Entry: serve fundraising
+  advisers or B2B sales teams with a human-reviewed, industry-data-checked proposal delivery service priced
+  per deck, instead of another generic generator.'
 priority_review: false
-project_type: ai_transformation
+project_type: new_application
 industries:
-- 企业服务
+- 创业服务
+- 商务咨询
 - 市场营销
 industries_en:
-- Enterprise services
-- Marketing
+- startup services
+- business consulting
+- marketing
 jobs:
-- 商务人士
-- 市场营销人员
+- 创业者与销售人员在准备融资路演或客户提案时，把零散的业务要点整理成可演示的幻灯片
 jobs_en:
-- Business professionals
-- Marketers
+- Founders and sales staff assembling scattered business points into a presentable slide deck for fundraising
+  or client proposals
 regions:
-- 全球
+- 北美
+- 欧洲
 regions_en:
-- Global
+- North America
+- Europe
 open_source: false
 url: https://www.aicpb.com/product/Pitch/webid1D6F37829
 canonical_url: https://aicpb.com/product/Pitch/webid1D6F37829
@@ -35,7 +41,7 @@ summary: Deliver your next deck faster with our free presentation templates. The
   professionally designed, and delightfully easy to use.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: watching
 sources:
 - aicpb
 - newssearch

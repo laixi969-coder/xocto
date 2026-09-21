@@ -1,0 +1,44 @@
+- id: req-initial-metas-muse-is-creepy-but-maybe-not-for-the-reasons-you-think-2026-09-21
+  project_slug: metas-muse-is-creepy-but-maybe-not-for-the-reasons-you-think
+  level: initial
+  reviewed_at: '2026-09-21T00:17:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨应用查找与汇总的需求，但报道未给出用户痛点、采用或替代行为的直接证据，痛点刚性无法确认。
+    evidence_ids:
+    - ev-afa01eab1648db6e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一篇报道，未显示用户规模、口碑或持续使用，共识环节缺少可核对信号。
+    evidence_ids:
+    - ev-afa01eab1648db6e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，Meta 可能以生态捆绑而非直接收费，付费路径属推断，不是已验证事实。
+    evidence_ids:
+    - ev-afa01eab1648db6e
+  - gate: truth
+    status: challenged
+    reason: 报道指出 Muse 无法清楚描述自身定位，且读取个人消息与笔记带来隐私与授权边界问题，交付确定性存疑。
+    evidence_ids:
+    - ev-afa01eab1648db6e
+  next_validation: 收集 Meta 官方 Muse 产品页或帮助文档，核验其可访问的数据范围、权限授权方式与是否提供付费方案。
+  market: ''
+  job: 个人用户在 Mac 上处理日程、消息与笔记时，让助手读取这些应用里的内容并给出汇总或回应。
+  job_en: Individual users on a Mac letting an assistant read their calendar, messages and notes and produce
+    a summary or reply.
+  pain: 跨应用翻找信息耗时，且把个人消息、日程、笔记交给助手会带来隐私顾虑；报道未给出用户抱怨或采用行为，痛点强度缺少公开证据。
+  pain_en: Hunting across apps is time-consuming, and handing personal messages, calendar and notes to
+    an assistant raises privacy concerns; the report gives no user complaints or adoption behavior, so
+    pain intensity lacks public evidence.
+  current_alternative: 用户手动在 Messages、Calendar、Notes 之间切换查看，或使用系统自带搜索与 Spotlight 类工具。
+  current_alternative_en: Users manually switch among Messages, Calendar and Notes, or use built-in search
+    and Spotlight-like tools.
+  usage_reason: 推断：相较手动切换应用，Muse 通过一次读取多个本地数据源并直接给出答复，省去逐应用查找这一步，因此在意跨应用汇总的个人用户可能尝试；但报道未提供留存、复购或用户反馈，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: versus manually switching apps, Muse reads several local sources at once
+    and answers directly, removing the per-app lookup step, so individuals who value cross-app summarization
+    may try it; the report offers no retention, repeat-use or user feedback data, so long-term workflow
+    adoption cannot be confirmed.'

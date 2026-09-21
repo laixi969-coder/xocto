@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE56UF9fbnBQUEFv
 summary: 华为云与福龙马联合发布环卫具身智能新品AI 重塑城市环境服务新范式-AI云资讯 icloudnews.net
 first_seen: '2026-09-20T11:37:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

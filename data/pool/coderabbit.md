@@ -3,36 +3,36 @@ slug: coderabbit
 name: CodeRabbit
 builder: cebert
 category: AI + 开发
-summary_zh: CodeRabbit 是一款 AI 代码审查工具，开发者在提交拉取请求时使用。它接收代码变更，自动生成审查意见、摘要和代码走查，并在 公开代码仓库 评论线程中提供上下文对话。开发者可据此快速定位问题，但最终合并仍需人工确认。
-inspiration: 趋势：AI 代码审查正从辅助工具转向理解代码库和代理输出的安全层，强调隐私与成本优化。切入：可面向企业级开发团队，提供按结果或按席位的定价，并突出与 GPT-6 等模型的集成评估，建立信任。
-summary_en: CodeRabbit is an AI code review tool used by developers when submitting pull requests. It
-  receives code changes, automatically generates review comments, summaries, and walkthroughs, and offers
-  contextual conversations within public code repository comment threads. Developers can quickly identify
-  issues, but final merging still requires human confirmation.
-inspiration_en: 'Trend: AI code review is evolving from a helper to a security layer for understanding
-  codebases and agent outputs, emphasizing privacy and cost. Entry: Target enterprise development teams
-  with outcome-based or per-seat pricing, and build trust through evaluations with models like GPT-6.'
+summary_zh: 开发团队在提交合并请求后，由 CodeRabbit 自动读取代码差异并生成逐行审查意见与问题分类，把原本堆积在 PR 收件箱里的告警按优先级整理出来，最终交付一份可直接处理的审查清单，仍需工程师确认后合并。具体定价与交付边界仍待核验。
+inspiration: 趋势是代码审查这一环正从“人逐条读 diff”变成“机器先分诊、人只做裁决”，模型换代还会持续压低单次审查成本。切入可考虑面向中小研发团队或外包交付方，按仓库或按审查量计费，把分诊结果直接对接现有代码托管平台的合并流程，而不是再做一个通用聊天式编程助手。
+summary_en: After a merge request is opened, CodeRabbit reads the diff and produces line-level review
+  comments and issue triage, turning a noisy PR inbox into a prioritized review list that engineers still
+  confirm before merging. Pricing and delivery boundaries remain unverified.
+inspiration_en: The trend is that code review is shifting from humans reading every diff to machines triaging
+  first and humans adjudicating; newer models keep lowering per-review cost. An entry point is small or
+  outsourced engineering teams billed per repository or per review, wiring triage output into existing
+  code-hosting merge flows rather than building another general chat coding assistant.
 priority_review: false
 project_type: new_application
 industries:
-- 软件开发
+- 软件与信息服务
 industries_en:
-- Software Development
+- Software and IT services
 jobs:
 - 软件工程师
-- 开发团队负责人
 jobs_en:
-- Software Engineer
-- Development Team Lead
-regions: []
-regions_en: []
+- Software engineers
+regions:
+- 美国
+regions_en:
+- United States
 open_source: false
 url: https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation
 canonical_url: https://coderabbit.ai/blog/gpt-6-astra-code-review-evaluation
 summary: 'GPT-6 Astra in code review: Gains, privacy, and cost'
 first_seen: '2026-09-05T03:38:56Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - ia40

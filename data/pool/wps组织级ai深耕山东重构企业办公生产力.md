@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBISkdKYUVRLVFE
 summary: WPS组织级AI深耕山东，重构企业办公生产力 手机网易网
 first_seen: '2026-09-20T11:56:14Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

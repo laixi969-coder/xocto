@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/LightOriginsHQ/Light-O1-Preview-pla
 summary: ''
 first_seen: '2026-09-20T13:42:42Z'
 last_seen: '2026-09-21T00:17:14Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

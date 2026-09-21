@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XSUVHcEtQWXRG
 summary: Pattern栢藤首席营收官John LeBaron：新周期下品牌增长要抓住社交内容与AI新入口机遇- 跨境电商 亿邦动力网
 first_seen: '2026-09-20T03:57:05Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

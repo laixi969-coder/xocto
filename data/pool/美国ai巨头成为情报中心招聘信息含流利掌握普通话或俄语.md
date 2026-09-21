@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5haWVTU3RVYWVN
 summary: 美国AI巨头成为情报中心，招聘信息含“流利掌握普通话或俄语” 凤凰网
 first_seen: '2026-09-20T09:25:49Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

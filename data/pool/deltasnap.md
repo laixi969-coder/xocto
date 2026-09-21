@@ -21,7 +21,7 @@ canonical_url: https://scaleninja.com/deltasnap
 summary: APFS Snapshot Manager and Version Control for macOS (GA)
 first_seen: '2026-09-20T10:34:51Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,43 @@
+- id: req-initial-hackbot-arena-2026-09-21
+  project_slug: hackbot-arena
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 攻防能力缺少可复现评测环境的问题，痛点是搭靶场与判分全靠手工，旧做法是自建靶机或人工复现，属工作流推理。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 40 星与 9 次 fork，没有安全团队采用、引用或复用的公开记录，关注度不足以说明共识。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、商业主体或付费路径，钱从哪来无法判断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+  - gate: truth
+    status: insufficient
+    reason: 靶场是否贴近真实业务环境、判分是否会被 agent 绕过，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+  next_validation: 收集该仓库的 issue、discussion 与外部引用，确认是否有安全团队实际用它评测 agent 并公开结果。
+  market: ''
+  job: 安全研究员或 AI 智能体开发者在验证自家 agent 的 Web 渗透能力时，需要把 agent 放进一批可复现的漏洞环境里跑通并拿到可对比的解题结果。
+  job_en: Security researchers or AI agent developers validating their agent's web exploitation ability
+    need to run it against a set of reproducible vulnerable environments and get comparable solve results.
+  pain: 过去评测 agent 攻防能力要么用零散自建靶机，要么靠人工复现漏洞，环境搭建和判分都要手工做，结果难以横向比较。
+  pain_en: Evaluating an agent's offensive capability previously meant scattered self-built targets or
+    manual vulnerability reproduction, with setup and scoring done by hand and results hard to compare.
+  current_alternative: 自建 Docker 靶机、公开 CTF 题目、或人工复现漏洞后手工判分。
+  current_alternative_en: Self-built Docker targets, public CTF challenges, or manually reproducing vulnerabilities
+    and scoring by hand.
+  usage_reason: 相较自建靶机，它把 30 个取材自真实漏洞赏金的场景连同标准 flag 和参考解题脚本一起打包，省掉搭环境和写判分脚本这两步，因此需要横向比较多个 agent 的安全团队会先试它；这是基于产品能力的推断。
+  usage_reason_en: Compared with self-built targets, it packages 30 scenarios drawn from real bug bounty
+    findings together with canonical flags and reference solvers, removing the steps of building environments
+    and writing scoring scripts, so security teams comparing several agents would try it first; this is
+    inference from product capability.

@@ -21,7 +21,7 @@ canonical_url: https://chesterwisniewski.com/post/2026-09-13-ai-is-destroying-th
 summary: AI and the Destruction of the Creative Commons
 first_seen: '2026-09-20T10:07:51Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

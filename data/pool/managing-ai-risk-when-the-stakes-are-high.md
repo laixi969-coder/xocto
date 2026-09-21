@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxOckJzMWtUZXVC
 summary: Managing AI Risk When the Stakes Are High JD Supra
 first_seen: '2026-09-18T15:13:49Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQVGtOUkN2YjlN
 summary: 'License to Act: AI Agents in Regulated Industries Medium'
 first_seen: '2026-09-19T23:25:56Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

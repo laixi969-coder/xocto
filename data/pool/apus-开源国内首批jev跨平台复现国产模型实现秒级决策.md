@@ -1,6 +1,6 @@
 ---
 slug: apus-开源国内首批jev跨平台复现国产模型实现秒级决策
-name: APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策
+name: APUS
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/492939.html
 summary: 9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果
 first_seen: '2026-09-20T08:30:32Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策
+# APUS
 
 9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果
 

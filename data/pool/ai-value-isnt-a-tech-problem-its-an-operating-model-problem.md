@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQRy1OUG5PdndW
 summary: AI Value Isn't a Tech Problem. It's an Operating Model Problem. The Futurum Group
 first_seen: '2026-09-18T13:49:53Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

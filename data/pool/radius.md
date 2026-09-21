@@ -21,7 +21,7 @@ canonical_url: https://radius.to
 summary: A Meetup.com Alternative
 first_seen: '2026-09-20T16:51:26Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -29,7 +29,7 @@ canonical_url: https://tryisle.com
 summary: managed application environments for computer-use agents
 first_seen: '2026-09-07T17:02:15Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

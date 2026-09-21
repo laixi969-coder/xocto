@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPME9mZ2pfNDUt
 summary: How Investors Are Reacting To GE HealthCare Technologies (GEHC) AI Hospital Software Launch simplywall.st
 first_seen: '2026-09-20T11:40:47Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

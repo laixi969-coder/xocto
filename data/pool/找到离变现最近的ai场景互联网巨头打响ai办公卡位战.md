@@ -3,14 +3,14 @@ slug: 找到离变现最近的ai场景互联网巨头打响ai办公卡位战
 name: AI办公
 builder: ''
 category: ''
-summary_zh: 2026年8月至9月，多家互联网公司集中推出AI办公产品，报道称该赛道已从浅层模型比拼转向混合架构与开源基建，被视为离变现最近的AI场景。这意味着AI办公成为大厂争夺的商业化入口，竞争焦点从模型能力转向交付与底层基建，但材料未给出具体产品名称、定价或客户数据，相关判断为推断。
+summary_zh: 2026年8月至9月，多家互联网巨头围绕AI办公展开卡位竞争，报道指出该场景离变现最近，同时出现混合架构、开源基建、企业本地部署与办公智能体等落地路径。这意味着AI办公正从浅层模型比拼转向架构与交付能力的竞争，企业本地化部署和流程协同成为采用重点，对AI应用的成本、交付形态和竞争格局均有直接影响。
 inspiration: ''
-summary_en: Between August and September 2026, several internet companies launched AI office products
-  in quick succession; coverage describes the segment as shifting from shallow model comparisons toward
-  hybrid architectures and open-source infrastructure, and as the AI scenario closest to monetization.
-  This makes AI office a contested commercialization entry point, with competition moving from model capability
-  to delivery and underlying infrastructure; however, the material gives no specific product names, pricing,
-  or customer data, so this reading is an inference.
+summary_en: From August to September 2026, multiple internet giants competed for position in AI office
+  work, described as the scenario closest to monetization, with hybrid architectures, open-source infrastructure,
+  on-premise enterprise deployment and office agents emerging as implementation paths. This means AI office
+  competition is shifting from shallow model comparisons to architecture and delivery capability, with
+  on-premise deployment and process collaboration becoming adoption priorities, directly affecting cost,
+  delivery form and competitive landscape for AI applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmps
 summary: 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战 京报网
 first_seen: '2026-08-26T11:44:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

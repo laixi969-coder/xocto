@@ -1,0 +1,41 @@
+- id: req-initial-harbor-2026-09-21
+  project_slug: harbor
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么记录或整理需求、用户在哪个环节难受都写不出来，只有替代品定位与公开定价，价值关不成立。
+    evidence_ids:
+    - ev-6b5c925d3c417c3a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且候选没有采用、评价或迁移行为的公开记录。
+    evidence_ids:
+    - ev-6b5c925d3c417c3a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立；虽提到公开定价，但无具体价格、计价方式与买方信息。
+    evidence_ids:
+    - ev-6b5c925d3c417c3a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立；AI 在其中的角色与交付确定性均无材料支持。
+    evidence_ids:
+    - ev-6b5c925d3c417c3a
+  next_validation: 收集 Harbor 官方定价页与产品说明，确认其具体功能、AI 承担的动作与计价方式。
+  market: ''
+  job: 长期用笔记工具保存资料的个人用户在更换工具时，需要把旧笔记迁出并继续记录，同时不想承担不透明的订阅价格。
+  job_en: Individual users who keep material in a note tool long term need to move old notes out and keep
+    writing when switching tools, without an opaque subscription price.
+  pain: 候选只给出“Evernote 替代品”和公开定价两点，没有说明用户在记录、检索或整理环节具体卡在哪里，痛点无法还原。
+  pain_en: The candidate gives only 'Evernote alternative' and a public price, without saying where users
+    get stuck in capturing, retrieving or organizing, so the pain cannot be reconstructed.
+  current_alternative: 继续使用 Evernote，或改用其他笔记与文档工具。
+  current_alternative_en: Staying on Evernote, or switching to other note and document tools.
+  usage_reason: 公开材料只支持“价格写得明确”这一点，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此使用理由无法成立；这是事实不足，不是需求不存在的证明。
+  usage_reason_en: Public material supports only that the price is stated clearly; it cannot show which
+    step it removes versus the old way or which checkable result it improves, so the usage reason cannot
+    be established. This is missing evidence, not proof the need is absent.

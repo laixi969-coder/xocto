@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX0JIY1c1QnFP
 summary: OpenAI launches legal AI platform, escalating race for law firm users Business Standard
 first_seen: '2026-09-18T05:58:31Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

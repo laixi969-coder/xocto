@@ -1,0 +1,43 @@
+- id: req-initial-astra-flash-orchestrator-2026-09-21
+  project_slug: astra-flash-orchestrator
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码任务中计划、执行、验证混在一起、出错难定位的痛点，旧做法是人工分步提示与手动测试，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库约 245 星、12 次 fork，没有用户评价、issue 讨论或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是自建流程的工程团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+  - gate: truth
+    status: insufficient
+    reason: 验证步骤与可回滚安装是仓库自述，缺少可复现实测或第三方评价来确认交付是否稳定发生。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有团队报告在真实编码任务中重复使用并复现验证步骤。
+  market: ''
+  job: 软件工程师在本地 Codex 环境里接到一项编码任务时，需要把任务拆成阶段、逐段生成代码并留下可核对的验证记录。
+  job_en: A software engineer receiving a coding task in a local Codex environment needs to split it into
+    phases, generate code phase by phase and keep a checkable verification record.
+  pain: 单模型一次性生成代码时，计划、实现和验证混在一起，出错后难以定位是哪一步的问题，返工成本高。
+  pain_en: When a single model generates code in one shot, planning, implementation and verification blur
+    together, making it hard to locate which step failed and raising rework cost.
+  current_alternative: 旧做法是工程师自己写计划、手动分步提示模型、再人工跑测试确认，或直接接受一次性生成的结果。
+  current_alternative_en: The old way is for engineers to write the plan themselves, prompt the model
+    step by step, run tests manually, or simply accept a one-shot generation.
+  usage_reason: 推断：相较手动分步提示，它把计划与审查固定成一个前置阶段、把执行交给另一个模型，并附带验证步骤和可回滚安装，减少工程师自己维护提示顺序和回退方案的那一步负担，因此在意变更可追溯的团队会试用它。
+  usage_reason_en: 'Inference: compared with manual step-by-step prompting, it fixes planning and review
+    as a prior stage, hands execution to another model, and ships verification steps plus a reversible
+    install, removing the burden of maintaining prompt order and rollback plans, so teams that care about
+    traceable changes would try it.'

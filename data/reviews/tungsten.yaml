@@ -1,0 +1,42 @@
+- id: req-initial-tungsten-2026-09-21
+  project_slug: tungsten
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它是 PR 的终端收件箱，未说明解决什么需求、什么痛点，也看不出不采用的后果，价值关无法成立。
+    evidence_ids:
+    - ev-43c2fd99c000208d
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且社区讨论仅 5 分 0 评论，没有可归因到该产品的采用信号。
+    evidence_ids:
+    - ev-43c2fd99c000208d
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，且公开材料未说明买方、定价或任何付费路径。
+    evidence_ids:
+    - ev-43c2fd99c000208d
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，仓库说明未交代 AI 在 PR 分流中的具体动作与人工确认边界。
+    evidence_ids:
+    - ev-43c2fd99c000208d
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它是否真的用模型对 PR 做分类或摘要，以及交付物是什么。
+  market: ''
+  job: 开源项目维护者在终端里处理某个 公开代码仓库 仓库的 PR 时，需要把待审的 PR 集中到一个界面里逐条查看和分流。
+  job_en: An open-source maintainer working in the terminal on a public code repository repository's PRs
+    needs to gather pending pull requests into one interface for review and triage.
+  pain: 资料未说明维护者当前遇到的具体痛点，只给出“终端收件箱”这一形态，无法确认不解决会失去什么。
+  pain_en: The material does not state the maintainer's concrete pain, only the form of a terminal inbox,
+    so what is lost by not solving it cannot be confirmed.
+  current_alternative: 可推断的旧做法是打开 公开代码仓库 网页端 PR 列表逐条点击查看，但候选未提供任何替代行为的证据。
+  current_alternative_en: The inferable old practice is opening the public code repository web PR list
+    and clicking through items, but the candidate offers no evidence of this alternative behaviour.
+  usage_reason: 推断：若它能把 PR 列表留在终端内，维护者可少一次从命令行切到浏览器的动作；但资料未说明 AI 做了什么、交付什么，因此无法判断哪类维护者会因此选择它。
+  usage_reason_en: 'Inference: if it keeps the PR list inside the terminal, a maintainer saves one switch
+    from the command line to the browser; however the material does not say what the AI does or delivers,
+    so which maintainers would choose it cannot be judged.'

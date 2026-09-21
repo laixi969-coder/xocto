@@ -1,0 +1,43 @@
+- id: req-initial-机器人如何自进化乐享科技走了一条新路-2026-09-21
+  project_slug: 机器人如何自进化乐享科技走了一条新路
+  level: initial
+  reviewed_at: '2026-09-21T00:17:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决后厨连续出餐与打断后继续作业的需求，痛点真实；但直播中仍有停顿、失败和重新调整，交付能否确定发生未被证明。
+    evidence_ids:
+    - ev-fc8b21420047d4c1
+  - gate: consensus
+    status: insufficient
+    reason: 550万线上观众与30位媒体属于关注度，不是后厨买方的持续采用；没有客户案例或复购证据。
+    evidence_ids:
+    - ev-fc8b21420047d4c1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价或买方是门店还是机器人集成商，钱从哪来只能推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-fc8b21420047d4c1
+  - gate: truth
+    status: challenged
+    reason: “自进化”是公司自述且报道本身提出质疑，参数更新还是临时任务调整未澄清，安全与人工兜底边界也未说明。
+    evidence_ids:
+    - ev-fc8b21420047d4c1
+  next_validation: 收集乐享科技官方发布的 Aether 以太大模型技术文档或部署说明，核验“自进化”指参数更新还是任务级调整，以及是否披露餐饮场景客户与计价方式。
+  market: ''
+  job: 餐饮门店或中央厨房在营业高峰接到随机点单时，由机器人处理食材与工具、烤制翻面并上菜，把一单烧烤完整出餐。
+  job_en: During peak hours, a restaurant or central kitchen receiving random orders has a robot handle
+    ingredients and tools, grill, flip and serve, completing one grill order end to end.
+  pain: 后厨烧烤依赖熟练工连续盯火、翻面和上菜，人手紧张时出餐慢、品质不稳；临时加单或打断会打乱节奏。
+  pain_en: Grill work depends on skilled staff continuously watching heat, flipping and serving; with
+    thin staffing, output is slow and uneven, and added orders or interruptions break the rhythm.
+  current_alternative: 目前主要靠厨师手工完成，或使用固定程序的烧烤设备，遇到打断和变化需要人工重新接管。
+  current_alternative_en: Today this is mostly done by hand by cooks, or with fixed-program grilling equipment
+    that needs a human to take over when interruptions or changes occur.
+  usage_reason: 推断：相较固定程序设备，它试图在被打断或加单后自行重新寻找信息、调整动作继续推进任务，减少人工重新接管这一步；但直播中出现停顿与失败，是否真能减少人工介入尚无公开证据。
+  usage_reason_en: 'Inference: versus fixed-program equipment, it tries to re-find information and adjust
+    motions to continue after an interruption or added order, removing the step where a human takes over;
+    the livestream showed pauses and failures, so whether it truly reduces human intervention is not yet
+    publicly evidenced.'

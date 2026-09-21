@@ -21,7 +21,7 @@ canonical_url: https://blog.xutaxkamay.com/posts/hellgates
 summary: custom CPU gate-level challenge
 first_seen: '2026-09-19T21:44:07Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

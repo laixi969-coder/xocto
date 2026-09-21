@@ -1,0 +1,43 @@
+- id: req-initial-morsa-signals-2026-09-21
+  project_slug: morsa-signals
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决开发者工具的获客与 AI 可见性，但材料只有一句定位，说不清具体任务与痛点强度，价值结构无法成立。
+    evidence_ids:
+    - ev-a5408570bcacf1ae
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，无采用或评价证据可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a5408570bcacf1ae
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-a5408570bcacf1ae
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-a5408570bcacf1ae
+  next_validation: 收集 Morsa Signals 官方页面或定价页，确认它监测哪些 AI 渠道、输出什么交付物以及如何收费。
+  market: ''
+  job: 开发者工具公司的市场或增长负责人在做获客与品牌曝光时，处理渠道与内容表现，希望提升产品在 AI 回答中的可见度。
+  job_en: A marketing or growth lead at a developer-tool company working on acquisition and brand exposure
+    handles channel and content performance, and wants to raise the product's visibility in AI answers.
+  pain: 材料只给出 GTM 与 AI 可见性工作流一句，未说明负责人此前卡在哪一步、现有做法哪里不够、不做会有什么后果，痛点无法还原。
+  pain_en: The material gives only the phrase GTM and AI-visibility workflows; it does not say which step
+    blocked the lead, where current practice falls short, or what happens if it is not done, so the pain
+    cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，可能是人工搜索监测、SEO 工具或内容团队手工整理，均属推断。
+  current_alternative_en: The public material does not state the current alternative; manual search monitoring,
+    SEO tools or a content team doing it by hand are all inference.
+  usage_reason: 无法判断：材料未说明 AI 具体接收什么、执行哪一步、交付什么，无法解释相较旧做法减少了哪一步负担，也无法说明哪类团队会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what the AI receives, which step it performs
+    or what it delivers, so it is impossible to explain which burden is removed versus the old way or
+    which teams would choose it and when.'

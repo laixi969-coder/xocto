@@ -23,7 +23,7 @@ summary: LS Group Sharpens Focus on Turning AI into Business Results; Chairman K
   Innovation finance.biggo.com
 first_seen: '2026-09-20T01:35:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://denizlihub.com
 summary: 40 client-side developer and productivity tools
 first_seen: '2026-09-19T23:37:51Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

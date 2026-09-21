@@ -1,6 +1,6 @@
 ---
 slug: geekyants-joins-the-claude-partner-network-to-advance-secure
-name: GeekyAnts Joins the Claude Partner Network to Advance Secure, Production-Ready AI Product Development
+name: GeekyAnts
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: GeekyAnts Joins the Claude Partner Network to Advance Secure, Productio
   finchannel.com
 first_seen: '2026-09-20T18:15:50Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# GeekyAnts Joins the Claude Partner Network to Advance Secure, Production-Ready AI Product Development
+# GeekyAnts
 
 GeekyAnts Joins the Claude Partner Network to Advance Secure, Production-Ready AI Product Development finchannel.com
 

@@ -1,0 +1,44 @@
+- id: req-initial-enzo-2026-09-21
+  project_slug: enzo
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决数据与密钥控制权的问题，但公开材料没有说明原来的替代方式和痛点强度，需求结构写不出来。
+    evidence_ids:
+    - ev-5483f303c389ca39
+    - ev-5ecc7716b5477e73
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论和星标只说明关注度，不能说明用户已经长期使用。
+    evidence_ids:
+    - ev-5483f303c389ca39
+    - ev-5ecc7716b5477e73
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有定价、买方或付费路径信息。
+    evidence_ids:
+    - ev-5ecc7716b5477e73
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断自托管交付是否确定发生、安全边界如何。
+    evidence_ids:
+    - ev-5ecc7716b5477e73
+  next_validation: 收集该项目的官方文档或仓库 issue/discussion，确认用户实际接入的账号类型与自托管部署的完成度。
+  market: ''
+  job: 在意数据出境的个人用户在自己机器上，处理邮箱和日历等账号材料，要完成一次由自带模型密钥驱动的自动化任务。
+  job_en: A privacy-conscious individual on their own machine works with mailbox and calendar account
+    material to complete an automated task driven by their own model keys.
+  pain: 公开材料只说明它自托管、自带密钥，没有说明用户原来卡在哪一步、不解决会失去什么。
+  pain_en: The public material only says it is self-hosted and bring-your-own-key; it does not say which
+    step users were stuck on or what they lose without it.
+  current_alternative: 用户通常直接用云端 AI 助手或自己拼脚本接 API，公开材料未给出与这些做法的对比。
+  current_alternative_en: Users typically use cloud AI assistants directly or stitch scripts against APIs;
+    the public material offers no comparison with those approaches.
+  usage_reason: 推断：如果自托管确实让用户不必把邮箱和密钥交给第三方，在意数据控制权的用户会在处理敏感账号时选择它；但缺少用户反馈或案例，无法确认这一取舍真的成立。
+  usage_reason_en: 'Inference: if self-hosting really lets users avoid handing mailboxes and keys to a
+    third party, users who care about data control would pick it for sensitive accounts; without user
+    feedback or cases, that trade-off cannot be confirmed.'

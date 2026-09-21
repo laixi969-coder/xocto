@@ -42,3 +42,48 @@
   usage_reason_en: 'Inference: compared with manually querying several AI assistants one by one, it consolidates
     cross-assistant brand mentions and competitor comparisons into a recurring report, removing repeated
     manual checks, so brand teams already spending on AI search would adopt it.'
+- id: req-initial-profound-hits-18-billion-value-to-boost-brands-in-ai-search-2026-09-21
+  project_slug: profound-hits-18-billion-value-to-boost-brands-in-ai-search
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在生成式回答中不可见、不知从何改起的需求，痛点是流量与认知被替代，旧做法是人工截图与 SEO 工具，结构上成立。
+    evidence_ids:
+    - ev-96590dfe46fe2980
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户名单、使用规模或行业内的公开采用讨论，共识是否形成无法判断。
+    evidence_ids:
+    - ev-96590dfe46fe2980
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、按什么计价以及买方是品牌方还是代理机构，收入路径只能推断为 to B。
+    evidence_ids:
+    - ev-96590dfe46fe2980
+  - gate: truth
+    status: insufficient
+    reason: 从监测转向代执行营销动作后，交付是否确定、效果如何归因、人工审核边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-96590dfe46fe2980
+  next_validation: 收集 Profound 官方定价页或客户案例页，确认其计价方式、买方类型与交付结果口径。
+  market: ''
+  job: 品牌营销负责人在新品上市或口碑波动时，需要处理 AI 搜索与问答里关于自家品牌的回答内容，弄清哪些问题下品牌被漏掉或被负面描述，并据此调整对外内容。
+  job_en: A brand marketing lead, during a product launch or a reputation swing, needs to work through
+    how AI search and answer engines describe their brand, find which queries omit or misrepresent it,
+    and adjust external content accordingly.
+  pain: AI 回答不像传统搜索有稳定排名可查，品牌方看不到自己在生成式结果里的位置，也无法判断该改哪篇内容；不处理的后果是流量和认知被竞品或错误信息占走。
+  pain_en: Unlike traditional search, AI answers offer no stable ranking to check, so brands cannot see
+    their position in generative results or know which content to fix; the cost of inaction is losing
+    traffic and mindshare to competitors or misinformation.
+  current_alternative: 目前多靠人工在多个 AI 助手里反复提问截图、用表格记录，或沿用传统 SEO 工具，后者并不覆盖生成式回答。
+  current_alternative_en: Today teams mostly ask multiple AI assistants manually, screenshot and log results
+    in spreadsheets, or keep using traditional SEO tools that do not cover generative answers.
+  usage_reason: 相较人工逐条提问截图，它把跨多个 AI 助手的品牌提及采集与对比集中成持续监测，减少重复手工记录这一步，让营销人员能直接看到哪些问题下品牌缺失；这是基于产品能力的推断，尚无公开客户案例或留存数据支持。
+  usage_reason_en: Compared with manually querying and screenshotting each assistant, it centralizes brand-mention
+    collection and comparison across multiple AI assistants into continuous monitoring, removing the repetitive
+    manual logging step so marketers can see which queries miss the brand; this is an inference from product
+    capability, not backed by public customer cases or retention data.

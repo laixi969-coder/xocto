@@ -21,7 +21,7 @@ canonical_url: https://i-kh.net/p/if-ai-coding-is-lowering-your-code
 summary: If AI coding is lowering your code quality, you're not managing quality right
 first_seen: '2026-09-20T11:37:10Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

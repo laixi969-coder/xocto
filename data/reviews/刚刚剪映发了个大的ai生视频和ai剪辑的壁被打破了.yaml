@@ -1,0 +1,44 @@
+- id: req-initial-刚刚剪映发了个大的ai生视频和ai剪辑的壁被打破了-2026-09-21
+  project_slug: 刚刚剪映发了个大的ai生视频和ai剪辑的壁被打破了
+  level: initial
+  reviewed_at: '2026-09-21T00:17:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决素材到成片之间的拼接与对齐需求，痛点集中在跨工具搬运这一步；旧流程与不采用的后果可还原，属工作流推理。
+    evidence_ids:
+    - ev-5e3eefff1e58c0d5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句“好用”的评价，没有用户反馈、客户案例或采用数据，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-5e3eefff1e58c0d5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方是个人创作者还是团队无法确认；按席位还是按产出收费属判断，不是已验证事实。
+    evidence_ids:
+    - ev-5e3eefff1e58c0d5
+  - gate: truth
+    status: insufficient
+    reason: 生成与剪辑合并能否稳定交付成片、人工确认边界在哪，公开材料未说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-5e3eefff1e58c0d5
+  next_validation: 收集剪映官方对剪映Hub与剪映助手的定价页或功能说明文档，确认计费方式与交付形态。
+  market: ''
+  job: 短视频剪辑师或电商运营在拿到一批拍摄素材或商品图后，需要产出一条可发布的成片，用于投放或店铺展示。
+  job_en: A short-video editor or e-commerce operator who, after receiving a batch of footage or product
+    images, must produce a publishable cut for ads or storefront display.
+  pain: 生成工具与剪辑软件分离，素材要反复导出导入，成片前的拼接与对齐最耗时间，且生成结果常与剪辑时间线不匹配。
+  pain_en: Generation tools and editing suites are separate, so material is repeatedly exported and imported;
+    stitching and aligning before a finished cut eats the most time, and generated results often do not
+    match the editing timeline.
+  current_alternative: 用外部AI生视频工具出片段，再手动导入剪辑软件逐条对齐、配乐、加字幕。
+  current_alternative_en: Using an external AI video generator for clips, then manually importing them
+    into an editor to align, score and subtitle each one.
+  usage_reason: 推断：相较先导出再导入的旧做法，剪映把生成与剪辑放在同一流程内，减少一次跨工具搬运和对齐步骤，因此批量出片的剪辑师与电商运营会在赶投放节点时选择它。公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with the export-then-import routine, Jianying keeps generation
+    and editing in one flow, removing one cross-tool transfer and alignment step, so editors and e-commerce
+    operators producing clips in batches would pick it when an ad deadline is close. No retention or repeat-purchase
+    evidence is public.'

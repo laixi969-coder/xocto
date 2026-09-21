@@ -116,3 +116,42 @@
     any window; developers running several long tasks would therefore pick it while waiting. However,
     the public material contains no retention or repeated-use evidence, so whether it stays in the workflow
     long term is unclear.'
+- id: req-initial-ai-pulse-2026-09-21
+  project_slug: ai-pulse
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多代理并行时状态分散、需反复切窗口确认的问题，痛点方向成立，但公开材料未说明确认频率与不采用的代价，价值强度只能算初步。
+    evidence_ids:
+    - ev-ce1542ff6862d1d7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论与点赞，属于关注度信号，不能说明开发者已把它长期留在工作流里。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方与收费方式均未披露，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 状态展示贴近开发者真实任务，但代理状态来源、准确性与人工确认边界未说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，核对代理状态来源、准确性与实际使用反馈。
+  market: ''
+  job: 个人开发者在 macOS 上同时运行多个编码代理时，需要在不切换窗口的情况下判断每个代理是否还在运行、是否卡住。
+  job_en: An individual developer running several coding agents on macOS needs to tell, without switching
+    windows, whether each agent is still running or stuck.
+  pain: 多代理并行时状态分散在各个窗口，反复切换确认打断编码节奏；但公开材料未说明这种确认负担有多频繁、多痛。
+  pain_en: With many agents in parallel, status is scattered across windows and repeated switching breaks
+    the coding rhythm; public material does not show how frequent or painful this checking is.
+  current_alternative: 逐个切换终端或编辑器窗口查看输出，或依赖代理自身的通知。
+  current_alternative_en: Switching between terminal or editor windows to read output, or relying on the
+    agents' own notifications.
+  usage_reason: 推断：把状态集中到 Dock 旁一条常驻灯带，省去切换窗口这一步，因此重度并行使用编码代理的开发者可能愿意常驻它；但缺少留存或重复使用证据，无法确认它已进入日常工作流。
+  usage_reason_en: 'Inference: concentrating status into a persistent strip beside the Dock removes the
+    window-switching step, so heavy parallel users of coding agents may keep it running; there is no retention
+    or repeat-use evidence to confirm it is part of a daily workflow.'

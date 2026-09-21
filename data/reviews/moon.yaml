@@ -1,0 +1,43 @@
+- id: req-initial-moon-2026-09-21
+  project_slug: moon
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决情绪记录与回顾，但材料未说明具体任务、痛点强度与不采用的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-9054aaa0b02963e9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，仅有少量社区讨论，无法判断共识卡在感知、场景还是利益。
+    evidence_ids:
+    - ev-9054aaa0b02963e9
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，无定价或付费路径信息，买方不明。
+    evidence_ids:
+    - ev-9054aaa0b02963e9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对交付是否确定发生，也看不到安全与人工边界。
+    evidence_ids:
+    - ev-9054aaa0b02963e9
+  next_validation: 收集 Moon 官方页面或应用商店说明，确认它记录什么输入、AI 输出什么结论以及是否收费。
+  market: ''
+  job: 关注情绪状态的个人在每天结束时记录心情，并希望看清哪些事让自己充实或消耗，以完成对自身状态的回顾。
+  job_en: An individual tracking their emotional state logs mood at the end of each day and wants to see
+    which events fill or drain them, completing a review of their own state.
+  pain: 材料只说明记录情绪与看清充实或消耗，未说明用户此前卡在哪一步、记录中断或不做会有什么后果，痛点强度无法从公开事实判断。
+  pain_en: The material only states mood tracking and seeing what fills or drains the user; it does not
+    say which step previously blocked them or what happens if they stop, so pain intensity cannot be judged
+    from public facts.
+  current_alternative: 公开材料未说明现有替代方式，可能是纸质日记、备忘录或通用情绪记录应用，均属推断。
+  current_alternative_en: The public material does not state the current alternative; paper journals,
+    notes apps or generic mood-tracking apps are all inference.
+  usage_reason: 无法判断：材料未说明 AI 具体做了什么、相较手写记录减少了哪一步负担，也没有用户反馈或案例支持动机，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what the AI actually does or which step
+    it removes versus writing by hand, and no user feedback or case supports the motive, so it is impossible
+    to explain which users would choose it and when.'

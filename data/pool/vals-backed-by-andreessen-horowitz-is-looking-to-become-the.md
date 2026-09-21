@@ -1,6 +1,6 @@
 ---
 slug: vals-backed-by-andreessen-horowitz-is-looking-to-become-the
-name: Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking
+name: Vals AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Vals AI is hoping to make AI benchmarking a more neutral and trustworth
   increasingly inundated by AI models.
 first_seen: '2026-09-19T13:00:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch
@@ -39,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking
+# Vals AI
 
 Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.
 

@@ -21,7 +21,7 @@ canonical_url: https://ai-eng-design-production.up.railway.app/login
 summary: I am vibe coding a drone
 first_seen: '2026-09-19T22:31:47Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

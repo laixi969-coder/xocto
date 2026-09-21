@@ -1,0 +1,42 @@
+- id: req-initial-echocat-skill-panel-2026-09-21
+  project_slug: echocat-skill-panel
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决技能调用不可见的问题，但公开材料没有说明原来的排查方式和痛点强度，需求结构写不出来。
+    evidence_ids:
+    - ev-fed7776b5d3e1c12
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，只有仓库星标，不能说明开发者已经把它放进日常调试流程。
+    evidence_ids:
+    - ev-fed7776b5d3e1c12
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有定价、买方或付费路径信息。
+    evidence_ids:
+    - ev-fed7776b5d3e1c12
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断审计视图是否覆盖该工作的第一性目标。
+    evidence_ids:
+    - ev-fed7776b5d3e1c12
+  next_validation: 收集该仓库的 README 或 issue/discussion，确认它审计的具体调用范围与开发者实际替代的排查步骤。
+  market: ''
+  job: AI 应用开发者在排查 DSH 应用问题时，处理技能调用记录，要完成一次调用审计和技能管理操作。
+  job_en: An AI application developer troubleshooting a DSH application works with skill invocation records
+    to complete an invocation audit and skill management action.
+  pain: 公开材料只有一句功能描述，没有说明开发者原来靠什么排查、不解决会出什么问题。
+  pain_en: The public material is a single feature line; it does not say what developers used before to
+    troubleshoot or what breaks if this is missing.
+  current_alternative: 开发者通常直接看日志或调试器排查技能调用，公开材料未说明与这些做法的差别。
+  current_alternative_en: Developers typically inspect logs or a debugger to trace skill invocations;
+    the public material does not describe how this differs.
+  usage_reason: 推断：如果面板确实把散落的调用记录集中成可读审计视图，调试技能相关问题的开发者会在排查时用它；但缺少用户反馈或案例，无法确认这一步负担真的被减少。
+  usage_reason_en: 'Inference: if the panel really consolidates scattered invocation records into a readable
+    audit view, developers debugging skill issues would use it while troubleshooting; without user feedback
+    or cases, that burden reduction cannot be confirmed.'

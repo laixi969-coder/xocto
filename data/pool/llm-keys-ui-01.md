@@ -1,6 +1,6 @@
 ---
 slug: llm-keys-ui-01
-name: llm-keys-ui 0.1
+name: llm-keys-ui
 builder: ''
 category: ''
 summary_zh: ''
@@ -29,7 +29,7 @@ summary: "Release:   llm-keys-ui 0.1  \n         This plugin solves a very speci
   \ needs to use a key. \n \n   \n   \n \n    \n    \n         Tags:  llm ,  coding-agents ,  codex"
 first_seen: '2026-09-20T19:22:19Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -40,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# llm-keys-ui 0.1
+# llm-keys-ui
 
 Release:   llm-keys-ui 0.1  
          This plugin solves a very specific problem. 

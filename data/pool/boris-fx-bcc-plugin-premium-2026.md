@@ -24,7 +24,7 @@ summary: Boris FX Continuum (BCC) is a comprehensive visual effects and plugin s
   workflows
 first_seen: '2026-09-19T15:34:11Z'
 last_seen: '2026-09-21T00:16:56Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

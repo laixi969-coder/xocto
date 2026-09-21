@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE51cHV0RDZNV3pl
 summary: AI应用增长困境：创业者反思流量、留存与盈利逻辑 虎嗅
 first_seen: '2026-09-20T03:29:55Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qMERGMWo3UkpL
 summary: LS chief pushes AI beyond experiments to results The Korea Herald
 first_seen: '2026-09-20T04:13:42Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

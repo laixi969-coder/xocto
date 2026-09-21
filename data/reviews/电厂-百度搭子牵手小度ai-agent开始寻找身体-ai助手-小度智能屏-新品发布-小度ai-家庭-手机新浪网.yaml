@@ -33,3 +33,52 @@
   current_alternative_en: May rely on traditional smart speakers or mobile apps.
   usage_reason: 合作新闻显示关注，但缺乏用户采用证据。
   usage_reason_en: Partnership news shows attention, but lacks user adoption evidence.
+- id: req-initial-电厂-百度搭子牵手小度ai-agent开始寻找身体-ai助手-小度智能屏-新品发布-小度ai-家庭-手机新浪网-2026-09-21
+  project_slug: 电厂-百度搭子牵手小度ai-agent开始寻找身体-ai助手-小度智能屏-新品发布-小度ai-家庭-手机新浪网
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨系统多步操作要人工逐步执行、易漏难复核的问题，旧行为明确存在；买方是个人还是企业尚未在公开材料中说明。
+    evidence_ids:
+    - ev-e3dd21678844d3c8
+    - ev-88b01c6c5456f69e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出用户规模环比增长9倍这一关注度数据，未说明这些用户是否持续使用或把它留在工作流中。
+    evidence_ids:
+    - ev-e3dd21678844d3c8
+  - gate: model
+    status: insufficient
+    reason: 已发布企业版移动端与开发平台，但公开材料未披露定价、按什么计价或谁付费，付费路径属于判断而非已验证事实。
+    evidence_ids:
+    - ev-e3dd21678844d3c8
+  - gate: truth
+    status: insufficient
+    reason: 任务能否确定性交付、出错时人工如何介入，公开材料未说明；与硬件结合的具体交付边界也待核验。
+    evidence_ids:
+    - ev-88b01c6c5456f69e
+  next_validation: 收集百度搭子官方定价页或企业版客户案例，确认按什么计价、由谁付费以及任务交付与人工确认的边界。
+  market: ''
+  job: 企业运营人员在处理跨系统的日常事务时，把分散在文档、表格和内部系统中的材料交给智能体，要求它完成多步操作并给出可核对的结果；家庭用户则通过智能屏用语音提出查询或控制类任务。
+  job_en: Enterprise operations staff handling cross-system daily chores hand material scattered across
+    documents, spreadsheets and internal systems to the agent, asking it to complete multi-step operations
+    and return a checkable result; household users issue voice queries or control tasks through a smart
+    display.
+  pain: 跨系统操作需要人在多个界面之间反复切换、复制粘贴和手动触发，步骤多、易漏、难复核；家庭场景下用遥控器或手机逐层点选完成同一件事也很繁琐。
+  pain_en: Cross-system work forces people to switch between many interfaces, copy-paste and trigger actions
+    by hand, with many steps, easy omissions and hard review; in the home, clicking through layers with
+    a remote or phone for the same task is also tedious.
+  current_alternative: 旧做法是人工在多个系统里逐步操作，或使用只做问答、不执行动作的聊天助手，再由人自己把结论搬回业务系统。
+  current_alternative_en: The old way is to operate step by step across several systems by hand, or to
+    use a chat assistant that only answers questions without executing actions, then move the conclusion
+    back into the business system manually.
+  usage_reason: 相较人工逐步操作，它把多步动作合并为一次任务下发并直接执行，减少的是界面切换与重复点击这一步负担；推断企业运营和家庭用户会在任务步骤固定、结果可核对的情况下选择它，但公开材料尚未给出留存或复购证据。
+  usage_reason_en: Compared with manual step-by-step operation, it merges multiple actions into one task
+    submission and executes them directly, removing the burden of interface switching and repeated clicking;
+    the inference is that enterprise operations and household users would choose it when task steps are
+    stable and results are checkable, though public material gives no retention or repeat-purchase evidence
+    yet.

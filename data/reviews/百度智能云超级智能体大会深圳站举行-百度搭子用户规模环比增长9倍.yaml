@@ -1,0 +1,42 @@
+- id: req-initial-百度智能云超级智能体大会深圳站举行-百度搭子用户规模环比增长9倍-2026-09-21
+  project_slug: 百度智能云超级智能体大会深圳站举行-百度搭子用户规模环比增长9倍
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均无法从材料还原，价值关证据不足。
+    evidence_ids:
+    - ev-7de0378c61cd2575
+  - gate: consensus
+    status: insufficient
+    reason: 仅有环比增长9倍的规模数字，无场景或采用细节支撑共识。
+    evidence_ids:
+    - ev-7de0378c61cd2575
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，付费路径无法判断。
+    evidence_ids:
+    - ev-7de0378c61cd2575
+  - gate: truth
+    status: insufficient
+    reason: 无交付结果与人工边界信息，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-7de0378c61cd2575
+  next_validation: 收集百度搭子官方产品页或官方文档，确认其具体使用场景、输入材料与交付结果。
+  market: ''
+  job: 候选材料未说明谁在什么情况下打开百度搭子、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: The candidate material does not state who opens Baidu Dazi, in what situation, with what material,
+    or to complete what task, so the use scenario cannot be reconstructed.
+  pain: 材料未给出任何用户痛点、抱怨或旧做法受阻的描述，无法判断它替代了哪一步旧工作。
+  pain_en: The material gives no user pain point, complaint, or blocked legacy practice, so it is impossible
+    to tell which prior step it replaces.
+  current_alternative: 材料未提及用户此前用什么方式完成同类任务，替代对象不明。
+  current_alternative_en: The material does not mention how users previously completed comparable tasks,
+    so the alternative is unknown.
+  usage_reason: 仅有用户规模环比增长9倍这一规模信号，缺少功能、场景与留存证据，无法解释用户为何选择它；缺少的一环是具体使用场景与交付结果。
+  usage_reason_en: Only a scale signal (9x quarter-over-quarter user growth) is available; with no feature,
+    scenario, or retention evidence, there is no basis to explain why users choose it. The missing link
+    is a concrete use scenario and deliverable.

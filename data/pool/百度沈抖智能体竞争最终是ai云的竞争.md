@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Mc05aREl1dnRW
 summary: 百度沈抖：智能体竞争最终是AI云的竞争 投资界
 first_seen: '2026-09-20T10:04:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

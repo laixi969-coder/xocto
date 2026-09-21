@@ -21,7 +21,7 @@ canonical_url: https://github.com/cxgrd/cli
 summary: Architectural Guardrails for AI native development
 first_seen: '2026-09-20T04:17:49Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

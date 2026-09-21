@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5iM3VSSXQxd2g1
 summary: 市工商联组织民营企业参加“AI助力‘南方优品’出海订单产销对接活动” 新浪财经
 first_seen: '2026-09-20T15:39:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

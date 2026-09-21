@@ -22,7 +22,7 @@ summary: 'TypeSafe Jev as a decision layer for the Pi coding agent: a measured t
   for typed, calibrated answers'
 first_seen: '2026-09-16T05:57:10Z'
 last_seen: '2026-09-21T00:16:56Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-三体还没降临是因为叶文洁没用上千问办公吗-2026-09-21
+  project_slug: 三体还没降临是因为叶文洁没用上千问办公吗
+  level: initial
+  reviewed_at: '2026-09-21T00:17:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决瞬变观测临时插单与整夜盯守的负担，但材料未说明 AI 具体接收什么、替代哪一步人工操作，需求结构无法还原。
+    evidence_ids:
+    - ev-5950b83753cb2b9c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇报道把产品与天文排班场景并置，没有台站、科研团队或值班人员的采用与评价证据。
+    evidence_ids:
+    - ev-5950b83753cb2b9c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱来自台站、科研机构还是通用办公订阅；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-5950b83753cb2b9c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近观测排班的第一性目标、能否确定性交付重排结果，以及人工确认边界在哪里。
+    evidence_ids:
+    - ev-5950b83753cb2b9c
+  next_validation: 收集千问办公官方页面或文档中关于天文观测排班场景的功能说明与交付示例，确认其输入、动作与输出。
+  market: ''
+  job: 天文台值班人员在整夜值守望远镜时，处理预警系统推送的疑似极早期超新星等瞬变事件，需要在已排定的多个科学任务之间重新安排当晚观测顺序。
+  job_en: Observatory night-shift staff watching a telescope all night handle transient alerts such as
+    a possible very early supernova and must re-order the night's already-scheduled science tasks.
+  pain: 瞬变事件无法提前推算，早期亮度和光谱变化快，发现和跟进越慢留下的数据越不完整；而临时插单要打乱原有排班，值班人员还要同时盯天气、设备与目标位置。
+  pain_en: Transients cannot be predicted in advance and their early brightness and spectra change fast,
+    so slower discovery and follow-up leave less complete data; inserting a target also disrupts the existing
+    schedule while staff still watch weather, equipment and target position.
+  current_alternative: 目前主要靠值班人员彻夜人工盯守控制软件、手动调参数和排任务，遇到突发目标时人工重排当晚计划。
+  current_alternative_en: Today this relies mainly on staff manually watching control software all night,
+    adjusting parameters and scheduling tasks, and manually re-planning the night when a sudden target
+    appears.
+  usage_reason: 候选材料没有说明千问办公在该场景中具体接收什么输入、替代哪一步人工操作、输出什么可核对结果，因此无法判断值班人员为何会选它而不是继续人工排班；这是推断，缺少功能与采用证据。
+  usage_reason_en: The candidate material does not say what Qwen Office ingests in this scenario, which
+    manual step it replaces, or what checkable output it produces, so it is impossible to judge why staff
+    would choose it over manual scheduling; this is inference and lacks functional and adoption evidence.

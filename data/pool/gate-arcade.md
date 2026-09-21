@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/FINAL-Bench/gate-tetris
 summary: 'Plain vs JEV vs ZTC: a gate decides execute or hold'
 first_seen: '2026-09-20T10:00:48Z'
 last_seen: '2026-09-21T00:17:14Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

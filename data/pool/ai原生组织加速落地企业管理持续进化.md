@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQcXpaaDVRdWQx
 summary: AI原生组织加速落地，企业管理持续进化 21财经
 first_seen: '2026-09-19T07:00:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-jev-browser-2026-09-21
+  project_slug: jev-browser
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是网页自动化脚本易碎、模型直接操作不可控的问题，痛点真实存在；但公开材料只有一句功能描述，说不清具体替代了哪一步旧工作、失败时如何交付，价值结构尚不完整。
+    evidence_ids:
+    - ev-df771f509f799ca3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 52 星、5 次 fork，属于早期关注度，没有用户评价、案例或采用信号，无法判断是否形成共识。
+    evidence_ids:
+    - ev-df771f509f799ca3
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付方式；买方可能是自建自动化的企业团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-df771f509f799ca3
+  - gate: truth
+    status: insufficient
+    reason: 类型安全决策层是贴近自动化第一性目标的思路，但缺少真实站点上的可复现结果与人工边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-df771f509f799ca3
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它支持的真实站点流程、失败恢复机制和是否有外部用户报告可复现的成功案例。
+  market: ''
+  job: 自动化测试或数据采集工程师在需要让程序代替人工完成网页点击、填表和流程抓取时，处理的是浏览器里的页面与表单，要完成的是把一段自然语言任务变成可重复执行的浏览器操作序列。
+  job_en: Automation test or data collection engineers, when a program must replace manual clicking, form
+    filling and flow scraping in a browser, work on pages and forms and need to turn a natural-language
+    task into a repeatable sequence of browser actions.
+  pain: 网页结构一变，写死的选择器就失效，维护脚本要反复返工；让模型直接操作浏览器又容易在关键步骤做出不可预期的动作。
+  pain_en: When page structure changes, hard-coded selectors break and scripts need repeated rework; letting
+    a model drive the browser directly risks unpredictable actions at critical steps.
+  current_alternative: 目前多用手写 Playwright/Selenium 脚本，或直接用通用大模型加浏览器插件逐步操作，前者脆弱、后者不可控。
+  current_alternative_en: Today people mostly hand-write Playwright/Selenium scripts, or drive a general
+    model with a browser extension step by step; the former is brittle, the latter uncontrollable.
+  usage_reason: 推断：它把“规划”和“决策”分开，模型只出计划、Jev 在每步做类型安全判断，理论上能减少选择器失效后的重写和模型乱点两处负担，因此会被受够脚本维护的自动化工程师在流程频繁变动的站点上试用；但公开材料没有用户反馈或重复使用证据，这一环尚缺。
+  usage_reason_en: 'Inference: by separating planning from decision-making, with the model only producing
+    a plan and Jev making type-safe choices per step, it could reduce both selector-rewrite work and erratic
+    model clicks, so automation engineers tired of script maintenance may try it on frequently changing
+    sites; public material has no user feedback or repeat-use evidence, so that link is missing.'

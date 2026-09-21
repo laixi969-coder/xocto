@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/scrapboard-cloud-4
 summary: Digital family refrigerator door, now pocket-sized n synced
 first_seen: '2026-09-14T21:14:31Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

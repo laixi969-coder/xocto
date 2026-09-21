@@ -21,7 +21,7 @@ canonical_url: https://evaluation.club
 summary: ''
 first_seen: '2026-09-20T15:59:25Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

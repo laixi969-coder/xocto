@@ -1,0 +1,44 @@
+- id: req-initial-ai-employees-2026-09-21
+  project_slug: ai-employees
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队无人按时处理例行事务的问题，痛点是不做就会被拖延或占用创始人时间，旧做法是人工逐步操作浏览器，结构上成立。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 203 星、56 次 fork 只说明有开发者关注，没有客户案例或用户反馈说明这些例程被真正用进日常工作。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，钱可能来自企业自建或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  - gate: truth
+    status: insufficient
+    reason: 代理驱动浏览器执行事务，出错与权限边界如何界定、结果是否可确定性交付，公开材料未说明。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告把某个例程稳定用于日常业务并给出可复现的运行结果。
+  market: ''
+  job: 小团队或个体经营者没有专职运营、市场或行政人员，需要在每天固定时点处理例行事务材料（查询、表单、信息收集），把这段重复工作跑完并留下可查的文件。
+  job_en: A small team or solo operator without dedicated operations, marketing or admin staff needs routine
+    work materials (lookups, forms, information gathering) handled at fixed times each day, getting that
+    repetitive stretch finished with checkable files left behind.
+  pain: 这些例行事务本身不难，但必须有人按时打开浏览器一步步做，人手不足时要么被拖延，要么占用创始人本应用于业务的时间。
+  pain_en: These routines are not hard, but someone must open a browser and do them step by step on time;
+    with too few people they are either delayed or eat the founder's time for the actual business.
+  current_alternative: 目前多靠人工手动操作浏览器完成，或零散使用脚本、浏览器插件与通用聊天助手，缺少按日程触发、可留痕、可复用的成套例程。
+  current_alternative_en: Today this is mostly done by hand in a browser, or piecemeal with scripts, browser
+    extensions and general chat assistants, without a scheduled, traceable, reusable set of routines.
+  usage_reason: 相较手动逐步操作，它把一段例行流程预先写成按日程触发的角色与例程，由代理自己驱动浏览器执行，用户只需事后核对留下的文件，省掉的是“每次重新打开页面、按步骤点一遍”这一步；推断，适合人手不足、又需要每天固定完成同一批事务的小团队。
+  usage_reason_en: Compared with doing it step by step by hand, it pre-writes a routine as scheduled roles
+    and routines that drive the browser themselves, so the user only checks the files afterwards, removing
+    the step of reopening pages and clicking through the same sequence each time; this is inference, suited
+    to small teams that lack staff yet must finish the same batch of tasks daily.

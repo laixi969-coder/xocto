@@ -113,3 +113,45 @@
   usage_reason: 用户要完成的任务是：软件工程师、开发团队负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software Engineer, Development Team Lead Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-initial-coderabbit-2026-09-21
+  project_slug: coderabbit
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代码审查中告警噪音与人工逐条读 diff 的负担，痛点具体且不处理的后果是审查积压与漏检；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-d1723cf13c1efa3e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有客户案例报道与官方博客，缺少可核验的持续采用、留存或团队规模数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-d1723cf13c1efa3e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或按仓库、按审查量计费的公开信息，收入来自 to B 研发团队只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d1723cf13c1efa3e
+  - gate: truth
+    status: insufficient
+    reason: 官方博客自评模型在代码审查中的收益与成本，属厂商自述，缺少独立复现或第三方基准来核对交付确定性。
+    evidence_ids:
+    - ev-d1723cf13c1efa3e
+  next_validation: 收集 CodeRabbit 官方定价页与公开客户案例页面，核验其按仓库或按审查量的计费方式与已披露的团队采用情况。
+  market: ''
+  job: 软件工程师在合并请求堆积、审查意见真假混杂时，需要处理代码差异并判断哪些问题必须改、哪些可以忽略，最终完成一次可合并的审查。
+  job_en: Software engineers facing a backlog of merge requests and noisy review comments must process
+    code diffs, decide which issues are real, and complete a mergeable review.
+  pain: 人工逐条读 diff 和告警耗时，误报多时审查者会逐渐忽略全部提示，真正的问题被淹没。
+  pain_en: Reading every diff and alert by hand is slow, and when false positives pile up reviewers start
+    ignoring all warnings, burying real issues.
+  current_alternative: 目前多由资深工程师人工审查，或使用静态分析工具与代码托管平台自带的检查，误报和噪音需要人工过滤。
+  current_alternative_en: Today senior engineers review manually, or teams use static analysis and built-in
+    code-hosting checks whose noise must be filtered by hand.
+  usage_reason: 相较人工逐条读 diff，它先对差异做自动分诊并给出逐行意见，把“判断哪条告警值得看”这一步从审查者手里拿走；推断在误报率高、审查积压的团队里，工程师会因此选择它。
+  usage_reason_en: Compared with reading every diff manually, it triages the diff and produces line-level
+    comments, removing the 'which alert matters' step from the reviewer; inference is that engineers on
+    teams with high false-positive rates and review backlogs would choose it for this reason.

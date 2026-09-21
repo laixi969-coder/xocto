@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/notch-design-2
 summary: Give your notch a personality
 first_seen: '2026-09-18T06:11:48Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

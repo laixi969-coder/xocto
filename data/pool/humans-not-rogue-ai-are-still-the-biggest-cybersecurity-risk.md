@@ -24,7 +24,7 @@ summary: Before recent high-profile hacks raised the specter of AI possibly "kil
   in residence for public safety and resilience at […]
 first_seen: '2026-09-20T12:00:00Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

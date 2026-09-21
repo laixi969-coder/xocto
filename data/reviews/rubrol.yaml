@@ -1,0 +1,43 @@
+- id: req-initial-rubrol-2026-09-21
+  project_slug: rubrol
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量生成 PDF 时渲染慢、占内存的问题，痛点刚性且旧替代行为明确（Headless Chrome、wkhtmltopdf），交付物是可核对的 PDF 文件。
+    evidence_ids:
+    - ev-d45df3d53a87a538
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论 14 分 2 条评论，属于关注度而非采用；没有客户案例或持续使用证据说明团队已把它放进生产流程。
+    evidence_ids:
+    - ev-d45df3d53a87a538
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按生成量、按席位还是自托管收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d45df3d53a87a538
+  - gate: truth
+    status: insufficient
+    reason: 排版引擎替换后，模板兼容性、字体与分页等确定性交付细节未公开，10 毫秒性能宣称也缺少独立复现。
+    evidence_ids:
+    - ev-d45df3d53a87a538
+  next_validation: 收集 Rubrol 官方文档与定价页，确认支持的模板格式、部署方式与计费口径，并查找是否有可复现的渲染性能实测。
+  market: ''
+  job: 需要批量生成 PDF 的工程团队，在出账单、报表或面单时把结构化数据套进模板，需要稳定、快速地拿到可下载的 PDF 文件。
+  job_en: Engineering teams that generate PDFs in bulk take structured data into templates when producing
+    invoices, reports or shipping labels, and need to obtain downloadable PDFs quickly and reliably.
+  pain: Headless Chrome 渲染慢、内存占用高，批量任务排队时间长，扩容成本随生成量上升。
+  pain_en: Headless Chrome rendering is slow and memory-hungry, batch jobs queue for a long time, and
+    scaling cost rises with generation volume.
+  current_alternative: 用 Headless Chrome 或 wkhtmltopdf 渲染 HTML 模板，或采购商业报表引擎。
+  current_alternative_en: Rendering HTML templates with Headless Chrome or wkhtmltopdf, or buying a commercial
+    reporting engine.
+  usage_reason: 推断：若 Typst 渲染确实把单次生成压到毫秒级，团队可减少为渲染单独扩容的机器和排队等待，因此高频出 PDF 的后端团队会在生成量上来后选择它；但 10 毫秒是发布方宣称，缺少独立实测与客户案例。
+  usage_reason_en: 'Inference: if Typst rendering really brings single-document generation down to milliseconds,
+    teams can cut the extra machines and queueing they keep for rendering, so backend teams with high
+    PDF volume may choose it as volume grows; however the 10ms figure is the vendor''s claim and independent
+    tests or customer cases are absent.'

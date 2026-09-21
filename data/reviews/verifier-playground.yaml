@@ -1,0 +1,42 @@
+- id: req-initial-verifier-playground-2026-09-21
+  project_slug: verifier-playground
+  level: initial
+  reviewed_at: '2026-09-21T00:17:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它在同一问题和答案上运行三个验证器，未说明解决什么需求、什么痛点，价值关无法成立。
+    evidence_ids:
+    - ev-39f4eedd64a9432c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，31 个点赞只反映关注度，不能证明持续采用。
+    evidence_ids:
+    - ev-39f4eedd64a9432c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未说明买方、定价或付费路径。
+    evidence_ids:
+    - ev-39f4eedd64a9432c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，三个验证器的身份、判定口径与人工复核边界均未交代。
+    evidence_ids:
+    - ev-39f4eedd64a9432c
+  next_validation: 收集该页面的说明文档，确认 ZTC、JEV、Laya 三个验证器的定义、判定口径与是否公开可复现。
+  market: ''
+  job: 模型评测工程师在需要确认某个答案是否可信时，把同一问题和答案交给多个验证器并对比它们的判定。
+  job_en: A model-evaluation engineer confirming whether an answer is trustworthy submits the same question
+    and answer to several verifiers and compares their verdicts.
+  pain: 资料未说明评测者当前的具体痛点，只给出“同一问题和答案上运行三个验证器”这一做法，无法确认不解决会失去什么。
+  pain_en: The material does not state the evaluator's concrete pain, only the practice of running three
+    verifiers on the same question and answer, so what is lost by not solving it cannot be confirmed.
+  current_alternative: 可推断的旧做法是逐个调用验证器并手工比对结果，但候选未提供任何替代行为的证据。
+  current_alternative_en: The inferable old practice is calling verifiers one by one and comparing results
+    by hand, but the candidate offers no evidence of this alternative behaviour.
+  usage_reason: 推断：若它把三个验证器的判定并排呈现，评测者可少一步手工比对；但资料未说明三者口径与分歧如何处理，无法判断哪类团队会因此选择它。
+  usage_reason_en: 'Inference: if it shows the three verifiers'' verdicts side by side, an evaluator saves
+    a manual comparison step; however how the three judge and how disagreements are handled is unstated,
+    so which teams would choose it cannot be judged.'

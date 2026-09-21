@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE5XbkZlbVdzNl9Q
 summary: 为什么你的智能体POC很漂亮，规模化落地却彻底失效 财富号
 first_seen: '2026-09-20T09:57:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

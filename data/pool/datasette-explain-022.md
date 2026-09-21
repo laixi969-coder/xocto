@@ -23,7 +23,7 @@ summary: "Release:   datasette-explain 0.2.2  \n         \n \n Explain plans now
   \ ship a new version of this explain plugin. \n    \n    \n         Tags:  sqlite ,  datasette"
 first_seen: '2026-09-20T00:22:04Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

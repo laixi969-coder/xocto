@@ -1,0 +1,47 @@
+- id: req-initial-zcode-2026-09-21
+  project_slug: zcode
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把私有仓库交给编码智能体后代码与提交历史外流、且无法追溯的问题，痛点刚性，不采用的代价是泄露与合规风险。
+    evidence_ids:
+    - ev-9ce92323a82e77ce
+    - ev-079d8b4cd76a6cbd
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论集中在单一事件与厂商道歉，尚无企业采购或部署审计方案的采用证据，卡在场景尚未被普遍感知。
+    evidence_ids:
+    - ev-9ce92323a82e77ce
+    - ev-079d8b4cd76a6cbd
+  - gate: model
+    status: insufficient
+    reason: 买方可能是企业研发或安全预算，但公开材料没有定价、采购或付费路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-079d8b4cd76a6cbd
+  - gate: truth
+    status: insufficient
+    reason: 上传范围、留存与删除机制未公开，承诺能否确定性交付无法核对，安全与人工边界仍不清晰。
+    evidence_ids:
+    - ev-9ce92323a82e77ce
+  next_validation: 收集 ZCode 官方隐私说明或数据上传范围文档，以及智谱就该事件发布的正式说明。
+  market: ''
+  job: 开发者在本地或公司私有仓库里用编程智能体改代码、跑任务，需要把仓库内容交给工具处理，同时要保证提交历史、密钥和未公开代码不外流。
+  job_en: Developers use a coding agent to edit code and run tasks in local or private corporate repositories,
+    handing repository content to the tool while needing commit history, secrets and unreleased code to
+    stay in.
+  pain: 把仓库交给智能体就等于把提交历史、作者信息和可能夹带的密钥一起交出去；一旦在未告知的情况下外传，团队无法追溯泄露范围，也无法向客户或合规方交代。
+  pain_en: Handing a repository to an agent means handing over commit history, author data and possibly
+    embedded secrets; if it leaves without notice, the team cannot trace the leak scope or answer customers
+    and auditors.
+  current_alternative: 旧做法是人工审查工具权限、靠厂商隐私条款和内部规范约束，或干脆禁止在私有仓库使用外部编码智能体。
+  current_alternative_en: The old approach is manual permission review, relying on vendor privacy terms
+    and internal policy, or simply banning external coding agents on private repositories.
+  usage_reason: 相较只靠条款和人工规范，审计类工具通过记录智能体实际读取与发送的文件、并在外传前拦截，把「事后无法追溯」变成可核对的访问日志，因此正在把编码智能体接入私有仓库的研发与安全团队会在合规评审时选择它。这是基于工作流结构的推断。
+  usage_reason_en: Compared with relying on terms and manual policy, an auditing tool records which files
+    the agent actually read and sent and can block exfiltration, turning untraceable incidents into checkable
+    access logs, so engineering and security teams wiring coding agents into private repos would pick
+    it during compliance review. This is inference from workflow structure.

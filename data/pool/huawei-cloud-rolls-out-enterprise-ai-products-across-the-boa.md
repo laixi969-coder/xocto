@@ -1,6 +1,6 @@
 ---
 slug: huawei-cloud-rolls-out-enterprise-ai-products-across-the-boa
-name: Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud
+name: Huawei Cloud
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Buildin
   Huawei
 first_seen: '2026-09-18T07:01:33Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud
+# Huawei Cloud
 
 Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud Huawei
 

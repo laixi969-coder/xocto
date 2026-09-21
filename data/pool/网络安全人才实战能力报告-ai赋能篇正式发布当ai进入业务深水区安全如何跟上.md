@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/492849.html
 summary: 9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布
 first_seen: '2026-09-20T02:48:18Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

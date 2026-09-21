@@ -1,0 +1,44 @@
+- id: req-initial-jevals-2026-09-21
+  project_slug: jevals
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是模型评测口径不稳定、结论不可复现这一需求，痛点真实；但公开材料只有一句功能描述，判定类型如何定义、覆盖哪些评测场景均未说明，价值结构尚不完整。
+    evidence_ids:
+    - ev-777af124758ce4d0
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论仅 6 分、0 条评论，没有用户反馈、采用或重复使用证据，无法判断是否有人真的把它接入评测流程。
+    evidence_ids:
+    - ev-777af124758ce4d0
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、商业主体或付费路径；是否有人为托管评测或企业版付费无从判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-777af124758ce4d0
+  - gate: truth
+    status: insufficient
+    reason: 结构化判定是否真的比自由打分更稳定、模型调用成本与人工复核边界如何，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-777af124758ce4d0
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认判定类型的定义方式、与主流评测框架的集成说明及是否有稳定性对比数据。
+  market: ''
+  job: AI 团队在模型上线前做质量评估时，需要判断一批模型输出是否达标，处理的是评测集里的输入输出样本。
+  job_en: AI teams assessing quality before a model launch need to judge whether a batch of model outputs
+    meets the bar, working on input-output samples in an evaluation set.
+  pain: 用另一个模型当评委时，打分口径不稳定、结果难以复现，同一批样本多次评测结论可能不一致，团队无法据此做上线决策。
+  pain_en: When another model acts as judge, scoring criteria drift and results are hard to reproduce;
+    the same sample batch can yield inconsistent verdicts across runs, leaving teams unable to make launch
+    decisions.
+  current_alternative: 写提示词让 LLM 评委打分、人工抽样复核、用规则脚本做关键词或格式检查。
+  current_alternative_en: Prompting an LLM judge to score, manually sampling for review, or using rule
+    scripts for keyword and format checks.
+  usage_reason: 推断：若判定规则以带类型的方式固定下来，团队可省去反复调评委提示词和人工比对打分口径这一步，评测结论也能被版本化追溯；但公开材料未给出判定类型定义、与现有评测框架的衔接或稳定性对比数据，减少负担的程度无法确认。
+  usage_reason_en: 'Inference: if decision rules are fixed in typed form, teams could skip repeatedly
+    tuning judge prompts and manually reconciling scoring criteria, and verdicts become version-traceable;
+    however, public material gives no decision type definitions, integration with existing evaluation
+    frameworks, or stability comparisons, so the extent of effort saved cannot be confirmed.'

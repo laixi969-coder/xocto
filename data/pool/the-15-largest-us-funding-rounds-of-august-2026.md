@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOXNLdThpMGZR
 summary: The 15 Largest US Funding Rounds of August 2026 AlleyWatch
 first_seen: '2026-09-18T12:32:11Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

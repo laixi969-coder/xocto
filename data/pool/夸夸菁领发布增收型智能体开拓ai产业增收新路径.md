@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1QWGRLaVFweWJM
 summary: 夸夸菁领发布增收型智能体开拓AI产业增收新路径 深圳新闻网
 first_seen: '2026-09-20T10:45:12Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

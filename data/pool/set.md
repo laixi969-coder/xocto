@@ -21,7 +21,7 @@ canonical_url: https://app.writewithset.com
 summary: offline Markdown note-taking app with device-to-device sync
 first_seen: '2026-09-19T22:26:28Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

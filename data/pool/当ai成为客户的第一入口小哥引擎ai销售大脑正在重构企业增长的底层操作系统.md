@@ -1,6 +1,6 @@
 ---
 slug: 当ai成为客户的第一入口小哥引擎ai销售大脑正在重构企业增长的底层操作系统
-name: 当AI成为客户的第一入口，小哥引擎AI销售大脑正在重构企业增长的底层操作系统
+name: 小哥引擎AI销售大脑
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xNWJ0ZkJCNFp5
 summary: 当AI成为客户的第一入口，小哥引擎AI销售大脑正在重构企业增长的底层操作系统 CSDN
 first_seen: '2026-09-20T07:32:13Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 当AI成为客户的第一入口，小哥引擎AI销售大脑正在重构企业增长的底层操作系统
+# 小哥引擎AI销售大脑
 
 当AI成为客户的第一入口，小哥引擎AI销售大脑正在重构企业增长的底层操作系统 CSDN
 

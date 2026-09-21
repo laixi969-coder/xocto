@@ -22,7 +22,7 @@ summary: A conversation with Michael Ting, recognized among ALB Asia’s Top Chi
   legalbusinessonline.com
 first_seen: '2026-09-20T14:07:05Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

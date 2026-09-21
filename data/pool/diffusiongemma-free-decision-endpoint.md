@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/victor/DiffusionGemma-free-endpoint
 summary: ''
 first_seen: '2026-09-20T21:49:01Z'
 last_seen: '2026-09-21T00:17:14Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -270,3 +270,45 @@
   usage_reason: 无法判断：材料未说明它通过哪个具体动作减少哪一步负担，也未给出可核对的结果，因此不能解释哪类用户会在什么情况下选择它。
   usage_reason_en: 'Cannot be judged: the material does not say which concrete action reduces which step''s
     burden, nor any checkable result, so it cannot explain which users would choose it and when.'
+- id: req-initial-workflo-2026-09-21
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决重复桌面操作与隐私顾虑，但公开材料未说明输入、动作与交付，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-960707c866939967
+  - gate: consensus
+    status: insufficient
+    reason: 社区有 113 点与 35 条评论，属关注度信号，不能证明持续采用或强场景。
+    evidence_ids:
+    - ev-960707c866939967
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方与收费方式均不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-960707c866939967
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真在本地执行、是否确定性交付，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-960707c866939967
+  next_validation: 收集 Workflo 官方产品页或文档，确认其输入、执行动作、交付结果与是否提供定价。
+  market: ''
+  job: Mac 办公用户在需要跨应用搬运信息或批量整理文件时，打开 Workflo 处理桌面上的重复操作，希望自动完成这些步骤。
+  job_en: Mac office users open Workflo when they need to move information across apps or bulk-organize
+    files, expecting the repetitive desktop steps to be done automatically.
+  pain: 重复的桌面操作耗时且容易出错，而把屏幕内容上传到云端又带来隐私顾虑。
+  pain_en: Repetitive desktop operations are time-consuming and error-prone, while uploading screen content
+    to the cloud raises privacy concerns.
+  current_alternative: 用户目前多靠手动操作、系统自带快捷指令或 AppleScript 等脚本工具完成同类任务。
+  current_alternative_en: Users currently rely on manual operations, built-in shortcuts, or scripting
+    tools such as AppleScript for similar tasks.
+  usage_reason: 推断：若它真能在本地不上传屏幕内容的情况下完成自动化，用户可省去手动逐步操作或自己写脚本这一步；但公开材料未说明输入、动作与交付，无法确认它相对旧做法减少了哪一步负担。
+  usage_reason_en: 'Inference: if it truly automates locally without uploading screen content, users could
+    skip manual step-by-step work or writing their own scripts; however, public material does not describe
+    inputs, actions, or outputs, so which burden it removes versus the old approach cannot be confirmed.'

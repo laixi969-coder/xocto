@@ -1,0 +1,43 @@
+- id: req-initial-reader-2026-09-21
+  project_slug: reader
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决阅读材料分散、读后难整理的问题，痛点真实但强度中等；公开材料未说明 AI 具体动作与交付，无法确认是否替代了旧流程中的关键一步。
+    evidence_ids:
+    - ev-ff50281b03392526
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分 1 条评论，没有可归因到该产品的采用或持续使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-ff50281b03392526
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅还是团队采购不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-ff50281b03392526
+  - gate: truth
+    status: insufficient
+    reason: 阅读与笔记的第一性目标是内容可被再次找到和使用，产品是否保证摘录准确、AI 输出是否需要人工复核，公开材料均未说明。
+    evidence_ids:
+    - ev-ff50281b03392526
+  next_validation: 收集 Reader 仓库的 README、issue 与 discussion，确认 AI 具体接收什么输入、产出什么交付，以及是否有用户描述实际使用流程。
+  market: ''
+  job: 在 Mac 上读书或查资料的人，在阅读过程中同时打开电子书、多个浏览器标签页和笔记软件，需要把读到的内容整理成可复用的笔记或摘录。
+  job_en: A person reading or researching on a Mac keeps a book, several browser tabs and a note app open,
+    and needs to turn what they read into reusable notes or excerpts.
+  pain: 材料分散在阅读器、浏览器和笔记三处，复制粘贴和来回切换打断阅读节奏，读完后往往只剩零散片段。
+  pain_en: Material is split across a reader, a browser and a note app; copying and switching break the
+    reading flow, and what remains afterwards is often scattered fragments.
+  current_alternative: 用阅读器加浏览器加独立笔记软件，靠手动复制粘贴和窗口切换把内容拼起来。
+  current_alternative_en: A reader plus a browser plus a separate note app, stitched together by manual
+    copy-paste and window switching.
+  usage_reason: 推断：如果 AI 能直接读取当前书页或标签页内容并生成可编辑摘录，用户可省掉复制粘贴和切换窗口这一步，因此边读边产出的人可能选择它；但公开材料未说明 AI 具体接收什么、产出什么，也缺少使用与留存证据。
+  usage_reason_en: 'Inference: if the AI can read the current page or tab and produce an editable excerpt,
+    users skip the copy-paste and window-switching step, so people who produce while reading may choose
+    it; however the public material does not say what the AI takes in or outputs, and usage or retention
+    evidence is absent.'

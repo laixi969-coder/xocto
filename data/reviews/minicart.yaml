@@ -1,0 +1,43 @@
+- id: req-initial-minicart-2026-09-21
+  project_slug: minicart
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决店主后台杂务，但材料只有一句口号，说不清具体任务、痛点强度与不采用的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-2bf96628b6d4f4f2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无任何采用、评价或场景证据可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-2bf96628b6d4f4f2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均无公开信息，无法判断钱从哪来。
+    evidence_ids:
+    - ev-2bf96628b6d4f4f2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对交付是否确定发生，也看不到人工边界。
+    evidence_ids:
+    - ev-2bf96628b6d4f4f2
+  next_validation: 收集 Minicart 官方产品页或定价页，确认它具体接管哪一步电商后台工作、交付什么结果以及如何收费。
+  market: ''
+  job: 独立店主在开店或日常运营时，处理商品上架、订单跟进等后台杂务，希望把这些事务交出去以完成店铺正常运转。
+  job_en: An independent store owner setting up or running a shop handles back-office chores such as listing
+    products and following up orders, and wants to hand these off so the store keeps running.
+  pain: 材料只给出“让 AI 处理杂活”一句，未说明店主具体卡在哪一步、耗时多久、不处理会有什么后果，痛点无法从公开事实还原。
+  pain_en: The material offers only the line 'let AI run the busywork' and does not say which step blocks
+    the owner, how long it takes, or what happens if it is not done, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 公开材料未说明店主现在用什么替代，可能是电商平台自带后台、第三方插件或人工处理，均属推断。
+  current_alternative_en: The public material does not state the current substitute; platform-native backends,
+    third-party plugins or manual work are all inference.
+  usage_reason: 无法判断：材料未说明 AI 具体接收什么、执行哪一步、交付什么，因此无法解释相较旧做法减少了哪一步负担，也无法说明哪类店主会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what the AI receives, which step it performs
+    or what it delivers, so it is impossible to explain which burden is removed versus the old way or
+    which sellers would choose it and when.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNVN2SjNyODNo
 summary: Citrix医疗领域首席技术官谈AI智能体治理的重要性 Sohu
 first_seen: '2026-09-20T14:25:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

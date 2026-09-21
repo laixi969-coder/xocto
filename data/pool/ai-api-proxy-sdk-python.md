@@ -22,7 +22,7 @@ summary: 'AI API proxy SDK for Python: retry with idempotency keys, rate-limit b
   cost accounting and typed errors for OpenAI-compatible AI API gateways.'
 first_seen: '2026-09-17T09:51:41Z'
 last_seen: '2026-09-21T00:16:56Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

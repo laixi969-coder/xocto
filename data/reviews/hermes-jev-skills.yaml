@@ -1,0 +1,43 @@
+- id: req-initial-hermes-jev-skills-2026-09-21
+  project_slug: hermes-jev-skills
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 在长任务中记忆丢失、模型选择与浏览器操作需自行拼接的问题，痛点是重复接线与任务中断，旧做法是自建工具链，属工作流推理。
+    evidence_ids:
+    - ev-94124668c85ccf55
+  - gate: consensus
+    status: insufficient
+    reason: 254 星与 21 次 fork 说明有开发者关注，但没有团队采用、复用或长期维护的公开记录。
+    evidence_ids:
+    - ev-94124668c85ccf55
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、商业主体或付费路径，钱从哪来无法判断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-94124668c85ccf55
+  - gate: truth
+    status: insufficient
+    reason: 技能包与上游 agent 的兼容性、维护责任与安全边界公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-94124668c85ccf55
+  next_validation: 收集该仓库的 issue 与 release 记录，确认维护活跃度以及是否有团队在真实 agent 工作流中长期使用。
+  market: ''
+  job: AI 智能体开发者在组装 Hermes、Claude Code 或 Codex 智能体时，需要让 agent 在长任务里保持记忆、选对模型并操作浏览器完成步骤。
+  job_en: AI agent developers assembling Hermes, Claude Code or Codex agents need the agent to keep memory
+    across long tasks, pick the right model, and operate a browser to finish steps.
+  pain: 过去这些能力要开发者自己逐个接模型、写记忆与压缩逻辑、再补浏览器操作，重复劳动多且容易在长任务中中断。
+  pain_en: Previously developers had to wire each model, write memory and compaction logic, and add browser
+    control themselves, which is repetitive and prone to breaking on long tasks.
+  current_alternative: 开发者自行拼接各家模型 SDK、自建记忆与浏览器工具链。
+  current_alternative_en: Developers stitching together model SDKs and building their own memory and browser
+    toolchains.
+  usage_reason: 相较自行拼接，它把路由、记忆、压缩、技能选择与浏览器操作打包成可直接引入的技能，省掉逐个接模型和自写记忆逻辑这两步，因此做长任务 agent 的开发者会先试它；这是基于仓库说明的推断，尚无采用证据。
+  usage_reason_en: Compared with stitching pieces together, it packages routing, memory, compaction, skill
+    selection and browser use into skills that can be pulled in directly, removing the steps of wiring
+    each model and writing memory logic, so developers building long-task agents would try it first; this
+    is inference from the repo description, with no adoption evidence yet.

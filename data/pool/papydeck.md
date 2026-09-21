@@ -21,7 +21,7 @@ canonical_url: https://papydeck.eu
 summary: Three genlocked RP2350B make a console – 3k sprite pixels per line)
 first_seen: '2026-09-20T17:37:06Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

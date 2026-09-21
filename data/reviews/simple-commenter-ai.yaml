@@ -1,0 +1,42 @@
+- id: req-initial-simple-commenter-ai-2026-09-21
+  project_slug: simple-commenter-ai
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决交付前自查与整理修改清单的需求，但公开材料只有一句功能描述，说不清漏检代价与旧流程耗时，痛点刚性未明。
+    evidence_ids:
+    - ev-bd7bcb63be19aaa1
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外无采用、评价或社区讨论证据，无法判断是否有人真的把它放进交付流程。
+    evidence_ids:
+    - ev-bd7bcb63be19aaa1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按站点还是按次收费无从判断，付费路径属于推断。
+    evidence_ids:
+    - ev-bd7bcb63be19aaa1
+  - gate: truth
+    status: insufficient
+    reason: 模型给出的修改建议是否可直接落地、人工复核边界在哪，公开材料未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-bd7bcb63be19aaa1
+  next_validation: 收集该产品的官方定价页或客户案例，确认按什么计价以及是否有开发者实际用于交付前检查。
+  market: ''
+  job: 自由职业网页开发者在向客户交付站点前，需要检查页面问题并整理一份修改清单。
+  job_en: A freelance web developer, before delivering a site to a client, needs to inspect page issues
+    and compile a revision list.
+  pain: 逐页人工点检耗时，且容易漏掉细节；但公开材料未说明漏检带来的具体代价。
+  pain_en: Manual page-by-page inspection is time-consuming and easy to miss details, but public material
+    does not state the concrete cost of missed issues.
+  current_alternative: 开发者自己逐页检查，或使用浏览器开发者工具与通用聊天模型零散提问。
+  current_alternative_en: Developers check pages themselves, or ask a general chat model piecemeal alongside
+    browser dev tools.
+  usage_reason: 推断：相较逐页自查，它把站点内容一次性交给模型并直接产出修改建议，省去整理问题清单这一步；但缺少用户反馈或案例，无法确认开发者会因此选择它。
+  usage_reason_en: 'Inference: compared with page-by-page self-checking, it hands site content to a model
+    at once and returns revision suggestions, skipping the step of compiling an issue list; without user
+    feedback or cases, it is unconfirmed that developers would choose it for this.'

@@ -1,0 +1,46 @@
+- id: req-initial-clipmivo-tools-2026-09-21
+  project_slug: clipmivo-tools
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量短视频素材的生产问题：投放需要持续出片，人工逐条剪辑或外包慢且贵，接口化生成能省掉逐条上传下载的重复动作，痛点具体。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库约 104 个星标，属于关注度而非持续采用；没有客户案例、评价或使用量说明谁真的把它接进投放流程。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方，按条收费还是按额度收费无法确认；钱可能来自投放团队或电商卖家，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+  - gate: truth
+    status: insufficient
+    reason: 成片可用率、生成时长与人工返工比例均未披露，交付能否稳定发生无法核对，只能确认接口形态存在。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+  next_validation: 收集 ClipmivoAI 官方定价页或 API 文档中的计费方式与调用限制，以及公开的成片示例或客户案例，用于核对交付可用率与付费路径。
+  market: ''
+  job: 营销运营或电商卖家在需要批量产出短视频素材时，把商品图文、脚本或已有素材交给 ClipmivoAI 的接口或本地 MCP 服务，生成视频片段，再人工筛选出可投放的初稿。
+  job_en: Marketing operators or e-commerce sellers who need short-video assets in bulk hand product images,
+    scripts or existing material to ClipmivoAI's API or local MCP server to generate clips, then manually
+    pick the drafts worth placing.
+  pain: 短视频投放需要持续、成批的素材，人工逐条剪辑和套模板耗时且难以跟上投放节奏；外包制作又慢又贵，改一版要重新沟通。
+  pain_en: Short-video ad placement needs a steady stream of assets; editing each clip by hand or filling
+    templates is slow and hard to keep up with, while outsourcing is costly and every revision needs another
+    round of briefing.
+  current_alternative: 目前多由运营自己用剪辑软件套模板逐条制作，或外包给剪辑师、使用网页版视频生成工具手动一条条生成再下载。
+  current_alternative_en: Today operators either cut each clip themselves in editing software with templates,
+    outsource to freelance editors, or generate clips one by one in a web video tool and download them
+    manually.
+  usage_reason: 相较逐条手工生成或外包，接口与本地 MCP 服务让脚本或商品数据可以直接批量送入生成流程，省掉逐条上传、等待和下载的重复操作，因此需要成批出片的投放团队会优先尝试；这是基于产品能力的工作流推断，尚无客户案例或留存数据支持。
+  usage_reason_en: Compared with generating clips one by one or outsourcing, the API and local MCP server
+    let scripts or product data be fed into the generation pipeline in batches, removing repeated upload,
+    wait and download steps, so teams that need clips at volume are likely to try it first; this is a
+    workflow inference from product capability, not supported by customer cases or retention data.

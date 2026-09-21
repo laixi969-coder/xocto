@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/493068.html
 summary: AI越来越能干，企业该怎么用
 first_seen: '2026-09-20T14:23:52Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

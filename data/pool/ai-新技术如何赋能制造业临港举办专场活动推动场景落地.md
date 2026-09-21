@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE96VHl5WE5IOG9V
 summary: AI 新技术如何赋能制造业？临港举办专场活动推动场景落地 上观新闻
 first_seen: '2026-09-20T03:47:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

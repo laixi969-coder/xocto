@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yUlZqb2tCNkVp
 summary: '[Korean Startup Weekly News #136] Enterprise AI Takes Command Wowtale'
 first_seen: '2026-09-19T06:08:17Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

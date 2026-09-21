@@ -23,7 +23,7 @@ summary: At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single
   community for the past few years, presented by Google for Startups.
 first_seen: '2026-08-27T23:16:45Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

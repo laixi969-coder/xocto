@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/492912.html
 summary: 亚马逊云科技给企业安全用Agent打了个样
 first_seen: '2026-09-20T08:01:13Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

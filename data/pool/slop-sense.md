@@ -21,7 +21,7 @@ canonical_url: https://slop-sense.labtoagi.com/games/is-this-image-ai
 summary: Can you tell which images are AI-generated?
 first_seen: '2026-09-19T23:02:34Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

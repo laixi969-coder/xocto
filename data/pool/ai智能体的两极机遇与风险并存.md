@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yR2pTdnMxN0pF
 summary: AI智能体的两极：机遇与风险并存 至顶网
 first_seen: '2026-09-19T23:53:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

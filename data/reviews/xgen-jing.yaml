@@ -1,0 +1,45 @@
+- id: req-initial-xgen-jing-2026-09-21
+  project_slug: xgen-jing
+  level: initial
+  reviewed_at: '2026-09-21T00:17:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决第一人称镜头生成与改视角的需求，痛点是实拍或引擎预演成本高、改一次要重做，旧替代行为明确，交付为可剪辑片段。
+    evidence_ids:
+    - ev-97da16821dd2aba4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有演示页与 2 个点赞，没有用户评价、案例或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-97da16821dd2aba4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与计费方式；按片段或镜头收费只是可能路径，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-97da16821dd2aba4
+  - gate: truth
+    status: insufficient
+    reason: 无法核验生成时长、分辨率、音画同步与商用授权，交付确定性尚不清楚，也未说明人工审核边界。
+    evidence_ids:
+    - ev-97da16821dd2aba4
+  next_validation: 收集 XGEN-JING 官方演示页或文档中关于生成时长、分辨率、音画同步与商用授权的说明，以核验交付确定性。
+  market: ''
+  job: 视频创作者或游戏预演人员在需要生成第一人称视角片段时，输入相机移动路径与场景描述，得到可继续剪辑或迭代的视频与音频素材，仍需人工筛选与确认。
+  job_en: Video creators or game previsualization staff generating first-person viewpoint clips input
+    a camera path and scene description to obtain video and audio assets for further editing or iteration,
+    still requiring human review and confirmation.
+  pain: 第一人称镜头过去要靠实拍稳定器、3D 预演或逐帧调整，成本高且改一次镜头就要重做一遍，小团队很难快速试多个视角。
+  pain_en: First-person shots used to require physical gimbals, 3D previsualization or frame-by-frame
+    adjustment, which is costly and forces a full redo for every camera change, making it hard for small
+    teams to try multiple viewpoints quickly.
+  current_alternative: 旧做法是实拍加稳定器、在游戏引擎里搭预演场景，或用通用文生视频工具反复抽卡再手动挑镜头。
+  current_alternative_en: The old way is shooting with gimbals, building previsualization scenes in a
+    game engine, or repeatedly sampling generic text-to-video tools and hand-picking shots.
+  usage_reason: 相较反复抽卡或重搭预演场景，它把相机路径变成可直接输入的参数，让改视角这一步从重做整段变成改一条路径，因此需要频繁试镜头的第一人称内容团队会先试用它；这是基于产品能力的推断，尚无用户反馈支持。
+  usage_reason_en: Compared with repeated sampling or rebuilding previsualization scenes, it turns the
+    camera path into a directly input parameter, so changing a viewpoint becomes editing one path instead
+    of redoing the whole segment; teams doing first-person content that iterate on shots often would try
+    it first. This is an inference from product capability, not supported by user feedback yet.

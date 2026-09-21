@@ -21,7 +21,7 @@ canonical_url: https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-
 summary: I stopped drinking the AI Kool-Aid
 first_seen: '2026-09-20T21:17:26Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

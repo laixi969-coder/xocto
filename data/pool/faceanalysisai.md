@@ -21,7 +21,7 @@ canonical_url: https://faceanalysisai.com
 summary: AI Facial Attractiveness Model Aligned with Human Preferences
 first_seen: '2026-09-20T08:48:35Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

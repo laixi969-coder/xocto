@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1mek1LU2FMQjI3
 summary: 新华三入选AIIA智能体产业图谱等多项成果，“底座+应用”锚定产业新坐标 新浪网
 first_seen: '2026-09-07T09:39:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

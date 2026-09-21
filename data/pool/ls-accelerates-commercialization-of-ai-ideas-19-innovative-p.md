@@ -23,7 +23,7 @@ summary: LS Accelerates Commercialization of AI Ideas... 19 Innovative Projects 
   Day' 아시아경제
 first_seen: '2026-09-20T01:24:46Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

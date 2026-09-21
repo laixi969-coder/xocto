@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxOU0g0OFdmUWx1
 summary: AI Content Creator, Influencer and Speaker Scott Steinberg futuristsspeakers.com
 first_seen: '2026-09-20T16:47:19Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

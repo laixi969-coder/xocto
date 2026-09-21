@@ -1,0 +1,43 @@
+- id: req-initial-blender-video-workflows-2026-09-21
+  project_slug: blender-video-workflows
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是视频生成中镜头结构与运动难以控制、反复试提示词浪费额度的问题，旧做法是手工搭场景再翻译提示词，结构上成立。
+    evidence_ids:
+    - ev-8e216aefcc01a233
+  - gate: consensus
+    status: insufficient
+    reason: 仅见约 40 星、9 次 fork，没有用户反馈或成片案例，无法判断是否被持续采用。
+    evidence_ids:
+    - ev-8e216aefcc01a233
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，买方可能是广告或短视频制作团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8e216aefcc01a233
+  - gate: truth
+    status: insufficient
+    reason: 仓库未提供可复现的成片对比，无法确认从白模到成片的交付是否稳定。
+    evidence_ids:
+    - ev-8e216aefcc01a233
+  next_validation: 收集该仓库的 issue 与示例成片，确认是否有创作者报告用同一流程重复产出可用镜头。
+  market: ''
+  job: 视频创作者或动画师在需要复刻一段参考视频、或把原创白模动画转成成片时，要先把画面结构和运动转成生成模型能吃的提示词。
+  job_en: A video creator or animator replicating a reference video or turning an original white-model
+    animation into a finished clip must first convert shot structure and motion into prompts a generator
+    can consume.
+  pain: 直接写提示词难以控制镜头结构和运动，反复生成仍对不上参考片，浪费生成额度与时间。
+  pain_en: Writing prompts directly gives poor control over shot structure and motion, so repeated generations
+    still fail to match the reference, wasting credits and time.
+  current_alternative: 旧做法是凭经验反复试提示词，或先在 Blender 里手工搭场景再人工翻译成提示词。
+  current_alternative_en: The old way is to iterate prompts by experience, or build the scene manually
+    in Blender and hand-translate it into prompts.
+  usage_reason: 推断：相较反复试提示词，它把 Blender 里的白模或参考片结构直接转成提示词，减少创作者在生成工具与三维软件之间来回翻译的那一步，因此需要稳定复刻镜头的广告与短视频团队会试用。
+  usage_reason_en: 'Inference: compared with iterating prompts, it converts the white-model or reference
+    structure in Blender directly into prompts, removing the back-and-forth translation between the generator
+    and 3D software, so ad and short-video teams needing repeatable shots would try it.'

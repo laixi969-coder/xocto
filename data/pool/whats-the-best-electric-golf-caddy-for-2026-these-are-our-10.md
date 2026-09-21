@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JX1prN3hYczJL
 summary: What’s the Best Electric Golf Caddy for 2026? These Are Our 10 Favorites Breaking Eighty
 first_seen: '2026-09-18T20:13:02Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

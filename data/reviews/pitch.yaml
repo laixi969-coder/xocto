@@ -80,3 +80,44 @@
   usage_reason: Pitch 月访问量 144 万，环比增长 16.63%，说明大量用户使用其模板和协作功能，但付费转化未披露。
   usage_reason_en: Pitch has 1.44 million monthly visits, up 16.63% month-over-month, indicating significant
     usage of its templates and collaboration features, but paid conversion is undisclosed.
+- id: req-initial-pitch-2026-09-21
+  project_slug: pitch
+  level: initial
+  reviewed_at: '2026-09-21T00:17:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把零散要点做成可演示幻灯片的需求，痛点与旧流程可还原，但公开材料未给出用户抱怨或采用行为，价值判断只能停在结构推理。
+    evidence_ids:
+    - ev-5d3639fcc2c96be4
+  - gate: consensus
+    status: insufficient
+    reason: 只有访问量与环比这类规模数据，没有用户评价、客户案例或重复使用证据，无法判断共识卡在哪一环。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页或买方类型，钱可能来自个人订阅或团队席位，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核验生成内容是否贴近真实业务数据、交付是否确定发生，也看不到人工确认边界。
+    evidence_ids:
+    - ev-5d3639fcc2c96be4
+  next_validation: 收集 Pitch 官方定价页与公开客户案例，确认按什么计价以及是否有团队级付费使用。
+  market: ''
+  job: 创业者和销售在准备融资路演或客户提案时，把零散的业务要点、数据和品牌素材整理成可演示的幻灯片。
+  job_en: Founders and sales staff turn scattered business points, data and brand assets into a presentable
+    slide deck for fundraising or client proposals.
+  pain: 手工排版和统一视觉风格耗时，且模板与内容反复返工；公开材料未给出用户对此的具体抱怨证据。
+  pain_en: Manual layout and visual consistency are time-consuming and templates and content get reworked
+    repeatedly; public material gives no direct user complaint evidence.
+  current_alternative: PowerPoint、Google Slides 自带模板，或设计师与外部代做。
+  current_alternative_en: Built-in templates in PowerPoint or Google Slides, or a designer or outsourced
+    deck service.
+  usage_reason: 推断：相较从空白模板逐页排版，Pitch 通过模板与页面生成减少初始排版这一步，因此赶时间、没有设计资源的创业者或销售可能选择它；但公开材料未提供用户反馈或留存证据，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: versus laying out pages from a blank template, Pitch reduces the initial
+    layout step through template and page generation, so time-pressed founders or sales without design
+    resources may choose it; public material offers no user feedback or retention evidence that it stays
+    in the workflow.'

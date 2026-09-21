@@ -1,0 +1,42 @@
+- id: req-initial-meta-个人助手登顶美国-app-store张雪机车发-5-款新车最贵-138-万淘宝闪购制服获法国设计最高奖马云深度-2026-09-21
+  project_slug: meta-个人助手登顶美国-app-store张雪机车发-5-款新车最贵-138-万淘宝闪购制服获法国设计最高奖马云深度
+  level: initial
+  reviewed_at: '2026-09-21T00:17:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都未在材料中说明，只知是个人助手应用，价值关无法成立。
+    evidence_ids:
+    - ev-73a9c8b55c252dbd
+  - gate: consensus
+    status: insufficient
+    reason: 登顶免费榜是关注度与下载规模信号，不能证明持续采用，也未见用户评价或客户案例。
+    evidence_ids:
+    - ev-73a9c8b55c252dbd
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、付费方或任何收入路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-73a9c8b55c252dbd
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该任务的第一性目标、交付是否确定，以及人工确认边界在哪。
+    evidence_ids:
+    - ev-73a9c8b55c252dbd
+  next_validation: 收集 Meta Muse 官方产品页或应用商店说明，确认其具体输入、可执行动作、交付结果与是否收费。
+  market: ''
+  job: 普通手机用户在通勤、居家或临时需要帮助时，用自然语言提出日常问题或代办请求，希望直接拿到答案或完成的操作结果。
+  job_en: Ordinary phone users, while commuting, at home or in a moment of need, raise everyday questions
+    or errands in natural language and expect a direct answer or completed action.
+  pain: 候选材料未提供任何用户痛点、抱怨或替代行为的描述，无法确认它替用户省掉了哪一步。
+  pain_en: The candidate material provides no user pain points, complaints or substitute behaviors, so
+    it is impossible to confirm which step it removes for users.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务，只能推断为系统自带助手或通用聊天应用，属推断。
+  current_alternative_en: Public material does not state what users previously used for the same tasks;
+    the only inference is a built-in phone assistant or a general chat app, and this is an inference.
+  usage_reason: 材料只给出上线一周登顶美国 App Store 免费榜这一规模信号，未说明用户因哪项具体动作或可核对结果而选择它，因此无法解释使用理由。
+  usage_reason_en: The material only gives a scale signal, topping the US App Store free chart within
+    a week, and does not explain which concrete action or checkable result makes users choose it, so the
+    usage reason cannot be stated.

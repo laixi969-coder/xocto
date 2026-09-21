@@ -1,0 +1,43 @@
+- id: req-initial-trading-journal-ai-2026-09-21
+  project_slug: trading-journal-ai
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决交易者手工配对成交、统计盈亏耗时易错的问题，旧流程明确，交付为可核对的复盘结论。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，未见用户评价或持续使用证据，无法判断复盘习惯是否被真正改变。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未披露付费路径；买方可能是个人交易者或后续增值服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+  - gate: truth
+    status: insufficient
+    reason: 模型分析基于本地数据，但复盘结论的准确性与人工确认边界未在公开材料中说明。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+  next_validation: 收集该仓库的 issue 与讨论区，确认用户是否持续导入新成交记录并重复使用复盘功能。
+  market: ''
+  job: 个人交易者在收盘后整理券商导出的成交 CSV，需要把零散流水还原成完整回合交易并复盘盈亏原因，形成下一笔交易的改进依据。
+  job_en: An individual trader after market close organizes broker-exported trade CSVs, needs to reconstruct
+    scattered fills into round trips and review profit and loss causes to guide the next trade.
+  pain: 手工在表格里配对买卖、计算盈亏和统计指标耗时且易错，复盘往往流于感觉，难以坚持。
+  pain_en: Manually pairing buys and sells in spreadsheets, computing P&L and statistics is slow and error-prone,
+    so review often stays impressionistic and hard to sustain.
+  current_alternative: 目前多用 Excel 手工记账、券商自带对账单或通用笔记软件写复盘，缺少自动配对与结构化分析。
+  current_alternative_en: Today people use Excel manually, broker statements or generic note apps for
+    review, lacking automatic pairing and structured analysis.
+  usage_reason: 推断：相较手工表格，它直接读取券商 CSV 自动生成回合交易与指标，省去配对和计算这一步，再让模型基于结构化结果写复盘，因此高频交易者会在每日收盘后选择它；公开材料尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus manual spreadsheets, it reads broker CSV directly to generate round
+    trips and metrics, removing the pairing and calculation step, then has the model write the review
+    from structured results, so frequent traders may choose it after each close; public material has no
+    retention or payment evidence yet.'

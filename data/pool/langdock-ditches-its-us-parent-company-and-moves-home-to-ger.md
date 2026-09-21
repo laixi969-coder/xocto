@@ -1,6 +1,6 @@
 ---
 slug: langdock-ditches-its-us-parent-company-and-moves-home-to-ger
-name: Langdock Ditches Its US Parent Company And Moves Home To Germany
+name: Langdock
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxONmJpa0FUSHhP
 summary: Langdock Ditches Its US Parent Company And Moves Home To Germany Startup Fortune
 first_seen: '2026-09-20T06:49:34Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Langdock Ditches Its US Parent Company And Moves Home To Germany
+# Langdock
 
 Langdock Ditches Its US Parent Company And Moves Home To Germany Startup Fortune
 

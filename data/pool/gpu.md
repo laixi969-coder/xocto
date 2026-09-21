@@ -21,7 +21,7 @@ canonical_url: https://gpu.studio/trolley
 summary: Will Jev pull the lever in the trolley problem?
 first_seen: '2026-09-20T08:31:26Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

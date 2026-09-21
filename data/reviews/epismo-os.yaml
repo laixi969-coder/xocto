@@ -1,0 +1,42 @@
+- id: req-initial-epismo-os-2026-09-21
+  project_slug: epismo-os
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决换工具丢上下文的问题，但公开材料没有说明原来的搬运方式和痛点强度，需求结构写不出来。
+    evidence_ids:
+    - ev-154f8adba10ee040
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有采用或持续使用的任何证据。
+    evidence_ids:
+    - ev-154f8adba10ee040
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有定价、买方或付费路径信息。
+    evidence_ids:
+    - ev-154f8adba10ee040
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断迁移后的内容是否真的可用、交付是否确定。
+    evidence_ids:
+    - ev-154f8adba10ee040
+  next_validation: 收集该产品的官方页面或定价页，确认它实际搬运哪些内容、以什么形式交付。
+  market: ''
+  job: 频繁切换 AI 工具的知识工作者在换工具时，处理此前积累的对话与工作内容，要完成一次不丢上下文的迁移。
+  job_en: A knowledge worker who switches AI tools frequently, when changing tools, works with previously
+    accumulated conversations and work content to complete a migration that does not lose context.
+  pain: 公开材料只有一句“切换工具时保留工作”，没有说明用户原来怎么搬运、不解决会付出什么代价。
+  pain_en: The public material is one line about keeping work when switching tools; it does not say how
+    users moved work before or what it costs them to lose it.
+  current_alternative: 用户通常手动复制粘贴或重新提问来重建上下文，公开材料未说明与这些做法的差别。
+  current_alternative_en: Users typically copy and paste manually or re-prompt to rebuild context; the
+    public material does not describe how this differs.
+  usage_reason: 推断：如果它确实能把旧工具里的对话与产出带过去，频繁换模型的知识工作者会在迁移时用它；但缺少用户反馈或案例，无法确认这一步负担真的被减少。
+  usage_reason_en: 'Inference: if it really carries conversations and outputs over from the old tool,
+    knowledge workers who switch models often would use it when migrating; without user feedback or cases,
+    that burden reduction cannot be confirmed.'

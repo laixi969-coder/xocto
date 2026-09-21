@@ -1,11 +1,14 @@
 ---
 slug: 迪士尼首次任命首席技术官挖来原characterai首席执行官阿南德强化ai布局-2
-name: 迪士尼首次任命首席技术官：挖来原Character.AI首席执行官阿南德，强化AI布局
+name: 迪士尼
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一条组织人事变化：迪士尼首次设立首席技术官岗位，由原Character.AI首席执行官阿南德担任，报道将其定位为强化AI布局。公开材料未说明具体产品、投入金额或业务指标，因此对AI应用成本、采用与交付的影响尚无法从本次事实中确认。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is an organizational change: Disney created its first CTO position and named former
+  Character.AI CEO Anand to it, framed as strengthening its AI push. Public materials give no product,
+  budget or business metrics, so the effect on AI application cost, adoption or delivery cannot be confirmed
+  from this fact alone.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswRBVV95cUxPc0hqa0phZmVa
 summary: 迪士尼首次任命首席技术官：挖来原Character.AI首席执行官阿南德，强化AI布局 新浪财经
 first_seen: '2026-09-20T09:48:06Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# 迪士尼首次任命首席技术官：挖来原Character.AI首席执行官阿南德，强化AI布局
+# 迪士尼
 
 迪士尼首次任命首席技术官：挖来原Character.AI首席执行官阿南德，强化AI布局 新浪财经
 

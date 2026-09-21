@@ -1,0 +1,42 @@
+- id: req-initial-heimdall-agent-2026-09-21
+  project_slug: heimdall-agent
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权安全演练中多步探测与利用需要人工逐步编排的问题，痛点是步骤重复、过程难复现，旧做法是手写脚本，属工作流推理。
+    evidence_ids:
+    - ev-9c6ccda7ea44aaa7
+  - gate: consensus
+    status: insufficient
+    reason: 73 星与 11 次 fork 只说明有开发者关注，没有安全团队采用或复用的公开记录。
+    evidence_ids:
+    - ev-9c6ccda7ea44aaa7
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、商业主体或付费路径，钱从哪来无法判断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-9c6ccda7ea44aaa7
+  - gate: truth
+    status: insufficient
+    reason: 授权边界如何约束、结果是否可复核，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-9c6ccda7ea44aaa7
+  next_validation: 收集该仓库的 issue、discussion 与外部引用，确认是否有安全团队在授权演练中实际使用并公开结果。
+  market: ''
+  job: 安全研究员在授权 CTF 或安全实验室里，需要让 agent 自主完成多步探测与利用并留下可复核的解题过程。
+  job_en: Security researchers in authorized CTF or lab settings need an agent to autonomously complete
+    multi-step probing and exploitation while leaving a reviewable solving process.
+  pain: 过去这类任务靠人逐步写脚本、手工串联工具，步骤多且重复，过程难以复现和交接。
+  pain_en: Such tasks previously relied on people writing scripts step by step and chaining tools by hand,
+    with many repetitive steps and a process hard to reproduce or hand over.
+  current_alternative: 人工编写利用脚本，或用通用 agent 加自建工具链。
+  current_alternative_en: Hand-written exploitation scripts, or a general agent plus a self-built toolchain.
+  usage_reason: 相较人工串联工具，它把多步探测与利用的编排交给框架执行，减少逐步写脚本与手工衔接的负担，因此做授权演练的安全团队会先试它；这是基于仓库定位的推断，尚无采用证据。
+  usage_reason_en: Compared with chaining tools by hand, it delegates orchestration of multi-step probing
+    and exploitation to the framework, cutting the burden of writing scripts step by step and stitching
+    them manually, so security teams running authorized exercises would try it first; this is inference
+    from the repo's positioning, with no adoption evidence yet.

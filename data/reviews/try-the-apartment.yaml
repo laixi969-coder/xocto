@@ -1,0 +1,42 @@
+- id: req-initial-try-the-apartment-2026-09-21
+  project_slug: try-the-apartment
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决看房时判断家具能否放下的问题，痛点存在，但公开材料未说明 AI 具体动作与交付，价值结构不完整。
+    evidence_ids:
+    - ev-093e12998d0c3b91
+  - gate: consensus
+    status: insufficient
+    reason: 无采用或评价证据，无法判断看房者是否愿意在决策前做三维试摆。
+    evidence_ids:
+    - ev-093e12998d0c3b91
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自中介、公寓运营商或家具零售，属判断而非已验证事实。
+    evidence_ids:
+    - ev-093e12998d0c3b91
+  - gate: truth
+    status: insufficient
+    reason: 三维模型与真实房源的尺寸一致性、以及结果能否确定性交付均未说明。
+    evidence_ids:
+    - ev-093e12998d0c3b91
+  next_validation: 收集该产品官网的定价页与房源合作案例，确认三维模型来源与交付结果。
+  market: ''
+  job: 租房者或购房者在实地或线上看房时，需要判断自己现有家具能否放进这套公寓，以及如何摆放。
+  job_en: A renter or buyer viewing an apartment, on site or online, needs to judge whether their existing
+    furniture fits and how to arrange it.
+  pain: 仅凭平面图和照片难以判断尺寸与动线，搬入后才发现放不下，退换或重新购置成本高。
+  pain_en: Floor plans and photos make size and circulation hard to judge, so misfit is discovered only
+    after moving in, with costly returns or repurchases.
+  current_alternative: 目前靠卷尺测量、纸面草图或请设计师出图，普通看房者很少做这一步。
+  current_alternative_en: Today people use tape measures, paper sketches or paid designer drawings, and
+    ordinary viewers rarely do this step at all.
+  usage_reason: 推断：若三维模型可直接拖拽家具并即时看到适配结果，看房者可省去测量与想象这一步，因此在意家具摆放的租房者或家具销售场景可能使用；但公开材料未说明 AI 具体作用与交付结果。
+  usage_reason_en: 'Inference: if the 3D model allows direct furniture dragging with instant fit feedback,
+    viewers skip measuring and imagining, so renters who care about layout or furniture sales settings
+    may use it; however the public material does not explain the AI''s role or deliverable.'

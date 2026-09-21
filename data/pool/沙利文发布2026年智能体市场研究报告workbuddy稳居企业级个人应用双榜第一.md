@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTE9qME91SnhwVHl6
 summary: 沙利文发布2026年智能体市场研究报告：WorkBuddy稳居企业级、个人应用双榜第一 央广网
 first_seen: '2026-09-20T10:52:31Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

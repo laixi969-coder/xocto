@@ -1,0 +1,41 @@
+- id: req-initial-stanley-code-2026-09-21
+  project_slug: stanley-code
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理执行越界与难审计的问题，但公开材料只有一句仓库描述，说不清旧流程耗时与不采用的后果。
+    evidence_ids:
+    - ev-dc7b25527f5964be
+  - gate: consensus
+    status: insufficient
+    reason: 约 101 星与 6 个 fork 只说明关注度，没有 issue 讨论或采用证据表明它被放进真实工作流。
+    evidence_ids:
+    - ev-dc7b25527f5964be
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或商业路径，买方与付费方式均属未知。
+    evidence_ids:
+    - ev-dc7b25527f5964be
+  - gate: truth
+    status: insufficient
+    reason: 类型安全约束能否覆盖真实代理任务、出错时如何回退，公开材料未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-dc7b25527f5964be
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有团队报告在真实编码代理流程中使用并说明约束效果。
+  market: ''
+  job: 使用编码代理的软件开发者，在让代理执行多步代码改动时，需要限定代理可执行的动作范围。
+  job_en: A software developer using coding agents, when letting an agent perform multi-step code changes,
+    needs to bound the actions the agent may take.
+  pain: 代理自由执行容易越界或产生难以审计的改动；公开材料未给出越界造成的具体损失。
+  pain_en: Free-form agent execution can overstep or produce hard-to-audit changes, but public material
+    gives no concrete loss from such overstepping.
+  current_alternative: 开发者靠提示词约束、人工复核或自行编写脚本限制代理行为。
+  current_alternative_en: Developers constrain agents with prompts, manual review, or self-written scripts.
+  usage_reason: 推断：相较提示词约束，它把边界写成类型安全的工作流定义，使代理动作可被检查，减少事后逐条核对；但缺少 issue 讨论或使用反馈，无法确认团队会因此采用。
+  usage_reason_en: 'Inference: compared with prompt constraints, it writes boundaries as type-safe workflow
+    definitions so agent actions can be inspected, reducing line-by-line post-hoc checking; without issue
+    discussion or usage feedback, team adoption is unconfirmed.'

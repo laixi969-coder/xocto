@@ -1,0 +1,45 @@
+- id: req-initial-openalgo-charts-2026-09-21
+  project_slug: openalgo-charts
+  level: initial
+  reviewed_at: '2026-09-21T00:16:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决金融门户自建图表终端的投入问题，痛点方向成立，但公开材料未说明 AI 具体动作与交付结果，价值结构无法确认。
+    evidence_ids:
+    - ev-4a433861e94a50f9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有发布信息，无用户评价、客户案例或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-4a433861e94a50f9
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式，无法判断钱来自 to C、to B 还是 to VC。
+    evidence_ids:
+    - ev-4a433861e94a50f9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对是否贴近行情展示的第一性目标、交付是否确定，以及数据合规与人工边界。
+    evidence_ids:
+    - ev-4a433861e94a50f9
+  next_validation: 收集 OpenAlgo Charts 的官方仓库 README 与部署文档，确认其数据来源、AI 具体承担的动作以及是否提供可复现的嵌入示例。
+  market: ''
+  job: 金融门户运营者或券商技术团队在搭建行情页面时，需要把行情数据渲染成可交互图表供访客查看，公开材料未说明 AI 在其中承担什么具体动作。
+  job_en: Financial portal operators or brokerage engineering teams building market pages need to render
+    quote data into interactive charts for visitors; public materials do not state what specific action
+    the AI performs.
+  pain: 自建图表终端需要前端与行情数据接入的持续投入，中小门户难以承担；但该产品是否真的替代了这一步，公开材料未给出证据。
+  pain_en: Building a charting terminal requires ongoing front-end and market-data integration effort
+    that small portals struggle to fund; whether this product actually replaces that step is not evidenced
+    publicly.
+  current_alternative: 使用 TradingView 等第三方图表组件、自研前端图表，或直接嵌入行情商提供的页面。
+  current_alternative_en: Using third-party charting components such as TradingView, building in-house
+    front-end charts, or embedding pages provided by data vendors.
+  usage_reason: 推断：若它确实提供可直接嵌入的开源图表终端，门户可省去自研前端与数据接入这一步，因此中小券商和财经资讯站会在需要快速上线行情页时考虑它；但公开材料未说明 AI 具体做什么，也未提供采用或留存证据。
+  usage_reason_en: 'Inference: if it truly offers an embeddable open-source charting terminal, portals
+    could skip in-house front-end and data-integration work, so small brokers and financial news sites
+    would consider it when launching market pages quickly; however, public materials do not state what
+    the AI does and provide no adoption or retention evidence.'

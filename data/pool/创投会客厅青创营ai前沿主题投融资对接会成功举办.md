@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIdm1XelRwZUVi
 summary: 创投会客厅青创营·AI前沿主题投融资对接会成功举办 rmzxw.com.cn
 first_seen: '2026-09-20T02:23:00Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

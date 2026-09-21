@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lTFpBbUdVNmhz
 summary: 从“使用AI工具”到“构建AI能力” 四大行动支点如何助力服务商完成AI转型？ 亿邦动力网
 first_seen: '2026-09-20T02:14:51Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

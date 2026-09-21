@@ -1,0 +1,44 @@
+- id: req-initial-dynolab-2026-09-21
+  project_slug: dynolab
+  level: initial
+  reviewed_at: '2026-09-21T00:16:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地做可解释性实验的需求，但公开材料没有说明原来卡在哪一步、不做的后果是什么，痛点和旧流程都写不出来。
+    evidence_ids:
+    - ev-642c38470bc81635
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，只有仓库星标这一关注度信号，不能说明研究者已经把它放进日常工作流。
+    evidence_ids:
+    - ev-642c38470bc81635
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有定价页、买方或付费路径的任何信息。
+    evidence_ids:
+    - ev-642c38470bc81635
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断本地推理与干预结果是否贴近该研究工作的第一性目标。
+    evidence_ids:
+    - ev-642c38470bc81635
+  next_validation: 收集该项目的官方文档或仓库 issue/discussion，确认研究者实际用它替代了哪一步实验流程。
+  market: ''
+  job: AI 安全与可解释性研究员在本地 Apple Silicon 机器上，处理模型激活、探针和稀疏自编码器实验材料，要完成一次可复现的探查或干预实验。
+  job_en: An AI safety and interpretability researcher on a local Apple Silicon machine works with model
+    activations, probes and sparse-autoencoder experiment material to complete a reproducible probing
+    or intervention experiment.
+  pain: 公开材料只说明它把本地推理、SDK、API 和 MCP 放在一起，没有说明研究者原来卡在哪一步、不解决会付出什么代价。
+  pain_en: The public material only says it combines local inference, an SDK, APIs and MCP; it does not
+    say which step researchers were stuck on or what it costs them to leave it unsolved.
+  current_alternative: 研究者通常自己拼脚本、用通用实验框架或云端算力环境做同类探查，公开材料未给出与这些做法的对比。
+  current_alternative_en: Researchers typically stitch together their own scripts, general experiment
+    frameworks or cloud compute environments for similar probing; the public material offers no comparison
+    with those approaches.
+  usage_reason: 推断：如果本地工作台确实省掉搭环境和拼脚本这一步，做小规模可解释性实验的研究者会在没有集群可用时选择它；但缺少用户反馈或案例，无法确认这一步负担真的被减少。
+  usage_reason_en: 'Inference: if the local workbench really removes the environment setup and scripting
+    step, researchers running small interpretability experiments would pick it when no cluster is available;
+    without user feedback or cases, that burden reduction cannot be confirmed.'

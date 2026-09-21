@@ -21,7 +21,7 @@ canonical_url: https://aiworthusing.com/agent-index/text-me
 summary: a personal agent that learns your pace
 first_seen: '2026-09-19T23:58:50Z'
 last_seen: '2026-09-21T00:16:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

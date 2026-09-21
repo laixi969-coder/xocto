@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1QUmVGT1JMYU5r
 summary: 工业AI从概念验证走向现场部署，贝加莱加速本土化转型 手机新浪网
 first_seen: '2026-09-18T14:29:05Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

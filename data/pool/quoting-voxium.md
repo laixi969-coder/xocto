@@ -27,7 +27,7 @@ summary: "It has been half a month since I started a new role at a big company. 
   \  \n —  voxium  \n\n     Tags:  ai-misuse ,  llms ,  ai ,  generative-ai"
 first_seen: '2026-09-20T21:06:43Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

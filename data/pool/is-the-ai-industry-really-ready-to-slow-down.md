@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready
 summary: On Equity, we debated whether Ai executives are serious about wanting to slow down.
 first_seen: '2026-09-20T18:56:04Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

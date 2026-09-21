@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzFFb2pSSUsy
 summary: LS Group chairman calls for faster AI adoption — Korea Herald UA.NEWS
 first_seen: '2026-09-20T04:47:58Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

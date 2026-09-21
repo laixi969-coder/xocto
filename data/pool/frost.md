@@ -21,7 +21,7 @@ canonical_url: https://github.com/thissayantan/frost-icon-theme
 summary: frosted-glass Linux icons where file types say what they are
 first_seen: '2026-09-19T21:10:46Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

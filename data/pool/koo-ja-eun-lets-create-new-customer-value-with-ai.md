@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xdG80SEJWUnJ5
 summary: 'Koo Ja-eun: "Let''s Create New Customer Value with AI" 매일경제'
 first_seen: '2026-09-20T08:19:23Z'
 last_seen: '2026-09-21T00:17:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
