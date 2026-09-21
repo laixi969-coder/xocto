@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>CodeRabbit · x-octo</title>
-<meta name="description" content="CodeRabbit 是一款 AI 代码审查工具，开发者在提交拉取请求时使用。它接收代码变更，自动生成审查意见、摘要和代码走查，并在 公开代码仓库 评论线程中提供上下文对话。开发者可据此快速定位问题，但最终合并仍需人工确认。">
+<meta name="description" content="开发团队在提交合并请求后，由 CodeRabbit 自动读取代码差异并生成逐行审查意见与问题分类，把原本堆积在 PR 收件箱里的告警按优先级整理出来，最终交付一份可直接处理的审查清单，仍需工程师确认后合并。具体定价与交付边界仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/coderabbit.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/coderabbit.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/coderabbit.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/coderabbit.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="CodeRabbit · x-octo">
-<meta property="og:description" content="CodeRabbit 是一款 AI 代码审查工具，开发者在提交拉取请求时使用。它接收代码变更，自动生成审查意见、摘要和代码走查，并在 公开代码仓库 评论线程中提供上下文对话。开发者可据此快速定位问题，但最终合并仍需人工确认。">
+<meta property="og:description" content="开发团队在提交合并请求后，由 CodeRabbit 自动读取代码差异并生成逐行审查意见与问题分类，把原本堆积在 PR 收件箱里的告警按优先级整理出来，最终交付一份可直接处理的审查清单，仍需工程师确认后合并。具体定价与交付边界仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/coderabbit.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/coderabbit.html#webpage", "@type": "WebPage", "description": "CodeRabbit \u662f\u4e00\u6b3e AI \u4ee3\u7801\u5ba1\u67e5\u5de5\u5177\uff0c\u5f00\u53d1\u8005\u5728\u63d0\u4ea4\u62c9\u53d6\u8bf7\u6c42\u65f6\u4f7f\u7528\u3002\u5b83\u63a5\u6536\u4ee3\u7801\u53d8\u66f4\uff0c\u81ea\u52a8\u751f\u6210\u5ba1\u67e5\u610f\u89c1\u3001\u6458\u8981\u548c\u4ee3\u7801\u8d70\u67e5\uff0c\u5e76\u5728 \u516c\u5f00\u4ee3\u7801\u4ed3\u5e93 \u8bc4\u8bba\u7ebf\u7a0b\u4e2d\u63d0\u4f9b\u4e0a\u4e0b\u6587\u5bf9\u8bdd\u3002\u5f00\u53d1\u8005\u53ef\u636e\u6b64\u5feb\u901f\u5b9a\u4f4d\u95ee\u9898\uff0c\u4f46\u6700\u7ec8\u5408\u5e76\u4ecd\u9700\u4eba\u5de5\u786e\u8ba4\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "CodeRabbit", "url": "https://xocto.vercel.app/p/coderabbit.html"}, {"@id": "https://xocto.vercel.app/p/coderabbit.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-11", "datePublished": "2026-09-05", "description": "CodeRabbit \u662f\u4e00\u6b3e AI \u4ee3\u7801\u5ba1\u67e5\u5de5\u5177\uff0c\u5f00\u53d1\u8005\u5728\u63d0\u4ea4\u62c9\u53d6\u8bf7\u6c42\u65f6\u4f7f\u7528\u3002\u5b83\u63a5\u6536\u4ee3\u7801\u53d8\u66f4\uff0c\u81ea\u52a8\u751f\u6210\u5ba1\u67e5\u610f\u89c1\u3001\u6458\u8981\u548c\u4ee3\u7801\u8d70\u67e5\uff0c\u5e76\u5728 \u516c\u5f00\u4ee3\u7801\u4ed3\u5e93 \u8bc4\u8bba\u7ebf\u7a0b\u4e2d\u63d0\u4f9b\u4e0a\u4e0b\u6587\u5bf9\u8bdd\u3002\u5f00\u53d1\u8005\u53ef\u636e\u6b64\u5feb\u901f\u5b9a\u4f4d\u95ee\u9898\uff0c\u4f46\u6700\u7ec8\u5408\u5e76\u4ecd\u9700\u4eba\u5de5\u786e\u8ba4\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/coderabbit.html#webpage"}, "name": "CodeRabbit", "sameAs": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation", "url": "https://xocto.vercel.app/p/coderabbit.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/coderabbit.html", "name": "CodeRabbit", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/coderabbit.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u56e2\u961f\u5728\u63d0\u4ea4\u5408\u5e76\u8bf7\u6c42\u540e\uff0c\u7531 CodeRabbit \u81ea\u52a8\u8bfb\u53d6\u4ee3\u7801\u5dee\u5f02\u5e76\u751f\u6210\u9010\u884c\u5ba1\u67e5\u610f\u89c1\u4e0e\u95ee\u9898\u5206\u7c7b\uff0c\u628a\u539f\u672c\u5806\u79ef\u5728 PR \u6536\u4ef6\u7bb1\u91cc\u7684\u544a\u8b66\u6309\u4f18\u5148\u7ea7\u6574\u7406\u51fa\u6765\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4e00\u4efd\u53ef\u76f4\u63a5\u5904\u7406\u7684\u5ba1\u67e5\u6e05\u5355\uff0c\u4ecd\u9700\u5de5\u7a0b\u5e08\u786e\u8ba4\u540e\u5408\u5e76\u3002\u5177\u4f53\u5b9a\u4ef7\u4e0e\u4ea4\u4ed8\u8fb9\u754c\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "CodeRabbit", "url": "https://xocto.vercel.app/p/coderabbit.html"}, {"@id": "https://xocto.vercel.app/p/coderabbit.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-21", "datePublished": "2026-09-05", "description": "\u5f00\u53d1\u56e2\u961f\u5728\u63d0\u4ea4\u5408\u5e76\u8bf7\u6c42\u540e\uff0c\u7531 CodeRabbit \u81ea\u52a8\u8bfb\u53d6\u4ee3\u7801\u5dee\u5f02\u5e76\u751f\u6210\u9010\u884c\u5ba1\u67e5\u610f\u89c1\u4e0e\u95ee\u9898\u5206\u7c7b\uff0c\u628a\u539f\u672c\u5806\u79ef\u5728 PR \u6536\u4ef6\u7bb1\u91cc\u7684\u544a\u8b66\u6309\u4f18\u5148\u7ea7\u6574\u7406\u51fa\u6765\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4e00\u4efd\u53ef\u76f4\u63a5\u5904\u7406\u7684\u5ba1\u67e5\u6e05\u5355\uff0c\u4ecd\u9700\u5de5\u7a0b\u5e08\u786e\u8ba4\u540e\u5408\u5e76\u3002\u5177\u4f53\u5b9a\u4ef7\u4e0e\u4ea4\u4ed8\u8fb9\u754c\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/coderabbit.html#webpage"}, "name": "CodeRabbit", "sameAs": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation", "url": "https://xocto.vercel.app/p/coderabbit.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/coderabbit.html", "name": "CodeRabbit", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>CodeRabbit</h1>
       </div>
-      <p class="product-lede">CodeRabbit 是一款 AI 代码审查工具，开发者在提交拉取请求时使用。它接收代码变更，自动生成审查意见、摘要和代码走查，并在 公开代码仓库 评论线程中提供上下文对话。开发者可据此快速定位问题，但最终合并仍需人工确认。</p>
+      <p class="product-lede">开发团队在提交合并请求后，由 CodeRabbit 自动读取代码差异并生成逐行审查意见与问题分类，把原本堆积在 PR 收件箱里的告警按优先级整理出来，最终交付一份可直接处理的审查清单，仍需工程师确认后合并。具体定价与交付边界仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">新应用 / 服务</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">开发团队负责人</span><span class="tag sig">社区热度 72</span>      </div>
+<span class="tag">新应用 / 服务</span><span class="tag">AI + 开发</span><span class="tag">软件与信息服务</span><span class="tag">软件开发者</span><span class="tag">美国</span><span class="tag sig">社区热度 72</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>cebert</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-09-05</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-11</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-21</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,50 +82,50 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-11</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-21</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">软件工程师、开发团队负责人</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="product-lead">软件工程师在合并请求堆积、审查意见真假混杂时，需要处理代码差异并判断哪些问题必须改、哪些可以忽略，最终完成一次可合并的审查。</p>
+        <p>目前多由资深工程师人工审查，或使用静态分析工具与代码托管平台自带的检查，误报和噪音需要人工过滤。</p>
+        <p>人工逐条读 diff 和告警耗时，误报多时审查者会逐渐忽略全部提示，真正的问题被淹没。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势：AI 代码审查正从辅助工具转向理解代码库和代理输出的安全层，强调隐私与成本优化。切入：可面向企业级开发团队，提供按结果或按席位的定价，并突出与 GPT-6 等模型的集成评估，建立信任。</p>
+        <p>趋势是代码审查这一环正从“人逐条读 diff”变成“机器先分诊、人只做裁决”，模型换代还会持续压低单次审查成本。切入可考虑面向中小研发团队或外包交付方，按仓库或按审查量计费，把分诊结果直接对接现有代码托管平台的合并流程，而不是再做一个通用聊天式编程助手。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>用户要完成的任务是：软件工程师、开发团队负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。</p>
+        <p>相较人工逐条读 diff，它先对差异做自动分诊并给出逐行意见，把“判断哪条告警值得看”这一步从审查者手里拿走；推断在误报率高、审查积压的团队里，工程师会因此选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p>
+        <p>收集 CodeRabbit 官方定价页与公开客户案例页面，核验其按仓库或按审查量的计费方式与已披露的团队采用情况。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。用户要完成的任务是：软件工程师、开发团队负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。</p>
+        <p><strong>值得试用</strong>。相较人工逐条读 diff，它先对差异做自动分诊并给出逐行意见，把“判断哪条告警值得看”这一步从审查者手里拿走；推断在误报率高、审查积压的团队里，工程师会因此选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势：AI 代码审查正从辅助工具转向理解代码库和代理输出的安全层，强调隐私与成本优化。切入：可面向企业级开发团队，提供按结果或按席位的定价，并突出与 GPT-6 等模型的集成评估，建立信任。</p>
+        <p>趋势是代码审查这一环正从“人逐条读 diff”变成“机器先分诊、人只做裁决”，模型换代还会持续压低单次审查成本。切入可考虑面向中小研发团队或外包交付方，按仓库或按审查量计费，把分诊结果直接对接现有代码托管平台的合并流程，而不是再做一个通用聊天式编程助手。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它试图帮助用户完成：“CodeRabbit 是一款 AI 代码审查工具，开发者在提交拉取请求时使用”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。</p></div>
-        <div><span class="field-k">工作流推理</span><p>用户要完成的任务是：软件工程师、开发团队负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决代码审查中告警噪音与人工逐条读 diff 的负担，痛点具体且不处理的后果是审查积压与漏检；买方是谁公开材料未说明。</p></div>
+        <div><span class="field-k">工作流推理</span><p>相较人工逐条读 diff，它先对差异做自动分诊并给出逐行意见，把“判断哪条告警值得看”这一步从审查者手里拿走；推断在误报率高、审查积压的团队里，工程师会因此选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集 CodeRabbit 官方定价页与公开客户案例页面，核验其按仓库或按审查量的计费方式与已披露的团队采用情况。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -133,28 +133,40 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>它试图帮助用户完成：“CodeRabbit 是一款 AI 代码审查工具，开发者在提交拉取请求时使用”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。</p>
+          <p>它解决代码审查中告警噪音与人工逐条读 diff 的负担，痛点具体且不处理的后果是审查积压与漏检；买方是谁公开材料未说明。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2dFTnhjei1meU14amFnSFJCQ3NnclFMWDRISjVhU1BXcC03Q2dGVmR5eDg5TzVoekxkZTZ5aVFyeFYyQlU3OXZpNk5yZUxPTERSb25hdHNVNjNicXQ0XzItYXlkZExQN2tWSmhrZ0FCNVNPVzFRSGxQVXZwYVNkM3FoNGZDRDVZcHlMYlhiczh1Zw?oc=5" target="_blank" rel="noopener">news.google.com · 2026-09-20 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。</p>
+          <p>仅有客户案例报道与官方博客，缺少可核验的持续采用、留存或团队规模数据，无法判断共识是否形成。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2dFTnhjei1meU14amFnSFJCQ3NnclFMWDRISjVhU1BXcC03Q2dGVmR5eDg5TzVoekxkZTZ5aVFyeFYyQlU3OXZpNk5yZUxPTERSb25hdHNVNjNicXQ0XzItYXlkZExQN2tWSmhrZ0FCNVNPVzFRSGxQVXZwYVNkM3FoNGZDRDVZcHlMYlhiczh1Zw?oc=5" target="_blank" rel="noopener">news.google.com · 2026-09-20 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。</p>
+          <p>未披露定价页或按仓库、按审查量计费的公开信息，收入来自 to B 研发团队只是判断，不是已验证事实。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2dFTnhjei1meU14amFnSFJCQ3NnclFMWDRISjVhU1BXcC03Q2dGVmR5eDg5TzVoekxkZTZ5aVFyeFYyQlU3OXZpNk5yZUxPTERSb25hdHNVNjNicXQ0XzItYXlkZExQN2tWSmhrZ0FCNVNPVzFRSGxQVXZwYVNkM3FoNGZDRDVZcHlMYlhiczh1Zw?oc=5" target="_blank" rel="noopener">news.google.com · 2026-09-20 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。</p>
+          <p>官方博客自评模型在代码审查中的收益与成本，属厂商自述，缺少独立复现或第三方基准来核对交付确定性。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2dFTnhjei1meU14amFnSFJCQ3NnclFMWDRISjVhU1BXcC03Q2dGVmR5eDg5TzVoekxkZTZ5aVFyeFYyQlU3OXZpNk5yZUxPTERSb25hdHNVNjNicXQ0XzItYXlkZExQN2tWSmhrZ0FCNVNPVzFRSGxQVXZwYVNkM3FoNGZDRDVZcHlMYlhiczh1Zw?oc=5" target="_blank" rel="noopener">news.google.com · 2026-09-20 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -172,12 +184,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-11。未发现仅限该覆盖范围。 · 2026-09-11</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-21。未发现仅限该覆盖范围。 · 2026-09-21</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-11。未发现仅限该覆盖范围。 · 2026-09-11</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-21。未发现仅限该覆盖范围。 · 2026-09-21</p>
       </div>
     </div>
   </section>
@@ -209,23 +221,18 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">chatgpt.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">aistudio.google.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
       <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">ai.google</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">cloud.google.com</span>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">deepai.org</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -234,20 +241,15 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://gemini.google/us/about/?hl=en" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">gemini.google</span>
+      <li><a href="https://www.britannica.com/technology/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">britannica.com</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://www.coderabbit.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">CodeRabbit</span>
-        <span class="row-desc">产品信息 · CodeRabbit 是一款 AI 代码审查工具，开发者在提交拉取请求时使用。它接收代码变更，自动生成审查意见、摘要和代码走查，并在 公开代码仓库 评论线程中提供上下文对话。开发者可据此快速定位问题，但最终合并仍需人工确认。</span>
-        <span class="row-tail">2026-08-31</span>
-      </div></a></li>
-      <li><a href="https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">CodeRabbit</span>
-        <span class="row-desc">market_signal</span>
-        <span class="row-tail">2026-09-05</span>
+        <span class="row-name">coderabbit.ai</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://landing.coderabbit.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">CodeRabbit</span>
@@ -258,6 +260,16 @@
         <span class="row-name">coderabbit.ai</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2dFTnhjei1meU14amFnSFJCQ3NnclFMWDRISjVhU1BXcC03Q2dGVmR5eDg5TzVoekxkZTZ5aVFyeFYyQlU3OXZpNk5yZUxPTERSb25hdHNVNjNicXQ0XzItYXlkZExQN2tWSmhrZ0FCNVNPVzFRSGxQVXZwYVNkM3FoNGZDRDVZcHlMYlhiczh1Zw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">客户案例</span>
+        <span class="row-tail">2026-09-20</span>
+      </div></a></li>
+      <li><a href="https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">CodeRabbit</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-05</span>
       </div></a></li>
     </ul>
   </section>
@@ -298,7 +310,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 517 个 →
+        AI + 开发 共 527 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -350,9 +362,9 @@
         <span class="pager-n">agent-orchestra</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/fable-cities.html">
+      <a class="pager-item pager-next" href="../p/dsh-prompt-optimizer.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">fable-cities</span>
+        <span class="pager-n">dsh-prompt-optimizer</span>
       </a>
     </div>
   </nav>
@@ -390,8 +402,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1789 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-20</span>
+    <span>1826 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-21</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
