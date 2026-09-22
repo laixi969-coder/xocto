@@ -5,22 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
-<title>Panel · x-octo</title>
-<meta name="description" content="研究人员或开发者在做智能体实验时打开这个工作区，把任务交给智能体，由智能体自行生成并组织界面面板，用户最终得到一个可继续操作的研究界面；具体输入材料、交付形态和人工确认环节仍待核验。">
-<link rel="canonical" href="https://xocto.vercel.app/p/panel.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/panel.html">
-<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/panel.html">
-<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/panel.html">
+<title>jev-gateway · x-octo</title>
+<meta name="description" content="开发者在给编码 agent 接入工具调用时部署这个网关，由它把 agent 的推理请求转发给 jev 并取回结果，再交回 agent 继续执行；具体接入方式、失败处理与是否需要人工确认，公开材料只给出项目定位与仓库数据。">
+<link rel="canonical" href="https://xocto.vercel.app/p/jev-gateway.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/jev-gateway.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/jev-gateway.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/jev-gateway.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:title" content="Panel · x-octo">
-<meta property="og:description" content="研究人员或开发者在做智能体实验时打开这个工作区，把任务交给智能体，由智能体自行生成并组织界面面板，用户最终得到一个可继续操作的研究界面；具体输入材料、交付形态和人工确认环节仍待核验。">
-<meta property="og:url" content="https://xocto.vercel.app/p/panel.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:title" content="jev-gateway · x-octo">
+<meta property="og:description" content="开发者在给编码 agent 接入工具调用时部署这个网关，由它把 agent 的推理请求转发给 jev 并取回结果，再交回 agent 继续执行；具体接入方式、失败处理与是否需要人工确认，公开材料只给出项目定位与仓库数据。">
+<meta property="og:url" content="https://xocto.vercel.app/p/jev-gateway.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/panel.html#webpage", "@type": "WebPage", "description": "\u7814\u7a76\u4eba\u5458\u6216\u5f00\u53d1\u8005\u5728\u505a\u667a\u80fd\u4f53\u5b9e\u9a8c\u65f6\u6253\u5f00\u8fd9\u4e2a\u5de5\u4f5c\u533a\uff0c\u628a\u4efb\u52a1\u4ea4\u7ed9\u667a\u80fd\u4f53\uff0c\u7531\u667a\u80fd\u4f53\u81ea\u884c\u751f\u6210\u5e76\u7ec4\u7ec7\u754c\u9762\u9762\u677f\uff0c\u7528\u6237\u6700\u7ec8\u5f97\u5230\u4e00\u4e2a\u53ef\u7ee7\u7eed\u64cd\u4f5c\u7684\u7814\u7a76\u754c\u9762\uff1b\u5177\u4f53\u8f93\u5165\u6750\u6599\u3001\u4ea4\u4ed8\u5f62\u6001\u548c\u4eba\u5de5\u786e\u8ba4\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Panel", "url": "https://xocto.vercel.app/p/panel.html"}, {"@id": "https://xocto.vercel.app/p/panel.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-17", "datePublished": "2026-09-15", "description": "\u7814\u7a76\u4eba\u5458\u6216\u5f00\u53d1\u8005\u5728\u505a\u667a\u80fd\u4f53\u5b9e\u9a8c\u65f6\u6253\u5f00\u8fd9\u4e2a\u5de5\u4f5c\u533a\uff0c\u628a\u4efb\u52a1\u4ea4\u7ed9\u667a\u80fd\u4f53\uff0c\u7531\u667a\u80fd\u4f53\u81ea\u884c\u751f\u6210\u5e76\u7ec4\u7ec7\u754c\u9762\u9762\u677f\uff0c\u7528\u6237\u6700\u7ec8\u5f97\u5230\u4e00\u4e2a\u53ef\u7ee7\u7eed\u64cd\u4f5c\u7684\u7814\u7a76\u754c\u9762\uff1b\u5177\u4f53\u8f93\u5165\u6750\u6599\u3001\u4ea4\u4ed8\u5f62\u6001\u548c\u4eba\u5de5\u786e\u8ba4\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/panel.html#webpage"}, "name": "Panel", "sameAs": "https://github.com/greentfrapp/panel", "url": "https://xocto.vercel.app/p/panel.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/panel.html", "name": "Panel", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/jev-gateway.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u7ed9\u7f16\u7801 agent \u63a5\u5165\u5de5\u5177\u8c03\u7528\u65f6\u90e8\u7f72\u8fd9\u4e2a\u7f51\u5173\uff0c\u7531\u5b83\u628a agent \u7684\u63a8\u7406\u8bf7\u6c42\u8f6c\u53d1\u7ed9 jev \u5e76\u53d6\u56de\u7ed3\u679c\uff0c\u518d\u4ea4\u56de agent \u7ee7\u7eed\u6267\u884c\uff1b\u5177\u4f53\u63a5\u5165\u65b9\u5f0f\u3001\u5931\u8d25\u5904\u7406\u4e0e\u662f\u5426\u9700\u8981\u4eba\u5de5\u786e\u8ba4\uff0c\u516c\u5f00\u6750\u6599\u53ea\u7ed9\u51fa\u9879\u76ee\u5b9a\u4f4d\u4e0e\u4ed3\u5e93\u6570\u636e\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "jev-gateway", "url": "https://xocto.vercel.app/p/jev-gateway.html"}, {"@id": "https://xocto.vercel.app/p/jev-gateway.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-22", "datePublished": "2026-09-19", "description": "\u5f00\u53d1\u8005\u5728\u7ed9\u7f16\u7801 agent \u63a5\u5165\u5de5\u5177\u8c03\u7528\u65f6\u90e8\u7f72\u8fd9\u4e2a\u7f51\u5173\uff0c\u7531\u5b83\u628a agent \u7684\u63a8\u7406\u8bf7\u6c42\u8f6c\u53d1\u7ed9 jev \u5e76\u53d6\u56de\u7ed3\u679c\uff0c\u518d\u4ea4\u56de agent \u7ee7\u7eed\u6267\u884c\uff1b\u5177\u4f53\u63a5\u5165\u65b9\u5f0f\u3001\u5931\u8d25\u5904\u7406\u4e0e\u662f\u5426\u9700\u8981\u4eba\u5de5\u786e\u8ba4\uff0c\u516c\u5f00\u6750\u6599\u53ea\u7ed9\u51fa\u9879\u76ee\u5b9a\u4f4d\u4e0e\u4ed3\u5e93\u6570\u636e\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/jev-gateway.html#webpage"}, "name": "jev-gateway", "sameAs": "https://github.com/vinilana/jev-gateway", "url": "https://xocto.vercel.app/p/jev-gateway.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/jev-gateway.html", "name": "jev-gateway", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -44,7 +44,7 @@
       <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
     </nav>
     <div class="top-tools">
-      <a class="lang-btn" href="../en/p/panel.html" lang="en"
+      <a class="lang-btn" href="../en/p/jev-gateway.html" lang="en"
          hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
       <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
         <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
@@ -62,18 +62,18 @@
     <div class="lede-main">
       <p class="eyebrow">AI 应用的生意判断</p>
       <div class="product-title-row">
-        <h1>Panel</h1>
+        <h1>jev-gateway</h1>
       </div>
-      <p class="product-lede">研究人员或开发者在做智能体实验时打开这个工作区，把任务交给智能体，由智能体自行生成并组织界面面板，用户最终得到一个可继续操作的研究界面；具体输入材料、交付形态和人工确认环节仍待核验。</p>
+      <p class="product-lede">开发者在给编码 agent 接入工具调用时部署这个网关，由它把 agent 的推理请求转发给 jev 并取回结果，再交回 agent 继续执行；具体接入方式、失败处理与是否需要人工确认，公开材料只给出项目定位与仓库数据。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件与信息服务</span><span class="tag">研究人员与开发者</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 52</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">开发者在让编码 agent 调用外部工具时，需要把推理请求转发到决策服务并取回结果</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 100</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
-      <div><dt>团队 / 作者</dt><dd>greentfrapp</dd></div>
-      <div><dt>本站首次收录</dt><dd class="num">2026-09-15</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-17</dd></div>
-      <div><dt>产品官网</dt><dd><a href="https://github.com/greentfrapp/panel" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
+      <div><dt>团队 / 作者</dt><dd>vinilana</dd></div>
+      <div><dt>本站首次收录</dt><dd class="num">2026-09-19</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-22</dd></div>
+      <div><dt>产品官网</dt><dd><a href="https://github.com/vinilana/jev-gateway" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
 
@@ -82,50 +82,50 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-16</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-22</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">研究人员或开发者在调试智能体行为时，把任务交给智能体，由智能体自行生成并组织界面面板，最终得到一个可继续操作的研究界面。</p>
-        <p>现有替代方式可能是研究者自行编写前端或使用通用笔记本环境，但候选材料未提供任何替代行为证据。</p>
-        <p>公开材料只说明智能体能自建面板，未说明原来由谁手工搭建界面、耗时多久或出错代价，痛点强度无法确认。</p>
+        <p class="product-lead">开发者在给编码 agent 接入外部工具调用时，需要把 agent 的推理请求转发到 jev 决策服务并取回结果，再交回 agent 继续执行。</p>
+        <p>开发者通常自行编写胶水代码把 agent 与决策服务对接，具体替代方式未在材料中说明。</p>
+        <p>公开材料只给出项目定位与仓库数据，未说明旧做法中转发或集成环节的具体负担、失败代价与发生频率，痛点强度无法从公开事实确认。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>解决问题，但需求刚性不足</h3>
-        <p>趋势是智能体开始自己搭建工作界面，而不只是填内容。切入可放在需要反复调试智能体行为的研究团队或内部工具组，卖点是可复现的实验环境，而非通用聊天入口；目前公开材料只到概念层，尚不足以判断付费方。</p>
+        <p>趋势是围绕单一决策能力正在长出网关、插件、记忆等配套层，说明 agent 工具链开始出现分工。切入可考虑做面向企业的 agent 调用审计与配额层，把每次工具调用的来源、结果和成本留痕，按调用量或席位收费。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：若智能体能按任务自行生成面板，研究者可省去手工搭界面的步骤，但缺少用户反馈或案例支持，无法确认哪类用户会因此选择它。</p>
+        <p>推断：若它省去自写对接代码并统一处理请求转发，维护多个 agent 的开发者可能采用；但 100 星只反映关注度，不能证明持续使用或替代旧做法的具体收益。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>追踪该项目的官方仓库 README、issue 与 discussion，确认是否出现研究者描述的具体实验流程、替代做法或重复使用记录。</p>
+        <p>追踪该仓库 README 与未关闭 issue，确认开发者实际遇到的对接失败、替代的旧做法与维护负担。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：若智能体能按任务自行生成面板，研究者可省去手工搭界面的步骤，但缺少用户反馈或案例支持，无法确认哪类用户会因此选择它。</p>
+        <p><strong>值得拆解</strong>。推断：若它省去自写对接代码并统一处理请求转发，维护多个 agent 的开发者可能采用；但 100 星只反映关注度，不能证明持续使用或替代旧做法的具体收益。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是智能体开始自己搭建工作界面，而不只是填内容。切入可放在需要反复调试智能体行为的研究团队或内部工具组，卖点是可复现的实验环境，而非通用聊天入口；目前公开材料只到概念层，尚不足以判断付费方。</p>
+        <p>趋势是围绕单一决策能力正在长出网关、插件、记忆等配套层，说明 agent 工具链开始出现分工。切入可考虑做面向企业的 agent 调用审计与配额层，把每次工具调用的来源、结果和成本留痕，按调用量或席位收费。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>研究人员或开发者在做智能体实验时打开这个工作区，把任务交给智能体，由智能体自行生成并组织界面面板，用户最终得到一个可继续操作的研究界面；具体输入材料、交付形态和人工确认环节仍待核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：若智能体能按任务自行生成面板，研究者可省去手工搭界面的步骤，但缺少用户反馈或案例支持，无法确认哪类用户会因此选择它。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该项目的官方仓库 README、issue 与 discussion，确认是否出现研究者描述的具体实验流程、替代做法或重复使用记录。</p></div>
+        <div><span class="field-k">公开事实</span><p>开发者在给编码 agent 接入工具调用时部署这个网关，由它把 agent 的推理请求转发给 jev 并取回结果，再交回 agent 继续执行；具体接入方式、失败处理与是否需要人工确认，公开材料只给出项目定位与仓库数据。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若它省去自写对接代码并统一处理请求转发，维护多个 agent 的开发者可能采用；但 100 星只反映关注度，不能证明持续使用或替代旧做法的具体收益。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库 README 与未关闭 issue，确认开发者实际遇到的对接失败、替代的旧做法与维护负担。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -133,7 +133,10 @@
             <span class="field-k">01 · 价值</span>
             <strong>存在反证</strong>
           </div>
-          <p>产品主张帮助用户完成：“研究人员或开发者在做智能体实验时打开这个工作区，把任务交给智能体，由智能体自行生成并组织界面面板，用户最终得到一个可继续操作的研究界面；具体输入材料、交付形态和人工确认环节仍待核验”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>产品主张帮助用户完成：“开发者在给编码 agent 接入工具调用时部署这个网关，由它把 agent 的推理请求转发给 jev 并取回结果，再交回 agent 继续执行；具体接入方式、失败处理与是否需要人工确认，公开材料只给出”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/vinilana/jev-gateway" target="_blank" rel="noopener">jev-gateway · 2026-09-19 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -171,13 +174,13 @@
     <div class="product-markets">
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
-        <p>本地供给：早期出现<br>需求证据：初步成立</p>
-        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-17</p>
+        <p>本地供给：早期出现<br>需求证据：尚未核验</p>
+        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-22</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-17。未发现仅限该覆盖范围。 · 2026-09-17</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-22。未发现仅限该覆盖范围。 · 2026-09-22</p>
       </div>
     </div>
   </section>
@@ -204,30 +207,10 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://www.merriam-webster.com/dictionary/panel" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">merriam-webster.com</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://dictionary.cambridge.org/dictionary/english/panel" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">dictionary.cambridge.org</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://www.homedepot.com/b/Moulding-Millwork-Wall-Paneling/N-5yc1vZbqp3" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">homedepot.com</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://github.com/greentfrapp/panel" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Panel</span>
-        <span class="row-desc">采用信号</span>
-        <span class="row-tail">2026-09-15</span>
-      </div></a></li>
-      <li><a href="https://www.askdifference.com/panel-vs-pannel/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">askdifference.com</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
+      <li><a href="https://github.com/vinilana/jev-gateway" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">jev-gateway</span>
+        <span class="row-desc">开源信息 · 开发者在给编码 agent 接入工具调用时部署这个网关，由它把 agent 的推理请求转发给 jev 并取回结果，再交回 agent 继续执行；具体接入方式、失败处理与是否需要人工确认，公开材料只给出项目定位与仓库数据。</span>
+        <span class="row-tail">2026-09-19</span>
       </div></a></li>
     </ul>
   </section>
@@ -241,23 +224,23 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://www.google.com/search?q=%22Panel%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+      <li><a href="https://www.google.com/search?q=%22jev-gateway%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">官网与文档</span>
         <span class="row-tail">↗</span>
       </div></a></li>
-      <li><a href="https://www.google.com/search?q=%22Panel%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+      <li><a href="https://www.google.com/search?q=%22jev-gateway%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">定价与套餐</span>
         <span class="row-tail">↗</span>
       </div></a></li>
-      <li><a href="https://www.google.com/search?q=%22Panel%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+      <li><a href="https://www.google.com/search?q=%22jev-gateway%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">用户评价与抱怨</span>
         <span class="row-tail">↗</span>
       </div></a></li>
-      <li><a href="https://www.google.com/search?q=%22Panel%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+      <li><a href="https://www.google.com/search?q=%22jev-gateway%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">客户案例与结果</span>
         <span class="row-tail">↗</span>
       </div></a></li>
-      <li><a href="https://www.google.com/search?q=%22Panel%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+      <li><a href="https://www.google.com/search?q=%22jev-gateway%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">替代品与对比</span>
         <span class="row-tail">↗</span>
       </div></a></li>
@@ -268,7 +251,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 527 个 →
+        AI + 开发 共 536 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -315,14 +298,14 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/jev-browser.html">
+      <a class="pager-item pager-prev" href="../p/digikala-mcp.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">jev-browser</span>
+        <span class="pager-n">digikala-mcp</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/studypilot.html">
+      <a class="pager-item pager-next" href="../p/reimagine-it.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">StudyPilot</span>
+        <span class="pager-n">reimagine-it</span>
       </a>
     </div>
   </nav>
@@ -360,8 +343,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1826 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-21</span>
+    <span>1866 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-22</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

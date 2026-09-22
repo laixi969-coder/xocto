@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/deepselect.html#webpage", "@type": "WebPage", "description": "This AI offering introduces a new capability, but public evidence is not yet sufficient to confirm its workflow value.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "DeepSelect", "url": "https://xocto.vercel.app/en/p/deepselect.html"}, {"@id": "https://xocto.vercel.app/en/p/deepselect.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-09-21", "datePublished": "2026-09-09", "description": "This AI offering introduces a new capability, but public evidence is not yet sufficient to confirm its workflow value.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/deepselect.html#webpage"}, "name": "DeepSelect", "sameAs": "https://github.com/deepseek-ai/DeepSelect", "url": "https://xocto.vercel.app/en/p/deepselect.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/deepselect.html", "name": "DeepSelect", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/deepselect.html#webpage", "@type": "WebPage", "description": "This AI offering introduces a new capability, but public evidence is not yet sufficient to confirm its workflow value.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "DeepSelect", "url": "https://xocto.vercel.app/en/p/deepselect.html"}, {"@id": "https://xocto.vercel.app/en/p/deepselect.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-09-22", "datePublished": "2026-09-09", "description": "This AI offering introduces a new capability, but public evidence is not yet sufficient to confirm its workflow value.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/deepselect.html#webpage"}, "name": "DeepSelect", "sameAs": "https://github.com/deepseek-ai/DeepSelect", "url": "https://xocto.vercel.app/en/p/deepselect.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/deepselect.html", "name": "DeepSelect", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -67,12 +67,12 @@
       <p class="product-lede">This AI offering introduces a new capability, but public evidence is not yet sufficient to confirm its workflow value.</p>
       <div class="meta product-meta">
 <span class="tag sig">Not a business yet</span>        <span class="tag">Early</span>
-<span class="tag">Open-source project</span><span class="tag">Infrastructure</span><span class="tag sig">Cross-market opportunity</span><span class="tag sig">Open-source traction 372</span>      </div>
+<span class="tag">Open-source project</span><span class="tag">Infrastructure</span><span class="tag sig">Cross-market opportunity</span><span class="tag sig">Open-source traction 377</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>Team / maker</dt><dd>deepseek-ai</dd></div>
       <div><dt>First tracked here</dt><dd class="num">2026-09-09</dd></div>
-      <div><dt>Last updated here</dt><dd class="num">2026-09-21</dd></div>
+      <div><dt>Last updated here</dt><dd class="num">2026-09-22</dd></div>
       <div><dt>Product site</dt><dd><a href="https://github.com/deepseek-ai/DeepSelect" target="_blank" rel="noopener">Visit site ↗</a></dd></div>
     </dl>
   </header>
@@ -82,15 +82,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-09-20</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-09-22</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">Engineers training or serving DeepSeek Sparse Attention (DSA) models need to replace TopK selection and sampler operators with efficient GPU kernels so long-context attention and sampling run correctly and fast.</p>
-        <p>Today teams use generic PyTorch/Triton operators, framework-provided samplers, or hand-written custom kernels; public materials do not quantify the performance gap versus these alternatives.</p>
-        <p>The public repo scope is limited to TopK kernels and samplers: with generic implementations, TopK selection and sampling in sparse attention are memory and latency bottlenecks, making long-context training/serving slow or memory-bound; leaving it unsolved forces teams to hand-write or tune kernels.</p>
+        <p class="product-lead">Engineers training or serving DeepSeek Sparse Attention (DSA) models must select TopK sparse candidates from large attention score tensors and sample tokens from logits on GPU, so that the sparse-attention and sampling steps run efficiently and reproducibly.</p>
+        <p>The current alternative is hand-writing or reusing generic TopK/sampling CUDA kernels, or using framework built-ins not tuned for DSA; public materials do not show comparison data against these alternatives.</p>
+        <p>Sparse attention and sampling run at every layer and every step; without a purpose-built TopK kernel, teams must hand-roll one or fall back to generic sort/sampling code, paying extra memory and latency at long context while struggling to match the official implementation&#39;s correctness and speed.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
@@ -100,7 +100,7 @@
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
         <h3>Why users would choose it</h3>
-        <p>Inference: versus hand-writing or tuning kernels, DeepSeek&#39;s official TopK/sampler kernels let DSA users swap operators directly, removing the from-scratch implementation and tuning step; stars rising from 342 to 368 show developer attention, but public materials provide no adoption, retention, or benchmark evidence.</p>
+        <p>Inference: versus hand-rolled or generic kernels, DeepSelect packages DSA TopK selection and sampling as official kernels, letting users call them directly and skip the implement-and-tune step, so teams reproducing or deploying DeepSeek sparse-attention models would pick it when they need to match official numerics and performance; the star count rising from 362 to 377 only shows growing attention, not sustained use.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -112,7 +112,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Worth trying</strong>. Inference: versus hand-writing or tuning kernels, DeepSeek&#39;s official TopK/sampler kernels let DSA users swap operators directly, removing the from-scratch implementation and tuning step; stars rising from 342 to 368 show developer attention, but public materials provide no adoption, retention, or benchmark evidence.</p>
+        <p><strong>Worth trying</strong>. Inference: versus hand-rolled or generic kernels, DeepSelect packages DSA TopK selection and sampling as official kernels, letting users call them directly and skip the implement-and-tune step, so teams reproducing or deploying DeepSeek sparse-attention models would pick it when they need to match official numerics and performance; the star count rising from 362 to 377 only shows growing attention, not sustained use.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
@@ -124,7 +124,7 @@
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">Public fact</span><p>This AI offering introduces a new capability, but public evidence is not yet sufficient to confirm its workflow value.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus hand-writing or tuning kernels, DeepSeek&#39;s official TopK/sampler kernels let DSA users swap operators directly, removing the from-scratch implementation and tuning step; stars rising from 342 to 368 show developer attention, but public materials provide no adoption, retention, or benchmark evidence.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus hand-rolled or generic kernels, DeepSelect packages DSA TopK selection and sampling as official kernels, letting users call them directly and skip the implement-and-tune step, so teams reproducing or deploying DeepSeek sparse-attention models would pick it when they need to match official numerics and performance; the star count rising from 362 to 377 only shows growing attention, not sustained use.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
@@ -134,6 +134,9 @@
             <strong>Supported</strong>
           </div>
           <p>The assessment is recorded; an English explanation is pending.</p>
+          <div class="gate-links" aria-label="Evidence confidence">
+            <a href="https://github.com/deepseek-ai/DeepSelect" target="_blank" rel="noopener">DeepSelect · 2026-09-09 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -141,6 +144,9 @@
             <strong>Insufficient evidence</strong>
           </div>
           <p>The assessment is recorded; an English explanation is pending.</p>
+          <div class="gate-links" aria-label="Evidence confidence">
+            <a href="https://github.com/deepseek-ai/DeepSelect" target="_blank" rel="noopener">DeepSelect · 2026-09-09 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -172,12 +178,12 @@
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Emerging<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-21</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-22</p>
       </div>
       <div class="field">
         <span class="field-k">Chinese ecosystem · CN</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-21</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-22</p>
       </div>
     </div>
   </section>
@@ -206,7 +212,7 @@ Public information is limited; this view will update as more evidence appears.  
     <ul class="rows desk-list">
       <li><a href="https://github.com/deepseek-ai/DeepSelect" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">DeepSelect</span>
-        <span class="row-desc">Open-source signal · DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers | repository stars: 372</span>
+        <span class="row-desc">Open-source signal · DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers | repository stars: 377</span>
         <span class="row-tail">2026-09-09</span>
       </div></a></li>
     </ul>
@@ -248,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=Infrastructure">
-        219 in Infrastructure →
+        226 in Infrastructure →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -295,14 +301,14 @@ Public information is limited; this view will update as more evidence appears.  
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/masteragent.html">
+      <a class="pager-item pager-prev" href="../../p/skillcorpus.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">MasterAgent</span>
+        <span class="pager-n">SkillCorpus</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/pentest-harness.html">
+      <a class="pager-item pager-next" href="../../p/graph-engineering.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">pentest-harness</span>
+        <span class="pager-n">graph-engineering</span>
       </a>
     </div>
   </nav>
@@ -340,8 +346,8 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>1826 cases · 175 business reads</span>
-    <span class="gen">Data through 2026-09-21</span>
+    <span>1866 cases · 175 business reads</span>
+    <span class="gen">Data through 2026-09-22</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>
     <span>·</span>

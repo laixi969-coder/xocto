@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>lint · x-octo</title>
-<meta name="description" content="前端工程师或设计系统维护者在提交组件代码、需要确认是否符合团队 Tailwind 设计规范时打开它：它把设计系统规则写成可执行条目，由 AI agent 读取代码并逐条校验，输出违规位置与规则说明，最终仍需工程师确认后修改。具体规则格式与交付形态仍待核验。">
+<meta name="description" content="前端工程师或设计系统维护者在提交 Tailwind 组件代码时打开它，把团队既有的设计系统规则（如间距、颜色、组件用法）写成可校验条目；工具接收代码与规则，由 agent 逐条检查并给出违规位置，最终交付一份可核对的检查结果，是否修改仍由人确认。具体规则格式与交付形态仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/lint.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/lint.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/lint.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/lint.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="lint · x-octo">
-<meta property="og:description" content="前端工程师或设计系统维护者在提交组件代码、需要确认是否符合团队 Tailwind 设计规范时打开它：它把设计系统规则写成可执行条目，由 AI agent 读取代码并逐条校验，输出违规位置与规则说明，最终仍需工程师确认后修改。具体规则格式与交付形态仍待核验。">
+<meta property="og:description" content="前端工程师或设计系统维护者在提交 Tailwind 组件代码时打开它，把团队既有的设计系统规则（如间距、颜色、组件用法）写成可校验条目；工具接收代码与规则，由 agent 逐条检查并给出违规位置，最终交付一份可核对的检查结果，是否修改仍由人确认。具体规则格式与交付形态仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/lint.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/lint.html#webpage", "@type": "WebPage", "description": "\u524d\u7aef\u5de5\u7a0b\u5e08\u6216\u8bbe\u8ba1\u7cfb\u7edf\u7ef4\u62a4\u8005\u5728\u63d0\u4ea4\u7ec4\u4ef6\u4ee3\u7801\u3001\u9700\u8981\u786e\u8ba4\u662f\u5426\u7b26\u5408\u56e2\u961f Tailwind \u8bbe\u8ba1\u89c4\u8303\u65f6\u6253\u5f00\u5b83\uff1a\u5b83\u628a\u8bbe\u8ba1\u7cfb\u7edf\u89c4\u5219\u5199\u6210\u53ef\u6267\u884c\u6761\u76ee\uff0c\u7531 AI agent \u8bfb\u53d6\u4ee3\u7801\u5e76\u9010\u6761\u6821\u9a8c\uff0c\u8f93\u51fa\u8fdd\u89c4\u4f4d\u7f6e\u4e0e\u89c4\u5219\u8bf4\u660e\uff0c\u6700\u7ec8\u4ecd\u9700\u5de5\u7a0b\u5e08\u786e\u8ba4\u540e\u4fee\u6539\u3002\u5177\u4f53\u89c4\u5219\u683c\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "lint", "url": "https://xocto.vercel.app/p/lint.html"}, {"@id": "https://xocto.vercel.app/p/lint.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-21", "datePublished": "2026-09-02", "description": "\u524d\u7aef\u5de5\u7a0b\u5e08\u6216\u8bbe\u8ba1\u7cfb\u7edf\u7ef4\u62a4\u8005\u5728\u63d0\u4ea4\u7ec4\u4ef6\u4ee3\u7801\u3001\u9700\u8981\u786e\u8ba4\u662f\u5426\u7b26\u5408\u56e2\u961f Tailwind \u8bbe\u8ba1\u89c4\u8303\u65f6\u6253\u5f00\u5b83\uff1a\u5b83\u628a\u8bbe\u8ba1\u7cfb\u7edf\u89c4\u5219\u5199\u6210\u53ef\u6267\u884c\u6761\u76ee\uff0c\u7531 AI agent \u8bfb\u53d6\u4ee3\u7801\u5e76\u9010\u6761\u6821\u9a8c\uff0c\u8f93\u51fa\u8fdd\u89c4\u4f4d\u7f6e\u4e0e\u89c4\u5219\u8bf4\u660e\uff0c\u6700\u7ec8\u4ecd\u9700\u5de5\u7a0b\u5e08\u786e\u8ba4\u540e\u4fee\u6539\u3002\u5177\u4f53\u89c4\u5219\u683c\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/lint.html#webpage"}, "name": "lint", "sameAs": "https://github.com/shadcn-ui/lint", "url": "https://xocto.vercel.app/p/lint.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/lint.html", "name": "lint", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/lint.html#webpage", "@type": "WebPage", "description": "\u524d\u7aef\u5de5\u7a0b\u5e08\u6216\u8bbe\u8ba1\u7cfb\u7edf\u7ef4\u62a4\u8005\u5728\u63d0\u4ea4 Tailwind \u7ec4\u4ef6\u4ee3\u7801\u65f6\u6253\u5f00\u5b83\uff0c\u628a\u56e2\u961f\u65e2\u6709\u7684\u8bbe\u8ba1\u7cfb\u7edf\u89c4\u5219\uff08\u5982\u95f4\u8ddd\u3001\u989c\u8272\u3001\u7ec4\u4ef6\u7528\u6cd5\uff09\u5199\u6210\u53ef\u6821\u9a8c\u6761\u76ee\uff1b\u5de5\u5177\u63a5\u6536\u4ee3\u7801\u4e0e\u89c4\u5219\uff0c\u7531 agent \u9010\u6761\u68c0\u67e5\u5e76\u7ed9\u51fa\u8fdd\u89c4\u4f4d\u7f6e\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4e00\u4efd\u53ef\u6838\u5bf9\u7684\u68c0\u67e5\u7ed3\u679c\uff0c\u662f\u5426\u4fee\u6539\u4ecd\u7531\u4eba\u786e\u8ba4\u3002\u5177\u4f53\u89c4\u5219\u683c\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "lint", "url": "https://xocto.vercel.app/p/lint.html"}, {"@id": "https://xocto.vercel.app/p/lint.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-22", "datePublished": "2026-09-02", "description": "\u524d\u7aef\u5de5\u7a0b\u5e08\u6216\u8bbe\u8ba1\u7cfb\u7edf\u7ef4\u62a4\u8005\u5728\u63d0\u4ea4 Tailwind \u7ec4\u4ef6\u4ee3\u7801\u65f6\u6253\u5f00\u5b83\uff0c\u628a\u56e2\u961f\u65e2\u6709\u7684\u8bbe\u8ba1\u7cfb\u7edf\u89c4\u5219\uff08\u5982\u95f4\u8ddd\u3001\u989c\u8272\u3001\u7ec4\u4ef6\u7528\u6cd5\uff09\u5199\u6210\u53ef\u6821\u9a8c\u6761\u76ee\uff1b\u5de5\u5177\u63a5\u6536\u4ee3\u7801\u4e0e\u89c4\u5219\uff0c\u7531 agent \u9010\u6761\u68c0\u67e5\u5e76\u7ed9\u51fa\u8fdd\u89c4\u4f4d\u7f6e\uff0c\u6700\u7ec8\u4ea4\u4ed8\u4e00\u4efd\u53ef\u6838\u5bf9\u7684\u68c0\u67e5\u7ed3\u679c\uff0c\u662f\u5426\u4fee\u6539\u4ecd\u7531\u4eba\u786e\u8ba4\u3002\u5177\u4f53\u89c4\u5219\u683c\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/lint.html#webpage"}, "name": "lint", "sameAs": "https://github.com/shadcn-ui/lint", "url": "https://xocto.vercel.app/p/lint.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/lint.html", "name": "lint", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>lint</h1>
       </div>
-      <p class="product-lede">前端工程师或设计系统维护者在提交组件代码、需要确认是否符合团队 Tailwind 设计规范时打开它：它把设计系统规则写成可执行条目，由 AI agent 读取代码并逐条校验，输出违规位置与规则说明，最终仍需工程师确认后修改。具体规则格式与交付形态仍待核验。</p>
+      <p class="product-lede">前端工程师或设计系统维护者在提交 Tailwind 组件代码时打开它，把团队既有的设计系统规则（如间距、颜色、组件用法）写成可校验条目；工具接收代码与规则，由 agent 逐条检查并给出违规位置，最终交付一份可核对的检查结果，是否修改仍由人确认。具体规则格式与交付形态仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件与互联网服务</span><span class="tag">专业设计与创意服务</span><span class="tag">前端工程师</span><span class="tag">设计系统维护者</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 2,228</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件与互联网服务</span><span class="tag">专业设计与创意服务</span><span class="tag">前端工程师</span><span class="tag">设计系统维护者</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 2,388</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>shadcn-ui</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-09-02</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-21</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-22</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://github.com/shadcn-ui/lint" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,79 +82,91 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-20</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-22</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">前端工程师或设计系统维护者在提交 Tailwind 组件代码时，需要处理类名与设计规范，确认改动是否符合团队设计系统规则。</p>
-        <p>公开材料未说明当前替代方式，无法确认用户现在如何完成设计规范核对。</p>
-        <p>公开材料未提供任何关于设计规范漂移、review 漏检或返工的用户痛点证据，无法确认痛点真实存在及其强度。</p>
+        <p class="product-lead">前端工程师或设计系统维护者在提交 Tailwind 组件代码时，把团队既有的间距、颜色、组件用法规则写成可校验条目，让 agent 对代码逐条检查并给出违规位置，再决定是否修改。</p>
+        <p>靠设计文档与代码评审人工比对，或使用通用 lint 规则和自定义 ESLint 插件，但后者难以表达设计系统语义。</p>
+        <p>设计系统规则通常散落在文档里，靠人记忆和代码评审口头提醒，规则一多就漏检；agent 生成代码后违规量进一步放大，不合规代码容易进入代码库。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>解决问题，但需求刚性不足</h3>
-        <p>趋势是设计规范正从给人看的文档变成给 agent 执行的检查项，规范本身成了可运行资产。切入可从已有设计系统但靠人工 review 兜底的中型前端团队入手，把规范转成 agent 可校验规则并按仓库或团队收费；价格未披露，不得编造。</p>
+        <h3>需求有依据</h3>
+        <p>趋势是设计系统的约束正从人读文档转向机器可校验的规则，agent 写代码越多，规则越需要变成可执行检查。切入可从已有设计系统但缺少自动化约束的中型前端团队做起，把规则库与检查结果做成按团队订阅的服务；未披露的价格不作推测。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>缺少产品能力、规则格式与交付形态的公开事实，无法解释用户为何会选择它而非旧做法。</p>
+        <p>推断：相较评审者逐条翻文档比对，它把设计系统规则写成 agent 可校验条目并直接对代码执行检查，省去人工逐条比对的步骤，因此规则条目较多的前端团队会在提交前选用它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>追踪该 Tailwind 设计系统 linter 的官方仓库 README 与规则示例，确认其规则格式、agent 校验流程与交付形态。</p>
+        <p>收集该仓库的 issue、discussion 与 README 中关于规则格式、检查输出和误报处理的公开说明，以核验交付是否确定。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。缺少产品能力、规则格式与交付形态的公开事实，无法解释用户为何会选择它而非旧做法。</p>
+        <p><strong>值得试用</strong>。推断：相较评审者逐条翻文档比对，它把设计系统规则写成 agent 可校验条目并直接对代码执行检查，省去人工逐条比对的步骤，因此规则条目较多的前端团队会在提交前选用它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是设计规范正从给人看的文档变成给 agent 执行的检查项，规范本身成了可运行资产。切入可从已有设计系统但靠人工 review 兜底的中型前端团队入手，把规范转成 agent 可校验规则并按仓库或团队收费；价格未披露，不得编造。</p>
+        <p>趋势是设计系统的约束正从人读文档转向机器可校验的规则，agent 写代码越多，规则越需要变成可执行检查。切入可从已有设计系统但缺少自动化约束的中型前端团队做起，把规则库与检查结果做成按团队订阅的服务；未披露的价格不作推测。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>前端工程师或设计系统维护者在提交组件代码、需要确认是否符合团队 Tailwind 设计规范时打开它：它把设计系统规则写成可执行条目，由 AI agent 读取代码并逐条校验，输出违规位置与规则说明，最终仍需工程师确认后修改。具体规则格式与交付形态仍待核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>缺少产品能力、规则格式与交付形态的公开事实，无法解释用户为何会选择它而非旧做法。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该 Tailwind 设计系统 linter 的官方仓库 README 与规则示例，确认其规则格式、agent 校验流程与交付形态。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决设计系统规则靠人记忆、评审漏检的问题，痛点具体且不采用会有不合规代码入库的后果，价值结构成立；谁付钱公开材料未说明，留待模式关。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较评审者逐条翻文档比对，它把设计系统规则写成 agent 可校验条目并直接对代码执行检查，省去人工逐条比对的步骤，因此规则条目较多的前端团队会在提交前选用它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集该仓库的 issue、discussion 与 README 中关于规则格式、检查输出和误报处理的公开说明，以核验交付是否确定。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>存在反证</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“前端工程师或设计系统维护者在提交组件代码、需要确认是否符合团队 Tailwind 设计规范时打开它：它把设计系统规则写成可执行条目，由 AI agent 读取代码并逐条校验，输出违规位置与规则说明，最”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决设计系统规则靠人记忆、评审漏检的问题，痛点具体且不采用会有不合规代码入库的后果，价值结构成立；谁付钱公开材料未说明，留待模式关。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/shadcn-ui/lint" target="_blank" rel="noopener">lint · 2026-09-02 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>公开材料只有仓库说明与星标数，缺少团队采用、issue 讨论或用户反馈，无法判断共识是否形成。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/shadcn-ui/lint" target="_blank" rel="noopener">lint · 2026-09-02 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>开源项目未披露定价或商业路径，买方与付费方式不明，这是判断而非已验证事实。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/shadcn-ui/lint" target="_blank" rel="noopener">lint · 2026-09-02 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>规则能否确定性交付、agent 检查的误报率与人工边界均无公开材料支持，尚不能确认交付可靠。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/shadcn-ui/lint" target="_blank" rel="noopener">lint · 2026-09-02 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -172,12 +184,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
-        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-21</p>
+        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-22</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-21。未发现仅限该覆盖范围。 · 2026-09-21</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-22。未发现仅限该覆盖范围。 · 2026-09-22</p>
       </div>
     </div>
   </section>
@@ -204,13 +216,13 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://en.m.wikipedia.org/wiki/Lint_(software)" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">en.m.wikipedia.org</span>
+      <li><a href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.wikipedia.org</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://en.m.wikipedia.org/wiki/Lint_(material)" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">en.m.wikipedia.org</span>
+      <li><a href="https://en.wikipedia.org/wiki/Lint_(material)" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.wikipedia.org</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -219,18 +231,23 @@
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQmx2TnVuZDdrRUJXUFhLdnZvSFZkVmtIYW4tdHM5QzI1WHAyUmFjV2llSUp0TWdkaXlfVU5oTlZVZlgwYloyMVdUcmd6dGRGY05IeDk4QzhCMXFPdzNzUW93YTlYTjZiRWRCTU1Dc3gtTHhmM2NHV3lEV2UxUFFrQlE2RkdmZFVBZDdYMDZMcWxja29ySFBsWEVtYzdJMGctdjZkcEoxdy1sMXI0enpQOW5mZ1NlWlFJQTBoMk9CQ0FHd3d6OWkzdFh4a2h2SjhvQ2hRaHVfRGFINjQ5YzJHNG5FbmVNMVY2cFo3aWl6bzRERnZzcnpaTNIB_gFBVV95cUxNUFJBWnBfVHVMMGd2UU16N2dtSzRQTlg4dVRjd3pKOG9zMUI1QlhQS3BnN2N1WmpkengwaktwUFVNRV9XbkUyaWFBM3NOSUVXU0I1XzVyYnNKNkxyNE9XVmo1QnhzZEswZ29ySmNCTUNMSU0zRXFYaHpZNWJPRU9PNDA3LVBhc2xGOXFhZFkycTBUOHAtQWxJSmQ1UEFrYUd6Q2t4UUpnUG1DWk8zdGd1WXZsR2dYNTRrelBnT0dNZ05XakRUODExdzljQ3JINGg3RzJRbE1pVEJHWHB1aUJ1U0ZCNjFGM280RGo0TkVsS2JrSzJWcUlNYTF6cTVkdw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-21</span>
+      </div></a></li>
       <li><a href="https://github.com/shadcn-ui/lint" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">lint</span>
-        <span class="row-desc">开源信息 · 前端工程师或设计系统维护者在提交组件代码、需要确认是否符合团队 Tailwind 设计规范时打开它：它把设计系统规则写成可执行条目，由 AI agent 读取代码并逐条校验，输出违规位置与规则说明，最终仍需工程师确认后修改。具体规则格式与交付形态仍待核验。</span>
+        <span class="row-desc">开源信息 · 前端工程师或设计系统维护者在提交 Tailwind 组件代码时打开它，把团队既有的设计系统规则（如间距、颜色、组件用法）写成可校验条目；工具接收代码与规则，由 agent 逐条检查并给出违规位置，最终交付一份可核对的检查结果，是否修改仍由人确认。具体规则格式与交付形态仍待核验。</span>
         <span class="row-tail">2026-09-02</span>
       </div></a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Lint_(software)" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">en.wikipedia.org</span>
+      <li><a href="https://en.m.wikipedia.org/wiki/Lint_(software)" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.m.wikipedia.org</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Lint_(material)" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">en.wikipedia.org</span>
+      <li><a href="https://en.m.wikipedia.org/wiki/Lint_(material)" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.m.wikipedia.org</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -303,7 +320,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 527 个 →
+        AI + 开发 共 536 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -350,14 +367,14 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/scroll-craft.html">
+      <a class="pager-item pager-prev" href="../p/frontieragent.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">scroll-craft</span>
+        <span class="pager-n">FrontierAgent</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/shuohao-skills.html">
+      <a class="pager-item pager-next" href="../p/scroll-craft.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">shuohao-skills</span>
+        <span class="pager-n">scroll-craft</span>
       </a>
     </div>
   </nav>
@@ -395,8 +412,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1826 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-21</span>
+    <span>1866 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-22</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

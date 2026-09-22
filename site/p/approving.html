@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-20</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-22</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">使用编码 agent 的开发者需要在真实 Docker 沙箱中运行 agent，让它在关键节点暂停等待人工批准后再继续，并交换结构化产物，用于可审查、可恢复的交付流程。</p>
-        <p>公开材料未说明开发者目前如何完成这项工作；结构上可推断的替代是手工在本地或 CI 中运行 agent 并人工审查输出，但无证据支持。</p>
-        <p>公开材料只有一句产品描述，未记录任何用户痛点、抱怨或代价；无法从现有证据判断 agent 失控或不可审查在开发流程中造成多大摩擦。</p>
+        <p class="product-lead">开发者在让编码 AI 执行代码修改任务时，需要在隔离环境中运行 AI，并在关键节点暂停等待人工批准后才继续。</p>
+        <p>目前开发者多依赖本地 Git 分支、手动审查 AI 生成的 diff，或使用简单沙箱工具，审批与回滚靠人工操作。</p>
+        <p>编码 AI 直接操作代码库可能产生不可逆的破坏性变更，缺乏隔离与人工审批节点会让开发者不敢放手使用。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>公开材料未提供任何用户反馈或采用证据，无法说明开发者相较手工审查为什么会选择它；仅有产品功能描述，不足以构成使用理由。</p>
+        <p>推断：若该平台能在真实 Docker 沙箱中运行编码 AI，并在关键节点暂停等待人工批准、交换结构化产物，可省去手动审查 diff 与搭建隔离环境这一步，开发者在处理高风险代码变更时可能选择它；但公开材料未给出具体部署与审批流程细节，也无用户反馈支持这一判断。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。公开材料未提供任何用户反馈或采用证据，无法说明开发者相较手工审查为什么会选择它；仅有产品功能描述，不足以构成使用理由。</p>
+        <p><strong>值得拆解</strong>。推断：若该平台能在真实 Docker 沙箱中运行编码 AI，并在关键节点暂停等待人工批准、交换结构化产物，可省去手动审查 diff 与搭建隔离环境这一步，开发者在处理高风险代码变更时可能选择它；但公开材料未给出具体部署与审批流程细节，也无用户反馈支持这一判断。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -129,8 +129,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续</p></div>
-        <div><span class="field-k">工作流推理</span><p>公开材料未提供任何用户反馈或采用证据，无法说明开发者相较手工审查为什么会选择它；仅有产品功能描述，不足以构成使用理由。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该项目的 公开代码仓库 仓库 README、issue 与 discussion，确认开发者实际在什么场景部署、替代了什么旧流程，以及是否出现采用或付费线索。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若该平台能在真实 Docker 沙箱中运行编码 AI，并在关键节点暂停等待人工批准、交换结构化产物，可省去手动审查 diff 与搭建隔离环境这一步，开发者在处理高风险代码变更时可能选择它；但公开材料未给出具体部署与审批流程细节，也无用户反馈支持这一判断。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>查找该项目的官方部署文档或仓库 README，确认其 Docker 沙箱配置、审批节点定义与回滚机制的具体实现。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -319,7 +319,7 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 527 个 →
+        AI + 开发 共 536 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -411,8 +411,8 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1826 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-21</span>
+    <span>1866 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-22</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
