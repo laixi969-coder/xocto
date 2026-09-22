@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/nico-martin/open-jev-demo
 summary: Typed decisions in the browser with open-jev and Kev models
 first_seen: '2026-09-21T05:09:32Z'
 last_seen: '2026-09-22T00:50:49Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

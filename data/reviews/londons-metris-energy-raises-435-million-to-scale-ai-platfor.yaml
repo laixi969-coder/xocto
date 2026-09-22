@@ -1,0 +1,85 @@
+- id: req-initial-londons-metris-energy-raises-435-million-to-scale-ai-platfor-2026-09-22
+  project_slug: londons-metris-energy-raises-435-million-to-scale-ai-platfor
+  level: initial
+  reviewed_at: '2026-09-22T00:50:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决可再生能源资产运维的数据处理需求，但公开材料未说明具体痛点、输入与交付，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-465c704a63aded8c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户采用、部署或行业共识证据。
+    evidence_ids:
+    - ev-465c704a63aded8c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断收入来自资产持有方还是其他方。
+    evidence_ids:
+    - ev-465c704a63aded8c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 输出是否贴近运维第一性目标，也未说明人工复核边界。
+    evidence_ids:
+    - ev-465c704a63aded8c
+  next_validation: 收集 Metris Energy 官方产品页或部署文档，确认其输入数据、输出交付物与客户类型。
+  market: ''
+  job: 可再生能源资产持有方或运维团队在电站运行期间，处理发电量、设备状态与收益数据，要完成资产绩效核对与运维决策。
+  job_en: Renewable asset owners or O&M teams handle generation, equipment status and revenue data during
+    plant operation to reconcile asset performance and decide on maintenance.
+  pain: 公开材料未说明具体痛点，只能推断资产数量增加后人工核对发电与收益数据耗时且易错。
+  pain_en: The public material does not state a specific pain point; it can only be inferred that manual
+    reconciliation of generation and revenue data becomes slow and error-prone as asset counts grow.
+  current_alternative: 公开材料未披露现有替代方式，可能是人工表格或传统能源管理系统。
+  current_alternative_en: The public material does not disclose the current alternative, which may be
+    spreadsheets or conventional energy management systems.
+  usage_reason: 缺少产品功能、输入数据与交付物的公开说明，无法解释用户为何选择它而非现有做法。
+  usage_reason_en: With no public description of features, input data or deliverables, there is no basis
+    to explain why a user would choose it over existing practice.
+- id: req-full-londons-metris-energy-raises-435-million-to-scale-ai-platfor-2026-09-22
+  project_slug: londons-metris-energy-raises-435-million-to-scale-ai-platfor
+  level: full
+  reviewed_at: '2026-09-22T01:26:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有一句融资概述，未说明用户任务、具体痛点、输入数据与交付物；现有证据多为同名奔驰 Metris 车型页面与通用 AI 介绍，无法还原旧流程与不解决的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-84469738843b9f44
+    - ev-e90c5d9edde5b398
+    - ev-71da565c2d47c578
+    - ev-86f2839902108dd9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Metris Energy 官网产品页或部署文档，确认其输入数据、输出交付物与客户类型。
+  market: ''
+  job: 公开材料只说明 Metris Energy 在伦敦融资 435 万欧元用于扩展管理可再生能源资产的 AI 平台，未披露谁在哪个运维节点打开、处理哪些资产数据、要完成什么任务。
+  job_en: Public material only states that London-based Metris Energy raised EUR 4.35 million to scale
+    an AI platform for managing renewable energy assets; it does not disclose who opens it at which operational
+    step, what asset data it handles, or what task it completes.
+  pain: 公开材料未说明任何具体痛点，无法确认资产持有方或运维团队在发电量、设备状态或收益核对上存在何种刚性困难。
+  pain_en: The public material states no specific pain point, so it cannot be confirmed what rigid difficulty
+    asset owners or O&M teams face in reconciling generation, equipment status or revenue.
+  current_alternative: 公开材料未披露现有替代方式，无法确认用户目前是用人工表格、传统能源管理系统还是其他工具完成同类工作。
+  current_alternative_en: The public material discloses no current alternative, so it cannot be confirmed
+    whether users currently rely on spreadsheets, conventional energy management systems or other tools
+    for the same work.
+  usage_reason: 缺少产品功能、输入数据与交付物的公开说明，无法解释用户为何会在具体情境下选择它而非现有做法；现有证据均为同名奔驰 Metris 车型页面与通用 AI 介绍，与该项目无关。
+  usage_reason_en: With no public description of features, input data or deliverables, there is no basis
+    to explain why a user would choose it over existing practice; the available evidence consists of pages
+    about the Mercedes-Benz Metris van and generic AI explainers, unrelated to this project.

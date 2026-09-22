@@ -1,6 +1,6 @@
 ---
 slug: corridor-raises-25m-seed-to-build-a-health-benefits-brokerag
-name: Corridor raises $25M seed to build a health benefits brokerage for SMBs
+name: Corridor
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWDAwU2NHOWh5
 summary: Corridor raises $25M seed to build a health benefits brokerage for SMBs TechCrunch
 first_seen: '2026-09-21T13:49:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Corridor raises $25M seed to build a health benefits brokerage for SMBs
+# Corridor
 
 Corridor raises $25M seed to build a health benefits brokerage for SMBs TechCrunch
 

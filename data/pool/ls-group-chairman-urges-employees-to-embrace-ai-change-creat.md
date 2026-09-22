@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mSWctNkhENGdH
 summary: LS Group chairman urges employees to embrace AI change, create new value 헤럴드경제
 first_seen: '2026-09-20T22:58:01Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

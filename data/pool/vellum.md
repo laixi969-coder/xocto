@@ -21,7 +21,7 @@ canonical_url: https://vellum.blueprintr.io
 summary: the best diagram editor you'll ever use
 first_seen: '2026-09-21T16:05:42Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -486,3 +486,48 @@
   usage_reason: 仓库收藏与复刻只说明开发者注意到它，缺少读者反馈或课程采用记录，无法说明为何选择它而非其他教程（推断）。
   usage_reason_en: Repo stars and forks only show developer attention; without reader feedback or course
     adoption records, why it is chosen over other tutorials cannot be explained (inference).
+- id: req-full-ai-agent-book-2026-09-22
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-09-22T01:24:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 与 issue/discussion 记录，确认实验是否可复现、是否持续随上游更新维护，以及是否出现赞助、课程或企业采用等公开付费线索。
+  market: ''
+  job: 想动手做 AI Agent 的开发者或学生，在缺少系统教材的情况下，需要把「Agent 怎么设计、怎么落地」的原理与工程步骤串成一条可跟做的路径，并配套能跑起来的实验，从而完成从概念到可运行原型的任务。
+  job_en: Developers or students who want to build AI agents, lacking a systematic textbook, need the
+    principles and engineering steps of agent design and deployment strung into a followable path with
+    runnable experiments, so they can go from concept to a working prototype.
+  pain: 公开材料显示该仓库是开源教材加实验副本，说明作者判断现有学习材料零散、缺少可跟做的工程闭环；但仓库证据里没有用户抱怨、issue 或评价，痛点强度属于工作流结构推理，不是用户口述事实。
+  pain_en: Public materials show this is an open textbook plus experiment copy, implying the author judged
+    existing learning material to be scattered and lacking a followable engineering loop; but the repo
+    evidence contains no user complaints, issues, or reviews, so pain intensity is a workflow inference,
+    not a stated user fact.
+  current_alternative: 旧做法是零散读博客、官方文档、论文和散落的示例代码，自己拼装 Agent 的架构与实验环境；公开材料未说明用户具体如何完成这一步，属于推断。
+  current_alternative_en: The old way is to read scattered blog posts, official docs, papers, and loose
+    sample code, then assemble the agent architecture and experiment environment yourself; public materials
+    do not show exactly how users do this, so this is inference.
+  usage_reason: 推断：相较零散资料，它把原理讲解与可跟做的实验放在同一份开源材料里，减少用户自己找齐资料、拼装实验环境这一步负担，因此缺少系统教材、想快速跑通原型的开发者会在学习或立项时选择它；仓库
+    221 收藏、21 复刻只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus scattered material, it puts the explanation and followable experiments
+    in one open-source resource, cutting the step of gathering references and assembling an experiment
+    environment, so developers lacking a systematic textbook and wanting a quick prototype would pick
+    it when studying or starting a project; the 221 stars and 21 forks show attention only, not sustained
+    use.'

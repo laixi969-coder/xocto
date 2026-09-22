@@ -568,3 +568,52 @@
     output traces to specific results instead of guesses; researchers needing verifiable dependency chains,
     or developers building paper-reading agents, would pick it for long math papers. This is structural
     inference from product capability and task, not yet backed by user feedback.
+- id: req-full-papergraph-mcp-2026-09-22
+  project_slug: papergraph-mcp
+  level: full
+  reviewed_at: '2026-09-22T01:26:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是数学论文定理依赖难以人工追踪、AI 代理缺少可核对证明依据的问题；公开说明显示其输入为 arXiv/LaTeX 论文、动作为抽取结果并追踪证明证据、交付为结构化阅读图，不解决的后果是读序错乱与代理凭空作答。这是工作流结构推理，尚无用户口述痛点。
+    evidence_ids:
+    - ev-21d6683a5d7accce
+    - ev-4315eb21c73fa1c4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 190 增至 247，说明开发者社区持续关注；但收藏与增长只属关注度证据，公开材料未见 issue、discussion 或客户案例说明谁在何种场景持续使用，无法据此认定已进入稳定工作流。
+    evidence_ids:
+    - ev-21d6683a5d7accce
+    - ev-58cdf5c121f2147f
+  - gate: model
+    status: insufficient
+    reason: 这是开源 MCP 服务器，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 研究者订阅、to B 实验室采购或 to VC 支持，均属判断而非已验证事实；未发现仅靠融资叙事支撑的迹象。
+    evidence_ids:
+    - ev-21d6683a5d7accce
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺“不猜测”地追踪证明证据，但未见可复现的解析准确率、失败案例或人工复核边界；定理抽取与依赖判定出错时的责任划分也无公开材料，交付确定性尚未核验。
+    evidence_ids:
+    - ev-21d6683a5d7accce
+    - ev-2282d16ce1ec1f0d
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户报告在具体论文上成功抽取定理依赖、替代了原有阅读流程，以及解析失败或误判的公开案例。
+  market: ''
+  job: 数学/理论方向的研究人员或构建文献阅读代理的开发者，在拿到一篇 arXiv 或 LaTeX 数学论文时，需要先弄清定理之间的依赖顺序、每条证明依赖哪些外部结果，才能决定按什么顺序读、哪些前置结论必须先补。
+  job_en: A mathematics/theoretical researcher or an agent developer, given an arXiv or LaTeX math paper,
+    needs to first establish the dependency order among theorems and which external results each proof
+    relies on, in order to decide the reading order and which prerequisites must be filled in first.
+  pain: 数学论文的证明依赖链往往跨章节、跨引用文献，人工顺着引用跳转容易漏掉前置定理或误判某结论是否已被证明；对 AI 代理而言，缺少结构化依赖信息时只能靠语言模型猜测证明依据，容易给出无依据的结论。
+  pain_en: Proof dependency chains in math papers span sections and cited works; manually following citations
+    easily misses prerequisites or misjudges whether a result is already proven, and an AI agent without
+    structured dependency data can only guess at proof grounding, producing unsupported conclusions.
+  current_alternative: 当前替代方式是人工通读论文并沿参考文献手动追踪依赖，或把论文原文直接丢给通用大模型问答；前者耗时且易漏，后者缺少可核对的证明依据。
+  current_alternative_en: Today users either read the paper manually and trace dependencies through the
+    bibliography, or paste the paper into a general LLM for Q&A; the former is slow and error-prone, the
+    latter lacks checkable proof grounding.
+  usage_reason: 推断：相较人工追踪引用或直接问通用模型，该工具把论文源文件解析成定理级依赖图并输出结构化图数据，使代理在回答时能引用具体定理与证明证据，减少“猜依据”这一步；因此需要可核对证明链的数学研究者和做文献代理的开发者会在处理长证明论文时选择它。
+  usage_reason_en: 'Inference: versus manually tracing citations or asking a general model, the tool parses
+    the paper source into a theorem-level dependency graph and returns structured graph data, so an agent
+    can cite specific theorems and proof evidence instead of guessing; researchers needing checkable proof
+    chains and agent developers building literature tools would therefore pick it for long-proof papers.'

@@ -217,3 +217,52 @@
     from-scratch-skeleton steps so the user gets a runnable project directly; beginners lacking project
     experience who want immediate browser-based results would therefore choose it at the entry stage.
     This is inferred from product capability and task structure, not supported by user feedback.'
+- id: req-full-agent-isles-2026-09-22
+  project_slug: agent-isles
+  level: full
+  reviewed_at: '2026-09-22T01:23:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决初学者学 AI 编程时缺少可执行路径、做不出可运行项目的痛点；公开说明已能还原输入任务描述、智能体生成代码、交付可运行项目的闭环，属工作流结构推理，痛点刚性与不采用代价仍缺用户证据。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-a4d6d249900b02cb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 64 增至 277，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标初学者持续使用或完成关卡，缺少 issue、discussion 或用户反馈佐证。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+    - ev-0a9b66b4002570c5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济；开源仓库加 DeepSeek Harness 的组合暗示可能走 to C 订阅或 to VC 路线，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-b300c72a5bb70c9a
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生尚缺可复现证据：关卡课程体系、智能体生成代码的正确率与人工边界均未公开，无法确认初学者每次都能拿到可运行项目。
+    evidence_ids:
+    - ev-a4d6d249900b02cb
+  next_validation: 追踪 agent-isles 官方仓库的 README、issue 与 discussion，确认关卡课程体系、智能体生成代码的可复现交付结果，以及是否出现定价或付费入口。
+  market: ''
+  job: 想学 AI 编程的初学者在浏览器中进入可探索的岛屿世界，按关卡接收任务描述，用 AI 智能体生成代码，最终拿到可运行的小项目作为学习成果。
+  job_en: Beginner AI-coding learners enter an explorable island world in the browser, take level-based
+    task briefs, use AI agents to generate code, and end up with a runnable small project as the learning
+    outcome.
+  pain: 初学者面对真实编程任务时缺少可执行路径：环境配置、报错排查和项目结构选择都会卡住，导致长期停留在看教程而做不出可运行项目；公开材料只说明产品试图减少这一摩擦，未给出不采用的具体代价或频率。
+  pain_en: 'Beginners lack an executable path into real coding tasks: environment setup, error debugging
+    and project-structure choices block them, so they stay in tutorial-watching without producing runnable
+    projects; public materials only show the product targets this friction, not the concrete cost or frequency
+    of leaving it unsolved.'
+  current_alternative: 旧做法是看视频教程、跟文档敲示例代码，或直接使用通用 AI 编程助手；前者缺少可运行成果，后者不提供关卡式学习路径与项目目标。
+  current_alternative_en: The old approach is watching video courses, typing along with docs, or using
+    a general AI coding assistant; the former yields no runnable outcome, the latter offers no level-based
+    learning path or project goal.
+  usage_reason: 推断：相较看教程后自行摸索，它把任务描述、智能体生成代码和可运行项目结果串成一条关卡路径，减少初学者在环境配置与项目结构选择上的卡点，因此会在想快速做出第一个可运行项目时被选择；公开材料尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: versus self-exploring after tutorials, it chains task briefs, agent-generated
+    code and a runnable project result into a level path, cutting the setup and project-structure blockers
+    for beginners, so it would be chosen when someone wants a first runnable project fast; public materials
+    contain no user feedback or retention evidence for this motive.'

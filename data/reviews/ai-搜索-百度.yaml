@@ -509,3 +509,45 @@
     tab-switching and re-describing context, so PC users who must dig into one question or write while
     researching would pick it for complex tasks; public materials give no retention or payment evidence,
     so the motive is structural inference.'
+- id: req-full-ai-搜索-百度-2026-09-22
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-09-22T01:24:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度AI搜索官方页面是否上线独立定价或会员说明，以及是否公开客户案例或使用数据，用以核验付费路径与持续采用。
+  market: ''
+  job: 普通中文用户在PC端遇到需要多轮追问的复杂问题（如资料梳理、方案比较、写作初稿）时，把问题交给百度AI搜索，在同一页面完成检索、追问、AI阅读与文字/图片创作，得到可直接使用的答案或初稿。
+  job_en: On desktop, Chinese-language users facing a complex question that needs follow-up (research
+    synthesis, option comparison, a first draft) hand it to Baidu AI Search and, on one page, search,
+    ask follow-ups, read documents with AI, and produce text or images they can use directly.
+  pain: 传统关键词搜索只返回链接列表，用户要自己逐个打开、筛选、拼接信息，多轮追问要反复改词重搜，写作与做图还得切换到别的工具；公开材料未给出不采用的具体代价或频率数据，痛点强度属工作流结构推理。
+  pain_en: Classic keyword search returns a list of links, so users must open, filter and stitch sources
+    themselves, rephrase queries for each follow-up, and switch to other tools for writing or images.
+    Public materials give no cost or frequency data, so the pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是百度网页搜索加多标签页人工比对，再切到独立写作或绘图工具；也可用其他对话式AI助手。公开材料未说明用户实际如何组合这些替代方式。
+  current_alternative_en: The old path is Baidu web search with many tabs compared by hand, then separate
+    writing or image tools; other chat-style AI assistants are also alternatives. Public materials do
+    not show how users actually combine these.
+  usage_reason: 推断：相较逐条打开链接再切工具，它在同一页把检索、追问、AI阅读与创作串成一条动作链，省掉“换词重搜”和“跨工具搬运素材”两步，因此需要多轮深挖并顺手产出初稿的PC办公用户会在复杂问题上选它；这是基于产品能力与任务结构的推断，非用户自述。
+  usage_reason_en: 'Inference: versus opening links one by one and switching tools, it chains search,
+    follow-up, AI reading and creation on one page, removing the re-query and cross-tool copy steps, so
+    desktop knowledge workers who need multi-round digging plus a quick draft would pick it for complex
+    questions. This is inferred from product capability and task structure, not user testimony.'

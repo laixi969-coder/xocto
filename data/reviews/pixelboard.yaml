@@ -132,3 +132,48 @@
     and writing onto the device without root, removing the steps of switching keyboards, living with limited
     features, and risking a flash, so users blocked by device limits who prefer system dictation would
     choose it when dictating longer text.'
+- id: req-full-pixelboard-2026-09-22
+  project_slug: pixelboard
+  level: full
+  reviewed_at: '2026-09-22T01:26:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决被机型或系统版本限制的用户无法使用系统听写、只能手动打字或换输入法的问题，旧行为与不采用代价明确，属工作流结构推理。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 54 升至 73 只反映关注度，没有用户反馈、评价或持续使用证据，无法证明已进入日常工作流。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+    - ev-663402f37859954d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何定价、赞助或商业路径，买方与付费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+  - gate: truth
+    status: insufficient
+    reason: 依赖厂商未公开的系统能力，兼容机型、系统版本范围与厂商更新后是否失效均无公开说明，交付确定性存疑。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+  next_validation: 追踪该仓库的 issue 与 discussion，确认实际可用机型、系统版本范围以及是否因厂商更新而失效。
+  market: ''
+  job: Android 手机用户在需要快速口述记录想法、写消息或长文时，处理自己的语音内容，要把它变成可编辑文字，但自己的机型或系统版本不提供系统级自然语音听写与写作入口。
+  job_en: An Android user who wants to quickly dictate an idea, message, or longer text works from their
+    own speech and needs it turned into editable text, but their device or OS version does not provide
+    the system-level natural dictation and writing entry point.
+  pain: 被机型或系统版本挡在门外，只能退回第三方输入法语音或手动打字，听写准确度与写作辅助体验不一致，且需要额外切换工具。
+  pain_en: Being locked out by device or OS version forces a fallback to third-party keyboard voice input
+    or manual typing, with inconsistent dictation accuracy and writing assistance, plus extra tool switching.
+  current_alternative: 多数人使用第三方输入法自带的语音输入，或直接手动打字；部分用户尝试 root 或刷机来获得系统能力。
+  current_alternative_en: Most people use the voice input built into a third-party keyboard or simply
+    type by hand; some try rooting or flashing to obtain system capabilities.
+  usage_reason: 推断：相较第三方输入法语音，它把系统级听写与写作能力直接搬到本机且无需 root，省掉切换输入法和刷机解锁的步骤，因此被机型限制、又习惯系统听写的用户会在需要长段口述时选择它。
+  usage_reason_en: 'Inference: versus third-party keyboard voice input, it brings system-level dictation
+    and writing onto the device without root, removing the steps of switching keyboards and unlocking
+    via flashing, so users blocked by device limits who prefer system dictation would choose it for longer
+    dictation sessions.'

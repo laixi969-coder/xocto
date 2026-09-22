@@ -80,3 +80,45 @@
   usage_reason: 用户要完成的任务是：自建 AI 工作流的个人用户；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: individual users running self-hosted AI workflows Public materials do
     not yet explain why users choose this product over their existing approach.'
+- id: req-full-enzo-2026-09-22
+  project_slug: enzo
+  level: full
+  reviewed_at: '2026-09-22T01:25:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向足球运动员、意大利人名与生命科学试剂公司，与自建 AI 平台无关，无法写出用户任务、痛点与替代方式，价值结构无从成立。
+    evidence_ids:
+    - ev-704ce663ab5f0719
+    - ev-b8c52c75faeff51e
+    - ev-4efb6a1d062d39ad
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或官网 README、issue 与 discussion，确认产品真实名称、部署方式与可复现的交付结果。
+  market: ''
+  job: 公开材料未提供可核验的产品页面，无法确认谁在什么情况下、处理什么材料、要完成什么任务；候选摘要称个人用户在自己机器上部署并接入 Gmail、日历与各家模型 API key，但无对应证据。
+  job_en: Public materials provide no verifiable product page, so it is impossible to confirm who, in
+    what situation, handling what materials, completes what task; the candidate summary claims individuals
+    self-host and connect Gmail, calendar and model API keys, but no supporting evidence exists.
+  pain: 无法从公开证据写出具体痛点：现有证据全部指向足球运动员 Enzo Fernández、意大利人名 Enzo 与生命科学试剂公司 Enzo，与自建 AI 平台无关。
+  pain_en: 'No concrete pain can be written from public evidence: all available evidence points to footballer
+    Enzo Fernández, the Italian given name Enzo, and life-science reagent company Enzo, unrelated to a
+    self-hosted AI platform.'
+  current_alternative: 公开材料未说明用户当前如何完成自建 AI 工作流，也未记录任何替代行为或 workaround。
+  current_alternative_en: Public materials do not describe how users currently accomplish self-hosted
+    AI workflows, nor record any alternative behavior or workaround.
+  usage_reason: 缺少可归因到该产品的公开事实，无法解释用户为何在什么情况下选择它；现有证据与产品无关，不能作为选择理由。
+  usage_reason_en: There is no public fact attributable to this product to explain why or when users would
+    choose it; existing evidence is unrelated to the product and cannot serve as a usage reason.

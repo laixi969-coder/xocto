@@ -87,3 +87,51 @@
     Everything index, removing the directory-walk step, so developers on large repos or disks would pick
     it when the agent frequently misses files; however, with only 42 stars and no issue discussion, there
     is no evidence of repeated use or retention.'
+- id: req-full-everything-search-skill-2026-09-22
+  project_slug: everything-search-skill
+  level: full
+  reviewed_at: '2026-09-22T01:25:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理查找本地文件慢、找错文件导致上下文错误的问题，痛点具体；旧替代是逐层扫描或手工贴路径，不解决的后果是反复纠正与上下文污染。这是基于产品说明与工作流结构的推理，非用户采用证据。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 42 增至 57，只有关注度信号，无 issue、discussion 或客户案例说明开发者已把它留在工作流里，持续采用未核验。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+    - ev-53e47c460ceae724
+  - gate: model
+    status: insufficient
+    reason: 开源技能无定价页与买方信息，公开材料未披露任何付费或赞助路径；谁付钱属未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  - gate: truth
+    status: insufficient
+    reason: 依赖 Windows 上的 Voidtools Everything 索引，公开材料未说明跨平台支持、权限边界与检索结果如何回传给代理，交付确定性待核验。
+    evidence_ids:
+    - ev-4a966d5db7c2707e
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的平台、权限边界以及检索结果如何回传给代理。
+  market: ''
+  job: 使用 Cursor、Codex、PI-Desktop 等编程代理的开发者，在代理需要定位本地代码或文件时，让代理调用 Voidtools Everything 的索引检索，拿到匹配文件路径供后续读取，而不是让代理逐层遍历目录。
+  job_en: Developers using coding agents such as Cursor, Codex, or PI-Desktop, when the agent needs to
+    locate local code or files, have the agent query the Voidtools Everything index to get matching file
+    paths for later reading, instead of walking directories level by level.
+  pain: 公开材料只说明它是基于索引的本地文件检索技能；从工作流结构推理，代理用内置 glob/grep 逐层扫描在大仓库或大磁盘上耗时长，且找不到正确文件时会给出错误上下文，开发者需反复纠正。这是推理，不是用户口述的痛点。
+  pain_en: Public material only states it is an index-powered local file search skill; by workflow inference,
+    agents scanning with built-in glob/grep are slow on large repos or disks, and missing the right file
+    yields wrong context the developer must repeatedly correct. This is inference, not user-reported pain.
+  current_alternative: 旧做法是让代理用内置 glob/grep 逐层扫描目录，或开发者自己手动把文件路径贴进对话；Windows 用户也可能直接在 Everything 客户端里搜完再复制路径。
+  current_alternative_en: The old way is letting the agent scan directories with built-in glob/grep, or
+    the developer manually pasting file paths into the conversation; Windows users may also search in
+    the Everything client and copy the path over.
+  usage_reason: 推断：相较逐层扫描，它把检索动作交给已建好的 Everything 索引，省掉代理遍历目录这一步，因此在大仓库或大磁盘上、且代理频繁找不到文件的 Windows 开发者会在该情境下选择它；仓库仅
+    42→57 星、无 issue 讨论，尚无重复使用或留存证据。
+  usage_reason_en: 'Inference: compared with level-by-level scanning, it delegates retrieval to an already-built
+    Everything index, removing the directory-walk step, so Windows developers on large repos or disks
+    whose agent frequently misses files would choose it in that situation; with only 42→57 stars and no
+    issue discussion, there is no evidence of repeated use or retention.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FdF9fcER6TXNf
 summary: 2026医学人工智能学术大会召开：CIO畅谈医疗AI应用痛点与需求 doit.com.cn
 first_seen: '2026-09-20T08:06:33Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

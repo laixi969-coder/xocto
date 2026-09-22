@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTFBvWHhsandLRzNw
 summary: 阿里敢烧、百度求变、腾讯能扛：BAT的AI战争进入财务验证期 新浪财经
 first_seen: '2026-09-21T09:01:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

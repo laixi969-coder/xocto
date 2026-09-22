@@ -463,3 +463,44 @@
   usage_reason_en: Public materials provide no user feedback or adoption evidence to explain why a researcher
     would choose this over manual scripts; a product feature description alone does not constitute a usage
     reason.
+- id: req-full-applied-micro-skills-2026-09-22
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-09-22T01:24:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该技能包的官方文档或仓库 README，确认其输入数据格式、输出表格规格与复现审计的具体流程。
+  market: ''
+  job: 应用微观经济学研究者在做实证论文时，处理原始数据、跑回归、生成论文表格，并确保数字可复现。
+  job_en: An applied microeconomics researcher, when producing an empirical paper, processes raw data,
+    runs regressions, generates publication tables, and ensures the numbers reproduce.
+  pain: 数据清洗、回归与制表步骤繁琐且易出错，复现性审计需要额外核对，研究者常需在 Stata、WRDS 等工具间反复切换。
+  pain_en: Data cleaning, regression, and table generation are tedious and error-prone, reproducibility
+    auditing requires extra checking, and researchers often switch repeatedly among tools like Stata and
+    WRDS.
+  current_alternative: 目前研究者多手动编写 Stata 脚本或 R 代码，配合 WRDS 数据接口，逐步完成回归与制表，复现检查靠人工比对。
+  current_alternative_en: Today researchers mostly hand-write Stata or R scripts, use the WRDS data interface,
+    and complete regressions and tables step by step, with reproducibility checked manually.
+  usage_reason: 推断：若该技能包能直接接收数据与回归设定，自动生成论文级表格并输出复现审计结果，可省去手写脚本与人工比对这一步，应用微观研究者在赶论文或审稿回复时可能选择它；但公开材料未给出具体输入输出细节，也无用户反馈支持这一判断。
+  usage_reason_en: 'Inference: if the skill package can take data and regression specifications, automatically
+    generate publication-grade tables, and output reproducibility audit results, it removes the step of
+    hand-writing scripts and manual comparison, which applied micro researchers might choose when rushing
+    a paper or responding to reviewers; however, public materials give no input/output details and no
+    user feedback supports this judgment.'

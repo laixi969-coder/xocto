@@ -316,3 +316,42 @@
   usage_reason_en: With no product description, docs, issues, or user feedback, there is no explanation
     of why users would choose it over their current approach; stars rising from 50 to 107 is an attention
     signal only, not a reason for choice or sustained use (inference).
+- id: req-full-mythos-5-incident-transcript-2026-09-22
+  project_slug: mythos-5-incident-transcript
+  level: full
+  reviewed_at: '2026-09-22T01:26:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅有仓库名与星标数，既无产品说明也无用户任务描述，连它解决什么需求、什么痛点都写不出来，无法形成价值判断。
+    evidence_ids:
+    - ev-c289c3d6106d315f
+    - ev-1272de1e0be098a6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它实际提供的功能、输入材料与产出形态，以判断是否存在可描述的用户任务。
+  market: ''
+  job: 公开材料只给出仓库名与星标数，无法确认谁在什么情况下处理什么材料、要完成什么任务；无法写出具体使用场景。
+  job_en: Public material provides only a repository name and star counts, so it is impossible to state
+    who handles what material in what situation to complete which task; no concrete job can be written.
+  pain: 没有任何公开事实说明用户遇到什么困难、哪一步最费时或出错，痛点无法从现有材料确认。
+  pain_en: No public fact describes what difficulty users face or which step is slowest or most error-prone;
+    the pain cannot be confirmed from available material.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未显示任何替代行为或旧流程。
+  current_alternative_en: Public material does not show how users complete this job today, nor any substitute
+    behaviour or prior workflow.
+  usage_reason: 缺少产品说明、文档与用户反馈，无法解释相较旧做法它减少了哪一步负担，因此无法说明用户为何选择它。
+  usage_reason_en: With no product description, documentation or user feedback, it cannot be explained
+    which step it removes versus the old approach, so why users would choose it cannot be stated.

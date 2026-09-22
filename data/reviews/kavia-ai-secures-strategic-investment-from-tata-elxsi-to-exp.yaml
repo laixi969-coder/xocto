@@ -1,0 +1,82 @@
+- id: req-initial-kavia-ai-secures-strategic-investment-from-tata-elxsi-to-exp-2026-09-22
+  project_slug: kavia-ai-secures-strategic-investment-from-tata-elxsi-to-exp
+  level: initial
+  reviewed_at: '2026-09-22T00:50:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决企业软件工程交付问题，但公开材料未写出具体痛点、旧流程与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-5b5882e26c9cd6d4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有战略投资这一条关注度信号，没有客户采用、场景共识或持续使用的公开证据。
+    evidence_ids:
+    - ev-5b5882e26c9cd6d4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱从 to B 还是 to VC 来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-5b5882e26c9cd6d4
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其产出是否确定性交付、人工边界如何设置，也未说明是否贴近该工作的第一性目标。
+    evidence_ids:
+    - ev-5b5882e26c9cd6d4
+  next_validation: 收集 KAVIA AI 官方产品页或 Tata Elxsi 公告中的客户案例与部署文档，确认其实际交付形态与买方。
+  market: ''
+  job: 企业软件工程团队负责人在接手遗留系统改造或新模块开发时，处理已有代码库与需求文档，要完成可运行、可合并的代码交付。
+  job_en: An enterprise software engineering lead taking on legacy-system rework or new module development
+    handles existing codebases and requirement documents to deliver runnable, mergeable code.
+  pain: 公开材料只说明它是企业级 AI 软件工程平台，未给出任何具体痛点、旧流程耗时或失败代价的描述。
+  pain_en: Public materials only describe it as an enterprise AI software engineering platform and give
+    no specific pain point, legacy-process time cost or failure consequence.
+  current_alternative: 公开材料未说明企业此前用什么方式完成同类工程交付，无法确认替代对象。
+  current_alternative_en: Public materials do not say how enterprises previously completed comparable
+    engineering delivery, so the replaced alternative cannot be confirmed.
+  usage_reason: 缺少可核验的功能细节与用户反馈，无法说明它相较旧做法减少了哪一步负担，因此不构成使用理由；这是判断，不是已验证事实。
+  usage_reason_en: Verifiable feature detail and user feedback are missing, so it cannot be shown which
+    step of the old process it removes; this is a judgement, not a verified fact.
+- id: req-full-kavia-ai-secures-strategic-investment-from-tata-elxsi-to-exp-2026-09-22
+  project_slug: kavia-ai-secures-strategic-investment-from-tata-elxsi-to-exp
+  level: full
+  reviewed_at: '2026-09-22T01:25:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决企业软件工程交付问题，但公开材料只有一条战略投资报道，未写出具体痛点、旧流程与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-5b5882e26c9cd6d4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 KAVIA AI 官方产品页或 Tata Elxsi 公告中的客户案例与部署文档，确认实际交付形态与买方。
+  market: ''
+  job: 企业软件工程团队负责人在接手遗留系统改造或新模块开发时，处理已有代码库与需求文档，要完成可运行、可合并的代码交付。
+  job_en: An enterprise software engineering lead taking on legacy-system rework or new module development
+    handles existing codebases and requirement documents to deliver runnable, mergeable code.
+  pain: 公开材料只有一条战略投资报道，未写出任何具体痛点、旧流程耗时或失败代价；企业软件交付慢属于行业常识推断，不是该项目证据支持的痛点。
+  pain_en: The public material is a single strategic-investment report with no specific pain point, legacy-process
+    time cost or failure consequence; slow enterprise software delivery is an industry-common inference,
+    not pain supported by this project's evidence.
+  current_alternative: 公开材料未说明企业此前用什么方式完成同类工程交付，通用 AI 助手或自建工具链都只是推测，未被该项目证据确认。
+  current_alternative_en: Public material does not state how enterprises previously completed comparable
+    engineering delivery; general AI assistants or in-house toolchains are only speculation, not confirmed
+    by this project's evidence.
+  usage_reason: 推断：若平台能把需求描述与代码库转成可运行产出，可减少人工编码与测试步骤；但公开材料未给出功能细节、交付形态或用户反馈，无法说明它相较旧做法减少哪一步负担。
+  usage_reason_en: 'Inference: if the platform turns requirement descriptions and codebases into runnable
+    output it could reduce manual coding and testing steps; but the public material gives no feature detail,
+    delivery form or user feedback, so it cannot be shown which step of the old process it removes.'

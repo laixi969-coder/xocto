@@ -24,7 +24,7 @@ summary: 'Our 15-month investigation into death and surveillance along the US-Me
   of San Diego. Journalists in both newsrooms spent the past…'
 first_seen: '2026-09-21T12:00:00Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

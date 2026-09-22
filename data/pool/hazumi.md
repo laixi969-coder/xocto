@@ -21,7 +21,7 @@ canonical_url: https://hazumi.news/best
 summary: Jev filters large HN discussions
 first_seen: '2026-09-20T17:07:03Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

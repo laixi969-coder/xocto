@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWC13elhVRFNv
 summary: 'At Your Service: Sept. 21 edition Alternatives Watch'
 first_seen: '2026-09-21T11:14:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

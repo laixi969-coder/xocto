@@ -487,3 +487,47 @@
   usage_reason_en: 'Inference: if the two-AI duel auto-generates attack surfaces and cuts manual test-case
     construction, it could lower the cost of starting security testing; but without user feedback or adoption
     evidence, it is unconfirmed which users would choose it and when.'
+- id: req-full-adversarial-testing-skill-2026-09-22
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-09-22T01:23:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际发现的漏洞、复现步骤或将其纳入发布流程的记录。
+  market: ''
+  job: 安全工程师或独立开发者在发布前，把产品源码交给一个 AI 做白盒审计、同时让另一个 AI 在看不到源码的情况下当黑盒攻击者，用两个 AI 对打的方式产出可复现的漏洞清单，替代人工渗透测试或单一
+    AI 扫描。
+  job_en: A security engineer or solo developer, before shipping, hands source code to one AI for white-box
+    review while a second AI attacks as a blind black-box adversary, using the two AIs against each other
+    to produce a reproducible vulnerability list instead of manual pentesting or a single AI scan.
+  pain: 公开材料只说明这是多 AI 协作的对抗测试工作流，未提供用户抱怨、漏测后果或频率数据；从工作流结构推断，人工渗透测试昂贵且排期长，单一 AI 扫描容易漏掉需要跨视角才能暴露的漏洞，不做的后果是带着未发现的缺陷上线。
+  pain_en: Public materials only describe a multi-AI collaborative adversarial testing workflow, with
+    no user complaints, miss consequences, or frequency data; structurally inferred, manual pentesting
+    is costly and slow to schedule, and a single AI scan misses flaws that only cross-perspective review
+    exposes, so the cost of not doing it is shipping with undiscovered defects.
+  current_alternative: 人工渗透测试、单一 AI 代码审计工具、静态分析器，或干脆跳过发布前的安全测试。
+  current_alternative_en: Manual penetration testing, single-AI code audit tools, static analyzers, or
+    skipping pre-release security testing altogether.
+  usage_reason: 推断：相较人工渗透测试需要排期和报价、单一 AI 扫描只覆盖一个视角，该工作流让读源码的白盒 AI 与蒙眼的黑盒 AI 互相攻击，把两种视角的发现合并成一份漏洞清单，减少用户自己组织两轮测试并人工比对结果的步骤，因此预算有限、想快速拿到多视角漏洞清单的开发者会在发布前选择它。
+  usage_reason_en: 'Inference: compared with manual pentesting that needs scheduling and quotes, or a
+    single AI scan covering only one perspective, this workflow pits a source-reading white-box AI against
+    a blind black-box AI and merges both perspectives into one vulnerability list, removing the step of
+    organizing two separate test rounds and manually reconciling results, so budget-constrained developers
+    wanting a fast multi-perspective flaw list would choose it before release.'

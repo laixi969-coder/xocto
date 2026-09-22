@@ -31,7 +31,7 @@ canonical_url: https://github.com/greentfrapp/panel
 summary: A research workspace where the agent can build its own panes
 first_seen: '2026-09-15T13:58:37Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

@@ -1,6 +1,6 @@
 ---
 slug: skyproduction天工工作台中秋国庆特惠第二波seedance-25-720p-低至-027-元-秒全网地板价
-name: SkyProduction天工工作台中秋国庆特惠第二波：Seedance 2.5 720P 低至 0.27 元/秒，全网地板价！
+name: SkyProduction（天工工作台）
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/493268.html
 summary: 9月15日，SkyProduction（天工工作台）中秋国庆折上折活动正式开启！
 first_seen: '2026-09-21T08:25:44Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# SkyProduction天工工作台中秋国庆特惠第二波：Seedance 2.5 720P 低至 0.27 元/秒，全网地板价！
+# SkyProduction（天工工作台）
 
 9月15日，SkyProduction（天工工作台）中秋国庆折上折活动正式开启！
 

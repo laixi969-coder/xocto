@@ -1,0 +1,83 @@
+- id: req-initial-kev-2026-09-22
+  project_slug: kev
+  level: initial
+  reviewed_at: '2026-09-22T00:50:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决文字结论难以用于决策、概率未校准的问题，但公开材料只有一句功能描述，说不清输入格式、校准方法和适用场景，痛点是否刚性无法判断。
+    evidence_ids:
+    - ev-f2ee7e2b80c54e47
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未过，社区点赞只反映关注度，不是采用证据。
+    evidence_ids:
+    - ev-f2ee7e2b80c54e47
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未过，也没有定价或付费路径信息。
+    evidence_ids:
+    - ev-f2ee7e2b80c54e47
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未过，校准方法与适用边界不明，无法核对概率是否可信。
+    evidence_ids:
+    - ev-f2ee7e2b80c54e47
+  next_validation: 收集该演示的说明文档或仓库，确认输入格式、校准方法以及是否公开评测结果。
+  market: ''
+  job: 预测、风控或研究策略人员在需要给出一个可比较的概率判断时，把结构化问题输入工具，获取校准后的概率数值。
+  job_en: Forecasting, risk or research strategy staff enter typed questions into the tool to obtain a
+    calibrated probability number when they need a comparable probability judgement.
+  pain: 通用模型给出的文字结论难以直接用于决策，概率数值往往没有校准，无法判断可信程度。
+  pain_en: Text conclusions from general models are hard to use directly in decisions, and probability
+    numbers are often uncalibrated, making their reliability unclear.
+  current_alternative: 现在多靠人工经验估计概率、用统计模型单独建模，或让通用助手给出一个没有校准说明的百分比。
+  current_alternative_en: Today people estimate probabilities from experience, build separate statistical
+    models, or ask a general assistant for a percentage with no calibration statement.
+  usage_reason: 相较人工估计或通用助手的百分比，它直接输出校准过的概率，省掉自行校准这一步；但公开材料没有说明校准方法和适用领域，无法确认输出是否可核对，因此需求强度未明。
+  usage_reason_en: Compared with manual estimates or a general assistant's percentage, it outputs calibrated
+    probabilities directly, removing the self-calibration step; however, the public material does not
+    explain the calibration method or applicable domains, so whether the output is checkable cannot be
+    confirmed and demand strength is unclear.
+- id: req-full-kev-2026-09-22
+  project_slug: kev
+  level: full
+  reviewed_at: '2026-09-22T01:25:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决文字结论难用于决策、概率未校准的问题，但公开材料只有一句功能描述，输入格式、校准方法与适用领域均未说明，连需求与痛点都无法还原，只能判需求不成立。
+    evidence_ids:
+    - ev-05d9abb890c65362
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Kev 官方产品页或 公开代码仓库 仓库说明，确认输入格式、校准方法、适用领域与是否公开评测结果。
+  market: ''
+  job: 预测、风控或研究策略人员需要给出可比较的概率判断时，把结构化问题输入 Kev，期望得到校准后的概率数值而非文字结论。
+  job_en: Forecasting, risk or research strategy staff need a comparable probability judgement and enter
+    typed questions into Kev, expecting a calibrated probability number rather than a text conclusion.
+  pain: 公开材料只有一句功能描述，未说明输入格式、校准方法与适用领域，无法确认通用模型文字结论难用于决策、概率未校准这一痛点是否真实存在。
+  pain_en: The public material is a single feature line with no input format, calibration method or applicable
+    domain, so it cannot confirm whether the pain of uncalibrated probabilities and text-only conclusions
+    is real.
+  current_alternative: 公开材料未披露任何现有替代方式，无法确认用户此前是用人工经验估计、统计建模还是通用助手给百分比。
+  current_alternative_en: No current alternative is disclosed in the public material, so it is unknown
+    whether users previously relied on manual estimates, statistical models or a general assistant's percentage.
+  usage_reason: 缺少可归因到 Kev 的产品说明、文档或评测，无法说明它相较旧做法减少哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no product documentation or evaluation attributable to Kev, it is impossible to
+    say which step it removes versus the old approach, so which users would choose it and when cannot
+    be judged.

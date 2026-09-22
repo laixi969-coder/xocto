@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxQTS1zMHp4X3pp
 summary: Can Patent Filings Help Physical AI Companies Raise Capital? The National Law Review
 first_seen: '2026-09-21T22:36:38Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

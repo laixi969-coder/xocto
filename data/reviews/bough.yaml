@@ -387,3 +387,48 @@
     step of tracing each item back, with data never leaving the machine; inference: developers who need
     a record of AI changes or must explain them to others would choose it, though there is no retention
     or repeat-use evidence yet.'
+- id: req-full-bough-2026-09-22
+  project_slug: bough
+  level: full
+  reviewed_at: '2026-09-22T01:24:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码会话事后无法还原的问题：改动来自哪条提示、最终提交了什么，现在只能靠记忆和终端历史拼凑，不记录就有交代不清的后果；这是从产品说明与旧流程作出的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-4ff4e2b2a78786c1
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有词典释义与一条泛化的市场检索，未见开发者讨论、issue 或采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-f2bf7a03ed66cf78
+  - gate: model
+    status: insufficient
+    reason: 开源本地 Go 二进制，未见定价页或付费路径；钱可能来自开发者自付或团队采购，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-71e909a325e27634
+  - gate: truth
+    status: insufficient
+    reason: 只读本机会话记录、不外发数据，贴近复盘目标；但会话记录格式依赖 Claude Code 与 Codex，上游一变就可能失效，交付确定性缺公开证据。
+    evidence_ids:
+    - ev-dcb4e6d73165f0b5
+  next_validation: 追踪该项目的公开仓库 issue 与 discussion，确认是否有开发者反馈把它用于日常复盘或团队变更说明。
+  market: ''
+  job: 使用 Claude Code 或 Codex 的开发者，在一天工作结束或需要向他人说明改动时，处理本机已有的会话记录与 git 提交历史，要还原出当天 AI 参与了哪些改动、每条改动对应哪条提示、最终提交了什么。
+  job_en: Developers using Claude Code or Codex, at the end of a working day or when they must explain
+    changes to others, work with local session logs and git commit history to reconstruct which changes
+    the AI made, which prompt each change came from, and what was finally committed.
+  pain: AI 编码会话散落在终端里，事后很难说清哪次改动来自哪条提示；写变更说明、做代码审查或向他人交代时只能凭记忆翻记录，不记录就存在交代不清的后果。
+  pain_en: AI coding sessions are scattered across the terminal, so afterwards it is hard to say which
+    change came from which prompt; writing change notes, doing code review or explaining to others means
+    digging through logs from memory, and not recording leaves the account unclear.
+  current_alternative: 靠翻终端历史、git log 和记忆手工拼出当天做了什么，或干脆不记录。
+  current_alternative_en: Manually piecing the day together from terminal history, git log and memory,
+    or simply not recording it at all.
+  usage_reason: 相较手工翻终端和 git log，它直接读取本机已有的会话记录，自动生成一条按时间排列的提示词—工作—提交视图，省掉逐条回溯这一步；推断：需要为 AI 改动留痕或向他人解释的开发者会因此选择它，但目前没有留存或复购证据。
+  usage_reason_en: 'Compared with manually digging through terminal history and git log, it reads existing
+    local session logs and automatically produces one time-ordered prompt-work-commit view, removing the
+    step of tracing each item back; inference: developers who need a record of AI changes or must explain
+    them to others would choose it, though there is no retention or repeat-use evidence yet.'

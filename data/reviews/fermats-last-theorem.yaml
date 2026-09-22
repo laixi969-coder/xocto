@@ -551,3 +551,44 @@
   usage_reason_en: With no README, docs, issues, discussions, or user feedback, there is no way to explain
     which step it removes or which checkable result it improves versus current practice, so no user segment
     or situation of choice can be identified.
+- id: req-full-fermats-last-theorem-2026-09-22
+  project_slug: fermats-last-theorem
+  level: full
+  reviewed_at: '2026-09-22T01:25:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有仓库名称与星标数，未披露功能、输入、交付物或任何用户任务，连它解决什么需求、什么痛点都写不出来，因此无法形成价值结构判断。
+    evidence_ids:
+    - ev-bf0c4bdc79015cba
+    - ev-ad17237c98db4f8f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、文档目录、issue 与 discussion，确认其实际功能、输入输出与使用场景，作为下一轮公开证据。
+  market: ''
+  job: 公开材料仅显示这是 Anthropic 发布、以费马大定理命名的代码仓库，未披露任何功能、文档或使用方式，因此无法写明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public materials only show an Anthropic-published repository named after Fermat's Last Theorem,
+    with no disclosed function, documentation, or usage, so it is impossible to state who handles what
+    material in what situation to complete what task.
+  pain: 没有可引用的公开事实说明任何用户任务中的痛点、发生频率或不解决的后果；仓库名称与星标数不能作为痛点证据。
+  pain_en: No citable public fact describes any user pain, frequency, or consequence of leaving it unsolved;
+    the repository name and star count cannot serve as pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧流程或工具。
+  current_alternative_en: Public materials do not state how users currently complete the related work,
+    nor what prior process or tool this repository replaces.
+  usage_reason: 缺少功能说明、文档与用户反馈，无法解释相较现有做法它减少了哪一步负担或改善了哪项可核对结果，因此无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no feature description, documentation, or user feedback, it is impossible to explain
+    which step it removes or which checkable result it improves versus current practice, hence which users
+    would choose it and when.

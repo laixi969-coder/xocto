@@ -1,6 +1,6 @@
 ---
 slug: 5-companies-using-nvidia-ai-for-clean-energy
-name: 5 Companies Using NVIDIA AI for Clean Energy
+name: NVIDIA
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: Clean energy isn’t hard to come by, but the pace of large-scale adopt
   clean energy projects with AI baked into their foundation, accelerating research-to-inception […]
 first_seen: '2026-09-21T10:00:35Z'
 last_seen: '2026-09-22T00:50:50Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# 5 Companies Using NVIDIA AI for Clean Energy
+# NVIDIA
 
 Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers.  At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception […]
 

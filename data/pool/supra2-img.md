@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/supra2-img-demo
 summary: 104M-param text-to-image DiT, trained from scratch
 first_seen: '2026-09-21T15:51:36Z'
 last_seen: '2026-09-22T00:50:49Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

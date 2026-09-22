@@ -1,6 +1,6 @@
 ---
 slug: 剪映发布ai创作助手用户可通过对话构思和剪辑视频
-name: 剪映发布AI创作助手，用户可通过对话构思和剪辑视频
+name: 剪映
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNWmxtaHRZc0ZI
 summary: 剪映发布AI创作助手，用户可通过对话构思和剪辑视频 搜狐网
 first_seen: '2026-09-21T06:47:50Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 剪映发布AI创作助手，用户可通过对话构思和剪辑视频
+# 剪映
 
 剪映发布AI创作助手，用户可通过对话构思和剪辑视频 搜狐网
 

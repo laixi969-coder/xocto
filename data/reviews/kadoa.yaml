@@ -1,0 +1,85 @@
+- id: req-initial-kadoa-2026-09-22
+  project_slug: kadoa
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决食品价格信息滞后的问题，但公开材料只有一句网站描述，说不清数据来源、覆盖品类和可核对结果，痛点是否刚性无法判断。
+    evidence_ids:
+    - ev-c11b608955544d57
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未过，社区讨论的点赞与评论只反映关注度，不是采用证据。
+    evidence_ids:
+    - ev-c11b608955544d57
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未过，也没有定价或付费路径信息。
+    evidence_ids:
+    - ev-c11b608955544d57
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未过，数据来源与更新口径不明，无法核对结果是否可信。
+    evidence_ids:
+    - ev-c11b608955544d57
+  next_validation: 收集该网站的价格页面与数据来源说明，确认覆盖品类、更新频率以及是否公开采集口径。
+  market: ''
+  job: 零售采购、定价人员或食品行业分析师在需要判断美国食品价格走势时，打开每日更新的价格页面获取行情。
+  job_en: Retail procurement or pricing staff, or food industry analysts, open a daily-updated price page
+    to follow US food price movements when they need to judge trends.
+  pain: 食品价格波动直接影响采购成本和定价，靠人工比价或月度报告获取信息滞后，可能错过调价窗口。
+  pain_en: Food price swings directly affect procurement cost and pricing; manual comparison or monthly
+    reports arrive late and may miss a repricing window.
+  current_alternative: 现在多靠政府统计发布、行业报告、供应商报价或人工比价获取食品价格信息。
+  current_alternative_en: Today food price information usually comes from government statistics, industry
+    reports, supplier quotes or manual price comparison.
+  usage_reason: 相较等待月度报告或人工比价，它把价格追踪做成每日更新，省掉自己采集这一步；但公开材料没有说明数据来源、覆盖品类和是否可核对，无法确认它比现有来源更可靠，因此需求强度未明。
+  usage_reason_en: Compared with waiting for monthly reports or manual comparison, it turns price tracking
+    into a daily update, removing the collection step; however, the public material does not state the
+    data sources, covered categories or verifiability, so it cannot be confirmed as more reliable than
+    existing sources and demand strength is unclear.
+- id: req-full-kadoa-2026-09-22
+  project_slug: kadoa
+  level: full
+  reviewed_at: '2026-09-22T01:25:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决食品价格信息获取滞后的问题，但公开材料只有一句网站描述，未说明数据来源、覆盖品类、更新口径与不采用的后果，痛点刚性与交付确定性都无法还原，属于看着有用但没有也行。
+    evidence_ids:
+    - ev-c11b608955544d57
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Kadoa 官网 food-prices 页面的数据来源说明与更新口径，确认覆盖品类、采集方式及是否公开可核对。
+  market: ''
+  job: 零售采购、定价人员或食品行业分析师在需要判断美国食品价格走势时，打开每日更新的价格页面获取行情，用于采购议价或定价决策。
+  job_en: Retail procurement or pricing staff, or food industry analysts, open a daily-updated price page
+    to follow US food price movements when judging trends for procurement negotiation or pricing decisions.
+  pain: 公开材料只有一句网站描述，未说明数据来源、覆盖品类、更新口径或任何用户抱怨；食品价格波动影响采购成本这一痛点属于行业常识推断，不是该项目公开证据支持的痛点。
+  pain_en: The public material is a single site description with no data sources, covered categories,
+    update methodology or user complaints; the pain that food price swings affect procurement cost is
+    an industry-common inference, not pain supported by this project's public evidence.
+  current_alternative: 公开材料未说明用户此前用什么方式获取食品价格，政府统计、行业报告、供应商报价或人工比价都只是推测，未被该项目证据确认。
+  current_alternative_en: Public material does not state how users previously obtained food prices; government
+    statistics, industry reports, supplier quotes or manual comparison are only speculation, not confirmed
+    by this project's evidence.
+  usage_reason: 推断：若页面确实每日更新，可省去用户自行采集这一步；但公开材料未说明数据来源、覆盖品类与可核对结果，无法确认它比现有来源更可靠，因此不构成可核验的使用理由。
+  usage_reason_en: 'Inference: if the page truly updates daily it could remove the user''s own collection
+    step; but the public material states no data sources, covered categories or verifiable results, so
+    it cannot be confirmed as more reliable than existing sources and does not form a verifiable usage
+    reason.'

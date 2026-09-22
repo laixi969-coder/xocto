@@ -498,3 +498,52 @@
     repetitive manual enumeration and attack-chain chaining, so red-team or CTF security staff may choose
     it when needing to cover many targets quickly; public materials contain no user feedback confirming
     this motivation.'
+- id: req-full-strikeagent-atkbrain-flash-2026-09-22
+  project_slug: strikeagent-atkbrain-flash
+  level: full
+  reviewed_at: '2026-09-22T01:27:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中侦察与打点环节的重复人工串联问题，痛点来自该岗位固有的多工具切换与漏资产风险；公开说明覆盖红队打点、SRC、CTF，交付为渗透测试平台，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-e126eca2c3e9a53d
+    - ev-de2d85630fed92e1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 358 增至 479，说明社区关注度上升，但收藏与排名只属关注度证据，不能证明目标用户持续使用或形成强场景共识；缺少 issue、discussion 或用户评价佐证。
+    evidence_ids:
+    - ev-95da58ad348dfd00
+    - ev-bcb0209a852d93f3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断钱来自 to B 安全团队、to C 个人研究者还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-e126eca2c3e9a53d
+  - gate: truth
+    status: insufficient
+    reason: 公开说明强调自监督、自循环、自进化，但未提供可复现的交付结果、误报率或人工与安全边界证据，无法确认渗透结论能否确定性交付。
+    evidence_ids:
+    - ev-de2d85630fed92e1
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有真实授权测试场景的部署记录、交付样例或用户反馈。
+  market: ''
+  job: 渗透测试工程师或红队成员在授权测试、SRC 众测或 CTF 比赛中拿到目标资产清单后，需要完成信息收集、打点、漏洞验证与报告整理，把零散侦察结果变成可提交的渗透结论。
+  job_en: A penetration tester or red teamer, given an authorized target asset list in an engagement,
+    SRC bounty, or CTF, must run reconnaissance, foothold attempts, vulnerability validation, and report
+    write-up, turning scattered findings into a submittable penetration conclusion.
+  pain: 公开材料只说明该平台覆盖红队打点、SRC、CTF 并强调自监督、自循环、自进化，未提供用户抱怨或案例；从工作流结构推理，打点阶段需人工反复切换扫描器、脚本与笔记，重复劳动多且易漏资产，这是该岗位的固有负担，但具体强度属推断。
+  pain_en: Public materials only state the platform covers red-team footholds, SRC, and CTF with self-supervision,
+    self-looping, and self-evolution; no user complaints or cases are given. By workflow inference, the
+    foothold phase requires manually switching among scanners, scripts, and notes, which is repetitive
+    and leak-prone—an inherent burden of the role, though its intensity is inferred.
+  current_alternative: 公开材料未说明用户当前用什么替代；按行业常识推断，现有做法是人工组合 Nmap、Burp、Metasploit 等工具加自写脚本与笔记，逐环节手动推进。
+  current_alternative_en: Public materials do not state the current alternative; by industry inference,
+    users today manually combine tools such as Nmap, Burp, and Metasploit with self-written scripts and
+    notes, advancing step by step.
+  usage_reason: 推断：相较人工逐工具切换，该平台以 AI Agent 自循环方式承接侦察到打点的连续步骤，减少手动串联扫描与记录的那一步负担，因此会在授权测试或 SRC 打点这类重复性高的场景被渗透测试人员选择；尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus manually switching tools, the AI agent''s self-looping carries the
+    recon-to-foothold steps continuously, cutting the manual chaining of scans and notes, so testers would
+    pick it in repetitive authorized-testing or SRC foothold scenarios; no user feedback yet confirms
+    this.'

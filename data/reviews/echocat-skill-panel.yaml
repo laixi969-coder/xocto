@@ -76,3 +76,41 @@
   usage_reason: 用户要完成的任务是：AI 应用开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI application developer Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-echocat-skill-panel-2026-09-22
+  project_slug: echocat-skill-panel
+  level: full
+  reviewed_at: '2026-09-22T01:25:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 DSH 技能调用不可见的问题，但公开证据仅有仓库标题与收藏数，未说明痛点强度、发生频率与不采用后果，价值结构无法成立。
+    evidence_ids:
+    - ev-fed7776b5d3e1c12
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认技能调用审计的具体使用场景、部署方式与用户反馈。
+  market: ''
+  job: AI 应用开发者在调试 DSH 应用时，处理技能调用事件记录，要完成技能调用审计与应用内技能管理。
+  job_en: An AI application developer debugging a DSH app handles skill-invocation event records to audit
+    skill calls and manage skills in-app.
+  pain: 公开证据只有仓库标题与 201 个收藏，未说明技能调用不可见会带来什么具体代价、发生频率或后果。
+  pain_en: Public evidence is limited to the repo title and 201 stars, with no account of the concrete
+    cost, frequency or consequence of invisible skill invocations.
+  current_alternative: 公开材料未说明开发者目前如何审计技能调用，例如日志、埋点或手工排查，也未说明它替代了什么。
+  current_alternative_en: Public materials do not show how developers currently audit skill calls, e.g.
+    logs, instrumentation or manual tracing, nor what it replaces.
+  usage_reason: 缺少用户反馈或案例，无法说明相较旧做法减少了哪一步排查负担，因此不能判断开发者为何选择它。
+  usage_reason_en: Without user feedback or cases, there is no basis to show which debugging step it removes
+    versus the old approach or why developers would choose it.

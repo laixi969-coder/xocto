@@ -1,0 +1,84 @@
+- id: req-initial-blink-2026-09-22
+  project_slug: blink
+  level: initial
+  reviewed_at: '2026-09-22T00:50:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是在代码库中定位实现的需求，但公开材料未说明替代了哪一步旧流程，也未给出痛点或替代行为证据。
+    evidence_ids:
+    - ev-822631954078366c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 48 星、2 次 fork，无用户评价或采用讨论，无法判断是否有人真正把它放进工作流。
+    evidence_ids:
+    - ev-822631954078366c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，开源项目是否有商业路径无从判断。
+    evidence_ids:
+    - ev-822631954078366c
+  - gate: truth
+    status: insufficient
+    reason: 无法核验检索结果是否准确、是否需人工复核，也未说明安全与人工边界。
+    evidence_ids:
+    - ev-822631954078366c
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际替代的旧检索流程与可复现的检索结果示例。
+  market: ''
+  job: 软件工程师在接手陌生或大型代码库、需要定位某段逻辑的实现位置或调用关系时，处理源码与仓库文件，要完成的任务是快速找到相关代码片段。
+  job_en: A software engineer taking over an unfamiliar or large codebase, needing to locate where a piece
+    of logic is implemented or how it is called, works over source files and the repository to find the
+    relevant code snippets.
+  pain: 公开材料只说明它由 Jev 驱动做代码库搜索，未说明替代了哪一步旧流程、旧做法耗时多少，也未给出任何用户抱怨或替代行为。
+  pain_en: The public material only says it performs codebase search powered by Jev; it does not state
+    which old step it replaces, how long the old approach took, or any user complaint or workaround.
+  current_alternative: 开发者通常用编辑器内置搜索、grep、IDE 索引或已有代码搜索工具完成同类任务。
+  current_alternative_en: Developers typically use editor built-in search, grep, IDE indexing or existing
+    code-search tools for the same task.
+  usage_reason: 推断：若语义检索能减少手动构造关键词和逐个打开文件的步骤，工程师可能在大型陌生代码库中选用它；但公开材料未提供任何采用、留存或对比证据，无法确认这一因果。
+  usage_reason_en: 'Inference: if semantic retrieval cuts the steps of manually crafting keywords and
+    opening files one by one, engineers might adopt it in large unfamiliar codebases; however, no adoption,
+    retention or comparison evidence is public, so this causal link is unconfirmed.'
+- id: req-full-blink-2026-09-22
+  project_slug: blink
+  level: full
+  reviewed_at: '2026-09-22T01:24:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是在代码库中定位实现的需求，但公开材料未说明替代了哪一步旧流程，也未给出痛点或替代行为证据。
+    evidence_ids:
+    - ev-efcc291f6b7f450d
+    - ev-b51d427e6e38352e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际替代的旧检索流程与可复现的检索结果示例。
+  market: ''
+  job: 软件工程师在接手陌生或大型代码库、需要定位某段逻辑的实现位置或调用关系时，处理源码与仓库文件，要完成的任务是快速找到相关代码片段。
+  job_en: A software engineer taking over an unfamiliar or large codebase, needing to locate where a piece
+    of logic is implemented or how it is called, works over source files and the repository to find the
+    relevant code snippets.
+  pain: 公开材料只说明它由 Jev 驱动做代码库搜索，未说明替代了哪一步旧流程、旧做法耗时多少，也未给出任何用户抱怨或替代行为。
+  pain_en: The public material only says it performs codebase search powered by Jev; it does not state
+    which old step it replaces, how long the old approach took, or any user complaint or workaround.
+  current_alternative: 开发者通常用编辑器内置搜索、grep、IDE 索引或已有代码搜索工具完成同类任务。
+  current_alternative_en: Developers typically use editor built-in search, grep, IDE indexing or existing
+    code-search tools for the same task.
+  usage_reason: 推断：若语义检索能减少手动构造关键词和逐个打开文件的步骤，工程师可能在大型陌生代码库中选用它；但公开材料未提供任何采用、留存或对比证据，无法确认这一因果。
+  usage_reason_en: 'Inference: if semantic retrieval cuts the steps of manually crafting keywords and
+    opening files one by one, engineers might adopt it in large unfamiliar codebases; however, no adoption,
+    retention or comparison evidence is public, so this causal link is unconfirmed.'

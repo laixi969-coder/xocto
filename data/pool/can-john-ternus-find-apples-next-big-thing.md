@@ -24,7 +24,7 @@ summary: Today, I’m talking with Mark Gurman, who is the world’s best-source
   time by Mark. But this event was […]
 first_seen: '2026-09-21T14:00:00Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

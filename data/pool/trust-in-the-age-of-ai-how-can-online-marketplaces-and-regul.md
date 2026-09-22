@@ -22,7 +22,7 @@ summary: 'Trust in the age of AI: How can online marketplaces and regulators pro
   Livemint'
 first_seen: '2026-09-21T03:30:16Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

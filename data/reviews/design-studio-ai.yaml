@@ -306,3 +306,50 @@
     on an editable canvas removes the layer/component rebuild step and lets MCP/CLI wire the file into
     existing engineering flows; teams with an existing design system needing editable assets in volume
     would choose it in that situation. Without user feedback or cases this remains an inference.'
+- id: req-full-design-studio-ai-2026-09-22
+  project_slug: design-studio-ai
+  level: full
+  reviewed_at: '2026-09-22T01:24:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成素材不可编辑、代理与人工编辑状态分离的问题，痛点是设计师需手工重排；公开材料给出云端画布、MCP、CLI 等输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-c357c95da42753da
+    - ev-2162f8e702c3593f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 189 增至 205 属关注度证据，不能说明设计师或团队已把它放进日常工作流；缺少 issue、discussion 或客户案例佐证强场景。
+    evidence_ids:
+    - ev-2162f8e702c3593f
+    - ev-2ae2c91fb91a1a71
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且支持自带密钥，公开材料未给出定价、买方或付费路径；钱可能来自 to B 团队订阅或 to VC，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c357c95da42753da
+  - gate: truth
+    status: insufficient
+    reason: 承诺的云端编辑与代理协作能否确定性交付、人工确认边界在哪，公开材料均未说明；MCP、WebMCP 等接口的实际可用性也缺少部署文档佐证。
+    evidence_ids:
+    - ev-c357c95da42753da
+    - ev-2162f8e702c3593f
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认用户实际用它替代了哪一步设计或前端工作、是否出现重复使用与协作场景。
+  market: ''
+  job: 设计师或前端工程师在需要产出可继续修改的视觉稿、3D 或动效素材时，把设计指令交给 AI 代理，在云端画布上与人共同编辑同一份文件，最终交付可继续修改的设计文件而非一次性图片。
+  job_en: Designers or front-end engineers hand design instructions to AI agents and co-edit the same
+    file with humans on a cloud canvas, delivering editable design files rather than one-off images.
+  pain: 公开材料只列出云端编辑、3D、动效、MCP、WebMCP、CLI、BYOK 等能力，未说明替代了哪一步手工操作；可推断的痛点是 AI 生成结果通常不可编辑，设计师仍需在旧工具里手工重排，且代理与人的编辑状态分离。
+  pain_en: Public material lists capabilities such as cloud editing, 3D, motion, MCP, WebMCP, CLI and
+    BYOK but does not say which manual step is replaced; the inferable pain is that AI output is usually
+    not editable, forcing designers to rebuild it by hand, and agent and human edit states stay separate.
+  current_alternative: 设计师与前端工程师目前用现有设计工具手工排版、导出，再把 AI 生成的图片或素材重新手工重排后交给工程实现。
+  current_alternative_en: Designers and front-end engineers currently lay out and export manually in existing
+    design tools, then hand-rebuild AI-generated images or assets before handing off to engineering.
+  usage_reason: 推断：相较「先生成图片再手工重排」的旧做法，该产品让代理直接在可编辑画布上执行修改，省去重建这一步，并让代理与人在同一份文件里协作；因此已有设计系统、需要批量产出可编辑素材的团队会在这种情况下选择它。缺少用户反馈或案例，动机仍属推断。
+  usage_reason_en: 'Inference: compared with generating an image and rebuilding it by hand, the product
+    lets agents edit directly on an editable canvas, removing the rebuild step and letting agents and
+    humans work in the same file; teams with an existing design system that need editable assets in volume
+    would choose it in that situation. Without user feedback or cases, the motive remains an inference.'

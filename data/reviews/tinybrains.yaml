@@ -76,3 +76,47 @@
   usage_reason: 用户要完成的任务是：算法学习者与研究者、策略游戏爱好者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Algorithm learners and researchers, Strategy game enthusiasts Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-tinybrains-2026-09-22
+  project_slug: tinybrains
+  level: full
+  reviewed_at: '2026-09-22T01:27:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决小模型练手缺少统一对手与可比榜单的需求，但公开材料只有一句竞赛说明，无用户抱怨、案例或行为证据；不参加不会失去关键能力，属弱收益型，痛点刚性不足，价值关不成立。
+    evidence_ids:
+    - ev-fa31ff5431eb6e34
+    - ev-94a6ef454799aec2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 tinybrains.dev 官网的赛制、评测方式、奖励与报名/提交记录，确认是否存在持续参与和可核验的交付结果。
+  market: ''
+  job: 算法学习者与研究者、策略游戏爱好者在想练手小模型或验证策略时，把小型神经网络提交到统一擂台，让它们在策略游戏里互相对局比拼。
+  job_en: Algorithm learners, researchers, and strategy-game enthusiasts who want to practice small models
+    or test strategies submit small neural networks to a shared arena where they play strategy games against
+    each other.
+  pain: 公开材料只有一句竞赛说明，没有用户抱怨、案例或行为证据；从结构推理，练手小模型缺少统一对手与可比榜单，但这是弱收益型需求，不参加也不会失去关键能力，痛点刚性不足。
+  pain_en: Public materials contain only a one-line competition description with no user complaints, cases,
+    or behavioral evidence; structurally, small-model practice lacks a shared opponent and comparable
+    leaderboard, but this is a weak-benefit need and skipping it costs no critical capability, so the
+    pain is not rigid.
+  current_alternative: 公开材料未说明现有做法；结构上可推断学习者通常用本地脚本、Kaggle 类竞赛或自建对局环境练手，竞赛并非唯一或必需路径。
+  current_alternative_en: Public materials do not state the current practice; structurally, learners likely
+    use local scripts, Kaggle-style competitions, or self-built match environments, so a competition is
+    neither the only nor a necessary path.
+  usage_reason: 推断：相较自建对局环境，统一擂台省去搭建对手与评测的步骤，但公开材料未说明赛制、评测方式、奖励或交付结果，无法确认用户会因此持续参与，也无法排除只是尝鲜。
+  usage_reason_en: 'Inference: versus self-built match environments, a shared arena saves the step of
+    building opponents and evaluation, but public materials do not describe the format, scoring, rewards,
+    or outcomes, so sustained participation cannot be confirmed and one-off trial cannot be ruled out.'

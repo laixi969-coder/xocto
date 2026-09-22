@@ -1,0 +1,91 @@
+- id: req-initial-reducing-medical-claims-review-time-with-ai-on-aws-the-exl-m-2026-09-22
+  project_slug: reducing-medical-claims-review-time-with-ai-on-aws-the-exl-m
+  level: initial
+  reviewed_at: '2026-09-22T00:50:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决理赔审核员逐页读病历、手工整理审核要点的问题，单案超 100 分钟是刚性痛点，交付为可复核的审核要点。
+    evidence_ids:
+    - ev-e058b35ef223d1da
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有厂商与云平台的方案说明，未见独立客户评价或第三方采用数据。
+    evidence_ids:
+    - ev-e058b35ef223d1da
+  - gate: model
+    status: insufficient
+    reason: 买方为保险公司或理赔管理机构，但定价与计费方式未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e058b35ef223d1da
+  - gate: truth
+    status: supported
+    reason: 输出为可核对的审核要点且保留人工确认，贴近理赔审核的第一性目标，未宣称全自动定赔。
+    evidence_ids:
+    - ev-e058b35ef223d1da
+  next_validation: AWS 或 EXL 官方页面上该医疗 IDP 方案的客户案例或定价与部署文档。
+  market: ''
+  job: 保险公司的理赔审核员在收到一批病历与理赔材料时，需要逐份阅读、抽取诊断与治疗信息并形成审核结论，用于判断赔付。
+  job_en: A claims reviewer at an insurer, receiving a batch of medical records and claim documents, must
+    read each one, extract diagnosis and treatment information and form a review conclusion for the payout
+    decision.
+  pain: 病历格式杂、篇幅长，单案人工阅读与整理超过 100 分钟，审核积压且容易漏看关键字段。
+  pain_en: Medical records are heterogeneous and long; manual reading and organising takes over 100 minutes
+    per case, causing review backlogs and missed key fields.
+  current_alternative: 由审核员人工逐页阅读病历，配合通用 OCR 与关键词检索，再手工填写审核表。
+  current_alternative_en: Reviewers read records page by page, aided by generic OCR and keyword search,
+    then fill in the review form by hand.
+  usage_reason: 相较人工逐页阅读加通用 OCR，它用医疗领域模型直接完成字段抽取、摘要与按问题检索，把“先通读再找关键信息”这一步省掉，审核员只需核对输出要点；因此病历量大、审核时限紧的保险理赔团队会在积压时选择它（推断）。
+  usage_reason_en: Compared with page-by-page reading plus generic OCR, it uses domain-specific models
+    to extract fields, summarise and answer queries directly, removing the 'read everything first, then
+    hunt for key facts' step so reviewers only verify the output; claims teams with high record volume
+    and tight deadlines would choose it when backlogs build (inference).
+- id: req-full-reducing-medical-claims-review-time-with-ai-on-aws-the-exl-m-2026-09-22
+  project_slug: reducing-medical-claims-review-time-with-ai-on-aws-the-exl-m
+  level: full
+  reviewed_at: '2026-09-22T01:26:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决理赔审核员逐页读病历、手工整理审核要点的问题，单案超 100 分钟是刚性痛点，交付为可复核的审核要点；谁付钱未在公开材料中说明，属结构推理。
+    evidence_ids:
+    - ev-93744064d5271e7e
+    - ev-c339a3b260591134
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 EXL 与 AWS 的方案说明及公司背景，未见独立客户评价、第三方采用数据或持续使用证据，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-93744064d5271e7e
+    - ev-c339a3b260591134
+  - gate: model
+    status: insufficient
+    reason: 买方应为保险公司或理赔管理机构，但公开材料未披露定价、计费方式或采购记录，收入路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-c339a3b260591134
+  - gate: truth
+    status: supported
+    reason: 输出为可核对的审核要点并保留人工确认，贴近理赔审核的第一性目标，未宣称全自动定赔，安全与人工边界清晰。
+    evidence_ids:
+    - ev-93744064d5271e7e
+  next_validation: 追踪 AWS 或 EXL 官方页面上该医疗 IDP 方案的客户案例、定价或部署文档，以核验买方与持续采用。
+  market: ''
+  job: 保险公司理赔审核员在收到成堆病历与理赔材料时，需要逐份识别文档、抽取诊断与治疗字段、生成摘要并形成可复核的审核要点，用于赔付判断。
+  job_en: A claims reviewer at an insurer, facing a stack of medical records and claim documents, must
+    recognise each document, extract diagnosis and treatment fields, summarise them and produce reviewable
+    claim points for the payout decision.
+  pain: 病历格式杂、篇幅长，单案人工阅读与整理超过 100 分钟，审核积压且关键字段容易漏看；通用 OCR 与关键词检索无法直接给出结构化审核要点。
+  pain_en: Medical records are heterogeneous and long; manual reading and organising exceeds 100 minutes
+    per case, causing backlogs and missed key fields, while generic OCR and keyword search cannot directly
+    produce structured review points.
+  current_alternative: 审核员人工逐页阅读病历，配合通用 OCR 与关键词检索，再手工填写审核表。
+  current_alternative_en: Reviewers read records page by page, aided by generic OCR and keyword search,
+    then fill in the review form by hand.
+  usage_reason: 相较人工逐页阅读加通用 OCR，它用医疗领域模型直接完成字段抽取、摘要与按问题检索，省掉“先通读再找关键信息”这一步，审核员只需核对输出要点；因此病历量大、审核时限紧的保险理赔团队会在积压时选择它（推断）。
+  usage_reason_en: Compared with page-by-page reading plus generic OCR, it uses domain-specific models
+    to extract fields, summarise and answer queries directly, removing the 'read everything first, then
+    hunt for key facts' step so reviewers only verify the output; claims teams with high record volume
+    and tight deadlines would choose it when backlogs build (inference).

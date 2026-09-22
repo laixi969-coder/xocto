@@ -1052,7 +1052,7 @@ summary: '# Release Notes
   - chore: re-lock the 93 manifests with stuck Dependabot alerts ([#22921](https://github.com/run-llama/llama_index/pull/22921))'
 first_seen: '2026-09-21T16:22:27Z'
 last_seen: '2026-09-22T00:50:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

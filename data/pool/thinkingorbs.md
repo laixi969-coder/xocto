@@ -22,7 +22,7 @@ summary: Dotted, honestly-3D loading indicators for AI and agent interfaces in S
   designs, two tuned sizes.
 first_seen: '2026-09-19T06:15:54Z'
 last_seen: '2026-09-22T00:50:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

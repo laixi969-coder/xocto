@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE1BamRuMGFzUFBS
 summary: 美国银行AI交易参与度落后同侪 交易部门业绩恐遭受影响 新浪财经
 first_seen: '2026-09-21T17:55:37Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

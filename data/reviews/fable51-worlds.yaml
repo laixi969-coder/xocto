@@ -612,3 +612,47 @@
   usage_reason: 缺少文档、示例、issue 或用户反馈，无法说明产品通过哪一步具体动作减少负担，也无法判断哪类用户会在什么情况下选择它。
   usage_reason_en: With no docs, examples, issues, or user feedback, it is impossible to say which concrete
     step the product removes or which users would choose it under what circumstances.
+- id: req-full-fable51-worlds-2026-09-22
+  project_slug: fable51-worlds
+  level: full
+  reviewed_at: '2026-09-22T01:25:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者用代码创建虚拟世界，但公开材料只有仓库描述与收藏数，未说明手工搭建世界的具体痛点、频率与不采用代价，也未见用户抱怨或替代行为，需求结构无法还原。
+    evidence_ids:
+    - ev-747da6760ef210fc
+    - ev-491fee818c0c5c22
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认是否有开发者公开描述用代码生成世界替代了哪条旧流程及实际交付结果。
+  market: ''
+  job: 游戏开发者或世界构建师在需要搭建可运行虚拟世界场景时，用代码定义世界元素并生成可运行场景，替代手工在引擎里逐项摆放资产与地形。
+  job_en: Game developers or world builders who need a runnable virtual world scene define world elements
+    in code and generate a runnable scene, instead of manually placing assets and terrain in an engine.
+  pain: 公开材料只有一句仓库描述和收藏数，没有说明手工搭建世界时具体卡在哪一步、耗时多少、返工代价多大，也没有用户抱怨或 workaround 记录，痛点强度无法从现有证据还原。
+  pain_en: Public materials contain only a one-line repository description and star counts; they do not
+    show which step of manual world building hurts, how long it takes, or the cost of rework, and no user
+    complaints or workarounds are recorded, so pain intensity cannot be reconstructed from the available
+    evidence.
+  current_alternative: 公开材料未说明用户目前是用 Unity、Unreal 等引擎手工搭建，还是用其他程序化生成工具，也没有说明它实际替代了哪条旧流程。
+  current_alternative_en: Public materials do not state whether users currently build manually in engines
+    such as Unity or Unreal, or use other procedural generation tools, nor which existing workflow it
+    replaces.
+  usage_reason: 推断：若它真能用代码描述世界并直接产出可运行场景，可能省去在引擎中逐项摆放资产这一步，从而让偏好代码化、可版本管理世界定义的开发者选择它；但公开材料没有用户反馈或案例支持这一动机，属于结构推断而非事实。
+  usage_reason_en: 'Inference: if it can truly describe a world in code and directly produce a runnable
+    scene, it may remove the step of placing assets one by one in an engine, which could lead developers
+    who prefer code-based, version-controllable world definitions to choose it; however, no user feedback
+    or case study supports this motive, so it remains structural inference rather than fact.'

@@ -219,3 +219,53 @@
     recruiter-view screening and market analysis into fixed steps and writes straight into Obsidian, removing
     the organising and filing step; job seekers already tracking applications in Obsidian would pick it
     during an intensive application period, though no retention or repeat-use evidence is public.'
+- id: req-full-jobfinderos-2026-09-22
+  project_slug: jobfinderos
+  level: full
+  reviewed_at: '2026-09-22T01:25:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职中岗位信息分散、筛选与整理耗时的需求，痛点具体：不采用就要继续逐站浏览和手工摘录，且难以横向比较岗位要求。仓库说明已给出输入（岗位线索与自身条件）、动作（招聘官筛选、抓取、市场分析）与交付（写入
+      Obsidian 的清单与分析），属工作流结构推理；买方是谁尚未公开。
+    evidence_ids:
+    - ev-edfe10d6cc6846b5
+    - ev-3cef50a978215b62
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 134 升至 166 只说明开发者关注度上升，没有用户反馈、客户案例或讨论记录说明求职者是否真的把它放进求职流程并重复使用。
+    evidence_ids:
+    - ev-edfe10d6cc6846b5
+    - ev-3cef50a978215b62
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页或付费路径，钱可能来自求职者个人订阅、招聘顾问或招聘方，这是判断而非已验证事实；开源仓库本身也未显示任何收费入口。
+    evidence_ids:
+    - ev-edfe10d6cc6846b5
+  - gate: truth
+    status: insufficient
+    reason: 抓取范围、结果准确性与人工确认边界未公开，无法核对交付是否稳定发生；仓库描述只说明三个代理写入 Obsidian，未说明数据源与失败处理。
+    evidence_ids:
+    - ev-edfe10d6cc6846b5
+    - ev-ffcf4813b3c9f708
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，核对实际抓取的数据源范围、输出格式，以及是否有用户报告持续使用或付费入口。
+  market: ''
+  job: 求职者在集中投递期，面对分散在招聘网站与公司页面的岗位信息，需要按自身条件筛出匹配岗位，并把岗位要求与市场情况整理成可翻阅、可追踪的笔记清单。
+  job_en: During an intensive application period, a job seeker facing postings scattered across job boards
+    and company pages needs to filter matching roles by their own profile and organise requirements and
+    market context into a browsable, trackable note list.
+  pain: 岗位信息分散在多个站点，逐条阅读、摘录和横向比较要求耗时，容易漏掉合适岗位，也难以判断某类岗位的市场供需。
+  pain_en: Postings are scattered across many sites; reading, transcribing and comparing requirements
+    by hand is slow, suitable roles get missed, and it is hard to judge market supply and demand for a
+    given role type.
+  current_alternative: 目前多靠人工逐站浏览、复制进表格或笔记，或用招聘网站的订阅提醒被动接收岗位推送。
+  current_alternative_en: Today people mostly browse site by site, copy into spreadsheets or notes, or
+    passively receive job-board alert emails.
+  usage_reason: 推断：相较逐站浏览与手工摘录，它把抓取、按招聘官视角筛选和市场分析拆成固定代理步骤并直接写入 Obsidian，省掉手工整理与建表这一步；已在用笔记库管理求职进度的求职者，会在集中投递期选择它，但公开材料没有留存或复购证据。
+  usage_reason_en: 'Inference: compared with browsing site by site and transcribing by hand, it splits
+    crawling, recruiter-view screening and market analysis into fixed agent steps and writes straight
+    into Obsidian, removing the manual organising and table-building step; job seekers who already track
+    applications in a notes vault would choose it during an intensive application period, though no retention
+    or repeat-use evidence is public.'

@@ -1,0 +1,86 @@
+- id: req-initial-appgrowthkit-2026-09-22
+  project_slug: appgrowthkit
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决上架前截图素材重复制作的问题，痛点具体；但公开材料只有一句宣传语，无法确认AI具体执行哪一步、交付是否可核对，价值结构尚不成立。
+    evidence_ids:
+    - ev-e832af87bc15fc28
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页外无用户评价、客户案例或社区讨论，无法判断是否有真实人群在采用。
+    evidence_ids:
+    - ev-e832af87bc15fc28
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自独立开发者订阅还是发行团队采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e832af87bc15fc28
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成截图是否通过商店审核、是否需人工返工，交付确定性未明。
+    evidence_ids:
+    - ev-e832af87bc15fc28
+  next_validation: 收集该产品官方页面或文档中关于输入素材、输出截图规格与定价的公开说明，以核验其实际交付流程。
+  market: ''
+  job: 独立开发者或应用增长运营在应用上架前，处理多机型、多语言的商店截图素材，要完成一套可直接提交App Store的截图。
+  job_en: An indie developer or app growth operator, before an app release, handles store screenshot assets
+    across devices and languages to produce a set of screenshots ready to submit to the App Store.
+  pain: 截图素材需要按机型尺寸和语言逐张调整，重复劳动多，缺少设计资源的小团队容易拖延上架节奏。
+  pain_en: Screenshot assets must be adjusted one by one for device sizes and languages, creating repetitive
+    work that delays release for small teams without design resources.
+  current_alternative: 目前多由设计师用设计工具手工改图，或使用模板工具批量套版，再人工检查尺寸与文案。
+  current_alternative_en: Today this is mostly done by designers editing images manually in design tools,
+    or by batch-applying templates and then manually checking sizes and copy.
+  usage_reason: 推断：若该工具能直接接收应用界面素材并按机型与语言输出合规截图，可省去逐张改尺寸这一步，缺少设计人手的小团队在临近上架时可能选择它；但公开材料未给出输入输出细节，也无用户反馈支持这一判断。
+  usage_reason_en: 'Inference: if the tool can take app interface assets and output compliant screenshots
+    by device and language, it removes the step of resizing each image, which small teams without designers
+    might choose near release; however, public materials give no input/output details and no user feedback
+    supports this judgment.'
+- id: req-full-appgrowthkit-2026-09-22
+  project_slug: appgrowthkit
+  level: full
+  reviewed_at: '2026-09-22T01:24:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上架前多机型多语言截图素材重复制作的问题，痛点具体且刚性：截图是上架必经步骤，缺设计资源的小团队会因此拖延发布。公开材料仅一句宣传语，但已能还原旧流程（手工改图或模板套版）与交付物（可直接上传的截图），属工作流结构推理，价值结构成立。
+    evidence_ids:
+    - ev-e832af87bc15fc28
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页外无用户评价、客户案例或社区讨论，无法判断是否有真实人群在采用或持续使用。
+    evidence_ids:
+    - ev-e832af87bc15fc28
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自独立开发者订阅还是发行团队采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e832af87bc15fc28
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成截图是否通过商店审核、是否需人工返工，交付确定性未明。
+    evidence_ids:
+    - ev-e832af87bc15fc28
+  next_validation: 收集该产品官方页面或文档中关于输入素材、输出截图规格与定价的公开说明，以核验其实际交付流程。
+  market: ''
+  job: 独立开发者或应用增长运营在应用上架前，处理多机型、多语言的商店截图素材，要完成一套可直接提交 App Store 的截图。
+  job_en: An indie developer or app growth operator, before an app release, handles store screenshot assets
+    across devices and languages to produce a set of screenshots ready to submit to the App Store.
+  pain: 截图素材需要按机型尺寸和语言逐张调整，重复劳动多，缺少设计资源的小团队容易拖延上架节奏。
+  pain_en: Screenshot assets must be adjusted one by one for device sizes and languages, creating repetitive
+    work that delays release for small teams without design resources.
+  current_alternative: 目前多由设计师用设计工具手工改图，或使用模板工具批量套版，再人工检查尺寸与文案。
+  current_alternative_en: Today this is mostly done by designers editing images manually in design tools,
+    or by batch-applying templates and then manually checking sizes and copy.
+  usage_reason: 推断：若该工具能直接接收应用界面素材并按机型与语言输出合规截图，可省去逐张改尺寸这一步，缺少设计人手的小团队在临近上架时可能选择它；但公开材料未给出输入输出细节，也无用户反馈支持这一判断。
+  usage_reason_en: 'Inference: if the tool can take app interface assets and output compliant screenshots
+    by device and language, it removes the step of resizing each image, which small teams without designers
+    might choose near release; however, public materials give no input/output details and no user feedback
+    supports this judgment.'

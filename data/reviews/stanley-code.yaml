@@ -75,3 +75,45 @@
   usage_reason: 用户要完成的任务是：使用编码代理的软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: software developers using coding agents Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-stanley-code-2026-09-22
+  project_slug: stanley-code
+  level: full
+  reviewed_at: '2026-09-22T01:27:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决编码代理多步改动缺乏边界约束的问题，但公开材料只有一句功能描述，未说明不解决的具体代价、发生频率与后果，也看不出旧替代流程，需求刚性无法成立。
+    evidence_ids:
+    - ev-dc7b25527f5964be
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它约束编码代理的具体机制、接入方式，以及是否有开发者描述替代了原有提示词或人工审查流程。
+  market: ''
+  job: 使用编码代理的软件开发者，在让代理执行多步代码改动时，需要为代理定义有边界的类型安全 Jev 工作流，以约束其执行范围并拿到可预期的产出结构。
+  job_en: Software developers using coding agents who, when letting an agent perform multi-step code changes,
+    need to define bounded type-safe Jev workflows to constrain the agent's execution scope and get a
+    predictable output structure.
+  pain: 公开材料只给出“有边界的类型安全工作流”这一功能描述，未说明代理越界、类型错误或返工的具体代价、发生频率与后果，痛点强度无法从现有证据确认。
+  pain_en: Public materials only give the functional description of bounded type-safe workflows and do
+    not state the concrete cost, frequency or consequence of agent overreach, type errors or rework, so
+    pain intensity cannot be confirmed from available evidence.
+  current_alternative: 公开材料未说明开发者目前如何约束编码代理，例如靠提示词、人工审查、测试套件还是其他框架，实际替代对象不明。
+  current_alternative_en: Public materials do not show how developers currently constrain coding agents,
+    e.g. prompts, manual review, test suites or other frameworks, so the actual alternative is unclear.
+  usage_reason: 推断：若它真能把代理的多步改动约束在类型安全的边界内，开发者可能在代理频繁越界或改动不可预期时选择它；但现有公开材料未说明接入方式、产出形态与相较旧做法的具体减负环节，无法确认选择动因。
+  usage_reason_en: 'Inference: if it truly bounds an agent''s multi-step changes within type-safe limits,
+    developers might choose it when agents frequently overreach or produce unpredictable edits; but public
+    materials do not describe integration, output form or the specific step it removes versus current
+    practice, so the reason for choosing it cannot be confirmed.'

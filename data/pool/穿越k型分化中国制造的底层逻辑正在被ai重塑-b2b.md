@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KRU1QNFNFdmlH
 summary: 穿越K型分化，中国制造的底层逻辑正在被AI重塑- B2B 亿邦动力网
 first_seen: '2026-08-29T09:21:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

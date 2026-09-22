@@ -185,3 +185,52 @@
     format-alignment step, so security or DevSecOps engineers managing many heterogeneous assets and needing
     fast CVE/SBOM lists would pick it for inspection and CTF work; no user feedback or case yet confirms
     this motive.'
+- id: req-full-ai-security-tool-2026-09-22
+  project_slug: ai-security-tool
+  level: full
+  reviewed_at: '2026-09-22T01:24:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多协议资产巡检与漏洞排查中连接、扫描、清单三件事分散的问题，痛点在于异构目标与 CVE/SBOM 结果需人工汇总；公开说明已能还原输入、动作与交付，属工作流结构推理，痛点强度与不采用代价仍缺用户材料。
+    evidence_ids:
+    - ev-59aa26679f7a19a5
+    - ev-fb7ec1fde2d43395
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 64 增至 241，说明开发者关注度在上升，但收藏与排名只属关注度证据，不能证明目标用户已把它留在日常巡检流程或持续使用。
+    evidence_ids:
+    - ev-59aa26679f7a19a5
+    - ev-5e7156be7eb3f8e9
+  - gate: model
+    status: insufficient
+    reason: 项目自述为免费开源，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者捐赠或 to B 支持服务，这是判断而非已验证事实，也未显示融资依赖。
+    evidence_ids:
+    - ev-fb7ec1fde2d43395
+  - gate: truth
+    status: insufficient
+    reason: 扫描与 CVE/SBOM 结果仍需人工确认处置，但公开材料未给出误报率、模型代理权限边界与可复现的交付结果，承诺能否确定性交付尚缺证据。
+    evidence_ids:
+    - ev-311cb167cc299b03
+  next_validation: 追踪该开源仓库的 issue、discussion 与 release 说明，确认是否有安全团队公开描述部署场景、替代的旧流程与扫描结果准确性反馈。
+  market: ''
+  job: 安全工程师或 DevSecOps 工程师在做资产巡检与漏洞排查时，通过一个终端工具同时连接 SSH、SFTP、RDP、VNC、串口等异构目标，调用接入的 DeepSeek、OpenAI 等模型代理执行扫描，产出
+    CVE 与 SBOM 清单，再人工确认处置。
+  job_en: A security or DevSecOps engineer doing asset inspection and vulnerability triage connects heterogeneous
+    targets (SSH, SFTP, RDP, VNC, serial) through one terminal, runs model-backed agents (DeepSeek, OpenAI)
+    to scan, and produces CVE and SBOM inventories for human-confirmed remediation.
+  pain: 公开事实只说明它把多协议连接、CVE 与 SBOM 扫描和模型代理放进同一终端；痛点强度、发生频率与不采用的具体代价没有用户材料支撑，属于工作流结构推理而非用户口述。
+  pain_en: Public facts only show that multi-protocol connections, CVE/SBOM scanning and model agents
+    are combined in one terminal; pain intensity, frequency and the concrete cost of not adopting are
+    not backed by user material and remain workflow inference.
+  current_alternative: 旧做法通常是 SSH 客户端加独立扫描器（如 nmap、漏洞扫描器）与 SBOM 工具分头执行，再手工汇总结果；这是从产品能力反推的替代路径，公开材料未直接描述用户现有流程。
+  current_alternative_en: The old path is typically an SSH client plus separate scanners (e.g. nmap, vulnerability
+    scanners) and SBOM tooling run piecemeal, with results merged by hand; this is inferred from product
+    capability, not a publicly documented user workflow.
+  usage_reason: 推断：相较在多个终端与扫描器之间切换并手工拼接结果，它把连接、扫描与清单生成收敛到一次会话，减少切换与汇总步骤，因此需要同时巡检多台异构主机并出 CVE/SBOM 清单的工程师可能选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus switching among multiple terminals and scanners and stitching results
+    by hand, it collapses connection, scanning and inventory generation into one session, cutting switching
+    and aggregation steps, so engineers inspecting many heterogeneous hosts and needing CVE/SBOM inventories
+    may choose it; no user feedback or case yet confirms this motive.'

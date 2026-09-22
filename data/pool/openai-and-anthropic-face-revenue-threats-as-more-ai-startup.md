@@ -23,7 +23,7 @@ summary: OpenAI and Anthropic Face Revenue Threats as More AI Startups Shift to 
   Cost Pressures 富途牛牛
 first_seen: '2026-09-21T20:44:43Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

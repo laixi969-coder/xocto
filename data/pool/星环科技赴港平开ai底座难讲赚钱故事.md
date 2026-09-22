@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE5jbW5HZmc5bUtQ
 summary: 星环科技赴港平开，AI底座难讲赚钱故事 凤凰网财经
 first_seen: '2026-09-21T14:15:27Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

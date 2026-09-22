@@ -1,0 +1,87 @@
+- id: req-initial-voice-ai-simulation-startup-treble-raises-18m-to-expand-test-2026-09-22
+  project_slug: voice-ai-simulation-startup-treble-raises-18m-to-expand-test
+  level: initial
+  reviewed_at: '2026-09-22T00:50:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决语音智能体上线前的对话测试需求，但材料未说明旧流程、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-0f7825a00ff067d0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且材料没有客户采用、场景共识或用户反馈可判断。
+    evidence_ids:
+    - ev-0f7825a00ff067d0
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，材料只提到融资，未披露买方、定价或收费方式。
+    evidence_ids:
+    - ev-0f7825a00ff067d0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，材料未说明测试结果是否可复现、人工边界与安全约束。
+    evidence_ids:
+    - ev-0f7825a00ff067d0
+  next_validation: 收集 Treble 官方产品页或部署文档，确认其测试输入、输出交付物与是否公开客户案例。
+  market: ''
+  job: 语音客服或外呼团队在上线新的语音智能体之前，需要处理大量真实通话脚本与边界场景，完成一轮可复现的对话测试，以确认哪些场景会失败。
+  job_en: Before launching a new voice agent, a voice support or outbound team needs to work through large
+    volumes of real call scripts and edge cases and run a reproducible round of dialogue testing to find
+    which scenarios fail.
+  pain: 候选材料没有说明旧流程哪里难受、谁在做、花多久，也没有用户抱怨或替代行为的记录，痛点无法从公开事实还原。
+  pain_en: The candidate material does not say where the old process hurts, who does it or how long it
+    takes, and records no user complaints or workarounds, so the pain cannot be reconstructed from public
+    facts.
+  current_alternative: 公开材料未给出当前替代方式；按常理推断可能是人工拨测或脚本化回归测试，但这属于推断，不是已核实事实。
+  current_alternative_en: No current alternative is given in the public material; by inference it may
+    be manual test calling or scripted regression testing, but that is inference, not verified fact.
+  usage_reason: 无法写出使用理由：材料只给出融资与平台定位，没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此缺少判断用户为何选择它的关键一环。
+  usage_reason_en: 'No usage reason can be written: the material gives only funding and a platform positioning,
+    not which step it removes versus the old approach or which checkable result it improves, so the key
+    link for why users would choose it is missing.'
+- id: req-full-voice-ai-simulation-startup-treble-raises-18m-to-expand-test-2026-09-22
+  project_slug: voice-ai-simulation-startup-treble-raises-18m-to-expand-test
+  level: full
+  reviewed_at: '2026-09-22T01:27:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决语音智能体上线前的对话测试需求，但材料未说明旧流程、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-9d8d5c7690e80ad8
+    - ev-13eb1332b45cb98f
+    - ev-15dec1715d4f373f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Treble 官方产品页或部署文档，确认其测试输入、输出交付物与是否公开客户案例。
+  market: ''
+  job: 语音客服或外呼团队在把新的语音智能体上线前，需要处理真实通话脚本与边界场景，跑一轮可复现的对话测试，找出哪些场景会失败。
+  job_en: Before launching a new voice agent, a voice support or outbound team needs to work through real
+    call scripts and edge cases and run a reproducible round of dialogue testing to find which scenarios
+    fail.
+  pain: 候选材料只给出融资与平台定位，没有说明旧流程哪里难受、谁在做、花多久，也没有用户抱怨或替代行为记录，痛点无法从公开事实还原。
+  pain_en: The candidate material gives only funding and a platform positioning; it does not say where
+    the old process hurts, who does it or how long it takes, and records no user complaints or workarounds,
+    so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未给出当前替代方式；按常理推断可能是人工拨测或脚本化回归测试，但这属于推断，不是已核实事实。
+  current_alternative_en: No current alternative is given in the public material; by inference it may
+    be manual test calling or scripted regression testing, but that is inference, not verified fact.
+  usage_reason: 无法写出使用理由：材料只给出融资与平台定位，没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此缺少判断用户为何选择它的关键一环。
+  usage_reason_en: 'No usage reason can be written: the material gives only funding and a platform positioning,
+    not which step it removes versus the old approach or which checkable result it improves, so the key
+    link for why users would choose it is missing.'

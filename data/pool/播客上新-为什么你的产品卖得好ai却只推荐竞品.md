@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GNnhQVF9YYjlq
 summary: 播客上新 |为什么你的产品卖得好，AI却只推荐竞品？ CBNData-第一财经商业数据中心
 first_seen: '2026-09-21T09:37:02Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: ai-gateway-now-supports-typesafe-clients-and-an-http-api-for
-name: AI Gateway now supports TypeSafe clients and an HTTP API for Jev
+name: AI Gateway
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/ai-gateway-now-supports-typesafe-cli
 summary: ''
 first_seen: '2026-09-21T00:00:00Z'
 last_seen: '2026-09-22T00:50:50Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Gateway now supports TypeSafe clients and an HTTP API for Jev
+# AI Gateway
 
 _（源没给简介）_
 

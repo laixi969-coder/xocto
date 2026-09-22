@@ -190,3 +190,55 @@
     Sentinel-deployable detection content, reducing the steps of per-item reading and writing rules from
     scratch; teams already on Azure Sentinel that must maintain detection coverage are therefore more
     likely to choose it when feed volume outpaces manual triage. No user feedback or case yet co'
+- id: req-full-threatintel-aggregator-2026-09-22
+  project_slug: threatintel-aggregator
+  level: full
+  reviewed_at: '2026-09-22T01:27:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多源威胁情报零散、需人工分诊并转成检测规则的需求，痛点是格式不一与情报到规则的手工断层，不处理会导致检测覆盖滞后；公开仓库说明聚合、AI 分诊、ATT&CK 映射与 Sentinel
+      对接的输入—动作—交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+    - ev-a0a3e095911c2fa5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 升至 49，说明有开发者关注，但公开材料没有部署范围、持续使用或目标分析师采用证据；关注度不能替代持续采用，也无法证明它已进入安全团队日常工作流。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+    - ev-a0a3e095911c2fa5
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：自托管开源项目，未见定价页、付费客户或采购记录，钱可能来自企业自建部署的内部成本或后续商业支持，to B 路径存在但公开材料无法核验。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出 AI 分诊准确率、误报率或人工复核边界，检测规则能否确定性交付到 Sentinel 并生效缺少可复现证据；安全场景下误判代价高，交付确定性尚未核验。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+    - ev-71a4d2dd9bdbbe50
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认 AI 分诊准确率、人工复核边界及 Sentinel 检测规则的实际交付流程。
+  market: ''
+  job: 安全运营中心或威胁情报分析师在每日值班时，面对多个外部情报源推送的零散 IOC 与报告，需要把它们整理、去重、分诊并转成可部署的检测规则，最终接入 Azure Sentinel 等 SIEM
+    生效。
+  job_en: SOC or threat-intelligence analysts on daily shift receive scattered IOCs and reports from multiple
+    external feeds and must deduplicate, triage, and convert them into deployable detection rules that
+    land in Azure Sentinel or a similar SIEM.
+  pain: 公开材料只说明平台做聚合、AI 分诊与 ATT&CK 映射，未提供用户抱怨或案例；从工作流结构推理，痛点是多源情报格式不一、人工逐条分诊耗时，且情报到检测规则之间存在手工转换断层，不处理的后果是检测覆盖滞后或遗漏。
+  pain_en: Public materials only describe aggregation, AI triage, and ATT&CK mapping, with no user complaints
+    or cases; by workflow inference the pain is heterogeneous feed formats, slow manual triage, and a
+    manual gap between intel and detection rules, whose cost is lagging or missed detection coverage.
+  current_alternative: 公开材料未说明现有做法；结构上可推断分析师通常用电子表格、邮件订阅或 SIEM 自带情报模块手工整理，再手写 Sigma/KQL 规则，缺少统一的聚合与分诊层。
+  current_alternative_en: Public materials do not state the current practice; structurally, analysts likely
+    use spreadsheets, email subscriptions, or built-in SIEM intel modules and hand-write Sigma/KQL rules,
+    lacking a unified aggregation and triage layer.
+  usage_reason: 推断：相较手工逐源整理再手写规则，该平台把多源情报先聚合、由 AI 做初步分诊并映射到 MITRE ATT&CK，再产出可对接 Sentinel 的检测内容，减少的是逐条阅读与规则翻译这两步负担；因此已在用
+    Azure Sentinel、且情报源较多的团队更可能选择它。
+  usage_reason_en: 'Inference: versus manually consolidating each feed and hand-writing rules, the platform
+    aggregates feeds, applies AI triage, maps to MITRE ATT&CK, and emits Sentinel-ready detection content,
+    cutting the per-item reading and rule-translation steps; teams already on Azure Sentinel with many
+    feeds are the likeliest adopters.'

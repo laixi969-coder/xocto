@@ -352,3 +352,44 @@
   usage_reason_en: Only a slow star rise from 331 to 342 is observable, which is an attention signal and
     cannot explain why users choose it; without capability descriptions or usage feedback, no causal reason
     can be given.
+- id: req-full-deepseek-recipe-2026-09-22
+  project_slug: deepseek-recipe
+  level: full
+  reviewed_at: '2026-09-22T01:24:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有仓库收藏数，未说明它解决什么需求、什么痛点，也还原不出输入、动作与交付，无法判断价值结构是否成立。
+    evidence_ids:
+    - ev-1012c777706da2e1
+    - ev-5e1aec97b63eb88c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、文档、issue 与 discussion，确认它实际提供什么能力、面向谁、替代了什么旧流程。
+  market: ''
+  job: 公开材料只显示这是 DeepSeek 官方 公开代码仓库 仓库，未说明谁在什么情况下、处理什么材料、要完成什么任务，无法还原具体工作流。
+  job_en: Public materials only show this is an official DeepSeek public code repository repository; they
+    do not state who, in what situation, with what materials, completes what task, so no concrete workflow
+    can be reconstructed.
+  pain: 现有证据只有仓库收藏数变化，没有任何用户痛点、抱怨或旧流程摩擦的公开描述，无法说明不解决会有什么后果。
+  pain_en: The only evidence is repository star counts; there is no public description of user pain, complaints,
+    or friction in the old workflow, so the consequence of leaving it unsolved cannot be stated.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not state how users currently complete the related work,
+    nor what prior approach this repository replaces.
+  usage_reason: 缺少产品说明、文档、issue 或用户反馈，无法解释用户相较现有做法为什么会选择它；收藏数只反映关注度，不能作为使用理由。
+  usage_reason_en: Without product docs, issues, or user feedback, there is no explanation of why users
+    would choose it over their current approach; star counts reflect attention only and cannot serve as
+    a usage reason.

@@ -1,0 +1,85 @@
+- id: req-initial-metas-muse-is-outpacing-chatgpts-early-mobile-launch-2026-09-22
+  project_slug: metas-muse-is-outpacing-chatgpts-early-mobile-launch
+  level: initial
+  reviewed_at: '2026-09-22T00:50:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常问答与信息获取需求，痛点真实且高频，旧替代是搜索引擎与已有助手，结构上成立。
+    evidence_ids:
+    - ev-850bc3137335733c
+  - gate: consensus
+    status: insufficient
+    reason: 下载量与日活超过同期 ChatGPT 属规模证据，不能说明用户已形成持续使用习惯。
+    evidence_ids:
+    - ev-850bc3137335733c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，买方可能是 Meta 自身通过生态变现，属判断而非已验证事实。
+    evidence_ids:
+    - ev-850bc3137335733c
+  - gate: truth
+    status: insufficient
+    reason: 未说明回答的准确性边界与人工确认环节，无法核对交付确定性。
+    evidence_ids:
+    - ev-850bc3137335733c
+  next_validation: 收集 Meta 官方关于 Muse 的功能说明或定价页，确认其任务范围、收费方式与留存数据。
+  market: ''
+  job: 普通用户在美加地区通过手机打开 Muse，处理日常提问、信息查找与简单任务，要快速得到可用的回答。
+  job_en: Ordinary users in the U.S. and Canada open Muse on mobile to handle everyday questions, information
+    lookup and simple tasks, aiming to get a usable answer quickly.
+  pain: 通用问答需求真实存在，用户此前需要在多个应用间切换或自行搜索筛选信息。
+  pain_en: The need for general Q&A is real; previously users had to switch among apps or search and filter
+    information themselves.
+  current_alternative: ChatGPT 等已有通用助手，以及搜索引擎和社交平台内的搜索框。
+  current_alternative_en: Existing general assistants such as ChatGPT, plus search engines and in-app
+    search boxes on social platforms.
+  usage_reason: 推断：Muse 依托 Meta 应用内的入口，用户无需额外安装或跳转即可发起提问，减少了寻找工具这一步；但公开材料未提供留存或重复使用证据，无法确认用户是否长期留在工作流中。
+  usage_reason_en: 'Inference: Muse sits inside Meta''s app entry points, so users can ask without installing
+    or switching apps, removing the step of finding a tool; however, no retention or repeat-use evidence
+    is public, so long-term workflow adoption cannot be confirmed.'
+- id: req-full-metas-muse-is-outpacing-chatgpts-early-mobile-launch-2026-09-22
+  project_slug: metas-muse-is-outpacing-chatgpts-early-mobile-launch
+  level: full
+  reviewed_at: '2026-09-22T01:26:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有下载量与日活估算，未披露 Muse 的输入、输出交付物与人工确认环节，也无用户抱怨或 workaround，无法还原具体任务与刚性痛点，结构上更像通用助手入口的又一次拼装。
+    evidence_ids:
+    - ev-e7eec97e438f8fe5
+    - ev-d61dc1cc3a3522c1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta 官方 Muse 产品页或帮助文档，确认其任务范围、输入输出交付物与是否披露留存或重复使用数据。
+  market: ''
+  job: 美加地区的普通用户在手机上打开 Meta Muse，处理日常提问、信息查找与简单任务，希望快速得到可用回答。
+  job_en: Ordinary users in the U.S. and Canada open Meta Muse on mobile to handle everyday questions,
+    information lookup and simple tasks, aiming to get a usable answer quickly.
+  pain: 公开材料只给出下载量与日活超过 ChatGPT 同期的估算，未披露 Muse 具体接收什么输入、输出什么交付物、人工确认环节，也未提供任何用户抱怨、workaround 或客户案例，痛点无法从公开事实还原。
+  pain_en: Public material only provides estimates that downloads and DAU exceeded ChatGPT's early period;
+    it does not disclose what inputs Muse takes, what deliverables it produces, or any human confirmation
+    step, and offers no user complaints, workarounds or customer cases, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: ChatGPT、Google Gemini、Perplexity 等通用助手，以及搜索引擎和 Meta 应用内的搜索框。
+  current_alternative_en: General assistants such as ChatGPT, Google Gemini and Perplexity, plus search
+    engines and in-app search boxes within Meta apps.
+  usage_reason: 推断：Muse 依托 Meta 账号与社交应用入口，用户无需额外安装即可发起提问，减少寻找工具这一步；但公开材料未提供留存、复购或重复使用证据，无法确认用户会因这一入口优势而持续选择它。
+  usage_reason_en: 'Inference: Muse relies on Meta account and social app entry points, so users can ask
+    without installing another app, removing the step of finding a tool; however, no retention, repurchase
+    or repeat-use evidence is public, so it cannot be confirmed that users would keep choosing it for
+    this entry advantage.'

@@ -1,0 +1,88 @@
+- id: req-initial-ai-creative-insights-by-decode-2026-09-22
+  project_slug: ai-creative-insights-by-decode
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决投放前选素材的需求，痛点结构成立，但公开材料只有一句宣称，没有用户反馈或效果数据支撑。
+    evidence_ids:
+    - ev-3f841a2c6dd35c5c
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页外没有采用、评价或讨论证据，无法判断是否有人真正把它放进投放流程。
+    evidence_ids:
+    - ev-3f841a2c6dd35c5c
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费说明，买方可能是广告主或代理商，属推断而非已验证事实。
+    evidence_ids:
+    - ev-3f841a2c6dd35c5c
+  - gate: truth
+    status: insufficient
+    reason: 预测准确率、训练依据与人工复核边界均未披露，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-3f841a2c6dd35c5c
+  next_validation: 收集该产品官方页面上的定价说明与客户案例或效果数据，确认预测准确率是否可核对。
+  market: ''
+  job: 广告主或代理商的投放负责人在正式买量前，面对多条候选广告素材，需要决定先投哪一条、砍掉哪一条。
+  job_en: A media owner at an advertiser or agency, facing several candidate ad creatives before buying
+    media, needs to decide which to run first and which to cut.
+  pain: 素材选择目前多靠经验和投后数据，选错要等预算花掉才知道，返工成本高；但候选材料没有给出任何用户抱怨、案例或效果数据来证明这一痛点被真实解决。
+  pain_en: Creative selection mostly relies on experience and post-spend data, so a wrong pick is only
+    visible after budget is spent, making rework costly; however the candidate material offers no user
+    complaint, case or performance data proving this pain is actually solved.
+  current_alternative: 投放团队通常先小预算试投、看点击与转化数据再放量，或用 A/B 测试工具跑素材对比。
+  current_alternative_en: Media teams usually run small test budgets, read click and conversion data,
+    then scale, or use A/B testing tools to compare creatives.
+  usage_reason: 推断：若预测确实能在投放前给出可核对的排序，用户可省掉一轮小预算试投的等待与花费，因此预算有限、素材迭代频繁的投放团队会先试用；但公开材料只有一句宣称，缺少准确率、客户案例或重复使用证据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if the prediction really returns a checkable ranking before spend, users
+    could skip one round of small-budget testing and its waiting cost, so teams with tight budgets and
+    frequent creative iteration would try it first; but public material is a single claim with no accuracy,
+    customer case or repeat-use evidence, so this causal link cannot be confirmed.'
+- id: req-full-ai-creative-insights-by-decode-2026-09-22
+  project_slug: ai-creative-insights-by-decode
+  level: full
+  reviewed_at: '2026-09-22T01:24:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投放前选素材的需求：素材选择靠经验与投后数据，选错要等预算花掉才发现，返工成本高。产品把候选素材交给 AI 预测胜出者，在买量前给出排序，痛点刚性与交付动作在结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-3f841a2c6dd35c5c
+  - gate: consensus
+    status: insufficient
+    reason: 除 公开资料 发布页外没有采用、评价或讨论证据，无法判断是否有人真正把它放进投放流程，强场景是否成立仍缺公开支撑。
+    evidence_ids:
+    - ev-3f841a2c6dd35c5c
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费说明，买方可能是广告主或代理商，属推断而非已验证事实；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-3f841a2c6dd35c5c
+  - gate: truth
+    status: insufficient
+    reason: 预测准确率、训练依据与人工复核边界均未披露，承诺能否确定性交付无法核对，安全与人工边界也未见说明。
+    evidence_ids:
+    - ev-3f841a2c6dd35c5c
+  next_validation: 收集该产品官方页面上的定价说明与客户案例或效果数据，确认预测准确率是否可核对。
+  market: ''
+  job: 广告主或代理商的投放负责人在正式买量前，面对多条候选广告素材，需要决定先投哪一条、砍掉哪一条。
+  job_en: A media owner at an advertiser or agency, facing several candidate ad creatives before buying
+    media, needs to decide which to run first and which to cut.
+  pain: 素材选择目前多靠经验和投后数据，选错要等预算花掉才知道，返工成本高；候选材料没有给出用户抱怨、案例或效果数据来证明这一痛点被真实解决。
+  pain_en: Creative selection mostly relies on experience and post-spend data, so a wrong pick is only
+    visible after budget is spent, making rework costly; however the candidate material offers no user
+    complaint, case or performance data proving this pain is actually solved.
+  current_alternative: 投放团队通常先小预算试投、看点击与转化数据再放量，或用 A/B 测试工具跑素材对比。
+  current_alternative_en: Media teams usually run small test budgets, read click and conversion data,
+    then scale, or use A/B testing tools to compare creatives.
+  usage_reason: 推断：若预测确实能在投放前给出可核对的排序，用户可省掉一轮小预算试投的等待与花费，因此预算有限、素材迭代频繁的投放团队会先试用；但公开材料只有一句宣称，缺少准确率、客户案例或重复使用证据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if the prediction really returns a checkable ranking before spend, users
+    could skip one round of small-budget testing and its waiting cost, so teams with tight budgets and
+    frequent creative iteration would try it first; but public material is a single claim with no accuracy,
+    customer case or repeat-use evidence, so this causal link cannot be confirmed.'

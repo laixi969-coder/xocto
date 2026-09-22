@@ -1,0 +1,83 @@
+- id: req-initial-lossless-memory-2026-09-22
+  project_slug: lossless-memory
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 AI 记忆被摘要压缩后丢细节的问题，但公开材料没有说明原来谁受影响、后果是什么，需求与痛点还原不出来。
+    evidence_ids:
+    - ev-626d7451afbac7df
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量中等，但没有采用、付费或重复使用的公开证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-626d7451afbac7df
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、客户案例或采购信息，买方与付费路径完全未知。
+    evidence_ids:
+    - ev-626d7451afbac7df
+  - gate: truth
+    status: insufficient
+    reason: 无法核对原样保留是否真的改善后续回答的可追溯性，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-626d7451afbac7df
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它接入哪些助手、检索方式以及用户报告的实际使用结果。
+  market: ''
+  job: 知识工作者在长期与 AI 对话、积累资料时，需要把历史内容留存下来，以便之后继续调用。
+  job_en: A knowledge worker in long-running AI conversations needs to retain past material so it can
+    be called on later.
+  pain: 公开材料只说明它不做摘要，没有说明用户此前因摘要丢失了什么、造成了什么后果，也没有用户抱怨或替代行为的记录，痛点无法还原。
+  pain_en: The public material only says it does not summarize; it does not say what users previously
+    lost to summarization or what consequences followed, and there is no record of complaints or workarounds,
+    so the pain cannot be reconstructed.
+  current_alternative: 公开材料未提供，无法确认用户此前是用助手自带记忆、笔记软件还是手工复制保存。
+  current_alternative_en: Not provided in the public material; it is unclear whether users previously
+    relied on built-in assistant memory, note-taking apps or manual copying.
+  usage_reason: 缺少可核验的旧做法与用户反馈，无法说明它相较旧方式减少了哪一步负担，因此不能判断哪类用户会在什么情况下选择它；这是事实不足，不是结论。
+  usage_reason_en: With no verifiable prior practice or user feedback, it is impossible to say which step
+    of burden it removes versus the old way, and therefore which users would choose it and when; this
+    is a lack of facts, not a conclusion.
+- id: req-full-lossless-memory-2026-09-22
+  project_slug: lossless-memory
+  level: full
+  reviewed_at: '2026-09-22T01:26:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 记忆被摘要压缩后丢细节的问题，但公开材料没有说明原来谁受影响、后果是什么，需求与痛点还原不出来，价值关不成立。
+    evidence_ids:
+    - ev-626d7451afbac7df
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认它接入哪些助手、检索方式以及用户报告的实际使用结果。
+  market: ''
+  job: 知识工作者在长期与 AI 对话、积累资料时，把历史内容交给该记忆层原样保存，以便之后继续调用而不被摘要压缩丢失细节。
+  job_en: A knowledge worker in long-running AI conversations hands past material to the memory layer
+    to be stored verbatim, so it can be called on later without detail lost to summarization.
+  pain: 公开材料只说明它不做摘要，没有说明用户此前因摘要丢失了什么、造成什么后果，也没有用户抱怨或替代行为记录，痛点无法还原。
+  pain_en: The public material only says it does not summarize; it does not say what users previously
+    lost to summarization or what consequences followed, and there is no record of complaints or workarounds,
+    so the pain cannot be reconstructed.
+  current_alternative: 公开材料未提供，无法确认用户此前是用助手自带记忆、笔记软件还是手工复制保存。
+  current_alternative_en: Not provided in the public material; it is unclear whether users previously
+    relied on built-in assistant memory, note-taking apps or manual copying.
+  usage_reason: 缺少可核验的旧做法与用户反馈，无法说明它相较旧方式减少了哪一步负担，因此不能判断哪类用户会在什么情况下选择它；这是事实不足，不是结论。
+  usage_reason_en: With no verifiable prior practice or user feedback, it is impossible to say which step
+    of burden it removes versus the old way, and therefore which users would choose it and when; this
+    is a lack of facts, not a conclusion.

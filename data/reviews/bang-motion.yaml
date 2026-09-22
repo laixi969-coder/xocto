@@ -442,3 +442,53 @@
     removing the step of layer-by-layer authoring and video export in professional software; designers
     or producers with a script who want a playable motion page quickly would choose it for opener/promo
     deadlines. This is structural inference from product capability and task, not confirmed by user feed'
+- id: req-full-bang-motion-2026-09-22
+  project_slug: bang-motion
+  level: full
+  reviewed_at: '2026-09-22T01:24:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把已有脚本转成动态图形页面的需求，痛点在于手工搭时间轴、调关键帧这一步重复耗时；公开说明明确产出会动的动态图形而非幻灯片，交付物是单个 index.html，结构上可确定。这是工作流结构推理，尚无用户痛点或采用证据。
+    evidence_ids:
+    - ev-9ad54116b01402bc
+    - ev-c7b2c9e39a099a83
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 368 增至 434，说明社区关注度在上升，但收藏与排名只属规模或关注度证据，不能证明目标用户持续使用或已把它留在工作流里；缺少 issue、discussion 或用户评价说明谁在什么场景反复使用。
+    evidence_ids:
+    - ev-9ad54116b01402bc
+    - ev-9f9119d6de87b07a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 设计师订阅、to B 团队采购还是仅靠开源关注；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-9ad54116b01402bc
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺单个 index.html 输出，但未提供可复现的交付样例、渲染质量或人工边界说明，无法核验动效是否稳定达到可用水平；这是交付确定性缺口，不否定需求结构。
+    evidence_ids:
+    - ev-c7b2c9e39a099a83
+  next_validation: 追踪 bang-motion 仓库的 issue、discussion 与 README 示例，确认是否有用户公开报告在具体片头或讲解场景中反复使用并替代了 AE 手工流程。
+  market: ''
+  job: 动态设计师或短视频/宣传片制作者在已有文案或脚本、需要产出片头、宣传片、bumper 或 kinetic typography 时，把内容交给该 agent skill，在 Claude Code、Codex、Gemini
+    CLI 或 Cursor 中生成一个可在浏览器播放的 index.html 动态图形页面。
+  job_en: A motion designer or short-video/promo producer who already has copy or a script hands it to
+    this agent skill inside Claude Code, Codex, Gemini CLI, or Cursor to produce an opener, promo, bumper,
+    or kinetic-typography piece as a single browser-playable index.html.
+  pain: 公开材料只说明它产出的是会动的动态图形而非幻灯片式静态页，未提供用户抱怨、返工或时间成本的直接证据；从工作流看，痛点在于把脚本转成动效通常要在 After Effects 等工具里手工搭时间轴、调关键帧，这一步是重复且耗时的。
+  pain_en: Public materials only state that it outputs motion graphics rather than slide-like static pages,
+    with no direct user complaints, rework, or time-cost evidence; structurally, the pain is that turning
+    a script into motion normally requires manually building timelines and keyframes in tools like After
+    Effects, a repetitive and time-consuming step.
+  current_alternative: 旧做法是用 After Effects、Premiere 或模板化的视频工具手工制作动效，或直接用静态幻灯片式页面代替；公开材料未说明用户具体如何绕过这一步。
+  current_alternative_en: The old approach is hand-building motion in After Effects, Premiere, or template
+    video tools, or substituting static slide-like pages; public materials do not show exactly how users
+    work around this today.
+  usage_reason: 推断：相较手工在 AE 里搭时间轴，它把已有脚本直接转成单个 index.html，省去逐帧调关键帧和导出视频的步骤，因此已有脚本、想快速拿到可播放动效页面的设计师或制作人员会在需要快速出片头或讲解动效时选择它；这是基于产品能力与任务的结构推理，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus hand-building timelines in AE, it turns an existing script directly
+    into a single index.html, skipping frame-by-frame keyframing and video export, so designers or producers
+    with a script who want a playable motion page quickly would choose it for fast openers or explainer
+    motion; this is structural reasoning from product capability and task, not yet confirmed by user feedback.'

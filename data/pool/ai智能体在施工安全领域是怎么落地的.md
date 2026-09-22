@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iUzRwSF9DcmJf
 summary: AI智能体在施工安全领域是怎么落地的？ 电子工程专辑
 first_seen: '2026-09-21T09:43:33Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

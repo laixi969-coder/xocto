@@ -170,3 +170,50 @@
     chains and a tool catalog into one MCP server that agents call in structured steps, cutting the burden
     of maintaining orchestration scripts and remembering escalation paths; testers already using agents
     who do not want to build their own orchestration would pick it for authorized engagements.'
+- id: req-full-blitzstrike-2026-09-22
+  project_slug: blitzstrike
+  level: full
+  reviewed_at: '2026-09-22T01:24:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决渗透测试流程碎片化、升级链靠个人经验维护、结果难复现的痛点；不采用则漏测与重复劳动持续存在。公开仓库说明其输入（授权目标）、动作（侦察、攻击面测绘、source-to-sink、实弹验证）与交付（测试过程与验证结果）闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 634 缓慢升至 642，说明开发者持续关注，但这是关注度而非持续采用；缺少 issue、discussion 或客户案例说明谁在真实授权测试中把它留在工作流里。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+    - ev-0ce41b66968c5aca
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；可能来自安全团队自建、商业授权或 to VC，但均属判断而非已验证事实，无法确认可重复交付的收费路径。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺按结构化方法论推进升级链并做实弹验证，但公开材料未说明人工复核边界、误报处理与授权范围控制；缺少可复现的部署文档或实测记录来确认交付确定性。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  next_validation: 追踪该仓库的 issue、discussion 与 README 部署文档，确认是否有安全团队公开描述在授权测试中实际使用、替代了哪些旧工具链。
+  market: ''
+  job: 渗透测试工程师在拿到授权目标后，需要把侦察、攻击面测绘、source-to-sink 分析与实弹验证串成一条可复现的测试流程，并把过程与验证结果交付给委托方。
+  job_en: A penetration tester, given an authorized target, must run reconnaissance, attack-surface mapping,
+    source-to-sink analysis and live validation as one reproducible testing flow, then deliver the process
+    and validated findings to the client.
+  pain: 渗透测试的工具链高度碎片化：侦察、扫描、利用、验证各用不同工具，手工在工具间搬运目标与结果、维护升级链，容易漏测、难复现，且报告要重新整理。
+  pain_en: 'The pentest toolchain is fragmented: recon, scanning, exploitation and validation each use
+    separate tools, so operators hand-carry targets and results between them and maintain escalation chains
+    manually, which causes missed coverage, poor reproducibility and extra report assembly.'
+  current_alternative: 当前替代方式是工程师手工组合 nmap、Burp、Metasploit 等工具，或依赖商业扫描器与自建脚本，流程与升级链靠个人经验维护。
+  current_alternative_en: Today testers manually combine tools such as nmap, Burp and Metasploit, or rely
+    on commercial scanners and homegrown scripts, maintaining the flow and escalation chains through personal
+    experience.
+  usage_reason: 推断：相较手工在多个工具间搬运，它把 130 个工具与 57 条升级链收进一个 MCP 服务，由智能体按结构化方法论调用，减少手工切换与结果搬运这一步，并让侦察到验证的链路可复现；因此需要把渗透测试流程标准化、可复现的安全团队会在授权测试场景选择它。
+  usage_reason_en: 'Inference: instead of hand-carrying work between many tools, it puts a 130-tool catalog
+    and 57 escalation chains behind one MCP server that an agent drives through a structured methodology,
+    removing the manual switching and result-shuttling step and making the recon-to-validation chain reproducible;
+    teams that need a standardized, repeatable pentest flow would choose it for authorized engagements.'

@@ -184,3 +184,56 @@
     collation and retelling between localization and ticket creation; this is an inference from product
     capability and task structure, and operations teams short on on-call staff but needing traceable approval
     would choose it.
+- id: req-full-aegisops-2026-09-22
+  project_slug: aegisops
+  level: full
+  reviewed_at: '2026-09-22T01:23:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决运维排障定位慢、结论无证据链的痛点，旧做法是人工翻日志再手工建单，不采用则交接与审批缺依据；产品以自动巡检、Agent 排查、证据工单与审批处置形成输入到交付闭环，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-89f8ce057b884433
+    - ev-3cd18dd357829f64
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 105 增至 239 只说明开发者关注度上升，属规模与关注度证据；没有企业部署、团队采用或重复使用的公开记录，无法证明已进入运维工作流。
+    evidence_ids:
+    - ev-89f8ce057b884433
+    - ev-27a208e942f6d413
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，钱可能来自企业 IT 运维预算或开源支持服务，这是判断而非已验证事实；也无采购或付费记录可核。
+    evidence_ids:
+    - ev-89f8ce057b884433
+    - ev-686cb531cf5b358d
+  - gate: truth
+    status: insufficient
+    reason: 仓库称附可复现实测记录，但缺少生产环境接入范围、误判率与人工审批边界的公开说明，承诺能否在真实系统上确定性交付仍无法核对。
+    evidence_ids:
+    - ev-3cd18dd357829f64
+    - ev-8cbb454ca23303e1
+  next_validation: 追踪该仓库的部署文档与 issue/discussion，确认是否有企业实际接入系统并留下处置结果记录。
+  market: ''
+  job: 企业运维工程师或 SRE 在夜间告警或例行巡检时，面对服务器与业务系统的运行数据、日志和巡检结果，要定位故障原因、形成带证据的排查结论并开出可审批的处置工单。
+  job_en: An enterprise operations engineer or SRE, during night alerts or routine inspections, works
+    through server and business-system runtime data, logs and inspection results to locate the fault cause,
+    produce an evidence-backed diagnosis and open an approvable remediation ticket.
+  pain: 公开材料显示其定位为自动巡检、Agent 故障排查、证据工单与审批处置，说明要解决的是人工翻日志、跨系统比对导致定位慢、结论难留痕、交接与审批缺证据链的问题；这是从产品能力与运维工作流推出的结构判断，尚无用户抱怨或案例直接佐证。
+  pain_en: The public description (automated inspection, agent fault diagnosis, evidence tickets, approval
+    handling) indicates the pain is slow localization from manually reading logs and cross-checking systems,
+    plus conclusions that are hard to trace and handovers/approvals lacking an evidence chain; this is
+    a structural inference from product capability and ops workflow, not yet backed by user complaints
+    or cases.
+  current_alternative: 旧做法是人工查日志、依赖监控告警与个人经验判断，再在工单系统里手工补写处置记录并走审批。
+  current_alternative_en: The old practice is manually reading logs, relying on monitoring alerts and
+    personal experience, then hand-writing remediation records into a ticketing system and routing them
+    for approval.
+  usage_reason: 相较人工翻日志再手工建单，它把运行数据与日志交给 Agent 生成带证据的排查结论和工单，减少从定位到建单之间的手工整理与转述，并让审批环节直接看到证据；推断缺少值守人力、又需要留痕审批的运维团队会在告警高峰选择它。
+  usage_reason_en: Compared with manually reading logs and hand-creating tickets, it feeds runtime data
+    and logs to an agent that produces evidence-backed findings and tickets, cutting the manual collation
+    and retelling between localization and ticket creation and giving approvers the evidence directly;
+    inference is that ops teams short on on-call staff but needing traceable approval would choose it
+    during alert peaks.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxOYll1UWNJZ1NN
 summary: 'AI Influencers for Hire | #1 Content Creator Scott Steinberg futuristsspeakers.com'
 first_seen: '2026-09-21T10:00:59Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

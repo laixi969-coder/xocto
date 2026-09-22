@@ -24,7 +24,7 @@ summary: Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for 
   vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead […]
 first_seen: '2026-09-21T16:00:10Z'
 last_seen: '2026-09-22T00:50:50Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

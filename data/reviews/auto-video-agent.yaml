@@ -90,3 +90,51 @@
     writing, image generation and assembly into one repeatable run, cutting the burden of moving assets
     between steps and re-describing scenes; directors or operators who need steady batch output would
     try it. This is an inference from product capability, not user feedback.
+- id: req-full-auto-video-agent-2026-09-22
+  project_slug: auto-video-agent
+  level: full
+  reviewed_at: '2026-09-22T01:24:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量短视频从分镜到成片的重复劳动，痛点在于分镜撰写、逐张出图、剪辑拼接三个割裂环节的人力消耗，旧做法是手工出图加剪辑拼接或按条外包，结构上成立；这是工作流推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-48c97cb8b680175f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库收藏数从220增至222，属于关注度信号，没有客户案例、团队采用或重复使用证据说明它已进入稳定工作流。
+    evidence_ids:
+    - ev-48c97cb8b680175f
+    - ev-9b733a1ab2bbf8df
+    - ev-21fd5fc3548fea01
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或收费方式，买方可能是内容团队自建或服务商打包交付，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-48c97cb8b680175f
+  - gate: truth
+    status: insufficient
+    reason: 成片质量、人工确认边界和是否贴近真实投放目标均无公开材料，交付确定性尚未核验。
+    evidence_ids:
+    - ev-48c97cb8b680175f
+  next_validation: 收集该仓库的 issue、discussion 或 README 示例输出，核验从分镜到成片的实际交付质量与人工介入环节。
+  market: ''
+  job: 短视频编导或内容运营在需要为账号或客户批量产出插画风格短视频时，把选题交给这条开源流水线，处理分镜脚本与画面素材，要完成从分镜到成片草稿的制作。
+  job_en: A short-form video director or content operator producing illustrated short videos in batches
+    for an account or client feeds topics into this open-source pipeline, working from storyboard scripts
+    and visual assets to finish a draft from storyboard to finished clip.
+  pain: 手工流程中分镜撰写、逐张出图、剪辑拼接是三个割裂环节，重复劳动密集，批量出片时人力跟不上更新节奏；这是从流水线结构推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: In the manual process, writing storyboards, generating each image and editing them together
+    are three disconnected steps with heavy repetition, so human effort cannot keep up with the posting
+    cadence at scale; this pain is inferred from the pipeline structure, not from user complaints or cases.
+  current_alternative: 目前多由编导手写分镜后逐张用生图工具出图，再导入剪辑软件拼接，或外包给剪辑团队按条计费。
+  current_alternative_en: Today a director usually writes the storyboard by hand, generates images one
+    by one in an image tool, then imports them into editing software, or outsources to an editing team
+    paid per clip.
+  usage_reason: 相较手工逐张出图再拼接，它把分镜提示词、生图和拼接串成一次可重复执行的流程，减少的是环节之间反复搬运素材和重复描述画面的负担，因此需要按套稳定出片的编导或运营会尝试它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with generating images one by one and stitching them by hand, it chains prompt
+    writing, image generation and assembly into one repeatable run, cutting the burden of moving assets
+    between steps and re-describing scenes; directors or operators who need steady batch output would
+    try it. This is an inference from product capability, not user feedback.

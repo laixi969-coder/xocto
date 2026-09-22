@@ -484,3 +484,52 @@
     and re-prompting. Developers learning a new language/framework or reviewing code who want understanding
     rather than a copy-paste answer would choose it; stars rising 447→544 shows attention, not sustained
     use.'
+- id: req-full-manware-s-ai-learning-toolkit-2026-09-22
+  project_slug: manware-s-ai-learning-toolkit
+  level: full
+  reviewed_at: '2026-09-22T01:26:11Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者学新代码库或做审查时只拿到代码、拿不到解释的痛点，通用编码代理默认直接给答案，理解成本被推迟到下次踩坑；仓库说明明确把代理定位为教学者而非代码输出机，输入代码或问题、交付解释与教学反馈的闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-20876c1d660a65c5
+    - ev-3294bbbd5313bde2
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从486升至576、复刻41，说明英文开发者社区持续关注并把它加入工具链；但这是关注度与采用信号，尚无评价或案例说明它被长期留在学习工作流中，故共识成立但强度有限。
+    evidence_ids:
+    - ev-20876c1d660a65c5
+    - ev-2d8fe904d8800e2f
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费客户或采购记录，谁付钱（个人开发者、团队还是企业培训预算）无法核验；这是判断而非已验证事实，开源工具也可能长期无直接收入路径。
+    evidence_ids:
+    - ev-20876c1d660a65c5
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明只给出定位，没有部署文档、可复现实测或issue讨论说明解释质量、幻觉控制与人工边界，交付能否稳定发生尚缺公开证据；教学类输出若出错反而误导学习者，风险未被材料覆盖。
+    evidence_ids:
+    - ev-20876c1d660a65c5
+    - ev-4d3688eb8c8cf9ec
+  next_validation: 追踪该仓库的 README/部署文档与 issue、discussion，确认是否有可复现的安装运行说明及用户对解释质量的实际反馈。
+  market: ''
+  job: 开发者在自学新框架、接手陌生代码库或做代码审查时，把一段代码或一个技术问题交给AI，要求它讲解原理、指出问题并给出教学式反馈，而不是直接生成可粘贴的代码。
+  job_en: Developers learning a new framework, taking over an unfamiliar codebase, or reviewing code hand
+    a snippet or technical question to an AI and ask it to explain the reasoning, flag issues, and give
+    teaching-style feedback rather than paste-ready code.
+  pain: 通用编码代理默认直接输出代码，学习者拿到答案却仍不理解为什么这样写，遇到同类问题仍要重新求助；在代码审查中，直接给补丁也跳过了对设计取舍和隐患的说明，理解成本被推迟到下一次踩坑。
+  pain_en: General coding agents default to emitting code, so learners get an answer without understanding
+    why it works and must ask again on the next similar problem; in review, a patch also skips the reasoning
+    about trade-offs and risks, deferring the comprehension cost to the next failure.
+  current_alternative: 现有做法是直接问通用编码助手（如 Copilot、ChatGPT）拿代码，或自己读文档、搜索 Stack Overflow、请同事口头讲解；这些方式要么跳过解释，要么解释零散、不针对当前代码。
+  current_alternative_en: Today developers ask general coding assistants such as Copilot or ChatGPT for
+    code, read docs, search Stack Overflow, or ask a colleague to explain; these either skip explanation
+    or give scattered explanation not tied to the code at hand.
+  usage_reason: 推断：相较直接拿代码的旧做法，该工具把代理的输出约束为解释与教学反馈，省去用户自己追问“为什么”和二次拆解代码的步骤，因此正在学习新代码库或需要理解而非复制代码的开发者会在自学和审查场景选择它。
+  usage_reason_en: 'Inference: versus taking code directly, the toolkit constrains the agent''s output
+    to explanation and teaching feedback, removing the step of re-prompting ''why'' and re-parsing the
+    code, so developers learning a codebase or needing understanding rather than a copy would pick it
+    in self-study and review.'

@@ -1,0 +1,92 @@
+- id: req-initial-jevmail-2026-09-22
+  project_slug: jevmail
+  level: initial
+  reviewed_at: '2026-09-22T00:50:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决收件箱里待回复邮件被淹没、逐封判断耗时的问题，旧做法是手动过滤或凭记忆翻找，不处理的后果是漏回重要邮件；结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-71dd3abea1aed299
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标等关注度指标，没有用户评价、客户案例或持续使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-71dd3abea1aed299
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费记录，按千封邮件约3美分只是运行成本，谁付钱、按什么收费尚不清楚，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-71dd3abea1aed299
+  - gate: truth
+    status: supported
+    reason: 只读、本地运行、不代发邮件，贴近分诊这一第一性目标，人工仍掌握回复动作，交付边界清楚。
+    evidence_ids:
+    - ev-71dd3abea1aed299
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有用户报告在真实收件箱中长期使用并反馈分类准确率。
+  market: ''
+  job: 个人邮箱使用者或行政人员在每天处理 Gmail 收件箱时，面对混在一起的待回复邮件、通知、推广和垃圾邮件，需要先判断哪些必须回、哪些可以忽略，再决定处理顺序。
+  job_en: Individual email users or admin staff working through a Gmail inbox each day face a mix of messages
+    needing replies, notifications, promotions and spam, and must first judge which require a reply and
+    which can be ignored before deciding the order of work.
+  pain: 收件箱里真正需要回复的邮件被通知和推广淹没，逐封打开判断耗时，漏掉一封待回复邮件的代价可能是一次客户或同事关系的损失。
+  pain_en: Messages that truly need a reply are buried under notifications and promotions; opening each
+    one to judge takes time, and missing a single reply-worthy message can cost a client or colleague
+    relationship.
+  current_alternative: 现在多数人靠 Gmail 自带标签、手动建过滤规则，或干脆全部已读后凭记忆翻找，也有人用通用助手逐封总结，但不会给出“要不要回”的动作分类。
+  current_alternative_en: Most people rely on Gmail's built-in labels, hand-built filters, or marking
+    everything read and searching from memory; some use a general assistant to summarise messages one
+    by one, but it does not produce a reply-or-not action label.
+  usage_reason: 相较手动建过滤规则或逐封打开判断，它一次性把整箱邮件按动作标签归类，用户直接进入待回复那一类，省掉逐封判断这一步；推断，因为公开材料只说明分类能力与成本，没有用户留存或复购证据。
+  usage_reason_en: Compared with hand-built filters or opening each message to judge, it labels the whole
+    inbox by action in one pass so the user goes straight to the Needs reply group, removing the per-message
+    judgement step; this is inference, since public material only shows the classification capability
+    and cost, with no retention or repeat-use evidence.
+- id: req-full-jevmail-2026-09-22
+  project_slug: jevmail
+  level: full
+  reviewed_at: '2026-09-22T01:25:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决收件箱里待回复邮件被淹没、逐封判断耗时的问题，旧做法是手动过滤或凭记忆翻找，不处理的后果是漏回重要邮件；结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-71dd3abea1aed299
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标等关注度指标，没有用户评价、客户案例或持续使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-71dd3abea1aed299
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费记录，按千封邮件约3美分只是运行成本，谁付钱、按什么收费尚不清楚，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-71dd3abea1aed299
+  - gate: truth
+    status: supported
+    reason: 只读、本地运行、不代发邮件，贴近分诊这一第一性目标，人工仍掌握回复动作，交付边界清楚。
+    evidence_ids:
+    - ev-71dd3abea1aed299
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有用户报告在真实收件箱中长期使用并反馈分类准确率。
+  market: ''
+  job: 个人邮箱使用者或行政人员在每天处理 Gmail 收件箱时，面对混在一起的待回复邮件、通知、推广和垃圾邮件，需要先判断哪些必须回、哪些可以忽略，再决定处理顺序。
+  job_en: Individual email users or admin staff working through a Gmail inbox each day face a mix of messages
+    needing replies, notifications, promotions and spam, and must first judge which require a reply and
+    which can be ignored before deciding the order of work.
+  pain: 收件箱里真正需要回复的邮件被通知和推广淹没，逐封打开判断耗时，漏掉一封待回复邮件的代价可能是一次客户或同事关系的损失。
+  pain_en: Messages that truly need a reply are buried under notifications and promotions; opening each
+    one to judge takes time, and missing a single reply-worthy message can cost a client or colleague
+    relationship.
+  current_alternative: 现在多数人靠 Gmail 自带标签、手动建过滤规则，或干脆全部已读后凭记忆翻找，也有人用通用助手逐封总结，但不会给出“要不要回”的动作分类。
+  current_alternative_en: Most people rely on Gmail's built-in labels, hand-built filters, or marking
+    everything read and searching from memory; some use a general assistant to summarise messages one
+    by one, but it does not produce a reply-or-not action label.
+  usage_reason: 相较手动建过滤规则或逐封打开判断，它一次性把整箱邮件按动作标签归类，用户直接进入待回复那一类，省掉逐封判断这一步；推断，因为公开材料只说明分类能力与成本，没有用户留存或复购证据。
+  usage_reason_en: Compared with hand-built filters or opening each message to judge, it labels the whole
+    inbox by action in one pass so the user goes straight to the Needs reply group, removing the per-message
+    judgement step; this is inference, since public material only shows the classification capability
+    and cost, with no retention or repeat-use evidence.

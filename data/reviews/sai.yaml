@@ -1,0 +1,82 @@
+- id: req-initial-sai-2026-09-22
+  project_slug: sai
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连解决什么需求、什么痛点都写不出来，只有一句定位描述，价值关不成立。
+    evidence_ids:
+    - ev-afa55cee95b18c93
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或讨论证据。
+    evidence_ids:
+    - ev-afa55cee95b18c93
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无材料。
+    evidence_ids:
+    - ev-afa55cee95b18c93
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从判断。
+    evidence_ids:
+    - ev-afa55cee95b18c93
+  next_validation: 收集Sai官方产品页或文档，确认它接收什么输入、执行什么任务、交付什么结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务。
+  job_en: Public material does not say who uses it, in what situation, with what materials, to complete
+    what task.
+  pain: 材料未写出任何具体痛点，无法判断不采用会失去什么。
+  pain_en: The material states no concrete pain, so what is lost by not adopting it cannot be judged.
+  current_alternative: 材料未说明用户现在用什么方式完成同类任务。
+  current_alternative_en: The material does not describe how users currently accomplish comparable tasks.
+  usage_reason: 推断：仅凭“自主计算机集群”无法说明它相较旧做法减少了哪一步负担，因此无法给出用户选择它的理由。
+  usage_reason_en: 'Inference: ''autonomous computer fleet'' alone does not show which step of the old
+    approach it removes, so no reason for users to choose it can be given.'
+- id: req-full-sai-2026-09-22
+  project_slug: sai
+  level: full
+  reviewed_at: '2026-09-22T01:26:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向同名无关实体：SAi 是标识打印切割软件，PaintTool SAI 是绘画软件，sai 是冲绳兵器，均非该候选产品；连它解决什么需求、什么痛点都写不出来，价值关不成立。
+    evidence_ids:
+    - ev-03bcbe1b03710287
+    - ev-650f2710f5d8a2a6
+    - ev-29dd5e26fafbdf6e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sai 官方产品页或部署文档（如 thinksai.com 之外的独立域名），确认它接收什么输入、执行什么任务、交付什么结果，以排除同名实体混淆。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用 Sai、处理什么材料、要完成什么任务；候选摘要只给出“可由用户指挥的自主计算机集群”这一句定位，无法还原具体工作节点。
+  job_en: Public material does not state who uses Sai, in what situation, with what materials, or to complete
+    what task; the candidate summary offers only the positioning line 'the autonomous computer fleet at
+    your command,' which cannot reconstruct a concrete work node.
+  pain: 材料未写出任何具体痛点，无法判断不采用会失去什么；现有证据全部指向同名但无关的实体（SAi 标识制作软件、PaintTool SAI 绘画软件、冲绳钗兵器），没有一条描述 Sai 用户遇到的困难。
+  pain_en: The material states no concrete pain, so what is lost by not adopting it cannot be judged;
+    all available evidence points to unrelated same-name entities (SAi sign-making software, PaintTool
+    SAI painting software, the Okinawan sai weapon), none describing a difficulty faced by Sai users.
+  current_alternative: 材料未说明用户现在用什么方式完成同类任务，也没有任何 workaround、抱怨或旧流程记录可作替代方式参照。
+  current_alternative_en: The material does not describe how users currently accomplish comparable tasks,
+    and there is no workaround, complaint, or legacy-process record to serve as a reference for the alternative.
+  usage_reason: 推断：仅凭“自主计算机集群”这一句定位，无法说明它相较任何旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法给出用户选择它的理由。
+  usage_reason_en: 'Inference: the single positioning line ''autonomous computer fleet'' does not show
+    which step of any old approach it removes or which checkable result it improves, so no reason for
+    users to choose it can be given.'

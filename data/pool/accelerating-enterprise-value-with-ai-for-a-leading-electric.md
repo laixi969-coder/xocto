@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRWhldExueGtL
 summary: Accelerating enterprise value with AI for a leading electrical products manufacturer kpmg.com
 first_seen: '2026-09-21T08:32:31Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

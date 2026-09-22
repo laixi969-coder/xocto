@@ -83,3 +83,53 @@
   usage_reason: 用户要完成的任务是：开发者在本地仓库中使用编程智能体改代码；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers using a coding agent on local repositories Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-zcode-2026-09-22
+  project_slug: zcode
+  level: full
+  reviewed_at: '2026-09-22T01:27:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在本地仓库用编程智能体改代码的需求，痛点是公开材料所称的 Git 历史未告知上传与厂商道歉，涉及私有代码外流这一刚性后果；旧做法是 Claude Code、Codex、Cline
+      等同类智能体。这是基于公开事实的工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-cc9391f6cad2f9e7
+    - ev-6fb4fd9d4999bd37
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示 ZCode 被列为 GLM Coding Plan 支持的多种编程智能体之一，未见目标开发者持续使用、复购或社区讨论规模的证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-6fb4fd9d4999bd37
+    - ev-6d068c818892f57b
+  - gate: model
+    status: insufficient
+    reason: GLM Coding Plan 公开标价 18 美元/月起，说明存在订阅付费路径，但 ZCode 自身是否单独收费、买方是个人开发者还是团队、单位经济如何，公开材料未说明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-6fb4fd9d4999bd37
+  - gate: truth
+    status: challenged
+    reason: 公开材料称其未告知上传 Git 历史并随后道歉，直接冲击“承诺能否确定性交付”与安全边界；产品宣称帮助完成规划、编码、评审与上线，但数据流向与留存范围未公开说明，交付确定性存疑。
+    evidence_ids:
+    - ev-cc9391f6cad2f9e7
+    - ev-9656106935c6aa52
+  next_validation: 追踪 ZCode 官方文档与隐私/数据处理说明页，以及其仓库 issue、discussion 中关于 Git 历史上传范围、数据留存与厂商道歉后整改措施的公开记录。
+  market: ''
+  job: 开发者在本地代码仓库中用 ZCode 这类编程智能体完成规划、编码、评审与上线，处理的是仓库代码、提交历史与多步骤任务，需要在不离开现有工具链的情况下把改动交付出去。
+  job_en: Developers use a coding agent like ZCode on local repositories to plan, code, review and deploy,
+    working over repository code, commit history and multi-step tasks without leaving their existing toolchain.
+  pain: 公开材料称 ZCode 在未告知的情况下上传用户 Git 历史并随后公开道歉，说明用户在本地仓库跑智能体时，仓库历史与提交信息可能外流且流向不明；对处理私有代码的团队，这是不可接受的暴露风险。
+  pain_en: Public materials state ZCode uploaded users' Git history without notice and the vendor later
+    apologized, meaning repository history and commit metadata may leak with unclear destination when
+    an agent runs on a local repo; for teams handling private code this is an unacceptable exposure risk.
+  current_alternative: 开发者此前用 Claude Code、Codex、Cline、OpenCode 等编程智能体，或直接调用 GLM 模型 API；这些替代同样读取仓库，但用户对其数据边界有既有预期。
+  current_alternative_en: Developers previously used coding agents such as Claude Code, Codex, Cline or
+    OpenCode, or called GLM model APIs directly; these alternatives also read repositories but carry established
+    expectations about data boundaries.
+  usage_reason: 推断：ZCode 把 GLM-5.3 与现有工具链结合，用 Goal 管理多步骤任务并支持微信、飞书、Telegram 远程唤起，减少在规划、编码、评审、上线之间切换工具和手工串联的步骤；但公开材料未说明它相较旧做法在数据边界上做了什么具体改进，因此选择理由目前主要来自任务闭环而非隐私修复。
+  usage_reason_en: 'Inference: ZCode combines GLM-5.3 with existing tools, manages multi-step tasks via
+    Goal and supports remote invocation through WeChat, Feishu or Telegram, cutting the steps of switching
+    tools and manually chaining plan-code-review-deploy; however public materials do not show what it
+    concretely changes about data boundaries versus the old approach, so the choice rationale currently
+    rests on task closure rather than privacy remediation.'

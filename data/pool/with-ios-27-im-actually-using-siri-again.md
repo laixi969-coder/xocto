@@ -3,12 +3,13 @@ slug: with-ios-27-im-actually-using-siri-again
 name: Siri
 builder: ''
 category: ''
-summary_zh: iOS 27 随系统更新向 iPhone 用户推送改版后的 Siri，用户在原有系统入口内直接使用，无需另行安装或付费。候选材料只说明可用性感受变化，未给出具体任务、交付物或可核对结果，具体流程与交付仍待核验。
+summary_zh: 这是苹果在 iOS 27 中对 Siri 的改版，以及围绕 Siri AI 的 2.5 亿美元和解与用户索赔安排，属于平台级助手能力与法律事项的变化，不是新的独立产品。对 AI 应用的含义是：系统级助手的能力边界被重新划定，第三方语音与助手类应用需要重新评估与系统入口的分工；这一影响为推断，材料未给出采用或成本数据。
 inspiration: ''
-summary_en: With iOS 27, Apple pushes a revamped Siri to iPhone users inside the existing system entry
-  point, with no separate install or payment. The material only describes a change in perceived usefulness
-  and gives no specific task, deliverable or checkable result, so the concrete workflow and delivery remain
-  unverified.
+summary_en: This covers Apple's Siri overhaul in iOS 27 plus a $250M settlement over Siri AI matters with
+  a user claim process; it is a platform-level assistant capability and legal change, not a new standalone
+  product. The implication for AI applications is that the boundary of the system assistant is being redrawn
+  and third-party voice and assistant apps must reassess their division of labor with the system entry
+  point; this is inference, as the material gives no adoption or cost data.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +26,7 @@ summary: Apple’s long-delayed Siri overhaul is finally here with iOS 27, and i
   assistant feels day to day.
 first_seen: '2026-09-14T17:10:30Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

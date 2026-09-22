@@ -21,7 +21,7 @@ canonical_url: https://support.apple.com/guide/mac-help/turn-restrict-access-app
 summary: Turn off and restrict access to Apple Intelligence features on Mac
 first_seen: '2026-09-21T17:30:21Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

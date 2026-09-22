@@ -77,3 +77,53 @@
   usage_reason: 用户要完成的任务是：AI 智能体开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI agent developer Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-hermes-jev-skills-2026-09-22
+  project_slug: hermes-jev-skills
+  level: full
+  reviewed_at: '2026-09-22T01:25:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长任务 agent 的上下文溢出、模型路由与工具调用需手工编排的问题，旧做法是自行编写或依赖框架自带能力，不解决的后果是长任务中断；这是从仓库说明与工作流结构作出的推理，尚无用户抱怨或失败频率的公开证据。
+    evidence_ids:
+    - ev-94124668c85ccf55
+    - ev-9090c29d0aab7fe0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 254 增至 394，说明开发者社区注意到该项目，但收藏与复刻只反映关注度，公开材料没有用户评价、issue 讨论或持续采用证据，无法证明它已进入工作流。
+    evidence_ids:
+    - ev-94124668c85ccf55
+    - ev-9090c29d0aab7fe0
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能包，公开材料未说明维护方、是否有付费版本或企业支持，钱可能来自 to C 开发者捐赠或 to B 支持服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-94124668c85ccf55
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明列出模型路由、记忆压缩、技能选择与浏览器操作等能力，但公开材料未给出部署文档、可复现测试或人工与安全边界说明，交付能否稳定发生尚不可核验。
+    evidence_ids:
+    - ev-94124668c85ccf55
+    - ev-9090c29d0aab7fe0
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认技能包的实际安装方式、支持的 agent 版本与用户报告的使用结果。
+  market: ''
+  job: 搭建 Hermes、Claude Code 或 Codex 智能体的开发者在组装长任务 agent 时，处理多轮对话与工具调用产生的上下文，需要让 agent 在长任务中持续执行而不中断。
+  job_en: Developers building Hermes, Claude Code or Codex agents assemble long-running agents, handle
+    context produced by multi-turn dialogue and tool calls, and need the agent to keep executing through
+    long tasks without breaking.
+  pain: 公开仓库说明该技能包接管模型路由、记忆与上下文压缩、技能选择以及电脑与浏览器操作，指向长任务中上下文溢出、模型选择与工具调用需要手工编排的摩擦；但公开材料未给出用户抱怨、失败频率或不采用的具体代价。
+  pain_en: The public repository states the skill pack takes over model routing, memory and context compaction,
+    skill selection, and computer/browser use, pointing to friction from context overflow, model choice
+    and manual tool orchestration in long tasks; public material gives no user complaints, failure frequency
+    or concrete cost of not adopting it.
+  current_alternative: 开发者目前自行编写路由与记忆逻辑，或直接使用各 agent 框架自带的上下文管理与工具调用能力，手工拼接。
+  current_alternative_en: Developers currently hand-write routing and memory logic, or use the context
+    management and tool-calling built into each agent framework, assembling it manually.
+  usage_reason: 推断：相较自行编写路由与压缩逻辑，该技能包把模型路由、记忆压缩、技能选择与浏览器操作封装为可引入的技能，减少开发者逐项实现与调试这几步的负担，因此正在组装长任务 agent
+    的开发者会在搭建阶段引入它；公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with hand-writing routing and compaction logic, the skill pack
+    packages model routing, memory compaction, skill selection and browser use as importable skills, cutting
+    the steps of implementing and debugging each piece, so developers assembling long-task agents would
+    adopt it at build time; public material provides no retention or repeat-use evidence.'

@@ -1,0 +1,91 @@
+- id: req-initial-how-benchling-secured-multi-tenant-ai-agents-with-amazon-bed-2026-09-22
+  project_slug: how-benchling-secured-multi-tenant-ai-agents-with-amazon-bed
+  level: initial
+  reviewed_at: '2026-09-22T00:50:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受监管行业让 AI 智能体执行代码时的数据隔离与合规问题，不解决的后果明确，结构上成立。
+    evidence_ids:
+    - ev-f0d288c55d81982b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有云厂商技术文章描述架构，缺少客户侧采用规模与持续使用证据。
+    evidence_ids:
+    - ev-f0d288c55d81982b
+  - gate: model
+    status: insufficient
+    reason: 未披露该能力的定价与买方结构，属于平台能力还是独立收费项不可知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f0d288c55d81982b
+  - gate: truth
+    status: insufficient
+    reason: 人工审核边界与执行失败的处理方式未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-f0d288c55d81982b
+  next_validation: 收集 Benchling 官方文档或定价页中关于智能体代码执行与安全隔离的说明，确认其是否作为独立收费能力提供。
+  market: ''
+  job: 生命科学研发团队在平台上运行 AI 智能体生成的科学计算代码时，需要处理多租户数据隔离与代码外泄风险，产出可信的分析结果。
+  job_en: Life sciences R&D teams running AI agent-generated scientific computing code on a platform must
+    handle multi-tenant data isolation and code exfiltration risk to produce trustworthy analysis results.
+  pain: 智能体生成的代码不可信，一旦在共享环境中执行可能造成租户数据外泄，而生命科学客户对数据合规要求高，不解决就无法上线。
+  pain_en: Agent-generated code is untrusted and could leak tenant data if executed in a shared environment,
+    while life sciences customers have strict data compliance requirements, so deployment is blocked without
+    a fix.
+  current_alternative: 研发团队自行搭建隔离环境与网络策略，或干脆不允许智能体代码在生产环境执行。
+  current_alternative_en: R&D teams build isolation environments and network policies themselves, or simply
+    disallow agent code execution in production.
+  usage_reason: 推断：相较自建隔离环境，Benchling 把代码解释器、DNS 防火墙与端点策略打包成可复用的执行链路，省去团队逐项配置网络与审计的一步，因此受监管行业的研发平台团队会在需要让智能体跑代码时选择它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with self-built isolation, Benchling packages the code interpreter,
+    DNS firewall and endpoint policies into a reusable execution path, skipping step-by-step network and
+    audit configuration, so R&D platform teams in regulated industries would choose it when agents must
+    run code; public material provides no retention or repeat-purchase evidence.'
+- id: req-full-how-benchling-secured-multi-tenant-ai-agents-with-amazon-bed-2026-09-22
+  project_slug: how-benchling-secured-multi-tenant-ai-agents-with-amazon-bed
+  level: full
+  reviewed_at: '2026-09-22T01:25:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受监管行业让 AI 智能体执行代码时的多租户隔离与数据外泄问题，不解决的后果是代码无法上线，结构上成立；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-a3d68c5b05263fc4
+    - ev-d29c8f24f4fa6d2a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有云厂商技术文章描述架构，缺少客户侧采用规模与持续使用证据，无法判断是否已进入常规工作流。
+    evidence_ids:
+    - ev-a3d68c5b05263fc4
+  - gate: model
+    status: insufficient
+    reason: 未披露该能力的定价与买方结构，属于平台能力还是独立收费项不可知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a3d68c5b05263fc4
+    - ev-3ef66cabbad2cbe1
+  - gate: truth
+    status: insufficient
+    reason: 人工审核边界与执行失败的处理方式未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-d29c8f24f4fa6d2a
+  next_validation: 收集 Benchling 官方文档或定价页中关于智能体代码执行与安全隔离的说明，确认其是否作为独立收费能力提供。
+  market: ''
+  job: 生命科学研发团队（生物信息工程师与研发平台安全工程师）在 Benchling 平台上让 AI 智能体生成并执行科学计算代码时，需要处理多租户隔离与数据外泄风险，产出可信的分析结果。
+  job_en: Life sciences R&D teams (bioinformatics engineers and platform security engineers) letting AI
+    agents generate and run scientific computing code on Benchling must handle multi-tenant isolation
+    and data exfiltration risk to produce trustworthy analysis results.
+  pain: 智能体生成的代码不可信，若在共享环境中执行可能造成租户数据外泄；生命科学客户对数据合规要求高，不解决就无法让智能体代码在生产环境上线。
+  pain_en: Agent-generated code is untrusted and could leak tenant data if executed in a shared environment;
+    life sciences customers have strict data compliance requirements, so agent code cannot go to production
+    without a fix.
+  current_alternative: 研发团队自行搭建隔离环境与网络策略，或干脆不允许智能体代码在生产环境执行。
+  current_alternative_en: R&D teams build isolation environments and network policies themselves, or simply
+    disallow agent code execution in production.
+  usage_reason: 推断：相较自建隔离环境，Benchling 把 VPC 模式代码解释器、DNS 防火墙与端点策略打包成可复用的执行链路，省去团队逐项配置网络与审计的一步，因此受监管行业的研发平台团队会在需要让智能体跑代码时选择它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with self-built isolation, Benchling packages the VPC-mode code
+    interpreter, DNS firewall and endpoint policies into a reusable execution path, skipping step-by-step
+    network and audit configuration, so R&D platform teams in regulated industries would choose it when
+    agents must run code; public material provides no retention or repeat-purchase evidence.'

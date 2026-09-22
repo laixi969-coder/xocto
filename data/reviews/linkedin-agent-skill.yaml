@@ -452,3 +452,59 @@
     directly callable Claude skills, so users avoid shuttling drafts between tools and get a checkable
     score before publishing; inferred to be chosen by personal-brand operators or agency managers who
     need steady weekly output while worrying about detectable AI fingerprints.
+- id: req-full-linkedin-agent-skill-2026-09-22
+  project_slug: linkedin-agent-skill
+  level: full
+  reviewed_at: '2026-09-22T01:26:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LinkedIn 账号持续产出帖子、评论与周计划的需求，痛点是高频重复写作与草稿 AI 腔损害个人品牌；公开事实显示技能覆盖钩子模板、评论回复、主页评分与去 AI 痕迹打分，能还原输入—生成—评分—人工确认发布的闭环，属工作流结构推理，尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-4eae48c0eda4162c
+    - ev-63f5ce4c11403e0d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 262 增至 555，说明开发者社区持续关注，但收藏与关注不等于目标运营者已把它留在日常工作流；公开材料没有用户评价、复刻后的实际使用或场景案例，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-4eae48c0eda4162c
+    - ev-9a890a539ca4279f
+    - ev-63f5ce4c11403e0d
+  - gate: model
+    status: insufficient
+    reason: 技能标注为免费，公开材料未见定价页、付费路径或买方归属；谁付钱（个人订阅、代运营团队还是企业采购）尚不可知，这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-4eae48c0eda4162c
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺生成可发布草稿并给出评分，但公开材料没有可复现的交付结果、发布后效果或人工边界说明；去 AI 痕迹打分能否稳定降低平台识别风险，缺少独立验证。
+    evidence_ids:
+    - ev-4eae48c0eda4162c
+    - ev-ae28986b9f515e07
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开描述实际部署场景、替代的旧流程与发布后结果。
+  market: ''
+  job: 做个人品牌或代运营 LinkedIn 账号的人（创始人、顾问、B2B 销售、代运营者）在需要持续产出帖子和评论时，把账号定位与素材交给这组 Claude 技能，生成帖子、评论、回复、周计划与主页评分，拿到可发布草稿和去
+    AI 痕迹评分后自行确认发布。
+  job_en: People building a personal brand or running a LinkedIn account (founders, consultants, B2B sellers,
+    ghostwriters) hand their positioning and raw material to this set of Claude skills to produce posts,
+    comments, replies, a weekly plan and a profile score, receiving publishable drafts plus an AI-fingerprint
+    score before they confirm and post.
+  pain: LinkedIn 内容运营要求高频持续输出，写帖、回评、排周计划是重复且耗时的日常负担；草稿带明显 AI 腔调会损害个人品牌可信度，而人工逐条改写成本高。公开材料只给出功能与仓库关注度，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Running a LinkedIn presence demands frequent output; drafting posts, replying to comments and
+    planning the week are repetitive, time-consuming chores, and drafts with an obvious AI voice damage
+    personal-brand credibility while manual rewriting is costly. Public material offers only features
+    and repo attention, not user complaints or frequency data, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 当前替代是人工从零写帖、凭经验套用钩子、用通用 LLM 生成后手动改写去 AI 痕迹，或外包给代运营/自由撰稿人；这些做法要么耗时，要么需要额外一轮人工润色。
+  current_alternative_en: Today users write posts from scratch, apply hook patterns by experience, generate
+    with a general LLM and manually de-AI the text, or outsource to ghostwriters; these either consume
+    time or require an extra manual polish pass.
+  usage_reason: 推断：相较通用 LLM 加人工改写，它把 21 个钩子公式、评论/回复模板、周计划与主页评分打包成可直接调用的技能，并在发布前对草稿做去 AI 痕迹打分，减少“生成后再逐句润色”这一步；因此需要稳定日更但不愿外包的独立运营者会在赶稿时选择它。仓库收藏从
+    262 增至 555 说明关注度上升，但不构成持续使用证据。
+  usage_reason_en: 'Inference: versus a general LLM plus manual rewriting, it packages 21 hook formulas,
+    comment/reply templates, a weekly plan and profile scoring into directly callable skills and scores
+    drafts for AI fingerprints before publishing, removing the ''generate then polish line by line'' step;
+    solo operators who need steady output but won''t outsource would pick it when deadlines press. Stars
+    rising from 262 to 555 shows attention, not sustained use.'

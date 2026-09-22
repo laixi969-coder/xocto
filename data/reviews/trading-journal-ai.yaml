@@ -77,3 +77,51 @@
   usage_reason: 用户要完成的任务是：个人交易者、投资复盘者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Individual traders, Investment reviewers Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-trading-journal-ai-2026-09-22
+  project_slug: trading-journal-ai
+  level: full
+  reviewed_at: '2026-09-22T01:27:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人交易者把券商 CSV 碎片成交整理成回合交易与 KPI、并生成复盘日记的需求；手工配对与凭记忆复盘易漏亏损单、重复犯错，云端上传成交记录有隐私顾虑，痛点刚性且交付物可核对。此为工作流结构推理，尚无用户评价佐证。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+    - ev-1a71f9554099f19a
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录显示收藏从 55 增至 63，说明有开发者关注；但无用户评价、issue 讨论或持续使用证据，无法判断目标交易者是否把它留在复盘工作流里，关注度不等于采用。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+    - ev-1a71f9554099f19a
+  - gate: model
+    status: insufficient
+    reason: 项目为 MIT 开源、无账号无遥测，公开材料未见定价页、付费路径或买方；谁付钱、是否靠捐赠或托管版变现均未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+  - gate: truth
+    status: insufficient
+    reason: CSV 导入与回合配对、Claude 分析能否稳定交付、以及 AI 复盘结论的准确性与人工核对边界，均缺可复现的公开文档或实测证据。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+    - ev-1a71f9554099f19a
+  next_validation: 追踪该仓库的 README/部署文档与 issue、discussion，确认 CSV 导入与回合配对的实际交付效果及是否有用户报告持续使用。
+  market: ''
+  job: 个人交易者在自己电脑上导入券商导出的 CSV 成交流水，把零散记录整理成完整回合交易与 KPI，再让 Claude 生成交易日记式复盘，最终自己核对并确认复盘结论。
+  job_en: An individual trader imports broker-exported CSV fills on their own machine, reconstructs round-trip
+    trades and KPIs, then has Claude draft a diary-style review that the trader verifies and confirms.
+  pain: 券商导出的成交流水是逐笔碎片，个人交易者难以手工配对成回合交易并统计胜率、盈亏比等指标；复盘靠手写表格或凭记忆，容易漏掉亏损单与重复犯错，且把完整交易记录交给云端工具存在隐私顾虑。
+  pain_en: Broker CSV exports are fragmented fills that are hard to pair into round trips and to aggregate
+    into win rate or payoff metrics; manual spreadsheet or memory-based review misses losing trades and
+    repeated mistakes, and uploading full trade history to a cloud tool raises privacy concerns.
+  current_alternative: 手工 Excel/Google Sheets 记账、券商自带报表、或通用云端交易日志（如 TraderVue、Edgewonk 类工具），后者需要上传成交数据并注册账号。
+  current_alternative_en: Manual Excel or Google Sheets bookkeeping, broker-native reports, or generic
+    cloud trading journals that require uploading fills and creating an account.
+  usage_reason: 推断：相较手工表格，它自动把 CSV 逐笔成交配对成回合交易并算出 KPI，省掉手工配对与公式维护这一步；相较云端日志，它在本机运行、无需账号、无遥测，因此在意成交数据隐私、又想要
+    AI 复盘草稿的个人交易者会在本地复盘时选择它。
+  usage_reason_en: 'Inference: versus manual spreadsheets it automatically pairs CSV fills into round
+    trips and computes KPIs, removing manual pairing and formula upkeep; versus cloud journals it runs
+    locally with no account and no telemetry, so privacy-conscious individual traders who still want an
+    AI review draft would pick it for local review sessions.'

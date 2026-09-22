@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/london-demo-day-2026-startups-to-watch
 summary: ''
 first_seen: '2026-09-21T05:00:55Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

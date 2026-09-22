@@ -1,6 +1,6 @@
 ---
 slug: tokenizers-v1-encode-decode-and-scaling-measured
-name: 'tokenizers v1: encode, decode and scaling, measured'
+name: tokenizers v1
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/tokenizers-v1
 summary: ''
 first_seen: '2026-09-21T00:00:00Z'
 last_seen: '2026-09-22T00:50:50Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# tokenizers v1: encode, decode and scaling, measured
+# tokenizers v1
 
 _（源没给简介）_
 

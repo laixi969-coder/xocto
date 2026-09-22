@@ -1,0 +1,88 @@
+- id: req-initial-nautilo-2026-09-22
+  project_slug: nautilo
+  level: initial
+  reviewed_at: '2026-09-22T00:50:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多人多代理围绕同一材料协作的问题，但公开材料未说明此前谁在用什么方式做、哪一步最痛，痛点与旧流程无法确认。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库约 47 个星标，属于关注度信号，不能说明团队已把它放进日常工作流。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且自托管，未见定价、付费或采购路径，钱从哪一方来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  - gate: truth
+    status: insufficient
+    reason: 未提供部署文档、权限边界或人工确认机制，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  next_validation: 收集 nautilo 官方仓库的 README、部署文档与 issue/discussion，确认它实际支持的人机协作流程、权限与交付边界。
+  market: ''
+  job: 多人团队在同一个项目里同时使用多个 AI 代理处理代码和文档时，需要把任务、产出和修改集中到一处，让每个人和每个代理都能看到同一份材料并继续推进。
+  job_en: When a multi-person team uses several AI agents on code and documents in one project, it needs
+    tasks, outputs and edits gathered in one place so every person and agent works from the same material.
+  pain: 公开材料只说明这是一个自托管协作空间，没有说明此前谁在用什么方式协作、哪一步最费时或最容易出错，因此痛点无法从现有事实确认。
+  pain_en: The public material only describes a self-hosted collaboration space; it does not say who previously
+    collaborated how, or which step was slowest or most error-prone, so the pain cannot be confirmed from
+    available facts.
+  current_alternative: 可推断的旧做法是各自在本地编辑器、聊天工具和代码仓库之间手动同步代理产出，但候选材料未提供任何用户描述或替代行为证据，此条为推断。
+  current_alternative_en: The inferable old practice is manually syncing agent output across local editors,
+    chat tools and code repositories, but the candidate provides no user account or substitute-behaviour
+    evidence; this is inference.
+  usage_reason: 相较手动在多个工具间同步，它把人和代理的任务与产出放进同一个自托管空间，理论上减少一次复制粘贴和版本对齐；但缺少用户反馈或案例，无法确认哪类用户会因此选择它，此判断为推断。
+  usage_reason_en: Compared with manually syncing across tools, it puts people's and agents' tasks and
+    outputs in one self-hosted space, in theory removing a copy-paste and version-alignment step; without
+    user feedback or cases, which users would choose it cannot be confirmed, and this is inference.
+- id: req-full-nautilo-2026-09-22
+  project_slug: nautilo
+  level: full
+  reviewed_at: '2026-09-22T01:26:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人团队与多个 AI 代理围绕同一份代码和文档协作时产出分散、版本对不齐的问题；旧做法是在编辑器、聊天工具与仓库间手动同步，不解决的后果是重复劳动与冲突。此判断为工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库约 47 个星标，属关注度信号，不能说明团队已把它放进日常工作流，也未见用户评价或案例。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且自托管，未见定价、付费或采购路径，钱可能来自企业自建运维或捐赠，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  - gate: truth
+    status: insufficient
+    reason: 未提供部署文档、权限边界或人工确认机制，承诺能否确定性交付无法核对，安全与人工边界尚不明确。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  next_validation: 收集 nautilo 官方仓库的 README、部署文档与 issue/discussion，确认它实际支持的人机协作流程、权限与交付边界。
+  market: ''
+  job: 多人团队在同一个项目里同时使用多个 AI 代理处理代码和文档时，需要把任务、产出和修改集中到一处，让每个人和每个代理都基于同一份材料继续推进。
+  job_en: When a multi-person team runs several AI agents on code and documents in one project, it needs
+    tasks, outputs and edits gathered in one place so every person and agent continues from the same material.
+  pain: 公开说明只描述这是自托管协作空间，未说明此前谁在用什么方式协作、哪一步最费时或最易出错，痛点强度属工作流结构推理而非用户口述。
+  pain_en: The public description only says it is a self-hosted collaboration space; it does not say who
+    previously collaborated how or which step was slowest or most error-prone, so pain intensity is workflow-structural
+    inference, not user testimony.
+  current_alternative: 可推断的旧做法是各自在本地编辑器、聊天工具与代码仓库之间手动同步代理产出，候选材料未提供用户描述或替代行为证据，此条为推断。
+  current_alternative_en: The inferable old practice is manually syncing agent output across local editors,
+    chat tools and code repositories; the candidate provides no user account or substitute-behaviour evidence,
+    so this is inference.
+  usage_reason: 推断：相较手动在多个工具间同步，它把人和代理的任务与产出放进同一个自托管空间，减少一次复制粘贴与版本对齐；但缺少用户反馈或案例，哪类用户会因此选择它仍属推断。
+  usage_reason_en: 'Inference: versus manually syncing across tools, it places people''s and agents''
+    tasks and outputs in one self-hosted space, removing a copy-paste and version-alignment step; without
+    user feedback or cases, which users would choose it remains inference.'

@@ -182,3 +182,49 @@
     agent and aggregates results in a local dashboard, removing the manual per-line comparison step; local-first
     means code stays on the machine, which appeals to developers wary of code leakage. Public materials
     do not confirm sustained adoption.'
+- id: req-full-jev-review-2026-09-22
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-09-22T01:25:49Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决提交前代码质量评审这一高频任务，把分阶段检查交给 agent 并汇总到本地看板；公开材料给出本地优先 MCP 插件定位，痛点与交付闭环可作结构推理成立，但检查项与误报代价未核验。
+    evidence_ids:
+    - ev-937c37972b8684a0
+    - ev-3f1a101daf3935d3
+  - gate: consensus
+    status: supported
+    reason: 两个同名仓库星标从 119/267 增至 196/485，说明英文开发者社区持续关注该评审工作流；但星标只属关注度，不能证明已进入日常工作流。
+    evidence_ids:
+    - ev-45f8f5ad2cf5261b
+    - ev-f7e68764f7a0cfb0
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、付费主体或商业路径，谁付钱仍是判断而非已验证事实；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-937c37972b8684a0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明分阶段评审的检查项、结果可复现性与人工确认边界，承诺能否确定性交付尚缺可核对证据。
+    evidence_ids:
+    - ev-3f1a101daf3935d3
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认分阶段评审的具体检查项、结果可复现性与人工确认边界。
+  market: ''
+  job: 开发者在提交代码前，把待评审的改动交给 AI 编码代理，由代理按阶段做质量检查，结果汇总到本地看板供人工确认。
+  job_en: Before committing, developers hand pending changes to an AI coding agent that runs staged quality
+    checks and surfaces results in a local dashboard for human confirmation.
+  pain: 公开材料显示它是本地优先的持续质量评审 MCP 插件，指向提交前评审这一高频环节；但具体检查项、误报代价与不采用后果未在材料中说明，痛点强度属结构推理。
+  pain_en: Public material shows a local-first MCP plugin for continuous quality review, pointing at the
+    pre-commit review step; but the concrete checks, cost of misses, and consequence of not adopting are
+    not stated, so pain strength is structural inference.
+  current_alternative: 开发者通常依赖人工 code review、CI 静态检查或直接在 IDE 里让 agent 评审，具体替代方式未在材料中说明。
+  current_alternative_en: Developers typically rely on manual code review, CI static checks, or asking
+    an agent inside the IDE; the specific alternative is not described in the material.
+  usage_reason: 推断：相较人工评审或分散的 CI 检查，它把分阶段评审交给 agent 并把结果集中到本地看板，减少逐项翻查与汇总的步骤，因此在意提交前质量且希望本地留存结果的开发者会在提交前选择它；星标增长只反映关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus manual review or scattered CI checks, it delegates staged review
+    to an agent and centralises results in a local dashboard, cutting the step of gathering and cross-checking
+    findings, so developers who care about pre-commit quality and want local results would choose it;
+    star growth only reflects attention, not sustained use.'

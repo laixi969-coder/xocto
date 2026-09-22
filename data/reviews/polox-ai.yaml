@@ -282,3 +282,51 @@
     canvas, removing the export-import and version-alignment step, so creators with frequent asset output
     and repeated fine-tuning would choose it in that situation; retention and payment evidence is currently
     absent.'
+- id: req-full-polox-ai-2026-09-22
+  project_slug: polox-ai
+  level: full
+  reviewed_at: '2026-09-22T01:26:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成与编辑分离、素材反复搬运的需求，痛点具体且旧做法可指认；作者称依据开发与设计行业朋友反馈持续更新，属公开事实，交付闭环为结构推理。
+    evidence_ids:
+    - ev-57f87a48eed37adb
+    - ev-99e8717ccbcf8e33
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 58 增至 74，属关注度信号，不能证明持续采用；无用户评价、复购或工作流留存证据。
+    evidence_ids:
+    - ev-99e8717ccbcf8e33
+    - ev-421fd6b3cd3f248a
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、收费或买方路径，谁付钱只能推断为自部署团队或后续增值服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-99e8717ccbcf8e33
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持模态、输出格式、部署方式与人工确认边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-57f87a48eed37adb
+    - ev-99e8717ccbcf8e33
+  next_validation: 追踪该仓库 README 与 issue/discussion 中关于支持模态、输出格式、部署方式及是否出现付费或托管版本的公开说明。
+  market: ''
+  job: 内容创作者或设计人员在需要产出并反复修改图片、视频等素材时，在 agent 对话里下指令生成，并在无限画布上直接查看和调整结果，最终得到可继续编辑的素材。
+  job_en: A content creator or designer producing and repeatedly revising image and video assets issues
+    generation instructions in an agent conversation and adjusts results directly on an infinite canvas,
+    ending with assets that remain editable.
+  pain: 生成工具与本地编辑器分离，素材要在多个工具间导出导入，版本容易混乱，反复微调时重复劳动多；作者称正依据开发和设计行业朋友的反馈持续更新，说明这类摩擦被实际提出过。
+  pain_en: Generation tools and local editors are separate, so assets must be exported and imported across
+    tools, versions get confused, and repeated fine-tuning multiplies rework; the author says updates
+    follow feedback from developer and design friends, indicating this friction has been raised in practice.
+  current_alternative: 在多个单点生成工具出图后，再下载到本地编辑器或设计软件里拼接修改，或使用 Lovart 这类同类产品。
+  current_alternative_en: Generating images in several single-purpose tools, then downloading them into
+    a local editor or design software to assemble and revise, or using comparable products such as Lovart.
+  usage_reason: 推断：相较在多个生成工具与本地编辑器之间搬运文件，它把生成、修改与查看收进同一段 agent 对话和同一块无限画布，省掉导出导入与版本对齐这一步，因此素材产出频繁、需要反复微调的创作者会在同一项目内选择它；目前缺少留存与付费证据。
+  usage_reason_en: 'Inference: compared with shuttling files between several generation tools and a local
+    editor, it keeps generation, revision and review in one agent conversation and one infinite canvas,
+    removing the export-import and version-alignment step, so creators with frequent output and repeated
+    fine-tuning would choose it within a project; retention and payment evidence is currently absent.'

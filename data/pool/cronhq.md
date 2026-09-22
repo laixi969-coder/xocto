@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/cronhq
 summary: Cron jobs that actually run
 first_seen: '2026-09-20T21:56:29Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

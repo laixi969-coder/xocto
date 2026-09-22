@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE83bG5mYVR3WENL
 summary: AI推理为何必须走向商品化-AI基础设施 至顶网
 first_seen: '2026-09-21T09:01:02Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,85 @@
+- id: req-initial-jevtown-2026-09-22
+  project_slug: jevtown
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决发布前无法预知读者反应的问题，但公开材料只有一句宣称，说不清模拟依据、输出形式和可核对结果，痛点是否刚性无法判断。
+    evidence_ids:
+    - ev-a8a4228cad40a426
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未过，且没有用户评价或采用证据。
+    evidence_ids:
+    - ev-a8a4228cad40a426
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未过，也没有定价或付费路径信息。
+    evidence_ids:
+    - ev-a8a4228cad40a426
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未过，合成读者反应与真实读者行为是否一致无法核对。
+    evidence_ids:
+    - ev-a8a4228cad40a426
+  next_validation: 收集该产品的官方说明或定价页，确认模拟读者的构成、输出指标以及是否给出可核对的预测结果。
+  market: ''
+  job: 内容创作者或社交媒体运营在发布一条帖子之前，需要判断这条文案会不会被目标读者接受，因此把草稿交给工具预演读者反应。
+  job_en: Before publishing a post, a content creator or social media operator needs to judge whether
+    the copy will be accepted by the target audience, so they hand the draft to a tool to rehearse reader
+    reaction.
+  pain: 发布前无法预知读者反应，只能凭经验判断，发出去效果差再删改，代价是曝光机会和账号权重。
+  pain_en: Reader reaction cannot be known before publishing, so judgement relies on experience; a poorly
+    received post must be deleted or edited afterwards, costing reach and account standing.
+  current_alternative: 现在多靠同事或小范围朋友试读、看历史数据经验判断，或直接发布后看互动数据再调整。
+  current_alternative_en: Today people rely on colleagues or a few friends reading the draft, on experience
+    from historical data, or simply publish and adjust after seeing engagement numbers.
+  usage_reason: 相较找同事试读或凭经验判断，它用合成读者批量给出反应，省掉组织真人试读这一步；但公开材料没有说明模拟依据和输出形式，无法确认结果是否可核对，因此需求强度未明。
+  usage_reason_en: Compared with asking colleagues to read or judging by experience, it gives batch reactions
+    from synthetic readers, removing the step of organising real test readers; however, the public material
+    does not explain the simulation basis or output form, so whether the result is checkable cannot be
+    confirmed and demand strength is unclear.
+- id: req-full-jevtown-2026-09-22
+  project_slug: jevtown
+  level: full
+  reviewed_at: '2026-09-22T01:25:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决发布前无法预知读者反应的问题，但公开材料只有一句宣称，说不清模拟依据、输出形式和可核对结果，痛点是否刚性无法判断。
+    evidence_ids:
+    - ev-a8a4228cad40a426
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方说明或定价页，确认模拟读者的构成、输出指标以及是否给出可核对的预测结果。
+  market: ''
+  job: 内容创作者或社交媒体运营在发布一条帖子之前，需要判断这条文案会不会被目标读者接受，因此把草稿交给工具预演读者反应。
+  job_en: Before publishing a post, a content creator or social media operator needs to judge whether
+    the copy will be accepted by the target audience, so they hand the draft to a tool to rehearse reader
+    reaction.
+  pain: 发布前无法预知读者反应，只能凭经验判断，发出去效果差再删改，代价是曝光机会和账号权重。
+  pain_en: Reader reaction cannot be known before publishing, so judgement relies on experience; a poorly
+    received post must be deleted or edited afterwards, costing reach and account standing.
+  current_alternative: 现在多靠同事或小范围朋友试读、看历史数据经验判断，或直接发布后看互动数据再调整。
+  current_alternative_en: Today people rely on colleagues or a few friends reading the draft, on experience
+    from historical data, or simply publish and adjust after seeing engagement numbers.
+  usage_reason: 相较找同事试读或凭经验判断，它用合成读者批量给出反应，省掉组织真人试读这一步；但公开材料没有说明模拟依据和输出形式，无法确认结果是否可核对，因此需求强度未明。
+  usage_reason_en: Compared with asking colleagues to read or judging by experience, it gives batch reactions
+    from synthetic readers, removing the step of organising real test readers; however, the public material
+    does not explain the simulation basis or output form, so whether the result is checkable cannot be
+    confirmed and demand strength is unclear.

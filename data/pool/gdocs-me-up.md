@@ -21,7 +21,7 @@ canonical_url: https://github.com/behdad/gdocs-me-up
 summary: a high-fidelity Google Docs exporter
 first_seen: '2026-09-21T00:46:42Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

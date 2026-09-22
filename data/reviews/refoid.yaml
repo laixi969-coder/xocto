@@ -1,0 +1,86 @@
+- id: req-initial-refoid-2026-09-22
+  project_slug: refoid
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决App Store退款申诉逐条手写回复与结果无记录的问题，痛点具体且不处理的代价可核对；买方是开发者本人，付费方尚不明确。
+    evidence_ids:
+    - ev-cb75cad5ed5bc7cc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品说明，没有开发者评价、采用量或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-cb75cad5ed5bc7cc
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，钱可能来自开发者订阅或按申诉条数计费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cb75cad5ed5bc7cc
+  - gate: truth
+    status: insufficient
+    reason: 回复是否自动提交、是否需人工确认、申诉成功率是否可核对均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-cb75cad5ed5bc7cc
+  next_validation: 收集Refoid官方定价页或应用商店后台集成说明，确认是否自动提交回复及按什么计价。
+  market: ''
+  job: 独立开发者或小型发行方在App Store后台收到退款申诉时，需要阅读申诉理由、写出回复并记录处理结果。
+  job_en: Indie developers or small publishers receiving refund disputes in App Store Connect need to
+    read the dispute reason, write a reply and log the outcome.
+  pain: 申诉零散、措辞重复，逐条手写回复并单独记账占用开发者本应用于产品的时间，漏记还会导致无法复盘申诉成败。
+  pain_en: Disputes are sporadic and repetitive; hand-writing each reply and logging it separately eats
+    product time, and missed records make it impossible to review win rates.
+  current_alternative: 开发者在后台逐条手动回复，用表格或备忘录自行记录结果，或干脆放弃申诉。
+  current_alternative_en: Developers reply manually one by one in the console, log outcomes in a spreadsheet
+    or notes, or simply give up on disputing.
+  usage_reason: 推断：相较逐条手写，Refoid把申诉材料直接转成回复草稿并自动留痕，省掉起草和记账两步，因此申诉量开始变多、又请不起专职客服的独立开发者会先试用它。
+  usage_reason_en: 'Inference: compared with writing each reply by hand, Refoid turns dispute materials
+    into draft responses and keeps an automatic record, removing the drafting and logging steps, so indie
+    developers whose dispute volume is rising but who cannot afford dedicated support staff would try
+    it first.'
+- id: req-full-refoid-2026-09-22
+  project_slug: refoid
+  level: full
+  reviewed_at: '2026-09-22T01:26:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决App Store退款申诉逐条手写回复与结果无记录的问题，痛点具体且不处理的代价可核对；买方是开发者本人，付费方尚不明确。
+    evidence_ids:
+    - ev-cb75cad5ed5bc7cc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品说明，没有开发者评价、采用量或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-cb75cad5ed5bc7cc
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，钱可能来自开发者订阅或按申诉条数计费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cb75cad5ed5bc7cc
+  - gate: truth
+    status: insufficient
+    reason: 回复是否自动提交、是否需人工确认、申诉成功率是否可核对均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-cb75cad5ed5bc7cc
+  next_validation: 收集Refoid官方定价页或应用商店后台集成说明，确认是否自动提交回复及按什么计价。
+  market: ''
+  job: 独立开发者或小型发行方在App Store Connect后台收到退款申诉时，需要阅读申诉理由、写出回复并记录每条处理结果。
+  job_en: Indie developers or small publishers receiving refund disputes in App Store Connect need to
+    read the dispute reason, write a reply and log each outcome.
+  pain: 申诉零散、措辞重复，逐条手写回复并单独记账占用开发者本应用于产品的时间，漏记还会导致无法复盘申诉成败。
+  pain_en: Disputes are sporadic and repetitive; hand-writing each reply and logging it separately eats
+    product time, and missed records make it impossible to review win rates.
+  current_alternative: 开发者在后台逐条手动回复，用表格或备忘录自行记录结果，或干脆放弃申诉。
+  current_alternative_en: Developers reply manually one by one in the console, log outcomes in a spreadsheet
+    or notes, or simply give up on disputing.
+  usage_reason: 推断：相较逐条手写，Refoid把申诉材料直接转成回复草稿并自动留痕，省掉起草和记账两步，因此申诉量开始变多、又请不起专职客服的独立开发者会先试用它。
+  usage_reason_en: 'Inference: compared with writing each reply by hand, Refoid turns dispute materials
+    into draft responses and keeps an automatic record, removing the drafting and logging steps, so indie
+    developers whose dispute volume is rising but who cannot afford dedicated support staff would try
+    it first.'

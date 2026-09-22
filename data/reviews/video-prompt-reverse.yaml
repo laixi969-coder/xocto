@@ -173,3 +173,53 @@
     pass, removing frame-by-frame observation and trial-and-error, so creators already using Codex and
     needing to reproduce a style at volume might try it casually; but with only 43–46 stars and no usage
     or retention evidence, it is not shown to stay in the workflow.'
+- id: req-full-video-prompt-reverse-2026-09-22
+  project_slug: video-prompt-reverse
+  level: full
+  reviewed_at: '2026-09-22T01:27:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是创作者拿到满意AI视频却无法获得原始提示词、风格难以复现的需求，痛点是试生成成本高且复现靠猜；公开仓库说明其以视频为输入反推提示词，属工作流结构推理，尚无用户口述痛点证据。
+    evidence_ids:
+    - ev-c1abbcde5dcdb778
+    - ev-94538e421a28432e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从43升至47，说明有开发者关注，但无 issue、discussion 或用户评价显示目标创作者已把它纳入日常流程，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-c1abbcde5dcdb778
+    - ev-9ec5518144df78fd
+    - ev-94538e421a28432e
+  - gate: model
+    status: insufficient
+    reason: 这是开源 Codex skill，公开材料未见定价页、付费路径或买方描述；谁付钱尚不可知，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-c1abbcde5dcdb778
+  - gate: truth
+    status: insufficient
+    reason: 反推精度、支持视频范围与失败边界均无公开可复现证据，交付能否稳定发生尚未核验；但输入—动作—输出闭环在结构上可确定。
+    evidence_ids:
+    - ev-168f643361dbde35
+    - ev-94538e421a28432e
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认反推精度、支持视频范围及是否有创作者公开报告实际复现结果。
+  market: ''
+  job: 短视频或广告创作者在参考他人AI生成视频时，把已下载的视频素材交给 Codex 侧的该 skill，反推出可再次输入生成工具的提示词文本，用于在自己的生成流程里复现相近风格。
+  job_en: Short-video or ad creators who reference someone else's AI-generated video hand the downloaded
+    clip to this Codex skill to reverse-engineer a prompt they can re-enter into their own generation
+    tool and reproduce a similar style.
+  pain: 看到效果满意的AI视频却拿不到原始提示词，只能凭肉眼猜测镜头、风格与运动描述，反复试生成消耗额度与时间；不解决的后果是风格复现靠碰运气，参考素材无法沉淀为可复用资产。
+  pain_en: When a creator likes an AI-generated video but cannot obtain its original prompt, they can
+    only guess camera, style and motion wording by eye, burning credits and time on repeated generations;
+    without a fix, style reproduction is luck-based and reference material never becomes a reusable asset.
+  current_alternative: 现有做法是手动拆解画面、在社区提示词库或论坛里搜近似模板、逐条改写后反复试生成，或直接放弃复现改用自写提示词。
+  current_alternative_en: Today creators manually break down the frames, search prompt libraries or forums
+    for near-matching templates, rewrite them and iterate generations, or give up on reproduction and
+    write their own prompt.
+  usage_reason: 推断：相较手动猜词与反复试生成，该 skill 把视频直接作为输入，由 Codex 侧能力一次性输出结构化提示词文本，省去逐帧观察和从零措辞这一步，因此手上有参考视频、又需要批量复现风格的短视频与广告创作者会在拿到素材后先跑它。
+  usage_reason_en: 'Inference: versus guessing wording and iterating generations, the skill takes the
+    video as direct input and has Codex emit structured prompt text in one pass, removing the frame-by-frame
+    observation and from-scratch wording step, so short-video and ad creators holding reference clips
+    and needing repeatable style reproduction would run it first.'

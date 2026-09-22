@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/libingzheren/Jev-Mem
 summary: ''
 first_seen: '2026-09-21T18:16:22Z'
 last_seen: '2026-09-22T00:50:49Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

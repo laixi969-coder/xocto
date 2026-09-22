@@ -363,3 +363,44 @@
   usage_reason: 无法写出使用理由：缺少输入、动作、交付物与旧流程对比的任何公开事实，收藏数只反映关注度，不能解释用户为何选择它。
   usage_reason_en: 'No usage reason can be written: there are no public facts on inputs, actions, deliverables,
     or the old workflow, and star counts reflect attention, not why users would choose it.'
+- id: req-full-ai-video-ad-studio-2026-09-22
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-09-22T01:24:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，无法还原用户任务、痛点与不解决的后果，价值结构无法判断。
+    evidence_ids:
+    - ev-064ce8778b64953b
+    - ev-07cbd5a6f404f0a3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 AI 的输入素材、执行步骤与交付成片形式，以及是否有用户报告实际使用场景。
+  market: ''
+  job: 营销或内容人员需要为广告投放准备视频素材时，在剪辑或投放准备环节处理原始视频与广告文案，产出一条可投放的广告成片或素材文件。
+  job_en: Marketing or content staff preparing video ad creatives handle raw footage and ad copy in the
+    editing or campaign-prep stage to produce a deliverable ad video or asset file.
+  pain: 公开材料只有仓库名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，因此无法确认用户具体卡在哪一步、不解决的代价与发生频率。
+  pain_en: Public material contains only the repo name and star counts; it does not state what inputs
+    the AI takes, which step it performs, or what deliverable it produces, so the specific user bottleneck,
+    cost of inaction, and frequency cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前用剪辑软件、模板工具还是外包完成同类广告素材制作，也未说明本产品实际替代了哪一步。
+  current_alternative_en: Public material does not show whether users currently rely on editing software,
+    template tools, or outsourcing for similar ad creatives, nor which step this product actually replaces.
+  usage_reason: 缺少可引用的产品说明、文档或用户反馈，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果，因此不能推断用户为何选择它。
+  usage_reason_en: With no citable product description, documentation, or user feedback, it is impossible
+    to explain which step it removes or which verifiable outcome it improves versus the old approach,
+    so no inference about user choice can be made.

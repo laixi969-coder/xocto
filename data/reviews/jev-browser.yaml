@@ -79,3 +79,50 @@
   usage_reason: 用户要完成的任务是：自动化测试与网页数据采集工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Automation test and web data collection engineers Public materials do
     not yet explain why users choose this product over their existing approach.'
+- id: req-full-jev-browser-2026-09-22
+  project_slug: jev-browser
+  level: full
+  reviewed_at: '2026-09-22T01:25:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是浏览器自动化中步骤规划与每步判断需手写脚本、页面变动即失效的需求，痛点在于选择器与分支维护成本；公开材料仅给定位，价值结构由工作流推理成立。
+    evidence_ids:
+    - ev-df771f509f799ca3
+    - ev-36bd32e1d6d2f7ef
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 52 增至 67，说明社区注意到它，但没有 issue、discussion 或用户反馈证明目标用户会持续使用或部署。
+    evidence_ids:
+    - ev-df771f509f799ca3
+    - ev-36bd32e1d6d2f7ef
+  - gate: model
+    status: insufficient
+    reason: 作为开源库未披露定价、买方或收费方式；钱可能来自 to B 支持或托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-df771f509f799ca3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对失败恢复、人工确认边界与交付稳定性，缺少可复现的公开测试或部署文档。
+    evidence_ids:
+    - ev-36bd32e1d6d2f7ef
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 部署文档，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 自动化测试与网页数据采集工程师在需要让程序自动操作网页（填表、点击、抓取流程）时，把任务交给它：LLM 规划步骤，Jev 在每一步做类型安全决策，通过库、CLI 或 MCP 服务端输出可执行的浏览器操作。
+  job_en: 'Automation test and web data collection engineers who need programs to operate web pages (fill
+    forms, click, scrape flows) hand the task to it: an LLM plans steps, Jev makes type-safe decisions
+    at each step, and it emits executable browser actions via library, CLI, or MCP server.'
+  pain: 公开材料只给出仓库定位与收藏数，未说明旧流程中脚本因页面变动而失效、选择器维护或步骤规划的具体代价，痛点强度只能从工作流结构推断。
+  pain_en: Public material gives only the repository positioning and star count; it does not state the
+    cost of scripts breaking on page changes, selector maintenance, or step planning in the old flow,
+    so pain intensity is inferred from workflow structure only.
+  current_alternative: 工程师通常手写 Playwright/Selenium 脚本或维护选择器与步骤编排；公开材料未说明它具体替代了哪一种做法。
+  current_alternative_en: Engineers typically hand-write Playwright/Selenium scripts or maintain selectors
+    and step orchestration; public material does not say which specific practice it replaces.
+  usage_reason: 推断：若 LLM 负责规划、Jev 负责每步类型安全决策，工程师在页面结构多变、步骤难以预先写死的采集或测试流程里可以少写一段选择器与分支代码，因此可能选择它；但公开材料只有仓库收藏数，没有用户反馈或部署案例，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if the LLM plans and Jev makes type-safe decisions per step, engineers
+    in scraping or test flows with volatile page structure and hard-to-predefine steps would write one
+    less block of selector and branch code, so they might choose it; however public material only shows
+    repository stars, with no user feedback or deployment cases, so this causal link is unconfirmed.'

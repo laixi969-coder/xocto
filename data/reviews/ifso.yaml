@@ -75,3 +75,46 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：个人；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Individuals The exact adoption motive
     and repeat use are not yet verified.'
+- id: req-full-ifso-2026-09-22
+  project_slug: ifso
+  level: full
+  reviewed_at: '2026-09-22T01:25:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决个人重大人生决策的长期财务模拟需求，但公开证据全部指向肥胖与代谢外科医学组织 IFSO，与个人理财模拟器无关，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-e605e89b859519a7
+    - ev-b0ad21c6a765c3f3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Ifso 个人理财模拟器的官方产品页或应用商店条目，确认其真实存在、功能说明与定价信息。
+  market: ''
+  job: 个人在做买房、换工作、结婚等重大人生决策时，输入收入、支出、资产等参数，用 Ifso 模拟不同选择的长期财务后果，以完成方案对比。
+  job_en: Individuals facing major life decisions such as buying a home, changing jobs, or marrying input
+    income, expenses, and assets into Ifso to simulate the long-term financial consequences of each option
+    and compare them.
+  pain: 公开材料未提供任何用户痛点、抱怨或使用反馈；现有证据全部指向肥胖与代谢外科的国际医学组织 IFSO，与个人理财模拟器无关，无法确认该产品真实存在及其要缓解的决策焦虑。
+  pain_en: Public materials provide no user pain points, complaints, or feedback; all available evidence
+    points to IFSO, the international obesity and metabolic surgery federation, unrelated to a personal
+    finance simulator, so the product's existence and the decision anxiety it would relieve cannot be
+    confirmed.
+  current_alternative: 公开材料未说明用户目前如何做重大财务决策（如电子表格、理财顾问或直觉判断），也未说明 Ifso 实际替代了什么。
+  current_alternative_en: Public materials do not show how users currently make major financial decisions
+    (e.g., spreadsheets, advisors, or intuition), nor what Ifso actually replaces.
+  usage_reason: 无法判断：现有证据与个人理财模拟器无关，缺少产品页面、功能说明或用户反馈，无法解释用户为何会选择它而非旧做法。
+  usage_reason_en: 'Cannot be determined: available evidence is unrelated to a personal finance simulator,
+    and there is no product page, feature description, or user feedback to explain why anyone would choose
+    it over existing methods.'

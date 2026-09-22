@@ -84,3 +84,51 @@
     or script material to the API to generate clips and manually select the usable ones, E-commerce sellers
     turning product images and copy into draft short videos for ad placement, then editing them by hand
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-clipmivo-tools-2026-09-22
+  project_slug: clipmivo-tools
+  level: full
+  reviewed_at: '2026-09-22T01:24:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量短视频素材生产的需求：营销与电商人员上新或投放时需大量出片，人工逐条剪辑与模板工具耗时且难程序化接入，不解决则出片跟不上节奏。产品以 API、CLI、本地 MCP 交付可剪辑初稿，属工作流结构推理，公开用户痛点材料仍缺。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+    - ev-f3cbd6f071f160d0
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 104 增至 147，说明开发者社区有关注，但这是关注度而非目标用户持续采用或付费证据，尚无客户案例或使用反馈支撑强场景共识。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+    - ev-f3cbd6f071f160d0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、计费单位与买方，钱可能来自 to B 营销团队或 to C 卖家，也可能走 API 用量计费；这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+  - gate: truth
+    status: insufficient
+    reason: 生成质量、交付稳定性与人工审核边界在公开材料中未披露，无法确认承诺能否确定性交付；仓库存在只证明工具已发布，不证明产出可用。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+    - ev-f3cbd6f071f160d0
+  next_validation: 追踪 ClipmivoAI 官网定价页与 API 文档，确认计费单位、调用配额及是否公开客户案例或部署说明。
+  market: ''
+  job: 营销运营人员或电商卖家在商品上新、需要批量出片时，把商品图文或脚本素材交给 ClipmivoAI 的 REST API、CLI 或本地 MCP 服务，由模型生成视频片段，拿到可继续剪辑的初稿后人工筛选确认。
+  job_en: Marketing operators or e-commerce sellers, when launching products and needing bulk video output,
+    feed product images/copy or scripts into ClipmivoAI's REST API, CLI, or local MCP server to generate
+    video clips, then manually review the editable drafts.
+  pain: 短视频投放素材需求量大且更新频繁，人工逐条剪辑与套模板耗时，外包或模板工具又难以批量、可编程地接入既有生产流程；不解决的后果是出片速度跟不上上新与投放节奏。
+  pain_en: Short-video ad assets are needed in high volume and refresh frequently; manual editing or template
+    tools are slow and hard to wire programmatically into existing production pipelines, so output pace
+    lags product launches and ad cycles.
+  current_alternative: 人工剪辑软件逐条制作、套用模板工具，或把素材外包给剪辑团队；这些方式批量化和程序化接入能力弱。
+  current_alternative_en: Manual editing in video software, template tools, or outsourcing to editing
+    teams; these are weak at bulk and programmatic integration.
+  usage_reason: 推断：相较人工逐条剪辑或模板工具，它把生成能力做成 REST API、CLI 与本地 MCP 服务，让营销或电商团队能在自己的脚本、批处理或 Agent 流程里直接调用出片，省去逐条手工剪辑与跨工具搬运这一步，因此需要批量、可编程出片的团队会在上新或投放排期时选择它。
+  usage_reason_en: 'Inference: versus manual editing or template tools, it exposes generation as a REST
+    API, CLI, and local MCP server so marketing or e-commerce teams can call it directly inside their
+    scripts, batch jobs, or agent workflows, removing the step of hand-editing and moving assets across
+    tools; teams needing bulk, programmable output would choose it during launches or ad scheduling.'

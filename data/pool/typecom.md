@@ -40,7 +40,7 @@ canonical_url: https://producthunt.com/products/type-com
 summary: A shared workspace for Claude, Codex, and your team
 first_seen: '2026-09-09T03:54:10Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - hackernews

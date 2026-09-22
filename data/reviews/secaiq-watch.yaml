@@ -1,0 +1,86 @@
+- id: req-initial-secaiq-watch-2026-09-22
+  project_slug: secaiq-watch
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI工具在员工终端行为不透明、出事无法回溯的问题，痛点具体；买方是企业IT或安全部门，付费方尚未在材料中确认。
+    evidence_ids:
+    - ev-149734c4b3c00a29
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品说明，没有企业客户案例、评价或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-149734c4b3c00a29
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或采购方式，钱可能来自企业按终端订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-149734c4b3c00a29
+  - gate: truth
+    status: insufficient
+    reason: 采集范围、是否只读、告警与人工确认边界均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-149734c4b3c00a29
+  next_validation: 收集SecAIQ Watch官方文档或定价页，确认其采集范围、部署方式与是否提供合规报告。
+  market: ''
+  job: 企业IT或安全负责人在员工电脑安装AI工具后，需要查看这些工具在本机读取和发送了什么，以判断是否合规。
+  job_en: After AI tools are installed on employee machines, IT or security owners need to see what those
+    tools read and send locally in order to judge compliance.
+  pain: AI工具在终端的行为不透明，出问题时无法回溯，面对审计或数据外泄质疑时缺少可出示的记录。
+  pain_en: Endpoint AI behavior is opaque, cannot be traced after an incident, and leaves no record to
+    show auditors or answer data-leak concerns.
+  current_alternative: 依靠终端杀毒或EDR的通用日志，或人工抽查员工机器，缺少针对AI工具行为的专门视图。
+  current_alternative_en: Relying on generic antivirus or EDR logs, or manually spot-checking employee
+    machines, with no AI-specific behavior view.
+  usage_reason: 推断：相较通用EDR日志需要自行筛选，SecAIQ Watch直接呈现AI工具的本机行为，省掉从海量日志里辨认AI进程这一步，因此需要向审计交代终端AI使用情况的企业IT会先试用。
+  usage_reason_en: 'Inference: compared with filtering generic EDR logs by hand, SecAIQ Watch presents
+    AI tool behavior directly, removing the step of identifying AI processes inside large log volumes,
+    so IT teams that must account for endpoint AI use to auditors would try it first.'
+- id: req-full-secaiq-watch-2026-09-22
+  project_slug: secaiq-watch
+  level: full
+  reviewed_at: '2026-09-22T01:26:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI工具在员工终端行为不透明、出事无法回溯的问题，痛点具体且合规场景刚性；买方为企业IT或安全部门，付费方未在材料中确认。
+    evidence_ids:
+    - ev-149734c4b3c00a29
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品说明，没有企业客户案例、用户评价或采用数据，无法判断是否形成共识或强场景。
+    evidence_ids:
+    - ev-149734c4b3c00a29
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或采购方式，钱可能来自企业按终端订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-149734c4b3c00a29
+  - gate: truth
+    status: insufficient
+    reason: 采集范围、是否只读、告警与人工确认边界均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-149734c4b3c00a29
+  next_validation: 追踪SecAIQ Watch官网定价页或部署文档，确认其采集范围、部署方式与是否提供合规报告。
+  market: ''
+  job: 企业IT或安全负责人在员工电脑上安装或放行AI工具后，需要查看这些工具在本机读取、发送了什么，以判断是否合规并应对审计。
+  job_en: After AI tools are installed or allowed on employee machines, IT or security owners need to
+    see what those tools read and send locally in order to judge compliance and answer audits.
+  pain: AI工具在终端的行为不透明，出事后无法回溯，面对审计或数据外泄质疑时拿不出可出示的记录；公开材料只有一句产品说明，痛点强度属结构推理。
+  pain_en: Endpoint AI behavior is opaque and untraceable after an incident, leaving no record to show
+    auditors or answer data-leak concerns; the public material is a single product line, so pain intensity
+    is structural inference.
+  current_alternative: 依靠终端杀毒或EDR的通用日志，或人工抽查员工机器，缺少针对AI工具行为的专门视图。
+  current_alternative_en: Relying on generic antivirus or EDR logs, or manually spot-checking employee
+    machines, with no AI-specific behavior view.
+  usage_reason: 推断：相较通用EDR日志需自行筛选，SecAIQ Watch直接呈现AI工具的本机行为，省掉从海量日志里辨认AI进程这一步，因此需要向审计交代终端AI使用情况的企业IT会先试用；采集范围与告警方式未公开，采用动机尚无用户反馈支持。
+  usage_reason_en: 'Inference: compared with filtering generic EDR logs by hand, SecAIQ Watch presents
+    AI tool behavior directly, removing the step of identifying AI processes inside large log volumes,
+    so IT teams that must account for endpoint AI use to auditors would try it first; collection scope
+    and alerting are undisclosed, so adoption motive lacks user feedback.'

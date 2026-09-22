@@ -733,3 +733,88 @@
     step: the model only sees fakes and restoration happens locally, removing per-field manual rewriting
     and making rules inspectable; this is inference from product capability and task structure, with no
     user feedback or customer case yet.'
+- id: req-initial-cover-2026-09-22
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-22T00:50:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感材料进外部模型前的脱敏与本地还原需求，痛点是合规与数据外泄风险，旧做法是人工替换或自建脚本，结构上成立。
+    evidence_ids:
+    - ev-64b4ddcd1f552610
+  - gate: consensus
+    status: insufficient
+    reason: 只有开源仓库关注度与社区讨论，没有客户案例或行业采购证据，尚不能说明共识已经形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价与买方，to B 合规采购还是开发者自用尚不清楚，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 还原准确度、支持字段类型与安全边界均未在公开材料中说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，核对支持的模型、字段类型与还原准确度说明。
+  market: ''
+  job: 开发者在把客户名单、病历或合同等敏感材料送进外部模型前，需要先脱敏再调用，并在本地还原真实字段。
+  job_en: Developers who must de-identify client lists, medical records or contracts before sending them
+    to an external model, then restore the real fields locally.
+  pain: 直接调用外部模型会把真实身份与业务数据交给第三方，人工逐条替换既慢又容易漏，且还原时容易对不上。
+  pain_en: Calling an external model directly hands real identities and business data to a third party;
+    manual substitution is slow, error-prone and hard to reverse consistently.
+  current_alternative: 目前多靠人工把敏感字段改成占位符、或干脆不用外部模型，也有团队自建脱敏脚本。
+  current_alternative_en: Today teams either hand-edit sensitive fields into placeholders, avoid external
+    models altogether, or write their own de-identification scripts.
+  usage_reason: 相较人工替换，它把替换与还原做成一次代理调用，减少逐条改写和回填这一步负担，并让真实值留在本地；推断受合规约束、又必须用外部模型的团队会因此选择它。
+  usage_reason_en: Compared with manual substitution, it turns replacement and restoration into a single
+    proxied call, removing the step of rewriting and back-filling each field while keeping real values
+    local; teams under compliance constraints that still need external models would choose it, which is
+    an inference.
+- id: req-full-cover-2026-09-22
+  project_slug: cover
+  level: full
+  reviewed_at: '2026-09-22T01:24:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感材料进外部模型前的脱敏与本地还原需求，痛点是合规与数据外泄风险，旧做法是人工替换或自建脚本，工作流结构上成立；但公开证据未给出该产品自身的采用或客户案例。
+    evidence_ids:
+    - ev-64b4ddcd1f552610
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有泛化的市场检索与通用 AI 工具页面，没有该产品的客户案例、行业采购或社区采用证据，无法说明共识已经形成。
+    evidence_ids:
+    - ev-ef9acad27025aa4f
+    - ev-8c0b53a000286d8a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，to B 合规采购还是开发者自用尚不清楚；这是判断而非已验证事实，但不足以取消真需求判定。
+    evidence_ids:
+    - ev-6f89da9ede625782
+  - gate: truth
+    status: insufficient
+    reason: 还原准确度、支持字段类型与安全边界均未在公开材料中说明，交付确定性无法核对，需后续公开文档补足。
+    evidence_ids:
+    - ev-d1aabb29688ddecf
+  next_validation: 追踪该产品官网或仓库的 README、部署文档与 issue/discussion，核对支持的模型、字段类型与还原准确度说明。
+  market: ''
+  job: 开发者在把客户名单、病历或合同等敏感材料送进外部模型前，需要先脱敏再调用，并在本地还原真实字段，最终拿到可继续使用的模型输出。
+  job_en: Developers must de-identify client lists, medical records or contracts before sending them to
+    an external model, then restore the real fields locally so the model output remains usable.
+  pain: 直接调用外部模型会把真实身份与业务数据交给第三方，人工逐条替换既慢又容易漏，还原时还容易对不上；受合规约束的团队因此不敢用外部模型或被迫承担返工。
+  pain_en: Calling an external model directly hands real identities and business data to a third party;
+    manual field substitution is slow, leaky and hard to reverse consistently, so compliance-bound teams
+    either avoid external models or absorb rework.
+  current_alternative: 目前多靠人工把敏感字段改成占位符、干脆不用外部模型，或团队自建脱敏脚本与正则替换流程。
+  current_alternative_en: Today teams hand-edit sensitive fields into placeholders, avoid external models
+    altogether, or build their own de-identification scripts and regex pipelines.
+  usage_reason: 相较人工替换或自建脚本，它把替换与还原收进一次代理调用，省掉逐条改写和回填这一步，并让真实值留在本地；推断受合规约束又必须用外部模型的开发者会因此选择它。
+  usage_reason_en: Compared with manual substitution or homegrown scripts, it folds replacement and restoration
+    into a single proxied call, removing the per-field rewrite and back-fill step while keeping real values
+    local; developers under compliance constraints who still need external models would choose it, which
+    is an inference.

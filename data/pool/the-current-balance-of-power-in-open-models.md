@@ -21,7 +21,7 @@ canonical_url: https://interconnects.ai/p/the-current-balance-of-power-in-open
 summary: The expanded form of a testimony I prepared for Congress.
 first_seen: '2026-09-21T11:56:56Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

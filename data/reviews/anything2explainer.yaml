@@ -416,3 +416,54 @@
     and per-frame hand-drawing, so creators, educators, and marketers needing fast or batch explainer
     videos would choose it when they have a topic but no production time; public materials provide no
     user feedback confirming this motive.'
+- id: req-full-anything2explainer-2026-09-22
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-22T01:24:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把主题快速转成带旁白、字幕与章节进度条的解释视频这一任务；痛点在于动效视频通常需脚本、配音、字幕、逐帧动画多环节协作，而该技能以一次主题输入完成合成，属工作流结构推理，公开材料未记录用户抱怨。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+    - ev-b87063801af0d573
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1580 持续增至 1947，说明关注度上升，但未见 issue、discussion 或用户反馈证明目标用户持续使用或形成采用共识。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+    - ev-b87063801af0d573
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；作为开源技能，付费方可能是个人创作者或企业内容团队，属推断而非已验证事实。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、输出样例的可复现验证或人工与安全边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-f1c85eb72876a78a
+  next_validation: 追踪该仓库 examples 目录与 README 更新，确认是否公开可复现的输出样例、使用说明或用户反馈，以核验交付确定性。
+  market: ''
+  job: 内容创作者、教育者或营销人员在需要把某个主题做成带旁白与字幕的解释视频时，用 Claude Code / Codex 技能输入主题，由 Remotion 逐帧用代码绘制黑色画布动效，输出带
+    TTS 语音、字幕和章节进度条的视频。
+  job_en: Content creators, educators or marketers who need an explainer video with voiceover and subtitles
+    input a topic into a Claude Code / Codex skill, which draws every frame in code with Remotion and
+    outputs a black-canvas motion-graphics video with TTS voiceover, subtitles and a chapter progress
+    bar.
+  pain: 公开材料只说明输入主题即输出成片，未记录用户抱怨、制作耗时或外包成本等痛点事实；从任务结构看，动效解释视频通常需要脚本、配音、字幕与逐帧动画多环节协作，这是工作流推理而非用户口述。
+  pain_en: Public material only states topic-in, video-out; it records no user complaint, production time
+    or outsourcing cost. Structurally, motion-graphics explainer videos normally require scripting, voiceover,
+    subtitles and frame-by-frame animation, but this is workflow inference, not user testimony.
+  current_alternative: 公开材料未说明用户当前用什么替代，按任务结构推断可能是手工剪辑软件、模板工具或外包制作，但缺少公开事实支撑。
+  current_alternative_en: Public materials do not state the current alternative; by task structure it
+    may be manual editing software, template tools or outsourcing, but this lacks public factual support.
+  usage_reason: 推断：相较手工逐帧制作或外包，该技能把脚本、配音、字幕与动效合成压缩为一次主题输入，减少多工具切换与逐帧绘制环节，因此需要批量产出解释视频的中文或英文创作者会在赶内容排期时选择它；仓库星标从
+    1580 增至 1947 只说明关注度上升，不构成使用理由。
+  usage_reason_en: 'Inference: compared with manual frame-by-frame production or outsourcing, the skill
+    compresses scripting, voiceover, subtitles and motion graphics into a single topic input, cutting
+    tool-switching and manual frame drawing, so Chinese- or English-language creators producing explainer
+    videos at volume would choose it under content deadlines; the star growth from 1,580 to 1,947 indicates
+    attention, not a usage reason.'

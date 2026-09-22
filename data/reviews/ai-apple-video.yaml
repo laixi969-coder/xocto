@@ -441,3 +441,51 @@
     scripting, shooting, and color-grading effort, so sellers or marketers without a video team who need
     a consistent premium tone would choose it when ad deadlines loom; no user feedback or case yet confirms
     this motive.'
+- id: req-full-ai-apple-video-2026-09-22
+  project_slug: ai-apple-video
+  level: full
+  reviewed_at: '2026-09-22T01:24:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决普通商品缺少高端视频素材的需求：自建发布会级视频需脚本、拍摄、剪辑与调色，外包贵且慢，小团队难以按投放节奏产出。该技能把风格固化为可复用生成流程，输入产品素材即产出约30秒成片，痛点刚性与交付闭环在结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-d1771f94b9ffa14f
+    - ev-ff16943d55d18bc8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从119增至133，说明开源社区持续关注，但仅有收藏与复刻类关注度，没有用户评价、案例或讨论证明它被放进真实投放工作流，无法判断强场景是否成立。
+    evidence_ids:
+    - ev-d1771f94b9ffa14f
+    - ev-0105f71ebc130e29
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能，公开材料未见定价、付费或采购路径；谁付钱可能是电商卖家自用或服务商打包，属推断而非已验证事实，商业证据尚未核验。
+    evidence_ids:
+    - ev-ff16943d55d18bc8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明风格与时长，未披露成片质量、生成稳定性、素材版权与人工复核边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-239fa99297d886fe
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户贴出实际成片、使用场景与重复使用记录。
+  market: ''
+  job: 电商卖家或产品营销人员在需要为普通商品制作社交媒体或广告投放素材时，把产品图片或素材输入该开源技能，按苹果发布会风格生成约30秒的高端产品视频。
+  job_en: An e-commerce seller or product marketer, needing social or ad creative for an ordinary product,
+    feeds product images or assets into this open-source skill to generate a roughly 30-second Apple-keynote-style
+    premium product video.
+  pain: 普通商品缺少高端视觉包装，自建发布会级视频需要脚本、分镜、拍摄、剪辑与调色，外包或自拍成本高、周期长，小团队难以按投放节奏持续产出。
+  pain_en: Ordinary products lack premium visual packaging; producing keynote-grade video in-house requires
+    scripting, storyboarding, shooting, editing and grading, which is costly and slow to outsource or
+    self-produce, so small teams struggle to keep pace with ad cadence.
+  current_alternative: 目前多靠外包视频团队、模板化剪辑工具或自己用通用 AI 视频工具逐段拼凑，风格统一与节奏把控依赖人工反复调整。
+  current_alternative_en: Today teams mostly outsource to video vendors, use template editing tools, or
+    stitch clips together with general AI video tools, relying on manual iteration for style consistency
+    and pacing.
+  usage_reason: 推断：相较外包或通用剪辑，该技能把“苹果发布会风格”固化为可复用的生成流程，用户只需提供产品素材即可得到成片，省去脚本与风格设计环节；仓库收藏从 119 增至 133 说明有持续关注，但缺少成片质量、客户案例与重复使用证据，采用动机仍属结构推断。
+  usage_reason_en: 'Inference: versus outsourcing or generic editing, this skill encodes the Apple-keynote
+    style as a reusable generation flow, so users only supply product assets to get a finished clip, skipping
+    scripting and style design; stars rising from 119 to 133 show sustained attention, but with no output-quality,
+    customer-case or repeat-use evidence, the adoption motive remains structural inference.'

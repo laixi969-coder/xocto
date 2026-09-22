@@ -273,3 +273,53 @@
     a two-stage escalation letter keyed to jurisdiction and refusal reason, removing the steps of looking
     up rules, structuring the argument, and deciding when to escalate, so consumers facing a refusal worth
     chasing would use it before sending.'
+- id: req-full-refund-anything-ai-prompt-2026-09-22
+  project_slug: refund-anything-ai-prompt
+  level: full
+  reviewed_at: '2026-09-22T01:26:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决退款被拒后消费者不知如何措辞、援引哪条本地规则、何时升级法律施压的需求；不解决的后果是放弃小额损失或支付不成比例的律师费。公开仓库说明已给出输入（订单与拒退理由）、动作（两段式函件生成）与交付（可发送函件），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-0395b6d360cf717a
+    - ev-42ce0d3c45c3c8b6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从73增至83，说明有开发者关注，但公开材料没有用户评价、issue 或案例说明谁在真实退款场景中持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-0395b6d360cf717a
+    - ev-42ce0d3c45c3c8b6
+  - gate: model
+    status: insufficient
+    reason: 这是开源提示词仓库，公开材料未见定价页、付费路径或买方身份；谁付钱、按次还是订阅收费均属判断而非已验证事实，但这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-0395b6d360cf717a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明30多个司法辖区的规则来源、更新机制，也未提供生成函件准确性的可复现测试；交付能否稳定发生、法律建议的人工与安全边界仍缺公开证据。
+    evidence_ids:
+    - ev-0395b6d360cf717a
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际退款结果、辖区规则来源与维护机制。
+  market: ''
+  job: 普通消费者在订阅、数字购买或预订被商家拒绝退款时，把订单信息、拒退理由和所在司法辖区交给这套提示词，让模型生成一封先礼貌交涉、后法律升级的退款函件，再由用户核对事实并自行发送给商家或平台客服。
+  job_en: An ordinary consumer whose subscription, digital purchase, or booking refund was refused hands
+    the order details, refusal reason, and jurisdiction to this prompt set, has the model draft a polite-then-escalating
+    refund letter, then verifies the facts and sends it to the merchant or platform support.
+  pain: 公开材料支持的痛点是：退款被拒后消费者不知道如何措辞、不知道可援引哪条本地消费者保护规则、也不清楚何时该从礼貌交涉升级为法律施压，导致要么放弃小额损失，要么花高价请律师，而单笔金额往往不值得走正式法律程序。
+  pain_en: 'The publicly supported pain: after a refund refusal, consumers do not know how to phrase the
+    request, which local consumer-protection rule applies, or when to escalate from polite negotiation
+    to legal pressure, so they either abandon a small loss or pay lawyer fees disproportionate to the
+    amount at stake.'
+  current_alternative: 旧做法是自己写邮件或在线聊天反复交涉、在社交平台发帖施压、查阅零散的消费者保护条款，或直接放弃；金额较大时才咨询律师或向消费者保护机构投诉。
+  current_alternative_en: The old approach is to write emails or chat repeatedly, post on social media
+    for pressure, dig through scattered consumer-protection rules, or simply give up; only larger amounts
+    justify a lawyer or a consumer-protection agency complaint.
+  usage_reason: 推断：相较自己从零起草，这套提示词把“先礼貌、后法律升级”的两段结构和30多个司法辖区的规则框架预先组织好，用户只需填入订单与拒退事实即可得到一封可直接发送的函件，省去查找适用条款和斟酌升级时机的步骤；因此被拒退、金额不值得请律师、又希望保留法律施压选项的消费者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus drafting from scratch, the prompt pre-organizes the polite-then-escalating
+    two-stage structure and a 30+ jurisdiction rule framework, so the user only fills in order and refusal
+    facts to get a sendable letter, skipping the steps of finding applicable clauses and judging escalation
+    timing; consumers with a refused refund too small for a lawyer but wanting to keep legal pressure
+    available would choose it in that situation.'

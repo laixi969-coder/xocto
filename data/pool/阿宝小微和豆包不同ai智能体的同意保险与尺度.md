@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZRWtGckFXNWdJ
 summary: 阿宝、小微和豆包：不同AI智能体的“同意”保险与尺度 36kr.com
 first_seen: '2026-09-20T21:56:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

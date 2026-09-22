@@ -1,0 +1,91 @@
+- id: req-initial-with-tabby-a-former-accountant-is-using-ai-to-make-accountan-2026-09-22
+  project_slug: with-tabby-a-former-accountant-is-using-ai-to-make-accountan
+  level: initial
+  reviewed_at: '2026-09-22T00:50:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决票据录入滞后、账目与经营实况脱节的需求，痛点来自记账工作结构，交付为持续更新的损益数据。
+    evidence_ids:
+    - ev-649e31875b39afbc
+  - gate: consensus
+    status: insufficient
+    reason: 材料未给出客户采用、留存或行业共识证据，只有产品定位描述，共识强度无法判断。
+    evidence_ids:
+    - ev-649e31875b39afbc
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方与收费方式；按账套或按处理量收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-649e31875b39afbc
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明人工复核边界、账务准确性责任与合规要求，交付确定性无法核对。
+    evidence_ids:
+    - ev-649e31875b39afbc
+  next_validation: 收集 Tabby 官方定价页或客户案例，确认其收费方式、人工复核环节与账务准确性责任。
+  market: ''
+  job: 小企业主或代账会计在日常经营中处理陆续到来的票据与单据，需要把账目持续记清并随时知道当期损益，而不是等到月末才汇总。
+  job_en: Small business owners or bookkeeping accountants handle receipts and documents arriving through
+    daily operations and need the books kept current and profit and loss known at any time, rather than
+    summarized only at month end.
+  pain: 票据分散、录入滞后导致账目与经营实况脱节，月末集中处理时才发现问题；这是从记账工作本身的结构推出的痛点，材料未给出用户抱怨记录。
+  pain_en: Scattered receipts and delayed entry leave the books out of step with the business, and problems
+    surface only during month-end crunch; this is inferred from the structure of bookkeeping work, as
+    the material records no user complaints.
+  current_alternative: 旧做法是人工收集票据、手工或半自动录入，再在月末出报表；材料未说明客户此前具体使用哪款软件或是否外包。
+  current_alternative_en: The old approach is manually collecting receipts, entering them by hand or semi-automatically,
+    then producing reports at month end; the material does not say which software clients used or whether
+    they outsourced.
+  usage_reason: 相较月末集中录入，Tabby 在票据到达时就处理并持续更新账目，减少的是积压到月末再补录这一步，让用户随时看到损益；因此账目滞后困扰明显的小企业主和代账人员会在日常经营中选用它。这是基于产品能力的推断，材料未提供留存或复购证据。
+  usage_reason_en: Compared with month-end batch entry, Tabby processes documents as they arrive and keeps
+    the books updated, removing the step of catching up at month end so users see profit and loss at any
+    time; small business owners and bookkeepers bothered by lagging books would therefore choose it in
+    daily operations. This is inference from product capability, as the material offers no retention or
+    repeat-use evidence.
+- id: req-full-with-tabby-a-former-accountant-is-using-ai-to-make-accountan-2026-09-22
+  project_slug: with-tabby-a-former-accountant-is-using-ai-to-make-accountan
+  level: full
+  reviewed_at: '2026-09-22T01:27:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 所附证据全部指向同名但不同的产品（终端工具、先买后付钱包、猫的花色），没有一条描述该记账产品的用户任务、痛点或交付，连需求和痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-41d735cd3371aeef
+    - ev-6cb99e88203d1576
+    - ev-defc9b81440713ee
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索该记账产品自身的官网、定价页或客户案例（而非同名终端、先买后付或猫相关页面），确认其真实产品名称、用户与交付边界。
+  market: ''
+  job: 候选摘要称小企业主或记账人员把票据、单据交给 Tabby 并持续获得损益数据，但所附证据全部指向同名但不同产品（终端工具、先买后付钱包、猫的花色），没有任何一条描述该记账产品的用户、输入材料或交付物，因此无法写出可核验的使用场景。
+  job_en: The candidate summary claims small business owners or bookkeepers hand receipts to Tabby and
+    get continuous P&L data, but every attached evidence item points to a different namesake product (a
+    terminal, a BNPL wallet, a cat coat pattern) and none describes this bookkeeping product's users,
+    inputs, or deliverables, so no verifiable job can be stated.
+  pain: 公开证据中没有该记账产品的用户抱怨、旧流程描述或替代行为记录，无法确认它针对的是票据积压、月末补录还是别的痛点；候选摘要本身不是痛点证据。
+  pain_en: The public evidence contains no user complaints, legacy-workflow descriptions, or workaround
+    records for this bookkeeping product, so it is impossible to confirm whether it targets receipt backlog,
+    month-end catch-up, or another pain; the candidate summary itself is not pain evidence.
+  current_alternative: 证据未提供任何关于用户此前如何记账的信息，无法说明旧做法是手工录入、外包代账还是使用其他软件。
+  current_alternative_en: The evidence provides no information on how users previously kept books, so
+    the old approach cannot be described as manual entry, outsourced bookkeeping, or another tool.
+  usage_reason: 由于没有任何一条证据描述该记账产品的功能动作或交付结果，无法解释用户为何会选择它而非现有做法；同名产品的证据不能替代。
+  usage_reason_en: Because no evidence describes this bookkeeping product's actions or delivered results,
+    there is no basis to explain why a user would choose it over existing practice; evidence from namesake
+    products cannot substitute.

@@ -1,0 +1,86 @@
+- id: req-initial-simha-digital-2026-09-22
+  project_slug: simha-digital
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是审计报告出来后“先改哪一条”的排序问题，痛点具体且不做的代价是流量继续流失；旧做法是人工读报告排序。
+    evidence_ids:
+    - ev-d42eb2383648a853
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价、客户案例或使用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-d42eb2383648a853
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按站点收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d42eb2383648a853
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其审计数据来源与修改建议是否可靠，也未说明人工确认边界。
+    evidence_ids:
+    - ev-d42eb2383648a853
+  next_validation: 收集 Simha Digital 官方定价页或公开客户案例，确认按什么计价以及是否有真实站点使用记录。
+  market: ''
+  job: SEO 顾问或中小企业主在自然流量下滑、需要决定先改哪些页面时，处理站点审计结果和关键词清单，产出一份可执行的修改顺序。
+  job_en: An SEO consultant or small business owner, facing declining organic traffic, works through site
+    audit results and keyword lists to produce an executable order of fixes.
+  pain: 审计工具会给出成百上千条问题，但不会告诉用户哪一条先改、改了值不值，用户要在指标堆里自己排序。
+  pain_en: Audit tools surface hundreds of issues but never say which to fix first or whether it is worth
+    it, leaving the user to rank them by hand.
+  current_alternative: 现在多用 SEO 审计工具导出报告，再由人凭经验或外包顾问判断优先级。
+  current_alternative_en: Today people export reports from SEO audit tools and then rank priorities by
+    experience or by hiring a consultant.
+  usage_reason: 推断：它把“读完整份审计报告再自己排序”这一步换成直接给出带优先级的修改计划，省掉人工筛选环节，因此没有专职 SEO 的独立站卖家和本地服务商更可能选它；尚无用户反馈或复购证据。
+  usage_reason_en: 'Inference: it replaces the step of reading a full audit report and ranking it manually
+    with a prioritized fix plan, removing the screening work, so independent store sellers and local service
+    providers without dedicated SEO staff are more likely to choose it; no user feedback or repeat-use
+    evidence yet.'
+- id: req-full-simha-digital-2026-09-22
+  project_slug: simha-digital
+  level: full
+  reviewed_at: '2026-09-22T01:27:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是审计报告出来后“先改哪一条”的排序问题，痛点具体且不做的代价是流量继续流失；旧做法是人工读报告排序，属工作流结构推理。
+    evidence_ids:
+    - ev-d42eb2383648a853
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价、客户案例或使用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-d42eb2383648a853
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按站点收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d42eb2383648a853
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其审计数据来源与修改建议是否可靠，也未说明人工确认边界。
+    evidence_ids:
+    - ev-d42eb2383648a853
+  next_validation: 收集 Simha Digital 官方定价页或公开客户案例，确认按什么计价以及是否有真实站点使用记录。
+  market: ''
+  job: SEO 顾问或没有专职 SEO 的中小企业主在自然流量下滑、需要决定先改哪些页面时，处理站点审计结果与关键词清单，产出一份可执行的修改顺序。
+  job_en: An SEO consultant or small business owner without dedicated SEO staff, facing declining organic
+    traffic, works through site audit results and keyword lists to produce an executable order of fixes.
+  pain: 审计工具会给出成百上千条问题，却不告诉用户哪一条先改、改了值不值，用户要在指标堆里自己排序，排错顺序会继续浪费流量。
+  pain_en: Audit tools surface hundreds of issues but never say which to fix first or whether it is worth
+    it, leaving the user to rank them by hand; a wrong order keeps wasting traffic.
+  current_alternative: 现在多用 SEO 审计工具导出报告，再由人凭经验或外包顾问判断优先级。
+  current_alternative_en: Today people export reports from SEO audit tools and then rank priorities by
+    experience or by hiring a consultant.
+  usage_reason: 推断：相较导出报告后人工逐条排序，它把“读完整份审计报告再自己排序”这一步换成直接给出带优先级的修改计划，省掉人工筛选环节，因此没有专职 SEO 的独立站卖家和本地服务商更可能选它；尚无用户反馈或复购证据。
+  usage_reason_en: 'Inference: compared with exporting a report and ranking items by hand, it replaces
+    the step of reading the full audit report and ranking it manually with a prioritized fix plan, removing
+    the screening work, so independent store sellers and local service providers without dedicated SEO
+    staff are more likely to choose it; no user feedback or repeat-use evidence yet.'

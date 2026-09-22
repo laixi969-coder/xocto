@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/milliseconds-ai
 summary: Fast AI decisions on text and images, via one API
 first_seen: '2026-09-20T20:14:25Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

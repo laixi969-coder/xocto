@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5BV1JsSkY2ajhj
 summary: Google Targets Low Effort, not AI Practical Ecommerce
 first_seen: '2026-09-21T13:55:29Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

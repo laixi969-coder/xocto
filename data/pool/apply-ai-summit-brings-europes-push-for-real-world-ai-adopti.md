@@ -22,7 +22,7 @@ summary: When it comes to AI, Europe is home to exceptional tech talent, innovat
   However, while AI is increasingly being deployed across European businesses and the public sector,...
 first_seen: '2026-09-21T08:30:00Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,90 @@
+- id: req-initial-adlyse-wants-ai-agents-managing-ad-campaigns-24-7-2026-09-22
+  project_slug: adlyse-wants-ai-agents-managing-ad-campaigns-24-7
+  level: initial
+  reviewed_at: '2026-09-22T00:50:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决广告投放日常调优需人工全天盯盘、漏时段浪费预算的问题，旧做法是手动改后台或平台自动出价规则。
+    evidence_ids:
+    - ev-ab87571d20bc4261
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有产品主张，没有客户案例或投放结果，无法判断投放人员是否真的把日常调优交给代理。
+    evidence_ids:
+    - ev-ab87571d20bc4261
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按代理运行收费还是按席位收费不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ab87571d20bc4261
+  - gate: truth
+    status: insufficient
+    reason: 代理可操作哪些平台、哪些动作需人工确认、出错如何回滚均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-ab87571d20bc4261
+  next_validation: 收集 Adlyse 官方定价页或客户案例，确认其按什么计价、代理可操作哪些广告平台以及人工确认环节。
+  market: ''
+  job: 广告投放运营人员在日常盯盘时，面对多个广告平台的预算、出价与素材数据，需要持续调整投放以维持效果，Adlyse 让 AI 代理代替人执行这些调整动作。
+  job_en: Paid media operators watching campaigns daily face budget, bid and creative data across multiple
+    ad platforms and must keep adjusting delivery to hold performance; Adlyse has AI agents perform those
+    adjustments instead of the person.
+  pain: 投放调优是高频、重复且依赖盯盘的体力活，人难以全天候覆盖，漏掉时段就可能浪费预算；这是从产品定位推导的工作流判断，不是用户口述。
+  pain_en: Campaign tuning is high-frequency, repetitive, monitoring-dependent labor that a person cannot
+    cover around the clock, and missed windows can waste budget; this is a workflow inference from the
+    product positioning, not a user statement.
+  current_alternative: 旧做法是投放人员手动登录各平台后台改预算、换素材、看报表，或用平台自带的自动出价规则。
+  current_alternative_en: The legacy approach is operators manually logging into each platform back end
+    to change budgets, swap creatives and read reports, or using the platforms' built-in automated bidding
+    rules.
+  usage_reason: 相较人工盯盘，代理把“发现异常—调整出价或预算”这一步从人的排班中拿掉，使非工作时段的调整也能发生；推断，投放团队在人力覆盖不足的时段会因此选择它。
+  usage_reason_en: Compared with manual monitoring, the agent removes the detect-anomaly-then-adjust-bid-or-budget
+    step from human shift schedules, so adjustments can happen outside working hours; this is an inference,
+    and teams with thin coverage would choose it for that reason.
+- id: req-full-adlyse-wants-ai-agents-managing-ad-campaigns-24-7-2026-09-22
+  project_slug: adlyse-wants-ai-agents-managing-ad-campaigns-24-7
+  level: full
+  reviewed_at: '2026-09-22T01:23:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决广告投放日常调优需人工全天盯盘、漏时段浪费预算的问题，旧做法是手动改后台或平台自动出价规则，痛点刚性且交付动作可界定。
+    evidence_ids:
+    - ev-ab87571d20bc4261
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有产品主张，没有客户案例或投放结果，无法判断投放人员是否真的把日常调优交给代理。
+    evidence_ids:
+    - ev-ab87571d20bc4261
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按代理运行收费还是按席位收费不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ab87571d20bc4261
+  - gate: truth
+    status: insufficient
+    reason: 代理可操作哪些平台、哪些动作需人工确认、出错如何回滚均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-ab87571d20bc4261
+  next_validation: 收集 Adlyse 官方定价页或客户案例，确认其按什么计价、代理可操作哪些广告平台以及人工确认环节。
+  market: ''
+  job: 广告投放运营人员在日常盯盘时，面对多个广告平台后台的预算、出价与素材数据，需要持续调整投放以维持效果，Adlyse 让 AI 代理代替人执行这些调整动作。
+  job_en: Paid media operators watching campaigns daily face budget, bid and creative data across multiple
+    ad platform back ends and must keep adjusting delivery to hold performance; Adlyse has AI agents perform
+    those adjustments instead of the person.
+  pain: 投放调优是高频、重复且依赖盯盘的体力活，人难以全天候覆盖，漏掉时段就可能浪费预算；这是从产品定位推导的工作流结构推理，不是用户口述。
+  pain_en: Campaign tuning is high-frequency, repetitive, monitoring-dependent labor that a person cannot
+    cover around the clock, and missed windows can waste budget; this is a workflow inference from the
+    product positioning, not a user statement.
+  current_alternative: 旧做法是投放人员手动登录各平台后台改预算、换素材、看报表，或用平台自带的自动出价规则。
+  current_alternative_en: The legacy approach is operators manually logging into each platform back end
+    to change budgets, swap creatives and read reports, or using the platforms' built-in automated bidding
+    rules.
+  usage_reason: 相较人工盯盘，代理把“发现异常—调整出价或预算”这一步从人的排班中拿掉，使非工作时段的调整也能发生；这是推断，投放团队在人力覆盖不足的时段会因此选择它。
+  usage_reason_en: Compared with manual monitoring, the agent removes the detect-anomaly-then-adjust-bid-or-budget
+    step from human shift schedules, so adjustments can happen outside working hours; this is an inference,
+    and teams with thin coverage would choose it for that reason.

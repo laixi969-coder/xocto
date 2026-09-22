@@ -23,7 +23,7 @@ summary: Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass 
   your ticket savings before prices go up on September 25 at 11:59 p.m. PT.
 first_seen: '2026-09-21T19:25:00Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

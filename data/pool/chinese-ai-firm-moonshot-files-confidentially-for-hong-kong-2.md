@@ -1,6 +1,6 @@
 ---
 slug: chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-2
-name: 月之暗面（Moonshot AI）
+name: Moonshot AI
 builder: ''
 category: 通用助手
 summary_zh: 月之暗面（Moonshot AI）是中国 AI 公司，开发了 Kimi 智能助手。用户通过对话界面输入问题或任务，AI 接收文本并生成回答或完成文本处理，最终交付对话结果。具体工作流和交付细节待核验。
@@ -34,7 +34,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGNjV0FVR3Ba
 summary: Chinese AI firm Moonshot files confidentially for Hong Kong IPO ET Enterprise AI
 first_seen: '2026-09-04T09:29:07Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -50,7 +50,7 @@ sightings:
   kind: news
 ---
 
-# 月之暗面（Moonshot AI）
+# Moonshot AI
 
 Chinese AI firm Moonshot files confidentially for Hong Kong IPO ET Enterprise AI
 

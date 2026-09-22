@@ -1,0 +1,91 @@
+- id: req-initial-omnidicom-2026-09-22
+  project_slug: omnidicom
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决在普通电脑上查看和修改 DICOM 元数据的需求，痛点方向成立，但候选未说明 AI 参与程度与交付结果，价值结构无法确认。
+    evidence_ids:
+    - ev-7a0ab8cd4b97b48f
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、机构采用或社区讨论，无法判断影像科或研究团队是否真的在用它。
+    evidence_ids:
+    - ev-7a0ab8cd4b97b48f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或授权方式；医疗软件可能按机构授权收费，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-7a0ab8cd4b97b48f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对元数据编辑是否有校验与人工确认边界，也无法判断在临床或研究场景下能否确定性交付。
+    evidence_ids:
+    - ev-7a0ab8cd4b97b48f
+  next_validation: 收集该产品的官方说明或定价页，确认元数据编辑的校验方式、是否涉及 AI 以及面向机构还是个人授权。
+  market: ''
+  job: 影像科或临床研究相关人员在 Mac 或 Windows 上打开 DICOM 影像并修改其中的元数据字段，以便归档、标注或交付给协作方。
+  job_en: Radiology or clinical research staff open DICOM images on Mac or Windows and edit metadata fields
+    for archiving, annotation or handoff to collaborators.
+  pain: DICOM 查看与元数据编辑长期依赖专用工作站或笨重的桌面软件，在普通电脑上处理时容易遇到兼容问题，改错字段还会影响后续归档与交付。
+  pain_en: DICOM viewing and metadata editing have long depended on dedicated workstations or heavy desktop
+    software, and handling them on an ordinary computer often runs into compatibility problems, while
+    wrong field edits can affect later archiving and handoff.
+  current_alternative: 目前多使用医院或科室采购的专用影像工作站、厂商自带查看器，或一些免费但界面陈旧的桌面工具。
+  current_alternative_en: Today this is mostly done with dedicated imaging workstations purchased by hospitals
+    or departments, vendor-provided viewers, or free but dated desktop tools.
+  usage_reason: 推断：如果它能在 Mac 与 Windows 上直接打开影像并就地修改元数据，用户就不必切换到专用工作站或另找工具，从而减少一次环境切换；但候选资料没有说明 AI 是否参与、编辑结果如何校验，也没有任何使用或付费证据，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it can open images and edit metadata in place on Mac and Windows, users
+    would not have to switch to a dedicated workstation or find another tool, removing one environment
+    switch; however, the candidate material does not say whether AI is involved or how edits are validated,
+    and there is no usage or payment evidence, so it cannot yet be confirmed that users would choose it
+    for this reason.'
+- id: req-full-omnidicom-2026-09-22
+  project_slug: omnidicom
+  level: full
+  reviewed_at: '2026-09-22T01:26:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在普通 Mac 或 Windows 电脑上查看 DICOM 并就地修改元数据字段的需求，痛点来自专用工作站与旧式查看器的兼容与切换负担，改错字段会影响归档交付，痛点刚性、交付动作可确定；这是工作流结构推理，公开材料尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-7a0ab8cd4b97b48f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品定位这一条公开事实，没有用户评价、机构采用或社区讨论，无法判断影像科或研究团队是否真的把它放进日常工作流，关注度证据也不足以替代采用证据。
+    evidence_ids:
+    - ev-7a0ab8cd4b97b48f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或授权方式；按医疗软件惯例可能走机构授权或按席位收费，但这只是判断而非已验证事实，to C 个人购买与 to B 科室采购两条路径都未被公开材料证实。
+    evidence_ids:
+    - ev-7a0ab8cd4b97b48f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明元数据编辑是否有校验、是否涉及 AI 参与、以及临床或研究场景下的人工确认边界，因此无法核对承诺能否确定性交付，也无法判断贴近第一性目标的程度。
+    evidence_ids:
+    - ev-7a0ab8cd4b97b48f
+  next_validation: 追踪 OmniDICOM 官网或 公开资料 页面的定价与功能说明，确认元数据编辑的校验方式、是否涉及 AI 以及面向个人还是机构授权。
+  market: ''
+  job: 影像科或临床研究相关人员在 Mac 或 Windows 上打开 DICOM 影像，修改其中的元数据字段，以便归档、标注或交付给协作方。
+  job_en: Radiology or clinical research staff open DICOM images on Mac or Windows and edit metadata fields
+    so the files can be archived, annotated or handed off to collaborators.
+  pain: DICOM 查看与元数据编辑长期依赖专用工作站或厂商自带查看器，在普通 Mac 或 Windows 电脑上处理时兼容性差、字段改错还会影响后续归档与交付；公开材料只给出产品定位，未提供用户抱怨或案例，痛点强度属结构推理。
+  pain_en: DICOM viewing and metadata editing have long depended on dedicated workstations or vendor viewers;
+    on an ordinary Mac or Windows machine compatibility is poor, and a wrong field edit can damage later
+    archiving and handoff. Public material only states the product positioning, so pain intensity is a
+    structural inference.
+  current_alternative: 医院或科室采购的专用影像工作站、厂商自带查看器，以及一些免费但界面陈旧的桌面工具。
+  current_alternative_en: Dedicated imaging workstations bought by hospitals or departments, vendor-supplied
+    viewers, and free but dated desktop tools.
+  usage_reason: 推断：相较必须切到专用工作站或另装旧式查看器的做法，它在 Mac 与 Windows 上直接打开影像并就地编辑元数据字段，省掉一次环境切换和文件导出再导入的步骤，因此需要在个人电脑上快速改字段再交付的影像科或研究人员会优先选它；但公开材料未说明编辑校验方式，也无使用或付费证据。
+  usage_reason_en: 'Inference: compared with switching to a dedicated workstation or installing an outdated
+    viewer, it opens images and edits metadata fields in place on Mac and Windows, removing one environment
+    switch and the export-then-reimport step, so radiology or research staff who need to fix fields on
+    a personal computer before handoff would prefer it; however, public material does not describe edit
+    validation and shows no usage or payment evidence.'

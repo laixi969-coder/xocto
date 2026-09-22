@@ -1,6 +1,6 @@
 ---
 slug: cornelis融资205亿美元打造ai网络计算新架构-ai基础设施
-name: Cornelis
+name: Cornelis Networks
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTFAxVzRMLWg1X1Ff
 summary: Cornelis融资2.05亿美元打造AI网络计算新架构-AI基础设施 至顶网
 first_seen: '2026-09-15T06:14:36Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Cornelis
+# Cornelis Networks
 
 Cornelis融资2.05亿美元打造AI网络计算新架构-AI基础设施 至顶网
 

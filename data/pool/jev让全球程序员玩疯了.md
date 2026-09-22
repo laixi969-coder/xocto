@@ -1,11 +1,15 @@
 ---
 slug: jev让全球程序员玩疯了
-name: Jev，让全球程序员玩疯了
+name: Jev
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Jev 是一个不生成文字、只输出概率判断的模型，由前 OpenAI 研究员 Diogo Almeida 发布。开发者把它接进智能家居等场景做二值判断，例如根据洗衣机功率变化和房门状态判断衣服是否被遗忘，置信度超过
+  0.8 就推送提醒，单次判断耗时几十毫秒、成本 0.000015 美元。
 inspiration: ''
-summary_en: ''
+summary_en: Jev is a model released by former OpenAI researcher Diogo Almeida that outputs only probability
+  judgments instead of text. Developers wire it into scenarios such as smart homes to make binary calls,
+  for example deciding from washing-machine power draw and door state whether laundry was forgotten and
+  pushing a reminder above 0.8 confidence, at tens of milliseconds and $0.000015 per judgment.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -52,7 +56,7 @@ summary: "作者｜宇航猿  \n  编辑｜靖宇  \n   \n 智能家居社区 H
   \ Jev 来做什么创新？ \n  *头图来源：jev-ai  \n  本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-09-21T11:02:43Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -63,7 +67,7 @@ sightings:
   kind: news
 ---
 
-# Jev，让全球程序员玩疯了
+# Jev
 
 作者｜宇航猿  
   编辑｜靖宇  

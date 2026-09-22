@@ -21,7 +21,7 @@ canonical_url: https://github.com/omacom/try-omarchy-windows
 summary: Try Omarchy for Windows – Full Omarchy Desktop on Windows
 first_seen: '2026-09-20T22:56:44Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

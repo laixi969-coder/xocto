@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnN21mQVoyVmhs
 summary: OpenAI和Anthropic营收面临威胁：成本压力下，更多AI初创企业转向开源模型 华尔街见闻
 first_seen: '2026-09-21T20:20:16Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

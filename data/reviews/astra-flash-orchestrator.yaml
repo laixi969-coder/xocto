@@ -77,3 +77,55 @@
   usage_reason: 用户要完成的任务是：软件工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software engineers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-astra-flash-orchestrator-2026-09-22
+  project_slug: astra-flash-orchestrator
+  level: full
+  reviewed_at: '2026-09-22T01:24:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理一次性生成大段代码后缺少分阶段审查与验证、出错难定位难回退的需求；公开说明已给出计划—执行—验证—可回滚的完整闭环，痛点与交付结构可还原，属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+    - ev-a901126c153359d4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由 245 升至 454，说明开发者社区已注意到该编排器，但收藏与关注度不等于持续采用；公开材料没有 issue、discussion 或评价说明谁在何种场景反复使用，是否形成工作流习惯无法判断。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+    - ev-a901126c153359d4
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未给出定价、付费主体或单位经济；可能路径是个人开发者自用或企业内采用，但均属判断而非已验证事实，买方与收入结构尚不可核验。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺分阶段任务、验证步骤与可回滚安装，但缺少部署文档、可复现实测或 issue 记录来确认交付是否稳定发生，以及人工确认与安全边界如何划定。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+    - ev-a901126c153359d4
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认是否有用户报告在真实仓库中反复运行该计划—执行—验证流程及其回滚效果。
+  market: ''
+  job: 使用 Codex 的软件工程师在本地仓库里接到一项中等规模编码任务（如新增功能或重构）时，把任务交给该编排器：Astra 先拆成分阶段计划并逐阶段审查，DeepSeek Flash 按阶段写代码，最后输出带验证步骤的可回滚结果。
+  job_en: 'A software engineer working in a local Codex environment takes a mid-sized coding task (a feature
+    or refactor) in a repository and hands it to the orchestrator: Astra first decomposes it into phased
+    tasks and reviews each phase, DeepSeek Flash writes code per phase, and the run ends with verification
+    steps and a reversible setup.'
+  pain: 公开说明只给出能力描述，未提供用户抱怨或案例；从工作流结构推断，痛点是单模型一次性生成大段代码后缺乏分阶段审查与验证，出错后难以定位和回退，工程师需自行补做计划、复核与回滚。
+  pain_en: The public description is capability-level with no user complaints or cases; inferred from
+    workflow structure, the pain is that a single model emitting a large code block lacks phased review
+    and verification, so failures are hard to localize and roll back, leaving the engineer to redo planning,
+    review, and recovery by hand.
+  current_alternative: 当前替代是直接在 Codex 或同类编码代理里一次性提示生成代码，再人工审查、手动跑测试和手动回滚；也可能用通用代理框架自行拼装计划—执行—验证流程。
+  current_alternative_en: Today users prompt Codex or a similar coding agent in one shot, then review
+    manually, run tests by hand, and roll back manually; alternatively they assemble a plan-execute-verify
+    loop themselves on a general agent framework.
+  usage_reason: 推断：相较一次性提示，它把任务先拆成阶段并插入审查与验证步骤，并声明安装可回滚，从而减少工程师在出错后定位、返工和恢复环境这几步负担；因此在意可复核性与可回退性的 Codex
+    用户会在处理中等规模改动时选择它。仓库收藏从 245 增至 454 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus one-shot prompting, it splits the task into phases with review and
+    verification steps and claims a reversible install, cutting the engineer''s effort in localizing failures,
+    reworking, and restoring the environment; Codex users who value reviewability and rollback would therefore
+    pick it for mid-sized changes. Stars rising from 245 to 454 shows attention, not sustained use.'

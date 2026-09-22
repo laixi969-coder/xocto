@@ -22,7 +22,7 @@ summary: 'From first users to billions: Google’s Robby Stein joins TechCrunch 
   this Builders Stage session. Save up to $200 before September 25.'
 first_seen: '2026-09-21T14:30:00Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

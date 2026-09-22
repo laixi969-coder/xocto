@@ -1,0 +1,93 @@
+- id: req-initial-gpt-6-astra开进机器人身体清华联手无问芯穹等开源rpent-2026-09-22
+  project_slug: gpt-6-astra开进机器人身体清华联手无问芯穹等开源rpent
+  level: initial
+  reviewed_at: '2026-09-22T00:50:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决具身智能体在物理世界执行任务的问题，但公开材料未说明具体任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-0abb5514b160cb57
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源发布这一事实，没有社区采用、复现或场景落地的公开证据。
+    evidence_ids:
+    - ev-0abb5514b160cb57
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，开源项目的商业路径尚不可见。
+    evidence_ids:
+    - ev-0abb5514b160cb57
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付确定性、安全边界与人工介入方式，第一性目标是否贴近仍待材料补充。
+    evidence_ids:
+    - ev-0abb5514b160cb57
+  next_validation: 收集 RPent 官方仓库的 README、支持的机器人机型列表与 issue/discussion 中的实际复现记录。
+  market: ''
+  job: 机器人研发团队在把大模型能力接入真实机器人本体时，需要让智能体接收任务指令并在物理环境中完成抓取、移动等具体动作。
+  job_en: Robotics R&D teams connecting large-model capability to real robot bodies need an agent to take
+    task instructions and complete concrete actions such as grasping and moving in the physical environment.
+  pain: 公开材料只给出“在物理世界真正干活的具身智能体”这一句描述，没有说明具体任务、失败代价或现有做法哪里不够，痛点无法还原。
+  pain_en: The public material gives only the phrase about embodied agents that actually work in the physical
+    world, without specific tasks, failure costs or what is lacking in current practice, so the pain cannot
+    be reconstructed.
+  current_alternative: 团队通常自行用仿真环境加自研控制脚本拼接模型与机器人，或采购厂商自带的封闭任务系统。
+  current_alternative_en: Teams typically stitch models to robots themselves using simulation environments
+    plus self-built control scripts, or buy vendors' closed task systems.
+  usage_reason: 推断：若 RPent 能提供可复用的任务到动作链路，团队可省去从零搭建模型与本体对接的一步；但目前缺少任务范围、机型支持和实际使用反馈，无法确认用户为何会选择它。
+  usage_reason_en: 'Inference: if RPent provides a reusable task-to-action pipeline, teams could skip
+    building the model-to-hardware link from scratch; however, task scope, hardware support and real usage
+    feedback are missing, so why users would choose it cannot be confirmed.'
+- id: req-full-gpt-6-astra开进机器人身体清华联手无问芯穹等开源rpent-2026-09-22
+  project_slug: gpt-6-astra开进机器人身体清华联手无问芯穹等开源rpent
+  level: full
+  reviewed_at: '2026-09-22T01:25:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决具身智能体把模型能力落到真实机器人本体执行物理任务的需求，痛点是模型—本体对接链路重复搭建、机型适配成本高；公开材料仅一句定位，任务范围与失败代价未披露，故为工作流结构推理而非用户采用证据。
+    evidence_ids:
+    - ev-0abb5514b160cb57
+  - gate: consensus
+    status: insufficient
+    reason: 仅有清华与无问芯穹等团队开源发布这一事实，公开材料未显示社区复现、issue 讨论、场景落地或持续采用记录，共识强度无法判断。
+    evidence_ids:
+    - ev-0abb5514b160cb57
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、买方或收费方式；可能路径是 to B 的机器人厂商与研发团队付费支持，或 to VC 的融资叙事，但均属判断而非已验证事实。
+    evidence_ids:
+    - ev-0abb5514b160cb57
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持的机器人机型、任务边界、安全约束与人工确认环节，交付确定性与第一性目标贴近度无法核对，存在功能拼装但场景不清的貂丁风险。
+    evidence_ids:
+    - ev-0abb5514b160cb57
+  next_validation: 追踪 RPent 官方开源仓库的 README、支持的机器人机型列表与 issue/discussion 中的实际复现记录，以核验任务范围、交付确定性与采用情况。
+  market: ''
+  job: 机器人研发工程师与具身智能算法工程师在搭建具身智能体时，需要把大模型的任务理解能力接到真实机器人本体上，让机器人接收自然语言或任务指令后在物理环境中完成抓取、移动等具体动作，并交付可执行的任务结果。
+  job_en: Robotics R&D engineers and embodied-AI algorithm engineers building embodied agents need to
+    connect large-model task understanding to real robot bodies, so the robot takes natural-language or
+    task instructions and completes concrete physical actions such as grasping and moving, delivering
+    an executable task result.
+  pain: 公开材料只给出“在物理世界真正干活的具身智能体”这一句定位，未披露具体任务范围、失败代价与人工确认环节；从工作流结构推理，模型能力与机器人本体之间的对接（感知—规划—控制链路、机型适配）本身就是具身智能研发中最耗时且易失败的一环，团队往往要重复搭建。
+  pain_en: The public material gives only the positioning phrase about embodied agents that actually work
+    in the physical world, without task scope, failure costs or human-confirmation steps; inferred from
+    workflow structure, the model-to-body link (perception-planning-control pipeline, hardware adaptation)
+    is itself the most time-consuming and failure-prone part of embodied-AI R&D, and teams often rebuild
+    it repeatedly.
+  current_alternative: 团队通常自行用仿真环境加自研控制脚本拼接模型与机器人，或采购厂商自带的封闭任务系统，前者重复造轮子，后者难以按需改造。
+  current_alternative_en: Teams typically stitch models to robots themselves using simulation environments
+    plus self-built control scripts, or buy vendors' closed task systems; the former rebuilds the wheel,
+    the latter is hard to modify on demand.
+  usage_reason: 推断：相较自研拼接，RPent 由清华与无问芯穹等团队开源，若其提供从任务指令到机器人动作的可复用链路，工程师可省去从零对接模型与本体的那一步，因此正在搭建具身智能体、又缺少现成对接方案的机器人研发团队会在原型或实验阶段选择它；但机型支持、任务范围与复现反馈尚未公开，选择动机属结构推断而非用户反馈。
+  usage_reason_en: 'Inference: compared with self-built stitching, RPent is open-sourced by Tsinghua and
+    InfiniGuys teams; if it provides a reusable pipeline from task instruction to robot action, engineers
+    can skip the step of connecting model and body from scratch, so robotics R&D teams building embodied
+    agents without a ready-made integration would choose it at prototype or experiment stage; however,
+    hardware support, task scope and reproduction feedback are not public, so the motivation is s'

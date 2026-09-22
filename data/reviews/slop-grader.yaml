@@ -1,0 +1,84 @@
+- id: req-initial-slop-grader-2026-09-22
+  project_slug: slop-grader
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布前逐条核对规则耗时且易漏的问题，旧做法是人工比对风格手册。
+    evidence_ids:
+    - ev-c901d0fad5af6b82
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品描述，没有用户评价、客户案例或采用数据。
+    evidence_ids:
+    - ev-c901d0fad5af6b82
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，命令行形态下谁付费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c901d0fad5af6b82
+  - gate: truth
+    status: insufficient
+    reason: 无法核验规则集如何定义、判定准确率如何，以及人工复核边界。
+    evidence_ids:
+    - ev-c901d0fad5af6b82
+  next_validation: 查找 slop-grader 的官方说明或定价页，确认规则集配置方式与是否按次或按席位收费。
+  market: ''
+  job: 内容编辑或营销人员在稿件发布前，拿着待发文本和一份内部规则，要逐条确认是否合规再决定放行。
+  job_en: A content editor or marketer, before publishing, holds draft text and an internal rulebook and
+    must confirm compliance item by item before releasing.
+  pain: 规则一多，人工逐条比对耗时且容易漏项，发布后才发现问题要返工。
+  pain_en: With many rules, manual item-by-item checking is slow and easy to miss, and problems found
+    after publishing force rework.
+  current_alternative: 现在靠人工按风格手册逐条核对，或用通用模型泛泛检查，没有可复用的规则集。
+  current_alternative_en: Today people check against a style guide by hand or ask a general model for
+    a vague review, with no reusable ruleset.
+  usage_reason: 推断：它把“人工逐条比对风格手册”换成按自定义规则集自动评估并输出结果，减少漏项和返工；因此有固定文风或合规要求的编辑团队更可能采用；尚无用户反馈或复购证据。
+  usage_reason_en: 'Inference: it replaces manual item-by-item checking against a style guide with automated
+    evaluation against custom rulesets, reducing missed items and rework, so editorial teams with fixed
+    style or compliance needs are more likely to adopt it; no user feedback or repeat-use evidence yet.'
+- id: req-full-slop-grader-2026-09-22
+  project_slug: slop-grader
+  level: full
+  reviewed_at: '2026-09-22T01:27:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布前逐条核对规则耗时且易漏的问题，旧做法是人工比对风格手册；这是从产品说明与编辑工作流推出的结构判断，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-c901d0fad5af6b82
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品描述，没有用户评价、客户案例或采用数据，无法判断编辑是否真会把它留在发布流程里。
+    evidence_ids:
+    - ev-c901d0fad5af6b82
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，命令行形态下谁付费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c901d0fad5af6b82
+  - gate: truth
+    status: insufficient
+    reason: 无法核验规则集如何定义、判定准确率如何，以及人工复核边界，承诺能否确定性交付仍不清楚。
+    evidence_ids:
+    - ev-c901d0fad5af6b82
+  next_validation: 查找 slop-grader 的官方说明或定价页，确认规则集配置方式与是否按次或按席位收费。
+  market: ''
+  job: 内容编辑或营销人员在稿件发布前，拿着待发文本和一份内部规则集，要逐条确认是否违规并决定是否放行。
+  job_en: A content editor or marketer, before publishing, holds draft text and an internal ruleset and
+    must confirm item-by-item whether it violates the rules before releasing it.
+  pain: 规则一多，人工逐条比对耗时且容易漏项，发布后才发现问题要返工；通用模型检查又无法复用固定规则集。
+  pain_en: With many rules, manual item-by-item checking is slow and easy to miss, and problems found
+    after publishing force rework; general model checks cannot reuse a fixed ruleset.
+  current_alternative: 现在靠人工按风格手册逐条核对，或用通用模型泛泛检查，没有可复用的规则集。
+  current_alternative_en: Today people check against a style guide by hand or ask a general model for
+    a vague review, with no reusable ruleset.
+  usage_reason: 推断：它把“人工逐条比对风格手册”换成按自定义规则集自动评估并输出结果，减少漏项和返工；因此有固定文风或合规要求的编辑团队更可能选择它；尚无用户反馈或复购证据。
+  usage_reason_en: 'Inference: it replaces manual item-by-item checking against a style guide with automated
+    evaluation against custom rulesets, reducing missed items and rework, so editorial teams with fixed
+    style or compliance needs are more likely to choose it; no user feedback or repeat-use evidence yet.'

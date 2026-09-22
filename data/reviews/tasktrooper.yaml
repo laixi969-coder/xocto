@@ -80,3 +80,55 @@
   usage_reason_en: 'Cannot be judged: there is no account of which prior step it replaces or which burden
     it removes, and a local-first, role-agent shape alone does not explain why a user would choose it;
     65 stars is attention, not a usage reason.'
+- id: req-full-tasktrooper-2026-09-22
+  project_slug: tasktrooper
+  level: full
+  reviewed_at: '2026-09-22T01:27:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者或小团队在本地 Mac 上把待办拆给多个角色型 agent 并运行编码任务的需求，痛点是自己拼终端与脚本、或把代码交给云端 agent 的负担；公开材料只给出平台形态，痛点与替代方式属工作流结构推理，尚无用户口述或案例佐证。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+    - ev-cef49dbe00a671b1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 65 增至 74，属关注度而非采用证据；没有用户评价、issue 讨论或案例说明谁在什么场景下持续使用，强场景只能从本地优先与角色分工的形态推断。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+    - ev-cef49dbe00a671b1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方是个人开发者还是团队无法判断；本地优先形态可能走开源加自托管或订阅，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与角色分工的承诺能否确定性交付、人工确认边界在哪、Claude Code 本机执行的安全与权限范围，公开材料均未说明，无法核对交付结果。
+    evidence_ids:
+    - ev-6dce35f35570dcfa
+    - ev-cef49dbe00a671b1
+  next_validation: 追踪该开源仓库的 README、issue 与 discussion，确认它替代的具体旧步骤、实际使用场景，以及是否出现重复使用或付费线索。
+  market: ''
+  job: 独立开发者或小团队在本地 Mac 上把待办事项放进看板，交给不同角色型 agent 分工，其中编码任务由 Claude Code 在本机执行，最终拿到本机跑完的任务结果与看板状态更新。
+  job_en: Solo developers or small teams put backlog items on a board on their local Mac, assign them
+    to role-based agents, and have coding tasks executed by Claude Code on the same machine, ending with
+    locally completed task results and updated board state.
+  pain: 公开材料只给出平台形态，未说明开发者原来卡在哪一步；从工作流结构推理，多 agent 编码编排通常需要自己拼终端、脚本与上下文传递，且把代码交给云端 agent 会带来代码外流与配置负担，这是结构推理而非用户口述。
+  pain_en: The public material only describes the platform shape and does not state which step developers
+    were stuck on; by workflow inference, multi-agent coding orchestration usually requires hand-wiring
+    terminals, scripts and context passing, and handing code to cloud agents brings code-egress and setup
+    burden. This is structural inference, not user testimony.
+  current_alternative: 公开材料未说明此前替代方式；常见做法可能是云端 agent 平台，或直接在终端里手动运行编码助手并自行管理任务状态，这属于推断。
+  current_alternative_en: The public material does not state the prior alternative; common substitutes
+    may be cloud agent platforms, or manually running a coding assistant in the terminal while tracking
+    task state by hand. This is inference.
+  usage_reason: 推断：相较云端 agent 或终端手动跑助手，它把看板、角色分工与 Claude Code 本机执行放在同一本地环境，减少把代码与上下文搬到云端的步骤和配置负担，因此在意代码留在本机、又想用多角色分工处理待办的独立开发者或小团队会在本地
+    Mac 上选择它；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with cloud agents or manually running an assistant in the terminal,
+    it keeps the board, role division and Claude Code execution in one local environment, removing the
+    step of moving code and context to the cloud and reducing setup burden, so solo developers or small
+    teams who want code to stay local while using role-based agents would choose it on a local Mac; public
+    material has no user feedback or case confirming this motive.'

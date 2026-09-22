@@ -1,0 +1,86 @@
+- id: req-initial-ainxt-os-2026-09-22
+  project_slug: ainxt-os
+  level: initial
+  reviewed_at: '2026-09-22T00:50:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决受监管机构自建 AI 编排的需求，痛点结构可推，但无任何用户行为或反馈佐证。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标与分支数偏低且无讨论，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价信息，付费方可能是机构自建预算，属推断而非已验证事实。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+  - gate: truth
+    status: insufficient
+    reason: 未见部署文档或安全边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+  next_validation: 查看该仓库的部署文档与 issue/discussion，确认是否有机构在真实业务中接入使用。
+  market: ''
+  job: 金融机构或公共部门的平台工程师在自建 AI 应用时，需要把选定的模型、工具与内部工作流接起来并自行部署运行。
+  job_en: Platform engineers at financial institutions or public bodies building their own AI applications
+    need to connect chosen models, tools and internal workflows and deploy them themselves.
+  pain: 受监管机构对数据落地与可审计有要求，直接使用外部托管编排服务受限；但候选材料只有仓库描述，没有任何用户抱怨或采用行为来证明这一痛点被真实解决。
+  pain_en: Regulated institutions have data-residency and auditability requirements that limit hosted
+    orchestration services; but the candidate material is only a repository description, with no user
+    complaint or adoption behaviour proving this pain is actually solved.
+  current_alternative: 团队通常自行拼接开源编排框架与内部平台，或采购外部托管服务。
+  current_alternative_en: Teams typically stitch together open-source orchestration frameworks with internal
+    platforms, or buy hosted services.
+  usage_reason: 推断：若该框架能减少自建编排层的拼接工作并满足本地部署要求，受监管行业的平台团队会考虑采用；但仓库仅 42 星、无 issue 讨论或落地案例，尚无证据表明它已进入任何真实工作流。
+  usage_reason_en: 'Inference: if the framework reduces the glue work of building an orchestration layer
+    and meets local deployment requirements, platform teams in regulated sectors would consider it; but
+    with only 42 stars and no issue discussion or deployment case, there is no evidence it has entered
+    any real workflow.'
+- id: req-full-ainxt-os-2026-09-22
+  project_slug: ainxt-os
+  level: full
+  reviewed_at: '2026-09-22T01:24:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仓库描述只说明它是连接模型、工具与工作流的开源基础，未给出任何用户任务、痛点、既有替代或不解决的后果；连需求与痛点都无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认是否披露具体使用场景、接入机构或可复现的部署案例。
+  market: ''
+  job: 受监管机构（如支付机构、公共部门）的平台工程师在需要自建 AI 应用或智能体时，把选定的模型、工具与内部工作流连接起来，并部署到自有环境中运行。
+  job_en: Platform engineers at regulated institutions (e.g. payment bodies, public agencies) building
+    their own AI applications or agents need to connect chosen models, tools and internal workflows and
+    deploy them in their own environment.
+  pain: 公开材料只有仓库描述，未说明任何用户抱怨、既有替代行为或不解决的后果；受监管机构对数据落地与可审计的要求属于从发布方身份作出的推断，不是公开事实。
+  pain_en: Public material is limited to a repository description; it shows no user complaint, existing
+    workaround, or consequence of not solving the problem. Data-residency and auditability constraints
+    are inferred from the publisher's identity, not stated as public fact.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users complete this job today or what prior
+    approach it replaces.
+  usage_reason: 推断：若该框架能减少自建编排层的拼接工作并满足本地部署要求，受监管行业的平台团队可能考虑采用；但仓库仅 42 星、无 issue 讨论或落地案例，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the framework reduces glue work in building an orchestration layer and
+    meets local deployment needs, platform teams in regulated sectors might consider it; but with only
+    42 stars and no issue discussion or deployment case, it is unclear which users would choose it and
+    when.'

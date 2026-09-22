@@ -1,6 +1,6 @@
 ---
 slug: 360联合国内多机构发布智能体安全漏洞治理报告-探索以ai治理ai新路径
-name: 360联合国内多机构发布智能体安全漏洞治理报告 探索“以AI治理AI”新路径
+name: '360'
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1WLTBON2NlUXNy
 summary: 360联合国内多机构发布智能体安全漏洞治理报告 探索“以AI治理AI”新路径 驱动之家
 first_seen: '2026-09-21T09:35:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 360联合国内多机构发布智能体安全漏洞治理报告 探索“以AI治理AI”新路径
+# 360
 
 360联合国内多机构发布智能体安全漏洞治理报告 探索“以AI治理AI”新路径 驱动之家
 

@@ -1,11 +1,14 @@
 ---
 slug: jev-introduces-a-new-shape-of-llm-system-one-aka-decision-mo
-name: Jev introduces a new shape of LLM - System One, aka Decision Models
+name: Jev
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: TypeSafe AI 发布的 Jev 把大模型的输出从自然语言改成带置信度的结构化判定值（类别、是/否、评分）。它面向的是需要把模型判断直接接入下游流程的开发者，而不是终端用户；具体定价、可用性和交付方式在公开材料中未披露。
 inspiration: ''
-summary_en: ''
+summary_en: TypeSafe AI's Jev changes LLM output from natural language to structured decision values (categories,
+  yes/no, ratings) with confidence scores. It targets developers who need model judgments wired directly
+  into downstream pipelines rather than end users; pricing, availability and delivery details are not
+  disclosed in the public material.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -73,7 +76,7 @@ summary: "Last week  TypeSafe AI  unveiled  Jev , their first example of a new c
   \ \n    \n         Tags:  ai ,  generative-ai ,  llms"
 first_seen: '2026-09-21T23:09:20Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -84,7 +87,7 @@ sightings:
   kind: news
 ---
 
-# Jev introduces a new shape of LLM - System One, aka Decision Models
+# Jev
 
 Last week  TypeSafe AI  unveiled  Jev , their first example of a new category of model that they are calling "System One models" (I'm with Maggie Appleton, I think "decision models" is  a better name  for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores. 
  TypeSafe describe Jev like this: 

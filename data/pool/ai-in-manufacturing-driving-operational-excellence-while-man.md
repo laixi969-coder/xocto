@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNdWVYdms1S0JS
 summary: 'AI in Manufacturing: Driving Operational Excellence While Managing Workforce Risk Jackson Lewis'
 first_seen: '2026-09-21T17:51:35Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

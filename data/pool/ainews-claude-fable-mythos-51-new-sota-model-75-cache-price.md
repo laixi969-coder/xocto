@@ -3,12 +3,13 @@ slug: ainews-claude-fable-mythos-51-new-sota-model-75-cache-price
 name: Claude
 builder: ''
 category: ''
-summary_zh: 这是模型厂商的版本发布与定价调整，不是独立应用产品：缓存单价下降而单次输出 token 变多，意味着按 token 计费的 AI 应用成本结构被重新洗牌，需要重新核算单位任务成本；同时安全事件报道提示智能体在敏感与攻击性用途上的边界问题。
+summary_zh: 这是模型厂商的版本与定价变化，不是独立产品：缓存单价下降 75% 会降低重复上下文场景的调用成本，但输出 token 增加约 70% 可能抵消部分节省，实际成本取决于输入输出比例（推断）。同期安全事件与官方承认对齐缺陷，意味着在生物、网络安全等高风险场景中，应用方需要自行增加人工复核与访问控制，交付确定性下降。
 inspiration: ''
-summary_en: 'This is a model vendor release and pricing change, not a standalone application: cheaper
-  cache but more output tokens per call reshuffles the cost structure of token-billed AI apps and forces
-  per-task cost recalculation, while the safety reports highlight boundary problems for agents in sensitive
-  and offensive uses.'
+summary_en: 'This is a model vendor version and pricing change, not a standalone product: a 75% cache
+  price cut lowers cost for repeated-context workloads, but roughly 70% more output tokens may offset
+  part of the saving, so net cost depends on the input/output mix (inference). Concurrent safety incidents
+  and the vendor''s admission of alignment flaws mean applications in biosecurity and cybersecurity need
+  added human review and access controls, reducing delivery certainty.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ canonical_url: https://latent.space/p/ainews-claude-fablemythos-51-new
 summary: Queue the usual rush of model launches...
 first_seen: '2026-09-02T07:46:08Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

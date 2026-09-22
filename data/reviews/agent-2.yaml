@@ -401,3 +401,54 @@
     security scanning, and terminal commands into one autonomous execution entry point, reducing manual
     chaining; developers focused on terminal automation and security scanning would choose it when a multi-step
     task must be completed in one pass.'
+- id: req-full-agent-2-2026-09-22
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-09-22T01:23:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者把编码、安全扫描与终端操作多步任务交给自主代理执行的需求，痛点是手工串联命令与工具切换的琐碎与易错；公开材料仅有定位描述与仓库星标，无用户抱怨或案例，痛点刚性属工作流结构推理，交付闭环可确定。
+    evidence_ids:
+    - ev-09e7a72ca19f6cc4
+    - ev-7ab233022207225a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 101 增至 131，说明有开发者关注与收藏，但星标只属关注度证据，不能证明持续采用或强场景共识；公开材料未见用户评价、issue 讨论或使用场景描述，共识卡在感知与场景一环。
+    evidence_ids:
+    - ev-09e7a72ca19f6cc4
+    - ev-7ab233022207225a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费方式或客户采购记录，无法判断钱来自 to C 开发者订阅还是 to B 团队采购；这是判断而非已验证事实，但价值关已成立，不因此取消真需求判定。
+    evidence_ids:
+    - ev-09e7a72ca19f6cc4
+  - gate: truth
+    status: insufficient
+    reason: 产品定位贴近编码与终端自动化的第一性目标，但公开材料未说明自主执行的安全边界、人工确认机制与失败回滚方式，承诺能否确定性交付无法核验，存在自动化误操作风险。
+    evidence_ids:
+    - ev-09e7a72ca19f6cc4
+    - ev-2e08732d8972a16e
+  next_validation: 追踪 Agent-2 仓库的 README/部署文档与 issue、discussion，确认其自主执行的安全边界、人工确认机制及是否有用户报告实际使用场景。
+  market: ''
+  job: 开发者在终端或编码环境中处理代码仓库与运维脚本时，需要把「写代码、跑安全扫描、执行终端命令」这类多步任务交给一个自主代理，由它接收任务描述后自动执行并返回完成结果或操作日志。
+  job_en: Developers working in a terminal or coding environment need to hand multi-step tasks — writing
+    code, running security scans, executing terminal commands — to an autonomous agent that takes a task
+    description and returns completed results or an operation log.
+  pain: 这类任务需要在编辑器、扫描器和 shell 之间反复切换并手工串联命令，步骤琐碎、易漏执行、出错后排查成本高；公开材料只给出代理的定位描述，未提供用户抱怨或事故记录，痛点强度属工作流结构推理。
+  pain_en: These tasks require constant switching between editor, scanner and shell and manual command
+    chaining, which is tedious, easy to skip steps, and costly to debug; public material only gives the
+    agent's positioning, with no user complaints or incident records, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 当前替代方式是开发者手工编写代码、单独运行安全扫描工具，并在终端逐条执行命令；也可用通用代码助手补全片段，但多步编排仍需人工完成。
+  current_alternative_en: The current alternative is developers writing code by hand, running separate
+    security-scanning tools, and executing terminal commands one by one; generic code assistants can complete
+    snippets, but multi-step orchestration still stays manual.
+  usage_reason: 推断：相较手工串联命令与工具，Agent-2 把「接收任务描述—执行编码/扫描/终端操作—返回结果或日志」收敛为一次调用，省去在多个工具间切换和逐条敲命令的步骤，因此需要批量执行终端与安全任务的开发者会在重复性运维或扫描场景下选择它；公开材料尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: versus manually chaining commands and tools, Agent-2 collapses ''receive
+    task description — run coding/scanning/terminal operations — return results or logs'' into a single
+    invocation, removing tool-switching and command-by-command typing, so developers needing batch terminal
+    and security tasks would pick it for repetitive ops or scanning; public material has no user feedback
+    or retention evidence for this motive.'

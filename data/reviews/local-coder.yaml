@@ -1,0 +1,83 @@
+- id: req-initial-local-coder-2026-09-22
+  project_slug: local-coder
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地模型跑编码代理这件事，但公开材料没有说明原来谁在做、花多久、不做的后果，需求与痛点都还原不出来。
+    evidence_ids:
+    - ev-75bc35f78728a9c8
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量很小，没有采用、付费或重复使用的公开证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-75bc35f78728a9c8
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、客户案例或采购信息，买方与付费路径完全未知。
+    evidence_ids:
+    - ev-75bc35f78728a9c8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近编码工作的第一性目标，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-75bc35f78728a9c8
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际支持的本地模型、编排方式和用户报告的实际使用结果。
+  market: ''
+  job: 软件开发者在自己机器上处理一批代码修改任务时，需要把改动落到代码库里并保证可提交。
+  job_en: A software developer working through a batch of code changes on their own machine needs the
+    edits landed in the repository and committable.
+  pain: 公开材料只说明用本地模型组建编码代理团队，没有说明原来这一步由谁、用什么方式、花多久完成，也没有用户抱怨或替代行为的记录，痛点无法还原。
+  pain_en: The public material only says a team of coding agents is built with local models; it does not
+    say who did this step before, with what tool, or how long it took, and there is no record of user
+    complaints or workarounds, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未提供，无法确认开发者此前是用云端编码助手、本地脚本还是手工修改。
+  current_alternative_en: Not provided in the public material; it is unclear whether developers previously
+    used cloud coding assistants, local scripts or manual edits.
+  usage_reason: 缺少可核验的旧流程与用户反馈，无法说明它相较旧做法减少了哪一步负担，因此不能判断哪类用户会在什么情况下选择它；这是事实不足，不是结论。
+  usage_reason_en: With no verifiable prior workflow or user feedback, it is impossible to say which step
+    of burden it removes versus the old way, and therefore which users would choose it and when; this
+    is a lack of facts, not a conclusion.
+- id: req-full-local-coder-2026-09-22
+  project_slug: local-coder
+  level: full
+  reviewed_at: '2026-09-22T01:26:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地模型跑编码代理这件事，但公开材料没有说明原来谁在做、花多久、不做的后果，需求与痛点都还原不出来。
+    evidence_ids:
+    - ev-75bc35f78728a9c8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际支持的本地模型、编排方式和用户报告的实际使用结果。
+  market: ''
+  job: 软件开发者在自己机器上处理一批代码修改任务时，需要把改动落到代码库里并保证可提交。
+  job_en: A software developer working through a batch of code changes on their own machine needs the
+    edits landed in the repository and committable.
+  pain: 公开材料只说明用本地模型组建编码代理团队，没有说明原来这一步由谁、用什么方式、花多久完成，也没有用户抱怨或替代行为的记录，痛点无法还原。
+  pain_en: The public material only says a team of coding agents is built with local models; it does not
+    say who did this step before, with what tool, or how long it took, and there is no record of user
+    complaints or workarounds, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未提供，无法确认开发者此前是用云端编码助手、本地脚本还是手工修改。
+  current_alternative_en: Not provided in the public material; it is unclear whether developers previously
+    used cloud coding assistants, local scripts or manual edits.
+  usage_reason: 缺少可核验的旧流程与用户反馈，无法说明它相较旧做法减少了哪一步负担，因此不能判断哪类用户会在什么情况下选择它；这是事实不足，不是结论。
+  usage_reason_en: With no verifiable prior workflow or user feedback, it is impossible to say which step
+    of burden it removes versus the old way, and therefore which users would choose it and when; this
+    is a lack of facts, not a conclusion.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPR1YxcmUyVE1S
 summary: 一句话调用数据做分析，智能体助力政企AI能力进化 广州日报新花城
 first_seen: '2026-09-21T13:16:14Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

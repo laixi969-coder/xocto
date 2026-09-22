@@ -1,0 +1,86 @@
+- id: req-initial-makiroll-2026-09-22
+  project_slug: makiroll
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决独自拍摄时既要出镜又要盯画面的负担，但候选只有一句自述，说不清输入、动作与交付，痛点强度无法确认。
+    evidence_ids:
+    - ev-32b8487bb1d5bdfa
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 9 分 2 条评论，没有用户评价、案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-32b8487bb1d5bdfa
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、付费路径或买方信息，to C 订阅还是按次收费均属未知，不能据此判断商业路径。
+    evidence_ids:
+    - ev-32b8487bb1d5bdfa
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能确定性交付可用成片，也看不到人工确认边界，承诺与结果之间缺少可验证材料。
+    evidence_ids:
+    - ev-32b8487bb1d5bdfa
+  next_validation: 收集 makiroll 官方产品页或应用商店说明，确认它接收的输入、生成或编辑的具体动作以及最终交付物形态。
+  market: ''
+  job: 独自拍摄的普通用户在没人帮忙按快门、又不想一直盯着自己脸的情况下，对着相机说话完成一次拍摄并拿到成片。
+  job_en: Solo shooters who have nobody to press the shutter and dislike staring at their own face talk
+    to the camera to complete a take and get a finished result.
+  pain: 独自拍摄时用户既要出镜又要盯画面和构图，注意力被自我审视占满，容易反复重拍；候选材料没有给出用户抱怨或替代行为的直接证据，痛点强度属推断。
+  pain_en: Shooting alone forces users to be both subject and monitor, so attention is consumed by self-scrutiny
+    and retakes; the candidate material offers no direct evidence of user complaints or workarounds, so
+    pain intensity is inferred.
+  current_alternative: 用手机前置摄像头加三脚架或支架自拍，反复回看和重拍，或用提词器、语音控制快门等零散工具拼凑。
+  current_alternative_en: Phone front camera on a tripod or stand, repeated review and retakes, or a patchwork
+    of teleprompters and voice shutter controls.
+  usage_reason: 推断：如果它能把说话内容直接转成一次可用的拍摄结果，用户就不必在出镜和盯画面之间来回切换，也省掉反复回看重拍这一步，因此独自出镜、没人协助拍摄的人会愿意试。但候选资料未说明它具体接收什么、交付什么，这一因果链尚未被公开事实支持。
+  usage_reason_en: 'Inference: if it turns spoken input directly into a usable take, users no longer switch
+    between being on camera and monitoring the frame, skipping repeated review and retakes, which would
+    appeal to solo shooters with no help on set. The candidate material does not say what it takes in
+    or delivers, so this causal chain is not yet backed by public facts.'
+- id: req-full-makiroll-2026-09-22
+  project_slug: makiroll
+  level: full
+  reviewed_at: '2026-09-22T01:26:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决独自拍摄时既要出镜又要盯画面的负担，但候选只有一句自述，说不清输入、动作与交付，痛点强度无法确认。
+    evidence_ids:
+    - ev-32b8487bb1d5bdfa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 makiroll 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 独自拍摄日常照片或短视频的普通用户，在没人帮忙按快门、又不想一直盯着自己实时画面的情况下，对着相机说话完成一次拍摄并拿到成片。
+  job_en: Solo shooters taking everyday photos or short videos, with nobody to press the shutter and unwilling
+    to keep staring at their own live preview, talk to the camera to complete a take and get a finished
+    result.
+  pain: 公开材料只有一句自述，未说明用户抱怨、重拍次数或替代行为，独自拍摄时既要出镜又要盯构图的注意力负担属结构推断，痛点强度无公开证据支撑。
+  pain_en: The public material is a single self-description with no user complaints, retake counts, or
+    workaround behavior; the attention burden of being both subject and monitor while shooting alone is
+    structural inference, not evidenced pain intensity.
+  current_alternative: 手机前置摄像头配三脚架或支架自拍，反复回看和重拍，或用提词器、语音快门等零散工具拼凑。
+  current_alternative_en: Phone front camera on a tripod or stand with repeated review and retakes, or
+    a patchwork of teleprompters and voice shutter controls.
+  usage_reason: 推断：若它能把说话内容直接转成一次可用拍摄结果，用户就不必在出镜与盯画面之间来回切换，省掉反复回看重拍；但候选未说明它接收什么输入、执行什么动作、交付照片还是视频，因果链缺少公开事实支撑。
+  usage_reason_en: 'Inference: if it turns spoken input directly into a usable take, users would not switch
+    between being on camera and monitoring the frame, skipping repeated review and retakes; but the candidate
+    never states the input, the action taken, or whether it delivers a photo or video, so the causal chain
+    lacks public support.'

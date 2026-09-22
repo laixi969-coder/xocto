@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE1IVlpxQUthdUIx
 summary: 产业催化密集落地，AI算力链行情聚焦“订单验证” 新浪财经
 first_seen: '2026-09-21T11:58:33Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

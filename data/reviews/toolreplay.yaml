@@ -177,3 +177,52 @@
     supports deterministic replay, removing the manual step of matching timestamps and arguments and giving
     scope checks a reviewable result; inference, chosen by teams in regulated industries that already
     run agents during incident review or compliance checks.
+- id: req-full-toolreplay-2026-09-22
+  project_slug: toolreplay
+  level: full
+  reviewed_at: '2026-09-22T01:27:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写操作出错或越权后无法确定性还原现场、越权无据可查的问题，痛点刚性且不解决的后果明确；买方尚未在公开材料中出现，属工作流结构推理。
+    evidence_ids:
+    - ev-33d14d2fce683166
+    - ev-5309990e3af9e139
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 170 缓慢升至 183，属关注度而非持续采用；没有客户案例、issue 或团队使用反馈，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-33d14d2fce683166
+    - ev-c0fa1723cdf1d220
+  - gate: model
+    status: insufficient
+    reason: 开源命令行工具，未见定价页或商业主体，钱可能来自企业内部自建或后续商业版，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-5309990e3af9e139
+    - ev-9a87cf95af2f4d5a
+  - gate: truth
+    status: supported
+    reason: 审计目标贴近该工作的第一性目标，哈希链封存与确定性重放是可核对结果，结论仍需人工确认，边界清晰，未见夸大承诺。
+    evidence_ids:
+    - ev-21baef6af29587a4
+    - ev-3a029015c625a80f
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有团队报告在真实 agent 事故复盘或合规检查中使用它。
+  market: ''
+  job: AI 平台工程师或合规人员在 agent 已接入内部系统后，拿到某次任务的工具调用记录，要还原它调了哪些工具、传了什么参数、是否越权，以便向审计或事故复盘交代。
+  job_en: After agents are wired into internal systems, an AI platform engineer or compliance officer
+    takes a task's tool-call transcript and must reconstruct which tools were called, with what arguments,
+    and whether scope was exceeded, in order to answer an audit or incident review.
+  pain: agent 的写操作一旦出错或越权，团队手里只有零散日志，无法确定性重放当时发生了什么，追责和整改都缺依据；公开材料只给出产品能力，未提供用户抱怨或事故案例。
+  pain_en: When an agent's write action fails or overreaches, the team holds only scattered logs and cannot
+    deterministically replay what happened, leaving no basis for accountability or remediation; public
+    material shows only product capability, not user complaints or incident cases.
+  current_alternative: 靠通用日志平台、手工翻查调用记录，或干脆不做审计，出事后凭记忆和零散日志拼凑。
+  current_alternative_en: Generic log platforms, manually grepping call records, or no auditing at all,
+    reconstructing events from memory and scattered logs after an incident.
+  usage_reason: 相较翻日志，它把调用轨迹封存成可校验的哈希链并支持确定性重放，省掉人工比对时间戳与参数这一步，让越权检查有可复核结果；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with grepping logs, it seals the transcript into a verifiable hash chain and
+    supports deterministic replay, removing the manual step of matching timestamps and arguments and giving
+    scope checks a reviewable result; this is inference from product capability and task structure, not
+    yet confirmed by user feedback.

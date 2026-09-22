@@ -1,0 +1,89 @@
+- id: req-initial-how-v7-gives-ai-agents-institutional-memory-2026-09-22
+  project_slug: how-v7-gives-ai-agents-institutional-memory
+  level: initial
+  reviewed_at: '2026-09-22T00:50:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业资料分散、AI 处理时缺上下文与出处的问题，痛点具体且不采用就要人工翻找核对；买方与付费路径公开材料未说明。
+    evidence_ids:
+    - ev-72deb744e36d4814
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有一方发布的案例说明，没有独立评价、客户名单或采用规模，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-72deb744e36d4814
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计费方式与买方，钱来自 to B 还是 to VC 属推断，尚无付费路径证据。
+    evidence_ids:
+    - ev-72deb744e36d4814
+  - gate: truth
+    status: insufficient
+    reason: 来源链接是否可靠、人工确认边界如何划定均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-72deb744e36d4814
+  next_validation: 收集 V7 官方定价页或客户案例页面，确认计费方式与已披露的部署客户。
+  market: ''
+  job: 企业知识管理或业务团队在需要让 AI 处理内部资料时，把散落在网盘、邮件和文档系统里的公司文件交给 V7，整理成 agent 可调用的上下文，产出带来源链接的工作结果。
+  job_en: A corporate knowledge-management or business team, needing AI to work over internal material,
+    hands V7 company files scattered across drives, email and document systems so they become agent-callable
+    context and yield source-linked work output.
+  pain: 企业内部资料分散且格式不一，直接丢给模型容易漏掉关键文件或编造出处，人工翻找和核对引用耗时。
+  pain_en: Internal material is scattered and inconsistently formatted, so feeding it straight to a model
+    risks missing key files or fabricating sources, and manually locating and checking citations is slow.
+  current_alternative: 目前多由员工手工整理文件夹、复制粘贴到对话框，或由工程团队自建检索与向量库流程。
+  current_alternative_en: Today staff manually tidy folders and paste into chat windows, or an engineering
+    team builds its own retrieval and vector-store pipeline.
+  usage_reason: 相较手工整理与自建检索，V7 把文件整理成带来源链接的上下文，减少的是人工翻找与逐条核对出处这一步；需要可追溯引用的团队在交付前会倾向选它。这是基于产品能力的推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with manual tidying and self-built retrieval, V7 turns files into source-linked
+    context, removing the step of hunting for and checking each citation; teams that need traceable references
+    would lean toward it before delivery. This is inference from product capability, with no customer
+    case or retention evidence yet.
+- id: req-full-how-v7-gives-ai-agents-institutional-memory-2026-09-22
+  project_slug: how-v7-gives-ai-agents-institutional-memory
+  level: full
+  reviewed_at: '2026-09-22T01:25:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业资料分散、AI 处理时缺上下文与出处的问题，痛点具体且不采用就要人工翻找核对；买方与付费路径公开材料未说明。
+    evidence_ids:
+    - ev-72deb744e36d4814
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有一方发布的案例说明，没有独立评价、客户名单或采用规模，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-72deb744e36d4814
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计费方式与买方，钱来自 to B 还是 to VC 属推断，尚无付费路径证据。
+    evidence_ids:
+    - ev-72deb744e36d4814
+  - gate: truth
+    status: insufficient
+    reason: 来源链接是否可靠、人工确认边界如何划定均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-72deb744e36d4814
+  next_validation: 收集 V7 官方定价页或客户案例页面，确认计费方式与已披露的部署客户。
+  market: ''
+  job: 企业知识管理或业务团队在需要让 AI 处理内部资料时，把散落在网盘、邮件和文档系统里的公司文件交给 V7，由它整理成 agent 可调用的上下文，产出带来源链接的工作结果，人工再核对引用。
+  job_en: A corporate knowledge-management or business team, needing AI to work over internal material,
+    hands V7 company files scattered across drives, email and document systems so they become agent-callable
+    context and yield source-linked work output, with humans checking citations.
+  pain: 企业内部资料分散、格式不一，直接丢给模型容易漏掉关键文件或编造出处，人工翻找与逐条核对引用耗时，且出错后难以追溯。
+  pain_en: Internal material is scattered and inconsistently formatted, so feeding it straight to a model
+    risks missing key files or fabricating sources; manually locating and checking each citation is slow
+    and hard to trace when wrong.
+  current_alternative: 员工手工整理文件夹、复制粘贴到对话框，或由工程团队自建检索与向量库流程。
+  current_alternative_en: Staff manually tidy folders and paste into chat windows, or an engineering team
+    builds its own retrieval and vector-store pipeline.
+  usage_reason: 相较手工整理与自建检索，V7 把散落文件整理成带来源链接的上下文，减少的是人工翻找与逐条核对出处这一步，因此需要可追溯引用的团队在交付前会倾向选它。这是基于产品能力的推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with manual tidying and self-built retrieval, V7 turns scattered files into
+    source-linked context, removing the step of hunting for and checking each citation, so teams needing
+    traceable references would lean toward it before delivery. This is inference from product capability,
+    with no customer case or retention evidence yet.

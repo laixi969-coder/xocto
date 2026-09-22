@@ -78,3 +78,48 @@
   usage_reason: 用户要完成的任务是：模型评测与质量把关；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Model evaluation and quality assurance Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-jevals-2026-09-22
+  project_slug: jevals
+  level: full
+  reviewed_at: '2026-09-22T01:25:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型上线前逐条判定输出质量的需求，痛点是 LLM 评委打分口径不稳、结果不可复现，团队难以把判定接入评测流程；旧做法是提示词打分加人工复核，不解决的后果是回归比对不可靠。属工作流结构推理。
+    evidence_ids:
+    - ev-777af124758ce4d0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库层面的采用信号，没有用户评价、客户案例或持续使用证据，无法判断评测团队是否已把它留在工作流里。
+    evidence_ids:
+    - ev-777af124758ce4d0
+    - ev-b1b12210129c7551
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费记录，谁付钱、按什么收费尚不清楚；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-777af124758ce4d0
+  - gate: truth
+    status: insufficient
+    reason: 带类型判定规则能否稳定交付、与现有评测框架如何衔接，公开材料未给出可复现的部署或接口说明，人工与安全边界也未说明。
+    evidence_ids:
+    - ev-777af124758ce4d0
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认判定类型定义方式以及与现有评测框架的衔接接口是否有公开文档。
+  market: ''
+  job: AI 团队在模型上线前评估输出质量时，需要把一批模型输出逐条判定为合格或不合格，用于回归比对和发布决策。
+  job_en: Before shipping a model, an AI team needs to judge a batch of model outputs as pass or fail
+    for regression comparison and release decisions.
+  pain: 用另一个模型当评委打分时，评分口径不稳定、结果不可复现，团队难以把判定结果直接接入评测流程做比对，只能人工复核或反复调提示词。
+  pain_en: Using another model as a judge gives unstable, non-reproducible scores, so teams cannot plug
+    the verdicts into their evaluation pipeline for comparison and must re-check by hand or keep rewriting
+    prompts.
+  current_alternative: 当前做法是写提示词让 LLM 当评委打分，或人工抽样逐条阅读输出，再靠脚本把自由文本分数解析成可用字段。
+  current_alternative_en: Today teams prompt an LLM to score as a judge, or sample and read outputs by
+    hand, then parse free-text scores into usable fields with scripts.
+  usage_reason: 相较自由文本打分，它要求用户先定义带类型的判定规则，模型按规则返回结构化判定，省掉把非结构化评分解析成字段这一步，并让同一规则可重复用于回归比对；这是基于产品说明的工作流推断，尚无用户留存或复购证据。
+  usage_reason_en: Compared with free-text scoring, it has users define typed decision rules and returns
+    structured verdicts, removing the step of parsing unstructured scores into fields and making the same
+    rule reusable for regression comparison; this is workflow inference from the product description,
+    with no retention or repeat-use evidence yet.

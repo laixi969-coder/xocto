@@ -220,3 +220,48 @@
   usage_reason: 公开记录显示月访问 7.49M、环比 30%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 7.49M monthly visits and 30% month-over-month growth. That explains
     the attention, but product-level retention and payment are not yet verified.
+- id: req-full-codebuddy-tencetn-2026-09-22
+  project_slug: codebuddy-tencetn
+  level: full
+  reviewed_at: '2026-09-22T01:24:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“腾讯的写代码助手，插件、独立软件和命令行三种用法都能覆盖”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪腾讯 CodeBuddy 官网定价页与客户案例页，确认付费主体、计费方式及是否有企业部署或公开采用记录。
+  market: ''
+  job: 使用腾讯 CodeBuddy 的开发者（个人或团队）在编写、调试与交付代码时，通过 IDE 插件、独立客户端或命令行三种入口，把自然语言需求转成可运行代码、补全与修改建议，完成从写代码到提交的日常开发任务。
+  job_en: Developers (individuals or teams) using Tencent CodeBuddy write, debug, and ship code through
+    an IDE plugin, standalone client, or CLI, turning natural-language intent into runnable code, completions,
+    and edits across the daily write-to-commit workflow.
+  pain: 公开材料只说明它覆盖插件、独立软件与命令行三种形态，未提供用户抱怨、不采用代价或频率数据；可确认的痛点是开发者需要在不同入口间切换、手写样板与查文档的既有摩擦，但强度属结构推理而非用户证词。
+  pain_en: Public materials only show coverage of plugin, standalone app, and CLI; no user complaints,
+    cost-of-not-adopting, or frequency data is given. The identifiable pain is the existing friction of
+    switching entry points, writing boilerplate, and consulting docs, but its intensity is structural
+    inference, not user testimony.
+  current_alternative: 旧做法是开发者自行手写代码、查官方文档与搜索引擎、在 IDE 内使用基础补全，或改用 公开代码仓库 Copilot、通义灵码等同类编码助手；公开材料未说明 CodeBuddy
+    实际替代了哪一种。
+  current_alternative_en: The prior approach is hand-writing code, consulting official docs and search
+    engines, using basic IDE completion, or switching to peers such as public code repository Copilot
+    or Tongyi Lingma; public materials do not state which one CodeBuddy actually replaces.
+  usage_reason: 推断：相较手写加查文档的旧流程，CodeBuddy 把补全、生成与修改动作直接放进开发者已在用的 IDE、独立客户端或终端，减少切换窗口与复制粘贴这一步负担；因此已在腾讯生态或中文开发环境中的开发者，在需要快速产出样板代码或跨入口一致体验时会选择它。缺少留存与复购证据，不能声称已被长期留在工作流中。
+  usage_reason_en: 'Inference: versus hand-writing plus doc lookup, CodeBuddy places completion, generation,
+    and edits inside the IDE, standalone client, or terminal the developer already uses, removing the
+    step of switching windows and copy-pasting. Developers already in Tencent''s ecosystem or a Chinese-language
+    dev environment would pick it when they need fast boilerplate or a consistent cross-entry experience.
+    Without retention or repeat-use evidence, it cannot be claimed as long-term embedde'

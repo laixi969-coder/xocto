@@ -86,3 +86,45 @@
     saves and rules, theoretically cutting update cost; but with no user feedback or adoption record,
     it is unconfirmed that developers or players would choose it, and ''never ending'' is not itself a
     task that must be fulfilled.'
+- id: req-full-infinite-pokemon-2026-09-22
+  project_slug: infinite-pokemon
+  level: full
+  reviewed_at: '2026-09-22T01:25:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决无限内容供给，但公开材料只有一句功能描述与仓库星数，没有玩家痛点、旧流程替代行为或不采用的后果；无限冒险更像技术演示，缺少刚性需求证据。
+    evidence_ids:
+    - ev-f831f0ee8d59c680
+    - ev-3aba9067646d1302
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认是否有开发者实际把它接入项目或反馈生成内容的可用性。
+  market: ''
+  job: 独立开发者或同人创作者在做一个宝可梦式冒险时，用 Codex 生成地图、NPC 与分支存档，想交付一个可以持续玩下去、还能多人同玩的存档世界。
+  job_en: An indie developer or fan creator building a Pokémon-style adventure uses Codex to generate
+    maps, NPCs and branching saves, aiming to ship a save world that can keep being played and supports
+    multiplayer.
+  pain: 公开材料只说明它由 Codex 构建、内容由 AI 生成，没有玩家抱怨、开发者 workaround 或客户案例说明手工设计无限内容到底卡在哪一步；痛点强度只能靠推测。
+  pain_en: The public material only says it is built with Codex and generates content with AI; no player
+    complaint, developer workaround or customer case shows where hand-designing endless content actually
+    hurts, so pain intensity is only guessed.
+  current_alternative: 手工编写关卡与对白、用现成引擎和素材库做有限流程的独立游戏，或直接玩已有的宝可梦式作品。
+  current_alternative_en: Hand-authoring levels and dialogue, using existing engines and asset libraries
+    to ship a finite indie game, or simply playing existing Pokémon-style titles.
+  usage_reason: 推断：相较手工写关卡，它把生成地图与 NPC 这一步交给模型，开发者只需维护存档与规则；但公开材料没有用户反馈或案例说明有人因此选择它，缺少“不用也行”之外的真实采用理由。
+  usage_reason_en: 'Inference: versus hand-writing levels, it hands map and NPC generation to a model
+    while the developer maintains saves and rules; but no user feedback or case shows anyone choosing
+    it for that reason, so a real adoption motive beyond ''nice to have'' is missing.'

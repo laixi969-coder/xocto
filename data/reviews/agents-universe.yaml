@@ -281,3 +281,55 @@
     so members call the same agents and agents abstract material or work back into shared context, removing
     the repeated per-person organizing and syncing step, so teams sharing agents across members would
     pick it for collaboration.'
+- id: req-full-agents-universe-2026-09-22
+  project_slug: agents-universe
+  level: full
+  reviewed_at: '2026-09-22T01:23:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多智能体协作中上下文分散、重复喂料、成员无法复用智能体成果的痛点，公开说明支持共享智能体与项目上下文、自动总结经验；旧替代是手工复制提示词与聊天记录。这是工作流结构推理，尚无用户抱怨或案例直接佐证，但任务、痛点与交付闭环可还原。
+    evidence_ids:
+    - ev-2832e078434ee28e
+    - ev-5b2bfb067108c376
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 由 299 增至 319、子站由 110 增至 218，仅反映关注度上升，没有 issue、discussion、用户评价或客户案例说明谁在什么场景持续采用，无法判断共识卡在感知还是场景环节。
+    evidence_ids:
+    - ev-172aff74235611cd
+    - ev-1e71402d99cac11a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费记录或采购信息，买方是个人开发者、团队还是企业无法确认；开源项目可能靠托管服务或企业版变现，但这属于判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-2832e078434ee28e
+  - gate: truth
+    status: insufficient
+    reason: 共享智能体与项目上下文贴近协作第一性目标，但公开材料未说明记忆如何隔离、权限与安全边界如何设定，也未给出交付确定性证据，人工介入边界不清。
+    evidence_ids:
+    - ev-2832e078434ee28e
+    - ev-91c4dad04305eebc
+  next_validation: 追踪 agents-universe 官方仓库的 README、issue 与 discussion，确认共享记忆的权限模型、实际使用场景描述及是否有团队采用案例。
+  market: ''
+  job: 使用多个 AI 编码/研究智能体的开发者或项目成员，在跨会话、跨成员推进同一项目时，需要把智能体产出的结论、资料摘要和项目上下文沉淀到共享空间，让新加入的智能体或同事不必从零重建背景即可继续工作。
+  job_en: Developers or project members running multiple AI coding/research agents need to persist agent
+    outputs, document summaries and project context into a shared space so that newly added agents or
+    teammates can continue the work without rebuilding background from scratch.
+  pain: 公开材料显示其定位是共享智能体与项目上下文，并让智能体像人一样从资料或工作中抽象总结经验；这对应的是多智能体协作中上下文分散、每次会话重复喂料、成员之间无法复用彼此智能体成果的负担。这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: Public material positions it as sharing agents and project context, with agents abstracting
+    experience from documents or work like humans; this maps to fragmented context across multi-agent
+    work, repeated re-feeding each session, and members being unable to reuse each other's agent outputs.
+    This is inferred from product description and workflow structure, not from user complaints or cases.
+  current_alternative: 旧做法是每个开发者各自维护本地提示词、聊天记录和文档，靠手工复制粘贴把上下文带进新会话，或只用单个智能体串行处理，团队之间靠口头或文档同步智能体产出。
+  current_alternative_en: The old way is each developer keeping local prompts, chat logs and docs, manually
+    copy-pasting context into new sessions, or using a single agent serially, with agent outputs synced
+    across the team by word of mouth or documents.
+  usage_reason: 推断：相较手工搬运上下文，它把智能体与项目上下文放进共享空间，使新成员或新智能体可直接读取既有总结，减少重复描述项目背景这一步；因此多人在同一项目上并行使用智能体的团队，在需要交接或扩展智能体数量时会选择它。仓库
+    star 从 299 增至 319、子站从 110 增至 218 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manually moving context around, it places agents and project context
+    in a shared space so new members or agents can read existing summaries directly, removing the step
+    of re-describing project background; teams running agents in parallel on one project would pick it
+    when handing off or scaling agent count. Stars rising from 299 to 319 and the sub-site from 110 to
+    218 indicate attention, not sustained use.'

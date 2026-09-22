@@ -540,3 +540,56 @@
     so creators who need to batch-convert long videos into multilingual shorts would choose it in that
     situation; stars rising from 719 to 747 shows continued attention, but there is no retention or repeat-use
     evidence yet.'
+- id: req-full-short-video-generator-ai-2026-09-22
+  project_slug: short-video-generator-ai
+  level: full
+  reviewed_at: '2026-09-22T01:27:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频转竖屏短视频的高光筛选、字幕、翻译配音一体化需求，痛点是人工逐条剪辑耗时且发布节奏刚性；旧替代为 Premiere/剪映手动剪辑加外包翻译配音。仓库说明与 741→760
+      星增长显示持续有人关注，但采用动机属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-40de69f3c50390c6
+    - ev-e68c54588404c44d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 741 增至 760，说明开发者社区持续关注，但星标只属关注度证据，不能证明目标创作者已把它留在日常发布流程；缺少 issue、discussion 或用户评价说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-40de69f3c50390c6
+    - ev-e68c54588404c44d
+  - gate: model
+    status: insufficient
+    reason: 项目自述为免费开源，公开材料未见定价页、付费客户或采购记录，钱可能来自 to C 创作者自用或 to B 团队自部署，也可能仅靠捐赠与社区维护；这是判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-40de69f3c50390c6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句功能描述，未见部署文档、输出样例或可复现实测，无法确认高光检测与翻译配音的成片质量能否稳定交付，也未说明版权与人工审核边界。
+    evidence_ids:
+    - ev-40de69f3c50390c6
+  next_validation: 追踪该 公开代码仓库 仓库的 README/部署文档、issue 与 discussion，确认实际部署者是谁、替代了哪条旧剪辑流程，以及是否有输出样例或用户反馈。
+  market: ''
+  job: 内容创作者或短视频运营者手上已有一条长 YouTube 视频（如访谈、播客、课程），需要在发布节奏压力下把它切成多条带字幕、可翻译配音的竖屏短视频，用于 TikTok/Shorts/Reels
+    分发。
+  job_en: A content creator or short-video operator who already has a long YouTube video (interview, podcast,
+    course) needs to cut it into multiple vertical short clips with subtitles and translated voiceover
+    for TikTok/Shorts/Reels distribution under publishing-cadence pressure.
+  pain: 长视频转短视频需要先通看全片找高光，再手动剪辑、打轴字幕、翻译并录制配音，单条成片耗时以小时计；发布节奏要求高频产出，人工逐条处理成为产能瓶颈，且漏掉高光片段会直接损失播放量。
+  pain_en: Turning a long video into shorts requires watching the whole source to find highlights, then
+    manually cutting, timing subtitles, translating and recording voiceover; each clip costs hours, while
+    posting cadence demands high output, so manual per-clip processing becomes the throughput bottleneck
+    and missed highlights directly cost views.
+  current_alternative: 旧做法是人工用剪辑软件（Premiere/剪映等）通看全片、手动标记高光、逐条剪切并手动加字幕，翻译与配音另找工具或外包；也有创作者直接放弃长转短，只发长视频。
+  current_alternative_en: 'The old way is manual editing software (Premiere/CapCut etc.): watch the full
+    source, hand-mark highlights, cut clip by clip, add subtitles manually, and use separate tools or
+    outsourcing for translation and voiceover; some creators simply skip repurposing and only post the
+    long video.'
+  usage_reason: 推断：相较人工逐条剪辑，该开源项目把高光检测、字幕、翻译、配音串成一条流水线，用户只需提供 YouTube 链接即可拿到成片，省去通看全片和手动打轴这两步最耗时的环节，因此被发布节奏紧、预算有限、愿意自行部署的独立创作者和小团队选用；这是基于产品能力与旧流程的结构推理，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus manual clip-by-clip editing, this open-source project chains highlight
+    detection, subtitles, translation and voiceover into one pipeline, so the user only supplies a YouTube
+    link and gets finished clips, removing the two most time-consuming steps (watching the full source
+    and hand-timing subtitles); this is why cadence-pressured, budget-limited independent creators and
+    small teams willing to self-deploy would pick it. This is structural reasoning from produc'

@@ -78,3 +78,59 @@
   usage_reason: 用户要完成的任务是：安全研究员、AI 智能体开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Security researcher, AI agent developer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-hackbot-arena-2026-09-22
+  project_slug: hackbot-arena
+  level: full
+  reviewed_at: '2026-09-22T01:25:37Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是给 AI agent 的 Web 渗透能力提供可对比、可复现的评测，痛点是自建靶场与人工判分导致结果不可比、无法确认 agent 是否真解出；公开仓库说明提供 30
+      个基于真实 bug bounty 发现的 Docker 靶场、标准 flag 与参考解题脚本。这是工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+    - ev-48e443a628e76dde
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 40 增至 42，说明安全与 agent 开发者社区已注意到该基准；但收藏与关注度不能证明团队已把它纳入持续评测流程，也未见 issue 或 discussion
+      说明实际采用。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+    - ev-48e443a628e76dde
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与收藏数，没有定价、赞助或采购记录，无法判断钱来自 to C 研究者、to B 安全团队还是仅靠关注度；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述含标准 flag 与参考解题脚本，但公开材料未展示可复现的评测结果、靶场覆盖真实业务环境的程度，以及 agent 自动提交 flag 时的人工与安全边界。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+    - ev-48e443a628e76dde
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有团队公开报告用这 30 个靶场完成 agent 渗透能力的对比评测。
+  market: ''
+  job: 安全研究员或 AI 智能体开发者在评测自家 agent 的 Web 渗透能力时，把 agent 接入 30 个 Docker 靶场，由 agent 自行探测并提交 flag，用标准 flag
+    与参考解题脚本判定是否解出，得到可对比的通过结果。
+  job_en: A security researcher or AI-agent developer evaluating their agent's web-penetration ability
+    connects the agent to 30 Docker labs, lets it probe and submit flags, and uses canonical flags plus
+    reference solvers to judge whether each lab was solved, yielding a comparable pass result.
+  pain: 公开事实显示靶场基于真实 bug bounty 发现并配有标准 flag 与参考解题脚本；结构推理：没有统一靶场时，评测 agent 渗透能力只能靠零散自建环境或人工判分，结果不可比、不可复现，也无法判断
+    agent 是真解出还是碰巧命中。
+  pain_en: Public facts show the labs are inspired by real bug-bounty findings and come with canonical
+    flags and reference solvers; by structural inference, without a unified arena, evaluating an agent's
+    penetration ability relies on scattered self-built environments or manual scoring, making results
+    incomparable and unreproducible and leaving it unclear whether the agent truly solved a lab.
+  current_alternative: 旧做法是自建 Docker 靶场、拼凑公开 CTF 题目或人工判分；公开材料未说明是否已有同类 agent 渗透评测基准替代。
+  current_alternative_en: The old path is self-built Docker labs, pieced-together public CTF challenges,
+    or manual scoring; public materials do not show an existing agent-penetration benchmark replacing
+    it.
+  usage_reason: 推断：相较自建靶场与人工判分，该基准把 30 个 Docker 靶场、标准 flag 和参考解题脚本打包，agent 接入后自动提交 flag 并由标准答案判定，省去搭建环境与人工核对这一步，并让不同
+    agent 的通过结果可横向对比；因此正在开发或选型 Web 渗透 agent、需要可复现评测的团队会在模型对比或版本回归时选择它。
+  usage_reason_en: 'Inference: versus self-built labs and manual scoring, the benchmark packages 30 Docker
+    labs with canonical flags and reference solvers so an agent submits flags and is judged against standard
+    answers, removing environment setup and manual checking and making pass results comparable across
+    agents; teams building or selecting web-penetration agents that need reproducible evaluation would
+    pick it for model comparison or version regression.'

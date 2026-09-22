@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1ZzF6angydGxx
 summary: 平安期货总经理袁建峰：AI重塑期货行业客户服务模式 东方财富
 first_seen: '2026-09-21T18:00:03Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

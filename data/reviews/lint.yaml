@@ -267,3 +267,90 @@
   usage_reason: 缺少产品能力、规则格式与交付形态的公开事实，无法解释用户为何会选择它而非旧做法。
   usage_reason_en: Public facts about the product's capabilities, rule format, and delivery form are missing,
     so why users would choose it over the old approach cannot be explained.
+- id: req-initial-lint-2026-09-22
+  project_slug: lint
+  level: initial
+  reviewed_at: '2026-09-22T00:50:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计系统规则靠人记忆、评审漏检的问题，痛点具体且不采用会有不合规代码入库的后果，价值结构成立。
+    evidence_ids:
+    - ev-b0ba315357744816
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库说明与星标数，缺少团队采用、issue 讨论或用户反馈，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b0ba315357744816
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，买方与付费方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0ba315357744816
+  - gate: truth
+    status: insufficient
+    reason: 规则能否确定性交付、agent 检查的误报率与人工边界均无公开材料支持，尚不能确认交付可靠。
+    evidence_ids:
+    - ev-b0ba315357744816
+  next_validation: 收集该仓库的 issue、discussion 与 README 中关于规则格式、检查输出和误报处理的公开说明，以核验交付是否确定。
+  market: ''
+  job: 前端工程师或设计系统维护者在提交 Tailwind 组件代码时，需要按团队既有的设计系统规则逐条核对间距、颜色和组件用法，避免不合规代码进入代码库。
+  job_en: A frontend engineer or design-system maintainer, when committing Tailwind component code, must
+    check spacing, color and component usage against the team's existing design-system rules so non-compliant
+    code does not enter the codebase.
+  pain: 设计系统规则通常写在文档里，靠人记忆和代码评审口头提醒，规则一多就漏检，agent 生成代码后违规量进一步放大。
+  pain_en: Design-system rules usually live in docs and rely on memory and verbal review reminders; with
+    many rules, checks get missed, and agent-generated code multiplies violations.
+  current_alternative: 靠设计文档、代码评审人工比对，或使用通用 lint 规则与自定义 ESLint 插件，但后者难以表达设计系统语义。
+  current_alternative_en: Design docs and manual comparison during code review, or generic lint rules
+    and custom ESLint plugins, which struggle to express design-system semantics.
+  usage_reason: 推断：相较人工比对文档，它把设计系统规则写成 agent 可校验的条目并直接对代码执行检查，省去评审者逐条翻文档比对的步骤，因此规则条目较多的前端团队在提交前会选用它。
+  usage_reason_en: 'Inference: compared with manually comparing docs, it turns design-system rules into
+    agent-verifiable entries and checks code directly, removing the step of reviewers paging through docs
+    item by item, so frontend teams with many rules would adopt it before committing.'
+- id: req-full-lint-2026-09-22
+  project_slug: lint
+  level: full
+  reviewed_at: '2026-09-22T01:26:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计系统规则靠人记忆、评审漏检的问题，痛点具体且不采用会有不合规代码入库的后果，价值结构成立；谁付钱公开材料未说明，留待模式关。
+    evidence_ids:
+    - ev-b0ba315357744816
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库说明与星标数，缺少团队采用、issue 讨论或用户反馈，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b0ba315357744816
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，买方与付费方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0ba315357744816
+  - gate: truth
+    status: insufficient
+    reason: 规则能否确定性交付、agent 检查的误报率与人工边界均无公开材料支持，尚不能确认交付可靠。
+    evidence_ids:
+    - ev-b0ba315357744816
+  next_validation: 收集该仓库的 issue、discussion 与 README 中关于规则格式、检查输出和误报处理的公开说明，以核验交付是否确定。
+  market: ''
+  job: 前端工程师或设计系统维护者在提交 Tailwind 组件代码时，把团队既有的间距、颜色、组件用法规则写成可校验条目，让 agent 对代码逐条检查并给出违规位置，再决定是否修改。
+  job_en: A frontend engineer or design-system maintainer, when committing Tailwind component code, writes
+    the team's spacing, color and component-usage rules as verifiable entries, has an agent check the
+    code item by item and report violation locations, then decides whether to fix them.
+  pain: 设计系统规则通常散落在文档里，靠人记忆和代码评审口头提醒，规则一多就漏检；agent 生成代码后违规量进一步放大，不合规代码容易进入代码库。
+  pain_en: Design-system rules usually live scattered in docs and rely on memory and verbal review reminders;
+    with many rules, checks get missed, and agent-generated code multiplies violations, so non-compliant
+    code easily enters the codebase.
+  current_alternative: 靠设计文档与代码评审人工比对，或使用通用 lint 规则和自定义 ESLint 插件，但后者难以表达设计系统语义。
+  current_alternative_en: Manual comparison against design docs during code review, or generic lint rules
+    and custom ESLint plugins, which struggle to express design-system semantics.
+  usage_reason: 推断：相较评审者逐条翻文档比对，它把设计系统规则写成 agent 可校验条目并直接对代码执行检查，省去人工逐条比对的步骤，因此规则条目较多的前端团队会在提交前选用它。
+  usage_reason_en: 'Inference: compared with reviewers paging through docs item by item, it turns design-system
+    rules into agent-verifiable entries and checks code directly, removing the manual item-by-item comparison
+    step, so frontend teams with many rules would adopt it before committing.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1jYW45WXhnMkM4
 summary: Edge AI Daily 早报（9月1日） 钛媒体
 first_seen: '2026-09-01T00:28:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: universal-robots-unveils-gen-7-for-physical-ai-deployment
-name: Universal Robots Unveils Gen 7 for Physical AI Deployment
+name: Universal Robots Gen 7
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0h2b1A2blky
 summary: Universal Robots Unveils Gen 7 for Physical AI Deployment AI Magazine
 first_seen: '2026-09-21T16:17:59Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Universal Robots Unveils Gen 7 for Physical AI Deployment
+# Universal Robots Gen 7
 
 Universal Robots Unveils Gen 7 for Physical AI Deployment AI Magazine
 

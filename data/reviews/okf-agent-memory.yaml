@@ -589,3 +589,47 @@
     server and in-process BM25 search, removing the step of re-briefing the agent each session and keeping
     irrelevant content out of context; local-first developers who care about token cost and want auditable,
     revertible memory would therefore choose it for multi-session coding.'
+- id: req-full-okf-agent-memory-2026-09-22
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-22T01:26:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程代理跨会话丢失项目知识、token 膨胀的痛点，用 Git 原生 markdown 存储加嵌入式 MCP 检索交付持久记忆，痛点刚性且交付路径可确定；这是基于产品说明的工作流结构推理。
+    evidence_ids:
+    - ev-a860cfb8b94e97c2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 712 个收藏，说明开发者社区注意到它，但收藏数只属关注度证据，不能证明目标用户持续使用或付费。
+    evidence_ids:
+    - ev-a860cfb8b94e97c2
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费主体，可能靠托管或支持收费，这是判断而非已验证事实；谁付钱尚不清楚。
+    evidence_ids:
+    - ev-a860cfb8b94e97c2
+  - gate: truth
+    status: insufficient
+    reason: 它贴近代理记忆这一第一性目标，但 80% token 削减与亚 300µs 检索均为自述指标，缺少可复现的独立实测或部署文档佐证。
+    evidence_ids:
+    - ev-a860cfb8b94e97c2
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认实际部署方式、token 削减的可复现实测以及是否有用户报告持续使用。
+  market: ''
+  job: 软件工程师在使用 AI 编程代理处理项目代码时，需要让代理读取项目历史与知识，并控制上下文 token 消耗，完成跨会话的编码任务。
+  job_en: Software engineers using AI coding agents on project code need the agent to read project history
+    and knowledge while controlling context token consumption, completing coding tasks across sessions.
+  pain: AI 编程代理每次会话都要重新加载项目知识，导致 token 膨胀、上下文超限，代理反复丢失项目历史，工程师需手动重述背景。
+  pain_en: AI coding agents reload project knowledge each session, causing token bloat and context overflow;
+    the agent repeatedly loses project history and engineers must manually restate context.
+  current_alternative: 目前靠把项目知识塞进提示词、维护外部向量数据库或让代理每次重新读取文件，这些做法增加 token 消耗和外部依赖。
+  current_alternative_en: Today this is done by stuffing project knowledge into prompts, maintaining external
+    vector databases, or having the agent re-read files each time, all of which add token consumption
+    and external dependencies.
+  usage_reason: 推断：相较把知识塞进提示词或维护外部向量库，它用 Git 原生 markdown 存储记忆并通过嵌入式 MCP 服务器做内存 BM25 检索，减少每次会话重新加载项目知识的步骤，因此需要跨会话保持代理记忆的工程师会在本地编码场景选择它。
+  usage_reason_en: 'Inference: compared with stuffing knowledge into prompts or maintaining external vector
+    stores, it stores memory as Git-native markdown and retrieves it via an embedded MCP server with in-memory
+    BM25 search, removing the step of reloading project knowledge each session, so engineers needing persistent
+    agent memory across sessions would choose it for local coding.'

@@ -181,3 +181,53 @@
     and test runs into one automated pass that outputs a working environment, cutting the manual effort
     of locating why startup fails, so engineers who must quickly validate an unfamiliar Compose repository
     during evaluation would choose it.'
+- id: req-full-runtherepo-2026-09-22
+  project_slug: runtherepo
+  level: full
+  reviewed_at: '2026-09-22T01:26:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决陌生 Docker Compose 仓库跑不起来就无法验证的需求，痛点是依赖、环境变量与启动顺序缺文档导致手工逐条试错耗时；旧做法是照 README 手工装依赖并反复调试容器。这是基于产品说明与工作流结构的推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-f228f8a98c6af5c0
+    - ev-3d6d996832df78fc
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 120 增至 189 只说明关注度上升，属于规模信号；没有 issue、discussion、用户评价或团队采用证据，无法判断环境复现是否已被当作独立工作环节。
+    evidence_ids:
+    - ev-f228f8a98c6af5c0
+    - ev-07c312fc0c7c3532
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费方式或买方，按仓库数或运行次数向工程团队收费只是判断而非已验证事实；开源仓库本身也未显示商业转化路径。
+    evidence_ids:
+    - ev-f228f8a98c6af5c0
+  - gate: truth
+    status: insufficient
+    reason: 无法核验它在复杂多服务项目上的实际成功率、加固动作是否会误改配置，以及人工确认边界如何设定；这些直接决定交付能否确定性发生。
+    evidence_ids:
+    - ev-3d6d996832df78fc
+    - ev-07c312fc0c7c3532
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认用户实际提交的项目类型、运行成功或失败反馈，以及加固动作是否被接受。
+  market: ''
+  job: 后端或运维工程师在接手、评估或复现一个陌生的 公开代码仓库 Docker Compose 项目时，拿到仓库与 compose 配置，需要把它真正跑起来、跑通测试并确认配置是否安全，才能判断这个项目是否可用。
+  job_en: A backend or ops engineer taking over, evaluating or reproducing an unfamiliar public code repository
+    Docker Compose project receives the repository and compose config, and must actually get it running,
+    pass its tests and check whether the configuration is safe before judging whether the project is usable.
+  pain: 公开材料只说明它面向运行、测试与加固，未给出用户抱怨原文；从工作流看，陌生仓库的依赖版本、环境变量、端口与启动顺序常缺文档，手工逐条试错启动要反复调试容器配置，跑不起来就无法验证项目，这是接手与评估阶段的刚性阻塞。
+  pain_en: Public material only states it targets running, testing and hardening, with no verbatim user
+    complaints; structurally, unfamiliar repositories often lack documented dependency versions, env vars,
+    ports and startup order, so manual trial-and-error startup means repeated container debugging, and
+    without a running instance the project cannot be verified, a hard blocker at handover and evaluation.
+  current_alternative: 照 README 手工安装依赖、逐条试启动命令、本地反复调试 compose 与容器配置，或干脆放弃运行只读代码。
+  current_alternative_en: Installing dependencies by hand from the README, trying startup commands one
+    by one, repeatedly debugging compose and container configuration locally, or giving up on running
+    it and only reading the code.
+  usage_reason: 推断：相较手工逐条试错，它把装依赖、试启动、跑测试、加固配置合并为一次自动执行并交付可运行环境与测试结果，省去人工定位启动失败原因这一步；因此需要在评估或接手阶段快速确认陌生仓库能否跑通的工程师会在该场景选择它。
+  usage_reason_en: 'Inference: versus manual trial-and-error, it merges dependency install, startup attempts,
+    test runs and config hardening into one automated pass that delivers a working environment and test
+    results, removing the manual step of locating why startup fails; so engineers who must quickly confirm
+    an unfamiliar repository runs during evaluation or handover would choose it in that situation.'

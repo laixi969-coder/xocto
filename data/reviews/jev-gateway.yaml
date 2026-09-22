@@ -1,0 +1,81 @@
+- id: req-initial-jev-gateway-2026-09-22
+  project_slug: jev-gateway
+  level: initial
+  reviewed_at: '2026-09-22T00:50:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 agent 与决策服务之间的对接问题，但公开材料未说明旧流程负担与交付结果，价值结构不完整。
+    evidence_ids:
+    - ev-9c3d916b7a63990e
+  - gate: consensus
+    status: insufficient
+    reason: 100 星与 11 个未关闭 issue 只说明关注与待解问题，没有用户反馈说明谁在什么场景下依赖它。
+    evidence_ids:
+    - ev-9c3d916b7a63990e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费或商业路径，买方与付费方式均未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9c3d916b7a63990e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对转发结果是否确定交付、失败如何处理，承诺的可验证性不足。
+    evidence_ids:
+    - ev-9c3d916b7a63990e
+  next_validation: 查看该仓库未关闭 issue 的内容，确认开发者实际遇到的对接失败与维护负担。
+  market: ''
+  job: 开发者在让编码 agent 调用外部工具时，需要把推理请求可靠地转发到决策服务并取回可用结果。
+  job_en: Developers letting coding agents call external tools need to reliably forward reasoning requests
+    to a decision service and get usable results back.
+  pain: 公开材料只说明它是接入 jev 的便捷方式，没有说明旧做法中转发或集成环节的具体负担与失败代价。
+  pain_en: Public material only says it is an easy way to use jev and does not describe the concrete burden
+    or failure cost of forwarding or integration in the old approach.
+  current_alternative: 开发者通常自行编写胶水代码把 agent 与决策服务对接，具体替代方式未在材料中说明。
+  current_alternative_en: Developers typically write glue code to connect agents with the decision service;
+    the specific alternative is not described in the material.
+  usage_reason: 推断：若它省去自写对接代码并统一处理请求转发，维护多个 agent 的开发者可能采用；但星标与 fork 只反映关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: if it removes hand-written integration code and centralises request forwarding,
+    developers maintaining several agents might adopt it; but stars and forks only reflect attention and
+    do not prove sustained use.'
+- id: req-full-jev-gateway-2026-09-22
+  project_slug: jev-gateway
+  level: full
+  reviewed_at: '2026-09-22T01:25:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决 agent 与 jev 决策服务之间的请求转发对接，但公开材料只有一句定位与 100 星，未说明旧流程负担、失败代价与不采用后果，价值结构无法成立。
+    evidence_ids:
+    - ev-9c3d916b7a63990e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与未关闭 issue，确认开发者实际遇到的对接失败、替代的旧做法与维护负担。
+  market: ''
+  job: 开发者在给编码 agent 接入外部工具调用时，需要把 agent 的推理请求转发到 jev 决策服务并取回结果，再交回 agent 继续执行。
+  job_en: Developers wiring external tool calls into a coding agent need to forward the agent's reasoning
+    requests to the jev decision service and return usable results to the agent.
+  pain: 公开材料只给出项目定位与仓库数据，未说明旧做法中转发或集成环节的具体负担、失败代价与发生频率，痛点强度无法从公开事实确认。
+  pain_en: Public material only gives the project positioning and repository data; it does not describe
+    the concrete burden, failure cost, or frequency of the forwarding/integration step in the old approach.
+  current_alternative: 开发者通常自行编写胶水代码把 agent 与决策服务对接，具体替代方式未在材料中说明。
+  current_alternative_en: Developers typically write glue code to connect agents with the decision service;
+    the specific alternative is not described in the material.
+  usage_reason: 推断：若它省去自写对接代码并统一处理请求转发，维护多个 agent 的开发者可能采用；但 100 星只反映关注度，不能证明持续使用或替代旧做法的具体收益。
+  usage_reason_en: 'Inference: if it removes hand-written integration code and centralises request forwarding,
+    developers maintaining several agents might adopt it; but 100 stars only reflect attention and do
+    not prove sustained use or a concrete gain over the old approach.'

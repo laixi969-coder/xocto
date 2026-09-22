@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE4zX2RKTFV0TFdT
 summary: AI Startups Rush to Build Their Own Models, Pressuring OpenAI and Anthropic's Revenue Model finance.biggo.com
 first_seen: '2026-09-22T00:25:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -127,3 +127,50 @@
     it with use, removing the step of re-explaining field meaning, so teams maintaining one warehouse
     long term would consider it; however, with only 188 stars and no issue discussion or user feedback,
     there is no evidence of sustained use.'
+- id: req-full-evoontology-2026-09-22
+  project_slug: evoontology
+  level: full
+  reviewed_at: '2026-09-22T01:25:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 不懂字段业务含义、写出语义错误查询的问题，旧做法是人工维护数据字典或逐次粘贴表结构；这是从产品说明与旧流程作出的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-2f083f22a2fa2c44
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 158 增至 277 只反映开源关注度上升，没有 issue、discussion 或用户反馈证明本体层被持续用于真实数仓工作流。
+    evidence_ids:
+    - ev-2f083f22a2fa2c44
+    - ev-0b53bb263083f153
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、许可或商业支持路径，买方是自建团队还是企业采购无法从公开材料判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2f083f22a2fa2c44
+  - gate: truth
+    status: insufficient
+    reason: 本体自动进化是否引入错误语义、人工如何审核与回滚，公开材料未说明，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-2f083f22a2fa2c44
+  next_validation: 追踪该仓库的 issue 与 discussion，确认本体层在真实数据仓库中的接入方式、进化结果是否被人工审核，以及是否有用户反馈其持续使用。
+  market: ''
+  job: 数据工程师或数据分析师在让 Claude Code、Codex 等编码 agent 查询企业数据仓库时，处理数据表、字段与业务口径之间的关系，要让 agent 生成符合业务含义的查询而非仅语法正确的
+    SQL。
+  job_en: Data engineers or analysts, when having coding agents such as Claude Code or Codex query an
+    enterprise warehouse, work with tables, fields and business definitions so the agent produces queries
+    that match business meaning, not merely syntactically valid SQL.
+  pain: agent 只看到表名字段名，不知道字段的业务口径与表间关系，容易写出语义错误的查询；旧做法靠人工维护数据字典或每次把表结构粘贴进提示词，重复且易过期。
+  pain_en: Agents see only table and column names, not business definitions or relationships, so they
+    write semantically wrong queries; the old workaround is hand-maintained data dictionaries or pasting
+    schema into each prompt, which is repetitive and goes stale.
+  current_alternative: 人工维护数据字典与文档，或在每次提问时把表结构、字段说明粘贴给 agent，靠人工纠正错误查询。
+  current_alternative_en: Hand-maintained data dictionaries and docs, or pasting schema and field notes
+    into the prompt each time, correcting wrong queries manually.
+  usage_reason: 推断：相较每次粘贴表结构，它把本体层沉淀为可复用资产并随使用进化，省掉重复解释字段含义这一步，因此长期维护同一套数仓、反复让 agent 写查询的团队会考虑采用；公开材料尚未给出用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with pasting schema each time, it persists the ontology as a reusable
+    asset that evolves with use, removing the repeated step of re-explaining field meaning, so teams maintaining
+    one warehouse and repeatedly having agents write queries would consider it; public material still
+    lacks user feedback or retention evidence.'

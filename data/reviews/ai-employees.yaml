@@ -78,3 +78,54 @@
   usage_reason: 用户要完成的任务是：运营专员、市场专员、行政助理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: operations specialist, marketing specialist, administrative assistant
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-ai-employees-2026-09-22
+  project_slug: ai-employees
+  level: full
+  reviewed_at: '2026-09-22T01:24:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是小团队无专职运营/行政时，例行网页事务（查询、填表、收集）必须有人按日程手动完成的需求；痛点在于重复琐碎、无人盯就积压。公开材料给出 8 角色、60 例程、浏览器代操作与文件留存，可还原输入—动作—交付闭环，属工作流结构推理；用户抱怨与不采用代价尚无原始证据。
+    evidence_ids:
+    - ev-fb13f902c2311866
+    - ev-18d04eb97bc8b41c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 203 增至 322，说明开发者社区注意到它，但收藏与关注只属规模或关注度证据，不能证明目标用户持续使用或形成强场景；公开材料未见用户评价、案例或重复使用记录。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、付费主体或采购记录；钱可能来自 to C 开发者自用、to B 团队部署或后续商业支持，但均属判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺按日程用浏览器完成事务并留下文件，但公开材料未给出可复现的交付稳定性证据，也未说明人工核对与安全边界（如登录态、误操作回滚）如何界定，承诺能否确定性交付仍待公开文档核验。
+    evidence_ids:
+    - ev-fb13f902c2311866
+    - ev-18d04eb97bc8b41c
+  next_validation: 追踪该仓库的 README/文档、issue 与 discussion，确认是否有用户公开描述具体部署场景、替代的旧流程与运行结果。
+  market: ''
+  job: 没有专职运营、市场、行政人员的小团队或个体经营者，在需要按日程处理例行事务（如信息查询、表单填写、资料收集）时，打开这个开源项目，让按日程触发的角色用浏览器代替自己操作网页，最后拿到它跑完后留下的文件与执行记录，再自行核对结果。
+  job_en: A small team or solo operator without dedicated ops, marketing, or admin staff opens this open-source
+    project when recurring chores (lookups, form filling, information gathering) come due, lets scheduled
+    roles drive the browser on their behalf, and ends up with the files and run records left behind, which
+    they still verify themselves.
+  pain: 公开材料只给出 8 个角色、60 个例程和浏览器代操作能力，未提供用户抱怨、频率或不采用代价的原始证据；从工作流结构推断，痛点是这些例行网页事务重复、琐碎、必须有人盯着做，而小团队没有专职人手，不做就会积压或漏掉。
+  pain_en: Public materials only give 8 roles, 60 routines, and browser-driving capability, with no raw
+    user complaints, frequency, or cost-of-inaction evidence; inferred from workflow structure, the pain
+    is that these recurring web chores are repetitive, trivial, and need someone watching them, while
+    small teams have no dedicated staff, so skipping them causes backlog or misses.
+  current_alternative: 当前替代方式推断为：创始人或小团队成员自己手动在浏览器里逐项完成，或使用通用自动化脚本、RPA 工具、浏览器插件，或干脆不做、延后处理。公开材料未说明它实际替代了哪一种。
+  current_alternative_en: 'The current alternative is inferred to be: the founder or a small-team member
+    doing each item manually in the browser, or using generic automation scripts, RPA tools, or browser
+    extensions, or simply skipping and deferring. Public materials do not say which one it actually replaces.'
+  usage_reason: 推断：相较手动逐项操作或自建脚本，它把“按日程触发 + 用浏览器执行 + 留下文件与执行记录”打包成可直接运行的角色与例程，用户少写调度和浏览器自动化代码这一步；因此没有专职运营/行政、又愿意自己核对结果的小团队会在例行事务到期时选择它。这是基于产品能力与任务结构的推断，尚无用户反馈或案例证实。
+  usage_reason_en: 'Inference: versus manual item-by-item work or self-built scripts, it packages scheduled
+    triggering, browser execution, and leftover files plus run records into runnable roles and routines,
+    sparing the user the step of writing scheduling and browser-automation code; so small teams without
+    dedicated ops/admin staff who are willing to verify results themselves would pick it when recurring
+    chores come due. This is inferred from product capability and task structure, not yet confi'

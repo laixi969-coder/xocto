@@ -185,3 +185,59 @@
     them via a JSON API, MCP server, and CLI, replacing page-by-page copying with programmatic retrieval
     and removing the cross-database search-and-assembly step; clinical researchers and pharma intelligence
     staff who need to feed oncology entries into their own search or intelligence workflows'
+- id: req-full-onco-2026-09-22
+  project_slug: onco
+  level: full
+  reviewed_at: '2026-09-22T01:26:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决肿瘤信息分散在文献库、试验注册库与机构页面之间、用户需反复翻找并自行核对来源的需求；公开材料显示 Oncolink 与 ONCO Inc. 等既有替代存在，说明该任务真实且已有工作流，但痛点刚性属结构推理，尚无用户反馈量化不解决的后果。
+    evidence_ids:
+    - ev-07e507b469eb4787
+    - ev-15182a567edf9cc8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未提供 OnCo 自身的访问量、收藏、下载或用户评价，无法判断目标用户是否已注意到或持续使用；现有证据仅指向 Oncolink 与 ONCO Inc. 等相邻产品，不能归因到
+      OnCo。
+    evidence_ids:
+    - ev-07e507b469eb4787
+    - ev-15182a567edf9cc8
+  - gate: model
+    status: insufficient
+    reason: 未见 OnCo 自身定价页、付费主体或采购记录；公开材料中的 Oncolink 与 ONCO Inc. 页面不能证明 OnCo 的收费路径，谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-15182a567edf9cc8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供 OnCo 的部署文档、可复现实测或人工审核边界说明，无法核验带引用条目与 API 输出能否确定性交付，以及医学内容的安全与人工复核责任如何划分。
+    evidence_ids:
+    - ev-07e507b469eb4787
+  next_validation: 追踪 OnCo 官网是否公开定价页或客户案例，以及其 JSON API / MCP server 的部署文档与公开 issue、discussion，确认实际使用场景与付费路径。
+  market: ''
+  job: 肿瘤科医生、临床研究者或医药情报人员在查某个癌种、靶点、试验或机构时，需要把文献库、试验注册库和机构页面里的分散材料汇总成一份可引用的条目，或通过 JSON API、MCP server、CLI
+    把结构化肿瘤学数据接入自己的分析流程。
+  job_en: Oncologists, clinical researchers, or pharma intelligence staff who need to assemble scattered
+    literature, trial registry, and institutional material into a citable entry for a cancer type, target,
+    trial, or institution, or to pull structured oncology data into their own analysis via JSON API, MCP
+    server, or CLI.
+  pain: 公开材料显示肿瘤信息分散在文献库、试验注册库与机构页面之间，用户需要反复翻找并自行核对来源；OnCo 试图把这一检索与整理负担压缩为按实体一页、带引用的条目，但公开证据未量化不解决的具体代价与频率。
+  pain_en: Public materials show oncology information is scattered across literature databases, trial
+    registries, and institutional pages, forcing users to search repeatedly and verify sources themselves;
+    OnCo tries to compress this retrieval and assembly burden into one cited page per entity, though public
+    evidence does not quantify the cost or frequency of leaving it unsolved.
+  current_alternative: 当前替代方式包括在文献库、试验注册库和机构页面之间手动来回翻找，以及使用 Oncolink 这类患者教育材料导航工具或 ONCO Inc. 这类肿瘤数据管理软件；OnCo
+    的公开材料未说明它实际替代了其中哪一种具体流程。
+  current_alternative_en: Current alternatives include manually searching across literature databases,
+    trial registries, and institutional pages, as well as patient-education navigation tools like Oncolink
+    or oncology data management software like ONCO Inc.; OnCo's public materials do not show which specific
+    workflow it replaces.
+  usage_reason: 推断：相较在多个数据库间手动翻找并逐条核对，OnCo 通过按癌症、疗法、靶点、试验、机构、人物各一页的公开知识图谱，并同时提供 JSON API、MCP server 和
+    CLI，让用户直接取用带引用的条目或结构化数据，减少检索与格式整理步骤；因此需要程序化接入肿瘤学数据或快速获取带引用条目的临床研究者与医药情报人员，会在其工作流中选用它。
+  usage_reason_en: 'Inference: compared with manually searching multiple databases and verifying each
+    item, OnCo offers a public knowledge graph with one page per cancer, treatment, target, trial, institution,
+    and person, plus a JSON API, MCP server, and CLI, letting users directly consume cited entries or
+    structured data and reducing retrieval and formatting steps; therefore clinical researchers and pharma
+    intelligence staff who need programmatic oncology data access or quick cited entries woul'

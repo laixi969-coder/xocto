@@ -1,11 +1,14 @@
 ---
 slug: cloudflare-python-workers-are-now-generally-available
-name: Cloudflare Python Workers are now generally available
+name: Cloudflare Python Workers
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是 Cloudflare 开发者平台的一项运行时能力变化，不是独立产品：原本只能用 JavaScript 等语言编写的边缘函数，现在可以直接用 Python 编写并部署，开发者拿到的是可部署的服务端函数，而不是一个可独立购买的应用。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a runtime capability change on Cloudflare''s developer platform rather than a standalone
+  product: edge functions that previously had to be written in JavaScript and similar languages can now
+  be written and deployed in Python, and what developers get is a deployable server-side function, not
+  an independently purchasable application.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -33,7 +36,7 @@ summary: "Cloudflare Python Workers are now generally available   \nAfter a two 
   \ ,  cloudflare ,  webassembly ,  pyodide"
 first_seen: '2026-09-21T22:25:44Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -44,7 +47,7 @@ sightings:
   kind: news
 ---
 
-# Cloudflare Python Workers are now generally available
+# Cloudflare Python Workers
 
 Cloudflare Python Workers are now generally available   
 After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: "Python is now a first-class, fully supported language on the Cloudflare Developer Platform". 

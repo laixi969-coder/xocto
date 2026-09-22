@@ -124,7 +124,7 @@ summary: "周日（昨天）[本地优先会议](\r\nhttps://www.v2ex.com/t/1242
   \n\r\n我一会儿咨询一下你的意见。好，大概就这样。\r\n\r\n好，谢谢。\r\n\r\n那就这样，有什么问题群里交流。再见。\r\n\r\n好，拜拜。"
 first_seen: '2026-09-21T17:57:04Z'
 last_seen: '2026-09-22T00:50:19Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

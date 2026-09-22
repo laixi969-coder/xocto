@@ -22,7 +22,7 @@ summary: 'Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 1
   cost and API examples. CC0, sponsored by AY Automate.'
 first_seen: '2026-09-19T18:01:10Z'
 last_seen: '2026-09-22T00:50:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

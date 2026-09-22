@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Ta0hhTVZEbGFq
 summary: 画AI大饼翻车！苹果掏16亿和解，这批iPhone用户可以申请理赔了 雷科技
 first_seen: '2026-09-21T09:54:25Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

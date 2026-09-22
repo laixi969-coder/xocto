@@ -128,3 +128,52 @@
   usage_reason_en: 'Inference: it merges auditioning, license checking and mixing-parameter calculation
     into one call, so editors no longer switch between a music site and an editor and get an executable
     plan, which is why solo creators and small post teams would try it under deadline.'
+- id: req-full-sonic-match-mcp-2026-09-22
+  project_slug: sonic-match-mcp
+  level: full
+  reviewed_at: '2026-09-22T01:27:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决成片配乐选曲、商用授权核对与混音参数生成这一具体环节，旧做法是曲库试听加手动调参，痛点刚性在于版权风险与返工，不采用则需自行承担授权与对齐成本；此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+    - ev-e846a75641263c37
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 45 增至 80，说明开发者关注度在上升，但只有星标与复刻类行为，缺少用户评价、客户案例或社区讨论，无法判断剪辑师是否把它放进日常流程。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+    - ev-e846a75641263c37
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是个人创作者、后期团队或代理工具方，这是判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: truth
+    status: insufficient
+    reason: 可商用授权曲库的来源、匹配准确度与 ffmpeg 参数是否可直接执行均未在公开材料中说明，若授权不实或匹配偏差大，交付确定性会打折。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+    - ev-17263c54aebe6c5c
+  next_validation: 追踪该仓库 README 与 issue/discussion，核验其音乐授权来源、匹配准确度说明以及是否有真实剪辑工作流的使用反馈。
+  market: ''
+  job: 短视频剪辑师或内容运营在成片后期，面对一段已剪好的视频素材，需要选出可商用授权的背景音乐、确定开场钩子时间窗，并拿到可直接执行的 ffmpeg 混音与压低人声参数。
+  job_en: A short-video editor or content operator in post-production, holding a finished cut, needs to
+    pick license-safe background music, decide the opening hook window, and obtain executable ffmpeg mixing
+    and ducking parameters.
+  pain: 公开说明显示该环节要同时处理选曲、授权核对与混音参数三件事：曲库试听耗时、商用授权容易踩版权风险、节拍对齐与音量包络靠经验反复调，返工成本高。
+  pain_en: 'The public description shows this step combines track selection, license checking and mixing
+    parameters: auditioning stock music is slow, commercial licensing carries copyright risk, and beat
+    alignment plus volume envelopes are tuned by experience with high rework cost.'
+  current_alternative: 在曲库网站手动搜索试听，人工核对授权条款，再在剪辑软件里手动对齐节拍、设置音量包络和压低人声。
+  current_alternative_en: Manually searching and auditioning on stock music sites, checking license terms
+    by hand, then aligning beats and setting volume envelopes and ducking manually in an editor.
+  usage_reason: 推断：相较曲库试听加手动调参的旧流程，它把选曲、授权过滤、钩子时间窗和 ffmpeg 混音参数合并为一次调用并直接返回可执行方案，减少在曲库与剪辑软件之间来回切换和手动试参数这两步负担，因此赶片期的独立创作者与小型后期团队会优先试用；但尚无用户反馈证明其已长期留在工作流中。
+  usage_reason_en: 'Inference: versus auditioning on stock sites plus manual tuning, it merges track selection,
+    license filtering, hook windows and ffmpeg mixing parameters into one call returning an executable
+    plan, cutting the switching between music site and editor and the manual parameter trial-and-error,
+    so solo creators and small post teams under deadline would try it first; no user feedback yet shows
+    it is retained long-term in the workflow.'

@@ -202,3 +202,48 @@
   usage_reason: 无法从公开事实说明哪类用户会在什么情况下选择它；现有证据与 PiX 产品无关，不能支持使用理由。
   usage_reason_en: No public fact shows which users would choose it under what circumstances; the available
     evidence is unrelated to the PiX product and cannot support a usage reason.
+- id: req-full-pix-2026-09-22
+  project_slug: pix
+  level: full
+  reviewed_at: '2026-09-22T01:26:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多步骤 agent 会话难以并行分支的问题，但公开证据全部是 Pixabay、巴西 Pix 支付、法国 Pix 数字技能认证等同名无关材料，没有任何 PiX 分支工作台自身的用户任务、痛点或替代行为，需求与痛点无法还原。
+    evidence_ids:
+    - ev-9d8f59c0953fe0b6
+    - ev-c98e8b7a3ddb64ae
+    - ev-540a348945b45d8e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 PiX 分支工作台自身的官方仓库 README、issue 与 discussion，确认是否存在真实用户描述其替代的旧流程与使用场景。
+  market: ''
+  job: 软件工程师或 AI 应用开发者在使用 AI agent 处理多步骤编码或调研任务时，把一次会话交给 PiX，希望把线性对话组织成可分支的树，在任意节点分叉并让上下文跟随分支，以并行探索不同方案。
+  job_en: A software engineer or AI application developer running a multi-step coding or research task
+    with an AI agent hands the session to PiX, expecting the linear conversation to become a branchable
+    tree where they can fork at any node and have context follow that branch to explore alternatives in
+    parallel.
+  pain: 公开材料只给出产品自述的分支与上下文跟随机制，没有任何用户反馈、抱怨或 workaround 说明线性会话在什么情况下造成具体损失、发生频率或后果，因此痛点无法从公开事实中还原。
+  pain_en: Public materials only state the product's own branching and context-following mechanism; no
+    user feedback, complaint, or workaround shows what concrete loss a linear session causes, how often,
+    or with what consequence, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者目前如何处理多方案并行探索，例如手动复制会话、开多个窗口、用 git 分支配合笔记，还是干脆串行重试；替代方式缺失。
+  current_alternative_en: Public materials do not show how developers currently handle parallel exploration
+    of alternatives, e.g. duplicating sessions, opening multiple windows, pairing git branches with notes,
+    or simply retrying serially; the alternative is missing.
+  usage_reason: 无法从公开事实说明用户为何选择它：没有用户反馈或案例支持动机，也没有可核对的交付结果，只能推断分支树可能减少手动复制会话的步骤，但这一推断缺少任何公开证据锚点。
+  usage_reason_en: 'There is no public basis for why a user would choose it: no user feedback or case
+    supports the motivation, and no checkable delivery outcome exists; one can only infer that a branch
+    tree might cut manual session duplication, but that inference has no public evidence anchor.'

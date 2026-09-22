@@ -440,3 +440,43 @@
   usage_reason_en: Public materials provide no user feedback or adoption evidence to explain why a developer
     would choose this over manual review; a product feature description alone does not constitute a usage
     reason.
+- id: req-full-approving-2026-09-22
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-09-22T01:24:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该项目的官方部署文档或仓库 README，确认其 Docker 沙箱配置、审批节点定义与回滚机制的具体实现。
+  market: ''
+  job: 开发者在让编码 AI 执行代码修改任务时，需要在隔离环境中运行 AI，并在关键节点暂停等待人工批准后才继续。
+  job_en: A developer, when letting a coding AI perform code modification tasks, needs to run the AI in
+    an isolated environment and pause at critical steps for human approval before continuing.
+  pain: 编码 AI 直接操作代码库可能产生不可逆的破坏性变更，缺乏隔离与人工审批节点会让开发者不敢放手使用。
+  pain_en: A coding AI directly operating on a codebase may produce irreversible destructive changes,
+    and the lack of isolation and human approval nodes makes developers hesitant to use it freely.
+  current_alternative: 目前开发者多依赖本地 Git 分支、手动审查 AI 生成的 diff，或使用简单沙箱工具，审批与回滚靠人工操作。
+  current_alternative_en: Today developers mostly rely on local Git branches, manually review AI-generated
+    diffs, or use simple sandbox tools, with approval and rollback done manually.
+  usage_reason: 推断：若该平台能在真实 Docker 沙箱中运行编码 AI，并在关键节点暂停等待人工批准、交换结构化产物，可省去手动审查 diff 与搭建隔离环境这一步，开发者在处理高风险代码变更时可能选择它；但公开材料未给出具体部署与审批流程细节，也无用户反馈支持这一判断。
+  usage_reason_en: 'Inference: if the platform can run coding AI in real Docker sandboxes, pause at critical
+    nodes for human approval, and exchange structured artifacts, it removes the step of manually reviewing
+    diffs and setting up isolation, which developers might choose when handling high-risk code changes;
+    however, public materials give no deployment or approval flow details and no user feedback supports
+    this judgment.'

@@ -299,3 +299,58 @@
     of configuring machines one by one, isolating directories by hand and cleaning up afterwards; platform
     teams that must provide a unified dsh runtime to multiple members on an internal network would choose
     it when self-building costs too much, though public material has no user feedback or '
+- id: req-full-dsh-cloud-2026-09-22
+  project_slug: dsh-cloud
+  level: full
+  reviewed_at: '2026-09-22T01:24:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队内多人共用 DeepSeek Harness 时的环境隔离与配额分配需求，痛点在于自建容器与手工配额反复消耗平台工程师精力且易出错；公开材料已给出隔离工作区、持久存储、访问控制与配额四项交付动作，可还原输入—动作—交付闭环，属工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-084935ca07fdf050
+    - ev-4ee42fd53bc22fd1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 70 缓慢升至 83，属关注度信号，不能证明持续采用；没有 issue、discussion 或客户案例说明团队是否真的部署，因此无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-084935ca07fdf050
+    - ev-4ee42fd53bc22fd1
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，未披露托管定价、订阅档位或采购记录，钱可能来自自托管团队自建成本节省，也可能来自未来托管订阅，属判断而非已验证事实；公开材料未说明买方是 to B 团队还是 to
+      VC。
+    evidence_ids:
+    - ev-084935ca07fdf050
+    - ev-e0897f026fa800c5
+  - gate: truth
+    status: insufficient
+    reason: 隔离容器与资源配额是否在真实多租户负载下确定性交付、访问控制与人工边界如何设定，公开材料均未给出部署文档或实测结果，无法核对承诺兑现程度。
+    evidence_ids:
+    - ev-084935ca07fdf050
+    - ev-b266bd68f23db3c1
+  next_validation: 追踪 dsh-cloud 仓库的 issue 与 discussion，确认是否有团队实际部署并反馈隔离、配额与运维负担。
+  market: ''
+  job: 研发团队的平台或基础设施工程师要在公司内网或自有服务器上部署 DeepSeek Harness，为多名成员各自分配隔离容器、持久工作区和资源配额，让成员能并行使用编码代理而不互相污染环境。
+  job_en: Platform or infrastructure engineers on an R&D team need to deploy DeepSeek Harness on an internal
+    network or their own server, giving each member an isolated container, persistent workspace and resource
+    quota so members can use the coding harness in parallel without polluting each other's environments.
+  pain: 公开材料只说明它提供隔离工作空间、持久存储、访问控制与资源配额，未直接描述旧流程痛点；按工作流结构推理，多人共用一套 dsh 实例时，工作区互相覆盖、会话状态丢失、单成员占满算力是自建方案要反复处理的负担，但这是推断而非用户口述。
+  pain_en: The public material only states that it provides isolated workspaces, persistent storage, access
+    control and resource quotas, without directly describing the old workflow's pain; by workflow-structure
+    inference, when several people share one dsh instance, overwritten workspaces, lost session state
+    and one member exhausting compute are recurring burdens of self-building, but this is inference, not
+    user testimony.
+  current_alternative: 团队自行用 Docker、调度工具和手工脚本为每个成员搭一套 dsh 运行环境，并自行维护持久卷与配额；候选资料未给出任何实际替代行为的描述，此替代方式为结构推理。
+  current_alternative_en: Teams assemble a dsh runtime per member themselves using Docker, scheduling
+    tools and manual scripts, maintaining persistent volumes and quotas on their own; the candidate material
+    gives no description of actual alternative behavior, so this alternative is structural inference.
+  usage_reason: 推断：相较自建容器与手工配额，dsh-cloud 把实例创建、隔离容器、持久工作区和资源配额收敛为一次多租户部署动作，减少逐成员手工配置与事后清理这一步负担，因此需要在内网给多人开
+    dsh 且不愿自维护编排的平台工程师会在团队扩容时选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with self-built containers and manual quotas, dsh-cloud collapses
+    instance creation, isolated containers, persistent workspaces and resource quotas into one multi-tenant
+    deployment action, removing the step of per-member manual configuration and later cleanup, so platform
+    engineers who must open dsh to several people on an internal network and do not want to maintain orchestration
+    themselves would choose it when the team grows; no user feedback or case yet'

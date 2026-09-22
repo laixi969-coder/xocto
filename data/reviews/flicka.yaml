@@ -1,0 +1,87 @@
+- id: req-initial-flicka-2026-09-22
+  project_slug: flicka
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是发布演示素材的制作，但公开材料未说明替代了录屏、剪辑还是配音中的哪一步，也无可观察的旧流程，需求强度无法判定。
+    evidence_ids:
+    - ev-e6232789f24472ce
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品简介外没有用户评价、社区讨论或采用信号，无法判断是否有人真的把它放进发布流程。
+    evidence_ids:
+    - ev-e6232789f24472ce
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从 to C 还是 to B 来；这是未知，不是已验证事实。
+    evidence_ids:
+    - ev-e6232789f24472ce
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成的演示是否忠实还原真实产品界面，也未说明人工确认边界，交付确定性未知。
+    evidence_ids:
+    - ev-e6232789f24472ce
+  next_validation: 收集 Flicka 官方定价页或公开使用数据，确认其收费方式与是否有团队持续用于发布流程。
+  market: ''
+  job: 独立开发者或小型 SaaS 团队的产品营销人员，在准备发布页或推广素材时，处理自己产品的界面和操作流程，要产出一段可直接发布的演示内容。
+  job_en: A product marketer at an indie developer or small SaaS team preparing a launch page or promo
+    asset works from their own product interface and user flows to produce a demo clip that can be published
+    directly.
+  pain: 公开材料只说明它能从浏览器扩展生成演示，没有说明替代了录屏、剪辑、配音中的哪一步，也没有用户抱怨或旧做法描述，痛点强度无法确认。
+  pain_en: The public material only says it generates demos from a browser extension; it does not say
+    which step of recording, editing or voice-over it replaces, and there are no user complaints or descriptions
+    of the old workflow, so pain intensity cannot be confirmed.
+  current_alternative: 旧做法通常是录屏工具加剪辑软件，或外包给视频制作方，但候选材料没有描述用户此前的具体流程。
+  current_alternative_en: The old approach is typically a screen recorder plus editing software, or outsourcing
+    to a video producer, but the candidate material does not describe users' prior workflow.
+  usage_reason: 推断：如果它能在浏览器内直接抓取真实产品界面并输出可发布演示，就省掉了录屏后剪辑与导出的环节，发布节奏紧的独立开发者会因此选择它；但公开材料未给出任何采用或留存证据，这一步仍是推断。
+  usage_reason_en: 'Inference: if it can capture the real product interface in the browser and output
+    a publishable demo, it removes the post-recording editing and export step, which is why fast-shipping
+    indie developers would pick it; however, the public material offers no adoption or retention evidence,
+    so this remains an inference.'
+- id: req-full-flicka-2026-09-22
+  project_slug: flicka
+  level: full
+  reviewed_at: '2026-09-22T01:25:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它要解决的是发布演示素材的制作，但公开材料未说明替代了录屏、剪辑还是配音中的哪一步，也无可观察的旧流程，需求强度无法判定。
+    evidence_ids:
+    - ev-4a90d50dddc59cd1
+    - ev-2bee88a5a37d8a0f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Flicka 官方产品页或 Chrome 扩展商店页面，确认其输入方式、可编辑程度与是否披露定价或客户案例。
+  market: ''
+  job: 产品营销人员或独立开发者在准备发布页、推广素材时，需要基于自己产品的界面和操作流程产出一段可直接发布的演示视频。
+  job_en: A product marketer or indie developer preparing a launch page or promo asset needs to produce
+    a publishable demo video from their own product interface and user flows.
+  pain: 公开材料只有一句产品简介，没有说明它替代了录屏、剪辑、配音中的哪一步，也没有用户抱怨或旧流程描述，痛点强度无法确认。
+  pain_en: The public material offers only a one-line product description; it does not say which step
+    of recording, editing or voice-over it replaces, and there are no user complaints or old-workflow
+    descriptions, so pain intensity cannot be confirmed.
+  current_alternative: 旧做法通常是录屏工具加剪辑软件，或外包给视频制作方，但候选材料没有描述用户此前的具体流程。
+  current_alternative_en: The old approach is typically a screen recorder plus editing software, or outsourcing
+    to a video producer, but the candidate material does not describe users' prior workflow.
+  usage_reason: 推断：若它能在浏览器内直接抓取真实产品界面并输出可发布演示，就省掉录屏后剪辑与导出的环节，发布节奏紧的独立开发者会因此选择它；但公开材料未给出任何采用或留存证据，这一步仍是推断。
+  usage_reason_en: 'Inference: if it can capture the real product interface in the browser and output
+    a publishable demo, it removes the post-recording editing and export step, which is why fast-shipping
+    indie developers would pick it; however, the public material offers no adoption or retention evidence,
+    so this remains an inference.'

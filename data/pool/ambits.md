@@ -21,7 +21,7 @@ canonical_url: https://github.com/joshLong145/ambits
 summary: agentic grep/rg tool will history tracking
 first_seen: '2026-09-21T02:37:25Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

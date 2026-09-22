@@ -1,6 +1,6 @@
 ---
 slug: 从ai能用到真正创造价值华为试图破解企业智能化规模落地难题
-name: 从AI“能用”到真正创造价值：华为试图破解企业智能化规模落地难题
+name: 华为
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE8tODdfdmJva0ky
 summary: 从AI“能用”到真正创造价值：华为试图破解企业智能化规模落地难题 FX168财经
 first_seen: '2026-09-21T18:05:36Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 从AI“能用”到真正创造价值：华为试图破解企业智能化规模落地难题
+# 华为
 
 从AI“能用”到真正创造价值：华为试图破解企业智能化规模落地难题 FX168财经
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE1pdUV4VFhTZ0ly
 summary: AI智能体同台比拼赋能医疗健康产业！南京这场智能体开发大赛“打通最后一公里” 新浪财经
 first_seen: '2026-09-21T10:11:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

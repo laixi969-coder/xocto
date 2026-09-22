@@ -1,0 +1,85 @@
+- id: req-initial-jev-dsh-decision-2026-09-22
+  project_slug: jev-dsh-decision
+  level: initial
+  reviewed_at: '2026-09-22T00:50:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 agent 工具选择的结构化问题，但公开材料未说明旧流程、出错后果与交付结果，价值结构不完整。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+  - gate: consensus
+    status: insufficient
+    reason: 70 星与 27 次 fork 只说明关注度，没有用户反馈或案例说明谁在什么场景下依赖它。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露任何收费或商业路径，买方与付费方式均未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对决策结果是否确定交付、是否需人工复核，承诺的可验证性不足。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+  next_validation: 查看该仓库的 issue 与 discussion，确认开发者实际用它替换了哪一步工具选择逻辑以及是否长期保留。
+  market: ''
+  job: 开发者在给编码 agent 接入工具调用时，需要让 agent 在多个候选动作之间做出可解释、可复现的选择。
+  job_en: Developers wiring tool calling into coding agents need the agent to make explainable, reproducible
+    choices among candidate actions.
+  pain: 公开材料只说明它是结构化决策插件，没有说明旧做法中工具选择出错的具体代价或调试负担。
+  pain_en: Public material only says it is a structured decision plugin and does not describe the concrete
+    cost or debugging burden of wrong tool selection in the old approach.
+  current_alternative: 开发者通常依赖 harness 自带的工具选择逻辑或自行编写提示与路由规则，具体替代方式未在材料中说明。
+  current_alternative_en: Developers typically rely on the harness's built-in tool-selection logic or
+    write their own prompts and routing rules; the specific alternative is not described in the material.
+  usage_reason: 推断：若它把工具选择从散落的提示词收敛成可替换的决策组件，维护多 harness 的开发者可能采用；但仓库星标只反映关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: if it consolidates tool selection from scattered prompts into a replaceable
+    decision component, developers maintaining multiple harnesses might adopt it; but repository stars
+    only reflect attention and do not prove sustained use.'
+- id: req-full-jev-dsh-decision-2026-09-22
+  project_slug: jev-dsh-decision
+  level: full
+  reviewed_at: '2026-09-22T01:25:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 agent 工具选择的结构化问题，但公开材料未说明旧流程、出错后果与交付结果，连需求与痛点都无法还原，价值结构不完整。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者实际用它替换了哪一步工具选择逻辑、是否长期保留，以及是否出现人工复核或交付失败的公开记录。
+  market: ''
+  job: 开发者在为编码 agent 接入工具调用时，安装该插件接收 agent 上下文并输出结构化决策结果，再交给 DeepSeek Harness、OpenCode 或 Codex Harness
+    执行，以完成多候选动作之间的可解释选择。
+  job_en: Developers wiring tool calling into coding agents install this plugin to receive agent context
+    and emit structured decision results, then hand them to DeepSeek Harness, OpenCode or Codex Harness
+    for execution, completing explainable selection among candidate actions.
+  pain: 公开材料只给出插件定位与仓库星标，未说明旧做法中工具选择出错的具体代价、调试负担或用户抱怨，痛点无法从公开事实还原。
+  pain_en: Public material only gives the plugin positioning and repository stars, without describing
+    the concrete cost, debugging burden or user complaints of wrong tool selection in the old approach,
+    so the pain cannot be reconstructed from public facts.
+  current_alternative: 开发者通常依赖 harness 自带的工具选择逻辑，或自行编写提示词与路由规则；材料未说明具体替代方式及其不足。
+  current_alternative_en: Developers typically rely on the harness's built-in tool-selection logic or
+    write their own prompts and routing rules; the material does not describe the specific alternative
+    or its shortcomings.
+  usage_reason: 推断：若它把工具选择从散落提示词收敛为可替换的决策组件，维护多 harness 的开发者可能采用；但星标只反映关注度，不能证明持续使用或选择动机。
+  usage_reason_en: 'Inference: if it consolidates tool selection from scattered prompts into a replaceable
+    decision component, developers maintaining multiple harnesses might adopt it; but stars only reflect
+    attention and do not prove sustained use or the reason for choosing it.'

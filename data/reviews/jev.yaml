@@ -1,0 +1,88 @@
+- id: req-initial-jev-2026-09-22
+  project_slug: jev
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决自动化流程中判断步骤的编写与维护，但公开材料未说明旧流程、出错代价与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-fbdbb1d9e00f1b1f
+  - gate: consensus
+    status: insufficient
+    reason: 除一条发布定位外没有用户评价、客户案例或采用信号，无法判断谁在什么场景下真的需要它。
+    evidence_ids:
+    - ev-fbdbb1d9e00f1b1f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪一方来，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fbdbb1d9e00f1b1f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对决策结果是否确定交付、人工确认边界在哪，承诺的可验证性不足。
+    evidence_ids:
+    - ev-fbdbb1d9e00f1b1f
+  next_validation: 收集 Jev 官方文档或定价页，确认它接收什么输入、输出什么结构化结果以及按什么方式收费。
+  market: ''
+  job: 软件工程师在配置自动化流程时，需要把业务规则转成程序可执行的判断步骤，并让下游系统按结果继续运行。
+  job_en: Software engineers configuring automation flows need to turn business rules into executable
+    judgement steps so downstream systems can continue running on the result.
+  pain: 公开材料只给出一句定位，没有说明旧流程中哪一步最费时、出错代价是什么，痛点无法从现有事实还原。
+  pain_en: Public material gives only a one-line positioning and does not say which step of the old process
+    is most time-consuming or what errors cost, so the pain cannot be reconstructed from available facts.
+  current_alternative: 工程师通常直接在代码里写 if-else 规则或维护规则表，具体替代方式未在材料中说明。
+  current_alternative_en: Engineers typically write if-else rules directly in code or maintain rule tables;
+    the specific alternative is not described in the material.
+  usage_reason: 推断：若它能把规则维护从改代码变成改配置并返回结构化结果，工程师在规则频繁变动的流程里可能选择它；但公开材料未给出任何采用或留存证据，无法确认这一因果。
+  usage_reason_en: 'Inference: if it turns rule maintenance from code edits into configuration and returns
+    structured results, engineers in frequently changing flows might choose it; however no adoption or
+    retention evidence is public, so this causal link is unconfirmed.'
+- id: req-full-jev-2026-09-22
+  project_slug: jev
+  level: full
+  reviewed_at: '2026-09-22T01:25:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是自动化流程中判断逻辑硬编码、规则变更需改代码的需求，痛点在于分支难穷举与维护成本；公开材料仅给出定位，未说明旧流程与出错代价，价值结构由工作流推理成立。
+    evidence_ids:
+    - ev-060cb1ec884412fd
+    - ev-4f9187e78f5a83ad
+  - gate: consensus
+    status: insufficient
+    reason: 除发布定位与融资报道外，没有用户评价、客户案例或采用信号，无法判断谁在什么场景下真的持续使用它。
+    evidence_ids:
+    - ev-4f9187e78f5a83ad
+  - gate: model
+    status: insufficient
+    reason: 公开材料只提到 4000 万美元种子轮与早期访问，未披露定价、买方或收费方式；钱可能来自 to B 开发者工具订阅或 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4f9187e78f5a83ad
+  - gate: truth
+    status: insufficient
+    reason: 无法核对决策结果是否确定交付、人工确认边界在哪，承诺的可验证性不足，且早期访问阶段缺少可复现的公开测试。
+    evidence_ids:
+    - ev-060cb1ec884412fd
+  next_validation: 追踪 TypeSafe AI 官网 Jev 产品页与文档，确认它接收什么输入、输出什么结构化结果、是否披露定价或客户案例。
+  market: ''
+  job: 软件工程师在搭建或维护自动化流程时，把散落在代码 if-else 和规则表里的业务判断条件抽出来，交给模型输出结构化决策结果，再让下游程序按结果继续执行。
+  job_en: Software engineers building or maintaining automation flows extract business judgement conditions
+    from code if-else branches and rule tables, hand them to a model that returns structured decisions,
+    and let downstream programs continue on that result.
+  pain: 公开材料只说明它让决策发生在软件内部，未披露旧流程中哪一步最费时、规则变更的维护成本或判断出错的代价，痛点强度只能从工作流结构推断。
+  pain_en: Public material only states that decisions happen inside software; it does not disclose which
+    step of the old flow is most costly, the maintenance burden of rule changes, or the cost of a wrong
+    decision, so pain intensity is inferred from workflow structure only.
+  current_alternative: 工程师通常直接在代码里写 if-else 分支或维护规则表，把判断逻辑硬编码进流程；公开材料未说明它具体替代了哪一种做法。
+  current_alternative_en: Engineers typically hard-code judgement logic as if-else branches or maintain
+    rule tables; public material does not say which specific practice it replaces.
+  usage_reason: 推断：若它把规则维护从改代码变成调用模型并返回结构化结果，工程师在规则频繁变动、分支难以穷举的自动化流程里会少改一处代码、少维护一张规则表，因此可能选择它；但公开材料没有任何采用或留存证据，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if it turns rule maintenance from code edits into a model call returning
+    structured results, engineers in automation flows with frequently changing rules and hard-to-enumerate
+    branches would edit one less code path and maintain one less rule table, so they might choose it;
+    however no adoption or retention evidence is public, so this causal link is unconfirmed.'

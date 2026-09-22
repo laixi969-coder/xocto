@@ -186,3 +186,55 @@
     freeze receipts before and after a change, moving ''was the boundary crossed'' from review time to
     checkable change time, so engineers taking over an unfamiliar codebase or making cross-module changes
     would choose it before starting; public materials contain no user feedback confirming this motive.'
+- id: req-full-dsh-normify-2026-09-22
+  project_slug: dsh-normify
+  level: full
+  reviewed_at: '2026-09-22T01:25:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是接手已有代码库时模块边界不清、改动越界只能在评审或回归时暴露的问题；公开仓库说明其以归一化分形模块树加写时校验、校验与冻结回执，把边界确认前移到改动前，交付物是可核对的模块树与单文件架构图。这是工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+    - ev-abbf9c6c73a3d1f9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 49 增至 60，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或评价说明谁在什么场景持续使用、替代了哪套旧流程；关注度不能当作持续采用证据。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+    - ev-abbf9c6c73a3d1f9
+  - gate: model
+    status: insufficient
+    reason: 这是开源插件，公开材料没有定价页、付费主体或采购记录，钱可能来自个人开发者自用、团队内部工具或后续商业版，属判断而非已验证事实；买方不清不取消需求判定。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+  - gate: truth
+    status: insufficient
+    reason: 三层校验与冻结回执能否在真实多语言代码库上稳定复现、边界判定出错时人工如何介入，公开材料只有功能描述，没有可复现实测或部署文档佐证交付确定性。
+    evidence_ids:
+    - ev-7b03663d11bc827c
+    - ev-b7d7cc128480fa01
+  next_validation: 追踪 dsh-normify 仓库的 issue、discussion 与 README 更新，确认是否有开发者报告在真实代码库中用它替代人工读代码或手画架构图，以及校验误报与人工介入的处理方式。
+  market: ''
+  job: 研发工程师或架构师接手一个已有代码库、准备改动某个模块时，把项目现有结构交给 Normify，让它整理成归一化的分形模块树，并在改动前后跑写时校验、校验与冻结回执，最终拿到可核对的模块树和一张单文件交互式架构图，用来判断这次改动是否越出模块边界。
+  job_en: When an engineer or architect inherits an existing codebase and is about to change a module,
+    they hand the current structure to Normify, which normalizes it into a fractal module tree, runs write-time
+    checks, validation and freeze receipts before and after the change, and renders a single-file interactive
+    architecture diagram so they can judge whether the change crosses module boundaries.
+  pain: 公开材料只说明它做归一化模块树与三层校验，没有用户抱怨、issue 或案例说明不解决的具体代价；从工作流结构推理，接手陌生代码库时模块边界靠人读代码和口头约定维持，改动越界往往在评审或回归时才暴露，返工成本落在改动者身上。
+  pain_en: Public materials only describe the normalization and three-layer checks; no user complaints,
+    issues or cases show the concrete cost of leaving it unsolved. By workflow inference, module boundaries
+    in an unfamiliar codebase are held by reading code and verbal convention, and boundary violations
+    surface only at review or regression, pushing rework onto the person making the change.
+  current_alternative: 当前替代是人工阅读代码与目录结构、在文档或白板里手画架构图、靠代码评审口头确认边界；这些做法不产出可复用的归一化模块树，也不在改动前后自动跑校验。
+  current_alternative_en: Today this is done by manually reading code and directory layout, hand-drawing
+    architecture diagrams in docs or on a whiteboard, and confirming boundaries verbally in code review;
+    none of these produce a reusable normalized module tree or run checks before and after a change.
+  usage_reason: 推断：相较人工读代码和手画图，Normify 用 change_open → brief → check → 实施 → refresh → change_close 的伴随式流程，把边界确认从改动后的评审前移到改动前，并输出可核对的模块树与架构图，因此接手陌生代码库、需要先弄清边界的工程师会在动手前选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus reading code and hand-drawing diagrams, Normify''s change_open →
+    brief → check → implement → refresh → change_close flow moves boundary confirmation from post-change
+    review to before the change and emits a checkable module tree and diagram, so engineers inheriting
+    an unfamiliar codebase would pick it before editing; public materials do not yet confirm this motive
+    with user feedback.'

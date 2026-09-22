@@ -207,3 +207,53 @@
     and frame interpolation into one real-time preview player, potentially removing a separate post step;
     however, no user feedback or cases show who chooses it for this reason, and no retention or repeat-use
     evidence confirms it.'
+- id: req-full-veyra-nrvideo-2026-09-22
+  project_slug: veyra-nrvideo
+  level: full
+  reviewed_at: '2026-09-22T01:27:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决主机采集画面低清高噪、帧率不足时无法实时得到可用预览的需求，痛点在于直播不能等后期重编码；公开仓库说明已给出输入（采集卡/本地视频）、动作（超分、降噪、插帧）与交付（实时增强预览），属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-2373ae862fadd594
+    - ev-46cbbe290c48d27c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 265 增至 284，说明开发者社区有关注，但收藏与排名只属关注度证据，不能证明主播或创作者已把它留在直播工作流中持续使用。
+    evidence_ids:
+    - ev-46cbbe290c48d27c
+    - ev-c701b0f3cb19ccf4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或授权方式，无法判断收入来自 to C 买断、订阅还是 to B 授权；这是判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-2373ae862fadd594
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述宣称可把 PS5 GTA6 提到 120FPS 并叠加 DLSS 5，但未见可复现实测、硬件要求或延迟数据，实时插帧能否确定性交付、以及画质与延迟边界仍缺公开证据。
+    evidence_ids:
+    - ev-2373ae862fadd594
+    - ev-46cbbe290c48d27c
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 说明与 issue/discussion，核对是否公开硬件要求、实测帧率与延迟数据，以及是否有主播或采集卡用户报告实际部署场景。
+  market: ''
+  job: 游戏主播或视频创作者在直播、录制或回放时，把采集卡输出的低分辨率、高噪点游戏画面（如主机端 60FPS 素材）接入 Windows 播放器，实时得到更清晰、更流畅的预览画面并用于直播或录制。
+  job_en: Game streamers or video creators feed low-resolution, noisy capture-card output (e.g. 60FPS
+    console footage) into a Windows player during live streaming, recording or review, and need a clearer,
+    smoother real-time preview usable for broadcast or capture.
+  pain: 公开材料只给出产品定位（超分、降噪、插帧、实时预览），未提供用户抱怨、频率或不采用代价；痛点强度只能从任务结构推断：主机采集画面分辨率与帧率低于观众预期，事后逐段重编码会打断直播节奏。
+  pain_en: 'Public materials only state the product positioning (super-resolution, noise reduction, frame
+    generation, real-time preview) and give no user complaints, frequency or cost of inaction; pain intensity
+    is inferred from task structure: console capture output falls below viewer expectations, and post-hoc
+    re-encoding breaks the live workflow.'
+  current_alternative: 公开材料未记录用户当前做法；按工作流结构推断，替代方案是 OBS 等直播软件的滤镜与缩放、采集卡自带增强、或录后交给 Topaz Video AI 一类离线超分工具逐段处理。
+  current_alternative_en: Public materials do not record current practice; by workflow inference, alternatives
+    are OBS-style filters and scaling, capture-card built-in enhancement, or offline per-clip super-resolution
+    tools such as Topaz Video AI.
+  usage_reason: 推断：相较 OBS 滤镜或录后离线超分，它把超分、降噪、插帧合并进播放器内的实时预览环节，省去先录制再逐段重编码这一步，因此需要边看边播、不能等后期的主机主播或采集卡用户会在直播场景选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus OBS filters or offline post-capture super-resolution, it folds super-resolution,
+    denoising and frame generation into the in-player real-time preview, removing the record-then-re-encode
+    step, so console streamers or capture-card users who must see and broadcast simultaneously would pick
+    it; no public user feedback yet confirms this motive.'

@@ -1,11 +1,13 @@
 ---
 slug: figure-ai-宣称找到了机器人版-scaling-law同行却说它其实根本不会泛化
-name: Figure AI 宣称找到了机器人版 scaling law，同行却说它其实根本不会泛化
+name: Figure AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Figure AI 发布 Helix 2.5，把机器人放进30套真实住宅做整理、铺床、折毛巾，并称未针对这些房屋和物品做训练或适配；同行质疑其泛化能力，实际成功率与可重复性仍无独立核验。
 inspiration: ''
-summary_en: ''
+summary_en: Figure AI released Helix 2.5, placing robots in 30 real homes to tidy, make beds and fold
+  towels, claiming no training or adaptation for those homes or objects; peers question its generalization,
+  and independent verification of success rates and repeatability is still absent.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -68,7 +70,7 @@ summary: "作者｜Li Yuan \n \n 390 亿美元的 Figure AI 已经把机器人�
   \ AI \n 本文为 In The Loop 原创文章，转载请联系作者"
 first_seen: '2026-09-21T03:57:07Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -79,7 +81,7 @@ sightings:
   kind: news
 ---
 
-# Figure AI 宣称找到了机器人版 scaling law，同行却说它其实根本不会泛化
+# Figure AI
 
 作者｜Li Yuan 
  

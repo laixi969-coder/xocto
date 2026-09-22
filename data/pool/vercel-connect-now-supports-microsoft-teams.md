@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/vercel-connect-microsoft-teams
 summary: ''
 first_seen: '2026-09-21T17:10:00Z'
 last_seen: '2026-09-22T00:50:50Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

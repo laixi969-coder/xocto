@@ -224,3 +224,53 @@
     entries and prior plot, cutting the per-turn step of restating settings; multi-character agent clusters
     and style presets remove manual switching between characters, and novel export removes the copy-out
     step from chat logs to manuscript. Long-serial roleplay creators therefore pick it whe'
+- id: req-full-dsh-nexttavern-2026-09-22
+  project_slug: dsh-nexttavern
+  level: full
+  reviewed_at: '2026-09-22T01:24:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长篇角色扮演中设定遗忘与人设崩坏的需求，痛点在多轮叙事里刚性且不采用就要反复重述设定；公开仓库说明已给出输入（SillyTavern 卡、世界书、文风预设）、动作（混合检索与本地嵌入维持长篇记忆、多角色
+      Agent 推进）与交付（小说与角色卡导出）的闭环，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-f641a3c77c01061d
+    - ev-12ad67699dabc359
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 43 增至 97、并出现行动选项卡与分支对话管理等迭代，说明目标社区已注意到并持续跟进该插件；但收藏与星标只属关注度证据，不能证明创作者已把它长期留在写作流程里，持续采用仍缺公开反馈。
+    evidence_ids:
+    - ev-3ac551e69e60a70b
+    - ev-12ad67699dabc359
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、赞助、订阅或采购记录，无法判断钱来自 to C 创作者付费、to B 内容团队还是纯社区维护；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-f641a3c77c01061d
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性尚未核验：混合检索与本地嵌入模型在数十轮后能否稳定维持人设、多角色 Agent 集群的剧情一致性由谁确认、导出文本是否需要人工校订，公开材料均未给出可复现结果或人工边界说明。
+    evidence_ids:
+    - ev-12ad67699dabc359
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认长篇记忆与多角色 Agent 的实际交付效果、已知失败模式及是否出现付费或赞助入口。
+  market: ''
+  job: 写长篇角色扮演或互动小说的创作者，在 DeepSeek Harness 里导入 SillyTavern 人物卡或自建角色卡，带着世界书、文风预设和分支剧情推进多轮叙事，最终导出小说或角色卡文本。
+  job_en: Writers of long-form roleplay or interactive fiction import SillyTavern character cards (or
+    author their own) into DeepSeek Harness, run multi-turn narrative with world books, style presets
+    and branching plots, and export the novel or card text.
+  pain: 长篇角色扮演的核心痛点是上下文窗口耗尽后角色设定、世界线与前情被遗忘，导致人设崩坏、剧情前后矛盾；同时人物卡、世界书、文风预设分散在不同工具里，需要手工搬运和反复重述设定。
+  pain_en: The core pain of long-form roleplay is that once the context window is exhausted, character
+    settings, worldlines and prior plot are forgotten, causing persona drift and continuity breaks; cards,
+    world books and style presets also live in separate tools and must be hand-carried and re-stated.
+  current_alternative: 旧做法是在 SillyTavern 或通用聊天客户端里手动粘贴设定、靠人工摘要压缩历史，或把长文拆成多段分别续写，再自行拼接成稿。
+  current_alternative_en: The old way is to paste settings manually in SillyTavern or a generic chat client,
+    compress history by hand-written summaries, or split long text into segments and stitch them back
+    together.
+  usage_reason: 推断：相较手工粘贴与人工摘要，它把人物卡、世界书和文风预设作为结构化输入直接接入，用关键词加语义混合检索与本地嵌入模型在每轮自动召回相关设定，从而省掉逐轮重述设定和手工维护摘要这两步；需要跨数十轮保持人设一致、又不想自己管理记忆的创作者会因此选择它。
+  usage_reason_en: 'Inference: versus manual pasting and hand-written summaries, it ingests cards, world
+    books and style presets as structured input and auto-recalls relevant settings each turn via hybrid
+    keyword/semantic retrieval with a local embedding model, removing the steps of restating settings
+    and maintaining summaries by hand; creators who need persona consistency across dozens of turns without
+    managing memory themselves would choose it.'

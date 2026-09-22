@@ -759,3 +759,54 @@
     panel and command list context composition plus compression and pruning events, turning ''guess what
     was lost'' into ''see which step lost it'', so users debugging long sessions or needing stable constraints
     would pick it; no user feedback or retention evidence yet supports this motive.'
+- id: req-full-dsh-context-2026-09-22
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-09-22T01:24:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理长会话中上下文被压缩剪枝后用户无法核对组成与丢失内容的需求，痛点是排查代理遗忘时只能反推日志；公开材料未量化频率与损失，但输入、动作与交付闭环可由产品说明还原，属工作流结构推理。
+    evidence_ids:
+    - ev-4fe2f6fa89ce7acb
+    - ev-120637c25856db73
+  - gate: consensus
+    status: insufficient
+    reason: 现有证据均为同生态其他 npm 包（ACP 交互层、dscode、aside-codemode、awwwards-mcp）的星标与描述，没有一条直接指向 dsh-context 本身的采用、评价或持续使用，无法据此判断共识。
+    evidence_ids:
+    - ev-4fe2f6fa89ce7acb
+    - ev-120637c25856db73
+    - ev-d02f6791a3cd4bd9
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，开源插件可能靠赞助或生态引流变现，属判断而非已验证事实；谁付钱不清只降低模式把握，不影响价值关结论。
+    evidence_ids:
+    - ev-4fe2f6fa89ce7acb
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺呈现上下文组成与演进，但公开材料没有可复现的部署文档、实测输出或 issue 讨论来验证压缩剪枝事件是否被准确还原，交付确定性尚未核验。
+    evidence_ids:
+    - ev-120637c25856db73
+  next_validation: 追踪 dsh-context 在 npm 与代码仓库的 README、issue 与 discussion，确认是否有用户报告用它定位到具体上下文丢失事件及实际部署方式。
+  market: ''
+  job: 使用 DeepSeek Harness 等编码代理的开发者，在长会话中处理多轮工具调用与文件上下文时，需要打开 Context 面板或执行 Context 命令，查看本轮上下文由哪些片段组成、压缩与剪枝丢掉了什么，以判断代理为何遗忘关键信息并决定是否补回。
+  job_en: Developers running DeepSeek Harness-style coding agents in long sessions need to open a Context
+    panel or run a Context command to inspect which fragments make up the current context and what compression
+    or pruning dropped, so they can judge why the agent forgot key facts and whether to restore them.
+  pain: 长会话里上下文被自动压缩、剪枝，代理悄悄丢掉先前约束或文件内容，用户只能从错误输出反推，排查成本高且不可核对；这是编码代理工作流的常见摩擦，但公开材料未给出发生频率或具体损失量化。
+  pain_en: In long sessions the context is auto-compressed and pruned, so the agent silently drops earlier
+    constraints or file contents; users can only infer this from wrong output, making diagnosis costly
+    and unverifiable. This friction is structural to coding-agent workflows, though public materials give
+    no frequency or quantified loss.
+  current_alternative: 旧做法是翻看原始会话日志、手动数 token、凭经验猜测哪段被截断，或直接重开会话重述需求；这些替代都不提供上下文组成与演进的可视化视图。
+  current_alternative_en: The old way is scrolling raw session logs, manually counting tokens, guessing
+    which segment was truncated, or restarting the session and restating requirements; none of these gives
+    a visual view of context composition and evolution.
+  usage_reason: 推断：相较翻日志猜截断，该插件把上下文组成、压缩与剪枝事件直接呈现为面板与命令输出，省去用户逐条比对日志、反推丢失片段这一步，因此长会话中反复遇到代理遗忘的开发者会在排查时选择它；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus scrolling logs to guess truncation, the plugin surfaces context
+    composition plus compression and pruning events directly in a panel and command output, removing the
+    step of comparing log lines to reconstruct what was dropped. Developers repeatedly hitting agent amnesia
+    in long sessions would therefore reach for it when debugging; public materials contain no user feedback
+    or case confirming this motive.'

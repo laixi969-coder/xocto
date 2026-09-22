@@ -24,7 +24,7 @@ summary: She had only walked for a couple of hours, and already she was lost.  
   This story is part of Dying…
 first_seen: '2026-09-21T12:00:00Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

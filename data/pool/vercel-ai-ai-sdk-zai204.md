@@ -22,7 +22,7 @@ summary: "### Patch Changes\n\n- Updated dependencies [82e18b0]\n  - @ai-sdk/pro
   \ - @ai-sdk/openai-compatible@2.0.76"
 first_seen: '2026-09-21T19:33:56Z'
 last_seen: '2026-09-22T00:50:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

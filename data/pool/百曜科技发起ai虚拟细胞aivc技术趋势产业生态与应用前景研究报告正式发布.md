@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/493114.html
 summary: 《AI 虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告——AI 时代生命科学的新型基础设施》正式发布。
 first_seen: '2026-09-21T02:28:46Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

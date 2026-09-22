@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1scmsyMjlQVTlS
 summary: LS chairman urges AI push to create customer value 매일경제
 first_seen: '2026-09-21T05:05:08Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

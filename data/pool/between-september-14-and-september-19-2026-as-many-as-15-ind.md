@@ -25,7 +25,7 @@ summary: Between September 14 and September 19, 2026, as many as 15 Indian start
   Semiconductor, Aerospace & Defence, Construction Tech, instagram.com
 first_seen: '2026-09-21T06:40:20Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

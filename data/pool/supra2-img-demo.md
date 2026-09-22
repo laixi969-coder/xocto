@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/rwitz/Supra2-IMG-Demo
 summary: Tiny 100M text-to-image model demo (256x256)
 first_seen: '2026-09-21T15:44:13Z'
 last_seen: '2026-09-22T00:50:49Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

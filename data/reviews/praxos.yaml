@@ -70,3 +70,45 @@
   usage_reason: 用户要完成的任务是：具有内置记忆的团队消息传递；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Team messaging with built-in memory Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-praxos-2026-09-22
+  project_slug: praxos
+  level: full
+  reviewed_at: '2026-09-22T01:26:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决团队消息中上下文丢失、决策难回溯的问题，但公开证据只有“Multiplayer AI”与“内置记忆的团队消息传递”两句定位，没有用户抱怨、旧流程或案例，无法还原具体任务、痛点强度与不采用后果。
+    evidence_ids:
+    - ev-d52c7907632c5650
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Praxos 官网是否公开定价页、客户案例或部署文档，以确认团队消息记忆这一任务是否有真实买方与可核验的交付方式。
+  market: ''
+  job: 团队在即时消息中讨论项目时，需要把散落在对话里的决策、结论和上下文留存下来，以便后续成员接手或回溯时不必重新翻找聊天记录。
+  job_en: A team discussing a project in instant messaging needs to retain decisions, conclusions, and
+    context scattered across the conversation so later members can pick up or trace back without re-reading
+    the whole chat log.
+  pain: 公开材料只有“Multiplayer AI”和“具有内置记忆的团队消息传递”两句产品定位，没有任何用户抱怨、旧流程描述或案例说明团队在消息中丢失上下文的具体代价与频率。
+  pain_en: Public material offers only the taglines 'Multiplayer AI' and 'team messaging with built-in
+    memory'; there is no user complaint, old-workflow description, or case showing the concrete cost or
+    frequency of losing context in team chat.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代的是 Slack/飞书等消息工具加人工整理，还是其他知识库或会议纪要流程。
+  current_alternative_en: Public material does not show how users complete this job today, nor whether
+    it replaces Slack/Feishu-style messaging plus manual note-taking, or some other wiki or meeting-notes
+    process.
+  usage_reason: 推断：若产品真能把对话中的决策自动沉淀为可检索记忆，团队在交接和回溯时可少一步人工翻找聊天记录；但公开材料没有用户反馈或案例支持这一因果，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the product truly turns conversation decisions into searchable memory,
+    teams could skip a manual step when handing off or tracing back; but no public user feedback or case
+    supports this causal link, so it is unclear which users would choose it for that reason.'

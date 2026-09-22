@@ -186,3 +186,53 @@
     and notes during reproduction and handover, so researchers with costly self-built pipelines who need
     traceable validation records would pick it when starting or handing over a factor; no public user
     feedback or adoption evidence yet supports this motive.'
+- id: req-full-loopera-2026-09-22
+  project_slug: loopera
+  level: full
+  reviewed_at: '2026-09-22T01:26:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决因子假设验证与留痕的需求，痛点是验证口径不统一、过程散落导致复现与交接成本高；公开材料明确其关心基本面逻辑、多角度验证与新信息增量，交付为带证据门控的验证结论，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-7c2cf71226d6d13d
+    - ev-43a563ad120df755
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有项目自述，未见研究员持续使用、团队采用或社区讨论证据，无法判断是否形成共识；同域检索也未返回可归因到该产品的采用信号。
+    evidence_ids:
+    - ev-7c2cf71226d6d13d
+    - ev-30694896d7448da3
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是自建研究流程的量化团队或基金，但这是判断而非已验证事实；公开材料未披露收入、采购或订阅信息。
+    evidence_ids:
+    - ev-79ec884467d72c55
+  - gate: truth
+    status: insufficient
+    reason: 证据门控验证与投研第一性目标一致，但公开材料未说明接入的数据源、验证口径与人工复核边界，缺少可复现实测或客户案例确认交付确定性。
+    evidence_ids:
+    - ev-7c2cf71226d6d13d
+    - ev-4f3be0ca861b54a9
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它接入的数据源、验证口径与是否有研究团队实际使用记录。
+  market: ''
+  job: 量化或基本面研究员在形成因子假设后，把行情、财报等研究材料交给该智能体，按假设驱动方式做多角度验证并保留研究记忆，最终产出带证据门控的验证结论。
+  job_en: After forming a factor hypothesis, a quant or fundamental researcher hands market and filing
+    material to the agent, which runs hypothesis-driven multi-angle validation and keeps research memory,
+    producing evidence-gated validation conclusions.
+  pain: 因子研究里假设、验证步骤与结论散落在脚本、笔记和聊天记录中，复现与交接成本高；公开材料明确它关心研究是否有清晰基本面逻辑、是否经得住多角度验证、是否带来新信息，说明痛点在于验证口径不统一与过程不可追溯。
+  pain_en: In factor research, hypotheses, validation steps and conclusions scatter across scripts, notes
+    and chat logs, making reproduction and handover costly; the public material states it cares whether
+    research has clear fundamental logic, survives multi-angle validation and adds new information, pointing
+    to inconsistent validation standards and untraceable process.
+  current_alternative: 研究员通常自己写 Python 脚本、用回测框架加笔记软件手工记录，或依赖团队内部研究平台。
+  current_alternative_en: Researchers typically write their own Python scripts, use backtesting frameworks
+    plus note-taking tools, or rely on an in-house research platform.
+  usage_reason: 推断：相较自写脚本加笔记，它把假设、多角度验证与证据门控收进同一流程并保留研究记忆，减少复现与交接时重新翻找脚本和笔记的负担，因此需要长期跟踪同一批因子假设的研究员会在迭代验证时选择它；公开材料未给出用户反馈或采用数据，选择动机属结构推理。
+  usage_reason_en: 'Inference: versus self-written scripts plus notes, it folds hypotheses, multi-angle
+    validation and evidence gating into one flow with research memory, cutting the burden of re-digging
+    scripts and notes during reproduction and handover, so researchers tracking the same factor hypotheses
+    over time would choose it during iterative validation; no user feedback or adoption data is public,
+    so the motive is structural reasoning.'

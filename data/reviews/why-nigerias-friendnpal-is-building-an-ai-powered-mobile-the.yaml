@@ -1,0 +1,83 @@
+- id: req-initial-why-nigerias-friendnpal-is-building-an-ai-powered-mobile-the-2026-09-22
+  project_slug: why-nigerias-friendnpal-is-building-an-ai-powered-mobile-the
+  level: initial
+  reviewed_at: '2026-09-22T00:50:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决心理支持可及性问题，但材料未说明旧路径、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-1d69a1dafdfaef08
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，材料没有用户采用、留存或场景共识可判断。
+    evidence_ids:
+    - ev-1d69a1dafdfaef08
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，材料未披露买方、定价或收费方式。
+    evidence_ids:
+    - ev-1d69a1dafdfaef08
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，材料未说明危机干预、人工转介与安全边界。
+    evidence_ids:
+    - ev-1d69a1dafdfaef08
+  next_validation: 收集 FriendnPal 官方页面或公开服务说明，确认其服务流程、是否有人工咨询师介入以及收费方式。
+  market: ''
+  job: 在咨询师供给不足的地区，需要心理支持的人通过手机处理自己的情绪困扰与求助需求，完成一次可获得的初步支持或转介。
+  job_en: In regions short of counselors, people needing mental support use their phones to work through
+    emotional distress and help-seeking needs and obtain an initial support session or referral.
+  pain: 候选材料没有给出用户抱怨、等待时长或旧求助路径的具体记录，痛点强度无法从公开事实还原。
+  pain_en: The candidate material gives no records of user complaints, waiting times or the old help-seeking
+    path, so pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明当前替代方式；按常理推断可能是线下咨询、宗教或社区支持，但这属于推断，不是已核实事实。
+  current_alternative_en: No current alternative is stated; by inference it may be offline counseling
+    or religious and community support, but that is inference, not verified fact.
+  usage_reason: 无法写出使用理由：材料只给出服务定位，没有说明相较旧求助路径减少了哪一步负担或改善了哪项可核对结果，缺少判断用户为何选择它的关键一环。
+  usage_reason_en: 'No usage reason can be written: the material gives only a service positioning, not
+    which step it removes versus the old help-seeking path or which checkable result it improves, so the
+    key link for why users would choose it is missing.'
+- id: req-full-why-nigerias-friendnpal-is-building-an-ai-powered-mobile-the-2026-09-22
+  project_slug: why-nigerias-friendnpal-is-building-an-ai-powered-mobile-the
+  level: full
+  reviewed_at: '2026-09-22T01:27:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决心理支持可及性问题，但材料未说明旧路径、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-1d69a1dafdfaef08
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 FriendnPal 官方页面或公开服务说明，确认其服务流程、是否有人工咨询师介入以及收费方式。
+  market: ''
+  job: 在尼日利亚等心理咨询师供给不足的地区，有情绪困扰的人通过手机获得一次可及的心理支持或转介；但公开材料未说明用户在什么节点打开、AI 接收什么材料、最终交付什么。
+  job_en: In regions such as Nigeria where counselors are scarce, people with emotional distress use a
+    phone to obtain an accessible initial mental-health support or referral; however, public material
+    does not state at which point they open it, what material the AI receives, or what is finally delivered.
+  pain: 公开材料只给出“AI 驱动移动心理治疗服务”的定位，没有用户抱怨、等待时长、旧求助路径或求助受阻的具体记录，痛点强度无法从公开事实还原。
+  pain_en: Public material gives only the positioning of an 'AI-powered mobile therapy service', with
+    no records of user complaints, waiting times, the old help-seeking path, or blocked help-seeking,
+    so pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明当前替代方式；按常理推断可能是线下咨询、宗教或社区支持，但这属于推断，不是已核实事实。
+  current_alternative_en: No current alternative is stated; by inference it may be offline counseling
+    or religious and community support, but that is inference, not verified fact.
+  usage_reason: 无法写出使用理由：材料只给出服务定位，没有说明相较旧求助路径减少了哪一步负担或改善了哪项可核对结果，缺少判断用户为何选择它的关键一环。
+  usage_reason_en: 'No usage reason can be written: the material gives only a service positioning, not
+    which step it removes versus the old help-seeking path or which checkable result it improves, so the
+    key link for why users would choose it is missing.'

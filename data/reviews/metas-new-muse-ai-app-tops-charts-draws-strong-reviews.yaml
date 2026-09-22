@@ -1,0 +1,79 @@
+- id: req-initial-metas-new-muse-ai-app-tops-charts-draws-strong-reviews-2026-09-22
+  project_slug: metas-new-muse-ai-app-tops-charts-draws-strong-reviews
+  level: initial
+  reviewed_at: '2026-09-22T00:50:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 未说明它解决什么需求与痛点，仅有榜单与好评，无法判断价值是否成立。
+    evidence_ids:
+    - ev-3553f91e5c1f916c
+  - gate: consensus
+    status: insufficient
+    reason: 榜单排名与好评属关注度，不能证明持续采用。
+    evidence_ids:
+    - ev-3553f91e5c1f916c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来源。
+    evidence_ids:
+    - ev-3553f91e5c1f916c
+  - gate: truth
+    status: insufficient
+    reason: 未说明交付确定性与人工边界，无法核对。
+    evidence_ids:
+    - ev-3553f91e5c1f916c
+  next_validation: 收集 Meta 官方 Muse 产品页，确认其功能范围、使用场景与收费方式。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，只能推断为普通用户在移动端进行日常提问。
+  job_en: The public material does not specify users or scenarios; it can only be inferred as ordinary
+    users asking everyday questions on mobile.
+  pain: 未披露具体痛点，榜单与好评不能说明用户解决了什么问题。
+  pain_en: No specific pain point is disclosed; chart position and positive reviews do not show what problem
+    users solved.
+  current_alternative: 未披露现有替代方式，可能是已有通用助手或搜索引擎。
+  current_alternative_en: The current alternative is not disclosed, and may be existing general assistants
+    or search engines.
+  usage_reason: 缺少功能、输入与交付说明，无法解释用户为何选择它，榜单排名只属关注度证据。
+  usage_reason_en: With no description of features, inputs or deliverables, there is no basis to explain
+    user choice; chart ranking is only attention evidence.
+- id: req-full-metas-new-muse-ai-app-tops-charts-draws-strong-reviews-2026-09-22
+  project_slug: metas-new-muse-ai-app-tops-charts-draws-strong-reviews
+  level: full
+  reviewed_at: '2026-09-22T01:26:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅称 Muse 登榜并获好评，未说明用户任务、输入材料、交付物与不解决的后果，无法还原需求与痛点，价值关不成立。
+    evidence_ids:
+    - ev-addf1c59ff5f328e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Muse 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，只能推断为普通用户在移动端进行日常提问与信息获取。
+  job_en: The public material does not specify users or scenarios; it can only be inferred as ordinary
+    users asking everyday questions and seeking information on mobile.
+  pain: 未披露具体痛点，榜单与好评不能说明用户解决了什么问题。
+  pain_en: No specific pain point is disclosed; chart position and positive reviews do not show what problem
+    users solved.
+  current_alternative: 未披露现有替代方式，可能是已有通用助手或搜索引擎。
+  current_alternative_en: The current alternative is not disclosed, and may be existing general assistants
+    or search engines.
+  usage_reason: 缺少功能、输入与交付说明，无法解释用户为何选择它，榜单排名只属关注度证据。
+  usage_reason_en: With no description of features, inputs or deliverables, there is no basis to explain
+    user choice; chart ranking is only attention evidence.

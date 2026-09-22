@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/493241.html
 summary: 97%尝试危险行为
 first_seen: '2026-09-21T08:21:55Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

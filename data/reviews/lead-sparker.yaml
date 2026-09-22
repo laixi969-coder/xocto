@@ -1,0 +1,78 @@
+- id: req-initial-lead-sparker-2026-09-22
+  project_slug: lead-sparker
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决品牌调研与提案撰写，但公开材料未说明旧流程、痛点强度与不采用后果，需求结构无法还原。
+    evidence_ids:
+    - ev-5fd0decf23026222
+  - gate: consensus
+    status: insufficient
+    reason: 仅有上线信息，无用户评价、采用或场景讨论，无法判断卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-5fd0decf23026222
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自个人、团队还是企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5fd0decf23026222
+  - gate: truth
+    status: insufficient
+    reason: 无法核对输出是否贴近真实调研目标、能否确定性交付，也未说明人工复核边界。
+    evidence_ids:
+    - ev-5fd0decf23026222
+  next_validation: 收集 Lead Sparker 官方定价页或公开客户案例，确认买方类型与按什么计价。
+  market: ''
+  job: 销售或商务拓展人员在准备面向陌生品牌的提案或外联材料时，需要先了解该品牌并产出一份可发送的洞察演示材料。
+  job_en: Sales or business development staff preparing a pitch or outreach material for an unfamiliar
+    brand need to understand that brand and produce a sendable insight deck.
+  pain: 公开材料未说明用户此前如何完成品牌调研与提案撰写，也未给出任何用户抱怨或替代做法，痛点强度无法判断。
+  pain_en: Public material does not describe how users previously did brand research and pitch writing,
+    nor any user complaint or workaround, so pain intensity cannot be judged.
+  current_alternative: 公开材料未提供现有替代方式的信息。
+  current_alternative_en: Public material provides no information on current alternatives.
+  usage_reason: 仅能确认输入品牌网址、输出演示材料这一动作，无法说明相较旧做法减少了哪一步负担，因此不能判断用户为何选择它。
+  usage_reason_en: Only the action of inputting a brand URL and outputting a deck is confirmed; it cannot
+    be shown which step is reduced versus the old approach, so why users would choose it cannot be judged.
+- id: req-full-lead-sparker-2026-09-22
+  project_slug: lead-sparker
+  level: full
+  reviewed_at: '2026-09-22T01:25:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决品牌调研与提案撰写，但公开材料未说明旧流程、痛点强度与不采用后果，需求结构无法还原。
+    evidence_ids:
+    - ev-37ac09334313f0f0
+    - ev-9d49853fc093d6b6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Lead Sparker 官方定价页或公开客户案例，确认买方类型与按什么计价。
+  market: ''
+  job: 销售或商务拓展人员在准备面向陌生品牌的提案或外联材料时，需要先了解该品牌并产出一份可发送的洞察演示材料。
+  job_en: Sales or business development staff preparing a pitch or outreach material for an unfamiliar
+    brand need to understand that brand and produce a sendable insight deck.
+  pain: 公开材料未说明用户此前如何完成品牌调研与提案撰写，也未给出任何用户抱怨或替代做法，痛点强度无法判断。
+  pain_en: Public material does not describe how users previously did brand research and pitch writing,
+    nor any user complaint or workaround, so pain intensity cannot be judged.
+  current_alternative: 公开材料未提供现有替代方式的信息。
+  current_alternative_en: Public material provides no information on current alternatives.
+  usage_reason: 仅能确认输入品牌网址、输出演示材料这一动作，无法说明相较旧做法减少了哪一步负担，因此不能判断用户为何选择它。
+  usage_reason_en: Only the action of inputting a brand URL and outputting a deck is confirmed; it cannot
+    be shown which step is reduced versus the old approach, so why users would choose it cannot be judged.

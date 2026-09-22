@@ -537,3 +537,56 @@
     AI clients through the standard MCP protocol, removing the export, format-conversion and repeated-paste
     step while keeping data self-hosted; developers who care about data staying local yet want AI to query
     accounts directly would choose it.'
+- id: req-full-bankmcp-2026-09-22
+  project_slug: bankmcp
+  level: full
+  reviewed_at: '2026-09-22T01:24:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让本地 AI 助手读取本人真实银行流水、免去手工导出粘贴的需求；痛点是财务数据与 AI 客户端割裂、每次问答都要重复搬运，且只读自托管回应了隐私顾虑。公开说明已能还原输入（开放银行授权）、动作（MCP
+      只读检索余额与交易）、交付（结构化财务数据）与不解决的后果，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-ead16c4ce6933a8d
+    - ev-2c8acb7dbe0e560f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 231 升至 250，说明开发者社区持续关注，但收藏与复刻只反映关注度，不能证明目标用户已把它留在日常财务工作流中；缺少 issue、discussion 或用户评价说明实际部署与重复使用。
+    evidence_ids:
+    - ev-ead16c4ce6933a8d
+    - ev-2c8acb7dbe0e560f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径，自托管开源项目可能靠捐赠、托管版或支持服务变现，但均属推断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-ead16c4ce6933a8d
+  - gate: truth
+    status: insufficient
+    reason: 只读与自托管设计降低了误操作风险，但公开材料未说明银行授权失效、多账户覆盖范围、Enable Banking 支持地区及数据落盘位置等交付边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-ead16c4ce6933a8d
+    - ev-2c8acb7dbe0e560f
+  next_validation: 追踪 BankMCP 官方仓库的 README、issue 与 discussion，确认其支持的银行/地区范围、授权失效处理与是否有用户报告实际部署使用。
+  market: ''
+  job: 个人用户或独立开发者在本地运行 Claude、Ollama 等 AI 客户端时，需要让助手直接读取自己银行账户的余额与交易流水，以便在对话中核对资产明细、整理收支，而不必手工导出 CSV 再粘贴。
+  job_en: An individual user or indie developer running a local AI client such as Claude or Ollama wants
+    the assistant to read their own bank account balances and transactions directly, so they can reconcile
+    assets and organize income/expenses in-conversation instead of manually exporting and pasting CSVs.
+  pain: 个人财务数据分散在银行 App 与网银中，AI 助手默认看不到真实流水，用户只能手工导出对账单再粘贴，格式混乱、更新滞后；不解决的后果是每次问 AI 财务问题都要重复搬运数据，且无法基于最新余额作答。
+  pain_en: Personal financial data is scattered across bank apps and online banking, and AI assistants
+    cannot see real transactions by default; users must manually export statements and paste them in,
+    with messy formats and stale data, so every financial question to the AI requires re-hauling data
+    and cannot reflect the latest balance.
+  current_alternative: 手工从网银导出 CSV/PDF 对账单再粘贴给 AI，或使用 Mint、YNAB 等独立记账应用，但这些工具与本地 AI 客户端不互通，仍需人工搬运。
+  current_alternative_en: Manually exporting CSV/PDF statements from online banking and pasting them into
+    the AI, or using standalone budgeting apps like Mint or YNAB, which do not connect to local AI clients
+    and still require manual data transfer.
+  usage_reason: 相较手工导出粘贴，它通过标准 MCP 协议把开放银行（Enable Banking）的只读账户与交易接口直接暴露给 Claude/Ollama，用户只需完成一次银行授权，AI
+    即可在对话中直接调用余额与流水，省去导出、清洗、粘贴三步；自托管与只读设计让在意数据不出本机的用户更愿意在本地 AI 客户端里长期挂载。这是基于产品能力与工作流结构的推断，尚无用户反馈佐证。
+  usage_reason_en: 'Compared with manual export-and-paste, it exposes read-only account and transaction
+    endpoints from open banking (Enable Banking) to Claude/Ollama via the standard MCP protocol, so after
+    a one-time bank authorization the AI can call balances and transactions directly in conversation,
+    removing the export, clean, and paste steps; self-hosting and read-only design make privacy-conscious
+    users more willing to keep it mounted in a local AI client. This is an inference from product '

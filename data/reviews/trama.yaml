@@ -76,3 +76,90 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：Mac 用户、自动化爱好者；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Mac Users, Automation Enthusiasts
     The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-trama-2026-09-22
+  project_slug: trama
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把重复 Mac 操作变成可运行自动化这一具体需求，痛点是手工重复或学脚本成本高，旧替代行为明确，结构上成立。
+    evidence_ids:
+    - ev-5044a7e525ffd102
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区有 225 点、226 条评论的讨论热度，说明有人关注，但没有采用、留存或复购证据，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-5044a7e525ffd102
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、买方类型或收费方式，to C 订阅还是按结果收费只能作为判断，不是已验证事实。
+    evidence_ids:
+    - ev-5044a7e525ffd102
+  - gate: truth
+    status: insufficient
+    reason: 自然语言转 macOS 自动化的承诺能否确定性交付、失败如何回退、权限边界如何，材料均未说明，需看官方文档或实测。
+    evidence_ids:
+    - ev-5044a7e525ffd102
+  next_validation: 收集 Trama 官方定价页或官方文档，确认其收费方式、支持的自动化动作范围与失败回退机制。
+  market: ''
+  job: Mac 重度用户在日常工作中反复执行同一套文件整理、应用切换或定时操作时，需要把这些重复动作变成可一键运行的自动化，而不是每次手工重做。
+  job_en: Mac power users who repeatedly perform the same file sorting, app switching, or scheduled operations
+    need those repeats turned into one-click automations instead of redoing them by hand.
+  pain: 旧做法要么手工重复，要么去学 AppleScript、快捷指令或命令行，学习成本高、出错后难排查，非技术用户往往直接放弃自动化。
+  pain_en: The old path is either manual repetition or learning AppleScript, Shortcuts, or the command
+    line, which is costly to learn and hard to debug, so non-technical users often give up on automation.
+  current_alternative: 手工重复操作、AppleScript/快捷指令、找开发者代写脚本，或使用已有的 Mac 自动化工具。
+  current_alternative_en: Manual repetition, AppleScript/Shortcuts, hiring a developer to write scripts,
+    or existing Mac automation tools.
+  usage_reason: 推断：相较学脚本或找人代写，Trama 让用户直接用自然语言描述任务并生成可运行的 macOS 自动化，省掉把需求翻译成脚本语法这一步，因此有固定重复动作、又缺乏编程能力的
+    Mac 用户会在需要快速搭一条自动化时选择它；公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with learning scripting or hiring someone, Trama lets users describe
+    the task in plain language and get a runnable macOS automation, removing the step of translating intent
+    into script syntax, so Mac users with fixed repetitive actions and no coding skill would pick it when
+    they need an automation quickly; no retention or repeat-use evidence is public.'
+- id: req-full-trama-2026-09-22
+  project_slug: trama
+  level: full
+  reviewed_at: '2026-09-22T01:27:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 全部证据为词典释义、商标注册服务与拼写辨析，与 Mac 自动化无关，无法写出该产品解决的需求与痛点，价值关不成立。
+    evidence_ids:
+    - ev-4e07ca2a895891d6
+    - ev-c29d15bd0ac97827
+    - ev-62e80d23f16d23b4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索 Trama 官方产品页或 公开代码仓库 仓库，确认其是否真实存在、支持哪些 macOS 自动化动作及交付方式。
+  market: ''
+  job: 材料未提供 Trama 产品的任何官方说明、文档或用户描述，无法确认谁在什么情况下处理什么材料、要完成什么任务；候选摘要声称是 Mac 用户用自然语言生成 macOS 自动化，但没有任何可引用的产品证据支撑这一任务描述。
+  job_en: The materials provide no official product description, documentation, or user account for Trama,
+    so it is impossible to confirm who, in what situation, handling what material, is trying to complete
+    what task; the candidate summary claims Mac users generate macOS automations in plain language, but
+    no citable product evidence supports that task description.
+  pain: 现有证据全部指向词典释义（真菌菌髓）、商标注册服务 TramaTM 和 trama/trauma 拼写辨析，与 Mac 自动化无关，无法写出该产品对应的用户痛点。
+  pain_en: All available evidence points to a dictionary definition (fungal trama), the TramaTM trademark-registration
+    service, and trama-vs-trauma spelling distinctions, none related to Mac automation, so no user pain
+    for this product can be stated.
+  current_alternative: 无法确认。材料中没有关于 Mac 自动化替代方式的任何公开事实，只有无关的词典、商标与拼写辨析内容。
+  current_alternative_en: Cannot be determined. The materials contain no public facts about Mac automation
+    alternatives, only unrelated dictionary, trademark, and spelling content.
+  usage_reason: 无法给出。缺少产品页面、文档、定价或用户反馈，无法解释用户为何会选择它，也无法与任何旧做法做因果比较。
+  usage_reason_en: Cannot be given. With no product page, documentation, pricing, or user feedback, there
+    is no way to explain why a user would choose it or to compare causally against any prior practice.

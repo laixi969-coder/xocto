@@ -1,6 +1,6 @@
 ---
 slug: idc-评估中国-ai-算力管理平台范式综合评分位列第一
-name: IDC 评估中国 AI 算力管理平台：范式综合评分位列第一
+name: 范式
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yaTF1eVBwdnlS
 summary: IDC 评估中国 AI 算力管理平台：范式综合评分位列第一 InfoQ-CN
 first_seen: '2026-09-21T16:32:01Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# IDC 评估中国 AI 算力管理平台：范式综合评分位列第一
+# 范式
 
 IDC 评估中国 AI 算力管理平台：范式综合评分位列第一 InfoQ-CN
 

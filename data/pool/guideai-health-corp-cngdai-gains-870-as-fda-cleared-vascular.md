@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxOMFBHWWplX0Ro
 summary: GuideAI Health Corp. (CN:GDAI) Gains 8.70% as FDA-Cleared Vascular AI Story Draws Attention kalkine.ca
 first_seen: '2026-09-21T16:35:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

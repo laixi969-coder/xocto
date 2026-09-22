@@ -94,7 +94,7 @@ summary: "作者｜Cynthia    \n   编辑｜ 郑玄   \n   \n AI 时代，开�
   \ *头图来源： 亚马逊云科技  \n  本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-09-21T11:00:08Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avo
 summary: Workaround to avoid downloading AI models and save storage
 first_seen: '2026-09-21T14:10:49Z'
 last_seen: '2026-09-22T00:50:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

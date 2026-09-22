@@ -3,18 +3,17 @@ slug: lint
 name: lint
 builder: shadcn-ui
 category: AI + 开发
-summary_zh: 前端工程师或设计系统维护者在提交组件代码、需要确认是否符合团队 Tailwind 设计规范时打开它：它把设计系统规则写成可执行条目，由 AI agent 读取代码并逐条校验，输出违规位置与规则说明，最终仍需工程师确认后修改。具体规则格式与交付形态仍待核验。
-inspiration: 趋势是设计规范正从给人看的文档变成给 agent 执行的检查项，规范本身成了可运行资产。切入可从已有设计系统但靠人工 review 兜底的中型前端团队入手，把规范转成 agent
-  可校验规则并按仓库或团队收费；价格未披露，不得编造。
-summary_en: 'A frontend engineer or design-system maintainer opens it when committing component code and
-  needs to confirm it matches the team''s Tailwind design rules: design-system rules are written as executable
-  items, an AI agent reads the code and checks them one by one, and it returns the violating locations
-  with rule explanations, while the engineer still confirms and fixes. The exact rule format and delivery
-  form still need verification.'
-inspiration_en: The trend is that design rules are moving from human-readable documents to agent-executable
-  checks, making the spec itself a runnable asset. A way in is mid-sized frontend teams that already have
-  a design system but rely on manual review, converting their rules into agent-verifiable checks and charging
-  per repository or team; no price is disclosed and none should be invented.
+summary_zh: 前端工程师或设计系统维护者在提交 Tailwind 组件代码时打开它，把团队既有的设计系统规则（如间距、颜色、组件用法）写成可校验条目；工具接收代码与规则，由 agent 逐条检查并给出违规位置，最终交付一份可核对的检查结果，是否修改仍由人确认。具体规则格式与交付形态仍待核验。
+inspiration: 趋势是设计系统的约束正从人读文档转向机器可校验的规则，agent 写代码越多，规则越需要变成可执行检查。切入可从已有设计系统但缺少自动化约束的中型前端团队做起，把规则库与检查结果做成按团队订阅的服务；未披露的价格不作推测。
+summary_en: A frontend engineer or design-system maintainer opens it when committing Tailwind component
+  code, writing the team's existing design-system rules (spacing, color, component usage) as verifiable
+  entries; the tool takes the code and rules, has an agent check them item by item, and returns a checkable
+  list of violations, with humans still deciding on fixes. The exact rule format and delivery form remain
+  to be verified.
+inspiration_en: 'The trend is that design-system constraints are moving from human-read docs to machine-verifiable
+  rules, and the more agents write code, the more those rules must become executable checks. Entry point:
+  mid-sized frontend teams that already have a design system but lack automated enforcement, selling a
+  rule library plus check results as a per-team subscription; no undisclosed pricing is assumed.'
 priority_review: false
 project_type: open_source
 industries:
@@ -38,7 +37,7 @@ summary: An agent-first linter for Tailwind design systems. Write design system 
   verify.
 first_seen: '2026-09-02T11:51:38Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

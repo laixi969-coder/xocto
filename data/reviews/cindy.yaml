@@ -340,3 +340,42 @@
   usage_reason: 公开代码仓库有 1,995 个收藏、253 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,995 stars and 253 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-cindy-2026-09-22
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-09-22T01:24:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者把不同厂商的写代码助手收进同一工作区、中途换模型不丢记忆与任务，但公开材料未说明不解决的具体代价与发生频率，需求强度无法判定。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的公开仓库 README 与 release 说明，确认它实际支持的模型切换方式与工作区交付形态。
+  market: ''
+  job: 使用多家写代码助手的开发者，在任务中途需要换模型时，处理同一工作区里的上下文与任务状态，要完成不丢记忆、不丢进度的连续开发。
+  job_en: Developers using coding assistants from several vendors, when they need to switch models mid-task,
+    work with context and task state in one workspace to keep memory and progress without losing either.
+  pain: 公开材料只给出产品定位，未说明换模型时丢失上下文的具体代价、发生频率或后果，痛点强度无法从现有证据确认。
+  pain_en: Public materials give only the product positioning and do not show the concrete cost, frequency
+    or consequence of losing context when switching models, so pain intensity cannot be confirmed from
+    available evidence.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what old
+    practice it replaces.
+  usage_reason: 公开仓库有 1,995 个收藏、253 次复刻，说明开发者注意到它；但收藏与复刻只属关注度证据，不能解释用户为何选择它，也不能证明持续使用。
+  usage_reason_en: The public repository shows 1,995 stars and 253 forks, meaning developers noticed it;
+    but stars and forks are attention evidence only, they do not explain why users choose it nor prove
+    continued use.

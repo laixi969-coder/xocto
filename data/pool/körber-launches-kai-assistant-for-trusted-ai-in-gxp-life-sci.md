@@ -1,6 +1,6 @@
 ---
 slug: körber-launches-kai-assistant-for-trusted-ai-in-gxp-life-sci
-name: Körber Launches K.AI Assistant for Trusted AI in GxP Life Sciences Operations
+name: Körber K.AI Assistant
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOa24zM0ZqRG5y
 summary: Körber Launches K.AI Assistant for Trusted AI in GxP Life Sciences Operations Logistics Viewpoints
 first_seen: '2026-09-21T13:39:58Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Körber Launches K.AI Assistant for Trusted AI in GxP Life Sciences Operations
+# Körber K.AI Assistant
 
 Körber Launches K.AI Assistant for Trusted AI in GxP Life Sciences Operations Logistics Viewpoints
 

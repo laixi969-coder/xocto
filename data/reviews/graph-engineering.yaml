@@ -221,3 +221,56 @@
     a teaching mode, letting the AI execute on the user''s own project and removing the step of translating
     course content into runnable orchestration; developers already building agent workflows in Claude
     without a ready orchestration pattern would pick it at the starting stage.'
+- id: req-full-graph-engineering-2026-09-22
+  project_slug: graph-engineering
+  level: full
+  reviewed_at: '2026-09-22T01:25:37Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把知识图谱九步方法与任务图编排落到自己的 agent 项目，痛点是多步工作流缺类型与审计结构时难以定位和复现失败；公开仓库说明其提供类型化、可审计工作流图、条件路由、证据门控演化与验证，并含源码、示例与测试，旧替代是读课程后手工转译。这是工作流结构推理，尚无用户反馈或案例佐证痛点强度。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-58911ecac23b3b83
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 49 增至 60，说明开发者社区持续注意到该 skill；但收藏只是关注度证据，不能证明目标用户已把它长期留在工作流里，也未见 issue、discussion 或使用反馈说明具体采用场景。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-58911ecac23b3b83
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与收藏数，没有定价页、付费记录或赞助信息，无法判断钱来自 to C 开发者、to B 团队还是仅靠关注度；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述含源码、示例与测试，但公开材料未展示可复现的交付结果、验证通过率或人工与安全边界；能否稳定产出可审计图仍缺独立证据。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-58911ecac23b3b83
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有开发者报告在真实项目中生成并验证了类型化工作流图。
+  market: ''
+  job: 写代码的 AI 使用者（开发者）在为自己的项目搭建多步 agent 工作流时，把知识图谱九步做法与任务图编排模式作为 Claude skill 接入，让 AI 在自己的项目上当场生成类型化、可审计的工作流图，而不是先啃一门研究生课程。
+  job_en: A developer using a coding AI, while building a multi-step agent workflow for their own project,
+    loads the nine-stage knowledge-graph method and task-graph orchestration patterns as a Claude skill
+    so the AI produces typed, auditable workflow graphs on their own project instead of first sitting
+    through a graduate course.
+  pain: 公开事实显示该 skill 面向类型化、可审计的工作流图、条件路由、证据门控演化与验证；结构推理：agent 工作流一旦缺少类型与审计结构，多步编排的失败难以定位、难以复现，用户只能反复试错或重写提示，这是把课程方法落到自己项目时的具体摩擦。
+  pain_en: Public facts show the skill targets typed, auditable workflow graphs, conditional routing,
+    evidence-gated evolution, and validation; by structural inference, without typed and auditable structure
+    a multi-step agent workflow is hard to debug and reproduce, forcing repeated trial-and-error or prompt
+    rewrites when applying a course method to one's own project.
+  current_alternative: 旧做法是读 SEU 研究生课程材料或通用知识图谱教程，再手工把九步流程翻译成自己项目的提示与代码；公开材料未说明是否已有同类 skill 替代。
+  current_alternative_en: The old path is reading SEU graduate-course material or generic knowledge-graph
+    tutorials and manually translating the nine stages into one's own prompts and code; public materials
+    do not show an existing equivalent skill replacing it.
+  usage_reason: 推断：相较读课程再手工改写，该 skill 把九步流程与编排模式直接作为可粘贴工作流交给 AI，在用户自己的项目上生成类型化、可审计的图并带验证步骤，省去把课程内容手工转译成项目代码这一步；因此正在用
+    Claude 搭多步 agent 工作流、又需要可审计结构的开发者会在项目启动或重构编排时选择它。
+  usage_reason_en: 'Inference: versus reading a course and hand-rewriting it, the skill hands the nine
+    stages and orchestration patterns to the AI as paste-ready workflows that generate typed, auditable
+    graphs with validation on the user''s own project, removing the manual translation step; developers
+    already building multi-step agent workflows with Claude who need auditable structure would pick it
+    at project start or when refactoring orchestration.'

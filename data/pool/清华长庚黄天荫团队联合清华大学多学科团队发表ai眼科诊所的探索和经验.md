@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE1jNmdPaEV3U1lL
 summary: 清华长庚黄天荫团队联合清华大学多学科团队发表AI眼科诊所的探索和经验 京报网
 first_seen: '2026-09-21T14:25:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

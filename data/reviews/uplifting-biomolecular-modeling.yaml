@@ -158,3 +158,45 @@
   usage_reason_en: 'Inference: if the repository offers reusable modeling code or examples, researchers
     might adopt it to avoid building a pipeline from scratch; however, no user feedback or case is public,
     so this causal link is unconfirmed.'
+- id: req-full-uplifting-biomolecular-modeling-2026-09-22
+  project_slug: uplifting-biomolecular-modeling
+  level: full
+  reviewed_at: '2026-09-22T01:27:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅显示这是 Anthropic 发布的生物分子建模相关仓库，未说明谁在什么工作节点使用、输入什么、产出什么交付，也看不出不解决的后果与现有替代，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-8744519de847c274
+    - ev-4dd9e60387286fca
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它面向的具体建模任务、输入输出与使用场景，以补足需求与痛点证据。
+  market: ''
+  job: 生物医药研究者或计算药物发现工程师在需要构建或评估生物分子结构模型时，打开该仓库获取 Anthropic 提供的建模方法或代码，以推进分子层面的研究或候选筛选任务。
+  job_en: A biomedical researcher or computational drug-discovery engineer, when needing to build or evaluate
+    biomolecular structure models, opens this repository to obtain Anthropic's modeling methods or code
+    and advance molecular-level research or candidate screening.
+  pain: 公开材料只显示这是一个生物分子建模相关仓库，未说明研究者当前在建模流程中具体卡在哪一步、错误率或耗时有多高，因此痛点强度无法从公开事实确认。
+  pain_en: Public materials only show that this is a biomolecular-modeling-related repository; they do
+    not state which step of the modeling workflow researchers currently struggle with, nor error rates
+    or time costs, so pain intensity cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明研究者目前使用什么工具或流程完成同类建模任务，也未说明该仓库替代了哪种旧做法。
+  current_alternative_en: Public materials do not state what tools or workflows researchers currently
+    use for comparable modeling tasks, nor which prior approach this repository replaces.
+  usage_reason: 仓库收藏数从 33 增长到 270，说明有开发者关注，但公开材料没有用户反馈或案例说明他们因哪一步负担减轻而选择它，因此无法给出可核对的使用理由。
+  usage_reason_en: Repository stars grew from 33 to 270, indicating developer attention, but public materials
+    contain no user feedback or cases explaining which burden it reduces, so no verifiable usage reason
+    can be given.

@@ -81,3 +81,42 @@
   usage_reason: 用户要完成的任务是：AI 安全与可解释性研究员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI safety and interpretability researcher Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-dynolab-2026-09-22
+  project_slug: dynolab
+  level: full
+  reviewed_at: '2026-09-22T01:25:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决本地可解释性实验的整合问题，但全部公开证据实为 Discord 机器人 Dyno 的欢迎模块与登录页，与 AI 安全研究无关，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-4bce6096462fc0fc
+    - ev-9fbfe8a3124fa048
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Dyno Lab 官方仓库或官网，确认其真实产品页面、文档与 issue/discussion，替换当前误配的 dyno.gg Discord 机器人证据。
+  market: ''
+  job: AI 安全与可解释性研究者在 Apple Silicon 本地机器上，处理模型激活、探针、稀疏自编码器与干预实验，要完成可复现的本地可解释性实验。
+  job_en: An AI safety and interpretability researcher on Apple Silicon locally runs activation, probe,
+    SAE and intervention experiments to produce reproducible interpretability results.
+  pain: 公开证据全部指向 Discord 机器人 Dyno（欢迎模块、登录授权），与 AI 可解释性工作台无关，无法说明该任务存在何种痛点、频率或不采用代价。
+  pain_en: All public evidence points to the Discord bot Dyno (welcome module, login flow), unrelated
+    to an interpretability workbench, so no pain, frequency or cost of inaction can be established.
+  current_alternative: 公开材料未显示研究者当前用什么方式完成激活探查与干预实验，也未显示它替代了哪套旧流程。
+  current_alternative_en: Public materials do not show how researchers currently run activation probing
+    and intervention experiments, nor what prior workflow is replaced.
+  usage_reason: 缺少可归因到该产品的用户反馈或案例，无法解释相较旧做法减少了哪一步负担，因此不能判断用户为何选择它。
+  usage_reason_en: With no user feedback or case attributable to this product, there is no basis to explain
+    which step it removes versus the old approach or why users would choose it.

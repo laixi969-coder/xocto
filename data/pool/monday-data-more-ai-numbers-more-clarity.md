@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/monday-data-ai-investment-brief
 summary: Companies are backing their AI claims with more numbers.
 first_seen: '2026-09-21T13:28:07Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

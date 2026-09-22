@@ -1,0 +1,95 @@
+- id: req-initial-run-positron-on-amazon-sagemaker-ai-for-data-science-workflo-2026-09-22
+  project_slug: run-positron-on-amazon-sagemaker-ai-for-data-science-workflo
+  level: initial
+  reviewed_at: '2026-09-22T00:50:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据科学家在 R 与 Python 混用建模时工具分散、产物难复现的问题，交付为可部署模型与报告。
+    evidence_ids:
+    - ev-20f87f04b07f5be3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有云平台与厂商的集成说明，未见独立用户评价或团队采用数据。
+    evidence_ids:
+    - ev-20f87f04b07f5be3
+  - gate: model
+    status: insufficient
+    reason: 买方可能是企业数据平台预算，但定价与计费方式未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-20f87f04b07f5be3
+  - gate: truth
+    status: insufficient
+    reason: 治理与权限边界、人工复核环节未在材料中说明，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-20f87f04b07f5be3
+  next_validation: Posit 或 AWS 官方文档中 Positron on SageMaker AI 的定价、权限治理与部署说明。
+  market: ''
+  job: 企业数据科学家在需要把 R 与 Python 混用的建模任务从探索做到部署时，处理 Athena 表与特征数据，要产出可部署的模型与可交付报告。
+  job_en: An enterprise data scientist, running a modelling task that mixes R and Python from exploration
+    to deployment, works with Athena tables and feature data to produce a deployable model and a deliverable
+    report.
+  pain: 探索、特征校验、训练、部署与报告分散在不同工具，环境切换与治理审批反复打断，结果难以在同一受控环境复现。
+  pain_en: Exploration, feature validation, training, deployment and reporting sit in different tools,
+    so environment switching and governance approvals repeatedly interrupt work and results are hard to
+    reproduce in one controlled environment.
+  current_alternative: 本地 IDE 加脚本拼接，或分别使用云上笔记本、训练平台与报告工具，手工搬运数据与产物。
+  current_alternative_en: A local IDE with glued scripts, or separate cloud notebooks, training platforms
+    and reporting tools, with data and artefacts moved by hand.
+  usage_reason: 相较本地 IDE 加多工具拼接，它把探索、训练、部署与报告放进同一个受治理工作区，省掉环境切换与产物搬运这一步，并让结果在同一权限边界内可复现；因此受监管行业里需要审计留痕的数据科学团队会选它（推断）。
+  usage_reason_en: Compared with a local IDE plus multiple glued tools, it puts exploration, training,
+    deployment and reporting in one governed workspace, removing environment switching and artefact shuttling
+    and making results reproducible within one permission boundary; data science teams in regulated industries
+    needing audit trails would choose it (inference).
+- id: req-full-run-positron-on-amazon-sagemaker-ai-for-data-science-workflo-2026-09-22
+  project_slug: run-positron-on-amazon-sagemaker-ai-for-data-science-workflo
+  level: full
+  reviewed_at: '2026-09-22T01:26:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据科学家在 R 与 Python 混用建模时工具分散、产物难复现的问题，交付为可部署模型与报告；这是从产品能力与旧流程作出的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-d35e9cc6238afeb1
+    - ev-ff959fbb86507519
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官网对免费 IDE 与 Python/R 支持的说明，未见独立用户评价、团队采用或持续使用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-d35e9cc6238afeb1
+    - ev-ff959fbb86507519
+  - gate: model
+    status: insufficient
+    reason: Positron 本身免费，钱可能来自 Posit 的企业支持或 AWS 云资源消耗，但公开材料未披露定价与计费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d35e9cc6238afeb1
+    - ev-ff959fbb86507519
+  - gate: truth
+    status: insufficient
+    reason: 治理与权限边界、人工复核环节、端点部署后的运维责任未在材料中说明，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-d35e9cc6238afeb1
+  next_validation: 追踪 Posit 或 AWS 官方文档中 Positron on SageMaker AI 的定价、权限治理与部署说明页面。
+  market: ''
+  job: 企业数据科学家在需要把 R 与 Python 混用的建模任务从探索做到交付时，在受治理的 SageMaker Studio Space 内处理 Athena 表与特征数据，要完成特征校验、XGBoost
+    训练、实时端点部署并用 Quarto 出报告。
+  job_en: An enterprise data scientist, running a modelling task that mixes R and Python from exploration
+    to delivery, works inside a governed SageMaker Studio Space with Athena tables and feature data to
+    validate features, train XGBoost, deploy a real-time endpoint and report with Quarto.
+  pain: R 与 Python 混用的建模流程通常散落在本地 IDE、云笔记本、训练平台与报告工具之间，环境切换与治理审批反复打断，产物难以在同一受控环境内复现。
+  pain_en: Modelling workflows that mix R and Python are usually scattered across a local IDE, cloud notebooks,
+    training platforms and reporting tools, so environment switching and governance approvals repeatedly
+    interrupt work and artefacts are hard to reproduce in one controlled environment.
+  current_alternative: 本地 IDE 加脚本拼接，或分别使用云上笔记本、训练平台与报告工具，手工搬运数据与产物。
+  current_alternative_en: A local IDE with glued scripts, or separate cloud notebooks, training platforms
+    and reporting tools, with data and artefacts moved by hand.
+  usage_reason: 相较本地 IDE 加多工具拼接，Positron 把 R 与 Python 的探索、训练、部署与 Quarto 报告放进同一个受治理的 SageMaker Studio Space，省掉环境切换与产物搬运这一步，并让结果在同一权限边界内可复现；因此受监管行业里需要审计留痕的数据科学团队会选它（推断，尚无用户评价或采用数据佐证）。
+  usage_reason_en: Compared with a local IDE plus multiple glued tools, Positron puts R and Python exploration,
+    training, deployment and Quarto reporting inside one governed SageMaker Studio Space, removing environment
+    switching and artefact shuttling and making results reproducible within one permission boundary; data
+    science teams in regulated industries needing audit trails would choose it (inference, with no user-review
+    or adoption evidence yet).

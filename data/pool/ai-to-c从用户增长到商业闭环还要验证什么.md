@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zZHFQcGVSMWY0
 summary: AI To C：从用户增长到商业闭环，还要验证什么？ 虎嗅网
 first_seen: '2026-09-21T01:53:43Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

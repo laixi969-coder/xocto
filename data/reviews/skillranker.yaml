@@ -1,0 +1,84 @@
+- id: req-initial-skillranker-2026-09-22
+  project_slug: skillranker
+  level: initial
+  reviewed_at: '2026-09-22T00:50:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决技能过多时代理选错工具、开发者反复纠正的问题，旧做法是人工在提示里指定技能。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: consensus
+    status: insufficient
+    reason: 108 星与 8 次 fork 只说明关注度，没有用户评价或采用证据，不能证明持续使用。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，且依赖第三方 API key，买方与付费路径不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: truth
+    status: insufficient
+    reason: 排序准确率、弃权是否可靠、本地反馈是否真的改善结果均无公开数据。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有开发者报告排序准确率或弃权行为在实际会话中的表现。
+  market: ''
+  job: 使用编码代理的开发者在一轮会话中，面对当前上下文和一堆可用技能，要决定下一步调用哪一个，并避免选错。
+  job_en: A developer using a coding agent, mid-session, faces current context plus a pile of available
+    skills and must decide which to invoke next without picking wrong.
+  pain: 技能一多，代理容易选错或全选，开发者要反复纠正，浪费一轮轮上下文。
+  pain_en: Once skills multiply, agents pick wrong or pick everything, forcing developers to correct repeatedly
+    and burn context turns.
+  current_alternative: 现在靠人工在提示里指定技能，或让模型自行判断，没有独立的排序与弃权机制。
+  current_alternative_en: Today people name the skill in the prompt by hand or let the model decide, with
+    no separate ranking or abstention mechanism.
+  usage_reason: 推断：它把“人工在提示里点名技能”换成基于实时会话上下文的排序输出，并允许弃权，减少选错后返工的那一步；因此维护大量内部技能的团队更可能试用；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it replaces naming a skill by hand in the prompt with ranking based on
+    live session context plus abstention, cutting the rework step after a wrong pick, so teams maintaining
+    many internal skills are more likely to try it; no retention or repeat-use evidence yet.'
+- id: req-full-skillranker-2026-09-22
+  project_slug: skillranker
+  level: full
+  reviewed_at: '2026-09-22T01:27:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决技能过多时代理选错工具、开发者反复纠正的问题，旧做法是人工在提示里指定技能；这是基于仓库自述与工作流结构的推理，实际效果未核验。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: consensus
+    status: insufficient
+    reason: 108 星只说明关注度，没有用户评价或采用证据，不能证明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，且依赖第三方 API key，买方与付费路径不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: truth
+    status: insufficient
+    reason: 排序准确率、弃权是否可靠、本地反馈是否真的改善结果均无公开数据。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  next_validation: 追踪 skillranker 仓库的 issue 与 discussion，确认是否有开发者报告排序准确率或弃权行为在实际会话中的表现。
+  market: ''
+  job: 使用编码代理的开发者在一轮会话中，面对当前上下文和一堆可用技能，需要决定下一步调用哪一个并避免选错。
+  job_en: A developer using a coding agent, mid-session, faces current context plus a pile of available
+    skills and must decide which to invoke next without picking wrong.
+  pain: 技能一多，代理容易选错或全选，开发者要反复纠正，浪费一轮轮上下文。
+  pain_en: Once skills multiply, agents pick wrong or pick everything, forcing developers to correct repeatedly
+    and burn context turns.
+  current_alternative: 现在靠人工在提示里指定技能，或让模型自行判断，没有独立的排序与弃权机制。
+  current_alternative_en: Today people name the skill in the prompt by hand or let the model decide, with
+    no separate ranking or abstention mechanism.
+  usage_reason: 推断：它把“人工在提示里点名技能”换成基于实时会话上下文的排序输出，并允许弃权，减少选错后返工的那一步；因此维护大量内部技能的团队更可能试用；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it replaces naming a skill by hand in the prompt with ranking based on
+    live session context plus abstention, cutting the rework step after a wrong pick, so teams maintaining
+    many internal skills are more likely to try it; no retention or repeat-use evidence yet.'

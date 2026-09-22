@@ -1,6 +1,6 @@
 ---
 slug: vals-raises-funding-to-build-neutral-ai-benchmarking-standar
-name: Vals Raises Funding to Build Neutral AI Benchmarking Standard
+name: Vals
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOYjBMX1dZUDFK
 summary: Vals Raises Funding to Build Neutral AI Benchmarking Standard The Tech Buzz
 first_seen: '2026-09-19T13:35:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Vals Raises Funding to Build Neutral AI Benchmarking Standard
+# Vals
 
 Vals Raises Funding to Build Neutral AI Benchmarking Standard The Tech Buzz
 

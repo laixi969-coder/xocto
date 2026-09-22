@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/493175.html
 summary: 沙利文报告
 first_seen: '2026-09-21T03:32:03Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

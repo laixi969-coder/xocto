@@ -1,0 +1,91 @@
+- id: req-initial-higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a-2026-09-22
+  project_slug: higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a
+  level: initial
+  reviewed_at: '2026-09-22T00:50:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小企业做视频广告素材依赖外包、周期长成本高的问题，旧流程与不采用的后果清晰，结构上成立。
+    evidence_ids:
+    - ev-89eb970d71ae38cd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有模型厂商的客户案例，缺少独立用户评价与持续使用证据，共识强度有限。
+    evidence_ids:
+    - ev-89eb970d71ae38cd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按条收费还是订阅制不可知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-89eb970d71ae38cd
+  - gate: truth
+    status: insufficient
+    reason: 成片能否直接投放、合规与人工确认边界未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-89eb970d71ae38cd
+  next_validation: 收集 Higgsfield AI 官方定价页与公开客户案例，确认按什么计价以及成片是否可直接投放。
+  market: ''
+  job: 小企业主或广告投放运营在需要为产品做视频广告时，要处理产品素材与卖点信息，产出一条能直接投放的短视频广告。
+  job_en: Small business owners or ad operators needing a video ad for a product must work from product
+    assets and selling points to produce a short video ad ready to run.
+  pain: 视频广告制作依赖剪辑人员或外包团队，周期长、单条成本高，小企业难以快速测试多个创意版本。
+  pain_en: Video ad production depends on editors or outsourced teams, with long cycles and high per-clip
+    cost, making it hard for small businesses to test multiple creative versions quickly.
+  current_alternative: 请自由剪辑师或外包制作团队，或用通用视频生成工具再手工拼接与调色。
+  current_alternative_en: Hiring freelance editors or outsourced production teams, or using general video
+    generation tools and then manually assembling and color-correcting.
+  usage_reason: 推断：相较外包制作，Higgsfield AI 让用户用提示词直接生成广告成片，省去写脚本、找素材、剪辑拼接这几步，因此需要快速产出多条投放素材的小企业主会在测试创意时选择它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with outsourced production, Higgsfield AI lets users generate
+    finished ad clips from prompts, skipping scriptwriting, asset sourcing and editing, so small business
+    owners needing many campaign assets quickly would choose it when testing creatives; public material
+    provides no retention or repeat-purchase evidence.'
+- id: req-full-higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a-2026-09-22
+  project_slug: higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a
+  level: full
+  reviewed_at: '2026-09-22T01:25:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小企业做视频广告素材依赖外包、周期长成本高的问题，旧流程是请剪辑或外包团队，不解决的后果是难以快速测试多条创意；这是从产品能力与工作流结构作出的推理，公开材料未记录用户抱怨。
+    evidence_ids:
+    - ev-2a7e535f6cc09f38
+    - ev-d5b02d8cf2058822
+  - gate: consensus
+    status: insufficient
+    reason: 官网与 API 平台说明产品已上线并有开放接口，但公开材料没有独立用户评价、客户案例或持续使用数据，无法证明目标用户已长期采用。
+    evidence_ids:
+    - ev-2a7e535f6cc09f38
+    - ev-8eb7bc95cc8e03cb
+  - gate: model
+    status: insufficient
+    reason: 官网提到 API 平台可查看模型与定价，但公开材料未给出具体价格与买方结构，按条收费还是订阅制不可知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8eb7bc95cc8e03cb
+  - gate: truth
+    status: insufficient
+    reason: 产品提供多模型生成与编辑能力，但公开材料未说明成片能否直接投放、合规审查与人工确认边界，交付确定性尚不可核验。
+    evidence_ids:
+    - ev-2a7e535f6cc09f38
+    - ev-d5b02d8cf2058822
+  next_validation: 收集 Higgsfield AI 官方定价页与公开客户案例，确认按什么计价以及成片是否可直接投放。
+  market: ''
+  job: 小企业主或广告投放运营在需要为产品做视频广告素材时，处理产品卖点与参考素材，要产出一条能直接用于投放的短视频广告。
+  job_en: Small business owners or ad operators needing video ad assets for a product work from selling
+    points and reference material to produce a short video ad ready to run.
+  pain: 公开材料未直接记录用户抱怨；从产品定位看，视频广告制作依赖剪辑人员或外包团队，周期长、单条成本高，小企业难以快速测试多个创意版本，这是结构推理而非用户口述。
+  pain_en: Public material records no direct user complaints; from the product positioning, video ad production
+    depends on editors or outsourced teams with long cycles and high per-clip cost, making it hard for
+    small businesses to test many creative versions quickly — this is structural inference, not user testimony.
+  current_alternative: 请自由剪辑师或外包制作团队，或分别使用 Sora、Kling、Veo 等单一视频生成工具再手工拼接与调色。
+  current_alternative_en: Hiring freelance editors or outsourced production teams, or using single video
+    generation tools such as Sora, Kling or Veo separately and then manually assembling and color-correcting.
+  usage_reason: 推断：相较外包制作或逐个切换单一模型，Higgsfield 在同一工作区聚合 Seedance、Kling、Veo、Sora 等多个视频模型，用户可切换模型并并排比较输出后选定结果，省去在多平台间导出与比对这一步，因此需要快速产出多条投放素材的小企业主会在测试创意时选择它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with outsourced production or switching between single models,
+    Higgsfield aggregates Seedance, Kling, Veo, Sora and others in one workspace so users can switch models
+    and compare outputs side by side before picking a result, removing the step of exporting and comparing
+    across platforms, so small business owners needing many campaign assets quickly would choose it when
+    testing creatives; public material provides no retention or repeat-purchase evidence.'

@@ -78,3 +78,56 @@
   usage_reason: 用户要完成的任务是：视频创作者、动画师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Video creators, Animators Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-blender-video-workflows-2026-09-22
+  project_slug: blender-video-workflows
+  level: full
+  reviewed_at: '2026-09-22T01:24:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 视频生成难以精确控制运镜与构图、复刻参考视频或保持角色一致性成本高的问题；公开说明已能还原输入（参考视频或白模动画）、动作（Codex+Blender 转提示词）、交付（交给
+      AI 视频生成出片）与不解决的后果，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-8e216aefcc01a233
+    - ev-f8c27ae63043faa8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 升至 62，说明中文开发者社区在关注这套工作流，但收藏只反映关注度，不能证明视频创作者已把它留在日常出片流程中；缺少 issue、discussion 或成片案例说明实际使用与重复采用。
+    evidence_ids:
+    - ev-8e216aefcc01a233
+    - ev-f8c27ae63043faa8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，作为开源工作流可能靠教程、模板或定制服务变现，但均属推断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-8e216aefcc01a233
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 Codex 与 Blender 版本依赖、提示词转换的稳定性、生成结果与白模动画的对齐程度及人工修片边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-8e216aefcc01a233
+    - ev-f8c27ae63043faa8
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有创作者贴出复刻或白模转视频的实际成片与使用反馈。
+  market: ''
+  job: 视频创作者或动画师在需要复刻一段参考视频的运镜与节奏、或把原创白模动画转成成片时，用 Codex 配合 Blender 把参考素材或白模动画转成提示词，再交给 AI 视频生成工具出片。
+  job_en: A video creator or animator who needs to replicate the camera movement and pacing of a reference
+    video, or turn an original white-model animation into a finished clip, uses Codex with Blender to
+    convert the reference material or white-model animation into prompts, then feeds them to an AI video
+    generation tool.
+  pain: AI 视频生成工具难以精确控制运镜与构图，创作者只能反复试提示词，白模动画与生成结果之间缺少可复用的转换环节；不解决的后果是复刻参考视频或保持角色一致性要耗费大量试错，成片节奏难以对齐。
+  pain_en: AI video generation tools are hard to control precisely for camera movement and composition,
+    so creators iterate on prompts repeatedly, and there is no reusable bridge between white-model animation
+    and generated output; the consequence is heavy trial-and-error to replicate a reference video or keep
+    character consistency, with pacing hard to align.
+  current_alternative: 直接在 AI 视频工具里手写提示词反复试错，或用传统 Blender 手工 K 帧、逐镜头渲染，前者不可控、后者耗时且难以复用参考视频的运镜。
+  current_alternative_en: Hand-writing prompts and iterating inside AI video tools, or manually keyframing
+    and rendering shot by shot in traditional Blender; the former is uncontrollable and the latter is
+    slow and hard to reuse a reference video's camera work.
+  usage_reason: 相较手写提示词试错，它把 Blender 中的参考视频或白模动画经 Codex 转成结构化提示词，让运镜与构图先在三渲空间里确定再交给生成工具，减少反复盲试提示词这一步；需要复刻特定参考片或保持角色一致性的创作者会在这种场景下选择它。这是基于工作流结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with trial-and-error prompt writing, it converts a reference video or white-model
+    animation in Blender into structured prompts via Codex, so camera movement and composition are fixed
+    in a 3D space before generation, removing the blind prompt-iteration step; creators who must replicate
+    a specific reference or keep character consistency would choose it in that situation. This is an inference
+    from workflow structure, not yet backed by user feedback.

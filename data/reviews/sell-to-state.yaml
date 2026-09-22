@@ -1,0 +1,85 @@
+- id: req-initial-sell-to-state-2026-09-22
+  project_slug: sell-to-state
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨多国采购平台逐站检索、容易漏标的问题，痛点具体；买方是投标团队，付费方尚未在材料中确认。
+    evidence_ids:
+    - ev-85319588895e5b63
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品说明，没有用户评价、客户案例或采用数据，无法判断共识。
+    evidence_ids:
+    - ev-85319588895e5b63
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，钱可能来自订阅或按中标收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-85319588895e5b63
+  - gate: truth
+    status: insufficient
+    reason: 数据更新频率、覆盖完整性以及AI在检索中的具体作用均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-85319588895e5b63
+  next_validation: 收集Sell to State官方定价页或数据说明，确认合同数据更新频率与检索是否含AI筛选。
+  market: ''
+  job: 面向政府客户的销售或投标负责人在寻找可投项目时，需要跨多国采购平台检索合同并筛出匹配标的。
+  job_en: Sales or bid owners serving government clients need to search contracts across multiple national
+    procurement platforms and shortlist matching tenders.
+  pain: 各国采购平台入口、语言和格式不一，逐站检索耗时且容易漏掉可投项目，错过投标窗口。
+  pain_en: National procurement platforms differ in entry, language and format, so site-by-site searching
+    is slow and easily misses winnable tenders and bid windows.
+  current_alternative: 人工逐个访问各国采购网站检索，或依赖本地代理与行业人脉获取招标信息。
+  current_alternative_en: Manually visiting each national procurement site, or relying on local agents
+    and industry contacts for tender information.
+  usage_reason: 推断：相较逐站检索，Sell to State把64国合同放进同一检索入口，省掉切换平台和翻译这一步，因此同时盯多个国家标的的小型投标团队会先试用。
+  usage_reason_en: 'Inference: compared with site-by-site searching, Sell to State puts contracts from
+    64 countries behind one search entry, removing the platform-switching and translation steps, so small
+    bid teams tracking tenders in several countries would try it first.'
+- id: req-full-sell-to-state-2026-09-22
+  project_slug: sell-to-state
+  level: full
+  reviewed_at: '2026-09-22T01:27:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向eBay、Facebook Marketplace、OfferUp等二手交易平台，与政府采购合同检索无关，无法还原用户任务、痛点与替代方式，需求结构无法成立。
+    evidence_ids:
+    - ev-ad1c0ba838b5c8b1
+    - ev-32d320957bb41481
+    - ev-06e7577f6be7014e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪Sell to State官网产品页与定价页，确认其是否真实提供64国政府采购合同检索、数据来源与更新频率，以及是否披露客户案例或付费方式。
+  market: ''
+  job: 面向政府客户的销售或投标负责人在寻找可投项目时，需要跨多国采购平台检索合同并筛出匹配标的。
+  job_en: Sales or bid owners serving government clients need to search contracts across multiple national
+    procurement platforms and shortlist matching tenders.
+  pain: 公开材料未提供任何关于该产品用户痛点的证据；现有证据全部指向eBay、Facebook Marketplace、OfferUp等二手交易平台，与政府采购检索无关，无法确认用户究竟遇到什么困难。
+  pain_en: The public material provides no evidence about this product's user pain; all available evidence
+    points to second-hand marketplaces such as eBay, Facebook Marketplace and OfferUp, unrelated to government
+    procurement search, so the actual user difficulty cannot be confirmed.
+  current_alternative: 无法从现有证据确认当前替代方式；材料中出现的eBay、Facebook Marketplace、OfferUp均为消费品二手交易平台，不构成政府采购投标检索的替代方案。
+  current_alternative_en: The current alternative cannot be confirmed from the available evidence; the
+    eBay, Facebook Marketplace and OfferUp items are consumer resale platforms and do not constitute an
+    alternative for government procurement bid search.
+  usage_reason: 无法判断用户为何会选择它：现有证据未包含任何该产品的功能说明、用户反馈或使用场景，无法建立产品动作与用户任务之间的因果联系。
+  usage_reason_en: 'Why users would choose it cannot be judged: the available evidence contains no product
+    description, user feedback or usage scenario for this product, so no causal link between product action
+    and user task can be established.'

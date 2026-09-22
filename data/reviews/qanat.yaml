@@ -449,3 +449,44 @@
   usage_reason_en: 'No causal explanation is possible: no product docs, user feedback or customer cases
     show which step this agent-native DAG engine removes or which verifiable result it improves versus
     the old approach, so it is impossible to say which users would choose it and when.'
+- id: req-full-qanat-2026-09-22
+  project_slug: qanat
+  level: full
+  reviewed_at: '2026-09-22T01:26:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决量化因子构建与回测的编排问题，但全部公开证据都是古代伊朗地下灌溉渠道 qanat 的历史介绍，与量化研究任务无关，无法还原用户任务、痛点、旧替代或不解决的后果，需求结构无从成立。
+    evidence_ids:
+    - ev-730ac67218dc9864
+    - ev-055d2f966222c042
+    - ev-aa7ce05cee3d39f2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 qanat 项目的官方仓库 README、部署文档与 issue/discussion，确认其是否真实存在量化因子 DAG 编排功能及任何公开使用记录。
+  market: ''
+  job: 量化研究员或投资组合经理在开发 alpha 因子时，把因子构建与回测流程编排成 DAG，交由 AI agent 逐节点执行，以产出可评估的因子结果。
+  job_en: A quantitative researcher or portfolio manager building alpha factors orchestrates factor construction
+    and backtesting as a DAG, letting AI agents execute each node to produce evaluable factor results.
+  pain: 公开材料未记录任何量化研究者的痛点、抱怨或既有替代行为；现有证据全部是关于古代伊朗地下灌溉渠道 qanat 的历史介绍，与量化工作流无关。
+  pain_en: Public materials record no pain, complaint, or existing workaround from any quantitative researcher;
+    all evidence concerns the ancient Iranian underground irrigation channel qanat, unrelated to quant
+    workflows.
+  current_alternative: 公开材料未说明量化研究员目前如何完成因子构建与回测，也未说明该产品替代了什么旧流程。
+  current_alternative_en: Public materials do not show how quant researchers currently build and backtest
+    factors, nor what this product replaces.
+  usage_reason: 无法说明用户为何选择它：现有证据与产品功能无任何语义关联，既无用户反馈也无客户案例支持采用动机。
+  usage_reason_en: 'No reason for adoption can be stated: the evidence has no semantic link to the product,
+    and neither user feedback nor customer cases support an adoption motive.'

@@ -1,0 +1,82 @@
+- id: req-initial-glass-launches-ai-powered-g-commerce-supplier-experience-giv-2026-09-22
+  project_slug: glass-launches-ai-powered-g-commerce-supplier-experience-giv
+  level: initial
+  reviewed_at: '2026-09-22T00:50:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决政府投标材料整理与合规核对的需求，痛点真实，但公开材料只有一句发布声明，无法确认具体输入、动作与交付，价值结构尚不能判定。
+    evidence_ids:
+    - ev-b9d53e1fdc5d8201
+  - gate: consensus
+    status: insufficient
+    reason: 除发布稿外无客户、评价或采用信号，无法判断买方是否已认可这一做法。
+    evidence_ids:
+    - ev-b9d53e1fdc5d8201
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，买方是供应商还是采购方也不清楚；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-b9d53e1fdc5d8201
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成内容能否确定性通过合规审查，人工复核边界未说明。
+    evidence_ids:
+    - ev-b9d53e1fdc5d8201
+  next_validation: 收集 Glass 官方 G-Commerce 产品页或定价页，确认其输入材料、交付物与收费方式。
+  market: ''
+  job: 政府采购供应商在准备投标与准入材料时，需要把企业资质、过往业绩与采购要求整理成可提交的合规文件。
+  job_en: Government suppliers preparing bids and onboarding materials need to turn company qualifications,
+    past performance and procurement requirements into submittable compliance documents.
+  pain: 政府投标材料门槛高、格式与合规要求繁琐，中小企业常需专人反复核对，出错即失去资格。
+  pain_en: Government bid materials have high barriers and tedious format and compliance requirements;
+    small firms often need dedicated staff to double-check, and an error can cost eligibility.
+  current_alternative: 目前多由内部投标专员、外部咨询或律所手工撰写与核对标书。
+  current_alternative_en: Today this is mostly handled manually by in-house bid specialists, outside consultants
+    or law firms.
+  usage_reason: 推断：若产品能把采购要求与供应商资料直接映射成标书草稿，可减少从零起草与格式核对这一步负担，因此缺少专职投标人员的中小供应商会在赶标期选择它；但公开材料未给出客户案例或使用证据。
+  usage_reason_en: 'Inference: if the product maps procurement requirements and supplier data directly
+    into a bid draft, it reduces the burden of drafting from scratch and checking formats, so small suppliers
+    without dedicated bid staff would choose it near deadlines; however, public materials give no customer
+    cases or usage evidence.'
+- id: req-full-glass-launches-ai-powered-g-commerce-supplier-experience-giv-2026-09-22
+  project_slug: glass-launches-ai-powered-g-commerce-supplier-experience-giv
+  level: full
+  reviewed_at: '2026-09-22T01:25:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决政府投标材料整理与合规核对，但公开材料只有一句发布声明，连具体输入、动作、交付与痛点强度都无法还原，价值结构不能判定。
+    evidence_ids:
+    - ev-781487cceec25a7f
+    - ev-e8a2ea74f5e703d0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Glass 官方 G-Commerce 产品页或定价页，确认其输入材料、交付物与收费方式。
+  market: ''
+  job: 政府采购供应商在准备投标与供应商准入材料时，需要把企业资质、过往业绩与采购要求整理成可提交的合规文件。
+  job_en: Government suppliers preparing bids and vendor onboarding materials need to turn company qualifications,
+    past performance and procurement requirements into submittable compliance documents.
+  pain: 公开材料只有一句发布声明，无法确认投标材料整理与合规核对的具体痛点、频率与不采用代价。
+  pain_en: Public materials contain only a launch statement, so the specific pain, frequency and cost
+    of not adopting bid-material preparation and compliance checking cannot be confirmed.
+  current_alternative: 公开材料未说明当前替代方式，无法确认是内部投标专员、外部咨询还是律所手工撰写。
+  current_alternative_en: Public materials do not describe the current alternative, so it is unclear whether
+    in-house bid specialists, outside consultants or law firms handle this manually.
+  usage_reason: 公开材料未给出客户案例、使用反馈或可核对结果，无法解释用户为何会选择它而非旧做法。
+  usage_reason_en: Public materials give no customer cases, usage feedback or verifiable outcomes, so
+    there is no basis to explain why users would choose it over the old approach.

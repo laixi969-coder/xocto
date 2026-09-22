@@ -3,14 +3,14 @@ slug: 找到离变现最近的ai场景互联网巨头打响ai办公卡位战
 name: AI办公
 builder: ''
 category: ''
-summary_zh: 2026年8月至9月，多家互联网巨头围绕AI办公展开卡位竞争，报道指出该场景离变现最近，同时出现混合架构、开源基建、企业本地部署与办公智能体等落地路径。这意味着AI办公正从浅层模型比拼转向架构与交付能力的竞争，企业本地化部署和流程协同成为采用重点，对AI应用的成本、交付形态和竞争格局均有直接影响。
+summary_zh: 2026年8月至9月，多家互联网厂商密集推出AI办公产品，百度披露库库AI全球月活超4000万、海外版Kooko用户破千万，同时出现全栈国产模型在单张3090显卡上本地部署企业AI办公的方案。这表明AI办公正从浅层模型比拼转向混合架构与本地化部署，企业侧采用门槛下降，竞争焦点转向流程协同与私有化交付能力。
 inspiration: ''
-summary_en: From August to September 2026, multiple internet giants competed for position in AI office
-  work, described as the scenario closest to monetization, with hybrid architectures, open-source infrastructure,
-  on-premise enterprise deployment and office agents emerging as implementation paths. This means AI office
-  competition is shifting from shallow model comparisons to architecture and delivery capability, with
-  on-premise deployment and process collaboration becoming adoption priorities, directly affecting cost,
-  delivery form and competitive landscape for AI applications.
+summary_en: From August to September 2026, multiple internet vendors launched AI office products in quick
+  succession; Baidu disclosed that Kuku AI surpassed 40 million global monthly active users and its overseas
+  version Kooko exceeded 10 million users, while a full-stack domestic model solution brought enterprise
+  AI office work on-premises on a single 3090 GPU. This indicates AI office competition is shifting from
+  shallow model comparisons toward hybrid architectures and local deployment, lowering enterprise adoption
+  barriers and moving the competitive focus to workflow collaboration and private delivery capability.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmps
 summary: 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战 京报网
 first_seen: '2026-08-26T11:44:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

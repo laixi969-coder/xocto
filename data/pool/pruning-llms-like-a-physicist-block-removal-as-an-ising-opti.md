@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-l
 summary: ''
 first_seen: '2026-09-21T13:44:34Z'
 last_seen: '2026-09-22T00:50:50Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

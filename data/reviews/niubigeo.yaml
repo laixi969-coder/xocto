@@ -1,0 +1,90 @@
+- id: req-initial-niubigeo-2026-09-22
+  project_slug: niubigeo
+  level: initial
+  reviewed_at: '2026-09-22T00:50:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决品牌在生成式回答中引用情况不可见的问题，痛点方向成立，但候选只有一句自述，说不清具体交付什么，价值结构无法确认。
+    evidence_ids:
+    - ev-3fe6fccbe795a54d
+  - gate: consensus
+    status: insufficient
+    reason: 除一句开源自述外，没有用户评价、客户案例或社区讨论，无法判断是否有人真的把它用起来。
+    evidence_ids:
+    - ev-3fe6fccbe795a54d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；开源项目可能靠服务或托管收费，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-3fe6fccbe795a54d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标，也无法判断承诺能否确定性交付，缺少可复现的产出说明。
+    evidence_ids:
+    - ev-3fe6fccbe795a54d
+  next_validation: 收集该开源项目的仓库说明与 issue/discussion，确认它实际接收什么输入、产出什么可核对结果。
+  market: ''
+  job: 品牌或增长负责人需要知道自家内容在生成式回答中被如何引用，并据此调整内容投放。
+  job_en: Brand or growth leads need to know how their content is cited in generative answers and adjust
+    content placement accordingly.
+  pain: 生成式回答逐渐成为内容入口，但品牌缺少可核对的引用情况记录，只能靠人工零散搜索，无法判断哪些内容被引用、哪些没有。
+  pain_en: Generative answers are becoming a content entry point, yet brands lack a checkable record of
+    citations and can only search manually and sporadically, unable to tell which content is cited and
+    which is not.
+  current_alternative: 目前主要靠人工在各类对话产品里逐个提问、截图记录，或依赖通用搜索排名工具，后者并不覆盖生成式回答的引用情况。
+  current_alternative_en: Today this is mainly done by manually asking questions in various chat products
+    and taking screenshots, or by relying on general search ranking tools, which do not cover citations
+    in generative answers.
+  usage_reason: 推断：如果它能把“某品牌在若干类问题下被引用情况”的核查固定成可重复的流程，用户就不必每次手工提问和截图，从而减少一步重复劳动；但候选资料没有说明它具体接收什么、产出什么，也没有任何使用或付费证据，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it could turn the check of how a brand is cited across a set of questions
+    into a repeatable process, users would not have to ask and screenshot manually each time, removing
+    one repetitive step; however, the candidate material does not say what it receives or produces, and
+    there is no usage or payment evidence, so it cannot yet be confirmed that users would choose it for
+    this reason.'
+- id: req-full-niubigeo-2026-09-22
+  project_slug: niubigeo
+  level: full
+  reviewed_at: '2026-09-22T01:26:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决品牌在生成式回答中引用情况不可见的问题，痛点方向成立，但候选只有一句自述，说不清具体交付什么，价值结构无法确认。
+    evidence_ids:
+    - ev-3fe6fccbe795a54d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源项目的仓库说明与 issue/discussion，确认它实际接收什么输入、产出什么可核对结果。
+  market: ''
+  job: 品牌或增长负责人在检查自家内容是否被生成式回答引用时，处理品牌内容与 AI 回答结果，要完成的任务是判断哪些内容被引用并据此调整投放。
+  job_en: Brand or growth leads checking whether their content is cited in generative answers work with
+    brand content and AI answer outputs, aiming to determine which content is cited and adjust placement
+    accordingly.
+  pain: 生成式回答成为内容入口后，品牌缺少可核对的引用记录，只能人工零散搜索，无法判断哪些内容被引用、哪些没有。
+  pain_en: As generative answers become a content entry point, brands lack a checkable citation record
+    and can only search manually and sporadically, unable to tell which content is cited and which is
+    not.
+  current_alternative: 目前主要靠人工在各类对话产品里逐个提问、截图记录，或依赖通用搜索排名工具，后者并不覆盖生成式回答的引用情况。
+  current_alternative_en: Today this is mainly done by manually asking questions in various chat products
+    and taking screenshots, or by relying on general search ranking tools, which do not cover citations
+    in generative answers.
+  usage_reason: 推断：若它能把“某品牌在若干类问题下被引用情况”的核查固定成可重复流程，用户就不必每次手工提问和截图；但候选资料只有一句自述，未说明接收什么输入、产出什么结果，也无任何使用或付费证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it could turn checking how a brand is cited across a set of questions
+    into a repeatable process, users would not have to ask and screenshot manually each time; however,
+    the candidate material offers only one self-description, does not say what it receives or produces,
+    and has no usage or payment evidence, so it cannot be confirmed that users would choose it for this
+    reason.'
