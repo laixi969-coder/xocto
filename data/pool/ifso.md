@@ -31,7 +31,7 @@ url: https://ifso.io
 canonical_url: https://ifso.io
 summary: A personal finance simulator for major life decisions
 first_seen: '2026-08-25T18:48:42Z'
-last_seen: '2026-09-21T00:16:52Z'
+last_seen: '2026-09-22T00:50:21Z'
 status: queued
 sources:
 - hackernews
@@ -45,10 +45,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://ifso.io/try
-  seen_at: '2026-09-21T00:16:52Z'
+  seen_at: '2026-09-22T00:50:21Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 8
+    comments: 3
   kind: product
 ---
 

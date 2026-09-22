@@ -20,8 +20,8 @@ url: https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHI5YUVYaGNkNUd1UVVrRE
 canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHI5YUVYaGNkNUd1UVVrREhQNlhyd2J6N3RjYnFfWDgzdjVGV0d5amdoeUthTURhYThyR0pWOTJxOWpkemlCa3dhcHl3bmxoOW1JMzJQUXNGX2cwMjhMVWM2Y1oyaVJJc3VEVkk2cEZ6Y2VDdFo1NmwzYWJ5OThhMQ?oc=5
 summary: Temasek-backed Xora leads $53m funding for AI startup Hang Ten DealStreetAsia
 first_seen: '2026-09-17T00:19:33Z'
-last_seen: '2026-09-21T00:17:23Z'
-status: rejected
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGc1UjVyU1I2U1ZYbVEza1VBSUNKeS1OR1h2a2dRMDE3bDNWSGVEdk14cEZHUDRSU0tsbkczeWRhM2xMaUwyeWNRSUh2OE1UaWZlZ2cyWERLR25pNHpqYXBvbm4zTVRXWVpoZzJYRms0ZWJBZHhIN0VmdlpYLTRoNmsxdDgtRE5PbG1rVFltS1NCQm4wQU5SdG1FS1NyUlppVXVwNEdxRG00QmIwTjNwRmVWZlA0NGhnMGhoVWhncw?oc=5
   seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMic0FVX3lxTE1vZDFiS0NCMHNBSTB3c25mTHlUbE5pRm9PRTZoSHI0OWhkYmxHaS1iWmVMVk5iVGF6QnFxUGFJQzY3aXdmMk9nMDFjUmppSEpJMU9qbUx1Q2NCa01RZy1EMzRDSHZPNnBBdVVCOVRoX0ZxZ0E?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

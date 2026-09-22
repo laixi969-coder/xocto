@@ -1,7 +1,7 @@
 ---
 slug: everyone-says-software-is-dead-saas-startup-linear-just-doub
 name: Linear
-builder: ''
+builder: julian_digital
 category: AI + 开发
 summary_zh: Linear 是面向软件团队的 issue 跟踪与项目管理工具。团队在规划迭代时，将任务、缺陷和路线图交给它，AI 辅助自动分类、排序和关联上下文，最终交付可共享的看板与进度视图，人工仍可调整优先级。
 inspiration: 趋势是 AI 从生成代码走向管理研发流程本身。不要做通用项目管理，先切入研发团队的迭代规划与缺陷分流，按席位或结果收费，窗口在于与现有代码仓库和 CI/CD 的深度集成。
@@ -35,11 +35,12 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQc09uOEhxS0ZH
 summary: Everyone says software is dead. SaaS startup Linear just doubled its valuation to $2.5 billion.
   Business Insider
 first_seen: '2026-08-26T12:00:00Z'
-last_seen: '2026-09-10T16:51:24Z'
-status: queued
+last_seen: '2026-09-22T00:50:21Z'
+status: pending_filter
 sources:
 - newssearch
 - ia40
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQc09uOEhxS0ZHTVdoYTVxOFVmSHFxZXJpNGVPSGxxMWNJeFpjdlZtME81WDV0TUE4UDIwRFFYUkNpVVBVOWw5VDVDeFZ1ZnhaTnVmVnJ3ZU0zdEhVRVhwV3N4emZJR1UyR2c2cEZkQlRPdWUyZjNPeTdPVmVIemI3Rk1YYjhLUi1JODlPVEh1SkRUdFJET2h5dg?oc=5
@@ -53,6 +54,13 @@ sightings:
     stage: Mid
     edition: '2026'
   kind: product
+- source: hackernews
+  url: https://linear.app/now/ci-bottleneck-reworked
+  seen_at: '2026-09-22T00:50:21Z'
+  metrics:
+    points: 127
+    comments: 118
+  kind: news
 ---
 
 # Linear

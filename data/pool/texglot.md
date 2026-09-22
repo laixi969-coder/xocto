@@ -42,16 +42,16 @@ canonical_url: https://github.com/Mengqi-Lei/texglot
 summary: Translate arXiv papers and LaTeX projects with your own LLM API, preserving equations, citations,
   and document structure. Generate translated PDFs and editable source through a local app or batch CLI.
 first_seen: '2026-09-09T04:49:08Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Mengqi-Lei/texglot
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 94
+    stars: 112
     forks: 1
     open_issues: 0
   kind: product

@@ -35,15 +35,24 @@ url: https://www.producthunt.com/products/trama-mac-automation-in-plain-language
 canonical_url: https://producthunt.com/products/trama-mac-automation-in-plain-language
 summary: Create macOS native automations using plain language
 first_seen: '2026-08-22T19:15:06Z'
-last_seen: '2026-08-24T22:44:32Z'
-status: queued
+last_seen: '2026-09-22T00:50:21Z'
+status: pending_filter
 sources:
 - producthunt
+- hackernews
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/trama-mac-automation-in-plain-language
   seen_at: '2026-08-24T22:44:32Z'
   metrics: {}
+  kind: product
+- source: hackernews
+  url: https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/
+  seen_at: '2026-09-22T00:50:21Z'
+  metrics:
+    points: 225
+    comments: 226
+  kind: news
 ---
 
 # Trama

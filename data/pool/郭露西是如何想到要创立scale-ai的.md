@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-18T00:20:10Z'
-status: rejected
+last_seen: '2026-09-22T00:50:51Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -178,6 +178,16 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/17/nearby-computing-secures-eur680k-to-scale-cloud-to-edge-orchestration-platform/
   seen_at: '2026-09-18T00:20:10Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/21/being-a-private-company-actually-has-a-lot-of-advantages-right-now-says-deepl-boss/
+  seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/21/unit1-studio-raises-ps20m-to-scale-avatar-concert-technology/
+  seen_at: '2026-09-22T00:50:51Z'
   metrics: {}
   kind: news
 ---

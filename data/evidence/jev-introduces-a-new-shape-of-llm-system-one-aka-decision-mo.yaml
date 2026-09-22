@@ -1,0 +1,19 @@
+- id: ev-a1499e1958170a1c
+  project_slug: jev-introduces-a-new-shape-of-llm-system-one-aka-decision-mo
+  url: https://simonwillison.net/2026/Sep/21/jev/
+  title: Jev introduces a new shape of LLM - System One, aka Decision Models
+  published_at: '2026-09-21T23:09:20Z'
+  collected_at: '2026-09-22T00:50:51Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Last week  TypeSafe AI  unveiled  Jev , their first example of a new category of model that they\
+    \ are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is  a better\
+    \ name  for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs,\
+    \ but instead of text output it returns floating point numbers corresponding to categories, yes/no\
+    \ questions, ratings, and associated confidence scores. \n TypeSafe describe Jev like this: \n \n\
+    \ Think of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic\
+    \ decisions out. \n \n It's also very fast, and  really cheap . Regular LLMs  are priced  in terms\
+    \ of input and output tokens, with output generally charged at significantly higher rates. Jev charges\
+    \ only for input - output is free - and the input price of their first model is $0.042 per million\
+    \ tokens - cheaper even than OpenAI's  GPT-5 Nano  ($0.05/million). \n Jev lets you ask questions\
+    \ about text or semi-structu"

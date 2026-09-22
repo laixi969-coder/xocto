@@ -20,8 +20,8 @@ url: https://procgrafprot.vercel.app/wall
 canonical_url: https://procgrafprot.vercel.app/wall
 summary: Procedural Generated Grafitti Wall
 first_seen: '2026-08-14T19:38:52Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-09-22T00:50:21Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -73,6 +73,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQeG9GSFJtQUx6dnUtNUt3NFVsbnctaVE2N2tTa1lvYnJDc2Z5WHlTMHRieFlWR0E3NDd4SzFfby1WSVhZVVBlOE1RakR4dGh4cHhNeEtUODBMY2h6elA2cDdpdDhQZU5PcFFuN085YkVSeDQ0VVFwMjVpX2E4TW90SE1yNkpaV1lLb3VoSWVuQ0Jpdl9MQWQ0SFNXNWJiUXdIN2JCNG02bFdSUWhsYW5wSXRDQVM?oc=5
   seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html
+  seen_at: '2026-09-22T00:50:21Z'
+  metrics:
+    points: 60
+    comments: 71
   kind: news
 ---
 

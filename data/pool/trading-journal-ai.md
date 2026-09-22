@@ -35,17 +35,17 @@ canonical_url: https://youtube.com/@tapetoedge
 summary: Local-first AI trading journal. Import your broker CSV, get round-trip trades, KPIs and Claude-powered
   diary analysis. Runs on your own machine. No account, no telemetry, MIT.
 first_seen: '2026-09-06T23:58:23Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://www.youtube.com/@tapetoedge
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 55
-    forks: 20
+    stars: 63
+    forks: 22
     open_issues: 7
   kind: product
 ---

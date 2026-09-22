@@ -20,8 +20,8 @@ url: https://news.social-protocols.org/penalties
 canonical_url: https://news.social-protocols.org/penalties
 summary: Most Penalized HN Stories
 first_seen: '2026-09-13T00:36:00Z'
-last_seen: '2026-09-20T00:09:53Z'
-status: rejected
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -149,6 +149,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilwFBVV95cUxPdnFyRzZJOExuVWQtdFk2anoyRXBDNmExLWNpLV9MeVI0NHFJTjhmeXp6cm1ZYkJxeUlYb1RmUExZTS1Lc1NxZnN3UVhJdmczUEZGaXNCQnpzVlJEcmZXOHgxQmhQcDVsS0ZXdEdQT3Y1MlhSdU1TaEFsM0ZwTWVnV0FMVzQ2S1FIZjdKbFFORGNrX2JQQndn?oc=5
   seen_at: '2026-09-20T00:09:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jeWVhbXZMaW1jZDVqVkFfX05ET3ptT1pvTUxtaXNDYVBEN25rSU1mT19hajdEZmRkTElaN3BGOE5TckNubDJWbXJqaXhUeDRiZEVaUkRaOVFJaXhIaGgtb3NuZWhuNExl?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMia0FVX3lxTE0tazRXZV9fRFNlbm1vWUdDekt4bFlrYzR2cWN4eDdJVldNZEFmVHBGZksxb1BIanJHenVueTNFMW4zdmpydkxta0pBRlZyUGt5c2xmRzJYU0hMeWM2R2xpbThfc3JOV20zTDhV?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

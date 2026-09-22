@@ -30,17 +30,17 @@ url: https://github.com/openlayer-ai/jevals
 canonical_url: https://github.com/openlayer-ai/jevals
 summary: replacing LLM judges with typed Jev decisions
 first_seen: '2026-09-20T22:39:47Z'
-last_seen: '2026-09-21T00:16:52Z'
+last_seen: '2026-09-22T00:50:21Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/openlayer-ai/jevals
-  seen_at: '2026-09-21T00:16:52Z'
+  seen_at: '2026-09-22T00:50:21Z'
   metrics:
-    points: 6
-    comments: 0
+    points: 40
+    comments: 1
   kind: product
 ---
 

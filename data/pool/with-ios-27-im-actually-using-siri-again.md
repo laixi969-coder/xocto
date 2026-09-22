@@ -24,14 +24,20 @@ canonical_url: https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-s
 summary: Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the
   assistant feels day to day.
 first_seen: '2026-09-14T17:10:30Z'
-last_seen: '2026-09-15T00:39:09Z'
-status: market_context
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/
   seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEY2U1EtemFsMUhHU2ZqMEtsbXBiLU0wYUM3WDNmWndDZGIxUUIwTGgya1VzOXgwV2VkRk4wamRxRjE4ZklQWGJodTFSUkI0cENrczhMOXhkRzFfZkVVVFBJZjl3a1lYN0ExZkJ5UWZmZ2oybFBDYUlZOGxrME9mTGdXNnlPOXAxMHFvQw?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

@@ -39,18 +39,18 @@ summary: 'OnCo: total information dominance on cancer. A public, cited knowledge
   a website, JSON API, MCP server and CLI: one page per cancer, treatment, target, trial, institution,
   person and idea, plain English first, solution and mechanism first.'
 first_seen: '2026-09-05T01:41:54Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://onco.cc
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 177
-    forks: 27
-    open_issues: 8
+    stars: 183
+    forks: 28
+    open_issues: 2
   kind: product
 ---
 

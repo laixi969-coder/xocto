@@ -26,8 +26,8 @@ url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3Y3eHRiSXNNSGRfNUJrYz
 canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3Y3eHRiSXNNSGRfNUJrYzVDVUpKMk1YOUl4MURVaExPZTZOVjJmeWVxd2hWeHlXRmJSb0lJZXZHaE9xN25sb3pnNmdrbENMS0U3LURjOVN4ZVNsdjg5V1FHZk9zZl81NV9acWJuMXNvWXpCd0FIRWpvLUVNaTV4NlJkSEpVbWhnSExWb0IyV2ZXcFZK?oc=5
 summary: Why logistics AI is becoming the bext big bet for investors YourStory.com
 first_seen: '2026-08-29T02:42:15Z'
-last_seen: '2026-09-20T00:09:53Z'
-status: market_context
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -60,6 +60,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY21FdFQ1SVpmdmozZHFxYjQ5cktVbjlTWDdVQ2U3aDJuSHl3SmIzdHlNNk9lVTgwSThyckl2LXM1bG1EWm8wRE5UMFhCU1VWZUdVY2FpUUdXd1E4bUM5dXZUZGZvcXl5OVBzaFFZWHFIZjBvQzVjam9hbkdtbmVRSlFybVFEMVhmemRj?oc=5
   seen_at: '2026-09-20T00:09:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOeE9VOWNlMFIzZnJYT2daaHYxS0ZVNUlTX0RuQmpsV0VNbjc3eWp1R1h3d3ZWNHRGXzRKN2hTWk9xa01kSjJNTDhmaUs4d2xydFozRDJKMGd3cVprVWVNS1RVLXB6R0NoZG9XUTRVVXB4MFdVUUdEVXUxdHdyaC1iVzBaYzVrRGVzV0hiVWdhUG1ab3dUNWpV?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPRldCbmJWUGNTVWRYalhFTERGMjZIZU5vcjd6a2xFZnFkZDZMSGUxRkd0Znk1dUc1aXpiRUJ5b3ZvU3lDc0FJbFFlWFJpZTA5VUIyaktlSV9xZ3ZiNThEMU5ramNuZmFQd0xVTUNxOVBLaGtlRWVOSWh5SUdlcmdfMW1kRlA4UmVFTEs4VnEyeVhidGJyOVBvMA?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

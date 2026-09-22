@@ -41,17 +41,17 @@ canonical_url: https://github.com/markfulton/ai-employees
 summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on Claude Code and 10 other
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/markfulton/ai-employees
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 203
-    forks: 56
+    stars: 322
+    forks: 100
     open_issues: 4
   kind: product
 ---

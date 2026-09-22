@@ -74,3 +74,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-20d599d62e54dad0
+  project_slug: typesafe-computer-use
+  url: https://github.com/awlevin/typesafe-computer-use
+  title: typesafe-computer-use
+  published_at: '2026-09-16T17:48:45Z'
+  collected_at: '2026-09-22T00:50:25Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe,
+    click. macOS. | repository stars: 750'

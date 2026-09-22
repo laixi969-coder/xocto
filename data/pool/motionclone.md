@@ -38,17 +38,17 @@ canonical_url: https://motionclone.lol
 summary: Turn reference videos into editable motion graphics with Codex + ChatGPT. Compare, customize,
   and export MP4s or HyperFrames projects. Local Windows app + online studio.
 first_seen: '2026-09-10T02:29:35Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://motionclone.lol
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
     stars: 242
-    forks: 20
+    forks: 19
     open_issues: 0
   kind: product
 ---

@@ -20,8 +20,8 @@ url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQeThwNWVSS1MxczczdmJOem
 canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQeThwNWVSS1MxczczdmJOem0zM0NldENjeDFBNzhaMXBoWkU2Yl9iSnRGV3ZQSk9YZ2VNVC0tTkg0cTlBZENfMjF6QkJhX1hkU2lnZ2lNWDNSSEU1bER1Q0F0NVRPcXhkQnBLek9sZk1GNGNvQ0dQNzVsNHdlWWlGUXBFZ1VfRzhUc0E?oc=5
 summary: Vantora Raises $100M to Build Physical AI Startups The Tech Buzz
 first_seen: '2026-09-18T23:36:00Z'
-last_seen: '2026-09-21T00:17:23Z'
-status: rejected
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -38,6 +38,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTFA1UGkyYXRpdWRtVXBheS1NcEVUSndDS09TS21NRXI4OVRQN21rUlo2bnVMX1FIcEtjZllBVzVmT1BQODN5TWdkNVpuSmZFQkphTzhIclhTUnhHbGFBeGdaNTd5Yk1hVXhrN2N5d1lUMVhGR3NJd3c?oc=5
   seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ21kRVNON3NjQi1UR1BrQzFEQUNhaUc1UWEzOUJ6c0RpSU5YRm1LYUcxb2VmaW1icXBHY0U3OHBSdHhSdEpnSG1BeDF2bTRabFNMNVBBSFVRZkhpb2Fsd2pmSTNBc3d6cFNSUGRpWG5LQzkteEdUSTQ0LXFwWHhyVkU2WU84UEVZMTNLMFg2MG9IQlNfNFNzVFdCd1J5b3JOX2dlb1JJQU1rdXBpT0w0dUxOaHVMajhWTXc2ZFVha0NTUDRVWHpBbmZqbDNackE4RXYzVWNn?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNb1p1NlNJcnJMZ0N1dGphQzNSNGtROGowcy1qTk9QeVRpcGRTYUlKNW1WeFB6bGw5OUlvbXVCeHBrYjFaQW15NE9CUktETjJSdXhVRTRhcDR2elUxS19jZXJmQVhhNkkwbzJ2QVdaNnhvMHhkckQtZEJfYndZWHFmSS1RcFVlbEIydDRnWjdGcTBMVDJyTzNQNHlVNC1kSi1zcG03RFh1SE8zVWVMNkNkYWE0WnZETndIa2lrX3FhZElyNUlYNURNcmRpUm9Da0Z4QjR3bmxIR1pCWmNoM0dNaW4tVdIB4wFBVV95cUxNb1p1NlNJcnJMZ0N1dGphQzNSNGtROGowcy1qTk9QeVRpcGRTYUlKNW1WeFB6bGw5OUlvbXVCeHBrYjFaQW15NE9CUktETjJSdXhVRTRhcDR2elUxS19jZXJmQVhhNkkwbzJ2QVdaNnhvMHhkckQtZEJfYndZWHFmSS1RcFVlbEIydDRnWjdGcTBMVDJyTzNQNHlVNC1kSi1zcG03RFh1SE8zVWVMNkNkYWE0WnZETndIa2lrX3FhZElyNUlYNURNcmRpUm9Da0Z4QjR3bmxIR1pCWmNoM0dNaW4tVQ?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

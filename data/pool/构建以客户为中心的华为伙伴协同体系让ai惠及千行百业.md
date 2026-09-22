@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbl80UzJwRUFUdW9mN2F5dj
 canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbl80UzJwRUFUdW9mN2F5djFWUlpndEY0SmlzVDZaZkNmVXhjQ0lpaVJEcm1NS1dFZVZ6RnJ5dm9nczFvck12cHdXQkJIRXQ2cGNpUlRVYWhCS0JSZjZqWm0yXy1OYXBLMFdDbnRMMA?oc=5
 summary: 构建“以客户为中心”的“华为+伙伴”协同体系，让AI惠及千行百业 7its.com
 first_seen: '2026-09-18T16:40:41Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: rejected
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbl80UzJwRUFUdW9mN2F5djFWUlpndEY0SmlzVDZaZkNmVXhjQ0lpaVJEcm1NS1dFZVZ6RnJ5dm9nczFvck12cHdXQkJIRXQ2cGNpUlRVYWhCS0JSZjZqWm0yXy1OYXBLMFdDbnRMMA?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibEFVX3lxTE9rOWJxMzRTcjJZT2UyQmFFekFFdjZxekVEVklqQzh5S0toNnRybnZzLU5qZWZ2NkJyT1hGLWFaS2FhbEYwQXhubkMxMjdfM1B5NkFZaUoyR0VwWm82WFctQmViOVpDUy11WU1JTw?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

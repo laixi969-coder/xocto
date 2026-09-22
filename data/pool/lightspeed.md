@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=49781032
 canonical_url: https://news.ycombinator.com/item?id=49781032
 summary: build real time apps the Laravel way (with asteroids demo)
 first_seen: '2026-09-20T23:02:28Z'
-last_seen: '2026-09-21T00:16:52Z'
+last_seen: '2026-09-22T00:50:21Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49781032
-  seen_at: '2026-09-21T00:16:52Z'
+  seen_at: '2026-09-22T00:50:21Z'
   metrics:
-    points: 5
-    comments: 2
+    points: 16
+    comments: 4
   kind: product
 ---
 

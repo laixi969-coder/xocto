@@ -30,10 +30,11 @@ canonical_url: https://foremerge.com
 summary: Catch intent conflicts before code conflicts. The open-source coordination protocol for coding
   agents, built above Git.
 first_seen: '2026-08-21T17:52:45Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-22T00:50:21Z'
 status: queued
 sources:
 - github
+- hackernews
 sightings:
 - source: github
   url: https://foremerge.com
@@ -42,6 +43,13 @@ sightings:
     stars: 165
     forks: 3
     open_issues: 1
+  kind: product
+- source: hackernews
+  url: https://github.com/naw103/foremerge
+  seen_at: '2026-09-22T00:50:21Z'
+  metrics:
+    points: 35
+    comments: 4
   kind: product
 ---
 

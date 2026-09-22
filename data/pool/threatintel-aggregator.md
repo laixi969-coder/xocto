@@ -39,17 +39,17 @@ canonical_url: https://github.com/Ethan-Andrews/ThreatIntel-Aggregator
 summary: Self-hosted threat intelligence platform — feed aggregation, AI triage, MITRE ATT&CK coverage,
   and Sentinel-integrated detection engineering. Runs standalone or fully Azure-integrated.
 first_seen: '2026-09-14T06:07:22Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ethan-Andrews/ThreatIntel-Aggregator
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 44
-    forks: 6
+    stars: 49
+    forks: 7
     open_issues: 0
   kind: product
 ---

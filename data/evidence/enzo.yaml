@@ -187,3 +187,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 自建 AI 工作流的个人用户'
+- id: ev-a558d10657b8e327
+  project_slug: enzo
+  url: https://enzo-hub.duckdns.org
+  title: ENZO
+  published_at: '2026-09-03T11:02:34Z'
+  collected_at: '2026-09-22T00:50:25Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Self-hosted AI workspace with agents, skills, and tools (Gmail, Calendar) that runs entirely
+    on your own provider API keys (BYOK). Bring your own keys — Groq, OpenRouter, NVIDIA, Hugging Face,
+    Google AI. | repository stars: 87'

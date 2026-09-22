@@ -20,17 +20,17 @@ url: https://evaluation.club
 canonical_url: https://evaluation.club
 summary: ''
 first_seen: '2026-09-20T15:59:25Z'
-last_seen: '2026-09-21T00:16:52Z'
-status: rejected
+last_seen: '2026-09-22T00:50:21Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://evaluation.club
-  seen_at: '2026-09-21T00:16:52Z'
+  seen_at: '2026-09-22T00:50:21Z'
   metrics:
-    points: 101
-    comments: 48
+    points: 117
+    comments: 57
   kind: news
 ---
 

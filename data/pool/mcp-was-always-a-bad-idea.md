@@ -1,0 +1,63 @@
+---
+slug: mcp-was-always-a-bad-idea
+name: MCP was always a bad idea?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://simonwillison.net/2026/Sep/20/hn-49779718/
+canonical_url: https://simonwillison.net/2026/Sep/20/hn-49779718
+summary: "My comment  on  MCP was always a bad idea?  — Hacker News.  This article entirely misses the\
+  \ value that MCP brings today. \n Sure, there's almost no reason to use MCPs if you are running a full-blown\
+  \ terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just\
+  \ let it call APIs directly. \n If you want to operate something that's less YOLO than that, you'll\
+  \ find yourself wanting: \n \n Control over exactly which external services it can access \n A way to\
+  \ handle authentication that doesn't allow the agent to directly access API keys \n A sensible UI to\
+  \ allow users to connect and authenticate further services \n Strong audit logging for what's going\
+  \ on \n \n MCP makes all of that so much easier to provide. \n Thinking MCP is obsolete because full\
+  \ coding agents don't need it misses out on all of the other things we might want to build. \n    \n\
+  \    \n         Tags:  hacker-news ,  model-context-protocol"
+first_seen: '2026-09-20T20:24:41Z'
+last_seen: '2026-09-22T00:50:51Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Sep/20/hn-49779718/
+  seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+---
+
+# MCP was always a bad idea?
+
+My comment  on  MCP was always a bad idea?  — Hacker News.  This article entirely misses the value that MCP brings today. 
+ Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly. 
+ If you want to operate something that's less YOLO than that, you'll find yourself wanting: 
+ 
+ Control over exactly which external services it can access 
+ A way to handle authentication that doesn't allow the agent to directly access API keys 
+ A sensible UI to allow users to connect and authenticate further services 
+ Strong audit logging for what's going on 
+ 
+ MCP makes all of that so much easier to provide. 
+ Thinking MCP is obsolete because full coding agents don't need it misses out on all of the other things we might want to build. 
+    
+    
+         Tags:  hacker-news ,  model-context-protocol
+
+## 笔记
+
+

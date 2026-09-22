@@ -16,3 +16,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 模型评测与质量把关'
+- id: ev-b1b12210129c7551
+  project_slug: jevals
+  url: https://github.com/openlayer-ai/jevals
+  title: jevals
+  published_at: '2026-09-20T22:39:47Z'
+  collected_at: '2026-09-22T00:50:21Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: replacing LLM judges with typed Jev decisions

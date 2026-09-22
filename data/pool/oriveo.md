@@ -39,16 +39,16 @@ summary: Open-source, bring-your-own-key (BYOK) multi-model AI chat client for i
   any OpenAI-, Anthropic- or Gemini-compatible endpoint — Ollama, LM Studio, llama.cpp, vLLM. Local-first,
   self-hostable, no account. AGPL-3.0.
 first_seen: '2026-09-03T13:12:35Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://oriveoai.com
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 180
+    stars: 196
     forks: 4
     open_issues: 0
   kind: product

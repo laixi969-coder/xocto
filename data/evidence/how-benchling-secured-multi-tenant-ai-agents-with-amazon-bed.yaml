@@ -1,0 +1,12 @@
+- id: ev-f0d288c55d81982b
+  project_slug: how-benchling-secured-multi-tenant-ai-agents-with-amazon-bed
+  url: https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore/
+  title: How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore
+  published_at: '2026-09-21T16:27:34Z'
+  collected_at: '2026-09-22T00:50:50Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated
+    scientific code across thousands of life sciences tenants using Amazon Bedrock AgentCore Code Interpreter
+    in VPC mode, combined with Amazon Route 53 Resolver DNS Firewall and VPC endpoint policies to block
+    data exfiltration, including through DNS.

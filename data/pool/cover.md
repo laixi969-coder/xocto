@@ -39,8 +39,8 @@ url: https://github.com/DavidCarliez/cover
 canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
-last_seen: '2026-09-19T00:21:45Z'
-status: watching
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - github
 - officialfeeds
@@ -151,6 +151,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/uk-sovereign-ai-fund-in-talks-to-back-500m-raise-for-drug-discovery-startup/
   seen_at: '2026-09-19T00:21:45Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiekFVX3lxTE92Y3hKMk52MlBJSlFTZ0dET1VrZzhkZXFjYk1HdndDX2xDUU9pSkxOMldZRXRaeWc4MDFxZWxnMXo3U1pIX0d3dWg1X1owaVFfSC1WbXN6WnFOQmRVdGdQZzFmMmwwWXhYTEJCMFZ2X1pSV3cwRjNhY2h3?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

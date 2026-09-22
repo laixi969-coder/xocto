@@ -25,11 +25,12 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6
 summary: Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering
   Pulse 2.0
 first_seen: '2026-09-10T20:26:17Z'
-last_seen: '2026-09-21T00:17:23Z'
+last_seen: '2026-09-22T00:50:58Z'
 status: pending_filter
 sources:
 - newssearch
 - hackernews
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6d1VzQWFQRjRGanVJNWZFWEZENU10dWluUlYzVkJqa3dkQnRFQWhoM09ZU1BVc2pwdmR6T3hZaTlDOXJkLWUtYVZuZkJpdC1ua3RKc1JDVGNXMTJ0elpVRWZXQ0oxMlYtalJ1RlM4SWozNW9GRk9kc3Y3QmZqZEpydUw3eU81MzExWllGd2pqVXNYRlhkSWhyMWxYU05XRmVpQWZsbXZQOWlYdHpSUHJZV2F1RGlR0gG-AUFVX3lxTE5vc3FhUXRzQnp3VXNBYVBGNEZqdUk1ZkVYRkQ1TXR1aW5SVjNWQmprd2RCdEVBaGgzT1lTUFVzanB2ZHpPeFlpOUM5cmQtZS1hVm5mQml0LW5rdEpzUkNUY1cxMnR6WlVFZldDSjEyVi1qUnVGUzhJajM1b0ZGT2RzdjdCZmpkSnJ1TDd5TzUzMTFaWUZ3ampVc1hGWGRJaHIxbFhTTldGZWlBZmxtdlA5aVh0elJQcllXYXVEaVE?oc=5
@@ -66,6 +67,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNS0c5bkNYWEh0Ujl4MDNLckZoS3dHbUFRdG9waW5ZQzA0am5OQlYzSXpWMkNuVnhtMDlBZ3F4VWNjYnp3ZVpyeWo3VlZ0cEtKN0VhNDlUMXFfN2hTSWo0RC1FVGVoRjRoR2NUajAtZkZjVUViU3VnWVVsTUZ3a3FaTm5UNkFHbnpSalJwVDAwbVlNOW16N0twLVpaYkt2M0g5b2xIZUtjOFFtVzVNT29FWUV3bE1DTzBaVGNvc3FMVW1xejdSSFhkZnFtLTBjRkJ0Q1JR?oc=5
   seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/21/final-frontier-and-myriad-unite-behind-100m-defence-tech-fund/
+  seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYjE1eGpZdFEzeUNaaElwRHo1OUp1bGQ0Ylk4cklzMkk3WjJ6aWdBUk9qaU9Hc1BZbGxfYkl3NVVEZWJQZE5TcWpCazI5MGlpLTFhcGJQcll1LUU4dUYxZllhd0ZBbE1aU1FIcEFMZzVjcnN5ZmZFYzFna2h0WG5zeVdyWUlteTdDTGUzWjRiS3lRN3cyYmxuS0tIUDlRbjNTXzJZbzJrUDMtbmZTZVR1LVFzV3MzTUtoWnpQdjZDaFpMSzdVLWl4dVA5WDFzNnJwcW5pWmo4UkxuX1A0eS01UA?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

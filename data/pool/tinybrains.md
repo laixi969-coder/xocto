@@ -33,17 +33,17 @@ url: https://tinybrains.dev
 canonical_url: https://tinybrains.dev
 summary: A competition for small neural networks that play strategy games
 first_seen: '2026-09-20T14:59:10Z'
-last_seen: '2026-09-21T00:16:52Z'
+last_seen: '2026-09-22T00:50:21Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tinybrains.dev
-  seen_at: '2026-09-21T00:16:52Z'
+  seen_at: '2026-09-22T00:50:21Z'
   metrics:
-    points: 25
-    comments: 4
+    points: 103
+    comments: 37
   kind: product
 ---
 

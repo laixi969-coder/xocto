@@ -36,16 +36,16 @@ canonical_url: https://github.com/paveldevyatov/refund-anything-ai-prompt
 summary: AI prompt that gets your money back — subscriptions, digital purchases, bookings. Polite letter
   first, legal escalation second. 30+ jurisdictions.
 first_seen: '2026-09-08T10:20:24Z'
-last_seen: '2026-09-18T00:19:49Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/paveldevyatov/refund-anything-ai-prompt
-  seen_at: '2026-09-18T00:19:49Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 80
+    stars: 83
     forks: 4
     open_issues: 0
   kind: product

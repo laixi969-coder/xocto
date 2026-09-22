@@ -39,8 +39,8 @@ url: https://www.producthunt.com/products/type-com
 canonical_url: https://producthunt.com/products/type-com
 summary: A shared workspace for Claude, Codex, and your team
 first_seen: '2026-09-09T03:54:10Z'
-last_seen: '2026-09-17T00:33:01Z'
-status: watching
+last_seen: '2026-09-22T00:50:51Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
@@ -74,6 +74,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/ainews-jev-a-system-one-model-that
   seen_at: '2026-09-17T00:33:01Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/jev
+  seen_at: '2026-09-22T00:50:51Z'
   metrics: {}
   kind: news
 ---

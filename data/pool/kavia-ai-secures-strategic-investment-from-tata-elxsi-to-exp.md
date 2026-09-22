@@ -1,0 +1,43 @@
+---
+slug: kavia-ai-secures-strategic-investment-from-tata-elxsi-to-exp
+name: KAVIA AI Secures Strategic Investment From Tata Elxsi To Expand Enterprise AI Software Engineering
+  Platform
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPNTZOdzlCWDBMcjJja2l6eWxVTkJlUnZWeWxEZ2JqTWFMM3JJT1BITzdxdWJwaGpLdjlJOTRBd2lrZVgyYkFneG93ODVFM0JWOVJ3ZmFiM3hpbGNkQ3pSZjVSX3M3dE9ZeUU5TG42MDl4VS1TYV9tdFNMeVpNSWxGYU9KNkRVS3hNX2dkaDZzX3hmZXktcWtfRXdXX3g2WEJ0TlNDeG1Nejc3b3RmZUxfdmozeERMTkRHTnBZQ2Ezbmpyc1hRNVHSAcsBQVVfeXFMTXE1T3BsZEt6RnQ0ZEJjREIwdW81OWtPejI5WWdwR1VUQVgzbWctLTViTDl1ZDB1RE44dDRkSXBQY3NlbnBQSC02RHVqWkpkSm5QbWhOWWctb2x5NzVnUmJVMkJGZDhZVUgwOHl4ZFExNWVCOW1ObThabC02aXhPRTMxNGxpSHVVaHBXME0xLVFuVmRRZ2RCRjNZX3BjaTk2OGNUaEhYSlIzNVRCOWszVU4xQzZNR2Fnd1c1VmJTQThvMzhUY3prajBZdU0?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPNTZOdzlCWDBMcjJja2l6eWxVTkJlUnZWeWxEZ2JqTWFMM3JJT1BITzdxdWJwaGpLdjlJOTRBd2lrZVgyYkFneG93ODVFM0JWOVJ3ZmFiM3hpbGNkQ3pSZjVSX3M3dE9ZeUU5TG42MDl4VS1TYV9tdFNMeVpNSWxGYU9KNkRVS3hNX2dkaDZzX3hmZXktcWtfRXdXX3g2WEJ0TlNDeG1Nejc3b3RmZUxfdmozeERMTkRHTnBZQ2Ezbmpyc1hRNVHSAcsBQVVfeXFMTXE1T3BsZEt6RnQ0ZEJjREIwdW81OWtPejI5WWdwR1VUQVgzbWctLTViTDl1ZDB1RE44dDRkSXBQY3NlbnBQSC02RHVqWkpkSm5QbWhOWWctb2x5NzVnUmJVMkJGZDhZVUgwOHl4ZFExNWVCOW1ObThabC02aXhPRTMxNGxpSHVVaHBXME0xLVFuVmRRZ2RCRjNZX3BjaTk2OGNUaEhYSlIzNVRCOWszVU4xQzZNR2Fnd1c1VmJTQThvMzhUY3prajBZdU0?oc=5
+summary: KAVIA AI Secures Strategic Investment From Tata Elxsi To Expand Enterprise AI Software Engineering
+  Platform pulse2.com
+first_seen: '2026-09-20T12:47:16Z'
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPNTZOdzlCWDBMcjJja2l6eWxVTkJlUnZWeWxEZ2JqTWFMM3JJT1BITzdxdWJwaGpLdjlJOTRBd2lrZVgyYkFneG93ODVFM0JWOVJ3ZmFiM3hpbGNkQ3pSZjVSX3M3dE9ZeUU5TG42MDl4VS1TYV9tdFNMeVpNSWxGYU9KNkRVS3hNX2dkaDZzX3hmZXktcWtfRXdXX3g2WEJ0TlNDeG1Nejc3b3RmZUxfdmozeERMTkRHTnBZQ2Ezbmpyc1hRNVHSAcsBQVVfeXFMTXE1T3BsZEt6RnQ0ZEJjREIwdW81OWtPejI5WWdwR1VUQVgzbWctLTViTDl1ZDB1RE44dDRkSXBQY3NlbnBQSC02RHVqWkpkSm5QbWhOWWctb2x5NzVnUmJVMkJGZDhZVUgwOHl4ZFExNWVCOW1ObThabC02aXhPRTMxNGxpSHVVaHBXME0xLVFuVmRRZ2RCRjNZX3BjaTk2OGNUaEhYSlIzNVRCOWszVU4xQzZNR2Fnd1c1VmJTQThvMzhUY3prajBZdU0?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+---
+
+# KAVIA AI Secures Strategic Investment From Tata Elxsi To Expand Enterprise AI Software Engineering Platform
+
+KAVIA AI Secures Strategic Investment From Tata Elxsi To Expand Enterprise AI Software Engineering Platform pulse2.com
+
+## 笔记
+
+

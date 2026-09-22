@@ -36,16 +36,16 @@ canonical_url: https://github.com/NusaSec/Hackbot-Arena
 summary: ⚔️ Benchmark your AI agent with 30 Docker-based web security labs inspired by real bug bounty
   findings, complete with canonical flags and reference solvers.
 first_seen: '2026-09-06T22:15:33Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/NusaSec/Hackbot-Arena
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 40
+    stars: 42
     forks: 9
     open_issues: 0
   kind: product

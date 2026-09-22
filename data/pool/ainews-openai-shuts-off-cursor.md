@@ -22,8 +22,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-09-20T00:09:45Z'
-status: rejected
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -99,6 +99,28 @@ sightings:
 - source: officialfeeds
   url: https://openai.com/index/australian-youth-safety-blueprint
   seen_at: '2026-09-20T00:09:45Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://openai.com/index/advisory-group-on-mathematics-and-ai/
+  seen_at: '2026-09-22T00:50:21Z'
+  metrics:
+    points: 68
+    comments: 54
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/building-standards-next-phase-ai
+  seen_at: '2026-09-22T00:50:50Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/
+  seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2hPOGU5V1V5VHNGWndOdUxEeE5yMFJuRWJCNDJMYWZhTHhvZmVSV0lTek5rSWFHcTh3WWRmdUxHTEJ3WWRmZE9XRkJoU1Q0QktxVUlnVmZHeGNaVmpvQk9scnJGTDM3UndpS0hDTXRMRGZOWG1iZlFkMDlyOTJzbm1yUEpoZWtKRHA2bGNUc19yR2R4dmhhRGZLUXctSHdOWkNyLXIwMHk5R3Z1U3EyMG9sN1dqRGVpLXFnR1FCanc0U204dnlCOVFsMVB0R2hQQmVr?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
   kind: news
 ---

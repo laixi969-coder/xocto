@@ -20,17 +20,17 @@ url: https://maharship.com/blog/why-mcp-was-always-a-bad-idea/
 canonical_url: https://maharship.com/blog/why-mcp-was-always-a-bad-idea
 summary: Why MCP Was Always a Bad Idea
 first_seen: '2026-09-20T19:44:40Z'
-last_seen: '2026-09-21T00:16:52Z'
-status: rejected
+last_seen: '2026-09-22T00:50:21Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://maharship.com/blog/why-mcp-was-always-a-bad-idea/
-  seen_at: '2026-09-21T00:16:52Z'
+  seen_at: '2026-09-22T00:50:21Z'
   metrics:
-    points: 30
-    comments: 57
+    points: 318
+    comments: 306
   kind: news
 ---
 

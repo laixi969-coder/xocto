@@ -22,8 +22,8 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5SaFViS2NFRmFs
 summary: AI Inference 'Multi-Silicon' Startup Gimlet Labs Raises $300 Million at $3 Billion Valuation
   finance.biggo.com
 first_seen: '2026-09-05T06:55:00Z'
-last_seen: '2026-09-10T16:51:24Z'
-status: market_context
+last_seen: '2026-09-22T00:50:58Z'
+status: pending_filter
 sources:
 - newssearch
 - ia40
@@ -45,6 +45,11 @@ sightings:
     stage: Emerging Enabler
     edition: '2026'
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeU5NRXBYV0J5ZlhRbW1pN1RJN1pybjBpMlhIREJuX3RZbnFFdnZ4Q1JoYVZJX2tIdlRaYmlwUFhDN0pjc2dNcHZraGFJaTlmdjBTZ0JFVFlfWHZ6NGNZMTJJR1IzbzZJaFFDZVhCdzMtWUlQXy14UnhpS0lyRm9DU1VKSEpVMXlFNXFvUXJsZU5DMGlRVzFkRnEtVHp0R1c4eWpnM2l0TTA?oc=5
+  seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
 ---
 
 # Gimlet Labs

@@ -22,17 +22,17 @@ summary: ⚡ Modular prompt-engineering framework for AI Agents (Cursor, Claude 
   SDLC, linear execution, context isolation, and systematic debugging via a standalone Windows launcher.
   Stop vibe coding, start agentic discipline! 🚀
 first_seen: '2026-09-14T20:11:30Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/RectangleStory/Superpowers_Multi_AI
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
     stars: 100
-    forks: 0
+    forks: 1
     open_issues: 0
   kind: product
 ---

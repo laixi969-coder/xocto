@@ -40,16 +40,16 @@ summary: 'DeepSeek Harness 长篇角色扮演插件：SillyTavern 人物卡导�
   memory, hybrid keyword and semantic retrieval, SillyTavern cards, interactive card authoring, novel
   export, one-click installers.'
 first_seen: '2026-09-11T13:46:21Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-22T00:50:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/a86582751/dsh-nexttavern
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-22T00:50:25Z'
   metrics:
-    stars: 91
+    stars: 97
     forks: 13
     open_issues: 0
   kind: product

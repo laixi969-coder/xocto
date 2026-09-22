@@ -23,10 +23,11 @@ url: https://huggingface.co/spaces/baka999/qwen-image-2.1
 canonical_url: https://huggingface.co/spaces/baka999/qwen-image-2.1
 summary: Qwen-Image-2.1 T2I & 10-Image Reference Editing
 first_seen: '2026-09-20T14:51:46Z'
-last_seen: '2026-09-21T00:17:14Z'
-status: market_context
+last_seen: '2026-09-22T00:50:21Z'
+status: pending_filter
 sources:
 - huggingface
+- hackernews
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/baka999/qwen-image-2.1
@@ -52,6 +53,13 @@ sightings:
   metrics:
     likes: 5
   kind: product
+- source: hackernews
+  url: https://qwen.ai/blog?id=qwen-image-2.1
+  seen_at: '2026-09-22T00:50:21Z'
+  metrics:
+    points: 722
+    comments: 193
+  kind: news
 ---
 
 # Qwen-Image-2.1

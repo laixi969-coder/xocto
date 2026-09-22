@@ -20,16 +20,16 @@ url: https://airma.sh/
 canonical_url: https://airma.sh
 summary: HTML5 Massively Multiplayer Missile Warfare
 first_seen: '2026-09-16T13:08:55Z'
-last_seen: '2026-09-21T00:16:52Z'
+last_seen: '2026-09-22T00:50:21Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://airma.sh/
-  seen_at: '2026-09-21T00:16:52Z'
+  seen_at: '2026-09-22T00:50:21Z'
   metrics:
-    points: 5
+    points: 6
     comments: 2
   kind: product
 ---
