@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-09-22</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-09-23</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">A developer, when letting a coding AI perform code modification tasks, needs to run the AI in an isolated environment and pause at critical steps for human approval before continuing.</p>
-        <p>Today developers mostly rely on local Git branches, manually review AI-generated diffs, or use simple sandbox tools, with approval and rollback done manually.</p>
-        <p>A coding AI directly operating on a codebase may produce irreversible destructive changes, and the lack of isolation and human approval nodes makes developers hesitant to use it freely.</p>
+        <p class="product-lead">Developers or teams using coding agents need to run agent tasks in isolated Docker sandboxes, pause at critical nodes for human approval before continuing, and keep recoverable execution records.</p>
+        <p>The old approach is developers running agents locally or in CI, watching diffs by hand and rolling back manually, or using generic CI pipelines plus human review; these do not provide agent-native structured artifact exchange and mandatory approval at critical nodes.</p>
+        <p>The public materials point to an inferred pain: coding agents executing directly in the main environment create uncontrolled changes and security risk, while fully automatic release lacks human checkpoints; the consequence is unwanted edits or hard rollback. No user complaint or incident case directly confirms this yet.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
         <h3>Why users would choose it</h3>
-        <p>Inference: if the platform can run coding AI in real Docker sandboxes, pause at critical nodes for human approval, and exchange structured artifacts, it removes the step of manually reviewing diffs and setting up isolation, which developers might choose when handling high-risk code changes; however, public materials give no deployment or approval flow details and no user feedback supports this judgment.</p>
+        <p>Inference: versus watching diffs by hand or generic CI, it runs agents in real Docker sandboxes, forces a pause for human Approve at critical nodes, and has agents exchange structured artifacts, cutting the after-the-fact manual triage and rollback step; teams that let coding agents into delivery but must keep human sign-off would pick it when they need an auditable, recoverable agent workflow.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Worth dissecting</strong>. Inference: if the platform can run coding AI in real Docker sandboxes, pause at critical nodes for human approval, and exchange structured artifacts, it removes the step of manually reviewing diffs and setting up isolation, which developers might choose when handling high-risk code changes; however, public materials give no deployment or approval flow details and no user feedback supports this judgment.</p>
+        <p><strong>Worth dissecting</strong>. Inference: versus watching diffs by hand or generic CI, it runs agents in real Docker sandboxes, forces a pause for human Approve at critical nodes, and has agents exchange structured artifacts, cutting the after-the-fact manual triage and rollback step; teams that let coding agents into delivery but must keep human sign-off would pick it when they need an auditable, recoverable agent workflow.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
@@ -129,7 +129,7 @@
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">Public fact</span><p>Runs a coding AI in an isolated box and pauses at critical steps until a person approves before it continues.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Inference: if the platform can run coding AI in real Docker sandboxes, pause at critical nodes for human approval, and exchange structured artifacts, it removes the step of manually reviewing diffs and setting up isolation, which developers might choose when handling high-risk code changes; however, public materials give no deployment or approval flow details and no user feedback supports this judgment.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus watching diffs by hand or generic CI, it runs agents in real Docker sandboxes, forces a pause for human Approve at critical nodes, and has agents exchange structured artifacts, cutting the after-the-fact manual triage and rollback step; teams that let coding agents into delivery but must keep human sign-off would pick it when they need an auditable, recoverable agent workflow.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
@@ -338,7 +338,7 @@ product. Revisit in three months against the checks above.</p></article></div>
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        536 in AI + Dev →
+        547 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -430,8 +430,8 @@ product. Revisit in three months against the checks above.</p></article></div>
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>1866 cases · 175 business reads</span>
-    <span class="gen">Data through 2026-09-22</span>
+    <span>1918 cases · 175 business reads</span>
+    <span class="gen">Data through 2026-09-23</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>
     <span>·</span>

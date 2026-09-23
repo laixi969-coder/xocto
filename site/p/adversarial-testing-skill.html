@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-22</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-23</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">安全工程师或独立开发者在发布前，把产品源码交给一个 AI 做白盒审计、同时让另一个 AI 在看不到源码的情况下当黑盒攻击者，用两个 AI 对打的方式产出可复现的漏洞清单，替代人工渗透测试或单一 AI 扫描。</p>
-        <p>人工渗透测试、单一 AI 代码审计工具、静态分析器，或干脆跳过发布前的安全测试。</p>
-        <p>公开材料只说明这是多 AI 协作的对抗测试工作流，未提供用户抱怨、漏测后果或频率数据；从工作流结构推断，人工渗透测试昂贵且排期长，单一 AI 扫描容易漏掉需要跨视角才能暴露的漏洞，不做的后果是带着未发现的缺陷上线。</p>
+        <p class="product-lead">安全或研发人员在发布前，需要让两个 AI 分别读源码与盲测攻击自己的产品，以发现漏洞并完成一轮对抗性测试。</p>
+        <p>公开材料未说明用户目前如何做对抗性测试，也未说明它替代了渗透测试、SAST 工具还是人工红队。</p>
+        <p>公开材料只有一句产品自述，没有用户抱怨、返工记录或漏测后果，无法说明不解决这项测试会付出什么代价。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较人工渗透测试需要排期和报价、单一 AI 扫描只覆盖一个视角，该工作流让读源码的白盒 AI 与蒙眼的黑盒 AI 互相攻击，把两种视角的发现合并成一份漏洞清单，减少用户自己组织两轮测试并人工比对结果的步骤，因此预算有限、想快速拿到多视角漏洞清单的开发者会在发布前选择它。</p>
+        <p>公开材料只有 43 个收藏这一关注度信号，无法解释用户为何选择它；缺少用户反馈或案例，不能推断其被持续使用。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：相较人工渗透测试需要排期和报价、单一 AI 扫描只覆盖一个视角，该工作流让读源码的白盒 AI 与蒙眼的黑盒 AI 互相攻击，把两种视角的发现合并成一份漏洞清单，减少用户自己组织两轮测试并人工比对结果的步骤，因此预算有限、想快速拿到多视角漏洞清单的开发者会在发布前选择它。</p>
+        <p><strong>值得拆解</strong>。公开材料只有 43 个收藏这一关注度信号，无法解释用户为何选择它；缺少用户反馈或案例，不能推断其被持续使用。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -129,8 +129,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较人工渗透测试需要排期和报价、单一 AI 扫描只覆盖一个视角，该工作流让读源码的白盒 AI 与蒙眼的黑盒 AI 互相攻击，把两种视角的发现合并成一份漏洞清单，减少用户自己组织两轮测试并人工比对结果的步骤，因此预算有限、想快速拿到多视角漏洞清单的开发者会在发布前选择它。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际发现的漏洞、复现步骤或将其纳入发布流程的记录。</p></div>
+        <div><span class="field-k">工作流推理</span><p>公开材料只有 43 个收藏这一关注度信号，无法解释用户为何选择它；缺少用户反馈或案例，不能推断其被持续使用。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该项目的公开仓库 README、issue/discussion 与发布说明，核对它实际接入哪些测试流程、有无可复现的漏洞发现记录。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -284,7 +284,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 536 个 →
+        AI + 开发 共 547 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -376,8 +376,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1866 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-22</span>
+    <span>1918 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-23</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

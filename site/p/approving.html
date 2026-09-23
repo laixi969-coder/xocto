@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-22</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-23</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者在让编码 AI 执行代码修改任务时，需要在隔离环境中运行 AI，并在关键节点暂停等待人工批准后才继续。</p>
-        <p>目前开发者多依赖本地 Git 分支、手动审查 AI 生成的 diff，或使用简单沙箱工具，审批与回滚靠人工操作。</p>
-        <p>编码 AI 直接操作代码库可能产生不可逆的破坏性变更，缺乏隔离与人工审批节点会让开发者不敢放手使用。</p>
+        <p class="product-lead">使用编码 agent 的开发者或团队，在让 agent 自动改代码时，需要把任务放进隔离的 Docker 沙箱运行，并在关键节点暂停等待人工批准后才继续，同时保留可恢复的执行记录。</p>
+        <p>旧做法是开发者手动在本地或 CI 里跑 agent、自己盯 diff 并手工回滚，或用通用 CI 流水线加人工 review；这些替代不提供 agent 原生的结构化产物交换与关键节点强制批准。</p>
+        <p>公开材料指向的痛点是：编码 agent 直接在主环境执行会带来不可控的改动与安全风险，而全自动放行又缺少人工把关点；不解决的后果是误改代码或难以回滚。这是从产品能力与工作流结构推出的判断，尚无用户抱怨或事故案例直接佐证。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：若该平台能在真实 Docker 沙箱中运行编码 AI，并在关键节点暂停等待人工批准、交换结构化产物，可省去手动审查 diff 与搭建隔离环境这一步，开发者在处理高风险代码变更时可能选择它；但公开材料未给出具体部署与审批流程细节，也无用户反馈支持这一判断。</p>
+        <p>推断：相较手工盯 diff 或通用 CI，它把 agent 放进真实 Docker 沙箱执行、在关键节点强制暂停等待人工 Approve，并让 agent 之间交换结构化产物，从而减少事后人工排查与回滚这一步；因此让编码 agent 参与交付、又必须保留人工把关的团队会在需要可审计、可恢复的 agent 工作流时选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：若该平台能在真实 Docker 沙箱中运行编码 AI，并在关键节点暂停等待人工批准、交换结构化产物，可省去手动审查 diff 与搭建隔离环境这一步，开发者在处理高风险代码变更时可能选择它；但公开材料未给出具体部署与审批流程细节，也无用户反馈支持这一判断。</p>
+        <p><strong>值得拆解</strong>。推断：相较手工盯 diff 或通用 CI，它把 agent 放进真实 Docker 沙箱执行、在关键节点强制暂停等待人工 Approve，并让 agent 之间交换结构化产物，从而减少事后人工排查与回滚这一步；因此让编码 agent 参与交付、又必须保留人工把关的团队会在需要可审计、可恢复的 agent 工作流时选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -129,8 +129,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：若该平台能在真实 Docker 沙箱中运行编码 AI，并在关键节点暂停等待人工批准、交换结构化产物，可省去手动审查 diff 与搭建隔离环境这一步，开发者在处理高风险代码变更时可能选择它；但公开材料未给出具体部署与审批流程细节，也无用户反馈支持这一判断。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>查找该项目的官方部署文档或仓库 README，确认其 Docker 沙箱配置、审批节点定义与回滚机制的具体实现。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较手工盯 diff 或通用 CI，它把 agent 放进真实 Docker 沙箱执行、在关键节点强制暂停等待人工 Approve，并让 agent 之间交换结构化产物，从而减少事后人工排查与回滚这一步；因此让编码 agent 参与交付、又必须保留人工把关的团队会在需要可审计、可恢复的 agent 工作流时选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 issue、discussion 与部署文档，确认是否有团队公开报告在真实编码 agent 任务中启用沙箱隔离与人工批准节点的可复现记录。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -319,7 +319,7 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 536 个 →
+        AI + 开发 共 547 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -411,8 +411,8 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1866 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-22</span>
+    <span>1918 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-23</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
