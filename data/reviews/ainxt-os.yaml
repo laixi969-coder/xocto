@@ -84,3 +84,51 @@
     meets local deployment needs, platform teams in regulated sectors might consider it; but with only
     42 stars and no issue discussion or deployment case, it is unclear which users would choose it and
     when.'
+- id: req-full-ainxt-os-2026-09-23
+  project_slug: ainxt-os
+  level: full
+  reviewed_at: '2026-09-23T01:09:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受监管机构自建 AI 编排的需求：数据落地与可审计要求使托管服务受限，团队须自行拼接框架，重复劳动刚性且不解决的后果明确；产品以可自选模型与工具的开源积木提供连接与运行基础，交付路径可确定。此为工作流结构推理，无用户反馈佐证。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标仅 42 至 44，且公开材料未见 issue、discussion 或部署案例，无法判断是否形成采用共识或进入真实机构工作流。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+    - ev-2192e7ed97bdd9a5
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价信息，付费方可能是机构自建预算或 NPCI 自身投入，属推断而非已验证事实；公开材料未见采购或商业条款。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有仓库描述，未见部署文档、安全边界或审计能力说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-2e4cd8090806719f
+  next_validation: 追踪该仓库的部署文档与 issue/discussion，确认是否有机构在真实业务中接入使用。
+  market: ''
+  job: 受监管机构（如支付与公共部门）的平台工程师在自建 AI 应用或智能体时，需要把自选的模型、工具与内部工作流接起来，并在自有环境里部署运行，最终得到一套可审计、数据不出域的 AI 运行基础。
+  job_en: Platform engineers at regulated institutions such as payment and public bodies building their
+    own AI applications or agents need to connect chosen models, tools and internal workflows and run
+    them in their own environment, ending with an auditable, data-resident AI runtime foundation.
+  pain: 受监管机构对数据落地与可审计有硬性要求，直接采用外部托管编排服务受限；团队只能自行拼接开源框架与内部平台，重复搭建连接层，且难以保证模型与工具选型自由。
+  pain_en: Regulated institutions have hard data-residency and auditability requirements that restrict
+    hosted orchestration services; teams must stitch open-source frameworks to internal platforms themselves,
+    rebuilding the connection layer and struggling to keep model and tool choice free.
+  current_alternative: 团队自行拼接开源编排框架与内部平台，或采购外部托管编排服务。
+  current_alternative_en: Teams stitch together open-source orchestration frameworks with internal platforms,
+    or buy hosted orchestration services.
+  usage_reason: 推断：相较自行拼接框架，它由印度国家支付公司这一受监管主体发布，提供连接模型、工具与工作流的现成积木并允许自选技术栈，省掉从零搭建连接层这一步，因此对数据不能出域、又需要保留选型自由的机构平台团队有吸引力；仓库仅
+    42–44 星且无 issue 讨论，尚无证据表明已进入真实工作流。
+  usage_reason_en: 'Inference: versus stitching frameworks themselves, it is published by NPCI, a regulated
+    body, and offers ready building blocks for connecting models, tools and workflows while letting teams
+    keep their own stack, removing the from-scratch connection layer; that appeals to institutional platform
+    teams that cannot let data leave their domain yet need choice. With only 42-44 stars and no issue
+    discussion, there is no evidence it has entered a real workflow.'

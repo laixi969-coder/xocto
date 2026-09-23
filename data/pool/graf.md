@@ -21,7 +21,7 @@ canonical_url: https://github.com/ctxrs/graf
 summary: graf (1000x faster graphify in Rust)
 first_seen: '2026-09-22T16:46:31Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNMEN5eUxFdHB0
 summary: 'Sven Gerjets Is one of TIME''s 2026 Executives of the Year: Tech and Data Time Magazine'
 first_seen: '2026-09-22T13:01:04Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

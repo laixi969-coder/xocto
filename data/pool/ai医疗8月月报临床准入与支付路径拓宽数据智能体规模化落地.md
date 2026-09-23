@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPcEhUZ1hMNHNN
 summary: AI医疗8月月报：临床准入与支付路径拓宽，数据智能体规模化落地 ByDrug
 first_seen: '2026-09-22T01:02:45Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

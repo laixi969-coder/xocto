@@ -1,6 +1,6 @@
 ---
 slug: parallel-cut-research-time-and-cost-in-half-with-gpt6-astra
-name: Parallel cut research time and cost in half with GPT‑6 Astra
+name: Parallel
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: GPT‑6 Astra allowed Parallel’s agents to research and synthesize la
   time and at half the cost vs. prior models.
 first_seen: '2026-09-22T12:00:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Parallel cut research time and cost in half with GPT‑6 Astra
+# Parallel
 
 GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.
 

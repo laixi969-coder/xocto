@@ -408,3 +408,46 @@
   usage_reason: 缺少产品自身的公开说明、文档或用户反馈，无法解释用户为何会选择它而非旧做法。
   usage_reason_en: Without the product's own public description, documentation or user feedback, there
     is no basis to explain why users would choose it over existing practices.
+- id: req-full-geiger-2026-09-23
+  project_slug: geiger
+  level: full
+  reviewed_at: '2026-09-23T01:10:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述的 AI agent 清点需求本身可理解，但全部证据指向家具品牌、促销品分销商与物理学家，无一条来自该产品，连它解决什么需求、什么痛点都无法用公开事实还原。
+    evidence_ids:
+    - ev-d1af7f272b582c83
+    - ev-6f66a086a6d5fb93
+    - ev-20adf130cfdca11f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索该产品自身的官方仓库或发布页（README、issue、discussion），确认其是否真实存在、实际能识别哪些 AI agent 与 MCP server，以及是否有可复现的扫描输出说明。
+  market: ''
+  job: 开发者或安全工程师在本地开发机上排查已安装的 AI agent、MCP server 与插件，需要先弄清有哪些组件、各自能访问什么，再决定是否保留或收紧权限。
+  job_en: A developer or security engineer on a local dev machine inspecting installed AI agents, MCP
+    servers and plugins, needing to first establish which components exist and what each can reach before
+    deciding what to keep or restrict.
+  pain: 公开证据中没有任何一条来自该产品本身：全部证据指向家具品牌 Geiger、促销品分销商 Geiger.com 与物理学家 Hans Geiger，无法据此还原该工具的用户痛点。
+  pain_en: 'None of the supplied evidence comes from this product: all items point to the furniture brand
+    Geiger, the promotional-products distributor Geiger.com, and physicist Hans Geiger, so no user pain
+    can be reconstructed from them.'
+  current_alternative: 公开材料未提供该工具自身的任何说明，无法确认用户当前用什么方式替代，也无法确认它是否真的存在。
+  current_alternative_en: The public material contains no description of this tool itself, so the current
+    alternative cannot be confirmed, nor can the tool's existence.
+  usage_reason: 缺少该产品自身的官网、文档、仓库或用户反馈，无法说明它相较旧做法减少哪一步负担，因此无法给出使用理由。
+  usage_reason_en: With no official site, documentation, repository or user feedback for this product,
+    there is no way to explain which step it removes versus the old approach, so no usage reason can be
+    given.

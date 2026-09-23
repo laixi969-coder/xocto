@@ -233,3 +233,82 @@
   usage_reason: 缺少产品功能、交付物与使用场景的任何细节，无法解释用户为何会选择它而非现有做法；这是信息缺口，不是需求结论。
   usage_reason_en: With no detail on features, deliverables or usage scenarios, there is no way to explain
     why a user would choose it over existing practice; this is an information gap, not a demand conclusion.
+- id: req-initial-lab-automation-robotics-startup-able-labs-raises-87m-series-2026-09-23
+  project_slug: lab-automation-robotics-startup-able-labs-raises-87m-series
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决重复实验操作的一致性问题，但材料未给出具体环节、痛点或旧流程，无法确认需求刚性。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条融资标题，没有客户采用、复购或行业共识证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 买方与付费方式未披露，无法判断收入来自药企、实验室还是投资方。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到安全与人工边界说明。
+    evidence_ids: []
+  next_validation: 收集 ABLE Labs 官方产品页或部署文档，确认其替代的具体实验环节与交付形式。
+  market: ''
+  job: 实验室研究人员或自动化工程师在样本前处理与重复性实验操作环节，处理样本、试剂与实验记录，要完成可重复、可追溯的实验执行。
+  job_en: Lab researchers or automation engineers handle samples, reagents and lab records during sample
+    prep and repetitive experiments, aiming to complete repeatable, traceable experiment execution.
+  pain: 公开材料未说明具体痛点，只能推断人工重复操作耗时且一致性差；缺少用户抱怨或案例支持。
+  pain_en: Public material states no specific pain; one can only infer that manual repetitive work is
+    slow and inconsistent, with no user complaint or case support.
+  current_alternative: 公开材料未披露现有替代方式，通常为人工操作或传统实验室自动化设备，属推断。
+  current_alternative_en: Public material discloses no current alternative; manual operation or conventional
+    lab automation equipment is an inference.
+  usage_reason: 无法判断：材料未说明产品通过什么具体动作减少哪一步负担，也没有可核对的结果或客户反馈，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step the product removes through
+    what concrete action, and offers no checkable outcome or customer feedback, so it cannot explain why
+    users would choose it.'
+- id: req-full-lab-automation-robotics-startup-able-labs-raises-87m-series-2026-09-23
+  project_slug: lab-automation-robotics-startup-able-labs-raises-87m-series
+  level: full
+  reviewed_at: '2026-09-23T01:11:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有融资标题，未披露具体实验环节、输入材料、执行动作与交付结果，连要解决的需求和痛点都写不出来，无法形成价值判断。
+    evidence_ids:
+    - ev-154ceed96413407a
+    - ev-99a710e96ade5f7f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ABLE Labs 官方产品页或部署文档，确认其替代的具体实验环节、输入材料与交付形式。
+  market: ''
+  job: 公开材料只显示这是一家做实验室自动化机器人的公司并完成 A 轮融资，未披露谁在哪个实验环节使用、处理什么样本或试剂、要完成什么任务，因此无法写出具体使用场景。
+  job_en: Public material only shows a lab automation robotics company that closed a Series A; it does
+    not disclose who uses it at which experimental step, what samples or reagents are handled, or what
+    task is completed, so no concrete job can be stated.
+  pain: 公开材料未给出任何用户痛点、抱怨或旧流程描述，无法确认它解决什么具体问题。
+  pain_en: Public material provides no user pain, complaint, or legacy-workflow description, so the specific
+    problem it solves cannot be confirmed.
+  current_alternative: 公开材料未披露现有替代方式，无法判断用户此前如何完成同类工作。
+  current_alternative_en: Public material discloses no current alternative, so how users previously completed
+    comparable work cannot be determined.
+  usage_reason: 无法判断：材料未说明产品通过什么具体动作减少哪一步负担，也没有可核对的结果或用户反馈，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step the product removes through
+    what concrete action, and offers no checkable outcome or customer feedback, so it cannot explain why
+    users would choose it.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uSGVWb2pSU3pE
 summary: 当模型开始“够用”，AI的下一场战争打什么？ 华尔街见闻
 first_seen: '2026-09-22T04:19:23Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

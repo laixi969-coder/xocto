@@ -38,7 +38,7 @@ canonical_url: https://producthunt.com/products/trama-mac-automation-in-plain-la
 summary: Create macOS native automations using plain language
 first_seen: '2026-08-22T19:15:06Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - hackernews

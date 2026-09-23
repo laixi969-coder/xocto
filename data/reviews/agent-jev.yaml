@@ -1,0 +1,91 @@
+- id: req-initial-agent-jev-2026-09-23
+  project_slug: agent-jev
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是 agent 流程中快速判断下一步动作的问题，痛点方向清楚，但公开材料只有一句能力描述，说不清判断结果如何被消费，价值结构尚不完整。
+    evidence_ids:
+    - ev-b347a21e4e93ef10
+  - gate: consensus
+    status: insufficient
+    reason: 205 个星标与 12 个 fork 只说明开源关注度，没有用户反馈、案例或采用迹象，无法判断是否有人真的把它放进流程。
+    evidence_ids:
+    - ev-b347a21e4e93ef10
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、托管方式或买方，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b347a21e4e93ef10
+  - gate: truth
+    status: insufficient
+    reason: 无法核对概率是否真的校准、误判如何处理，也看不到人工边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-b347a21e4e93ef10
+  next_validation: 收集该仓库的模型卡、评测结果与 issue 讨论，确认概率校准方式、阈值设定和实际接入案例。
+  market: ''
+  job: agent 开发者在多步自动化流程运行中，需要根据当前的 diff、trace 或日志判断下一步是继续、重试还是升级处理。
+  job_en: Agent developers, while a multi-step automation flow is running, need to judge from the current
+    diff, trace or log whether the next step should continue, retry or escalate.
+  pain: 用大模型做这类判断要等逐 token 生成，延迟和成本都高，而流程里往往只需要一个快速的是否判断。
+  pain_en: Using a large model for such judgements means waiting for token-by-token generation, with high
+    latency and cost, while the flow often only needs a fast yes-or-no decision.
+  current_alternative: 现在多由开发者写规则或阈值脚本，或直接调用大模型对话接口做判断，再自己解析输出。
+  current_alternative_en: Today developers mostly write rule or threshold scripts, or call a large-model
+    chat endpoint and parse the output themselves.
+  usage_reason: 推断：如果它真能在约 50 毫秒内返回概率分布且不逐 token 生成，就省掉了等待大模型输出再解析的那一步，对延迟敏感的多步 agent 流程有吸引力；但公开材料没有说明概率如何转成动作、阈值谁定，因此尚不能确认用户会持续使用。
+  usage_reason_en: 'Inference: if it really returns a probability distribution in about 50 ms without
+    token-by-token generation, it removes the step of waiting for large-model output and parsing it, which
+    appeals to latency-sensitive multi-step agent flows; however the public material does not say how
+    probabilities become actions or who sets thresholds, so continued use cannot be confirmed.'
+- id: req-full-agent-jev-2026-09-23
+  project_slug: agent-jev
+  level: full
+  reviewed_at: '2026-09-23T01:08:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 多步流程中每步快速判断继续、重试或升级的需求，痛点在于大模型逐 token 生成延迟高、规则脚本难覆盖非结构化状态；公开说明已能还原输入（diff/trace/日志加结构化问题）、动作（一次约
+      50 毫秒前向打分）与交付（概率分布），属工作流结构推理，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-b347a21e4e93ef10
+  - gate: consensus
+    status: insufficient
+    reason: 205 个星标只说明开源关注度，没有用户反馈、案例或采用迹象，无法判断是否有人真的把它放进流程，也未说明概率阈值由谁设定。
+    evidence_ids:
+    - ev-b347a21e4e93ef10
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、托管方式或买方，钱可能来自开源社区支持、企业定制或 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b347a21e4e93ef10
+  - gate: truth
+    status: insufficient
+    reason: 无法核对概率是否真的校准、误判如何处理，也看不到人工边界与升级路径，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-b347a21e4e93ef10
+  next_validation: 追踪该仓库的模型卡、评测结果与 issue 讨论，确认概率校准方式、阈值设定和实际接入案例。
+  market: ''
+  job: agent 开发者在多步自动化流程运行中，拿到当前的 diff、trace 或日志等非结构化状态，需要判断下一步是继续、重试还是升级人工处理。
+  job_en: Agent developers, while a multi-step automation flow is running, take the current unstructured
+    state (diff, trace or log) and must decide whether the next step should continue, retry or escalate
+    to a human.
+  pain: 用大模型做这类判断要等逐 token 生成，延迟和成本都高，而流程里往往只需要一个快速的是否判断；规则脚本又难以覆盖非结构化状态。
+  pain_en: Using a large model for such judgements means waiting for token-by-token generation with high
+    latency and cost, while the flow often only needs a fast yes-or-no decision; rule scripts struggle
+    to cover unstructured state.
+  current_alternative: 现在多由开发者写规则或阈值脚本，或直接调用大模型对话接口做判断，再自己解析输出。
+  current_alternative_en: Today developers mostly write rule or threshold scripts, or call a large-model
+    chat endpoint and parse the output themselves.
+  usage_reason: 推断：相较写规则脚本或调用大模型对话接口再解析输出，它把非结构化状态与结构化问题合并成一次约 50 毫秒的前向打分，省掉等待逐 token 生成和解析文本这一步，因此对延迟敏感、需要每步快速判断的多步
+    agent 编排者会在流程中选用它；但概率如何转成动作、阈值谁定，公开材料未说明。
+  usage_reason_en: 'Inference: compared with writing rule scripts or calling a chat endpoint and parsing
+    its text, it folds unstructured state plus a structured question into one ~50 ms forward scoring pass,
+    removing the wait for token-by-token generation and output parsing, so latency-sensitive multi-step
+    agent orchestrators would pick it mid-flow; however how probabilities become actions and who sets
+    thresholds is not stated publicly.'

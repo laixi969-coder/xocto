@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hLTljSTRjLTNL
 summary: 传神太好译发布“6S+1”可信服务框架 AI翻译实现从“能用”到“敢用”升级 eu.36kr.com
 first_seen: '2026-09-20T13:46:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

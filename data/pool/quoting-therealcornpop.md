@@ -27,7 +27,7 @@ summary: "Hey, you know it's like super obvious if you're using AI to write your
   \  tiktok ,  ai ,  ai-misuse"
 first_seen: '2026-09-22T18:03:21Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

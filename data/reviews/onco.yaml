@@ -241,3 +241,52 @@
     and person, plus a JSON API, MCP server, and CLI, letting users directly consume cited entries or
     structured data and reducing retrieval and formatting steps; therefore clinical researchers and pharma
     intelligence staff who need programmatic oncology data access or quick cited entries woul'
+- id: req-full-onco-2026-09-23
+  project_slug: onco
+  level: full
+  reviewed_at: '2026-09-23T01:11:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决肿瘤学信息分散、需跨文献库与试验注册库来回翻找的整合需求，痛点是检索与拼接摩擦；OnCo 以实体一页加引用、并提供 API/MCP/CLI 交付结构化条目，交付形态可确定。这是基于公开产品说明的工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-c5607403cce799dc
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录为 184 个收藏，说明开发者社区注意到该项目，但收藏与关注度不能证明肿瘤科医生或临床研究者会持续使用或把它留在工作流里，缺少目标用户反馈或案例。
+    evidence_ids:
+    - ev-c5607403cce799dc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法核验钱来自 to C、to B 还是 to G；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明知识图谱的更新频率、引用可追溯程度、错误纠正机制以及临床使用的人工与安全边界，交付能否在临床场景确定性发生尚缺可复现证据。
+    evidence_ids:
+    - ev-c5607403cce799dc
+  next_validation: 追踪 OnCo 官网或仓库文档中的定价页、客户案例与部署说明，确认是否存在付费主体及实际使用场景。
+  market: ''
+  job: 肿瘤科医生、临床研究者或医药情报人员在需要快速了解某个癌种、靶点、疗法或试验时，处理分散在文献库、试验注册库和机构页面中的肿瘤学材料，要完成的任务是拿到一份带引用、按实体（癌症/疗法/靶点/试验/机构/人物）组织的条目页或结构化数据，用于后续判断。
+  job_en: Oncologists, clinical researchers, or pharma intelligence staff who need to quickly understand
+    a cancer type, target, therapy, or trial work through oncology material scattered across literature
+    databases, trial registries, and institutional pages, and must obtain a cited entity page (cancer/therapy/target/trial/institution/person)
+    or structured data for downstream judgment.
+  pain: 公开材料显示肿瘤学信息分散在文献库、试验注册库与机构页面之间，用户需要来回翻找并自行拼接；OnCo 的定位正是把这些材料整理成按实体一页的公开知识图谱，说明其针对的是检索与整合环节的摩擦。
+  pain_en: Public materials show oncology information is scattered across literature databases, trial
+    registries, and institutional pages, forcing users to search back and forth and stitch it together;
+    OnCo's positioning as a public knowledge graph with one page per entity indicates it targets friction
+    in retrieval and consolidation.
+  current_alternative: 当前替代方式是用户自己在文献库、试验注册库和机构页面之间来回翻找，或使用 Onconetix 股票信息、Oncolink 患者教育材料、ONCO Inc. 肿瘤数据管理软件等不同用途的既有资源，这些并不提供统一的、带引用的实体级知识图谱。
+  current_alternative_en: The current alternative is users searching back and forth across literature
+    databases, trial registries, and institutional pages, or using differently-purposed existing resources
+    such as Onconetix stock information, Oncolink patient education materials, and ONCO Inc. oncology
+    data management software, none of which provide a unified, cited entity-level knowledge graph.
+  usage_reason: 推断：相较手动跨库翻找，OnCo 通过把癌症、疗法、靶点、试验、机构、人物各整理成一页并附引用，同时提供 JSON API、MCP server 和 CLI，减少了用户逐库检索和手工拼接这一步负担，因此需要程序化取用或快速建立实体级概览的肿瘤科医生、临床研究者和医药情报人员会在查某个癌种或靶点时选择它。
+  usage_reason_en: 'Inference: compared with manual cross-database searching, OnCo reduces the burden
+    of per-database retrieval and manual stitching by organizing cancers, therapies, targets, trials,
+    institutions, and people into one cited page each and offering a JSON API, MCP server, and CLI, so
+    oncologists, clinical researchers, and pharma intelligence staff who need programmatic access or a
+    quick entity-level overview would choose it when looking up a cancer type or target.'

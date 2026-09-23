@@ -21,7 +21,7 @@ canonical_url: https://artificialanalysis.ai/models/mimo-v2-6-pro
 summary: Intelligence, Performance and Price Analysis
 first_seen: '2026-09-22T04:02:09Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

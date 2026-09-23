@@ -228,3 +228,55 @@
     to an agent and centralises results in a local dashboard, cutting the step of gathering and cross-checking
     findings, so developers who care about pre-commit quality and want local results would choose it;
     star growth only reflects attention, not sustained use.'
+- id: req-full-jev-review-2026-09-23
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-09-23T01:10:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决提交前代码质量把关的需求：开发者把改动交给 AI 代理分阶段评审并在本地看板确认。公开材料未给用户抱怨，但本地优先 MCP 插件与分阶段评审的结构可还原旧流程为人工自查或等
+      CI，反馈滞后是刚性痛点，属工作流结构推理。
+    evidence_ids:
+    - ev-f5245c8f681eaf86
+    - ev-0408d8e148a2c127
+  - gate: consensus
+    status: supported
+    reason: 两个公开仓库分别记录 161→203 与 342→545 的收藏增长，说明开发者社区持续关注并收藏该评审工作流；但收藏属关注度证据，不能证明已长期留在工作流，持续采用仍缺公开反馈。
+    evidence_ids:
+    - ev-f5245c8f681eaf86
+    - ev-0408d8e148a2c127
+    - ev-ca6e86c850194d29
+    - ev-1e1d4324386f7776
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，谁付钱、按什么单位收费均未披露；这是判断而非已验证事实，开源插件可能靠赞助或引流，商业路径尚未核验。
+    evidence_ids:
+    - ev-f5245c8f681eaf86
+    - ev-0408d8e148a2c127
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明具体检查项、交付格式与可复现性，也未披露人工与安全边界；本地优先设计降低数据外泄风险，但评审结果能否稳定交付仍缺可复现证据。
+    evidence_ids:
+    - ev-f5245c8f681eaf86
+    - ev-0408d8e148a2c127
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认分阶段评审的具体检查项、交付格式与是否有可复现的本地运行记录。
+  market: ''
+  job: 开发者在本地提交代码前，把待评审的改动交给 AI 编码代理，由代理按阶段做质量检查，结果汇总到本地看板供人工确认后再提交。
+  job_en: Before committing locally, a developer hands pending changes to an AI coding agent that runs
+    staged quality checks and aggregates results into a local dashboard for human confirmation.
+  pain: 公开材料只说明它是本地优先的 MCP 评审插件，未披露具体检查项与用户抱怨；从工作流结构推理，提交前评审依赖人工逐行阅读或等待 CI，反馈滞后且易漏检，这是推断而非用户口述。
+  pain_en: Public materials only describe a local-first MCP review plugin and disclose no specific checks
+    or user complaints; by workflow inference, pre-commit review relies on manual reading or waiting for
+    CI, giving delayed and easily missed feedback — an inference, not user testimony.
+  current_alternative: 旧做法是人工逐行自查、依赖 CI 流水线或通用代码审查工具在提交后发现问题；公开材料未说明它具体替代了哪一种。
+  current_alternative_en: The old approach is manual line-by-line self-review, relying on CI pipelines,
+    or generic review tools that surface problems after commit; public materials do not say which one
+    it replaces.
+  usage_reason: 推断：相较提交后等 CI 或人工通读，它把评审动作前移到本地提交前，由代理按阶段执行检查并把结果集中到本地看板，减少等待反馈和人工逐行筛查这一步，因此在意提交前质量把关的开发者会在本地开发时选用它。
+  usage_reason_en: 'Inference: versus waiting for post-commit CI or reading everything manually, it moves
+    review before the local commit, has the agent run staged checks and centralizes results in a local
+    dashboard, removing the wait for feedback and manual line-by-line screening — so developers who care
+    about pre-commit quality control would adopt it during local development.'

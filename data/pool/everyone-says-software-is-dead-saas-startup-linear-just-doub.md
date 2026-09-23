@@ -36,7 +36,7 @@ summary: Everyone says software is dead. SaaS startup Linear just doubled its va
   Business Insider
 first_seen: '2026-08-26T12:00:00Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - ia40

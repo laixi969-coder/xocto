@@ -1,0 +1,83 @@
+- id: req-initial-wzrd-2026-09-23
+  project_slug: wzrd
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决文档类产出中的生成与修改需求，但公开材料未说明具体痛点与不采用的后果，价值判断缺少依据。
+    evidence_ids:
+    - ev-4d682c5c05bfbe84
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页定位描述，没有可归因到该产品的采用、付费或持续使用证据。
+    evidence_ids:
+    - ev-4d682c5c05bfbe84
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，收入来自个人订阅还是团队采购无法确认。
+    evidence_ids:
+    - ev-4d682c5c05bfbe84
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成内容的校验方式与人工确认边界，交付是否确定仍待核验。
+    evidence_ids:
+    - ev-4d682c5c05bfbe84
+  next_validation: 收集该产品的官方定价页或客户案例，核验其与办公套件自带 AI 的差异及付费方式。
+  market: ''
+  job: 办公用户或内容创作者在制作文档、幻灯片、表单与表格时，让 AI 直接生成并修改这些文件
+  job_en: Office users or content creators having AI directly generate and modify documents, slides, forms
+    and sheets
+  pain: 公开材料只给出产品定位，未说明用户在制作这些文件时具体卡在哪一步，也未给出与现有办公软件自带 AI 的差异。
+  pain_en: Public material only gives a positioning statement; it does not say which step users get stuck
+    on when producing these files, nor how it differs from AI already built into office software.
+  current_alternative: 公开材料未提供原有做法，无法确认此前是使用办公套件自带 AI、通用聊天助手还是手工排版。
+  current_alternative_en: Public material provides no prior workflow, so it is unclear whether users previously
+    used built-in office AI, general chat assistants, or manual formatting.
+  usage_reason: 推断：若用户此前需要在聊天工具与办公软件之间来回搬运内容，直接在文件内对话可省去复制粘贴这一步，因此批量产出文档的用户可能选择它；但缺少用户反馈与采用证据。
+  usage_reason_en: 'Inference: if users previously shuttled content between chat tools and office software,
+    conversing inside the file removes the copy-paste step, so users producing documents in bulk might
+    choose it; user feedback and adoption evidence are missing.'
+- id: req-full-wzrd-2026-09-23
+  project_slug: wzrd
+  level: full
+  reviewed_at: '2026-09-23T01:12:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决文档类产出中的生成与修改需求，但公开材料未说明具体痛点、不采用的后果与旧替代方式，价值判断缺少依据。
+    evidence_ids:
+    - ev-3ca715a865a7484f
+    - ev-d4dc7dd2d75eec67
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品的官方定价页或客户案例，核验其与办公套件自带 AI 的差异及付费方式。
+  market: ''
+  job: 办公用户或内容创作者在制作文档、幻灯片、表单与表格时，让 AI 直接生成并修改这些文件。
+  job_en: Office users or content creators having AI directly generate and modify documents, slides, forms
+    and sheets.
+  pain: 公开材料只给出产品定位，未说明用户在制作这些文件时具体卡在哪一步，也未给出与办公软件自带 AI 的差异，痛点无法还原。
+  pain_en: Public material only gives a positioning statement; it does not say which step users get stuck
+    on when producing these files, nor how it differs from AI already built into office software, so the
+    pain cannot be reconstructed.
+  current_alternative: 公开材料未提供原有做法，无法确认此前是使用办公套件自带 AI、通用聊天助手还是手工排版。
+  current_alternative_en: Public material provides no prior workflow, so it is unclear whether users previously
+    used built-in office AI, general chat assistants, or manual formatting.
+  usage_reason: 推断：若用户此前需要在聊天工具与办公软件之间来回搬运内容，直接在文件内对话可省去复制粘贴这一步，因此批量产出文档的用户可能选择它；但缺少用户反馈与采用证据。
+  usage_reason_en: 'Inference: if users previously shuttled content between chat tools and office software,
+    conversing inside the file removes the copy-paste step, so users producing documents in bulk might
+    choose it; user feedback and adoption evidence are missing.'

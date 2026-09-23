@@ -1,6 +1,6 @@
 ---
 slug: meta修复muse应用安全漏洞曾让攻击者控制ai智能体
-name: Meta修复Muse应用安全漏洞，曾让攻击者控制AI智能体
+name: Muse
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE13YlZBYjVjX1hR
 summary: Meta修复Muse应用安全漏洞，曾让攻击者控制AI智能体 至顶网
 first_seen: '2026-09-22T21:00:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Meta修复Muse应用安全漏洞，曾让攻击者控制AI智能体
+# Muse
 
 Meta修复Muse应用安全漏洞，曾让攻击者控制AI智能体 至顶网
 

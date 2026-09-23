@@ -1,6 +1,6 @@
 ---
 slug: 欧派99的订单都有ai在支撑规模化落地还有三道坎-ai看广东
-name: 欧派：99%的订单都有AI在支撑，规模化落地还有三道坎｜AI看广东
+name: 欧派
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxOU1l1RDh0VmJX
 summary: 欧派：99%的订单都有AI在支撑，规模化落地还有三道坎｜AI看广东 huacheng.gz-cmc.com
 first_seen: '2026-09-22T05:28:51Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 欧派：99%的订单都有AI在支撑，规模化落地还有三道坎｜AI看广东
+# 欧派
 
 欧派：99%的订单都有AI在支撑，规模化落地还有三道坎｜AI看广东 huacheng.gz-cmc.com
 

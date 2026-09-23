@@ -1,0 +1,81 @@
+- id: req-initial-nato-innovation-fund-co-leads-11m-investment-in-swedish-defe-2026-09-23
+  project_slug: nato-innovation-fund-co-leads-11m-investment-in-swedish-defe
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-d9f927fdd90c61ac
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无用户采用或客户案例证据。
+    evidence_ids:
+    - ev-d9f927fdd90c61ac
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-d9f927fdd90c61ac
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从核对。
+    evidence_ids:
+    - ev-d9f927fdd90c61ac
+  next_validation: 收集 Terasi 官方产品页或部署文档，确认其通信产品具体替代哪一步人工流程与交付形态。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or work step, so who handles what material to finish
+    which task cannot be confirmed.
+  pain: 材料未披露战场通信中具体哪一步存在人工负担或失效风险，痛点无法从公开事实还原。
+  pain_en: The material does not disclose which step of battlefield communication carries manual burden
+    or failure risk, so the pain point cannot be reconstructed from public facts.
+  current_alternative: 材料未说明现有替代方式，无法判断旧做法是人工配置、商用通信设备还是自研系统。
+  current_alternative_en: No current alternative is described, so it is unclear whether the old way is
+    manual configuration, commercial comms gear or in-house systems.
+  usage_reason: 缺少产品能力与工作流的任何细节，无法解释相较旧做法减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: With no detail on product capability or workflow, there is no basis to explain which
+    step it removes versus the old way, so no usage reason can be given.
+- id: req-full-nato-innovation-fund-co-leads-11m-investment-in-swedish-defe-2026-09-23
+  project_slug: nato-innovation-fund-co-leads-11m-investment-in-swedish-defe
+  level: full
+  reviewed_at: '2026-09-23T01:11:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称其做战场通信技术并获北约创新基金领投的1100万欧元种子轮，未说明谁在什么节点处理什么材料、交付什么，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-1bfb433b1abb1eb9
+    - ev-5fe08a27526a767e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Terasi 官网产品页与部署文档（terasi.io/products），确认其通信产品替代哪一步人工流程、输入输出与交付形态。
+  market: ''
+  job: 公开材料只说明 Terasi 做面向战场的通信技术，未说明谁在什么情况下处理什么材料、要完成什么任务，具体使用者与工作节点无法确认。
+  job_en: Public material only says Terasi builds battlefield-oriented communication technology; it does
+    not identify who handles what material in which situation to finish which task, so the user and work
+    step cannot be confirmed.
+  pain: 材料未披露战场通信中具体哪一步存在人工负担或失效风险，痛点无法从公开事实还原。
+  pain_en: The material does not disclose which step of battlefield communication carries manual burden
+    or failure risk, so the pain point cannot be reconstructed from public facts.
+  current_alternative: 材料未说明现有替代方式，无法判断旧做法是人工配置、商用通信设备还是自研系统。
+  current_alternative_en: No current alternative is described, so it is unclear whether the old way is
+    manual configuration, commercial comms gear or in-house systems.
+  usage_reason: 缺少产品能力与工作流的任何细节，无法解释相较旧做法减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: With no detail on product capability or workflow, there is no basis to explain which
+    step it removes versus the old way, so no usage reason can be given.

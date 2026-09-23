@@ -116,3 +116,45 @@
   usage_reason_en: With no user feedback, case study, or reproducible input-action-delivery description,
     there is no way to explain which step's burden it removes or which checkable result it improves versus
     the old approach; the 42→43 star change is attention, not a reason for choice.
+- id: req-full-oyama-ai-video-studio-2026-09-23
+  project_slug: oyama-ai-video-studio
+  level: full
+  reviewed_at: '2026-09-23T01:11:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据仅有仓库星标从 42 增至 43，未说明谁在什么工作节点使用、AI 接收什么素材、产出什么交付，需求与痛点均无法还原，价值关不成立。
+    evidence_ids:
+    - ev-d49dc841f1b1ed7f
+    - ev-b3dfcaee75701602
+    - ev-94bddb02975fd9ea
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认它接收什么素材、执行什么动作、产出什么交付物。
+  market: ''
+  job: 视频剪辑与内容制作人员在需要产出成片时，把素材交给该工具，期望由 AI 完成剪辑或生成并拿到可交付的视频文件。
+  job_en: Video editors and content producers hand footage to the tool when producing a finished cut,
+    expecting AI to perform editing or generation and return a deliverable video file.
+  pain: 公开材料只有仓库星标数，没有说明用户在哪个环节卡住、不解决会付出什么代价，痛点无法从现有证据还原。
+  pain_en: Public material only shows repository star counts; it does not show where users get stuck or
+    what it costs them to leave the problem unsolved, so the pain cannot be reconstructed from available
+    evidence.
+  current_alternative: 公开材料未说明用户目前用什么工具或流程完成同类剪辑与生成任务，替代关系不明。
+  current_alternative_en: Public material does not show what tools or workflows users currently use for
+    comparable editing and generation tasks, so the substitution relationship is unclear.
+  usage_reason: 缺少产品说明、文档或用户反馈，无法说明它相较旧做法减少了哪一步负担，因此无法解释用户为何选择它。
+  usage_reason_en: With no product description, documentation, or user feedback, there is no basis to
+    explain which step it removes relative to the old approach, so why users would choose it cannot be
+    explained.

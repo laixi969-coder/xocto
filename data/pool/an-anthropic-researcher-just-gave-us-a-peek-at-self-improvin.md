@@ -3,13 +3,13 @@ slug: an-anthropic-researcher-just-gave-us-a-peek-at-self-improvin
 name: Anthropic
 builder: jb1991
 category: 基础层
-summary_zh: 这是模型厂商Anthropic的资本与能力进展，不是独立应用产品：报道涉及其估值、营收目标、IPO计划、合作方订单指引，以及研究员演示的自动化对齐改进实验。对AI应用方而言，它意味着上游模型能力与资本投入仍在加码，但本次材料未给出可直接改变应用成本、交付或竞争格局的具体条款。
+summary_zh: 这是模型厂商的发布与法律事件，不是独立产品：材料只提到 Opus 5.5 以更低价格发布，以及多家模型公司面临反垄断诉讼，未提供定价页、能力对比或客户采用数据。对 AI 应用方的可核对影响（推理成本是否下降、降多少）在现有材料中无法确认，只能作为市场背景记录。
 inspiration: 趋势：模型厂商开始证明能靠企业付费自我造血，竞争焦点从模型能力转向安全合规与算力供给。切入：通用对话入口窗口已关，别做又一个 Claude；可在垂直行业工作流、企业数据合规、智能体安全评测等环节依附其生态获利。
-summary_en: 'This is capital and capability news about the model vendor Anthropic, not an independent
-  application: reports cover its valuation, revenue target, IPO plans, a partner''s order guidance, and
-  a researcher''s automated alignment-improvement experiment. For application builders it signals continued
-  upstream capability and capital spending, but the material gives no concrete terms that directly change
-  application cost, delivery or competition.'
+summary_en: 'This is a model-vendor release and legal event, not an independent product: the material
+  only mentions Opus 5.5 being released at a lower price and an antitrust suit involving several model
+  companies, with no pricing page, capability comparison or customer adoption data. The verifiable impact
+  on AI application builders (whether and how much inference cost falls) cannot be confirmed from the
+  available material, so it is recorded as market context only.'
 inspiration_en: 'Trend: model vendors now prove enterprise revenue can sustain them, moving competition
   toward safety and governance. Entry: the general chat window is closed; enter via vertical industry
   workflows or enterprise compliance layered on this ecosystem.'
@@ -40,7 +40,7 @@ summary: Given 10 benchmarks for specific misaligned behaviors, the automated sy
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

@@ -35,7 +35,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZzI1djhTUEsy
 summary: 美图AI算力点消费半年翻倍，管理层称AI应用层迎关键窗口期|美图公司|吴欣鸿|财报|收入|机会_手机新浪网 新浪财经
 first_seen: '2026-08-28T18:16:47Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

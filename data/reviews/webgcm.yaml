@@ -1,0 +1,81 @@
+- id: req-initial-webgcm-2026-09-23
+  project_slug: webgcm
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决在浏览器中运行气候模型的需求，但公开材料未说明具体用户、痛点强度与不采用的后果，价值判断缺少依据。
+    evidence_ids:
+    - ev-9be3ab085bd99e1e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用、付费或持续使用证据。
+    evidence_ids:
+    - ev-9be3ab085bd99e1e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方、定价或交付方式，无法判断收入来自机构采购、教育授权还是个人付费。
+    evidence_ids:
+    - ev-9be3ab085bd99e1e
+  - gate: truth
+    status: insufficient
+    reason: 未提供模型精度、边界条件与人工校验说明，能否确定性交付科研级结果无法核对。
+    evidence_ids:
+    - ev-9be3ab085bd99e1e
+  next_validation: 收集该项目的官方文档或仓库说明，核验模型分辨率、验证方法与可复现性说明。
+  market: ''
+  job: 气候研究者或教师在浏览器中运行全球气候模型，用于演示或教学
+  job_en: Climate researchers or teachers running a global climate model in the browser for demonstration
+    or teaching
+  pain: 公开材料只说明模型可在浏览器运行，未说明谁在什么情况下遇到什么具体困难，也未给出替代旧做法的成本或时间对比。
+  pain_en: Public material only states the model runs in a browser; it does not say who faces what specific
+    difficulty in which situation, nor compare cost or time against the old approach.
+  current_alternative: 公开材料未提供原有做法，无法确认此前是本地安装模型、使用超算集群还是依赖机构内部平台。
+  current_alternative_en: Public material provides no prior workflow, so it is unclear whether users previously
+    installed models locally, used supercomputer clusters, or relied on institutional platforms.
+  usage_reason: 推断：若此前运行气候模型需要本地部署或排队使用集群，浏览器直接打开可省去环境配置这一步，因此教学演示场景的用户可能选择它；但缺少用户反馈或采用证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if running a climate model previously required local deployment or cluster
+    queuing, opening it directly in a browser removes the environment setup step, so teaching-demo users
+    might choose it; but without user feedback or adoption evidence this motive cannot be confirmed.'
+- id: req-full-webgcm-2026-09-23
+  project_slug: webgcm
+  level: full
+  reviewed_at: '2026-09-23T01:12:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让气候模型在浏览器中直接运行，但公开材料只有一句产品描述，未说明具体用户、痛点强度与不采用的后果，无法还原旧流程与交付闭环。
+    evidence_ids:
+    - ev-9be3ab085bd99e1e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 WebGCM 官方站点或代码仓库的文档，核验模型分辨率、验证方法与可复现性说明，确认其是否面向教学演示或科研用途。
+  market: ''
+  job: 气候研究者或教师在浏览器中打开 WebGCM，运行全球气候模型，用于课堂演示或教学展示。
+  job_en: Climate researchers or teachers open WebGCM in a browser to run a global climate model for classroom
+    demonstration or teaching.
+  pain: 公开材料只说明模型可在浏览器运行，未说明谁在什么情况下遇到什么具体困难，也没有本地部署或集群排队的成本对比。
+  pain_en: Public material only states the model runs in a browser; it does not say who faces what specific
+    difficulty in which situation, nor compare cost against local deployment or cluster queuing.
+  current_alternative: 公开材料未提供原有做法，无法确认此前是本地安装模型、使用超算集群还是依赖机构内部平台。
+  current_alternative_en: Public material provides no prior workflow, so it is unclear whether users previously
+    installed models locally, used supercomputer clusters or relied on institutional platforms.
+  usage_reason: 推断：若此前运行气候模型需本地部署或排队使用集群，浏览器直接打开可省去环境配置这一步，教学演示者可能因此选择它；但缺少用户反馈或采用证据，动机无法确认。
+  usage_reason_en: 'Inference: if running a climate model previously required local deployment or cluster
+    queuing, opening it in a browser removes the environment setup step, so teaching demonstrators might
+    choose it; but without user feedback or adoption evidence the motive cannot be confirmed.'

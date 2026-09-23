@@ -508,3 +508,54 @@
     drafts for AI fingerprints before publishing, removing the ''generate then polish line by line'' step;
     solo operators who need steady output but won''t outsource would pick it when deadlines press. Stars
     rising from 262 to 555 shows attention, not sustained use.'
+- id: req-full-linkedin-agent-skill-2026-09-23
+  project_slug: linkedin-agent-skill
+  level: full
+  reviewed_at: '2026-09-23T01:11:16Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 LinkedIn 账号持续产出内容的需求：写帖、回评、排周计划并去除 AI 痕迹；痛点是周更断档与内容同质化，旧做法是人工从零写或通用大模型生成后改写。公开说明已能还原输入—动作—交付闭环，属工作流结构推理；未采用代价与频率缺量化数据。
+    evidence_ids:
+    - ev-44f5ef44cefb852d
+    - ev-ae28986b9f515e07
+  - gate: consensus
+    status: supported
+    reason: 同一仓库收藏数从 289 增至 592，说明有持续增长的开发者关注与采用意向；但收藏与复刻属关注度证据，不能证明目标用户已长期留在工作流或形成复购，故共识仅到初步成立。
+    evidence_ids:
+    - ev-44f5ef44cefb852d
+    - ev-ae28986b9f515e07
+    - ev-e53682b9a61af325
+  - gate: model
+    status: insufficient
+    reason: 技能标注为免费，公开材料未见定价页、付费主体或单位经济；谁付钱（个人运营者、代运营机构还是工具方）尚不可核验，这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-44f5ef44cefb852d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明技能会生成草稿并打分、由用户确认后发布，未见部署文档、可复现实测或人工与安全边界的说明，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-ae28986b9f515e07
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认实际部署方式、用户反馈的交付结果与人工确认边界。
+  market: ''
+  job: 做个人品牌或代运营 LinkedIn 账号的人，在需要按周产出帖子、评论与回复时，把账号定位与素材交给这组 Claude 技能，产出可发布的草稿、评论回复与主页评分，再自行确认发布。
+  job_en: People building a personal brand or running a LinkedIn account hand their positioning and raw
+    material to this set of Claude skills when they need weekly posts, comments and replies, and receive
+    publishable drafts, comment replies and a profile score before confirming publication themselves.
+  pain: 公开材料显示其针对的是持续产出 LinkedIn 内容的负担：需要反复套用钩子结构写帖、逐条回评、排周计划，还要避免草稿带明显 AI 痕迹；不解决的后果是账号更新断档或内容同质化，但公开证据未给出频率与代价的量化数据。
+  pain_en: 'Public materials indicate it targets the burden of continuously producing LinkedIn content:
+    repeatedly applying hook structures to write posts, replying comment by comment, planning the week,
+    and avoiding drafts that read as obviously AI-written; the consequence of not solving it is a stalled
+    posting cadence or homogenized content, though public evidence gives no quantified frequency or cost.'
+  current_alternative: 旧做法是人工从零写帖、凭经验套钩子、手动逐条回评并自己排周计划，或直接使用通用大模型生成后自行改写去 AI 味。
+  current_alternative_en: The old approach is writing posts from scratch, applying hooks by experience,
+    replying to comments manually and planning the week by hand, or generating with a general LLM and
+    rewriting to remove the AI feel.
+  usage_reason: 推断：相较通用大模型从零生成，它把 21 个钩子公式、评论回复、周计划与去 AI 痕迹打分固化成可复用的技能步骤，用户不必每次重新设计提示词和结构，并在发布前拿到一份草稿评分，因此需要稳定周更且在意内容自然度的个人品牌运营者会在写帖与回评环节选择它。
+  usage_reason_en: 'Inference: versus generating from scratch with a general LLM, it fixes 21 hook formulas,
+    comment replies, a weekly plan and an AI-fingerprint score into reusable skill steps, so users need
+    not redesign prompts and structure each time and get a draft score before publishing; personal-brand
+    operators who need steady weekly output and care about natural-sounding content would choose it for
+    drafting and replying.'

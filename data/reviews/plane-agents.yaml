@@ -1,0 +1,81 @@
+- id: req-initial-plane-agents-2026-09-23
+  project_slug: plane-agents
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向任务分派这一真实环节，但材料未写清 agent 接手哪一步、痛点强度如何，价值结构无法还原。
+    evidence_ids:
+    - ev-259988b6115e74de
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，也没有可归因到该功能的采用或客户证据。
+    evidence_ids:
+    - ev-259988b6115e74de
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露该功能是否单独收费、按席位还是按用量，无法判断付费路径。
+    evidence_ids:
+    - ev-259988b6115e74de
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对 agent 产出是否被采纳，也看不到人工确认边界。
+    evidence_ids:
+    - ev-259988b6115e74de
+  next_validation: 收集 Plane 官方文档或定价页，确认 Agents 功能的计费方式与 agent 可执行的任务范围。
+  market: ''
+  job: 项目经理在排期与分派工作时，处理工单与任务描述材料，要完成把任务派出去并跟踪完成情况；agent 具体接手哪一步材料未说明。
+  job_en: A project manager scheduling and assigning work handles tickets and task descriptions to hand
+    out tasks and track completion; which step the agent actually takes over is not stated.
+  pain: 材料未说明现有分派与跟踪流程的具体痛点，只能推断为任务积压与状态同步成本，属推断。
+  pain_en: The material does not state the concrete pain of current assignment and tracking; backlog and
+    status-sync cost are only an inference.
+  current_alternative: 现有替代方式未在材料中给出，通常为人工分派加人工跟进，属推断。
+  current_alternative_en: No current alternative is given; manual assignment plus manual follow-up are
+    the usual substitutes, which is an inference.
+  usage_reason: 材料未说明它相较人工分派减少了哪一步或改善了哪项可核对结果，无法解释团队为何选择它。
+  usage_reason_en: The material does not say which step it removes versus manual assignment or which checkable
+    result it improves, so it cannot explain why a team would choose it.
+- id: req-full-plane-agents-2026-09-23
+  project_slug: plane-agents
+  level: full
+  reviewed_at: '2026-09-23T01:11:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向任务分派这一真实环节，但公开材料未写清 agent 接手哪一步、痛点强度与不解决的后果，价值结构无法还原，属证据不足而非需求不成立。
+    evidence_ids:
+    - ev-da822db062f57433
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Plane 官方文档或定价页，确认 Agents 功能的计费方式、agent 可执行的任务范围与公开客户案例。
+  market: ''
+  job: 使用 Plane 做项目管理的团队在排期与分派工作时，处理工单、周期与文档材料，要完成把任务派出去并跟踪完成情况；agent 具体接手哪一步、产出什么可核对结果，公开材料未说明。
+  job_en: A team using Plane for project management, while scheduling and assigning work, handles tickets,
+    cycles and docs to hand out tasks and track completion; which step the agent takes over and what checkable
+    output it produces is not stated.
+  pain: 公开材料只说 agent 能接真实任务，未描述当前分派与跟踪流程的具体痛点；任务积压、状态同步成本只能算推断。
+  pain_en: The public material only says agents take real assignments; it does not describe any concrete
+    pain in current assignment and tracking, so backlog and status-sync cost remain inference.
+  current_alternative: 材料未给出当前替代方式；人工分派加人工跟进只是常规推断，无该项目证据支持。
+  current_alternative_en: No current alternative is given; manual assignment plus manual follow-up is
+    only a generic inference without project evidence.
+  usage_reason: 材料未说明它相较人工分派减少哪一步或改善哪项可核对结果，无法解释哪类团队会在什么情况下选择它；这是缺口，不是选择理由。
+  usage_reason_en: The material does not say which step it removes versus manual assignment or which checkable
+    result it improves, so it cannot explain which team would choose it and when; that is a gap, not a
+    reason.

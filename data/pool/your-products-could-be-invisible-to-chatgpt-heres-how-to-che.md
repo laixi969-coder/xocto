@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPTWhIdzdWcV9m
 summary: Your Products Could Be Invisible to ChatGPT. Here’s How to Check in 30 Seconds. entrepreneur.com
 first_seen: '2026-09-22T18:30:59Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

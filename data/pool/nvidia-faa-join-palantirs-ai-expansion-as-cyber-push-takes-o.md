@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oMmxfaWI3WVc1
 summary: Nvidia, FAA Join Palantir’s AI Expansion as Cyber Push Takes Off TradingView
 first_seen: '2026-09-10T10:06:22Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

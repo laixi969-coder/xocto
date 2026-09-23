@@ -3,9 +3,16 @@ slug: claude-opus-55-gpt-6-sol-gpt-6-luna-and-a-new-price-war
 name: Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 发布 Claude Opus 5.5，约一小时后 OpenAI 发布 GPT-6 Sol 与 GPT-6 Luna。GPT-6 Sol/Luna 定价约为 GPT-5.6
+  同档的一半（Luna 输入 $0.10/M、输出 $0.50/M；Sol 输入 $2/M、输出 $10/M），Opus 5.5 较 Opus 5 降价 20%（输入 $4/M、输出 $20/M），缓存读取价格下降
+  60%。头部模型同档位价格近乎腰斩，直接压低智能体与长上下文应用的推理成本，加剧前沿模型厂商在下一档模型上的价格竞争（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic released Claude Opus 5.5, and roughly an hour later OpenAI released GPT-6 Sol and
+  GPT-6 Luna. GPT-6 Sol/Luna are priced at about half their GPT-5.6 equivalents (Luna at $0.10/M input
+  and $0.50/M output; Sol at $2/M input and $10/M output), while Opus 5.5 cut prices 20% versus Opus 5
+  ($4/M input, $20/M output) and reduced cache-read pricing by 60%. Near-halving of prices in the same
+  tier directly lowers inference costs for agentic and long-context applications and intensifies price
+  competition among frontier model vendors in the tier below their top models (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -89,7 +96,7 @@ summary: "Yesterday was  Grok 4.7  ( pelicans ) and  MiMo v2.6 Flash/Pro  ( more
   \ anthropic ,  claude ,  llm-pricing ,  pelican-riding-a-bicycle ,  gpt"
 first_seen: '2026-09-22T23:46:41Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:

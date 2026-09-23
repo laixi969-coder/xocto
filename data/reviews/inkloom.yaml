@@ -1,0 +1,87 @@
+- id: req-initial-inkloom-2026-09-23
+  project_slug: inkloom
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌标识交付中规范缺失、设计师手工补留白与字体规则的问题，旧做法是通用生成加人工整理，属工作流推理。
+    evidence_ids:
+    - ev-d3f4b02ed7bffe80
+  - gate: consensus
+    status: insufficient
+    reason: 仅有早期访问说明与仓库星标，没有设计师或客户的采用与重复使用证据。
+    evidence_ids:
+    - ev-d3f4b02ed7bffe80
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、商用授权与买方，按项目或订阅收费都只是推断。
+    evidence_ids:
+    - ev-d3f4b02ed7bffe80
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否输出可编辑源文件、是否可商用，交付确定性无法核对。
+    evidence_ids:
+    - ev-d3f4b02ed7bffe80
+  next_validation: 收集 inkloom 官方文档或定价页，确认是否交付可编辑源文件与商用授权条款。
+  market: ''
+  job: 小企业主或独立设计师在为新业务做品牌标识时，需要把业务定位转成可用的标志组合与留白规范，而不是只拿到几张图。
+  job_en: A small business owner or independent designer creating a brand mark for a new business needs
+    the positioning turned into usable lockups and clear-space rules, not just a few images.
+  pain: 通用图像生成给不出可落地的规范，设计师仍需手工补字体、间距与留白规则，返工多。
+  pain_en: Generic image generation does not produce a usable specification; designers still hand-build
+    typography, spacing and clear-space rules, causing rework.
+  current_alternative: 通用图像生成工具加设计师手工整理，或直接购买现成模板。
+  current_alternative_en: Generic image generators plus manual designer clean-up, or buying ready-made
+    templates.
+  usage_reason: 推断：相较通用生成只出图，它把品牌约束、字体、符号与留白规则拆成可分别调用的环节，直接产出锁定组合与留白规范，减少设计师事后补规范这一步；是否可编辑与可商用未披露，因此减少的是规范整理负担。
+  usage_reason_en: 'Inference: compared with generators that only output images, it splits brand constraints,
+    typography, symbols and clear-space rules into separately callable steps and directly produces lockups
+    and clear-space specs, cutting the designer''s post-hoc specification work; editability and commercial
+    use are undisclosed, so the reduced burden is specification clean-up.'
+- id: req-full-inkloom-2026-09-23
+  project_slug: inkloom
+  level: full
+  reviewed_at: '2026-09-23T01:10:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌标识交付中规范缺失、设计师手工补字体与留白规则的问题，旧做法是通用生成加人工整理，属工作流结构推理。
+    evidence_ids:
+    - ev-d3f4b02ed7bffe80
+  - gate: consensus
+    status: insufficient
+    reason: 仅有早期访问说明与仓库星标，没有设计师或客户的采用、重复使用证据，关注度不等于持续采用。
+    evidence_ids:
+    - ev-d3f4b02ed7bffe80
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、商用授权与买方，按项目或订阅收费都只是推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d3f4b02ed7bffe80
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否输出可编辑源文件、是否可商用，交付确定性无法核对，人工定稿边界也未界定。
+    evidence_ids:
+    - ev-d3f4b02ed7bffe80
+  next_validation: 收集 inkloom 官方文档或定价页，确认是否交付可编辑源文件与商用授权条款。
+  market: ''
+  job: 小企业主或独立设计师在为新业务做品牌标识时，把业务描述交给系统，得到可用的标志锁定组合与留白规范，再人工筛选定稿。
+  job_en: A small business owner or independent designer creating a brand mark for a new business hands
+    a business description to the system to get usable lockups and clear-space rules, then manually selects
+    the final mark.
+  pain: 通用图像生成只出图，给不出可落地的字体、间距与留白规范，设计师仍需手工补规范并反复返工。
+  pain_en: Generic image generation only produces images and gives no usable typography, spacing or clear-space
+    specification, so designers still hand-build the spec and rework repeatedly.
+  current_alternative: 通用图像生成工具加设计师手工整理，或直接购买现成模板。
+  current_alternative_en: Generic image generators plus manual designer clean-up, or buying ready-made
+    templates.
+  usage_reason: 推断：相较通用生成只出图，它把品牌约束、字体、符号与留白规则拆成可分别调用的环节，直接产出锁定组合与留白规范，减少设计师事后补规范这一步；是否可编辑与可商用未披露，因此减少的是规范整理负担。
+  usage_reason_en: 'Inference: compared with generators that only output images, it splits brand constraints,
+    typography, symbols and clear-space rules into separately callable steps and directly produces lockups
+    and clear-space specs, cutting the designer''s post-hoc specification work; editability and commercial
+    use are undisclosed, so the reduced burden is specification clean-up.'

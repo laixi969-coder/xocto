@@ -539,3 +539,44 @@
   usage_reason_en: 'The task is: Claims to add skills to an AI assistant, but install asks you to turn
     off antivirus and run a setup file as administrator. Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-agent-skills-collection-2026-09-23
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-09-23T01:08:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue 与 discussion，确认是否有用户报告安装安全顾虑、实际接入 agent 工作流的使用反馈或维护者回应。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的 agent 加装模块化技能，在本地或自托管环境中把技能包接入自己的 agent 工作流，完成特定任务扩展。
+  job_en: Developers or LLM-agent users want to add modular skills to an LLM-based agent, wiring skill
+    packages into their own local or self-hosted agent workflow to extend task coverage.
+  pain: 公开材料只给出产品自述与仓库关注度，没有用户抱怨、issue 或案例说明缺少这些技能会造成什么具体损失；安装要求关闭杀毒并以管理员权限运行安装包，反而给用户带来安全与信任负担，痛点刚性未被公开事实支持。
+  pain_en: Public materials offer only the product's own description and repo attention; no user complaints,
+    issues, or cases show what is lost without these skills. The install flow asking users to disable
+    antivirus and run a setup file as administrator adds a security and trust burden rather than relieving
+    one, so pain rigidity is not supported by public facts.
+  current_alternative: 开发者通常直接调用模型 API、使用 LangChain 等 agent 框架、自行编写工具函数或复用开源 skill 仓库来扩展 agent 能力；公开材料未说明本集合相较这些旧做法减少了哪一步。
+  current_alternative_en: Developers typically call model APIs directly, use agent frameworks such as
+    LangChain, write their own tool functions, or reuse open-source skill repositories; public materials
+    do not show which step this collection removes versus those alternatives.
+  usage_reason: 推断：仓库的 209 个收藏和 4 次复刻只说明开发者注意到它，不能解释用户为何选择它；在缺少用户反馈、案例或重复使用证据的情况下，无法说明它相较自行编写工具函数减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'Inference: the repository''s 209 stars and 4 forks only show developer attention,
+    not why users choose it; without user feedback, cases, or repeat-use evidence, it is unclear which
+    step it removes or which checkable result it improves versus writing one''s own tool functions.'

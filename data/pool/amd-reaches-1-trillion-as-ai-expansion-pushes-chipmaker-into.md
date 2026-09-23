@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0w5VGFKTEJa
 summary: AMD Reaches $1 Trillion as AI Expansion Pushes Chipmaker Into New Territory innovation-village.com
 first_seen: '2026-09-22T12:53:51Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

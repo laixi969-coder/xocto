@@ -1,0 +1,90 @@
+- id: req-initial-lumikai-leads-600000-funding-round-in-ai-product-co-creation-2026-09-23
+  project_slug: lumikai-leads-600000-funding-round-in-ai-product-co-creation
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有“AI 产品共创”这一标签，价值关无法成立。
+    evidence_ids:
+    - ev-e3c9e1a39bcc2dd6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且公开材料没有用户采用或场景共识证据。
+    evidence_ids:
+    - ev-e3c9e1a39bcc2dd6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露，仅有 60 万美元融资。
+    evidence_ids:
+    - ev-e3c9e1a39bcc2dd6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生或人工边界在哪。
+    evidence_ids:
+    - ev-e3c9e1a39bcc2dd6
+  next_validation: 收集 Demoverse 官方产品页或文档，确认其输入材料、AI 执行动作与最终交付物。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or work step, so who handles what material to finish
+    which task cannot be confirmed.
+  pain: 材料未描述任何具体痛点，只能推测产品定义环节存在沟通与返工成本，这属于推断。
+  pain_en: No concrete pain is described; any friction in product definition is only an inference.
+  current_alternative: 材料未提及现有替代方式，无法判断旧做法是什么。
+  current_alternative_en: No current alternative is mentioned, so the old way of working cannot be identified.
+  usage_reason: 缺少产品能力、输入输出与替代对象的任何细节，无法解释用户为何会选择它，也无法与旧做法比较。
+  usage_reason_en: With no detail on capability, inputs, outputs or the replaced alternative, there is
+    no way to explain why a user would choose it over the old way.
+- id: req-full-lumikai-leads-600000-funding-round-in-ai-product-co-creation-2026-09-23
+  project_slug: lumikai-leads-600000-funding-round-in-ai-product-co-creation
+  level: full
+  reviewed_at: '2026-09-23T01:11:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决时尚品牌在投产前拿不到真实需求信号、只能事后打折清库存的痛点，2023 年行业最多 50 亿件未售出服装说明痛点刚性；消费者用 AI 改造品牌概念、被采用后获版税，交付路径可确定。这是基于公开事实的工作流结构推理，尚无采用数据。
+    evidence_ids:
+    - ev-a30624dda4a86136
+    - ev-4c8a68f6fee39b4f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明品牌可借此预测需求、消费者被采用后获版税，未见任何品牌或消费者实际使用、场景共识或持续采用的证据，无法判断卡在感知还是利益环节。
+    evidence_ids:
+    - ev-a30624dda4a86136
+    - ev-4c8a68f6fee39b4f
+  - gate: model
+    status: insufficient
+    reason: 钱可能来自品牌方按项目或订阅付费，消费者侧以版税分成参与，但公开材料只有 60 万美元 pre-seed 融资，未披露定价、采购或收入路径，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a30624dda4a86136
+    - ev-b79d7263fc3deb2e
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近“投产前验证需求”这一第一性目标，但公开材料未说明 AI 接收什么材料、产出什么交付物、版税如何结算，交付确定性与人工边界无法核对。
+    evidence_ids:
+    - ev-a30624dda4a86136
+    - ev-b79d7263fc3deb2e
+  next_validation: 追踪 Demoverse 官网或品牌合作公告，确认是否有具名品牌客户案例及其公开的投产款式、库存或销售结果。
+  market: ''
+  job: 时尚品牌的产品与设计团队在量产前的概念阶段，把品牌已有的款式概念交给消费者，让消费者用 AI 改造并投票，从消费者提交的版本中挑出值得投产的款式。
+  job_en: A fashion brand's product and design team, at the pre-production concept stage, hands its existing
+    style concepts to consumers, who use AI to redesign and vote, so the brand can pick which consumer-submitted
+    versions to put into production.
+  pain: 公开材料给出的痛点是需求判断发生在生产之后：2023 年行业产生最多 50 亿件未售出服装，品牌靠事后打折清库存，而不是在投产前拿到需求信号（ev-a30624dda4a86136、ev-4c8a68f6fee39b4f）。
+  pain_en: 'The pain stated in public material is that demand is judged after production: up to 5 billion
+    unsold garments were made in 2023, and brands clear them through markdowns instead of getting a demand
+    signal before committing to production (ev-a30624dda4a86136, ev-4c8a68f6fee39b4f).'
+  current_alternative: 旧做法是品牌内部设计团队凭经验定款、按预测下单，卖不动再打折清库存；消费者一侧则没有参与品牌款式的常规渠道，只能被动等成品上架。
+  current_alternative_en: The old way is for the brand's in-house design team to pick styles by judgment
+    and order against a forecast, then discount what does not sell; consumers have no regular channel
+    to shape brand styles and only see finished goods.
+  usage_reason: 推断：相较内部定款加事后打折，Demoverse 把消费者改造版本变成投产前的需求信号，品牌据此减少押注错款的库存；消费者则因被采用的创意可获得产品商业化后的版税（ev-a30624dda4a86136、ev-4c8a68f6fee39b4f）而愿意提交方案。公开材料未披露具体输入材料与交付物形态，也未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus in-house style picking plus post-hoc markdowns, Demoverse turns
+    consumer redesigns into a pre-production demand signal so brands place fewer wrong bets; consumers
+    submit because adopted ideas earn royalties when the product is commercialised (ev-a30624dda4a86136,
+    ev-4c8a68f6fee39b4f). Public material does not disclose the exact inputs or deliverable form, and
+    shows no retention or repeat-use evidence.'

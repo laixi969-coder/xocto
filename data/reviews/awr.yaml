@@ -81,3 +81,44 @@
     action, it could remove the step of developers maintaining state reads and writes themselves; however,
     public material does not describe the mechanism or delivered result, so it is not yet confirmed that
     users would choose it for this reason.'
+- id: req-full-awr-2026-09-23
+  project_slug: awr
+  level: full
+  reviewed_at: '2026-09-23T01:09:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决长任务代理的状态与上下文管理需求，痛点方向可推理，但公开材料未说明具体动作、输入与交付结果，价值结构无法确认。
+    evidence_ids:
+    - ev-07c58686bcd865b7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方仓库 README 与 issue/discussion，确认状态持久化的具体机制、接入方式与是否有外部项目实际采用。
+  market: ''
+  job: 开发者构建跨多轮、长时间运行的 AI 代理时，处理代理产生的中间状态与上下文材料，让代理在后续步骤继续任务而不丢失进度。
+  job_en: Developers building AI agents that run across many turns and long durations handle intermediate
+    state and context material so the agent can continue a task in later steps without losing progress.
+  pain: 长任务代理每轮重新拼装上下文，状态易丢失或重复计算，导致任务中断与成本上升；但公开材料未给出任何用户抱怨、workaround 或采用行为来支撑这一痛点。
+  pain_en: Long-task agents reassemble context each turn, so state is easily lost or recomputed, causing
+    task breaks and higher cost; however, public material provides no user complaints, workarounds, or
+    adoption behavior to support this pain.
+  current_alternative: 开发者自行用数据库、文件或框架自带记忆模块拼接状态管理。
+  current_alternative_en: Developers assemble their own state management using databases, files, or built-in
+    memory modules of frameworks.
+  usage_reason: 推断：若它把状态持久化与最小上下文作为独立动作交给代理调用，可省去开发者自行维护状态读写这一步；但公开材料未说明具体机制、接入方式与交付结果，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if it hands persistent state and minimal context to the agent as a separate
+    action, it could remove the step of developers maintaining state reads and writes themselves; however,
+    public material does not describe the mechanism, integration, or delivered result, so it is not confirmed
+    which users would choose it for this reason.'

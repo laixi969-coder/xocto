@@ -1,6 +1,6 @@
 ---
 slug: techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-s
-name: 'TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage'
+name: Hello Robot
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for 
   a second pass at 50% off.
 first_seen: '2026-09-22T14:30:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage
+# Hello Robot
 
 Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.
 

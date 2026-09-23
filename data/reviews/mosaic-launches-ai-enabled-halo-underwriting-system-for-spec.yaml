@@ -1,0 +1,87 @@
+- id: req-initial-mosaic-launches-ai-enabled-halo-underwriting-system-for-spec-2026-09-23
+  project_slug: mosaic-launches-ai-enabled-halo-underwriting-system-for-spec
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是专业险核保逐份读材料、结论不一致的问题，痛点结构成立，但公开材料未说明 AI 具体替代哪一步、交付什么，价值强度无法确认。
+    evidence_ids:
+    - ev-db63fb1d6f817b41
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布公告，没有客户名单、采用规模或核保人员反馈，无法判断买方是否已认可这一做法。
+    evidence_ids:
+    - ev-db63fb1d6f817b41
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价，也未说明买方是保险公司还是项目业务管理方，付费路径不明。
+    evidence_ids:
+    - ev-db63fb1d6f817b41
+  - gate: truth
+    status: insufficient
+    reason: 承保结论涉及合规与赔付责任，公开材料未说明人工复核边界与出错后的责任归属，确定性交付无法核对。
+    evidence_ids:
+    - ev-db63fb1d6f817b41
+  next_validation: 收集 Mosaic 官方 HALO 产品页或新闻稿全文，确认其披露的核保输入字段、输出结论形式、人工复核环节与定价方式。
+  market: ''
+  job: 保险公司的核保人员在受理中小企业专业险项目业务时，需要阅读投保单、风险问卷与历史赔付材料，判断是否承保并给出条件。
+  job_en: Underwriters at insurers handling specialty SME program business read submissions, risk questionnaires
+    and loss history to decide whether to write the risk and on what terms.
+  pain: 专业险材料零散、非标准，核保依赖个人经验，逐份处理耗时且结论一致性难保证；这是从保险核保这一旧工作流推导的判断，公开材料未提供用户抱怨或耗时数据。
+  pain_en: Specialty submissions are scattered and non-standard, underwriting depends on individual experience,
+    and per-file handling is slow with inconsistent conclusions; this is inferred from the underwriting
+    workflow, as the public material offers no user complaints or time data.
+  current_alternative: 核保员手工阅读材料、凭经验判断，辅以内部核保手册和邮件流转；公开材料未说明 Mosaic 客户此前是否使用其他自动化工具。
+  current_alternative_en: Underwriters read documents manually and judge from experience, supported by
+    internal underwriting manuals and email routing; the public material does not say whether Mosaic customers
+    previously used other automation.
+  usage_reason: 推断：若 HALO 能直接读取投保材料并生成带依据的核保建议，核保员可省去逐份摘录与初步比对这一步，把精力放在例外与定价判断上，因此处理大量同质项目业务的核保团队会考虑它；但公开材料未给出任何客户使用或结果数据，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if HALO reads submissions directly and produces a rationale-backed underwriting
+    recommendation, underwriters could skip manual extraction and first-pass comparison and focus on exceptions
+    and pricing, which is why teams handling large volumes of homogeneous program business might consider
+    it; however, no customer usage or outcome data is public, so this causal claim is unproven.'
+- id: req-full-mosaic-launches-ai-enabled-halo-underwriting-system-for-spec-2026-09-23
+  project_slug: mosaic-launches-ai-enabled-halo-underwriting-system-for-spec
+  level: full
+  reviewed_at: '2026-09-23T01:11:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是专业险核保逐份读材料、结论不一致的问题，痛点结构成立，但公开材料未说明 AI 具体替代哪一步、交付什么，价值强度无法确认。
+    evidence_ids:
+    - ev-629c2ea7c4a8df6d
+    - ev-e38efbe98f4a1723
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Mosaic 官方 HALO 产品页或新闻稿全文，确认其披露的核保输入字段、输出结论形式、人工复核环节与定价方式。
+  market: ''
+  job: 保险公司的核保人员在受理中小企业专业险项目业务时，需要阅读投保单、风险问卷与历史赔付材料，判断是否承保并给出条件。
+  job_en: Underwriters at insurers handling specialty SME program business read submissions, risk questionnaires
+    and loss history to decide whether to write the risk and on what terms.
+  pain: 专业险材料零散、非标准，核保依赖个人经验，逐份处理耗时且结论一致性难保证；这是从核保工作流推导的判断，公开材料未提供用户抱怨或耗时数据。
+  pain_en: Specialty submissions are scattered and non-standard, underwriting depends on individual experience,
+    and per-file handling is slow with inconsistent conclusions; this is inferred from the underwriting
+    workflow, as the public material offers no user complaints or time data.
+  current_alternative: 核保员手工阅读材料、凭经验判断，辅以内部核保手册和邮件流转；公开材料未说明 Mosaic 客户此前是否使用其他自动化工具。
+  current_alternative_en: Underwriters read documents manually and judge from experience, supported by
+    internal underwriting manuals and email routing; the public material does not say whether Mosaic customers
+    previously used other automation.
+  usage_reason: 推断：若 HALO 能直接读取投保材料并生成带依据的核保建议，核保员可省去逐份摘录与初步比对这一步，把精力放在例外与定价判断上；但公开材料未给出任何客户使用或结果数据，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if HALO reads submissions directly and produces a rationale-backed underwriting
+    recommendation, underwriters could skip manual extraction and first-pass comparison and focus on exceptions
+    and pricing; however, no customer usage or outcome data is public, so this causal claim is unproven.'

@@ -242,3 +242,56 @@
     aggregates feeds, applies AI triage, maps to MITRE ATT&CK, and emits Sentinel-ready detection content,
     cutting the per-item reading and rule-translation steps; teams already on Azure Sentinel with many
     feeds are the likeliest adopters.'
+- id: req-full-threatintel-aggregator-2026-09-23
+  project_slug: threatintel-aggregator
+  level: full
+  reviewed_at: '2026-09-23T01:12:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多源威胁情报聚合与分诊需求：分析师面对零散 IOC 与报告，需人工去重、映射 ATT&CK 并转成检测规则，链条长且易滞后。产品以聚合、AI 初筛、ATT&CK 映射和 Sentinel
+      检测产出构成闭环，交付物明确；此为工作流结构推理，尚无用户痛点或案例直接佐证。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 51，说明有开发者关注，但公开材料没有目标分析师的采用、评价或持续使用记录，无法判断共识卡在感知、场景还是利益环节；关注度不等于进入工作流。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+    - ev-9160ed7745176974
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：项目为自托管开源，公开材料未见定价页、付费客户或采购记录，钱可能来自企业自建部署的内部预算或后续商业支持，但 to B 付费路径尚未核验。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺 AI 分诊与 Sentinel 检测产出，但公开材料未给出分诊准确率、误报处理或人工复核边界，交付能否稳定发生缺少可复现证据；安全场景下误判代价高，需实测确认。
+    evidence_ids:
+    - ev-15bb7c5837d9eee1
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否披露部署文档、AI 分诊准确率或 Sentinel 检测产出的实测结果与使用反馈。
+  market: ''
+  job: 安全运营中心或威胁情报分析师在每日值班时，面对多个外部情报源推送的零散 IOC、报告与告警，需要把它们整理、去重、分诊并转成可落地的检测规则，最终产出可对接 Azure Sentinel 的检测内容。
+  job_en: SOC or threat-intelligence analysts on daily shift receive scattered IOCs, reports and alerts
+    from multiple external feeds and must deduplicate, triage and convert them into deployable detection
+    content, ultimately producing Sentinel-ready detections.
+  pain: 公开材料显示痛点在多源情报聚合与分诊环节：情报源分散、条目量大，人工逐条阅读和映射 MITRE ATT&CK 耗时，且从情报到检测规则的转化链条长；不处理的后果是检测覆盖滞后、分析师被低价值条目淹没。这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: 'Public materials point to pain in multi-feed aggregation and triage: feeds are fragmented,
+    item volume is high, manual reading and MITRE ATT&CK mapping is slow, and the path from intel to detection
+    rule is long; leaving it unsolved means lagging detection coverage and analysts drowning in low-value
+    items. This is inferred from product description and workflow structure, not yet corroborated by user
+    complaints or cases.'
+  current_alternative: 旧做法是分析师手动订阅多个情报源，用表格或 SIEM 自带规则逐条比对，再人工编写和测试检测规则；部分团队用商业 TI 平台或自建脚本拼接。公开材料未说明该产品具体替代了哪一套现有流程。
+  current_alternative_en: The old approach is analysts manually subscribing to multiple feeds, cross-checking
+    items in spreadsheets or native SIEM rules, then hand-writing and testing detections; some teams use
+    commercial TI platforms or self-built scripts. Public materials do not state which existing workflow
+    this product replaces.
+  usage_reason: 推断：相较手动逐条阅读与映射，该产品把多源情报聚合、AI 初筛和 MITRE ATT&CK 映射串成一条流水线，并直接产出可对接 Sentinel 的检测内容，减少分析师在去重、分类和规则起草上的手工步骤；因此已在用
+    Azure Sentinel 且人手有限的安全团队，在需要快速把外部情报转成检测覆盖时更可能选择它。尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual item-by-item reading and mapping, the product chains multi-feed
+    aggregation, AI triage and MITRE ATT&CK mapping into one pipeline and emits Sentinel-ready detection
+    content, cutting manual dedup, classification and rule-drafting steps; teams already on Azure Sentinel
+    with limited headcount are therefore more likely to choose it when they need to turn external intel
+    into detection coverage quickly. No user feedback yet confirms this motive.'

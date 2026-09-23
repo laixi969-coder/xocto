@@ -274,3 +274,55 @@
     keyword/semantic retrieval with a local embedding model, removing the steps of restating settings
     and maintaining summaries by hand; creators who need persona consistency across dozens of turns without
     managing memory themselves would choose it.'
+- id: req-full-dsh-nexttavern-2026-09-23
+  project_slug: dsh-nexttavern
+  level: full
+  reviewed_at: '2026-09-23T01:10:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长篇角色扮演中设定与世界书被上下文遗忘、人设崩坏的问题，痛点刚性来自长篇连载不可中断；旧做法是手动粘贴设定与人工摘要。插件以混合检索加本地嵌入维持记忆、多角色 Agent 维持一致性，交付路径可确定，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-a5652bf03ce752b9
+    - ev-f641a3c77c01061d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 67 增至 100，说明开发者社区持续关注并把它加入收藏，但收藏与星标只反映关注度，不能证明目标创作者已把它留在日常写作流程；缺少 issue、discussion 或用户评价说明实际使用场景与持续采用。
+    evidence_ids:
+    - ev-a5652bf03ce752b9
+    - ev-efb75c782a9fd4e4
+  - gate: model
+    status: insufficient
+    reason: 这是开源插件，公开材料未见定价页、赞助、付费插件市场或企业授权路径，谁付钱尚不清楚；按开源惯例可能靠捐赠或生态引流，但这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-a5652bf03ce752b9
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺长篇记忆与多角色一致性，但公开材料未给出可复现的实测、记忆召回准确率或人工确认环节说明；本地嵌入模型与一键安装的实际部署门槛、以及生成内容的边界控制仍缺公开证据。
+    evidence_ids:
+    - ev-f641a3c77c01061d
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认创作者在何种长篇场景下实际使用、替代了哪种旧流程，以及是否出现记忆失效或安装失败的公开反馈。
+  market: ''
+  job: 写长篇角色扮演或互动小说的创作者，在 DeepSeek Harness 里导入 SillyTavern 人物卡或自建角色卡，把设定、世界书与文风预设交给插件，靠长篇记忆与多角色 Agent
+    集群推进多轮剧情，最后导出小说或角色卡。
+  job_en: Writers of long-form roleplay or interactive fiction open this plugin inside DeepSeek Harness,
+    import SillyTavern character cards or author their own, hand over settings, world books and style
+    presets, drive multi-turn plot with long-term memory and a multi-character agent cluster, then export
+    the novel or cards.
+  pain: 长篇角色扮演的核心痛点是上下文窗口耗尽后角色设定、世界书与既有剧情被遗忘，导致人设崩坏、前后矛盾，创作者被迫反复粘贴设定或手动维护记忆；分支剧情与多角色同场时，人工管理成本进一步放大。
+  pain_en: The core pain of long-form roleplay is that once the context window is exhausted, character
+    settings, world books and prior plot are forgotten, causing persona drift and contradictions; writers
+    must repeatedly paste settings or hand-maintain memory, and branch plots with multiple characters
+    amplify the manual overhead.
+  current_alternative: 旧做法是在通用聊天窗口或 SillyTavern 里手动粘贴设定、用关键词触发世界书条目、靠人工摘要压缩历史，或干脆把长篇拆成短会话重开。
+  current_alternative_en: The old way is to paste settings manually into a generic chat window or SillyTavern,
+    trigger world-book entries by keyword, compress history with hand-written summaries, or split long
+    stories into short restarted sessions.
+  usage_reason: 推断：相较手动粘贴与人工摘要，它把关键词加语义混合检索与本地嵌入模型接进记忆层，让相关设定在需要时自动回到上下文，并用多角色 Agent 集群维持同场角色一致性，因此被上下文长度卡住的长篇创作者会在续写或分支剧情时选择它；公开材料尚未给出留存或复购证据。
+  usage_reason_en: 'Inference: versus manual pasting and hand-written summaries, it wires hybrid keyword-plus-semantic
+    retrieval and a local embedding model into the memory layer so relevant settings return to context
+    when needed, and uses a multi-character agent cluster to keep co-present characters consistent; long-form
+    writers blocked by context limits would therefore pick it when continuing or branching a story. Public
+    materials do not yet show retention or repeat-use evidence.'

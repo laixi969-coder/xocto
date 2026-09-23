@@ -1,0 +1,92 @@
+- id: req-initial-soteris-unveils-ai-tool-to-flag-losing-policies-2026-09-23
+  project_slug: soteris-unveils-ai-tool-to-flag-losing-policies
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决承保阶段识别亏损保单的需求，痛点存在，但公开材料只有一句功能描述，无法还原输入数据与判断依据。
+    evidence_ids:
+    - ev-c1c2abc5d0c1cdb2
+  - gate: consensus
+    status: insufficient
+    reason: 没有客户、采用或行业采购信息，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-c1c2abc5d0c1cdb2
+  - gate: model
+    status: insufficient
+    reason: 买方应为保险公司，但定价与收费方式未披露，属推断。
+    evidence_ids:
+    - ev-c1c2abc5d0c1cdb2
+  - gate: truth
+    status: insufficient
+    reason: 模型准确率、误判后果与人工复核边界均无公开材料，交付确定性不可核对。
+    evidence_ids:
+    - ev-c1c2abc5d0c1cdb2
+  next_validation: 收集 Soteris 官方产品页或保险行业报道中的客户案例，核验其数据来源、判断依据与部署方式。
+  market: ''
+  job: 保险公司承保与定价人员在核保新单或复核存量保单时，需要判断哪些保单可能长期亏损，处理的是投保信息与历史赔付数据，要完成的是承保决策与定价调整。
+  job_en: Underwriting and pricing staff at insurers, when reviewing new submissions or re-checking existing
+    policies, need to judge which policies may lose money over time, working from application information
+    and historical claims data to make underwriting and pricing decisions.
+  pain: 亏损保单往往在赔付发生后才被发现，人工经验难以在承保阶段识别，导致长期承保亏损。
+  pain_en: Losing policies are often discovered only after claims occur, and human experience struggles
+    to spot them at the underwriting stage, leading to sustained underwriting losses.
+  current_alternative: 目前多依赖核保人经验、历史赔付报表和内部评分卡，定期复盘亏损保单。
+  current_alternative_en: Today this relies mainly on underwriter experience, historical claims reports
+    and internal scorecards, with periodic reviews of losing policies.
+  usage_reason: 相较事后复盘与人工评分卡，它在承保阶段直接标记可能亏损的保单，把识别提前到决策发生之前，因此承保亏损压力大的保险公司会关注它；但公开材料只有一句功能描述，缺少数据来源、准确率与客户案例，此判断为推断。
+  usage_reason_en: Compared with after-the-fact reviews and manual scorecards, it flags potentially losing
+    policies at the underwriting stage, moving detection ahead of the decision, so insurers under underwriting-loss
+    pressure would pay attention; but public material is a single functional description lacking data
+    sources, accuracy and customer cases, so this is inference.
+- id: req-full-soteris-unveils-ai-tool-to-flag-losing-policies-2026-09-23
+  project_slug: soteris-unveils-ai-tool-to-flag-losing-policies
+  level: full
+  reviewed_at: '2026-09-23T01:12:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决承保阶段识别长期亏损保单的需求，痛点是亏损往往赔付后才暴露、经验与评分卡难以事前区分，不解决则承保结果持续为负；公开材料仅一句功能描述，输入数据与判断依据未披露，故为工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-c1c2abc5d0c1cdb2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品发布描述，没有客户案例、采用数据或行业采购记录，无法判断共识卡在感知、场景还是利益环节，也无法确认核保团队是否已把它纳入日常流程。
+    evidence_ids:
+    - ev-c1c2abc5d0c1cdb2
+  - gate: model
+    status: insufficient
+    reason: 买方应为保险公司承保或风控部门，属推断；公开材料未披露定价页、收费方式或按保单计费的线索，也未说明是软件订阅还是按调用付费，付费路径尚未核验。
+    evidence_ids:
+    - ev-c1c2abc5d0c1cdb2
+  - gate: truth
+    status: insufficient
+    reason: 模型准确率、误判导致的错误拒保后果、人工复核边界与部署方式均无公开材料，交付能否确定性发生不可核对，也未说明是否贴近核保第一性目标。
+    evidence_ids:
+    - ev-c1c2abc5d0c1cdb2
+  next_validation: 追踪 Soteris 官方产品页或保险行业报道中的客户案例与部署文档，核验其数据来源、判断依据、准确率口径与部署方式。
+  market: ''
+  job: 保险公司承保与定价人员在核保新单或复核存量保单时，处理投保信息、历史赔付与内部评分数据，要完成的任务是在承保决策发生前判断哪些保单可能长期亏损并据此调整承保与定价。
+  job_en: Underwriting and pricing staff at insurers, when reviewing new submissions or re-checking existing
+    policies, work from application information, historical claims and internal scorecard data to judge
+    which policies may lose money over time and adjust underwriting and pricing decisions before the decision
+    is made.
+  pain: 亏损保单通常在赔付发生后才被识别，核保人经验与内部评分卡难以在承保阶段区分长期亏损风险，导致承保结果持续为负。
+  pain_en: Losing policies are usually identified only after claims occur; underwriter experience and
+    internal scorecards struggle to separate long-term loss risk at the underwriting stage, leaving underwriting
+    results persistently negative.
+  current_alternative: 目前主要依赖核保人经验、历史赔付报表与内部评分卡，并定期复盘已出险保单来事后修正承保策略。
+  current_alternative_en: Today this relies mainly on underwriter experience, historical claims reports
+    and internal scorecards, with periodic after-the-fact reviews of policies that have already produced
+    claims.
+  usage_reason: 相较事后复盘与人工评分卡，该工具在承保环节直接标记可能亏损的保单，把识别动作从赔付后提前到决策前，减少事后修正的返工；承保亏损压力大的保险公司核保与定价团队会在评估新单或存量保单时选择它。公开材料仅一句功能描述，缺少数据来源、准确率与客户案例，此因果为工作流结构推理。
+  usage_reason_en: Compared with after-the-fact reviews and manual scorecards, the tool flags potentially
+    losing policies inside the underwriting step, moving detection from post-claims to pre-decision and
+    cutting rework; underwriting and pricing teams at insurers under loss pressure would choose it when
+    assessing new or existing business. Public material is a single functional description lacking data
+    sources, accuracy and customer cases, so this causal chain is workflow-structure inference.

@@ -1,0 +1,90 @@
+- id: req-initial-aireterag-2026-09-23
+  project_slug: aireterag
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决规则判定缺少可审计理由的问题，痛点具体，但公开材料只有一句机制描述，无法确认输入、交付与不采用的后果。
+    evidence_ids:
+    - ev-10867a1412f023da
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 34 点、2 条评论，属于关注度信号，不能说明任何团队已把它放进工作流。
+    evidence_ids:
+    - ev-10867a1412f023da
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，to B 或 to VC 的付费路径均无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-10867a1412f023da
+  - gate: truth
+    status: insufficient
+    reason: 无法核对解释是否忠实于规则、是否有人工确认边界，承诺的确定性交付尚未被材料支持。
+    evidence_ids:
+    - ev-10867a1412f023da
+  next_validation: 收集该项目的官方文档或仓库 README，确认规则输入格式、解释生成方式与部署要求。
+  market: ''
+  job: 规则与合规工程师在维护业务规则库、需要为每条自动判定留下可审计理由时，把已有规则和判定请求交给它，产出带解释的决策结果。
+  job_en: Rules and compliance engineers maintaining a business rule base, who need an auditable reason
+    for every automated decision, feed existing rules and decision requests into it to obtain an explained
+    decision result.
+  pain: 规则引擎的判定结果本身不解释原因，人工补写理由耗时且容易与规则不一致；纯大模型判定又难以对账。
+  pain_en: Rule-engine decisions do not explain themselves, so writing the rationale by hand is slow and
+    easily drifts from the rules, while pure LLM decisions are hard to audit.
+  current_alternative: 现有做法是规则引擎输出结果后由人工撰写说明，或直接用大模型生成判定并人工复核。
+  current_alternative_en: Today teams either have a rule engine emit the result and write the explanation
+    manually, or let an LLM decide and review it by hand.
+  usage_reason: 推断：相较人工补写说明，它把解释生成绑定到同一条规则判定上，减少单独撰写理由这一步，并让理由与规则可对照；需要留痕的合规判定场景会因此选择它。目前缺少客户案例与重复使用证据。
+  usage_reason_en: 'Inference: compared with manually writing explanations, it binds explanation generation
+    to the same rule decision, removing a separate writing step and keeping the rationale traceable to
+    the rule; teams needing auditable compliance decisions would choose it for that reason. Customer cases
+    and repeat-use evidence are currently absent.'
+- id: req-full-aireterag-2026-09-23
+  project_slug: aireterag
+  level: full
+  reviewed_at: '2026-09-23T01:09:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决规则判定缺少可审计理由的需求：Rete 引擎出判定、RAG 生成依据，痛点在于人工补写理由耗时且易与规则漂移、纯大模型判定难对账。公开材料仅一句机制描述，输入格式与交付形态未披露，故为工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-10867a1412f023da
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品机制描述，未出现任何团队采用、讨论或把它放进规则维护流程的证据；中文生态检索也未发现相关公开资料，共识层无法成立。
+    evidence_ids:
+    - ev-10867a1412f023da
+    - ev-6c6b159f3ec49f39
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，to B 与 to VC 的付费路径均无法判断；按产品形态推断买方可能是需要合规留痕的企业规则团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-10867a1412f023da
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 RAG 生成的解释是否忠实于 Rete 规则、是否设有人工确认边界，承诺的确定性交付尚未被公开材料支持，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-10867a1412f023da
+  next_validation: 追踪该项目官网或仓库 README/文档，确认规则输入格式、解释生成方式、部署要求与是否披露定价或客户案例。
+  market: ''
+  job: 规则与合规工程师在维护业务规则库、需要为每条自动判定留下可审计理由时，把已有规则和判定请求交给它，产出带解释的决策结果，再由人工确认规则本身是否正确。
+  job_en: Rules and compliance engineers maintaining a business rule base, who need an auditable reason
+    for every automated decision, feed existing rules and decision requests into it to obtain an explained
+    decision result, then manually confirm whether the rules themselves are correct.
+  pain: 规则引擎只输出判定结果、不解释原因，人工补写理由耗时且容易与规则漂移；纯大模型判定又难以对账，合规场景下判定与依据必须可追溯。
+  pain_en: Rule engines emit only the decision, not the reason, so writing the rationale by hand is slow
+    and drifts from the rules; pure LLM decisions are hard to reconcile, yet compliance contexts require
+    the decision and its basis to be traceable.
+  current_alternative: 现有做法是规则引擎输出结果后由人工撰写说明，或直接用大模型生成判定并人工复核。
+  current_alternative_en: Today teams either have a rule engine emit the result and write the explanation
+    manually, or let an LLM decide and review it by hand.
+  usage_reason: 推断：相较人工补写说明，它把解释生成绑定到同一条 Rete 规则判定上，省去单独撰写理由这一步，并让理由与规则可逐条对照；需要留痕的合规判定场景会因此选择它。公开材料尚无客户案例与重复使用证据。
+  usage_reason_en: 'Inference: compared with manually writing explanations, it binds explanation generation
+    to the same Rete rule decision, removing a separate writing step and keeping the rationale traceable
+    rule by rule; teams needing auditable compliance decisions would choose it for that reason. Public
+    material still lacks customer cases and repeat-use evidence.'

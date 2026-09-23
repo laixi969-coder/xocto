@@ -117,3 +117,93 @@
   usage_reason_en: Wisdom sits inside the monitoring, writing, and scheduling environment and uses social
     and brand context, reducing switches to a generic writer. This is workflow reasoning, not usage-rate
     data.
+- id: req-initial-owlywriter-ai-by-hootsuite-2026-09-23
+  project_slug: owlywriter-ai-by-hootsuite
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社媒运营选题枯竭、发帖节奏难维持的需求，痛点有 Hootsuite 自述客户调查支持，交付为草稿与日历，仍需人工确认。
+    evidence_ids:
+    - ev-wisdom-current-official
+    - ev-wisdom-content-ideation-pain
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方页面与旧调查，未找到 Wisdom 自身的用户评价或采用数据，第三方流量测于更宽页面不可归因。
+    evidence_ids:
+    - ev-wisdom-current-official
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，钱可能来自 Hootsuite 现有订阅升级，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-wisdom-current-official
+  - gate: truth
+    status: insufficient
+    reason: 无法核验生成内容是否真被采用、发布结果与人工边界，缺少留存或复购证据。
+    evidence_ids:
+    - ev-wisdom-current-official
+  next_validation: 收集 Hootsuite 官方 Wisdom 定价页或客户案例，确认其计费方式与实际使用结果。
+  market: ''
+  job: 社媒运营在需要持续产出帖子与活动排期时，处理实时社交对话与品牌语气要求，要完成选题、起草帖子和内容日历的任务。
+  job_en: Social media operators, when they must keep producing posts and campaign schedules, work with
+    live social conversations and brand tone requirements to complete topic selection, post drafting and
+    content calendars.
+  pain: Hootsuite 2023 年披露近三分之一受访客户把难以持续想出内容创意列为最大社媒挑战，选题枯竭直接拖慢发布节奏。
+  pain_en: Hootsuite disclosed in 2023 that nearly a third of surveyed customers named difficulty sustaining
+    content ideas as their biggest social media challenge, and idea drought directly slows publishing
+    cadence.
+  current_alternative: 运营人员靠人工刷社交平台、翻历史帖子和凭经验头脑风暴来定选题，再手动写文案和排期。
+  current_alternative_en: Operators manually scroll social platforms, review past posts and brainstorm
+    from experience to pick topics, then hand-write copy and schedules.
+  usage_reason: 相较人工刷平台找选题，Wisdom 直接从实时社交对话中提取趋势并生成符合品牌语气的草稿与日历，省掉从零构思和初稿这一步，因此需要高频发帖、人手有限的社媒团队会在排期前选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with manually scrolling platforms for topics, Wisdom extracts trends from
+    live social conversations and generates on-brand drafts and calendars, removing the from-scratch ideation
+    and first-draft step, so small social teams posting frequently would choose it before scheduling;
+    this is an inference from product capability.
+- id: req-full-owlywriter-ai-by-hootsuite-2026-09-23
+  project_slug: owlywriter-ai-by-hootsuite
+  level: full
+  reviewed_at: '2026-09-23T01:11:44Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 所引证据全部是词典与心理学对“wisdom”一词的定义，与社媒运营选题、发帖排期无关，无法还原用户任务、痛点、替代方式或不采用的后果，需求结构无从成立。
+    evidence_ids:
+    - ev-f922e9e13c16ecb6
+    - ev-ddc53eba122ab39d
+    - ev-ade4aec1fb4a88fe
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Hootsuite 官方 Wisdom（原 OwlyWriter AI）产品页与定价页，确认其功能范围、计费方式与买方结构。
+  market: ''
+  job: 社媒运营在需要持续产出帖子与活动排期时，处理实时社交对话与品牌语气要求，要完成选题、起草帖子和内容日历的任务。
+  job_en: Social media operators, when they must keep producing posts and campaign schedules, work with
+    live social conversations and brand tone requirements to complete topic selection, post drafting and
+    content calendars.
+  pain: 公开证据中没有一条能说明 Wisdom 用户的具体痛点：所引材料全部是关于“wisdom”一词的词典与心理学定义，与社媒运营选题枯竭、发帖节奏难维持无关。
+  pain_en: 'No public evidence describes a concrete pain for Wisdom users: every cited item is a dictionary
+    or psychology definition of the word ''wisdom'', unrelated to social media idea drought or publishing
+    cadence.'
+  current_alternative: 公开材料未提供任何关于社媒运营当前替代方式（人工刷平台、翻历史帖子、手动写文案排期）的可引用事实。
+  current_alternative_en: The public material provides no citable fact about how social media operators
+    currently work around this task (manually scrolling platforms, reviewing past posts, hand-writing
+    copy and schedules).
+  usage_reason: 无法从现有证据推断用户为何选择它：证据链中没有产品功能说明、用户反馈或客户案例，只有词义解释，无法建立任何采用因果。
+  usage_reason_en: 'No usage rationale can be inferred from the available evidence: the evidence chain
+    contains no product description, user feedback or customer case, only word definitions, so no adoption
+    causality can be established.'

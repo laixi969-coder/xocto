@@ -3,27 +3,25 @@ slug: grep
 name: grep
 builder: mohebifar
 category: AI + 开发
-summary_zh: 开发者在排查跨仓库代码用法、寻找可复用实现或为编码智能体准备检索上下文时，打开它输入结构化检索条件，由系统在公开 公开代码仓库 仓库中匹配代码结构并返回结果片段；最终交付是可直接阅读或喂给智能体的代码命中列表，是否可用仍需人工判断。具体检索语法、覆盖范围与交付形式仍待核验。
-inspiration: 趋势：编码智能体的检索习惯正在反向决定工具形态，简单可组合的检索接口比复杂语义工具更容易被智能体调用。切入：可从企业内部私有仓库的代码检索与合规审计环节进入，面向有大量历史代码、需要跨仓库追溯用法的工程团队，按检索量或私有仓库席位收费；公开材料未披露定价。
-summary_en: When developers need to trace how code is used across repositories, find reusable implementations,
-  or prepare retrieval context for a coding agent, they open it, enter a structural query, and the system
-  matches code structures across public public code repository repositories and returns result snippets;
-  the deliverable is a list of code hits for humans or agents, still subject to human judgement. Query
-  syntax, coverage and delivery format remain unverified.
-inspiration_en: 'Trend: coding agents'' retrieval habits are reshaping tool design, and simple composable
-  search interfaces get called more often than heavier semantic tools. Entry point: private-repository
-  code search and compliance auditing for engineering teams with large legacy codebases that need cross-repo
-  usage tracing, sold per query volume or private-repo seats; no public pricing disclosed.'
+summary_zh: 开发者在需要跨公开代码库查找某种代码结构而非文本关键字时打开它，输入结构模式，由系统在公开仓库中检索并返回匹配的代码位置，供人工确认后用于重构或迁移参考；具体检索范围、结果交付形式与是否收费仍待核验。
+inspiration: 趋势：代码检索正从文本匹配走向结构匹配，重构与迁移这类旧手工活开始被工具化。切入：从需要跨仓库找同类写法的迁移或重构团队进入，按检索结果或迁移项目收费，而不是卖通用搜索席位。
+summary_en: Developers open it when they need to find a code structure rather than a text keyword across
+  public repositories; they supply a structural pattern and get back matching code locations for human
+  review before refactoring or migration. The exact search scope, delivery format and pricing remain unverified.
+inspiration_en: 'Trend: code search is moving from text matching to structural matching, turning refactoring
+  and migration work into a toolable step. Entry: start with migration and refactoring teams that must
+  find the same pattern across many repositories, and charge per search result or per migration project
+  rather than per generic search seat.'
 priority_review: false
 project_type: new_application
 industries:
-- 软件开发
+- 软件与信息服务
 industries_en:
-- Software development
+- Software and IT services
 jobs:
-- 软件工程师
+- 代码检索与重构
 jobs_en:
-- Software engineers
+- Code search and refactoring
 regions: []
 regions_en: []
 open_source: false
@@ -32,7 +30,7 @@ canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch

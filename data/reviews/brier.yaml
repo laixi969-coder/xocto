@@ -1,0 +1,86 @@
+- id: req-initial-brier-2026-09-23
+  project_slug: brier
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决预测事后无法追溯、无法统一评分的问题，痛点在于复盘失真；旧做法是手工记录加凭印象复盘，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-ce88df122e86aa05
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库 117 星、8 fork，属于关注度而非持续采用，尚无用户反馈或团队使用证据。
+    evidence_ids:
+    - ev-ce88df122e86aa05
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是研究团队或模型评估方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ce88df122e86aa05
+  - gate: truth
+    status: insufficient
+    reason: 封存与评分逻辑可核验，但预测内容本身仍由模型生成，人工确认环节与误用边界未见说明。
+    evidence_ids:
+    - ev-ce88df122e86aa05
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认封存与评分流程、是否有团队实际用于预测复盘。
+  market: ''
+  job: 做预测或研究的人让 LLM 给出判断后，需要在事后核对当时到底预测了什么，并据此评估该模型或该判断是否可信。
+  job_en: People making forecasts or research need to check afterwards what an LLM actually predicted
+    at the time, and use that to judge whether the model or the call was trustworthy.
+  pain: 预测一旦发生就难以追溯，事后回忆容易自我美化，缺少统一评分标准，导致无法判断模型或判断者的真实水平。
+  pain_en: Once a prediction is made it is hard to trace; hindsight recollection flatters the forecaster
+    and there is no common scoring standard, so real skill cannot be judged.
+  current_alternative: 用聊天记录、笔记或表格手工记录预测，事后凭印象复盘，没有封存机制也没有统一评分。
+  current_alternative_en: Manually logging predictions in chat history, notes or spreadsheets and reviewing
+    them from memory, with no sealing mechanism and no consistent scoring.
+  usage_reason: 相较手工记录，brier 在答案出现前就把预测写入哈希链封存，事后按 proper scoring rules 自动打分，省掉“事后回忆并自行判断对错”这一步，也让评分结果可被第三方核对；推断，做投研或咨询复盘的人会因此选择它。
+  usage_reason_en: Compared with manual logging, brier seals the prediction into a hash chain before the
+    answer exists and scores it automatically with proper scoring rules, removing the step of recalling
+    and self-judging afterwards and making the score third-party checkable; this is an inference about
+    why research or consulting reviewers would choose it.
+- id: req-full-brier-2026-09-23
+  project_slug: brier
+  level: full
+  reviewed_at: '2026-09-23T01:09:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决预测事后无法追溯、无法统一评分的问题，痛点在于复盘失真；旧做法是手工记录加凭印象复盘，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-ce88df122e86aa05
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库 117 星，属于关注度而非持续采用，尚无用户反馈或团队使用证据。
+    evidence_ids:
+    - ev-ce88df122e86aa05
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是研究团队或模型评估方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ce88df122e86aa05
+  - gate: truth
+    status: insufficient
+    reason: 封存与评分逻辑可核验，但预测内容本身仍由模型生成，人工确认环节与误用边界未见说明。
+    evidence_ids:
+    - ev-ce88df122e86aa05
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认封存与评分流程、是否有团队实际用于预测复盘。
+  market: ''
+  job: 做预测或研究的人让 LLM 给出判断后，需要在事后核对当时到底预测了什么，并据此评估该模型或该判断是否可信。
+  job_en: People making forecasts or research need to check afterwards what an LLM actually predicted
+    at the time, and use that to judge whether the model or the call was trustworthy.
+  pain: 预测一旦发生就难以追溯，事后回忆容易自我美化，缺少统一评分标准，导致无法判断模型或判断者的真实水平。
+  pain_en: Once a prediction is made it is hard to trace; hindsight recollection flatters the forecaster
+    and there is no common scoring standard, so real skill cannot be judged.
+  current_alternative: 用聊天记录、笔记或表格手工记录预测，事后凭印象复盘，没有封存机制也没有统一评分。
+  current_alternative_en: Manually logging predictions in chat history, notes or spreadsheets and reviewing
+    them from memory, with no sealing mechanism and no consistent scoring.
+  usage_reason: 相较手工记录，brier 在答案出现前就把预测写入哈希链封存，事后按 proper scoring rules 自动打分，省掉“事后回忆并自行判断对错”这一步，也让评分结果可被第三方核对；推断，做投研或咨询复盘的人会因此选择它。
+  usage_reason_en: Compared with manual logging, brier seals the prediction into a hash chain before the
+    answer exists and scores it automatically with proper scoring rules, removing the step of recalling
+    and self-judging afterwards and making the score third-party checkable; this is an inference about
+    why research or consulting reviewers would choose it.

@@ -120,3 +120,44 @@
   usage_reason: 缺少可归因到该产品的用户反馈或案例，无法解释相较旧做法减少了哪一步负担，因此不能判断用户为何选择它。
   usage_reason_en: With no user feedback or case attributable to this product, there is no basis to explain
     which step it removes versus the old approach or why users would choose it.
+- id: req-full-dynolab-2026-09-23
+  project_slug: dynolab
+  level: full
+  reviewed_at: '2026-09-23T01:10:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决本地可解释性实验的整合问题，但公开材料未给出任何研究者痛点、现有替代或未解决后果，无法确认需求刚性，价值结构不成立。
+    evidence_ids:
+    - ev-33ea2e49c2bec7ac
+    - ev-cb3396ed6ed8b9a1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Dyno Lab 官方仓库或文档中的 issue、discussion 与部署说明，确认是否有研究者公开描述其替代的旧流程与使用场景。
+  market: ''
+  job: AI 安全与可解释性研究者需要在 Apple Silicon 本地机器上对模型激活、探针、稀疏自编码器与干预实验进行探查，并把结果整理成可复现的实验记录。
+  job_en: AI safety and interpretability researchers need to inspect model activations, probes, sparse
+    autoencoders, and interventions on a local Apple Silicon machine and turn the results into reproducible
+    experiment records.
+  pain: 公开材料没有给出任何研究者对现有工具链的抱怨、替代做法或未解决后果，无法确认这项工作存在具体痛点。
+  pain_en: Public materials contain no researcher complaints, workarounds, or unsolved consequences for
+    this workflow, so no concrete pain point can be confirmed.
+  current_alternative: 公开材料未说明研究者目前用什么工具完成激活探查与干预实验，也未说明 Dyno Lab 替代了什么旧流程。
+  current_alternative_en: Public materials do not show what tools researchers currently use for activation
+    inspection and intervention experiments, nor what prior workflow Dyno Lab replaces.
+  usage_reason: 缺少用户反馈或案例，无法说明相较旧做法它减少了哪一步负担或改善了哪项可核对结果；仅凭功能描述不能推断用户选择理由。
+  usage_reason_en: Without user feedback or cases, there is no basis to say which step it removes or which
+    verifiable result it improves versus the old approach; feature descriptions alone cannot establish
+    a usage reason.

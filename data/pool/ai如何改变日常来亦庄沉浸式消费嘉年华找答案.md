@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX1pEeDBqTHhf
 summary: AI如何改变日常？来亦庄“沉浸式消费嘉年华”找答案 搜狐网
 first_seen: '2026-09-22T14:06:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQMi0zVUMzY0JK
 summary: AI订单怎样穿透利润表？深南电路给出了一份电子产业链样本 搜狐网
 first_seen: '2026-09-22T08:07:36Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

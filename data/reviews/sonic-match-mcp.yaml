@@ -177,3 +177,50 @@
     plan, cutting the switching between music site and editor and the manual parameter trial-and-error,
     so solo creators and small post teams under deadline would try it first; no user feedback yet shows
     it is retained long-term in the workflow.'
+- id: req-full-sonic-match-mcp-2026-09-23
+  project_slug: sonic-match-mcp
+  level: full
+  reviewed_at: '2026-09-23T01:12:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决成片配乐选曲、授权核对与混音参数这一具体环节，旧做法是人工试听加手动调参，痛点明确且不采用会有版权与返工代价。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 45 增至 91，属关注度而非采用证据；没有用户评价、客户案例或社区讨论，无法判断剪辑师是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+    - ev-b9fd5ecf365650d4
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是个人创作者或后期团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  - gate: truth
+    status: insufficient
+    reason: 可商用授权曲库的来源与匹配准确度未说明，若授权不实或匹配偏差大，交付确定性会打折。
+    evidence_ids:
+    - ev-087ebd067bd2cff7
+  next_validation: 收集该仓库的 README 与 issue/discussion，核验其音乐授权来源、匹配准确度说明以及是否有真实剪辑工作流的使用反馈。
+  market: ''
+  job: 短视频剪辑师或内容运营在成片后期，面对一段已剪好的视频素材，需要选出可商用授权的背景音乐、确定开场钩子时间窗，并拿到可直接执行的 ffmpeg 混音与压低人声参数。
+  job_en: A short-video editor or content operator in post-production, holding a finished cut, needs to
+    pick license-safe background music, decide the opening hook window, and obtain directly executable
+    ffmpeg mixing and ducking parameters.
+  pain: 公开材料显示该工具针对的是配乐选曲、授权核对与混音参数三个环节；旧做法要反复试听、逐条核对授权、凭经验调音量包络，返工多且存在版权风险。这是从产品能力与旧流程推导的结构性痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: 'Public material shows the tool targets three steps: music selection, license checking and
+    mixing parameters; the old way means repeated auditioning, per-track license checks and experience-based
+    volume envelopes, causing rework and copyright risk. This is a structural pain inferred from product
+    capability and the old workflow, not yet backed by user complaints or cases.'
+  current_alternative: 在曲库网站手动搜索试听，人工核对授权条款，再在剪辑软件里手动对齐节拍、设置音量包络和压低人声。
+  current_alternative_en: Manually searching and auditioning on stock music sites, checking license terms
+    by hand, then aligning beats, setting volume envelopes and ducking vocals manually in an editor.
+  usage_reason: 推断：相较旧做法，它把试听筛选、授权核对和混音参数计算合并为一次调用，剪辑师不必在曲库与剪辑软件间来回切换，直接得到可执行的配乐方案，因此赶片期的独立创作者和小型后期团队会优先试用；但尚无用户反馈证明其已长期留在工作流中。
+  usage_reason_en: 'Inference: versus the old way, it merges auditioning, license checking and mixing-parameter
+    calculation into one call, so editors stop switching between a music site and an editor and get an
+    executable plan, which is why solo creators and small post teams would try it under deadline; no user
+    feedback yet shows it staying in the workflow long term.'

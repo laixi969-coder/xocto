@@ -500,3 +500,59 @@
     the burden of rebuilding the formalization themselves and yielding a checkable pass/fail result; researchers
     and formalization engineers who value reproducible verification would therefore choose it when checking
     such results. The star count rising from 1,928 to 1,973 only indicates attention,'
+- id: req-full-navierstokesandeuler-2026-09-23
+  project_slug: navierstokesandeuler
+  level: full
+  reviewed_at: '2026-09-23T01:11:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是论文证明无法被独立机器复核的需求：人工重推长推导易错、审稿人难以重跑。仓库公开提供随 Navier-Stokes 与 Euler 结果发布的 Lean 证书，交付物是 Lean
+      可检查的证书文件，通过或失败可确定发生；这是工作流结构推理，尚无用户反馈或案例佐证痛点强度。
+    evidence_ids:
+    - ev-755f709bdedf0ea9
+    - ev-2e22bc44a3bf3d42
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 1,938 增至 1,982，说明数学与形式化验证社区持续关注；但公开材料没有 issue、discussion、复现记录或客户案例，无法证明目标用户已把它纳入日常核验流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-755f709bdedf0ea9
+    - ev-0b920e56a749076b
+    - ev-f15c41879133c185
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：仓库未公开定价页、许可条款或采购记录，钱可能来自研究机构、基金会资助或 OpenAI 内部研究投入，to B/to G 付费路径均未在公开材料中出现，也无收入或单位经济数据。
+    evidence_ids:
+    - ev-755f709bdedf0ea9
+  - gate: truth
+    status: insufficient
+    reason: 公开事实只说明仓库随结果发布 Lean 证书，未说明证书覆盖哪些定理、与哪篇论文对应、Lean 版本与依赖如何固定，也未给出可复现的检查日志；因此机器检查能否稳定复现、人工判断边界在哪，仍缺公开证据。
+    evidence_ids:
+    - ev-755f709bdedf0ea9
+    - ev-2e22bc44a3bf3d42
+  next_validation: 追踪该仓库的 README、release 与 issue/discussion，确认 Lean 证书与具体论文结果的对应清单、Lean 版本与依赖固定方式，以及是否公开可复现的检查日志或第三方复现记录。
+  market: ''
+  job: 数学研究者与形式化验证工程师在论文结果（Navier-Stokes 与 Euler 方程相关结论）发布后，打开该仓库，把随结果一同发布的 Lean 证书文件交给 Lean 证明助手，逐条检查推导步骤，得到机器可复核的通过或失败结果，再自行判断其数学含义。
+  job_en: Mathematics researchers and formal verification engineers open this repository after results
+    on Navier-Stokes and Euler equations are published, feed the accompanying Lean certificate files into
+    the Lean proof assistant, check the derivation steps one by one, obtain a machine-checkable pass or
+    fail result, and then interpret its mathematical meaning themselves.
+  pain: 公开事实显示该仓库提供随论文结果发布的 Lean 证书，说明其针对的是人工复核长推导易出错、审稿人无法独立重跑证明的痛点；但公开材料未给出错误率、复核耗时或误判后果的量化数据，痛点强度属工作流结构推理。
+  pain_en: Public facts show the repository ships Lean certificates alongside published results, targeting
+    the pain that manual re-checking of long derivations is error-prone and referees cannot independently
+    re-run a proof; however, no public data quantifies error rates, review time, or consequences of mistakes,
+    so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是读者与审稿人依靠纸笔、个人推导和同行信任来复核论文中的证明，没有可执行的机器检查环节；该仓库把证书与结果一起发布，使复核从人工阅读变为可运行的 Lean
+    检查。
+  current_alternative_en: The prior approach is readers and referees re-deriving proofs by hand and relying
+    on peer trust, with no executable machine check; this repository publishes certificates with the results,
+    turning review from manual reading into a runnable Lean check.
+  usage_reason: 推断：相较逐行人工重推，用户运行 Lean 对证书做机器检查，可把“证明是否按步骤成立”这一步从人工阅读中剥离出来，得到可复核的通过或失败；因此关注 PDE 与流体力学形式化的研究者、以及需要独立核验的审稿或验证工程师，会在结果发布后选择它。仓库收藏数从
+    1,938 增至 1,982 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: instead of re-deriving line by line by hand, users run Lean to machine-check
+    the certificates, removing the ''does the proof hold step by step'' burden from manual reading and
+    yielding a checkable pass or fail; hence researchers working on PDE and fluid formalization, and referees
+    or verification engineers needing independent checks, would choose it after results are published.
+    The star count rising from 1,938 to 1,982 indicates attention, not sustained use.'

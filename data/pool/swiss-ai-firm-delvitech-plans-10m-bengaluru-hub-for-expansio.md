@@ -1,6 +1,6 @@
 ---
 slug: swiss-ai-firm-delvitech-plans-10m-bengaluru-hub-for-expansio
-name: Swiss AI Firm DelviTech Plans $10M Bengaluru Hub for Expansion
+name: DelviTech
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxQb3NyanFIeVJn
 summary: Swiss AI Firm DelviTech Plans $10M Bengaluru Hub for Expansion Asia Business Outlook
 first_seen: '2026-09-22T03:53:13Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Swiss AI Firm DelviTech Plans $10M Bengaluru Hub for Expansion
+# DelviTech
 
 Swiss AI Firm DelviTech Plans $10M Bengaluru Hub for Expansion Asia Business Outlook
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVE9FNno1WW00
 summary: SunCar Technology Reports First Half 2026 Financial Results manilatimes.net
 first_seen: '2026-09-22T20:41:09Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

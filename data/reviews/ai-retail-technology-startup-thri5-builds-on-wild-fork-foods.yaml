@@ -1,0 +1,84 @@
+- id: req-initial-ai-retail-technology-startup-thri5-builds-on-wild-fork-foods-2026-09-23
+  project_slug: ai-retail-technology-startup-thri5-builds-on-wild-fork-foods
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决零售补货与损耗判断，但材料未说明具体用户任务、输入与交付，连痛点都只能推断，价值关证据不足。
+    evidence_ids:
+    - ev-8451d88a562e4191
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一家试点客户与融资消息，没有公开采用规模或持续使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-8451d88a562e4191
+  - gate: model
+    status: insufficient
+    reason: 买方推断为连锁零售商，但无定价页、无付费或采购证据，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-8451d88a562e4191
+  - gate: truth
+    status: insufficient
+    reason: 无法核对产品是否贴近该工作的第一性目标、承诺能否确定性交付，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-8451d88a562e4191
+  next_validation: 收集 Thri5 官方产品页或 Wild Fork Foods 试点公开案例，确认其具体处理的零售环节、输入数据与交付结果。
+  market: ''
+  job: 零售商的品类或门店运营人员，在生鲜与冷冻食品这类高损耗品类上，依据销售与库存数据决定补什么货、补多少，以避免缺货和报损。
+  job_en: A retailer's category or store operations staff deciding what and how much to replenish in high-shrink
+    fresh and frozen categories, using sales and inventory data to avoid stockouts and write-offs.
+  pain: 公开材料未说明 Thri5 具体解决哪一步痛点，只能推断高损耗品类的补货与报损判断依赖人工经验、误差代价高；这一推断缺少材料支持。
+  pain_en: Public material does not state which step Thri5 addresses; it can only be inferred that replenishment
+    and shrink decisions in high-shrink categories rely on manual judgment with costly errors, and this
+    inference lacks supporting material.
+  current_alternative: 旧做法推断为门店人员凭经验或电子表格手工补货，但候选材料未提供任何关于现有替代方式的描述。
+  current_alternative_en: The prior approach is inferred to be manual, experience- or spreadsheet-based
+    replenishment, but the candidate material provides no description of existing alternatives.
+  usage_reason: 无法判断：材料只给出融资额与试点客户名称，未说明产品通过什么动作减少哪一步负担，因此不能解释零售商为何选择它。
+  usage_reason_en: 'Cannot be judged: the material gives only a funding amount and a pilot customer name,
+    not what action the product takes to remove which step of effort, so it cannot explain why a retailer
+    would choose it.'
+- id: req-full-ai-retail-technology-startup-thri5-builds-on-wild-fork-foods-2026-09-23
+  project_slug: ai-retail-technology-startup-thri5-builds-on-wild-fork-foods
+  level: full
+  reviewed_at: '2026-09-23T01:09:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅称其为零售 AI 公司并与 Wild Fork Foods 试点，未说明谁在哪个门店环节使用、输入什么数据、输出什么交付物，连要解决的需求与痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-8451d88a562e4191
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Thri5 官网产品页与 Wild Fork Foods 公开案例或新闻稿，确认其处理的具体零售环节、输入数据与交付结果。
+  market: ''
+  job: 公开材料未披露具体使用者与环节；只能推断为连锁食品零售商的品类或门店运营人员，在生鲜冷冻等高损耗品类上，依据销售与库存数据决定补什么货、补多少，以避免缺货与报损。
+  job_en: Public material does not disclose the specific user or step; it can only be inferred as a category
+    or store operations person at a food retail chain deciding what and how much to replenish in high-shrink
+    fresh and frozen categories, using sales and inventory data to avoid stockouts and write-offs.
+  pain: 材料只说明 Thri5 是零售 AI 公司并与 Wild Fork Foods 做过试点，未说明 AI 接收什么数据、输出什么交付物，因此连它缓解哪一步痛点都无法写出，只能推断高损耗品类补货依赖人工经验。
+  pain_en: The material only says Thri5 is a retail AI company that ran a pilot with Wild Fork Foods;
+    it does not state what data the AI takes in or what it delivers, so even which pain point it eases
+    cannot be written, only inferred as manual judgment in high-shrink replenishment.
+  current_alternative: 候选材料未提供任何关于现有替代方式的描述，旧做法只能推断为门店人员凭经验或电子表格手工补货。
+  current_alternative_en: The candidate material provides no description of existing alternatives; the
+    prior approach can only be inferred as manual, experience- or spreadsheet-based replenishment.
+  usage_reason: 无法判断：材料只给出 540 万美元种子轮与试点客户名称，未说明产品通过什么具体动作减少哪一步负担，因此不能解释零售商为何选择它；这是缺口，不是推断结论。
+  usage_reason_en: 'Cannot be judged: the material gives only a $5.4M seed round and a pilot customer
+    name, not what concrete action the product takes to remove which step of effort, so it cannot explain
+    why a retailer would choose it; this is a gap, not an inferred conclusion.'

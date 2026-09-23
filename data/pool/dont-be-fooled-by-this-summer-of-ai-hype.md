@@ -24,7 +24,7 @@ summary: It’s been a busy few months for AI hype. At the end of April, Anthrop
   similar incidents involving their models. This was followed…
 first_seen: '2026-09-22T11:04:51Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

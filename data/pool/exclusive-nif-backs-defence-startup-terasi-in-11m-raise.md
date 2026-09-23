@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/exclusive-nif-backs-defence-startup-te
 summary: ''
 first_seen: '2026-09-22T13:33:38Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

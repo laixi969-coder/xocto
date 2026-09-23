@@ -490,3 +490,46 @@
   usage_reason: 无法说明用户为何选择它：现有证据与产品功能无任何语义关联，既无用户反馈也无客户案例支持采用动机。
   usage_reason_en: 'No reason for adoption can be stated: the evidence has no semantic link to the product,
     and neither user feedback nor customer cases support an adoption motive.'
+- id: req-full-qanat-2026-09-23
+  project_slug: qanat
+  level: full
+  reviewed_at: '2026-09-23T01:12:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称把 alpha 因子构建与回测编排为 DAG 并由 agent 执行，但公开证据全是古代坎儿井灌溉条目，与量化研究无关；既写不出用户具体痛点，也写不出不解决的后果与现有替代，价值结构无法成立。
+    evidence_ids:
+    - ev-aa7ce05cee3d39f2
+    - ev-0caa8500637f4ce2
+    - ev-b4a080c94ae2df66
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/fidetolabs/qanat 的 README、issue 与 discussion，确认是否有量化研究员描述具体因子回测流程、替代的旧工具及实际使用反馈。
+  market: ''
+  job: 量化研究员或投资组合经理在需要构建并回测 alpha 因子时，把因子计算、数据读取、回测与评估等步骤编排成 DAG，交由 AI agent 逐节点执行，最终得到可复现的回测结果。
+  job_en: A quantitative researcher or portfolio manager building and backtesting alpha factors arranges
+    factor computation, data loading, backtesting and evaluation into a DAG executed node-by-node by an
+    AI agent, aiming at a reproducible backtest result.
+  pain: 公开材料没有记录任何量化研究员在因子构建与回测中的具体痛点、发生频率或不解决的后果；现有证据全部是关于古代伊朗坎儿井灌溉系统的百科条目，与量化工作无关。
+  pain_en: Public materials record no concrete pain, frequency or consequence for quantitative researchers
+    in factor construction and backtesting; all available evidence consists of encyclopedia entries about
+    ancient Persian qanat irrigation, unrelated to quantitative work.
+  current_alternative: 公开材料未说明用户目前用什么方式完成因子构建与回测，也未说明该产品替代了哪套旧流程（如自建脚本、Notebook 或既有回测框架）。
+  current_alternative_en: Public materials do not show how users currently build and backtest factors,
+    nor which prior workflow (custom scripts, notebooks, existing backtest frameworks) this product replaces.
+  usage_reason: 无法给出因果解释：现有证据只有仓库描述与 241 个 star，属于关注度而非使用动机，缺少用户反馈或案例说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'No causal explanation is possible: the only evidence is a repository description and
+    241 stars, which is attention rather than motivation, with no user feedback or case showing which
+    step it removes versus the old approach.'

@@ -129,3 +129,54 @@
     verification steps and claims a reversible install, cutting the engineer''s effort in localizing failures,
     reworking, and restoring the environment; Codex users who value reviewability and rollback would therefore
     pick it for mid-sized changes. Stars rising from 245 to 454 shows attention, not sustained use.'
+- id: req-full-astra-flash-orchestrator-2026-09-23
+  project_slug: astra-flash-orchestrator
+  level: full
+  reviewed_at: '2026-09-23T01:09:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码任务先规划审查再分阶段执行并带验证与可回滚安装的需求；痛点是单模型直写难分阶段验证、回退不确定，不解决的后果是返工。这是基于产品能力与工作流结构的推理，尚无用户抱怨或案例直接佐证。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 245 增至 597，说明关注度在上升，但收藏属于规模与关注度证据，不能解释用户为何选择它，也不能证明持续使用；缺少 issue、discussion 或使用反馈说明谁在何种场景反复调用。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+    - ev-a901126c153359d4
+    - ev-b6710cfd57ee5e75
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、客户案例或采购记录，谁付钱（个人开发者、团队还是企业）无法核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生尚缺可复现证据：没有公开实测说明分阶段计划与验证步骤在真实任务中的完成度，以及人工确认与安全边界如何界定。
+    evidence_ids:
+    - ev-4bed2ea5d7152079
+    - ev-a901126c153359d4
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有开发者公开报告在真实 Codex 编码任务中分阶段计划、验证步骤与可回滚安装的可复现记录。
+  market: ''
+  job: 软件工程师在本地 Codex 环境里接入该仓库后，把一项编码任务交给它：Astra 先拆出分阶段计划并做审查，DeepSeek Flash 按阶段写代码，最后给出带验证步骤的结果，安装过程可回滚。
+  job_en: 'A software engineer wires this repo into a local Codex environment, hands it a coding task:
+    Astra first breaks out a phased plan and reviews it, DeepSeek Flash writes code phase by phase, and
+    the result comes back with verification steps, with a reversible install.'
+  pain: 公开材料指向的痛点是：单模型直接写代码缺少先规划再审查的环节，改动难以分阶段验证，安装与回退也不确定；不解决的后果是返工和难以回滚。这是从产品能力与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The public materials point to an inferred pain: a single model writing code lacks a plan-then-review
+    step, changes are hard to verify phase by phase, and install/rollback is uncertain; the consequence
+    is rework and difficult rollback. No user complaint or case directly confirms this yet.'
+  current_alternative: 旧做法是开发者直接在 Codex 或其他编码 agent 里让单一模型写代码，自己拆任务、自己验证、自己处理安装与回退；这些替代不提供规划与执行分离、分阶段验证和可回滚安装的固定流程。
+  current_alternative_en: The old approach is developers letting a single model write code directly in
+    Codex or another coding agent, splitting tasks, verifying, and handling install and rollback themselves;
+    these do not provide a fixed flow of separated planning and execution, phased verification, and reversible
+    setup.
+  usage_reason: 推断：相较单模型直写，它把任务拆成 Astra 规划审查与 DeepSeek Flash 分阶段构建两步，并附带验证步骤和可回滚安装，减少开发者自己拆任务、逐阶段核对和手工回退这一步；因此已在本地用
+    Codex、希望编码任务有阶段化验证与安全安装的工程师会在处理中等规模改动时选择它。
+  usage_reason_en: 'Inference: versus a single model writing directly, it splits work into Astra planning/review
+    and DeepSeek Flash phased building, with verification steps and reversible install, cutting the developer''s
+    own task-splitting, per-phase checking, and manual rollback step; engineers already using Codex locally
+    who want phased verification and safe installation would pick it for medium-sized changes.'

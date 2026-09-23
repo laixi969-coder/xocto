@@ -1,0 +1,82 @@
+- id: req-initial-pixelcrew-2026-09-23
+  project_slug: pixelcrew
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向设计交付这一真实任务，但材料未写清用户、场景与痛点强度，价值结构无法还原。
+    evidence_ids:
+    - ev-48e51091d27dff8a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，也没有可归因到该产品的采用或客户证据。
+    evidence_ids:
+    - ev-48e51091d27dff8a
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、按席位还是按交付收费，无法判断付费路径。
+    evidence_ids:
+    - ev-48e51091d27dff8a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对产出是否真的可直接上线，也看不到人工确认边界。
+    evidence_ids:
+    - ev-48e51091d27dff8a
+  next_validation: 收集 PixelCrew 官方页面或文档，确认它接收的需求输入、交付物形态与是否公布定价。
+  market: ''
+  job: 产品设计师在需要交付可上线界面时，处理需求与设计规范材料，要完成从需求到可交付设计稿的转换；具体输入与流程材料未说明。
+  job_en: A product designer who must deliver shippable interfaces works on requirements and design specs
+    to turn them into a deliverable design; the specific inputs and process are not stated.
+  pain: 材料未说明现有设计流程的具体痛点，只能推断为反复改稿与交付标准不一致，属推断。
+  pain_en: The material does not state the concrete pain of current design work; repeated revisions and
+    inconsistent delivery standards are only an inference.
+  current_alternative: 现有替代方式未在材料中给出，通常为设计工具加人工评审或外包设计，属推断。
+  current_alternative_en: No current alternative is given; design tools plus human review, or outsourced
+    design, are the usual substitutes, which is an inference.
+  usage_reason: 材料未说明它相较现有设计流程减少了哪一步或改善了哪项可核对结果，无法解释设计师为何选择它。
+  usage_reason_en: The material does not say which step it removes versus current design workflows or
+    which checkable result it improves, so it cannot explain why a designer would choose it.
+- id: req-full-pixelcrew-2026-09-23
+  project_slug: pixelcrew
+  level: full
+  reviewed_at: '2026-09-23T01:11:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向设计交付这一真实任务，但公开材料仅一句定位，未写清用户情境、痛点强度与不解决的后果，价值结构无法还原，属证据不足而非需求不成立。
+    evidence_ids:
+    - ev-48e51091d27dff8a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 PixelCrew 官方产品页或文档，确认它接收的需求输入、交付物形态、是否公布定价与客户案例。
+  market: ''
+  job: 产品设计师在需要交付可上线界面时，处理需求与设计规范材料，要完成从需求到可交付设计稿的转换；公开材料未说明 AI 接收什么输入、产出什么交付物。
+  job_en: A product designer who must ship production-ready interfaces works from requirements and design
+    specs to produce a deliverable design; the public material does not state what inputs the AI receives
+    or what artifact it returns.
+  pain: 公开材料只有一句产品定位，未描述设计师当前流程的具体痛点；反复改稿、交付标准不一致等只能算推断，不能当作事实。
+  pain_en: The only public material is a one-line positioning statement; it does not describe any concrete
+    pain in the designer's current workflow, so revision churn or inconsistent delivery standards remain
+    inference, not fact.
+  current_alternative: 材料未给出当前替代方式；设计工具加人工评审或外包设计只是常规推断，无该项目证据支持。
+  current_alternative_en: No current alternative is given; design tools plus human review, or outsourced
+    design, are only generic inferences without project evidence.
+  usage_reason: 材料未说明它相较旧做法减少哪一步或改善哪项可核对结果，无法解释哪类设计师会在什么情况下选择它；这是缺口，不是选择理由。
+  usage_reason_en: The material does not say which step it removes versus the old workflow or which checkable
+    result it improves, so it cannot explain which designer would choose it and when; that is a gap, not
+    a reason.

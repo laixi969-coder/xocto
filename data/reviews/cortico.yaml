@@ -1,0 +1,82 @@
+- id: req-initial-cortico-2026-09-23
+  project_slug: cortico
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决常驻机器人的人格与事件调度，但公开材料说不出具体用户任务、痛点和不采用的后果，价值关未过。
+    evidence_ids:
+    - ev-113bd4028ede3ad0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，128星与7次复刻只反映关注度，不能说明使用共识。
+    evidence_ids:
+    - ev-113bd4028ede3ad0
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有付费方或收费路径的任何线索。
+    evidence_ids:
+    - ev-113bd4028ede3ad0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，人格一致性与安全边界均无公开说明。
+    evidence_ids:
+    - ev-113bd4028ede3ad0
+  next_validation: 收集该仓库的 README 与议题讨论，核对它面向的具体使用场景、输入输出与是否有真实部署案例。
+  market: ''
+  job: 开发者要为一个需要长期在线、保持固定人格的机器人搭建行为调度，处理持续到来的消息事件，产出可运行的机器人服务。
+  job_en: A developer needs to build behaviour scheduling for an always-on bot with a fixed persona, handling
+    a continuous stream of message events to produce a runnable bot service.
+  pain: 公开材料只说明它是事件流代理框架，没有说明谁在什么情况下遇到什么困难，也看不出不采用会失去什么。
+  pain_en: The public material only says it is an event-stream agent framework; it does not say who struggles
+    with what, or what is lost by not adopting it.
+  current_alternative: 公开材料未提供现有替代方式，开发者可能自行拼接通用代理框架与消息队列。
+  current_alternative_en: The public material gives no existing alternative; developers may assemble a
+    generic agent framework with a message queue themselves.
+  usage_reason: 推断：它把事件驱动与人格设定打包成框架，省掉开发者自己写调度层这一步，因此做常驻机器人的开发者可能试用；但缺少场景、客户与付费证据，无法说明用户为何长期留下。
+  usage_reason_en: 'Inference: it packages event-driven scheduling and persona configuration into a framework,
+    saving developers from writing the scheduling layer, so builders of always-on bots may try it; but
+    with no scenario, customer or payment evidence, there is no basis to say users stay long term.'
+- id: req-full-cortico-2026-09-23
+  project_slug: cortico
+  level: full
+  reviewed_at: '2026-09-23T01:09:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决常驻机器人的人格与事件调度，但公开材料说不出具体用户任务、痛点和不采用的后果，价值关未过。
+    evidence_ids:
+    - ev-6df4d09fad74e187
+    - ev-3b73ba91c554bfdf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 与议题讨论，核对它面向的具体使用场景、输入输出与是否有真实部署案例。
+  market: ''
+  job: 开发者要为一个需要长期在线、保持固定人格的机器人搭建行为调度，处理持续到来的消息事件，产出可运行的机器人服务。
+  job_en: A developer needs to build behaviour scheduling for an always-on bot with a fixed persona, handling
+    a continuous stream of message events to produce a runnable bot service.
+  pain: 公开材料只说明它是事件流代理框架，没有说明谁在什么情况下遇到什么困难，也看不出不采用会失去什么。
+  pain_en: The public material only says it is an event-stream agent framework; it does not say who struggles
+    with what, or what is lost by not adopting it.
+  current_alternative: 公开材料未提供现有替代方式，开发者可能自行拼接通用代理框架与消息队列。
+  current_alternative_en: The public material gives no existing alternative; developers may assemble a
+    generic agent framework with a message queue themselves.
+  usage_reason: 推断：它把事件驱动与人格设定打包成框架，省掉开发者自己写调度层这一步，因此做常驻机器人的开发者可能试用；但缺少场景、客户与付费证据，无法说明用户为何长期留下。
+  usage_reason_en: 'Inference: it packages event-driven scheduling and persona configuration into a framework,
+    saving developers from writing the scheduling layer, so builders of always-on bots may try it; but
+    with no scenario, customer or payment evidence, there is no basis to say users stay long term.'

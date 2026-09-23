@@ -82,3 +82,46 @@
   usage_reason_en: 'Inference: it replaces naming a skill by hand in the prompt with ranking based on
     live session context plus abstention, cutting the rework step after a wrong pick, so teams maintaining
     many internal skills are more likely to try it; no retention or repeat-use evidence yet.'
+- id: req-full-skillranker-2026-09-23
+  project_slug: skillranker
+  level: full
+  reviewed_at: '2026-09-23T01:12:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决技能过多时代理选错工具、开发者反复纠正的问题，旧做法是人工在提示里指定技能；这是从产品能力与旧流程推导的结构判断，尚无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: consensus
+    status: insufficient
+    reason: 108 星与 8 次 fork 只说明关注度，没有用户评价或采用证据，不能证明持续使用。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，且依赖第三方 API key，买方与付费路径不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  - gate: truth
+    status: insufficient
+    reason: 排序准确率、弃权是否可靠、本地反馈是否真的改善结果均无公开数据。
+    evidence_ids:
+    - ev-247a65b1623a34f5
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有开发者报告排序准确率或弃权行为在实际会话中的表现。
+  market: ''
+  job: 使用编码代理的开发者在一轮会话中，面对当前上下文和一批可用技能，要决定下一步调用哪一个，并避免选错。
+  job_en: A developer using a coding agent, mid-session, faces current context plus a set of available
+    skills and must decide which to invoke next without picking wrong.
+  pain: 技能数量一多，代理容易选错或全选，开发者要反复纠正，浪费上下文轮次；公开材料只说明排序与弃权机制存在，未给出用户抱怨或采用数据。
+  pain_en: Once skills multiply, agents pick wrong or pick everything, forcing developers to correct repeatedly
+    and burn context turns; public material only shows the ranking and abstention mechanism exists, not
+    user complaints or adoption data.
+  current_alternative: 现在靠人工在提示里指定技能，或让模型自行判断，没有独立的排序与弃权机制。
+  current_alternative_en: Today people name the skill in the prompt by hand or let the model decide, with
+    no separate ranking or abstention mechanism.
+  usage_reason: 推断：它把“人工在提示里点名技能”换成基于实时会话上下文的排序输出，并允许弃权，减少选错后返工的那一步；因此维护大量内部技能的团队更可能试用；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it replaces naming a skill by hand in the prompt with ranking based on
+    live session context plus abstention, cutting the rework step after a wrong pick, so teams maintaining
+    many internal skills are more likely to try it; no retention or repeat-use evidence yet.'

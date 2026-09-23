@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSDZtX3RfZFU5
 summary: RBA’s Bullock Says Weaker Jobs Market Needed to Ease Inflation Bloomberg.com
 first_seen: '2026-09-22T23:22:51Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

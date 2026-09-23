@@ -2,19 +2,39 @@
 slug: recordel
 name: Recordel
 builder: kurtjurisjcd25
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: 做产品演示、技术教程或 SaaS 宣传片的人，过去要在 macOS 上装 Screen Studio 这类付费客户端才能录出带质感的演示视频；Recordel 让人直接在浏览器里录屏、剪辑并导出成片，录制与渲染都在本地完成，文件不上传云端，断网也能剪。具体交付质量与人工确认环节仍待核验。
+inspiration: 录屏剪辑正从桌面客户端搬到浏览器，隐私与跨平台成为新的卖点。切入可考虑面向需要录制内部系统或敏感代码的团队，按成片数量或团队授权收费，而不是卖通用剪辑席位；但纯前端渲染能否稳定产出高质感成片，是决定它能否替代桌面工具的关键一环。
+summary_en: People making product demos, technical tutorials or SaaS promo videos previously needed a
+  paid macOS client such as Screen Studio to record polished footage; Recordel lets them record, edit
+  and export in the browser, with capture and rendering done locally, no cloud upload and offline editing.
+  The actual output quality and any human review step remain unverified.
+inspiration_en: Screen recording and editing is moving from desktop clients into the browser, with privacy
+  and cross-platform reach as the new pitch. A wedge is teams that must record internal systems or sensitive
+  code, sold per finished video or per team seat rather than as a generic editing seat; whether pure front-end
+  rendering reliably produces polished output is the open question.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 软件与 SaaS
+- 教育培训
+- 内容创作
+industries_en:
+- Software and SaaS
+- Education and Training
+- Content Creation
+jobs:
+- 产品演示视频制作
+- 技术教程录制
+- SaaS 宣传片剪辑
+jobs_en:
+- Product demo video production
+- Technical tutorial recording
+- SaaS promo video editing
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://recordel.com
 canonical_url: https://recordel.com
@@ -52,7 +72,7 @@ summary: "各位 V 友大家好！\r\n\r\n向大家介绍一款我们独立开�
   \nPRO-VT36-2RZF-TQK3    PRO-PE99-2LA4-TJSA"
 first_seen: '2026-09-22T10:18:26Z'
 last_seen: '2026-09-23T00:34:12Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 sightings:

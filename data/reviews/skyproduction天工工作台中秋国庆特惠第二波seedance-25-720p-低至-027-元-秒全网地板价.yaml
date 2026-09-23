@@ -1,0 +1,94 @@
+- id: req-initial-skyproduction天工工作台中秋国庆特惠第二波seedance-25-720p-低至-027-元-秒全网地板价-2026-09-23
+  project_slug: skyproduction天工工作台中秋国庆特惠第二波seedance-25-720p-低至-027-元-秒全网地板价
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短剧成片交付前逐集质检的需求，痛点是人工看片耗时且漏检会导致整片退回，旧做法是人工记录加表格汇总，结构上成立。
+    evidence_ids:
+    - ev-e73c07edcb517d93
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有功能首发与促销价格，没有客户案例、使用量或行业采购信号，无法判断同行是否已形成共识。
+    evidence_ids:
+    - ev-e73c07edcb517d93
+    - ev-e7ea33fbef1f977a
+  - gate: model
+    status: insufficient
+    reason: 按秒计价的生成与质检如何收费、买方是制作公司还是平台，公开材料未说明，付费路径属推断。
+    evidence_ids:
+    - ev-e7ea33fbef1f977a
+  - gate: truth
+    status: insufficient
+    reason: 质检维度与报告交付方式明确，但准确率、误报率与人工复核边界未披露，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-e73c07edcb517d93
+  next_validation: 收集天工工作台官方定价页或短剧质检的客户案例/使用说明文档，核验按秒与按集计价方式及质检准确率。
+  market: ''
+  job: 短剧制作方在成片交付平台或客户前，需要逐集检查字幕错漏、音画不同步和内容底线问题，处理的是成片视频与字幕文件，要完成的是交付前的合规与质量确认。
+  job_en: Before handing episodes to a platform or client, short-drama producers must check each episode
+    for subtitle errors, audio-video sync problems and content red-line issues, working from finished
+    video and subtitle files to confirm compliance and quality before delivery.
+  pain: 逐集人工看片核对字幕和音画极其耗时，漏检会导致整部片子卡在交付前被退回，返工成本高。
+  pain_en: Watching every episode by hand to verify subtitles and sync is extremely time-consuming, and
+    a missed defect can get the whole title rejected at delivery, making rework costly.
+  current_alternative: 目前多由后期或制片人员逐集播放、人工记录问题清单，再用表格汇总反馈给剪辑修改。
+  current_alternative_en: Today post-production or producer staff play each episode, manually log issues,
+    and compile a spreadsheet to send back to editors for fixes.
+  usage_reason: 相较人工逐集看片，它把字幕、音画、内容底线三类检查一次性跑完并直接产出可下载、可回填的报告，省掉人工记录与汇总这一步，因此批量出片、交付周期紧的短剧团队会在成片交付前选择它；这是基于产品能力与任务结构的推断，尚无客户案例或复购证据。
+  usage_reason_en: Compared with watching episodes one by one, it runs subtitle, sync and content checks
+    in one pass and outputs a downloadable, back-fillable report, removing the manual logging and compiling
+    step, so short-drama teams shipping in bulk on tight delivery schedules would pick it before final
+    delivery; this is inference from product capability and task structure, with no customer case or repeat-use
+    evidence yet.
+- id: req-full-skyproduction天工工作台中秋国庆特惠第二波seedance-25-720p-低至-027-元-秒全网地板价-2026-09-23
+  project_slug: skyproduction天工工作台中秋国庆特惠第二波seedance-25-720p-低至-027-元-秒全网地板价
+  level: full
+  reviewed_at: '2026-09-23T01:12:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短剧成片交付前逐集质检的需求，痛点是人工看片耗时且漏检会导致整片退回，旧做法是人工记录加表格汇总，输入—动作—交付闭环清晰，结构上成立。
+    evidence_ids:
+    - ev-e73c07edcb517d93
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有质检功能首发与按秒促销价格，没有客户案例、使用量或同行采购信号，无法判断短剧行业是否已形成采用共识。
+    evidence_ids:
+    - ev-e73c07edcb517d93
+    - ev-e7ea33fbef1f977a
+  - gate: model
+    status: insufficient
+    reason: 按秒计价的视频生成与质检如何收费、买方是短剧制作公司还是分发平台，公开材料未说明，付费路径属推断而非已验证事实。
+    evidence_ids:
+    - ev-e7ea33fbef1f977a
+  - gate: truth
+    status: insufficient
+    reason: 质检维度与报告交付方式明确，但准确率、误报率与人工复核边界未披露，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-e73c07edcb517d93
+  next_validation: 追踪天工工作台官网定价页与短剧质检的客户案例或使用说明文档，核验按秒/按集计价方式及质检准确率与人工复核边界。
+  market: ''
+  job: 短剧制作方在成片交付平台或客户前，把逐集成片与字幕文件上传到天工工作台，逐集检查字幕错漏、音画不同步与内容底线问题，产出可下载、可回填的质检报告，据此确认修改后再交付。
+  job_en: Before delivering episodes to a platform or client, short-drama producers upload each finished
+    episode and its subtitle file to SkyProduction, run per-episode checks on subtitle errors, audio-video
+    sync and content red-line issues, and get a downloadable, back-fillable QC report to confirm fixes
+    before delivery.
+  pain: 逐集人工看片核对字幕与音画极其耗时，漏检会让整部片子卡在交付前被退回，返工与延期成本高；内容底线问题若未提前发现，还可能触发平台下架。
+  pain_en: Watching every episode by hand to verify subtitles and sync is extremely time-consuming; a
+    missed defect can get the whole title rejected at delivery, driving costly rework and delays, and
+    an undetected content red-line issue can trigger platform takedown.
+  current_alternative: 目前多由后期或制片人员逐集播放、人工记录问题清单，再用表格汇总反馈给剪辑逐条修改。
+  current_alternative_en: Today post-production or producer staff play each episode, manually log issues,
+    and compile a spreadsheet to send back to editors for item-by-item fixes.
+  usage_reason: 相较人工逐集看片，它把字幕、音画、内容底线三类检查一次性跑完并直接产出可下载、可回填的报告，省掉人工记录与表格汇总这一步，因此批量出片、交付周期紧的短剧团队会在成片交付前选择它；这是基于产品能力与任务结构的推断，尚无客户案例或复购证据。
+  usage_reason_en: Compared with watching episodes one by one, it runs subtitle, sync and content checks
+    in one pass and outputs a downloadable, back-fillable report, removing the manual logging and spreadsheet-compiling
+    step, so short-drama teams shipping in bulk on tight schedules would pick it before final delivery;
+    this is inference from product capability and task structure, with no customer case or repeat-use
+    evidence yet.

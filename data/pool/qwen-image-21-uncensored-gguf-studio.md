@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/arudradey/qwen-image-2.1-uncensored
 summary: Qwen-Image-2.1 Uncensored GGUF demo on ZeroGPU
 first_seen: '2026-09-22T07:42:59Z'
 last_seen: '2026-09-23T00:34:36Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

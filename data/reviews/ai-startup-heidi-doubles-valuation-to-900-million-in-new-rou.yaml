@@ -1,0 +1,95 @@
+- id: req-initial-ai-startup-heidi-doubles-valuation-to-900-million-in-new-rou-2026-09-23
+  project_slug: ai-startup-heidi-doubles-valuation-to-900-million-in-new-rou
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决临床问诊记录，但材料未说明具体输入、动作与交付，痛点只能推断，价值关证据不足。
+    evidence_ids:
+    - ev-446440113d838293
+  - gate: consensus
+    status: insufficient
+    reason: 只有估值翻倍的融资消息，没有公开采用规模或持续使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-446440113d838293
+  - gate: model
+    status: insufficient
+    reason: 买方推断为医院或诊所，但无定价页、无付费或采购证据，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-446440113d838293
+  - gate: truth
+    status: insufficient
+    reason: 无法核对病历生成的准确性、人工复核边界与合规要求，承诺能否确定性交付未披露。
+    evidence_ids:
+    - ev-446440113d838293
+  next_validation: 收集 Heidi 官方定价页或公开客户案例，确认其按席位还是按问诊量收费，以及病历交付与人工复核的具体边界。
+  market: ''
+  job: 临床医生在问诊过程中，需要一边与患者交流一边形成结构化病历记录，问诊结束后完成可归档的病历文书。
+  job_en: A clinician conducting an encounter must both talk with the patient and produce a structured
+    medical record, finishing an archivable note after the visit.
+  pain: 公开材料未说明 Heidi 具体解决哪一步痛点，只能推断问诊记录占用医生时间、手写病历挤占与患者交流的时间；这一推断缺少材料支持。
+  pain_en: Public material does not state which step Heidi addresses; it can only be inferred that documentation
+    consumes clinician time and manual note writing crowds out patient interaction, and this inference
+    lacks supporting material.
+  current_alternative: 旧做法推断为医生问诊后手工录入电子病历或使用传统医学听写服务，但候选材料未提供任何关于现有替代方式的描述。
+  current_alternative_en: The prior approach is inferred to be manual entry into an electronic health
+    record after the visit or traditional medical dictation services, but the candidate material provides
+    no description of existing alternatives.
+  usage_reason: 无法判断：材料只给出估值翻倍这一融资事实，未说明产品通过什么动作减少哪一步记录负担，因此不能解释医生为何选择它。
+  usage_reason_en: 'Cannot be judged: the material gives only the funding fact of a doubled valuation,
+    not what action the product takes to remove which documentation burden, so it cannot explain why a
+    clinician would choose it.'
+- id: req-full-ai-startup-heidi-doubles-valuation-to-900-million-in-new-rou-2026-09-23
+  project_slug: ai-startup-heidi-doubles-valuation-to-900-million-in-new-rou
+  level: full
+  reviewed_at: '2026-09-23T01:09:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决临床问诊中同步产出可归档病历的需求，痛点是记录占用医生时间、挤占患者交流；公开说明支持口述与远程音频抓取、免二次登录的输入—动作—交付闭环，痛点刚性与交付可确定，但属工作流结构推理，尚无医生自述或耗时数据。
+    evidence_ids:
+    - ev-9481886c9a3db087
+    - ev-6f6ae232903c630e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有估值翻倍这一融资关注度，未给出医生采用规模、持续使用或留存数据；融资与估值属关注度证据，不能证明临床工作流中的共识已经形成，也无法判断卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-6f6ae232903c630e
+  - gate: model
+    status: insufficient
+    reason: 买方推断为医院、诊所或个体执业医生，但公开材料没有定价页、付费或采购记录，钱从哪一方来属于判断而非已验证事实；仅凭融资叙事无法确认可重复的收费路径。
+    evidence_ids:
+    - ev-0807cf24a1c3c95a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成病历的准确性、人工复核边界与合规要求；公开材料未披露交付结果如何验证，承诺能否确定性发生仍缺证据，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-927347532c800348
+  next_validation: 追踪 Heidi 官网定价页或公开客户案例，确认其按席位还是按问诊量收费，以及病历交付与人工复核的具体边界。
+  market: ''
+  job: 临床医生在门诊或远程问诊过程中，一边与患者交谈，一边需要产出可归档的结构化病历；Heidi 的公开说明是让医生在屏幕任意位置口述、直接抓取远程问诊音频，免去二次登录，把问诊过程转成临床文档。
+  job_en: A clinician conducting an in-person or telehealth encounter must talk with the patient while
+    producing an archivable structured note; Heidi's public description lets clinicians dictate anywhere
+    on screen and capture telehealth audio straight from the call without a second login, turning the
+    encounter into clinical documentation.
+  pain: 公开材料明确写出产品目标是减少行政负担、节省时间，并让医生专注患者照护；由此可结构推理出痛点在于问诊记录占用医生时间、挤占与患者交流，但材料未给出医生自述的耗时或抱怨数据，属工作流推理而非用户口述事实。
+  pain_en: Public material states the product aims to reduce admin, save time, and let clinicians focus
+    on patient care; this supports a workflow inference that documentation consumes clinician time and
+    crowds out patient interaction, but no clinician-reported time or complaint data is given, so it is
+    structural reasoning rather than user testimony.
+  current_alternative: 旧做法推断为问诊后手工录入电子病历，或使用传统医学听写与转录服务；Heidi 公开页面强调免二次登录、可直接抓取远程问诊音频，暗示旧流程需要在多个系统间切换并重复录入，但材料未直接描述现有替代方式。
+  current_alternative_en: The prior approach is inferred to be manual EHR entry after the visit or traditional
+    medical dictation and transcription services; Heidi's public page emphasizes skipping a second login
+    and capturing telehealth audio directly, implying the old workflow required switching between systems
+    and re-entering content, though the material does not directly describe existing alternatives.
+  usage_reason: 推断：相较问诊后手工补录或另开转录工具，Heidi 通过屏幕任意位置口述和直接抓取远程问诊音频，减少一次登录切换与事后逐句补录的动作，因此需要同时处理问诊与病历、且使用远程问诊的临床医生会在问诊进行中选择它；材料未提供用户反馈或客户案例来证实这一动机。
+  usage_reason_en: 'Inference: compared with manual post-visit entry or a separate transcription tool,
+    Heidi removes one login switch and the step of reconstructing the note line by line by allowing dictation
+    anywhere on screen and direct capture of telehealth audio, so clinicians who must document while consulting
+    and who use telehealth would choose it during the encounter; the material provides no user feedback
+    or customer case confirming this motive.'

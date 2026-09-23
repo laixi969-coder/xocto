@@ -333,3 +333,53 @@
     of re-describing project background; teams running agents in parallel on one project would pick it
     when handing off or scaling agent count. Stars rising from 299 to 319 and the sub-site from 110 to
     218 indicate attention, not sustained use.'
+- id: req-full-agents-universe-2026-09-23
+  project_slug: agents-universe
+  level: full
+  reviewed_at: '2026-09-23T01:08:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理与多成员协作同一项目时上下文与经验无法共享沉淀的问题，痛点在于换会话或换人即丢失、需反复喂上下文；公开说明已给出输入（资料与工作）、动作（抽象总结经验到项目上下文）与交付（共享智能体与项目上下文），属工作流结构推理，痛点刚性中等偏上。
+    evidence_ids:
+    - ev-2832e078434ee28e
+    - ev-172aff74235611cd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 110 增至 257 显示关注度上升，但这是规模与关注度证据，不能证明持续采用；公开材料未见用户评价、客户案例或重复使用记录，无法确认场景共识已形成。
+    evidence_ids:
+    - ev-2832e078434ee28e
+    - ev-d01c11a6befba444
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费方式或买方类型，开源仓库本身不构成收入路径；谁付钱、按席位还是按项目收费均属判断而非已验证事实，存在只有关注度没有付费路径的风险。
+    evidence_ids:
+    - ev-172aff74235611cd
+    - ev-2832e078434ee28e
+  - gate: truth
+    status: insufficient
+    reason: 共享项目记忆贴近协作第一性目标，但公开材料未说明记忆如何持久化、冲突如何合并、权限与安全边界如何界定，也未给出可核对的交付结果，承诺能否确定性交付尚不可判断。
+    evidence_ids:
+    - ev-2832e078434ee28e
+    - ev-91c4dad04305eebc
+  next_validation: 追踪 agents-universe 官方仓库 README 与 docs 中关于共享项目记忆的持久化、权限与冲突处理说明，以及是否出现公开客户案例或定价页。
+  market: ''
+  job: 使用 AI 编码代理的开发者或小团队，在多个代理与多名成员共同推进同一项目时，需要把项目上下文、资料与经验沉淀为共享记忆，让代理像人一样在项目里持续学习并协同完成开发任务。
+  job_en: Developers or small teams using AI coding agents need to pool project context, materials and
+    experience into shared memory so multiple agents and members can keep learning and collaborating on
+    the same project.
+  pain: 公开说明指出代理需共享项目上下文并像人一样从资料和工作中抽象总结经验；这对应旧做法下每个代理、每个成员各自维护上下文，项目知识无法沉淀复用，换人或换会话即丢失，重复解释成本高。
+  pain_en: The public description states agents must share project context and abstract experience from
+    materials and work; under the old approach each agent and member keeps separate context, project knowledge
+    is not retained or reused, and it is lost when sessions or people change.
+  current_alternative: 当前替代方式是开发者手动维护提示词与上下文文件、使用单一代理，或依赖各自独立的会话记忆，团队层面没有共享的项目记忆层。
+  current_alternative_en: The current alternative is manually maintaining prompts and context files, using
+    a single agent, or relying on separate per-session memory, with no team-level shared project memory
+    layer.
+  usage_reason: 推断：相较手动维护上下文，它把项目资料与工作经验抽象进共享项目上下文，减少成员与代理之间重复解释和重新喂上下文的步骤，因此多代理、多成员协作同一项目的团队会在上下文频繁丢失时选择它。
+  usage_reason_en: 'Inference: versus manually maintaining context, it abstracts project materials and
+    work experience into shared project context, cutting the step of repeatedly re-explaining and re-feeding
+    context, so teams running multiple agents and members on one project would choose it when context
+    is frequently lost.'

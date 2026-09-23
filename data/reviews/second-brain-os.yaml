@@ -179,3 +179,53 @@
     and new notes get placed under fixed rules automatically. Note-heavy consultants and researchers willing
     to run agents inside Obsidian would rely on it before writing proposals; no public evidence of sustained
     use or retention is given.'
+- id: req-full-second-brain-os-2026-09-23
+  project_slug: second-brain-os
+  level: full
+  reviewed_at: '2026-09-23T01:12:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决笔记库长期无人整理、检索失效的需求，痛点是知识复用受阻且手动整理会持续反弹；公开材料给出指南、起始 vault、agent 技能与脚本的输入—动作—交付闭环，属工作流结构推理，自动归类规则与人工确认边界仍未说明。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+    - ev-435e3dba72ebdc5c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库关注度从 59 升至 152 只说明关注度增长，属规模证据；没有用户评价、issue 或案例说明知识工作者是否真把整理这一步交给 agent，强场景可判断但采用共识未核验。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+    - ev-435e3dba72ebdc5c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、收费方式与买方，是自用配置还是可交付服务不明；钱可能来自 to C 个人订阅或 to B 团队部署，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+  - gate: truth
+    status: insufficient
+    reason: 自动归类是否贴近知识复用的第一性目标、错误归类由谁纠正、agent 写入笔记库的安全与人工边界，公开材料均未说明，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-2b83b3664fb9dd04
+    - ev-2b906d3d79afa693
+  next_validation: 追踪该仓库的 issue 与 discussion，确认自动归类规则、人工确认环节，以及是否有用户报告长期使用或留存。
+  market: ''
+  job: 使用 Claude Code 与 Obsidian 的咨询顾问、独立研究者在笔记积累到数百上千条后，处理的是散乱未归类、标签不一致的笔记与资料，要完成一个能持续被检索、被复用的知识库。
+  job_en: Consulting advisors and independent researchers using Claude Code and Obsidian, once their vaults
+    reach hundreds or thousands of notes, deal with scattered, inconsistently tagged notes and materials
+    and need a knowledge base that stays searchable and reusable.
+  pain: 笔记越积越多，归类与打标签依赖人定期手动做，一旦停下就退化成无法检索的堆积；不整理的后果是写方案或做研究时找不到自己早已存过的材料，重复劳动。
+  pain_en: Notes pile up and filing and tagging depend on periodic manual effort; once it stops the vault
+    degrades into an unsearchable pile, and existing material cannot be found when writing a proposal
+    or doing research, causing duplicated work.
+  current_alternative: 手动建文件夹、打标签，或放弃结构只靠 Obsidian 全文搜索；也有人用零散脚本或通用 AI 对话临时整理。
+  current_alternative_en: Manual folders and tags, or abandoning structure and relying on Obsidian full-text
+    search; some use ad-hoc scripts or generic AI chats to tidy up temporarily.
+  usage_reason: 推断：相较手动整理，它把指南、起始 vault、agent 技能与脚本打包成可直接运行的整理流程，用户在 Claude Code 里对已有笔记执行归类，省掉逐条手动归档这一步；笔记量大、又已在
+    Obsidian 工作流里的顾问与研究者会在需要复用旧材料时选择它。公开材料未给出留存或持续使用证据。
+  usage_reason_en: 'Inference: versus manual filing, it packages a guide, starter vault, agent skills
+    and scripts into a runnable tidying flow, so users run classification over existing notes inside Claude
+    Code and skip filing note by note; note-heavy consultants and researchers already in an Obsidian workflow
+    would pick it when they need to reuse old material. No public retention or sustained-use evidence
+    is given.'

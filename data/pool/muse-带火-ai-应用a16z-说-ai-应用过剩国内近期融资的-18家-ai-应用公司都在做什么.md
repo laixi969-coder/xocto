@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5UTlpWMFIzNU5x
 summary: Muse 带火 AI 应用，a16z 说 AI 应用过剩，国内近期融资的 18家 AI 应用公司都在做什么？ 手机新浪网
 first_seen: '2026-09-22T16:12:59Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

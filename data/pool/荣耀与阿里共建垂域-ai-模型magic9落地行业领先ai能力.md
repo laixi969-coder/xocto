@@ -1,6 +1,6 @@
 ---
 slug: 荣耀与阿里共建垂域-ai-模型magic9落地行业领先ai能力
-name: 荣耀与阿里共建垂域 AI 模型，Magic9落地行业领先AI能力
+name: 荣耀Magic9
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBnTWNkTHh6Q1RI
 summary: 荣耀与阿里共建垂域 AI 模型，Magic9落地行业领先AI能力 新浪财经_金融信息服务商
 first_seen: '2026-09-22T13:14:23Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 荣耀与阿里共建垂域 AI 模型，Magic9落地行业领先AI能力
+# 荣耀Magic9
 
 荣耀与阿里共建垂域 AI 模型，Magic9落地行业领先AI能力 新浪财经_金融信息服务商
 

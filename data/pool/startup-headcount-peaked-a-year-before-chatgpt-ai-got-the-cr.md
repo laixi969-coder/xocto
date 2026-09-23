@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxNSTBLMjR3aHNh
 summary: Startup Headcount Peaked a Year Before ChatGPT. AI Got the Credit Business Model Analyst
 first_seen: '2026-09-22T12:54:11Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

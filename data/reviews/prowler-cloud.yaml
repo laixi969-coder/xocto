@@ -1,0 +1,96 @@
+- id: req-initial-prowler-cloud-2026-09-23
+  project_slug: prowler-cloud
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知定位为 AI 云安全防守方，未说明解决什么具体需求与痛点，价值关证据不足。
+    evidence_ids:
+    - ev-439e0be2ce4a9ecf
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价、客户案例或采用信号，共识关未进入。
+    evidence_ids:
+    - ev-439e0be2ce4a9ecf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱从哪来，模式关未进入。
+    evidence_ids:
+    - ev-439e0be2ce4a9ecf
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检测范围与交付确定性，求真关未进入。
+    evidence_ids:
+    - ev-439e0be2ce4a9ecf
+  next_validation: 收集 Prowler Cloud 官方定价页或部署文档，确认其支持的云平台、检测范围与收费方式。
+  market: ''
+  job: 云安全工程师在例行巡检或收到告警时，处理云账号配置与日志，要完成安全发现与处置。
+  job_en: A cloud security engineer handles cloud account configuration and logs during routine checks
+    or alert response to produce security findings and remediation.
+  pain: 公开材料未说明具体痛点，只能推断云配置检查项多、误报与人工分诊耗时。
+  pain_en: Public material states no specific pain; it can only be inferred that cloud configuration checks
+    are numerous and triage of false positives is time-consuming.
+  current_alternative: 公开材料未提及现有替代方式，行业常见做法是云厂商原生安全中心或开源扫描器。
+  current_alternative_en: No current alternative is mentioned publicly; common practice is cloud vendor
+    native security centers or open-source scanners.
+  usage_reason: 推断：若 agent 能把发现直接转成可执行整改步骤，可减少人工在扫描结果与工单系统之间搬运的一步；但公开材料未给出该动作细节，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the agent turns findings directly into executable remediation steps,
+    it removes the manual step of moving scan results into a ticketing system; but public material gives
+    no such detail, so why users would choose it cannot be confirmed.'
+- id: req-full-prowler-cloud-2026-09-23
+  project_slug: prowler-cloud
+  level: full
+  reviewed_at: '2026-09-23T01:12:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多云环境下配置与合规检查分散、需统一可见性的需求，痛点是数千检查项与多套合规框架下人工分诊与跨控制台切换成本高，不处理则配置漂移与合规缺口先于攻击者暴露；公开材料给出统一界面与现成检查，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-dffc931581809062
+    - ev-b3c58cec8c1ae377
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方自述“trusted by thousands”与开源仓库定位，未见独立用户评价、客户案例或可归因到该产品的采用数据，无法确认工程师是否已把它留在日常巡检工作流中。
+    evidence_ids:
+    - ev-b3c58cec8c1ae377
+  - gate: model
+    status: insufficient
+    reason: 材料未披露 Prowler Cloud 的定价页、订阅方式或买方类型，只能推断开源版引流、云版向使用多云的企业安全团队收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bd5f4f423ea77ba4
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 agent 具体接收哪些数据、执行哪些检查、交付何种报告，也未给出误报率与人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-dffc931581809062
+    - ev-b3c58cec8c1ae377
+  next_validation: 追踪 Prowler 官方定价页与 Prowler Cloud 部署文档，确认其收费方式、支持的云平台清单及 agent 实际执行的检查与交付物。
+  market: ''
+  job: 云安全工程师在多云账号（AWS、Azure、GCP、Kubernetes、公开代码仓库、M365 等）例行巡检或收到告警时，处理各云平台的配置与合规日志，要完成安全发现、合规核对与可处置的整改输出。
+  job_en: A cloud security engineer, during routine checks or alert response across multi-cloud accounts
+    (AWS, Azure, GCP, Kubernetes, public code repository, M365, etc.), handles configuration and compliance
+    logs from each cloud to produce security findings, compliance checks and actionable remediation output.
+  pain: 公开材料支持的事实是多云环境分散、检查项与合规框架数量庞大（数千项检查、多套合规框架），需要统一可见性；由此可推断的痛点是工程师要在多个云控制台与扫描器之间来回切换、人工分诊海量发现，且不处理的后果是配置漂移与合规缺口在攻击者之前未被发现。
+  pain_en: Public material supports that multi-cloud environments are fragmented and the number of checks
+    and compliance frameworks is large (thousands of checks, multiple frameworks), requiring unified visibility;
+    the inferable pain is that engineers switch among many cloud consoles and scanners and manually triage
+    a flood of findings, with the consequence that misconfigurations and compliance gaps go unnoticed
+    before attackers act.
+  current_alternative: 公开材料未直接列出替代方式；按行业常见做法推断，旧做法是各云厂商原生安全中心（如 AWS Security Hub、Azure Defender）加开源扫描器（如
+    ScoutSuite、Cloud Custodian）分别跑检查，再人工汇总成报告。
+  current_alternative_en: Public material does not list alternatives directly; by common industry practice
+    the old approach is running each cloud vendor's native security center (e.g. AWS Security Hub, Azure
+    Defender) plus open-source scanners (e.g. ScoutSuite, Cloud Custodian) separately, then manually consolidating
+    into reports.
+  usage_reason: 推断：相较逐云控制台分别巡检再人工汇总，Prowler 通过单一统一界面覆盖 AWS、Azure、GCP、Kubernetes、公开代码仓库、M365 等，并用数千条现成检查与合规框架自动执行监控，减少工程师在多个控制台之间切换和手工拼报告的一步；因此管理多云资产、需要持续合规核对的云安全团队会在例行巡检或审计准备时选择它。
+  usage_reason_en: 'Inference: compared with inspecting each cloud console separately and manually consolidating,
+    Prowler covers AWS, Azure, GCP, Kubernetes, public code repository, M365 and more from a single unified
+    interface and automates monitoring with thousands of ready-made checks and compliance frameworks,
+    removing the step of switching among consoles and hand-assembling reports; therefore cloud security
+    teams managing multi-cloud assets and needing continuous compliance checks would choose it during
+    ro'

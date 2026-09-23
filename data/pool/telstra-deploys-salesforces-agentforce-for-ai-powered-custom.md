@@ -1,6 +1,6 @@
 ---
 slug: telstra-deploys-salesforces-agentforce-for-ai-powered-custom
-name: Telstra deploys Salesforce’s Agentforce for AI-powered customer service boost
+name: Salesforce Agentforce
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxON2pTVEZMU1lD
 summary: Telstra deploys Salesforce’s Agentforce for AI-powered customer service boost ARNnet
 first_seen: '2026-09-22T06:27:31Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Telstra deploys Salesforce’s Agentforce for AI-powered customer service boost
+# Salesforce Agentforce
 
 Telstra deploys Salesforce’s Agentforce for AI-powered customer service boost ARNnet
 

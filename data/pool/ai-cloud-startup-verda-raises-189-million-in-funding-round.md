@@ -1,6 +1,6 @@
 ---
 slug: ai-cloud-startup-verda-raises-189-million-in-funding-round
-name: AI Cloud Startup Verda Raises $189 Million in Funding Round
+name: Verda
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFdiaVpkcmdR
 summary: AI Cloud Startup Verda Raises $189 Million in Funding Round Bloomberg.com
 first_seen: '2026-09-22T06:23:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Cloud Startup Verda Raises $189 Million in Funding Round
+# Verda
 
 AI Cloud Startup Verda Raises $189 Million in Funding Round Bloomberg.com
 

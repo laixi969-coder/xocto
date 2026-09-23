@@ -333,3 +333,266 @@
   source_kind: market_signal
   tier: independent
   fact: 'The AlleyWatch Startup Daily Funding Report: 9/22/2026 AlleyWatch'
+- id: ev-d4b53f09002302f9
+  project_slug: grep
+  url: https://www.man7.org/linux/man-pages/man1/grep.1.html
+  title: grep (1) - Linux manual page - man7.org
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: pain
+  tier: independent
+  fact: grep searches for patterns in each FILE. In the synopsis's first form, which is used if no -e
+    or -f options are present, the first operand PATTERNS is one or more patterns separated by newline
+    characters, and grep prints each line that matches a pattern. Typically PATTERNS should be quoted
+    when grep is used in a shell command.
+- id: ev-a1a2f25ee14014b4
+  project_slug: grep
+  url: https://www.geeksforgeeks.org/linux-unix/grep-command-in-unixlinux/
+  title: grep command in Unix/Linux - GeeksforGeeks
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: pain
+  tier: independent
+  fact: The grep command is one of the most useful tools in Linux and Unix systems. It is used to search
+    for specific words, phrases, or patterns inside text files, and shows the matching lines on your screen.
+- id: ev-8c1e4602913d1611
+  project_slug: grep
+  url: https://en.m.wikipedia.org/wiki/Grep
+  title: grep - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: pain
+  tier: independent
+  fact: Before it was named, grep was a private utility written by Ken Thompson to search files for certain
+    patterns. Doug McIlroy, unaware of its existence, asked Thompson to write such a program.
+- id: ev-351feddbd748fe9a
+  project_slug: grep
+  url: https://www.man7.org/linux/man-pages/man1/grep.1.html
+  title: grep (1) - Linux manual page - man7.org
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: workaround
+  tier: independent
+  fact: grep searches for patterns in each FILE. In the synopsis's first form, which is used if no -e
+    or -f options are present, the first operand PATTERNS is one or more patterns separated by newline
+    characters, and grep prints each line that matches a pattern. Typically PATTERNS should be quoted
+    when grep is used in a shell command.
+- id: ev-f2e3de8a9ba36301
+  project_slug: grep
+  url: https://www.geeksforgeeks.org/linux-unix/grep-command-in-unixlinux/
+  title: grep command in Unix/Linux - GeeksforGeeks
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: workaround
+  tier: independent
+  fact: The grep command is one of the most useful tools in Linux and Unix systems. It is used to search
+    for specific words, phrases, or patterns inside text files, and shows the matching lines on your screen.
+- id: ev-a6e63657a9fcb703
+  project_slug: grep
+  url: https://en.m.wikipedia.org/wiki/Grep
+  title: grep - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: workaround
+  tier: independent
+  fact: Before it was named, grep was a private utility written by Ken Thompson to search files for certain
+    patterns. Doug McIlroy, unaware of its existence, asked Thompson to write such a program.
+- id: ev-d8f833477adfdba9
+  project_slug: grep
+  url: https://www.man7.org/linux/man-pages/man1/grep.1.html
+  title: grep (1) - Linux manual page - man7.org
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: customer_case
+  tier: independent
+  fact: grep searches for patterns in each FILE. In the synopsis's first form, which is used if no -e
+    or -f options are present, the first operand PATTERNS is one or more patterns separated by newline
+    characters, and grep prints each line that matches a pattern. Typically PATTERNS should be quoted
+    when grep is used in a shell command.
+- id: ev-1c6f862384952b31
+  project_slug: grep
+  url: https://www.geeksforgeeks.org/linux-unix/grep-command-in-unixlinux/
+  title: grep command in Unix/Linux - GeeksforGeeks
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: customer_case
+  tier: independent
+  fact: The grep command is one of the most useful tools in Linux and Unix systems. It is used to search
+    for specific words, phrases, or patterns inside text files, and shows the matching lines on your screen.
+- id: ev-bd9bd2df9751f2a7
+  project_slug: grep
+  url: https://en.m.wikipedia.org/wiki/Grep
+  title: grep - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Before it was named, grep was a private utility written by Ken Thompson to search files for certain
+    patterns. Doug McIlroy, unaware of its existence, asked Thompson to write such a program.
+- id: ev-84e16c37370c59de
+  project_slug: grep
+  url: https://www.man7.org/linux/man-pages/man1/grep.1.html
+  title: grep (1) - Linux manual page - man7.org
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: pricing
+  tier: independent
+  fact: grep searches for patterns in each FILE. In the synopsis's first form, which is used if no -e
+    or -f options are present, the first operand PATTERNS is one or more patterns separated by newline
+    characters, and grep prints each line that matches a pattern. Typically PATTERNS should be quoted
+    when grep is used in a shell command.
+- id: ev-d4c367b8ed2b6326
+  project_slug: grep
+  url: https://www.geeksforgeeks.org/linux-unix/grep-command-in-unixlinux/
+  title: grep command in Unix/Linux - GeeksforGeeks
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: pricing
+  tier: independent
+  fact: The grep command is one of the most useful tools in Linux and Unix systems. It is used to search
+    for specific words, phrases, or patterns inside text files, and shows the matching lines on your screen.
+- id: ev-256b33885955a102
+  project_slug: grep
+  url: https://en.m.wikipedia.org/wiki/Grep
+  title: grep - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: pricing
+  tier: independent
+  fact: Before it was named, grep was a private utility written by Ken Thompson to search files for certain
+    patterns. Doug McIlroy, unaware of its existence, asked Thompson to write such a program.
+- id: ev-a76e59a77b864cd3
+  project_slug: grep
+  url: https://www.man7.org/linux/man-pages/man1/grep.1.html
+  title: grep (1) - Linux manual page - man7.org
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: retention
+  tier: independent
+  fact: grep searches for patterns in each FILE. In the synopsis's first form, which is used if no -e
+    or -f options are present, the first operand PATTERNS is one or more patterns separated by newline
+    characters, and grep prints each line that matches a pattern. Typically PATTERNS should be quoted
+    when grep is used in a shell command.
+- id: ev-63f3dc9ad2b40b8f
+  project_slug: grep
+  url: https://www.geeksforgeeks.org/linux-unix/grep-command-in-unixlinux/
+  title: grep command in Unix/Linux - GeeksforGeeks
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: retention
+  tier: independent
+  fact: The grep command is one of the most useful tools in Linux and Unix systems. It is used to search
+    for specific words, phrases, or patterns inside text files, and shows the matching lines on your screen.
+- id: ev-dae236d597124610
+  project_slug: grep
+  url: https://en.m.wikipedia.org/wiki/Grep
+  title: grep - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-23T01:04:44Z'
+  source_kind: retention
+  tier: independent
+  fact: Before it was named, grep was a private utility written by Ken Thompson to search files for certain
+    patterns. Doug McIlroy, unaware of its existence, asked Thompson to write such a program.
+- id: ev-713e20b6b59427f3
+  project_slug: grep
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1+%E4%BB%A3%E7%A0%81%E6%A3%80%E7%B4%A2%E4%B8%8E%E9%87%8D%E6%9E%84
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件与信息服务 代码检索与重构'
+- id: ev-a330c20e9b73c454
+  project_slug: grep
+  url: https://www.bing.com/search?format=rss&q=AI+Developers+open+it+when+they+need+to+find+a+code+structure+rather+than+a+text+keyword+across+public+repositories%3B+they+supply+a+structural+pattern+and+get+back+matching+code+locati
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for en: AI Developers open it when they need to find a code structure
+    rather than a text keyword across public repositories; they supply a structural pattern and get back
+    matching code locati'
+- id: ev-ddd0e1a1c1ffd62e
+  project_slug: grep
+  url: https://openai.com/
+  title: OpenAI | Research & Deployment
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: We believe our research will eventually lead to artificial general intelligence, a system that
+    can solve human-level problems.
+- id: ev-67461a978c09cf8b
+  project_slug: grep
+  url: https://gemini.google.com/
+  title: Google Gemini
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more.
+    Experience the power of generative AI.
+- id: ev-1df4a844b7a455ea
+  project_slug: grep
+  url: https://chatgpt.com/
+  title: 'ChatGPT: Chat, Work, Create & Code with AI'
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place.
+    Get started for free or download the app.
+- id: ev-38d867581774d7b6
+  project_slug: grep
+  url: https://cloud.google.com/learn/what-is-artificial-intelligence
+  title: What is Artificial Intelligence (AI)? | Google Cloud
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Artificial intelligence (AI) is a set of technologies that empowers computers to learn, reason,
+    and perform a variety of advanced tasks in ways that used to require human intelligence, such as understanding
+    language, analyzing data, and even providing helpful suggestions. It’s a transformational technology
+    that can bring meaningful and positive change to people and societies and the world ...
+- id: ev-10583bccfed757cb
+  project_slug: grep
+  url: https://ai.google/
+  title: Google AI - How we're making AI helpful for everyone
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping
+    people grow by building useful AI tools and technologies.
+- id: ev-b41a34254d14d303
+  project_slug: grep
+  url: https://aistudio.google.com/
+  title: Google AI Studio
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Build with Google AI Studio Go from prompt to production with Gemini, Veo, Nano Banana, and more
+    Create a massive multiplayer first-person laser tag game login Get started
+- id: ev-ab6df64dada364a4
+  project_slug: grep
+  url: https://www.perplexity.ai/
+  title: Perplexity AI
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers
+    to any question.
+- id: ev-fa0c101fb2be9932
+  project_slug: grep
+  url: https://en.wikipedia.org/wiki/Artificial_intelligence
+  title: Artificial intelligence - Wikipedia
+  published_at: ''
+  collected_at: '2026-09-23T01:06:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Artificial intelligence (AI) is the capability of computational systems to perform tasks typically
+    associated with human intelligence, such as learning, reasoning, problem-solving, perception, and
+    decision-making.

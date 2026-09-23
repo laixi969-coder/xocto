@@ -33,7 +33,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNckpuYmE5X0VW
 summary: AI Startup Cognition Set to Raise Around $1 Billion at a $47 Billion Value Yahoo! Finance Canada
 first_seen: '2026-09-02T00:29:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - ia40

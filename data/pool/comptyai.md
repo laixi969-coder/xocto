@@ -22,7 +22,7 @@ summary: 'Turn token activity into compute. A compute-access protocol designed f
   fees fund GPU capacity for token holders.'
 first_seen: '2026-09-21T18:07:22Z'
 last_seen: '2026-09-23T00:34:19Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

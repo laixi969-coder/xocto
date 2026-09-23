@@ -122,3 +122,46 @@
   usage_reason: 缺少可归因到该产品的公开事实，无法解释用户为何在什么情况下选择它；现有证据与产品无关，不能作为选择理由。
   usage_reason_en: There is no public fact attributable to this product to explain why or when users would
     choose it; existing evidence is unrelated to the product and cannot serve as a usage reason.
+- id: req-full-enzo-2026-09-23
+  project_slug: enzo
+  level: full
+  reviewed_at: '2026-09-23T01:10:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名足球运动员、意大利人名释义与荧光染料公司，与该项目无关；无法写出具体用户任务、痛点、现有替代与不解决的后果，连需求与痛点都还原不出。
+    evidence_ids:
+    - ev-415f6940a2251ef1
+    - ev-2fc6802d48d1ed17
+    - ev-56b4b9d8e5ef8e69
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或官网，确认是否存在可归因到该产品的 README、部署文档、issue 或 discussion，以还原其真实用户任务与使用场景。
+  market: ''
+  job: 公开材料未说明具体是谁、在什么情况下、处理什么材料、要完成什么任务；仅有一条产品自述称其为可本地运行的开源 AI 平台，但无部署文档、无使用说明、无用户案例可还原工作流。
+  job_en: Public materials do not identify who, in what situation, handling what materials, to complete
+    what task; only a self-description of an open-source locally runnable AI platform exists, with no
+    deployment docs, usage guides, or user cases to reconstruct the workflow.
+  pain: 无法从公开证据写出用户的具体痛点：现有证据全部指向同名的足球运动员、意大利人名释义和一家荧光染料公司，与该项目无关，没有任何用户抱怨、替代行为或未解决后果的记录。
+  pain_en: 'No concrete user pain can be written from public evidence: all available evidence points to
+    an unrelated footballer, an Italian given name, and a fluorescent dye company, with no user complaints,
+    workarounds, or unsolved-consequence records.'
+  current_alternative: 公开材料未说明用户目前如何完成自建 AI 工作流，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently complete self-hosted AI workflows,
+    nor what prior practice it replaces.
+  usage_reason: 无法解释用户为何选择它：缺少可归因到该产品的用户反馈、客户案例或采用证据，现有证据均属同名实体，不能作为使用理由。
+  usage_reason_en: 'Cannot explain why users choose it: no user feedback, customer cases, or adoption
+    evidence attributable to this product exists; all current evidence belongs to same-named entities
+    and cannot serve as usage rationale.'

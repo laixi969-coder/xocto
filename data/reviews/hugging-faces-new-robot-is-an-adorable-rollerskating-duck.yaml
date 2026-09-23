@@ -156,3 +156,102 @@
   usage_reason: 预购和媒体报道显示早期兴趣，但实际采用和付费尚未核验。
   usage_reason_en: Preorders and media coverage indicate early interest, but actual adoption and payment
     are not yet verified.
+- id: req-initial-hugging-faces-new-robot-is-an-adorable-rollerskating-duck-2026-09-23
+  project_slug: hugging-faces-new-robot-is-an-adorable-rollerskating-duck
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开材料还原：只有外观、价格与发货时间，没有旧流程、用户抱怨或采用行为。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、社区讨论或采用数据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 已公开 399 美元预售价格，但买方是家庭、学校还是开发者，以及是否有订阅或内容收入，均未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该场景的第一性目标，也未说明安全与人工边界，交付确定性未知。
+    evidence_ids: []
+  next_validation: 收集 Pollen Robotics 官方 Microduck 产品页与预售条款，确认可编程能力、交付内容、发货承诺及是否含订阅收费。
+  market: ''
+  job: 机器人爱好者、家长或教师在居家和课堂场景中，用这台小型机器人做陪伴互动或编程入门练习，最终得到一台可运行、可演示的实体装置。
+  job_en: Hobbyists, parents or teachers use this small robot at home or in class for companion interaction
+    or beginner programming practice, ending with a working, demonstrable physical device.
+  pain: 候选材料只给出外观、价格和发货时间，没有说明它替代了哪一步旧工作，也没有用户抱怨、使用反馈或客户案例，痛点无法从公开事实还原。
+  pain_en: The material only gives appearance, price and shipping timing; it does not say which old step
+    it replaces, and there are no user complaints, usage feedback or customer cases, so the pain cannot
+    be reconstructed from public facts.
+  current_alternative: 旧做法可能是购买其他桌面机器人套件、用积木或编程玩具做入门，或直接用平板上的互动应用；候选材料未提供对比证据。
+  current_alternative_en: The old approach may be buying other desktop robot kits, using building blocks
+    or coding toys for beginners, or simply using interactive apps on a tablet; the material provides
+    no comparative evidence.
+  usage_reason: 推断：若它把开箱即用的互动与编程接口做进一台 399 美元的实体设备，家长或教师可能省去自行组装和配置套件的一步；但缺少留存、复购或重复使用证据，无法确认用户会长期把它留在工作流里。
+  usage_reason_en: 'Inference: if it packs out-of-the-box interaction and programming interfaces into
+    a $399 physical device, parents or teachers may skip a step of assembling and configuring kits themselves;
+    but without retention, repeat-purchase or reuse evidence, it cannot be confirmed that users keep it
+    in their workflow.'
+- id: req-full-hugging-faces-new-robot-is-an-adorable-rollerskating-duck-2026-09-23
+  project_slug: hugging-faces-new-robot-is-an-adorable-rollerskating-duck
+  level: full
+  reviewed_at: '2026-09-23T01:10:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决桌面级双足机器人上手门槛高的需求：用户要一台开箱可站立、跌倒能爬起、可编程的实体装置，旧做法需自行组装套件并搭建仿真训练环境。官方站与 公开代码仓库 仓库给出开源软件、仿真训练与
+      ONNX 导出闭环，属工作流结构推理，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-7c302d7653c41a28
+    - ev-7559d6e43d199ce5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方产品页与 公开代码仓库 仓库，没有用户评价、社区讨论或采用数据，无法判断共识卡在感知、想象、场景还是利益环节；开源仓库存在不等于持续采用。
+    evidence_ids:
+    - ev-7c302d7653c41a28
+    - ev-7559d6e43d199ce5
+  - gate: model
+    status: insufficient
+    reason: 已公开 399 美元预售与四色可选，买方可能是爱好者、家庭或学校，但公开材料未披露订阅、内容或教育采购收入，谁付钱与复购路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-7c302d7653c41a28
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近双足机器人入门这一第一性目标，开源仓库与仿真训练流程支持可复现交付；但发货承诺为 2026 年圣诞前，安全边界与人工介入说明未公开，交付确定性尚未核验。
+    evidence_ids:
+    - ev-7c302d7653c41a28
+    - ev-7559d6e43d199ce5
+  next_validation: 追踪 Pollen Robotics 官方 Microduck 产品页与 公开代码仓库 仓库（pollen-robotics/microduck、microduck_rl）的更新，确认预售条款、发货时间、可编程能力与是否含订阅收费。
+  market: ''
+  job: 机器人爱好者、家长或教师在居家桌面或课堂场景中，拿到一台开箱可运行的小型双足机器人，用预装互动程序做演示、陪伴，并借助开源仓库与仿真训练流程（MuJoCo/PPO、sim2real、ONNX
+    导出）做编程与强化学习入门练习，最终得到一台可站立、跌倒后能自行爬起的实体互动装置。
+  job_en: Hobbyists, parents or teachers at a home desk or in a classroom take delivery of a small biped
+    robot that runs out of the box, use its preloaded interaction routines for demos and companionship,
+    and use the open-source repo plus simulation training pipeline (MuJoCo/PPO, sim2real, ONNX export)
+    for beginner programming and RL practice, ending with a physical device that stands and gets back
+    up after a fall.
+  pain: 公开材料支持的痛点在于：桌面级双足机器人此前多停留在视频演示或高价研究平台，爱好者与教学用户要自己拼装、调参、搭建仿真环境才能让机器人稳定站立行走，入门门槛高、失败后难以恢复；Microduck
+    以 399 美元预售、开源仓库与配套仿真训练仓库把这一环节前置交付。
+  pain_en: 'The pain supported by public material: desktop-scale biped robots have mostly stayed at the
+    demo-video or expensive research-platform stage; hobbyists and teaching users had to assemble, tune
+    and build simulation environments themselves before the robot could stand and walk stably, a high
+    entry barrier with hard recovery after falls. Microduck front-loads that step via a $399 preorder,
+    an open-source repo and a companion simulation-training repo.'
+  current_alternative: 旧做法是购买其他桌面机器人套件自行组装配置、用积木或编程玩具做入门，或只在视频与仿真里看双足行走；候选材料未提供与这些替代方式的直接对比证据。
+  current_alternative_en: The old approach is buying other desktop robot kits and assembling/configuring
+    them, using building blocks or coding toys for beginners, or only watching biped walking in videos
+    and simulation; the material offers no direct comparison against these alternatives.
+  usage_reason: 推断：相较自行组装套件并搭建仿真环境，Microduck 把可站立、跌倒后自行爬起的双足硬件与已训练策略（microduck_rl 的 MuJoCo/PPO、sim2real、ONNX
+    导出）一并交付，用户省去从零调参与训练策略这一步，因此想低成本上手双足机器人编程与演示的爱好者、家长或教师会在 399 美元价位选择它；但缺少留存、复购或重复使用证据，尚不能确认它已被长期留在工作流中。
+  usage_reason_en: 'Inference: versus assembling a kit and building a simulation environment from scratch,
+    Microduck ships the biped hardware that stands and self-rights together with already-trained policies
+    (microduck_rl''s MuJoCo/PPO, sim2real, ONNX export), removing the step of tuning and training policies
+    from zero; that is why hobbyists, parents or teachers wanting low-cost biped programming and demos
+    would pick it at $399. But without retention, repeat-purchase or reuse evidence, it cannot'

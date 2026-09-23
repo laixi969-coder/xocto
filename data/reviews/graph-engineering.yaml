@@ -274,3 +274,51 @@
     graphs with validation on the user''s own project, removing the manual translation step; developers
     already building multi-step agent workflows with Claude who need auditable structure would pick it
     at project start or when refactoring orchestration.'
+- id: req-full-graph-engineering-2026-09-23
+  project_slug: graph-engineering
+  level: full
+  reviewed_at: '2026-09-23T01:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把知识图谱九步做法落到自己项目上的需求，痛点是课程抽象、手工搬运、AI 生成图缺类型与审计；公开仓库说明其提供类型化、可审计工作流图、条件路由与证据门控演化，属工作流结构推理，痛点刚性中等但交付路径可确定。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 49 增至 61，说明有开发者关注并收藏，但收藏与访问量只属关注度证据，不能证明目标用户已持续使用或把它留在工作流里；缺少 issue、discussion 或使用反馈。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+    - ev-393f2e860d8e4c81
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济；作为开源 Claude skill，钱可能来自 to C 开发者订阅或 to B 团队支持，但这是判断而非已验证事实，需后续公开定价或采购记录确认。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+  - gate: truth
+    status: insufficient
+    reason: 仓库声明含完整源码、示例与测试，但公开证据未展示可复现的部署结果、交付稳定性或人工与安全边界；能否确定性交付尚缺独立验证。
+    evidence_ids:
+    - ev-dff7a9b852a73b27
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有用户报告在自己的项目上跑通九阶段流水线并替代原有课程或手工流程。
+  market: ''
+  job: 写代码的 AI 使用者（开发者或数据工程学习者）在已有自己的项目、需要把非结构化材料建成可查询知识图谱时，用 Claude skill 在自己的项目上按九阶段流水线当场练，产出带类型、可审计的工作流图与任务图编排。
+  job_en: A developer or data-engineering learner who already has a project and needs to turn unstructured
+    material into a queryable knowledge graph uses the Claude skill to practice the nine-stage pipeline
+    on their own project, producing typed, auditable workflow graphs and task-graph orchestration.
+  pain: 公开材料显示该 skill 面向类型化、可审计工作流图、条件路由与证据门控演化；结构推理上，知识图谱课程与零散教程通常只给抽象步骤，学习者难以在自己的数据上落地，且 AI 生成的图缺少类型与审计，出错后无法定位。
+  pain_en: Public materials show the skill targets typed, auditable workflow graphs, conditional routing,
+    and evidence-gated evolution; by structural inference, KG courses and scattered tutorials give abstract
+    steps that are hard to apply to one's own data, and AI-generated graphs lack types and audit trails,
+    so errors cannot be traced.
+  current_alternative: 旧做法是啃一门知识图谱课程或零散教程，再手工把步骤搬到自己的项目；或直接让通用编码 AI 生成图，缺少类型、条件路由与审计。
+  current_alternative_en: The old way is to sit through a KG course or scattered tutorials and manually
+    port steps to one's own project, or to let a general coding AI generate graphs without types, conditional
+    routing, or audit.
+  usage_reason: 推断：相较啃课程再手工搬运，该 skill 把九阶段流水线做成可粘贴的工作流，直接在用户自己的项目上执行并产出带类型、可审计的图，省去从抽象步骤到项目落地之间的翻译步骤；需要在自己数据上快速建图并保留可追溯性的开发者会因此选择它。
+  usage_reason_en: 'Inference: versus taking a course and manually porting steps, the skill packages the
+    nine-stage pipeline as paste-ready workflows that run on the user''s own project and emit typed, auditable
+    graphs, removing the translation step from abstract method to project; developers who need to build
+    graphs on their own data with traceability would choose it.'

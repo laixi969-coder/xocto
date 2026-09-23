@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zYnl6VF9LOUMz
 summary: What Is SnapJotz.com? Business & Content Guide 2026 Tycoonstory Media
 first_seen: '2026-09-22T12:28:28Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

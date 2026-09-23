@@ -592,3 +592,44 @@
   usage_reason_en: With no feature description, documentation, or user feedback, it is impossible to explain
     which step it removes or which checkable result it improves versus current practice, hence which users
     would choose it and when.
+- id: req-full-fermats-last-theorem-2026-09-23
+  project_slug: fermats-last-theorem
+  level: full
+  reviewed_at: '2026-09-23T01:10:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据仅有仓库星标从 1,191 增至 1,216，无 README、文档或功能说明，无法写出用户任务、痛点、旧替代与不解决的后果，连需求与痛点都还原不出。
+    evidence_ids:
+    - ev-2ac858fe0ce2587d
+    - ev-f37d71088c89aaa6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、文档、issue 与 discussion，确认其实际功能、输入输出与使用场景，判断是否存在可还原的用户任务。
+  market: ''
+  job: 公开材料只显示这是 Anthropic 发布、以费马大定理命名的 公开代码仓库 仓库，未披露任何 README、文档或功能说明，因此无法写出谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public materials show only an Anthropic-published public code repository repository named after
+    Fermat's Last Theorem, with no README, docs, or feature description, so it is impossible to state
+    who handles what material in what situation to complete what task.
+  pain: 没有任何公开材料说明用户痛点、不解决的后果或发生频率；仓库名称本身不构成痛点证据。
+  pain_en: No public material describes user pain, the consequence of not solving it, or its frequency;
+    the repository name alone is not pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成相关工作，也未说明该仓库替代了什么旧流程。
+  current_alternative_en: Public materials do not show how users currently do the related work or what
+    prior process this repository replaces.
+  usage_reason: 无法给出使用理由：缺少功能说明、输入输出、交付形态与任何用户反馈，只有星标数从 1,191 增至 1,216 的关注度记录，不能解释用户为何选择它。
+  usage_reason_en: 'No usage reason can be given: there is no feature description, input/output, delivery
+    form, or user feedback, only star counts rising from 1,191 to 1,216, which cannot explain why users
+    would choose it.'

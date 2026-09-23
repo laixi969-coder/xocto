@@ -3,11 +3,12 @@ slug: ggerganov-llamacpp-v040
 name: llama.cpp
 builder: ggerganov
 category: ''
-summary_zh: llama.cpp 是一个开源项目，用于在本地设备上高效运行大语言模型。本次更新增加了对新模型的支持和性能优化，但作为基础层工具，它不直接面向特定行业或工作流。
+summary_zh: llama.cpp 是一个本地大模型推理引擎，开发者用它把开源权重模型跑在自己的机器或服务器上。0.4.0 版本新增了若干模型支持、按需张量读取、按槽位上下文上限和视频输入选项，并升级了底层
+  ggml 计算库。
 inspiration: ''
-summary_en: llama.cpp is an open-source project for running large language models efficiently on local
-  devices. This update adds support for new models and performance optimizations, but as an infrastructure
-  tool, it does not directly target specific industries or workflows.
+summary_en: llama.cpp is a local large-model inference engine that developers use to run open-weight models
+  on their own machines or servers. Version 0.4.0 adds several model backends, on-demand tensor reading,
+  per-slot context limits and video input options, and upgrades the underlying ggml compute library.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -229,7 +230,7 @@ summary: "## Overview\r\n\r\nllama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and
   \ ESLint config updates (#27700)\r\n3737e4137 metal : null-check buffer alloc to fix OOM crash (#25371)"
 first_seen: '2026-09-04T19:56:47Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 - officialfeeds

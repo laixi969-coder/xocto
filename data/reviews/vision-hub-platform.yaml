@@ -1,0 +1,92 @@
+- id: req-initial-vision-hub-platform-2026-09-23
+  project_slug: vision-hub-platform
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决已有摄像头资产上新增视觉检测要重复写脚本、重复对接模型与告警的痛点，旧流程明确，属于工作流推理。
+    evidence_ids:
+    - ev-6880812d14d5b082
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 80 星、1 个 fork，没有 issue 讨论或客户案例，尚不能说明集成商已形成使用共识。
+    evidence_ids:
+    - ev-6880812d14d5b082
+  - gate: model
+    status: insufficient
+    reason: 开源项目本身无定价，买方可能是集成商或终端企业，付费路径未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6880812d14d5b082
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明部署方式、模型来源与告警准确率，检测结果能否确定性交付无法核对。
+    evidence_ids:
+    - ev-6880812d14d5b082
+  next_validation: 收集该仓库的部署文档与 issue 讨论，核对真实摄像头环境下的误报率与已落地场景。
+  market: ''
+  job: 安防或工厂的集成工程师在已有摄像头和视频流上要新增一路视觉检测任务，需要把摄像头、视频流和视觉模型接起来，并配置抽帧、检测区域与告警。
+  job_en: A security or factory integration engineer adding a visual detection task on existing cameras
+    and streams must connect cameras, streams and vision models, then configure frame sampling, detection
+    regions and alerts.
+  pain: 旧做法是每个场景单独写检测脚本、单独对接模型和告警，重复劳动多且难以复用；公开材料显示该平台把这些环节做成可配置项，属于工作流推理。
+  pain_en: The old way is writing a detection script per scenario and wiring models and alerts separately,
+    which is repetitive and hard to reuse; public material shows the platform turns these steps into configuration,
+    which is workflow inference.
+  current_alternative: 旧做法是定制开发检测脚本或采购封闭的视觉检测系统，按项目交付；这一替代路径由产品定位推断，候选材料未直接描述。
+  current_alternative_en: The old path is custom detection scripts or closed commercial vision systems
+    delivered per project; this alternative is inferred from the product positioning, not directly stated
+    in the candidate material.
+  usage_reason: 推断：相较每个场景重写脚本，它把模型接入、抽帧和告警配置收敛成一套可复用设置，减少重复对接这一步，因此已有摄像头资产、需要快速上线多路检测的集成商会选择它；但缺少误报率与部署案例证据。
+  usage_reason_en: 'Inference: compared with rewriting scripts per scenario, it consolidates model hookup,
+    frame sampling and alert configuration into reusable settings, cutting the repeated integration step,
+    so integrators with existing camera assets needing multiple detections fast would choose it; evidence
+    on false-alarm rates and deployments is missing.'
+- id: req-full-vision-hub-platform-2026-09-23
+  project_slug: vision-hub-platform
+  level: full
+  reviewed_at: '2026-09-23T01:12:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决已有摄像头资产上新增视觉检测要重复写脚本、重复对接模型与告警的痛点，旧流程明确，属于工作流推理。
+    evidence_ids:
+    - ev-6880812d14d5b082
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 80 星、1 个 fork，没有 issue 讨论或客户案例，尚不能说明集成商已形成使用共识。
+    evidence_ids:
+    - ev-6880812d14d5b082
+  - gate: model
+    status: insufficient
+    reason: 开源项目本身无定价，买方可能是集成商或终端企业，付费路径未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6880812d14d5b082
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明部署方式、模型来源与告警准确率，检测结果能否确定性交付无法核对。
+    evidence_ids:
+    - ev-6880812d14d5b082
+  next_validation: 收集该仓库的部署文档与 issue 讨论，核对真实摄像头环境下的误报率与已落地场景。
+  market: ''
+  job: 安防或工厂的集成工程师在已有摄像头和视频流上要新增一路视觉检测任务，需要把摄像头、视频流和视觉模型接起来，并配置抽帧、检测区域与告警。
+  job_en: A security or factory integration engineer adding a visual detection task on existing cameras
+    and streams must connect cameras, streams and vision models, then configure frame sampling, detection
+    regions and alerts.
+  pain: 旧做法是每个场景单独写检测脚本、单独对接模型和告警，重复劳动多且难以复用；公开材料显示该平台把这些环节做成可配置项，属于工作流推理。
+  pain_en: The old way is writing a detection script per scenario and wiring models and alerts separately,
+    which is repetitive and hard to reuse; public material shows the platform turns these steps into configuration,
+    which is workflow inference.
+  current_alternative: 旧做法是定制开发检测脚本或采购封闭的视觉检测系统，按项目交付；这一替代路径由产品定位推断，候选材料未直接描述。
+  current_alternative_en: The old path is custom detection scripts or closed commercial vision systems
+    delivered per project; this alternative is inferred from the product positioning, not directly stated
+    in the candidate material.
+  usage_reason: 推断：相较每个场景重写脚本，它把模型接入、抽帧和告警配置收敛成一套可复用设置，减少重复对接这一步，因此已有摄像头资产、需要快速上线多路检测的集成商会选择它；但缺少误报率与部署案例证据。
+  usage_reason_en: 'Inference: compared with rewriting scripts per scenario, it consolidates model hookup,
+    frame sampling and alert configuration into reusable settings, cutting the repeated integration step,
+    so integrators with existing camera assets needing multiple detections fast would choose it; evidence
+    on false-alarm rates and deployments is missing.'

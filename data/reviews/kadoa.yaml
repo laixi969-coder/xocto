@@ -83,3 +83,46 @@
     step; but the public material states no data sources, covered categories or verifiable results, so
     it cannot be confirmed as more reliable than existing sources and does not form a verifiable usage
     reason.'
+- id: req-full-kadoa-2026-09-23
+  project_slug: kadoa
+  level: full
+  reviewed_at: '2026-09-23T01:11:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决食品价格信息滞后的问题，但公开材料只有一句网站描述，说不清数据来源、覆盖品类和可核对结果，痛点是否刚性无法判断。
+    evidence_ids:
+    - ev-c11b608955544d57
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Kadoa 食品价格页面的数据来源说明与更新口径文档，确认覆盖品类、更新频率以及是否公开采集方法。
+  market: ''
+  job: 零售采购、定价人员或食品行业分析师在需要判断美国食品价格走势、准备调价或采购决策时，打开 Kadoa 的食品价格页面，查看每日更新的价格追踪结果。
+  job_en: Retail procurement or pricing staff, or food industry analysts, open Kadoa's food-prices page
+    to view daily-updated price tracking results when judging US food price trends or preparing repricing
+    and purchasing decisions.
+  pain: 食品价格波动直接影响采购成本与定价，靠人工比价或月度报告获取信息滞后，可能错过调价窗口；但公开材料只有一句网站描述，未说明数据来源、覆盖品类与更新口径，痛点是否刚性无法核实。
+  pain_en: Food price swings directly affect procurement cost and pricing; manual comparison or monthly
+    reports arrive late and may miss a repricing window. But the public material is only a one-line site
+    description with no stated data sources, covered categories or update methodology, so the rigidity
+    of the pain cannot be verified.
+  current_alternative: 现在多靠政府统计发布、行业报告、供应商报价或人工比价获取食品价格信息。
+  current_alternative_en: Today food price information usually comes from government statistics, industry
+    reports, supplier quotes or manual price comparison.
+  usage_reason: 推断：相较等待月度报告或人工比价，它把价格追踪做成每日更新，省掉自己采集这一步；但公开材料没有说明数据来源、覆盖品类和是否可核对，无法确认它比现有来源更可靠，因此用户为何选择它仍缺乏依据。
+  usage_reason_en: 'Inference: compared with waiting for monthly reports or manual comparison, it turns
+    price tracking into a daily update, removing the collection step; however, the public material does
+    not state the data sources, covered categories or verifiability, so it cannot be confirmed as more
+    reliable than existing sources and the reason users would choose it lacks support.'

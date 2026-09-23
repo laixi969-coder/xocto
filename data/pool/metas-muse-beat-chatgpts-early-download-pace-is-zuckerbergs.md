@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR0JveXdMU2tK
 summary: 'Meta’s Muse Beat ChatGPT’s Early Download Pace: Is Zuckerberg’s AI Bet Finally Paying Out? TradingView'
 first_seen: '2026-09-22T19:02:09Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

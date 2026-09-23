@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPelJManJtWVFj
 summary: AI“用”起来，广东“跑”起来！一文看懂第二届广东省人工智能应用对接大会 huacheng.gz-cmc.com
 first_seen: '2026-09-22T15:47:20Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

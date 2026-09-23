@@ -125,3 +125,55 @@
     trips and computes KPIs, removing manual pairing and formula upkeep; versus cloud journals it runs
     locally with no account and no telemetry, so privacy-conscious individual traders who still want an
     AI review draft would pick it for local review sessions.'
+- id: req-full-trading-journal-ai-2026-09-23
+  project_slug: trading-journal-ai
+  level: full
+  reviewed_at: '2026-09-23T01:12:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人交易者把券商逐笔 CSV 整理成回合交易并做复盘的需求，痛点是手工配对与统计耗时、易漏记执行偏差，不做的后果是重复错误决策；旧替代为 Excel、笔记日志与通用聊天机器人。公开说明已能还原输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+    - ev-1a71f9554099f19a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 55 增至 63、66，说明开源社区注意到该项目，但收藏与关注只属规模或关注度证据，不能证明目标交易者已把它长期留在复盘工作流中；缺少 issue、discussion
+      或用户评价说明持续使用。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+    - ev-1a71f9554099f19a
+    - ev-9f9ced4202f62fe0
+  - gate: model
+    status: insufficient
+    reason: 项目为 MIT 开源、无账号无遥测，公开材料未见定价页、付费路径或客户采购记录，谁付钱尚不清楚；这是判断而非已验证事实，但开源本地工具也可能靠捐赠、托管版或增值服务变现，路径未在公开证据中出现。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺本地运行、无遥测、由 Claude 生成日记分析，但未见部署文档、可复现实测或 issue 说明 CSV 格式兼容范围与 AI 分析出错时的人工核对边界，交付能否稳定发生尚缺可核验材料。
+    evidence_ids:
+    - ev-ebc2c6e930bbf80e
+    - ev-1a71f9554099f19a
+  next_validation: 追踪该仓库的 issue 与 discussion，确认用户实际导入的券商 CSV 格式、回合配对失败案例以及 Claude 分析结果被人工修正的具体记录。
+  market: ''
+  job: 个人交易者在自己电脑上导入券商导出的 CSV 成交流水，把零散记录整理成完整回合交易与 KPI，再借助 Claude 生成交易日记式复盘，最终由交易者自己核对并确认复盘结论。
+  job_en: An individual trader imports broker-exported CSV fills on their own machine, turns scattered
+    records into round-trip trades and KPIs, then uses Claude to generate a trading-diary review that
+    the trader personally verifies and confirms.
+  pain: 券商流水是逐笔成交，个人交易者难以手工配对成回合交易并统计胜率、盈亏比等指标；复盘靠手写笔记或表格，耗时且容易漏记情绪与执行偏差，不做的后果是重复同样的错误决策。
+  pain_en: Broker exports are fill-level records, so an individual trader struggles to manually pair them
+    into round-trip trades and compute win rate or profit factor; review relies on handwritten notes or
+    spreadsheets, which is slow and easily misses emotional and execution deviations, so the consequence
+    of not doing it is repeating the same bad decisions.
+  current_alternative: 手工 Excel 表格、纸质或笔记类交易日志、券商自带报表，以及把成交记录贴进通用聊天机器人做分析。
+  current_alternative_en: Manual Excel sheets, paper or note-app trading journals, broker-provided statements,
+    and pasting fills into a general-purpose chatbot for analysis.
+  usage_reason: 相较手工表格或通用聊天机器人，它把 CSV 导入、回合配对、KPI 计算和日记分析串成一条本地流水线，用户不必自己写配对公式或反复粘贴数据，且数据不出本机、无需账号；推断注重隐私、愿意自己跑本地工具的个人交易者会在需要定期复盘时选择它。
+  usage_reason_en: Compared with manual spreadsheets or a general chatbot, it chains CSV import, round-trip
+    pairing, KPI computation and diary analysis into one local pipeline, so users need not write pairing
+    formulas or repeatedly paste data, and data never leaves the machine with no account required; inferred
+    that privacy-conscious individual traders willing to run a local tool would choose it when doing periodic
+    review.

@@ -89,3 +89,96 @@
     and compare outputs side by side before picking a result, removing the step of exporting and comparing
     across platforms, so small business owners needing many campaign assets quickly would choose it when
     testing creatives; public material provides no retention or repeat-purchase evidence.'
+- id: req-initial-higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a-2026-09-23
+  project_slug: higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决小企业做视频广告素材的任务，但材料未给出痛点、旧流程与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-7dbd7502424e08e7
+  - gate: consensus
+    status: insufficient
+    reason: 只有一笔投资报道，没有客户案例、用户评价或采用数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-7dbd7502424e08e7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或计费方式，钱来自 to B 还是 to C 无法判断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7dbd7502424e08e7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对成片是否可直接投放、人工确认边界在哪，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-7dbd7502424e08e7
+  next_validation: 收集 Higgsfield AI 官方定价页或客户案例页，确认其计费方式与成片交付结果。
+  market: ''
+  job: 小企业营销人员需要为投放准备视频广告素材，把产品画面、卖点文案和品牌元素整理成可投放的成片。
+  job_en: A small-business marketer needs video ad assets for campaigns, turning product footage, selling-point
+    copy and brand elements into a placement-ready cut.
+  pain: 候选材料未说明具体痛点，只能推断小团队缺少剪辑人力与制作预算；缺少用户抱怨或旧流程描述，痛点强度无法确认。
+  pain_en: The candidate material states no specific pain; one can only infer that small teams lack editing
+    staff and production budget, and without user complaints or an old-workflow description the pain intensity
+    cannot be confirmed.
+  current_alternative: 公开材料未给出替代方式；按常见做法推断为外包剪辑或使用通用视频生成工具，但这是推断，不是材料事实。
+  current_alternative_en: The public material gives no alternative; by common practice it would be outsourced
+    editing or generic video generation tools, but that is inference, not a material fact.
+  usage_reason: 材料只称其让小企业的视频广告创作更容易、新工具上市更快，没有说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: The material only claims it makes video ad creation easier for small businesses and
+    brings tools to market faster; it does not say which step is reduced versus the old way or which checkable
+    result improves, so it cannot explain why users would choose it.
+- id: req-full-higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a-2026-09-23
+  project_slug: higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a
+  level: full
+  reviewed_at: '2026-09-23T01:10:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小企业营销人员为投放产出视频广告素材的需求，痛点是多模型分别试用、下载再比对导致选型与试错成本高；公开页面显示其把多个视频模型并入同一工作台并支持并排比较，旧流程与交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-2456a6d7364423ee
+    - ev-174e34df36eaf705
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网功能说明与官方 YouTube 频道，没有客户案例、用户评价或采用数据，无法判断共识卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-174e34df36eaf705
+    - ev-322d29e6eb33fb20
+  - gate: model
+    status: insufficient
+    reason: 未检索到定价页、计费方式或买方信息，钱来自 to C 创作者订阅还是 to B 团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-174e34df36eaf705
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成成片是否可直接投放、多模型输出的一致性与人工确认边界，承诺能否确定性交付缺少公开材料支撑。
+    evidence_ids:
+    - ev-2456a6d7364423ee
+  next_validation: 追踪 Higgsfield AI 官网定价页与客户案例页，确认其计费方式、买方类型以及成片是否可直接用于投放的交付结果。
+  market: ''
+  job: 小企业营销人员或电商运营在需要为投放准备视频广告素材时，把产品画面、卖点文案与品牌元素输入 Higgsfield，在同一个工作台里调用 Seedance、Kling、Veo、Sora 等多个视频模型生成并对比成片，挑出可用版本用于投放。
+  job_en: A small-business marketer or e-commerce operator preparing video ad assets inputs product footage,
+    selling-point copy and brand elements into Higgsfield, calls several video models (Seedance, Kling,
+    Veo, Sora) in one workspace to generate and compare outputs, and picks a usable cut for placement.
+  pain: 公开事实显示小团队要在多个视频模型之间来回切换、分别付费和下载再比对，选型与试错成本高；候选材料未给出用户抱怨或旧流程描述，因此痛点强度属工作流结构推理，而非用户口述。
+  pain_en: Public facts show small teams must switch between multiple video models, pay and download separately,
+    then compare, making model selection and trial-and-error costly; the candidate material gives no user
+    complaints or old-workflow description, so pain intensity is a workflow-structure inference, not user
+    testimony.
+  current_alternative: 旧做法是分别订阅或试用单一视频模型（如 Sora、Kling、Veo），或外包剪辑；公开材料未直接描述替代方式，此判断为推断。
+  current_alternative_en: The old way is subscribing to or trialing a single video model (Sora, Kling,
+    Veo) separately, or outsourcing editing; the public material does not describe the alternative directly,
+    so this is inference.
+  usage_reason: 推断：相较逐个模型分别生成再下载比对，Higgsfield 把多个模型放进同一工作台并支持并排比较输出，减少了切换平台与重复上传素材的步骤，因此缺少剪辑人力、需要快速产出多版广告素材的小企业营销人员会在赶投放档期时选择它；公开材料未提供用户反馈或留存证据，动机仍属推断。
+  usage_reason_en: 'Inference: versus generating in each model separately and downloading to compare,
+    Higgsfield puts multiple models in one workspace with side-by-side output comparison, cutting platform
+    switching and repeated asset uploads, so small-business marketers without editing staff who need several
+    ad variants fast would choose it under a placement deadline; the public material offers no user feedback
+    or retention evidence, so the motive remains inference.'

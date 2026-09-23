@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/vaticinus/forecast-stack
 summary: Event forecasts with your OpenRouter key.
 first_seen: '2026-09-22T11:55:35Z'
 last_seen: '2026-09-23T00:34:36Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

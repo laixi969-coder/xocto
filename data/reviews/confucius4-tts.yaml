@@ -1,0 +1,90 @@
+- id: req-initial-confucius4-tts-2026-09-23
+  project_slug: confucius4-tts
+  level: initial
+  reviewed_at: '2026-09-23T00:34:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多语言配音要逐条重录、按分钟付费的问题，痛点刚性且旧替代行为明确；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-7e83861ba70063f4
+  - gate: consensus
+    status: insufficient
+    reason: 仅2个公开点赞，没有用户评价、案例或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-7e83861ba70063f4
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱可能来自内容团队按条付费或按分钟计费，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-7e83861ba70063f4
+  - gate: truth
+    status: insufficient
+    reason: 音色授权、口音质量与人工校对边界均未披露，交付能否稳定达到可用水平无法核对。
+    evidence_ids:
+    - ev-7e83861ba70063f4
+  next_validation: 收集该演示空间的官方说明或模型卡，核对14种语言清单、音色授权条款与是否有可复现的合成样例。
+  market: ''
+  job: 跨境电商或在线课程团队在需要把已有中文/英文讲解视频做成多语言版本时，处理原声录音与字幕文本，要产出目标语言的配音音轨。
+  job_en: A cross-border e-commerce or online-course team needs multilingual versions of an existing Chinese
+    or English explainer video, working from the source recording and subtitle text to produce a target-language
+    voice track.
+  pain: 旧做法要请母语配音员逐条重录，按分钟计价、排期以天计，小语种更难找；不做的后果是内容只能覆盖一两种语言，海外转化受限。
+  pain_en: The old way hires native voice actors to re-record each line, priced per minute with day-long
+    scheduling, and rare languages are hard to staff; the cost of not doing it is content limited to one
+    or two languages and weaker overseas conversion.
+  current_alternative: 人工配音员重录、外包本地化公司，或使用通用 TTS 后接受带口音的合成音。
+  current_alternative_en: Re-recording with human voice actors, outsourcing to localization agencies,
+    or using generic TTS and accepting accented synthetic speech.
+  usage_reason: 推断：相较逐条重录，它把音色克隆与目标语言合成合并成一次输入动作，省掉重新约配音员和重录整段音频这一步，因此预算有限、需要快速出多语言版本的小团队会先试它；公开材料没有付费、留存或客户案例，长期采用尚未核验。
+  usage_reason_en: 'Inference: compared with line-by-line re-recording, it merges voice cloning and target-language
+    synthesis into a single input step, removing the need to book a voice actor and re-record the whole
+    track, so small teams with limited budget and fast multilingual needs would try it first; public material
+    shows no payment, retention or customer cases, so sustained use is unverified.'
+- id: req-full-confucius4-tts-2026-09-23
+  project_slug: confucius4-tts
+  level: full
+  reviewed_at: '2026-09-23T01:09:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多语言配音要逐条重录、按分钟付费的问题，痛点刚性且旧替代行为明确；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-7e83861ba70063f4
+  - gate: consensus
+    status: insufficient
+    reason: 仅2个公开点赞，没有用户评价、案例或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-7e83861ba70063f4
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱可能来自内容团队按条付费或按分钟计费，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-7e83861ba70063f4
+  - gate: truth
+    status: insufficient
+    reason: 音色授权、口音质量与人工校对边界均未披露，交付能否稳定达到可用水平无法核对。
+    evidence_ids:
+    - ev-7e83861ba70063f4
+  next_validation: 追踪 Confucius4-TTS 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 跨境电商或在线课程团队要把已有中文/英文讲解视频做成多语言版本时，处理原声录音与字幕文本，产出目标语言的配音音轨。
+  job_en: A cross-border e-commerce or online-course team needs multilingual versions of an existing Chinese
+    or English explainer video, working from the source recording and subtitle text to produce a target-language
+    voice track.
+  pain: 旧做法要请母语配音员逐条重录，按分钟计价、排期以天计，小语种更难找；不做的后果是内容只能覆盖一两种语言，海外转化受限。
+  pain_en: The old way hires native voice actors to re-record each line, priced per minute with day-long
+    scheduling, and rare languages are hard to staff; the cost of not doing it is content limited to one
+    or two languages and weaker overseas conversion.
+  current_alternative: 人工配音员重录、外包本地化公司，或使用通用 TTS 后接受带口音的合成音。
+  current_alternative_en: Re-recording with human voice actors, outsourcing to localization agencies,
+    or using generic TTS and accepting accented synthetic speech.
+  usage_reason: 推断：相较逐条重录，它把音色克隆与目标语言合成合并成一次输入动作，省掉重新约配音员和重录整段音频这一步，因此预算有限、需要快速出多语言版本的小团队会先试它；公开材料没有付费、留存或客户案例，长期采用尚未核验。
+  usage_reason_en: 'Inference: compared with line-by-line re-recording, it merges voice cloning and target-language
+    synthesis into a single input step, removing the need to book a voice actor and re-record the whole
+    track, so small teams with limited budget and fast multilingual needs would try it first; public material
+    shows no payment, retention or customer cases, so sustained use is unverified.'

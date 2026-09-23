@@ -22,7 +22,7 @@ summary: Closing the Gap Between Advanced Robotics and AI Research for Real-Worl
   Tomorrow
 first_seen: '2026-09-22T12:39:38Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -177,3 +177,50 @@
     and writing onto the device without root, removing the steps of switching keyboards and unlocking
     via flashing, so users blocked by device limits who prefer system dictation would choose it for longer
     dictation sessions.'
+- id: req-full-pixelboard-2026-09-23
+  project_slug: pixelboard
+  level: full
+  reviewed_at: '2026-09-23T01:11:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决被机型或系统版本限制的用户无法使用系统级听写、只能手动打字或换输入法的问题，旧流程与不采用代价明确，属工作流结构推理；但公开材料仅项目自述，无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 54 增至 78，属关注度而非采用证据；没有用户评价、issue 讨论或持续使用记录，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+    - ev-1aa750796a050577
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、赞助或商业路径，买方与付费方式均不明确；这是判断，不是已验证事实，但不足以取消真需求判定。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+  - gate: truth
+    status: insufficient
+    reason: 功能依赖厂商未公开的 Gemini 听写能力，兼容机型、系统版本与长期可用性无法确认，交付确定性存疑，且无部署文档或实测记录。
+    evidence_ids:
+    - ev-2fe1840dd2bdd3df
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认实际可用机型、系统版本范围，以及是否因厂商更新而失效。
+  market: ''
+  job: Android 手机用户在需要快速口述记录想法、写消息或长文时，处理自己的语音内容，要把它变成可编辑文字，但自己的机型或系统版本不提供 Gemini 自然语音听写与写作入口。
+  job_en: An Android user who wants to quickly dictate an idea, message, or longer text works from their
+    own speech and needs it turned into editable text, but their device or OS version does not expose
+    the Gemini natural voice dictation and writing entry point.
+  pain: 被机型或系统版本挡在系统级听写之外，只能退回第三方输入法语音或手动打字，体验与准确度不一致；公开材料只给出项目自述，没有用户抱怨或反馈作为直接痛点证据。
+  pain_en: Being locked out of system-level dictation by device or OS version forces a fallback to third-party
+    keyboard voice input or manual typing, with inconsistent experience and accuracy; public material
+    offers only the project's own claim, not user complaints or feedback as direct pain evidence.
+  current_alternative: 多数人使用第三方输入法自带的语音输入，或直接手动打字；部分用户会刷机、root 或更换设备来获得系统听写。
+  current_alternative_en: Most people use the voice input built into a third-party keyboard or simply
+    type by hand; some resort to flashing, rooting, or switching devices to get system dictation.
+  usage_reason: 推断：相较第三方输入法语音，它宣称无需 root 即可在任意 Android 手机上启用系统级听写与写作，省掉刷机或换机这一步，因此被机型限制、又偏好系统听写的用户会尝试；但具体机型、系统版本与功能边界未公开，采用动机尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus third-party keyboard voice input, it claims to enable system-level
+    dictation and writing on any Android phone without root, removing the flashing-or-switching-device
+    step, so users blocked by device limits who prefer system dictation would try it; however supported
+    models, OS versions, and feature boundaries are undisclosed, and no user feedback backs the adoption
+    motive.'

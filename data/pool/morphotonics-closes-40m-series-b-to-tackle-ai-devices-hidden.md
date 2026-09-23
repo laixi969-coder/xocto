@@ -1,6 +1,6 @@
 ---
 slug: morphotonics-closes-40m-series-b-to-tackle-ai-devices-hidden
-name: Morphotonics closes €40M+ Series B to tackle AI devices’ hidden manufacturing bottleneck
+name: Morphotonics
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Netherlands-based deeptech companyMorphotonics has raised more than €
   to scale itsmanufacturing technology for AI glasses, augmented reality waveguides andadvanced photon...
 first_seen: '2026-09-22T07:20:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Morphotonics closes €40M+ Series B to tackle AI devices’ hidden manufacturing bottleneck
+# Morphotonics
 
 Netherlands-based deeptech companyMorphotonics has raised more than €40 million in Series B funding to scale itsmanufacturing technology for AI glasses, augmented reality waveguides andadvanced photon...
 

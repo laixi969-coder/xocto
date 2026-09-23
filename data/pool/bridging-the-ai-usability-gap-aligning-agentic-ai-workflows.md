@@ -22,7 +22,7 @@ summary: 'Bridging the AI Usability Gap: Aligning Agentic AI Workflows with Fron
   VMblog'
 first_seen: '2026-09-21T20:36:55Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: Disney Names Karandeep Anand as First-Ever CTO Despite Past IP Dispute 
   Insider
 first_seen: '2026-09-22T16:26:50Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

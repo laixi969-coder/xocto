@@ -134,3 +134,53 @@
     answers, removing environment setup and manual checking and making pass results comparable across
     agents; teams building or selecting web-penetration agents that need reproducible evaluation would
     pick it for model comparison or version regression.'
+- id: req-full-hackbot-arena-2026-09-23
+  project_slug: hackbot-arena
+  level: full
+  reviewed_at: '2026-09-23T01:10:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 渗透 agent 评测缺少统一可复现基准的需求：公开说明称 30 个 Docker 靶场源自真实 bug bounty 发现并配标准 flag 与参考解题脚本，可还原“接入
+      agent—自动探测—提交 flag—判定通过”的闭环，不采用则只能自建环境或人工核对，属工作流结构推理。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 升至 42，说明有开发者关注，但公开材料没有 issue、discussion 或客户案例显示目标用户已把它纳入常规评测流程，持续采用证据不足。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+    - ev-48e443a628e76dde
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费客户或采购记录，谁付钱、按什么单位收费均未核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺标准 flag 与参考解题脚本可判定通过，但未见部署文档、可复现实测或 issue 记录证明 30 个靶场能稳定运行且判定无歧义，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-e6f99b2a75f5c64d
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认 30 个 Docker 靶场能否按文档复现运行、标准 flag 判定是否稳定，以及是否有外部用户报告实际评测结果。
+  market: ''
+  job: AI 智能体开发者或安全研究员在需要评估自家 Web 渗透 agent 的真实解题能力时，把 agent 接入 30 个 Docker 化 Web 安全靶场，让 agent 自行探测并提交
+    flag，最终得到一份可对比的通过结果。
+  job_en: An AI agent developer or security researcher evaluating their web-pentest agent's real solving
+    ability connects the agent to 30 Dockerized web security labs, lets it probe and submit flags autonomously,
+    and obtains a comparable pass result.
+  pain: 公开材料显示靶场由真实 bug bounty 发现改编并配有标准 flag 与参考解题脚本，说明此前评测 agent 时缺少统一、可复现的判定基准，只能自建环境或人工核对，结果难以横向比较。
+  pain_en: Public materials show the labs are adapted from real bug bounty findings with canonical flags
+    and reference solvers, implying that evaluating agents previously lacked a unified, reproducible benchmark,
+    forcing self-built environments or manual checking with results hard to compare.
+  current_alternative: 公开材料未直接描述旧做法；从产品定位推断，用户此前可能自建靶场、使用通用 CTF 题目或人工复核 agent 输出，缺少带标准答案的 Web 渗透专项基准。
+  current_alternative_en: Public materials do not directly describe the prior approach; inferred from
+    positioning, users likely built their own labs, used generic CTF challenges, or manually reviewed
+    agent output, lacking a web-pentest benchmark with canonical answers.
+  usage_reason: 推断：相较自建靶场或人工核对，该产品把 30 个真实漏洞场景、标准 flag 与参考解题脚本打包成 Docker 靶场，agent 提交 flag 后由系统自动判定，省去搭建环境和人工判分两步，因此需要可复现横向对比的
+    agent 开发者会在评测阶段选择它。
+  usage_reason_en: 'Inference: compared with self-built labs or manual checking, the product packages
+    30 real-vulnerability scenarios, canonical flags, and reference solvers into Docker labs, and the
+    system auto-judges submitted flags, removing environment setup and manual scoring; thus agent developers
+    needing reproducible comparison would choose it during evaluation.'

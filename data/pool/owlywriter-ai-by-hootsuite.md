@@ -2,28 +2,42 @@
 slug: owlywriter-ai-by-hootsuite
 name: Wisdom
 builder: Hootsuite
-category: AI + 商业
-summary_zh: 社媒团队在 Hootsuite 内调用 Wisdom，从实时社交对话识别趋势，生成符合品牌语气的帖子，并整理活动与内容日历。
-inspiration: AI 不必成为独立工具；它可以长在用户原本监测、写作和排期的工作流里，用品牌与社交上下文减少切换和重复劳动。
-summary_en: Social teams use Wisdom inside Hootsuite to identify trends from live social conversations,
-  draft on-brand posts, and assemble campaigns and content calendars.
-inspiration_en: AI does not have to be a standalone tool. It can live inside the workflow where users
-  already monitor, write, and schedule, using brand and social context to reduce switching and repetition.
+category: AI + 创作
+summary_zh: 社媒运营在需要持续产出帖子与活动排期时，打开 Hootsuite 的 Wisdom，把实时社交对话和品牌语气要求交给它，由它识别趋势、起草帖子与内容日历，运营人员再人工确认后发布；具体交付流程仍待核验。
+inspiration: 趋势是社媒工具正把“想选题”这一步从人脑搬到对话数据里；切入可考虑为垂直行业（如地产经纪、区域零售）做基于本地真实对话的选题与排期服务，按产出内容或活动收费，而非再做一个通用发帖工具。
+summary_en: When social media operators must keep producing posts and campaign schedules, they open Wisdom
+  inside Hootsuite, hand it live social conversations and brand tone requirements, and it identifies trends
+  and drafts posts and content calendars for human confirmation before publishing; the exact delivery
+  flow still needs verification.
+inspiration_en: The trend is that social tools are moving the 'come up with ideas' step from human brains
+  into conversation data; an opening is to serve a vertical such as real estate brokerages or regional
+  retail with topic and scheduling services built on local real conversations, charging per output or
+  campaign rather than building another generic posting tool.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 营销与广告
+- 媒体与内容
+industries_en:
+- Marketing and Advertising
+- Media and Content
+jobs:
+- 社媒运营
+- 内容策划
+jobs_en:
+- Social Media Operations
+- Content Planning
+regions:
+- 北美
+regions_en:
+- North America
 open_source: false
 url: https://www.hootsuite.com/platform/ai
 canonical_url: https://www.hootsuite.com/platform/ai
 summary: Wisdom is Hootsuite's social AI assistant, formerly known as OwlyWriter AI.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: watching
 sources:
 - aicpb
 - official_web

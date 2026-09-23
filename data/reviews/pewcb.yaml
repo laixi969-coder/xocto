@@ -1,0 +1,82 @@
+- id: req-initial-pewcb-2026-09-23
+  project_slug: pewcb
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向打样这一真实环节，但材料未写清谁在什么条件下用、解决哪一步痛点，价值结构无法还原。
+    evidence_ids:
+    - ev-e368a204f21633f2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，也没有可归因到该产品的采用或客户证据。
+    evidence_ids:
+    - ev-e368a204f21633f2
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露设备价格、按板收费或买方类型，无法判断付费路径。
+    evidence_ids:
+    - ev-e368a204f21633f2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对布线结果是否可直接投产，也看不到人工复核边界。
+    evidence_ids:
+    - ev-e368a204f21633f2
+  next_validation: 收集 PewCB 官方页面或文档，确认它接收的设计文件格式、输出板子的规格与是否公布定价。
+  market: ''
+  job: 硬件工程师在需要快速拿到打样板时，处理电路设计文件，要完成从设计到可测试实物的转换；具体输入与流程材料未说明。
+  job_en: A hardware engineer needing a prototype board quickly works on circuit design files to turn
+    a design into a testable physical object; the specific inputs and process are not stated.
+  pain: 材料未说明现有打样流程的具体痛点，只能推断为外部打样周期与沟通成本，属推断。
+  pain_en: The material does not state the concrete pain of current prototyping; long external turnaround
+    and coordination cost is only an inference.
+  current_alternative: 现有替代方式未在材料中给出，通常为外部 PCB 打样厂，属推断。
+  current_alternative_en: No current alternative is given; external PCB prototyping services are the usual
+    substitute, which is an inference.
+  usage_reason: 材料未说明它相较外部打样减少了哪一步或改善了哪项可核对结果，无法解释工程师为何选择它。
+  usage_reason_en: The material does not say which step it removes versus external prototyping or which
+    checkable result it improves, so it cannot explain why an engineer would choose it.
+- id: req-full-pewcb-2026-09-23
+  project_slug: pewcb
+  level: full
+  reviewed_at: '2026-09-23T01:11:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向打样这一真实环节，但公开材料只有两句口号，未写清谁在什么条件下用、解决哪一步痛点、交付什么可核对的板子，价值结构无法还原。
+    evidence_ids:
+    - ev-e368a204f21633f2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 PewCB 官方产品页或部署文档，确认它接收的设计文件格式、输出板子的规格与是否公布定价。
+  market: ''
+  job: 硬件工程师在需要快速拿到打样板时，处理电路设计文件，要完成从设计到可测试实物的转换；公开材料只有“桌面 PCB 工厂”“vibe-routing”两句，未说明接收什么设计文件、执行哪一步布线、交付什么规格的板子。
+  job_en: A hardware engineer needing a prototype board quickly works on circuit design files to turn
+    a design into a testable physical object; the public material only says 'Desktop PCB Factory' and
+    'vibe-routing', without stating which design files it accepts, which routing step it performs, or
+    what board spec it delivers.
+  pain: 公开材料未写出任何具体痛点，外部打样周期长、沟通成本高只能算推断，不能当作已证实的用户痛点。
+  pain_en: The public material states no concrete pain; long external prototyping turnaround and coordination
+    cost is only an inference, not a documented user pain.
+  current_alternative: 材料未给出当前替代方式，外部 PCB 打样厂或桌面刻板机属推断，无引用可支撑。
+  current_alternative_en: No current alternative is given; external PCB prototyping services or desktop
+    milling are inferences without supporting citations.
+  usage_reason: 材料未说明它相较外部打样减少哪一步或改善哪项可核对结果，无法解释工程师为何选择它，属推断缺口。
+  usage_reason_en: The material does not say which step it removes versus external prototyping or which
+    checkable result it improves, so it cannot explain why an engineer would choose it; this is an inference
+    gap.

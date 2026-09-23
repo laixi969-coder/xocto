@@ -409,3 +409,57 @@
     stay local'', removing repeated logins and data egress, which appeals to developers and IT administrators
     who cannot let data leave the intranet yet need to compare models; public material provides no retention
     or repeat-use evidence.'
+- id: req-full-oriveo-2026-09-23
+  project_slug: oriveo
+  level: full
+  reviewed_at: '2026-09-23T01:11:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型切换与对话数据外流的痛点：自带密钥、本地留存、可自托管让交付边界清楚，受合规约束的团队有明确使用理由；这是基于产品能力与旧流程的结构推理，尚无用户评价佐证。
+    evidence_ids:
+    - ev-871355074fde8908
+    - ev-5ec2e57f3f01c74f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 123 增至 215 只反映关注度，没有用户评价、企业采用案例或重复使用证据，是否形成持续共识无法判断。
+    evidence_ids:
+    - ev-871355074fde8908
+    - ev-5ec2e57f3f01c74f
+  - gate: model
+    status: insufficient
+    reason: AGPL-3.0 开源且无账号体系，公开材料未披露定价或收费方式，买方与付费路径只能推断为自托管支持或企业服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-871355074fde8908
+  - gate: truth
+    status: supported
+    reason: 本地优先与自托管让数据留存可核对，密钥由用户自持，未发现把用户数据交给第三方的承诺冲突；但安全边界与人工介入规则尚无公开文档验证。
+    evidence_ids:
+    - ev-871355074fde8908
+    - ev-b3b35726f7d9fb7b
+  next_validation: 追踪 oriveo 官方仓库的 README、release 说明或 issue/discussion，确认是否出现自托管部署文档、企业采用案例或付费支持路径。
+  market: ''
+  job: 个人开发者或企业 IT 管理员在需要同时调用 OpenAI、Anthropic、Gemini、DeepSeek 或本地 Ollama/vLLM 做对比与内部试用、又不愿把对话交给第三方账号时，在
+    iOS、Android 或网页端填入自己的 API Key，在一个客户端里完成多模型问答并让记录留在本地。
+  job_en: An individual developer or enterprise IT administrator who needs to call OpenAI, Anthropic,
+    Gemini, DeepSeek or local Ollama/vLLM endpoints for comparison and internal pilots, without handing
+    conversations to third-party accounts, enters their own API key in an iOS, Android or web client to
+    run multi-model chat in one place with records kept locally.
+  pain: 同时使用多家模型要在多个网页或应用间切换、重复登录，密钥与对话记录分散在各家账号中；对受合规约束的团队，对话内容留在外部账号不可接受，而自行拼装开源前端又要自己维护。
+  pain_en: Using several providers means switching between multiple sites or apps and logging in repeatedly,
+    with keys and conversation history scattered across vendor accounts; for compliance-bound teams, leaving
+    conversations in external accounts is unacceptable, while assembling an open-source front end oneself
+    requires self-maintenance.
+  current_alternative: 分别使用各家官方客户端或网页，或自行拼装开源前端；前者无法统一管理密钥与记录，后者需要自己维护。
+  current_alternative_en: Using each vendor's official client or website separately, or assembling an
+    open-source front end oneself; the former cannot unify key and record management, the latter needs
+    self-maintenance.
+  usage_reason: 推断：相较逐家登录官方客户端的旧做法，它把“多平台切换 + 账号登录”合并为“一次填入自有密钥、本地留存”，省掉逐家登录与数据外流这一步，因此对数据不能出内网、又要横向比较模型的开发者与
+    IT 管理员更有吸引力；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with logging into each vendor''s official client, it merges ''switching
+    platforms and logging in'' into ''enter your own key once and keep data local'', removing repeated
+    logins and data leaving the premises, which appeals to developers and IT administrators who cannot
+    let data leave the intranet yet need to compare models; public material provides no retention or repeat-use
+    evidence.'

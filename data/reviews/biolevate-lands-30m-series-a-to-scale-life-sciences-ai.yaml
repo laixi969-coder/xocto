@@ -1,0 +1,90 @@
+- id: req-initial-biolevate-lands-30m-series-a-to-scale-life-sciences-ai-2026-09-23
+  project_slug: biolevate-lands-30m-series-a-to-scale-life-sciences-ai
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法规与科研文档从零起草耗时且易返工的问题，痛点刚性、交付可确定；买方是生命科学企业的法规部门，公开材料未说明具体付费方。
+    evidence_ids:
+    - ev-53ad6fd661e7d1d0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，未见客户名单、使用规模或行业内的公开采用证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-53ad6fd661e7d1d0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或收费方式，钱可能来自企业软件订阅或按项目收费，属推断而非已验证事实。
+    evidence_ids:
+    - ev-53ad6fd661e7d1d0
+  - gate: truth
+    status: insufficient
+    reason: 申报文档的准确性直接关系合规风险，人工复核边界与错误责任划分在公开材料中未说明。
+    evidence_ids:
+    - ev-53ad6fd661e7d1d0
+  next_validation: 收集 Biolevate 官方定价页或公开客户案例，确认其收费方式与已部署的法规事务团队。
+  market: ''
+  job: 生命科学公司的法规事务专员在准备监管申报时，需要把实验数据、文献和既往申报文件整理成符合格式要求的申报文档。
+  job_en: A regulatory affairs specialist at a life sciences company preparing a regulatory submission
+    must turn experimental data, literature and prior filings into a format-compliant submission document.
+  pain: 这类文档撰写耗时长、格式与合规要求严格，人工逐份整理容易遗漏或返工，且专业人力成本高。
+  pain_en: Drafting these documents is slow, format and compliance requirements are strict, manual assembly
+    invites omissions and rework, and specialist labour is expensive.
+  current_alternative: 目前多由法规事务人员手工撰写，配合通用文档工具和模板，或外包给咨询机构。
+  current_alternative_en: Today this is largely written by hand by regulatory staff using generic document
+    tools and templates, or outsourced to consultancies.
+  usage_reason: 推断：相较手工从零起草，该平台直接接收科研与法规材料并生成文档草稿，减少的是“逐段查找与初稿撰写”这一步负担，因此文档量大、申报频繁的法规团队会在赶申报节点时选择它；公开材料未给出客户案例或留存数据，实际采用情况尚不可核验。
+  usage_reason_en: 'Inference: compared with drafting from scratch by hand, the platform takes scientific
+    and regulatory materials and produces draft documents, removing the step of searching and writing
+    a first draft, so regulatory teams with heavy document volume and frequent filings would choose it
+    near submission deadlines; public materials give no customer cases or retention data, so actual adoption
+    cannot be verified.'
+- id: req-full-biolevate-lands-30m-series-a-to-scale-life-sciences-ai-2026-09-23
+  project_slug: biolevate-lands-30m-series-a-to-scale-life-sciences-ai
+  level: full
+  reviewed_at: '2026-09-23T01:09:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法规与科研文档从零起草耗时且易返工的问题，痛点刚性、交付可确定；买方是生命科学企业的法规部门，公开材料未说明具体付费方。
+    evidence_ids:
+    - ev-53ad6fd661e7d1d0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，未见客户名单、使用规模或行业内的公开采用证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-53ad6fd661e7d1d0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或收费方式，钱可能来自企业软件订阅或按项目收费，属推断而非已验证事实。
+    evidence_ids:
+    - ev-53ad6fd661e7d1d0
+  - gate: truth
+    status: insufficient
+    reason: 申报文档的准确性直接关系合规风险，人工复核边界与错误责任划分在公开材料中未说明。
+    evidence_ids:
+    - ev-53ad6fd661e7d1d0
+  next_validation: 收集 Biolevate 官方定价页或公开客户案例，确认其收费方式与已部署的法规事务团队。
+  market: ''
+  job: 生命科学公司的法规事务专员与科研文档撰写人员在准备监管申报或科研文档时，需要把实验记录、文献和既往申报文件整理成符合格式与合规要求的文档草稿。
+  job_en: Regulatory affairs specialists and scientific writers at life sciences companies preparing regulatory
+    submissions or scientific documents must turn lab records, literature and prior filings into format-
+    and compliance-compliant document drafts.
+  pain: 这类文档撰写耗时长、格式与合规要求严格，人工逐份整理容易遗漏或返工，专业人力成本高，且申报节点临近时压力集中。
+  pain_en: Drafting these documents is slow, format and compliance requirements are strict, manual assembly
+    invites omissions and rework, specialist labour is expensive, and pressure concentrates near submission
+    deadlines.
+  current_alternative: 目前多由法规事务人员手工撰写，配合通用文档工具和模板，或外包给咨询机构。
+  current_alternative_en: Today this is largely written by hand by regulatory staff using generic document
+    tools and templates, or outsourced to consultancies.
+  usage_reason: 推断：相较手工从零起草，该平台直接接收科研与法规材料并生成文档草稿，减少的是“逐段查找与初稿撰写”这一步负担，因此文档量大、申报频繁的法规团队会在赶申报节点时选择它；公开材料未给出客户案例或留存数据，实际采用情况尚不可核验。
+  usage_reason_en: 'Inference: compared with drafting from scratch by hand, the platform takes scientific
+    and regulatory materials and produces draft documents, removing the step of searching and writing
+    a first draft, so regulatory teams with heavy document volume and frequent filings would choose it
+    near submission deadlines; public materials give no customer cases or retention data, so actual adoption
+    cannot be verified.'

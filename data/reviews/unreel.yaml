@@ -574,3 +574,46 @@
   usage_reason_en: The repository only shows slow star growth from 148 to 153, which is an attention signal
     and cannot explain why users choose it in a concrete situation; with no feature docs, input/output
     description, or user feedback, adoption motive cannot be inferred.
+- id: req-full-unreel-2026-09-23
+  project_slug: unreel
+  level: full
+  reviewed_at: '2026-09-23T01:12:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句“个人 AI 视频流媒体服务”定位，无法还原用户任务、输入素材、交付物与不采用的后果，痛点与替代方式均写不出来，价值结构无法成立。
+    evidence_ids:
+    - ev-e6e1f048cd551fe0
+    - ev-8d3aaf04a11df151
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/blendi-remade/unreel 的 README、issue 与 discussion，确认它实际接收什么输入、产出什么交付物、面向哪类使用者的具体任务。
+  market: ''
+  job: 公开材料只给出“个人 AI 视频流媒体服务”这一句定位，无法还原具体是谁、在什么情况下、处理什么素材、要完成什么任务；视频消费者与内容创作者两个标签都只是行业岗位标签，不构成可判断的使用场景。
+  job_en: Public materials offer only the one-line positioning 'your personal AI video streaming service';
+    it is impossible to reconstruct who, in what situation, with what material, completes what task. 'Video
+    consumers' and 'content creators' are industry/role labels, not a judgeable job.
+  pain: 仓库自述与检索结果均未描述任何用户痛点、抱怨、workaround 或不采用的后果；产品能力描述不能当作痛点证据，因此目前连要缓解的摩擦是什么都写不出来。
+  pain_en: Neither the repository description nor the coverage queries describe any user pain, complaint,
+    workaround, or consequence of non-adoption; product capability text is not pain evidence, so even
+    the friction to be relieved cannot be stated.
+  current_alternative: 公开材料没有说明用户今天用什么方式完成这件事——是自建媒体库、通用视频生成工具、还是订阅现有流媒体，均无证据，因此无法判断它替代了什么旧流程。
+  current_alternative_en: Public materials do not show how users accomplish this today — self-hosted media
+    libraries, general video-generation tools, or existing streaming subscriptions — so what old workflow
+    it replaces cannot be determined.
+  usage_reason: 缺少可核对的输入—动作—交付闭环，无法解释相较旧做法减少了哪一步负担或改善了哪项结果；148→154 的 star 增长只反映关注度，不能作为用户选择它的理由，也不能证明持续使用。
+  usage_reason_en: With no verifiable input-action-delivery loop, there is no way to explain which step's
+    burden is reduced or which outcome improves versus the old approach; the star growth from 148 to 154
+    reflects attention only, not a reason users choose it, nor evidence of sustained use.

@@ -1,0 +1,90 @@
+- id: req-initial-medical-illustration-2026-09-23
+  project_slug: medical-illustration
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医学图像既要准确又要可追溯的需求，痛点在于通用模型易出错、人工绘制慢且贵，旧流程与不采用的后果都能说清。
+    evidence_ids:
+    - ev-553c69af05ebba1b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 102 星、7 个 fork，属于早期关注度，尚无用户评价或客户案例说明谁在持续使用。
+    evidence_ids:
+    - ev-553c69af05ebba1b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是期刊、医院或科研团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-553c69af05ebba1b
+  - gate: truth
+    status: insufficient
+    reason: 证据核验机制与审核记录的具体形态未在材料中说明，能否确定性交付符合审稿要求的图像仍待核验。
+    evidence_ids:
+    - ev-553c69af05ebba1b
+  next_validation: 收集该仓库的 issue、discussion 或使用文档，确认证据核验流程与审核记录的实际形态及是否有科研或医疗机构采用。
+  market: ''
+  job: 医学科研人员、医学插画师或科普编辑在准备论文配图、患者教育材料或科普内容时，需要把医学主题和证据材料转成准确、可编辑、可追溯的插画或示意图。
+  job_en: Researchers, medical illustrators or science editors preparing journal figures, patient education
+    materials or popular science content need to turn a medical topic and its evidence into accurate,
+    editable and traceable illustrations or diagrams.
+  pain: 医学图像既要专业准确又要符合合规与审稿要求，通用绘图模型容易画错解剖结构或凭空生成，人工绘制又慢且贵，返工和核对成本高。
+  pain_en: Medical imagery must be both professionally accurate and compliant with review requirements;
+    general image models misdraw anatomy or fabricate details, while manual illustration is slow and expensive,
+    making rework and verification costly.
+  current_alternative: 目前多由医学插画师手工绘制，或用通用绘图模型生成后再由专业人员逐张核对修改，审核记录通常靠人工整理。
+  current_alternative_en: Today this is mostly done by hand by medical illustrators, or generated with
+    general image models and then checked and corrected figure by figure, with review records kept manually.
+  usage_reason: 相较通用绘图模型直接出图，该 Skill 把证据依据和审核记录一并纳入产出，并交付可编辑文件，减少专业人员逐张核对解剖细节和重建审核链的步骤；推断，面向有审稿或合规要求的科研与宣教团队。
+  usage_reason_en: Compared with generating images directly from a general model, this skill bundles evidence
+    grounding and review records into the output and delivers editable files, cutting the step of checking
+    anatomical details figure by figure and rebuilding an audit trail; this is inference, aimed at research
+    and education teams with review or compliance requirements.
+- id: req-full-medical-illustration-2026-09-23
+  project_slug: medical-illustration
+  level: full
+  reviewed_at: '2026-09-23T01:11:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医学图像既要准确又要可追溯的需求，痛点是通用模型易画错解剖或凭空生成、人工绘制慢且贵；旧替代是手工绘制或通用模型加人工核对，不解决的后果是返工与审稿风险。属工作流结构推理。
+    evidence_ids:
+    - ev-553c69af05ebba1b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 102 星属早期关注度，公开材料没有用户评价、客户案例或 issue 说明谁在持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-553c69af05ebba1b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是期刊、医院或科研团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-553c69af05ebba1b
+  - gate: truth
+    status: insufficient
+    reason: 证据核验机制与审核记录的具体形态未在材料中说明，能否确定性交付符合审稿要求的图像仍缺可核验证据。
+    evidence_ids:
+    - ev-553c69af05ebba1b
+  next_validation: 收集该仓库的 issue、discussion 或使用文档，确认证据核验流程与审核记录的实际形态，以及是否有科研或医疗机构公开采用。
+  market: ''
+  job: 医学科研人员、医学插画师或科普编辑在准备论文配图、患者教育材料或科普内容时，把医学主题与证据材料交给 Codex、Claude Code 等 AI Agent，由该 Skill 生成准确、可编辑、可追溯的插画或示意图。
+  job_en: Researchers, medical illustrators or science editors preparing journal figures, patient education
+    materials or popular science content hand a medical topic and its evidence to an AI agent such as
+    Codex or Claude Code, and the skill produces accurate, editable and traceable illustrations or diagrams.
+  pain: 医学图像既要专业准确又要符合审稿与合规要求，通用绘图模型容易画错解剖结构或凭空生成细节，人工绘制又慢且贵，返工与逐张核对成本高。
+  pain_en: Medical imagery must be professionally accurate and meet review and compliance requirements;
+    general image models misdraw anatomy or fabricate details, while manual illustration is slow and expensive,
+    making rework and figure-by-figure checking costly.
+  current_alternative: 目前多由医学插画师手工绘制，或用通用绘图模型生成后由专业人员逐张核对修改，审核记录通常靠人工整理。
+  current_alternative_en: Today this is mostly done by hand by medical illustrators, or generated with
+    general image models and then checked and corrected figure by figure, with review records kept manually.
+  usage_reason: 相较通用绘图模型直接出图，该 Skill 把证据依据与审核记录一并纳入产出并交付可编辑文件，减少专业人员逐张核对解剖细节、再重建审核链的步骤；推断，面向有审稿或合规要求的科研与宣教团队。
+  usage_reason_en: Compared with generating images directly from a general model, this skill bundles evidence
+    grounding and review records into the output and delivers editable files, cutting the step of checking
+    anatomical details figure by figure and rebuilding an audit trail; this is inference, aimed at research
+    and education teams with review or compliance requirements.

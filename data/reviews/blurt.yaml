@@ -1,0 +1,82 @@
+- id: req-initial-blurt-2026-09-23
+  project_slug: blurt
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决把语音变文本的录入需求，但材料未说明替代了哪一步旧工作、谁在什么场景下必须用它，痛点刚性无法判断。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，无用户评价、采用或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，且底层依赖第三方听写 API，自身收费路径不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  - gate: truth
+    status: insufficient
+    reason: 听写能力由外部 API 提供，产品未展示对特定工作第一性目标的贴近程度或交付确定性。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  next_validation: 收集 Blurt 官方定价页或产品文档，确认其计费方式、支持场景与是否针对特定行业工作流。
+  market: ''
+  job: 文字工作者或客服、销售支持人员在写邮件、记录会议或整理工单时，需要把手上的语音快速变成可编辑文本。
+  job_en: Writers, support agents or sales staff need to turn spoken input into editable text while drafting
+    emails, taking notes or logging tickets.
+  pain: 打字速度慢于说话速度，长文本录入耗时；候选材料未给出任何用户抱怨或替代行为的证据。
+  pain_en: Typing is slower than speaking and long-form entry is time-consuming; the candidate material
+    provides no evidence of user complaints or workarounds.
+  current_alternative: 系统自带听写、手机语音输入法或人工打字。
+  current_alternative_en: Built-in OS dictation, mobile voice keyboards, or typing by hand.
+  usage_reason: 推断：相较系统听写，它把听写做成按键触发的独立动作，可能减少误触发和切换输入法的步骤，但材料未说明与系统听写相比的具体差异，因此哪类用户会因此选择它尚不清楚。
+  usage_reason_en: 'Inference: versus built-in dictation it makes dictation a key-triggered standalone
+    action, potentially reducing misfires and input-method switching, but the material does not state
+    any concrete difference from OS dictation, so which users would choose it remains unclear.'
+- id: req-full-blurt-2026-09-23
+  project_slug: blurt
+  level: full
+  reviewed_at: '2026-09-23T01:09:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把语音快速转成可编辑文本的录入需求，痛点在于打字慢于说话、长文本录入耗时；旧替代是系统听写或人工打字。产品以按键触发听写并调用 AssemblyAI 接口交付文本，交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品发布信息，无用户评价、采用或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，且底层依赖第三方听写 API，自身收费路径不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  - gate: truth
+    status: insufficient
+    reason: 听写能力由外部 API 提供，产品未展示对特定工作第一性目标的贴近程度或交付确定性。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  next_validation: 收集 Blurt 官方定价页或产品文档，确认其计费方式、支持场景与是否针对特定行业工作流。
+  market: ''
+  job: 文字工作者、客服或销售支持人员在写邮件、记录会议或整理工单时，需要把手上的语音快速变成可编辑文本。
+  job_en: Writers, support agents or sales staff need to turn spoken input into editable text while drafting
+    emails, taking notes or logging tickets.
+  pain: 打字速度慢于说话速度，长文本录入耗时；候选材料未给出任何用户抱怨或替代行为的证据。
+  pain_en: Typing is slower than speaking and long-form entry is time-consuming; the candidate material
+    provides no evidence of user complaints or workarounds.
+  current_alternative: 系统自带听写、手机语音输入法或人工打字。
+  current_alternative_en: Built-in OS dictation, mobile voice keyboards, or typing by hand.
+  usage_reason: 推断：相较系统听写，它把听写做成按键触发的独立动作，可能减少误触发和切换输入法的步骤，但材料未说明与系统听写相比的具体差异，因此哪类用户会因此选择它尚不清楚。
+  usage_reason_en: 'Inference: versus built-in dictation it makes dictation a key-triggered standalone
+    action, potentially reducing misfires and input-method switching, but the material does not state
+    any concrete difference from OS dictation, so which users would choose it remains unclear.'

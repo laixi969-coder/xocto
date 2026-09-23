@@ -74,3 +74,46 @@
   usage_reason_en: 'The task is: Type any topic and get a course map with short videos and quizzes, so
     learners stop assembling the order themselves. Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-keet-yc-s24-2026-09-23
+  project_slug: keet-yc-s24
+  level: full
+  reviewed_at: '2026-09-23T01:11:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决自学者按主题获得有序课程表的需求，但公开证据仅一句“Video Courses on Anything”，既无用户痛点、频率、不采用代价，也无当前替代行为，连需求与痛点都难以具体写出，故价值关无法成立。
+    evidence_ids:
+    - ev-99f7bf4637de3cd2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Keet 官方产品页与 公开资料 页面是否补充定价、课程生成示例或用户评价，以确认谁在什么场景下使用以及是否有人付费。
+  market: ''
+  job: 自学者在准备学习某个陌生主题时，输入主题，希望得到一份按顺序排好的短视频加小测验课程表，从而直接开始学，而不是自己搜集资料、判断先学什么后学什么。
+  job_en: A self-learner preparing to study an unfamiliar topic enters that topic and expects an ordered
+    course map of short videos plus quizzes, so they can start learning instead of gathering materials
+    and deciding the sequence themselves.
+  pain: 公开材料只有一句产品定位“Video Courses on Anything”，没有用户抱怨、使用反馈或案例说明自学者在拼凑学习顺序上具体损失了什么、多久发生一次、不解决会怎样，因此痛点强度无法从公开事实确认。
+  pain_en: Public material contains only the positioning line 'Video Courses on Anything'; there is no
+    user complaint, feedback, or case showing what self-learners concretely lose by assembling their own
+    learning order, how often it happens, or what happens if unsolved, so pain intensity cannot be confirmed
+    from public facts.
+  current_alternative: 公开材料未说明用户目前用什么替代，例如自行搜索视频、使用现成课程平台、请人推荐书单或直接问聊天机器人；这些替代方式的存在与优劣均无公开证据。
+  current_alternative_en: Public material does not state what users currently substitute, such as searching
+    videos themselves, using existing course platforms, asking for a reading list, or prompting a chatbot;
+    neither the existence nor the trade-offs of these alternatives is evidenced publicly.
+  usage_reason: 推断：若产品真能按主题自动生成有序课程表并配测验，它可能省去用户自己筛选与排序素材的步骤，但公开材料没有用户反馈或案例支持这一动机，也没有说明哪类用户会在什么情况下选择它，因此无法写成事实。
+  usage_reason_en: 'Inference: if the product truly auto-generates an ordered course map with quizzes
+    per topic, it could remove the step of filtering and sequencing materials, but no user feedback or
+    case supports this motive, nor which users would choose it and when, so it cannot be stated as fact.'

@@ -531,3 +531,40 @@
     a blind black-box AI and merges both perspectives into one vulnerability list, removing the step of
     organizing two separate test rounds and manually reconciling results, so budget-constrained developers
     wanting a fast multi-perspective flaw list would choose it before release.'
+- id: req-full-adversarial-testing-skill-2026-09-23
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-09-23T01:08:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的公开仓库 README、issue/discussion 与发布说明，核对它实际接入哪些测试流程、有无可复现的漏洞发现记录。
+  market: ''
+  job: 安全或研发人员在发布前，需要让两个 AI 分别读源码与盲测攻击自己的产品，以发现漏洞并完成一轮对抗性测试。
+  job_en: A security or engineering practitioner, before release, needs two AIs — one reading source,
+    one attacking blind — to probe their product and complete an adversarial testing round.
+  pain: 公开材料只有一句产品自述，没有用户抱怨、返工记录或漏测后果，无法说明不解决这项测试会付出什么代价。
+  pain_en: Public materials contain only a one-line product description, with no user complaints, rework
+    records, or missed-vulnerability consequences, so the cost of not solving it cannot be stated.
+  current_alternative: 公开材料未说明用户目前如何做对抗性测试，也未说明它替代了渗透测试、SAST 工具还是人工红队。
+  current_alternative_en: Public materials do not show how users currently run adversarial testing, nor
+    whether it replaces pentests, SAST tools, or manual red teams.
+  usage_reason: 公开材料只有 43 个收藏这一关注度信号，无法解释用户为何选择它；缺少用户反馈或案例，不能推断其被持续使用。
+  usage_reason_en: Public materials offer only 43 stars as an attention signal, which cannot explain why
+    users would choose it; without user feedback or cases, continued use cannot be inferred.

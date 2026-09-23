@@ -1,0 +1,84 @@
+- id: req-initial-coveragecat-2026-09-23
+  project_slug: coveragecat
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是伞式责任险投保流程繁琐、条款难比的问题，痛点真实；但材料只有一句定位描述，无法确认 AI 具体替代了哪一步人工动作，价值结构尚不能还原。
+    evidence_ids:
+    - ev-098f0b903b0629f1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，属于关注度而非采用证据，无法判断用户是否真的把投保流程交给它。
+    evidence_ids:
+    - ev-098f0b903b0629f1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、佣金结构或承保合作方，买方可能是投保个人，也可能是承保方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-098f0b903b0629f1
+  - gate: truth
+    status: insufficient
+    reason: 保险销售涉及牌照与合规边界，材料未说明代理人资质、AI 决策边界与人工复核环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-098f0b903b0629f1
+  next_validation: 收集 Coverage Cat 官方定价或佣金说明页，以及其披露的承保合作方与代理人资质信息。
+  market: ''
+  job: 有房有车的家庭在需要把责任保额叠加到伞式险水平时，要处理多家保险公司的报价单和条款，完成一次可承保的投保。
+  job_en: Households with homes and cars, when they need to stack liability limits to umbrella level,
+    must work through multiple insurers' quotes and terms to complete a bindable purchase.
+  pain: 逐家询价、条款口径不一、代理人只代表单一承保方，用户难以判断保额是否够、价格是否合理。
+  pain_en: Quoting insurer by insurer, inconsistent term definitions, and agents representing only one
+    carrier make it hard for users to judge whether limits are adequate or prices fair.
+  current_alternative: 直接联系一家或多家保险代理人，或使用线上比价网站自行填写信息后等待回电。
+  current_alternative_en: Contacting one or more insurance agents directly, or using online comparison
+    sites, filling in details and waiting for a callback.
+  usage_reason: 推断：若产品确实由代理人一次性汇总多家承保方报价并代为投保，用户可省去逐家询价与重复填表这一步，因此需要叠加保额又不想自己跑流程的家庭会尝试它；但材料未说明 AI 具体做了什么，也未提供成交或复购证据。
+  usage_reason_en: 'Inference: if the product truly has an agent aggregate multiple carriers'' quotes
+    at once and bind on the user''s behalf, users skip the step of quoting insurer by insurer and re-filling
+    forms, so households needing stacked limits without running the process themselves would try it; however,
+    the material does not say what AI specifically does, nor offer any binding or repeat-use evidence.'
+- id: req-full-coveragecat-2026-09-23
+  project_slug: coveragecat
+  level: full
+  reviewed_at: '2026-09-23T01:09:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是伞式责任险投保流程繁琐、条款难比的问题，痛点真实；但材料只有一句定位描述，无法确认 AI 具体替代了哪一步人工动作，价值结构尚不能还原。
+    evidence_ids:
+    - ev-32f44e5ad4762f8b
+    - ev-103303b5d69c4f59
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Coverage Cat 官方定价或佣金说明页，以及其披露的承保合作方与代理人资质信息。
+  market: ''
+  job: 有房有车的家庭在需要把责任保额叠加到伞式险水平时，要处理多家保险公司的报价单和条款，完成一次可承保的投保。
+  job_en: Households with homes and cars, when they need to stack liability limits to umbrella level,
+    must work through multiple insurers' quotes and terms to complete a bindable purchase.
+  pain: 逐家询价、条款口径不一、代理人只代表单一承保方，用户难以判断保额是否够、价格是否合理。
+  pain_en: Quoting insurer by insurer, inconsistent term definitions, and agents representing only one
+    carrier make it hard for users to judge whether limits are adequate or prices fair.
+  current_alternative: 直接联系一家或多家保险代理人，或使用线上比价网站自行填写信息后等待回电。
+  current_alternative_en: Contacting one or more insurance agents directly, or using online comparison
+    sites, filling in details and waiting for a callback.
+  usage_reason: 推断：若产品确实由代理人一次性汇总多家承保方报价并代为投保，用户可省去逐家询价与重复填表这一步，因此需要叠加保额又不想自己跑流程的家庭会尝试它；但材料未说明 AI 具体做了什么，也未提供成交或复购证据。
+  usage_reason_en: 'Inference: if the product truly has an agent aggregate multiple carriers'' quotes
+    at once and bind on the user''s behalf, users skip the step of quoting insurer by insurer and re-filling
+    forms, so households needing stacked limits without running the process themselves would try it; however,
+    the material does not say what AI specifically does, nor offer any binding or repeat-use evidence.'

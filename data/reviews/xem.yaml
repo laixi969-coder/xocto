@@ -1,0 +1,87 @@
+- id: req-initial-xem-2026-09-23
+  project_slug: xem
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队批量发信时自建投递难、第三方平台锁定名单的问题，痛点具体且旧替代行为明确。
+    evidence_ids:
+    - ev-9cbe61b59813da5f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有用户评价或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-9cbe61b59813da5f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源加托管 SMTP 的收费路径是判断而非已验证事实。
+    evidence_ids:
+    - ev-9cbe61b59813da5f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对投递成功率、退信处理与人工审核边界，交付确定性未明。
+    evidence_ids:
+    - ev-9cbe61b59813da5f
+  next_validation: 收集 Xem 官方仓库或定价页，确认其托管 SMTP 的收费方式、AI 具体介入的环节以及投递结果数据。
+  market: ''
+  job: 独立站卖家或小团队的营销运营，在需要向订阅名单批量发送促销或通知邮件时，处理联系人名单与邮件内容，要完成一次可送达的群发并看到投递结果。
+  job_en: A marketing operator at an independent store or small team, when needing to send promotional
+    or notification emails to a subscriber list, handles the contact list and email content to complete
+    a deliverable bulk send and see delivery results.
+  pain: 自建发送要处理域名信誉、SMTP 配置和退信，交给第三方平台则名单和发送节奏受制于人，且费用随名单规模上涨。
+  pain_en: Self-hosting sending requires handling domain reputation, SMTP configuration and bounces, while
+    third-party platforms keep the list and sending cadence under their control and cost rises with list
+    size.
+  current_alternative: 使用 Mailchimp、SendGrid 等第三方邮件营销平台，或自行搭建 SMTP 服务器并手工处理投递配置。
+  current_alternative_en: Using third-party email marketing platforms such as Mailchimp or SendGrid, or
+    self-hosting an SMTP server and handling delivery configuration manually.
+  usage_reason: 推断：相较第三方平台，它把发送基础设施开源并附带托管 SMTP，用户可保留名单与发送逻辑，减少被平台锁定和按名单规模付费的负担，因此在意数据归属和成本的小型卖家会考虑它；但公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with third-party platforms, it open-sources the sending infrastructure
+    with managed SMTP, letting users keep the list and sending logic and reducing platform lock-in and
+    list-size-based fees, so small sellers caring about data ownership and cost may consider it; public
+    material provides no retention or repeat-use evidence.'
+- id: req-full-xem-2026-09-23
+  project_slug: xem
+  level: full
+  reviewed_at: '2026-09-23T01:12:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向 NEM 加密货币行情、iShares 新兴市场 ETF 与 YouTube 频道，与所述邮件营销产品无任何可归因关联，无法还原用户任务、痛点或旧替代行为，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-b1062e76d0c16be6
+    - ev-472a9305e3d2b4de
+    - ev-2de0bb80f9f0f6b1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索 Xem 邮件营销产品的官方站点或代码仓库（如 公开代码仓库 仓库、官网定价页），确认其是否存在、产品定位与托管 SMTP 的收费方式。
+  market: ''
+  job: 公开材料未提供任何关于 Xem 邮件营销产品的可用信息，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material provides no usable information about the Xem email marketing product, so it
+    is impossible to confirm who handles what material in what situation to complete what task.
+  pain: 无法从公开证据中识别出任何与邮件营销相关的用户痛点；现有证据全部指向 NEM 加密货币行情、iShares 新兴市场 ETF 和 YouTube 频道，与所述产品无关。
+  pain_en: No email-marketing-related user pain can be identified from public evidence; all available
+    evidence points to NEM cryptocurrency prices, an iShares emerging-markets ETF, and a YouTube channel,
+    unrelated to the described product.
+  current_alternative: 无法确认，因为公开材料未描述该产品的任何使用场景或替代方案。
+  current_alternative_en: Cannot be determined, because public material describes no usage scenario or
+    alternative for this product.
+  usage_reason: 无法给出使用理由：现有证据与所述邮件营销产品无任何可归因关联，既无产品说明、定价、客户案例，也无用户反馈或采用行为。
+  usage_reason_en: 'No usage reason can be given: the available evidence has no attributable connection
+    to the described email marketing product, with no product description, pricing, customer case, user
+    feedback, or adoption behavior.'

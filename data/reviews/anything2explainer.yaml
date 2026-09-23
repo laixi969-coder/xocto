@@ -467,3 +467,52 @@
     tool-switching and manual frame drawing, so Chinese- or English-language creators producing explainer
     videos at volume would choose it under content deadlines; the star growth from 1,580 to 1,947 indicates
     attention, not a usage reason.'
+- id: req-full-anything2explainer-2026-09-23
+  project_slug: anything2explainer
+  level: full
+  reviewed_at: '2026-09-23T01:09:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把主题快速变成带旁白、字幕和章节进度的解释视频这一需求，痛点是手工剪辑与多工具拼接耗时且需多项技能；仓库收藏从 1580 增至 1988，说明持续有人关注，交付闭环为输入主题到成片，属工作流结构推理。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+    - ev-caa420592f9fdfd9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 1580 涨到 1988，说明社区持续关注，但候选未提供用户评价、复刻使用或部署案例，无法证明目标用户已把它留在工作流里。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+    - ev-caa420592f9fdfd9
+  - gate: model
+    status: insufficient
+    reason: 开源技能未披露定价或付费主体，钱可能来自 to C 创作者订阅或 to B 内容团队采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+  - gate: truth
+    status: insufficient
+    reason: 逐帧用 Remotion 代码绘制并合成 TTS，交付形式可核对，但候选未说明渲染失败、语音质量或人工审核边界，承诺能否确定性交付仍缺公开证据。
+    evidence_ids:
+    - ev-d394c39a59a8ca33
+  next_validation: 追踪该仓库的 README、issue 与 release 记录，确认是否有用户公开反馈成片质量、渲染失败率或实际发布案例，以核验交付确定性。
+  market: ''
+  job: 内容创作者、教育者或营销人员在需要把某个主题做成带旁白、字幕和章节进度的解释视频时，用 Claude Code / Codex 输入主题，由技能逐帧用 Remotion 代码绘制黑色画布动图并合成
+    TTS 语音，直接产出可发布的成片。
+  job_en: A content creator, educator or marketer who needs a narrated explainer video on a topic inputs
+    the topic through a Claude Code / Codex skill, which draws every frame in code with Remotion, adds
+    TTS voiceover, subtitles and a chapter progress bar, and outputs a publishable video.
+  pain: 公开材料显示这类用户原本要自己写脚本、配音、做动效和字幕，再逐段剪辑对齐，制作一条解释视频耗时长且需要多项工具技能；仓库收藏从 1580 涨到 1988，说明有持续关注，但候选未提供用户抱怨原文，痛点强度属工作流推理。
+  pain_en: Public materials indicate these users would otherwise write the script, record voiceover, build
+    motion graphics and subtitles, then edit and align each segment, which is slow and requires multiple
+    tool skills; stars grew from 1,580 to 1,988, showing sustained attention, but the candidate provides
+    no verbatim user complaints, so pain intensity is a workflow inference.
+  current_alternative: 现有做法是用通用视频剪辑软件或动效工具手工制作，或分别调用 TTS、字幕和渲染工具再拼接，流程分散在多款软件之间。
+  current_alternative_en: Today users hand-build these videos in general video editors or motion tools,
+    or stitch together separate TTS, subtitle and rendering tools across multiple applications.
+  usage_reason: 推断：相较手工剪辑或拼装多款工具，它把脚本、逐帧绘制、TTS 旁白、字幕和章节进度条收进一次主题输入到成片的流程，用户不必在剪辑软件里逐段对齐音画和字幕，因此需要批量或快速产出解释视频的创作者会在赶内容排期时选择它。
+  usage_reason_en: 'Inference: versus manual editing or stitching multiple tools, it folds scripting,
+    frame-by-frame drawing, TTS voiceover, subtitles and a chapter progress bar into one topic-in/video-out
+    flow, so users no longer align audio and subtitles segment by segment in an editor; creators who need
+    explainer videos quickly or at volume would choose it when facing a content deadline.'

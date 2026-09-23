@@ -1,6 +1,6 @@
 ---
 slug: paris-based-primo-raises-69-million-to-deploy-autonomous-ai
-name: Paris-based Primo raises €6.9 million to deploy autonomous AI agents for IT teams
+name: Primo
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOSXRXUlhoY0M2
 summary: Paris-based Primo raises €6.9 million to deploy autonomous AI agents for IT teams eu-startups.com
 first_seen: '2026-09-22T07:00:08Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Paris-based Primo raises €6.9 million to deploy autonomous AI agents for IT teams
+# Primo
 
 Paris-based Primo raises €6.9 million to deploy autonomous AI agents for IT teams eu-startups.com
 

@@ -21,7 +21,7 @@ canonical_url: https://bloomberg.com/graphics/2026-iran-school-attack
 summary: Pentagon says overreliance on AI contributed to missile strike on Iran school
 first_seen: '2026-09-22T19:03:38Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

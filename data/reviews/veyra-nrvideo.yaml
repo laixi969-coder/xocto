@@ -257,3 +257,53 @@
     denoising and frame generation into the in-player real-time preview, removing the record-then-re-encode
     step, so console streamers or capture-card users who must see and broadcast simultaneously would pick
     it; no public user feedback yet confirms this motive.'
+- id: req-full-veyra-nrvideo-2026-09-23
+  project_slug: veyra-nrvideo
+  level: full
+  reviewed_at: '2026-09-23T01:12:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决直播/录制时采集卡低清高噪画面难以实时变清晰流畅的需求，痛点在于旧流程需多工具叠加滤镜或接受原生画质；仓库说明给出输入—AI处理—实时预览的交付闭环，属工作流结构推理，公开用户抱怨与画质数据仍缺。
+    evidence_ids:
+    - ev-46cbbe290c48d27c
+    - ev-adb01a0033f835a6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 265 增至 303，说明开发者社区持续关注；但收藏与关注度不等于目标主播群体的持续采用，缺少 issue、讨论或使用反馈佐证真实使用。
+    evidence_ids:
+    - ev-46cbbe290c48d27c
+    - ev-c701b0f3cb19ccf4
+    - ev-5215668bca344c58
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济，钱可能来自 to C 买断、订阅或 to VC；这是判断而非已验证事实，模式缺口不否定需求本身。
+    evidence_ids:
+    - ev-7b9d7366b45fd6d0
+  - gate: truth
+    status: insufficient
+    reason: 承诺的 120FPS、DLSS 5 级效果能否在普通硬件上确定性交付，以及实时插帧的延迟与画质边界，公开材料未给可复现测试或部署文档。
+    evidence_ids:
+    - ev-46cbbe290c48d27c
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认是否公开硬件要求、实测帧率/延迟数据及用户使用反馈。
+  market: ''
+  job: 游戏主播或视频创作者在直播或录制时，把采集卡输出的低分辨率、高噪点画面（或本地视频、图片）接入这个 Windows 播放器，实时得到更清晰、更流畅的预览画面，再用于直播推流或录制成片。
+  job_en: Game streamers or video creators feed low-resolution, noisy capture-card output (or local video/images)
+    into this Windows player during live streaming or recording, to get a clearer, smoother real-time
+    preview for streaming or recorded footage.
+  pain: 采集卡或旧素材常受限于 1080p/60 帧、暗部噪点明显，主播希望预览与成片更清晰流畅；公开材料只给出产品定位与仓库收藏数，未提供用户抱怨、画质对比或延迟数据，痛点强度属工作流结构推理。
+  pain_en: Capture-card and legacy footage is often limited to 1080p/60 with visible noise, and streamers
+    want a clearer, smoother preview and output; public materials only give the product positioning and
+    repo stars, with no user complaints, quality comparisons, or latency data, so pain intensity is a
+    workflow-structure inference.
+  current_alternative: 旧做法是 OBS 等直播软件自带的缩放与降噪滤镜、madVR/MPC 类播放器插件，或直接接受采集卡原生画质；这些方案要么画质增强有限，要么不覆盖实时插帧与超分组合。
+  current_alternative_en: The old approach is OBS-style scaling and denoise filters, madVR/MPC-class player
+    plugins, or simply accepting native capture-card quality; these either offer limited enhancement or
+    do not combine real-time super-resolution with frame generation.
+  usage_reason: 推断：相较在 OBS 里叠加滤镜或换播放器插件，它把超分、降噪、插帧放进同一个实时预览管线，用户不必在多个工具间导出再处理，因此追求高帧率清晰预览的主播或录制者会在直播前选择它；但公开材料未给出用户反馈或留存证据，选择动机仍属推断。
+  usage_reason_en: 'Inference: versus stacking filters in OBS or swapping player plugins, it puts super-resolution,
+    denoise, and frame generation into one real-time preview pipeline, so users need not export between
+    tools; streamers or recorders chasing high-frame-rate clarity would pick it before going live, but
+    public materials give no user feedback or retention evidence, so the motive remains inferred.'

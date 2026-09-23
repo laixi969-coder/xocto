@@ -1,6 +1,6 @@
 ---
 slug: final-frontier-and-myriad-unite-behind-100m-defence-tech-fun
-name: Final Frontier and Myriad unite behind €100M defence tech fund
+name: Final Frontier and Myriad
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Today, Danish defencetech VCs Final Frontier and Myriad join forces to 
   and move forward under one brand with a targeted €100 million fund.  Europe is rearming. For the first...
 first_seen: '2026-09-21T08:34:05Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Final Frontier and Myriad unite behind €100M defence tech fund
+# Final Frontier and Myriad
 
 Today, Danish defencetech VCs Final Frontier and Myriad join forces to create a combined platform and move forward under one brand with a targeted €100 million fund.  Europe is rearming. For the first...
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DYWVtOEhROVRS
 summary: 10 Generative AI Stocks to Watch as ChatGPT Soars Investing News Network
 first_seen: '2026-09-21T21:30:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

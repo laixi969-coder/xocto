@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPeE9Ka3lLTGRK
 summary: Ask.Legal Shortlisted for Legal AI Product of the Year at The Asia Legal Awards 2026 EIN Presswire
 first_seen: '2026-09-21T10:17:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

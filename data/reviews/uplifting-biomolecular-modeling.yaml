@@ -200,3 +200,45 @@
   usage_reason_en: Repository stars grew from 33 to 270, indicating developer attention, but public materials
     contain no user feedback or cases explaining which burden it reduces, so no verifiable usage reason
     can be given.
+- id: req-full-uplifting-biomolecular-modeling-2026-09-23
+  project_slug: uplifting-biomolecular-modeling
+  level: full
+  reviewed_at: '2026-09-23T01:12:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅显示这是 Anthropic 发布的生物分子建模仓库及收藏数变化，未说明谁在什么工作节点使用、输入什么、产出什么交付，也写不出具体痛点与不采用代价，故无法判定需求结构。
+    evidence_ids:
+    - ev-8744519de847c274
+    - ev-4dd9e60387286fca
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、docs 目录与 issue/discussion，确认其声明的输入输出、依赖环境与可复现示例，判断是否形成可核对的建模交付流程。
+  market: ''
+  job: 生物医药研究者或计算药物发现工程师在需要构建、评估或优化生物分子结构模型时，打开该 Anthropic 仓库，处理分子结构与建模相关材料，完成一次可复现的建模或评估任务。
+  job_en: A biomedical researcher or computational drug-discovery engineer opens this Anthropic repository
+    when building, evaluating, or optimizing biomolecular structure models, working with molecular-structure
+    materials to complete a reproducible modeling or evaluation task.
+  pain: 公开材料只显示仓库存在与收藏数增长，未说明研究者当前建模流程中哪一步最耗时、失败率多高、不采用会付出什么代价，因此无法确认痛点刚性。
+  pain_en: Public materials show only that the repository exists and its star count grows; they do not
+    state which step of current modeling workflows is most costly, how high the failure rate is, or what
+    is lost by not adopting it, so pain rigidity cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前用哪些工具或流程完成同类建模任务，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not state which tools or workflows users currently use for
+    comparable modeling tasks, nor what prior practice this repository replaces.
+  usage_reason: 缺少用户反馈、案例或文档说明，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果；收藏增长只反映关注度，不能作为选择理由。
+  usage_reason_en: Without user feedback, cases, or documentation, it is impossible to explain which step
+    it removes or which checkable result it improves versus the old approach; star growth reflects attention
+    only, not a reason to choose it.

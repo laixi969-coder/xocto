@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQNWpPMGFkZlRI
 summary: At ZWorld 2026, ZWSOFT Outlines Its Next Chapter in Engineering Software Fidelity Investments
 first_seen: '2026-09-21T11:37:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

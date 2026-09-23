@@ -1,0 +1,90 @@
+- id: req-initial-dsh-echocat-skill-panel-2026-09-23
+  project_slug: dsh-echocat-skill-panel
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决技能调用不透明、排查靠翻日志的问题，但公开材料未说明调用频率、不解决的后果，也未给出具体审计字段，价值结构尚不完整。
+    evidence_ids:
+    - ev-345a764cb708a250
+  - gate: consensus
+    status: insufficient
+    reason: 201 星与 6 次 fork 只说明有开发者关注，没有用户评价、案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-345a764cb708a250
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式或买方，钱可能来自 to B 集成商或 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-345a764cb708a250
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料确认审计记录是否完整、是否贴近调试的第一性目标，也未说明人工确认边界。
+    evidence_ids:
+    - ev-345a764cb708a250
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认技能调用审计的具体字段、使用方式与是否有开发者反馈的实际使用场景。
+  market: ''
+  job: 使用 DSH 的 AI 应用开发者在一次会话里调用多个技能后，需要处理技能调用记录，弄清哪个技能被触发、是否失败，以便排查问题。
+  job_en: AI application developers using DSH who invoke several skills in one session need to work through
+    skill-invocation records to find which skill fired and whether it failed, so they can debug.
+  pain: 技能调用过程不透明，出错后只能翻日志或凭记忆回溯，定位成本高；但公开材料未说明这种排查有多频繁、不解决会付出什么代价。
+  pain_en: Skill invocation is opaque, so after a failure developers can only dig through logs or reconstruct
+    from memory, which is costly to localize; the public material does not say how frequent this is or
+    what it costs to leave unsolved.
+  current_alternative: 阅读运行日志、在代码里自行加打印，或凭记忆判断技能是否被调用。
+  current_alternative_en: Reading runtime logs, adding their own print statements in code, or judging
+    from memory whether a skill was invoked.
+  usage_reason: 推断：相较翻日志，它在应用内直接汇总技能调用记录，省去在日志里逐条搜索这一步，因此正在调试多技能 agent 的开发者可能选择它；但缺少用户反馈或案例，无法确认是否被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with digging through logs, it aggregates skill-invocation records
+    inside the app and removes the step of searching log lines one by one, so developers debugging multi-skill
+    agents may choose it; without user feedback or cases, it is unconfirmed whether it stays in the workflow.'
+- id: req-full-dsh-echocat-skill-panel-2026-09-23
+  project_slug: dsh-echocat-skill-panel
+  level: full
+  reviewed_at: '2026-09-23T01:10:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多技能会话中调用链不透明、出错后只能翻日志或凭记忆回溯的痛点，任务与旧替代清晰，不解决则定位成本高；但审计字段与交付形态未公开，属工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-345a764cb708a250
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 201 星只说明有开发者关注，公开材料没有用户评价、案例或重复使用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-345a764cb708a250
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或买方，钱可能来自 to B 集成商或 to VC，这是判断而非已验证事实，尚无付费路径证据。
+    evidence_ids:
+    - ev-345a764cb708a250
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料确认审计记录是否完整、是否贴近调试第一性目标，也未说明人工确认边界与安全约束。
+    evidence_ids:
+    - ev-345a764cb708a250
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认技能调用审计的具体字段、安装与使用方式，以及是否有开发者反馈的真实调试场景。
+  market: ''
+  job: 使用 DSH 的 AI 应用开发者在一次会话里连续调用多个技能后，需要处理技能调用记录，弄清哪个技能被触发、是否出错、失败在哪一步，以便定位并修复问题。
+  job_en: AI application developers using DSH who invoke several skills in one session need to work through
+    skill-invocation records to determine which skill fired, whether it errored, and where it failed,
+    so they can localize and fix the problem.
+  pain: 多技能会话中调用链不透明，出错后只能翻运行日志或凭记忆回溯，定位成本高且容易漏判；公开材料只给出仓库自述，未量化这种排查的频率与代价。
+  pain_en: In multi-skill sessions the invocation chain is opaque, so after a failure developers can only
+    dig through runtime logs or reconstruct from memory, which is costly and error-prone; the public material
+    only gives the repository's own description and does not quantify how often this happens or what it
+    costs.
+  current_alternative: 阅读运行日志、在代码里自行加打印语句，或凭记忆判断某个技能是否被调用、是否失败。
+  current_alternative_en: Reading runtime logs, adding their own print statements in code, or judging
+    from memory whether a skill was invoked or failed.
+  usage_reason: 推断：相较在日志里逐条搜索，该面板在应用内接收并汇总技能调用记录，省去手动翻日志这一步，并让开发者就地查看已装技能，因此正在调试多技能 agent 的 DSH 开发者会在排查会话时选择它；尚无用户反馈或案例证明它已被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with searching log lines one by one, the panel receives and aggregates
+    skill-invocation records inside the app, removing the manual log-digging step and letting developers
+    inspect installed skills in place, so DSH developers debugging multi-skill agents would choose it
+    when investigating a session; there is no user feedback or case yet showing it stays in the workflow
+    long term.'

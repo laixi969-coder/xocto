@@ -810,3 +810,51 @@
     step of comparing log lines to reconstruct what was dropped. Developers repeatedly hitting agent amnesia
     in long sessions would therefore reach for it when debugging; public materials contain no user feedback
     or case confirming this motive.'
+- id: req-full-dsh-context-2026-09-23
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-09-23T01:10:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理长会话中上下文被压缩剪枝后静默丢失关键信息、用户无法定位丢失环节的需求；痛点刚性来自代理遗忘直接导致返工，交付物是上下文组成与演进的可视化面板，属工作流结构推理，公开材料未给出用户抱怨或采用数据。
+    evidence_ids:
+    - ev-120637c25856db73
+    - ev-db41f8242b528abf
+  - gate: consensus
+    status: insufficient
+    reason: 同生态的 dscode 与 dsh-acp-interactive 有 159、99 个收藏，说明 DeepSeek Harness 插件生态已有人关注，但这些数字属于相邻项目而非本插件，且收藏不等于持续使用，缺少本插件自身的采用或评价证据。
+    evidence_ids:
+    - ev-120637c25856db73
+    - ev-db41f8242b528abf
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，开源插件可能靠生态影响力而非直接收费；谁付钱是判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-db41f8242b528abf
+  - gate: truth
+    status: insufficient
+    reason: 插件承诺透视上下文组成与压缩剪枝事件，但公开材料未提供部署文档、可复现实测或 issue 讨论来验证其展示是否与 harness 实际上下文一致，交付确定性尚未核验。
+    evidence_ids:
+    - ev-120637c25856db73
+  next_validation: 追踪该插件在 npm 或代码仓库的 README、issue 与 discussion，确认其上下文面板展示的数据是否与 DeepSeek Harness 实际上下文一致，以及是否有用户报告据此定位到丢失信息。
+  market: ''
+  job: 使用 DeepSeek Harness 等编码代理的开发者，在长会话或压缩、剪枝发生后，需要查看当前上下文里装了什么、由哪些部分组成、哪些内容被丢弃，以便判断代理为何遗忘关键信息并决定下一步怎么补。
+  job_en: Developers running DeepSeek Harness-style coding agents need to inspect, after long sessions
+    or compaction/pruning events, what the current context holds, how it is composed, and what was dropped,
+    so they can explain why the agent forgot key facts and decide what to re-supply.
+  pain: 长会话中上下文被压缩或剪枝后，代理会静默丢失关键信息，用户只能看到错误结果却看不到丢失过程；现有 harness 只提供会话遥测，缺少上下文组成与演进的可视化，排查只能靠猜。
+  pain_en: After compaction or pruning in long sessions, the agent silently loses key facts; users see
+    wrong output but not the loss event. Existing harnesses expose session telemetry but not context composition
+    or evolution, so debugging is guesswork.
+  current_alternative: 当前替代是直接阅读原始会话日志、靠 token 计数估算，或反复重述需求让代理重新记住；这些做法无法还原上下文组成与压缩、剪枝的具体动作。
+  current_alternative_en: Today users read raw session logs, estimate from token counts, or repeatedly
+    restate requirements to make the agent remember; none of these reconstruct context composition or
+    the specific compaction and pruning actions.
+  usage_reason: 推断：相较翻日志和重述需求，该插件以 Context 面板与 Context 命令直接呈现上下文组成、演进与压缩剪枝事件，把“猜哪里丢了”变成“看到哪一步丢了”，因此长会话调试的开发者会在代理开始遗忘时打开它。
+  usage_reason_en: 'Inference: versus reading logs and restating requirements, the plugin''s Context panel
+    and command surface composition, evolution, and compaction/pruning events directly, turning ''guess
+    what was lost'' into ''see which step lost it'', so developers debugging long sessions open it when
+    the agent starts forgetting.'

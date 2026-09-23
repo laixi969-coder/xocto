@@ -1,0 +1,87 @@
+- id: req-initial-clawd-conduit-2026-09-23
+  project_slug: clawd-conduit
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长任务中权限确认打断编辑、必须切回终端的问题，把授权动作前移到桌面，不采用的代价是频繁上下文切换。
+    evidence_ids:
+    - ev-f38ef2d54ebff552
+  - gate: consensus
+    status: insufficient
+    reason: 121 星、6 fork 显示关注度，但无用户反馈或团队采用证据，无法判断是否进入日常开发流程。
+    evidence_ids:
+    - ev-f38ef2d54ebff552
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价，个人开发者自用与团队付费路径不同，钱可能来自团队授权或审计功能，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f38ef2d54ebff552
+  - gate: truth
+    status: insufficient
+    reason: 权限提示在桌面直接回应，需确认是否保留与终端一致的确认语义和审计记录，否则存在误授权风险，公开材料未说明。
+    evidence_ids:
+    - ev-f38ef2d54ebff552
+  next_validation: 收集该仓库的 issue 或 README，确认桌面端授权是否保留审计日志与权限语义一致性。
+  market: ''
+  job: 使用 Claude Code 的软件开发者长时间跑代理任务时，需要在不离开当前窗口的情况下看到运行状态并回应权限提示，保证编码任务继续推进。
+  job_en: Software developers running long Claude Code agent tasks need to see run status and answer permission
+    prompts without leaving their current window so coding work keeps moving.
+  pain: 代理执行中频繁弹出权限确认，开发者必须切回终端处理，打断正在进行的编辑或调试，长任务尤其明显。
+  pain_en: Permission confirmations pop up repeatedly during agent runs, forcing developers back to the
+    terminal and interrupting editing or debugging, especially on long tasks.
+  current_alternative: 现在只能切回终端窗口逐条确认，或干脆放宽权限设置以减少打断。
+  current_alternative_en: Today they switch back to the terminal to confirm each prompt, or loosen permission
+    settings to reduce interruptions.
+  usage_reason: 相较切回终端逐条确认，它把 15 个 hook 事件和权限提示搬到常驻桌面，开发者可在当前窗口直接授权，省掉一次窗口切换；这是基于接线能力的推断，尚无留存或团队采用证据。
+  usage_reason_en: Compared with switching back to the terminal for each confirmation, it moves all 15
+    hook events and permission prompts onto an always-on desktop layer so developers can authorize in
+    place, removing one window switch; this is inference from the wiring capability, with no retention
+    or team-adoption evidence yet.
+- id: req-full-clawd-conduit-2026-09-23
+  project_slug: clawd-conduit
+  level: full
+  reviewed_at: '2026-09-23T01:09:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长任务中权限确认打断编辑、必须切回终端的问题，把授权动作前移到常驻桌面，不采用的代价是频繁上下文切换；需求与痛点由仓库功能说明还原，属工作流结构推理。
+    evidence_ids:
+    - ev-f38ef2d54ebff552
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 121 星显示关注度，但无用户反馈、issue 或团队采用证据，无法判断它是否已进入日常开发流程；关注度不能替代持续采用。
+    evidence_ids:
+    - ev-f38ef2d54ebff552
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价，个人开发者自用与团队授权或审计功能是不同付费路径，钱可能来自 to C 或 to B，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f38ef2d54ebff552
+  - gate: truth
+    status: insufficient
+    reason: 权限提示在桌面直接回应，需确认是否保留与终端一致的确认语义和审计记录，否则存在误授权风险，公开材料未说明这一安全边界。
+    evidence_ids:
+    - ev-f38ef2d54ebff552
+  next_validation: 追踪该仓库的 README 与 issue，确认桌面端授权是否保留审计日志与权限语义一致性。
+  market: ''
+  job: 使用 Claude Code 的软件开发者长时间运行代理任务时，需要在不离开当前窗口的情况下看到 15 个 hook 事件的运行状态，并直接回应权限提示，让编码任务继续推进。
+  job_en: Software developers running long Claude Code agent sessions need to see all 15 hook events and
+    answer permission prompts without leaving their current window so the coding task keeps moving.
+  pain: 代理执行中权限确认反复弹出，开发者必须切回终端逐条处理，打断正在进行的编辑或调试；长任务里这种上下文切换尤其频繁。
+  pain_en: Permission confirmations pop up repeatedly during agent runs, forcing developers back to the
+    terminal to handle each one and interrupting editing or debugging; the context switching is especially
+    frequent on long tasks.
+  current_alternative: 现在只能切回终端窗口逐条确认，或放宽权限设置以减少打断，代价是失去对授权动作的即时可见性。
+  current_alternative_en: Today they switch back to the terminal to confirm each prompt, or loosen permission
+    settings to cut interruptions at the cost of losing immediate visibility over authorization actions.
+  usage_reason: 相较切回终端逐条确认，它把全部 15 个 hook 事件和权限提示搬到常驻桌面宠物层，开发者可在当前窗口直接授权，省掉一次窗口切换；这是基于接线能力的结构推断，尚无留存或团队采用证据。
+  usage_reason_en: Compared with switching back to the terminal for each confirmation, it moves all 15
+    hook events and permission prompts onto an always-on desktop pet layer so developers authorize in
+    place, removing one window switch; this is structural inference from the wiring capability, with no
+    retention or team-adoption evidence yet.

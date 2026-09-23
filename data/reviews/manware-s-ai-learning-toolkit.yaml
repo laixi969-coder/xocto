@@ -533,3 +533,51 @@
     to explanation and teaching feedback, removing the step of re-prompting ''why'' and re-parsing the
     code, so developers learning a codebase or needing understanding rather than a copy would pick it
     in self-study and review.'
+- id: req-full-manware-s-ai-learning-toolkit-2026-09-23
+  project_slug: manware-s-ai-learning-toolkit
+  level: full
+  reviewed_at: '2026-09-23T01:11:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者学习与审查代码时“要理解而非拿到代码”的需求，痛点是通用代理直接出代码导致理解被跳过、需二次追问；旧替代是通用代理加搜索与文档，不解决的后果是学习停留在复制粘贴。属工作流结构推理。
+    evidence_ids:
+    - ev-4d3688eb8c8cf9ec
+    - ev-a21c41e1a6fcc096
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 507 增至 585，说明持续有人关注，但公开材料没有用户评价、issue 或案例说明谁在什么场景下反复使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-4d3688eb8c8cf9ec
+    - ev-eeb895f063c47698
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费路径或买方，个人开发者自用、团队采购或赞助均有可能，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4d3688eb8c8cf9ec
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出定位描述，未说明教学反馈如何生成、是否可复现、以及代理在何种边界内不直接代写代码，交付确定性尚缺可核验证据。
+    evidence_ids:
+    - ev-4d3688eb8c8cf9ec
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认教学反馈的实际生成方式、是否有开发者描述替代了原有学习或审查流程。
+  market: ''
+  job: 开发者在学习新代码库、阅读他人代码或做代码审查时，把代码片段或问题交给 AI 代理，要求它像老师一样讲解原理、指出问题并给出教学反馈，而不是直接生成可粘贴的代码。
+  job_en: Developers learning a new codebase, reading others' code or reviewing code hand a snippet or
+    question to an AI agent and ask it to teach the underlying principles and give instructional feedback,
+    rather than emit paste-ready code.
+  pain: 通用编码代理默认直接输出代码，学习者拿到结果却不懂原理，需要自己再拆解、追问或另找教程；在代码审查中，直接给补丁也掩盖了为什么这样改，理解成本被转嫁给使用者。
+  pain_en: General coding agents default to emitting code, so learners get a result without understanding
+    it and must re-derive or re-ask; in review, a patch hides the reasoning, shifting the comprehension
+    cost onto the user.
+  current_alternative: 目前开发者靠通用编码代理（直接出代码）、搜索引擎与官方文档、教程视频，或向同事口头请教来理解代码，缺少把“讲解而非代写”固化成工具的做法。
+  current_alternative_en: Today developers rely on general coding agents that emit code, search engines
+    and official docs, tutorial videos, or asking colleagues verbally, with no tool that fixes 'explain
+    rather than write' as the default.
+  usage_reason: 相较通用代理直接给代码，该工具把代理的输出约束为解释与教学反馈，减少学习者拿到代码后自行逆向理解、再追问的步骤；推断，面向正在学习新代码库或需要带教式审查的开发者。
+  usage_reason_en: Compared with a general agent that just emits code, this toolkit constrains the agent's
+    output to explanation and instructional feedback, cutting the step where learners reverse-engineer
+    the code and re-ask; this is inference, aimed at developers learning a new codebase or wanting teaching-style
+    review.

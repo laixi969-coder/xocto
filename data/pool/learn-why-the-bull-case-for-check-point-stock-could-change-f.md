@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZWRtOFFGSkdv
 summary: Learn Why The Bull Case For Check Point Stock Could Change Following Index Removal simplywall.st
 first_seen: '2026-09-22T17:34:06Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

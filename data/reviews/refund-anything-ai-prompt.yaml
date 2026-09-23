@@ -323,3 +323,50 @@
     facts to get a sendable letter, skipping the steps of finding applicable clauses and judging escalation
     timing; consumers with a refused refund too small for a lawyer but wanting to keep legal pressure
     available would choose it in that situation.'
+- id: req-full-refund-anything-ai-prompt-2026-09-23
+  project_slug: refund-anything-ai-prompt
+  level: full
+  reviewed_at: '2026-09-23T01:12:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是被拒退后消费者写不出有效交涉函、维权成本高于争议金额的痛点，痛点刚性来自钱直接损失；公开仓库说明已还原输入（订单与拒退理由）、动作（先礼貌后法律升级）与交付（可发送函件），属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-a6a9f992b291406d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从76缓慢升至84，说明有开发者关注，但无评价、issue或案例说明目标消费者是否真的用它并持续使用；关注度不能替代采用证据。
+    evidence_ids:
+    - ev-a6a9f992b291406d
+    - ev-3e3628a702932314
+  - gate: model
+    status: insufficient
+    reason: 这是开源提示词，公开材料未见定价、付费路径或买方；可能靠捐赠、引流或后续付费产品变现，属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-a6a9f992b291406d
+  - gate: truth
+    status: insufficient
+    reason: 覆盖30多个司法辖区的法律准确性、模型生成函件能否确定性交付、以及用户需自行核对事实的人工边界，均缺可复现公开证据，存在错误法律主张风险。
+    evidence_ids:
+    - ev-a6a9f992b291406d
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际退款结果、辖区法律准确性反馈或维护者对交付边界的说明。
+  market: ''
+  job: 普通消费者在订阅、数字购买或预订被商家拒退时，把订单信息、拒退理由和所在辖区交给这套提示词，由模型生成一封先礼貌交涉、后法律升级的退款函件，用户核对后自行发送给商家或平台客服。
+  job_en: An ordinary consumer whose subscription, digital purchase, or booking refund was refused hands
+    the order details, refusal reason, and jurisdiction to this prompt, which drafts a polite-then-escalating
+    refund letter that the user checks and sends to the merchant or platform support.
+  pain: 拒退发生后，消费者面对的是客服话术、平台规则和跨境法律差异，自己写不出有分量的交涉信，往往在几轮推诿后放弃小额退款；不解决的后果是钱直接损失，且维权成本高于争议金额。
+  pain_en: After a refusal, the consumer faces support scripts, platform rules, and cross-border legal
+    differences, cannot write a forceful escalation letter, and often abandons a small refund after a
+    few rounds of deflection; the consequence is losing the money outright, since the cost of pursuing
+    it exceeds the disputed amount.
+  current_alternative: 现状是自己在客服聊天里反复争辩、在论坛或 Reddit 搜模板、照抄通用投诉信，或直接放弃；请律师对小额退款不经济。
+  current_alternative_en: Today they argue repeatedly in support chat, search forums or Reddit for templates,
+    copy a generic complaint letter, or simply give up; hiring a lawyer is uneconomical for a small refund.
+  usage_reason: 推断：相较自己搜模板或放弃，它把订单事实和辖区一次性转成结构化、分阶段升级的函件，省去用户自己组织法律措辞和判断升级时点这一步，因此被拒退、争议金额不大但不愿放弃的消费者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus searching for templates or giving up, it turns order facts and jurisdiction
+    into a structured, staged escalation letter in one pass, removing the step of composing legal wording
+    and deciding when to escalate, so consumers facing a refusal on a modest amount they are unwilling
+    to forfeit would choose it in that situation.'

@@ -292,3 +292,53 @@
     access path, removing environment setup, per-app installation and public-exposure configuration, so
     self-hosting-oriented developers who already run their own server would pick it when running several
     coding agents at once; no user feedback or repeat-use evidence is public yet.'
+- id: req-full-agentverse-os-2026-09-23
+  project_slug: agentverse-os
+  level: full
+  reviewed_at: '2026-09-23T01:09:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者在自有服务器上同时跑编码代理与自托管应用时的隔离、备份与访问控制需求，痛点刚性来自环境互扰与公网暴露风险；仓库自述已给出输入、动作与交付闭环，属工作流结构推理，尚无用户反馈佐证频率与代价。
+    evidence_ids:
+    - ev-a687d3f4bbf9e83f
+    - ev-420f7b1aed83e76c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 745 升至 976，说明开源关注度在增长，但星标与收藏只属规模或关注度证据，不能证明开发者已把它作为长期运行环境；缺少 issue、discussion 或客户案例说明真实采用。
+    evidence_ids:
+    - ev-a687d3f4bbf9e83f
+    - ev-e0dcdaa44bbf89c6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、订阅或商业路径，买方与收费方式无法确认；按开源项目推断可能走 to C 开发者捐赠或 to B 支持服务，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a687d3f4bbf9e83f
+  - gate: truth
+    status: insufficient
+    reason: 它把代理运行与自托管应用放在同一台服务器，安全边界依赖 Tailscale，公开材料未说明人工确认、故障恢复与更新回滚流程，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-a687d3f4bbf9e83f
+    - ev-0a561ed4dd314239
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者是否报告长期运行、备份恢复或权限隔离方面的具体问题与采用情况。
+  market: ''
+  job: 独立开发者或小团队在自有 Ubuntu 服务器上，处理编码代理（VS Code、Claude Code、Codex）与自托管应用，要完成的任务是：一条命令装好后在浏览器里获得隔离工作区、可备份可更新的个人云环境，并只经
+    Tailscale 访问。
+  job_en: A solo developer or small team on their own Ubuntu server, working with coding agents (VS Code,
+    Claude Code, Codex) and self-hosted apps, must install with one command and then get isolated workspaces,
+    a backup-and-update-capable personal cloud environment in the browser, reachable only via Tailscale.
+  pain: 把多个代理和自托管服务塞进同一台机器，环境互相污染、备份与更新要手工维护、公网暴露带来风险；公开材料未给出这些痛点在真实使用中的频率与代价。
+  pain_en: Cramming multiple agents and self-hosted services onto one machine causes environment contamination,
+    manual backup and update chores, and public-exposure risk; the public material does not quantify how
+    often or how costly this is in practice.
+  current_alternative: 开发者目前用 Docker Compose、手写备份脚本、云主机加自建反向代理，或现成的自托管面板（如 CasaOS、Umbrel 类方案）自行拼装环境。
+  current_alternative_en: Developers currently assemble this themselves with Docker Compose, hand-written
+    backup scripts, a cloud host plus a self-built reverse proxy, or existing self-hosting panels (CasaOS/Umbrel-like).
+  usage_reason: 推断：相比自己拼 Docker 与备份脚本，它用一条安装命令直接给出隔离工作区、944 个自托管应用库和仅 Tailscale 可达的访问路径，省掉环境搭建、应用逐个部署与公网暴露配置这几步，因此自托管倾向强、又不想维护整套编排的独立开发者会在新开服务器或迁移现有环境时选择它；但缺少用户反馈与重复使用证据。
+  usage_reason_en: 'Inference: versus assembling Docker and backup scripts by hand, one install command
+    yields isolated workspaces, a 944-app self-hosted catalog and a Tailscale-only access path, removing
+    environment setup, per-app deployment and public-exposure configuration, so self-hosting-oriented
+    solo developers who do not want to maintain the whole orchestration may pick it when starting a new
+    server or migrating an existing one; user feedback and repeat-use evidence are missing.'

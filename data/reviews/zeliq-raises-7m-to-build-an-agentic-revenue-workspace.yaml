@@ -1,0 +1,94 @@
+- id: req-initial-zeliq-raises-7m-to-build-an-agentic-revenue-workspace-2026-09-23
+  project_slug: zeliq-raises-7m-to-build-an-agentic-revenue-workspace
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是销售开发人员每天凑名单、核联系人和写开场白的重复劳动，痛点刚性且旧替代行为明确；买方是谁在公开材料中未说明。
+    evidence_ids:
+    - ev-e05a113520a9286a
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息，没有客户案例、用户评价或采用数据，无法判断销售团队是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-e05a113520a9286a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、按席位还是按结果收费，也未说明买方是销售团队自付还是公司采购；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e05a113520a9286a
+  - gate: truth
+    status: insufficient
+    reason: 线索数据来源、合规边界与人工确认环节均未披露，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-e05a113520a9286a
+  next_validation: 收集 Zeliq 官方定价页或客户案例页面，确认其计价方式（按席位还是按线索/结果）以及是否有具名客户的实际使用描述。
+  market: ''
+  job: B2B 销售开发代表在每天开工前要凑出当天要联系的潜在客户名单：他们手里只有目标行业、公司规模和职位条件，需要把这些条件变成一批可联系的人名、邮箱和第一封外联邮件。
+  job_en: 'A B2B sales development rep has to assemble the day''s prospect list before starting outreach:
+    they hold only target industry, company size and job-title criteria, and must turn those into a set
+    of contactable names, emails and a first outreach message.'
+  pain: 手工在多个数据源之间切换检索、逐条核对联系人是否在职、再手写外联开场白，是重复且容易出错的体力活；名单质量差会直接浪费当天外联额度并影响邮箱送达。
+  pain_en: Manually switching between data sources, checking one by one whether a contact is still in
+    role, and hand-writing openers is repetitive and error-prone; a poor list wastes the day's outreach
+    quota and hurts email deliverability.
+  current_alternative: 旧做法是购买联系人数据库席位，再在表格里人工筛选、去重、补全，最后逐封手写邮件；部分团队用外呼外包或购买现成名单。
+  current_alternative_en: The old way is buying contact-database seats, then manually filtering, deduplicating
+    and enriching in spreadsheets, and finally hand-writing each email; some teams outsource calling or
+    buy ready-made lists.
+  usage_reason: 推断：相较数据库席位加人工筛选，它把检索、在职核对与开场白撰写合并成一次输入条件后的连续动作，减少的是“在多个工具间搬运和逐条核对”这一步，因此名单量大、外联节奏快的销售团队会在需要当天凑齐合格名单时选择它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with database seats plus manual filtering, it merges search, role
+    verification and opener writing into one continuous action after a single set of criteria, removing
+    the step of moving data between tools and checking records one by one; sales teams with high list
+    volume and fast outreach cadence would pick it when they need a qualified list the same day. Public
+    materials provide no retention or repeat-purchase evidence.'
+- id: req-full-zeliq-raises-7m-to-build-an-agentic-revenue-workspace-2026-09-23
+  project_slug: zeliq-raises-7m-to-build-an-agentic-revenue-workspace
+  level: full
+  reviewed_at: '2026-09-23T01:13:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SDR 每天凑名单、核联系人和写开场白的重复劳动，痛点刚性且旧替代行为明确；公开材料仅确认其为销售线索平台并完成融资，买方与交付细节未披露。
+    evidence_ids:
+    - ev-e05a113520a9286a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，没有客户案例、用户评价或采用数据，无法判断销售团队是否真的把它放进日常流程；公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-e05a113520a9286a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、按席位还是按结果收费，也未说明买方是销售团队自付还是公司采购；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e05a113520a9286a
+  - gate: truth
+    status: insufficient
+    reason: 线索数据来源、合规边界与人工确认环节均未披露，无法核对交付是否确定发生；现有证据只支持产品定位，不支持交付结果。
+    evidence_ids:
+    - ev-e05a113520a9286a
+  next_validation: 收集 Zeliq 官方定价页或客户案例页面，确认其计价方式（按席位还是按线索/结果）以及是否有具名客户的实际使用描述。
+  market: ''
+  job: B2B 销售开发代表（SDR）在每天开始外联前，手里只有目标行业、公司规模和职位条件，需要把这些条件变成一批可联系的人名、邮箱和第一封外联邮件，再导入 CRM 跟进。
+  job_en: Before daily outreach, a B2B sales development rep holds only target industry, company size
+    and job-title criteria, and must turn them into a set of contactable names, emails and a first outreach
+    message, then import them into the CRM for follow-up.
+  pain: 公开材料只说明它是销售线索平台，未披露用户抱怨；从工作流看，SDR 需在多个数据源间切换检索、逐条核对联系人是否在职、再手写开场白，名单质量差会浪费当天外联额度并影响邮箱送达。
+  pain_en: Public materials only describe it as a sales prospecting platform and disclose no user complaints;
+    from the workflow, SDRs must switch between data sources, verify one by one whether contacts are still
+    in role, and hand-write openers, while a poor list wastes the day's outreach quota and hurts deliverability.
+  current_alternative: 旧做法是购买联系人数据库席位，在表格里人工筛选、去重、补全，最后逐封手写邮件；部分团队用外呼外包或购买现成名单。
+  current_alternative_en: The old way is buying contact-database seats, manually filtering, deduplicating
+    and enriching in spreadsheets, then hand-writing each email; some teams outsource calling or buy ready-made
+    lists.
+  usage_reason: 推断：相较数据库席位加人工筛选，它把检索、在职核对与开场白撰写合并为一次输入条件后的连续动作，减少的是在多个工具间搬运和逐条核对这一步，因此名单量大、外联节奏快的销售团队会在需要当天凑齐合格名单时选择它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with database seats plus manual filtering, it merges search, role
+    verification and opener writing into one continuous action after a single set of criteria, removing
+    the step of moving data between tools and checking records one by one; sales teams with high list
+    volume and fast outreach cadence would pick it when they need a qualified list the same day. Public
+    materials provide no retention or repeat-purchase evidence.'

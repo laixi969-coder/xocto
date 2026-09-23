@@ -127,3 +127,56 @@
     packages model routing, memory compaction, skill selection and browser use as importable skills, cutting
     the steps of implementing and debugging each piece, so developers assembling long-task agents would
     adopt it at build time; public material provides no retention or repeat-use evidence.'
+- id: req-full-hermes-jev-skills-2026-09-23
+  project_slug: hermes-jev-skills
+  level: full
+  reviewed_at: '2026-09-23T01:10:44Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长任务 agent 的上下文溢出、模型路由与工具编排需求，公开说明覆盖记忆压缩、技能选择与电脑浏览器操作，痛点指向明确；但无用户抱怨或失败代价证据，属工作流结构推理，买方与付费路径未在公开材料中出现。
+    evidence_ids:
+    - ev-94124668c85ccf55
+    - ev-4c6c4d1d4a2f8481
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 254 增至 394 再至 553，说明开发者社区持续关注并把它纳入候选工具链；但收藏属关注度证据，不能证明已长期留在工作流，也未见 issue 或 discussion
+      中的采用反馈。
+    evidence_ids:
+    - ev-94124668c85ccf55
+    - ev-9090c29d0aab7fe0
+    - ev-4c6c4d1d4a2f8481
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-94124668c85ccf55
+  - gate: truth
+    status: insufficient
+    reason: 公开说明列出模型路由、记忆压缩与浏览器操作等能力，但无部署文档、可复现实测或安全边界说明，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-9090c29d0aab7fe0
+    - ev-4c6c4d1d4a2f8481
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现部署文档、可复现实测或用户采用反馈，以核验交付稳定性与使用场景。
+  market: ''
+  job: 搭建 Hermes、Claude Code 或 Codex 智能体的开发者在组装长任务 agent 时，把该技能包接入自己的 agent 工程，处理模型调用、上下文与工具操作，让 agent
+    能连续跑完多步任务。
+  job_en: Developers building Hermes, Claude Code, or Codex agents wire this skill pack into their agent
+    project to handle model calls, context, and tool operations so the agent can complete multi-step long-horizon
+    tasks.
+  pain: 公开说明显示它接管模型路由、记忆与上下文压缩、技能选择以及电脑与浏览器操作，指向长任务中上下文溢出、模型选择与工具调用需手工编排的摩擦；但公开材料未给出用户抱怨、失败率或返工代价，痛点强度属工作流结构推理。
+  pain_en: The public description shows it takes over model routing, memory and compaction, skill selection,
+    and computer/browser use, pointing to friction in context overflow, model choice, and manual tool
+    orchestration on long tasks; public materials give no user complaints, failure rates, or rework cost,
+    so pain intensity is workflow-structural inference.
+  current_alternative: 开发者通常自行编写路由与记忆逻辑，或直接使用 Hermes、Claude Code、Codex 自带的能力与手工拼接的脚本；公开材料未说明它具体替代了哪套既有流程。
+  current_alternative_en: Developers typically hand-roll routing and memory logic, or rely on the built-in
+    capabilities of Hermes, Claude Code, and Codex plus self-assembled scripts; public materials do not
+    say which existing workflow it replaces.
+  usage_reason: 推断：相较自行拼装路由、压缩与浏览器操作代码，该技能包把这些环节封装为可引入的模块，减少开发者逐项实现与调试的步骤，因此正在组装长任务 agent 的开发者会在需要跨模型、跨工具连续执行时选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus hand-assembling routing, compaction, and browser-operation code,
+    the pack packages these steps as importable modules, cutting the implementation and debugging steps,
+    so developers assembling long-horizon agents would pick it when they need cross-model, cross-tool
+    execution; no user feedback or case yet confirms this motive.'

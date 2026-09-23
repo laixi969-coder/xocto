@@ -1,0 +1,85 @@
+- id: req-initial-all-your-agents-2026-09-23
+  project_slug: all-your-agents
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是本机多代理状态可见性问题，痛点结构上成立，但候选只有一句自述，说不清输入、呈现与交付，价值证据不足。
+    evidence_ids:
+    - ev-dc23201289d32dff
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 个点赞、2 条评论，既无用户反馈也无采用迹象，无法判断是否形成共识。
+    evidence_ids:
+    - ev-dc23201289d32dff
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式或买方，钱可能来自 to C 开发者或 to B 团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dc23201289d32dff
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近代理监控的第一性目标、承诺能否确定性交付，也看不到安全与人工边界说明。
+    evidence_ids:
+    - ev-dc23201289d32dff
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它实际读取哪些代理运行数据、以什么形式呈现，以及是否有开发者反馈在实际工作流中使用。
+  market: ''
+  job: 开发者在同一台机器上并行运行多个 AI 代理时，需要查看这些代理当前在做什么、是否还在运行，以便判断下一步操作。
+  job_en: A developer running several AI agents in parallel on one machine needs to see what those agents
+    are currently doing and whether they are still running, in order to decide the next action.
+  pain: 多个代理同时运行时，进程、日志和调用分散在不同终端与文件里，开发者难以一眼确认哪个代理在跑、哪个卡住或失控；候选资料未提供任何用户抱怨或案例，此痛点属工作流推理。
+  pain_en: With several agents running at once, processes, logs and calls are scattered across terminals
+    and files, so the developer cannot easily tell which agent is running and which is stuck or out of
+    control; the candidate provides no user complaints or cases, so this pain is a workflow inference.
+  current_alternative: 目前通常靠逐个终端窗口切换、查看日志文件或系统进程列表来确认代理状态。
+  current_alternative_en: Today this is usually done by switching between terminal windows, reading log
+    files, or checking the system process list.
+  usage_reason: 推断：如果它把本机多个代理的状态汇总到一处展示，开发者就不必逐个终端翻日志，能更快发现卡住或异常退出的代理；但候选资料未说明它读取什么、展示什么，因此尚不能确认它比现有做法少哪一步。
+  usage_reason_en: 'Inference: if it aggregates the state of several local agents in one place, a developer
+    would not have to dig through each terminal''s logs and could spot stuck or crashed agents faster;
+    however, the candidate does not say what it reads or displays, so it is not yet possible to confirm
+    which step it removes versus current practice.'
+- id: req-full-all-your-agents-2026-09-23
+  project_slug: all-your-agents
+  level: full
+  reviewed_at: '2026-09-23T01:09:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是本机多代理状态可见性问题，痛点结构上成立，但候选只有一句自述，说不清输入、呈现与交付，价值证据不足。
+    evidence_ids:
+    - ev-dc23201289d32dff
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它实际读取哪些代理运行数据、以什么形式呈现，以及是否有开发者反馈在实际工作流中使用。
+  market: ''
+  job: 开发者在本机同时运行多个 AI 代理时，需要查看这些代理当前在做什么、是否还在运行，以便判断下一步操作。
+  job_en: A developer running several AI agents in parallel on one machine needs to see what those agents
+    are currently doing and whether they are still running, in order to decide the next action.
+  pain: 多个代理同时运行时，进程、日志和调用分散在不同终端与文件里，开发者难以一眼确认哪个代理在跑、哪个卡住或失控；候选资料未提供任何用户抱怨或案例，此痛点属工作流推理。
+  pain_en: With several agents running at once, processes, logs and calls are scattered across terminals
+    and files, so the developer cannot easily tell which agent is running and which is stuck or out of
+    control; the candidate provides no user complaints or cases, so this pain is a workflow inference.
+  current_alternative: 目前通常靠逐个终端窗口切换、查看日志文件或系统进程列表来确认代理状态。
+  current_alternative_en: Today this is usually done by switching between terminal windows, reading log
+    files, or checking the system process list.
+  usage_reason: 推断：如果它把本机多个代理的状态汇总到一处展示，开发者就不必逐个终端翻日志，能更快发现卡住或异常退出的代理；但候选资料未说明它读取什么、展示什么，因此尚不能确认它比现有做法少哪一步。
+  usage_reason_en: 'Inference: if it aggregates the state of several local agents in one place, a developer
+    would not have to dig through each terminal''s logs and could spot stuck or crashed agents faster;
+    however, the candidate does not say what it reads or displays, so it is not yet possible to confirm
+    which step it removes versus current practice.'

@@ -128,3 +128,47 @@
   usage_reason_en: 'Inference: versus hand-writing levels, it hands map and NPC generation to a model
     while the developer maintains saves and rules; but no user feedback or case shows anyone choosing
     it for that reason, so a real adoption motive beyond ''nice to have'' is missing.'
+- id: req-full-infinite-pokemon-2026-09-23
+  project_slug: infinite-pokemon
+  level: full
+  reviewed_at: '2026-09-23T01:10:52Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决无限内容供给，但公开材料只有一句功能描述与仓库星数，没有玩家或开发者对“永不结束”的需求表达、旧流程替代行为或不采用代价；手工做无限内容贵属常识，缺具体受困者，结构上更像技术演示而非刚性需求。
+    evidence_ids:
+    - ev-f831f0ee8d59c680
+    - ev-3d2121b58d4773b4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认是否有开发者实际把它接入自己的项目、反馈生成地图与 NPC 的可用性，或出现付费与授权记录。
+  market: ''
+  job: 独立开发者或同人创作者在做一个宝可梦式冒险时，需要持续产出新地图、NPC 与分支剧情，让玩家能一直玩下去而不必手工编写每一段关卡与对白。
+  job_en: An indie developer or fan creator building a Pokémon-style adventure needs a continuous supply
+    of new maps, NPCs and branching story so players can keep playing without hand-authoring every level
+    and line of dialogue.
+  pain: 公开材料只说明它由 Codex 生成地图、NPC 与分支存档并支持多人，未给出任何玩家或开发者对“永不结束”的抱怨、需求表达或旧流程替代行为；手工做无限内容成本高是行业常识，但这里没有证据显示有人因此受困。
+  pain_en: The public material only states that it generates maps, NPCs and branching saves with Codex
+    and supports multiplayer; it shows no player or developer complaint, expressed need, or prior workaround
+    around an 'endless' adventure. High cost of hand-authoring endless content is industry common sense,
+    but nothing here shows anyone blocked by it.
+  current_alternative: 手工编写关卡与对白、使用现成游戏引擎与素材库，或直接发布有限流程的独立游戏与同人作品。
+  current_alternative_en: Hand-authoring levels and dialogue, using existing engines and asset libraries,
+    or shipping a finite indie or fan game.
+  usage_reason: 推断：相较手工写关卡，它把生成新地图与 NPC 这一步交给模型，开发者只需维护存档与规则；但公开材料没有用户反馈、案例或重复使用证据，无法确认这是真实选择理由，更像一次技术演示。
+  usage_reason_en: 'Inference: versus hand-writing levels, it hands map and NPC generation to a model,
+    leaving the developer to maintain saves and rules; but with no user feedback, cases or repeat-use
+    evidence, this cannot be confirmed as a real reason to choose it — it reads more like a technical
+    demo.'

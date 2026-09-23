@@ -1,11 +1,14 @@
 ---
 slug: blog-7
-name: Blog
+name: ZCode
 builder: cs1707
 category: ''
-summary_zh: ''
+summary_zh: 该候选指向的是智谱 AI 编程桌面应用 ZCode 的客户端数据上传行为争议，而非一个独立的新产品；公开材料只包含一名开发者的逆向分析与其在社区引发的讨论，智谱方面的公开回应内容未在候选材料中给出可核验细节。
 inspiration: ''
-summary_en: ''
+summary_en: This candidate concerns a dispute over client-side data upload behaviour in Zhipu's AI coding
+  desktop app ZCode rather than a standalone new product; the public material consists of one developer's
+  reverse-engineering analysis and the community discussion it triggered, while Zhipu's public response
+  is not verifiable from the candidate material.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -30,7 +33,7 @@ summary: "智谱出大瓜： https://blog.ferstar.org/en/posts/zcode-silent-work
   \ checkpoint 回滚功能失效\r\n\r\n ![]( https://i.imgur.com/HKilxaY.jpeg) \r\n \r\n 官方回应：\r\n \r\n  ![]( https://i.imgur.com/RtNpKIT.jpeg)"
 first_seen: '2026-09-19T11:43:10Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: market_context
 sources:
 - v2ex
 - newssearch
@@ -48,7 +51,7 @@ sightings:
   kind: news
 ---
 
-# Blog
+# ZCode
 
 智谱出大瓜： https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/
 

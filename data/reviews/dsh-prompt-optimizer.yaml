@@ -188,3 +188,55 @@
     the step where developers fill in referents and acceptance criteria themselves; hence DSH users writing
     complex instructions would pick it before submitting. No retention or repeated-use evidence is public,
     so the adoption motive is structural inference.'
+- id: req-full-dsh-prompt-optimizer-2026-09-23
+  project_slug: dsh-prompt-optimizer
+  level: full
+  reviewed_at: '2026-09-23T01:10:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口语提示含糊导致工作 AI 返工的问题：公开说明指出原始一句话缺指代定位、验收判据、约束边界、隐含决定与入口锚点，开发者需多轮补写调试；不解决则每轮复杂任务都要人工纠偏。这是基于产品说明与工作流的结构推理，尚无成功率量化数据。
+    evidence_ids:
+    - ev-cb8e16e6fad297e4
+    - ev-5c41a3b3fd81f673
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 51 增至 77，说明有持续关注，但公开材料没有用户评价、issue 讨论或采用数据证明开发者已把它放进日常流程；关注度不等于持续使用。
+    evidence_ids:
+    - ev-4e9770a4a1d8309c
+    - ev-5c41a3b3fd81f673
+  - gate: model
+    status: insufficient
+    reason: 这是开源 DSH 插件，公开材料未披露定价、付费方式或买方，钱可能来自 to C 开发者捐赠或 to B 定制，属判断而非已验证事实；无融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-5c41a3b3fd81f673
+  - gate: truth
+    status: insufficient
+    reason: 产品绑定特定 DSH 版本且处于 beta，公开材料未说明改写出错时的回退方式、权限边界与人工确认环节；其“只搬不造、条条带逐字依据”的承诺能否稳定交付尚无实测或案例佐证。
+    evidence_ids:
+    - ev-cb8e16e6fad297e4
+    - ev-5c41a3b3fd81f673
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户报告改写后任务返工次数或指令可执行性的实际变化。
+  market: ''
+  job: 使用 DSH Web 的开发者（或依赖 PTC 执行体的使用者）在输入框里用口语写下一轮任务时，需要在发送前把这句话整理成工作 AI 能直接执行、且带逐字依据的指令，再交给工作 AI 执行。
+  job_en: A developer using DSH Web (or a PTC executor) writes a colloquial one-line task in the input
+    box and, before sending, needs it turned into an instruction the working AI can execute directly,
+    with verbatim evidence attached.
+  pain: 公开材料显示原始一句话提示缺少指代定位、验收判据、约束边界、隐含决定与入口锚点，工作 AI 因此容易跑偏返工；开发者只能自己多轮补写、反复调试指令，这一负担落在每一轮复杂任务上。
+  pain_en: Public materials state that a one-line prompt lacks referent anchoring, acceptance criteria,
+    constraint boundaries, implicit decisions and entry anchors, so the working AI drifts and redoes work;
+    developers must rewrite and debug instructions over multiple rounds, a burden repeated every complex
+    task.
+  current_alternative: 开发者自己手写并迭代提示词，或切到通用聊天助手先润色再粘贴回输入框；也有人直接发原始口语指令、靠多轮追问纠偏。
+  current_alternative_en: Developers hand-write and iterate prompts themselves, or switch to a general
+    chat assistant to polish text before pasting it back; others just send the raw colloquial instruction
+    and correct it through follow-up rounds.
+  usage_reason: 推断：相较切窗口润色再粘贴，它在发送前于输入框内自动完成一轮目标澄清，且只搬不造依据（原话／会话上下文／项目文件逐条带出处），把“自己补写验收判据和约束”这一步从用户手里移走；因此常写复杂任务、又在意指令可追溯的
+    DSH 用户会在发送前选择它。公开材料尚无留存或重复使用证据。
+  usage_reason_en: 'Inference: versus switching windows to polish and paste, it performs one clarification
+    pass inside the input box before sending and only relocates evidence (verbatim words, session context,
+    project files, each with a source) rather than inventing it, removing the step of hand-writing acceptance
+    criteria and constraints; DSH users who write complex tasks and care about traceable instructions
+    would therefore choose it before sending. Public materials show no retention or repeat'

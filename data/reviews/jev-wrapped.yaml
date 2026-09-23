@@ -1,0 +1,86 @@
+- id: req-initial-jev-wrapped-2026-09-23
+  project_slug: jev-wrapped
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订阅与投放前无法快速判断频道内容质量的问题，旧做法是人工翻看历史消息，属工作流推理。
+    evidence_ids:
+    - ev-df3cad0523b55fa9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品社区发布说明，没有读者或投放方的采用与重复使用证据。
+    evidence_ids:
+    - ev-df3cad0523b55fa9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，面向读者订阅还是面向投放方收费都只是推断。
+    evidence_ids:
+    - ev-df3cad0523b55fa9
+  - gate: truth
+    status: insufficient
+    reason: 未说明广告与标题党的判定依据、覆盖范围与是否需人工复核，结果确定性无法核对。
+    evidence_ids:
+    - ev-df3cad0523b55fa9
+  next_validation: 收集 Jev Wrapped 官方说明或示例报告，确认广告与标题党的判定口径及可复核的输出样例。
+  market: ''
+  job: 读者或广告主在决定是否继续订阅或投放某个 Telegram 频道前，需要知道该频道内容里广告与标题党占多大比例。
+  job_en: A reader or advertiser deciding whether to keep subscribing to or buying placements in a Telegram
+    channel needs to know what share of its content is ads and clickbait.
+  pain: 频道内容混杂，人工翻看历史消息判断质量耗时，投放方缺少可比较的核验依据。
+  pain_en: Channel content is mixed, manually scrolling history to judge quality is time-consuming, and
+    advertisers lack a comparable basis for verification.
+  current_alternative: 人工翻看频道历史消息、凭印象判断，或依赖第三方口碑与转发量。
+  current_alternative_en: Manually scrolling channel history, judging by impression, or relying on third-party
+    reputation and forward counts.
+  usage_reason: 推断：相较人工翻看历史消息，它把频道内容批量过一遍并给出广告与标题党占比，减少逐条阅读这一步；但判定口径未披露，结果是否可复核仍待核验。
+  usage_reason_en: 'Inference: compared with manually scrolling history, it processes a channel''s content
+    in bulk and reports the share of ads and clickbait, cutting the step of reading item by item; the
+    judging criteria are undisclosed, so whether results are checkable remains unverified.'
+- id: req-full-jev-wrapped-2026-09-23
+  project_slug: jev-wrapped
+  level: full
+  reviewed_at: '2026-09-23T01:11:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向 Jev 模型与 TypeSafe AI 的融资、社区和早期访问，没有任何材料描述 Telegram 频道广告与标题党占比这一任务、其痛点或旧替代方式，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-ef335deb3f40ec57
+    - ev-bc2f28f5829dbc81
+    - ev-d402a7d0765aa27e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Jev Wrapped 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 关注或投放 Telegram 频道的读者与广告主，在决定是否继续订阅或投放前，把频道内容交给工具，得到广告与标题党占比，再据此取舍。
+  job_en: Readers and advertisers of Telegram channels who, before deciding whether to keep subscribing
+    or buying placements, feed channel content into a tool to get the share of ads and clickbait and act
+    on it.
+  pain: 公开材料未提供任何读者或投放方关于频道广告与标题党泛滥的抱怨、人工翻看历史消息的耗时记录，也未说明不解决会造成什么后果，痛点无法从证据还原。
+  pain_en: Public material provides no reader or advertiser complaints about ad and clickbait saturation
+    in channels, no record of time spent manually scrolling history, and no stated consequence of not
+    solving it, so the pain cannot be reconstructed from evidence.
+  current_alternative: 公开材料未描述读者或投放方当前如何判断频道质量，人工翻看、凭印象或依赖第三方口碑均无证据支持。
+  current_alternative_en: Public material does not describe how readers or advertisers currently judge
+    channel quality; manual scrolling, impression-based judgment, or third-party reputation are all unsupported
+    by evidence.
+  usage_reason: 推断：若产品能批量给出广告与标题党占比，理论上可省去逐条阅读，但判定口径、覆盖频道范围与是否需人工复核均未披露，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the product could report ad and clickbait shares in bulk it would theoretically
+    remove item-by-item reading, but the judging criteria, channel coverage, and whether human review
+    is needed are undisclosed, so it is impossible to say which users would choose it and when.'

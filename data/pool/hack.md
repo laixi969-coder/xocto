@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=49802005
 summary: my Hacker News mobile client now lets you block AI posts
 first_seen: '2026-09-22T14:33:50Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

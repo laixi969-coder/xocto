@@ -83,3 +83,55 @@
   usage_reason_en: 'Inference: if it consolidates tool selection from scattered prompts into a replaceable
     decision component, developers maintaining multiple harnesses might adopt it; but stars only reflect
     attention and do not prove sustained use or the reason for choosing it.'
+- id: req-full-jev-dsh-decision-2026-09-23
+  project_slug: jev-dsh-decision
+  level: full
+  reviewed_at: '2026-09-23T01:11:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码 agent 在多个候选动作间做可解释、可复现选择的需求；痛点在于多 harness 下自写提示与路由难以复现和排查，不解决则工具选择出错后调试成本高。公开材料只给插件定位，旧流程与出错代价属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+    - ev-60527913640290a3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 70 增至 111 只说明关注度上升，没有用户反馈、案例或讨论说明谁在什么场景下依赖它，也未证明持续采用。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+    - ev-60527913640290a3
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露任何收费或商业路径，买方与付费方式均未知；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明决策结果如何被 harness 消费、失败如何处理、是否需人工复核，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-809b3a55223fa3d0
+    - ev-60527913640290a3
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者实际用它替换了哪一步工具选择逻辑、失败如何处理以及是否长期保留。
+  market: ''
+  job: 开发者在给编码 agent 接入工具调用时，安装该插件，由它接收 agent 上下文并输出结构化决策结果，再交给 DeepSeek Harness、OpenCode 或 Codex Harness
+    执行，从而在多个候选动作间做出可解释的选择。
+  job_en: Developers wiring tool calling into coding agents install this plugin so it receives agent context
+    and returns a structured decision, which DeepSeek Harness, OpenCode or Codex Harness then executes,
+    making the choice among candidate actions explainable.
+  pain: 公开材料只给出插件定位与仓库数据，未说明旧做法中工具选择出错的具体代价或调试负担；从工作流结构推理，多 harness 下散落的提示词与路由规则难以复现和排查，这是推断而非用户口述。
+  pain_en: Public material only gives the plugin positioning and repository data, not the concrete cost
+    or debugging burden of wrong tool selection; by workflow inference, scattered prompts and routing
+    rules across multiple harnesses are hard to reproduce and debug, which is inference rather than user
+    testimony.
+  current_alternative: 开发者通常依赖 harness 自带的工具选择逻辑，或自行编写提示与路由规则；具体替代方式未在材料中说明。
+  current_alternative_en: Developers typically rely on the harness's built-in tool-selection logic or
+    write their own prompts and routing rules; the specific alternative is not described in the material.
+  usage_reason: 推断：相较自写提示与路由，它把工具选择收敛成一个可替换的决策组件，并原生适配 DeepSeek Harness、经 iPolloWork 适配 OpenCode 与 Codex
+    Harness，减少为每个 harness 重写选择逻辑这一步；维护多 harness 的开发者会在需要可解释、可复现选择时选择它。星标只反映关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus hand-written prompts and routing, it consolidates tool selection
+    into a replaceable decision component and natively supports DeepSeek Harness plus OpenCode and Codex
+    Harness via iPolloWork, removing the step of rewriting selection logic per harness; developers maintaining
+    multiple harnesses would choose it when they need explainable, reproducible choices. Stars only reflect
+    attention and do not prove sustained use.'

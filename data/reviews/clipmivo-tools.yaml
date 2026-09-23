@@ -132,3 +132,56 @@
     API, CLI, and local MCP server so marketing or e-commerce teams can call it directly inside their
     scripts, batch jobs, or agent workflows, removing the step of hand-editing and moving assets across
     tools; teams needing bulk, programmable output would choose it during launches or ad scheduling.'
+- id: req-full-clipmivo-tools-2026-09-23
+  project_slug: clipmivo-tools
+  level: full
+  reviewed_at: '2026-09-23T01:09:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是批量短视频素材生产：营销或电商人员把商品图文、脚本交给接口生成片段再人工筛选，痛点在于逐条手工剪辑与模板套用难以规模化。公开仓库说明提供 REST API、CLI、本地
+      MCP 与 Agent Skill，可还原输入—生成—筛选的交付闭环，属工作流结构推理；生成质量与不采用代价未披露。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+    - ev-2a439ecb1d8a5fa7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 104 增至 147 再至 193，说明开发者社区持续关注，但收藏与访问量只属关注度证据，不能证明目标营销或电商用户已把它留在批量出片工作流里；缺少 issue、discussion
+      或客户案例说明实际使用场景。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+    - ev-f3cbd6f071f160d0
+    - ev-2a439ecb1d8a5fa7
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、计费单位或买方身份，无法判断收入来自 to C 创作者、to B 电商团队还是 API 用量计费；这是判断而非已验证事实，商业路径缺口不反推需求不存在。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺生成可继续剪辑的视频初稿，但公开材料未给出生成质量、失败率、人工复核边界与安全审核说明，交付能否确定性发生尚缺可复现证据；接口与本地 MCP 形态本身不构成交付保证。
+    evidence_ids:
+    - ev-51ada24ea7dbe402
+    - ev-2a439ecb1d8a5fa7
+  next_validation: 追踪 ClipmivoAI 官网定价页与 API 文档，确认计费单位、调用配额及是否公开客户案例或使用量数据。
+  market: ''
+  job: 营销运营或电商卖家在商品上新、需要批量出短视频投放素材时，把商品图文或脚本交给 ClipmivoAI 的 REST API、CLI 或本地 MCP 服务，由模型生成视频片段，再人工筛选出可继续剪辑的初稿。
+  job_en: Marketing operators or e-commerce sellers preparing bulk short-video ad assets at product launch
+    hand product images/copy or scripts to ClipmivoAI's REST API, CLI or local MCP server, get model-generated
+    clips, and manually select drafts worth further editing.
+  pain: 批量出片时逐条手工剪辑与套模板耗时且难以规模化，脚本到成片之间反复返工；公开材料只说明产品提供接口化生成能力，未披露生成质量、失败率与不采用的具体代价，痛点强度属工作流结构推理。
+  pain_en: Producing clips in bulk means slow manual editing and template work that does not scale, with
+    repeated rework between script and finished cut; public materials only show an API-based generation
+    capability and do not disclose output quality, failure rate or the cost of not adopting, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 旧做法是人工剪辑软件逐条制作、套用模板批量导出，或直接使用通用文生视频/图生视频工具手工上传素材；公开材料未说明它具体替代了哪一条流程。
+  current_alternative_en: The old approach is manual editing per clip, template-based batch export, or
+    hand-uploading assets into generic text-to-video/image-to-video tools; public materials do not state
+    which flow it replaces.
+  usage_reason: 推断：相较逐条手工剪辑或网页端逐个上传，它把生成能力做成 REST API、CLI 与本地 MCP 服务，可被脚本或 Agent 批量调用，减少重复上传与手工触发这一步，因此需要程序化批量出片的营销或电商团队会在上新排期时选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus per-clip manual editing or one-by-one web uploads, it exposes generation
+    as a REST API, CLI and local MCP server callable in batch by scripts or agents, removing the repeated
+    upload and manual trigger step, so marketing or e-commerce teams needing programmatic bulk output
+    would pick it at launch scheduling; no user feedback or case yet confirms this motive.'

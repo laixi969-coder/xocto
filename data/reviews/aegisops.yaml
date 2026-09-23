@@ -237,3 +237,53 @@
     and retelling between localization and ticket creation and giving approvers the evidence directly;
     inference is that ops teams short on on-call staff but needing traceable approval would choose it
     during alert peaks.
+- id: req-full-aegisops-2026-09-23
+  project_slug: aegisops
+  level: full
+  reviewed_at: '2026-09-23T01:08:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决运维排障定位慢、结论无证据链的痛点，旧做法是人工翻日志再手工建单；仓库说明自动巡检、Agent 排查、证据工单与审批处置，输入—动作—交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-3cd18dd357829f64
+    - ev-89082619f0c2d6ab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 123 增至 269 只说明开发者关注度上升，属规模信号；没有企业部署、团队采用或运维人员公开评价，无法证明已进入真实工作流。
+    evidence_ids:
+    - ev-3cd18dd357829f64
+    - ev-89082619f0c2d6ab
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方、定价或按结果收费方式；钱可能来自企业 IT 运维预算或开源支持服务，这是判断而非已验证事实，也未出现付费或采购记录。
+    evidence_ids:
+    - ev-3cd18dd357829f64
+  - gate: truth
+    status: insufficient
+    reason: 仓库附可复现实测记录，但缺少生产环境接入范围、误判率与人工审批边界的公开说明，交付确定性尚不能核验。
+    evidence_ids:
+    - ev-3cd18dd357829f64
+    - ev-89082619f0c2d6ab
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认是否披露企业实际接入的系统范围、处置结果记录或生产环境使用反馈。
+  market: ''
+  job: 企业运维工程师或 SRE 在夜间告警高峰或例行巡检时，面对服务器与业务系统的运行数据和日志，要定位故障原因、形成带证据的排查结论并开出可审批的处置工单。
+  job_en: An enterprise operations engineer or SRE, during night alert peaks or routine inspections, works
+    through server and business-system runtime data and logs to locate the fault cause, produce an evidence-backed
+    finding, and open an approvable remediation ticket.
+  pain: 排障依赖人工翻日志、跨系统比对和经验判断，定位慢且结论难以留痕，交接与审批时缺少证据链；公开材料未给出误判率或处置时长数据。
+  pain_en: Diagnosis relies on manually reading logs, cross-system comparison and experience, so localization
+    is slow, conclusions are hard to trace, and handover and approval lack an evidence chain; public material
+    gives no false-positive or time-to-resolve data.
+  current_alternative: 现有做法是人工查日志、依赖监控告警与个人经验判断，再在工单系统里手工补写处置记录，证据与结论分离。
+  current_alternative_en: The current practice is manually reading logs, relying on monitoring alerts
+    and individual experience, then hand-writing remediation records into a ticketing system, leaving
+    evidence and conclusion separate.
+  usage_reason: 相较人工翻日志再手工建单，它把运行数据与日志交给 Agent 生成带证据的排查结论并直接落成工单、走审批，减少从定位到建单之间的手工整理与转述；推断缺少值守人力又需要留痕审批的运维团队会在告警高峰时选择它。
+  usage_reason_en: Compared with manually reading logs and then hand-writing a ticket, it feeds runtime
+    data and logs to an agent that produces evidence-backed findings and turns them directly into an approvable
+    ticket, cutting the manual collation and retelling between localization and ticket creation; inference
+    is that operations teams short on on-call staff but needing traceable approval would choose it during
+    alert peaks.

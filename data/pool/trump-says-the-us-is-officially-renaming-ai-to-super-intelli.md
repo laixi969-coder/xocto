@@ -24,7 +24,7 @@ summary: In a speech Tuesday morning at the UN General Assembly, Donald Trump ra
   posted a few days ago when he started […]
 first_seen: '2026-09-22T16:01:10Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRQ213OEwtWC1M
 summary: pictory ai alternatives Download App Installer Học viện Nông nghiệp Việt Nam
 first_seen: '2026-09-21T03:38:24Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

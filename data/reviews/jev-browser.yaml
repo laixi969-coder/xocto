@@ -126,3 +126,53 @@
     in scraping or test flows with volatile page structure and hard-to-predefine steps would write one
     less block of selector and branch code, so they might choose it; however public material only shows
     repository stars, with no user feedback or deployment cases, so this causal link is unconfirmed.'
+- id: req-full-jev-browser-2026-09-23
+  project_slug: jev-browser
+  level: full
+  reviewed_at: '2026-09-23T01:10:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让程序自动操作网页时动作缺少类型约束、易出错且需人工重试的痛点；旧做法是手写脚本或让 LLM 直接操作，不解决则流程中断、维护成本高。交付形态为库、CLI 与 MCP 服务端，结构上可确定，属工作流推理。
+    evidence_ids:
+    - ev-df771f509f799ca3
+    - ev-36bd32e1d6d2f7ef
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 52 增至 75，说明开发者社区有持续关注，但公开材料没有用户评价、issue 讨论或案例说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-df771f509f799ca3
+    - ev-7ca81daf5e653ef5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；作为开源库与 MCP 服务端，可能走 to C 开发者或 to B 集成，但这是判断而非已验证事实，尚无付费路径证据。
+    evidence_ids:
+    - ev-df771f509f799ca3
+  - gate: truth
+    status: insufficient
+    reason: 类型安全决策层在结构上贴近该工作的第一性目标，但公开材料未说明失败恢复、站点覆盖范围与人工介入边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-36bd32e1d6d2f7ef
+  next_validation: 追踪 jev-browser 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际部署场景、替代的旧流程及失败恢复方式。
+  market: ''
+  job: 自动化测试与网页数据采集工程师在需要让程序自动操作网页（填表、点击、走多步流程）时，把任务交给 jev-browser：LLM 负责规划步骤，Jev 负责在每一步做类型安全的决策，最终通过库、CLI
+    或 MCP 服务端输出可执行的浏览器操作。
+  job_en: 'Automation test and web data collection engineers hand a web task (form filling, clicking,
+    multi-step flows) to jev-browser: the LLM plans steps, Jev makes type-safe decisions at each step,
+    and the result is delivered as executable browser actions via library, CLI, or MCP server.'
+  pain: LLM 直接驱动浏览器时，每一步动作缺少类型约束，容易产生无效或错误操作，导致流程中断、需要人工重试；工程师因此要反复调试提示词与选择器，把本应自动化的流程变成半人工维护。
+  pain_en: When an LLM drives a browser directly, each action lacks type constraints, so invalid or wrong
+    operations break the flow and force manual retries; engineers end up repeatedly debugging prompts
+    and selectors, turning an automation task into semi-manual maintenance.
+  current_alternative: 当前替代方式包括手写 Playwright/Selenium 脚本、用 LLM 直接生成并执行浏览器动作、或使用其他浏览器自动化 Agent 框架；这些做法要么维护成本高，要么缺少类型安全约束。
+  current_alternative_en: Current alternatives include hand-written Playwright/Selenium scripts, letting
+    an LLM generate and execute browser actions directly, or other browser-automation agent frameworks;
+    these are either high-maintenance or lack type-safe constraints.
+  usage_reason: 相较手写脚本或让 LLM 直接操作浏览器，jev-browser 把决策步骤交给类型安全的 Jev 层，在每一步动作执行前做类型校验，减少因无效动作导致的流程中断和人工重试；需要稳定、可复现网页自动化的工程师会在流程复杂、易出错时选择它。这是基于产品能力与任务结构的推断，尚无用户反馈或案例佐证。
+  usage_reason_en: Compared with hand-written scripts or letting an LLM act directly, jev-browser routes
+    decisions through a type-safe Jev layer that validates each action before execution, reducing flow
+    breaks and manual retries caused by invalid actions; engineers needing stable, reproducible web automation
+    would choose it for complex, error-prone flows. This is an inference from product capability and task
+    structure, not yet supported by user feedback or cases.

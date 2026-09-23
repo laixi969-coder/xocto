@@ -492,3 +492,54 @@
     into a single index.html, skipping frame-by-frame keyframing and video export, so designers or producers
     with a script who want a playable motion page quickly would choose it for fast openers or explainer
     motion; this is structural reasoning from product capability and task, not yet confirmed by user feedback.'
+- id: req-full-bang-motion-2026-09-23
+  project_slug: bang-motion
+  level: full
+  reviewed_at: '2026-09-23T01:09:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是已有脚本却要手工在时间轴工具里搭动态图形、再渲染导出的任务，痛点在于脚本到成片之间的人力与工具门槛；公开说明给出输入（文案/脚本）、动作（agent 生成）与交付（单个
+      index.html），结构推理成立，但无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-c7b2c9e39a099a83
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 377 增至 445，说明开发者社区持续关注，但收藏与关注只是规模信号，不能证明动态设计师或制作人员已把它留在日常出片流程里；缺少 issue、discussion 或用户评价佐证强场景。
+    evidence_ids:
+    - ev-c7b2c9e39a099a83
+    - ev-16cdc3da3bea6481
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费主体或采购记录，无法判断钱来自 to C 订阅、to B 团队授权还是仅靠开源关注；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-c7b2c9e39a099a83
+  - gate: truth
+    status: insufficient
+    reason: 交付是否稳定发生、生成页面能否达到可用的动态图形质量、以及人工修改与安全边界，公开材料均未给出可复现证据；仓库说明只承诺单文件输出，未说明失败率或编辑路径。
+    evidence_ids:
+    - ev-c7b2c9e39a099a83
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有动态设计师或制作人员报告实际用它替代 After Effects/Premiere 出片，以及生成 index.html
+    的可用性与返工情况。
+  market: ''
+  job: 动态设计师或短视频/宣传片制作人员在已有文案或脚本的情况下，把内容交给这个 agent skill，在 Claude Code、Codex、Gemini CLI 或 Cursor 中生成可在浏览器播放的片头、宣传片、bumper、动态字体或讲解视频页面，最终交付一个
+    index.html 文件。
+  job_en: A motion designer or short-video/promo producer who already has copy or a script hands it to
+    this agent skill inside Claude Code, Codex, Gemini CLI, or Cursor to generate a browser-playable opener,
+    promo, bumper, kinetic-typography or explainer page, and ends up with a single index.html deliverable.
+  pain: 公开说明只给出功能定位，未提供用户抱怨、频率或不采用代价；从工作流结构推理，旧做法要在 After Effects 或 Premiere 中手工搭时间轴、调关键帧并渲染导出，脚本到成片之间是重人力环节，这是推断而非用户口述。
+  pain_en: The public description only states positioning, with no user complaints, frequency, or cost
+    of inaction; by workflow inference, the old path requires hand-building timelines, keyframes, and
+    renders in After Effects or Premiere, making script-to-output a labor-heavy step — this is inference,
+    not user testimony.
+  current_alternative: 公开材料未说明用户当前替代方式；结构上对应的是 After Effects、Premiere 等时间轴工具手工制作，或套用现成模板，以及用幻灯片式静态页面凑合，这些是推断。
+  current_alternative_en: Public materials do not state the current alternative; structurally it corresponds
+    to hand-building in timeline tools such as After Effects or Premiere, reusing existing templates,
+    or settling for slide-like static pages — all inference.
+  usage_reason: 推断：相较在时间轴工具里逐帧搭建，它把脚本直接转成浏览器可播放的动态页面并只输出一个 index.html，省去手工排关键帧与渲染导出环节，因此已有脚本、又不想开重型剪辑软件的用户会在快速出片头或讲解视频时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus frame-by-frame timeline work, it turns a script directly into a
+    browser-playable motion page and outputs only one index.html, skipping manual keyframing and render
+    export, so users who already have a script and want to avoid heavyweight editing software would pick
+    it for fast openers or explainers; no public user feedback yet confirms this motive.'

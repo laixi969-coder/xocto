@@ -452,3 +452,47 @@
     invocation, removing tool-switching and command-by-command typing, so developers needing batch terminal
     and security tasks would pick it for repetitive ops or scanning; public material has no user feedback
     or retention evidence for this motive.'
+- id: req-full-agent-2-2026-09-23
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-09-23T01:08:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者用任务描述驱动编码、安全扫描与终端操作，但公开材料只有一句功能描述，说不清用户当前在哪一步受阻、手动执行的代价，也还原不出旧流程与交付形态，需求与痛点均无法从公开事实写出。
+    evidence_ids:
+    - ev-2e08732d8972a16e
+    - ev-e1e6985cd96c7c13
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认 Agent-2 的输入格式、执行边界与交付结果，判断能否还原具体工作流。
+  market: ''
+  job: 开发者（程序员）在终端或编码环境中，把一段任务描述交给 Agent-2，让它自动完成代码编写、安全扫描或终端命令操作，并取回任务结果或操作日志。
+  job_en: A developer, working in a terminal or coding environment, hands a task description to Agent-2
+    so it can automatically write code, run security scans or execute terminal commands, and receives
+    the task result or operation log.
+  pain: 公开材料只有一句功能描述，没有说明开发者当前在哪一步受阻、手动执行这些任务的具体代价，也没有用户抱怨或 workaround 记录，痛点无法从公开事实还原。
+  pain_en: The public material contains only a one-line capability description; it does not state which
+    step blocks developers today, what manual execution actually costs, and there are no user complaints
+    or workaround records, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未披露开发者现在用什么替代方式完成同类任务，无法确认旧做法是手动编码、脚本还是其他 agent 工具。
+  current_alternative_en: The public material does not disclose what developers currently use instead
+    for the same tasks, so it is unclear whether the old practice is manual coding, scripts or another
+    agent tool.
+  usage_reason: 推断：若它真能接收任务描述并自动完成编码、扫描与终端操作，可省去逐条手动执行命令的步骤；但公开材料没有说明输入格式、执行边界与交付形态，无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it truly accepts a task description and autonomously completes coding,
+    scanning and terminal operations, it could remove the step of manually running each command; however
+    the public material does not describe input format, execution boundaries or delivery form, so it cannot
+    explain which users would choose it and when.'

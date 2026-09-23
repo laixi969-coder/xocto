@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmVVeWxic3BJ
 summary: AI订单放量、产能梯次接续，国信证券维持景旺电子“优于大市”评级 搜狐网
 first_seen: '2026-09-22T09:30:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

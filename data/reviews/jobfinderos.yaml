@@ -269,3 +269,50 @@
     into Obsidian, removing the manual organising and table-building step; job seekers who already track
     applications in a notes vault would choose it during an intensive application period, though no retention
     or repeat-use evidence is public.'
+- id: req-full-jobfinderos-2026-09-23
+  project_slug: jobfinderos
+  level: full
+  reviewed_at: '2026-09-23T01:11:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职中岗位信息分散、筛选与整理耗时的需求，痛点具体且不采用就要继续手工逐站浏览；仓库说明已还原输入、代理动作与写入 Obsidian 的交付闭环，属工作流结构推理，买方是谁尚未公开。
+    evidence_ids:
+    - ev-ffcf4813b3c9f708
+    - ev-c83ed6aefa31e044
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 151 增至 168 只说明开发者关注度上升，没有用户反馈、issue 或客户案例说明求职者是否真的把它放进求职流程。
+    evidence_ids:
+    - ev-ffcf4813b3c9f708
+    - ev-c83ed6aefa31e044
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页或付费路径，钱可能来自求职者个人订阅或招聘方，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-ffcf4813b3c9f708
+  - gate: truth
+    status: insufficient
+    reason: 抓取范围、结果准确性与人工确认边界未公开，无法核对交付是否稳定发生，也无法判断代理输出是否贴近求职第一性目标。
+    evidence_ids:
+    - ev-ffcf4813b3c9f708
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，核对实际抓取范围、输出格式以及是否有用户报告持续使用。
+  market: ''
+  job: 求职者在集中投递期，面对分散在招聘网站与公司页面的岗位信息，需要按自身条件筛出匹配岗位、抓取职位详情并形成可翻阅的岗位清单与市场分析笔记。
+  job_en: During an intensive application period, a job seeker facing postings scattered across job boards
+    and company pages needs to screen matching roles against their own profile, pull posting details,
+    and produce a browsable shortlist plus market-analysis notes.
+  pain: 岗位信息分散、重复阅读与手工摘录耗时，容易漏掉合适岗位，也难以横向比较不同岗位的要求；不采用就要继续逐站浏览并手工整理。
+  pain_en: Postings are scattered; reading and transcribing them by hand is slow, suitable roles get missed,
+    and requirements are hard to compare across roles; without it, the user keeps browsing site by site
+    and organising manually.
+  current_alternative: 人工逐站浏览招聘网站与公司页面，复制粘贴到表格或笔记，或依赖招聘平台的订阅提醒被动接收。
+  current_alternative_en: Browsing job boards and company pages by hand, copy-pasting into spreadsheets
+    or notes, or passively receiving job-board alerts.
+  usage_reason: 推断：相较逐站浏览与手工摘录，它把抓取、按招聘官视角筛选和市场分析拆成固定代理步骤并直接写入 Obsidian，省掉整理归档这一步；已在 Obsidian 中管理求职进度的求职者会在集中投递期选择它，但公开材料没有留存或复购证据。
+  usage_reason_en: 'Inference: versus browsing site by site and transcribing by hand, it splits crawling,
+    recruiter-view screening and market analysis into fixed agent steps and writes straight into Obsidian,
+    removing the organising step; job seekers already tracking applications in Obsidian would pick it
+    during an intensive search, though no retention or repeat-use evidence is public.'

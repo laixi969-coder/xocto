@@ -386,3 +386,55 @@
     step and letting results return to the same task; a team quota administrator who cares about compliance
     and credential boundaries is therefore more likely to pick it when temporarily lending capacity to
     a colleague.'
+- id: req-full-sub2sub-2026-09-23
+  project_slug: sub2sub
+  level: full
+  reviewed_at: '2026-09-23T01:12:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队内 AI 订阅额度按任务分配、且不让同事登录他人账号的需求；公开仓库明确写“与授权队友共享 AI 资源、通过 Codex 或 Claude Code 委派任务并取回文件与回复”，可还原旧流程为共享账号密码或各自再买订阅，不解决的后果是凭证外泄与额度无法切分。这是工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-85faa525da18b63a
+    - ev-1c613d4c90534d88
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 90 增至 114，说明开发者社区持续注意到它，但收藏与关注只属规模信号，不能证明目标团队已把它留在日常额度分配流程里；公开材料没有 issue、discussion
+      或客户案例说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-85faa525da18b63a
+    - ev-d7d1fbb7f18da636
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、席位收费或采购记录，无法判断钱来自团队管理员自付、企业采购还是开源赞助；这是判断而非已验证事实，但按规则不因此取消真需求判定。
+    evidence_ids:
+    - ev-1c613d4c90534d88
+  - gate: truth
+    status: insufficient
+    reason: 仓库只描述共享与委派能力，未公开鉴权方式、额度计量口径、订阅条款合规边界与人工介入规则，因此无法核对交付能否稳定发生、以及共享是否触碰 Codex 或 Claude Code 的服务条款。
+    evidence_ids:
+    - ev-85faa525da18b63a
+    - ev-a33aba7aee052d9d
+  next_validation: 追踪 sub2sub 仓库的 README、issue 与 discussion，确认其鉴权与额度计量方式、是否说明与 Codex/Claude Code 订阅条款的合规边界，以及是否有团队公开描述部署与使用场景。
+  market: ''
+  job: 团队里有人买了 Codex 或 Claude Code 等 AI 订阅、其他成员没有时，额度管理员要在成员之间按任务分配调用能力，让被指派的同事提交任务、取回文件与回复，并让同一任务可以继续，而不必把订阅账号密码交给同事。
+  job_en: When some teammates hold Codex or Claude Code subscriptions and others do not, a quota administrator
+    must allocate call capacity task by task so assigned members can submit tasks, collect files and responses,
+    and continue the same task, without handing over the subscriber's account credentials.
+  pain: 公开仓库说明只支持“授权队友共享 AI 资源”，未披露用户抱怨；可确认的痛点是账号共享本身：把个人订阅账号交给同事意味着凭证外泄、无法按任务切分额度、也无法界定谁用了多少，管理员只能靠口头约定或干脆让同事自费再买一份。
+  pain_en: 'The public repository only states that AI resources can be shared with authorized teammates
+    and discloses no user complaints; the verifiable pain is credential sharing itself: handing a personal
+    subscription account to colleagues leaks credentials, prevents per-task quota splitting, and leaves
+    usage unattributable, so administrators rely on verbal rules or make colleagues buy separate subscriptions.'
+  current_alternative: 旧做法是直接共享订阅账号密码，或让缺额度的成员各自再买一份订阅、把任务转交给有账号的同事代跑；公开材料未说明是否还有企业级席位管理或 API 网关等替代。
+  current_alternative_en: The old approach is to share the subscription password directly, or have members
+    without quota buy their own subscription or hand tasks to a colleague who has an account; public materials
+    do not show whether enterprise seat management or API gateways are also used as substitutes.
+  usage_reason: 推断：相较交出账号密码，sub2sub 把“授权队友”和“按任务委派”做成产品动作，成员拿到的是可执行的任务通道而非他人凭证，管理员因此不必在每次协作时重新协商账号归属；哪类用户会在什么情况下选择它，公开材料尚未给出用户自述。
+  usage_reason_en: 'Inference: compared with handing over a password, sub2sub turns ''authorizing teammates''
+    and ''delegating by task'' into product actions, so members receive an executable task channel rather
+    than someone else''s credentials and the administrator need not renegotiate account ownership for
+    each collaboration; public materials do not yet provide user statements on which users choose it and
+    when.'

@@ -1,6 +1,6 @@
 ---
 slug: performai-launches-ai-commerce-operating-system
-name: Perform.AI Launches AI Commerce Operating System
+name: Perform.AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOMkY4VnNLUTU0
 summary: Perform.AI Launches AI Commerce Operating System The Malaysian Reserve
 first_seen: '2026-09-22T07:33:10Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Perform.AI Launches AI Commerce Operating System
+# Perform.AI
 
 Perform.AI Launches AI Commerce Operating System The Malaysian Reserve
 

@@ -1,0 +1,79 @@
+- id: req-initial-instinctflash-2026-09-23
+  project_slug: instinctflash
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它替代哪一步旧部署流程、解决什么具体痛点都写不出来，只有一句运行时定位，价值关不成立。
+    evidence_ids:
+    - ev-333f7a6f0eec099b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论点数与评论数不构成采用证据。
+    evidence_ids:
+    - ev-333f7a6f0eec099b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，且未披露定价与买方。
+    evidence_ids:
+    - ev-333f7a6f0eec099b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，支持格式、延迟与产线可用性均未披露。
+    evidence_ids:
+    - ev-333f7a6f0eec099b
+  next_validation: 收集 InstinctFlash 仓库 README 或部署文档，确认支持的模型格式、延迟指标与可复现的实机部署示例。
+  market: ''
+  job: 机器人团队在把训练好的操作模型部署到实机时，需要一套运行时来承载推理并支撑实时控制回路。
+  job_en: A robotics team deploying a trained manipulation model onto real hardware needs a runtime to
+    serve inference and support a real-time control loop.
+  pain: 公开材料只给出“高性能服务运行时”一句定位，未说明它替代了哪一步旧做法、解决什么具体部署痛点。
+  pain_en: Public material gives only the one-line positioning of a high-performance serving runtime,
+    without saying which old step it replaces or which concrete deployment pain it solves.
+  current_alternative: 公开材料未说明现有替代方式，无法确认旧流程是什么。
+  current_alternative_en: Public material does not describe existing alternatives, so the prior workflow
+    cannot be identified.
+  usage_reason: 公开材料不足以说明相较旧做法减少了哪一步负担，也无法核对延迟或吞吐结果，因此无法给出使用理由。
+  usage_reason_en: Public material is insufficient to say which step of burden is reduced versus the old
+    approach, and latency or throughput results cannot be checked, so no usage reason can be given.
+- id: req-full-instinctflash-2026-09-23
+  project_slug: instinctflash
+  level: full
+  reviewed_at: '2026-09-23T01:10:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它替代哪一步旧部署流程、解决什么具体痛点都写不出来，只有一句运行时定位，价值关不成立。
+    evidence_ids:
+    - ev-333f7a6f0eec099b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 InstinctFlash 仓库 README 或部署文档，确认支持的模型格式、延迟指标与可复现的实机部署示例。
+  market: ''
+  job: 机器人团队在把训练好的操作模型部署到实机时，用该运行时承载模型推理，以完成实时控制回路的部署任务。
+  job_en: A robotics team deploying a trained manipulation model onto real hardware uses this runtime
+    to serve inference and complete a real-time control-loop deployment.
+  pain: 公开材料只有“高性能服务运行时”一句定位，未说明它替代哪一步旧部署流程、解决什么具体痛点。
+  pain_en: Public material gives only the one-line positioning of a high-performance serving runtime,
+    without saying which old deployment step it replaces or which concrete pain it solves.
+  current_alternative: 公开材料未说明现有替代方式，无法确认旧流程是什么。
+  current_alternative_en: Public material does not describe existing alternatives, so the prior workflow
+    cannot be identified.
+  usage_reason: 公开材料不足以说明相较旧做法减少了哪一步负担，也无法核对延迟或吞吐结果，因此无法给出使用理由。
+  usage_reason_en: Public material is insufficient to say which step of burden is reduced versus the old
+    approach, and latency or throughput results cannot be checked, so no usage reason can be given.

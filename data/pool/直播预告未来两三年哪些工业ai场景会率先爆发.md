@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/494420.html
 summary: 从真实工厂到产品复制，再到生态和下一批机会，两位嘉宾会把工业AI从「能用」走向「规模化」的关键问题一层层拆开。
 first_seen: '2026-09-22T14:28:59Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

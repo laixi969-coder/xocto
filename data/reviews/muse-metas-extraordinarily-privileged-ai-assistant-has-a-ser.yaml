@@ -1,0 +1,91 @@
+- id: req-initial-muse-metas-extraordinarily-privileged-ai-assistant-has-a-ser-2026-09-23
+  project_slug: muse-metas-extraordinarily-privileged-ai-assistant-has-a-ser
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是高权限助手被诱导点击后完全接管本机与账号的问题，不采用会失去对设备和账号的控制，痛点由报道的攻击事实直接支持。
+    evidence_ids:
+    - ev-73e147d712b85f57
+    - ev-a2dca7ba47b49678
+  - gate: consensus
+    status: insufficient
+    reason: 报道与社区讨论显示关注度，但没有用户反馈或客户案例说明谁已采用防护措施，关注不等于持续采用。
+    evidence_ids:
+    - ev-73e147d712b85f57
+  - gate: model
+    status: insufficient
+    reason: Muse 本身是 Meta 的助手，未披露定价；面向个人或企业的权限防护由谁付费尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a2dca7ba47b49678
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明漏洞是否修复、助手权限边界如何设定，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-73e147d712b85f57
+    - ev-a2dca7ba47b49678
+  next_validation: 收集 Meta 官方安全公告或 Muse 权限说明文档，确认漏洞修复状态与该助手实际可触达的本机与账号权限范围。
+  market: ''
+  job: 个人用户在日常任务中让权限较高的 AI 助手代为读取本机内容并执行操作，需要在不被诱导劫持的前提下完成任务。
+  job_en: Individual users let a highly privileged AI assistant read local content and act on their behalf
+    during daily tasks, and need the task completed without being hijacked through inducement.
+  pain: 助手权限高而操作确认弱，一次 ClickFix 诱导点击即可被完全接管，用户可能失去对本机与账号的控制；这是报道直接陈述的攻击事实。
+  pain_en: The assistant holds high privileges with weak action confirmation, so one induced ClickFix
+    click can take it over completely and the user may lose control of the machine and accounts; this
+    is the attack fact stated in the report.
+  current_alternative: 用户目前依赖助手自身的权限设置与厂商安全更新，或干脆不给助手高权限、改回手工操作；公开材料未说明现有防护是否有效。
+  current_alternative_en: Users currently rely on the assistant's own permission settings and vendor security
+    updates, or avoid granting high privileges and do the work manually; the public material does not
+    say whether existing protections work.
+  usage_reason: 推断：若存在一层在助手执行本机或账号操作前强制确认并限制可触达范围的机制，用户可省去事后排查被劫持后果这一步，因此高频使用高权限助手的个人与小团队会考虑采用；但公开材料未提供任何用户采用或防护效果数据，该因果尚未被证实。
+  usage_reason_en: 'Inference: if a layer forced confirmation and limited reachable scope before the assistant
+    acts on the machine or accounts, users could skip the step of investigating the aftermath of a hijack,
+    which is why individuals and small teams using high-privilege assistants frequently might consider
+    it; however, no adoption or protection-outcome data is public, so this causal claim is unproven.'
+- id: req-full-muse-metas-extraordinarily-privileged-ai-assistant-has-a-ser-2026-09-23
+  project_slug: muse-metas-extraordinarily-privileged-ai-assistant-has-a-ser
+  level: full
+  reviewed_at: '2026-09-23T01:11:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决高权限助手被诱导点击后接管本机与账号的问题，但公开材料只有官方安全宣称与攻击说法，没有用户遭遇、损失或抱怨，痛点强度与不采用后果都无从确认。
+    evidence_ids:
+    - ev-e3e78177461bbee0
+    - ev-b5cd7275bdadd9c7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta 官方安全公告或 Muse 权限说明文档，确认该助手实际可触达的本机与账号权限范围及漏洞修复状态。
+  market: ''
+  job: 个人用户在日常任务中让 Meta 的高权限个人 AI 助手 Muse 代为读取本机内容并执行操作，希望任务完成而不被诱导劫持。
+  job_en: Individual users let Meta's highly privileged personal AI agent Muse read local content and
+    act on their behalf during daily tasks, and want the task completed without being hijacked through
+    inducement.
+  pain: 公开材料只给出 Muse 是安全私密的个人助手这一官方描述，以及一次 ClickFix 诱导点击即可完全劫持的说法，未说明用户实际遭遇、损失或抱怨，痛点强度无法从公开事实确认。
+  pain_en: Public material only offers the official description of Muse as a secure, private personal
+    agent and a claim that one induced ClickFix click can fully hijack it; it does not show actual user
+    incidents, losses, or complaints, so pain intensity cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明用户当前如何防护，只能推断依赖助手自身权限设置与厂商安全更新，或干脆不给助手高权限、改回手工操作。
+  current_alternative_en: Public material does not say how users currently protect themselves; it can
+    only be inferred that they rely on the assistant's own permission settings and vendor security updates,
+    or avoid granting high privileges and work manually.
+  usage_reason: 推断：若存在一层在助手执行本机或账号操作前强制确认并限制可触达范围的机制，用户可省去事后排查被劫持后果这一步；但公开材料未提供任何采用、防护效果或修复进展数据，该因果尚未被证实。
+  usage_reason_en: 'Inference: if a layer forced confirmation and limited reachable scope before the assistant
+    acts on the machine or accounts, users could skip the step of investigating the aftermath of a hijack;
+    however, no adoption, protection-outcome, or fix-progress data is public, so this causal claim is
+    unproven.'

@@ -1,11 +1,24 @@
 ---
 slug: meta-个人-ai-助手刚火-13-天amazon-就拉闸了
-name: Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了
+name: Meta Muse
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026 年 9 月 21 日，Amazon 以违反使用条款为由，阻止 Meta 于 9 月 8 日发布的个人 AI 代理 Muse 在其平台代为购物；Muse 上线 13 天下载超
+  250 万次并于 9 月 18 日登顶美国 App Store 免费榜。同期 Shopify 宣布与 Muse 合作，支持代理在 Shopify 商家店铺内直接结账，其底座为 Shopify 与 Google
+  于 2026 年 1 月共同发布的 Universal Commerce Protocol。这一分化表明，代理式购物能否落地取决于平台是否开放结账与商品数据接口：广告驱动的平台倾向封堵，佣金驱动的商业基础设施倾向接入。对
+  AI 应用而言，代理的采用速度已由模型能力转向平台准入与用户信任，调查显示仅 8% 的美国消费者信任 Meta 管理密码、58% 不愿将密码交给任何 AI 代理（推断：信任与准入将成为代理商业化的主要瓶颈）。
 inspiration: ''
-summary_en: ''
+summary_en: 'On September 21, 2026, Amazon blocked Meta''s personal AI agent Muse, launched September
+  8, from making purchases on its platform, citing a violation of its terms of service; Muse passed 2.5
+  million downloads in 13 days and topped the U.S. App Store free chart on September 18. In the same period
+  Shopify said it would work with Muse to let the agent check out directly inside Shopify merchants''
+  stores, built on the Universal Commerce Protocol that Shopify and Google released together in January
+  2026. The split shows that agentic shopping depends on whether platforms open their checkout and product-data
+  interfaces: ad-driven platforms tend to block agents, while commission-driven commerce infrastructure
+  tends to admit them. For AI applications, adoption is shifting from model capability to platform access
+  and user trust; a survey found only 8% of U.S. consumers trust Meta to manage their passwords and 58%
+  would not give passwords to any AI agent (inference: trust and access will be the main bottlenecks for
+  agent commerce).'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -61,7 +74,7 @@ summary: "9 月 21 日，一条弹窗开始出现在试图用 Meta Muse 在 Amaz
   \ AI，都得先被挡在这道门外。 \n *头图来源：TechBrew \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-09-22T04:01:13Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -72,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了
+# Meta Muse
 
 9 月 21 日，一条弹窗开始出现在试图用 Meta Muse 在 Amazon 上购物的用户屏幕上：「未经授权的 AI Agent 继续访问，将违反 Amazon 使用条款。」 
  这距离 Muse 正式上线，仅仅过了 13 天。 

@@ -22,7 +22,7 @@ summary: Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a se
   increase on September 25 at 11:59 p.m. PT. Register today.
 first_seen: '2026-09-22T14:00:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

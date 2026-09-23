@@ -36,7 +36,7 @@ canonical_url: https://github.com/Marvy101/reader-source
 summary: I made a Mac workspace for books, browser tabs, notes, and AI
 first_seen: '2026-09-19T16:59:58Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

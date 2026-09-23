@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNSGFFN3Q5SjhC
 summary: 'When the Machine Speaks: Why AI Accountability Can No Longer Be Swept Under the Carpet Nasscom'
 first_seen: '2026-09-20T13:19:21Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

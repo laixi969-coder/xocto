@@ -1,0 +1,89 @@
+- id: req-initial-robot-voice-bridge-2026-09-23
+  project_slug: robot-voice-bridge
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是配音制作中逐条生成、反复切换工具的问题，痛点具体；但公开材料只有一句说明，说不清输入脚本后如何交付成品，价值强度无法判断。
+    evidence_ids:
+    - ev-93de5109bf8a4690
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、社区讨论或采用迹象，无法判断配音从业者是否真的需要桌面端流程而非网页工具。
+    evidence_ids:
+    - ev-93de5109bf8a4690
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是个人创作者买断、订阅还是团队采购均不清楚；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-93de5109bf8a4690
+  - gate: truth
+    status: insufficient
+    reason: 语音合成依赖第三方接口，额度、失败重试和人工确认边界均无公开说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-93de5109bf8a4690
+  next_validation: 收集 Robot Voice Bridge 官方定价页或使用文档，确认它按什么方式收费、支持哪些导出格式，以及是否说明与 ElevenLabs 额度或授权的关系。
+  market: ''
+  job: 配音或音频内容制作者在 Mac 上录制旁白时，需要把脚本逐段转成语音、反复试听并挑出可用版本，最终得到可进入剪辑的音频文件。
+  job_en: Voiceover and audio content creators recording narration on a Mac need to turn a script into
+    speech line by line, audition takes repeatedly and pick usable ones, ending with audio files ready
+    for editing.
+  pain: 在浏览器里逐条生成、下载再导入剪辑软件，切换频繁且难以按段落重录，改一句台词往往要重走一遍流程。
+  pain_en: Generating and downloading line by line in a browser and then importing into editing software
+    means constant switching and makes re-recording a single line awkward, often forcing the whole flow
+    again.
+  current_alternative: 现在多直接在语音合成网页里逐条生成并下载音频，再手工导入剪辑软件拼接，或请真人配音演员录制。
+  current_alternative_en: Today people mostly generate and download audio line by line in a speech synthesis
+    web page, then manually import and stitch it in editing software, or hire a human voice actor.
+  usage_reason: 推断：如果它把逐段生成、试听和重录收进一个桌面流程，制作者就不必在浏览器与剪辑软件之间反复搬运文件，改一句台词时能就地重录；但公开材料没有说明导出格式、批量处理方式，也没有用户反馈或复购证据，因此不能确认它会被长期留在制作流程里。
+  usage_reason_en: 'Inference: if it folds line-by-line generation, auditioning and re-recording into
+    one desktop flow, creators would not have to shuttle files between browser and editing software and
+    could re-record a line in place; however, public material does not describe export formats or batch
+    handling, and there is no user feedback or repeat-purchase evidence, so it cannot be confirmed as
+    a lasting part of the production workflow.'
+- id: req-full-robot-voice-bridge-2026-09-23
+  project_slug: robot-voice-bridge
+  level: full
+  reviewed_at: '2026-09-23T01:12:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决配音逐条生成、工具切换的问题，但公开材料只有一句产品说明，说不清输入脚本后如何交付成品，也找不到用户痛点或替代行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-8a12fe39fed8d87d
+    - ev-17421fee8f59a23f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Robot Voice Bridge 官方产品页或使用文档，确认它如何组织多段台词、导出什么格式，以及是否说明与 ElevenLabs 额度或授权的关系。
+  market: ''
+  job: 配音或音频内容制作者在 Mac 上录制旁白时，需要把脚本逐段转成语音、反复试听并挑出可用版本，最终得到可进入剪辑的音频文件。
+  job_en: Voiceover and audio content creators recording narration on a Mac need to turn a script into
+    speech line by line, audition takes repeatedly and pick usable ones, ending with audio files ready
+    for editing.
+  pain: 公开材料只有一句产品说明，无法确认逐条生成、浏览器与剪辑软件来回切换是否构成真实痛点，也看不到用户抱怨或替代行为。
+  pain_en: Public material offers only a one-line product description, so it cannot confirm whether line-by-line
+    generation and browser-to-editor switching is a real pain, nor show user complaints or workaround
+    behavior.
+  current_alternative: 公开材料未说明现有替代方式；按产品定位推断可能是直接在语音合成网页逐条生成下载后手工拼接，但无证据支持。
+  current_alternative_en: Public material does not describe existing alternatives; based on positioning
+    one might infer generating and downloading line by line in a speech synthesis web page and stitching
+    manually, but no evidence supports this.
+  usage_reason: 无法判断：现有证据全部是机器人定义类百科内容，与配音工作流无关，既没有产品流程说明，也没有用户反馈，无法解释哪类用户会因什么具体动作选择它。
+  usage_reason_en: 'Cannot be judged: all available evidence is robotics encyclopedia content unrelated
+    to voiceover workflows, with no product flow description or user feedback, so it cannot explain which
+    users would choose it for what concrete action.'

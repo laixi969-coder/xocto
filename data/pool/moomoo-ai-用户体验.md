@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOTjFTLV9JZ1hu
 summary: Moomoo AI 用户体验 Moomoo
 first_seen: '2026-09-22T09:39:41Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

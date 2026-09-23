@@ -183,3 +183,50 @@
     safely, compressing the repeated change-render-look step into one automated search while the artist
     confirms the final scene. This is workflow inference from product capability, not yet backed by user
     feedback or customer cases.
+- id: req-full-dsh-blender-plugin-2026-09-23
+  project_slug: dsh-blender-plugin
+  level: full
+  reviewed_at: '2026-09-23T01:10:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决三维美术师调材质、灯光与减面时靠反复渲染截图比对参数的问题，痛点具体且不采用就要持续消耗渲染时间与人工判断；仓库说明已给出输入、动作与交付闭环，属工作流结构推理，买方是谁尚不清楚。
+    evidence_ids:
+    - ev-6fb8a04982a05df0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 46 缓慢升至 54，属关注度信号，未见 issue、discussion 或客户案例说明美术师已把它放进日常管线，持续采用无法确认。
+    evidence_ids:
+    - ev-6fb8a04982a05df0
+    - ev-e0fb27e175fba454
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费或商业主体，钱可能来自工作室定制或按项目收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6fb8a04982a05df0
+  - gate: truth
+    status: insufficient
+    reason: 直连 TCP 驱动 Blender 并自动减面存在破坏场景的风险，仓库未说明人工确认边界与回滚机制，交付确定性待核验。
+    evidence_ids:
+    - ev-6fb8a04982a05df0
+  next_validation: 追踪该仓库的 issue / discussion 与 README 更新，确认是否有工作室报告在真实项目中用它完成参数搜索或减面，以及是否出现人工确认与回滚流程。
+  market: ''
+  job: 三维美术师或技术美术在 Blender 中调整材质、灯光与模型面数时，需要反复渲染并对比不同参数下的画面，以决定最终交付给客户或下游环节的场景版本。
+  job_en: A 3D artist or technical artist adjusting materials, lighting and polygon counts in Blender
+    repeatedly renders and compares images under different parameters to decide the scene version delivered
+    to a client or downstream stage.
+  pain: 参数搜索靠人工反复改、反复渲染、反复截图比对，单次渲染耗时长，减面过度还会破坏模型，试错成本高且难以系统化记录。
+  pain_en: 'Parameter search is manual: change, render, screenshot, compare. Each render is slow, over-decimation
+    can damage the model, and trial-and-error is costly and hard to record systematically.'
+  current_alternative: 美术师手动调参并在本地或渲染农场排队渲染，用截图和渲染日志人工比对；部分团队用脚本批量渲染，但仍需人判断结果。
+  current_alternative_en: Artists tune parameters by hand and queue renders locally or on a render farm,
+    comparing screenshots and render logs manually; some teams script batch renders but a human still
+    judges the results.
+  usage_reason: 相较人工反复渲染比对，该插件让模型通过直连 TCP 读取视口帧和自定义角度渲染，在内部循环里搜索参数并做渲染耗时分析与安全减面，把“改一次、渲一次、看一眼”的重复步骤压缩成一次自动搜索，美术师只需确认最终场景；这是基于产品能力的工作流推断，尚无用户反馈或客户案例佐证。
+  usage_reason_en: Compared with manual render-and-compare loops, the plugin lets a model read viewport
+    frames and custom-angle renders over a direct TCP channel, search parameters in an inner loop, profile
+    render cost and decimate safely, compressing the repeated change-render-look step into one automated
+    search while the artist confirms the final scene. This is workflow inference from product capability,
+    not yet backed by user feedback or customer cases.

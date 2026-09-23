@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/2ba-ai
 summary: Stop waiting for tokens, and start shipping
 first_seen: '2026-09-16T13:13:32Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

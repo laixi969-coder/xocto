@@ -21,7 +21,7 @@ canonical_url: https://wavexai.dev
 summary: Unlimited tokens for a fixed cost
 first_seen: '2026-09-22T22:24:48Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

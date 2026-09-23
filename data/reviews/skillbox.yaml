@@ -171,3 +171,48 @@
     syncing and diffing across repositories, so teams serving multiple clients that must avoid prompt
     leakage would choose it once skill count grows; no public evidence yet that teams keep using it long
     term.'
+- id: req-full-skillbox-2026-09-23
+  project_slug: skillbox
+  level: full
+  reviewed_at: '2026-09-23T01:12:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决多客户端下技能散落、无法回溯与越权共享的问题，但现有公开证据全部指向教师课程平台、印度演出票务与俄罗斯在线教育平台，与 AI Agent 技能管理无关，连需求与痛点都无法从公开事实还原，只能靠摘要推断。
+    evidence_ids:
+    - ev-5c0bbd4a65f3a8b5
+    - ev-329457e1af193322
+    - ev-b18968daa8313951
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索 skillbox 在 公开代码仓库 或 MCP 生态中的官方仓库与 README，确认其真实产品定位、安装方式与技能版本/权限功能是否存在，以替换当前指向无关同名站点的证据。
+  market: ''
+  job: 开发 AI Agent 的团队在多个客户端与项目间复用提示与技能时，需要把技能集中存放、按客户端限定可见范围并保留版本，形成可自托管、可回溯的技能库。
+  job_en: Teams building AI agents need a self-hosted, versioned skills library so prompts and skills
+    can be reused across multiple clients and projects with per-client scoping and history.
+  pain: 公开材料中没有任何一条能说明该产品自身的用户痛点：现有证据分别指向教师课程资源平台、印度演出票务和俄罗斯在线教育平台，与 AI Agent 技能管理无关，无法确认技能散落、无法回溯或越权共享是否真实存在。
+  pain_en: 'No public evidence describes this product''s own user pain: the available items point to a
+    teacher curriculum platform, an India concert ticketing page, and a Russian online-education platform,
+    none related to AI agent skill management, so scattered skills, missing history, or cross-client leakage
+    cannot be confirmed.'
+  current_alternative: 无法从公开材料确认现有替代方式；摘要提到的 Git 仓库、共享文档或复制粘贴同步属于产品描述推断，缺少可引用的用户行为证据。
+  current_alternative_en: The current alternative cannot be confirmed from public material; Git repos,
+    shared docs, or copy-paste syncing mentioned in the summary are product-description inference without
+    citable user-behavior evidence.
+  usage_reason: 推断：若它真能集中存放技能并附加版本与客户端范围，可省去在多仓库间手工同步与比对差异这一步，从而降低跨客户串用风险；但没有任何公开事实支持哪类用户会在什么情况下选择它，因此不构成使用理由证据。
+  usage_reason_en: 'Inference: if it truly centralizes skills with versions and client scoping, it could
+    remove manual syncing and diffing across repositories and reduce cross-client leakage risk; however,
+    no public fact supports which users would choose it under what circumstances, so this is not usage-reason
+    evidence.'

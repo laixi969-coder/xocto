@@ -117,3 +117,54 @@
     developers might choose it when agents frequently overreach or produce unpredictable edits; but public
     materials do not describe integration, output form or the specific step it removes versus current
     practice, so the reason for choosing it cannot be confirmed.'
+- id: req-full-stanley-code-2026-09-23
+  project_slug: stanley-code
+  level: full
+  reviewed_at: '2026-09-23T01:12:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理多步改动越界、不可控的需求，痛点是代理行为缺少边界约束；公开仓库说明其提供有边界的类型安全 Jev 工作流，可还原输入（代理多步改动）、动作（工作流约束）与交付（受约束的执行结构），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-dc7b25527f5964be
+    - ev-9a6deff3bd6b37c8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 101 增至 113，说明开发者社区已注意到该项目，但收藏与关注只属规模或关注度证据，不能证明目标用户已持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-dc7b25527f5964be
+    - ev-9a6deff3bd6b37c8
+    - ev-db630312020a0e68
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、付费主体或单位经济；钱可能来自 to C 开发者或 to B 团队赞助，属判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-dc7b25527f5964be
+  - gate: truth
+    status: insufficient
+    reason: 公开材料仅有仓库描述与收藏数，缺少部署文档、issue 或 discussion 说明交付能否稳定发生、人工与安全边界如何界定，承诺的确定性交付尚未核验。
+    evidence_ids:
+    - ev-9a6deff3bd6b37c8
+    - ev-db630312020a0e68
+  next_validation: 追踪 stanley-code 仓库的 README、部署文档与 issue/discussion，确认开发者实际如何接入该工作流、约束了哪类多步改动任务。
+  market: ''
+  job: 使用编码代理（如 Claude Code、Cursor 类工具）的软件开发者，在让代理执行多步代码改动时，需要把代理的每一步动作约束在预先定义的边界内，并让工作流具备类型安全的结构，从而完成一次可控的多步改动任务。
+  job_en: Software developers using coding agents (e.g. Claude Code, Cursor-style tools) who, when letting
+    an agent perform multi-step code changes, need each agent action bounded within a pre-defined scope
+    and the workflow to carry a type-safe structure, so a multi-step change task can be completed under
+    control.
+  pain: 编码代理执行多步改动时容易越界、偏离意图或产生不可预期的副作用，开发者缺少一种把代理行为限定在明确边界内的结构化方式；不解决的后果是改动不可控、需要反复人工回滚与复核。
+  pain_en: When coding agents run multi-step changes they tend to overstep, drift from intent, or produce
+    unexpected side effects, and developers lack a structured way to bound agent behavior within explicit
+    limits; leaving it unsolved means uncontrolled changes and repeated manual rollback and review.
+  current_alternative: 当前替代方式是直接让编码代理自由执行，再靠人工审阅 diff、回滚或重写提示词来兜底；部分开发者用脚本或自定义规则做粗粒度约束。
+  current_alternative_en: The current alternative is letting the coding agent run freely and relying on
+    manual diff review, rollback, or prompt rewriting as a backstop; some developers use scripts or custom
+    rules for coarse-grained constraints.
+  usage_reason: 推断：相较自由执行加人工兜底的旧做法，该产品通过为编码代理定义有边界的类型安全 Jev 工作流，把“约束代理行为”从每次事后人工审阅前移为工作流本身的结构约束，减少事后回滚与复核这一步负担，因此关注代理可控性的开发者会在执行多步改动时选择它。
+  usage_reason_en: 'Inference: compared with free execution plus manual backstop, this product defines
+    bounded type-safe Jev workflows for coding agents, moving ''constraining agent behavior'' from after-the-fact
+    manual review into the workflow structure itself, reducing the rollback-and-review step, so developers
+    who care about agent controllability would choose it when running multi-step changes.'

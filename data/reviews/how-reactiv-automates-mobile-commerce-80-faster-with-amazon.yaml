@@ -1,0 +1,84 @@
+- id: req-initial-how-reactiv-automates-mobile-commerce-80-faster-with-amazon-2026-09-23
+  project_slug: how-reactiv-automates-mobile-commerce-80-faster-with-amazon
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动端版本更新依赖人工配置、易漏更的问题，旧做法是手动发布或外包，痛点具体且交付可核对。
+    evidence_ids:
+    - ev-ac982e81d43fdbd7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 AWS 一方案例，未见商家侧评价或采用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ac982e81d43fdbd7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方付费路径，按店收费还是按次收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-ac982e81d43fdbd7
+  - gate: truth
+    status: insufficient
+    reason: 自动刷新能否确定性交付、出错时人工边界如何，公开材料未说明。
+    evidence_ids:
+    - ev-ac982e81d43fdbd7
+  next_validation: 收集 Reactiv 官方定价页或客户案例页，确认其计费方式与商家实际使用情况。
+  market: ''
+  job: Shopify 商家或代运营人员在移动购物应用需要更新版本时，处理应用配置与发布排期，完成一次可上线的移动端刷新。
+  job_en: A Shopify merchant or agency staffer, when a mobile shopping app needs a version update, handles
+    app configuration and release scheduling to complete a shippable mobile refresh.
+  pain: 移动端版本更新依赖人工配置和排期，容易漏更、延迟，商家缺少专职移动开发人手。
+  pain_en: Mobile version updates depend on manual configuration and scheduling, are easy to miss or delay,
+    and merchants often lack dedicated mobile developers.
+  current_alternative: 商家自行在后台手动配置并重新发布，或外包给开发代理逐次处理。
+  current_alternative_en: Merchants configure and republish manually in the backend, or outsource each
+    cycle to a development agency.
+  usage_reason: 相较手动逐次配置，AI Scheduler 按计划自动执行刷新动作，减少商家每次更新都要重新配置这一步负担；推断需要频繁更新移动端的商家会因此选择它，但公开材料未给出留存或复购证据。
+  usage_reason_en: Compared with manual per-cycle configuration, the AI Scheduler executes refreshes on
+    a schedule, removing the step of reconfiguring each time; merchants who update mobile frequently would
+    plausibly choose it, though no retention or repeat-use evidence is public.
+- id: req-full-how-reactiv-automates-mobile-commerce-80-faster-with-amazon-2026-09-23
+  project_slug: how-reactiv-automates-mobile-commerce-80-faster-with-amazon
+  level: full
+  reviewed_at: '2026-09-23T01:10:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动端版本更新依赖人工配置、易漏更的问题，旧做法是手动发布或外包，痛点具体且交付可核对。
+    evidence_ids:
+    - ev-ac982e81d43fdbd7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 AWS 一方案例，未见商家侧评价或采用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ac982e81d43fdbd7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方付费路径，按店收费还是按次收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-ac982e81d43fdbd7
+  - gate: truth
+    status: insufficient
+    reason: 自动刷新能否确定性交付、出错时人工边界如何，公开材料未说明。
+    evidence_ids:
+    - ev-ac982e81d43fdbd7
+  next_validation: 收集 Reactiv 官方定价页或客户案例页，确认其计费方式与商家实际使用情况。
+  market: ''
+  job: Shopify 商家或代运营人员在移动购物应用需要更新版本时，处理应用配置与发布排期，完成一次可上线的移动端刷新。
+  job_en: A Shopify merchant or agency staffer, when a mobile shopping app needs a version update, handles
+    app configuration and release scheduling to complete a shippable mobile refresh.
+  pain: 移动端版本更新依赖人工配置和排期，容易漏更、延迟，商家缺少专职移动开发人手。
+  pain_en: Mobile version updates depend on manual configuration and scheduling, are easy to miss or delay,
+    and merchants often lack dedicated mobile developers.
+  current_alternative: 商家自行在后台手动配置并重新发布，或外包给开发代理逐次处理。
+  current_alternative_en: Merchants configure and republish manually in the backend, or outsource each
+    cycle to a development agency.
+  usage_reason: 相较手动逐次配置，AI Scheduler 按计划自动执行刷新动作，减少商家每次更新都要重新配置这一步负担；推断需要频繁更新移动端的商家会因此选择它，但公开材料未给出留存或复购证据。
+  usage_reason_en: Compared with manual per-cycle configuration, the AI Scheduler executes refreshes on
+    a schedule, removing the step of reconfiguring each time; merchants who update mobile frequently would
+    plausibly choose it, though no retention or repeat-use evidence is public.

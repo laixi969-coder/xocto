@@ -1,0 +1,90 @@
+- id: req-initial-heidi-hits-12-billion-valuation-with-470-million-in-fresh-fu-2026-09-23
+  project_slug: heidi-hits-12-billion-valuation-with-470-million-in-fresh-fu
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决问诊中同时记录与诊疗的冲突，痛点刚性且旧替代行为明确（手写、文员、通用转写），交付物是病历草稿，属工作流推理。
+    evidence_ids:
+    - ev-7cc37e0317d866ce
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与估值，没有客户数、医院采用或医生持续使用的证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-7cc37e0317d866ce
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按席位还是按份计费，也未说明买方是诊所、医院还是医生个人；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-7cc37e0317d866ce
+  - gate: truth
+    status: insufficient
+    reason: 病历生成的准确率、错误责任归属与人工复核边界均未公开，医疗场景下这一环决定能否确定性交付。
+    evidence_ids:
+    - ev-7cc37e0317d866ce
+  next_validation: 收集Heidi官方定价页或客户案例页面，确认计费方式、买方类型与是否有公开的医疗机构采用记录。
+  market: ''
+  job: 临床医生在门诊或问诊过程中，面对医患口头对话这一原始材料，需要把它变成可归档、可用于后续诊疗的病历记录。
+  job_en: A clinician, during an outpatient visit or consultation, faces the raw material of a spoken
+    doctor-patient conversation and needs to turn it into an archivable medical note usable for follow-up
+    care.
+  pain: 问诊时医生要同时听、问、记，事后补写病历往往占用下班时间，记录不全还会影响后续诊疗与合规。
+  pain_en: During the visit the doctor must listen, ask and write at once; notes are often finished after
+    hours, and incomplete records hurt follow-up care and compliance.
+  current_alternative: 旧做法是医生自己手写或打字录入，或由医疗文员、 scribe 事后整理，也有用通用语音转写再手工改写的。
+  current_alternative_en: The old way is the doctor typing or handwriting the note, or a medical scribe
+    cleaning it up afterwards, sometimes with generic speech-to-text that is then rewritten by hand.
+  usage_reason: 相较医生事后凭记忆补写或通用转写再改写，它把问诊对话直接转成结构化病历草稿，省掉从零组织病史、主诉与处置这一段，医生只需核对修改；推断常处理大量门诊文书、又缺少专职文员的医生会因此选择它。
+  usage_reason_en: Compared with reconstructing notes from memory afterwards or rewriting generic transcripts,
+    it turns the consultation conversation directly into a structured note draft, removing the step of
+    assembling history, complaint and plan from scratch so the doctor only reviews and edits; the inference
+    is that doctors handling heavy outpatient paperwork without a dedicated scribe would choose it for
+    that reason.
+- id: req-full-heidi-hits-12-billion-valuation-with-470-million-in-fresh-fu-2026-09-23
+  project_slug: heidi-hits-12-billion-valuation-with-470-million-in-fresh-fu
+  level: full
+  reviewed_at: '2026-09-23T01:10:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决问诊中同时记录与诊疗的冲突，痛点刚性且旧替代行为明确（手写、文员、通用转写），交付物是病历草稿，属工作流结构推理。
+    evidence_ids:
+    - ev-1aba2ab224f68274
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与估值，没有客户数、医院采用或医生持续使用的证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-1aba2ab224f68274
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按席位还是按份计费，也未说明买方是诊所、医院还是医生个人；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1aba2ab224f68274
+  - gate: truth
+    status: insufficient
+    reason: 病历生成的准确率、错误责任归属与人工复核边界均未公开，医疗场景下这一环决定能否确定性交付。
+    evidence_ids:
+    - ev-1aba2ab224f68274
+  next_validation: 收集Heidi官方定价页或客户案例页面，确认计费方式、买方类型与是否有公开的医疗机构采用记录。
+  market: ''
+  job: 临床医生在门诊或问诊过程中，面对医患口头对话这一原始材料，需要把它变成可归档、可用于后续诊疗的病历记录。
+  job_en: A clinician, during an outpatient visit or consultation, faces the raw material of a spoken
+    doctor-patient conversation and needs to turn it into an archivable medical note usable for follow-up
+    care.
+  pain: 问诊时医生要同时听、问、记，事后补写病历常占用下班时间，记录不全还会影响后续诊疗与合规；这是从问诊任务结构推出的痛点，公开材料未提供医生自述。
+  pain_en: During the visit the doctor must listen, ask and write at once; notes are often finished after
+    hours, and incomplete records hurt follow-up care and compliance. This pain is inferred from the structure
+    of the consultation task, not from published clinician testimony.
+  current_alternative: 旧做法是医生自己手写或打字录入，或由医疗文员、scribe 事后整理，也有用通用语音转写再手工改写的。
+  current_alternative_en: The old way is the doctor typing or handwriting the note, or a medical scribe
+    cleaning it up afterwards, sometimes with generic speech-to-text that is then rewritten by hand.
+  usage_reason: 相较医生事后凭记忆补写或通用转写再改写，它把问诊对话直接转成病历草稿，省掉从零组织病史、主诉与处置这一段，医生只需核对修改；这是基于产品说明的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with reconstructing notes from memory afterwards or rewriting generic transcripts,
+    it turns the consultation conversation directly into a note draft, removing the step of assembling
+    history, complaint and plan from scratch so the doctor only reviews and edits; this is an inference
+    from the product description, not yet confirmed by user feedback.

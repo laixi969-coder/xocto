@@ -22,7 +22,7 @@ summary: Funding opportunity launched to strengthen UK regulatory science and su
   GOV.UK
 first_seen: '2026-09-22T09:24:03Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

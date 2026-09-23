@@ -21,7 +21,7 @@ canonical_url: https://interconnects.ai/p/debating-rsi-the-us-china-gap-and
 summary: 'Podcast #19'
 first_seen: '2026-09-22T13:37:45Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

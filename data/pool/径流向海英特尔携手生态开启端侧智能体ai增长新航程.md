@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tMThzMXVHRWhW
 summary: 径流向海，英特尔携手生态开启端侧智能体AI增长新航程 电子工程专辑
 first_seen: '2026-09-22T13:12:35Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

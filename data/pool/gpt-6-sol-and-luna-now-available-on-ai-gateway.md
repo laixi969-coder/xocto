@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-
 summary: ''
 first_seen: '2026-09-22T00:00:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

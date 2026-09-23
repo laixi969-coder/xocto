@@ -1,7 +1,6 @@
 ---
 slug: nextech3dai-launches-kate-training-intelligence-platform-exp
-name: Nextech3D.ai Launches "KATE" Training Intelligence Platform, Expanding AI SaaS Strategy and Pursues
-  Participation in Anthropic's Claude Partner Network
+name: Nextech3D.ai
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Nextech3D.ai Launches "KATE" Training Intelligence Platform, Expanding 
   Participation in Anthropic's Claude Partner Network FinancialContent
 first_seen: '2026-09-22T11:30:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Nextech3D.ai Launches "KATE" Training Intelligence Platform, Expanding AI SaaS Strategy and Pursues Participation in Anthropic's Claude Partner Network
+# Nextech3D.ai
 
 Nextech3D.ai Launches "KATE" Training Intelligence Platform, Expanding AI SaaS Strategy and Pursues Participation in Anthropic's Claude Partner Network FinancialContent
 

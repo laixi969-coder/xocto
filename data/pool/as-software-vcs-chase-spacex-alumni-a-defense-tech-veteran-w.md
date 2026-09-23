@@ -23,7 +23,7 @@ summary: In an interview with Crunchbase News, Van Espahbodi, general parter at 
   technology, and what he believes many of them misunderstand about the sector.
 first_seen: '2026-09-22T11:00:42Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

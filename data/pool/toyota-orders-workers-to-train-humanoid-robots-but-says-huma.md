@@ -1,6 +1,6 @@
 ---
 slug: toyota-orders-workers-to-train-humanoid-robots-but-says-huma
-name: Toyota orders workers to train humanoid robots but says humans won't be replaced
+name: Toyota
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-
 summary: Toyota's push comes as automakers race to develop and deploy humanoid robots.
 first_seen: '2026-09-22T17:06:16Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Toyota orders workers to train humanoid robots but says humans won't be replaced
+# Toyota
 
 Toyota's push comes as automakers race to develop and deploy humanoid robots.
 

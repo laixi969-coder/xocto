@@ -237,3 +237,56 @@
     pixel-level coordinate debugging, so text changes don''t require rewriting coordinates; versus generic
     LLM computer-use, the ~$0.0002/step pricing and constrained action space cut per-step cost and misclick
     risk, so macOS automation developers who care about cost and action control would choose it.'
+- id: req-full-typesafe-computer-use-2026-09-23
+  project_slug: typesafe-computer-use
+  level: full
+  reviewed_at: '2026-09-23T01:12:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 macOS 界面自动化中“看屏幕决定下一步点哪里”的需求，痛点在于通用视觉模型单步成本高、动作不受约束，旧脚本又依赖脆弱坐标；不解决的后果是自动化成本高或频繁失效。公开材料仅给出约
+      0.0002 美元/步与 OCR+TypeSafe+点击流程，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+    - ev-2a1ff8acc0785a34
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 167 增至 829，说明开发者社区持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在工作流或形成强场景共识；缺少 issue、discussion 或使用反馈。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+    - ev-e2a56390920795f9
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出约 0.0002 美元/步的成本口径，没有定价页、付费主体或采购记录；开源项目可能靠 to C 开发者自用或 to VC 融资，钱从哪来是判断而非已验证事实，存在每日优鲜风险。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+  - gate: truth
+    status: insufficient
+    reason: OCR 加动作分类再点击的闭环在结构上可交付，但公开材料未说明支持哪些应用、失败后如何回退、以及人工与安全边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-0ce22c0370f4155e
+    - ev-2a1ff8acc0785a34
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的应用范围、失败回退机制与真实使用场景。
+  market: ''
+  job: 开发者在 macOS 上构建界面自动化或 GUI agent 时，把屏幕截图交给它：先 OCR 识别界面文字，再用 TypeSafe 分类出下一步动作，然后执行点击，交付一串可执行的点击动作序列。
+  job_en: 'Developers building macOS UI automation or GUI agents feed it a screenshot: it OCRs on-screen
+    text, classifies the next action with TypeSafe, then clicks, delivering an executable click-action
+    sequence.'
+  pain: 公开材料只说明单步约 0.0002 美元，未给出用户抱怨、失败率或人工兜底代价；从工作流结构推理，痛点在于通用视觉-语言模型做 computer use 时单步推理成本高、动作空间不受约束易产生非法点击，而传统脚本自动化又依赖脆弱的坐标与选择器。
+  pain_en: Public material only states roughly $0.0002 per step and gives no user complaints, failure
+    rates, or manual fallback costs; by workflow inference the pain is that general vision-language computer-use
+    models are costly per step and produce unconstrained, sometimes invalid actions, while classic scripted
+    automation relies on brittle coordinates and selectors.
+  current_alternative: 旧做法是手写 AppleScript/PyAutoGUI 类脚本或基于坐标与选择器的自动化，以及调用通用视觉-语言模型做 computer use；前者脆弱、后者单步成本高且动作不受类型约束。
+  current_alternative_en: The old approach is hand-written AppleScript/PyAutoGUI-style scripts or coordinate/selector-based
+    automation, plus calling general vision-language models for computer use; the former is brittle, the
+    latter costly per step with unconstrained actions.
+  usage_reason: 推断：相较旧做法，它把“看屏幕—决定点哪里”拆成 OCR 加 TypeSafe 分类两步，用受约束的动作分类替代自由生成，并把单步成本压到约 0.0002 美元，因此需要低成本、可重复执行点击序列的
+    macOS 自动化开发者会在构建 GUI agent 或批量界面操作时选择它；公开材料未给出用户反馈或留存证据，此为结构推理。
+  usage_reason_en: 'Inference: versus the old approach it splits ''read screen—decide where to click''
+    into OCR plus TypeSafe classification, replacing free-form generation with a constrained action classification
+    and pushing per-step cost to about $0.0002, so macOS automation developers needing cheap, repeatable
+    click sequences would pick it when building GUI agents or batch UI operations; public material shows
+    no user feedback or retention evidence, so this is structural inference.'

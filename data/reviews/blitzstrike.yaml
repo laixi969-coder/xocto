@@ -217,3 +217,51 @@
     and 57 escalation chains behind one MCP server that an agent drives through a structured methodology,
     removing the manual switching and result-shuttling step and making the recon-to-validation chain reproducible;
     teams that need a standardized, repeatable pentest flow would choose it for authorized engagements.'
+- id: req-full-blitzstrike-2026-09-23
+  project_slug: blitzstrike
+  level: full
+  reviewed_at: '2026-09-23T01:09:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决渗透测试工程师把侦察、攻击面测绘、source-to-sink 分析与实弹验证串成可复现流程的需求；公开说明给出 57 条升级链与 130 工具目录，可还原输入—动作—交付闭环，痛点刚性来自测试流程必须一致且可验证，但用户抱怨与不采用代价未公开，属工作流结构推理。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 634 升至 642 后回落至 530，说明社区注意到该项目，但收藏与排名只属关注度，不能证明渗透测试工程师已把它留在日常工作流或持续采用。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+    - ev-0ce41b66968c5aca
+    - ev-607e9ca4f48afef9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to B 安全团队、to C 个人测试者还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺结构化方法论与实弹验证，但未披露报告形态、人工复核边界与授权范围控制，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-8b6312dbc2904f59
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开部署文档、客户案例或实际使用反馈，以核验交付形态与采用情况。
+  market: ''
+  job: 渗透测试工程师在拿到授权目标后，需要把侦察、攻击面测绘、source-to-sink 分析与实弹验证串成一条可复现的测试流程，并把过程与验证结果交给智能体或客户。
+  job_en: A penetration tester, given an authorized target, must chain reconnaissance, attack-surface
+    mapping, source-to-sink analysis and live validation into a reproducible test flow, then hand the
+    process and validation results to an agent or client.
+  pain: 公开材料只说明它提供 57 条升级链与 130 工具目录，未给出用户抱怨、失败代价或频率；从工作流结构看，痛点是手工在多个扫描器与脚本间搬运结果、方法论难以保持一致，但这属于推理而非用户口述。
+  pain_en: Public materials only describe 57 escalation chains and a 130-tool catalog, with no user complaints,
+    failure costs or frequency; structurally the pain is manually shuttling results between scanners and
+    scripts and keeping methodology consistent, but this is inference, not user testimony.
+  current_alternative: 渗透测试工程师目前通常自行组合 Nmap、Burp、 nuclei 等扫描器与自写脚本，或依赖商业渗透测试平台；公开材料未说明它具体替代了哪一种。
+  current_alternative_en: Penetration testers today typically combine Nmap, Burp, nuclei and self-written
+    scripts, or rely on commercial pentest platforms; public materials do not say which one it replaces.
+  usage_reason: 推断：相较手工在多个工具间搬运结果，它把侦察、测绘、分析与验证封装成一个 MCP 服务，由智能体按结构化方法论调用，减少人工串联工具与整理中间结果这一步，因此已接入 MCP
+    智能体的渗透测试工程师可能选择它。
+  usage_reason_en: 'Inference: versus manually shuttling results between tools, it packages recon, mapping,
+    analysis and validation into one MCP server that an agent drives through a structured methodology,
+    removing the step of hand-chaining tools and consolidating intermediate results, so testers already
+    running MCP agents may choose it.'

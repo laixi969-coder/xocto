@@ -22,7 +22,7 @@ summary: We talked to Google’s Oscar winning “Giganerd” about automating s
   and how future generations can contribute to science in the age of superintelligent AI
 first_seen: '2026-09-22T21:07:39Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

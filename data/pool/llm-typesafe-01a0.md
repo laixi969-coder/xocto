@@ -1,6 +1,6 @@
 ---
 slug: llm-typesafe-01a0
-name: llm-typesafe 0.1a0
+name: llm-typesafe
 builder: ''
 category: ''
 summary_zh: ''
@@ -34,7 +34,7 @@ summary: "Release:   llm-typesafe 0.1a0  \n         I built this new plugin for 
   \  ] '    \n See  the README  for more details. \n    \n    \n         Tags:  projects ,  llm ,  jev"
 first_seen: '2026-09-22T15:54:16Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -45,7 +45,7 @@ sightings:
   kind: news
 ---
 
-# llm-typesafe 0.1a0
+# llm-typesafe
 
 Release:   llm-typesafe 0.1a0  
          I built this new plugin for  LLM  to add support for  TypeSafe AI's new Jev model . Install it like this: 

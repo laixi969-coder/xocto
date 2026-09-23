@@ -633,3 +633,55 @@
     stores, it stores memory as Git-native markdown and retrieves it via an embedded MCP server with in-memory
     BM25 search, removing the step of reloading project knowledge each session, so engineers needing persistent
     agent memory across sessions would choose it for local coding.'
+- id: req-full-okf-agent-memory-2026-09-23
+  project_slug: okf-agent-memory
+  level: full
+  reviewed_at: '2026-09-23T01:11:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程代理跨会话丢失项目记忆、每次重复注入上下文导致 token 膨胀的问题，痛点来自代理工作流的上下文窗口与仓库知识分离；OKF 以厂商中立的 markdown 格式承载知识，交付物是仓库内可读文件，结构上可确定。属工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-a860cfb8b94e97c2
+    - ev-06a5240b198d4ef1
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 712 星、随后 716 星，说明开发者已注意到该项目，但星标只属关注度证据，未见 issue、discussion 或客户案例证明目标用户把它留在日常编码工作流中。
+    evidence_ids:
+    - ev-a860cfb8b94e97c2
+    - ev-a19c896a1453fc87
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：项目为开源工具，未见定价页、付费主体或采购记录，钱可能来自 to C 开发者自愿赞助或 to B 团队支持，但公开材料未给出任何付费路径。
+    evidence_ids:
+    - ev-46972ffc2e45c4ff
+  - gate: truth
+    status: insufficient
+    reason: 公开材料给出 sub-300µs 内存 BM25 检索与 80% token 削减的宣称，但未见可复现基准、部署文档或安全边界说明，承诺能否确定性交付仍缺公开验证。
+    evidence_ids:
+    - ev-a860cfb8b94e97c2
+  next_validation: 追踪 okf-memory.dev 与 公开代码仓库 仓库的 README、issue 和 discussion，确认是否有可复现的 token 削减基准、部署说明及真实团队使用记录。
+  market: ''
+  job: 软件工程师在让 AI 编程代理接手既有代码库任务时，需要代理读取项目历史、约定与知识文件，并在多轮会话中保持上下文一致，从而完成改代码、查约定、续接任务。
+  job_en: Software engineers working with AI coding agents on an existing codebase need the agent to read
+    project history, conventions and knowledge files and keep context consistent across sessions, so they
+    can change code, check conventions and resume tasks.
+  pain: 公开材料显示代理记忆以 markdown 文件承载，痛点在于上下文反复注入造成 token 膨胀、跨会话记忆丢失，以及依赖外部数据库或服务带来的部署负担；不解决的后果是每次会话重复交代项目背景、代理产出偏离既有约定。
+  pain_en: Public materials show agent memory is carried as markdown files; the pain is token bloat from
+    repeatedly injecting context, lost memory across sessions, and the deployment burden of external databases
+    or services. Left unsolved, users re-explain project background each session and agent output drifts
+    from existing conventions.
+  current_alternative: 旧做法是每次会话手工粘贴项目背景、维护零散提示词或自建向量库/外部记忆服务；OKF 提供的是厂商中立的 markdown + YAML frontmatter
+    格式，可被不同代理与框架读取。
+  current_alternative_en: The old way is pasting project background each session, maintaining scattered
+    prompts, or standing up a vector store or external memory service; OKF offers a vendor-neutral markdown
+    plus YAML frontmatter format readable by different agents and frameworks.
+  usage_reason: 推断：相较手工粘贴上下文或自建外部记忆库，该工具把记忆以 Git 原生 markdown 文件随仓库存储，并用嵌入式 MCP 服务器与内存 BM25 检索按需披露，减少每次会话重复注入上下文的步骤，也免去额外数据库依赖；因此已在用
+    AI 代理处理既有仓库、且在意 token 成本与本地部署的工程师会在多轮编码任务中选择它。
+  usage_reason_en: 'Inference: versus pasting context by hand or running an external memory store, the
+    tool keeps memory as Git-native markdown files alongside the repo and uses an embedded MCP server
+    with in-memory BM25 retrieval and progressive disclosure, cutting the step of re-injecting context
+    each session and removing an extra database dependency; engineers already using agents on existing
+    repos who care about token cost and local deployment would choose it for multi-turn coding tasks.'

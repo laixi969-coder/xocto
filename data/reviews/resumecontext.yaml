@@ -1,0 +1,91 @@
+- id: req-initial-resumecontext-2026-09-23
+  project_slug: resumecontext
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是代理之间上下文丢失、开发者反复复述背景的问题，痛点结构存在；但公开材料只有一句产品说明，说不清输入什么、交付什么，价值是否刚性无法判断。
+    evidence_ids:
+    - ev-dd93cf474a9e4a83
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页外没有用户评价、社区讨论或采用迹象，无法判断开发者是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-dd93cf474a9e4a83
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；面向个人开发者订阅还是团队采购，公开材料无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-dd93cf474a9e4a83
+  - gate: truth
+    status: insufficient
+    reason: 共享记忆能否确定性交付、上下文注入是否准确、出错时人工如何介入，均无公开说明，交付可靠性无法核对。
+    evidence_ids:
+    - ev-dd93cf474a9e4a83
+  next_validation: 收集 ResumeContext 官方文档或定价页，确认它接收哪些上下文材料、以何种方式注入编码代理，以及是否按席位或用量收费。
+  market: ''
+  job: 开发者在同时使用多个编码代理、或同一任务跨会话继续时，需要把项目背景、已改动的文件和未完成的步骤重新交代给代理，让代理接着上一轮继续完成任务。
+  job_en: When developers run several coding agents at once, or continue the same task across sessions,
+    they must re-explain project background, already-changed files and unfinished steps so an agent can
+    continue the task from the previous round.
+  pain: 上下文在代理之间和会话之间丢失，开发者要重复粘贴背景、重复说明约束，还可能因为代理不知道之前的改动而重复劳动或改错地方。
+  pain_en: Context is lost between agents and sessions, so developers repeatedly paste background and
+    restate constraints, and an agent may redo work or change the wrong place because it does not know
+    earlier edits.
+  current_alternative: 现在多靠手工维护一份说明文档、在提示里粘贴历史记录，或使用代理自带的会话记忆功能来延续上下文。
+  current_alternative_en: Today this is mostly handled by manually maintaining a briefing document, pasting
+    history into prompts, or relying on an agent's built-in session memory to carry context forward.
+  usage_reason: 推断：如果它能把项目背景和已做改动自动带到下一个代理或下一次会话，开发者就不必在每次切换时重新粘贴和复述，从而减少交接这一步的重复劳动；但公开材料没有说明它如何存储、如何注入上下文，也没有用户反馈或留存证据，因此尚不能确认开发者会持续使用它。
+  usage_reason_en: 'Inference: if it can carry project background and prior edits into the next agent
+    or session automatically, developers would not have to re-paste and restate on every switch, cutting
+    the repetition in the handoff step; however, public material does not explain how it stores or injects
+    context, and there is no user feedback or retention evidence, so continued use cannot be confirmed.'
+- id: req-full-resumecontext-2026-09-23
+  project_slug: resumecontext
+  level: full
+  reviewed_at: '2026-09-23T01:12:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码代理切换与跨会话续接时上下文丢失、开发者反复复述背景和已做改动的问题；不解决的后果是重复劳动或改错位置，属刚性痛点。公开材料仅一句产品说明，输入材料与交付形式未披露，故这是工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-dd93cf474a9e4a83
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句说明外，没有用户评价、社区讨论或采用迹象，无法判断开发者是否真把它放进日常流程；公开关注度不能替代持续使用证据。
+    evidence_ids:
+    - ev-dd93cf474a9e4a83
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；面向个人开发者订阅还是团队采购无法判断，这是判断而非已验证事实，但不影响价值关成立。
+    evidence_ids:
+    - ev-dd93cf474a9e4a83
+  - gate: truth
+    status: insufficient
+    reason: 共享记忆能否确定性交付、上下文注入是否准确、出错时人工如何介入，均无公开说明，交付可靠性无法核对。
+    evidence_ids:
+    - ev-dd93cf474a9e4a83
+  next_validation: 收集 ResumeContext 官方文档或定价页，确认它接收哪些上下文材料、以何种方式注入编码代理，以及是否按席位或用量收费。
+  market: ''
+  job: 开发者在同时使用多个编码代理、或同一任务跨会话继续时，需要把项目背景、已改动的文件和未完成的步骤重新交代给代理，让代理接着上一轮继续完成任务。
+  job_en: When developers run several coding agents at once, or continue the same task across sessions,
+    they must re-explain project background, already-changed files and unfinished steps so an agent can
+    continue the task from the previous round.
+  pain: 上下文在代理之间和会话之间丢失，开发者要重复粘贴背景、重复说明约束，还可能因为代理不知道之前的改动而重复劳动或改错地方。
+  pain_en: Context is lost between agents and sessions, so developers repeatedly paste background and
+    restate constraints, and an agent may redo work or change the wrong place because it does not know
+    earlier edits.
+  current_alternative: 现在多靠手工维护一份说明文档、在提示里粘贴历史记录，或使用代理自带的会话记忆功能来延续上下文。
+  current_alternative_en: Today this is mostly handled by manually maintaining a briefing document, pasting
+    history into prompts, or relying on an agent's built-in session memory to carry context forward.
+  usage_reason: 推断：相较手工维护说明文档或每次粘贴历史记录，它把项目背景与已做改动集中存放并在切换代理或会话时直接带入，省掉重新复述这一步；多代理并行或长任务跨会话的开发者会在切换节点选择它。但公开材料未说明存储与注入方式，也无用户反馈或留存证据，持续使用尚不能确认。
+  usage_reason_en: 'Inference: compared with manually maintaining a briefing document or pasting history
+    each time, it centralizes project background and prior edits and carries them into the next agent
+    or session, removing the restatement step; developers running parallel agents or long cross-session
+    tasks would pick it at switch points. However, public material does not explain storage or injection,
+    and there is no user feedback or retention evidence, so continued use cannot be confirmed.'

@@ -129,3 +129,93 @@
     sparing the user the step of writing scheduling and browser-automation code; so small teams without
     dedicated ops/admin staff who are willing to verify results themselves would pick it when recurring
     chores come due. This is inferred from product capability and task structure, not yet confi'
+- id: req-initial-ai-employees-2026-09-23
+  project_slug: ai-employees
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队缺少专职运营时重复网页操作无人做的问题，痛点具体且不做的代价是漏检漏记；交付依赖例程配置，属工作流推理。
+    evidence_ids:
+    - ev-fb13f902c2311866
+    - ev-18d04eb97bc8b41c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标与fork，属关注度证据，未见用户评价或客户案例说明谁在持续使用。
+    evidence_ids:
+    - ev-18d04eb97bc8b41c
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，钱可能来自自建团队的时间成本节省，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  - gate: truth
+    status: insufficient
+    reason: 浏览器自动执行线上操作存在误操作与权限边界风险，公开材料未说明人工确认与安全限制。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告在真实业务中长期重复运行某条例程及其结果。
+  market: ''
+  job: 没有专职运营的小团队或个体经营者，在每天需要重复检查网页、整理线上信息时，用预设角色和例程让浏览器自动完成这些操作，并保留可修改的任务文件。
+  job_en: A small team or solo operator without dedicated operations staff uses preset roles and routines
+    to let a browser carry out repetitive daily web checks and online information gathering, keeping editable
+    task files.
+  pain: 这类重复的网页操作原本要人手动点开、复制、记录，占用本已有限的人力，且容易漏做或做错。
+  pain_en: These repetitive web actions otherwise require a person to open pages, copy and record by hand,
+    consuming scarce staff time and being easy to skip or get wrong.
+  current_alternative: 目前多靠人工手动操作，或用通用自动化脚本、RPA 工具自行搭建，需要一定技术能力。
+  current_alternative_en: Today this is mostly done by hand, or by self-built generic automation scripts
+    and RPA tools that require some technical skill.
+  usage_reason: 相较手动操作或自建脚本，它把角色和例程预先写成可排期的文件，用户只需配置一次即可按日程触发浏览器动作，减少每次重新搭建流程的负担；推断这类缺少专职运营的小团队会在重复性网页任务上选择它。
+  usage_reason_en: Compared with manual work or self-built scripts, it writes roles and routines into
+    schedulable files so the user configures once and browser actions trigger on schedule, cutting the
+    burden of rebuilding a flow each time; the inference is that small teams lacking dedicated operations
+    staff would pick it for repetitive web tasks.
+- id: req-full-ai-employees-2026-09-23
+  project_slug: ai-employees
+  level: full
+  reviewed_at: '2026-09-23T01:09:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队缺少专职运营时重复网页操作无人做的问题，痛点具体且不做的代价是漏检漏记；交付依赖例程配置，属工作流结构推理。
+    evidence_ids:
+    - ev-fb13f902c2311866
+    - ev-18d04eb97bc8b41c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标与 fork 等关注度证据，未见用户评价或客户案例说明谁在持续使用，无法确认共识。
+    evidence_ids:
+    - ev-18d04eb97bc8b41c
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，钱可能来自自建团队节省的时间成本，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  - gate: truth
+    status: insufficient
+    reason: 浏览器自动执行线上操作存在误操作与权限边界风险，公开材料未说明人工确认环节与安全限制。
+    evidence_ids:
+    - ev-fb13f902c2311866
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告在真实业务中长期重复运行某条例程及其结果。
+  market: ''
+  job: 没有专职运营或市场人员的小团队或个体经营者，在每天需要重复检查网页、整理线上信息时，用预设角色和例程让浏览器自动完成这些操作，并保留可自行修改的任务文件。
+  job_en: A small team or solo operator without dedicated operations or marketing staff uses preset roles
+    and routines to let a browser carry out repetitive daily web checks and online information gathering,
+    keeping editable task files.
+  pain: 这类重复网页操作原本要人手动点开、复制、记录，占用本已有限的人力，且容易漏做或做错。
+  pain_en: These repetitive web actions otherwise require a person to open pages, copy and record by hand,
+    consuming scarce staff time and being easy to skip or get wrong.
+  current_alternative: 目前多靠人工手动操作，或用通用自动化脚本、RPA 工具自行搭建，需要一定技术能力。
+  current_alternative_en: Today this is mostly done by hand, or by self-built generic automation scripts
+    and RPA tools that require some technical skill.
+  usage_reason: 相较手动操作或自建脚本，它把角色和例程预先写成可排期的文件，用户配置一次即可按日程触发浏览器动作，减少每次重新搭建流程的负担；推断缺少专职运营的小团队会在重复性网页任务上选择它。
+  usage_reason_en: Compared with manual work or self-built scripts, it writes roles and routines into
+    schedulable files so the user configures once and browser actions trigger on schedule, cutting the
+    burden of rebuilding a flow each time; the inference is that small teams lacking dedicated operations
+    staff would pick it for repetitive web tasks.

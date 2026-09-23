@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNOS1QRkYwMEd3
 summary: Microsoft 365 scales engineering expertise with Azure Kubernetes Service (AKS) Microsoft
 first_seen: '2026-09-22T01:18:08Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -590,3 +590,57 @@
     a one-time bank authorization the AI can call balances and transactions directly in conversation,
     removing the export, clean, and paste steps; self-hosting and read-only design make privacy-conscious
     users more willing to keep it mounted in a local AI client. This is an inference from product '
+- id: req-full-bankmcp-2026-09-23
+  project_slug: bankmcp
+  level: full
+  reviewed_at: '2026-09-23T01:09:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让本地 AI 读取真实银行流水这一需求：通用助手看不到账户数据，用户只能手工导出粘贴，费时且暴露隐私；自托管只读 MCP 把授权、取数与交付串成闭环，不解决的后果是 AI
+      财务分析始终停留在手工搬运。此为工作流结构推理，尚无用户访谈或付费证据。
+    evidence_ids:
+    - ev-e5efe3196ed7d2c7
+    - ev-2c8acb7dbe0e560f
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 235 逐日升至 253，说明有开发者持续关注并把它纳入本地 AI 工具链；但这是关注度而非留存或复购证据，不能据此断言已长期留在工作流中。
+    evidence_ids:
+    - ev-e5efe3196ed7d2c7
+    - ev-22db501b4ee9f46a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断收入来自个人订阅、企业授权还是仅靠开源捐赠；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-e5efe3196ed7d2c7
+  - gate: truth
+    status: insufficient
+    reason: 自托管只读设计降低了误操作风险，但开放银行授权范围、令牌失效处理与数据落盘边界尚无公开部署文档或可复现测试佐证，交付确定性待补。
+    evidence_ids:
+    - ev-e5efe3196ed7d2c7
+  next_validation: 追踪 BankMCP 官方仓库的 README、issue 与 discussion，确认是否有真实用户报告部署成功、授权流程与替代旧做法的具体场景。
+  market: ''
+  job: 个人用户或独立开发者在自己电脑上运行自托管服务，把个人银行账户的余额与交易流水通过开放银行（Enable Banking）授权接入本地 AI 客户端（Claude、Ollama），让 AI
+    直接读取真实财务数据并回答资产明细、支出构成等问题。
+  job_en: An individual user or indie developer runs a self-hosted service on their own machine, authorizes
+    read-only access to their personal bank accounts via open banking (Enable Banking), and connects the
+    resulting data to a local AI client (Claude, Ollama) so the AI can answer questions about balances,
+    transactions, and spending from real account data.
+  pain: 通用 AI 助手无法看到用户真实账户流水，用户只能手动导出 CSV 或截图再粘贴，才能让 AI 分析自己的收支；手工搬运既费时又容易漏项，且把完整流水交给第三方云端服务存在隐私顾虑。
+  pain_en: General-purpose AI assistants cannot see a user's real account transactions, so the user must
+    manually export CSVs or take screenshots and paste them in before any analysis is possible; this manual
+    transfer is slow and error-prone, and handing full transaction history to a third-party cloud service
+    raises privacy concerns.
+  current_alternative: 手工从网银导出 CSV/PDF 再粘贴给 AI；使用 Mint、YNAB 等云端记账工具；或直接在银行 App 内查看，AI 完全不参与。
+  current_alternative_en: Manually exporting CSV/PDF from online banking and pasting it into an AI chat;
+    using cloud budgeting tools such as Mint or YNAB; or simply checking the bank app directly with no
+    AI involvement.
+  usage_reason: 推断：相较手工导出再粘贴，该服务通过标准 MCP 协议把只读账户数据直接接入本地 AI 客户端，省去导出与逐次粘贴这一步，并因自托管而让流水不离开用户机器；因此在意隐私、又希望用
+    AI 分析真实流水的独立开发者或自由职业者会在本地部署时选择它。
+  usage_reason_en: 'Inference: compared with manual export-and-paste, the service plugs read-only account
+    data directly into a local AI client over the standard MCP protocol, removing the export and repeated
+    pasting step and, because it is self-hosted, keeping transactions off third-party servers; privacy-conscious
+    indie developers and freelancers who want AI analysis of real transactions would therefore choose
+    it for local deployment.'

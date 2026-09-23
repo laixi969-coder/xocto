@@ -23,7 +23,7 @@ summary: We have reopened our exhibitor program for 1 more week. Book your exhib
   at SF's Moscone West from October 13-15.
 first_seen: '2026-09-22T14:15:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

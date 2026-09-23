@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTE00TVNmNGxGRmpk
 summary: Meta's new Muse AI app tops charts, draws strong reviews Modesto Bee
 first_seen: '2026-09-22T01:03:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

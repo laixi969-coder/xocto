@@ -1,0 +1,89 @@
+- id: req-initial-recordel-2026-09-23
+  project_slug: recordel
+  level: initial
+  reviewed_at: '2026-09-23T00:34:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决录制软件界面并剪成演示视频的需求，痛点是旧工具绑定 macOS 且需上传云端，非 Mac 用户与敏感画面场景确有不便；买方是谁尚未公开。
+    evidence_ids:
+    - ev-39590a5a06330346
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布帖与两条评论，没有用户反馈、案例或采用规模，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-39590a5a06330346
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与付费方式，钱可能来自个人订阅或团队授权，属判断而非已验证事实。
+    evidence_ids:
+    - ev-39590a5a06330346
+  - gate: truth
+    status: insufficient
+    reason: 纯前端渲染能否稳定输出高质感成片、离线剪辑的实际体验如何，均无公开实测或交付结果可核对。
+    evidence_ids:
+    - ev-39590a5a06330346
+  next_validation: 收集 Recordel 官方定价页或公开的成片实测对比，核验浏览器本地渲染的导出质量与收费方式。
+  market: ''
+  job: 做产品演示或技术教程的人，在需要录制软件界面并剪成可对外发布的演示视频时，处理屏幕录制素材与音轨，要完成录制、剪辑并导出成片。
+  job_en: People producing product demos or technical tutorials record software interfaces and cut them
+    into publishable demo videos, working from screen capture and audio tracks to a finished export.
+  pain: 旧做法依赖 macOS 专属付费客户端，非 Mac 用户无法使用；把内部系统或敏感代码录屏上传云端存在泄露顾虑，安装客户端也有门槛。
+  pain_en: The old path depends on a macOS-only paid client, unavailable to non-Mac users; uploading recordings
+    of internal systems or sensitive code to the cloud raises leak concerns, and installing a client is
+    a barrier.
+  current_alternative: Screen Studio 等 macOS 专属付费客户端，或系统自带录屏加通用剪辑软件分两步完成。
+  current_alternative_en: macOS-only paid clients such as Screen Studio, or built-in screen capture plus
+    a separate general editing tool in two steps.
+  usage_reason: 推断：相较装桌面客户端再上传云端处理，它在浏览器内完成录制与本地渲染，省去安装与上传两步，因此对使用非 Mac 设备、或不能把内部系统画面外传的团队更有吸引力；但成片质感与稳定性尚无公开实测支持。
+  usage_reason_en: 'Inference: versus installing a desktop client and processing in the cloud, it records
+    and renders locally in the browser, removing the install and upload steps, which appeals to non-Mac
+    users or teams that cannot send internal screens off-device; output quality and stability lack public
+    testing.'
+- id: req-full-recordel-2026-09-23
+  project_slug: recordel
+  level: full
+  reviewed_at: '2026-09-23T01:12:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决录制软件界面并剪成演示视频的需求，痛点是旧工具绑定 macOS 且需上传云端，非 Mac 用户与敏感画面场景确有不便；买方是谁尚未公开。
+    evidence_ids:
+    - ev-39590a5a06330346
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条 V2EX 发布帖，没有用户反馈、客户案例或采用规模，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-39590a5a06330346
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与付费方式，钱可能来自个人订阅或团队授权，属判断而非已验证事实。
+    evidence_ids:
+    - ev-39590a5a06330346
+  - gate: truth
+    status: insufficient
+    reason: 纯前端渲染能否稳定输出高质感成片、离线剪辑的实际体验如何，均无公开实测或交付结果可核对。
+    evidence_ids:
+    - ev-39590a5a06330346
+  next_validation: 收集 Recordel 官方定价页或公开的成片实测对比，核验浏览器本地渲染的导出质量与收费方式。
+  market: ''
+  job: 做产品演示、技术教程或 SaaS 宣传片的人，在需要把软件界面操作录成可对外发布的演示视频时，处理屏幕录制画面、鼠标轨迹与音轨，要完成录制、运镜美化、剪辑并导出成片。
+  job_en: People producing product demos, technical tutorials or SaaS promo videos record software interface
+    walkthroughs and turn screen capture, cursor motion and audio tracks into a polished, publishable
+    demo video.
+  pain: 公开帖自述旧路径依赖 Screen Studio 这类 macOS 专属付费客户端，非 Mac 用户无法使用；把内部系统或敏感代码录屏上传云端存在外泄顾虑，装客户端本身也是门槛。
+  pain_en: The launch post states the old path depends on macOS-only paid clients such as Screen Studio,
+    unavailable to non-Mac users; uploading recordings of internal systems or sensitive code to the cloud
+    raises leak concerns, and installing a client is itself a barrier.
+  current_alternative: Screen Studio 等 macOS 专属付费客户端，或系统自带录屏加通用剪辑软件分两步完成。
+  current_alternative_en: macOS-only paid clients such as Screen Studio, or built-in screen capture plus
+    a separate general-purpose editor in two steps.
+  usage_reason: 推断：相较装桌面客户端再上传云端处理，它在浏览器内完成录制与本地渲染，省去安装与上传两步，因此对使用非 Mac 设备、或不能把内部系统画面外传的团队更有吸引力；成片质感与稳定性尚无公开实测支持。
+  usage_reason_en: 'Inference: versus installing a desktop client and processing in the cloud, it records
+    and renders locally in the browser, removing the install and upload steps, which appeals to non-Mac
+    users or teams that cannot send internal screens off-device; output quality and stability lack public
+    testing.'

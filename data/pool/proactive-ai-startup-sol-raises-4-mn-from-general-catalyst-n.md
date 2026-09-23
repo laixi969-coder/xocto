@@ -1,6 +1,6 @@
 ---
 slug: proactive-ai-startup-sol-raises-4-mn-from-general-catalyst-n
-name: Proactive AI startup Sol raises $4 Mn from General Catalyst, Nexus VP, and others
+name: Sol
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeV9lbmtBMjRJ
 summary: Proactive AI startup Sol raises $4 Mn from General Catalyst, Nexus VP, and others Entrackr
 first_seen: '2026-09-22T15:48:58Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Proactive AI startup Sol raises $4 Mn from General Catalyst, Nexus VP, and others
+# Sol
 
 Proactive AI startup Sol raises $4 Mn from General Catalyst, Nexus VP, and others Entrackr
 

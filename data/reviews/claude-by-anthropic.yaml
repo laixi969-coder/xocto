@@ -377,3 +377,46 @@
   usage_reason_en: A public record shows 39.81M MAU and 10.79% month-over-month growth, which explains
     the attention; but traffic and growth are scale evidence, they do not explain why users choose it
     nor prove continued use.
+- id: req-full-claude-by-anthropic-2026-09-23
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-09-23T01:09:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方定价页与 Claude 企业版客户案例页面，确认付费档位、席位结构与公开披露的交付结果。
+  market: ''
+  job: 开发者、写作者与研究人员在需要调试代码、改写长文或拆解复杂推理问题时，把代码片段、长文档或问题描述交给 Claude，要求它产出可继续使用的代码、文稿或推理结论。
+  job_en: Developers, writers and researchers hand code snippets, long documents or hard problem statements
+    to Claude when debugging, rewriting long-form text or working through complex reasoning, expecting
+    usable code, drafts or conclusions back.
+  pain: 公开事实显示这类任务原本要在编辑器、搜索引擎、文档与笔记之间反复切换，长上下文容易丢失、代码需要多轮返工；不解决的后果是同一份材料被反复重述，交付时间被拉长。
+  pain_en: Public facts show this work previously required switching among editors, search engines, docs
+    and notes, with long context easily lost and code needing repeated rework; the cost of not solving
+    it is restating the same material and stretching delivery time.
+  current_alternative: 旧做法是通用搜索引擎加手工拼接、在 IDE 内使用补全插件，或把长文拆段交给多个工具处理；这些替代方式缺少跨材料的长上下文保持能力。
+  current_alternative_en: The old path is general search plus manual assembly, in-IDE completion plugins,
+    or splitting long documents across several tools; these alternatives lack long-context retention across
+    materials.
+  usage_reason: 推断：相较搜索加手工拼接，Claude 通过一次接收整份代码或长文并直接产出可继续编辑的结果，省去在多个工具间复制粘贴与重新交代背景的步骤，因此需要处理长上下文材料的开发者与写作者会在该场景下选择它；公开的
+    39.81M MAU 与 10.79% 环比只说明关注规模，不能证明留存。
+  usage_reason_en: 'Inference: versus search plus manual assembly, Claude takes a whole codebase or long
+    document in one pass and returns editable output, removing copy-paste and re-briefing steps, so developers
+    and writers handling long-context material pick it in that situation; the public 39.81M MAU and 10.79%
+    MoM show attention scale, not retention.'

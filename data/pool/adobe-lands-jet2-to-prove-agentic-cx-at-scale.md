@@ -1,6 +1,6 @@
 ---
 slug: adobe-lands-jet2-to-prove-agentic-cx-at-scale
-name: Adobe Lands Jet2 to Prove Agentic CX at Scale
+name: Adobe
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNai1udVlpTlJO
 summary: Adobe Lands Jet2 to Prove Agentic CX at Scale The Futurum Group
 first_seen: '2026-09-22T14:19:46Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Adobe Lands Jet2 to Prove Agentic CX at Scale
+# Adobe
 
 Adobe Lands Jet2 to Prove Agentic CX at Scale The Futurum Group
 

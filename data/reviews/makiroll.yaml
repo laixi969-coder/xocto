@@ -84,3 +84,46 @@
     between being on camera and monitoring the frame, skipping repeated review and retakes; but the candidate
     never states the input, the action taken, or whether it delivers a photo or video, so the causal chain
     lacks public support.'
+- id: req-full-makiroll-2026-09-23
+  project_slug: makiroll
+  level: full
+  reviewed_at: '2026-09-23T01:11:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决独自拍摄时既要出镜又要盯画面的负担，但候选仅一句自述，说不清输入、动作与交付物，痛点强度与刚性均无法确认。
+    evidence_ids:
+    - ev-32b8487bb1d5bdfa
+    - ev-9014494246bb6ec1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 makiroll 官网或应用商店说明页，确认其接收的输入、执行的具体动作以及最终交付物形态（照片还是视频）。
+  market: ''
+  job: 独自拍摄日常照片或短视频的普通用户，在没人帮忙按快门、又不想一直盯着自己实时画面的情况下，对着相机说话，完成一次拍摄并拿到成片。
+  job_en: A solo user shooting everyday photos or short videos, with nobody to press the shutter and unwilling
+    to keep staring at their own live preview, talks to the camera to complete a take and receive a finished
+    result.
+  pain: 独自拍摄时用户同时充当被摄者和监看者，注意力被自我审视占满，容易反复重拍；但候选材料只有一句产品自述，没有任何用户抱怨、替代行为或使用反馈，痛点强度无法确认。
+  pain_en: Shooting alone forces the user to be both subject and monitor, so attention is consumed by
+    self-scrutiny and retakes; yet the candidate material contains only a one-line product self-description,
+    with no user complaints, workarounds, or usage feedback, so pain intensity cannot be confirmed.
+  current_alternative: 手机前置摄像头配三脚架或支架自拍，反复回看和重拍，或用提词器、语音控制快门等零散工具拼凑。
+  current_alternative_en: Phone front camera on a tripod or stand with repeated review and retakes, or
+    a patchwork of teleprompters and voice shutter controls.
+  usage_reason: 推断：若它真能把说话内容直接转成一次可用拍摄结果，用户就不必在出镜与盯画面之间来回切换，省掉反复回看重拍这一步，独自出镜者会愿意试；但候选资料未说明它接收什么输入、执行什么动作、交付照片还是视频，这条因果链尚无公开事实支撑。
+  usage_reason_en: 'Inference: if it truly turns spoken input into a usable take, users would no longer
+    switch between being on camera and monitoring the frame, skipping repeated review and retakes, which
+    would appeal to solo shooters; but the candidate material does not say what it takes in, what it does,
+    or whether it delivers a photo or a video, so this causal chain lacks public factual support.'

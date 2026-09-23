@@ -404,3 +404,44 @@
   usage_reason_en: With no citable product description, documentation, or user feedback, it is impossible
     to explain which step it removes or which verifiable outcome it improves versus the old approach,
     so no inference about user choice can be made.
+- id: req-full-ai-video-ad-studio-2026-09-23
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-09-23T01:09:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库名暗示面向视频广告素材制作，但公开材料未说明 AI 接收什么素材、执行哪一步、交付什么成片，用户任务与痛点均无法还原，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-064ce8778b64953b
+    - ev-07cbd5a6f404f0a3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认 AI 接收的输入素材、执行的具体步骤与交付的成片格式，以还原用户任务与痛点。
+  market: ''
+  job: 营销或内容人员需要为广告投放准备视频素材，在剪辑或投放准备环节处理原始视频与广告文案，产出可投放的成片或素材文件。
+  job_en: Marketing or content staff need to prepare video assets for ad delivery, handling raw footage
+    and ad copy during editing or delivery prep to produce deliverable cuts or asset files.
+  pain: 公开材料只有仓库名与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，也未出现用户抱怨、旧流程摩擦或不采用代价，痛点无法还原。
+  pain_en: Public materials contain only the repo name and star counts; they do not state what inputs
+    the AI takes, which step it performs, or what output it delivers, and no user complaints, legacy friction,
+    or cost of non-adoption appear, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明用户目前如何完成视频广告素材制作，也未说明它替代了剪辑软件、外包团队还是模板工具。
+  current_alternative_en: Public materials do not show how users currently produce video ad creatives,
+    nor whether it replaces editing software, outsourced teams, or template tools.
+  usage_reason: 缺少产品说明、文档与用户反馈，无法解释相较旧做法它减少了哪一步负担或改善哪项可核对结果，因此无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no product description, docs, or user feedback, it is impossible to explain which
+    step it removes or which checkable result it improves versus the old approach, hence which users would
+    choose it and when.

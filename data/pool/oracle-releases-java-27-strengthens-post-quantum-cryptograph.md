@@ -1,6 +1,6 @@
 ---
 slug: oracle-releases-java-27-strengthens-post-quantum-cryptograph
-name: Oracle releases Java 27, strengthens post-quantum cryptography support
+name: Java 27
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPN3pON1NqVVp5
 summary: Oracle releases Java 27, strengthens post-quantum cryptography support varindia
 first_seen: '2026-09-22T06:30:33Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Oracle releases Java 27, strengthens post-quantum cryptography support
+# Java 27
 
 Oracle releases Java 27, strengthens post-quantum cryptography support varindia
 

@@ -133,3 +133,54 @@
     tools and manually chaining plan-code-review-deploy; however public materials do not show what it
     concretely changes about data boundaries versus the old approach, so the choice rationale currently
     rests on task closure rather than privacy remediation.'
+- id: req-full-zcode-2026-09-23
+  project_slug: zcode
+  level: full
+  reviewed_at: '2026-09-23T01:13:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者在本地仓库用编程智能体改代码、跑长任务并部署的需求；公开材料称其未告知即上传 Git 历史并随后道歉，说明仓库历史与提交信息外流是刚性痛点，不解决的后果不可撤回。交付物为代码改动，结构上可确定，属工作流推理。
+    evidence_ids:
+    - ev-aa9a3fac6b7310e1
+    - ev-384f949f86f5e695
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出产品定位与文档入口，未见开发者社区对上传行为的持续讨论、采用规模或留存证据；关注度不等于目标用户会长期把它留在工作流里。
+    evidence_ids:
+    - ev-aa9a3fac6b7310e1
+    - ev-8c9516c68dc2065a
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济，钱可能来自 to C 开发者订阅或 to B 团队采购，这是判断而非已验证事实；买方不清不取消需求成立。
+    evidence_ids:
+    - ev-6187630a21e01e51
+  - gate: truth
+    status: challenged
+    reason: 公开材料称其未告知即上传 Git 历史并道歉，与“本地仓库内容不出机器”的第一性预期冲突；上传范围、留存与人工边界均无公开说明，承诺能否确定性交付存疑。
+    evidence_ids:
+    - ev-384f949f86f5e695
+    - ev-aa9a3fac6b7310e1
+  next_validation: 追踪 ZCode 官方文档与隐私/数据处理说明页，确认 Git 历史上传范围、留存策略与用户授权提示是否已公开更新。
+  market: ''
+  job: 开发者在本地代码仓库中用 ZCode 这类编程智能体完成改代码、跑长任务与部署，处理的是仓库源码、提交历史与提交信息等材料，要完成的是在不离开现有工具链的前提下把代码改动交付出去。
+  job_en: Developers use a coding agent like ZCode on local repositories to edit code, run long-horizon
+    tasks and deploy, working over source files, commit history and commit messages, and must deliver
+    code changes without leaving their existing toolchain.
+  pain: 公开材料称该工具在未告知的情况下上传用户 Git 历史，随后厂商公开道歉；对开发者而言，仓库历史与提交信息可能包含密钥、内部项目名与未公开业务逻辑，一旦外流无法撤回，且用户事前无法从界面判断上传范围与留存情况。
+  pain_en: Public materials state the tool uploaded users' Git history without notice, followed by a vendor
+    apology; for developers, commit history and messages can contain secrets, internal project names and
+    unreleased logic, and once leaked it cannot be recalled, while users could not tell from the interface
+    what was uploaded or retained.
+  current_alternative: 旧做法是开发者自行在本地用编辑器或命令行改代码，或使用其他编程智能体，并默认本地仓库内容不出机器；敏感仓库往往靠人工审查工具行为、断网或干脆不用云端智能体来规避。
+  current_alternative_en: The prior approach is editing locally with an editor or CLI, or using another
+    coding agent, assuming repository contents stay on the machine; for sensitive repos teams rely on
+    manually auditing tool behavior, going offline, or simply not using cloud agents.
+  usage_reason: 推断：相较旧做法，ZCode 把 GLM-5.3 与既有 AI 编程智能体接到用户现有工具链里，让规划、编码、评审、部署在同一处完成，减少在多个工具间搬运上下文这一步；但公开材料未说明它在上传前如何提示与授权，因此对仓库历史敏感的团队是否仍会选择它，取决于其数据边界能否被核对，这一点尚无公开证据。
+  usage_reason_en: 'Inference: versus the old approach, ZCode wires GLM-5.3 and existing AI coding agents
+    into the user''s current toolchain so planning, coding, review and deploy happen in one place, removing
+    the step of shuttling context between tools; however public materials do not show how it prompts or
+    authorizes before uploading, so whether history-sensitive teams still choose it depends on verifiable
+    data boundaries, for which no public evidence exists yet.'

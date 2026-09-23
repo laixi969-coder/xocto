@@ -1,0 +1,79 @@
+- id: req-initial-pastely-2026-09-23
+  project_slug: pastely
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决粘贴适配问题，但材料未写清用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-0719ba11748d2c17
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且没有可归因到该产品的采用或讨论证据。
+    evidence_ids:
+    - ev-0719ba11748d2c17
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露买方、定价或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-0719ba11748d2c17
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也看不到人工确认边界。
+    evidence_ids:
+    - ev-0719ba11748d2c17
+  next_validation: 收集 Pastely 官方产品页或文档，确认它接收什么输入、输出什么结果以及是否标注定价。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or scenario, so it is impossible to confirm who handles
+    what material under what circumstances to complete what task.
+  pain: 未说明粘贴时遇到的具体困难，也未说明不解决会有什么后果。
+  pain_en: The specific difficulty when pasting, and the consequence of not solving it, are not stated.
+  current_alternative: 现有替代方式未在材料中给出，只能推断为系统自带剪贴板与手动改写格式，属推断。
+  current_alternative_en: No current alternative is given in the material; the built-in clipboard plus
+    manual reformatting is only an inference.
+  usage_reason: 材料未说明它相较系统剪贴板减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: The material does not say which step it removes versus the system clipboard or which
+    checkable result it improves, so there is no explanation of why a user would choose it.
+- id: req-full-pastely-2026-09-23
+  project_slug: pastely
+  level: full
+  reviewed_at: '2026-09-23T01:11:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决粘贴适配问题，但材料未写清用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-0719ba11748d2c17
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Pastely 官方产品页或文档，确认它接收什么输入、输出什么结果以及是否标注定价。
+  market: ''
+  job: 公开材料只有一句“会随粘贴位置自适应的剪贴板”，没有说明谁在什么情况下处理什么材料、要完成什么任务，具体使用者与场景无法确认。
+  job_en: The public material only says it is a clipboard that adapts to wherever you paste it; it does
+    not identify who handles what material under what circumstances to complete what task, so the user
+    and scenario cannot be confirmed.
+  pain: 未说明粘贴时遇到的具体困难，也未说明不解决会有什么后果，痛点无法还原。
+  pain_en: The specific difficulty when pasting, and the consequence of not solving it, are not stated,
+    so the pain point cannot be reconstructed.
+  current_alternative: 材料未给出当前替代方式，只能推断为系统自带剪贴板加手动改写格式，属推断。
+  current_alternative_en: No current alternative is given; the built-in clipboard plus manual reformatting
+    is only an inference.
+  usage_reason: 材料未说明它相较系统剪贴板减少了哪一步负担或改善了哪项可核对结果，无法解释用户为何选择它。
+  usage_reason_en: The material does not say which step it removes versus the system clipboard or which
+    checkable result it improves, so there is no explanation of why a user would choose it.

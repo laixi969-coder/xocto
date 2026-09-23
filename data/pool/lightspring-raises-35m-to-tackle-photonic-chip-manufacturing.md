@@ -1,6 +1,6 @@
 ---
 slug: lightspring-raises-35m-to-tackle-photonic-chip-manufacturing
-name: Lightspring raises €3.5M to tackle photonic chip manufacturing bottleneck
+name: Lightspring
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: French company Lightspring today announced the close of a €3.1 millio
   and OVNI Capital, with participation from Concept Ventures, Ixcore, Plug and Play Ventures, and indust...
 first_seen: '2026-09-22T06:00:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Lightspring raises €3.5M to tackle photonic chip manufacturing bottleneck
+# Lightspring
 
 French company Lightspring today announced the close of a €3.1 million seed round led by Atlantic and OVNI Capital, with participation from Concept Ventures, Ixcore, Plug and Play Ventures, and indust...
 

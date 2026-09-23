@@ -1,0 +1,97 @@
+- id: req-initial-jevbench-2026-09-23
+  project_slug: jevbench
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它是可复现基准，说不清谁在什么任务里被卡住、不解决会怎样，需求结构无法还原。
+    evidence_ids:
+    - ev-d799dc709574159f
+  - gate: consensus
+    status: insufficient
+    reason: 56 点、10 条评论只说明有人关注，不能说明评测方已经把它纳入选型流程。
+    evidence_ids:
+    - ev-d799dc709574159f
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料没有定价、买方或收费方式的任何信息。
+    evidence_ids:
+    - ev-d799dc709574159f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近决策模型选型的第一性目标，也看不到人工确认与复现边界。
+    evidence_ids:
+    - ev-d799dc709574159f
+  next_validation: 收集 JevBench 的官方仓库或文档页，确认它接收的输入格式、产出的评测报告样例与复现步骤。
+  market: ''
+  job: 做决策模型选型或研究的工程师，在需要比较多个带类型标注的决策模型时，把模型输出交给一套基准流程，得到可对照的评测结果。
+  job_en: Engineers selecting or researching decision models hand model outputs to a benchmark process
+    when comparing several typed decision models, aiming for comparable evaluation results.
+  pain: 公开材料只说明它是可复现基准，没有说明谁在什么场景下被哪一步卡住，也没有用户抱怨或替代行为的记录。
+  pain_en: Public material only says it is a reproducible benchmark; it does not say who is blocked at
+    which step, and there is no record of user complaints or substitute behaviour.
+  current_alternative: 团队通常自己写脚本或论文附录里各报各的指标，缺少统一口径。
+  current_alternative_en: Teams usually write their own scripts or report metrics separately in paper
+    appendices, with no shared standard.
+  usage_reason: 推断：如果它真能把评测流程固定下来，选型团队可以省掉自己搭对比脚本这一步，但公开材料没有说明输入输出和复现方式，因此无法确认它比自建脚本省在哪一步。
+  usage_reason_en: 'Inference: if it truly fixes the evaluation process, selection teams could skip building
+    their own comparison scripts, but public material does not describe inputs, outputs or reproduction,
+    so it is unclear which step it saves versus self-built scripts.'
+- id: req-full-jevbench-2026-09-23
+  project_slug: jevbench
+  level: full
+  reviewed_at: '2026-09-23T01:11:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Jev 类带类型标注决策模型缺少统一、可复现横向评测口径的问题：各发布方自报指标、口径不一，选型者需自建脚本。公开材料显示已有 231 道公开任务、四维各 25% 几何平均评分与独立审计的保存响应回放，交付物可确定；属工作流结构推理，尚无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-5d8249e471e25037
+    - ev-b81aa9b872b5915d
+    - ev-641d2196a4699322
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示 Benchmark Heaven 与 Open-Jev 两处主体各自使用或发布该基准，并有五条模型流完成审计，但没有第三方评测方、论文或选型流程公开采纳它的记录，无法判断是否形成跨团队共识。
+    evidence_ids:
+    - ev-5d8249e471e25037
+    - ev-b81aa9b872b5915d
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、收费方式或买方信息，只能推断钱可能来自基准维护方自身服务、模型发布方赞助或开源社区，这是判断而非已验证事实；未显示 to C、to B 或 to G 的付费路径。
+    evidence_ids:
+    - ev-8a31dc5aa60a48bb
+    - ev-966ae3d23a350959
+  - gate: truth
+    status: supported
+    reason: 基准贴近该工作第一性目标：用固定 231 道公开任务与四维各 25% 几何平均评分给出可对照结果，且保存响应回放、上游聚合复现、请求记账与模型身份均通过独立审计，交付可被第三方复核；但公开材料未说明人工确认边界与评分争议处理方式。
+    evidence_ids:
+    - ev-b81aa9b872b5915d
+    - ev-e34cea2f6e8b53e3
+  next_validation: 追踪 JevBench 官方仓库（fstandhartinger/jevbench）与 Open-Jev 文档页的更新，收集其任务集版本说明、评分脚本与第三方引用或复现记录，以确认是否有外部团队在选型流程中实际采用。
+  market: ''
+  job: 做决策模型选型或研究的工程师，在需要比较 Jev 类带类型标注的决策模型（Jev、其开源复刻版与指令模型）时，把各模型在 231 道公开任务上的输出交给 JevBench 流程，拿到按 Intelligence、Calibration、Speed、Cost
+    各 25% 几何平均合成的可对照评分。
+  job_en: Engineers selecting or researching decision models, when comparing Jev-class typed decision
+    models (Jev, its open rebuilds and instruction models), feed each model's outputs on 231 public tasks
+    into the JevBench process to obtain a comparable score combining Intelligence, Calibration, Speed
+    and Cost at 25% each via geometric mean.
+  pain: 公开材料显示各模型此前由不同主体各自发布指标，缺少统一口径：Benchmark Heaven 需要自建一套评分，Open-Jev 需要独立审计五条模型流并逐项核对保存响应回放、上游聚合复现、请求记账与模型身份，说明横向比较本身存在口径不一、结果不可复现的负担。
+  pain_en: 'Public material shows each model previously published metrics on its own terms with no shared
+    standard: Benchmark Heaven had to build its own scoring, and Open-Jev had to independently audit five
+    model streams, checking saved-response replay, upstream aggregate reproduction, request accounting
+    and model identities — indicating a real burden of inconsistent, non-reproducible comparison.'
+  current_alternative: 团队自己写评测脚本，或直接引用各模型发布方在论文附录、模型卡里各报各的指标，缺少统一任务集与统一评分口径。
+  current_alternative_en: Teams write their own evaluation scripts, or cite metrics each model publisher
+    reports separately in paper appendices and model cards, with no shared task set or scoring standard.
+  usage_reason: 推断：相较自建脚本或引用各家自报指标，JevBench 用固定的 231 道公开任务、四维各 25% 的几何平均评分和可审计的保存响应回放，把“自己搭对比脚本并核对口径”这一步替换为直接跑基准拿可复现分数，因此需要横向比较
+    Jev 类模型、又要求结果可被第三方复核的选型或研究工程师会在此时选择它。
+  usage_reason_en: 'Inference: versus self-built scripts or citing each publisher''s self-reported metrics,
+    JevBench replaces the step of building comparison scripts and reconciling scoring conventions with
+    a fixed 231-task public set, a four-dimension 25%-each geometric-mean score and auditable saved-response
+    replay, so selection or research engineers who need cross-model comparison of Jev-class models with
+    third-party-checkable results would choose it.'

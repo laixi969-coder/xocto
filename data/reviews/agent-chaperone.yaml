@@ -1,0 +1,92 @@
+- id: req-initial-agent-chaperone-2026-09-23
+  project_slug: agent-chaperone
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是 agent 调用工具时的把关问题，痛点方向清楚，但公开材料只有一句功能描述，说不清筛查后交付什么、由谁确认，价值结构尚不完整。
+    evidence_ids:
+    - ev-765d5ae6f1484084
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分且无评论，没有用户反馈、案例或采用迹象，无法判断是否有人真的把它放进流程。
+    evidence_ids:
+    - ev-765d5ae6f1484084
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、开源许可下的商业路径或买方，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-765d5ae6f1484084
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标，也看不到误拦与人工边界如何处理，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-765d5ae6f1484084
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认筛查动作的输入输出、人工确认边界和接入方式。
+  market: ''
+  job: AI 应用运维或安全工程师在 agent 接入真实业务工具后，需要在每次工具调用和返回结果进入下游系统前完成筛查，决定放行还是拦截。
+  job_en: AI application operations or security engineers, after an agent is connected to real business
+    tools, must screen each tool call and returned result before it reaches downstream systems and decide
+    whether to allow or block it.
+  pain: agent 一旦能改数据、发请求，一次越权调用或异常返回就可能直接写坏业务记录，而现有做法往往只在事后看日志，缺少调用发生时的把关点。
+  pain_en: Once an agent can change data and send requests, a single unauthorised call or abnormal result
+    can corrupt a business record, while current practice usually only reviews logs after the fact and
+    lacks a checkpoint at call time.
+  current_alternative: 目前多由团队自己写校验脚本、在 agent 框架里加人工确认步骤，或事后翻日志排查，没有统一的门禁环节。
+  current_alternative_en: Today teams mostly write their own validation scripts, add manual confirmation
+    steps inside the agent framework, or dig through logs afterwards, with no unified gate.
+  usage_reason: 推断：如果它真能在调用发生的当下接收工具调用与结果并给出放行或拦截判断，就省掉了事后翻日志再回滚的那一步，对已经让 agent 操作生产数据的团队有吸引力；但公开材料没有说明判断依据、误拦处理和接入方式，因此尚不能确认用户会持续使用。
+  usage_reason_en: 'Inference: if it really receives tool calls and results at call time and returns an
+    allow-or-block decision, it removes the step of digging through logs and rolling back afterwards,
+    which appeals to teams already letting agents touch production data; however the public material does
+    not explain the decision basis, handling of false blocks or integration, so continued use cannot be
+    confirmed.'
+- id: req-full-agent-chaperone-2026-09-23
+  project_slug: agent-chaperone
+  level: full
+  reviewed_at: '2026-09-23T01:08:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 接入真实工具后调用与返回结果缺少把关点的问题：一次越权调用或异常返回可能直接写坏业务记录，而现有做法只在事后翻日志。痛点刚性、交付方向可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-765d5ae6f1484084
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句功能描述，没有用户反馈、案例或采用迹象，无法判断是否有人真的把它放进流程，关注度也不等于持续采用。
+    evidence_ids:
+    - ev-765d5ae6f1484084
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、开源许可下的商业路径或买方，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-765d5ae6f1484084
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标，也看不到误拦与人工边界如何处理，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-765d5ae6f1484084
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认筛查动作的输入输出、人工确认边界和接入方式。
+  market: ''
+  job: AI 应用运维或安全工程师在 agent 接入真实业务工具后，需要在每次工具调用和返回结果进入下游系统前完成筛查，决定放行还是拦截。
+  job_en: AI application operations or security engineers, after an agent is connected to real business
+    tools, must screen each tool call and returned result before it reaches downstream systems and decide
+    whether to allow or block it.
+  pain: agent 一旦能改数据、发请求，一次越权调用或异常返回就可能直接写坏业务记录，而现有做法往往只在事后看日志，缺少调用发生时的把关点。
+  pain_en: Once an agent can change data and send requests, a single unauthorised call or abnormal result
+    can corrupt a business record, while current practice usually only reviews logs after the fact and
+    lacks a checkpoint at call time.
+  current_alternative: 目前多由团队自己写校验脚本、在 agent 框架里加人工确认步骤，或事后翻日志排查，没有统一的门禁环节。
+  current_alternative_en: Today teams mostly write their own validation scripts, add manual confirmation
+    steps inside the agent framework, or dig through logs afterwards, with no unified gate.
+  usage_reason: 推断：若它真能在调用发生的当下接收工具调用与结果并给出放行或拦截判断，就省掉了事后翻日志再回滚的那一步，对已经让 agent 操作生产数据的团队有吸引力；但公开材料没有说明判断依据、误拦处理和接入方式，因此尚不能确认用户会持续使用。
+  usage_reason_en: 'Inference: if it really receives tool calls and results at call time and returns an
+    allow-or-block decision, it removes the step of digging through logs and rolling back afterwards,
+    which appeals to teams already letting agents touch production data; however the public material does
+    not explain the decision basis, handling of false blocks or integration, so continued use cannot be
+    confirmed.'

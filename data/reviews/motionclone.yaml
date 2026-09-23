@@ -394,3 +394,53 @@
     and keyframes from scratch, so editors who need many motion variants quickly would try it first; whether
     the output plugs into existing editing pipelines and how much rework it needs is not shown in public
     material.'
+- id: req-full-motionclone-2026-09-23
+  project_slug: motionclone
+  level: full
+  reviewed_at: '2026-09-23T01:11:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复刻参考动效耗时且依赖个人经验的问题，痛点刚性来自交付期限与风格一致性要求；公开说明已能还原“输入参考视频—解析生成可编辑工程—对比调整—导出MP4或HyperFrames”的闭环，属工作流结构推理，但解析精度与返工量未公开。
+    evidence_ids:
+    - ev-406010f6865395e5
+    - ev-944888d8f1ae8153
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从190升至309这一关注度信号，没有用户评价、客户案例或重复使用证据，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-406010f6865395e5
+    - ev-944888d8f1ae8153
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按工程或成片收费、订阅或一次性授权都只是推断；这是判断，不是已验证事实，但不足以否定需求。
+    evidence_ids:
+    - ev-406010f6865395e5
+  - gate: truth
+    status: insufficient
+    reason: 依赖通用代码与对话模型解析视频，缺少自有数据或行业壁垒，输出是否贴近动效工作第一性目标、能否确定性交付无法核对。
+    evidence_ids:
+    - ev-406010f6865395e5
+    - ev-944888d8f1ae8153
+  next_validation: 追踪 MotionClone 官方仓库的 issue、discussion 或 README 更新，确认生成工程的实际可用程度、返工反馈与是否出现定价或客户案例。
+  market: ''
+  job: 动效设计师或短视频剪辑师在客户或运营给出“照着这条参考视频做一版”的情况下，处理一段参考视频素材，要产出一条风格一致、可继续修改的动效成片或可编辑工程。
+  job_en: A motion designer or short-form video editor, when a client or operator says 'make a version
+    like this reference clip', works from a reference video and must deliver a style-matched motion piece
+    or editable project that can still be revised.
+  pain: 复刻参考动效需要逐帧观察节奏、缓动与图层关系，再在 After Effects 一类工具里手工重建，耗时且高度依赖个人经验；公开材料未给出返工量或耗时对比数据。
+  pain_en: Reproducing reference motion requires frame-by-frame study of timing, easing and layer relationships,
+    then manual rebuilding in a tool like After Effects; it is slow and depends heavily on individual
+    skill, and public material gives no rework or time-savings data.
+  current_alternative: 现有做法是人工拆解参考视频后在专业动效软件里重建，或购买模板再改；公开材料未说明它相对这些旧做法的实际节省。
+  current_alternative_en: The current practice is to manually break down the reference clip and rebuild
+    it in professional motion software, or to buy and adapt a template; public material does not show
+    actual savings versus these.
+  usage_reason: 推断：它把“看参考视频—手工搭图层与关键帧”压缩为“输入参考视频—得到可编辑工程”，省掉从零搭建图层与关键帧这一步，因此需要快速出多版动效的剪辑师会先试用；但生成结果能否直接进入现有剪辑流程、返工多少，公开材料未提供。
+  usage_reason_en: 'Inference: it compresses ''watch the reference clip and rebuild layers and keyframes
+    by hand'' into ''input the reference clip and get an editable project'', removing the step of building
+    layers and keyframes from scratch, so editors who need many motion variants quickly would try it first;
+    whether the output plugs into existing editing pipelines and how much rework it needs is not shown
+    in public material.'

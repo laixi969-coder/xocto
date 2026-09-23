@@ -1,0 +1,86 @@
+- id: req-initial-千问办公发布新ai硬件qwennote-a2ceo陈宇森可能卖出千万台-云栖大会-ai-agent-录音-设备-无痕-手-2026-09-23
+  project_slug: 千问办公发布新ai硬件qwennote-a2ceo陈宇森可能卖出千万台-云栖大会-ai-agent-录音-设备-无痕-手
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决会议录音到纪要的整理环节，但公开材料未给出原流程耗时与不采用的后果，价值结构不完整。
+    evidence_ids:
+    - ev-e2ece7cb5dd87804
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布会与CEO销量预期，未见用户反馈、复购或企业采购证据。
+    evidence_ids:
+    - ev-e2ece7cb5dd87804
+  - gate: model
+    status: insufficient
+    reason: 未披露硬件售价、订阅收费或企业采购方式，买方与付费路径不明。
+    evidence_ids:
+    - ev-e2ece7cb5dd87804
+  - gate: truth
+    status: insufficient
+    reason: 未见录音合规、数据留存与人工复核边界的说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-e2ece7cb5dd87804
+  next_validation: 检索该硬件的官方产品页或定价页，确认售价、转写能力范围与录音数据留存政策。
+  market: ''
+  job: 企业员工在会议与访谈现场，用录音设备采集语音材料，会后整理成可用的会议记录与待办事项。
+  job_en: Employees recording meetings and interviews on-site, then turning the audio into usable meeting
+    notes and action items.
+  pain: 公开材料只有发布与销量预期，未说明原流程中整理纪要耗时多久、错漏代价多大，痛点强度无法判断。
+  pain_en: Public material only covers the launch and sales expectations, not how long note-taking took
+    or the cost of errors, so pain intensity cannot be judged.
+  current_alternative: 公开材料未说明替代方式，按常规推断为手机录音加人工整理，或使用现有会议转写软件。
+  current_alternative_en: Public material does not state the alternative; by convention it would be phone
+    recording plus manual editing, or existing meeting transcription software.
+  usage_reason: 缺少转写准确率、交付形态与人工确认环节的公开事实，无法说明相较手机录音加人工整理减少了哪一步负担。
+  usage_reason_en: Without public facts on transcription accuracy, deliverable format and human confirmation,
+    it is impossible to say which step is reduced versus phone recording plus manual editing.
+- id: req-full-千问办公发布新ai硬件qwennote-a2ceo陈宇森可能卖出千万台-云栖大会-ai-agent-录音-设备-无痕-手-2026-09-23
+  project_slug: 千问办公发布新ai硬件qwennote-a2ceo陈宇森可能卖出千万台-云栖大会-ai-agent-录音-设备-无痕-手
+  level: full
+  reviewed_at: '2026-09-23T01:13:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议与访谈录音会后整理成纪要与待办的需求，痛点在于人工回听转写重复易漏；公开材料仅证实产品发布与CEO销量预期，未给原流程耗时与错漏代价，价值结构成立属工作流推理，痛点强度待用户反馈补强。
+    evidence_ids:
+    - ev-e2ece7cb5dd87804
+  - gate: consensus
+    status: insufficient
+    reason: 仅有云栖大会发布与CEO“可能卖出千万台”的预期表述，未见用户评价、复购或企业采购记录，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-e2ece7cb5dd87804
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露硬件售价、是否含订阅或企业采购方式，买方与付费路径不明；按硬件加AI Agent形态推断可能走to C零售或to B采购，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e2ece7cb5dd87804
+  - gate: truth
+    status: insufficient
+    reason: 未见录音合规、数据留存政策与人工复核边界的公开说明，转写准确率与交付确定性无法核对，安全与人工边界仍待官方文档确认。
+    evidence_ids:
+    - ev-e2ece7cb5dd87804
+  next_validation: 追踪千问办公官方产品页或定价页，确认QwenNote A2的售价、转写能力范围、录音数据留存政策与是否含订阅收费。
+  market: ''
+  job: 企业员工在会议、访谈或客户沟通现场，用便携录音硬件采集语音材料，会后需要把音频整理成可用的会议记录与待办事项，交给同事或上级。
+  job_en: Employees at meetings, interviews or client conversations capture speech with a portable recording
+    device, then need to turn the audio into usable meeting notes and action items for colleagues or managers.
+  pain: 公开材料只给出发布与CEO销量预期，未披露原流程整理纪要耗时、错漏代价或合规顾虑；从工作流结构推理，会后人工回听录音、逐句转写并提炼待办是重复且易漏的环节，但痛点强度尚无用户反馈或案例佐证。
+  pain_en: Public material only covers the launch and the CEO's sales expectation, not the time cost,
+    error cost or compliance concerns of the old process; by workflow inference, replaying audio and manually
+    transcribing and extracting action items is repetitive and error-prone, but pain intensity lacks user
+    feedback or case support.
+  current_alternative: 公开材料未说明替代方式；按常规推断为手机录音加人工整理，或使用现有会议转写软件与通用AI助手。
+  current_alternative_en: Public material does not state the alternative; by convention it would be phone
+    recording plus manual editing, or existing meeting transcription software and general AI assistants.
+  usage_reason: 推断：相较手机录音加人工回听整理，该设备把采集与AI Agent转写整理放在同一硬件闭环内，减少会后导出音频、再导入转写工具这一步；但转写准确率、交付形态与人工确认边界未公开，哪类用户会因此选择它仍属结构推理而非已验证事实。
+  usage_reason_en: 'Inference: versus phone recording plus manual replay, the device puts capture and
+    AI-agent transcription in one hardware loop, removing the step of exporting audio into a separate
+    transcription tool; however transcription accuracy, deliverable format and human-confirmation boundaries
+    are undisclosed, so which users would choose it remains structural inference, not verified fact.'

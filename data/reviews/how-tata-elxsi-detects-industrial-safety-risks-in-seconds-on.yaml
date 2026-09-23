@@ -1,0 +1,92 @@
+- id: req-initial-how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-2026-09-23
+  project_slug: how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决人工盯屏漏看、事后回看太慢的问题，旧做法是轮班监控或调录像，痛点刚性且告警结果可核对。
+    evidence_ids:
+    - ev-bb2553f2360e6036
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一方技术案例，未见工厂客户名单或现场采用数据，共识无法判断。
+    evidence_ids:
+    - ev-bb2553f2360e6036
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是工厂还是集成商，付费路径属推断而非已验证事实。
+    evidence_ids:
+    - ev-bb2553f2360e6036
+  - gate: truth
+    status: insufficient
+    reason: 误报率、边缘设备要求与人工复核边界未公开，确定性交付无法核对。
+    evidence_ids:
+    - ev-bb2553f2360e6036
+  next_validation: 收集 Tata Elxsi IRIS 的官方产品页或客户部署案例，确认其告警准确率与商业交付方式。
+  market: ''
+  job: 工厂安全管理人员在产线运行时，处理多路摄像头视频，需要及时发现未戴防护装备、闯入危险区等不安全状况并处置。
+  job_en: A factory safety manager, while production lines run, handles multiple camera feeds and must
+    promptly detect and respond to unsafe conditions such as missing protective gear or entry into hazard
+    zones.
+  pain: 人工盯屏容易疲劳漏看，事后回看录像又太慢，事故代价高。
+  pain_en: Human screen-watching is tiring and error-prone, reviewing footage afterward is too slow, and
+    accidents are costly.
+  current_alternative: 安排人员轮班盯监控屏，或事后调取录像排查。
+  current_alternative_en: Staff rotate shifts watching monitors, or footage is pulled and reviewed after
+    an incident.
+  usage_reason: 相较人工盯屏，IRIS 在边缘先过滤视频再在云端关联多次检测，把告警从数分钟压到数秒，减少漏看这一步；推断有合规压力的工厂会因此选择它，但公开材料未给出客户留存或复购证据。
+  usage_reason_en: Compared with human screen-watching, IRIS filters video at the edge and correlates
+    detections in the cloud, compressing alerts from minutes to seconds and reducing missed detections;
+    factories under compliance pressure would plausibly choose it, though no retention or repeat-use evidence
+    is public.
+- id: req-full-how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-2026-09-23
+  project_slug: how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on
+  level: full
+  reviewed_at: '2026-09-23T01:10:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工厂安全人员人工盯屏漏看、事后回看太慢的问题，旧做法是轮班监控或调录像，痛点刚性且告警结果可核对；这是基于产品说明的工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-0f814df9efb8e093
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有 Tata 集团与 Tata Motors 的公司背景页，未见工厂客户名单、现场部署或安全人员评价，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-0f814df9efb8e093
+    - ev-fe811daa9d55da60
+    - ev-f1905ea7a96aecf5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是工厂自建还是集成商采购，付费路径属推断而非已验证事实；Tata Elxsi 作为工程服务商可能按项目收费，但无公开依据。
+    evidence_ids:
+    - ev-0f814df9efb8e093
+    - ev-f1905ea7a96aecf5
+  - gate: truth
+    status: insufficient
+    reason: 误报率、边缘设备要求与人工复核边界未公开，秒级告警能否确定性交付无法核对；公开材料仅描述架构，未给运行指标。
+    evidence_ids:
+    - ev-0f814df9efb8e093
+  next_validation: 收集 Tata Elxsi IRIS 的官方产品页或客户部署案例，确认其告警准确率、边缘设备要求与商业交付方式。
+  market: ''
+  job: 工厂安全管理人员在生产运行时，处理多路产线摄像头视频，需要及时发现未戴防护装备、闯入危险区等不安全状况并派人处置。
+  job_en: A factory safety manager, while production runs, handles multiple production-line camera feeds
+    and must promptly detect unsafe conditions such as missing protective gear or entry into hazard zones
+    and dispatch a response.
+  pain: 人工轮班盯屏容易疲劳漏看，事后回看录像又太慢，事故与合规代价高；公开材料只给出秒级告警这一结果描述，未披露误报率。
+  pain_en: Rotating human screen-watching is tiring and misses events, and after-the-fact footage review
+    is too slow, with high accident and compliance costs; public material only states second-level alerting
+    and does not disclose false-alarm rates.
+  current_alternative: 安排人员轮班盯监控屏，或事故后调取录像排查。
+  current_alternative_en: Staff rotate shifts watching monitors, or footage is pulled and reviewed after
+    an incident.
+  usage_reason: 相较人工盯屏，IRIS 在边缘先过滤视频、只上传元数据，再在云端把多次检测关联成高置信告警，减少“人一直盯着看”这一步负担；推断有安全合规压力的工厂会因此选择它，但公开材料未给出客户留存或复购证据。
+  usage_reason_en: Compared with human screen-watching, IRIS filters video at the edge, uploads only metadata,
+    and correlates multiple detections into high-confidence alerts in the cloud, removing the burden of
+    continuous human watching; factories under safety-compliance pressure would plausibly choose it, though
+    no retention or repeat-use evidence is public.

@@ -112,3 +112,44 @@
   usage_reason_en: 'Inference: if the product truly turns conversation decisions into searchable memory,
     teams could skip a manual step when handing off or tracing back; but no public user feedback or case
     supports this causal link, so it is unclear which users would choose it for that reason.'
+- id: req-full-praxos-2026-09-23
+  project_slug: praxos
+  level: full
+  reviewed_at: '2026-09-23T01:11:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决团队消息中上下文与记忆丢失的问题，但公开证据只有“Multiplayer AI”和“内置记忆的团队消息传递”两句定位，没有用户任务、痛点强度、现有替代或不采用后果的任何公开事实，连需求与痛点都难以具体写出。
+    evidence_ids:
+    - ev-d52c7907632c5650
+    - ev-f0e0c96397658401
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Praxos 官网是否发布产品文档、定价页或客户案例，以确认其内置记忆功能对应的具体用户任务与使用反馈。
+  market: ''
+  job: 团队在即时消息中讨论项目时，需要把散落在对话里的决策、结论和上下文沉淀下来，供后续成员查阅和继续推进任务。
+  job_en: Teams discussing projects in instant messaging need to capture decisions, conclusions, and context
+    scattered across conversations so later members can review and continue the work.
+  pain: 公开材料只有“Multiplayer AI”和“具有内置记忆的团队消息传递”两句产品定位，没有用户抱怨、使用反馈或案例说明对话上下文丢失带来的具体代价与频率，痛点强度无法从公开事实确认。
+  pain_en: Public materials contain only the taglines 'Multiplayer AI' and 'team messaging with built-in
+    memory'; there is no user complaint, feedback, or case showing the concrete cost or frequency of losing
+    conversational context, so pain intensity cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代的是 Slack/Teams 加人工整理、搜索历史记录，还是其他知识库工具。
+  current_alternative_en: Public materials do not state how users currently do this job, nor whether it
+    replaces Slack/Teams plus manual note-taking, history search, or other knowledge-base tools.
+  usage_reason: 仅凭“内置记忆的团队消息传递”这一功能描述，无法推断用户相较现有做法会因哪一步负担减少或哪项结果改善而选择它；缺少用户反馈或案例支持，动机只能存疑。
+  usage_reason_en: From the feature description 'team messaging with built-in memory' alone, it cannot
+    be inferred which step's burden is reduced or which result improves versus current practice; without
+    user feedback or cases, the motivation remains unestablished.

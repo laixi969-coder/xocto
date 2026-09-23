@@ -21,7 +21,7 @@ canonical_url: https://variety.com/2026/film/news/robin-williams-daughter-ai-vid
 summary: 'Robin Williams'' Daughter to Fans Creating AI Videos: ''Have Some Shame'''
 first_seen: '2026-09-22T01:24:49Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

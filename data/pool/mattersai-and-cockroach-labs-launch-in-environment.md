@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgJBVV95cUxNRm9oMHZraEJ1
 summary: Matters.AI and Cockroach Labs Launch In-Environment varindia
 first_seen: '2026-09-22T14:50:58Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

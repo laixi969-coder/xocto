@@ -1,0 +1,87 @@
+- id: req-initial-hola-ai-2026-09-23
+  project_slug: hola-ai
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决漏接客户来电导致丢单的问题，痛点是刚性的，旧做法是语音信箱或事后回拨；但公开材料未说明交付形态，属工作流推理。
+    evidence_ids:
+    - ev-b07b93993e72a500
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品社区发布说明，没有用户评价、采用或重复使用证据，无法判断是否形成使用习惯。
+    evidence_ids:
+    - ev-b07b93993e72a500
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按接听量或订阅收费都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-b07b93993e72a500
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否转写、是否可回拨、是否需人工确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-b07b93993e72a500
+  next_validation: 收集 Hola AI 官方定价页或产品文档，确认接听后的交付形态（录音、转写或摘要）与计费方式。
+  market: ''
+  job: 自由职业者或小型服务商在会议、上门服务或休息时无法接听客户来电，需要有人替自己接起并留下对方说了什么，事后判断是否回拨。
+  job_en: A freelancer or small service provider cannot answer client calls during meetings, on-site work
+    or rest, and needs someone to pick up and record what the caller said so they can decide later whether
+    to call back.
+  pain: 漏接电话直接等于丢单或延迟响应，而运营商语音信箱只留声音、不整理内容，回听成本高。
+  pain_en: A missed call directly means a lost job or a delayed response, while carrier voicemail only
+    stores audio without organising it, making review costly.
+  current_alternative: 运营商语音信箱、来电转接给同事、事后逐个回拨，或干脆不接。
+  current_alternative_en: Carrier voicemail, forwarding calls to a colleague, calling everyone back afterwards,
+    or simply not answering.
+  usage_reason: 推断：相较语音信箱只留一段录音，它把接听这一步自动化，用户不必中断手头工作即可保住来电线索；但公开材料未说明是否转写或摘要，因此减少的是接听负担，整理负担是否减少仍待核验。
+  usage_reason_en: 'Inference: compared with voicemail that only stores a recording, it automates the
+    answering step so the user keeps the lead without interrupting work; public material does not say
+    whether it transcribes or summarises, so the answering burden is reduced while the review burden remains
+    unverified.'
+- id: req-full-hola-ai-2026-09-23
+  project_slug: hola-ai
+  level: full
+  reviewed_at: '2026-09-23T01:10:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向 HOLA 娱乐媒体与 Hola 浏览器插件，与 AI 语音留言助手无关，无法还原用户任务、痛点、旧替代或不解决的后果，价值关不成立。
+    evidence_ids:
+    - ev-d38547dc87a82ce5
+    - ev-5c7c738d6fec5775
+    - ev-64eea25b465b1cf6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Hola AI 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 自由职业者或小型服务商在会议、上门服务或休息时无法接听客户来电，需要有人替自己接起并留下对方说了什么，事后判断是否回拨。
+  job_en: A freelancer or small service provider cannot answer client calls during meetings, on-site work
+    or rest, and needs someone to pick up and record what the caller said so they can decide later whether
+    to call back.
+  pain: 公开材料未提供任何关于漏接来电的用户痛点、抱怨或替代行为的证据，无法确认该问题对目标用户是否真实存在或足够刚性。
+  pain_en: Public material provides no evidence of user pain, complaints or workaround behaviour around
+    missed calls, so it cannot be confirmed whether the problem is real or acute for the target users.
+  current_alternative: 公开材料未说明目标用户当前如何处理漏接来电，运营商语音信箱、转接同事或事后回拨均属推测，无证据支持。
+  current_alternative_en: Public material does not describe how target users currently handle missed calls;
+    carrier voicemail, forwarding to a colleague or calling back later are all speculation without supporting
+    evidence.
+  usage_reason: 公开材料未提供任何用户采用、评价或选择理由的证据，无法解释用户为何会选用它而非现有做法，因此不作推断。
+  usage_reason_en: Public material offers no evidence of adoption, reviews or reasons for choosing it,
+    so no explanation can be given for why users would pick it over existing practice; no inference is
+    made.

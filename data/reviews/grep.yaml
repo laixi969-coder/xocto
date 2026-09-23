@@ -122,3 +122,85 @@
     code structure rather than raw text, removing the step of opening repositories one by one to filter
     out comments and strings, so engineers tracing cross-repository usage would pick it when investigating
     dependencies or preparing agent context. No retention or repeat-use evidence is public.'
+- id: req-initial-grep-2026-09-23
+  project_slug: grep
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨仓库按结构找代码的需求，痛点是关键字搜索误报多、人工筛选耗时；旧替代行为明确存在。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论集中在开发者社区，尚无客户案例或团队采用证据，无法判断是否形成稳定使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是工程团队或迁移项目方，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 检索范围、结果准确率与是否可复现均未核验，交付确定性尚不清楚。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或文档，确认检索范围、结果交付形式与收费方式。
+  market: ''
+  job: 开发者在做跨仓库重构或框架迁移时，需要在大量公开代码库中找出符合某种语法结构的写法，作为改写或迁移的参考。
+  job_en: While doing cross-repository refactoring or framework migration, a developer needs to find code
+    that matches a given syntactic structure across many public repositories as a reference for rewriting
+    or migration.
+  pain: 按关键字或正则搜索会把注释、字符串和同名变量一起捞出来，人工逐条筛掉误报很费时间，且难以表达某种调用结构这类意图。
+  pain_en: Keyword or regex search pulls in comments, strings and same-named variables, so a human must
+    filter false positives one by one, and it is hard to express an intent such as a particular call structure.
+  current_alternative: 旧做法是在本地或代码托管平台用关键字、正则搜索，再人工阅读筛选，或依赖 IDE 的符号跳转逐个查看。
+  current_alternative_en: The old way is keyword or regex search on a local checkout or code hosting platform
+    followed by manual reading, or stepping through IDE symbol navigation one by one.
+  usage_reason: 推断：它把结构而不是文本作为查询输入，直接过滤掉注释、字符串等文本命中，减少人工逐条排除误报这一步，因此做大规模迁移、需要先摸清同类写法分布的开发者会在开工前用它。
+  usage_reason_en: 'Inference: it takes a structure rather than text as the query input, filtering out
+    comment and string hits, which removes the manual step of discarding false positives one by one; developers
+    planning large migrations who first need to map how a pattern is used would use it before starting
+    work.'
+- id: req-full-grep-2026-09-23
+  project_slug: grep
+  level: full
+  reviewed_at: '2026-09-23T01:10:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据仅描述经典 grep 的文本匹配功能与历史，未出现任何“跨公开仓库按结构检索”的用户任务、痛点或替代行为，无法还原需求结构。
+    evidence_ids:
+    - ev-63f3dc9ad2b40b8f
+    - ev-dae236d597124610
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或仓库 README/文档，确认其是否真实提供跨公开仓库的结构化代码检索，以及输入形式、检索范围与结果交付方式。
+  market: ''
+  job: 开发者在做跨仓库重构或框架迁移时，需要在公开代码库中找出符合某种语法结构的写法，作为改写或迁移参考。
+  job_en: While doing cross-repository refactoring or framework migration, a developer needs to find code
+    matching a given syntactic structure across public repositories as a reference for rewriting or migration.
+  pain: 公开材料只说明 grep 是文本/模式匹配工具，未提供任何证据说明存在“按结构跨公开仓库检索”这一具体痛点，也未说明谁在什么情况下遇到该问题。
+  pain_en: Public material only describes grep as a text/pattern matching tool; there is no evidence of
+    a specific pain around structural search across public repositories, nor who encounters it and when.
+  current_alternative: 公开材料仅显示传统 grep 在文本文件中按词、短语或模式搜索并显示匹配行，未记录任何针对结构检索的替代行为或 workaround。
+  current_alternative_en: Public material only shows classic grep searching text files for words, phrases
+    or patterns and printing matching lines; no alternative behavior or workaround for structural search
+    is documented.
+  usage_reason: 推断：若产品真能按结构而非文本检索公开仓库，可减少人工排除注释、字符串误报的步骤；但现有证据未描述该产品的输入、交付或使用场景，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the product truly searches public repositories by structure rather than
+    text, it could remove the manual step of discarding comment and string false positives; but current
+    evidence does not describe its input, delivery or usage scenario, so why users would choose it cannot
+    be confirmed.'

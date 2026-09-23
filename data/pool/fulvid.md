@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/fulvid
 summary: A standalone desktop editor for Markdown and MDX
 first_seen: '2026-09-20T04:12:19Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

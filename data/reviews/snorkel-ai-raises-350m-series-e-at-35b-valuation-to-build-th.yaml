@@ -1,0 +1,92 @@
+- id: req-initial-snorkel-ai-raises-350m-series-e-at-35b-valuation-to-build-th-2026-09-23
+  project_slug: snorkel-ai-raises-350m-series-e-at-35b-valuation-to-build-th
+  level: initial
+  reviewed_at: '2026-09-23T00:34:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决企业专有数据标注与评估的需求，痛点存在，但公开材料只有融资标题，无法还原具体输入、动作与交付物。
+    evidence_ids:
+    - ev-3ddeece41aa7b089
+  - gate: consensus
+    status: insufficient
+    reason: 除融资与估值外没有客户、采用或行业采购信息，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-3ddeece41aa7b089
+  - gate: model
+    status: insufficient
+    reason: 买方应为有数据准备预算的企业，但定价与收费方式未披露，属推断。
+    evidence_ids:
+    - ev-3ddeece41aa7b089
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性与人工边界无公开材料支持，无法核对。
+    evidence_ids:
+    - ev-3ddeece41aa7b089
+  next_validation: 收集 Snorkel AI 官方产品页或定价页，核验其数据准备与评估的具体交付物和收费方式。
+  market: ''
+  job: 企业机器学习团队在训练或评估自有模型前，需要把内部原始数据整理成带标注、可复核的训练与评估数据集，处理的是企业内部语料与标注任务。
+  job_en: Before training or evaluating in-house models, enterprise ML teams must turn internal raw data
+    into labeled, reviewable training and evaluation datasets, working from proprietary corpora and labeling
+    tasks.
+  pain: 通用标注工具难以处理需要领域专家判断的数据，标注质量与一致性差会直接拖累模型效果。
+  pain_en: Generic labeling tools struggle with data requiring domain-expert judgment, and poor labeling
+    quality and consistency directly hurt model performance.
+  current_alternative: 企业常用开源标注工具加内部流程，或外包给标注供应商，再由算法团队自行清洗与评估。
+  current_alternative_en: Enterprises often use open-source labeling tools with internal processes, or
+    outsource to labeling vendors, then have algorithm teams clean and evaluate the data themselves.
+  usage_reason: 相较开源工具加外包的组合，它把标注、质量评估与数据准备串成面向企业数据的流程，减少算法团队自行清洗与对齐的负担，因此有大量专有数据且需要专家标注的企业会考虑它；但公开材料只有融资信息，缺少产品细节与客户使用证据，此判断为推断。
+  usage_reason_en: Compared with open-source tools plus outsourcing, it chains labeling, quality evaluation
+    and data preparation into an enterprise-data-oriented flow, reducing the burden on algorithm teams
+    to clean and align data themselves, so enterprises with large proprietary data and expert-labeling
+    needs would consider it; however, public material only covers funding, lacking product detail and
+    customer usage evidence, so this is inference.
+- id: req-full-snorkel-ai-raises-350m-series-e-at-35b-valuation-to-build-th-2026-09-23
+  project_slug: snorkel-ai-raises-350m-series-e-at-35b-valuation-to-build-th
+  level: full
+  reviewed_at: '2026-09-23T01:12:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决前沿模型与智能体在边界场景失效时缺少专有困难数据的问题，痛点是模型效果直接受损；官方页面明确多数管线为规模而非难度而建，旧做法是开源工具加外包再自行清洗。输入、动作与交付可还原，属工作流结构推理，尚无客户采用证据。
+    evidence_ids:
+    - ev-ae600347c7581d91
+  - gate: consensus
+    status: insufficient
+    reason: 官方页面说明其服务前沿实验室与 AI 团队，但公开材料没有客户案例、采用规模或行业采购记录，无法判断共识卡在感知、场景还是利益环节；融资与估值只属关注度证据。
+    evidence_ids:
+    - ev-ae600347c7581d91
+  - gate: model
+    status: insufficient
+    reason: 买方应为有数据准备预算的前沿实验室与企业 AI 团队，属推断；公开材料未披露定价页、收费方式或合同结构，无法核验收入路径，也未出现仅靠融资叙事的证据。
+    evidence_ids:
+    - ev-ae600347c7581d91
+  - gate: truth
+    status: insufficient
+    reason: 官方页面承诺为困难样本构建数据管线，贴近模型效果这一第一性目标，但交付确定性、人工专家边界与质量核验方式均无公开文档支持，无法核对承诺是否确定发生。
+    evidence_ids:
+    - ev-ae600347c7581d91
+  next_validation: 追踪 Snorkel AI 官网产品页与定价页，核验其数据开发与评估的具体交付物、收费方式及公开客户案例。
+  market: ''
+  job: 前沿实验室与企业的 AI 团队在训练和评估自有模型、智能体前，需要把内部原始语料与困难样本整理成可训练、可评估的专有数据集与环境，处理的是长尾、边界场景和需要专家判断的数据。
+  job_en: AI teams at frontier labs and enterprises, before training and evaluating their own models and
+    agents, must turn internal raw corpora and hard samples into proprietary training and evaluation datasets
+    and environments, working on long-tail, edge-case data that requires expert judgment.
+  pain: 官方页面指出多数数据管线是为规模而非难度而建，前沿模型恰好在边界处失效；通用标注工具难以处理需要领域专家判断的样本，标注一致性与质量差会直接拖累模型与智能体表现。
+  pain_en: The official page states most data pipelines are built for volume, not difficulty, and frontier
+    models break at the edges; generic labeling tools struggle with samples requiring domain-expert judgment,
+    and poor labeling consistency and quality directly hurt model and agent performance.
+  current_alternative: 企业常用开源标注工具加内部流程，或外包给标注供应商，再由算法团队自行清洗、对齐与评估边界样本。
+  current_alternative_en: Enterprises commonly use open-source labeling tools with internal processes,
+    or outsource to labeling vendors, then have algorithm teams clean, align and evaluate edge-case data
+    themselves.
+  usage_reason: 推断：相较开源工具加外包的组合，它把面向困难样本的数据开发、标注与评估串成一条专有数据管线，减少算法团队自行清洗、对齐与复核边界样本的负担，因此拥有大量专有数据、且模型在边界场景失效的前沿实验室与企业团队会在准备训练与评估数据时选择它；公开材料尚无客户使用与留存证据。
+  usage_reason_en: 'Inference: compared with open-source tools plus outsourcing, it chains data development,
+    labeling and evaluation for hard samples into one proprietary data pipeline, reducing the burden on
+    algorithm teams to clean, align and re-check edge cases, so frontier labs and enterprise teams with
+    large proprietary data whose models fail at the edges would choose it when preparing training and
+    evaluation data; public material still lacks customer usage and retention evidence.'

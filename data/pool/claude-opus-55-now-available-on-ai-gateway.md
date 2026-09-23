@@ -1,6 +1,6 @@
 ---
 slug: claude-opus-55-now-available-on-ai-gateway
-name: Claude Opus 5.5 now available on AI Gateway
+name: Claude Opus 5.5
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-
 summary: ''
 first_seen: '2026-09-22T00:00:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Claude Opus 5.5 now available on AI Gateway
+# Claude Opus 5.5
 
 _（源没给简介）_
 

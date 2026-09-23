@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5MMlBLQ2VvUG1K
 summary: 国内主要AI公司：联想的混合式AI与腾讯、月之暗面的业务布局 中华网
 first_seen: '2026-09-21T05:12:58Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

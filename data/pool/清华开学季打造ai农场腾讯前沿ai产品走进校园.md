@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdzZ4Q1luWkxr
 summary: 清华开学季打造“AI农场”，腾讯前沿AI产品走进校园 搜狐网
 first_seen: '2026-09-22T10:51:08Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

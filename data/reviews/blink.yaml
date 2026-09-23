@@ -82,3 +82,45 @@
   usage_reason_en: 'Inference: if semantic retrieval cuts the steps of manually crafting keywords and
     opening files one by one, engineers might adopt it in large unfamiliar codebases; however, no adoption,
     retention or comparison evidence is public, so this causal link is unconfirmed.'
+- id: req-full-blink-2026-09-23
+  project_slug: blink
+  level: full
+  reviewed_at: '2026-09-23T01:09:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决在代码库中定位实现的需求，但现有证据全部指向同名无关产品（员工体验平台、智能摄像头），没有任何材料说明它替代哪一步旧流程、痛点强度或用户行为，连需求与痛点都无法从该项目自身证据写出。
+    evidence_ids:
+    - ev-15a0ea5fdea6a177
+    - ev-c75e02c975ad88f4
+    - ev-fc1b440bc74551a4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 blink 项目自身的官方仓库 README、issue 与 discussion，确认其实际检索输入、替代的旧流程与可复现结果示例。
+  market: ''
+  job: 软件工程师在接手陌生或大型代码库、需要定位某段逻辑的实现位置或调用关系时，处理源码与仓库文件，要完成的任务是快速找到相关代码片段。
+  job_en: A software engineer taking over an unfamiliar or large codebase, needing to locate where a piece
+    of logic is implemented or how it is called, works over source files and the repository to find the
+    relevant code snippets.
+  pain: 公开材料只说明它由 Jev 驱动做代码库搜索，未说明替代了哪一步旧流程、旧做法耗时多少，也未给出任何用户抱怨或替代行为。
+  pain_en: The public material only says it performs codebase search powered by Jev; it does not state
+    which old step it replaces, how long the old approach took, or any user complaint or workaround.
+  current_alternative: 开发者通常用编辑器内置搜索、grep、IDE 索引或已有代码搜索工具完成同类任务。
+  current_alternative_en: Developers typically use editor built-in search, grep, IDE indexing or existing
+    code-search tools for the same task.
+  usage_reason: 推断：若语义检索能减少手动构造关键词和逐个打开文件的步骤，工程师可能在大型陌生代码库中选用它；但公开材料未提供任何采用、留存或对比证据，无法确认这一因果。
+  usage_reason_en: 'Inference: if semantic retrieval cuts the steps of manually crafting keywords and
+    opening files one by one, engineers might adopt it in large unfamiliar codebases; however, no adoption,
+    retention or comparison evidence is public, so this causal link is unconfirmed.'

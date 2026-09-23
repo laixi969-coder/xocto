@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9WemhBUUVWUW96
 summary: Teal AI alternatives Download Android Package Học viện Nông nghiệp Việt Nam
 first_seen: '2026-09-22T08:22:20Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

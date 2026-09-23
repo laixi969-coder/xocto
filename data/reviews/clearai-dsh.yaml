@@ -163,3 +163,50 @@
     developers would skip rebuilding validation scripts each time; however the public material does not
     describe the concrete action or a checkable result, so which users would choose it and when cannot
     be confirmed.'
+- id: req-full-clearai-dsh-2026-09-23
+  project_slug: clearai-dsh
+  level: full
+  reviewed_at: '2026-09-23T01:09:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DeepSeek Harness 开发者对模型输出做额外推理校验的需求，痛点在于每次自行搭建校验脚本的重复负担；插件把该流程固化为可复用接入，不解决的后果是输出质量不可控。属工作流结构推理，公开材料未给出用户抱怨或采用行为。
+    evidence_ids:
+    - ev-98b4923aa4083c8b
+    - ev-51a36b453983e3c9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 56 增至 366，属关注度信号，不能说明开发者已把它留在工作流中；公开材料无 issue、discussion 或使用反馈可引用。
+    evidence_ids:
+    - ev-98b4923aa4083c8b
+    - ev-51a36b453983e3c9
+    - ev-8950d2dc8296e08b
+  - gate: model
+    status: insufficient
+    reason: 开源插件，公开材料未披露任何付费路径、买方或商业条款，钱从哪来无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-98b4923aa4083c8b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 Epistemic Loop 是否贴近该工作的第一性目标，也未说明人工确认边界与交付确定性；公开材料仅描述插件接入，未给出可复现的输入输出。
+    evidence_ids:
+    - ev-98b4923aa4083c8b
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认插件具体接收什么输入、执行什么动作、输出什么结果，以及是否有人报告在实际工作流中重复使用。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在调用模型生成结果的过程中，安装 ClearAI 插件，让模型输出先经过 Epistemic Loop 推理/校验流程，再拿到可用于后续开发的结果。
+  job_en: A developer using the DeepSeek Harness who, while calling the model to produce results, installs
+    the ClearAI plugin so the model output passes through the Epistemic Loop reasoning/verification process
+    before being used downstream.
+  pain: 公开材料只说明插件把 Epistemic Loop 接入 DSH，未说明它替代了哪一步人工或旧工具操作，也没有用户抱怨、案例或采用行为可引用，痛点强度只能从结构上推断。
+  pain_en: The public material only says the plugin wires the Epistemic Loop into DSH; it does not say
+    which manual or legacy step it replaces, and no user complaints, cases or adoption behaviour are available,
+    so pain intensity can only be inferred structurally.
+  current_alternative: 开发者目前可能直接在 Harness 中调用模型，或自行编写提示词与校验脚本；公开材料未说明旧做法具体是什么。
+  current_alternative_en: Developers currently likely call the model directly in the Harness or write
+    their own prompts and validation scripts; the public material does not describe the prior practice.
+  usage_reason: 推断：若插件确实把校验流程固化为可复用插件，开发者可省去每次自行搭建校验脚本的步骤；但公开材料未说明具体动作与可核对结果，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the plugin really turns the verification process into a reusable plugin,
+    developers would skip rebuilding validation scripts each time; however the public material does not
+    describe the concrete action or a checkable result, so why users would choose it cannot be confirmed.'

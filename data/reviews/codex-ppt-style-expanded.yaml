@@ -286,3 +286,53 @@
     it takes research notes and data as input and generates editable slides with AI visuals and draw.io
     diagrams in one pass, removing from-scratch layout and diagram redrawing, so consultants and researchers
     who iterate on decks would choose it before client presentations.'
+- id: req-full-codex-ppt-style-expanded-2026-09-23
+  project_slug: codex-ppt-style-expanded
+  level: full
+  reviewed_at: '2026-09-23T01:09:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决顾问与研究人员把调研笔记、图表和数据整理成可编辑演示文稿的收尾任务，痛点在于手工排版耗时且一次性生成稿难以继续修改。公开事实仅仓库自述与收藏数，替代方式与刚性属工作流结构推理。
+    evidence_ids:
+    - ev-af5ee8a03c8ee3eb
+    - ev-32415cbf1a220b0a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 85 缓慢增至 90，说明有开发者关注，但未见目标用户评价、部署案例或重复使用记录，无法确认已形成持续采用共识。
+    evidence_ids:
+    - ev-af5ee8a03c8ee3eb
+    - ev-32415cbf1a220b0a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价、赞助或商业授权信息，谁付钱、按什么单位收费均无公开依据；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-af5ee8a03c8ee3eb
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成幻灯片的版式正确性、图表数据是否准确以及人工复核边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-af5ee8a03c8ee3eb
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有真实用户报告输入格式、生成结果与替代的旧排版流程。
+  market: ''
+  job: 咨询顾问或研究人员在准备客户汇报或研究分享时，把调研笔记、图表与数据交给 Codex，按受众与风格生成可编辑的幻灯片，并调用 AI 配图与 draw.io 图形工作流，最终交付一份可继续手工修改的演示文件。
+  job_en: Consultants or researchers preparing client or research presentations hand research notes, charts
+    and data to Codex, generate audience- and style-aware editable slides with AI visuals and draw.io
+    diagram workflows, and deliver a deck that can still be edited by hand.
+  pain: 公开材料只给出仓库自述与收藏数，没有用户抱怨或耗时数据；从工作流结构推理，把零散笔记与图表排成一套结构清晰、可继续修改的演示文稿是重复且耗时的收尾环节，但痛点强度属推断。
+  pain_en: Public materials give only the repository description and star counts, with no user complaints
+    or time data; by workflow inference, turning scattered notes and charts into a clearly structured,
+    still-editable deck is a repetitive and time-consuming finishing step, but pain intensity is inferred.
+  current_alternative: 公开材料未说明用户当前做法；结构上可推断为在 PowerPoint、Keynote 或 Google Slides 中手工排版，或使用一次性生成、难以继续编辑的
+    AI 幻灯片工具，但缺少可引用的替代行为证据。
+  current_alternative_en: Public materials do not state current practice; structurally this can be inferred
+    as manual layout in PowerPoint, Keynote or Google Slides, or one-shot AI slide tools whose output
+    is hard to keep editing, but citable substitution evidence is missing.
+  usage_reason: 推断：相较手工排版或一次性生成后难以修改的 AI 幻灯片，该流程让 Codex 直接消费调研笔记与数据，按受众与风格产出可编辑文件，并接入 AI 配图与 draw.io 图形步骤，减少从素材到成稿之间的手工搬运；需要交付可继续修改文稿的顾问与研究人员会因此选择它。缺少用户反馈，动机属推断。
+  usage_reason_en: 'Inference: versus manual layout or one-shot AI slides that are hard to revise, this
+    flow lets Codex consume research notes and data directly, produce an editable file by audience and
+    style, and plug in AI visuals and draw.io diagram steps, cutting manual shuttling from raw material
+    to finished deck; consultants and researchers who must hand over a still-editable deck may choose
+    it for that reason. Without user feedback, the motive is inferred.'

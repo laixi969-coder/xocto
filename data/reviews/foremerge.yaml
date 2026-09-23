@@ -305,3 +305,56 @@
     agent submit its change intent to the protocol, which compares intents and flags conflicts before
     code is written, moving detection from merge/review to intent submission and avoiding one rework cycle.
     Teams already running multiple coding agents and feeling merge-conflict cost are the likely adopters.'
+- id: req-full-foremerge-2026-09-23
+  project_slug: foremerge
+  level: full
+  reviewed_at: '2026-09-23T01:10:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多个编码 agent 并行改同一仓库时意图分歧、到 Git 文本冲突才暴露的返工问题；公开说明明确以“在代码冲突前捕获意图冲突”为交付目标，旧做法是串行 agent 或 PR
+      评审，不解决的后果是合并后返工。这是基于产品说明与工作流的结构推理，尚无用户痛点原话。
+    evidence_ids:
+    - ev-dfd4089c4934fde5
+    - ev-fffc1d2b134e3170
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 160 增至 167 后回落至 165，属关注度而非持续采用；公开材料未显示团队部署范围、重复使用或工作流留存，无法判断共识是否形成。
+    evidence_ids:
+    - ev-dfd4089c4934fde5
+    - ev-edbd35451e796ad3
+    - ev-fffc1d2b134e3170
+  - gate: model
+    status: insufficient
+    reason: 开源协议未披露定价页、付费主体或商业条款，to B 团队订阅还是 to VC 融资尚无公开证据；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-fffc1d2b134e3170
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出协议定位，未提供部署文档、可复现实测或冲突判定准确率，交付能否稳定发生及人工复核边界尚不可核验。
+    evidence_ids:
+    - ev-fffc1d2b134e3170
+    - ev-477ca364128cc189
+  next_validation: 追踪 公开代码仓库.com/naw103/foremerge 的 README、部署文档与 issue/discussion，确认是否有团队在并行 agent 工作流中实际部署并重复使用。
+  market: ''
+  job: 软件工程师或 AI 工程师在同时运行多个编码 agent 并行修改同一仓库时，处理各 agent 提交的修改意图与补丁，要在合并前发现彼此目标冲突并得到可执行的协调合并方案。
+  job_en: Software engineers or AI engineers running multiple coding agents in parallel on the same repository
+    handle each agent's stated intent and patches, and must detect conflicting goals before merge and
+    obtain an actionable coordinated merge plan.
+  pain: 多个编码 agent 并行改同一仓库时，各自只看到局部上下文，容易朝相反方向改同一段逻辑；等到 Git 层面出现代码冲突时，返工成本已经产生，且冲突背后是意图分歧而非文本分歧，人工逐条比对意图代价高。
+  pain_en: When multiple coding agents edit the same repository in parallel, each sees only local context
+    and may change the same logic in opposite directions; by the time a Git-level code conflict appears,
+    rework cost is already incurred, and the conflict is about divergent intent rather than text, making
+    manual intent-by-intent comparison expensive.
+  current_alternative: 当前替代方式是让 agent 串行工作、人工在 PR 评审时发现方向冲突，或依赖 Git 的文本级 merge 与冲突标记，这些手段只在代码层面暴露问题，无法在意图层面提前拦截。
+  current_alternative_en: Current alternatives are serializing agents, catching direction conflicts during
+    human PR review, or relying on Git's text-level merge and conflict markers, which surface problems
+    only at the code level and cannot intercept them at the intent level in advance.
+  usage_reason: 推断：相较串行 agent 或事后 PR 评审，Foremerge 要求各 agent 先提交修改意图，由协议在 Git 之上比对意图并标记冲突，把发现冲突的时点从合并后文本冲突提前到意图提交阶段，因此同时运行多个编码
+    agent 的团队会在并行开发场景下选择它。
+  usage_reason_en: 'Inference: compared with serializing agents or post-hoc PR review, Foremerge requires
+    each agent to submit its intent first, and the protocol compares intents above Git and flags conflicts,
+    moving conflict discovery from post-merge text conflicts to the intent-submission stage, so teams
+    running multiple coding agents in parallel would choose it in parallel-development scenarios.'

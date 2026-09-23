@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/gg-friggin-ez
 summary: Fast & free profanity and toxicity screening via Jev & Laya
 first_seen: '2026-09-20T01:38:42Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

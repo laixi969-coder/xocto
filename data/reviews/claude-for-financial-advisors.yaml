@@ -256,3 +256,52 @@
     existing systems, one manual export-and-paste step disappears, so advisors already inside the Claude
     ecosystem may try it first; without pricing, customer cases or repeat-use evidence, long-term retention
     in the workflow cannot be judged.'
+- id: req-full-claude-for-financial-advisors-2026-09-23
+  project_slug: claude-for-financial-advisors
+  level: full
+  reviewed_at: '2026-09-23T01:09:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决顾问把分散在多个系统的持仓与客户数据汇总成可交付材料的任务：旧做法是手工导出、粘贴进模板再逐份撰写，重复搬运且易出错。公开材料已能还原输入—连接器取数—预置工作流—顾问复核的闭环，属工作流结构推理，痛点强度仍待用户材料补强。
+    evidence_ids:
+    - ev-99cf2e5e82a74bb8
+    - ev-093f0c4b76740cea
+  - gate: consensus
+    status: insufficient
+    reason: 英文生态仅显示 supply_status 为 emerging，中文生态在覆盖来源内未发现；没有顾问社区讨论、客户案例或采用数据，无法判断是否形成使用共识，关注度不等于持续采用。
+    evidence_ids:
+    - ev-6e29a3ebca2e9bd1
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有该插件的定价页、买方描述或收费方式，无法判断钱来自顾问个人、机构采购还是模型厂商补贴；这是判断，不是已验证事实，也不影响价值关结论。
+    evidence_ids:
+    - ev-2e6a1d04f9348492
+  - gate: truth
+    status: insufficient
+    reason: 无法核对连接器实际接入哪些系统、输出是否可直接交付、合规与人工复核边界如何设定；金融场景对准确性与留痕要求高，交付确定性尚缺可复现公开证据。
+    evidence_ids:
+    - ev-c4953eb5fd2b33de
+  next_validation: 追踪该插件的官方说明或部署文档，确认接入哪些第三方数据源、输出什么交付物以及是否标注定价。
+  market: ''
+  job: 理财顾问在为客户准备会议、整理投资组合或撰写沟通材料时，打开 Claude Cowork 插件，通过第三方连接器读取持仓与客户数据，按预置工作流生成可直接使用的分析与说明材料，最终由顾问本人核对确认。
+  job_en: A financial advisor preparing client meetings, portfolio reviews or written communication opens
+    the Claude Cowork plugin, pulls holdings and client data through third-party connectors, and generates
+    usable analysis and explanatory material via preset workflows, with the advisor doing final review.
+  pain: 公开材料只说明插件提供预置工作流并接入第三方连接器，未披露顾问原先在哪一步手工耗时、出错或返工；从工作流结构推理，跨系统汇总持仓与客户数据再套模板是重复性搬运，但痛点强度属推断而非用户口述。
+  pain_en: Public material only states the plugin offers preset workflows and third-party connectors;
+    it does not disclose which step advisors previously did by hand or where errors occurred. Structural
+    inference suggests cross-system consolidation of holdings and client data into templates is repetitive
+    manual transport, but pain intensity is inferred, not user-stated.
+  current_alternative: 公开材料未披露顾问此前用什么工具或流程完成同类工作；结构上可推断的旧做法是手工从多个系统导出数据、在表格与文档模板间复制粘贴，再逐份撰写客户材料。
+  current_alternative_en: Public material does not disclose what tools or process advisors previously
+    used; the structurally inferable old path is manually exporting data from several systems, copy-pasting
+    between spreadsheets and document templates, then writing each client document.
+  usage_reason: 推断：相较手工导出再粘贴进模板，插件通过连接器直接取到顾问日常系统里的持仓与客户数据并按预置工作流生成材料，省去跨系统搬运与重新排版的一步，因此已在 Claude 生态内、需要批量产出客户材料的顾问会先试用；缺少定价、客户案例与重复使用证据，无法判断是否长期留在工作流。
+  usage_reason_en: 'Inference: versus manual export-and-paste, the plugin pulls holdings and client data
+    from the advisor''s existing systems via connectors and generates material through preset workflows,
+    removing the cross-system transport and reformatting step, so advisors already inside the Claude ecosystem
+    who must produce client material at volume would try it first; without pricing, customer cases or
+    repeat-use evidence, long-term retention cannot be judged.'

@@ -1,6 +1,6 @@
 ---
 slug: verda-raises-189m-to-advance-its-ai-cloud-and-expand-compute
-name: Verda raises $189M to advance its AI cloud and expand compute capacity
+name: Verda
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Europeantechnology company Verda has raised $189 million in new funding
   AI cloud and expand its compute capacity. The financing includes anoversubscribed Series B led by Emergen...
 first_seen: '2026-09-22T08:03:36Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Verda raises $189M to advance its AI cloud and expand compute capacity
+# Verda
 
 Europeantechnology company Verda has raised $189 million in new funding to scale itsfull-stack AI cloud and expand its compute capacity. The financing includes anoversubscribed Series B led by Emergen...
 

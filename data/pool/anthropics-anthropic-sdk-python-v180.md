@@ -1,6 +1,6 @@
 ---
 slug: anthropics-anthropic-sdk-python-v180
-name: 'anthropics/anthropic-sdk-python: v1.8.0'
+name: anthropic-sdk-python
 builder: anthropics
 category: ''
 summary_zh: ''
@@ -83,7 +83,7 @@ summary: '## 1.8.0 (2026-09-22)
   * **client:** remove the request param transform in favour of the JSON encoder ([539422c](https://github.com/anthropics/anthropic-sdk-python/commit/539422cde127564a60d9bf1e700445f39e0cff33))'
 first_seen: '2026-09-22T16:25:23Z'
 last_seen: '2026-09-23T00:34:19Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -95,7 +95,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.8.0
+# anthropic-sdk-python
 
 ## 1.8.0 (2026-09-22)
 

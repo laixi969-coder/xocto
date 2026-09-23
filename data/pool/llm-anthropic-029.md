@@ -1,6 +1,6 @@
 ---
 slug: llm-anthropic-029
-name: llm-anthropic 0.29
+name: llm-anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: "Release:   llm-anthropic 0.29  \n         Adds support for  Claude Opu
   \ \"prompt goes here\"\n  \n    \n    \n         Tags:  llm ,  anthropic"
 first_seen: '2026-09-22T17:14:55Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# llm-anthropic 0.29
+# llm-anthropic
 
 Release:   llm-anthropic 0.29  
          Adds support for  Claude Opus 5.5 : 

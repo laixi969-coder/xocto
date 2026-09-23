@@ -353,3 +353,100 @@
     lets agents edit directly on an editable canvas, removing the rebuild step and letting agents and
     humans work in the same file; teams with an existing design system that need editable assets in volume
     would choose it in that situation. Without user feedback or cases, the motive remains an inference.'
+- id: req-initial-design-studio-ai-2026-09-23
+  project_slug: design-studio-ai
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决设计产出中 AI 代理协作的问题，但公开材料未说明替代了哪一步旧工作、谁在什么情况下必须用它，痛点与不采用的后果都写不出来。
+    evidence_ids:
+    - ev-acf21b60a86c86a7
+    - ev-13ea71c2e24428c9
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与社区讨论热度，属于关注度证据，没有用户评价、客户案例或重复使用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-acf21b60a86c86a7
+    - ev-13ea71c2e24428c9
+  - gate: model
+    status: insufficient
+    reason: 开源 MIT 项目，公开材料未披露定价、付费路径或买方，钱可能来自 to C 或 to B 均属推断，尚无已验证事实。
+    evidence_ids:
+    - ev-acf21b60a86c86a7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近设计工作的第一性目标、承诺能否确定性交付，也未说明人工确认与安全边界。
+    evidence_ids:
+    - ev-acf21b60a86c86a7
+    - ev-13ea71c2e24428c9
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它实际替代的设计工作流、输入输出格式与是否有用户报告重复使用。
+  market: ''
+  job: 设计师与前端工程师在需要产出可编辑的界面、3D 或动效素材时，把设计意图交给 AI 代理在云端画布上生成并修改，最终拿到可继续编辑的设计文件或代码产物。
+  job_en: Designers and front-end engineers hand design intent to AI agents that generate and revise on
+    a cloud canvas when they need editable interface, 3D or motion assets, ending up with a still-editable
+    design file or code artifact.
+  pain: 公开材料只列出云端编辑、3D、动效、MCP、CLI 与 BYOK 等功能，没有说明它替代了谁手工做的哪一步，也没有用户抱怨或旧流程描述，因此痛点无法确认。
+  pain_en: Public material only lists features such as cloud editing, 3D, motion, MCP, CLI and BYOK; it
+    does not say which manual step it replaces, and there are no user complaints or old-workflow descriptions,
+    so the pain point cannot be confirmed.
+  current_alternative: 公开材料未说明用户此前用什么工具或流程完成同类设计产出，替代关系不明。
+  current_alternative_en: Public material does not state what tools or process users previously used for
+    comparable design output, so the substitution relationship is unclear.
+  usage_reason: 无法判断：材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，仅凭功能清单和社区关注度不足以解释用户为何选择它（推断）。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of burden is reduced or which
+    checkable result improves versus the old way, and a feature list plus community attention is not enough
+    to explain why users would choose it (inference).'
+- id: req-full-design-studio-ai-2026-09-23
+  project_slug: design-studio-ai
+  level: full
+  reviewed_at: '2026-09-23T01:10:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计产出中 AI 代理与人类在同一可编辑画布上协作的需求，痛点在于生成结果与可编辑文件之间需人工搬运重建；公开材料给出云端编辑、3D、动效、MCP、CLI 与 BYOK 的输入—动作—交付闭环，属工作流结构推理，用户侧痛点证据仍缺。
+    evidence_ids:
+    - ev-acf21b60a86c86a7
+    - ev-13ea71c2e24428c9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 189 增至 207 属关注度证据，不能证明持续采用；公开材料没有用户评价、客户案例或重复使用信号，无法判断共识卡在感知、想象、场景还是利益哪一环。
+    evidence_ids:
+    - ev-c357c95da42753da
+    - ev-13ea71c2e24428c9
+  - gate: model
+    status: insufficient
+    reason: MIT 开源项目，公开材料未披露定价、付费路径或买方，钱可能来自 to C 或 to B 均属推断，尚无已验证的付费事实，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-acf21b60a86c86a7
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料核对它是否贴近设计工作的第一性目标、承诺能否确定性交付，也未说明人工确认与安全边界；仅有功能清单与星标，交付确定性未获证据支持。
+    evidence_ids:
+    - ev-acf21b60a86c86a7
+    - ev-13ea71c2e24428c9
+  next_validation: 追踪该开源仓库的 README、issue 与 discussion，确认它实际替代的设计工作流、输入输出格式，以及是否有用户报告重复使用或付费部署。
+  market: ''
+  job: 设计师或前端工程师在需要产出可编辑的界面、3D 或动效素材时，把设计意图交给 AI 代理在云端画布上生成并修改，最终拿到可继续编辑的设计文件或代码产物，再经人工确认后交付。
+  job_en: Designers or front-end engineers hand design intent to AI agents that generate and revise on
+    a cloud canvas when they need editable interface, 3D or motion assets, ending up with a still-editable
+    design file or code artifact that a human confirms before delivery.
+  pain: 公开材料只列出云端编辑、3D、动效、MCP、WebMCP、CLI 与 BYOK 等能力，未说明替代了哪一步手工流程，也没有用户抱怨或旧流程描述，痛点强度只能从工作流结构推断，缺少用户侧证据。
+  pain_en: Public material only lists capabilities such as cloud editing, 3D, motion, MCP, WebMCP, CLI
+    and BYOK; it does not say which manual step is replaced, and there are no user complaints or old-workflow
+    descriptions, so pain intensity can only be inferred from workflow structure, not user-side evidence.
+  current_alternative: 公开材料未写明用户此前用什么工具或流程完成同类设计产出，替代关系不明；按工作流结构推断，旧做法可能是本地设计工具加人工在 AI 生成结果与可编辑文件之间来回搬运。
+  current_alternative_en: Public material does not state what tools or process users previously used for
+    comparable design output, so the substitution relationship is unclear; by workflow inference, the
+    old way may be local design tools plus manual shuttling between AI output and editable files.
+  usage_reason: 推断：相较旧做法，它把 AI 代理直接放进云端画布，通过 MCP/WebMCP/CLI 让代理读写同一份可编辑产物，减少人工在生成结果与设计文件之间复制、重建图层这一步负担，因此需要可继续编辑产物的设计师或前端工程师会在该情况下选择它；尚无用户反馈或客户案例证实这一动机。
+  usage_reason_en: 'Inference: versus the old way, it puts AI agents directly on a cloud canvas and lets
+    them read and write the same editable artifact via MCP/WebMCP/CLI, reducing the manual step of copying
+    and rebuilding layers between generated output and design files, so designers or front-end engineers
+    who need a still-editable artifact would choose it in that situation; no user feedback or customer
+    case yet confirms this motive.'

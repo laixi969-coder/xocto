@@ -1,0 +1,84 @@
+- id: req-initial-walkie-2026-09-23
+  project_slug: walkie
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口述、会议记录与朗读分散在三款工具、且云端上传令人顾虑的问题，旧行为明确，属于工作流推理。
+    evidence_ids:
+    - ev-b8782ef762c0d860
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，没有用户评价、社区讨论或采用规模，尚看不出哪类人真的把它放进日常。
+    evidence_ids:
+    - ev-b8782ef762c0d860
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，本地处理可能支撑按席位或按转写量收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b8782ef762c0d860
+  - gate: truth
+    status: insufficient
+    reason: 设备端处理与合并功能是公开事实，但转写准确率、朗读质量与人工校对边界均无材料可核。
+    evidence_ids:
+    - ev-b8782ef762c0d860
+  next_validation: 收集 Walkie 官方定价页或客户案例，确认其是否公开按席位/按转写量收费及实际付费方。
+  market: ''
+  job: 文字工作者、咨询或管理岗位的人在写稿、开会或需要把文档念出来时，把口述内容、会议语音或文本交给应用，要拿到可直接使用的文字稿或音频。
+  job_en: Writers, consultants or managers drafting, sitting in meetings or needing documents read aloud
+    hand dictated speech, meeting audio or text to the app and expect usable transcripts or audio back.
+  pain: 口述、会议记录和朗读分散在不同工具里，切换成本高；把会议录音上传到云端又让对内容敏感的人不放心。
+  pain_en: Dictation, meeting notes and read-aloud sit in separate tools, so switching costs are high,
+    and uploading meeting audio to the cloud worries people handling sensitive content.
+  current_alternative: 系统自带听写、单独的会议转写服务、以及另一款朗读工具，三套订阅或三套免费额度拼起来用。
+  current_alternative_en: Built-in OS dictation, a separate meeting-transcription service and yet another
+    read-aloud tool, stitched together from three subscriptions or free tiers.
+  usage_reason: 推断：相较三款工具来回切换，它把采集、转写和朗读放在同一个本地应用里，省掉导出与上传这一步，对录音不便外传的岗位更有吸引力；但公开材料未给出定价、客户案例或重复使用数据，长期留存尚无法确认。
+  usage_reason_en: 'Inference: versus switching among three tools, it keeps capture, transcription and
+    read-aloud in one local app, removing the export-and-upload step, which appeals to roles that cannot
+    send recordings off-device; no pricing, customer case or repeat-use data is public, so retention cannot
+    be confirmed.'
+- id: req-full-walkie-2026-09-23
+  project_slug: walkie
+  level: full
+  reviewed_at: '2026-09-23T01:12:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决口述、会议记录与朗读分散在多款工具的问题，但全部证据都是实体对讲机商品页，与该应用无关，用户任务、痛点强度与不采用的后果均无公开事实支撑。
+    evidence_ids:
+    - ev-fa447e9745c245d9
+    - ev-077736c2e42d707e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Walkie 官方产品页或应用商店页面，核验其定价、功能边界与用户评价，确认证据是否确实指向该听写应用而非同名实体商品。
+  market: ''
+  job: 文字工作者或会议密集岗位的人在写稿、开会或需要把文档念出来时，把口述内容、会议语音或文本交给应用，要拿到可直接使用的文字稿或音频。
+  job_en: Writers or meeting-heavy staff drafting, sitting in meetings or needing documents read aloud
+    hand dictated speech, meeting audio or text to the app and expect usable transcripts or audio back.
+  pain: 公开证据里没有任何一条来自该产品本身：既没有用户对口述、会议记录或朗读分散在多款工具里的抱怨，也没有云端上传顾虑的表述，痛点只能靠推测。
+  pain_en: 'No evidence comes from the product itself: there is no user complaint about dictation, meeting
+    notes and read-aloud being split across tools, nor any stated concern about cloud uploads, so the
+    pain is only conjectural.'
+  current_alternative: 公开材料未提供该产品用户的原有做法，无法确认此前是系统听写、独立转写服务还是其他朗读工具。
+  current_alternative_en: Public material gives no prior workflow for this product's users, so it is unclear
+    whether they used OS dictation, a standalone transcription service or another read-aloud tool.
+  usage_reason: 推断：若此前需在三款工具间切换，本地一体化可省去导出与上传；但现有证据全部是实体对讲机商品页，与该应用无关，无法支撑任何采用动机。
+  usage_reason_en: 'Inference: if users previously switched among three tools, a local all-in-one could
+    remove the export-and-upload step; but all current evidence is physical walkie-talkie listings unrelated
+    to the app, so no adoption motive can be supported.'

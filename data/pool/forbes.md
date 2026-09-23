@@ -3,12 +3,12 @@ slug: forbes
 name: Meta Muse
 builder: simianwords
 category: ''
-summary_zh: 亚马逊阻止 Meta 新推出的 Muse AI 购物代理在 amazon.com 上购物。这一平台封堵表明，电商平台正以访问控制限制第三方 AI 代理直接完成交易，AI 购物代理的落地将更依赖与平台的接入协议，短期内采用和交付面临渠道摩擦。
+summary_zh: 2026年9月，亚马逊阻止Meta新推出的Muse AI代理在amazon.com上购物。这一平台层面的封禁表明，电商平台正对第三方AI购物代理设置准入壁垒，AI代理在零售场景的落地将受制于平台政策，可能推高代理式购物的集成成本并改变竞争格局。
 inspiration: ''
-summary_en: Amazon blocked Meta's newly launched Muse AI agent from shopping on amazon.com. The platform
-  block shows e-commerce sites using access control to stop third-party AI agents from completing transactions
-  directly, meaning AI shopping agents will depend more on platform access agreements and face channel
-  friction in near-term adoption and delivery.
+summary_en: In September 2026, Amazon blocked Meta's newly launched Muse AI agent from shopping on amazon.com.
+  This platform-level block shows that e-commerce platforms are erecting access barriers against third-party
+  AI shopping agents, meaning agent deployment in retail will be constrained by platform policy, potentially
+  raising integration costs for agentic shopping and reshaping competition.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +24,7 @@ canonical_url: https://forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-meta
 summary: Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com
 first_seen: '2026-09-21T17:00:23Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

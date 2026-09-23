@@ -1,6 +1,6 @@
 ---
 slug: vc-pe周报-a16z募资11亿美元押注ai基础设施sharpa获互联网巨头超45亿元联合投资
-name: a16z
+name: Andreessen Horowitz
 builder: ''
 category: ''
 summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhUk5QMDR5TFJQ
 summary: VC/PE周报｜a16z募资11亿美元押注AI基础设施；Sharpa获互联网巨头超45亿元联合投资 mrjjxw.com
 first_seen: '2026-08-31T09:17:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds
@@ -44,7 +44,7 @@ sightings:
   kind: news
 ---
 
-# a16z
+# Andreessen Horowitz
 
 VC/PE周报｜a16z募资11亿美元押注AI基础设施；Sharpa获互联网巨头超45亿元联合投资 mrjjxw.com
 

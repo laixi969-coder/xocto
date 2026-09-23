@@ -86,3 +86,53 @@
   usage_reason_en: 'Inference: versus manually syncing across tools, it places people''s and agents''
     tasks and outputs in one self-hosted space, removing a copy-paste and version-alignment step; without
     user feedback or cases, which users would choose it remains inference.'
+- id: req-full-nautilo-2026-09-23
+  project_slug: nautilo
+  level: full
+  reviewed_at: '2026-09-23T01:11:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人多代理围绕同一份代码与文档协作的需求，痛点是代理产出散落、人工同步与版本对齐重复发生；自托管 MIT 开源使交付形态可确定，但痛点与旧流程属工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-130c907b2c795a27
+    - ev-735912af125ce598
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库星标从 47 增至 54，属关注度信号，不能说明团队已把它放进日常工作流；公开材料未给出使用、留存或复购证据。
+    evidence_ids:
+    - ev-130c907b2c795a27
+    - ev-735912af125ce598
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且自托管，未见定价、付费或采购路径，钱可能来自企业自托管支持或纯社区投入，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-130c907b2c795a27
+  - gate: truth
+    status: insufficient
+    reason: 未提供部署文档、权限边界或人工确认机制，承诺能否确定性交付无法核对；自托管与多代理并行也带来安全与人工边界问题待公开材料说明。
+    evidence_ids:
+    - ev-130c907b2c795a27
+    - ev-735912af125ce598
+  next_validation: 收集 nautilo 官方仓库的 README、部署文档与 issue/discussion，确认其实际支持的人机协作流程、权限与交付边界。
+  market: ''
+  job: 多人团队在同一个项目里同时运行多个 AI 代理处理代码与文档时，需要把任务、代理产出和人的修改集中到同一份材料上，让每个人和每个代理都能基于同一版本继续推进，最终由人确认交付物。
+  job_en: When a multi-person team runs several AI agents on code and documents in one project, it needs
+    tasks, agent outputs and human edits gathered onto the same material so every person and agent continues
+    from one version, with a human confirming the final deliverable.
+  pain: 公开材料只说明这是自托管的人机协作空间，未说明此前谁在用什么方式协作、哪一步最费时或最易出错；痛点只能从工作流结构推断：代理产出散落在本地编辑器、聊天记录和代码仓库之间，人工同步与版本对齐是重复负担，此条为推理而非用户口述。
+  pain_en: 'The public material only describes a self-hosted human-machine workspace and does not say
+    who previously collaborated how or which step was slowest or most error-prone; the pain is inferred
+    from workflow structure: agent output scattered across local editors, chat logs and repositories makes
+    manual syncing and version alignment a recurring burden, which is inference, not user testimony.'
+  current_alternative: 可推断的旧做法是各自在本地编辑器、聊天工具和代码仓库之间手动搬运代理产出并人工对齐版本；候选材料未提供任何用户描述或替代行为证据，此条为推断。
+  current_alternative_en: The inferable old practice is manually shuttling agent output between local
+    editors, chat tools and code repositories and aligning versions by hand; the candidate provides no
+    user account or substitute-behaviour evidence, so this is inference.
+  usage_reason: 相较手动在多个工具间搬运与对齐版本，它把人和代理的任务与产出放进同一个自托管空间，减少一次复制粘贴和版本对齐动作，因此在意数据自托管、又需要多代理并行产出的团队会在项目协作时选择它；缺少用户反馈或案例，此因果判断为推断。
+  usage_reason_en: Compared with manually shuttling and aligning versions across tools, it places people's
+    and agents' tasks and outputs in one self-hosted space, removing a copy-paste and version-alignment
+    step, so teams that care about self-hosting data while running parallel agents would choose it during
+    project collaboration; without user feedback or cases this causal claim is inference.

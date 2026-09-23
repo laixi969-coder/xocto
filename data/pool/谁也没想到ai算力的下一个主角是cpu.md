@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5FdTN3LTFlN3BG
 summary: 谁也没想到，AI算力的下一个主角是CPU 36kr.com
 first_seen: '2026-09-22T06:38:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

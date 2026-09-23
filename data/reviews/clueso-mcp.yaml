@@ -1,0 +1,91 @@
+- id: req-initial-clueso-mcp-2026-09-23
+  project_slug: clueso-mcp
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决视频修改依赖时间线和剪辑师排期的问题，但公开材料只有一句功能描述，说不清输入材料、可编辑范围与交付形态，痛点强度无法判断。
+    evidence_ids:
+    - ev-87b9044203e340c9
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价、采用数据或社区讨论，无法判断是否形成使用场景。
+    evidence_ids:
+    - ev-87b9044203e340c9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 团队采购与个人订阅路径不同，属判断而非已验证事实。
+    evidence_ids:
+    - ev-87b9044203e340c9
+  - gate: truth
+    status: insufficient
+    reason: 对话式剪辑能否确定性交付可用成片、人工确认边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-87b9044203e340c9
+  next_validation: 收集 Clueso 官方定价页或客户案例，确认输入材料、可编辑范围与成片交付标准。
+  market: ''
+  job: 企业视频内容运营和营销视频制作人在需要快速出片时，通过对话提出剪辑与修改要求，完成一条可发布的视频。
+  job_en: Corporate video operators and marketing producers need a publishable video quickly and use chat
+    to request cuts and revisions.
+  pain: 视频修改依赖时间线软件和剪辑师排期，小改动也要走一轮沟通与返工，出片周期长。
+  pain_en: Video revisions depend on timeline software and editor scheduling, so even small changes require
+    a round of communication and rework, lengthening turnaround.
+  current_alternative: 现在用 Premiere、剪映等时间线工具自己剪，或把需求交给剪辑师排期处理。
+  current_alternative_en: Today they cut it themselves in timeline tools such as Premiere or CapCut, or
+    hand requirements to an editor and wait for scheduling.
+  usage_reason: 相较时间线操作和剪辑师排期，它把修改要求变成对话指令直接执行，可能省掉一次沟通返工；但公开材料未说明可编辑范围与成片质量，这是推断，尚无采用证据。
+  usage_reason_en: Compared with timeline work and editor scheduling, it turns revision requests into
+    chat instructions executed directly, potentially removing one round of rework; however the public
+    material does not describe editable scope or output quality, so this is inference with no adoption
+    evidence.
+- id: req-full-clueso-mcp-2026-09-23
+  project_slug: clueso-mcp
+  level: full
+  reviewed_at: '2026-09-23T01:09:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把原始屏幕录制快速变成可发布产品视频与分步文档的需求，痛点是脚本、剪辑、排版耗时数小时且小改动需返工；官方称可缩到几分钟，旧替代是时间线软件或剪辑师排期。这是工作流结构推理，尚无采用数据。
+    evidence_ids:
+    - ev-b86c92304abb9390
+    - ev-dc8299460ae77460
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方产品说明，没有用户评价、社区讨论或采用数据，无法判断是否已形成稳定使用场景；维基条目指向同名音乐人，与产品无关。
+    evidence_ids:
+    - ev-b86c92304abb9390
+    - ev-cd01481fe291d22b
+  - gate: model
+    status: insufficient
+    reason: 证据中未见真实定价页内容，买方是 to B 团队采购还是个人订阅无法确认，属判断而非已验证事实；但价值关已成立，不因此取消判定。
+    evidence_ids:
+    - ev-d2d414c453979b2c
+  - gate: truth
+    status: insufficient
+    reason: 对话式编辑能否确定性交付可用成片、可编辑范围与人工确认边界，公开材料均未说明，需部署文档或实测才能核对交付确定性。
+    evidence_ids:
+    - ev-b86c92304abb9390
+  next_validation: 追踪 Clueso 官网定价页与客户案例页面，确认输入材料、可编辑范围、成片交付标准及实际付费方。
+  market: ''
+  job: 企业视频内容运营或营销视频制作人拿到一段原始屏幕录制后，需要把它变成可发布的产品演示视频、培训视频或分步操作文档，用于官网、客户支持和内部培训。
+  job_en: A corporate video operator or marketing producer takes a raw screen recording and must turn
+    it into a publishable product demo, training video, or step-by-step documentation for the website,
+    customer support, or internal training.
+  pain: 公开材料称脚本撰写、剪辑和排版通常要花数小时；旧流程里小改动也要回到时间线软件或等剪辑师排期，出片周期长、返工沟通多。
+  pain_en: Public material states scripting, editing, and formatting typically take hours; in the old
+    workflow even small changes require returning to timeline software or waiting for an editor's schedule,
+    lengthening turnaround and adding rework communication.
+  current_alternative: 用 Premiere、剪映等时间线工具自己剪，或把需求交给剪辑师排期处理，再单独写文档。
+  current_alternative_en: Cut it themselves in timeline tools such as Premiere or CapCut, or hand requirements
+    to an editor and wait for scheduling, then write the documentation separately.
+  usage_reason: 相较时间线逐帧操作和剪辑师排期，它把原始录屏直接转成带 AI 配音、一键翻译的成片与分步文档，省掉脚本撰写、排版和一轮返工沟通；需要频繁出产品演示或 SOP 的运营与制作人会在这种情况下选择它。这是基于产品能力与旧流程的结构推理，尚无采用或留存证据。
+  usage_reason_en: Compared with frame-by-frame timeline work and editor scheduling, it converts raw recordings
+    directly into finished videos with AI voiceovers and one-click translation plus step-by-step docs,
+    removing scripting, formatting, and one round of rework communication; operators and producers who
+    frequently ship demos or SOPs would choose it in that situation. This is structural inference from
+    product capability and the old workflow, with no adoption or retention evidence yet.

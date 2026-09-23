@@ -266,3 +266,51 @@
     code and a runnable project result into a level path, cutting the setup and project-structure blockers
     for beginners, so it would be chosen when someone wants a first runnable project fast; public materials
     contain no user feedback or retention evidence for this motive.'
+- id: req-full-agent-isles-2026-09-23
+  project_slug: agent-isles
+  level: full
+  reviewed_at: '2026-09-23T01:08:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决初学者学 AI 编程时先卡环境与语法、迟迟做不出可运行项目的问题，痛点刚性来自学习路径的成果闭环缺失；公开说明已能还原输入任务描述、智能体生成代码、交付可运行项目的闭环，属工作流结构推理，尚无用户抱怨或放弃率量化证据。
+    evidence_ids:
+    - ev-ab06d8fc6da08bbf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 119 增至 300，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明初学者把它留在学习流程里；缺少 issue、discussion 或用户评价说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-ab06d8fc6da08bbf
+    - ev-011abe4fc761d22d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 学习者订阅、to B 培训机构采购或 to VC 融资，均属判断而非已验证事实；开源仓库形态下付费路径尤其不明。
+    evidence_ids:
+    - ev-ab06d8fc6da08bbf
+  - gate: truth
+    status: insufficient
+    reason: 课程体系、关卡完成度与智能体生成代码能否稳定产出可运行项目，公开材料未给出可复现验证；DeepSeek Harness 的调用成本与人工纠错边界也未披露，交付确定性待核。
+    evidence_ids:
+    - ev-ab06d8fc6da08bbf
+  next_validation: 追踪 agent-isles 仓库的 README、issue 与 discussion，确认关卡课程体系、智能体生成项目的可复现结果，以及是否出现定价或培训机构采购信息。
+  market: ''
+  job: 想学 AI 编程的初学者在浏览器里进入可探索的岛屿世界，按关卡把任务描述交给 AI 智能体，处理代码生成与调试材料，最终拿到一个可运行的小项目作为学习成果。
+  job_en: Beginner AI-coding learners enter an explorable island world in the browser, hand task descriptions
+    to AI agents level by level, work with generated code and debugging material, and end up with a runnable
+    small project as the learning outcome.
+  pain: 初学者在传统教程里先啃语法和配置，环境搭建与报错排查往往在做出第一个可运行项目之前就劝退；公开材料只说明产品用关卡与智能体降低这一摩擦，尚未给出用户抱怨或放弃率数据，痛点强度属工作流结构推理。
+  pain_en: In conventional tutorials beginners grind syntax and setup first, and environment or error
+    handling often drives them off before a first runnable project exists; public material only shows
+    the product using levels and agents to cut that friction, with no complaint or dropout data, so pain
+    intensity is a workflow inference.
+  current_alternative: 现有替代是视频课程、文档教程、在线编程练习平台，或直接让通用聊天式编程助手生成代码片段；这些路径要么缺少可运行成果的闭环，要么缺少循序渐进的关卡结构。
+  current_alternative_en: Current alternatives are video courses, documentation tutorials, online coding-exercise
+    platforms, or asking a general chat-based coding assistant for snippets; these either lack a runnable-outcome
+    loop or lack a graded level structure.
+  usage_reason: 推断：相较看教程再自己配环境，产品把任务描述直接交给智能体并返回可运行项目，省掉从零搭建与逐行抄写这一步，因此会在想先做出成果再理解原理的初学者场景中被选择；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus watching a tutorial and configuring an environment alone, the product
+    hands the task description to an agent and returns a runnable project, removing the from-scratch setup
+    and line-by-line copying step, so beginners who want an outcome before theory would pick it; public
+    material has no user feedback confirming this motive.'

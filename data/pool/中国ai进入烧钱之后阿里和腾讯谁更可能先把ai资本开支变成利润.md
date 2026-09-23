@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFAyZ2JlOXRIS09K
 summary: 中国AI进入“烧钱之后”：阿里和腾讯，谁更可能先把AI资本开支变成利润？ 财富号
 first_seen: '2026-09-22T03:17:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

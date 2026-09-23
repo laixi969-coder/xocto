@@ -22,7 +22,7 @@ summary: Muse's Rise Signals the Next Phase of the AI Agent Economy, and Enterpr
   Attention marketscale.com
 first_seen: '2026-09-22T22:11:57Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

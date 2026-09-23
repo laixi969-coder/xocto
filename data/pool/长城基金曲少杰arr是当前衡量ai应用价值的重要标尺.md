@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE96WjZkTlJpbm9o
 summary: 长城基金曲少杰：ARR是当前衡量AI应用价值的重要标尺 新浪财经_金融信息服务商
 first_seen: '2026-09-22T18:20:25Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

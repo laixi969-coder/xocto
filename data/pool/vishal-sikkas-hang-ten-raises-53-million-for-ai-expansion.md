@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLVlUVVFDT1VN
 summary: Vishal Sikka’s Hang Ten Raises $53 Million for AI Expansion Whalesbook
 first_seen: '2026-09-16T19:20:55Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

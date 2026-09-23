@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aR0dzMjNXOHly
 summary: 梦饷科技发布“AI豆”，私域电商进入AI智能体时代 紫牛新闻
 first_seen: '2026-09-22T05:13:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

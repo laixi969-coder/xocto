@@ -1,6 +1,6 @@
 ---
 slug: wps组织级ai深耕山东重构企业办公生产力
-name: WPS组织级AI深耕山东，重构企业办公生产力
+name: WPS
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBISkdKYUVRLVFE
 summary: WPS组织级AI深耕山东，重构企业办公生产力 手机网易网
 first_seen: '2026-09-20T11:56:14Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -42,7 +42,7 @@ sightings:
   kind: news
 ---
 
-# WPS组织级AI深耕山东，重构企业办公生产力
+# WPS
 
 WPS组织级AI深耕山东，重构企业办公生产力 手机网易网
 

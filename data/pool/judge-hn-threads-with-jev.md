@@ -21,7 +21,7 @@ canonical_url: https://hnjudge.vercel.app
 summary: ''
 first_seen: '2026-09-21T15:54:34Z'
 last_seen: '2026-09-23T00:34:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

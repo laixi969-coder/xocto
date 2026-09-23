@@ -1,0 +1,87 @@
+- id: req-initial-videoflow-studio-2026-09-23
+  project_slug: videoflow-studio
+  level: initial
+  reviewed_at: '2026-09-23T00:34:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是创业公司没有视频团队却要出宣传片的需求，但公开材料只有一句输入网址得预告片，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-aea08076ea3ddbf2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布记录，没有用户评价、案例或重复使用信号，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-aea08076ea3ddbf2
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费信息，买方可能是创业公司市场预算，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-aea08076ea3ddbf2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对成片是否可直接投放、素材版权与人工确认边界，交付确定性未知。
+    evidence_ids:
+    - ev-aea08076ea3ddbf2
+  next_validation: 收集 VideoFlow Studio 官方定价页或公开成片案例，核对是否按条收费以及成片能否直接投放。
+  market: ''
+  job: 创业公司市场负责人或创始人在准备产品发布、融资或投放时，需要一条能对外发布的宣传片，手上只有公司官网和产品介绍材料。
+  job_en: A startup marketing lead or founder preparing a launch, fundraise or ad campaign needs a publishable
+    trailer, holding only the company website and product copy.
+  pain: 公开材料只说明输入网址得到预告片，没有说明它替代了哪一步旧工作、成片质量如何、是否需要重剪，痛点强度无法从现有事实判断。
+  pain_en: Public material only says a URL yields a trailer; it does not show which old step is replaced,
+    how good the output is, or whether re-editing is needed, so pain intensity cannot be judged from available
+    facts.
+  current_alternative: 旧做法通常是外包给剪辑师或使用通用视频模板工具，按条付费并经历多轮修改；这一替代路径在候选材料中未被提及，属于推断。
+  current_alternative_en: The old path is usually outsourcing to an editor or using generic video template
+    tools, paying per clip with revision rounds; this alternative is not mentioned in the candidate material
+    and is inference.
+  usage_reason: 推断：如果它真能从官网内容直接产出可投放的成片，就省去写脚本、找素材、初剪这几步，让没有视频团队的早期公司自己出片；但缺少成片质量与人工确认环节的公开证据，无法确认用户会持续选择它。
+  usage_reason_en: 'Inference: if it truly turns site content into a publishable clip, it removes scriptwriting,
+    asset sourcing and first-cut editing, letting early teams without video staff produce trailers themselves;
+    but public evidence on output quality and human review is missing, so continued adoption cannot be
+    confirmed.'
+- id: req-full-videoflow-studio-2026-09-23
+  project_slug: videoflow-studio
+  level: full
+  reviewed_at: '2026-09-23T01:12:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决创业公司没有视频团队却要出宣传片的需求，但公开材料只有一句输入网址得预告片，说不清替代了哪一步旧工作、成片质量与人工确认边界，痛点强度无法判断，属于自嗨拼凑。
+    evidence_ids:
+    - ev-aea08076ea3ddbf2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 VideoFlow Studio 官方定价页或公开成片案例，核对是否按条收费以及成片能否直接投放。
+  market: ''
+  job: 创业公司市场负责人或创始人在准备产品发布、融资或投放时，手上只有公司官网和产品介绍材料，需要一条能对外发布的宣传片。
+  job_en: A startup marketing lead or founder preparing a launch, fundraise or ad campaign, holding only
+    the company website and product copy, needs a publishable trailer.
+  pain: 公开材料只有一句“输入网址得到预告片”，没有说明它替代了哪一步旧工作、成片质量如何、是否需要重剪，痛点强度无法从现有事实判断。
+  pain_en: Public material only says a URL yields a trailer; it does not show which old step is replaced,
+    how good the output is, or whether re-editing is needed, so pain intensity cannot be judged from available
+    facts.
+  current_alternative: 旧做法通常是外包给剪辑师或使用通用视频模板工具，按条付费并经历多轮修改；这一替代路径在候选材料中未被提及，属于推断。
+  current_alternative_en: The old path is usually outsourcing to an editor or using generic video template
+    tools, paying per clip with revision rounds; this alternative is not mentioned in the candidate material
+    and is inference.
+  usage_reason: 推断：如果它真能从官网内容直接产出可投放的成片，就省去写脚本、找素材、初剪这几步，让没有视频团队的早期公司自己出片；但缺少成片质量与人工确认环节的公开证据，无法确认用户会持续选择它。
+  usage_reason_en: 'Inference: if it truly turns site content into a publishable clip, it removes scriptwriting,
+    asset sourcing and first-cut editing, letting early teams without video staff produce trailers themselves;
+    but public evidence on output quality and human review is missing, so continued adoption cannot be
+    confirmed.'

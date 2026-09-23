@@ -1,0 +1,84 @@
+- id: req-initial-primo-raises-8m-to-bring-autonomous-ai-agents-to-it-operatio-2026-09-23
+  project_slug: primo-raises-8m-to-bring-autonomous-ai-agents-to-it-operatio
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 IT 报障后的第一轮排查与处置需求，痛点是重复劳动与响应慢，旧做法是人工看工单日志，结构上成立。
+    evidence_ids:
+    - ev-3c972cde51f34650
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，未见客户名单、部署案例或运维人员公开反馈，采用共识无法确认。
+    evidence_ids:
+    - ev-3c972cde51f34650
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，企业 IT 部门或 IT 外包商谁付费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-3c972cde51f34650
+  - gate: truth
+    status: insufficient
+    reason: 代理可自动执行到哪一步、出错后的人工边界与安全约束均未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-3c972cde51f34650
+  next_validation: 收集 Primo 官方产品页或部署文档，确认其代理可自动执行的 IT 运维环节、人工确认边界与计价方式。
+  market: ''
+  job: 企业 IT 运维人员在员工报障或系统告警时，处理工单、日志和内部系统状态，要完成故障定位与恢复。
+  job_en: Corporate IT operations staff handle tickets, logs and internal system state when an employee
+    reports a fault or an alert fires, and must locate and resolve the incident.
+  pain: 一线排查高度重复、依赖个人经验，夜间和高峰期响应慢，处理过程难以留痕。
+  pain_en: First-line triage is highly repetitive and depends on individual experience, responses are
+    slow at night and at peak times, and the process is hard to audit.
+  current_alternative: 靠人工逐条看工单和日志，或使用传统 ITSM 与脚本自动化，规则要人预先写好。
+  current_alternative_en: Staff read tickets and logs one by one, or use traditional ITSM tools and scripted
+    automation whose rules must be written in advance.
+  usage_reason: 推断：相较人工逐条排查，代理直接读取工单与系统状态并执行排查动作，省掉第一轮人工定位这一步，因此缺少专职运维、又需要快速响应的团队会先试用它。
+  usage_reason_en: 'Inference: compared with manual ticket-by-ticket triage, the agents read tickets and
+    system state directly and carry out the diagnostic actions, removing the first manual locating step,
+    so teams without dedicated operations staff that still need fast response are the likely first adopters.'
+- id: req-full-primo-raises-8m-to-bring-autonomous-ai-agents-to-it-operatio-2026-09-23
+  project_slug: primo-raises-8m-to-bring-autonomous-ai-agents-to-it-operatio
+  level: full
+  reviewed_at: '2026-09-23T01:11:57Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据中 Primo Water、Primo Brands 为同名水品牌，其余为通用 AI 介绍页与检索占位，均未描述该 IT 代理产品的用户任务、痛点或替代方式，无法还原需求结构。
+    evidence_ids:
+    - ev-cb9de490d3ef92f5
+    - ev-6e058619405c6eb2
+    - ev-ff154e042651c336
+    - ev-b55c0aecd1cd15fd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Primo 官方产品页或部署文档，确认其 AI 代理在 IT 运维中可自动执行的具体环节、人工确认边界与计价方式。
+  market: ''
+  job: 企业 IT 运维或服务台人员在员工报障或例行巡检时，处理工单、告警与内部系统状态，要完成故障定位与处置。
+  job_en: Corporate IT operations or service-desk staff handle tickets, alerts and internal system state
+    when an employee reports a fault or during routine checks, and must locate and resolve the incident.
+  pain: 公开材料未提供任何关于该产品用户痛点的可引用事实，无法确认一线排查是否重复、响应是否慢。
+  pain_en: The public material provides no citable fact about this product's user pain, so it cannot be
+    confirmed whether first-line triage is repetitive or responses slow.
+  current_alternative: 公开材料未说明当前替代方式，无法确认是人工看工单日志还是传统 ITSM 工具。
+  current_alternative_en: The public material does not describe the current alternative, so it cannot
+    be confirmed whether staff read tickets and logs manually or use traditional ITSM tools.
+  usage_reason: 缺少可归因到该产品的用户反馈或案例，无法说明用户为何选择它；现有证据均为同名水品牌、通用 AI 介绍页或检索占位，不构成使用理由。
+  usage_reason_en: There is no user feedback or case attributable to this product to explain why users
+    would choose it; the evidence is a same-named water brand, generic AI pages or search placeholders,
+    which is not a usage reason.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRQjhpTk1maEVM
 summary: 从 AI 工具到经营智能体：快手分销增长 Agent 实践 InfoQ-CN
 first_seen: '2026-09-22T06:45:41Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

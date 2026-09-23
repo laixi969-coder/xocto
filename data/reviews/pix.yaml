@@ -247,3 +247,49 @@
   usage_reason_en: 'There is no public basis for why a user would choose it: no user feedback or case
     supports the motivation, and no checkable delivery outcome exists; one can only infer that a branch
     tree might cut manual session duplication, but that inference has no public evidence anchor.'
+- id: req-full-pix-2026-09-23
+  project_slug: pix
+  level: full
+  reviewed_at: '2026-09-23T01:11:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多步骤 AI agent 会话中分支探索与上下文保持的需求：线性会话走错或想比较方案时只能回退重来，上下文丢失或污染，用户被迫反复粘贴背景。公开仓库说明会话即树、分叉后上下文跟随分支，交付动作明确；这是工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-ed89bf37ede812f9
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 177 个收藏，说明开发者社区已注意到该项目，但收藏只属关注度证据，未见 issue、discussion 或用户评价说明目标用户是否把它留在日常编码工作流中持续使用。
+    evidence_ids:
+    - ev-ed89bf37ede812f9
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济说明，钱可能来自开发者个人订阅或团队席位，但这是判断而非已验证事实；买方与付费路径在公开材料中尚未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明分支与上下文跟随机制，未说明交付形态、人工确认环节与安全边界，也无可复现实测证明分叉后上下文确实不串扰、结果可确定交付。
+    evidence_ids:
+    - ev-ed89bf37ede812f9
+  next_validation: 追踪 PiX 仓库的 issue 与 discussion，确认是否有开发者描述在真实编码任务中分叉会话、替代了复制粘贴或另开会话的旧做法。
+  market: ''
+  job: 软件工程师或 AI 应用开发者在使用 AI agent 处理多步骤编码、调试或调研任务时，把一次会话交给 PiX，在任意节点分叉出并行分支，让每条分支各自携带对应上下文，从而同时推进多个方案而不互相污染。
+  job_en: A software engineer or AI application developer running a multi-step coding, debugging, or research
+    task with an AI agent hands the session to PiX, branches at any node, and lets each branch carry its
+    own context so several approaches can proceed in parallel without cross-contamination.
+  pain: 线性会话里一旦走错一步或想比较两种方案，只能回退重来或另开新会话，先前积累的上下文要么丢失要么被后续无关内容污染，用户被迫反复粘贴背景、重述约束，多方案探索的成本随步数线性上升。
+  pain_en: In a linear session, one wrong step or a wish to compare two approaches forces a rollback or
+    a fresh session; accumulated context is either lost or polluted by later unrelated turns, so users
+    re-paste background and restate constraints, and the cost of exploring multiple approaches grows with
+    every step.
+  current_alternative: 公开材料未直接描述旧做法，但从产品定位可推断：用户目前依赖单线程聊天会话，用复制粘贴、另开窗口或手工维护笔记来保留分支上下文。
+  current_alternative_en: Public materials do not describe the old workflow directly, but the product
+    positioning implies users currently rely on single-thread chat sessions, copying and pasting, opening
+    extra windows, or hand-maintained notes to preserve branch context.
+  usage_reason: 推断：相较复制粘贴或另开会话的旧做法，PiX 把会话本身组织成树，分叉时上下文自动跟随该分支，用户省去手工搬运背景和重述约束这一步，因此需要在同一任务上并行比较多个方案的开发者会在探索阶段选择它。
+  usage_reason_en: 'Inference: compared with copy-pasting or opening new sessions, PiX organizes the session
+    itself as a tree and lets context follow the branch automatically, removing the manual step of carrying
+    background over and restating constraints, so developers who need to compare several approaches on
+    one task would pick it during exploration.'

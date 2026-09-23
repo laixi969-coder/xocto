@@ -23,7 +23,7 @@ summary: At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real 
   to save up to $200.
 first_seen: '2026-09-22T15:00:00Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

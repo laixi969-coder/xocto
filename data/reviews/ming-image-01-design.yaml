@@ -1,0 +1,85 @@
+- id: req-initial-ming-image-01-design-2026-09-23
+  project_slug: ming-image-01-design
+  level: initial
+  reviewed_at: '2026-09-23T00:34:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决设计初稿生成，但材料未说明谁在什么环节卡住、不解决会怎样，痛点无法还原。
+    evidence_ids:
+    - ev-0acc97bfb3084fc0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区点赞，属于关注度信号，不能说明设计师已把它纳入工作流。
+    evidence_ids:
+    - ev-0acc97bfb3084fc0
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，无法判断钱从哪来，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0acc97bfb3084fc0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成结果是否可直接用于交付，也未说明人工确认边界与安全限制。
+    evidence_ids:
+    - ev-0acc97bfb3084fc0
+  next_validation: 收集该模型官方页面或仓库中的使用说明与示例输出，确认其输入格式、可编辑程度与是否已有设计团队公开采用案例。
+  market: ''
+  job: 设计师在接到 UI 稿、信息图或海报需求时，需要先产出符合版式的视觉初稿，再交给客户或团队评审。
+  job_en: When a designer receives a UI, infographic or poster brief, they need to produce a layout-appropriate
+    visual first draft before client or team review.
+  pain: 候选材料只给出模型定位，没有说明设计师当前在哪一步卡住、返工多少次或耗时多久，痛点无法从公开事实还原。
+  pain_en: The candidate material only states the model's positioning; it does not show where designers
+    currently get stuck, how many rounds of rework occur, or how long it takes, so the pain cannot be
+    reconstructed from public facts.
+  current_alternative: 公开材料未说明现有替代方式，按常识可能是通用文生图模型加手工排版，但这一点属于推断，未经材料支持。
+  current_alternative_en: The public material does not state the current alternative; by common practice
+    it may be generic text-to-image models plus manual layout, but this is inference and is not supported
+    by the material.
+  usage_reason: 材料未提供任何用户反馈、客户案例或重复使用证据，无法说明设计师为何会选择它而不是现有出图工具，因此缺少判断依据。
+  usage_reason_en: The material provides no user feedback, customer cases or repeat-use evidence, so it
+    cannot explain why a designer would choose it over existing image tools; the basis for judgement is
+    missing.
+- id: req-full-ming-image-01-design-2026-09-23
+  project_slug: ming-image-01-design
+  level: full
+  reviewed_at: '2026-09-23T01:11:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决设计初稿生成，但材料未说明谁在什么环节卡住、不解决会怎样，痛点无法还原。
+    evidence_ids:
+    - ev-0acc97bfb3084fc0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该模型 公开模型社区 Space 或官方仓库的更新，收集其示例输出、输入格式说明与是否出现设计团队公开采用案例。
+  market: ''
+  job: 设计师在接到 UI 稿、信息图或海报需求时，把文字描述交给模型生成对应版式的图像初稿，再人工调整细节后交付评审。
+  job_en: When a designer receives a UI, infographic or poster brief, they feed a text description to
+    the model to produce a layout-appropriate image draft, then manually refine details before review.
+  pain: 公开材料只有一句模型定位，未说明设计师当前在哪一步卡住、返工几轮或耗时多久，痛点无法从公开事实还原。
+  pain_en: The public material offers only a one-line model positioning and does not show where designers
+    currently get stuck, how many rework rounds occur, or how long it takes, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 公开材料未说明现有替代方式；按常见做法可能是通用文生图模型加手工排版，但这属于推断，未经材料支持。
+  current_alternative_en: The public material does not state the current alternative; by common practice
+    it may be generic text-to-image models plus manual layout, but this is inference unsupported by the
+    material.
+  usage_reason: 材料未提供任何用户反馈、客户案例或重复使用证据，无法说明设计师为何选择它而非现有出图工具，缺少判断依据。
+  usage_reason_en: The material provides no user feedback, customer cases or repeat-use evidence, so it
+    cannot explain why a designer would choose it over existing image tools; the basis for judgement is
+    missing.

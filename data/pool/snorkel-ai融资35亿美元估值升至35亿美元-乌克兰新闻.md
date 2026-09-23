@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OVG94bWNYV0x0
 summary: Snorkel AI融资3.5亿美元，估值升至35亿美元| 乌克兰新闻 Межа. Новини України.
 first_seen: '2026-09-22T10:16:00Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

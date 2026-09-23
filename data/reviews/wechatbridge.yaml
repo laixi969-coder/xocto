@@ -1,0 +1,87 @@
+- id: req-initial-wechatbridge-2026-09-23
+  project_slug: wechatbridge
+  level: initial
+  reviewed_at: '2026-09-23T00:34:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微信聊天记录难以取出并进入笔记与 AI 工作流的问题，旧做法是手工复制粘贴，痛点具体且可核对。
+    evidence_ids:
+    - ev-34464d721682343e
+  - gate: consensus
+    status: insufficient
+    reason: 有开源关注度，但没有用户评价或案例说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-34464d721682343e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，买方与付费方式无法确认。
+    evidence_ids:
+    - ev-34464d721682343e
+  - gate: truth
+    status: insufficient
+    reason: 未说明导出范围、隐私处理与人工确认边界，交付是否确定仍待核验。
+    evidence_ids:
+    - ev-34464d721682343e
+  next_validation: 收集该仓库的 issue 与讨论，核验导出范围、隐私处理方式及用户实际使用反馈。
+  market: ''
+  job: 个人用户或内容创作者把微信聊天记录导出并转发到 AI Agent 与 Obsidian，用于整理素材与归档
+  job_en: Individual users or content creators exporting WeChat chat records and forwarding them to an
+    AI Agent and Obsidian for organizing material and archiving
+  pain: 微信聊天记录封闭在应用内，手工复制粘贴到笔记或 AI 工具既费时又容易丢失上下文，长期归档难以维持。
+  pain_en: WeChat chat records are locked inside the app; manually copying them into notes or AI tools
+    is time-consuming, loses context, and makes long-term archiving hard to sustain.
+  current_alternative: 此前用户靠手工复制粘贴、截图或第三方导出脚本把聊天内容搬进笔记与 AI 工具。
+  current_alternative_en: Previously users relied on manual copy-paste, screenshots or third-party export
+    scripts to move chat content into notes and AI tools.
+  usage_reason: 推断：相较手工复制粘贴，该工具把导出与投递合并为一步，省去逐条搬运和格式整理，因此需要长期归档对话的内容创作者或研究者会在整理素材时选择它；但缺少留存与重复使用证据。
+  usage_reason_en: 'Inference: compared with manual copy-paste, the tool merges export and delivery into
+    one step, removing item-by-item transfer and format cleanup, so content creators or researchers who
+    archive conversations long-term would choose it when organizing material; retention and repeat-use
+    evidence is missing.'
+- id: req-full-wechatbridge-2026-09-23
+  project_slug: wechatbridge
+  level: full
+  reviewed_at: '2026-09-23T01:12:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微信聊天记录难以取出并进入笔记与 AI 工作流的问题，旧做法是手工复制粘贴或截图，痛点具体、不采用则上下文丢失且归档难维持；这是基于产品定位与旧流程的结构推理，尚无用户抱怨原文。
+    evidence_ids:
+    - ev-34464d721682343e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 256 星说明开发者关注度，但没有用户评价、客户案例或可归因到该工具的使用数据，无法判断谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-34464d721682343e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、赞助或商业路径，收入来自个人订阅、团队采购还是捐赠无法确认；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-34464d721682343e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明导出范围、隐私处理与人工确认边界，聊天记录属敏感数据，交付是否确定发生仍缺少可核对依据。
+    evidence_ids:
+    - ev-34464d721682343e
+  next_validation: 追踪该仓库的 issue 与 discussion，核验导出范围、隐私处理方式及用户实际使用反馈。
+  market: ''
+  job: 个人用户或内容创作者在 macOS 上整理微信对话素材时，把聊天记录导出并投递到 AI Agent 与 Obsidian，用于素材整理与长期归档。
+  job_en: Individual users or content creators on macOS export chat records and deliver them into an AI
+    Agent and Obsidian for material organization and long-term archiving.
+  pain: 微信聊天记录封闭在应用内，手工复制粘贴到笔记或 AI 工具费时且丢失上下文，长对话归档难以维持；这是从产品定位与旧流程推出的结构判断，尚无用户抱怨原文。
+  pain_en: WeChat chat records are locked inside the app; manual copy-paste into notes or AI tools is
+    time-consuming and loses context, making long-conversation archiving hard to sustain; this is a structural
+    inference from the product positioning and prior workflow, not user complaint text.
+  current_alternative: 此前用户靠手工复制粘贴、截图或第三方导出脚本把聊天内容搬进笔记与 AI 工具。
+  current_alternative_en: Previously users relied on manual copy-paste, screenshots or third-party export
+    scripts to move chat content into notes and AI tools.
+  usage_reason: 推断：相较逐条复制粘贴，该工具把导出与投递合并为一步，省去搬运和格式整理，因此需要长期归档对话的内容创作者或研究者会在整理素材时选择它；仓库 256 星只说明关注度，缺少留存与重复使用证据。
+  usage_reason_en: 'Inference: compared with item-by-item copy-paste, the tool merges export and delivery
+    into one step, removing transfer and format cleanup, so content creators or researchers who archive
+    conversations long-term would choose it when organizing material; the 256 stars only show attention,
+    and retention or repeat-use evidence is missing.'

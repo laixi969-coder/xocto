@@ -1,0 +1,96 @@
+- id: req-initial-gamindo-raises-14m-to-make-corporate-training-more-interacti-2026-09-23
+  project_slug: gamindo-raises-14m-to-make-corporate-training-more-interacti
+  level: initial
+  reviewed_at: '2026-09-23T00:34:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业把自有制度材料转成员工会完成的互动培训这一需求，痛点是员工不看完、培训部门无法证明内容被消化，旧做法是外包做课或发 PDF 自学；买方与付费路径公开材料未说明。
+    evidence_ids:
+    - ev-45d717a956e12e62
+  - gate: consensus
+    status: insufficient
+    reason: 只有一笔种子轮融资报道，没有客户名单、使用量或培训完成率等采用证据，无法判断企业是否已把它放进常规培训流程。
+    evidence_ids:
+    - ev-45d717a956e12e62
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计价方式或买方是培训部门还是 HR 预算，钱从哪来只能推断为 to B，属判断而非已验证事实。
+    evidence_ids:
+    - ev-45d717a956e12e62
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 具体接收什么、生成什么，也未说明课程是否需人工审核；培训内容涉及合规准确性，人工确认边界不明。
+    evidence_ids:
+    - ev-45d717a956e12e62
+  next_validation: 收集 Gamindo 官方定价页或公开客户案例，确认其计价方式与是否有企业实际部署的培训完成数据。
+  market: ''
+  job: 企业培训或合规团队在年度合规、入职培训到期时，把已有的制度文档、PPT 和视频材料交给平台，转成员工需要完成的互动式培训并拿到完成情况。
+  job_en: Corporate training or compliance teams, when annual compliance or onboarding training comes
+    due, hand existing policy documents, slide decks and videos to the platform to be converted into interactive
+    training employees must complete, and obtain completion records.
+  pain: 旧做法是把文档丢给员工自学或让内部讲师重复讲，员工不看完、不记住，培训部门也无法证明内容被消化；把材料改成互动课程通常要外包或买现成课程，周期长且与自家制度脱节。
+  pain_en: The old approach is to send documents out for self-study or have internal trainers repeat sessions,
+    so employees skim and forget, and the training team cannot show the material was absorbed; converting
+    material into interactive courses usually means outsourcing or buying off-the-shelf courses, which
+    is slow and disconnected from the company's own policies.
+  current_alternative: 用通用课件工具或外包课程制作，或直接发 PDF 加一次线下宣讲；部分公司用 LMS 自带测验，但内容仍需人工改写。
+  current_alternative_en: Generic authoring tools or outsourced course production, or simply distributing
+    PDFs plus one live briefing; some companies use LMS quizzes, but the content still has to be rewritten
+    by hand.
+  usage_reason: 推断：相较外包做课或人工改写，它把“把制度文档改写成互动课程”这一步交给平台自动完成，培训团队不必再逐页重写脚本，因此材料更新频繁、又缺少课程设计人力的合规与入职培训团队会在制度改版或年审前选择它；公开材料未给出客户案例或留存数据，实际减少的工时无法核对。
+  usage_reason_en: 'Inference: compared with outsourcing course production or manual rewriting, it moves
+    the step of turning policy documents into interactive courses onto the platform, so training teams
+    no longer rewrite scripts page by page; compliance and onboarding teams whose material changes often
+    and who lack instructional-design staff would choose it before a policy revision or annual review.
+    Public material gives no customer cases or retention data, so the actual hours saved cannot be v'
+- id: req-full-gamindo-raises-14m-to-make-corporate-training-more-interacti-2026-09-23
+  project_slug: gamindo-raises-14m-to-make-corporate-training-more-interacti
+  level: full
+  reviewed_at: '2026-09-23T01:10:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业把自有制度材料转成员工会完成的互动培训这一需求，痛点是员工不看完、培训部门无法证明内容被消化，旧做法是外包做课或发 PDF 自学；买方与付费路径公开材料未说明。
+    evidence_ids:
+    - ev-45d717a956e12e62
+  - gate: consensus
+    status: insufficient
+    reason: 只有一笔种子轮融资报道，没有客户名单、使用量或培训完成率等采用证据，无法判断企业是否已把它放进常规培训流程。
+    evidence_ids:
+    - ev-45d717a956e12e62
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计价方式或买方是培训部门还是 HR 预算，钱从哪来只能推断为 to B，属判断而非已验证事实。
+    evidence_ids:
+    - ev-45d717a956e12e62
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 具体接收什么、生成什么，也未说明课程是否需人工审核；培训内容涉及合规准确性，人工确认边界不明。
+    evidence_ids:
+    - ev-45d717a956e12e62
+  next_validation: 收集 Gamindo 官方定价页或公开客户案例，确认其计价方式与是否有企业实际部署的培训完成数据。
+  market: ''
+  job: 企业培训或合规团队在年度合规、入职培训到期或制度改版时，把已有的制度文档、PPT、视频等内部材料交给平台，转成员工需要完成的互动式培训，并取得完成情况记录。
+  job_en: Corporate training or compliance teams, when annual compliance, onboarding deadlines or policy
+    revisions arrive, hand existing policy documents, slide decks and videos to the platform to be converted
+    into interactive training employees must complete, and obtain completion records.
+  pain: 旧做法是把文档发给员工自学或让内部讲师重复宣讲，员工不看完、不记住，培训部门也无法证明内容被消化；把材料改成互动课程通常要外包或买现成课件，周期长且与自家制度脱节。
+  pain_en: The old approach is distributing documents for self-study or having internal trainers repeat
+    sessions, so employees skim and forget and the training team cannot show the material was absorbed;
+    converting material into interactive courses usually means outsourcing or buying off-the-shelf courses,
+    which is slow and disconnected from the company's own policies.
+  current_alternative: 用通用课件工具或外包课程制作，或直接发 PDF 加一次线下宣讲；部分公司用 LMS 自带测验，但内容仍需人工改写。
+  current_alternative_en: Generic authoring tools or outsourced course production, or simply distributing
+    PDFs plus one live briefing; some companies use LMS quizzes, but the content still has to be rewritten
+    by hand.
+  usage_reason: 推断：相较外包做课或人工逐页改写脚本，它把“把制度文档转成互动课程”这一步交给平台完成，培训团队不必再自行设计题目与互动环节，因此材料更新频繁、又缺少课程设计人力的合规与入职培训团队会在制度改版或年审前选择它；公开材料未给出客户案例或留存数据，实际减少的工时无法核对。
+  usage_reason_en: 'Inference: compared with outsourcing course production or rewriting scripts page by
+    page, it moves the step of turning policy documents into interactive courses onto the platform, so
+    training teams no longer design questions and interactions themselves; compliance and onboarding teams
+    whose material changes often and who lack instructional-design staff would choose it before a policy
+    revision or annual review. Public material gives no customer cases or retention data, so the '

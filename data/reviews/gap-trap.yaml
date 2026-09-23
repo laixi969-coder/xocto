@@ -211,3 +211,49 @@
     manual step of checking each line against conventions, so teams lean toward it when AI-generated volume
     is high and compliance matters; however, public materials provide no user feedback or adoption cases,
     so the motive remains structural reasoning.'
+- id: req-full-gap-trap-2026-09-23
+  project_slug: gap-trap
+  level: full
+  reviewed_at: '2026-09-23T01:10:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码后人工逐行审阅这一具体痛点，旧做法是人工 review 加零散 lint，不解决的后果是漏审与返工；公开说明已能还原输入、动作与交付，属工作流结构推理。
+    evidence_ids:
+    - ev-fd2738cf8b0d9329
+    - ev-8b2ec94151825ee3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 156 缓慢升至 177，属关注度而非采用证据；没有用户评价、团队采用或重复使用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-fd2738cf8b0d9329
+    - ev-9dd98b49b3dd02b5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，推断可能按仓库或团队订阅收费，属判断而非已验证事实；中文生态检索未发现对应供给。
+    evidence_ids:
+    - ev-8b2ec94151825ee3
+    - ev-4feb624b09908457
+  - gate: truth
+    status: insufficient
+    reason: 规则由谁维护、误报如何处理、是否需人工最终确认均未披露，交付确定性尚待核验；公开材料只给出目标描述。
+    evidence_ids:
+    - ev-acd1bf707837efdb
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认规则配置方式、误报处理流程以及是否有团队实际采用记录。
+  market: ''
+  job: 软件工程师在 AI 代理批量改写代码的仓库里，处理大量自动生成的改动，需要在合并前确认这些改动符合仓库既有规则并完成提交。
+  job_en: Software engineers, in repositories where AI agents rewrite code in bulk, handle large volumes
+    of generated changes and must confirm they follow existing repository rules before merging.
+  pain: AI 生成代码的速度超过人工审阅速度，逐行 review 成为瓶颈；漏审会带来线上故障与返工，而零散 lint 与口头约定覆盖不全。
+  pain_en: AI generates code faster than humans can review it, so line-by-line review becomes the bottleneck;
+    missed checks cause production incidents and rework, while scattered lint and unwritten conventions
+    cover only part of the rules.
+  current_alternative: 人工逐行审阅、CI 里零散的 lint 与测试，或团队口头约定规范。
+  current_alternative_en: Manual line-by-line review, scattered lint and tests in CI, or unwritten team
+    conventions.
+  usage_reason: 推断：相较人工逐行比对规范，它把仓库规则固化成提交前的自动关卡，减少逐行核对这一步负担，因此改动量大又必须保证合规的团队会在 AI 生成代码场景下选择它。
+  usage_reason_en: 'Inference: compared with manually checking each line against conventions, it turns
+    repository rules into automatic pre-commit gates, removing the line-by-line checking step, so teams
+    with high AI-generated volume and compliance needs choose it.'

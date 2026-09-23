@@ -82,3 +82,51 @@
   usage_reason: 公开材料未说明纯文本记忆文件的具体读写流程与工具链，无法解释开发者为何会选择它。
   usage_reason_en: Public material does not describe the specific read/write workflow or toolchain of
     the plain-text memory file, so why developers would choose it cannot be explained.
+- id: req-full-daidocs-2026-09-23
+  project_slug: daidocs
+  level: full
+  reviewed_at: '2026-09-23T01:09:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 长期记忆被托管服务锁定、难以审阅迁移的痛点，并给出磁盘纯文本文件这一可确定交付物；痛点刚性与交付闭环由产品说明和 MCP/hooks 支持，属工作流结构推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-efe4146065dfc952
+    - ev-20af09887346d553
+  - gate: consensus
+    status: insufficient
+    reason: 官网列出 Claude、GPT、Gemini、Cursor 等兼容对象与 40 星，说明有初步关注，但没有可归因到该项目的持续使用、评价或复购证据，共识尚未形成。
+    evidence_ids:
+    - ev-efe4146065dfc952
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式；开源格式加 MCP 服务器可能靠托管或支持收费，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-efe4146065dfc952
+  - gate: truth
+    status: insufficient
+    reason: 官网给出 LongMemEval-S 83%（GPT-4o）与 92%（Claude）及 10x token 声明，但无第三方复现；纯文本记忆在多助手并发写入时的冲突处理与安全边界未见公开验证。
+    evidence_ids:
+    - ev-efe4146065dfc952
+  next_validation: 追踪 daidocs.com 定价页与 公开代码仓库 仓库的 README、issue、discussion，确认记忆文件读写流程、并发冲突处理及是否有真实使用案例或付费入口。
+  market: ''
+  job: 开发者在给 Claude Code、Cursor、Windsurf 等 AI 助手接入长期记忆时，需要把跨会话的历史上下文保存成自己磁盘上的文件，让助手在后续会话中继续读取，同时自己随时能打开、编辑和迁移这份记忆。
+  job_en: A developer wiring long-term memory into assistants such as Claude Code, Cursor or Windsurf
+    needs to persist cross-session context as a file on their own disk so the assistant can reuse it in
+    later sessions while the developer can open, edit and migrate that memory at any time.
+  pain: 托管记忆服务把上下文锁在厂商数据库或向量库里，用户难以直接审阅、人工修正和搬走；同时把历史上下文塞进提示词会消耗大量 token。公开材料未给出具体损失金额或用户抱怨原文。
+  pain_en: Hosted memory services lock context inside a vendor database or vector store, making it hard
+    to review, hand-correct or move; meanwhile stuffing history into the prompt burns large amounts of
+    tokens. The public material gives no concrete loss figures or verbatim user complaints.
+  current_alternative: 把上下文写入向量数据库或托管记忆服务，或直接在提示词里粘贴历史内容。
+  current_alternative_en: Writing context into a vector database or a hosted memory service, or pasting
+    history directly into the prompt.
+  usage_reason: 推断：相较托管记忆服务，DaiDocs 把记忆落成磁盘上的 .dai 纯文本文件，用户可用编辑器或 grep 直接查看和修改，省去导出与格式转换这一步；相较粘贴历史进提示词，官方称
+    token 用量减少约 10 倍。因此在意数据归属、可审阅性和上下文成本的开发者，在需要跨会话延续 AI 上下文时会选择它。目前无用户反馈或留存数据支持这一判断。
+  usage_reason_en: 'Inference: versus a hosted memory service, DaiDocs stores memory as plain-text .dai
+    files on disk that users can inspect and edit with an editor or grep, removing an export and format-conversion
+    step; versus pasting history into the prompt, the project claims roughly 10x fewer tokens. Developers
+    who care about data ownership, reviewability and context cost would therefore pick it when they need
+    cross-session AI context. No user feedback or retention data currently supports th'
