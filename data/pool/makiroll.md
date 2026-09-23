@@ -35,16 +35,16 @@ url: https://www.makiroll.app
 canonical_url: https://makiroll.app
 summary: I built a camera that you talk with instead of seeing your own face
 first_seen: '2026-09-21T13:27:35Z'
-last_seen: '2026-09-22T00:50:21Z'
+last_seen: '2026-09-23T00:34:15Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.makiroll.app
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 9
+    points: 10
     comments: 2
   kind: product
 ---

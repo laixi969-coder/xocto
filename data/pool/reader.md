@@ -35,10 +35,11 @@ url: https://github.com/Marvy101/reader-source
 canonical_url: https://github.com/Marvy101/reader-source
 summary: I made a Mac workspace for books, browser tabs, notes, and AI
 first_seen: '2026-09-19T16:59:58Z'
-last_seen: '2026-09-21T00:16:52Z'
-status: watching
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://github.com/Marvy101/reader-source
@@ -47,6 +48,11 @@ sightings:
     points: 5
     comments: 1
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UbkNWODhkOXBRM1ZMSGFJbU11aGdCZXRvMEROY2VlQXBXMl9ud3pSdWhMRERwWV94N0hoUm41ZlhCZFNyM3BoUHRzcU11U05idVdrNW1PM2tLX05yaXpGSzFn?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
 ---
 
 # Reader

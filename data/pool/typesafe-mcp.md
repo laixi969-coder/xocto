@@ -20,17 +20,17 @@ url: https://github.com/itsmostafa/typesafe-mcp
 canonical_url: https://github.com/itsmostafa/typesafe-mcp
 summary: mcp connector to give your AI agent direct access to typesafe ai's jev model
 first_seen: '2026-09-17T05:23:34Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/itsmostafa/typesafe-mcp
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 216
-    forks: 18
+    stars: 258
+    forks: 24
     open_issues: 1
   kind: product
 ---

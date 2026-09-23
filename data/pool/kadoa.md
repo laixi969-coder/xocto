@@ -36,17 +36,17 @@ url: https://www.kadoa.com/food-prices
 canonical_url: https://kadoa.com/food-prices
 summary: A website that tracks US food prices every day
 first_seen: '2026-09-21T19:24:10Z'
-last_seen: '2026-09-22T00:50:21Z'
+last_seen: '2026-09-23T00:34:15Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.kadoa.com/food-prices
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 27
-    comments: 7
+    points: 29
+    comments: 10
   kind: product
 ---
 

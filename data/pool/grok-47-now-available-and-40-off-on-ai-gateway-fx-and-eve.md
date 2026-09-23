@@ -1,7 +1,7 @@
 ---
 slug: grok-47-now-available-and-40-off-on-ai-gateway-fx-and-eve
 name: Grok 4.7
-builder: ''
+builder: Ankit Sharma
 category: ''
 summary_zh: 2026年9月21日，Grok 4.7 在 AI Gateway 上线，同时 AI Gateway、fx 与 eve 提供 40% 折扣。模型接入与调用价格同步下调，意味着开发者接入该模型的推理成本下降，可能影响多模型路由与网关层的竞争格局。
 inspiration: ''
@@ -21,23 +21,29 @@ regions_en: []
 open_source: false
 url: https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve
 canonical_url: https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve
-summary: ''
+summary: SpaceXAI's most powerful model for coding and knowledge work
 first_seen: '2026-09-21T00:00:00Z'
-last_seen: '2026-09-22T00:50:50Z'
+last_seen: '2026-09-23T00:34:15Z'
 status: market_context
 sources:
 - officialfeeds
+- producthunt
 sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve
   seen_at: '2026-09-22T00:50:50Z'
   metrics: {}
   kind: news
+- source: producthunt
+  url: https://www.producthunt.com/products/grok-4-7-8
+  seen_at: '2026-09-23T00:34:15Z'
+  metrics: {}
+  kind: product
 ---
 
 # Grok 4.7
 
-_（源没给简介）_
+SpaceXAI's most powerful model for coding and knowledge work
 
 ## 笔记
 

@@ -40,16 +40,16 @@ url: https://clipmivoai.com/en/api
 canonical_url: https://clipmivoai.com/en/api
 summary: 'ClipmivoAI video generation tools: REST API, CLI, local MCP server and Agent Skill.'
 first_seen: '2026-09-14T09:02:04Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://clipmivoai.com/en/api
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 147
+    stars: 193
     forks: 0
     open_issues: 1
   kind: product

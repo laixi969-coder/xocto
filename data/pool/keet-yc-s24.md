@@ -11,14 +11,23 @@ inspiration_en: The trend is long-journey products making “we ordered it for y
   Don't be generic Q&A. Start with obscure skills and professional exams that have no ready-made course.
   Credits sell per generation; the price is unpublished.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.trykeet.com/
 canonical_url: https://trykeet.com
 summary: An app to create video courses on anything
 first_seen: '2026-08-11T14:48:37Z'
-last_seen: '2026-08-12T03:21:51Z'
+last_seen: '2026-09-23T00:34:15Z'
 status: analyzed
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://www.trykeet.com/
@@ -26,6 +35,12 @@ sightings:
   metrics:
     points: 42
     comments: 44
+  kind: product
+- source: producthunt
+  url: https://www.producthunt.com/products/keet-2
+  seen_at: '2026-09-23T00:34:15Z'
+  metrics: {}
+  kind: product
 ---
 
 # Keet (YC S24)

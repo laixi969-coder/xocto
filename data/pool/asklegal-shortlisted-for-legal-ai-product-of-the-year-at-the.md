@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPeE9Ka3lLTGRKbHA5VlRkZ2
 canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPeE9Ka3lLTGRKbHA5VlRkZ2lOSE1aWnJaX1pjb3J4aFFWX1NuT0Zrc1NERmZyRjRtTUxOUGNIMXZKT1l4N1JFMWY1Ui1MbVhOYlROc1JBVWVIdEk3RjA1cTNQSjlJZWc0OE9saFRvZmFZRW53VU5mZ1FwRXJ5al9sdmZlZy1TWDJ1UGswN0JIX1JFdjdtVGo3QTU0VjRGcDFSZE83TksyUzltdlpuVkRNOUNieFdraER2c3BkSzJfZnJselowQklrbkFxcw?oc=5
 summary: Ask.Legal Shortlisted for Legal AI Product of the Year at The Asia Legal Awards 2026 EIN Presswire
 first_seen: '2026-09-21T10:17:00Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: rejected
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPeE9Ka3lLTGRKbHA5VlRkZ2lOSE1aWnJaX1pjb3J4aFFWX1NuT0Zrc1NERmZyRjRtTUxOUGNIMXZKT1l4N1JFMWY1Ui1MbVhOYlROc1JBVWVIdEk3RjA1cTNQSjlJZWc0OE9saFRvZmFZRW53VU5mZ1FwRXJ5al9sdmZlZy1TWDJ1UGswN0JIX1JFdjdtVGo3QTU0VjRGcDFSZE83TksyUzltdlpuVkRNOUNieFdraER2c3BkSzJfZnJselowQklrbkFxcw?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPc0w0YWNoMWJoQk5sbHRVWUY3eWFpWlBXeWlFTnl1QzJDV1Y0d09UUmxmcm9jcDNwalZJOUJqdl9rU01hUDlzZ2NMYi1lTnBTYTlNbmVLTE9jREM2V3JtY0RZVm5VNlREYjhjUk45NEdzWEVwT1BQcmxiTkV6czVGRHQwRHBDc0o5eWhvSExlS3d6b3RiZUJ3UUlVbFVOcTF3RUhCN2FEcEhnS182VkxVNVJMSUtVMy1lQk55UXFrVW5Idmky?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

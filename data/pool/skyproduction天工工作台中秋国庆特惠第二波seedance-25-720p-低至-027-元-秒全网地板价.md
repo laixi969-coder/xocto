@@ -20,14 +20,19 @@ url: https://www.qbitai.com/2026/09/493268.html
 canonical_url: https://qbitai.com/2026/09/493268.html
 summary: 9月15日，SkyProduction（天工工作台）中秋国庆折上折活动正式开启！
 first_seen: '2026-09-21T08:25:44Z'
-last_seen: '2026-09-22T00:50:51Z'
-status: rejected
+last_seen: '2026-09-23T00:34:37Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/493268.html
   seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/494043.html
+  seen_at: '2026-09-23T00:34:37Z'
   metrics: {}
   kind: news
 ---

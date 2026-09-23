@@ -20,16 +20,16 @@ url: https://www.praxos.ai/
 canonical_url: https://praxos.ai
 summary: team messaging with built-in memory
 first_seen: '2026-08-20T20:55:49Z'
-last_seen: '2026-09-22T00:50:21Z'
+last_seen: '2026-09-23T00:34:15Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.praxos.ai/
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 7
+    points: 8
     comments: 0
   kind: product
 ---

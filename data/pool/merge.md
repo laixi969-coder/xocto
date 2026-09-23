@@ -29,8 +29,8 @@ url: https://www.producthunt.com/products/merge-5
 canonical_url: https://producthunt.com/products/merge-5
 summary: AI-native code review assessments
 first_seen: '2026-08-06T05:55:10Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: rejected
+last_seen: '2026-09-23T00:34:37Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -54,6 +54,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/
   seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/verda-datacrunch-funding-round-emergence-ventures/
+  seen_at: '2026-09-23T00:34:37Z'
   metrics: {}
   kind: news
 ---

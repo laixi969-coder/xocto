@@ -20,18 +20,18 @@ url: https://yyh-001.github.io/DSH-X/
 canonical_url: https://yyh-001.github.io/DSH-X
 summary: DeepSeek Harness 轻量 Windows 启动器。选一个版本，启动 dsh web。
 first_seen: '2026-09-03T06:07:15Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://yyh-001.github.io/DSH-X/
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 195
-    forks: 10
-    open_issues: 12
+    stars: 308
+    forks: 12
+    open_issues: 5
   kind: product
 ---
 

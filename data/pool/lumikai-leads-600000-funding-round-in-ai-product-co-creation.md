@@ -1,0 +1,41 @@
+---
+slug: lumikai-leads-600000-funding-round-in-ai-product-co-creation
+name: Lumikai leads $600,000 funding round in AI product co-creation startup Demoverse
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLUVqWVhvUWpGbDVwTzg0amh2NlFCR3VTc283NmVuZjJqdnVlel9DR3A0R0NQaDd1enBsZHYtWk1Ha3RSMjdLTTF4TWhFcFdtckRmREdYX0l0Nzlwbml3T1N2OUxCZzN6Um5HenNSNGhmSmxRbnhzMnFpeXpqdzNJMlNUVnhRbUpsLVE1TW10MlZVeWg3cWRMVm5ROUVGQkNYOGtyR2syLWM0ckluZlNUc0ZhUXI2di1VYkw0ZzRxNDR1QdIBxwFBVV95cUxNY0ZjY3YyX2xuckNjYkVhMlgtM3JpaC1YZVlZZnpzdFlVOTZaS0h5cnhva3ZYcmg3UlVJWnREWEZQSzlQQVc1elRsdHl1QVVyYm9QZzY2eVR6TV9nRkZNZDZoa2c5Z3kxbEpGMThYTW9IU1FvbGlSSHUyR204a3YtQTJ2dmR0NzM1a3FoRkhaMkFROVV2TmQwWFdhZW5pY0p6Wi1iWlJ3S1VaVmhmekNiWGUxdk90TVlwdC03RURPNXhkV3FZazdZ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLUVqWVhvUWpGbDVwTzg0amh2NlFCR3VTc283NmVuZjJqdnVlel9DR3A0R0NQaDd1enBsZHYtWk1Ha3RSMjdLTTF4TWhFcFdtckRmREdYX0l0Nzlwbml3T1N2OUxCZzN6Um5HenNSNGhmSmxRbnhzMnFpeXpqdzNJMlNUVnhRbUpsLVE1TW10MlZVeWg3cWRMVm5ROUVGQkNYOGtyR2syLWM0ckluZlNUc0ZhUXI2di1VYkw0ZzRxNDR1QdIBxwFBVV95cUxNY0ZjY3YyX2xuckNjYkVhMlgtM3JpaC1YZVlZZnpzdFlVOTZaS0h5cnhva3ZYcmg3UlVJWnREWEZQSzlQQVc1elRsdHl1QVVyYm9QZzY2eVR6TV9nRkZNZDZoa2c5Z3kxbEpGMThYTW9IU1FvbGlSSHUyR204a3YtQTJ2dmR0NzM1a3FoRkhaMkFROVV2TmQwWFdhZW5pY0p6Wi1iWlJ3S1VaVmhmekNiWGUxdk90TVlwdC03RURPNXhkV3FZazdZ?oc=5
+summary: Lumikai leads $600,000 funding round in AI product co-creation startup Demoverse techobserver.in
+first_seen: '2026-09-22T13:06:49Z'
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLUVqWVhvUWpGbDVwTzg0amh2NlFCR3VTc283NmVuZjJqdnVlel9DR3A0R0NQaDd1enBsZHYtWk1Ha3RSMjdLTTF4TWhFcFdtckRmREdYX0l0Nzlwbml3T1N2OUxCZzN6Um5HenNSNGhmSmxRbnhzMnFpeXpqdzNJMlNUVnhRbUpsLVE1TW10MlZVeWg3cWRMVm5ROUVGQkNYOGtyR2syLWM0ckluZlNUc0ZhUXI2di1VYkw0ZzRxNDR1QdIBxwFBVV95cUxNY0ZjY3YyX2xuckNjYkVhMlgtM3JpaC1YZVlZZnpzdFlVOTZaS0h5cnhva3ZYcmg3UlVJWnREWEZQSzlQQVc1elRsdHl1QVVyYm9QZzY2eVR6TV9nRkZNZDZoa2c5Z3kxbEpGMThYTW9IU1FvbGlSSHUyR204a3YtQTJ2dmR0NzM1a3FoRkhaMkFROVV2TmQwWFdhZW5pY0p6Wi1iWlJ3S1VaVmhmekNiWGUxdk90TVlwdC03RURPNXhkV3FZazdZ?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+---
+
+# Lumikai leads $600,000 funding round in AI product co-creation startup Demoverse
+
+Lumikai leads $600,000 funding round in AI product co-creation startup Demoverse techobserver.in
+
+## 笔记
+
+

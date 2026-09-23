@@ -36,16 +36,16 @@ url: https://github.com/LetMeHappyCode/auto-video-agent
 canonical_url: https://github.com/LetMeHappyCode/auto-video-agent
 summary: 自动流水线化生成成套「分镜插画提示词 → AI 生图 → 拼接成片」的视频，基于 Agent / Skill / Workflow 编排。
 first_seen: '2026-09-07T07:13:58Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LetMeHappyCode/auto-video-agent
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 222
+    stars: 224
     forks: 7
     open_issues: 1
   kind: product

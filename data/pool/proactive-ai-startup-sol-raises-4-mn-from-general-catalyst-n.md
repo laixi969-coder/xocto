@@ -1,0 +1,41 @@
+---
+slug: proactive-ai-startup-sol-raises-4-mn-from-general-catalyst-n
+name: Proactive AI startup Sol raises $4 Mn from General Catalyst, Nexus VP, and others
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeV9lbmtBMjRJdGd1Y2lOeHAtNEZBYmZHdTFJYkMxQnJnZ0ZEZ3BuMGRhU2ZQZ2Jub1VkdFR2Y0Z6dC02dnRkYmRGV1hpSnI4TXFmM3JybnFKVmZtMDd3NldudkloUDdGa2hNbG1ZajlubWE1cFNOeDR1VF94QzlQUzRTV3BmMU56Q3UzQUFqVjh4RENCNXRDN2dfbVpHS1pZOHg0Mm9JbDNiaVdEVGpFVWZYT2pTQjhw0gG4AUFVX3lxTE55X2Vua0EyNEl0Z3VjaU54cC00RkFiZkd1MUliQzFCcmdnRkRncG4wZGFTZlBnYm5vVWR0VHZjRnp0LTZ2dGRiZEZXWGlKcjhNcWYzcnJucUpWZm0wN3c2V252SWhQN0ZraE1sbVlqOW5tYTVwU054NHVUX3hDOVBTNFNXcGYxTnpDdTNBQWpWOHhEQ0I1dEM3Z19tWkdLWlk4eDQyb0lsM2JpV0RUakVVZlhPalNCOHA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeV9lbmtBMjRJdGd1Y2lOeHAtNEZBYmZHdTFJYkMxQnJnZ0ZEZ3BuMGRhU2ZQZ2Jub1VkdFR2Y0Z6dC02dnRkYmRGV1hpSnI4TXFmM3JybnFKVmZtMDd3NldudkloUDdGa2hNbG1ZajlubWE1cFNOeDR1VF94QzlQUzRTV3BmMU56Q3UzQUFqVjh4RENCNXRDN2dfbVpHS1pZOHg0Mm9JbDNiaVdEVGpFVWZYT2pTQjhw0gG4AUFVX3lxTE55X2Vua0EyNEl0Z3VjaU54cC00RkFiZkd1MUliQzFCcmdnRkRncG4wZGFTZlBnYm5vVWR0VHZjRnp0LTZ2dGRiZEZXWGlKcjhNcWYzcnJucUpWZm0wN3c2V252SWhQN0ZraE1sbVlqOW5tYTVwU054NHVUX3hDOVBTNFNXcGYxTnpDdTNBQWpWOHhEQ0I1dEM3Z19tWkdLWlk4eDQyb0lsM2JpV0RUakVVZlhPalNCOHA?oc=5
+summary: Proactive AI startup Sol raises $4 Mn from General Catalyst, Nexus VP, and others Entrackr
+first_seen: '2026-09-22T15:48:58Z'
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeV9lbmtBMjRJdGd1Y2lOeHAtNEZBYmZHdTFJYkMxQnJnZ0ZEZ3BuMGRhU2ZQZ2Jub1VkdFR2Y0Z6dC02dnRkYmRGV1hpSnI4TXFmM3JybnFKVmZtMDd3NldudkloUDdGa2hNbG1ZajlubWE1cFNOeDR1VF94QzlQUzRTV3BmMU56Q3UzQUFqVjh4RENCNXRDN2dfbVpHS1pZOHg0Mm9JbDNiaVdEVGpFVWZYT2pTQjhw0gG4AUFVX3lxTE55X2Vua0EyNEl0Z3VjaU54cC00RkFiZkd1MUliQzFCcmdnRkRncG4wZGFTZlBnYm5vVWR0VHZjRnp0LTZ2dGRiZEZXWGlKcjhNcWYzcnJucUpWZm0wN3c2V252SWhQN0ZraE1sbVlqOW5tYTVwU054NHVUX3hDOVBTNFNXcGYxTnpDdTNBQWpWOHhEQ0I1dEM3Z19tWkdLWlk4eDQyb0lsM2JpV0RUakVVZlhPalNCOHA?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+---
+
+# Proactive AI startup Sol raises $4 Mn from General Catalyst, Nexus VP, and others
+
+Proactive AI startup Sol raises $4 Mn from General Catalyst, Nexus VP, and others Entrackr
+
+## 笔记
+
+

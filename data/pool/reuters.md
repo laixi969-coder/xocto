@@ -20,8 +20,8 @@ url: https://www.reuters.com/world/us/google-maps-will-show-lake-america-us-not-
 canonical_url: https://reuters.com/world/us/google-maps-will-show-lake-america-us-not-lake-ontario-2026-08-30
 summary: Google Maps Now Shows 'Lake America' in US, Not 'Lake Ontario'
 first_seen: '2026-08-31T21:29:03Z'
-last_seen: '2026-09-22T00:50:21Z'
-status: rejected
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -96,10 +96,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 188
-    comments: 104
+    points: 231
+    comments: 142
   kind: news
 ---
 

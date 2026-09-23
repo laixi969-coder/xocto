@@ -24,8 +24,8 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWT
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWTlCZGdIRjZSeFVqV1Q3MWs3TzFuMENONGJJVFdNMGhscEVET1llOWphZ3dSY3NicGxTU1lnaUhlZDIwaS0xcFg1VUo2elBaLWhTNHFBTFpaZkdzc0ZjUmY?oc=5
 summary: AI算力短缺蔓延：Intel、AMD寻求中国客户长期锁定服务器CPU采购 新浪网
 first_seen: '2026-09-13T15:30:58Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: market_context
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -76,6 +76,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibEFVX3lxTE8wdDFkXzQyMmFkOHh4UklsOGw3ZTJFdllzTW9LTGZlQmZKMlNLelFTTTlabVhxT0htcTdCODd0SGdHdVB1Zm90OGwwVDg1eEFXZy0zc3hVWGVITUFQanJFMTZrRG5qcTlrdUtOOQ?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5pNkV5Ti1QSzZaQk9hdl9tOC1ESkJIb0ZfbkUwSHlLNU5fSmpyYUpMRENhWnQ2X3ZiNVpQa2RYM1FRNnI1WDl1LXZJbEFYYkpqSGJfWDR2TGQ5M0xaVk9kQ3NvUUx0eEszT3llenExTm45R1UzekE?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

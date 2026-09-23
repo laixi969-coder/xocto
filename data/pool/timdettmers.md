@@ -20,17 +20,17 @@ url: https://timdettmers.com/2026/09/21/dlab-open-source-week/
 canonical_url: https://timdettmers.com/2026/09/21/dlab-open-source-week
 summary: Frontier AI on Your Own Hardware
 first_seen: '2026-09-21T18:53:01Z'
-last_seen: '2026-09-22T00:50:21Z'
-status: rejected
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://timdettmers.com/2026/09/21/dlab-open-source-week/
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 92
-    comments: 46
+    points: 177
+    comments: 102
   kind: news
 ---
 

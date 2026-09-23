@@ -24,18 +24,18 @@ url: https://awr.originoneai.com/
 canonical_url: https://awr.originoneai.com
 summary: Persistent work state and minimal context for long-running AI agents.
 first_seen: '2026-09-07T16:09:21Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://awr.originoneai.com/
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 133
+    stars: 135
     forks: 19
-    open_issues: 1
+    open_issues: 45
   kind: product
 ---
 

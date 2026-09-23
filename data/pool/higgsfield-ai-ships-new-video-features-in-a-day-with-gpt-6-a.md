@@ -37,14 +37,20 @@ canonical_url: https://openai.com/index/higgsfield-from-prompt-to-production-wit
 summary: With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings
   new creative tools to market faster.
 first_seen: '2026-09-21T12:00:00Z'
-last_seen: '2026-09-22T00:50:50Z'
-status: queued
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - officialfeeds
+- newssearch
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
   seen_at: '2026-09-22T00:50:50Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPMmJnbVBmVkJBQncwSk85ZmVqM3hseUNoT0NtN2FLRE5TSDF5cWZSOGVyNVNQNkp1VVhfUlhmdWl5M2ZyaUFvX3RaSnBvNHZqVzUwSUI2UVlQZnBmcHpDbk03QkFsZE9SYnI1RWpudW9ZQy1SZjd2RW1SLU55X25GRkpJNDAtOTJ4Z0IxZVJvQllRYkt6TDF5SzFEaw?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

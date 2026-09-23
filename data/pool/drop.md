@@ -20,8 +20,8 @@ url: https://drop.space
 canonical_url: https://drop.space
 summary: They chose your competitor. Find out why
 first_seen: '2026-09-10T02:20:02Z'
-last_seen: '2026-09-21T00:17:23Z'
-status: rejected
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -49,6 +49,20 @@ sightings:
   url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPRy1Za1h4T19JZDhxem4tR2Fldmc5QzdCeFhMbGJKYUFqMzJvVDRRYTlqd05mU1IwRFRkNkE0RGFyZlZKLWxTaUVrVFVpcnRSZEt4VzNXTXRBbnpNbFlQWVRpd2hoaXRsUmFSSzBrbFNwT01tTVRfVDJpZ3RyUjdYakdEd0tzbjM0QW45VmRPcHBUS2RXQnByMVNNeFg3Yzc3OVJZcGI1ZktVTUFJSGdXLU1xWnd2eGxkWW5FQnlXd9IBxAFBVV95cUxQS01NMVg3RnZ0YUZTeGNRaEl0NXBkR0s1dWVmT3hlWDlOZm9YYmNmRmludVZXSzZaRkRaWVZDaW5WMkNSRnhubmctSGMydFdSZjZ0U3gweThUQkY0cVhUWV9OUkFXbXIxYWpwOTFfZ0VRaVJJcUhDTnBxMGRUdDlBTzFpR2NCMEdNbU1UTmZlVHgyNUJnbnJ6WnFNMDNGY2Znb2RLRERsbkQ4MVFTXzJaUko1ajNLWVJaQlJ5RlVGQnd1d3hI?oc=5
   seen_at: '2026-09-21T00:17:23Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://droprun.sh/
+  seen_at: '2026-09-23T00:34:15Z'
+  metrics:
+    points: 153
+    comments: 53
+  kind: product
+- source: hackernews
+  url: https://matthewbutterick.com/chron/drop-dead.html
+  seen_at: '2026-09-23T00:34:15Z'
+  metrics:
+    points: 44
+    comments: 0
   kind: news
 ---
 

@@ -20,8 +20,8 @@ url: https://procgrafprot.vercel.app/wall
 canonical_url: https://procgrafprot.vercel.app/wall
 summary: Procedural Generated Grafitti Wall
 first_seen: '2026-08-14T19:38:52Z'
-last_seen: '2026-09-22T00:50:21Z'
-status: rejected
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -76,10 +76,30 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 60
-    comments: 71
+    points: 70
+    comments: 85
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ0dXZUhpNUZEVTZOUmwyeDd5TUZ3QWs5c2dQNmtBOTVyVmpwY1FGYXg2bGpjV3VyOGJ4ZDlIVWs5cFdnSC1TTzc2N3hOV0ZzSE9kWEk2ai1MTFZPNUZTYzlaUkdxbFdObm1VaFpJcUhDaTUwdER3RVdsN3BxbVJNWDV5UU9FM0p4ajhkZ1RJOWNIcExKX0lOdTJGNzRuTjE2S3BSdDZyYzBUUkM1d1pjM2ctVHM1SVJSVmVUTDA0cFVNaHBWaUHSAcYBQVVfeXFMT2dHV2VIaTVGRFU2TlJsMng3eU1Gd0FrOXNnUDZrQTk1clZqcGNRRmF4NmxqY1d1cjhieGQ5SFVrOXBXZ0gtU083Njd4TldGc0hPZFhJNmotTExWTzVGU2M5WlJHcWxXTm5tVWhaSXFIQ2k1MHREd0VXbDdwcW1STVg1eVFPRTNKeGo4ZGdUSTljSHBMSl9JTnUyRjc0bk4xNktwUnQ2cmMwVFJDNXdaYzNnLVRzNUlSUlZlVEwwNHBVTWhwVmlB?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUjhub2tuaHY0d3lZNUFMbC1LMGpvaXBuUXdiN0JSTE5VSzJTOFdwSHhHOUk4Q09OR2ZUaEJrWTlReExmekVXRkdrbGl4NFVhUE5wYV9NR0ZSZUZGUzA5SG5fYzdIdENzSnh0cXB3R0c0Ul9rSnlBaXB6N3dWa1ZEZlRCSHRqT0o0NmctX0pPODlfOE5OTllKOHM2a3J2c1pPeGUxVlVRLU05UklKdkpTc29rRl9TVF9rS19QZ0dPUlAySUVyNTJUN3AzUW80NGVla3Nj0gHTAUFVX3lxTFBSOG5va25odjR3eVk1QUxsLUswam9pcG5Rd2I3QlJMTlVLMlM4V3BIeEc5SThDT05HZlRoQmtZOVF4TGZ6RVdGR2tsaXg0VWFQTnBhX01HRlJlRkZTMDlIbl9jN0h0Q3NKeHRxcHdHRzRSX2tKeUFpcHo3d1ZrVkRmVEJIdGpPSjQ2Zy1fSk84OV84Tk5OWUo4czZrcnZzWk94ZTFWVVEtTTlSSUp2SlNzb2tGX1NUX2tLX1BnR09SUDJJRXI1MlQ3cDNRbzQ0ZWVrc2M?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbnJqaXc2V00yME5CWDloYVJGaGRqQmdIXzJpUnJGMElBVkpPTmp3aXBGblEyQmRydmozd0p3RjlZTml0UW9SeTRmNjBCYmhuT2EycW9xTTh1eUk4aUVuRDJnWHpwZ1hSX1BaUFU2c3VMcjRvdUVURW5jTVdKNGRKN2YyN1l3SmJGOE8xNm4taktRa1hkNFh5dUtLdk1rU2s1VXZxY04yVzdGVzduV05FR0h1N29sdnJLenhtVEhBZk5Ed9IBxwFBVV95cUxQeE8xU2FFckhqRkhsV0s2YV9KNFFyUXhPdUpYZ0N0Z09RejlQejBqeWtNdmw2NmVITDZPck5QN01Rd3VZbTZFODVoUUFERFZyWmtMckdadkxDOUFlOGxXVzZMNV91NzB4MWFpWXJsSER0am1BR1l1eHVaTVQ3d0JlM1FCQTNnb1FvSWFUOGp6TUR0X0NNeDBDNWVJRC0wZG5nVTBTVmN1dnhqNURaY3dndEMwWmZjTTRTRkhfNFc3bWZtaC1heHlr?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxOMEtLa29pd3hCZGo2OUlyZk1GQndFcG9tTmctcDJFdWdvQmZ0WnpGcUpSNHVkRmdLRk0wYlpFMEZjeGVNNUtMaWl4UUlzUWxhRzJwU1hfTHgtZ1NNX3JUNmN6VEJTaE1EZkNwTHJsc3FnajJPaE0wUVRrQlg5S3ltRjlyQl9TNEgyMVZxU2hlbzE5NVEwWUF0UGpYcHlPWWRsdXlQOERpZl9sbUdJYkxGZENqdVhFZmfSAbwBQVVfeXFMTUlXMmMxRUdyMUhaLTRTSF9ZMzllbDc2cDVuR1Y5aU82eUtORXdTa2dtTlRGazNpVWFjdWVTN0NnMlRURkFDSWwtTjVOcUxDT0NwQlVDa2wtbk04akt6X2h2RU53LUFYLXV6cFpaUmZJS2ZtUVBETkprUHNTQUlJSnNfYXJYN0k2eVJlZ1hoV09DWDVQWDBDOTdnT3dsVHJFMXdfMjhLRndsbk1lTzdWX1VKeTRPd0p3TndQU2k?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
   kind: news
 ---
 

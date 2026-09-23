@@ -30,7 +30,7 @@ url: https://github.com/theguysudo/ENZO
 canonical_url: https://github.com/theguysudo/ENZO
 summary: I created an open source locally usable full fledged AI platform
 first_seen: '2026-09-19T23:47:35Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: watching
 sources:
 - hackernews
@@ -45,9 +45,9 @@ sightings:
   kind: product
 - source: github
   url: https://enzo-hub.duckdns.org
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 87
+    stars: 88
     forks: 17
     open_issues: 0
   kind: product

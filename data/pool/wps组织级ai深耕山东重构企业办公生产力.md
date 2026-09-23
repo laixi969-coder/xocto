@@ -20,8 +20,8 @@ url: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBISkdKYUVRLVFETzUzWENsVS
 canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBISkdKYUVRLVFETzUzWENsVS1CNGdValdLeFNHc2I3TjFGcC1wRkt2cHJSR1lvRlZfUDM1RUpfV1ZIRFU4ZnFzb0Rwa0ZVQmtROTl6Uk1EdDZtZGRNX01fZmRR?oc=5
 summary: WPS组织级AI深耕山东，重构企业办公生产力 手机网易网
 first_seen: '2026-09-20T11:56:14Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: rejected
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOazRrWEdhYmZ4eHdUaFJOeHdBV0Z3VkNwamJZOUlJN3dISThOOTYtYzQ3MnljVzV4TnNrelZHeFhmWDRjWkpXcUkwd3lPOHllcWh2UGZlem12VEl1NmN3NURnNXlhRXVyN09rVDFWaUdiR0piSG5TOGxUTWJkQU5vRXQxaXNRR1o0SW1ZOV9GQQ?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOQm91YTFNekNjeWo2SHU2R2pYNmVQRTJOOVMxMXV3UWlhVlNlQ3dBbWFaeHk2NElnQmJPbDVsXzVkSVd3TEhXbUg3Wm5UZVpEVHNfeGJOUU80bTZ3eGNEWk5sSWhVeGlDSTRvZmZpQWRLcVpPY3psRGJXbUROU1E5dGNUSmNpbTJUVmtBTQ?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

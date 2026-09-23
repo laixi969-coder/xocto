@@ -36,7 +36,7 @@ canonical_url: https://github.com/jangtrinh/design-os-3d-blender
 summary: 'AI-agent operating system for Blender 5.2: skills, verified bpy knowledge base, AGENT_OK/AGENT_FAIL
   execution contract, production gate for 3D-printable parts, robot-arm demo'
 first_seen: '2026-09-06T00:18:05Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: watching
 sources:
 - github
@@ -51,10 +51,10 @@ sightings:
   kind: product
 - source: github
   url: https://jangtrinh.github.io/design-os-3d-blender/
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
     stars: 79
-    forks: 17
+    forks: 18
     open_issues: 3
   kind: product
 ---

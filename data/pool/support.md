@@ -20,17 +20,17 @@ url: https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelli
 canonical_url: https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac
 summary: Turn off and restrict access to Apple Intelligence features on Mac
 first_seen: '2026-09-21T17:30:21Z'
-last_seen: '2026-09-22T00:50:21Z'
-status: rejected
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 235
-    comments: 158
+    points: 341
+    comments: 221
   kind: news
 ---
 

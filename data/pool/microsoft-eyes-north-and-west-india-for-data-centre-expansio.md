@@ -1,0 +1,42 @@
+---
+slug: microsoft-eyes-north-and-west-india-for-data-centre-expansio
+name: Microsoft Eyes North and West India for Data Centre Expansion as AI Workloads Drive Capacity Demand
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQS3d5aDlOV3R4aktBdmZZSW5GelNPaE1SVTFQa1RJdnRhek1XRUZvMTFEcUVpNUlRN21HOTJpSEJwbGREWkQ1RThmTFhDOFpydGY2MjJJTHlmTkFmQmJ3MThQTkMtWGRuSnZFMWxyR3A4QUNnVm5VQzZmM1R4YTV3blNxV1NpSWJXSE5LWjR3SGFfZFFkSTdBeFRWQS1HT1doWkczdzFlMkZNTm5IUlc4U3pRVGtiZV92MUQzdDdmSkVUbS1UaXAybEpCVkhmMDFkLXJwQjYzZEx3MGk0cUHSAd4BQVVfeXFMUEt3eWg5Tld0eGpLQXZmWUluRnpTT2hNUlUxUGtUSXZ0YXpNV0VGbzExRHFFaTVJUTdtRzkyaUhCcGxkRFpENUU4ZkxYQzhacnRmNjIySUx5Zk5BZkJidzE4UE5DLVhkbkp2RTFsckdwOEFDZ1ZuVUM2ZjNUeGE1d25TcVdTaUliV0hOS1o0d0hhX2RRZEk3QXhUVkEtR09XaFpHM3cxZTJGTU5uSFJXOFN6UVRrYmVfdjFEM3Q3ZkpFVG0tVGlwMmxKQlZIZjAxZC1ycEI2M2RMdzBpNHFB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQS3d5aDlOV3R4aktBdmZZSW5GelNPaE1SVTFQa1RJdnRhek1XRUZvMTFEcUVpNUlRN21HOTJpSEJwbGREWkQ1RThmTFhDOFpydGY2MjJJTHlmTkFmQmJ3MThQTkMtWGRuSnZFMWxyR3A4QUNnVm5VQzZmM1R4YTV3blNxV1NpSWJXSE5LWjR3SGFfZFFkSTdBeFRWQS1HT1doWkczdzFlMkZNTm5IUlc4U3pRVGtiZV92MUQzdDdmSkVUbS1UaXAybEpCVkhmMDFkLXJwQjYzZEx3MGk0cUHSAd4BQVVfeXFMUEt3eWg5Tld0eGpLQXZmWUluRnpTT2hNUlUxUGtUSXZ0YXpNV0VGbzExRHFFaTVJUTdtRzkyaUhCcGxkRFpENUU4ZkxYQzhacnRmNjIySUx5Zk5BZkJidzE4UE5DLVhkbkp2RTFsckdwOEFDZ1ZuVUM2ZjNUeGE1d25TcVdTaUliV0hOS1o0d0hhX2RRZEk3QXhUVkEtR09XaFpHM3cxZTJGTU5uSFJXOFN6UVRrYmVfdjFEM3Q3ZkpFVG0tVGlwMmxKQlZIZjAxZC1ycEI2M2RMdzBpNHFB?oc=5
+summary: Microsoft Eyes North and West India for Data Centre Expansion as AI Workloads Drive Capacity
+  Demand digital terminal
+first_seen: '2026-09-22T06:45:00Z'
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQS3d5aDlOV3R4aktBdmZZSW5GelNPaE1SVTFQa1RJdnRhek1XRUZvMTFEcUVpNUlRN21HOTJpSEJwbGREWkQ1RThmTFhDOFpydGY2MjJJTHlmTkFmQmJ3MThQTkMtWGRuSnZFMWxyR3A4QUNnVm5VQzZmM1R4YTV3blNxV1NpSWJXSE5LWjR3SGFfZFFkSTdBeFRWQS1HT1doWkczdzFlMkZNTm5IUlc4U3pRVGtiZV92MUQzdDdmSkVUbS1UaXAybEpCVkhmMDFkLXJwQjYzZEx3MGk0cUHSAd4BQVVfeXFMUEt3eWg5Tld0eGpLQXZmWUluRnpTT2hNUlUxUGtUSXZ0YXpNV0VGbzExRHFFaTVJUTdtRzkyaUhCcGxkRFpENUU4ZkxYQzhacnRmNjIySUx5Zk5BZkJidzE4UE5DLVhkbkp2RTFsckdwOEFDZ1ZuVUM2ZjNUeGE1d25TcVdTaUliV0hOS1o0d0hhX2RRZEk3QXhUVkEtR09XaFpHM3cxZTJGTU5uSFJXOFN6UVRrYmVfdjFEM3Q3ZkpFVG0tVGlwMmxKQlZIZjAxZC1ycEI2M2RMdzBpNHFB?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+---
+
+# Microsoft Eyes North and West India for Data Centre Expansion as AI Workloads Drive Capacity Demand
+
+Microsoft Eyes North and West India for Data Centre Expansion as AI Workloads Drive Capacity Demand digital terminal
+
+## 笔记
+
+

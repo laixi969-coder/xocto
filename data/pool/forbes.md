@@ -23,17 +23,17 @@ url: https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-
 canonical_url: https://forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom
 summary: Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com
 first_seen: '2026-09-21T17:00:23Z'
-last_seen: '2026-09-22T00:50:21Z'
-status: market_context
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 140
-    comments: 148
+    points: 151
+    comments: 158
   kind: news
 ---
 

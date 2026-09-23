@@ -16,3 +16,13 @@
     \ 主机名\r\n\r\n- UI 开关是假的：两个开关（“优化体验”、“仓库快照索引”）都只控制数据授权/服务端索引，本地打包上传无条件运行，代码里没有 gating 逻辑，只要登录着就永久激活；删除本地文件半小时后重新打包（重试计数\
     \ 565 ）\r\n\r\n- 隐私政策只写了“收集对话中提交的文本、文件和代码”，对整仓打包上传只字未提\r\n\r\n- 作者给的防御：文件系统层面锁死 ~/.zcode/v2/checkpoints\
     \ （ macOS chflags uchg / Linux chattr +i ），内核拒绝写入，管道无东西可传；代价是 checkpoint 回滚功能失效\r\n\r\n ![]( https://i.imgur.com/HK"
+- id: ev-299b2dd1e4f4c0d9
+  project_slug: blog-7
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdW9DQ0VQZ3BZX0RhMmhqZU13VWpYZDRRUnpCcDJ1bVJyaUxjdWFRWnpmb1Y3V0Z5OTh1Rm1tSVRibTVTM2JhQXlIcVRLZDc4Q3ZERktxQUU0eEZobWs0bjdUUnpRSUdPTkw5TmNkNFdiV3Q4R1NuQnA5V1FGbmFLSWZVSXdTZEQ5T21lWVhVYVpjVXJpRm8xZGJwamNHUDEyVkd2dlM2bjFMckZPT2FBd1ZjWjFvSnhTNDU4?oc=5
+  title: Testkube Launches AI Test Creation, Closing the Gap Between AI-Written Code and Tested Software
+  published_at: '2026-09-22T19:40:42Z'
+  collected_at: '2026-09-23T00:34:44Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Testkube Launches AI Test Creation, Closing the Gap Between AI-Written Code and Tested Software
+    VMblog

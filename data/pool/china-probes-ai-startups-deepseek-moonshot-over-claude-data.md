@@ -1,0 +1,42 @@
+---
+slug: china-probes-ai-startups-deepseek-moonshot-over-claude-data
+name: 'China Probes AI Startups DeepSeek, Moonshot Over Claude Data Routing, Breaches: Report'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbzlHWmNManYtdmxfdDk0Q05vUVQ5YlNYa1hOZlBXSnNhWWxMb1FBcVBVQ3JFWVlaSTRGeGVuRzVLcFA3aTRSUlJCcl9udkdTOTlrSnpCWjRGemhuUm1fNTlCUUdhZjJZUTc5U0tEN21vWjFZVF9CVmhiSDFvRUNQX3h5TjlUUnQ0cHBCUkloOWNuYXlBcUtrREFQV3p2X0ZXdjJGQ3RkYVpOQk05bzN6SV82UUYwTEY1cVZtUUMzN2FhWTTSAcsBQVVfeXFMT2w5ckFsWElNNnVBUHJ0el9LdUpZLVFLSng2UUpUUDdYcjloV0s2eEt4MG1nTGotcHNsTEQyZHJ1OUpqUkp4T21XdlVuZ0lOeDdod1Z5cXBZeEdXUzZUZzM3N29FN3JwdC0xNGZ5NDJQOTNObjM0SkdGWVlPdU5TNzlHSGltaklJV3VXc3o5YVFVaUZ4Ul9lMEx6Q1pKLUhPdzR1cWRfaTR6SE1SbGlUcjViNGJUM2NfSU9BODVsbUd3NGRhWC0xcUU0SXc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbzlHWmNManYtdmxfdDk0Q05vUVQ5YlNYa1hOZlBXSnNhWWxMb1FBcVBVQ3JFWVlaSTRGeGVuRzVLcFA3aTRSUlJCcl9udkdTOTlrSnpCWjRGemhuUm1fNTlCUUdhZjJZUTc5U0tEN21vWjFZVF9CVmhiSDFvRUNQX3h5TjlUUnQ0cHBCUkloOWNuYXlBcUtrREFQV3p2X0ZXdjJGQ3RkYVpOQk05bzN6SV82UUYwTEY1cVZtUUMzN2FhWTTSAcsBQVVfeXFMT2w5ckFsWElNNnVBUHJ0el9LdUpZLVFLSng2UUpUUDdYcjloV0s2eEt4MG1nTGotcHNsTEQyZHJ1OUpqUkp4T21XdlVuZ0lOeDdod1Z5cXBZeEdXUzZUZzM3N29FN3JwdC0xNGZ5NDJQOTNObjM0SkdGWVlPdU5TNzlHSGltaklJV3VXc3o5YVFVaUZ4Ul9lMEx6Q1pKLUhPdzR1cWRfaTR6SE1SbGlUcjViNGJUM2NfSU9BODVsbUd3NGRhWC0xcUU0SXc?oc=5
+summary: 'China Probes AI Startups DeepSeek, Moonshot Over Claude Data Routing, Breaches: Report NDTV
+  Profit'
+first_seen: '2026-09-22T11:55:11Z'
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbzlHWmNManYtdmxfdDk0Q05vUVQ5YlNYa1hOZlBXSnNhWWxMb1FBcVBVQ3JFWVlaSTRGeGVuRzVLcFA3aTRSUlJCcl9udkdTOTlrSnpCWjRGemhuUm1fNTlCUUdhZjJZUTc5U0tEN21vWjFZVF9CVmhiSDFvRUNQX3h5TjlUUnQ0cHBCUkloOWNuYXlBcUtrREFQV3p2X0ZXdjJGQ3RkYVpOQk05bzN6SV82UUYwTEY1cVZtUUMzN2FhWTTSAcsBQVVfeXFMT2w5ckFsWElNNnVBUHJ0el9LdUpZLVFLSng2UUpUUDdYcjloV0s2eEt4MG1nTGotcHNsTEQyZHJ1OUpqUkp4T21XdlVuZ0lOeDdod1Z5cXBZeEdXUzZUZzM3N29FN3JwdC0xNGZ5NDJQOTNObjM0SkdGWVlPdU5TNzlHSGltaklJV3VXc3o5YVFVaUZ4Ul9lMEx6Q1pKLUhPdzR1cWRfaTR6SE1SbGlUcjViNGJUM2NfSU9BODVsbUd3NGRhWC0xcUU0SXc?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+---
+
+# China Probes AI Startups DeepSeek, Moonshot Over Claude Data Routing, Breaches: Report
+
+China Probes AI Startups DeepSeek, Moonshot Over Claude Data Routing, Breaches: Report NDTV Profit
+
+## 笔记
+
+

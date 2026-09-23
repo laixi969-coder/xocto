@@ -39,7 +39,7 @@ url: https://github.com/Atomburstofficial/geiger
 canonical_url: https://github.com/Atomburstofficial/geiger
 summary: See every AI agent on your machine and what it can touch
 first_seen: '2026-09-09T14:54:49Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: watching
 sources:
 - hackernews
@@ -54,10 +54,10 @@ sightings:
   kind: product
 - source: github
   url: https://atomburst.io/geiger
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 148
-    forks: 5
+    stars: 149
+    forks: 6
     open_issues: 0
   kind: product
 ---

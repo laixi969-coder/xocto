@@ -33,17 +33,17 @@ url: https://github.com/openai/NavierStokesAndEuler
 canonical_url: https://github.com/openai/NavierStokesAndEuler
 summary: Lean certificates accompanying Navier-Stokes and Euler results
 first_seen: '2026-09-08T10:53:38Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/NavierStokesAndEuler
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 1973
-    forks: 201
+    stars: 1982
+    forks: 203
     open_issues: 0
   kind: product
 ---

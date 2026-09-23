@@ -26,7 +26,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-09-22T00:50:25Z'
+last_seen: '2026-09-23T00:34:19Z'
 status: queued
 sources:
 - github
@@ -225,18 +225,18 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/awwwards-mcp
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
     stars: 47
     forks: 1
-    open_issues: 3
+    open_issues: 2
   kind: product
 - source: github
   url: https://www.npmjs.com/package/@toddzheng024/dscode
-  seen_at: '2026-09-22T00:50:25Z'
+  seen_at: '2026-09-23T00:34:19Z'
   metrics:
-    stars: 297
-    forks: 0
+    stars: 298
+    forks: 1
     open_issues: 0
   kind: product
 ---

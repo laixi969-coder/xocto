@@ -25,8 +25,8 @@ url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-inc
 canonical_url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent
 summary: Report shows Meta's challenges replacing people with AI agents.
 first_seen: '2026-08-26T21:25:27Z'
-last_seen: '2026-09-21T00:17:23Z'
-status: rejected
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -123,6 +123,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNRTFTTzR4TnFxMUxka0x6bl9ncllIdDREWkoyaGpjeTZEQnBORVRkQlprLXE4eW9VWkkxOU1Wb2ZrZk9TWXVPVTFyVmdtZ2tjaG1DTTNsYXFTaTJWX0h0MFhmYm5pc0l4R3pRRDU4MHBBMkxZLWprV3RrZ0tIS25lcTNsM2haMkhqM2F1VDhKRmNncXVRQ2Y0WGo5MXRWWWZ4MDNCeHRFdThwM19ZMmVKVFRlamUtX0szWWVRTTE0M3hKNnVGamZrZE1B?oc=5
   seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/493653.html
+  seen_at: '2026-09-23T00:34:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNRjhSLXFqSXRwWkVwRkZfa1RJSjlSMGpRczNNcDZtNzB4aFBzMXZjb290c1NEbU5OU3FXLWtBSTQ2RE1idU1pZnZoSDVDVzRPaXFlSTNMWmlqUlk2RHRoZGlkMWFqcXBTXzFOc1VJQXRQcmdFNDlWaEExazZBcHZNZlVTNnRldzJMSUNxNXVGdw?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTFAzSWFnYm02TDVFT2pmSlM4UXh1T2w0M2dlT20xVEV2VFpJYjlKS2NheGIyNzh6cDI3QVpXLVNrSFJmYWh0dTJpUk9KWnRFUTZyV2h4RUZiOGlhenZBVkx4bjFZYVhlTjA4YnJMS0xNaUE0QQ?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

@@ -20,12 +20,13 @@ url: https://huggingface.co/spaces/ryansael/airace
 canonical_url: https://huggingface.co/spaces/ryansael/airace
 summary: Live 3D race of AI labs, updated every 6 hours
 first_seen: '2026-09-14T14:25:21Z'
-last_seen: '2026-09-19T00:21:45Z'
-status: rejected
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - huggingface
 - marketfeeds
 - newssearch
+- hackernews
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/ryansael/airace
@@ -47,6 +48,13 @@ sightings:
   url: https://sifted.eu/articles/denis-shilov-white-circle-ai-safety/
   seen_at: '2026-09-19T00:21:45Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/
+  seen_at: '2026-09-23T00:34:15Z'
+  metrics:
+    points: 81
+    comments: 60
   kind: news
 ---
 

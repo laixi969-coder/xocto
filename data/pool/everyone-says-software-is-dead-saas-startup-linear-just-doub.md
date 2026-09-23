@@ -35,8 +35,8 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQc09uOEhxS0ZH
 summary: Everyone says software is dead. SaaS startup Linear just doubled its valuation to $2.5 billion.
   Business Insider
 first_seen: '2026-08-26T12:00:00Z'
-last_seen: '2026-09-22T00:50:21Z'
-status: rejected
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - newssearch
 - ia40
@@ -56,10 +56,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://linear.app/now/ci-bottleneck-reworked
-  seen_at: '2026-09-22T00:50:21Z'
+  seen_at: '2026-09-23T00:34:15Z'
   metrics:
-    points: 127
-    comments: 118
+    points: 308
+    comments: 382
   kind: news
 ---
 

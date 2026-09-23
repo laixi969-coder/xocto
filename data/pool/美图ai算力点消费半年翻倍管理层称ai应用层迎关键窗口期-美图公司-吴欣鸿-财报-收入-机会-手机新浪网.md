@@ -34,14 +34,19 @@ url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZzI1djhTUEsyRHQxMkRQZX
 canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZzI1djhTUEsyRHQxMkRQZXIzMlFxX0VZdUxGY05DRnVKSEhXcXowV2JGMDJGMGx0bjZfU2I5Y0FPSzhveXlHOWdnYU92TmJaTnJVQndXR2h5WlJjVGxxTVZYbTVSdEhQSXQtRHA0Uy12aDdiZkd4TlJCSkdvSFRxajl4UXhNQmdac2drZVNRYXN3Wjc2Tkw3NzFHX0hPdDhQak5SVUtPMDB5M3c?oc=5
 summary: 美图AI算力点消费半年翻倍，管理层称AI应用层迎关键窗口期|美图公司|吴欣鸿|财报|收入|机会_手机新浪网 新浪财经
 first_seen: '2026-08-28T18:16:47Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: watching
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZzI1djhTUEsyRHQxMkRQZXIzMlFxX0VZdUxGY05DRnVKSEhXcXowV2JGMDJGMGx0bjZfU2I5Y0FPSzhveXlHOWdnYU92TmJaTnJVQndXR2h5WlJjVGxxTVZYbTVSdEhQSXQtRHA0Uy12aDdiZkd4TlJCSkdvSFRxajl4UXhNQmdac2drZVNRYXN3Wjc2Tkw3NzFHX0hPdDhQak5SVUtPMDB5M3c?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzVVBNcmN6TzBuWUJ6Zmdqc0p0VV9hVUVDakxMU2x0M0NmU1ZRa1dxWkRZQ0FxNDc5NEd2c2N0QmNpa3ZFNFp4T1pMUGg0Vk9PU0lYcXRuT1VhWEVQbldYMGNn?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

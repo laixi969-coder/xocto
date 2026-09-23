@@ -10,15 +10,24 @@ summary_en: Social teams use Wisdom inside Hootsuite to identify trends from liv
 inspiration_en: AI does not have to be a standalone tool. It can live inside the workflow where users
   already monitor, write, and schedule, using brand and social context to reduce switching and repetition.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.hootsuite.com/platform/ai
 canonical_url: https://www.hootsuite.com/platform/ai
 summary: Wisdom is Hootsuite's social AI assistant, formerly known as OwlyWriter AI.
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-28T16:00:00Z'
-status: analyzed
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - aicpb
 - official_web
+- hackernews
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
@@ -35,10 +44,19 @@ sightings:
     product_attribution: false
     attribution_note: Historical third-party traffic was measured on a broader Hootsuite content surface
       and cannot be attributed to Wisdom product usage.
+  kind: product
 - source: official_web
   url: https://www.hootsuite.com/platform/ai
   seen_at: '2026-08-28T16:00:00Z'
   metrics: {}
+  kind: product
+- source: hackernews
+  url: https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/
+  seen_at: '2026-09-23T00:34:15Z'
+  metrics:
+    points: 365
+    comments: 509
+  kind: news
 ---
 
 # Wisdom

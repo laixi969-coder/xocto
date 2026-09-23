@@ -1,0 +1,41 @@
+---
+slug: suncar-technology-reports-first-half-2026-financial-results
+name: SunCar Technology Reports First Half 2026 Financial Results
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVE9FNno1WW00YjdOS0JDZHBqMVVtcTNYUGlJYnF2Qm9BWkFvZE81RGI2dlRfNl8yV3VzMkVrM1kxVXI0X21QblVrSzBBUlJxV0tCREpseHlteVhDaGV2cTE1VG9wZnZvanhFemQ2bjJ0dGZ3MEkwYjJhOG53NWZvaU1fWldCY3FSQVNGWHBSRXZHZDFRUEdKZWZzS1VveVg3VXpITjVHOHVoQnVyR3FGTEl4bDN5SmtHS0h6bUlrSGxMbnU1WDR3VTlxR1dUM0NUeGlj0gHTAUFVX3lxTE9UT0U2ejVZbTRiN05LQkNkcGoxVW1xM1hQaUlicXZCb0FaQW9kTzVEYjZ2VF82XzJXdXMyRWszWTFVcjRfbVBuVWtLMEFSUnFXS0JESmx4eW15WENoZXZxMTVUb3Bmdm9qeEV6ZDZuMnR0ZncwSTBiMmE4bnc1Zm9pTV9aV0JjcVJBU0ZYcFJFdkdkMVFQR0plZnNLVW95WDdVekhONUc4dWhCdXJHcUZMSXhsM3lKa0dLSHptSWtIbExudTVYNHdVOXFHV1QzQ1R4aWM?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVE9FNno1WW00YjdOS0JDZHBqMVVtcTNYUGlJYnF2Qm9BWkFvZE81RGI2dlRfNl8yV3VzMkVrM1kxVXI0X21QblVrSzBBUlJxV0tCREpseHlteVhDaGV2cTE1VG9wZnZvanhFemQ2bjJ0dGZ3MEkwYjJhOG53NWZvaU1fWldCY3FSQVNGWHBSRXZHZDFRUEdKZWZzS1VveVg3VXpITjVHOHVoQnVyR3FGTEl4bDN5SmtHS0h6bUlrSGxMbnU1WDR3VTlxR1dUM0NUeGlj0gHTAUFVX3lxTE9UT0U2ejVZbTRiN05LQkNkcGoxVW1xM1hQaUlicXZCb0FaQW9kTzVEYjZ2VF82XzJXdXMyRWszWTFVcjRfbVBuVWtLMEFSUnFXS0JESmx4eW15WENoZXZxMTVUb3Bmdm9qeEV6ZDZuMnR0ZncwSTBiMmE4bnc1Zm9pTV9aV0JjcVJBU0ZYcFJFdkdkMVFQR0plZnNLVW95WDdVekhONUc4dWhCdXJHcUZMSXhsM3lKa0dLSHptSWtIbExudTVYNHdVOXFHV1QzQ1R4aWM?oc=5
+summary: SunCar Technology Reports First Half 2026 Financial Results manilatimes.net
+first_seen: '2026-09-22T20:41:09Z'
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVE9FNno1WW00YjdOS0JDZHBqMVVtcTNYUGlJYnF2Qm9BWkFvZE81RGI2dlRfNl8yV3VzMkVrM1kxVXI0X21QblVrSzBBUlJxV0tCREpseHlteVhDaGV2cTE1VG9wZnZvanhFemQ2bjJ0dGZ3MEkwYjJhOG53NWZvaU1fWldCY3FSQVNGWHBSRXZHZDFRUEdKZWZzS1VveVg3VXpITjVHOHVoQnVyR3FGTEl4bDN5SmtHS0h6bUlrSGxMbnU1WDR3VTlxR1dUM0NUeGlj0gHTAUFVX3lxTE9UT0U2ejVZbTRiN05LQkNkcGoxVW1xM1hQaUlicXZCb0FaQW9kTzVEYjZ2VF82XzJXdXMyRWszWTFVcjRfbVBuVWtLMEFSUnFXS0JESmx4eW15WENoZXZxMTVUb3Bmdm9qeEV6ZDZuMnR0ZncwSTBiMmE4bnc1Zm9pTV9aV0JjcVJBU0ZYcFJFdkdkMVFQR0plZnNLVW95WDdVekhONUc4dWhCdXJHcUZMSXhsM3lKa0dLSHptSWtIbExudTVYNHdVOXFHV1QzQ1R4aWM?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+---
+
+# SunCar Technology Reports First Half 2026 Financial Results
+
+SunCar Technology Reports First Half 2026 Financial Results manilatimes.net
+
+## 笔记
+
+

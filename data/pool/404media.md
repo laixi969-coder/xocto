@@ -20,8 +20,8 @@ url: https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-t
 canonical_url: https://404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet
 summary: There's a 100% Chance AI Agents Are Ruining the Internet
 first_seen: '2026-09-15T16:38:45Z'
-last_seen: '2026-09-17T00:32:40Z'
-status: rejected
+last_seen: '2026-09-23T00:34:15Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 228
     comments: 167
+  kind: news
+- source: hackernews
+  url: https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/
+  seen_at: '2026-09-23T00:34:15Z'
+  metrics:
+    points: 71
+    comments: 53
   kind: news
 ---
 

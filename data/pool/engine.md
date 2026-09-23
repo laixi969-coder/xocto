@@ -30,11 +30,12 @@ url: https://engine.tastelabs.com/
 canonical_url: https://engine.tastelabs.com
 summary: The Brand API, a taste tool for agents
 first_seen: '2026-09-15T18:45:31Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: watching
+last_seen: '2026-09-23T00:34:37Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://engine.tastelabs.com/
@@ -46,6 +47,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5Bbk5IdzJ1Q09NYmstQUdsaW5rb0NlYzZ5NU5vUURtNVQ3X2R2VTF1X3dlMkJ2OUxPWE5XdjRJTjNoTk5tYVdZUFpDbFJFMG00UDAwcDRhcWtLTkMxRXBiWHVvVmZRQ0w3V0EzaG9GX3Z0SHZ5NkJ1bVJ2VXQ?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/
+  seen_at: '2026-09-23T00:34:37Z'
   metrics: {}
   kind: news
 ---

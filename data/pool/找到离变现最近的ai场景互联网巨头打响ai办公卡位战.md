@@ -25,8 +25,8 @@ url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmpsOTJTbEUzZl
 canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmpsOTJTbEUzZl96b1BDZlNBc3ZnbUh5aXVCWWR0SVpkbWRoRDE0QUc2WGlwUjJ5TUVXUGVnVVlSelBaY1hmQXdrcVZSSDBZczZ0c2prU1dFbnp2cnR0Z1BvQXh1UzhEMkRHQQ?oc=5
 summary: 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战 京报网
 first_seen: '2026-08-26T11:44:00Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: market_context
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -59,6 +59,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOU0cyQURqZHQ3UDgtYUV1YTU5NFB6OW1hMXp5aVhkTGRxaGlhVEhUaDNNXzJDZWlQVU1fRC1kNHh4cGUySlJxLURXS0hKOXp0SzZjdDBaOWI1enN2TzkxaGFUZXN3ZjhwNk41ekN1dXc0S1ljUXZaNjExeFZxWnhKOW1Wd1k4cFlNdFJjVVFNN3J5bXJRXzg2eVV6b0t4bVlmS3c2dUdxMWlRWEFZQmNhYTZR?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQQTkwN3lxM2s4UEF1QTRhR2M2YXkxb2JXMzFsbnZxN3g1VmZEY0trR2RIdnhEdzNiX2xLQ1NZWm53cklLZDZqTE00UFhWVG9ZTnp2cTVsQ1pHbU1kWDJIeXAwYTZaRzhJWlJVd3c1WGdMV210N19nNExNYnNxLTFBMzlremV1ckVWQ0NLeA?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1wY2luTHBLZmxLT1gyWW9RNTRiWUNpRGNnUTVvZUZHOTNLeXh2YkdjU21SVWtOcFljejB1NmpNajZHLWdIa3lWTDNjTjA?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

@@ -58,3 +58,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 媒体与新闻 公共安全 事实核查与调查记者 开源情报分析人员'
+- id: ev-97a79ad8adb4a8da
+  project_slug: geo-sleuth
+  url: https://github.com/Oldcircle/geo-sleuth
+  title: geo-sleuth
+  published_at: '2026-09-18T08:51:34Z'
+  collected_at: '2026-09-23T00:34:19Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines,
+    satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini
+    CLI, OpenCode and GitHub Copilot. | repository stars: 272'

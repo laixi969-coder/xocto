@@ -41,10 +41,12 @@ canonical_url: https://github.com/markfulton/ai-employees
 summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on Claude Code and 10 other
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
-last_seen: '2026-09-22T00:50:25Z'
-status: watching
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - github
+- marketfeeds
+- newssearch
 sightings:
 - source: github
   url: https://github.com/markfulton/ai-employees
@@ -54,6 +56,16 @@ sightings:
     forks: 100
     open_issues: 4
   kind: product
+- source: marketfeeds
+  url: https://sifted.eu/articles/n8n-boss-1bn-users-fewer-than-1000-employees/
+  seen_at: '2026-09-23T00:34:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilgFBVV95cUxPajR6YVgzblZqUUx3THZzM055TndveVZGdFpzLVNJbjU3Uy03Nmh5cGdjWTNfdndacnctTE9abU40ZXp4VVYzTTZubjhRMVlmdlR5eGNlZlhCYVJLS2VQS3RkbHZnQVdtaWREWk1EYzY4eVEtUlA1UjUwdmxidGV5Ym81RkpGdVJtU09fYkt0OTFzSTNWbUE?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
 ---
 
 # ai-employees

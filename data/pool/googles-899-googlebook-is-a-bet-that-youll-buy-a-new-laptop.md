@@ -1,7 +1,7 @@
 ---
 slug: googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop
 name: Googlebook
-builder: ''
+builder: Ankit Sharma
 category: ''
 summary_zh: Google 于 2026 年 9 月 21 日发布 899 美元的 AI 原生笔记本 Googlebook，将 Gemini 嵌入光标、听写与小组件等桌面交互环节。对 AI 应用的含义是：模型能力进一步前移到操作系统级入口，桌面端应用的默认交互位置可能被平台方占据，第三方工具需要重新说明自己在哪一步不可替代。这是推断，不是已证实的行业转向。
 inspiration: ''
@@ -25,16 +25,22 @@ canonical_url: https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet
 summary: Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets, and other parts
   of the desktop experience.
 first_seen: '2026-09-21T14:39:22Z'
-last_seen: '2026-09-22T00:50:51Z'
+last_seen: '2026-09-23T00:34:15Z'
 status: market_context
 sources:
 - marketfeeds
+- producthunt
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/
   seen_at: '2026-09-22T00:50:51Z'
   metrics: {}
   kind: news
+- source: producthunt
+  url: https://www.producthunt.com/products/googlebook-4
+  seen_at: '2026-09-23T00:34:15Z'
+  metrics: {}
+  kind: product
 ---
 
 # Googlebook

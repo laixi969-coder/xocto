@@ -23,8 +23,8 @@ url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOUm1Iem9GaU50eVNiUjk5Xz
 canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOUm1Iem9GaU50eVNiUjk5XzQ1Vmp1VmU3V1V3YV8xTTZBcGhqMDRCVEwxU2U0YWhTUnlNWEFmWm9ZVGQ3c3pCRU4xR3JCZDMxYXlmbldEbkpkcTJqek1oYmJSdEw2cl9Ia1VrdndWUFRlUGtTc0pHM2RTam82R0lpT0d0d00wQlB2bk5kZk1DMUVyM243OG1ETUNvYmxQNjhjQTZqbUNxSQ?oc=5
 summary: 晚点独家丨百度智能云分拆平台产品事业部：MaaS 划入基础设施、Agent 独立成军|数据|通用|模型|客户|收入_手机新浪网 新浪财经
 first_seen: '2026-08-29T07:49:49Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: market_context
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -96,6 +96,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5YZ1ljaUc2aWxISk10SG1ZT3NqcF9VSENpU3g4LUg0QmxjUVJLQ2N3Z3pqTlcyakxvNmhNYm4xWFhaZERhaUxkaEJhMllnTFVsaGJXUV9nVVkzZ3lvNmZfOTlpS2ticjhzam11cDBaeE9vQl8yWFVweA?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMic0FVX3lxTE5nODhHWFVoXzQzTnlublZaTVJZZDFZUWFCSHd5RzByUzZXV1BFTlI5aXhjWjdXOVdqVkh5MHhUT0JSTjZNNk9lU09acjJWdkZyYVl2SC1fMkQxbjhlOHBYTnFvbzYyM3c3N1VVX2Nhd0hrUXc?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

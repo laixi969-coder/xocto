@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWDAwU2NHOWh5WlIxbjRGdU
 canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWDAwU2NHOWh5WlIxbjRGdUFhYmVET3RvbTRYazVLNlBsRDBDZy1ETXowQnQ4Uzh4UnV2U2tvTmc5NkcwSWRjdDd4aXAtYm5Ld2tIVmhwUGZNVjQxWDVOVFVfT1prV3l0bURURkRjeVh0a0F1Y2FfY3VEcHp3ZzJKMnFoLU9na292amlLSFQzc0hYTkdPTk5Nc2UwTjFFUG1uM0U5ZmRaZzE?oc=5
 summary: Corridor raises $25M seed to build a health benefits brokerage for SMBs TechCrunch
 first_seen: '2026-09-21T13:49:00Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: rejected
+last_seen: '2026-09-23T00:34:44Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWDAwU2NHOWh5WlIxbjRGdUFhYmVET3RvbTRYazVLNlBsRDBDZy1ETXowQnQ4Uzh4UnV2U2tvTmc5NkcwSWRjdDd4aXAtYm5Ld2tIVmhwUGZNVjQxWDVOVFVfT1prV3l0bURURkRjeVh0a0F1Y2FfY3VEcHp3ZzJKMnFoLU9na292amlLSFQzc0hYTkdPTk5Nc2UwTjFFUG1uM0U5ZmRaZzE?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9sMU5ZZUhhSnZEOGxGeGJMWDFucC16R1kzVUw2MXA3U0hpRFpWOGZqZlVwUDlsNktfZWFPUEpBMU01alUybzVZTlRWOE50QUZ5b21JVDNTZHd2UmU2Y2QxQ0poME05djVTZmlQVlpBYw?oc=5
+  seen_at: '2026-09-23T00:34:44Z'
   metrics: {}
   kind: news
 ---

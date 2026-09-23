@@ -20,14 +20,19 @@ url: https://www.qbitai.com/2026/09/490750.html
 canonical_url: https://qbitai.com/2026/09/490750.html
 summary: 2026年 9 月 15 日，AI基础设施公司基元律动（TokenRhythm）与无问芯穹（Infinigence AI）签署战略合作协议。
 first_seen: '2026-09-16T08:09:53Z'
-last_seen: '2026-09-17T00:33:01Z'
-status: rejected
+last_seen: '2026-09-23T00:34:37Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/490750.html
   seen_at: '2026-09-17T00:33:01Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/494120.html
+  seen_at: '2026-09-23T00:34:37Z'
   metrics: {}
   kind: news
 ---
