@@ -29,7 +29,7 @@ canonical_url: https://benzi.fly.dev/benchmark
 summary: A Code Intillegence/Harness Beating Claude Code and CodeGraph
 first_seen: '2026-09-11T01:22:44Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

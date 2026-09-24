@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE52eThWSi1PUDlJ
 summary: 星合聚力，智驾未来｜伯俊BEYOND用户大会圆满落幕，重塑零售AI价值落地新范式 xhby.net
 first_seen: '2026-09-23T09:29:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/496352.html
 summary: 对复杂现实进行推演与决策
 first_seen: '2026-09-23T06:38:07Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: 超聚变发布搭载amd锐龙ai-max家族平台的fusionxpark-m系列新品
-name: 超聚变发布搭载AMD锐龙AI Max家族平台的FusionXpark M系列新品
+name: 超聚变 FusionXpark M 系列
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YTnpfQUpLRldu
 summary: 超聚变发布搭载AMD锐龙AI Max家族平台的FusionXpark M系列新品 驱动之家
 first_seen: '2026-09-23T04:18:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 超聚变发布搭载AMD锐龙AI Max家族平台的FusionXpark M系列新品
+# 超聚变 FusionXpark M 系列
 
 超聚变发布搭载AMD锐龙AI Max家族平台的FusionXpark M系列新品 驱动之家
 

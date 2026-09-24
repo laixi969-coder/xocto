@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/496578.html
 summary: 商汤大装置异构混推创新实践与技术演进
 first_seen: '2026-09-23T09:56:53Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

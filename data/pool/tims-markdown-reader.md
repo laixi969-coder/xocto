@@ -21,7 +21,7 @@ canonical_url: https://github.com/temir-dev/tims-markdown-reader
 summary: A fast, offline Markdown viewer for macOS built in Swift
 first_seen: '2026-09-22T22:39:45Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

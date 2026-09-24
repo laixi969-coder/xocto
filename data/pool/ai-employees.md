@@ -3,30 +3,21 @@ slug: ai-employees
 name: ai-employees
 builder: markfulton
 category: AI + 效率
-summary_zh: 小团队或个体经营者在自己没有专职运营、市场人员时，打开这个开源项目，让按日程触发的角色用浏览器完成重复的线上操作；AI 接收的是预设角色与例程配置，执行浏览器动作，用户拿到的是可自行修改和保留的任务文件，具体交付物与人工确认环节仍待核验。
-inspiration: 趋势是把“雇一个岗位”拆成可排期的例程，让非技术小团队用文件而非 SaaS 席位来组织重复劳动。切入可以从跨境电商或本地服务门店的单一高频环节做起，例如每日竞品价格与库存巡检，按产出而非席位收费，先卖跑通的那一条例程。
-summary_en: A small team or solo operator without dedicated operations or marketing staff opens this open-source
-  project and lets scheduled roles carry out repetitive online tasks through a browser; the AI receives
-  preset role and routine configurations, performs browser actions, and the user gets task files they
-  own and can edit, while the concrete deliverables and human confirmation steps still need verification.
-inspiration_en: The trend is breaking a hired role into schedulable routines, letting non-technical small
-  teams organise repetitive work through files rather than SaaS seats. A wedge is one high-frequency step
-  in cross-border e-commerce or local service shops, such as daily competitor price and stock checks,
-  priced per output rather than per seat, starting with the single routine that already works.
+summary_zh: 面向需要重复处理日常事务的小团队或个人，在浏览器里按排期自动执行 8 类业务角色、约 60 条例行流程，可运行在 Claude Code 等 10 余种执行框架上；用户最终拿到的是自己持有的流程文件与执行结果，具体每条流程的输入材料与交付形态仍待核验。
+inspiration: 趋势是“把岗位例行事务拆成可排期的脚本”开始有人开源化，切入可考虑从某个具体行业的固定例行流程（如门店日报、线索初筛）做垂直版本，卖点放在流程文件归客户所有而非席位订阅。
+summary_en: For small teams or individuals handling repetitive daily chores, it runs about 60 scheduled
+  routines across 8 business roles in the browser, on Claude Code and ten other harnesses; the user ends
+  up owning the routine files and run outputs, while the exact inputs and deliverables of each routine
+  still need verification.
+inspiration_en: The trend is that turning job routines into schedulable scripts is becoming open source;
+  a wedge is to build a vertical version for one industry's fixed routines (store daily reports, lead
+  triage) and sell file ownership rather than seats.
 priority_review: false
 project_type: open_source
-industries:
-- 专业服务
-- 零售与电商
-industries_en:
-- Professional services
-- Retail and e-commerce
-jobs:
-- 运营专员
-- 市场专员
-jobs_en:
-- Operations specialist
-- Marketing specialist
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
 regions: []
 regions_en: []
 open_source: true
@@ -36,7 +27,7 @@ summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on C
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

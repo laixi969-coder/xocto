@@ -1,6 +1,6 @@
 ---
 slug: two-years-of-openai-academy
-name: Two years of OpenAI Academy
+name: OpenAI Academy
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://openai.com/index/two-years-of-openai-academy
 summary: Marking two years of OpenAI Academy and bringing AI skills to even more communities.
 first_seen: '2026-09-23T16:00:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Two years of OpenAI Academy
+# OpenAI Academy
 
 Marking two years of OpenAI Academy and bringing AI skills to even more communities.
 

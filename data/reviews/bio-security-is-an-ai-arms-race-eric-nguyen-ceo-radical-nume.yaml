@@ -1,0 +1,43 @@
+- id: req-initial-bio-security-is-an-ai-arms-race-eric-nguyen-ceo-radical-nume-2026-09-24
+  project_slug: bio-security-is-an-ai-arms-race-eric-nguyen-ceo-radical-nume
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决生物序列风险判断，但材料未写清谁在哪个环节遇到什么具体困难，也未写不解决的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-3c3f4ba8ff04e721
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有一档访谈中的公司自述，没有客户、同行采用或社区讨论等外部共识证据。
+    evidence_ids:
+    - ev-3c3f4ba8ff04e721
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露买方、定价或采购方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-3c3f4ba8ff04e721
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也未说明人工复核与安全边界如何设置。
+    evidence_ids:
+    - ev-3c3f4ba8ff04e721
+  next_validation: 收集 Radical Numerics 官方产品页或技术文档，确认其输入材料、输出交付物与是否设置人工复核环节。
+  market: ''
+  job: 生物安全研究人员在收到新合成基因序列或实验方案时，需要判断其风险等级并给出处置意见。
+  job_en: Biosecurity researchers receiving a newly synthesized gene sequence or protocol need to judge
+    its risk level and recommend a response.
+  pain: 候选材料只说明公司用生物链式推理与多模态感知应对生物防御军备竞赛，未说明谁在什么环节遇到什么具体困难，也未给出不解决的后果。
+  pain_en: The candidate material only says the company uses biological chain-of-thought and multimodal
+    perception in the bio-defense arms race; it does not say who faces which concrete difficulty at which
+    step, nor the cost of not solving it.
+  current_alternative: 候选材料未提及现有替代做法，无法确认此前由谁、用什么工具完成同类判断。
+  current_alternative_en: The candidate material does not mention existing alternatives, so it is impossible
+    to confirm who previously made such judgements and with which tools.
+  usage_reason: 材料未给出可核对的动作或结果差异，无法解释用户为何会选择它而非旧做法；这是信息缺口，不是需求不存在的证据。
+  usage_reason_en: The material gives no checkable difference in action or outcome, so it cannot explain
+    why a user would choose it over the old approach; this is a gap in information, not evidence that
+    demand is absent.

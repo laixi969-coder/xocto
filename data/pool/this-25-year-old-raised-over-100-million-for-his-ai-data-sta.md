@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMWduX1pYTUo2
 summary: This 25-Year-Old Raised Over $100 Million For His AI Data Startup At A $4 Billion Valuation Forbes
 first_seen: '2026-09-22T21:12:02Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

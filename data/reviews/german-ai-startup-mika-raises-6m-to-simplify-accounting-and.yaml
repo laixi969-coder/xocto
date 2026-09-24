@@ -1,0 +1,43 @@
+- id: req-initial-german-ai-startup-mika-raises-6m-to-simplify-accounting-and-2026-09-24
+  project_slug: german-ai-startup-mika-raises-6m-to-simplify-accounting-and
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决中小企业记账报税任务，但公开材料未给出具体痛点、旧流程与交付结果，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-0e47eae31742e9d4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户、采用或行业共识证据，无法判断是否卡在感知、场景或利益环节。
+    evidence_ids:
+    - ev-0e47eae31742e9d4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与收费方式，无法判断收入来自中小企业订阅、税务师渠道还是其他路径。
+    evidence_ids:
+    - ev-0e47eae31742e9d4
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其是否贴近记账报税的第一性目标、承诺能否确定性交付，以及人工复核边界如何设置。
+    evidence_ids:
+    - ev-0e47eae31742e9d4
+  next_validation: 收集 mika 官方产品页或定价页，确认其输入材料、自动化步骤、交付结果与收费方式。
+  market: ''
+  job: 德国中小企业主或记账人员在每月记账和报税截止前，整理票据与账目，完成记账并准备税务申报材料。
+  job_en: German SME owners or bookkeepers organize receipts and ledgers before monthly bookkeeping and
+    filing deadlines to complete bookkeeping and prepare tax filing materials.
+  pain: 公开材料只说明目标是简化会计与税务，未给出具体痛点描述，例如手工录入耗时、税务规则复杂或错误成本，因此痛点强度无法判断。
+  pain_en: Public material only states the goal of simplifying accounting and tax; it gives no specific
+    pain description such as manual entry time, tax rule complexity or error cost, so pain intensity cannot
+    be judged.
+  current_alternative: 公开材料未说明中小企业目前使用什么替代方式，例如本地会计软件、税务师事务所或手工表格。
+  current_alternative_en: Public material does not state what SMEs currently use instead, such as local
+    accounting software, tax advisory firms or manual spreadsheets.
+  usage_reason: 缺少产品功能、输入输出与定价信息，无法说明相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；此处不作推断。
+  usage_reason_en: With no product features, input-output description or pricing, it is impossible to
+    say which step of the old workflow is reduced or which users would choose it in what situation; no
+    inference is made here.

@@ -1,6 +1,6 @@
 ---
 slug: physical-ai创业公司息壤开物连获数亿元融资
-name: Physical AI创业公司息壤开物连获数亿元融资
+name: 息壤开物
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZC1MSUV1QlVi
 summary: Physical AI创业公司息壤开物连获数亿元融资 投资界
 first_seen: '2026-09-23T08:49:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Physical AI创业公司息壤开物连获数亿元融资
+# 息壤开物
 
 Physical AI创业公司息壤开物连获数亿元融资 投资界
 

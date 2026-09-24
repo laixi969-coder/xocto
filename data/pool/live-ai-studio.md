@@ -3,36 +3,37 @@ slug: live-ai-studio
 name: Live AI Studio
 builder: Sandy9173
 category: AI + 创作
-summary_zh: 主播或视频创作者在开播或录制时打开它，把摄像头画面交给实时人脸跟踪与背景替换处理，直接得到可用的直播画面；具体输入格式、输出交付与是否需要人工确认仍待核验。
-inspiration: 趋势：实时视频处理正从后期剪辑前移到开播当下，创作者对布景与设备的依赖被软件替代。切入：从中小主播和带货直播间的虚拟背景与场景切换环节进入，按直播间或按场次收费，而不是卖通用剪辑工具。
-summary_en: A streamer or video creator opens it while going live or recording, hands the camera feed
-  to real-time face tracking and background replacement, and gets a usable live picture; the exact input
-  formats, deliverables and whether human confirmation is needed remain unverified.
-inspiration_en: 'Trend: real-time video processing is moving from post-production to the moment of broadcast,
-  replacing part of a creator''s set and hardware. Entry: start with virtual backgrounds and scene switching
-  for small streamers and live-commerce rooms, charging per room or per session rather than selling a
-  generic editing tool.'
+summary_zh: 主播或视频创作者在直播、录制时打开它，把摄像头画面交给它处理：实时做人脸跟踪与背景替换，输出可直接推流的合成画面。具体支持的输入格式、延迟表现与交付流程仍待核验。
+inspiration: 趋势：实时视频处理正从专业导播台下沉到浏览器端，单人创作者也能拿到过去要绿幕和硬件才能做的画面。切入：从中小直播团队、在线课程录制或远程访谈这类没有导播人力的场景进入，按成片或按场次收费，而不是卖软件席位。
+summary_en: 'Streamers or video creators open it during live or recorded sessions and hand camera footage
+  to it: it performs real-time face tracking and background replacement, outputting a composite feed ready
+  to stream. Supported input formats, latency and delivery flow still need verification.'
+inspiration_en: 'Trend: real-time video processing is moving from professional switchers down to the browser,
+  letting solo creators get results that once required green screens and hardware. Entry: start with small
+  streaming teams, online course recording or remote interviews that have no operator, and charge per
+  finished clip or per session rather than per seat.'
 priority_review: false
-project_type: new_application
+project_type: open_source
 industries:
-- 直播与网络视频
-- 内容创作
+- 影视与视频制作
+- 直播与内容创作
 industries_en:
-- Live streaming and online video
-- Content creation
+- Film and video production
+- Live streaming and content creation
 jobs:
-- 主播与视频创作者
+- 主播或视频创作者在直播或录制时处理摄像头画面，需要实时完成人脸跟踪与背景替换
 jobs_en:
-- Streamers and video creators
+- Streamers or video creators processing camera footage during live or recorded sessions, needing real-time
+  face tracking and background replacement
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 canonical_url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 summary: Real-time AI camera, face tracking and background studio
 first_seen: '2026-09-04T11:19:30Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: watching
 sources:
 - huggingface
 - newssearch

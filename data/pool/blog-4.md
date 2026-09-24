@@ -3,13 +3,15 @@ slug: blog-4
 name: Gemini app
 builder: jryb
 category: ''
-summary_zh: Gemini 应用此前主要在移动端和网页端提供，本次新增 Windows 桌面客户端，用户在 Windows 电脑上可直接打开该助手处理问答与内容生成任务。候选材料只给出“已登陆
-  Windows”这一条事实，具体桌面端功能与交付形态仍待核验。
+summary_zh: 2026年9月11日，Gemini 应用上线 Windows 版本；9月23日又发布 Gemini 3.8 文本转语音模型，同日 YouTube 宣布用户可用自然语言描述需求、由
+  Gemini 生成个性化信息流。谷歌在两周内把 Gemini 从移动端扩展到桌面端，并把它嵌入 YouTube 推荐系统，意味着 Gemini 正从独立聊天应用转为跨平台的分发层，对第三方 AI 应用而言，桌面入口和内容推荐场景的竞争门槛被抬高。
 inspiration: ''
-summary_en: The Gemini app was previously offered mainly on mobile and the web; this release adds a Windows
-  desktop client so users can open the assistant directly on a Windows PC for Q&A and content generation.
-  The candidate material only supports the fact that it is now on Windows; the specific desktop features
-  and deliverables still need verification.
+summary_en: On September 11, 2026, the Gemini app became available for Windows, and on September 23 Google
+  released the Gemini 3.8 text-to-speech model while YouTube said users could describe desired videos
+  in natural language and have Gemini build a personalized feed. Within two weeks Google extended Gemini
+  from mobile to desktop and embedded it in YouTube's recommendation system, indicating Gemini is shifting
+  from a standalone chat app into a cross-platform distribution layer; for third-party AI apps this raises
+  the bar for competing on desktop entry points and content recommendation.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +27,7 @@ canonical_url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to
 summary: I'm sorry, you're not going to die from an AI-engineered supervirus
 first_seen: '2026-09-10T01:02:44Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - officialfeeds

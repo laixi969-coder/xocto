@@ -1,6 +1,6 @@
 ---
 slug: tekever-raises-580m-series-d-at-64b-valuation
-name: TEKEVER raises $580M Series D at $6.4B valuation
+name: TEKEVER
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: TEKEVER, provider of AI-powered autonomous systems, today announced the
   million Series D financing, valuing the company at S$6.4 billion.TEKEVER is a Portuguese-founded defence...
 first_seen: '2026-09-23T09:29:08Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# TEKEVER raises $580M Series D at $6.4B valuation
+# TEKEVER
 
 TEKEVER, provider of AI-powered autonomous systems, today announced the first close of its $580 million Series D financing, valuing the company at S$6.4 billion.TEKEVER is a Portuguese-founded defence...
 

@@ -3,13 +3,15 @@ slug: ais-memory-crunch-is-coming-for-android-apps
 name: Android
 builder: ''
 category: ''
-summary_zh: Google 于 2026 年 8 月为 Android 应用设定新的内存占用上限，背景是 AI 数据中心建设加剧硬件短缺，可能使低价手机可用内存减少。这意味着面向 Android
-  的端侧 AI 应用在内存预算上受到更严格约束，开发者需压缩模型与运行时占用，低价机型上的 AI 功能交付难度上升（推断）。
+summary_zh: 2026年8月，Google 为 Android 应用设定新的内存使用上限，背景是 AI 数据中心加剧硬件短缺，可能导致低价手机可用内存减少。平台内存约束收紧会压缩端侧 AI 功能的可用空间，迫使应用开发者在更小内存预算内交付模型推理能力，并可能拉大高端与低端机型的
+  AI 体验差距；此为推断，材料未给出具体内存阈值或机型数据。
 inspiration: ''
-summary_en: In August 2026 Google set new memory-use limits for Android apps, against a backdrop of AI
-  data-center buildout worsening hardware shortages that could leave lower-cost phones with less memory.
-  This means on-device AI apps for Android face tighter memory budgets, forcing developers to shrink models
-  and runtime footprints and making AI feature delivery harder on low-cost devices (inference).
+summary_en: In August 2026, Google set new memory-use limits for Android apps against a backdrop of AI
+  data centers contributing to hardware shortages that could leave lower-cost phones with less memory.
+  Tighter platform memory constraints shrink the room available for on-device AI features, forcing app
+  developers to deliver model inference within smaller memory budgets and potentially widening the AI
+  experience gap between high-end and low-end devices; this is inference, as the material provides no
+  specific memory thresholds or device data.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +28,7 @@ summary: Google is setting new memory-use limits for Android apps as AI data cen
   shortages that could leave lower-cost phones with less memory.
 first_seen: '2026-08-27T14:27:04Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

@@ -38,7 +38,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjhBQVFocFgz
 summary: Snorkel AI Raises $350M Series E at $3.5B Valuation to Build the Frontier Lab for AI Data Unite.AI
 first_seen: '2026-09-22T15:08:01Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

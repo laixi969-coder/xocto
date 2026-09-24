@@ -1,0 +1,43 @@
+- id: req-initial-filmstudio-2026-09-24
+  project_slug: filmstudio
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决商品视频制作需求，但公开材料未说明旧流程、痛点强度与交付确定性，价值结构无法还原。
+    evidence_ids:
+    - ev-7a9798b1ad7cafbb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有用户评价、客户案例或采用行为，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-7a9798b1ad7cafbb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 还是 to B 付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7a9798b1ad7cafbb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近商品视频工作的第一性目标，也看不到人工确认边界与交付结果。
+    evidence_ids:
+    - ev-7a9798b1ad7cafbb
+  next_validation: 收集 RxFilm Studio 官方定价页或客户案例，确认按什么计价以及是否有真实商品视频交付结果。
+  market: ''
+  job: 产品营销或电商运营人员在需要为某件商品做推广视频时，把产品素材交给 AI agent，要产出一条可发布的商品视频。
+  job_en: A product marketer or e-commerce operator hands product assets to an AI agent to produce a publishable
+    product video for a specific item.
+  pain: 公开材料只说明它能用 AI agent 创建和编辑产品视频，没有说明原来由谁、用什么工具、花多久完成，也没有用户抱怨或替代行为的记录，痛点强度无法确认。
+  pain_en: Public material only says it creates and edits product videos with an AI agent; it does not
+    say who did this before, with what tools, or how long it took, and no user complaints or workarounds
+    are recorded, so pain intensity cannot be confirmed.
+  current_alternative: 公开材料未提供旧做法信息，无法确认此前是人工剪辑、外包制作还是使用其他视频工具。
+  current_alternative_en: Public material provides no information on the prior practice, so it is unclear
+    whether this was manual editing, outsourced production, or other video tools.
+  usage_reason: 推断：若它能把素材直接转成成片，可能省去人工剪辑这一步，但公开材料没有说明具体动作、交付确定性或用户反馈，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it turns assets directly into a finished cut, it may remove a manual
+    editing step, but public material does not describe the concrete action, delivery certainty or user
+    feedback, so it is unclear which users would choose it and when.'

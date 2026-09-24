@@ -1,6 +1,6 @@
 ---
 slug: nvidia-inception-ai-program-reaches-82-mexican-startups
-name: NVIDIA Inception AI Program Reaches 82 Mexican Startups
+name: NVIDIA Inception
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQdnYyb3BLZkQ4
 summary: NVIDIA Inception AI Program Reaches 82 Mexican Startups Mexico Business News
 first_seen: '2026-09-23T16:45:58Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA Inception AI Program Reaches 82 Mexican Startups
+# NVIDIA Inception
 
 NVIDIA Inception AI Program Reaches 82 Mexican Startups Mexico Business News
 

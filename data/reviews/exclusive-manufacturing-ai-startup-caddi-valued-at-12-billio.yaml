@@ -97,3 +97,48 @@
     and returns quotes and lead times, removing the steps of per-supplier requests and manual quote normalization;
     therefore procurement teams at manufacturers with high-mix parts, scattered suppliers and drawing
     data spread across systems would choose it when they need comparable quotes quickly'
+- id: req-initial-exclusive-manufacturing-ai-startup-caddi-valued-at-12-billio-2026-09-24
+  project_slug: exclusive-manufacturing-ai-startup-caddi-valued-at-12-billio
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决图纸零件找供应商与比价的需求，痛点是询价周期长、报价不可比、选错供应商导致返工，旧做法是人工邮件询价加经验判断，结构上成立。
+    evidence_ids:
+    - ev-41de043a38062601
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例、用户评价或采用规模，无法判断采购方是否已把它放进日常流程。
+    evidence_ids:
+    - ev-41de043a38062601
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、按什么计价或买方是工厂还是平台，收入模式只能推测为to B，属判断而非已验证事实。
+    evidence_ids:
+    - ev-41de043a38062601
+  - gate: truth
+    status: insufficient
+    reason: 图纸解析与供应商匹配的准确率、人工复核边界、交期与质量责任归属均未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-41de043a38062601
+  next_validation: 收集CADDi官方定价页或客户案例页面，确认其按什么计价、服务哪类制造企业以及是否有公开的交付结果数据。
+  market: ''
+  job: 制造业采购或质量工程师在接到新零件图纸、需要找到能按公差加工的供应商并拿到可比较报价时，处理图纸、规格书与供应商产能信息，完成询价、比价与下单跟进。
+  job_en: A manufacturing procurement or quality engineer receiving a new part drawing needs to find suppliers
+    able to hold the tolerances and obtain comparable quotes, working from drawings, spec sheets and supplier
+    capacity information to complete RFQ, comparison and order follow-up.
+  pain: 图纸信息靠人工读取，供应商能力靠个人经验和电话邮件确认，询价周期长、报价口径不一，选错供应商会造成返工与交期延误。
+  pain_en: Drawing data is read manually and supplier capability is confirmed by personal experience plus
+    phone and email, so quoting cycles are long, quotes are not comparable, and a wrong supplier choice
+    causes rework and delays.
+  current_alternative: 采购员用邮件和表格向熟悉的加工厂逐一询价，靠老师傅经验判断工艺可行性，用Excel比对报价。
+  current_alternative_en: Buyers email and spreadsheet RFQs to known shops one by one, rely on veteran
+    judgment for process feasibility, and compare quotes in Excel.
+  usage_reason: 推断：相较逐家邮件询价，系统先解析图纸并筛出具备对应工艺能力的供应商，把“找谁能做”这一步从人工经验判断变成可检索的匹配结果，因此缺少稳定供应商网络的中小制造企业采购更可能选择它；公开材料未提供客户留存或复购证据。
+  usage_reason_en: 'Inference: versus emailing shops one by one, the system first parses the drawing and
+    filters suppliers with the matching process capability, turning ''who can make this'' from personal
+    judgment into a searchable match, so buyers at smaller manufacturers without a stable supplier network
+    are more likely to choose it; public materials provide no retention or repeat-use evidence.'

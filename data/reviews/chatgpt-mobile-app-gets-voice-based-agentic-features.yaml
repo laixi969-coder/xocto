@@ -1,0 +1,44 @@
+- id: req-initial-chatgpt-mobile-app-gets-voice-based-agentic-features-2026-09-24
+  project_slug: chatgpt-mobile-app-gets-voice-based-agentic-features
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决离开电脑时任务被推迟的问题，痛点是不便操作手机导致任务中断，旧做法是手动逐步操作或记待办，结构上成立。
+    evidence_ids:
+    - ev-115ff43f8d193d20
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道描述功能开放，没有付费用户实际使用、留存或口碑证据，共识强度无法判断。
+    evidence_ids:
+    - ev-115ff43f8d193d20
+  - gate: model
+    status: supported
+    reason: 功能只对 Pro 与 Plus 订阅者开放，买方是已付费的个人订阅者，付费路径清楚；这是基于订阅分层的判断，不是已验证的新增收入。
+    evidence_ids:
+    - ev-115ff43f8d193d20
+  - gate: truth
+    status: insufficient
+    reason: 报道未说明代理能完成哪些任务、失败如何回退、结果是否需人工确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-115ff43f8d193d20
+  next_validation: 收集 ChatGPT 官方帮助文档中 Work 标签页的说明，确认可执行的任务范围、失败回退方式与人工确认要求。
+  market: ''
+  job: 需要外出或不便用电脑的 Pro、Plus 订阅者在手机上用语音交代任务，让代理在 Work 标签页里代为完成并返回结果。
+  job_en: Pro and Plus subscribers who are away from a computer dictate a task by voice on their phone
+    and let the agent complete it in the Work tab and return the result.
+  pain: 离开电脑时，用户要么把任务记下来等回到工位再处理，要么在手机上逐条手动操作，任务被推迟或被打断。
+  pain_en: When away from a computer, users either note the task down until they are back at a desk or
+    perform it step by step by hand on the phone, so the task is delayed or interrupted.
+  current_alternative: 旧做法是在手机上手动打开应用逐步操作，或先记录待办、回到电脑后再用桌面工具完成。
+  current_alternative_en: The old approach is to open apps on the phone and operate step by step by hand,
+    or to note a to-do and finish it later on a desktop tool.
+  usage_reason: 相较手动逐步操作，用户用语音一次交代任务，由代理在 Work 标签页执行并返回结果，省去在手机上反复切换应用与逐条点击这一步；推断经常在外勤或通勤途中处理事务的付费订阅者会因此选择它，但公开材料未给出留存或重复使用证据。
+  usage_reason_en: Compared with operating step by step by hand, the user dictates the task once by voice
+    and the agent executes it in the Work tab and returns the result, removing the step of switching apps
+    and tapping through items on the phone; this is an inference that paying subscribers who often handle
+    tasks in the field or while commuting would choose it, and public material provides no retention or
+    repeat-use evidence.

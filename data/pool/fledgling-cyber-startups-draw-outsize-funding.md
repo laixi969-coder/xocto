@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxPQW1YNHFkdDlY
 summary: Fledgling Cyber Startups Draw Outsize Funding WSJ
 first_seen: '2026-09-23T03:07:42Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-npunlock-2026-09-24
+  project_slug: npunlock
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是在 Intel NPU 上跑自定义内核的问题，但公开材料只有一句仓库描述，说不清替代了哪一步旧工作。
+    evidence_ids:
+    - ev-aa8a940f0a5f9c84
+  - gate: consensus
+    status: insufficient
+    reason: 社区有一定讨论，但没有可归因到该项目的采用、付费或持续使用证据，关注度不等于共识。
+    evidence_ids:
+    - ev-aa8a940f0a5f9c84
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费、买方或商业路径，钱从哪来无法判断。
+    evidence_ids:
+    - ev-aa8a940f0a5f9c84
+  - gate: truth
+    status: insufficient
+    reason: 无法核对内核能否稳定编译运行、覆盖哪些 NPU 型号，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-aa8a940f0a5f9c84
+  next_validation: 收集该仓库的 README、issue 与 release 记录，确认支持的 Intel NPU 型号、编译步骤与是否有实际使用案例。
+  market: ''
+  job: 底层开发者需要为 Intel NPU 编写并运行自定义 C 内核，让自研算子在特定硬件上执行。
+  job_en: Low-level developers need to write and run custom C kernels for Intel NPUs so their own operators
+    execute on that specific hardware.
+  pain: 公开材料没有说明现有做法哪里难受、耗时多久，只说明可以运行自定义内核，痛点强度无法判断。
+  pain_en: The public material does not say where current practice hurts or how long it takes; it only
+    states that custom kernels can run, so pain intensity cannot be judged.
+  current_alternative: 公开材料未说明现有替代方式，可能是厂商官方工具链或手写适配层，具体流程仍待核验。
+  current_alternative_en: The public material does not describe existing alternatives, which may be vendor
+    toolchains or hand-written adaptation layers; the concrete workflow still needs verification.
+  usage_reason: 推断：若它省去为 Intel NPU 手写适配层这一步，做端侧推理的团队会在该硬件上选择它；但缺少采用与重复使用证据，动机无法确认。
+  usage_reason_en: 'Inference: if it removes the step of hand-writing an adaptation layer for Intel NPUs,
+    teams doing on-device inference would choose it on that hardware; but adoption and repeat-use evidence
+    is missing, so the motive cannot be confirmed.'

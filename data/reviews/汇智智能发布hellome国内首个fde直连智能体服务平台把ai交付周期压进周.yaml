@@ -1,0 +1,45 @@
+- id: req-initial-汇智智能发布hellome国内首个fde直连智能体服务平台把ai交付周期压进周-2026-09-24
+  project_slug: 汇智智能发布hellome国内首个fde直连智能体服务平台把ai交付周期压进周
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决企业 AI 交付周期长、多方对接的痛点，但公开材料只有发布表述，未说明具体交付动作与可核对结果，需求强度无法判断。
+    evidence_ids:
+    - ev-1a534e0e8c4c794a
+  - gate: consensus
+    status: insufficient
+    reason: 除“国内首个 FDE 直连”这一自我表述外，没有客户、案例或行业采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1a534e0e8c4c794a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方类型，钱从 to B 项目制还是平台订阅来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-1a534e0e8c4c794a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定性发生，也未说明人工确认与安全边界，承诺能否兑现缺少材料支持。
+    evidence_ids:
+    - ev-1a534e0e8c4c794a
+  next_validation: 收集 Hellome 官方产品页或交付文档，确认其计费方式、典型交付物与至少一个公开客户案例。
+  market: ''
+  job: 企业客户在推进 AI 项目落地时，由 FDE（前置交付工程师）通过 Hellome 平台直连智能体能力，把原本需要多方对接、周期以月计的交付流程压缩到以周计。
+  job_en: When enterprise clients push AI projects into production, forward-deployed engineers use the
+    Hellome platform to connect directly to agent capabilities, compressing a multi-party delivery process
+    that used to take months into weeks.
+  pain: 企业 AI 项目交付链条长、参与方多，需求方与工程实现之间反复对齐，导致上线周期被拉长、预算消耗在沟通与返工上。
+  pain_en: Enterprise AI delivery chains are long and involve many parties, with repeated alignment between
+    business owners and engineers, stretching launch timelines and burning budget on communication and
+    rework.
+  current_alternative: 企业通常依靠外部系统集成商、外包开发团队或自建 AI 小组，通过项目制方式逐项对接模型与业务系统。
+  current_alternative_en: Enterprises typically rely on external system integrators, outsourced development
+    teams or in-house AI squads, connecting models to business systems project by project.
+  usage_reason: 推断：若平台真能把 FDE 与智能体能力直连，减少的是需求转译和多方对接这一步，使交付周期从月级压到周级；但公开材料未说明具体动作与可核对结果，因此尚不能确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the platform truly connects forward-deployed engineers directly to agent
+    capabilities, it removes the requirement-translation and multi-party coordination step, shortening
+    delivery from months to weeks; however, the public material does not describe the concrete action
+    or verifiable result, so it is not yet possible to confirm which users would choose it for this reason.'

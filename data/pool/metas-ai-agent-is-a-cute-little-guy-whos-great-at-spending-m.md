@@ -23,7 +23,7 @@ summary: Modern life comes with an unending, auto-populating to-do list. It neve
   of. You're telling me a tree branch fell in the backyard and now I have to figure out what to […]
 first_seen: '2026-09-23T19:00:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -34,3 +34,45 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：在任何设备上运行 AI 模型；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Run AI models on any device The exact
     adoption motive and repeat use are not yet verified.'
+- id: req-initial-nobodywho-2026-09-24
+  project_slug: nobodywho
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是本地跑模型、数据不出设备的需求，但公开材料只有一篇示例，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-a3dd9f5d827af17c
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，但没有可归因到该产品的采用、付费或持续使用证据，关注度不等于共识。
+    evidence_ids:
+    - ev-a3dd9f5d827af17c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，是开源库还是商业产品尚不明确，钱从哪来无法判断。
+    evidence_ids:
+    - ev-a3dd9f5d827af17c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对端侧推理的确定性交付、模型覆盖范围与安全边界，承诺能否稳定兑现缺少材料支持。
+    evidence_ids:
+    - ev-a3dd9f5d827af17c
+  next_validation: 收集 NobodyWho 官方文档或仓库 README，确认它支持的模型、部署方式与是否提供商业授权或定价页。
+  market: ''
+  job: 应用开发者需要在用户设备上直接运行 AI 模型，处理本地数据并返回推理结果，而不把数据发往云端。
+  job_en: App developers need to run AI models directly on the user's device, process local data and return
+    inference results without sending data to the cloud.
+  pain: 把数据发往云端会带来隐私、延迟和调用成本问题，但公开材料没有说明开发者当前用什么替代、痛到什么程度。
+  pain_en: Sending data to the cloud raises privacy, latency and per-call cost issues, but the public
+    material does not say what developers use today or how severe the pain is.
+  current_alternative: 公开材料未说明现有替代方式，可能是自建本地推理、云端 API 或其它端侧框架，具体流程仍待核验。
+  current_alternative_en: The public material does not describe existing alternatives, which may be self-built
+    local inference, cloud APIs or other on-device frameworks; the concrete workflow still needs verification.
+  usage_reason: 推断：若它能把模型打包进应用并省去自建推理管线，开发者会在数据不能出本地的场景选择它；但缺少采用与留存证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if it packages models into an app and removes the need to build an inference
+    pipeline, developers would pick it where data cannot leave the device; but adoption and retention
+    evidence is missing, so this motive cannot be confirmed.'

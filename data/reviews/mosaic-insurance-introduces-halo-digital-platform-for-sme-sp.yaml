@@ -1,0 +1,44 @@
+- id: req-initial-mosaic-insurance-introduces-halo-digital-platform-for-sme-sp-2026-09-24
+  project_slug: mosaic-insurance-introduces-halo-digital-platform-for-sme-sp
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是中小企业特种险人工核保慢、难规模化的问题，痛点结构成立；但公开材料只有平台名称与用途，无法确认 AI 具体动作与交付，价值判断只能停在结构推理。
+    evidence_ids:
+    - ev-fb0203eb19096ea5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有单一行业媒体报道，没有核保人员评价、经纪渠道反馈或采用案例，无法判断使用侧是否形成共识。
+    evidence_ids:
+    - ev-fb0203eb19096ea5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式与买方，无法判断收入来自保险公司自用、经纪渠道还是按保单计价，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fb0203eb19096ea5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对核保结论是否可确定性交付、人工复核边界在哪，也未说明是否贴近特种险核保的第一性目标。
+    evidence_ids:
+    - ev-fb0203eb19096ea5
+  next_validation: 收集 Mosaic Insurance 官方 HALO 产品页或发布稿，确认其披露的核保输入材料、输出结论、人工复核环节与是否对外部机构开放使用。
+  market: ''
+  job: 保险公司的特种险核保人员在收到中小企业投保申请时，需要整理投保资料、比对风险信息并给出是否承保及费率的判断。
+  job_en: Specialty insurance underwriters at an insurer receive SME submissions and must assemble the
+    documents, compare risk information and decide whether to write the risk and at what rate.
+  pain: 中小企业特种险单笔保费小、资料零散、风险差异大，人工逐单核保耗时且难以规模化，公开材料未说明这一痛点被解决到什么程度。
+  pain_en: SME specialty policies carry small premiums, fragmented documents and wide risk variance, so
+    manual case-by-case underwriting is slow and hard to scale; public material does not say how far this
+    pain is addressed.
+  current_alternative: 核保人员用邮件、表格和内部承保系统人工处理投保资料，或直接拒接小单。
+  current_alternative_en: Underwriters process submissions manually through email, spreadsheets and internal
+    underwriting systems, or simply decline small accounts.
+  usage_reason: 推断：若 HALO 能把投保资料的结构化整理和风险初筛前置到系统里，核保人员可少做一轮资料归集，从而更快给出承保反馈；但公开材料未披露 AI 具体动作与交付结果，因此这一选择理由尚未被事实支持。
+  usage_reason_en: 'Inference: if HALO moves document structuring and initial risk screening into the
+    system, underwriters would skip one round of manual collation and return a decision faster; however,
+    the public material does not disclose the AI''s concrete actions or deliverable, so this reason for
+    choosing it is not yet fact-supported.'

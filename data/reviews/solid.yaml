@@ -1,0 +1,40 @@
+- id: req-initial-solid-2026-09-24
+  project_slug: solid
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-665413af6041f653
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，无共识证据可判。
+    evidence_ids:
+    - ev-665413af6041f653
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids:
+    - ev-665413af6041f653
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性。
+    evidence_ids:
+    - ev-665413af6041f653
+  next_validation: 收集 Solid 官方产品页或文档，确认代理的输入、动作、交付物与计费方式。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务。
+  job_en: Public material does not state who uses it, in what situation, with what material, to complete
+    what task.
+  pain: 无法从现有事实判断它替代了哪一步旧工作，也看不出不采用会失去什么。
+  pain_en: Existing facts do not show which old work step it replaces, nor what is lost by not adopting
+    it.
+  current_alternative: 公开材料未提及任何现有替代做法。
+  current_alternative_en: No current alternative is mentioned in the public material.
+  usage_reason: 仅有一句定位，无法说明相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With only a one-line positioning, it is impossible to say which step of burden it removes
+    versus the old way, or which users would choose it in what situation.

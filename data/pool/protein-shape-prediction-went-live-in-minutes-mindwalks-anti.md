@@ -1,6 +1,6 @@
 ---
 slug: protein-shape-prediction-went-live-in-minutes-mindwalks-anti
-name: Protein-shape prediction went live in minutes. MindWalk's antibody analysis ran ~5x faster.
+name: MindWalk
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Protein-shape prediction went live in minutes. MindWalk's antibody anal
   Titan
 first_seen: '2026-09-21T13:44:36Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Protein-shape prediction went live in minutes. MindWalk's antibody analysis ran ~5x faster.
+# MindWalk
 
 Protein-shape prediction went live in minutes. MindWalk's antibody analysis ran ~5x faster. Stock Titan
 

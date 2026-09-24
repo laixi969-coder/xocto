@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/a16z-andreessen-horowitz-europe-ai-inv
 summary: ''
 first_seen: '2026-09-22T05:00:52Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

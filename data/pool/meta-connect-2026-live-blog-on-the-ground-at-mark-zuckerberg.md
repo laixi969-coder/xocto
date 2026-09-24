@@ -24,7 +24,7 @@ summary: It's time once again for Meta's annual September product launch event, 
   […]
 first_seen: '2026-09-23T22:30:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

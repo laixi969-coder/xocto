@@ -1,0 +1,43 @@
+- id: req-initial-diffusedrive-is-filling-the-data-gaps-holding-back-physical-2026-09-24
+  project_slug: diffusedrive-is-filling-the-data-gaps-holding-back-physical
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决罕见场景训练数据缺口这一具体任务，痛点结构成立，但公开材料未说明生成方式与交付结果，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-99f28f409f260dbe
+  - gate: consensus
+    status: insufficient
+    reason: 除一篇报道外，没有客户采用、复购或行业讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-99f28f409f260dbe
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，钱从哪来只能推测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-99f28f409f260dbe
+  - gate: truth
+    status: insufficient
+    reason: 合成数据能否被下游验证为有效、是否贴近真实场景目标，公开材料未提供可核对结果。
+    evidence_ids:
+    - ev-99f28f409f260dbe
+  next_validation: 收集 DiffuseDrive 官方产品页或客户案例，确认其数据生成方式与下游验证结果。
+  market: ''
+  job: 自动驾驶或机器人团队的感知数据工程师，在模型对罕见或危险场景识别不足时，需要补齐这类场景的训练数据以完成模型迭代。
+  job_en: Perception data engineers at autonomous driving or robotics teams need to fill training-data
+    gaps for rare or dangerous scenarios when models fail to recognize them, in order to iterate the model.
+  pain: 这类场景在现实中罕见、危险或难以复现，采集成本高甚至无法采集，导致模型在这些场景下表现不可靠。
+  pain_en: Such scenarios are rare, dangerous or hard to reproduce in reality, making collection costly
+    or impossible, so models perform unreliably in them.
+  current_alternative: 团队通常靠实车路测、仿真工具自建场景或人工标注补充，流程长且覆盖有限。
+  current_alternative_en: Teams typically rely on real-world road testing, self-built simulation scenarios
+    or manual annotation, which are slow and limited in coverage.
+  usage_reason: 推断：若其生成数据能被下游验证为有效，团队可省去部分实车采集与仿真搭建步骤，因此会在特定罕见场景缺数据时选择它；但公开材料未给出客户案例或验证结果，这一环尚缺。
+  usage_reason_en: 'Inference: if its generated data can be validated as effective downstream, teams could
+    skip part of real-world collection and simulation setup, so they would choose it when specific rare
+    scenarios lack data; however, public materials give no customer cases or validation results, so this
+    link is missing.'

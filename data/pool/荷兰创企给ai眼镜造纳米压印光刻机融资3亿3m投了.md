@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1pMmlHakpRSTkz
 summary: 荷兰创企给AI眼镜造纳米压印光刻机，融资3亿，3M投了 智东西
 first_seen: '2026-09-23T09:54:23Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

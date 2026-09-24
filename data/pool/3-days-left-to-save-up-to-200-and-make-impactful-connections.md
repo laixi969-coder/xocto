@@ -22,7 +22,7 @@ summary: 3 days to save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50
   connections with 10,000+ tech leaders. Last day to save is September 25 at 11:59 p.m. PT. Register today.
 first_seen: '2026-09-23T14:00:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

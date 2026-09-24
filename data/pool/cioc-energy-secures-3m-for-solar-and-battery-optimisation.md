@@ -1,6 +1,6 @@
 ---
 slug: cioc-energy-secures-3m-for-solar-and-battery-optimisation
-name: CIOC Energy secures €3M for solar and battery optimisation
+name: CIOC Energy
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Belgian energyoptimisation company CIOC Energy has raised €3 million 
   CleverNett, which has taken a minority stake in the company. CIOCEnergy will remain independent.Foun...
 first_seen: '2026-09-23T06:00:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# CIOC Energy secures €3M for solar and battery optimisation
+# CIOC Energy
 
 Belgian energyoptimisation company CIOC Energy has raised €3 million from renewable energydeveloper CleverNett, which has taken a minority stake in the company. CIOCEnergy will remain independent.Foun...
 

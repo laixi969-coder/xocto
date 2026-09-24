@@ -1,0 +1,42 @@
+- id: req-initial-tonebird-2026-09-24
+  project_slug: tonebird
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决回复消息时顾及关系背景的需求，但材料未说明具体场景、输入与交付，痛点强度无法判断。
+    evidence_ids:
+    - ev-23562d48c5e15ed2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句简介，没有用户评价、社区讨论或采用迹象，共识卡在感知环节。
+    evidence_ids:
+    - ev-23562d48c5e15ed2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱来自个人订阅还是团队采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-23562d48c5e15ed2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近真实沟通任务、承诺能否确定性交付，也看不到人工确认边界。
+    evidence_ids:
+    - ev-23562d48c5e15ed2
+  next_validation: 收集 ToneBird 官方产品页或定价页，确认其具体使用场景、输入材料、交付形式与收费方式。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务，只能推断为需要回复消息并顾及对方关系背景的人。
+  job_en: Public material does not say who uses it, in what situation, with what material, or to finish
+    what task; it can only be inferred as someone replying to messages while accounting for the relationship
+    context of the other party.
+  pain: 材料未给出任何用户痛点描述，只能推断反复回复不同关系对象时难以保持语气与背景一致。
+  pain_en: The material gives no user pain description; it can only be inferred that keeping tone and
+    context consistent across replies to different relationships is hard.
+  current_alternative: 公开材料未说明现有替代方式，常见旧做法是用户自己逐条手写回复或使用通用写作助手。
+  current_alternative_en: The material does not state the current alternative; the common old practice
+    is writing each reply by hand or using a general writing assistant.
+  usage_reason: 材料未提供任何用户反馈或采用证据，无法说明相较手写或通用助手它减少了哪一步负担，因此不能判断用户为何选择它。
+  usage_reason_en: No user feedback or adoption evidence is provided, so it cannot be shown which step
+    it removes versus handwriting or a general assistant, and why users would choose it cannot be judged.

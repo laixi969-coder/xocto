@@ -21,7 +21,7 @@ canonical_url: https://github.com/zhulinchng/jevper
 summary: the Jev interface on top of any OpenAI-compatible model
 first_seen: '2026-09-23T12:25:21Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

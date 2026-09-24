@@ -82,3 +82,47 @@
     the inference is that enterprise operations and household users would choose it when task steps are
     stable and results are checkable, though public material gives no retention or repeat-purchase evidence
     yet.
+- id: req-initial-电厂-百度搭子牵手小度ai-agent开始寻找身体-ai助手-小度智能屏-新品发布-小度ai-家庭-手机新浪网-2026-09-24
+  project_slug: 电厂-百度搭子牵手小度ai-agent开始寻找身体-ai助手-小度智能屏-新品发布-小度ai-家庭-手机新浪网
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决企业内信息查询与任务执行，但材料未给出痛点、旧流程或不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-84aa31ee0fd2059c
+    - ev-7f0f76e6c1717d6e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有大会亮相与升级公告，没有客户采用、场景共识或持续使用的公开证据。
+    evidence_ids:
+    - ev-84aa31ee0fd2059c
+    - ev-7f0f76e6c1717d6e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与收费方式，无法判断钱从哪一方来，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7f0f76e6c1717d6e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近企业该工作的第一性目标，交付确定性与人工边界均未说明。
+    evidence_ids:
+    - ev-84aa31ee0fd2059c
+  next_validation: 收集百度搭子企业版的官方产品页或定价页，确认其具体功能、交付形式与收费方式。
+  market: ''
+  job: 企业员工在内部知识检索与流程问答场景中，处理企业文档和业务数据，要完成信息查询与任务执行。
+  job_en: Enterprise staff handling internal documents and business data in knowledge retrieval and process
+    Q&A scenarios, needing to complete information lookup and task execution.
+  pain: 材料未提供任何用户痛点、旧流程耗时或替代行为的描述，无法确认企业员工当前在哪一步受阻。
+  pain_en: The material provides no description of user pain, time spent in the old process, or workarounds,
+    so it is impossible to confirm where enterprise staff are currently blocked.
+  current_alternative: 材料未说明企业员工此前用什么方式完成同类查询与执行任务。
+  current_alternative_en: The material does not state how enterprise staff previously completed similar
+    lookup and execution tasks.
+  usage_reason: 材料只说明企业版能力升级与大会亮相，未披露具体动作、交付结果或用户反馈，无法解释用户为何选择它而非旧做法。
+  usage_reason_en: The material only states an enterprise edition upgrade and a conference appearance,
+    without specific actions, deliverables or user feedback, so it cannot explain why users would choose
+    it over the old approach.

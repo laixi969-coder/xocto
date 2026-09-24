@@ -1,0 +1,41 @@
+- id: req-initial-agentrun-2026-09-24
+  project_slug: agentrun
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 agent 步骤难以复用的问题，但公开材料只有一句功能描述，说不清谁在什么环节使用、不采用会失去什么。
+    evidence_ids:
+    - ev-8752e622b7929dde
+  - gate: consensus
+    status: insufficient
+    reason: 仅 8 个社区投票、0 条评论，没有可归因到该项目的采用或讨论证据。
+    evidence_ids:
+    - ev-8752e622b7929dde
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或收费方式，钱从哪来无法判断。
+    evidence_ids:
+    - ev-8752e622b7929dde
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 DSL 的实际表达能力、运行环境与交付确定性，也看不到人工边界说明。
+    evidence_ids:
+    - ev-8752e622b7929dde
+  next_validation: 收集该仓库的 README、示例工作流与 issue/discussion，确认 DSL 的实际输入输出与是否有外部使用者。
+  market: ''
+  job: 开发者在把已有 agent 接入生产流程时，需要把零散的调用步骤整理成可重复执行的工作流定义。
+  job_en: Developers integrating existing agents into production need to turn scattered call steps into
+    a repeatable workflow definition.
+  pain: agent 调用步骤散落在代码里，难以复用和交接；但公开材料未说明具体是谁、在什么环节遇到这一痛点。
+  pain_en: Agent call steps are scattered in code and hard to reuse or hand over; the public material
+    does not say who hits this pain or at which step.
+  current_alternative: 手写编排代码，或使用已有的工作流编排框架。
+  current_alternative_en: Hand-written orchestration code, or existing workflow orchestration frameworks.
+  usage_reason: 推断：若 DSL 能把编排从代码中抽成声明式定义，可减少改流程时逐处改代码的负担；但缺少使用反馈与采用证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the DSL abstracts orchestration into a declarative definition, it could
+    cut the work of editing code in many places when a flow changes; without usage feedback or adoption
+    evidence, it is unclear users would choose it for this.'

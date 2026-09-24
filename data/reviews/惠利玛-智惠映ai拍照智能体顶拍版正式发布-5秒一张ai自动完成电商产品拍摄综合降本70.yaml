@@ -1,0 +1,43 @@
+- id: req-initial-惠利玛-智惠映ai拍照智能体顶拍版正式发布-5秒一张ai自动完成电商产品拍摄综合降本70-2026-09-24
+  project_slug: 惠利玛-智惠映ai拍照智能体顶拍版正式发布-5秒一张ai自动完成电商产品拍摄综合降本70
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电商上新时实物商品必须变成可上架主图的需求，痛点是拍摄排期长、单款成本高，旧做法是外包摄影或手机自拍修图，结构上成立。
+    evidence_ids:
+    - ev-4e89cc4b65f06b99
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布方自述的5秒一张与降本70%，没有卖家采用、复购或平台主图通过率的公开证据，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-4e89cc4b65f06b99
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按张还是按席位收费，也未说明买方是卖家还是代运营服务商；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-4e89cc4b65f06b99
+  - gate: truth
+    status: insufficient
+    reason: 出图是否达到平台主图标准、是否需人工修图返工、支持哪些品类均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-4e89cc4b65f06b99
+  next_validation: 收集智惠映AI拍照智能体顶拍版的官方定价页或客户案例，核对按张计价方式与出图是否直接通过电商平台主图审核。
+  market: ''
+  job: 电商卖家在换季上新或改款时，需要把实物商品拍成可上架的主图，交给平台店铺和详情页使用。
+  job_en: An e-commerce seller preparing a seasonal or revised listing needs the physical product turned
+    into a listing-ready hero image for the storefront and detail page.
+  pain: 自建拍摄要协调场地、摄影师和后期，周期长且单款成本高；小卖家上新频繁时，拍摄排期常成为上架瓶颈。
+  pain_en: In-house shooting requires coordinating space, a photographer and retouching, with long lead
+    times and high per-item cost; for frequent small sellers, shooting schedules often bottleneck listing.
+  current_alternative: 外包给摄影工作室或自由摄影师，或用手机自拍加修图软件处理，也有卖家直接沿用供应商提供的图片。
+  current_alternative_en: Outsourcing to a photo studio or freelance photographer, or shooting on a phone
+    and retouching, while some sellers simply reuse supplier-provided images.
+  usage_reason: 推断：相比约拍档期，它把布光、拍摄、出图压缩成一次自动动作，卖家在需要临时补图或小批量上新时不必等排期，可核对的结果是出图时间从数天缩短到秒级；但出图是否达到平台主图标准仍需人工确认。
+  usage_reason_en: 'Inference: compared with booking a shoot, it compresses lighting, capture and output
+    into one automated action, so sellers needing urgent or small-batch images avoid waiting for a slot;
+    the checkable result is output time falling from days to seconds, though whether images meet platform
+    hero-image standards still needs human confirmation.'

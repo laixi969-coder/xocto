@@ -1,0 +1,42 @@
+- id: req-initial-herdr-pocket-2026-09-24
+  project_slug: herdr-pocket
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决人离开机器后无法掌握 agent 状态的问题，痛点具体；但公开材料未说明现有替代方式的具体代价，价值判断只能停在结构推理。
+    evidence_ids:
+    - ev-e0f40d137baa22cc
+  - gate: consensus
+    status: insufficient
+    reason: 42 星与 3 次 fork 只说明少量开发者关注，没有用户评价或采用案例，共识是否形成无法判断。
+    evidence_ids:
+    - ev-e0f40d137baa22cc
+  - gate: model
+    status: insufficient
+    reason: 开源客户端没有定价页，买方与付费路径未披露，且依赖 Herdr 生态，商业归属不清；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e0f40d137baa22cc
+  - gate: truth
+    status: insufficient
+    reason: SSH 直连自有机器这一路径可核对，但公开材料未说明移动网络下状态刷新与终端操作的可靠性，交付确定性无法确认。
+    evidence_ids:
+    - ev-e0f40d137baa22cc
+  next_validation: 收集该仓库的 issue/discussion 与 Herdr 官方部署文档，确认 SSH 直连方案在移动网络下是否被实际用于远程处理 agent 会话。
+  market: ''
+  job: 开发者在离开工位时，需要连回自己的机器查看编码 agent 的运行状态，并在必要时进入终端处理卡住的会话。
+  job_en: When developers are away from their desk, they need to connect back to their own machines to
+    check coding agent status and, if needed, enter a terminal to handle a stuck session.
+  pain: agent 跑在本地机器上，人离开后无法判断任务是否完成或报错，只能等回到电脑前才发现。
+  pain_en: Agents run on local machines, so once the person leaves they cannot tell whether a task finished
+    or failed until they return to the computer.
+  current_alternative: 开发者目前靠远程桌面、SSH 客户端或干脆等回到电脑前再检查。
+  current_alternative_en: Developers currently rely on remote desktop, an SSH client, or simply wait until
+    they are back at the computer.
+  usage_reason: 推断：相较远程桌面或通用 SSH 客户端，它把 agent 状态看板和终端放在同一入口，减少先登录再找会话这一步；但公开材料未显示开发者是否持续使用，缺少留存证据。
+  usage_reason_en: 'Inference: compared with remote desktop or a generic SSH client, it puts the agent
+    status board and terminal in one entry point, removing the step of logging in and then locating the
+    session; public material does not show sustained use or retention.'

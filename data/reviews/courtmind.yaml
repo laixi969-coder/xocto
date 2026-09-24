@@ -1,0 +1,43 @@
+- id: req-initial-courtmind-2026-09-24
+  project_slug: courtmind
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决赛后复盘录像这一需求，但公开材料只有一句产品标语，说不清识别什么、交付什么，痛点环节无法确认。
+    evidence_ids:
+    - ev-cb5313c28ad84a9f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有一个开源仓库和 41 个星标，没有用户评价、教练采用或场景讨论可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-cb5313c28ad84a9f
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页、付费路径或买方信息，无法判断钱来自学员、教练还是俱乐部。
+    evidence_ids:
+    - ev-cb5313c28ad84a9f
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有样例输出或实测结果，无法核对分析是否准确、是否贴近真实训练目标。
+    evidence_ids:
+    - ev-cb5313c28ad84a9f
+  next_validation: 收集该仓库的 README、示例输出或 issue/discussion，确认它从比赛视频中实际识别什么、交付什么形式的分析结果。
+  market: ''
+  job: 业余羽毛球选手或教练在打完一场比赛后，面对整段比赛录像，想找出自己或学员的击球与跑位问题，用于下一阶段训练。
+  job_en: After a match, an amateur badminton player or coach works through the full match recording to
+    identify shot and movement problems for the next training cycle.
+  pain: 公开材料只给出“从任意比赛视频生成 AI 教练”这一句，没有说明它具体识别什么、输出什么、谁来确认，因此无法判断用户到底卡在哪一步。
+  pain_en: The public material only states 'AI badminton coach from any match video' and does not say
+    what is detected, what is output, or who confirms it, so the actual user bottleneck cannot be identified.
+  current_alternative: 选手和教练目前靠人工反复拖进度条看录像、口头点评，或干脆不复盘。
+  current_alternative_en: Players and coaches currently rewatch footage manually, give verbal feedback,
+    or skip review altogether.
+  usage_reason: 推断：如果它能把整段录像自动切成回合并标出可核对的击球点，就能省掉人工逐段找片段这一步，带多名学员的教练会更有理由使用；但缺少任何用户反馈或交付样例，这一因果尚未被公开材料支持。
+  usage_reason_en: 'Inference: if it automatically segments a full recording into rallies and marks checkable
+    shot points, it removes the manual step of hunting for clips, which would matter most to coaches handling
+    several students; however no user feedback or sample output is public, so this causal claim is not
+    yet supported.'

@@ -3,16 +3,17 @@ slug: exclusive-manufacturing-ai-startup-caddi-valued-at-12-billio
 name: CADDi
 builder: ''
 category: AI + 商业
-summary_zh: 制造业采购或报价人员拿到零件图纸与清单后，原本要逐家向供应商发询价、等回价再人工比价；CADDi 让 AI 读取图纸与零件数据，自动匹配可加工供应商并给出报价与交期，采购方据此下单，最终交付仍需人工确认。具体流程与交付细节仍待核验。
-inspiration: 趋势是制造业询价这一老流程开始被数据化，报价从人脉驱动转向可检索的供给匹配。切入可放在非标零件、小批量多品种的加工厂与采购方之间，按成交或按询价单收费，而不是卖软件席位；先做某一类工艺（如钣金、机加工）的供给密度。
-summary_en: When manufacturing procurement or quoting staff receive part drawings and lists, they traditionally
-  send requests to suppliers one by one, wait for quotes and compare them by hand. CADDi has AI read drawings
-  and part data, match them to capable suppliers and return quotes and lead times for the buyer to order
-  against, with human confirmation still required. The exact workflow and deliverables remain to be verified.
-inspiration_en: The trend is that the old quoting workflow in manufacturing is being datafied, shifting
-  sourcing from personal networks to searchable supply matching. The entry point is between buyers and
-  job shops for non-standard, high-mix low-volume parts, charging per transaction or per quote request
-  rather than per seat, starting with dense supply in one process such as sheet metal or machining.
+summary_zh: 面向制造业采购与供应链环节：采购或质量工程师在需要为图纸零件寻找加工供应商、核对报价与图纸公差时，把图纸和规格交给系统，由AI解析图纸信息并匹配可加工的供应商、辅助报价与订单跟进，最终产出可比较的报价与供应商候选；具体流程与交付边界仍待核验。
+inspiration: 趋势：制造业的图纸解析与供应商匹配正在从老师傅经验和邮件往返，变成可被系统读取的结构化流程。切入：从中小机加工厂的报价环节进入，按成功订单或报价单收费，而不是卖软件席位；先做单一工艺（如钣金、CNC）的图纸可制造性判断，再扩品类。
+summary_en: 'For manufacturing procurement and supply chains: when a procurement or quality engineer needs
+  to source machine shops for a drawing-based part and compare quotes against tolerances, the system takes
+  in drawings and specs, uses AI to parse them and match capable suppliers, and supports quoting and order
+  follow-up, producing comparable quotes and supplier candidates; the exact workflow and delivery boundary
+  still need verification.'
+inspiration_en: 'Trend: drawing interpretation and supplier matching in manufacturing are moving from
+  veteran know-how and email back-and-forth toward machine-readable workflows. Entry: start at the quoting
+  step for small machine shops and charge per won order or per quote rather than per seat; begin with
+  one process such as sheet metal or CNC manufacturability checks, then expand categories.'
 priority_review: false
 project_type: ai_transformation
 industries:
@@ -22,10 +23,11 @@ industries_en:
 - Manufacturing
 - Industrial parts procurement
 jobs:
-- 制造业采购与报价人员处理图纸和零件清单，向供应商询价并比价
+- 采购工程师
+- 供应商质量工程师
 jobs_en:
-- Manufacturing procurement and quoting staff handling drawings and parts lists to request and compare
-  supplier quotes
+- Procurement engineer
+- Supplier quality engineer
 regions:
 - 日本
 regions_en:
@@ -37,7 +39,7 @@ summary: 'Exclusive: Manufacturing AI startup CADDi valued at $1.2 billion follo
   D funding round Fortune'
 first_seen: '2026-09-15T17:00:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:

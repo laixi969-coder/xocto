@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE12ZHdQcXJ5YzdC
 summary: Meta AI智能体Muse爆红后陷“三重危机”：遭亚马逊“封杀”、六家银行预警，可被一行命令劫持，AI通话竟有真人代劳 每日经济新闻
 first_seen: '2026-09-23T10:12:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

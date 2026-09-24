@@ -22,7 +22,7 @@ summary: 'jev-seo: Rust SEO and GEO CLI plus MCP server for coding agents: 50-ru
   GEO scores, rank drift, CI gates. MIT, zero subscription.'
 first_seen: '2026-09-18T13:02:32Z'
 last_seen: '2026-09-24T00:30:54Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

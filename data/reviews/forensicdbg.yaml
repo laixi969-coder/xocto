@@ -1,0 +1,43 @@
+- id: req-initial-forensicdbg-2026-09-24
+  project_slug: forensicdbg
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决崩溃排查需求，但公开材料未说明旧流程、痛点强度与交付确定性，价值结构无法还原。
+    evidence_ids:
+    - ev-9e909c879dfe8a9e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有用户评价、客户案例或采用行为，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-9e909c879dfe8a9e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是开发者自购还是企业采购不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9e909c879dfe8a9e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近崩溃排查工作的第一性目标，也看不到人工确认边界与交付结果。
+    evidence_ids:
+    - ev-9e909c879dfe8a9e
+  next_validation: 收集 forensicdbg 官方文档或定价页，确认它接收的转储格式、分析输出内容以及是否包含 AI 环节。
+  market: ''
+  job: Windows 应用开发者或技术支持工程师在收到用户提交的原生 x64/x86 崩溃后，用它对崩溃转储做事后分析，要定位崩溃原因。
+  job_en: A Windows application developer or support engineer uses it to post-mortem analyze a crash dump
+    after a user reports a native x64/x86 crash, aiming to locate the cause.
+  pain: 公开材料只说明它是崩溃事后调试器，没有说明原来由谁、用什么工具、花多久排查，也没有用户抱怨或替代行为记录，痛点强度无法确认。
+  pain_en: Public material only says it is a post-mortem debugger for crashes; it does not say who investigated
+    before, with what tools, or how long it took, and no user complaints or workarounds are recorded,
+    so pain intensity cannot be confirmed.
+  current_alternative: 公开材料未提供旧做法信息，无法确认此前是使用 WinDbg 等调试器、人工读转储还是依赖资深工程师经验。
+  current_alternative_en: Public material provides no information on the prior practice, so it is unclear
+    whether teams used debuggers such as WinDbg, read dumps manually, or relied on senior engineer experience.
+  usage_reason: 推断：若它能把崩溃转储直接转成原因线索，可能省去人工读转储这一步，但公开材料没有说明具体动作、交付确定性或用户反馈，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it turns a crash dump directly into cause clues, it may remove a manual
+    dump-reading step, but public material does not describe the concrete action, delivery certainty or
+    user feedback, so it is unclear which users would choose it and when.'

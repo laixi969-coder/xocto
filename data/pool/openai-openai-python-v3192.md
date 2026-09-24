@@ -1,6 +1,6 @@
 ---
 slug: openai-openai-python-v3192
-name: 'openai/openai-python: v3.19.2'
+name: openai-python
 builder: openai
 category: ''
 summary_zh: ''
@@ -43,7 +43,7 @@ summary: '## [3.19.2](https://github.com/openai/openai-python/compare/v3.19.1...
   ([325a948](https://github.com/openai/openai-python/commit/325a948a545add0201e082e778ca11b90ddb9426))'
 first_seen: '2026-09-24T00:05:23Z'
 last_seen: '2026-09-24T00:30:54Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -55,7 +55,7 @@ sightings:
   kind: news
 ---
 
-# openai/openai-python: v3.19.2
+# openai-python
 
 ## [3.19.2](https://github.com/openai/openai-python/compare/v3.19.1...v3.19.2) (2026-09-23)
 

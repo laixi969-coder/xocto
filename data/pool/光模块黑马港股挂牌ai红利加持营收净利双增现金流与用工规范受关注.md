@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE9jaDhpWnh4Z21C
 summary: 光模块黑马港股挂牌！AI红利加持营收净利双增，现金流与用工规范受关注 新浪财经
 first_seen: '2026-09-23T08:32:43Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

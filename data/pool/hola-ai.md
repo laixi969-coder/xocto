@@ -37,7 +37,7 @@ canonical_url: https://producthunt.com/products/hola-ai
 summary: An AI voicemail assistant that answers calls when you can’t.
 first_seen: '2026-09-21T21:42:18Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

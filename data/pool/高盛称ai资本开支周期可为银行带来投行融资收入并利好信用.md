@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qR1JvX0ZxZU94
 summary: 高盛称AI资本开支周期可为银行带来投行融资收入并利好信用 观点网
 first_seen: '2026-09-23T07:37:11Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

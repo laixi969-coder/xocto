@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPcXRNaWd3T2xB
 summary: Artificial Intelligence (AI)-Enhanced Product Review openPR.com
 first_seen: '2026-09-22T14:00:12Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

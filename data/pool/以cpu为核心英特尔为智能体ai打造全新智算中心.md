@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zTms2RTJfWWJW
 summary: 以CPU为核心，英特尔为智能体AI打造全新智算中心 通信世界网
 first_seen: '2026-09-23T02:09:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

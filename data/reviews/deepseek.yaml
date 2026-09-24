@@ -152,3 +152,48 @@
   usage_reason: DeepSeek 提供免费、便捷的对话式交互，能快速生成文本，满足即时需求。
   usage_reason_en: DeepSeek offers free, convenient conversational interaction, quickly generating text
     to meet immediate needs.
+- id: req-initial-deepseek-2026-09-24
+  project_slug: deepseek
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决写作、检索、编程中从提问到可用初稿的需求，痛点是旧流程需人工筛选与拼装，替代行为明确存在。
+    evidence_ids:
+    - ev-87eac342934d160f
+    - ev-1549e1bd09da7ff9
+  - gate: consensus
+    status: supported
+    reason: 第三方榜单显示月访问量约4.838亿次，规模已成立，但环比下降10.59%，说明关注度处于高位波动而非单向扩张。
+    evidence_ids:
+    - ev-1549e1bd09da7ff9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费转化或企业采购数据，买方与收费方式只能推断为C端订阅加API调用，属判断而非已验证事实。
+    evidence_ids:
+    - ev-87eac342934d160f
+  - gate: truth
+    status: insufficient
+    reason: 论文披露的是训练侧沙盒吞吐，未说明该能力如何进入用户侧交付，也未提供留存或复购证据，承诺能否确定性交付仍缺一环。
+    evidence_ids:
+    - ev-1549e1bd09da7ff9
+  next_validation: 收集DeepSeek官方定价页或API文档更新，核验Agent训练能力是否已进入面向用户的产品与计费方式。
+  market: ''
+  job: 个人用户与知识工作者在写作、查资料、写代码或日常问答时，把问题或材料交给对话界面，要拿到可直接使用的答案、草稿或代码。
+  job_en: Individuals and knowledge workers hand a question or material to a chat interface while writing,
+    researching, coding or asking everyday questions, expecting a directly usable answer, draft or code.
+  pain: 通用搜索要自己筛网页、拼答案，专业写作和编程的初稿成本高；用户需要一个能直接给出可用初稿、并支持多轮追问的入口。
+  pain_en: General search forces users to sift pages and assemble answers themselves, and first drafts
+    for professional writing and coding are costly; users want an entry point that returns a usable draft
+    and supports follow-up questions.
+  current_alternative: 搜索引擎加人工整理、办公套件自带助手、其他通用对话产品，以及自行调用模型接口搭建内部工具。
+  current_alternative_en: Search engines plus manual assembly, assistants bundled in office suites, other
+    general chat products, and self-built tools calling model APIs.
+  usage_reason: 相较搜索加人工拼答案，它把提问到成稿压缩成一次对话，并支持多轮修改；本次论文披露的沙盒训练环境若落地，可让多步任务在受控环境中试错后再交付，这是推断，公开材料尚未显示该能力已进入用户侧产品。
+  usage_reason_en: Compared with search plus manual assembly, it compresses question to draft into one
+    conversation with iterative edits; if the sandbox training environment in the paper ships, multi-step
+    tasks could be trialed in a controlled setting before delivery — an inference, since public material
+    does not yet show this reaching the user-facing product.

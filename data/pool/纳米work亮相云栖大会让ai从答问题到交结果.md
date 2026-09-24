@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTZRRWtnMDhG
 summary: 纳米Work亮相云栖大会：让AI从“答问题”到“交结果” 搜狐网
 first_seen: '2026-09-22T11:30:29Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

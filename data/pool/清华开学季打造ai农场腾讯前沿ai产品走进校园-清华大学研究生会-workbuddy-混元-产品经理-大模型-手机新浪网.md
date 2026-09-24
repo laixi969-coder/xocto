@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi_gJBVV95cUxONlBVc0ZjbFEt
 summary: 清华开学季打造“AI农场”，腾讯前沿AI产品走进校园|清华大学研究生会|WorkBuddy|混元|产品经理|大模型_手机新浪网 新浪财经
 first_seen: '2026-09-22T13:27:19Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

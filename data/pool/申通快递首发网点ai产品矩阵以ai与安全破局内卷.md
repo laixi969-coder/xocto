@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTFBWRjN4LTBNRVpQ
 summary: 申通快递首发网点AI产品矩阵，以“AI与安全”破局内卷 央广财经
 first_seen: '2026-09-22T08:35:04Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

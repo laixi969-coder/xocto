@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnBYSDJ0UFY4
 summary: 国内首场县域级医院智能体培训在江苏举行，探索县域医疗AI建设新路径 中国江苏网
 first_seen: '2026-09-23T08:50:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

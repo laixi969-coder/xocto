@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-to
 summary: Trump focus on winning “AI race” may deter China from sharing safety intel.
 first_seen: '2026-09-23T20:52:28Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

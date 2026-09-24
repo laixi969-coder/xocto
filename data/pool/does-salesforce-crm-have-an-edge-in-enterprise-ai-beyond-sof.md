@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOeEV3cy1ubGxB
 summary: Does Salesforce (CRM) Have An Edge In Enterprise AI Beyond Software? simplywall.st
 first_seen: '2026-09-23T09:36:06Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

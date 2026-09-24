@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food
 summary: '"So absurd and embarrassing ..."'
 first_seen: '2026-09-23T17:39:39Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

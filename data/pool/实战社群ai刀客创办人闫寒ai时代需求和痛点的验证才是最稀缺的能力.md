@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SQUpxeFR2elpZ
 summary: 实战社群【AI刀客】创办人闫寒：AI时代，需求和痛点的验证才是最稀缺的能力 红餐网
 first_seen: '2026-09-23T09:24:44Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

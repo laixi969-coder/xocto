@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzdFbTRsN3NU
 summary: 让AI不止思考，更能行动｜2026星凡智能XFEON产品矩阵正式亮相 搜狐网
 first_seen: '2026-09-23T01:31:50Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

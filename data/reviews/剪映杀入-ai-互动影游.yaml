@@ -1,0 +1,47 @@
+- id: req-initial-剪映杀入-ai-互动影游-2026-09-24
+  project_slug: 剪映杀入-ai-互动影游
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决素材分散、构思与剪辑割裂、口播字幕靠手工逐条处理的需求，痛点在成片量大的团队里刚性，交付为可继续精修的工程，人工确认仍在。
+    evidence_ids:
+    - ev-3be7a414223cb144
+  - gate: consensus
+    status: insufficient
+    reason: 发布会与会员定价说明官方在推，但公开材料没有创作者采用规模、留存或口碑数据，共识只到官方叙事层。
+    evidence_ids:
+    - ev-3be7a414223cb144
+  - gate: model
+    status: supported
+    reason: AI Ultra 会员连续包月 199 元、首发 99 元并含 22100 点积分，to C 订阅路径明确；这是已披露定价，不是已验证的付费规模。
+    evidence_ids:
+    - ev-3be7a414223cb144
+  - gate: truth
+    status: insufficient
+    reason: 助手在工程内执行的动作与剪辑第一性目标一致，但公开材料未说明生成素材的版权、事实核对与人工终审边界，交付确定性仍待核验。
+    evidence_ids:
+    - ev-3be7a414223cb144
+  next_validation: 收集剪映官方对剪映 Hub 与剪映助手的定价页或功能文档，确认 AI 积分消耗规则、生成素材的版权与人工终审说明。
+  market: ''
+  job: 短视频剪辑师和电商视频运营在拿到一句话创意、参考视频或文档后，需要在剪映 Hub 的画布上生成脚本分镜、调用即梦等产出素材，再在时间线里完成初剪与包装，交付一条可发布的成片。
+  job_en: Short-form editors and e-commerce video operators start from a one-line idea, reference video
+    or document, generate scripts and storyboards on the Jianying Hub canvas, call Jimeng and similar
+    tools for assets, then finish a rough cut and packaging on the timeline to deliver a publishable video.
+  pain: 素材分散在多个生成工具与本地文件夹，构思、素材管理和后期剪辑割裂，口播删减、字幕纠正和补画面靠人工逐条处理，出片周期长且重复劳动多。
+  pain_en: Assets are scattered across several generation tools and local folders; ideation, asset management
+    and post-production are disconnected, and trimming voice-over, fixing subtitles and finding b-roll
+    are done manually clip by clip, lengthening turnaround and adding repetitive work.
+  current_alternative: 剪辑师在剪映或其他非线性编辑软件里手工整理素材、逐句删口播、手动改字幕，再切到即梦等生成工具单独出图出片，最后回到时间线拼接。
+  current_alternative_en: Editors manually sort assets, cut voice-over line by line and fix subtitles
+    in Jianying or another NLE, switch to separate generation tools such as Jimeng for images and clips,
+    then return to the timeline to assemble everything.
+  usage_reason: 相较旧做法，剪映助手直接在剪辑工程内读取素材并执行整理、删口播、纠字幕、检索补画面，把原本要在多个工具和时间线之间来回切换的步骤收进同一工程，减少手工逐条处理的负担；推断高频出片的电商视频与口播团队会因此选择它，但公开材料未给出留存或复购证据。
+  usage_reason_en: Compared with the old workflow, Jianying Assistant reads assets inside the editing
+    project and performs sorting, voice-over trimming, subtitle correction and b-roll search, folding
+    steps that previously required switching between several tools and the timeline into one project and
+    cutting manual clip-by-clip work; the inference is that high-volume e-commerce video and talking-head
+    teams would choose it, though no retention or repeat-purchase evidence is public.

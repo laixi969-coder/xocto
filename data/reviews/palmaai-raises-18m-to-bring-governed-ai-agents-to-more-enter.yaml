@@ -1,0 +1,44 @@
+- id: req-initial-palmaai-raises-18m-to-bring-governed-ai-agents-to-more-enter-2026-09-24
+  project_slug: palmaai-raises-18m-to-bring-governed-ai-agents-to-more-enter
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决智能体自动执行后的权限与审计问题，痛点方向清楚，但公开材料只有一句定位，说不清具体拦截动作与交付物，需求强度无法判定。
+    evidence_ids:
+    - ev-e32f332554efe3b3
+  - gate: consensus
+    status: insufficient
+    reason: 除融资消息外没有客户名单、部署案例或使用反馈，无法判断企业是否已把它纳入上线流程。
+    evidence_ids:
+    - ev-e32f332554efe3b3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方角色，只能推断可能由企业平台或合规预算支付，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e32f332554efe3b3
+  - gate: truth
+    status: insufficient
+    reason: 运行时治理能否确定性拦截并留下可核对记录，公开材料未给出机制说明或实测结果。
+    evidence_ids:
+    - ev-e32f332554efe3b3
+  next_validation: 收集 Palma.ai 官方产品页或部署文档，确认其运行时治理的具体拦截动作、审计交付物与计价方式。
+  market: ''
+  job: 企业 AI 平台或合规人员要在智能体接入内部系统后，处理智能体运行日志与权限记录，确认某次自动执行是否越权并留下可审计结论。
+  job_en: Enterprise AI platform or compliance staff, after agents are connected to internal systems,
+    work through agent runtime logs and permission records to confirm whether a given automated action
+    exceeded authority and to leave an auditable conclusion.
+  pain: 智能体自动执行时，人工难以逐步复核它调用了哪些系统、用了什么权限；出问题后缺少可追溯记录。
+  pain_en: When agents act automatically, people cannot easily review step by step which systems they
+    called and with what permissions, and after an incident there is little traceable record.
+  current_alternative: 目前多靠人工抽查日志、在流程里加审批节点，或干脆限制智能体权限范围。
+  current_alternative_en: Today this is mostly manual log sampling, added approval steps in the workflow,
+    or simply restricting agent permissions.
+  usage_reason: 推断：若它能在运行时记录并拦截越权调用，可省去事后人工翻日志这一步，让合规人员直接拿到可审计结论；但公开材料未说明拦截规则、报告形态与人工确认环节，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it records and blocks out-of-scope calls at runtime, it could remove
+    the manual log-trawling step and hand compliance staff an auditable conclusion; however the public
+    material does not describe blocking rules, report format or human confirmation, so it is not yet established
+    that users would choose it for this.'

@@ -1,11 +1,15 @@
 ---
 slug: openai-发布-gpt-6-sol-和-luna传字节跳动豆包收缩对话团队千问发布-ai-手机全栈解决方案-极客早知
-name: OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道
+name: GPT-6 Sol
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 于 2026 年 9 月 23 日发布 GPT-6 Sol 与 GPT-6 Luna 两款模型，官方称其沿用 GPT-6 Astra 的训练方法，把专业工作、事实性、编码、计算机使用与对齐能力下放到更快、更便宜的档位，API
+  价格较 GPT-5.6 促销价降低 50%，同时表示 Astra 仍是整体最强模型。
 inspiration: ''
-summary_en: ''
+summary_en: On 23 September 2026 OpenAI released GPT-6 Sol and GPT-6 Luna, which it says reuse the GPT-6
+  Astra training approach to bring professional-work, factuality, coding, computer-use and alignment performance
+  into faster, cheaper tiers, with API prices 50% below the GPT-5.6 promotional price, while Astra remains
+  the strongest overall model.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -70,7 +74,7 @@ summary: "OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50% \n 9 �
   \ 数据显示，预计到 2035 年，太空机器人市场规模将达到 124 亿美元，约为 2026 年市场规模的两倍。（来源：IT 之家）"
 first_seen: '2026-09-23T00:39:09Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -81,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道
+# GPT-6 Sol
 
 OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50% 
  9 月 23 日消息，OpenAI 今日发布 GPT-6 系列模型的最新成员 GPT-6 Sol 和 GPT-6 Luna。 

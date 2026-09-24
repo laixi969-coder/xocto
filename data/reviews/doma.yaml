@@ -1,0 +1,42 @@
+- id: req-initial-doma-2026-09-24
+  project_slug: doma
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无接口网页系统里重复操作的负担，痛点来自手工点击易错且脚本易失效，旧做法是爬虫或人工，结构上成立。
+    evidence_ids:
+    - ev-3f85db1ebe6a6473
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与分支数，缺少用户反馈或客户案例，无法确认是否形成持续使用。
+    evidence_ids:
+    - ev-3f85db1ebe6a6473
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或买方，商业化路径在公开材料中缺失，属判断而非事实。
+    evidence_ids:
+    - ev-3f85db1ebe6a6473
+  - gate: truth
+    status: insufficient
+    reason: 未说明代理在提交表单等有副作用操作上的人工确认边界，交付确定性缺少公开证据。
+    evidence_ids:
+    - ev-3f85db1ebe6a6473
+  next_validation: 查看该仓库的 issue 与文档，确认是否说明有副作用操作的人工确认机制及可复现的实测案例。
+  market: ''
+  job: 运营或数据人员面对没有开放接口的后台网页，需要定期取数、填表或提交表单，把重复点击交给代理完成。
+  job_en: Operations or data staff facing back-office web pages without APIs need to periodically pull
+    data, fill forms or submit entries, delegating repetitive clicking to an agent.
+  pain: 手工点击和复制粘贴枯燥且易错，页面改版后脚本容易失效，人力成本随频次线性增长。
+  pain_en: Manual clicking and copy-pasting is tedious and error-prone, scripts break after page redesigns,
+    and labor cost grows linearly with frequency.
+  current_alternative: 写固定选择器的爬虫脚本，或安排人工按流程逐页操作。
+  current_alternative_en: Writing crawler scripts with fixed selectors, or assigning staff to operate
+    page by page following a procedure.
+  usage_reason: 推断：相较固定选择器脚本，它用模型理解页面结构来执行操作，页面改版时少一步重写脚本的工作，因此维护多个无接口后台的团队会先试用。
+  usage_reason_en: 'Inference: compared with fixed-selector scripts, it uses a model to understand page
+    structure when acting, removing the step of rewriting scripts after redesigns, so teams maintaining
+    several API-less back offices are likely to try it first.'

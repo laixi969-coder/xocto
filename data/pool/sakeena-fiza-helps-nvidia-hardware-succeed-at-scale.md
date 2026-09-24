@@ -24,7 +24,7 @@ summary: 'When Sakeena Fiza describes her work as a validation engineer at NVIDI
   is: how can it […]'
 first_seen: '2026-09-23T15:00:32Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

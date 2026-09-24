@@ -169,3 +169,43 @@
     advice, so Mac users with repetitive desktop workflows may choose it; however the public material
     does not state which apps are supported or which actions need human confirmation, and there is no
     user feedback or retention evidence, so it cannot be claimed as a lasting part of their workflow'
+- id: req-initial-metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp-2026-09-24
+  project_slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨应用重复操作耗时易错的问题，痛点结构成立，但候选材料没有用户抱怨、替代行为或采用证据，价值判断只能停在推理层面。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 候选材料未提供任何用户评价、社区讨论或采用规模，无法判断共识卡在哪一环。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自 Meta 生态内的订阅或捆绑，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 桌面代理直接操作文件与应用，误操作后果与人工确认边界未在材料中说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集 Muse 官方产品页或帮助文档，确认其支持的应用范围、操作权限与人工确认机制。
+  market: ''
+  job: Mac 用户在处理本地文件与多个应用之间的重复操作时，让助手读取文件与应用内容并代为执行操作。
+  job_en: Mac users let an assistant read local files and app content and act on their behalf when handling
+    repetitive operations across files and multiple apps.
+  pain: 跨应用重复操作需要人工逐步点击和搬运内容，耗时且易错；但候选材料未给出用户抱怨、替代行为或采用证据。
+  pain_en: Repetitive cross-app operations require manual clicking and moving content step by step, which
+    is slow and error-prone; however, the candidate material offers no user complaints, workaround behavior
+    or adoption evidence.
+  current_alternative: 用户目前靠手动在多个应用间切换、复制粘贴，或使用系统自带快捷指令与脚本。
+  current_alternative_en: Users currently switch between apps manually, copy and paste, or use built-in
+    shortcuts and scripts.
+  usage_reason: 推断：相较手动逐步操作，它通过直接读取文件与应用内容并代为执行动作，省去用户逐项点击与搬运的步骤，因此对频繁处理同类桌面操作的用户有吸引力；但缺少留存或重复使用证据，无法确认其已被长期留在工作流中。
+  usage_reason_en: 'Inference: compared with manual step-by-step operation, it reads file and app content
+    and executes actions directly, removing the need for users to click and move items one by one, which
+    appeals to users who frequently handle similar desktop operations; but without retention or repeated-use
+    evidence, it cannot be confirmed as staying in the workflow long term.'

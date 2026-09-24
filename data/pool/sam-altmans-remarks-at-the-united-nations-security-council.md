@@ -22,7 +22,7 @@ summary: OpenAI CEO Sam Altman discusses AI safety, human control, and internati
   to the United Nations Security Council.
 first_seen: '2026-09-23T12:00:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

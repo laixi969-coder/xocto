@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/496609.html
 summary: 联想天禧AI携全场景多端产品矩阵亮相阿里云栖大会
 first_seen: '2026-09-23T10:35:16Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

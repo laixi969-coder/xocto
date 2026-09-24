@@ -22,7 +22,7 @@ summary: "### Patch Changes\n\n- Updated dependencies [bf29419]\n  - @ai-sdk/pro
   \ - @ai-sdk/openai-compatible@1.0.56"
 first_seen: '2026-09-23T22:00:50Z'
 last_seen: '2026-09-24T00:30:54Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5TeGg3UGg1QU1p
 summary: 'AI Power Shifts: From Models to Customer Control varindia.com'
 first_seen: '2026-09-23T09:32:29Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

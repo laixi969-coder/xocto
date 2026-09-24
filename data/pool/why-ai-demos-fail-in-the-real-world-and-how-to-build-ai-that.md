@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQMkhtVi1Tb1RK
 summary: Why AI Demos Fail in the Real World — and How to Build AI That Actually Works TechBullion
 first_seen: '2026-09-23T10:20:43Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

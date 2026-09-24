@@ -1,0 +1,42 @@
+- id: req-initial-rabbit-沉寂许久后发布-os3-智能体操作系统支持多设备编排-2026-09-24
+  project_slug: rabbit-沉寂许久后发布-os3-智能体操作系统支持多设备编排
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多设备间手动切换与重复操作的问题，但材料未给出具体任务、频率与不采用的后果，价值判断证据不足。
+    evidence_ids:
+    - ev-8481f62db00d3ad8
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条发布报道，没有用户采用、评价或持续使用的公开证据。
+    evidence_ids:
+    - ev-8481f62db00d3ad8
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，钱从哪来无法判断。
+    evidence_ids:
+    - ev-8481f62db00d3ad8
+  - gate: truth
+    status: insufficient
+    reason: 支持哪些设备、任务能否确定性完成、人工边界在哪，材料均未说明。
+    evidence_ids:
+    - ev-8481f62db00d3ad8
+  next_validation: rabbit 官方 OS3 发布说明或支持文档中列出的兼容设备清单与可自动完成的任务范围。
+  market: ''
+  job: 个人用户在同时使用手机、电脑与随身设备时，需要把分散在多个设备上的操作合并成一次任务并拿到结果。
+  job_en: An individual using a phone, computer and companion device at once needs to merge operations
+    spread across devices into one task and get a result.
+  pain: 候选材料只说明 OS3 支持多设备编排，未给出用户在多设备切换中遇到的具体痛点或旧做法。
+  pain_en: The material only says OS3 supports multi-device orchestration and gives no concrete pain point
+    or prior practice for users switching between devices.
+  current_alternative: 公开材料未说明用户此前如何完成跨设备任务，常见做法是逐台设备手动操作，但材料未确认。
+  current_alternative_en: The public material does not describe how users previously completed cross-device
+    tasks; manual operation per device is common but unconfirmed here.
+  usage_reason: 推断：若智能体能直接跨设备执行并返回结果，用户可省去逐台设备切换与重复操作这一步，因此多设备用户可能尝试；但材料未给出设备兼容范围与任务成功率，无法确认持续使用。
+  usage_reason_en: 'Inference: if the agent executes across devices and returns a result, users skip switching
+    and repeating steps per device, so multi-device users may try it; device compatibility and task success
+    rates are not given, so sustained use cannot be confirmed.'

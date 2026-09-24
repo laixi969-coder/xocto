@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOenRySHFkSTdf
 summary: AI Partnerships Might Change The Case For Investing In Intel Stock (INTC) simplywall.st
 first_seen: '2026-09-23T03:45:08Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dub
 summary: Browse and apply to the best SaaS affiliate programs
 first_seen: '2026-09-22T14:30:21Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

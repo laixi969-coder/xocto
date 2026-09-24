@@ -1,0 +1,43 @@
+- id: req-initial-政务热线治理智能体发布推动12345走向未诉先治-2026-09-24
+  project_slug: 政务热线治理智能体发布推动12345走向未诉先治
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决热线诉求归集与高发问题预判，但材料未说明原流程耗时、不解决的后果或任何替代行为，需求与痛点均无法确认。
+    evidence_ids:
+    - ev-1cd54220321aa06b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有发布报道，无部署地区、使用方反馈或采用迹象，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1cd54220321aa06b
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露开发方、采购方式或付费主体，to G 路径只是推测，不是已验证事实。
+    evidence_ids:
+    - ev-1cd54220321aa06b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无部署文档、实测或交付结果，无法核对承诺能否确定性交付及人工复核边界。
+    evidence_ids:
+    - ev-1cd54220321aa06b
+  next_validation: 查找该智能体的官方发布页或地方政务服务采购公告，确认开发方、部署地区与采购金额。
+  market: ''
+  job: 地市级12345热线运营与督办人员，在月度或季度治理复盘时，处理历史工单与诉求分类数据，要找出高发问题并形成可交办的治理线索。
+  job_en: Municipal 12345 hotline operations and supervision staff, during monthly or quarterly governance
+    reviews, work with historical tickets and complaint categories to identify recurring problems and
+    produce actionable governance leads.
+  pain: 公开材料未说明原有流程的耗时、错漏或成本，也未给出任何用户抱怨或替代做法，痛点无法从现有事实确认。
+  pain_en: Public material does not describe the time, error rate or cost of the existing process, nor
+    any user complaint or workaround, so the pain cannot be confirmed from available facts.
+  current_alternative: 按常规做法，热线中心依靠人工统计与报表汇总工单，但候选材料未提供任何关于现有替代方式的描述。
+  current_alternative_en: Conventionally, hotline centers rely on manual statistics and report aggregation,
+    but the candidate material provides no description of the existing alternative.
+  usage_reason: 无法判断。材料只给出发布标题，未说明该智能体相较人工统计减少了哪一步、改善了哪项可核对结果，因此不能推断用户为何选择它。
+  usage_reason_en: Cannot be judged. The material gives only a release headline and does not say which
+    step the agent removes versus manual statistics or which verifiable result it improves, so user choice
+    cannot be inferred.

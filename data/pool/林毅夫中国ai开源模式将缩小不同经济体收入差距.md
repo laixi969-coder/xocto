@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5UOWV2aVRBbjNv
 summary: 林毅夫：中国AI开源模式将缩小不同经济体收入差距 财新
 first_seen: '2026-09-22T14:53:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

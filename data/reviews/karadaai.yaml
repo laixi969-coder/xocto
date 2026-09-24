@@ -1,0 +1,44 @@
+- id: req-initial-karadaai-2026-09-24
+  project_slug: karadaai
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是把存量 API 接进 AI 助手这一步，痛点结构上存在，但公开材料只有一句功能描述，说不清替代了谁手工做的哪一步，价值判断证据不足。
+    evidence_ids:
+    - ev-3fac5db2cc0e588e
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 9 分且无评论，没有可归因到该产品的采用或持续使用信号，共识关无法成立。
+    evidence_ids:
+    - ev-3fac5db2cc0e588e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，钱从哪来只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-3fac5db2cc0e588e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成的 MCP 服务器是否真能确定性运行、鉴权与安全边界如何处理，交付确定性未明。
+    evidence_ids:
+    - ev-3fac5db2cc0e588e
+  next_validation: 收集该产品官方文档或仓库中关于 API 转 MCP 的接入流程、鉴权处理与定价页的公开材料。
+  market: ''
+  job: 后端工程师在需要让 AI 助手调用公司已有内部 API 时，处理接口定义与鉴权配置，要产出可被 AI 客户端调用的 MCP 服务器。
+  job_en: A backend engineer, needing an AI assistant to call the company's existing internal APIs, works
+    from interface definitions and auth config to produce an MCP server that AI clients can call.
+  pain: 把每个 API 手工包装成 MCP 服务器并随接口变更同步，是重复且容易失效的维护负担；但公开材料没有说明这一步现在具体多痛、多久做一次。
+  pain_en: Hand-wrapping each API into an MCP server and keeping it in sync as interfaces change is repetitive
+    and fragile maintenance, but the public material does not say how painful or how frequent this step
+    actually is.
+  current_alternative: 工程师自己写适配代码，或使用已有的 MCP 框架手工维护，公开材料未给出对比。
+  current_alternative_en: Engineers write adapter code themselves or maintain it by hand with existing
+    MCP frameworks; the public material offers no comparison.
+  usage_reason: 推断：若它真能把接口定义自动转成可运行且随变更同步的 MCP 服务器，就省掉手写适配与回归这一步，接口数量多、变更频繁的团队会因此选择它；目前只有一句功能描述，缺少流程与交付证据。
+  usage_reason_en: 'Inference: if it truly turns interface definitions into a running MCP server that
+    stays in sync with changes, it removes the hand-written adapter and regression step, which would lead
+    teams with many frequently changing endpoints to choose it; today there is only a one-line description
+    and no evidence of flow or delivery.'

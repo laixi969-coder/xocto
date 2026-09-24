@@ -370,3 +370,44 @@
     prompt package, removing the step of rewriting prompts per generator and remembering continuity, so
     short-film and ad teams using several generators across many shots would pick it in pre-production;
     no public user feedback yet confirms this motive.'
+- id: req-initial-slate-2026-09-24
+  project_slug: slate
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多镜头 AI 影片中镜头连贯与提示词复用的问题，痛点来自手工跨生成器搬运和返工，旧做法可还原，属工作流推理。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有开源关注与社区讨论热度，没有创作者持续使用或口碑证据，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 项目靠自愿捐赠，未披露定价或付费路径，买方与收费方式均属未知，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 提示词编译能否稳定保证跨镜头连贯、生成结果是否可核对，公开材料未给出实测或案例。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 与 README 更新，确认是否有创作者公开的镜头连贯实测或成片案例。
+  market: ''
+  job: 独立 AI 影片创作者或小制作团队在开拍前，要处理剧本与分镜草稿，把每个镜头拆成可生成、可保持连贯的提示词，最终拿到一套能交给图像、视频、音乐、配音生成器使用的镜头提示词。
+  job_en: An independent AI filmmaker or small production team, before shooting, works from a script and
+    storyboard draft to break each shot into generatable, continuity-preserving prompts, ending with a
+    shot-prompt set usable in image, video, music and voice generators.
+  pain: 镜头之间的连贯性和提示词复用靠手工在多个生成器之间来回粘贴、反复重写，一旦角色或场景设定变化，前面写好的提示词要重做，返工成本高。
+  pain_en: Continuity across shots and prompt reuse are handled by hand, pasting between generators and
+    rewriting repeatedly; when a character or scene setting changes, earlier prompts must be redone, making
+    rework costly.
+  current_alternative: 现在多数人用记事本、表格或文档自己维护镜头表和提示词，再逐个复制到各家生成器里试，没有统一的镜头与连续性记录。
+  current_alternative_en: Most people keep shot lists and prompts in notes, spreadsheets or documents
+    and paste them into each generator one by one, with no unified record of shots and continuity.
+  usage_reason: 推断：相比在文档和多个生成器之间手工搬运，Slate 把镜头规划与提示词编译放在同一处，设定改动时只需改一次就能重新产出整套提示词，减少重复粘贴和逐条重写这一步；因此常做多镜头、需要角色连贯的短片创作者会在开拍前选择它。
+  usage_reason_en: 'Inference: versus manually moving between documents and multiple generators, Slate
+    keeps shot planning and prompt compilation in one place, so a setting change regenerates the whole
+    prompt set once instead of repeated pasting and rewriting; creators of multi-shot, continuity-sensitive
+    shorts would therefore pick it before shooting.'

@@ -118,3 +118,42 @@
   usage_reason_en: 'Inference: if it outputs a background-replaced picture at broadcast time, it could
     remove the step of building a physical set or keying in post, which might lead small streamers to
     choose it; without user feedback or repeat-use evidence this motive cannot be confirmed.'
+- id: req-initial-live-ai-studio-2026-09-24
+  project_slug: live-ai-studio
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决实时画面处理的需求，但材料未说明旧流程哪一步最痛、不做的后果是什么，痛点刚性无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有社区讨论热度，没有用户评价、客户案例或重复使用记录，无法判断是否形成使用共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对实时处理的延迟、画质与人工确认边界，承诺能否确定性交付缺少材料支持。
+    evidence_ids: []
+  next_validation: 收集该开源项目的仓库说明与 issue/discussion，确认实际输入输出、延迟表现与是否有真实用户报告使用场景。
+  market: ''
+  job: 主播或视频创作者在直播或录制时处理摄像头画面，需要实时完成人脸跟踪与背景替换并直接输出可用画面。
+  job_en: Streamers or video creators processing camera footage during live or recorded sessions, needing
+    real-time face tracking and background replacement with directly usable output.
+  pain: 候选材料只给出功能描述，没有说明旧流程中哪一步最耗时、出错代价是什么，也没有用户抱怨或替代行为的记录。
+  pain_en: The candidate material only describes features; it does not say which step of the old workflow
+    was most costly or what errors cost, and records no user complaints or workaround behavior.
+  current_alternative: 公开材料未说明用户此前用什么完成同类画面处理，绿幕、导播软件或专业剪辑都只是推测，缺少可核对记录。
+  current_alternative_en: Public material does not say what users previously used for comparable footage
+    processing; green screens, switcher software or professional editing are only guesses without verifiable
+    records.
+  usage_reason: 推断：若浏览器端实时处理确实省去绿幕搭建与后期合成，单人创作者会在没有导播人力的直播或录制中选择它；但候选未提供任何用户反馈或采用证据，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if browser-side real-time processing truly removes green-screen setup and
+    post compositing, solo creators would choose it for sessions without an operator; but the candidate
+    offers no user feedback or adoption evidence, so this causal link is unproven.'

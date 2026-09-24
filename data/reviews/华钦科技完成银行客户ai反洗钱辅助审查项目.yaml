@@ -1,0 +1,44 @@
+- id: req-initial-华钦科技完成银行客户ai反洗钱辅助审查项目-2026-09-24
+  project_slug: 华钦科技完成银行客户ai反洗钱辅助审查项目
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决银行反洗钱人工审查量大的问题，痛点真实，但公开材料未说明AI具体做什么、替代哪一步，需求强度无法判断。
+    evidence_ids:
+    - ev-c854354507341b7f
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条完成项目的公告，无客户反馈、行业采用或同行跟进证据，共识环节未进入。
+    evidence_ids:
+    - ev-c854354507341b7f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、合同金额或收费方式，买方与付费路径均不明确，模式关未进入。
+    evidence_ids:
+    - ev-c854354507341b7f
+  - gate: truth
+    status: insufficient
+    reason: 无准确率、误报率或人工复核比例等可核对结果，交付确定性无法验证，求真关未进入。
+    evidence_ids:
+    - ev-c854354507341b7f
+  next_validation: 查找华钦科技官方公告或投资者关系页面，确认该反洗钱项目的客户类型、合同金额与交付范围。
+  market: ''
+  job: 银行反洗钱合规人员在日常可疑交易审查中，处理交易流水与客户尽职调查材料，要完成可疑交易的初筛与上报判断。
+  job_en: Bank anti-money-laundering compliance staff handle transaction records and customer due-diligence
+    materials during routine suspicious-transaction review, and must complete initial screening and reporting
+    decisions.
+  pain: 反洗钱审查依赖人工逐笔核对，量大、规则更新频繁，漏报或误报都会带来监管处罚风险。
+  pain_en: AML review relies on manual case-by-case checking; volume is large, rules change frequently,
+    and both missed and false reports carry regulatory penalty risk.
+  current_alternative: 现有做法是合规团队用规则引擎加人工复核，或采购传统反洗钱系统，AI辅助审查尚未成为标准配置。
+  current_alternative_en: The current approach is a rules engine plus manual review by the compliance
+    team, or traditional AML software; AI-assisted review is not yet standard.
+  usage_reason: 推断：若该系统能把初筛环节从人工逐笔核对变为AI预筛加人工确认，可减少合规人员翻阅量；但公开材料未说明具体动作、准确率或客户是否持续使用，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: if the system turns initial screening from manual case-by-case checking
+    into AI pre-screening plus human confirmation, it could cut the volume compliance staff must read;
+    however, the public material does not describe the specific action, accuracy or continued use, so
+    the reason to choose it is not yet established.'

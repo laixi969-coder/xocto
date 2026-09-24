@@ -1,11 +1,19 @@
 ---
 slug: 拆解下阿里的-ai-经济学与它的下注
-name: 拆解下阿里的 AI 经济学，与它的下注
+name: 阿里巴巴
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月22日杭州云栖大会上，阿里巴巴集团CEO吴泳铭提出机器智能时代三大基石（AI模型、AI芯片、AI云），并给出到2032年阿里云运营全球数据中心规模超过20GW的目标；同期阿里发布AgentCore、新一代CPFS、升级MaaS模型服务并推出Agent
+  Studio，围绕Agent进入生产做全栈优化。这意味着头部云厂商正把竞争焦点从单点模型能力转向算力效率、长任务可靠性与成本，AI应用与Agent的交付成本和基础设施可得性将更依赖云厂商的全栈整合能力（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: At the Hangzhou Yunqi Conference on September 22, 2026, Alibaba Group CEO Eddie Wu laid out
+  three pillars of the machine-intelligence era (AI models, AI chips, AI cloud) and set a target of operating
+  more than 20GW of global data center capacity by 2032; Alibaba also released AgentCore and a new-generation
+  CPFS, upgraded its MaaS model service, and launched Agent Studio, optimizing the full stack for agents
+  entering production. This signals that leading cloud vendors are shifting competition from single-point
+  model capability toward compute efficiency, long-task reliability and cost, so the delivery cost and
+  infrastructure availability of AI applications and agents will depend more on cloud vendors' full-stack
+  integration (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -60,7 +68,7 @@ summary: "作者｜张鹏    \n  编辑｜ 苏子华  \n   \n 9 月 22 日，�
   \ \n  *头图来源：阿里云  \n  本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-09-23T06:02:57Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -71,7 +79,7 @@ sightings:
   kind: news
 ---
 
-# 拆解下阿里的 AI 经济学，与它的下注
+# 阿里巴巴
 
 作者｜张鹏    
   编辑｜ 苏子华  

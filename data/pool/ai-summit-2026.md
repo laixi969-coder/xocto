@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/pcuenq/ai-summit-2026
 summary: ''
 first_seen: '2026-09-23T07:06:39Z'
 last_seen: '2026-09-24T00:31:15Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

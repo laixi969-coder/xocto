@@ -1,6 +1,6 @@
 ---
 slug: ai-startup-ema-raises-77-million-in-funding-led-by-creaegis
-name: AI startup Ema raises $77 million in funding led by Creaegis
+name: Ema
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY0FpYWtNUlQ4
 summary: AI startup Ema raises $77 million in funding led by Creaegis Moneycontrol.com
 first_seen: '2026-09-23T13:21:19Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI startup Ema raises $77 million in funding led by Creaegis
+# Ema
 
 AI startup Ema raises $77 million in funding led by Creaegis Moneycontrol.com
 

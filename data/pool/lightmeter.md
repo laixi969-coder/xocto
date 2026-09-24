@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/lightmeter-2
 summary: Film Camera designed for everyday moments
 first_seen: '2026-09-22T04:06:00Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

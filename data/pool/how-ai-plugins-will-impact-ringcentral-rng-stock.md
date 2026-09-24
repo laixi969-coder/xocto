@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOekI2NWxtcGhi
 summary: How AI Plugins Will Impact RingCentral (RNG) Stock simplywall.st
 first_seen: '2026-09-23T09:39:34Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

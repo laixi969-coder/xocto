@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-s
 summary: $11M competition showed wildfire detection is still easier than stopping fires.
 first_seen: '2026-09-23T20:28:42Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

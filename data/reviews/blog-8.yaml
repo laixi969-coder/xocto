@@ -1,0 +1,41 @@
+- id: req-initial-blog-8-2026-09-24
+  project_slug: blog-8
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决家庭多人协同安排，但材料未写清具体卡点与不解决的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-b1daf98a632bcf6c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有官方发布表述与社区讨论热度，没有家庭用户采用或持续使用的证据。
+    evidence_ids:
+    - ev-b1daf98a632bcf6c
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露定价与买方，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-b1daf98a632bcf6c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也未说明人工确认与安全边界。
+    evidence_ids:
+    - ev-b1daf98a632bcf6c
+  next_validation: 收集 CC 的官方帮助文档或产品页，确认其输入材料、输出交付物与家庭成员的确认环节。
+  market: ''
+  job: 家庭成员在安排共同日程、家务分工或共享信息时，需要把分散在多人手里的安排汇总成一份可执行的计划。
+  job_en: Family members coordinating shared schedules, chores or shared information need scattered arrangements
+    gathered into one actionable plan.
+  pain: 候选材料只有一句“面向家庭的 AI 代理”，未说明家庭在哪个环节具体卡住、不解决会付出什么代价。
+  pain_en: The candidate material offers only the phrase 'an AI agent built for families' and does not
+    say where families get stuck or what it costs them to leave the problem unsolved.
+  current_alternative: 材料未提及现有替代做法，无法确认此前家庭靠什么方式协调日程与分工。
+  current_alternative_en: The material does not mention existing alternatives, so it is impossible to
+    confirm how families previously coordinated schedules and chores.
+  usage_reason: 材料未给出可核对的动作或结果差异，无法解释家庭为何会选择它；这是信息缺口，不是需求不存在的证据。
+  usage_reason_en: The material gives no checkable difference in action or outcome, so it cannot explain
+    why a family would choose it; this is a gap in information, not evidence that demand is absent.

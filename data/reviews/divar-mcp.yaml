@@ -1,0 +1,42 @@
+- id: req-initial-divar-mcp-2026-09-24
+  project_slug: divar-mcp
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在分类广告里快速筛选和比价的需求，痛点来自逐条翻看耗时，旧做法是手动搜索加表格记录，结构上成立。
+    evidence_ids:
+    - ev-0320c1265071f00d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库的星标数，缺少用户评价或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-0320c1265071f00d
+  - gate: model
+    status: insufficient
+    reason: 只读且无需密钥，公开材料未说明任何收费或买方，钱从哪来仍是判断而非事实。
+    evidence_ids:
+    - ev-0320c1265071f00d
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据来源的合规边界与结果准确性，交付能否稳定发生缺少公开证据。
+    evidence_ids:
+    - ev-0320c1265071f00d
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有真实用户报告在找房或找货流程中重复使用。
+  market: ''
+  job: 在 Divar 上找房或找二手货的人，面对大量分类广告，需要快速筛出符合条件、价格可比的少数候选。
+  job_en: People hunting homes or second-hand goods on Divar face a large volume of classified ads and
+    need to quickly narrow down a few comparable candidates.
+  pain: 逐条翻看和手动比价耗时，广告信息格式不统一，容易漏掉合适选项。
+  pain_en: Scrolling ad by ad and comparing manually is time-consuming, ad formats are inconsistent, and
+    suitable options are easily missed.
+  current_alternative: 在平台内用关键词搜索、按价格排序，或自己开表格记录对比。
+  current_alternative_en: Using keyword search and price sorting inside the platform, or keeping a spreadsheet
+    to track comparisons.
+  usage_reason: 推断：相较手动翻页，它让 AI 助手直接调用只读接口完成检索与对比，省去逐条打开和抄录价格这一步，因此常在同一平台反复找房或找货的人会先试用它。
+  usage_reason_en: 'Inference: compared with manual paging, it lets an AI assistant call a read-only interface
+    to retrieve and compare, removing the step of opening each ad and copying prices, so people who repeatedly
+    search the same platform are likely to try it first.'

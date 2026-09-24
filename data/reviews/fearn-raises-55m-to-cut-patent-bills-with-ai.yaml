@@ -1,0 +1,41 @@
+- id: req-initial-fearn-raises-55m-to-cut-patent-bills-with-ai-2026-09-24
+  project_slug: fearn-raises-55m-to-cut-patent-bills-with-ai
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它想降低专利费用，未说明具体任务、痛点与旧流程，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-acb9edcd0503c302
+  - gate: consensus
+    status: insufficient
+    reason: 除融资报道外，没有客户、采用或行业共识证据。
+    evidence_ids:
+    - ev-acb9edcd0503c302
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-acb9edcd0503c302
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工复核边界。
+    evidence_ids:
+    - ev-acb9edcd0503c302
+  next_validation: 收集 Fearn 官方产品页或定价页，确认其处理的具体专利环节、交付物与收费方式。
+  market: ''
+  job: 专利代理人或企业法务在提交或维护专利时，需要处理检索结果、权利要求草稿和费用清单，以完成申请或控制支出。
+  job_en: Patent agents or in-house counsel handling search results, claim drafts and cost schedules when
+    filing or maintaining patents, to complete filings or control spending.
+  pain: 公开材料只提到“降低专利费用”，未说明费用高在检索、撰写、翻译还是年费环节，也未说明现有做法哪里难受。
+  pain_en: Public material only mentions 'cutting patent bills' and does not say whether cost lies in
+    search, drafting, translation or annuities, nor where the current process hurts.
+  current_alternative: 公开材料未描述用户目前用什么替代方式，例如外部律所、内部模板或人工检索。
+  current_alternative_en: Public material does not describe current alternatives, such as outside counsel,
+    internal templates or manual search.
+  usage_reason: 无法判断：材料未说明 AI 具体替代哪一步人工动作、减少哪项负担，因此无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which manual step the AI replaces or which
+    burden it reduces, so there is no basis to explain why a user would choose it.'

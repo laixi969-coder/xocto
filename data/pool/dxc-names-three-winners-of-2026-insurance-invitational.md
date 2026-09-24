@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNWGdTN0Zickxt
 summary: DXC names three winners of 2026 insurance invitational itbrief.co.nz
 first_seen: '2026-09-23T04:30:46Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

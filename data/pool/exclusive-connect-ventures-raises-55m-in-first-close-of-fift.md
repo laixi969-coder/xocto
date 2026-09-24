@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/connect-ventures-55-million-fund-deept
 summary: ''
 first_seen: '2026-09-23T05:00:31Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

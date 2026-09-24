@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBma2h6RW9wRVhT
 summary: 2026三大AI口语APP|「咕噜口语」AI外教+场景化训练，轻松攻克开口难题 凤凰网科技
 first_seen: '2026-09-23T03:16:47Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

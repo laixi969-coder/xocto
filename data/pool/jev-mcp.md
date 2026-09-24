@@ -21,7 +21,7 @@ canonical_url: https://github.com/burnigtm/jev-mcp
 summary: MCP server that puts TypeSafe Jev on the coding loop in Cursor, Codex, and any MCP client
 first_seen: '2026-09-17T14:22:01Z'
 last_seen: '2026-09-24T00:30:54Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

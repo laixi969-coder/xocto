@@ -1,6 +1,6 @@
 ---
 slug: connect-ventures-announces-first-close-of-80m-fund-v-to-back
-name: Connect Ventures announces first close of $80M Fund V to back Europe's technical founders
+name: Connect Ventures
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Connect Ventures has announced the first $55 million close ofits $80 mi
   Ba...
 first_seen: '2026-09-23T12:10:32Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Connect Ventures announces first close of $80M Fund V to back Europe's technical founders
+# Connect Ventures
 
 Connect Ventures has announced the first $55 million close ofits $80 million fifth fund, which will invest in early-stage technologycompanies across Europe. The fund is anchored by British Business Ba...
 

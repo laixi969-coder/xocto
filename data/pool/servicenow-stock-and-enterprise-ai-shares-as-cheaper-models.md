@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOC1wUXBYSmpy
 summary: ServiceNow Stock And Enterprise AI Shares As Cheaper Models Reset Software Economics simplywall.st
 first_seen: '2026-09-23T08:39:48Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

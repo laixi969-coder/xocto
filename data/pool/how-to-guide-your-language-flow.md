@@ -26,7 +26,7 @@ summary: We introduce a new method to guide flow matching models. Our approach, 
   sets a new state-of-the-art performance on unconditional generation. When applied to a…
 first_seen: '2026-09-23T00:00:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

@@ -3,32 +3,29 @@ slug: 电厂-百度搭子牵手小度ai-agent开始寻找身体-ai助手-小度�
 name: 百度搭子
 builder: ''
 category: 通用助手
-summary_zh: 企业运营人员在日常办公中把散落在文档、表格和内部系统里的材料交给百度搭子这类通用智能体，它接收任务描述后调用工具执行多步操作，最终交付一份可用结果或已完成的动作；家庭场景下则通过小度智能屏等硬件接收语音指令。具体可交付的任务边界与人工确认环节仍待核验。
-inspiration: 趋势是通用智能体从聊天框走向硬件载体和企业组织流程，竞争点从模型能力转向任务能否被稳定交付。切入可考虑不做通用助手，而是选一个旧流程密集的垂直行业，例如把连锁门店的排班、巡检与报表汇总交给可核对的智能体，按完成的任务量而非席位收费。
-summary_en: In daily office work, enterprise operations staff hand material scattered across documents,
-  spreadsheets and internal systems to a general agent such as Baidu Dazi, which takes a task description,
-  calls tools to execute multi-step actions and returns a usable result or a completed action; in the
-  home it takes voice commands through hardware such as Xiaodu smart displays. The exact deliverable boundary
-  and where humans must confirm remain to be verified.
-inspiration_en: The trend is general agents moving from chat boxes into hardware carriers and enterprise
-  organizational workflows, where competition shifts from model capability to whether tasks are delivered
-  reliably. A wedge is to skip the general assistant and pick a workflow-dense vertical, for example handing
-  shift scheduling, inspections and report consolidation in chain stores to a checkable agent and charging
-  per completed task rather than per seat.
+summary_zh: 企业员工在内部知识检索、流程问答等节点打开百度搭子企业版，把企业文档与业务数据交给它处理，由它完成信息查询与任务执行并返回结果；本次仅披露企业版能力升级与大会亮相，具体输入材料、动作边界与交付形式仍待核验。
+inspiration: 趋势：大厂把通用助手往企业智能体方向推，说明企业内流程问答正从搜索框转向可执行任务的入口。切入：可从垂直行业的企业知识库与审批、报销等固定流程切入，做结果可核对的交付，而不是再做一个通用对话入口；具体卖法未披露，不宜假设。
+summary_en: Enterprise staff open Baidu Dazi's enterprise edition at points such as internal knowledge
+  retrieval and process Q&A, handing over corporate documents and business data so it can perform information
+  lookup and task execution and return results; this event only disclosed an enterprise edition upgrade
+  and a conference appearance, so the exact inputs, action boundaries and deliverables still need verification.
+inspiration_en: 'Trend: a large platform pushing its general assistant toward enterprise agents shows
+  internal process Q&A shifting from a search box to a task-executing entry point. Entry: vertical-industry
+  knowledge bases plus fixed workflows such as approvals and reimbursements, delivering checkable outputs
+  rather than another general chat entry; pricing was not disclosed and should not be assumed.'
 priority_review: false
-project_type: new_application
+project_type: ai_transformation
 industries:
-- 企业通用办公
-- 智能家居硬件
+- 企业服务
+- 软件与信息服务
 industries_en:
-- general enterprise operations
-- smart home hardware
+- Enterprise Services
+- Software & IT Services
 jobs:
-- 企业运营人员
-- 家庭用户
+- 企业员工在内部知识检索与流程问答场景中处理企业文档与业务数据，需要完成信息查询与任务执行
 jobs_en:
-- enterprise operations staff
-- household users
+- Enterprise staff handling internal documents and business data for knowledge retrieval and process Q&A,
+  needing to complete information lookup and task execution
 regions:
 - 中国
 regions_en:
@@ -39,7 +36,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUYxN1dHNWNG
 summary: 电厂 | 百度搭子牵手小度，AI Agent开始寻找“身体”|AI助手|小度智能屏|新品发布|小度AI|家庭_手机新浪网 新浪财经
 first_seen: '2026-09-08T11:38:49Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:

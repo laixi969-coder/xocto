@@ -1,0 +1,46 @@
+- id: req-initial-ive-sent-it-2026-09-24
+  project_slug: ive-sent-it
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是文件送达无法证明这一具体痛点，旧做法是人工追回执，结构上成立；但公开材料只有一句自述，说不清 AI 具体做什么、凭证如何产生，价值强度无法确认。
+    evidence_ids:
+    - ev-ef21648f9c1bbd4f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区提交与18点、22条评论，属于关注度而非采用证据，没有客户案例或重复使用迹象，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ef21648f9c1bbd4f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱来自个人、企业还是其他方；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-ef21648f9c1bbd4f
+  - gate: truth
+    status: insufficient
+    reason: 签收凭证是否可核验、是否具备法律效力、人工确认边界如何，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-ef21648f9c1bbd4f
+  next_validation: 收集该产品官方定价页或产品文档，确认其签收凭证的生成方式与可核验性。
+  market: ''
+  job: 合同、报价或交割文件的发送方，在需要向外部对方交付文件并留下送达痕迹时，把文件交给该服务投递，并取得一份带签收凭证的送达记录。
+  job_en: A sender of contracts, quotes or closing documents who must deliver files to an outside party
+    and keep a record of delivery hands the file to this service and obtains a delivery record with signed
+    proof of receipt.
+  pain: 普通邮件和网盘只能证明“发出去了”，无法证明对方收到并确认，一旦发生争议就要靠人工追讨回执，这一步耗时且常无结果。
+  pain_en: Email and cloud drives only prove that something was sent, not that the recipient received
+    and acknowledged it; when a dispute arises, someone must chase the receipt manually, which is slow
+    and often fruitless.
+  current_alternative: 目前多靠邮件加已读回执、网盘分享链接、快递寄送纸质件，或人工在聊天工具里催对方确认收到。
+  current_alternative_en: Today this is mostly handled with email read receipts, shared cloud-drive links,
+    physical courier of paper copies, or manually chasing the recipient for confirmation in a chat tool.
+  usage_reason: 推断：若它能把“发送文件”和“取得签收凭证”合成一步，用户就不必再单独追回执，因此需要留痕的合同、报价和交割场景中的人可能选择它；但公开材料未说明凭证如何生成、是否可核验，也未见用户反馈或客户案例，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if it merges ''send the file'' and ''obtain signed proof'' into one step,
+    users would no longer chase receipts separately, so people in contract, quote and closing scenarios
+    that need a paper trail might choose it; however, public material does not explain how the proof is
+    generated or whether it is verifiable, and no user feedback or customer case is available, so this
+    causal claim is unproven.'

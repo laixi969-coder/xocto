@@ -1,0 +1,43 @@
+- id: req-initial-crest-2026-09-24
+  project_slug: crest
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决编码代理审批打断当前工作这一痛点，但公开材料只有一句功能描述，无法确认打断频率与不处理的后果。
+    evidence_ids:
+    - ev-15fe8e01875e12e4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：社区讨论仅有 5 个点、0 条评论，没有开发者反馈可判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-15fe8e01875e12e4
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或付费路径，无法判断开发者个人付费还是团队采购。
+    evidence_ids:
+    - ev-15fe8e01875e12e4
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有实测或文档说明它如何与 Claude Code 交互、审批是否可靠送达。
+    evidence_ids:
+    - ev-15fe8e01875e12e4
+  next_validation: 收集该产品的官方页面或文档，确认它与 Claude Code 的审批交互方式、支持范围以及是否已有定价。
+  market: ''
+  job: 在 Mac 上用 Claude Code 写代码的开发者，在代理请求执行命令或改文件时，需要确认或拒绝这次操作，然后继续手头的其他窗口工作。
+  job_en: A developer writing code with Claude Code on a Mac needs to confirm or reject an agent request
+    to run a command or edit files, then continue working in other windows.
+  pain: 审批请求出现在终端里，开发者必须切回终端窗口才能处理，打断当前正在做的事；公开材料未说明这种打断的实际频率与代价。
+  pain_en: Approval requests appear in the terminal, so the developer must switch back to that window
+    to handle them, interrupting the current task; the public material does not quantify how often this
+    happens or what it costs.
+  current_alternative: 开发者目前切回终端窗口处理审批，或让代理在无人确认的情况下继续运行。
+  current_alternative_en: Developers currently switch back to the terminal window to handle approvals,
+    or let the agent keep running without confirmation.
+  usage_reason: 推断：把审批入口搬到常驻可见的刘海区域，省掉“切回终端再切回来”这一步，重度使用编码代理、同时开多个窗口的开发者会因此选择它；但没有任何用户反馈或使用数据支持这一判断。
+  usage_reason_en: 'Inference: moving the approval entry point to the always-visible notch removes the
+    step of switching back to the terminal and back again, which would appeal to developers who run coding
+    agents heavily across multiple windows; however no user feedback or usage data supports this.'

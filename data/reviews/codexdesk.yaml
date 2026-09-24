@@ -1,0 +1,45 @@
+- id: req-initial-codexdesk-2026-09-24
+  project_slug: codexdesk
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决并行代理会话与代码改动分散的问题，但公开材料只写“桌面伴侣”，说不清替代了哪一步旧操作，价值结构无法确认。
+    evidence_ids:
+    - ev-a186dce8e54b6209
+  - gate: consensus
+    status: insufficient
+    reason: 222 颗星与 47 个 fork 只说明有开发者关注，没有用户评价、案例或持续采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a186dce8e54b6209
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或买方，开源项目可能靠赞助或托管服务变现，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a186dce8e54b6209
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近编码代理工作的第一性目标，也未说明人工确认与安全边界，交付确定性未知。
+    evidence_ids:
+    - ev-a186dce8e54b6209
+  next_validation: 收集 CodexDesk 仓库的 README、release 说明与 issue/discussion，确认它具体接管哪一步代理工作流以及是否有真实使用反馈。
+  market: ''
+  job: 软件开发者在自己机器上并行运行多个 AI 编码代理时，要同时处理终端会话、代码仓库改动和代理输出，并判断哪些改动可以合入。
+  job_en: A software developer running several AI coding agents in parallel on a local machine has to
+    handle terminal sessions, repository changes and agent output at the same time, and decide which changes
+    can be merged.
+  pain: 代理会话分散在终端和编辑器之间，切换成本高，改动来源和上下文容易丢失；但公开材料没有说明 CodexDesk 具体接管哪一步，痛点强度无法从现有事实确认。
+  pain_en: Agent sessions are scattered between terminal and editor, switching is costly and the origin
+    and context of changes are easily lost; however the public material does not say which step CodexDesk
+    actually takes over, so pain intensity cannot be confirmed from available facts.
+  current_alternative: 开发者目前用终端多标签、编辑器内置终端或 tmux 之类的会话管理方式，加上 git diff 人工核对代理改动。
+  current_alternative_en: Developers currently use multiple terminal tabs, the editor's built-in terminal
+    or session managers such as tmux, plus manual git diff review of agent changes.
+  usage_reason: 推断：如果它把多个代理会话和对应仓库改动放进同一个桌面视图，开发者可以少一步在终端与编辑器之间来回查找上下文，从而在并行跑代理时更愿意打开它；但公开材料未给出任何用户反馈或重复使用证据，这一因果仍是推断。
+  usage_reason_en: 'Inference: if it places several agent sessions and their repository changes in one
+    desktop view, a developer saves a step of hunting for context between terminal and editor and would
+    be more willing to open it while running agents in parallel; but the public material offers no user
+    feedback or repeat-use evidence, so this causal link remains an inference.'

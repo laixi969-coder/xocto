@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQdExKM3Q3OU5t
 summary: Top Automated Deployment Tools for Streamlining Software Releases techbuzz.ai
 first_seen: '2026-09-23T11:53:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

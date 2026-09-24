@@ -1,0 +1,42 @@
+- id: req-initial-herdr-gpui-2026-09-24
+  project_slug: herdr-gpui
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多 agent 会话分散、难以辨认状态的问题，痛点具体；但公开材料未说明开发者现在如何绕过，也未证明不解决的后果，价值判断只能停在结构推理。
+    evidence_ids:
+    - ev-1b4ffb2b02c901dc
+  - gate: consensus
+    status: insufficient
+    reason: 129 星与 9 次 fork 只说明有开发者关注，没有用户评价、案例或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-1b4ffb2b02c901dc
+  - gate: model
+    status: insufficient
+    reason: 开源客户端本身没有定价页，买方与付费路径均未披露；它依赖 Herdr 守护进程，商业归属也不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1b4ffb2b02c901dc
+  - gate: truth
+    status: insufficient
+    reason: 它贴近查看会话这一具体动作，但公开材料未说明会话状态是否准确、是否会出现误判，交付确定性无法核对。
+    evidence_ids:
+    - ev-1b4ffb2b02c901dc
+  next_validation: 收集 Herdr 守护进程的官方文档与仓库 issue/discussion，确认该客户端是否被实际用于日常多 agent 会话管理。
+  market: ''
+  job: 开发者在本地同时运行多个编码 agent 时，需要查看各终端会话、工作区和 Git worktree 的状态，并切换到需要处理的那个会话。
+  job_en: When developers run several coding agents locally, they need to see the state of each terminal
+    session, workspace and Git worktree and switch to the one that needs attention.
+  pain: 多个 agent 会话分散在不同终端窗口，开发者难以判断哪个还在跑、哪个卡住、哪个改了哪个 worktree。
+  pain_en: Multiple agent sessions are scattered across terminal windows, so developers struggle to tell
+    which is still running, which is stuck and which one touched which worktree.
+  current_alternative: 开发者目前靠多个终端标签页、tmux 或 IDE 内置终端手动切换和辨认会话。
+  current_alternative_en: Developers currently switch between and identify sessions manually using multiple
+    terminal tabs, tmux or the IDE's built-in terminal.
+  usage_reason: 推断：相较手动翻找终端标签，它把会话、工作区和 worktree 汇总到一个原生窗口，减少辨认当前状态这一步；但公开材料未说明开发者是否长期使用，也未见留存或复购证据。
+  usage_reason_en: 'Inference: compared with hunting through terminal tabs, it aggregates sessions, workspaces
+    and worktrees into one native window, removing the step of identifying current state; however, public
+    material does not show sustained use, retention or repeat usage.'

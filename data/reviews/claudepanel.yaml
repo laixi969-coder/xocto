@@ -1,0 +1,42 @@
+- id: req-initial-claudepanel-2026-09-24
+  project_slug: claudepanel
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图集中管理助手会话，但公开材料只有一句简介，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-044dfe62d42fa357
+  - gate: consensus
+    status: insufficient
+    reason: 221 星说明有开发者关注，但没有评价或案例说明他们为何留下，关注不等于持续采用。
+    evidence_ids:
+    - ev-044dfe62d42fa357
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源项目可能靠赞助或企业版，属判断而非已验证事实。
+    evidence_ids:
+    - ev-044dfe62d42fa357
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它支持哪些助手、会话如何持久化，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-044dfe62d42fa357
+  next_validation: 收集该仓库的 README 与 issue 讨论，核对它实际支持的助手范围、会话管理方式与是否有付费或赞助路径。
+  market: ''
+  job: 开发者在本地写代码时，需要把与 AI 助手的多轮会话、提示和调用集中管理，而不是在浏览器标签间来回切换。
+  job_en: While coding locally, developers need to manage multi-turn assistant sessions, prompts and calls
+    in one place instead of switching between browser tabs.
+  pain: 旧做法在网页对话框里逐次提问，会话散落、上下文丢失，重复粘贴同样的提示。
+  pain_en: The old approach asks one question at a time in a web chat box, scattering sessions, losing
+    context and re-pasting the same prompts.
+  current_alternative: 浏览器里的助手网页、编辑器内置插件，或自己写脚本调用接口。
+  current_alternative_en: Assistant web pages in the browser, built-in editor plugins, or self-written
+    scripts calling the API.
+  usage_reason: 推断：它把分散在浏览器里的助手会话收进一个桌面面板，省去切换标签和重复粘贴提示的那一步，因此重度使用助手的开发者会试用；但公开材料只有一句简介，无法确认它替代了哪一步具体旧工作。
+  usage_reason_en: 'Inference: it gathers assistant sessions scattered across browser tabs into one desktop
+    panel, removing the step of switching tabs and re-pasting prompts, so heavy assistant users would
+    try it; but public material is a single line and does not confirm which concrete old step it replaces.'

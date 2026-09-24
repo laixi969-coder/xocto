@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNT1lVQzhtREpr
 summary: 企业AI应用进入半年考：哪些公司开始把产品做成业绩 新浪财经
 first_seen: '2026-09-23T05:39:37Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

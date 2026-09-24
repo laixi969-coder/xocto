@@ -22,7 +22,7 @@ canonical_url: https://meta.com/blog/connect-2026-game-announcements-meta-vr-gla
 summary: ''
 first_seen: '2026-09-23T23:46:27Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

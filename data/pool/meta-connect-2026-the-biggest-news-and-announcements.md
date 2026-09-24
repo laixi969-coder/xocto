@@ -24,7 +24,7 @@ summary: It’s about time for Meta Connect, the company’s annual product laun
   because of how some users […]
 first_seen: '2026-09-23T22:45:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

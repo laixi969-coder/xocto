@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQNTUxeGU2TXBK
 summary: How to Take an AI Startup From Idea to Revenue Founder Institute
 first_seen: '2026-09-22T19:28:52Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

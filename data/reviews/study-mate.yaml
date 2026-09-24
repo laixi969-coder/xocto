@@ -1,0 +1,45 @@
+- id: req-initial-study-mate-2026-09-24
+  project_slug: study-mate
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学时路线不清、卡点无人讲解的问题，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-dc014d9f9299a074
+    - ev-65dfa08c5441fbe2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 75 增至 237 只说明关注度，缺少持续使用的公开证据。
+    evidence_ids:
+    - ev-65dfa08c5441fbe2
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费方与收费路径，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-dc014d9f9299a074
+  - gate: truth
+    status: insufficient
+    reason: 讲解与路线由模型生成，练习是否真正完成缺少核对机制。
+    evidence_ids:
+    - ev-dc014d9f9299a074
+  next_validation: 查看该仓库的 issue 与 discussion，确认学习者反馈的实际使用环节与卡点。
+  market: ''
+  job: 自学一门科目的学生在规划路线、理解知识点、做练习项目时，处理教材与课程材料，要完成从入门到做出练习产出的任务。
+  job_en: Students self-studying a subject, when planning a route, understanding knowledge points and
+    doing practice projects, work with textbooks and course material to go from beginner to a practice
+    output.
+  pain: 自学的人常常不知道先学什么、学到哪算会，遇到卡点无人讲解，容易中途放弃。
+  pain_en: Self-learners often do not know what to learn first or when they have learned enough, and have
+    no one to explain blockers, so they give up midway.
+  current_alternative: 旧做法是买课、看视频教程、在论坛或问答社区零散提问，路线和答疑分散在不同地方。
+  current_alternative_en: The old way is buying courses, watching video tutorials and asking scattered
+    questions in forums or Q&A communities, with route and answers spread across places.
+  usage_reason: 推断：相较自己拼凑教程，它把路线、讲解和练习任务放在同一处按进度推进，减少了“先学什么、卡住问谁”这两步的来回查找，因此自控力一般、需要外部结构的学生更可能选择它。
+  usage_reason_en: 'Inference: compared with piecing tutorials together, it keeps route, explanation and
+    practice tasks in one place and advances by progress, cutting the back-and-forth of deciding what
+    to learn first and who to ask when stuck, so students with average self-discipline who need external
+    structure are more likely to choose it.'

@@ -21,7 +21,7 @@ canonical_url: https://vahidyousefzadeh.com/qbasic/app
 summary: QBasic 1.1 in the Browser
 first_seen: '2026-09-23T20:20:04Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

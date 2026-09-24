@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/meta-vr-glasses-announcement-meta-connect
 summary: ''
 first_seen: '2026-09-23T23:51:39Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

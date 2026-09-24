@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzRpWGg4U2Qy
 summary: 三星AI冰箱系统更新后直接“罢工”，导致用户食材损坏 新浪财经
 first_seen: '2026-09-23T09:22:30Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

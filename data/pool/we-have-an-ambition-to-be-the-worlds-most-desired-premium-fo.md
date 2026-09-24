@@ -1,7 +1,6 @@
 ---
 slug: we-have-an-ambition-to-be-the-worlds-most-desired-premium-fo
-name: '‘We have an ambition to be the world''s most desired premium footwear brand’: How Dr Martens is
-  working with Salesforce to create ‘agentic experiences’ for customers'
+name: Dr Martens
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: '‘We have an ambition to be the world''s most desired premium footwea
   is working with Salesforce to create ‘agentic experiences’ for customers IT Pro'
 first_seen: '2026-09-23T10:14:30Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# ‘We have an ambition to be the world's most desired premium footwear brand’: How Dr Martens is working with Salesforce to create ‘agentic experiences’ for customers
+# Dr Martens
 
 ‘We have an ambition to be the world's most desired premium footwear brand’: How Dr Martens is working with Salesforce to create ‘agentic experiences’ for customers IT Pro
 

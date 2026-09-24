@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5MZXY1bjRxMGtF
 summary: The New Rules of Brand Discovery (2026) Shopify
 first_seen: '2026-09-23T08:46:39Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

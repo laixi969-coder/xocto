@@ -1,0 +1,43 @@
+- id: req-initial-ksyjarealistic-fast-2026-09-24
+  project_slug: ksyjarealistic-fast
+  level: initial
+  reviewed_at: '2026-09-24T00:31:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是写实风格图像生成这一步，痛点结构上存在，但公开材料只有一句模型说明，说不清替代了谁手工做的哪一步，价值判断证据不足。
+    evidence_ids:
+    - ev-fe1037fe5b188253
+  - gate: consensus
+    status: insufficient
+    reason: 17 个点赞只反映关注度，不能证明持续使用，共识关无法成立。
+    evidence_ids:
+    - ev-fe1037fe5b188253
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，钱从哪来只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-fe1037fe5b188253
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成结果的稳定性、参数控制范围与商用许可，交付确定性未明。
+    evidence_ids:
+    - ev-fe1037fe5b188253
+  next_validation: 收集该空间页面上关于模型版本、参数控制与使用许可的公开说明。
+  market: ''
+  job: 插画或视觉创作者在需要写实风格图像时，输入提示词，要拿到可直接使用的写实图片。
+  job_en: An illustrator or visual creator, needing realistic-style images, enters a prompt to obtain
+    directly usable realistic pictures.
+  pain: 通用生成器出图风格不稳定、写实度不足，创作者要反复重试；但公开材料没有说明这一痛点当前的具体后果与频率。
+  pain_en: General generators produce inconsistent styles and insufficient realism, forcing repeated retries,
+    but the public material does not state the concrete consequences or frequency today.
+  current_alternative: 使用通用图像生成工具或本地部署底模自行调参，公开材料未给出对比。
+  current_alternative_en: Using general image generators or self-hosting a base model and tuning parameters;
+    the public material offers no comparison.
+  usage_reason: 推断：若它在共享算力上稳定输出写实风格，创作者就不必自己部署底模和调参，缺少本地显卡、只要写实出图的人会因此选择它；目前只有一句模型说明，缺少流程与交付证据。
+  usage_reason_en: 'Inference: if it reliably outputs a realistic style on shared compute, creators no
+    longer need to self-host a base model and tune parameters, which would lead people without local GPUs
+    who only need realistic output to choose it; today there is only a model description and no evidence
+    of flow or delivery.'

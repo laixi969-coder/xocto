@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/Krisp-AI/VoiceIsolation-Benchmark
 summary: ''
 first_seen: '2026-09-23T08:59:58Z'
 last_seen: '2026-09-24T00:31:15Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

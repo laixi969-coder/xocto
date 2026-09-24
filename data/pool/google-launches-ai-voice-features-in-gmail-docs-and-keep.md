@@ -25,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJC
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

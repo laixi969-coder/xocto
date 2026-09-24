@@ -22,7 +22,7 @@ summary: Distributors Move from Buying AI Software to Buying AI Companies, Techn
   Strategy Group
 first_seen: '2026-09-22T16:25:03Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

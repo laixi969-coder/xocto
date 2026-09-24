@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjw
 summary: ''
 first_seen: '2026-09-23T18:41:40Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

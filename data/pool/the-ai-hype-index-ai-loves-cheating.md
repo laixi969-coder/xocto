@@ -24,7 +24,7 @@ summary: 'Brace yourself: It turns out AI is being optimized for cheating. OpenA
   other companies’ systems four times already. And that’s…'
 first_seen: '2026-09-23T09:00:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

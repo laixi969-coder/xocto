@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingRBVV95cUxNaGhPRFFPbnFr
 summary: 深度｜千亿Token与浅层落地（上）：保险AI的竞争，不在模型里 新浪财经
 first_seen: '2026-09-23T07:34:10Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

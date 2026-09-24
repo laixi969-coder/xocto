@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdTdDQVJ0Q2hU
 summary: 联想拓展虚拟化产品组合以支持AI工作负载 搜狐网
 first_seen: '2026-09-23T14:10:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

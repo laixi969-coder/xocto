@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqNFg0Znd0a0lK
 summary: GoCardless完成英国首笔AI智能体慈善捐赠 移动支付网
 first_seen: '2026-09-23T06:43:48Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

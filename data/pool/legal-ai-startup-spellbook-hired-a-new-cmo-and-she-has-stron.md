@@ -23,7 +23,7 @@ summary: Legal AI startup Spellbook hired a new CMO — and she has strong opini
   AI marketing Business Insider Africa
 first_seen: '2026-09-23T12:00:01Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

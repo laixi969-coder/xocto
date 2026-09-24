@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVVQYUFHcGhZ
 summary: Did AI Supply Chain Rollout Just Shift SPS Commerce (SPSC) Stock Narrative? simplywall.st
 first_seen: '2026-09-23T18:49:39Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: nota-ai与英特尔联合推出视觉ai一体化解决方案-ai基础设施
-name: Nota AI与英特尔联合推出视觉AI一体化解决方案-AI基础设施
+name: Nota AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE1mZEs1NXJGTDg0
 summary: Nota AI与英特尔联合推出视觉AI一体化解决方案-AI基础设施 至顶网
 first_seen: '2026-09-23T07:57:34Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Nota AI与英特尔联合推出视觉AI一体化解决方案-AI基础设施
+# Nota AI
 
 Nota AI与英特尔联合推出视觉AI一体化解决方案-AI基础设施 至顶网
 

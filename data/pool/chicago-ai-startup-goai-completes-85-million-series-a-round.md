@@ -1,6 +1,6 @@
 ---
 slug: chicago-ai-startup-goai-completes-85-million-series-a-round
-name: Chicago AI Startup Go.AI Completes $85 Million Series A Round
+name: Go.AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BNnhvVkdzVFBp
 summary: Chicago AI Startup Go.AI Completes $85 Million Series A Round tokenpost.com
 first_seen: '2026-09-23T11:28:29Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Chicago AI Startup Go.AI Completes $85 Million Series A Round
+# Go.AI
 
 Chicago AI Startup Go.AI Completes $85 Million Series A Round tokenpost.com
 

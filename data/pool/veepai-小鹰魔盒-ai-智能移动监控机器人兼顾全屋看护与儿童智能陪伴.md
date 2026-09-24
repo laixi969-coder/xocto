@@ -1,6 +1,6 @@
 ---
 slug: veepai-小鹰魔盒-ai-智能移动监控机器人兼顾全屋看护与儿童智能陪伴
-name: Veepai 小鹰魔盒 AI 智能移动监控机器人，兼顾全屋看护与儿童智能陪伴
+name: Veepai 小鹰魔盒
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE90YUt0LWFpUXpk
 summary: Veepai 小鹰魔盒 AI 智能移动监控机器人，兼顾全屋看护与儿童智能陪伴 geekpark.net
 first_seen: '2026-09-23T03:13:33Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Veepai 小鹰魔盒 AI 智能移动监控机器人，兼顾全屋看护与儿童智能陪伴
+# Veepai 小鹰魔盒
 
 Veepai 小鹰魔盒 AI 智能移动监控机器人，兼顾全屋看护与儿童智能陪伴 geekpark.net
 

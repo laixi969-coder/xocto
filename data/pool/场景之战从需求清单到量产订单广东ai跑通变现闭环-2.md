@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxNUThiNXh1VUVq
 summary: 场景之战：从需求清单到量产订单，广东AI跑通变现闭环 21财经
 first_seen: '2026-09-22T08:02:51Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

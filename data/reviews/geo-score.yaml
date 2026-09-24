@@ -1,0 +1,43 @@
+- id: req-initial-geo-score-2026-09-24
+  project_slug: geo-score
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容团队判断页面能否被生成式搜索引用的问题，痛点是引用规则不透明、改版缺依据；旧做法是人工经验和通用 SEO 清单，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-cd20a4c4aa37b9a9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与 fork 数，没有用户评价、客户案例或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-cd20a4c4aa37b9a9
+  - gate: model
+    status: insufficient
+    reason: 仓库为开源且未见定价页，买方与收费路径不明；可能来自代理商按次服务或企业内训，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cd20a4c4aa37b9a9
+  - gate: truth
+    status: insufficient
+    reason: 评分规则公开且带版本，方向可核对，但尚无实测复现或与真实引用结果的对照，交付确定性未核验。
+    evidence_ids:
+    - ev-cd20a4c4aa37b9a9
+  next_validation: 收集该仓库的 issue、discussion 或官方文档，核对评分规则的具体检查项与版本变更记录，并寻找可复现的评分与真实引用结果对照。
+  market: ''
+  job: SEO 或内容营销人员在页面发布或改版前，把站点和页面内容交给工具，按生成式搜索的引用规则检查一遍，决定哪些内容需要改写。
+  job_en: Before publishing or revising a page, an SEO or content marketer feeds the site and page content
+    to the tool, checks it against generative-search citation rules, and decides what to rewrite.
+  pain: 生成式搜索的引用逻辑不透明，团队只能靠猜和零散经验判断内容会不会被引用，改版方向缺少可复用的依据，反复试错成本高。
+  pain_en: Citation logic in generative search is opaque; teams guess from scattered experience whether
+    content will be cited, revision direction lacks a reusable basis, and trial-and-error is costly.
+  current_alternative: 目前多靠人工经验、通用 SEO 检查清单，或直接向 ChatGPT 提问看是否被提及，缺少统一、可版本化的评分口径。
+  current_alternative_en: Today teams rely on manual experience, generic SEO checklists, or simply asking
+    ChatGPT whether the site is mentioned, with no unified, versionable scoring standard.
+  usage_reason: 相较人工逐条猜测，它把检查项固化成公开且带版本的规则并自动跑分，省去每次重新讨论标准的那一步，让改版前后有同一把尺子可比；推断，做内容营销和独立站运营的人会在发布前例行使用。
+  usage_reason_en: Compared with guessing item by item, it fixes the checks into an open, versioned rubric
+    and scores automatically, removing the step of renegotiating the standard each time and giving one
+    comparable yardstick before and after revisions; this is inference, and content marketers and site
+    operators would use it routinely before publishing.

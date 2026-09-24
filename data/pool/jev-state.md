@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/jev-state
 summary: Turn AI conversations into tests and runnable code
 first_seen: '2026-09-22T18:53:46Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

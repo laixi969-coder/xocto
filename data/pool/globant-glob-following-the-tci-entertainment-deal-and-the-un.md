@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVJOb1BIYkdl
 summary: Globant (GLOB) Following The TCI Entertainment Deal And The Undervalued Narrative simplywall.st
 first_seen: '2026-09-23T20:35:12Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

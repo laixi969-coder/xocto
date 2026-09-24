@@ -23,7 +23,7 @@ summary: "Tool:   Shadow roots, explained with live examples  \n         Prompt 
   \         Tags:  css"
 first_seen: '2026-09-23T16:37:18Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

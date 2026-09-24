@@ -1,6 +1,6 @@
 ---
 slug: enveda-an-ai-drugmaker-banks-311m-in-venture-funding
-name: Enveda, an AI drugmaker, banks $311M in venture funding
+name: Enveda
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNUS1Sb0UyVEk1
 summary: Enveda, an AI drugmaker, banks $311M in venture funding BioPharma Dive
 first_seen: '2026-09-23T18:16:59Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Enveda, an AI drugmaker, banks $311M in venture funding
+# Enveda
 
 Enveda, an AI drugmaker, banks $311M in venture funding BioPharma Dive
 

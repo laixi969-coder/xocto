@@ -1,0 +1,45 @@
+- id: req-initial-koreshield-2026-09-24
+  project_slug: koreshield
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是 AI 客服代理对外答复后的安全与举证问题，痛点结构上存在，但公开材料只有一句定位，说不清替代了谁手工做的哪一步，价值判断证据不足。
+    evidence_ids:
+    - ev-e1f9415476fe9c6d
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何采用、评价或客户案例信号，共识关无法成立。
+    evidence_ids:
+    - ev-e1f9415476fe9c6d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，钱从哪来只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-e1f9415476fe9c6d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它检查哪些安全项、证据如何留存与是否可被审计采信，交付确定性未明。
+    evidence_ids:
+    - ev-e1f9415476fe9c6d
+  next_validation: 收集该产品官方页面或文档中关于安全检查项、证据留存形式与定价的公开材料。
+  market: ''
+  job: 客服运营或合规人员在 AI 客服代理对外答复后，处理代理的对话记录与处理轨迹，要完成安全核查并留下可举证的证据。
+  job_en: A support operations or compliance person, after AI support agents answer customers, works from
+    the agents' conversation logs and handling traces to run safety checks and retain evidence that can
+    be produced on demand.
+  pain: AI 代理直接对外答复后，出错时缺少可追溯的证据链，责任难以界定；但公开材料没有说明这一痛点当前的具体后果与频率。
+  pain_en: Once AI agents answer customers directly, a traceable evidence chain is missing when something
+    goes wrong and accountability is hard to pin down, but the public material does not state the concrete
+    consequences or frequency today.
+  current_alternative: 靠人工抽检对话记录、平台自带日志或事后人工复盘，公开材料未给出对比。
+  current_alternative_en: Manual sampling of conversation logs, platform-native logging, or after-the-fact
+    human review; the public material offers no comparison.
+  usage_reason: 推断：若它能把代理的对话与处理轨迹自动转成可核验的安全与证据记录，就省掉人工抽检和事后拼证据这一步，受监管行业里对答复负责的客服团队会因此选择它；目前只有一句定位描述，缺少流程与交付证据。
+  usage_reason_en: 'Inference: if it turns agent conversations and handling traces into a verifiable safety
+    and evidence record automatically, it removes the manual sampling and after-the-fact evidence assembly
+    step, which would lead accountable support teams in regulated industries to choose it; today there
+    is only a positioning line and no evidence of flow or delivery.'

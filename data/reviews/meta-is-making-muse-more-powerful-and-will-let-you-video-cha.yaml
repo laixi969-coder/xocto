@@ -1,0 +1,40 @@
+- id: req-initial-meta-is-making-muse-more-powerful-and-will-let-you-video-cha-2026-09-24
+  project_slug: meta-is-making-muse-more-powerful-and-will-let-you-video-cha
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 未进入：材料只列新增能力，无法还原具体用户任务、痛点与不采用的后果。
+    evidence_ids:
+    - ev-5f2a25a2fc408878
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：无采用、留存或社区讨论证据，只有官方迭代说法。
+    evidence_ids:
+    - ev-5f2a25a2fc408878
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或付费路径。
+    evidence_ids:
+    - ev-5f2a25a2fc408878
+  - gate: truth
+    status: insufficient
+    reason: 未进入：智能体代发邮件涉及身份与责任边界，公开材料未说明人工确认与安全约束。
+    evidence_ids:
+    - ev-5f2a25a2fc408878
+  next_validation: Meta 官方关于 Muse 智能体邮箱与视频通话功能的帮助文档或发布说明，需说明可用范围、权限与人工确认机制。
+  market: ''
+  job: 未进入判定：公开材料只说明智能体获得邮箱与视频通话能力，未说明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: 'Not assessed: public materials only state that the agent gains email and video chat abilities,
+    without specifying who handles what materials in which situation to complete which task.'
+  pain: 未进入判定：未提供用户痛点、抱怨或旧流程受阻的公开描述。
+  pain_en: 'Not assessed: no public description of user pain, complaints, or blocked legacy workflows
+    is provided.'
+  current_alternative: 未进入判定：未说明用户此前用什么方式完成同类任务。
+  current_alternative_en: 'Not assessed: it is not stated how users previously completed comparable tasks.'
+  usage_reason: 未进入判定：无用户反馈或采用证据，无法解释用户为何选择它而非旧做法。
+  usage_reason_en: 'Not assessed: no user feedback or adoption evidence exists to explain why a user would
+    choose it over prior practice.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQS3hMZ240Zlot
 summary: AI shapes purchase decisions beyond what brands can control with ads eMarketer
 first_seen: '2026-09-21T20:20:40Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

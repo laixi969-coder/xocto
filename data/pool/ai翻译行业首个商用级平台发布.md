@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPUE9MLVByZEdQ
 summary: AI翻译行业首个商用级平台发布 搜狐网
 first_seen: '2026-09-21T08:53:19Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

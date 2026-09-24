@@ -1,6 +1,6 @@
 ---
 slug: use-open-weight-models-as-your-ai-coding-agent-with-amazon-b
-name: Use open weight models as your AI coding agent with Amazon Bedrock
+name: Amazon Bedrock
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: Pair OpenCode, an open-source terminal-native AI coding agent, with ope
   to manage.
 first_seen: '2026-09-23T18:17:44Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Use open weight models as your AI coding agent with Amazon Bedrock
+# Amazon Bedrock
 
 Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant. Learn how to configure multi-model workflows, match the right model to each task, and keep your data in your own AWS account with no infrastructure to manage.
 

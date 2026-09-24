@@ -1,0 +1,40 @@
+- id: req-initial-from-one-of-europes-biggest-fintech-exits-to-bootstrapping-a-2026-09-24
+  project_slug: from-one-of-europes-biggest-fintech-exits-to-bootstrapping-a
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 未说明解决什么需求与痛点，无法判断价值；仅知创始团队背景与自筹资金模式。
+    evidence_ids:
+    - ev-77d52bd948bb977e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺少场景与用户认知证据。
+    evidence_ids:
+    - ev-77d52bd948bb977e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-77d52bd948bb977e
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-77d52bd948bb977e
+  next_validation: 收集 Freda 官方产品页或定价页，确认其具体功能、目标用户与交付物。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境、处理材料与要完成的任务，无法还原工作流。
+  job_en: Public material does not identify the user, situation, material handled or task to complete,
+    so the workflow cannot be reconstructed.
+  pain: 未披露任何用户痛点或旧流程中的具体困难。
+  pain_en: No user pain point or concrete difficulty in the old process is disclosed.
+  current_alternative: 未披露当前替代做法。
+  current_alternative_en: The current alternative is not disclosed.
+  usage_reason: 缺少产品功能、交付物与替代对象，无法解释用户为何选择它；仅能确认创始团队来自 Tink 且采用自筹资金模式，这属于团队背景而非使用理由。
+  usage_reason_en: With no product function, deliverable or replaced alternative, there is no basis to
+    explain user choice; only the Tink founder background and bootstrapping are known, which is team context,
+    not a usage reason.

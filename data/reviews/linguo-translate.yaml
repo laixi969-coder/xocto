@@ -1,0 +1,44 @@
+- id: req-initial-linguo-translate-2026-09-24
+  project_slug: linguo-translate
+  level: initial
+  reviewed_at: '2026-09-24T00:30:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它是 macOS 离线与 AI 翻译，说不清谁在什么节点用、替代了哪一步旧工作，痛点与不采用的后果均无材料支持。
+    evidence_ids:
+    - ev-3100d894414bfef7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无任何采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-3100d894414bfef7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均无公开材料。
+    evidence_ids:
+    - ev-3100d894414bfef7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-3100d894414bfef7
+  next_validation: 收集该产品官方页面或文档，确认离线与在线翻译的切换方式、支持的语言与文件格式，以及是否披露定价或客户案例。
+  market: ''
+  job: macOS 用户在处理外文文档、网页或邮件时，需要把内容转成自己熟悉的语言再继续阅读或回复。
+  job_en: A macOS user working through foreign-language documents, pages or email needs the content in
+    a familiar language before continuing to read or reply.
+  pain: 公开材料只给出「离线与 AI 翻译」一句描述，没有说明用户原来卡在哪一步、不翻译会有什么后果，也没有用户抱怨或替代行为的记录，痛点无法还原。
+  pain_en: The public material offers only the phrase 'offline & AI translation'; it does not say which
+    step users were stuck on, what happens without translation, and there is no record of user complaints
+    or workarounds, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未提及用户此前用什么方式翻译，常见替代如系统自带翻译、浏览器翻译或在线翻译网站均属推断，未被候选资料证实。
+  current_alternative_en: The material does not say what users used before; common alternatives such as
+    built-in system translation, browser translation or online translation sites are inference and are
+    not confirmed by the candidate.
+  usage_reason: 无法判断。资料未说明离线相比在线翻译减少了哪一步负担、改善了哪项可核对结果，也没有用户反馈或客户案例支持选择动机。
+  usage_reason_en: Cannot be judged. The material does not explain which step offline translation removes
+    compared with online translation or which checkable result it improves, and no user feedback or customer
+    case supports the choice.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xcjlhUTdPNXY2
 summary: T早报｜外交部：各方应共同推动AI开放、包容、普惠、向善发展；林毅夫：中国AI开源模式将缩小不同经济体收入差距；吴泳铭：AI模型、芯片和云是阿里长期战略选择 财新
 first_seen: '2026-09-23T01:17:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

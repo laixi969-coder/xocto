@@ -1,0 +1,39 @@
+- id: req-initial-anthropic-and-nvidia-back-basecamp-research-in-140m-series-c-2026-09-24
+  project_slug: anthropic-and-nvidia-back-basecamp-research-in-140m-series-c
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有融资事实，无法还原用户任务与旧流程。
+    evidence_ids:
+    - ev-f9986ea6f7312d12
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无公开采用或客户证据。
+    evidence_ids:
+    - ev-f9986ea6f7312d12
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-f9986ea6f7312d12
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从判断。
+    evidence_ids:
+    - ev-f9986ea6f7312d12
+  next_validation: 收集 Basecamp Research 官方产品页或合作公告，确认其输入数据、使用方与交付结果。
+  market: ''
+  job: 候选资料未说明具体使用者、使用情境与所处理的材料，无法还原谁在哪个研发节点用它完成什么任务。
+  job_en: The candidate material does not state the specific user, situation or material handled, so it
+    cannot reconstruct who uses it at which R&D step to finish what task.
+  pain: 资料未描述任何具体痛点，只能看到融资事实。
+  pain_en: The material describes no concrete pain point, only the funding fact.
+  current_alternative: 资料未说明此前这一步由谁、用什么方式完成。
+  current_alternative_en: The material does not say who or what previously performed this step.
+  usage_reason: 缺少产品能力、输入输出与旧做法的任何描述，无法解释用户为何选择它；融资只属关注度证据。
+  usage_reason_en: With no description of product capability, inputs/outputs or the old way of working,
+    there is no basis to explain why a user would choose it; funding is only attention evidence.

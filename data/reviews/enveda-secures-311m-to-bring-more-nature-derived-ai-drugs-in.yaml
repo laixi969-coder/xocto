@@ -1,0 +1,43 @@
+- id: req-initial-enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-in-2026-09-24
+  project_slug: enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-in
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决天然产物候选分子筛选这一具体研发任务，痛点刚性、旧替代明确，结构上成立。
+    evidence_ids:
+    - ev-227904c7baa6575f
+  - gate: consensus
+    status: insufficient
+    reason: 有融资与估值，但未披露合作药企、授权或临床读出结果，行业采用共识尚不明确。
+    evidence_ids:
+    - ev-227904c7baa6575f
+  - gate: model
+    status: insufficient
+    reason: 收入来自授权、合作还是自研管线尚不清楚，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-227904c7baa6575f
+  - gate: truth
+    status: insufficient
+    reason: 临床阶段药物尚无公开读出数据，AI 筛选能否带来确定性交付结果不可核对。
+    evidence_ids:
+    - ev-227904c7baa6575f
+  next_validation: 收集 Enveda 官方管线页或临床登记信息，确认其临床阶段药物的读出结果与合作方。
+  market: ''
+  job: 制药公司的药物发现研究人员，在寻找新候选化合物时，需要从大量天然来源化学数据中筛出可进入临床的分子。
+  job_en: Drug discovery researchers at pharma companies need to screen large volumes of natural-source
+    chemical data to find molecules that can enter clinical trials.
+  pain: 天然产物数据分散、结构复杂，传统筛选周期长、命中率低，新药研发成本高。
+  pain_en: Natural-product data is fragmented and structurally complex, so traditional screening is slow
+    with low hit rates, making drug discovery costly.
+  current_alternative: 药企通常靠高通量筛选、化合物库采购或外包给 CRO 完成早期发现。
+  current_alternative_en: Pharma firms typically rely on high-throughput screening, purchased compound
+    libraries or outsourced CROs for early discovery.
+  usage_reason: 推断：相较通用化合物库筛选，Enveda 以自有天然产物数据加 AI 识别候选分子，减少了从零构建筛选库这一步，因此缺少天然产物数据积累的药企会在特定疾病领域选择合作；公开材料未给出合作方或授权收入。
+  usage_reason_en: 'Inference: compared with generic compound-library screening, Enveda uses proprietary
+    natural-product data plus AI to identify candidates, removing the step of building a screening library
+    from scratch, so pharma firms lacking natural-product data would partner in specific disease areas;
+    public materials give no partner or licensing revenue.'

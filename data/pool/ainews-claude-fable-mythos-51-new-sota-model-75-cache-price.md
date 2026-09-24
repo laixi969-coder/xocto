@@ -3,13 +3,14 @@ slug: ainews-claude-fable-mythos-51-new-sota-model-75-cache-price
 name: Claude
 builder: matthieu_bl
 category: ''
-summary_zh: 这是模型厂商的版本与定价变化，不是独立产品：缓存单价下降 75% 会降低重复上下文场景的调用成本，但输出 token 增加约 70% 可能抵消部分节省，实际成本取决于输入输出比例（推断）。同期安全事件与官方承认对齐缺陷，意味着在生物、网络安全等高风险场景中，应用方需要自行增加人工复核与访问控制，交付确定性下降。
+summary_zh: Anthropic于2026年9月发布Claude Fable/Mythos 5.1，宣称达到新的SOTA水平，缓存价格下调75%，但输出token消耗增加70%。这一组合意味着单位缓存成本下降而单次任务输出成本上升，AI应用的成本结构取决于缓存命中率与输出长度；同时材料显示该模型被用于自动化网络攻击、生物武器研究绕过防护等滥用场景，安全对齐缺陷被承认且尚无解决方案，可能推高企业采用时的合规与风控成本。上述成本与采用影响为基于材料事实的推断。
 inspiration: ''
-summary_en: 'This is a model vendor version and pricing change, not a standalone product: a 75% cache
-  price cut lowers cost for repeated-context workloads, but roughly 70% more output tokens may offset
-  part of the saving, so net cost depends on the input/output mix (inference). Concurrent safety incidents
-  and the vendor''s admission of alignment flaws mean applications in biosecurity and cybersecurity need
-  added human review and access controls, reducing delivery certainty.'
+summary_en: Anthropic released Claude Fable/Mythos 5.1 in September 2026, claiming a new state of the
+  art, with a 75% cache price cut but 70% more output tokens. This combination lowers per-unit cache cost
+  while raising per-task output cost, so application economics depend on cache hit rates and output length;
+  the material also shows the model used for automated cyberattacks and bioweapons-research safeguard
+  bypasses, with acknowledged alignment flaws and no solution yet, which may raise compliance and risk-control
+  costs for enterprise adoption. These cost and adoption implications are inferences drawn from the material.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +26,7 @@ canonical_url: https://latent.space/p/ainews-claude-fablemythos-51-new
 summary: Queue the usual rush of model launches...
 first_seen: '2026-09-02T07:46:08Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

@@ -3,46 +3,47 @@ slug: deepseek
 name: DeepSeek
 builder: ''
 category: 通用助手
-summary_zh: DeepSeek 是一个 AI 聊天助手，用户通过对话获取信息、解决问题，支持编程、内容创作和文件阅读。用户输入问题或任务，AI 生成回答或执行操作，最终交付可用的文本结果。具体工作流程和交付细节仍待核验。
-inspiration: DeepSeek 作为通用助手已形成规模，但窗口已关，不应正面竞争。趋势是 AI 助手向垂直行业渗透，切入机会在于结合具体工作流，如编程辅助、内容生成，而非泛化聊天。
-summary_en: DeepSeek is an AI chat assistant that users interact with to get information and solve problems,
-  supporting coding, content creation, and file reading. Users input questions or tasks, and the AI generates
-  responses or performs actions, delivering usable text results. Specific workflows and deliverables remain
-  to be verified.
-inspiration_en: DeepSeek as a general assistant has reached scale, but the window is closed; avoid direct
-  competition. The trend is AI assistants penetrating vertical industries; entry opportunities lie in
-  integrating specific workflows like coding assistance or content generation, not generic chat.
+summary_zh: 个人用户和知识工作者在写作、查资料、写代码或日常问答时打开它，把问题或材料交给对话界面，模型返回答案、草稿或代码；本次新增的是Agent训练论文披露的每秒5000+沙盒训练环境，具体产品化流程与交付仍待核验。
+inspiration: 趋势：头部通用助手开始把竞争点从模型回答质量转向可批量生成训练环境的Agent能力，训练侧工程成为新的门槛。切入：不要在通用对话正面竞争，可切垂直行业里需要多步操作、可核对结果的环节，例如把沙盒式试错用于财税申报校验或合同条款比对，按交付结果而非席位收费。
+summary_en: Individuals and knowledge workers open it while writing, researching, coding or asking everyday
+  questions, hand over a prompt or material to the chat interface, and receive an answer, draft or code;
+  the new element here is an agent-training paper disclosing a 5,000+ sandboxes-per-second training environment,
+  while the productized workflow and deliverables remain unverified.
+inspiration_en: 'Trend: leading general assistants are shifting competition from answer quality toward
+  agent capabilities that mass-produce training environments, making training-side engineering a new barrier.
+  Entry: avoid head-on general chat and instead target multi-step, checkable tasks in vertical industries,
+  such as sandbox-style trial-and-error for tax filing validation or contract clause comparison, charging
+  per delivered result rather than per seat.'
 priority_review: false
 project_type: new_application
 industries:
-- 互联网
-- 软件开发
-- 内容创作
+- 软件与互联网服务
+- 教育与培训
+- 专业服务
 industries_en:
-- Internet
-- Software Development
-- Content Creation
+- Software and internet services
+- Education and training
+- Professional services
 jobs:
-- 程序员
-- 内容创作者
-- 普通用户
+- 个人用户与知识工作者在写作、检索、编程和日常问答中直接对话获取答案与草稿
+- 企业与开发者基于其模型接口构建问答、摘要和代码辅助功能
 jobs_en:
-- Programmer
-- Content Creator
-- General User
+- Individual users and knowledge workers holding conversations for writing, search, coding and everyday
+  questions
+- Companies and developers building Q&A, summarization and coding assistance on its model API
 regions:
 - 中国
 - 全球
 regions_en:
 - China
 - Global
-open_source: false
+open_source: true
 url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

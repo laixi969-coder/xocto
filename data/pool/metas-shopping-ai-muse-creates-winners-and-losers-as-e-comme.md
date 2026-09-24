@@ -1,6 +1,6 @@
 ---
 slug: metas-shopping-ai-muse-creates-winners-and-losers-as-e-comme
-name: Meta’s Shopping AI ‘Muse’ Creates Winners and Losers as E-Commerce Gains, Insurance and Travel Slip
+name: Meta Muse
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Meta’s Shopping AI ‘Muse’ Creates Winners and Losers as E-Commerc
   Slip bloomingbit
 first_seen: '2026-09-23T10:05:45Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Meta’s Shopping AI ‘Muse’ Creates Winners and Losers as E-Commerce Gains, Insurance and Travel Slip
+# Meta Muse
 
 Meta’s Shopping AI ‘Muse’ Creates Winners and Losers as E-Commerce Gains, Insurance and Travel Slip bloomingbit
 

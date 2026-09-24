@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOYUlKMTE4NG9Z
 summary: AI收入持续高增长，东吴证券：维持能科科技“买入”评级 搜狐网
 first_seen: '2026-09-23T07:13:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

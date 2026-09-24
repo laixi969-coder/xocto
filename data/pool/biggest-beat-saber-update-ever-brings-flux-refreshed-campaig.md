@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/beat-saber-flux-campaign-update-rewards-han
 summary: ''
 first_seen: '2026-09-23T23:45:35Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

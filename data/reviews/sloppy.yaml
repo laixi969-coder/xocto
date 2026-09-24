@@ -1,0 +1,45 @@
+- id: req-initial-sloppy-2026-09-24
+  project_slug: sloppy
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理产出代码后合并前的审查与清理需求，痛点是人工逐行看 diff 的负担，旧做法是人工 review 加通用 linter，结构上成立。
+    evidence_ids:
+    - ev-0faa8a109a081fe1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 52 星、0 fork、1 个未关闭 issue，只有关注度信号，没有团队采用或持续使用的公开证据。
+    evidence_ids:
+    - ev-0faa8a109a081fe1
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费方、定价或商业路径；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-0faa8a109a081fe1
+  - gate: truth
+    status: insufficient
+    reason: 确定性本地检查、不调用 LLM 是贴近第一性目标的优点，但规则覆盖范围与修复正确率没有公开验证材料。
+    evidence_ids:
+    - ev-0faa8a109a081fe1
+  next_validation: 收集该仓库的 issue 与 discussion，确认规则覆盖范围和修复正确率是否有使用者反馈。
+  market: ''
+  job: Laravel 后端工程师在合并 AI 编码代理提交的代码前，处理 git diff 中的 PHP 改动，要完成规则化静态检查、自动修复和可复核的合并前验收。
+  job_en: Before merging code submitted by an AI coding agent, a Laravel backend engineer works on PHP
+    changes in the git diff to complete rule-based static checks, automated fixes and a reviewable pre-merge
+    acceptance step.
+  pain: AI 代理能快速产出大量代码，但风格、约定和隐性缺陷要人工逐行看，审查负担被推到合并前这一步；不处理就会把债务带进主干。
+  pain_en: AI agents produce large volumes of code quickly, but style, conventions and hidden defects
+    still need line-by-line human review, pushing the burden to the pre-merge step; skipping it carries
+    the debt into the main branch.
+  current_alternative: 目前多靠人工 code review、通用 linter 或 PHPStan 一类工具，它们不了解 Laravel 约定，也不针对代理产出的 diff 做修复。
+  current_alternative_en: Today this is mostly manual code review plus generic linters or tools like PHPStan,
+    which do not understand Laravel conventions and do not fix agent-generated diffs.
+  usage_reason: 相较人工逐行审查，它把检查限定在本次 diff 上并按 Laravel 规则给出确定性结论和可直接应用的修复，减少的是“先读一遍再手改”的那一步；推断，Laravel 团队在代理提交频繁时会因此选择它。
+  usage_reason_en: Compared with line-by-line manual review, it scopes checks to the current diff and
+    returns deterministic Laravel-rule findings plus directly applicable fixes, removing the read-then-hand-edit
+    step; this is inference, and Laravel teams facing frequent agent submissions would choose it for that
+    reason.

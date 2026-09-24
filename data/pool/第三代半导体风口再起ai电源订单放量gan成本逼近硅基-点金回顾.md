@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5ORDkzTjRvN0tC
 summary: 第三代半导体风口再起：AI电源订单放量，GaN成本逼近硅基｜点金回顾 新浪财经
 first_seen: '2026-09-23T13:55:52Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

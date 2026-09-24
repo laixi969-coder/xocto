@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxPajR6YVgzblZq
 summary: AI as a barrier and bridge for HR's dealings with current employees HR Executive
 first_seen: '2026-09-21T12:20:46Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

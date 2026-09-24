@@ -1471,3 +1471,172 @@
   fact: 'Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs
     in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80%
     with zero external databases or dependencies. Built in pure Go. | repository stars: 722'
+- id: ev-4e57173fc47c3e29
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: pain
+  tier: independent
+  fact: 'OKF represents catalog knowledge as plain markdown files with YAML frontmatter, organized in
+    a directory hierarchy. That choice unlocks a few properties that are hard to get from a service-owned
+    metadata store: Human- and agent-readable. No SDK or query language stands between a reader and the
+    content. An engineer can cat a concept; an LLM can ingest it verbatim into context. Version ...'
+- id: ev-f6fd6c2550a98879
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: pain
+  tier: independent
+  fact: Open Knowledge Format — The open spec for AI-consumable knowledge as markdown files.
+- id: ev-297acaf902948100
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
+  title: knowledge-catalog/okf/SPEC.md at main - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: pain
+  tier: independent
+  fact: 'OKF is an open, human- and agent-friendly format for representing knowledge: the metadata, context,
+    and curated insight that surrounds data and systems. It is designed to be authored by people, generated
+    by agents, exchanged across organizations, and consumed by both. The format is intentionally ...'
+- id: ev-00995655c3d727b1
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'OKF represents catalog knowledge as plain markdown files with YAML frontmatter, organized in
+    a directory hierarchy. That choice unlocks a few properties that are hard to get from a service-owned
+    metadata store: Human- and agent-readable. No SDK or query language stands between a reader and the
+    content. An engineer can cat a concept; an LLM can ingest it verbatim into context. Version ...'
+- id: ev-57e60096b5bd2575
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: workaround
+  tier: independent
+  fact: Open Knowledge Format — The open spec for AI-consumable knowledge as markdown files.
+- id: ev-98d953b69a0e462e
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
+  title: knowledge-catalog/okf/SPEC.md at main - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'OKF is an open, human- and agent-friendly format for representing knowledge: the metadata, context,
+    and curated insight that surrounds data and systems. It is designed to be authored by people, generated
+    by agents, exchanged across organizations, and consumed by both. The format is intentionally ...'
+- id: ev-a745b9ea2a4ce626
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'OKF represents catalog knowledge as plain markdown files with YAML frontmatter, organized in
+    a directory hierarchy. That choice unlocks a few properties that are hard to get from a service-owned
+    metadata store: Human- and agent-readable. No SDK or query language stands between a reader and the
+    content. An engineer can cat a concept; an LLM can ingest it verbatim into context. Version ...'
+- id: ev-cfe970a4ddab2828
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Open Knowledge Format — The open spec for AI-consumable knowledge as markdown files.
+- id: ev-4e7f2f83fd6a21ab
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
+  title: knowledge-catalog/okf/SPEC.md at main - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'OKF is an open, human- and agent-friendly format for representing knowledge: the metadata, context,
+    and curated insight that surrounds data and systems. It is designed to be authored by people, generated
+    by agents, exchanged across organizations, and consumed by both. The format is intentionally ...'
+- id: ev-d319818f92f8946f
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'OKF represents catalog knowledge as plain markdown files with YAML frontmatter, organized in
+    a directory hierarchy. That choice unlocks a few properties that are hard to get from a service-owned
+    metadata store: Human- and agent-readable. No SDK or query language stands between a reader and the
+    content. An engineer can cat a concept; an LLM can ingest it verbatim into context. Version ...'
+- id: ev-2310973066fe3ac8
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: pricing
+  tier: independent
+  fact: Open Knowledge Format — The open spec for AI-consumable knowledge as markdown files.
+- id: ev-cd123fd42c668da2
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
+  title: knowledge-catalog/okf/SPEC.md at main - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'OKF is an open, human- and agent-friendly format for representing knowledge: the metadata, context,
+    and curated insight that surrounds data and systems. It is designed to be authored by people, generated
+    by agents, exchanged across organizations, and consumed by both. The format is intentionally ...'
+- id: ev-a3ff4e064c57b238
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: retention
+  tier: independent
+  fact: 'OKF represents catalog knowledge as plain markdown files with YAML frontmatter, organized in
+    a directory hierarchy. That choice unlocks a few properties that are hard to get from a service-owned
+    metadata store: Human- and agent-readable. No SDK or query language stands between a reader and the
+    content. An engineer can cat a concept; an LLM can ingest it verbatim into context. Version ...'
+- id: ev-f6fbc6121daa791b
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: retention
+  tier: independent
+  fact: Open Knowledge Format — The open spec for AI-consumable knowledge as markdown files.
+- id: ev-7b214db6e82d284d
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
+  title: knowledge-catalog/okf/SPEC.md at main - GitHub
+  published_at: ''
+  collected_at: '2026-09-24T00:57:31Z'
+  source_kind: retention
+  tier: independent
+  fact: 'OKF is an open, human- and agent-friendly format for representing knowledge: the metadata, context,
+    and curated insight that surrounds data and systems. It is designed to be authored by people, generated
+    by agents, exchanged across organizations, and consumed by both. The format is intentionally ...'
+- id: ev-4fbfa7c39751ebc5
+  project_slug: okf-agent-memory
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91+AI+%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B%E7%94%A8%E6%88%B7+%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-09-24T00:58:35Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件开发 AI 编程助手用户 软件工程师'

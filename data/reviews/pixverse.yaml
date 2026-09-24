@@ -1,0 +1,44 @@
+- id: req-initial-pixverse-2026-09-24
+  project_slug: pixverse
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是不会剪辑的人当天要出带特效短视频的需求，痛点是热点窗口短、手工剪辑慢；旧替代是剪辑软件套模板或外包，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-43d7f326cd98a479
+  - gate: consensus
+    status: insufficient
+    reason: 第三方榜单显示月访问约708万、环比9.66%，说明已有规模，但这是关注度证据，不能证明创作者把它留在日常流程里。
+    evidence_ids:
+    - ev-43d7f326cd98a479
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费方式，买方可能是个人创作者或商家，这是判断而非已验证事实；也无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-43d7f326cd98a479
+  - gate: truth
+    status: insufficient
+    reason: 模板特效类生成结果与真实人物动作的贴合度、以及人工确认边界，公开材料未说明，交付确定性仍待核验。
+    evidence_ids:
+    - ev-43d7f326cd98a479
+  next_validation: 收集 PixVerse 官方定价页或客户案例，确认按什么计价、谁在付费。
+  market: ''
+  job: 短视频创作者和社媒运营在需要当天产出可发布内容时，处理自己拍摄的照片或素材，要完成一条带流行特效、能直接发到社交平台的短视频。
+  job_en: Short-video creators and social media operators, when they need publishable content the same
+    day, work from their own photos or footage to produce a short clip with trending effects that can
+    go straight to social platforms.
+  pain: 旧做法要会剪辑软件、找模板、逐帧调特效，一条成片耗时长，热点窗口容易错过；不会剪辑的人只能放弃或外包。
+  pain_en: The old way requires editing software skills, template hunting and frame-by-frame effect work;
+    one clip takes long, hot moments are missed, and non-editors must give up or outsource.
+  current_alternative: 用剪映、CapCut 等剪辑工具套模板手工剪，或把素材交给剪辑师外包，也有用其他视频生成模型逐段试。
+  current_alternative_en: Manually applying templates in editors such as CapCut, outsourcing to a video
+    editor, or trying other generation models clip by clip.
+  usage_reason: 相较手工套模板，它把“选模板—对齐人脸或动作—渲染特效”这几步合并成一次上传即出片，省掉剪辑软件里的对齐与渲染操作；推断不会剪辑、又要追热点的社媒运营和中小商家会因此选择它，但公开材料没有留存或复购证据。
+  usage_reason_en: Compared with manual template editing, it merges template selection, face or motion
+    alignment and effect rendering into one upload, removing the alignment and render steps inside an
+    editor; the inference is that non-editing social operators and small merchants chasing trends would
+    pick it, though no retention or repeat-use evidence is public.

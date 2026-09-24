@@ -1,0 +1,44 @@
+- id: req-initial-audio8-asr-infinite-2026-09-24
+  project_slug: audio8-asr-infinite
+  level: initial
+  reviewed_at: '2026-09-24T00:31:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决实时中英转写需求，痛点具体，但公开材料只有一句功能描述，无法确认交付是否确定发生。
+    evidence_ids:
+    - ev-096935773b98b9df
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 2 个点赞，没有可归因到该产品的采用或讨论证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-096935773b98b9df
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、部署方式或买方，钱可能来自开发者自建或企业采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-096935773b98b9df
+  - gate: truth
+    status: insufficient
+    reason: 无法核对准确率、延迟实测与人工校对边界，承诺能否确定性交付尚不清楚。
+    evidence_ids:
+    - ev-096935773b98b9df
+  next_validation: 收集该演示页的模型卡或部署文档，核对中英文流式转写的实测延迟与准确率指标。
+  market: ''
+  job: 开发者或语音产品团队在搭建会议记录、客服通话转写或语音输入功能时，需要把连续的中英文音频实时变成可用的文字流。
+  job_en: Developers or voice product teams building meeting notes, support-call transcription or voice
+    input need continuous Chinese/English audio turned into a usable text stream in real time.
+  pain: 旧做法通常先录音再批量转写，字幕和记录滞后，无法在通话进行中即时使用；自建流式管线又要处理延迟与中英混说。
+  pain_en: The old approach records first and transcribes in batches, so captions and notes lag and cannot
+    be used mid-call; building a streaming pipeline in-house means handling latency and mixed Chinese/English
+    speech.
+  current_alternative: 商用云语音识别接口、开源离线转写模型，或人工速记与事后整理。
+  current_alternative_en: Commercial cloud speech APIs, open-source offline transcription models, or human
+    stenography and after-the-fact cleanup.
+  usage_reason: 推断：它以约 80 毫秒时钟输出流式文本，省去等待整段音频结束再转写的那一步，因此对延迟敏感、又需要中英混说的团队会优先试用；但目前只有一句功能描述，缺少准确率、部署方式和实际使用证据。
+  usage_reason_en: 'Inference: it emits streaming text on roughly an 80ms clock, removing the wait for
+    a full audio segment before transcription, so latency-sensitive teams handling mixed Chinese/English
+    speech would try it first; however only a one-line description exists, with no accuracy, deployment
+    or usage evidence.'

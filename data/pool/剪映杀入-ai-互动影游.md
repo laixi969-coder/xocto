@@ -1,20 +1,44 @@
 ---
 slug: 剪映杀入-ai-互动影游
-name: 剪映，杀入 AI 互动影游
+name: 剪映
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: 短视频剪辑师和内容创作者在拿到一句话创意、参考视频或文档后打开剪映 Hub，在无限画布上让 AI 生成脚本与分镜，再调用即梦、小云雀产出图片、视频和声音，初剪结果进入多轨时间线继续修改；「剪映助手」在剪辑工程内整理素材、删减口播、纠正字幕并检索补充画面，用户最终拿到可继续精修的成片工程，仍需人工确认与包装。
+inspiration: 趋势是视频生成模型把素材生产变便宜后，价值重心从「生成一段画面」移到「接住海量素材并把它剪成能发的片子」。切入不在再做生成模型，而在剪辑工程内的素材整理、口播删减与字幕校正这类重复劳动，可面向电商商品视频、本地生活探店、知识口播等高频出片团队，按成片条数或代运营交付收费，而非只卖会员积分。
+summary_en: Short-form video editors and creators open Jianying Hub with a one-line idea, reference video
+  or document, let AI draft scripts and storyboards on an infinite canvas, call Jimeng and Xiaoyunque
+  for images, video and audio, then push the rough cut into a multi-track timeline for further edits;
+  Jianying Assistant works inside the editing project to organize assets, trim voice-over, fix subtitles
+  and find supplementary footage, leaving users with an editable project that still needs human review
+  and packaging.
+inspiration_en: The trend is that once generative video makes raw footage cheap, value shifts from generating
+  a clip to absorbing large volumes of assets and cutting them into publishable videos. The opening is
+  not another generation model but the repetitive work inside the editing project — asset sorting, voice-over
+  trimming, subtitle correction — sold to teams that ship e-commerce product videos, local-life store
+  visits or talking-head knowledge clips, priced per finished video or as a managed delivery rather than
+  only as membership credits.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 短视频与内容创作
+- 影视与互动娱乐
+- 广告与电商营销
+industries_en:
+- Short-form video and content creation
+- Film, TV and interactive entertainment
+- Advertising and e-commerce marketing
+jobs:
+- 短视频剪辑师
+- 内容创作者
+- 电商商品视频运营
+jobs_en:
+- Short-form video editor
+- Content creator
+- E-commerce product video operator
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: http://www.geekpark.net/news/370883
 canonical_url: https://geekpark.net/news/370883
@@ -50,7 +74,7 @@ summary: "头图来源：剪映 \n 9 月 20 日，剪映在「AI 新创作发布
   \ AI 故事多了一点真正的新意。它开始思考的，已经不只是怎样更快地剪完一条视频，还有视频接下来可能变成什么。"
 first_seen: '2026-09-23T07:32:36Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -61,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# 剪映，杀入 AI 互动影游
+# 剪映
 
 头图来源：剪映 
  9 月 20 日，剪映在「AI 新创作发布会」上，集中更新了专业版、移动端和创作者生态。 

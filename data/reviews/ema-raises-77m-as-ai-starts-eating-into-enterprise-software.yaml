@@ -1,0 +1,45 @@
+- id: req-initial-ema-raises-77m-as-ai-starts-eating-into-enterprise-software-2026-09-24
+  project_slug: ema-raises-77m-as-ai-starts-eating-into-enterprise-software
+  level: initial
+  reviewed_at: '2026-09-24T00:31:52Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨系统重复流程任务的人工处理需求，痛点刚性且旧替代（RPA、外包）明确，结构上成立。
+    evidence_ids:
+    - ev-c0bccae4cc7fb07b
+    - ev-735bfc6830b8e655
+  - gate: consensus
+    status: supported
+    reason: 已有超过 50 家企业客户，含 Google 与 Microsoft，说明企业侧已形成一定采用共识。
+    evidence_ids:
+    - ev-c0bccae4cc7fb07b
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出融资额与客户数，未披露定价与收费方式，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-c0bccae4cc7fb07b
+  - gate: truth
+    status: insufficient
+    reason: 未提供流程准确率、人工兜底比例或交付结果数据，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-c0bccae4cc7fb07b
+  next_validation: 收集 Ema 官方定价页或客户案例，确认其按流程或结果收费的方式与交付准确率。
+  market: ''
+  job: 企业运营或后台流程人员，在跨多个业务系统处理工单、审批和数据录入时，需要把重复流程任务批量完成并保证结果可用。
+  job_en: Enterprise operations or back-office staff handling tickets, approvals and data entry across
+    multiple business systems need to complete repetitive process tasks at scale while keeping results
+    usable.
+  pain: 跨系统手工操作重复、耗时，且容易出错，人力成本随流程量线性上升。
+  pain_en: Manual cross-system work is repetitive, time-consuming and error-prone, with labor cost rising
+    linearly with process volume.
+  current_alternative: 企业通常用 RPA 脚本、外包团队或自建集成来串联系统，维护成本高、改动困难。
+  current_alternative_en: Enterprises typically use RPA scripts, outsourced teams or custom integrations
+    to connect systems, which are costly to maintain and hard to change.
+  usage_reason: 推断：相较 RPA 需要逐流程编写脚本，Ema 以自然语言接收流程任务并直接执行，减少了脚本编写与维护这一步，因此流程变化频繁、又不想投入集成开发的企业会在后台流程上选择它；公开材料未给出留存或复购数据。
+  usage_reason_en: 'Inference: compared with RPA, which requires scripting each process, Ema takes process
+    tasks in natural language and executes them directly, removing the scripting and maintenance step,
+    so enterprises with frequently changing processes that avoid integration work would choose it for
+    back-office flows; public materials give no retention or repeat-use data.'

@@ -1,6 +1,6 @@
 ---
 slug: cloud-startup-verda-raises-189m-in-funding-round-led-by-emer
-name: Cloud startup Verda raises $189m in funding round led by Emergence Capital
+name: Verda
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/verda-datacrunch-funding-round-emergen
 summary: ''
 first_seen: '2026-09-22T16:08:30Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Cloud startup Verda raises $189m in funding round led by Emergence Capital
+# Verda
 
 _（源没给简介）_
 

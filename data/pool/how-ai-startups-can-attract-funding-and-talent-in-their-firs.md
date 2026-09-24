@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQWlR1TFBYdWVa
 summary: How AI Startups Can Attract Funding and Talent in Their First Year TechNode
 first_seen: '2026-09-23T09:49:47Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -23,7 +23,7 @@ canonical_url: https://vercel.com/changelog/find-deployments-faster-with-redesig
 summary: ''
 first_seen: '2026-08-27T13:00:00Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

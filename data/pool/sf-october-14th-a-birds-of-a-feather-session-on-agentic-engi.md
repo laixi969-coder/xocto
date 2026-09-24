@@ -30,7 +30,7 @@ summary: "SF October 14th: A Birds of a Feather Session on Agentic Engineering  
   \  Tags:  events ,  ai ,  generative-ai ,  llms ,  coding-agents ,  jesse-vincent ,  agentic-engineering"
 first_seen: '2026-09-23T02:53:19Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/codespotlight
 summary: Make your code impossible to miss.
 first_seen: '2026-09-21T12:59:06Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

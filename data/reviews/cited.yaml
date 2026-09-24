@@ -1,0 +1,42 @@
+- id: req-initial-cited-2026-09-24
+  project_slug: cited
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在 AI 回答中是否被引用这一新盲区，旧做法是人工逐条提问截图，痛点具体且交付可核对。
+    evidence_ids:
+    - ev-806eaf1f719c7836
+  - gate: consensus
+    status: insufficient
+    reason: 46 星与 7 次复刻说明有开发者关注，但没有客户案例或评价证明品牌团队已形成共识。
+    evidence_ids:
+    - ev-806eaf1f719c7836
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自代理机构订阅或企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-806eaf1f719c7836
+  - gate: truth
+    status: insufficient
+    reason: 无法核对监测覆盖的助手范围与引用判定准确性，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-806eaf1f719c7836
+  next_validation: 收集该仓库的 README 或文档，核对它实际监测哪些 AI 助手、引用判定方式与是否提供付费方案。
+  market: ''
+  job: 品牌或公关团队在评估内容投放效果时，需要知道自家页面是否被 AI 回答引用、被哪些竞品来源挤掉。
+  job_en: Brand or PR teams evaluating content performance need to know whether their pages are cited
+    in AI answers and which competitor sources displace them.
+  pain: 旧做法只看搜索排名和点击，AI 回答不产生点击，团队无法判断内容是否被模型采用，投放效果出现盲区。
+  pain_en: The old approach only watches search rankings and clicks; AI answers generate no clicks, so
+    teams cannot tell whether content was used by the model, leaving a blind spot in performance.
+  current_alternative: 人工在多个 AI 助手里逐个提问截图，或用传统 SEO 排名工具代替。
+  current_alternative_en: Manually querying several AI assistants and screenshotting answers, or substituting
+    traditional SEO rank trackers.
+  usage_reason: 推断：它把“逐个助手手动提问并截图”变成可重复的引用记录，省去人工逐条核对来源的那一步，因此做内容与公关的团队在需要向客户证明 AI 可见度时会选择它；目前缺少付费与持续使用证据。
+  usage_reason_en: 'Inference: it turns manual per-assistant querying and screenshotting into a repeatable
+    citation record, removing the step of hand-checking sources one by one, so content and PR teams needing
+    to prove AI visibility to clients would choose it; paid and repeat-use evidence is still missing.'

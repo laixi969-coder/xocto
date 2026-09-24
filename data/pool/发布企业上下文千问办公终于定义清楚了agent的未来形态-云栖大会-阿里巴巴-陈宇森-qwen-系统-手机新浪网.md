@@ -1,6 +1,6 @@
 ---
 slug: 发布企业上下文千问办公终于定义清楚了agent的未来形态-云栖大会-阿里巴巴-陈宇森-qwen-系统-手机新浪网
-name: 发布“企业上下文”，千问办公终于定义清楚了Agent的未来形态|云栖大会|阿里巴巴|陈宇森|Qwen|系统_手机新浪网
+name: 千问办公
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOS3o2cDBCZ2lk
 summary: 发布“企业上下文”，千问办公终于定义清楚了Agent的未来形态|云栖大会|阿里巴巴|陈宇森|Qwen|系统_手机新浪网 新浪财经
 first_seen: '2026-09-23T14:18:50Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 发布“企业上下文”，千问办公终于定义清楚了Agent的未来形态|云栖大会|阿里巴巴|陈宇森|Qwen|系统_手机新浪网
+# 千问办公
 
 发布“企业上下文”，千问办公终于定义清楚了Agent的未来形态|云栖大会|阿里巴巴|陈宇森|Qwen|系统_手机新浪网 新浪财经
 

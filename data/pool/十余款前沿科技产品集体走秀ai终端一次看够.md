@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPZFN1dkJ0ZjFJ
 summary: 十余款前沿科技产品集体“走秀”，AI终端一次看够 搜狐网
 first_seen: '2026-09-23T05:09:00Z'
 last_seen: '2026-09-24T00:31:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

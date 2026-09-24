@@ -1,0 +1,43 @@
+- id: req-initial-cli-faq-shortcuts-2026-09-24
+  project_slug: cli-faq-shortcuts
+  level: initial
+  reviewed_at: '2026-09-24T00:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者重复输入同类提问、且难以自行发现重复模式的问题，旧做法是记忆重打或手工建别名，痛点具体且高频。
+    evidence_ids:
+    - ev-b59309f3aa52605f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有103个星标与4个未关闭议题，属于关注度信号，尚不能说明开发者已把它留在日常工作流中。
+    evidence_ids:
+    - ev-b59309f3aa52605f
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是个人开发者或团队席位，属推断而非已验证事实。
+    evidence_ids:
+    - ev-b59309f3aa52605f
+  - gate: truth
+    status: insufficient
+    reason: 从历史记录挖掘提问并生成命令的准确率、误生成命令的处理方式与人工确认边界均未在公开材料中说明。
+    evidence_ids:
+    - ev-b59309f3aa52605f
+  next_validation: 收集该仓库的issue与discussion，确认是否有开发者报告持续使用、命令命中率或误生成处理方式。
+  market: ''
+  job: 软件开发者在使用Claude Code、Codex或Cursor处理日常编码任务时，需要反复输入结构相似的提问或指令，希望把这些重复输入固化成可一键调用的短命令。
+  job_en: Software developers using Claude Code, Codex or Cursor for daily coding tasks repeatedly type
+    structurally similar asks or instructions and want to freeze them into one-tap short commands.
+  pain: 重复输入同样的提问既费时又容易前后不一致，而手工维护命令别名需要先意识到哪些提问是重复的，这一步本身就有认知负担。
+  pain_en: Retyping the same asks wastes time and produces inconsistent phrasing, while manually maintaining
+    command aliases first requires noticing which asks repeat, which is itself a cognitive burden.
+  current_alternative: 开发者目前靠记忆重打、复制粘贴旧对话、自建shell别名或提示词片段文件来复用指令。
+  current_alternative_en: Developers currently rely on memory, copy-pasting old conversations, self-built
+    shell aliases or prompt snippet files to reuse instructions.
+  usage_reason: 推断：它直接从本机历史记录里统计高频提问并生成短命令，省掉了开发者自己发现重复模式并手工编写别名的那一步，因此经常在同一项目里重复同类提问的开发者会愿意试用；公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: it counts frequent asks directly from local history and generates short
+    commands, removing the step where developers must spot the repeated pattern and hand-write an alias,
+    so developers who repeat similar asks within one project may try it; public material shows no retention
+    or payment evidence.'

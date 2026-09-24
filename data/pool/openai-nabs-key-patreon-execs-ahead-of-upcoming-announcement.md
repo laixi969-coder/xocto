@@ -1,6 +1,6 @@
 ---
 slug: openai-nabs-key-patreon-execs-ahead-of-upcoming-announcement
-name: OpenAI nabs key Patreon execs ahead of upcoming announcement
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: OpenAI has hired three former Patreon execs to anchor its product strat
   Drew Rowny and engineering head Shannon Ma with […]
 first_seen: '2026-09-23T11:02:39Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI nabs key Patreon execs ahead of upcoming announcement
+# OpenAI
 
 OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, cofounder and technology chief Sam Yam announced on X that he's joining OpenAI to lead Creator Product. He's also bringing Patreon's former product head Drew Rowny and engineering head Shannon Ma with […]
 

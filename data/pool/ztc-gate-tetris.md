@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/FINAL-Bench/Tetris-JEV-LAYA-ZTC
 summary: 'One gate call: 2.1 s vs 0.0615 s. Watch it play out.'
 first_seen: '2026-09-23T05:02:15Z'
 last_seen: '2026-09-24T00:31:15Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:
