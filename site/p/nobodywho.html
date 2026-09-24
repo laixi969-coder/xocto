@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>NobodyWho · x-octo</title>
-<meta name="description" content="在任何设备上运行 AI 模型">
+<meta name="description" content="开发者在需要让应用在本地设备上跑 AI 模型时接入 NobodyWho，把模型推理放到用户设备而非云端；公开材料只给出一篇 25 行 Python 示例，具体输入输出与交付形态仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/nobodywho.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/nobodywho.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/nobodywho.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/nobodywho.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="NobodyWho · x-octo">
-<meta property="og:description" content="在任何设备上运行 AI 模型">
+<meta property="og:description" content="开发者在需要让应用在本地设备上跑 AI 模型时接入 NobodyWho，把模型推理放到用户设备而非云端；公开材料只给出一篇 25 行 Python 示例，具体输入输出与交付形态仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/nobodywho.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/nobodywho.html#webpage", "@type": "WebPage", "description": "\u5728\u4efb\u4f55\u8bbe\u5907\u4e0a\u8fd0\u884c AI \u6a21\u578b", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "NobodyWho", "url": "https://xocto.vercel.app/p/nobodywho.html"}, {"@id": "https://xocto.vercel.app/p/nobodywho.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-08-21", "datePublished": "2026-08-19", "description": "\u5728\u4efb\u4f55\u8bbe\u5907\u4e0a\u8fd0\u884c AI \u6a21\u578b", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/nobodywho.html#webpage"}, "name": "NobodyWho", "url": "https://xocto.vercel.app/p/nobodywho.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/nobodywho.html", "name": "NobodyWho", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/nobodywho.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u9700\u8981\u8ba9\u5e94\u7528\u5728\u672c\u5730\u8bbe\u5907\u4e0a\u8dd1 AI \u6a21\u578b\u65f6\u63a5\u5165 NobodyWho\uff0c\u628a\u6a21\u578b\u63a8\u7406\u653e\u5230\u7528\u6237\u8bbe\u5907\u800c\u975e\u4e91\u7aef\uff1b\u516c\u5f00\u6750\u6599\u53ea\u7ed9\u51fa\u4e00\u7bc7 25 \u884c Python \u793a\u4f8b\uff0c\u5177\u4f53\u8f93\u5165\u8f93\u51fa\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "NobodyWho", "url": "https://xocto.vercel.app/p/nobodywho.html"}, {"@id": "https://xocto.vercel.app/p/nobodywho.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-24", "datePublished": "2026-08-19", "description": "\u5f00\u53d1\u8005\u5728\u9700\u8981\u8ba9\u5e94\u7528\u5728\u672c\u5730\u8bbe\u5907\u4e0a\u8dd1 AI \u6a21\u578b\u65f6\u63a5\u5165 NobodyWho\uff0c\u628a\u6a21\u578b\u63a8\u7406\u653e\u5230\u7528\u6237\u8bbe\u5907\u800c\u975e\u4e91\u7aef\uff1b\u516c\u5f00\u6750\u6599\u53ea\u7ed9\u51fa\u4e00\u7bc7 25 \u884c Python \u793a\u4f8b\uff0c\u5177\u4f53\u8f93\u5165\u8f93\u51fa\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/nobodywho.html#webpage"}, "name": "NobodyWho", "url": "https://xocto.vercel.app/p/nobodywho.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/nobodywho.html", "name": "NobodyWho", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>NobodyWho</h1>
       </div>
-      <p class="product-lede">在任何设备上运行 AI 模型</p>
+      <p class="product-lede">开发者在需要让应用在本地设备上跑 AI 模型时接入 NobodyWho，把模型推理放到用户设备而非云端；公开材料只给出一篇 25 行 Python 示例，具体输入输出与交付形态仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">基础层</span>      </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 629</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>Pierre</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-08-19</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-08-21</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-24</dd></div>
     </dl>
   </header>
 
@@ -81,50 +81,50 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-08-28</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-09-24</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">在任何设备上运行 AI 模型</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="product-lead">应用开发者需要在用户设备上直接运行 AI 模型，处理本地数据并返回推理结果，而不把数据发往云端。</p>
+        <p>公开材料未说明现有替代方式，可能是自建本地推理、云端 API 或其它端侧框架，具体流程仍待核验。</p>
+        <p>把数据发往云端会带来隐私、延迟和调用成本问题，但公开材料没有说明开发者当前用什么替代、痛到什么程度。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>问题已识别，需求强度未明</h3>
-        <p>跨设备 AI 推理可能使 AI 更普及</p>
+        <p>趋势是推理从云端下沉到终端，本地运行成为隐私与成本敏感场景的默认选项；切入可考虑对数据不能出本地的行业（如诊所、律所、工厂质检）做端侧交付，但需先确认它是否只是库而非成品。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>它承诺用更直接的方式完成这项任务：在任何设备上运行 AI 模型；具体采用动机与持续使用情况尚未核验。</p>
+        <p>推断：若它能把模型打包进应用并省去自建推理管线，开发者会在数据不能出本地的场景选择它；但缺少采用与留存证据，无法确认这一动机成立。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p>
+        <p>收集 NobodyWho 官方文档或仓库 README，确认它支持的模型、部署方式与是否提供商业授权或定价页。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>继续观察</strong>。它承诺用更直接的方式完成这项任务：在任何设备上运行 AI 模型；具体采用动机与持续使用情况尚未核验。</p>
+        <p><strong>继续观察</strong>。推断：若它能把模型打包进应用并省去自建推理管线，开发者会在数据不能出本地的场景选择它；但缺少采用与留存证据，无法确认这一动机成立。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>跨设备 AI 推理可能使 AI 更普及</p>
+        <p>趋势是推理从云端下沉到终端，本地运行成为隐私与成本敏感场景的默认选项；切入可考虑对数据不能出本地的行业（如诊所、律所、工厂质检）做端侧交付，但需先确认它是否只是库而非成品。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>在任何设备上运行 AI 模型</p></div>
-        <div><span class="field-k">工作流推理</span><p>它承诺用更直接的方式完成这项任务：在任何设备上运行 AI 模型；具体采用动机与持续使用情况尚未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p></div>
+        <div><span class="field-k">公开事实</span><p>开发者在需要让应用在本地设备上跑 AI 模型时接入 NobodyWho，把模型推理放到用户设备而非云端；公开材料只给出一篇 25 行 Python 示例，具体输入输出与交付形态仍待核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若它能把模型打包进应用并省去自建推理管线，开发者会在数据不能出本地的场景选择它；但缺少采用与留存证据，无法确认这一动机成立。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集 NobodyWho 官方文档或仓库 README，确认它支持的模型、部署方式与是否提供商业授权或定价页。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -132,28 +132,40 @@
             <span class="field-k">01 · 价值</span>
             <strong>证据不足</strong>
           </div>
-          <p>产品主张帮助用户完成：“在任何设备上运行 AI 模型”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>产品主张帮助用户完成：“开发者在需要让应用在本地设备上跑 AI 模型时接入 NobodyWho，把模型推理放到用户设备而非云端；公开材料只给出一篇 25 行 Python 示例，具体输入输出与交付形态仍待核验”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://www.nobodywho.ai/posts/jev-in-25-lines/" target="_blank" rel="noopener">NobodyWho · 2026-09-23 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>已有采用或关注仍应记录，但不能替代痛点证据；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。</p>
+          <p>社区讨论热度较高，但没有可归因到该产品的采用、付费或持续使用证据，关注度不等于共识。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://www.nobodywho.ai/posts/jev-in-25-lines/" target="_blank" rel="noopener">NobodyWho · 2026-09-23 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。</p>
+          <p>公开材料未披露定价、买方或收费方式，是开源库还是商业产品尚不明确，钱从哪来无法判断。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://www.nobodywho.ai/posts/jev-in-25-lines/" target="_blank" rel="noopener">NobodyWho · 2026-09-23 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。</p>
+          <p>无法核对端侧推理的确定性交付、模型覆盖范围与安全边界，承诺能否稳定兑现缺少材料支持。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://www.nobodywho.ai/posts/jev-in-25-lines/" target="_blank" rel="noopener">NobodyWho · 2026-09-23 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -164,10 +176,21 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照</p>
+        <p class="note">市场对照 · 跨国机会</p>
       </div>
     </div>
-    <p class="noanalysis-sub">尚未完成中英文市场对照。待覆盖范围和可核验证据补齐后再给出结论。</p>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：早期出现<br>需求证据：初步成立</p>
+        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-24</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-24。未发现仅限该覆盖范围。 · 2026-09-24</p>
+      </div>
+    </div>
   </section>
 
   <section class="band desk-band">
@@ -183,6 +206,22 @@
   </section>
 
 
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.nobodywho.ai/posts/jev-in-25-lines/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">NobodyWho</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-23</span>
+      </div></a></li>
+    </ul>
+  </section>
 
   <section class="band desk-band">
     <div class="sec-head desk-sec">
@@ -220,7 +259,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 237 个 →
+        基础层 共 243 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -267,14 +306,14 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/niubigeo.html">
+      <a class="pager-item pager-prev" href="../p/bot-crossing.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">NiubiGEO</span>
+        <span class="pager-n">bot-crossing</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/noetive-launches-with-41m-to-bring-self-improving-ai-to-fact.html">
+      <a class="pager-item pager-next" href="../p/astra-flash-orchestrator.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">Noetive</span>
+        <span class="pager-n">astra-flash-orchestrator</span>
       </a>
     </div>
   </nav>
@@ -312,8 +351,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1918 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-23</span>
+    <span>1963 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-09-24</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
