@@ -34,7 +34,7 @@ canonical_url: https://studio.agentkit.best
 summary: Open-source design workspace for AI agents and humans. Cloud editing, 3D, motion, MCP, WebMCP,
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
-last_seen: '2026-09-23T00:34:37Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: watching
 sources:
 - github
@@ -43,9 +43,9 @@ sources:
 sightings:
 - source: github
   url: https://studio.agentkit.best
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 207
+    stars: 208
     forks: 58
     open_issues: 12
   kind: product

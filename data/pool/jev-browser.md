@@ -32,17 +32,17 @@ canonical_url: https://github.com/Ying-Kai-Liao/jev-browser
 summary: Browser automation where an LLM plans and Jev (Typesafe System One) decides. Library, CLI and
   MCP server.
 first_seen: '2026-09-16T15:13:23Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ying-Kai-Liao/jev-browser
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 75
-    forks: 12
+    stars: 79
+    forks: 13
     open_issues: 4
   kind: product
 ---

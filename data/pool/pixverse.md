@@ -8,15 +8,24 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/PixVerse/webid1D6F373D1
 canonical_url: https://aicpb.com/product/PixVerse/webid1D6F373D1
 summary: Transform your photos into captivating AI videos with PixVerse's powerful AI model. Create viral
   content with trending effects like AI Kiss, Hug, Muscle & more for all social platforms.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-08-22T22:38:19Z'
+last_seen: '2026-09-24T00:31:16Z'
 status: pending_filter
 sources:
 - aicpb
+- marketfeeds
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/PixVerse/webid1D6F373D1
@@ -31,6 +40,12 @@ sightings:
     - 视频生成榜
     - 出海总榜
     - 全球总榜
+  kind: product
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/496329.html
+  seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
 ---
 
 # PixVerse

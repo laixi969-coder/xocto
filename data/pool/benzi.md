@@ -28,10 +28,11 @@ url: https://benzi.fly.dev/benchmark
 canonical_url: https://benzi.fly.dev/benchmark
 summary: A Code Intillegence/Harness Beating Claude Code and CodeGraph
 first_seen: '2026-09-11T01:22:44Z'
-last_seen: '2026-09-12T00:18:40Z'
-status: watching
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://benzi.fly.dev/benchmark
@@ -40,6 +41,11 @@ sightings:
     points: 10
     comments: 4
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRFlCandWNmZmX0w1dklCb0V0bnhndlYycFdoU0tDeEtBclg0dUhhRExZY3FvU1dXUTB6aUE5YUpnVVRHblpyTWZwdVBNeGFYVG9xM2x1MldGZThud2JBbURmc203ZmdHcWVvY19PLVdYX213Q1RMOUVveW83SXpENUtYMFNpZ0tlbmxNZ3hKQ0U0VDVZQkFOZnhpOG41M01JenpDZktkMDdhTDRVWDAwV2gxb29mSHFkMjN2NzNuODkwbEhsTW1LNE50MUl2ZkVndGtSWlJENHBKX3ZDeVJOTHg3RHhNY0cxLUE?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
 ---
 
 # Benzi

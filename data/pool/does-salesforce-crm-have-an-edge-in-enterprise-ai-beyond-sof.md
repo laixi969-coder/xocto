@@ -1,0 +1,41 @@
+---
+slug: does-salesforce-crm-have-an-edge-in-enterprise-ai-beyond-sof
+name: Does Salesforce (CRM) Have An Edge In Enterprise AI Beyond Software?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOeEV3cy1ubGxBQVdBTVFKeXhnRm9zSVl6OFpWOXFFbUhuNk5FQW9fbUZHZlpDQlh6bHM1MHZGUEhyQVd4RDk2d0dNckpOUWI0eWtLNnZGblBSQjFBQnQ1WkY3eWx0UUJoaXNZeFE0YkZmeXB0U0pjbjNvYjRqY0c1QXo1VTktX1hYYTRJekZNcVlVVW5XOHFmeC1tcFlVQjVMb3QwSnJoRWs2SmZtd0VwbmFJT0NDNkZ1TGJlcC1zczVtZnkwTFp0Sl930gHKAUFVX3lxTE54RXdzLW5sbEFBV0FNUUp5eGdGb3NJWXo4WlY5cUVtSG42TkVBb19tRkdmWkNCWHpsczUwdkZQSHJBV3hEOTZ3R01ySk5RYjR5a0s2dkZuUFJCMUFCdDVaRjd5bHRRQmhpc1l4UTRiRmZ5cHRTSmNuM29iNGpjRzVBejVVOS1fWFhhNEl6Rk1xWVVVblc4cWZ4LW1wWVVCNUxvdDBKcmhFazZKZm13RXBuYUlPQ0M2RnVMYmVwLXNzNW1meTBMWnRKX3c?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOeEV3cy1ubGxBQVdBTVFKeXhnRm9zSVl6OFpWOXFFbUhuNk5FQW9fbUZHZlpDQlh6bHM1MHZGUEhyQVd4RDk2d0dNckpOUWI0eWtLNnZGblBSQjFBQnQ1WkY3eWx0UUJoaXNZeFE0YkZmeXB0U0pjbjNvYjRqY0c1QXo1VTktX1hYYTRJekZNcVlVVW5XOHFmeC1tcFlVQjVMb3QwSnJoRWs2SmZtd0VwbmFJT0NDNkZ1TGJlcC1zczVtZnkwTFp0Sl930gHKAUFVX3lxTE54RXdzLW5sbEFBV0FNUUp5eGdGb3NJWXo4WlY5cUVtSG42TkVBb19tRkdmWkNCWHpsczUwdkZQSHJBV3hEOTZ3R01ySk5RYjR5a0s2dkZuUFJCMUFCdDVaRjd5bHRRQmhpc1l4UTRiRmZ5cHRTSmNuM29iNGpjRzVBejVVOS1fWFhhNEl6Rk1xWVVVblc4cWZ4LW1wWVVCNUxvdDBKcmhFazZKZm13RXBuYUlPQ0M2RnVMYmVwLXNzNW1meTBMWnRKX3c?oc=5
+summary: Does Salesforce (CRM) Have An Edge In Enterprise AI Beyond Software? simplywall.st
+first_seen: '2026-09-23T09:36:06Z'
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOeEV3cy1ubGxBQVdBTVFKeXhnRm9zSVl6OFpWOXFFbUhuNk5FQW9fbUZHZlpDQlh6bHM1MHZGUEhyQVd4RDk2d0dNckpOUWI0eWtLNnZGblBSQjFBQnQ1WkY3eWx0UUJoaXNZeFE0YkZmeXB0U0pjbjNvYjRqY0c1QXo1VTktX1hYYTRJekZNcVlVVW5XOHFmeC1tcFlVQjVMb3QwSnJoRWs2SmZtd0VwbmFJT0NDNkZ1TGJlcC1zczVtZnkwTFp0Sl930gHKAUFVX3lxTE54RXdzLW5sbEFBV0FNUUp5eGdGb3NJWXo4WlY5cUVtSG42TkVBb19tRkdmWkNCWHpsczUwdkZQSHJBV3hEOTZ3R01ySk5RYjR5a0s2dkZuUFJCMUFCdDVaRjd5bHRRQmhpc1l4UTRiRmZ5cHRTSmNuM29iNGpjRzVBejVVOS1fWFhhNEl6Rk1xWVVVblc4cWZ4LW1wWVVCNUxvdDBKcmhFazZKZm13RXBuYUlPQ0M2RnVMYmVwLXNzNW1meTBMWnRKX3c?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+---
+
+# Does Salesforce (CRM) Have An Edge In Enterprise AI Beyond Software?
+
+Does Salesforce (CRM) Have An Edge In Enterprise AI Beyond Software? simplywall.st
+
+## 笔记
+
+

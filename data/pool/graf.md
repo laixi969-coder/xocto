@@ -20,17 +20,17 @@ url: https://github.com/ctxrs/graf
 canonical_url: https://github.com/ctxrs/graf
 summary: graf (1000x faster graphify in Rust)
 first_seen: '2026-09-22T16:46:31Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-09-24T00:30:46Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/ctxrs/graf
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 6
-    comments: 2
+    points: 12
+    comments: 3
   kind: product
 ---
 

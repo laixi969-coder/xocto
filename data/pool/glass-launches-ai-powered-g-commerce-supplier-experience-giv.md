@@ -33,10 +33,11 @@ canonical_url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaFFzbGRCNDhk
 summary: Glass Launches AI-Powered G-Commerce Supplier Experience, Giving Businesses a New Way to Sell
   to Governments markets.businessinsider.com
 first_seen: '2026-09-21T15:31:46Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: rejected
+last_seen: '2026-09-24T00:31:16Z'
+status: pending_filter
 sources:
 - newssearch
+- officialfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaFFzbGRCNDhkMDlnOHBwc2lGQ1A4NDQxdC1sY25JOF9aVmQycUxNRjBSUW4yckJGMnU0c2NRTWV5bGNXekdMVGhscUJmTFBDX2pDdTNDVi1TYVBqUXZtOUlpa2F3X2lLMjNobXcycUxiaGw0cEk3QXV5TzNWUVFBdTZER3lodE1yZU5lTzhNNHpTODNBR0RnejRFMldKdmlOWEJKbXluc2RfUlpoWElmVFdGQ1pJdGZMaFFGZXl0RHBFSHhIbHh3NnNLOWhSSlZENGtYcHgzQWlqN21KeE9vLUJibXFfbVZNY0RPU3VOVHVQcGtHS1BiajdR?oc=5
@@ -46,6 +47,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeWtFMl8xRXB3ZUw4LV90TVc1cHhVOE9PYU4xOVdqV2hsWkwxMFZHcWpkaHFjTVBIaDF3c1g4bnRxWVRjcDQyOHdPbzVlRTR1UnJUZ3BkalpHWkFwOUlfWGhoeVRoV0c3WV9acTc0aVRBbnlEbENKUU93SnRfRnJLSUxybE1IX3FP?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://www.meta.com/blog/muse-personal-agent-ai-glasses/
+  seen_at: '2026-09-24T00:31:16Z'
   metrics: {}
   kind: news
 ---

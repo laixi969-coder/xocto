@@ -36,17 +36,17 @@ url: https://www.coveragecat.com/
 canonical_url: https://coveragecat.com
 summary: Coverage Cat (YC S22) – Umbrella insurance via your personal agent
 first_seen: '2026-09-22T17:26:36Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-09-24T00:30:46Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.coveragecat.com/
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 42
-    comments: 24
+    points: 52
+    comments: 30
   kind: product
 ---
 

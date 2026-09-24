@@ -20,7 +20,7 @@ url: https://github.com/emo-xiaoyu/harness-mix
 canonical_url: https://github.com/emo-xiaoyu/harness-mix
 summary: ''
 first_seen: '2026-09-07T09:50:46Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: rejected
 sources:
 - github
@@ -35,9 +35,9 @@ sightings:
   kind: product
 - source: github
   url: https://emo-xiaoyu.github.io/harness-mix/
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 191
+    stars: 195
     forks: 9
     open_issues: 4
   kind: product

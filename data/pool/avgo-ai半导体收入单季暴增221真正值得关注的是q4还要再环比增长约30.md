@@ -23,14 +23,19 @@ url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMlZ1cFR3T2JVQmUyN2pReX
 canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMlZ1cFR3T2JVQmUyN2pReXk4WEdFdG1KZWNFY1VSRFFnaVFqV3RZRlo0WmVEZ3c4bkJIaVJlQlZ0QjJlOUs4a1Q0TEdBTDFFUWk3UDZPdzY2QXUtQl94RjFLZUN1TlhOeVlubDdCS2EzN25LNGpYa09JY1RmZC1NR2o1a0VBZEVyQkdLQWZwQTVnWGlHLTdRUGZYcWEzOGNBdW5FX1JIXzkzckE3bXRqRXRXMkJralJoV0xZ?oc=5
 summary: $AVGO AI半导体收入单季暴增221%：真正值得关注的，是Q4还要再环比增长约30% Moomoo
 first_seen: '2026-09-04T11:05:51Z'
-last_seen: '2026-09-04T14:24:01Z'
-status: market_context
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMlZ1cFR3T2JVQmUyN2pReXk4WEdFdG1KZWNFY1VSRFFnaVFqV3RZRlo0WmVEZ3c4bkJIaVJlQlZ0QjJlOUs4a1Q0TEdBTDFFUWk3UDZPdzY2QXUtQl94RjFLZUN1TlhOeVlubDdCS2EzN25LNGpYa09JY1RmZC1NR2o1a0VBZEVyQkdLQWZwQTVnWGlHLTdRUGZYcWEzOGNBdW5FX1JIXzkzckE3bXRqRXRXMkJralJoV0xZ?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihAFBVV95cUxOUTdRalNuNWdVMWpFT2dYcjVBREdSRC1qUDRLWE5MSTZHOURYSWtaNWJlOTNKeXFERWJ5N1BobTgyZ3c3WElUVVFLMW80NWtNVGJVR2c5SWpVb01BTkx4VVUxMUNyYnBXem5NRE1YYWwxQzEzd3RlX2F1MkJrUUl1dU1BdDI?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
   metrics: {}
   kind: news
 ---

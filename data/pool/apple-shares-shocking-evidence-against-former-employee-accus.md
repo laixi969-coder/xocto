@@ -21,8 +21,8 @@ canonical_url: https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-
 summary: Apple says it has evidence that a former employee destroyed evidence of data theft after learning
   he was under investigation.
 first_seen: '2026-09-01T00:13:00Z'
-last_seen: '2026-09-23T00:34:15Z'
-status: rejected
+last_seen: '2026-09-24T00:30:46Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -98,10 +98,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 592
-    comments: 444
+    points: 784
+    comments: 577
   kind: news
 ---
 

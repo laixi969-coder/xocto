@@ -35,17 +35,17 @@ url: https://github.com/jtydhr88/screenwriting-skills
 canonical_url: https://github.com/jtydhr88/screenwriting-skills
 summary: Professional agent skills for screenwriting, television writing and dramaturgy
 first_seen: '2026-09-06T12:28:23Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jtydhr88/screenwriting-skills
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 1346
-    forks: 152
+    stars: 1367
+    forks: 155
     open_issues: 0
   kind: product
 ---

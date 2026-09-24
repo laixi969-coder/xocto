@@ -1,0 +1,19 @@
+- id: ev-a032fea8837e92f5
+  project_slug: gemini-38-tts-playground
+  url: https://simonwillison.net/2026/Sep/23/gemini-tts-playground/
+  title: Gemini 3.8 TTS Playground
+  published_at: '2026-09-23T17:12:27Z'
+  collected_at: '2026-09-24T00:31:16Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Tool:   Gemini 3.8 TTS Playground  \n         Google  released two new Gemini text-to-speech\
+    \ models  today -  gemini-3.8-flash-tts  and  gemini-3.8-flash-lite-tts . \n They come with a library\
+    \ of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample\
+    \ of your voice or a voice you have the rights to use\". \n I  vibe coded  this bring-your-own-key\
+    \ playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying\
+    \ Gemini API. \n   \n A notable feature of the API is that it makes it easy to define a full conversation\
+    \ between multiple characters, each with different voices and voice style instructions. \n Here's\
+    \ a short demo clip of a conversation between two pelicans debating if they should move to  the Pacifica\
+    \ Pier . I had Claude 4.5 Opus  write the script  and generate  a URL to render it using the tool\
+    \ . \n  \n   \n  Your browser does not support the audio element.\n  \n It took ~20 seconds to generate\
+    \ 1m 18s of audio using G"

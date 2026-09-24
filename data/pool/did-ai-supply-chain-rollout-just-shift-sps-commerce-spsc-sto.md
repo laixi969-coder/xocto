@@ -1,0 +1,41 @@
+---
+slug: did-ai-supply-chain-rollout-just-shift-sps-commerce-spsc-sto
+name: Did AI Supply Chain Rollout Just Shift SPS Commerce (SPSC) Stock Narrative?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVVQYUFHcGhZWS02OUxDSzNQYjQzRVRIS2ZpQVJQT1N3eTRpZERfeldyVnZKYy1JenMzc0EyWFZENkt3azVtVy1Nc1RMeURPY2Nxb0ZBSXVycFVvNWltMlRSOUxJTV9VXzNURHREaTFqQmVMQXhyT213MzZESVdYNG9XSVpBTnFULTVwOFFaSERnaTNUOENhNUNXaXpxRFlGMUZnTUh6NmlmNkNjQW51NkZza0hjb3RIRHB6eHlETHRBZXBGei1aTmcwMUx3blVX0gHQAUFVX3lxTFBZVVBhQUdwaFlZLTY5TENLM1BiNDNFVEhLZmlBUlBPU3d5NGlkRF96V3JWdkpjLUl6czNzQTJYVkQ2S3drNW1XLU1zVEx5RE9jY3FvRkFJdXJwVW81aW0yVFI5TElNX1VfM1REdERpMWpCZUxBeHJPbXczNkRJV1g0b1dJWkFOcVQtNXA4UVpIRGdpM1Q4Q2E1Q1dpenFEWUYxRmdNSHo2aWY2Q2NBbnU2RnNrSGNvdEhEcHp4eURMdEFlcEZ6LVpOZzAxTHduVVc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVVQYUFHcGhZWS02OUxDSzNQYjQzRVRIS2ZpQVJQT1N3eTRpZERfeldyVnZKYy1JenMzc0EyWFZENkt3azVtVy1Nc1RMeURPY2Nxb0ZBSXVycFVvNWltMlRSOUxJTV9VXzNURHREaTFqQmVMQXhyT213MzZESVdYNG9XSVpBTnFULTVwOFFaSERnaTNUOENhNUNXaXpxRFlGMUZnTUh6NmlmNkNjQW51NkZza0hjb3RIRHB6eHlETHRBZXBGei1aTmcwMUx3blVX0gHQAUFVX3lxTFBZVVBhQUdwaFlZLTY5TENLM1BiNDNFVEhLZmlBUlBPU3d5NGlkRF96V3JWdkpjLUl6czNzQTJYVkQ2S3drNW1XLU1zVEx5RE9jY3FvRkFJdXJwVW81aW0yVFI5TElNX1VfM1REdERpMWpCZUxBeHJPbXczNkRJV1g0b1dJWkFOcVQtNXA4UVpIRGdpM1Q4Q2E1Q1dpenFEWUYxRmdNSHo2aWY2Q2NBbnU2RnNrSGNvdEhEcHp4eURMdEFlcEZ6LVpOZzAxTHduVVc?oc=5
+summary: Did AI Supply Chain Rollout Just Shift SPS Commerce (SPSC) Stock Narrative? simplywall.st
+first_seen: '2026-09-23T18:49:39Z'
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVVQYUFHcGhZWS02OUxDSzNQYjQzRVRIS2ZpQVJQT1N3eTRpZERfeldyVnZKYy1JenMzc0EyWFZENkt3azVtVy1Nc1RMeURPY2Nxb0ZBSXVycFVvNWltMlRSOUxJTV9VXzNURHREaTFqQmVMQXhyT213MzZESVdYNG9XSVpBTnFULTVwOFFaSERnaTNUOENhNUNXaXpxRFlGMUZnTUh6NmlmNkNjQW51NkZza0hjb3RIRHB6eHlETHRBZXBGei1aTmcwMUx3blVX0gHQAUFVX3lxTFBZVVBhQUdwaFlZLTY5TENLM1BiNDNFVEhLZmlBUlBPU3d5NGlkRF96V3JWdkpjLUl6czNzQTJYVkQ2S3drNW1XLU1zVEx5RE9jY3FvRkFJdXJwVW81aW0yVFI5TElNX1VfM1REdERpMWpCZUxBeHJPbXczNkRJV1g0b1dJWkFOcVQtNXA4UVpIRGdpM1Q4Q2E1Q1dpenFEWUYxRmdNSHo2aWY2Q2NBbnU2RnNrSGNvdEhEcHp4eURMdEFlcEZ6LVpOZzAxTHduVVc?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+---
+
+# Did AI Supply Chain Rollout Just Shift SPS Commerce (SPSC) Stock Narrative?
+
+Did AI Supply Chain Rollout Just Shift SPS Commerce (SPSC) Stock Narrative? simplywall.st
+
+## 笔记
+
+

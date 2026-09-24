@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPUE9MLVByZEdQSm1IcnJGV0
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPUE9MLVByZEdQSm1IcnJGV01BUmNPVzRtTVpIVjBFNE1pZXp0T25TWER5d29oRk5fc1RselY0cU5tRDF4cUxubVhpRTNxMWZSQU4yZ0lSaXlOWVFpZ3E4UnRoYS12MW1NOVB4MzhoM01ZZXFoZG1ZVjZTNXJwVGU1UXl1QVRKTXlyTFNSYg?oc=5
 summary: AI翻译行业首个商用级平台发布 搜狐网
 first_seen: '2026-09-21T08:53:19Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: rejected
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPUE9MLVByZEdQSm1IcnJGV01BUmNPVzRtTVpIVjBFNE1pZXp0T25TWER5d29oRk5fc1RselY0cU5tRDF4cUxubVhpRTNxMWZSQU4yZ0lSaXlOWVFpZ3E4UnRoYS12MW1NOVB4MzhoM01ZZXFoZG1ZVjZTNXJwVGU1UXl1QVRKTXlyTFNSYg?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FbzRhVTdxb2lBZmRsYXBlVGdHLVNuWWFTU0U0QTY2T2RCV1RvVEg1N0dhNGNsWEdNYkFWR2J3LVVvN194T3hTdWxndERadUlnUEI2NW9JV2RyMUk?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
   metrics: {}
   kind: news
 ---

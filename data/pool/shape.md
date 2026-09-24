@@ -33,8 +33,8 @@ url: https://www.producthunt.com/products/shape-5
 canonical_url: https://producthunt.com/products/shape-5
 summary: The agentic IDE for designers and programmers
 first_seen: '2026-08-19T23:56:11Z'
-last_seen: '2026-09-08T14:34:47Z'
-status: rejected
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -58,6 +58,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/08/tom-noble-is-building-his-business-in-public-and-letting-the-internet-shape-what-comes-next/
   seen_at: '2026-09-08T14:34:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNUk9IaDJ3WXFPTmxWLTF5bDA2Vk91LUl4LVhKbnllem5ILXc5TVppLVRSSnd5ZHcxQnZneTk0VFczMklMa3VKYkJqcGVNWnZzOUExMEZxVW5IdmJaQmhLWTVpZmpvZGt5RWpuUmFfMWhjUzdlbzhGM2wtdUtRY21uZjlqSXEyUFVHNWJ6YzY2YUJqWHI4V1FqRGY2bzZ1Vm91Vm5NZk9pZmNuLTZEMmtjTW9HaFhvOWZqb2NEUk4xX1ZOVWl1?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
   metrics: {}
   kind: news
 ---

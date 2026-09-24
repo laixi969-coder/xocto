@@ -187,3 +187,15 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 独立开发者或小团队在自有服务器上搭建并运行编码代理与自托管应用时，需要隔离环境、备份与访问控制'
+- id: ev-ba05aba776082e40
+  project_slug: agentverse-os
+  url: https://github.com/agentverse-os/AgentVerse-OS
+  title: AgentVerse-OS
+  published_at: '2026-09-12T18:20:00Z'
+  collected_at: '2026-09-24T00:30:54Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Personal cloud OS for a developer and their AI agents on a single server. One-command install
+    on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude
+    Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing
+    exposed to the internet. Rust core, Svelte UI. | repository stars: 977'

@@ -23,11 +23,12 @@ url: https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gatewa
 canonical_url: https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve
 summary: SpaceXAI's most powerful model for coding and knowledge work
 first_seen: '2026-09-21T00:00:00Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-09-24T00:42:47Z'
 status: market_context
 sources:
 - officialfeeds
 - producthunt
+- ia40
 sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve
@@ -38,6 +39,13 @@ sightings:
   url: https://www.producthunt.com/products/grok-4-7-8
   seen_at: '2026-09-23T00:34:15Z'
   metrics: {}
+  kind: product
+- source: ia40
+  url: https://vercel.com/
+  seen_at: '2026-09-24T00:42:47Z'
+  metrics:
+    stage: Enabler
+    edition: '2026'
   kind: product
 ---
 

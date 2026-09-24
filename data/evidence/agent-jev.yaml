@@ -18,3 +18,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI agent 开发者在编排流程中判断下一步动作是否继续、重试或升级'
+- id: ev-7caa3a27d969f0d1
+  project_slug: agent-jev
+  url: https://github.com/malevrigns/agent-jev
+  title: agent-jev
+  published_at: '2026-09-21T16:24:42Z'
+  collected_at: '2026-09-24T00:30:54Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'AgentJev-0.6B - a fast ''System One'' decision model for AI Agents: feed it any unstructured
+    state (diffs, traces, logs) and structured questions, get calibrated probability distributions back
+    in one ~50ms forward pass. Zero output-token decoding. | repository stars: 267'

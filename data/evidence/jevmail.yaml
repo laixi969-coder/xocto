@@ -38,3 +38,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 专业服务 个人邮箱使用者 行政与运营人员'
+- id: ev-8471ab5377ab7b73
+  project_slug: jevmail
+  url: https://github.com/fazlerocks/jevmail
+  title: jevmail
+  published_at: '2026-09-19T17:07:03Z'
+  collected_at: '2026-09-24T00:30:54Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open-source AI email triage for Gmail. Sorts your inbox into Needs reply, Updates, Promos, Sales
+    and Spam with Jev, TypeSafe AI''s decision model, via Vercel AI Gateway. Read-only, runs locally,
+    1,000 emails in about a minute for 3 cents. | repository stars: 73'

@@ -35,17 +35,17 @@ canonical_url: https://dynolab.dev
 summary: Dyno Lab — an AI safety, alignment and interpretability research workbench for Apple Silicon.
   Explore activations, probes, SAEs and interventions with local inference, a Python SDK, APIs and MCP.
 first_seen: '2026-09-04T17:42:19Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://dynolab.dev
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 105
-    forks: 104
+    stars: 156
+    forks: 155
     open_issues: 5
   kind: product
 ---

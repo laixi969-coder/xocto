@@ -1,0 +1,15 @@
+- id: ev-dba38d63ba564177
+  project_slug: how-to-guide-your-language-flow
+  url: https://machinelearning.apple.com/research/guide-language-flow
+  title: How to Guide Your Language Flow
+  published_at: '2026-09-23T00:00:00Z'
+  collected_at: '2026-09-24T00:31:16Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: We introduce a new method to guide flow matching models. Our approach, which we call probe guidance,
+    uses the frozen internal states of an existing diffusion model to construct a guidance signal. This
+    works using a similar principle as autoguidance, but eliminates the need for an additional forward
+    pass at inference time and provides a reliable path to ensure that the weak and strong model share
+    similar dynamics. We apply and benchmark this method on continuous diffusion language models, where
+    probe guidance sets a new state-of-the-art performance on unconditional generation. When applied to
+    a…

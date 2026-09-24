@@ -20,8 +20,8 @@ url: https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
 canonical_url: https://businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9
 summary: A coffee shop owner used AI to make a menu poster. Then came the angry DMs
 first_seen: '2026-09-16T18:59:42Z'
-last_seen: '2026-09-18T00:19:45Z'
-status: rejected
+last_seen: '2026-09-24T00:30:46Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 80
     comments: 308
+  kind: news
+- source: hackernews
+  url: https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9
+  seen_at: '2026-09-24T00:30:46Z'
+  metrics:
+    points: 206
+    comments: 204
   kind: news
 ---
 

@@ -30,16 +30,16 @@ url: https://github.com/agent-launch/agent-launcher
 canonical_url: https://github.com/agent-launch/agent-launcher
 summary: Configure and run existing coding-agent CLIs from one desktop app.
 first_seen: '2026-09-10T22:07:14Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/agent-launch/agent-launcher
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 325
+    stars: 326
     forks: 2
     open_issues: 3
   kind: product

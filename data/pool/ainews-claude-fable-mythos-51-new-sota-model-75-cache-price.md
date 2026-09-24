@@ -1,7 +1,7 @@
 ---
 slug: ainews-claude-fable-mythos-51-new-sota-model-75-cache-price
 name: Claude
-builder: ''
+builder: matthieu_bl
 category: ''
 summary_zh: 这是模型厂商的版本与定价变化，不是独立产品：缓存单价下降 75% 会降低重复上下文场景的调用成本，但输出 token 增加约 70% 可能抵消部分节省，实际成本取决于输入输出比例（推断）。同期安全事件与官方承认对齐缺陷，意味着在生物、网络安全等高风险场景中，应用方需要自行增加人工复核与访问控制，交付确定性下降。
 inspiration: ''
@@ -24,11 +24,12 @@ url: https://www.latent.space/p/ainews-claude-fablemythos-51-new
 canonical_url: https://latent.space/p/ainews-claude-fablemythos-51-new
 summary: Queue the usual rush of model launches...
 first_seen: '2026-09-02T07:46:08Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: market_context
+last_seen: '2026-09-24T00:30:46Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/ainews-claude-fablemythos-51-new
@@ -59,6 +60,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Nam5NeV9KY0h1SjNLeHoxSVRPVjMtYk5qbkNzMlZPVzhZSXhDTk1ILTNkX2xSaWpyd2tMNG5yREVGWFk1ZUJyTmM3SDZGTEg0YVdHWGc5U29Tdw?oc=5
   seen_at: '2026-09-22T00:50:58Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://claude.dev/blog/how-we-made-claude-ai-faster/
+  seen_at: '2026-09-24T00:30:46Z'
+  metrics:
+    points: 151
+    comments: 93
   kind: news
 ---
 

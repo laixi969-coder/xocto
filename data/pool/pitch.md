@@ -40,11 +40,12 @@ canonical_url: https://aicpb.com/product/Pitch/webid1D6F37829
 summary: Deliver your next deck faster with our free presentation templates. They're fully customizable,
   professionally designed, and delightfully easy to use.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-09-21T00:17:23Z'
-status: watching
+last_seen: '2026-09-24T00:31:16Z'
+status: pending_filter
 sources:
 - aicpb
 - newssearch
+- marketfeeds
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Pitch/webid1D6F37829
@@ -67,6 +68,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNd0hFdnVjY19jV25VeUdXYWIyVmdGbHZXd3I0cmVYei0tMm9pa1pwcDRrVkpoRjlfcHVBNXh2enNYT0Nub0dkTEl6ZTJRSlE4aHdjb28waFBnQU9ibERYZXF3MzJYLTZUbVRlZFJOQjh5eG1fNG9RREJqaGdicW1GZWVoSVlBWXViLXpQZnM1T2ViZjZXc3VMSg?oc=5
   seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/
+  seen_at: '2026-09-24T00:31:16Z'
   metrics: {}
   kind: news
 ---

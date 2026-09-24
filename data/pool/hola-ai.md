@@ -36,16 +36,22 @@ url: https://www.producthunt.com/products/hola-ai
 canonical_url: https://producthunt.com/products/hola-ai
 summary: An AI voicemail assistant that answers calls when you can’t.
 first_seen: '2026-09-21T21:42:18Z'
-last_seen: '2026-09-23T00:34:15Z'
-status: watching
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - producthunt
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/hola-ai
   seen_at: '2026-09-23T00:34:15Z'
   metrics: {}
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOMFFMZHpqdzNENE1TMTQ2V3hmbi1LOTVsQThSR2RrNXdVd2taa1ZtdFNLd2NmTUlNMC1MdTY1SkJWdHNhYWdCejV0b1ZGRk1vN3dGOTdsWDljT0c0ZzVrWUVvMWJmWGNqVDk4d3M5dmt1OGtqYWpPRnBmeWpFeG44d0xrVWxwSHVPWWwyZUloVlE2ekhabDdKS2t3blpjQzREVjZKczFKYUZwMC1jd25fVXdJZERVQdIBuAFBVV95cUxOclRCRnVTcnk5T2ZLOWJVaXZTQW9VLUdQTlJGc1FCb2VFb093LW10ZzdscU4tLTlxSk1XaDBxSFB4aWx3a2JpYVRmZVh6Q19mY3lySkFnTkZHRzdRWS1yaUlJcUN5cVpvajFMX0pHbzhlU1Rxc1Q1RmM4WFd3RERnUDVaOWJHMlhWUmhETXZOenN6c1RuNnc5aFNlV3VRU2tINFNPY3FINWtLaEVwb2huRnpjQS1laDlf?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
 ---
 
 # Hola AI

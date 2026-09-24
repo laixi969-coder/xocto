@@ -1,0 +1,41 @@
+---
+slug: globant-glob-following-the-tci-entertainment-deal-and-the-un
+name: Globant (GLOB) Following The TCI Entertainment Deal And The Undervalued Narrative
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVJOb1BIYkdlRWhVcjBtMUpxSEsyMFctMzlpaXBkY3lsZS1fUUtqT0puQ3dpNE02Ymt5VDhrQ1JELWlVbENVMkppSVRiOUxzbnlCNk90OERuaVdsLUNKcUVoak9LamRoQjBNQjZTdW85dzRpRG9Tcnh4ZjQ4RFlLMHVlMTZ5eFJvZXVLR1F2OGp2TUtEZjBYM1Y4RXg2NHVKUGtPUzJYcENvSDhtdkdRVFR4QjhpWklaQ0d6Z2FEcDRyekVpdXUw0gHHAUFVX3lxTE1hUk5vUEhiR2VFaFVyMG0xSnFISzIwVy0zOWlpcGRjeWxlLV9RS2pPSm5Dd2k0TTZia3lUOGtDUkQtaVVsQ1UySmlJVGI5THNueUI2T3Q4RG5pV2wtQ0pxRWhqT0tqZGhCME1CNlN1bzl3NGlEb1NyeHhmNDhEWUswdWUxNnl4Um9ldUtHUXY4anZNS0RmMFgzVjhFeDY0dUpQa09TMlhwQ29IOG12R1FUVHhCOGlaSVpDR3pnYURwNHJ6RWl1dTA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVJOb1BIYkdlRWhVcjBtMUpxSEsyMFctMzlpaXBkY3lsZS1fUUtqT0puQ3dpNE02Ymt5VDhrQ1JELWlVbENVMkppSVRiOUxzbnlCNk90OERuaVdsLUNKcUVoak9LamRoQjBNQjZTdW85dzRpRG9Tcnh4ZjQ4RFlLMHVlMTZ5eFJvZXVLR1F2OGp2TUtEZjBYM1Y4RXg2NHVKUGtPUzJYcENvSDhtdkdRVFR4QjhpWklaQ0d6Z2FEcDRyekVpdXUw0gHHAUFVX3lxTE1hUk5vUEhiR2VFaFVyMG0xSnFISzIwVy0zOWlpcGRjeWxlLV9RS2pPSm5Dd2k0TTZia3lUOGtDUkQtaVVsQ1UySmlJVGI5THNueUI2T3Q4RG5pV2wtQ0pxRWhqT0tqZGhCME1CNlN1bzl3NGlEb1NyeHhmNDhEWUswdWUxNnl4Um9ldUtHUXY4anZNS0RmMFgzVjhFeDY0dUpQa09TMlhwQ29IOG12R1FUVHhCOGlaSVpDR3pnYURwNHJ6RWl1dTA?oc=5
+summary: Globant (GLOB) Following The TCI Entertainment Deal And The Undervalued Narrative simplywall.st
+first_seen: '2026-09-23T20:35:12Z'
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVJOb1BIYkdlRWhVcjBtMUpxSEsyMFctMzlpaXBkY3lsZS1fUUtqT0puQ3dpNE02Ymt5VDhrQ1JELWlVbENVMkppSVRiOUxzbnlCNk90OERuaVdsLUNKcUVoak9LamRoQjBNQjZTdW85dzRpRG9Tcnh4ZjQ4RFlLMHVlMTZ5eFJvZXVLR1F2OGp2TUtEZjBYM1Y4RXg2NHVKUGtPUzJYcENvSDhtdkdRVFR4QjhpWklaQ0d6Z2FEcDRyekVpdXUw0gHHAUFVX3lxTE1hUk5vUEhiR2VFaFVyMG0xSnFISzIwVy0zOWlpcGRjeWxlLV9RS2pPSm5Dd2k0TTZia3lUOGtDUkQtaVVsQ1UySmlJVGI5THNueUI2T3Q4RG5pV2wtQ0pxRWhqT0tqZGhCME1CNlN1bzl3NGlEb1NyeHhmNDhEWUswdWUxNnl4Um9ldUtHUXY4anZNS0RmMFgzVjhFeDY0dUpQa09TMlhwQ29IOG12R1FUVHhCOGlaSVpDR3pnYURwNHJ6RWl1dTA?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+---
+
+# Globant (GLOB) Following The TCI Entertainment Deal And The Undervalued Narrative
+
+Globant (GLOB) Following The TCI Entertainment Deal And The Undervalued Narrative simplywall.st
+
+## 笔记
+
+

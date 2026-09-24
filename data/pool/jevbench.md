@@ -26,17 +26,17 @@ url: https://benchmarkheaven.com/jev-models
 canonical_url: https://benchmarkheaven.com/jev-models
 summary: a reproducible benchmark for typed decision models
 first_seen: '2026-09-22T13:01:03Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-09-24T00:30:46Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://benchmarkheaven.com/jev-models
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 56
-    comments: 10
+    points: 139
+    comments: 36
   kind: product
 ---
 

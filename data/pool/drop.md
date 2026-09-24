@@ -20,7 +20,7 @@ url: https://drop.space
 canonical_url: https://drop.space
 summary: They chose your competitor. Find out why
 first_seen: '2026-09-10T02:20:02Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-09-24T00:30:46Z'
 status: rejected
 sources:
 - hackernews
@@ -52,10 +52,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://droprun.sh/
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 153
-    comments: 53
+    points: 185
+    comments: 61
   kind: product
 - source: hackernews
   url: https://matthewbutterick.com/chron/drop-dead.html

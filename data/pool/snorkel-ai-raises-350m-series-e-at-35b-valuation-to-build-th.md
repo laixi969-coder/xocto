@@ -37,14 +37,19 @@ url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjhBQVFocFgzLUpSOWhKd2
 canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjhBQVFocFgzLUpSOWhKd20yUUhaRmxyM0RSMDJIc1c5N3QzTjFiVXNvdmd2RHZBRk4yX0NKVnhCeUV6TnJuanNuZHgzdHd0ZnU5bk5ZY0Zadk5hMWRnRkE3bzNHUnNiUE9lc0NtajNTcEsxMjA2clV3aWFVa3NabHBXNWo2WkdZbDV1alF2c05WaGt5WXVsVVN0b1Q1LVZwcDBRN1k0WDhMSTdzbUE?oc=5
 summary: Snorkel AI Raises $350M Series E at $3.5B Valuation to Build the Frontier Lab for AI Data Unite.AI
 first_seen: '2026-09-22T15:08:01Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: watching
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjhBQVFocFgzLUpSOWhKd20yUUhaRmxyM0RSMDJIc1c5N3QzTjFiVXNvdmd2RHZBRk4yX0NKVnhCeUV6TnJuanNuZHgzdHd0ZnU5bk5ZY0Zadk5hMWRnRkE3bzNHUnNiUE9lc0NtajNTcEsxMjA2clV3aWFVa3NabHBXNWo2WkdZbDV1alF2c05WaGt5WXVsVVN0b1Q1LVZwcDBRN1k0WDhMSTdzbUE?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE02WDRjLS1vZnM5MWxwRmY3am9GZ0RpSXN0RjB1a0FkaFlpM2hpZHdBVzJDSkNPV0pWODNybFN0Y2JNamFPbEJSa2szeU9Cd2puWUZwQmI4aTZxaGZIdHc?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
   metrics: {}
   kind: news
 ---

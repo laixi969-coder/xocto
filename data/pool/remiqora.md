@@ -39,7 +39,7 @@ canonical_url: https://github.com/inikolax/remiqora
 summary: Local AI music studio unifying ACE-Step 1.5 and YuE2-3B in one Vue interface — text-to-music
   generation, stem separation, MIDI transcription, and LoRA fine-tuning, with a built-in multitrack DAW.
 first_seen: '2026-09-17T13:09:15Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: queued
 sources:
 - github
@@ -54,11 +54,11 @@ sightings:
   kind: product
 - source: github
   url: https://remiqora.com/
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 116
+    stars: 119
     forks: 15
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

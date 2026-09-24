@@ -20,17 +20,17 @@ url: https://github.com/hirotomasato/yowes
 canonical_url: https://github.com/hirotomasato/yowes
 summary: Generate realistic teacher documents (ID cards, licenses, letters) for 13 countries via MCP.
 first_seen: '2026-09-19T05:33:10Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hirotomasato/yowes
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 150
-    forks: 61
+    stars: 170
+    forks: 68
     open_issues: 0
   kind: product
 ---

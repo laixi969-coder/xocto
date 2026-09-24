@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: watching
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -244,6 +244,23 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5JZ1o5N2FTaFY2LVl0dWhOSTdXdWZ1cUU4aVlKOVg2aXZNYmwxVDE0WDd1SjVxVDBtU0FyR1NaMWRXUVFXeHpaMlRBVEN0ZmFLeTBHeTlfT1dtX09ZenhkcXhNNnYyOHVwQVgyR2NBU1lfcmlzRF9fUjZfWWM3cXM?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://normanponte.io/19df691f
+  seen_at: '2026-09-24T00:30:46Z'
+  metrics:
+    points: 51
+    comments: 114
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/companies-finally-use-their-most-valuable-data-brnd/
+  seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU2QzOVJ1LXdNaUhmRE02d0RLUDZzd2UwVXNjQzg3VEF2d1AzMXhINjBMNXdrLXlqX0xOdFVoWl92ZTF0blJtcGhETEJ1V2Fkbks4aGFfZkRPVC1HWDJaQzZZZm5VcDd3ck1FNDJuVVhNbzgzTC00UUNILVNmalFtU1ZKbWJ6TjMtQW92Rk51SnVTR1A0dE5IRm5Wa2ZNNFVTaS00Ujl4QkFpRFhGWEhzUkRka3RSSFp3R01uWU1LSkM4MXJib1pobFlKWHhLdDI5ck5kbU1DdjJwM2xSNG9pTUVwSU0?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
   metrics: {}
   kind: news
 ---

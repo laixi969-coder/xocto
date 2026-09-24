@@ -26,17 +26,17 @@ url: https://github.com/Clearailhc/clearai-dsh
 canonical_url: https://github.com/Clearailhc/clearai-dsh
 summary: ClearAI is a native DSH plugin that brings the Epistemic Loop to DeepSeek Harness.
 first_seen: '2026-09-12T12:58:44Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Clearailhc/clearai-dsh
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 366
-    forks: 15
+    stars: 405
+    forks: 19
     open_issues: 1
   kind: product
 ---

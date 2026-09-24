@@ -31,17 +31,17 @@ url: https://ai-rete-rag.com/
 canonical_url: https://ai-rete-rag.com
 summary: a Rete rule engine decides, RAG explains why
 first_seen: '2026-09-22T16:15:06Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-09-24T00:30:46Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://ai-rete-rag.com/
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 34
-    comments: 2
+    points: 43
+    comments: 7
   kind: product
 ---
 

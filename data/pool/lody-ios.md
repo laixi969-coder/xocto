@@ -20,18 +20,18 @@ url: https://github.com/Innei/lody-ios
 canonical_url: https://github.com/Innei/lody-ios
 summary: Independent iOS client for Lody — native chat, sessions, and coding-agent collaboration on iPhone
 first_seen: '2026-09-05T18:37:43Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Innei/lody-ios
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
-    stars: 145
+    stars: 146
     forks: 13
-    open_issues: 22
+    open_issues: 21
   kind: product
 ---
 

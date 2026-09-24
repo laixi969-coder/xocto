@@ -32,16 +32,16 @@ url: https://news.ycombinator.com/item?id=49802729
 canonical_url: https://news.ycombinator.com/item?id=49802729
 summary: A MicroVM sandbox for AI coding agents on Mac and Linux
 first_seen: '2026-09-22T15:16:18Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-09-24T00:30:46Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49802729
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 7
+    points: 9
     comments: 1
   kind: product
 ---

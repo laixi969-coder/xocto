@@ -1,0 +1,12 @@
+- id: ev-113f7af82ee97c73
+  project_slug: how-bmw-group-detects-cost-anomalies-across-14000-cloud-acco
+  url: https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/
+  title: How BMW Group detects cost anomalies across 14,000 cloud accounts
+  published_at: '2026-09-21T16:36:10Z'
+  collected_at: '2026-09-24T00:31:16Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post
+    shows how BMW added automated daily cost anomaly detection, moving from reactive dashboards to proactive
+    alerts using Prophet forecasting, AWS Step Functions, and a serverless pipeline that processes every
+    account for about $50 per month.

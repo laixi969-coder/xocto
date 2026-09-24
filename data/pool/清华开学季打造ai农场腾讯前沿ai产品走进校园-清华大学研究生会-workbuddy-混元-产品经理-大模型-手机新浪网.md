@@ -1,0 +1,41 @@
+---
+slug: 清华开学季打造ai农场腾讯前沿ai产品走进校园-清华大学研究生会-workbuddy-混元-产品经理-大模型-手机新浪网
+name: 清华开学季打造“AI农场”，腾讯前沿AI产品走进校园|清华大学研究生会|WorkBuddy|混元|产品经理|大模型_手机新浪网
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi_gJBVV95cUxONlBVc0ZjbFEtLVdOZmRWZU9ZVnRDMmhGWnp1WVlGTGR6b2xkaHdFQ2RxWXlJRmlDMVZoWk43VXJFRnRKSWl4VFRNMEFjbUtoaDlfMWRnTDQ5WHBkZkd3UU1WRXc2RTk1T3ZSWGJHQ0ZScVBXR0dDYW9uTXE1Z21LUFRTS1BWX0tIbFFQVFZmNDZjS0Zhck50NXBtTkY3UXV2aEpFZW9PQUNyQUxEdkVCZ0RmNHdxUWgyRERmeHVjX0VzbkJaeXEtUGJuak5vcnZ1OUhIdkdSWnhwU3pnWnMyVURDb3E5UXVHc01MRFpTRWVPUmVHb01BeFBzR2J2LTg5enFQZVBNeXAtZUR4c1FfOEQ5NXZVWHNXQm5aLVJPVGZEZl9uYlQ2ei1fOS1jOXhvZnlQS1NXY2FOOHJNYTQzMnQ1WXBvWDUwMnVEQzdBYm92T2ZZQjRqdGtWcjl6elRReUkwTUhwZEU1cVZRX1V4V0FBY19wNkR4bTdSR1pB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi_gJBVV95cUxONlBVc0ZjbFEtLVdOZmRWZU9ZVnRDMmhGWnp1WVlGTGR6b2xkaHdFQ2RxWXlJRmlDMVZoWk43VXJFRnRKSWl4VFRNMEFjbUtoaDlfMWRnTDQ5WHBkZkd3UU1WRXc2RTk1T3ZSWGJHQ0ZScVBXR0dDYW9uTXE1Z21LUFRTS1BWX0tIbFFQVFZmNDZjS0Zhck50NXBtTkY3UXV2aEpFZW9PQUNyQUxEdkVCZ0RmNHdxUWgyRERmeHVjX0VzbkJaeXEtUGJuak5vcnZ1OUhIdkdSWnhwU3pnWnMyVURDb3E5UXVHc01MRFpTRWVPUmVHb01BeFBzR2J2LTg5enFQZVBNeXAtZUR4c1FfOEQ5NXZVWHNXQm5aLVJPVGZEZl9uYlQ2ei1fOS1jOXhvZnlQS1NXY2FOOHJNYTQzMnQ1WXBvWDUwMnVEQzdBYm92T2ZZQjRqdGtWcjl6elRReUkwTUhwZEU1cVZRX1V4V0FBY19wNkR4bTdSR1pB?oc=5
+summary: 清华开学季打造“AI农场”，腾讯前沿AI产品走进校园|清华大学研究生会|WorkBuddy|混元|产品经理|大模型_手机新浪网 新浪财经
+first_seen: '2026-09-22T13:27:19Z'
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi_gJBVV95cUxONlBVc0ZjbFEtLVdOZmRWZU9ZVnRDMmhGWnp1WVlGTGR6b2xkaHdFQ2RxWXlJRmlDMVZoWk43VXJFRnRKSWl4VFRNMEFjbUtoaDlfMWRnTDQ5WHBkZkd3UU1WRXc2RTk1T3ZSWGJHQ0ZScVBXR0dDYW9uTXE1Z21LUFRTS1BWX0tIbFFQVFZmNDZjS0Zhck50NXBtTkY3UXV2aEpFZW9PQUNyQUxEdkVCZ0RmNHdxUWgyRERmeHVjX0VzbkJaeXEtUGJuak5vcnZ1OUhIdkdSWnhwU3pnWnMyVURDb3E5UXVHc01MRFpTRWVPUmVHb01BeFBzR2J2LTg5enFQZVBNeXAtZUR4c1FfOEQ5NXZVWHNXQm5aLVJPVGZEZl9uYlQ2ei1fOS1jOXhvZnlQS1NXY2FOOHJNYTQzMnQ1WXBvWDUwMnVEQzdBYm92T2ZZQjRqdGtWcjl6elRReUkwTUhwZEU1cVZRX1V4V0FBY19wNkR4bTdSR1pB?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+---
+
+# 清华开学季打造“AI农场”，腾讯前沿AI产品走进校园|清华大学研究生会|WorkBuddy|混元|产品经理|大模型_手机新浪网
+
+清华开学季打造“AI农场”，腾讯前沿AI产品走进校园|清华大学研究生会|WorkBuddy|混元|产品经理|大模型_手机新浪网 新浪财经
+
+## 笔记
+
+

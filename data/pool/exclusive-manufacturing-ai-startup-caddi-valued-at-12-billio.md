@@ -36,14 +36,19 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOd3FpVERha3hB
 summary: 'Exclusive: Manufacturing AI startup CADDi valued at $1.2 billion following $114 million Series
   D funding round Fortune'
 first_seen: '2026-09-15T17:00:00Z'
-last_seen: '2026-09-16T00:21:13Z'
-status: watching
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOd3FpVERha3hBZnV4MDNqYU5iOVhUUnFwemhmU1h3YUV2dnZFcWF3TEdEd2pHblJiVW1KTUJmMVJXazRoZzFmdmxCSGRlXzVwdG5rdTM3MGM4aEtsRXlCbHdhMVk2OHZsZXFSdHpxNkU0Y3Y4bXVVR2U2dENnZ0xPSVZuSTlwclg5OEsxZ3lqYnNmSGlmeHhtdF9sZk1IVFVsMVFfQg?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPUFpBd1hJWG9mUTkwWEdnU3Vra2pabGZ6cFJpY0lkM1ZSX05LRGt4T2NyY2NpY3VQSGJOSHkzVDRUcUN0ZHFPQU5ZUXlxdlA4ZUlrNFVmcFhIYmRqUzZLQlA3QUQ2MExFTWIwcVdzWVlHSklYZkJEOWhLN0pZZVB3UjJkTFRabmZfc29BUVJvOXZSSHR0UHJTNA?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
   metrics: {}
   kind: news
 ---

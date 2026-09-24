@@ -35,17 +35,17 @@ url: https://github.com/General-Instinct/InstinctFlash
 canonical_url: https://github.com/General-Instinct/InstinctFlash
 summary: High-Performance Serving Runtime for Robotics Models
 first_seen: '2026-09-22T15:20:06Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-09-24T00:30:46Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/General-Instinct/InstinctFlash
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 23
-    comments: 2
+    points: 24
+    comments: 4
   kind: product
 ---
 

@@ -33,8 +33,8 @@ url: https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privile
 canonical_url: https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day
 summary: A simple ClickFix attack is only one way to completely hijack the new agent.
 first_seen: '2026-09-21T22:24:38Z'
-last_seen: '2026-09-23T00:34:15Z'
-status: watching
+last_seen: '2026-09-24T00:30:46Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -46,10 +46,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 112
-    comments: 48
+    points: 121
+    comments: 49
   kind: news
 ---
 

@@ -20,8 +20,8 @@ url: https://huggingface.co/spaces/ryansael/airace
 canonical_url: https://huggingface.co/spaces/ryansael/airace
 summary: Live 3D race of AI labs, updated every 6 hours
 first_seen: '2026-09-14T14:25:21Z'
-last_seen: '2026-09-23T00:34:15Z'
-status: rejected
+last_seen: '2026-09-24T00:30:46Z'
+status: pending_filter
 sources:
 - huggingface
 - marketfeeds
@@ -51,10 +51,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 81
-    comments: 60
+    points: 85
+    comments: 64
   kind: news
 ---
 

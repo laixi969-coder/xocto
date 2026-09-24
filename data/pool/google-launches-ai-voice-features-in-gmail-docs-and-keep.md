@@ -24,12 +24,13 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWm
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWmtvRW1oWnJ5aFNfRUUxQV8tSERkSHJCOXpWVWthUkg2RVFUSS1ncHhBRzdINm8yVTJwdU1ZdlcxQVJJWDRyOUZ1b21FNnhrUl9LMkJTeldNYm9yeDI1XzVWUFNJUWdySDE3VUloUGRzWWVqNjljRy1nWWswRXQ0MlNYUQ?oc=5
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
-last_seen: '2026-09-23T00:34:15Z'
-status: rejected
+last_seen: '2026-09-24T00:31:16Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
 - hackernews
+- officialfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWmtvRW1oWnJ5aFNfRUUxQV8tSERkSHJCOXpWVWthUkg2RVFUSS1ncHhBRzdINm8yVTJwdU1ZdlcxQVJJWDRyOUZ1b21FNnhrUl9LMkJTeldNYm9yeDI1XzVWUFNJUWdySDE3VUloUGRzWWVqNjljRy1nWWswRXQ0MlNYUQ?oc=5
@@ -81,6 +82,11 @@ sightings:
   metrics:
     points: 64
     comments: 117
+  kind: news
+- source: officialfeeds
+  url: https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/
+  seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
   kind: news
 ---
 

@@ -22,8 +22,8 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-23T00:34:15Z'
-status: rejected
+last_seen: '2026-09-24T00:30:46Z'
+status: pending_filter
 sources:
 - newssearch
 - v2ex
@@ -101,10 +101,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://unreallabs.ai/blog/unreal-agent/
-  seen_at: '2026-09-23T00:34:15Z'
+  seen_at: '2026-09-24T00:30:46Z'
   metrics:
-    points: 119
-    comments: 72
+    points: 234
+    comments: 121
   kind: news
 ---
 

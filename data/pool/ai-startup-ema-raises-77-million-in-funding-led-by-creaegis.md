@@ -1,0 +1,41 @@
+---
+slug: ai-startup-ema-raises-77-million-in-funding-led-by-creaegis
+name: AI startup Ema raises $77 million in funding led by Creaegis
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY0FpYWtNUlQ4aUd3X1NsV0tMUHRCdkZDM3pMbEoxaDh6d1Y3dWYtVnlsakZXY0FNejg3Q2pOV2ducXVLMEhMMUs3WmZEbGVDMFJIeEhUc08yZ0U2NHczcWNPUEpvdlF1bHV3OVhHX19NQS0wcllkNzVrRWJLT2c0OUNjT2RhSkl5WlNfa2lOV19yejhDQ2pDaEVySUpGZ1pIVUFqMnE1UHNoX0hTaEdQMVFaaVdna0Q1SnFlNUxyWS11QdIBxwFBVV95cUxOZTJ5MFY1SV9QWFhNZkhiaUxIX1U2elp1b0gyclZjZUFyS2Zqa2pBT3V4cDNQQndqX3QtdHZYRFV5MHFWVl9oeTRIWkN2OENSR3RjWWI0T0J1cm9QLXQxUU1DeGxPRkdITGxkV1lvTU0ySU9haHFNRE5aczJEbTFEbTFFZ3BjSm5ZdXdaV3JVLUVybHJqSkdqOUJuNTlObmszeXNoSlVXdm9aelBScTdNYkVGdUhydG5WMGgzdUNTN3lKWjJ4Z2dF?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY0FpYWtNUlQ4aUd3X1NsV0tMUHRCdkZDM3pMbEoxaDh6d1Y3dWYtVnlsakZXY0FNejg3Q2pOV2ducXVLMEhMMUs3WmZEbGVDMFJIeEhUc08yZ0U2NHczcWNPUEpvdlF1bHV3OVhHX19NQS0wcllkNzVrRWJLT2c0OUNjT2RhSkl5WlNfa2lOV19yejhDQ2pDaEVySUpGZ1pIVUFqMnE1UHNoX0hTaEdQMVFaaVdna0Q1SnFlNUxyWS11QdIBxwFBVV95cUxOZTJ5MFY1SV9QWFhNZkhiaUxIX1U2elp1b0gyclZjZUFyS2Zqa2pBT3V4cDNQQndqX3QtdHZYRFV5MHFWVl9oeTRIWkN2OENSR3RjWWI0T0J1cm9QLXQxUU1DeGxPRkdITGxkV1lvTU0ySU9haHFNRE5aczJEbTFEbTFFZ3BjSm5ZdXdaV3JVLUVybHJqSkdqOUJuNTlObmszeXNoSlVXdm9aelBScTdNYkVGdUhydG5WMGgzdUNTN3lKWjJ4Z2dF?oc=5
+summary: AI startup Ema raises $77 million in funding led by Creaegis Moneycontrol.com
+first_seen: '2026-09-23T13:21:19Z'
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY0FpYWtNUlQ4aUd3X1NsV0tMUHRCdkZDM3pMbEoxaDh6d1Y3dWYtVnlsakZXY0FNejg3Q2pOV2ducXVLMEhMMUs3WmZEbGVDMFJIeEhUc08yZ0U2NHczcWNPUEpvdlF1bHV3OVhHX19NQS0wcllkNzVrRWJLT2c0OUNjT2RhSkl5WlNfa2lOV19yejhDQ2pDaEVySUpGZ1pIVUFqMnE1UHNoX0hTaEdQMVFaaVdna0Q1SnFlNUxyWS11QdIBxwFBVV95cUxOZTJ5MFY1SV9QWFhNZkhiaUxIX1U2elp1b0gyclZjZUFyS2Zqa2pBT3V4cDNQQndqX3QtdHZYRFV5MHFWVl9oeTRIWkN2OENSR3RjWWI0T0J1cm9QLXQxUU1DeGxPRkdITGxkV1lvTU0ySU9haHFNRE5aczJEbTFEbTFFZ3BjSm5ZdXdaV3JVLUVybHJqSkdqOUJuNTlObmszeXNoSlVXdm9aelBScTdNYkVGdUhydG5WMGgzdUNTN3lKWjJ4Z2dF?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+---
+
+# AI startup Ema raises $77 million in funding led by Creaegis
+
+AI startup Ema raises $77 million in funding led by Creaegis Moneycontrol.com
+
+## 笔记
+
+

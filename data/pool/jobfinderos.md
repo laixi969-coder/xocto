@@ -38,18 +38,18 @@ canonical_url: https://github.com/matthewprice/JobFinderOS
 summary: 'An agentic job search that runs on Claude Code: a recruiter, a crawler, and a market analyst
   writing to an Obsidian vault.'
 first_seen: '2026-09-06T01:05:05Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-24T00:30:54Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/matthewprice/JobFinderOS
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-24T00:30:54Z'
   metrics:
     stars: 168
     forks: 36
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

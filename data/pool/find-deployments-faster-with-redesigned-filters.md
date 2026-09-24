@@ -22,8 +22,8 @@ url: https://vercel.com/changelog/find-deployments-faster-with-redesigned-filter
 canonical_url: https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters
 summary: ''
 first_seen: '2026-08-27T13:00:00Z'
-last_seen: '2026-09-12T00:19:08Z'
-status: rejected
+last_seen: '2026-09-24T00:31:16Z'
+status: pending_filter
 sources:
 - officialfeeds
 sightings:
@@ -45,6 +45,16 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect
   seen_at: '2026-09-12T00:19:08Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/vercel-connect-tanstack-ai
+  seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan
+  seen_at: '2026-09-24T00:31:16Z'
   metrics: {}
   kind: news
 ---

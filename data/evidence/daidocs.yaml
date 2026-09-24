@@ -55,3 +55,15 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-22ee70afa76bf128
+  project_slug: daidocs
+  url: https://daidocs.com
+  title: daidocs
+  published_at: '2026-09-13T08:29:01Z'
+  collected_at: '2026-09-24T00:30:54Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open plain-text file format for AI memory. Your assistant''s long-term memory as .dai files on
+    your disk: readable by Claude, GPT, Gemini, Cursor, local models and grep (all LLM models work). MCP
+    server + hooks for Claude Code, Claude Desktop, Cursor, Windsurf, Codex. 83% LongMemEval-S (GPT-4o),
+    92% (Claude Fable 5), 10x fewer tokens. | repository stars: 40'

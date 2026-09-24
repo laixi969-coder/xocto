@@ -22,14 +22,19 @@ canonical_url: https://news.google.com/rss/articles/CBMikwJBVV95cUxNeUQ2ZUJXODVV
 summary: Meta’s Muse Could Become Most Widely Used Consumer AI App Since ChatGPT, JPMorgan Says — BofA
   Sees Improving AI Return Sentiment TradingView
 first_seen: '2026-09-22T13:06:37Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: rejected
+last_seen: '2026-09-24T00:31:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikwJBVV95cUxNeUQ2ZUJXODVVVTlyTEJXV013MnNyYTZac0dYckRTVHRYa0xIWGxaZnpVRWk4d25ZY0VJR2RfVmdsZW82VGVHX0hoZ2NnUUVuWHVSOTFXY2FxTU4wWUJnU3NFSlVNNFlsV2xlMFdIV3JGTUUwVGJMYWRySTJPX2FfbVZHNTNEajVLVGtzcngzYlF1ZGJFSjBjbWt2NU9SNEh3R2Iyd2EtYl9USHZ3UFAtWHM0dm9xSlR5bHN4R2pOb2JmRjRHd1RjV1VtTkd2aVBLc2lLdVRkWHY2UkthVVpidS14bGhWeUp3aTNqSTlyZFlwVTEyZFJyQzRyaHozYWRNOTZpMVJfWkxkTWFTZXU1M1h2SQ?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNdS1wNzB2Ukl4SlladlNMTzJPMmRONVJNaXZEcUJDU1R5UGJnNXdjbUhqcS13T0o5aG1KblVnMU8xNGtyd1RfTzZrMzlRQW5FdlNSMXp4UkVhblhxZ3JzeFp3Z3dJS0FlR19FQ01iRnJwYUZYNU5zNFl1TGVZRVRfaWk5a1pVajdaYm9ETmM2cGs0T09aSGc?oc=5
+  seen_at: '2026-09-24T00:31:52Z'
   metrics: {}
   kind: news
 ---
