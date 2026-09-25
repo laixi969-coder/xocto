@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>commit-rewriter · x-octo</title>
-<meta name="description" content="An open-source maintainer preparing a public release opens it to deal with a commit history written by coding agents and salted with private issue IDs…">
+<meta name="description" content="When open-source maintainers prepare a public patch release, their local repository often contains messy commit messages left by coding agents and iss…">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/commit-rewriter-01.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/commit-rewriter-01.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/commit-rewriter-01.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/commit-rewriter-01.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="commit-rewriter · x-octo">
-<meta property="og:description" content="An open-source maintainer preparing a public release opens it to deal with a commit history written by coding agents and salted with private issue IDs…">
+<meta property="og:description" content="When open-source maintainers prepare a public patch release, their local repository often contains messy commit messages left by coding agents and iss…">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/commit-rewriter-01.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/commit-rewriter-01.html#webpage", "@type": "WebPage", "description": "An open-source maintainer preparing a public release opens it to deal with a commit history written by coding agents and salted with private issue IDs\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "commit-rewriter", "url": "https://xocto.vercel.app/en/p/commit-rewriter-01.html"}, {"@id": "https://xocto.vercel.app/en/p/commit-rewriter-01.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-15", "datePublished": "2026-09-14", "description": "An open-source maintainer preparing a public release opens it to deal with a commit history written by coding agents and salted with private issue IDs. The tool takes a local repository path, lets the user rewrite commit messages in a web page, then creates a timestamped branch for rollback and rewrites every commit from the first edited one to the latest, producing a publishable history; the rewrite scope still needs human confirmation.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/commit-rewriter-01.html#webpage"}, "name": "commit-rewriter", "sameAs": "https://simonwillison.net/2026/Sep/14/commit-rewriter/", "url": "https://xocto.vercel.app/en/p/commit-rewriter-01.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/commit-rewriter-01.html", "name": "commit-rewriter", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/commit-rewriter-01.html#webpage", "@type": "WebPage", "description": "When open-source maintainers prepare a public patch release, their local repository often contains messy commit messages left by coding agents and iss\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "commit-rewriter", "url": "https://xocto.vercel.app/en/p/commit-rewriter-01.html"}, {"@id": "https://xocto.vercel.app/en/p/commit-rewriter-01.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-25", "datePublished": "2026-09-14", "description": "When open-source maintainers prepare a public patch release, their local repository often contains messy commit messages left by coding agents and issue IDs from private repositories, which would leak internal information if published. commit-rewriter lets maintainers rewrite those commit messages on their local repository, and on submit it creates a timestamped branch of the current repo state, producing a publishable commit history; a human still has to confirm each edit.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/commit-rewriter-01.html#webpage"}, "name": "commit-rewriter", "sameAs": "https://simonwillison.net/2026/Sep/14/commit-rewriter/", "url": "https://xocto.vercel.app/en/p/commit-rewriter-01.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/commit-rewriter-01.html", "name": "commit-rewriter", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,14 +64,14 @@
       <div class="product-title-row">
         <h1>commit-rewriter</h1>
       </div>
-      <p class="product-lede">An open-source maintainer preparing a public release opens it to deal with a commit history written by coding agents and salted with private issue IDs. The tool takes a local repository path, lets the user rewrite commit messages in a web page, then creates a timestamped branch for rollback and rewrites every commit from the first edited one to the latest, producing a publishable history; the rewrite scope still needs human confirmation.</p>
+      <p class="product-lede">When open-source maintainers prepare a public patch release, their local repository often contains messy commit messages left by coding agents and issue IDs from private repositories, which would leak internal information if published. commit-rewriter lets maintainers rewrite those commit messages on their local repository, and on submit it creates a timestamped branch of the current repo state, producing a publishable commit history; a human still has to confirm each edit.</p>
       <div class="meta product-meta">
 <span class="tag sig">Not a business yet</span>        <span class="tag">Early</span>
-<span class="tag">Open-source project</span><span class="tag">AI + Dev</span><span class="tag">Software and IT services</span><span class="tag">Open-source maintainer</span><span class="tag">Software Developer</span>      </div>
+<span class="tag">Open-source project</span><span class="tag">AI + Dev</span><span class="tag">Software and IT services</span><span class="tag">Open-source maintainers cleaning commit history before a security release</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>First tracked here</dt><dd class="num">2026-09-14</dd></div>
-      <div><dt>Last updated here</dt><dd class="num">2026-09-15</dd></div>
+      <div><dt>Last updated here</dt><dd class="num">2026-09-25</dd></div>
       <div><dt>Product site</dt><dd><a href="https://simonwillison.net/2026/Sep/14/commit-rewriter/" target="_blank" rel="noopener">Visit site ↗</a></dd></div>
     </dl>
   </header>
@@ -94,7 +94,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
         <h3>Demand is evidenced</h3>
-        <p>The trend is that coding agents now mass-produce commits, making the commit history itself a release artifact that needs cleaning. The opening is the open-source maintainer and security-release workflow: make pre-release commit-message cleanup a reversible bulk rewrite instead of one-by-one amends, possibly as a hosted version priced per repository or per release, though no pricing is disclosed in the public material.</p>
+        <p>The trend is that coding agents now generate commits in bulk, making repository history itself a release artifact that needs cleaning. The entry point is open-source maintainers and security response teams who must publish patch records: build a tool or service around the step of stripping internal traces from history before release, rather than a general Git client.</p>
       </article>
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
@@ -115,14 +115,14 @@
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
-        <p>The trend is that coding agents now mass-produce commits, making the commit history itself a release artifact that needs cleaning. The opening is the open-source maintainer and security-release workflow: make pre-release commit-message cleanup a reversible bulk rewrite instead of one-by-one amends, possibly as a hosted version priced per repository or per release, though no pricing is disclosed in the public material.</p>
+        <p>The trend is that coding agents now generate commits in bulk, making repository history itself a release artifact that needs cleaning. The entry point is open-source maintainers and security response teams who must publish patch records: build a tool or service around the step of stripping internal traces from history before release, rather than a general Git client.</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">Public fact</span><p>An open-source maintainer preparing a public release opens it to deal with a commit history written by coding agents and salted with private issue IDs. The tool takes a local repository path, lets the user rewrite commit messages in a web page, then creates a timestamped branch for rollback and rewrites every commit from the first edited one to the latest, producing a publishable history; the rewrite scope still needs human confirmation.</p></div>
+        <div><span class="field-k">Public fact</span><p>When open-source maintainers prepare a public patch release, their local repository often contains messy commit messages left by coding agents and issue IDs from private repositories, which would leak internal information if published. commit-rewriter lets maintainers rewrite those commit messages on their local repository, and on submit it creates a timestamped branch of the current repo state, producing a publishable commit history; a human still has to confirm each edit.</p></div>
         <div><span class="field-k">Workflow reasoning</span><p>Compared with one-by-one rebase, it edits many commit messages in a single web page and automatically creates a timestamped branch for rollback before rewriting, removing the &#39;cannot undo a bad edit&#39; burden, so maintainers who publish repositories often and code with agents are likely to reach for it before a release (inference).</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
@@ -183,12 +183,12 @@
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-15</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-25</p>
       </div>
       <div class="field">
         <span class="field-k">Chinese ecosystem · CN</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-15</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-09-25</p>
       </div>
     </div>
   </section>
@@ -215,11 +215,6 @@ Public information is limited; this view will update as more evidence appears.  
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">OpenAI | Research &amp; Deployment</span>
-        <span class="row-desc">Market comparison · Company Sep 9, 2026 Path to Astra: critical capabilities and frontier safeguards Safety Sep 1, 2026 Jalapeño’s first results show industry-leading speed and efficiency in AI inference Engineering Aug 25, 2026 Pacing model development in an era of cyber-critical capabilities Company Aug 18, 2026</span>
-        <span class="row-tail"></span>
-      </div></a></li>
       <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">‎Google Gemini</span>
         <span class="row-desc">Market comparison · Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.</span>
@@ -227,12 +222,22 @@ Public information is limited; this view will update as more evidence appears.  
       </div></a></li>
       <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">ChatGPT: Chat, Work, Create &amp; Code with AI</span>
-        <span class="row-desc">Market comparison · Where should we begin? Where should we begin? ChatGPT is AI. By using it, you agree to our Terms &amp; Privacy Policy. Chats may be reviewed and used to improve our AI models. Learn more</span>
+        <span class="row-desc">Market comparison · Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">DeepAI</span>
-        <span class="row-desc">Market comparison · Whether you are a hobbyist, a professional artist, or a developer integrating AI into your product, DeepAI delivers advanced technology with new video, music, and voice chat features.</span>
+      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">What is Artificial Intelligence (AI)? | Google Cloud</span>
+        <span class="row-desc">Market comparison · Artificial intelligence (AI) is a set of technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to require human intelligence, such as understanding language, analyzing data, and even providing helpful suggestions. It’s a transformational technology that can bring meaningful and positive change to people and societies and the world ...</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Google AI - How we&#39;re making AI helpful for everyone</span>
+        <span class="row-desc">Market comparison · Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Google AI Studio</span>
+        <span class="row-desc">Market comparison · Build with Google AI Studio Go from prompt to production with Gemini, Veo, Nano Banana, and more Create a massive multiplayer first-person laser tag game login Get started</span>
         <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
@@ -240,10 +245,15 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="row-desc">Market comparison · Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://www.meta.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Meta AI</span>
-        <span class="row-desc">Market comparison · Use Meta AI assistant to get things done, create AI-generated images for free, and get answers to any of your questions.</span>
+      <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Artificial intelligence - Wikipedia</span>
+        <span class="row-desc">Market comparison · Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://simonwillison.net/2026/Sep/24/commit-rewriter/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">commit-rewriter 0.2</span>
+        <span class="row-desc">market_signal · Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git</span>
+        <span class="row-tail">2026-09-25</span>
       </div></a></li>
       <li><a href="https://simonwillison.net/2026/Sep/14/commit-rewriter/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">commit-rewriter 0.1</span>
@@ -289,7 +299,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        557 in AI + Dev →
+        571 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -381,8 +391,8 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>1963 cases · 175 business reads</span>
-    <span class="gen">Data through 2026-09-24</span>
+    <span>2015 cases · 176 business reads</span>
+    <span class="gen">Data through 2026-09-25</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>
     <span>·</span>

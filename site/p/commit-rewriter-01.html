@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>commit-rewriter · x-octo</title>
-<meta name="description" content="开源维护者在准备对外发布仓库时打开它，处理的是编码代理生成、夹杂私有 issue 编号的提交历史；工具接收本地仓库路径，在网页里逐条改写提交信息，提交后先建一个带时间戳的分支以便回退，再从第一条被改的提交重写到最新提交，最终得到一份可公开的提交历史，改写范围仍需人工确认。">
+<meta name="description" content="开源维护者在准备对外发布补丁时，本地仓库里常混着编码代理留下的杂乱提交信息和私有仓库的 issue 编号，直接公开会泄露内部信息。commit-rewriter 让维护者在本机仓库上逐条改写这些提交信息，提交后自动生成一个带时间戳的分支保存当前状态，最终得到一份可以公开的提交历史，人工仍需逐条确认改…">
 <link rel="canonical" href="https://xocto.vercel.app/p/commit-rewriter-01.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/commit-rewriter-01.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/commit-rewriter-01.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/commit-rewriter-01.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="commit-rewriter · x-octo">
-<meta property="og:description" content="开源维护者在准备对外发布仓库时打开它，处理的是编码代理生成、夹杂私有 issue 编号的提交历史；工具接收本地仓库路径，在网页里逐条改写提交信息，提交后先建一个带时间戳的分支以便回退，再从第一条被改的提交重写到最新提交，最终得到一份可公开的提交历史，改写范围仍需人工确认。">
+<meta property="og:description" content="开源维护者在准备对外发布补丁时，本地仓库里常混着编码代理留下的杂乱提交信息和私有仓库的 issue 编号，直接公开会泄露内部信息。commit-rewriter 让维护者在本机仓库上逐条改写这些提交信息，提交后自动生成一个带时间戳的分支保存当前状态，最终得到一份可以公开的提交历史，人工仍需逐条确认改…">
 <meta property="og:url" content="https://xocto.vercel.app/p/commit-rewriter-01.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/commit-rewriter-01.html#webpage", "@type": "WebPage", "description": "\u5f00\u6e90\u7ef4\u62a4\u8005\u5728\u51c6\u5907\u5bf9\u5916\u53d1\u5e03\u4ed3\u5e93\u65f6\u6253\u5f00\u5b83\uff0c\u5904\u7406\u7684\u662f\u7f16\u7801\u4ee3\u7406\u751f\u6210\u3001\u5939\u6742\u79c1\u6709 issue \u7f16\u53f7\u7684\u63d0\u4ea4\u5386\u53f2\uff1b\u5de5\u5177\u63a5\u6536\u672c\u5730\u4ed3\u5e93\u8def\u5f84\uff0c\u5728\u7f51\u9875\u91cc\u9010\u6761\u6539\u5199\u63d0\u4ea4\u4fe1\u606f\uff0c\u63d0\u4ea4\u540e\u5148\u5efa\u4e00\u4e2a\u5e26\u65f6\u95f4\u6233\u7684\u5206\u652f\u4ee5\u4fbf\u56de\u9000\uff0c\u518d\u4ece\u7b2c\u4e00\u6761\u88ab\u6539\u7684\u63d0\u4ea4\u91cd\u5199\u5230\u6700\u65b0\u63d0\u4ea4\uff0c\u6700\u7ec8\u5f97\u5230\u4e00\u4efd\u53ef\u516c\u5f00\u7684\u63d0\u4ea4\u5386\u53f2\uff0c\u6539\u5199\u8303\u56f4\u4ecd\u9700\u4eba\u5de5\u786e\u8ba4\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "commit-rewriter", "url": "https://xocto.vercel.app/p/commit-rewriter-01.html"}, {"@id": "https://xocto.vercel.app/p/commit-rewriter-01.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-15", "datePublished": "2026-09-14", "description": "\u5f00\u6e90\u7ef4\u62a4\u8005\u5728\u51c6\u5907\u5bf9\u5916\u53d1\u5e03\u4ed3\u5e93\u65f6\u6253\u5f00\u5b83\uff0c\u5904\u7406\u7684\u662f\u7f16\u7801\u4ee3\u7406\u751f\u6210\u3001\u5939\u6742\u79c1\u6709 issue \u7f16\u53f7\u7684\u63d0\u4ea4\u5386\u53f2\uff1b\u5de5\u5177\u63a5\u6536\u672c\u5730\u4ed3\u5e93\u8def\u5f84\uff0c\u5728\u7f51\u9875\u91cc\u9010\u6761\u6539\u5199\u63d0\u4ea4\u4fe1\u606f\uff0c\u63d0\u4ea4\u540e\u5148\u5efa\u4e00\u4e2a\u5e26\u65f6\u95f4\u6233\u7684\u5206\u652f\u4ee5\u4fbf\u56de\u9000\uff0c\u518d\u4ece\u7b2c\u4e00\u6761\u88ab\u6539\u7684\u63d0\u4ea4\u91cd\u5199\u5230\u6700\u65b0\u63d0\u4ea4\uff0c\u6700\u7ec8\u5f97\u5230\u4e00\u4efd\u53ef\u516c\u5f00\u7684\u63d0\u4ea4\u5386\u53f2\uff0c\u6539\u5199\u8303\u56f4\u4ecd\u9700\u4eba\u5de5\u786e\u8ba4\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/commit-rewriter-01.html#webpage"}, "name": "commit-rewriter", "sameAs": "https://simonwillison.net/2026/Sep/14/commit-rewriter/", "url": "https://xocto.vercel.app/p/commit-rewriter-01.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/commit-rewriter-01.html", "name": "commit-rewriter", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/commit-rewriter-01.html#webpage", "@type": "WebPage", "description": "\u5f00\u6e90\u7ef4\u62a4\u8005\u5728\u51c6\u5907\u5bf9\u5916\u53d1\u5e03\u8865\u4e01\u65f6\uff0c\u672c\u5730\u4ed3\u5e93\u91cc\u5e38\u6df7\u7740\u7f16\u7801\u4ee3\u7406\u7559\u4e0b\u7684\u6742\u4e71\u63d0\u4ea4\u4fe1\u606f\u548c\u79c1\u6709\u4ed3\u5e93\u7684 issue \u7f16\u53f7\uff0c\u76f4\u63a5\u516c\u5f00\u4f1a\u6cc4\u9732\u5185\u90e8\u4fe1\u606f\u3002commit-rewriter \u8ba9\u7ef4\u62a4\u8005\u5728\u672c\u673a\u4ed3\u5e93\u4e0a\u9010\u6761\u6539\u5199\u8fd9\u4e9b\u63d0\u4ea4\u4fe1\u606f\uff0c\u63d0\u4ea4\u540e\u81ea\u52a8\u751f\u6210\u4e00\u4e2a\u5e26\u65f6\u95f4\u6233\u7684\u5206\u652f\u4fdd\u5b58\u5f53\u524d\u72b6\u6001\uff0c\u6700\u7ec8\u5f97\u5230\u4e00\u4efd\u53ef\u4ee5\u516c\u5f00\u7684\u63d0\u4ea4\u5386\u53f2\uff0c\u4eba\u5de5\u4ecd\u9700\u9010\u6761\u786e\u8ba4\u6539\u2026", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "commit-rewriter", "url": "https://xocto.vercel.app/p/commit-rewriter-01.html"}, {"@id": "https://xocto.vercel.app/p/commit-rewriter-01.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-25", "datePublished": "2026-09-14", "description": "\u5f00\u6e90\u7ef4\u62a4\u8005\u5728\u51c6\u5907\u5bf9\u5916\u53d1\u5e03\u8865\u4e01\u65f6\uff0c\u672c\u5730\u4ed3\u5e93\u91cc\u5e38\u6df7\u7740\u7f16\u7801\u4ee3\u7406\u7559\u4e0b\u7684\u6742\u4e71\u63d0\u4ea4\u4fe1\u606f\u548c\u79c1\u6709\u4ed3\u5e93\u7684 issue \u7f16\u53f7\uff0c\u76f4\u63a5\u516c\u5f00\u4f1a\u6cc4\u9732\u5185\u90e8\u4fe1\u606f\u3002commit-rewriter \u8ba9\u7ef4\u62a4\u8005\u5728\u672c\u673a\u4ed3\u5e93\u4e0a\u9010\u6761\u6539\u5199\u8fd9\u4e9b\u63d0\u4ea4\u4fe1\u606f\uff0c\u63d0\u4ea4\u540e\u81ea\u52a8\u751f\u6210\u4e00\u4e2a\u5e26\u65f6\u95f4\u6233\u7684\u5206\u652f\u4fdd\u5b58\u5f53\u524d\u72b6\u6001\uff0c\u6700\u7ec8\u5f97\u5230\u4e00\u4efd\u53ef\u4ee5\u516c\u5f00\u7684\u63d0\u4ea4\u5386\u53f2\uff0c\u4eba\u5de5\u4ecd\u9700\u9010\u6761\u786e\u8ba4\u6539\u5199\u5185\u5bb9\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/commit-rewriter-01.html#webpage"}, "name": "commit-rewriter", "sameAs": "https://simonwillison.net/2026/Sep/14/commit-rewriter/", "url": "https://xocto.vercel.app/p/commit-rewriter-01.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/commit-rewriter-01.html", "name": "commit-rewriter", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,14 +64,14 @@
       <div class="product-title-row">
         <h1>commit-rewriter</h1>
       </div>
-      <p class="product-lede">开源维护者在准备对外发布仓库时打开它，处理的是编码代理生成、夹杂私有 issue 编号的提交历史；工具接收本地仓库路径，在网页里逐条改写提交信息，提交后先建一个带时间戳的分支以便回退，再从第一条被改的提交重写到最新提交，最终得到一份可公开的提交历史，改写范围仍需人工确认。</p>
+      <p class="product-lede">开源维护者在准备对外发布补丁时，本地仓库里常混着编码代理留下的杂乱提交信息和私有仓库的 issue 编号，直接公开会泄露内部信息。commit-rewriter 让维护者在本机仓库上逐条改写这些提交信息，提交后自动生成一个带时间戳的分支保存当前状态，最终得到一份可以公开的提交历史，人工仍需逐条确认改写内容。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件与信息服务</span><span class="tag">开源维护者</span><span class="tag">软件开发者</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件与信息服务</span><span class="tag">开源维护者在发布安全补丁前清理提交历史</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>本站首次收录</dt><dd class="num">2026-09-14</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-15</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-25</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://simonwillison.net/2026/Sep/14/commit-rewriter/" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -94,7 +94,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是编码代理开始批量产出提交，提交历史本身成了需要清洗的发布物料。切入可放在开源维护者与安全发布流程：把“发布前清理提交信息”做成可回退的批量改写，而不是逐条 amend；也可考虑按仓库或按发布次数收费的托管版本，但公开材料未披露任何定价。</p>
+        <p>趋势是编码代理开始批量产生提交，仓库历史本身成了需要清洗的发布物料。切入可以从开源维护者、安全响应团队这类必须公开补丁记录的人群做起，围绕“发布前把内部痕迹从历史里摘干净”这一步做工具或服务，而不是做通用 Git 客户端。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
@@ -115,7 +115,7 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是编码代理开始批量产出提交，提交历史本身成了需要清洗的发布物料。切入可放在开源维护者与安全发布流程：把“发布前清理提交信息”做成可回退的批量改写，而不是逐条 amend；也可考虑按仓库或按发布次数收费的托管版本，但公开材料未披露任何定价。</p>
+        <p>趋势是编码代理开始批量产生提交，仓库历史本身成了需要清洗的发布物料。切入可以从开源维护者、安全响应团队这类必须公开补丁记录的人群做起，围绕“发布前把内部痕迹从历史里摘干净”这一步做工具或服务，而不是做通用 Git 客户端。</p>
       </div>
     </div>
 
@@ -183,12 +183,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-15。未发现仅限该覆盖范围。 · 2026-09-15</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-25。未发现仅限该覆盖范围。 · 2026-09-25</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-15。未发现仅限该覆盖范围。 · 2026-09-15</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-25。未发现仅限该覆盖范围。 · 2026-09-25</p>
       </div>
     </div>
   </section>
@@ -215,11 +215,6 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">openai.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
       <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">gemini.google.com</span>
         <span class="row-desc">市场对照</span>
@@ -230,8 +225,18 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">deepai.org</span>
+      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">cloud.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aistudio.google.com</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -240,10 +245,15 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://www.meta.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">meta.ai</span>
+      <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.wikipedia.org</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://simonwillison.net/2026/Sep/24/commit-rewriter/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">simonwillison.net</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-25</span>
       </div></a></li>
       <li><a href="https://simonwillison.net/2026/Sep/14/commit-rewriter/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">simonwillison.net</span>
@@ -289,7 +299,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 557 个 →
+        AI + 开发 共 571 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -381,8 +391,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1963 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-24</span>
+    <span>2015 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-09-25</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

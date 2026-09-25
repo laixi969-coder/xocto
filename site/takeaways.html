@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>打法库 · x-octo</title>
-<meta name="description" content="164 个案例：这是什么、功能、可参考">
+<meta name="description" content="165 个案例：这是什么、功能、可参考">
 <link rel="canonical" href="https://xocto.vercel.app/takeaways.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/takeaways.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/takeaways.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/takeaways.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="打法库 · x-octo">
-<meta property="og:description" content="164 个案例：这是什么、功能、可参考">
+<meta property="og:description" content="165 个案例：这是什么、功能、可参考">
 <meta property="og:url" content="https://xocto.vercel.app/takeaways.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/takeaways.html#webpage", "@type": "CollectionPage", "description": "164 \u4e2a\u6848\u4f8b\uff1a\u8fd9\u662f\u4ec0\u4e48\u3001\u529f\u80fd\u3001\u53ef\u53c2\u8003", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "\u6253\u6cd5\u5e93", "url": "https://xocto.vercel.app/takeaways.html"}]}</script><link rel="stylesheet" href="style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/takeaways.html#webpage", "@type": "CollectionPage", "description": "165 \u4e2a\u6848\u4f8b\uff1a\u8fd9\u662f\u4ec0\u4e48\u3001\u529f\u80fd\u3001\u53ef\u53c2\u8003", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "\u6253\u6cd5\u5e93", "url": "https://xocto.vercel.app/takeaways.html"}]}</script><link rel="stylesheet" href="style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -65,7 +65,7 @@
       <p id="ctx-note">每个案例先看这是什么、能干什么，再看有什么可以参考。</p>
     </div>
     <dl class="lede-stats desk-stats">
-      <div><dt>案例</dt><dd class="num">164</dd></div>
+      <div><dt>案例</dt><dd class="num">165</dd></div>
     </dl>
   </header>
 
@@ -430,6 +430,34 @@
               </ul>
             </div>
           </a>
+        </article>
+      </li>
+      <li>
+        <article class="play-card">
+          <a class="play-card-body" href="p/ante.html">
+            <div class="play-head">
+              <span class="play-name">Ante</span>
+<span class="tag">AI + 开发</span>            </div>
+            <div class="play-field">
+              <span class="field-k">这是什么</span>
+              <p>一个约 15MB 的 Rust 单二进制编码 agent，把 llama.cpp 推理引擎、grep、git 全塞进一个文件里， 断网也能用本地 GGUF 模型跑完整条&#34;读代码—改代码—跑测试&#34;的回路，也能接任意云端模型。</p>
+            </div>
+            <div class="play-field">
+              <span class="field-k">功能</span>
+              <p>单二进制跑四种形态；内置本地推理；嵌入常用工具；多 agent 与记忆；命名配置档（profiles）；可验证的评测</p>
+            </div>
+            <div class="play-field play-ref">
+              <span class="field-k">可参考</span>
+              <ul>
+                <li>如果你的工具面向&#34;并行跑很多 agent&#34;或&#34;隔网环境&#34;两个场景之一， &#34;单二进制 + 零运行时依赖 + 可选本地推理&#34;是值得复制的架构决策；但要先想清楚 闭源 vs 开源的信任成本——承诺离线隐私的产品，不能给用户一个无法审计的二进制。</li>
+                <li>alpha 免费商用 + 未来托管层的 open-core 路径是当前 agent 工具的默认结构， 可以观察但不必复制；真正的问题是托管层和免费二进制之间是否有人愿意付费。</li>
+              </ul>
+            </div>
+          </a>
+          <p class="play-url">
+            <span class="field-k">官网</span>
+            <a href="https://github.com/AntigmaLabs/ante" target="_blank" rel="noopener">github.com</a>
+          </p>
         </article>
       </li>
       <li>
@@ -4270,8 +4298,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1963 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-24</span>
+    <span>2015 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-09-25</span>
     <span>·</span>
     <a href="reports.html">判断档案</a>
     <span>·</span>
