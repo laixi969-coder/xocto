@@ -20,8 +20,8 @@ url: https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warni
 canonical_url: https://theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings
 summary: I worked at Google DeepMind. You should listen to the warnings about AI
 first_seen: '2026-09-15T02:25:41Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: rejected
+last_seen: '2026-09-25T00:33:43Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 40
     comments: 34
+  kind: news
+- source: hackernews
+  url: https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us
+  seen_at: '2026-09-25T00:33:43Z'
+  metrics:
+    points: 112
+    comments: 156
   kind: news
 ---
 

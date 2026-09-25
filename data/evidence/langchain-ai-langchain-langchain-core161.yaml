@@ -106,3 +106,17 @@
     chore(deps): bump anyio from 4.12.0 to 4.14.2 in /libs/core (#40634)
 
     chore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/core (#40574)'
+- id: ev-2dc0f38549081321
+  project_slug: langchain-ai-langchain-langchain-core161
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5
+  title: 'langchain-ai/langchain: langchain-core==1.6.5'
+  published_at: '2026-09-24T18:11:22Z'
+  collected_at: '2026-09-25T00:33:47Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Changes since langchain-core==1.6.4
+
+
+    release(core): 1.6.5 (#40816)
+
+    fix(core): abbreviate long tool IDs in XML buffer strings (#40792)'

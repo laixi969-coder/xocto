@@ -2127,3 +2127,24 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-163c9a7d6ab9dede
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/awwwards-mcp
+  title: Awwards-mcp
+  published_at: '2026-09-18T10:57:09Z'
+  collected_at: '2026-09-25T00:33:47Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode,
+    ZCode…) design inspiration from award-winning websites — search with real screenshots, pull design
+    DNA, capture and record live sites. A Mobbin alternative. No API key. | repository stars: 76'
+- id: ev-98e517b147742021
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@toddzheng024/dscode
+  title: dscode
+  published_at: '2026-09-11T09:40:02Z'
+  collected_at: '2026-09-25T00:33:47Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP
+    and session telemetry | repository stars: 425'

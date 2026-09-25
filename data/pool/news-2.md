@@ -20,8 +20,8 @@ url: https://news.social-protocols.org/penalties
 canonical_url: https://news.social-protocols.org/penalties
 summary: Most Penalized HN Stories
 first_seen: '2026-09-13T00:36:00Z'
-last_seen: '2026-09-24T00:31:52Z'
-status: rejected
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -169,6 +169,36 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQUEt5NUdkSl9tejZNVVc4MS1kQVB1aXJjWldJLVhzUnBvSV85dHU2alA5Y056VzZMYVVyMEF6YUdKd0s0YUdvRldiZ3VEZmlPMDdFVzAxeUExZDlBb3NkaVZMcmVuUWozOU85ZmxmUGxVZ0o2OUVheTFLU1djLUdTX3huNml4eE8zU1EweEtTRXFwYnRwbU1kOVRpU2QwZXdvN2YyNEFXeHRNWFFlMUV5Tzc0N1VGZTRad2I0TVo1Z0dfOHFNMFhr0gHHAUFVX3lxTFBQS3k1R2RKX216Nk1VVzgxLWRBUHVpcmNaV0ktWHNScG9JXzl0dTZqUDljTnpXNkxhVXIwQXphR0p3SzRhR29GV2JndURmaU8wN0VXMDF5QTFkOUFvc2RpVkxyZW5RajM5TzlmbGZQbFVnSjY5RWF5MUtTV2MtR1NfeG42aXh4TzNTUTB4S1NFcXBidHBtTWQ5VGlTZDBld283ZjI0QVd4dE1YUWUxRXlPNzQ3VUZlNFp3YjRNWjVnR184cU0wWGs?oc=5
   seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPcDhuU0p5aXh3Y2hwbzV6X3VzQkE4c0lXWC03SEpXbmpnOTNEdDZLTEE5SkFuMENNOE9rSm5FWFpVQTYzMFFabEdYYWZYXzlkeXJ4N1RqR3Y0dlFQTnZxRTUxUzRIdWlNR19nNnpRd24xbGczcGhTeGRSNUdZVDdTckxxYWVMVUlQZU5mU2JKYkhVRFFnYUdCdW45RXhUUFdlQ1NxRFBWYS1lV1I5ZE9wd3gxRF9jbUNLemdsMlJWMTRkY1Jr0gHEAUFVX3lxTE9wOG5TSnlpeHdjaHBvNXpfdXNCQThzSVdYLTdISlduamc5M0R0NktMQTlKQW4wQ004T2tKbkVYWlVBNjMwUVpsR1hhZlhfOWR5cng3VGpHdjR2UVBOdnFFNTFTNEh1aU1HX2c2elF3bjFsZzNwaFN4ZFI1R1lUN1NyTHFhZUxVSVBlTmZTYkpiSFVEUWdhR0J1bjlFeFRQV2VDU3FEUFZhLWVXUjlkT3B3eDFEX2NtQ0t6Z2wyUlYxNGRjUms?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNlhTMzhsOU9RTmJ1LWNkcGJlSjZVQzVRZlYwUEZLSnpKc3VnTEJtcDZJVGl4MjZfRkVwOGtxX24xNFMzZzNLX0VlWU5Zb3FlZlJJN3VWRjVJa2hjclAzTXY0UmxGNW5ybTFwM201SzkzNEF2SloyM3FOeGY1TEswcTgyMVJWUkVkb3hsLUxVcjd0WnVxWUg3VDN5RkZGWXRHcnBwWW45OEluQ3FxeFEwMnhFY0JobUNwRXBuSlRDZkowaWt0Y3JNOG1rVzhVX0dORTFr?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRkVlbFp0WWVZVl8zRE9mVFFrX29qY3VvRHN1TEtPUUJmTzJCc2RrdHZsZ2ZxZk9VbHhWLW00Y1FuanlLaXJoeTZxdzJ3NDFYS3lOWHp2d05lT1lOTzhpRXNoYVE3MnBUcHVYVnVUbXJNeWhzNEtWWFhySDU1Z1lnV2FSSHlYVDI5MVFxTG43T3RnSTlmZFRMTkFDa0xmemZybHdnVGF1WG9yRktXNThJdENWQ1Jnd3lRT3hIRkw1NTVIVWpGQmk5SUwtLVhDUFJsejNnUElvRVZueF8w?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wcVgycElJUkVPMkl0ZXBHVEpmOThTRG14SXlta04zdWNGWXZDV3NHV0tqc3duU1ZRci12VE1Tc256LW1pbERhTmtkbWxkdndtNFU4R2xTZHZfNzFZWHc?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zdjljdENDeFBLTldEdzdZYzVKWVZ0a3RGMjNzYVRqUnp6TVEzSnB4a01HdFdZa2Q1b0dVU1VMbVpnb1JVS3BhdzBLTU94Vk9mVkE?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nZ1RkLUdwT2M4eFBpUzQwVjhxUTFobWhfMmRVUUZ0aDdwUXRHU21OM2I4X05ZYV9YaTN2VE1fX1ZDU3MzVXEyTHVVdDA5RU05X0E?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

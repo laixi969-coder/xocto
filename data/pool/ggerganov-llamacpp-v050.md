@@ -204,16 +204,16 @@ summary: "## Overview\r\n\r\nThis release focuses on backend performance and cor
   \ release : added gfx1103 to ubuntu rocm build (#28423)\r\nf3a184b15 cmake : remove precompiled headers\
   \ (#28892)\r\ndfe45163e scripts: Add script to verify API/ABI compatibility (#28579)"
 first_seen: '2026-09-23T20:50:06Z'
-last_seen: '2026-09-24T00:30:54Z'
-status: market_context
+last_seen: '2026-09-25T00:33:47Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.5.0
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    reactions: 6
+    reactions: 16
   kind: news
 ---
 

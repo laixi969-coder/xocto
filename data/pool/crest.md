@@ -29,16 +29,16 @@ url: https://crestnotch.app/claude-code-notch
 canonical_url: https://crestnotch.app/claude-code-notch
 summary: Answer Claude Code approvals from your MacBook's notch
 first_seen: '2026-09-23T17:48:38Z'
-last_seen: '2026-09-24T00:30:46Z'
+last_seen: '2026-09-25T00:33:43Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://crestnotch.app/claude-code-notch
-  seen_at: '2026-09-24T00:30:46Z'
+  seen_at: '2026-09-25T00:33:43Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

@@ -36,8 +36,8 @@ summary: 'Changes since langchain-core==1.6.0
 
   feat(core): propagate gateway information on error path (#39829)'
 first_seen: '2026-08-27T19:31:34Z'
-last_seen: '2026-09-22T00:50:25Z'
-status: rejected
+last_seen: '2026-09-25T00:33:47Z'
+status: pending_filter
 sources:
 - github
 sightings:
@@ -56,6 +56,12 @@ sightings:
 - source: github
   url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4
   seen_at: '2026-09-22T00:50:25Z'
+  metrics:
+    reactions: 0
+  kind: news
+- source: github
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
     reactions: 0
   kind: news

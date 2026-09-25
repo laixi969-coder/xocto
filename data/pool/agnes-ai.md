@@ -11,14 +11,23 @@ inspiration_en: 'The trend is team AI moving from solo chats to a shared desk. T
   a new hire can pick up context on day one, billed per seat. A free model interface is acquisition, not
   the business.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/Agnes-AI/webid1D6F36F69
 canonical_url: https://aicpb.com/product/Agnes-AI/webid1D6F36F69
 summary: AI Agent for collaborative workspace
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-13T11:28:34Z'
-status: analyzed
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - aicpb
+- marketfeeds
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Agnes-AI/webid1D6F36F69
@@ -32,6 +41,12 @@ sightings:
     boards:
     - 全球增速榜
     - 全球总榜
+  kind: product
+- source: marketfeeds
+  url: https://tech.eu/2026/09/24/cerebionics-wants-to-turn-human-intent-into-commands-for-machines/
+  seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
+  kind: news
 ---
 
 # Agnes AI

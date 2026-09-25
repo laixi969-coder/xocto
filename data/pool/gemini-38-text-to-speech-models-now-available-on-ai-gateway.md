@@ -1,7 +1,7 @@
 ---
 slug: gemini-38-text-to-speech-models-now-available-on-ai-gateway
 name: Gemini 3.8 text-to-speech models
-builder: ''
+builder: Ankit Sharma
 category: ''
 summary_zh: Google 的 Gemini 3.8 文本转语音模型于 2026 年 9 月上线 AI Gateway，开发者可在既有网关内直接调用该语音能力。这意味着语音合成进一步成为可即取即用的托管模型能力，降低应用集成语音交互的接入成本，并加剧语音模型供给端的竞争（推断）。
 inspiration: ''
@@ -21,23 +21,29 @@ regions_en: []
 open_source: false
 url: https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway
 canonical_url: https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway
-summary: ''
+summary: Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS
 first_seen: '2026-09-23T00:00:00Z'
-last_seen: '2026-09-24T00:31:16Z'
+last_seen: '2026-09-25T00:33:43Z'
 status: market_context
 sources:
 - officialfeeds
+- producthunt
 sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway
   seen_at: '2026-09-24T00:31:16Z'
   metrics: {}
   kind: news
+- source: producthunt
+  url: https://www.producthunt.com/products/gemini-3-8-text-to-speech-models
+  seen_at: '2026-09-25T00:33:43Z'
+  metrics: {}
+  kind: product
 ---
 
 # Gemini 3.8 text-to-speech models
 
-_（源没给简介）_
+Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS
 
 ## 笔记
 

@@ -1,0 +1,41 @@
+---
+slug: is-salesforce-crm-undervalued-as-its-ai-narrative-meets-real
+name: Is Salesforce (CRM) Undervalued As Its AI Narrative Meets Real Competitive Risks?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPNTJoNDVwWEF5bkhtWElPeWFHaHVHZTJTT09aQ3dUNjVsY00xSFpsZmJmZHdUMlIzZ3dPVDRGOEN3YklrQi1fczdqM0hfaTJ5NGItd3RLQUQyTE1pUy1VWlMwUnI3b2d0Q0xyeTk2N0NnWXFrejdoY1pEU2dPM3QtWHF3MndYNDdqQy16ejBGSklNbmxWWGMtMzFaRzVGSmtWSDN3SUdGcmdudXpoTkNDTHhkT0lxb29CdTloWXJsOHhnNklKVERPS1RB0gHKAUFVX3lxTE81Mmg0NXBYQXluSG1YSU95YUdodUdlMlNPT1pDd1Q2NWxjTTFIWmxmYmZkd1QyUjNnd09UNEY4Q3diSWtCLV9zN2ozSF9pMnk0Yi13dEtBRDJMTWlTLVVaUzBScjdvZ3RDTHJ5OTY3Q2dZcWt6N2hjWkRTZ08zdC1YcXcyd1g0N2pDLXp6MEZKSU1ubFZYYy0zMVpHNUZKa1ZIM3dJR0ZyZ251emhOQ0NMeGRPSXFvb0J1OWhZcmw4eGc2SUpURE9LVEE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPNTJoNDVwWEF5bkhtWElPeWFHaHVHZTJTT09aQ3dUNjVsY00xSFpsZmJmZHdUMlIzZ3dPVDRGOEN3YklrQi1fczdqM0hfaTJ5NGItd3RLQUQyTE1pUy1VWlMwUnI3b2d0Q0xyeTk2N0NnWXFrejdoY1pEU2dPM3QtWHF3MndYNDdqQy16ejBGSklNbmxWWGMtMzFaRzVGSmtWSDN3SUdGcmdudXpoTkNDTHhkT0lxb29CdTloWXJsOHhnNklKVERPS1RB0gHKAUFVX3lxTE81Mmg0NXBYQXluSG1YSU95YUdodUdlMlNPT1pDd1Q2NWxjTTFIWmxmYmZkd1QyUjNnd09UNEY4Q3diSWtCLV9zN2ozSF9pMnk0Yi13dEtBRDJMTWlTLVVaUzBScjdvZ3RDTHJ5OTY3Q2dZcWt6N2hjWkRTZ08zdC1YcXcyd1g0N2pDLXp6MEZKSU1ubFZYYy0zMVpHNUZKa1ZIM3dJR0ZyZ251emhOQ0NMeGRPSXFvb0J1OWhZcmw4eGc2SUpURE9LVEE?oc=5
+summary: Is Salesforce (CRM) Undervalued As Its AI Narrative Meets Real Competitive Risks? simplywall.st
+first_seen: '2026-09-24T11:08:02Z'
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPNTJoNDVwWEF5bkhtWElPeWFHaHVHZTJTT09aQ3dUNjVsY00xSFpsZmJmZHdUMlIzZ3dPVDRGOEN3YklrQi1fczdqM0hfaTJ5NGItd3RLQUQyTE1pUy1VWlMwUnI3b2d0Q0xyeTk2N0NnWXFrejdoY1pEU2dPM3QtWHF3MndYNDdqQy16ejBGSklNbmxWWGMtMzFaRzVGSmtWSDN3SUdGcmdudXpoTkNDTHhkT0lxb29CdTloWXJsOHhnNklKVERPS1RB0gHKAUFVX3lxTE81Mmg0NXBYQXluSG1YSU95YUdodUdlMlNPT1pDd1Q2NWxjTTFIWmxmYmZkd1QyUjNnd09UNEY4Q3diSWtCLV9zN2ozSF9pMnk0Yi13dEtBRDJMTWlTLVVaUzBScjdvZ3RDTHJ5OTY3Q2dZcWt6N2hjWkRTZ08zdC1YcXcyd1g0N2pDLXp6MEZKSU1ubFZYYy0zMVpHNUZKa1ZIM3dJR0ZyZ251emhOQ0NMeGRPSXFvb0J1OWhZcmw4eGc2SUpURE9LVEE?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+---
+
+# Is Salesforce (CRM) Undervalued As Its AI Narrative Meets Real Competitive Risks?
+
+Is Salesforce (CRM) Undervalued As Its AI Narrative Meets Real Competitive Risks? simplywall.st
+
+## 笔记
+
+

@@ -31,17 +31,17 @@ url: https://www.forensicdbg.com
 canonical_url: https://forensicdbg.com
 summary: I built a post-mortem debugger for native Windows x64/x86 crashes
 first_seen: '2026-09-23T19:15:55Z'
-last_seen: '2026-09-24T00:30:46Z'
+last_seen: '2026-09-25T00:33:43Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.forensicdbg.com
-  seen_at: '2026-09-24T00:30:46Z'
+  seen_at: '2026-09-25T00:33:43Z'
   metrics:
-    points: 24
-    comments: 4
+    points: 36
+    comments: 7
   kind: product
 ---
 

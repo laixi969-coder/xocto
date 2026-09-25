@@ -23,14 +23,19 @@ url: https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches
 canonical_url: https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead
 summary: The president offered few details on what his proposed new AI Force would do.
 first_seen: '2026-09-21T15:37:56Z'
-last_seen: '2026-09-22T00:50:51Z'
-status: market_context
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/
   seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/24/estonian-defence-forces-sign-three-year-defence-tech-partnership-with-archangel/
+  seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
   kind: news
 ---

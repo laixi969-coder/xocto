@@ -168,3 +168,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 Laravel 后端工程师在合并 AI 代理提交的代码前，对 diff 做规则化静态检查并自动修复'
+- id: ev-e3d410179ff134ba
+  project_slug: sloppy
+  url: https://github.com/Heyosseus/sloppy
+  title: sloppy
+  published_at: '2026-09-10T07:41:59Z'
+  collected_at: '2026-09-25T00:33:47Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Laravel-aware static analysis for the debt AI coding agents leave behind. 24 rules, git-diff
+    review, a Rector and Pint fix pass, Pest expectations, CI annotations, agent rulesets and an MCP server.
+    Deterministic, local, no LLM. | repository stars: 71'

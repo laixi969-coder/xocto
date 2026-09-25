@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZVkVaeW5pbVZkeFl0Z2djYl
 canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZVkVaeW5pbVZkeFl0Z2djYlpFbk9hbUlqNS1ZSXNtUU5RQzRNcEJJZXE4SXhweFo4V05KemtZSzAtZjlZc2FYWDFBSFpNZWZCeWgxM0puZ3kwbGNzdUhQdzFxbFl1RDRZSDU0RmhYS2I1OW16R2hJcw?oc=5
 summary: 前商汤骨干AI创业，融资约2亿！ 新浪财经
 first_seen: '2026-09-23T13:04:00Z'
-last_seen: '2026-09-24T00:31:52Z'
-status: rejected
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZVkVaeW5pbVZkeFl0Z2djYlpFbk9hbUlqNS1ZSXNtUU5RQzRNcEJJZXE4SXhweFo4V05KemtZSzAtZjlZc2FYWDFBSFpNZWZCeWgxM0puZ3kwbGNzdUhQdzFxbFl1RDRZSDU0RmhYS2I1OW16R2hJcw?oc=5
   seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE50Z0JScEo2djhHa0Y0R2JPblEwcWZwOHpOQnRocHAwQ0Y5eGt5YzVIcWk4MEtsWWZwSG9adUxwblZqbGRYWnc?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

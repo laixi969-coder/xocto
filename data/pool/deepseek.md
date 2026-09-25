@@ -42,8 +42,8 @@ url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-09-24T00:31:16Z'
-status: queued
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - aicpb
 - newssearch
@@ -76,6 +76,26 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/496393.html
   seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/496925.html
+  seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeGU1QmdBMDNLUDlJNzByUU1LUWFCNHBodFQxdHN1WTk5RWo3NzdRMjNQVGlBYW1FN1laWVNtbVgxbXBrd3BnckFrZFgzRDZhSXYwb2xRYWlxMWV5alZZa1E5dDZNdDdkUTJMU1RVd3ZXWUpPU0s2aGY0MXBvSXNaZVZJTmxYNU5ENlh5c3RuUGNzMUFDZkl0aW03T1dFeWpEZnUtdmlsdm5va3Z4S00ybEtZSm91NWFjZEx3d1M5T2V2M3M?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JRmlDeGJXdkdua1YyVXZjTFlDbF9IQ3ZVQU41a3FZWjNOVDlmalZZeGxHNk85eTJsVk1Ka0tFcnRQM0ZBcURfOHhnSzZLOVZjaWdUYjFB?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYzMwbmlhVWxCa3FnN2NWMkhzMUYxWmVVdFZLUnRXRHJXQlRYVVBJeFhQMzdZV000UFJHWlZzNjNmWGtGQnFMaTJ4WU4zTFY2dFNBcHZOQi0tSGM3eHZnSUFJc2wtWGJOODlnRElaUUxEcXppWXRVRDdyVVBDNUtvLTVyMU9tMVhv?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

@@ -1,0 +1,15 @@
+- id: ev-83ded9883252e77a
+  project_slug: a-practical-recipe-for-semi-supervised-federated-asr-online
+  url: https://machinelearning.apple.com/research/practical-recipe-federated-asr
+  title: 'A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update
+    Stabilization'
+  published_at: '2026-09-24T00:00:00Z'
+  collected_at: '2026-09-25T00:34:09Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher
+    to generate pseudo-labels, with a small labeled seed dataset on the server. Automatic Speech Recognition
+    (ASR) is particularly fragile here: pseudo-label errors compound across the output sequence and across
+    training rounds into divergence, leaving a large gap to fully-supervised FL. We show that closing
+    this gap turns on two coupled design axes—the teacher (which model generates the pseudo-labels) and
+    the anchor (the server-side updates on labeled data that stabilize training). On the teacher…'

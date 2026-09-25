@@ -35,16 +35,16 @@ canonical_url: https://github.com/krmisystems/fantasy-football-manager
 summary: ESPN draft and lineup tools for Codex and other MCP clients, with browser sign-in, approval modes,
   per-team limits, and server monitoring.
 first_seen: '2026-09-08T02:55:36Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/krmisystems/fantasy-football-manager
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 89
+    stars: 91
     forks: 61
     open_issues: 0
   kind: product

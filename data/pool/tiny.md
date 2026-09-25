@@ -34,8 +34,8 @@ url: https://tiny.opencreators.ai
 canonical_url: https://tiny.opencreators.ai
 summary: Find your next client on X
 first_seen: '2026-09-10T02:18:33Z'
-last_seen: '2026-09-18T00:20:10Z'
-status: rejected
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -61,6 +61,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/
   seen_at: '2026-09-18T00:20:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBnTUd1NVRXenN6MEg1RWlLdUpHV0RUdGZSQkp0WWhpTGRmVWs3bWFaMVpFM2tDb2tIRnIycXZ2alJZZjNtNzM0Z3dZVW51T2JzWExaQ0xaUXZvbWhhVVloWTJjd2tsajhoSWFoVEVIVnk?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

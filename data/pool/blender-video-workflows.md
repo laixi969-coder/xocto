@@ -34,16 +34,16 @@ url: https://github.com/modengsir/blender-video-workflows
 canonical_url: https://github.com/modengsir/blender-video-workflows
 summary: 两套 Codex + Blender 工作流：参考视频复刻与原创白模动画 → 提示词 → AI 视频生成
 first_seen: '2026-09-20T01:34:31Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/modengsir/blender-video-workflows
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 64
+    stars: 67
     forks: 9
     open_issues: 0
   kind: product

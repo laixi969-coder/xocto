@@ -201,3 +201,23 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者在提交代码前，让 AI 编码代理对改动做分阶段质量评审并查看本地看板结果'
+- id: ev-3f94692eb0404951
+  project_slug: jev-review
+  url: https://github.com/NiazMorshed2007/jev-review
+  title: jev-review
+  published_at: '2026-09-17T05:24:51Z'
+  collected_at: '2026-09-25T00:33:47Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Local-first MCP plugin for continuous software-quality review by AI coding agents, powered by
+    Jev. | repository stars: 221'
+- id: ev-cdb5915d1e710614
+  project_slug: jev-review
+  url: https://github.com/devagrawal09/jev-review
+  title: jev-review
+  published_at: '2026-09-16T21:45:36Z'
+  collected_at: '2026-09-25T00:33:47Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A staged code-review workflow and local dashboard built with TypeSafe Jev. | repository stars:
+    599'

@@ -20,7 +20,7 @@ url: https://www.producthunt.com/products/threadport
 canonical_url: https://producthunt.com/products/threadport
 summary: Move AI chats between ChatGPT, Claude & Gemini in one click
 first_seen: '2026-08-12T19:57:51Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: rejected
 sources:
 - producthunt
@@ -33,9 +33,9 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/Frankie-Xu/threadport
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 98
+    stars: 115
     forks: 2
     open_issues: 7
   kind: product

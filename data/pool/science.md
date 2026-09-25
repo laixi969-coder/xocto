@@ -20,8 +20,8 @@ url: https://www.science.org/content/article/how-ai-math-breakthrough-ignited-co
 canonical_url: https://science.org/content/article/how-ai-math-breakthrough-ignited-controversy
 summary: How An AI math breakthrough ignited a controversy
 first_seen: '2026-09-09T10:25:41Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: rejected
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -69,6 +69,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJeXVnRmYybFU1bGVwVTN0ZVlBWlZqVkY3OUs3MWZhWEV2ZzNEVVRNTldHVVFzWFQteW1MYU1IR1pCN3Z6Njh4b0NkRF9fNXlCQmlDZkVKcGVsRkd0MTU0Uw?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/foundries-vs-navigators-lowering
+  seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
   kind: news
 ---

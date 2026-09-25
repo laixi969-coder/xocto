@@ -40,3 +40,43 @@
   usage_reason_en: 'Inference: compared with manual paging, it lets an AI assistant call a read-only interface
     to retrieve and compare, removing the step of opening each ad and copying prices, so people who repeatedly
     search the same platform are likely to try it first.'
+- id: req-initial-divar-mcp-2026-09-25
+  project_slug: divar-mcp
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“面向在 Divar 上找房或找二手货的人：他们把原本要逐条翻看的分类广告交给 AI 助手，由它调用只读接口完成搜索、对比和分析，用户拿到的是筛选后的候选清单；具体筛选口径和交付形式”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 65 个收藏、4 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 购房者或租客在挑选房源时，把 Divar 上的分类广告交给 AI 助手做搜索、比价和筛选、房产中介在为客户找房时，用 AI 助手批量检索并对比 Divar 上的挂牌信息
+  job_en: Home buyers or renters hand Divar classified ads to an AI assistant to search, compare and shortlist
+    listings, Real estate agents use an AI assistant to bulk-retrieve and compare Divar listings for clients
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：购房者或租客在挑选房源时，把 Divar 上的分类广告交给 AI 助手做搜索、比价和筛选、房产中介在为客户找房时，用 AI 助手批量检索并对比 Divar
+    上的挂牌信息；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Home buyers or renters hand Divar classified ads to an AI assistant to
+    search, compare and shortlist listings, Real estate agents use an AI assistant to bulk-retrieve and
+    compare Divar listings for clients Public materials do not yet explain why users choose this product
+    over their existing approach.'

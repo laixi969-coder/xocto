@@ -43,17 +43,17 @@ summary: 面向 Codex、Claude Code 等 AI Agent 的医学绘图 Skill，基于�
   medical illustration, comics and research figures for Codex, Claude Code and other AI agents, with editable
   output and review records.
 first_seen: '2026-09-06T15:14:00Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wilbert-MD-PhD/medical-illustration
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 110
-    forks: 8
+    stars: 116
+    forks: 9
     open_issues: 0
   kind: product
 ---

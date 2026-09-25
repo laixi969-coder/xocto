@@ -96,3 +96,14 @@
   tier: independent
   fact: Use Meta AI assistant to get things done, create AI-generated images for free, and get answers
     to any of your questions.
+- id: ev-2a78eb2fe373e646
+  project_slug: commit-rewriter-01
+  url: https://simonwillison.net/2026/Sep/24/commit-rewriter/
+  title: commit-rewriter 0.2
+  published_at: '2026-09-24T20:06:53Z'
+  collected_at: '2026-09-25T00:34:10Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Release:   commit-rewriter 0.2  \n         \n Support for branches other than the default branch.\
+    \ Use  uvx commit-rewriter --branch other  to run against another branch.  #3  \n \n    \n    \n \
+    \        Tags:  git"

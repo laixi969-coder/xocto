@@ -37,17 +37,17 @@ summary: AiNxt OS is an open foundation for building and running AI applications
   the core building blocks for connecting AI models, tools and workflows, giving developers the flexibility
   to build AI solutions using the technologies and models they choose.
 first_seen: '2026-09-08T16:54:11Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/npci/ainxt-os
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
     stars: 44
-    forks: 40
+    forks: 41
     open_issues: 5
   kind: product
 ---

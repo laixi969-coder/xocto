@@ -20,8 +20,8 @@ url: https://news.ycombinator.com/item?id=49802005
 canonical_url: https://news.ycombinator.com/item?id=49802005
 summary: my Hacker News mobile client now lets you block AI posts
 first_seen: '2026-09-22T14:33:50Z'
-last_seen: '2026-09-24T00:30:46Z'
-status: rejected
+last_seen: '2026-09-25T00:33:43Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -32,6 +32,13 @@ sightings:
     points: 9
     comments: 3
   kind: product
+- source: hackernews
+  url: https://transluce.org/agent-activity
+  seen_at: '2026-09-25T00:33:43Z'
+  metrics:
+    points: 239
+    comments: 227
+  kind: news
 ---
 
 # Hack

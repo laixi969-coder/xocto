@@ -22,8 +22,8 @@ canonical_url: https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joinin
 summary: At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the
   community for the past few years, presented by Google for Startups.
 first_seen: '2026-08-27T23:16:45Z'
-last_seen: '2026-09-24T00:31:16Z'
-status: rejected
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
@@ -50,6 +50,16 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/
   seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it/
+  seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/24/2-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-7-to-attend/
+  seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
   kind: news
 ---

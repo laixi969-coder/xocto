@@ -30,8 +30,8 @@ url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
-last_seen: '2026-09-21T00:17:16Z'
-status: rejected
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -79,6 +79,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar
   seen_at: '2026-09-21T00:17:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/new-york-podcast/
+  seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
   kind: news
 ---

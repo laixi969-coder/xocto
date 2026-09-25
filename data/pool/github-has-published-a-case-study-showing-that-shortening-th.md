@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-24T00:30:46Z'
+last_seen: '2026-09-25T00:33:41Z'
 status: rejected
 sources:
 - newssearch
@@ -106,6 +106,12 @@ sightings:
     points: 234
     comments: 121
   kind: news
+- source: v2ex
+  url: https://github.com/seekskyworld/openapp
+  seen_at: '2026-09-25T00:33:41Z'
+  metrics:
+    comments: 3
+  kind: product
 ---
 
 # GitHub

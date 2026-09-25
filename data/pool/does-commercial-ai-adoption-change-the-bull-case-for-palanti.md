@@ -1,0 +1,41 @@
+---
+slug: does-commercial-ai-adoption-change-the-bull-case-for-palanti
+name: Does Commercial AI Adoption Change The Bull Case For Palantir (PLTR)?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ1hGTmllendPYUFUTjlLazdiY0FnOEN6aUJKSGxMX042T0xfZnFySEZUZ1dCdHVIMG96cHFlLUFKaXlScGxiTVNnY1V0cTlPTE5IOEZueGFvM2lscGVjN1FXZTFQX0oxZWFJb2NkRWRjd0ZlYUdWUnltTlk3REQ5c2FJYTRrZ2hpSnE0S19QWHQ5N0duTWlDVi1JajgxbWRDc1FrOWVEZjFzdG1MWklUeGFHSDJ2cWNnSzEteXFabHYzVXp3UWRCWVZLbnJROWY5eHdndzNqRU54bXdo0gHcAUFVX3lxTFBnWEZOaWV6d09hQVROOUtrN2JjQWc4Q3ppQkpIbExfTjZPTF9mcXJIRlRnV0J0dUgwb3pwcWUtQUppeVJwbGJNU2djVXRxOU9MTkg4Rm54YW8zaWxwZWM3UVdlMVBfSjFlYUlvY2RFZGN3RmVhR1ZSeW1OWTdERDlzYUlhNGtnaGlKcTRLX1BYdDk3R25NaUNWLUlqODFtZENzUWs5ZURmMXN0bUxaSVR4YUdIMnZxY2dLMS15cVpsdjNVendRZEJZVktuclE5Zjl4d2d3M2pFTnhtd2g?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ1hGTmllendPYUFUTjlLazdiY0FnOEN6aUJKSGxMX042T0xfZnFySEZUZ1dCdHVIMG96cHFlLUFKaXlScGxiTVNnY1V0cTlPTE5IOEZueGFvM2lscGVjN1FXZTFQX0oxZWFJb2NkRWRjd0ZlYUdWUnltTlk3REQ5c2FJYTRrZ2hpSnE0S19QWHQ5N0duTWlDVi1JajgxbWRDc1FrOWVEZjFzdG1MWklUeGFHSDJ2cWNnSzEteXFabHYzVXp3UWRCWVZLbnJROWY5eHdndzNqRU54bXdo0gHcAUFVX3lxTFBnWEZOaWV6d09hQVROOUtrN2JjQWc4Q3ppQkpIbExfTjZPTF9mcXJIRlRnV0J0dUgwb3pwcWUtQUppeVJwbGJNU2djVXRxOU9MTkg4Rm54YW8zaWxwZWM3UVdlMVBfSjFlYUlvY2RFZGN3RmVhR1ZSeW1OWTdERDlzYUlhNGtnaGlKcTRLX1BYdDk3R25NaUNWLUlqODFtZENzUWs5ZURmMXN0bUxaSVR4YUdIMnZxY2dLMS15cVpsdjNVendRZEJZVktuclE5Zjl4d2d3M2pFTnhtd2g?oc=5
+summary: Does Commercial AI Adoption Change The Bull Case For Palantir (PLTR)? simplywall.st
+first_seen: '2026-09-24T09:57:08Z'
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ1hGTmllendPYUFUTjlLazdiY0FnOEN6aUJKSGxMX042T0xfZnFySEZUZ1dCdHVIMG96cHFlLUFKaXlScGxiTVNnY1V0cTlPTE5IOEZueGFvM2lscGVjN1FXZTFQX0oxZWFJb2NkRWRjd0ZlYUdWUnltTlk3REQ5c2FJYTRrZ2hpSnE0S19QWHQ5N0duTWlDVi1JajgxbWRDc1FrOWVEZjFzdG1MWklUeGFHSDJ2cWNnSzEteXFabHYzVXp3UWRCWVZLbnJROWY5eHdndzNqRU54bXdo0gHcAUFVX3lxTFBnWEZOaWV6d09hQVROOUtrN2JjQWc4Q3ppQkpIbExfTjZPTF9mcXJIRlRnV0J0dUgwb3pwcWUtQUppeVJwbGJNU2djVXRxOU9MTkg4Rm54YW8zaWxwZWM3UVdlMVBfSjFlYUlvY2RFZGN3RmVhR1ZSeW1OWTdERDlzYUlhNGtnaGlKcTRLX1BYdDk3R25NaUNWLUlqODFtZENzUWs5ZURmMXN0bUxaSVR4YUdIMnZxY2dLMS15cVpsdjNVendRZEJZVktuclE5Zjl4d2d3M2pFTnhtd2g?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+---
+
+# Does Commercial AI Adoption Change The Bull Case For Palantir (PLTR)?
+
+Does Commercial AI Adoption Change The Bull Case For Palantir (PLTR)? simplywall.st
+
+## 笔记
+
+

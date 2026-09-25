@@ -29,11 +29,12 @@ url: https://grep.codemod.com/
 canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: watching
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://grep.codemod.com/
@@ -77,6 +78,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQWUFtN3pvYUpxN21tVlNuQTZiZWcyNVpnT01TLXNvQUtEeExpQ01qdkRnLW9RUWMyWnBubWZmMWZ5UU9WR01LOHdVSlU5MG1NMmM0aXd3ZVhEazdWbkxvb3R5X1ZMdFl3ay1fUWxLXzQ2WDctT1dIVUI0aU9sbjFhRW5xU2c1cVhXenRRTmlR?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/
+  seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
   kind: news
 ---

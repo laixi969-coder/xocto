@@ -1,0 +1,41 @@
+---
+slug: ai-can-personalise-insurance-but-trust-still-needs-a-human-t
+name: 'AI can personalise insurance, but trust still needs a human touch: Alok Rungta'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxORTdjcWs4S0NEWjA1Njc2ZGtPd0Q3bGtZMXN4M1g5V2tMTzh6cWExNmQ1WUpCem42TFV1S3JPUmtnbEotR0NnZ0VHZ0JqVzRTSWo2NlVtVVVQM2d2dmstWmNMb290cHpQQ3h1QVVENDM4MlBZQUNtYmw0eUVQeVdJcHZTQ0c5ajJlODNIWl9UOU9keE9pd3JubmZkZUZ1V2llQzgtb29XTUFfM1FkV25IUVBjM1FvRDV0YUJVV2swRUh5T2NUV0s1eEdYbENXb3hEbzcxU3ctNTBHS0I5bE83YTVnNVFMZFkzT2fSAeoBQVVfeXFMTkU3Y3FrOEtDRFowNTY3NmRrT3dEN2xrWTFzeDNYOVdrTE84enFhMTZkNVlKQnpuNkxVdUtyT1JrZ2xKLUdDZ2dFR2dCalc0U0lqNjZVbVVVUDNndnZrLVpjTG9vdHB6UEN4dUFVRDQzODJQWUFDbWJsNHlFUHlXSXB2U0NHOWoyZTgzSFpfVDlPZHhPaXdybm5mZGVGdVdpZUM4LW9vV01BXzNRZFduSFFQYzNRb0Q1dGFCVVdrMEVIeU9jVFdLNXhHWGxDV294RG83MVN3LTUwR0tCOWxPN2E1ZzVRTGRZM09n?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxORTdjcWs4S0NEWjA1Njc2ZGtPd0Q3bGtZMXN4M1g5V2tMTzh6cWExNmQ1WUpCem42TFV1S3JPUmtnbEotR0NnZ0VHZ0JqVzRTSWo2NlVtVVVQM2d2dmstWmNMb290cHpQQ3h1QVVENDM4MlBZQUNtYmw0eUVQeVdJcHZTQ0c5ajJlODNIWl9UOU9keE9pd3JubmZkZUZ1V2llQzgtb29XTUFfM1FkV25IUVBjM1FvRDV0YUJVV2swRUh5T2NUV0s1eEdYbENXb3hEbzcxU3ctNTBHS0I5bE83YTVnNVFMZFkzT2fSAeoBQVVfeXFMTkU3Y3FrOEtDRFowNTY3NmRrT3dEN2xrWTFzeDNYOVdrTE84enFhMTZkNVlKQnpuNkxVdUtyT1JrZ2xKLUdDZ2dFR2dCalc0U0lqNjZVbVVVUDNndnZrLVpjTG9vdHB6UEN4dUFVRDQzODJQWUFDbWJsNHlFUHlXSXB2U0NHOWoyZTgzSFpfVDlPZHhPaXdybm5mZGVGdVdpZUM4LW9vV01BXzNRZFduSFFQYzNRb0Q1dGFCVVdrMEVIeU9jVFdLNXhHWGxDV294RG83MVN3LTUwR0tCOWxPN2E1ZzVRTGRZM09n?oc=5
+summary: 'AI can personalise insurance, but trust still needs a human touch: Alok Rungta brandequity.economictimes.indiatimes.com'
+first_seen: '2026-09-24T07:28:01Z'
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxORTdjcWs4S0NEWjA1Njc2ZGtPd0Q3bGtZMXN4M1g5V2tMTzh6cWExNmQ1WUpCem42TFV1S3JPUmtnbEotR0NnZ0VHZ0JqVzRTSWo2NlVtVVVQM2d2dmstWmNMb290cHpQQ3h1QVVENDM4MlBZQUNtYmw0eUVQeVdJcHZTQ0c5ajJlODNIWl9UOU9keE9pd3JubmZkZUZ1V2llQzgtb29XTUFfM1FkV25IUVBjM1FvRDV0YUJVV2swRUh5T2NUV0s1eEdYbENXb3hEbzcxU3ctNTBHS0I5bE83YTVnNVFMZFkzT2fSAeoBQVVfeXFMTkU3Y3FrOEtDRFowNTY3NmRrT3dEN2xrWTFzeDNYOVdrTE84enFhMTZkNVlKQnpuNkxVdUtyT1JrZ2xKLUdDZ2dFR2dCalc0U0lqNjZVbVVVUDNndnZrLVpjTG9vdHB6UEN4dUFVRDQzODJQWUFDbWJsNHlFUHlXSXB2U0NHOWoyZTgzSFpfVDlPZHhPaXdybm5mZGVGdVdpZUM4LW9vV01BXzNRZFduSFFQYzNRb0Q1dGFCVVdrMEVIeU9jVFdLNXhHWGxDV294RG83MVN3LTUwR0tCOWxPN2E1ZzVRTGRZM09n?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+---
+
+# AI can personalise insurance, but trust still needs a human touch: Alok Rungta
+
+AI can personalise insurance, but trust still needs a human touch: Alok Rungta brandequity.economictimes.indiatimes.com
+
+## 笔记
+
+

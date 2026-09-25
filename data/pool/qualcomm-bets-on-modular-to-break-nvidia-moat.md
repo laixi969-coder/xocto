@@ -24,8 +24,8 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPZnlsaWo3TEVZZFV1aXZBRU
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPZnlsaWo3TEVZZFV1aXZBRUUxVEhPY3JvbmJoZkpXS3JPQzM2XzBQNnRCOWROTVRlbUFwQjdMMnV0VUxUQTg0by1rdC0zSnJLcE9yN0NPQmFod3ZpT0dBR09Ca1pBTmEwZGM1QjhKYk4wM3Z0UmxPNEhfOXFBR25WOWh1V1dNM1hMcWJkeUlNWnFBUQ?oc=5
 summary: Qualcomm Bets on Modular to Break Nvidia Moat EE Times
 first_seen: '2026-08-27T18:13:31Z'
-last_seen: '2026-09-24T00:30:46Z'
-status: market_context
+last_seen: '2026-09-25T00:33:43Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
@@ -37,10 +37,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux
-  seen_at: '2026-09-24T00:30:46Z'
+  seen_at: '2026-09-25T00:33:43Z'
   metrics:
-    points: 91
-    comments: 41
+    points: 590
+    comments: 248
   kind: news
 ---
 

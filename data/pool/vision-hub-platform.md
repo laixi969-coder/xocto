@@ -39,16 +39,16 @@ summary: Build visual detection tasks fast with an open-source platform. Connect
   and heterogeneous vision models; define algorithms with prompts; configure frame sampling and detection
   regions; and manage alerts. Everything you need to put visual AI to work, in one place.
 first_seen: '2026-09-09T06:32:45Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zj-unicom-ai/vision-hub-platform
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 113
+    stars: 126
     forks: 3
     open_issues: 0
   kind: product

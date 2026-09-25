@@ -26,8 +26,8 @@ url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from
 canonical_url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from
 summary: I'm sorry, you're not going to die from an AI-engineered supervirus
 first_seen: '2026-09-10T01:02:44Z'
-last_seen: '2026-09-24T00:31:16Z'
-status: market_context
+last_seen: '2026-09-25T00:33:43Z'
+status: pending_filter
 sources:
 - hackernews
 - officialfeeds
@@ -56,10 +56,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/
-  seen_at: '2026-09-24T00:30:46Z'
+  seen_at: '2026-09-25T00:33:43Z'
   metrics:
-    points: 246
-    comments: 118
+    points: 326
+    comments: 146
   kind: news
 - source: officialfeeds
   url: https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/

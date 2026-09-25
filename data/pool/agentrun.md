@@ -26,17 +26,17 @@ url: https://github.com/Parcha-ai/agentrun
 canonical_url: https://github.com/Parcha-ai/agentrun
 summary: DSL to turn agents into Workflows
 first_seen: '2026-09-23T19:42:58Z'
-last_seen: '2026-09-24T00:30:46Z'
+last_seen: '2026-09-25T00:33:43Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Parcha-ai/agentrun
-  seen_at: '2026-09-24T00:30:46Z'
+  seen_at: '2026-09-25T00:33:43Z'
   metrics:
-    points: 8
-    comments: 0
+    points: 39
+    comments: 7
   kind: product
 ---
 

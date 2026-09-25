@@ -35,18 +35,18 @@ canonical_url: https://codecrafter.dev
 summary: MCP server that watches video footage and returns license-safe BGM matches, hook windows, and
   ffmpeg ducking specs for agents.
 first_seen: '2026-09-10T05:26:25Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.codecrafter.dev/
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 100
+    stars: 108
     forks: 0
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

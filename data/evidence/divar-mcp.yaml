@@ -18,3 +18,13 @@
   tier: independent
   fact: 'Public-material coverage query for zh: AI 房地产 二手交易 购房者或租客在挑选房源时，把 Divar 上的分类广告交给 AI 助手做搜索、比价和筛选
     房产中介在为客户找房时，用 AI 助手批量检索并对比 Divar 上的挂牌信息'
+- id: ev-1b36aff01df76fc6
+  project_slug: divar-mcp
+  url: https://divar-mcp.mmdju2.workers.dev
+  title: divar-mcp
+  published_at: '2026-09-18T02:14:13Z'
+  collected_at: '2026-09-25T00:33:47Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'MCP server for Divar — search, compare and analyze classified ads. Read-only, no API key. | repository
+    stars: 65'

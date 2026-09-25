@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-24T00:31:16Z'
-status: rejected
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -320,6 +320,16 @@ sightings:
 - source: officialfeeds
   url: https://openai.com/index/introducing-mentalhealthbench
   seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOUzRueEE0NHg2OWpiaWdSLWREVkhpQ3dteVZnY05KMzc5UmRsbks2X2ZaRXA0bHJ2dmVoSDVhSlRkQ3FuVjEycEJMaXB6djVKSktRdWVGN3FlZ0F5Zmg3MktFQjN1VXBPenROZlJSNWpTeUFHS2FCemx3QUNxcHlzb0ZKdlplTWRhSW53MVMxWTZTMi1iTGVRdFhEWEdrbEFkTDNYakNYMA?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzVFdhN216Z2dKSzIxY1J1dDhBRkFudTktMm5MZXBWdHRXRmIxYTJGeU80aEZSU2FubFJmRlNYaWdhOWlkV255LVBaMHNPTU5uUlJzZ2lVcDV2dVc4N1RCU09GQW5KZFRD?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

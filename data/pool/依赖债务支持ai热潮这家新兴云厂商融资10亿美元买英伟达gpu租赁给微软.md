@@ -23,8 +23,8 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZdlBnMTRFazJ0UEE5Y0ZLQk
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZdlBnMTRFazJ0UEE5Y0ZLQktxTXBJMldjanZpMlVDM2hLLU83bjhFbzV4MlhPcElrRHphYjlROFhPLXh2YS1EVGwzODA5RFhuT1VabmhQc1hMTVFXcXFLOQ?oc=5
 summary: 依赖债务支持AI热潮？这家新兴云厂商融资10亿美元，买英伟达GPU租赁给微软 thepaper.cn
 first_seen: '2026-08-31T10:03:00Z'
-last_seen: '2026-09-18T00:20:29Z'
-status: market_context
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -36,6 +36,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Db3hfTDZHZXlxYmNSQ2VpT0dneGRIZVBsQmtNZTY1Y1R6WkxyWkV1ejBLbm4ySDVUNXdDTFAtQnZGeVFVZVdOeFd4Z2M1a2JaeTEw?oc=5
   seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qaEJlOXd0V01NTmJZN29EaGo1ZlM1ckVhS3ZiekNpcHAtLWxrZUIyc0VoSFh0Qm10aWtKTnBXNEpNZWFOa0lNem84S1hmTlp0NjZr?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

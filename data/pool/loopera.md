@@ -35,17 +35,17 @@ canonical_url: https://loopera.cn
 summary: 面向基本面因子研究的智能体-A hypothesis-driven AI agent for fundamental factor research, with evidence-gated
   validation and research memory.
 first_seen: '2026-09-08T13:46:05Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://loopera.cn
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 267
-    forks: 48
+    stars: 310
+    forks: 55
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,12 @@
+- id: ev-34fcb4f6b2af394e
+  project_slug: build-a-multi-account-ai-agent-with-agentcore-gateway-and-mc
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/
+  title: Build a multi-account AI agent with AgentCore Gateway and MCP
+  published_at: '2026-09-24T16:12:47Z'
+  collected_at: '2026-09-25T00:34:09Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Build a multi-account architecture that keeps each team's data in its own AWS account while giving
+    AI agents a unified way to query across them. A central platform account runs the agent using Amazon
+    Bedrock AgentCore Gateway and MCP, while line-of-business accounts expose their data as MCP servers
+    with secure cross-account access and fine-grained authorization.

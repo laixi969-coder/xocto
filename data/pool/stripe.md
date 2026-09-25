@@ -20,17 +20,23 @@ url: https://stripe.dev/blog/meet-stripes-knowledge-ai-platform
 canonical_url: https://stripe.dev/blog/meet-stripes-knowledge-ai-platform
 summary: Stripe's Knowledge AI Platform
 first_seen: '2026-09-23T13:38:00Z'
-last_seen: '2026-09-24T00:30:46Z'
+last_seen: '2026-09-25T00:34:10Z'
 status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://stripe.dev/blog/meet-stripes-knowledge-ai-platform
-  seen_at: '2026-09-24T00:30:46Z'
+  seen_at: '2026-09-25T00:33:43Z'
   metrics:
-    points: 172
-    comments: 108
+    points: 183
+    comments: 113
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/496779.html
+  seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
   kind: news
 ---
 

@@ -22,8 +22,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-09-24T00:31:52Z'
-status: rejected
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -131,6 +131,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNMVJJWjZpV2tvQ0ltWXNJWDV1em1PemNxUjBVSUJxTmtIbzZ0bExidGdlQi1uR3VTcUV6MUJtWHZoV21QTVVXYXZIMm1xNnMwZ3RsUUdlMGZ3bGtQbDVleWh0Y3hTYjBKN2c2MGxmc3k1RzMzbzZKaEYzaFJtanZtV1pYM0czX3o0UFN1bWdFM3VBRDhoMWUtVllfc0thdU1sZTNjb2pSTXVjRWpYejl3?oc=5
   seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmlBOGF2YlY3cWZ0dXBrNWU2WV8yMGtJVjFCRUx2eUs3b0NNTzBsenpyOEloaVppUlpMOGxOMWtRX3BJYkcxbV9mZ1d5VzZLMmMzM1RNcXUycnRRTGpKV21FT3dJVkpuYTdQeEdJbzgwdUpJcV9kMEVwbkN3VDZKUVV1RlNEVVI5ZGN4eA?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjcm56dnk4ZkNjUzExUkFyenl6aGV0MnlIQ194ZUJ5bTFhNkVBSlE5bkFmdWVrNmhUbFlXNWtrVHZNRUxQQV9PeU41M2wxcTRUTzc2d3AxaGl6UDZheTFURWVDV1ZfME3SAWxBVV95cUxPRTRWeWZaQ1poNzU5cnVILW5oR1F0ZVZuWmQxRW1yQklXYjVSNm5vQW5VMmlVNVAxMG81Q3ZEU3ZNR3FabXBwNkFuc3BfQVdaQzNJWVdxeWdKbEhrbFlwTkdKc2E5QUlNOGhseGo?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6N0dhSlVqVkdpSGVhbE1UTFROdGRFdFlEU0ZrcU1CQWJhRGwzbHJkX2JDNmE3dEswbjRlWC1XRFRpYi0yUHQtLXJ6ZG9VYW8?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ISW8xWVJUQVQ4aVdrcDNNbmVIemhJbmQ4aGk0d292bmQyS29pWlpLWlo4NWZ6TkdXcmlfejNtbk5ibGJRV2hZYURqNlo2N3NsX0Vj?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

@@ -30,17 +30,17 @@ url: https://github.com/fidetolabs/qanat
 canonical_url: https://github.com/fidetolabs/qanat
 summary: Agent-native workflow engine for building and backtesting alphas as DAGs.
 first_seen: '2026-09-05T14:43:40Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/fidetolabs/qanat
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 246
-    forks: 47
+    stars: 249
+    forks: 48
     open_issues: 0
   kind: product
 ---

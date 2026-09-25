@@ -1,0 +1,41 @@
+---
+slug: autodesk-adsk-previews-unified-ai-assistant-across-products
+name: Autodesk (ADSK) Previews Unified AI Assistant Across Products, Projects And Teams
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxONVlkUGJ4VGFHNkpZT2phOUdKdzJYdktLNWttNi1YWGQ4NnNOcXBhM1JyRXhtUWxzVjdteURVd3JCY1Fvd3pCbGFvY2FuekRTSXRNWXlvOUdzUkhtUS1KeC1xY0pQS1R3MVR0RC1EV21RdWVMMnVyN1JwVzRibFV6T2RJOTlGX0RTSWV2U0loYUN1Q0NRNDVoM2lCWGMzZjRKbHdLLTVzVXQ3RmxDVFZ5cFJTRGhvZGpSakRGMDRmTERqeHk0bGVFUTdn0gHKAUFVX3lxTE41WWRQYnhUYUc2SllPamE5R0p3Mlh2S0s1a202LVhYZDg2c05xcGEzUnJFeG1RbHNWN215RFV3ckJjUW93ekJsYW9jYW56RFNJdE1ZeW85R3NSSG1RLUp4LXFjSlBLVHcxVHRELURXbVF1ZUwydXI3UnBXNGJsVXpPZEk5OUZfRFNJZXZTSWhhQ3VDQ1E0NWgzaUJYYzNmNEpsd0stNXNVdDdGbENUVnlwUlNEaG9kalJqREYwNGZMRGp4eTRsZUVRN2c?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxONVlkUGJ4VGFHNkpZT2phOUdKdzJYdktLNWttNi1YWGQ4NnNOcXBhM1JyRXhtUWxzVjdteURVd3JCY1Fvd3pCbGFvY2FuekRTSXRNWXlvOUdzUkhtUS1KeC1xY0pQS1R3MVR0RC1EV21RdWVMMnVyN1JwVzRibFV6T2RJOTlGX0RTSWV2U0loYUN1Q0NRNDVoM2lCWGMzZjRKbHdLLTVzVXQ3RmxDVFZ5cFJTRGhvZGpSakRGMDRmTERqeHk0bGVFUTdn0gHKAUFVX3lxTE41WWRQYnhUYUc2SllPamE5R0p3Mlh2S0s1a202LVhYZDg2c05xcGEzUnJFeG1RbHNWN215RFV3ckJjUW93ekJsYW9jYW56RFNJdE1ZeW85R3NSSG1RLUp4LXFjSlBLVHcxVHRELURXbVF1ZUwydXI3UnBXNGJsVXpPZEk5OUZfRFNJZXZTSWhhQ3VDQ1E0NWgzaUJYYzNmNEpsd0stNXNVdDdGbENUVnlwUlNEaG9kalJqREYwNGZMRGp4eTRsZUVRN2c?oc=5
+summary: Autodesk (ADSK) Previews Unified AI Assistant Across Products, Projects And Teams simplywall.st
+first_seen: '2026-09-24T02:30:09Z'
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxONVlkUGJ4VGFHNkpZT2phOUdKdzJYdktLNWttNi1YWGQ4NnNOcXBhM1JyRXhtUWxzVjdteURVd3JCY1Fvd3pCbGFvY2FuekRTSXRNWXlvOUdzUkhtUS1KeC1xY0pQS1R3MVR0RC1EV21RdWVMMnVyN1JwVzRibFV6T2RJOTlGX0RTSWV2U0loYUN1Q0NRNDVoM2lCWGMzZjRKbHdLLTVzVXQ3RmxDVFZ5cFJTRGhvZGpSakRGMDRmTERqeHk0bGVFUTdn0gHKAUFVX3lxTE41WWRQYnhUYUc2SllPamE5R0p3Mlh2S0s1a202LVhYZDg2c05xcGEzUnJFeG1RbHNWN215RFV3ckJjUW93ekJsYW9jYW56RFNJdE1ZeW85R3NSSG1RLUp4LXFjSlBLVHcxVHRELURXbVF1ZUwydXI3UnBXNGJsVXpPZEk5OUZfRFNJZXZTSWhhQ3VDQ1E0NWgzaUJYYzNmNEpsd0stNXNVdDdGbENUVnlwUlNEaG9kalJqREYwNGZMRGp4eTRsZUVRN2c?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+---
+
+# Autodesk (ADSK) Previews Unified AI Assistant Across Products, Projects And Teams
+
+Autodesk (ADSK) Previews Unified AI Assistant Across Products, Projects And Teams simplywall.st
+
+## 笔记
+
+

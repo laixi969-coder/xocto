@@ -20,14 +20,19 @@ url: https://sifted.eu/articles/ai-safety-startups-to-watch/
 canonical_url: https://sifted.eu/articles/ai-safety-startups-to-watch
 summary: ''
 first_seen: '2026-08-26T05:00:36Z'
-last_seen: '2026-08-29T03:43:29Z'
-status: market_context
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/ai-safety-startups-to-watch/
   seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/ai-safety-startups-mapped-38-companies-building-europes-trust-layer/
+  seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
   kind: news
 ---

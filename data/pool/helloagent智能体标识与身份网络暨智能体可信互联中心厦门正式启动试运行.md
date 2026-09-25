@@ -25,14 +25,19 @@ url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vVFlXdk5ZWlczSldQdTQ3Qz
 canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vVFlXdk5ZWlczSldQdTQ3QzFVYnVCN3NZbHI1cC1RalNZNzN5TDE4NG0teS1JVmRoVFpmMWVaNFVBZXI2NmU3dTdPZ0lhanZmR1ZLSjZlWm00VW55S3pNUWVaNFJubnZ2?oc=5
 summary: Hello,Agent——智能体标识与身份网络暨智能体可信互联中心（厦门）正式启动试运行 rmzxw.com.cn
 first_seen: '2026-09-22T02:34:00Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: market_context
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vVFlXdk5ZWlczSldQdTQ3QzFVYnVCN3NZbHI1cC1RalNZNzN5TDE4NG0teS1JVmRoVFpmMWVaNFVBZXI2NmU3dTdPZ0lhanZmR1ZLSjZlWm00VW55S3pNUWVaNFJubnZ2?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMib0FVX3lxTE1XbFQ2c3V5eWJpSjVVMEQtYUFzTVVsQ2hoRDV5aDBibDhoMC0yeWtIZ0dWenBjcWJydFRlMnI0SDlQSnllUmNuMl8tTlBUOUNETGlDb2JBaDNSY1V2TnZoOVp2ZnFoWk03M0dZdWppTQ?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

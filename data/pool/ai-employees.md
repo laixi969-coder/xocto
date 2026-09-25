@@ -26,8 +26,8 @@ canonical_url: https://github.com/markfulton/ai-employees
 summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on Claude Code and 10 other
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
-last_seen: '2026-09-24T00:30:46Z'
-status: watching
+last_seen: '2026-09-25T00:33:43Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -54,9 +54,9 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.cbc.ca/news/canada/montreal/montreal-city-council-police-9.7352920
-  seen_at: '2026-09-24T00:30:46Z'
+  seen_at: '2026-09-25T00:33:43Z'
   metrics:
-    points: 78
+    points: 80
     comments: 84
   kind: news
 ---

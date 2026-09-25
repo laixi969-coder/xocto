@@ -41,14 +41,19 @@ summary: "Release:   commit-rewriter 0.1  \n         I built this little web app
   \ to revert if you need to - and then rewrites every commit from the first one you edited to the most\
   \ recent. \n    \n    \n         Tags:  git ,  projects ,  python ,  ai-assisted-programming"
 first_seen: '2026-09-14T00:28:10Z'
-last_seen: '2026-09-15T00:39:09Z'
-status: watching
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Sep/14/commit-rewriter/
   seen_at: '2026-09-15T00:39:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Sep/24/commit-rewriter/
+  seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
   kind: news
 ---

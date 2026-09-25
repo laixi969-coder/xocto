@@ -1,0 +1,41 @@
+---
+slug: snowflake-snow-on-ai-demand-and-liquibase-win-still-looks-pr
+name: Snowflake (SNOW) On AI Demand And Liquibase Win Still Looks Pricey To Some
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEtXWUlsSmZOS055dGJJdV9jeF9pUkQxbjdGbS1aTlFUWlVWRFByaFhfaGVKYkVHaDJ1SjA4dTRYbm5BaTc4T1NNc3ZzSW1mUjlmNHBhY2xIa2JJaWhHRURienJsQnpBWlpyTDNyY0ZuNUExR1RsNHdxMG4wZUQ3cXo1QXlGQUtMcU9DXzNZRTNpUGJKM0Z6RXRtdVlxb0ZWLXJPdmJEbk9IWDNTVGNQU3NROU5QemhuQU12TFIwX2RaV0sxeF9YSWJ30gHKAUFVX3lxTE90S1dZSWxKZk5LTnl0Ykl1X2N4X2lSRDFuN0ZtLVpOUVRaVVZEUHJoWF9oZUpiRUdoMnVKMDh1NFhubkFpNzhPU01zdnNJbWZSOWY0cGFjbEhrYklpaEdFRGJ6cmxCekFaWnJMM3JjRm41QTFHVGw0d3EwbjBlRDdxejVBeUZBS0xxT0NfM1lFM2lQYkozRnpFdG11WXFvRlYtck92YkRuT0hYM1NUY1BTc1E5TlB6aG5BTXZMUjBfZFpXSzF4X1hJYnc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEtXWUlsSmZOS055dGJJdV9jeF9pUkQxbjdGbS1aTlFUWlVWRFByaFhfaGVKYkVHaDJ1SjA4dTRYbm5BaTc4T1NNc3ZzSW1mUjlmNHBhY2xIa2JJaWhHRURienJsQnpBWlpyTDNyY0ZuNUExR1RsNHdxMG4wZUQ3cXo1QXlGQUtMcU9DXzNZRTNpUGJKM0Z6RXRtdVlxb0ZWLXJPdmJEbk9IWDNTVGNQU3NROU5QemhuQU12TFIwX2RaV0sxeF9YSWJ30gHKAUFVX3lxTE90S1dZSWxKZk5LTnl0Ykl1X2N4X2lSRDFuN0ZtLVpOUVRaVVZEUHJoWF9oZUpiRUdoMnVKMDh1NFhubkFpNzhPU01zdnNJbWZSOWY0cGFjbEhrYklpaEdFRGJ6cmxCekFaWnJMM3JjRm41QTFHVGw0d3EwbjBlRDdxejVBeUZBS0xxT0NfM1lFM2lQYkozRnpFdG11WXFvRlYtck92YkRuT0hYM1NUY1BTc1E5TlB6aG5BTXZMUjBfZFpXSzF4X1hJYnc?oc=5
+summary: Snowflake (SNOW) On AI Demand And Liquibase Win Still Looks Pricey To Some simplywall.st
+first_seen: '2026-09-24T11:20:13Z'
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEtXWUlsSmZOS055dGJJdV9jeF9pUkQxbjdGbS1aTlFUWlVWRFByaFhfaGVKYkVHaDJ1SjA4dTRYbm5BaTc4T1NNc3ZzSW1mUjlmNHBhY2xIa2JJaWhHRURienJsQnpBWlpyTDNyY0ZuNUExR1RsNHdxMG4wZUQ3cXo1QXlGQUtMcU9DXzNZRTNpUGJKM0Z6RXRtdVlxb0ZWLXJPdmJEbk9IWDNTVGNQU3NROU5QemhuQU12TFIwX2RaV0sxeF9YSWJ30gHKAUFVX3lxTE90S1dZSWxKZk5LTnl0Ykl1X2N4X2lSRDFuN0ZtLVpOUVRaVVZEUHJoWF9oZUpiRUdoMnVKMDh1NFhubkFpNzhPU01zdnNJbWZSOWY0cGFjbEhrYklpaEdFRGJ6cmxCekFaWnJMM3JjRm41QTFHVGw0d3EwbjBlRDdxejVBeUZBS0xxT0NfM1lFM2lQYkozRnpFdG11WXFvRlYtck92YkRuT0hYM1NUY1BTc1E5TlB6aG5BTXZMUjBfZFpXSzF4X1hJYnc?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+---
+
+# Snowflake (SNOW) On AI Demand And Liquibase Win Still Looks Pricey To Some
+
+Snowflake (SNOW) On AI Demand And Liquibase Win Still Looks Pricey To Some simplywall.st
+
+## 笔记
+
+

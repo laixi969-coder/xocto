@@ -38,17 +38,17 @@ summary: 'Agent skill for taking a hardware idea to a manufacturable PCB: concep
   layout, routing, verification, and a purchase staged to the pre-payment page. Drives EasyEDA Pro over
   MCP from Claude Code or Codex.'
 first_seen: '2026-09-08T10:15:23Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/daishuge/pcb-skill
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 138
-    forks: 23
+    stars: 139
+    forks: 22
     open_issues: 0
   kind: product
 ---

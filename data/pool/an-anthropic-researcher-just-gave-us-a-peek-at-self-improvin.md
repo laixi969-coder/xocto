@@ -39,8 +39,8 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-24T00:31:52Z'
-status: rejected
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -275,6 +275,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNdnB4SS1XRjV6dEpOMmhlWk5tekdGWmpuYUw4bXdiMDgtSktoSTVPWWNtSnFfM3FVREh2elBEVHVEZXdxNy1RdWE2LURWTHlBdlM1STRid1hNdXRYb0YzZmpGQkVpY0R3aVJadXJIb0ZuTGJ6NHdTMVUxOEpoX3JST1YxbEFzOUI3UkluMDBWV29tXzZveG9VVV9obHdZREFvRUZZeTBIWkVKMzNQeEpDMQ?oc=5
   seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/claude-founder-house-london/
+  seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPbDdtVUY4N1ppQ3oycy03VUtwdUJnSjd4Nnc5dmNIdFAwWVJzWUlTYUwzT0ozdnhHNTFoTU54X0tMMnZEM1hLck16UkphQVp2ZXlzY2wyV2lmeXRsUlVLbEpobVd2Y1Zwb3Zva0MzQ1poOHZHWm1OWTN4R0JteFBuNGdGSVR5ckJ6TmdoLVdkY0ZraFJ2VVdXYmVlTTB2XzRFU1E?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

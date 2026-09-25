@@ -1,0 +1,41 @@
+---
+slug: 用ai就能悭钱悭时间一场跨时空广告展现行销人创意的价值
+name: 用AI就能“悭钱悭时间”？一场跨时空广告展现行销人创意的价值
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiqwNBVV95cUxPYWZrWTlRUjR3RVgySi1yNW0zWDZrMmV0V0FDMGppM1VVcDhMVjFKMmpRbU1hN2JUeTFWMW95M0l6MUdBNjRORGlIVHhzSXNSQWVrckliUEdlVUpjclYtcXdWU0tHelYzXzhpaTdBZUwtOW92RkJCekVLcHRUSnNsWFFLTE4zUnl1dGk4ZWFNZ1dpb1hHWXZRYkphWG9HX2FvYWg2Z2lWTE1kSlFrclgyRTJaVnk2UUE2MkNrRzByU05nZlZ1MTBBbnhvaWF3amxPRFJlbEItRXQxRU1wYzVHR29ub0VsVlBxYmg4OERQUzA1ck1zMTM2VE1CamtUVTNrTVdNZnB5YXR5amUyY3JyYU8yWWJXVUJoYnJtQU5idmxMdzhFekdKOXVVVE5SdFU0dGk0SXZWSU5MVERoc1NmN2NMazJKc2M0Snpaa2NZcWoyeU8wWi12UEhRQjFfRE1lUVREOWR4OE9HN0U3Z2JIVndvWTFseHZXckhIaDhGWklpWVBJU0JOb1pUR19ORllHOTVxVnhKaUdYWFdRaGN3WlZqTXVGZ2M4WEdz?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiqwNBVV95cUxPYWZrWTlRUjR3RVgySi1yNW0zWDZrMmV0V0FDMGppM1VVcDhMVjFKMmpRbU1hN2JUeTFWMW95M0l6MUdBNjRORGlIVHhzSXNSQWVrckliUEdlVUpjclYtcXdWU0tHelYzXzhpaTdBZUwtOW92RkJCekVLcHRUSnNsWFFLTE4zUnl1dGk4ZWFNZ1dpb1hHWXZRYkphWG9HX2FvYWg2Z2lWTE1kSlFrclgyRTJaVnk2UUE2MkNrRzByU05nZlZ1MTBBbnhvaWF3amxPRFJlbEItRXQxRU1wYzVHR29ub0VsVlBxYmg4OERQUzA1ck1zMTM2VE1CamtUVTNrTVdNZnB5YXR5amUyY3JyYU8yWWJXVUJoYnJtQU5idmxMdzhFekdKOXVVVE5SdFU0dGk0SXZWSU5MVERoc1NmN2NMazJKc2M0Snpaa2NZcWoyeU8wWi12UEhRQjFfRE1lUVREOWR4OE9HN0U3Z2JIVndvWTFseHZXckhIaDhGWklpWVBJU0JOb1pUR19ORllHOTVxVnhKaUdYWFdRaGN3WlZqTXVGZ2M4WEdz?oc=5
+summary: 用AI就能“悭钱悭时间”？一场跨时空广告展现行销人创意的价值 香港01
+first_seen: '2026-09-24T09:00:00Z'
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqwNBVV95cUxPYWZrWTlRUjR3RVgySi1yNW0zWDZrMmV0V0FDMGppM1VVcDhMVjFKMmpRbU1hN2JUeTFWMW95M0l6MUdBNjRORGlIVHhzSXNSQWVrckliUEdlVUpjclYtcXdWU0tHelYzXzhpaTdBZUwtOW92RkJCekVLcHRUSnNsWFFLTE4zUnl1dGk4ZWFNZ1dpb1hHWXZRYkphWG9HX2FvYWg2Z2lWTE1kSlFrclgyRTJaVnk2UUE2MkNrRzByU05nZlZ1MTBBbnhvaWF3amxPRFJlbEItRXQxRU1wYzVHR29ub0VsVlBxYmg4OERQUzA1ck1zMTM2VE1CamtUVTNrTVdNZnB5YXR5amUyY3JyYU8yWWJXVUJoYnJtQU5idmxMdzhFekdKOXVVVE5SdFU0dGk0SXZWSU5MVERoc1NmN2NMazJKc2M0Snpaa2NZcWoyeU8wWi12UEhRQjFfRE1lUVREOWR4OE9HN0U3Z2JIVndvWTFseHZXckhIaDhGWklpWVBJU0JOb1pUR19ORllHOTVxVnhKaUdYWFdRaGN3WlZqTXVGZ2M4WEdz?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+---
+
+# 用AI就能“悭钱悭时间”？一场跨时空广告展现行销人创意的价值
+
+用AI就能“悭钱悭时间”？一场跨时空广告展现行销人创意的价值 香港01
+
+## 笔记
+
+

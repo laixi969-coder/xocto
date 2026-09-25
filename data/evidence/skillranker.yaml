@@ -58,3 +58,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 使用编码代理的开发者在一轮会话中，处理当前上下文与可用技能列表，决定下一步调用哪个技能'
+- id: ev-bcaec0564c7b0894
+  project_slug: skillranker
+  url: https://github.com/Dicklesworthstone/skillranker
+  title: skillranker
+  published_at: '2026-09-17T06:58:19Z'
+  collected_at: '2026-09-25T00:33:47Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Rust CLI powered by Jev from TypeSafe.ai that ranks agent skills for the next step using live
+    session context. Includes Claude Code hooks, structured JSON, abstention, and local feedback. Requires
+    a TypeSafe API key. | repository stars: 117'

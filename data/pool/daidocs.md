@@ -27,7 +27,7 @@ url: https://github.com/Kerneta/daidocs
 canonical_url: https://github.com/Kerneta/daidocs
 summary: AI memory as a plain-text file format, not a service
 first_seen: '2026-09-15T17:18:06Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - hackernews
@@ -42,11 +42,11 @@ sightings:
   kind: product
 - source: github
   url: https://daidocs.com
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 40
-    forks: 3
-    open_issues: 6
+    stars: 41
+    forks: 4
+    open_issues: 18
   kind: product
 ---
 

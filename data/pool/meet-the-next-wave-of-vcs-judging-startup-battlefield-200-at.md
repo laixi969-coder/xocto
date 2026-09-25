@@ -22,14 +22,19 @@ summary: Meet the next wave of VCs judging the Startup Battlefield 200 contender
   TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a
   front-row seat to one of the most intense startup pitch competitions.
 first_seen: '2026-09-21T14:15:00Z'
-last_seen: '2026-09-22T00:50:51Z'
-status: rejected
+last_seen: '2026-09-25T00:34:10Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/
   seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/24/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/
+  seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
   kind: news
 ---

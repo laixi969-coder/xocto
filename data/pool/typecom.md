@@ -39,8 +39,8 @@ url: https://www.producthunt.com/products/type-com
 canonical_url: https://producthunt.com/products/type-com
 summary: A shared workspace for Claude, Codex, and your team
 first_seen: '2026-09-09T03:54:10Z'
-last_seen: '2026-09-22T00:50:51Z'
-status: rejected
+last_seen: '2026-09-25T00:33:43Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
@@ -80,6 +80,13 @@ sightings:
   url: https://www.latent.space/p/jev
   seen_at: '2026-09-22T00:50:51Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai
+  seen_at: '2026-09-25T00:33:43Z'
+  metrics:
+    points: 40
+    comments: 43
   kind: news
 ---
 

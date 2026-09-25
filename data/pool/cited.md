@@ -36,16 +36,16 @@ url: https://cited.cc
 canonical_url: https://cited.cc
 summary: Open-source citation monitoring platform for AI answers that matter.
 first_seen: '2026-09-05T23:02:19Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://cited.cc
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 46
+    stars: 60
     forks: 7
     open_issues: 4
   kind: product

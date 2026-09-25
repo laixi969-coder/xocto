@@ -20,18 +20,18 @@ url: https://awesomejev.vercel.app
 canonical_url: https://awesomejev.vercel.app
 summary: Typed decisions with TypeSafe's Jev, the first System One model
 first_seen: '2026-09-18T17:22:58Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://awesomejev.vercel.app
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 133
+    stars: 138
     forks: 33
-    open_issues: 8
+    open_issues: 10
   kind: product
 ---
 

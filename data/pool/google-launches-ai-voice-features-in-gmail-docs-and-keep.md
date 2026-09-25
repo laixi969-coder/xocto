@@ -24,8 +24,8 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWm
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWmtvRW1oWnJ5aFNfRUUxQV8tSERkSHJCOXpWVWthUkg2RVFUSS1ncHhBRzdINm8yVTJwdU1ZdlcxQVJJWDRyOUZ1b21FNnhrUl9LMkJTeldNYm9yeDI1XzVWUFNJUWdySDE3VUloUGRzWWVqNjljRy1nWWswRXQ0MlNYUQ?oc=5
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
-last_seen: '2026-09-24T00:31:16Z'
-status: rejected
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -86,6 +86,16 @@ sightings:
 - source: officialfeeds
   url: https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/
   seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/
+  seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPTVBUY2hPOUZLaDRfU3o1cW5RNnZBRUkwa3B6ekpSYnpnTW5fYmRlb29wbXVFQUFYSzRTbGY1dG1NOTVTVFNIaEVOS3A1TnZDNW44bGtieFc3VkRqdktfR2xPWk5ISUhQZndPcXJtOUZiSHlSMXQzbVBDSVcxQ2hjVkwwd3V5eU10RjNkSThyai1jSHJXSERvbEt2UXROcmZRUGloUUZ0VW1sNkFMVTdOUk5EZVNKeTBfZVHSAb8BQVVfeXFMUHQ4bHZxWWloaGV5NmVmQjNVbDFMZ3UwdTg0Nzh1QmxZNDNKejdIbzloWThUOVBQVVJvT2FuWFFhNnBKbDljQkhhdmJ3Q05zcGZfQnJhZlJ6V3J5MHhCUlhyMlhERGtndVlGeWhSdmItWFJCVTg3ejlIYVFhNnRBSlBnaGdLcWF5SDJSTzFHb2dtTkpxZUZGdFVlekd5WjUyb0ItcGZyYlBwOWtSV2M3VnB2ellsbVYtak1xMnI4Snc?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
   kind: news
 ---

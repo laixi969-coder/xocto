@@ -1,0 +1,42 @@
+---
+slug: chinese-ai-startup-deepseek-hits-1-billion-annualized-revenu
+name: Chinese AI startup DeepSeek hits $1 billion annualized revenue run rate following API price hikes
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcEZaWk1XZzQyWlVYaUpwX29DT3E5VHFySXFQS3l4QjFuZlFzUjJXaW5tOV9oa21RWlpiel9YM2lraVp2akE1cjZtV201SUVUNkNSMTNFLTRCbUptektMclVHMDlPeTg4N3RTN05mYjRvYmROeHMyVURUbE00NlRFVEFTQkgteld3bFhKQXJOalh1OVpHdVZqOUdRM25Nb181RnhhbWxnZFQ5dzdXTWdGaE55Qmtqb2ViNnRvQmlMQXI1QWRuUU5DTzItUWY5SVluMG5ONNIB0AFBVV95cUxOQzQ3WExjR1JjWFBpWjFHS0ZpTkJoUm85eEw0T2hNcm9VY0RNNXhNY2p6alZlR3E2bmRId3J3V2hkRU1rVm1yU0dCUDZqaFp2dWFQQzBOYkFoSHVGWkQxXzhjZzlvTktpaUhqWG8zYnd1S1Q0MVJ2S2JEY3JrSnZ0WDNrZ25ES0RTTmJHeU1CWDBWS0t3TnVPdEdWaDFXTFZMVko1Q19mZ1RXUkIzMldzNjVzaGdUeVFBZDZDaHdWZE9OZk1mankxT295QkM4ZWR4?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcEZaWk1XZzQyWlVYaUpwX29DT3E5VHFySXFQS3l4QjFuZlFzUjJXaW5tOV9oa21RWlpiel9YM2lraVp2akE1cjZtV201SUVUNkNSMTNFLTRCbUptektMclVHMDlPeTg4N3RTN05mYjRvYmROeHMyVURUbE00NlRFVEFTQkgteld3bFhKQXJOalh1OVpHdVZqOUdRM25Nb181RnhhbWxnZFQ5dzdXTWdGaE55Qmtqb2ViNnRvQmlMQXI1QWRuUU5DTzItUWY5SVluMG5ONNIB0AFBVV95cUxOQzQ3WExjR1JjWFBpWjFHS0ZpTkJoUm85eEw0T2hNcm9VY0RNNXhNY2p6alZlR3E2bmRId3J3V2hkRU1rVm1yU0dCUDZqaFp2dWFQQzBOYkFoSHVGWkQxXzhjZzlvTktpaUhqWG8zYnd1S1Q0MVJ2S2JEY3JrSnZ0WDNrZ25ES0RTTmJHeU1CWDBWS0t3TnVPdEdWaDFXTFZMVko1Q19mZ1RXUkIzMldzNjVzaGdUeVFBZDZDaHdWZE9OZk1mankxT295QkM4ZWR4?oc=5
+summary: Chinese AI startup DeepSeek hits $1 billion annualized revenue run rate following API price hikes
+  The News International
+first_seen: '2026-09-24T09:18:00Z'
+last_seen: '2026-09-25T00:34:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcEZaWk1XZzQyWlVYaUpwX29DT3E5VHFySXFQS3l4QjFuZlFzUjJXaW5tOV9oa21RWlpiel9YM2lraVp2akE1cjZtV201SUVUNkNSMTNFLTRCbUptektMclVHMDlPeTg4N3RTN05mYjRvYmROeHMyVURUbE00NlRFVEFTQkgteld3bFhKQXJOalh1OVpHdVZqOUdRM25Nb181RnhhbWxnZFQ5dzdXTWdGaE55Qmtqb2ViNnRvQmlMQXI1QWRuUU5DTzItUWY5SVluMG5ONNIB0AFBVV95cUxOQzQ3WExjR1JjWFBpWjFHS0ZpTkJoUm85eEw0T2hNcm9VY0RNNXhNY2p6alZlR3E2bmRId3J3V2hkRU1rVm1yU0dCUDZqaFp2dWFQQzBOYkFoSHVGWkQxXzhjZzlvTktpaUhqWG8zYnd1S1Q0MVJ2S2JEY3JrSnZ0WDNrZ25ES0RTTmJHeU1CWDBWS0t3TnVPdEdWaDFXTFZMVko1Q19mZ1RXUkIzMldzNjVzaGdUeVFBZDZDaHdWZE9OZk1mankxT295QkM4ZWR4?oc=5
+  seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+---
+
+# Chinese AI startup DeepSeek hits $1 billion annualized revenue run rate following API price hikes
+
+Chinese AI startup DeepSeek hits $1 billion annualized revenue run rate following API price hikes The News International
+
+## 笔记
+
+

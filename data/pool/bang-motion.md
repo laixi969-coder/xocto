@@ -35,17 +35,17 @@ summary: Agent skill for browser motion graphics — openers, promos, bumpers, k
   explainer styles that move like video, not slides. Single index.html output. Works with Claude Code,
   Codex, Gemini CLI, Cursor.
 first_seen: '2026-09-05T21:07:55Z'
-last_seen: '2026-09-24T00:30:54Z'
+last_seen: '2026-09-25T00:33:47Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bangtutorial/bang-motion
-  seen_at: '2026-09-24T00:30:54Z'
+  seen_at: '2026-09-25T00:33:47Z'
   metrics:
-    stars: 487
-    forks: 71
+    stars: 510
+    forks: 72
     open_issues: 1
   kind: product
 ---
