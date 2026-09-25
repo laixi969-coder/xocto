@@ -156,7 +156,7 @@ summary: "[##Castaly 官网入口##]( https://castaly.modelflare.dev/zh/?utm_cam
   \ 注册入口##]( https://castaly.modelflare.dev/sign-in?next=/me/?utm_campaign=double_holiday_202609&utm_content=main_post&utm_medium=organic_social&utm_source=v2ex-castaly)"
 first_seen: '2026-09-24T16:44:30Z'
 last_seen: '2026-09-25T00:33:41Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

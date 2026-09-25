@@ -22,7 +22,7 @@ summary: "What is a developer to do when they need something more tangible than 
   \ \n The post  When chat is the wrong UI  appeared first on  The GitHub Blog ."
 first_seen: '2026-09-24T20:00:00Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

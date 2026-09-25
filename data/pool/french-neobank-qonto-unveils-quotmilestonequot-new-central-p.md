@@ -23,7 +23,7 @@ summary: French neobank Qonto yesterday unveiled its new headquarters in central
   by i...
 first_seen: '2026-09-24T05:20:00Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

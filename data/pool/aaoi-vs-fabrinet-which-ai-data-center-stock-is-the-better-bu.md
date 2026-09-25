@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN19DSmZIcHlQ
 summary: 'AAOI vs. Fabrinet: Which AI Data Center Stock Is the Better Buy? TradingView'
 first_seen: '2026-09-23T17:13:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XZE03LWliS01E
 summary: 探路医学人工智能，浙江建起“医疗Token工厂” 搜狐网
 first_seen: '2026-09-23T23:52:09Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

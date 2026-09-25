@@ -111,3 +111,46 @@
   usage_reason: 报道称其迅速走红，可能因营销或独特体验，但具体采用原因未公开。
   usage_reason_en: Reports of rapid virality suggest marketing or unique experience, but specific adoption
     reasons are not public.
+- id: req-initial-consumer-focused-ai-assistant-startup-instinct-reportedly-ra-2026-09-25
+  project_slug: consumer-focused-ai-assistant-startup-instinct-reportedly-ra
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有融资洽谈与用户反映变慢，价值关无法成立。
+    evidence_ids:
+    - ev-a88e2fbe0310fcec
+    - ev-cc2f9c1783223c84
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且公开材料没有可归因到该产品的采用或留存证据。
+    evidence_ids:
+    - ev-b70b3f4465057782
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均未披露，仅有融资叙事。
+    evidence_ids:
+    - ev-6ac5843c08f85ccb
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近某项工作的第一性目标，也无交付确定性证据。
+    evidence_ids:
+    - ev-cc2f9c1783223c84
+  next_validation: 收集 Instinct 官方产品页或官方发布，确认其面向消费者的具体任务、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开它、处理什么材料、要完成什么任务；只能确认它是面向普通消费者的 AI 智能体。
+  job_en: Public material does not say who opens it, in what situation, with what material, or to finish
+    what task; it only confirms it is a consumer-facing AI agent.
+  pain: 没有可核验的用户痛点描述，只有“用户反映变慢”这一体验问题，无法判断它替代了哪一步旧麻烦。
+  pain_en: There is no verifiable description of user pain, only a reported slowdown; it is impossible
+    to tell which old hassle it replaces.
+  current_alternative: 公开材料未给出用户此前用什么方式完成同类任务，无法确认替代对象。
+  current_alternative_en: Public material does not state what users previously used for the same task,
+    so the replaced alternative is unknown.
+  usage_reason: 缺少可核验的使用场景与交付结果，无法解释用户为何选择它；融资估值与用户反映的变慢都不构成选择理由（推断：若其确能替用户跑完多步任务，价值才成立，但这一点未被材料支持）。
+  usage_reason_en: 'With no verifiable use case or deliverable, there is no explanation of why users choose
+    it; funding valuation and reported slowdown are not reasons for choice (inference: value would hold
+    only if it truly finishes multi-step tasks, which the material does not support).'

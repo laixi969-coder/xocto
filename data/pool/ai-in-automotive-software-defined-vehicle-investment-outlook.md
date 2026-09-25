@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ21JUXFmdXNR
 summary: 'AI in automotive: Software-defined vehicle investment outlook PwC'
 first_seen: '2026-09-24T07:54:53Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

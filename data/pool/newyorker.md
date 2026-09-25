@@ -21,7 +21,7 @@ canonical_url: https://newyorker.com/magazine/2026/09/28/is-ai-above-the-law
 summary: Is A.I. Above the Law?
 first_seen: '2026-09-24T13:41:43Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

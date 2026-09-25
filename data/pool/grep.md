@@ -3,15 +3,16 @@ slug: grep
 name: grep
 builder: mohebifar
 category: AI + 开发
-summary_zh: 开发者在需要跨公开代码库查找某种代码结构而非文本关键字时打开它，输入结构模式，由系统在公开仓库中检索并返回匹配的代码位置，供人工确认后用于重构或迁移参考；具体检索范围、结果交付形式与是否收费仍待核验。
-inspiration: 趋势：代码检索正从文本匹配走向结构匹配，重构与迁移这类旧手工活开始被工具化。切入：从需要跨仓库找同类写法的迁移或重构团队进入，按检索结果或迁移项目收费，而不是卖通用搜索席位。
-summary_en: Developers open it when they need to find a code structure rather than a text keyword across
-  public repositories; they supply a structural pattern and get back matching code locations for human
-  review before refactoring or migration. The exact search scope, delivery format and pricing remain unverified.
-inspiration_en: 'Trend: code search is moving from text matching to structural matching, turning refactoring
-  and migration work into a toolable step. Entry: start with migration and refactoring teams that must
-  find the same pattern across many repositories, and charge per search result or per migration project
-  rather than per generic search seat.'
+summary_zh: 开发者在排查依赖库或开源项目里的写法时，打开它并输入一段结构化的代码模式，它跨公开代码仓库检索匹配的代码片段，返回可定位的结果列表供人工核对。具体检索范围、是否支持私有仓库以及结果如何导出，公开材料未说明，仍待核验。
+inspiration: 趋势：代码检索正从关键词匹配走向按代码结构匹配，跨仓库找写法这件事第一次可以脱离本地克隆。切入：从需要跨项目比对实现方式的团队进入，例如安全审计、依赖升级、代码规范落地；卖法未披露，不做推测。
+summary_en: A developer investigating how a pattern is written in dependencies or open-source projects
+  enters a structural code pattern and the tool searches across public code repositories, returning locatable
+  matches for human review. The exact search scope, private-repository support and result export are not
+  stated in the public material and remain unverified.
+inspiration_en: 'Trend: code search is moving from keyword matching to structural matching, so finding
+  how something is written across repositories no longer requires cloning them locally. Entry: start with
+  teams that must compare implementations across projects, such as security auditing, dependency upgrades
+  and coding-standard rollout; pricing is undisclosed and not inferred.'
 priority_review: false
 project_type: new_application
 industries:
@@ -19,9 +20,9 @@ industries:
 industries_en:
 - Software and IT services
 jobs:
-- 代码检索与重构
+- 开发者
 jobs_en:
-- Code search and refactoring
+- Software developers
 regions: []
 regions_en: []
 open_source: false
@@ -30,7 +31,7 @@ canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch

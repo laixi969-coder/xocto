@@ -21,7 +21,7 @@ canonical_url: https://reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_
 summary: Meta takes down a critical video about meta AI Glasses after filming at Meta
 first_seen: '2026-09-24T08:23:03Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

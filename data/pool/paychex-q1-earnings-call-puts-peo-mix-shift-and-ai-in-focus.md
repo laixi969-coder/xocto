@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGZBWmQ4S01B
 summary: Paychex Q1 Earnings Call Puts PEO Mix Shift and AI in Focus TradingView
 first_seen: '2026-09-24T12:46:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

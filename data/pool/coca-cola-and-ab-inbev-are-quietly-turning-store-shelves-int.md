@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLXN5U3NmMUlD
 summary: Coca-Cola and AB InBev Are Quietly Turning Store Shelves Into AI Data The Globe and Mail
 first_seen: '2026-09-23T23:58:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

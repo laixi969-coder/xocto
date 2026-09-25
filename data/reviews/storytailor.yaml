@@ -1,0 +1,46 @@
+- id: req-initial-storytailor-2026-09-25
+  project_slug: storytailor
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是给孩子做专属故事这一需求，但材料只有一句宣传语，说不清家长原来卡在哪一步、不采用会失去什么，痛点刚性无法判断。
+    evidence_ids:
+    - ev-6838569ece37c893
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料没有使用规模、评价或场景描述，无法判断家长是否真的会在这个节点打开它。
+    evidence_ids:
+    - ev-6838569ece37c893
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或付费路径信息，买方是家长个人还是其他角色无法判断，也未披露任何收费方式。
+    evidence_ids:
+    - ev-6838569ece37c893
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对生成内容是否真的围绕该孩子、家长是否仍需逐句修改，交付确定性没有材料支持。
+    evidence_ids:
+    - ev-6838569ece37c893
+  next_validation: 抓取 Storytailor 官方产品页或定价页，确认生成流程、成品形态（文字/插图/音频）与是否收费。
+  market: ''
+  job: 家长在睡前或亲子陪伴时，需要为孩子准备一段专属的故事内容，处理的是孩子的名字、喜好和想象素材，要完成的是让孩子听到一个以自己为主角的故事。
+  job_en: At bedtime or during parent-child time, a parent needs a dedicated story for their child, working
+    from the child's name, preferences and imagined ideas, to produce a story in which the child is the
+    protagonist.
+  pain: 现成绘本与孩子本人无关，家长自己编故事需要持续投入时间和想象力，长期难以维持；候选材料只给出“围绕孩子想象构建的个人世界”这一句，未说明家长具体卡在哪一步。
+  pain_en: Off-the-shelf picture books have nothing to do with the specific child, and inventing stories
+    by hand demands sustained time and imagination that is hard to keep up; the candidate material only
+    offers one line about a personal world built around the child's imagination and does not say which
+    step actually blocks parents.
+  current_alternative: 家长自己口述编故事、读现成绘本，或使用通用聊天助手临时生成一段文字。
+  current_alternative_en: Parents improvise stories aloud, read existing picture books, or use a general
+    chat assistant to generate a passage on the spot.
+  usage_reason: 推断：如果它能把孩子的名字与偏好保存为固定角色，家长就不必每次从零构思，直接得到一段可读的故事，省掉构思这一步；但候选材料没有说明生成流程、成品形态或任何使用反馈，因此无法确认家长会因此选择它而非通用助手。
+  usage_reason_en: 'Inference: if it stores the child''s name and preferences as fixed characters, a parent
+    would not have to invent from scratch each time and would get readable story text directly, removing
+    the ideation step; however the candidate material describes no generation flow, output format or user
+    feedback, so it cannot be confirmed that parents would choose it over a general assistant.'

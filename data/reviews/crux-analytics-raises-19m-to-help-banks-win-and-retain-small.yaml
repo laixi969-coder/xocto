@@ -1,0 +1,44 @@
+- id: req-initial-crux-analytics-raises-19m-to-help-banks-win-and-retain-small-2026-09-25
+  project_slug: crux-analytics-raises-19m-to-help-banks-win-and-retain-small
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决银行服务小企业客户时的获客与留存判断，但材料未写清具体痛点、频率与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-c7d91ad7ddea6c64
+  - gate: consensus
+    status: insufficient
+    reason: 仅有种子轮融资这一关注度信号，没有银行客户采用、试点或场景验证的公开证据。
+    evidence_ids:
+    - ev-c7d91ad7ddea6c64
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是银行总部还是分行、按什么计价，钱从哪来无法判断。
+    evidence_ids:
+    - ev-c7d91ad7ddea6c64
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也不清楚人工复核边界与数据合规要求。
+    evidence_ids:
+    - ev-c7d91ad7ddea6c64
+  next_validation: 收集 Crux Analytics 官方产品页或客户案例，确认它接收哪些银行数据、输出什么交付物以及是否有银行实际部署。
+  market: ''
+  job: 银行小企业客户经理在季度客户盘点时，处理行内小企业账户与交易记录，要判断哪些客户值得争取、哪些可能流失并安排触达。
+  job_en: A bank small-business relationship manager reviews in-house small-business account and transaction
+    records during quarterly account planning to decide which customers to pursue and which may churn,
+    then schedules outreach.
+  pain: 候选材料只说明该产品用于改善金融机构与小企业的关系，未说明客户经理当前在哪一步具体受挫、耗时多久或损失多少。
+  pain_en: The candidate material only says the product improves the relationship between financial institutions
+    and small businesses; it does not state which step frustrates relationship managers today, how long
+    it takes, or what it costs them.
+  current_alternative: 公开材料未描述银行目前用什么方式完成这一判断，无法确认旧做法是手工表格、行内报表还是外部咨询。
+  current_alternative_en: The public material does not describe how banks currently make this judgement,
+    so it is unclear whether the old approach is manual spreadsheets, internal reporting, or outside consulting.
+  usage_reason: 无法判断：材料未说明产品接收哪些数据、输出什么结果，也未说明相较旧做法减少了哪一步负担，因此不能给出用户选择它的因果解释。
+  usage_reason_en: 'Cannot be judged: the material does not say what data the product takes in, what it
+    outputs, or which step it removes versus the old approach, so no causal reason for choosing it can
+    be given.'

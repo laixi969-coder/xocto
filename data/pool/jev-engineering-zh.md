@@ -21,7 +21,7 @@ canonical_url: https://github.com/yibie/jev-engineering-zh
 summary: 《Jev 工程学：为 coding agent 而作》完整中文翻译 — 保留原结构与 7 张插图
 first_seen: '2026-09-22T04:28:47Z'
 last_seen: '2026-09-25T00:33:47Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

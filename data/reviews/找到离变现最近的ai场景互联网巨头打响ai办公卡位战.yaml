@@ -1,0 +1,45 @@
+- id: req-initial-找到离变现最近的ai场景互联网巨头打响ai办公卡位战-2026-09-25
+  project_slug: 找到离变现最近的ai场景互联网巨头打响ai办公卡位战
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公材料整理与初稿撰写耗时、通用生成结果需反复核对的问题，痛点刚性且交付可确定；买方是个人用户还是企业采购在公开材料中未说明。
+    evidence_ids:
+    - ev-d04ea86ca943936f
+    - ev-25c836cf09bc84a2
+  - gate: consensus
+    status: supported
+    reason: 月活超4000万、海外版用户破千万，说明已有相当规模的使用者认可该场景；但公开材料未给出留存或复购数据。
+    evidence_ids:
+    - ev-d04ea86ca943936f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页或付费路径，钱来自个人订阅还是企业采购无法确认，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d04ea86ca943936f
+  - gate: truth
+    status: insufficient
+    reason: 报道强调减少幻觉与融入本地工作流，但未给出可核对的交付准确率或人工边界说明，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-1096cdb37fa736f9
+    - ev-25c836cf09bc84a2
+  next_validation: 收集库库AI官方定价页或企业采购说明，确认收费方式与买方类型。
+  market: ''
+  job: 企业员工在写文档、整理会议材料或推进跨部门流程时，把原始材料交给库库AI，生成初稿或整理结果，再自行确认后使用。
+  job_en: Employees drafting documents, organizing meeting materials or pushing cross-department workflows
+    hand raw material to Kuku AI to produce a draft or organized output, then confirm it themselves before
+    use.
+  pain: 办公材料整理与初稿撰写耗时长，通用生成结果常出现幻觉、不够专业，需要反复核对返工。
+  pain_en: Organizing office material and writing first drafts is time-consuming, and generic generated
+    output often hallucinates or lacks professionalism, forcing repeated checking and rework.
+  current_alternative: 此前用通用聊天助手或搜索拼凑内容，再人工改写核对；部分团队仍靠模板和人工整理。
+  current_alternative_en: Previously people pieced content together with general chat assistants or search
+    and then rewrote and checked it manually; some teams still rely on templates and manual organizing.
+  usage_reason: 相较通用助手，它把重点放在单件事的准确与专业，减少用户逐句核对和返工这一步；推断在需要交付专业文档、又不想从零校对的场景下，用户会优先选它。
+  usage_reason_en: Compared with general assistants, it focuses on accuracy and professionalism per task,
+    cutting the step of sentence-by-sentence checking and rework; inference is that users delivering professional
+    documents who don't want to proofread from scratch would prefer it.

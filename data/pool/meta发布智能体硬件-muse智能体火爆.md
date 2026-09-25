@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TdFFrek1DNGZR
 summary: Meta发布智能体硬件 Muse智能体火爆 财新
 first_seen: '2026-09-24T11:22:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

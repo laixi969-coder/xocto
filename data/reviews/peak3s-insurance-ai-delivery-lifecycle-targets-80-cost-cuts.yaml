@@ -1,0 +1,44 @@
+- id: req-initial-peak3s-insurance-ai-delivery-lifecycle-targets-80-cost-cuts-2026-09-25
+  project_slug: peak3s-insurance-ai-delivery-lifecycle-targets-80-cost-cuts
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决保险单证录入与核赔初筛的人工负担，痛点真实存在；但公开材料只有 80% 成本削减的目标数字，未说明输入材料、动作与交付物，价值结构无法核实。
+    evidence_ids:
+    - ev-84a02c4eeadeab8c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有一篇报道转述成本目标，没有客户名单、部署案例或行业内的采用讨论可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-84a02c4eeadeab8c
+  - gate: model
+    status: insufficient
+    reason: 未进入：报道未披露定价方式、买方是总部还是分支机构、按件还是按年收费，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-84a02c4eeadeab8c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有准确率、人工复核边界或合规审计说明，无法判断承诺能否确定性交付。
+    evidence_ids:
+    - ev-84a02c4eeadeab8c
+  next_validation: 收集 Peak3 官方产品页或保险客户案例，确认其输入的单证类型、交付物与人工复核环节。
+  market: ''
+  job: 保险公司的理赔与保单运营人员，在收到客户提交的理赔单证或批改申请时，需要把纸质与电子材料整理成可核赔的结构化记录并推进结案。
+  job_en: Claims and policy operations staff at insurers who, on receiving claim documents or endorsement
+    requests, must turn paper and electronic materials into structured, adjudicable records and push cases
+    to closure.
+  pain: 单证种类杂、格式不统一，人工逐份录入与核对耗时，且错漏会直接影响赔付时效与合规。
+  pain_en: Document types are varied and formats inconsistent, so manual entry and cross-checking is slow,
+    and errors directly affect payout speed and compliance.
+  current_alternative: 目前多由运营人员手工录入、外包录入团队或既有规则引擎处理，AI 环节通常只是零散试点。
+  current_alternative_en: Today this is mostly done by in-house operations staff, outsourced data-entry
+    teams or existing rules engines, with AI only in scattered pilots.
+  usage_reason: 推断：若产品能把单证识别与字段抽取直接接到核赔流程，可省去人工逐份录入这一步，让运营人员只做异常复核；但公开材料未说明输入材料类型、准确率与人工复核边界，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the product connects document recognition and field extraction directly
+    into adjudication, it removes the manual per-document entry step and leaves staff only exception review;
+    however public material does not state input types, accuracy or human review boundaries, so it cannot
+    yet be confirmed that users would choose it for this reason.'

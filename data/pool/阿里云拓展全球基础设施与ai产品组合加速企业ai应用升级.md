@@ -1,6 +1,6 @@
 ---
 slug: 阿里云拓展全球基础设施与ai产品组合加速企业ai应用升级
-name: 阿里云拓展全球基础设施与AI产品组合，加速企业AI应用升级
+name: 阿里云
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLSF9XQzVBRUxa
 summary: 阿里云拓展全球基础设施与AI产品组合，加速企业AI应用升级 TNN Thailand
 first_seen: '2026-09-24T10:36:13Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 阿里云拓展全球基础设施与AI产品组合，加速企业AI应用升级
+# 阿里云
 
 阿里云拓展全球基础设施与AI产品组合，加速企业AI应用升级 TNN Thailand
 

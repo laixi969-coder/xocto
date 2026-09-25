@@ -1,27 +1,36 @@
 ---
 slug: news-2
-name: news
+name: 腾讯Marvis
 builder: jwarden
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: 面向个人电脑使用者，在整理本地文件、切换软件与浏览器操作时打开它；据现有报道，它接收的是电脑、文件、软件与浏览器相关的操作请求，但具体执行动作与最终交付物尚未披露，人工确认环节也不明确，具体流程或交付仍待核验。
+inspiration: 趋势：桌面端操作正被大厂当作通用助手的下一个入口，从对话延伸到对本机文件与软件的实际操作。切入：不要做又一个全盘管家，可从某个高频且可核对的桌面环节切入，例如合同、票据、素材的本地归档与命名，按处理结果而非席位收费；该方向为推断。
+summary_en: For personal computer users who open it while organizing local files or switching between
+  software and browser tasks; per current reporting it receives requests about computers, files, software
+  and browsers, but the concrete actions and final deliverables are not disclosed, nor is the human confirmation
+  step, so the specific workflow and delivery remain unverified.
+inspiration_en: 'Trend: desktop control is being treated by large vendors as the next entry point for
+  general assistants, extending from chat to acting on local files and software. Entry: avoid another
+  all-purpose butler; start from one high-frequency, checkable desktop step such as local filing and naming
+  of contracts, receipts or assets, and charge per processed result rather than per seat; this direction
+  is inference.'
 priority_review: false
 project_type: new_application
 industries: []
 industries_en: []
 jobs: []
 jobs_en: []
-regions: []
-regions_en: []
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: https://news.social-protocols.org/penalties
 canonical_url: https://news.social-protocols.org/penalties
 summary: Most Penalized HN Stories
 first_seen: '2026-09-13T00:36:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch
@@ -203,7 +212,7 @@ sightings:
   kind: news
 ---
 
-# news
+# 腾讯Marvis
 
 Most Penalized HN Stories
 

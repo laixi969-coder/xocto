@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOOVZUSXppdE4t
 summary: Should Your AI Business Raise VC? For Most Founders, the Honest Answer Is No. Here's Why. entrepreneur.com
 first_seen: '2026-09-24T18:31:13Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

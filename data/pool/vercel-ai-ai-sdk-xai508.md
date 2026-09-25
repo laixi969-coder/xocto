@@ -1,6 +1,6 @@
 ---
 slug: vercel-ai-ai-sdk-xai508
-name: 'vercel/ai: @ai-sdk/xai@5.0.8'
+name: '@ai-sdk/xai'
 builder: vercel
 category: ''
 summary_zh: ''
@@ -26,7 +26,7 @@ summary: '### Patch Changes
   - 0a5dd0f: feat(xai): add missing Responses API provider options'
 first_seen: '2026-09-24T18:53:02Z'
 last_seen: '2026-09-25T00:33:47Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -38,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/xai@5.0.8
+# @ai-sdk/xai
 
 ### Patch Changes
 

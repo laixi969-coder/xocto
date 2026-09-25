@@ -21,7 +21,7 @@ canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-bust
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

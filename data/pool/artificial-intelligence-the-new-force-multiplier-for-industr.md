@@ -22,7 +22,7 @@ summary: 'Artificial intelligence: The new force multiplier for industrial manuf
   Manufacturing Today India'
 first_seen: '2026-09-15T05:45:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

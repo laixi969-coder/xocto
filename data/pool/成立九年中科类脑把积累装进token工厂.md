@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/496615.html
 summary: ''
 first_seen: '2026-09-24T00:48:02Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

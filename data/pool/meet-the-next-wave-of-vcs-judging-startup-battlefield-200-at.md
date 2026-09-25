@@ -23,7 +23,7 @@ summary: Meet the next wave of VCs judging the Startup Battlefield 200 contender
   front-row seat to one of the most intense startup pitch competitions.
 first_seen: '2026-09-21T14:15:00Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

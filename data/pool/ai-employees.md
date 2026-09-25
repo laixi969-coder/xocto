@@ -3,15 +3,18 @@ slug: ai-employees
 name: ai-employees
 builder: markfulton
 category: AI + 效率
-summary_zh: 面向需要重复处理日常事务的小团队或个人，在浏览器里按排期自动执行 8 类业务角色、约 60 条例行流程，可运行在 Claude Code 等 10 余种执行框架上；用户最终拿到的是自己持有的流程文件与执行结果，具体每条流程的输入材料与交付形态仍待核验。
-inspiration: 趋势是“把岗位例行事务拆成可排期的脚本”开始有人开源化，切入可考虑从某个具体行业的固定例行流程（如门店日报、线索初筛）做垂直版本，卖点放在流程文件归客户所有而非席位订阅。
-summary_en: For small teams or individuals handling repetitive daily chores, it runs about 60 scheduled
-  routines across 8 business roles in the browser, on Claude Code and ten other harnesses; the user ends
-  up owning the routine files and run outputs, while the exact inputs and deliverables of each routine
-  still need verification.
-inspiration_en: The trend is that turning job routines into schedulable scripts is becoming open source;
-  a wedge is to build a vertical version for one industry's fixed routines (store daily reports, lead
-  triage) and sell file ownership rather than seats.
+summary_zh: 面向需要重复处理浏览器类日常事务的小团队或个人，用户按日程配置若干业务角色与例行流程，由 AI 在 Claude Code 等运行环境里像人一样操作浏览器，完成抓取、填写、提交等动作，并把每次运行结果与可编辑的文件留在本地供人工复核。具体覆盖哪些流程、交付是否稳定仍待核验。
+inspiration: 趋势是“AI 员工”从对话助手转向按日程自动跑完浏览器里的固定流程，卖点从能力变成可托付的例行交付。切入可先选一个流程高度重复、结果可核对的窄行业（如电商上架、线索清洗、对账取数），按跑完的流程数或结果收费，而不是卖席位；本地文件归属是它区别于托管型
+  agent 的差异点。
+summary_en: For small teams or individuals who repeatedly handle routine browser-based chores, users schedule
+  several business roles and routines, and the AI drives a browser inside harnesses such as Claude Code
+  to fetch, fill and submit, leaving run results and editable files locally for human review. Which routines
+  it covers and whether delivery is reliable still need verification.
+inspiration_en: The trend is that "AI employees" are moving from chat assistants to scheduled agents that
+  finish fixed browser routines, so the selling point shifts from capability to dependable routine delivery.
+  A wedge is one narrow industry with highly repetitive, checkable steps (e-commerce listing, lead cleanup,
+  reconciliation data pulls), charging per completed routine or per result rather than per seat; local
+  file ownership is what separates it from hosted agents.
 priority_review: false
 project_type: open_source
 industries: []
@@ -27,7 +30,7 @@ summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on C
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

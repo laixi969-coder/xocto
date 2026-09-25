@@ -1,6 +1,6 @@
 ---
 slug: ai-powered-fuzzing-with-the-github-security-lab-taskflow-age
-name: AI-powered fuzzing with the GitHub Security Lab Taskflow Agent
+name: Security Lab Taskflow Agent
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: "In this blog post, I explain how to use the new fuzzing taskflow based
   \ Agent  appeared first on  The GitHub Blog ."
 first_seen: '2026-09-24T18:26:12Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AI-powered fuzzing with the GitHub Security Lab Taskflow Agent
+# Security Lab Taskflow Agent
 
 In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework.  
  The post  AI-powered fuzzing with the GitHub Security Lab Taskflow Agent  appeared first on  The GitHub Blog .

@@ -1,0 +1,43 @@
+- id: req-initial-bridgeclip-2026-09-25
+  project_slug: bridgeclip
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决长素材切短片的需求，但公开材料未说明具体耗时环节与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-082209f6a1ed4dc7
+  - gate: consensus
+    status: insufficient
+    reason: 141 星与 29 次 fork 只反映开源关注度，不能证明剪辑师已把它放进日常工作流。
+    evidence_ids:
+    - ev-082209f6a1ed4dc7
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费路径或买方，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-082209f6a1ed4dc7
+  - gate: truth
+    status: insufficient
+    reason: 未说明切分准确率、人工复核边界与导出结果是否可核对，交付确定性无法评估。
+    evidence_ids:
+    - ev-082209f6a1ed4dc7
+  next_validation: 收集 bridgeclip 仓库 README 与 issue 中关于输入格式、切分规则和导出流程的说明，确认它替代的具体剪辑步骤。
+  market: ''
+  job: 短视频剪辑师或自媒体运营拿到长视频素材后，需要从中切出多条可发布的短片，用于日常更新。
+  job_en: A short-form editor or social media operator takes long footage and needs to cut several publishable
+    short clips for regular posting.
+  pain: 公开材料只说明这是 AI 视频剪辑桌面应用，没有说明长素材切分中具体哪一步耗时、哪一步容易出错，痛点无法从现有事实确认。
+  pain_en: The public material only says it is an AI video clipping desktop app; it does not say which
+    step of cutting long footage is slow or error-prone, so the pain cannot be confirmed from available
+    facts.
+  current_alternative: 现有替代是人工在剪辑软件里逐段挑选与裁切，或使用其他自动切片工具；候选材料未给出对比信息。
+  current_alternative_en: The current alternative is manually selecting and trimming segments in editing
+    software, or using other auto-clipping tools; the candidate material gives no comparison.
+  usage_reason: 无法判断：材料未说明它相较人工剪辑或其他切片工具减少了哪一步操作，也未提供用户反馈或客户案例，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes compared with manual
+    editing or other clipping tools, and gives no user feedback or customer cases, so it cannot explain
+    why users would choose it.'

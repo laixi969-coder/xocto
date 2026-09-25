@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNejg5eUdiM3dW
 summary: YouTube Music Adds New AI Features for Music Discovery innovation-village.com
 first_seen: '2026-09-23T21:14:25Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

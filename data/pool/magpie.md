@@ -21,7 +21,7 @@ canonical_url: https://usemagpie.ai
 summary: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
 first_seen: '2026-09-23T16:22:35Z'
 last_seen: '2026-09-25T00:33:47Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

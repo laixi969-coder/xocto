@@ -1,6 +1,6 @@
 ---
 slug: 中信银行推出token场景贷-以金融之力赋能广州新质生产力发展
-name: 中信银行推出“Token场景贷” ​以金融之力赋能广州新质生产力发展
+name: 中信银行
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE5zQ1RBT2Z0LUtP
 summary: 中信银行推出“Token场景贷” ​以金融之力赋能广州新质生产力发展 k.sina.com.cn
 first_seen: '2026-09-24T17:03:04Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 中信银行推出“Token场景贷” ​以金融之力赋能广州新质生产力发展
+# 中信银行
 
 中信银行推出“Token场景贷” ​以金融之力赋能广州新质生产力发展 k.sina.com.cn
 

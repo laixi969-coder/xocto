@@ -1,0 +1,44 @@
+- id: req-initial-ghost-editor-2026-09-25
+  project_slug: ghost-editor
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播创作者复刻爆款节奏与字幕的剪辑任务，痛点是逐段对齐和手动字幕耗时且依赖经验，旧替代是人工剪辑或外包，结构上成立。
+    evidence_ids:
+    - ev-acfbce30762534e5
+  - gate: consensus
+    status: insufficient
+    reason: 公开时仅 43 星、4 次分叉，属于早期关注度，没有用户评价或客户案例说明它已被持续使用。
+    evidence_ids:
+    - ev-acfbce30762534e5
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或收费方式，买方可能是个人创作者或代运营团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-acfbce30762534e5
+  - gate: truth
+    status: insufficient
+    reason: 成片质量、人脸安全字幕的实际准确度和人工返工量均无公开实测，交付确定性尚未核验。
+    evidence_ids:
+    - ev-acfbce30762534e5
+  next_validation: 收集该仓库的 issue、discussion 或可复现实测，核验成片输出质量与人工返工量。
+  market: ''
+  job: 口播创作者或代运营剪辑师在拿到一段原始口播素材、并希望复刻某条爆款视频的节奏与字幕样式时，需要产出一条可直接发布的竖屏成片。
+  job_en: A talking-head creator or agency editor who has raw talking-head footage and wants to replicate
+    the pacing and caption style of a hit video needs to produce a publishable vertical clip.
+  pain: 旧做法要在剪辑软件里逐段对齐节奏、手动打字幕并避开人脸、再逐个加转场，一条片子耗时且高度依赖剪辑经验，非专业出镜者做不出来。
+  pain_en: The old way means aligning pacing clip by clip in editing software, typing captions by hand
+    while avoiding the face, then adding transitions one by one; a single clip is slow and depends heavily
+    on editing skill that non-professional on-camera talent lacks.
+  current_alternative: 人工在剪辑软件里逐条剪，或把素材交给剪辑师/外包团队，或使用通用模板化剪辑工具手动套用。
+  current_alternative_en: Editing manually in video software, handing footage to a freelance editor or
+    agency, or manually applying generic template-based editing tools.
+  usage_reason: 相较人工逐段对齐，它把“参考视频”直接作为输入，由模型反推节奏与字幕样式并一次性套用到新素材上，省掉拆解参考片和手动打字幕这两步；推断经常出镜但不会剪辑的专业人士会因此选择它，前提是成片返工量足够低。
+  usage_reason_en: Compared with aligning clips by hand, it takes the reference video as direct input
+    and has the model reverse-engineer pacing and caption style and apply them to new footage in one pass,
+    removing the steps of dissecting the reference and typing captions; the inference is that professionals
+    who appear on camera but cannot edit will choose it, provided rework stays low.

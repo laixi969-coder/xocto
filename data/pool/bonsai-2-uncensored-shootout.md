@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/BoldingBuilds/bonsai-2-uncensored-s
 summary: 11 uncensored Bonsai 2 27B builds, one bench
 first_seen: '2026-09-24T03:22:26Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Kd1ZVdnM1MUR1
 summary: 2026 年 AI CRM系统推荐：五家主流厂商实力盘点与选型指南 凤凰网财经
 first_seen: '2026-09-24T09:07:35Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

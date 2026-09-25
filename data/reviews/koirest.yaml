@@ -1,0 +1,43 @@
+- id: req-initial-koirest-2026-09-25
+  project_slug: koirest
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决休息与注意力恢复，但材料未写清具体痛点、发生节点与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-849506b12b2a9dc6
+  - gate: consensus
+    status: insufficient
+    reason: 只有社区讨论热度，没有可归因到该产品的持续使用或采用证据，关注度不等于共识。
+    evidence_ids:
+    - ev-849506b12b2a9dc6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自个人订阅、企业采购还是其他路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-849506b12b2a9dc6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近休息这一第一性目标，也看不到交付是否确定发生，AI 在其中的作用未说明。
+    evidence_ids:
+    - ev-849506b12b2a9dc6
+  next_validation: 收集该产品官方页面或文档，确认其是否使用 AI、具体输入与输出，以及是否公布定价或使用数据。
+  market: ''
+  job: 长时间盯屏幕的办公人群在连续工作后需要短暂休息时，打开网页观看锦鲤画面，试图从紧张状态中抽离并恢复注意力。
+  job_en: Office workers who stare at screens for long stretches open a web page of koi after continuous
+    work, trying to step out of tension and restore attention during a short break.
+  pain: 公开材料只写了“看鱼、找回平衡”，没有说明具体是哪类压力、在什么工作节点出现、不解决会有什么后果。
+  pain_en: Public material only says 'watch fish and regain your balance'; it does not state which pressure,
+    at which work moment, or what happens if unaddressed.
+  current_alternative: 旧做法可能是离开工位走动、看短视频、听音乐或使用冥想类应用，但候选材料没有给出任何替代行为的描述。
+  current_alternative_en: The old approach might be stepping away, watching short videos, listening to
+    music, or using a meditation app, but the candidate material describes no alternative behavior at
+    all.
+  usage_reason: 无法判断：材料没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，仅凭“看鱼”无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old approach
+    or which checkable result it improves, so ''watching fish'' alone does not explain why a user would
+    choose it.'

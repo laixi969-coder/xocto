@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE53R2FFZm1URHh0
 summary: AI客服把问句当指令取消乘客候补订单，智行火车票回应 安全内参
 first_seen: '2026-09-24T02:21:45Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

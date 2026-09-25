@@ -21,7 +21,7 @@ canonical_url: https://texastribune.org/2026/09/22/texas-prison-air-conditioning
 summary: Federal judge orders Texas to air condition all prisons by the end of 2029
 first_seen: '2026-09-24T16:15:34Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

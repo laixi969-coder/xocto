@@ -1,6 +1,6 @@
 ---
 slug: 新烛时代完成天使轮融资聚焦ai驱动聚变产业
-name: 新烛时代完成天使+轮融资，聚焦AI驱动聚变产业
+name: 新烛时代
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCa05BaHNzS1Z1
 summary: 新烛时代完成天使+轮融资，聚焦AI驱动聚变产业 投资界
 first_seen: '2026-09-24T03:13:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 新烛时代完成天使+轮融资，聚焦AI驱动聚变产业
+# 新烛时代
 
 新烛时代完成天使+轮融资，聚焦AI驱动聚变产业 投资界
 

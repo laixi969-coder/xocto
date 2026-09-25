@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTFAxVzRMLWg1X1Ff
 summary: Cornelis融资2.05亿美元打造AI网络计算新架构-AI基础设施 至顶网
 first_seen: '2026-09-15T06:14:36Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

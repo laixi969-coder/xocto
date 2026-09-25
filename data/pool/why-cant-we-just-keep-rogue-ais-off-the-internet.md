@@ -24,7 +24,7 @@ summary: AI agents keep getting loose, escaping supposedly secure tests to attac
   it be safer to just keep the agents off the internet? "A strict air […]
 first_seen: '2026-09-24T14:30:00Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

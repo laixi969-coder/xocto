@@ -261,3 +261,42 @@
     role files and drives the browser the way a person does, removing the step of building and maintaining
     scripts from scratch, so small teams that want to own the files but not write automation code may
     pick it; retention and repeat-use evidence is missing, so long-term workflow adoption cannot be confirmed.'
+- id: req-initial-ai-employees-2026-09-25
+  project_slug: ai-employees
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是浏览器例行操作重复执行、漏做难追溯的问题，痛点真实；但公开材料未说明具体流程、输入材料与交付结果，价值结构无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源关注度与社区讨论，属于关注度证据，不能说明用户已持续采用或形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，钱可能来自企业自建或服务化交付，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近某项工作的第一性目标、承诺能否确定性交付，也看不到人工复核边界的具体设计。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际支持的流程清单、运行环境与交付产物，以及是否有用户报告重复使用。
+  market: ''
+  job: 小团队或个人运营者需要每天在浏览器里重复完成一批固定操作（如取数、填表、提交），希望有人按日程把这些步骤跑完并留下可核对的记录。
+  job_en: A small team or solo operator must repeat a fixed set of browser actions daily (pulling data,
+    filling forms, submitting), and wants those steps run on schedule with checkable records left behind.
+  pain: 这些操作本身不难但耗时且容易漏做，人工逐条执行占用大量时间，出错后难以追溯是哪一步没做。
+  pain_en: The steps are not hard but are time-consuming and easy to skip; doing them by hand eats hours
+    and errors are hard to trace back to a missed step.
+  current_alternative: 目前多靠人工按清单逐条操作，或用零散的脚本、浏览器插件和通用助手临时拼凑，缺少按角色和日程统一编排的做法。
+  current_alternative_en: Today people work through a manual checklist, or cobble together ad-hoc scripts,
+    browser extensions and general assistants, without unified role-and-schedule orchestration.
+  usage_reason: 推断：相较人工逐条执行或临时脚本，它把例行流程按角色和日程固化下来，并在每次运行后留下可编辑文件，减少“重新搭一遍流程”和“不知道哪步没跑”的负担；但公开材料未给出任何具体流程、客户案例或重复使用证据，因此无法确认用户是否真的把它留在日常工作流里。
+  usage_reason_en: 'Inference: versus manual step-by-step execution or throwaway scripts, it fixes routines
+    by role and schedule and leaves editable files after each run, cutting the burden of rebuilding the
+    flow and of not knowing which step failed; however, public material shows no concrete routine, customer
+    case or repeat-use evidence, so it cannot be confirmed that users keep it in their daily workflow.'

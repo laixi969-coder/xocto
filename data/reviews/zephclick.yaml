@@ -1,0 +1,43 @@
+- id: req-initial-zephclick-2026-09-25
+  project_slug: zephclick
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议与访谈录音的转写需求，痛点是成品录音笔价格高且录音需上传云端，旧替代行为明确。
+    evidence_ids:
+    - ev-dd7c5ec9885e8a73
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 9 点、2 条评论，属于早期关注，不能说明形成共识或持续采用。
+    evidence_ids:
+    - ev-dd7c5ec9885e8a73
+  - gate: model
+    status: insufficient
+    reason: 公开材料给出 25 美元 DIY 成本与 BYOK/本地两种方式，但买方是个人还是团队、是否已有付费均未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-dd7c5ec9885e8a73
+  - gate: truth
+    status: insufficient
+    reason: 未说明转写准确率、人工校对边界与本地部署要求，交付确定性无法核对。
+    evidence_ids:
+    - ev-dd7c5ec9885e8a73
+  next_validation: 收集该产品的官方定价页或购买页，确认是否已有付费用户、按什么计价以及本地部署的具体要求。
+  market: ''
+  job: 需要记录会议或访谈的人，在会后处理录音材料，要拿到可用的文字记录或摘要。
+  job_en: People who record meetings or interviews, handling audio after the session to obtain a usable
+    transcript or summary.
+  pain: 现成 AI 录音笔售价 159 美元，且录音要上传到厂商云端，价格与数据外流都是负担。
+  pain_en: Off-the-shelf AI recorders cost $159 and upload audio to the vendor's cloud, making both price
+    and data exposure a burden.
+  current_alternative: 购买成品 AI 录音笔，或事后用通用转写服务手工处理录音。
+  current_alternative_en: Buying a finished AI recorder, or manually processing recordings with a general
+    transcription service afterwards.
+  usage_reason: 推断：它把硬件成本压到 25 美元，并允许自带密钥或本地运行，省去为转写能力支付硬件溢价、以及把录音交给第三方云端这一步，对价格敏感或对录音外流敏感的人会因此选择它；尚无付费或留存证据。
+  usage_reason_en: 'Inference: it cuts hardware cost to $25 and allows bring-your-own-key or local operation,
+    removing the hardware premium for transcription and the step of handing recordings to a third-party
+    cloud, which is why price-sensitive or privacy-sensitive users might choose it; no payment or retention
+    evidence yet.'

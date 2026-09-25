@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPU2F1d2VfQWtC
 summary: Meta Muse Is Not a Consumer AI Story. It Is a Supply Chain Architecture Story Logistics Viewpoints
 first_seen: '2026-09-24T11:09:53Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

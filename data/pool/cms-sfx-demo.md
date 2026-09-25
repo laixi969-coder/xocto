@@ -21,7 +21,7 @@ canonical_url: https://cms-sfx-demo.apeleg.com
 summary: Air-gapped file encryption as self-decrypting HTML page
 first_seen: '2026-09-24T07:22:17Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

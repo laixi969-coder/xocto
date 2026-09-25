@@ -1,0 +1,44 @@
+- id: req-initial-canary-yc-2026-09-25
+  project_slug: canary-yc
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码缺少独立核验的问题，痛点是写与判同源、人工复核慢；买方与定价未披露，属结构推理。
+    evidence_ids:
+    - ev-e13488ea883dd56c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有客户案例、团队采用或重复使用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-e13488ea883dd56c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明按席位、按验证次数还是按结果收费，买方是工程团队还是合规部门也不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e13488ea883dd56c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对验证结论的准确率、误报率与人工复核边界，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-e13488ea883dd56c
+  next_validation: 收集 Canary 官方定价页或部署文档，确认其计费方式与验证输出的具体形态。
+  market: ''
+  job: 开发团队在把 AI 生成的代码合并进仓库前，需要有人或工具对这批代码做独立核验，确认它是否可用、是否引入风险。
+  job_en: Before merging AI-generated code into a repository, a development team needs an independent
+    check of that code to confirm it is usable and does not introduce risk.
+  pain: 写代码的模型同时充当检查者，错误和漏洞容易被同一套推理放过；人工逐行复核 AI 产出又慢，且缺少可留档的结论。
+  pain_en: The model that writes the code also acts as its checker, so the same reasoning can let errors
+    and vulnerabilities through; line-by-line human review of AI output is slow and leaves no auditable
+    record.
+  current_alternative: 目前多由开发者自己重读、跑测试、用静态扫描工具或再问一遍同一个模型来兜底。
+  current_alternative_en: Today developers re-read the code themselves, run tests, use static scanners,
+    or ask the same model again as a fallback.
+  usage_reason: 推断：相较让写代码的模型自检，Canary 把验证拆成独立一步，理论上能减少“同一模型既写又判”的漏检，并给出可留档的结论，因此受监管行业或对变更审计有要求的团队会在合并前使用它；公开材料未给出客户案例或留存数据。
+  usage_reason_en: 'Inference: unlike self-checking by the writing model, Canary separates verification
+    into its own step, which could reduce same-model blind spots and produce an auditable verdict, so
+    teams in regulated industries or with change-audit duties would use it before merging. No customer
+    cases or retention data are public.'

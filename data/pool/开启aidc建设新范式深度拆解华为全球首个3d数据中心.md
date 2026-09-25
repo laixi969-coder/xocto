@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE9YVTVEQ1RPVGJN
 summary: 开启AIDC建设新范式，深度拆解华为全球首个3D数据中心 智东西
 first_seen: '2026-09-22T13:03:59Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

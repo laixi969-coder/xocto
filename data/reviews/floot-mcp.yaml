@@ -1,0 +1,45 @@
+- id: req-initial-floot-mcp-2026-09-25
+  project_slug: floot-mcp
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是把想法变成可上线应用这一步，但公开材料只有一句功能描述，说不清替代了哪一步旧工作、痛点强度如何，价值结构无法确认。
+    evidence_ids:
+    - ev-7293aaf5fb8b59f2
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句话外，没有用户评价、社区讨论或采用数据，无法判断是否有人真的在用它完成交付。
+    evidence_ids:
+    - ev-7293aaf5fb8b59f2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱来自个人开发者、团队还是平台分成，属未知而非否定。
+    evidence_ids:
+    - ev-7293aaf5fb8b59f2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成范围、部署是否自动完成、出错时人工如何介入，交付确定性缺少可验证材料。
+    evidence_ids:
+    - ev-7293aaf5fb8b59f2
+  next_validation: 收集 Floot 官方定价页或部署文档，确认构建与上线是否由其自动完成、按什么计价。
+  market: ''
+  job: 独立开发者或小团队在 Claude、ChatGPT 对话中描述一个 Web 或移动应用需求，由 Floot MCP 接收这段描述并执行构建与上线，最终要拿到一个可访问的应用。
+  job_en: A solo developer or small team describes a web or mobile app requirement inside a Claude or
+    ChatGPT conversation; Floot MCP receives that description, performs the build and ship steps, and
+    the user is meant to end up with an accessible app.
+  pain: 公开材料只给出一句“在 Claude 或 ChatGPT 内构建并上线应用”，没有说明它替代了原来哪一步手工工作、哪一步最耗时，也没有用户抱怨或旧做法描述，痛点无法从现有事实还原。
+  pain_en: Public material offers only one line about building and shipping apps inside Claude or ChatGPT;
+    it does not say which manual step it replaces or which step was most costly, and there are no user
+    complaints or descriptions of the old way, so the pain cannot be reconstructed from available facts.
+  current_alternative: 推断：开发者此前多在本地或云端 IDE 中写代码，再用独立平台完成构建与部署，对话助手只负责生成代码片段。
+  current_alternative_en: 'Inference: developers previously wrote code in a local or cloud IDE and used
+    separate platforms for build and deployment, with the assistant only producing code snippets.'
+  usage_reason: 推断：若它真能在对话内完成构建与上线，用户可省去在助手与部署平台之间来回搬运代码和配置这一步，因此没有工程团队、只想尽快拿到可访问站点的人会尝试；但公开材料未说明交付是否确定发生，也未提供任何采用或留存证据。
+  usage_reason_en: 'Inference: if it truly completes build and ship inside the conversation, users skip
+    moving code and configuration between the assistant and a deployment platform, which would appeal
+    to people without an engineering team who just want a live site; however, public material does not
+    show that delivery reliably happens, nor any adoption or retention evidence.'

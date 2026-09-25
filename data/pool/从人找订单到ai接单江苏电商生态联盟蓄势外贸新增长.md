@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa1ZfaEtjYjFy
 summary: 从“人找订单”到“AI接单”，江苏电商生态联盟蓄势外贸新增长 中国江苏网
 first_seen: '2026-09-24T05:41:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

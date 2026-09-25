@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOZ0F6eGRQYVh4
 summary: 一个量子AI团队，三个月融两轮 36kr.com
 first_seen: '2026-09-23T10:32:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

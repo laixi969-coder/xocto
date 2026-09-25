@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GNXB3S1JneU90
 summary: 天融信中报解读：订单、营收与AI共振，价值重估或已开启 同花顺财经
 first_seen: '2026-08-31T09:09:28Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

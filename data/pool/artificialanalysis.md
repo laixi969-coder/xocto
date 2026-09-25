@@ -3,12 +3,13 @@ slug: artificialanalysis
 name: Artificial Analysis
 builder: Gcam
 category: 基础层
-summary_zh: Artificial Analysis 是第三方模型评测与榜单服务，本次更新的是评测口径（Intelligence Index v4.2）和若干模型的跑分与价格对比。它本身不替用户完成具体业务任务，属于模型选型参考信息。
+summary_zh: Artificial Analysis 是第三方模型评测与对比站点，本次新增的是 Intelligence Index v4.2 评测口径、按用例自定义基准的 Optima 工具，以及
+  Coding Agent Index 与推理速度数据。它服务的是选型与采购判断，本身不交付面向终端业务的产出。
 inspiration: 趋势是选模型从看总榜变成用自己的活来测。切入做企业采购前的选型：同一任务比准不准、价钱和快慢，按评测场次收费，不要再做一张人人都能看的总榜。
-summary_en: Artificial Analysis is a third-party model evaluation and leaderboard service; this update
-  covers its evaluation methodology (Intelligence Index v4.2) and benchmark and price comparisons for
-  several models. It does not perform a concrete business task for users and serves as model-selection
-  reference information.
+summary_en: Artificial Analysis is a third-party model evaluation and comparison site; this update adds
+  the Intelligence Index v4.2 methodology, the Optima tool for custom per-use-case benchmarks, and Coding
+  Agent Index and inference-speed data. It serves model selection and procurement decisions rather than
+  delivering end-business output itself.
 inspiration_en: 'The trend is model choice moving from public boards to tests on your actual work. The
   entry is vendor selection before a company buys: same job, compared on accuracy, price, and latency,
   billed per run — not another public ranking.'
@@ -26,7 +27,7 @@ canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

@@ -24,7 +24,7 @@ summary: Leaders from Waabi, Shield AI, and General Motors join the Real World A
   at 50% off.
 first_seen: '2026-09-24T15:00:00Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: aderant-builds-intelligent-ticket-triage-with-amazon-nova
-name: Aderant builds intelligent ticket triage with Amazon Nova
+name: Aderant
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Learn how Aderant built an intelligent ticket triage system on Amazon N
   operations team.
 first_seen: '2026-09-24T16:06:46Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Aderant builds intelligent ticket triage with Amazon Nova
+# Aderant
 
 Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classification, routing, and knowledge enrichment for its cloud operations team.
 

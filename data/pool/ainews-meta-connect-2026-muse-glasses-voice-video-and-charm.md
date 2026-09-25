@@ -21,7 +21,7 @@ canonical_url: https://latent.space/p/ainews-meta-connect-2026-muse-glasses
 summary: Team Zuck is absolutely on fire.
 first_seen: '2026-09-24T08:12:59Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -209,3 +209,46 @@
     and executes actions directly, removing the need for users to click and move items one by one, which
     appeals to users who frequently handle similar desktop operations; but without retention or repeated-use
     evidence, it cannot be confirmed as staying in the workflow long term.'
+- id: req-initial-metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp-2026-09-25
+  project_slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用手工处理本地文件的重复劳动，痛点具体、旧做法可指认；但支持范围与权限边界未披露，交付确定性仍待核验。
+    evidence_ids:
+    - ev-ec1978be8b4b1966
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有上线 Mac 与厂商说法，没有用户评价、采用规模或重复使用证据，场景共识尚不能确认。
+    evidence_ids:
+    - ev-ec1978be8b4b1966
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是个人订阅还是随平台捆绑属推断，不能当作已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 在用户电脑上代为操作涉及文件权限与误操作风险，材料未说明人工确认与回滚机制，安全边界待核验。
+    evidence_ids:
+    - ev-ec1978be8b4b1966
+  next_validation: 收集 Muse 官方产品页或帮助文档，核验其支持的应用范围、文件权限与人工确认/回滚机制。
+  market: ''
+  job: 个人用户在 Mac 上整理本地文件、跨应用完成一件具体事务（如把一批文件按规则归类并更新到对应应用）时，让助手读取文件并代为操作，最后自己核对结果。
+  job_en: An individual on a Mac who needs to organize local files and complete a concrete cross-app chore
+    (for example, sorting a batch of files by rules and updating the matching app) lets the assistant
+    read the files and act, then checks the result.
+  pain: 跨应用的手工操作重复、步骤琐碎，用户要在多个窗口间复制粘贴、改名、移动文件，容易漏项且难以复核。
+  pain_en: 'Manual cross-app work is repetitive and fiddly: users copy, rename and move files across windows,
+    which is error-prone and hard to audit.'
+  current_alternative: 用户目前靠手动操作 Finder 与各应用，或使用快捷键、脚本、单点自动化工具，仍需自己逐步执行和检查。
+  current_alternative_en: Today users do it by hand in Finder and each app, or with shortcuts, scripts
+    and single-point automation tools, still executing and checking each step themselves.
+  usage_reason: 推断：相较手动逐步操作，Muse 直接读取文件并调用应用执行动作，省掉用户在多个窗口间搬运和重复点击的那一步；对文件密集、步骤固定的个人用户，在需要批量处理且愿意事后核对结果时会选择它。缺少留存与重复使用证据，尚不能断言已进入长期工作流。
+  usage_reason_en: 'Inference: versus step-by-step manual work, Muse reads files and calls apps to perform
+    the action, removing the step of shuttling between windows and repeating clicks; file-heavy individuals
+    with fixed-step chores would choose it when batch processing and willing to verify results afterwards.
+    Retention and repeat-use evidence is missing, so long-term workflow adoption cannot be claimed.'

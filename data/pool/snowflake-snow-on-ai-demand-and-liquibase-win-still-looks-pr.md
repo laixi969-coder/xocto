@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEtXWUlsSmZO
 summary: Snowflake (SNOW) On AI Demand And Liquibase Win Still Looks Pricey To Some simplywall.st
 first_seen: '2026-09-24T11:20:13Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

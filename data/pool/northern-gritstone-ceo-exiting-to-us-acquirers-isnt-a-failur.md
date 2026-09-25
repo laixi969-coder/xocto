@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/northern-gritstone-ceo-exiting-to-us-a
 summary: ''
 first_seen: '2026-09-24T05:00:21Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

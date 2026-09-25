@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/496834.html
 summary: 让自动驾驶“走一步想十步”
 first_seen: '2026-09-24T12:58:55Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

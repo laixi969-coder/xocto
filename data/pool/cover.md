@@ -3,31 +3,22 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: 开发者在把客户名单、病历或合同等敏感材料发给外部模型前，先把请求改道经过这个代理：真实字段被替换成看起来真实的假值，模型返回结果后在本地把原始值还原。用户拿到的是可继续使用的模型输出，同时真实数据没有离开本地；具体支持的模型、字段类型和还原准确度仍待核验。
-inspiration: 趋势是敏感数据进模型前的脱敏与还原正在从人工流程变成一层可复用的中间件。切入可以从律所、诊所、财税这类必须把真实材料交给外部模型、又受合规约束的机构做起，卖点是本地还原与可审计的替换记录，而不是模型能力本身。
-summary_en: 'Before sending sensitive material such as client lists, medical records or contracts to an
-  external model, developers route the request through this proxy: real fields are replaced with realistic
-  fakes, and the originals are restored locally after the model responds. The user gets usable model output
-  while the real data stays local; supported models, field types and restore accuracy still need verification.'
-inspiration_en: The trend is that de-identification and local restoration before data reaches a model
-  is turning from a manual step into a reusable middleware layer. The opening is to start with law firms,
-  clinics and accounting practices that must hand real material to external models under compliance constraints,
-  selling local restoration and an auditable substitution log rather than model capability.
+summary_zh: 开发者在把真实数据交给外部 AI 接口前打开它，由代理把姓名、地址等敏感字段替换成逼真的假值再发出请求，返回结果在本地还原成原始信息。用户拿到的是可继续使用的真实输出，但具体支持的字段类型、还原准确率和人工复核环节仍待核验。
+inspiration: 趋势是 AI 调用正在把企业内部数据持续送出边界，隐私处理从合规文档变成请求链路上的一步。切入可以从处理个人数据的行业（医疗、金融、法务外包）进入，把脱敏做成随调用计费或按数据量收费的网关，而不是再做一个通用代理框架。
+summary_en: 'Developers open it before sending real data to an external AI API: the proxy swaps names,
+  addresses and other sensitive fields for realistic fakes, then restores the originals locally in the
+  returned output. Users get usable real output, though supported field types, restoration accuracy and
+  any human review step still need verification.'
+inspiration_en: 'The trend is that AI calls keep pushing internal data across the boundary, turning privacy
+  handling from a compliance document into a step in the request path. Entry point: industries handling
+  personal data (healthcare, finance, outsourced legal), selling de-identification as a per-call or per-volume
+  gateway rather than another generic agent framework.'
 priority_review: false
 project_type: open_source
-industries:
-- 法律服务
-- 医疗健康
-- 软件开发
-industries_en:
-- legal services
-- healthcare
-- software development
-jobs:
-- 开发者在把客户名单、病历或合同等敏感材料送进外部模型前，需要先脱敏再调用，并在本地还原真实字段
-jobs_en:
-- Developers who must de-identify client lists, medical records or contracts before sending them to an
-  external model, then restore the real fields locally
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
 regions: []
 regions_en: []
 open_source: true
@@ -36,7 +27,7 @@ canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - officialfeeds

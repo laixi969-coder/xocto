@@ -1,0 +1,44 @@
+- id: req-initial-memorynotch-2026-09-25
+  project_slug: memorynotch
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决现场录音转文字的需求，但公开材料只有一句功能描述，说不清旧流程卡在哪、不采用会损失什么，价值结构无法成立。
+    evidence_ids:
+    - ev-6b2cc43315b3174f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立。社区仅 5 分、0 评论，既无采用也无讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-6b2cc43315b3174f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立。没有定价页、客户案例或付费路径信息，买方与收费方式均未知。
+    evidence_ids:
+    - ev-6b2cc43315b3174f
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立。离线转写是否真能贴近会议记录的第一性目标、准确率与人工校对边界如何，均无材料支持。
+    evidence_ids:
+    - ev-6b2cc43315b3174f
+  next_validation: 收集 memorynotch 官方页面或发布说明中关于支持语言、转写准确率、导出格式与定价的公开描述。
+  market: ''
+  job: MacBook 用户在会议、访谈或课堂现场，用麦克风采集语音材料，需要事后得到一份可检索、可引用的文字记录。
+  job_en: A MacBook user captures speech with the microphone during a meeting, interview or lecture and
+    needs a searchable, quotable text record afterwards.
+  pain: 公开材料只说明它是离线录音与转写工具，没有说明用户此前具体卡在哪一步、不采用会损失什么，痛点无法从现有事实还原。
+  pain_en: Public material only says it is an offline recorder and transcriber; it does not show which
+    step users were stuck on or what they lose without it, so the pain cannot be reconstructed from available
+    facts.
+  current_alternative: 常见替代是手机自带录音加云端转写服务，或会后人工整理笔记；候选材料未说明 memorynotch 相对这些做法的差异。
+  current_alternative_en: Common alternatives are phone recording plus a cloud transcription service,
+    or manually writing up notes after the meeting; the candidate material does not state how memorynotch
+    differs from these.
+  usage_reason: 推断：如果转写质量可用，本地处理能省去上传音频和等待云端返回这一步，对不能外传录音的用户有吸引力；但缺少准确率、语言支持和留存证据，无法确认用户会持续使用。
+  usage_reason_en: 'Inference: if transcription quality holds up, local processing removes the upload-and-wait
+    step and appeals to users who cannot send recordings off-device; but accuracy, language support and
+    retention evidence are missing, so continued use cannot be confirmed.'

@@ -26,7 +26,7 @@ summary: 'Semi-supervised federated learning (SSFL) trains models on clients’ 
   (the server-side updates on labeled data that stabilize training). On the teacher…'
 first_seen: '2026-09-24T00:00:00Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

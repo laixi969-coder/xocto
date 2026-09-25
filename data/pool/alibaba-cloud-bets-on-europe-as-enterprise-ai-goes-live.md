@@ -1,6 +1,6 @@
 ---
 slug: alibaba-cloud-bets-on-europe-as-enterprise-ai-goes-live
-name: Alibaba Cloud bets on Europe as enterprise AI goes live
+name: Alibaba Cloud
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOdlBFQzZzWUFy
 summary: Alibaba Cloud bets on Europe as enterprise AI goes live FinTech Global
 first_seen: '2026-09-24T14:04:44Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Alibaba Cloud bets on Europe as enterprise AI goes live
+# Alibaba Cloud
 
 Alibaba Cloud bets on Europe as enterprise AI goes live FinTech Global
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFByeF80LWNZUWtl
 summary: AI资本开支，迎来利率压力测试 eeo.com.cn
 first_seen: '2026-09-24T09:27:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

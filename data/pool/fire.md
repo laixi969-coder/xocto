@@ -21,7 +21,7 @@ canonical_url: https://github.com/karmanyaahm/budget-tools/tree/main/fire
 summary: How long do I need to work at my salary before I can coast, or retire?
 first_seen: '2026-09-24T03:53:54Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

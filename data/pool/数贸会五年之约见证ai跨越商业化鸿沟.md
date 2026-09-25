@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YVkZWVjJkbENp
 summary: 数贸会“五年之约”，见证AI跨越商业化鸿沟 新蓝网
 first_seen: '2026-09-24T09:22:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

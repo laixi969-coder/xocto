@@ -21,7 +21,7 @@ canonical_url: https://afr.com/policy/health-and-education/tutoring-company-tell
 summary: Tutoring company tells parents to save their money and 'use AI instead'
 first_seen: '2026-09-24T15:09:38Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

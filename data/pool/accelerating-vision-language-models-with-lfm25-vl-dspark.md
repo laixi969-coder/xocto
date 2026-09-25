@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark
 summary: ''
 first_seen: '2026-09-24T14:08:57Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

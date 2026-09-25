@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/PrunaAI/Pruna-Qwen-Image-2.1
 summary: ''
 first_seen: '2026-09-24T20:11:23Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

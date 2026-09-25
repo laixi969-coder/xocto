@@ -21,7 +21,7 @@ canonical_url: https://soakingsprings.com/hot-springs/geothermal-map
 summary: Geothermal heat map of US hot springs
 first_seen: '2026-09-23T20:12:10Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

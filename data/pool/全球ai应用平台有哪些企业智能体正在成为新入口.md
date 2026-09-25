@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQNk4wRTgyTmpR
 summary: 全球AI应用平台有哪些？企业智能体正在成为新入口 k.sina.com.cn
 first_seen: '2026-09-24T09:01:24Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

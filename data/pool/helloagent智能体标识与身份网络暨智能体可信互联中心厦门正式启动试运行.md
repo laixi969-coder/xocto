@@ -3,14 +3,12 @@ slug: helloagent智能体标识与身份网络暨智能体可信互联中心厦�
 name: 智能体标识与身份网络暨智能体可信互联中心（厦门）
 builder: ''
 category: ''
-summary_zh: 2026年9月22日，智能体标识与身份网络暨智能体可信互联中心（厦门）启动试运行，为智能体提供标识与身份互认基础设施。这意味着智能体跨平台可信互联开始有公共基础设施支撑，对 AI
-  应用的身份认证、互操作与合规交付构成新的外部条件（推断）。
+summary_zh: 这是2026年9月在厦门启动试运行的智能体标识与身份互认基础设施，面向需要跨平台调用智能体的机构，为其提供智能体身份登记与互认能力；公开材料未说明具体参与方、技术规范与交付流程，具体流程或交付仍待核验。
 inspiration: ''
-summary_en: On September 22, 2026, the Agent Identifier and Identity Network and the Trusted Agent Interconnection
-  Center (Xiamen) began trial operation, providing identifier and identity infrastructure for agents.
-  This means trusted cross-platform agent interconnection is beginning to gain public infrastructure support,
-  creating new external conditions for identity authentication, interoperability and compliant delivery
-  of AI applications (inference).
+summary_en: This is agent identity and mutual-recognition infrastructure that entered trial operation
+  in Xiamen in September 2026, aimed at organizations that need to invoke agents across platforms, offering
+  agent identity registration and recognition; the public material does not describe participants, specifications
+  or delivery process, so the concrete workflow and deliverables remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vVFlXdk5ZWlcz
 summary: Hello,Agent——智能体标识与身份网络暨智能体可信互联中心（厦门）正式启动试运行 rmzxw.com.cn
 first_seen: '2026-09-22T02:34:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

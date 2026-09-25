@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTFA5c0lISkJDRGZ6
 summary: YouTube Adds New AI Tools for Creators innovation-village.com
 first_seen: '2026-09-23T15:07:46Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

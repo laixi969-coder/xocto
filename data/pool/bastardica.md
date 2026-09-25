@@ -21,7 +21,7 @@ canonical_url: https://bastardica.mitpit.com
 summary: Make cursed fonts like Times New Bastard
 first_seen: '2026-09-23T22:53:28Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

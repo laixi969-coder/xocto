@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ1hGTmllendP
 summary: Does Commercial AI Adoption Change The Bull Case For Palantir (PLTR)? simplywall.st
 first_seen: '2026-09-24T09:57:08Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

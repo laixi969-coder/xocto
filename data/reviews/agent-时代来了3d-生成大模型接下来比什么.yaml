@@ -1,0 +1,44 @@
+- id: req-initial-agent-时代来了3d-生成大模型接下来比什么-2026-09-25
+  project_slug: agent-时代来了3d-生成大模型接下来比什么
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是 3D 场景搭建与跨工具交付的重复劳动，痛点结构成立，但候选只有一篇报道转述，没有从业者痛点、旧流程耗时或交付结果的事实。
+    evidence_ids:
+    - ev-cc6635d6116fbde5
+  - gate: consensus
+    status: insufficient
+    reason: 报道提出 Agent-Ready 是新门槛，属于媒体判断；没有客户、社区或采购层面的采用信号。
+    evidence_ids:
+    - ev-cc6635d6116fbde5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱来自工作室席位、按场景交付还是模型调用量。
+    evidence_ids:
+    - ev-cc6635d6116fbde5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 Hyper3D 的实际生成质量、Agent 调用接口与人工确认边界，交付确定性未明。
+    evidence_ids:
+    - ev-cc6635d6116fbde5
+  next_validation: 收集 Hyper3D 官方文档或定价页，确认其是否提供 Agent 可调用的接口、按什么计价以及交付物形态。
+  market: ''
+  job: 3D 场景美术或建筑可视化设计师在接到住宅设计需求时，需要把户型、家具、灯光和相机运动做成可进入 Unreal Engine 5 的完整场景。
+  job_en: A 3D scene artist or architectural visualization designer who, given a housing brief, must turn
+    floor plan, furniture, lighting and camera motion into a complete scene usable in Unreal Engine 5.
+  pain: 手工搭场景、摆家具、调灯光、处理单位与坐标转换、材质映射和碰撞，步骤多且返工频繁；候选材料未给出从业者自述的痛点。
+  pain_en: Hand-building scenes, placing furniture, tuning lighting, handling unit and coordinate conversion,
+    material mapping and collision involves many steps and frequent rework; the candidate material gives
+    no practitioner-reported pain.
+  current_alternative: 在 Blender 与 Unreal Engine 5 中手工建模、摆放与导出，或使用既有 3D 生成工具产出静态资产后再人工整理。
+  current_alternative_en: Manual modelling, placement and export in Blender and Unreal Engine 5, or existing
+    3D generation tools producing static assets that are then cleaned up by hand.
+  usage_reason: 推断：若专业 3D 模型能被 Agent 直接调用并支持后续修改，可省去人工在工具间搬运资产、换算单位与重做材质这一步，因此承接批量场景交付的团队可能选择它；候选未提供用户反馈或采用证据。
+  usage_reason_en: 'Inference: if a professional 3D model can be called directly by agents and supports
+    later edits, it removes the manual step of moving assets between tools, converting units and redoing
+    materials, so teams delivering scenes at volume may choose it; the candidate offers no user feedback
+    or adoption evidence.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZVkVaeW5pbVZk
 summary: 前商汤骨干AI创业，融资约2亿！ 新浪财经
 first_seen: '2026-09-23T13:04:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

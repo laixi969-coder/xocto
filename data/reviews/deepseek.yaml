@@ -197,3 +197,50 @@
     conversation with iterative edits; if the sandbox training environment in the paper ships, multi-step
     tasks could be trialed in a controlled setting before delivery — an inference, since public material
     does not yet show this reaching the user-facing product.
+- id: req-initial-deepseek-2026-09-25
+  project_slug: deepseek
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决查资料、写初稿、写代码耗时且质量不稳的需求，痛点刚性，交付为可直接使用的答案或代码，用户仍需自行核对。
+    evidence_ids:
+    - ev-5b7c966e61fa771b
+  - gate: consensus
+    status: supported
+    reason: 已有公开规模与收入报道，说明大量用户持续使用并形成付费，共识不卡在感知或场景环节。
+    evidence_ids:
+    - ev-5b7c966e61fa771b
+    - ev-39d605c5ee30f98c
+  - gate: model
+    status: insufficient
+    reason: 报道称年化收入 10 亿美元并完成 75 亿美元融资，但公开材料未给出定价页与付费结构，买方与收费方式仍属推断。
+    evidence_ids:
+    - ev-5b7c966e61fa771b
+    - ev-24aa53d8c80c1af9
+  - gate: truth
+    status: supported
+    reason: 对话式问答与代码生成贴近该任务的第一性目标，输出可被用户核对；推理吞吐提升的报道指向交付成本下降。
+    evidence_ids:
+    - ev-632bc152c45aef94
+  next_validation: 收集 DeepSeek 官方定价页或 API 计费文档，核验其收费方式与单位价格。
+  market: ''
+  job: 个人用户与知识工作者在写作、查资料、写代码或日常问答时，把问题或材料交给对话界面，要拿到可直接使用的答案、草稿或代码；企业与开发者则要在自有系统里调用模型完成文本生成与推理。
+  job_en: Individual users and knowledge workers hand questions or material to a chat interface for writing,
+    research, coding or daily questions and need usable answers, drafts or code; enterprises and developers
+    need to call the model inside their own systems for text generation and reasoning.
+  pain: 过去查资料要跨多个网页自行筛选，写初稿和代码要从零动手，耗时且质量不稳定；企业自建同等能力需要算力与工程投入。
+  pain_en: Previously people had to sift across many web pages for research and write drafts and code
+    from scratch, which is slow and uneven in quality; enterprises building equivalent capability themselves
+    need compute and engineering investment.
+  current_alternative: 搜索引擎加人工整理、自己从零写初稿、使用其他通用聊天助手，或企业自行部署开源模型。
+  current_alternative_en: Search engines plus manual collation, writing drafts from scratch, using other
+    general chat assistants, or enterprises self-hosting open models.
+  usage_reason: 相较搜索加人工整理，它把检索、归纳和成稿合并成一次对话动作，用户少走筛选与拼接这一步；相较自建模型，接口调用省去算力与部署投入。推断：需要高频产出文字或代码、又不想维护基础设施的个人与团队会因此选择它。
+  usage_reason_en: 'Compared with search plus manual collation, it merges retrieval, synthesis and drafting
+    into one conversational action, removing the filtering and stitching step; compared with self-hosting,
+    API calls remove compute and deployment work. Inference: individuals and teams producing text or code
+    frequently without wanting to run infrastructure will choose it for this reason.'

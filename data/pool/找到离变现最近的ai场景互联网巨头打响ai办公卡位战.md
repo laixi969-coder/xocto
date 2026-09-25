@@ -1,32 +1,45 @@
 ---
 slug: 找到离变现最近的ai场景互联网巨头打响ai办公卡位战
-name: AI办公
+name: 库库AI
 builder: ''
-category: ''
-summary_zh: 2026年8月至9月，多家互联网厂商密集推出AI办公产品，百度披露库库AI全球月活超4000万、海外版Kooko用户破千万，同时出现全栈国产模型在单张3090显卡上本地部署企业AI办公的方案。这表明AI办公正从浅层模型比拼转向混合架构与本地化部署，企业侧采用门槛下降，竞争焦点转向流程协同与私有化交付能力。
-inspiration: ''
-summary_en: From August to September 2026, multiple internet vendors launched AI office products in quick
-  succession; Baidu disclosed that Kuku AI surpassed 40 million global monthly active users and its overseas
-  version Kooko exceeded 10 million users, while a full-stack domestic model solution brought enterprise
-  AI office work on-premises on a single 3090 GPU. This indicates AI office competition is shifting from
-  shallow model comparisons toward hybrid architectures and local deployment, lowering enterprise adoption
-  barriers and moving the competitive focus to workflow collaboration and private delivery capability.
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 企业员工在写文档、整理会议材料或推进跨部门流程时打开库库AI，把原始材料交给它生成初稿或整理结果；公开材料只给出月活与出海规模，具体输入、动作与交付流程仍待核验，人工确认环节也未说明。
+inspiration: 趋势是AI办公从“能生成”转向“每件事做得准确专业”，并开始以本地化工作流出海。切入可考虑从某个垂直职能（如合同、招投标、财务对账）的交付准确性入手，而非再做通用办公助手；窗口已被巨头占据，正面打通用入口不划算。
+summary_en: Employees open Kuku AI when drafting documents, organizing meeting materials or pushing cross-department
+  workflows, feeding raw material in to get a draft or organized output; public material only gives MAU
+  and overseas scale, so the exact input, actions and delivery flow remain unverified, as does any human
+  confirmation step.
+inspiration_en: The trend is AI office tools shifting from 'can generate' to 'accurate and professional
+  per task', and going overseas with localized workflows. A wedge could be delivery accuracy in one vertical
+  function (contracts, bidding, financial reconciliation) rather than another general office assistant;
+  the general entry point is already taken by giants, so head-on competition there is unwise.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 企业办公
+- 软件与信息服务
+industries_en:
+- Enterprise office
+- Software and IT services
+jobs:
+- 办公文档撰写与整理
+- 跨部门流程协同
+jobs_en:
+- Office document drafting and organizing
+- Cross-department workflow coordination
+regions:
+- 中国
+- 海外
+regions_en:
+- China
+- Overseas
 open_source: false
 url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmpsOTJTbEUzZl96b1BDZlNBc3ZnbUh5aXVCWWR0SVpkbWRoRDE0QUc2WGlwUjJ5TUVXUGVnVVlSelBaY1hmQXdrcVZSSDBZczZ0c2prU1dFbnp2cnR0Z1BvQXh1UzhEMkRHQQ?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmpsOTJTbEUzZl96b1BDZlNBc3ZnbUh5aXVCWWR0SVpkbWRoRDE0QUc2WGlwUjJ5TUVXUGVnVVlSelBaY1hmQXdrcVZSSDBZczZ0c2prU1dFbnp2cnR0Z1BvQXh1UzhEMkRHQQ?oc=5
 summary: 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战 京报网
 first_seen: '2026-08-26T11:44:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 - marketfeeds
@@ -78,7 +91,7 @@ sightings:
   kind: news
 ---
 
-# AI办公
+# 库库AI
 
 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战 京报网
 

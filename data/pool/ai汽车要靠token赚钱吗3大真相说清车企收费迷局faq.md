@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5VamZlcWNVUzZY
 summary: AI汽车要靠Token赚钱吗？3大真相说清车企收费迷局+FAQ k.sina.com.cn
 first_seen: '2026-09-24T12:34:46Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

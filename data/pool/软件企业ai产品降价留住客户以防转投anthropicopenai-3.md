@@ -1,11 +1,16 @@
 ---
 slug: 软件企业ai产品降价留住客户以防转投anthropicopenai-3
-name: 软件企业AI产品降价，留住客户以防转投Anthropic、OpenAI
+name: 软件企业AI产品降价
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月23日报道显示，软件企业正对其AI产品降价，以防止客户转投Anthropic与OpenAI。这一价格竞争意味着企业级AI应用的采购成本可能下降、客户议价能力增强，模型供应商与上层软件商之间的客户争夺加剧；但材料未给出具体企业、降幅或客户数据，尚不足以确认行业整体定价趋势。
 inspiration: ''
-summary_en: ''
+summary_en: A September 23, 2026 report indicates that software companies are cutting prices on their
+  AI products to keep customers from switching to Anthropic and OpenAI. This price competition implies
+  potentially lower procurement costs and greater buyer leverage for enterprise AI applications, intensifying
+  customer competition between model providers and application-layer software vendors; however, the material
+  gives no specific companies, discount levels, or customer data, so it is insufficient to confirm an
+  industry-wide pricing shift.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingJBVV95cUxOeUZnQlF5Wjl1
 summary: 软件企业AI产品降价，留住客户以防转投Anthropic、OpenAI 新浪财经
 first_seen: '2026-09-23T03:25:20Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 软件企业AI产品降价，留住客户以防转投Anthropic、OpenAI
+# 软件企业AI产品降价
 
 软件企业AI产品降价，留住客户以防转投Anthropic、OpenAI 新浪财经
 

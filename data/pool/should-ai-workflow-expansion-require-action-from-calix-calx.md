@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNR0NXLWQyMm5S
 summary: Should AI Workflow Expansion Require Action From Calix (CALX) Investors? simplywall.st
 first_seen: '2026-09-23T18:49:38Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

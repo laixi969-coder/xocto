@@ -1,6 +1,6 @@
 ---
 slug: datasette-10a41
-name: datasette 1.0a41
+name: Datasette
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: "Release:   datasette 1.0a41  \n         Alec Garcia added  support for
   \ ,  web-components ,  alex-garcia ,  opentelemetry"
 first_seen: '2026-09-24T19:15:23Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# datasette 1.0a41
+# Datasette
 
 Release:   datasette 1.0a41  
          Alec Garcia added  support for OpenTelemetry  to Datasette in this release. 

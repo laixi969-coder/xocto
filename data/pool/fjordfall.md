@@ -21,7 +21,7 @@ canonical_url: https://fjordfall.fly.dev
 summary: Take the long way down
 first_seen: '2026-09-23T22:19:14Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

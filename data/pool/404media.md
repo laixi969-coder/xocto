@@ -1,31 +1,45 @@
 ---
 slug: 404media
-name: AI Agents
+name: Dextr AI
 builder: pavel_lishin
-category: ''
-summary_zh: 有报道称AI智能体已在破坏互联网内容生态，另有报道称参与训练OpenAI模型的人员因使用AI完成训练工作而被解雇。这些事实表明智能体大规模自动化访问与生成正在冲击内容平台秩序，同时AI训练环节的用工规范出现争议，对依赖公开数据与人工标注的AI应用在数据获取、合规与成本上构成压力。
-inspiration: ''
-summary_en: Reports say AI agents are already degrading the internet content ecosystem, and separately
-  that workers training OpenAI's models were fired for using AI to do the training work. These facts indicate
-  that large-scale automated agent access and generation are disrupting content platform order, while
-  labor practices in AI training are becoming contested, pressuring AI applications that rely on public
-  data and human annotation in terms of data access, compliance and cost.
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 酒店前台或预订专员在接听订房电话、处理住客临时请求（如延迟入住）时，原本要人工记录并转达给客房、维修等岗位；Dextr AI 的智能体接收这些预订与请求，代为应答并协调员工任务，最终交付的是已分派的工单或确认结果，人工仍需在异常情况下确认。具体流程与交付细节仍待核验。
+inspiration: The trend is that labor-heavy, request-fragmented service businesses like hotels are starting
+  to hand phone and ticketing steps to agents. An entry point is the night-shift and front-desk gap at
+  independent hotels and small chains, charged per booking or request handled rather than per seat; this
+  pricing idea is inference and no price has been disclosed.
+summary_en: A hotel front desk or reservations agent taking booking calls and handling last-minute guest
+  requests such as late check-in would normally log them by hand and relay them to housekeeping or maintenance.
+  Dextr AI's agents receive those bookings and requests, respond on the hotel's behalf and coordinate
+  staff tasks, delivering an assigned work order or confirmation, with humans still confirming exceptions.
+  Exact workflow and delivery details remain unverified.
+inspiration_en: Validate sustained use in a real workflow before deciding whether the opportunity merits
+  investment.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 酒店与住宿
+- 旅游与酒店服务
+industries_en:
+- Hotels and accommodation
+- Travel and hospitality
+jobs:
+- 酒店前台与预订专员
+- 酒店运营经理
+jobs_en:
+- Hotel front desk and reservations staff
+- Hotel operations manager
+regions:
+- 美国
+regions_en:
+- United States
 open_source: false
 url: https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/
 canonical_url: https://404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet
 summary: There's a 100% Chance AI Agents Are Ruining the Internet
 first_seen: '2026-09-15T16:38:45Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 - marketfeeds
@@ -57,7 +71,7 @@ sightings:
   kind: news
 ---
 
-# AI Agents
+# Dextr AI
 
 There's a 100% Chance AI Agents Are Ruining the Internet
 

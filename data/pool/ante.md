@@ -3,26 +3,23 @@ slug: ante
 name: Ante
 builder: ubermon
 category: AI + 开发
-summary_zh: 开发者在代码不能出内网或本机的环境里做编码任务时打开它，过去这类环境只能手写代码或自建本地模型环境。它把编码代理打包成单个可执行文件，离线接收编码任务并生成或修改代码，产出可人工审查的代码改动；具体能力与交付细节仍待核验。
-inspiration: 趋势：编码代理正从云端走向本地离线部署，代码保密与内网合规正变成企业采购编码工具的硬理由。切入：面向金融、国防、医疗等代码保密有硬约束的行业团队，卖带企业许可与支持的离线部署版，不与云代理拼通用能力。
-summary_en: For developers working where code must stay on an offline machine, this packs a coding agent
-  into a single binary that receives coding tasks and edits code locally, delivering changes for human
-  review; exact capabilities remain unverified.
-inspiration_en: 'Trend: coding agents are moving from the cloud to local offline deployment, making code
-  confidentiality a hard purchasing driver. Entry: sell licensed, supported offline builds to finance,
-  defense, and healthcare teams with strict code secrecy needs.'
+summary_zh: 面向需要在无网络或受限环境中改代码的开发者：在本地终端打开一个单文件可执行程序，由它读取本地代码库并执行编码任务，产出代码改动供人工确认。候选资料只给出“单二进制、可离线运行的编码代理”这一句描述，具体支持的模型、输入方式与交付流程仍待核验。
+inspiration: 趋势是编码代理开始从云端订阅转向可离线、可私有部署的单体交付，卖点从模型能力变成部署与数据边界。切入可考虑对代码不能出内网有硬约束的行业（金融、军工、医疗信息化）的研发团队，以私有化部署或按席位授权的方式卖，而不是按
+  token 转售。
+summary_en: 'For developers who must edit code in offline or restricted environments: a single-binary
+  executable opened in the local terminal reads the local codebase and carries out coding tasks, producing
+  code changes for human review. The candidate material only states that it is a single-binary, offline-capable
+  coding agent; supported models, input method and delivery flow still need verification.'
+inspiration_en: The trend is coding agents moving from cloud subscriptions to offline, privately deployable
+  single binaries, where the selling point shifts from model capability to deployment and data boundaries.
+  A possible entry is R&D teams in sectors with hard constraints on code leaving the intranet (finance,
+  defense, healthcare IT), sold as private deployment or per-seat licensing rather than token resale.
 priority_review: false
 project_type: open_source
-industries:
-- 软件开发
-industries_en:
-- Software Development
-jobs:
-- 软件工程师
-- 技术负责人
-jobs_en:
-- Software Engineers
-- Tech Leads
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
 regions: []
 regions_en: []
 open_source: true
@@ -31,7 +28,7 @@ canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

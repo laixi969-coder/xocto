@@ -1,6 +1,6 @@
 ---
 slug: 破晓先行-智领未来华硕商用破晓家族拥抱ai-agent
-name: 破晓先行 智领未来！华硕商用破晓家族拥抱AI Agent
+name: 华硕商用破晓家族
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2S0p1OVJDYXFp
 summary: 破晓先行 智领未来！华硕商用破晓家族拥抱AI Agent news.mydrivers.com
 first_seen: '2026-09-24T01:24:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 破晓先行 智领未来！华硕商用破晓家族拥抱AI Agent
+# 华硕商用破晓家族
 
 破晓先行 智领未来！华硕商用破晓家族拥抱AI Agent news.mydrivers.com
 

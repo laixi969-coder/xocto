@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/notchpop
 summary: The Dynamic Island your MacBook notch was missing
 first_seen: '2026-09-24T06:32:47Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

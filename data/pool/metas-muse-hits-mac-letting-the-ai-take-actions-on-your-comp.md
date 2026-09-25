@@ -3,32 +3,26 @@ slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
 name: Muse
 builder: ''
 category: 通用助手
-summary_zh: Mac 用户在处理本地文件与多个应用之间的重复操作时打开 Muse，它读取文件与应用内容并代为执行操作，用户拿到的是被实际执行的动作结果；具体支持哪些应用、哪些操作需人工确认，候选材料未说明，仍待核验。
-inspiration: 趋势：桌面端助手从“回答问题”走向“直接动用户的文件和软件”，操作权限与可撤销性成为新的竞争点。切入：先做权限边界清晰、可回滚的单一高频动作（如批量整理与归档某类文件），面向对误操作零容忍的财务、法务等岗位，而不是做全桌面通用代理。
-summary_en: Mac users open Muse when handling repetitive operations across local files and multiple apps;
-  it reads file and app content and performs actions on their behalf, and the user gets the executed action
-  result. Which apps and operations are supported, and which steps still need human confirmation, are
-  not stated in the candidate material and remain unverified.
-inspiration_en: 'Trend: desktop assistants are moving from answering questions to directly touching a
-  user''s files and software, making permission scope and reversibility the new battleground. Entry point:
-  start with a single high-frequency, clearly bounded and rollback-able action (such as batch organizing
-  and archiving one file type) for roles with zero tolerance for mistakes, such as finance and legal,
-  rather than a general desktop agent.'
+summary_zh: 面向在 Mac 上处理本地文件与常用应用的个人用户：用户提出任务后，Muse 读取电脑上的文件并操作相关应用代为执行，最终由用户确认结果。具体支持哪些应用、权限边界与交付形态仍待核验。
+inspiration: 趋势：助手正从“回答问题”走向“在个人电脑上直接动手改文件、点应用”，把入口从对话框挪到操作系统里的真实任务。切入：不要做又一个通用桌面助手，而是挑一个文件密集、步骤固定的窄场景（如报税材料整理、合同归档、素材入库），把权限、可回滚操作和结果核对做成可交付的确定性流程。
+summary_en: 'For individuals working with local files and everyday apps on a Mac: after a user states
+  a task, Muse reads files on the computer and operates the relevant apps to carry it out, with the user
+  confirming the result. Which apps are supported, permission boundaries and the exact deliverable still
+  need verification.'
+inspiration_en: 'Trend: assistants are moving from answering questions to acting directly on a personal
+  computer, shifting the entry point from a chat box to real tasks inside the OS. Entry: skip another
+  general desktop assistant; pick a narrow, file-heavy, fixed-step scenario (tax document sorting, contract
+  filing, asset intake) and make permissions, reversible actions and result checking a deterministic deliverable.'
 priority_review: false
 project_type: new_application
-industries:
-- 软件与信息技术服务
-industries_en:
-- Software and IT services
+industries: []
+industries_en: []
 jobs:
-- 个人用户与知识工作者在 Mac 上整理文件、跨应用执行重复操作时，让助手读取本地文件与应用内容并代为完成操作
+- 个人电脑日常事务处理
 jobs_en:
-- Individual users and knowledge workers on Mac who, while organizing files and repeating cross-app operations,
-  let an assistant read local files and app content and act on their behalf
-regions:
-- 美国
-regions_en:
-- United States
+- Everyday personal-computer task handling
+regions: []
+regions_en: []
 open_source: false
 url: https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/
 canonical_url: https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer
@@ -36,7 +30,7 @@ summary: Muse is now available on the Mac, where it can work with your files and
   your behalf.
 first_seen: '2026-09-18T15:22:48Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - newssearch

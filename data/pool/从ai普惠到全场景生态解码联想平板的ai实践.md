@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE8xT2NUR3Bqd1c3
 summary: 从AI普惠到全场景生态：解码联想平板的“AI+”实践 新浪财经
 first_seen: '2026-09-24T04:00:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

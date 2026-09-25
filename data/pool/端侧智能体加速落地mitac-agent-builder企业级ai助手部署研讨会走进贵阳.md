@@ -1,6 +1,6 @@
 ---
 slug: 端侧智能体加速落地mitac-agent-builder企业级ai助手部署研讨会走进贵阳
-name: 端侧智能体加速落地：MiTAC Agent Builder企业级AI助手部署研讨会走进贵阳
+name: MiTAC Agent Builder
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE95YUktdDBvR0Vt
 summary: 端侧智能体加速落地：MiTAC Agent Builder企业级AI助手部署研讨会走进贵阳 中华网
 first_seen: '2026-09-24T04:05:45Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 端侧智能体加速落地：MiTAC Agent Builder企业级AI助手部署研讨会走进贵阳
+# MiTAC Agent Builder
 
 端侧智能体加速落地：MiTAC Agent Builder企业级AI助手部署研讨会走进贵阳 中华网
 

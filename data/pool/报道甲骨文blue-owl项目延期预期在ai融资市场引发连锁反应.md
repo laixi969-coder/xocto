@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiggFBVV95cUxOaW1vMFVfTXRL
 summary: 报道：甲骨文、Blue Owl项目延期预期在AI融资市场引发连锁反应 video.sina.com.cn
 first_seen: '2026-09-24T23:17:24Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

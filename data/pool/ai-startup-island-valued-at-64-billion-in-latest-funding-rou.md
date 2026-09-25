@@ -1,6 +1,6 @@
 ---
 slug: ai-startup-island-valued-at-64-billion-in-latest-funding-rou
-name: AI startup Island valued at $6.4 billion in latest funding round
+name: Island
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPYU92Y3VKU3Zu
 summary: AI startup Island valued at $6.4 billion in latest funding round CNA
 first_seen: '2026-09-24T10:37:59Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI startup Island valued at $6.4 billion in latest funding round
+# Island
 
 AI startup Island valued at $6.4 billion in latest funding round CNA
 

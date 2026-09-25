@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQRnEtRENrYVhT
 summary: 从拼算力到拼落地，安富利研判AI下半场 21财经
 first_seen: '2026-09-24T12:38:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

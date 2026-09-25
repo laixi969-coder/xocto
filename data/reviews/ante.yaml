@@ -147,3 +147,43 @@
   usage_reason: 单个可执行文件即装即用、全程离线，让受内网约束的开发者能以很低门槛试用编码代理。
   usage_reason_en: A single ready-to-run binary that works fully offline gives restricted-environment
     developers a low-friction way to try a coding agent.
+- id: req-initial-ante-2026-09-25
+  project_slug: ante
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是离线环境下改代码的需求，痛点结构成立，但候选材料只有一句产品描述，无法确认输入、动作与交付闭环，价值判断证据不足。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度存在，但没有可归因到该产品的采用、留存或付费证据，无法判断共识卡在哪一环。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或交付方式，无法判断收入来自 to C、to B 还是 to VC，也未发现融资叙事。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 离线运行与单二进制交付若成立，与代码不外传的第一性目标一致，但候选材料未提供可核验的部署文档或实测结果。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认离线运行方式、支持的模型与是否有企业内网部署案例。
+  market: ''
+  job: 开发者在无法联网或代码不得外传的环境中，需要让工具读取本地代码库并完成修改、生成补丁，再由本人复核提交。
+  job_en: A developer working in an offline environment or where code may not leave the premises needs
+    a tool to read the local codebase, make edits and produce a patch, which the developer then reviews
+    and commits.
+  pain: 现有云端编码代理要求把代码或上下文上传，在合规或断网场景下无法使用；纯手工改代码则耗时且重复。
+  pain_en: Existing cloud coding agents require uploading code or context, which is impossible under compliance
+    or air-gapped conditions; editing by hand is slow and repetitive.
+  current_alternative: 本地 IDE 加人工修改，或把代码片段复制到云端聊天工具里询问，再手工粘贴回来。
+  current_alternative_en: A local IDE with manual editing, or copying code snippets into a cloud chat
+    tool and pasting results back by hand.
+  usage_reason: 推断：若它确实能在无网络条件下直接读取本地仓库并产出可复核的补丁，就省去了把代码外传或手工搬运这一步，因此受合规限制、无法使用云端代理的团队会在断网或内网场景下选择它。候选材料未提供用户反馈或采用数据。
+  usage_reason_en: 'Inference: if it can indeed read the local repository offline and produce reviewable
+    patches, it removes the step of exporting code or copying it by hand, so teams barred by compliance
+    from cloud agents would choose it in air-gapped or intranet settings. The candidate material provides
+    no user feedback or adoption data.'

@@ -21,7 +21,7 @@ canonical_url: https://play.c3-lang.org?example=voxelspace_synthwave
 summary: a C3 compiler with graphics and sound in the browser
 first_seen: '2026-09-24T10:24:34Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel
-name: How Klaviyo shipped 356 internal apps in two weeks on Vercel
+name: Klaviyo
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-
 summary: ''
 first_seen: '2026-09-24T04:00:00Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# How Klaviyo shipped 356 internal apps in two weeks on Vercel
+# Klaviyo
 
 _（源没给简介）_
 

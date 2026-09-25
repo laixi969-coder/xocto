@@ -3,13 +3,13 @@ slug: trai-finalises-new-spam-rules-covering-ai-detection-robocall
 name: TRAI
 builder: ''
 category: ''
-summary_zh: 印度电信监管局（TRAI）于 2026 年 9 月敲定新的垃圾信息治理规则，涵盖 AI 检测、自动语音电话和消费者申诉机制。这意味着在印度市场提供语音与消息类 AI 应用的企业需适配新的检测与申诉合规要求，合规成本上升，但也为
-  AI 反垃圾检测能力带来明确的监管驱动需求（推断）。
+summary_zh: 印度电信监管机构 TRAI 于 2026 年 9 月敲定新的反垃圾信息规则，覆盖 AI 检测、自动语音电话与消费者申诉机制。该监管变化为在印度提供语音与消息服务的 AI 应用设定了合规检测与申诉要求，可能抬高相关
+  AI 通信产品的合规成本并改变其交付方式。
 inspiration: ''
-summary_en: India's telecom regulator TRAI finalised new spam rules in September 2026 covering AI detection,
-  robocalls and consumer appeals. This means providers of voice and messaging AI applications in the Indian
-  market must adapt to new detection and appeal compliance requirements, raising compliance costs while
-  creating clear regulation-driven demand for AI spam-detection capabilities (inference).
+summary_en: India's telecom regulator TRAI finalised new anti-spam rules in September 2026 covering AI
+  detection, robocalls and consumer appeals. This regulatory change sets compliance and appeal requirements
+  for AI applications offering voice and messaging services in India, potentially raising compliance costs
+  and altering delivery for such AI communication products.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +26,7 @@ summary: TRAI Finalises New Spam Rules Covering AI Detection, Robocalls and Cons
   Edge
 first_seen: '2026-09-18T17:40:17Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

@@ -1,6 +1,6 @@
 ---
 slug: cybersecurity-startup-island-valued-at-64-billion-amid-ai-ag
-name: Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks
+name: Island
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxPd1puRmlKdUNR
 summary: Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks Reuters
 first_seen: '2026-09-24T11:38:17Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks
+# Island
 
 Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks Reuters
 

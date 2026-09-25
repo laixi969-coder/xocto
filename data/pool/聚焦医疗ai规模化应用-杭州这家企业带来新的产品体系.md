@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTE5udWstTS1MbUUz
 summary: 聚焦医疗AI规模化应用 杭州这家企业带来新的产品体系 ori.hangzhou.com.cn
 first_seen: '2026-09-24T14:41:49Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

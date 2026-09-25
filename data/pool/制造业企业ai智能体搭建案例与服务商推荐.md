@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE4yMXE0UjZ5Wk9N
 summary: 制造业企业AI智能体搭建案例与服务商推荐 财富号
 first_seen: '2026-09-24T23:53:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

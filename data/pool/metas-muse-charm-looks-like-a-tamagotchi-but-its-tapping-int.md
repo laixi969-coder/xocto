@@ -1,6 +1,6 @@
 ---
 slug: metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-int
-name: Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend
+name: Meta Muse Charm
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Meta’s new AI gadget may look like a Tamagotchi, but its dangling for
   broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.
 first_seen: '2026-09-24T17:39:24Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend
+# Meta Muse Charm
 
 Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.
 

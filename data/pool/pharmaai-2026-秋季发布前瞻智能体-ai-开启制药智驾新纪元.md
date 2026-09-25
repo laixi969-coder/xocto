@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTFBiSVBtU0l1WWlB
 summary: Pharma.AI 2026 秋季发布前瞻：智能体 AI 开启制药“智驾”新纪元 eurekalert.org
 first_seen: '2026-09-24T16:26:33Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-phai-labs-releases-sciencebuddy-preview-a-scientific-ai-work-2026-09-25
+  project_slug: phai-labs-releases-sciencebuddy-preview-a-scientific-ai-work
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决科研材料处理这一任务，但公开材料未说明替代了哪一步旧工作、交付什么结果，痛点与旧行为均无法确认。
+    evidence_ids:
+    - ev-bf642ec6a0e00e36
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布消息，没有研究者评价、采用或场景描述，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-bf642ec6a0e00e36
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪一方来无法判断。
+    evidence_ids:
+    - ev-bf642ec6a0e00e36
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近科研工作的第一性目标，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-bf642ec6a0e00e36
+  next_validation: 收集 ScienceBuddy 官方产品页或文档，确认其输入材料类型、执行动作与交付结果，以及是否公布定价。
+  market: ''
+  job: 科研人员在整理文献、实验记录与阶段性结论时，把研究材料交给该工作空间，希望得到可继续推进的分析或写作产出。
+  job_en: Researchers hand research material to the workspace while organising literature, lab notes and
+    interim conclusions, hoping to obtain analysable or writable output they can build on.
+  pain: 公开材料未说明它替代了哪一步旧工作，也未说明研究者当前用什么方式完成同一任务，因此痛点无法确认。
+  pain_en: Public material does not say which old step it replaces or how researchers currently complete
+    the same task, so the pain point cannot be confirmed.
+  current_alternative: 公开材料未披露现有替代方式，无法判断研究者此前是手工整理、使用通用助手还是其他工具。
+  current_alternative_en: Public material does not disclose the current alternative, so it is unclear
+    whether researchers previously worked by hand, used a general assistant or used other tools.
+  usage_reason: 缺少流程、输入与交付信息，无法解释用户为何会选择它而非旧做法；这是信息缺口，不是需求不存在的证据。
+  usage_reason_en: Without process, input and delivery information, there is no way to explain why a user
+    would choose it over the old approach; this is an information gap, not evidence that demand does not
+    exist.

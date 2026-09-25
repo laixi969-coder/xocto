@@ -1,0 +1,42 @@
+- id: req-initial-its-sinister-that-metas-muse-ai-mascot-is-so-cute-2026-09-25
+  project_slug: its-sinister-that-metas-muse-ai-mascot-is-so-cute
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出它试图承接个人事务类请求，但材料未写清用户卡在哪一步、不做的后果，也未给出旧替代行为，价值结构无法判定。
+    evidence_ids:
+    - ev-c3694ff19527fb12
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇评论专栏，没有采用、留存或场景共识证据，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-c3694ff19527fb12
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，无法判断钱从哪一方来；这是未知，不是已验证失败。
+    evidence_ids:
+    - ev-c3694ff19527fb12
+  - gate: truth
+    status: insufficient
+    reason: 未说明能力边界、可用地区与人工确认环节，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-c3694ff19527fb12
+  next_validation: 收集 Meta 官方关于 Muse 助手的发布页或帮助文档，核对其可用地区、能力边界与是否收费。
+  market: ''
+  job: 个人用户在日常中向对话助手提出个人事务类请求，例如让助手协助设定健康相关事项，并希望得到可执行的安排。
+  job_en: An individual user makes everyday personal-task requests to a conversational assistant, for
+    example asking it to help set health-related items, and expects an actionable arrangement.
+  pain: 候选材料只描述拟人化形象带来的观感不适，未说明用户在完成这类事务时原本卡在哪一步、不解决会有什么后果。
+  pain_en: The material only describes unease about the anthropomorphic persona and does not state which
+    step users were stuck on or what happens if the task goes unsolved.
+  current_alternative: 用户原本可能用手机自带提醒、日历或健康应用手动设置，但候选材料未提供这一旧行为的任何证据。
+  current_alternative_en: Users might previously set these manually in a built-in reminder, calendar or
+    health app, but the material offers no evidence of that prior behavior.
+  usage_reason: 材料未说明该助手相较手动设置减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何会选择它；缺少能力边界与交付结果这一环。
+  usage_reason_en: The material does not show which step the assistant removes versus manual setup or
+    which checkable outcome it improves, so it cannot explain why users would choose it; the capability
+    boundary and delivered outcome are the missing link.

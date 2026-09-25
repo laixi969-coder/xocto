@@ -155,3 +155,42 @@
   usage_reason_en: 'Inference: concentrating status into a persistent strip beside the Dock removes the
     window-switching step, so heavy parallel users of coding agents may keep it running; there is no retention
     or repeat-use evidence to confirm it is part of a daily workflow.'
+- id: req-initial-ai-pulse-2026-09-25
+  project_slug: ai-pulse
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多智能体并行时状态分散、需反复切窗口确认的问题，痛点具体且不解决的代价是可核对的漏看与等待；但公开材料未说明支持哪些智能体。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的少量点赞与评论，没有用户评价、客户案例或持续采用证据，无法判断是否形成使用共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价、付费路径或买方，钱可能来自捐赠、托管服务或企业定制，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 状态展示属于辅助信息层，不直接产出代码结果，承诺能否确定性交付取决于与各智能体的对接稳定性，公开材料未提供。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它实际支持哪些编码智能体、状态如何映射，以及是否有用户报告长期使用。
+  market: ''
+  job: 同时运行多个编码智能体的开发者在 macOS 上工作时，需要持续知道每个智能体当前是运行、等待还是已完成，以便决定下一步该处理哪个任务。
+  job_en: A developer running several coding agents at once on macOS needs to keep track of whether each
+    agent is running, waiting, or finished, in order to decide which task to handle next.
+  pain: 智能体在后台长时间运行，状态只出现在各自的终端或编辑器窗口里，开发者必须反复切窗口确认，容易漏掉卡住或已完成的会话。
+  pain_en: Agents run in the background for long stretches and their status only appears in separate terminal
+    or editor windows, so developers repeatedly switch windows and can miss stalled or finished sessions.
+  current_alternative: 目前主要靠手动切换终端标签页、编辑器面板，或依赖各智能体自带的桌面通知来查看状态。
+  current_alternative_en: Today this is handled by manually switching terminal tabs or editor panes, or
+    by relying on each agent's own desktop notifications.
+  usage_reason: 推断：相比反复切窗口，它把状态集中到 Dock 旁一条常驻灯带上，省掉“切过去看一眼再切回来”这一步，因此同时跑多个智能体的 macOS 开发者会在多任务并行时选择它。公开材料没有用户反馈或留存数据支持这一判断。
+  usage_reason_en: 'Inference: instead of repeatedly switching windows, it concentrates status into one
+    always-visible strip beside the Dock, removing the switch-over-and-back step, so macOS developers
+    running several agents at once would pick it during parallel work. Public material contains no user
+    feedback or retention data supporting this.'

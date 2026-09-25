@@ -3,13 +3,17 @@ slug: consumer-focused-ai-assistant-startup-instinct-reportedly-ra
 name: Instinct
 builder: ''
 category: 通用助手
-summary_zh: Instinct是一款面向消费者的AI助手应用，用户可与之对话以完成写作、规划、头脑风暴等任务。具体工作流程和交付物尚未公开核验。
-inspiration: AI助手赛道持续火热，资本涌入显示市场对通用助手的信心。但切入应聚焦垂直场景或特定人群，避免与巨头正面竞争。
-summary_en: Instinct is a consumer-facing AI assistant app that users can chat with to accomplish tasks
-  like writing, planning, and brainstorming. Specific workflows and deliverables are yet to be verified.
-inspiration_en: The AI assistant space is heating up with significant capital, indicating market confidence.
-  However, entry should focus on vertical use cases or specific demographics to avoid head-on competition
-  with giants.
+summary_zh: 面向普通消费者的 AI 智能体产品，公开材料只显示其处于大额融资洽谈阶段，并有用户反映响应变慢；它具体在哪个日常节点被打开、接收什么材料、替用户完成哪一步、交付什么结果，公开材料均未说明，具体流程与交付仍待核验。
+inspiration: 趋势：消费级 AI 智能体开始出现十亿美元级估值叙事，说明资本愿意为“替普通人跑完多步任务”下注。切入：不要做又一个通用智能体入口，而是选一个高频、结果可核对的旧流程（如家庭账单处理、出行改签、退换货申诉），按完成的任务收费，并把响应稳定性当作交付承诺。
+summary_en: A consumer-facing AI agent product; public material only shows it is in talks for a large
+  funding round and that users reported slower responses. Which daily moment it is opened in, what material
+  it takes in, which step it replaces and what it delivers are not described in public material, so the
+  concrete workflow and deliverable remain unverified.
+inspiration_en: 'Trend: consumer AI agents are now attracting billion-dollar valuation narratives, showing
+  capital will bet on products that finish multi-step tasks for ordinary people. Entry point: skip another
+  generic agent entry and pick a high-frequency old workflow with a checkable outcome (household bills,
+  trip rebooking, refund disputes), charge per completed task, and treat response reliability as the delivery
+  promise.'
 priority_review: false
 project_type: new_application
 industries: []
@@ -24,7 +28,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYU9IbWN6RVg0
 summary: Consumer-focused AI assistant startup Instinct reportedly raising $250M SiliconANGLE
 first_seen: '2026-08-27T22:27:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:

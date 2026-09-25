@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNeDlkMFNyYUNn
 summary: 高盛：AI将通过手续费收入和降本增效推动银行盈利 新浪财经
 first_seen: '2026-09-23T06:19:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

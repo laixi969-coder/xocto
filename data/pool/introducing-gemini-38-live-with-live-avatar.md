@@ -1,11 +1,13 @@
 ---
 slug: introducing-gemini-38-live-with-live-avatar
-name: Introducing Gemini 3.8 Live with Live Avatar
+name: Gemini 3.8 Live
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是模型厂商发布的实时交互模型更新，面向开发者与平台方，而非终端用户可直接使用的独立产品。候选材料未提供定价、客户或采用数据，具体交付形态与可用范围仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: This is a model-vendor release of a real-time interaction model aimed at developers and platforms
+  rather than a standalone product end users adopt directly. The candidate material provides no pricing,
+  customer or adoption data, so the delivery form and availability remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://deepmind.google/blog/introducing-gemini-38-live-with-live
 summary: ''
 first_seen: '2026-09-24T16:20:39Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Introducing Gemini 3.8 Live with Live Avatar
+# Gemini 3.8 Live
 
 _（源没给简介）_
 

@@ -24,7 +24,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-call
 summary: The president offered few details on what his proposed new AI Force would do.
 first_seen: '2026-09-21T15:37:56Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

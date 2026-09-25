@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE9Tb2wyZGdMRk1E
 summary: Everything Meta revealed at Connect 2026 innovation-village.com
 first_seen: '2026-09-24T06:20:07Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

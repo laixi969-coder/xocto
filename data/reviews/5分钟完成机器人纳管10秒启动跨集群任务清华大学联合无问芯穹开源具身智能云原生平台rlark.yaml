@@ -1,0 +1,43 @@
+- id: req-initial-5分钟完成机器人纳管10秒启动跨集群任务清华大学联合无问芯穹开源具身智能云原生平台rlark-2026-09-25
+  project_slug: 5分钟完成机器人纳管10秒启动跨集群任务清华大学联合无问芯穹开源具身智能云原生平台rlark
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决机器人纳管与跨集群任务启动，但候选未给出旧流程与痛点，需求强度无法判断。
+    evidence_ids:
+    - ev-d2d64492d333b47a
+  - gate: consensus
+    status: insufficient
+    reason: 只有开源发布消息，没有社区采用、issue 讨论或用户反馈证据。
+    evidence_ids:
+    - ev-d2d64492d333b47a
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费路径，买方与收入来源不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d2d64492d333b47a
+  - gate: truth
+    status: insufficient
+    reason: 纳管与启动耗时来自发布宣称，无法核对实际交付是否稳定发生。
+    evidence_ids:
+    - ev-d2d64492d333b47a
+  next_validation: 收集 RLark 开源仓库的部署文档与 issue/discussion，核验实际纳管流程与社区使用情况。
+  market: ''
+  job: 机器人实验室或具身智能团队在管理多台机器人、需要把训练或推理任务分发到不同集群时，要完成机器人接入与任务启动，但候选资料未说明具体操作者与材料。
+  job_en: Robot labs or embodied-AI teams managing multiple robots and dispatching training or inference
+    tasks across clusters need to onboard robots and start tasks; the material does not identify the specific
+    operator or materials.
+  pain: 候选资料未提供用户痛点或旧流程描述，只能从纳管与启动耗时数字推测存在调度摩擦，这属于推断。
+  pain_en: The material gives no user pain points or legacy-process description; scheduling friction can
+    only be inferred from the onboarding and startup time figures, which is an inference.
+  current_alternative: 候选资料未说明此前团队如何完成机器人纳管与跨集群调度，无法确认替代的是脚本、手工配置还是既有云平台。
+  current_alternative_en: The material does not say how teams previously onboarded robots and scheduled
+    across clusters, so it is unclear whether it replaces scripts, manual configuration or an existing
+    cloud platform.
+  usage_reason: 缺少使用反馈与部署案例，无法解释团队为何选择它；耗时数字是产品宣称，不是采用证据。
+  usage_reason_en: With no usage feedback or deployment cases, there is no basis to explain why teams
+    would choose it; the time figures are product claims, not adoption evidence.

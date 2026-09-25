@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmd2E2R2luV2Vp
 summary: 18 Top Data Loss Prevention (DLP) Software AIMultiple
 first_seen: '2026-09-22T07:00:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

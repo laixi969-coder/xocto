@@ -1,0 +1,43 @@
+- id: req-initial-valen-visual-decisions-2026-09-25
+  project_slug: valen-visual-decisions
+  level: initial
+  reviewed_at: '2026-09-25T00:34:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决视觉问答结果不可判断可信度的问题，痛点存在但公开材料只有一句功能描述，说不清具体使用场景与不采用的后果。
+    evidence_ids:
+    - ev-20467f1fa4f3a001
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 3 个公开点赞，没有用户评价、讨论或采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-20467f1fa4f3a001
+  - gate: model
+    status: insufficient
+    reason: 未披露任何定价、买方或收费方式，开源演示本身不构成付费路径。
+    evidence_ids:
+    - ev-20467f1fa4f3a001
+  - gate: truth
+    status: insufficient
+    reason: 无法核验概率输出是否校准、是否可复现，也没有人工复核边界的说明。
+    evidence_ids:
+    - ev-20467f1fa4f3a001
+  next_validation: 收集该演示页面的模型卡或说明文档，确认其输入格式、概率校准方式与是否已有具体行业使用案例。
+  market: ''
+  job: 研究者或工程师在测试视觉模型时，上传图片并提出问题，希望看到模型给出的多个候选答案及其概率，以判断模型在哪些判断上不确定。
+  job_en: A researcher or engineer testing a vision model uploads an image and asks a question, wanting
+    to see several candidate answers with probabilities in order to judge where the model is uncertain.
+  pain: 单一答案的视觉问答无法显示模型犹豫程度，使用者难以判断结果是否可靠，也难以决定是否需要人工复核。
+  pain_en: Single-answer visual question answering hides how uncertain the model is, making it hard for
+    users to judge reliability or decide whether human review is needed.
+  current_alternative: 现有做法是使用常规视觉问答模型输出一个答案，再靠人工经验或额外测试判断可信度。
+  current_alternative_en: The current practice is to use a conventional visual question answering model
+    that returns one answer, then rely on human experience or extra tests to judge credibility.
+  usage_reason: 推断：相较只给一个答案的旧做法，它把候选与概率一并输出，使用者可以直接看到模型在哪些选项间摇摆，从而决定是否复核；但目前没有公开证据显示任何行业用户已把它放进实际流程。
+  usage_reason_en: 'Inference: compared with the old practice of returning a single answer, it outputs
+    candidates together with probabilities so users can see which options the model wavers between and
+    decide whether to review; however, no public evidence shows any industry user has put it into a real
+    workflow.'

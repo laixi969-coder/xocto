@@ -22,7 +22,7 @@ summary: 一个脚本搞定 DSH / WorkBuddy / ZCode / Codex / Cursor / Claude �
   bandit/semgrep 扫描与 SHA256 校验。
 first_seen: '2026-09-17T12:36:10Z'
 last_seen: '2026-09-25T00:33:47Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

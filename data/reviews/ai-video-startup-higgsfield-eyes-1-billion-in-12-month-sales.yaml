@@ -1,0 +1,42 @@
+- id: req-initial-ai-video-startup-higgsfield-eyes-1-billion-in-12-month-sales-2026-09-25
+  project_slug: ai-video-startup-higgsfield-eyes-1-billion-in-12-month-sales
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投放前批量短视频素材供给不足的问题，痛点是外包周期长、按条计费，旧做法是拍摄加剪辑外包；需求结构成立，买方是否愿付高价未核验。
+    evidence_ids:
+    - ev-6a65b7ff6bc84be9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有销售额目标，没有客户名单、使用量或行业口碑，无法判断团队与市场是否已形成采用共识。
+    evidence_ids:
+    - ev-6a65b7ff6bc84be9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与计费方式，无法判断按条、按席位还是按订阅收费；10 亿美元目标属报道口径，不是已验证付费路径。
+    evidence_ids:
+    - ev-6a65b7ff6bc84be9
+  - gate: truth
+    status: insufficient
+    reason: 生成视频的版权、素材一致性与人工审核边界未见说明，交付能否稳定复现缺少公开证据。
+    evidence_ids:
+    - ev-6a65b7ff6bc84be9
+  next_validation: 收集 Higgsfield 官方定价页或客户案例页面，核验其计费方式与已披露的付费客户。
+  market: ''
+  job: 营销或内容团队在投放前需要成批短视频素材时，用 AI 生成视频片段并挑选可用版本，再交给剪辑完成成片。
+  job_en: Marketing or content teams producing batches of short-video assets before a campaign use AI
+    to generate clips, pick usable takes and hand them to editors for final cuts.
+  pain: 传统拍摄与外包剪辑按条计费、周期长，投放测试需要大量变体，素材供给跟不上测试节奏。
+  pain_en: Traditional shooting and outsourced editing are priced per clip with long lead times, while
+    ad testing needs many variants, so asset supply cannot keep up with the test cadence.
+  current_alternative: 找拍摄团队或剪辑外包逐条制作，或用通用生成工具手工拼凑，再人工筛选。
+  current_alternative_en: Hiring shoot crews or editing freelancers clip by clip, or manually assembling
+    output from general-purpose generation tools and filtering by hand.
+  usage_reason: 推断：相较逐条外包，它把脚本到可用片段的环节压缩为一次生成加人工挑选，减少等待拍摄与反复沟通的步骤，因此需要高频测试素材的投放团队会在批量出片时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus per-clip outsourcing, it compresses script-to-usable-clip into one
+    generation pass plus human selection, cutting waiting on shoots and back-and-forth, so teams testing
+    creatives frequently would choose it for batch output; no retention or repeat-purchase evidence yet.'

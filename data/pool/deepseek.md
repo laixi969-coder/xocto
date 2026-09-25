@@ -3,34 +3,35 @@ slug: deepseek
 name: DeepSeek
 builder: ''
 category: 通用助手
-summary_zh: 个人用户和知识工作者在写作、查资料、写代码或日常问答时打开它，把问题或材料交给对话界面，模型返回答案、草稿或代码；本次新增的是Agent训练论文披露的每秒5000+沙盒训练环境，具体产品化流程与交付仍待核验。
-inspiration: 趋势：头部通用助手开始把竞争点从模型回答质量转向可批量生成训练环境的Agent能力，训练侧工程成为新的门槛。切入：不要在通用对话正面竞争，可切垂直行业里需要多步操作、可核对结果的环节，例如把沙盒式试错用于财税申报校验或合同条款比对，按交付结果而非席位收费。
-summary_en: Individuals and knowledge workers open it while writing, researching, coding or asking everyday
-  questions, hand over a prompt or material to the chat interface, and receive an answer, draft or code;
-  the new element here is an agent-training paper disclosing a 5,000+ sandboxes-per-second training environment,
-  while the productized workflow and deliverables remain unverified.
-inspiration_en: 'Trend: leading general assistants are shifting competition from answer quality toward
-  agent capabilities that mass-produce training environments, making training-side engineering a new barrier.
-  Entry: avoid head-on general chat and instead target multi-step, checkable tasks in vertical industries,
-  such as sandbox-style trial-and-error for tax filing validation or contract clause comparison, charging
-  per delivered result rather than per seat.'
+summary_zh: 个人用户和知识工作者在写作、查资料、写代码或日常问答时打开 DeepSeek，把问题或材料交给对话界面，模型直接给出答案、草稿或代码，用户自行核对后使用；企业与开发者则通过接口把同一模型能力接入自有系统。具体定价与交付条款仍待核验。
+inspiration: 趋势是头部通用助手已进入收入与算力效率双重竞赛，推理成本下降会继续压低同类应用的调用门槛。切入不在正面做通用聊天，而在把这类模型能力嵌进具体行业的旧流程，例如法律文书初稿、地产房源描述、跨境客服话术，按产出或按席位向该行业客户收费。
+summary_en: Individuals and knowledge workers open DeepSeek to hand a question or material to a chat interface
+  for writing, research, coding or everyday questions, and the model returns an answer, draft or code
+  that the user checks before use; enterprises and developers connect the same model through APIs into
+  their own systems. Specific pricing and delivery terms remain unverified.
+inspiration_en: The trend is that leading general assistants now compete on both revenue and inference
+  efficiency, and falling inference cost keeps lowering the barrier for similar applications. The opening
+  is not another general chatbot but embedding this model capability into a specific industry's old workflow,
+  such as legal document drafts, real-estate listing copy or cross-border support scripts, charging that
+  industry by output or by seat.
 priority_review: false
 project_type: new_application
 industries:
 - 软件与互联网服务
-- 教育与培训
 - 专业服务
+- 教育
 industries_en:
 - Software and internet services
-- Education and training
 - Professional services
+- Education
 jobs:
-- 个人用户与知识工作者在写作、检索、编程和日常问答中直接对话获取答案与草稿
-- 企业与开发者基于其模型接口构建问答、摘要和代码辅助功能
+- 个人用户与知识工作者在写作、检索、编程和日常问答时用对话方式获取答案与草稿
+- 企业与开发者团队在自有系统中调用模型接口完成文本生成与推理任务
 jobs_en:
-- Individual users and knowledge workers holding conversations for writing, search, coding and everyday
-  questions
-- Companies and developers building Q&A, summarization and coding assistance on its model API
+- Individual users and knowledge workers getting answers and drafts through chat for writing, search,
+  coding and daily questions
+- Enterprises and developer teams calling model APIs inside their own systems for text generation and
+  reasoning tasks
 regions:
 - 中国
 - 全球
@@ -43,7 +44,7 @@ canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

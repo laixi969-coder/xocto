@@ -1,0 +1,42 @@
+- id: req-initial-robotok-2026-09-25
+  project_slug: robotok
+  level: initial
+  reviewed_at: '2026-09-25T00:34:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决浏览机器人片段的体验问题，但未说明筛选、标注或导出等交付，是否非用不可尚不清楚。
+    evidence_ids:
+    - ev-1efce34347fac91e
+  - gate: consensus
+    status: insufficient
+    reason: 仅 4 个点赞，无用户反馈或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-1efce34347fac91e
+  - gate: model
+    status: insufficient
+    reason: 演示空间未见定价或付费路径，买方与收费方式均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1efce34347fac91e
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据来源、片段规模与浏览之外的动作，交付确定性无法核对。
+    evidence_ids:
+    - ev-1efce34347fac91e
+  next_validation: 收集该演示空间的说明文档或仓库，确认是否支持标注、筛选与导出，以及接入的数据集规模。
+  market: ''
+  job: 机器人学习研究者或数据整理者在准备训练数据时，需要快速浏览大量机器人操作片段，挑出可用或需要标注的片段。
+  job_en: When preparing training data, robot-learning researchers or data curators need to quickly browse
+    large numbers of robot manipulation episodes and pick usable or to-be-annotated ones.
+  pain: 机器人操作片段数量大、单条枯燥，逐条打开查看耗时，筛选环节拖慢数据集准备。
+  pain_en: Robot manipulation episodes are numerous and individually dull; opening each one is slow, and
+    screening drags down dataset preparation.
+  current_alternative: 用文件管理器或数据集查看脚本逐条打开视频，或在标注工具里翻页查看。
+  current_alternative_en: Opening videos one by one in a file manager or dataset-viewing script, or paging
+    through an annotation tool.
+  usage_reason: 相较逐条打开文件，它把片段组织成可连续滑动的信息流，减少切换与等待，因此做机器人数据筛选的人可能试用；但公开材料只有一句定位与 4 个点赞，是否真被用于筛选流程属推断。
+  usage_reason_en: Compared with opening files one by one, it arranges episodes into a continuously swipeable
+    feed, cutting switching and waiting, so people screening robot data might try it; but public material
+    offers only a one-line description and 4 likes, so actual use in screening workflows is inference.

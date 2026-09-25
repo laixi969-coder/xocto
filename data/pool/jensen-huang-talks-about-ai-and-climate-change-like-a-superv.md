@@ -23,7 +23,7 @@ summary: As Jensen Huang puts it, AI can help fight climate change - but only if
   our planet in the latest episode of The Ezra Klein Show. But his comments boil down to the […]
 first_seen: '2026-09-24T18:04:44Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

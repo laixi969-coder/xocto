@@ -35,7 +35,7 @@ canonical_url: https://tiny.opencreators.ai
 summary: Find your next client on X
 first_seen: '2026-09-10T02:18:33Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

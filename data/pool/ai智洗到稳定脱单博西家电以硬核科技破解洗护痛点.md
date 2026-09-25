@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOWDJNMUJheFg5
 summary: “ AI智洗”到“稳定脱单”：博西家电以硬核科技破解洗护痛点 搜狐网
 first_seen: '2026-09-24T08:18:53Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

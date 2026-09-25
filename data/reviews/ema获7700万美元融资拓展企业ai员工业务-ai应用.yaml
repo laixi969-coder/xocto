@@ -1,0 +1,42 @@
+- id: req-initial-ema获7700万美元融资拓展企业ai员工业务-ai应用-2026-09-25
+  project_slug: ema获7700万美元融资拓展企业ai员工业务-ai应用
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决重复性企业流程依赖人力的问题，痛点刚性、旧替代行为明确；买方与定价未公开。
+    evidence_ids:
+    - ev-87b74e58faa71799
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例或公开采用数据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-87b74e58faa71799
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明按席位、按处理量还是按结果收费，买方预算来源不明。
+    evidence_ids:
+    - ev-87b74e58faa71799
+  - gate: truth
+    status: insufficient
+    reason: 承诺能否确定性交付、人工边界如何划定均无公开材料支持。
+    evidence_ids:
+    - ev-87b74e58faa71799
+  next_validation: 收集 Ema 官方定价页或公开客户案例，核验其按什么计价、交付由谁确认。
+  market: ''
+  job: 企业运营或客服负责人在工单积压、外包成本上升时，处理内部流程与客户请求材料，要完成多步业务处理并交付可核对的结果。
+  job_en: An operations or support lead, facing ticket backlogs and rising outsourcing costs, handles
+    internal process and customer request material and must complete multi-step business handling and
+    deliver a checkable result.
+  pain: 重复性流程处理依赖人力或外包，成本随业务量线性上升，交付质量不稳定。
+  pain_en: Repetitive process handling depends on staff or outsourcing, cost scales linearly with volume,
+    and delivery quality is inconsistent.
+  current_alternative: 雇佣初级员工、外包团队，或用 RPA 加人工脚本拼接处理。
+  current_alternative_en: Hiring junior staff, outsourcing teams, or stitching RPA with manual scripts.
+  usage_reason: 推断：相较人力与外包，它把业务规则交给 AI 执行多步处理，减少逐条人工操作这一步，因此工单量大、规则相对固定的企业会先试用；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus staff and outsourcing, it hands business rules to AI for multi-step
+    execution, removing the step of manual per-item handling, so firms with high ticket volume and fairly
+    fixed rules would try it first; public materials provide no retention or repeat-use evidence.'

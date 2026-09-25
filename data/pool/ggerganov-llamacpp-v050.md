@@ -3,12 +3,12 @@ slug: ggerganov-llamacpp-v050
 name: llama.cpp
 builder: ggerganov
 category: ''
-summary_zh: llama.cpp 是本地运行大模型的推理引擎，开发者用它把模型权重转换并部署到自有硬件上。v0.5.0 让引擎能读取更多模型格式、在 CUDA 与 Metal 上跑得更快，并支持服务端多地址绑定与函数调用返回图像。
+summary_zh: llama.cpp 是本地运行大模型的推理引擎，开发者在自己机器或自建服务器上加载模型权重并对外提供推理接口。v0.5.0 让它可以转换并运行更多模型（含 OCR 与文本模型），并改善多地址绑定与函数调用返回图像的能力，交付物仍是可自行部署的推理服务。
 inspiration: ''
-summary_en: llama.cpp is an inference engine for running large models locally, used by developers to convert
-  model weights and deploy them on their own hardware. v0.5.0 lets the engine read more model formats,
-  run faster on CUDA and Metal, and supports multi-address server binding and image outputs from function
-  calls.
+summary_en: llama.cpp is an inference engine for running large models locally, letting developers load
+  model weights on their own machines or self-hosted servers and expose an inference endpoint. v0.5.0
+  broadens the set of convertible and runnable models, including OCR and text models, and improves multi-address
+  binding and image outputs from function calls; the deliverable remains a self-deployable inference service.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -205,7 +205,7 @@ summary: "## Overview\r\n\r\nThis release focuses on backend performance and cor
   \ (#28892)\r\ndfe45163e scripts: Add script to verify API/ABI compatibility (#28579)"
 first_seen: '2026-09-23T20:50:06Z'
 last_seen: '2026-09-25T00:33:47Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:

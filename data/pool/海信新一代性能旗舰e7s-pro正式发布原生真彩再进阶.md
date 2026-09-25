@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/496658.html
 summary: 9月23日，2026海信电视秋季新品发布会上，定位“原生真彩，性能旗舰”的RGB-Mini LED新品E7S Pro+正式发布
 first_seen: '2026-09-24T02:51:18Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

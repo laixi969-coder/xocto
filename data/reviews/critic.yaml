@@ -1,0 +1,43 @@
+- id: req-initial-critic-2026-09-25
+  project_slug: critic
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决生成代码审查走过场的问题，痛点真实，但公开材料只有一句主张，说不清审查范围与交付物，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-c3d305c547d24ae8
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 6 分 1 条评论，没有可归因到该产品的采用或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c3d305c547d24ae8
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费信息，买方与收费方式均未知；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c3d305c547d24ae8
+  - gate: truth
+    status: insufficient
+    reason: 由写代码的同一智能体自审存在自证风险，公开材料未说明是否有人工复核或独立校验环节。
+    evidence_ids:
+    - ev-c3d305c547d24ae8
+  next_validation: 收集 Critic 官方定价页或文档，确认审查范围、是否接入代码仓库以及是否保留人工复核环节。
+  market: ''
+  job: 开发者在提交合并请求前，处理自己或智能体刚生成的代码改动，需要完成一次可追溯的审查并决定是否放行。
+  job_en: A developer, before opening a merge request, handles code changes just produced by themselves
+    or an agent and needs a traceable review to decide whether to ship.
+  pain: 生成代码的速度快过人工审查，改动量大时审查容易走过场，缺陷被带进主干。
+  pain_en: Generated code arrives faster than humans can review, so large diffs get rubber-stamped and
+    defects reach the main branch.
+  current_alternative: 人工逐行审查、静态检查工具，或让另一个模型单独跑一遍审查。
+  current_alternative_en: Line-by-line human review, static analysis tools, or running a separate model
+    over the diff.
+  usage_reason: 推断：它把审查交给写代码的同一智能体，省去在另一个工具里重新交代上下文这一步，因此改动频繁、依赖智能体产出的团队可能愿意试；但公开材料没有说明它比现有审查方式多查出什么，也没有用户反馈或留存证据。
+  usage_reason_en: 'Inference: it hands review to the same agent that wrote the code, removing the step
+    of re-establishing context in another tool, so teams with frequent agent-generated changes may try
+    it; however the public material does not show what it catches beyond existing review, and there is
+    no user feedback or retention evidence.'

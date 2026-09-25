@@ -22,7 +22,7 @@ summary: 'Customer Voice Puts Kissflow at #1 on Gartner Peer Insights ahead of S
   Outsystems LionhearTV'
 first_seen: '2026-09-23T16:22:11Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

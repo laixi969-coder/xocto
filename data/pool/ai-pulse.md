@@ -3,24 +3,27 @@ slug: ai-pulse
 name: AI Pulse
 builder: leog_me
 category: AI + 开发
-summary_zh: 开发者在 macOS 上同时跑多个编码代理时，Dock 旁会出现一条仿 LED 灯带，把代理的运行状态显示出来，让人不必逐个切窗口确认任务是否还在跑。具体状态来源与交付细节仍待核验。
-inspiration: 趋势是多代理并行后，人盯屏幕确认状态成了新的隐性负担；切入可以从“代理状态可视化”这一小环节做起，先服务重度使用编码代理的个人开发者，再考虑团队共享的代理运行看板。
-summary_en: When developers run several coding agents on macOS, a fake LED strip beside the Dock shows
-  each agent's status, so they do not have to switch windows to check whether a task is still running.
-  The exact status source and delivery details still need verification.
-inspiration_en: The trend is that running many agents in parallel makes watching for status a new hidden
-  burden; the entry point is agent-status visualization for individual heavy users of coding agents, later
-  extended to shared team dashboards.
+summary_zh: 开发者在 macOS 上同时跑多个编码智能体时，原本要反复切回终端或编辑器窗口查看每个任务跑到哪一步；AI Pulse 在 Dock 旁放一条仿 LED 灯带，把智能体的运行状态直接显示在屏幕边缘，让开发者不用切窗口就能看到当前进度。具体支持哪些智能体、状态如何映射到灯带，公开材料未说明，交付细节仍待核验。
+inspiration: 趋势是编码智能体从单次对话变成后台长时间运行的多任务，人机交互的瓶颈从“怎么问”转到“怎么盯”。切入可以从“多智能体状态可视化”这一层做，先服务同时跑多个 agent 的独立开发者和小团队，卖法可以是开源加托管同步，但公开材料没有披露任何价格。
+summary_en: When developers run several coding agents at once on macOS, they normally switch back to the
+  terminal or editor to check each task's progress. AI Pulse places a fake LED strip beside the Dock that
+  shows agent status at the screen edge, so developers can see progress without switching windows. Which
+  agents are supported and how status maps to the strip are not stated in the public material, so the
+  delivery details remain unverified.
+inspiration_en: The trend is that coding agents are moving from single chats to long-running background
+  tasks, so the bottleneck shifts from how to prompt to how to monitor. A wedge is multi-agent status
+  visualization for individual developers and small teams running several agents at once; monetization
+  could be open source plus hosted sync, but no pricing is disclosed in the public material.
 priority_review: false
 project_type: open_source
 industries:
-- 软件与信息服务
+- 软件开发
 industries_en:
-- Software and IT services
+- Software Development
 jobs:
 - 开发者
 jobs_en:
-- Software developers
+- Developers
 regions: []
 regions_en: []
 open_source: true
@@ -29,7 +32,7 @@ canonical_url: https://github.com/leog/ai-pulse
 summary: AI Pulse a fake LED strip beside the macOS Dock that shows agent status
 first_seen: '2026-08-10T22:07:41Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch

@@ -1,0 +1,42 @@
+- id: req-initial-mu-2026-09-25
+  project_slug: mu
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决编码代理调用成本高、常规判断浪费大模型的问题，痛点具体；但公开材料未说明替代了哪一步旧流程，也未给出成本或质量对比。
+    evidence_ids:
+    - ev-7e8750f9e4d5f74b
+  - gate: consensus
+    status: insufficient
+    reason: 仅约 116 星、6 次 fork，属于早期关注度，不能说明开发者已把它留在日常工作流中。
+    evidence_ids:
+    - ev-7e8750f9e4d5f74b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方可能是自建代理的团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7e8750f9e4d5f74b
+  - gate: truth
+    status: insufficient
+    reason: 两级模型路由是否真能降低总成本、改动是否可靠，均无公开实测或用户反馈支持。
+    evidence_ids:
+    - ev-7e8750f9e4d5f74b
+  next_validation: 收集 mu 仓库的 issue、discussion 或 README 中关于两级模型调用成本与改动成功率的公开实测记录。
+  market: ''
+  job: 软件工程师在本地仓库中处理一个具体改动任务时，把代码库和需求交给编码代理，希望拿到可直接审阅的代码变更。
+  job_en: A software engineer working on a specific change in a local repository hands the codebase and
+    requirement to a coding agent and expects reviewable code changes.
+  pain: 大模型逐次调用成本高，常规判断也走大模型造成浪费；开发者需要在成本与改动质量之间取舍。
+  pain_en: Large-model calls are costly per step, and routing routine decisions through the large model
+    wastes budget; developers must trade off cost against edit quality.
+  current_alternative: 直接使用单一模型的编码代理或 IDE 内置助手，或自己手工改代码。
+  current_alternative_en: Using a single-model coding agent or an IDE built-in assistant, or editing the
+    code by hand.
+  usage_reason: 推断：相较单一模型代理，mu 用小模型先做常规判断，可能减少每次任务的大模型调用量，从而降低单次改动成本；但公开材料未给出成本对比或改动质量数据，尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: compared with a single-model agent, mu routes routine calls to a small
+    model first, which may cut large-model calls per task and lower the cost of each change; however no
+    public cost comparison or edit-quality data exists, so user choice cannot yet be confirmed.'

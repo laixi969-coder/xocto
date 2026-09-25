@@ -1,0 +1,44 @@
+- id: req-initial-news-2-2026-09-25
+  project_slug: news-2
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决本机文件与跨软件操作的整理需求，痛点真实存在，但现有材料只有“AI管家”定位，未说明具体动作与交付，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-94cbe136eee1f6a4
+  - gate: consensus
+    status: insufficient
+    reason: 除一条定位报道外，没有用户反馈、客户案例或采用迹象，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-94cbe136eee1f6a4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；腾讯为大型厂商，可能走订阅或生态捆绑，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-94cbe136eee1f6a4
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近桌面整理的第一性目标、操作是否可确定交付，以及涉及本机文件时的安全与人工确认边界。
+    evidence_ids:
+    - ev-94cbe136eee1f6a4
+  next_validation: 收集腾讯Marvis官方产品页或发布文档，确认其可执行的具体动作、交付物与是否收费。
+  market: ''
+  job: 个人电脑使用者在本机文件杂乱、需要在多个软件与浏览器之间来回切换时，希望由一个助手代为完成整理与操作，拿到整理后的文件或已执行的操作结果。
+  job_en: A personal computer user with cluttered local files, switching among several apps and browsers,
+    wants an assistant to do the organizing and operating and to hand back organized files or completed
+    actions.
+  pain: 本地文件散落、命名混乱、跨软件重复操作耗时，用户往往靠手动整理或搜索工具逐个处理。
+  pain_en: Local files are scattered and inconsistently named, and repeated cross-app operations cost
+    time; users handle it manually or with search tools one item at a time.
+  current_alternative: 手动整理文件夹、用系统搜索或第三方文件管理工具、以及把任务拆给多个单点软件完成。
+  current_alternative_en: Manually organizing folders, using system search or third-party file managers,
+    and splitting tasks across several single-purpose apps.
+  usage_reason: 推断：若它真能读取本机文件与软件状态并直接执行整理或操作，用户可省去逐项手动点击与命名的步骤；但现有材料只有定位描述，没有可核对的动作与交付，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it can actually read local file and software state and directly perform
+    organizing or operations, users could skip item-by-item manual clicking and renaming; but current
+    material only gives positioning, with no checkable actions or deliverables, so it cannot yet be confirmed
+    that users would choose it for this reason.'

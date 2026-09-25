@@ -1,0 +1,43 @@
+- id: req-initial-europeans-in-japan-raise-12m-to-put-modular-humanoid-robots-2026-09-25
+  project_slug: europeans-in-japan-raise-12m-to-put-modular-humanoid-robots
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决重复搬运与上下料依赖人工、招工难的问题，旧替代行为明确；买方与定价未公开。
+    evidence_ids:
+    - ev-907924467828de00
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 pre-seed 融资报道，未见客户部署或现场使用数据。
+    evidence_ids:
+    - ev-907924467828de00
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明按设备销售、租赁还是按作业量收费，买方预算来源不明。
+    evidence_ids:
+    - ev-907924467828de00
+  - gate: truth
+    status: insufficient
+    reason: 机器人在真实产线的可靠性、安全边界与人工介入方式均无公开材料支持。
+    evidence_ids:
+    - ev-907924467828de00
+  next_validation: 收集 O-ID 官方部署文档或公开客户试点案例，核验机器人在真实工位的作业时长与人工介入比例。
+  market: ''
+  job: 制造或物流现场负责人在产线、仓储出现重复搬运与上下料任务时，处理现场作业任务，要完成搬运、上下料等动作并保证作业量可核对。
+  job_en: A manufacturing or logistics site lead, facing repetitive carrying and loading tasks on the
+    line or in the warehouse, handles on-site work assignments and must complete carrying and loading
+    actions with checkable output.
+  pain: 重复搬运与上下料依赖人工，招工难、人员流动大，且作业强度高。
+  pain_en: Repetitive carrying and loading depend on manual labor, hiring is hard, turnover is high, and
+    the work is physically demanding.
+  current_alternative: 人工班组、固定式工业机械臂或专用自动化设备。
+  current_alternative_en: Manual crews, fixed industrial robot arms, or dedicated automation equipment.
+  usage_reason: 推断：相较固定机械臂，模块化人形机器人可在既有工位替换人工动作，减少为单一工序定制产线改造这一步，因此工位分散、改造预算有限的制造与仓储现场会先试点；公开材料未提供部署或复购证据。
+  usage_reason_en: 'Inference: versus fixed robot arms, modular humanoid robots can replace manual actions
+    at existing stations, removing the step of custom line retrofitting for a single process, so manufacturing
+    and warehouse sites with scattered stations and limited retrofit budgets would pilot first; public
+    materials provide no deployment or repeat-purchase evidence.'

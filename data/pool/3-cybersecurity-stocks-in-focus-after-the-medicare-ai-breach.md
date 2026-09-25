@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOWVh6VV9USzhw
 summary: 3 Cybersecurity Stocks In Focus After The Medicare AI Breach simplywall.st
 first_seen: '2026-09-24T20:58:28Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

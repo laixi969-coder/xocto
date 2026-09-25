@@ -204,3 +204,42 @@
     text, it could remove the manual step of discarding comment and string false positives; but current
     evidence does not describe its input, delivery or usage scenario, so why users would choose it cannot
     be confirmed.'
+- id: req-initial-grep-2026-09-25
+  project_slug: grep
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨仓库按结构找代码的需求，痛点真实，但公开材料未说明检索范围、私有仓库支持与交付形式，价值边界不清。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有一定热度，但缺少可归因到该产品的采用或持续使用证据，无法判断共识是否形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检索结果是否确定交付、是否覆盖真实工作场景，安全与人工复核边界也未说明。
+    evidence_ids: []
+  next_validation: 收集该产品的官方文档或定价页，确认检索范围、是否支持私有仓库以及结果交付形式。
+  market: ''
+  job: 开发者在升级依赖或排查漏洞时，需要弄清某个函数或写法在多个公开仓库里是怎么被调用的，以便判断改动影响面。
+  job_en: A developer upgrading a dependency or investigating a vulnerability needs to know how a function
+    or pattern is called across multiple public repositories in order to judge the blast radius of a change.
+  pain: 本地克隆多个仓库再逐个搜索耗时，普通文本搜索又会命中注释和字符串，需要人工筛掉大量噪声。
+  pain_en: Cloning many repositories and searching each one is slow, and plain text search also matches
+    comments and strings, forcing manual filtering of heavy noise.
+  current_alternative: 用本地 grep、代码托管平台的站内搜索，或把仓库克隆到本地后逐个排查。
+  current_alternative_en: Local grep, the code host's built-in search, or cloning repositories and checking
+    them one by one.
+  usage_reason: 推断：它把检索动作从“先克隆再搜”提前到“直接按结构搜”，省掉准备本地副本这一步，因此需要跨仓库比对写法的开发者会先试它；但公开材料没有用户反馈或重复使用证据，是否被留在工作流里无法确认。
+  usage_reason_en: 'Inference: it moves the search step from clone-then-search to searching by structure
+    directly, removing the need to prepare local copies, so developers comparing patterns across repositories
+    would try it first; however, the public material contains no user feedback or repeat-use evidence,
+    so retention in the workflow cannot be confirmed.'

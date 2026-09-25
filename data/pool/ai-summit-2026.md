@@ -23,7 +23,7 @@ summary: TechCrunch Founder Summit is a full-day gathering in Boston on November
   and scaling their companies.
 first_seen: '2026-09-23T07:06:39Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 - marketfeeds

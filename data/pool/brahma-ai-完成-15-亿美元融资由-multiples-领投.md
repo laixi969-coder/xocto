@@ -1,6 +1,6 @@
 ---
 slug: brahma-ai-完成-15-亿美元融资由-multiples-领投
-name: Brahma AI 完成 1.5 亿美元融资，由 Multiples 领投
+name: Brahma AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE02Y1ZUYnVrV1V3
 summary: Brahma AI 完成 1.5 亿美元融资，由 Multiples 领投 美通社
 first_seen: '2026-09-24T07:01:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Brahma AI 完成 1.5 亿美元融资，由 Multiples 领投
+# Brahma AI
 
 Brahma AI 完成 1.5 亿美元融资，由 Multiples 领投 美通社
 

@@ -1,0 +1,43 @@
+- id: req-initial-choredivider-2026-09-25
+  project_slug: choredivider
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决家务分配谈不拢的问题，痛点真实但强度不明；公开材料未说明输出形态与是否被采用，无法判断不解决会失去什么。
+    evidence_ids:
+    - ev-458d6b71e1e03013
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，无用户评价、无场景描述，看不出卡在感知还是场景环节。
+    evidence_ids:
+    - ev-458d6b71e1e03013
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，家庭场景可能由个人付费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-458d6b71e1e03013
+  - gate: truth
+    status: insufficient
+    reason: 无法核对分工结果是否被真正执行，也未见人工确认或安全边界说明。
+    evidence_ids:
+    - ev-458d6b71e1e03013
+  next_validation: 收集 ChoreDivider 官方页面上的产品说明或定价页，确认其输入、输出形态与是否收费。
+  market: ''
+  job: 同住者在家务分配谈不拢时，把各自讨厌做的家务作为材料输入，要产出一份双方能接受的分工安排。
+  job_en: When housemates cannot agree on chores, they input the tasks each person dislikes in order to
+    produce a division of labour both sides accept.
+  pain: 家务分配反复协商、容易积怨，谈不拢时没有中立依据，只能靠谁先让步。
+  pain_en: Chore allocation is repeatedly renegotiated and breeds resentment; with no neutral basis, whoever
+    gives in first loses.
+  current_alternative: 口头协商、轮流表、家庭群里的临时指派，或干脆由一个人全包。
+  current_alternative_en: Talking it out, a paper rota, ad-hoc assignment in a family chat, or one person
+    simply doing everything.
+  usage_reason: 推断：如果它能把“各自介意程度”转成一份可执行的分工，就省掉了反复讨价还价这一步，可能吸引刚同居或刚合租、尚未形成惯例的人；但公开材料没有说明输出形态，也没有任何使用或留存证据，无法确认它比口头协商更省事。
+  usage_reason_en: 'Inference: if it turns ''how much each person minds'' into an executable split, it
+    removes the repeated bargaining step and may appeal to people who just moved in together and have
+    no routine yet; however, the public material does not describe the output and shows no usage or retention
+    evidence, so it cannot be confirmed as easier than talking it out.'

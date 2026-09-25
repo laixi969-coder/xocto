@@ -1,0 +1,46 @@
+- id: req-initial-subscrr-2026-09-25
+  project_slug: subscrr
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是订阅支出失控、不知道该取消哪一项这一需求，但材料未说明数据来源与建议依据，痛点强度与不采用后果无法判断。
+    evidence_ids:
+    - ev-498723a660db9f4d
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有使用规模、评价或场景描述，无法判断用户是否真的会在核对账单时打开它。
+    evidence_ids:
+    - ev-498723a660db9f4d
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页，买方是个人订阅者还是其他角色、按次还是按月收费均无材料支持。
+    evidence_ids:
+    - ev-498723a660db9f4d
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对建议是否准确、是否代用户执行取消，交付确定性没有材料支持。
+    evidence_ids:
+    - ev-498723a660db9f4d
+  next_validation: 抓取 Subscrr 官方产品页或定价页，确认订阅数据接入方式（手工录入或银行同步）与是否提供取消执行。
+  market: ''
+  job: 个人在月底或发现扣款异常时，需要梳理自己有哪些订阅、每月花多少，并决定先取消哪几项，处理的是订阅清单和账单材料。
+  job_en: At month end or when noticing an unexpected charge, an individual needs to inventory which subscriptions
+    exist and what they cost monthly, then decide which few to cancel first, working from subscription
+    lists and bill material.
+  pain: 订阅分散在多个平台、自动续费不易察觉，取消入口各不相同，用户容易长期为不用的服务付费；候选材料只有一句“建立财务计划并询问该取消什么”，未说明它如何拿到订阅数据。
+  pain_en: Subscriptions are scattered across platforms, auto-renewals are easy to miss, and cancellation
+    paths differ, so users keep paying for services they no longer use; the candidate material offers
+    only one line about building a plan and asking what to cancel, without saying how it obtains subscription
+    data.
+  current_alternative: 用户手工翻查银行或信用卡账单、逐个平台取消，或使用记账类应用自行分类统计。
+  current_alternative_en: Users manually scan bank or credit card statements, cancel platform by platform,
+    or use budgeting apps to categorize spending themselves.
+  usage_reason: 推断：如果它能直接读取订阅与扣款记录并给出排序后的取消建议，用户就不必逐个平台核对，省掉手工比对账单这一步；但材料未说明数据接入方式，也没有用户反馈证明建议被采纳，因此无法确认选择理由。
+  usage_reason_en: 'Inference: if it can read subscription and charge records directly and return a ranked
+    cancellation list, users would not have to check each platform, removing the manual statement comparison
+    step; but the material does not describe data access and no user feedback shows the advice is acted
+    on, so the reason for choosing it cannot be confirmed.'

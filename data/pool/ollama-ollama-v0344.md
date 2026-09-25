@@ -1,6 +1,6 @@
 ---
 slug: ollama-ollama-v0344
-name: 'ollama/ollama: v0.34.4'
+name: Ollama
 builder: ollama
 category: ''
 summary_zh: ''
@@ -26,7 +26,7 @@ summary: "## What's Changed\r\n\r\n- Structured outputs on thinking models now a
   - Updated llama.cpp, MLX, and XGrammar.\r\n \r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.3...v0.34.4"
 first_seen: '2026-09-23T02:24:43Z'
 last_seen: '2026-09-25T00:33:47Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -38,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# ollama/ollama: v0.34.4
+# Ollama
 
 ## What's Changed
 

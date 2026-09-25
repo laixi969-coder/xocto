@@ -1,0 +1,43 @@
+- id: req-initial-kontext-raises-4m-for-runtime-security-platform-for-ai-agent-2026-09-25
+  project_slug: kontext-raises-4m-for-runtime-security-platform-for-ai-agent
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决智能体运行时越权与不可追溯的问题，痛点结构成立，但材料只有融资事实，未说明具体监控与拦截动作，价值判断依据不足。
+    evidence_ids:
+    - ev-7746ec18ef4dd3fa
+  - gate: consensus
+    status: insufficient
+    reason: 除投资方名单外，没有客户采用、社区讨论或行业共识证据，无法判断买方是否已形成采购意愿。
+    evidence_ids:
+    - ev-7746ec18ef4dd3fa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方类型，to B 订阅或按用量收费均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-7746ec18ef4dd3fa
+  - gate: truth
+    status: insufficient
+    reason: 无法核对平台是否真能确定性拦截并交付可审计结果，也未见安全边界与人工复核机制的说明。
+    evidence_ids:
+    - ev-7746ec18ef4dd3fa
+  next_validation: 收集 Kontext 官方产品页或部署文档，核对其运行时监控与拦截的具体能力、交付形态及是否公开定价。
+  market: ''
+  job: 安全工程师在企业把 AI 智能体接入内部系统后，需要处理智能体运行时的调用记录与权限行为，完成监控、拦截与事后追溯。
+  job_en: After enterprises connect AI agents to internal systems, security engineers handle runtime call
+    logs and permission behaviour of agents to monitor, block and trace back incidents.
+  pain: 智能体一旦获得工具调用权限，就可能越权访问数据或执行未预期动作，而部署前的静态检查无法覆盖运行中的行为。
+  pain_en: Once an agent gains tool-calling permissions it may access data beyond its scope or take unintended
+    actions, and pre-deployment static checks cannot cover runtime behaviour.
+  current_alternative: 目前多由企业安全团队用通用日志、API 网关规则和人工审查拼凑监控，缺少专门针对智能体行为的管控手段。
+  current_alternative_en: Today enterprise security teams cobble together general logs, API gateway rules
+    and manual review, lacking controls aimed specifically at agent behaviour.
+  usage_reason: 推断：相比通用日志加人工排查，运行时平台若能在智能体调用发生时直接拦截并留下可追溯记录，可省去事后逐条翻日志定位的一步，因此已上线智能体且受合规约束的安全团队会考虑它；但候选材料未给出任何客户使用或留存证据。
+  usage_reason_en: 'Inference: compared with general logs plus manual investigation, a runtime platform
+    that blocks calls as they happen and leaves a traceable record could remove the step of digging through
+    logs afterwards, so compliance-bound security teams already running agents may consider it; however
+    the candidate material provides no customer usage or retention evidence.'

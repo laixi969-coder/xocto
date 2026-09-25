@@ -1,6 +1,6 @@
 ---
 slug: databricks-buys-row-zero-and-is-scouting-for-more-startups-t
-name: Databricks buys Row Zero and is scouting for more startups to acquire
+name: Databricks
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOcWR6V1F3ZHRS
 summary: Databricks buys Row Zero and is scouting for more startups to acquire TechCrunch
 first_seen: '2026-09-24T17:07:55Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Databricks buys Row Zero and is scouting for more startups to acquire
+# Databricks
 
 Databricks buys Row Zero and is scouting for more startups to acquire TechCrunch
 

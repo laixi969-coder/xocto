@@ -1,6 +1,6 @@
 ---
 slug: 极逸soon大模型通过国家生成式人工智能服务备案
-name: 极逸SOON大模型通过国家生成式人工智能服务备案
+name: 极逸SOON大模型
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MUTdVcFhzY2s2
 summary: 极逸SOON大模型通过国家生成式人工智能服务备案 同花顺财经
 first_seen: '2026-09-24T04:20:28Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 极逸SOON大模型通过国家生成式人工智能服务备案
+# 极逸SOON大模型
 
 极逸SOON大模型通过国家生成式人工智能服务备案 同花顺财经
 

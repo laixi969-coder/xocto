@@ -1,0 +1,45 @@
+- id: req-initial-404media-2026-09-25
+  project_slug: 404media
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决酒店前台接单与转达的漏单、延迟问题，旧做法是人工记录再转述，痛点具体且不解决的后果可核对。
+    evidence_ids:
+    - ev-b8f6f4c4780c42bb
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资与隐身结束的公开信息，尚无客户案例或持续采用证据，共识关证据不足。
+    evidence_ids:
+    - ev-b8f6f4c4780c42bb
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价与买方结构，酒店按间夜或按请求付费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-b8f6f4c4780c42bb
+  - gate: truth
+    status: insufficient
+    reason: 智能体代接电话并分派工单的准确率、异常升级与人工边界未在材料中说明。
+    evidence_ids:
+    - ev-b8f6f4c4780c42bb
+  next_validation: Dextr AI 官方定价页或已上线酒店客户案例，用于核实按什么计价以及智能体处理预订与请求的实际交付结果。
+  market: ''
+  job: 酒店前台或预订专员在夜间或高峰时段接到订房电话和住客临时请求（延迟入住、加床、维修）时，需要把这些信息准确分派给客房、维修或前台同事并确认完成。
+  job_en: A hotel front desk or reservations agent receiving booking calls and last-minute guest requests
+    (late check-in, extra bed, repairs) during night shifts or peak hours must route that information
+    accurately to housekeeping, maintenance or front desk colleagues and confirm completion.
+  pain: 电话与请求分散在多个渠道，人工记录容易漏单或转达延迟，住客等待时间长；夜班人手少时更明显。
+  pain_en: Calls and requests are scattered across channels, manual logging easily drops or delays them,
+    and guests wait longer, especially with thin night-shift staffing.
+  current_alternative: 目前多靠前台人工接听、纸质或表格记录，再用对讲机、电话或微信群转达给相关岗位。
+  current_alternative_en: 'Today this is mostly manual: front desk staff answer, log on paper or a spreadsheet,
+    then relay to the relevant role by radio, phone or group chat.'
+  usage_reason: 相较人工记录再转达，智能体直接接住电话与请求并生成已分派的工单，省掉“先记下来再转述”这一步，减少漏单和转达延迟；人手紧张的夜班与中小酒店更可能选择它。这是基于产品能力与任务结构的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with logging then relaying by hand, the agent takes the call or request and
+    produces an already-assigned work order, removing the log-then-relay step and reducing dropped or
+    delayed requests; thinly staffed night shifts and smaller hotels are the likeliest adopters. This
+    is inference from product capability and task structure, with no retention or repeat-use evidence
+    yet.

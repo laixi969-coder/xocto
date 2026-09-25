@@ -22,7 +22,7 @@ summary: Buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the
   before event starts on October 13 at 8 a.m. PT.
 first_seen: '2026-09-24T19:15:00Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

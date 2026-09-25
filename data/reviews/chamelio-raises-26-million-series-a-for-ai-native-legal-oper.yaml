@@ -1,0 +1,44 @@
+- id: req-initial-chamelio-raises-26-million-series-a-for-ai-native-legal-oper-2026-09-25
+  project_slug: chamelio-raises-26-million-series-a-for-ai-native-legal-oper
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法务运营事项与费用靠人工在表格邮件间搬运、核对成本高的问题，痛点具体且旧做法明确。
+    evidence_ids:
+    - ev-c3a1da95f37a777b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户采用或行业共识证据，买方认知是否形成无法判断。
+    evidence_ids:
+    - ev-c3a1da95f37a777b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，钱可能来自企业法务预算，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c3a1da95f37a777b
+  - gate: truth
+    status: insufficient
+    reason: 未说明交付是否确定发生、人工确认边界与安全合规处理方式。
+    evidence_ids:
+    - ev-c3a1da95f37a777b
+  next_validation: 收集 Chamelio 官方定价页或公开客户案例，确认其替代的具体法务运营环节与交付结果。
+  market: ''
+  job: 企业法务运营人员需要处理法务部门的事项流转、外部律师费用与合规材料，把分散在邮件、表格和工单里的信息整理成可跟踪的流程记录。
+  job_en: Corporate legal operations staff handle matter routing, outside-counsel costs and compliance
+    materials, turning information scattered across email, spreadsheets and tickets into trackable process
+    records.
+  pain: 法务运营长期依赖人工在表格和邮件间搬运信息，事项状态与费用口径容易不一致，核对成本高。
+  pain_en: Legal operations has long relied on people moving information between spreadsheets and email,
+    so matter status and cost figures drift and reconciliation is costly.
+  current_alternative: 现有做法是电子表格、邮件往来与通用工单系统拼装，或由助理人工汇总。
+  current_alternative_en: The current approach is a patchwork of spreadsheets, email threads and generic
+    ticketing systems, or manual consolidation by assistants.
+  usage_reason: 推断：若该平台能直接读取法务部门的既有材料并自动生成可跟踪的事项与费用记录，法务运营人员可省去手工汇总与跨表核对这一步，因此在事项量大、外部律师费用需要逐笔核对的企业里更可能被选用；该因果尚未被公开客户案例证实。
+  usage_reason_en: 'Inference: if the platform can read a legal department''s existing materials and automatically
+    produce trackable matter and cost records, legal operations staff could skip manual consolidation
+    and cross-sheet reconciliation, making it more likely to be chosen at companies with high matter volume
+    and per-invoice outside-counsel review; this causal link is not yet confirmed by public customer cases.'

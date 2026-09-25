@@ -23,7 +23,7 @@ summary: AI Engineering Course - A free and complete AI Engineering Course to le
   LLM Inference, Evaluation, AI Safety, and AI System Design.
 first_seen: '2026-09-23T08:04:42Z'
 last_seen: '2026-09-25T00:33:47Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://kenklippenstein.com/p/feds-think-ai-critics-are-foreign
 summary: Feds Target AI Critics as "Foreign Agents"
 first_seen: '2026-09-24T00:41:31Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-minimi-20-2026-09-25
+  project_slug: minimi-20
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决“未完成事项没人收尾”的问题，但材料未说明谁在什么节点、处理什么材料、交付什么，痛点与场景都无法还原。
+    evidence_ids:
+    - ev-77abc61421bb93d8
+  - gate: consensus
+    status: insufficient
+    reason: 除一句自述外没有采用、评价或讨论证据，无法判断是否有人真的把它放进工作流。
+    evidence_ids:
+    - ev-77abc61421bb93d8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，to C 订阅或 to B 席位都只是猜测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-77abc61421bb93d8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能把事项收尾，也看不到人工确认边界与失败处理方式。
+    evidence_ids:
+    - ev-77abc61421bb93d8
+  next_validation: 收集 minimi 2.0 官方产品页或更新日志，确认它接收什么输入、执行什么动作、交付什么结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开它、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material does not say who opens it, in what situation, with what material, to finish
+    what task, so no concrete usage scenario can be reconstructed.
+  pain: 只能从“未完成事项”这一自述推测存在收尾拖延的困扰，但没有任何材料说明这种困扰具体发生在哪一步、代价是什么。
+  pain_en: Only the phrase 'open loops' hints at a pain around unfinished follow-through, but no material
+    says at which step this occurs or what it costs.
+  current_alternative: 公开材料未提及用户现在用什么方式处理未完成事项，待办清单、日历提醒或人工跟进都只是常见做法，不能算作该产品的既有替代证据。
+  current_alternative_en: No material mentions how users currently handle open loops; to-do lists, calendar
+    reminders or manual follow-up are common practices but are not evidence of this product's existing
+    alternatives.
+  usage_reason: 无法判断。缺少功能说明、输入输出和任何使用反馈，无法解释用户相较旧做法会因哪一步被省掉而选择它。
+  usage_reason_en: Cannot be judged. With no feature description, inputs/outputs or user feedback, there
+    is no way to explain which step it removes versus the old way, or why anyone would choose it.

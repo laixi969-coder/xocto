@@ -1,0 +1,44 @@
+- id: req-initial-中威电子推出储能电站ai超脑星鉴大模型驱动边缘智能-2026-09-25
+  project_slug: 中威电子推出储能电站ai超脑星鉴大模型驱动边缘智能
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决储能电站的异常判断，但公开材料未写出具体痛点、旧流程或用户行为，连解决什么需求都难以还原。
+    evidence_ids:
+    - ev-ca7b17f573368a60
+    - ev-aefcd6db62eda567
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且没有客户采用、现场部署或运维人员反馈可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-ca7b17f573368a60
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是电站业主、设备厂商还是集成商，也未披露定价或收费方式。
+    evidence_ids:
+    - ev-aefcd6db62eda567
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对边缘推理的准确率、误报率与人工复核边界，交付确定性无从判断。
+    evidence_ids:
+    - ev-ca7b17f573368a60
+  next_validation: 收集中威电子官方产品页或储能电站客户案例，确认接入设备范围、交付形式与是否披露定价。
+  market: ''
+  job: 储能电站运维人员在日常值守和巡检时，处理设备告警、运行曲线与巡检记录，要判断哪些异常需要现场处置。
+  job_en: Operations staff at energy-storage plants handle equipment alarms, operating curves and inspection
+    logs during daily shifts and inspections, and must decide which anomalies need on-site action.
+  pain: 公开材料只说明模型在边缘侧运行，未说明告警误报、响应延迟或人工巡检负担等具体痛点，也未给出任何用户抱怨或旧流程描述。
+  pain_en: Public material only says the model runs at the edge; it names no specific pain such as false
+    alarms, response latency or manual inspection load, and gives no user complaints or description of
+    the old process.
+  current_alternative: 公开材料未说明此前由谁、用什么工具完成同样的异常判断，无法确认替代了哪一步旧工作。
+  current_alternative_en: Public material does not say who or what tool previously performed the same
+    anomaly judgement, so which old step is replaced cannot be confirmed.
+  usage_reason: 无法判断：材料未说明相较现有监控或人工巡检，该产品减少了哪一步负担或改善了哪项可核对结果，因此不能给出用户选择它的因果解释。
+  usage_reason_en: 'Cannot be judged: the material does not say which step is reduced or which checkable
+    result improves versus existing monitoring or manual inspection, so no causal reason for user choice
+    can be given.'

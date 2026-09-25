@@ -21,7 +21,7 @@ canonical_url: https://bloomberg.com/news/articles/2026-09-24/oracle-cites-force
 summary: Oracle cites 'force majeure' to shield itself on controversial data center
 first_seen: '2026-09-24T13:04:21Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

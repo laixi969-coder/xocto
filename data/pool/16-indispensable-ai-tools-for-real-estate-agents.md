@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTE95VVVuX0UwSW5o
 summary: 16 Indispensable AI Tools for Real Estate Agents HousingWire
 first_seen: '2026-09-22T07:00:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

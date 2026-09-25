@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1MY0JsUUVrMkgt
 summary: 小摩重点推荐三家中国AI股 凤凰网财经
 first_seen: '2026-09-24T06:07:29Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

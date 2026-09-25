@@ -1,0 +1,42 @@
+- id: req-initial-whiteboard-yc-w26-2026-09-25
+  project_slug: whiteboard-yc-w26
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决设计意图与代码脱节的问题，痛点真实，但公开材料未说明 AI 具体接收什么、产出什么，交付是否确定无法判断。
+    evidence_ids:
+    - ev-e82bc83d2679110a
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 178 点、76 条评论，属于关注度信号，不能证明持续采用或形成共识。
+    evidence_ids:
+    - ev-e82bc83d2679110a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源项目可能的付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e82bc83d2679110a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 是否贴近设计工作的第一性目标，也未说明人工确认边界。
+    evidence_ids:
+    - ev-e82bc83d2679110a
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认 AI 在设计流程中的具体输入、输出与人工确认环节。
+  market: ''
+  job: 软件团队在写代码前做架构与模块设计时，处理设计意图与代码结构，要完成可评审、可追溯的设计方案。
+  job_en: Software teams doing architecture and module design before coding, working on design intent
+    and code structure to produce a reviewable, traceable design.
+  pain: 设计意图散落在文档、白板和聊天记录里，与代码脱节，评审和后续修改时难以对齐。
+  pain_en: Design intent is scattered across documents, whiteboards and chat, disconnected from code,
+    making review and later changes hard to align.
+  current_alternative: 用白板、文档或直接在代码注释里记录设计，再靠人工同步。
+  current_alternative_en: Recording design on whiteboards, documents or code comments, then syncing manually.
+  usage_reason: 推断：若它能把设计意图与代码结构放在同一处编辑并保留版本，就省去在文档与仓库之间来回搬运这一步，需要留设计记录的团队会因此选择它；但公开材料未说明 AI 具体做什么，也未提供使用或留存证据。
+  usage_reason_en: 'Inference: if it lets design intent and code structure be edited in one place with
+    versioning, it removes the step of shuttling between documents and the repository, which is why teams
+    needing design records might choose it; however public material does not say what the AI does and
+    offers no usage or retention evidence.'

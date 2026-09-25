@@ -21,7 +21,7 @@ canonical_url: https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipula
 summary: Hackers influence ChatGPT and Gemini to direct users to scam centers
 first_seen: '2026-09-24T11:54:38Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

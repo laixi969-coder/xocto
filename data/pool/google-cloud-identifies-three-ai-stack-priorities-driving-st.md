@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQlh0NjFBaC14
 summary: Google Cloud Identifies Three AI Stack Priorities Driving Startup Infrastructure Choices konsulteer.com
 first_seen: '2026-09-24T14:19:58Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

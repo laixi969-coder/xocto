@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQTmJ4ODV6NkVP
 summary: AI构建知识产权服务新范式 新华网客户端
 first_seen: '2026-09-24T01:56:58Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

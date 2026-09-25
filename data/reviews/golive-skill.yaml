@@ -1,0 +1,47 @@
+- id: req-initial-golive-skill-2026-09-25
+  project_slug: golive-skill
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后上线配置分散、易错的问题，痛点具体且不解决的后果是产品无法访问或收款；旧做法是逐个后台手工配置，属于工作流推理。
+    evidence_ids:
+    - ev-bb710f2e938863b6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与fork数，属于关注度而非持续采用；没有用户评价或案例说明谁在反复使用。
+    evidence_ids:
+    - ev-bb710f2e938863b6
+  - gate: model
+    status: insufficient
+    reason: 项目本身开源且不设平台账号，未披露任何收费方式；买方可能是开发者自付或托管资源转售，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-bb710f2e938863b6
+  - gate: truth
+    status: insufficient
+    reason: 检测、计划、批准、执行、验证的闭环与人工确认边界在说明中可见，但缺少真实上线结果与失败处理的公开记录。
+    evidence_ids:
+    - ev-bb710f2e938863b6
+  next_validation: 收集该仓库的 issue 与 discussion，核对是否有用户报告用它在自己账号上完成真实上线及遇到的失败环节。
+  market: ''
+  job: 独立开发者或小团队在 agent 生成代码之后，面对域名、托管、数据库、邮件和支付这些分散的上线材料，要在自己的账号上完成配置，让产品能被访问并收款。
+  job_en: After an agent generates code, solo developers or small teams face scattered go-live materials
+    such as domain, hosting, database, email and payments, and must configure them on their own accounts
+    so the product is reachable and can take payment.
+  pain: 上线环节分散在多个服务商后台，配置项多、顺序易错，出错后排查成本高；agent 能写代码却接不上这些账号与资源。
+  pain_en: Go-live work is spread across several provider dashboards with many settings and an error-prone
+    order, and mistakes are costly to debug; agents can write code but cannot connect these accounts and
+    resources.
+  current_alternative: 开发者自己逐个打开服务商后台手工配置，或照着教程和文档一步步照做，也有人干脆把上线拖到很晚。
+  current_alternative_en: Developers open each provider dashboard and configure manually, follow tutorials
+    and docs step by step, or simply postpone going live.
+  usage_reason: 相较手工逐个后台配置，它先检测项目缺哪些上线资源并给出计划，用户批准后在自己的账号上执行并验证，减少的是“查文档—找入口—逐项配置—回头排查”这一整段负担；推断，独立开发者和小团队在需要快速把
+    agent 产物上线时会选择它。
+  usage_reason_en: Compared with configuring each dashboard by hand, it first detects which go-live resources
+    are missing and proposes a plan, then applies and verifies on the user's own accounts after approval,
+    cutting the whole loop of reading docs, finding settings, configuring item by item and debugging;
+    this is inference, and solo developers and small teams would choose it when they need to ship agent
+    output quickly.

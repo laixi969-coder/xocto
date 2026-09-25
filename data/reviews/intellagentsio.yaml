@@ -1,0 +1,44 @@
+- id: req-initial-intellagentsio-2026-09-25
+  project_slug: intellagentsio
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多渠道咨询人工覆盖不足的问题，但公开材料只有一句定位，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-0b3534650ca3fdb6
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、客户案例或采用迹象，无法判断客服团队是否真的把它接入日常流程。
+    evidence_ids:
+    - ev-0b3534650ca3fdb6
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、客户或采购信息，买方是中小企业还是呼叫中心、按席位还是按处理量收费都无从判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0b3534650ca3fdb6
+  - gate: truth
+    status: insufficient
+    reason: 无法确认应答准确率、错误答复的责任归属以及转人工边界，交付确定性未披露。
+    evidence_ids:
+    - ev-0b3534650ca3fdb6
+  next_validation: 收集 IntellAgents.io 官方产品页或定价页，确认它接入哪些渠道、如何转人工、按什么计价以及是否有公开客户案例。
+  market: ''
+  job: 客服或销售团队在电话、在线聊天和社交私信同时涌入咨询时，用它自动接起并应答，把人工从重复问答中释放出来。
+  job_en: When inquiries flood in simultaneously through phone, live chat and social DMs, a customer service
+    or sales team uses it to pick up and answer automatically, freeing staff from repetitive questions.
+  pain: 多渠道咨询并行时人工排班难以覆盖，响应慢会流失客户；但公开材料没有说明现有客服工具具体哪里不够用，痛点强度无法确认。
+  pain_en: With parallel multi-channel inquiries, human staffing struggles to cover them and slow responses
+    lose customers; but the public material does not say where existing support tools fall short, so the
+    intensity of the pain cannot be confirmed.
+  current_alternative: 目前主要靠人工客服、单一渠道的聊天机器人或外包呼叫中心来应对这些咨询。
+  current_alternative_en: Today these inquiries are handled mainly by human agents, single-channel chatbots
+    or outsourced call centers.
+  usage_reason: 推断：如果它能把多个渠道的咨询统一接起并自动应答，咨询量大、问题重复度高的团队会愿意试用；但公开材料只有一句定位，无法确认应答质量与转人工机制，因此不能断言会被持续使用。
+  usage_reason_en: 'Inference: if it picks up inquiries across channels and answers them automatically,
+    teams with high volume and repetitive questions would be willing to try it; but the public material
+    is one positioning line, so answer quality and human handoff cannot be confirmed, and continued use
+    cannot be asserted.'

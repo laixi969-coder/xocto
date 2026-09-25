@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/uk-startup-building-ais-next-enterpris
 summary: ''
 first_seen: '2026-09-24T09:00:00Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

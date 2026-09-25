@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/locklines
 summary: Design Mac lock screen messages that fit
 first_seen: '2026-09-23T20:09:03Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

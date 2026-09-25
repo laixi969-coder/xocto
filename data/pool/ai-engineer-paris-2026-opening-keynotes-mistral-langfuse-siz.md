@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE80LUdEckdtaTRp
 summary: 'AI Engineer Paris 2026 Opening Keynotes: Mistral, Langfuse & Sizzy | Day 1 finance.biggo.com'
 first_seen: '2026-09-23T13:07:23Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

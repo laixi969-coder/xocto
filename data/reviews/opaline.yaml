@@ -1,0 +1,44 @@
+- id: req-initial-opaline-2026-09-25
+  project_slug: opaline
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决团队共用编码代理后会话不可回看的问题，痛点具体；但公开材料只有一句定位，未说明采集字段与交付形式，价值强度无法确认。
+    evidence_ids:
+    - ev-a81e89d07df65123
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页自述外，没有用户评价、客户案例或社区讨论，无法判断团队是否真的需要这类观测。
+    evidence_ids:
+    - ev-a81e89d07df65123
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能向工程团队按席位或会话量收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a81e89d07df65123
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能完整采集代理会话，以及采集是否影响开发流程，交付确定性未明。
+    evidence_ids:
+    - ev-a81e89d07df65123
+  next_validation: 收集 Opaline 官方定价页或部署文档，确认其采集的会话字段、计费方式与是否支持团队留存。
+  market: ''
+  job: 工程团队负责人在多名成员共用 Claude Code、Codex 编码代理的情况下，处理这些代理产生的会话记录，要弄清团队到底用它们做了什么、花了多少。
+  job_en: An engineering team lead, when several members share Claude Code and Codex coding agents, handles
+    the session records those agents produce and needs to know what the team actually did with them and
+    at what cost.
+  pain: 多人共用编码代理后，会话散落在各人本地，负责人无法回看谁在什么任务上用了多少、是否出错，只能靠口头汇报。
+  pain_en: Once several people share coding agents, sessions scatter across local machines, so the lead
+    cannot review who used how much on which task or whether it failed, and must rely on verbal reports.
+  current_alternative: 目前多靠各人自行记录、共享终端截图或干脆不追踪，团队层面没有统一台账。
+  current_alternative_en: Today teams mostly rely on individuals keeping their own notes, sharing terminal
+    screenshots, or not tracking at all, with no unified team-level ledger.
+  usage_reason: 推断：相较人工汇报，它把代理会话自动汇总成可回看的记录，省掉负责人逐个询问和拼凑信息这一步，因此有合规或成本压力的团队负责人会考虑试用；但公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual reporting, it automatically aggregates agent sessions
+    into a reviewable record, removing the step where the lead asks each person and pieces information
+    together, so leads under compliance or cost pressure may try it; public material shows no retention
+    or repeat-use evidence.'

@@ -1,0 +1,44 @@
+- id: req-initial-hormuz-signal-2026-09-25
+  project_slug: hormuz-signal
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决地缘风险判断依赖零散信息的问题，但公开材料只有一句定位，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-c0251e2f95eced2d
+  - gate: consensus
+    status: insufficient
+    reason: 只有少量社区讨论，没有用户评价或行业采用迹象，无法判断目标人群是否真的需要这个信号。
+    evidence_ids:
+    - ev-c0251e2f95eced2d
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、客户或采购信息，买方是贸易商、保险方还是媒体无从判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c0251e2f95eced2d
+  - gate: truth
+    status: insufficient
+    reason: 无法确认数据来源与计算方法，也无法确认风险信号能否确定性交付，误判责任与人工边界未披露。
+    evidence_ids:
+    - ev-c0251e2f95eced2d
+  next_validation: 收集 Hormuz Signal 官网的方法说明或数据来源页，确认它使用哪些公开数据、如何生成风险信号以及是否公布定价。
+  market: ''
+  job: 能源贸易、航运或保险从业者在评估霍尔木兹海峡通行与采购风险时，打开它把公开数据整理成升级风险判断。
+  job_en: Energy trading, shipping or insurance professionals open it to turn public data into an escalation-risk
+    judgment when assessing Strait of Hormuz transit and procurement risk.
+  pain: 海峡局势变化快，从业者需要快速判断风险等级；但公开材料没有说明现有信息渠道具体哪里不够用，痛点强度无法确认。
+  pain_en: The situation in the strait changes fast and practitioners need to judge the risk level quickly;
+    but the public material does not say where existing information channels fall short, so the intensity
+    of the pain cannot be confirmed.
+  current_alternative: 目前主要靠新闻、研报、经纪商口头信息和内部风控判断来评估这类地缘风险。
+  current_alternative_en: Today this kind of geopolitical risk is assessed mainly through news, research
+    notes, broker word of mouth and internal risk-control judgment.
+  usage_reason: 推断：如果它能把分散的公开数据持续转成可比较的风险信号，需要频繁评估海峡风险的从业者会愿意参考；但公开材料只有一句定位，无法确认信号如何生成、是否可核对，因此不能断言会被持续使用。
+  usage_reason_en: 'Inference: if it continuously turns scattered public data into a comparable risk signal,
+    practitioners who assess strait risk often would be willing to consult it; but the public material
+    is one positioning line, so how the signal is produced and whether it is checkable cannot be confirmed,
+    and continued use cannot be asserted.'

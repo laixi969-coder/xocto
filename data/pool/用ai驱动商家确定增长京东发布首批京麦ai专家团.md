@@ -1,6 +1,6 @@
 ---
 slug: 用ai驱动商家确定增长京东发布首批京麦ai专家团
-name: 用AI驱动商家确定增长：京东发布首批京麦AI专家团
+name: 京麦AI专家团
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPQzAzYVA3M2hj
 summary: 用AI驱动商家确定增长：京东发布首批京麦AI专家团 k.sina.com.cn
 first_seen: '2026-09-23T10:01:36Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 用AI驱动商家确定增长：京东发布首批京麦AI专家团
+# 京麦AI专家团
 
 用AI驱动商家确定增长：京东发布首批京麦AI专家团 k.sina.com.cn
 

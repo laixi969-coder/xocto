@@ -1,0 +1,44 @@
+- id: req-initial-paragravity-2026-09-25
+  project_slug: paragravity
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号与沙箱并行时的隔离和切换负担，痛点具体，旧做法是手动登出登入或复制环境，结构上成立。
+    evidence_ids:
+    - ev-93f51c7656fca3ec
+  - gate: consensus
+    status: insufficient
+    reason: 约 207 星说明有开发者关注，但没有 issue、讨论或用户反馈证明它被持续使用。
+    evidence_ids:
+    - ev-93f51c7656fca3ec
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费路径，买方与付费方式均不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-93f51c7656fca3ec
+  - gate: truth
+    status: insufficient
+    reason: 无法核对非侵入式隔离是否真能避免账号与数据串扰，也未说明与平台条款的边界。
+    evidence_ids:
+    - ev-93f51c7656fca3ec
+  next_validation: 收集 paragravity 仓库的 issue 与讨论，确认多账号隔离是否被实际使用并出现重复使用反馈。
+  market: ''
+  job: 独立开发者在同一台机器上要用多个 Google Antigravity 账号或沙箱并行跑任务时，处理账号与沙箱配置，要完成互不干扰的多实例运行。
+  job_en: An independent developer, when running tasks in parallel across several Google Antigravity accounts
+    or sandboxes on one machine, handles account and sandbox configuration to achieve non-interfering
+    multi-instance operation.
+  pain: 单账号或单沙箱会限制并发，手动切换账号和重建环境既慢又容易串数据，影响连续开发。
+  pain_en: A single account or sandbox caps concurrency, and manually switching accounts and rebuilding
+    environments is slow and prone to data bleed, disrupting continuous development.
+  current_alternative: 旧做法是手动登出登入、复制目录或开虚拟机来隔离多个账号。
+  current_alternative_en: The old approach is manually logging in and out, copying directories, or spinning
+    up virtual machines to isolate multiple accounts.
+  usage_reason: 推断：相较手动切换账号和复制环境，它把多账号与沙箱的隔离和并行调度做成一次配置，省掉反复登出登入和重建目录这一步，因此需要并行跑任务的独立开发者会选用；仓库星数只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with manual account switching and environment copying, it turns
+    isolation and parallel scheduling of multiple accounts and sandboxes into one configuration, removing
+    repeated logins and directory rebuilds, so independent developers running parallel tasks would adopt
+    it; repository stars only show attention, not sustained use.'

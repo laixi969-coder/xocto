@@ -1,0 +1,43 @@
+- id: req-initial-ctrlops-10-2026-09-25
+  project_slug: ctrlops-10
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决变更前缺少可核对审计的问题，痛点真实，但公开材料只有一句定位，说不清审计项与交付物，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-57a4eff800b05f77
+  - gate: consensus
+    status: insufficient
+    reason: 除发布说明外没有采用、评价或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-57a4eff800b05f77
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费信息，买方与收费方式均未知；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-57a4eff800b05f77
+  - gate: truth
+    status: insufficient
+    reason: 让 AI 直接对生产服务器做审计与部署，公开材料未说明权限边界、回滚机制或人工确认环节。
+    evidence_ids:
+    - ev-57a4eff800b05f77
+  next_validation: 收集 CtrlOps 官方文档或定价页，确认支持的云环境、审计项清单以及部署失败时的回滚与人工确认机制。
+  market: ''
+  job: 运维或小团队工程师在服务器配置变更与上线前，处理服务器状态与部署脚本，需要完成一次审计并完成部署。
+  job_en: An ops or small-team engineer, before a server config change or release, handles server state
+    and deployment scripts and needs an audit plus a completed deployment.
+  pain: 服务器审计与部署分散在不同脚本和面板里，变更前缺少一次可核对的检查，出错后难以追溯。
+  pain_en: Server auditing and deployment are scattered across scripts and dashboards, so there is no
+    checkable pre-change review and failures are hard to trace.
+  current_alternative: 手写部署脚本、现成的运维面板，或人工逐项核对服务器配置。
+  current_alternative_en: Hand-written deploy scripts, existing ops dashboards, or manually checking server
+    configuration item by item.
+  usage_reason: 推断：它把审计和部署放进同一个入口，省去在多个脚本与面板之间来回切换这一步，因此人手少、变更频繁的小团队可能愿意试；但公开材料没有说明它比现有脚本多保证什么，也没有客户案例或留存证据。
+  usage_reason_en: 'Inference: it puts auditing and deployment behind one entry point, removing the step
+    of switching between scripts and dashboards, so small teams with frequent changes may try it; however
+    the public material does not show what it guarantees beyond existing scripts, and there are no customer
+    cases or retention evidence.'

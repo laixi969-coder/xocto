@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/noan-2
 summary: The fact layer for your AI agents
 first_seen: '2026-09-19T00:04:02Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

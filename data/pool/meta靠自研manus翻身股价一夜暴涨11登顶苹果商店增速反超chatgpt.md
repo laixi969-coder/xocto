@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/496647.html
 summary: 美国也开启了全民养虾狂潮
 first_seen: '2026-09-24T02:23:12Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

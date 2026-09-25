@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbndELVJaaV9J
 summary: AI governance isn't keeping pace with AI adoption, AXA XL warns insurancebusinessmag.com
 first_seen: '2026-09-24T09:27:24Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

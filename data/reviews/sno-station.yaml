@@ -1,0 +1,43 @@
+- id: req-initial-sno-station-2026-09-25
+  project_slug: sno-station
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理之间上下文不通、交接靠人工搬运的问题，痛点具体；但协作稳定性与记忆范围未公开。
+    evidence_ids:
+    - ev-187c9b7ec61de34d
+  - gate: consensus
+    status: insufficient
+    reason: 160 个星标、152 个 fork，无用户评价或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-187c9b7ec61de34d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，买方与收费方式均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-187c9b7ec61de34d
+  - gate: truth
+    status: insufficient
+    reason: 夜间自动改写技能虽需用户批准，但改写质量与安全边界无公开材料，交付确定性无法核对。
+    evidence_ids:
+    - ev-187c9b7ec61de34d
+  next_validation: 收集该项目的安装文档与 issue/discussion，确认多代理协作的稳定性、记忆范围与技能改写的人工确认机制。
+  market: ''
+  job: 同时使用多个编码代理的开发者，在本地让不同代理分工完成编码任务时，需要它们共享上下文、交接工作并互相评审代码。
+  job_en: Developers running several coding agents locally need them to share context, hand off work and
+    review each other's code when splitting a coding task across agents.
+  pain: 不同代理各自为战，上下文要人工复制粘贴，交接与评审靠人来回搬运，容易丢失上下文并重复劳动。
+  pain_en: Agents work in isolation, context must be copied by hand, and handoff and review rely on people
+    shuttling information, which loses context and duplicates work.
+  current_alternative: 手动在多个代理窗口之间复制上下文，或只用一个代理并人工做评审。
+  current_alternative_en: Manually copying context between agent windows, or using a single agent and
+    reviewing by hand.
+  usage_reason: 相较人工搬运上下文，它让代理之间直接共享加密记忆并互相发消息，省掉复制粘贴与转述这一步，因此同时跑多个编码代理的开发者会尝试；协作是否稳定、是否长期留在工作流中，公开材料未提供证据，属推断。
+  usage_reason_en: Compared with shuttling context by hand, it lets agents share encrypted memory and
+    message each other directly, removing the copy-paste and relay step, so developers running several
+    coding agents would try it; whether collaboration is stable or stays in the workflow long term is
+    not evidenced publicly and is inference.

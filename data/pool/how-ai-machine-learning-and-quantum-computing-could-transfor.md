@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOdG9DcDdVR3lj
 summary: How AI, Machine Learning and Quantum Computing Could Transform Product Development IT Voice Media
 first_seen: '2026-09-24T05:32:23Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

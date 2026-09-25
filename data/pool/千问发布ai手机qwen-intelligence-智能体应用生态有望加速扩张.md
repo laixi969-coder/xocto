@@ -1,6 +1,6 @@
 ---
 slug: 千问发布ai手机qwen-intelligence-智能体应用生态有望加速扩张
-name: 千问发布AI手机Qwen Intelligence 智能体应用生态有望加速扩张
+name: Qwen Intelligence
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBJakF6RFlURVJK
 summary: 千问发布AI手机Qwen Intelligence 智能体应用生态有望加速扩张 财联社
 first_seen: '2026-09-24T00:09:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 千问发布AI手机Qwen Intelligence 智能体应用生态有望加速扩张
+# Qwen Intelligence
 
 千问发布AI手机Qwen Intelligence 智能体应用生态有望加速扩张 财联社
 

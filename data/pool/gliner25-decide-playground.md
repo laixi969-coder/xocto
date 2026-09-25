@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/fastino/gliner25-decide-playground
 summary: ''
 first_seen: '2026-09-24T20:03:45Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

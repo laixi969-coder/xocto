@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPNTJoNDVwWEF5
 summary: Is Salesforce (CRM) Undervalued As Its AI Narrative Meets Real Competitive Risks? simplywall.st
 first_seen: '2026-09-24T11:08:02Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

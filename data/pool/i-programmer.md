@@ -21,7 +21,7 @@ canonical_url: https://i-programmer.info/news/245-view-point/19164-ai-has-no-mot
 summary: AI has no intent and no motivation
 first_seen: '2026-09-24T09:13:25Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

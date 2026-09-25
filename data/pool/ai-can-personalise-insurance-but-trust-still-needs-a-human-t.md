@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxORTdjcWs4S0NE
 summary: 'AI can personalise insurance, but trust still needs a human touch: Alok Rungta brandequity.economictimes.indiatimes.com'
 first_seen: '2026-09-24T07:28:01Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

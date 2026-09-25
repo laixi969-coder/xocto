@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwNBVV95cUxPYWZrWTlRUjR3
 summary: 用AI就能“悭钱悭时间”？一场跨时空广告展现行销人创意的价值 香港01
 first_seen: '2026-09-24T09:00:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

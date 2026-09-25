@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/dtcp-first-close-defence-fund-invest-e
 summary: ''
 first_seen: '2026-09-24T07:00:36Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

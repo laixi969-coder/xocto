@@ -818,3 +818,44 @@
     into a single proxied call, removing the per-field rewrite and back-fill step while keeping real values
     local; developers under compliance constraints who still need external models would choose it, which
     is an inference.
+- id: req-initial-cover-2026-09-25
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把敏感材料送进外部模型时的脱敏与还原需求，痛点来自合规与人工改写成本，旧做法是人工脱敏或正则替换，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库关注度与社区讨论，没有客户案例或团队采用证据，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是企业合规或安全预算，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 还原准确率、支持字段类型与人工复核边界均未在公开材料中说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认支持的字段类型、还原准确率说明及是否有企业部署案例。
+  market: ''
+  job: 开发者和数据合规负责人在把含客户姓名、地址、病历或合同条款的材料送进外部大模型接口前，需要先处理这批材料，让请求能发出去而不泄露原始身份信息。
+  job_en: Developers and data-compliance owners preparing material containing customer names, addresses,
+    medical records or contract clauses for an external LLM API need to process that material first so
+    the request can be sent without exposing original identities.
+  pain: 直接把原始数据发给第三方模型会触碰隐私与合规红线，人工逐条改写又慢又容易漏，且改写后模型输出往往无法对应回真实对象。
+  pain_en: Sending raw data to a third-party model crosses privacy and compliance lines, manual rewriting
+    is slow and error-prone, and rewritten inputs often cannot be mapped back to the real entities in
+    the output.
+  current_alternative: 目前常见做法是人工脱敏、写正则脚本替换字段，或干脆放弃使用外部模型、改用本地小模型，代价是效果下降或流程变慢。
+  current_alternative_en: Common practice today is manual redaction, regex scripts that swap fields, or
+    abandoning external models for weaker local ones, at the cost of quality or speed.
+  usage_reason: 相较人工脱敏或正则替换，它在请求链路上自动完成假值替换并在本地还原，省掉了逐条改写和事后对号入座这一步；推断，处理个人数据的团队在需要调用外部模型又不想暴露原始身份时会选择它。
+  usage_reason_en: Compared with manual redaction or regex substitution, it performs fake-value substitution
+    inside the request path and restores originals locally, removing the step of rewriting each record
+    and mapping results back afterwards; inference, teams handling personal data would pick it when they
+    need external models without exposing original identities.

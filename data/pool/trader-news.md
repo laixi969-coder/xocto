@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=49828019
 summary: Hacker News for Finance
 first_seen: '2026-09-24T08:54:57Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

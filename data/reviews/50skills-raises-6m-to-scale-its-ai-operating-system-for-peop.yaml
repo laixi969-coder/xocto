@@ -1,0 +1,42 @@
+- id: req-initial-50skills-raises-6m-to-scale-its-ai-operating-system-for-peop-2026-09-25
+  project_slug: 50skills-raises-6m-to-scale-its-ai-operating-system-for-peop
+  level: initial
+  reviewed_at: '2026-09-25T00:34:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决人员流程的自动化，但候选未给出具体任务、痛点与旧流程，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-77fdac200f1af633
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息，没有客户采用、用户反馈或场景共识证据。
+    evidence_ids:
+    - ev-77fdac200f1af633
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自企业采购还是其他路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-77fdac200f1af633
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工确认边界。
+    evidence_ids:
+    - ev-77fdac200f1af633
+  next_validation: 收集 50skills 官方产品页或部署文档，确认其具体介入的人员流程环节与交付物。
+  market: ''
+  job: 人力资源运营或招聘协调人员在处理人员流程时，需要把岗位需求、候选人信息和入职事项在多个系统间流转并完成交接，但候选资料未说明该产品具体介入哪一步。
+  job_en: HR operations or recruiting coordinators moving role requirements, candidate information and
+    onboarding items across systems to complete handoffs; the material does not say which step the product
+    actually enters.
+  pain: 候选资料未提供任何用户痛点、抱怨或旧流程描述，无法确认人力流程中哪一步最痛。
+  pain_en: The material provides no user pain points, complaints or legacy-process description, so it
+    is impossible to confirm which step of people workflows hurts most.
+  current_alternative: 候选资料未说明现有替代方式，无法判断用户此前是用表格、邮件还是既有 HR 系统完成同类工作。
+  current_alternative_en: The material does not describe existing alternatives, so it is unclear whether
+    users previously used spreadsheets, email or incumbent HR systems for the same work.
+  usage_reason: 缺少功能说明、定价与使用证据，无法解释用户为何选择它而非旧做法；仅融资事实不足以支撑使用理由。
+  usage_reason_en: With no feature description, pricing or usage evidence, there is no basis to explain
+    why users would choose it over the old way; a funding fact alone cannot support a usage reason.

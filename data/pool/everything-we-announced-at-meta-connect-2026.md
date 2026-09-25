@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/meta-connect-2026-everything-we-announced
 summary: ''
 first_seen: '2026-09-23T23:57:39Z'
 last_seen: '2026-09-25T00:34:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

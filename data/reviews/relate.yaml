@@ -1,0 +1,44 @@
+- id: req-initial-relate-2026-09-25
+  project_slug: relate
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决聊天中口头承诺散落、易漏的问题，痛点具体且不跟进的后果可核对；但抽取准确率与接入范围未公开。
+    evidence_ids:
+    - ev-16f4bf6535508778
+  - gate: consensus
+    status: insufficient
+    reason: 仅 97 个星标、0 个 fork，无用户评价或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-16f4bf6535508778
+  - gate: model
+    status: insufficient
+    reason: 自托管开源项目，未见定价页或付费路径，买方与收费方式均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-16f4bf6535508778
+  - gate: truth
+    status: insufficient
+    reason: 承诺抽取的准确率、误报漏报与人工确认边界均无公开材料，交付确定性无法核对。
+    evidence_ids:
+    - ev-16f4bf6535508778
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认支持的聊天平台、承诺抽取方式与人工确认流程。
+  market: ''
+  job: 自由职业者、销售或顾问在聊天工具里与客户或合作方沟通后，需要从大量对话中找出对方提出的条件和自己口头答应的交付，整理成可跟进的清单。
+  job_en: After chatting with clients or partners in messaging tools, freelancers, salespeople or consultants
+    need to pull the terms the other side raised and the deliverables they verbally promised out of long
+    conversations and turn them into a follow-up list.
+  pain: 承诺散落在多个聊天窗口，靠记忆和手动翻记录，漏掉一次答应的事就可能丢单或失信，且事后回溯成本高。
+  pain_en: Commitments are scattered across chat windows and rely on memory and manual scrolling; missing
+    one promised item can cost a deal or trust, and reconstructing it later is expensive.
+  current_alternative: 手动翻聊天记录、在备忘录或待办应用里另记一条，或干脆不记。
+  current_alternative_en: Scrolling chat history by hand, writing a separate note in a memo or to-do app,
+    or simply not recording it at all.
+  usage_reason: 相较手动翻记录，它把聊天内容直接抽成承诺与要点清单，省掉逐条回读和摘抄这一步，因此经常在聊天里谈条件的自由职业者和小团队会尝试；抽取准确率与是否长期留在工作流中，公开材料未提供证据，属推断。
+  usage_reason_en: Compared with scrolling history manually, it extracts chat content directly into a
+    promise-and-points list, removing the step of re-reading and transcribing each item, which is why
+    freelancers and small teams who negotiate in chat would try it; extraction accuracy and long-term
+    retention in the workflow are not evidenced publicly and are inference.

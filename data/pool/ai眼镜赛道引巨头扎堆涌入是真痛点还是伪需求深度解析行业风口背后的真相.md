@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UWUdWNUlJemdy
 summary: AI眼镜赛道引巨头扎堆涌入：是真痛点还是伪需求？深度解析行业风口背后的真相 eu.36kr.com
 first_seen: '2026-09-22T11:12:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://beam.cloud/playground
 summary: try all the open source alternatives to Jev
 first_seen: '2026-09-23T18:05:32Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

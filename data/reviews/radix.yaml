@@ -1,0 +1,43 @@
+- id: req-initial-radix-2026-09-25
+  project_slug: radix
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决长任务代理状态不可见、不敢放手的需求，痛点成立，但公开材料只有一句描述，交付内容无法核对。
+    evidence_ids:
+    - ev-d639c0123f389874
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论十余点、十六条评论，属于早期关注，没有采用或留存证据说明开发者已把它放进工作流。
+    evidence_ids:
+    - ev-d639c0123f389874
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人开发者订阅还是团队采购均不明，只能推断为 to C 或 to B。
+    evidence_ids:
+    - ev-d639c0123f389874
+  - gate: truth
+    status: insufficient
+    reason: 代理改动代码涉及回滚与安全边界，公开材料未说明人工确认环节，确定性交付无法核对。
+    evidence_ids:
+    - ev-d639c0123f389874
+  next_validation: 收集 Radix 官方文档或定价页，确认状态粒度、回滚机制与是否支持团队审计。
+  market: ''
+  job: 开发者在让编码代理执行多步任务时，需要查看代理状态、干预步骤并确认改动，而不是只看终端日志。
+  job_en: Developers running multi-step coding agents need to inspect agent state, intervene in steps
+    and confirm changes instead of reading terminal logs.
+  pain: 长任务代理的中间状态藏在日志里，开发者难以判断哪一步出错、改了什么，也不敢放手让它跑完。
+  pain_en: Intermediate state of long-running agents hides in logs, so developers struggle to see which
+    step failed or what changed and hesitate to let it finish.
+  current_alternative: 目前多靠终端输出、编辑器内置的代理面板或人工逐步确认。
+  current_alternative_en: Today this is mostly done through terminal output, built-in agent panels in
+    editors, or manual step-by-step confirmation.
+  usage_reason: 推断：若界面能把代理每一步的状态与改动集中呈现并支持回退，开发者就不必在日志里逐行比对，因此跑长任务的团队会尝试；但公开材料未说明状态粒度、回滚能力或与现有编辑器的差异，无法确认它比旧做法少哪一步。
+  usage_reason_en: 'Inference: if the UI centralises each agent step''s state and changes and supports
+    rollback, developers no longer compare log lines by hand, so teams running long tasks would try it;
+    but the material does not state state granularity, rollback ability or differences from existing editors,
+    so which step it removes is unconfirmed.'

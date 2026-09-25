@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBzN2QyWUZXYUtu
 summary: 豆包困境：普通用户成了AI的负资产？ k.sina.com.cn
 first_seen: '2026-09-24T15:07:03Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-most-hated-tools-2026-09-25
+  project_slug: most-hated-tools
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决“选工具前不知道口碑”的问题，但材料未说明谁在什么节点、看什么内容、得到什么结论，痛点与场景无法还原。
+    evidence_ids:
+    - ev-b24fdebee2fea008
+  - gate: consensus
+    status: insufficient
+    reason: 19点与9条评论只说明一次社区关注，不能证明有人持续使用或把它纳入选型流程。
+    evidence_ids:
+    - ev-b24fdebee2fea008
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，广告、订阅或数据授权都只是猜测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b24fdebee2fea008
+  - gate: truth
+    status: insufficient
+    reason: 无法核对抱怨数据的来源与真实性，也看不到它如何避免变成又一份无依据的榜单。
+    evidence_ids:
+    - ev-b24fdebee2fea008
+  next_validation: 收集 Most Hated Tools 官方站点内容，确认其数据来源、收录范围与是否提供可核验的工具口碑记录。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开它、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material does not say who opens it, in what situation, with what material, to finish
+    what task, so no concrete usage scenario can be reconstructed.
+  pain: 只能从名称推测与工具选型或踩坑抱怨有关，但没有任何材料说明这种困扰发生在哪一步、代价是什么。
+  pain_en: Only the name hints at tool selection or bad-experience complaints, but no material says at
+    which step this hurts or what it costs.
+  current_alternative: 公开材料未提及用户现在如何了解工具口碑，评测站、社区帖或同事推荐都只是常见做法，不能算作该产品的既有替代证据。
+  current_alternative_en: No material mentions how users currently learn about tool reputation; review
+    sites, forum posts or colleague recommendations are common practices but are not evidence of this
+    product's existing alternatives.
+  usage_reason: 无法判断。缺少内容说明、数据来源和任何使用反馈，无法解释用户相较旧做法会因哪一步被省掉而选择它。
+  usage_reason_en: Cannot be judged. With no description of content, data sources or user feedback, there
+    is no way to explain which step it removes versus the old way, or why anyone would choose it.

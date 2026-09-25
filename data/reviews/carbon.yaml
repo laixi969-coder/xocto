@@ -1,0 +1,43 @@
+- id: req-initial-carbon-2026-09-25
+  project_slug: carbon
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决工厂生产与质检数据分散的问题，但材料未写出具体痛点、旧流程耗时或不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-e57681e00f89834d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的51点与26条评论，属于关注度信号，没有工厂采用或重复使用的证据。
+    evidence_ids:
+    - ev-e57681e00f89834d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，自托管开源项目可能靠服务收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e57681e00f89834d
+  - gate: truth
+    status: insufficient
+    reason: 无法确认 AI 在制造执行或质检中承担哪一步，也无法确认交付是否确定发生。
+    evidence_ids:
+    - ev-e57681e00f89834d
+  next_validation: 收集 Carbon 官方文档或仓库中关于 AI 功能、部署方式与客户案例的公开说明，以确认它在生产与质检流程中实际承担的动作。
+  market: ''
+  job: 工厂生产与质量管理人员在车间排产、工单流转和质检记录环节，处理纸质或表格工单，需要把生产与质量数据统一到一套可追溯的系统里。
+  job_en: Plant production and quality staff handle paper or spreadsheet work orders during scheduling,
+    work-order flow and inspection recording, and need production and quality data unified in one traceable
+    system.
+  pain: 材料只说明它是开源制造业 ERP/MES/QMS，没有描述具体痛点、旧流程耗时或出错后果，无法确认哪一步真正难受。
+  pain_en: The material only says it is an open-source manufacturing ERP/MES/QMS; it describes no specific
+    pain, time cost or error consequence in the old process, so which step actually hurts cannot be confirmed.
+  current_alternative: 公开材料未说明工厂现在用什么替代，只能推断是纸质工单、表格或商业 ERP/MES，属于推断而非已核实事实。
+  current_alternative_en: The public material does not state what factories use today; paper work orders,
+    spreadsheets or commercial ERP/MES are inferences, not verified facts.
+  usage_reason: 若自托管能免去商业 MES 的授权费并让工厂自己掌握生产数据，重视数据外流与预算的工厂可能选择它；但材料未给出 AI 具体动作、部署案例或使用反馈，这一因果仍属推断。
+  usage_reason_en: If self-hosting removes commercial MES licence fees and keeps production data in-house,
+    factories concerned about data residency and budget may choose it; but the material gives no concrete
+    AI action, deployment case or user feedback, so this causal link remains an inference.

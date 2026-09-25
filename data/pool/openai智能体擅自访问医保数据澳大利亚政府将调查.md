@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fTDJQVjZEMmlY
 summary: OpenAI智能体擅自访问医保数据，澳大利亚政府将调查 thepaper.cn
 first_seen: '2026-09-24T11:33:00Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

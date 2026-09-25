@@ -1,0 +1,43 @@
+- id: req-initial-clue-me-2026-09-25
+  project_slug: clue-me
+  level: initial
+  reviewed_at: '2026-09-25T00:33:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决单人时没有猜词对手的问题，痛点偏娱乐、强度有限；公开材料未说明反馈与轮次，无法判断不玩会失去什么。
+    evidence_ids:
+    - ev-7969c160b46dc101
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量很小，只有少量关注，看不出是卡在感知还是场景环节。
+    evidence_ids:
+    - ev-7969c160b46dc101
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，休闲游戏可能靠内购或广告，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7969c160b46dc101
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 猜词是否稳定、是否会出现明显错误，也未见人工边界说明。
+    evidence_ids:
+    - ev-7969c160b46dc101
+  next_validation: 收集 Clue Me 官方页面上的玩法说明或定价信息，确认其轮次、反馈方式与是否收费。
+  market: ''
+  job: 想玩猜词游戏的人在空闲时打开它，拿到一个词后用自己的话描述，要完成让 AI 猜出答案这一轮游戏。
+  job_en: People wanting a word-guessing game open it in their spare time, receive a word, describe it
+    in their own words, and aim to get the AI to guess the answer for that round.
+  pain: 传统猜词游戏需要至少两个人凑时间，单人时没有对手，只能自己出题自己猜。
+  pain_en: Traditional word-guessing games need at least two people to find time together; alone, there
+    is no opponent and you end up setting and guessing your own clues.
+  current_alternative: 找朋友面对面玩、手机上的猜词 App、或直接和通用聊天助手玩类似游戏。
+  current_alternative_en: Playing with a friend in person, a word-guessing app on the phone, or simply
+    playing a similar game with a general chat assistant.
+  usage_reason: 推断：它把对手换成随时可用的 AI，省掉了约人和等对方这一步，可能吸引独处时想玩一局的人；但公开材料没有说明反馈质量、轮次或计分，也没有任何使用或留存证据，无法确认它比通用聊天助手更值得反复打开。
+  usage_reason_en: 'Inference: it replaces the opponent with an always-available AI, removing the need
+    to arrange a partner and wait, which may appeal to people who want a quick round alone; however, the
+    public material does not describe feedback quality, rounds or scoring, and shows no usage or retention
+    evidence, so it cannot be confirmed as more worth reopening than a general chat assistant.'

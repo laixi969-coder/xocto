@@ -1,0 +1,43 @@
+- id: req-initial-shepherd2-2026-09-25
+  project_slug: shepherd2
+  level: initial
+  reviewed_at: '2026-09-25T00:33:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分子生成结果不满足相互作用约束、筛选成本高的问题，痛点具体；但生成质量与验证流程未公开。
+    evidence_ids:
+    - ev-588c56b429850d9f
+  - gate: consensus
+    status: insufficient
+    reason: 42 个星标、3 个 fork，无用户评价或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-588c56b429850d9f
+  - gate: model
+    status: insufficient
+    reason: 研究代码，未见定价或商业交付路径，买方与收费方式均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-588c56b429850d9f
+  - gate: truth
+    status: insufficient
+    reason: 未公开生成分子的实验或计算验证结果，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-588c56b429850d9f
+  next_validation: 收集该仓库的论文或文档，确认生成分子的验证结果、输入格式与可复现实验步骤。
+  market: ''
+  job: 药物化学或计算化学研究者在新一轮分子设计时，需要针对给定靶点生成并筛选候选分子结构，再决定哪些进入后续评估。
+  job_en: At the start of a new design round, medicinal or computational chemists need to generate and
+    screen candidate molecular structures for a given target, then decide which advance to further evaluation.
+  pain: 候选分子设计依赖经验与试错，生成结果常不满足相互作用约束，筛选成本高、周期长。
+  pain_en: Candidate design relies on experience and trial and error; generated results often fail interaction
+    constraints, making screening costly and slow.
+  current_alternative: 使用既有生成模型或虚拟筛选工具，配合化学家手工挑选与经验判断。
+  current_alternative_en: Using existing generative models or virtual screening tools, combined with manual
+    picking and expert judgement by chemists.
+  usage_reason: 相较通用生成模型，它把相互作用谱作为统一表示来约束生成，减少后续筛掉不合约束分子的工作量，因此计算化学团队会尝试；是否真正缩短评估周期属推断，公开材料未提供对照结果。
+  usage_reason_en: Compared with generic generative models, it uses interaction profiles as a unified
+    representation to constrain generation, reducing later work of discarding molecules that violate constraints,
+    so computational chemistry teams would try it; whether it truly shortens evaluation cycles is inference,
+    as no comparison results are public.

@@ -3,18 +3,18 @@ slug: commit-rewriter-01
 name: commit-rewriter
 builder: ''
 category: AI + 开发
-summary_zh: 开源维护者在准备对外发布仓库时打开它，处理的是编码代理生成、夹杂私有 issue 编号的提交历史；工具接收本地仓库路径，在网页里逐条改写提交信息，提交后先建一个带时间戳的分支以便回退，再从第一条被改的提交重写到最新提交，最终得到一份可公开的提交历史，改写范围仍需人工确认。
-inspiration: 趋势是编码代理开始批量产出提交，提交历史本身成了需要清洗的发布物料。切入可放在开源维护者与安全发布流程：把“发布前清理提交信息”做成可回退的批量改写，而不是逐条 amend；也可考虑按仓库或按发布次数收费的托管版本，但公开材料未披露任何定价。
-summary_en: An open-source maintainer preparing a public release opens it to deal with a commit history
-  written by coding agents and salted with private issue IDs. The tool takes a local repository path,
-  lets the user rewrite commit messages in a web page, then creates a timestamped branch for rollback
-  and rewrites every commit from the first edited one to the latest, producing a publishable history;
-  the rewrite scope still needs human confirmation.
-inspiration_en: 'The trend is that coding agents now mass-produce commits, making the commit history itself
-  a release artifact that needs cleaning. The opening is the open-source maintainer and security-release
-  workflow: make pre-release commit-message cleanup a reversible bulk rewrite instead of one-by-one amends,
-  possibly as a hosted version priced per repository or per release, though no pricing is disclosed in
-  the public material.'
+summary_zh: 开源维护者在准备对外发布补丁时，本地仓库里常混着编码代理留下的杂乱提交信息和私有仓库的 issue 编号，直接公开会泄露内部信息。commit-rewriter 让维护者在本机仓库上逐条改写这些提交信息，提交后自动生成一个带时间戳的分支保存当前状态，最终得到一份可以公开的提交历史，人工仍需逐条确认改写内容。
+inspiration: 趋势是编码代理开始批量产生提交，仓库历史本身成了需要清洗的发布物料。切入可以从开源维护者、安全响应团队这类必须公开补丁记录的人群做起，围绕“发布前把内部痕迹从历史里摘干净”这一步做工具或服务，而不是做通用
+  Git 客户端。
+summary_en: When open-source maintainers prepare a public patch release, their local repository often
+  contains messy commit messages left by coding agents and issue IDs from private repositories, which
+  would leak internal information if published. commit-rewriter lets maintainers rewrite those commit
+  messages on their local repository, and on submit it creates a timestamped branch of the current repo
+  state, producing a publishable commit history; a human still has to confirm each edit.
+inspiration_en: 'The trend is that coding agents now generate commits in bulk, making repository history
+  itself a release artifact that needs cleaning. The entry point is open-source maintainers and security
+  response teams who must publish patch records: build a tool or service around the step of stripping
+  internal traces from history before release, rather than a general Git client.'
 priority_review: false
 project_type: open_source
 industries:
@@ -22,11 +22,9 @@ industries:
 industries_en:
 - Software and IT services
 jobs:
-- 开源维护者
-- 软件工程师
+- 开源维护者在发布安全补丁前清理提交历史
 jobs_en:
-- Open-source maintainer
-- Software engineer
+- Open-source maintainers cleaning commit history before a security release
 regions: []
 regions_en: []
 open_source: true
@@ -42,7 +40,7 @@ summary: "Release:   commit-rewriter 0.1  \n         I built this little web app
   \ recent. \n    \n    \n         Tags:  git ,  projects ,  python ,  ai-assisted-programming"
 first_seen: '2026-09-14T00:28:10Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 sightings:

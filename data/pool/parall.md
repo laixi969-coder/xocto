@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/parall
 summary: Run multiple instances of the same app on your Mac
 first_seen: '2026-09-23T20:13:18Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

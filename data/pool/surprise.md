@@ -21,7 +21,7 @@ canonical_url: https://avclub.com/meta-muse-ai-human-labor
 summary: Meta's latest AI gimmick is just underpaid humans
 first_seen: '2026-09-23T21:34:58Z'
 last_seen: '2026-09-25T00:33:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

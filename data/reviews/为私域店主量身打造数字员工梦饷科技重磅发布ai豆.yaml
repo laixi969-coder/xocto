@@ -1,0 +1,43 @@
+- id: req-initial-为私域店主量身打造数字员工梦饷科技重磅发布ai豆-2026-09-25
+  project_slug: 为私域店主量身打造数字员工梦饷科技重磅发布ai豆
+  level: initial
+  reviewed_at: '2026-09-25T00:34:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它面向私域店主的文案与客户跟进，但公开材料未写出具体痛点、旧做法或用户行为，需求难以还原。
+    evidence_ids:
+    - ev-3db73ea8f3cf0600
+    - ev-33c61f857fc33783
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且没有店主采用、留存或反馈可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-3db73ea8f3cf0600
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是店主个人还是平台，也未披露定价或收费方式。
+    evidence_ids:
+    - ev-33c61f857fc33783
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对生成内容能否直接发布、出错时人工如何复核，交付确定性无从判断。
+    evidence_ids:
+    - ev-3db73ea8f3cf0600
+  next_validation: 收集梦饷科技官方产品页或“AI豆”店主使用案例，确认具体功能、交付形式与是否披露定价。
+  market: ''
+  job: 私域店主在微信社群和朋友圈维护客户时，处理商品素材与客户对话，要完成选品推荐、文案发布和客户跟进。
+  job_en: Private-traffic shop owners maintaining customers in WeChat groups and Moments handle product
+    material and customer conversations, and must complete product picks, copy publishing and customer
+    follow-up.
+  pain: 公开材料只有“数字员工”的定位表述，未写出店主在文案、回复或跟进上的具体痛点，也没有用户抱怨或旧流程描述。
+  pain_en: Public material offers only the 'digital employee' positioning; it names no specific pain for
+    owners in copywriting, replying or follow-up, and gives no user complaints or old-process description.
+  current_alternative: 公开材料未说明店主此前用什么工具或人力完成同样的文案与跟进工作，无法确认替代了哪一步。
+  current_alternative_en: Public material does not say what tool or labour previously did the same copywriting
+    and follow-up, so which step is replaced cannot be confirmed.
+  usage_reason: 无法判断：材料未说明相较店主自己写文案、自己回消息，该产品减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'Cannot be judged: the material does not say which step is reduced or which checkable
+    result improves versus owners writing copy and replying themselves.'

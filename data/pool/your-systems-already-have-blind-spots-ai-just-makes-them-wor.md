@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE90SVR3ZDJ3dTVk
 summary: Your Systems Already Have Blind Spots. AI Just Makes Them Worse. unite.ai
 first_seen: '2026-09-24T13:36:37Z'
 last_seen: '2026-09-25T00:34:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
