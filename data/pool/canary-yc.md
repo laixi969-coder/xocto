@@ -31,16 +31,16 @@ url: https://www.runcanary.ai/
 canonical_url: https://runcanary.ai
 summary: Independent verification for AI code
 first_seen: '2026-09-24T20:57:52Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.runcanary.ai/
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 5
+    points: 7
     comments: 0
   kind: product
 ---

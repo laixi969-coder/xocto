@@ -39,16 +39,16 @@ url: https://news.ycombinator.com/item?id=49831231
 canonical_url: https://news.ycombinator.com/item?id=49831231
 summary: agentic API to call businesses and get things done
 first_seen: '2026-09-24T14:36:03Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49831231
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 15
+    points: 16
     comments: 4
   kind: product
 ---

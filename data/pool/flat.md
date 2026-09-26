@@ -33,8 +33,8 @@ url: https://flat.social
 canonical_url: https://flat.social
 summary: I built a new version of my fun spatial 3D online meeting app
 first_seen: '2026-09-17T12:57:09Z'
-last_seen: '2026-09-20T00:09:45Z'
-status: rejected
+last_seen: '2026-09-26T00:38:20Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -49,6 +49,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in
   seen_at: '2026-09-20T00:09:45Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-the-future-of-latent-space
+  seen_at: '2026-09-26T00:38:20Z'
   metrics: {}
   kind: news
 ---

@@ -29,17 +29,17 @@ url: https://www.critic.run/
 canonical_url: https://critic.run
 summary: Review code with the agent that wrote it
 first_seen: '2026-09-24T17:35:28Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.critic.run/
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 6
-    comments: 1
+    points: 8
+    comments: 4
   kind: product
 ---
 

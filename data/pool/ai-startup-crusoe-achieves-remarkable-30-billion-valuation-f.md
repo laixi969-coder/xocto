@@ -23,14 +23,20 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwJBVV95cUxPdlVMX1ZTMVNI
 summary: AI startup Crusoe achieves remarkable $30 billion valuation following recent funding round boost
   ET CIO
 first_seen: '2026-09-04T05:30:00Z'
-last_seen: '2026-09-06T23:54:47Z'
-status: market_context
+last_seen: '2026-09-26T00:38:20Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwJBVV95cUxPdlVMX1ZTMVNISnU2R2hDQ1J6TzhjMG91WDVXTkN6ZEVFbmlJNXhWVUxyTm5NdmRaY2YxM3ZfLUJWc0R0bXVRdEZfUkRJQ0hpNXpjdkZ4V3U2SmE0MDRlcDZkcUVsWVc1OWhIdlloc0tYQllrU2d6V1Jidk1WZTJDYi1pQmVtME9SdjJ2Q1pfMHcyeEMtZFdMYS1ETVVNZmtLc0hJTVpoWmxzeXZnclZUUmMwWWNuY2JGbjBoOFNWbjVKdzhZSmFycXRyYXQ4UWFpbEg5TWQxSi16bGpJRUtCWVU5dDZGYTlxMjRYSFUzampEakdUS3VPell5ejNpbl8wVDIxVzNCQi1aRTDSAfsBQVVfeXFMT0hGNUlVR2EtLXBhQVZOelpvTUE5VVZvTlJtNmF6ZlAyNzY0SHhpdDBINWhaVkZfdlVEUzZJZ3B3bzE5bzZnVkhVYXRSa3dJLVlSbUhoYnRTT1RPWlpyYmkxN2c5MkIyaGZleHgwNW1OS0VYd25MMkdsQzMwd0lfVFVLVS1aYkc3THdnb3dSbDJfSzRQdzFrTlRYSXNKVGtaZUVNYzZPcjA2TVBSMzNaWWZWWnQ2ZU9qVE8yYmM5azlfdkhld3U3TjJGY3VSdEN3NXBFNkp1QmxNNzRYdFhaNUZDMFlZVWhUVU9oaGFkYll5V0QwbjhkMnMxNTA?oc=5
   seen_at: '2026-09-06T23:54:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/
+  seen_at: '2026-09-26T00:38:20Z'
   metrics: {}
   kind: news
 ---

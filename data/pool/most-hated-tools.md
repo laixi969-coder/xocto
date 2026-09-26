@@ -26,17 +26,17 @@ url: https://www.mosthatedtools.app/
 canonical_url: https://mosthatedtools.app
 summary: ''
 first_seen: '2026-09-24T15:32:17Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.mosthatedtools.app/
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 19
-    comments: 9
+    points: 28
+    comments: 20
   kind: product
 ---
 

@@ -21,14 +21,20 @@ canonical_url: https://openai.com/index/harvey-from-context-to-confidence-with-a
 summary: GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus
   on strategy.
 first_seen: '2026-09-23T12:00:00Z'
-last_seen: '2026-09-24T00:31:16Z'
+last_seen: '2026-09-26T00:38:27Z'
 status: pending_filter
 sources:
 - officialfeeds
+- newssearch
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/harvey-from-context-to-confidence-with-astra
   seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiekFVX3lxTE8xYXlidUh5V3k5N1pfbzFnenFDUE1Zc3k1QnBCSFl0bGxoR1NjYWE1X0g4U3dtUVlzZGFLSHhubzFMT3lsSnVrYmN2UFl1Z1VSa19iQ2FObWZpVE5OTERDaUlPdEhaTmlFUHVfamNqWTJsaEdxMDUwaDd3?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

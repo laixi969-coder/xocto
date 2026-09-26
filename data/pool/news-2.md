@@ -29,8 +29,8 @@ url: https://news.social-protocols.org/penalties
 canonical_url: https://news.social-protocols.org/penalties
 summary: Most Penalized HN Stories
 first_seen: '2026-09-13T00:36:00Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: watching
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -208,6 +208,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nZ1RkLUdwT2M4eFBpUzQwVjhxUTFobWhfMmRVUUZ0aDdwUXRHU21OM2I4X05ZYV9YaTN2VE1fX1ZDU3MzVXEyTHVVdDA5RU05X0E?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DZzFLRTJVR2w4YzZqZDlVanZadTNHWTRXYkxQckRTSjdHTG9jR0doTFJ1cl8yUFdHd3FGWDFwVWUwb1ZGUExXX1ZLWFlTSm9ydzEteTcwa084XzllRTF4Nw?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

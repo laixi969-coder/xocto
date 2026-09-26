@@ -27,16 +27,16 @@ url: https://github.com/davidmokos/expo-gpt-live
 canonical_url: https://github.com/davidmokos/expo-gpt-live
 summary: Expo SDK 57 voice app with GPT-Live 1 and AI Elements Persona.
 first_seen: '2026-09-15T19:33:02Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/davidmokos/expo-gpt-live
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 127
+    stars: 128
     forks: 19
     open_issues: 0
   kind: product

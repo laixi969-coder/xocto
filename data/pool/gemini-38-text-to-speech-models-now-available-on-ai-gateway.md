@@ -23,11 +23,12 @@ url: https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available
 canonical_url: https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway
 summary: Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS
 first_seen: '2026-09-23T00:00:00Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:48:24Z'
 status: market_context
 sources:
 - officialfeeds
 - producthunt
+- ia40
 sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway
@@ -38,6 +39,13 @@ sightings:
   url: https://www.producthunt.com/products/gemini-3-8-text-to-speech-models
   seen_at: '2026-09-25T00:33:43Z'
   metrics: {}
+  kind: product
+- source: ia40
+  url: https://vercel.com/
+  seen_at: '2026-09-26T00:48:24Z'
+  metrics:
+    stage: Enabler
+    edition: '2026'
   kind: product
 ---
 

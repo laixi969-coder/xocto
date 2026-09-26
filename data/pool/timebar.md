@@ -20,17 +20,17 @@ url: https://github.com/velvet-shark/timebar
 canonical_url: https://github.com/velvet-shark/timebar
 summary: a Mac timer shown as a thin line below the menu bar
 first_seen: '2026-09-24T15:53:31Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/velvet-shark/timebar
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 5
-    comments: 2
+    points: 6
+    comments: 3
   kind: product
 ---
 

@@ -36,8 +36,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE90enFIQkgyUWhCQ1VUTWlUMG00amJxR2k1QzZ0ZWVhSTg1djN3bHMzTHFlYkpWSDlERHdySGhnLXIzeF8xNFlvR0ROdDRQYmd6Q3lV?oc=5
 summary: Kimi Targets $2B Annual Revenue & Prepares for $50B Valuation Hong Kong IPO 36 Kr
 first_seen: '2026-09-11T16:10:28Z'
-last_seen: '2026-09-13T00:01:15Z'
-status: rejected
+last_seen: '2026-09-26T00:38:20Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -50,6 +50,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/487688.html
   seen_at: '2026-09-13T00:01:15Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/497075.html
+  seen_at: '2026-09-26T00:38:20Z'
   metrics: {}
   kind: news
 ---

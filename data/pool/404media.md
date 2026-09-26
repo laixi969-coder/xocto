@@ -38,8 +38,8 @@ url: https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-t
 canonical_url: https://404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet
 summary: There's a 100% Chance AI Agents Are Ruining the Internet
 first_seen: '2026-09-15T16:38:45Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: queued
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -67,6 +67,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxQekVoTUJpS1BRcDEtcFZLcXZMU0xaTHp2TVRNR2hCVkNvVy1RQ1JVNHdMVUZyTVNLbnhaYUxPMlZwckUxczNuUldiMUtzaVFTWnRJYWNfamFfdVZHcGJ1OEo0bnRYcEJ0S0d1V1o3b05OZzJQY1hWc2xWX1h6RjloM19jdnFVX0Y5UmtkR2FqdVRjUzBjMnBtWlBHR1NNLU5EaGVjcWM1VWFwNTF1TllsTmYzbUhWaFVlNVVyUFRlVXZUVGc3dWd2Y0Jvc1ZWckR4eEVuY0FiY2VUWFB3WU9ZTEVoVnZZbTY10gHoAUFVX3lxTFB6RWhNQmlLUFFwMS1wVktxdkxTTFpMenZNVE1HaEJWQ29XLVFDUlU0d0xVRnJNU0tueFphTE8yVnByRTFzM25SV2IxS3NpUVNadElhY19qYV91VkdwYnU4SjRudFhwQnRLR3VXWjdvTk5nMlBjWFZzbFZfWHpGOWgzX2N2cVVfRjlSa2RHYWp1VGNTMGMycG1aUEdHU00tTkRoZWNxYzVVYXA1MXVOWWxOZjNtSFZoVWU1VXJQVGVVdlRUZzd1Z3ZjQm9zVlZyRHh4RW5jQWJjZVRYUHdZT1lMRWhWdlltNjU?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQX3hKZ2h2SG9QNFg4UXRVMG44ekU0ZXVCMU1JMFMzWnI5cTAycElWR0FXNVBpUVdhWHMwcmgyLVhCTU5OMEJiR2dnTWMzQlVQNnNpV3JFVEUtdmtwSExVRTR1eXdxd1JmT2RIZmgySWpYcTFaRzEwZzVjZlRsaWxxQkRPRkttQQ?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNenMyQUNnRW93aGJDWlU1V2tkLXFiTWRndEdVcENQblFSVHdYb3RtdUVMemdrV3YwOTVuRm1sWWhMMno1NFZ2T3RlbGRES1pKd3NadGIzaFpFd0Z6TXZzLTVkU3JaYVlNWGgtOTJQbVBkeE5DVWNXTEZiQVU1MjFWSlQ1MUlqWmRJdDhzaU03NGxEcTllZVo0SmRFeDVpX2VTQ1VWUzFVQTI0Z1dEQ2FKa1BvbTJOMVRwdGhJeGo2ejBERGx5MXhQVHVmb9IBywFBVV95cUxNenMyQUNnRW93aGJDWlU1V2tkLXFiTWRndEdVcENQblFSVHdYb3RtdUVMemdrV3YwOTVuRm1sWWhMMno1NFZ2T3RlbGRES1pKd3NadGIzaFpFd0Z6TXZzLTVkU3JaYVlNWGgtOTJQbVBkeE5DVWNXTEZiQVU1MjFWSlQ1MUlqWmRJdDhzaU03NGxEcTllZVo0SmRFeDVpX2VTQ1VWUzFVQTI0Z1dEQ2FKa1BvbTJOMVRwdGhJeGo2ejBERGx5MXhQVHVmbw?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

@@ -1,0 +1,41 @@
+---
+slug: impetus-launches-forward-builders-practice
+name: Impetus Launches Forward Builders Practice
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY1VSZFlEcHF3ZjV4bGdQbkd5c1BxM0tzdkV0bTlKVGVLOGJma1hpVE5iNVRLdWozbWdIbkt5c2k3LW5IWF9hcTBOUGpCb3Rsek1HTzI0Zm1SSDBCUnFOT0tKM1NPWk9kdWMtaTAtVS15aFR5dDRCSUxiZkJfczQ4UXBOWTc3ak1aY09ZY0d3LXRBMzRnNjdpZ0ZNcFNsNFNCcjZlV2FSdERUVkRhRG1aOVkzMzczOWhSRVg5dXo0cGliT2ZVNHFBRVRxN0V6eElf0gHQAUFVX3lxTFBjVVJkWURwcXdmNXhsZ1BuR3lzUHEzS3N2RXRtOUpUZUs4YmZrWGlUTmI1VEt1ajNtZ0huS3lzaTctbkhYX2FxME5QakJvdGx6TUdPMjRmbVJIMEJScU5PS0ozU09aT2R1Yy1pMC1VLXloVHl0NEJJTGJmQl9zNDhRcE5ZNzdqTVpjT1ljR3ctdEEzNGc2N2lnRk1wU2w0U0JyNmVXYVJ0RFRWRGFEbVo5WTMzNzM5aFJFWDl1ejRwaWJPZlU0cUFFVHE3RXp4SV8?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY1VSZFlEcHF3ZjV4bGdQbkd5c1BxM0tzdkV0bTlKVGVLOGJma1hpVE5iNVRLdWozbWdIbkt5c2k3LW5IWF9hcTBOUGpCb3Rsek1HTzI0Zm1SSDBCUnFOT0tKM1NPWk9kdWMtaTAtVS15aFR5dDRCSUxiZkJfczQ4UXBOWTc3ak1aY09ZY0d3LXRBMzRnNjdpZ0ZNcFNsNFNCcjZlV2FSdERUVkRhRG1aOVkzMzczOWhSRVg5dXo0cGliT2ZVNHFBRVRxN0V6eElf0gHQAUFVX3lxTFBjVVJkWURwcXdmNXhsZ1BuR3lzUHEzS3N2RXRtOUpUZUs4YmZrWGlUTmI1VEt1ajNtZ0huS3lzaTctbkhYX2FxME5QakJvdGx6TUdPMjRmbVJIMEJScU5PS0ozU09aT2R1Yy1pMC1VLXloVHl0NEJJTGJmQl9zNDhRcE5ZNzdqTVpjT1ljR3ctdEEzNGc2N2lnRk1wU2w0U0JyNmVXYVJ0RFRWRGFEbVo5WTMzNzM5aFJFWDl1ejRwaWJPZlU0cUFFVHE3RXp4SV8?oc=5
+summary: Impetus Launches Forward Builders Practice Business Standard
+first_seen: '2026-09-23T13:30:03Z'
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY1VSZFlEcHF3ZjV4bGdQbkd5c1BxM0tzdkV0bTlKVGVLOGJma1hpVE5iNVRLdWozbWdIbkt5c2k3LW5IWF9hcTBOUGpCb3Rsek1HTzI0Zm1SSDBCUnFOT0tKM1NPWk9kdWMtaTAtVS15aFR5dDRCSUxiZkJfczQ4UXBOWTc3ak1aY09ZY0d3LXRBMzRnNjdpZ0ZNcFNsNFNCcjZlV2FSdERUVkRhRG1aOVkzMzczOWhSRVg5dXo0cGliT2ZVNHFBRVRxN0V6eElf0gHQAUFVX3lxTFBjVVJkWURwcXdmNXhsZ1BuR3lzUHEzS3N2RXRtOUpUZUs4YmZrWGlUTmI1VEt1ajNtZ0huS3lzaTctbkhYX2FxME5QakJvdGx6TUdPMjRmbVJIMEJScU5PS0ozU09aT2R1Yy1pMC1VLXloVHl0NEJJTGJmQl9zNDhRcE5ZNzdqTVpjT1ljR3ctdEEzNGc2N2lnRk1wU2w0U0JyNmVXYVJ0RFRWRGFEbVo5WTMzNzM5aFJFWDl1ejRwaWJPZlU0cUFFVHE3RXp4SV8?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+---
+
+# Impetus Launches Forward Builders Practice
+
+Impetus Launches Forward Builders Practice Business Standard
+
+## 笔记
+
+

@@ -23,17 +23,17 @@ url: https://blog.google/innovation-and-ai/models-and-research/google-research/g
 canonical_url: https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts
 summary: Google’s Project Suncatcher to put ML infrastructure in space
 first_seen: '2026-09-24T13:53:29Z'
-last_seen: '2026-09-25T00:33:43Z'
-status: market_context
+last_seen: '2026-09-26T00:37:52Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 93
-    comments: 182
+    points: 225
+    comments: 512
   kind: news
 ---
 

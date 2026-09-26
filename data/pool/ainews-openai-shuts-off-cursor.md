@@ -22,8 +22,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: rejected
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -151,6 +151,36 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ISW8xWVJUQVQ4aVdrcDNNbmVIemhJbmQ4aGk0d292bmQyS29pWlpLWlo4NWZ6TkdXcmlfejNtbk5ibGJRV2hZYURqNlo2N3NsX0Vj?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/497177.html
+  seen_at: '2026-09-26T00:38:20Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
+  seen_at: '2026-09-26T00:38:20Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPV0EzRl9EWWgzb25HTXJRTGdRMmVEMlZoLThFVENZUFNkVVNGQjRlT3ZSRlFqWnRTTzUzYzF3aDVweXBBcnhfSzRjZEROY25iQUZkSnZlRmN3NlBHTnZtQ3ZkYjlOQmxURFRpUVlDOVRPWWpkXzlvWHpoMTk4TFZmNTh0R0luM2VsNS1ZMFJOZ19Jb2dSNmg3bA?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQNE5mWXlqSV8zU1JDMnNCYjd4aG5teWlLYkxWeU00ampmdVhtNUtNUHg2Yk4xX1dKQ1lPZ28wTVptbEhBX2cwa05YbUc2TUR2WE9lc2ttZTU3OUhnZ2FqbVQ4bGs0Y2RSamhGLXBJbG9KWnhoYzZQQ2ExTFJxZTVZWHZ5WkFlbzlMM3hNZm00eEhPV2VlNFMxc2N3?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxPMUpxV0NoRDl1cFE1UlQ4TUQ3OEtJdmFsYXhwNnJvWW9jZW53VVNrOVRxeWViNFo5V0R4ck1lRXIybHhuNGd5OUxnbFlqY293dmY4WXJpTFB1TVRLVldNUFhaOFBIRE1xMkdhZEVxX2ZLa01oYlhJbk5HRkU4bG1DSVpwNmEzdWRJQ1BSc1ZnMGdmZE5ScU5zTjF3?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHSV9lRnJmaGlnNXFwRmx4aHV2c0tQYmt0S2xTcEJCeFAzdVZPOE9UcU8yeVJSUldxSHVmLThnZ2txY2NjR1FZOUtLNV9LNTZnR3N2eGhXdmZ0R2drUVlibg?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

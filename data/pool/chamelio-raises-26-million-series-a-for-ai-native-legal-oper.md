@@ -32,14 +32,19 @@ url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNZVJZQndXTi1WLVpZODF3M3
 canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNZVJZQndXTi1WLVpZODF3M3BpY1NRNnhETFNKS1hzWkZRSUJOVnVtbmJlWkViREIyZlR1cDRhN1hrSmVmd29ZZ1ZqZ0Y3RkNzNkQyc241ZmtscTJaTThrQk1LWFdqc1ZQeENwa1hLSjFBOERCSEhIWi10emExRmFSZnVQa0htZTZXLXhUM3lwUnRtamRBVk1IOXVSYXVBR1YtYUlLbnY5MDJlaU1QQjVxTFB5RDE?oc=5
 summary: Chamelio Raises $26 Million Series A for AI-Native Legal Operations Platform citybiz
 first_seen: '2026-09-22T15:02:05Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: watching
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNZVJZQndXTi1WLVpZODF3M3BpY1NRNnhETFNKS1hzWkZRSUJOVnVtbmJlWkViREIyZlR1cDRhN1hrSmVmd29ZZ1ZqZ0Y3RkNzNkQyc241ZmtscTJaTThrQk1LWFdqc1ZQeENwa1hLSjFBOERCSEhIWi10emExRmFSZnVQa0htZTZXLXhUM3lwUnRtamRBVk1IOXVSYXVBR1YtYUlLbnY5MDJlaU1QQjVxTFB5RDE?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE44TXNJYTNnUkhYZ3hCb0piY1JrWkxOX0VvOURkRmsyc05oMWpaTnYtb0ZiVTJseDNoQW41aFFDUWFNdVBKNko1MEJ2Q1paVHJ5bVV1Z2p5TGc?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

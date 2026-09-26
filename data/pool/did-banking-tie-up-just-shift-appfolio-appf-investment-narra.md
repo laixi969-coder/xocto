@@ -1,0 +1,41 @@
+---
+slug: did-banking-tie-up-just-shift-appfolio-appf-investment-narra
+name: Did Banking Tie Up Just Shift AppFolio (APPF) Investment Narrative?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPNzJjTjVqU1BNMDB1Q1YxTTl4dTRjNkFzZWU1OUJCSi1EdDdTcEVwS3BFQ3JMMEdTRk1FSVp6b3duNFRKSnpFem9PWW01U2VwOXVoMENEVmZtckhCSzBfSnBiUlJLUm51Slg3MExxNlRZcUJRMFN4M3ZiMDlyc1dVR3RLOGctMUJNMjNpclkzMGQ2dWJZOUI1ZEdHeWdkcjNHcHI4aEFYZUtOeG1fYTk4T096QTlPYnloNU9BaTdNaHFseFdyYWfSAcsBQVVfeXFMTU9HSGotRFNxZ1U0Y21oNUNBNGJaTWtjNTlkcVBla3MyNFVhVEVKVzljVmZJNEhVVTJYeXY1V0tiZnJ4Mmo5bjdud3JYVU5NWTZJRGxsaFZ0ZTdqOWNZMlNOSkFDeHpWeXVPbEJKMDRtNjJWaXN5ZFdtQW5yRnlXeWp4cEVFNTRab1NBb0RpZ1BQUC14ZkZzZ2h1blU0Ykl4QVMxUENFRWFfQmlGUnBnaW5VanR1Um5wc0xMNlRQcEJUcVloVjViTTBudWM?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPNzJjTjVqU1BNMDB1Q1YxTTl4dTRjNkFzZWU1OUJCSi1EdDdTcEVwS3BFQ3JMMEdTRk1FSVp6b3duNFRKSnpFem9PWW01U2VwOXVoMENEVmZtckhCSzBfSnBiUlJLUm51Slg3MExxNlRZcUJRMFN4M3ZiMDlyc1dVR3RLOGctMUJNMjNpclkzMGQ2dWJZOUI1ZEdHeWdkcjNHcHI4aEFYZUtOeG1fYTk4T096QTlPYnloNU9BaTdNaHFseFdyYWfSAcsBQVVfeXFMTU9HSGotRFNxZ1U0Y21oNUNBNGJaTWtjNTlkcVBla3MyNFVhVEVKVzljVmZJNEhVVTJYeXY1V0tiZnJ4Mmo5bjdud3JYVU5NWTZJRGxsaFZ0ZTdqOWNZMlNOSkFDeHpWeXVPbEJKMDRtNjJWaXN5ZFdtQW5yRnlXeWp4cEVFNTRab1NBb0RpZ1BQUC14ZkZzZ2h1blU0Ykl4QVMxUENFRWFfQmlGUnBnaW5VanR1Um5wc0xMNlRQcEJUcVloVjViTTBudWM?oc=5
+summary: Did Banking Tie Up Just Shift AppFolio (APPF) Investment Narrative? simplywall.st
+first_seen: '2026-09-25T23:25:53Z'
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPNzJjTjVqU1BNMDB1Q1YxTTl4dTRjNkFzZWU1OUJCSi1EdDdTcEVwS3BFQ3JMMEdTRk1FSVp6b3duNFRKSnpFem9PWW01U2VwOXVoMENEVmZtckhCSzBfSnBiUlJLUm51Slg3MExxNlRZcUJRMFN4M3ZiMDlyc1dVR3RLOGctMUJNMjNpclkzMGQ2dWJZOUI1ZEdHeWdkcjNHcHI4aEFYZUtOeG1fYTk4T096QTlPYnloNU9BaTdNaHFseFdyYWfSAcsBQVVfeXFMTU9HSGotRFNxZ1U0Y21oNUNBNGJaTWtjNTlkcVBla3MyNFVhVEVKVzljVmZJNEhVVTJYeXY1V0tiZnJ4Mmo5bjdud3JYVU5NWTZJRGxsaFZ0ZTdqOWNZMlNOSkFDeHpWeXVPbEJKMDRtNjJWaXN5ZFdtQW5yRnlXeWp4cEVFNTRab1NBb0RpZ1BQUC14ZkZzZ2h1blU0Ykl4QVMxUENFRWFfQmlGUnBnaW5VanR1Um5wc0xMNlRQcEJUcVloVjViTTBudWM?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+---
+
+# Did Banking Tie Up Just Shift AppFolio (APPF) Investment Narrative?
+
+Did Banking Tie Up Just Shift AppFolio (APPF) Investment Narrative? simplywall.st
+
+## 笔记
+
+

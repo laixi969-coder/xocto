@@ -42,17 +42,17 @@ canonical_url: https://jianruntech.github.io/geo-score
 summary: Will ChatGPT cite your site? Score it in 20 seconds against an open, versioned GEO rubric. Python,
   zero dependencies.
 first_seen: '2026-09-08T05:03:27Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://jianruntech.github.io/geo-score/
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 276
-    forks: 2
+    stars: 407
+    forks: 3
     open_issues: 0
   kind: product
 ---

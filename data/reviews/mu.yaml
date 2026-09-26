@@ -40,3 +40,39 @@
   usage_reason_en: 'Inference: compared with a single-model agent, mu routes routine calls to a small
     model first, which may cut large-model calls per task and lower the cost of each change; however no
     public cost comparison or edit-quality data exists, so user choice cannot yet be confirmed.'
+- id: req-initial-mu-2026-09-26
+  project_slug: mu
+  level: initial
+  reviewed_at: '2026-09-26T00:37:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“开发者在本地或仓库中运行编码代理时打开 mu，把待改的代码库和任务交给它；mu 先用一个小而快的判断模型决定常规调用，再让大模型执行实际改动，最终产出代码变更供开发者自行确认”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 160 个收藏、10 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 软件工程师
+  job_en: Software engineers
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：软件工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Software engineers Public materials do not yet explain why users choose
+    this product over their existing approach.'

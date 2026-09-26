@@ -1,0 +1,12 @@
+- id: ev-0919a3ff6a3db9ab
+  project_slug: multi-region-training-with-amazon-sagemaker-hyperpod-and-qum
+  url: https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/
+  title: Multi-Region training with Amazon SageMaker HyperPod and Qumulo
+  published_at: '2026-09-25T15:49:44Z'
+  collected_at: '2026-09-26T00:38:19Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region
+    while keeping your dataset in another. This post shares the architecture and validation results from
+    a cross-Region training run, where a remote cluster matched a co-located cluster's throughput after
+    a brief NeuralCache warmup.

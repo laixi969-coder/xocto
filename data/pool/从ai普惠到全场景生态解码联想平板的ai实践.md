@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMieEFVX3lxTE8xT2NUR3Bqd1c3OS1IU3lCQ3
 canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE8xT2NUR3Bqd1c3OS1IU3lCQ3RUcUtpc2RMeDF5MmFDSVFXcTJ0M3l5LTlPUkJqREpkcE1sZXFKSk9VWWd4d1lLZk1DTTJkT2tVNklQNXRBVTktdHl4QjFyMU9JUU1NeEVqRnF4bEMzX3pFb1pLR0Joeg?oc=5
 summary: 从AI普惠到全场景生态：解码联想平板的“AI+”实践 新浪财经
 first_seen: '2026-09-24T04:00:00Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: rejected
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTE8xT2NUR3Bqd1c3OS1IU3lCQ3RUcUtpc2RMeDF5MmFDSVFXcTJ0M3l5LTlPUkJqREpkcE1sZXFKSk9VWWd4d1lLZk1DTTJkT2tVNklQNXRBVTktdHl4QjFyMU9JUU1NeEVqRnF4bEMzX3pFb1pLR0Joeg?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWxZMzBFenJaSHdZZkZSLVRHdXVyQ0IxeVhHU1RIRDB3SkNFLXJxWDFZN1Y0MXd3bmdRRmVOR1Fpc1FQeUtuMHBEUUtvTDktNklTN2JuMHJoTm9zOHFSMUVIZWdOUDl6TFFfWVdEenpTbV81dTdQcVhhQWo0VmtsdlFGRmsxdzA?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

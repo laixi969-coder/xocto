@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMic0FVX3lxTFBiSVBtU0l1WWlBRUZPcFNQSG
 canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTFBiSVBtU0l1WWlBRUZPcFNQSGlDNThTTTFXaUh0SlkwaXBoTWl5R0Y4SnRVT0cySGxhY3paR2pWM3NtOHFEdWRCTzNrQmw2LXlkbXRWbU4xTzRKaVVBclFqTkh3YVhhZjVsWWZYNGtobGZ3eWM?oc=5
 summary: Pharma.AI 2026 秋季发布前瞻：智能体 AI 开启制药“智驾”新纪元 eurekalert.org
 first_seen: '2026-09-24T16:26:33Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: rejected
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMic0FVX3lxTFBiSVBtU0l1WWlBRUZPcFNQSGlDNThTTTFXaUh0SlkwaXBoTWl5R0Y4SnRVT0cySGxhY3paR2pWM3NtOHFEdWRCTzNrQmw2LXlkbXRWbU4xTzRKaVVBclFqTkh3YVhhZjVsWWZYNGtobGZ3eWM?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMieEFVX3lxTE16Nnl6Z1FxTlZya243U2wxd1JHTzRIMkk5NWFGaklqR1VYNjJ1amxaeWJfWUlwckszT2QtSXVEWGdyMUxrcjk2WGNOa09xZkpSMDQwNl9QVkM4V2JFR2JJTUlyR0ZJQW5HaHVzem5CanRYQVAyeXhlXw?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

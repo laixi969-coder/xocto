@@ -37,16 +37,16 @@ canonical_url: https://github.com/georgeding/Relate
 summary: 记得她说过的每一句话，也记得你答应过的每一件事。A self-hosted AI chief of staff for your chats — remembers what they
   said and what you promised.
 first_seen: '2026-09-23T16:20:10Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/georgeding/Relate
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 97
+    stars: 107
     forks: 0
     open_issues: 0
   kind: product

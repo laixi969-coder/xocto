@@ -33,17 +33,17 @@ url: https://zephclick.com
 canonical_url: https://zephclick.com
 summary: A $25 DIY alternative to $159 AI voice recorders – BYOK or local
 first_seen: '2026-09-24T20:51:25Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://zephclick.com
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 9
-    comments: 2
+    points: 10
+    comments: 3
   kind: product
 ---
 

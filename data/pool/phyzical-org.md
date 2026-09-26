@@ -36,17 +36,17 @@ canonical_url: https://phyzical.org
 summary: Browser teleoperation data for embodied AI — elizaOS-ready episodes, trajectory_db converter,
   onchain provenance. The fuel station for agent robot stacks.
 first_seen: '2026-09-09T13:01:05Z'
-last_seen: '2026-09-19T00:21:19Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://phyzical.org
-  seen_at: '2026-09-19T00:21:19Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
     stars: 292
-    forks: 2
+    forks: 1
     open_issues: 0
   kind: product
 ---

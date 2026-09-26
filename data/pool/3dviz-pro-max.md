@@ -35,17 +35,17 @@ summary: 'Agent skill for creative 3D visualization: turn an idea into a Three.j
   exploring. Claude Code + Codex plugin, 223 recipes, 440 knowledge records, 22 proved kits, 37 runnable
   studies.'
 first_seen: '2026-09-10T01:42:59Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://3dviz.dev
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 540
-    forks: 71
+    stars: 551
+    forks: 72
     open_issues: 1
   kind: product
 ---

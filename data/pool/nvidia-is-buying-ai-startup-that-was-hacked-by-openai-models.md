@@ -21,14 +21,19 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPSjA4S21xOGtF
 summary: Nvidia is buying AI startup that was hacked by OpenAI models for nearly $13 billion ABC7 New
   York
 first_seen: '2026-09-03T14:25:44Z'
-last_seen: '2026-09-05T13:28:57Z'
-status: rejected
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPSjA4S21xOGtFdWdEN2FtZkR0UEpNUEwxTUxNNFpGbC1sZG1BVkgwX192dElzZXZMR19ESDlTRGJmRlVwSjRsODBHN0QteFpybG92RTRrVHpQdHF5akhmNzN3QTJXOFZRNF9NeXJNMVhVM2huZWE0VlJ2THZxMlJZUTZJZmNISVJEbmYtUjlhQTQyLURhay14WGx1dm1jR2RWTEZBOVk2emtkTll2bWtDcg?oc=5
   seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHMxU2E0cndWRHo0SWo0aVdTNU1zWW83QUlpbFVzTGRzN055enNpXzBZeEVudlNEbnc0ZHo1eE1uWjAxdW1tWGQtQXlKMkN0bUF2dWtqT0VQQWRZaTRsT1pXV3hNUU92UzRMUDE0cHlNc3RISGxNckFIOUZqUGVvQ1MxTm1BcU53eHVaaFJtSXBvQnRQS01ldGdNaHUzQlJtWkFtdGJUSkRtYkpTRWc?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

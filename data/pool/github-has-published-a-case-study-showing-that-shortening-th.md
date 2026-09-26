@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-25T00:33:41Z'
+last_seen: '2026-09-26T00:37:50Z'
 status: rejected
 sources:
 - newssearch
@@ -111,6 +111,12 @@ sightings:
   seen_at: '2026-09-25T00:33:41Z'
   metrics:
     comments: 3
+  kind: product
+- source: v2ex
+  url: https://github.com/ranxi2001/sub2api/releases/tag/v2.8.11
+  seen_at: '2026-09-26T00:37:50Z'
+  metrics:
+    comments: 4
   kind: product
 ---
 

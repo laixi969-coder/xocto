@@ -21,14 +21,19 @@ canonical_url: https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-tech
 summary: Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare,
   wellness and building businesses.
 first_seen: '2026-09-10T21:35:00Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: rejected
+last_seen: '2026-09-26T00:38:20Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/
   seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/
+  seen_at: '2026-09-26T00:38:20Z'
   metrics: {}
   kind: news
 ---

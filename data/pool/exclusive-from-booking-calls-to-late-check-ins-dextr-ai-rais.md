@@ -21,14 +21,20 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOM1g3ZnZUa21m
 summary: 'Exclusive: From Booking Calls To Late Check-Ins, Dextr AI Raises $6.7M For Hotel AI Agents Crunchbase
   News'
 first_seen: '2026-09-24T13:00:44Z'
-last_seen: '2026-09-25T00:34:18Z'
+last_seen: '2026-09-26T00:38:20Z'
 status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOM1g3ZnZUa21mQUdzVno4eGtnRVlZWFlzVTY0eWVqd05tRmRsMmdkdldaRWdmbmVuU2hiOFlTU0pfdlBhWTE2Nm5Jb1pSMU9OWnZzTEdxNEFLZXNnZ2dLTnd4cTN3TUpvb3ozOExZc18tR2R0VHpoakhFa3BDLWtSbUsycFlNQ3FrNU9rUA?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/venture/dextr-ai-hospitality-agents-raises-seed-funding/
+  seen_at: '2026-09-26T00:38:20Z'
   metrics: {}
   kind: news
 ---

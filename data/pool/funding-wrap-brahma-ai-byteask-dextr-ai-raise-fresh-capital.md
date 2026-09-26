@@ -1,0 +1,41 @@
+---
+slug: funding-wrap-brahma-ai-byteask-dextr-ai-raise-fresh-capital
+name: 'Funding Wrap: Brahma AI, ByteAsk, Dextr AI raise fresh capital'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOdmZjNnhNSkp6eEdzS1U2WlYzZXJZbl93UmpoUnBIT013bFpwcFl5TnZFYzM1SzB3Nkp2Wkl1eG43TXNjNndaMk9fY3FLb05sU1JzckNUNUFQUng4dVI4bzIxTGdGaFB6NVpQeVlBZ0ptdEFwMmxhYzAtZ3RNVHlaNExnMWNuZ1BuQkt0RC1aT1JjUW1vQld4TVd2TlczS050RXhMR05pNVl4VnI2Z0tZODFERXhiZ1lmUDM3V2dDbFJrMzR4V3lQbmNXUUrSAdIBQVVfeXFMT212RDlhVUdLMEFkdmI1WTdydjNCVVhOWW1RdjRzcWp3OHZwTmstSlV4aWdLYktrM21VNE54QU94NlM5WEhZLWh1elBycGdDV2xRYlRFcFdGeURtLTRSZWFPWTVRVVRqSHFiV1JXb1JlQUhnVUlYbmF0XzRrZVk2OGgweGRSWjc3bTVNUDIyLUtpemdsTF9ydHFMMnR1NlJScnI1NjV6R3ZWQ1FLeXdyYjZibTlubUFKQ0xRQmtnVmFPVUZmWE9GQ1hjUXAtdnQycUVB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOdmZjNnhNSkp6eEdzS1U2WlYzZXJZbl93UmpoUnBIT013bFpwcFl5TnZFYzM1SzB3Nkp2Wkl1eG43TXNjNndaMk9fY3FLb05sU1JzckNUNUFQUng4dVI4bzIxTGdGaFB6NVpQeVlBZ0ptdEFwMmxhYzAtZ3RNVHlaNExnMWNuZ1BuQkt0RC1aT1JjUW1vQld4TVd2TlczS050RXhMR05pNVl4VnI2Z0tZODFERXhiZ1lmUDM3V2dDbFJrMzR4V3lQbmNXUUrSAdIBQVVfeXFMT212RDlhVUdLMEFkdmI1WTdydjNCVVhOWW1RdjRzcWp3OHZwTmstSlV4aWdLYktrM21VNE54QU94NlM5WEhZLWh1elBycGdDV2xRYlRFcFdGeURtLTRSZWFPWTVRVVRqSHFiV1JXb1JlQUhnVUlYbmF0XzRrZVk2OGgweGRSWjc3bTVNUDIyLUtpemdsTF9ydHFMMnR1NlJScnI1NjV6R3ZWQ1FLeXdyYjZibTlubUFKQ0xRQmtnVmFPVUZmWE9GQ1hjUXAtdnQycUVB?oc=5
+summary: 'Funding Wrap: Brahma AI, ByteAsk, Dextr AI raise fresh capital ET Entrepreneur'
+first_seen: '2026-09-25T09:55:58Z'
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOdmZjNnhNSkp6eEdzS1U2WlYzZXJZbl93UmpoUnBIT013bFpwcFl5TnZFYzM1SzB3Nkp2Wkl1eG43TXNjNndaMk9fY3FLb05sU1JzckNUNUFQUng4dVI4bzIxTGdGaFB6NVpQeVlBZ0ptdEFwMmxhYzAtZ3RNVHlaNExnMWNuZ1BuQkt0RC1aT1JjUW1vQld4TVd2TlczS050RXhMR05pNVl4VnI2Z0tZODFERXhiZ1lmUDM3V2dDbFJrMzR4V3lQbmNXUUrSAdIBQVVfeXFMT212RDlhVUdLMEFkdmI1WTdydjNCVVhOWW1RdjRzcWp3OHZwTmstSlV4aWdLYktrM21VNE54QU94NlM5WEhZLWh1elBycGdDV2xRYlRFcFdGeURtLTRSZWFPWTVRVVRqSHFiV1JXb1JlQUhnVUlYbmF0XzRrZVk2OGgweGRSWjc3bTVNUDIyLUtpemdsTF9ydHFMMnR1NlJScnI1NjV6R3ZWQ1FLeXdyYjZibTlubUFKQ0xRQmtnVmFPVUZmWE9GQ1hjUXAtdnQycUVB?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+---
+
+# Funding Wrap: Brahma AI, ByteAsk, Dextr AI raise fresh capital
+
+Funding Wrap: Brahma AI, ByteAsk, Dextr AI raise fresh capital ET Entrepreneur
+
+## 笔记
+
+

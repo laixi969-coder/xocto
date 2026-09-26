@@ -176,3 +176,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者在提交合并请求前，处理自己或智能体刚生成的代码改动，需要完成一次可追溯的审查并决定是否放行'
+- id: ev-93806bea756156ad
+  project_slug: critic
+  url: https://www.critic.run/
+  title: Critic
+  published_at: '2026-09-24T17:35:28Z'
+  collected_at: '2026-09-26T00:37:52Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Review code with the agent that wrote it

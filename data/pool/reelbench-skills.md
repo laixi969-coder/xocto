@@ -33,17 +33,17 @@ url: https://github.com/eternityspring/reelbench-skills
 canonical_url: https://github.com/eternityspring/reelbench-skills
 summary: Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill
 first_seen: '2026-09-11T04:55:49Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/eternityspring/reelbench-skills
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 835
-    forks: 102
+    stars: 839
+    forks: 103
     open_issues: 0
   kind: product
 ---

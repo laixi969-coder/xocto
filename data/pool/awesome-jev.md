@@ -21,26 +21,26 @@ canonical_url: https://github.com/cobanov/awesome-jev
 summary: A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for
   typed decisions.
 first_seen: '2026-09-18T10:12:18Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cobanov/awesome-jev
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 387
-    forks: 88
-    open_issues: 4
+    stars: 399
+    forks: 91
+    open_issues: 1
   kind: product
 - source: github
   url: https://madewithjev.com
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 134
-    forks: 28
-    open_issues: 23
+    stars: 139
+    forks: 31
+    open_issues: 25
   kind: product
 ---
 

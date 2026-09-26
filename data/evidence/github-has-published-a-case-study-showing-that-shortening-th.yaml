@@ -203,3 +203,13 @@
     \ Adapter ，把这些平台能力抽离出来。\r\n\r\n它提供：\r\n\r\n独立用户环境：每个用户都有自己的工作区和持久数据。\r\n\r\nAdapter 接入：保留原有业务逻辑，不必重写成多租户架构。\r\
     \n统一运维：账号、权限、实例启停、升级和监控统一管理。\r\n一套平台接入多个项目：Core 与 Adapter 解耦，可持续扩展。\r\nApache-2.0 开源，自托管友好。\r\n目前支持\
     \ Docker 和 OrbStack ，后续会扩展 Kubernetes 等更多运行时。\r\n\r\n希望让开发者把精力留给业务，而不是重复造平台。\r\n![image]( https://img.111451444.xyz/files/QWdBRGNDSUFBbHQ1cUZVOkRYCgZS96QrvISTM7zAqaE2E8DJ0jkxnnfutRYsi8Oj.png)"
+- id: ev-371a539fc1d6f4ab
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1244769
+  title: 完美解决 GPT Astra 降智问题
+  published_at: '2026-09-25T10:13:00Z'
+  collected_at: '2026-09-26T00:37:50Z'
+  source_kind: product
+  tier: independent
+  fact: "无论账号多黑，都能免于降智\r\nCodex 730 292\r\n糖果测试、鹈鹕测试、Excel——统统搞定\r\n代码 sub2api 已开源\r\nhttps://github.com/ranxi2001/sub2api/releases/tag/v2.8.11\r\
+    \n希望我们能坚持到 O÷ 风控限制解除。"

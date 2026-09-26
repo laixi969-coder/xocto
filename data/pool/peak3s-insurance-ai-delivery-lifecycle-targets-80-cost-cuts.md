@@ -33,14 +33,19 @@ url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2Y2c3E1SkJJRWVTcWJ6Nz
 canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2Y2c3E1SkJJRWVTcWJ6NzNsTmhvLWp5RlB3Y2JnWC0xb2QxMUtyeG5sV3pqTlBDMEpDRVVaVTV2X1JyYmU1bzVyTXMxYWZSZXpMRXA1aUJpOV95bGlLSHVGdFJ3cU9FNVpHRHJrSnUzbktRM1p6dXRIaFc4a3ctdWZMRkNJaVFHY2xuRkdPNkZIUEM1cDJMZXhULWRnT1U?oc=5
 summary: Peak3's Insurance AI Delivery Lifecycle Targets 80% Cost Cuts financexmagazine.com
 first_seen: '2026-09-24T12:44:10Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: watching
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2Y2c3E1SkJJRWVTcWJ6NzNsTmhvLWp5RlB3Y2JnWC0xb2QxMUtyeG5sV3pqTlBDMEpDRVVaVTV2X1JyYmU1bzVyTXMxYWZSZXpMRXA1aUJpOV95bGlLSHVGdFJ3cU9FNVpHRHJrSnUzbktRM1p6dXRIaFc4a3ctdWZMRkNJaVFHY2xuRkdPNkZIUEM1cDJMZXhULWRnT1U?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPUFNkTU03Q19PX01reDhHb194MDJpSUt0bzVKRHo2WEJrTGZ0aEc5TTEzXzVZQjhkUXU5c1lJWDdQZnp1VHJrMXBQS1hpZ3lmR0o0TU1ZR3dlYkJtem9Gd0Y2UmViYVZpUnVFcF9hc0F3UThuY1NSeEgtM1MxaWFmLW1UcUM3emRLcVYyX01ZMA?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

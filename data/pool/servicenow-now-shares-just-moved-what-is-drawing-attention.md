@@ -1,0 +1,41 @@
+---
+slug: servicenow-now-shares-just-moved-what-is-drawing-attention
+name: ServiceNow (NOW) Shares Just Moved, What Is Drawing Attention?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQVGpOU2tfOUctMTlSVVJJaGhIZzRZVUFsc2NvUFYyVG9mTlJNOEdZLUdGMWRkRWxrYmpEVEdIWnBWNmo2VVlmY0NzRnV1Qnk0NUdpQWszRVo5Tll5S1dmdE5peGRmakQxMzFfWjZGaF9yeWFuZEdRcTcwcjlhRFc3N3VIa2RldS0wRllhQlRwOHlxQkM4TlJYUzRvVy1Ec1pjOGxEa25pNGVzcWY2amVZbmxxOHR2RTE3TXo2WTdzbW5KaXBqMGRB0gHHAUFVX3lxTFBUak5Ta185Ry0xOVJVUkloaEhnNFlVQWxzY29QVjJUb2ZOUk04R1ktR0YxZGRFbGtiakRUR0hacFY2ajZVWWZjQ3NGdXVCeTQ1R2lBazNFWjlOWXlLV2Z0Tml4ZGZqRDEzMV9aNkZoX3J5YW5kR1FxNzByOWFEVzc3dUhrZGV1LTBGWWFCVHA4eXFCQzhOUlhTNG9XLURzWmM4bERrbmk0ZXNxZjZqZVlubHE4dHZFMTdNejZZN3NtbkppcGowZEE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQVGpOU2tfOUctMTlSVVJJaGhIZzRZVUFsc2NvUFYyVG9mTlJNOEdZLUdGMWRkRWxrYmpEVEdIWnBWNmo2VVlmY0NzRnV1Qnk0NUdpQWszRVo5Tll5S1dmdE5peGRmakQxMzFfWjZGaF9yeWFuZEdRcTcwcjlhRFc3N3VIa2RldS0wRllhQlRwOHlxQkM4TlJYUzRvVy1Ec1pjOGxEa25pNGVzcWY2amVZbmxxOHR2RTE3TXo2WTdzbW5KaXBqMGRB0gHHAUFVX3lxTFBUak5Ta185Ry0xOVJVUkloaEhnNFlVQWxzY29QVjJUb2ZOUk04R1ktR0YxZGRFbGtiakRUR0hacFY2ajZVWWZjQ3NGdXVCeTQ1R2lBazNFWjlOWXlLV2Z0Tml4ZGZqRDEzMV9aNkZoX3J5YW5kR1FxNzByOWFEVzc3dUhrZGV1LTBGWWFCVHA4eXFCQzhOUlhTNG9XLURzWmM4bERrbmk0ZXNxZjZqZVlubHE4dHZFMTdNejZZN3NtbkppcGowZEE?oc=5
+summary: ServiceNow (NOW) Shares Just Moved, What Is Drawing Attention? simplywall.st
+first_seen: '2026-09-25T13:36:55Z'
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQVGpOU2tfOUctMTlSVVJJaGhIZzRZVUFsc2NvUFYyVG9mTlJNOEdZLUdGMWRkRWxrYmpEVEdIWnBWNmo2VVlmY0NzRnV1Qnk0NUdpQWszRVo5Tll5S1dmdE5peGRmakQxMzFfWjZGaF9yeWFuZEdRcTcwcjlhRFc3N3VIa2RldS0wRllhQlRwOHlxQkM4TlJYUzRvVy1Ec1pjOGxEa25pNGVzcWY2amVZbmxxOHR2RTE3TXo2WTdzbW5KaXBqMGRB0gHHAUFVX3lxTFBUak5Ta185Ry0xOVJVUkloaEhnNFlVQWxzY29QVjJUb2ZOUk04R1ktR0YxZGRFbGtiakRUR0hacFY2ajZVWWZjQ3NGdXVCeTQ1R2lBazNFWjlOWXlLV2Z0Tml4ZGZqRDEzMV9aNkZoX3J5YW5kR1FxNzByOWFEVzc3dUhrZGV1LTBGWWFCVHA4eXFCQzhOUlhTNG9XLURzWmM4bERrbmk0ZXNxZjZqZVlubHE4dHZFMTdNejZZN3NtbkppcGowZEE?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+---
+
+# ServiceNow (NOW) Shares Just Moved, What Is Drawing Attention?
+
+ServiceNow (NOW) Shares Just Moved, What Is Drawing Attention? simplywall.st
+
+## 笔记
+
+

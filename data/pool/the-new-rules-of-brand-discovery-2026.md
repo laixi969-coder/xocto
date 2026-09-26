@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5MZXY1bjRxMGtFMGgwcElzSV
 canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5MZXY1bjRxMGtFMGgwcElzSVE5dkZVclBuWWpZYlItV2d4cTEwZndBQXZvX3YzbUI0ZUdiQ2RvRkhpdng5OHluV29mOERwM0ZPUEVSVmdlYk1DY1JEem1rV3ItQk04ZW56b1NfZHFB?oc=5
 summary: The New Rules of Brand Discovery (2026) Shopify
 first_seen: '2026-09-23T08:46:39Z'
-last_seen: '2026-09-24T00:31:52Z'
-status: rejected
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5MZXY1bjRxMGtFMGgwcElzSVE5dkZVclBuWWpZYlItV2d4cTEwZndBQXZvX3YzbUI0ZUdiQ2RvRkhpdng5OHluV29mOERwM0ZPUEVSVmdlYk1DY1JEem1rV3ItQk04ZW56b1NfZHFB?oc=5
   seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ub1ZheGg4THMzbnNOLTJENjhqX2Q1MGVvTnZhSTFxQ1VVYk5PeE5QVTFxVHNWR2U2Vi04NFltNDRxRWthZHRlMFFUUFh5T2lQelNITFFjLUVsTUpHRThkS3JEOXlTNW92YWc?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

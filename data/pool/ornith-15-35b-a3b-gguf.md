@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: rejected
 sources:
 - modelscope
@@ -105,10 +105,10 @@ sightings:
   kind: product
 - source: github
   url: https://modelscope.cn/active/ms-cookbook
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 394
-    forks: 69
+    stars: 396
+    forks: 70
     open_issues: 4
   kind: product
 - source: modelscope
@@ -134,10 +134,10 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/XingChen-AGI/TeleOCR
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:51Z'
   metrics:
-    likes: 21
-    downloads: 145
+    likes: 25
+    downloads: 162
   kind: product
 ---
 

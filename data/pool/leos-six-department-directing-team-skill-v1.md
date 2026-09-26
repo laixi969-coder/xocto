@@ -37,16 +37,16 @@ canonical_url: https://github.com/MasterLeos/leos-six-department-directing-team-
 summary: An AI filmmaking skill by Leos, bringing together six directing roles for scene planning, performance,
   staging, cinematography, video prompts, and continuity review. 面向 AI 影视创作的六部门导演组，协同完成场次设计、表演调度、摄影方案、视频提示词与连续性审查。
 first_seen: '2026-09-09T06:56:46Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MasterLeos/leos-six-department-directing-team-skill-v1
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 120
+    stars: 123
     forks: 9
     open_issues: 0
   kind: product

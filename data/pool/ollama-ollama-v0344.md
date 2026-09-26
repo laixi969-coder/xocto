@@ -25,16 +25,16 @@ summary: "## What's Changed\r\n\r\n- Structured outputs on thinking models now a
   \ now picks the best image resolution per image, keeping more detail in high-resolution images.\r\n\
   - Updated llama.cpp, MLX, and XGrammar.\r\n \r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.3...v0.34.4"
 first_seen: '2026-09-23T02:24:43Z'
-last_seen: '2026-09-25T00:33:47Z'
-status: rejected
+last_seen: '2026-09-26T00:37:55Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.34.4
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    reactions: 14
+    reactions: 15
   kind: news
 ---
 

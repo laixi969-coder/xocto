@@ -36,10 +36,11 @@ url: https://cited.cc
 canonical_url: https://cited.cc
 summary: Open-source citation monitoring platform for AI answers that matter.
 first_seen: '2026-09-05T23:02:19Z'
-last_seen: '2026-09-25T00:33:47Z'
-status: watching
+last_seen: '2026-09-26T00:38:20Z'
+status: pending_filter
 sources:
 - github
+- marketfeeds
 sightings:
 - source: github
   url: https://cited.cc
@@ -49,6 +50,11 @@ sightings:
     forks: 7
     open_issues: 4
   kind: product
+- source: marketfeeds
+  url: https://sifted.eu/articles/5-reasons-sifted-summit/
+  seen_at: '2026-09-26T00:38:20Z'
+  metrics: {}
+  kind: news
 ---
 
 # cited

@@ -39,8 +39,8 @@ url: https://www.producthunt.com/products/type-com
 canonical_url: https://producthunt.com/products/type-com
 summary: A shared workspace for Claude, Codex, and your team
 first_seen: '2026-09-09T03:54:10Z'
-last_seen: '2026-09-25T00:33:43Z'
-status: rejected
+last_seen: '2026-09-26T00:37:52Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
@@ -83,10 +83,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 40
-    comments: 43
+    points: 43
+    comments: 48
   kind: news
 ---
 

@@ -23,11 +23,12 @@ url: https://huggingface.co/spaces/baka999/qwen-image-2.1
 canonical_url: https://huggingface.co/spaces/baka999/qwen-image-2.1
 summary: Qwen-Image-2.1 T2I & 10-Image Reference Editing
 first_seen: '2026-09-20T14:51:46Z'
-last_seen: '2026-09-22T00:50:21Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: pending_filter
 sources:
 - huggingface
 - hackernews
+- github
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/baka999/qwen-image-2.1
@@ -60,6 +61,14 @@ sightings:
     points: 722
     comments: 193
   kind: news
+- source: github
+  url: https://helmstudio.in
+  seen_at: '2026-09-26T00:37:55Z'
+  metrics:
+    stars: 47
+    forks: 7
+    open_issues: 0
+  kind: product
 ---
 
 # Qwen-Image-2.1

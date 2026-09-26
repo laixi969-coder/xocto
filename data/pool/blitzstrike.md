@@ -32,17 +32,17 @@ summary: '⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Str
   & attack-surface mapping, source-to-sink analysis, and live validation. 57 escalation chains, 130-tool
   catalog, intelligence data layer. One server, every agent.'
 first_seen: '2026-09-12T12:13:09Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/shinthink/blitzstrike
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 529
-    forks: 4
+    stars: 515
+    forks: 3
     open_issues: 0
   kind: product
 ---

@@ -20,8 +20,8 @@ url: https://huggingface.co/spaces/ryansael/airace
 canonical_url: https://huggingface.co/spaces/ryansael/airace
 summary: Live 3D race of AI labs, updated every 6 hours
 first_seen: '2026-09-14T14:25:21Z'
-last_seen: '2026-09-25T00:33:43Z'
-status: rejected
+last_seen: '2026-09-26T00:37:52Z'
+status: pending_filter
 sources:
 - huggingface
 - marketfeeds
@@ -58,10 +58,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 56
-    comments: 9
+    points: 165
+    comments: 41
   kind: news
 ---
 

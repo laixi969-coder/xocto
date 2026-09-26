@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOWDJNMUJheFg5N3VuY2RGYn
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOWDJNMUJheFg5N3VuY2RGYnlEaE1KblpPQ3FGQ3RuX0JXM2ZORFZJalRwbXZNLTFReWlhdUE3Vm9zcVRZSUdOT1JCQ2N2SV9objdDbEVSSjgzbTV5UlJscnA3cE5SZzdtTVhBZ0x2aDc5U0Q1ajBnakZCNEE4SjBEQmlRbDVPQk1mZ3JGSA?oc=5
 summary: “ AI智洗”到“稳定脱单”：博西家电以硬核科技破解洗护痛点 搜狐网
 first_seen: '2026-09-24T08:18:53Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: rejected
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOWDJNMUJheFg5N3VuY2RGYnlEaE1KblpPQ3FGQ3RuX0JXM2ZORFZJalRwbXZNLTFReWlhdUE3Vm9zcVRZSUdOT1JCQ2N2SV9objdDbEVSSjgzbTV5UlJscnA3cE5SZzdtTVhBZ0x2aDc5U0Q1ajBnakZCNEE4SjBEQmlRbDVPQk1mZ3JGSA?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1YnJPSTI2emJwcXZWUnFWTDBrNTRBZmh3LVVMN24zTFNUWmZ0b3J3bkI2RmNqWlZqVklDMmVFc1hBMkVtUzZmQkpmVEo1SU5LVGpCOFd6VW8?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

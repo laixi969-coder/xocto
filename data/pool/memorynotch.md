@@ -41,17 +41,17 @@ url: https://memorynotch.app/
 canonical_url: https://memorynotch.app
 summary: Offline recorder and transcriber on your MacBook's notch
 first_seen: '2026-09-24T20:01:13Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://memorynotch.app/
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 6
+    comments: 1
   kind: product
 ---
 

@@ -20,7 +20,7 @@ url: https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html
 canonical_url: https://cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html
 summary: OpenAI begins rolling out GPT-6 Astra
 first_seen: '2026-09-03T18:18:22Z'
-last_seen: '2026-09-25T00:34:18Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: pending_filter
 sources:
 - hackernews
@@ -44,6 +44,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMid0FVX3lxTE01VzBSRmVkM0JuVHVUS3lRY0RCVnlPUl8xYzFldk0wcWJlME1aaTNEUXNFYUozdmM1SmU1S09jek05UVg2b0p6M3J2akpmWUdGMm8wZTRrQnBUVDJYbmE4dlBmOGMwYTBkNXhrNGJGX281TzNwQ3V30gF8QVVfeXFMT25rZnFVZHAwZi1rZkZHdjhleWk3RUh4RWxuWVJRRGxXTmNFOGszQ1VMZUFtdUJnX0c5cExiYUpqMFFSdlRIOUEzOUpoWkpYZXE1d1dpWjd2MDBiYXA1eFJ3U0N2MlpxS19GUHllOTQyeHZTYWdOTVY5SjVzQw?oc=5
   seen_at: '2026-09-25T00:34:18Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html
+  seen_at: '2026-09-26T00:37:52Z'
+  metrics:
+    points: 367
+    comments: 679
   kind: news
 ---
 

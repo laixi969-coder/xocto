@@ -20,17 +20,17 @@ url: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 canonical_url: https://verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 summary: AI safety is mostly a sex cult in Berkeley
 first_seen: '2026-09-24T14:38:31Z'
-last_seen: '2026-09-25T00:33:43Z'
-status: rejected
+last_seen: '2026-09-26T00:37:52Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 81
-    comments: 18
+    points: 119
+    comments: 30
   kind: news
 ---
 

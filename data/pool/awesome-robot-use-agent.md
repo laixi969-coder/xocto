@@ -20,7 +20,7 @@ url: https://huggingface.co/spaces/kairunwen/Awesome-Robot-Use-Agent
 canonical_url: https://huggingface.co/spaces/kairunwen/Awesome-Robot-Use-Agent
 summary: Papers, tools, benchmarks and demos for robot-use agents
 first_seen: '2026-09-15T14:58:38Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: rejected
 sources:
 - huggingface
@@ -34,11 +34,11 @@ sightings:
   kind: product
 - source: github
   url: https://kairunwen.github.io/Awesome-Robot-Use-Agent/
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 131
-    forks: 0
-    open_issues: 0
+    stars: 135
+    forks: 1
+    open_issues: 1
   kind: product
 ---
 

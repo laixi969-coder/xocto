@@ -33,17 +33,17 @@ summary: Verification-driven AI software iteration, powered by the OpenAI Codex 
   turn goals, GitHub Issues and PR feedback into tested, reviewable changes, with bounded execution and
   human control over merging and deployment.
 first_seen: '2026-09-18T03:36:12Z'
-last_seen: '2026-09-21T00:16:56Z'
+last_seen: '2026-09-26T00:37:55Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/indada/repopilot
-  seen_at: '2026-09-21T00:16:56Z'
+  seen_at: '2026-09-26T00:37:55Z'
   metrics:
-    stars: 153
-    forks: 7
+    stars: 149
+    forks: 5
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,41 @@
+---
+slug: as-ai-agents-enter-festive-shopping-banks-warn-of-fraud-and
+name: As AI agents enter festive shopping, banks warn of fraud and payments risks
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxQekVoTUJpS1BRcDEtcFZLcXZMU0xaTHp2TVRNR2hCVkNvVy1RQ1JVNHdMVUZyTVNLbnhaYUxPMlZwckUxczNuUldiMUtzaVFTWnRJYWNfamFfdVZHcGJ1OEo0bnRYcEJ0S0d1V1o3b05OZzJQY1hWc2xWX1h6RjloM19jdnFVX0Y5UmtkR2FqdVRjUzBjMnBtWlBHR1NNLU5EaGVjcWM1VWFwNTF1TllsTmYzbUhWaFVlNVVyUFRlVXZUVGc3dWd2Y0Jvc1ZWckR4eEVuY0FiY2VUWFB3WU9ZTEVoVnZZbTY10gHoAUFVX3lxTFB6RWhNQmlLUFFwMS1wVktxdkxTTFpMenZNVE1HaEJWQ29XLVFDUlU0d0xVRnJNU0tueFphTE8yVnByRTFzM25SV2IxS3NpUVNadElhY19qYV91VkdwYnU4SjRudFhwQnRLR3VXWjdvTk5nMlBjWFZzbFZfWHpGOWgzX2N2cVVfRjlSa2RHYWp1VGNTMGMycG1aUEdHU00tTkRoZWNxYzVVYXA1MXVOWWxOZjNtSFZoVWU1VXJQVGVVdlRUZzd1Z3ZjQm9zVlZyRHh4RW5jQWJjZVRYUHdZT1lMRWhWdlltNjU?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxQekVoTUJpS1BRcDEtcFZLcXZMU0xaTHp2TVRNR2hCVkNvVy1RQ1JVNHdMVUZyTVNLbnhaYUxPMlZwckUxczNuUldiMUtzaVFTWnRJYWNfamFfdVZHcGJ1OEo0bnRYcEJ0S0d1V1o3b05OZzJQY1hWc2xWX1h6RjloM19jdnFVX0Y5UmtkR2FqdVRjUzBjMnBtWlBHR1NNLU5EaGVjcWM1VWFwNTF1TllsTmYzbUhWaFVlNVVyUFRlVXZUVGc3dWd2Y0Jvc1ZWckR4eEVuY0FiY2VUWFB3WU9ZTEVoVnZZbTY10gHoAUFVX3lxTFB6RWhNQmlLUFFwMS1wVktxdkxTTFpMenZNVE1HaEJWQ29XLVFDUlU0d0xVRnJNU0tueFphTE8yVnByRTFzM25SV2IxS3NpUVNadElhY19qYV91VkdwYnU4SjRudFhwQnRLR3VXWjdvTk5nMlBjWFZzbFZfWHpGOWgzX2N2cVVfRjlSa2RHYWp1VGNTMGMycG1aUEdHU00tTkRoZWNxYzVVYXA1MXVOWWxOZjNtSFZoVWU1VXJQVGVVdlRUZzd1Z3ZjQm9zVlZyRHh4RW5jQWJjZVRYUHdZT1lMRWhWdlltNjU?oc=5
+summary: As AI agents enter festive shopping, banks warn of fraud and payments risks Business Standard
+first_seen: '2026-09-24T10:25:22Z'
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxQekVoTUJpS1BRcDEtcFZLcXZMU0xaTHp2TVRNR2hCVkNvVy1RQ1JVNHdMVUZyTVNLbnhaYUxPMlZwckUxczNuUldiMUtzaVFTWnRJYWNfamFfdVZHcGJ1OEo0bnRYcEJ0S0d1V1o3b05OZzJQY1hWc2xWX1h6RjloM19jdnFVX0Y5UmtkR2FqdVRjUzBjMnBtWlBHR1NNLU5EaGVjcWM1VWFwNTF1TllsTmYzbUhWaFVlNVVyUFRlVXZUVGc3dWd2Y0Jvc1ZWckR4eEVuY0FiY2VUWFB3WU9ZTEVoVnZZbTY10gHoAUFVX3lxTFB6RWhNQmlLUFFwMS1wVktxdkxTTFpMenZNVE1HaEJWQ29XLVFDUlU0d0xVRnJNU0tueFphTE8yVnByRTFzM25SV2IxS3NpUVNadElhY19qYV91VkdwYnU4SjRudFhwQnRLR3VXWjdvTk5nMlBjWFZzbFZfWHpGOWgzX2N2cVVfRjlSa2RHYWp1VGNTMGMycG1aUEdHU00tTkRoZWNxYzVVYXA1MXVOWWxOZjNtSFZoVWU1VXJQVGVVdlRUZzd1Z3ZjQm9zVlZyRHh4RW5jQWJjZVRYUHdZT1lMRWhWdlltNjU?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+---
+
+# As AI agents enter festive shopping, banks warn of fraud and payments risks
+
+As AI agents enter festive shopping, banks warn of fraud and payments risks Business Standard
+
+## 笔记
+
+

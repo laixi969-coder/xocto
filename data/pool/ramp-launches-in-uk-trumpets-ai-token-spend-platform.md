@@ -42,14 +42,20 @@ summary: US expense management startup Ramp has launched in the UK, landed Eleve
   is trumpeting its AI token spend platform as it looks to woo more UK startup clients.Ramp’s launch in
   the ...
 first_seen: '2026-09-15T10:00:00Z'
-last_seen: '2026-09-16T00:21:06Z'
-status: queued
+last_seen: '2026-09-26T00:38:27Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/15/ramp-launches-in-uk-nabs-elevenlabs-as-a-client-trumpets-financial-control-ai-token-platform/
   seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE15aHB5MVVZR0xTSlNNakdINDlWWEp1NXBfdkRza3ZLNVhnSWJTeW1DWVJuUHhjZFdRWXJoY3Q3NGl1cm1jTWhnZTV5UnNWQUFDTnZMWVF4MXRZZEk?oc=5
+  seen_at: '2026-09-26T00:38:27Z'
   metrics: {}
   kind: news
 ---

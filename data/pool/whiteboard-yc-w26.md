@@ -31,17 +31,17 @@ url: https://github.com/devdotfast/whiteboard
 canonical_url: https://github.com/devdotfast/whiteboard
 summary: An open-source IDE for thoughtful software design
 first_seen: '2026-09-24T17:21:36Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-26T00:37:52Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/devdotfast/whiteboard
-  seen_at: '2026-09-25T00:33:43Z'
+  seen_at: '2026-09-26T00:37:52Z'
   metrics:
-    points: 178
-    comments: 76
+    points: 396
+    comments: 129
   kind: product
 ---
 
