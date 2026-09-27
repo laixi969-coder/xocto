@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/497425.html
 summary: vLLM人马创业公司团队出品
 first_seen: '2026-09-26T07:12:05Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -3,12 +3,11 @@ slug: qwen-image-21
 name: Qwen-Image-2.1
 builder: baka999
 category: ''
-summary_zh: Qwen-Image-2.1 是图像生成与编辑模型，公开演示空间显示它可接收文字提示和最多10张参考图，输出生成或编辑后的图像。它本身不是面向某类用户交付结果的产品，具体流程与交付仍待核验。
+summary_zh: Qwen-Image-2.1 是 Qwen 发布的图像生成与编辑模型，支持文生图以及基于最多 10 张参考图的编辑，官方博客与多个演示页同日上线。
 inspiration: ''
-summary_en: Qwen-Image-2.1 is an image generation and editing model; public demo spaces show it accepts
-  text prompts and up to 10 reference images and returns generated or edited images. It is not itself
-  a product delivering results to a specific user group, and its concrete workflow and delivery remain
-  unverified.
+summary_en: Qwen-Image-2.1 is an image generation and editing model released by Qwen, supporting text-to-image
+  and editing conditioned on up to 10 reference images, with an official blog and several demo pages launched
+  the same day.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -24,7 +23,7 @@ canonical_url: https://huggingface.co/spaces/baka999/qwen-image-2.1
 summary: Qwen-Image-2.1 T2I & 10-Image Reference Editing
 first_seen: '2026-09-20T14:51:46Z'
 last_seen: '2026-09-27T00:36:20Z'
-status: pending_filter
+status: market_context
 sources:
 - huggingface
 - hackernews

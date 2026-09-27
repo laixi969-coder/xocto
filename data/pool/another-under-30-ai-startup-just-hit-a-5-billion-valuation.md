@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQOHVTZ3FiQW9H
 summary: Another Under 30 AI Startup Just Hit A $5 Billion Valuation Forbes
 first_seen: '2026-09-25T12:00:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

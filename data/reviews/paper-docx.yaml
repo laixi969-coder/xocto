@@ -1,0 +1,44 @@
+- id: req-initial-paper-docx-2026-09-27
+  project_slug: paper-docx
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决自动生成 DOCX 易损坏、需人工修复的问题，痛点具体；但失败率降低 78% 只有自述，缺少可复现的对照说明。
+    evidence_ids:
+    - ev-74471661950d3dbe
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论极少，没有用户反馈或采用案例，无法判断文档生成方是否真的会为此更换底层库。
+    evidence_ids:
+    - ev-74471661950d3dbe
+    - ev-24507f279ab6de8f
+  - gate: model
+    status: insufficient
+    reason: 开源库本身不直接收费，可能的付费路径是托管服务或企业支持，公开材料未披露任何定价或商业安排，属判断而非事实。
+    evidence_ids:
+    - ev-74471661950d3dbe
+  - gate: truth
+    status: insufficient
+    reason: 未说明失败如何定义、在哪些文档类型上测试，也未给出安全或人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-74471661950d3dbe
+  next_validation: 收集该仓库的 issue、discussion 与提交记录，核对是否有可复现的 DOCX 失败率对比或第三方实测。
+  market: ''
+  job: 后端或自动化工程师在批量生成合同、报告等 DOCX 文件时，调用文档库写入内容并处理格式异常。
+  job_en: Backend or automation engineers generating DOCX contracts and reports in bulk, calling a document
+    library to write content and handle formatting errors.
+  pain: 自动生成的 Word 文件经常损坏或格式错乱，需要人工逐个打开修复，批量场景下返工成本高。
+  pain_en: Auto-generated Word files often break or lose formatting, requiring manual repair file by file,
+    which is costly at batch scale.
+  current_alternative: 继续使用 Python-docx 原库，或改用模板引擎、商业文档生成服务，并靠人工抽查修复。
+  current_alternative_en: Continuing with the original Python-docx, or switching to template engines and
+    commercial document-generation services, with manual spot-checking and repair.
+  usage_reason: 推断：它通过替换底层写入逻辑来减少损坏文件，从而省去逐份人工修复这一步，因此批量产出文档的工程团队可能试用；但公开材料没有失败率测法、用户反馈或留存证据，无法确认这一改善是否稳定复现。
+  usage_reason_en: 'Inference: it reduces broken files by replacing the underlying write logic, removing
+    the manual repair step, so engineering teams producing documents in bulk may try it; however the public
+    material offers no failure-rate method, user feedback or retention evidence, so the improvement cannot
+    be confirmed as reproducible.'

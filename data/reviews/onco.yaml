@@ -290,3 +290,47 @@
     institutions, and people into one cited page each and offering a JSON API, MCP server, and CLI, so
     oncologists, clinical researchers, and pharma intelligence staff who need programmatic access or a
     quick entity-level overview would choose it when looking up a cancer type or target.'
+- id: req-initial-onco-2026-09-27
+  project_slug: onco
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决肿瘤专科信息分散、引用难核的问题，痛点具体且不采用的代价是可核对性下降；买方尚不明确，属结构上成立的工作流推理。
+    evidence_ids:
+    - ev-13cd294e5d714f82
+  - gate: consensus
+    status: insufficient
+    reason: 仅有约187个收藏与31次复刻的社区关注度，缺少用户评价、客户案例或持续采用证据，无法判断共识是否形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费方或采购路径，钱可能来自药企医学事务、研究机构或开发者订阅，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 条目是否贴近临床与研发的第一性目标、引用是否可确定性交付、人工复核边界如何划分，公开材料均未说明。
+    evidence_ids: []
+  next_validation: 收集 OnCo 官方定价页或部署文档，确认其条目引用来源、人工复核流程与付费方式。
+  market: ''
+  job: 肿瘤科医生、临床研究者或药企医学事务人员在核对某个癌种的疗法、靶点或试验时，需要把散在文献、试验登记与机构页面里的材料整理成可引用的条目。
+  job_en: An oncologist, clinical researcher or pharma medical affairs staffer checking a cancer type's
+    treatments, targets or trials needs scattered papers, trial registries and institution pages turned
+    into citable entries.
+  pain: 现有资料分散在文献、登记库与机构页面，格式不一且缺少统一引用，人工逐条核对耗时，且难以确认某条疗法或靶点信息的出处。
+  pain_en: Material is scattered across papers, registries and institution pages in inconsistent formats
+    without unified citations, so manual cross-checking is slow and the provenance of a treatment or target
+    claim is hard to confirm.
+  current_alternative: 旧做法是人工检索 PubMed、临床试验登记库与机构官网，再手工摘录整理成表格或笔记，或依赖通用搜索引擎与通用聊天助手给出无引用的概述。
+  current_alternative_en: The old way is manually searching PubMed, trial registries and institution sites
+    and hand-extracting notes or tables, or relying on general search and chat assistants for uncited
+    summaries.
+  usage_reason: 相较人工逐库检索与通用助手无引用概述，它把每个癌种、疗法、靶点、试验整理成固定结构的一页并保留引用，用户可直接取用条目或经 API、MCP、命令行接入自己的流程，减少从零摘录与核对出处这一步；这是基于产品能力与任务结构的推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with manual multi-database searching and uncited general-assistant summaries,
+    it fixes each cancer, treatment, target and trial into one structured, cited page that users can take
+    directly or wire into their own workflow via API, MCP or CLI, removing the step of extracting and
+    sourcing from scratch; this is inference from product capability and task structure, with no user
+    feedback or retention evidence yet.

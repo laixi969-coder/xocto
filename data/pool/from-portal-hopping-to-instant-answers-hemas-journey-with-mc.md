@@ -29,7 +29,7 @@ summary: HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping in
   and security anchored in Microsoft Entra ID.
 first_seen: '2026-09-23T18:41:09Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 - newssearch

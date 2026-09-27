@@ -1,6 +1,6 @@
 ---
 slug: 73-strings-buys-callisto-to-build-up-private-markets-automat
-name: 73 Strings buys Callisto to build up private markets automation
+name: 73 Strings
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOUzRueEE0NHg2
 summary: 73 Strings buys Callisto to build up private markets automation Alternatives Watch
 first_seen: '2026-09-24T23:23:54Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 73 Strings buys Callisto to build up private markets automation
+# 73 Strings
 
 73 Strings buys Callisto to build up private markets automation Alternatives Watch
 

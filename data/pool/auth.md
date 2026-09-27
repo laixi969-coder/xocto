@@ -23,7 +23,7 @@ summary: "美国 ip 网页能打开，但是登录不上,这个页面打不开�
   \ gmail 账号，打开是登录 gmail,感觉不安全就没有登录，推出了\r\n2 、手机用美 ip ，用 gmail 注册后就是进入 waitlist 。"
 first_seen: '2026-09-27T00:11:29Z'
 last_seen: '2026-09-27T00:36:14Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

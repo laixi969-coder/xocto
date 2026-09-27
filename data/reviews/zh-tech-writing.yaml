@@ -1,0 +1,45 @@
+- id: req-initial-zh-tech-writing-2026-09-27
+  project_slug: zh-tech-writing
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档写作中风格不统一、AI 腔重的问题，旧做法是人工逐句改写，痛点具体且反复出现。
+    evidence_ids:
+    - ev-63bfde74eb8b40c8
+    - ev-6c79b2a8bdbae4e2
+  - gate: consensus
+    status: insufficient
+    reason: 星数从 198 增至 278 说明关注度上升，但收藏与星标不等于持续采用，缺少使用反馈。
+    evidence_ids:
+    - ev-63bfde74eb8b40c8
+    - ev-6c79b2a8bdbae4e2
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未见定价或付费路径；是否有人愿为定制规范包付费属判断，不是已验证事实。
+    evidence_ids:
+    - ev-6c79b2a8bdbae4e2
+  - gate: truth
+    status: insufficient
+    reason: 规范本身可核对，但改写结果的事实与术语正确性仍需人工确认，公开材料未说明审校环节。
+    evidence_ids:
+    - ev-63bfde74eb8b40c8
+  next_validation: 收集该仓库的 issue 与使用讨论，确认是否有团队将其纳入日常文档流程并报告重复使用。
+  market: ''
+  job: 技术写作者或开发者关系人员在维护中文说明、教程与 API 文档时，需要把草稿改成符合团队中文写作规范的文本。
+  job_en: Technical writers or developer relations staff maintaining Chinese guides, tutorials and API
+    docs need to turn drafts into text that matches their team's Chinese writing conventions.
+  pain: 模型生成的中文技术文档常有翻译腔和空话，人工逐句改写耗时，团队规范又难以口头传达一致。
+  pain_en: Model-generated Chinese technical docs often read like translations full of filler, line-by-line
+    rewriting is slow, and team conventions are hard to convey consistently.
+  current_alternative: 人工按内部规范逐句改写，或反复在提示词里粘贴写作要求。
+  current_alternative_en: Rewriting sentence by sentence against internal guidelines, or repeatedly pasting
+    writing requirements into prompts.
+  usage_reason: 推断：它把成文的写作规范固化成 agent 可直接调用的规则，省掉了每次重新描述风格要求这一步，因此需要批量产出中文文档、又要求口径统一的团队会在写作环节选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it fixes a written style guide into rules an agent can call directly, removing
+    the step of re-describing style requirements each time, so teams producing Chinese documentation at
+    volume with a consistent voice may choose it in their writing step; there is no retention or repeat-use
+    evidence yet.'

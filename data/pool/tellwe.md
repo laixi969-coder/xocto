@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/tellwe
 summary: Your coffee cup tells its story.
 first_seen: '2026-09-25T05:54:02Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

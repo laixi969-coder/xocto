@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/497382.html
 summary: 还把「密钥」叫战利品
 first_seen: '2026-09-26T07:04:15Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

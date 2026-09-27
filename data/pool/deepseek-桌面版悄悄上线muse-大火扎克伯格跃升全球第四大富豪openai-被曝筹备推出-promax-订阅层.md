@@ -1,11 +1,16 @@
 ---
 slug: deepseek-桌面版悄悄上线muse-大火扎克伯格跃升全球第四大富豪openai-被曝筹备推出-promax-订阅层
-name: Deepseek 桌面版悄悄上线；Muse 大火，扎克伯格跃升全球第四大富豪；OpenAI 被曝筹备推出 ProMax 订阅层级，月费或达 500-600 美元
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一条算力供给侧的长期采购协议，不是独立产品：Anthropic 通过 7 年 116 亿美元合同锁定 Akamai 的分布式 CPU 算力，Akamai 为此增加 55 亿美元资本支出。对
+  AI 应用方而言，可核验的影响是推理与训练算力被长期合约提前占用，中小开发者的单位算力成本与可获得性可能受挤压（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a long-term compute supply agreement rather than a standalone product: Anthropic
+  locks in Akamai''s distributed CPU capacity through a seven-year, $11.6 billion contract, and Akamai
+  adds $5.5 billion in capital expenditure for it. For AI application builders, the verifiable implication
+  is that inference and training capacity is being reserved years ahead by contract, which may squeeze
+  unit compute cost and availability for smaller developers (inference).'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -97,7 +102,7 @@ summary: "Anthropic 与 Akamai 达成 7 年 116 亿美元协议，扩充 CPU 算
   \ AI 数据使用和 AI 智能体权限之间的复杂关系。传统的数据隐私政策通常能够比较明确地描述公司如何收集、存储和使用用户数据，但当 AI 系统本身拥有自主执行任务的能力后，模型在研究环境中究竟会采取哪些行动，也成为新的风险来源。（来源：cnBeta）"
 first_seen: '2026-09-26T00:45:21Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -108,7 +113,7 @@ sightings:
   kind: news
 ---
 
-# Deepseek 桌面版悄悄上线；Muse 大火，扎克伯格跃升全球第四大富豪；OpenAI 被曝筹备推出 ProMax 订阅层级，月费或达 500-600 美元
+# Anthropic
 
 Anthropic 与 Akamai 达成 7 年 116 亿美元协议，扩充 CPU 算力 
  9 月 26 日消息，云计算、网络安全、内容交付企业 Akamai 当地时间 24 日宣布大幅扩展与 Anthropic 的合作关系，两家公司签署了一份为期 7 年、价值 116 亿美元（现汇率约合 779.2 亿元人民币）的合同。 

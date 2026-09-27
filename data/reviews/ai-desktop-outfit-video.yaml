@@ -1,0 +1,43 @@
+- id: req-initial-ai-desktop-outfit-video-2026-09-27
+  project_slug: ai-desktop-outfit-video
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是同格式短视频批量产出时提示词试错和后期剪辑的负担，旧流程和交付物都能说清，属工作流推理。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有约 40 星标，没有创作者采用、复用或成片被实际发布的证据。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或收费方式，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+  - gate: truth
+    status: insufficient
+    reason: 成片是否稳定达到可发布质量、是否依赖特定视频工具版本，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+  next_validation: 收集该仓库的 issue / discussion 或使用者的成片案例，核对模板产出的成片是否被实际发布并重复使用。
+  market: ''
+  job: 短视频创作者或内容运营在需要按同一机位、同一节奏批量产出「桌面换装」类成片时，处理一句创意想法和参考画面，要完成的是拿到可直接发布的 30 秒带对白字幕的成片。
+  job_en: A short-video creator or content operator who must batch-produce 'desktop outfit-change' clips
+    with the same camera position and rhythm takes a one-line idea and reference visuals and needs a publishable
+    30-second clip with dialogue and subtitles.
+  pain: 这类格式对提示词措辞、机位和节奏要求很细，自己反复试错要花大量时间，且成片还要单独配音配字幕做后期。
+  pain_en: This format is sensitive to prompt wording, camera position and rhythm, so trial and error
+    is time-consuming, and the clip still needs separate voice-over, subtitles and editing.
+  current_alternative: 创作者目前靠手动写提示词、反复重生成，再用剪辑软件拼接和加字幕。
+  current_alternative_en: Creators currently hand-write prompts, regenerate repeatedly, then assemble
+    and subtitle in editing software.
+  usage_reason: 相较手动试错，它把已验证的提示词结构和反问补全流程固定下来，让创作者少走重写提示词这一步，并直接产出带对白字幕的成片；这是基于产品能力的推断，尚无用户反馈或复购证据。
+  usage_reason_en: Compared with manual trial and error, it fixes a validated prompt structure and an
+    interview step, removing the prompt-rewriting loop and delivering a clip with dialogue and subtitles;
+    this is inference from product capability, with no user feedback or repeat-use evidence yet.

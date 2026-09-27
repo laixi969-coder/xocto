@@ -3,11 +3,10 @@ slug: exclusive-samsung-nvidia-asml-and-scaleup-fund-back-mistral
 name: Mistral AI
 builder: kuberwastaken
 category: ''
-summary_zh: Mistral AI 是法国基础模型厂商，本轮新增事实是约30亿欧元 D 轮融资、估值超210亿欧元，以及与 Cloudera 的企业集成和收购 Pimento。这些是资本与生态层面的变化，不是新的独立应用产品。
+summary_zh: Mistral AI 是法国模型厂商，本轮新增事实集中在融资、并购与生态合作层面，属于模型供给侧变化，而非某个垂直工作流被重做的独立产品。
 inspiration: ''
-summary_en: Mistral AI is a French foundation-model vendor; the new facts are a roughly €3B Series D,
-  a valuation above €21B, a Cloudera enterprise integration and the Pimento acquisition. These are capital
-  and ecosystem changes, not a new standalone application product.
+summary_en: Mistral AI is a French model vendor; this round's new facts are financing, M&A and ecosystem
+  partnerships, i.e. supply-side model changes rather than a standalone product reworking a vertical workflow.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ canonical_url: https://sifted.eu/articles/mistral-series-d-samsung-nvidia-asml
 summary: French AI startup Mistral valued at over 21 billion euros after latest funding France 24
 first_seen: '2026-09-02T15:00:33Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews

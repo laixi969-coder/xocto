@@ -25,7 +25,7 @@ summary: '#MCStartupConlave | 🚨 "The government has approved a plan called Go
   to Karnataka government, said, "Government being LinkedIn'
 first_seen: '2026-09-26T11:45:07Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

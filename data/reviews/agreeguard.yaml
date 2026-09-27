@@ -1,0 +1,44 @@
+- id: req-initial-agreeguard-2026-09-27
+  project_slug: agreeguard
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是同意前看不懂条款、事后才发现数据授权或自动续费的问题，痛点刚性中等；旧行为是直接点同意或粘进通用助手，结构上成立，但公开材料未给出输出样例。
+    evidence_ids:
+    - ev-b8e430a8130d34b5
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条发布描述，没有用户评价、客户案例或采用规模，无法判断是否有人把它放进日常流程；卡在场景感知环节。
+    evidence_ids:
+    - ev-b8e430a8130d34b5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅、企业合规采购或按次收费都只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-b8e430a8130d34b5
+  - gate: truth
+    status: insufficient
+    reason: 条款解析的准确性与人工复核边界未说明，误判可能带来合规风险，公开材料不足以确认交付确定性。
+    evidence_ids:
+    - ev-b8e430a8130d34b5
+  next_validation: 收集 AgreeGuard 官方定价页或公开条款解析样例，核验其输出形式、计价方式与是否有人重复使用。
+  market: ''
+  job: 普通消费者在注册新应用或订阅服务、面对冗长的服务条款与隐私政策时，需要判断哪些条款涉及数据授权、自动续费或权利让渡，再决定是否同意。
+  job_en: An ordinary consumer signing up for a new app or subscription, facing long terms of service
+    and privacy policies, needs to judge which clauses cover data consent, auto-renewal or rights waivers
+    before agreeing.
+  pain: 条款文本长且用词晦涩，用户通常直接点同意，事后才发现数据被共享或自动续费；不读的代价在扣费和隐私暴露时才显现。
+  pain_en: Terms text is long and opaque, so users usually just click agree and only later discover data
+    sharing or auto-renewal; the cost of not reading shows up at billing or privacy exposure.
+  current_alternative: 直接点同意、凭感觉跳过，或偶尔把条款粘进通用聊天助手问一句，再或者付费请律师看，后者对个人用户成本过高。
+  current_alternative_en: Clicking agree and skipping on instinct, occasionally pasting clauses into a
+    general chat assistant, or paying a lawyer, which is too costly for individual users.
+  usage_reason: 相较直接点同意或把条款丢给通用助手，它把条款解析固定成一个专门动作，直接标出数据授权、自动续费与权利让渡条款，省去用户自己判断哪一段重要的步骤；推断，注册频繁或对隐私敏感的用户会在同意前使用它，但公开材料未显示留存或复购。
+  usage_reason_en: Compared with clicking agree or dropping clauses into a general assistant, it fixes
+    clause parsing into a dedicated action that flags data-consent, auto-renewal and rights-waiver clauses,
+    removing the step where users decide which passage matters; this is inference, and public material
+    shows no retention or repeat use.

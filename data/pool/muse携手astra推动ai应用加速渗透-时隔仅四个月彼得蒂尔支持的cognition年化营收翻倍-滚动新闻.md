@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JTGVSdlh4c2VB
 summary: Muse携手Astra推动AI应用加速渗透! 时隔仅四个月，彼得·蒂尔支持的Cognition年化营收翻倍_滚动新闻 证券之星
 first_seen: '2026-09-26T03:12:22Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,43 @@
+- id: req-initial-watch-2026-09-27
+  project_slug: watch
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决攀岩动作复盘缺少三维记录、依赖肉眼判断的问题，痛点具体；但演示未说明分析精度与可用性。
+    evidence_ids:
+    - ev-4dd5d5e5b5981381
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条演示视频和少量讨论，没有教练或攀岩馆的采用反馈，无法判断是否形成共识场景。
+    evidence_ids:
+    - ev-4dd5d5e5b5981381
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、发布渠道或买方，付费方可能是攀岩馆或教练，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4dd5d5e5b5981381
+  - gate: truth
+    status: insufficient
+    reason: 未说明三维数据如何转化为可执行的动作结论，也未交代人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-4dd5d5e5b5981381
+  next_validation: 查找该工具的公开产品页或应用商店条目，核对是否有定价、教练客户案例或可复现的动作分析示例。
+  market: ''
+  job: 攀岩教练或进阶攀岩者在训练后复盘动作时，用手机扫描岩壁与攀爬路线，判断身体姿态和发力问题。
+  job_en: Climbing coaches or advanced climbers reviewing a session, scanning the wall and route with
+    a phone to judge body posture and force application.
+  pain: 攀岩动作复盘通常靠教练肉眼观察和口头描述，缺少可回看的三维记录，问题定位依赖经验。
+  pain_en: Climbing review usually relies on a coach's naked-eye observation and verbal description, lacking
+    a reviewable 3D record, so problem diagnosis depends on experience.
+  current_alternative: 用手机拍视频回放、教练现场口头纠正，或使用价格较高的专业动作捕捉设备。
+  current_alternative_en: Reviewing phone video, on-site verbal correction by a coach, or expensive professional
+    motion-capture equipment.
+  usage_reason: 推断：它用手机 LiDAR 直接生成三维动作记录，省去架设专业设备这一步，因此攀岩馆或教练可能愿意试用；但公开材料只有演示视频，没有教练反馈、付费或重复使用证据，无法确认它会被纳入日常训练流程。
+  usage_reason_en: 'Inference: it generates a 3D motion record directly from the phone LiDAR, removing
+    the need to set up professional equipment, so climbing gyms or coaches may try it; but the public
+    material is only a demo video, with no coach feedback, payment or repeat-use evidence, so adoption
+    into routine training cannot be confirmed.'

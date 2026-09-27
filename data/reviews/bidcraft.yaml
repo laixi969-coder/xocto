@@ -1,0 +1,46 @@
+- id: req-initial-bidcraft-2026-09-27
+  project_slug: bidcraft
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决技术标编制中逐条比对招标文件、重复套用历史标书的痛点，漏项即废标，旧做法与不解决的后果都能说清。
+    evidence_ids:
+    - ev-8bdc734dce73c665
+    - ev-e8c9e759cefa2326
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 47 增至 60，属关注度信号；尚无客户案例或投标人员持续使用的公开证据。
+    evidence_ids:
+    - ev-8bdc734dce73c665
+    - ev-e8c9e759cefa2326
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价或买方付费路径，钱可能来自企业自建或服务商，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-8bdc734dce73c665
+  - gate: truth
+    status: insufficient
+    reason: 标书条款对齐与废标风险要求人工复核，公开材料未说明人工确认边界与交付确定性。
+    evidence_ids:
+    - ev-8bdc734dce73c665
+  next_validation: 收集该仓库的 README、issue 与示例输出，核对招标文件解析与标段选择的实际交付结果及人工复核环节。
+  market: ''
+  job: 建筑或工程公司的投标专员在拿到招标文件后，处理招标文件与公司知识库材料，要完成技术标的编写与改稿，产出可提交的标书草稿。
+  job_en: A bid specialist at a construction or engineering firm, after receiving a tender file, works
+    with the tender and the company knowledge base to draft and revise the technical proposal, producing
+    a submittable bid draft.
+  pain: 技术标编制依赖人工逐条比对招标文件、反复套用历史标书，耗时长且漏项会导致废标，这是投标环节代价最高的一步。
+  pain_en: Technical proposals are written by manually matching tender clauses and reusing past bids;
+    it is slow, and any missed requirement can disqualify the bid, making it the costliest step in tendering.
+  current_alternative: 现有做法是投标人员用 Word 手工拼装历史标书模板，或购买商业标书软件与外包代写服务。
+  current_alternative_en: The current practice is manually assembling past bid templates in Word, or buying
+    commercial bid software and outsourced writing services.
+  usage_reason: 推断：相较手工套模板，它把招标文件解析、标段选择、知识库提炼和对话式改稿串成一条流程，减少逐条比对与重复搬运历史文本的步骤，因此投标量大、废标代价高的工程公司投标人员会尝试它。
+  usage_reason_en: 'Inference: versus manually reusing templates, it chains tender parsing, lot selection,
+    knowledge-base distillation and conversational revision into one flow, cutting the step of clause-by-clause
+    matching and re-copying past text, so bid staff at engineering firms with high bid volume and costly
+    disqualification would try it.'

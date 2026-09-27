@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQbFhZNkpJTV9T
 summary: The ethics of AI Thomson Reuters
 first_seen: '2026-09-24T07:00:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

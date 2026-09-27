@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0pyRm11cVVT
 summary: Jev Fervor Leads to Talk of Big Valuation Boost The Information
 first_seen: '2026-09-24T18:42:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

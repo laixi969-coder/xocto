@@ -1,6 +1,6 @@
 ---
 slug: worlds-first-dyson-ai-toothbrush-vanishes-after-user-complai
-name: World’s first Dyson AI toothbrush vanishes after user complaints
+name: Dyson AI toothbrush
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNSTZmWmVsQUVE
 summary: World’s first Dyson AI toothbrush vanishes after user complaints Bol News
 first_seen: '2026-09-26T20:07:58Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# World’s first Dyson AI toothbrush vanishes after user complaints
+# Dyson AI toothbrush
 
 World’s first Dyson AI toothbrush vanishes after user complaints Bol News
 

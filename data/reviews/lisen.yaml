@@ -1,0 +1,45 @@
+- id: req-initial-lisen-2026-09-27
+  project_slug: lisen
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把长文本转为可听内容的需求，痛点是通勤、家务或校对时无法用眼阅读，旧做法是系统朗读或自己录音，结构上成立。
+    evidence_ids:
+    - ev-e2c9808ec4b76b7e
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何用户评价、使用量或社区讨论，无法判断是否有人持续使用，仅能确认产品已发布。
+    evidence_ids:
+    - ev-e2c9808ec4b76b7e
+  - gate: model
+    status: insufficient
+    reason: 标注为免费，未披露定价页或付费路径，买方是个人订阅还是教育机构采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e2c9808ec4b76b7e
+  - gate: truth
+    status: insufficient
+    reason: 未说明朗读准确度、长文处理上限与人工校对边界，交付是否稳定无法核对。
+    evidence_ids:
+    - ev-e2c9808ec4b76b7e
+  next_validation: 收集该产品的官方定价页或用户评价，确认是否存在付费档位以及长文本朗读的实际使用反馈。
+  market: ''
+  job: 学生、语言学习者或编辑在需要把长文本转为可听内容时，把文档或文本交给 Lisen，用 Cartesia 语音朗读，完成听读、跟读或听校任务。
+  job_en: A student, language learner or editor who needs long text turned into audio hands documents
+    or text to Lisen, which reads them with Cartesia voices, to complete listening, shadowing or audio
+    proofreading.
+  pain: 长文本只能靠眼睛读，通勤、做家务或校对时无法进行；旧做法要么自己朗读录音，要么使用机械感强的系统语音，听感差且不便。
+  pain_en: Long text can only be read visually, so it cannot be consumed while commuting, doing chores
+    or proofreading; the old way is to record oneself or use robotic system voices that sound poor and
+    are inconvenient.
+  current_alternative: 系统自带朗读、浏览器朗读插件或人工录音，通常音色机械、缺少自然停顿，长文处理也不方便。
+  current_alternative_en: Built-in OS or browser read-aloud, or recording oneself, usually with robotic
+    voices, poor pacing and awkward handling of long documents.
+  usage_reason: 相较系统朗读，它直接调用 Cartesia 语音生成更自然的朗读音频，减少用户自己录音或忍受机械音这一步；推断语言学习者和需要听校的编辑会在长文本场景下选择它，但尚无用户反馈或留存证据支持。
+  usage_reason_en: Compared with system read-aloud, it calls Cartesia voices to produce more natural narration,
+    removing the step of recording oneself or tolerating robotic audio; the inference is that language
+    learners and editors needing audio proofreading would pick it for long texts, but no user feedback
+    or retention evidence supports this yet.

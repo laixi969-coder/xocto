@@ -21,7 +21,7 @@ canonical_url: https://tui2web.com
 summary: use any TUI on the web
 first_seen: '2026-09-25T16:22:08Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

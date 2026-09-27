@@ -1,0 +1,44 @@
+- id: req-initial-guardrail-2026-09-27
+  project_slug: guardrail
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成改动未经审查就推送到主分支的需求，痛点是不受控推送带来的回滚成本，旧做法依赖分支规则或人的自觉。
+    evidence_ids:
+    - ev-5e486da77445cde3
+    - ev-546fe469ef147dc8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论与一篇独立报道，没有采用规模或团队持续使用的证据。
+    evidence_ids:
+    - ev-5e486da77445cde3
+    - ev-546fe469ef147dc8
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是团队自建或后续商业版本，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5e486da77445cde3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对拦截规则是否可配置、是否会误拦正常推送，也未说明人工放行的边界。
+    evidence_ids:
+    - ev-5e486da77445cde3
+  next_validation: 查看 GuardRail 仓库的 issue 与 discussion，确认拦截规则的可配置程度、误拦反馈及是否有团队在生产仓库持续使用。
+  market: ''
+  job: 使用 Claude Code 的开发者在本机完成改动、准备提交时，处理 AI 生成的代码差异，要完成一次不会直接落到 main 分支的推送。
+  job_en: A developer using Claude Code, having finished local changes and about to commit, handles AI-generated
+    diffs to complete a push that will not land directly on main.
+  pain: AI 生成的改动可能未经审查就被推送到主分支，事后回滚成本高；公开材料未给出用户抱怨或事故数据。
+  pain_en: AI-generated changes can be pushed to the main branch without review, and rolling back afterwards
+    is costly; the public material provides no user complaints or incident data.
+  current_alternative: 靠分支保护规则、人工 code review，或开发者自己记得不要直接推 main。
+  current_alternative_en: Relying on branch protection rules, manual code review, or the developer remembering
+    not to push to main directly.
+  usage_reason: 推断：它把检查放在推送动作发生之前，用 shell 守卫直接拦下命令，省去事后回滚或依赖人记得遵守流程这一步，因此把 AI 编码接入生产仓库的团队会在本地提交环节选择它。
+  usage_reason_en: 'Inference: it places the check before the push happens and blocks the command via
+    shell guards, removing the need to roll back afterwards or rely on people remembering the process,
+    so teams bringing AI coding into production repositories would choose it at the local commit step.'

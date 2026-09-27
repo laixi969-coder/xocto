@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/safety-in-numbness
 summary: On originality, intellectual bravery and why disagreeing with LLMs is a good sign
 first_seen: '2026-09-26T06:49:41Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

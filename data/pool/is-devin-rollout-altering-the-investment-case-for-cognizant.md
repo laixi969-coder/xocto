@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcFZXdm55SWNO
 summary: Is Devin Rollout Altering The Investment Case For Cognizant Stock (CTSH)? simplywall.st
 first_seen: '2026-09-26T10:42:33Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

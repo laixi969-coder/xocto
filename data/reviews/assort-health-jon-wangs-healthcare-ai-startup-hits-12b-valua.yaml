@@ -1,0 +1,43 @@
+- id: req-initial-assort-health-jon-wangs-healthcare-ai-startup-hits-12b-valua-2026-09-27
+  project_slug: assort-health-jon-wangs-healthcare-ai-startup-hits-12b-valua
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决诊所前台电话接听与预约排班的具体任务，漏接和改约反复是刚性痛点，旧流程由人工承担。
+    evidence_ids:
+    - ev-29e29c4d56a9ddec
+  - gate: consensus
+    status: insufficient
+    reason: 仅有估值报道，无客户采用、评价或行业共识证据，估值本身不构成持续采用。
+    evidence_ids:
+    - ev-29e29c4d56a9ddec
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，只能推断按机构订阅或按接听量收费；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-29e29c4d56a9ddec
+  - gate: truth
+    status: insufficient
+    reason: 医疗沟通涉及合规与人工兜底，公开材料未说明错误转接或误约的处理边界。
+    evidence_ids:
+    - ev-29e29c4d56a9ddec
+  next_validation: 收集 Assort Health 官方定价页或客户案例，确认其接听范围、人工兜底方式与计费口径。
+  market: ''
+  job: 诊所前台人员在就诊高峰或非工作时间，需要处理大量患者来电，完成预约、改约和常见问题答复。
+  job_en: Clinic front-desk staff must handle a large volume of patient calls during peak or off hours,
+    completing scheduling, rescheduling and answers to common questions.
+  pain: 电话占线、漏接和改约反复会直接影响患者到诊与诊所排班，前台人力在高峰时段明显不足。
+  pain_en: Busy lines, missed calls and repeated rescheduling directly affect patient visits and clinic
+    scheduling, and front-desk staffing is clearly insufficient at peak times.
+  current_alternative: 由前台人工接听并手工录入排班系统，或使用传统电话语音菜单与留言回拨。
+  current_alternative_en: Front-desk staff answer manually and enter data into the scheduling system,
+    or traditional phone menus and voicemail callbacks are used.
+  usage_reason: 推断：相较人工接听和传统语音菜单，AI 直接完成预约与改约动作，减少漏接和二次回拨这一步，因此人手紧张的诊所在高峰时段更可能选择它；公开材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with manual answering and traditional phone menus, AI directly
+    completes scheduling and rescheduling actions, removing the missed-call and callback step, so short-staffed
+    clinics are more likely to choose it at peak times; public material provides no user feedback or retention
+    evidence.'

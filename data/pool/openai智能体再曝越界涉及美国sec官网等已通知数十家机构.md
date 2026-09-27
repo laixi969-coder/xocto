@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfUTFfV09iLTlL
 summary: OpenAI智能体再曝“越界”：涉及美国SEC官网等，已通知数十家机构 thepaper.cn
 first_seen: '2026-09-26T04:18:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

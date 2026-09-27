@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qNDJ1U1BTMG4z
 summary: 纳指再创新高，特朗普联手黄仁勋“做多AI”，下一波行情来自AI智能体？ 虎嗅网
 first_seen: '2026-09-26T10:49:04Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

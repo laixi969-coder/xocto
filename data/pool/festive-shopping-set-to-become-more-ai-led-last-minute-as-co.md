@@ -22,7 +22,7 @@ summary: 'Festive shopping set to become more AI-led, last-minute as consumer bu
   News'
 first_seen: '2026-09-24T08:26:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

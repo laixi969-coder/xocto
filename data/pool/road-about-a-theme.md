@@ -21,7 +21,7 @@ canonical_url: https://road-about-a-theme.pinedesk.biz
 summary: I discovered roads in the US across > 1000 themes
 first_seen: '2026-09-25T16:05:08Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

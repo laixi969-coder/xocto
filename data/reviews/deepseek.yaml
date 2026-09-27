@@ -244,3 +244,47 @@
     into one conversational action, removing the filtering and stitching step; compared with self-hosting,
     API calls remove compute and deployment work. Inference: individuals and teams producing text or code
     frequently without wanting to run infrastructure will choose it for this reason.'
+- id: req-initial-deepseek-2026-09-27
+  project_slug: deepseek
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决写作、编程与资料问答任务中从提问到可用初稿的需求，痛点是旧流程需自行检索与拼凑，替代行为明确存在。
+    evidence_ids:
+    - ev-0a32e73b7d35f7bb
+  - gate: consensus
+    status: supported
+    reason: 年化收入运行速率达十亿美元说明已有规模化付费共识，但月访问量环比下降 10.59% 提示关注度并非单向上升。
+    evidence_ids:
+    - ev-0a32e73b7d35f7bb
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出年化收入运行速率，未披露定价页、付费方构成与交付成本，钱从哪一方来仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-0a32e73b7d35f7bb
+  - gate: truth
+    status: insufficient
+    reason: 对话式交付的确定性与人工复核边界未在公开材料中说明，安全与人工边界缺少可核对依据。
+    evidence_ids:
+    - ev-0a32e73b7d35f7bb
+  next_validation: 收集 DeepSeek 官方定价页或 API 计费文档，核验其收费方式与付费方构成。
+  market: ''
+  job: 个人用户和开发者遇到写作、编程或资料问答任务时，打开对话界面输入问题或材料，需要拿到可直接使用的文本、代码或解释。
+  job_en: When facing writing, coding or document Q&A tasks, individuals and developers open the chat
+    interface, input a question or material, and need usable text, code or explanation.
+  pain: 过去这类任务要么自己查资料、翻文档、逐段写，要么在多个工具间切换，耗时且质量不稳定；用户需要一个能直接给出可用初稿的入口。
+  pain_en: Previously such tasks meant searching references, reading docs and writing section by section,
+    or switching among tools, which is slow and uneven in quality; users want an entry point that returns
+    a usable first draft.
+  current_alternative: 搜索引擎加人工整理、通用办公软件手写，或使用其他对话式助手。
+  current_alternative_en: Search engines plus manual collation, hand-writing in general office software,
+    or other conversational assistants.
+  usage_reason: 相较搜索加人工整理，它把提问到初稿的中间步骤压缩为一次对话，用户不必先自己拼凑资料；推断这类用户会在需要快速拿到可用文本或代码初稿时选择它，但公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with search plus manual collation, it compresses the steps between question
+    and first draft into one conversation, so users need not assemble material themselves first; inference
+    is that such users choose it when they need a usable text or code draft quickly, though no retention
+    or repeat-purchase evidence is public.

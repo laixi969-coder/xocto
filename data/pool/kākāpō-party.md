@@ -51,7 +51,7 @@ summary: "Tool:   Kākāpō Party  \n         I gave presented a closing keynote
   \ ,  playwright ,  generative-ai ,  llms ,  anthropic ,  claude ,  claude-code"
 first_seen: '2026-09-26T23:39:06Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

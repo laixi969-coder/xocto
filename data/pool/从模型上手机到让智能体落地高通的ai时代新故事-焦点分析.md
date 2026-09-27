@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBwcUFITlBwWWRy
 summary: 从模型上手机到让智能体落地，高通的AI时代新故事｜焦点分析 36kr.com
 first_seen: '2026-09-26T00:33:33Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

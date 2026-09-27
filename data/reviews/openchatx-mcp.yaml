@@ -1,0 +1,48 @@
+- id: req-initial-openchatx-mcp-2026-09-27
+  project_slug: openchatx-mcp
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是聊天入口无法触达本机与私有模型、用户需手工搬运命令的痛点，旧流程与不采用的后果可还原，属工作流推理。
+    evidence_ids:
+    - ev-2371350bc0900b96
+    - ev-75ebab82be526e18
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从81增至131，属关注度信号，没有用户评价或采用案例说明它已进入日常工作流。
+    evidence_ids:
+    - ev-2371350bc0900b96
+    - ev-75ebab82be526e18
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是个人开发者或小团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2371350bc0900b96
+  - gate: truth
+    status: insufficient
+    reason: 本机操作涉及权限与安全边界，公开材料未说明沙箱、确认机制或人工复核环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-2371350bc0900b96
+  next_validation: 收集该仓库的 README 与 issue/discussion，核对本机操作的权限边界、人工确认机制与是否出现真实使用反馈。
+  market: ''
+  job: 个人开发者或小团队在使用 ChatGPT 处理需要本机文件、本地命令行或私有模型的任务时，希望模型直接在本机执行操作并把部分子任务交给自己部署的模型，最终拿到本机上的实际改动或工具输出。
+  job_en: Individual developers or small teams using ChatGPT for tasks that require local files, local
+    command line or private models want the model to act directly on their machine and hand some subtasks
+    to their own deployed models, ending up with actual local changes or tool output.
+  pain: 通用聊天入口只能给建议，用户要自己复制命令、切到终端执行、再把结果贴回去，多步手工搬运且私有数据不便外发。
+  pain_en: General chat entry points only give advice, so users must copy commands, switch to a terminal
+    to run them and paste results back, a multi-step manual relay that also makes private data awkward
+    to send out.
+  current_alternative: 手工复制粘贴命令到终端执行，或自行拼装多个 MCP 客户端与本地脚本，缺少一条把聊天入口、本机执行与自有模型串起来的连接。
+  current_alternative_en: Manually copying commands into a terminal, or assembling several MCP clients
+    and local scripts by hand, with no single connection linking the chat entry point, local execution
+    and the user's own models.
+  usage_reason: 相较手工搬运命令，它把本机操作、本地工具调用与自有模型委派收敛到一条 MCP 连接里，减少复制粘贴与切换窗口这一步，因此需要在本机跑私有任务又不想离开聊天入口的开发者会尝试它；这是基于产品能力的推断，尚无用户反馈支持。
+  usage_reason_en: Compared with manually relaying commands, it folds local operations, local tool calls
+    and delegation to the user's own models into one MCP connection, removing the copy-paste and window-switching
+    step, so developers who need to run private tasks locally without leaving the chat entry point would
+    try it; this is an inference from product capability, not supported by user feedback.

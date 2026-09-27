@@ -1,6 +1,6 @@
 ---
 slug: vercel-ai-ai-sdk-perplexity500
-name: 'vercel/ai: @ai-sdk/perplexity@5.0.0'
+name: '@ai-sdk/perplexity'
 builder: vercel
 category: ''
 summary_zh: ''
@@ -43,7 +43,7 @@ summary: '### Major Changes
   when a URL is fetched or annotated before it appears in search results.'
 first_seen: '2026-09-26T01:59:37Z'
 last_seen: '2026-09-27T00:36:20Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -55,7 +55,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/perplexity@5.0.0
+# @ai-sdk/perplexity
 
 ### Major Changes
 

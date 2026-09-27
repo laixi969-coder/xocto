@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/monzo-nubank-sale
 summary: ''
 first_seen: '2026-09-26T12:09:33Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

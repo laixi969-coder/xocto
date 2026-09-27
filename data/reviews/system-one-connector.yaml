@@ -1,0 +1,44 @@
+- id: req-initial-system-one-connector-2026-09-27
+  project_slug: system-one-connector
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理流程缺少快速低成本评估环节的问题，痛点方向可辨，但评估口径与结果如何使用未说明，价值结构不完整。
+    evidence_ids:
+    - ev-06d8d845566aaeb5
+    - ev-83c7f78a53254bdf
+  - gate: consensus
+    status: insufficient
+    reason: 星标从306升至314属关注度变化，不能证明开发者已把它接入持续运行的流程。
+    evidence_ids:
+    - ev-06d8d845566aaeb5
+    - ev-83c7f78a53254bdf
+  - gate: model
+    status: insufficient
+    reason: 开源连接器，未见定价或买方信息，付费路径无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-06d8d845566aaeb5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对评估结果是否可靠，也未说明评估出错时的人工边界。
+    evidence_ids:
+    - ev-83c7f78a53254bdf
+  next_validation: 收集该仓库的 issue 与 discussion，核对是否有团队报告在真实代理流程中重复调用该连接器。
+  market: ''
+  job: 开发者在代理流程中，把待评估的内容或模型输出交给外部模型，拿回一次快速评估结果，用于决定后续步骤。
+  job_en: Developers hand content or model output to an external model inside an agent flow and get back
+    a quick evaluation used to decide the next step.
+  pain: 代理流程里缺少廉价快速的评估环节，人工逐条判断成本高，或只能依赖昂贵的大模型调用。
+  pain_en: Agent flows lack a cheap, fast evaluation step; judging items by hand is costly, and the only
+    fallback is expensive large-model calls.
+  current_alternative: 开发者自行拼接模型 API，或让代理直接调用通用大模型做判断。
+  current_alternative_en: Developers stitch together model APIs themselves, or let the agent call a general
+    large model to make the judgment.
+  usage_reason: 推断：把评估模型封装成代理可直接调用的连接器，可减少自行拼接 API 与切换模型这一步；但公开材料没有客户案例或重复调用证据，无法确认已被长期使用。
+  usage_reason_en: 'Inference: wrapping evaluation models into a connector agents can call directly removes
+    the step of stitching APIs and switching models; public material has no customer cases or repeat-call
+    evidence, so sustained use cannot be confirmed.'

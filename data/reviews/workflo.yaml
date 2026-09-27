@@ -312,3 +312,43 @@
   usage_reason_en: 'Inference: if it truly automates locally without uploading screen content, users could
     skip manual step-by-step work or writing their own scripts; however, public material does not describe
     inputs, actions, or outputs, so which burden it removes versus the old approach cannot be confirmed.'
+- id: req-initial-workflo-2026-09-27
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决重复桌面操作耗时且不愿上传屏幕的痛点，旧行为是手工操作或本地脚本，结构上成立；但具体支持的应用与流程未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-0d1b2eb35594aad4
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 113 点与 35 条评论，说明存在关注，但没有采用规模或持续使用证据，无法判断共识是否形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页或买方，钱可能来自个人订阅或团队采购，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 本地不上传屏幕的承诺与自动化交付是否一致、人工确认边界如何设置，均缺少文档或实测材料支持。
+    evidence_ids: []
+  next_validation: 收集 Workflo 官方定价页或部署文档，确认其支持的应用范围、计价方式与人工确认边界。
+  market: ''
+  job: Mac 用户在日常工作中需要反复执行同一套桌面点击与输入操作，例如在多个后台系统间搬运数据或批量修改条目，希望这些步骤自动完成。
+  job_en: Mac users repeatedly perform the same desktop clicks and typing in daily work, such as moving
+    data between back-office systems or bulk-editing entries, and want these steps done automatically.
+  pain: 重复操作耗时且易出错，而把屏幕内容交给云端自动化工具又带来隐私顾虑，用户在两难之间只能继续手工操作。
+  pain_en: Repetitive operations are time-consuming and error-prone, while handing screen content to cloud
+    automation tools raises privacy concerns, leaving users to keep doing it manually.
+  current_alternative: 用户目前依靠手动重复操作，或使用 AppleScript、快捷指令等本地脚本，以及需要上传屏幕的云端自动化服务。
+  current_alternative_en: Users currently rely on manual repetition, local scripts such as AppleScript
+    or Shortcuts, or cloud automation services that require uploading the screen.
+  usage_reason: 推断：相较手动重复或编写脚本，它通过本地识别界面元素并直接执行动作，省去用户逐步操作或自行维护脚本的负担，因此在意隐私又缺乏编程能力的 Mac 用户可能选择它；但公开材料未给出留存或客户案例，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: versus manual repetition or writing scripts, it recognizes interface elements
+    locally and executes actions directly, sparing users step-by-step operation or script maintenance,
+    so privacy-conscious Mac users without coding skills may choose it; however, no retention or customer
+    evidence is public, so long-term workflow adoption cannot be confirmed.'

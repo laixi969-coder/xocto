@@ -21,7 +21,7 @@ canonical_url: https://hackeratlas.com
 summary: A map of what Hacker News talks about
 first_seen: '2026-09-25T13:37:54Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

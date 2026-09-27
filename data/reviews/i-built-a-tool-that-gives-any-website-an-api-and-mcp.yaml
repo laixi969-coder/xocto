@@ -1,0 +1,44 @@
+- id: req-initial-i-built-a-tool-that-gives-any-website-an-api-and-mcp-2026-09-27
+  project_slug: i-built-a-tool-that-gives-any-website-an-api-and-mcp
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多平台重复发布活动，但材料未给出旧流程耗时与出错代价，需求强度无法判定。
+    evidence_ids:
+    - ev-77537d4749db882b
+  - gate: consensus
+    status: insufficient
+    reason: 帖子仅 5 点、1 条评论，无采用或评价证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-77537d4749db882b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自主办方订阅还是平台分成。
+    evidence_ids:
+    - ev-77537d4749db882b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对同步是否覆盖票务、退款等关键环节，交付确定性未知。
+    evidence_ids:
+    - ev-77537d4749db882b
+  next_validation: 收集 staaake Meets 官方页面或定价页，确认其同步覆盖的平台范围、是否含票务回传及收费方式。
+  market: ''
+  job: 办技术边会的活动运营者在筹备活动时，处理活动名称、时间、地点等报名信息，需要把同一场活动发布到多个报名平台。
+  job_en: Event operators running side tech events, while preparing an event, handle signup details such
+    as name, time and venue, and need to publish the same event to multiple registration platforms.
+  pain: 候选材料只说明创建一次即可分享到多个平台，未说明此前重复录入具体耗费多少时间或造成什么错误，痛点强度无法从现有事实确认。
+  pain_en: The candidate material only says an event can be created once and shared to several platforms;
+    it does not show how much time duplicate entry took or what errors it caused, so pain intensity cannot
+    be confirmed from available facts.
+  current_alternative: 主办方通常在 Luma、Meetup、Eventbrite 各建一次活动并手动复制信息，这是常见做法，但候选材料未直接描述该旧流程，属于推断。
+  current_alternative_en: Organizers typically create the event separately on Luma, Meetup and Eventbrite
+    and copy details by hand; this is common practice but is not directly described in the candidate material
+    and is inference.
+  usage_reason: 无法判断：材料未说明同步减少了哪一步人工操作、是否覆盖票务与报名数据回传，也没有用户反馈，因此不能解释主办方为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which manual step the sync removes, whether
+    ticketing and registration data flow back, and offers no user feedback, so it cannot explain why organizers
+    would choose it.'

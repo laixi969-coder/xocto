@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE00VG5oUnBlT3Uw
 summary: AI Puts EIS’s Architectural Foresight to the Test Insurance Innovation Reporter
 first_seen: '2026-09-25T20:09:36Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

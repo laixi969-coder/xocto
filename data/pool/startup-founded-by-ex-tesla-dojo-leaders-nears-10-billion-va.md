@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUJZcElHbTdR
 summary: Startup Founded by ex-Tesla Dojo Leaders Nears $10 Billion Valuation The Information
 first_seen: '2026-09-25T02:40:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

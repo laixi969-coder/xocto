@@ -22,7 +22,7 @@ summary: 'muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow gui
   muse.ai 技能与运行环境文件；非官方存档 / Unofficial archive.'
 first_seen: '2026-09-25T07:45:43Z'
 last_seen: '2026-09-27T00:36:20Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

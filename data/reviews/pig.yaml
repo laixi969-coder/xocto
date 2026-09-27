@@ -1,0 +1,45 @@
+- id: req-initial-pig-2026-09-27
+  project_slug: pig
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把编码代理搬进受限运行环境的需求，痛点真实但强度不明；公开材料只有移植说明与仓库指标，没有用户反馈或旧流程描述。
+    evidence_ids:
+    - ev-1917a3e288b927a3
+  - gate: consensus
+    status: insufficient
+    reason: 173 星与 12 次 fork 只说明有开发者关注，不能证明持续采用；没有 issue 讨论内容或使用案例可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1917a3e288b927a3
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、赞助或商业交付路径，钱可能来自 to VC 或企业自建，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1917a3e288b927a3
+  - gate: truth
+    status: insufficient
+    reason: 行为对齐移植的第一性目标是可编译分发，但上游同步与维护成本能否持续、交付是否确定，公开材料未给出证据。
+    evidence_ids:
+    - ev-1917a3e288b927a3
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有团队报告在自有构建链或受限环境中实际部署并持续跟进上游版本。
+  market: ''
+  job: 开发者在自建或受限运行环境中部署编码代理时，需要把原 TypeScript 代理换成可编译、易分发的 Go 版本，并保持与上游一致的行为。
+  job_en: Developers deploying a coding agent in self-hosted or constrained runtime environments need
+    to replace the original TypeScript agent with a compilable, easily distributed Go build while keeping
+    behavior consistent with upstream.
+  pain: 原实现绑定 TypeScript 运行时，在部分构建链、内网或边缘环境里分发和部署不便，团队要额外维护运行时依赖。
+  pain_en: The original implementation is tied to the TypeScript runtime, which is inconvenient to distribute
+    and deploy in some build chains, intranets or edge environments, forcing teams to maintain extra runtime
+    dependencies.
+  current_alternative: 直接使用上游 Pi 的 TypeScript 版本，或自行改写、容器化打包以适配自有环境。
+  current_alternative_en: Using the upstream Pi TypeScript version directly, or rewriting and containerizing
+    it to fit their own environment.
+  usage_reason: 推断：相较直接跑 TypeScript 版本，Go 版本可编译成单一二进制，减少运行时依赖这一步负担，因此需要把代理嵌入自有构建链或受限环境的团队可能选择它；但目前没有用户反馈或采用证据支持这一动机。
+  usage_reason_en: 'Inference: compared with running the TypeScript version directly, a Go build compiles
+    into a single binary and removes the runtime-dependency step, so teams that must embed the agent in
+    their own build chain or a constrained environment may choose it; there is currently no user feedback
+    or adoption evidence supporting this motive.'

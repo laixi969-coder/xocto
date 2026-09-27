@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE13dTBRcXUyRDk3
 summary: Granola AI alternatives Android Application Installer Học viện Nông nghiệp Việt Nam
 first_seen: '2026-09-25T23:07:24Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

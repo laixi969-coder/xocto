@@ -1,6 +1,6 @@
 ---
 slug: ai创企densityai正进入融资谈判后期投后估值接近100亿美元-ai芯片-芯片-亚马逊-特斯拉-推理-手机新浪网
-name: AI创企DensityAI正进入融资谈判后期投后估值接近100亿美元|AI芯片|芯片|亚马逊|特斯拉|推理_手机新浪网
+name: DensityAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingJBVV95cUxOcjhnZ0JvY2ZE
 summary: AI创企DensityAI正进入融资谈判后期投后估值接近100亿美元|AI芯片|芯片|亚马逊|特斯拉|推理_手机新浪网 新浪财经
 first_seen: '2026-09-26T03:13:52Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI创企DensityAI正进入融资谈判后期投后估值接近100亿美元|AI芯片|芯片|亚马逊|特斯拉|推理_手机新浪网
+# DensityAI
 
 AI创企DensityAI正进入融资谈判后期投后估值接近100亿美元|AI芯片|芯片|亚马逊|特斯拉|推理_手机新浪网 新浪财经
 

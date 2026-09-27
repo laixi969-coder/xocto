@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/becausereasons/qwwl-qawwali-yue2-de
 summary: Qawwali and dark Sufi fusion LoRAs for YuE2-3B
 first_seen: '2026-09-26T17:43:40Z'
 last_seen: '2026-09-27T00:36:44Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

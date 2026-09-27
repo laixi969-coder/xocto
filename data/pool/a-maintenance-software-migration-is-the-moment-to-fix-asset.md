@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV2M5TUJWNTJB
 summary: A maintenance software migration is the moment to fix asset data MarketScale
 first_seen: '2026-09-26T14:22:10Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

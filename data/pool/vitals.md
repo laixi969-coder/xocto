@@ -21,7 +21,7 @@ canonical_url: https://vitalsmac.com
 summary: A Mac activity monitor that thinks in apps, not processes
 first_seen: '2026-09-25T14:01:44Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hWUdrN1g1OUtE
 summary: AI直接下场砍价！智能体Muse爆火，给出哪些新启示？ thepaper.cn
 first_seen: '2026-09-25T01:18:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://github.com/maximilianfeix/proxy-scraper
 summary: I checked 1M free proxies – 1 in 5 working ones injected scripts
 first_seen: '2026-09-26T14:06:12Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

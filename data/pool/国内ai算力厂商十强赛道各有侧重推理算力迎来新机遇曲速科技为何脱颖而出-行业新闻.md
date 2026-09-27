@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BYTN2MExhWVRv
 summary: 国内AI算力厂商十强：赛道各有侧重，推理算力迎来新机遇？曲速科技为何脱颖而出_行业新闻 证券之星
 first_seen: '2026-09-24T10:57:55Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

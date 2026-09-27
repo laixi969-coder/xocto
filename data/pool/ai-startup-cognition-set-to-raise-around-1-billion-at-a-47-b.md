@@ -3,12 +3,12 @@ slug: ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b
 name: Cognition
 builder: cdnsteve
 category: AI + 开发
-summary_zh: 软件工程师在修改既有代码库、修缺陷或补测试时，把仓库和任务描述交给 Cognition 的编码代理，由它读取代码、生成并执行改动，最终产出可提交的补丁或合并请求，仍需工程师复核后合入。具体交付边界与人工确认环节仍待核验。
+summary_zh: 该候选为关于 Cognition 收入与融资的报道，指向的是公司层面的资本与经营规模变化，而非一个可独立评估的新产品工作流。公开材料未提供新的产品功能、客户案例或定价细节，因此仅作为市场背景记录。
 inspiration: 趋势是编码代理从补全走向端到端改仓库，资本正集中押注少数头部。切入不在通用编码代理正面竞争，而在被大厂忽视的垂直旧流程：遗留系统迁移、行业合规代码审计、外包交付验收，按可核对的合并结果或审计报告收费。
-summary_en: When modifying an existing codebase, fixing defects or adding tests, software engineers hand
-  the repository and task description to Cognition's coding agent, which reads the code, generates and
-  executes changes, and returns a patch or pull request that engineers still review before merging. The
-  exact delivery boundary and human sign-off steps remain to be verified.
+summary_en: This candidate is press coverage of Cognition's revenue and funding, i.e. a company-level
+  capital and operating-scale change rather than a new product workflow that can be assessed independently.
+  Public material provides no new product features, customer cases or pricing detail, so it is recorded
+  as market context only.
 inspiration_en: 'The trend is coding agents moving from autocomplete to end-to-end repository changes,
   with capital concentrating on a few leaders. The opening is not head-on general coding agents but vertical
   legacy workflows big vendors neglect: legacy migration, compliance code audits, outsourced delivery
@@ -33,7 +33,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNckpuYmE5X0VW
 summary: AI Startup Cognition Set to Raise Around $1 Billion at a $47 Billion Value Yahoo! Finance Canada
 first_seen: '2026-09-02T00:29:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - ia40

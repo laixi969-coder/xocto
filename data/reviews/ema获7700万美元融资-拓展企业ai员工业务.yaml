@@ -1,0 +1,46 @@
+- id: req-initial-ema获7700万美元融资-拓展企业ai员工业务-2026-09-27
+  project_slug: ema获7700万美元融资-拓展企业ai员工业务
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决企业跨系统重复事务，但材料未给出具体任务、痛点与旧流程，无法确认需求刚性。
+    evidence_ids:
+    - ev-33b81849d04bb34f
+    - ev-849eb4b3531746b4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户采用、用户评价或场景共识证据。
+    evidence_ids:
+    - ev-33b81849d04bb34f
+    - ev-849eb4b3531746b4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与付费路径，无法判断收入来自 to B 还是 to VC。
+    evidence_ids:
+    - ev-33b81849d04bb34f
+    - ev-849eb4b3531746b4
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工边界与安全约束的说明。
+    evidence_ids:
+    - ev-33b81849d04bb34f
+    - ev-849eb4b3531746b4
+  next_validation: 收集 Ema 官方定价页或公开客户案例，确认其 AI 员工具体接管哪条流程、交付什么结果以及如何计价。
+  market: ''
+  job: 企业运营或职能团队在内部流程中，把跨系统的重复性事务交给 AI 员工处理，并拿到可供人工确认的业务结果。
+  job_en: Enterprise operations or functional teams hand repetitive cross-system tasks to an AI employee
+    and receive business outputs that staff can confirm.
+  pain: 候选材料未说明具体痛点，只能推断企业存在跨系统重复劳动与人力成本压力，缺少用户抱怨或案例支持。
+  pain_en: The candidate material states no specific pain; one can only infer cross-system repetitive
+    work and headcount cost pressure, with no user complaints or cases to support it.
+  current_alternative: 公开材料未说明现有替代方式，可能包括人工处理、传统 RPA 或通用对话助手，均属推断。
+  current_alternative_en: The public material does not describe current alternatives; manual handling,
+    traditional RPA or general chat assistants are inferences only.
+  usage_reason: 材料只给出融资与业务方向，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法判断用户为何选择它。
+  usage_reason_en: The material gives only funding and business direction, so it cannot show which step
+    is reduced or which verifiable result improves versus the old way, leaving no basis to judge why users
+    would choose it.

@@ -1,0 +1,43 @@
+- id: req-initial-semrush-ai-tool-2026-09-27
+  project_slug: semrush-ai-tool
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决关键词与外链数据分散、难以接入 AI 工作流的问题，痛点具体；买方可能是营销团队或独立站卖家，公开材料未说明付费方。
+    evidence_ids:
+    - ev-1880170658c393eb
+  - gate: consensus
+    status: insufficient
+    reason: 73 星标与 1 个分支说明关注度有限且几乎无协作，没有客户案例或持续使用证据。
+    evidence_ids:
+    - ev-1880170658c393eb
+  - gate: model
+    status: insufficient
+    reason: 项目未披露定价，也未说明与数据源的商业关系，收入路径属于判断而非已验证事实。
+    evidence_ids:
+    - ev-1880170658c393eb
+  - gate: truth
+    status: challenged
+    reason: 名称直接借用 Semrush 品牌，公开材料未说明授权或合规来源，数据获取的合法性与稳定性存疑。
+    evidence_ids:
+    - ev-1880170658c393eb
+  next_validation: 收集该仓库的 README 与 issue，确认其数据来源是否为官方授权 API 以及是否说明合规边界。
+  market: ''
+  job: SEO 分析师或内容营销运营，在做关键词选题和竞品外链盘点时，处理关键词、域名与外链数据，要产出一份可执行的选题或投放建议。
+  job_en: SEO analysts or content marketing operators who, when choosing keywords and auditing competitor
+    backlinks, work with keyword, domain and backlink data to produce an actionable topic or placement
+    recommendation.
+  pain: 数据分散在多个后台页面，逐条查询和导出耗时，且难以把结果直接喂给正在使用的 AI 助手或脚本。
+  pain_en: Data is scattered across dashboard pages, so querying and exporting item by item is slow and
+    the results are hard to feed directly into the AI assistant or script already in use.
+  current_alternative: 分析师手动在 SEO 工具网页里查询并复制到表格，或购买官方 API 再自行写脚本对接。
+  current_alternative_en: Analysts query manually in the SEO tool's web interface and copy into spreadsheets,
+    or buy the official API and write their own integration scripts.
+  usage_reason: 推断：相较手动查询与复制，这个工具把查询动作变成命令行或 MCP 调用，省去在网页与表格之间来回搬运数据的一步，因此已经在用 AI 助手做选题的分析师会优先尝试它。
+  usage_reason_en: 'Inference: compared with manual querying and copying, this tool turns queries into
+    CLI or MCP calls, removing the step of shuttling data between web pages and spreadsheets, so analysts
+    already using an AI assistant for topic selection would try it first.'

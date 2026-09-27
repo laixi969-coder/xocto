@@ -1,0 +1,43 @@
+- id: req-initial-blender-copilot-2026-09-27
+  project_slug: blender-copilot
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图省去手工建模，但公开材料只有作者个人动机，未说明替代了哪一步旧工作及不解决的后果。
+    evidence_ids:
+    - ev-bdc646ce7d43daef
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 6 分、0 评论，属关注度信号，不能说明三维制作者已采用。
+    evidence_ids:
+    - ev-bdc646ce7d43daef
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料未披露定价或买方，7 美元是作者自述的生成成本，不是产品收费。
+    evidence_ids:
+    - ev-bdc646ce7d43daef
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对生成资产能否确定交付、是否需大量人工返工。
+    evidence_ids:
+    - ev-bdc646ce7d43daef
+  next_validation: 收集该仓库的 README 与示例输出，核对生成资产的可用程度、输入形式与人工返工环节。
+  market: ''
+  job: 独立开发者或三维内容制作者在做原型时，处理建模需求，要在 Blender 中得到一个可用的飞船等模型资产。
+  job_en: An indie developer or 3D content creator working on a prototype handles a modeling need and
+    wants a usable spaceship or similar asset inside Blender.
+  pain: 公开材料只说明作者不想花一个月学建模，未说明这类原型资产需求是否普遍、不解决会失去什么，痛点强度无法确认。
+  pain_en: The public material only says the author did not want to spend a month learning modeling; it
+    does not show how common this prototype-asset need is or what is lost without it, so pain intensity
+    cannot be confirmed.
+  current_alternative: 现有替代是手工在 Blender 建模、购买模型素材库资产，或使用其他三维生成工具。
+  current_alternative_en: Existing alternatives are hand-modeling in Blender, buying assets from model
+    libraries, or using other 3D generation tools.
+  usage_reason: 推断：若生成结果可直接用于原型，它省去学习建模软件的时间，因此赶原型、对模型精度要求不高的独立开发者会尝试；但公开材料未说明生成质量与返工量，无法确认用户会持续使用。
+  usage_reason_en: 'Inference: if the output is directly usable in a prototype, it saves time learning
+    modeling software, so indie developers rushing a prototype with low precision requirements would try
+    it; but the public material does not show output quality or rework, so continued use cannot be confirmed.'

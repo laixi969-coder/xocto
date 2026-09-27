@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/fewer
 summary: The launcher that counts how often you pick up your phone
 first_seen: '2026-09-21T15:37:50Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxPMXpDdTFYZzE5
 summary: Corgi Is Now Worth $5 Billion Thanks To Four Funding Rounds Five Months Forbes
 first_seen: '2026-09-26T10:30:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

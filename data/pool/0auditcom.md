@@ -22,7 +22,7 @@ summary: Developer SDK, CLI & AI search intent index for 0audit.com — Fast Web
   SEO, Security Headers & Web Performance Auditor
 first_seen: '2026-09-24T19:43:02Z'
 last_seen: '2026-09-27T00:36:20Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

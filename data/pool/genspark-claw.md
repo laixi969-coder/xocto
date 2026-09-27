@@ -23,7 +23,7 @@ summary: 🦀⚡ Community skill pack & CLI for Genspark Claw, OpenClaw & Hermes
   Node.js installer, MCP server, one-line install
 first_seen: '2026-09-26T02:18:05Z'
 last_seen: '2026-09-27T00:36:20Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

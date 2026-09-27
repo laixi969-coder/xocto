@@ -1,0 +1,43 @@
+- id: req-initial-recurse-2026-09-27
+  project_slug: recurse
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决专用 agent 开发与部署耗时的问题，痛点方向清楚，但公开材料未说明具体动作与交付，无法确认替代了哪一步。
+    evidence_ids:
+    - ev-2dfbbcd6b3241ed1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有8点与4条评论的社区讨论，属于关注度信号，没有采用或持续使用证据。
+    evidence_ids:
+    - ev-2dfbbcd6b3241ed1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是面向个人开发者还是企业团队尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2dfbbcd6b3241ed1
+  - gate: truth
+    status: insufficient
+    reason: 与 agent 交付的第一性目标一致，但承诺能否确定性交付、人工边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-2dfbbcd6b3241ed1
+  next_validation: 收集该产品的官方文档或定价页，确认它实际接收什么输入、执行哪些开发与部署动作以及交付形态。
+  market: ''
+  job: 开发者在需要为某个业务搭建并上线专用 agent 时，要完成从开发到部署的一整套工作。
+  job_en: A developer building and shipping a specialist agent for a business needs to complete the whole
+    path from development to deployment.
+  pain: 专用 agent 的开发与部署环节分散，重复搭建脚手架和上线流程耗时。
+  pain_en: Development and deployment of specialist agents are fragmented, and repeatedly building scaffolding
+    and release pipelines is time-consuming.
+  current_alternative: 用通用 agent 框架自行拼装，再手工完成部署与运维。
+  current_alternative_en: Assembling with general-purpose agent frameworks and handling deployment and
+    operations manually.
+  usage_reason: 推断：若它把开发与部署合并到一条更短的路径上，开发者可能省去自行拼装脚手架和上线配置的步骤，因此会尝试；但公开材料未说明具体动作与交付，无法确认减少了哪一步。
+  usage_reason_en: 'Inference: if it merges development and deployment into a shorter path, developers
+    could skip assembling scaffolding and release configuration themselves, which is why they might try
+    it; public material does not describe the concrete actions or deliverable, so the saved step cannot
+    be confirmed.'

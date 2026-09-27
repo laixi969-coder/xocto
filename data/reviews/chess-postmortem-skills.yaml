@@ -1,0 +1,43 @@
+- id: req-initial-chess-postmortem-skills-2026-09-27
+  project_slug: chess-postmortem-skills
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决赛后复盘要逐手找错的需求，痛点真实；但公开材料只有一句功能描述，说不清输入、交付和人工确认环节，价值结构无法完整还原。
+    evidence_ids:
+    - ev-578f9b5db4c46aa5
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有一定热度，但没有任何采用、留存或付费证据，无法判断棋手是否把它放进日常复盘流程。
+    evidence_ids:
+    - ev-578f9b5db4c46aa5
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料没有定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-578f9b5db4c46aa5
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对分析结论是否可靠、是否贴近棋手复盘的第一性目标，也没有人工边界说明。
+    evidence_ids:
+    - ev-578f9b5db4c46aa5
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它接收的棋局格式、输出的复盘内容以及是否有棋手实际使用反馈。
+  market: ''
+  job: 业余棋手或教练在赛后拿到棋局记录，需要逐手判断哪一步走坏、为什么走坏，并整理成可复用的复盘材料。
+  job_en: An amateur player or coach takes a game record after a match and needs to judge move by move
+    which step went wrong and why, then turn it into reusable review material.
+  pain: 人工复盘依赖棋力更高的对手或教练，逐手分析耗时，业余棋手常常只能看到引擎给出的分数而不知道错在哪里。
+  pain_en: Manual review depends on a stronger opponent or coach, move-by-move analysis is time-consuming,
+    and amateurs often see only an engine score without knowing what went wrong.
+  current_alternative: 用国际象棋引擎看评分变化，或在论坛、棋社请人点评，再自己写复盘笔记。
+  current_alternative_en: Checking engine score changes, asking for comments in forums or clubs, then
+    writing review notes by hand.
+  usage_reason: 推断：如果该技能能把棋局记录直接转成逐手解释，棋手就省去自己对照引擎分数反推原因这一步；但公开材料只有一句功能描述，没有说明输入、输出和是否保留人工确认，因此无法确认它比现有引擎加人工点评的做法更省事。
+  usage_reason_en: 'Inference: if the skill turns a game record directly into move-by-move explanations,
+    players skip the step of reverse-engineering reasons from engine scores; but the public material is
+    a single line with no input, output or human-confirmation detail, so it cannot be confirmed as less
+    work than engine plus human commentary.'

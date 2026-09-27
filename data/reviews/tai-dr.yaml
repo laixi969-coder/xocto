@@ -1,0 +1,42 @@
+- id: req-initial-tai-dr-2026-09-27
+  project_slug: tai-dr
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，使用场景与交付均无法还原。
+    evidence_ids:
+    - ev-42c2555082cb40f4
+    - ev-391d676c49b65f1e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论热度不能替代对使用场景的判断。
+    evidence_ids:
+    - ev-42c2555082cb40f4
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径无从判断。
+    evidence_ids:
+    - ev-42c2555082cb40f4
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性与人工边界无法评估。
+    evidence_ids:
+    - ev-391d676c49b65f1e
+  next_validation: 收集 Too AI; Didn't Read 官方页面正文，确认其输入材料、执行动作与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: The public material does not say who handles what material in what situation to complete what
+    task, so the use scenario cannot be reconstructed.
+  pain: 无法从现有材料判断它针对的具体痛点，只能从名称推测与阅读或摘要有关，属于推断。
+  pain_en: The specific pain point cannot be judged from the available material; it can only be inferred
+    from the name that it relates to reading or summarization.
+  current_alternative: 旧做法无法确定，公开材料未给出它替代的手工步骤。
+  current_alternative_en: The prior practice cannot be determined; the public material does not state
+    which manual step it replaces.
+  usage_reason: 缺少功能说明与交付描述，无法解释用户为何选择它而非现有做法，因此不做使用理由判断。
+  usage_reason_en: With no feature description or deliverable, there is no basis to explain why a user
+    would choose it over existing practice, so no usage reason is given.

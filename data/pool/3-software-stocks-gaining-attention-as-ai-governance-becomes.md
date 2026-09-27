@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQY1pBdzNRQjh1
 summary: 3 Software Stocks Gaining Attention As AI Governance Becomes A Market Issue simplywall.st
 first_seen: '2026-09-26T04:33:28Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

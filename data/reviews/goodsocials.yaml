@@ -1,0 +1,44 @@
+- id: req-initial-goodsocials-2026-09-27
+  project_slug: goodsocials
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决持续产出 LinkedIn 内容的需求，但公开材料只有一句定位，说不清替代了哪一步旧工作，痛点强度无法判断。
+    evidence_ids:
+    - ev-7a754d8ab7a30282
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页定位外无用户评价、采用或讨论证据，无法判断是否有人真的把它放进内容流程。
+    evidence_ids:
+    - ev-7a754d8ab7a30282
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅还是代运营收费均属推测，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7a754d8ab7a30282
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成内容是否真能贴合个人语气，也未说明人工确认与发布边界。
+    evidence_ids:
+    - ev-7a754d8ab7a30282
+  next_validation: 收集 GoodSocials 官方定价页或客户案例，确认其是否包含排期与发布能力及收费方式。
+  market: ''
+  job: 个人品牌运营者或小团队在需要持续更新 LinkedIn 时，处理选题、素材和过往帖文，要完成一篇可发布的帖文草稿。
+  job_en: An individual brand operator or small team maintaining a LinkedIn presence handles topics, source
+    material and past posts to produce a publishable post draft.
+  pain: 持续产出符合个人语气的内容耗时，且容易写成模板化的营销腔，公开材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Producing content that matches one's own voice on a continuous basis is time-consuming and
+    tends to read as templated marketing copy; the public material gives no direct evidence of user complaints
+    or workarounds.
+  current_alternative: 自己写、用通用写作助手起草，或雇人代运营 LinkedIn 账号。
+  current_alternative_en: Writing it themselves, drafting with a general writing assistant, or hiring
+    someone to run the LinkedIn account.
+  usage_reason: 推断：若它真能按账号定位生成并排期帖文，可省去从零起草和手动排期两步；但公开材料只有一句定位描述，无法确认它是否接管发布环节，因此尚不能判断用户为何会选它。
+  usage_reason_en: 'Inference: if it truly generates and schedules posts from account positioning, it
+    removes the steps of drafting from scratch and scheduling manually; but the public material is a single
+    positioning line, so whether it takes over publishing is unconfirmed and the reason users would choose
+    it cannot yet be judged.'

@@ -21,7 +21,7 @@ canonical_url: https://github.com/stormj-UH/spivak-lean
 summary: Spivak's Calculus formalized in Lean 4 – every theorem, every problem
 first_seen: '2026-09-26T17:00:23Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaHNKNl8xQUky
 summary: 英伟达被指“循环融资”：与SK集团、OpenAI的7500亿美元交易，市场在恐慌什么？ TradingKey
 first_seen: '2026-09-26T10:23:59Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

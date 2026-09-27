@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcElpcHViRzAx
 summary: AI is shopping for you now. What does that mean for ecommerce in India? Business Standard
 first_seen: '2026-09-26T06:05:57Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

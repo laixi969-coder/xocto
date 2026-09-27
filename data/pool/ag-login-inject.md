@@ -21,7 +21,7 @@ canonical_url: https://github.com/rullxd/ag-login-inject
 summary: Bulk-provision Google accounts into 9router for Antigravity AI model access (ag/claude-*, ag/gemini-*)
 first_seen: '2026-09-25T09:16:30Z'
 last_seen: '2026-09-27T00:36:20Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

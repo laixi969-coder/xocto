@@ -1,0 +1,41 @@
+- id: req-initial-julia-1-decision-demo-2026-09-27
+  project_slug: julia-1-decision-demo
+  level: initial
+  reviewed_at: '2026-09-27T00:36:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是把决策形式化为带概率的选项输出，但材料未说明谁在什么场景下因此受阻，痛点与不采用后果都写不出来。
+    evidence_ids:
+    - ev-4d98f1b3db8966c7
+  - gate: consensus
+    status: insufficient
+    reason: 公开信号仅 2 个点赞，无社区讨论、无采用或复述使用场景的证据，无法判断是否有人真的需要。
+    evidence_ids:
+    - ev-4d98f1b3db8966c7
+  - gate: model
+    status: insufficient
+    reason: 未披露任何定价、买方或收费方式，也无法判断是 to C、to B 还是仅作研究演示。
+    evidence_ids:
+    - ev-4d98f1b3db8966c7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对概率输出是否可靠、是否贴近真实决策目标，也没有人工复核边界的说明。
+    evidence_ids:
+    - ev-4d98f1b3db8966c7
+  next_validation: 收集该开源项目的仓库说明、issue 或 discussion，确认是否有具体行业使用者描述其替代的旧决策流程。
+  market: ''
+  job: 开发者或研究者把某个业务状态作为输入交给该演示，希望得到候选选项及其概率，用于后续人工判断。
+  job_en: A developer or researcher feeds a business state into the demo to obtain candidate choices with
+    probabilities for later human judgement.
+  pain: 公开材料只说明输入状态、输出选项与概率，未说明谁在什么场景下因缺少这一能力而受阻，也未说明不采用会失去什么。
+  pain_en: The public material only states state-in, choices-and-probabilities-out; it does not say who
+    is blocked by lacking this, in which scenario, or what is lost without it.
+  current_alternative: 现有替代可能是规则引擎、统计模型或直接调用通用大模型做判断，但候选未提供任何对比信息。
+  current_alternative_en: Existing alternatives may be rule engines, statistical models or calling a general
+    LLM for judgement, but the candidate provides no comparison.
+  usage_reason: 无法判断：材料未给出具体使用情境、旧流程或可核对结果，因此不能说明用户为何会选择它而非旧做法。
+  usage_reason_en: 'Cannot be judged: the material gives no concrete usage situation, prior workflow or
+    checkable outcome, so it cannot explain why a user would choose it over the old way.'

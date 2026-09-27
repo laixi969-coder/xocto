@@ -1,6 +1,6 @@
 ---
 slug: japans-sumitomo-life-to-deploy-ai-for-tailor-made-contracts
-name: Japan's Sumitomo Life to deploy AI for tailor-made contracts
+name: Sumitomo Life
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxPN1ZiQXR4UVdp
 summary: Japan's Sumitomo Life to deploy AI for tailor-made contracts Nikkei Asia
 first_seen: '2026-09-26T17:09:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Japan's Sumitomo Life to deploy AI for tailor-made contracts
+# Sumitomo Life
 
 Japan's Sumitomo Life to deploy AI for tailor-made contracts Nikkei Asia
 

@@ -859,3 +859,43 @@
     inside the request path and restores originals locally, removing the step of rewriting each record
     and mapping results back afterwards; inference, teams handling personal data would pick it when they
     need external models without exposing original identities.
+- id: req-initial-cover-2026-09-27
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把敏感数据交给外部模型时的脱敏与还原需求，痛点来自合规与泄露风险，旧做法是自写脚本或人工核对，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论集中在开源社区，尚无客户案例或行业采购证据说明这类环节已被普遍接受。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是自建合规流程的企业团队，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 可逆还原是否在长文本、多轮调用下保持准确，以及人工确认边界，公开材料未给出可核对结果。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 与部署文档，确认可逆还原在真实调用中的准确性与人工确认边界。
+  market: ''
+  job: 开发者在把含真实客户姓名、账号或病历字段的请求发给外部大模型时，需要先替换敏感值、拿到模型结果后再还原成原值，以便在数据不外流的前提下完成处理。
+  job_en: A developer sending requests that contain real customer names, account numbers or medical fields
+    to an external model needs to swap the sensitive values first and restore the originals after the
+    model responds, so the task can be completed without the data leaving.
+  pain: 不脱敏就直接调用会违反合规要求并泄露客户身份；手工脱敏再手工还原既容易漏字段，也会在多次调用后失去对应关系。
+  pain_en: Calling the model without masking breaks compliance and leaks customer identities; masking
+    and restoring by hand misses fields and loses the mapping after repeated calls.
+  current_alternative: 目前多由团队自己写正则或映射脚本，或干脆把数据交给模型后人工核对，缺少可逆且随调用发生的统一环节。
+  current_alternative_en: Today teams write their own regex or mapping scripts, or simply send the data
+    and check it by hand afterwards; there is no reversible step that happens with each call.
+  usage_reason: 相较自写脚本，它在请求发出前自动替换敏感字段、在响应返回后本地还原，省掉手工维护映射和逐条核对这一步，因此处理不能外流材料的开发团队会在接入外部模型时选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with home-made scripts, it swaps sensitive fields before the request leaves
+    and restores them locally on the response, removing the manual mapping and line-by-line checking step,
+    so teams handling materials that cannot leave the premises would pick it when wiring up an external
+    model; this is an inference from the product's capability.

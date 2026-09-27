@@ -1,0 +1,44 @@
+- id: req-initial-coding-agent-2026-09-27
+  project_slug: coding-agent
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决本地代码库中规划、改动与验证的需求，痛点对受合规约束的团队真实；但公开材料只有一句定位，说不清具体动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有一定星标，但没有任何采用、留存或团队使用证据，无法判断开发者是否把它放进日常工作流。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+  - gate: model
+    status: insufficient
+    reason: 未进入：开源项目没有公开定价或商业买方信息，无法判断钱从哪来。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有部署文档或实测，无法核对本地执行边界、验证结果是否可靠以及人工确认环节。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认它实际支持的语言、本地执行边界和验证方式。
+  market: ''
+  job: 开发者在本地代码库中处理一个改动任务，需要代理先读懂仓库结构，再规划、改代码、跑验证并交付可用的变更。
+  job_en: A developer working in a local repository needs the agent to understand the repo structure,
+    then plan, edit code, run validation and deliver a usable change.
+  pain: 通用云端编码助手需要把代码送出本机，受合规或保密约束的团队无法使用，人工在本地完成规划、改动和验证又要反复切换工具。
+  pain_en: General cloud coding assistants require sending code off the machine, which compliance- or
+    secrecy-bound teams cannot do, while doing planning, editing and validation locally by hand means
+    constant tool switching.
+  current_alternative: 使用云端编码助手，或自己在本地用编辑器加脚本手工完成规划、改动与测试。
+  current_alternative_en: Using a cloud coding assistant, or manually planning, editing and testing locally
+    with an editor and scripts.
+  usage_reason: 推断：如果该代理确实在本地完成从规划到验证的闭环，受保密约束的团队就能在不外传代码的前提下获得代理协助，省去把代码脱敏后再送云端这一步；但公开材料只有一句定位，没有部署文档或使用反馈，无法确认闭环是否真的成立。
+  usage_reason_en: 'Inference: if the agent truly closes the loop from planning to validation locally,
+    secrecy-bound teams get agent help without sending code out, skipping the step of sanitising code
+    before cloud use; but the public material is one line with no deployment docs or user feedback, so
+    the loop cannot be confirmed.'

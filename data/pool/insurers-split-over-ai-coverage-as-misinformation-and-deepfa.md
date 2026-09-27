@@ -1,11 +1,15 @@
 ---
 slug: insurers-split-over-ai-coverage-as-misinformation-and-deepfa
-name: Insurers Split Over AI Coverage As Misinformation And Deepfakes Drive Most Reported Harms
+name: AI insurance coverage
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 保险公司在 AI 相关风险的承保范围上出现分歧，已报告的危害主要来自虚假信息和深度伪造。承保标准不统一意味着 AI 生成内容带来的责任风险尚未被清晰定价，可能影响企业部署生成式 AI
+  的合规与保险成本。
 inspiration: ''
-summary_en: ''
+summary_en: Insurers are split over coverage for AI-related risks, with most reported harms stemming from
+  misinformation and deepfakes. Inconsistent underwriting standards mean liability from AI-generated content
+  is not yet clearly priced, which may affect compliance and insurance costs for enterprises deploying
+  generative AI.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +26,7 @@ summary: Insurers Split Over AI Coverage As Misinformation And Deepfakes Drive M
   & Insurance
 first_seen: '2026-09-24T19:52:58Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Insurers Split Over AI Coverage As Misinformation And Deepfakes Drive Most Reported Harms
+# AI insurance coverage
 
 Insurers Split Over AI Coverage As Misinformation And Deepfakes Drive Most Reported Harms Risk & Insurance
 

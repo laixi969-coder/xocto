@@ -1,0 +1,42 @@
+- id: req-initial-jevcore-2026-09-27
+  project_slug: jevcore
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决模型输出不可被程序直接判断的问题，痛点真实，但公开材料只有一句仓库描述，替代了哪一步旧流程尚不清楚。
+    evidence_ids:
+    - ev-1efda6447470f169
+  - gate: consensus
+    status: insufficient
+    reason: 仅 42 个星标，无 issue、无讨论，看不出有具体人群在持续使用或讨论。
+    evidence_ids:
+    - ev-1efda6447470f169
+  - gate: model
+    status: insufficient
+    reason: 开源仓库，未见定价页、客户或任何付费路径，买方是谁无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1efda6447470f169
+  - gate: truth
+    status: insufficient
+    reason: 无法从现有材料确认判断结果是否稳定可交付，也看不到人工复核边界。
+    evidence_ids:
+    - ev-1efda6447470f169
+  next_validation: 收集该仓库的 README、示例与 issue/discussion，确认它实际替代的是哪一步解析或校验工作。
+  market: ''
+  job: 后端或工具链开发者在把模型接入自有服务时，需要让模型对某个条件给出可被代码直接判断的结果，而不是一段需要再解析的自然语言。
+  job_en: A backend or tooling developer wiring a model into their own service needs the model to return
+    a result code can judge directly for a given condition, rather than prose that must be parsed again.
+  pain: 自然语言输出不稳定，程序要额外写解析和兜底逻辑，判断结果难以核对，出错时定位成本高。
+  pain_en: Prose output is unstable, so the program needs extra parsing and fallback logic, judgments
+    are hard to check, and failures are costly to trace.
+  current_alternative: 开发者自己写提示词加 JSON 解析、用结构化输出参数，或在应用层加一层校验代码。
+  current_alternative_en: Developers hand-write prompts plus JSON parsing, use structured-output parameters,
+    or add a validation layer in the application.
+  usage_reason: 推断：它把判断本身做成类型化返回值，省掉应用侧再写一层解析与校验的步骤，因此在意输出可核对性的集成开发者会尝试它；公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: it turns the judgment itself into a typed return value, removing the parsing
+    and validation layer the application would otherwise write, so integration developers who care about
+    checkable output would try it; public material shows no retention or payment evidence.'

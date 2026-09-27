@@ -23,7 +23,7 @@ summary: Hey HN! Wanted to share a fun project I&#x27;ve been hacking on. Given 
   complex game than Tetris.…
 first_seen: '2026-09-25T14:28:07Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

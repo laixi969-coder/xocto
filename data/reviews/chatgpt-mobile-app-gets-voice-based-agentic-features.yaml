@@ -42,3 +42,45 @@
     and tapping through items on the phone; this is an inference that paying subscribers who often handle
     tasks in the field or while commuting would choose it, and public material provides no retention or
     repeat-use evidence.
+- id: req-initial-chatgpt-mobile-app-gets-voice-based-agentic-features-2026-09-27
+  project_slug: chatgpt-mobile-app-gets-voice-based-agentic-features
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动场景下无法逐步手动操作应用、任务被推迟的需求，痛点具体且旧替代行为明确；买方为订阅用户，付费路径清晰。
+    evidence_ids:
+    - ev-1e35020991f68539
+  - gate: consensus
+    status: insufficient
+    reason: 候选材料只说明功能面向 Plus 与 Pro 开放，没有采用规模、使用频率或用户反馈，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-1e35020991f68539
+  - gate: model
+    status: supported
+    reason: Plus 与 Pro 为付费订阅档，功能直接绑定订阅，钱来自 to C 订阅费；具体定价未在材料中给出，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1e35020991f68539
+  - gate: truth
+    status: insufficient
+    reason: 代理型任务在移动端的安全边界、人工确认环节与失败处理未在材料中说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-1e35020991f68539
+  next_validation: 收集 ChatGPT 官方帮助文档或发布说明中关于移动端 Work 标签页可执行任务范围、权限与人工确认步骤的公开描述。
+  market: ''
+  job: 订阅用户在离开电脑、只有手机的情况下，用语音把一件待办说给助手，让它代为完成并给出可核对的结果。
+  job_en: A subscriber away from a computer, with only a phone, speaks a to-do to the assistant and has
+    it carried out with a checkable result.
+  pain: 手机上逐条手动操作应用、复制粘贴信息、来回切换窗口很费时，且很多任务在移动端难以完成。
+  pain_en: Manually operating apps step by step on a phone, copying and pasting information and switching
+    between windows is time-consuming, and many tasks are hard to finish on mobile.
+  current_alternative: 用户自己在手机上逐个应用手动操作，或等到回到电脑前再处理。
+  current_alternative_en: Users operate each app manually on the phone, or wait until they are back at
+    a computer.
+  usage_reason: 相较自己在手机上逐步操作，语音下达任务把“打开应用—输入—搬运结果”这几步交给助手执行，用户只需核对产出；推断，因为候选材料未提供留存或重复使用证据。
+  usage_reason_en: Compared with operating step by step on the phone, speaking the task delegates the
+    open-app, type and move-the-result steps to the assistant, leaving the user to check the output; this
+    is inference, as the candidate material offers no retention or repeat-use evidence.

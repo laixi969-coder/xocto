@@ -22,7 +22,7 @@ summary: 把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、
   Muse.ai with Chat, Image & Video generation.
 first_seen: '2026-09-25T14:22:55Z'
 last_seen: '2026-09-27T00:36:20Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

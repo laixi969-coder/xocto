@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ2ptRF9sRFVh
 summary: 从代码分析到授权争议：一用户用AI破解IDM引发争议|Qwen3.8|Reddit|IT之家|Qwen|模型_手机新浪网 新浪财经
 first_seen: '2026-09-26T19:41:15Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

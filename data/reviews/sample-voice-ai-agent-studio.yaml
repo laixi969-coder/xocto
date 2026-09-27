@@ -1,0 +1,46 @@
+- id: req-initial-sample-voice-ai-agent-studio-2026-09-27
+  project_slug: sample-voice-ai-agent-studio
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音智能体从零搭建链路、调试周期长的问题，痛点具体且交付物明确；买方是自建语音入口的企业或集成商，公开材料未说明谁付费。
+    evidence_ids:
+    - ev-efda3192698282bd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 70 星标与 29 分支，属于早期关注度，没有客户案例或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-efda3192698282bd
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或商业主体，钱可能来自企业自建团队或集成商项目，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-efda3192698282bd
+  - gate: truth
+    status: insufficient
+    reason: 语音识别与合成的准确率、打断处理与人工转接边界均未在公开材料中说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-efda3192698282bd
+  next_validation: 收集该仓库的部署文档与 issue 讨论，确认语音链路在真实通话中的准确率与人工转接边界。
+  market: ''
+  job: 语音客服或语音助手的开发者，在需要把电话或语音入口接进自家业务系统时，处理通话音频与对话流程，要交付一个能稳定接起、听懂并完成预约或查询的语音智能体。
+  job_en: Developers of voice customer service or voice assistants who need to connect phone or voice
+    entry points into their own business systems, handling call audio and dialogue flows to deliver an
+    agent that reliably answers, understands and completes a booking or lookup.
+  pain: 从零搭建语音链路要分别处理识别、对话状态、打断与合成，调试周期长，且各组件版本与部署方式容易互相冲突。
+  pain_en: Building a voice pipeline from scratch means separately handling recognition, dialogue state,
+    interruption and synthesis, with long debugging cycles and frequent conflicts between component versions
+    and deployment methods.
+  current_alternative: 开发者通常自己拼装开源语音组件，或直接采购闭源语音客服 SaaS，前者费时、后者难以深度定制。
+  current_alternative_en: Developers usually assemble open-source speech components themselves or buy
+    closed-source voice customer-service SaaS; the former is time-consuming and the latter hard to customise
+    deeply.
+  usage_reason: 推断：相较自行拼装，这个示例把语音链路的关键环节预先接好，开发者可以直接在既有骨架上替换业务对话逻辑，省去从零打通识别与合成的调试步骤，因此需要快速验证语音场景的团队会先拿它试跑。
+  usage_reason_en: 'Inference: compared with assembling components, this sample pre-wires the key stages
+    of the voice pipeline so developers can swap in their own business dialogue logic, skipping the debugging
+    needed to connect recognition and synthesis from scratch; teams that need to validate a voice scenario
+    quickly would try it first.'

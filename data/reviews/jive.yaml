@@ -1,0 +1,45 @@
+- id: req-initial-jive-2026-09-27
+  project_slug: jive
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多步改动不可预先检查的问题，痛点具体，替代的是让智能体自由执行后再人工读 diff 这一步。
+    evidence_ids:
+    - ev-d71d634ee585cfcf
+    - ev-ea3b1882fe482e2a
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 124 增至 134，有开发者关注，但无使用反馈或案例支撑持续采用。
+    evidence_ids:
+    - ev-d71d634ee585cfcf
+    - ev-ea3b1882fe482e2a
+  - gate: model
+    status: insufficient
+    reason: 开源终端工具，未见定价、客户或采购记录，买方与付费路径不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ea3b1882fe482e2a
+  - gate: truth
+    status: insufficient
+    reason: 无法确认图式计划在真实项目中的执行稳定性，也看不到人工确认与安全边界。
+    evidence_ids:
+    - ev-ea3b1882fe482e2a
+  next_validation: 收集该仓库的 issue 与示例执行记录，核对图式计划在真实仓库中的执行与回滚表现。
+  market: ''
+  job: 软件工程师在终端里让编码智能体处理多步改动时，需要先看到它打算按什么顺序改哪些地方，再决定是否放行。
+  job_en: A software engineer letting a terminal coding agent handle a multi-step change needs to see
+    what it plans to change and in what order before approving it.
+  pain: 智能体一次性给出大段改动，步骤之间的依赖不透明，出错后难以判断是哪一步导致，回滚成本高。
+  pain_en: The agent returns a large change at once, dependencies between steps are opaque, and when something
+    breaks it is hard to tell which step caused it, making rollback costly.
+  current_alternative: 直接让编码智能体自由执行，再靠人工读 diff 和版本控制回退。
+  current_alternative_en: Letting the coding agent run freely, then reading diffs manually and reverting
+    through version control.
+  usage_reason: 推断：它把工作计划先变成可执行的图，让依赖和顺序在动手前可见，省掉事后从 diff 反推哪一步出错的过程，因此在意可审计与回滚的工程团队会尝试它；公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: it turns the work plan into an executable graph so dependencies and order
+    are visible before changes are made, removing the need to reconstruct which step failed from the diff
+    afterwards, so engineering teams that care about audit and rollback would try it; public material
+    shows no retention or payment evidence.'

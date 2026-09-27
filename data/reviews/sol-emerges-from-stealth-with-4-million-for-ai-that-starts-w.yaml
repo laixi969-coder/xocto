@@ -1,0 +1,43 @@
+- id: req-initial-sol-emerges-from-stealth-with-4-million-for-ai-that-starts-w-2026-09-27
+  project_slug: sol-emerges-from-stealth-with-4-million-for-ai-that-starts-w
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决邮件承诺被遗忘、跟进断档的问题，痛点刚性且不采用有收入代价，旧做法是人工翻邮件建待办。
+    evidence_ids:
+    - ev-19a83dff7b8d4498
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与隐身结束的报道，没有客户案例或采用数据说明销售团队是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-19a83dff7b8d4498
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方是个人、团队还是企业，也未披露定价，付费路径只能推断为 to B 订阅。
+    evidence_ids:
+    - ev-19a83dff7b8d4498
+  - gate: truth
+    status: insufficient
+    reason: 承诺识别与自动执行涉及授权与误判风险，公开材料未说明人工确认边界与交付确定性。
+    evidence_ids:
+    - ev-19a83dff7b8d4498
+  next_validation: 收集 Sol 官方产品页或定价页，确认其交付形态、人工确认环节与收费方式。
+  market: ''
+  job: 销售或客户成功人员在邮件往来中做出承诺后，需要有人记住并落实这些承诺，避免商机因跟进断档而流失。
+  job_en: After sales or customer success staff make commitments in email threads, someone must remember
+    and carry them out so deals are not lost to dropped follow-up.
+  pain: 承诺散落在多封邮件里，靠人脑记忆和手动建待办，容易漏掉，且漏掉的代价是客户信任和收入。
+  pain_en: Commitments are scattered across many emails and rely on human memory and manual to-do creation,
+    so they get missed, at the cost of customer trust and revenue.
+  current_alternative: 目前多由本人或助理手动翻邮件、记笔记、在 CRM 或待办工具里逐条建任务。
+  current_alternative_en: Today this is usually done by the person or an assistant manually scanning emails,
+    taking notes and creating tasks one by one in a CRM or to-do tool.
+  usage_reason: 相较手动翻邮件建待办，Sol 直接从邮件内容中提取承诺并推进执行，省掉人工识别与录入这一步，因此承诺密集、邮件量大的销售或客户成功人员会考虑使用；此为基于产品能力的推断。
+  usage_reason_en: Compared with manually scanning emails and creating to-dos, Sol extracts commitments
+    directly from email content and works on them, removing the manual identification and entry step,
+    so commitment-heavy sales or customer success staff would consider it; this is an inference from product
+    capability.

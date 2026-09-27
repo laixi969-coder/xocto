@@ -21,7 +21,7 @@ canonical_url: https://chromewebstore.google.com/detail/kosh-bookmark-manager/me
 summary: 'Done Right: Stop Building a Cemetery of Links'
 first_seen: '2026-09-25T21:04:22Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

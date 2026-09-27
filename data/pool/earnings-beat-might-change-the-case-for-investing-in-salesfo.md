@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNMjlwT3hDVjZm
 summary: Earnings Beat Might Change The Case For Investing In Salesforce Stock (CRM) simplywall.st
 first_seen: '2026-09-26T04:33:28Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -23,7 +23,7 @@ summary: Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. Thi
   at what we thought then was a wild pivot point for the internet — and now it […]
 first_seen: '2026-09-26T14:00:00Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

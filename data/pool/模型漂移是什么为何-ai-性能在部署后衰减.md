@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPQjZpV1lGZ0Zy
 summary: 模型漂移是什么？为何 AI 性能在部署后衰减 Unite.AI
 first_seen: '2026-09-26T12:04:58Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-motion-video-skill-2026-09-27
+  project_slug: motion-video-skill
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决卡点动效视频批量产出中字幕、配音与节拍对齐的重复劳动，旧做法是剪辑软件里手工对齐，不做的代价是出片速度受限。
+    evidence_ids:
+    - ev-9b97aa6c56508323
+    - ev-58089faa636b1744
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标从 47 增至 67，属于关注度信号，没有用户评价或客户案例说明它已进入日常出片流程。
+    evidence_ids:
+    - ev-58089faa636b1744
+  - gate: model
+    status: insufficient
+    reason: 仓库为 MIT 开源，未见定价页或付费路径；谁付钱尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9b97aa6c56508323
+  - gate: truth
+    status: insufficient
+    reason: 成片质量、字幕准确率与人工返工比例均无公开材料，交付确定性无法核对。
+    evidence_ids:
+    - ev-58089faa636b1744
+  next_validation: 收集该仓库的 issue 与 discussion，看是否有用户报告成片返工比例或字幕对齐问题。
+  market: ''
+  job: 短视频运营或动效设计师在需要按周批量产出卡点动效视频时，处理脚本、配音稿和素材，要完成一条可直接发布的 1080p 成片。
+  job_en: A short-video operator or motion designer producing beat-synced motion videos weekly handles
+    scripts, voice-over copy and assets to finish a publishable 1080p video.
+  pain: 卡点、配音、逐字字幕和音效原本要在剪辑软件里逐条手工对齐，重复且耗时，批量产出时最容易卡在字幕与节拍对齐这一步。
+  pain_en: Beat sync, voice-over, word-level captions and SFX are normally aligned by hand clip by clip
+    in an editor, which is repetitive and slow, and caption-to-beat alignment is the step that blocks
+    volume output.
+  current_alternative: 在剪辑软件里手工卡点、手工打字幕，或用模板套剪；部分团队外包给剪辑师按条计费。
+  current_alternative_en: Manual beat cutting and caption typing in an editor, template-based editing,
+    or outsourcing to freelance editors paid per video.
+  usage_reason: 推断：相较手工在剪辑软件里逐条对齐，它把渲染、配音、逐字字幕和音效合成放进一次 agent 调用，减少的是字幕与节拍对齐这一步的人工操作，因此需要日更或周更卡点视频的运营与代运营团队会在批量出片时选择它。
+  usage_reason_en: 'Inference: versus aligning clips by hand in an editor, it folds rendering, voice-over,
+    word-level captions and SFX into one agent call, removing the manual caption-to-beat alignment step,
+    so operators and agencies publishing beat-synced videos daily or weekly would pick it for batch output.'

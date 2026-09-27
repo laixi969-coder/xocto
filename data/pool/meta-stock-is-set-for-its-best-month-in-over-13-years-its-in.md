@@ -23,7 +23,7 @@ summary: META Stock Is Set For Its Best Month In Over 13 Years — It’s Inches
   Cap tradingview.com
 first_seen: '2026-09-24T23:16:20Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

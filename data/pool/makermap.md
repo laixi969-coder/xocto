@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/makermap
 summary: A living map of makers and what they’re building
 first_seen: '2026-09-25T23:58:29Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

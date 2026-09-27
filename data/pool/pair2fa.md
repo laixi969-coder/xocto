@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/pair2fa
 summary: Secure 2FA sharing for teams
 first_seen: '2026-09-21T16:44:17Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

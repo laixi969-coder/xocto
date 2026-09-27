@@ -1,0 +1,44 @@
+- id: req-initial-hemory-2026-09-27
+  project_slug: hemory
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 agent 跨会话记忆检索，但材料未说明不采用时的具体后果与旧流程，需求强度无法判定。
+    evidence_ids:
+    - ev-f227efdf34983cf0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品说明，无用户评价、采用或讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-f227efdf34983cf0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自开发者订阅、企业采购还是其他路径。
+    evidence_ids:
+    - ev-f227efdf34983cf0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对记忆检索的准确性与确定性交付，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-f227efdf34983cf0
+  next_validation: 收集 Hemory 官方文档或定价页，确认其记忆存储与检索的接入方式、计费口径及是否公开客户案例。
+  market: ''
+  job: AI agent 开发者或运维者在 agent 跨会话执行任务时，处理此前的对话与任务记录，需要让 agent 在后续调用中取回相关历史信息。
+  job_en: AI agent developers or operators, when an agent runs tasks across sessions, handle prior conversation
+    and task records and need the agent to retrieve relevant history in later calls.
+  pain: 公开材料只说明提供可搜索记忆，未说明没有它时用户具体卡在哪一步、会付出什么代价，痛点无法从现有事实还原。
+  pain_en: The public material only says it offers searchable memory; it does not show which step users
+    are stuck on without it or what it costs them, so the pain cannot be reconstructed from available
+    facts.
+  current_alternative: 开发者通常使用向量数据库、框架自带的记忆模块或自行拼接上下文来保存历史，但这些替代方式在候选材料中未被提及，属于推断。
+  current_alternative_en: Developers typically use vector databases, framework-native memory modules,
+    or hand-rolled context assembly to keep history, but these alternatives are not mentioned in the candidate
+    material and are inference.
+  usage_reason: 无法判断：材料未说明它相较向量库或框架自带记忆减少了哪一步操作，也未给出任何接入或使用反馈，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes compared with vector
+    stores or framework-native memory, nor does it offer any integration or usage feedback, so it cannot
+    explain why users would choose it.'

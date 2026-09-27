@@ -1,0 +1,43 @@
+- id: req-initial-ekselio-2026-09-27
+  project_slug: ekselio
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决财务工作流的搭建问题，但公开材料只有一句定位，说不清用户原来卡在哪一步、不解决会怎样，需求结构无法还原。
+    evidence_ids:
+    - ev-60ac6e8e5d42b650
+  - gate: consensus
+    status: insufficient
+    reason: 只有 27 点、6 条评论的社区讨论，属于关注度信号，不能说明财务从业者已形成采用共识。
+    evidence_ids:
+    - ev-60ac6e8e5d42b650
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，钱从 to C、to B 还是 to VC 来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-60ac6e8e5d42b650
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近财务工作的第一性目标、交付是否确定发生，也看不到人工复核边界。
+    evidence_ids:
+    - ev-60ac6e8e5d42b650
+  next_validation: 收集 Ekselio 官方产品页或文档，确认它接收哪些财务材料、执行哪一步、输出什么交付物，以及是否公布定价。
+  market: ''
+  job: 财务或分析岗位的人在做预算、对账、报表合并时，需要把散落在表格和系统里的数字整理成可复核的结果。
+  job_en: A finance or analyst professional doing budgeting, reconciliation or report consolidation needs
+    to turn numbers scattered across spreadsheets and systems into a reviewable result.
+  pain: 公开材料只给出“面向财务工作流的本地优先构建工具”这一句定位，没有说明用户原来卡在哪一步、不解决会付出什么代价，痛点无法从现有事实还原。
+  pain_en: The public material gives only the positioning line "local-first Lovable for finance workflows"
+    and does not say which step users were stuck on or what it costs them to leave it unsolved, so the
+    pain cannot be reconstructed from available facts.
+  current_alternative: 推断：财务人员目前多用 Excel 加人工核对，或把数据交给通用云端助手处理，但候选材料没有给出任何关于现有替代做法的描述。
+  current_alternative_en: 'Inference: finance staff currently rely on Excel plus manual checking, or hand
+    data to a general cloud assistant, but the candidate material gives no description of existing alternatives.'
+  usage_reason: 无法判断。相较旧做法它减少了哪一步负担、改善了哪项可核对结果，公开材料均未说明；仅“本地优先”这一点可能吸引对数据外流敏感的财务团队，但这属于推断，不是已核实的采用理由。
+  usage_reason_en: Cannot be judged. The material does not say which step it removes versus the old way
+    or which checkable result it improves; only "local-first" might attract finance teams sensitive to
+    data leaving the premises, and that is an inference, not a verified reason for adoption.

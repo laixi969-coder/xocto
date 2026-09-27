@@ -1,0 +1,42 @@
+- id: req-initial-socialgpt-2026-09-27
+  project_slug: socialgpt
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逐段剪辑重复耗时的问题，交付物是可发布成片，痛点具体；买方可能是创作者或营销团队，公开材料未说明谁付费。
+    evidence_ids:
+    - ev-e869a6a753f6a3f2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句定位描述，没有用户评价、采用规模或社区讨论，共识无法判断。
+    evidence_ids:
+    - ev-e869a6a753f6a3f2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，收入来自个人订阅还是团队采购属于判断而非已验证事实。
+    evidence_ids:
+    - ev-e869a6a753f6a3f2
+  - gate: truth
+    status: insufficient
+    reason: 对话指令能否稳定映射到具体剪辑动作、出错后如何回退，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-e869a6a753f6a3f2
+  next_validation: 收集该产品的官方定价页或演示视频，确认对话指令可执行的剪辑操作范围与输出格式。
+  market: ''
+  job: 短视频创作者或社媒运营，在需要按脚本快速改出多个版本时，处理拍摄素材与时间线，要交付一条可直接发布的成片。
+  job_en: Short-video creators or social media operators who, when producing several versions from a script,
+    work with raw footage and a timeline to deliver a publishable cut.
+  pain: 逐段裁切、拼接和调整节奏重复且耗时，改一版就要重做一遍时间线操作。
+  pain_en: Trimming, stitching and adjusting pacing clip by clip is repetitive and slow, and each revision
+    means redoing the timeline work.
+  current_alternative: 创作者在剪辑软件里手动操作时间线，或把素材交给剪辑外包按条付费。
+  current_alternative_en: Creators operate the timeline manually in editing software, or hand footage
+    to an editing freelancer paid per video.
+  usage_reason: 推断：相较手动拖拽时间线，用对话描述修改可以让 AI 直接执行剪辑动作，省去逐段定位与调整的一步，因此需要快速产出多版本内容的创作者会先试用它。
+  usage_reason_en: 'Inference: compared with dragging a timeline manually, describing edits in conversation
+    lets AI execute the cut directly, removing the step of locating and adjusting each clip, so creators
+    who need many versions quickly would try it first.'

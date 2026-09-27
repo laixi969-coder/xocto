@@ -1,0 +1,42 @@
+- id: req-initial-gutcheck-2026-09-27
+  project_slug: gutcheck
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地代码库中语义检索的需求，痛点是关键词搜索漏掉同义片段，旧做法是 grep 或上传云端，结构上成立。
+    evidence_ids:
+    - ev-675e95a27620bef1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户评价、案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-675e95a27620bef1
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或商业主体，是否收费及向谁收费均属未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-675e95a27620bef1
+  - gate: truth
+    status: insufficient
+    reason: 本地 CPU 模型能否在真实代码库上稳定给出可用结果，缺少可复现实测与准确率材料。
+    evidence_ids:
+    - ev-675e95a27620bef1
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认支持的输入格式、模型与是否有可复现的检索效果说明。
+  market: ''
+  job: 开发者在本地代码库或文档目录中查找语义相近的片段时，需要在不把文件上传到外部服务的前提下完成检索。
+  job_en: A developer searching a local codebase or document directory for semantically similar passages
+    needs to retrieve them without uploading files to an external service.
+  pain: grep 只能匹配字面关键词，同义表达、改写过或换语言的片段搜不到，只能靠记忆逐个目录翻找。
+  pain_en: grep only matches literal keywords, so synonymous, reworded or differently worded passages
+    are missed and the developer has to browse directories from memory.
+  current_alternative: 现在多用 grep、IDE 全局搜索，或把代码贴进云端对话工具问一遍，后者需要把私有代码传出本机。
+  current_alternative_en: Today people use grep, IDE-wide search, or paste code into a cloud chat tool,
+    the latter requiring private code to leave the machine.
+  usage_reason: 推断：它把语义检索放在本地 CPU 上跑，省掉了“先上传代码再提问”这一步，对不能外传代码的团队来说，这是选择它而非云端工具的直接原因。
+  usage_reason_en: 'Inference: it runs semantic retrieval on a local CPU, removing the step of uploading
+    code before asking, which is the direct reason teams that cannot export code would pick it over a
+    cloud tool.'

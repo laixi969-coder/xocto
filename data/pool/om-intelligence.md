@@ -21,7 +21,7 @@ canonical_url: https://om-intelligence.ch/projects/play.html?p=polycrisis
 summary: Where in Europe to Survive the Polycrisis
 first_seen: '2026-09-26T10:26:34Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

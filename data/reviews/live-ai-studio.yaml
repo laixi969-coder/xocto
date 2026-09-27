@@ -157,3 +157,42 @@
   usage_reason_en: 'Inference: if browser-side real-time processing truly removes green-screen setup and
     post compositing, solo creators would choose it for sessions without an operator; but the candidate
     offers no user feedback or adoption evidence, so this causal link is unproven.'
+- id: req-initial-live-ai-studio-2026-09-27
+  project_slug: live-ai-studio
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决实时换背景的需求，但公开材料未说明旧流程哪一步费时或出错，痛点强度无法确认。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有可归因到该产品的持续采用或付费证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自主播订阅或按场次收费，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对实时处理是否稳定交付，也未说明人工确认边界。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或部署文档，确认其交付形态与收费方式。
+  market: ''
+  job: 主播或视频创作者在开播或录制时，处理摄像头实时画面，要完成人脸跟踪与背景替换，得到可直接播出的画面。
+  job_en: A streamer or video creator handles the live camera feed while broadcasting or recording, needing
+    face tracking and background replacement to produce directly broadcastable footage.
+  pain: 公开材料只给出功能描述，没有说明旧流程中具体哪一步费时、出错或成本高，痛点强度无法确认。
+  pain_en: Public material only gives a feature description and does not say which step of the old workflow
+    was slow, error-prone or costly, so pain intensity cannot be confirmed.
+  current_alternative: 现有替代方式可能是 OBS 等直播软件的虚拟摄像头与抠像插件，或绿幕加后期软件，但候选材料未提供对比事实。
+  current_alternative_en: Existing alternatives may be virtual camera and keying plugins in streaming
+    software such as OBS, or green screen plus post-production tools, but the candidate material provides
+    no comparison facts.
+  usage_reason: 推断：若它把抠像与背景替换从后期软件搬到开播那一刻，可省去录制后再处理这一步，需要频繁换背景的主播可能因此选择它；但缺少用户反馈或案例支持。
+  usage_reason_en: 'Inference: if it moves keying and background replacement from post-production software
+    to the moment of going live, it removes the step of processing after recording, which may lead streamers
+    who change backgrounds often to choose it; user feedback or cases are lacking.'

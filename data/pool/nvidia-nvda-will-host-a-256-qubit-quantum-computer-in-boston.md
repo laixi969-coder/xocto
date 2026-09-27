@@ -1,6 +1,6 @@
 ---
 slug: nvidia-nvda-will-host-a-256-qubit-quantum-computer-in-boston
-name: NVIDIA (NVDA) Will Host A 256 Qubit Quantum Computer In Boston
+name: NVIDIA
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ2lIVHplcjZp
 summary: NVIDIA (NVDA) Will Host A 256 Qubit Quantum Computer In Boston simplywall.st
 first_seen: '2026-09-26T21:26:40Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA (NVDA) Will Host A 256 Qubit Quantum Computer In Boston
+# NVIDIA
 
 NVIDIA (NVDA) Will Host A 256 Qubit Quantum Computer In Boston simplywall.st
 

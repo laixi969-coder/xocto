@@ -1,0 +1,42 @@
+- id: req-initial-mcp-audit-tool-2026-09-27
+  project_slug: mcp-audit-tool
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是接入第三方 MCP 服务器前的安全审查需求，痛点是配置层权限风险且人工审阅易漏，旧做法是人工读配置或通用密钥扫描。
+    evidence_ids:
+    - ev-f12bec74b0910033
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有约 69 星和 1 个 fork，没有用户评价、客户案例或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-f12bec74b0910033
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或商业主体，开源项目如何收费只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-f12bec74b0910033
+  - gate: truth
+    status: insufficient
+    reason: 扫描规则覆盖范围、误报率与是否被真实团队接入 CI 均无公开证据，交付确定性尚未核验。
+    evidence_ids:
+    - ev-f12bec74b0910033
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于 CI 接入与扫描结果的公开记录，核验是否已有团队实际使用。
+  market: ''
+  job: 平台或安全工程师在把第三方 MCP 服务器接入公司 AI 代理之前，需要审查这些服务器的配置与依赖，判断能否放行。
+  job_en: Platform or security engineers review third-party MCP server configs and dependencies before
+    letting them into a company AI agent.
+  pain: MCP 配置里可能藏着工具投毒、硬编码密钥和命令注入，人工逐条读配置既慢又容易漏，一旦放行就是代理层面的权限风险。
+  pain_en: MCP configs can hide tool poisoning, hardcoded secrets and command injection; reading them
+    by hand is slow and error-prone, and a bad approval grants agent-level access.
+  current_alternative: 目前多靠人工审阅配置文件、通用密钥扫描工具或干脆不审，缺少针对 MCP 工具描述与供应链的专门检查。
+  current_alternative_en: Teams currently rely on manual config review, generic secret scanners, or no
+    review at all, with no check aimed at MCP tool descriptions and supply chain.
+  usage_reason: 推断：相比人工读配置，它把检查固化成一条可重复执行的命令并输出 SARIF，接入 CI 后每次配置变更自动跑一遍，减少漏检和重复劳动，因此已用 CI 的平台团队会在上线前选择它。
+  usage_reason_en: 'Inference: versus manual config reading, it turns the check into a repeatable command
+    emitting SARIF, so CI users get it on every config change, cutting missed findings and repeated work;
+    teams already on CI would pick it before launch.'

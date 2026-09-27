@@ -1,0 +1,43 @@
+- id: req-initial-morocco-communes-2026-09-27
+  project_slug: morocco-communes
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是获取摩洛哥市镇级普查与边界数据的任务，痛点是官方数据分散、编码不一、手工清洗耗时，旧做法是手工下载清洗或使用不全的第三方数据。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有约 42 星、7 个 fork 和 2 个未关闭 issue，没有使用者评价或机构采用记录，共识尚未形成。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+  - gate: model
+    status: insufficient
+    reason: 项目未披露定价、付费路径或商业主体，是否收费只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+  - gate: truth
+    status: insufficient
+    reason: 数据来源权威性、更新频率与边界精度均无公开核验材料，交付确定性尚未确认。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+  next_validation: 收集该项目的 README 或 issue 中关于数据来源、更新频率与 API 使用记录的公开说明。
+  market: ''
+  job: 做摩洛哥本地研究、公共政策分析或地图产品的人，在需要市镇级人口与边界数据时，通过 API 或 MCP 服务器按编码取数，用于统计与制图。
+  job_en: People doing Morocco-focused research, policy analysis or map products fetch commune-level population
+    and boundary data by code through the API or MCP server for statistics and mapping.
+  pain: 市镇级普查数据与边界通常散落在官方文件或表格里，编码口径不一，整理成可用数据集要花大量手工时间，且容易对不上年份。
+  pain_en: Commune-level census data and boundaries are usually scattered across official files and tables
+    with inconsistent coding, so assembling a usable dataset takes heavy manual work and easily mismatches
+    years.
+  current_alternative: 此前多靠手工下载官方普查文件、自行清洗编码并拼接边界文件，或使用覆盖不全的第三方地图数据。
+  current_alternative_en: Previously teams manually downloaded official census files, cleaned codes themselves
+    and joined boundary files, or used incomplete third-party map data.
+  usage_reason: 推断：相比手工清洗，它把编码、两轮普查与边界打包成统一接口，使用者少做一次数据清洗与对齐，因此需要反复取数的研究者或地图开发者会在建库阶段选择它。
+  usage_reason_en: 'Inference: versus manual cleaning, it packages codes, two census rounds and boundaries
+    behind one interface, saving a cleaning and alignment step, so researchers or map developers who query
+    repeatedly would pick it when building a dataset.'

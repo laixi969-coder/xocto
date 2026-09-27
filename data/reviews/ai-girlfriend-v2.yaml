@@ -1,0 +1,45 @@
+- id: req-initial-ai-girlfriend-v2-2026-09-27
+  project_slug: ai-girlfriend-v2
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是陪伴对话中记忆丢失和声音陌生的问题，旧替代与不采用的后果都能说清，属工作流推理。
+    evidence_ids:
+    - ev-e5c224b97a751276
+    - ev-dea24e93de596581
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有约 46 星标，没有用户持续使用、留存或社区反馈证据。
+    evidence_ids:
+    - ev-e5c224b97a751276
+    - ev-dea24e93de596581
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或买方路径，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-dea24e93de596581
+  - gate: truth
+    status: insufficient
+    reason: 长期记忆是否真的跨会话稳定、声音克隆的同意与安全边界如何处理，公开材料未说明。
+    evidence_ids:
+    - ev-e5c224b97a751276
+  next_validation: 收集该仓库的 issue / discussion 或发布说明，核对长期记忆是否跨会话稳定以及声音克隆的授权与安全边界。
+  market: ''
+  job: 独居或社交有限的个人用户在 Windows 电脑前想找人持续聊天时，处理的是自己过往的对话内容和声音样本，要完成的是获得一个记得住上下文、用熟悉声音回应的陪伴对象。
+  job_en: An individual user who lives alone or has limited social contact, sitting at a Windows PC and
+    wanting ongoing conversation, works with their past conversation content and voice samples to obtain
+    a companion that remembers context and replies in a familiar voice.
+  pain: 通用聊天助手每次对话都从零开始，不记得用户，也没有熟悉的声音，陪伴感很快消失。
+  pain_en: General chat assistants start from zero each session, do not remember the user and lack a familiar
+    voice, so the sense of companionship fades quickly.
+  current_alternative: 用户目前靠通用聊天助手、角色扮演社区或付费陪伴应用，记忆和声音通常不保留在本地。
+  current_alternative_en: Users currently rely on general chat assistants, role-play communities or paid
+    companionship apps, where memory and voice are usually not kept locally.
+  usage_reason: 相较通用助手，它把长期记忆和本地声音克隆放在同一台机器上，用户不必每次重新介绍自己或重新上传声音；这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with general assistants, it keeps long-term memory and local voice cloning
+    on the same machine, so users need not reintroduce themselves or re-upload voice samples each time;
+    this is inference from product capability, with no retention or repeat-use evidence.

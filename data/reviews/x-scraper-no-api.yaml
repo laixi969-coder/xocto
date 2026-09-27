@@ -1,0 +1,43 @@
+- id: req-initial-x-scraper-no-api-2026-09-27
+  project_slug: x-scraper-no-api
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是社交数据获取受限下的取数需求，痛点是接口收费与额度限制，旧做法是买额度或人工复制，结构上成立。
+    evidence_ids:
+    - ev-2ff3f921a233bf6f
+  - gate: consensus
+    status: insufficient
+    reason: 公开时仅 72 星、1 个 fork，属于早期关注度，不能说明已有稳定采用群体。
+    evidence_ids:
+    - ev-2ff3f921a233bf6f
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未见定价页或付费路径；可能靠托管服务或支持收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2ff3f921a233bf6f
+  - gate: truth
+    status: challenged
+    reason: 抓取社交平台数据涉及平台条款与账号风险，合规边界与稳定性尚未在公开材料中说明。
+    evidence_ids:
+    - ev-2ff3f921a233bf6f
+  next_validation: 收集该仓库的 issue 与 discussion，确认使用者是否报告长期重复使用、抓取失败率与合规处理方式。
+  market: ''
+  job: 增长或舆情研究人员在需要长期跟踪某些 X 账号、关键词或时间线时，把散落的推文和搜索结果整理成可分析的数据集。
+  job_en: Growth or sentiment researchers who must track certain X accounts, keywords or timelines over
+    time turn scattered tweets and search results into an analysable dataset.
+  pain: 官方接口收费且额度受限，手工复制粘贴无法规模化，第三方抓取服务又要求交出账号或按量付费。
+  pain_en: Official APIs are paid and rate-limited, manual copying does not scale, and third-party scraping
+    services require handing over accounts or paying per volume.
+  current_alternative: 购买官方 API 额度、使用付费第三方抓取服务，或人工复制粘贴并整理表格。
+  current_alternative_en: Buying official API quota, using paid third-party scraping services, or manually
+    copying and pasting into spreadsheets.
+  usage_reason: 推断：它用使用者自己的浏览器会话在本地完成抓取并直接导出结构化文件，省掉了申请 API 额度或把账号交给第三方这一步，因此预算有限、又需要持续取数的研究或增长人员会在自建流程时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it scrapes locally through the user''s own browser session and exports
+    structured files directly, removing the step of applying for API quota or handing accounts to a third
+    party, so budget-constrained researchers or growth staff who need continuous data may choose it when
+    building their own pipeline; there is no retention or repeat-use evidence yet.'

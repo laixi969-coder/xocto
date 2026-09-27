@@ -21,7 +21,7 @@ canonical_url: https://github.com/samarkandiy/ollaya-web-ui
 summary: ''
 first_seen: '2026-09-26T11:55:44Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://gamedev.pl/ay/biplane-skirmish
 summary: I made a WWI dogfight game that runs in the browser
 first_seen: '2026-09-25T17:05:27Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

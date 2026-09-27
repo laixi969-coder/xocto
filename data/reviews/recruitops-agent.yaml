@@ -1,0 +1,46 @@
+- id: req-initial-recruitops-agent-2026-09-27
+  project_slug: recruitops-agent
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决批量投递中的整理与跟进问题，痛点存在，但公开材料未说明具体动作与交付，无法确认替代了哪一步人工。
+    evidence_ids:
+    - ev-945e927715d13403
+    - ev-48b377516d90786c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从78增至87，属于关注度信号，没有用户反馈或采用证据说明谁在用、用在什么环节。
+    evidence_ids:
+    - ev-945e927715d13403
+    - ev-48b377516d90786c
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方是求职者本人还是猎头机构尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-945e927715d13403
+  - gate: truth
+    status: insufficient
+    reason: 本地优先的定位与招聘投递的第一性目标一致，但承诺能否确定性交付、人工边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-945e927715d13403
+    - ev-48b377516d90786c
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际读取哪些材料、执行哪些投递动作以及产出什么交付物。
+  market: ''
+  job: 求职者在同时投递大量岗位时，需要整理职位信息、跟踪投递进度并完成重复的申请操作。
+  job_en: A job seeker applying to many roles at once needs to organize postings, track application progress,
+    and complete repetitive application steps.
+  pain: 批量投递时职位信息分散、进度靠手工表格维护，容易漏跟或重复投递。
+  pain_en: When applying at volume, postings are scattered and progress is tracked manually in spreadsheets,
+    making missed follow-ups or duplicate applications likely.
+  current_alternative: 用表格、浏览器书签和招聘平台自带的收藏功能手工管理投递。
+  current_alternative_en: Managing applications manually with spreadsheets, browser bookmarks, and job
+    boards' built-in saved lists.
+  usage_reason: 推断：它把职位信息读取与投递动作放在本地一次完成，可能省去逐条复制粘贴和手工登记这一步，因此批量投递的求职者会尝试它；但公开材料未说明具体动作与交付，无法确认是否真的减少负担。
+  usage_reason_en: 'Inference: it performs posting intake and application actions locally in one pass,
+    potentially removing step-by-step copy-paste and manual logging, which is why high-volume applicants
+    might try it; public material does not describe the concrete actions or deliverable, so the reduction
+    in effort cannot be confirmed.'

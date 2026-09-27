@@ -1,6 +1,6 @@
 ---
 slug: hysata-launches-ai-powered-production-line-to-boost-electrol
-name: Hysata launches AI-powered production line to boost electrolyser manufacturing
+name: Hysata
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Hysata launches AI-powered production line to boost electrolyser manufa
   News
 first_seen: '2026-09-24T13:00:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Hysata launches AI-powered production line to boost electrolyser manufacturing
+# Hysata
 
 Hysata launches AI-powered production line to boost electrolyser manufacturing Indian Chemical News
 

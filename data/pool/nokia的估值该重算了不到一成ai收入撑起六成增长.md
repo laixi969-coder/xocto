@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGI2d0lfLWMy
 summary: Nokia的估值该重算了：不到一成AI收入，撑起六成增长 TradingKey
 first_seen: '2026-09-26T22:48:34Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

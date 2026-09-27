@@ -22,7 +22,7 @@ summary: After obtaining an interactive avatar and training it to discuss ventur
   feelings about making AI clones of ourselves.
 first_seen: '2026-09-26T14:00:00Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

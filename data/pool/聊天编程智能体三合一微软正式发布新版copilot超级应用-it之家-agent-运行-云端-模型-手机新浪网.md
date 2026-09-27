@@ -1,11 +1,13 @@
 ---
 slug: 聊天编程智能体三合一微软正式发布新版copilot超级应用-it之家-agent-运行-云端-模型-手机新浪网
-name: 聊天、编程、智能体三合一，微软正式发布新版Copilot“超级应用”|IT之家|Agent|运行|云端|模型_手机新浪网
+name: Microsoft Copilot
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 微软把聊天、编程与智能体运行合并进同一个 Copilot 应用，属于平台级入口整合，而非独立新产品；公开材料未提供定价、客户或采用数据。
 inspiration: ''
-summary_en: ''
+summary_en: Microsoft merged chat, coding and agent execution into a single Copilot application, a platform-level
+  entry consolidation rather than a standalone new product; the public material provides no pricing, customer
+  or adoption data.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ3JYVWhqNF8y
 summary: 聊天、编程、智能体三合一，微软正式发布新版Copilot“超级应用”|IT之家|Agent|运行|云端|模型_手机新浪网 新浪财经
 first_seen: '2026-09-25T13:21:19Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# 聊天、编程、智能体三合一，微软正式发布新版Copilot“超级应用”|IT之家|Agent|运行|云端|模型_手机新浪网
+# Microsoft Copilot
 
 聊天、编程、智能体三合一，微软正式发布新版Copilot“超级应用”|IT之家|Agent|运行|云端|模型_手机新浪网 新浪财经
 

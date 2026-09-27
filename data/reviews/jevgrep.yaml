@@ -1,0 +1,45 @@
+- id: req-initial-jevgrep-2026-09-27
+  project_slug: jevgrep
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在陌生代码库中按行为而非字面定位代码的需求，痛点具体，替代的是关键词检索加人工翻文件这一步。
+    evidence_ids:
+    - ev-56ab462e5b901e4b
+    - ev-8a77512a96930a85
+  - gate: consensus
+    status: insufficient
+    reason: 两个同名仓库分别有 128 与 77 个星标，说明有开发者关注，但无使用反馈或案例支撑持续采用。
+    evidence_ids:
+    - ev-56ab462e5b901e4b
+    - ev-8a77512a96930a85
+  - gate: model
+    status: insufficient
+    reason: 开源命令行工具，未见定价、客户或采购记录，买方与付费路径均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-56ab462e5b901e4b
+  - gate: truth
+    status: insufficient
+    reason: 无法确认检索结果在大型仓库中的准确率，也看不到人工复核与误报处理方式。
+    evidence_ids:
+    - ev-8a77512a96930a85
+  next_validation: 收集该仓库的 issue 与实测记录，核对在真实仓库中按行为检索的命中率与误报情况。
+  market: ''
+  job: 软件工程师在接手或维护不熟悉的代码库时，需要先定位与某个行为相关的文件和源码位置，再交给编码智能体修改。
+  job_en: A software engineer taking over or maintaining an unfamiliar codebase needs to locate the files
+    and source locations tied to a behavior before handing the change to a coding agent.
+  pain: 关键词检索只能匹配字面，行为相关的代码常常命名不同，人工翻文件耗时且容易漏掉调用点。
+  pain_en: Keyword search only matches literal text, behavior-related code is often named differently,
+    and manually reading files is slow and easily misses call sites.
+  current_alternative: 用 grep 或 IDE 全局搜索按关键词找文件，再靠人工阅读判断相关性。
+  current_alternative_en: Using grep or IDE-wide search by keyword, then reading files manually to judge
+    relevance.
+  usage_reason: 推断：它把“这段代码做什么”的描述直接映射到文件与行号，省掉先猜关键词再逐个打开文件确认的那一步，因此接手陌生仓库或做跨仓库改动的工程师会尝试它；公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: it maps a description of what code does directly to files and line numbers,
+    removing the step of guessing keywords and opening files one by one, so engineers taking over unfamiliar
+    repositories or making cross-repo changes would try it; public material shows no retention or payment
+    evidence.'

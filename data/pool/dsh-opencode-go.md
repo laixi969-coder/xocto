@@ -21,7 +21,7 @@ canonical_url: https://github.com/Duskriver/dsh-opencode-go
 summary: 让你的DSH完美适配opencodeg-go套餐
 first_seen: '2026-09-15T14:48:57Z'
 last_seen: '2026-09-27T00:36:20Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

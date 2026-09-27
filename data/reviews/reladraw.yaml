@@ -1,0 +1,43 @@
+- id: req-initial-reladraw-2026-09-27
+  project_slug: reladraw
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决自动排版不符合表达意图、手工调整耗时的问题，痛点方向清楚，但公开材料未说明 AI 承担什么动作。
+    evidence_ids:
+    - ev-bf8ddd10e6154c60
+  - gate: consensus
+    status: insufficient
+    reason: 167点与47条评论属于社区关注度信号，没有采用或持续使用证据。
+    evidence_ids:
+    - ev-bf8ddd10e6154c60
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是个人开发者还是团队付费尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bf8ddd10e6154c60
+  - gate: truth
+    status: insufficient
+    reason: 把布局控制权交回使用者与精确表达的目标一致，但交付确定性与人工边界公开材料未说明。
+    evidence_ids:
+    - ev-bf8ddd10e6154c60
+  next_validation: 收集该仓库的 README 与文档，确认 AI 在图表生成中承担的具体动作以及产出格式。
+  market: ''
+  job: 开发者在写技术文档或画架构图时，需要把元素按自己的意图摆放并产出图表。
+  job_en: A developer writing technical documentation or drawing architecture diagrams needs to place
+    elements as intended and produce a diagram.
+  pain: 自动排版工具常把元素摆到不符合表达意图的位置，手工调整版式耗时。
+  pain_en: Automatic layout tools often place elements where they do not match the intended message, and
+    manually fixing layout is time-consuming.
+  current_alternative: 用通用绘图工具手工拖拽，或接受自动排版后再逐项调整。
+  current_alternative_en: Dragging elements manually in general drawing tools, or accepting automatic
+    layout and then adjusting item by item.
+  usage_reason: 推断：它把摆放位置的决定权交给使用者，可能省去自动排版后再逐项调整版式这一步，因此对版式有要求的开发者会尝试；但公开材料未说明 AI 在其中的具体动作，无法确认减少的负担。
+  usage_reason_en: 'Inference: it gives placement decisions to the user, potentially removing the step
+    of adjusting layout item by item after automatic layout, which is why developers with layout requirements
+    might try it; public material does not describe AI''s concrete role, so the reduced effort cannot
+    be confirmed.'

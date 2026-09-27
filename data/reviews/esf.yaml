@@ -1,0 +1,43 @@
+- id: req-initial-esf-2026-09-27
+  project_slug: esf
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理执行不可复核的痛点，但公开材料只有仓库简介，无法确认旧流程与交付结果。
+    evidence_ids:
+    - ev-8e5b3b8bd844ef29
+    - ev-0fe9c1bb16464181
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度，不能说明团队已把它放进交付流程。
+    evidence_ids:
+    - ev-0fe9c1bb16464181
+  - gate: model
+    status: insufficient
+    reason: 开源自托管，未见定价、付费或企业采购信息，买方与收费方式均不明。
+    evidence_ids:
+    - ev-8e5b3b8bd844ef29
+  - gate: truth
+    status: insufficient
+    reason: 无法核验确定性验证是否真能覆盖真实工程场景，也未见人工边界说明。
+    evidence_ids:
+    - ev-8e5b3b8bd844ef29
+  next_validation: 收集该仓库的部署文档与 issue/discussion，确认验证环节的实际输入输出与人工确认边界。
+  market: ''
+  job: 平台工程师在自建交付流水线里，把一次代码变更交给沙箱代理执行构建与测试，并需要拿到可复核的验证结论。
+  job_en: Platform engineers hand a code change to sandboxed agents in their own delivery pipeline to
+    run builds and tests, and need a reviewable verification outcome.
+  pain: 代理执行过程不透明、结果难以复现，出问题后缺少可追溯证据，团队不敢把放行权交给自动化。
+  pain_en: Agent execution is opaque and hard to reproduce, and without traceable evidence teams dare
+    not delegate release approval to automation.
+  current_alternative: 现有做法是人工在 CI 里配置流水线、靠日志和口头约定判断是否放行。
+  current_alternative_en: Today teams hand-configure CI pipelines and judge release readiness from logs
+    and informal agreement.
+  usage_reason: 推断：它把验证与留痕做成流水线内的固定环节，省去人工逐条比对日志这一步，因此对需要审计的团队有吸引力；但公开材料未给出任何采用或留存证据。
+  usage_reason_en: 'Inference: it makes verification and evidence a fixed pipeline step, removing manual
+    log-by-log comparison, which appeals to teams needing audit trails; however no public adoption or
+    retention evidence is provided.'

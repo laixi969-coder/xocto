@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiggFBVV95cUxPWC1GVDdjTEpL
 summary: 打破单一工具局限！《赢在AI+》走进“智效跃迁” hznews.hangzhou.com.cn
 first_seen: '2026-09-24T07:41:00Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

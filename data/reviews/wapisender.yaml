@@ -1,0 +1,44 @@
+- id: req-initial-wapisender-2026-09-27
+  project_slug: wapisender
+  level: initial
+  reviewed_at: '2026-09-27T00:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 WhatsApp 消息人工处理慢、易漏回的需求，痛点结构成立，但候选未给出任何用户、场景或采用证据，价值判断只能停留在结构推理。
+    evidence_ids:
+    - ev-69f91cfe2e02e058
+  - gate: consensus
+    status: insufficient
+    reason: 除一条发布信息外，没有关注、评价或社区讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-69f91cfe2e02e058
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-69f91cfe2e02e058
+  - gate: truth
+    status: insufficient
+    reason: 无法核对自动回复的准确率、人工边界与交付确定性，承诺能否兑现缺少材料支持。
+    evidence_ids:
+    - ev-69f91cfe2e02e058
+  next_validation: 收集 WapiSender 官方定价页或客户案例，确认其收费方式与真实使用场景。
+  market: ''
+  job: 中小商家或客服人员在 WhatsApp 上收到客户咨询、订单或售后消息时，需要按规则回复、分流并记录，避免漏回或响应过慢。
+  job_en: When small merchants or support staff receive customer inquiries, orders or after-sales messages
+    on WhatsApp, they need to reply, route and log them by rules, avoiding missed or slow responses.
+  pain: 人工逐条处理 WhatsApp 消息耗时且容易遗漏，尤其在多语言、多时区场景下响应不及时会直接丢单；但候选材料未提供任何用户抱怨或采用证据。
+  pain_en: Handling WhatsApp messages one by one is time-consuming and error-prone, and slow responses
+    in multilingual, multi-timezone settings can directly lose sales; however, the candidate material
+    provides no user complaints or adoption evidence.
+  current_alternative: 商家通常用 WhatsApp 自带快捷回复、人工客服轮班，或第三方群发与客服工具，AI 编排并非唯一选择。
+  current_alternative_en: Merchants typically use WhatsApp's built-in quick replies, shift-based human
+    agents, or third-party broadcast and support tools; AI orchestration is not the only option.
+  usage_reason: 推断：相较人工逐条回复，它把常见咨询交给可视化流程自动应答，可能减少重复回复这一步；但材料未说明具体行业场景、准确率或人工确认环节，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: compared with replying manually one by one, it hands common inquiries to
+    visual flows for automatic answers, potentially removing the repetitive-reply step; but the material
+    does not specify industry scenarios, accuracy or human confirmation, so it cannot be confirmed that
+    users would choose it for this reason.'

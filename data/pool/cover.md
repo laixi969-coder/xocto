@@ -3,16 +3,16 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: 开发者在把真实数据交给外部 AI 接口前打开它，由代理把姓名、地址等敏感字段替换成逼真的假值再发出请求，返回结果在本地还原成原始信息。用户拿到的是可继续使用的真实输出，但具体支持的字段类型、还原准确率和人工复核环节仍待核验。
-inspiration: 趋势是 AI 调用正在把企业内部数据持续送出边界，隐私处理从合规文档变成请求链路上的一步。切入可以从处理个人数据的行业（医疗、金融、法务外包）进入，把脱敏做成随调用计费或按数据量收费的网关，而不是再做一个通用代理框架。
-summary_en: 'Developers open it before sending real data to an external AI API: the proxy swaps names,
-  addresses and other sensitive fields for realistic fakes, then restores the originals locally in the
-  returned output. Users get usable real output, though supported field types, restoration accuracy and
-  any human review step still need verification.'
-inspiration_en: 'The trend is that AI calls keep pushing internal data across the boundary, turning privacy
-  handling from a compliance document into a step in the request path. Entry point: industries handling
-  personal data (healthcare, finance, outsourced legal), selling de-identification as a per-call or per-volume
-  gateway rather than another generic agent framework.'
+summary_zh: 开发者在把真实客户数据交给外部大模型处理时，可先经它把姓名、账号等敏感字段替换成逼真假数据再发出，模型返回后在本机把原值还原，最终拿到可用的模型输出而原始数据不出本地；还原环节仍需人工确认。具体流程与交付细节仍待核验。
+inspiration: 趋势是 AI 应用开始把敏感数据外发当成必须处理的合规环节，而不是事后补救。切入可从处理病历、保单、财税凭证这类不能外流材料的行业入手，把脱敏与还原做成随调用发生的默认步骤，而不是让团队自己写脚本。
+summary_en: When developers send real customer data to an external model, this proxy swaps names, accounts
+  and other sensitive fields for realistic fakes before the request leaves, then restores the originals
+  locally on the response, so usable model output comes back while raw data stays on the machine; the
+  restore step still needs human confirmation. The exact workflow and deliverables remain unverified.
+inspiration_en: The trend is that AI applications now treat sensitive-data egress as a step to be handled
+  by default rather than patched afterwards. A wedge is to enter industries whose materials cannot leave
+  the premises, such as medical records, insurance policies or tax documents, and make masking and restoration
+  happen with each call instead of leaving teams to write their own scripts.
 priority_review: false
 project_type: open_source
 industries: []
@@ -27,7 +27,7 @@ canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-09-27T00:36:53Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - officialfeeds

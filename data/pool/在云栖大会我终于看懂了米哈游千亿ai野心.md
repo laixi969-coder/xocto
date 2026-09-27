@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/497613.html
 summary: 大伟哥：如果做不到，一年两年之后过来打我脸
 first_seen: '2026-09-26T07:18:05Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

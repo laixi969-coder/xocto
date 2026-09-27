@@ -1,0 +1,43 @@
+- id: req-initial-byteask-raises-1-million-in-funding-to-build-ai-coding-agent-2026-09-27
+  project_slug: byteask-raises-1-million-in-funding-to-build-ai-coding-agent
+  level: initial
+  reviewed_at: '2026-09-27T00:36:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决 C/C++ 改动定位与验证的问题，但公开材料未说明具体输入、动作与交付，痛点强度无法确认。
+    evidence_ids:
+    - ev-3cc733f2f03993b1
+  - gate: consensus
+    status: insufficient
+    reason: 除融资报道外，没有开发者评价、社区讨论或采用迹象可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-3cc733f2f03993b1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；100 万美元融资只说明有人出资，不构成用户付费路径。
+    evidence_ids:
+    - ev-3cc733f2f03993b1
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成代码是否可编译、是否贴近 C/C++ 工程的第一性目标，也看不到人工复核边界。
+    evidence_ids:
+    - ev-3cc733f2f03993b1
+  next_validation: 收集 ByteAsk 官方产品页或文档，确认其面向 C/C++ 的具体输入、动作、交付形式与是否公开定价。
+  market: ''
+  job: C/C++ 开发工程师在维护大型存量代码库时，需要定位缺陷、修改实现并让改动通过编译与测试。
+  job_en: A C/C++ engineer maintaining a large legacy codebase needs to locate defects, change the implementation,
+    and get the change through compilation and tests.
+  pain: C/C++ 代码库依赖关系复杂、构建与调试链路长，人工定位和验证改动耗时；但公开材料未说明该产品具体减轻哪一步。
+  pain_en: C/C++ codebases have tangled dependencies and long build-and-debug chains, so locating and
+    verifying changes by hand is slow; public material does not say which step the product actually relieves.
+  current_alternative: 开发者目前依靠 IDE 索引、编译器报错、调试器和通用代码助手完成同类工作。
+  current_alternative_en: Developers currently rely on IDE indexing, compiler errors, debuggers and general-purpose
+    code assistants for the same work.
+  usage_reason: 推断：若该代理能直接读取构建配置与编译错误并给出可编译的补丁，就能省去开发者手工在报错与源码间来回定位的一步，从而吸引维护大型 C/C++ 项目的团队；但缺少产品细节与使用证据，此判断仅为结构推理。
+  usage_reason_en: 'Inference: if the agent can read build configuration and compiler errors and return
+    compilable patches, it removes the manual step of tracing between errors and source, which would appeal
+    to teams maintaining large C/C++ projects; without product detail or usage evidence this remains structural
+    reasoning only.'

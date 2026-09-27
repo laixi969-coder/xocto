@@ -22,7 +22,7 @@ summary: The company behind Facebook and Instagram wants to keep consumers conne
   via its ever-growing line of smart glasses.
 first_seen: '2026-09-26T01:08:57Z'
 last_seen: '2026-09-27T00:36:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

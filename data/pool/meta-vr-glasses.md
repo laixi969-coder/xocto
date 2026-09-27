@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/meta-vr-glasses
 summary: A Cinema, Courtside Seat, and Workspace in Just 100 Grams
 first_seen: '2026-09-24T03:53:44Z'
 last_seen: '2026-09-27T00:36:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

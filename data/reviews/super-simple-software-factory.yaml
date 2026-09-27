@@ -1,0 +1,44 @@
+- id: req-initial-super-simple-software-factory-2026-09-27
+  project_slug: super-simple-software-factory
+  level: initial
+  reviewed_at: '2026-09-27T00:36:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理执行不稳定、难以复现的问题，痛点方向清楚，但公开材料未说明具体交付物与人工确认环节，价值结构尚不完整。
+    evidence_ids:
+    - ev-bdabc6c79b85f3ca
+    - ev-0e0a038b2b737d5b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从63升至84，属关注度信号，不能说明团队或社区已形成持续采用。
+    evidence_ids:
+    - ev-bdabc6c79b85f3ca
+    - ev-0e0a038b2b737d5b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露任何付费路径或买方，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bdabc6c79b85f3ca
+  - gate: truth
+    status: insufficient
+    reason: 无法核对流水线是否真能确定性交付，也未说明代理出错时的人工边界。
+    evidence_ids:
+    - ev-0e0a038b2b737d5b
+  next_validation: 收集该仓库的 issue 与 discussion，核对是否有开发者报告在真实仓库中重复运行该流水线。
+  market: ''
+  job: 开发者在已有代码仓库中，把编码代理按固定顺序调用，处理依赖升级、测试补齐一类重复工程任务，产出可重复运行的流水线。
+  job_en: Developers invoke coding agents in a fixed order inside an existing repository to handle repetitive
+    engineering tasks such as dependency upgrades or test backfill, producing a repeatable pipeline.
+  pain: 代理每次自由发挥导致结果不稳定，同一任务难以复现，人工要反复检查代理改了什么。
+  pain_en: Agents improvise each run, so results are unstable, the same task is hard to reproduce, and
+    humans must repeatedly inspect what the agent changed.
+  current_alternative: 开发者手工写脚本或提示词，靠人盯着代理逐步执行并事后核对改动。
+  current_alternative_en: Developers hand-write scripts or prompts and watch the agent step by step, checking
+    changes afterwards.
+  usage_reason: 推断：把编排交给确定性 Python、把代理限制为受约束节点，可减少人工逐步盯守与事后核对这一步；但公开材料未给出留存或重复使用证据，尚不能确认开发者已长期留在工作流里。
+  usage_reason_en: 'Inference: letting deterministic Python own orchestration and bounding agents to nodes
+    can remove the step of watching each run and checking afterwards; public material gives no retention
+    or repeat-use evidence, so long-term workflow adoption cannot be confirmed.'
