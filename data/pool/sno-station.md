@@ -35,18 +35,18 @@ summary: Sno Station — your Claude Code and Codex working as one squad on your
   loop that rewrites the agents' own skills with your approval. Open source, no daemon, no cloud required.
   Assembled in public.
 first_seen: '2026-09-19T06:55:24Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://sno.ai
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 228
-    forks: 189
-    open_issues: 0
+    stars: 232
+    forks: 194
+    open_issues: 6
   kind: product
 ---
 

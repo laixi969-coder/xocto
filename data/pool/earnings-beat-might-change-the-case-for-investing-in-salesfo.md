@@ -1,0 +1,41 @@
+---
+slug: earnings-beat-might-change-the-case-for-investing-in-salesfo
+name: Earnings Beat Might Change The Case For Investing In Salesforce Stock (CRM)
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNMjlwT3hDVjZmbmFPakZZR2VCLXBCdUkyNkVwUkJpVWhrc3R3eXMxazBZQ2dyUmJNYVk5NV9PUnhEODV6WkRlSmg3WjJQRmd4S2lGRTJhUFlsMWlsYXFLRjJROVkyM2k2SU1LUUE3VTRxVDFFZFJLUzBJLTMtaTQ2ZmFsQW80T052UGJNeVllVFBZZVAtcnhTU0daaUJwd2tmVVNkQjVPNktRZ1dtQ3NTQVFSY2VmZTlITDczXzRadE1pTUxPZmo4YktR0gHKAUFVX3lxTE0yOXBPeENWNmZuYU9qRllHZUItcEJ1STI2RXBSQmlVaGtzdHd5czFrMFlDZ3JSYk1hWTk1X09SeEQ4NXpaRGVKaDdaMlBGZ3hLaUZFMmFQWWwxaWxhcUtGMlE5WTIzaTZJTUtRQTdVNHFUMUVkUktTMEktMy1pNDZmYWxBbzRPTnZQYk15WWVUUFllUC1yeFNTR1ppQnB3a2ZVU2RCNU82S1FnV21Dc1NBUVJjZWZlOUhMNzNfNFp0TWlNTE9majhiS1E?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNMjlwT3hDVjZmbmFPakZZR2VCLXBCdUkyNkVwUkJpVWhrc3R3eXMxazBZQ2dyUmJNYVk5NV9PUnhEODV6WkRlSmg3WjJQRmd4S2lGRTJhUFlsMWlsYXFLRjJROVkyM2k2SU1LUUE3VTRxVDFFZFJLUzBJLTMtaTQ2ZmFsQW80T052UGJNeVllVFBZZVAtcnhTU0daaUJwd2tmVVNkQjVPNktRZ1dtQ3NTQVFSY2VmZTlITDczXzRadE1pTUxPZmo4YktR0gHKAUFVX3lxTE0yOXBPeENWNmZuYU9qRllHZUItcEJ1STI2RXBSQmlVaGtzdHd5czFrMFlDZ3JSYk1hWTk1X09SeEQ4NXpaRGVKaDdaMlBGZ3hLaUZFMmFQWWwxaWxhcUtGMlE5WTIzaTZJTUtRQTdVNHFUMUVkUktTMEktMy1pNDZmYWxBbzRPTnZQYk15WWVUUFllUC1yeFNTR1ppQnB3a2ZVU2RCNU82S1FnV21Dc1NBUVJjZWZlOUhMNzNfNFp0TWlNTE9majhiS1E?oc=5
+summary: Earnings Beat Might Change The Case For Investing In Salesforce Stock (CRM) simplywall.st
+first_seen: '2026-09-26T04:33:28Z'
+last_seen: '2026-09-27T00:36:53Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNMjlwT3hDVjZmbmFPakZZR2VCLXBCdUkyNkVwUkJpVWhrc3R3eXMxazBZQ2dyUmJNYVk5NV9PUnhEODV6WkRlSmg3WjJQRmd4S2lGRTJhUFlsMWlsYXFLRjJROVkyM2k2SU1LUUE3VTRxVDFFZFJLUzBJLTMtaTQ2ZmFsQW80T052UGJNeVllVFBZZVAtcnhTU0daaUJwd2tmVVNkQjVPNktRZ1dtQ3NTQVFSY2VmZTlITDczXzRadE1pTUxPZmo4YktR0gHKAUFVX3lxTE0yOXBPeENWNmZuYU9qRllHZUItcEJ1STI2RXBSQmlVaGtzdHd5czFrMFlDZ3JSYk1hWTk1X09SeEQ4NXpaRGVKaDdaMlBGZ3hLaUZFMmFQWWwxaWxhcUtGMlE5WTIzaTZJTUtRQTdVNHFUMUVkUktTMEktMy1pNDZmYWxBbzRPTnZQYk15WWVUUFllUC1yeFNTR1ppQnB3a2ZVU2RCNU82S1FnV21Dc1NBUVJjZWZlOUhMNzNfNFp0TWlNTE9majhiS1E?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+---
+
+# Earnings Beat Might Change The Case For Investing In Salesforce Stock (CRM)
+
+Earnings Beat Might Change The Case For Investing In Salesforce Stock (CRM) simplywall.st
+
+## 笔记
+
+

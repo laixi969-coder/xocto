@@ -33,17 +33,17 @@ canonical_url: https://github.com/anthropics/claude-for-financial-advisors
 summary: 'Claude for Financial Advisors: a Claude Cowork plugin with ready-to-run workflows for financial
   advisors, drawing on third-party connectors.'
 first_seen: '2026-09-14T23:08:08Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/claude-for-financial-advisors
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 69
-    forks: 16
+    stars: 70
+    forks: 17
     open_issues: 1
   kind: product
 ---

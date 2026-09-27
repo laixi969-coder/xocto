@@ -20,8 +20,8 @@ url: https://www.reuters.com/world/us/google-maps-will-show-lake-america-us-not-
 canonical_url: https://reuters.com/world/us/google-maps-will-show-lake-america-us-not-lake-ontario-2026-08-30
 summary: Google Maps Now Shows 'Lake America' in US, Not 'Lake Ontario'
 first_seen: '2026-08-31T21:29:03Z'
-last_seen: '2026-09-24T00:30:46Z'
-status: rejected
+last_seen: '2026-09-27T00:36:16Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -107,6 +107,13 @@ sightings:
   metrics:
     points: 21
     comments: 13
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/
+  seen_at: '2026-09-27T00:36:16Z'
+  metrics:
+    points: 65
+    comments: 21
   kind: news
 ---
 

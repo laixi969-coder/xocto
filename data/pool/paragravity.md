@@ -29,16 +29,16 @@ url: https://edison-land.github.io/paragravity/
 canonical_url: https://edison-land.github.io/paragravity
 summary: Native, non-invasive parallel multi-account & sandbox manager for Google Antigravity
 first_seen: '2026-09-22T09:51:33Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://edison-land.github.io/paragravity/
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 209
+    stars: 214
     forks: 18
     open_issues: 0
   kind: product

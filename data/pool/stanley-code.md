@@ -29,16 +29,16 @@ url: https://github.com/devagrawal09/stanley-code
 canonical_url: https://github.com/devagrawal09/stanley-code
 summary: Bounded TypeSafe Jev workflows for coding agents.
 first_seen: '2026-09-17T15:15:24Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/devagrawal09/stanley-code
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 115
+    stars: 117
     forks: 6
     open_issues: 2
   kind: product

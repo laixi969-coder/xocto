@@ -22,7 +22,7 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-09-26T00:38:27Z'
+last_seen: '2026-09-27T00:36:53Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -181,6 +181,33 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHSV9lRnJmaGlnNXFwRmx4aHV2c0tQYmt0S2xTcEJCeFAzdVZPOE9UcU8yeVJSUldxSHVmLThnZ2txY2NjR1FZOUtLNV9LNTZnR3N2eGhXdmZ0R2drUVlibg?oc=5
   seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html
+  seen_at: '2026-09-27T00:36:16Z'
+  metrics:
+    points: 60
+    comments: 14
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1jT2lXa1BuT2tfZVpIcGhIVHUtNzdHc21VNG0taUpiX1pxQWhHQ0xUbU15cVZMME5PM3BrNllpVTlVRnNtR19pTA?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwJBVV95cUxPMm9DQWxwVmRQZkxsTUhuTmtxZGlVWFp3RDFFLWZBemVRRUNNeUMtYnBuNXY4X0VLNHlqWFBxR2NzN1VvbXQxdDF2VGdicWcwSjlKS1Q1WXhzbUtVMEZDVWp0RkVoQ2hZbnFlUnFnMGVFQml4THJHWDJfUVFNT0pDOHZrMkpaSnhMR1M2ei0yWFlsd21GYkhSWHBhelJ3Zk1jMUlBcWFrMDBBamktelUxeUVtckQyVEdQdjdBLTVuamY3S0I3ZFFieWMxSkhDQnZSQXRFZGVQVEFGUlhpLVAxU29TRXg4eXBTa3RZTWlVVnRpTG92ZjdDZHJuanJ0aDhwWlI3T2ZFRdIBhwJBVV95cUxQYnFBbDNkVG0wbm16SmtfYnlrQmZGYWlkVm1OWkFEcV80M3NuQkxELTYzV1oyWHpzMlp1WHZvZHdIZEJaYXVrcTV4Njg0T2E5V1J0bjd5c2xJMW4yUnp6WFVYbm5RNjQ5ZzRpcDlqWi03LTJ4R2ttRTIxaDlSMW5SMEVhRmpXLTVBTkpkSzVhTlZTOGdia2c0eXhFeXhPMEU0cnNEVjJmWmlvZG1EQTByVnZXdkVWazY3OXFHcTBqRG1oTE15YWtoWmJwU0VGdzJ3cS01aXg2bFlfOUdKTF85LVV2S2l0NnJLSl9TdTdGUFFZYjRKZERkaElzOFNteE91SmNEcE43bw?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ2NJM2IwSXpiVGdWaWZDVW02cVhfYm5yN1RtbGkwQXo3a3VwdVF5U3BBRkl6NHNhSUpUT2w4d0oxek9vYXBkbEh0UktWSlhYRk9aSTdJWGg3M2RsUXhiV0RWVzBoYldaaFNKZV9mSmgzLS02NVNycktxb2JoeURMdEw3ZHNuaVUtcWZN?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xOWZvd3FocFUtTnlvZTZtaGpuaTd6aDFWSXl4S0xYOUQyc2xsMjFielhNa0h2RFlkZ0lDVkVKYVNyLW9uaFZVekNfVy11WjJFVlYzV1Q3bVE0ZTd1Rk5LcEFqVzI3UQ?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
   metrics: {}
   kind: news
 ---

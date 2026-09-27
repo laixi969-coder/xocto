@@ -34,17 +34,17 @@ canonical_url: https://github.com/ssssssanjiu/clawd-conduit
 summary: Full-lifecycle wiring between Claude Code and the Clawd on Desk pet — all 15 hook events, with
   permission prompts answered straight from the desktop
 first_seen: '2026-09-09T05:54:41Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ssssssanjiu/clawd-conduit
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 151
-    forks: 8
+    stars: 157
+    forks: 9
     open_issues: 0
   kind: product
 ---

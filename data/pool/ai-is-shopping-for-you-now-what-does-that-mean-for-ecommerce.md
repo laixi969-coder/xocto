@@ -1,0 +1,41 @@
+---
+slug: ai-is-shopping-for-you-now-what-does-that-mean-for-ecommerce
+name: AI is shopping for you now. What does that mean for ecommerce in India?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcElpcHViRzAxMHVUbl84elNySUxkVThnU1ZNeWZIU1R5LXk1Y0ozclpnM05reUw4elZseXRHSkJhTzZWODFjbG9Xd1ZHWGZNQm5lZE5BdzhlVDNtMWFOV1hSaXgyWGRPVGhJQ3NzOTc3aWUtaUlvckdHNDBWV0E5UkgtXzZqaU1QRzFUTHdBeGFmcGE5WGhEeDFCajB1NHlvbGg2a0dwb0lNa1B5VUFNd0xVak4tR3lkZnRGa1pPVkpmYWlWa0lMME1malBjUEx4T0habzJUS0PSAdgBQVVfeXFMTXBJaXB1YkcwMTB1VG5fOHpTcklMZFU4Z1NWTXlmSFNUeS15NWNKM3JaZzNOa3lMOHpWbHl0R0pCYU82VjgxY2xvV3dWR1hmTUJuZWROQXc4ZVQzbTFhTldYUml4MlhkT1RoSUNzczk3N2llLWlJb3JHRzQwVldBOVJILV82amlNUEcxVEx3QXhhZnBhOVhoRHgxQmowdTR5b2xoNmtHcG9JTWtQeVVBTXdMVWpOLUd5ZGZ0RmtaT1ZKZmFpVmtJTDBNZmpQY1BMeE9IWm8yVEtD?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcElpcHViRzAxMHVUbl84elNySUxkVThnU1ZNeWZIU1R5LXk1Y0ozclpnM05reUw4elZseXRHSkJhTzZWODFjbG9Xd1ZHWGZNQm5lZE5BdzhlVDNtMWFOV1hSaXgyWGRPVGhJQ3NzOTc3aWUtaUlvckdHNDBWV0E5UkgtXzZqaU1QRzFUTHdBeGFmcGE5WGhEeDFCajB1NHlvbGg2a0dwb0lNa1B5VUFNd0xVak4tR3lkZnRGa1pPVkpmYWlWa0lMME1malBjUEx4T0habzJUS0PSAdgBQVVfeXFMTXBJaXB1YkcwMTB1VG5fOHpTcklMZFU4Z1NWTXlmSFNUeS15NWNKM3JaZzNOa3lMOHpWbHl0R0pCYU82VjgxY2xvV3dWR1hmTUJuZWROQXc4ZVQzbTFhTldYUml4MlhkT1RoSUNzczk3N2llLWlJb3JHRzQwVldBOVJILV82amlNUEcxVEx3QXhhZnBhOVhoRHgxQmowdTR5b2xoNmtHcG9JTWtQeVVBTXdMVWpOLUd5ZGZ0RmtaT1ZKZmFpVmtJTDBNZmpQY1BMeE9IWm8yVEtD?oc=5
+summary: AI is shopping for you now. What does that mean for ecommerce in India? Business Standard
+first_seen: '2026-09-26T06:05:57Z'
+last_seen: '2026-09-27T00:36:53Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcElpcHViRzAxMHVUbl84elNySUxkVThnU1ZNeWZIU1R5LXk1Y0ozclpnM05reUw4elZseXRHSkJhTzZWODFjbG9Xd1ZHWGZNQm5lZE5BdzhlVDNtMWFOV1hSaXgyWGRPVGhJQ3NzOTc3aWUtaUlvckdHNDBWV0E5UkgtXzZqaU1QRzFUTHdBeGFmcGE5WGhEeDFCajB1NHlvbGg2a0dwb0lNa1B5VUFNd0xVak4tR3lkZnRGa1pPVkpmYWlWa0lMME1malBjUEx4T0habzJUS0PSAdgBQVVfeXFMTXBJaXB1YkcwMTB1VG5fOHpTcklMZFU4Z1NWTXlmSFNUeS15NWNKM3JaZzNOa3lMOHpWbHl0R0pCYU82VjgxY2xvV3dWR1hmTUJuZWROQXc4ZVQzbTFhTldYUml4MlhkT1RoSUNzczk3N2llLWlJb3JHRzQwVldBOVJILV82amlNUEcxVEx3QXhhZnBhOVhoRHgxQmowdTR5b2xoNmtHcG9JTWtQeVVBTXdMVWpOLUd5ZGZ0RmtaT1ZKZmFpVmtJTDBNZmpQY1BMeE9IWm8yVEtD?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+---
+
+# AI is shopping for you now. What does that mean for ecommerce in India?
+
+AI is shopping for you now. What does that mean for ecommerce in India? Business Standard
+
+## 笔记
+
+

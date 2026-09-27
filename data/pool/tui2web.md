@@ -20,16 +20,16 @@ url: https://tui2web.com/
 canonical_url: https://tui2web.com
 summary: use any TUI on the web
 first_seen: '2026-09-25T16:22:08Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-09-27T00:36:16Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tui2web.com/
-  seen_at: '2026-09-26T00:37:52Z'
+  seen_at: '2026-09-27T00:36:16Z'
   metrics:
-    points: 6
+    points: 7
     comments: 2
   kind: product
 ---

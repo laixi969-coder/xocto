@@ -20,17 +20,17 @@ url: https://www.doom-or-bloom.com
 canonical_url: https://doom-or-bloom.com
 summary: map your AI worldview
 first_seen: '2026-09-25T16:51:28Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-09-27T00:36:16Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.doom-or-bloom.com
-  seen_at: '2026-09-26T00:37:52Z'
+  seen_at: '2026-09-27T00:36:16Z'
   metrics:
-    points: 52
-    comments: 40
+    points: 56
+    comments: 48
   kind: product
 ---
 

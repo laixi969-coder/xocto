@@ -21,17 +21,17 @@ canonical_url: https://github.com/zeronezer/bidcraft
 summary: 标书匠 BidCraft · 对话式标书编制系统：AI 智能编制技术标，支持招标文件解析、标段选择、标书编写、知识库提炼与学习对话式改稿。LLM-Wiki 路线，基于LangGraph实现。Open-source
   AI agent for construction tender & bid documents.
 first_seen: '2026-09-17T03:42:48Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zeronezer/bidcraft
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 47
-    forks: 7
+    stars: 60
+    forks: 8
     open_issues: 0
   kind: product
 ---

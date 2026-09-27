@@ -1,0 +1,42 @@
+---
+slug: hysata-launches-ai-powered-production-line-to-boost-electrol
+name: Hysata launches AI-powered production line to boost electrolyser manufacturing
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQSjFDdFVMNFBoREVDSzExeTl3T3JocG81Y1pxaTRtRms0NTYyY3lOa3RTV0NaOFNEc3Y0UV9UVHFYd1J5WG1CZWpzbEc4OFNMV09UMXRxSHR3WTlMYUJGR1B6ajVsQlk1MDZjZEgxOWY5VnZCcTJxeW1Ha1kwZnlBYUpGNXJENW5XdVR2R0NkaUg2YmszM3EwcGRSMGxnbkR6c1ZkbHIwRGRmU3NfbHBIR2IwZngzTlh0SGRnblBuQ21UV0xZS2J0NDdmTGh4Z9IBzgFBVV95cUxQSjFDdFVMNFBoREVDSzExeTl3T3JocG81Y1pxaTRtRms0NTYyY3lOa3RTV0NaOFNEc3Y0UV9UVHFYd1J5WG1CZWpzbEc4OFNMV09UMXRxSHR3WTlMYUJGR1B6ajVsQlk1MDZjZEgxOWY5VnZCcTJxeW1Ha1kwZnlBYUpGNXJENW5XdVR2R0NkaUg2YmszM3EwcGRSMGxnbkR6c1ZkbHIwRGRmU3NfbHBIR2IwZngzTlh0SGRnblBuQ21UV0xZS2J0NDdmTGh4Zw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQSjFDdFVMNFBoREVDSzExeTl3T3JocG81Y1pxaTRtRms0NTYyY3lOa3RTV0NaOFNEc3Y0UV9UVHFYd1J5WG1CZWpzbEc4OFNMV09UMXRxSHR3WTlMYUJGR1B6ajVsQlk1MDZjZEgxOWY5VnZCcTJxeW1Ha1kwZnlBYUpGNXJENW5XdVR2R0NkaUg2YmszM3EwcGRSMGxnbkR6c1ZkbHIwRGRmU3NfbHBIR2IwZngzTlh0SGRnblBuQ21UV0xZS2J0NDdmTGh4Z9IBzgFBVV95cUxQSjFDdFVMNFBoREVDSzExeTl3T3JocG81Y1pxaTRtRms0NTYyY3lOa3RTV0NaOFNEc3Y0UV9UVHFYd1J5WG1CZWpzbEc4OFNMV09UMXRxSHR3WTlMYUJGR1B6ajVsQlk1MDZjZEgxOWY5VnZCcTJxeW1Ha1kwZnlBYUpGNXJENW5XdVR2R0NkaUg2YmszM3EwcGRSMGxnbkR6c1ZkbHIwRGRmU3NfbHBIR2IwZngzTlh0SGRnblBuQ21UV0xZS2J0NDdmTGh4Zw?oc=5
+summary: Hysata launches AI-powered production line to boost electrolyser manufacturing Indian Chemical
+  News
+first_seen: '2026-09-24T13:00:00Z'
+last_seen: '2026-09-27T00:36:53Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQSjFDdFVMNFBoREVDSzExeTl3T3JocG81Y1pxaTRtRms0NTYyY3lOa3RTV0NaOFNEc3Y0UV9UVHFYd1J5WG1CZWpzbEc4OFNMV09UMXRxSHR3WTlMYUJGR1B6ajVsQlk1MDZjZEgxOWY5VnZCcTJxeW1Ha1kwZnlBYUpGNXJENW5XdVR2R0NkaUg2YmszM3EwcGRSMGxnbkR6c1ZkbHIwRGRmU3NfbHBIR2IwZngzTlh0SGRnblBuQ21UV0xZS2J0NDdmTGh4Z9IBzgFBVV95cUxQSjFDdFVMNFBoREVDSzExeTl3T3JocG81Y1pxaTRtRms0NTYyY3lOa3RTV0NaOFNEc3Y0UV9UVHFYd1J5WG1CZWpzbEc4OFNMV09UMXRxSHR3WTlMYUJGR1B6ajVsQlk1MDZjZEgxOWY5VnZCcTJxeW1Ha1kwZnlBYUpGNXJENW5XdVR2R0NkaUg2YmszM3EwcGRSMGxnbkR6c1ZkbHIwRGRmU3NfbHBIR2IwZngzTlh0SGRnblBuQ21UV0xZS2J0NDdmTGh4Zw?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+---
+
+# Hysata launches AI-powered production line to boost electrolyser manufacturing
+
+Hysata launches AI-powered production line to boost electrolyser manufacturing Indian Chemical News
+
+## 笔记
+
+

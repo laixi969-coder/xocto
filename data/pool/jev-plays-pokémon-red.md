@@ -22,17 +22,17 @@ summary: Hey HN! Wanted to share a fun project I&#x27;ve been hacking on. Given 
   really fast (but not fast enough to play Doom yet sadly), I wanted to try and push it to play a more
   complex game than Tetris.…
 first_seen: '2026-09-25T14:28:07Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-09-27T00:36:16Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://jev-pokemon.vercel.app/
-  seen_at: '2026-09-26T00:37:52Z'
+  seen_at: '2026-09-27T00:36:16Z'
   metrics:
-    points: 137
-    comments: 61
+    points: 259
+    comments: 109
   kind: product
 ---
 

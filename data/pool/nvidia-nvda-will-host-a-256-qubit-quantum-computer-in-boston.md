@@ -1,0 +1,41 @@
+---
+slug: nvidia-nvda-will-host-a-256-qubit-quantum-computer-in-boston
+name: NVIDIA (NVDA) Will Host A 256 Qubit Quantum Computer In Boston
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ2lIVHplcjZpVUtZZnBNLTFFSE40QjIxeHBmZU8zd1dSY01lT2RjUDI0eWRSeUVxRUM2NkRSOWp6a1QzV3hvaWdXclgzel9KSnpHdmt4NU9qTzl0QTJRbTlWeUVOVlg0RFpfejdiNk9xTFphcUd2eGZLTkZDNXBILVFERlFHa3BXVWlFWmJVU19vTEFUcm9UNVNFdEkySVcza25lMXBxeVUzT05jZ0VHNmQ3RU1hYzlGYi1yMEV3TlByRHA0SWdlSllOTdIB0AFBVV95cUxPQ3BLQXJ4VGU3V3U4LVV3djN6VXQxRGpCdWloek40eC1VSjZVeHZaQWJocVczWGM4NzZRVHNiRGkwUDR4MU5SWE5yYklHSzBhMklYMjJuVmZucHhCZkdyLWdXa0N2YnpoYUQ3Y1lkUXZvdGtmRk5rb2xKWDJ0NGQ5Y0tHTkdzczBKbFVnNDNFZ2NQdGIwZTZlR2dXUW1CYVZucVZPRERGRi1sVzV5ZmlxUzVfX29RYmVaVGRIcVdCWldwMVNTRDJqTHdtTFNZOXBF?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ2lIVHplcjZpVUtZZnBNLTFFSE40QjIxeHBmZU8zd1dSY01lT2RjUDI0eWRSeUVxRUM2NkRSOWp6a1QzV3hvaWdXclgzel9KSnpHdmt4NU9qTzl0QTJRbTlWeUVOVlg0RFpfejdiNk9xTFphcUd2eGZLTkZDNXBILVFERlFHa3BXVWlFWmJVU19vTEFUcm9UNVNFdEkySVcza25lMXBxeVUzT05jZ0VHNmQ3RU1hYzlGYi1yMEV3TlByRHA0SWdlSllOTdIB0AFBVV95cUxPQ3BLQXJ4VGU3V3U4LVV3djN6VXQxRGpCdWloek40eC1VSjZVeHZaQWJocVczWGM4NzZRVHNiRGkwUDR4MU5SWE5yYklHSzBhMklYMjJuVmZucHhCZkdyLWdXa0N2YnpoYUQ3Y1lkUXZvdGtmRk5rb2xKWDJ0NGQ5Y0tHTkdzczBKbFVnNDNFZ2NQdGIwZTZlR2dXUW1CYVZucVZPRERGRi1sVzV5ZmlxUzVfX29RYmVaVGRIcVdCWldwMVNTRDJqTHdtTFNZOXBF?oc=5
+summary: NVIDIA (NVDA) Will Host A 256 Qubit Quantum Computer In Boston simplywall.st
+first_seen: '2026-09-26T21:26:40Z'
+last_seen: '2026-09-27T00:36:53Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ2lIVHplcjZpVUtZZnBNLTFFSE40QjIxeHBmZU8zd1dSY01lT2RjUDI0eWRSeUVxRUM2NkRSOWp6a1QzV3hvaWdXclgzel9KSnpHdmt4NU9qTzl0QTJRbTlWeUVOVlg0RFpfejdiNk9xTFphcUd2eGZLTkZDNXBILVFERlFHa3BXVWlFWmJVU19vTEFUcm9UNVNFdEkySVcza25lMXBxeVUzT05jZ0VHNmQ3RU1hYzlGYi1yMEV3TlByRHA0SWdlSllOTdIB0AFBVV95cUxPQ3BLQXJ4VGU3V3U4LVV3djN6VXQxRGpCdWloek40eC1VSjZVeHZaQWJocVczWGM4NzZRVHNiRGkwUDR4MU5SWE5yYklHSzBhMklYMjJuVmZucHhCZkdyLWdXa0N2YnpoYUQ3Y1lkUXZvdGtmRk5rb2xKWDJ0NGQ5Y0tHTkdzczBKbFVnNDNFZ2NQdGIwZTZlR2dXUW1CYVZucVZPRERGRi1sVzV5ZmlxUzVfX29RYmVaVGRIcVdCWldwMVNTRDJqTHdtTFNZOXBF?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+---
+
+# NVIDIA (NVDA) Will Host A 256 Qubit Quantum Computer In Boston
+
+NVIDIA (NVDA) Will Host A 256 Qubit Quantum Computer In Boston simplywall.st
+
+## 笔记
+
+

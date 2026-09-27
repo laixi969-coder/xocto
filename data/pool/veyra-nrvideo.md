@@ -36,16 +36,16 @@ summary: Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player 
   tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super
   Resolution, NR image enhancement, and Frame Generation to deliver a next-generation visual experience.
 first_seen: '2026-09-09T10:58:42Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Likely7/Veyra-NRVideo
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 334
+    stars: 341
     forks: 16
     open_issues: 5
   kind: product

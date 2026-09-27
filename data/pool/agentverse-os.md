@@ -36,16 +36,16 @@ summary: 'Personal cloud OS for a developer and their AI agents on a single serv
   Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing
   exposed to the internet. Rust core, Svelte UI.'
 first_seen: '2026-09-12T18:20:00Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/agentverse-os/AgentVerse-OS
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 979
+    stars: 980
     forks: 26
     open_issues: 1
   kind: product

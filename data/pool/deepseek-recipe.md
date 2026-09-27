@@ -22,16 +22,16 @@ url: https://github.com/deepseek-ai/deepseek-recipe
 canonical_url: https://github.com/deepseek-ai/deepseek-recipe
 summary: ''
 first_seen: '2026-09-10T05:36:48Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/deepseek-ai/deepseek-recipe
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 348
+    stars: 351
     forks: 32
     open_issues: 20
   kind: product

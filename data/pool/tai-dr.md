@@ -20,17 +20,17 @@ url: https://www.tai-dr.com/
 canonical_url: https://tai-dr.com
 summary: Too AI; Didn't Read
 first_seen: '2026-09-25T20:37:56Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-09-27T00:36:16Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.tai-dr.com/
-  seen_at: '2026-09-26T00:37:52Z'
+  seen_at: '2026-09-27T00:36:16Z'
   metrics:
-    points: 103
-    comments: 98
+    points: 111
+    comments: 111
   kind: news
 ---
 

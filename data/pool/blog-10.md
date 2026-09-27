@@ -1,0 +1,43 @@
+---
+slug: blog-10
+name: blog
+builder: saibotk
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
+canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
+summary: One Month Without AI
+first_seen: '2026-09-26T10:08:21Z'
+last_seen: '2026-09-27T00:36:16Z'
+status: pending_filter
+sources:
+- hackernews
+sightings:
+- source: hackernews
+  url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
+  seen_at: '2026-09-27T00:36:16Z'
+  metrics:
+    points: 169
+    comments: 209
+  kind: news
+---
+
+# blog
+
+One Month Without AI
+
+## 笔记
+
+

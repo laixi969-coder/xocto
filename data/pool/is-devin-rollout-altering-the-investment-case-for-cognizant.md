@@ -1,0 +1,41 @@
+---
+slug: is-devin-rollout-altering-the-investment-case-for-cognizant
+name: Is Devin Rollout Altering The Investment Case For Cognizant Stock (CTSH)?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcFZXdm55SWNOTFdEUVp6UmRLN2E2dU1fYS02Q3FEd2dHdVBqY1BNckxVMklmbGpVX0I5QzhKUTlNRTNtejQ4bmVVd0o5dGh5SEM1YkRudnRzQXFoRlZrdUJtc1BpXy1vM25mNF9tWEdkQ2hKUG9ySThmR2d5dDlsenBlOFdGakE5TVpCRmczTm44UEJlQlp3S0RKM01OUFFrYlNoUGNsWmN0NDZQT25ZdTNPNUNZTzdMMmhDRVNBSm1IRkFDbnIyRUU0eDVYS2VidC1iRW1kOE80YmxTb3FqNGh30gHnAUFVX3lxTE5CdlFFOGZ1YkV1SzVnbVlBNTFfbUphem5ONS1FTF9CUHVzYjU1TUZhNzZ3OGVkOEY1OHdZQkNGcXdBVm95QW50QVlRbFNYLUhJQU1DV3JtLXMxTXZsbjJRZ0RwX3NVY0dscm0zOGJ0TWh3RXI5WjV3eWtmMHY0XzJiMXRtT0ZRdnpMMkFyblNuWklya01HX1l6RHlfQXpsbzlCT01oTkJGUTM0MUQ5dng5b0VaRUJHdTZvTnl6cWxUbnJaN29zOW1VSEY1ZERhSXIwaGE3RjZqM3hlNFVxN3VFVlV5NUFvMA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcFZXdm55SWNOTFdEUVp6UmRLN2E2dU1fYS02Q3FEd2dHdVBqY1BNckxVMklmbGpVX0I5QzhKUTlNRTNtejQ4bmVVd0o5dGh5SEM1YkRudnRzQXFoRlZrdUJtc1BpXy1vM25mNF9tWEdkQ2hKUG9ySThmR2d5dDlsenBlOFdGakE5TVpCRmczTm44UEJlQlp3S0RKM01OUFFrYlNoUGNsWmN0NDZQT25ZdTNPNUNZTzdMMmhDRVNBSm1IRkFDbnIyRUU0eDVYS2VidC1iRW1kOE80YmxTb3FqNGh30gHnAUFVX3lxTE5CdlFFOGZ1YkV1SzVnbVlBNTFfbUphem5ONS1FTF9CUHVzYjU1TUZhNzZ3OGVkOEY1OHdZQkNGcXdBVm95QW50QVlRbFNYLUhJQU1DV3JtLXMxTXZsbjJRZ0RwX3NVY0dscm0zOGJ0TWh3RXI5WjV3eWtmMHY0XzJiMXRtT0ZRdnpMMkFyblNuWklya01HX1l6RHlfQXpsbzlCT01oTkJGUTM0MUQ5dng5b0VaRUJHdTZvTnl6cWxUbnJaN29zOW1VSEY1ZERhSXIwaGE3RjZqM3hlNFVxN3VFVlV5NUFvMA?oc=5
+summary: Is Devin Rollout Altering The Investment Case For Cognizant Stock (CTSH)? simplywall.st
+first_seen: '2026-09-26T10:42:33Z'
+last_seen: '2026-09-27T00:36:53Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcFZXdm55SWNOTFdEUVp6UmRLN2E2dU1fYS02Q3FEd2dHdVBqY1BNckxVMklmbGpVX0I5QzhKUTlNRTNtejQ4bmVVd0o5dGh5SEM1YkRudnRzQXFoRlZrdUJtc1BpXy1vM25mNF9tWEdkQ2hKUG9ySThmR2d5dDlsenBlOFdGakE5TVpCRmczTm44UEJlQlp3S0RKM01OUFFrYlNoUGNsWmN0NDZQT25ZdTNPNUNZTzdMMmhDRVNBSm1IRkFDbnIyRUU0eDVYS2VidC1iRW1kOE80YmxTb3FqNGh30gHnAUFVX3lxTE5CdlFFOGZ1YkV1SzVnbVlBNTFfbUphem5ONS1FTF9CUHVzYjU1TUZhNzZ3OGVkOEY1OHdZQkNGcXdBVm95QW50QVlRbFNYLUhJQU1DV3JtLXMxTXZsbjJRZ0RwX3NVY0dscm0zOGJ0TWh3RXI5WjV3eWtmMHY0XzJiMXRtT0ZRdnpMMkFyblNuWklya01HX1l6RHlfQXpsbzlCT01oTkJGUTM0MUQ5dng5b0VaRUJHdTZvTnl6cWxUbnJaN29zOW1VSEY1ZERhSXIwaGE3RjZqM3hlNFVxN3VFVlV5NUFvMA?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+---
+
+# Is Devin Rollout Altering The Investment Case For Cognizant Stock (CTSH)?
+
+Is Devin Rollout Altering The Investment Case For Cognizant Stock (CTSH)? simplywall.st
+
+## 笔记
+
+

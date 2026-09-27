@@ -20,8 +20,8 @@ url: https://news.ycombinator.com/item?id=49802005
 canonical_url: https://news.ycombinator.com/item?id=49802005
 summary: my Hacker News mobile client now lets you block AI posts
 first_seen: '2026-09-22T14:33:50Z'
-last_seen: '2026-09-25T00:33:43Z'
-status: rejected
+last_seen: '2026-09-27T00:36:16Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 239
     comments: 227
+  kind: news
+- source: hackernews
+  url: https://gizmodo.com/north-korea-very-likely-behind-388-million-hack-of-crypto-exchange-bitget-2000817421
+  seen_at: '2026-09-27T00:36:16Z'
+  metrics:
+    points: 23
+    comments: 6
   kind: news
 ---
 

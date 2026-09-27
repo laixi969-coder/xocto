@@ -1,0 +1,42 @@
+---
+slug: sol-emerges-from-stealth-with-4-million-for-ai-that-starts-w
+name: Sol emerges from stealth with $4 million for AI that starts working on promises made over email
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdnZqQVgyUUYxUm94dHJZLVZhb2I2cWdEX3VCN25sZ1U5Rmd6X25SNlNXOVVaT1ZPTXktX1BIdUQyOU8taW5sZWZCUFdoY3hhZlZiTEVpaERXMnBoZ3BMckxGSmpvZmVZcnNrb0Q3c0lMaC1xR0pnaWlIdVJhRXByNnNjQkwweVhwczVUSXVvUHlLUjJicEdKUDFGRkp4SDJwcjhhb0xqRXVaWWFDOXZZcElMTVVlRXUyRHpSanl4ZENaZFJjLVdOcDZNYTZhOGRrVXRsYzBSYmrSAdgBQVVfeXFMTnZ2akFYMlFGMVJveHRyWS1WYW9iNnFnRF91QjdubGdVOUZnel9uUjZTVzlVWk9WT015LV9QSHVEMjlPLWlubGVmQlBXaGN4YWZWYkxFaWhEVzJwaGdwTHJMRkpqb2ZlWXJza29EN3NJTGgtcUdKZ2lpSHVSYUVwcjZzY0JMMHlYcHM1VEl1b1B5S1IyYnBHSlAxRkZKeEgycHI4YW9MakV1WllhQzl2WXBJTE1VZUV1MkR6Ump5eGRDWmRSYy1XTnA2TWE2YThka1V0bGMwUmJq?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdnZqQVgyUUYxUm94dHJZLVZhb2I2cWdEX3VCN25sZ1U5Rmd6X25SNlNXOVVaT1ZPTXktX1BIdUQyOU8taW5sZWZCUFdoY3hhZlZiTEVpaERXMnBoZ3BMckxGSmpvZmVZcnNrb0Q3c0lMaC1xR0pnaWlIdVJhRXByNnNjQkwweVhwczVUSXVvUHlLUjJicEdKUDFGRkp4SDJwcjhhb0xqRXVaWWFDOXZZcElMTVVlRXUyRHpSanl4ZENaZFJjLVdOcDZNYTZhOGRrVXRsYzBSYmrSAdgBQVVfeXFMTnZ2akFYMlFGMVJveHRyWS1WYW9iNnFnRF91QjdubGdVOUZnel9uUjZTVzlVWk9WT015LV9QSHVEMjlPLWlubGVmQlBXaGN4YWZWYkxFaWhEVzJwaGdwTHJMRkpqb2ZlWXJza29EN3NJTGgtcUdKZ2lpSHVSYUVwcjZzY0JMMHlYcHM1VEl1b1B5S1IyYnBHSlAxRkZKeEgycHI4YW9MakV1WllhQzl2WXBJTE1VZUV1MkR6Ump5eGRDWmRSYy1XTnA2TWE2YThka1V0bGMwUmJq?oc=5
+summary: Sol emerges from stealth with $4 million for AI that starts working on promises made over email
+  Indian Startup News
+first_seen: '2026-09-26T09:45:06Z'
+last_seen: '2026-09-27T00:36:53Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdnZqQVgyUUYxUm94dHJZLVZhb2I2cWdEX3VCN25sZ1U5Rmd6X25SNlNXOVVaT1ZPTXktX1BIdUQyOU8taW5sZWZCUFdoY3hhZlZiTEVpaERXMnBoZ3BMckxGSmpvZmVZcnNrb0Q3c0lMaC1xR0pnaWlIdVJhRXByNnNjQkwweVhwczVUSXVvUHlLUjJicEdKUDFGRkp4SDJwcjhhb0xqRXVaWWFDOXZZcElMTVVlRXUyRHpSanl4ZENaZFJjLVdOcDZNYTZhOGRrVXRsYzBSYmrSAdgBQVVfeXFMTnZ2akFYMlFGMVJveHRyWS1WYW9iNnFnRF91QjdubGdVOUZnel9uUjZTVzlVWk9WT015LV9QSHVEMjlPLWlubGVmQlBXaGN4YWZWYkxFaWhEVzJwaGdwTHJMRkpqb2ZlWXJza29EN3NJTGgtcUdKZ2lpSHVSYUVwcjZzY0JMMHlYcHM1VEl1b1B5S1IyYnBHSlAxRkZKeEgycHI4YW9MakV1WllhQzl2WXBJTE1VZUV1MkR6Ump5eGRDWmRSYy1XTnA2TWE2YThka1V0bGMwUmJq?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+---
+
+# Sol emerges from stealth with $4 million for AI that starts working on promises made over email
+
+Sol emerges from stealth with $4 million for AI that starts working on promises made over email Indian Startup News
+
+## 笔记
+
+

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EQ2VQbi1nc3BDMzBSREVrR2
 canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EQ2VQbi1nc3BDMzBSREVrR2FsbHFwMzlOZHRORXJGSlNfSkEtLThMNEEwc2gteDlxSUZxLXVRTWlNdk9NclVKM056aGlnWUU4bVE?oc=5
 summary: Ema获7700万美元融资 拓展企业AI员工业务 zhiding.cn
 first_seen: '2026-09-25T09:49:44Z'
-last_seen: '2026-09-26T00:38:27Z'
+last_seen: '2026-09-27T00:36:53Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EQ2VQbi1nc3BDMzBSREVrR2FsbHFwMzlOZHRORXJGSlNfSkEtLThMNEEwc2gteDlxSUZxLXVRTWlNdk9NclVKM056aGlnWUU4bVE?oc=5
   seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPampEWHRINHVDd2IwdkZTX1RWSDdHeUZJTGU0WGlieWRhdndoTHNqWGE1Rm84Rm9SWGNvcTN0UG9rejlucHg5OWJrNDdwZTlyVGxsMXhocnIxUmtIcjI4aVUwR2pVM0VSUU0wT0NXU3ZMbTVvTkIxbEVTQUlBamU5ZHQ0QlluRVdp?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
   metrics: {}
   kind: news
 ---

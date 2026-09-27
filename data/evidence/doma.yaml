@@ -197,3 +197,12 @@
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与互联网服务 运营或数据人员需要从没有开放接口的网页系统里定期取数、填表或提交表单时，用浏览器代理代替手工点击
     开发者把重复的网页操作交给浏览器代理执行，自己只做结果校验'
+- id: ev-05b78b7809dcbd48
+  project_slug: doma
+  url: https://www.domactions.com/docs/en/
+  title: doma
+  published_at: '2026-09-09T02:54:51Z'
+  collected_at: '2026-09-27T00:36:20Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'The open-source of DomA, an AI automation agent for the browser. | repository stars: 131'

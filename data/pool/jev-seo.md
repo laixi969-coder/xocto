@@ -21,7 +21,7 @@ canonical_url: https://jevseo.vercel.app
 summary: 'jev-seo: Rust SEO and GEO CLI plus MCP server for coding agents: 50-rule audits, live crawls,
   GEO scores, rank drift, CI gates. MIT, zero subscription.'
 first_seen: '2026-09-18T13:02:32Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: rejected
 sources:
 - github
@@ -29,9 +29,9 @@ sources:
 sightings:
 - source: github
   url: https://jevseo.vercel.app
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 74
+    stars: 78
     forks: 8
     open_issues: 0
   kind: product

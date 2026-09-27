@@ -32,8 +32,8 @@ url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 canonical_url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 summary: Real-time AI camera, face tracking and background studio
 first_seen: '2026-09-04T11:19:30Z'
-last_seen: '2026-09-24T00:31:52Z'
-status: watching
+last_seen: '2026-09-27T00:36:16Z'
+status: pending_filter
 sources:
 - huggingface
 - newssearch
@@ -81,6 +81,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMia0FVX3lxTE44cldvUFlFWDY2czY3bHRmZ0pyNEM5Q050WE51Z2JHTjB2QzVfbFNPTElqZnp3WWtDMlF1VXNhOVdxZU5EX1N5QnVtQk93enBkRkpaYzllX1kxZlVyRUhEUk54Z3lESEVseGdj?oc=5
   seen_at: '2026-09-24T00:31:52Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://tangled.org/yanndegat.tngl.sh/drawgent
+  seen_at: '2026-09-27T00:36:16Z'
+  metrics:
+    points: 102
+    comments: 32
   kind: news
 ---
 

@@ -25,7 +25,7 @@ summary: 'Graph engineering for AI agents: the 9-stage knowledge-graph pipeline 
   graduate course) + task-graph orchestration patterns, as a Claude skill with teaching mode and paste-ready
   workflows'
 first_seen: '2026-07-23T14:10:49Z'
-last_seen: '2026-09-23T00:34:19Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: analyzed
 sources:
 - github
@@ -40,9 +40,9 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/bydtesla1609/graph-engineering
-  seen_at: '2026-09-23T00:34:19Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 61
+    stars: 62
     forks: 0
     open_issues: 0
   kind: product

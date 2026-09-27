@@ -30,7 +30,7 @@ canonical_url: https://qiuner.github.io/agent-isles
 summary: An explorable island world to learn AI coding and build real projects with AI agents. Powered
   by DeepSeek Harness.
 first_seen: '2026-09-14T10:50:30Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-09-27T00:36:20Z'
 status: watching
 sources:
 - github
@@ -45,9 +45,9 @@ sightings:
   kind: product
 - source: github
   url: https://qiuner.github.io/QCode/
-  seen_at: '2026-09-26T00:37:55Z'
+  seen_at: '2026-09-27T00:36:20Z'
   metrics:
-    stars: 340
+    stars: 347
     forks: 5
     open_issues: 4
   kind: product

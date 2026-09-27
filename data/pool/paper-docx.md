@@ -20,16 +20,16 @@ url: https://github.com/paper-instruments/paper-docx
 canonical_url: https://github.com/paper-instruments/paper-docx
 summary: agent-native Python-docx fork with 78% fewer DOCX failures
 first_seen: '2026-09-25T19:05:31Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-09-27T00:36:16Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/paper-instruments/paper-docx
-  seen_at: '2026-09-26T00:37:52Z'
+  seen_at: '2026-09-27T00:36:16Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

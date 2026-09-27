@@ -20,17 +20,17 @@ url: https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-bi
 canonical_url: https://washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models
 summary: Classified estimates show the NSA is paying billions to test AI models
 first_seen: '2026-09-25T15:27:35Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-09-27T00:36:16Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models
-  seen_at: '2026-09-26T00:37:52Z'
+  seen_at: '2026-09-27T00:36:16Z'
   metrics:
-    points: 169
-    comments: 101
+    points: 176
+    comments: 105
   kind: news
 ---
 

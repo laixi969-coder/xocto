@@ -1,0 +1,41 @@
+---
+slug: 3-software-stocks-gaining-attention-as-ai-governance-becomes
+name: 3 Software Stocks Gaining Attention As AI Governance Becomes A Market Issue
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQY1pBdzNRQjh1cGFwYTN6dzFZN0daZXE1OGVVSXZXUS1hTTdxUlhEdkhtZ2hyWi1FbE9ySFV4bm9GVFVDVkl5QjVjYmFPMUI4WVFKX2ZLX1JYQUpRcXhSSTNUa3FJUXFLMTRsbkxkc3ZPbjU1UjJIX2hqamZfMFgwalk4dUtnaVdLcC15NXBWUWFQb3RFYkJKb3d4WXVEZnJvRlpqbmZyTW5lTjY1SHd5cEtXNElGSGtqRlFVSVozZzhZX3lEVDhz0gHHAUFVX3lxTFBjWkF3M1FCOHVwYXBhM3p3MVk3R1plcTU4ZVVJdldRLWFNN3FSWER2SG1naHJaLUVsT3JIVXhub0ZUVUNWSXlCNWNiYU8xQjhZUUpfZktfUlhBSlFxeFJJM1RrcUlRcUsxNGxuTGRzdk9uNTVSMkhfaGpqZl8wWDBqWTh1S2dpV0twLXk1cFZRYVBvdEViQkpvd3hZdURmcm9GWmpuZnJNbmVONjVId3lwS1c0SUZIa2pGUVVJWjNnOFlfeURUOHM?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQY1pBdzNRQjh1cGFwYTN6dzFZN0daZXE1OGVVSXZXUS1hTTdxUlhEdkhtZ2hyWi1FbE9ySFV4bm9GVFVDVkl5QjVjYmFPMUI4WVFKX2ZLX1JYQUpRcXhSSTNUa3FJUXFLMTRsbkxkc3ZPbjU1UjJIX2hqamZfMFgwalk4dUtnaVdLcC15NXBWUWFQb3RFYkJKb3d4WXVEZnJvRlpqbmZyTW5lTjY1SHd5cEtXNElGSGtqRlFVSVozZzhZX3lEVDhz0gHHAUFVX3lxTFBjWkF3M1FCOHVwYXBhM3p3MVk3R1plcTU4ZVVJdldRLWFNN3FSWER2SG1naHJaLUVsT3JIVXhub0ZUVUNWSXlCNWNiYU8xQjhZUUpfZktfUlhBSlFxeFJJM1RrcUlRcUsxNGxuTGRzdk9uNTVSMkhfaGpqZl8wWDBqWTh1S2dpV0twLXk1cFZRYVBvdEViQkpvd3hZdURmcm9GWmpuZnJNbmVONjVId3lwS1c0SUZIa2pGUVVJWjNnOFlfeURUOHM?oc=5
+summary: 3 Software Stocks Gaining Attention As AI Governance Becomes A Market Issue simplywall.st
+first_seen: '2026-09-26T04:33:28Z'
+last_seen: '2026-09-27T00:36:53Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQY1pBdzNRQjh1cGFwYTN6dzFZN0daZXE1OGVVSXZXUS1hTTdxUlhEdkhtZ2hyWi1FbE9ySFV4bm9GVFVDVkl5QjVjYmFPMUI4WVFKX2ZLX1JYQUpRcXhSSTNUa3FJUXFLMTRsbkxkc3ZPbjU1UjJIX2hqamZfMFgwalk4dUtnaVdLcC15NXBWUWFQb3RFYkJKb3d4WXVEZnJvRlpqbmZyTW5lTjY1SHd5cEtXNElGSGtqRlFVSVozZzhZX3lEVDhz0gHHAUFVX3lxTFBjWkF3M1FCOHVwYXBhM3p3MVk3R1plcTU4ZVVJdldRLWFNN3FSWER2SG1naHJaLUVsT3JIVXhub0ZUVUNWSXlCNWNiYU8xQjhZUUpfZktfUlhBSlFxeFJJM1RrcUlRcUsxNGxuTGRzdk9uNTVSMkhfaGpqZl8wWDBqWTh1S2dpV0twLXk1cFZRYVBvdEViQkpvd3hZdURmcm9GWmpuZnJNbmVONjVId3lwS1c0SUZIa2pGUVVJWjNnOFlfeURUOHM?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+---
+
+# 3 Software Stocks Gaining Attention As AI Governance Becomes A Market Issue
+
+3 Software Stocks Gaining Attention As AI Governance Becomes A Market Issue simplywall.st
+
+## 笔记
+
+

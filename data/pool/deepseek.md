@@ -43,8 +43,8 @@ url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: queued
+last_seen: '2026-09-27T00:36:53Z'
+status: pending_filter
 sources:
 - aicpb
 - newssearch
@@ -97,6 +97,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYzMwbmlhVWxCa3FnN2NWMkhzMUYxWmVVdFZLUnRXRHJXQlRYVVBJeFhQMzdZV000UFJHWlZzNjNmWGtGQnFMaTJ4WU4zTFY2dFNBcHZOQi0tSGM3eHZnSUFJc2wtWGJOODlnRElaUUxEcXppWXRVRDdyVVBDNUtvLTVyMU9tMVhv?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOczVnQXZOVFplZGRleTRNNlFQUHQ5OWFOc0NMQUo1THpURzZkcXZUbjZhWFNUWE9pY2MwaVhoUG52bWlBRllTN2FlUUZDZENFejdUNFUydS1uN1I5TGRQRnZmVkp1ZXRzLThuQnJmMm9MM1VZOWs4VG9RRFUydDRJdEhyTUxaUDh3cWFpeTFrbElsQ0lzczJyU1JKSFZWUmNrRzJXSDlqZw?oc=5
+  seen_at: '2026-09-27T00:36:53Z'
   metrics: {}
   kind: news
 ---

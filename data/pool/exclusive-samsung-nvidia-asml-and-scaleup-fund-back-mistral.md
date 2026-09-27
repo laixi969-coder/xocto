@@ -22,8 +22,8 @@ url: https://sifted.eu/articles/mistral-series-d-samsung-nvidia-asml/
 canonical_url: https://sifted.eu/articles/mistral-series-d-samsung-nvidia-asml
 summary: French AI startup Mistral valued at over 21 billion euros after latest funding France 24
 first_seen: '2026-09-02T15:00:33Z'
-last_seen: '2026-09-23T00:34:37Z'
-status: market_context
+last_seen: '2026-09-27T00:36:16Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -137,6 +137,13 @@ sightings:
   url: https://sifted.eu/articles/exclusive-mistral-pimento-acquisition/
   seen_at: '2026-09-23T00:34:37Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html
+  seen_at: '2026-09-27T00:36:16Z'
+  metrics:
+    points: 87
+    comments: 153
   kind: news
 ---
 
