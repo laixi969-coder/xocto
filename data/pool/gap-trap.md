@@ -29,7 +29,7 @@ canonical_url: https://zmninjang.readthedocs.io/en/latest/developer-guide/14-age
 summary: Turns vibe coding into high quality code. Sets up rules and gates in your repo so AI-written
   code stays correct without you reviewing every line.
 first_seen: '2026-09-13T20:29:08Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: watching
 sources:
 - github
@@ -44,11 +44,11 @@ sightings:
   kind: product
 - source: github
   url: https://pliablepixels.github.io/gap-trap/
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
     stars: 180
     forks: 9
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

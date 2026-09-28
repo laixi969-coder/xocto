@@ -33,7 +33,7 @@ canonical_url: https://github.com/pierrenade/short-video-generator-AI
 summary: Free open-source project designed for turning youtube-viedos into viral short videos. Highlight
   detection, subtitles, translation, voiceover, all in one for your content.
 first_seen: '2026-09-05T11:55:18Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: queued
 sources:
 - github
@@ -56,9 +56,9 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/yukitorido/short-video-generator-AI
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
-    stars: 717
+    stars: 724
     forks: 82
     open_issues: 0
   kind: product

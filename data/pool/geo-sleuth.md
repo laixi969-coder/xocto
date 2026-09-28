@@ -41,17 +41,17 @@ summary: An agent skill that finds where a photo was taken — OpenStreetMap geo
   satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini
   CLI, OpenCode and GitHub Copilot.
 first_seen: '2026-09-18T08:51:34Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Oldcircle/geo-sleuth
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
-    stars: 443
-    forks: 52
+    stars: 479
+    forks: 55
     open_issues: 0
   kind: product
 ---

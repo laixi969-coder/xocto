@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-27T00:36:45Z'
+last_seen: '2026-09-28T00:46:38Z'
 status: rejected
 sources:
 - newssearch
@@ -123,6 +123,18 @@ sightings:
   seen_at: '2026-09-27T00:36:45Z'
   metrics: {}
   kind: news
+- source: v2ex
+  url: https://github.com/flyxl/datazen
+  seen_at: '2026-09-28T00:46:38Z'
+  metrics:
+    comments: 6
+  kind: product
+- source: v2ex
+  url: https://github.com/nongwoluanlai/shidrive
+  seen_at: '2026-09-28T00:46:38Z'
+  metrics:
+    comments: 1
+  kind: product
 ---
 
 # GitHub

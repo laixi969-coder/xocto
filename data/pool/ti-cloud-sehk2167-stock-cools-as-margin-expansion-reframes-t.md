@@ -1,0 +1,41 @@
+---
+slug: ti-cloud-sehk2167-stock-cools-as-margin-expansion-reframes-t
+name: TI Cloud (SEHK:2167) Stock Cools As Margin Expansion Reframes The Story
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOWHVhcm9XeGlIOVhjWmF6bGNlTW5VZWp6eDFtYU00YkF1dk5PZFgyWHNZS2dHb3pOa0dCa29lZ3VNX240dURHY2dXVXlZM0puNXJ1OWN0R0ZCYVFkNFN4SjhrYXRiYnVvYUhFd2JmWlB4U0ZEOTM4QkpzN2F5Y1h3enZRcEpXOThxT2RsSFFadGZQWV9ueWQzSFhXMEREZXh3ZWtqcDFHb0FBaXl6QXk2eldwWHFFamM5STFiZ2FMMzFCV05uUGZtQW4wSdIB0AFBVV95cUxNVjBTREJoWVRWX2VOZGRtcXg1M0FrU2NldXJxdHJtQm5BeWhPLVZWWEdmUktjM0x0Qk5UQjQ2aV9tQXRtR1l5TDdfck1YUU16NFgxMnVpYlVMLUczdk5rRXZwRC1zS0U1Y0M0cHhONDh3bFRFSkJUbF8wLTZ6MVRUWm9MeFh2dDM3cDUzVlplaHFhWXNxUUpBMkdiNm9JamRRa2VQVndYanQ0TGZ4Y2xFc2NlVVdUQXpveC02NnI2VWI2M2hpRzZEdVRkcjlZZ1pV?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOWHVhcm9XeGlIOVhjWmF6bGNlTW5VZWp6eDFtYU00YkF1dk5PZFgyWHNZS2dHb3pOa0dCa29lZ3VNX240dURHY2dXVXlZM0puNXJ1OWN0R0ZCYVFkNFN4SjhrYXRiYnVvYUhFd2JmWlB4U0ZEOTM4QkpzN2F5Y1h3enZRcEpXOThxT2RsSFFadGZQWV9ueWQzSFhXMEREZXh3ZWtqcDFHb0FBaXl6QXk2eldwWHFFamM5STFiZ2FMMzFCV05uUGZtQW4wSdIB0AFBVV95cUxNVjBTREJoWVRWX2VOZGRtcXg1M0FrU2NldXJxdHJtQm5BeWhPLVZWWEdmUktjM0x0Qk5UQjQ2aV9tQXRtR1l5TDdfck1YUU16NFgxMnVpYlVMLUczdk5rRXZwRC1zS0U1Y0M0cHhONDh3bFRFSkJUbF8wLTZ6MVRUWm9MeFh2dDM3cDUzVlplaHFhWXNxUUpBMkdiNm9JamRRa2VQVndYanQ0TGZ4Y2xFc2NlVVdUQXpveC02NnI2VWI2M2hpRzZEdVRkcjlZZ1pV?oc=5
+summary: TI Cloud (SEHK:2167) Stock Cools As Margin Expansion Reframes The Story simplywall.st
+first_seen: '2026-09-26T21:00:27Z'
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOWHVhcm9XeGlIOVhjWmF6bGNlTW5VZWp6eDFtYU00YkF1dk5PZFgyWHNZS2dHb3pOa0dCa29lZ3VNX240dURHY2dXVXlZM0puNXJ1OWN0R0ZCYVFkNFN4SjhrYXRiYnVvYUhFd2JmWlB4U0ZEOTM4QkpzN2F5Y1h3enZRcEpXOThxT2RsSFFadGZQWV9ueWQzSFhXMEREZXh3ZWtqcDFHb0FBaXl6QXk2eldwWHFFamM5STFiZ2FMMzFCV05uUGZtQW4wSdIB0AFBVV95cUxNVjBTREJoWVRWX2VOZGRtcXg1M0FrU2NldXJxdHJtQm5BeWhPLVZWWEdmUktjM0x0Qk5UQjQ2aV9tQXRtR1l5TDdfck1YUU16NFgxMnVpYlVMLUczdk5rRXZwRC1zS0U1Y0M0cHhONDh3bFRFSkJUbF8wLTZ6MVRUWm9MeFh2dDM3cDUzVlplaHFhWXNxUUpBMkdiNm9JamRRa2VQVndYanQ0TGZ4Y2xFc2NlVVdUQXpveC02NnI2VWI2M2hpRzZEdVRkcjlZZ1pV?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+---
+
+# TI Cloud (SEHK:2167) Stock Cools As Margin Expansion Reframes The Story
+
+TI Cloud (SEHK:2167) Stock Cools As Margin Expansion Reframes The Story simplywall.st
+
+## 笔记
+
+

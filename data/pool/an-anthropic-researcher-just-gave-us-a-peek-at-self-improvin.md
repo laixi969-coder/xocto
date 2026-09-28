@@ -39,7 +39,7 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-26T00:38:27Z'
+last_seen: '2026-09-28T00:47:11Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -295,6 +295,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPampHQnlfNmVZYTVMLW5TWk5EOFZic01ubUI3VTZhb2JuS0ZhNko3LVd3MUVXRzBWZUxSZ29VVEZnM2NEN2lvZlJlME5kelp4TlprVkNDRENTa0JIY3FjTUhBMVZ0MVpkM1BTZVRuVGlIcGwwMGUyYTgwY3JRUVZiOVNwbjQzUXh3UzQ5UDdUX01lMkthRHZFUlJJbGpTYlJpOThYQ2NMcUJ3bzVPQWpyd2c1bGM?oc=5
   seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/
+  seen_at: '2026-09-28T00:47:11Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/
+  seen_at: '2026-09-28T00:47:11Z'
   metrics: {}
   kind: news
 ---

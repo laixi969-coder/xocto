@@ -21,16 +21,16 @@ canonical_url: https://github.com/defitier-sdk/0audit.com
 summary: Developer SDK, CLI & AI search intent index for 0audit.com — Fast Website Diagnostics, Technical
   SEO, Security Headers & Web Performance Auditor
 first_seen: '2026-09-24T19:43:02Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/defitier-sdk/0audit.com
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
-    stars: 75
+    stars: 84
     forks: 0
     open_issues: 0
   kind: product

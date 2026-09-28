@@ -32,10 +32,11 @@ url: https://www.youtube.com/watch?v=vjItC11jF0o
 canonical_url: https://youtube.com/watch?v=vjItC11jF0o
 summary: I made a 3D rock climbing analysis tool using iPhone LiDAR [video]
 first_seen: '2026-09-25T19:48:59Z'
-last_seen: '2026-09-27T00:36:16Z'
-status: watching
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://www.youtube.com/watch?v=vjItC11jF0o
@@ -44,6 +45,11 @@ sightings:
     points: 5
     comments: 2
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxPS3QzMHNzUk5WR2xBUFVrOHIzSWFSbHhZUElGU19SdGVuZE5QazRhOEllZElwMWEyOU1HdjRoRGFaaTE3c2JPSngyMld0UmlqYzYzbDRhdjY0blBHUTY5WlhXZ2tfNDJ3UGZYd2ZIUGJvcTQ2VGZpOWkxbVNndHVBUEpIaW5IVm42TmhOVWVXVlpaaVlpN0pn?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
 ---
 
 # watch

@@ -1,0 +1,41 @@
+---
+slug: kpit-technologies-and-2-indian-ai-stocks-to-watch
+name: KPIT Technologies And 2 Indian AI Stocks To Watch
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQU2hCMWlQMkdrWmhFSVNaQ2JsUjU5NDhFNnhXY3RWb3FjR0lJTG9fR2E3b0JFUm84dy1FRFMzNTFuTnR6S3U0YjF6RVdmVEhyMkc3NXFFZ1NjTW5QOHJoRjQzUTdoRDFsNnQ2UXpaZUZBd2tXelV0M3c3Qnk3NnBhS3VfblpzV3c0a1M5WUhraTl4T0JPUURzaGh1OXpweTY3VXBzTndYSnJGUjliWFFDVV8weFhydVM3c2VQWVo4WXRKOHdNd1pLT2ltclZXZ9IB0wFBVV95cUxQRDE0VmFRbF84MW1CdXE3VkUyOUJVdDBZaTNqTmZUUWV6VWpNaDU4TndqWlFDSVNzN0pkUVQyQ18yNzRrV2txOVdvY3FaTzZNWVpOZHFGQmR3WHRRMm1GSFVWenhUOTZSZG1VS185d3RVSU9VUTZaa0dKT1VrbWtXby14d0RaeWdvTC14a0hHdzRJZ1lubWk0SWxna1dOcGl4VzZZMHN6VjdoVF9vZXZhQUpXUUExcGstcC11RkRJY0tWNVBmb2gyYlVZRnJiaFVzVzRJ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQU2hCMWlQMkdrWmhFSVNaQ2JsUjU5NDhFNnhXY3RWb3FjR0lJTG9fR2E3b0JFUm84dy1FRFMzNTFuTnR6S3U0YjF6RVdmVEhyMkc3NXFFZ1NjTW5QOHJoRjQzUTdoRDFsNnQ2UXpaZUZBd2tXelV0M3c3Qnk3NnBhS3VfblpzV3c0a1M5WUhraTl4T0JPUURzaGh1OXpweTY3VXBzTndYSnJGUjliWFFDVV8weFhydVM3c2VQWVo4WXRKOHdNd1pLT2ltclZXZ9IB0wFBVV95cUxQRDE0VmFRbF84MW1CdXE3VkUyOUJVdDBZaTNqTmZUUWV6VWpNaDU4TndqWlFDSVNzN0pkUVQyQ18yNzRrV2txOVdvY3FaTzZNWVpOZHFGQmR3WHRRMm1GSFVWenhUOTZSZG1VS185d3RVSU9VUTZaa0dKT1VrbWtXby14d0RaeWdvTC14a0hHdzRJZ1lubWk0SWxna1dOcGl4VzZZMHN6VjdoVF9vZXZhQUpXUUExcGstcC11RkRJY0tWNVBmb2gyYlVZRnJiaFVzVzRJ?oc=5
+summary: KPIT Technologies And 2 Indian AI Stocks To Watch simplywall.st
+first_seen: '2026-09-27T06:47:08Z'
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQU2hCMWlQMkdrWmhFSVNaQ2JsUjU5NDhFNnhXY3RWb3FjR0lJTG9fR2E3b0JFUm84dy1FRFMzNTFuTnR6S3U0YjF6RVdmVEhyMkc3NXFFZ1NjTW5QOHJoRjQzUTdoRDFsNnQ2UXpaZUZBd2tXelV0M3c3Qnk3NnBhS3VfblpzV3c0a1M5WUhraTl4T0JPUURzaGh1OXpweTY3VXBzTndYSnJGUjliWFFDVV8weFhydVM3c2VQWVo4WXRKOHdNd1pLT2ltclZXZ9IB0wFBVV95cUxQRDE0VmFRbF84MW1CdXE3VkUyOUJVdDBZaTNqTmZUUWV6VWpNaDU4TndqWlFDSVNzN0pkUVQyQ18yNzRrV2txOVdvY3FaTzZNWVpOZHFGQmR3WHRRMm1GSFVWenhUOTZSZG1VS185d3RVSU9VUTZaa0dKT1VrbWtXby14d0RaeWdvTC14a0hHdzRJZ1lubWk0SWxna1dOcGl4VzZZMHN6VjdoVF9vZXZhQUpXUUExcGstcC11RkRJY0tWNVBmb2gyYlVZRnJiaFVzVzRJ?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+---
+
+# KPIT Technologies And 2 Indian AI Stocks To Watch
+
+KPIT Technologies And 2 Indian AI Stocks To Watch simplywall.st
+
+## 笔记
+
+

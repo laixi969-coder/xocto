@@ -32,18 +32,18 @@ url: https://github.com/Miaotofu01/Study-Mate
 canonical_url: https://github.com/Miaotofu01/Study-Mate
 summary: 你的AI学习搭档：定路线、讲知识、做项目，边学边做，学透一门科目
 first_seen: '2026-09-17T19:36:05Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Miaotofu01/Study-Mate
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
-    stars: 332
-    forks: 22
-    open_issues: 5
+    stars: 354
+    forks: 23
+    open_issues: 4
   kind: product
 ---
 

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMidEFVX3lxTFA5UGROa1NSbEJUQ2NLUzNGZH
 canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFA5UGROa1NSbEJUQ2NLUzNGZHlfSmtpZDNoSm1JOXFYTGxIRk51QllTY0Mxc3cwSWhwbDJZbzV0dGMzYkFyRVZpTEJPOXJCbVUtaWRUZktoOHhrT094X09jOHB2bklDS0J1NUx5NmJnQVdmdFpZ?oc=5
 summary: OpenAI 承认 53 张用户图片被其 AI 智能体“偷偷”传到公网 手机新浪网
 first_seen: '2026-09-26T00:05:43Z'
-last_seen: '2026-09-26T00:38:27Z'
+last_seen: '2026-09-28T00:47:18Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidEFVX3lxTFA5UGROa1NSbEJUQ2NLUzNGZHlfSmtpZDNoSm1JOXFYTGxIRk51QllTY0Mxc3cwSWhwbDJZbzV0dGMzYkFyRVZpTEJPOXJCbVUtaWRUZktoOHhrT094X09jOHB2bklDS0J1NUx5NmJnQVdmdFpZ?oc=5
   seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUVrVmFPQ09BRmgxTzZKM1NyM0E5bnpKV3kzRjBWeXdNWThDYlJ4LTQ3TzRJVVduR1pmZUJSZ1lTWXV6WHJZZzN2ZEtxOGdxMzliUy1mQU9OWVllaG83SWpCX0xFNGxDb3BXajlZdGgtdnVoZ3V2N0ZxRzBZdWhDUWUtMF9lN255MWFXTmlOUzF6bUhU?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

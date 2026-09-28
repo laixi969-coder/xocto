@@ -25,14 +25,20 @@ canonical_url: https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-noti
 summary: The notice would allow Oracle to delay payments should the facility miss its 2028 target to come
   online.
 first_seen: '2026-09-24T18:11:44Z'
-last_seen: '2026-09-25T00:34:10Z'
-status: market_context
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/
   seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMie0FVX3lxTFAtcFpNRlJmeXp4NkJxLV85SGFkcm5SNHRKZkFLSVhFekphUGlicWJkczRrdHRxZnI0RkhrMU1sNS0xWkpQT19jUFl3SDVqWm50VW1yZFNlS1lBTnN3bGdWUDNBOFc3MDBvYU13elZyY3dINkpYSVNBRTNfaw?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

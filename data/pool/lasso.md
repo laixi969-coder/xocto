@@ -20,17 +20,17 @@ url: https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact
 canonical_url: https://lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior
 summary: Understanding the Impact of LLM Watermarking on AI Agent Behavior
 first_seen: '2026-09-26T13:05:36Z'
-last_seen: '2026-09-27T00:36:16Z'
-status: rejected
+last_seen: '2026-09-28T00:46:41Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior
-  seen_at: '2026-09-27T00:36:16Z'
+  seen_at: '2026-09-28T00:46:41Z'
   metrics:
     points: 56
-    comments: 70
+    comments: 71
   kind: news
 ---
 

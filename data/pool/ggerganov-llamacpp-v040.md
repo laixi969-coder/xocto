@@ -229,11 +229,12 @@ summary: "## Overview\r\n\r\nllama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and
   \n790b5713c ci : store ccache on HF buckets (test with cuda-ubuntu for now) (#27699)\r\nf1357e499 ui:\
   \ ESLint config updates (#27700)\r\n3737e4137 metal : null-check buffer alloc to fix OOM crash (#25371)"
 first_seen: '2026-09-04T19:56:47Z'
-last_seen: '2026-09-23T00:34:37Z'
-status: market_context
+last_seen: '2026-09-28T00:46:41Z'
+status: pending_filter
 sources:
 - github
 - officialfeeds
+- hackernews
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0
@@ -245,6 +246,13 @@ sightings:
   url: https://huggingface.co/blog/transformers-llama-cpp-quants
   seen_at: '2026-09-23T00:34:37Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/
+  seen_at: '2026-09-28T00:46:41Z'
+  metrics:
+    points: 65
+    comments: 10
   kind: news
 ---
 

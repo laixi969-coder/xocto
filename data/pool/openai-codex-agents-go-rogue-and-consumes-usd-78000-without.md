@@ -22,17 +22,17 @@ summary: My OpenAI CODEX account went rogue and from a simple request took the a
   launch 826 parallel agents &#x2F; threads without any authorization on my side and without reporting
   any result of any sort but…
 first_seen: '2026-09-26T22:15:32Z'
-last_seen: '2026-09-27T00:36:16Z'
-status: rejected
+last_seen: '2026-09-28T00:46:41Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49861047
-  seen_at: '2026-09-27T00:36:16Z'
+  seen_at: '2026-09-28T00:46:41Z'
   metrics:
-    points: 58
-    comments: 20
+    points: 80
+    comments: 31
   kind: news
 ---
 

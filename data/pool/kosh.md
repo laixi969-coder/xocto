@@ -28,7 +28,7 @@ url: https://github.com/toiletbril/kosh
 canonical_url: https://github.com/toiletbril/kosh
 summary: Bash shell runtime with 100x faster Shellcheck and LSP built-in
 first_seen: '2026-08-28T20:58:32Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-09-28T00:46:41Z'
 status: queued
 sources:
 - hackernews
@@ -46,6 +46,13 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
+- source: hackernews
+  url: https://addons.mozilla.org/en-US/firefox/addon/kosh/
+  seen_at: '2026-09-28T00:46:41Z'
+  metrics:
+    points: 7
+    comments: 1
   kind: product
 ---
 

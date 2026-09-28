@@ -33,17 +33,17 @@ url: https://github.com/brumar/chess-postmortem-skills
 canonical_url: https://github.com/brumar/chess-postmortem-skills
 summary: A Claude Code skill to analyze your chess games
 first_seen: '2026-09-26T15:34:53Z'
-last_seen: '2026-09-27T00:36:16Z'
+last_seen: '2026-09-28T00:46:41Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/brumar/chess-postmortem-skills
-  seen_at: '2026-09-27T00:36:16Z'
+  seen_at: '2026-09-28T00:46:41Z'
   metrics:
-    points: 71
-    comments: 51
+    points: 75
+    comments: 55
   kind: product
 ---
 

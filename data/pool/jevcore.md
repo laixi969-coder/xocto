@@ -33,16 +33,16 @@ canonical_url: https://github.com/PerryLink/jevcore
 summary: 'TypeSafe Jev for DeepSeek Harness, the Model Context Protocol, and plain Node: typed judgments
   instead of prose, offline by default.'
 first_seen: '2026-09-20T04:11:31Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/PerryLink/jevcore
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
-    stars: 42
+    stars: 49
     forks: 0
     open_issues: 0
   kind: product

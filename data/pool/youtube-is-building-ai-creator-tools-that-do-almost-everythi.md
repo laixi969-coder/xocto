@@ -28,14 +28,20 @@ summary: Part of the job of a content creator is to figure out how to get their 
   YouTube is increasingly simply telling creators what they should do. At the annual creator-focused Made
   on YouTube […]
 first_seen: '2026-09-23T14:30:00Z'
-last_seen: '2026-09-24T00:31:16Z'
-status: market_context
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests
   seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUUyZWJ3UEQ5RWRZazZmREhoeUJkcm5KUkh2Q3ZlMUZBVDhtakJrNlFFX1VlckNsUmIzX05lcUIwa0Y2NEhmd0wtelh5bWdMSVR2ZW14aWNUSlp1MlBtX1diWHUxekoxZFB1TTVUSnQyMjFuMXZud0JQblZPUHZYQWhnbEFEQm9IaHBtZU94SmFkLUh0?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

@@ -1,0 +1,41 @@
+---
+slug: is-upcoming-earnings-altering-the-investment-case-for-progre
+name: Is Upcoming Earnings Altering The Investment Case For Progress Software Stock (PRGS)?
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOGRqMDcyb3NEeFRPR3c5bDBCRGNnSWRRNUJKSjZkdDVZUDQ5MEhybjRqR1dPTVVGQk1Mb21ZTWt2WnRBRHRiaXRXY2lNRTU2N0MtRWpiVVNEbEVDbjc3ODRuY2Q2M2hKejR5SGh5bkE5UEtZVndVUWpRdHVqYTNWZkNfQllTQUZXX1RjN3ZfZGRnNjY4LXVhTFJ0NDVlRTRlc2dnS1JpZjBZMG9xZDdiXy1jQlFmMkk4RFNLOXY3em9VTjN3cjMwZzBacXZldUVRdUHSAdcBQVVfeXFMTmNleVI4SE8yalhaTHp3T2QxTEZlbXJKMWs1Sm1YT2Z4dElhczFGYk0yTUw2N2ZwZmc3ZkJ3dFhDTWwtMzV4UDR5dXVzcGU5NWRSUUlES2dELXZTMENMVkFURGRkdXY4WUpEMUo4LU15OTVjMFBweDNrQThmWEJlbGllVTVDVzIta3k2OEl2aVYtSGFheWpUMDRJWVhXNTU3aFhCelZvTUtfQmhhTGtVT2xfYjFJa1hYaWJJWTFEQlctQU5jNk9pN2RvVDVxdmRQdnZYbkJhTXM?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOGRqMDcyb3NEeFRPR3c5bDBCRGNnSWRRNUJKSjZkdDVZUDQ5MEhybjRqR1dPTVVGQk1Mb21ZTWt2WnRBRHRiaXRXY2lNRTU2N0MtRWpiVVNEbEVDbjc3ODRuY2Q2M2hKejR5SGh5bkE5UEtZVndVUWpRdHVqYTNWZkNfQllTQUZXX1RjN3ZfZGRnNjY4LXVhTFJ0NDVlRTRlc2dnS1JpZjBZMG9xZDdiXy1jQlFmMkk4RFNLOXY3em9VTjN3cjMwZzBacXZldUVRdUHSAdcBQVVfeXFMTmNleVI4SE8yalhaTHp3T2QxTEZlbXJKMWs1Sm1YT2Z4dElhczFGYk0yTUw2N2ZwZmc3ZkJ3dFhDTWwtMzV4UDR5dXVzcGU5NWRSUUlES2dELXZTMENMVkFURGRkdXY4WUpEMUo4LU15OTVjMFBweDNrQThmWEJlbGllVTVDVzIta3k2OEl2aVYtSGFheWpUMDRJWVhXNTU3aFhCelZvTUtfQmhhTGtVT2xfYjFJa1hYaWJJWTFEQlctQU5jNk9pN2RvVDVxdmRQdnZYbkJhTXM?oc=5
+summary: Is Upcoming Earnings Altering The Investment Case For Progress Software Stock (PRGS)? simplywall.st
+first_seen: '2026-09-27T09:37:46Z'
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOGRqMDcyb3NEeFRPR3c5bDBCRGNnSWRRNUJKSjZkdDVZUDQ5MEhybjRqR1dPTVVGQk1Mb21ZTWt2WnRBRHRiaXRXY2lNRTU2N0MtRWpiVVNEbEVDbjc3ODRuY2Q2M2hKejR5SGh5bkE5UEtZVndVUWpRdHVqYTNWZkNfQllTQUZXX1RjN3ZfZGRnNjY4LXVhTFJ0NDVlRTRlc2dnS1JpZjBZMG9xZDdiXy1jQlFmMkk4RFNLOXY3em9VTjN3cjMwZzBacXZldUVRdUHSAdcBQVVfeXFMTmNleVI4SE8yalhaTHp3T2QxTEZlbXJKMWs1Sm1YT2Z4dElhczFGYk0yTUw2N2ZwZmc3ZkJ3dFhDTWwtMzV4UDR5dXVzcGU5NWRSUUlES2dELXZTMENMVkFURGRkdXY4WUpEMUo4LU15OTVjMFBweDNrQThmWEJlbGllVTVDVzIta3k2OEl2aVYtSGFheWpUMDRJWVhXNTU3aFhCelZvTUtfQmhhTGtVT2xfYjFJa1hYaWJJWTFEQlctQU5jNk9pN2RvVDVxdmRQdnZYbkJhTXM?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+---
+
+# Is Upcoming Earnings Altering The Investment Case For Progress Software Stock (PRGS)?
+
+Is Upcoming Earnings Altering The Investment Case For Progress Software Stock (PRGS)? simplywall.st
+
+## 笔记
+
+

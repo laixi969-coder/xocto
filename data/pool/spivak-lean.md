@@ -20,16 +20,16 @@ url: https://github.com/stormj-UH/spivak-lean
 canonical_url: https://github.com/stormj-UH/spivak-lean
 summary: Spivak's Calculus formalized in Lean 4 – every theorem, every problem
 first_seen: '2026-09-26T17:00:23Z'
-last_seen: '2026-09-27T00:36:16Z'
+last_seen: '2026-09-28T00:46:41Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/stormj-UH/spivak-lean
-  seen_at: '2026-09-27T00:36:16Z'
+  seen_at: '2026-09-28T00:46:41Z'
   metrics:
-    points: 10
+    points: 19
     comments: 2
   kind: product
 ---

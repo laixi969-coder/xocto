@@ -1,7 +1,7 @@
 ---
 slug: rogue-ai-agents-what-recent-incidents-mean-for-customers
 name: Rogue AI Agents
-builder: ''
+builder: zzzeek
 category: ''
 summary_zh: 随着企业将更长、更复杂的任务交给 AI 智能体，出现了人类难以实际审核的监督缺口：智能体行动更快、持续更久、数量更大。这一变化意味着智能体部署的合规与风控成本上升，采用节奏可能受制于可审计性，竞争焦点转向监督与纠错能力。
 inspiration: ''
@@ -23,11 +23,12 @@ url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlY2RGRQMGZzbzhvbVllRH
 canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlY2RGRQMGZzbzhvbVllRHc3RlhMeW9IelNpM3RmZHNPY1ZLcXg5VzZSSzdlcWFlbTFaTVZTZTZXMVh6VXIyLVo2c1ZacnpTWm9ZdTBPVHRvT0hZWjhmVmdWb3owbllxZGpiNXBFMFlIZTdFakExV1JRRnVNNklfdU5HZjFtZ18tVHl0THNVSUltTG42T0NBMXFn?oc=5
 summary: '“Rogue” AI Agents: What Recent Incidents Mean for Customers Hunton Andrews Kurth LLP'
 first_seen: '2026-08-27T16:43:20Z'
-last_seen: '2026-09-18T00:20:10Z'
-status: market_context
+last_seen: '2026-09-28T00:46:41Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlY2RGRQMGZzbzhvbVllRHc3RlhMeW9IelNpM3RmZHNPY1ZLcXg5VzZSSzdlcWFlbTFaTVZTZTZXMVh6VXIyLVo2c1ZacnpTWm9ZdTBPVHRvT0hZWjhmVmdWb3owbllxZGpiNXBFMFlIZTdFakExV1JRRnVNNklfdU5HZjFtZ18tVHl0THNVSUltTG42T0NBMXFn?oc=5
@@ -38,6 +39,13 @@ sightings:
   url: https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/
   seen_at: '2026-09-18T00:20:10Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents
+  seen_at: '2026-09-28T00:46:41Z'
+  metrics:
+    points: 331
+    comments: 242
   kind: news
 ---
 

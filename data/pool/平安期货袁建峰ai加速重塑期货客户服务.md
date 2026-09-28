@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMXZmdHlybFlxSkNYY3pNZE
 canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMXZmdHlybFlxSkNYY3pNZEJjVWRkY0NfekJtX1M0ckdzUGtkRHB2MW9CRWxoN0ptVVZfOEUxQl9LSmdYUm9yZXo4VHFkQlJOVEp1UjNoZmY4OERiOEczM2VNZFhTRm5FNFBzN3ZoaVpMRkxvR0ZGam1wbWpCMVVicDlKdXYtUG9NRzFR?oc=5
 summary: 平安期货袁建峰：AI加速重塑期货客户服务 搜狐网
 first_seen: '2026-09-26T14:27:47Z'
-last_seen: '2026-09-27T00:36:53Z'
-status: rejected
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMXZmdHlybFlxSkNYY3pNZEJjVWRkY0NfekJtX1M0ckdzUGtkRHB2MW9CRWxoN0ptVVZfOEUxQl9LSmdYUm9yZXo4VHFkQlJOVEp1UjNoZmY4OERiOEczM2VNZFhTRm5FNFBzN3ZoaVpMRkxvR0ZGam1wbWpCMVVicDlKdXYtUG9NRzFR?oc=5
   seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uTlc3X2NzQ2k3UzhWNmFwZHMwQzY5ekl3TkZDMlBLaldWZlljTk12NFZ4S3pQUEJla0JCelFVT3dScmdURjV6bUJaRVp0VHNyUk83cmNaQk9GQlIza3c?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

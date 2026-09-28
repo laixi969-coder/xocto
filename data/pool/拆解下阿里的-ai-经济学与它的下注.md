@@ -67,7 +67,7 @@ summary: "作者｜张鹏    \n  编辑｜ 苏子华  \n   \n 9 月 22 日，�
   \ AI 基础设施建设，就是在为那个「还没有出现的代表性产品」准备土壤。 \n 我觉得这种思考，对于阿里这样的巨头是务实的，探索产品新范式的进程别太早笃定，敢为天下后也没啥不行；但在下一个时代必然被需要的「修路架桥」，要尽早出发并当仁不让。\
   \ \n  *头图来源：阿里云  \n  本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-09-23T06:02:57Z'
-last_seen: '2026-09-26T00:38:27Z'
+last_seen: '2026-09-28T00:47:18Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -81,6 +81,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQbmg1SGJONUt1ZHpVbElHZUplYUxRejlRak4yQVBoZ2V3ekVWbFNwU0xGeS10WHl3dlp0TFBsZ0RfaUNCTEFaS2hYWWt4UlhDdUdGanplWThITS00ZUJObHZDdmlJU2R1U0lFbzVWR1htNGNoSmItYUpCcy14SG80RWVla2twbWtrOFhhTmpubDh4UjZ0eXFwdkJ1c2w2OTRaVms1Vk9RaFM5VHdGNnEweGN3?oc=5
   seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DaldCUWg5VGwxNDY2ZkR2RnVCVVllR0tvM2dNRXRCbHdlT2tKVUNRblhGVnZHcFhVd2w1THB1RC1EMXpGX2lPSmlPWWVMeGRRYjhUSll5d09idnFkbExCQXFDNEppUQ?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPVms1QUxBVUdibjNfOVpjWW9vSXRNSFJ6WjZ3dnl0Z2NCUl9tcjRBcjlrQU9PTmt5bVV5RGREdjRxeFZRMEs1aDFoSHFmenNrSmZndmw3LU4wQ1pPb3dUNFhUYVY1bFRENEVNMGVuVXktb0JEdGNGQjJzcnpENi1ncG1tazM5UTQ?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

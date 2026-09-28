@@ -26,8 +26,8 @@ url: https://www.producthunt.com/products/deplo-2
 canonical_url: https://producthunt.com/products/deplo-2
 summary: A simple-to-use alternative to cloud deployments
 first_seen: '2026-09-11T22:44:38Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: rejected
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -50,6 +50,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxPYUNHZDIzeFRGcl9kX2VpcEU0Vmc3em1rbWtWSjc0SGwxSDNWWG9lQ2VTekdobXpwSUE4VnFIZE1JaDFUQUx2U2w2SUh0MXN0SG9SSzJTVUtmMk1jOUhRazdtRGZYOXpxTlduUW0tVWtXSGFfN0o4VVVWNDhmdTFQNTBLVGRYbFNwQlkyNTEzYXA?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidEFVX3lxTE9RaC1CS3lnRWEtdWNfVE9BbzVWckJXQlNQUkZFNUVJODU3TDR1cHBGdko2Sm95V3lpanRyeXBaMDRGRU5seWdIWWNzekFod2J0dnVHd3p3WXlzVXV6VVVoV2k5a1lBQ05YM1lOTXhaVnV6Y19u?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

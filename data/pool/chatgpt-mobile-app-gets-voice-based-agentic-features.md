@@ -25,8 +25,8 @@ url: https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agent
 canonical_url: https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features
 summary: Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.
 first_seen: '2026-09-23T17:00:00Z'
-last_seen: '2026-09-27T00:36:53Z'
-status: queued
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -39,6 +39,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQSklobjhQRDRueTU1Z2RZeWtTYzliQlpIQTdUWHBPVkFERXB5T09waUkyb1B6alphai1JdFg4T0ZIelB2Z0RkQ2c3M0FBNll1VzVlWkV4eWJkekJBWk5wWUF2M0UyWjFkX2twb3drY2puak9CbDQyLTdVMDZqUi1vekdiNnhjaTBZTXc?oc=5
   seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMie0FVX3lxTFBZbnJETUxZMUlsQ0NqTFB6WWVGb3RaVXcwMUplOEdaRkNZRTJ4MXJWbDNxSy1XYkxxZ3dyUDNoMFJSWG9ibFRCVlJMYTlTT1lWdl9nclhBaEpjTUxicEFEcFJzRTEzTmxBT3dXM2dEQmg5Tjd5S3cyZkhtUQ?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

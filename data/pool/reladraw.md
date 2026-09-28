@@ -31,17 +31,17 @@ url: https://github.com/reladraw/reladraw
 canonical_url: https://github.com/reladraw/reladraw
 summary: A diagram language where you decide where to place things
 first_seen: '2026-09-26T17:10:40Z'
-last_seen: '2026-09-27T00:36:16Z'
+last_seen: '2026-09-28T00:46:41Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/reladraw/reladraw
-  seen_at: '2026-09-27T00:36:16Z'
+  seen_at: '2026-09-28T00:46:41Z'
   metrics:
-    points: 167
-    comments: 47
+    points: 389
+    comments: 113
   kind: product
 ---
 

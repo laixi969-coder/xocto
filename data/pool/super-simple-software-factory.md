@@ -31,7 +31,7 @@ canonical_url: https://youtu.be/haUfb1ievTE
 summary: Repeatable agents-plus-code workflows, packaged as one skill, stamped into any repo. Deterministic
   Python owns the graph; coding agents are bounded nodes inside it.
 first_seen: '2026-08-02T17:41:00Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: watching
 sources:
 - github
@@ -46,10 +46,10 @@ sightings:
   kind: product
 - source: github
   url: https://youtu.be/7RVf25Rg0Mc
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
-    stars: 84
-    forks: 15
+    stars: 97
+    forks: 16
     open_issues: 0
   kind: product
 ---

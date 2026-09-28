@@ -40,8 +40,8 @@ url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQTWExU3E3aE81dGxIOGh3al
 canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQTWExU3E3aE81dGxIOGh3al9sbjBGOVlLU3h6UXUyOHlHM09USVJWMEtwYl9abDV6akxKNVBqdndKY1UyUTJsVjNKSWFQQXBnNWhteWRmSzJtYWl1eldCR2xWYWxEU19wYWluZ0dBWGZMTG05Wnh6MV9INHdBNUVaMW5xMnluYUROMkU1NTktbC1teXdVeEN6ZUxoQjAwM1p2V2pDTnJFNFJjYW15c1JRa29ManF3ZDlIcTFLWXR3?oc=5
 summary: Legal AI Startup Harvey Hits $15.6 Billion Value With $550 Million Round Bloomberg.com
 first_seen: '2026-09-09T11:30:01Z'
-last_seen: '2026-09-15T00:39:17Z'
-status: queued
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -58,6 +58,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigwFBVV95cUxQMUVjVC1xRjNvcHYyWE5WM3RaVGdDN0U1VWxxdHE4b1NiTEVPWEE1UmxlWWpQaXVjbU9QcWlMaENNOEp4S2tCTnhrei1paTdFLW12bzVIdExmMjRTdXB5ZklGWWFFNWljV3BDeEV0VGV0bmJfeGdHekM1dk1GcmpBTF9waw?oc=5
   seen_at: '2026-09-15T00:39:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigwFBVV95cUxPd21ScGpDSXBhaUg1UFBlNk9Ea1kwb2ZFQklTQ0tXOFZ4YmFyLVNCWF9vS0dKdHBnVnNZLWQzeldETkZZR2FrdVNvcWd2SXRuak9GU1NlM3lQVEtBM3dpZWJzdFNVZ2hmQUNBTjRTUkY5Z0tjcnJ5N3BkUENiNHB2allUbw?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FaGlTbncxbVM3WmEycHBrUFFOU1ROY1I1bGdqMV9lUWhUN0xqV3g3QjJsbVJMZUp1Z3pYZ3Mta3EyNk5BUDdieWJVdjJEYmNBSFloMg?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

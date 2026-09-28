@@ -29,16 +29,16 @@ url: https://github.com/anthropics/claude-code-playground
 canonical_url: https://github.com/anthropics/claude-code-playground
 summary: ''
 first_seen: '2026-09-25T20:16:50Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/claude-code-playground
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
-    stars: 1
+    stars: 2
     forks: 0
     open_issues: 0
   kind: product

@@ -20,17 +20,17 @@ url: https://chromewebstore.google.com/detail/kosh-bookmark-manager/meldjdfnfgef
 canonical_url: https://chromewebstore.google.com/detail/kosh-bookmark-manager/meldjdfnfgefeoegccphimkmgmeamcce
 summary: 'Done Right: Stop Building a Cemetery of Links'
 first_seen: '2026-09-25T21:04:22Z'
-last_seen: '2026-09-27T00:36:16Z'
+last_seen: '2026-09-28T00:46:41Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://chromewebstore.google.com/detail/kosh-bookmark-manager/meldjdfnfgefeoegccphimkmgmeamcce
-  seen_at: '2026-09-27T00:36:16Z'
+  seen_at: '2026-09-28T00:46:41Z'
   metrics:
-    points: 5
-    comments: 1
+    points: 8
+    comments: 0
   kind: product
 ---
 

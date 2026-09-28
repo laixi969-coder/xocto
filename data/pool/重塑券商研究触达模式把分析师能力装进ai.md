@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBJbmJCa3lYM1BKVGdPYTVYQV
 canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBJbmJCa3lYM1BKVGdPYTVYQVpIZWhhTks5S1BsY24ybURMNzVZU2FuTDQwaWptZkRxVEIxTzhPQmxCWWl2Z0N5U3FzZ0JMeEhOWTFhRDBHVkM5eVRPVG9jXy1tSVhmQ2VWa0ZhUjRqaTk3dXRJU1RnZg?oc=5
 summary: 重塑券商研究触达模式，把分析师能力装进AI 新浪财经
 first_seen: '2026-09-26T20:58:18Z'
-last_seen: '2026-09-27T00:36:53Z'
-status: rejected
+last_seen: '2026-09-28T00:47:18Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBJbmJCa3lYM1BKVGdPYTVYQVpIZWhhTks5S1BsY24ybURMNzVZU2FuTDQwaWptZkRxVEIxTzhPQmxCWWl2Z0N5U3FzZ0JMeEhOWTFhRDBHVkM5eVRPVG9jXy1tSVhmQ2VWa0ZhUjRqaTk3dXRJU1RnZg?oc=5
   seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAJBVV95cUxQV21nVXB4UzhTcV9ROUFFZU9WZl9nbklZLS1Za0RFU2RnV1o3LURkcGZuYnlDRXdEbDNtbUxVeE53S3RuVFYweExORWJtNExFTzh3TlNpdlhZOFNwd2RiTHpsMlBHU1Y3SlBDYmNTZFFzMFFxczZjSjlWdmVSbXZXZWoxUTQ4dUxlcnRjWEZlSEVJLVF0UmNuWjRSVjYzSXdYbEUyUVVTNTk2OHdFdXJJd1Y0R01haDhjb09CV1NodWxta3VyWnQtTFV1UVAyREcxZktHeXJvWUR0TllOeTEtYTlrMzU3MHl0cFprNWk4T2gxMGFNeFJnZmlIcXpUUkhpM2VSTVBDVm9UR050?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---

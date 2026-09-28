@@ -20,7 +20,7 @@ url: https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warni
 canonical_url: https://theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings
 summary: I worked at Google DeepMind. You should listen to the warnings about AI
 first_seen: '2026-09-15T02:25:41Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-09-28T00:46:41Z'
 status: pending_filter
 sources:
 - hackernews
@@ -45,6 +45,13 @@ sightings:
   metrics:
     points: 40
     comments: 16
+  kind: news
+- source: hackernews
+  url: https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue
+  seen_at: '2026-09-28T00:46:41Z'
+  metrics:
+    points: 53
+    comments: 103
   kind: news
 ---
 

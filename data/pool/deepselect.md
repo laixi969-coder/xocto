@@ -22,16 +22,16 @@ url: https://github.com/deepseek-ai/DeepSelect
 canonical_url: https://github.com/deepseek-ai/DeepSelect
 summary: 'DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers'
 first_seen: '2026-09-09T14:38:04Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-28T00:46:44Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/deepseek-ai/DeepSelect
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-28T00:46:44Z'
   metrics:
-    stars: 391
+    stars: 392
     forks: 30
     open_issues: 16
   kind: product

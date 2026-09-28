@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0RHFWVVJTOFdKTFFhc3AxSW
 canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0RHFWVVJTOFdKTFFhc3AxSWpsaVhJdzBjVkZmWkd6T2MtU0RscW5tc19iWGRXbFRDMlFHNlBLQ2VTaWlqenNwb0w1U3RVS05NM0E?oc=5
 summary: Selector为网络AI智能体带来Git式工作流与事件回放能力 zhiding.cn
 first_seen: '2026-09-25T09:49:53Z'
-last_seen: '2026-09-26T00:38:27Z'
+last_seen: '2026-09-28T00:47:18Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0RHFWVVJTOFdKTFFhc3AxSWpsaVhJdzBjVkZmWkd6T2MtU0RscW5tc19iWGRXbFRDMlFHNlBLQ2VTaWlqenNwb0w1U3RVS05NM0E?oc=5
   seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMia0FVX3lxTE1LdkFTVnZ4aVdaeWhscEJIMzlGbU5Yem4yY3FCY0p4ZE9IaWdJMjdmMUJtbGlac1UzYnFzQ0hKeEFmZUwtUV9xU2JhZGZVeEpkMmxtV21TNVdDSm9JcUlldHFtQWx6NnRueUdn?oc=5
+  seen_at: '2026-09-28T00:47:18Z'
   metrics: {}
   kind: news
 ---
