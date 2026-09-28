@@ -3,10 +3,11 @@ slug: openrouter
 name: OpenRouter
 builder: Topfi
 category: ''
-summary_zh: OpenRouter 是一个模型聚合平台，本次事件是 GPT-6 Astra 模型在其上架，属于模型发布的市场背景，而非独立产品。
+summary_zh: OpenRouter 是面向开发者的多模型聚合与路由服务，开发者通过它调用不同厂商的模型；本次新增的是 GPT-6 Astra 的调用入口，以及一个匿名模型在其调用日榜登顶的报道。
 inspiration: ''
-summary_en: OpenRouter is a model aggregation platform. This event is the listing of GPT-6 Astra, a market
-  context of model release, not an independent product.
+summary_en: OpenRouter is a multi-model aggregation and routing service for developers, who use it to
+  call models from different vendors; this update adds an access entry for GPT-6 Astra and coincides with
+  a report of an anonymous model topping its daily call ranking.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ canonical_url: https://openrouter.ai/openai/gpt-6-astra
 summary: GPT-6 Astra on OpenRouter
 first_seen: '2026-09-04T21:39:19Z'
 last_seen: '2026-09-28T00:47:11Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - ia40

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UckhLMG1PVkhP
 summary: 创业9个月获百万元融资，AI动画“一人公司”从OPC社区“毕业” 长江网
 first_seen: '2026-09-27T03:06:00Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

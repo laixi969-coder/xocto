@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQQjRPOERXc3cx
 summary: AI服务器液冷订单火爆 多家公司扩产 搜狐网
 first_seen: '2026-09-27T23:00:18Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

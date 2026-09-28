@@ -1,0 +1,42 @@
+- id: req-initial-jevdit-2026-09-28
+  project_slug: jevdit
+  level: initial
+  reviewed_at: '2026-09-28T00:46:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是社区内容审核人力成本高、判定不一致的问题，痛点真实，但公开材料只有一句描述，无法确认 AI 依据什么标准审核、交付什么结果。
+    evidence_ids:
+    - ev-262214c90d176104
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品描述外没有用户规模、留存或社区反馈，无法判断运营者是否愿意把审核权交给模型。
+    evidence_ids:
+    - ev-262214c90d176104
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是向社区运营者收费还是自营社区不明；面向社区运营者的 to B 订阅是可能路径，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-262214c90d176104
+  - gate: truth
+    status: insufficient
+    reason: 审核涉及言论边界与申诉权，公开材料未说明误判如何处理、是否保留人工复核，确定性交付无法核对。
+    evidence_ids:
+    - ev-262214c90d176104
+  next_validation: 收集 Jevdit 官方说明或社区讨论，确认 AI 审核的判定标准、申诉流程以及是否有运营者实际接入使用。
+  market: ''
+  job: 社区运营者或版主，在用户发帖量增长、举报堆积时，需要判断哪些内容违规并执行删除、限流或封禁，维持社区秩序。
+  job_en: A community operator or moderator facing growing posts and a backlog of reports needs to judge
+    which content violates rules and carry out removals, throttling or bans to keep order.
+  pain: 人工审核成本高、响应慢，规则引擎又容易误伤，争议处理缺乏一致标准，运营者常在速度和公平之间两难。
+  pain_en: Human moderation is costly and slow, rule engines misfire, and dispute handling lacks consistent
+    standards, leaving operators torn between speed and fairness.
+  current_alternative: 雇佣兼职审核员、使用关键词与规则过滤，或依赖平台自带举报机制和用户自治。
+  current_alternative_en: Hiring part-time moderators, using keyword and rule filters, or relying on platform
+    reporting tools and user self-governance.
+  usage_reason: 推断：若 AI 能持续处理举报并给出可追溯的判定，运营者可省去逐条人工初筛这一步，只在申诉时介入；但公开材料未说明判定标准与申诉机制，无法确认它比人工审核少做了哪一步。
+  usage_reason_en: 'Inference: if the AI continuously handles reports and produces traceable decisions,
+    operators skip line-by-line manual triage and step in only on appeals; public material does not describe
+    decision standards or appeal mechanisms, so it is unclear which step it removes versus human moderation.'

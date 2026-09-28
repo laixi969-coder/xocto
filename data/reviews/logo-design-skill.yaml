@@ -1,0 +1,43 @@
+- id: req-initial-logo-design-skill-2026-09-28
+  project_slug: logo-design-skill
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是低成本拿到可编辑、成体系的标志这一需求，痛点是通用出图工具只给位图、无法直接交付。
+    evidence_ids:
+    - ev-fe3b7ea1305559b2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属关注度证据，没有用户评价或客户案例说明被持续采用。
+    evidence_ids:
+    - ev-fe3b7ea1305559b2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是设计师或品牌方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fe3b7ea1305559b2
+  - gate: truth
+    status: insufficient
+    reason: 技能包能否稳定产出可用标志、人工确认在哪一步，公开材料未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-fe3b7ea1305559b2
+  next_validation: 收集该仓库的 issue、discussion 或官方文档，确认实际产出的标志样例、人工确认环节与是否有真实使用案例。
+  market: ''
+  job: 初创公司品牌负责人或独立设计师在需要一版可用标志时，把品牌定位和偏好交给 AI 代理，由它产出符合设计规范与 SVG 工艺的候选标志，用于上线或提案。
+  job_en: A startup brand lead or independent designer needing a usable mark hands brand positioning and
+    preferences to an AI agent, which produces candidate logos meeting design rules and SVG craft, for
+    launch or client pitches.
+  pain: 过去要么花高价请品牌公司，要么自己用通用生成工具出图，结果常是位图、无法编辑、风格不成体系。
+  pain_en: Previously they either paid an agency a high fee or generated images with generic tools, often
+    getting bitmaps that cannot be edited and lack a coherent system.
+  current_alternative: 通用图像生成工具直接出图，或套用在线标志模板站。
+  current_alternative_en: Generic image generators producing images directly, or online logo template
+    sites.
+  usage_reason: 推断：它把设计原则、SVG 工艺和 1400+ 参考库一起交给代理，产出的是可编辑矢量文件而非位图，用户省掉把生成图重画成矢量这一步；因此需要可直接交付源文件的小团队会选它。
+  usage_reason_en: 'Inference: it hands the agent design principles, SVG craft and a 1,400+ reference
+    library, so output is an editable vector file rather than a bitmap, removing the step of redrawing
+    generated images as vectors; small teams needing deliverable source files would pick it.'

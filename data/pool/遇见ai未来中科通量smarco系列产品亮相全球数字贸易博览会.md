@@ -1,6 +1,6 @@
 ---
 slug: 遇见ai未来中科通量smarco系列产品亮相全球数字贸易博览会
-name: 遇见AI未来：中科通量SmarCo系列产品亮相全球数字贸易博览会
+name: 中科通量 SmarCo
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3dzZF9KSDBX
 summary: 遇见AI未来：中科通量SmarCo系列产品亮相全球数字贸易博览会 搜狐网
 first_seen: '2026-09-25T12:31:47Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 遇见AI未来：中科通量SmarCo系列产品亮相全球数字贸易博览会
+# 中科通量 SmarCo
 
 遇见AI未来：中科通量SmarCo系列产品亮相全球数字贸易博览会 搜狐网
 

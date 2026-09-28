@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rUkVhYmROT3RX
 summary: BET365体育投注AI芯片亮相CES 2026：性能突破与生态布局引领行业变革 体坛
 first_seen: '2026-09-05T07:32:26Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

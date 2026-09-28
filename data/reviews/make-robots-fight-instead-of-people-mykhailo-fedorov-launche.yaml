@@ -1,0 +1,40 @@
+- id: req-initial-make-robots-fight-instead-of-people-mykhailo-fedorov-launche-2026-09-28
+  project_slug: make-robots-fight-instead-of-people-mykhailo-fedorov-launche
+  level: initial
+  reviewed_at: '2026-09-28T00:47:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有口号与招募信息，价值关无法成立。
+    evidence_ids:
+    - ev-19630e6a23844561
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注度证据。
+    evidence_ids:
+    - ev-19630e6a23844561
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-19630e6a23844561
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与安全边界。
+    evidence_ids:
+    - ev-19630e6a23844561
+  next_validation: 收集该项目官方发布页或招募页面，确认其产品形态、采购方与交付内容。
+  market: ''
+  job: 候选材料未说明具体使用者与工作节点，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The candidate material does not identify users or work steps, so who handles what material under
+    what circumstances to complete which task cannot be confirmed.
+  pain: 材料只给出“让机器人代替人上战场”的口号，未说明当前由谁手工承担哪一步、代价是什么。
+  pain_en: The material offers only the slogan of letting robots fight instead of people, without stating
+    which step humans currently perform manually or at what cost.
+  current_alternative: 未披露现有替代方式，无法判断旧流程是什么。
+  current_alternative_en: No existing alternative is disclosed, so the prior workflow cannot be identified.
+  usage_reason: 缺少产品形态、输入输出与交付证据，无法解释任何一类用户为何选择它；此处不作推断。
+  usage_reason_en: With no product form, inputs, outputs or delivery evidence, there is no basis to explain
+    why any user would choose it; no inference is made here.

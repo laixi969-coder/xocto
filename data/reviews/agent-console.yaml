@@ -1,0 +1,44 @@
+- id: req-initial-agent-console-2026-09-28
+  project_slug: agent-console
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理用量分散、费用无账本的问题，痛点在多机多会话团队中真实存在；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-5b186a156f2d1b8c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度证据，不能说明团队已把它纳入日常流程。
+    evidence_ids:
+    - ev-5b186a156f2d1b8c
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未见定价页，钱可能来自自建部署或后续商业版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5b186a156f2d1b8c
+  - gate: truth
+    status: insufficient
+    reason: 策略钩子的实际约束力、演示模式与多机中枢的交付确定性均未在材料中说明。
+    evidence_ids:
+    - ev-5b186a156f2d1b8c
+  next_validation: 收集该仓库的 issue 与 discussion，确认团队是否报告多机用量归集与策略钩子的实际使用结果。
+  market: ''
+  job: 研发团队负责人或平台工程师在多个成员、多台机器上跑 Claude Code、Codex 会话后，需要汇总这些会话的 token、缓存、模型与花费，用于成本核算或对外说明。
+  job_en: An engineering lead or platform engineer who runs Claude Code and Codex sessions across several
+    members and machines needs to aggregate those sessions' tokens, cache, models and cost for cost accounting
+    or external reporting.
+  pain: 编码代理的用量分散在各人各机，费用和模型使用情况没有统一账本，团队无法回答这个月代理花了多少、花在哪个项目上。
+  pain_en: Coding-agent usage is scattered across people and machines with no unified ledger, so a team
+    cannot answer how much agents cost this month or which project consumed it.
+  current_alternative: 旧做法是各人自己看终端输出或供应商后台，靠人工截图、表格汇总，或干脆不统计。
+  current_alternative_en: The old approach is each person checking terminal output or a vendor dashboard,
+    manually collating screenshots and spreadsheets, or simply not tracking at all.
+  usage_reason: 相较人工汇总，它把每次会话的 token、缓存、模型和花费自动归集到同一视图，省掉逐人逐机收集这一步，因此需要按代理用量核算成本或向客户交代的团队会在多机多会话场景下选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with manual collation, it automatically aggregates each session's tokens,
+    cache, models and cost into one view, removing the step of collecting data person by person and machine
+    by machine, so teams that must account for agent usage or explain it to clients would choose it in
+    multi-machine, multi-session settings; this is an inference from product capability.

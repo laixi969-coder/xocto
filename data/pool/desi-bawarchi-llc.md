@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/abyjeet/desi-bawarchi
 summary: ''
 first_seen: '2026-09-26T23:42:49Z'
 last_seen: '2026-09-28T00:47:09Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

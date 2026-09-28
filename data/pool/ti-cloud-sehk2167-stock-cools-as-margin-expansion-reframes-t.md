@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOWHVhcm9XeGlI
 summary: TI Cloud (SEHK:2167) Stock Cools As Margin Expansion Reframes The Story simplywall.st
 first_seen: '2026-09-26T21:00:27Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

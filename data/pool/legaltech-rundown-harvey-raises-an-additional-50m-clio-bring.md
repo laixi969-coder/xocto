@@ -1,6 +1,6 @@
 ---
 slug: legaltech-rundown-harvey-raises-an-additional-50m-clio-bring
-name: 'Legaltech Rundown: Harvey Raises an Additional $50M, Clio Brings New Tools to Canada, and More'
+name: Harvey
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: 'Legaltech Rundown: Harvey Raises an Additional $50M, Clio Brings New T
   Law.com'
 first_seen: '2026-09-25T16:00:00Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Legaltech Rundown: Harvey Raises an Additional $50M, Clio Brings New Tools to Canada, and More
+# Harvey
 
 Legaltech Rundown: Harvey Raises an Additional $50M, Clio Brings New Tools to Canada, and More Law.com
 

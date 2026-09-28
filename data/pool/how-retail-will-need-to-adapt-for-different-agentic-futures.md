@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPODRpeElENEZC
 summary: How retail will need to adapt for different agentic futures EY
 first_seen: '2026-09-25T05:57:59Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

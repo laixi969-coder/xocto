@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBwM3VKZWNPWV9T
 summary: “5%以上10年期美债收益率”未能压垮AI投资狂潮，真正的“AI斩杀线”是收益率曲线倒挂? 提供者智通财经 英为财情 Investing.com
 first_seen: '2026-09-27T23:34:00Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

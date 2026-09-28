@@ -84,3 +84,44 @@
   usage_reason_en: Compared with operating step by step on the phone, speaking the task delegates the
     open-app, type and move-the-result steps to the assistant, leaving the user to check the output; this
     is inference, as the candidate material offers no retention or repeat-use evidence.
+- id: req-initial-chatgpt-mobile-app-gets-voice-based-agentic-features-2026-09-28
+  project_slug: chatgpt-mobile-app-gets-voice-based-agentic-features
+  level: initial
+  reviewed_at: '2026-09-28T00:47:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动场景下多步杂务操作繁琐的痛点，旧做法是手动逐步点按或单步语音指令，语音代做多步任务在结构上成立，属工作流推理。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅知面向 Plus 与 Pro 用户开放，缺少公开采用规模或持续使用证据，无法判断共识是否形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 订阅制付费路径存在，但代理型任务按什么计价、成本如何覆盖未披露，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 可执行任务范围、失败处理与人工确认边界未披露，交付确定性尚不可核对。
+    evidence_ids: []
+  next_validation: 收集 ChatGPT 官方帮助文档或发布说明中关于移动端 Work 标签页可执行任务范围与人工确认边界的公开描述。
+  market: ''
+  job: 订阅用户在移动场景下（如外出、通勤）需要处理订票、整理信息、跟进事项等杂务时，打开 ChatGPT 移动端 Work 标签页，用语音交代任务，由助手代为执行并返回结果。
+  job_en: When subscribers need to handle chores such as booking, organizing information, or following
+    up on items while on the move, they open the Work tab in ChatGPT's mobile app, state the task by voice,
+    and the assistant executes it and returns results.
+  pain: 手机上做多步操作繁琐，切换多个 App、逐条输入文字成本高；旧做法是自己一步步点按完成，或等到有电脑时再处理。
+  pain_en: Multi-step tasks on a phone are tedious, requiring app switching and typing; the old way is
+    to tap through each step manually or wait until a computer is available.
+  current_alternative: 用户此前在手机上手动操作各 App，或使用 Siri、Google Assistant 等语音助手，但它们多只能完成单步指令，无法承接多步代理任务。
+  current_alternative_en: Users previously operated apps manually on their phones or used voice assistants
+    like Siri and Google Assistant, which mostly handle single-step commands rather than multi-step agentic
+    tasks.
+  usage_reason: 相较手动逐步点按或单步语音指令，它让用户用一句话交代多步任务并由助手执行，省去逐条操作与切换 App 的步骤；推断经常在移动中处理杂务的订阅用户会在这种情况下选择它。
+  usage_reason_en: Compared with tapping through steps manually or single-step voice commands, it lets
+    users state a multi-step task in one sentence and have the assistant execute it, removing per-step
+    operation and app switching; by inference, subscribers who often handle chores on the move would choose
+    it in such situations.

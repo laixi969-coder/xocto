@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMXZmdHlybFlx
 summary: 平安期货袁建峰：AI加速重塑期货客户服务 搜狐网
 first_seen: '2026-09-26T14:27:47Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQdmE1MDRsbHZH
 summary: How Starkey Is Rethinking Manufacturing For A More Tech-Driven Product Chief Executive
 first_seen: '2026-09-25T13:22:42Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

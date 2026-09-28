@@ -3,18 +3,15 @@ slug: mcp-was-always-a-bad-idea
 name: Model Context Protocol
 builder: ''
 category: ''
-summary_zh: 2026年9月20日，围绕 Model Context Protocol（MCP）是否已过时出现公开讨论：有观点认为，具备完整终端与不受限网络访问能力的编码代理可直接调用 API，因而无需
-  MCP；反驳意见指出，在需要限制代理可访问的外部服务、避免代理直接接触 API 密钥的认证方式、提供用户连接与授权的界面以及强审计日志等场景下，MCP 仍显著降低实现难度。该讨论表明，代理接入层的竞争焦点正从“能否调用工具”转向权限控制、凭证隔离与可审计性，这会影响
-  AI 应用在企业环境中的交付方式与合规成本（推断）。
+summary_zh: 围绕 Model Context Protocol 是否仍有价值的公开讨论指出，在拥有不受限网络访问的终端智能体场景下可直接调用 API，但 MCP 在受控外部服务访问、避免智能体直接接触
+  API 密钥的鉴权、用户连接与授权界面以及审计日志方面仍提供价值。这意味着在需要权限控制与合规审计的企业级 AI 应用中，MCP 仍是降低集成与治理成本的候选方案；该判断来自评论者观点，属于推断。
 inspiration: ''
-summary_en: 'On September 20, 2026, a public debate emerged over whether the Model Context Protocol (MCP)
-  is obsolete: one view holds that full terminal coding agents with unfettered internet access can call
-  APIs directly and therefore do not need MCP, while a rebuttal argues MCP still makes it far easier to
-  control exactly which external services an agent can access, handle authentication without exposing
-  API keys to the agent, provide a UI for users to connect and authorize services, and maintain strong
-  audit logging. The discussion indicates that competition in the agent integration layer is shifting
-  from whether tools can be called to permission control, credential isolation and auditability, which
-  affects how AI applications are delivered and their compliance costs in enterprise settings (inference).'
+summary_en: Public discussion over whether the Model Context Protocol still has value notes that terminal
+  agents with unfettered internet access can call APIs directly, yet MCP still helps with controlled access
+  to external services, authentication that keeps API keys away from the agent, user-facing connection
+  and authorization flows, and audit logging. This implies MCP remains a candidate for lowering integration
+  and governance costs in enterprise AI applications that need permission control and compliance auditing;
+  the claim comes from a commentator and is an inference.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -39,7 +36,7 @@ summary: "My comment  on  MCP was always a bad idea?  — Hacker News.  This art
   \    \n         Tags:  hacker-news ,  model-context-protocol"
 first_seen: '2026-09-20T20:24:41Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

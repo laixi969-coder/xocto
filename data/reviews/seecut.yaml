@@ -1,0 +1,44 @@
+- id: req-initial-seecut-2026-09-28
+  project_slug: seecut
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播素材剪成成片的重复劳动，痛点在批量更新时刚性，旧做法是手工时间线剪辑，结构上成立。
+    evidence_ids:
+    - ev-1bbaef3fdd5462d2
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库约 68 星与 13 次 fork，属关注度信号，尚无可归因到该产品的持续使用或口碑证据。
+    evidence_ids:
+    - ev-1bbaef3fdd5462d2
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径；按成片或代运营收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1bbaef3fdd5462d2
+  - gate: truth
+    status: insufficient
+    reason: 自动精剪的准确度、导出草稿的可用性以及人工返工比例均无公开材料，交付确定性待核验。
+    evidence_ids:
+    - ev-1bbaef3fdd5462d2
+  next_validation: 收集该仓库的 issue、discussion 或 README 更新，确认自动精剪的实测效果、导出剪映草稿的可用性与是否出现付费或商用部署说明。
+  market: ''
+  job: 口播类短视频创作者或 MCN 后期，在拿到一条几十分钟的口播或数字人原始素材后，需要把它剪成节奏紧凑、带字幕和动效的成片，并保留可继续微调的工程文件。
+  job_en: Talking-head short-video creators or MCN post-production staff who, after receiving a long raw
+    talking-head or avatar recording, must cut it into a tight finished clip with captions and motion
+    effects while keeping an editable project file.
+  pain: 手工在时间线上逐句切分、加字幕和动效耗时且重复，一条素材往往要花数小时，批量账号更新时人力跟不上。
+  pain_en: Manually splitting sentences, adding captions and effects on a timeline is slow and repetitive,
+    often taking hours per clip, and cannot keep up with batch account publishing.
+  current_alternative: 剪辑师用剪映或 Premiere 手工粗剪，或购买按席位计费的剪辑工具，再逐条套模板。
+  current_alternative_en: Editors rough-cut by hand in CapCut or Premiere, or buy seat-based editing tools,
+    then apply templates clip by clip.
+  usage_reason: 推断：它把粗剪、节奏切分和动效生成合并为一次自动处理，并输出剪映分层草稿，使创作者省去从零搭时间线这一步，仍可人工确认后再发布，因此批量口播账号的运营者会优先试用。
+  usage_reason_en: 'Inference: it merges rough cutting, pacing and effect generation into one automated
+    pass and exports a layered CapCut draft, removing the step of building a timeline from scratch while
+    still allowing human review before publishing, so operators of batch talking-head accounts are likely
+    to try it first.'

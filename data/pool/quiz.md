@@ -21,7 +21,7 @@ canonical_url: https://quiz.seek.ws
 summary: Jev predicting your life choices
 first_seen: '2026-09-26T16:24:27Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

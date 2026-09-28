@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOX3Jwc3hObFlG
 summary: Vishal Mishra Elevated to Chief AI Officer and Head of Growth at IDC Technologies digital terminal
 first_seen: '2026-09-26T12:25:00Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

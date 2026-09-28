@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/ev-603
 summary: AGI and new moral subjects; ChatGPT drives a car; energy and AI need each other++
 first_seen: '2026-09-27T04:06:52Z'
 last_seen: '2026-09-28T00:47:11Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

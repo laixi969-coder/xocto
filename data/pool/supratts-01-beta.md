@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/supratts-0-1-beta
 summary: From-scratch Glow-TTS + HiFi-GAN English voice
 first_seen: '2026-09-27T12:43:22Z'
 last_seen: '2026-09-28T00:47:09Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

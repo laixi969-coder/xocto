@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQeXNyNnp3b2JL
 summary: Ingenta Reports £5.1 Million In H1 Revenue Pulse 2.0
 first_seen: '2026-09-27T10:03:39Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

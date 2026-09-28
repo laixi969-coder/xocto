@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SRHVHUEJyMFMt
 summary: 周末突发！最火AI，惊现利空！三大变数突袭 证券之星
 first_seen: '2026-09-27T12:30:00Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

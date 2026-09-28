@@ -1,0 +1,44 @@
+- id: req-initial-deepresearchagent-2026-09-28
+  project_slug: deepresearchagent
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决调研初稿的检索、证据归集与引用生成，痛点是不采用就要人工反复摘录且中断重做，旧行为明确。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+  - gate: consensus
+    status: insufficient
+    reason: 仅约 60 星、5 次 fork，属早期关注度，不能说明持续采用或强场景共识。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或买方，钱可能来自 to B 定制或 to VC，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+  - gate: truth
+    status: insufficient
+    reason: 引用是否可核对、断点续跑是否稳定、人工边界如何划定，公开材料均未给出可复现结果。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+  next_validation: 收集该仓库的 issue、discussion 与 README 示例输出，核验带引用报告是否可复现、断点续跑是否稳定。
+  market: ''
+  job: 分析师或咨询顾问在需要快速产出带引用的行业调研初稿时，把公开网页材料交给 agent 检索、整理证据并生成可核查报告。
+  job_en: Analysts or consultants who need a cited first-draft industry research report hand public web
+    material to the agent to search, organize evidence and produce a checkable report.
+  pain: 人工检索要反复开标签页、复制粘贴来源、手动整理引用，长任务中断后要重做，引用与结论容易对不上。
+  pain_en: Manual research means endless tabs, copy-pasted sources and hand-built citations; long runs
+    restart from scratch after interruption and citations often drift from conclusions.
+  current_alternative: 人工用搜索引擎加文档工具逐条摘录，或使用闭源大厂的研究功能，前者慢且难审计，后者不可自托管、证据链不透明。
+  current_alternative_en: People hand-pick sources with a search engine plus a document tool, or use a
+    closed big-vendor research feature; the former is slow and hard to audit, the latter cannot be self-hosted
+    and hides its evidence chain.
+  usage_reason: 相较人工逐条摘录，它把检索规划、证据归集和引用生成串成一次可续跑的运行，减少中断重做和手工整理引用这两步负担；推断：需要可审计来源的投研、咨询或尽调人员会因此选择它，但公开材料尚无付费或持续使用证据。
+  usage_reason_en: 'Compared with hand-picking sources, it chains search planning, evidence collection
+    and citation generation into one resumable run, cutting the rework after interruption and the manual
+    citation step; inference: research, consulting or due-diligence users who need auditable sources would
+    pick it, though public material shows no payment or repeat-use evidence yet.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPZHhPaE5lczh1
 summary: 深圳龙岗联手蚂蚁集团，押注健康管理和AI硬件 finance.sina.com.cn
 first_seen: '2026-09-25T03:22:30Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

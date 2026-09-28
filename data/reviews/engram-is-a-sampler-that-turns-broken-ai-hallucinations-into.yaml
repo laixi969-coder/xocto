@@ -1,0 +1,44 @@
+- id: req-initial-engram-is-a-sampler-that-turns-broken-ai-hallucinations-into-2026-09-28
+  project_slug: engram-is-a-sampler-that-turns-broken-ai-hallucinations-into
+  level: initial
+  reviewed_at: '2026-09-28T00:47:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制作人缺少新音色素材、手工调音试错慢的问题，痛点具体且旧替代行为明确；但尚无用户反馈证明音质与可用性。
+    evidence_ids:
+    - ev-1d779c034bc2c2ef
+  - gate: consensus
+    status: insufficient
+    reason: 仅有众筹上线这一事实，没有支持者数量、预售额或社区讨论规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-1d779c034bc2c2ef
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、硬件售价或音色包收费方式，买方与付费路径只能推断为硬件购买者。
+    evidence_ids:
+    - ev-1d779c034bc2c2ef
+  - gate: truth
+    status: insufficient
+    reason: 尚无交付记录、量产时间或第三方实测，承诺能否确定性交付未核验。
+    evidence_ids:
+    - ev-1d779c034bc2c2ef
+  next_validation: 收集 Engram 的 Kickstarter 众筹页面公开数据，核验支持人数、目标金额、交付时间与定价档位。
+  market: ''
+  job: 电子音乐制作人在硬件工作台上采集或导入一段音频后，需要把它变成可继续编排的新音色素材，用于下一段编曲或现场演出。
+  job_en: An electronic music producer captures or imports an audio clip on a hardware workstation and
+    needs to turn it into new timbre material for the next arrangement section or a live set.
+  pain: 传统采样器只能对已有音频做剪辑、变调和滤波，想要真正没听过的声音往往要手工叠加多层效果或另找音源，试错成本高。
+  pain_en: Traditional samplers can only chop, pitch and filter existing audio; getting a genuinely unheard
+    sound usually means stacking effects by hand or hunting for another source, which is slow trial and
+    error.
+  current_alternative: 现有做法是硬件采样器加效果器手工调音，或在电脑上用软件合成器与音频插件反复试验。
+  current_alternative_en: The current route is a hardware sampler plus pedals tweaked by hand, or repeated
+    experiments with software synths and audio plug-ins on a computer.
+  usage_reason: 推断：相较手工叠加效果，Engram 把“生成新声音”这一步直接放进硬件演奏流程，制作人不必离开工作台去电脑里找音源，能更快得到可继续编排的素材；但公开材料未给出音质、延迟或实际使用反馈，这一判断基于产品能力而非用户证言。
+  usage_reason_en: 'Inference: compared with stacking effects by hand, Engram puts the generate-new-sound
+    step directly into the hardware performance flow, so producers need not leave the desk to hunt for
+    sources and get arrangeable material faster; public material gives no audio-quality, latency or user
+    feedback, so this rests on product capability, not testimony.'

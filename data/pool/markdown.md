@@ -21,7 +21,7 @@ canonical_url: https://markdown.beauty
 summary: Building a Markdown editor for Mac, iOS and web
 first_seen: '2026-09-27T13:44:45Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

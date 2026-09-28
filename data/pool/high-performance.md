@@ -21,7 +21,7 @@ canonical_url: https://bonguynvan.github.io/tradecanvas
 summary: zero-dependency charting engine for Svelte
 first_seen: '2026-09-27T15:22:52Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

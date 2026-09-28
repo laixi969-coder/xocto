@@ -22,7 +22,7 @@ summary: On Equity, we discussed how Meta's AI announcement managed to steal the
   and Anthropic.
 first_seen: '2026-09-27T19:57:30Z'
 last_seen: '2026-09-28T00:47:11Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

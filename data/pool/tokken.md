@@ -21,7 +21,7 @@ canonical_url: https://tokken.win
 summary: a browser fighting game where AI models fight and HP is tokens
 first_seen: '2026-09-26T17:50:57Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-cc-monitor-2026-09-28
+  project_slug: cc-monitor
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理自主操作后无法追溯的问题，痛点具体，旧做法是翻日志和 git diff，结构上成立。
+    evidence_ids:
+    - ev-48996541be43eeb0
+  - gate: consensus
+    status: insufficient
+    reason: 仅 41 星、6 次 fork，没有用户评价或团队采用证据，关注度尚不足以说明共识。
+    evidence_ids:
+    - ev-48996541be43eeb0
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是团队或企业，但付费路径没有公开材料支持，属判断。
+    evidence_ids:
+    - ev-48996541be43eeb0
+  - gate: truth
+    status: insufficient
+    reason: 仓库未说明记录范围、是否防篡改、能否确定性交付审计结果，承诺边界仍不清楚。
+    evidence_ids:
+    - ev-48996541be43eeb0
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它记录哪些操作、是否提供防篡改或导出审计报告的交付方式。
+  market: ''
+  job: 开发者在本地让 Claude Code 修改代码库时，需要事后查清代理到底改了哪些文件、执行了哪些命令，以便向团队或客户交代。
+  job_en: A developer letting Claude Code modify a local codebase needs to reconstruct afterwards which
+    files and commands the agent touched, in order to answer to a team or client.
+  pain: 编码代理自主执行命令，出错或越权后没有可追溯记录，排查和担责都无从下手。
+  pain_en: Coding agents run commands autonomously; without a traceable record, debugging and accountability
+    after a mistake or overreach are impossible.
+  current_alternative: 靠终端滚动日志、git diff 或人工回忆来还原代理做过什么。
+  current_alternative_en: Relying on scrolling terminal logs, git diff, or memory to reconstruct what
+    the agent did.
+  usage_reason: 推断：相较翻终端日志，它把代理的每一步操作集中记录成可查阅的审计条目，省去事后逐条翻找的负担，因此需要留痕的团队会在代理自主执行命令时选择它。
+  usage_reason_en: 'Inference: compared with scrolling terminal logs, it consolidates each agent action
+    into reviewable audit entries, removing the burden of reconstructing them afterwards, so teams needing
+    traceability would pick it when agents execute commands autonomously.'

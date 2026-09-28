@@ -1,0 +1,46 @@
+- id: req-initial-okta-targets-ai-agent-confusion-with-identity-security-push-2026-09-28
+  project_slug: okta-targets-ai-agent-confusion-with-identity-security-push
+  level: initial
+  reviewed_at: '2026-09-28T00:47:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体权限归属与越权追溯的需求，痛点在于自动化身份出事难定位；买方与交付细节尚未公开。
+    evidence_ids:
+    - ev-aaf324e126cc87a3
+    - ev-b854bdf23edaa36a
+  - gate: consensus
+    status: insufficient
+    reason: 只有两篇报道，无客户名单、部署规模或同行跟进证据，共识尚未形成。
+    evidence_ids:
+    - ev-aaf324e126cc87a3
+    - ev-b854bdf23edaa36a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是企业安全预算，属判断而非已验证事实。
+    evidence_ids:
+    - ev-aaf324e126cc87a3
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明策略由谁批准、误判如何回滚，交付确定性无法核验。
+    evidence_ids:
+    - ev-b854bdf23edaa36a
+  next_validation: Okta 官方产品页或发布说明，用于核验智能体身份治理的具体功能、定价与客户案例。
+  market: ''
+  job: 企业身份与安全团队在把 AI 智能体接入内部系统时，处理智能体的身份、权限与操作记录，要完成授权范围划定和越权行为追溯。
+  job_en: Enterprise identity and security teams, when connecting AI agents to internal systems, handle
+    agent identities, permissions and action logs to scope authorization and trace overreach.
+  pain: 智能体以自动化身份调用系统，权限边界不清，出事时难以判断是哪个智能体、依据什么授权做的，审计链条断裂。
+  pain_en: Agents call systems under automated identities with unclear permission boundaries, so after
+    an incident it is hard to tell which agent acted and under what authorization, breaking the audit
+    chain.
+  current_alternative: 旧做法是把智能体当作普通服务账号或人工共享凭据处理，靠人工台账和事后排查补权限归属。
+  current_alternative_en: The old way treats agents as ordinary service accounts or shared human credentials,
+    relying on manual registers and after-the-fact investigation to reconstruct ownership.
+  usage_reason: 推断：相较共享服务账号加人工台账，把智能体身份与访问意图纳入既有身份体系，可在授权环节直接限定范围并留下可查记录，减少事后逐条排查这一步；已在用 Okta 且开始部署智能体的企业安全团队会因此选择它。
+  usage_reason_en: 'Inference: versus shared service accounts plus manual registers, folding agent identity
+    and access intent into the existing identity system constrains scope at authorization time and leaves
+    queryable records, removing the step of tracing each action afterwards; security teams already on
+    Okta and starting agent deployments would choose it for this.'

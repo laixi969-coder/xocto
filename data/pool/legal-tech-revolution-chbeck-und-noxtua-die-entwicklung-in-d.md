@@ -22,7 +22,7 @@ summary: 'Legal-Tech-Revolution? C.H.Beck und Noxtua: Die Entwicklung in der jur
   Intelligenz Xpert.Digital - Konrad Wolfenstein'
 first_seen: '2026-09-27T14:12:05Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

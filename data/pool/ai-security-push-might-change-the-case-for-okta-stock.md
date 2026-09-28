@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPbHRGVTNvU0FX
 summary: AI Security Push Might Change The Case For Okta Stock simplywall.st
 first_seen: '2026-09-27T01:53:43Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

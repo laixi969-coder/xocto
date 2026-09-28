@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/designeer
 summary: Bringing the best of the internet together
 first_seen: '2026-09-21T18:06:08Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

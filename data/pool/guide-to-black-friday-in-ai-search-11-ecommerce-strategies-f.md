@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE1mNkU5U2lMX3Rk
 summary: 'Guide to Black Friday in AI search: 11 ecommerce strategies for 2026 Hostinger'
 first_seen: '2026-09-25T07:00:00Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

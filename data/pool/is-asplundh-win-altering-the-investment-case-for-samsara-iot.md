@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOU1ZJZGdEREhx
 summary: Is Asplundh Win Altering The Investment Case For Samsara (IOT)? simplywall.st
 first_seen: '2026-09-27T05:47:41Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

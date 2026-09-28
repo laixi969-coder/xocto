@@ -1,0 +1,44 @@
+- id: req-initial-qwen-image-21-skill-2026-09-28
+  project_slug: qwen-image-21-skill
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是提示词不规范导致出图偏差的问题，痛点方向成立，但公开材料未说明返工频率与代价，价值强度无法确认。
+    evidence_ids:
+    - ev-b08448f7fee61073
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 115 个星标，属于关注度信号，没有用户评价或社区讨论说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-b08448f7fee61073
+  - gate: model
+    status: insufficient
+    reason: 开源仓库，未见定价页或付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b08448f7fee61073
+  - gate: truth
+    status: insufficient
+    reason: 提示词改写能否稳定提升出图质量，缺少可复现的对比结果，也未说明人工确认边界。
+    evidence_ids:
+    - ev-b08448f7fee61073
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告改写后出图返工减少或给出前后对比案例。
+  market: ''
+  job: 使用 Qwen-Image-2.1 的设计或运营人员，在需要出图或改图时，先处理自己写的提示词文本，把它改成符合官方规范的版本，再交给模型生成。
+  job_en: A designer or operator using Qwen-Image-2.1, when they need to generate or edit images, first
+    processes their own prompt text into a version matching the official specification before handing
+    it to the model.
+  pain: 提示词写法不规范会导致出图结果偏离预期，用户需要反复试错重写，但公开材料没有说明这种返工有多频繁、代价多大。
+  pain_en: Non-standard prompt wording makes outputs drift from expectations and forces repeated rewriting,
+    but public material does not show how frequent or costly this rework is.
+  current_alternative: 用户直接手写提示词、参考官方文档或社区示例，靠多次生成试错来逼近想要的效果。
+  current_alternative_en: Users write prompts by hand, consult official docs or community examples, and
+    iterate through repeated generations to approach the desired result.
+  usage_reason: 推断：它把官方规范固化成一次改写动作，省去用户逐条对照文档调整措辞的步骤，因此对不熟悉 Qwen-Image-2.1 提示规范、又要批量出图的人可能有吸引力；但缺少用户反馈或采用证据，无法确认是否真的减少了返工。
+  usage_reason_en: 'Inference: it fixes the official specification into a single rewriting action, removing
+    the step of checking docs line by line to adjust wording, which may appeal to people unfamiliar with
+    Qwen-Image-2.1 prompt conventions who generate images at volume; without user feedback or adoption
+    evidence, it is unconfirmed whether rework actually drops.'

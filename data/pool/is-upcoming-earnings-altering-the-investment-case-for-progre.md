@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOGRqMDcyb3NE
 summary: Is Upcoming Earnings Altering The Investment Case For Progress Software Stock (PRGS)? simplywall.st
 first_seen: '2026-09-27T09:37:46Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

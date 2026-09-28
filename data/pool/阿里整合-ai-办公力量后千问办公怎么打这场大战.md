@@ -1,20 +1,39 @@
 ---
 slug: 阿里整合-ai-办公力量后千问办公怎么打这场大战
-name: 阿里整合 AI 办公力量后，千问办公怎么打这场大战？
+name: 千问办公
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 企业 IT 或业务负责人在处理审批、销售、财务等流程时，需要让 AI 读取公司文档、邮件和知识库。千问办公把企业私有知识接入、人与 AI 同空间协作、自定义行业工作台和 QwenNote
+  A2 硬件打包成一套企业级能力，最终交付给企业可接入原有系统的办公工作台；具体交付形态与人工确认环节仍待核验。
+inspiration: 趋势：企业 AI 的竞争点正从模型能力转向办公入口、企业数据与业务流程接入。切入：可从某个垂直行业的审批或销售流程入手，做能接进客户已有系统的行业工作台，按流程或结果收费，而不是再做一个通用聊天入口；阿里已占据通用办公入口，正面打平台层窗口基本关闭。
+summary_en: When handling approvals, sales or finance processes, enterprise IT or business leads need
+  AI to read company documents, email and knowledge bases. Qwen Office bundles private enterprise knowledge
+  access, human-AI shared workspaces, customizable industry workbenches and the QwenNote A2 device into
+  enterprise-grade capabilities, delivering a workbench that connects to existing enterprise systems;
+  the exact delivery format and human confirmation steps still need verification.
+inspiration_en: 'Trend: competition in enterprise AI is shifting from model capability to office entry
+  points, enterprise data and business-process integration. Entry point: start from the approval or sales
+  workflow of one vertical industry and build an industry workbench that plugs into the customer''s existing
+  systems, charging per process or outcome rather than launching another general chat entry; Alibaba already
+  holds the general office entry, so the platform-layer window is largely closed.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 企业软件与办公服务
+- 云计算
+industries_en:
+- Enterprise software and office services
+- Cloud computing
+jobs:
+- 企业 IT 与数字化负责人
+- 业务部门运营人员
+jobs_en:
+- Enterprise IT and digital transformation leads
+- Business operations staff
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: http://www.geekpark.net/news/371040
 canonical_url: https://geekpark.net/news/371040
@@ -72,7 +91,7 @@ summary: "办公正在成为全球 AI 行业竞争最集中的战场之一。 \n
   \ \n 当前很多产品的软件同质化严重，因此大家更容易为模型成本买单；如果软件形成真正差异化，客户也会愿意为软件设计、功能和云资源付费。今天的收费方式更多是产业阶段的结果。"
 first_seen: '2026-09-27T08:38:53Z'
 last_seen: '2026-09-28T00:47:11Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -83,7 +102,7 @@ sightings:
   kind: news
 ---
 
-# 阿里整合 AI 办公力量后，千问办公怎么打这场大战？
+# 千问办公
 
 办公正在成为全球 AI 行业竞争最集中的战场之一。 
  相比聊天、搜索，AI 在企业办公场景下的落地要复杂的多，一方面需要连接、调用企业的文档、邮件、知识库，另一方面还需要 AI 理解审批、销售、财务等业务流程。而今年以来 Agent 快速发展，让 AI 进入「千司千面」的企业办公场景成为可能。 

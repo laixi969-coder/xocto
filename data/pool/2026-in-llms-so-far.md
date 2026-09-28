@@ -322,7 +322,7 @@ summary: "On Friday I gave the closing keynote at the  WeAreDevelopers World Con
   \ ,  openai-hugging-face-incident"
 first_seen: '2026-09-27T23:54:15Z'
 last_seen: '2026-09-28T00:47:11Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxNZkU3OE05NnFW
 summary: 'Startup Corner: From digital binders to AI research – meet Align Legal IT Insider'
 first_seen: '2026-09-25T09:39:52Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

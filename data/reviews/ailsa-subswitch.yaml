@@ -1,0 +1,44 @@
+- id: req-initial-ailsa-subswitch-2026-09-28
+  project_slug: ailsa-subswitch
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多账号用量核对与切换的需求，痛点真实但强度有限，且公开材料未说明支持哪些服务，交付边界不清。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有44个星标和16次复刻，属于早期关注度，不能说明用户已把它留在日常工作流中。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+  - gate: truth
+    status: insufficient
+    reason: 用量核对与账号切换本身可确定交付，但支持范围、切换后状态同步与安全边界均未说明。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+  next_validation: 收集该仓库的README或文档，确认其支持哪些AI服务、账号切换的具体机制与用量数据来源。
+  market: ''
+  job: 个人开发者或小团队在同时持有多个AI订阅账号时，需要查看各账号每周用量并切换到目标账号继续工作。
+  job_en: An individual developer or small team holding several AI subscription accounts needs to check
+    each account's weekly usage and switch to the target account to keep working.
+  pain: 多账号下用量分散，逐个登录核对额度费时，容易在额度耗尽时才发现，打断正在进行的任务。
+  pain_en: Usage is scattered across accounts; checking quotas by logging in one by one is slow, and exhaustion
+    is often discovered only when it interrupts an ongoing task.
+  current_alternative: 手动逐个登录各服务后台查看用量，或用表格自行记录额度。
+  current_alternative_en: Logging into each service's dashboard by hand to check usage, or tracking quotas
+    in a spreadsheet.
+  usage_reason: 推断：相较逐个登录后台，它把用量汇总到一处并支持一键切换，减少了核对额度这一步的操作次数，因此同时管理多个AI订阅账号的开发者会在额度紧张、需要快速换号时选择它；公开材料未说明支持哪些服务，也未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with logging into each dashboard, it aggregates usage in one place
+    and supports one-click switching, cutting the steps needed to check quotas, so developers managing
+    several AI subscription accounts would choose it when quotas run low and a fast switch is needed;
+    the public material does not state which services are supported and offers no retention or repeat-use
+    evidence.'

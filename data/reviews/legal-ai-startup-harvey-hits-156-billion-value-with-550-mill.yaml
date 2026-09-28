@@ -187,3 +187,49 @@
     of first-pass review so lawyers only review the output; teams facing large contract or diligence volumes
     would therefore choose it under time pressure. This is an inference from product capability and task
     structure, not evidence of retention or repeat purchase.
+- id: req-initial-legal-ai-startup-harvey-hits-156-billion-value-with-550-mill-2026-09-28
+  project_slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
+  level: initial
+  reviewed_at: '2026-09-28T00:47:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师在合同审阅与检索中逐条人工处理、错误代价高的问题，旧行为明确且刚性，交付为可复核草稿。
+    evidence_ids:
+    - ev-1c1f09e8e970a935
+    - ev-131455e43aa2138a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资估值与保密规则讨论，缺少律所实际采用规模与持续使用的可核验证据。
+    evidence_ids:
+    - ev-1c1f09e8e970a935
+  - gate: model
+    status: insufficient
+    reason: 买方为律所与企业法务、付费路径存在，但公开材料未披露定价与合同结构，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1c1f09e8e970a935
+  - gate: truth
+    status: supported
+    reason: 法律工作的第一性目标是准确且可溯源的文书与检索，产品强调引用与保密边界，人工确认环节保留。
+    evidence_ids:
+    - ev-131455e43aa2138a
+  next_validation: 收集 Harvey 官方定价页或公开客户案例，核验律所实际采购与按案件/席位计费方式。
+  market: ''
+  job: 律所律师与企业法务在合同审阅、尽职调查和法律检索时，处理合同、案卷与判例材料，需要产出可引用的文书草稿或检索结论。
+  job_en: Law firm lawyers and in-house counsel handling contracts, case files and case law during contract
+    review, due diligence and legal research need citable draft documents or research conclusions.
+  pain: 这类材料量大、条款密集，人工逐条比对和检索耗时，且错误代价高；同时律师使用 AI 时保密特权规则仍然适用，合规风险真实存在。
+  pain_en: Such materials are voluminous and clause-dense, manual comparison and research are slow, and
+    errors are costly; meanwhile privilege rules still apply when lawyers use AI, so compliance risk is
+    real.
+  current_alternative: 初级律师和法务助理手工阅读、摘录与检索，或用通用聊天工具临时处理，但后者缺少法律语料、引用溯源与保密控制。
+  current_alternative_en: Junior lawyers and legal assistants read, excerpt and search manually, or use
+    general chat tools ad hoc, which lack legal corpora, citation traceability and confidentiality controls.
+  usage_reason: 相较人工逐条阅读，它把合同与案卷材料直接转成带引用的条款要点和初稿，减少初级律师的摘录与检索步骤，因此在高案件量、需要快速出初稿的律所与法务团队中会被选择；这是基于产品能力与任务结构的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with reading clause by clause manually, it turns contracts and case files
+    directly into cited clause points and first drafts, cutting the excerpting and research steps of junior
+    lawyers, so firms and legal teams with high matter volume and a need for fast first drafts would choose
+    it; this is an inference from product capability and task structure, as public materials provide no
+    retention or repeat-use evidence.

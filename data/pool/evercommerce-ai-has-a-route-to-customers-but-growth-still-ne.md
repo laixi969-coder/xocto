@@ -22,7 +22,7 @@ summary: 'EverCommerce: AI Has A Route To Customers, But Growth Still Needs Repa
   Alpha'
 first_seen: '2026-09-26T10:10:11Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

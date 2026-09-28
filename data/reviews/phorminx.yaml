@@ -1,0 +1,47 @@
+- id: req-initial-phorminx-2026-09-28
+  project_slug: phorminx
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感会议内容不能上云却仍要留可检索记录的需求，痛点是合规限制与手工记录跟不上语速。
+    evidence_ids:
+    - ev-14cec8c7be46f171
+    - ev-29a4bab5d6da7cce
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标数据，没有用户评价或行业采用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-14cec8c7be46f171
+    - ev-29a4bab5d6da7cce
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或付费方式，本地部署是否收费属判断而非已验证事实。
+    evidence_ids:
+    - ev-14cec8c7be46f171
+    - ev-29a4bab5d6da7cce
+  - gate: truth
+    status: insufficient
+    reason: 本地模型格式化与转写准确率、是否需人工校对，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-14cec8c7be46f171
+    - ev-29a4bab5d6da7cce
+  next_validation: 收集该仓库的 issue 与 release 说明，确认本地转写准确率、模型管理方式及是否有用户报告实际用于会议记录。
+  market: ''
+  job: 律师、医生、咨询顾问等不能把会议内容上传云端的人，在开会或口述时用 Windows 电脑记录内容，需要事后能检索的完整文字稿。
+  job_en: People such as lawyers, clinicians and consultants who cannot upload meeting content to the
+    cloud record on a Windows machine during meetings or dictation and need a searchable full transcript
+    afterwards.
+  pain: 云端转写服务要把敏感语音和会议内容传到第三方，合规上过不去；纯手工记录又跟不上语速、事后难检索。
+  pain_en: Cloud transcription sends sensitive audio and meeting content to a third party, which fails
+    compliance, while manual note-taking cannot keep up with speech and is hard to search later.
+  current_alternative: 用云端转写订阅服务，或人工速记加事后整理，再靠关键词在文档里翻找。
+  current_alternative_en: Using a cloud transcription subscription, or human shorthand plus after-the-fact
+    cleanup, then hunting through documents by keyword.
+  usage_reason: 推断：它把转写、格式化与笔记存储都放在本机，模型由用户自己管理，省掉把敏感录音上传第三方这一步，因此受合规约束、又需要可检索记录的专业人士会在会议场景选择它。
+  usage_reason_en: 'Inference: it keeps transcription, formatting and note storage on the local machine
+    with user-managed models, removing the step of uploading sensitive recordings to a third party, so
+    compliance-bound professionals who still need searchable records would choose it for meetings.'

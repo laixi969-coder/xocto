@@ -1,0 +1,45 @@
+- id: req-initial-lemo-opuscar-2026-09-28
+  project_slug: lemo-opuscar
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是没有导演资源却要出风格化短片的需求，痛点在于凑齐分镜与后期的成本，旧做法是通用生成工具加自拼提示词。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与分支数，属于关注度而非持续采用，尚无用户反馈或客户案例说明谁在反复使用。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是创作者或品牌方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+  - gate: truth
+    status: insufficient
+    reason: 成片是否真由代码生成、人工确认在哪一步，公开材料未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+  next_validation: 收集该仓库的 issue、discussion 或官方说明，确认成片生成流程、人工确认环节与是否有实际使用案例。
+  market: ''
+  job: 品牌或独立创作者在需要一条有明确视觉风格的短片时，把故事梗概和风格选择交给 AI 代理，由它产出分镜与成片素材，用于投放或发布。
+  job_en: A brand or independent creator needing a short film with a defined visual style hands a story
+    outline and a style choice to an AI agent, which produces storyboards and finished footage for distribution
+    or release.
+  pain: 过去要凑齐导演、分镜和后期才能出片，成本高、周期长；没有预算的团队只能放弃风格化短片，或退而用通用模板。
+  pain_en: Previously a director, storyboard artist and post-production were needed to finish a film,
+    which is costly and slow; teams without budget either drop stylised shorts or fall back on generic
+    templates.
+  current_alternative: 通用视频生成工具加自己拼提示词，或直接买现成素材库片段再剪辑。
+  current_alternative_en: Generic video generation tools with self-assembled prompts, or buying stock
+    footage and editing it.
+  usage_reason: 推断：它把风格提示词和对应样片打包成可复用资产，用户不必从零试提示词，直接选定风格后由代理产出成片，省掉反复调风格这一步；因此缺导演资源、又要固定视觉调性的小团队会先试它。
+  usage_reason_en: 'Inference: it packages style prompts with matching samples as reusable assets, so
+    users skip trial-and-error prompting and let the agent produce the film after picking a style, removing
+    the style-tuning step; small teams lacking directing resources but needing a consistent look would
+    try it first.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE45MndnX1dHN3dM
 summary: Meta新一代AI眼镜引入Muse助手：未来AI眼镜会成为主流吗？ 手机新浪网
 first_seen: '2026-09-25T06:25:24Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

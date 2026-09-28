@@ -1,0 +1,43 @@
+- id: req-initial-aldus-palace-2026-09-28
+  project_slug: aldus-palace
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨会话上下文丢失、承诺与决策无法追溯的痛点，输入、动作与交付闭环清晰，属于工作流推理。
+    evidence_ids:
+    - ev-33aaf4ff3019be4a
+  - gate: consensus
+    status: insufficient
+    reason: 78个星标属于早期关注度，没有用户评价或采用数据说明它已被持续使用。
+    evidence_ids:
+    - ev-33aaf4ff3019be4a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方与收费方式不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-33aaf4ff3019be4a
+  - gate: truth
+    status: insufficient
+    reason: 数据存于用户自有文件、边界清楚，但抽取准确率与人工确认环节未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-33aaf4ff3019be4a
+  next_validation: 收集该仓库的README或文档，确认自由文本转类型化条目的抽取准确率说明与人工确认机制。
+  market: ''
+  job: 开发者或团队在让AI助手跨会话工作时，需要把对话中的承诺、决策与记忆整理成带出处的记录并长期保存。
+  job_en: When developers or teams run an AI assistant across sessions, they need to organise commitments,
+    decisions and memories from conversations into records with provenance and keep them long term.
+  pain: 会话结束后上下文丢失，承诺与决策散落在聊天记录里，无法追溯依据，重复交代同一件事。
+  pain_en: Context is lost after a session; commitments and decisions are scattered across chat logs with
+    no traceable basis, forcing the same background to be restated.
+  current_alternative: 手动维护笔记或文档，或依赖平台自带的会话记忆功能。
+  current_alternative_en: Maintaining notes or documents by hand, or relying on the platform's built-in
+    session memory.
+  usage_reason: 推断：相较手动整理笔记或依赖平台记忆，它把自由文本自动转成带证据的类型化条目并存入用户自有的SQLite文件，减少了事后补记和核对出处这一步，因此需要跨会话留痕且在意数据归属的开发者或团队会选择它；公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with hand-maintained notes or platform memory, it automatically
+    converts free text into typed entries with evidence stored in a user-owned SQLite file, removing the
+    step of writing up and tracing sources afterwards, so developers or teams needing cross-session records
+    and data ownership would choose it; the public material provides no retention or repeat-use evidence.'

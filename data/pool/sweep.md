@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/sweep-9
 summary: Your floor turns green where you've vacuumed
 first_seen: '2026-09-14T08:37:55Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

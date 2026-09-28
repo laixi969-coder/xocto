@@ -60,7 +60,7 @@ summary: 消息称 OpenAI 将推出常驻 AI 助手「O」，预计 9 月 29 日
   Dig Assist、Grade Assist 辅助系统。  视频引起关注后，有网友调侃称：「蓝翔技校还能开几年」、「这算不算挖掘机也带智驾功能」、「都 2026 年了，到底啥时候能用电脑控制挖掘机炒菜啊」。（来源：快科技）
 first_seen: '2026-09-28T00:06:58Z'
 last_seen: '2026-09-28T00:47:11Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

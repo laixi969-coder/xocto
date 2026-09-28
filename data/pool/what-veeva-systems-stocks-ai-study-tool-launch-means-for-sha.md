@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOYi04Y3pUMTlr
 summary: What Veeva Systems Stock's AI Study Tool Launch Means For Shareholders simplywall.st
 first_seen: '2026-09-25T13:36:54Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

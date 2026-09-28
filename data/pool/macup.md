@@ -21,7 +21,7 @@ canonical_url: https://macup.patriciobcs.com
 summary: keep CLI tools up to date from the menu bar
 first_seen: '2026-09-27T15:49:34Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

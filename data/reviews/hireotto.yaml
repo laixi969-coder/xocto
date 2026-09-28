@@ -1,0 +1,43 @@
+- id: req-initial-hireotto-2026-09-28
+  project_slug: hireotto
+  level: initial
+  reviewed_at: '2026-09-28T00:46:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是跨平台投放手动调参耗时的问题，痛点真实，但公开材料只有一句定位，无法确认 AI 接收什么、执行哪一步，价值结构无法还原。
+    evidence_ids:
+    - ev-99956889e84e98db
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品定位外没有任何采用、评价或客户信息，无法判断投放人员是否真的把账户交给它。
+    evidence_ids:
+    - ev-99956889e84e98db
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按投放效果收费不明；广告预算执行权限意味着可能的 to B 订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-99956889e84e98db
+  - gate: truth
+    status: insufficient
+    reason: 自动改预算出价直接涉及真金白银，公开材料未说明安全边界、人工确认环节与归因口径，确定性交付无法核对。
+    evidence_ids:
+    - ev-99956889e84e98db
+  next_validation: 收集 HireOtto 官方定价页或产品文档，确认它接入哪些广告平台、AI 可执行哪些账户操作以及是否有人工确认环节。
+  market: ''
+  job: 效果营销人员或代理公司投放负责人，在管理多个广告账户时，需要根据每日花费和转化数据调整预算与出价，完成一轮投放优化。
+  job_en: A performance marketer or agency media buyer managing several ad accounts needs to adjust budgets
+    and bids from daily spend and conversion data to complete a round of campaign optimization.
+  pain: 跨平台后台反复切换、手动改预算出价耗时且容易漏看异常，预算超支或跑偏往往在事后才发现。
+  pain_en: Switching between platform dashboards and manually editing budgets and bids is slow and easy
+    to miss anomalies, so overspend or drift is often found after the fact.
+  current_alternative: 广告平台自带规则与自动出价、代理商用表格加人工巡检，或采购第三方投放管理工具。
+  current_alternative_en: Native platform rules and automated bidding, agencies using spreadsheets plus
+    manual checks, or third-party campaign management tools.
+  usage_reason: 推断：若它真能读取账户数据并直接执行预算与出价调整，可省去逐平台手动改参数这一步，让投放人员只在异常时介入；但公开材料未说明接入范围与执行权限，无法确认这一因果是否成立。
+  usage_reason_en: 'Inference: if it truly reads account data and directly executes budget and bid changes,
+    it removes the step of manually editing parameters per platform and lets buyers intervene only on
+    anomalies; public material does not state integration scope or execution permissions, so this causal
+    claim is unconfirmed.'

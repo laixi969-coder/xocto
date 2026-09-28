@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNWWNBU0xRZGJJ
 summary: Docebo And 2 Canadian AI Stocks To Watch simplywall.st
 first_seen: '2026-09-27T23:45:57Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQU2hCMWlQMkdr
 summary: KPIT Technologies And 2 Indian AI Stocks To Watch simplywall.st
 first_seen: '2026-09-27T06:47:08Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

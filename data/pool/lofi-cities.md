@@ -21,7 +21,7 @@ canonical_url: https://loficities.com
 summary: Pixel-art city nights with browser-generated lofi
 first_seen: '2026-09-27T18:44:30Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

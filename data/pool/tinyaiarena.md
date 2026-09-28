@@ -21,7 +21,7 @@ canonical_url: https://tinyaiarena.com
 summary: TinyAIArena watch AI agents battle it out
 first_seen: '2026-09-27T15:51:28Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -25,7 +25,7 @@ summary: Between September 21 and September 26, 2026, as many as 19 Indian start
   Defencetech, Footwear, Fintech, AI, Cleantec instagram.com
 first_seen: '2026-09-27T18:21:24Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

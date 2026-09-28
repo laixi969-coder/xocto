@@ -1,0 +1,44 @@
+- id: req-initial-brewreel-2026-09-28
+  project_slug: brewreel
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小商家没有剪辑人手却要持续出竖版推广片的需求，痛点是外包贵、周期长、自己剪门槛高，旧做法明确存在。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 66 星、11 次 fork 只说明有开发者关注，没有商家采用或持续使用的证据。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+  - gate: model
+    status: insufficient
+    reason: 开源可商用，但公开材料没有定价页或付费路径，买方是商家自用还是代运营方尚不清楚，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+  - gate: truth
+    status: insufficient
+    reason: 广告法校验与成片质量能否稳定交付没有实测或客户案例，镜头素材来源与版权边界也未说明。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+  next_validation: 收集该开源仓库的 issue、discussion 与 README 中的实际使用案例，确认是否有商家或代运营方在真实投放中使用并复用。
+  market: ''
+  job: 小商家或营销人员在需要给门店或商品做竖版推广片时，手里只有一份产品简报和零散素材，要产出一条能直接投放的成片。
+  job_en: A small merchant or marketer who needs a vertical promo clip for a store or product has only
+    a product brief and scattered footage, and must produce a publish-ready video.
+  pain: 没有剪辑预算和技能，外包一条片子要等排期、反复改稿，自己剪又要学工具、找素材、写脚本，成本高且周期长。
+  pain_en: They have no editing budget or skills; outsourcing means waiting for a slot and repeated revisions,
+    while self-editing requires learning tools, sourcing footage and writing scripts, which is costly
+    and slow.
+  current_alternative: 外包给剪辑师或代运营，或用剪映等模板工具自己拼，或干脆不做视频只发图文。
+  current_alternative_en: Outsourcing to an editor or agency, hand-assembling with template tools, or
+    skipping video and posting only text and images.
+  usage_reason: 相较外包和手工剪辑，它把“挑镜头、写文案、套模板、查广告法”合并成一次简报输入后的自动出片，省掉找素材和写脚本这两步；推断没有剪辑人手、又要频繁出片的小商家会因此选择它，但公开材料尚无留存或复购证据。
+  usage_reason_en: Compared with outsourcing or manual editing, it merges shot selection, copywriting,
+    templating and ad-law checking into one brief-driven render, removing the footage-sourcing and scriptwriting
+    steps; inference is that small merchants without editors but with frequent output needs would choose
+    it, though no retention or repeat-use evidence is public.

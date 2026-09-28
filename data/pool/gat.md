@@ -21,7 +21,7 @@ canonical_url: https://github.com/getgat-dev/gat
 summary: Version large files with Git, without an LFS server
 first_seen: '2026-09-27T17:20:08Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

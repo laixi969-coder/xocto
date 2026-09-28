@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zQU1XR29PS25K
 summary: AI智能体越惊艳，存储越值钱! SK海力士旗下NAND业务版图酝酿千亿美元美股IPO_全球市场_财经 证券之星
 first_seen: '2026-09-26T01:35:33Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

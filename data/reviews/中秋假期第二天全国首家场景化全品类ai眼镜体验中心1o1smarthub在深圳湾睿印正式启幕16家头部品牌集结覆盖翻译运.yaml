@@ -1,0 +1,44 @@
+- id: req-initial-中秋假期第二天全国首家场景化全品类ai眼镜体验中心1o1smarthub在深圳湾睿印正式启幕16家头部品牌集结覆盖翻译运-2026-09-28
+  project_slug: 中秋假期第二天全国首家场景化全品类ai眼镜体验中心1o1smarthub在深圳湾睿印正式启幕16家头部品牌集结覆盖翻译运
+  level: initial
+  reviewed_at: '2026-09-28T00:47:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者面对多品牌AI眼镜不知如何选、买错的问题，痛点具体且已有线下试戴这一旧行为，但公开材料未给出成交或复购数据。
+    evidence_ids:
+    - ev-20432b62aa41cfca
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇开业报道，16家品牌集结说明供给侧有意愿，但缺少消费者到店、购买或复访的公开证据。
+    evidence_ids:
+    - ev-20432b62aa41cfca
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、分成或收费方式，钱可能来自品牌方渠道费或零售差价，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-20432b62aa41cfca
+  - gate: truth
+    status: insufficient
+    reason: 体验中心能否确定性交付选型结果、售后由谁承担均未说明，需核验其与品牌方的合作与履约条款。
+    evidence_ids:
+    - ev-20432b62aa41cfca
+  next_validation: 收集1O1SmartHub官方渠道公布的入驻品牌名单、定价或分成方式及售后条款页面。
+  market: ''
+  job: 普通消费者在准备购买AI眼镜时，面对翻译、运动、观影、工业、视障辅助等不同定位的多品牌产品，需要现场试戴、比较功能与佩戴感受，最终选定一款并完成购买。
+  job_en: An ordinary consumer preparing to buy AI glasses faces multiple brands positioned for translation,
+    sports, viewing, industrial or low-vision use, and needs to try them on, compare features and fit,
+    and finally pick one and buy it.
+  pain: AI眼镜品类多、参数与场景差异大，线上图文难以判断实际佩戴效果和适用场景，消费者容易买错或干脆不买。
+  pain_en: AI glasses vary widely by category, specs and scenario, and online text and images make real
+    fit and suitability hard to judge, so buyers pick wrong or give up.
+  current_alternative: 此前消费者主要靠线上评测、品牌官网参数和电商评论自行判断，或去品牌单店试戴单一产品。
+  current_alternative_en: Previously buyers relied on online reviews, brand spec pages and e-commerce
+    comments, or tried a single product at a brand's own store.
+  usage_reason: 推断：把多品牌、多场景产品放进同一空间并现场试戴，省去了消费者跨店比价和反复查评测的步骤，让选型从纸面参数变成可核对的佩戴与功能体验，因此对首次购买、用途不明确的消费者更有吸引力。
+  usage_reason_en: 'Inference: putting multi-brand, multi-scenario products in one space for on-site trial
+    removes the need to visit separate stores and re-read reviews, turning selection from spec sheets
+    into verifiable fit and function experience, which appeals to first-time buyers unsure of their use
+    case.'

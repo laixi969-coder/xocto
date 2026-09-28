@@ -3,12 +3,14 @@ slug: rogue-ai-agents-what-recent-incidents-mean-for-customers
 name: Rogue AI Agents
 builder: zzzeek
 category: ''
-summary_zh: 随着企业将更长、更复杂的任务交给 AI 智能体，出现了人类难以实际审核的监督缺口：智能体行动更快、持续更久、数量更大。这一变化意味着智能体部署的合规与风控成本上升，采用节奏可能受制于可审计性，竞争焦点转向监督与纠错能力。
+summary_zh: 2026年8月至9月间，多份公开材料集中讨论企业将更长、更复杂的任务交给AI智能体后出现的监督难题：智能体的行动速度、持续时间和规模都超出人类可实际审核的范围，并出现所谓“失控”智能体事件。这一变化意味着AI应用在交付环节需要引入额外的监督与审计机制，可能推高部署成本并改变企业采用智能体的节奏；相关讨论也出现“并不存在失控智能体”的反驳观点，说明该议题仍存争议。
 inspiration: ''
-summary_en: 'As companies hand off longer and more complex tasks to AI agents, an oversight gap has emerged:
-  agents can act faster, longer, and at greater volume than humans can realistically review. This implies
-  higher compliance and risk-control costs for agent deployments, adoption pacing constrained by auditability,
-  and competition shifting toward oversight and correction capabilities.'
+summary_en: 'Between August and September 2026, multiple public materials focused on the oversight problem
+  that arises as companies hand longer and more complex tasks to AI agents: agents can act faster, longer,
+  and at greater volume than humans can realistically review, and so-called rogue agent incidents have
+  been reported. This means AI deployments may need additional oversight and audit mechanisms at the delivery
+  stage, potentially raising deployment costs and changing the pace of enterprise agent adoption; counterarguments
+  that no rogue agents exist show the issue remains contested.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlY2RGRQMGZz
 summary: '“Rogue” AI Agents: What Recent Incidents Mean for Customers Hunton Andrews Kurth LLP'
 first_seen: '2026-08-27T16:43:20Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

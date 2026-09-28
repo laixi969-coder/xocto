@@ -21,7 +21,7 @@ canonical_url: https://github.com/admte/orc-claude-plugin
 summary: Claude plugin for the ORC8R Cloud MCP server
 first_seen: '2026-09-26T20:16:59Z'
 last_seen: '2026-09-28T00:46:44Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

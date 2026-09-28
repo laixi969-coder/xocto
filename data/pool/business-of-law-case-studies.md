@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBiamVqOWJEZ1FC
 summary: 'Business of law: case studies Financial Times'
 first_seen: '2026-09-25T04:00:54Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

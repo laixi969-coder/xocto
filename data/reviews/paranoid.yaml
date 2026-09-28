@@ -1,0 +1,42 @@
+- id: req-initial-paranoid-2026-09-28
+  project_slug: paranoid
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前确认漏洞是否可被真实利用的需求，痛点是扫描器告警不可复现、人工渗透贵且慢，旧行为明确存在。
+    evidence_ids:
+    - ev-99b15368f05d7216
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与少量 issue，没有用户反馈或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-99b15368f05d7216
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是开发者自付或团队采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-99b15368f05d7216
+  - gate: truth
+    status: insufficient
+    reason: 自动打补丁后是否真能确定性修复、误报如何处理、人工边界在哪，公开材料未说明。
+    evidence_ids:
+    - ev-99b15368f05d7216
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有真实用户报告复现请求有效、补丁被接受或误报情况。
+  market: ''
+  job: 独立开发者或小团队在把 Web 应用上线或发版前，需要确认自己的接口和鉴权有没有可被真实利用的漏洞，处理对象是正在运行的应用本身。
+  job_en: Before shipping or releasing a web app, a solo developer or small team needs to confirm whether
+    its endpoints and auth have exploitable holes, working against the running application itself.
+  pain: 传统扫描器报一堆无法复现的告警，人工渗透测试又贵又慢，小团队往往只能凭经验猜哪里可能被攻破。
+  pain_en: Traditional scanners emit unreproducible alerts, while manual penetration testing is expensive
+    and slow, so small teams often just guess where they might be breached.
+  current_alternative: 用通用漏洞扫描器跑一遍，或请外部安全人员做一次性渗透测试，再靠人工逐条判断告警真假。
+  current_alternative_en: Running a generic vulnerability scanner, or hiring an external tester for a
+    one-off penetration test, then manually judging which alerts are real.
+  usage_reason: 推断：它把“发现—复现—修复—复验”压进同一次 agent 执行，用真实请求替代无法复现的告警，减少开发者逐条手工验证告警的那一步，因此缺少安全人手、又要快速发版的小团队会在上线前选择它。
+  usage_reason_en: 'Inference: it compresses find-reproduce-patch-reverify into one agent run, replacing
+    unreproducible alerts with real requests and removing the step where developers manually validate
+    each alert, so small teams without security staff that ship fast would pick it before release.'

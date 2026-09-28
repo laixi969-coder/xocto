@@ -21,7 +21,7 @@ canonical_url: https://light-cloud.com
 summary: A cloud console organised like file system
 first_seen: '2026-09-27T09:45:15Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

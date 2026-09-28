@@ -1,0 +1,44 @@
+- id: req-initial-memoire-2026-09-28
+  project_slug: memoire
+  level: initial
+  reviewed_at: '2026-09-28T00:46:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决从零散素材到成篇稿件的整理与成文需求，痛点方向合理，但材料仅一句宣传语，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-16470c4370bbca3a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料没有用户评价、采用或讨论证据，无法判断是否有人真的把它放进写作流程。
+    evidence_ids:
+    - ev-16470c4370bbca3a
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或付费路径信息，买方与收费方式均不明，无法判断钱从哪来。
+    evidence_ids:
+    - ev-16470c4370bbca3a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近写作第一性目标、交付是否确定，也看不到人工确认边界。
+    evidence_ids:
+    - ev-16470c4370bbca3a
+  next_validation: 收集 Memoire 官方产品页或定价页，确认其输入格式、生成流程、交付物与收费方式。
+  market: ''
+  job: 写作者和内容创作者在把零散笔记、片段想法整理成书稿或长文的阶段，需要把不成形的素材变成可继续编辑的成篇文本。
+  job_en: Writers and content creators, at the stage of turning scattered notes and fragments into a manuscript
+    or long-form piece, need to convert unformed material into continuous editable text.
+  pain: 从零散想法到成篇稿件之间的整理与成文环节耗时，且容易在结构组织上卡住；但候选材料只有一句宣传语，未说明具体痛点来源。
+  pain_en: The assembly step from scattered ideas to a finished draft is time-consuming and easy to stall
+    on structure; however the candidate material offers only a tagline and does not identify a concrete
+    source of pain.
+  current_alternative: 写作者目前多用通用对话助手、笔记软件或直接手写草稿来完成从素材到成稿的整理。
+  current_alternative_en: Writers currently use general chat assistants, note apps, or simply write drafts
+    by hand to move from material to finished text.
+  usage_reason: 推断：若它能把已有笔记直接转成结构化初稿，用户可省去自己搭框架和逐段成文的一步，因此会吸引已有大量素材但迟迟无法成篇的写作者；但材料未提供任何用户反馈或采用证据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if it converts existing notes directly into a structured draft, users skip
+    building the outline and writing paragraph by paragraph, which would appeal to writers with abundant
+    material but no finished piece; yet no user feedback or adoption evidence is provided, so this causal
+    claim cannot be confirmed.'

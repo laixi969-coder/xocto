@@ -1,0 +1,42 @@
+- id: req-initial-infragrid3d-2026-09-28
+  project_slug: infragrid3d
+  level: initial
+  reviewed_at: '2026-09-28T00:46:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是土木设计软件本地部署与协作成本高的问题，痛点具体，但公开材料只有一句定位，无法还原 AI 的输入、动作与交付。
+    evidence_ids:
+    - ev-f8a7d931e2e950a1
+  - gate: consensus
+    status: insufficient
+    reason: 没有设计院或工程公司的采用、试用或评价信息，无法判断工程师是否愿意把出图工作搬到浏览器。
+    evidence_ids:
+    - ev-f8a7d931e2e950a1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位、按项目还是按出图量收费不明；设计院采购是可能的 to B 路径，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f8a7d931e2e950a1
+  - gate: truth
+    status: insufficient
+    reason: 工程出图涉及规范合规与安全责任，公开材料未说明 AI 结果是否需工程师复核、能否通过审查，确定性交付无法核对。
+    evidence_ids:
+    - ev-f8a7d931e2e950a1
+  next_validation: 收集 InfraGrid3D 官方文档或演示，确认浏览器端设计覆盖哪些专业环节、AI 承担哪一步以及输出模型能否直接用于施工审查。
+  market: ''
+  job: 土木工程师或设计院建模人员，在承接道路、桥梁等基础设施项目时，需要按规范完成三维设计并交付 LOD 400 级别的模型给施工与审查方。
+  job_en: A civil engineer or design-institute modeler taking on road or bridge infrastructure projects
+    needs to complete code-compliant 3D design and deliver LOD 400 models to construction and review parties.
+  pain: 本地建模软件授权贵、协作靠文件互传，版本容易冲突，异地团队与业主审阅都要来回导出。
+  pain_en: Local modeling licenses are expensive, collaboration relies on passing files around, versions
+    conflict easily, and remote teams and owners must export back and forth to review.
+  current_alternative: 桌面端 BIM 与土木设计软件加人工建模，配合文件服务器或网盘做版本管理。
+  current_alternative_en: Desktop BIM and civil design software with manual modeling, plus file servers
+    or cloud drives for version control.
+  usage_reason: 推断：若浏览器端真能完成 LOD 400 级别设计，工程师可省去本地安装与文件互传这一步，业主和施工方直接在线审阅；但公开材料未说明 AI 参与哪一步，无法确认它比现有桌面流程少做了哪一步。
+  usage_reason_en: 'Inference: if the browser truly supports LOD 400 design, engineers skip local installation
+    and file passing, and owners and contractors review online; public material does not say which step
+    the AI handles, so it is unclear which step it removes versus existing desktop workflows.'

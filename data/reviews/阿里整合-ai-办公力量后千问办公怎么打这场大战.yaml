@@ -1,0 +1,48 @@
+- id: req-initial-阿里整合-ai-办公力量后千问办公怎么打这场大战-2026-09-28
+  project_slug: 阿里整合-ai-办公力量后千问办公怎么打这场大战
+  level: initial
+  reviewed_at: '2026-09-28T00:47:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业让 AI 安全读取私有知识并进入审批、销售、财务流程的需求，痛点是通用模型无法接触组织数据、无法理解业务流程，不采用则流程仍靠人工整理与流转。
+    evidence_ids:
+    - ev-150426a2191e2b29
+  - gate: consensus
+    status: insufficient
+    reason: 材料只说明阿里整合了多条办公产品线并发布能力，未给出企业客户采用、付费或持续使用的公开证据，共识卡在场景落地与利益验证环节。
+    evidence_ids:
+    - ev-150426a2191e2b29
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，钱可能来自企业订阅或云服务打包，属判断而非已验证事实；阿里云与钉钉生态提供潜在付费路径。
+    evidence_ids:
+    - ev-150426a2191e2b29
+  - gate: truth
+    status: insufficient
+    reason: 企业上下文与工作台能否确定性交付、AI 接触组织数据的安全与人工边界如何设定，公开材料未说明，需进一步核验。
+    evidence_ids:
+    - ev-150426a2191e2b29
+  next_validation: 收集千问办公官方定价页或企业客户案例，确认其企业上下文与行业工作台的交付方式与付费模式。
+  market: ''
+  job: 企业 IT 与数字化负责人在推进审批、销售、财务等流程自动化时，需要让 AI 读取公司文档、邮件和知识库，并接入企业原有系统，最终交付一个可用的行业工作台。
+  job_en: Enterprise IT and digital transformation leads automating approval, sales and finance workflows
+    need AI to read company documents, email and knowledge bases and connect to existing enterprise systems,
+    ultimately delivering a usable industry workbench.
+  pain: 企业数据分散在文档、邮件和知识库中，AI 难以安全接触组织数据并理解审批、销售、财务等业务流程，导致通用模型无法直接进入实际工作流。
+  pain_en: Enterprise data is scattered across documents, email and knowledge bases, and AI struggles
+    to safely access organizational data and understand approval, sales and finance processes, so general
+    models cannot enter real workflows directly.
+  current_alternative: 企业此前多依赖人工在钉钉等办公系统里整理资料、走审批，或自行拼接通用模型与内部系统，缺少统一的企业上下文与工作台。
+  current_alternative_en: Enterprises previously relied on staff manually organizing materials and routing
+    approvals in office systems like DingTalk, or piecing together general models with internal systems,
+    lacking unified enterprise context and a workbench.
+  usage_reason: 相较人工整理资料和自行拼接模型，千问办公通过企业上下文把私有知识接入、协作功能让 AI 与人在同一空间处理流程、自定义工作台接入原有系统，减少企业自行搭建数据连接与流程适配的步骤，因此需要把
+    AI 嵌入既有审批与业务流程的企业会在评估时选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with manually organizing materials and self-assembling models, Qwen Office
+    uses enterprise context to connect private knowledge, collaboration features to let AI and people
+    work in one space, and customizable workbenches to plug into existing systems, cutting the steps enterprises
+    spend building data connections and process adapters; enterprises embedding AI into existing approval
+    and business processes would therefore consider it. This is an inference from product c

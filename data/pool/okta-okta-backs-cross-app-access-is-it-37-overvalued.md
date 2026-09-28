@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTTI2dHczZnVx
 summary: Okta (OKTA) Backs Cross App Access, Is It 37% Overvalued? simplywall.st
 first_seen: '2026-09-25T20:28:35Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

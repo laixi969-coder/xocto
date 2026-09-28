@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMzRRWkJleGkz
 summary: 'The Weekly Notable Startup Funding Report: 9/28/26 AlleyWatch'
 first_seen: '2026-09-27T20:33:22Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -3,30 +3,36 @@ slug: chatgpt-mobile-app-gets-voice-based-agentic-features
 name: ChatGPT
 builder: ''
 category: 通用助手
-summary_zh: ChatGPT 的 Plus 与 Pro 订阅用户在手机上打开 Work 标签页，用语音说出要办的事，由助手代为执行代理型任务；具体可执行的任务范围、交付形态与人工确认环节，候选材料未给出细节，仍待核验。
-inspiration: 趋势是通用助手从“问答”转向“替用户动手办事”，把入口从桌面搬到手机语音。切入不在通用助手本身，而在被代理的那一步旧流程：例如把口头指令变成可核对的交付物，需要行业数据、线下履约或合规边界，这些是模型能力被抹平后仍留下的位置。
-summary_en: ChatGPT's Plus and Pro subscribers open the Work tab on their phones, speak a task aloud,
-  and the assistant carries out agentic work on their behalf; the exact task scope, deliverable form and
-  human confirmation steps are not detailed in the candidate material and remain unverified.
-inspiration_en: 'The trend is general assistants moving from answering questions to acting on the user''s
-  behalf, with the entry point shifting to voice on mobile. The opening is not the assistant itself but
-  the old step being delegated: turning a spoken instruction into a checkable deliverable needs industry
-  data, offline fulfillment or compliance boundaries that survive model commoditization.'
+summary_zh: 订阅 Plus 或 Pro 的用户在手机上打开 ChatGPT 的 Work 标签页，用语音说出要办的事，由助手代为执行代理型任务并返回结果；具体可执行的任务范围与人工确认环节仍待核验。
+inspiration: 趋势：通用助手正从“问答”走向“代做”，把移动端变成任务入口。切入：不要在通用代理上正面竞争，可从某个垂直旧流程切入，例如把语音代做嵌进房产带看记录、保险理赔材料整理等具体环节，按完成的任务收费。
+summary_en: Plus or Pro subscribers open the Work tab in ChatGPT's mobile app, speak the task they want
+  done, and the assistant carries out agentic tasks and returns results; the exact task scope and human
+  confirmation steps still need verification.
+inspiration_en: 'Trend: general assistants are moving from answering to doing, turning mobile into a task
+  entry point. Entry: avoid head-on competition in general agents; instead embed voice-driven task completion
+  into a specific legacy workflow, such as property viewing notes or insurance claim document sorting,
+  and charge per completed task.'
 priority_review: false
 project_type: new_application
 industries: []
 industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+jobs:
+- 个人与团队日常事务处理
+- 移动场景下的任务代办
+jobs_en:
+- Everyday personal and team task handling
+- On-the-go task delegation
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/
 canonical_url: https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features
 summary: Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.
 first_seen: '2026-09-23T17:00:00Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - newssearch

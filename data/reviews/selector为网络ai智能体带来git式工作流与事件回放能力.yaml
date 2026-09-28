@@ -1,0 +1,46 @@
+- id: req-initial-selector为网络ai智能体带来git式工作流与事件回放能力-2026-09-28
+  project_slug: selector为网络ai智能体带来git式工作流与事件回放能力
+  level: initial
+  reviewed_at: '2026-09-28T00:47:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决智能体执行不可复盘的问题，但公开材料只有标题，连输入、动作与交付都写不出，需求与痛点无法确认。
+    evidence_ids:
+    - ev-c65e35fd2c96f8ab
+    - ev-283339aba050f3e2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅两条同源标题级报道，无开发者讨论、采用或场景证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-c65e35fd2c96f8ab
+    - ev-283339aba050f3e2
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明开源还是商业产品，也未提定价、买方或收费方式，付费路径完全未知。
+    evidence_ids:
+    - ev-c65e35fd2c96f8ab
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对回放是否贴近调试的第一性目标、承诺能否确定性交付，安全与人工边界也无材料。
+    evidence_ids:
+    - ev-283339aba050f3e2
+  next_validation: 查找 Selector 的官方仓库或产品页，确认其事件回放的具体输入、输出与是否开源。
+  market: ''
+  job: AI 智能体开发者在智能体线上执行出错或需要复盘时，处理智能体的执行记录与状态变更，要完成定位失败步骤并复现问题的任务。
+  job_en: AI agent developers, when a deployed agent fails or needs review, work with execution traces
+    and state changes to locate the failing step and reproduce the problem.
+  pain: 公开材料只给出标题，未说明智能体执行记录如何采集、回放粒度如何、与现有日志或追踪工具的差别，因此无法确认它缓解了哪一步具体痛苦。
+  pain_en: The public material is only a headline; it does not say how agent traces are captured, at what
+    granularity replay works, or how it differs from existing logging and tracing tools, so the specific
+    pain it relieves cannot be confirmed.
+  current_alternative: 开发者目前多用日志、追踪平台或自建脚本记录智能体执行过程，具体替代关系未在材料中说明。
+  current_alternative_en: Developers currently rely on logs, tracing platforms, or self-built scripts
+    to record agent execution; the material does not describe the substitution.
+  usage_reason: 推断：若回放真能按事件粒度还原智能体每一步动作，开发者可省去手工重跑与逐条比对日志的步骤，从而在排查线上故障时选择它；但缺少功能细节与使用证据，此判断仅为结构推理。
+  usage_reason_en: 'Inference: if replay truly reconstructs each agent action at event granularity, developers
+    could skip manually re-running and diffing logs line by line, which is why they might pick it for
+    production incident triage; lacking feature detail and usage evidence, this is structural reasoning
+    only.'

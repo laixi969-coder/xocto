@@ -1,0 +1,39 @@
+- id: req-initial-clicks-communicator-2026-09-28
+  project_slug: clicks-communicator
+  level: initial
+  reviewed_at: '2026-09-28T00:46:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连解决什么需求、什么痛点都写不出来，只有一句定位描述，价值关不成立。
+    evidence_ids:
+    - ev-7316de3a635c9014
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或讨论证据。
+    evidence_ids:
+    - ev-7316de3a635c9014
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无材料。
+    evidence_ids:
+    - ev-7316de3a635c9014
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付内容无法核对。
+    evidence_ids:
+    - ev-7316de3a635c9014
+  next_validation: 收集该产品的官方页面或发布说明，确认它面向哪类用户、处理什么材料、产出什么交付。
+  market: ''
+  job: 资料未说明谁在什么情况下用它处理什么材料、完成什么任务。
+  job_en: The material does not state who uses it, in what situation, on what material, to finish what
+    task.
+  pain: 无法从现有材料识别它要缓解的具体痛点。
+  pain_en: No specific pain point can be identified from the available material.
+  current_alternative: 未提供，无法判断它替代了哪种旧做法。
+  current_alternative_en: Not provided; the prior practice it replaces cannot be determined.
+  usage_reason: 缺少功能、场景与交付信息，无法解释用户为何选择它，也无法与旧做法比较。
+  usage_reason_en: With no function, scenario, or deliverable information, there is no way to explain
+    why a user would choose it or how it compares with the old practice.

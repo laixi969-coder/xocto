@@ -1,0 +1,44 @@
+- id: req-initial-video2book-courses-2026-09-28
+  project_slug: video2book-courses
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频课程无法快速复习、笔记整理耗时的需求，痛点具体且不整理的后果明确；属工作流推理。
+    evidence_ids:
+    - ev-59de363696fadaa3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 43 星与 6 次 fork 的开源关注度，缺少学习者持续使用或课程方采用的公开证据。
+    evidence_ids:
+    - ev-59de363696fadaa3
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费或按课程收费路径，买方是学生还是机构属判断，不是已验证事实。
+    evidence_ids:
+    - ev-59de363696fadaa3
+  - gate: truth
+    status: insufficient
+    reason: 生成流程、人工校对边界与笔记准确性均未公开，交付能否稳定复现无法核对。
+    evidence_ids:
+    - ev-59de363696fadaa3
+  next_validation: 收集该仓库的 issue、discussion 或使用反馈，核对生成笔记的准确性与是否有课程方或学习者持续采用。
+  market: ''
+  job: 学生和自学者在备考或复习阶段，面对几十小时的长视频课程，需要把课程内容变成能快速翻阅、检索和背诵的教材与脑图。
+  job_en: During exam prep or review, students and self-learners face dozens of hours of long video courses
+    and need the content turned into textbooks and mind maps they can quickly flip through, search and
+    memorize.
+  pain: 长视频只能线性播放，回看定位困难，做笔记耗时且容易遗漏；不整理就没有可复习的沉淀材料。
+  pain_en: Long videos only play linearly, rewinding to a point is hard, and note-taking is slow and error-prone;
+    without organizing, no reviewable material remains.
+  current_alternative: 自己边看边手写笔记、截图，或依赖他人上传的零散笔记和课程讲义。
+  current_alternative_en: Taking handwritten notes and screenshots while watching, or relying on scattered
+    notes and slides uploaded by others.
+  usage_reason: 推断：相较逐集手写笔记，它把课程音频一次性重构为分层文本与脑图，省掉逐讲整理和排版这一步，因此备考时间紧、课程量大的学生会选择它；但生成质量与人工校对环节尚无公开证据。
+  usage_reason_en: 'Inference: compared with writing notes lecture by lecture, it reconstructs course
+    audio into layered text and mind maps in one pass, removing the per-lecture organizing and formatting
+    step, so students with tight schedules and heavy course loads would choose it; public evidence on
+    generation quality and human proofreading is still missing.'

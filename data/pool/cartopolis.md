@@ -21,7 +21,7 @@ canonical_url: https://code.garage44.eu/jeroen/cartopolis
 summary: interactive globe-sized 3D world
 first_seen: '2026-09-27T20:14:53Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

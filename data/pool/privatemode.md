@@ -21,7 +21,7 @@ canonical_url: https://privatemode.ai/blog/system-one-from-glm-flash
 summary: Turning GLM-5.3-Flash into a Jev-like decision model
 first_seen: '2026-09-26T15:49:04Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCc0F3dHo5dS0z
 summary: Token词元收入榜：揭示了AI视频、全栈和Coding三条商业化路径 电子工程专辑
 first_seen: '2026-09-27T00:54:00Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Nal81Q2ZOblI4
 summary: 中信证券研报：数据中心政治化或是短期AI叙事最大障碍 观点网
 first_seen: '2026-09-27T13:18:16Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

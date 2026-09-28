@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBJbmJCa3lYM1BK
 summary: 重塑券商研究触达模式，把分析师能力装进AI 新浪财经
 first_seen: '2026-09-26T20:58:18Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: Google Eyes $1.5B Investment In AI Coding Startup As AI Brain Drain Con
   Exit Stocktwits
 first_seen: '2026-09-26T01:14:32Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

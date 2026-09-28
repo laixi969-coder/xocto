@@ -1,0 +1,45 @@
+- id: req-initial-first-pass-2026-09-28
+  project_slug: first-pass
+  level: initial
+  reviewed_at: '2026-09-28T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理改动范围失控、审查者只看差异行的问题，痛点具体且不解决的后果是返工与线上故障；规则集把审查动作固定下来，属于工作流推理。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 40 个星标，无评论、无 issue、无外部评价，无法判断是否有人真正把它放进日常流程。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费或企业采用路径；买方可能是工程团队或平台方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+  - gate: truth
+    status: insufficient
+    reason: 规则以提示词与检查清单形式存在，能否确定性拦截问题取决于模型配合程度，缺少可复现的实测结果。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+  next_validation: 收集该仓库的 issue、discussion 或 README 中的可复现实测记录，确认规则是否真的拦截过改动范围外的问题。
+  market: ''
+  job: 使用 Claude Code 等编码代理的软件工程师，在把一次改动提交合并之前，需要处理模型生成的代码差异，判断这次改动会影响哪些模块、有没有遗漏，并留下可复核的完成依据。
+  job_en: 'Software engineers using coding agents such as Claude Code need to handle the model-generated
+    diff before merging a change: judge which modules the edit touches, whether anything was missed, and
+    leave reviewable proof of completion.'
+  pain: 代理写代码很快，但改动范围常常超出预期，审查者只能看到被写出的那几行，容易漏掉连带影响；不解决就要在合并后返工或线上排障。
+  pain_en: Agents write code fast, but the blast radius often exceeds expectations and reviewers only
+    see the lines that were written, so knock-on effects get missed; unresolved, this means rework after
+    merge or firefighting in production.
+  current_alternative: 靠人工代码评审、口头约定或团队自写的提示词与检查清单，规则散落在个人习惯里，无法稳定复现。
+  current_alternative_en: Manual code review, verbal conventions, or team-written prompts and checklists,
+    with rules scattered across individual habits and no stable reproduction.
+  usage_reason: 相较人工评审只看差异行，这套规则把“先问十个影响范围问题、由未写代码的一方复核、给出完成证据”固化成提交前的固定动作，减少审查者自己重建上下文这一步；推断，受监管行业或外包交付团队在需要留档时更可能选择它。
+  usage_reason_en: Compared with manual review that only reads the diff, this rule set fixes 'ask ten
+    blast-radius questions, have a non-author review, show proof of done' into a pre-commit routine, removing
+    the step where a reviewer rebuilds context; this is inference, and regulated-industry or outsourced
+    delivery teams needing an audit trail are the likeliest adopters.

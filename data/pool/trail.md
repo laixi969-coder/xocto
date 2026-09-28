@@ -21,7 +21,7 @@ canonical_url: https://trail.franzai.com
 summary: new kind of logic game
 first_seen: '2026-09-27T07:02:20Z'
 last_seen: '2026-09-28T00:46:41Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
