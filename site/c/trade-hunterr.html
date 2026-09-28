@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>Trade Hunterr · 真实案例拆解 · x-octo</title>
+<meta name="description" content="面向散户交易者的 AI 看图工具：上传一张股票走势图截图，AI 返回结构化的图表解读和交易设置建议，靠订阅收费，Stripe 验证月收入 2090 美元。">
+<link rel="canonical" href="https://xocto.vercel.app/c/trade-hunterr.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/c/trade-hunterr.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/c/trade-hunterr.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/c/trade-hunterr.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="Trade Hunterr · x-octo">
+<meta property="og:description" content="面向散户交易者的 AI 看图工具：上传一张股票走势图截图，AI 返回结构化的图表解读和交易设置建议，靠订阅收费，Stripe 验证月收入 2090 美元。">
+<meta property="og:url" content="https://xocto.vercel.app/c/trade-hunterr.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/c/trade-hunterr.html#webpage", "@type": "WebPage", "description": "\u9762\u5411\u6563\u6237\u4ea4\u6613\u8005\u7684 AI \u770b\u56fe\u5de5\u5177\uff1a\u4e0a\u4f20\u4e00\u5f20\u80a1\u7968\u8d70\u52bf\u56fe\u622a\u56fe\uff0cAI \u8fd4\u56de\u7ed3\u6784\u5316\u7684\u56fe\u8868\u89e3\u8bfb\u548c\u4ea4\u6613\u8bbe\u7f6e\u5efa\u8bae\uff0c\u9760\u8ba2\u9605\u6536\u8d39\uff0cStripe \u9a8c\u8bc1\u6708\u6536\u5165 2090 \u7f8e\u5143\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Trade Hunterr \u00b7 \u771f\u5b9e\u6848\u4f8b\u62c6\u89e3", "url": "https://xocto.vercel.app/c/trade-hunterr.html"}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class=""><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/c/trade-hunterr.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">真实收入案例 · AI</p>
+      <div class="product-title-row">
+        <h1>Trade Hunterr</h1>
+<span class="verdict v-notable">想要非必需</span>      </div>
+<p class="product-lede">面向散户交易者的 AI 看图工具：上传一张股票走势图截图，AI 返回结构化的图表解读和交易设置建议，靠订阅收费，Stripe 验证月收入 2090 美元。</p>      <div class="meta product-meta">
+        <span class="tag sig">Stripe 支付验证</span>
+      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>月收入</dt><dd class="num">$2,090 / 月</dd></div>
+      <div><dt>一手来源</dt><dd><a href="https://trustmrr.com/startup/trade-hunterr" target="_blank" rel="noopener">查看原文</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>真需求判断</h2>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel product-panel-call">
+        <span class="field-k">真需求判断</span>
+        <h3>想要非必需</h3>
+        <p>它替代的是交易者自己盯图、手动画线做判断的过程，把这一步压缩成一次上传。但看图结论不构成必须品，交易者随时可以换回自己看或换工具，续费动机偏弱。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">如何赚钱</span>
+        <p>散户交易者自己付费订阅，按周期扣款，通过 Stripe 收款。素材未给出具体价格档位与付费用户数。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">它替代了什么旧行为</span>
+        <p>交易者自己盯图、手动标注支撑阻力并推演交易计划的过程。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>首批用户来源</h2>
+      </div>
+    </div>
+<p class="product-lead">素材未提及</p>  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>可借鉴的打法</h2>
+      </div>
+    </div>
+    <ol class="desk-evidence-list case-playbooks">
+      <li><span class="num">01</span><span>把输入做成最低摩擦的一步：用户只需上传一张截图，不用连券商账户、不用填表单，降低首次使用门槛。</span></li>
+      <li><span class="num">02</span><span>输出结构化结果而不是泛泛点评：直接给交易设置（方向、位置、理由），让结果看起来能立刻用。</span></li>
+      <li><span class="num">03</span><span>选一个自带付费习惯的垂直人群（散户交易者），他们已经在为行情软件和信号服务花钱。</span></li>
+    </ol>
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">迁移到 AI 生意</span>
+        <p>这套『截图进、结构化结论出』的形态可以直接搬到其他需要专业读图的场景（财报截图、K 线以外的技术图、医疗或工程图纸），关键是把非结构化图像转成用户能照着执行的动作清单，而不是一段描述。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>证据与边界</h2>
+      </div>
+      <span class="note">自报数字未经审计，仅作线索，不应视为事实</span>
+    </div>
+    <div class="decision-grid desk-summary">
+      <div class="field">
+        <span class="field-k">Stripe 支付验证</span>
+        <p>收入口径<span class="decision-sep"> · </span>Stripe 支付验证（TrustMRR）</p>
+      </div>
+      <div class="field">
+        <span class="field-k">尚缺哪些证据</span>
+        <p>素材正文为空，只有标题和一句产品简介，没有任何获客、定价、留存或用户规模的细节。<br>月收入 2090 美元来自 Stripe 验证，可信；但付费用户数、客单价、churn 均未知，无法判断这是稳定订阅还是少数用户的一次性付费。<br>『AI 生成分析』的准确率与用户是否据此真实下单，素材未提供任何验证。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">一手来源</span>
+        <p><a href="https://trustmrr.com/startup/trade-hunterr" target="_blank" rel="noopener">https://trustmrr.com/startup/trade-hunterr ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>2096 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-09-28</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>
