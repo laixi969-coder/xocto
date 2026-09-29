@@ -1,6 +1,6 @@
 ---
 slug: physitrack-launches-next-generation-emr-powered-by-agentic-a
-name: Physitrack Launches Next-Generation EMR, Powered by Agentic AI
+name: Physitrack
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOd2FpcmZHdzZ6
 summary: Physitrack Launches Next-Generation EMR, Powered by Agentic AI TradingView
 first_seen: '2026-09-28T06:30:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Physitrack Launches Next-Generation EMR, Powered by Agentic AI
+# Physitrack
 
 Physitrack Launches Next-Generation EMR, Powered by Agentic AI TradingView
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOVEcyM3ZNWGhM
 summary: Here’s How Two of The Biggest Hyperscalers Have Best Monetized AI Capex So Far 24/7 Wall St.
 first_seen: '2026-09-28T16:24:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

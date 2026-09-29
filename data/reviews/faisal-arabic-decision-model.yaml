@@ -1,0 +1,41 @@
+- id: req-initial-faisal-arabic-decision-model-2026-09-29
+  project_slug: faisal-arabic-decision-model
+  level: initial
+  reviewed_at: '2026-09-29T01:58:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句模型描述，价值关无法成立。
+    evidence_ids:
+    - ev-9ed51b30a73bdc02
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。仅有少量点赞，不能说明任何采用共识。
+    evidence_ids:
+    - ev-9ed51b30a73bdc02
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。没有定价页、买方或付费路径的任何公开信息。
+    evidence_ids:
+    - ev-9ed51b30a73bdc02
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核对交付是否确定发生，也看不到人工边界。
+    evidence_ids:
+    - ev-9ed51b30a73bdc02
+  next_validation: 收集该模型空间的官方说明或模型卡，确认输入输出格式、置信度校准方法与是否已有行业使用案例。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The public material does not say who uses it, in what situation, on what material, or to finish
+    what task, so no concrete use scenario can be reconstructed.
+  pain: 材料未给出任何用户痛点、旧做法或绕行方式，只说明模型输出带校准置信度。
+  pain_en: The material gives no user pain, prior practice or workaround; it only states that the model
+    outputs calibrated confidence.
+  current_alternative: 公开材料未提及现有替代方式，无法判断用户此前如何处理同类阿拉伯语决策任务。
+  current_alternative_en: No existing alternative is mentioned, so it is impossible to tell how users
+    previously handled comparable Arabic decision tasks.
+  usage_reason: 缺少可核对的使用理由：没有定价、客户案例、用户反馈或重复使用证据，无法说明相较旧做法减少了哪一步负担。
+  usage_reason_en: 'No checkable reason to use it: there is no pricing, customer case, user feedback or
+    repeat-use evidence showing which step it removes versus the old way.'

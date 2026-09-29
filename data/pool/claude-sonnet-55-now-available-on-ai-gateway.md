@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-a
 summary: ''
 first_seen: '2026-09-28T00:00:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

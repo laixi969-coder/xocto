@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNai1udVlpTlJO
 summary: Adobe Lands Jet2 to Prove Agentic CX at Scale The Futurum Group
 first_seen: '2026-09-22T14:19:46Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

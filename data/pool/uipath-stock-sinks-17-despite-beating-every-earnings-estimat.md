@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPZDkzQ3dycU9F
 summary: UiPath Stock Sinks 17% Despite Beating Every Earnings Estimate Startup Fortune
 first_seen: '2026-09-05T08:44:11Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

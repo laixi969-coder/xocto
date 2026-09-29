@@ -24,7 +24,7 @@ summary: In March, Janice Malone began getting calls about suspicious activity f
   these companies' financial data, which was stored on its systems. But suddenly, concerned callers […]
 first_seen: '2026-09-28T18:30:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

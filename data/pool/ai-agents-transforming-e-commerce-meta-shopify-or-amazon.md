@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQQTFCTHVSOENZ
 summary: 'AI Agents Transforming E-Commerce: Meta, Shopify, or Amazon? RS Web Solutions'
 first_seen: '2026-09-28T15:00:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQNjh4X3VBclJ1
 summary: Building a Competitive Advantage in the Healthcare AI Market hbr.org
 first_seen: '2026-09-28T18:22:56Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

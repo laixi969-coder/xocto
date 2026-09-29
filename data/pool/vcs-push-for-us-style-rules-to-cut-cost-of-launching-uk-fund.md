@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/vcs-push-for-us-style-rules-to-cut-cos
 summary: ''
 first_seen: '2026-09-28T14:48:06Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

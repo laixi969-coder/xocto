@@ -21,7 +21,7 @@ canonical_url: https://blog.google/innovation-and-ai/technology/ai/winner-future
 summary: Watch the winning trailer from the Future Vision XPRIZE, The Gifted.
 first_seen: '2026-09-28T19:00:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

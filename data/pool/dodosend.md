@@ -21,7 +21,7 @@ canonical_url: https://dodosend.com
 summary: a Fast keyboard first Gmail client
 first_seen: '2026-09-28T07:03:10Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

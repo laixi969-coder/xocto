@@ -1,0 +1,44 @@
+- id: req-initial-getisland-2026-09-29
+  project_slug: getisland
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决减少无目的刷手机这一真实痛点，但公开材料未说明如何测量行为、奖励如何结算，交付是否确定无法核对。
+    evidence_ids:
+    - ev-09d9d0733e4414fb
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 7 分、4 条评论，没有采用或留存证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-09d9d0733e4414fb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，买方可能是个人订阅或家长付费，属推断而非已验证事实。
+    evidence_ids:
+    - ev-09d9d0733e4414fb
+  - gate: truth
+    status: insufficient
+    reason: 无法确认是否真正使用 AI，也未说明行为测量与奖励结算是否可被用户核对，承诺能否确定性交付存疑。
+    evidence_ids:
+    - ev-09d9d0733e4414fb
+  next_validation: 收集该产品官方页面或文档中关于刷手机行为测量方式与奖励结算规则的公开说明。
+  market: ''
+  job: 个人用户在察觉自己长时间无目的刷手机时，想用游戏化奖励替代单纯的自律打卡来减少刷手机时间。
+  job_en: An individual who notices long aimless scrolling wants game-like rewards instead of plain self-discipline
+    tracking to cut scrolling time.
+  pain: 刷手机带来的即时快感强于自律工具的延迟反馈，用户难以坚持；但公开材料未说明该产品如何测量刷手机行为，痛点是否被真正解决无法核对。
+  pain_en: Instant gratification from scrolling outweighs the delayed feedback of self-discipline tools,
+    making it hard to persist; but the material does not say how scrolling is measured, so whether the
+    pain is actually addressed cannot be checked.
+  current_alternative: 手机自带的屏幕使用时间统计、番茄钟、自律打卡类应用，以及直接卸载或限制 App。
+  current_alternative_en: Built-in screen-time reports, pomodoro timers, habit-tracking apps, or simply
+    deleting or limiting apps.
+  usage_reason: 推断：若它能把减少刷手机的行为自动换算成游戏内进度，用户就不必手动记录时长，奖励即时可见，可能吸引愿意为游戏化激励付费的年轻用户；但测量方式、奖励结算与是否使用 AI 均未披露，缺少可核对的一环。
+  usage_reason_en: 'Inference: if reduced scrolling is automatically converted into in-game progress,
+    users avoid manual time logging and see immediate rewards, which may appeal to younger users willing
+    to pay for gamified incentives; however measurement, reward settlement, and any AI use are undisclosed,
+    leaving a checkable gap.'

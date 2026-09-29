@@ -26,7 +26,7 @@ summary: In this paper, we study federated optimization for solving stochastic v
   the classical Local Extra SGD algorithm admits tighter guarantees under a refined analysis…
 first_seen: '2026-09-28T00:00:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

@@ -1,0 +1,43 @@
+- id: req-initial-sayble-2026-09-29
+  project_slug: sayble
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决通话中当场组织语言的需求，痛点直接影响成交或筛选结果，旧做法是背话术与事后复盘，结构上成立。
+    evidence_ids:
+    - ev-da68b273de18b5be
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布信息，没有用户评价或采用规模，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-da68b273de18b5be
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按坐席还是按通话量收费未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-da68b273de18b5be
+  - gate: truth
+    status: insufficient
+    reason: 无法核对实时建议的准确性与延迟，也未说明通话录音的隐私与人工边界。
+    evidence_ids:
+    - ev-da68b273de18b5be
+  next_validation: 收集该产品的官方定价页或客户案例，确认它接入哪些通话平台以及是否有真实团队在持续使用。
+  market: ''
+  job: 销售代表或客户沟通人员在通话进行中，处理对方提出的问题和异议，需要当场给出合适的回应。
+  job_en: A sales representative or customer-facing person handles questions and objections during a live
+    call and needs to respond appropriately on the spot.
+  pain: 通话中想不出合适措辞、错过追问时机，会直接影响成交或筛选结果，事后复盘无法挽回当场失误。
+  pain_en: Failing to find the right words or missing a follow-up moment during a call directly affects
+    the deal or screening outcome, and post-call review cannot undo the miss.
+  current_alternative: 会前背话术、旁边同事递纸条、会后听录音复盘，或使用只做事后总结的通话记录工具。
+  current_alternative_en: Memorizing scripts beforehand, a colleague passing notes, reviewing recordings
+    afterward, or call-recording tools that only summarize after the fact.
+  usage_reason: 推断：相较事后复盘，它在通话进行中直接给出下一句建议，省去用户当场组织语言这一步，因此高频通话且话术可复用的销售或招聘人员会在意成交与筛选结果时选择它；公开材料未提供用户反馈证实这一点。
+  usage_reason_en: 'Inference: unlike post-call review, it offers the next line during the call, removing
+    the step of composing language on the spot, so frequent callers with reusable scripts in sales or
+    recruiting would choose it when outcomes matter; public material provides no user feedback confirming
+    this.'

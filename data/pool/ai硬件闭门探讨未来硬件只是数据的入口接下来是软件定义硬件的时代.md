@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5RMWRQTXF1bDZj
 summary: AI硬件闭门探讨：未来硬件只是数据的入口，接下来是「软件定义硬件」的时代 极客公园
 first_seen: '2026-09-28T12:43:48Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

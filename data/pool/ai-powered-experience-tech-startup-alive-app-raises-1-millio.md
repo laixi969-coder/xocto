@@ -1,6 +1,6 @@
 ---
 slug: ai-powered-experience-tech-startup-alive-app-raises-1-millio
-name: AI-powered experience-tech startup Alive App raises $1 million from Powerhouse, Flipkart Ventures
+name: Alive App
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: AI-powered experience-tech startup Alive App raises $1 million from Pow
   Indian Startup News
 first_seen: '2026-09-28T07:48:01Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI-powered experience-tech startup Alive App raises $1 million from Powerhouse, Flipkart Ventures
+# Alive App
 
 AI-powered experience-tech startup Alive App raises $1 million from Powerhouse, Flipkart Ventures Indian Startup News
 

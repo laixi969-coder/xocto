@@ -1,0 +1,42 @@
+- id: req-initial-seiso-2026-09-29
+  project_slug: seiso
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 生成文档格式不统一、需人工返工的问题，但缺少实际返工减少的证据。
+    evidence_ids:
+    - ev-50d7115b57cf5aea
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，未显示团队或项目实际采用该约定，不能作为共识依据。
+    evidence_ids:
+    - ev-50d7115b57cf5aea
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费或商业路径，钱从哪来无法判断；这是判断缺口而非已验证事实。
+    evidence_ids:
+    - ev-50d7115b57cf5aea
+  - gate: truth
+    status: insufficient
+    reason: 无法确认检查规则是否贴近文档维护的第一性目标，也未验证交付是否确定发生。
+    evidence_ids:
+    - ev-50d7115b57cf5aea
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有团队报告因该约定减少了文档返工。
+  market: ''
+  job: 开发者在维护项目仓库文档时，处理由 AI 生成、需要人和智能体共同阅读的 Markdown 材料，要完成格式统一与可读性检查。
+  job_en: While maintaining repository documentation, developers handle AI-generated Markdown meant for
+    both humans and agents, aiming to unify format and check readability.
+  pain: AI 生成的文档格式与结构不统一，人和工具读取时容易出错，需要人工返工整理。
+  pain_en: AI-generated docs vary in format and structure, causing errors for human and tool readers and
+    requiring manual rework.
+  current_alternative: 此前多依赖人工约定、代码评审时的口头规范或通用 Markdown 检查工具，缺少针对 AI 生成文档的约定。
+  current_alternative_en: Previously this relied on manual conventions, verbal rules during code review,
+    or generic Markdown linters, without a convention aimed at AI-generated docs.
+  usage_reason: 推断：若检查能在提交前自动指出不符合约定的文档结构，可省去评审阶段的人工格式返工，因此维护 AI 生成文档的团队可能采用；但尚无用户反馈或采用数据支持这一判断。
+  usage_reason_en: 'Inference: if the check flags non-conforming doc structure before commit, it can remove
+    manual format rework at review, so teams maintaining AI-generated docs may adopt it; no user feedback
+    or adoption data yet supports this.'

@@ -1,0 +1,44 @@
+- id: req-initial-openappa-2026-09-29
+  project_slug: openappa
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 agent 执行边界不可预期的问题，痛点方向成立，但公开材料只有一句定位，无法确认它替代了哪一步具体旧工作。
+    evidence_ids:
+    - ev-ec879246ed9fcb47
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 23 点、12 条评论的社区讨论，属于关注度信号，不能说明开发者已把它放进工作流。
+    evidence_ids:
+    - ev-ec879246ed9fcb47
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费方、托管服务或支持收费路径，买方与收入模式均未知。
+    evidence_ids:
+    - ev-ec879246ed9fcb47
+  - gate: truth
+    status: insufficient
+    reason: 无法从现有材料核对确定性校验的实际覆盖范围、误拦率与人工兜底边界，交付确定性未明。
+    evidence_ids:
+    - ev-ec879246ed9fcb47
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认它拦截的具体动作类型、接入方式与是否已有团队在生产中使用。
+  market: ''
+  job: 开发者在把 agent 接入真实业务系统、需要限制其可执行动作时，处理 agent 的工具调用与执行步骤，要完成的是让 agent 在预设边界内运行而不越权。
+  job_en: Developers wiring agents into real business systems need to constrain what those agents may
+    execute, handling tool calls and execution steps so the agent runs within preset boundaries without
+    overstepping.
+  pain: agent 行为不确定，越权调用工具或执行危险步骤会造成难以回滚的后果，而现有做法难以给出可预期的边界。
+  pain_en: Agent behaviour is non-deterministic, and overstepping tool calls or dangerous steps cause
+    hard-to-roll-back consequences, while current practice struggles to provide a predictable boundary.
+  current_alternative: 在提示词里写约束、人工复核 agent 输出，或自建校验脚本。
+  current_alternative_en: Writing constraints into prompts, manually reviewing agent output, or building
+    custom validation scripts.
+  usage_reason: 推断：相较提示词约束和人工复核，它把边界做成确定性的校验动作，在动作执行前拦截，减少事后回滚与逐条人工检查的负担，因此需要让 agent 上生产的团队会考虑它；公开材料未给出接入方式与留存证据。
+  usage_reason_en: 'Inference: compared with prompt constraints and manual review, it turns boundaries
+    into deterministic checks that intercept before execution, reducing rollback and line-by-line manual
+    inspection, so teams taking agents to production would consider it; public material gives no integration
+    detail or retention evidence.'

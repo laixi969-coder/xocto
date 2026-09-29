@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5dWpvUFlySHZu
 summary: Capital One智能体AI战略：数据与平台优先思维 至顶网
 first_seen: '2026-09-28T17:40:19Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

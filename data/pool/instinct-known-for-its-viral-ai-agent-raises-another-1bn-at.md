@@ -1,6 +1,6 @@
 ---
 slug: instinct-known-for-its-viral-ai-agent-raises-another-1bn-at
-name: Instinct, known for its viral AI agent, raises another $1Bn at a $10Bn valuation
+name: Instinct
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQZnpXdjl1R1Rz
 summary: Instinct, known for its viral AI agent, raises another $1Bn at a $10Bn valuation The Tech Portal
 first_seen: '2026-09-28T20:21:52Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Instinct, known for its viral AI agent, raises another $1Bn at a $10Bn valuation
+# Instinct
 
 Instinct, known for its viral AI agent, raises another $1Bn at a $10Bn valuation The Tech Portal
 

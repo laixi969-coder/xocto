@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1fZHNRLXNfMmVX
 summary: 刘珂：用 AI 做衣服，让工人多赚钱｜Founder 100（002） 极客公园
 first_seen: '2026-09-28T18:13:24Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE16eGJPbDZUWXgz
 summary: 谷歌今年最成功的两款 AI 应用，都出自他手 极客公园
 first_seen: '2026-09-28T12:44:32Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

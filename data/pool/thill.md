@@ -21,7 +21,7 @@ canonical_url: https://thill.me/2026/07/16/corn-puzzle-sat-solver.html
 summary: Solving a corn puzzle with CP-SAT
 first_seen: '2026-09-27T20:58:54Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

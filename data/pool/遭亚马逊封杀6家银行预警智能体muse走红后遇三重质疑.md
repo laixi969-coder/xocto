@@ -1,6 +1,6 @@
 ---
 slug: 遭亚马逊封杀6家银行预警智能体muse走红后遇三重质疑
-name: 遭亚马逊“封杀”、6家银行预警……智能体Muse走红后遇三重质疑
+name: Muse
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9EcTNfenZqaV9K
 summary: 遭亚马逊“封杀”、6家银行预警……智能体Muse走红后遇三重质疑 mrjjxw.com
 first_seen: '2026-09-28T12:28:34Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 遭亚马逊“封杀”、6家银行预警……智能体Muse走红后遇三重质疑
+# Muse
 
 遭亚马逊“封杀”、6家银行预警……智能体Muse走红后遇三重质疑 mrjjxw.com
 

@@ -1,0 +1,40 @@
+- id: req-initial-纳米-ai-梁志辉超级搜索智能体是-ai-时代的真正入口-2026-09-29
+  project_slug: 纳米-ai-梁志辉超级搜索智能体是-ai-时代的真正入口
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未写出，只有“入口”定位，无法还原旧流程与交付。
+    evidence_ids:
+    - ev-2c1673462c611016
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇高管表态报道，无用户采用、社区讨论或场景共识证据。
+    evidence_ids:
+    - ev-2c1673462c611016
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、定价或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-2c1673462c611016
+  - gate: truth
+    status: insufficient
+    reason: 无部署文档、实测或人工边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-2c1673462c611016
+  next_validation: 收集纳米 AI 官方产品页或更新日志，确认超级搜索智能体接收的输入、执行动作与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下、处理什么材料、要完成什么任务。
+  job_en: Public material does not identify a specific user or scenario, so it is unclear who handles
+    what material under what circumstances to complete which task.
+  pain: 材料只给出“入口”定位，未描述用户当前遇到的检索或任务完成痛点。
+  pain_en: The material only gives an 'entry point' positioning and does not describe any retrieval or
+    task-completion pain users currently face.
+  current_alternative: 未披露用户此前用什么方式完成同类任务。
+  current_alternative_en: It is not disclosed how users previously completed comparable tasks.
+  usage_reason: 缺少可核对的动作与交付描述，无法说明相较旧做法减少了哪一步负担，因此无法判断用户为何选择它。
+  usage_reason_en: With no verifiable action or deliverable described, it is impossible to say which step
+    of the old approach it removes, so there is no basis for why users would choose it.

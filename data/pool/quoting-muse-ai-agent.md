@@ -28,7 +28,7 @@ summary: "Bad news on the MX Keys Mini pickup. Usman showed up at your building 
   \ @matt.j.robb \n\n     Tags:  meta ,  generative-ai ,  muse-agent ,  ai ,  general-agents ,  llms"
 first_seen: '2026-09-28T04:01:30Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

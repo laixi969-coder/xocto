@@ -24,7 +24,7 @@ summary: 'OpenAI popularized the modern generative AI chatbot, but as its 2026 D
   will release its own AI agent, dubbed Aeon - […]'
 first_seen: '2026-09-28T18:45:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

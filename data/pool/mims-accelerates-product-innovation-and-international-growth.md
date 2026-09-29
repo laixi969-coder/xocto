@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQNUZOWmhjaEpk
 summary: MIMS Accelerates Product Innovation and International Growth Malay Mail
 first_seen: '2026-09-28T02:04:05Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

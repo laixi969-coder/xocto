@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFB2ZXZhbFl0bEt3
 summary: 赵长鹏投了一个华人大三学生，1100 万美元种子轮，做教育 Agent 极客公园
 first_seen: '2026-09-28T12:58:54Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

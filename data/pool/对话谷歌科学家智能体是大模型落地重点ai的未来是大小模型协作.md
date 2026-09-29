@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9DNlNYN1ZzUG1z
 summary: 对话谷歌科学家：智能体是大模型落地重点，AI的未来是大小模型协作 极客公园
 first_seen: '2026-09-28T13:19:36Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

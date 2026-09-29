@@ -1,0 +1,43 @@
+- id: req-initial-offensive-security-ai-models-2026-09-29
+  project_slug: offensive-security-ai-models
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决安全研究者找不到可本地部署未审查模型的问题，痛点具体；但候选只有一句简介，无法确认收录范围与交付形态。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+  - gate: consensus
+    status: insufficient
+    reason: 194 个星标只说明关注度，没有用户评价、issue 讨论或采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价与买方信息，钱可能来自企业安全团队或安全服务商，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+  - gate: truth
+    status: challenged
+    reason: 未审查模型用于攻击性安全存在合规与滥用边界，候选未说明授权约束或人工审核机制。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+  next_validation: 收集该仓库的 README、收录模型清单与 issue/discussion 内容，确认是否有评测结果、部署说明或使用反馈。
+  market: ''
+  job: 安全研究员在获得授权的渗透测试或红队演练中，需要挑选可本地部署、不受通用模型安全策略拦截的模型，用来完成攻击面验证与漏洞复现。
+  job_en: During authorized penetration tests or red-team exercises, security researchers need to pick
+    locally deployable models that are not blocked by general-purpose safety policies, in order to complete
+    attack-surface validation and vulnerability reproduction.
+  pain: 通用模型会拒绝执行攻击性安全任务，研究者只能自行搜索、逐个试装权重，筛选成本高且结果不可比。
+  pain_en: General-purpose models refuse offensive security tasks, so researchers must search and trial-install
+    weights one by one, which is costly and yields incomparable results.
+  current_alternative: 研究者目前靠个人经验、社区帖子和零散权重仓库自行拼凑，缺少统一的筛选与评测口径。
+  current_alternative_en: Researchers currently rely on personal experience, community posts, and scattered
+    weight repositories, with no unified selection or evaluation standard.
+  usage_reason: 推断：相较逐个试装，集中清单能减少寻找候选模型这一步的负担，但候选资料未提供评测、部署文档或使用反馈，无法确认研究者会持续使用它。
+  usage_reason_en: 'Inference: compared with trial-installing one by one, a consolidated list reduces
+    the burden of finding candidate models, but the candidate provides no evaluation, deployment docs,
+    or user feedback, so sustained use cannot be confirmed.'

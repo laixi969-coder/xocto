@@ -352,3 +352,41 @@
     locally and executes actions directly, sparing users step-by-step operation or script maintenance,
     so privacy-conscious Mac users without coding skills may choose it; however, no retention or customer
     evidence is public, so long-term workflow adoption cannot be confirmed.'
+- id: req-initial-workflo-2026-09-29
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨应用重复操作与隐私顾虑，但候选材料只有一句定位描述，说不清具体任务、输入与交付，价值结构无法确认。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有可归因到该产品的采用、付费或持续使用证据，共识环节无法判断。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、买方或收费方式，无法判断钱从哪一方来；这是缺口，不是否定需求的理由。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真的在本地完成自动化、承诺能否确定性交付，安全与人工边界也未说明。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或文档，确认它实际接收的输入、执行的自动化动作、交付结果以及是否提供定价页。
+  market: ''
+  job: Mac 用户在处理跨应用重复操作（如文件归档、数据搬运）时，希望由工具代为执行这些步骤，而不把屏幕内容交给外部服务。
+  job_en: Mac users performing repetitive cross-app operations such as filing documents or moving data
+    want a tool to execute those steps without handing screen content to an external service.
+  pain: 候选材料未说明具体痛点，只能推断：手动重复操作耗时，而把屏幕内容交给云端自动化又存在隐私顾虑。
+  pain_en: The candidate material states no specific pain; it can only be inferred that manual repetition
+    is time-consuming while sending screen content to cloud automation raises privacy concerns.
+  current_alternative: 用户目前可能使用系统自带快捷指令、脚本工具或云端自动化服务，但这些替代方式在候选材料中均未被提及。
+  current_alternative_en: Users may currently rely on built-in shortcuts, scripting tools or cloud automation
+    services, but none of these alternatives is mentioned in the candidate material.
+  usage_reason: 推断：若它确实在本地完成自动化而不上传屏幕内容，用户会在处理敏感材料时选择它，以减少把内容交给云端这一步；但候选材料未给出任何功能细节或用户反馈，无法确认。
+  usage_reason_en: 'Inference: if it truly automates locally without uploading screen content, users handling
+    sensitive material would pick it to avoid sending content to the cloud; however, the candidate material
+    gives no feature detail or user feedback to confirm this.'

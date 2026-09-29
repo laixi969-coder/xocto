@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRTh3TmxQT2Vq
 summary: 'SignalPulse: Weekly Signals, Startups & Deals To Watch Alert The Tech Buzz'
 first_seen: '2026-09-28T13:27:34Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

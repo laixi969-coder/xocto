@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxQcDVDS3F5ZUd4
 summary: How a Gen Zer built a $3.7 billion defense tech startup backed by Sequoia Fortune
 first_seen: '2026-09-28T11:20:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

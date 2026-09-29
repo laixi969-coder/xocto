@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5TcmFWR1p5NG5o
 summary: 突然有很多好消息，最近几周这些 AI 公司融到了钱 极客公园
 first_seen: '2026-09-28T13:19:38Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

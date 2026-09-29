@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/zerg-router
 summary: Run DeepSeek in Codex
 first_seen: '2026-09-25T07:29:06Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

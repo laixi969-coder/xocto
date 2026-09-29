@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWYVo2TGJ4VVh2
 summary: Sensor Tower 25上半年AI应用报告：年轻男性用户仍占主导，垂类应用面临被「颠覆」压力 极客公园
 first_seen: '2026-09-28T13:03:55Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

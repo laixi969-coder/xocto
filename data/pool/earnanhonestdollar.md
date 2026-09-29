@@ -21,7 +21,7 @@ canonical_url: https://earnanhonestdollar.com/bench
 summary: 'Calling the AI bluff: Adding "Do not guess" cut made-up claims from 71% to 20%'
 first_seen: '2026-09-27T17:24:17Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

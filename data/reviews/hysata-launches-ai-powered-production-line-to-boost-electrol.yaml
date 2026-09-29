@@ -1,0 +1,43 @@
+- id: req-initial-hysata-launches-ai-powered-production-line-to-boost-electrol-2026-09-29
+  project_slug: hysata-launches-ai-powered-production-line-to-boost-electrol
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的需求与痛点未在材料中写明，只能推断扩产期良率与节拍压力，价值关证据不足。
+    evidence_ids:
+    - ev-5540250c4f5441a6
+    - ev-7c48c7942c1d19df
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布报道，没有客户、产线采用或行业跟进证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-5540250c4f5441a6
+    - ev-7c48c7942c1d19df
+  - gate: model
+    status: insufficient
+    reason: 买方与付费方式未披露，产线自用还是对外销售平台不明，模式关无法判断。
+    evidence_ids:
+    - ev-7c48c7942c1d19df
+  - gate: truth
+    status: insufficient
+    reason: 没有良率、产能或交付结果数据，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-5540250c4f5441a6
+  next_validation: 收集 Hysata 官方发布或年报中关于该 AI 制造平台的产线指标、部署范围与客户信息。
+  market: ''
+  job: 电解槽制造商的产线工艺工程师在扩产阶段处理工序与检测数据，要维持良率与生产节拍。
+  job_en: Production process engineers at an electrolyser maker handle process and inspection data during
+    scale-up to keep yield and takt time stable.
+  pain: 公开材料未说明具体痛点，只能推断扩产期良率波动与人工调参是常见负担，缺少可引用的一手描述。
+  pain_en: Public material does not state the specific pain; yield swings and manual parameter tuning
+    during scale-up are only inferred, with no first-hand description available.
+  current_alternative: 公开材料未披露此前使用何种方式，可能为人工统计与既有产线控制系统，属推断。
+  current_alternative_en: Prior practice is undisclosed; manual statistics and existing line control systems
+    are an inference only.
+  usage_reason: 无法判断用户为何选择它：报道只给出发布事实，未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'Why users would choose it cannot be judged: the reports give only the launch fact
+    and no step saved versus the old approach or verifiable result improved.'

@@ -36,7 +36,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxOZzUxRlVjYi04
 summary: Okta Targets AI Agent Confusion With Identity Security Push tradingview.com
 first_seen: '2026-09-12T06:01:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

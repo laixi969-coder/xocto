@@ -1,6 +1,6 @@
 ---
 slug: autoheal-raises-79-mn-led-by-innovation-endeavours
-name: Autoheal raises $7.9 mn led by Innovation Endeavours
+name: Autoheal
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNQXE4cmhQbnlm
 summary: Autoheal raises $7.9 mn led by Innovation Endeavours ET Entrepreneur
 first_seen: '2026-09-28T15:53:58Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Autoheal raises $7.9 mn led by Innovation Endeavours
+# Autoheal
 
 Autoheal raises $7.9 mn led by Innovation Endeavours ET Entrepreneur
 

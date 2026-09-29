@@ -1,6 +1,6 @@
 ---
 slug: ai-agent-firm-instinct-raises-1-billion-in-latest-funding-ro
-name: AI agent firm Instinct raises $1 billion in latest funding round
+name: Instinct
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSng0ZWE1OGdr
 summary: AI agent firm Instinct raises $1 billion in latest funding round Reuters
 first_seen: '2026-09-28T13:42:05Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI agent firm Instinct raises $1 billion in latest funding round
+# Instinct
 
 AI agent firm Instinct raises $1 billion in latest funding round Reuters
 

@@ -1,0 +1,46 @@
+- id: req-initial-insurtech-outmarket-raises-345m-just-months-after-prior-roun-2026-09-29
+  project_slug: insurtech-outmarket-raises-345m-just-months-after-prior-roun
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决保险代理与经纪的保单文书处理需求，痛点是重复录入与逐份核对耗时且易错，旧做法是人工或外包文员，结构上成立。
+    evidence_ids:
+    - ev-453f978085dc3484
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资消息与一句产品定位，没有客户名单、使用反馈或行业采购证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-453f978085dc3484
+    - ev-069e1d57636fb1b7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按保单量还是按坐席收费不明；钱可能来自保险机构预算，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-453f978085dc3484
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生、人工复核边界与错误率，也缺少留存或复购证据，真实性只能停在结构推理。
+    evidence_ids:
+    - ev-453f978085dc3484
+    - ev-069e1d57636fb1b7
+  next_validation: 收集 Outmarket 官方定价页或客户案例页面，确认其按什么计价、服务哪类保险机构以及交付边界。
+  market: ''
+  job: 保险代理与经纪机构的经办人员在受理新单、续保或批改时，处理投保单、核保资料和保单文件，要完成可提交、可归档的保单文书。
+  job_en: Staff at insurance agencies and brokerages process applications, underwriting documents and
+    policy files for new business, renewals or endorsements, and must produce submittable, archivable
+    policy paperwork.
+  pain: 这类文书格式杂、字段多、重复录入多，出错会拖慢承保并带来合规风险，人工逐份核对耗时且难以规模化。
+  pain_en: This paperwork is heterogeneous, field-heavy and repeatedly re-keyed; errors slow underwriting
+    and create compliance risk, and manual per-document checking is slow and hard to scale.
+  current_alternative: 目前多由机构内勤或外包文员手工录入、复制粘贴并逐份核对，或使用传统保险管理系统加人工补录。
+  current_alternative_en: Today it is mostly done by in-house staff or outsourced clerks typing, copy-pasting
+    and checking each document, or by legacy agency management systems plus manual re-entry.
+  usage_reason: 推断：相较人工逐份录入，它把投保单与核保资料直接转成结构化字段和可提交文书，省掉重复录入与格式整理这一步，因此文书量大、内勤人手紧的代理与经纪机构会在新单和续保高峰时选择它；公开材料未给出客户案例，动机属推断。
+  usage_reason_en: 'Inference: versus manual per-document entry, it converts applications and underwriting
+    material directly into structured fields and submittable documents, removing the re-keying and formatting
+    step, so agencies with high paperwork volume and thin back-office staffing would choose it at new-business
+    and renewal peaks; no customer case is public, so the motive is inferred.'

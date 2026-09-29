@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mOU9EM1Z6dTdn
 summary: Estonian AI startup gets €615K to expand no-code mobile app platform - ArcticStartup ArcticStartup
 first_seen: '2026-09-28T13:11:15Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

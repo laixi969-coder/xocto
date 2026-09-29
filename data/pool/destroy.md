@@ -21,7 +21,7 @@ canonical_url: https://destroy.spritefusion.com
 summary: Destroy Any Website with Stickman
 first_seen: '2026-09-28T16:31:28Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

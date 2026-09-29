@@ -23,7 +23,7 @@ summary: In an interview with Crunchbase News, Sandhya Venkatachalam, founder an
   and how an early investment in Groq shaped her approach.
 first_seen: '2026-09-28T11:00:06Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: mistralai-client-python-python-v300
-name: 'mistralai/client-python: Python - v3.0.0'
+name: mistralai Python SDK
 builder: mistralai
 category: ''
 summary_zh: ''
@@ -154,7 +154,7 @@ summary: "### Generated SDK baseline differences\r\nThe published SDK or generat
   \ - .\r\n\r\nPublishing Completed"
 first_seen: '2026-09-28T18:35:32Z'
 last_seen: '2026-09-29T01:57:46Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -166,7 +166,7 @@ sightings:
   kind: news
 ---
 
-# mistralai/client-python: Python - v3.0.0
+# mistralai Python SDK
 
 ### Generated SDK baseline differences
 The published SDK or generator baseline differs from the baseline used by the OpenAPI changelog.

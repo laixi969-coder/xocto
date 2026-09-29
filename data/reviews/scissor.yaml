@@ -1,0 +1,42 @@
+- id: req-initial-scissor-2026-09-29
+  project_slug: scissor
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从现有材料写出，仅有一句定位描述，价值关证据不足。
+    evidence_ids:
+    - ev-514695c6157b2286
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，未说明具体产品功能被谁采用，不能作为共识依据。
+    evidence_ids:
+    - ev-514695c6157b2286
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是判断缺口而非已验证事实。
+    evidence_ids:
+    - ev-514695c6157b2286
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近设计工作的第一性目标，也无法确认交付是否确定发生。
+    evidence_ids:
+    - ev-514695c6157b2286
+  next_validation: 收集该产品官方页面的功能说明与定价页，确认它替代的具体设计步骤与收费方式。
+  market: ''
+  job: 公开材料未说明具体使用者与场景；无法确认谁在什么情况下处理什么设计材料、要完成什么任务。
+  job_en: The public material does not identify a specific user or scenario; it is unclear who handles
+    what design material under what circumstances to complete what task.
+  pain: 无法从现有事实判断它缓解的是哪一步痛苦，例如出图慢、改稿反复还是工具订阅贵。
+  pain_en: The available facts do not show which pain it relieves, such as slow rendering, repeated revisions,
+    or expensive tool subscriptions.
+  current_alternative: 候选仅称其为图形设计巨头的替代品，未说明用户此前具体用什么工具、按什么流程完成同一件事。
+  current_alternative_en: The candidate only calls it an alternative to graphics design giants, without
+    stating which tools or process users previously used for the same task.
+  usage_reason: 缺少可核对的功能、流程与交付描述，无法解释用户为何会在具体情况下选择它而非旧做法；这是事实缺口，不是判断结论。
+  usage_reason_en: There is no checkable description of function, workflow, or deliverable, so it cannot
+    be explained why a user would choose it over the old way in a specific situation; this is a factual
+    gap, not a verdict.

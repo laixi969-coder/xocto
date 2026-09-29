@@ -22,7 +22,7 @@ summary: On Friday, OpenAI published a new site devoted to “misalignment repor
   incidents is alarming.
 first_seen: '2026-09-28T17:09:02Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

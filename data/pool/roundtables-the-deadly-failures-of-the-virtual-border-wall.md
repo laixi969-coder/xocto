@@ -24,7 +24,7 @@ summary: The US has spent billions building a “virtual wall” of surveillance
   who moved through areas watched by these towers…
 first_seen: '2026-09-22T13:42:05Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

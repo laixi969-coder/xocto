@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5xb3pQOHlIXzFG
 summary: 两次拿到陆奇投资，张浩然这次想用 Agencize AI 干掉所有工作流 Agent 极客公园
 first_seen: '2026-09-28T12:48:51Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

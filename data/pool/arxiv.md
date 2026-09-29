@@ -21,7 +21,7 @@ canonical_url: https://arxiv.org/abs/2609.15369
 summary: Training a model to identify AI web content from structure alone
 first_seen: '2026-09-22T13:00:49Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

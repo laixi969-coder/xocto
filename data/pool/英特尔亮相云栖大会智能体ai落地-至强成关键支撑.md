@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlMGk4MFEybWxs
 summary: 英特尔亮相云栖大会：智能体AI落地 至强成关键支撑 news.mydrivers.com
 first_seen: '2026-09-28T07:37:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

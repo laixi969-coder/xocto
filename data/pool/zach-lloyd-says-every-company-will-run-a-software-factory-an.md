@@ -22,7 +22,7 @@ summary: Zach Lloyd Says Every Company Will Run a Software Factory — and Engin
   Code finance.biggo.com
 first_seen: '2026-09-27T19:08:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

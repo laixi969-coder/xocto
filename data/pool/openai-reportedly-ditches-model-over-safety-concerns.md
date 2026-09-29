@@ -22,7 +22,7 @@ summary: A top executive at the AI lab told the Wall Street Journal that the mod
   a poor aptitude for following orders.
 first_seen: '2026-09-28T23:39:20Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

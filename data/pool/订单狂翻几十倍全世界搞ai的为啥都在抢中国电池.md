@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAJBVV95cUxPLVhUS0FUNXBs
 summary: 订单狂翻几十倍：全世界搞AI的，为啥都在抢中国电池？ 新浪财经
 first_seen: '2026-09-28T11:28:32Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

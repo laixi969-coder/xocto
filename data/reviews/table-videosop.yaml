@@ -1,0 +1,44 @@
+- id: req-initial-table-videosop-2026-09-29
+  project_slug: table-videosop
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 AI 视频制作流程不统一、反复试错的问题，痛点方向成立；但公开材料只有仓库简介，看不到模板内容，无法确认是否真的替代了旧做法。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+  - gate: consensus
+    status: insufficient
+    reason: 52 个星标只说明有开发者关注，属于关注度证据，不能证明内容团队已经在用它替代原有流程。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库没有定价页或付费路径，谁付钱、按什么收费都未披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对模板是否贴近真实拍摄与剪辑流程，也无法确认产出能否稳定交付，缺少可复现的实测材料。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+  next_validation: 收集该仓库 README 与模板文件的完整内容，确认是否包含可执行的分镜、节奏与提示词规范，以及是否有使用者提交的 issue 或讨论反馈。
+  market: ''
+  job: 短视频或广告团队的编导、剪辑在开拍前要确定分镜、节奏和提示词，处理的是脚本、素材和生成参数，目标是产出一份团队能照着执行的制作流程。
+  job_en: A director or editor on a short-video or advertising team must fix storyboards, pacing and prompts
+    before shooting, working with scripts, assets and generation parameters to produce a production flow
+    the team can follow.
+  pain: AI 视频生成结果不稳定，团队缺少统一的分镜规则和提示词标准，每次都要重新试错，返工多、交付时间难控。
+  pain_en: AI video output is unstable, teams lack shared storyboard rules and prompt standards, and they
+    retry from scratch each time, causing rework and unpredictable delivery.
+  current_alternative: 靠资深编导的个人经验、聊天记录里的零散提示词和临时文档，没有沉淀成可复用的流程。
+  current_alternative_en: Relying on a senior director's personal experience, scattered prompts in chat
+    logs and ad-hoc documents, with no reusable process.
+  usage_reason: 推断：如果模板确实覆盖分镜、节奏和提示词，团队可以少走从零试错这一步，把制作流程固定下来；但目前公开材料只有仓库简介，看不到模板实际内容，无法确认它比现有零散文档减少了哪一步负担。
+  usage_reason_en: 'Inference: if the templates really cover storyboards, pacing and prompts, teams could
+    skip trial-and-error from scratch and standardize production; however, public material is only a repository
+    description, so the actual template content is invisible and it is unclear which step it removes compared
+    with scattered documents.'

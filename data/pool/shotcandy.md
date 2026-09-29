@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/shotcandy
 summary: Make Your Screenshots Look Amazing
 first_seen: '2026-09-28T06:43:23Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

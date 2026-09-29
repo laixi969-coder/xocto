@@ -1,0 +1,45 @@
+- id: req-initial-制药技术新革命ai-如何助力微生态药物研发-rebuild-2022-2026-09-29
+  project_slug: 制药技术新革命ai-如何助力微生态药物研发-rebuild-2022
+  level: initial
+  reviewed_at: '2026-09-29T01:58:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微生物制药研发中候选药物筛选与临床推进的负担，痛点刚性且旧行为明确，但候选材料未说明 AI 具体动作与交付细节。
+    evidence_ids:
+    - ev-6c68f454282f38c1
+  - gate: consensus
+    status: insufficient
+    reason: 材料只提到融资与管线进展，没有客户采用、合作方或研发人员使用反馈，无法判断共识是否形成。
+    evidence_ids:
+    - ev-6c68f454282f38c1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或按结果收费方式，买方可能是药企或投资方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6c68f454282f38c1
+  - gate: truth
+    status: insufficient
+    reason: 药物研发贴近第一性目标，但候选材料未说明 AI 输出的确定性、人工复核边界与安全合规流程。
+    evidence_ids:
+    - ev-6c68f454282f38c1
+  next_validation: 收集未知君官方管线页面或 FDA 临床试验登记信息，核验 XBI-302 等管线的最新临床阶段与 AI 在其中的具体作用。
+  market: ''
+  job: 微生物制药企业的研发人员在推进粪菌移植等药物管线时，需要处理微生物组与临床前数据，筛选并推进候选药物进入临床研发阶段。
+  job_en: R&D staff at microbiome drug companies advancing pipelines such as fecal microbiota transplant
+    therapies need to process microbiome and preclinical data to screen and move candidate drugs into
+    clinical development.
+  pain: 候选材料显示微生态制药长期停留在研究阶段，候选药物筛选与临床推进周期长、失败率高，人工整理和判断微生物组数据的负担重。
+  pain_en: The material indicates microbiome drug development long stayed at the research stage, with
+    long, failure-prone cycles for screening and clinical advancement, and heavy manual burden in organizing
+    and judging microbiome data.
+  current_alternative: 旧做法是研发团队依靠人工实验与经验判断筛选候选药物，并逐项准备 IND 等临床申报材料。
+  current_alternative_en: The prior approach is for R&D teams to screen candidates through manual experiments
+    and experience-based judgment, and to prepare IND and other clinical filings item by item.
+  usage_reason: 推断：若其 AI 能先对微生物组与管线数据做筛选排序，研发人员可减少在候选药物初筛上的手工比对，把精力放到少数候选的验证与申报上，因此处于临床前筛选阶段的微生物制药团队会考虑使用；候选材料未给出具体动作与可核对结果，也未提供留存或复购证据。
+  usage_reason_en: 'Inference: if its AI can first screen and rank microbiome and pipeline data, researchers
+    could reduce manual comparison in early candidate screening and focus on validating and filing a smaller
+    set of candidates, which is why microbiome drug teams in the preclinical screening stage would consider
+    it; the material gives no specific actions or verifiable results, nor retention or repeat-use evidence.'

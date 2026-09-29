@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/498787.html
 summary: AI基础设施下一站：算电协同
 first_seen: '2026-09-28T11:18:27Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

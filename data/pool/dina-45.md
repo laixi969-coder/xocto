@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dina
 summary: Beautiful screen recordings, screenshots, and 3D motion
 first_seen: '2026-09-28T04:18:46Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

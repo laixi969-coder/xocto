@@ -1,0 +1,42 @@
+- id: req-initial-openscience-2026-09-29
+  project_slug: openscience
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决科研材料处理的需求，但候选资料未写出具体痛点、旧流程与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-f3339a1e6a03fda0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用、评价或场景共识材料。
+    evidence_ids:
+    - ev-f3339a1e6a03fda0
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-f3339a1e6a03fda0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-f3339a1e6a03fda0
+  next_validation: 收集 OpenScience 官方仓库或产品页的功能说明与部署文档，确认 AI 接收的输入、执行的动作与最终交付物。
+  market: ''
+  job: 科研人员在文献调研、实验数据处理与记录整理之间切换时，需要把研究材料汇总成可复核的结果；但候选资料未说明 AI 接收什么材料、完成哪一步任务。
+  job_en: Researchers moving between literature review, experimental data processing and note keeping
+    need to consolidate research material into reviewable results; the candidate material does not say
+    what material AI receives or which task it completes.
+  pain: 候选资料未提供任何痛点描述，无法确认科研人员在哪个环节受阻、不解决会有什么后果。
+  pain_en: The candidate material provides no pain description, so it is impossible to confirm which step
+    blocks researchers or what happens if it is not solved.
+  current_alternative: 公开材料未说明现有替代方式，无法判断此前是谁、用什么工具完成同一任务。
+  current_alternative_en: The public material does not describe existing alternatives, so it is unclear
+    who previously did the same task and with what tools.
+  usage_reason: 仅有一句定位描述，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由。
+  usage_reason_en: With only a positioning line, there is no way to say which step of burden it removes
+    versus the old approach or which checkable result it improves, so no usage reason can be given.

@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVZxNzd0YkdU
 summary: What businesses really need from an AI off switch TechTarget
 first_seen: '2026-09-04T01:45:16Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

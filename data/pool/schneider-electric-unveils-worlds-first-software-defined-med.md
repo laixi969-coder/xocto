@@ -1,7 +1,6 @@
 ---
 slug: schneider-electric-unveils-worlds-first-software-defined-med
-name: Schneider Electric Unveils World's First Software-Defined Medium Voltage Switchgear to Expand AI-Ready
-  Data Center Power Portfolio
+name: Schneider Electric
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Schneider Electric Unveils World's First Software-Defined Medium Voltag
   AI-Ready Data Center Power Portfolio TradingView
 first_seen: '2026-09-28T14:00:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Schneider Electric Unveils World's First Software-Defined Medium Voltage Switchgear to Expand AI-Ready Data Center Power Portfolio
+# Schneider Electric
 
 Schneider Electric Unveils World's First Software-Defined Medium Voltage Switchgear to Expand AI-Ready Data Center Power Portfolio TradingView
 

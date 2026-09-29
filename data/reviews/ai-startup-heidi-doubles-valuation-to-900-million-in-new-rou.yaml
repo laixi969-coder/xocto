@@ -93,3 +93,47 @@
     anywhere on screen and direct capture of telehealth audio, so clinicians who must document while consulting
     and who use telehealth would choose it during the encounter; the material provides no user feedback
     or customer case confirming this motive.'
+- id: req-initial-ai-startup-heidi-doubles-valuation-to-900-million-in-new-rou-2026-09-29
+  project_slug: ai-startup-heidi-doubles-valuation-to-900-million-in-new-rou
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决问诊中记录与事后补写病历的负担，痛点在门诊量大的医生身上是刚性的，交付物是可核对的病历草稿，属工作流推理。
+    evidence_ids:
+    - ev-52a559104cae1391
+    - ev-da3a757c4ded545f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资估值与产品说明，缺少医生持续使用、机构采购或复购的公开证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-79f36725a6472b61
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与买方结构，钱可能来自医生个人订阅或机构采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-52a559104cae1391
+  - gate: truth
+    status: insufficient
+    reason: 临床记录涉及隐私与合规，公开材料未说明数据留存、人工复核边界与本地病历系统对接方式。
+    evidence_ids:
+    - ev-da3a757c4ded545f
+  next_validation: 收集Heidi官方定价页或客户案例页面，确认按席位还是按机构收费以及是否有公开的机构采用案例。
+  market: ''
+  job: 临床医生在问诊或远程通话过程中，处理患者口述与对话音频，要完成一份可留存的临床记录和病历文书。
+  job_en: A clinician, during an in-person or telehealth consultation, handles patient speech and dialogue
+    audio to produce a retainable clinical note and medical record.
+  pain: 问诊时既要面对患者又要记笔记，容易漏记；问诊后补写文书占用下班时间，且手写或打字记录分散注意力。
+  pain_en: During a consultation the clinician must both face the patient and take notes, which causes
+    omissions; writing notes afterwards eats into off-hours and typing splits attention.
+  current_alternative: 医生边问诊边手写或打字记录，或问诊后凭记忆补写，也有机构使用传统医疗听写与转录服务。
+  current_alternative_en: Clinicians hand-write or type during the visit, reconstruct notes from memory
+    afterwards, or institutions use traditional medical dictation and transcription services.
+  usage_reason: 相较边问诊边打字或事后补写，Heidi直接接收通话或屏幕音频并生成记录草稿，把“从零写文书”变成“核对修改草稿”，减少的是逐字记录这一步；推断常处理大量门诊文书、又缺少专职转录支持的医生会因此选择它。
+  usage_reason_en: 'Compared with typing during the visit or reconstructing notes later, Heidi takes call
+    or screen audio and produces a draft, turning ''write from scratch'' into ''review and edit'', removing
+    the verbatim note-taking step; inference: clinicians with heavy outpatient paperwork and no dedicated
+    transcription support would choose it for this reason.'

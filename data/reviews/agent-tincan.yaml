@@ -1,0 +1,44 @@
+- id: req-initial-agent-tincan-2026-09-29
+  project_slug: agent-tincan
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨机 agent 互相求助的连通问题，痛点真实但只对已自托管多机的团队成立，公开材料未说明具体任务与交付结果。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库关注度，没有用户评价、案例或部署记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付方式，买方与付费路径均不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+  - gate: truth
+    status: insufficient
+    reason: 跨机 agent 通信贴近协作目标，但安全边界、权限控制与人工确认环节在公开材料中未说明。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有团队报告在多机生产环境中实际部署并重复使用。
+  market: ''
+  job: 自托管或多机部署 AI agent 的开发者，在需要让不同机器上的 agent 互相请求协助时，处理跨主机的调用与网络连通问题，完成一次 agent 间的任务转交。
+  job_en: Developers self-hosting or multi-host deploying AI agents, when one agent needs help from another
+    on a different machine, handle cross-host calls and network connectivity to complete a task handoff
+    between agents.
+  pain: 跨机器调用 agent 需要自己搭网络、鉴权和路由，缺少现成通道，调试成本高。
+  pain_en: Calling agents across machines requires building networking, auth and routing yourself, with
+    no ready-made channel and high debugging cost.
+  current_alternative: 自己写脚本加 SSH 或内网穿透，或把 agent 都塞进同一台机器和同一个编排框架里。
+  current_alternative_en: Writing scripts with SSH or tunnels, or cramming all agents onto one machine
+    and one orchestration framework.
+  usage_reason: 推断：它把跨机 agent 调用封装成基于 Tailscale 的现成通道，省掉自建网络与鉴权这一步，因此已有自托管模型、又需要多机协作的团队会先试用它；但公开材料没有留存或重复使用证据。
+  usage_reason_en: 'Inference: it wraps cross-host agent calls into a ready channel built on Tailscale,
+    removing the step of building networking and auth yourself, so teams that already self-host models
+    and need multi-machine collaboration would try it first; public material shows no retention or repeat-use
+    evidence.'

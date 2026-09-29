@@ -1,0 +1,43 @@
+- id: req-initial-otelyssey-2026-09-29
+  project_slug: otelyssey
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决编码 agent 的可观测性需求，但候选资料未写出具体痛点、旧流程与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，72 星与 1 个 issue 只反映关注度，不构成采用共识。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，开源仓库无公开付费路径。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断插件交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+  next_validation: 收集 otelyssey 仓库的插件文档与 issue 讨论，确认插件采集的数据范围、接入方式以及是否有团队实际部署使用。
+  market: ''
+  job: 平台或可观测性工程师在给团队使用的编码 agent 加监控时，需要把 agent 运行数据接入现有监控后端；候选资料未说明插件采集什么数据、如何接入。
+  job_en: Platform or observability engineers adding monitoring to the coding agents their teams use need
+    to feed agent runtime data into existing monitoring backends; the candidate material does not say
+    what data the plugin collects or how it connects.
+  pain: 候选资料未提供任何痛点描述，无法确认缺少 agent 可观测性会造成什么具体后果。
+  pain_en: The candidate material provides no pain description, so it is impossible to confirm what concrete
+    consequence the lack of agent observability causes.
+  current_alternative: 公开材料未说明此前工程师如何监控编码 agent，无法确认旧做法是什么。
+  current_alternative_en: The public material does not describe how engineers previously monitored coding
+    agents, so the old approach cannot be confirmed.
+  usage_reason: 仅知仓库提供插件与自动收录流程，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由。
+  usage_reason_en: Only the plugin offering and automated listing process are known; there is no way to
+    say which step of burden it removes versus the old approach or which checkable result it improves,
+    so no usage reason can be given.

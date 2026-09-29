@@ -89,7 +89,7 @@ summary: 本文首发于 Founder Park 公众号 · 2022 年 8 月 12 日        
   AMR 企业。              更多科技创业者的采访，欢迎在 小宇宙 或者 苹果播客 收听我们的播客节目「创业真人秀」。          Founder 100 栏目一直在招募优秀的科技创业者来做客我们的直播间，如果大家对于这档栏目感兴趣，也有意向想要来分享自己的故事，欢迎大家长按下图，识别图中二维码，填写报名申请单。      转载原创文章请添加微信：geekparker
 first_seen: '2026-09-29T01:13:08Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

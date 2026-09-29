@@ -21,7 +21,7 @@ canonical_url: https://ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-kn
 summary: The problem is not AI code, but not knowing about system architecture or intent
 first_seen: '2026-09-28T16:11:42Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

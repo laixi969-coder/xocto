@@ -1,6 +1,6 @@
 ---
 slug: 挖来mongodb-ceo震惊华尔街meta高调进军企业ai业务
-name: 挖来MongoDB CEO震惊华尔街，Meta高调进军企业AI业务
+name: Meta
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xbFU2NE1PSWlD
 summary: 挖来MongoDB CEO震惊华尔街，Meta高调进军企业AI业务 华尔街见闻
 first_seen: '2026-09-29T00:40:50Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 挖来MongoDB CEO震惊华尔街，Meta高调进军企业AI业务
+# Meta
 
 挖来MongoDB CEO震惊华尔街，Meta高调进军企业AI业务 华尔街见闻
 

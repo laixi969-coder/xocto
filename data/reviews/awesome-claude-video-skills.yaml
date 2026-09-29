@@ -1,0 +1,42 @@
+- id: req-initial-awesome-claude-video-skills-2026-09-29
+  project_slug: awesome-claude-video-skills
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决素材到成片的重复剪辑劳动，但清单只做分类与安全标注，未说明替代了哪一步旧工作，价值结构尚不清晰。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+  - gate: consensus
+    status: insufficient
+    reason: 约 191 星、20 次 fork 只反映关注度，没有用户评价或采用证据说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+  - gate: model
+    status: insufficient
+    reason: 清单未披露定价或付费路径，买方是个人创作者还是团队无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+  - gate: truth
+    status: insufficient
+    reason: 视频生成结果是否稳定、安全分级能否兑现、人工确认边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+  next_validation: 收集该清单中任一技能包的官方仓库说明与 issue/discussion，确认其输入素材、输出成片格式及人工确认环节。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，把素材交给编码代理，由代理调用技能包完成剪辑与渲染，拿到可发布的视频文件。
+  job_en: A video editor or short-video operator who needs batch output hands footage to a coding agent,
+    which uses a skill package to cut and render, and receives a publishable video file.
+  pain: 素材到成片之间的拼接、套模板、导出仍要人工在剪辑软件里逐步操作，重复劳动多；但清单本身没有说明它替用户省掉了哪一步。
+  pain_en: Going from raw footage to a finished clip still means manual step-by-step work in an editor,
+    with heavy repetition; the list itself does not say which step it removes for the user.
+  current_alternative: 用剪辑软件手工剪辑，或购买现成的模板化视频工具。
+  current_alternative_en: Editing by hand in video software, or buying existing template-based video tools.
+  usage_reason: 推断：相比手工剪辑，把技能包装进编码代理后，代理可直接读取素材并调用渲染工具，省去逐条拖拽拼接这一步，因此需要批量出片且已在使用编码代理的团队会尝试；目前没有用户反馈或留存证据支持这一判断。
+  usage_reason_en: 'Inference: compared with manual editing, installing a skill package into a coding
+    agent lets the agent read footage and call rendering tools directly, removing the step of dragging
+    and joining clips one by one, so teams that already use coding agents and need batch output may try
+    it; there is no user feedback or retention evidence yet.'

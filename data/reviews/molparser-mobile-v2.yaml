@@ -1,0 +1,42 @@
+- id: req-initial-molparser-mobile-v2-2026-09-29
+  project_slug: molparser-mobile-v2
+  level: initial
+  reviewed_at: '2026-09-29T01:58:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分子结构图无法检索计算、需人工重画的需求，痛点具体且旧流程明确；但识别准确率与人工复核边界未公开。
+    evidence_ids:
+    - ev-cf32c727b642c997
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 2 个点赞，无用户评价、客户案例或采用数据，无法判断化学信息学人群是否已实际使用。
+    evidence_ids:
+    - ev-cf32c727b642c997
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或交付方式；可能来自药企与化学信息学团队的内部工具或数据服务采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cf32c727b642c997
+  - gate: truth
+    status: insufficient
+    reason: 未说明识别准确率、支持图像类型与人工复核要求，交付确定性无法核对。
+    evidence_ids:
+    - ev-cf32c727b642c997
+  next_validation: 收集该模型页面的官方说明或文档，核验其支持的分子图像类型、识别准确率指标与是否需要人工复核。
+  market: ''
+  job: 化学信息学或制药研发人员在整理论文、专利或实验记录时，需要把其中的分子结构图转成可检索、可建模的结构字符串。
+  job_en: A cheminformatics or pharma R&D user organizing papers, patents or lab records needs to turn
+    molecular structure images into searchable, modelable structure strings.
+  pain: 结构图无法直接检索或计算，过去要人工按图重画结构，慢且易错。
+  pain_en: Structure images cannot be searched or computed directly; someone had to redraw the structure
+    by hand, slowly and error-prone.
+  current_alternative: 人工用化学绘图软件照着图重画，或使用通用 OCR 后手工修正。
+  current_alternative_en: Manually redrawing in chemistry drawing software, or using generic OCR and fixing
+    by hand.
+  usage_reason: 推断：它把图像直接映射为 E-SMILES 2.0 字符串，省去人工重画这一步；对需要批量处理专利或论文结构图的化学信息学团队，若识别准确率可核对，会比逐张重画省下大量时间。
+  usage_reason_en: 'Inference: it maps an image directly to an E-SMILES 2.0 string, removing the manual
+    redraw step; for cheminformatics teams batch-processing patent or paper structure images, verifiable
+    accuracy would save substantial time versus redrawing each one.'

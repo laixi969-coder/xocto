@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JR3U3Y3JCejlW
 summary: AI企业融资成本随美债水涨船高，债务风险几何？ yicai.com
 first_seen: '2026-09-28T09:31:16Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

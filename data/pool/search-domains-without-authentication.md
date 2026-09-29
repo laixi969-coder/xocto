@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/search-domains-without-authenticatio
 summary: ''
 first_seen: '2026-09-28T00:00:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

@@ -1,0 +1,41 @@
+- id: req-initial-mum-2026-09-29
+  project_slug: mum
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只写“面向阅读的 Markdown 引擎”，说不出解决什么具体需求与痛点，AI 动作与交付均未提供。
+    evidence_ids:
+    - ev-bd1ae39cdcfa5ffe
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或评价数据。
+    evidence_ids:
+    - ev-bd1ae39cdcfa5ffe
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，定价与买方均未披露。
+    evidence_ids:
+    - ev-bd1ae39cdcfa5ffe
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性无从核对。
+    evidence_ids:
+    - ev-bd1ae39cdcfa5ffe
+  next_validation: 收集该产品的官方页面或文档，核验其 AI 具体接收什么输入、执行什么动作、交付什么结果。
+  market: ''
+  job: 同时维护多个项目文档的开发者或技术写作者，需要在 macOS 上阅读和整理分散的 Markdown 文件。
+  job_en: A developer or technical writer maintaining docs across several projects needs to read and organize
+    scattered Markdown files on macOS.
+  pain: 公开材料未说明具体痛点，只能推测跨项目文档分散、阅读与检索不便。
+  pain_en: Public material states no specific pain; one can only infer that cross-project docs are scattered
+    and hard to read or search.
+  current_alternative: 使用现有 Markdown 编辑器或代码编辑器打开单个文件。
+  current_alternative_en: Using an existing Markdown editor or code editor to open individual files.
+  usage_reason: 推断：若它把多个项目的 Markdown 集中到阅读优先的界面，可减少在多个编辑器窗口间切换；但 AI 具体做什么未披露，无法判断用户为何选择它。
+  usage_reason_en: 'Inference: if it gathers Markdown from several projects into a reading-first view,
+    it reduces switching between editor windows; but what the AI actually does is undisclosed, so why
+    users would choose it cannot be judged.'

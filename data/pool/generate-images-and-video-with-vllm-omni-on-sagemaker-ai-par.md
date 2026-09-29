@@ -23,7 +23,7 @@ summary: Deploy two generative media models from one AWS vLLM-Omni Deep Learning
   Wan2.1-VACE through asynchronous inference, and retrieve the MP4 from Amazon S3.
 first_seen: '2026-09-28T16:15:17Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

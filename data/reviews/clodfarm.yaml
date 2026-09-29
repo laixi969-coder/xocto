@@ -1,0 +1,45 @@
+- id: req-initial-clodfarm-2026-09-29
+  project_slug: clodfarm
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号下编码任务拆分与额度限速的问题，痛点是额度硬约束导致任务中断，旧做法是手动切号与盯用量，结构上成立。
+    evidence_ids:
+    - ev-ca1089a875cc9925
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 77 星、44 fork 的开源关注度，属规模信号，不能证明持续采用或团队级使用。
+    evidence_ids:
+    - ev-ca1089a875cc9925
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是个人开发者或小工作室，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ca1089a875cc9925
+  - gate: truth
+    status: insufficient
+    reason: 交付依赖模型厂商额度政策与账号合规，承诺能否确定性交付、是否违反服务条款均未说明。
+    evidence_ids:
+    - ev-ca1089a875cc9925
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有团队级持续使用、额度调度失败案例及是否涉及账号合规限制。
+  market: ''
+  job: 同时维护多个 Claude Code 账号的开发者或小团队，在接到一个较大的编码任务时，需要把任务拆开、分派给多个智能体并行执行，并避免撞上账号的 5 小时与每周额度上限。
+  job_en: Developers or small teams running several Claude Code accounts who, when given a larger coding
+    task, need to split it, dispatch it to multiple agents in parallel, and avoid hitting each account's
+    5-hour and weekly quota ceilings.
+  pain: 额度是硬约束，手工在多个账号间切换、盯着用量、手动拆任务既费时又容易中断，任务一多就排不过来。
+  pain_en: Quotas are a hard constraint; manually switching between accounts, watching usage, and splitting
+    tasks by hand is slow and easily interrupted, and the queue breaks down as tasks pile up.
+  current_alternative: 现在多数人靠手动开多个终端或会话、自己记额度、用脚本拼凑并行，没有统一的调度与限速。
+  current_alternative_en: Today most people open several terminals or sessions by hand, track quotas themselves,
+    and glue parallelism together with scripts, with no unified scheduling or rate limiting.
+  usage_reason: 相较手动切账号和盯额度，它把“拆任务—分派—按真实额度限速”合成一个动作，减少的是反复查看用量和手工排期这一步，因此同时跑多个编码任务、又常被额度打断的开发者会选它；这是基于产品能力的工作流推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manually switching accounts and watching quotas, it merges splitting,
+    dispatching, and real-quota rate limiting into one action, removing the step of repeatedly checking
+    usage and hand-scheduling; that is why developers running several coding tasks at once and often blocked
+    by quotas would pick it. This is workflow inference from product capability, with no retention or
+    repeat-use evidence yet.

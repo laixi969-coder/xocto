@@ -1,6 +1,6 @@
 ---
 slug: 工业创新进入组队局拆解西门子xcelerator开放生态的赋能链路
-name: 工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路
+name: 西门子Xcelerator
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/498877.html
 summary: 工业平台已经卷到帮伙伴拿线索、做Agent、出海了
 first_seen: '2026-09-28T12:43:53Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路
+# 西门子Xcelerator
 
 工业平台已经卷到帮伙伴拿线索、做Agent、出海了
 

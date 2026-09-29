@@ -24,7 +24,7 @@ summary: Today, I’m talking with Mike Cannon-Brookes, who is cofounder and CEO
   information, and generally allow work to […]
 first_seen: '2026-09-28T14:00:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

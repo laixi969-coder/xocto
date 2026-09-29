@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/monday-data-damming-the-slop-floods
 summary: AI makes content cheap. Who pays to make it trustworthy?
 first_seen: '2026-09-28T14:38:32Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

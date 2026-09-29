@@ -1,0 +1,46 @@
+- id: req-initial-mrdoc-v111-发布全平台多终端的私有部署ai知识库系统-oschina-开源-ai-开发者生态社区-2026-09-29
+  project_slug: mrdoc-v111-发布全平台多终端的私有部署ai知识库系统-oschina-开源-ai-开发者生态社区
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内部文档分散、合规上不能上公有云、同事反复问同一问题的痛点，旧做法是共享盘加人工目录，结构上成立。
+    evidence_ids:
+    - ev-2ef7002ac7a2654b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有版本发布信息，没有客户案例、部署量或社区采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-2ef7002ac7a2654b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费版本、服务收费或企业采购路径，买方与收入方式属推断。
+    evidence_ids:
+    - ev-2ef7002ac7a2654b
+  - gate: truth
+    status: insufficient
+    reason: 未披露 AI 具体处理哪些材料、输出什么结果，也未见权限与人工确认边界，交付确定性待核验。
+    evidence_ids:
+    - ev-2ef7002ac7a2654b
+  next_validation: 收集 MrDoc 官方仓库或官网的 v1.1.1 发布说明与部署文档，确认 AI 检索的具体输入、输出与权限控制方式。
+  market: ''
+  job: 企业内部的 IT 或知识库维护人员，在制度、工艺或项目文档散落在多个网盘和共享盘、又不允许上传到外部云服务的情况下，需要把这些材料集中成一套可检索、可权限控制的内部知识库。
+  job_en: Internal IT or knowledge base maintainers whose policy, process, or project documents are scattered
+    across drives and cannot be uploaded to external cloud services, and who need to consolidate them
+    into a searchable, permission-controlled internal knowledge base.
+  pain: 文档分散导致同事反复问同样的问题，而公有云知识库又因合规或保密要求不能用，只能靠人工整理目录和口头答疑。
+  pain_en: Scattered documents make colleagues ask the same questions repeatedly, while public cloud knowledge
+    bases are blocked by compliance or confidentiality rules, leaving manual folder curation and verbal
+    answers as the only option.
+  current_alternative: 用共享盘加人工目录、Wiki 或企业网盘自建页面，检索靠文件名和记忆，AI 问答能力通常缺失。
+  current_alternative_en: Shared drives with hand-made folders, wikis, or self-built pages on enterprise
+    cloud storage, where retrieval relies on filenames and memory and AI question answering is usually
+    absent.
+  usage_reason: 推断：相较共享盘加人工目录，它把部署、文档管理和 AI 检索放在同一套可自托管的系统里，维护者不必再为每个部门单独搭检索，合规团队也不必放行外部云服务，因此合规敏感且文档量大的团队会在内部知识库立项时选择它。
+  usage_reason_en: 'Inference: compared with shared drives plus manual folders, it puts deployment, document
+    management, and AI retrieval into one self-hostable system, so maintainers no longer build separate
+    search per department and compliance teams need not approve an external cloud service; teams with
+    heavy documents and strict compliance would choose it when starting an internal knowledge base project.'

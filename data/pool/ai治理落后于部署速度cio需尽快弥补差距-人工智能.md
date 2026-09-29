@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1cWtTekhYOUZu
 summary: AI治理落后于部署速度，CIO需尽快弥补差距-人工智能 至顶网
 first_seen: '2026-09-28T13:50:43Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

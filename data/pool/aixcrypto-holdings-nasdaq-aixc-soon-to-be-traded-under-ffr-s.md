@@ -1,8 +1,6 @@
 ---
 slug: aixcrypto-holdings-nasdaq-aixc-soon-to-be-traded-under-ffr-s
-name: 'AIxCrypto Holdings (NASDAQ: AIXC soon to be traded under FFR), Signs Term Sheet with Faraday Future
-  to Acquire its Robotics Business at an Estimated $200 Million Valuation, Aiming to be the First Nasdaq-Listed
-  Pure-Play Robotics Ecosystem Company'
+name: AIxCrypto Holdings
 builder: ''
 category: ''
 summary_zh: ''
@@ -25,7 +23,7 @@ summary: 'AIxCrypto Holdings (NASDAQ: AIXC soon to be traded under FFR), Signs T
   Nasdaq-Listed Pure-Play Robotics Ecosystem Company TradingView'
 first_seen: '2026-09-28T21:00:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -36,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AIxCrypto Holdings (NASDAQ: AIXC soon to be traded under FFR), Signs Term Sheet with Faraday Future to Acquire its Robotics Business at an Estimated $200 Million Valuation, Aiming to be the First Nasdaq-Listed Pure-Play Robotics Ecosystem Company
+# AIxCrypto Holdings
 
 AIxCrypto Holdings (NASDAQ: AIXC soon to be traded under FFR), Signs Term Sheet with Faraday Future to Acquire its Robotics Business at an Estimated $200 Million Valuation, Aiming to be the First Nasdaq-Listed Pure-Play Robotics Ecosystem Company TradingView
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGxGTmdHODda
 summary: 全国首单AI产品应用保险落地 sohu.com
 first_seen: '2026-09-28T00:33:44Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

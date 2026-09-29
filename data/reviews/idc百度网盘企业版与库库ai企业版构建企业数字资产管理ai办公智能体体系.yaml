@@ -1,0 +1,41 @@
+- id: req-initial-idc百度网盘企业版与库库ai企业版构建企业数字资产管理ai办公智能体体系-2026-09-29
+  project_slug: idc百度网盘企业版与库库ai企业版构建企业数字资产管理ai办公智能体体系
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点未在材料中写明，只能推断资料检索与复用负担，价值关证据不足。
+    evidence_ids:
+    - ev-ccc753b6154d5af1
+  - gate: consensus
+    status: insufficient
+    reason: 只有 IDC 观点转述，没有客户采用或行业跟进证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-ccc753b6154d5af1
+  - gate: model
+    status: insufficient
+    reason: 买方与付费方式未披露，是网盘增值还是独立售卖不明，模式关无法判断。
+    evidence_ids:
+    - ev-ccc753b6154d5af1
+  - gate: truth
+    status: insufficient
+    reason: 没有交付结果或使用效果数据，无法核对智能体输出能否确定性交付。
+    evidence_ids:
+    - ev-ccc753b6154d5af1
+  next_validation: 收集百度网盘企业版官方页面或 IDC 报告中关于该 AI 办公智能体的功能说明、定价与客户案例。
+  market: ''
+  job: 企业行政或知识管理岗在整理内部文档与素材时，需要检索并复用既有数字资产。
+  job_en: Corporate admin or knowledge-management staff organising internal documents and assets need
+    to retrieve and reuse existing digital assets.
+  pain: 公开材料未描述具体痛点，只能推断存量资料分散、检索与复用耗时，缺少一手用户描述。
+  pain_en: Public material describes no specific pain; scattered legacy material and slow retrieval and
+    reuse are inferred only, with no first-hand user account.
+  current_alternative: 此前可能依靠网盘目录、关键词搜索或人工整理，属推断，材料未披露。
+  current_alternative_en: Prior practice may be folder browsing, keyword search or manual filing; this
+    is inferred and undisclosed.
+  usage_reason: 无法判断用户为何选择它：材料只给出体系名称与第三方观点，未说明相较旧检索方式减少了哪一步负担。
+  usage_reason_en: 'Why users would choose it cannot be judged: the material gives only a system name
+    and a third-party view, not the step saved versus older retrieval methods.'

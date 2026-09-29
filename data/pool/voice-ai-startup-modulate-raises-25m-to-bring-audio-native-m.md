@@ -1,11 +1,12 @@
 ---
 slug: voice-ai-startup-modulate-raises-25m-to-bring-audio-native-m
-name: Voice AI startup Modulate raises $25M to bring audio-native models to more developers
+name: Modulate
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 面向开发者的音频原生模型供给方获得新一轮融资，公开材料只说明资金用途是扩大开发者可用范围，未披露具体客户、定价或交付结果。
 inspiration: ''
-summary_en: ''
+summary_en: A provider of audio-native models for developers has raised new funding; public material only
+  states the money will widen developer access, with no disclosed customers, pricing, or delivery results.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnBGeDZyMEF2
 summary: Voice AI startup Modulate raises $25M to bring audio-native models to more developers SiliconANGLE
 first_seen: '2026-09-28T14:30:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Voice AI startup Modulate raises $25M to bring audio-native models to more developers
+# Modulate
 
 Voice AI startup Modulate raises $25M to bring audio-native models to more developers SiliconANGLE
 

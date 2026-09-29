@@ -21,7 +21,7 @@ canonical_url: https://claudevcodex.com
 summary: A never-ending chess match between Claude and Codex
 first_seen: '2026-09-28T21:02:46Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

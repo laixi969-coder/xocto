@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hSFl1UVlmcjY3
 summary: AI狂欢尚未结束？真正的危险时刻 将是这个词“火了”后…… 财联社
 first_seen: '2026-09-27T15:20:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

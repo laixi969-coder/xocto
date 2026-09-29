@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQTENEUm1nbkEz
 summary: How Food Manufacturers Should Evaluate AI for True Innovation foodengineeringmag.com
 first_seen: '2026-09-28T18:00:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

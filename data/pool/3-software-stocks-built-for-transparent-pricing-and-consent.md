@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNRy1KMFc2MExD
 summary: 3 Software Stocks Built For Transparent Pricing And Consent Driven Growth simplywall.st
 first_seen: '2026-09-28T23:56:47Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMDJON1BpcjBy
 summary: AI is exposing manufacturing’s information governance debt Manufacturing Today
 first_seen: '2026-09-28T08:45:03Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

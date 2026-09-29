@@ -1,0 +1,42 @@
+- id: req-initial-lattice-2026-09-29
+  project_slug: lattice
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决跨语言改写保意的问题，但公开材料只有一句描述，说不清具体在哪个工作节点替代了哪一步旧工作。
+    evidence_ids:
+    - ev-bd2760a7808a1eb9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无社区讨论或采用信号可判断共识。
+    evidence_ids:
+    - ev-bd2760a7808a1eb9
+  - gate: model
+    status: insufficient
+    reason: 未进入：无定价页，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-bd2760a7808a1eb9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：保意效果与术语一致性无任何可核对证据。
+    evidence_ids:
+    - ev-bd2760a7808a1eb9
+  next_validation: 收集 Lattice 官方产品页或文档，确认支持语种、输入输出形式与是否提供定价。
+  market: ''
+  job: 跨境卖家或海外市场运营在需要把商品文案、社媒帖子改成目标语言时，把原文交给工具改写，再自行校对术语与品牌口径后发布。
+  job_en: Cross-border sellers or overseas marketing staff needing product copy or social posts in a target
+    language submit the source text to the tool, then proofread terminology and brand voice before publishing.
+  pain: 机器直译常丢语气、术语不统一，人工重写又慢，多语种并行时容易前后不一致。
+  pain_en: Literal machine translation loses tone and terminology consistency, while manual rewriting
+    is slow and drifts across languages.
+  current_alternative: 通用翻译工具加人工润色，或直接请母语写手重写。
+  current_alternative_en: Generic translation tools plus human polishing, or hiring native-language writers
+    to rewrite.
+  usage_reason: 推断：相比先机翻再人工润色，它把改写和保意合成一步，减少一轮返工，因此需要批量产出多语种文案的跨境团队可能试用；但公开材料只有一句产品描述，无法确认它替代了哪一步旧工作。
+  usage_reason_en: 'Inference: versus machine-translate-then-polish, it merges rewriting and meaning preservation
+    into one step, cutting a rework round, so cross-border teams producing multilingual copy in bulk may
+    try it; but public material is a single product line and cannot confirm which old step it replaces.'

@@ -21,7 +21,7 @@ canonical_url: https://fireworks.ai/blog/ember-1
 summary: ''
 first_seen: '2026-09-27T17:31:53Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

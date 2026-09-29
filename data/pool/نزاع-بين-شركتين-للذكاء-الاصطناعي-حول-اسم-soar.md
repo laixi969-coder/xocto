@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiP0FVX3lxTFA5dFAwbEdKcTUy
 summary: نزاع بين شركتين للذكاء الاصطناعي حول اسم Soar jawlah.co
 first_seen: '2026-09-26T17:02:31Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

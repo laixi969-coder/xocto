@@ -1,6 +1,6 @@
 ---
 slug: build-real-time-voice-applications-with-vllm-omni-on-sagemak
-name: Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1
+name: vLLM-Omni on Amazon SageMaker AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-
   Qwen3-TTS and streams speech through a Gradio application.
 first_seen: '2026-09-28T16:15:46Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1
+# vLLM-Omni on Amazon SageMaker AI
 
 Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Part 1 tutorial deploys Qwen3-TTS and streams speech through a Gradio application.
 

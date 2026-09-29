@@ -73,7 +73,7 @@ summary: 本文首发于 Founder Park 公众号 · 2022 年 11 月 15 日   对�
   100 栏目   一直在招募优秀的科技创业者来做客我们的直播间，如果大家对于这档栏目感兴趣，也有意向想要来分享自己的故事，欢迎大家长按下图，识别图中二维码，填写报名申请单。      转载原创文章请添加微信：geekparker
 first_seen: '2026-09-29T01:42:29Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

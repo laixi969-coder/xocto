@@ -1,6 +1,6 @@
 ---
 slug: 从风控场景走向大众日常扫描全能王ai鉴别智能体落地上观新闻智能体广场
-name: 从风控场景走向大众日常，扫描全能王“AI鉴别”智能体落地上观新闻智能体广场
+name: 扫描全能王
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjbXE3WFR6OFpE
 summary: 从风控场景走向大众日常，扫描全能王“AI鉴别”智能体落地上观新闻智能体广场 CSDN
 first_seen: '2026-09-28T07:27:40Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 从风控场景走向大众日常，扫描全能王“AI鉴别”智能体落地上观新闻智能体广场
+# 扫描全能王
 
 从风控场景走向大众日常，扫描全能王“AI鉴别”智能体落地上观新闻智能体广场 CSDN
 

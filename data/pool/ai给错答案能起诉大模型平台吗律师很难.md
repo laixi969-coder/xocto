@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwpBVV95cUxPeHpzeWxTOFBI
 summary: AI给错答案能起诉大模型平台吗？律师：很难 新浪财经
 first_seen: '2026-09-28T15:55:39Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

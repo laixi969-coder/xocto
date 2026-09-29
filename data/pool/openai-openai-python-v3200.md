@@ -1,6 +1,6 @@
 ---
 slug: openai-openai-python-v3200
-name: 'openai/openai-python: v3.20.0'
+name: openai-python
 builder: openai
 category: ''
 summary_zh: ''
@@ -84,7 +84,7 @@ summary: '## [3.20.0](https://github.com/openai/openai-python/compare/v3.19.2...
   ([a73fe0c](https://github.com/openai/openai-python/commit/a73fe0c3d404335a342d1251bd32709b8e3d76f2))'
 first_seen: '2026-09-28T16:04:13Z'
 last_seen: '2026-09-29T01:57:46Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -96,7 +96,7 @@ sightings:
   kind: news
 ---
 
-# openai/openai-python: v3.20.0
+# openai-python
 
 ## [3.20.0](https://github.com/openai/openai-python/compare/v3.19.2...v3.20.0) (2026-09-28)
 

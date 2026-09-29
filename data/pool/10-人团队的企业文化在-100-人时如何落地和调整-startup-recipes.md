@@ -59,7 +59,7 @@ summary: '本文首发于 Founder Park 公众号 · 2022 年 8 月 15 日   对�
   for Lasting Success》    原文链接：https://future.com/practices-company-culture-design/        转载原创文章请添加微信：geekparker'
 first_seen: '2026-09-29T01:14:29Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

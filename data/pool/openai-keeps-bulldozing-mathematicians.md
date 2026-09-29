@@ -24,7 +24,7 @@ summary: 'In a chaotic few months, OpenAI has demonstrated it can do two things 
   relations with a mathematical community it has repeatedly alienated […]'
 first_seen: '2026-09-28T17:00:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -3,37 +3,44 @@ slug: ai-startup-heidi-doubles-valuation-to-900-million-in-new-rou
 name: Heidi
 builder: ''
 category: AI + 效率
-summary_zh: 公开材料只说明 Heidi 是面向医疗场景的 AI 记录类公司并完成新一轮融资，未说明医生在哪个问诊环节打开它、AI 接收哪些语音或文本、输出何种病历交付物，具体流程或交付仍待核验。
-inspiration: 趋势是临床文书这类占用医生大量时间的旧流程正在被 AI 接管，资本愿意为已进入诊室工作流的产品付高估值。切入可从专科门诊或非英语市场的病历书写进入，按医生席位或按问诊量收费；但本轮只有估值信息，窗口是否已被头部占住无法判断。
-summary_en: Public material only identifies Heidi as an AI documentation company serving healthcare that
-  closed a new funding round; it does not say at which encounter step a clinician opens it, what speech
-  or text the AI receives, or what note it delivers, so the concrete workflow and deliverable remain unverified.
-inspiration_en: The trend is that clinical documentation, a task consuming large amounts of clinician
-  time, is being taken over by AI, and capital is willing to pay high valuations for products already
-  inside the exam-room workflow. An entry point is specialty clinics or non-English markets for note writing,
-  priced per clinician seat or per encounter; this round offers only valuation information, so whether
-  the window is already taken by incumbents cannot be judged.
+summary_zh: 临床医生在问诊或远程通话过程中打开Heidi，让它直接接收屏幕或通话中的语音，自动生成临床记录与病历文本，医生再自行核对修改后留存。公开材料只说明它做临床记录与行政文书，具体在哪个就诊环节打开、交付格式如何仍待核验。
+inspiration: 趋势：临床文书正从医生下班后补写，转向问诊当场由语音转成草稿，融资估值翻倍说明这条路径已被资本认可。切入：可从中小诊所、专科门诊或非英语市场的病历书写环节进入，按医生席位或按机构订阅收费；但通用记录能力易被模型厂商抹平，壁垒要落在科室模板、合规与本地病历系统对接上。
+summary_en: A clinician opens Heidi during a consultation or telehealth call so it captures speech from
+  the screen or call and drafts clinical notes and records, which the clinician then reviews and edits
+  before saving. Public material only says it handles clinical documentation and admin paperwork; the
+  exact encounter step and output format still need verification.
+inspiration_en: 'Trend: clinical documentation is shifting from after-hours writing to in-visit speech-to-draft,
+  and a doubled valuation shows capital backing this path. Entry: start with small clinics, specialty
+  practices or non-English markets at the note-writing step, charging per clinician seat or per institution;
+  generic transcription is easily commoditized, so the moat must be specialty templates, compliance and
+  EHR integration.'
 priority_review: false
 project_type: new_application
 industries:
-- 医疗
+- 医疗健康
+- 临床诊疗
 industries_en:
 - Healthcare
+- Clinical care
 jobs:
-- 临床问诊记录与病历书写
+- 临床医生
+- 医疗文书人员
 jobs_en:
-- Clinical encounter documentation and note writing
+- Clinicians
+- Medical documentation staff
 regions:
 - 澳大利亚
+- 美国
 regions_en:
 - Australia
+- United States
 open_source: false
 url: https://news.google.com/rss/articles/CBMiswFBVV95cUxONWs3aG5oX0NtUzM0TWFMMUU4M1dVVzVNcFNDWFVNOXplS09GUXUtU2R2Mk1qeUhrUHZhMVJ6U0l1NTk3OVFyMmxxLTZnbTVRZ1dmdzBiOGI4TGxUQ09vQTRfWldSb3dmZTlpYzdtaTFPZmJwN2doc3FsazdtMkluWXY3YjBOSEloMFVuSVFtQ1poanFUMFBjYmtxaWZGd3lPRXZady1JOGVuZXBPYk9SdXBiWQ?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxONWs3aG5oX0NtUzM0TWFMMUU4M1dVVzVNcFNDWFVNOXplS09GUXUtU2R2Mk1qeUhrUHZhMVJ6U0l1NTk3OVFyMmxxLTZnbTVRZ1dmdzBiOGI4TGxUQ09vQTRfWldSb3dmZTlpYzdtaTFPZmJwN2doc3FsazdtMkluWXY3YjBOSEloMFVuSVFtQ1poanFUMFBjYmtxaWZGd3lPRXZady1JOGVuZXBPYk9SdXBiWQ?oc=5
 summary: AI Startup Heidi Doubles Valuation to $900 Million in New Round Bloomberg.com
 first_seen: '2026-09-22T12:00:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:

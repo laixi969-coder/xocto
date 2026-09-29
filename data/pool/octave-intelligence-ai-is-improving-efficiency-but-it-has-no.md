@@ -22,7 +22,7 @@ summary: 'Octave Intelligence: AI Is Improving Efficiency, But It Has Not Yet Pr
   Revenue Seeking Alpha'
 first_seen: '2026-09-28T12:15:21Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

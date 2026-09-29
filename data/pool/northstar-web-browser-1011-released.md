@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=49873832
 summary: https:&#x2F;&#x2F;github.com&#x2F;nordstjernen-web&#x2F;northstar-browser&#x2F;releas...
 first_seen: '2026-09-28T04:58:09Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

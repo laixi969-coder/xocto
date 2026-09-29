@@ -22,7 +22,7 @@ canonical_url: https://sifted.eu/articles/joelle-pineau-cohere-ai-sovereignty
 summary: ''
 first_seen: '2026-09-28T10:45:52Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,48 @@
+- id: req-initial-listingbott-expands-managed-directory-submission-service-for-2026-09-29
+  project_slug: listingbott-expands-managed-directory-submission-service-for
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线期把产品资料逐条提交到大量目录的需求，痛点是重复录入与结果分散，旧做法是人工逐站提交。
+    evidence_ids:
+    - ev-a839b552f7b10ad9
+    - ev-a4ef2db177215a2d
+  - gate: consensus
+    status: insufficient
+    reason: 只有标题式公告，未见客户名单、评价或采用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a839b552f7b10ad9
+    - ev-a4ef2db177215a2d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，托管服务按次还是按月收费不明，付费路径属推断。
+    evidence_ids:
+    - ev-a839b552f7b10ad9
+    - ev-a4ef2db177215a2d
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 承担哪些步骤、人工审核边界与收录成功率，交付确定性无法核对。
+    evidence_ids:
+    - ev-a839b552f7b10ad9
+    - ev-a4ef2db177215a2d
+  next_validation: 收集 ListingBott 官方定价页或服务说明页，核验其计价方式、提交目录范围与是否披露收录结果数据。
+  market: ''
+  job: SaaS 或软件团队的增长运营人员，在产品上线前后整理产品名称、简介、截图与分类信息，需要把这些材料逐条提交到大量软件目录并跟踪收录状态。
+  job_en: A growth operator at a SaaS or software team, around launch, assembles product name, description,
+    screenshots and category info, and must submit these items one by one to many software directories
+    while tracking listing status.
+  pain: 目录数量多、每家表单字段与审核规则不同，逐条填写与跟进既枯燥又容易漏掉，且结果分散难以核对。
+  pain_en: There are many directories with differing form fields and review rules; filling and following
+    up one by one is tedious, easy to miss, and the results are scattered and hard to verify.
+  current_alternative: 由增长或市场人员手工逐个提交，或购买目录清单后自行操作，也有团队直接放弃长尾目录。
+  current_alternative_en: Growth or marketing staff submit manually one by one, or buy a directory list
+    and do it themselves; some teams simply skip long-tail directories.
+  usage_reason: 推断：相较手工逐站填写，托管服务把材料整理、表单填写与状态跟进合并为一次委托，减少重复录入这一步负担，因此缺少专职增长人手、又需要上线期外链覆盖的小团队会考虑使用；公开材料未提供客户案例或复购证据。
+  usage_reason_en: 'Inference: versus filling each site by hand, a managed service merges material preparation,
+    form filling and status follow-up into one engagement, removing the repeated data-entry step, so small
+    teams without dedicated growth staff but needing launch-period backlink coverage may consider it;
+    no customer case or repeat-use evidence is provided publicly.'

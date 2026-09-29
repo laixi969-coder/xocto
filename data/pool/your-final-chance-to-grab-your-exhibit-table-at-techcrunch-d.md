@@ -23,7 +23,7 @@ summary: The last day to book your Disrupt 2026 exhibit table is this Friday, Oc
   leaders at San Francisco's Moscone West on October 13-15.
 first_seen: '2026-09-28T14:00:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

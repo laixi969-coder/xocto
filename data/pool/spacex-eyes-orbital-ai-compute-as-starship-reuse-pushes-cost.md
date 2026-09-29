@@ -25,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQWWczdGdqS0ZU
 summary: SpaceX Eyes Orbital AI Compute as Starship Reuse Pushes Costs Lower tradingview.com
 first_seen: '2026-09-12T08:02:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

@@ -1,0 +1,45 @@
+- id: req-initial-from-portal-hopping-to-instant-answers-hemas-journey-with-mc-2026-09-29
+  project_slug: from-portal-hopping-to-instant-answers-hemas-journey-with-mc
+  level: initial
+  reviewed_at: '2026-09-29T01:58:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内部开发者跨门户找文档、拼答案的需求，痛点是检索耗时与凭证安全，旧行为明确。
+    evidence_ids:
+    - ev-587373519356b557
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一家企业自述落地，缺少其他团队采用或开发者反馈，共识尚未形成。
+    evidence_ids:
+    - ev-587373519356b557
+  - gate: model
+    status: insufficient
+    reason: 内部自建工具，未披露对外定价或收费方式，买方与付费路径不明。
+    evidence_ids:
+    - ev-587373519356b557
+  - gate: truth
+    status: supported
+    reason: 权限依托既有身份系统、客户端不存云凭证，交付边界与人工确认环节有明确说明。
+    evidence_ids:
+    - ev-587373519356b557
+  next_validation: 收集 HEMA 或云厂商后续公开的部署文档与使用数据，确认 HAL 覆盖的团队范围与重复使用情况。
+  market: ''
+  job: 零售企业的内部开发者与运维人员，在排查配置或接口问题时，需要翻阅多个开发者门户里的文档与凭证说明，才能拼出一个可用的答案。
+  job_en: Internal developers and operations staff at a retailer, when troubleshooting configuration or
+    API issues, must dig through docs and credential notes across several developer portals to assemble
+    a usable answer.
+  pain: 知识分散在多个门户，检索耗时且容易拿到过期或越权信息；把云凭证放在客户端又带来安全与合规负担。
+  pain_en: Knowledge is scattered across portals, so retrieval is slow and can surface stale or over-privileged
+    information; keeping cloud credentials on the client adds security and compliance burden.
+  current_alternative: 此前靠人工在多个门户间跳转、搜索文档，或直接问同事，答案质量取决于个人经验。
+  current_alternative_en: Previously people manually hopped between portals, searched docs or asked colleagues,
+    with answer quality depending on individual experience.
+  usage_reason: 相较逐个门户翻找，HAL 把分散知识收进团队已在用的工具内，一次提问即返回带权限边界的答案，省掉跨门户检索这一步；客户端不保存云凭证、权限依托既有身份系统，使安全团队更可能放行，因此有大量内部文档的中大型企业会先在这类场景试用（推断）。
+  usage_reason_en: Compared with searching portal by portal, HAL pulls scattered knowledge into the tools
+    teams already use and returns a permission-bounded answer from one prompt, removing the cross-portal
+    lookup step; keeping no cloud credentials on the client and anchoring access in the existing identity
+    system makes security approval likelier, so mid-to-large firms with heavy internal documentation are
+    the ones likely to try it first (inference).

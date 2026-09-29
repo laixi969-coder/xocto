@@ -22,7 +22,7 @@ summary: Has Meta’s Muse started the agentic wars? ‘AI agents can bypass ads
   World
 first_seen: '2026-09-28T07:29:38Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE16LTRRMEtrVUk4
 summary: 智能体浪潮席卷证券业 券商AI转型从单点增效迈向体系重构 k.sina.com.cn
 first_seen: '2026-09-28T19:23:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

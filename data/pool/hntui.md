@@ -21,7 +21,7 @@ canonical_url: https://github.com/ahmd-sh/hntui
 summary: A TUI for Hacker News
 first_seen: '2026-09-28T12:11:20Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

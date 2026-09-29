@@ -1,6 +1,6 @@
 ---
 slug: source-inference-provider-modal-labs-closing-in-on-750m-roun
-name: 'Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation'
+name: Modal Labs
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: The new financing is expected to more than triples the AI infrastructur
   from just four months ago.
 first_seen: '2026-09-28T21:29:18Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation
+# Modal Labs
 
 The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.
 

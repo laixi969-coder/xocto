@@ -23,7 +23,7 @@ summary: Anthropic, Clay, and Gamma on what it takes for an AI product to go bey
   Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.
 first_seen: '2026-09-28T15:30:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

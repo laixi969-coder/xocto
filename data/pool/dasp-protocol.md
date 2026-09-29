@@ -21,7 +21,7 @@ canonical_url: https://dasp-protocol.github.io/dasp
 summary: Durable Actor Session Protocol
 first_seen: '2026-09-28T13:00:13Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

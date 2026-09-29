@@ -1,11 +1,16 @@
 ---
 slug: india-insurance-growth-to-hinge-on-ai-led-distribution-ecosy
-name: 'India insurance growth to hinge on AI-led distribution, ecosystem partnerships: McKinsey'
+name: McKinsey India insurance AI distribution report
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: McKinsey 于 2026 年 9 月发布观点，认为印度保险业增长将依赖 AI 驱动的分销与生态伙伴合作。该判断把 AI 从后台效率工具推向保险获客与渠道结构，意味着保险科技与
+  AI 分销服务商的采用窗口可能扩大，但属于咨询机构预测而非已发生的行业转向（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: In September 2026 McKinsey argued that growth in India's insurance sector will hinge on AI-led
+  distribution and ecosystem partnerships. The view shifts AI from a back-office efficiency tool toward
+  customer acquisition and channel structure, suggesting a potentially wider adoption window for insurtech
+  and AI distribution vendors, though it is a consultancy forecast rather than an observed industry-wide
+  shift (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +27,7 @@ summary: 'India insurance growth to hinge on AI-led distribution, ecosystem part
   Enterprise AI'
 first_seen: '2026-09-28T11:58:18Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# India insurance growth to hinge on AI-led distribution, ecosystem partnerships: McKinsey
+# McKinsey India insurance AI distribution report
 
 India insurance growth to hinge on AI-led distribution, ecosystem partnerships: McKinsey ET Enterprise AI
 

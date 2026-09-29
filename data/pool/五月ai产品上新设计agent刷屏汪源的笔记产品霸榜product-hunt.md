@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9pT2FhR3lLZWpL
 summary: 五月AI产品上新：设计Agent刷屏，汪源的笔记产品霸榜Product Hunt 极客公园
 first_seen: '2026-09-28T13:13:59Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

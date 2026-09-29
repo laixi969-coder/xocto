@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBCdWhvbEdQU0Zy
 summary: 智推时代GEM上线 开启AI营销“广告+推荐”双引擎时代 中国科技网
 first_seen: '2026-09-28T10:18:38Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

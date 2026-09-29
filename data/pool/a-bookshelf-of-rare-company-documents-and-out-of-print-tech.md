@@ -23,7 +23,7 @@ summary: i kept collecting rare internal company docs + out-of-print business bo
   original marketing philos…
 first_seen: '2026-09-27T19:16:17Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

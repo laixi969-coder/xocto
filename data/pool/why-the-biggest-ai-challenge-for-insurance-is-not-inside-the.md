@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUEtKMTRSRmNT
 summary: Why the biggest AI challenge for insurance is not inside the enterprise The Australian
 first_seen: '2026-09-28T15:30:31Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

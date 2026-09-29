@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTFBSaEVqd01qR0k3
 summary: AI Product & Serves Launches – 9/28/2026 planadviser.com
 first_seen: '2026-09-28T23:43:37Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

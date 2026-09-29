@@ -1,11 +1,12 @@
 ---
 slug: windowscentral
-name: windowscentral
+name: Microsoft
 builder: anthuswilliams
 category: ''
-summary_zh: ''
+summary_zh: 微软在新款笔记本上不再使用 Copilot+ 标识，公开材料未说明该调整对功能、定价或渠道的具体影响，仅反映 AI PC 品牌叙事的退潮。
 inspiration: ''
-summary_en: ''
+summary_en: Microsoft no longer uses the Copilot+ label on new laptops; the material gives no detail on
+  functional, pricing, or channel impact, only a retreat in AI PC branding.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://windowscentral.com/microsoft/windows-11/the-copilot-pc-br
 summary: Microsoft drops Copilot+ branding from its new laptops
 first_seen: '2026-09-28T02:46:27Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# windowscentral
+# Microsoft
 
 Microsoft drops Copilot+ branding from its new laptops
 

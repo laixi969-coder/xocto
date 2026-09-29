@@ -1,0 +1,44 @@
+- id: req-initial-estonias-biltme-raises-615k-with-backing-from-bolt-and-light-2026-09-29
+  project_slug: estonias-biltme-raises-615k-with-backing-from-bolt-and-light
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决非技术团队自建移动应用的需求，痛点结构上存在，但公开材料未说明具体输入、生成范围与交付结果，价值判断证据不足。
+    evidence_ids:
+    - ev-26a9586acf9f8f1d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未提供用户采用、评价或场景验证，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-26a9586acf9f8f1d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自 to C 订阅或 to B 项目，属判断而非已验证事实。
+    evidence_ids:
+    - ev-26a9586acf9f8f1d
+  - gate: truth
+    status: insufficient
+    reason: 无法核验生成结果是否可确定交付、是否需人工返工，以及安全与人工边界。
+    evidence_ids:
+    - ev-26a9586acf9f8f1d
+  next_validation: 收集 bilt.me 官方定价页或客户案例，确认其生成应用的交付范围与付费方式。
+  market: ''
+  job: 缺少开发资源的小团队或个人，在需要上线一个移动应用时，用自然语言描述功能需求，由 AI 生成可用的应用。
+  job_en: Small teams or individuals without development resources describe functional requirements in
+    natural language when they need to launch a mobile app, and AI generates a usable app.
+  pain: 自建移动应用通常需要雇佣开发者或使用模板工具，成本与学习门槛高；公开材料未提供用户抱怨或替代行为的直接证据。
+  pain_en: Building a mobile app usually requires hiring developers or using template tools, with high
+    cost and learning barriers; public material provides no direct evidence of user complaints or workaround
+    behavior.
+  current_alternative: 雇佣外包开发团队、使用低代码或无代码平台，或直接放弃自建应用。
+  current_alternative_en: Hiring outsourced development teams, using low-code or no-code platforms, or
+    giving up on building an app.
+  usage_reason: 推断：相较外包或低代码平台，它把需求描述直接转成应用，可能减少配置与编码步骤；但公开材料未说明生成质量、可维护性与交付边界，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: compared with outsourcing or low-code platforms, it turns requirement descriptions
+    directly into an app, potentially reducing configuration and coding steps; but public material does
+    not describe generation quality, maintainability or delivery boundaries, so it cannot yet be confirmed
+    that users would choose it for this reason.'

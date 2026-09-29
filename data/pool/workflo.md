@@ -3,36 +3,30 @@ slug: workflo
 name: Workflo
 builder: Chirag Chopra
 category: AI + 效率
-summary_zh: Mac 用户在处理重复性桌面操作时打开它，由工具在本地识别并执行点击、输入等动作，屏幕内容不上传；用户最终得到自动完成的重复任务，但具体支持哪些应用与流程、交付是否稳定仍待核验。
-inspiration: 趋势：桌面端自动化开始把“不上传屏幕”当作卖点，说明隐私正成为本地代理类工具的竞争维度。切入：可从财务对账、电商后台批量改价这类高频重复的桌面操作切入，按节省的工时或处理单量收费，而非按席位订阅。
-summary_en: Mac users open it when handling repetitive desktop operations; the tool locally recognizes
-  and performs clicks and typing without uploading screen content, leaving users with completed repetitive
-  tasks, though which apps and flows it supports and how reliably it delivers remain unverified.
-inspiration_en: 'Trend: desktop automation now markets ''no screen upload'', showing privacy is becoming
-  a competitive axis for local agent tools. Entry: start from high-frequency repetitive desktop work such
-  as finance reconciliation or bulk repricing in e-commerce backends, charging per saved hour or processed
-  volume rather than per seat.'
+summary_zh: 面向 Mac 用户的本地工作区自动化工具，宣称在不上传屏幕内容的前提下执行自动化操作；候选资料只给出一句定位描述，具体接收什么输入、执行哪些动作、最终交付什么结果均未说明，具体流程或交付仍待核验。
+inspiration: 趋势：桌面端自动化开始把“不读取屏幕内容”当作卖点，说明隐私边界正成为这类工具的分水岭。切入：可从法务、财税、医疗等不能把屏幕内容外传的岗位切入，先做单一重复动作（如批量归档、跨应用搬运）的确定性交付，再谈扩展。
+summary_en: A Mac workspace automation tool that claims to run automations without uploading screen content;
+  the candidate material offers only a one-line positioning statement, so what it ingests, which actions
+  it performs and what it delivers remain unverified.
+inspiration_en: 'Trend: desktop automation now markets ''never sees your screen'' as a differentiator,
+  making the privacy boundary the dividing line for such tools. Entry: start with roles that cannot send
+  screen content out, such as legal, accounting or clinical staff, and deliver one deterministic repeated
+  action before expanding.'
 priority_review: false
 project_type: new_application
-industries:
-- 软件与信息技术服务
-industries_en:
-- Software and IT services
-jobs:
-- 个人效率工具使用者
-jobs_en:
-- Individual productivity tool users
-regions:
-- 美国
-regions_en:
-- United States
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
 open_source: false
 url: https://www.producthunt.com/products/workflo-2
 canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen
 first_seen: '2026-08-08T22:35:22Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - hackernews

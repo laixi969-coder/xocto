@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/githumochib
 summary: A tiny animated cat for every browser tab.
 first_seen: '2026-08-17T20:56:10Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

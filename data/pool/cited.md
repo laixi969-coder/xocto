@@ -3,32 +3,28 @@ slug: cited
 name: cited
 builder: cited-cc
 category: AI + 商业
-summary_zh: 面向品牌、公关与内容团队，在需要知道自家内容是否被 AI 回答引用时打开它，平台接收待监测的品牌或问题，去检查 AI 回答里引用了哪些来源，输出可追踪的引用记录。具体监测范围、更新频率与交付形式仍待核验。
-inspiration: 当用户开始直接问 AI 而不是点搜索结果，品牌可见度的计量单位从排名变成“被引用”。切入可以从公关与内容代理机构入手，按监测的品牌数或问题集收费，把 AI 回答里的引用做成可交付的月度报告。
-summary_en: For brand, PR and content teams that need to know whether their content is cited in AI answers,
-  it takes the brand or question set to monitor, inspects which sources AI answers cite, and outputs a
-  trackable citation record. Monitoring scope, refresh frequency and delivery format remain unverified.
-inspiration_en: As users ask AI directly instead of clicking search results, brand visibility is measured
-  in citations rather than rankings. The opening is PR and content agencies, priced by monitored brands
-  or question sets, delivering AI-answer citations as a monthly report.
+summary_zh: 品牌或公关人员需要知道自家内容在 AI 回答里被引用了多少次时，打开这个开源监测平台，它接收 AI 回答内容并统计品牌被引用的位置与频次，最终给出可核对的引用监测结果；具体接入方式与交付形态仍待核验。
+inspiration: 趋势是品牌曝光正从搜索排名迁移到 AI 回答里的被引用位置，衡量口径还没定型。切入可以从已有公关与内容预算的品牌方或代理商入手，把引用监测做成按品牌、按月的效果报告卖，而不是卖工具席位；价格未披露，不做假设。
+summary_en: When brand or PR staff need to know how often their content is cited inside AI answers, they
+  open this open-source monitoring platform; it takes AI answer content and counts where and how often
+  the brand is cited, returning a checkable citation report. Integration and delivery format still need
+  verification.
+inspiration_en: 'The trend: brand exposure is shifting from search rankings to being cited inside AI answers,
+  and the measurement standard is not settled yet. The entry point is brands or agencies that already
+  hold PR and content budgets, selling citation monitoring as a per-brand monthly performance report rather
+  than a tool seat; pricing is undisclosed and not assumed.'
 priority_review: false
 project_type: open_source
 industries:
 - 市场营销
 - 品牌公关
-- 专业服务
 industries_en:
 - Marketing
-- Brand and PR
-- Professional Services
+- Brand & PR
 jobs:
-- 品牌在 AI 回答中的引用监测
-- 内容与公关效果追踪
-- 竞品可见度分析
+- 品牌与公关效果追踪
 jobs_en:
-- Monitoring brand citations in AI answers
-- Tracking content and PR performance
-- Competitive visibility analysis
+- Brand and PR performance tracking
 regions: []
 regions_en: []
 open_source: true
@@ -37,7 +33,7 @@ canonical_url: https://cited.cc
 summary: Open-source citation monitoring platform for AI answers that matter.
 first_seen: '2026-09-05T23:02:19Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

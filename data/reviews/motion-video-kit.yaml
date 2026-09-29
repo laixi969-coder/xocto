@@ -1,0 +1,41 @@
+- id: req-initial-motion-video-kit-2026-09-29
+  project_slug: motion-video-kit
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成商业视频质量不稳、返工多的需求，痛点具体，旧流程是外包或手动调；但成片质量提升幅度未公开。
+    evidence_ids:
+    - ev-df1f83d60d4970c4
+  - gate: consensus
+    status: insufficient
+    reason: 65 星与 9 次 fork 只说明有开发者关注，无用户评价或客户案例证明营销团队已实际采用。
+    evidence_ids:
+    - ev-df1f83d60d4970c4
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或商业交付方式；可能面向创作者订阅或团队定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-df1f83d60d4970c4
+  - gate: truth
+    status: insufficient
+    reason: 未说明评审循环能否稳定产出可交付成片，也未给出人工仍需介入的边界。
+    evidence_ids:
+    - ev-df1f83d60d4970c4
+  next_validation: 收集该仓库的 issue、discussion 或使用说明，核验评审循环的实际产出质量与人工仍需介入的环节。
+  market: ''
+  job: 营销团队或独立创作者在制作商业宣传片时，需要把动效、音效与画面质量做到可交付水准。
+  job_en: A marketing team or independent creator producing a business promo video needs motion, sound
+    and visuals at a deliverable standard.
+  pain: AI 生成的视频常缺动效节奏与音效设计，成片质量不稳定，返工多。
+  pain_en: AI-generated video often lacks motion rhythm and sound design, so output quality is unstable
+    and rework is frequent.
+  current_alternative: 外包给动效与剪辑团队，或自己反复手动调整 AI 生成结果。
+  current_alternative_en: Outsourcing to motion and editing teams, or repeatedly hand-tuning AI output.
+  usage_reason: 推断：它把动效原则与音效规范固化成评审循环，让生成结果先按标准自查再交付，减少创作者逐帧返工；对预算有限又要成片质量的营销团队，会在自产宣传片时选择它。
+  usage_reason_en: 'Inference: it fixes motion principles and sound rules into a critic loop so generated
+    output self-checks against a standard before delivery, cutting frame-by-frame rework; marketing teams
+    with limited budget but real quality needs would pick it when producing promos in-house.'

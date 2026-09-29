@@ -1,0 +1,41 @@
+- id: req-initial-ryu-journal-2026-09-29
+  project_slug: ryu-journal
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是睡前放下思绪的需求，痛点真实，但公开材料无法说明 AI 具体替代了哪一步旧做法，价值结构尚不清晰。
+    evidence_ids:
+    - ev-ce23b0b6d13c7192
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布信息，没有用户评价、使用规模或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-ce23b0b6d13c7192
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自个人订阅还是其他路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ce23b0b6d13c7192
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真的用 AI 处理记录，也无法判断交付是否确定发生，安全与人工边界未知。
+    evidence_ids:
+    - ev-ce23b0b6d13c7192
+  next_validation: 收集该产品的官方说明或定价页，确认 AI 在记录之后具体执行什么动作、输出什么结果。
+  market: ''
+  job: 个人用户在睡前或情绪积压时，把当天未消化的想法写成文字，希望把思绪放下。
+  job_en: An individual writes down the day's unresolved thoughts before sleep or when emotions pile up,
+    hoping to let them go.
+  pain: 思绪反复盘旋、难以入睡或难以停止反刍，是常见困扰；但公开材料没有说明该产品比手写日记多解决了哪一步。
+  pain_en: Rumination that blocks sleep or rest is a common problem, but the public material does not
+    show which step this product solves beyond handwritten journaling.
+  current_alternative: 纸笔日记、手机备忘录、冥想或呼吸类应用。
+  current_alternative_en: Paper journals, phone notes, meditation or breathing apps.
+  usage_reason: 推断：若它能在用户写完零散文字后自动归纳出反复出现的情绪主题，就能省去用户自己回看和总结的负担，从而吸引不愿手动整理的人；但公开材料未证实这一动作存在。
+  usage_reason_en: 'Inference: if it automatically summarizes recurring emotional themes after scattered
+    writing, it would remove the burden of manual review and attract people unwilling to organize by hand;
+    the public material does not confirm this action exists.'

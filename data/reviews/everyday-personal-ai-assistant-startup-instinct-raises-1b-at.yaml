@@ -1,0 +1,40 @@
+- id: req-initial-everyday-personal-ai-assistant-startup-instinct-raises-1b-at-2026-09-29
+  project_slug: everyday-personal-ai-assistant-startup-instinct-raises-1b-at
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么需求、什么痛点都写不出来，只有融资事实，价值关无法成立。
+    evidence_ids:
+    - ev-9c7677325c4a2191
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何用户采用或场景共识证据。
+    evidence_ids:
+    - ev-9c7677325c4a2191
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无公开信息。
+    evidence_ids:
+    - ev-9c7677325c4a2191
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-9c7677325c4a2191
+  next_validation: 收集 Instinct 官方产品页或官方发布，确认其具体功能、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境与要处理的材料，无法还原一项可描述的任务。
+  job_en: The public material does not identify the user, the situation or the material handled, so no
+    describable task can be reconstructed.
+  pain: 没有披露任何用户痛点、抱怨或旧流程中的具体摩擦。
+  pain_en: No user pain, complaint or concrete friction in an existing workflow is disclosed.
+  current_alternative: 未说明用户现在用什么方式完成同类事务。
+  current_alternative_en: It is not stated how users currently handle comparable tasks.
+  usage_reason: 缺少产品能力、输入输出与替代对象的任何描述，无法解释用户为何会选择它；融资规模只说明关注度，不构成使用理由。
+  usage_reason_en: With no description of capability, inputs, outputs or the thing it replaces, there
+    is no way to explain why a user would choose it; funding size shows attention only, not a reason to
+    use.

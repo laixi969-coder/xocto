@@ -1,6 +1,6 @@
 ---
 slug: anthropics-anthropic-sdk-python-v190
-name: 'anthropics/anthropic-sdk-python: v1.9.0'
+name: Anthropic Python SDK
 builder: anthropics
 category: ''
 summary_zh: ''
@@ -84,7 +84,7 @@ summary: '## 1.9.0 (2026-09-28)
   * list importable type names in api.md ([56a42ab](https://github.com/anthropics/anthropic-sdk-python/commit/56a42ab6ecca901939d41f1604bd98c162d52def))'
 first_seen: '2026-09-28T18:03:49Z'
 last_seen: '2026-09-29T01:57:46Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -96,7 +96,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.9.0
+# Anthropic Python SDK
 
 ## 1.9.0 (2026-09-28)
 

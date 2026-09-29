@@ -1,11 +1,15 @@
 ---
 slug: trai-telcos-must-act-on-ai-flagged-spammers-disconnect-lines
-name: 'Trai: Telcos Must Act on AI-Flagged Spammers, Disconnect Lines'
+name: Trai
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 印度电信监管机构 Trai 于 2026 年 9 月要求电信运营商对 AI 标记的垃圾信息发送者采取行动并断开其线路。这一监管要求把 AI 识别能力嵌入电信合规流程，意味着面向电信运营商的
+  AI 反垃圾信息工具将获得明确的合规需求，相关供应商的交付与采用可能随之增加（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: India's telecom regulator Trai in September 2026 required telecom operators to act on AI-flagged
+  spammers and disconnect their lines. This regulatory requirement embeds AI detection into telecom compliance
+  workflows, implying clearer compliance demand for AI anti-spam tooling sold to carriers, with possible
+  increases in delivery and adoption for such vendors (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNRHhnNl92UlJl
 summary: 'Trai: Telcos Must Act on AI-Flagged Spammers, Disconnect Lines Rediff MoneyWiz'
 first_seen: '2026-09-28T17:20:15Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Trai: Telcos Must Act on AI-Flagged Spammers, Disconnect Lines
+# Trai
 
 Trai: Telcos Must Act on AI-Flagged Spammers, Disconnect Lines Rediff MoneyWiz
 

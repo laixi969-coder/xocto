@@ -1,0 +1,42 @@
+- id: req-initial-okara-2026-09-29
+  project_slug: okara
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决小品牌缺市场职能的问题，痛点存在；但候选只有一句定位，无法确认它替代哪一步旧工作。
+    evidence_ids:
+    - ev-a94f0ff80f448c34
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何关注度、评价或采用数据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-a94f0ff80f448c34
+  - gate: model
+    status: insufficient
+    reason: 无定价页与买方信息，钱可能来自中小品牌订阅或按项目收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a94f0ff80f448c34
+  - gate: truth
+    status: challenged
+    reason: 营销方案的效果依赖渠道与预算执行，AI 能否确定性交付结果未在候选材料中说明。
+    evidence_ids:
+    - ev-a94f0ff80f448c34
+  next_validation: 收集 Okara 官方产品页与定价页，确认它接收的输入、执行的具体营销动作、交付物形态与收费方式。
+  market: ''
+  job: 中小品牌的市场负责人在没有专职市场团队的情况下，需要产出并执行一段时间的营销方案，包括素材、渠道安排与效果跟进。
+  job_en: A marketing lead at a small brand, without a dedicated marketing team, needs to produce and
+    execute a period of marketing plans, including assets, channel scheduling, and performance follow-up.
+  pain: 缺少专职市场人员时，营销方案要么外包给代理公司成本高，要么由创始人兼做，难以持续产出与复盘。
+  pain_en: Without dedicated marketing staff, plans are either outsourced to agencies at high cost or
+    done part-time by founders, making sustained output and review difficult.
+  current_alternative: 目前多由代理公司、自由职业营销人或创始人自己用通用写作工具拼凑方案。
+  current_alternative_en: Today this is usually handled by agencies, freelance marketers, or founders
+    assembling plans with general-purpose writing tools.
+  usage_reason: 推断：相较外包代理，若 AI 能直接产出可执行的营销方案，可省去需求沟通与排期往返；但候选未披露具体动作与交付物，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: compared with outsourcing to an agency, an AI that directly produces executable
+    marketing plans could remove briefing and scheduling back-and-forth; but the candidate discloses no
+    concrete actions or deliverables, so user choice cannot be confirmed.'

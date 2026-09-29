@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VQ1VTbFJRZTBF
 summary: kaiyuan体育国际入口深度评测：5000Pa吸力+AI视觉导航，瓦解家庭清洁痛点 体坛
 first_seen: '2026-09-28T04:40:01Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

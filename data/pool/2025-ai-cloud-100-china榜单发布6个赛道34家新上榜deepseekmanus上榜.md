@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9weG5lZGRlRG9r
 summary: 2025 AI Cloud 100 China榜单发布：6个赛道，34家新上榜，DeepSeek、Manus上榜 极客公园
 first_seen: '2026-09-28T13:08:58Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

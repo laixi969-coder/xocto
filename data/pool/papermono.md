@@ -21,7 +21,7 @@ canonical_url: https://github.com/seamusc/papermono-shopping-list
 summary: e-ink fridge magnet shopping list with mobile web page
 first_seen: '2026-09-28T10:14:41Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

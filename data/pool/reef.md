@@ -31,7 +31,7 @@ canonical_url: https://reefinfra.ai/docs
 summary: Continual learning infra for self-improving agents
 first_seen: '2026-08-31T01:39:18Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 - hackernews

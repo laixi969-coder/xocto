@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQTjQzQzJSaVUy
 summary: Nvidia Buybacks Put Shareholder Yield Tech Stocks In Focus simplywall.st
 first_seen: '2026-09-28T15:28:23Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

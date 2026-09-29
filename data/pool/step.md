@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/TahirKamran/Step
 summary: step assistaant
 first_seen: '2026-09-28T17:25:40Z'
 last_seen: '2026-09-29T01:58:04Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -334,3 +334,42 @@
     directly or wire into their own workflow via API, MCP or CLI, removing the step of extracting and
     sourcing from scratch; this is inference from product capability and task structure, with no user
     feedback or retention evidence yet.
+- id: req-initial-onco-2026-09-29
+  project_slug: onco
+  level: initial
+  reviewed_at: '2026-09-29T01:58:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决肿瘤学信息分散、术语门槛高的检索汇总需求，痛点方向成立；但候选材料未给出任何用户任务细节、替代行为或采用证据，价值判断只能停在结构层面。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库的星标与分支数，属于关注度信号，不能说明临床或研究人群已形成使用共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径；公开知识图谱可能靠数据授权或 API 收费，但这是推断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 医学内容的引用可追溯性、更新频率与人工复核边界均未在材料中说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集 OnCo 官方仓库或站点上的条目引用规范、数据更新说明与 issue/discussion 中关于准确性的讨论，以核验其交付确定性。
+  market: ''
+  job: 肿瘤学研究者或临床医生在需要快速了解某个癌种、疗法、靶点或临床试验时，查询公开的肿瘤学知识图谱，获取结构化条目。
+  job_en: An oncology researcher or clinician looks up a public oncology knowledge graph to get structured
+    entries on a cancer type, treatment, target or trial.
+  pain: 肿瘤学信息分散在文献、试验注册库与机构页面中，术语门槛高，人工汇总耗时；但候选材料未给出任何用户抱怨、替代行为或采用证据。
+  pain_en: Oncology information is scattered across papers, trial registries and institution pages with
+    high terminology barriers, so manual synthesis is slow; however the candidate material offers no user
+    complaints, workarounds or adoption evidence.
+  current_alternative: 研究者目前用 PubMed、ClinicalTrials.gov、机构官网或通用聊天助手自行检索与汇总。
+  current_alternative_en: Researchers currently search and synthesize manually via PubMed, ClinicalTrials.gov,
+    institution sites or general chat assistants.
+  usage_reason: 推断：若其条目确实做到逐条引用、先讲机制与解决方案，研究者可省去跨库检索与术语翻译这一步；但候选材料未提供任何用户反馈或使用数据，无法确认这一动作是否被真实采用。
+  usage_reason_en: 'Inference: if entries really are individually cited and lead with mechanism and solution,
+    researchers could skip cross-database searching and terminology translation; but the candidate material
+    provides no user feedback or usage data, so real adoption cannot be confirmed.'

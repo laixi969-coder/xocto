@@ -32,7 +32,7 @@ summary: "To say that we were surprised at the jump and suddenness of the capabi
   \ ,  openai ,  ai ,  llms"
 first_seen: '2026-09-28T19:11:42Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

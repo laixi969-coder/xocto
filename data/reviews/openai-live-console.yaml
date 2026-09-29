@@ -1,0 +1,43 @@
+- id: req-initial-openai-live-console-2026-09-29
+  project_slug: openai-live-console
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决语音受控访问内部系统的问题，但公开材料没有写出具体痛点、旧流程和不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-3a69c4c6bcb5b013
+  - gate: consensus
+    status: insufficient
+    reason: 仓库公开时星标与复刻为 0，仅有 5 个未关闭 issue，没有可归因到该产品的采用或讨论证据。
+    evidence_ids:
+    - ev-3a69c4c6bcb5b013
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；由模型厂商开源，钱可能来自生态或云服务，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3a69c4c6bcb5b013
+  - gate: truth
+    status: insufficient
+    reason: 只读工具加后端委托的边界看似安全，但缺少部署文档与实测，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-3a69c4c6bcb5b013
+  next_validation: 收集该仓库的 README 与部署文档，确认它实际接收什么输入、后端如何执行以及是否有可复现的本地运行示例。
+  market: ''
+  job: 开发者或运维人员在本机通过语音向内部系统下达查询类指令，由只读工具取数、后端执行，完成一次受控的信息获取。
+  job_en: A developer or operator issues spoken query commands to internal systems locally, with read-only
+    tools fetching data and a backend executing, completing one controlled information retrieval.
+  pain: 公开材料只说明它是本地语音控制台且工具只读，没有描述具体痛点、旧流程或用户抱怨，无法确认谁在什么情况下难受。
+  pain_en: The public material only says it is a local voice console with read-only tools; it describes
+    no specific pain, old workflow or user complaint, so who suffers and when cannot be confirmed.
+  current_alternative: 公开材料未给出替代做法，无法确认此前用户是用命令行、图形界面还是其他语音助手完成同类任务。
+  current_alternative_en: The public material gives no alternative, so it is unknown whether users previously
+    did this via command line, a GUI or another voice assistant.
+  usage_reason: 推断：相较直接给模型执行权限，它把动作限制为只读并把执行委托给后端，可能减少权限外溢的顾虑；但缺少使用场景与采用证据，尚不能说明哪类用户会因此选择它。
+  usage_reason_en: 'Inference: compared with granting the model execution rights, it limits actions to
+    read-only and delegates execution to a backend, which may reduce concerns about permission spillover;
+    but without usage scenarios or adoption evidence, it is unclear which users would choose it for that
+    reason.'

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/zweaung/car-truck-other-2
 summary: ''
 first_seen: '2026-09-28T22:52:21Z'
 last_seen: '2026-09-29T01:58:04Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

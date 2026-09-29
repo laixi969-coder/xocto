@@ -1,0 +1,44 @@
+- id: req-initial-aihot-2026-09-29
+  project_slug: aihot
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是每日行业日报的收集与初筛负担，旧做法是人工逐源浏览加排版，痛点具体且重复发生，结构上成立。
+    evidence_ids:
+    - ev-0839ac0dc3b74d83
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，未见编辑或媒体团队的实际采用、评价或案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-0839ac0dc3b74d83
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自自建团队或定制服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0839ac0dc3b74d83
+  - gate: truth
+    status: insufficient
+    reason: 信源替换与筛选标准由使用者自定，交付质量取决于配置，缺少可核对的产出样例与人工确认边界。
+    evidence_ids:
+    - ev-0839ac0dc3b74d83
+  next_validation: 收集该开源仓库的 issue、discussion 或部署文档，确认是否有团队将其用于实际日报生产及产出样例。
+  market: ''
+  job: 行业媒体编辑或企业内容运营者，在每天需要出行业日报时，面对多个信源的大量新内容，要挑出当天值得看的条目并排成可发布的日报。
+  job_en: An industry media editor or corporate content operator who, when producing a daily industry
+    digest, faces large volumes of new items across many sources and must pick the day's worthwhile ones
+    and lay them out as a publishable digest.
+  pain: 人工逐源浏览、判断取舍和排版重复且耗时，漏掉重要条目或标准不统一会直接影响日报的可信度。
+  pain_en: Manually scanning each source, judging what to keep and laying it out is repetitive and slow,
+    and missing key items or applying inconsistent standards directly hurts the digest's credibility.
+  current_alternative: 编辑手动打开各信源、复制链接、凭经验筛选，再用文档或 CMS 排版；或使用通用 RSS 阅读器加人工整理。
+  current_alternative_en: Editors open each source by hand, copy links, filter by experience and lay out
+    in a document or CMS, or use a generic RSS reader plus manual curation.
+  usage_reason: 推断：相较手动逐源浏览，它把抓取与按预设标准筛选合并成一步，编辑只需替换信源和标准即可得到成稿页面，省去重复的收集与初筛；因此缺少专职编辑、又要维持固定日报节奏的小团队会先试它。
+  usage_reason_en: 'Inference: versus manual source-by-source browsing, it merges fetching and criteria-based
+    filtering into one step, so an editor only swaps sources and standards to get a draft page, removing
+    repetitive collection and first-pass screening; small teams without a dedicated editor but needing
+    a steady digest cadence would try it first.'

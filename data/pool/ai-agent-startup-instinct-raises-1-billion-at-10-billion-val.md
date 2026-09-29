@@ -1,6 +1,6 @@
 ---
 slug: ai-agent-startup-instinct-raises-1-billion-at-10-billion-val
-name: AI Agent Startup Instinct Raises $1 Billion at $10 Billion Value
+name: Instinct
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxPazRMTDQ4OVJ0
 summary: AI Agent Startup Instinct Raises $1 Billion at $10 Billion Value Bloomberg.com
 first_seen: '2026-09-28T14:28:38Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Agent Startup Instinct Raises $1 Billion at $10 Billion Value
+# Instinct
 
 AI Agent Startup Instinct Raises $1 Billion at $10 Billion Value Bloomberg.com
 

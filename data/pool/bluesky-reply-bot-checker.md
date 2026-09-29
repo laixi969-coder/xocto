@@ -31,7 +31,7 @@ summary: "Tool:   Bluesky reply bot checker  \n         Automated reply bots on 
   \ posed. \n    \n    \n         Tags:  twitter ,  bluesky ,  vibe-coding ,  ai-misuse"
 first_seen: '2026-09-27T18:41:44Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

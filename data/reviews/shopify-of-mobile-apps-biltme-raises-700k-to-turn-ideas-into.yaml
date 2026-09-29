@@ -1,0 +1,45 @@
+- id: req-initial-shopify-of-mobile-apps-biltme-raises-700k-to-turn-ideas-into-2026-09-29
+  project_slug: shopify-of-mobile-apps-biltme-raises-700k-to-turn-ideas-into
+  level: initial
+  reviewed_at: '2026-09-29T01:58:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决非技术者做移动应用链条长的问题，痛点真实，但公开材料未说明生成范围与交付确定性，价值结构只能算初步成立。
+    evidence_ids:
+    - ev-f3f4e19d6bc15ab1
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资与投资人背书，没有客户案例、使用量或社区讨论，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-f3f4e19d6bc15ab1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅还是 to B 服务费不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f3f4e19d6bc15ab1
+  - gate: truth
+    status: insufficient
+    reason: 生成的应用能否真正上线并产生交易、人工确认边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-f3f4e19d6bc15ab1
+  next_validation: 收集 bilt.me 官方定价页或客户上线案例，确认生成应用的交付范围与付费方式。
+  market: ''
+  job: 非技术创业者或小商户在需要把自己的服务做成一个可下载、可下单的移动应用时，用自然语言描述业务，让平台生成应用与商业化配置，最终拿到可上线的应用。
+  job_en: A non-technical founder or small merchant who needs to turn their service into a downloadable,
+    order-taking mobile app describes the business in natural language, lets the platform generate the
+    app and commercial settings, and ends up with a launchable app.
+  pain: 没有开发团队的人做移动应用要么外包花钱花时间，要么用模板工具拼装，上线后还要自己接支付和运营，链条长且容易卡住。
+  pain_en: People without a development team either pay and wait for outsourcing or assemble template
+    tools, then still have to wire up payments and operations after launch, a long chain that easily stalls.
+  current_alternative: 外包给开发公司、使用无代码/低代码搭建工具，或直接开网店和用现成 SaaS 模板。
+  current_alternative_en: Outsourcing to a development agency, using no-code/low-code builders, or simply
+    opening an online store and using ready-made SaaS templates.
+  usage_reason: 推断：相较外包与模板拼装，它把“描述业务—生成应用—配置商业化”压缩成一次输入，省掉找开发者和逐项配置的环节，因此没有技术团队、又想快速验证移动端生意的人会先试用；但公开材料未显示生成质量、上线成功率或付费意愿。
+  usage_reason_en: 'Inference: compared with outsourcing and template assembly, it compresses describing
+    the business, generating the app and configuring commercialisation into one input, removing the step
+    of finding developers and configuring items one by one, so non-technical people wanting to quickly
+    test a mobile business would try it first; public material shows no generation quality, launch success
+    rate or willingness to pay.'

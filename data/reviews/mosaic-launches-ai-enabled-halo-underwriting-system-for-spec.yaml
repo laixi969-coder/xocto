@@ -85,3 +85,46 @@
   usage_reason_en: 'Inference: if HALO reads submissions directly and produces a rationale-backed underwriting
     recommendation, underwriters could skip manual extraction and first-pass comparison and focus on exceptions
     and pricing; however, no customer usage or outcome data is public, so this causal claim is unproven.'
+- id: req-initial-mosaic-launches-ai-enabled-halo-underwriting-system-for-spec-2026-09-29
+  project_slug: mosaic-launches-ai-enabled-halo-underwriting-system-for-spec
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中小企业险核保逐份人工阅读、判断慢的问题，痛点在单量大、单笔小的险种上刚性，交付为核保结论，结构上成立；买方为保险公司，公开材料未说明。
+    evidence_ids:
+    - ev-c94bdfd1d3621587
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见核保人员评价、客户案例或行业采购动向，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-c94bdfd1d3621587
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按席位还是按承保结果收费，也未说明是自用系统还是对外销售，付费路径不明。
+    evidence_ids:
+    - ev-c94bdfd1d3621587
+  - gate: truth
+    status: insufficient
+    reason: 核保属受监管决策，材料未说明人工复核边界、责任归属与准确率，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-c94bdfd1d3621587
+  next_validation: 收集 Mosaic Insurance 官方关于 Halo 的产品或新闻页，确认其输入资料类型、人工复核边界与是否对外销售。
+  market: ''
+  job: 保险公司核保人员在收到中小企业专业险投保单和风险资料时，需要判断是否承保、按什么条件承保，并给出核保结论。
+  job_en: An insurer's underwriter receives an SME specialty insurance submission and risk documents,
+    must decide whether and on what terms to accept the risk, and issue an underwriting decision.
+  pain: 中小企业投保单数量多、单笔金额小，逐份人工阅读和判断耗时，核保人力难以随业务量线性扩张。
+  pain_en: SME submissions are numerous and small in value, so reading and judging each one manually is
+    slow and underwriting headcount cannot scale linearly with volume.
+  current_alternative: 核保人员手工阅读投保资料、套用核保手册与经验规则，或依赖内部评分表和历史保单记录。
+  current_alternative_en: Underwriters read submissions by hand and apply underwriting manuals, experience-based
+    rules, internal scorecards and historical policy records.
+  usage_reason: 推断：相较人工逐份阅读，Halo 由系统先完成资料解析与风险识别，核保人员只需复核结论，减少的是逐项阅读和初判这一步；对单量大、条款标准的中小企业险种团队更有吸引力。公开材料未披露实际使用与留存数据。
+  usage_reason_en: 'Inference: compared with reading each submission manually, Halo has the system parse
+    documents and identify risk first so underwriters only review the conclusion, removing the line-by-line
+    reading and first-pass judgement step; this appeals to teams handling high-volume, standard-clause
+    SME lines. Public materials disclose no actual usage or retention data.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE02RXpFbTV4OFgt
 summary: 中信建投：AI智能体扩展场景加速商业化应用落地有望拉动算力需求_股市直播_市场 sc.stock.cnfol.com
 first_seen: '2026-09-29T00:03:20Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

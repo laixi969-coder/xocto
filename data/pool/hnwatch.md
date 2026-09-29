@@ -21,7 +21,7 @@ canonical_url: https://hn.watch
 summary: Videos of all Hacker News posts
 first_seen: '2026-09-28T15:16:13Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

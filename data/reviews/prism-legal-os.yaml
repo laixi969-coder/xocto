@@ -1,0 +1,45 @@
+- id: req-initial-prism-legal-os-2026-09-29
+  project_slug: prism-legal-os
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决合同审阅与法律检索的任务，但公开材料没有说明原来谁在做、花多久、不做的后果，痛点与旧流程都缺失，价值无法成立。
+    evidence_ids:
+    - ev-aa5c6f1c154555c4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 252 颗星、1 次分叉、0 个未关闭议题，属于关注度信号，没有用户评价、采用或场景证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-aa5c6f1c154555c4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或付费路径，无法判断钱来自 to C、to B、to G 还是 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-aa5c6f1c154555c4
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近法律工作的第一性目标、承诺能否确定性交付，也没有人工复核边界与安全说明。
+    evidence_ids:
+    - ev-aa5c6f1c154555c4
+  next_validation: 收集该项目的官方文档或仓库 README，确认合同分析的输入格式、输出交付物与人工复核环节。
+  market: ''
+  job: 律所律师或企业法务在审阅合同、做法律检索或准备诉讼材料时，处理合同文本与检索问题，要产出条款分析、检索结果或诉讼要点草稿。
+  job_en: Lawyers at firms or in-house counsel reviewing contracts, doing legal research or preparing
+    litigation materials handle contract text and research questions to produce clause analysis, search
+    results or draft litigation points.
+  pain: 公开材料只给出合同分析、法律检索、诉讼三个方向，没有说明原来由谁、用什么方式、花多久完成，也没有用户抱怨或替代行为的记录，痛点强度无法判断。
+  pain_en: Public materials only list contract analysis, legal research and litigation as directions,
+    without saying who did this before, with what tools or how long it took, and with no user complaints
+    or workaround records, so pain intensity cannot be judged.
+  current_alternative: 公开材料未说明现有替代方式，按常识推断可能是人工审阅、通用检索工具或商业法律数据库，但这一推断没有材料支持。
+  current_alternative_en: Public materials do not state the current alternative; by common sense it might
+    be manual review, generic search tools or commercial legal databases, but this inference is unsupported
+    by the materials.
+  usage_reason: 无法判断：材料没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，也没有用户反馈或客户案例，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the materials do not say which step of burden it removes versus
+    the old approach or which verifiable result it improves, and there is no user feedback or customer
+    case, so it cannot explain which users would choose it and when.'

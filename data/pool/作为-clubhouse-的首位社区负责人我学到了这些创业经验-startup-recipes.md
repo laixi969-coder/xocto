@@ -42,7 +42,7 @@ summary: 本文首发于 Founder Park 公众号 · 2022 年 10 月 21 日   Club
   建立相关的技能；    2. 直接冲向自己的目标；    3. 跟踪自己的进度；    4. 定期缩小范围，以便思考全局；    5. 找到志同道合的那群人。    我的建议是：无论想做什么，全心全意地去做！     原文链接：https://anu.substack.com/p/what-i-learned-at-clubhouse-    转载原创文章请添加微信：geekparker
 first_seen: '2026-09-29T01:34:57Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

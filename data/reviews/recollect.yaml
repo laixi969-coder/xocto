@@ -1,0 +1,45 @@
+- id: req-initial-recollect-2026-09-29
+  project_slug: recollect
+  level: initial
+  reviewed_at: '2026-09-29T01:58:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理跨会话、跨仓库丢失上下文的问题，痛点是重复交代背景与遗漏约束，旧做法是手工复制或写规则文件，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-a67443d283153471
+  - gate: consensus
+    status: insufficient
+    reason: 公开时约40个星标、0个fork、0个未决issue，只有少量关注，没有用户评价或采用案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a67443d283153471
+  - gate: model
+    status: insufficient
+    reason: 自托管开源项目，未见定价页、付费用户或商业主体，钱可能来自企业私有部署或支持服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a67443d283153471
+  - gate: truth
+    status: insufficient
+    reason: 检索准确率、是否引入错误上下文、以及人工复核边界均无公开材料，交付确定性尚未核验。
+    evidence_ids:
+    - ev-a67443d283153471
+  next_validation: 收集该仓库的issue与discussion，查看是否有开发者报告实际接入后的检索准确率或误召回问题。
+  market: ''
+  job: 软件工程师在同时维护多个代码仓库、并反复用Codex或Claude Code处理同一项目的不同任务时，需要把项目约定、历史决策和先前结论重新整理成提示，让代理接着上次的进度继续改代码。
+  job_en: Software engineers maintaining several repositories and repeatedly using Codex or Claude Code
+    for different tasks in the same project must reassemble project conventions, past decisions and earlier
+    conclusions into prompts so the agent can continue from where it left off.
+  pain: 代理会话结束后上下文即丢失，跨仓库的约定和结论无法自动带入下一次任务，开发者只能手工复制粘贴或重新解释，重复劳动且容易遗漏关键约束。
+  pain_en: Context is lost when an agent session ends, and cross-repository conventions and conclusions
+    are not carried into the next task, forcing developers to copy-paste or re-explain manually, which
+    is repetitive and easily drops key constraints.
+  current_alternative: 目前常见做法是手工维护提示模板、把说明写进仓库内的文档或规则文件，或依赖代理自带的会话记忆功能。
+  current_alternative_en: Common practice today is hand-maintained prompt templates, notes written into
+    in-repo docs or rule files, or relying on the agent's own session memory.
+  usage_reason: 推断：相较手工复制粘贴，它把仓库与会话内容自动抽取成可检索的记忆并在需要时回填给代理，省去每次重新交代背景这一步；对同时维护多个仓库、且对代码外泄敏感的开发者更有吸引力。是否真正减少返工尚无公开数据。
+  usage_reason_en: 'Inference: compared with manual copy-paste, it automatically extracts repository and
+    session content into searchable memory and feeds it back to the agent, removing the step of re-explaining
+    background each time; this appeals to developers maintaining several repositories who are sensitive
+    to code leakage. Whether it actually reduces rework is not publicly documented.'

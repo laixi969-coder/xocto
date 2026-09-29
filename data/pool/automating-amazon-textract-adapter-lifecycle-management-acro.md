@@ -1,6 +1,6 @@
 ---
 slug: automating-amazon-textract-adapter-lifecycle-management-acro
-name: Automating Amazon Textract adapter lifecycle management across accounts
+name: Amazon Textract
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: 'Learn how to operationalize Amazon Textract Custom Queries adapters fo
   encryption, and least-privilege IAM.'
 first_seen: '2026-09-28T15:49:04Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Automating Amazon Textract adapter lifecycle management across accounts
+# Amazon Textract
 
 Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion process, a pre-classification routing pattern for multiple form versions, and production security controls such as VPC endpoints, encryption, and least-privilege IAM.
 

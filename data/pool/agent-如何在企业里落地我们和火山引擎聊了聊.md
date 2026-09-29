@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SZm15SURJdXRV
 summary: Agent 如何在企业里落地？我们和火山引擎聊了聊 极客公园
 first_seen: '2026-09-28T13:13:59Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

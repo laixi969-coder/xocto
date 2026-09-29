@@ -3,10 +3,11 @@ slug: target-expands-ai-shopping-features-with-photo-search-review
 name: Target
 builder: koolba
 category: ''
-summary_zh: Target 在其自有购物应用中加入拍照搜索、评论要点提炼和个性化复购，属于大型零售商把 AI 嵌入既有购物链路，不是独立产品。
+summary_zh: 这是大型零售商在自有购物 App 内新增的 AI 能力，不是独立产品；候选材料只给出功能名称，具体识别准确率、覆盖品类与转化结果均未披露，因此仅作市场背景。
 inspiration: ''
-summary_en: Target added photo search, review summarisation and personalised reordering into its own shopping
-  app, an incumbent retailer embedding AI into an existing flow rather than a standalone product.
+summary_en: This is an AI capability added inside a large retailer's own shopping app rather than a standalone
+  product; the material only names the features and discloses no accuracy, category coverage or conversion
+  results, so it is treated as market context only.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ summary: Target Expands AI Shopping Features With Photo Search, Review Insights 
   Pulse 2.0
 first_seen: '2026-09-10T20:26:17Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - hackernews

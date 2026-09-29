@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQVDEycDduNzBt
 summary: 14-Person AI Startup Lands Stunning $10 Billion Valuation TradingView
 first_seen: '2026-09-28T20:40:51Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

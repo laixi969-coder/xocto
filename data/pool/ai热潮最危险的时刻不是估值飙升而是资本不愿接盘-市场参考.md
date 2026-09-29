@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE8welpYbDhpeHFp
 summary: AI热潮最危险的时刻，不是估值飙升，而是资本不愿接盘-市场参考 金十数据
 first_seen: '2026-09-28T13:15:57Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

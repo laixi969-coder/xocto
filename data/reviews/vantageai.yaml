@@ -1,0 +1,43 @@
+- id: req-initial-vantageai-2026-09-29
+  project_slug: vantageai
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是智能体改动不可见、不可控的问题，痛点方向成立，但公开材料只有一句定位，说不清具体动作与交付，价值结构无法确认。
+    evidence_ids:
+    - ev-6a167ab6665f23d6
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页外没有用户反馈、社区讨论或采用迹象，无法判断是否有人真的把它放进工作流。
+    evidence_ids:
+    - ev-6a167ab6665f23d6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，to B 还是 to C 只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-6a167ab6665f23d6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近编码工作的第一性目标、控制动作能否确定性交付，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-6a167ab6665f23d6
+  next_validation: 收集 vantage.ai 官方定价页或产品文档，确认它具体拦截、审批或回滚哪些智能体动作以及交付形态。
+  market: ''
+  job: 软件工程师在让编码智能体自动修改代码库时，需要查看智能体执行了哪些动作并对其加以控制，以免改动失控。
+  job_en: Software engineers, while letting a coding agent modify a codebase automatically, need to see
+    which actions the agent performed and control them so changes do not run out of hand.
+  pain: 智能体自主执行多步改动后，工程师难以确认它改了什么、为什么改，出问题时排查和回退成本高。
+  pain_en: After an agent performs multi-step changes autonomously, engineers struggle to confirm what
+    it changed and why, and diagnosing or reverting problems is costly.
+  current_alternative: 目前多靠人工阅读 diff、查看终端日志或依赖智能体自带的会话记录来事后核对。
+  current_alternative_en: Today this is mostly done by manually reading diffs, checking terminal logs,
+    or relying on the agent's own session history after the fact.
+  usage_reason: 推断：若它能把智能体的动作实时呈现并提供拦截或审批，工程师就不必事后逐条翻日志，在改动风险高的仓库里更可能选择它；但公开材料未说明具体动作与交付，无法确认这一因果。
+  usage_reason_en: 'Inference: if it surfaces agent actions in real time and offers interception or approval,
+    engineers would not have to read logs line by line afterwards, making it more likely to be chosen
+    in high-risk repositories; however, public material does not describe the concrete actions or deliverable,
+    so this causal link cannot be confirmed.'

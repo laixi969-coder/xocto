@@ -1,0 +1,44 @@
+- id: req-initial-minimax-h3-360-orbit-lora-2026-09-29
+  project_slug: minimax-h3-360-orbit-lora
+  level: initial
+  reviewed_at: '2026-09-29T01:58:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是只有静态照片却需要环绕展示镜头的需求，痛点是实拍与建模成本高，旧行为明确存在。
+    evidence_ids:
+    - ev-2bd9c89c7e0c51f0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区点赞，未见创作者对生成质量或工作流替代的持续讨论。
+    evidence_ids:
+    - ev-2bd9c89c7e0c51f0
+  - gate: model
+    status: insufficient
+    reason: 开源组件本身无定价，谁付钱取决于下游集成方，公开材料未显示任何商业交付路径，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-2bd9c89c7e0c51f0
+  - gate: truth
+    status: insufficient
+    reason: 生成片段的畸变程度、可用时长与许可条款均未披露，无法核对能否直接用于商用展示。
+    evidence_ids:
+    - ev-2bd9c89c7e0c51f0
+  next_validation: 收集该 Space 的模型卡与许可说明，确认输入输出规格、可商用范围与已知失败案例。
+  market: ''
+  job: 房产经纪、电商运营或广告制作人员在只有一张静态照片、却需要环绕视角展示素材时，把照片输入模型生成环绕视频，再自行修正畸变并剪辑成可上架素材。
+  job_en: Real-estate agents, e-commerce operators or ad producers who have only a still photo but need
+    an orbiting showcase shot feed the photo into the model to generate an orbit clip, then correct distortion
+    and edit it into a publishable asset.
+  pain: 要拿到环绕镜头通常得实拍、租转台或做三维建模，单件成本高、周期长，小商家基本做不起。
+  pain_en: Getting an orbit shot normally requires shooting, a turntable or 3D modelling, which is costly
+    and slow per item and out of reach for small merchants.
+  current_alternative: 实拍多角度照片、租用转台设备，或委托三维建模与渲染。
+  current_alternative_en: Shooting multi-angle photos, renting turntable rigs, or commissioning 3D modelling
+    and rendering.
+  usage_reason: 推断：相比实拍或建模，它把“先搭场景再拍”压缩成“给一张照片出环绕片段”，省掉设备与建模环节，因此只有手机照片的小型房产与电商卖家会先试用；但公开材料未显示留存或商用案例。
+  usage_reason_en: 'Inference: versus shooting or modelling, it compresses ''build a set then shoot''
+    into ''one photo in, orbit clip out'', removing rig and modelling steps, so small property and e-commerce
+    sellers with only phone photos will try it first; public material shows no retention or commercial
+    cases.'

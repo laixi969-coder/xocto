@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/pip-9
 summary: AI buddy on your computer
 first_seen: '2026-09-27T16:48:56Z'
 last_seen: '2026-09-29T01:57:43Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -23,7 +23,7 @@ summary: Thousands of applications. Multiple rounds of review. Hundreds of hours
   2026 today.
 first_seen: '2026-09-28T14:30:00Z'
 last_seen: '2026-09-29T01:58:05Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

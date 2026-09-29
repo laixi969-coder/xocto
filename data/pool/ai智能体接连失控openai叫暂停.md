@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBWN3BiQklKM0tr
 summary: AI智能体接连失控，OpenAI叫暂停 新浪新闻_手机新浪网
 first_seen: '2026-09-28T05:15:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-omnesis-2026-09-29
+  project_slug: omnesis
+  level: initial
+  reviewed_at: '2026-09-29T01:57:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决让 agent 基于私有资料作答的需求，但公开材料未写出具体用户任务、痛点与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-5cdd11f9bb67c4c5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无采用、评价或场景证据，无法判断卡在感知、想象、场景还是利益。
+    evidence_ids:
+    - ev-5cdd11f9bb67c4c5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，to C、to B 还是 to VC 均无法判断，属未知而非已验证。
+    evidence_ids:
+    - ev-5cdd11f9bb67c4c5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标、承诺能否确定性交付，以及资料接入后的回答质量与安全边界。
+    evidence_ids:
+    - ev-5cdd11f9bb67c4c5
+  next_validation: 收集 Omnesis 官方文档或定价页，确认它接入哪些资料源、以何种方式向 agent 交付检索结果，以及是否披露任何客户案例或付费方式。
+  market: ''
+  job: 尚未明确：公开材料未说明具体是谁、在什么工作节点、处理哪类材料、要完成什么任务，只能推断为需要让 agent 基于私有资料作答的用户。
+  job_en: 'Not yet clear: public material does not state who, at which work step, handling which material,
+    to complete which task; it can only be inferred as users who need an agent to answer from private
+    documents.'
+  pain: 公开材料未描述任何具体痛点，只能推断为通用模型不了解用户私有资料、回答无法直接使用。
+  pain_en: Public material describes no specific pain; it can only be inferred as general models not knowing
+    the user's private documents, making answers unusable as-is.
+  current_alternative: 公开材料未说明现有替代方式；常见旧做法推断为手动把资料粘贴进对话，或使用已有的检索与知识库工具。
+  current_alternative_en: Public material does not state current alternatives; the common old practice
+    is inferred to be pasting documents into the chat manually, or using existing retrieval and knowledge-base
+    tools.
+  usage_reason: 无法判断：材料只给出一句定位，未说明它相较手动粘贴或已有知识库工具减少了哪一步负担、改善了哪项可核对结果，因此缺少用户选择它的因果依据。
+  usage_reason_en: 'Cannot be judged: the material gives only one line of positioning and does not say
+    which step it removes versus manual pasting or existing knowledge-base tools, or which verifiable
+    result it improves, so the causal reason a user would choose it is missing.'

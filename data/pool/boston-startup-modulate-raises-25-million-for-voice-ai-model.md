@@ -1,6 +1,6 @@
 ---
 slug: boston-startup-modulate-raises-25-million-for-voice-ai-model
-name: Boston startup Modulate raises $25 million for voice AI models — TechCrunch
+name: Modulate
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPTE9fMndaVTJq
 summary: Boston startup Modulate raises $25 million for voice AI models — TechCrunch ua.news
 first_seen: '2026-09-28T14:23:34Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Boston startup Modulate raises $25 million for voice AI models — TechCrunch
+# Modulate
 
 Boston startup Modulate raises $25 million for voice AI models — TechCrunch ua.news
 

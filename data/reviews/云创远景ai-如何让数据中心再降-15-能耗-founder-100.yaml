@@ -1,0 +1,46 @@
+- id: req-initial-云创远景ai-如何让数据中心再降-15-能耗-founder-100-2026-09-29
+  project_slug: 云创远景ai-如何让数据中心再降-15-能耗-founder-100
+  level: initial
+  reviewed_at: '2026-09-29T01:58:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决运行中持续节能的需求，痛点是电费与碳排压力下人工调节低效，且已有英特尔订单与商业客户增多的公开事实支撑。
+    evidence_ids:
+    - ev-40c18d32d7ca6210
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只提到拿下英特尔订单后商业客户增多，未给出客户数量、部署规模或持续采用数据。
+    evidence_ids:
+    - ev-40c18d32d7ca6210
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，买方可能是数据中心与商业地产运营方，属推断，尚无已验证付费路径。
+    evidence_ids:
+    - ev-40c18d32d7ca6210
+  - gate: truth
+    status: insufficient
+    reason: 节能15%到20%为受访者自述，缺少第三方核验的交付结果与安全边界说明。
+    evidence_ids:
+    - ev-40c18d32d7ca6210
+  next_validation: 收集云创远景官方客户案例或部署文档，核验其节能交付结果与收费方式。
+  market: ''
+  job: 数据中心、大型超市或写字楼的能源与设施运维人员，在既有制冷和节能设备已运行的情况下，处理实时能耗与设备运行数据，要持续压低电费与碳排并减少人工巡检调节。
+  job_en: Energy and facility operations staff at data centers, large supermarkets or office buildings,
+    with existing cooling and efficiency equipment already running, handle real-time energy and equipment
+    data to keep cutting power cost and carbon emissions while reducing manual inspection and adjustment.
+  pain: 既有节能手段多是一次性改造，运行中仍存在能耗浪费；人工调节依赖经验、响应慢，且难以持续优化，电费与碳排指标压力长期存在。
+  pain_en: Existing efficiency measures are mostly one-off retrofits, so waste persists in operation;
+    manual adjustment relies on experience, responds slowly and is hard to sustain, while power-cost and
+    carbon targets keep pressing.
+  current_alternative: 由运维人员凭经验手工调节设备参数，或依赖水冷、液冷、自然冷源等一次性工程改造，缺少持续运行的自动优化环节。
+  current_alternative_en: Operations staff manually tune equipment parameters by experience, or rely on
+    one-off engineering measures such as water cooling, liquid cooling and free cooling, with no continuously
+    running automatic optimization step.
+  usage_reason: 推断：相较人工调参和一次性改造，该系统持续读取能耗数据并自动调整用能策略，把反复巡检和试调这一步交给机器，运维方因此可能获得可核对的节能量并减少人力投入；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: versus manual tuning and one-off retrofits, the system continuously reads
+    energy data and adjusts strategy automatically, handing the repeated inspection and trial-adjustment
+    step to the machine, so operators may get verifiable savings with less labor; public materials give
+    no retention or repeat-purchase evidence.'

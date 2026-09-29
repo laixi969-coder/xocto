@@ -22,7 +22,7 @@ summary: AI Chip Startup DensityAI in Talks to Raise Hundreds of Millions of Dol
   marketscreener.com
 first_seen: '2026-09-28T09:25:53Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
