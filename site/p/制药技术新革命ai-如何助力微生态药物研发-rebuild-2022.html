@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>未知君 · x-octo</title>
+<meta name="description" content="未知君面向肠道微生物药物研发团队，在候选材料描述的流程中，研发人员把微生物组与药物管线相关数据交给其 AI + BT 研发模式处理，用于筛选和推进粪菌移植等药物管线，最终交付的是进入临床研发阶段的候选药物管线；具体 AI 接收哪些数据、执行哪些步骤、人工如何复核，候选材料未给出细节，仍待核验。">
+<link rel="canonical" href="https://xocto.vercel.app/p/制药技术新革命ai-如何助力微生态药物研发-rebuild-2022.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/制药技术新革命ai-如何助力微生态药物研发-rebuild-2022.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/制药技术新革命ai-如何助力微生态药物研发-rebuild-2022.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/制药技术新革命ai-如何助力微生态药物研发-rebuild-2022.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="未知君 · x-octo">
+<meta property="og:description" content="未知君面向肠道微生物药物研发团队，在候选材料描述的流程中，研发人员把微生物组与药物管线相关数据交给其 AI + BT 研发模式处理，用于筛选和推进粪菌移植等药物管线，最终交付的是进入临床研发阶段的候选药物管线；具体 AI 接收哪些数据、执行哪些步骤、人工如何复核，候选材料未给出细节，仍待核验。">
+<meta property="og:url" content="https://xocto.vercel.app/p/制药技术新革命ai-如何助力微生态药物研发-rebuild-2022.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/\u5236\u836f\u6280\u672f\u65b0\u9769\u547dai-\u5982\u4f55\u52a9\u529b\u5fae\u751f\u6001\u836f\u7269\u7814\u53d1-rebuild-2022.html#webpage", "@type": "WebPage", "description": "\u672a\u77e5\u541b\u9762\u5411\u80a0\u9053\u5fae\u751f\u7269\u836f\u7269\u7814\u53d1\u56e2\u961f\uff0c\u5728\u5019\u9009\u6750\u6599\u63cf\u8ff0\u7684\u6d41\u7a0b\u4e2d\uff0c\u7814\u53d1\u4eba\u5458\u628a\u5fae\u751f\u7269\u7ec4\u4e0e\u836f\u7269\u7ba1\u7ebf\u76f8\u5173\u6570\u636e\u4ea4\u7ed9\u5176 AI + BT \u7814\u53d1\u6a21\u5f0f\u5904\u7406\uff0c\u7528\u4e8e\u7b5b\u9009\u548c\u63a8\u8fdb\u7caa\u83cc\u79fb\u690d\u7b49\u836f\u7269\u7ba1\u7ebf\uff0c\u6700\u7ec8\u4ea4\u4ed8\u7684\u662f\u8fdb\u5165\u4e34\u5e8a\u7814\u53d1\u9636\u6bb5\u7684\u5019\u9009\u836f\u7269\u7ba1\u7ebf\uff1b\u5177\u4f53 AI \u63a5\u6536\u54ea\u4e9b\u6570\u636e\u3001\u6267\u884c\u54ea\u4e9b\u6b65\u9aa4\u3001\u4eba\u5de5\u5982\u4f55\u590d\u6838\uff0c\u5019\u9009\u6750\u6599\u672a\u7ed9\u51fa\u7ec6\u8282\uff0c\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "\u672a\u77e5\u541b", "url": "https://xocto.vercel.app/p/\u5236\u836f\u6280\u672f\u65b0\u9769\u547dai-\u5982\u4f55\u52a9\u529b\u5fae\u751f\u6001\u836f\u7269\u7814\u53d1-rebuild-2022.html"}, {"@id": "https://xocto.vercel.app/p/\u5236\u836f\u6280\u672f\u65b0\u9769\u547dai-\u5982\u4f55\u52a9\u529b\u5fae\u751f\u6001\u836f\u7269\u7814\u53d1-rebuild-2022.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-29", "datePublished": "2026-09-29", "description": "\u672a\u77e5\u541b\u9762\u5411\u80a0\u9053\u5fae\u751f\u7269\u836f\u7269\u7814\u53d1\u56e2\u961f\uff0c\u5728\u5019\u9009\u6750\u6599\u63cf\u8ff0\u7684\u6d41\u7a0b\u4e2d\uff0c\u7814\u53d1\u4eba\u5458\u628a\u5fae\u751f\u7269\u7ec4\u4e0e\u836f\u7269\u7ba1\u7ebf\u76f8\u5173\u6570\u636e\u4ea4\u7ed9\u5176 AI + BT \u7814\u53d1\u6a21\u5f0f\u5904\u7406\uff0c\u7528\u4e8e\u7b5b\u9009\u548c\u63a8\u8fdb\u7caa\u83cc\u79fb\u690d\u7b49\u836f\u7269\u7ba1\u7ebf\uff0c\u6700\u7ec8\u4ea4\u4ed8\u7684\u662f\u8fdb\u5165\u4e34\u5e8a\u7814\u53d1\u9636\u6bb5\u7684\u5019\u9009\u836f\u7269\u7ba1\u7ebf\uff1b\u5177\u4f53 AI \u63a5\u6536\u54ea\u4e9b\u6570\u636e\u3001\u6267\u884c\u54ea\u4e9b\u6b65\u9aa4\u3001\u4eba\u5de5\u5982\u4f55\u590d\u6838\uff0c\u5019\u9009\u6750\u6599\u672a\u7ed9\u51fa\u7ec6\u8282\uff0c\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/\u5236\u836f\u6280\u672f\u65b0\u9769\u547dai-\u5982\u4f55\u52a9\u529b\u5fae\u751f\u6001\u836f\u7269\u7814\u53d1-rebuild-2022.html#webpage"}, "name": "\u672a\u77e5\u541b", "sameAs": "http://www.geekpark.net/news/371409", "url": "https://xocto.vercel.app/p/\u5236\u836f\u6280\u672f\u65b0\u9769\u547dai-\u5982\u4f55\u52a9\u529b\u5fae\u751f\u6001\u836f\u7269\u7814\u53d1-rebuild-2022.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/\u5236\u836f\u6280\u672f\u65b0\u9769\u547dai-\u5982\u4f55\u52a9\u529b\u5fae\u751f\u6001\u836f\u7269\u7814\u53d1-rebuild-2022.html", "name": "\u672a\u77e5\u541b", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/制药技术新革命ai-如何助力微生态药物研发-rebuild-2022.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">AI 应用的生意判断</p>
+      <div class="product-title-row">
+        <h1>未知君</h1>
+      </div>
+      <p class="product-lede">未知君面向肠道微生物药物研发团队，在候选材料描述的流程中，研发人员把微生物组与药物管线相关数据交给其 AI + BT 研发模式处理，用于筛选和推进粪菌移植等药物管线，最终交付的是进入临床研发阶段的候选药物管线；具体 AI 接收哪些数据、执行哪些步骤、人工如何复核，候选材料未给出细节，仍待核验。</p>
+      <div class="meta product-meta">
+<span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
+<span class="tag">AI 改造</span><span class="tag">基础层</span><span class="tag">制药</span><span class="tag">生物技术</span><span class="tag">医疗健康</span><span class="tag">药物研发</span><span class="tag">临床试验管理</span><span class="tag">生物信息分析</span><span class="tag">中国</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>本站首次收录</dt><dd class="num">2026-09-29</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-29</dd></div>
+      <div><dt>产品官网</dt><dd><a href="http://www.geekpark.net/news/371409" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>它为什么会被需要</h2>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-09-29</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">使用场景</span>
+        <p class="product-lead">微生物制药企业的研发人员在推进粪菌移植等药物管线时，需要处理微生物组与临床前数据，筛选并推进候选药物进入临床研发阶段。</p>
+        <p>旧做法是研发团队依靠人工实验与经验判断筛选候选药物，并逐项准备 IND 等临床申报材料。</p>
+        <p>候选材料显示微生态制药长期停留在研究阶段，候选药物筛选与临床推进周期长、失败率高，人工整理和判断微生物组数据的负担重。</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>需求有依据</h3>
+        <p>趋势是微生态制药从实验室走向临床与商业化，AI 被用来压缩候选药物筛选环节；切入可考虑为微生物组药企提供数据整理与候选筛选的垂直工具，或围绕临床前数据合规交付做服务，但该方向资本与临床门槛高，公开材料未披露定价与付费路径。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">使用理由</span>
+        <h3>为什么用户会选择它</h3>
+        <p>推断：若其 AI 能先对微生物组与管线数据做筛选排序，研发人员可减少在候选药物初筛上的手工比对，把精力放到少数候选的验证与申报上，因此处于临床前筛选阶段的微生物制药团队会考虑使用；候选材料未给出具体动作与可核对结果，也未提供留存或复购证据。</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>收集未知君官方管线页面或 FDA 临床试验登记信息，核验 XBI-302 等管线的最新临床阶段与 AI 在其中的具体作用。</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>值得试用</strong>。推断：若其 AI 能先对微生物组与管线数据做筛选排序，研发人员可减少在候选药物初筛上的手工比对，把精力放到少数候选的验证与申报上，因此处于临床前筛选阶段的微生物制药团队会考虑使用；候选材料未给出具体动作与可核对结果，也未提供留存或复购证据。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>趋势是微生态制药从实验室走向临床与商业化，AI 被用来压缩候选药物筛选环节；切入可考虑为微生物组药企提供数据整理与候选筛选的垂直工具，或围绕临床前数据合规交付做服务，但该方向资本与临床门槛高，公开材料未披露定价与付费路径。</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">公开事实</span><p>它解决微生物制药研发中候选药物筛选与临床推进的负担，痛点刚性且旧行为明确，但候选材料未说明 AI 具体动作与交付细节。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若其 AI 能先对微生物组与管线数据做筛选排序，研发人员可减少在候选药物初筛上的手工比对，把精力放到少数候选的验证与申报上，因此处于临床前筛选阶段的微生物制药团队会考虑使用；候选材料未给出具体动作与可核对结果，也未提供留存或复购证据。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集未知君官方管线页面或 FDA 临床试验登记信息，核验 XBI-302 等管线的最新临床阶段与 AI 在其中的具体作用。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>它解决微生物制药研发中候选药物筛选与临床推进的负担，痛点刚性且旧行为明确，但候选材料未说明 AI 具体动作与交付细节。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/371409" target="_blank" rel="noopener">制药技术新革命，AI 如何助力微生态药物研发？ | Rebuild 2022 · 2026-09-29 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>材料只提到融资与管线进展，没有客户采用、合作方或研发人员使用反馈，无法判断共识是否形成。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/371409" target="_blank" rel="noopener">制药技术新革命，AI 如何助力微生态药物研发？ | Rebuild 2022 · 2026-09-29 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>未披露定价、付费方或按结果收费方式，买方可能是药企或投资方，这是判断而非已验证事实。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/371409" target="_blank" rel="noopener">制药技术新革命，AI 如何助力微生态药物研发？ | Rebuild 2022 · 2026-09-29 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>药物研发贴近第一性目标，但候选材料未说明 AI 输出的确定性、人工复核边界与安全合规流程。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/371409" target="_blank" rel="noopener">制药技术新革命，AI 如何助力微生态药物研发？ | Rebuild 2022 · 2026-09-29 ↗</a>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>中英文生态与跨国机会</h2>
+        <p class="note">市场对照</p>
+      </div>
+    </div>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-29。未发现仅限该覆盖范围。 · 2026-09-29</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-29。未发现仅限该覆盖范围。 · 2026-09-29</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析尚未完成，可先阅读上方的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/deepseek-harness.html">deepseek-harness</a>、        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>      </p>
+    </div>
+  </section>
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">perplexity.ai</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://en.m.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.m.wikipedia.org</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">deepai.org</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://deepai.org/chat" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">deepai.org</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="http://www.geekpark.net/news/371409" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">制药技术新革命，AI 如何助力微生态药物研发？ | Rebuild 2022</span>
+        <span class="row-desc">market_signal · 本文首发于 Founder Park 公众号 · 2022 年 10 月 20 日 今年 9 月 22 日，辉凌制药（Ferring Pharmaceuticals）宣布旗下药物 RBX2660 的疗效和安全性已经获得美国 FDA 咨询委员会的高票赞同，距离获批上市越来越近。 微生物制药领域即将进入商业化阶段。 从 2007 年美国启动人类微生物组计划开始，微生态医药以及微生物相关技术的发展就进入了加速阶段。在政策的推动下，Evelo、Finch、Seres、Rebiotix 等一大批微生物制药明星企业涌现出来。据不完全统计，全球微生态制药公司已经超过了 50 家，其中有 30 余家已经累计吸金超过 30 亿美元，辉瑞、罗氏、强生 等 跨国制药巨头也纷纷布局微生态制药赛道。 国内的微生态制药行业处于快速起步的阶段，在去年 12 月刚完成 1 亿美元 B 轮系列融资的未知君 就是其中的代表公司，其药物研发思路是 AI + BT（生物科技）模式。未知君专注于肠道微生物治疗 AI 制药研发，研发的粪菌移植药物 XBI-302 已经获得 FDA 临床试验的 IND 批准，目前已有四条药物管线进入临床研发阶段。 微生物治疗相比传统治疗优势在哪里？AI 是如何助力微生态药物研发的？以及，在微生态药物研发赛道，国内企业的优势又在哪里？ 9 月 30 日，在极客公园的 Rebuild 2022，极客公园创始人 &amp; 总裁 张鹏和未知君联合创始人 &amp; CEO 谭验一起，聊了聊国内微生态制药的现状及商业发展前景。 谭验做客极客公园的「Rebuild」栏目 | 来源：直播截图 01 微生物治疗相比传统治疗 更安全、更长效 张鹏：肠道微生物和人的身体健康以及疾病之间，有哪些关联？ 谭验 ：300 多年前，列文虎克发明显微镜，第一次在显微镜下发现微生物。后来人类发现了抗生素，第一次发现可以杀死病原的微生物，这是人类历史上非常大的一次进步。抗生素出现后，人类寿命有了非常大的延长。几十年前，一些肿瘤病人在感染病原菌之后，肿瘤会缩小，那时不知道原理，后来才发现是因为感染了微生物、病原菌，免疫系统激活之后，会杀死肿瘤细胞。这一发现也为我们带来了如今的免疫治疗。 2007</span>
+        <span class="row-tail">2026-09-29</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>从产品名直接追到一手材料</h2>
+        <p class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22%E6%9C%AA%E7%9F%A5%E5%90%9B%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">官网与文档</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22%E6%9C%AA%E7%9F%A5%E5%90%9B%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">定价与套餐</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22%E6%9C%AA%E7%9F%A5%E5%90%9B%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">用户评价与抱怨</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22%E6%9C%AA%E7%9F%A5%E5%90%9B%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">客户案例与结果</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22%E6%9C%AA%E7%9F%A5%E5%90%9B%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">替代品与对比</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="继续浏览">
+    <div class="sec-head desk-sec">
+      <div><h2>同类产品</h2></div>
+      <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
+        基础层 共 267 个 →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head desk-row">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek 把助手的工具、记忆、界面拆成可替换插件，在自己电脑上跑</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/open-kimi-ppt-skill.html">
+          <div class="row-head desk-row">
+            <span class="row-name">open-kimi-ppt-skill</span>
+            <span class="row-desc">曾让助手直接产出能继续改的演示文稿，后因版权整库被清空。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/longhorizon-harness.html">
+          <div class="row-head desk-row">
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 AI 连续操作电脑几小时，进展写在可核对的账本上，不信它自己说做完了</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/numbat.html">
+          <div class="row-head desk-row">
+            <span class="row-name">numbat</span>
+            <span class="row-desc">公司电脑上的助手干了什么能看清，必要时拦住，事后还能把全过程还原。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/创新奇智工业智能体平台升级.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">创新奇智</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/前字节强化学习专家孙鹏博士加盟星尘智能完善physical-ai全栈技术布局.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">星尘智能</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>2139 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-09-29</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>
