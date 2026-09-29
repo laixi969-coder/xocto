@@ -1,0 +1,14 @@
+- id: ev-84ec688c7d16f070
+  project_slug: faster-rates-for-federated-variational-inequalities
+  url: https://machinelearning.apple.com/research/federated-variational-inequalities
+  title: Faster Rates for Federated Variational Inequalities
+  published_at: '2026-09-28T00:00:00Z'
+  collected_at: '2026-09-29T01:58:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: In this paper, we study federated optimization for solving stochastic variational inequalities
+    (VIs), a problem that has attracted growing attention in recent years. Despite substantial progress,
+    a significant gap remains between existing convergence rates and the state-of-the-art bounds known
+    for federated convex optimization. In this work, we address this limitation by establishing a series
+    of improved convergence rates. First, we show that, for general smooth and monotone variational inequalities,
+    the classical Local Extra SGD algorithm admits tighter guarantees under a refined analysis…

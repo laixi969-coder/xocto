@@ -24,11 +24,12 @@ url: https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo
 canonical_url: https://bbc.co.uk/news/articles/c6n07ypqz8kzo
 summary: Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity
 first_seen: '2026-09-16T14:32:15Z'
-last_seen: '2026-09-21T00:16:52Z'
-status: rejected
+last_seen: '2026-09-29T01:58:05Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo
@@ -52,6 +53,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNR21KYmVMdkc2RFVTN210MWg2Y3JwcHQtdTdUbnR1cGhxdl82MTRiUklUb2xtcnlDZnZkMmlIZUt4ZGQ5OGJJZXc4MnYyVnpDYjlHUnBrVEs1UWtVQjl6NnpyWEkweDhzX205bVpLWVZoMEhBWTg4Uy00UDgtUTN5QjFjWk5nNzlCVWlIT2oxcTZOdw?oc=5
   seen_at: '2026-09-20T00:09:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/
+  seen_at: '2026-09-29T01:58:05Z'
   metrics: {}
   kind: news
 ---

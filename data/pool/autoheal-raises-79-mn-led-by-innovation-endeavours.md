@@ -1,0 +1,41 @@
+---
+slug: autoheal-raises-79-mn-led-by-innovation-endeavours
+name: Autoheal raises $7.9 mn led by Innovation Endeavours
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNQXE4cmhQbnlmQVFrX3diczcwXzNWZ1gwbmZIVVo4OTBVQ1RlbllyYTR4S2dmUTBxZlJsZXNFOTBoU3RQSXM1V191OWR6VW9MQl9ZbE9uMksyTGFmRjdLUzYtM2x1MXItNmZIRUxqR1lveVVDcWVRY1piOE4wUmRTMVktVVNqdGxCUEh5U3pYbWNYRUQ4Q1A2UUdlUlVJejZPLW9UVWRGYlBQdnRnbnFKVnpReDdFa05NYlYtU2o4cmZuSXQtOTNR0gHHAUFVX3lxTE1BcThyaFBueWZBUWtfd2JzNzBfM1ZnWDBuZkhVWjg5MFVDVGVuWXJhNHhLZ2ZRMHFmUmxlc0U5MGhTdFBJczVXX3U5ZHpVb0xCX1lsT24ySzJMYWZGN0tTNi0zbHUxci02ZkhFTGpHWW95VUNxZVFjWmI4TjBSZFMxWS1VU2p0bEJQSHlTelhtY1hFRDhDUDZRR2VSVUl6Nk8tb1RVZEZiUFB2dGducUpWelF4N0VrTk1iVi1TajhyZm5JdC05M1E?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNQXE4cmhQbnlmQVFrX3diczcwXzNWZ1gwbmZIVVo4OTBVQ1RlbllyYTR4S2dmUTBxZlJsZXNFOTBoU3RQSXM1V191OWR6VW9MQl9ZbE9uMksyTGFmRjdLUzYtM2x1MXItNmZIRUxqR1lveVVDcWVRY1piOE4wUmRTMVktVVNqdGxCUEh5U3pYbWNYRUQ4Q1A2UUdlUlVJejZPLW9UVWRGYlBQdnRnbnFKVnpReDdFa05NYlYtU2o4cmZuSXQtOTNR0gHHAUFVX3lxTE1BcThyaFBueWZBUWtfd2JzNzBfM1ZnWDBuZkhVWjg5MFVDVGVuWXJhNHhLZ2ZRMHFmUmxlc0U5MGhTdFBJczVXX3U5ZHpVb0xCX1lsT24ySzJMYWZGN0tTNi0zbHUxci02ZkhFTGpHWW95VUNxZVFjWmI4TjBSZFMxWS1VU2p0bEJQSHlTelhtY1hFRDhDUDZRR2VSVUl6Nk8tb1RVZEZiUFB2dGducUpWelF4N0VrTk1iVi1TajhyZm5JdC05M1E?oc=5
+summary: Autoheal raises $7.9 mn led by Innovation Endeavours ET Entrepreneur
+first_seen: '2026-09-28T15:53:58Z'
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNQXE4cmhQbnlmQVFrX3diczcwXzNWZ1gwbmZIVVo4OTBVQ1RlbllyYTR4S2dmUTBxZlJsZXNFOTBoU3RQSXM1V191OWR6VW9MQl9ZbE9uMksyTGFmRjdLUzYtM2x1MXItNmZIRUxqR1lveVVDcWVRY1piOE4wUmRTMVktVVNqdGxCUEh5U3pYbWNYRUQ4Q1A2UUdlUlVJejZPLW9UVWRGYlBQdnRnbnFKVnpReDdFa05NYlYtU2o4cmZuSXQtOTNR0gHHAUFVX3lxTE1BcThyaFBueWZBUWtfd2JzNzBfM1ZnWDBuZkhVWjg5MFVDVGVuWXJhNHhLZ2ZRMHFmUmxlc0U5MGhTdFBJczVXX3U5ZHpVb0xCX1lsT24ySzJMYWZGN0tTNi0zbHUxci02ZkhFTGpHWW95VUNxZVFjWmI4TjBSZFMxWS1VU2p0bEJQSHlTelhtY1hFRDhDUDZRR2VSVUl6Nk8tb1RVZEZiUFB2dGducUpWelF4N0VrTk1iVi1TajhyZm5JdC05M1E?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+---
+
+# Autoheal raises $7.9 mn led by Innovation Endeavours
+
+Autoheal raises $7.9 mn led by Innovation Endeavours ET Entrepreneur
+
+## 笔记
+
+

@@ -35,17 +35,17 @@ url: https://github.com/coleygroup/shepherd2
 canonical_url: https://github.com/coleygroup/shepherd2
 summary: 'ShEPhERD-2 code: Interaction Profiles as a Universal Language for Generative Molecular Design'
 first_seen: '2026-09-10T14:14:58Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/coleygroup/shepherd2
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 53
-    forks: 4
+    stars: 55
+    forks: 5
     open_issues: 0
   kind: product
 ---

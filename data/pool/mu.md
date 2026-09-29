@@ -31,17 +31,17 @@ canonical_url: https://github.com/qybaihe/mu
 summary: 'mu (μ): a coding agent that thinks before it acts. A small, fast judge makes the routine calls,
   the big model does the work. Built on pi and AionUi.'
 first_seen: '2026-09-22T11:56:05Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/qybaihe/mu
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 258
-    forks: 26
+    stars: 312
+    forks: 31
     open_issues: 0
   kind: product
 ---

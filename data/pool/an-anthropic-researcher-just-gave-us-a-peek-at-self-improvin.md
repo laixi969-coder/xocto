@@ -39,8 +39,8 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-28T00:47:11Z'
-status: rejected
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -305,6 +305,21 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/
   seen_at: '2026-09-28T00:47:11Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/
+  seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNcEtTWW1lLWRIRGV4Qzh5enlpS0ZzZ3FlZGxKYUVqVEN1MS1XeTN3MDdxRVhWWGdIWlZPYTNBX2xIdmhBU0xxOHIycWVFalJmWkRfR0piVDZoQmMzU2FtcGJaRVFfbXFRYTd6Sy1LVTNHT0J4SHdOTmhybFNEUVFKY2ROSXN4U2xlVTAtUm1lcU03cXpLNkl5X1ZwMXg3ZlB3?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ3M2dFlSWUxRLUhxSEQwd3FRU29FSzRneWZQX0lyOUduN1hhRHpTSEttNFg3czZieUdmNU9aYW9qSlhJVHdWdElQSmdzNDlkVE9HT0RHU0xodkI5amUwMFFXT05rdzNOMFhhdGp0ZWxZZHFadjY2VVpBMk92QnlKdUF0a2hqbld5YlE?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---

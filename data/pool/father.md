@@ -20,16 +20,22 @@ url: https://www.producthunt.com/products/father-web-monitoring
 canonical_url: https://producthunt.com/products/father-web-monitoring
 summary: A Mac dashboard for site traffic, deploys, uptime, and SEO
 first_seen: '2026-09-14T20:10:06Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: rejected
+last_seen: '2026-09-29T01:58:05Z'
+status: pending_filter
 sources:
 - producthunt
+- marketfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/father-web-monitoring
   seen_at: '2026-09-16T00:20:36Z'
   metrics: {}
   kind: product
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/
+  seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
 ---
 
 # FATHER

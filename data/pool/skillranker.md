@@ -33,18 +33,18 @@ summary: Rust CLI powered by Jev from TypeSafe.ai that ranks agent skills for th
   session context. Includes Claude Code hooks, structured JSON, abstention, and local feedback. Requires
   a TypeSafe API key.
 first_seen: '2026-09-17T06:58:19Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Dicklesworthstone/skillranker
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
     stars: 123
-    forks: 9
-    open_issues: 3
+    forks: 8
+    open_issues: 2
   kind: product
 ---
 

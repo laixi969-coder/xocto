@@ -38,7 +38,7 @@ url: https://www.aicpb.com/product/OpenClaw/webid1D6F39F51
 canonical_url: https://aicpb.com/product/OpenClaw/webid1D6F39F51
 summary: 开创了 Claw 智能体品类
 first_seen: '2026-08-17T22:41:21Z'
-last_seen: '2026-09-01T14:56:33Z'
+last_seen: '2026-09-29T01:58:36Z'
 status: pending_filter
 sources:
 - aicpb
@@ -82,6 +82,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYzlBSkxnWnlYZl9yMmVBUVRSM1VlXzFiLU9HZFd5aWtvM0NsQy1pVW9jT1MxTzZlenJmXy1JbzA4LVJ5Skd6MkZoSW5KYVQ1MUR4U3AzOW1NSnZ2bmpmVnRmaUJjZDltXzkzMXREU21ZRHh0cUxaUi1ITjExdGdEV1dmRzZuNlow?oc=5
   seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1pZlN0N1A0bXl6cVQtVGs0NmxIT190bWtBTWRMb0p0ZEF3R1hFdTlCTmI4emU5TFNZVkRsLXU1S3hNd1BBQjhxbkVlS2g?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---

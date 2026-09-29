@@ -20,8 +20,8 @@ url: https://www.reuters.com/world/us/google-maps-will-show-lake-america-us-not-
 canonical_url: https://reuters.com/world/us/google-maps-will-show-lake-america-us-not-lake-ontario-2026-08-30
 summary: Google Maps Now Shows 'Lake America' in US, Not 'Lake Ontario'
 first_seen: '2026-08-31T21:29:03Z'
-last_seen: '2026-09-27T00:36:16Z'
-status: rejected
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -114,6 +114,18 @@ sightings:
   metrics:
     points: 65
     comments: 21
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics:
+    points: 69
+    comments: 63
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxPNjRtRWQ1MGhkMkFob2pTU1p1WWVFcXdvVGZSLUktbk04YVRWZFVhT3c3NGdQNjNxZVE4enV4YWp1NTI3a0hraHRZQWxmSm9QZVNOeUJnNVZwcU13dVIxS05VcExhVm1Pc25HUjMxLUV0aVJkVXNvNkYwaER5YmdMZ2VwQWlGamRzOTdwRTRVY0VXMEYyX2tpeGZzTTBpbjVtZHVnX0hoSDl6UVhWUFBpQ1M1RjNFVmJnTVpZRk9yVW5YU2hkcWlKdS1YYWU?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
   kind: news
 ---
 

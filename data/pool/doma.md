@@ -32,17 +32,17 @@ url: https://www.domactions.com/docs/en/
 canonical_url: https://domactions.com/docs/en
 summary: The open-source of DomA, an AI automation agent for the browser.
 first_seen: '2026-09-09T02:54:51Z'
-last_seen: '2026-09-27T00:36:20Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.domactions.com/docs/en/
-  seen_at: '2026-09-27T00:36:20Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 131
-    forks: 19
+    stars: 133
+    forks: 20
     open_issues: 4
   kind: product
 ---

@@ -21,16 +21,16 @@ canonical_url: https://github.com/haplollc/ThinkingOrbs
 summary: Dotted, honestly-3D loading indicators for AI and agent interfaces in SwiftUI. Nine hand-tuned
   designs, two tuned sizes.
 first_seen: '2026-09-19T06:15:54Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/haplollc/ThinkingOrbs
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 231
+    stars: 236
     forks: 19
     open_issues: 0
   kind: product

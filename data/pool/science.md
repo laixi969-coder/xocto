@@ -20,8 +20,8 @@ url: https://www.science.org/content/article/how-ai-math-breakthrough-ignited-co
 canonical_url: https://science.org/content/article/how-ai-math-breakthrough-ignited-controversy
 summary: How An AI math breakthrough ignited a controversy
 first_seen: '2026-09-09T10:25:41Z'
-last_seen: '2026-09-25T00:34:10Z'
-status: rejected
+last_seen: '2026-09-29T01:58:05Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -74,6 +74,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/foundries-vs-navigators-lowering
   seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/28/sofinnova-partners-closes-oversubscribed-eur82m-sofinnova-md-start-iv-fund/
+  seen_at: '2026-09-29T01:58:05Z'
   metrics: {}
   kind: news
 ---

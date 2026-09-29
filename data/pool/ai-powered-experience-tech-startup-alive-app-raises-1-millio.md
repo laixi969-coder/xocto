@@ -1,0 +1,42 @@
+---
+slug: ai-powered-experience-tech-startup-alive-app-raises-1-millio
+name: AI-powered experience-tech startup Alive App raises $1 million from Powerhouse, Flipkart Ventures
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOejYwLUJSNDUyM2VVTk41ZFhpWDY2OWJrYnpmeXhXdjNNSlhZYjVrRWFOQUxMaUtNX1UyLUlPb2d0aXA0X1VfSWZrNll4NGJPWGlwaVNrOGR1OHI4aGVhZ3FWVUw0RmdaMEk5cDFYbTBLRDNEb3NpbUtHVVVCZTc3bWtzY0dRd29MWkJpT2FORDNEZmQzOUgydVZMYzdyOHZfRTd6cG9JSmhyQXd1WncyVXRoczNPUkhyMzdBa3BiUURXYWxmMHRFUFVodUNBSFhXaktKNUxqYlFmZ9IB2gFBVV95cUxOejYwLUJSNDUyM2VVTk41ZFhpWDY2OWJrYnpmeXhXdjNNSlhZYjVrRWFOQUxMaUtNX1UyLUlPb2d0aXA0X1VfSWZrNll4NGJPWGlwaVNrOGR1OHI4aGVhZ3FWVUw0RmdaMEk5cDFYbTBLRDNEb3NpbUtHVVVCZTc3bWtzY0dRd29MWkJpT2FORDNEZmQzOUgydVZMYzdyOHZfRTd6cG9JSmhyQXd1WncyVXRoczNPUkhyMzdBa3BiUURXYWxmMHRFUFVodUNBSFhXaktKNUxqYlFmZw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOejYwLUJSNDUyM2VVTk41ZFhpWDY2OWJrYnpmeXhXdjNNSlhZYjVrRWFOQUxMaUtNX1UyLUlPb2d0aXA0X1VfSWZrNll4NGJPWGlwaVNrOGR1OHI4aGVhZ3FWVUw0RmdaMEk5cDFYbTBLRDNEb3NpbUtHVVVCZTc3bWtzY0dRd29MWkJpT2FORDNEZmQzOUgydVZMYzdyOHZfRTd6cG9JSmhyQXd1WncyVXRoczNPUkhyMzdBa3BiUURXYWxmMHRFUFVodUNBSFhXaktKNUxqYlFmZ9IB2gFBVV95cUxOejYwLUJSNDUyM2VVTk41ZFhpWDY2OWJrYnpmeXhXdjNNSlhZYjVrRWFOQUxMaUtNX1UyLUlPb2d0aXA0X1VfSWZrNll4NGJPWGlwaVNrOGR1OHI4aGVhZ3FWVUw0RmdaMEk5cDFYbTBLRDNEb3NpbUtHVVVCZTc3bWtzY0dRd29MWkJpT2FORDNEZmQzOUgydVZMYzdyOHZfRTd6cG9JSmhyQXd1WncyVXRoczNPUkhyMzdBa3BiUURXYWxmMHRFUFVodUNBSFhXaktKNUxqYlFmZw?oc=5
+summary: AI-powered experience-tech startup Alive App raises $1 million from Powerhouse, Flipkart Ventures
+  Indian Startup News
+first_seen: '2026-09-28T07:48:01Z'
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOejYwLUJSNDUyM2VVTk41ZFhpWDY2OWJrYnpmeXhXdjNNSlhZYjVrRWFOQUxMaUtNX1UyLUlPb2d0aXA0X1VfSWZrNll4NGJPWGlwaVNrOGR1OHI4aGVhZ3FWVUw0RmdaMEk5cDFYbTBLRDNEb3NpbUtHVVVCZTc3bWtzY0dRd29MWkJpT2FORDNEZmQzOUgydVZMYzdyOHZfRTd6cG9JSmhyQXd1WncyVXRoczNPUkhyMzdBa3BiUURXYWxmMHRFUFVodUNBSFhXaktKNUxqYlFmZ9IB2gFBVV95cUxOejYwLUJSNDUyM2VVTk41ZFhpWDY2OWJrYnpmeXhXdjNNSlhZYjVrRWFOQUxMaUtNX1UyLUlPb2d0aXA0X1VfSWZrNll4NGJPWGlwaVNrOGR1OHI4aGVhZ3FWVUw0RmdaMEk5cDFYbTBLRDNEb3NpbUtHVVVCZTc3bWtzY0dRd29MWkJpT2FORDNEZmQzOUgydVZMYzdyOHZfRTd6cG9JSmhyQXd1WncyVXRoczNPUkhyMzdBa3BiUURXYWxmMHRFUFVodUNBSFhXaktKNUxqYlFmZw?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+---
+
+# AI-powered experience-tech startup Alive App raises $1 million from Powerhouse, Flipkart Ventures
+
+AI-powered experience-tech startup Alive App raises $1 million from Powerhouse, Flipkart Ventures Indian Startup News
+
+## 笔记
+
+

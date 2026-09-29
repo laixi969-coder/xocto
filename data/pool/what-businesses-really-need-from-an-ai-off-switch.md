@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVZxNzd0YkdUNWIwSUg5dW
 canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVZxNzd0YkdUNWIwSUg5dW9ING4zWHFwYk50V3RvVzBvR0FyZld3aF9XUl9zeDJkdDhsOU1uLWhsbTN2YU1IUVFQMEJacUNPNXNSdzdHU1BUZFJkTklDLUUxbTUtUEs5MHJ4TXNra05PZDFrdDBWWXhEcFZPSkRWWTFQM0wzTkpULV81SjJaSGI?oc=5
 summary: What businesses really need from an AI off switch TechTarget
 first_seen: '2026-09-04T01:45:16Z'
-last_seen: '2026-09-06T15:20:04Z'
-status: market_context
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVZxNzd0YkdUNWIwSUg5dW9ING4zWHFwYk50V3RvVzBvR0FyZld3aF9XUl9zeDJkdDhsOU1uLWhsbTN2YU1IUVFQMEJacUNPNXNSdzdHU1BUZFJkTklDLUUxbTUtUEs5MHJ4TXNra05PZDFrdDBWWXhEcFZPSkRWWTFQM0wzTkpULV81SjJaSGI?oc=5
   seen_at: '2026-09-06T15:20:04Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE8wVHhtWEZ3U3AzVV9DanNoWkVMVHlzYW1qcE8tZDN4SzY3dGxRYS1SaThRQm9DOC1mLVoyWllCbHI3OFplV0hXRVNUM2N1S2FPc1hVeUJoZTR3MFFkLXg3Z25Xc3AxMWF3aEhoR25UZE1UWk83Q0E?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---

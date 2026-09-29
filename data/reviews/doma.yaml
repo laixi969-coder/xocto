@@ -82,3 +82,45 @@
     or submit entries in web systems without APIs use a browser agent instead of clicking manually, Developers
     delegate repetitive web operations to a browser agent and only verify the results Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-initial-doma-2026-09-29
+  project_slug: doma
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它试图帮助用户完成：“面向需要在没有接口的网页系统里重复操作的人：他们把原本手工点击、填表和取数的步骤交给浏览器代理执行，用户拿到的是完成后的页面状态或抓取结果；具体支持的任务类型和人工确认环节仍待核验”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。
+    evidence_ids:
+    - ev-bd1143af28891a0b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 133 个收藏、20 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-f9f92036f7d0cdce
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 运营或数据人员需要从没有开放接口的网页系统里定期取数、填表或提交表单时，用浏览器代理代替手工点击、开发者把重复的网页操作交给浏览器代理执行，自己只做结果校验
+  job_en: Operations or data staff who must periodically pull data, fill forms or submit entries in web
+    systems without APIs use a browser agent instead of clicking manually, Developers delegate repetitive
+    web operations to a browser agent and only verify the results
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：运营或数据人员需要从没有开放接口的网页系统里定期取数、填表或提交表单时，用浏览器代理代替手工点击、开发者把重复的网页操作交给浏览器代理执行，自己只做结果校验；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Operations or data staff who must periodically pull data, fill forms
+    or submit entries in web systems without APIs use a browser agent instead of clicking manually, Developers
+    delegate repetitive web operations to a browser agent and only verify the results Public materials
+    do not yet explain why users choose this product over their existing approach.'

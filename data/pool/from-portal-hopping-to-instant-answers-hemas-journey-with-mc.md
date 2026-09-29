@@ -28,11 +28,12 @@ summary: HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping in
   HAL delivers governed knowledge inside the tools teams already use, with no AWS credentials on the client
   and security anchored in Microsoft Entra ID.
 first_seen: '2026-09-23T18:41:09Z'
-last_seen: '2026-09-27T00:36:53Z'
-status: rejected
+last_seen: '2026-09-29T01:58:05Z'
+status: pending_filter
 sources:
 - officialfeeds
 - newssearch
+- marketfeeds
 sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/
@@ -42,6 +43,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxONnppbWstRHJXakZyaGlhaVNma3drWjhYYWpidTJ0aXlrM0xpMmtVWGxsUHI5WkN1X3ZROTd6Y1N2RDFwWUFWblFNb2dKMENGczRkaDdxcmJXb0sxVDZIMEprN3JTYWVUZVhqeWJTMFZxT2lIcUx0YUwwM0p5OWh6dzJVbTBDUVRUX1BNQW9fQWk3SWNEQzloT3B1cy1lQlBGcU1oUkExODdtVWRpYkU1VENYSklJOWV6eEZtZS1xd1JJS0xzbW0tVXZYeEY4bTlyYTNR0gHYAUFVX3lxTE8xWS1LYU9ueUthd040N0djeEFSSDdwLWlBblJBNXQtWk9yT2ZzbnBkMnRFZ1FBWDBiaEdrZHd2Y01GRHNLN0NZNVE2QVZpMl9MSVRxVFNEVnJJTFZkeTVOaDY3RjV6UnpMY2E3WWt0djBqSTE0M1ZmbEM3Ni1sWkpKel9zdjg2MzRZSW05R0VYRGZ1UHFZTWJZaVpUOUxFTldjMFlGZGYtdEVSdDIyWHNSeWxnYUtfQ1NMakVnUmtfT0FmWnlBRHNWN1FYRURsVTFCZnFIenFLZw?oc=5
   seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/monzo-sale-reignites-britain-tech-exit-fears/
+  seen_at: '2026-09-29T01:58:05Z'
   metrics: {}
   kind: news
 ---

@@ -18,3 +18,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 软件工程师'
+- id: ev-9865ab969b0a0268
+  project_slug: first-pass
+  url: https://github.com/joetawil7/first-pass
+  title: first-pass
+  published_at: '2026-09-25T15:45:56Z'
+  collected_at: '2026-09-29T01:57:46Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Rules and checks that make Claude Code look around a change, not just at the lines it writes:
+    ten questions before code, a reviewer that didn''t write it, proof before done, bugs fixed as a class.
+    | repository stars: 91'

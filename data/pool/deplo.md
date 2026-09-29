@@ -26,11 +26,12 @@ url: https://www.producthunt.com/products/deplo-2
 canonical_url: https://producthunt.com/products/deplo-2
 summary: A simple-to-use alternative to cloud deployments
 first_seen: '2026-09-11T22:44:38Z'
-last_seen: '2026-09-28T00:47:18Z'
-status: rejected
+last_seen: '2026-09-29T01:58:05Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
+- marketfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/deplo-2
@@ -55,6 +56,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidEFVX3lxTE9RaC1CS3lnRWEtdWNfVE9BbzVWckJXQlNQUkZFNUVJODU3TDR1cHBGdko2Sm95V3lpanRyeXBaMDRGRU5seWdIWWNzekFod2J0dnVHd3p3WXlzVXV6VVVoV2k5a1lBQ05YM1lOTXhaVnV6Y19u?oc=5
   seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/
+  seen_at: '2026-09-29T01:58:05Z'
   metrics: {}
   kind: news
 ---

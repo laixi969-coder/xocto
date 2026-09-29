@@ -20,17 +20,17 @@ url: https://tinyaiarena.com/
 canonical_url: https://tinyaiarena.com
 summary: TinyAIArena watch AI agents battle it out
 first_seen: '2026-09-27T15:51:28Z'
-last_seen: '2026-09-28T00:46:41Z'
+last_seen: '2026-09-29T01:57:43Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tinyaiarena.com/
-  seen_at: '2026-09-28T00:46:41Z'
+  seen_at: '2026-09-29T01:57:43Z'
   metrics:
-    points: 94
-    comments: 40
+    points: 117
+    comments: 45
   kind: product
 ---
 

@@ -1,0 +1,41 @@
+---
+slug: nvidia-buybacks-put-shareholder-yield-tech-stocks-in-focus
+name: Nvidia Buybacks Put Shareholder Yield Tech Stocks In Focus
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQTjQzQzJSaVUyWnpjMkp5ODVYVlhUVGo5a09WOEpNaGU2ekE5UUh1WG42dE9aV2x4ZlppTDBnVk9TNElVNlpuU25FaG81bllYdHF2T0IwUldGcmg4WFNHeDhTU1hKRi1FRmlqMFRtcTdoYjliOXRGWHhzOWVTSTM5MFd4dVRnUVFSSnd5VkVtYVFNcUNBeVNjZ29HTWFmMGN2ZlZhSzZ3Y1k0V2NNSHNXSTgzbGxQOTRYWGp2VjhoN2kxZWJSbk0xU19n0gHKAUFVX3lxTFBONDNDMlJpVTJaemMySnk4NVhWWFRUajlrT1Y4Sk1oZTZ6QTlRSHVYbjZ0T1pXbHhmWmlMMGdWT1M0SVU2Wm5TbkVobzVuWVh0cXZPQjBSV0ZyaDhYU0d4OFNTWEpGLUVGaWowVG1xN2hiOWI5dEZYeHM5ZVNJMzkwV3h1VGdRUVJKd3lWRW1hUU1xQ0F5U2Nnb0dNYWYwY3ZmVmFLNndjWTRXY01Ic1dJODNsbFA5NFhYanZWOGg3aTFlYlJuTTFTX2c?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQTjQzQzJSaVUyWnpjMkp5ODVYVlhUVGo5a09WOEpNaGU2ekE5UUh1WG42dE9aV2x4ZlppTDBnVk9TNElVNlpuU25FaG81bllYdHF2T0IwUldGcmg4WFNHeDhTU1hKRi1FRmlqMFRtcTdoYjliOXRGWHhzOWVTSTM5MFd4dVRnUVFSSnd5VkVtYVFNcUNBeVNjZ29HTWFmMGN2ZlZhSzZ3Y1k0V2NNSHNXSTgzbGxQOTRYWGp2VjhoN2kxZWJSbk0xU19n0gHKAUFVX3lxTFBONDNDMlJpVTJaemMySnk4NVhWWFRUajlrT1Y4Sk1oZTZ6QTlRSHVYbjZ0T1pXbHhmWmlMMGdWT1M0SVU2Wm5TbkVobzVuWVh0cXZPQjBSV0ZyaDhYU0d4OFNTWEpGLUVGaWowVG1xN2hiOWI5dEZYeHM5ZVNJMzkwV3h1VGdRUVJKd3lWRW1hUU1xQ0F5U2Nnb0dNYWYwY3ZmVmFLNndjWTRXY01Ic1dJODNsbFA5NFhYanZWOGg3aTFlYlJuTTFTX2c?oc=5
+summary: Nvidia Buybacks Put Shareholder Yield Tech Stocks In Focus simplywall.st
+first_seen: '2026-09-28T15:28:23Z'
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQTjQzQzJSaVUyWnpjMkp5ODVYVlhUVGo5a09WOEpNaGU2ekE5UUh1WG42dE9aV2x4ZlppTDBnVk9TNElVNlpuU25FaG81bllYdHF2T0IwUldGcmg4WFNHeDhTU1hKRi1FRmlqMFRtcTdoYjliOXRGWHhzOWVTSTM5MFd4dVRnUVFSSnd5VkVtYVFNcUNBeVNjZ29HTWFmMGN2ZlZhSzZ3Y1k0V2NNSHNXSTgzbGxQOTRYWGp2VjhoN2kxZWJSbk0xU19n0gHKAUFVX3lxTFBONDNDMlJpVTJaemMySnk4NVhWWFRUajlrT1Y4Sk1oZTZ6QTlRSHVYbjZ0T1pXbHhmWmlMMGdWT1M0SVU2Wm5TbkVobzVuWVh0cXZPQjBSV0ZyaDhYU0d4OFNTWEpGLUVGaWowVG1xN2hiOWI5dEZYeHM5ZVNJMzkwV3h1VGdRUVJKd3lWRW1hUU1xQ0F5U2Nnb0dNYWYwY3ZmVmFLNndjWTRXY01Ic1dJODNsbFA5NFhYanZWOGg3aTFlYlJuTTFTX2c?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+---
+
+# Nvidia Buybacks Put Shareholder Yield Tech Stocks In Focus
+
+Nvidia Buybacks Put Shareholder Yield Tech Stocks In Focus simplywall.st
+
+## 笔记
+
+

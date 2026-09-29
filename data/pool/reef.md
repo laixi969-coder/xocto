@@ -30,10 +30,11 @@ url: https://reefinfra.ai/docs/
 canonical_url: https://reefinfra.ai/docs
 summary: Continual learning infra for self-improving agents
 first_seen: '2026-08-31T01:39:18Z'
-last_seen: '2026-09-20T00:09:25Z'
-status: watching
+last_seen: '2026-09-29T01:57:43Z'
+status: pending_filter
 sources:
 - github
+- hackernews
 sightings:
 - source: github
   url: https://reefinfra.ai/docs/
@@ -51,6 +52,13 @@ sightings:
     forks: 300
     open_issues: 56
   kind: product
+- source: hackernews
+  url: https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics:
+    points: 146
+    comments: 157
+  kind: news
 ---
 
 # reef

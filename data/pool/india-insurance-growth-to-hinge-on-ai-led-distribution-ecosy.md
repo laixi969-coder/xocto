@@ -1,0 +1,42 @@
+---
+slug: india-insurance-growth-to-hinge-on-ai-led-distribution-ecosy
+name: 'India insurance growth to hinge on AI-led distribution, ecosystem partnerships: McKinsey'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPY2JiazkxRkRiN1lOUGFCZEpzVk9yNzl6WTVCUk1hMjdiWEt3MDhGZmtRWDBJYlptSmlfRFdDS2g0ZzBjOFpOd2s2aUh5YkRaRXd6czd6d09qRmZ2N3NlRUdfbmtac1V0VDRMejZJVWZtRlBYUTgzQ3l3bVl6ZUlfOHBIUmhwUDhOajlDekk2N295Vi00S0dva3pYZkxNOURYX1NqWm5xQ3Y0YmtPYnVkUU8zVm9icHMyRkU3SlRNVFFVSlFjTlFSUlJ5eUdNcVVKVGY1Y2tCTU5VdU9sRHBHaVZZa2kydTlzYWtaS0dfNXlfQdIB9wFBVV95cUxNWUFyNFRxU1F3Y0dadzBqeTNzLTVLYVFYY1VUdTdFaFZlU2dHakpyaVBTTms0bkYzS1o2NXBUSWN6cmQwQlIyMktXdTdRd2llVlkzU1VXZmdhZFhnd3BlbUpwc2R2dGtUbmprcWdNSDBrbTZjTUhUZ1NDR0pUT1hrYW9GeWxzejBrVFJrc3F5eE5TUnlSMEIxcHVQVzdDV0RiZUdhNU1uM2xfcGVWdTU5QU14YVp0UWVDVldYQUJqaVhmYmp0TXd6OWNpUlh6N0ZSaDVMLXhsU2hwaUlTV3NzYkRQS2RKX0JkSXl5ZWl2aXdmMXN1ZjFN?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPY2JiazkxRkRiN1lOUGFCZEpzVk9yNzl6WTVCUk1hMjdiWEt3MDhGZmtRWDBJYlptSmlfRFdDS2g0ZzBjOFpOd2s2aUh5YkRaRXd6czd6d09qRmZ2N3NlRUdfbmtac1V0VDRMejZJVWZtRlBYUTgzQ3l3bVl6ZUlfOHBIUmhwUDhOajlDekk2N295Vi00S0dva3pYZkxNOURYX1NqWm5xQ3Y0YmtPYnVkUU8zVm9icHMyRkU3SlRNVFFVSlFjTlFSUlJ5eUdNcVVKVGY1Y2tCTU5VdU9sRHBHaVZZa2kydTlzYWtaS0dfNXlfQdIB9wFBVV95cUxNWUFyNFRxU1F3Y0dadzBqeTNzLTVLYVFYY1VUdTdFaFZlU2dHakpyaVBTTms0bkYzS1o2NXBUSWN6cmQwQlIyMktXdTdRd2llVlkzU1VXZmdhZFhnd3BlbUpwc2R2dGtUbmprcWdNSDBrbTZjTUhUZ1NDR0pUT1hrYW9GeWxzejBrVFJrc3F5eE5TUnlSMEIxcHVQVzdDV0RiZUdhNU1uM2xfcGVWdTU5QU14YVp0UWVDVldYQUJqaVhmYmp0TXd6OWNpUlh6N0ZSaDVMLXhsU2hwaUlTV3NzYkRQS2RKX0JkSXl5ZWl2aXdmMXN1ZjFN?oc=5
+summary: 'India insurance growth to hinge on AI-led distribution, ecosystem partnerships: McKinsey ET
+  Enterprise AI'
+first_seen: '2026-09-28T11:58:18Z'
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPY2JiazkxRkRiN1lOUGFCZEpzVk9yNzl6WTVCUk1hMjdiWEt3MDhGZmtRWDBJYlptSmlfRFdDS2g0ZzBjOFpOd2s2aUh5YkRaRXd6czd6d09qRmZ2N3NlRUdfbmtac1V0VDRMejZJVWZtRlBYUTgzQ3l3bVl6ZUlfOHBIUmhwUDhOajlDekk2N295Vi00S0dva3pYZkxNOURYX1NqWm5xQ3Y0YmtPYnVkUU8zVm9icHMyRkU3SlRNVFFVSlFjTlFSUlJ5eUdNcVVKVGY1Y2tCTU5VdU9sRHBHaVZZa2kydTlzYWtaS0dfNXlfQdIB9wFBVV95cUxNWUFyNFRxU1F3Y0dadzBqeTNzLTVLYVFYY1VUdTdFaFZlU2dHakpyaVBTTms0bkYzS1o2NXBUSWN6cmQwQlIyMktXdTdRd2llVlkzU1VXZmdhZFhnd3BlbUpwc2R2dGtUbmprcWdNSDBrbTZjTUhUZ1NDR0pUT1hrYW9GeWxzejBrVFJrc3F5eE5TUnlSMEIxcHVQVzdDV0RiZUdhNU1uM2xfcGVWdTU5QU14YVp0UWVDVldYQUJqaVhmYmp0TXd6OWNpUlh6N0ZSaDVMLXhsU2hwaUlTV3NzYkRQS2RKX0JkSXl5ZWl2aXdmMXN1ZjFN?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+---
+
+# India insurance growth to hinge on AI-led distribution, ecosystem partnerships: McKinsey
+
+India insurance growth to hinge on AI-led distribution, ecosystem partnerships: McKinsey ET Enterprise AI
+
+## 笔记
+
+

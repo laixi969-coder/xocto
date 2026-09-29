@@ -1,0 +1,41 @@
+---
+slug: mims-accelerates-product-innovation-and-international-growth
+name: MIMS Accelerates Product Innovation and International Growth
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQNUZOWmhjaEpkSTlrZkFPaV9GUXI4SlQ2dk1BaFJVYWg4YndoSHNvUGppWlMzTWNLNWYzQTJXMFBQQUxfZXhJNHdDX1NkVUtVVVQ1SlNZbUNQYjl6cUhBS2k2eS1Ydk9wN3RwUWFZZDV4ZVpYZnJrbmdLNU9VbHg4WjQyY0JJUkdNN3dIWnZDNHRwR0JQTFpHcE1yR19nSlpiZ3p6VEdldmxUQWFXODY4QjJYYS0wSWd1bWdvSGpKbkpsRlpQUVZQdkM3ckhSUdIBzgFBVV95cUxQNUZOWmhjaEpkSTlrZkFPaV9GUXI4SlQ2dk1BaFJVYWg4YndoSHNvUGppWlMzTWNLNWYzQTJXMFBQQUxfZXhJNHdDX1NkVUtVVVQ1SlNZbUNQYjl6cUhBS2k2eS1Ydk9wN3RwUWFZZDV4ZVpYZnJrbmdLNU9VbHg4WjQyY0JJUkdNN3dIWnZDNHRwR0JQTFpHcE1yR19nSlpiZ3p6VEdldmxUQWFXODY4QjJYYS0wSWd1bWdvSGpKbkpsRlpQUVZQdkM3ckhSUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQNUZOWmhjaEpkSTlrZkFPaV9GUXI4SlQ2dk1BaFJVYWg4YndoSHNvUGppWlMzTWNLNWYzQTJXMFBQQUxfZXhJNHdDX1NkVUtVVVQ1SlNZbUNQYjl6cUhBS2k2eS1Ydk9wN3RwUWFZZDV4ZVpYZnJrbmdLNU9VbHg4WjQyY0JJUkdNN3dIWnZDNHRwR0JQTFpHcE1yR19nSlpiZ3p6VEdldmxUQWFXODY4QjJYYS0wSWd1bWdvSGpKbkpsRlpQUVZQdkM3ckhSUdIBzgFBVV95cUxQNUZOWmhjaEpkSTlrZkFPaV9GUXI4SlQ2dk1BaFJVYWg4YndoSHNvUGppWlMzTWNLNWYzQTJXMFBQQUxfZXhJNHdDX1NkVUtVVVQ1SlNZbUNQYjl6cUhBS2k2eS1Ydk9wN3RwUWFZZDV4ZVpYZnJrbmdLNU9VbHg4WjQyY0JJUkdNN3dIWnZDNHRwR0JQTFpHcE1yR19nSlpiZ3p6VEdldmxUQWFXODY4QjJYYS0wSWd1bWdvSGpKbkpsRlpQUVZQdkM3ckhSUQ?oc=5
+summary: MIMS Accelerates Product Innovation and International Growth Malay Mail
+first_seen: '2026-09-28T02:04:05Z'
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQNUZOWmhjaEpkSTlrZkFPaV9GUXI4SlQ2dk1BaFJVYWg4YndoSHNvUGppWlMzTWNLNWYzQTJXMFBQQUxfZXhJNHdDX1NkVUtVVVQ1SlNZbUNQYjl6cUhBS2k2eS1Ydk9wN3RwUWFZZDV4ZVpYZnJrbmdLNU9VbHg4WjQyY0JJUkdNN3dIWnZDNHRwR0JQTFpHcE1yR19nSlpiZ3p6VEdldmxUQWFXODY4QjJYYS0wSWd1bWdvSGpKbkpsRlpQUVZQdkM3ckhSUdIBzgFBVV95cUxQNUZOWmhjaEpkSTlrZkFPaV9GUXI4SlQ2dk1BaFJVYWg4YndoSHNvUGppWlMzTWNLNWYzQTJXMFBQQUxfZXhJNHdDX1NkVUtVVVQ1SlNZbUNQYjl6cUhBS2k2eS1Ydk9wN3RwUWFZZDV4ZVpYZnJrbmdLNU9VbHg4WjQyY0JJUkdNN3dIWnZDNHRwR0JQTFpHcE1yR19nSlpiZ3p6VEdldmxUQWFXODY4QjJYYS0wSWd1bWdvSGpKbkpsRlpQUVZQdkM3ckhSUQ?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+---
+
+# MIMS Accelerates Product Innovation and International Growth
+
+MIMS Accelerates Product Innovation and International Growth Malay Mail
+
+## 笔记
+
+

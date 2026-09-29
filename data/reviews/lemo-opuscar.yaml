@@ -43,3 +43,39 @@
     users skip trial-and-error prompting and let the agent produce the film after picking a style, removing
     the style-tuning step; small teams lacking directing resources but needing a consistent look would
     try it first.'
+- id: req-initial-lemo-opuscar-2026-09-29
+  project_slug: lemo-opuscar
+  level: initial
+  reviewed_at: '2026-09-29T01:57:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“做短片的人先挑一种影片风格，再把自己的故事交给 AI 代理，由它按该风格的提示词和纯代码样片生成成片；仓库给出 39 种风格提示词、对应样片和导演与技术说明，最终交付是一段可播放的”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 524 个收藏、68 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 短片导演与分镜设计、品牌短视频创意
+  job_en: short-film director and storyboard designer, brand short-video creative
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：短片导演与分镜设计、品牌短视频创意；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: short-film director and storyboard designer, brand short-video creative
+    Public materials do not yet explain why users choose this product over their existing approach.'

@@ -23,8 +23,8 @@ url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5LR0Q0Y1pIcXNPTnJNdGNzZ1
 canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5LR0Q0Y1pIcXNPTnJNdGNzZ1VlVDhrQjRaNU5HNlJuX2w4WTd1US1kVnl6ZE5COTVDdi1ma3hkSXlhZVdoajhoZ3pPNEJhby1OdEtzYUlZcndFZm00VV9JbHcxa2NYWHFvV3RBdTNURkdIS0ZibmcwZDF6cy0?oc=5
 summary: 聚力智能体AI 英特尔携手生态探索算力新范式 新华网
 first_seen: '2026-09-23T08:29:45Z'
-last_seen: '2026-09-28T00:47:18Z'
-status: rejected
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -46,6 +46,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hSEFMU1ZrTTlyZThOajlMX2h6bXk1bmRjQVFSMlNJYU5mMk1CampoYTM2bXVBYVYxUVF6SzBVME9EMjNGM1ZoRm96alBCVjMyRjdadTFnYXFKemxTMVJHdExVZ2Z5UQ?oc=5
   seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JUXl3UVM5Qm9nQVJya0Y5TzQ2Vm92dHhkWERSVFZKZUZIUDFSSWNqSjZPMWhQQUdWNFVEZjlzR1g3MjJFWTNiWEJFSkE2S082Wm5RMXg4cjBVUm9WTnVMWWE4OA?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---

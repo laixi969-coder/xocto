@@ -1,0 +1,26 @@
+- id: ev-7f6914e28bcce83a
+  project_slug: openai-openai-python-v3200
+  url: https://github.com/openai/openai-python/releases/tag/v3.20.0
+  title: 'openai/openai-python: v3.20.0'
+  published_at: '2026-09-28T16:04:13Z'
+  collected_at: '2026-09-29T01:57:46Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.20.0](https://github.com/openai/openai-python/compare/v3.19.2...v3.20.0) (2026-09-28)
+
+
+
+    ### Features
+
+
+    * **api:** add Agents credential and session options ([#3967](https://github.com/openai/openai-python/issues/3967))
+    ([bb68198](https://github.com/openai/openai-python/commit/bb68198a4bb4a161cbb32a28c3888a51540eaf0f))
+
+    * **api:** add Cyber access programs to Responses ([#3956](https://github.com/openai/openai-python/issues/3956))
+    ([09c5b6f](https://github.com/openai/openai-python/commit/09c5b6f13f716ad4e417fd7ba9209a8a057e0383))
+
+    * **responses:** opt in to incremental WebSocket text and tool snapshots ([#3973](https://github.com/openai/openai-python/issues/3973))
+    ([d0207b4](https://github.com/openai/openai-python/commit/d0207b48c043741ff483d7a8c945f8003d1ee714))
+
+    * **responses:** preserve detailed WebSocket accumulator snapshots ([#3981](https://github.com/openai/openai-python/issues/3981))
+    ([a380cf2](https://github.com/openai/openai-python/commit/a380cf256abc2aa51cbf5d49437ae039b9aa'

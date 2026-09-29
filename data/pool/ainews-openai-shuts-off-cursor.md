@@ -22,8 +22,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-09-28T00:47:18Z'
-status: rejected
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -218,6 +218,28 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE55R25SelFZMngtMzk5R2tLdDFoM3pEZHNCQ1d6d3JHeDNQQk82SEpvTldSVHg5OVFXcWM3ZWRZbC1GWTJLN1IwVzNhUmdlb3gyVzg1VTU4bVZITXhpSWtraA?oc=5
   seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics:
+    points: 103
+    comments: 102
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/
+  seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXdyNFBqZU1NMG5tUWlIN3RxbFg4Y1NELXpmanR0bVVnOFVkNUU4YTFKeld1UmZRVDRwZmVOdkdJdXAwU1huTklDYmFXRTUzM0xZNnNKWTRaM200Nk43VmRxaFZzNEhIRTUzMEJZR2lvLTRLMmhCRU5jUFVOam5LeVdLNXg4cl9I?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidEFVX3lxTE4wdWV1Qk9oQzl2T080YllkN3FEY1BMUFFXQUFtaGFUUmdqWk03dXFUOVp6NDhXUGl5aUIzRUQ1VEMxdkkyLUltRGpCbGRYbV9rcWxXR3NFZUg2TGFUMHJkb3p0SU1PaXd5OF9JVlZpZjVWOUdB?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---

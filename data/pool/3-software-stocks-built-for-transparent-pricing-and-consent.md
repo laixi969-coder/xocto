@@ -1,0 +1,41 @@
+---
+slug: 3-software-stocks-built-for-transparent-pricing-and-consent
+name: 3 Software Stocks Built For Transparent Pricing And Consent Driven Growth
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNRy1KMFc2MExDcGM2MXp0VTZ6VTNpTzlnTzNmWDFyano1bVlLUjRHUXpsV01kZVNqc1h1cVktc2VkeHlEOTdDalpadHI0cXpOYVVaWS1mb21CZWpfQlFpY3ZXem9mUUh5VkxFNGxBYVM0MmRfSTNzRUd2Wm1WUHNiMVUzNmtVSTF2dmJQMkVyX1cwU19LTzF5Q3ZLQ28yZFEwb2JRanUyeEZnY2NvZ0JRLXdJZ3BXSnM4ejE1OC1tRnRDeTdw0gHKAUFVX3lxTE1NNXBPcHY0emFfWW4wREFpSlRoX1l0cVRuTkhjdnhlSUFuOFRST3Y0WlVrbGVhQ2M3ZTdWWEVKeDRLSkgtRTJfR0g5ZHdVT3FWUU5DaF8zY0FvcGVZb2p2TzdrbHdyZXVJdkhRZXJNWHFueWE2WDBUYkE5T0hiMlJkSGV4QWFNU3F6R0VuQlBhcXBINVNqeDg4eHFjMmF3Y1dqQlNFSmVsTGtfNHBiajFhUF90dHJVT1AtVmZac1BudnRxajBqWWdWSXc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNRy1KMFc2MExDcGM2MXp0VTZ6VTNpTzlnTzNmWDFyano1bVlLUjRHUXpsV01kZVNqc1h1cVktc2VkeHlEOTdDalpadHI0cXpOYVVaWS1mb21CZWpfQlFpY3ZXem9mUUh5VkxFNGxBYVM0MmRfSTNzRUd2Wm1WUHNiMVUzNmtVSTF2dmJQMkVyX1cwU19LTzF5Q3ZLQ28yZFEwb2JRanUyeEZnY2NvZ0JRLXdJZ3BXSnM4ejE1OC1tRnRDeTdw0gHKAUFVX3lxTE1NNXBPcHY0emFfWW4wREFpSlRoX1l0cVRuTkhjdnhlSUFuOFRST3Y0WlVrbGVhQ2M3ZTdWWEVKeDRLSkgtRTJfR0g5ZHdVT3FWUU5DaF8zY0FvcGVZb2p2TzdrbHdyZXVJdkhRZXJNWHFueWE2WDBUYkE5T0hiMlJkSGV4QWFNU3F6R0VuQlBhcXBINVNqeDg4eHFjMmF3Y1dqQlNFSmVsTGtfNHBiajFhUF90dHJVT1AtVmZac1BudnRxajBqWWdWSXc?oc=5
+summary: 3 Software Stocks Built For Transparent Pricing And Consent Driven Growth simplywall.st
+first_seen: '2026-09-28T23:56:47Z'
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNRy1KMFc2MExDcGM2MXp0VTZ6VTNpTzlnTzNmWDFyano1bVlLUjRHUXpsV01kZVNqc1h1cVktc2VkeHlEOTdDalpadHI0cXpOYVVaWS1mb21CZWpfQlFpY3ZXem9mUUh5VkxFNGxBYVM0MmRfSTNzRUd2Wm1WUHNiMVUzNmtVSTF2dmJQMkVyX1cwU19LTzF5Q3ZLQ28yZFEwb2JRanUyeEZnY2NvZ0JRLXdJZ3BXSnM4ejE1OC1tRnRDeTdw0gHKAUFVX3lxTE1NNXBPcHY0emFfWW4wREFpSlRoX1l0cVRuTkhjdnhlSUFuOFRST3Y0WlVrbGVhQ2M3ZTdWWEVKeDRLSkgtRTJfR0g5ZHdVT3FWUU5DaF8zY0FvcGVZb2p2TzdrbHdyZXVJdkhRZXJNWHFueWE2WDBUYkE5T0hiMlJkSGV4QWFNU3F6R0VuQlBhcXBINVNqeDg4eHFjMmF3Y1dqQlNFSmVsTGtfNHBiajFhUF90dHJVT1AtVmZac1BudnRxajBqWWdWSXc?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+---
+
+# 3 Software Stocks Built For Transparent Pricing And Consent Driven Growth
+
+3 Software Stocks Built For Transparent Pricing And Consent Driven Growth simplywall.st
+
+## 笔记
+
+

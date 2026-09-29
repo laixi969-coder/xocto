@@ -1,0 +1,47 @@
+---
+slug: insurtech-outmarket-raises-345m-just-months-after-prior-roun
+name: Insurtech Outmarket raises $34.5M just months after prior round
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/
+canonical_url: https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round
+summary: The startup uses AI to automate tedious paperwork for insurance agencies and brokers.
+first_seen: '2026-09-28T14:00:00Z'
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
+sources:
+- marketfeeds
+- newssearch
+sightings:
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/
+  seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVJtcGYwOGYzSEh4c3hzY21EcTdxajNvWXViTFVucmFZUm95VnhMYmFjRDRQaGlwWGVTY3c5b1lCNTM3N2VJUzNMRW9kcWo5TGJtMG9iemFyWDRCS3hWd1VwZTdfR2pIWFVueXhZamMyRGR6MlJlMVBxU1A2ZG01UzhWWVBMSUIyX1FqY2NPaDQtLTcxZU9wbXRpMGxOMms?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+---
+
+# Insurtech Outmarket raises $34.5M just months after prior round
+
+The startup uses AI to automate tedious paperwork for insurance agencies and brokers.
+
+## 笔记
+
+

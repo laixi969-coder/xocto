@@ -20,7 +20,7 @@ url: https://huggingface.co/spaces/ryansael/airace
 canonical_url: https://huggingface.co/spaces/ryansael/airace
 summary: Live 3D race of AI labs, updated every 6 hours
 first_seen: '2026-09-14T14:25:21Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-09-29T01:57:43Z'
 status: pending_filter
 sources:
 - huggingface
@@ -62,6 +62,13 @@ sightings:
   metrics:
     points: 165
     comments: 41
+  kind: news
+- source: hackernews
+  url: https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics:
+    points: 426
+    comments: 385
   kind: news
 ---
 

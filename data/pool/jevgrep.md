@@ -36,24 +36,24 @@ canonical_url: https://github.com/dzhng/jevgrep
 summary: Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant
   files and source context.
 first_seen: '2026-09-26T04:06:56Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dzhng/jevgrep
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 764
-    forks: 47
-    open_issues: 5
+    stars: 1453
+    forks: 89
+    open_issues: 23
   kind: product
 - source: github
   url: https://github.com/nassim-arifette/jevgrep
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 84
+    stars: 88
     forks: 9
     open_issues: 1
   kind: product

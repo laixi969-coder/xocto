@@ -33,17 +33,17 @@ url: https://jevdit.com
 canonical_url: https://jevdit.com
 summary: a social network moderated by Jev
 first_seen: '2026-09-27T20:46:03Z'
-last_seen: '2026-09-28T00:46:41Z'
+last_seen: '2026-09-29T01:57:43Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://jevdit.com
-  seen_at: '2026-09-28T00:46:41Z'
+  seen_at: '2026-09-29T01:57:43Z'
   metrics:
-    points: 7
-    comments: 0
+    points: 11
+    comments: 1
   kind: product
 ---
 

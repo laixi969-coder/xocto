@@ -20,17 +20,17 @@ url: https://onmyway133.com
 canonical_url: https://onmyway133.com
 summary: My favorite Claude Code tips & tricks
 first_seen: '2026-09-13T12:38:38Z'
-last_seen: '2026-09-25T00:33:47Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://onmyway133.com
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
     stars: 100
-    forks: 8
+    forks: 7
     open_issues: 0
   kind: product
 ---

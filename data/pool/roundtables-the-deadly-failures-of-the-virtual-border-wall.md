@@ -23,14 +23,19 @@ summary: The US has spent billions building a “virtual wall” of surveillance
   lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people
   who moved through areas watched by these towers…
 first_seen: '2026-09-22T13:42:05Z'
-last_seen: '2026-09-23T00:34:37Z'
-status: rejected
+last_seen: '2026-09-29T01:58:05Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/
   seen_at: '2026-09-23T00:34:37Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/
+  seen_at: '2026-09-29T01:58:05Z'
   metrics: {}
   kind: news
 ---

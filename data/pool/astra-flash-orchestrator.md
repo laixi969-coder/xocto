@@ -31,17 +31,17 @@ canonical_url: https://github.com/ethanplusai/astra-flash-orchestrator
 summary: Astra plans and reviews; DeepSeek Flash builds. A native Codex workflow with phased tasks, verification,
   safe installation and reversible setup.
 first_seen: '2026-09-17T05:42:31Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ethanplusai/astra-flash-orchestrator
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 704
-    forks: 61
+    stars: 706
+    forks: 62
     open_issues: 4
   kind: product
 ---

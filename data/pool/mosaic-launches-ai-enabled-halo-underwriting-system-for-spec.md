@@ -34,14 +34,19 @@ url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNcU1ycVRHbW9HbG1sV0ZCTU
 canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNcU1ycVRHbW9HbG1sV0ZCTUpDeFhCSjVxampTWkFidEY1ZEd5ZzhrZ25tMmNwLTFlTGNmYWc5RWt2VFp0aHlHaXZpMmhNSFVhTWg2aW5NSVJrT3BiYkdDTVYzd3dpOC1YUjRhakNVUXRhYndxU1A4dUVPNjAyWXhzdVBfbE0tT3VkRlp4R0ZNT2dsam91X2hvWm5wazNqbFN4NkZZTlh4QzJwY1ZmXzE0?oc=5
 summary: Mosaic Launches AI-Enabled HALO Underwriting System for Specialty SME Market Program Business
 first_seen: '2026-09-22T13:04:30Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: watching
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNcU1ycVRHbW9HbG1sV0ZCTUpDeFhCSjVxampTWkFidEY1ZEd5ZzhrZ25tMmNwLTFlTGNmYWc5RWt2VFp0aHlHaXZpMmhNSFVhTWg2aW5NSVJrT3BiYkdDTVYzd3dpOC1YUjRhakNVUXRhYndxU1A4dUVPNjAyWXhzdVBfbE0tT3VkRlp4R0ZNT2dsam91X2hvWm5wazNqbFN4NkZZTlh4QzJwY1ZmXzE0?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTE9uV2hRel9FeXdDN2lJdDJ3WDgtTUVBZjNDME5ENzByRXZRMnRWOWdhUWV1aEx3WjhYRWtGemNkR2JEVUJlaHhaT1BJQ2t0VUktRFptclhiSWpUSGFaLXdsRXJuM1RPV0tIR1FhRXg2SERPd1pXejl2Y3F0YTQ?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---

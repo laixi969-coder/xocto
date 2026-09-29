@@ -21,8 +21,8 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUS1QxajZRN255MHRmZHpGQX
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUS1QxajZRN255MHRmZHpGQXFBOGM3M2IzaEJ3OVRpVEpXTlpuamJma0tBSzJRV2ZjZXlqTkJxem5teHZtWExLQw?oc=5
 summary: 英伟达股东会摘要：黄仁勋豪言AI投资回报率的问题“已有答案” 财联社
 first_seen: '2026-08-30T07:13:48Z'
-last_seen: '2026-09-24T00:31:52Z'
-status: rejected
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -70,6 +70,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcjlZRTdEc3ZoTURtdHY5VFl2SUlTWW1sbUVHWGtiZGlKU0hrUVR5OHdLV25sXzhkemtGUjQ2Z24zVWFkUzlUWXU2NDM1YlFxZV9KUDFvVVJJZU5WMTZhR19vd1Q2eFp1MjlvTENVSUJmUzdaRkFyT0pXVmJBaElMcnBJTFQ2NUhB?oc=5
   seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LOWtLRU9WTVp4ckFPVnhOZkVmN3BUbHdlLWtOLVJLZXgyRkJ3WnpaVnpZOHdib0tySXFtMy04UzhpMkptM2VCY1B1bkdzM3pvb2RWc3FtMlZGVEEtUDZGSFdFcEg?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE8wbjJPSmJYSGlublNhYlA3b3MzMHdOTGlFZWZMT25HX2pjV1J5SndCa0lnZE9wc2J0NmxiaTNiLWdkeU5Nc0xBLQ?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE90ckoyektNemExWkE2SlR3MmdTY3g1bWhmZkxXMmt0UmM1d0VnaDBGQ0MzUXFIY3I4cklHT0JNSUxfUklEUnc?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqaE92dGtwX3dQbUpSdkNydDVBLVMtb1NmNi1yR3NuakhnekNoOFVCTGRVLWNTclRNZ0g4QlVWMnB0WlBOaXprSGJKM2d6M3dySmVV?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---

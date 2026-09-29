@@ -20,8 +20,8 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-09-27T00:36:16Z'
-status: rejected
+last_seen: '2026-09-29T01:57:43Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 169
     comments: 209
+  kind: news
+- source: hackernews
+  url: https://blog.glyph.im/2026/09/serious-ai-product.html
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics:
+    points: 133
+    comments: 52
   kind: news
 ---
 

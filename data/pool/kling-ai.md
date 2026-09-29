@@ -8,14 +8,23 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/Kling-ai/webid1D6F399B1
 canonical_url: https://aicpb.com/product/Kling-ai/webid1D6F399B1
 summary: ''
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-08-22T22:38:19Z'
+last_seen: '2026-09-29T01:58:05Z'
 status: pending_filter
 sources:
 - aicpb
+- marketfeeds
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Kling-ai/webid1D6F399B1
@@ -30,6 +39,12 @@ sightings:
     - 视频生成榜
     - 出海总榜
     - 全球总榜
+  kind: product
+- source: marketfeeds
+  url: https://sifted.eu/articles/humanos-seed-raise/
+  seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
 ---
 
 # Kling ai

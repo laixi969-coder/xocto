@@ -22,7 +22,7 @@ url: https://www.ft.com/content/b207536e-6def-4080-878f-d0eba61d11e0
 canonical_url: https://ft.com/content/b207536e-6def-4080-878f-d0eba61d11e0
 summary: US Republicans revolt against Flock AI surveillance as backlash intensifies
 first_seen: '2026-09-07T04:07:07Z'
-last_seen: '2026-09-25T00:34:10Z'
+last_seen: '2026-09-29T01:57:43Z'
 status: pending_filter
 sources:
 - hackernews
@@ -39,6 +39,13 @@ sightings:
   url: https://www.theverge.com/policy/1000005/flock-senate-hearing
   seen_at: '2026-09-25T00:34:10Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics:
+    points: 169
+    comments: 77
   kind: news
 ---
 

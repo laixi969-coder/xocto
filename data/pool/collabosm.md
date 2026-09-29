@@ -31,16 +31,16 @@ summary: 'A local app that rents a GPU in your own Colab account and serves Qwen
   or any OpenAI client uses a fixed local /v1. Auto-stop, CU ledger, live prefill/decode. Windows, macOS,
   Linux.'
 first_seen: '2026-09-25T00:46:02Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/architectds/collabosm
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 87
+    stars: 89
     forks: 2
     open_issues: 0
   kind: product

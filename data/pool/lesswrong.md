@@ -20,8 +20,8 @@ url: https://www.lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-abo
 canonical_url: https://lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-about-ai
 summary: How My Students Think About AI
 first_seen: '2026-09-11T01:33:36Z'
-last_seen: '2026-09-12T00:18:40Z'
-status: rejected
+last_seen: '2026-09-29T01:57:43Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 46
     comments: 10
+  kind: news
+- source: hackernews
+  url: https://www.lesswrong.com/posts/Nm4ewbYovtjq69dvH/pacing-the-frontier-is-not-the-actual-goal-for-ai-labs
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics:
+    points: 74
+    comments: 78
   kind: news
 ---
 

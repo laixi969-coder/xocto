@@ -20,10 +20,11 @@ url: https://vitalsmac.com/
 canonical_url: https://vitalsmac.com
 summary: A Mac activity monitor that thinks in apps, not processes
 first_seen: '2026-09-25T14:01:44Z'
-last_seen: '2026-09-27T00:36:16Z'
+last_seen: '2026-09-29T01:57:43Z'
 status: rejected
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://vitalsmac.com/
@@ -31,6 +32,11 @@ sightings:
   metrics:
     points: 6
     comments: 7
+  kind: product
+- source: producthunt
+  url: https://www.producthunt.com/products/vitals-3
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics: {}
   kind: product
 ---
 

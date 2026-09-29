@@ -1,0 +1,41 @@
+---
+slug: how-investors-may-respond-to-intapp-inta-client-adopts-ai-wo
+name: How Investors May Respond To Intapp (INTA) Client Adopts AI Workflow Tools
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbWJHT1p5SnA4M2dhQzFZeUE3c25HVHVsUU5YNmtpUlhpN19OSVBSeTIxTWhVSlRDd2V5aGxWRFp6RFdmc3lTR003TUhrUnpTUFpDdFRQYVJuTXV1Nzg0d0FMTDVBdkdWeWxQR2NnS0laRk1pWk5VRVM5Tmt1dHNNdTdkWTBNY1owdkpuaGw2M1ZEZHI3enJrS0ZoVE5KSm1aVnJiVEFMWEo2cmlvWm1zRjdmZUszaGJjVW9EN2VUREZ3UjDSAcgBQVVfeXFMTTFsRFVaWFpMaUNDaE5zdk1GQzJObVFxXzN2eDI5QVJSNzQ5LVMzcWRvdFdpVnlFbmUwX2Y1Sy1lVFpkWXlsdDhtNUtRUlJhalhlcEJyOUZ3NjJZbHRYc2Ita1Q2UHBvOTEySG0tLXRKMkZsWGVES180YmNyeEgxcGFIUlFlNFN6a1F4X09nLXFENGE0UklRRmFkQmE3cU5zbFVHYkt6M1A2UnBJY2lZLWlXZ0ZVX09peUY4bUlscEFjNGJSUktBWUo?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbWJHT1p5SnA4M2dhQzFZeUE3c25HVHVsUU5YNmtpUlhpN19OSVBSeTIxTWhVSlRDd2V5aGxWRFp6RFdmc3lTR003TUhrUnpTUFpDdFRQYVJuTXV1Nzg0d0FMTDVBdkdWeWxQR2NnS0laRk1pWk5VRVM5Tmt1dHNNdTdkWTBNY1owdkpuaGw2M1ZEZHI3enJrS0ZoVE5KSm1aVnJiVEFMWEo2cmlvWm1zRjdmZUszaGJjVW9EN2VUREZ3UjDSAcgBQVVfeXFMTTFsRFVaWFpMaUNDaE5zdk1GQzJObVFxXzN2eDI5QVJSNzQ5LVMzcWRvdFdpVnlFbmUwX2Y1Sy1lVFpkWXlsdDhtNUtRUlJhalhlcEJyOUZ3NjJZbHRYc2Ita1Q2UHBvOTEySG0tLXRKMkZsWGVES180YmNyeEgxcGFIUlFlNFN6a1F4X09nLXFENGE0UklRRmFkQmE3cU5zbFVHYkt6M1A2UnBJY2lZLWlXZ0ZVX09peUY4bUlscEFjNGJSUktBWUo?oc=5
+summary: How Investors May Respond To Intapp (INTA) Client Adopts AI Workflow Tools simplywall.st
+first_seen: '2026-09-28T16:26:59Z'
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbWJHT1p5SnA4M2dhQzFZeUE3c25HVHVsUU5YNmtpUlhpN19OSVBSeTIxTWhVSlRDd2V5aGxWRFp6RFdmc3lTR003TUhrUnpTUFpDdFRQYVJuTXV1Nzg0d0FMTDVBdkdWeWxQR2NnS0laRk1pWk5VRVM5Tmt1dHNNdTdkWTBNY1owdkpuaGw2M1ZEZHI3enJrS0ZoVE5KSm1aVnJiVEFMWEo2cmlvWm1zRjdmZUszaGJjVW9EN2VUREZ3UjDSAcgBQVVfeXFMTTFsRFVaWFpMaUNDaE5zdk1GQzJObVFxXzN2eDI5QVJSNzQ5LVMzcWRvdFdpVnlFbmUwX2Y1Sy1lVFpkWXlsdDhtNUtRUlJhalhlcEJyOUZ3NjJZbHRYc2Ita1Q2UHBvOTEySG0tLXRKMkZsWGVES180YmNyeEgxcGFIUlFlNFN6a1F4X09nLXFENGE0UklRRmFkQmE3cU5zbFVHYkt6M1A2UnBJY2lZLWlXZ0ZVX09peUY4bUlscEFjNGJSUktBWUo?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+---
+
+# How Investors May Respond To Intapp (INTA) Client Adopts AI Workflow Tools
+
+How Investors May Respond To Intapp (INTA) Client Adopts AI Workflow Tools simplywall.st
+
+## 笔记
+
+

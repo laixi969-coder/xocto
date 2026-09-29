@@ -32,14 +32,19 @@ url: https://news.google.com/rss/articles/CBMiswFBVV95cUxONWs3aG5oX0NtUzM0TWFMMU
 canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxONWs3aG5oX0NtUzM0TWFMMUU4M1dVVzVNcFNDWFVNOXplS09GUXUtU2R2Mk1qeUhrUHZhMVJ6U0l1NTk3OVFyMmxxLTZnbTVRZ1dmdzBiOGI4TGxUQ09vQTRfWldSb3dmZTlpYzdtaTFPZmJwN2doc3FsazdtMkluWXY3YjBOSEloMFVuSVFtQ1poanFUMFBjYmtxaWZGd3lPRXZady1JOGVuZXBPYk9SdXBiWQ?oc=5
 summary: AI Startup Heidi Doubles Valuation to $900 Million in New Round Bloomberg.com
 first_seen: '2026-09-22T12:00:00Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: watching
+last_seen: '2026-09-29T01:58:36Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiswFBVV95cUxONWs3aG5oX0NtUzM0TWFMMUU4M1dVVzVNcFNDWFVNOXplS09GUXUtU2R2Mk1qeUhrUHZhMVJ6U0l1NTk3OVFyMmxxLTZnbTVRZ1dmdzBiOGI4TGxUQ09vQTRfWldSb3dmZTlpYzdtaTFPZmJwN2doc3FsazdtMkluWXY3YjBOSEloMFVuSVFtQ1poanFUMFBjYmtxaWZGd3lPRXZady1JOGVuZXBPYk9SdXBiWQ?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQbEVXV3VmY3pBQ0ZtYVR5bG1mR091c1dwbmdjMHlTTzFUalo5NHRlaWVKOF94anJRblNCd3RpZUpYdEYzZ3VUNVZ1aE9DREx5Z1NUTlBGSXJJVVluUG1tcW9jU0RTMC1MRDBrcVRaYzhJUDBZYjlycmxwM0Q2RENEMmx1NzNPNlUxa2s5RDVfRQ?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---

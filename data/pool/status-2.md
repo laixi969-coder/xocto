@@ -22,8 +22,8 @@ url: https://twitter.com/ggerganov/status/2095897173376618881
 canonical_url: https://twitter.com/ggerganov/status/2095897173376618881
 summary: Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace
 first_seen: '2026-09-04T17:12:22Z'
-last_seen: '2026-09-13T00:00:05Z'
-status: rejected
+last_seen: '2026-09-29T01:57:43Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -40,6 +40,13 @@ sightings:
   metrics:
     points: 63
     comments: 69
+  kind: news
+- source: hackernews
+  url: https://twitter.com/AliAbunimah/status/2103890594137309425
+  seen_at: '2026-09-29T01:57:43Z'
+  metrics:
+    points: 214
+    comments: 112
   kind: news
 ---
 

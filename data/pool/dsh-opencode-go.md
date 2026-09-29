@@ -20,17 +20,17 @@ url: https://github.com/Duskriver/dsh-opencode-go
 canonical_url: https://github.com/Duskriver/dsh-opencode-go
 summary: 让你的DSH完美适配opencodeg-go套餐
 first_seen: '2026-09-15T14:48:57Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-29T01:57:46Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Duskriver/dsh-opencode-go
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-29T01:57:46Z'
   metrics:
-    stars: 43
-    forks: 9
+    stars: 60
+    forks: 10
     open_issues: 2
   kind: product
 ---

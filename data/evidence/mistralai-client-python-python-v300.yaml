@@ -1,0 +1,18 @@
+- id: ev-ceb6931c14b862af
+  project_slug: mistralai-client-python-python-v300
+  url: https://github.com/mistralai/client-python/releases/tag/v3.0.0
+  title: 'mistralai/client-python: Python - v3.0.0'
+  published_at: '2026-09-28T18:35:32Z'
+  collected_at: '2026-09-29T01:57:46Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "### Generated SDK baseline differences\r\nThe published SDK or generator baseline differs from\
+    \ the baseline used by the OpenAPI changelog.\r\n\r\n<details>\r\n<summary>Generated surface details</summary>\r\
+    \n\r\n#### Stable compatibility changes\r\nRemoved from the stable API surface (24):\r\n- `DeploymentKoyebBackendSpec`\r\
+    \n- `UnknownDeploymentWorkerSpecResponseBackendSpec`\r\n- `DeploymentKoyebBackendSpec.build_directory`\r\
+    \n- `DeploymentKoyebBackendSpec.dockerfile_path`\r\n- `DeploymentKoyebBackendSpec.type`\r\n- `DeploymentResourceConfig.cpu_limit`\r\
+    \n- `DeploymentResourceConfig.cpu_request`\r\n- `DeploymentResourceConfig.memory_limit`\r\n- `DeploymentResourceConfig.memory_request`\r\
+    \n- `DeploymentResourceConfigUpdate.cpu_limit`\r\n- `DeploymentResourceConfigUpdate.cpu_request`\r\
+    \n- `DeploymentResourceConfigUpdate.memory_limit`\r\n- `DeploymentResourceConfigUpdate.memory_request`\r\
+    \n- `DeploymentWorkerSpecInput.entrypoint`\r\n- `DeploymentWorkerSpecInput.working_dir`\r\n- `DeploymentWorkerSpecResponse.commit_sha`\r\
+    \n- `Deploymen"

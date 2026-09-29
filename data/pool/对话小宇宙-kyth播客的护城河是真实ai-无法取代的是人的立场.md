@@ -64,14 +64,19 @@ summary: "头图来源：小宇宙 \n   \n 过去一年，播客被推到了内
   \ \n 比如去年「西西弗高速」的崛起，就是一个很典型的案例。这档节目的主播来自纸媒，是做深度报道的记者。有一部分深度报道的消费欲和创作欲，正好被播客的听众和创作者承接了。 \n 有一批听众不想被浅层化、碎片化的内容裹挟。他们想消费深度内容，想找到一个不被打扰的空间——小宇宙需要保护这种连接。\
   \ \n 前几天，我在微博上看到「展开讲讲」的主播洞姐发了一句话。她说，每次播客发出来，只要有一个听众回复说「我很喜欢这一期」，她就觉得很满足。 \n 我非常珍视这件事。 \n 哪怕只有一个听众愿意向创作者表达：「我听到了，我有很好的感受，我度过了一段很好的时光。」我们能够承接内容的发布、听众与创作者之间的交流，并且让这种交流发生在善意的碰撞之中——这就是我们做小宇宙的意义所在。"
 first_seen: '2026-09-15T07:10:42Z'
-last_seen: '2026-09-16T00:21:06Z'
-status: rejected
+last_seen: '2026-09-29T01:58:05Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: http://www.geekpark.net/news/370345
   seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: http://www.geekpark.net/news/371399
+  seen_at: '2026-09-29T01:58:05Z'
   metrics: {}
   kind: news
 ---

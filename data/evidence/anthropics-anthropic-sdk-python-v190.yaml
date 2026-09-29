@@ -1,0 +1,26 @@
+- id: ev-1d442264f33f42f6
+  project_slug: anthropics-anthropic-sdk-python-v190
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.9.0
+  title: 'anthropics/anthropic-sdk-python: v1.9.0'
+  published_at: '2026-09-28T18:03:49Z'
+  collected_at: '2026-09-29T01:57:46Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## 1.9.0 (2026-09-28)
+
+
+    Full Changelog: [v1.8.0...v1.9.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.8.0...v1.9.0)
+
+
+    ### Features
+
+
+    * **api:** add between_tools thinking type ([a9a577d](https://github.com/anthropics/anthropic-sdk-python/commit/a9a577d5a98cb2e133c1f8362f69fff856808da1))
+
+    * **api:** add claude-sonnet-5-5 ([a5a25e9](https://github.com/anthropics/anthropic-sdk-python/commit/a5a25e9e35ac32f100149d1dfa0fbf8cac42a8b4))
+
+    * **api:** add include_inherited and source to workspace rate limits ([0bf4af8](https://github.com/anthropics/anthropic-sdk-python/commit/0bf4af824331c424a03d9f486de2f53a656d3bba))
+
+    * **api:** add typed event type values to the Managed Agents events list filter ([1b82cd9](https://github.com/anthropics/anthropic-sdk-python/commit/1b82cd91ddd0874fb59a020fabc76618cb036ced))
+
+    * **api:** cache diagnostics GA — diagnostics on Message / MessageCreateParams ([22062b8](https://github.com/anthropics/anthropic-sdk-python/commit/22062b8fd130d3f90159845c1bde444'

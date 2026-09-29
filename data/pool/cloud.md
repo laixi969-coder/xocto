@@ -23,7 +23,7 @@ summary: "这个网站注册就送 15 美元额度，用来注册 Muse 只用几
   \ 也可以直接地址栏输入这个路径:  https://cloud.browser-use.com/browser\r\n- 点击右上角 “Launch & Open” ,   这时候会弹出一个浏览器窗口,\
   \ 地址栏输入 http://muse.ai ,  \r\n- 按正常流程注册即可\r\n- 结束后记得右上角关闭这个实例，确保安全"
 first_seen: '2026-09-25T04:43:34Z'
-last_seen: '2026-09-26T00:38:27Z'
+last_seen: '2026-09-29T01:58:36Z'
 status: pending_filter
 sources:
 - v2ex
@@ -38,6 +38,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQZDNLcGl5LXlENmNxaHZZLVhnb2VSdDd6alBDODRKcTV0UHNTYlJzTUxnVlNzc2ZDQldrTVdSd2lNcHlTTjgzeXJSS0l4N1dnZXZFOHVZUlNQX2c5a1dudUNiVE11NWtSenEzLW1aS1pDZVk3bDhqSkh4QWhiTy1uaW5jWHFPRWJMclU0by0xU01MamlLSkE?oc=5
   seen_at: '2026-09-26T00:38:27Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SSmxpSGVOUHdvVEduNGtLUVVhc0h0eDJqOGNTQklIbFRYd1UwUE9oak45QlFxU1VNVXVqQ3pMSk9xdmlCTEt4LU9XZGhFeWdVX3c?oc=5
+  seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
 ---
