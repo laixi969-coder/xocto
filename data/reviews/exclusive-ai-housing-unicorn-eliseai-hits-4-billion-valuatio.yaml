@@ -1,0 +1,43 @@
+- id: req-initial-exclusive-ai-housing-unicorn-eliseai-hits-4-billion-valuatio-2026-09-30
+  project_slug: exclusive-ai-housing-unicorn-eliseai-hits-4-billion-valuatio
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决租户咨询与看房排期的重复人工处理，痛点刚性且旧流程清晰；买方是物业运营方，但公开材料未给出定价与付费证据。
+    evidence_ids:
+    - ev-516adba3ad5a869e
+  - gate: consensus
+    status: insufficient
+    reason: 除估值与投资方外，候选材料没有客户数、采用率或续约数据，无法判断行业共识是否形成。
+    evidence_ids:
+    - ev-516adba3ad5a869e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、按什么计价或收入结构，钱从物业公司还是租户侧来属于推断，不是已验证事实。
+    evidence_ids:
+    - ev-516adba3ad5a869e
+  - gate: truth
+    status: insufficient
+    reason: 交付是否确定性发生、异常会话如何转人工、是否贴近租赁合规要求，候选材料均未说明。
+    evidence_ids:
+    - ev-516adba3ad5a869e
+  next_validation: 收集 EliseAI 官方定价页或公开客户案例，确认按什么计价以及是否有可核验的物业部署与续约数据。
+  market: ''
+  job: 公寓社区经理或租赁运营人员在租户咨询高峰期，处理邮件、电话和表单里的看房与续租请求，要完成回复、排期并把信息录入租赁系统。
+  job_en: Apartment community managers or leasing staff handle viewing and renewal requests arriving by
+    email, phone and web forms during peak inquiry periods, and must reply, schedule and enter the details
+    into the leasing system.
+  pain: 咨询量大且重复，人工逐条回复容易漏掉线索、排期冲突，录入还要二次抄写，直接影响出租率和响应速度。
+  pain_en: Inquiry volume is high and repetitive; manual replies drop leads, create scheduling conflicts
+    and require re-keying data, directly hurting occupancy and response speed.
+  current_alternative: 目前多由前台或租赁专员手工回复，配合邮件模板、电话和通用 CRM 记录，部分公司外包给呼叫中心。
+  current_alternative_en: Today it is mostly manual replies by front-desk or leasing staff with email
+    templates, phone calls and generic CRM records, sometimes outsourced to call centers.
+  usage_reason: 相较人工逐条回复，它直接读取租户消息并自动应答、排期、回写系统，省掉“先回复再手工录入”这一步；推断在咨询量大的公寓社区，运营方会为减少漏单和缩短响应时间而选择它。
+  usage_reason_en: Compared with replying one by one, it reads tenant messages and automatically answers,
+    schedules and writes back to the system, removing the separate manual entry step; by inference, high-inquiry
+    communities would choose it to cut dropped leads and shorten response time.

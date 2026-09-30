@@ -34,7 +34,7 @@ summary: Glass Launches AI-Powered G-Commerce Supplier Experience, Giving Busine
   to Governments markets.businessinsider.com
 first_seen: '2026-09-21T15:31:46Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - officialfeeds

@@ -125,3 +125,49 @@
     users state a multi-step task in one sentence and have the assistant execute it, removing per-step
     operation and app switching; by inference, subscribers who often handle chores on the move would choose
     it in such situations.
+- id: req-initial-chatgpt-mobile-app-gets-voice-based-agentic-features-2026-09-30
+  project_slug: chatgpt-mobile-app-gets-voice-based-agentic-features
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手机上多步操作繁琐、需跨应用切换的痛点，也把保险比价从逐站填表变成对话内取报价；旧行为明确，交付可核对。
+    evidence_ids:
+    - ev-6f21bf13cb0c46a1
+    - ev-00bf9a7ac908d0b1
+  - gate: consensus
+    status: insufficient
+    reason: 代理式功能仅面向 Plus 与 Pro 付费层，保险接入目前只有单一公司案例，尚无公开采用规模或持续使用数据。
+    evidence_ids:
+    - ev-00bf9a7ac908d0b1
+  - gate: model
+    status: insufficient
+    reason: ChatGPT 已有订阅付费路径，但语音代理任务与保险报价是否单独计价、按成交还是按线索收费，公开材料未说明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-6f21bf13cb0c46a1
+  - gate: truth
+    status: insufficient
+    reason: 多步代理在手机端能否确定性交付、出错时人工如何接管，公开材料未给出边界说明，需看官方文档。
+    evidence_ids:
+    - ev-6f21bf13cb0c46a1
+  next_validation: 收集 ChatGPT 官方帮助文档或发布说明中关于移动端 Work 标签页代理任务的可执行范围、失败处理与人工确认边界的公开描述。
+  market: ''
+  job: 个人用户在手机上处理临时事务时，口述要办的事，让助手代为执行多步操作并取回结果；保险购买者则在对话中直接拿到旅行保险报价并比较方案。
+  job_en: Individual users handling ad-hoc errands on their phone dictate what they need done and have
+    the assistant execute multi-step actions and return results; insurance buyers get and compare travel
+    insurance quotes directly in the conversation.
+  pain: 手机上完成多步操作需要在多个应用间切换、反复输入，步骤繁琐且容易中断；保险比价则要跳转到各家网站重复填写信息。
+  pain_en: Completing multi-step tasks on a phone means switching between apps and re-entering information,
+    which is tedious and easily interrupted; comparing insurance requires jumping to each insurer's site
+    and re-filling forms.
+  current_alternative: 旧做法是用户自己在手机浏览器或各应用里逐步操作，或到各保险公司官网分别填写信息获取报价。
+  current_alternative_en: The old way is for users to operate step by step in a mobile browser or separate
+    apps, or to fill in forms on each insurer's website to get quotes.
+  usage_reason: 相较自己逐应用操作，助手在对话内直接执行多步动作并返回结果，省去切换应用与重复输入这一步；保险报价被放进同一对话，用户不必再逐站填写。这是基于产品能力与任务结构的推断，公开材料尚未提供留存或复购证据。
+  usage_reason_en: Compared with operating app by app, the assistant executes multi-step actions inside
+    the conversation and returns results, removing the app-switching and re-entry step; insurance quotes
+    sit in the same conversation so users no longer fill forms site by site. This is an inference from
+    product capability and task structure; public materials do not yet show retention or repeat-use evidence.

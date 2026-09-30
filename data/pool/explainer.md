@@ -21,7 +21,7 @@ canonical_url: https://explainer.pion.ly
 summary: Interactive SDP Explainer for WebRTC, Sip, and RTSP
 first_seen: '2026-08-27T18:18:11Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

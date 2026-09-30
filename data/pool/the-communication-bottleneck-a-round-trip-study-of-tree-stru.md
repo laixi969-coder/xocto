@@ -27,7 +27,7 @@ summary: When language models reason in chain-of-thought or exchange free-text i
   an exact oracle. Evaluating all pairwise combinations of sixteen models yields…
 first_seen: '2026-09-29T00:00:00Z'
 last_seen: '2026-09-30T01:18:43Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

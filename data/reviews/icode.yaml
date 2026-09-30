@@ -1,0 +1,43 @@
+- id: req-initial-icode-2026-09-30
+  project_slug: icode
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决离线环境下的 agent 执行，但公开材料未说明替代了哪一步旧工作，也无可核验痛点，价值关证据不足。
+    evidence_ids:
+    - ev-7927d7af79620b38
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 242 星标与 39 复刻，属于关注度而非采用证据，无法判断是否有稳定使用群体。
+    evidence_ids:
+    - ev-7927d7af79620b38
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、部署方式或买方，无法判断收入来自企业私有部署还是个人开发者。
+    evidence_ids:
+    - ev-7927d7af79620b38
+  - gate: truth
+    status: insufficient
+    reason: 无法核对离线执行的实际交付结果与人工确认边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-7927d7af79620b38
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认它实际替代的旧流程与交付物形态。
+  market: ''
+  job: 开发者在无法联网或数据不能外传的环境中，把本地代码与任务交给离线 agent 执行并取回结果。
+  job_en: Developers in offline or data-restricted environments hand local code and tasks to an offline
+    agent and retrieve results.
+  pain: 公开材料只说明它离线、可扩展、有终端界面，没有说明替代了哪一步具体手工工作，也没有用户抱怨或旧流程描述，痛点无法确认。
+  pain_en: The public material only says it is offline, extensible and terminal-based; it does not say
+    which manual step it replaces, and there are no user complaints or old-workflow descriptions, so the
+    pain point cannot be confirmed.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务，无法确认替代对象。
+  current_alternative_en: The public material does not say what users previously used for the same task,
+    so the alternative being replaced cannot be confirmed.
+  usage_reason: 缺少可核验的旧流程与用户反馈，无法解释用户为何选择它而非现有做法；仅凭离线与终端界面属于推断，不足以支撑选择理由。
+  usage_reason_en: Without verifiable old workflows or user feedback, there is no explanation of why users
+    would choose it over existing practice; offline operation and a terminal UI alone are inference, not
+    a reason for adoption.

@@ -3,9 +3,14 @@ slug: ai-is-rewiring-online-shopping-63-of-consumers-start-product
 name: 'AI Is Rewiring Online Shopping: 63% of Consumers Start Product Research With AI'
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 报道称 63% 的消费者已开始用 AI 进行商品研究，购物入口从传统搜索与电商页面转向 AI 助手。若该比例成立，品牌获取流量的方式与零售商的商品信息、推荐位和转化路径都将被重构，AI
+  导购类应用的商业价值随之上升；该数据来自单一报道，尚不足以推断全行业已完成迁移。
 inspiration: ''
-summary_en: ''
+summary_en: A report says 63% of consumers now begin product research with AI, shifting the shopping entry
+  point away from traditional search and retail pages toward AI assistants. If accurate, this changes
+  how brands acquire traffic and how retailers structure product data, placements and conversion paths,
+  raising the commercial value of AI shopping-assistant applications; the figure comes from a single report
+  and does not by itself show the whole industry has completed the shift.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOZE5PYUhpRGVW
 summary: 'AI Is Rewiring Online Shopping: 63% of Consumers Start Product Research With AI InfotechLead'
 first_seen: '2026-09-29T09:57:56Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

@@ -31,7 +31,7 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Enabler stage). To
   routing outstrips supply, and although all well-funded there is not yet one clear winner pulling away.
 first_seen: '2026-08-31T15:00:01+00:00'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - ia40
 - marketfeeds

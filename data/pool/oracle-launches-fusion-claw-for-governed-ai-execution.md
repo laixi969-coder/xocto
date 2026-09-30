@@ -1,6 +1,6 @@
 ---
 slug: oracle-launches-fusion-claw-for-governed-ai-execution
-name: Oracle launches Fusion Claw for governed AI execution
+name: Oracle Fusion Claw
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPMGZvZy1GZHlR
 summary: Oracle launches Fusion Claw for governed AI execution IT Brief Australia
 first_seen: '2026-09-29T22:30:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Oracle launches Fusion Claw for governed AI execution
+# Oracle Fusion Claw
 
 Oracle launches Fusion Claw for governed AI execution IT Brief Australia
 

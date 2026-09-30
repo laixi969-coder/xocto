@@ -1,0 +1,44 @@
+- id: req-initial-solidworks-2026-09-30
+  project_slug: solidworks
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决重复建模与改参数的手工负担，旧做法是逐条点菜单或自写宏，痛点具体且不采用就要重复劳动，价值结构成立。
+    evidence_ids:
+    - ev-e246b9e844497899
+  - gate: consensus
+    status: insufficient
+    reason: 仅见 372 星，无 issue、fork 或用户评价，无法判断工程师是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-e246b9e844497899
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是设计团队或软件厂商，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e246b9e844497899
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 操作几何内核时的安全边界与人工确认环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-e246b9e844497899
+  next_validation: 收集该仓库的 issue、discussion 与提交记录，确认是否有工程师报告在真实 SolidWorks 装配体上重复使用。
+  market: ''
+  job: 机械设计工程师在已有 SolidWorks 装配体上需要批量修改尺寸、加圆角或导出 STEP/STL 时，把自然语言指令交给 AI 助手，由它在运行中的 SolidWorks 里执行建模动作并产出模型文件或宏。
+  job_en: When mechanical design engineers need to batch-modify dimensions, add fillets or export STEP/STL
+    on an existing SolidWorks assembly, they hand natural-language instructions to an AI assistant that
+    performs modeling actions inside the running SolidWorks and produces model files or macros.
+  pain: 重复建模和改参数靠手工点选菜单，步骤多、易漏改，宏录制门槛高，改一处要重走一遍流程。
+  pain_en: Repetitive modeling and parameter changes rely on manual menu clicking, are step-heavy and
+    easy to miss, macro recording has a high barrier, and one change forces a full re-run of the flow.
+  current_alternative: 工程师手工在 SolidWorks 里逐步操作，或自己录制/编写 VBA 宏，或让同事代做重复件。
+  current_alternative_en: Engineers operate SolidWorks step by step by hand, record or write their own
+    VBA macros, or ask colleagues to handle repetitive parts.
+  usage_reason: 相较手工点选或自写宏，它把指令直接落到运行中的 SolidWorks 实例上执行草图、拉伸、圆角并导出文件，省掉逐条菜单操作和宏语法这一步；推断常在重复件多、改型频繁的机械设计场景下被选用。
+  usage_reason_en: Compared with manual clicking or writing macros, it executes sketch, extrude, fillet
+    and export directly on the running SolidWorks instance, removing the step of menu-by-menu operation
+    and macro syntax; inference is that it is chosen in mechanical design work with many repetitive parts
+    and frequent revisions.

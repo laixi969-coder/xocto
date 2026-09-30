@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/MultiverseComputingCAI/getting-the-so
 summary: ''
 first_seen: '2026-09-29T13:07:00Z'
 last_seen: '2026-09-30T01:18:43Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

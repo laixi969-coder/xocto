@@ -21,7 +21,7 @@ canonical_url: https://freegamesforseniors.com
 summary: Free browser games designed for 80-year-old eyes and hands
 first_seen: '2026-09-29T15:45:54Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

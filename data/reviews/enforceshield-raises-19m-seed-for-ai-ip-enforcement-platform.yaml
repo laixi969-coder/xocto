@@ -1,0 +1,43 @@
+- id: req-initial-enforceshield-raises-19m-seed-for-ai-ip-enforcement-platform-2026-09-30
+  project_slug: enforceshield-raises-19m-seed-for-ai-ip-enforcement-platform
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决侵权取证与投诉材料整理这一重复劳动，痛点具体、旧流程清晰；买方为品牌方或律所，公开材料未披露定价。
+    evidence_ids:
+    - ev-fb9a73b4fb7dbd2e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有种子轮融资信息，没有客户、案件量或采用数据，无法判断共识。
+    evidence_ids:
+    - ev-fb9a73b4fb7dbd2e
+  - gate: model
+    status: insufficient
+    reason: 未披露收费方式，按案件或按订阅收费均为推断，不是已验证事实。
+    evidence_ids:
+    - ev-fb9a73b4fb7dbd2e
+  - gate: truth
+    status: insufficient
+    reason: 取证与投诉涉及法律后果，公开材料未见证据可采性、平台规则适配或人工复核边界的说明。
+    evidence_ids:
+    - ev-fb9a73b4fb7dbd2e
+  next_validation: 收集 EnforceShield 官方产品页或公开客户案例，确认其取证范围、交付物与收费方式。
+  market: ''
+  job: 品牌保护专员或知识产权律师，在电商与社交平台出现仿冒或盗图链接时，需要把截图、链接和交易记录整理成可提交的投诉或维权材料。
+  job_en: Brand protection specialists or IP lawyers need to turn screenshots, links and transaction records
+    into submittable complaint or enforcement materials when counterfeit or stolen-image listings appear
+    on e-commerce and social platforms.
+  pain: 取证工作重复、格式要求细，人工逐条截图归档耗时，且错过时效会影响投诉受理。
+  pain_en: Evidence gathering is repetitive and format-sensitive; manual screenshotting and filing is
+    slow, and missing the window can hurt whether a complaint is accepted.
+  current_alternative: 旧做法是法务或助理人工截图、整理表格，再套用模板撰写投诉邮件或平台表单。
+  current_alternative_en: The old approach is legal staff or assistants manually screenshotting, building
+    spreadsheets and filling platform forms or complaint emails from templates.
+  usage_reason: 推断：相较人工逐条截图归档，它自动抓取并结构化侵权证据、生成投诉材料，省掉整理与套模板这一步，因此案件量大、人手有限的中小品牌与代理机构会在批量维权时选择它。
+  usage_reason_en: 'Inference: compared with manual screenshotting and filing, it automatically captures
+    and structures infringement evidence and drafts complaint materials, removing the collation and templating
+    step, so small brands and agencies with many cases and limited staff would pick it for bulk enforcement.'

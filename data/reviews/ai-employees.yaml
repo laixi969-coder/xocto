@@ -300,3 +300,41 @@
     by role and schedule and leaves editable files after each run, cutting the burden of rebuilding the
     flow and of not knowing which step failed; however, public material shows no concrete routine, customer
     case or repeat-use evidence, so it cannot be confirmed that users keep it in their daily workflow.'
+- id: req-initial-ai-employees-2026-09-30
+  project_slug: ai-employees
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是每天重复登录后台、导出并整理数据的固定任务，痛点刚性且不做的代价是人工耗时与漏项，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有星标、fork 与一次社区讨论，属于关注度，不能证明持续采用或团队已把它留在工作流里。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，钱可能来自企业自建或后续托管服务，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 浏览器代理在真实后台的登录、验证码与权限边界未在材料中说明，交付能否确定性发生仍缺证据。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告在真实后台跑通例程并重复使用。
+  market: ''
+  job: 小团队运营或行政人员每天要登录多个后台，把订单、库存、对账单等材料导出并整理成可交付的表格或日报。
+  job_en: A small-team operator or admin logs into several back-office systems daily, exports orders,
+    inventory, or statements, and turns them into a deliverable sheet or daily report.
+  pain: 这些步骤固定、重复、跨系统，人工点一遍耗时且容易漏项，出错后还要回头核对。
+  pain_en: These steps are fixed, repetitive, and spread across systems; doing them by hand is slow, easy
+    to miss, and forces re-checking after errors.
+  current_alternative: 目前多靠人工手动操作，或写一次性脚本、用 RPA 工具，维护成本高且换页面就失效。
+  current_alternative_en: Today it is mostly manual work, one-off scripts, or RPA tools that are costly
+    to maintain and break when a page changes.
+  usage_reason: 推断：相较人工点后台或写死脚本，它把登录、抓取、填表按日程交给可复用例程，减少每次重做一遍的步骤，因此每天有固定后台流程的小团队会先试它；但尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus manual clicking or hard-coded scripts, it hands login, scraping,
+    and form-filling to reusable scheduled routines, cutting the need to redo each step, so small teams
+    with fixed daily back-office flows would try it first; no retention or repeat-use evidence yet.'

@@ -1,0 +1,44 @@
+- id: req-initial-eliseai-raises-350-million-at-4-billion-valuation-to-expand-2026-09-30
+  project_slug: eliseai-raises-350-million-at-4-billion-valuation-to-expand
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决租户与患者咨询无人及时承接、预约流失的问题，痛点刚性且旧流程明确；买方是物业与医疗机构，公开材料未披露定价。
+    evidence_ids:
+    - ev-ba03a9604c6ffcbd
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资与扩张方向，没有客户名单、续约或使用规模数据，无法判断行业共识强度。
+    evidence_ids:
+    - ev-ba03a9604c6ffcbd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，to B 付费路径只能推断为按机构订阅或按结果计费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ba03a9604c6ffcbd
+  - gate: truth
+    status: insufficient
+    reason: 对话涉及租户与患者信息，公开材料未见人工兜底、合规或错误处理机制的说明。
+    evidence_ids:
+    - ev-ba03a9604c6ffcbd
+  next_validation: 收集 EliseAI 官方定价页或公开客户案例，确认其收费方式与已部署机构的使用结果。
+  market: ''
+  job: 住房租赁与医疗机构的运营人员，在租户或患者通过短信、网页或电话发来咨询、预约和续租请求时，需要把这些对话转成确定的预约、跟进或工单。
+  job_en: Operations staff at housing and healthcare organisations need to turn inbound tenant or patient
+    enquiries, bookings and renewal requests arriving by SMS, web or phone into confirmed appointments,
+    follow-ups or tickets.
+  pain: 这类消息量大、时段分散，人工回复慢且容易漏掉，漏掉一条就损失一次看房或到诊。
+  pain_en: These messages are high-volume and spread across the day; manual replies are slow and easily
+    dropped, and each missed message costs a showing or a visit.
+  current_alternative: 旧做法是前台或客服团队用电话、邮件和排班表人工跟进，或用通用客服系统加人工外呼。
+  current_alternative_en: The old approach is front-desk or support staff following up by phone, email
+    and spreadsheets, or a generic helpdesk plus manual outbound calls.
+  usage_reason: 推断：相较人工逐条回复，它自动接住首轮咨询并直接推进到预约或工单，减少漏回和来回确认这一步，因此消息量大、人手紧的租赁与诊所团队会在高峰期选择它。
+  usage_reason_en: 'Inference: compared with replying to each message by hand, it automatically absorbs
+    the first round of enquiries and pushes them to a booking or ticket, removing the missed-reply and
+    back-and-forth step, so leasing and clinic teams with high message volume and thin staffing would
+    pick it during peak periods.'

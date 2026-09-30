@@ -1,0 +1,42 @@
+- id: req-initial-gladys-assistant-5-2026-09-30
+  project_slug: gladys-assistant-5
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决自托管智能家居的隐私与配置门槛问题，痛点真实，但公开材料未说明具体设备接入与自动化能力，价值边界不清。
+    evidence_ids:
+    - ev-f2a845f4e76dd355
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品定位外，没有用户评价、社区讨论或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-f2a845f4e76dd355
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、开源许可或付费路径，买方与收入来源无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f2a845f4e76dd355
+  - gate: truth
+    status: insufficient
+    reason: 无法核验设备兼容范围、自动化是否确定性执行以及人工介入边界，交付确定性未知。
+    evidence_ids:
+    - ev-f2a845f4e76dd355
+  next_validation: 收集 Gladys Assistant 官方文档中的设备兼容清单与自动化能力说明，确认其可执行的具体场景。
+  market: ''
+  job: 自托管智能家居用户在自己服务器上部署系统，接入家中灯光、传感器等设备，设定规则后让系统自动执行场景联动。
+  job_en: Self-hosting smart home users deploy the system on their own server, connect lights and sensors,
+    set rules and let it run scene automations.
+  pain: 现有智能家居平台多依赖云端账号与厂商 App，隐私顾虑明显，且高级自动化常需手写 YAML 配置，普通用户难以维护。
+  pain_en: Existing smart home platforms often depend on cloud accounts and vendor apps, raising privacy
+    concerns, and advanced automations frequently require hand-written YAML that ordinary users struggle
+    to maintain.
+  current_alternative: Home Assistant 等自托管平台，或厂商自带 App 与云端场景。
+  current_alternative_en: Self-hosted platforms such as Home Assistant, or vendor apps and cloud scenes.
+  usage_reason: 推断：相较手写 YAML 的旧做法，它把自动化配置改为免配置的界面操作，减少用户维护配置文件的负担，因此不愿写代码但重视隐私的自托管用户可能选择它；但公开材料未给出设备兼容清单与自动化能力细节。
+  usage_reason_en: 'Inference: compared with hand-writing YAML, it replaces config files with a no-config
+    interface, reducing the burden of maintaining configuration, so privacy-minded self-hosters who do
+    not code may choose it; however public material gives no device compatibility list or automation detail.'

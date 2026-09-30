@@ -21,7 +21,7 @@ canonical_url: https://github.com/geneva-render/geneva
 summary: CLI video editor and compositor with a native HTML/CSS engine
 first_seen: '2026-09-28T13:51:02Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FNjFuWUNybmZI
 summary: 百万年薪抢人？美妆打响AI人才争夺战 36kr.com
 first_seen: '2026-09-28T17:55:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DTEloTlRoOHFw
 summary: 如何用AI重新理解宠物：AG真人国际注册重塑智能养宠新范式 体坛
 first_seen: '2026-09-28T12:58:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

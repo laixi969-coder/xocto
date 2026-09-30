@@ -1,11 +1,12 @@
 ---
 slug: openai-推出个人-ai-智能体-dots传豆包将推个人-ai-产品spellspacex-发射星舰成功入轨-极客早
-name: OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 在开发者大会发布智能体 dots 与会员计价体系调整，属于模型厂商主产品与平台政策的行业变化，不是独立垂直产品。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI announced the agent dots and a membership pricing overhaul at its developer conference;
+  this is a platform-level change from a model vendor rather than an independent vertical product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -73,7 +74,7 @@ summary: "OpenAI 开发者大会推出智能体 dots，重构会员定价，意�
   \ 次试飞均采用亚轨道轨迹。（来源：IT 之家）"
 first_seen: '2026-09-30T00:25:27Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -84,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道
+# OpenAI
 
 OpenAI 开发者大会推出智能体 dots，重构会员定价，意图打造 AI 超级入口 
  北京时间 9 月 30 日凌晨，OpenAI 举办其宣称规模最大的一届开发者大会，一次性发布 25 项更新，覆盖新模型、API、智能体、插件生态与企业软件市场。大会现场，Sam Altman 公布 ChatGPT Pro 会员调整方案时台下一片沉寂，套餐调价成为本次发布最受争议的内容。 

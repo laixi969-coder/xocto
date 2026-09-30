@@ -1,6 +1,6 @@
 ---
 slug: openai发布ai助手dot可自主干活全天候待命
-name: OpenAI发布AI助手“Dot”：可自主干活，全天候待命
+name: OpenAI Dot
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnNUhGeDNJMlJV
 summary: OpenAI发布AI助手“Dot”：可自主干活，全天候待命 财联社
 first_seen: '2026-09-29T14:49:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI发布AI助手“Dot”：可自主干活，全天候待命
+# OpenAI Dot
 
 OpenAI发布AI助手“Dot”：可自主干活，全天候待命 财联社
 

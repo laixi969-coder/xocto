@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNUUppV0thazEw
 summary: CMC在中央指导委员会会议上就第57号决议执行情况作的报告 Vietnam.vn
 first_seen: '2026-09-29T05:21:10Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

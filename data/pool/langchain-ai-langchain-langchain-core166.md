@@ -1,6 +1,6 @@
 ---
 slug: langchain-ai-langchain-langchain-core166
-name: 'langchain-ai/langchain: langchain-core==1.6.6'
+name: langchain-core
 builder: langchain-ai
 category: ''
 summary_zh: ''
@@ -28,7 +28,7 @@ summary: 'Changes since langchain-core==1.6.5
   docs(core): fix docstring examples that don''t run as copied (#40815)'
 first_seen: '2026-09-29T14:53:11Z'
 last_seen: '2026-09-30T01:18:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -40,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# langchain-ai/langchain: langchain-core==1.6.6
+# langchain-core
 
 Changes since langchain-core==1.6.5
 

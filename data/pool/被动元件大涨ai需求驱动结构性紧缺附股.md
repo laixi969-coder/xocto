@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sX1BkTHhwVkow
 summary: 被动元件大涨！AI需求驱动结构性紧缺(附股) 东方财富
 first_seen: '2026-09-29T04:11:39Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

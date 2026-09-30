@@ -23,7 +23,7 @@ summary: Although Oura has postponed its planned offering that could have raised
   companies lining up potential fourth-quarter listings.
 first_seen: '2026-09-29T18:42:38Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

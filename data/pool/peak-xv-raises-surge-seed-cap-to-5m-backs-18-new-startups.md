@@ -25,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOZDVuRlg5SnF2
 summary: Peak XV Raises Surge Seed Cap to $5M, Backs 18 New Startups The Tech Buzz
 first_seen: '2026-09-29T01:05:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

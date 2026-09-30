@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tdmtkb2w3Q0pG
 summary: AI用户破7亿！普及率过半，彻底火遍全国 雷科技
 first_seen: '2026-09-29T16:19:40Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

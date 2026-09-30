@@ -1,6 +1,6 @@
 ---
 slug: openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogu
-name: OpenAI still doesn’t seem to have a handle on all of its rogue AI activity
+name: OpenAI
 builder: mikelgan
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: On Friday, OpenAI published a new site devoted to “misalignment repor
   incidents is alarming.
 first_seen: '2026-09-28T17:09:02Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - hackernews
@@ -41,7 +41,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI still doesn’t seem to have a handle on all of its rogue AI activity
+# OpenAI
 
 On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.
 

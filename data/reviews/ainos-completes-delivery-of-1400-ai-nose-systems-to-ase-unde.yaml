@@ -1,0 +1,43 @@
+- id: req-initial-ainos-completes-delivery-of-1400-ai-nose-systems-to-ase-unde-2026-09-30
+  project_slug: ainos-completes-delivery-of-1400-ai-nose-systems-to-ase-unde
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工厂气体与气味异常筛查依赖人工嗅辨、无法留痕的问题，痛点在合规巡检场景刚性，交付为可核对的检测结果。
+    evidence_ids:
+    - ev-118913609764bff3
+  - gate: consensus
+    status: insufficient
+    reason: 已有 ASE 三年合同与 1,400 套交付，说明单一客户采用成立，但无其他客户或行业普遍采用的公开证据。
+    evidence_ids:
+    - ev-118913609764bff3
+  - gate: model
+    status: insufficient
+    reason: 合同金额 210 万美元、期限三年已披露，但单价、按设备还是按服务收费、续约与毛利均未公开，付费路径只能推断。
+    evidence_ids:
+    - ev-118913609764bff3
+  - gate: truth
+    status: insufficient
+    reason: 交付数量与合同属实，但检测准确率、误报率、人工复核边界与是否真正替代实验室流程均无公开材料。
+    evidence_ids:
+    - ev-118913609764bff3
+  next_validation: 收集 Ainos 官方投资者关系页或产品页中关于该电子鼻系统的检测指标、部署方式与收费结构的公开说明。
+  market: ''
+  job: 半导体厂务与品控工程师在产线或厂区巡检时，处理现场气味与气体样本，要完成异常判定并留下可追溯的检测记录。
+  job_en: Fab facility and quality engineers handle on-site odor and gas samples during line or site inspection,
+    needing to judge anomalies and keep a traceable detection record.
+  pain: 人工嗅辨依赖个人经验、无法留痕且难以标准化，送实验室检测则周期长，异常发现滞后可能造成批次损失。
+  pain_en: Human sniffing depends on individual experience, leaves no trace and is hard to standardize,
+    while lab testing is slow, so anomalies are found late and can cost a batch.
+  current_alternative: 老师傅现场嗅辨、便携式气体检测仪读数，或取样送实验室做成分分析。
+  current_alternative_en: Veteran staff sniffing on site, handheld gas detectors, or sending samples to
+    a lab for composition analysis.
+  usage_reason: 推断：相较人工嗅辨，电子鼻把判定动作变成设备采集加模型比对，减少对个人经验的依赖并自动生成记录，因此需要合规留痕、巡检频次高的厂务与品控团队会在异常筛查环节选择它；但公开材料未给出准确率与复购证据。
+  usage_reason_en: 'Inference: versus human sniffing, the electronic nose turns judgment into device sampling
+    plus model comparison, cutting reliance on individual experience and auto-generating records, so facility
+    and quality teams with compliance trails and frequent inspections would pick it for anomaly screening;
+    public materials give no accuracy or repeat-purchase evidence.'

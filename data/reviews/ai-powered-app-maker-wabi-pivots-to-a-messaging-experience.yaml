@@ -1,0 +1,42 @@
+- id: req-initial-ai-powered-app-maker-wabi-pivots-to-a-messaging-experience-2026-09-30
+  project_slug: ai-powered-app-maker-wabi-pivots-to-a-messaging-experience
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决临时工具搭建的需求，但公开材料只描述定位转变，未说明具体输入、交付与不采用的后果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-7f2767974c7b41a5
+  - gate: consensus
+    status: insufficient
+    reason: 只有一篇报道描述转型，没有用户评价、采用或场景证据，卡在场景感知一环。
+    evidence_ids:
+    - ev-7f2767974c7b41a5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅还是 to B 采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7f2767974c7b41a5
+  - gate: truth
+    status: insufficient
+    reason: 按需生成界面能否确定性交付、出错时人工如何确认，公开材料均未说明。
+    evidence_ids:
+    - ev-7f2767974c7b41a5
+  next_validation: 收集 Wabi 官方定价页或产品文档，确认按什么计价、交付边界与人工确认环节。
+  market: ''
+  job: 非技术的小团队负责人，在需要临时统计或排班时，把零散的需求描述交给对话式工具，希望直接拿到能用的界面而不是代码。
+  job_en: A non-technical small-team lead who needs ad-hoc tracking or scheduling hands a loose description
+    to a conversational tool, expecting a usable interface rather than code.
+  pain: 临时需求用表格和脚本拼凑，改一次就要重做，找人开发成本高、周期长。
+  pain_en: Ad-hoc needs are stitched together with spreadsheets and scripts; every change means rework,
+    and hiring a developer is costly and slow.
+  current_alternative: 用电子表格、现成 SaaS 模板或让开发同事临时写脚本。
+  current_alternative_en: Spreadsheets, off-the-shelf SaaS templates, or asking a developer colleague
+    to write a quick script.
+  usage_reason: 推断：若对话能直接产出可操作界面并延续后续任务，用户可省去描述需求给开发者、等待排期这一步；但公开材料未给出留存、复购或客户案例，无法确认用户会长期留在工作流里。
+  usage_reason_en: 'Inference: if the chat directly yields a usable interface and continues later tasks,
+    users skip briefing a developer and waiting for a slot; however, public material gives no retention,
+    repeat-purchase or customer-case evidence, so long-term workflow stickiness cannot be confirmed.'

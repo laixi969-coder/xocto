@@ -21,7 +21,7 @@ canonical_url: https://misanthropic.chat
 summary: an AI that's honest about how it feels about you
 first_seen: '2026-09-29T14:00:24Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

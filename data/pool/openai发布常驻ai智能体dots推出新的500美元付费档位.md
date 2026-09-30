@@ -1,6 +1,6 @@
 ---
 slug: openai发布常驻ai智能体dots推出新的500美元付费档位
-name: OpenAI发布常驻AI智能体Dots，推出新的500美元付费档位
+name: OpenAI Dots
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiggFBVV95cUxOclZSd3JTREtZ
 summary: OpenAI发布常驻AI智能体Dots，推出新的500美元付费档位 video.sina.com.cn
 first_seen: '2026-09-29T17:24:37Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI发布常驻AI智能体Dots，推出新的500美元付费档位
+# OpenAI Dots
 
 OpenAI发布常驻AI智能体Dots，推出新的500美元付费档位 video.sina.com.cn
 

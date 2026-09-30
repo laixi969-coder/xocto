@@ -1,11 +1,14 @@
 ---
 slug: ai-手机只是起点高通要为智能体铺一条全栈技术路线
-name: AI 手机只是起点，高通要为智能体铺一条全栈技术路线
+name: Qualcomm
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 高通在骁龙峰会上宣布把智能体AI作为整张技术路线的中心，重新组织CPU、GPU、NPU、内存与连接，以支撑跨手机、PC、耳机、眼镜持续运行的智能体。对应用方而言，这意味着端侧可长期驻留的智能体能力可能成为新的默认前提，但具体交付形态与时间表仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: At the Snapdragon Summit Qualcomm said agentic AI now sits at the center of its roadmap, reorganizing
+  CPU, GPU, NPU, memory and connectivity to support agents running continuously across phones, PCs, earbuds
+  and glasses. For application builders this suggests always-on on-device agents may become a default
+  assumption, though concrete deliverables and timelines remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -78,7 +81,7 @@ summary: "「这次骁龙峰会最令人兴奋的地方在于，我认为我们�
   \ AI 软件栈，高通正在把 AI 从某一颗芯片上的功能，提升为贯穿技术路线图的核心逻辑。它的目标也不再只是提供更快的处理器，而是成为智能体跨越终端、边缘和云端运行时的计算与连接底座。  \n  如果说智能手机时代，高通抓住的是移动计算的入口，那么智能体时代，它希望抓住的，是智能发生的每一个地方。"
 first_seen: '2026-09-28T09:15:42Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -89,7 +92,7 @@ sightings:
   kind: news
 ---
 
-# AI 手机只是起点，高通要为智能体铺一条全栈技术路线
+# Qualcomm
 
 「这次骁龙峰会最令人兴奋的地方在于，我认为我们终于步入了一个可以清晰看见 AI 智能手机形态的阶段」高通公司总裁兼 CEO 安蒙在峰会第一天说道。 
  炎热的美国茂宜岛，早上不到 8 点，会场里已经聚集了来自全球的媒体、开发者、合作伙伴和产业人士。让大家等待的并不只是又一代手机芯片，而是在寻找一个更大的答案——随着 AI 从手机里的一项功能，演进为能够跨终端理解意图、保存情境并代表用户采取行动的智能体，CPU、GPU、NPU、内存和连接将如何被重新组织，手机、PC、耳机、眼镜等终端之间的关系将如何改变？ 

@@ -21,7 +21,7 @@ canonical_url: https://chrisbeach.co.uk/space-adventure
 summary: Short film made using MiniMax H3 on my home PC
 first_seen: '2026-09-28T15:24:04Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

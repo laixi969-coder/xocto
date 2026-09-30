@@ -3,27 +3,24 @@ slug: slate
 name: Slate
 builder: wassermanproductions
 category: AI + 创作
-summary_zh: 做 AI 影片的人在开拍前要规划镜头、保持角色与场景连贯，并把每个镜头写成图像、视频、音乐或配音生成器能用的提示词。Slate 让用户先排镜头与覆盖方式，再把这些设定编译成可直接投喂给各类生成器的提示词，不需要
-  API key；最终交付是一套可复用的镜头提示词，具体生成与成片仍需用户自己在各生成器里完成，流程细节仍待核验。
-inspiration: 趋势是 AI 影片的制作瓶颈从“能不能生成”转到“镜头之间是否连贯、提示词是否可复用”，谁掌握分镜与连续性资产，谁就掌握上游。切入可以从短剧、广告片、电商视频这类按条交付的小团队入手，卖“分镜到提示词”的整段流程而不是单个生成按钮；价格未披露，不宜假设。
-summary_en: People making AI films must plan shots and keep characters and scenes consistent before generating,
-  then turn each shot into prompts that image, video, music or voice generators can use. Slate lets them
-  lay out shots and coverage first and compile those settings into prompts for various generators without
-  API keys; the deliverable is a reusable shot-prompt set, while actual generation and final cuts still
-  happen in the user's own tools, and the exact flow needs verification.
-inspiration_en: 'The trend is that the bottleneck in AI filmmaking shifts from whether generation works
-  to whether shots stay consistent and prompts are reusable, so whoever owns storyboard and continuity
-  assets owns the upstream. Entry point: small teams delivering short dramas, ads or e-commerce videos
-  per piece, selling the storyboard-to-prompt pipeline rather than one more generate button; pricing is
-  undisclosed and should not be assumed.'
+summary_zh: 做 AI 影视的人，在开拍前规划分镜、安排镜头覆盖、维持角色与场景连续性时打开它，把镜头意图整理成可直接投喂图像、视频、音乐或配音生成器的提示词，最终拿到一份可执行的分镜提示词清单，是否开拍仍由人确认。具体流程与交付形态仍待核验。
+inspiration: 趋势是 AI 影视的制作瓶颈正从“生成一段画面”前移到“开拍前的镜头规划与连续性管理”，提示词成为需要被工程化管理的中间产物。切入可从广告片、短剧、电商视频这类有明确交付节点的小团队进，卖的是分镜到成片的可复用流程，而非单次生成额度。
+summary_en: People making AI films open it before shooting to plan storyboards, arrange shot coverage
+  and keep continuity, turning shot intent into prompts that can be fed directly to image, video, music
+  or voice generators, and end up with an executable shot-prompt list that a human still approves. The
+  exact workflow and deliverable remain unverified.
+inspiration_en: The trend is that the bottleneck in AI filmmaking is moving upstream from generating a
+  clip to planning shots and managing continuity, making prompts an artifact that needs engineering discipline.
+  The entry point is small teams with fixed delivery dates in ads, short dramas and e-commerce video,
+  selling a reusable storyboard-to-final-cut process rather than generation credits.
 priority_review: false
 project_type: new_application
 industries:
 - 影视制作
-- 广告与营销内容
+- 广告与营销
 industries_en:
-- Film and video production
-- Advertising and marketing content
+- Film & TV Production
+- Advertising & Marketing
 jobs:
 - 分镜与镜头规划
 - AI 生成提示词编写
@@ -40,7 +37,7 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

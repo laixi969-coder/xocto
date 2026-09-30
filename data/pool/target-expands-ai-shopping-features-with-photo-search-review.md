@@ -24,7 +24,7 @@ summary: Target Expands AI Shopping Features With Photo Search, Review Insights 
   Pulse 2.0
 first_seen: '2026-09-10T20:26:17Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - hackernews

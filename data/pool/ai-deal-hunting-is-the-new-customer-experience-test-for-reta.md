@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxORnJadkJqZnpu
 summary: AI deal-hunting is the new customer experience test for retailers Retail Customer Experience
 first_seen: '2026-09-29T10:00:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

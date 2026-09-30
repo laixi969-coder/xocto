@@ -3,17 +3,16 @@ slug: design-studio-ai
 name: design-studio-ai
 builder: bestagentkits
 category: AI + 创作
-summary_zh: 设计师或前端工程师在需要产出可编辑的界面、3D 或动效素材时打开它，把设计意图交给 AI 代理在云端画布上生成并修改，最终拿到可继续编辑的设计文件或代码产物，仍需人工确认后交付；具体输入格式与交付形态在公开材料中未写明，仍待核验。
-inspiration: 趋势是设计工具开始把 AI 代理当作一等协作者，而不是加一个生成按钮。切入可考虑面向品牌与电商团队，把“改稿—出多尺寸素材—交付前端可用资源”这条旧流程整体接过来，按交付物而非席位收费；但该产品尚无定价与客户案例，先观察其工作流是否真被重复使用。
-summary_en: A designer or front-end engineer opens it when they need editable interface, 3D or motion
-  assets, hands the design intent to AI agents that generate and revise on a cloud canvas, and ends up
-  with a still-editable design file or code artifact that a human must confirm before delivery; the exact
-  input formats and deliverables are not stated in public material and remain unverified.
-inspiration_en: The trend is design tools treating AI agents as first-class collaborators rather than
-  adding a generate button. A wedge could be brand and e-commerce teams, taking over the whole old loop
-  of revising drafts, exporting multi-size assets and handing off front-end-ready resources, charged per
-  deliverable rather than per seat; but with no pricing or customer cases yet, first watch whether the
-  workflow is actually reused.
+summary_zh: 设计师或前端工程师在需要产出界面、3D 或动效素材时，把设计任务交给 AI 代理或自己在云端工作区里编辑；工具接收设计意图与素材，执行编辑、生成与动效处理，最终交付可用的设计文件或代码，人工仍需确认结果。具体输入格式与交付形态仍待核验。
+inspiration: 趋势是设计工具开始把 AI 代理当作一等使用者，而不只是给人加一个生成按钮。切入可考虑面向独立设计工作室或电商视觉团队，把代理产出的设计稿直接接到交付环节，按项目或按产出收费；目前公开材料未披露定价，这是判断而非事实。
+summary_en: When designers or front-end engineers need to produce interface, 3D or motion assets, they
+  hand design tasks to AI agents or edit inside a cloud workspace; the tool takes design intent and assets,
+  performs editing, generation and motion work, and delivers usable design files or code, with human confirmation
+  still required. The exact input formats and delivery form remain to be verified.
+inspiration_en: The trend is that design tools are starting to treat AI agents as first-class users rather
+  than just adding a generate button for people. A possible entry is serving independent design studios
+  or e-commerce visual teams by connecting agent-produced designs straight into delivery, charging per
+  project or per output; no pricing is disclosed in public materials, so this is a judgment, not a fact.
 priority_review: false
 project_type: open_source
 industries:
@@ -25,7 +24,7 @@ industries_en:
 jobs:
 - 设计师与前端工程师
 jobs_en:
-- Designers and front-end engineers
+- Designers and Front-end Engineers
 regions: []
 regions_en: []
 open_source: true
@@ -35,7 +34,7 @@ summary: Open-source design workspace for AI agents and humans. Cloud editing, 3
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

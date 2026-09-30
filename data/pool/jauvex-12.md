@@ -21,7 +21,7 @@ canonical_url: https://github.com/reindent/jauvex
 summary: two-way voice chat harness for Claude+Codex+Grok+Jev
 first_seen: '2026-09-29T00:31:44Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

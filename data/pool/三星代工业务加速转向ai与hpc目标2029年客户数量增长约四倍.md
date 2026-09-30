@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5a1JELWUzMDhW
 summary: 三星代工业务加速转向AI与HPC：目标2029年客户数量增长约四倍 东方财富
 first_seen: '2026-09-29T07:36:31Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
-name: Reco raises $55M as AI agent security startups crowd the market
+name: Reco
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: The round builds on a $30 million fundraise in February, taking the com
   $140 million.
 first_seen: '2026-09-29T12:30:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch
@@ -39,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# Reco raises $55M as AI agent security startups crowd the market
+# Reco
 
 The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.
 

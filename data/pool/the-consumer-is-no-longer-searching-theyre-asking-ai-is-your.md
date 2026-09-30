@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOYzBCVEhLZTFF
 summary: The consumer is no longer searching, they’re asking AI. Is your brand ready? Social Samosa
 first_seen: '2026-09-29T06:21:40Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

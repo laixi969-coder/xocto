@@ -1,0 +1,43 @@
+- id: req-initial-viamour-2026-09-30
+  project_slug: viamour
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么具体需求、用户卡在哪一步都写不出来，只有一句定位描述。
+    evidence_ids:
+    - ev-34d49462fc27da56
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-34d49462fc27da56
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径无从判断。
+    evidence_ids:
+    - ev-34d49462fc27da56
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付形态与安全边界均未披露。
+    evidence_ids:
+    - ev-34d49462fc27da56
+  next_validation: 收集该产品的官方页面或帮助文档，核验其输入字段、匹配逻辑与最终交付形态。
+  market: ''
+  job: 自由行旅行者在规划行程或想找人结伴时，需要处理自己的出行时间、目的地和偏好信息，产出一份可执行的行程或合适的同行人选。
+  job_en: Independent travelers planning a trip or seeking companions must work through their dates, destinations
+    and preferences to produce an actionable itinerary or suitable travel companions.
+  pain: 公开材料只给出定位描述，没有说明用户在结伴或规划中具体卡在哪一步、不解决会失去什么。
+  pain_en: The public material only gives a positioning statement and does not say which step users get
+    stuck on, or what they lose by not solving it.
+  current_alternative: 现有做法是旅行者在社交平台发帖找同伴、在攻略社区和行程工具里自行拼行程，公开材料未说明它替代其中哪一步。
+  current_alternative_en: Today travelers post on social platforms to find companions and assemble itineraries
+    themselves across guide communities and planning tools; the material does not say which step this
+    replaces.
+  usage_reason: 推断：若代理式流程能直接给出可执行的行程与匹配人选，可省去在多个平台间反复筛选的步骤，但公开材料未提供任何功能细节或用户反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if the agentic flow directly returns an actionable itinerary and matches,
+    it could remove repeated filtering across platforms, but the material offers no feature detail or
+    user feedback to confirm this causal link.'

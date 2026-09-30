@@ -1,6 +1,6 @@
 ---
 slug: mitratech-acquires-botdojo-to-add-ai-agents-to-aries
-name: Mitratech Acquires BotDojo to Add AI Agents to ARIES
+name: Mitratech
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNZFNRa0NHYXhx
 summary: Mitratech Acquires BotDojo to Add AI Agents to ARIES SaasRise
 first_seen: '2026-09-29T06:31:45Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Mitratech Acquires BotDojo to Add AI Agents to ARIES
+# Mitratech
 
 Mitratech Acquires BotDojo to Add AI Agents to ARIES SaasRise
 

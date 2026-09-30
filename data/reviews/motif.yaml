@@ -1,0 +1,43 @@
+- id: req-initial-motif-2026-09-30
+  project_slug: motif
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是团队代理会话知识流失的问题，痛点方向成立，但公开材料只有一句描述，说不清输入、产出与不解决的后果，价值判断证据不足。
+    evidence_ids:
+    - ev-dc8695322b7de8d2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论且无评论，没有客户案例或团队采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-dc8695322b7de8d2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；按团队席位或按仓库收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-dc8695322b7de8d2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对图谱产出是否准确、是否贴近团队复盘的第一性目标，也没有人工边界说明。
+    evidence_ids:
+    - ev-dc8695322b7de8d2
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认输入格式、图谱产出形态与是否已有团队实际使用记录。
+  market: ''
+  job: 研发团队负责人在成员更替或复盘时，处理散落在多个编码代理会话里的历史记录，要还原某次改动为什么这样做、谁参与过。
+  job_en: An engineering team lead, during handover or retrospective, works through history scattered
+    across many coding-agent sessions to reconstruct why a change was made and who was involved.
+  pain: 代理会话记录分散且难以检索，团队知识随会话结束而流失，新人或接手者只能重新问人或重读代码。
+  pain_en: Agent session logs are scattered and hard to search, so team knowledge evaporates when a session
+    ends and newcomers must re-ask people or re-read code.
+  current_alternative: 目前靠人工翻聊天记录、翻提交历史，或直接问当事人；也有人干脆放弃追溯。
+  current_alternative_en: Today people manually scroll chat logs, dig through commit history, or just
+    ask the person involved; some simply give up on tracing it.
+  usage_reason: 推断：如果它能把代理会话自动归集成可检索的关系图谱，接手者就不必逐条翻会话，可直接定位相关决策；但公开材料未说明输入格式、检索效果或是否有人复核，因此尚不能确认用户会持续使用。
+  usage_reason_en: 'Inference: if it automatically consolidates agent sessions into a searchable relationship
+    graph, a successor could locate the relevant decision instead of scrolling session by session; but
+    public material does not describe input format, retrieval quality, or human review, so sustained use
+    cannot be confirmed.'

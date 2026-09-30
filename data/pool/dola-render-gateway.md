@@ -22,7 +22,7 @@ summary: Dola Studio — AI Video Generation & Render Gateway (Seedance 2.5/2.0,
   Browser Pool)
 first_seen: '2026-09-16T21:16:08Z'
 last_seen: '2026-09-30T01:18:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

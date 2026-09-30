@@ -1,0 +1,42 @@
+- id: req-initial-corral-2026-09-30
+  project_slug: corral
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是代理进程失控后残留后台任务的问题，痛点具体，但材料只有一句说明，说不清拦截机制与覆盖范围。
+    evidence_ids:
+    - ev-400f4be39b84cf38
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有采用或留存证据，无法判断开发者是否真的需要这层护栏。
+    evidence_ids:
+    - ev-400f4be39b84cf38
+  - gate: model
+    status: insufficient
+    reason: 开源项目，没有定价页或买方信息；可能靠托管版或支持服务收费，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-400f4be39b84cf38
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否覆盖所有代理启动方式，以及误杀正常进程的风险如何控制。
+    evidence_ids:
+    - ev-400f4be39b84cf38
+  next_validation: 查看该仓库的 issue 与文档，确认它实际拦截哪些代理进程启动方式、覆盖范围与已知误杀情况。
+  market: ''
+  job: 开发者在本地或服务器上让编码代理执行任务后，需要把代理启动的每条命令收干净，避免留下占资源的后台进程。
+  job_en: After letting a coding agent run tasks locally or on a server, a developer needs every command
+    the agent started to be cleaned up so no resource-hogging background process is left behind.
+  pain: 代理会自己起进程，跑完不回收，残留任务占端口和内存，排查起来费时。
+  pain_en: Agents start their own processes and do not reap them, so leftovers hold ports and memory and
+    are time-consuming to trace.
+  current_alternative: 手工用进程查看命令找出残留进程再逐个杀掉，或重启机器。
+  current_alternative_en: Manually hunting leftover processes with process-listing commands and killing
+    them one by one, or rebooting the machine.
+  usage_reason: 推断：如果它自动跟踪并终止代理启动的每条命令，就省掉了手工排查和逐个杀进程这一步，频繁跑代理的开发者会因此选择它；材料未给出任何使用反馈，动机无法确认为事实。
+  usage_reason_en: 'Inference: if it automatically tracks and terminates every command an agent starts,
+    it removes manual hunting and killing, which is why developers running agents frequently would pick
+    it; no usage feedback is given, so the motive cannot be stated as fact.'

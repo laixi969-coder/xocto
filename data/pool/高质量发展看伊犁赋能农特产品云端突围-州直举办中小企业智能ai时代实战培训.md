@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE40aldyckJzYi1U
 summary: 【高质量发展看伊犁】赋能农特产品“云端”突围 州直举办中小企业智能AI时代实战培训 ylxw.com.cn
 first_seen: '2026-09-29T05:38:06Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

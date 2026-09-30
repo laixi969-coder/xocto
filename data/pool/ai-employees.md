@@ -3,24 +3,34 @@ slug: ai-employees
 name: ai-employees
 builder: markfulton
 category: AI + 效率
-summary_zh: 面向需要重复处理浏览器类日常事务的小团队或个人，用户按日程配置若干业务角色与例行流程，由 AI 在 Claude Code 等运行环境里像人一样操作浏览器，完成抓取、填写、提交等动作，并把每次运行结果与可编辑的文件留在本地供人工复核。具体覆盖哪些流程、交付是否稳定仍待核验。
-inspiration: 趋势是“AI 员工”从对话助手转向按日程自动跑完浏览器里的固定流程，卖点从能力变成可托付的例行交付。切入可先选一个流程高度重复、结果可核对的窄行业（如电商上架、线索清洗、对账取数），按跑完的流程数或结果收费，而不是卖席位；本地文件归属是它区别于托管型
-  agent 的差异点。
-summary_en: For small teams or individuals who repeatedly handle routine browser-based chores, users schedule
-  several business roles and routines, and the AI drives a browser inside harnesses such as Claude Code
-  to fetch, fill and submit, leaving run results and editable files locally for human review. Which routines
-  it covers and whether delivery is reliable still need verification.
-inspiration_en: The trend is that "AI employees" are moving from chat assistants to scheduled agents that
-  finish fixed browser routines, so the selling point shifts from capability to dependable routine delivery.
-  A wedge is one narrow industry with highly repetitive, checkable steps (e-commerce listing, lead cleanup,
-  reconciliation data pulls), charging per completed routine or per result rather than per seat; local
-  file ownership is what separates it from hosted agents.
+summary_zh: 小团队运营或行政人员在需要重复处理后台数据时打开它：代理按预设日程在浏览器里执行登录、抓取、填表等动作，把订单、库存或对账单整理成可交付的表格或日报，用户拿到文件后仍需人工确认结果。具体角色覆盖与交付质量仍待核验。
+inspiration: 趋势是“按角色排班的浏览器代理”开始替代人工点后台的重复劳动，而不是再做一个聊天入口。切入可放在电商后台对账、货代订舱查询这类每天固定要跑、结果可核对的后台流程，按跑通的例程或按月收维护费，而不是卖通用代理框架。
+summary_en: 'A small-team operator or admin opens it when back-office data must be handled repeatedly:
+  agents follow a preset schedule to log in, scrape, and fill forms in the browser, turning orders, inventory,
+  or statements into a deliverable sheet or daily report, which the user still confirms by hand. Role
+  coverage and delivery quality remain unverified.'
+inspiration_en: The trend is role-scheduled browser agents replacing manual back-office clicking rather
+  than yet another chat entry point. The opening is in daily, checkable back-office routines such as e-commerce
+  reconciliation or freight booking lookups, sold per working routine or as a monthly maintenance fee
+  instead of a generic agent framework.
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 专业服务
+- 零售与电商
+- 行政与后台运营
+industries_en:
+- professional services
+- retail and e-commerce
+- administrative and back-office operations
+jobs:
+- 小团队运营负责人按日程让代理在浏览器里抓取订单与库存数据并整理成日报
+- 行政人员让代理登录后台下载对账单并汇总成表格供人工复核
+jobs_en:
+- A small-team operations lead schedules agents to pull order and inventory data in the browser and compile
+  a daily report
+- An administrative staffer has agents log into back-office systems, download statements, and consolidate
+  them into a sheet for human review
 regions: []
 regions_en: []
 open_source: true
@@ -30,7 +40,7 @@ summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on C
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

@@ -26,7 +26,7 @@ summary: The notice would allow Oracle to delay payments should the facility mis
   online.
 first_seen: '2026-09-24T18:11:44Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

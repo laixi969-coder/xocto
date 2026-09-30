@@ -1,0 +1,43 @@
+- id: req-initial-deployment-checklist-2026-09-30
+  project_slug: deployment-checklist
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决上线前漏检安全配置的问题，但材料未给出漏检案例或使用反馈，痛点刚性只能靠常识推断。
+    evidence_ids:
+    - ev-748ee345bf608129
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 40 星、6 次 fork，属于关注度信号，不能证明团队已把它放进发布流程。
+    evidence_ids:
+    - ev-748ee345bf608129
+  - gate: model
+    status: insufficient
+    reason: 开源清单没有定价或付费路径，是否有人愿意为托管检查或报告付费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-748ee345bf608129
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代理如何执行检查、是否产出可核对报告，交付确定性无法验证。
+    evidence_ids:
+    - ev-748ee345bf608129
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认清单条目内容、代理版本的执行方式以及是否有人报告实际使用结果。
+  market: ''
+  job: Web 与移动应用团队在上线前，由开发者或安全负责人逐项核对部署检查清单，确认安全与配置项没有遗漏。
+  job_en: Before release, a web or mobile app team has a developer or security owner check the pre-deployment
+    list item by item to confirm no security or configuration item was missed.
+  pain: 上线漏配安全项确实会带来事故，但候选材料没有给出任何团队漏检的案例、事故记录或使用反馈，痛点强度只能靠常识推断。
+  pain_en: Missing a security setting at release can cause incidents, but the material gives no case of
+    a missed check, incident record, or user feedback, so pain intensity rests on common sense alone.
+  current_alternative: 团队目前靠内部 wiki、个人经验、代码评审清单或上线前临时口头确认来覆盖这些检查项。
+  current_alternative_en: Teams currently cover these checks with internal wikis, personal experience,
+    code-review checklists, or ad-hoc verbal confirmation before release.
+  usage_reason: 推断：如果清单条目足够具体且代理能按同一份清单逐项核对，团队会在发布前用它替代凭记忆临时列项，减少漏项这一步；但候选材料没有说明条目质量、代理执行方式或是否有人实际采用，因此无法确认它会被长期放进发布流程。
+  usage_reason_en: 'Inference: if the items are specific enough and an agent can verify them against the
+    same list, teams would use it before release instead of listing items from memory, cutting the step
+    where items get missed; but the material does not describe item quality, how the agent executes, or
+    any actual adoption, so long-term placement in the release flow cannot be confirmed.'

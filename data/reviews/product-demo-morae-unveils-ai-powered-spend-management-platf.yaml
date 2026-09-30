@@ -1,0 +1,44 @@
+- id: req-initial-product-demo-morae-unveils-ai-powered-spend-management-platf-2026-09-30
+  project_slug: product-demo-morae-unveils-ai-powered-spend-management-platf
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决法律支出审核的需求，但材料只有演示标题，未说明痛点、频率与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-e21a794560a77777
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：材料未提供任何用户反馈、客户案例或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-e21a794560a77777
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-e21a794560a77777
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无部署文档或可复现实测，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-e21a794560a77777
+  next_validation: 收集 Morae 该支出管理平台的官方产品页或定价页，确认其输入数据、输出交付物与收费方式。
+  market: ''
+  job: 企业法务运营或律所财务人员在月度或季度结算时，处理外部律师提交的账单与支出明细，要完成费用归类、异常识别和可复核的支出汇总。
+  job_en: Legal operations or law firm finance staff process outside counsel invoices and spend line items
+    at monthly or quarterly close, needing to classify costs, flag anomalies and produce a reviewable
+    spend summary.
+  pain: 候选材料只给出产品演示标题，未说明旧流程中哪一步最痛、耗时多少或出错后果，痛点无法从公开事实还原。
+  pain_en: The candidate material only provides a product demo headline; it does not state which step
+    of the old process hurts most, how long it takes or what errors cost, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 公开材料未说明现有替代方式，按行业常识推断可能是人工表格审核或既有电子账单系统，但这是推断，未经材料证实。
+  current_alternative_en: Public material does not describe the current alternative; by inference it may
+    be manual spreadsheet review or existing e-billing systems, but this is inference and unconfirmed
+    by the material.
+  usage_reason: 材料未提供任何功能细节、用户反馈或客户案例，无法说明相较旧做法减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: The material provides no feature detail, user feedback or customer case, so it cannot
+    explain which step of the old workflow is reduced; no usage reason can be given.

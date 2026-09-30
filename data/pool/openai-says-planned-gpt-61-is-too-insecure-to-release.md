@@ -1,6 +1,6 @@
 ---
 slug: openai-says-planned-gpt-61-is-too-insecure-to-release
-name: OpenAI says planned GPT-6.1 is too insecure to release
+name: GPT-6.1
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is
 summary: Similar performance, security trade-offs also seen in current public models.
 first_seen: '2026-09-29T14:22:31Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI says planned GPT-6.1 is too insecure to release
+# GPT-6.1
 
 Similar performance, security trade-offs also seen in current public models.
 

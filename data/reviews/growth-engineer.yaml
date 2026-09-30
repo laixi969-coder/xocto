@@ -1,0 +1,42 @@
+- id: req-initial-growth-engineer-2026-09-30
+  project_slug: growth-engineer
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决增长流程散落、难以复用的问题，痛点存在，但公开材料未说明覆盖哪些渠道与动作，价值边界不清。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+  - gate: consensus
+    status: insufficient
+    reason: 117 星与 2 个 fork 只反映关注度，没有用户评价或采用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何付费或商业路径，买方与收入来源无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 agent 执行这些流程的实际产出质量与人工确认边界，交付确定性未知。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有用户报告实际执行这些 go-to-market 流程的产出结果。
+  market: ''
+  job: 增长或市场运营人员在自己的 agent 环境里，把散落在文档和表格中的 go-to-market 流程交给 agent 按步骤执行，产出可复用的流程文件。
+  job_en: Growth or marketing operators hand go-to-market steps scattered across docs and spreadsheets
+    to an agent in their own environment, producing reusable process files.
+  pain: 增长流程通常以文档和表格形式散落各处，每次执行都要人工重新拼装步骤，难以复用和交接。
+  pain_en: Growth processes usually sit scattered in docs and spreadsheets, so each run requires manually
+    reassembling steps, making reuse and handover hard.
+  current_alternative: 人工维护的 SOP 文档、Notion 模板或自建脚本。
+  current_alternative_en: Manually maintained SOP docs, Notion templates or self-built scripts.
+  usage_reason: 推断：相较人工翻文档拼步骤，它把流程写成 agent 可直接读取执行的 markdown 与 MCP 接口，减少每次重新组装步骤的动作，因此已在用 agent 做增长执行的团队可能采用；但公开材料未给出实际执行效果或用户反馈。
+  usage_reason_en: 'Inference: compared with manually reassembling steps from docs, it writes processes
+    as markdown and an MCP interface an agent can read and run, cutting the reassembly step, so teams
+    already running agents for growth may adopt it; public material gives no execution results or user
+    feedback.'

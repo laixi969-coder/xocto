@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVZWFqU1JGbW5u
 summary: 深度解读添翼AI 3.0：医疗AI如何从技术能力走向业务价值 同花顺财经
 first_seen: '2026-09-29T10:41:46Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

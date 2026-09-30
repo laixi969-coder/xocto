@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/499140.html
 summary: AGI计划暂停。
 first_seen: '2026-09-29T07:49:20Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

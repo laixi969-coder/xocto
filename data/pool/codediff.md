@@ -21,7 +21,7 @@ canonical_url: https://github.com/ivankovic/codediff
 summary: Fast (<100ms), robust (99.95%) syntax-aware code diff
 first_seen: '2026-09-29T12:22:44Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

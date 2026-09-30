@@ -1,0 +1,41 @@
+- id: req-initial-instinct-founder-said-more-than-50-of-transactions-on-the-pl-2026-09-30
+  project_slug: instinct-founder-said-more-than-50-of-transactions-on-the-pl
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未在公开材料中说明，无法还原旧流程与交付。
+    evidence_ids:
+    - ev-0d8acef7e970f90a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有创始人口径的增长说法，无独立采用或留存证据。
+    evidence_ids:
+    - ev-0d8acef7e970f90a
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、抽佣或买方结构。
+    evidence_ids:
+    - ev-0d8acef7e970f90a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：交付是否确定发生无公开材料支持。
+    evidence_ids:
+    - ev-0d8acef7e970f90a
+  next_validation: 收集 Instinct 官方产品页或应用商店说明，确认其具体交易流程、输入材料与交付结果。
+  market: ''
+  job: 旅行者在需要完成一次与出行相关的预订或交易时，通过该平台下单。
+  job_en: A traveler placing a booking or transaction related to a trip through the platform.
+  pain: 公开材料未说明它解决的具体痛点，只能推断与旅行预订环节的摩擦有关。
+  pain_en: Public material does not state the specific pain it addresses; only an inference that it relates
+    to friction in travel booking.
+  current_alternative: 公开材料未提供，无法确认用户此前用什么方式完成同类交易。
+  current_alternative_en: Not provided in public material; it is not possible to confirm what users previously
+    used for the same transaction.
+  usage_reason: 缺少产品能力、输入输出与替代对象的公开说明，无法解释用户为何选择它；每日 10% 的增长属规模口径，不能作为使用理由。
+  usage_reason_en: With no public description of product capability, inputs and outputs, or the alternative
+    it replaces, there is no basis to explain why users choose it; 10% daily growth is a scale figure
+    and cannot serve as a usage reason.

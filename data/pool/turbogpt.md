@@ -21,7 +21,7 @@ canonical_url: https://github.com/lostmsu/TurboGPT
 summary: train 22KiB transformer in 13s
 first_seen: '2026-09-29T19:20:02Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

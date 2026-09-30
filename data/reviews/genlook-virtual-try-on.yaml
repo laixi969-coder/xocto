@@ -1,0 +1,47 @@
+- id: req-initial-genlook-virtual-try-on-2026-09-30
+  project_slug: genlook-virtual-try-on
+  level: initial
+  reviewed_at: '2026-09-30T01:18:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决顾客看不到自己上身效果、只能靠模特图与尺码表猜测的痛点，商家无法为每位顾客实拍，旧替代是客服问答与到店试穿，结构上成立。
+    evidence_ids:
+    - ev-f10fbdebd36276a1
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有试穿功能描述与少量社区关注，没有商家采用、转化或退货率变化的证据，卡在场景验证一环。
+    evidence_ids:
+    - ev-f10fbdebd36276a1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能按试穿次数向独立站卖家收费，也可能只是免费演示；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-f10fbdebd36276a1
+  - gate: truth
+    status: insufficient
+    reason: 十秒出图能否稳定还原版型、颜色与身材，以及失败时如何处理，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-f10fbdebd36276a1
+  next_validation: 收集该试穿服务的官方定价页或商家客户案例，确认是否按试穿次数或转化结果收费并有真实商家采用。
+  market: ''
+  job: 服装电商运营或线上导购在顾客询问某件衣服上身效果时，处理顾客自拍与商品服装图，要产出一张可发给顾客的试穿效果图。
+  job_en: An apparel e-commerce operator or online shopping assistant, when a shopper asks how a garment
+    looks on them, handles the shopper's selfie and the product garment image to produce a try-on image
+    that can be sent back to the shopper.
+  pain: 顾客看不到自己穿上的样子，只能靠想象或模特图判断，犹豫时间长、下单转化低、退货率高；商家又不可能为每位顾客实拍。
+  pain_en: Shoppers cannot see the garment on themselves and must judge from imagination or model photos,
+    which lengthens hesitation, lowers conversion and raises returns; merchants cannot shoot real photos
+    for every shopper.
+  current_alternative: 旧做法是看模特图、看尺码表、问客服，或到店试穿；部分商家用通用图像编辑或修图工具手工合成，耗时且效果不稳定。
+  current_alternative_en: The old way is model photos, size charts, asking customer service, or trying
+    on in store; some merchants manually composite with generic image-editing tools, which is slow and
+    inconsistent.
+  usage_reason: 相较看模特图和尺码表，它把顾客自己的照片直接作为输入，约十秒输出一张上身图，省掉顾客想象和客服反复解释这一步，因此独立站卖家或客服团队在顾客犹豫尺码与版型时会选择它；这是基于产品能力的推断，尚无客户案例或复购证据。
+  usage_reason_en: Compared with model photos and size charts, it takes the shopper's own photo as input
+    and returns a try-on image in about ten seconds, removing the step of the shopper imagining the fit
+    and support staff explaining it repeatedly, so standalone-store sellers or support teams would choose
+    it when shoppers hesitate over size and cut; this is an inference from product capability, with no
+    customer case or repeat-use evidence yet.

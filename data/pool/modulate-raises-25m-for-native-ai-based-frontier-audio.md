@@ -1,6 +1,6 @@
 ---
 slug: modulate-raises-25m-for-native-ai-based-frontier-audio
-name: Modulate raises $25M for native AI-based frontier audio
+name: Modulate
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxPckZFck9YdG5s
 summary: Modulate raises $25M for native AI-based frontier audio GamesBeat
 first_seen: '2026-09-28T14:30:25Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Modulate raises $25M for native AI-based frontier audio
+# Modulate
 
 Modulate raises $25M for native AI-based frontier audio GamesBeat
 

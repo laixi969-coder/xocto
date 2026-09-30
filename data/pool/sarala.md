@@ -21,7 +21,7 @@ canonical_url: https://sarala.solancer.com
 summary: An open-source WYSIWYG Markdown editor
 first_seen: '2026-09-29T19:21:44Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

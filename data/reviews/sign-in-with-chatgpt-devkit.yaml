@@ -1,0 +1,39 @@
+- id: req-initial-sign-in-with-chatgpt-devkit-2026-09-30
+  project_slug: sign-in-with-chatgpt-devkit
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是登录接入这一开发环节，终端用户价值取决于具体应用，公开材料未提供。
+    evidence_ids:
+    - ev-a340a0891ea0e49a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 3 星，几乎无公开采用信号，无法判断共识。
+    evidence_ids:
+    - ev-a340a0891ea0e49a
+  - gate: model
+    status: insufficient
+    reason: 未披露商用条款、权限范围或收费方式，买方与付费路径不明。
+    evidence_ids:
+    - ev-a340a0891ea0e49a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对登录交付的确定性与数据边界，未见安全说明。
+    evidence_ids:
+    - ev-a340a0891ea0e49a
+  next_validation: 收集该套件的官方文档与商用条款页面，确认账号权限范围与是否收费。
+  market: ''
+  job: 开发者把 ChatGPT 账号登录接入自己的应用，让用户用同一身份进入。
+  job_en: Developers integrate ChatGPT account sign-in into their apps so users enter with the same identity.
+  pain: 用户需要在每个第三方应用单独注册账号并记住密码。
+  pain_en: Users must register a separate account and remember a password for each third-party app.
+  current_alternative: 自建账号体系，或接入其他第三方登录方式。
+  current_alternative_en: Self-built account systems or other third-party sign-in providers.
+  usage_reason: 推断：开发者可能因为复用已有账号、减少注册流失而接入，但公开材料未给出采用、留存或付费证据，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: developers may adopt it to reuse existing accounts and cut registration
+    drop-off, but no public adoption, retention or payment evidence exists, so long-term workflow presence
+    cannot be confirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/ineffable-recursive-fractile-non-compe
 summary: ''
 first_seen: '2026-09-29T09:43:50Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

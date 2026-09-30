@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPUzdqNFQ1V1c1
 summary: Meta把Muse搬进企业：一场关于AI商业化的真正考验开始了 搜狐网
 first_seen: '2026-09-29T10:27:38Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

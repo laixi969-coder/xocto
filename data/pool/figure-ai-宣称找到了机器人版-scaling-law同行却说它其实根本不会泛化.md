@@ -2,21 +2,35 @@
 slug: figure-ai-宣称找到了机器人版-scaling-law同行却说它其实根本不会泛化
 name: Figure AI
 builder: ''
-category: ''
-summary_zh: Figure AI 发布 Helix 2.5，把机器人放进30套真实住宅做整理、铺床、折毛巾，并称未针对这些房屋和物品做训练或适配；同行质疑其泛化能力，实际成功率与可重复性仍无独立核验。
-inspiration: ''
-summary_en: Figure AI released Helix 2.5, placing robots in 30 real homes to tidy, make beds and fold
-  towels, claiming no training or adaptation for those homes or objects; peers question its generalization,
-  and independent verification of success rates and repeatability is still absent.
-inspiration_en: ''
+category: 基础层
+summary_zh: 人形机器人公司 Figure AI 把搭载 Helix 2.5 的机器人送进旧金山湾区30套真实住宅，让它在未见过毛巾和房间布局的情况下整理客厅、铺床、折叠毛巾；用户拿到的是机器人自主完成的整理动作，但同行指出约一半任务失败，具体交付可靠性仍待核验。
+inspiration: 趋势是人形机器人开始从样板间演示走向真实家庭场景，泛化能力成为竞争焦点。切入可考虑家庭服务中标准化程度高、容错率高的单一环节，例如毛巾折叠或床品整理，先做可计件的服务交付，而不是整屋家务；也可面向机器人公司提供真实住宅场景的评测与数据采集服务。
+summary_en: Humanoid robotics company Figure AI sent robots running Helix 2.5 into 30 real homes in the
+  San Francisco Bay Area to tidy living rooms, make beds and fold towels without having seen the towels
+  or layouts before; users get autonomous tidying actions, but peers say about half the tasks fail, so
+  delivery reliability remains unverified.
+inspiration_en: The trend is humanoid robots moving from staged demos into real homes, with generalisation
+  as the battleground. A wedge is a single, standardised, fault-tolerant household task such as towel
+  folding or bed making, sold as countable service output rather than whole-home chores; another is providing
+  real-home evaluation and data collection to robot makers.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 家庭服务
+- 机器人制造
+industries_en:
+- home services
+- robotics manufacturing
+jobs:
+- 家庭清洁与整理
+- 机器人操作与训练
+jobs_en:
+- household cleaning and tidying
+- robot operation and training
+regions:
+- 美国
+regions_en:
+- United States
 open_source: false
 url: http://www.geekpark.net/news/370607
 canonical_url: https://geekpark.net/news/370607
@@ -70,7 +84,7 @@ summary: "作者｜Li Yuan \n \n 390 亿美元的 Figure AI 已经把机器人�
   \ AI \n 本文为 In The Loop 原创文章，转载请联系作者"
 first_seen: '2026-09-21T03:57:07Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-timeful-2026-09-30
+  project_slug: timeful
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出设计与代码同步这一任务，但 AI 具体做什么、交付什么均未说明，价值关证据不足。
+    evidence_ids:
+    - ev-97722d8ac8295d28
+  - gate: consensus
+    status: insufficient
+    reason: 无采用规模或持续使用证据，共识关证据不足。
+    evidence_ids:
+    - ev-97722d8ac8295d28
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱从哪来，模式关证据不足。
+    evidence_ids:
+    - ev-97722d8ac8295d28
+  - gate: truth
+    status: insufficient
+    reason: 未说明同步的确定性与人工确认边界，交付能否稳定发生无从核对。
+    evidence_ids:
+    - ev-97722d8ac8295d28
+  next_validation: 收集该产品的官方文档或定价页，确认设计到代码的同步机制与计费方式。
+  market: ''
+  job: 前端或全栈开发者在做 Web 应用界面时，需要先出设计再落到自己的代码库里，避免两处不一致。
+  job_en: Frontend or full-stack developers building web app interfaces need to produce a design and land
+    it in their own codebase without the two drifting apart.
+  pain: 公开材料未说明设计到代码这一步具体卡在哪里，也没有用户抱怨或替代行为的记录。
+  pain_en: The public material does not say where the design-to-code step actually breaks down, and there
+    is no record of user complaints or substitute behavior.
+  current_alternative: 公开材料未提及用户现在用什么工具完成设计与代码同步。
+  current_alternative_en: Public material does not mention what tools users currently use for design and
+    code sync.
+  usage_reason: 推断：若同步确实自动发生，开发者会在改版频繁时选择它以减少手工搬运；但 AI 动作与交付形态未披露，无法确认减少的是哪一步负担。
+  usage_reason_en: 'Inference: if syncing is truly automatic, developers would choose it during frequent
+    redesigns to cut manual shuttling; however the AI action and deliverable form are undisclosed, so
+    which burden is reduced cannot be confirmed.'

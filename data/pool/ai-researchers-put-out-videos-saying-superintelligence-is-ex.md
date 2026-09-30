@@ -24,7 +24,7 @@ summary: '"The chance of human extinction is about a coin flip, in my view," Geo
   which says it''s a nonprofit studying AIs'' […]'
 first_seen: '2026-09-29T17:35:03Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -3,10 +3,13 @@ slug: 英伟达股东会摘要黄仁勋豪言ai投资回报率的问题已有答
 name: 英伟达
 builder: ''
 category: ''
-summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+summary_zh: 英伟达在2026年9月底发布面向智能体的安全平台，宣称可实时监控智能体运行并在毫秒级阻断违规动作，覆盖测试到部署环节；同时有报道称其正与保险公司接触，探讨为AI芯片融资风险分担。前者是平台能力发布，后者仍处早期讨论，均非独立应用产品。
 inspiration: ''
-summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
-  confirm its workflow value.
+summary_en: In late September 2026 Nvidia released an agent-oriented security platform that it says monitors
+  agent behaviour in real time and blocks violations at millisecond scale, spanning testing to deployment;
+  reports also said it is in early talks with insurers about sharing AI-chip financing risk. The first
+  is a platform capability release, the second an early-stage discussion, and neither is a standalone
+  application product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUS1QxajZRN255
 summary: 英伟达股东会摘要：黄仁勋豪言AI投资回报率的问题“已有答案” 财联社
 first_seen: '2026-08-30T07:13:48Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

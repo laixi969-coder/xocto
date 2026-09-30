@@ -1,0 +1,45 @@
+- id: req-initial-lemmawork-2026-09-30
+  project_slug: lemmawork
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决团队共享 AI 助手的需求，但公开材料未说明原来哪一步由谁手工完成、不做的后果是什么，痛点无法还原。
+    evidence_ids:
+    - ev-01d7731d36107d77
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论仅 5 分、1 条评论，无法判断卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-01d7731d36107d77
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方是团队还是个人无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-01d7731d36107d77
+  - gate: truth
+    status: insufficient
+    reason: 无法核验共享助手是否贴近团队协作的第一性目标、交付是否确定，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-01d7731d36107d77
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认它具体替代团队里的哪一步旧流程以及交付形态。
+  market: ''
+  job: 团队在协作场景下，把原本各自持有的 AI 助手与上下文集中起来，处理团队共享材料并产出可复用结果。具体是谁、处理什么材料仍待核验。
+  job_en: A team, in a collaboration setting, consolidates AI assistants and context that used to be held
+    individually, works on shared team material and produces reusable output. Who exactly and which material
+    still need verification.
+  pain: 公开材料只给出“团队可共享的 AI 同事”一句定位，未说明原来哪一步由谁手工完成、哪里难受，痛点无法还原。
+  pain_en: Public material gives only the one-line positioning of shareable AI coworkers for a team, without
+    saying which step was previously done by whom by hand or where it hurt, so the pain cannot be reconstructed.
+  current_alternative: 可推断的旧做法是成员各自订阅通用 AI 助手、各自维护提示与上下文，团队层面靠复制粘贴共享结果；这是推断，非公开事实。
+  current_alternative_en: The inferable old practice is members each subscribing to general AI assistants
+    and maintaining their own prompts and context, sharing results by copy-paste at team level; this is
+    inference, not public fact.
+  usage_reason: 相较各自持有助手、靠复制粘贴同步，共享助手可能减少重复配置与结果搬运这一步；但公开材料未说明具体动作与可核对结果，因此无法确认哪类用户会因此选择它。
+  usage_reason_en: Compared with each member holding an assistant and syncing by copy-paste, a shared
+    assistant might remove the step of repeated setup and result hand-off; but public material does not
+    describe the concrete action or a checkable result, so it cannot be confirmed which users would choose
+    it for that reason.

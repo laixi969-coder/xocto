@@ -22,7 +22,7 @@ summary: 'Unofficial skill that teaches coding agents to build with TypeSafe AI'
   calibrated confidence, and prior art from 150+ community projects.'
 first_seen: '2026-09-26T00:01:19Z'
 last_seen: '2026-09-30T01:18:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

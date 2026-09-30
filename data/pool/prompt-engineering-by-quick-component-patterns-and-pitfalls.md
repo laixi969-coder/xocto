@@ -23,7 +23,7 @@ summary: Part 2 of our Amazon Quick prompt engineering series goes component by 
   and action integrations, plus the common pitfalls to avoid.
 first_seen: '2026-09-29T16:27:33Z'
 last_seen: '2026-09-30T01:18:43Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

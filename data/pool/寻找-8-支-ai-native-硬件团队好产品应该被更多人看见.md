@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9tN3ZHRVZmZ01E
 summary: 寻找 8 支 AI Native 硬件团队，好产品应该被更多人看见 极客公园
 first_seen: '2026-09-28T12:23:44Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

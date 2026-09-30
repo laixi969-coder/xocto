@@ -25,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPazcxVWR0Mjcz
 summary: 为什么​AI玩具退货率那么高？问题不在需求，而在交互体验 新浪财经
 first_seen: '2026-09-28T09:31:12Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-zenabm-2026-09-30
+  project_slug: zenabm
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 LinkedIn 广告建计划、调优与出报告分散在多界面的痛点，但公开材料未说明具体动作与交付，价值闭环无法确认。
+    evidence_ids:
+    - ev-48fa3e7d0c285209
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，没有客户案例、评价或采用数据，无法判断营销团队是否已接受这种操作方式。
+    evidence_ids:
+    - ev-48fa3e7d0c285209
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自营销团队订阅、按投放量计费还是其他方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-48fa3e7d0c285209
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它生成的广告调整与报告是否准确，也未见人工复核或权限边界说明。
+    evidence_ids:
+    - ev-48fa3e7d0c285209
+  next_validation: 收集该产品的官方定价页或部署文档，确认其与 LinkedIn 广告账户的接入方式、可执行操作范围与报告口径。
+  market: ''
+  job: B2B 营销或投放运营人员在管理 LinkedIn 广告账户时，处理投放需求与账户数据，要完成广告创建、优化和效果报告。
+  job_en: A B2B marketer or paid-media operator, while managing a LinkedIn Ads account, works on campaign
+    requirements and account data to create, optimize and report on ads.
+  pain: LinkedIn 广告后台操作繁琐，建计划、调优和出报告分散在不同界面，重复手工步骤多；公开材料未说明该产品具体减少哪一步。
+  pain_en: LinkedIn Ads operations are cumbersome, with campaign setup, tuning and reporting spread across
+    different interfaces and many repetitive manual steps; public materials do not say which step this
+    product removes.
+  current_alternative: 旧做法是在 LinkedIn 广告后台手工建计划、调预算，再导出数据到表格或报表工具里汇总。
+  current_alternative_en: The old approach is to build campaigns and adjust budgets manually in the LinkedIn
+    Ads dashboard, then export data into spreadsheets or reporting tools.
+  usage_reason: 推断：若它能在对话中直接完成建计划、调优和出报告，投放人员可少一次后台与表格之间的来回切换；但公开材料未说明可操作范围与报告口径，无法确认它比后台加表格的旧流程多解决了哪一步。
+  usage_reason_en: 'Inference: if it can handle campaign setup, tuning and reporting directly in conversation,
+    operators could avoid one round of switching between the dashboard and spreadsheets; however, public
+    materials do not describe the scope of actions or reporting definitions, so it is unclear which step
+    it improves over dashboard-plus-spreadsheet workflows.'

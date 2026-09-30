@@ -22,7 +22,7 @@ canonical_url: https://sifted.eu/articles/how-companies-are-putting-agentic-ai-t
 summary: ''
 first_seen: '2026-09-29T09:17:53Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

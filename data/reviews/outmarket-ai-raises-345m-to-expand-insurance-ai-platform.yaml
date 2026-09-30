@@ -1,0 +1,45 @@
+- id: req-initial-outmarket-ai-raises-345m-to-expand-insurance-ai-platform-2026-09-30
+  project_slug: outmarket-ai-raises-345m-to-expand-insurance-ai-platform
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决保险核保或理赔的人工审阅负担，但公开材料未说明具体任务、输入材料与交付结果，连需求与痛点都写不实。
+    evidence_ids:
+    - ev-748619113b909d26
+    - ev-e3c722bb0f47b798
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且公开材料没有客户采用、用户评价或行业共识证据。
+    evidence_ids:
+    - ev-748619113b909d26
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方、定价与收费方式均未披露，无法判断钱从哪来。
+    evidence_ids:
+    - ev-748619113b909d26
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对它是否贴近核保理赔的第一性目标及交付确定性。
+    evidence_ids:
+    - ev-e3c722bb0f47b798
+  next_validation: 收集 Outmarket AI 官方产品页或客户案例，确认它在保险核保或理赔中具体接手哪一步、交付什么结果。
+  market: ''
+  job: 保险公司的核保或理赔人员，在处理投保资料、保单或理赔单据时，需要完成资料核对与判断，但公开材料未说明 Outmarket AI 具体接手哪一步。
+  job_en: Underwriters or claims staff at insurers need to check and judge application, policy, or claims
+    documents, but the public material does not say which step Outmarket AI actually takes over.
+  pain: 公开材料未描述具体痛点，只能推断保险核保与理赔存在大量人工审阅和重复核对，但缺少用户抱怨、旧流程耗时或错误率等事实支持。
+  pain_en: The public material describes no specific pain; it can only be inferred that insurance underwriting
+    and claims involve heavy manual review and repeated checking, but there is no supporting fact such
+    as user complaints, time spent, or error rates.
+  current_alternative: 公开材料未说明现有替代方式，无法确认此前是由人工逐份审阅、外包，还是使用其他保险软件完成。
+  current_alternative_en: The public material does not describe the current alternative, so it is unclear
+    whether this was previously done by manual document-by-document review, outsourcing, or other insurance
+    software.
+  usage_reason: 缺少产品流程、交付物和用户反馈，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果；融资规模不能解释用户为何选择它。
+  usage_reason_en: With no product workflow, deliverable, or user feedback, it cannot be explained which
+    step of the old process is reduced or which checkable result improves; funding size does not explain
+    why users would choose it.

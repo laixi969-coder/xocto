@@ -1,0 +1,45 @@
+- id: req-initial-manus-正式发布-20个人-ai-助手云电脑远程控制manus-想做-ai-时代全家桶-2026-09-30
+  project_slug: manus-正式发布-20个人-ai-助手云电脑远程控制manus-想做-ai-时代全家桶
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用多步任务需人工逐步操作、耗时长且易中断的问题，旧行为是用户自己在多个界面手动执行，痛点具体且不采用有代价。
+    evidence_ids:
+    - ev-e69b3600c5873510
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出官方发布与性能口径，没有客户案例、用户评价或持续采用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-e69b3600c5873510
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与买方结构，个人订阅还是企业采购不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e69b3600c5873510
+  - gate: truth
+    status: insufficient
+    reason: 云电脑执行涉及数据边界与人工确认环节，公开材料未说明安全边界与失败处理，交付确定性待核验。
+    evidence_ids:
+    - ev-e69b3600c5873510
+  next_validation: 收集 Manus 官方定价页与云电脑执行的安全、数据边界说明文档，核验其交付形态与计费方式。
+  market: ''
+  job: 通用助手用户在处理需要跨浏览器、本地软件与远程机器协作的任务时，把多步操作交给 Manus 执行，希望直接拿到完成后的结果而不是操作指引。
+  job_en: General assistant users hand multi-step tasks spanning browser, local software and remote machines
+    to Manus, expecting finished results rather than instructions.
+  pain: 这类任务原本要人工在多个界面之间切换、复制粘贴并逐步确认，步骤繁琐且容易中断，单次任务耗时长。
+  pain_en: Such tasks previously required manually switching between interfaces, copying and pasting and
+    confirming step by step, which is tedious, easily interrupted and slow.
+  current_alternative: 旧做法是用户自己在浏览器和本地软件里逐步操作，或使用只输出文本建议的对话式助手，再手动执行每一步。
+  current_alternative_en: The old way is users operating step by step in browsers and local software themselves,
+    or using chat assistants that only output text suggestions and then executing each step manually.
+  usage_reason: 相较只给建议的对话助手，Manus 通过云电脑环境直接执行操作并交付结果，减少用户逐步手动执行这一环节；官方称 Cascade Agent 框架使任务耗时缩短 28.2%、运行成本降低
+    32%，因此需要跨应用完成整段任务的用户会在这种情况下选择它。上述成本与耗时数字来自官方口径，尚未独立核验。
+  usage_reason_en: Compared with chat assistants that only advise, Manus executes operations in a cloud
+    computer environment and delivers results, removing the step where users manually perform each action;
+    the company claims its Cascade Agent framework cuts task time by 28.2% and running cost by 32%, so
+    users needing a whole cross-application task done would choose it in that situation. These cost and
+    time figures come from the vendor and are not independently verified.

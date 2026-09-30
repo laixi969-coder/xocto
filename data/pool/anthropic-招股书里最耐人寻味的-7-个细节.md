@@ -1,6 +1,6 @@
 ---
 slug: anthropic-招股书里最耐人寻味的-7-个细节
-name: Anthropic 招股书里，最耐人寻味的 7 个细节
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -66,7 +66,7 @@ summary: "作者｜Techno 之王 \n 编辑｜靖宇 \n   \n \n 当地时间 9 �
   \ \n  这份招股书真正要回答的，或许是一个更古老的问题，资本市场能不能容忍一家公司，把「不做什么」写得和「做什么」一样重要。"
 first_seen: '2026-09-29T09:12:00Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -77,7 +77,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic 招股书里，最耐人寻味的 7 个细节
+# Anthropic
 
 作者｜Techno 之王 
  编辑｜靖宇 

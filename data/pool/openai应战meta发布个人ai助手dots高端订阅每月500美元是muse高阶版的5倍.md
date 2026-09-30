@@ -1,6 +1,6 @@
 ---
 slug: openai应战meta发布个人ai助手dots高端订阅每月500美元是muse高阶版的5倍
-name: OpenAI应战Meta：发布个人AI助手Dots，高端订阅每月500美元，是Muse高阶版的5倍
+name: Dots
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2d0RhZFdzYm9q
 summary: OpenAI应战Meta：发布个人AI助手Dots，高端订阅每月500美元，是Muse高阶版的5倍 华尔街见闻
 first_seen: '2026-09-29T20:30:07Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI应战Meta：发布个人AI助手Dots，高端订阅每月500美元，是Muse高阶版的5倍
+# Dots
 
 OpenAI应战Meta：发布个人AI助手Dots，高端订阅每月500美元，是Muse高阶版的5倍 华尔街见闻
 

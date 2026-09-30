@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQTDc0cXhvdGRm
 summary: 'OpenAI DevDay 2026: Dots Agents Launch, New Funding Talks The Tech Buzz'
 first_seen: '2026-09-29T18:38:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YSzNwTVJ0N19U
 summary: 'CRM in Manufacturing: Benefits & Features appinventiv.com'
 first_seen: '2026-09-28T22:40:23Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

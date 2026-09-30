@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/ethanfel/h3-guide-ab-part1
 summary: ''
 first_seen: '2026-09-29T07:36:21Z'
 last_seen: '2026-09-30T01:18:42Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

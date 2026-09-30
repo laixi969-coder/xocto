@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNOTVZYkk3Ykp0
 summary: 'From Prototype to Production: Engineering Edge AI for the Factory Floor Vision Systems Design'
 first_seen: '2026-09-29T19:05:30Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

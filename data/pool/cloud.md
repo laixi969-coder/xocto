@@ -24,7 +24,7 @@ summary: "这个网站注册就送 15 美元额度，用来注册 Muse 只用几
   \ 地址栏输入 http://muse.ai ,  \r\n- 按正常流程注册即可\r\n- 结束后记得右上角关闭这个实例，确保安全"
 first_seen: '2026-09-25T04:43:34Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 - newssearch

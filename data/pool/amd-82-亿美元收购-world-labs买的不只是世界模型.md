@@ -1,11 +1,15 @@
 ---
 slug: amd-82-亿美元收购-world-labs买的不只是世界模型
-name: AMD 82 亿美元收购 World Labs，买的不只是世界模型
+name: AMD
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AMD 以约 82 亿美元全股票交易收购 World Labs，并让李飞飞出任执行副总裁兼首席科学家。AMD 自身不靠卖模型赚钱，公告称 World Labs 的模型经验将帮助其更深入服务推理、机器人、仿真和物理
+  AI 带来的多样化算力需求。
 inspiration: ''
-summary_en: ''
+summary_en: AMD is acquiring World Labs in an all-stock deal worth about $8.2 billion and installing Fei-Fei
+  Li as EVP and Chief Scientist. AMD does not make money selling models; its announcement says World Labs'
+  model experience will help it serve the more varied compute demands of inference, robotics, simulation
+  and physical AI.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -51,7 +55,7 @@ summary: "9 月 3 日，英伟达宣布以约 130 亿美元收购 Hugging Face�
   \ 已经付了定金，答案还要再等几年。 \n *头图来源：World Labs \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-09-29T11:21:44Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -62,7 +66,7 @@ sightings:
   kind: news
 ---
 
-# AMD 82 亿美元收购 World Labs，买的不只是世界模型
+# AMD
 
 9 月 3 日，英伟达宣布以约 130 亿美元收购 Hugging Face。25 天后，AMD 宣布以约 82 亿美元收购李飞飞创办的 World Labs。 
  两笔交易放在一起看，更觉得有意思。CNBC 最新的报道提到，Hugging Face 在被英伟达拿下之前，AMD 和 Salesforce 都曾表达过收购兴趣。 

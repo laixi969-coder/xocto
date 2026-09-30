@@ -1,6 +1,6 @@
 ---
 slug: 邦彦磐石bangyan-panstone-品牌正式发布panstone-cpcdpc两款新品亮相新加坡公司同日开业
-name: 邦彦磐石（BANGYAN PANSTONE ）品牌正式发布：PANSTONE CPC、DPC两款新品亮相，新加坡公司同日开业
+name: 邦彦磐石（BANGYAN PANSTONE）
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE95YlY0TUVZNmdT
 summary: 邦彦磐石（BANGYAN PANSTONE ）品牌正式发布：PANSTONE CPC、DPC两款新品亮相，新加坡公司同日开业 hea.china.com
 first_seen: '2026-09-29T02:04:18Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 邦彦磐石（BANGYAN PANSTONE ）品牌正式发布：PANSTONE CPC、DPC两款新品亮相，新加坡公司同日开业
+# 邦彦磐石（BANGYAN PANSTONE）
 
 邦彦磐石（BANGYAN PANSTONE ）品牌正式发布：PANSTONE CPC、DPC两款新品亮相，新加坡公司同日开业 hea.china.com
 

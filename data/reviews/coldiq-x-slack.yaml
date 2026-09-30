@@ -1,0 +1,42 @@
+- id: req-initial-coldiq-x-slack-2026-09-30
+  project_slug: coldiq-x-slack
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是外呼流程分散、协作与结果确认脱离聊天工具的问题，痛点可识别，但材料只有一句说明，说不清输入与交付。
+    evidence_ids:
+    - ev-26ad37fb04933054
+  - gate: consensus
+    status: insufficient
+    reason: 没有任何采用、评价或讨论证据，无法判断销售团队是否真的愿意在 Slack 里跑外呼流程。
+    evidence_ids:
+    - ev-26ad37fb04933054
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或买方信息；可能向销售团队按席位或按外呼量收费，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-26ad37fb04933054
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真的完成外呼动作，还是只生成话术草稿，交付确定性无法判断。
+    evidence_ids:
+    - ev-26ad37fb04933054
+  next_validation: 收集该产品的官方定价页或客户案例，确认它在 Slack 内实际执行哪些外呼动作、产出什么交付以及如何计价。
+  market: ''
+  job: 销售或增长运营人员在 Slack 里发起一轮外呼时，把目标客户条件和话术要求交给 ColdIQ，让它在聊天窗口内产出可执行的触达动作或名单。
+  job_en: A sales or growth operator starting an outreach round in Slack hands target criteria and messaging
+    requirements to ColdIQ so it produces executable touches or a list inside the chat window.
+  pain: 外呼流程散落在多个工具里，切换成本高，团队协作和结果确认都在聊天之外发生。
+  pain_en: Outreach steps are scattered across tools, switching costs are high, and team coordination
+    and result confirmation happen outside the chat where the team actually works.
+  current_alternative: 在独立的外呼或 CRM 工具里配置序列，再把结果手工贴回 Slack 同步给同事。
+  current_alternative_en: Configuring sequences in a standalone outreach or CRM tool, then pasting results
+    back into Slack by hand to sync with colleagues.
+  usage_reason: 推断：如果它把配置外呼与同步结果合并到 Slack 对话里，就省掉了在工具间来回切换和手工同步这一步，常驻 Slack 的销售团队会因此选择它；材料未给出任何用户反馈，动机无法确认为事实。
+  usage_reason_en: 'Inference: if it merges outreach configuration and result syncing into the Slack conversation,
+    it removes tool switching and manual syncing, which is why Slack-resident sales teams would pick it;
+    no user feedback is given, so the motive cannot be stated as fact.'

@@ -1,0 +1,44 @@
+- id: req-initial-tipword-2026-09-30
+  project_slug: tipword
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决阅读英文时查词要切换应用的问题，痛点真实但偏轻，且材料未说明与系统词典、浏览器划词翻译的差别，刚性不足。
+    evidence_ids:
+    - ev-b4e7dabcd491bd23
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、采用或讨论证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-b4e7dabcd491bd23
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费方式，买方与收费路径均不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b4e7dabcd491bd23
+  - gate: truth
+    status: insufficient
+    reason: 翻译准确度、支持语言与人工确认边界均未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-b4e7dabcd491bd23
+  next_validation: 收集 Tipword 官方产品页或定价页，确认支持语言、是否整句翻译以及是否收费。
+  market: ''
+  job: Mac 用户在阅读英文网页、文档或邮件时，遇到不认识的单词，需要在不离开当前页面的情况下知道它的意思。
+  job_en: A Mac user reading an English page, document or email hits an unknown word and needs its meaning
+    without leaving the current screen.
+  pain: 现有做法要选中单词、复制、切到翻译网页或词典应用、粘贴、再切回来，打断阅读节奏；候选材料未提供用户抱怨或替代行为的直接证据。
+  pain_en: The current path means selecting the word, copying, switching to a translation site or dictionary
+    app, pasting and switching back, which breaks reading flow; the candidate material offers no direct
+    evidence of user complaints or workarounds.
+  current_alternative: 系统自带词典、浏览器划词翻译插件、独立翻译应用或直接复制到翻译网站。
+  current_alternative_en: The built-in macOS dictionary, browser selection-translation extensions, standalone
+    translation apps, or copying into a translation website.
+  usage_reason: 推断：相较复制粘贴到翻译网页，按住按键即可就地得到释义，省掉切换应用与粘贴这一步，因此经常在 Mac 上读英文材料的非母语用户可能选择它；但材料未说明它比系统词典或浏览器插件多做了什么，也缺少留存或重复使用证据。
+  usage_reason_en: 'Inference: versus copy-pasting into a translation site, holding a key returns the
+    definition in place, removing the app-switch and paste step, so non-native readers who work in English
+    on a Mac may pick it up; however the material does not say what it adds over the built-in dictionary
+    or browser extensions, and there is no retention or repeat-use evidence.'

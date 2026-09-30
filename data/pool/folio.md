@@ -34,7 +34,7 @@ canonical_url: https://producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa
 summary: A read-later app sending a typeset digest to your e-reader
 first_seen: '2026-08-27T10:01:12Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

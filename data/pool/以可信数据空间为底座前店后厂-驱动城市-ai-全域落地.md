@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBidUFKV2NyM0hS
 summary: 以可信数据空间为底座，“前店后厂” 驱动城市 AI 全域落地 信息化观察网
 first_seen: '2026-09-29T07:38:46Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

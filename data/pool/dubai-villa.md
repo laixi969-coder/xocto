@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/julien-c/dubai-villa
 summary: A Three.js villa in a Dubai-inspired desert garden
 first_seen: '2026-09-29T14:58:15Z'
 last_seen: '2026-09-30T01:18:42Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

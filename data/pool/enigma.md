@@ -21,7 +21,7 @@ canonical_url: https://enigma.design
 summary: A working 3D model of an Enigma machine
 first_seen: '2026-09-29T17:15:56Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

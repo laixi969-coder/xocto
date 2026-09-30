@@ -1,11 +1,15 @@
 ---
 slug: 除了更贵的订阅和砍半的额度openai-想做的还是微信
-name: 除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 在开发者大会公布 25 项发布，并调整 ChatGPT 订阅结构：200 美元 Pro 档价格不变但新订阅用量缩水，新增 500 美元 Pro 500 档，用量为 Plus
+  的 25 倍。这是模型厂商主产品的定价与平台政策变化，不是新的独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: 'OpenAI announced 25 releases at its developer conference and restructured ChatGPT subscriptions:
+  the $200 Pro tier keeps its price with reduced usage for new subscribers, and a new $500 Pro 500 tier
+  offers 25x Plus usage. This is a pricing and platform-policy change by a model vendor''s flagship product,
+  not a new standalone product.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -64,7 +68,7 @@ summary: "模型越来越便宜，付费给的用量却砍了半 \n \n  作者�
   \ 吗？"
 first_seen: '2026-09-29T18:59:48Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -75,7 +79,7 @@ sightings:
   kind: news
 ---
 
-# 除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」
+# OpenAI
 
 模型越来越便宜，付费给的用量却砍了半 
  

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNbmlTc0IxbFNL
 summary: 客户“懒”，银行乐。AI会打破这个局面吗？ 华尔街日报中文网
 first_seen: '2026-09-29T23:35:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

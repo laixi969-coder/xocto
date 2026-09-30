@@ -3,14 +3,12 @@ slug: ft
 name: Flock
 builder: sbulaev
 category: ''
-summary_zh: Flock 是面向美国警方与地方政府的 AI 车牌与摄像头监控网络产品，本次变化不是新功能发布，而是监管与政治压力：参议院就其监控网络举行听证会、其 CEO 未出席，同时公司试图让一份标注全美约
-  30 万台摄像头的详细地图下线。对 AI 应用的含义是，公共安全类 AI 的采购与部署将更多受制于地方政治与合规审查，而非单纯模型能力。
+summary_zh: Flock向美国地方执法机构提供车牌识别与摄像头网络，把摄像头采集的图像接入其AI检索系统，供警方按车牌或特征查询。本次变化不是新产品发布，而是围绕其监控网络的国会听证与设备地图争议，属于监管与舆论层面的行业变化。
 inspiration: ''
-summary_en: 'Flock runs an AI license-plate and camera surveillance network for US police and local governments.
-  This change is not a product launch but regulatory and political pressure: a Senate hearing on its surveillance
-  network that its CEO skipped, and its effort to take offline a detailed map of roughly 300,000 US cameras.
-  For AI applications, public-safety AI procurement and deployment will hinge more on local politics and
-  compliance review than on model capability.'
+summary_en: Flock supplies license-plate recognition and camera networks to US local law enforcement,
+  feeding camera imagery into its AI search system so police can query by plate or attributes. This event
+  is not a product launch but a congressional hearing and a dispute over its device map, a regulatory
+  and public-opinion shift around its surveillance network.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +24,7 @@ canonical_url: https://ft.com/content/b207536e-6def-4080-878f-d0eba61d11e0
 summary: US Republicans revolt against Flock AI surveillance as backlash intensifies
 first_seen: '2026-09-07T04:07:07Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - marketfeeds

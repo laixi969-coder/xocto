@@ -1,0 +1,40 @@
+- id: req-initial-szept-2026-09-30
+  project_slug: szept
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句口号，价值关无法成立。
+    evidence_ids:
+    - ev-cd87b3979c5d2884
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注度证据可判断共识。
+    evidence_ids:
+    - ev-cd87b3979c5d2884
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-cd87b3979c5d2884
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从核对。
+    evidence_ids:
+    - ev-cd87b3979c5d2884
+  next_validation: 收集该产品的官方产品页或文档，确认其输入材料、执行动作与最终交付物。
+  market: ''
+  job: 公开材料未说明谁在什么情况下处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: Public material does not say who handles what material in what situation to complete what task;
+    the use scenario cannot be reconstructed.
+  pain: 未说明用户当前遇到的具体困难，也没有任何用户抱怨或替代行为的记录。
+  pain_en: No specific user difficulty is stated, and there is no record of user complaints or substitute
+    behavior.
+  current_alternative: 公开材料未提及用户现在用什么方式完成同类任务。
+  current_alternative_en: Public material does not mention how users currently accomplish comparable tasks.
+  usage_reason: 缺少场景、输入与交付信息，无法说明它相较旧做法减少了哪一步负担，因此无法判断用户为何选择它。
+  usage_reason_en: With no scenario, input or deliverable information, it is impossible to say which step
+    it removes versus the old way, so why users would choose it cannot be judged.

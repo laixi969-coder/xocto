@@ -1,20 +1,33 @@
 ---
 slug: manus-正式发布-20个人-ai-助手云电脑远程控制manus-想做-ai-时代全家桶
-name: Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶
+name: Manus
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: 通用型 AI 助手用户在处理跨应用任务时打开 Manus，把原本要在浏览器、本地软件和远程机器之间手动切换的步骤交给它执行；2.0 版本中它可调用云电脑环境运行任务，并推出手机与桌面端的个人助手
+  Cue，与主产品共享同一套基础设施。用户最终拿到的是任务执行结果，但具体交付形态与人工确认环节仍待核验。
+inspiration: 趋势是通用 Agent 正从单次问答走向带云电脑执行环境的常驻个人助手，成本与耗时被当作核心指标优化。切入不在通用助手正面战场，而在被通用助手忽略的垂直旧流程：例如把某个行业里需要跨系统搬运数据的重复环节单独做成结果交付，或面向国内合规环境做本地化执行与数据边界方案。
+summary_en: General-purpose AI assistant users open Manus when handling cross-application tasks, handing
+  over steps they would otherwise switch between browser, local software and remote machines to perform;
+  in version 2.0 it can run tasks in a cloud computer environment and adds Cue, a personal assistant app
+  for mobile and desktop sharing the same infrastructure. Users receive task results, though the exact
+  delivery format and human confirmation step still need verification.
+inspiration_en: 'The trend is that general agents are moving from one-off Q&A toward always-on personal
+  assistants with cloud execution environments, with cost and latency optimized as core metrics. The opening
+  is not head-on in general assistants but in vertical legacy workflows they ignore: for example isolating
+  a repetitive cross-system data-shuffling step in one industry into a result-based delivery, or building
+  localized execution and data-boundary options for China''s compliance environment.'
 priority_review: false
 project_type: new_application
 industries: []
 industries_en: []
 jobs: []
 jobs_en: []
-regions: []
-regions_en: []
+regions:
+- 全球
+- 中国
+regions_en:
+- Global
+- China
 open_source: false
 url: http://www.geekpark.net/news/371493
 canonical_url: https://geekpark.net/news/371493
@@ -73,7 +86,7 @@ summary: "头图来源：Manus \n   \n 突然地，Manus 在官网和社交平�
   \ Manus，也由此回到一个更直接的位置——继续以产品和用户证明， Agent 最终能够走多远。"
 first_seen: '2026-09-29T05:27:55Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -84,7 +97,7 @@ sightings:
   kind: news
 ---
 
-# Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶
+# Manus
 
 头图来源：Manus 
    

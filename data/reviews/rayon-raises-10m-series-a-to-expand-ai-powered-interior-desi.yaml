@@ -1,0 +1,44 @@
+- id: req-initial-rayon-raises-10m-series-a-to-expand-ai-powered-interior-desi-2026-09-30
+  project_slug: rayon-raises-10m-series-a-to-expand-ai-powered-interior-desi
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师出图与反复改稿的需求，痛点来自客户来回反馈造成的重复劳动，交付物是可编辑图纸，结构上成立。
+    evidence_ids:
+    - ev-8cbb7d3a1ef5638a
+  - gate: consensus
+    status: insufficient
+    reason: 材料只披露融资，未提供用户评价或客户案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-8cbb7d3a1ef5638a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按设计师个人订阅或设计公司采购均属判断，不是已验证事实。
+    evidence_ids:
+    - ev-8cbb7d3a1ef5638a
+  - gate: truth
+    status: insufficient
+    reason: 无部署文档或可复现实测，AI 介入环节与人工确认边界无法核对。
+    evidence_ids:
+    - ev-8cbb7d3a1ef5638a
+  next_validation: 收集 Rayon 官方定价页或客户案例，确认其收费方式与设计师实际使用后的交付结果。
+  market: ''
+  job: 室内设计师在向客户提案或按反馈改稿时，处理平面图与空间方案，要完成可展示、可继续修改的设计图纸交付。
+  job_en: Interior designers handle floor plans and spatial schemes when pitching to clients or revising
+    on feedback, needing to deliver presentable, still-editable design drawings.
+  pain: 旧流程中出图与改稿依赖桌面软件和手工调整，客户来回反馈导致重复劳动；候选材料未给出耗时或返工率数据，此判断为工作流推理。
+  pain_en: In the old workflow, drafting and revisions rely on desktop software and manual adjustment,
+    and back-and-forth client feedback causes rework; the candidate material gives no time or rework data,
+    so this is workflow inference.
+  current_alternative: 按行业常识推断为桌面绘图软件加人工改稿与截图沟通，材料未明确说明，属推断。
+  current_alternative_en: By inference it is desktop drafting software plus manual revision and screenshot-based
+    communication; the material does not state this explicitly, so it is inference.
+  usage_reason: 推断：浏览器内直接绘图与改稿，省去文件在软件与沟通渠道之间来回传递的一步，设计师在客户当场反馈、需要快速出改稿时更可能选择它；材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: drawing and revising directly in the browser removes the step of moving
+    files between desktop software and communication channels, so designers facing live client feedback
+    and fast revisions are more likely to choose it; the material offers no user feedback or retention
+    evidence.'

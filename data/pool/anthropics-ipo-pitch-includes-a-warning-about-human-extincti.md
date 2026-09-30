@@ -1,6 +1,6 @@
 ---
 slug: anthropics-ipo-pitch-includes-a-warning-about-human-extincti
-name: Anthropic’s IPO pitch includes a warning about human extinction
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-
 summary: The Claude maker warns its own models could resist shutdowns and cause catastrophic harm.
 first_seen: '2026-09-29T14:10:00Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic’s IPO pitch includes a warning about human extinction
+# Anthropic
 
 The Claude maker warns its own models could resist shutdowns and cause catastrophic harm.
 

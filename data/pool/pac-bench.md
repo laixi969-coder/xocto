@@ -21,7 +21,7 @@ canonical_url: https://jonclegg.github.io/pacman-bakeoff
 summary: How well can models one-shot a Pac-Man game?
 first_seen: '2026-09-28T22:43:12Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

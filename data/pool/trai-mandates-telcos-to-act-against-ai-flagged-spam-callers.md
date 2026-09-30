@@ -1,11 +1,15 @@
 ---
 slug: trai-mandates-telcos-to-act-against-ai-flagged-spam-callers
-name: TRAI mandates telcos to act against AI-flagged spam callers without consumer complaints
+name: TRAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: TRAI 于 2026 年 9 月 28 日要求电信运营商在无需消费者投诉的情况下，对 AI 标记的垃圾呼叫者采取行动。这把 AI 检测从辅助工具变为运营商合规义务的触发依据，可能扩大反垃圾语音
+  AI 的部署需求，但材料未说明检测准确率或误判申诉机制。
 inspiration: ''
-summary_en: ''
+summary_en: On September 28, 2026, TRAI mandated that telecom operators act against AI-flagged spam callers
+  without requiring consumer complaints. This turns AI detection from an auxiliary tool into the trigger
+  for carrier compliance obligations, potentially expanding demand for anti-spam voice AI, though the
+  material does not address detection accuracy or appeal mechanisms for false positives.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQRmlPUk1ob19q
 summary: TRAI mandates telcos to act against AI-flagged spam callers without consumer complaints cnbctv18.com
 first_seen: '2026-09-28T18:06:06Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# TRAI mandates telcos to act against AI-flagged spam callers without consumer complaints
+# TRAI
 
 TRAI mandates telcos to act against AI-flagged spam callers without consumer complaints cnbctv18.com
 

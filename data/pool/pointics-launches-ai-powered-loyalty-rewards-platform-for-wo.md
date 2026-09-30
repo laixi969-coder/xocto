@@ -1,6 +1,6 @@
 ---
 slug: pointics-launches-ai-powered-loyalty-rewards-platform-for-wo
-name: Pointics Launches AI-Powered Loyalty & Rewards Platform for WordPress to Boost Customer Retention
+name: Pointics
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Pointics Launches AI-Powered Loyalty & Rewards Platform for WordPress t
   Knoxville News Sentinel
 first_seen: '2026-09-29T21:24:28Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Pointics Launches AI-Powered Loyalty & Rewards Platform for WordPress to Boost Customer Retention
+# Pointics
 
 Pointics Launches AI-Powered Loyalty & Rewards Platform for WordPress to Boost Customer Retention Knoxville News Sentinel
 

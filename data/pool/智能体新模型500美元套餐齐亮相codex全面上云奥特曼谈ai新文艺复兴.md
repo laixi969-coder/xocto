@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aWm45UklRb090
 summary: 智能体、新模型、500美元套餐齐亮相，Codex全面上云，奥特曼谈AI“新文艺复兴” 凤凰网
 first_seen: '2026-09-29T23:33:28Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

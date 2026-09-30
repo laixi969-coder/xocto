@@ -1,6 +1,6 @@
 ---
 slug: openai-推出个人ai-智能体dots传豆包将推个人ai-产品spellspacex-发射星舰成功入轨-极客早知道
-name: OpenAI 推出个人AI 智能体dots；传豆包将推个人AI 产品「Spell」；SpaceX 发射星舰成功入轨| 极客早知道
+name: dots
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWbmQ5aHE1RG9I
 summary: OpenAI 推出个人AI 智能体dots；传豆包将推个人AI 产品「Spell」；SpaceX 发射星舰成功入轨| 极客早知道 极客公园
 first_seen: '2026-09-30T00:25:38Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI 推出个人AI 智能体dots；传豆包将推个人AI 产品「Spell」；SpaceX 发射星舰成功入轨| 极客早知道
+# dots
 
 OpenAI 推出个人AI 智能体dots；传豆包将推个人AI 产品「Spell」；SpaceX 发射星舰成功入轨| 极客早知道 极客公园
 

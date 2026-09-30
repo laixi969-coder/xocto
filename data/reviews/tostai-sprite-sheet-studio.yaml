@@ -1,0 +1,45 @@
+- id: req-initial-tostai-sprite-sheet-studio-2026-09-30
+  project_slug: tostai-sprite-sheet-studio
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决视频转精灵图集这一具体任务，痛点与旧替代可还原，但公开材料只有一句仓库说明，无法确认切帧、去背景与对齐是否真的省掉手工步骤。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+  - gate: consensus
+    status: insufficient
+    reason: 41 个星标与 3 个复刻只说明有少量关注，没有用户评价、案例或社区讨论能说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或买方，开源项目可能靠赞助或后续服务变现，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料确认输出图集能否确定性交付、是否需要大量人工修正，也没有安全或人工边界说明。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+  next_validation: 收集该仓库的 README、示例输出与 issue/discussion，确认输入视频规格、输出图集格式以及是否仍需人工逐帧修正。
+  market: ''
+  job: 独立游戏开发者或游戏美术在制作角色动画时，手上只有一段实拍或渲染好的原始视频，需要把它切成逐帧序列并排成游戏引擎可用的精灵图集。
+  job_en: An indie game developer or game artist who has only a raw captured or rendered video of a character
+    animation needs it cut into frame sequences and laid out as a sprite sheet usable by a game engine.
+  pain: 逐帧切图、去背景、对齐和拼图是重复的手工劳动，耗时且容易在帧序或对齐上出错；但公开材料没有说明这一环节目前有多痛、多频繁。
+  pain_en: Cutting frames, removing backgrounds, aligning and packing sheets is repetitive manual work
+    that is slow and error-prone in frame order or alignment; however, the public material does not show
+    how painful or frequent this step currently is.
+  current_alternative: 美术用视频编辑或图像工具手动导出帧序列，再用图集打包工具（如 TexturePacker 一类）拼接，或直接手绘逐帧动画。
+  current_alternative_en: Artists manually export frame sequences with video or image tools, then pack
+    them with sprite-sheet tools (such as TexturePacker-like software), or hand-draw the animation frame
+    by frame.
+  usage_reason: 推断：相较手动导出加打包的旧做法，它把切帧与拼图合并成一次输入视频的动作，可能省掉中间导出与对齐步骤；但公开材料没有用户反馈或案例说明谁因此选择它，也没有留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with the old export-then-pack routine, it merges frame cutting
+    and packing into a single video-in action, potentially removing intermediate export and alignment
+    steps; but the public material contains no user feedback or case showing who chooses it for that reason,
+    and no retention or repeat-use evidence.'

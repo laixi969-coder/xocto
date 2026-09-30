@@ -24,7 +24,7 @@ summary: Prompt engineering in Amazon Quick shapes how accurately its AI-powered
   Amazon Quick.
 first_seen: '2026-09-29T16:27:57Z'
 last_seen: '2026-09-30T01:18:43Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

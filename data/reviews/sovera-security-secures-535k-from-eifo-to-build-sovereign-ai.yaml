@@ -1,0 +1,43 @@
+- id: req-initial-sovera-security-secures-535k-from-eifo-to-build-sovereign-ai-2026-09-30
+  project_slug: sovera-security-secures-535k-from-eifo-to-build-sovereign-ai
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决主权 AI 安全与合规需求，但材料未说明具体用户任务、痛点与旧流程，无法还原价值闭环。
+    evidence_ids:
+    - ev-865ba370c9cb9b07
+  - gate: consensus
+    status: insufficient
+    reason: 仅有投资方 EIFO 出资这一事实，未见客户采用、行业共识或场景验证。
+    evidence_ids:
+    - ev-865ba370c9cb9b07
+  - gate: model
+    status: insufficient
+    reason: 未披露买方类型、定价或收费方式，钱从哪来无法判断，属未知而非已验证。
+    evidence_ids:
+    - ev-865ba370c9cb9b07
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未见安全边界与人工复核安排。
+    evidence_ids:
+    - ev-865ba370c9cb9b07
+  next_validation: 收集 Sovera Security 官方产品页或 EIFO 投资公告，确认其具体产品形态、目标客户与部署方式。
+  market: ''
+  job: 受监管组织（如公共部门、国防供应链或金融机构）的安全与合规人员，在需要满足数据本地化与主权要求时，处理安全日志与合规材料，要完成安全监控与合规证明任务。
+  job_en: Security and compliance staff in regulated organisations such as public administration, defence
+    supply chains or financial institutions, who handle security logs and compliance material when localisation
+    and sovereignty requirements must be met, in order to complete security monitoring and compliance
+    attestation.
+  pain: 公开材料未说明具体痛点，只能推断：跨境使用境外安全工具可能触发合规与数据出境顾虑。
+  pain_en: The public material states no specific pain; it can only be inferred that using foreign security
+    tooling across borders may raise compliance and data-transfer concerns.
+  current_alternative: 公开材料未披露现有替代方式，可能为传统本地部署安全产品或境外云安全服务，属推断。
+  current_alternative_en: The public material discloses no current alternative; it may be on-premise security
+    products or foreign cloud security services, which is an inference.
+  usage_reason: 无法判断：材料未说明产品通过什么具体动作减少哪一步负担，也未给出可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which concrete step the product removes
+    or which verifiable result it improves, so it cannot explain why a user would choose it.'

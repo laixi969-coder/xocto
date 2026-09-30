@@ -1,11 +1,15 @@
 ---
 slug: ollama-ollama-v0350
-name: 'ollama/ollama: v0.35.0'
+name: Ollama
 builder: ollama
 category: ''
-summary_zh: ''
+summary_zh: Ollama 是一个在本地运行大模型的推理运行时，开发者通过命令行拉取模型并调用本地接口。v0.35.0 新增的 /v1/systemone 让调用方提交一段上下文和若干问题，模型不再返回文本，而是返回选项、概率与置信度分数，官方列出的用途是工单分流、模型路由和内容分类；具体业务流程与交付形态仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: Ollama is a local inference runtime that runs large models on a developer's own machine, pulled
+  via CLI and called through a local endpoint. The new /v1/systemone endpoint in v0.35.0 lets a caller
+  submit context plus questions and receive choices, probabilities and confidence scores instead of text,
+  with ticket triage, model routing and content classification named as intended uses; the concrete business
+  workflow and delivery form still need verification.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -42,7 +46,7 @@ summary: "## Decision models\r\n\r\nOllama now supports decision models through 
   \ now log a warning instead of failing.\r\n\r\n**Full Changelog:** https://github.com/ollama/ollama/compare/v0.34.4...v0.35.0"
 first_seen: '2026-09-28T21:23:22Z'
 last_seen: '2026-09-30T01:18:17Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -54,7 +58,7 @@ sightings:
   kind: news
 ---
 
-# ollama/ollama: v0.35.0
+# Ollama
 
 ## Decision models
 

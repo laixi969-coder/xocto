@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EVTNaWVZ6Tlgx
 summary: 'Meta Glasses by Lisa launch: Price, styles, and where to buy Mashable'
 first_seen: '2026-09-29T20:27:58Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

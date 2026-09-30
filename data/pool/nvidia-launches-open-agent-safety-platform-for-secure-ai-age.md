@@ -1,6 +1,6 @@
 ---
 slug: nvidia-launches-open-agent-safety-platform-for-secure-ai-age
-name: NVIDIA Launches Open Agent Safety Platform for Secure AI Agents
+name: NVIDIA Open Agent Safety Platform
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPdGJoTmk5WTB3
 summary: NVIDIA Launches Open Agent Safety Platform for Secure AI Agents digitalterminal.in
 first_seen: '2026-09-28T11:09:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA Launches Open Agent Safety Platform for Secure AI Agents
+# NVIDIA Open Agent Safety Platform
 
 NVIDIA Launches Open Agent Safety Platform for Secure AI Agents digitalterminal.in
 

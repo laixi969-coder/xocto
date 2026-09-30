@@ -1,11 +1,15 @@
 ---
 slug: trai-orders-telecom-firms-to-act-against-ai-flagged-spammers
-name: Trai Orders Telecom Firms To Act Against AI-Flagged Spammers Without Consumer Complaints
+name: TRAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: TRAI 于 2026 年 9 月 29 日命令电信公司在无消费者投诉的情况下对 AI 标记的垃圾信息发送者采取行动。这使 AI 标记成为运营商执法的直接依据，可能推动印度电信反垃圾
+  AI 检测的采购与集成，但材料未说明判定标准或争议处理流程。
 inspiration: ''
-summary_en: ''
+summary_en: On September 29, 2026, TRAI ordered telecom firms to act against AI-flagged spammers without
+  consumer complaints. This makes AI flagging a direct basis for carrier enforcement, potentially driving
+  procurement and integration of anti-spam AI detection in Indian telecom, though the material does not
+  describe flagging criteria or dispute handling.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +26,7 @@ summary: Trai Orders Telecom Firms To Act Against AI-Flagged Spammers Without Co
   Press Journal
 first_seen: '2026-09-29T08:05:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Trai Orders Telecom Firms To Act Against AI-Flagged Spammers Without Consumer Complaints
+# TRAI
 
 Trai Orders Telecom Firms To Act Against AI-Flagged Spammers Without Consumer Complaints Free Press Journal
 

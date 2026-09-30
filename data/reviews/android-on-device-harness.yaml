@@ -1,0 +1,43 @@
+- id: req-initial-android-on-device-harness-2026-09-30
+  project_slug: android-on-device-harness
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决手机端重复操作难以自动编排的问题，但候选只有一句自述，连输入、动作和交付都说不清，痛点强度无法判断。
+    evidence_ids:
+    - ev-eaed79507526646a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 6 个社区点数、0 条评论，没有采用、留存或用户反馈证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-eaed79507526646a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方是谁、钱从哪来均无公开材料，属判断而非已验证事实。
+    evidence_ids:
+    - ev-eaed79507526646a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近手机自动化的第一性目标，也看不到交付确定性与人工边界，缺少可复现实测或文档。
+    evidence_ids:
+    - ev-eaed79507526646a
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际接收的输入、执行的动作与交付结果，以及是否已有可复现的使用记录。
+  market: ''
+  job: 安卓用户在自己手机上，把需要重复执行的手动操作（如打开应用、点击、填表）整理成一条自动流程，希望由 AI 判断后自动完成。
+  job_en: An Android user on their own phone turns repetitive manual operations (opening apps, tapping,
+    filling forms) into one automated flow, hoping AI can decide and complete them automatically.
+  pain: 候选资料没有说明具体痛点，只能推断手机端重复操作需要人工逐步执行、难以编排；缺少用户抱怨或替代行为的公开证据。
+  pain_en: The candidate material states no specific pain; it can only be inferred that repetitive phone
+    operations must be performed step by step and are hard to orchestrate. Public evidence of user complaints
+    or workarounds is missing.
+  current_alternative: 安卓自动化工具（如 Tasker 类应用）配合手动配置，或干脆人工逐步操作。
+  current_alternative_en: Android automation tools (Tasker-like apps) with manual configuration, or simply
+    performing each step by hand.
+  usage_reason: 推断：相较手动配置自动化规则，它试图让 AI 参与判断并串联手机端动作，从而减少逐条编写触发条件这一步；但候选未给出任何功能细节或用户反馈，无法确认这一减负是否真的发生。
+  usage_reason_en: 'Inference: compared with hand-configuring automation rules, it tries to let AI judge
+    and chain on-device actions, removing the step of writing each trigger condition; however the candidate
+    gives no feature detail or user feedback, so whether this reduction actually happens cannot be confirmed.'

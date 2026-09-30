@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE1GYmt6X3R6Tkcx
 summary: CARES 4.0智能体亮相第四届香港具身智能医疗科技论坛 新浪广东
 first_seen: '2026-09-29T10:49:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: anthropic-warns-of-catastrophic-ai-risks-in-its-own-ipo-fili
-name: Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: As Anthropic gears up for its greatly anticipated public debut, a previ
   as Anthropic eyes a $2 trillion valuation, more than […]
 first_seen: '2026-09-29T11:48:27Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing
+# Anthropic
 
 As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could "further increase the risk that our models cause harm." These disclosures come as Anthropic eyes a $2 trillion valuation, more than […]
 

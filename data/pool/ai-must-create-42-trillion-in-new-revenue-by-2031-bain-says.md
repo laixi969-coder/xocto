@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1KaFRJNHJxLWJT
 summary: AI Must Create $4.2 Trillion in New Revenue by 2031, Bain Says BeInCrypto
 first_seen: '2026-09-29T09:19:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

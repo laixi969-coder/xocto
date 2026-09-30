@@ -1,0 +1,43 @@
+- id: req-initial-figure-ai-宣称找到了机器人版-scaling-law同行却说它其实根本不会泛化-2026-09-30
+  project_slug: figure-ai-宣称找到了机器人版-scaling-law同行却说它其实根本不会泛化
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭重复家务中叠衣、铺床这类仍需人手的环节，痛点刚性且现有替代只有人工或单一功能家电，结构上成立，但可靠性证据来自厂商自述。
+    evidence_ids:
+    - ev-24c8209e941be05c
+  - gate: consensus
+    status: insufficient
+    reason: 只有厂商发布视频与同行质疑两种声音，缺少独立第三方在真实住宅的复现或用户持续使用记录。
+    evidence_ids:
+    - ev-24c8209e941be05c
+  - gate: model
+    status: insufficient
+    reason: 未披露机器人售价、租赁或按次服务定价，买方是家庭、物业还是研究机构尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-24c8209e941be05c
+  - gate: truth
+    status: challenged
+    reason: 同行称约一半任务失败，说明交付确定性不足，且演示仍集中在光线良好的住宅，泛化承诺与可核对结果之间存在差距。
+    evidence_ids:
+    - ev-24c8209e941be05c
+  next_validation: 收集 Figure AI 官方关于 Helix 2.5 在真实住宅的任务成功率、失败类型与部署规模的公开说明或第三方复现报告。
+  market: ''
+  job: 家庭用户希望机器人进入自己家中，在无人示范的情况下整理客厅、铺床和折叠毛巾，完成日常家务动作。
+  job_en: Household users want a robot to enter their own home and, without demonstration, tidy the living
+    room, make beds and fold towels as daily chores.
+  pain: 家务重复、耗时且难以外包；现有扫地机器人只能处理地面，叠衣铺床仍需人手。
+  pain_en: Housework is repetitive and time-consuming and hard to outsource; existing robot vacuums only
+    handle floors, while folding and bed making still need hands.
+  current_alternative: 自己动手，或请钟点工、家政服务；机器人方面只有扫地机器人和单一功能家电。
+  current_alternative_en: Doing it oneself, or hiring cleaners and domestic services; on the robot side
+    only vacuums and single-function appliances.
+  usage_reason: 推断：若 Helix 2.5 真能在未适配的住宅中完成折叠与整理，用户可省去每次布置环境、重新示教的步骤，直接获得整理结果；但同行称约一半失败，因此目前只对愿意容忍失败、以试用为目的的家庭或研究场景有吸引力。
+  usage_reason_en: 'Inference: if Helix 2.5 can really fold and tidy in unadapted homes, users skip setting
+    up the environment and re-teaching each time and get the tidied result directly; but peers report
+    about half fail, so today it appeals mainly to households or research settings willing to tolerate
+    failure for trials.'

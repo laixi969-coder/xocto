@@ -1,0 +1,44 @@
+- id: req-initial-declutr-2026-09-30
+  project_slug: declutr
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是文件堆积后的整理需求，但候选材料只有一句“一键整理”，没有用户抱怨、耗时或误删代价，痛点刚性无法判断。
+    evidence_ids:
+    - ev-2b30ce3441b83de6
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、社区讨论或采用数据，无法判断是否有人真的把它放进日常流程。
+    evidence_ids:
+    - ev-2b30ce3441b83de6
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费信息，买方是个人订阅还是随系统工具附赠无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2b30ce3441b83de6
+  - gate: truth
+    status: insufficient
+    reason: 删除与归类是否可撤销、是否需人工确认均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-2b30ce3441b83de6
+  next_validation: 收集该产品的官方定价页或产品说明页，确认整理规则、删除是否可撤销以及是否按次或按月收费。
+  market: ''
+  job: Mac 用户在桌面和下载文件夹堆积大量文件、找不到东西时，需要把这些文件归类并清掉无用项，让工作目录重新可用。
+  job_en: When a Mac user's desktop and Downloads folder are piled with files and things cannot be found,
+    they need those files sorted and the useless ones cleared so the working directory is usable again.
+  pain: 文件堆积本身不致命，用户通常能忍；候选材料没有给出任何用户抱怨、整理耗时或误删代价，痛点强度无法从公开事实判断。
+  pain_en: File clutter is rarely fatal and users usually tolerate it; the candidate material offers no
+    user complaints, time cost, or cost of mistaken deletion, so pain intensity cannot be judged from
+    public facts.
+  current_alternative: 用户目前靠手动拖拽、按日期重命名、系统自带的智能文件夹或干脆不整理来应付。
+  current_alternative_en: Users currently cope by dragging files manually, renaming by date, using built-in
+    smart folders, or simply not tidying at all.
+  usage_reason: 推断：如果它真能一次完成归类并给出可撤销的结果，用户会在下载文件夹刚堆满时选择它，省掉逐条判断和拖拽这一步；但候选材料没有说明它如何判断保留与删除，也没有任何采用或重复使用证据，因此无法确认用户会持续使用。
+  usage_reason_en: 'Inference: if it truly sorts in one pass and the result is reversible, users would
+    pick it when the Downloads folder just filled up, skipping the step of judging and dragging each file;
+    but the material does not explain how it decides what to keep or delete, and there is no adoption
+    or repeat-use evidence, so continued use cannot be confirmed.'

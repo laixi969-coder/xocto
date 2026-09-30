@@ -1,0 +1,42 @@
+- id: req-initial-belgian-construction-tech-spotable-raises-4m-for-internation-2026-09-30
+  project_slug: belgian-construction-tech-spotable-raises-4m-for-internation
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只给出融资与扩张，未说明解决什么需求、什么痛点，价值关无法判断。
+    evidence_ids:
+    - ev-c98a0a16259524a6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺少场景与采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-c98a0a16259524a6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露，无法判断收入来源。
+    evidence_ids:
+    - ev-c98a0a16259524a6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-c98a0a16259524a6
+  next_validation: 收集 Spotable 官方产品页或部署文档，确认它在施工现场接收什么输入、执行什么动作、交付什么结果。
+  market: ''
+  job: 公开材料未说明具体使用者与任务，只能确认场景在建筑施工环节，尚不清楚谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the specific user or task; it only places the scenario in
+    construction work, leaving unclear who handles what material under what conditions to complete which
+    task.
+  pain: 材料未披露它针对的具体痛点，无法判断是进度记录、质量验收还是现场沟通中的哪一环。
+  pain_en: The material does not disclose the specific pain point, so it is impossible to tell whether
+    it targets progress logging, quality inspection or site communication.
+  current_alternative: 材料未说明旧做法，无法确认此前由谁、用什么工具、花多久完成同一步骤。
+  current_alternative_en: The material does not describe the prior practice, so who did the same step,
+    with what tools and how long it took cannot be confirmed.
+  usage_reason: 缺少功能与流程细节，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no functional or workflow detail, there is no way to explain which step of burden
+    it removes versus the old practice, or which users would choose it under what conditions.

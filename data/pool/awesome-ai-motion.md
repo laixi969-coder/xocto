@@ -22,7 +22,7 @@ summary: 精选 AI 动画与视频：作品封面、可播放案例、作者原�
   Claude Opus 5.5.
 first_seen: '2026-09-27T08:53:43Z'
 last_seen: '2026-09-30T01:18:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

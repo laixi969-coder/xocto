@@ -1,11 +1,15 @@
 ---
 slug: trai-mandates-telcos-to-act-against-pesky-callers-using-ai-n
-name: Trai mandates telcos to act against pesky callers using AI, no consumer complaint needed
+name: TRAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: TRAI 于 2026 年 9 月 29 日发布要求，电信运营商须依据 AI 识别结果处置骚扰呼叫者，无需消费者先行投诉。该规则将 AI 判定直接嵌入运营商执法流程，对反骚扰 AI
+  检测的准确性与可审计性提出更高要求，但材料未提供技术规范或实施时间表。
 inspiration: ''
-summary_en: ''
+summary_en: On September 29, 2026, TRAI issued a requirement that telecom operators handle pesky callers
+  based on AI identification, without a prior consumer complaint. The rule embeds AI determinations directly
+  into carrier enforcement workflows, raising requirements for accuracy and auditability of anti-nuisance
+  AI detection, though the material provides no technical specifications or implementation timeline.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTmxaVUxEWTZQ
 summary: Trai mandates telcos to act against pesky callers using AI, no consumer complaint needed cnbctv18.com
 first_seen: '2026-09-29T07:25:55Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Trai mandates telcos to act against pesky callers using AI, no consumer complaint needed
+# TRAI
 
 Trai mandates telcos to act against pesky callers using AI, no consumer complaint needed cnbctv18.com
 

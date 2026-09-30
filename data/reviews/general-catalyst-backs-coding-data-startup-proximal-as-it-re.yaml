@@ -1,0 +1,43 @@
+- id: req-initial-general-catalyst-backs-coding-data-startup-proximal-as-it-re-2026-09-30
+  project_slug: general-catalyst-backs-coding-data-startup-proximal-as-it-re
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有投资与收入里程碑标题，价值关无法成立。
+    evidence_ids:
+    - ev-5bab099e7bafbd04
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-5bab099e7bafbd04
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-5bab099e7bafbd04
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性与人工边界无从核对。
+    evidence_ids:
+    - ev-5bab099e7bafbd04
+  next_validation: 查找 Proximal 官方产品页或客户案例，确认其数据交付物与使用方。
+  market: ''
+  job: 公开材料未说明具体使用者与任务，只能推断为 AI 编程模型团队在训练或评测阶段需要成规模的代码变更数据。
+  job_en: Public material does not identify the user or task; it can only be inferred that AI coding model
+    teams need large-scale code-change data during training or evaluation.
+  pain: 若痛点成立，应是高质量、可追溯的代码过程数据稀缺，导致模型在真实仓库任务上表现不稳；但候选未给出任何用户抱怨或替代行为证据。
+  pain_en: If the pain holds, it would be the scarcity of high-quality, traceable code-process data that
+    makes models unstable on real repository tasks; the candidate gives no user complaint or workaround
+    evidence.
+  current_alternative: 旧做法可能是团队自行爬取公开仓库、购买通用代码数据集或人工标注，候选未提供任何相关事实。
+  current_alternative_en: The prior approach may be scraping public repositories, buying generic code
+    datasets or manual annotation; the candidate provides no facts on this.
+  usage_reason: 无法判断用户为何选择它：候选只有投资与收入里程碑标题，没有产品动作、交付物或客户反馈，因此缺少可解释选择动机的一环。
+  usage_reason_en: 'Why users would choose it cannot be judged: the candidate only has a funding and revenue-milestone
+    headline, with no product action, deliverable or customer feedback, so the link explaining choice
+    is missing.'

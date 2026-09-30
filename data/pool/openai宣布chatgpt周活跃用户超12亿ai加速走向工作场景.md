@@ -1,6 +1,6 @@
 ---
 slug: openai宣布chatgpt周活跃用户超12亿ai加速走向工作场景
-name: OpenAI宣布ChatGPT周活跃用户超12亿，AI加速走向工作场景
+name: ChatGPT
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE00ZDB5OVM4cUlG
 summary: OpenAI宣布ChatGPT周活跃用户超12亿，AI加速走向工作场景 手机新浪网
 first_seen: '2026-09-29T19:10:04Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI宣布ChatGPT周活跃用户超12亿，AI加速走向工作场景
+# ChatGPT
 
 OpenAI宣布ChatGPT周活跃用户超12亿，AI加速走向工作场景 手机新浪网
 

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/clink-custom-keyboards
 summary: The iOS keyboard you actually own
 first_seen: '2026-09-28T12:11:38Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

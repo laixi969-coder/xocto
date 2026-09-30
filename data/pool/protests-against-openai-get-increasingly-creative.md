@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-
 summary: New sculpture depicts AI leaders escaping a sinking ship.
 first_seen: '2026-09-29T21:52:58Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

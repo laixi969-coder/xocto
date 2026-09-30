@@ -22,7 +22,7 @@ summary: Earlier this month, Pontes went live, enabling transactions in Europeâ€
   markets to be settled in central bank money for the first time. The Eurosystem service bridges platform...
 first_seen: '2026-09-29T12:59:25Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

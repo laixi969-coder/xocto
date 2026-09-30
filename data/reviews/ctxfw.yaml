@@ -1,0 +1,42 @@
+- id: req-initial-ctxfw-2026-09-30
+  project_slug: ctxfw
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是上下文过大导致成本高、代理抓错重点的问题，痛点具体，但材料只有一句说明，裁剪规则与交付方式不清。
+    evidence_ids:
+    - ev-4ce440c2ecf11bb7
+  - gate: consensus
+    status: insufficient
+    reason: 几乎没有社区讨论，没有采用或留存证据，无法判断开发者是否真的需要这层裁剪。
+    evidence_ids:
+    - ev-4ce440c2ecf11bb7
+  - gate: model
+    status: insufficient
+    reason: 开源项目，没有定价页或买方信息；可能靠托管版或按节省 token 收费，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-4ce440c2ecf11bb7
+  - gate: truth
+    status: insufficient
+    reason: 67% 的 token 削减是自述数字，无法核对测量口径，也无法确认裁剪后代理是否仍能完成任务。
+    evidence_ids:
+    - ev-4ce440c2ecf11bb7
+  next_validation: 查看该仓库的文档与可复现基准，确认 67% token 削减的测量口径以及裁剪后任务完成率是否下降。
+  market: ''
+  job: 开发者在把代码库交给编码代理前，需要按语法结构裁剪上下文，让代理只看到相关代码，从而控制提示词体积。
+  job_en: Before handing a codebase to a coding agent, a developer needs to trim context by syntax structure
+    so the agent sees only relevant code and prompt size stays controlled.
+  pain: 整库塞进上下文既贵又容易让代理抓错重点，手工挑文件费时且容易漏。
+  pain_en: Dumping a whole repository into context is expensive and makes the agent lose focus, while
+    picking files by hand is slow and error-prone.
+  current_alternative: 手工挑选要贴进对话的文件，或依赖代理自带的检索与忽略规则。
+  current_alternative_en: Manually choosing which files to paste into the conversation, or relying on
+    the agent's built-in retrieval and ignore rules.
+  usage_reason: 推断：如果它按语法结构自动裁掉无关代码，就省掉了手工挑文件这一步并直接压低 token 账单，常跑大仓库的开发者会因此选择它；67% 这一数字来自候选材料自述，未经独立核验。
+  usage_reason_en: 'Inference: if it automatically cuts irrelevant code by syntax structure, it removes
+    manual file picking and directly lowers the token bill, which is why developers on large repositories
+    would pick it; the 67% figure is self-reported in the candidate material and not independently verified.'

@@ -1,0 +1,43 @@
+- id: req-initial-jevstiller-2026-09-30
+  project_slug: jevstiller
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决本地蒸馏后偏差不可核对的问题，痛点真实但材料只有一句摘要，无法确认交付形态与适用场景。
+    evidence_ids:
+    - ev-b577a7b66a019a94
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论61点、14条评论，属于关注度信号，不能证明有人把它用于实际部署。
+    evidence_ids:
+    - ev-b577a7b66a019a94
+  - gate: model
+    status: insufficient
+    reason: 未披露任何定价、付费或服务方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b577a7b66a019a94
+  - gate: truth
+    status: insufficient
+    reason: 不一致度上界是否可复现、是否覆盖真实推理分布，公开材料未给出验证结果。
+    evidence_ids:
+    - ev-b577a7b66a019a94
+  next_validation: 收集该项目的公开代码仓库或文档，核验不一致度上界的定义、可复现实验步骤与适用模型范围。
+  market: ''
+  job: 模型部署工程师在把已有模型搬到本地或私有环境时，需要处理原模型权重与推理输出，完成一次可复现的蒸馏并知道结果偏差范围。
+  job_en: A model deployment engineer moving an existing model to a local or private environment handles
+    the original weights and inference outputs to complete a reproducible distillation and learn the deviation
+    range of the result.
+  pain: 本地蒸馏后输出质量是否退化、退化多少，通常只能靠抽样人工比对，缺少可核对的边界，导致上线决策没有依据。
+  pain_en: After local distillation, whether and how much output quality degrades can usually only be
+    checked by manual sampling, with no verifiable bound, leaving go-live decisions without a basis.
+  current_alternative: 现有做法是直接跑开源蒸馏脚本，再用少量样本人工比对，或干脆放弃本地化继续调用云端接口。
+  current_alternative_en: The current practice is to run open-source distillation scripts and manually
+    compare a few samples, or to give up localization and keep calling cloud APIs.
+  usage_reason: 推断：相较人工抽样比对，给出不一致度上界让工程师在蒸馏后直接得到一个可核对的偏差指标，减少逐条比对这一步，因此对输出偏差敏感、又必须本地部署的团队会关注它。
+  usage_reason_en: 'Inference: compared with manual sampling, providing a disagreement bound gives engineers
+    a verifiable deviation metric right after distillation, removing the step of comparing outputs one
+    by one, so teams sensitive to output deviation that must deploy locally would pay attention.'

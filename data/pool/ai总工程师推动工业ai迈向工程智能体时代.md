@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE44cEhKTEpna3c2
 summary: “AI总工程师”推动工业AI迈向工程智能体时代 新华报业网
 first_seen: '2026-09-29T08:31:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

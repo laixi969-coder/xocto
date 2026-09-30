@@ -1,0 +1,42 @@
+- id: req-initial-腾讯推出开箱即用版ai智能体workbuddy-2026-09-30
+  project_slug: 腾讯推出开箱即用版ai智能体workbuddy
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未在材料中写出，无法还原旧流程与不采用的后果，价值关证据不足。
+    evidence_ids:
+    - ev-09c3497ec394066e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，没有用户反馈、客户案例或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-09c3497ec394066e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，to C、to B 还是随腾讯生态分发均无法判断。
+    evidence_ids:
+    - ev-09c3497ec394066e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标、交付是否确定，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-09c3497ec394066e
+  next_validation: 收集腾讯官方对WorkBuddy的产品说明页或发布文档，确认其具体功能、适用场景与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境与所处理材料，无法还原谁在什么工作节点用它完成什么任务。
+  job_en: The public material does not state the specific user, situation or material handled, so it cannot
+    reconstruct who uses it at which work step to finish which task.
+  pain: 候选资料未给出任何用户痛点、旧流程耗时或出错代价的描述。
+  pain_en: The candidate material gives no description of user pain, time cost in the old process, or
+    cost of errors.
+  current_alternative: 未披露它替代的现有做法，无法判断用户此前是用人工、脚本还是其他助手完成同一任务。
+  current_alternative_en: It does not disclose the existing practice it replaces, so it is impossible
+    to tell whether users previously did the same task manually, with scripts or with another assistant.
+  usage_reason: 缺少功能、交付与使用场景信息，无法解释用户为何选择它而非旧做法；现有材料不足以形成因果判断。
+  usage_reason_en: With no information on features, deliverables or usage scenarios, there is no way to
+    explain why a user would choose it over the old practice; the material is insufficient for a causal
+    judgment.

@@ -1,0 +1,42 @@
+- id: req-initial-pocket-agent-cli-2026-09-30
+  project_slug: pocket-agent-cli
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决无电脑时无法运行编码代理的问题，但公开材料未说明手机端输入与结果核对的具体痛点，价值判断证据不足。
+    evidence_ids:
+    - ev-440c933c3ac335c6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 123 星与 8 次 fork，无用户评价或采用讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-440c933c3ac335c6
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-440c933c3ac335c6
+  - gate: truth
+    status: insufficient
+    reason: 未说明手机端运行环境、安全边界与人工确认环节，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-440c933c3ac335c6
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认手机端支持的运行环境、实际可执行的任务范围与用户反馈。
+  market: ''
+  job: 移动端开发者在没有电脑、只有手机的情况下，需要运行 Codex CLI 或 Claude Code CLI 完成一段编码任务并拿到代码改动。
+  job_en: A mobile developer with only a phone and no computer needs to run Codex CLI or Claude Code CLI
+    to complete a coding task and obtain code changes.
+  pain: 公开材料只说明可在手机上运行命令行代理，未说明手机端输入、上下文准备和结果核对具体难在哪里。
+  pain_en: Public material only says command-line agents can run on a phone; it does not say what is actually
+    hard about mobile input, context preparation or result checking.
+  current_alternative: 旧做法是回到电脑上打开终端或 IDE 运行编码代理。
+  current_alternative_en: The old way is to go back to a computer and run the coding agent in a terminal
+    or IDE.
+  usage_reason: 推断：若手机端能直接运行同一套 CLI 并回传代码改动，可省去必须回到电脑这一步，手机不离身的开发者可能因此试用；但公开材料未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: if the same CLI can run on the phone and hand back code changes, it removes
+    the need to return to a computer, so phone-bound developers may try it; however no retention or repeat-use
+    evidence is public.'

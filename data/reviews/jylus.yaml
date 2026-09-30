@@ -1,0 +1,41 @@
+- id: req-initial-jylus-2026-09-30
+  project_slug: jylus
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句“为 AI 系统提供来自变化数据的证据”，无法还原旧流程与交付。
+    evidence_ids:
+    - ev-491980ec366fca50
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区仅 6 分、0 条评论，没有可归因到该产品的采用或讨论证据。
+    evidence_ids:
+    - ev-491980ec366fca50
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-491980ec366fca50
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断它是否贴近该工作的第一性目标，也无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-491980ec366fca50
+  next_validation: 收集 Jylus 官方文档或产品页中一个具体使用场景的说明，确认它接收什么数据、输出什么可核对结果。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法确认谁在什么情况下、处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or work step, so it is impossible to confirm who
+    handles what material under what circumstances to finish what task.
+  pain: 只能推断痛点是 AI 引用的数据会变化、结论难以追溯，但没有任何用户抱怨、案例或旧做法记录支持这一痛点真实存在。
+  pain_en: The only inferable pain is that data cited by AI changes and conclusions are hard to trace,
+    but no user complaint, case or record of the old workaround supports that this pain is real.
+  current_alternative: 公开材料未披露现有替代方式，无法判断用户此前是人工核对、写脚本还是直接信任模型输出。
+  current_alternative_en: Public material does not disclose the current alternative, so it is unclear
+    whether users previously checked by hand, wrote scripts, or simply trusted model output.
+  usage_reason: 缺少可核对的功能细节与使用场景，无法说明它相较旧做法减少了哪一步负担，因此无法给出用户选择它的因果解释。
+  usage_reason_en: With no checkable feature detail or usage scenario, there is no way to say which step
+    of the old process it removes, so no causal reason for user choice can be given.

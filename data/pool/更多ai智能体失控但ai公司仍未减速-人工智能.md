@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jLUxnLTlGbHkx
 summary: 更多AI智能体失控，但AI公司仍未减速-人工智能 至顶网
 first_seen: '2026-09-29T16:05:58Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

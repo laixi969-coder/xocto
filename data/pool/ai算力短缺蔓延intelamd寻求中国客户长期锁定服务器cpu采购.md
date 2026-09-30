@@ -24,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gy
 summary: AI算力短缺蔓延：Intel、AMD寻求中国客户长期锁定服务器CPU采购 新浪网
 first_seen: '2026-09-13T15:30:58Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

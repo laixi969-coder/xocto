@@ -1,6 +1,6 @@
 ---
 slug: physical-ai-startup-simaai-raises-150-million-in-series-c-fu
-name: Physical AI startup SiMa.ai raises $150 million in Series C funding at $1.45 billion valuation
+name: SiMa.ai
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Physical AI startup SiMa.ai raises $150 million in Series C funding at 
   Indian Startup News
 first_seen: '2026-09-29T09:39:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Physical AI startup SiMa.ai raises $150 million in Series C funding at $1.45 billion valuation
+# SiMa.ai
 
 Physical AI startup SiMa.ai raises $150 million in Series C funding at $1.45 billion valuation Indian Startup News
 

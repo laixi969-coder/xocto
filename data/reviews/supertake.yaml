@@ -1,0 +1,42 @@
+- id: req-initial-supertake-2026-09-30
+  project_slug: supertake
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把投资想法直接变成下单动作，痛点存在，但公开材料未说明具体替代了哪一步人工，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-3b756c772f116b2f
+  - gate: consensus
+    status: insufficient
+    reason: 公开页面没有用户评价、采用数据或社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-3b756c772f116b2f
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或商业条款，买方与付费路径未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3b756c772f116b2f
+  - gate: truth
+    status: insufficient
+    reason: 涉及真实资金执行，授权边界、合规资质与人工确认环节公开材料均未说明，无法验证承诺能否确定性交付。
+    evidence_ids:
+    - ev-3b756c772f116b2f
+  next_validation: 收集Supertake官方页面的定价与合规说明，确认其接入的执行通道与授权方式。
+  market: ''
+  job: 个人投资者在产生一个投资想法后，处理标的、金额与下单信息，要完成一笔真实可成交的投资。
+  job_en: An individual investor with an investment idea handles the target, amount and order details
+    to complete a real, executable investment.
+  pain: 从想法到下单要跨研究、开户、下单多个环节，普通投资者容易在操作步骤上卡住或拖延。
+  pain_en: Going from idea to order spans research, account opening and order placement, and ordinary
+    investors often get stuck or delay at the operational steps.
+  current_alternative: 目前靠自己在券商App里手动搜索标的并下单，或先看分析内容再自行操作。
+  current_alternative_en: Today investors manually search for the target and place orders in a brokerage
+    app, or read analysis first and then act on their own.
+  usage_reason: 推断：相比自己在券商App里逐步操作，它把想法直接转成下单动作，省掉手动搜索与填写这一步，因此嫌操作繁琐的散户会尝试；但公开材料没有付费、留存或成交数据。
+  usage_reason_en: 'Inference: compared with step-by-step manual operation in a brokerage app, it turns
+    an idea directly into an order action, removing the manual search and entry step, so retail investors
+    who find the process tedious would try it; public materials show no payment, retention or trade data.'

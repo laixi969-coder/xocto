@@ -1,0 +1,45 @@
+- id: req-initial-vespper-yc-f24-2026-09-30
+  project_slug: vespper-yc-f24
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 输出落到 Word 文档这一步，痛点真实，但公开材料只有一句 SOTA 描述，说不清具体输入、动作与交付。
+    evidence_ids:
+    - ev-bf345c6417f534c0
+    - ev-462befc810638ff4
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 35 分、17 条评论，属于关注度信号，不能证明持续采用或强场景。
+    evidence_ids:
+    - ev-bf345c6417f534c0
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是企业文档团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bf345c6417f534c0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能保留 Word 格式与批注，也未见人工确认边界。
+    evidence_ids:
+    - ev-462befc810638ff4
+  next_validation: 收集 Vespper Docx MCP 的官方文档或定价页，确认它读写 .docx 时保留格式与批注的具体能力边界。
+  market: ''
+  job: 企业法务、财务或咨询人员需要把 AI 生成的或修改的内容直接落到 Word 文档里，用于合同、报告和模板的交付。
+  job_en: Legal, finance or consulting staff need AI-generated or edited content to land directly in Word
+    documents for contracts, reports and templates.
+  pain: Word 文档带格式、批注和样式，纯文本模型输出无法直接使用，人工还要重新排版粘贴。
+  pain_en: Word files carry formatting, comments and styles, so plain-text model output cannot be used
+    directly and people must re-paste and re-format by hand.
+  current_alternative: 现在多是把 AI 输出复制到 Word 里手工调整，或用脚本转换，格式经常丢失。
+  current_alternative_en: Today people copy AI output into Word and fix it by hand, or use scripts that
+    often lose formatting.
+  usage_reason: 推断：如果它真能让代理直接读写 .docx 并保留结构，就省掉复制粘贴和重新排版这一步，法务、财务这类以 Word 交付的岗位会在批量改文档时选它；但公开材料只有一句 SOTA
+    描述，缺少流程与交付细节。
+  usage_reason_en: 'Inference: if it truly lets agents read and write .docx while keeping structure, it
+    removes the copy-paste and re-formatting step, so Word-delivering roles like legal and finance would
+    pick it for batch edits; but public material is only a one-line SOTA claim with no workflow or deliverable
+    detail.'

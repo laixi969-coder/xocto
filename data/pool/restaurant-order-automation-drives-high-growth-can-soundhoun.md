@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPbnB2N1Nla0Fj
 summary: 'Restaurant Order Automation Drives High Growth: Can SoundHound AI Return to Its Peak? NAI500'
 first_seen: '2026-09-05T05:42:22Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

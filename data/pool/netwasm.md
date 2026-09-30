@@ -21,7 +21,7 @@ canonical_url: https://playground.netwasm.com
 summary: Independent .NET Compiler/Runtime (82.5 KB Hello World in C#)
 first_seen: '2026-09-29T13:09:27Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

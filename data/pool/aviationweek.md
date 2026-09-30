@@ -21,7 +21,7 @@ canonical_url: https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-s
 summary: NASA asked several former SR-71A staffers to help secret restart
 first_seen: '2026-09-29T10:10:20Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

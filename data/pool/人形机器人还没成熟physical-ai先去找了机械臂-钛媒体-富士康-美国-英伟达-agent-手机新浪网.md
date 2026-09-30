@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNVk9qU3JFdHFK
 summary: 人形机器人还没成熟，Physical AI先去找了机械臂|钛媒体|富士康|美国|英伟达|Agent_手机新浪网 新浪财经
 first_seen: '2026-09-30T01:13:43Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

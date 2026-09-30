@@ -1,0 +1,45 @@
+- id: req-initial-tiny-health-raises-33m-to-explore-what-gut-data-can-reveal-a-2026-09-30
+  project_slug: tiny-health-raises-33m-to-explore-what-gut-data-can-reveal-a
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是测序结果不可读、用户不知如何行动的问题，痛点方向成立，但公开材料只有融资信息，没有用户抱怨、替代行为或交付结果，价值判断只能停在结构推理。
+    evidence_ids:
+    - ev-5757885a2e420251
+  - gate: consensus
+    status: insufficient
+    reason: 只有一轮融资报道，没有客户案例、独立评价或采用数据，无法判断用户是否真的把报告当作决策依据。
+    evidence_ids:
+    - ev-5757885a2e420251
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方式与买方结构，检测盒与解读服务如何收费、是否订阅均不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5757885a2e420251
+  - gate: truth
+    status: insufficient
+    reason: 无法核验解读结论的准确性、是否需医生复核，以及居家采样与临床检测结果的一致性，交付确定性存疑。
+    evidence_ids:
+    - ev-5757885a2e420251
+  next_validation: 收集 Tiny Health 官方定价页或公开客户案例，确认检测盒与解读服务的收费方式及是否有复检、订阅等重复使用证据。
+  market: ''
+  job: 居家采样用户（多为关注婴幼儿肠道或女性健康的家庭成员）在收到检测盒后自行采样寄回，需要拿到一份能看懂、能据此调整饮食或就医判断的菌群解读报告。
+  job_en: At-home sampling users, often family members tracking infant gut or women's health, collect
+    and mail samples after receiving a kit and need a readable microbiome interpretation they can use
+    to adjust diet or decide whether to see a doctor.
+  pain: 测序原始结果对普通人不可读，用户拿到一堆菌种名称后不知道哪一项值得在意、要不要改变喂养或就医；公开材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: 'Raw sequencing results are unreadable to laypeople: users get a list of species names with
+    no sense of which matter or whether to change feeding or seek care; the public material gives no direct
+    evidence of user complaints or workarounds.'
+  current_alternative: 旧做法是去医院做粪便或阴道菌群相关检查、或购买其他居家检测盒后自行搜索解读，也有人干脆不做检测。
+  current_alternative_en: The old path is a hospital stool or vaginal flora test, or buying another at-home
+    kit and searching for interpretations oneself; some simply skip testing.
+  usage_reason: 推断：相较自行搜索，产品把测序结果直接整理成一份带解读的报告，省去用户逐项查资料这一步，因此关注婴幼儿肠道或女性健康的家庭在收到报告时会打开它；但公开材料没有用户反馈或复购证据，无法确认它被长期留在健康管理流程里。
+  usage_reason_en: 'Inference: compared with searching on one''s own, the product turns sequencing output
+    into a single interpreted report, removing the step of looking up each item, so families tracking
+    infant gut or women''s health would open it when the report arrives; however, no user feedback or
+    repeat-purchase evidence is public, so it cannot be confirmed as staying in a long-term health routine.'

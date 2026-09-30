@@ -22,7 +22,7 @@ canonical_url: https://latent.space/p/ainews-amd-buys-world-labs-for-82b
 summary: Congrats team!
 first_seen: '2026-09-29T02:55:27Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

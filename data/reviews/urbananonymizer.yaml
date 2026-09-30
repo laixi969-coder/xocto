@@ -1,0 +1,43 @@
+- id: req-initial-urbananonymizer-2026-09-30
+  project_slug: urbananonymizer
+  level: initial
+  reviewed_at: '2026-09-30T01:18:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决街景图像公开前的隐私脱敏需求，痛点是漏标带来的合规风险，人工逐张处理是明确的旧做法。
+    evidence_ids:
+    - ev-a7682c42c70b816f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量点赞，没有用户评价或行业采用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a7682c42c70b816f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，测绘、地产、公共数据部门都可能付费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a7682c42c70b816f
+  - gate: truth
+    status: insufficient
+    reason: 未说明遮盖准确率、人工复核边界与误检处理，交付确定性无法核对。
+    evidence_ids:
+    - ev-a7682c42c70b816f
+  next_validation: 收集该工具的官方说明或仓库文档，核验是否披露检测准确率、人工复核流程与使用条款。
+  market: ''
+  job: 测绘、城市规划或数据开放团队在准备发布街景图像时，需要处理成批含人脸和车牌的原始照片，产出可合法对外共享的脱敏图像。
+  job_en: Surveying, urban planning or open-data teams preparing to publish street-level imagery must
+    process batches of raw photos containing faces and license plates and produce legally shareable anonymized
+    images.
+  pain: 不脱敏就不能公开，人工逐张涂抹人脸和车牌耗时且容易漏标，漏标会带来合规风险。
+  pain_en: Without masking the imagery cannot be published; manually blurring faces and plates is slow
+    and error-prone, and missed detections create compliance risk.
+  current_alternative: 目前多靠人工用图像软件逐张涂抹，或使用通用检测模型自行拼装流程，缺少针对街景场景的现成脱敏环节。
+  current_alternative_en: Today teams mostly blur images by hand in image editors or assemble their own
+    pipeline from generic detection models; there is no ready-made street-scene masking step.
+  usage_reason: 推断：相较人工逐张涂抹，它把检测与遮盖合并为一次自动处理，减少逐张操作和漏标复核的负担，因此需要批量发布街景图像的团队会先试它；公开材料未给出准确率或客户案例。
+  usage_reason_en: 'Inference: compared with manual per-image blurring, it merges detection and masking
+    into one automated pass, cutting per-image labor and missed-detection review, so teams publishing
+    street imagery in batches would try it; no accuracy figures or customer cases are disclosed.'

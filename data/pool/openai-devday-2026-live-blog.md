@@ -24,7 +24,7 @@ summary: "I'm at  OpenAI DevDay  today, in Fort Mason, San Francisco. Same as  l
   \ ,  llms ,  coding-agents ,  live-blog ,  openai-devday"
 first_seen: '2026-09-29T15:55:13Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

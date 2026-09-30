@@ -22,7 +22,7 @@ summary: For the sake of national security, it's a relief to learn that America.
   to the point that it's penning lengthy poetry.
 first_seen: '2026-09-29T23:30:55Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

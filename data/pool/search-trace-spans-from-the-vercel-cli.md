@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/search-trace-spans-from-the-vercel-c
 summary: ''
 first_seen: '2026-09-29T13:00:00Z'
 last_seen: '2026-09-30T01:18:43Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

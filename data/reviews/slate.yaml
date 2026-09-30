@@ -411,3 +411,45 @@
     keeps shot planning and prompt compilation in one place, so a setting change regenerates the whole
     prompt set once instead of repeated pasting and rewriting; creators of multi-shot, continuity-sensitive
     shorts would therefore pick it before shooting.'
+- id: req-initial-slate-2026-09-30
+  project_slug: slate
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决分镜规划与提示词一致性的需求，痛点方向合理，但公开材料只有产品自述，缺少旧流程、用户抱怨或采用行为，价值强度无法核实。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有少量星标与讨论，属于关注度而非持续采用，无法说明创作者已把它放进工作流。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 项目以捐赠方式获取支持，未见定价页或付费路径，买方与收费方式均未披露，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 承诺的交付是提示词清单而非成片，人工仍需确认，能否确定性产出跨镜头一致的结果缺少可复现实测。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认创作者是否报告跨镜头连续性问题的实际使用结果。
+  market: ''
+  job: AI 影视创作者在开拍前规划分镜、安排镜头覆盖并维持连续性，把镜头意图整理成可投喂给图像、视频、音乐或配音生成器的提示词，最终产出一份可执行的分镜提示词清单。
+  job_en: AI filmmakers plan storyboards, arrange shot coverage and keep continuity before shooting, turning
+    shot intent into prompts for image, video, music or voice generators, and produce an executable shot-prompt
+    list.
+  pain: 多镜头项目里提示词散落在各处，角色与场景容易前后不一致，重做成本高；但公开材料未给出用户抱怨、替代流程或采用证据，痛点强度无法核实。
+  pain_en: Across multi-shot projects prompts are scattered and characters or scenes drift out of consistency,
+    making rework costly; but public material offers no user complaints, prior workflow or adoption evidence,
+    so pain intensity cannot be verified.
+  current_alternative: 创作者目前用文档、表格或聊天记录手工管理分镜与提示词，逐条复制到各生成器；这是从产品定位推断的旧做法，未见公开材料直接描述。
+  current_alternative_en: Creators currently manage storyboards and prompts by hand in documents, spreadsheets
+    or chat logs, copying them one by one into each generator; this is inferred from the product positioning,
+    not directly described in public material.
+  usage_reason: 推断：若它能把分镜、镜头覆盖与连续性集中在一处并直接编译成各生成器可用的提示词，就省去在多个工具间手工搬运和反复对齐角色设定的一步，因此多镜头、有交付节点的团队会尝试它；但缺少用户反馈或案例支持，无法确认这一选择真实发生。
+  usage_reason_en: 'Inference: if it centralizes storyboards, coverage and continuity and compiles them
+    into prompts usable by each generator, it removes the manual step of shuttling between tools and re-aligning
+    character settings, so multi-shot teams with delivery deadlines would try it; without user feedback
+    or cases, this choice cannot be confirmed.'

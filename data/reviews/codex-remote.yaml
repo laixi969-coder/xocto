@@ -1,0 +1,44 @@
+- id: req-initial-codex-remote-2026-09-30
+  project_slug: codex-remote
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是编码代理长任务占用本机、易中断的问题，痛点真实，但材料只有一句说明，说不清输入、动作与交付，价值结构无法确认。
+    evidence_ids:
+    - ev-a07bdfda9e7d4e13
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品说明外没有任何采用、评价或讨论证据，无法判断是否有人真的把编码代理搬到云主机上。
+    evidence_ids:
+    - ev-a07bdfda9e7d4e13
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或买方信息；可能向个人开发者按运行时长收费，也可能向团队按席位收费，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-a07bdfda9e7d4e13
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理在远端执行命令的权限边界、结果回传是否确定发生，以及人工确认环节如何设置。
+    evidence_ids:
+    - ev-a07bdfda9e7d4e13
+  next_validation: 收集该产品的官方文档或定价页，确认它如何把编码代理部署到用户云主机、如何回传结果以及按什么计价。
+  market: ''
+  job: 开发者在本地机器算力不足或不想让编码代理长时间占用本机时，把 Codex 或 Claude Code 放到自己的云主机上，让代理在远端处理代码任务并把结果取回本地。
+  job_en: A developer whose local machine lacks capacity, or who does not want a coding agent occupying
+    it for hours, runs Codex or Claude Code on their own cloud host so the agent handles code tasks remotely
+    and results come back locally.
+  pain: 长任务会占满本机资源、断网或合盖就中断，本地与云端环境不一致还要手工同步。
+  pain_en: Long tasks saturate the local machine, break when the laptop sleeps or loses network, and local
+    and cloud environments drift apart, forcing manual syncing.
+  current_alternative: 自己开一台云主机、手工装环境、用 SSH 或 tmux 挂着跑，再手动把改动拉回本地。
+  current_alternative_en: Spinning up a cloud VM by hand, installing the environment, keeping the run
+    alive over SSH or tmux, then pulling changes back manually.
+  usage_reason: 推断：如果它把开机器、装环境、保持会话和取回结果合成一步，就省掉了手工运维云主机这一段，常跑长任务的开发者会因此选择它；但候选材料只有一句说明，无法确认它是否真的减少了这些步骤。
+  usage_reason_en: 'Inference: if it collapses provisioning, environment setup, session persistence and
+    result retrieval into one step, it removes the manual cloud-ops work, which is why developers running
+    long tasks would pick it; the candidate material is a single line, so whether those steps are actually
+    removed cannot be confirmed.'

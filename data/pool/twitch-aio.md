@@ -22,7 +22,7 @@ summary: All-in-one Twitch automation toolkit - account creation, follows, chat,
   one fast, reliable Python project.
 first_seen: '2026-09-28T19:11:37Z'
 last_seen: '2026-09-30T01:18:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

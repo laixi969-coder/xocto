@@ -1,6 +1,6 @@
 ---
 slug: ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-fund
-name: Bolt
+name: Bolt.new
 builder: ''
 category: ''
 summary_zh: Ryan Breslow 正在筹集高达 2700 万美元的付费参与过桥资金以拯救 Bolt。
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDB1MS1GaXRH
 summary: Ryan Breslow is raising up to $27M in pay-to-play bridge funding to save Bolt TechCrunch
 first_seen: '2026-08-31T17:14:44Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Bolt
+# Bolt.new
 
 Ryan Breslow is raising up to $27M in pay-to-play bridge funding to save Bolt TechCrunch
 

@@ -24,7 +24,7 @@ summary: When customers talk about AI costs, the conversation usually starts wit
   production, model choice is only…
 first_seen: '2026-09-29T10:43:45Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

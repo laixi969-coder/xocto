@@ -1,0 +1,43 @@
+- id: req-initial-raven-2026-09-30
+  project_slug: raven
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决敏感信息传递过于显眼的问题，但公开材料未说明旧做法具体卡在哪一步，价值判断证据不足。
+    evidence_ids:
+    - ev-50009ad6498918b5
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 54 分与 49 条评论，但无采用或持续使用证据，无法判断共识是否成立。
+    evidence_ids:
+    - ev-50009ad6498918b5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，收费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-50009ad6498918b5
+  - gate: truth
+    status: insufficient
+    reason: 同名仓库描述与隐写功能不一致，产品边界与交付确定性无法核对。
+    evidence_ids:
+    - ev-50009ad6498918b5
+    - ev-d02e442b46a2d862
+  next_validation: 收集该产品官网的说明与定价页，确认嵌入与还原流程、密钥管理方式，并核对同名 公开代码仓库 仓库是否属于同一实体。
+  market: ''
+  job: 需要低调传递敏感信息的人，在不想让对方通信痕迹显眼的情况下，把加密内容交给工具嵌入普通文本，再让接收方还原出原文。
+  job_en: Someone who needs to pass sensitive information discreetly hands encrypted content to the tool
+    to embed in ordinary text, so the recipient can recover the original.
+  pain: 公开材料只给出“把加密消息藏进普通文本”一句，未说明现有加密通信在什么场景下不够用。
+  pain_en: Public material gives only the line 'encrypted messages hidden inside ordinary text' and does
+    not say in which situations existing encrypted communication falls short.
+  current_alternative: 旧做法是使用常规加密聊天或加密邮件传递敏感内容。
+  current_alternative_en: The old way is to send sensitive content through regular encrypted chat or encrypted
+    email.
+  usage_reason: 推断：若嵌入后的文本能通过普通渠道传递且接收方可还原，需要隐藏通信痕迹的人可能因此选用；但公开材料未给出用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: if the embedded text can travel through ordinary channels and be recovered,
+    people who need to hide communication traces may choose it; however no user feedback or repeat-use
+    evidence is public.'

@@ -450,3 +450,48 @@
     and rebuilding layers between generated output and design files, so designers or front-end engineers
     who need a still-editable artifact would choose it in that situation; no user feedback or customer
     case yet confirms this motive.'
+- id: req-initial-design-studio-ai-2026-09-30
+  project_slug: design-studio-ai
+  level: initial
+  reviewed_at: '2026-09-30T01:18:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计意图到可交付产物之间的反复手工调整，旧做法是导出后手工整理，痛点具体且不采用会拖慢交付。
+    evidence_ids:
+    - ev-234df56d7264e506
+    - ev-55e9d6371f3d4c9b
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论与星标增长说明有关注，但没有客户案例或持续采用证据，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-684d874bfac121e0
+  - gate: model
+    status: insufficient
+    reason: 开源 MIT 且支持自带密钥，付费路径未披露；钱可能来自托管服务或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-234df56d7264e506
+  - gate: truth
+    status: insufficient
+    reason: 设计交付结果是否可核对、代理编辑的准确率与人工确认边界，公开材料均未说明。
+    evidence_ids:
+    - ev-55e9d6371f3d4c9b
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认代理编辑设计文件的实际交付结果与人工确认环节。
+  market: ''
+  job: 设计师或前端工程师在接到界面、3D 或动效需求时，需要把设计意图和素材变成可交付的设计稿或代码，过程中还要让 AI 代理参与编辑。
+  job_en: When designers or front-end engineers receive interface, 3D or motion requests, they need to
+    turn design intent and assets into deliverable designs or code, with AI agents participating in the
+    editing process.
+  pain: 设计意图到可交付产物之间要反复手工调整，代理生成的中间结果难以直接进入现有设计流程，交接成本高。
+  pain_en: Turning design intent into deliverable output requires repeated manual adjustment, and agent-generated
+    intermediate results are hard to feed into existing design workflows, making handoff costly.
+  current_alternative: 现有做法是人工在传统设计软件里逐层修改，或把 AI 生成结果导出后再手工整理，代理与设计文件之间缺少直接通道。
+  current_alternative_en: The current approach is manual layer-by-layer editing in traditional design
+    software, or exporting AI output and cleaning it up by hand, with no direct channel between agents
+    and design files.
+  usage_reason: 推断：它让 AI 代理直接在工作区里读写设计文件并执行编辑与动效处理，省去导出再手工整理这一步，因此需要频繁让代理参与设计迭代的设计师或前端工程师会在批量产出素材时选择它。
+  usage_reason_en: 'Inference: it lets AI agents read and write design files directly in the workspace
+    and perform editing and motion work, removing the export-and-clean-up step, so designers or front-end
+    engineers who iterate with agents frequently would choose it when producing assets in batches.'

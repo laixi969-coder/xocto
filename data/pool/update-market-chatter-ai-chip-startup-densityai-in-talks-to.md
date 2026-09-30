@@ -1,7 +1,6 @@
 ---
 slug: update-market-chatter-ai-chip-startup-densityai-in-talks-to
-name: 'Update: Market Chatter: AI Chip Startup DensityAI in Talks to Raise Hundreds of Millions of Dollars
-  in Funding Round'
+name: DensityAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: 'Update: Market Chatter: AI Chip Startup DensityAI in Talks to Raise Hu
   Dollars in Funding Round Yahoo! Finance Canada'
 first_seen: '2026-09-28T09:17:33Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -39,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# Update: Market Chatter: AI Chip Startup DensityAI in Talks to Raise Hundreds of Millions of Dollars in Funding Round
+# DensityAI
 
 Update: Market Chatter: AI Chip Startup DensityAI in Talks to Raise Hundreds of Millions of Dollars in Funding Round Yahoo! Finance Canada
 

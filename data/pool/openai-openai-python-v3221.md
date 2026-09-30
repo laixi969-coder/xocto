@@ -52,7 +52,7 @@ summary: '## [3.22.1](https://github.com/openai/openai-python/compare/v3.22.0...
   ([063375b](https://github.com/openai/openai-python/commit/063375b7a12f3f3a0de10aec829c0416651be8cc))'
 first_seen: '2026-09-30T00:25:09Z'
 last_seen: '2026-09-30T01:18:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

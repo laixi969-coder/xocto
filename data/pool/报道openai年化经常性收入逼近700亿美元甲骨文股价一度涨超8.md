@@ -1,6 +1,6 @@
 ---
 slug: 报道openai年化经常性收入逼近700亿美元甲骨文股价一度涨超8
-name: 报道：OpenAI年化经常性收入逼近700亿美元，甲骨文股价一度涨超8%
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE56djh3bkVNMVhM
 summary: 报道：OpenAI年化经常性收入逼近700亿美元，甲骨文股价一度涨超8% 手机新浪网
 first_seen: '2026-09-29T17:09:54Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 报道：OpenAI年化经常性收入逼近700亿美元，甲骨文股价一度涨超8%
+# OpenAI
 
 报道：OpenAI年化经常性收入逼近700亿美元，甲骨文股价一度涨超8% 手机新浪网
 

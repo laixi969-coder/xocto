@@ -1,0 +1,45 @@
+- id: req-initial-drmagnuslynch-2026-09-30
+  project_slug: drmagnuslynch
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是皮肤结构难以口头讲清的问题，痛点真实但强度未知；公开材料只有作者自述，没有患者或学生使用反馈，无法判断不采用会失去什么。
+    evidence_ids:
+    - ev-c39507b9213d5092
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条作者自述，社区讨论为零，看不出医生群体是否认为这是需要被解决的问题。
+    evidence_ids:
+    - ev-c39507b9213d5092
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、付费路径或买方信息；推断可能的买方是诊所、医学院或医美机构，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c39507b9213d5092
+  - gate: truth
+    status: insufficient
+    reason: 无法核对模型是否基于真实生物物理数据、是否由医生本人确认准确性，交付的确定性无从判断。
+    evidence_ids:
+    - ev-c39507b9213d5092
+  next_validation: 收集该页面或其作者公开的模型说明文档，核对3D模型所依据的皮肤生物物理数据来源与可调参数。
+  market: ''
+  job: 皮肤科医生在面诊或授课时，需要向患者或学生说明皮肤的分层结构与生物物理特性，目前只能靠口头描述、示意图或教科书图片。
+  job_en: A dermatologist in a consultation or lecture needs to explain the layered structure and biophysical
+    properties of skin to a patient or student, currently relying on verbal description, diagrams or textbook
+    images.
+  pain: 皮肤结构与物理特性是三维且抽象的，口头和平面图难以让非专业者建立准确印象，沟通反复且容易误解。
+  pain_en: Skin structure and physical behaviour are three-dimensional and abstract; speech and flat images
+    make it hard for non-specialists to form an accurate picture, so explanations repeat and misunderstandings
+    persist.
+  current_alternative: 教科书插图、诊室里的皮肤模型实物、打印示意图，或医生自己画的草图。
+  current_alternative_en: Textbook illustrations, physical skin models in the clinic, printed diagrams,
+    or sketches drawn by the doctor.
+  usage_reason: 推断：若该3D模型能按需旋转、分层展示，医生可在面诊现场直接指着模型讲解，省去翻图册或反复口头比划这一步；但目前没有用户反馈、客户案例或重复使用证据，无法确认它已被留在工作流中。
+  usage_reason_en: 'Inference: if the 3D model can be rotated and layered on demand, a doctor could point
+    at it during a consultation, removing the step of flipping through atlases or repeating verbal gestures;
+    however, no user feedback, customer cases or repeat-use evidence exist, so it cannot be confirmed
+    as part of a workflow.'

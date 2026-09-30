@@ -1,6 +1,6 @@
 ---
 slug: reuters
-name: reuters
+name: Harvey
 builder: tartoran
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://reuters.com/world/us/google-maps-will-show-lake-america-u
 summary: Google Maps Now Shows 'Lake America' in US, Not 'Lake Ontario'
 first_seen: '2026-08-31T21:29:03Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch
@@ -134,7 +134,7 @@ sightings:
   kind: news
 ---
 
-# reuters
+# Harvey
 
 Google Maps Now Shows 'Lake America' in US, Not 'Lake Ontario'
 

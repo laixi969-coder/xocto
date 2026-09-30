@@ -1,6 +1,6 @@
 ---
 slug: openai的ceo-altman发布新款ai智能体工具名叫dots
-name: OpenAI的CEO Altman发布新款AI智能体工具，名叫Dots
+name: Dots
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE92UjFrYUlDaXU0
 summary: OpenAI的CEO Altman发布新款AI智能体工具，名叫Dots 全天候科技
 first_seen: '2026-09-29T17:08:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI的CEO Altman发布新款AI智能体工具，名叫Dots
+# Dots
 
 OpenAI的CEO Altman发布新款AI智能体工具，名叫Dots 全天候科技
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xR3otakNYUV82
 summary: 优质内嵌AI应用 绝非App内的第二个独立App eu.36kr.com
 first_seen: '2026-09-29T08:52:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

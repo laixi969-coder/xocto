@@ -25,7 +25,7 @@ canonical_url: https://cnbc.com/2026/09/28/nvidia-releases.html
 summary: Nvidia wants to put a watchdog chip next to every AI agent
 first_seen: '2026-09-28T15:46:36Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

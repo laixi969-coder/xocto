@@ -1,6 +1,6 @@
 ---
 slug: why-sonepar-is-building-a-global-ai-operating-layer
-name: Why Sonepar Is Building a Global AI Operating Layer
+name: Sonepar
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnJfbHVOcHk5
 summary: Why Sonepar Is Building a Global AI Operating Layer Distribution Strategy Group
 first_seen: '2026-09-29T16:56:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Why Sonepar Is Building a Global AI Operating Layer
+# Sonepar
 
 Why Sonepar Is Building a Global AI Operating Layer Distribution Strategy Group
 

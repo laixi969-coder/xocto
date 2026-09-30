@@ -3,36 +3,46 @@ slug: chatgpt-mobile-app-gets-voice-based-agentic-features
 name: ChatGPT
 builder: ''
 category: 通用助手
-summary_zh: 订阅 Plus 或 Pro 的用户在手机上打开 ChatGPT 的 Work 标签页，用语音说出要办的事，由助手代为执行代理型任务并返回结果；具体可执行的任务范围与人工确认环节仍待核验。
-inspiration: 趋势：通用助手正从“问答”走向“代做”，把移动端变成任务入口。切入：不要在通用代理上正面竞争，可从某个垂直旧流程切入，例如把语音代做嵌进房产带看记录、保险理赔材料整理等具体环节，按完成的任务收费。
-summary_en: Plus or Pro subscribers open the Work tab in ChatGPT's mobile app, speak the task they want
-  done, and the assistant carries out agentic tasks and returns results; the exact task scope and human
-  confirmation steps still need verification.
-inspiration_en: 'Trend: general assistants are moving from answering to doing, turning mobile into a task
-  entry point. Entry: avoid head-on competition in general agents; instead embed voice-driven task completion
-  into a specific legacy workflow, such as property viewing notes or insurance claim document sorting,
-  and charge per completed task.'
+summary_zh: Plus 与 Pro 用户在手机端打开 ChatGPT 的 Work 标签页，用语音说出要办的事，由助手在对话内执行多步代理任务并返回结果；同一入口也被用于接入第三方服务，例如宏利把旅行保险报价放进
+  ChatGPT 对话中。具体可执行的任务范围与人工确认环节仍待核验。
+inspiration: 趋势是通用助手正从“回答问题”走向“在手机里替人跑完多步操作”，并把第三方交易入口（如保险报价）直接嵌进对话。切入不在通用助手本身，而在被接入的垂直环节：保险、旅行、本地服务等需要报价与比价的行业，可做面向对话入口的报价与履约供给层，按成交或线索收费，而不是再做一个聊天助手。
+summary_en: Plus and Pro users open the Work tab in the ChatGPT mobile app, speak what they need done,
+  and the assistant executes multi-step agentic tasks in the conversation and returns results; the same
+  surface is used to plug in third-party services, such as Manulife placing travel insurance quotes inside
+  ChatGPT. The exact task scope and human confirmation steps still need verification.
+inspiration_en: 'The trend is general assistants moving from answering questions to completing multi-step
+  actions on a phone, with third-party transaction entry points such as insurance quotes embedded directly
+  in the conversation. The opening is not another general assistant but the vertical steps being plugged
+  in: insurance, travel and local services that need quoting and comparison can build a quote-and-fulfilment
+  supply layer for conversational entry points, charging per transaction or lead.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
+industries:
+- 保险
+- 软件与互联网服务
+industries_en:
+- Insurance
+- Software & Internet Services
 jobs:
-- 个人与团队日常事务处理
-- 移动场景下的任务代办
+- 个人用户在手机上口述待办事项，让助手代为执行多步操作并取回结果
+- 保险购买者在对话中直接获取旅行保险报价并比较方案
 jobs_en:
-- Everyday personal and team task handling
-- On-the-go task delegation
+- Individual users dictating to-dos on their phone and having the assistant execute multi-step actions
+  and return results
+- Insurance buyers obtaining and comparing travel insurance quotes directly inside a conversation
 regions:
 - 全球
+- 美国
 regions_en:
 - Global
+- United States
 open_source: false
 url: https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/
 canonical_url: https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features
 summary: Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.
 first_seen: '2026-09-23T17:00:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - newssearch

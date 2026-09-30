@@ -1,0 +1,44 @@
+- id: req-initial-exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help-2026-09-30
+  project_slug: exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只有一句“帮企业找出真正驱动利润的因素”，说不清具体输入、动作与交付，也看不出不采用会失去什么。
+    evidence_ids:
+    - ev-766bc06440b490e8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有客户、采用或行业共识证据。
+    evidence_ids:
+    - ev-766bc06440b490e8
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均无公开材料支持。
+    evidence_ids:
+    - ev-766bc06440b490e8
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，交付确定性与人工边界无从判断。
+    evidence_ids:
+    - ev-766bc06440b490e8
+  next_validation: 收集 Sapien 官方产品页或客户案例，确认它具体接收哪些数据、输出什么交付物，以及是否有可核验的企业付费使用。
+  market: ''
+  job: 企业财务分析师或经营分析人员在月度或季度复盘时，处理来自 ERP、账单和业务系统的经营数据，要完成利润归因并给出可解释的结论。
+  job_en: Corporate financial analysts or business analysis staff process operating data from ERP, billing
+    and business systems during monthly or quarterly reviews to produce profit attribution and explainable
+    conclusions.
+  pain: 数据分散在多个系统、口径不一致，手工拉数对账耗时，归因结论常被质疑，复盘周期被拉长。
+  pain_en: Data is scattered across systems with inconsistent definitions; manual extraction and reconciliation
+    is slow, attribution conclusions get challenged, and review cycles stretch out.
+  current_alternative: 目前靠 Excel 加 BI 看板手工拼表，或由咨询顾问做一次性归因分析。
+  current_alternative_en: Today it relies on Excel plus BI dashboards assembled by hand, or one-off attribution
+    analysis by consultants.
+  usage_reason: 相较手工拼表，它直接读取经营数据并输出归因结论，省掉跨系统取数与对账这一步；推断财务团队会在月度复盘时选择它，但候选材料未给出任何用户使用或付费证据，需求强度无法确认。
+  usage_reason_en: Compared with manual table building, it reads operating data and outputs attribution
+    conclusions, removing the cross-system extraction and reconciliation step; by inference finance teams
+    would use it in monthly reviews, but the candidate material gives no usage or payment evidence, so
+    demand strength cannot be confirmed.

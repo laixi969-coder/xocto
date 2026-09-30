@@ -1,6 +1,6 @@
 ---
 slug: insurtech-outmarket-raises-345m-just-months-after-prior-roun-2
-name: Insurtech Outmarket raises $34.5M just months after prior round
+name: Outmarket
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVJtcGYwOGYz
 summary: Insurtech Outmarket raises $34.5M just months after prior round techcrunch.com
 first_seen: '2026-09-28T14:00:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Insurtech Outmarket raises $34.5M just months after prior round
+# Outmarket
 
 Insurtech Outmarket raises $34.5M just months after prior round techcrunch.com
 

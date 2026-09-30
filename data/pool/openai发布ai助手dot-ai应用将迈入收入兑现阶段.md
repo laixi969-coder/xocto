@@ -1,6 +1,6 @@
 ---
 slug: openai发布ai助手dot-ai应用将迈入收入兑现阶段
-name: OpenAI发布AI助手“Dot” AI应用将迈入收入兑现阶段
+name: OpenAI Dot
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE51S2hPM09PYlNT
 summary: OpenAI发布AI助手“Dot” AI应用将迈入收入兑现阶段 中金在线
 first_seen: '2026-09-30T00:15:21Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI发布AI助手“Dot” AI应用将迈入收入兑现阶段
+# OpenAI Dot
 
 OpenAI发布AI助手“Dot” AI应用将迈入收入兑现阶段 中金在线
 

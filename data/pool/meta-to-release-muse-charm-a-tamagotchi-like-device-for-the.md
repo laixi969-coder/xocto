@@ -1,6 +1,6 @@
 ---
 slug: meta-to-release-muse-charm-a-tamagotchi-like-device-for-the
-name: Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent
+name: Muse Charm
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE4wbjVQWGtia1Zl
 summary: Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent Mashable
 first_seen: '2026-09-29T14:24:56Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent
+# Muse Charm
 
 Meta to release Muse Charm, a Tamagotchi-like device for the Muse AI agent Mashable
 

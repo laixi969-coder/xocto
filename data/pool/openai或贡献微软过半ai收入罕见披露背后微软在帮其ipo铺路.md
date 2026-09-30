@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1jT2lXa1BuT2tf
 summary: OpenAI或贡献微软过半AI收入：罕见披露背后，微软在帮其IPO铺路？ 财联社
 first_seen: '2026-09-29T19:31:19Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

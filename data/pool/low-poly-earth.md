@@ -21,7 +21,7 @@ canonical_url: https://lowpolyearth.pages.dev
 summary: The whole planet in 3D, built from OpenStreetMap data
 first_seen: '2026-09-28T16:21:33Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

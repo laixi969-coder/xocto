@@ -1,0 +1,46 @@
+- id: req-initial-aglocell-claims-41-ran-capacity-gain-with-ai-software-in-us-2026-09-30
+  project_slug: aglocell-claims-41-ran-capacity-gain-with-ai-software-in-us
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是运营商在预算受限下提升现网容量这一具体需求，痛点是扩容成本高、人工调参慢且难复现，旧行为明确存在。
+    evidence_ids:
+    - ev-95ce9efdf0a5d71d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一线运营商试验的容量提升结论，未披露客户名称、是否扩大部署或采购意向，公开关注不等于持续采用。
+    evidence_ids:
+    - ev-95ce9efdf0a5d71d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或合同金额，买方可能是运营商网络部门，但付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-95ce9efdf0a5d71d
+  - gate: truth
+    status: insufficient
+    reason: 4.1% 容量增益的测量口径、试验范围与是否经运营商独立验收均未说明，交付确定性尚不能核对。
+    evidence_ids:
+    - ev-95ce9efdf0a5d71d
+  next_validation: 收集 Aglocell 官方发布的试验技术说明或运营商公开验收材料，核对 4.1% 容量增益的测量口径、试验站点范围与是否进入商用部署。
+  market: ''
+  job: 运营商无线接入网容量规划工程师在频谱和站点资源受限、扩容预算被压缩时，处理现网运行与路测数据，要完成在不上新硬件的前提下提升小区容量的任务。
+  job_en: A carrier RAN capacity planning engineer, facing limited spectrum and site resources and squeezed
+    expansion budgets, works with live network and drive-test data to raise cell capacity without adding
+    hardware.
+  pain: 容量增长需求持续，但新增频谱和基站成本高、周期长；靠人工调参和路测挤容量既慢又依赖少数专家经验，效果难以稳定复现。
+  pain_en: Capacity demand keeps growing, but new spectrum and base stations are costly and slow; manually
+    tuning parameters and running drive tests to squeeze capacity is slow, depends on scarce expert experience,
+    and is hard to reproduce reliably.
+  current_alternative: 旧做法是路测加人工参数调优，辅以厂商自带的优化工具和专家驻场服务，按项目或人力计费。
+  current_alternative_en: The old approach is drive testing plus manual parameter tuning, supplemented
+    by vendor optimization tools and on-site expert services billed by project or headcount.
+  usage_reason: 相较路测加人工调参，该软件直接读取现网运行数据并自动给出优化动作，减少的是反复路测和逐站试错这一步负担，结果以可核对的容量百分比验收，因此预算受限又急需容量的运营商会先在小范围试验中选用它；这是基于产品能力与任务结构的推断，尚无客户留存或复购证据。
+  usage_reason_en: Compared with drive testing plus manual tuning, the software reads live network data
+    and proposes optimization actions automatically, removing the repeated drive-test and per-site trial-and-error
+    step, with results accepted as a verifiable capacity percentage; carriers with tight budgets and urgent
+    capacity needs would therefore try it first in limited trials. This is an inference from product capability
+    and task structure, with no retention or repeat-purchase evidence yet.

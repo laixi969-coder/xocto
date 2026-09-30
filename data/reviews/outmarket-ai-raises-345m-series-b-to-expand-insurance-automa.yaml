@@ -1,0 +1,42 @@
+- id: req-initial-outmarket-ai-raises-345m-series-b-to-expand-insurance-automa-2026-09-30
+  project_slug: outmarket-ai-raises-345m-series-b-to-expand-insurance-automa
+  level: initial
+  reviewed_at: '2026-09-30T01:18:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决保险流程自动化，但公开材料未写清具体任务、痛点与旧流程，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-61e79c58562a1af3
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资报道，没有客户、部署或使用规模证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-61e79c58562a1af3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，钱来自保险公司采购还是其他方属推断，非已验证事实。
+    evidence_ids:
+    - ev-61e79c58562a1af3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工复核边界与安全合规说明。
+    evidence_ids:
+    - ev-61e79c58562a1af3
+  next_validation: 收集 Outmarket AI 官方产品页或客户案例，确认它具体替代保险流程中的哪一步人工操作。
+  market: ''
+  job: 保险公司的承保或保单运营人员，在收到投保申请、批单或变更请求时，需要把散落在表单、邮件和附件里的信息整理进核保与保单系统，完成录入与流转。
+  job_en: Underwriting or policy operations staff at insurers who, on receiving applications, endorsements
+    or change requests, must move information scattered across forms, emails and attachments into underwriting
+    and policy systems.
+  pain: 公开材料只说明是保险自动化平台，没有说明具体痛点、错误率或耗时，无法确认哪一步人工最难受。
+  pain_en: Public material only calls it an insurance automation platform; it names no specific pain,
+    error rate or time cost, so the hardest manual step cannot be identified.
+  current_alternative: 推断：目前多由保险运营人员手工录入与核对，或使用传统规则型保单管理系统。
+  current_alternative_en: 'Inference: today this is largely manual entry and checking by insurance operations
+    staff, or legacy rules-based policy administration systems.'
+  usage_reason: 材料未披露产品如何减少哪一步负担，也未给出客户案例或使用反馈，因此无法说明用户为何选择它；仅能确认存在融资这一关注度信号。
+  usage_reason_en: The material does not disclose which step the product removes, nor any customer case
+    or user feedback, so why users would choose it cannot be stated; only the funding signal is verifiable.

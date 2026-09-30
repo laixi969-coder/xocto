@@ -24,7 +24,7 @@ summary: It’s OpenAI’s turn in the fall tech events calendar. The company is
   However, unlike Muse, which is available for free, […]
 first_seen: '2026-09-29T16:00:00Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

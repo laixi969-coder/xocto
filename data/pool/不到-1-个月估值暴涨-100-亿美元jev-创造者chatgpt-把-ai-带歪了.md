@@ -1,11 +1,16 @@
 ---
 slug: 不到-1-个月估值暴涨-100-亿美元jev-创造者chatgpt-把-ai-带歪了
-name: 不到 1 个月估值暴涨 100 亿美元，Jev 创造者：ChatGPT 把 AI 带歪了
+name: Jev
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Jev 是 TypeSafe AI 推出的模型，面向需要结构化判定而非对话生成的开发者：输入一段数据和一组结构化问题，输出类型化答案与校准概率值。据材料，它在分类任务上比 GPT
+  系列快约 193 倍、便宜约 445 倍，Vercel CEO 称其 p95 延迟比 GPT Luna 快 18 倍且更准，LangChain 已写集成指南。
 inspiration: ''
-summary_en: ''
+summary_en: 'Jev is a model from TypeSafe AI aimed at developers who need structured decisions rather
+  than conversational generation: it takes a block of data plus structured questions and returns typed
+  answers with calibrated probabilities. Per the material, it is about 193x faster and 445x cheaper than
+  GPT-series models on classification tasks; Vercel''s CEO reported 18x lower p95 latency than GPT Luna
+  with better accuracy, and LangChain published an integration guide.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -71,7 +76,7 @@ summary: "最近， 一个叫 Jev 的 AI 模型突然在开发者圈子里炸了
   \ *头图来源：TypeSafe \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-09-28T09:50:05Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -82,7 +87,7 @@ sightings:
   kind: news
 ---
 
-# 不到 1 个月估值暴涨 100 亿美元，Jev 创造者：ChatGPT 把 AI 带歪了
+# Jev
 
 最近， 一个叫 Jev 的 AI 模型突然在开发者圈子里炸了。更可怕的是，根据最新消息，Jev 最近正在洽谈 10 亿美元融资，最新估值 100 亿美元——而这距离 Jev 推出，还不到 1 个月。 
  Jev 这个新模型，它不生成文本，不跟你聊天，甚至不写代码。你给它一段数据和一组结构化问题，它返回类型化的答案和校准过的概率值。TypeSafe AI 管它叫「System One 模型」，一种全新的模型类别。9 月 15 日发布早期访问版本的同时，公司宣布获得 DCVC 领投的 4000 万美元种子轮融资，估值 2 亿美元。 

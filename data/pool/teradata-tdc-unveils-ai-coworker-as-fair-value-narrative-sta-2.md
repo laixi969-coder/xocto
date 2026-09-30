@@ -1,6 +1,6 @@
 ---
 slug: teradata-tdc-unveils-ai-coworker-as-fair-value-narrative-sta-2
-name: Teradata (TDC) Unveils AI Coworker As Fair Value Narrative Stays In Focus
+name: Teradata
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxORjN6R0RMelRy
 summary: Teradata (TDC) Unveils AI Coworker As Fair Value Narrative Stays In Focus simplywall.st
 first_seen: '2026-09-28T18:24:36Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Teradata (TDC) Unveils AI Coworker As Fair Value Narrative Stays In Focus
+# Teradata
 
 Teradata (TDC) Unveils AI Coworker As Fair Value Narrative Stays In Focus simplywall.st
 

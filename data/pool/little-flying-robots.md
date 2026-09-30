@@ -21,7 +21,7 @@ canonical_url: https://little-flying-robots.ghost.io/why-we-cant-let-enormous-we
 summary: We Can't Let Enormous Weirdos Regulate AI
 first_seen: '2026-09-28T16:55:50Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

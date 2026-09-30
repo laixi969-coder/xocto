@@ -31,7 +31,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWEdLOXdrUjds
 summary: ListingBott Expands Managed Directory Submission Service for SaaS and Software Teams FinancialContent
 first_seen: '2026-09-26T14:43:00Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

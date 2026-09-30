@@ -1,0 +1,44 @@
+- id: req-initial-sublane-2026-09-30
+  project_slug: sublane
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决共享AI账号的用量归属与权限管理问题，痛点真实但公开材料未显示谁在用、频率多高，价值判断只能停在结构层面。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+  - gate: consensus
+    status: insufficient
+    reason: 仅67个星标、5次复刻，没有企业采用、部署案例或社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+  - gate: model
+    status: insufficient
+    reason: 自托管开源项目，未见定价页或商业条款，买方与付费路径均未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+  - gate: truth
+    status: insufficient
+    reason: 账号池化与用量统计能否准确对应真实账单、权限边界是否可靠，公开材料未提供可复现验证。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+  next_validation: 收集该仓库的部署文档与issue讨论，确认账号池化后的用量统计口径和权限控制方式。
+  market: ''
+  job: 企业IT管理员在多名同事共用公司采购的AI订阅账号时，处理账号分配、权限与用量记录，要完成成本归属和访问合规的核对。
+  job_en: An enterprise IT administrator, when several colleagues share company-purchased AI subscription
+    accounts, handles account allocation, permissions and usage records to complete cost attribution and
+    access-compliance checks.
+  pain: 共享账号时谁用了多少、谁该被停权难以查清，费用只能按部门平摊，合规审计也拿不出记录。
+  pain_en: With shared accounts it is hard to tell who used how much and who should be cut off; costs
+    can only be split by department and no record exists for compliance audits.
+  current_alternative: 目前多靠人工登记表格、共享一个账号密码，或直接给每人单独买订阅。
+  current_alternative_en: Today this is mostly done with manual spreadsheets, one shared account and password,
+    or simply buying a separate subscription for each person.
+  usage_reason: 推断：相比共享密码加手工表格，它把账号集中成池并自动记录每人用量，省掉人工对账这一步，因此有成本分摊或审计要求的企业IT会在需要出用量报表时选择它；但公开材料没有付费或留存证据。
+  usage_reason_en: 'Inference: compared with shared passwords plus manual spreadsheets, it pools accounts
+    and automatically records per-person usage, removing the manual reconciliation step, so IT teams facing
+    cost-allocation or audit requirements would pick it when a usage report is needed; public materials
+    show no payment or retention evidence.'

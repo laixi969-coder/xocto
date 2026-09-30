@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-
 summary: Mozilla's Ajit Varma explains why a redesign suits the fight for the open web.
 first_seen: '2026-09-29T13:00:19Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

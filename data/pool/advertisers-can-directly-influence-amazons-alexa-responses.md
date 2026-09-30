@@ -1,11 +1,16 @@
 ---
 slug: advertisers-can-directly-influence-amazons-alexa-responses
-name: Advertisers Can Directly Influence Amazon’s Alexa Responses
+name: Amazon Alexa
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月，有报道称广告主可直接影响Amazon Alexa的回答内容，意味着语音助手开始把广告投放纳入生成式回答的呈现逻辑。对AI应用而言，这标志着对话式助手从纯信息工具向可商业化广告载体转变，可能推动更多AI助手探索广告变现，但也带来回答客观性与用户信任的争议（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: In September 2026, reports indicated that advertisers can directly influence Amazon Alexa's
+  responses, meaning the voice assistant is beginning to incorporate ad placements into how its generated
+  answers are presented. For AI applications, this marks a shift of conversational assistants from pure
+  information tools toward commercially monetizable ad surfaces, potentially prompting more AI assistants
+  to explore advertising-based monetization, while raising concerns about answer objectivity and user
+  trust (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxOaFFWZGpDd1dN
 summary: Advertisers Can Directly Influence Amazon’s Alexa Responses ADWEEK
 first_seen: '2026-09-29T13:01:26Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Advertisers Can Directly Influence Amazon’s Alexa Responses
+# Amazon Alexa
 
 Advertisers Can Directly Influence Amazon’s Alexa Responses ADWEEK
 

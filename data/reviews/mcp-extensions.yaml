@@ -1,0 +1,40 @@
+- id: req-initial-mcp-extensions-2026-09-30
+  project_slug: mcp-extensions
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是插件分发与呈现方式，不是终端用户的独立任务；价值成立与否取决于具体插件做什么，公开材料未提供。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 225 星属开发者关注度，不能证明终端用户已形成使用共识。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+  - gate: model
+    status: insufficient
+    reason: 未披露插件审核、分成或计费方式，买方与付费路径均不明确。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+  - gate: truth
+    status: insufficient
+    reason: 无法核对插件交付是否确定发生，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+  next_validation: 收集该仓库的官方文档与插件审核、计费说明页面，确认第三方插件的分发与收费规则。
+  market: ''
+  job: 开发者在 ChatGPT 内交付插件形态的功能，供终端用户在对话中直接调用。
+  job_en: Developers ship plugin-style features inside ChatGPT for end users to invoke directly in conversation.
+  pain: 第三方功能此前需要用户跳出对话、单独登录另一个网页才能使用。
+  pain_en: Third-party features previously required users to leave the conversation and log into a separate
+    site.
+  current_alternative: 自建网页应用、浏览器扩展或既有插件目录。
+  current_alternative_en: Self-built web apps, browser extensions or existing plugin directories.
+  usage_reason: 推断：开发者可能因为分发入口就在对话内、省去一次跳转而接入，但公开材料未给出任何采用、留存或付费证据，无法确认用户会持续使用。
+  usage_reason_en: 'Inference: developers may adopt it because distribution sits inside the conversation
+    and removes a redirect, but no public adoption, retention or payment evidence exists, so continued
+    use cannot be confirmed.'

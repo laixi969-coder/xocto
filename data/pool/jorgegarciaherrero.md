@@ -21,7 +21,7 @@ canonical_url: https://jorgegarciaherrero.com/wp-content/interactivos/20260916-P
 summary: A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]
 first_seen: '2026-09-29T09:03:41Z'
 last_seen: '2026-09-30T01:18:13Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

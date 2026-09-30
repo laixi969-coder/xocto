@@ -1,6 +1,6 @@
 ---
 slug: openai光速上新gpt-61-sol一晚上25项更新都在这里了
-name: OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了
+name: GPT-6.1 Sol
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/499246.html
 summary: 今年devday牙膏挤爆
 first_seen: '2026-09-29T23:01:05Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了
+# GPT-6.1 Sol
 
 今年devday牙膏挤爆
 

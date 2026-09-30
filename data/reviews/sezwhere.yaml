@@ -1,0 +1,43 @@
+- id: req-initial-sezwhere-2026-09-30
+  project_slug: sezwhere
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长文档中定位某句话出处的需求，痛点是人工翻找耗时易漏，交付是原文位置，结构上成立。
+    evidence_ids:
+    - ev-a013bf4d2741cd57
+  - gate: consensus
+    status: insufficient
+    reason: 仅 15 分与 1 条评论，无采用或持续使用证据，共识尚未形成。
+    evidence_ids:
+    - ev-a013bf4d2741cd57
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，收费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a013bf4d2741cd57
+  - gate: truth
+    status: insufficient
+    reason: 未说明定位精度、支持格式与人工复核边界，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-a013bf4d2741cd57
+  next_validation: 收集该产品官网的说明与定价页，确认支持的文件格式、定位精度与是否提供原文引用核对。
+  market: ''
+  job: 法务或合规人员在审阅合同、制度或审计材料时，需要确认某个说法在原文中的确切位置，以便核对与引用。
+  job_en: Legal or compliance staff reviewing contracts, policies or audit materials need to confirm the
+    exact location of a statement in the source text for checking and citation.
+  pain: 长文档里逐页翻找某句话的出处耗时且容易漏，人工检索难以保证定位完整。
+  pain_en: Finding the source of a statement in a long document page by page is slow and easy to miss,
+    and manual search cannot guarantee complete location.
+  current_alternative: 旧做法是用关键词在文档或 PDF 里手动搜索，再逐处比对上下文。
+  current_alternative_en: The old way is to search keywords manually in the document or PDF and compare
+    each hit in context.
+  usage_reason: 推断：相较手动关键词搜索，它直接返回说法对应的原文位置，省去逐处翻找与比对这一步，需要为条款出处负责的法务、审计人员会在核对场景选择它；公开材料尚无付费或留存证据。
+  usage_reason_en: 'Inference: compared with manual keyword search, it returns the source position for
+    a statement directly, removing the step of hunting and comparing each hit, so legal and audit staff
+    who must stand behind a clause''s origin would choose it in checking work; no payment or retention
+    evidence is public yet.'

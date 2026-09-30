@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbWJHT1p5SnA4
 summary: How Investors May Respond To Intapp (INTA) Client Adopts AI Workflow Tools simplywall.st
 first_seen: '2026-09-28T16:26:59Z'
 last_seen: '2026-09-30T01:18:52Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

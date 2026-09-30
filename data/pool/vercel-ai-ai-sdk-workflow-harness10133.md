@@ -1,6 +1,6 @@
 ---
 slug: vercel-ai-ai-sdk-workflow-harness10133
-name: 'vercel/ai: @ai-sdk/workflow-harness@1.0.133'
+name: '@ai-sdk/workflow-harness'
 builder: vercel
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: "### Patch Changes\n\n- 446725d: fix(harness): surface detach failures 
   \ [2b9195b]\n- Updated dependencies [446725d]\n  - @ai-sdk/harness@1.0.133"
 first_seen: '2026-09-29T09:47:23Z'
 last_seen: '2026-09-30T01:18:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/workflow-harness@1.0.133
+# @ai-sdk/workflow-harness
 
 ### Patch Changes
 

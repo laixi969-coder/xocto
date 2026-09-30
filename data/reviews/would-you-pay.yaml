@@ -1,0 +1,43 @@
+- id: req-initial-would-you-pay-2026-09-30
+  project_slug: would-you-pay
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决立项前判断谁会付费的需求，痛点真实，但公开材料未说明输入、动作与交付，无法确认价值闭环。
+    evidence_ids:
+    - ev-d2386dd59aa5a670
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，没有用户评价、案例或采用信号，无法判断是否形成共识。
+    evidence_ids:
+    - ev-d2386dd59aa5a670
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自开发者订阅还是其他方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d2386dd59aa5a670
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它给出的付费判断是否可靠，也未见人工确认或结果验证机制。
+    evidence_ids:
+    - ev-d2386dd59aa5a670
+  next_validation: 收集该产品的官方定价页或公开使用说明，确认其输入材料、判断依据与交付形式。
+  market: ''
+  job: 独立开发者在准备投入数周开发一个尚未验证的产品想法前，处理自己的产品构想，要判断是否有人愿意为此付费。
+  job_en: An independent developer, before spending weeks building an unvalidated product idea, works
+    on their own product concept to judge whether anyone would pay for it.
+  pain: 开发者常在没有付费证据的情况下投入大量时间，做完才发现没人买单；公开材料未说明该产品如何缓解这一痛点。
+  pain_en: Developers often invest heavily without payment evidence and only discover after building that
+    nobody will pay; public materials do not explain how this product eases that pain.
+  current_alternative: 旧做法是直接开发出最小版本再找用户，或在社群和朋友圈里口头询问意见。
+  current_alternative_en: The old approach is to build a minimum version first and then look for users,
+    or to ask for opinions informally in communities and personal networks.
+  usage_reason: 推断：若它能把产品构想转成具体的付费人群判断，开发者可在写代码前少走一轮试错；但公开材料未说明输入、判断依据与交付形式，无法确认它比口头询问多解决了哪一步。
+  usage_reason_en: 'Inference: if it turns a product concept into a concrete paying-audience judgment,
+    developers could skip one round of trial and error before coding; however, public materials do not
+    describe inputs, judgment basis or deliverable, so it is unclear which step it improves over asking
+    around.'
