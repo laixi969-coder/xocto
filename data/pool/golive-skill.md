@@ -39,7 +39,7 @@ summary: 'Take your agent-built product live: hosting, database, domain, email, 
   accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify.
   No GoLive account, backend or telemetry.'
 first_seen: '2026-09-23T13:37:26Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
@@ -54,10 +54,10 @@ sightings:
   kind: product
 - source: github
   url: https://trytofu.ai
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 1049
-    forks: 77
+    stars: 1115
+    forks: 82
     open_issues: 1
   kind: product
 ---

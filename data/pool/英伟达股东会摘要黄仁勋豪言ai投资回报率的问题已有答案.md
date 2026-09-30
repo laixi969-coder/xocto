@@ -21,8 +21,8 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUS1QxajZRN255MHRmZHpGQX
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUS1QxajZRN255MHRmZHpGQXFBOGM3M2IzaEJ3OVRpVEpXTlpuamJma0tBSzJRV2ZjZXlqTkJxem5teHZtWExLQw?oc=5
 summary: 英伟达股东会摘要：黄仁勋豪言AI投资回报率的问题“已有答案” 财联社
 first_seen: '2026-08-30T07:13:48Z'
-last_seen: '2026-09-29T01:58:36Z'
-status: rejected
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -90,6 +90,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqaE92dGtwX3dQbUpSdkNydDVBLVMtb1NmNi1yR3NuakhnekNoOFVCTGRVLWNTclRNZ0g4QlVWMnB0WlBOaXprSGJKM2d6M3dySmVV?oc=5
   seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnX0tyQTZpQVNlY1o5aVVOZDFhM0tmR2Q2YjhxU3Bub3p4U0UtWTVDc1VCUDA5SnRmWjlzSUdUX3VTcjBmdjdOaWk1RVd0MHlxWEpqOGFmZkJjUTZLcFBNYWlVVnV6UQ?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mTzhSQUZOSzF4RERRS2JqcVZvU3RMSG1pdXRxRnhpOTJFMW54aEFkX1FGUzdJS2tKZVlIbDU1OEhVWkxRS2VlRml6a2JSOHptOXRMNHpaNktXbGhGZlpNMkZ3?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QR3lxcWFORWFxU25hQmpiVTM2N0pBY200MEVITUJxbEI5dDJnb2htbWc5VnB0RXhISnc4NHFTVVN3bklic2ZEbHRhM3Z4ZU9wVWVF?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qNmtOc1ZjMVBEV0Z2eGdhdEtybXFueVp6aWxhekZNOVl4MjRPdWRkc2Z4empNVUQ2V2FweWNQRmdBM0ZGSFJ1Uw?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE56VkVkUUdKT0lpVXZ1eHZ2UC12MGZXVE1oVUhPdVVSaDZHb2YyXzZ3V0VDczByWm9YOU1lVWRPb1VCdXZES1VCVQ?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---

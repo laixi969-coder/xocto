@@ -69,14 +69,19 @@ summary: "作者｜Li Yuan \n \n 390 亿美元的 Figure AI 已经把机器人�
   \ 13 天，OpenAI 做出了能听、能说、能自主决策的机器人大模型  \n  OpenAI、英伟达重金下注，这家机器人公司凭什么估值 26 亿美元  \n \n \n \n *头图来源：Figure\
   \ AI \n 本文为 In The Loop 原创文章，转载请联系作者"
 first_seen: '2026-09-21T03:57:07Z'
-last_seen: '2026-09-22T00:50:51Z'
-status: market_context
+last_seen: '2026-09-30T01:18:45Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: http://www.geekpark.net/news/370607
   seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/29/checkout-com-says-annualised-net-revenue-hits-750m-as-releases-selective-group-financial-figures/
+  seen_at: '2026-09-30T01:18:45Z'
   metrics: {}
   kind: news
 ---

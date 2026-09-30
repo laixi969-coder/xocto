@@ -2288,3 +2288,34 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-d9d4b1208ab54283
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/awwwards-mcp
+  title: Awwwards-mcp
+  published_at: '2026-09-18T10:57:09Z'
+  collected_at: '2026-09-30T01:18:17Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode,
+    ZCode…) design inspiration from award-winning websites — search with real screenshots, pull design
+    DNA, capture and record live sites. A Mobbin alternative. No API key. | repository stars: 92'
+- id: ev-70e5477b86d584ea
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@toddzheng024/dscode
+  title: dscode
+  published_at: '2026-09-11T09:40:02Z'
+  collected_at: '2026-09-30T01:18:17Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP
+    and session telemetry | repository stars: 953'
+- id: ev-a99eaf23f7c5e52c
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/jevmem
+  title: jevmem
+  published_at: '2026-09-22T11:47:24Z'
+  collected_at: '2026-09-30T01:18:17Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Automatic project memory for Claude Code. Also works with Cursor and Codex. Now in Anthropic''s
+    Claude plugin directory. | repository stars: 98'

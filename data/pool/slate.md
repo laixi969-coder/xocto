@@ -39,8 +39,8 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   production-ready prompts for any image, video, music, or voice generator. No API keys. Suggested Donation
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
-last_seen: '2026-09-24T00:30:46Z'
-status: watching
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -104,6 +104,11 @@ sightings:
   metrics:
     points: 49
     comments: 120
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ3pzNHVGckNNaDI0NU90SHVyZExxYVYwLUlZRmhCcWQ4VlNaODNENDdPb3Z6bmtqNURtR0ttUG9zT055Q3EwcDRBbTdsRG83Vk5TT21EUmVLWkhxaUtlVXhJUHZrYk9yLVJLa2VLZ0J6UUE1VW5rNXBtbmpEWWdwT2hZeDVrZXloV2s2eVFDU3VzYmdH?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
   kind: news
 ---
 

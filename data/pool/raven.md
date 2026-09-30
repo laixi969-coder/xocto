@@ -20,7 +20,7 @@ url: https://sendraven.ink
 canonical_url: https://sendraven.ink
 summary: Encrypted messages hidden inside ordinary text
 first_seen: '2026-09-09T03:11:49Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-30T01:18:13Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 6
     comments: 0
+  kind: product
+- source: hackernews
+  url: https://github.com/EverMind-AI/Raven
+  seen_at: '2026-09-30T01:18:13Z'
+  metrics:
+    points: 54
+    comments: 49
   kind: product
 ---
 

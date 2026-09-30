@@ -32,10 +32,11 @@ url: https://kage.design/
 canonical_url: https://kage.design
 summary: Real product design inspiration turned into prompts for agents
 first_seen: '2026-09-11T13:50:46Z'
-last_seen: '2026-09-15T00:38:38Z'
-status: rejected
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://kage.design/
@@ -50,6 +51,11 @@ sightings:
   metrics:
     points: 53
     comments: 21
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE16cHhmTU1tYU5sUWlvU3dObWZBSzloYV81WWp5MkttQlNwazFTQm83UFViNEgyRDNwWWVob2YxRzVtcFdBdF85QWZJWTBMWFRjcFp2WXdyX3hxR09EVXBWdTRDUXpod0ZKdFcxMTZUekdWU2JBRlE?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://www.vespper.com/blog/launching-vespper-docx-mcp
 canonical_url: https://vespper.com/blog/launching-vespper-docx-mcp
 summary: SOTA Docx MCP
 first_seen: '2026-09-28T17:34:36Z'
-last_seen: '2026-09-29T01:57:43Z'
+last_seen: '2026-09-30T01:18:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.vespper.com/blog/launching-vespper-docx-mcp
-  seen_at: '2026-09-29T01:57:43Z'
+  seen_at: '2026-09-30T01:18:13Z'
   metrics:
-    points: 32
-    comments: 8
+    points: 35
+    comments: 17
   kind: news
 ---
 

@@ -39,8 +39,8 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-29T01:58:36Z'
-status: rejected
+last_seen: '2026-09-30T01:18:45Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -320,6 +320,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ3M2dFlSWUxRLUhxSEQwd3FRU29FSzRneWZQX0lyOUduN1hhRHpTSEttNFg3czZieUdmNU9aYW9qSlhJVHdWdElQSmdzNDlkVE9HT0RHU0xodkI5amUwMFFXT05rdzNOMFhhdGp0ZWxZZHFadjY2VVpBMk92QnlKdUF0a2hqbld5YlE?oc=5
   seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.exponentialview.co/p/the-first-existential-ipo
+  seen_at: '2026-09-30T01:18:45Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/
+  seen_at: '2026-09-30T01:18:45Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/anthropic-wants-to-eat-my-startups-lunch/
+  seen_at: '2026-09-30T01:18:45Z'
   metrics: {}
   kind: news
 ---

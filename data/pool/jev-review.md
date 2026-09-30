@@ -32,24 +32,24 @@ url: https://github.com/devagrawal09/jev-review
 canonical_url: https://github.com/devagrawal09/jev-review
 summary: A staged code-review workflow and local dashboard built with TypeSafe Jev.
 first_seen: '2026-09-16T21:45:36Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/devagrawal09/jev-review
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 639
+    stars: 642
     forks: 42
     open_issues: 7
   kind: product
 - source: github
   url: https://github.com/NiazMorshed2007/jev-review
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 230
+    stars: 232
     forks: 20
     open_issues: 5
   kind: product

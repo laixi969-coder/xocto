@@ -20,8 +20,8 @@ url: https://modelmap.cc
 canonical_url: https://modelmap.cc
 summary: animated architecture of any HuggingFace models
 first_seen: '2026-08-18T23:57:36Z'
-last_seen: '2026-08-29T15:06:03Z'
-status: rejected
+last_seen: '2026-09-30T01:18:13Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 144
     comments: 50
+  kind: news
+- source: hackernews
+  url: https://sightspinner.ai/blog/diesel-prices-are-high-here-s-why-they-might-go-higher-2026-09-29.html
+  seen_at: '2026-09-30T01:18:13Z'
+  metrics:
+    points: 7
+    comments: 0
   kind: news
 ---
 

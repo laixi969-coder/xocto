@@ -35,17 +35,17 @@ canonical_url: https://github.com/iamyoki/qwen-image-2.1-skill
 summary: '🎨 Agentic skill for Qwen-Image-2.1: Rewrites and optimizes text-to-image and multi-image editing
   prompts using official Alibaba specifications. Compatible with skills.sh and all AI agents.'
 first_seen: '2026-09-21T10:25:00Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/iamyoki/qwen-image-2.1-skill
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 115
-    forks: 6
+    stars: 126
+    forks: 8
     open_issues: 0
   kind: product
 ---

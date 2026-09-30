@@ -32,17 +32,17 @@ url: https://github.com/KZCFG/AILSA-SubSwitch
 canonical_url: https://github.com/KZCFG/AILSA-SubSwitch
 summary: Weekly usage at a glance. Switch accounts in a click.
 first_seen: '2026-09-17T07:55:33Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/KZCFG/AILSA-SubSwitch
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 54
-    forks: 19
+    stars: 60
+    forks: 21
     open_issues: 0
   kind: product
 ---

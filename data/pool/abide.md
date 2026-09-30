@@ -28,18 +28,18 @@ url: https://github.com/coldteadotai/abide
 canonical_url: https://github.com/coldteadotai/abide
 summary: Make your coding agent abide by all your project rules
 first_seen: '2026-09-18T10:41:48Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/coldteadotai/abide
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 383
-    forks: 35
-    open_issues: 7
+    stars: 456
+    forks: 37
+    open_issues: 1
   kind: product
 ---
 

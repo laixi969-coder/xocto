@@ -20,17 +20,17 @@ url: https://hn.watch/
 canonical_url: https://hn.watch
 summary: Videos of all Hacker News posts
 first_seen: '2026-09-28T15:16:13Z'
-last_seen: '2026-09-29T01:57:43Z'
+last_seen: '2026-09-30T01:18:13Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hn.watch/
-  seen_at: '2026-09-29T01:57:43Z'
+  seen_at: '2026-09-30T01:18:13Z'
   metrics:
-    points: 127
-    comments: 81
+    points: 207
+    comments: 97
   kind: product
 ---
 

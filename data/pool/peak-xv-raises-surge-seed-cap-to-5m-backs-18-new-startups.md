@@ -24,14 +24,19 @@ url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOZDVuRlg5SnF2OFprVDRZQk
 canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOZDVuRlg5SnF2OFprVDRZQkZ1b0RkYUtIUmJHdTB4cXl4ZFJJZGZXRFNrbExhSXFobmdLcDFKeE1DNG1ZNW1KUEFMNnFGRzBETEFkQXRmOUVyM2J2N29SWVdEN3gwczNJRjBraXBjTjN4QXF4bVhYWUxCUW1yMW5JdTRjQVNoV294M3BmbEN1RFRtWGlS?oc=5
 summary: Peak XV Raises Surge Seed Cap to $5M, Backs 18 New Startups The Tech Buzz
 first_seen: '2026-09-29T01:05:00Z'
-last_seen: '2026-09-29T01:58:36Z'
-status: market_context
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOZDVuRlg5SnF2OFprVDRZQkZ1b0RkYUtIUmJHdTB4cXl4ZFJJZGZXRFNrbExhSXFobmdLcDFKeE1DNG1ZNW1KUEFMNnFGRzBETEFkQXRmOUVyM2J2N29SWVdEN3gwczNJRjBraXBjTjN4QXF4bVhYWUxCUW1yMW5JdTRjQVNoV294M3BmbEN1RFRtWGlS?oc=5
   seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxORF9FbmlNRU4wU244X1JyTGxPVVY1RXNoQW9ycVJsb1ZSc0k4Z3lHLWc2VWlxY3VnSmVrV2NQMWNXSDFJSXJXX2w4QXdlenIzT012ZEhqOUN2alNDY054a3hyYkdpOWh2X1JxSmNNcnQtT1laQ2JMTmVTVk1QdlRfQ3A2THQwLW5jN08zTmk0eGtMajU4bEtrOHpxdXpVQWo1TzBXZFZPMUladw?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---

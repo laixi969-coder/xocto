@@ -37,17 +37,17 @@ canonical_url: https://github.com/springvoiceswell/semrush-ai-tool
 summary: Semrush SEO AI-powered analysis tool MCP server & CLI for keyword research, domain analytics,
   backlink analysis
 first_seen: '2026-09-25T04:00:09Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/springvoiceswell/semrush-ai-tool
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 128
-    forks: 1
+    stars: 117
+    forks: 0
     open_issues: 0
   kind: product
 ---

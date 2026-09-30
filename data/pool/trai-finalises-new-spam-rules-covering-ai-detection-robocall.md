@@ -25,8 +25,8 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWtmNW1rZnVJ
 summary: TRAI Finalises New Spam Rules Covering AI Detection, Robocalls and Consumer Appeals The Policy
   Edge
 first_seen: '2026-09-18T17:40:17Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: market_context
+last_seen: '2026-09-30T01:18:45Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -54,6 +54,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOcDB1bnA1bkFucmFnNF9qS3daVW1OUEVXdXIzUkp2R0gwRjJqZXVsVkNzUkQ3T2g0VWZDdkQyNUdEN3lmWUk2bjA2NWtXMElyNkdyLWdadGI1X3BkOUxLR0ExTWxtWXdQUlBhWDVEeWdaNjd1VXRFVEUyVk51ejQ4VzNCbXA2T0dsYzBWMjltTWY?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/29/swedish-machine-fitness-tracker-ipercept-raises-165m/
+  seen_at: '2026-09-30T01:18:45Z'
   metrics: {}
   kind: news
 ---

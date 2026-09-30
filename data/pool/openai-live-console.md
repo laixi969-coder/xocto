@@ -25,17 +25,17 @@ url: https://github.com/openai/openai-live-console
 canonical_url: https://github.com/openai/openai-live-console
 summary: Local voice console with read-only tools and backend delegation.
 first_seen: '2026-09-10T08:33:45Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/openai-live-console
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 0
-    forks: 0
+    stars: 9
+    forks: 2
     open_issues: 5
   kind: product
 ---

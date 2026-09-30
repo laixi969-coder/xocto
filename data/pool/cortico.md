@@ -27,18 +27,18 @@ url: https://github.com/Pal-AI-Lab/Cortico
 canonical_url: https://github.com/Pal-AI-Lab/Cortico
 summary: Event-stream AI Agent framework for building your persona bot 🍊
 first_seen: '2026-09-13T01:27:23Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Pal-AI-Lab/Cortico
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 161
+    stars: 164
     forks: 10
-    open_issues: 8
+    open_issues: 1
   kind: product
 ---
 

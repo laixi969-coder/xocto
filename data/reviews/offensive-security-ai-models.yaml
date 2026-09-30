@@ -41,3 +41,41 @@
   usage_reason_en: 'Inference: compared with trial-installing one by one, a consolidated list reduces
     the burden of finding candidate models, but the candidate provides no evaluation, deployment docs,
     or user feedback, so sustained use cannot be confirmed.'
+- id: req-initial-offensive-security-ai-models-2026-09-30
+  project_slug: offensive-security-ai-models
+  level: initial
+  reviewed_at: '2026-09-30T01:18:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“这是一个开源清单仓库，把未审查或针对网络安全任务微调过的模型集中列出，供安全研究者在授权测试场景中挑选可本地部署的模型”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 415 个收藏、37 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 安全研究员在授权渗透测试中筛选可本地部署的未审查模型以完成攻击面验证
+  job_en: Security researchers selecting locally deployable uncensored models for authorized penetration
+    testing and attack-surface validation
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：安全研究员在授权渗透测试中筛选可本地部署的未审查模型以完成攻击面验证；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Security researchers selecting locally deployable uncensored models for
+    authorized penetration testing and attack-surface validation Public materials do not yet explain why
+    users choose this product over their existing approach.'

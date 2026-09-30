@@ -22,18 +22,18 @@ summary: '在 dsh 里装上这个插件即可，无需登录、注册或填 API 
   do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,
   Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.'
 first_seen: '2026-09-24T16:17:19Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zouyuxuan122/dsh-our-free-model
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 353
-    forks: 21
-    open_issues: 2
+    stars: 424
+    forks: 22
+    open_issues: 3
   kind: product
 ---
 

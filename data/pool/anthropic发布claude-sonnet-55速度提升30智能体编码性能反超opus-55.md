@@ -1,7 +1,7 @@
 ---
 slug: anthropic发布claude-sonnet-55速度提升30智能体编码性能反超opus-55
 name: Claude Sonnet 5.5
-builder: ''
+builder: Rohan Chaubey
 category: ''
 summary_zh: Anthropic 于 2026 年 9 月 28 日发布 Claude Sonnet 5.5，报道称其速度提升约 30%，智能体编码性能超过 Opus 5.5。它面向的是调用模型
   API 构建编码智能体的开发者，属于模型层更新而非独立应用产品，报道未披露定价、客户采用或交付结果。
@@ -24,16 +24,22 @@ url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPa3d3ODZzeGdKa1Q3OTlET3
 canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPa3d3ODZzeGdKa1Q3OTlET3pCaUJaeFdJVXdzNjJQWG96ZkZrdDRYUnVvbXNtUVF3dUZyNkdNZGpaRmJXOWNtS2hJdHNpMkt6elZFMnRKNHk2TzB3S1lrSC1tczFQNHk1RmpIeHZWM1laY0h2T2NVbl9wVFRCNmpFaGN6XzQ4MlRjMEQwNG94VjBYNU43b3VpTzdfRWY1THlIbzI0T0RzQmZ5WHlGRGF3QS13?oc=5
 summary: Anthropic发布Claude Sonnet 5.5：速度提升30%，智能体编码性能反超Opus 5.5 新浪财经
 first_seen: '2026-09-28T23:31:02Z'
-last_seen: '2026-09-29T01:58:36Z'
+last_seen: '2026-09-30T01:18:13Z'
 status: market_context
 sources:
 - newssearch
+- producthunt
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPa3d3ODZzeGdKa1Q3OTlET3pCaUJaeFdJVXdzNjJQWG96ZkZrdDRYUnVvbXNtUVF3dUZyNkdNZGpaRmJXOWNtS2hJdHNpMkt6elZFMnRKNHk2TzB3S1lrSC1tczFQNHk1RmpIeHZWM1laY0h2T2NVbl9wVFRCNmpFaGN6XzQ4MlRjMEQwNG94VjBYNU43b3VpTzdfRWY1THlIbzI0T0RzQmZ5WHlGRGF3QS13?oc=5
   seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
   kind: news
+- source: producthunt
+  url: https://www.producthunt.com/products/claude
+  seen_at: '2026-09-30T01:18:13Z'
+  metrics: {}
+  kind: product
 ---
 
 # Claude Sonnet 5.5

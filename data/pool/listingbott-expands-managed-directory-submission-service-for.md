@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWEdLOXdrUjdsSWJPUWZnT1
 canonical_url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWEdLOXdrUjdsSWJPUWZnT1NramhTRDhSRm5EYTlTZEdISV9HdFl0SmJYRm50ajJ1QU90SndvVHV6a0NnSERnMnNzLUQ1MzFUeHplY1hSZjRsWThUWHZYaF9PWUNEaXFfbDhPeU84SlN4SHpNck94UDN6V2pMOXA1UklhUVEybjZGTnFzYWlJTDFrZzZyRlFOODJCTkQySHhNZXhWcFI2Sk5nMG9iNExESmxLMXVDSTVwVHprUE9EdC1JdUt1V3lWbDlKeVk5WjBFU183ZVRxaXpuYklKOERlR2NzMGw?oc=5
 summary: ListingBott Expands Managed Directory Submission Service for SaaS and Software Teams FinancialContent
 first_seen: '2026-09-26T14:43:00Z'
-last_seen: '2026-09-29T01:58:36Z'
-status: watching
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -43,6 +43,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPQURReHhpWVlWWEltcHlQY0xHTjlOd1haeFBzeGUwZDdCY2pid0owQWJOcl9BQkctVkxIODE3enlRQ0NkTHJYVVBTQWRZVnRDN0RIM1NIdm5WeTRDYWhnU042RzJYandDeE93LVdNMk1wb1hGNUpHcVlMMzdOVHdLYUk3ejVqVkRRRWV6amdYdEtscTJnUXNmZUJLNVZ2eU5xdmVOQ2EzZTNhRGJ1aFJZZm56dzFudFVZdFNPNGVlS0RuTWYzMmcwU0JiQQ?oc=5
   seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxORjI5dUJlT2l6bG5NWDY1RmIxR2E3Z0VFMkUzWGxEd1paMl9SMS02dkUtd3IxVFNzRlpyTmQybFFINS10dWNlNjhQelJtNXkyWGlKdWt0dmFiTURGWGpJdktwY3ptejdWMGVWbE9EMklqOG5CYnFtNEZCNHpXczE3SXk3Z1VkaWdyZW13c3paNFVlX0szQ094ajl3TmRDdzhxcldzOWYzYXo5QUpZNmxob3Q2RnVSTGczSzh6WWFtWGlyTWM?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---

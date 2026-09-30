@@ -21,14 +21,19 @@ canonical_url: https://tech.eu/2026/09/21/apply-ai-summit-brings-europes-push-fo
 summary: When it comes to AI, Europe is home to exceptional tech talent, innovation, and world-class research.
   However, while AI is increasingly being deployed across European businesses and the public sector,...
 first_seen: '2026-09-21T08:30:00Z'
-last_seen: '2026-09-22T00:50:51Z'
-status: rejected
+last_seen: '2026-09-30T01:18:45Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/21/apply-ai-summit-brings-europes-push-for-real-world-ai-adoption-to-brussels/
   seen_at: '2026-09-22T00:50:51Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/28/apply-ai-summit-brings-europes-push-for-real-world-ai-adoption-to-brussels/
+  seen_at: '2026-09-30T01:18:45Z'
   metrics: {}
   kind: news
 ---

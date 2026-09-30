@@ -30,7 +30,7 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Enabler stage). To
   are all roughly doubling or more their valuations year over year as demand for GPU capacity and multi-model
   routing outstrips supply, and although all well-funded there is not yet one clear winner pulling away.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-09-23T00:34:37Z'
+last_seen: '2026-09-30T01:18:45Z'
 status: pending_filter
 sources:
 - ia40
@@ -56,6 +56,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/22/plug-and-play-tirana-expo-2026-silicon-valley-meets-balkans/
   seen_at: '2026-09-23T00:34:37Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/28/plug-and-play-tirana-expo-2026-silicon-valley-meets-balkans/
+  seen_at: '2026-09-30T01:18:45Z'
   metrics: {}
   kind: news
 ---

@@ -21,18 +21,18 @@ canonical_url: https://logicrw.github.io/awesome-jev-projects
 summary: 'Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and
   automatic GitHub sync'
 first_seen: '2026-09-18T06:41:50Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://logicrw.github.io/awesome-jev-projects/
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 602
+    stars: 622
     forks: 54
-    open_issues: 2
+    open_issues: 0
   kind: product
 ---
 

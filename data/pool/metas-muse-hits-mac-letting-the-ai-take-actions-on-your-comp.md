@@ -29,8 +29,8 @@ canonical_url: https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the
 summary: Muse is now available on the Mac, where it can work with your files and apps to take action on
   your behalf.
 first_seen: '2026-09-18T15:22:48Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: watching
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -68,6 +68,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNMWY3VWtrMmZuUUxqV0pwSl9qOTlmOS05emRRaF9LVnpLMFNKZnFHdlA4ZGFKZWptNVdvRHR6aDE1RU1kbzJzcw?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQMlYzcEE4X3BfZ2hDYnpRYU9idlVIY0NMZXJkUlNQeFF0WVR1RVdUanlWeVFWQ2l4UVB4eDhNZzRxLUhEVmFNdndpQUJ3UnZnWmdFYld4QThPb3VOZlFRdy1MeXVpUUVfSFk4ODFjcHJNTnlybEE0djNkdmM5eWlQREEyTE55am1vMnBxZVJ4aDF6ejdZby1jUmdzMzhCRlJzX2ZHQXVQekwtdFN2T0gybFhXa0dqMms?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wRHBXTmJCNDR2Z0JveFVSVXUzbFhxaU5Qcm81OHNjVEpjMW1HVmhzLTlfQ1R5eW9mRWpFelBzVm1TWWVMc2pKekV6UC1FSlk2ekZVSGxRdWVNSUNwOVFqV0g5dw?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yTndwSURaNnYwMnVBRnVJQVRtS0ZLdTFHaWpBNVNpUnF3MExtMjFTeWJUNHJPV0ZLajhSZ2wzWU5MTUFqQTlwNDQ0M2xZUlg1bmt1YzRzeUtuWE5hOUhlRWlQTy16Zw?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1Kdjc1NHRkVURYeHE4T1lDM0puNW4xLXBXNVBDOC1UNl9aTGtNbmFLd0hhWWpMb1hsb2tzNFhIa1B2UzdHb0E?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---

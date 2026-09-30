@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-29T01:57:41Z'
+last_seen: '2026-09-30T01:18:10Z'
 status: rejected
 sources:
 - newssearch
@@ -140,6 +140,12 @@ sightings:
   seen_at: '2026-09-29T01:57:41Z'
   metrics:
     comments: 1
+  kind: product
+- source: v2ex
+  url: https://github.com/farion1231/cc-switch/issues/685
+  seen_at: '2026-09-30T01:18:10Z'
+  metrics:
+    comments: 9
   kind: product
 ---
 

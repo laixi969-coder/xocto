@@ -31,7 +31,7 @@ url: https://terragohan.github.io/mcptunnels/
 canonical_url: https://terragohan.github.io/mcptunnels
 summary: ngrok for MCP with basic OAuth
 first_seen: '2026-09-01T20:34:55Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-30T01:18:13Z'
 status: watching
 sources:
 - hackernews
@@ -42,6 +42,13 @@ sightings:
   metrics:
     points: 14
     comments: 1
+  kind: product
+- source: hackernews
+  url: https://terragohan.github.io/entertainment-harness/
+  seen_at: '2026-09-30T01:18:13Z'
+  metrics:
+    points: 5
+    comments: 0
   kind: product
 ---
 

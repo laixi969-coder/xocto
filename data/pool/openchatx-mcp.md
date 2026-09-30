@@ -30,17 +30,17 @@ canonical_url: https://github.com/XiaoPuOuO/openchatx-mcp
 summary: Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover MCP
   servers, and delegate work to your own models through one MCP connection.
 first_seen: '2026-09-23T14:25:56Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/XiaoPuOuO/openchatx-mcp
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 202
-    forks: 13
+    stars: 222
+    forks: 14
     open_issues: 0
   kind: product
 ---

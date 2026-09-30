@@ -20,10 +20,11 @@ url: https://explainer.pion.ly/
 canonical_url: https://explainer.pion.ly
 summary: Interactive SDP Explainer for WebRTC, Sip, and RTSP
 first_seen: '2026-08-27T18:18:11Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-09-30T01:18:45Z'
 status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://explainer.pion.ly/
@@ -31,6 +32,12 @@ sightings:
   metrics:
     points: 5
     comments: 1
+  kind: product
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-opus-55-is-good-at-explainer
+  seen_at: '2026-09-30T01:18:45Z'
+  metrics: {}
+  kind: news
 ---
 
 # explainer

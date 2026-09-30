@@ -240,3 +240,23 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 软件工程师 编码智能体使用者'
+- id: ev-24893f67ac8bde3f
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: jevgrep
+  published_at: '2026-09-26T04:06:56Z'
+  collected_at: '2026-09-30T01:18:17Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant
+    files and source context. | repository stars: 1,776'
+- id: ev-cee4cce980a0821d
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: jevgrep
+  published_at: '2026-09-20T00:27:29Z'
+  collected_at: '2026-09-30T01:18:17Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
+    or MCP, with exact source excerpts and line numbers. | repository stars: 90'

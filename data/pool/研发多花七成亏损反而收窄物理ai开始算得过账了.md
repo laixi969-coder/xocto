@@ -23,14 +23,19 @@ url: https://news.google.com/rss/articles/CBMivgJBVV95cUxPWk9MOXg2d0ZJcDJVb2NmU0
 canonical_url: https://news.google.com/rss/articles/CBMivgJBVV95cUxPWk9MOXg2d0ZJcDJVb2NmU05TOTRzU0pnbnJ6YVdjOGcwOFBqT0VBdzROcTlpbGdMY2dFXzZ4ZE1ibXNWbWdBRjJnYTYwNm0ydGt1ZnFDRTJzQ1U3REh5Rk5IS2oxX1lqTGNfRTN5WXFXOXlvUFlPOC1NUEROTUYxLUsyYW5ucjczYm1DUzMwZHVBRDlJWGpnMFk0YllHZldDQzY5aFdMV0kxc3QwcExFUzNlVmR2LXJvQ3JRUVo0YXk4T2ZrRm42TTdocklIdlg2M0huRzhoc3U5Q3U3aWlpeFFkSzkzM2cxOHJOaU0xVFViNEhiOEg1NEc0NkV3NlMxYU01dUZVY1lTQ0hwTENNQVF0YWwxMDdTa0pVX1AxdFRmNFhuaURXNUUtdWswVEJqNUE0SWxKMDQzdldSRFE?oc=5
 summary: 研发多花七成，亏损反而收窄：物理AI开始算得过账了 新浪财经
 first_seen: '2026-09-28T13:08:59Z'
-last_seen: '2026-09-29T01:58:36Z'
-status: market_context
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMivgJBVV95cUxPWk9MOXg2d0ZJcDJVb2NmU05TOTRzU0pnbnJ6YVdjOGcwOFBqT0VBdzROcTlpbGdMY2dFXzZ4ZE1ibXNWbWdBRjJnYTYwNm0ydGt1ZnFDRTJzQ1U3REh5Rk5IS2oxX1lqTGNfRTN5WXFXOXlvUFlPOC1NUEROTUYxLUsyYW5ucjczYm1DUzMwZHVBRDlJWGpnMFk0YllHZldDQzY5aFdMV0kxc3QwcExFUzNlVmR2LXJvQ3JRUVo0YXk4T2ZrRm42TTdocklIdlg2M0huRzhoc3U5Q3U3aWlpeFFkSzkzM2cxOHJOaU0xVFViNEhiOEg1NEc0NkV3NlMxYU01dUZVY1lTQ0hwTENNQVF0YWwxMDdTa0pVX1AxdFRmNFhuaURXNUUtdWswVEJqNUE0SWxKMDQzdldSRFE?oc=5
   seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE9iNzVxNGhMdzBuenlib2JFRGY5dUNYT2p1TmllYklUZXVRM05JR0ZJWmJEam8ta3E0NFRkd2ZPWFpuUHc4MkE?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---

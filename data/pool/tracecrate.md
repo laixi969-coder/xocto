@@ -31,16 +31,16 @@ canonical_url: https://fankchen.github.io/tracecrate
 summary: Local-first AI agent trace workbench. Inspect Claude Code, Codex and OTLP logs, compare runs,
   and export privacy-conscious reports. No backend or API keys.
 first_seen: '2026-09-10T09:27:41Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://fankchen.github.io/tracecrate/
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 263
+    stars: 269
     forks: 3
     open_issues: 5
   kind: product

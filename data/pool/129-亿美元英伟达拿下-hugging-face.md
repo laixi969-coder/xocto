@@ -63,8 +63,8 @@ summary: "作者｜Wildcard  \n  编辑｜靖宇   \n \n \n 129 亿美元，英�
   \ 它不再满足于只卖铲子给挖金矿的人，它要拥有金矿本身。 或者更准确地说，它要拥有从矿场到集散市场的整条供应链。 \n 这对 AI 行业意味着什么？当世界上最强大的 AI 基础设施公司开始同时控制硬件、模型、分发平台和机器人开发栈，「开源」这两个字的含义，可能需要被重新定义了。\
   \ \n *头图来源：英伟达 \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-08-27T07:09:02Z'
-last_seen: '2026-09-29T01:58:36Z'
-status: market_context
+last_seen: '2026-09-30T01:18:43Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -176,6 +176,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPdGJoTmk5WTB3eGpPcUFxQWs1RnMzMS1NZUdWVGt0UFZvNllmRXdHcVJxZjlBQTdJT05OVl9lb1pEVEI5Nk1yM1Y1aHVfLTJCcXJqMWZXdFlwRG1VQ0RVeFkyQWliTVM0UE9hTm8xa2VhcTRVcjZHYXlJaTVEQm4xX2VvZU5lT2QxUENUS2FOOHB0X2cwVmRBclFtX2dPdkJvLUQ5bGdMYmZKWFJ2Z1HSAa4BQVVfeXFMT3RiaE5pOVkwd3hqT3FBcUFrNUZzMzEtTWVHVlRrdFBWbzZZZkV3R3FScWY5QUE3SU9OTlZfZW9aRFRCOTZNcjNWNWh1Xy0yQnFyajFmV3RZcERtVUNEVXhZMkFpYk1TNFBPYU5vMWtlYXE0VXI2R2F5SWk1REJuMV9lb2VOZU9kMVBDVEthTjhwdF9nMFZkQXJRbV9nT3ZCby1EOWxnTGJmSlhSdmdR?oc=5
   seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://huggingface.co/blog/nvidia/kumo-tabular
+  seen_at: '2026-09-30T01:18:43Z'
   metrics: {}
   kind: news
 ---

@@ -31,8 +31,8 @@ url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 canonical_url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 summary: Real-time AI camera, face tracking and background studio
 first_seen: '2026-09-04T11:19:30Z'
-last_seen: '2026-09-27T00:36:16Z'
-status: watching
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - huggingface
 - newssearch
@@ -87,6 +87,11 @@ sightings:
   metrics:
     points: 102
     comments: 32
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOTExSZU9tSFNjdkxjZzEtRnk5d2wwMU5HaE5NZWJLOUZyRE0tZkJHMWQycFNHeTE4QkVPYWQ2WjN0ai1KdXBUQnpnb25PN2xGUkpOTnJCYzNiUWN2bEs5YnRqcmtOWmczSFlzOV93NXlmemdqUWhEYXYzWlBWWGV3OGt0Q3V4LVNXVzdoUGFwRXJPazVNSERMN2M1M0ZtLWdKUTk3dg?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
   kind: news
 ---
 

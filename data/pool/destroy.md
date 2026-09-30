@@ -20,17 +20,17 @@ url: https://destroy.spritefusion.com/
 canonical_url: https://destroy.spritefusion.com
 summary: Destroy Any Website with Stickman
 first_seen: '2026-09-28T16:31:28Z'
-last_seen: '2026-09-29T01:57:43Z'
+last_seen: '2026-09-30T01:18:13Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://destroy.spritefusion.com/
-  seen_at: '2026-09-29T01:57:43Z'
+  seen_at: '2026-09-30T01:18:13Z'
   metrics:
-    points: 109
-    comments: 27
+    points: 165
+    comments: 39
   kind: product
 ---
 

@@ -35,18 +35,18 @@ canonical_url: https://agentskillshub.top/best/claude-video-skills
 summary: Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video.
   180 repos by type, each security-graded. English / 中文.
 first_seen: '2026-09-27T04:06:05Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://agentskillshub.top/best/claude-video-skills/
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 191
-    forks: 20
-    open_issues: 1
+    stars: 295
+    forks: 32
+    open_issues: 2
   kind: product
 ---
 

@@ -1,0 +1,37 @@
+- id: ev-fcf48c99f1cd28a3
+  project_slug: openai-openai-python-v3221
+  url: https://github.com/openai/openai-python/releases/tag/v3.22.1
+  title: 'openai/openai-python: v3.22.1'
+  published_at: '2026-09-30T00:25:09Z'
+  collected_at: '2026-09-30T01:18:17Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.22.1](https://github.com/openai/openai-python/compare/v3.22.0...v3.22.1) (2026-09-30)
+
+
+
+    ### Bug Fixes
+
+
+    * **api:** correct the missing authentication error message ([#3993](https://github.com/openai/openai-python/issues/3993))
+    ([51692ed](https://github.com/openai/openai-python/commit/51692ed3f9d2b87084801295f824c2202dac3785)),
+    closes [#3962](https://github.com/openai/openai-python/issues/3962)
+
+    * transform NotRequired typed dictionary fields ([#3995](https://github.com/openai/openai-python/issues/3995))
+    ([5544c18](https://github.com/openai/openai-python/commit/5544c18c19f125718ed9c4f7c42866c27060158e))
+
+
+
+    ### Chores
+
+
+    * **tests:** mark sample_file.txt as text with LF line endings ([#3879](https://github.com/openai/openai-python/issues/3879))
+    ([fd78a48](https://github.com/openai/openai-python/commit/fd78a48d2be489fde978696e1ad32032c20f0fab))
+
+
+
+    ### Documentation
+
+
+    * **examples:** fix two stale example comments ([#3877](https://github.com/openai/openai-python/issues/3877))
+    ([1c4830b](htt'

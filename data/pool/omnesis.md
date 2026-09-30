@@ -27,16 +27,16 @@ url: https://omnesis.dev/
 canonical_url: https://omnesis.dev
 summary: A private knowledge layer for ChatGPT and other agents
 first_seen: '2026-09-28T13:35:57Z'
-last_seen: '2026-09-29T01:57:43Z'
+last_seen: '2026-09-30T01:18:13Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://omnesis.dev/
-  seen_at: '2026-09-29T01:57:43Z'
+  seen_at: '2026-09-30T01:18:13Z'
   metrics:
-    points: 8
+    points: 10
     comments: 4
   kind: product
 ---

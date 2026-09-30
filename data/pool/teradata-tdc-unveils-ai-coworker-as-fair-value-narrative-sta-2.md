@@ -1,0 +1,41 @@
+---
+slug: teradata-tdc-unveils-ai-coworker-as-fair-value-narrative-sta-2
+name: Teradata (TDC) Unveils AI Coworker As Fair Value Narrative Stays In Focus
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxORjN6R0RMelRyV1p6Nll1T2pQc1QzbG9EQzNaMG1BZlZ1Y2ttdGNjQXc5U3lXYWpOLUxmUFBrekhwT2dxdmE0bWdDTEF4YUxTZERUZ0tCSlRHQ29tVXQxYlg2Uy1DQ3VIZkZHT3g5UFhFN3cxNExkd3ZhZG1EVXVZaUM0S3VBX28xb0dRSGV0bmh2c0V4cDJyN0RiM1pJV0pLdk42VzFxOXpnLUZWZFJwOWlhQk9GSEk3Wktxdjg4ZlNxc2FRZ1Vn0gHHAUFVX3lxTE5GM3pHREx6VHJXWno2WXVPalBzVDNsb0RDM1owbUFmVnVja210Y2NBdzlTeVdhak4tTGZQUGt6SHBPZ3F2YTRtZ0NMQXhhTFNkRFRnS0JKVEdDb21VdDFiWDZTLUNDdUhmRkdPeDlQWEU3dzE0TGR3dmFkbURVdVlpQzRLdUFfbzFvR1FIZXRuaHZzRXhwMnI3RGIzWklXSkt2TjZXMXE5emctRlZkUnA5aWFCT0ZISTdaS3F2ODhmU3FzYVFnVWc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxORjN6R0RMelRyV1p6Nll1T2pQc1QzbG9EQzNaMG1BZlZ1Y2ttdGNjQXc5U3lXYWpOLUxmUFBrekhwT2dxdmE0bWdDTEF4YUxTZERUZ0tCSlRHQ29tVXQxYlg2Uy1DQ3VIZkZHT3g5UFhFN3cxNExkd3ZhZG1EVXVZaUM0S3VBX28xb0dRSGV0bmh2c0V4cDJyN0RiM1pJV0pLdk42VzFxOXpnLUZWZFJwOWlhQk9GSEk3Wktxdjg4ZlNxc2FRZ1Vn0gHHAUFVX3lxTE5GM3pHREx6VHJXWno2WXVPalBzVDNsb0RDM1owbUFmVnVja210Y2NBdzlTeVdhak4tTGZQUGt6SHBPZ3F2YTRtZ0NMQXhhTFNkRFRnS0JKVEdDb21VdDFiWDZTLUNDdUhmRkdPeDlQWEU3dzE0TGR3dmFkbURVdVlpQzRLdUFfbzFvR1FIZXRuaHZzRXhwMnI3RGIzWklXSkt2TjZXMXE5emctRlZkUnA5aWFCT0ZISTdaS3F2ODhmU3FzYVFnVWc?oc=5
+summary: Teradata (TDC) Unveils AI Coworker As Fair Value Narrative Stays In Focus simplywall.st
+first_seen: '2026-09-28T18:24:36Z'
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxORjN6R0RMelRyV1p6Nll1T2pQc1QzbG9EQzNaMG1BZlZ1Y2ttdGNjQXc5U3lXYWpOLUxmUFBrekhwT2dxdmE0bWdDTEF4YUxTZERUZ0tCSlRHQ29tVXQxYlg2Uy1DQ3VIZkZHT3g5UFhFN3cxNExkd3ZhZG1EVXVZaUM0S3VBX28xb0dRSGV0bmh2c0V4cDJyN0RiM1pJV0pLdk42VzFxOXpnLUZWZFJwOWlhQk9GSEk3Wktxdjg4ZlNxc2FRZ1Vn0gHHAUFVX3lxTE5GM3pHREx6VHJXWno2WXVPalBzVDNsb0RDM1owbUFmVnVja210Y2NBdzlTeVdhak4tTGZQUGt6SHBPZ3F2YTRtZ0NMQXhhTFNkRFRnS0JKVEdDb21VdDFiWDZTLUNDdUhmRkdPeDlQWEU3dzE0TGR3dmFkbURVdVlpQzRLdUFfbzFvR1FIZXRuaHZzRXhwMnI3RGIzWklXSkt2TjZXMXE5emctRlZkUnA5aWFCT0ZISTdaS3F2ODhmU3FzYVFnVWc?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+---
+
+# Teradata (TDC) Unveils AI Coworker As Fair Value Narrative Stays In Focus
+
+Teradata (TDC) Unveils AI Coworker As Fair Value Narrative Stays In Focus simplywall.st
+
+## 笔记
+
+

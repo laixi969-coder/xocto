@@ -20,8 +20,8 @@ url: https://www.producthunt.com/products/swipe-9
 canonical_url: https://producthunt.com/products/swipe-9
 summary: Swipe right on your next customer
 first_seen: '2026-08-06T20:59:53Z'
-last_seen: '2026-09-05T23:54:29Z'
-status: rejected
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -34,6 +34,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilgFBVV95cUxPMWFtdF9jSjlOdkpZWFlqNzRSVEpISUZtdHp0QUE0ZDYtYzZja0Fmb1NBa2M2aFd5N3BReHEwcmNIVDhCUTByTXlxaks0OE5RbVhyR2pzRU1jUV93WDRFbnB6VUhkUWlRT3ZMaDk0Skh6bHllWk8tMGFIaXRpRldvN2hzeDdVNDVtU3doSl91Rnp5SkxDdmc?oc=5
   seen_at: '2026-09-05T23:54:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5mYktCaWFYbVhNUEVOUUp0eXFEYUZYaDV1aDdkSktLR2VqeTFiVi16YzVRZkNJZjZmWHpTaHEtcXVaTFpPNlBEUmlWUEg?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---

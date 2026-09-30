@@ -32,18 +32,18 @@ canonical_url: https://github.com/penso/herdr-gpui
 summary: Native macOS client for Herdr, built with Rust and GPUI. View terminal sessions, workspaces,
   Git worktrees, and agent activity through your local Herdr daemon.
 first_seen: '2026-09-20T05:22:39Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/penso/herdr-gpui
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 284
-    forks: 23
-    open_issues: 11
+    stars: 385
+    forks: 30
+    open_issues: 14
   kind: product
 ---
 

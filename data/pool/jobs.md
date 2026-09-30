@@ -20,8 +20,8 @@ url: https://github.com/trylynceus/jobs
 canonical_url: https://github.com/trylynceus/jobs
 summary: Job listings scraped daily from 8k company career pages
 first_seen: '2026-08-16T15:13:37Z'
-last_seen: '2026-09-13T00:00:05Z'
-status: rejected
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -50,6 +50,11 @@ sightings:
   metrics:
     points: 29
     comments: 26
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihAFBVV95cUxQQVhaZHBVa0I5R29BelNxRElsLXZFd191WHE4OUhkTnRhM2tOTHRHaWFOaFVXVGtPU2NzVnFFMzBvcUlBeTVOWGVYVmx2MEFsd2xkRG5HS2s5M214SmNHRWRqamtqc0xSNjVpZkx4Vmd5Q2M1QUQwU1NjU0NVNHlvQnoxSVE?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
   kind: news
 ---
 

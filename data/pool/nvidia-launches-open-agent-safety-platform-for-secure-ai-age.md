@@ -1,0 +1,41 @@
+---
+slug: nvidia-launches-open-agent-safety-platform-for-secure-ai-age
+name: NVIDIA Launches Open Agent Safety Platform for Secure AI Agents
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPdGJoTmk5WTB3eGpPcUFxQWs1RnMzMS1NZUdWVGt0UFZvNllmRXdHcVJxZjlBQTdJT05OVl9lb1pEVEI5Nk1yM1Y1aHVfLTJCcXJqMWZXdFlwRG1VQ0RVeFkyQWliTVM0UE9hTm8xa2VhcTRVcjZHYXlJaTVEQm4xX2VvZU5lT2QxUENUS2FOOHB0X2cwVmRBclFtX2dPdkJvLUQ5bGdMYmZKWFJ2Z1HSAa4BQVVfeXFMT3RiaE5pOVkwd3hqT3FBcUFrNUZzMzEtTWVHVlRrdFBWbzZZZkV3R3FScWY5QUE3SU9OTlZfZW9aRFRCOTZNcjNWNWh1Xy0yQnFyajFmV3RZcERtVUNEVXhZMkFpYk1TNFBPYU5vMWtlYXE0VXI2R2F5SWk1REJuMV9lb2VOZU9kMVBDVEthTjhwdF9nMFZkQXJRbV9nT3ZCby1EOWxnTGJmSlhSdmdR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPdGJoTmk5WTB3eGpPcUFxQWs1RnMzMS1NZUdWVGt0UFZvNllmRXdHcVJxZjlBQTdJT05OVl9lb1pEVEI5Nk1yM1Y1aHVfLTJCcXJqMWZXdFlwRG1VQ0RVeFkyQWliTVM0UE9hTm8xa2VhcTRVcjZHYXlJaTVEQm4xX2VvZU5lT2QxUENUS2FOOHB0X2cwVmRBclFtX2dPdkJvLUQ5bGdMYmZKWFJ2Z1HSAa4BQVVfeXFMT3RiaE5pOVkwd3hqT3FBcUFrNUZzMzEtTWVHVlRrdFBWbzZZZkV3R3FScWY5QUE3SU9OTlZfZW9aRFRCOTZNcjNWNWh1Xy0yQnFyajFmV3RZcERtVUNEVXhZMkFpYk1TNFBPYU5vMWtlYXE0VXI2R2F5SWk1REJuMV9lb2VOZU9kMVBDVEthTjhwdF9nMFZkQXJRbV9nT3ZCby1EOWxnTGJmSlhSdmdR?oc=5
+summary: NVIDIA Launches Open Agent Safety Platform for Secure AI Agents digitalterminal.in
+first_seen: '2026-09-28T11:09:00Z'
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPdGJoTmk5WTB3eGpPcUFxQWs1RnMzMS1NZUdWVGt0UFZvNllmRXdHcVJxZjlBQTdJT05OVl9lb1pEVEI5Nk1yM1Y1aHVfLTJCcXJqMWZXdFlwRG1VQ0RVeFkyQWliTVM0UE9hTm8xa2VhcTRVcjZHYXlJaTVEQm4xX2VvZU5lT2QxUENUS2FOOHB0X2cwVmRBclFtX2dPdkJvLUQ5bGdMYmZKWFJ2Z1HSAa4BQVVfeXFMT3RiaE5pOVkwd3hqT3FBcUFrNUZzMzEtTWVHVlRrdFBWbzZZZkV3R3FScWY5QUE3SU9OTlZfZW9aRFRCOTZNcjNWNWh1Xy0yQnFyajFmV3RZcERtVUNEVXhZMkFpYk1TNFBPYU5vMWtlYXE0VXI2R2F5SWk1REJuMV9lb2VOZU9kMVBDVEthTjhwdF9nMFZkQXJRbV9nT3ZCby1EOWxnTGJmSlhSdmdR?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+---
+
+# NVIDIA Launches Open Agent Safety Platform for Secure AI Agents
+
+NVIDIA Launches Open Agent Safety Platform for Secure AI Agents digitalterminal.in
+
+## 笔记
+
+

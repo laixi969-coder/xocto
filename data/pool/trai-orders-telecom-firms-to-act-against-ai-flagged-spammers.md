@@ -1,0 +1,42 @@
+---
+slug: trai-orders-telecom-firms-to-act-against-ai-flagged-spammers
+name: Trai Orders Telecom Firms To Act Against AI-Flagged Spammers Without Consumer Complaints
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ1l6TWlmT2VPOTZqUXJzQmVTdzktQW0yZWxIS19xUjNaT2Jla0l2Tzd3cnRlaUNOVTBYRjVrNVBHWGQzQ3NEQ2NxcWIta0U2YnBGT0ZSNWtmRlJtbG9qcDdsYTRNcHNleGt0blBaZ3ZIak5KLTNlS1prdE9NQmxpUEZYTzZvNUxoWDNhRjhudXFzckR3VzhFYXE2bUZrdHNRLUR2cW5FLTR1RG04QnRYTTgxdXlMZHY0a29WN0Y5djgxVllFVDVNcdIBzgFBVV95cUxQSnN1VzEyRmRCRk0tZG5vZjdWWExQU25UeTVJRGMtM3B0TUFGRVQyMUxHVHFfZ3ZBWU9LUWVrLThCZUlOaFphUWJ6Tnl2RkloTWZrT3VBeU15ZGtWZ3RYeWV3cTRRZ0JocExQZ0w5cXVxaUE3MS1GTVotS0dXelg0cndseUVRdkFiUnNSQkxvQmJVLVZZcU5ZSDA3eTQ2dnMxMEwyUDhuS1djeW1MenRGSkY1QUlBYlRBMWFIa1dEbVRCNC1rZlFwUVNkUXR1UQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ1l6TWlmT2VPOTZqUXJzQmVTdzktQW0yZWxIS19xUjNaT2Jla0l2Tzd3cnRlaUNOVTBYRjVrNVBHWGQzQ3NEQ2NxcWIta0U2YnBGT0ZSNWtmRlJtbG9qcDdsYTRNcHNleGt0blBaZ3ZIak5KLTNlS1prdE9NQmxpUEZYTzZvNUxoWDNhRjhudXFzckR3VzhFYXE2bUZrdHNRLUR2cW5FLTR1RG04QnRYTTgxdXlMZHY0a29WN0Y5djgxVllFVDVNcdIBzgFBVV95cUxQSnN1VzEyRmRCRk0tZG5vZjdWWExQU25UeTVJRGMtM3B0TUFGRVQyMUxHVHFfZ3ZBWU9LUWVrLThCZUlOaFphUWJ6Tnl2RkloTWZrT3VBeU15ZGtWZ3RYeWV3cTRRZ0JocExQZ0w5cXVxaUE3MS1GTVotS0dXelg0cndseUVRdkFiUnNSQkxvQmJVLVZZcU5ZSDA3eTQ2dnMxMEwyUDhuS1djeW1MenRGSkY1QUlBYlRBMWFIa1dEbVRCNC1rZlFwUVNkUXR1UQ?oc=5
+summary: Trai Orders Telecom Firms To Act Against AI-Flagged Spammers Without Consumer Complaints Free
+  Press Journal
+first_seen: '2026-09-29T08:05:00Z'
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ1l6TWlmT2VPOTZqUXJzQmVTdzktQW0yZWxIS19xUjNaT2Jla0l2Tzd3cnRlaUNOVTBYRjVrNVBHWGQzQ3NEQ2NxcWIta0U2YnBGT0ZSNWtmRlJtbG9qcDdsYTRNcHNleGt0blBaZ3ZIak5KLTNlS1prdE9NQmxpUEZYTzZvNUxoWDNhRjhudXFzckR3VzhFYXE2bUZrdHNRLUR2cW5FLTR1RG04QnRYTTgxdXlMZHY0a29WN0Y5djgxVllFVDVNcdIBzgFBVV95cUxQSnN1VzEyRmRCRk0tZG5vZjdWWExQU25UeTVJRGMtM3B0TUFGRVQyMUxHVHFfZ3ZBWU9LUWVrLThCZUlOaFphUWJ6Tnl2RkloTWZrT3VBeU15ZGtWZ3RYeWV3cTRRZ0JocExQZ0w5cXVxaUE3MS1GTVotS0dXelg0cndseUVRdkFiUnNSQkxvQmJVLVZZcU5ZSDA3eTQ2dnMxMEwyUDhuS1djeW1MenRGSkY1QUlBYlRBMWFIa1dEbVRCNC1rZlFwUVNkUXR1UQ?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+---
+
+# Trai Orders Telecom Firms To Act Against AI-Flagged Spammers Without Consumer Complaints
+
+Trai Orders Telecom Firms To Act Against AI-Flagged Spammers Without Consumer Complaints Free Press Journal
+
+## 笔记
+
+

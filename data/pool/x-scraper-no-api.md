@@ -39,17 +39,17 @@ summary: Free, self-hosted X (Twitter) scraper no API key, no credits. Uses your
   Playwright. Export tweets, search results & timelines as LLM-ready JSON/CSV/Markdown. Ships an AI agent
   Skill for OpenClaw & Hermes.
 first_seen: '2026-09-26T01:57:59Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JoinArtisanVent/x-scraper-no-api
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 170
-    forks: 6
+    stars: 159
+    forks: 5
     open_issues: 0
   kind: product
 ---

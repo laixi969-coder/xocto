@@ -34,16 +34,16 @@ url: https://github.com/QiantangCredit/heimdall-agent
 canonical_url: https://github.com/QiantangCredit/heimdall-agent
 summary: An autonomous AI agent framework for authorized CTF and security labs
 first_seen: '2026-09-14T09:29:07Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/QiantangCredit/heimdall-agent
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 98
+    stars: 99
     forks: 15
     open_issues: 0
   kind: product

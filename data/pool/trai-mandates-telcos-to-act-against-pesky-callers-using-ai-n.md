@@ -1,0 +1,41 @@
+---
+slug: trai-mandates-telcos-to-act-against-pesky-callers-using-ai-n
+name: Trai mandates telcos to act against pesky callers using AI, no consumer complaint needed
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTmxaVUxEWTZQN1YyMDU4TGVYR1BOcGQ5Mkt5eHloMnMwZ05XZ0dZR19vZV9rTHRPR19VRlBHZkctaWxaUWFZb3VLVkd1T2dkdnJmQ2RnRlNHdHJxWmZXVF8zeUZLVy1MYlVjZDNrZ2RSWm9aMm5uenRMVFhRTnF2OUpxNGYyQnh6cExpZVZxU1cyS090VnlmZlZoZlJvQkJOT0hVRUN0cGMtcGx6ZVhoV0cwNEZrdWViSnY1TTN0QWg1djZKOWtzb2VDSTR0QkttSERMUThVWjR6ZUFl0gHiAUFVX3lxTFBtdHVTOG5QUnNHRDEyUlZ3YkhQOUd1NTd0Yl9PekhUem9rQzVfUU0xcDBIclp2YlRzZDgySGRpV2RvQ3h2Y1BwemlrZC11cHRQTUx1YjhVQlFDdThYMzZkblBwRlBObklXek5kdGJYOGJXeHBvUXdzbkZSVExsWDFtR2lVekVvVkJELUQ4bTU3VlVOcVk3VEdrdXlGOTdKTWFqSTljX25oemx6MXhTaW9GSzd0QktEV0tZQmJxdVFHMVFERlgyX2NsZFNieUNrcEFnRGxqamttZ3RSTzZoVEtaVVE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTmxaVUxEWTZQN1YyMDU4TGVYR1BOcGQ5Mkt5eHloMnMwZ05XZ0dZR19vZV9rTHRPR19VRlBHZkctaWxaUWFZb3VLVkd1T2dkdnJmQ2RnRlNHdHJxWmZXVF8zeUZLVy1MYlVjZDNrZ2RSWm9aMm5uenRMVFhRTnF2OUpxNGYyQnh6cExpZVZxU1cyS090VnlmZlZoZlJvQkJOT0hVRUN0cGMtcGx6ZVhoV0cwNEZrdWViSnY1TTN0QWg1djZKOWtzb2VDSTR0QkttSERMUThVWjR6ZUFl0gHiAUFVX3lxTFBtdHVTOG5QUnNHRDEyUlZ3YkhQOUd1NTd0Yl9PekhUem9rQzVfUU0xcDBIclp2YlRzZDgySGRpV2RvQ3h2Y1BwemlrZC11cHRQTUx1YjhVQlFDdThYMzZkblBwRlBObklXek5kdGJYOGJXeHBvUXdzbkZSVExsWDFtR2lVekVvVkJELUQ4bTU3VlVOcVk3VEdrdXlGOTdKTWFqSTljX25oemx6MXhTaW9GSzd0QktEV0tZQmJxdVFHMVFERlgyX2NsZFNieUNrcEFnRGxqamttZ3RSTzZoVEtaVVE?oc=5
+summary: Trai mandates telcos to act against pesky callers using AI, no consumer complaint needed cnbctv18.com
+first_seen: '2026-09-29T07:25:55Z'
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTmxaVUxEWTZQN1YyMDU4TGVYR1BOcGQ5Mkt5eHloMnMwZ05XZ0dZR19vZV9rTHRPR19VRlBHZkctaWxaUWFZb3VLVkd1T2dkdnJmQ2RnRlNHdHJxWmZXVF8zeUZLVy1MYlVjZDNrZ2RSWm9aMm5uenRMVFhRTnF2OUpxNGYyQnh6cExpZVZxU1cyS090VnlmZlZoZlJvQkJOT0hVRUN0cGMtcGx6ZVhoV0cwNEZrdWViSnY1TTN0QWg1djZKOWtzb2VDSTR0QkttSERMUThVWjR6ZUFl0gHiAUFVX3lxTFBtdHVTOG5QUnNHRDEyUlZ3YkhQOUd1NTd0Yl9PekhUem9rQzVfUU0xcDBIclp2YlRzZDgySGRpV2RvQ3h2Y1BwemlrZC11cHRQTUx1YjhVQlFDdThYMzZkblBwRlBObklXek5kdGJYOGJXeHBvUXdzbkZSVExsWDFtR2lVekVvVkJELUQ4bTU3VlVOcVk3VEdrdXlGOTdKTWFqSTljX25oemx6MXhTaW9GSzd0QktEV0tZQmJxdVFHMVFERlgyX2NsZFNieUNrcEFnRGxqamttZ3RSTzZoVEtaVVE?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+---
+
+# Trai mandates telcos to act against pesky callers using AI, no consumer complaint needed
+
+Trai mandates telcos to act against pesky callers using AI, no consumer complaint needed cnbctv18.com
+
+## 笔记
+
+

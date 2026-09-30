@@ -20,17 +20,17 @@ url: https://www.getprivisy.com/blog/sb-923-ccpa-right-to-delete-signed
 canonical_url: https://getprivisy.com/blog/sb-923-ccpa-right-to-delete-signed
 summary: 'SB 923 is Law: CCPA deletion rights now reach third-party data'
 first_seen: '2026-09-28T19:44:49Z'
-last_seen: '2026-09-29T01:57:43Z'
-status: rejected
+last_seen: '2026-09-30T01:18:13Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.getprivisy.com/blog/sb-923-ccpa-right-to-delete-signed
-  seen_at: '2026-09-29T01:57:43Z'
+  seen_at: '2026-09-30T01:18:13Z'
   metrics:
-    points: 39
-    comments: 12
+    points: 43
+    comments: 13
   kind: news
 ---
 

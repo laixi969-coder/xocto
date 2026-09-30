@@ -32,16 +32,16 @@ url: https://tasktrooper.ai
 canonical_url: https://tasktrooper.ai
 summary: 'Local-first agent platform: board + role agents + Claude Code runs, all on your own Mac'
 first_seen: '2026-09-14T12:45:52Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://tasktrooper.ai
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 104
+    stars: 106
     forks: 15
     open_issues: 1
   kind: product

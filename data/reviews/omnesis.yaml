@@ -42,3 +42,45 @@
   usage_reason_en: 'Cannot be judged: the material gives only one line of positioning and does not say
     which step it removes versus manual pasting or existing knowledge-base tools, or which verifiable
     result it improves, so the causal reason a user would choose it is missing.'
+- id: req-initial-omnesis-2026-09-30
+  project_slug: omnesis
+  level: initial
+  reviewed_at: '2026-09-30T01:18:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“当用户需要让 ChatGPT 或其他 agent 基于自己的一批私有资料作答时，打开 Omnesis 把资料接入，由它作为知识层向 agent 提供检索内容，用户得到的是基于私有资”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''
+  job: 当用户需要让 ChatGPT 或其他 agent 基于自己的一批私有资料作答时，打开 Omnesis 把资料接入，由它作为知识层向 agent 提供检索内容，用户得到的是基于私有资料的回复；具体接入方式、支持的文件类型与交付形态仍待核验。
+  job_en: When a user wants ChatGPT or another agent to answer from a set of private documents, they open
+    Omnesis and connect those documents so it serves as the knowledge layer the agent retrieves from,
+    receiving answers grounded in that private material; the exact ingestion method, supported file types
+    and delivery format still need verification.
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：当用户需要让 ChatGPT 或其他 agent 基于自己的一批私有资料作答时，打开 Omnesis 把资料接入，由它作为知识层向 agent 提供检索内容，用户得到的是基于私有资料的回复；具体接入方式、支持的文件类型与交付形态仍待核验。；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: When a user wants ChatGPT or another agent to answer from a set of private
+    documents, they open Omnesis and connect those documents so it serves as the knowledge layer the agent
+    retrieves from, receiving answers grounded in that private material; the exact ingestion method, supported
+    file types and delivery format still need verification. Public materials do not yet explain why users
+    choose this product over their existing approach.'

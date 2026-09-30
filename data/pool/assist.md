@@ -25,8 +25,8 @@ url: https://www.producthunt.com/products/assist-4
 canonical_url: https://producthunt.com/products/assist-4
 summary: Voice annotate your Mac, get screenshots + clipboard manager
 first_seen: '2026-09-06T10:08:53Z'
-last_seen: '2026-09-28T00:47:18Z'
-status: rejected
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -54,6 +54,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdzRjR0RQRnhIelBWclFzbEwyQlU1Z1pGa3RkTUpjRUhtYndTTnN3Y0NfWmVySElLV3BTUEZxNi1JVUZQSFdSd2otUEhZM1ZJQkpVTFZlTTFTVW9NMUFPZmcwMFVtRFBPMmhNMkVaSWthUDl3MjVQTDdKYWxMQnVPOXdDX0taUHR3R3o1cTNOamczaGNWYjZtd3BBX0lfNnA2UXh6Q2RuRjFfOVBIQkVWX1hhZ1VaNkNtVDZpdmNEVS01a0tleV9iNUdzVHc2bkVHenA5WUNzT2tmVHpCdDRBNFUzWlFrSjhxVmRCUk02TQ?oc=5
   seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikwFBVV95cUxQcVNqSDRVbXdGb0NZa2dwQTh0WnVxcVdyOXVUcUw1RV94U2U5R29DV1Vwczh4V2c4UHk4bDJucHhDX2ZxbEpvRk04ek9BV09wYXVwcEVzaXpVR3pqMk1kX3MyTHBZblBYZ3QwV0EwUVNWb21rRDZXQ1dzdHRVRExMUXFOLTlxMXpXcmFiRW5JcHluUXM?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---

@@ -34,8 +34,8 @@ canonical_url: https://studio.agentkit.best
 summary: Open-source design workspace for AI agents and humans. Cloud editing, 3D, motion, MCP, WebMCP,
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
-last_seen: '2026-09-27T00:36:20Z'
-status: watching
+last_seen: '2026-09-30T01:18:45Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -64,6 +64,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/
   seen_at: '2026-09-23T00:34:37Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/29/romanias-kyndred-raises-eur500k-from-early-game-ventures-to-build-ai-companions/
+  seen_at: '2026-09-30T01:18:45Z'
   metrics: {}
   kind: news
 ---

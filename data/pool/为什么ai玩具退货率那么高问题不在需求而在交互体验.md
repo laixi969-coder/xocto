@@ -24,14 +24,19 @@ url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPazcxVWR0Mjcza3pUVVRBRl
 canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPazcxVWR0Mjcza3pUVVRBRlZ3MjdwQWthOF9idUZ4U2FHLTN4YmxiSE55RVB1NnJiVXl2QkFxbHVMOHp1NHFac1hKcTdnZHdvdmlFWjJycVVnSG9VWkdYQ2VLZ3lSOUotUU15a3dYSHl5Nm9GOVZKUnZIRU5JZ0d4dE9walJ4ajd5a0xZR0xMZTZmRjJQVVdnWA?oc=5
 summary: 为什么​AI玩具退货率那么高？问题不在需求，而在交互体验 新浪财经
 first_seen: '2026-09-28T09:31:12Z'
-last_seen: '2026-09-29T01:58:36Z'
-status: market_context
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPazcxVWR0Mjcza3pUVVRBRlZ3MjdwQWthOF9idUZ4U2FHLTN4YmxiSE55RVB1NnJiVXl2QkFxbHVMOHp1NHFac1hKcTdnZHdvdmlFWjJycVVnSG9VWkdYQ2VLZ3lSOUotUU15a3dYSHl5Nm9GOVZKUnZIRU5JZ0d4dE9walJ4ajd5a0xZR0xMZTZmRjJQVVdnWA?oc=5
   seen_at: '2026-09-29T01:58:36Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBWeXZ4REdBSGlhdGtOSXBvam5yU2U3QndrMTJjc1hnQU5tUXhob2NQZm9rTnV3dWMtU20tdE5HS3hDeWtEZldSdUNOQmlvcng1N2NvQjI2eV9rY3pNbXV1bjBTamFPUkg1bEsxdUtQNHNET3ZVSU00WWIyZWVwc3c?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---

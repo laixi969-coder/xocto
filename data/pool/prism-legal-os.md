@@ -32,17 +32,17 @@ url: https://prism.futurixai.com/
 canonical_url: https://prism.futurixai.com
 summary: Open-source legal AI for contract analysis, legal research, and litigation
 first_seen: '2026-09-12T12:19:11Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://prism.futurixai.com/
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 252
-    forks: 1
+    stars: 260
+    forks: 2
     open_issues: 0
   kind: product
 ---

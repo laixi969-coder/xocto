@@ -28,16 +28,16 @@ url: https://github.com/cn0xroot/CC-Monitor
 canonical_url: https://github.com/cn0xroot/CC-Monitor
 summary: 'Claude Code Monitor : Monitor & audit every action Claude Code takes on your computer.'
 first_seen: '2026-09-12T14:03:16Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cn0xroot/CC-Monitor
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 43
+    stars: 44
     forks: 6
     open_issues: 1
   kind: product

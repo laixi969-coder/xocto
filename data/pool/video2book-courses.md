@@ -40,16 +40,16 @@ summary: 课程笔记与精读教材合集，涵盖 Python 基础、前端 HTML5
   + 模块合辑全书 + 思维导图复习笔记」三层，698 篇长文、79 本模块全书、44 篇复习笔记，从逐讲精读到考前速查一路打通。看不完的长视频课，帮你变成随时能翻的教材。内容由 Video2Book
   从真实课程音频重构，笔记支持 Markmap / XMind 脑图导入。
 first_seen: '2026-09-13T06:06:45Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LINJIANG12/video2book-courses
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 47
+    stars: 51
     forks: 6
     open_issues: 0
   kind: product

@@ -36,17 +36,17 @@ canonical_url: https://github.com/kaankiziltug/logo-design-skill
 summary: 'A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles,
   process, SVG craft, testing tools and a 1,400+ logo reference library.'
 first_seen: '2026-09-26T08:23:34Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kaankiziltug/logo-design-skill
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 466
-    forks: 20
+    stars: 843
+    forks: 40
     open_issues: 0
   kind: product
 ---

@@ -35,16 +35,16 @@ summary: Laravel-aware static analysis for the debt AI coding agents leave behin
   review, a Rector and Pint fix pass, Pest expectations, CI annotations, agent rulesets and an MCP server.
   Deterministic, local, no LLM.
 first_seen: '2026-09-10T07:41:59Z'
-last_seen: '2026-09-29T01:57:46Z'
+last_seen: '2026-09-30T01:18:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Heyosseus/sloppy
-  seen_at: '2026-09-29T01:57:46Z'
+  seen_at: '2026-09-30T01:18:17Z'
   metrics:
-    stars: 117
+    stars: 121
     forks: 1
     open_issues: 0
   kind: product

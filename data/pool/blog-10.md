@@ -20,8 +20,8 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-09-29T01:57:43Z'
-status: rejected
+last_seen: '2026-09-30T01:18:13Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 133
     comments: 52
+  kind: news
+- source: hackernews
+  url: https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html
+  seen_at: '2026-09-30T01:18:13Z'
+  metrics:
+    points: 155
+    comments: 56
   kind: news
 ---
 

@@ -20,8 +20,8 @@ url: https://huggingface.co/spaces/ryansael/airace
 canonical_url: https://huggingface.co/spaces/ryansael/airace
 summary: Live 3D race of AI labs, updated every 6 hours
 first_seen: '2026-09-14T14:25:21Z'
-last_seen: '2026-09-29T01:57:43Z'
-status: rejected
+last_seen: '2026-09-30T01:18:45Z'
+status: pending_filter
 sources:
 - huggingface
 - marketfeeds
@@ -69,6 +69,11 @@ sightings:
   metrics:
     points: 426
     comments: 385
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/how-employee-liquidity-is-becoming-fundamental-brnd/
+  seen_at: '2026-09-30T01:18:45Z'
+  metrics: {}
   kind: news
 ---
 

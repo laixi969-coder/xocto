@@ -33,8 +33,8 @@ url: https://www.producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41
 canonical_url: https://producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba
 summary: A read-later app sending a typeset digest to your e-reader
 first_seen: '2026-08-27T10:01:12Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: watching
+last_seen: '2026-09-30T01:18:52Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -52,6 +52,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilwJBVV95cUxPNk5mMnVRZHJaYmVsZlFxWWhDamhQZllnc2JiT2xFTDlzVHJYNTZnMXc2OXlZQkR4c1laMWdnYlVDNnNqa2pkZGtvc3NXcjVQOFQyQVhON0NwdjJ3TmJqaklyWVl4ZTRYeEdhTjBsSmlXcjh5TjAxWGFVYmFYV2pUVTBMVEE5cFFVWmtmeGp1cDIwRXhHS0FUeTNTaHRzVUZPUzNmMXd4VXdnNUJxMWMzWGtTY190YXNROVBRc3J3ZFV1ZHJyU2psY3dfQXI2OVFFem1rc3prNlhRZURYMmNtczllNHhWZXZ1NWtpVHowV1RHamszN1U1QmhFdG04N2wwRlRCYWYzd1ZWN1pqa21uRTNqb3l4bzg?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPUm9kZ3EteHp5eENWeDRuRkJ4SnF2ckxyY19NTW8tVmlNcGF5QU84UHlHRE9POHFFVGo0SE11eGlCaGJHc0lXd2dKaXVKb1VubS1QemozQVlXZjNUYy1WRUw2T25KbmZsUW1oR1lob2JXd213M1l1YUxjQzQ5RVdtV3RWZndCVEp3MlVWZUxGQ2pBNGpudUJpaHdibXQ5TWZjVldmdWtUN2hOVDRMT0tMaVFORjhLVGZoTDZreg?oc=5
+  seen_at: '2026-09-30T01:18:52Z'
   metrics: {}
   kind: news
 ---
