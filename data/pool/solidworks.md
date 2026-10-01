@@ -38,16 +38,16 @@ canonical_url: https://github.com/CaptureGrubEnchant/SolidWorks
 summary: SolidWorks MCP Server connects an AI assistant to a running SolidWorks instance. Sketch, extrude,
   fillet, export STEP/STL, generate macros.
 first_seen: '2026-09-25T10:42:51Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CaptureGrubEnchant/SolidWorks
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 372
+    stars: 381
     forks: 0
     open_issues: 0
   kind: product

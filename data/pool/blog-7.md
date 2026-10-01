@@ -32,7 +32,7 @@ summary: "智谱出大瓜： https://blog.ferstar.org/en/posts/zcode-silent-work
   \n- 作者给的防御：文件系统层面锁死 ~/.zcode/v2/checkpoints （ macOS chflags uchg / Linux chattr +i ），内核拒绝写入，管道无东西可传；代价是\
   \ checkpoint 回滚功能失效\r\n\r\n ![]( https://i.imgur.com/HKilxaY.jpeg) \r\n \r\n 官方回应：\r\n \r\n  ![]( https://i.imgur.com/RtNpKIT.jpeg)"
 first_seen: '2026-09-19T11:43:10Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: market_context
 sources:
 - v2ex
@@ -52,10 +52,10 @@ sightings:
   kind: news
 - source: github
   url: https://zcode.z.ai/
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 7170
-    forks: 2175
+    stars: 7253
+    forks: 2201
     open_issues: 11
   kind: product
 ---

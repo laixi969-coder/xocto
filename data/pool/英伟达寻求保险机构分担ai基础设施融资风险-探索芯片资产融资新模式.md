@@ -25,14 +25,29 @@ url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE03NEt4dWdRdHVPVlYtUE5xTX
 canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE03NEt4dWdRdHVPVlYtUE5xTXJQRWVST3F1VHB1NGtoTnJLZG03SmdjVHJYQ3ZmdHl4dXdvZ2xYbWtyREhNR2hiZ2R5a2dmZEJBNFBLZ3lxYUNlaTBRRUlLd2l1RQ?oc=5
 summary: 英伟达寻求保险机构分担AI基础设施融资风险 探索芯片资产融资新模式 东方财富
 first_seen: '2026-09-29T21:54:00Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: market_context
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE03NEt4dWdRdHVPVlYtUE5xTXJQRWVST3F1VHB1NGtoTnJLZG03SmdjVHJYQ3ZmdHl4dXdvZ2xYbWtyREhNR2hiZ2R5a2dmZEJBNFBLZ3lxYUNlaTBRRUlLd2l1RQ?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CRldxXzlkT0F6bXBFRU1idUl2MDJyTnhYU0g5clI0ZGRqUVJyOEg1TnU1R0YxRXZELTNhbjZUaGFCb2ptRWljNw?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qNmtOc1ZjMVBEV0Z2eGdhdEtybXFueVp6aWxhekZNOVl4MjRPdWRkc2Z4empNVUQ2V2FweWNQRmdBM0ZGSFJ1Uw?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE56VkVkUUdKT0lpVXZ1eHZ2UC12MGZXVE1oVUhPdVVSaDZHb2YyXzZ3V0VDczByWm9YOU1lVWRPb1VCdXZES1VCVQ?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

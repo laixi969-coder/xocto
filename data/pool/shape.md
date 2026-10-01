@@ -33,8 +33,8 @@ url: https://www.producthunt.com/products/shape-5
 canonical_url: https://producthunt.com/products/shape-5
 summary: The agentic IDE for designers and programmers
 first_seen: '2026-08-19T23:56:11Z'
-last_seen: '2026-09-24T00:31:52Z'
-status: rejected
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -63,6 +63,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNUk9IaDJ3WXFPTmxWLTF5bDA2Vk91LUl4LVhKbnllem5ILXc5TVppLVRSSnd5ZHcxQnZneTk0VFczMklMa3VKYkJqcGVNWnZzOUExMEZxVW5IdmJaQmhLWTVpZmpvZGt5RWpuUmFfMWhjUzdlbzhGM2wtdUtRY21uZjlqSXEyUFVHNWJ6YzY2YUJqWHI4V1FqRGY2bzZ1Vm91Vm5NZk9pZmNuLTZEMmtjTW9HaFhvOWZqb2NEUk4xX1ZOVWl1?oc=5
   seen_at: '2026-09-24T00:31:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbHhWU3pYX1lxT3FmbTVnOHNYLXVPQV9WYWFCR3VaWTdfZDBJNDRmTDFYclNIWU1BYWtlalhlcXpKWDNrenhkNU1ibGo2YTZmM2lDS0hoYkV1czFHUzRFWk9xZktiaHczRWN0TDZkQ08wQTMwcUlJYXNCZ1ZwM2djb1F2QWw2dldfS19xeW1lcmFxbzM2Tm92ZmdDeXdGYU1MOGdKNW9POG01UV9pQzc2b2NjX1hCcWhISzhCSjFDU18zUQ?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTNod2EweTd5UmJmcWx0a3pPT3d2bXc0VHhEZ1FPMDFwYlhXOHdwQmk1Q0JPTFluMU1aUkVEYUVoNElWVlNKeVRrbHVVRnZQNElvMlFlVjVOOVR0eURCTmYyWmpabmZBLTlDTk4wN0lfRE94OXpKaGpMX2lDMmxGRnhOMDBLTzZpQVh0LTJTRVhJc1pFdFJGOEJQR2NhQVNlQ1JhUWcwNmJ4MUNNazJyYldQN2hFX1AyRFdUSkFBdHJJSmFQeEl5NVZUNXc?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

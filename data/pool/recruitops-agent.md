@@ -34,16 +34,16 @@ url: https://github.com/849879772/recruitops-agent
 canonical_url: https://github.com/849879772/recruitops-agent
 summary: Local-first recruitment intelligence and application operations agent
 first_seen: '2026-09-16T08:41:51Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/849879772/recruitops-agent
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 112
+    stars: 115
     forks: 8
     open_issues: 0
   kind: product

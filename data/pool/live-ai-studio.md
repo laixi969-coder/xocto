@@ -31,12 +31,13 @@ url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 canonical_url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 summary: Real-time AI camera, face tracking and background studio
 first_seen: '2026-09-04T11:19:30Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-01T01:19:01Z'
+status: pending_filter
 sources:
 - huggingface
 - newssearch
 - hackernews
+- marketfeeds
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
@@ -91,6 +92,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOTExSZU9tSFNjdkxjZzEtRnk5d2wwMU5HaE5NZWJLOUZyRE0tZkJHMWQycFNHeTE4QkVPYWQ2WjN0ai1KdXBUQnpnb25PN2xGUkpOTnJCYzNiUWN2bEs5YnRqcmtOWmczSFlzOV93NXlmemdqUWhEYXYzWlBWWGV3OGt0Q3V4LVNXVzdoUGFwRXJPazVNSERMN2M1M0ZtLWdKUTk3dg?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/
+  seen_at: '2026-10-01T01:19:01Z'
   metrics: {}
   kind: news
 ---

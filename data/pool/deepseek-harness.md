@@ -10,7 +10,7 @@ summary_en: DeepSeek splits an assistant's tools, memory, and interface into swa
 inspiration_en: 'The trend is model companies giving away the shell and charging for calls, so swapping
   the brain is one config line. The entry is an assistant runtime that must stay on a company intranet:
   add-ons you can audit and replace. The shell is free; money is in model calls.'
-priority_review: false
+priority_review: true
 project_type: ''
 industries: []
 industries_en: []
@@ -23,7 +23,7 @@ url: https://deepseek.com/harness
 canonical_url: https://deepseek.com/harness
 summary: 'DeepSeek Harness: Everything is a Plugin.'
 first_seen: '2026-08-13T11:56:32Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: analyzed
 sources:
 - github
@@ -48,6 +48,14 @@ sightings:
   metrics:
     stars: 600
     forks: 60
+    open_issues: 0
+  kind: product
+- source: github
+  url: https://deepseek.com/harness/
+  seen_at: '2026-10-01T01:18:42Z'
+  metrics:
+    stars: 9
+    forks: 0
     open_issues: 0
   kind: product
 ---

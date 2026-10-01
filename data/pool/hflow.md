@@ -34,7 +34,7 @@ url: https://www.producthunt.com/products/hflow
 canonical_url: https://producthunt.com/products/hflow
 summary: Scalable multimodal data pipelines for robotics
 first_seen: '2026-08-26T08:01:50Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-10-01T01:19:08Z'
 status: pending_filter
 sources:
 - producthunt
@@ -56,6 +56,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE55YlNESEhXOS1uMTFKeFVpN3ByR0hxUWhRYnhoOHNVU2NvMV9sTWVxdmF0SXBULW8xMy16dTdlaG9WM0FuQk8zeUVIYVh6RGw5Q3NJLQ?oc=5
   seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE50a20xaVAybGlKTDFwTGxWaWJCcmdVdXNZanNsUVVEdzdGemxfQlptVkxFMDNQSFZEUnJNSXg3RDdqZjFNaG9mOWQ1RTlmTkVqNnhtSg?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

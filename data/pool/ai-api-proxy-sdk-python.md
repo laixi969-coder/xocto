@@ -21,24 +21,24 @@ canonical_url: https://go.apimart.ai/k-831e06
 summary: 'AI API proxy SDK for Python: retry with idempotency keys, rate-limit backoff, task polling,
   cost accounting and typed errors for OpenAI-compatible AI API gateways.'
 first_seen: '2026-09-17T09:51:41Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://go.apimart.ai/k-831e06
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 151
+    stars: 131
     forks: 0
     open_issues: 0
   kind: product
 - source: github
   url: https://go.apimart.ai/k-e73309
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 164
+    stars: 148
     forks: 0
     open_issues: 0
   kind: product
@@ -52,33 +52,33 @@ sightings:
   kind: product
 - source: github
   url: https://go.apimart.ai/k-6f3861
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 92
+    stars: 81
     forks: 0
     open_issues: 0
   kind: product
 - source: github
   url: https://go.apimart.ai/k-a58f89
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 85
+    stars: 75
     forks: 0
     open_issues: 0
   kind: product
 - source: github
   url: https://go.apimart.ai/k-f8d759
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 84
+    stars: 75
     forks: 0
     open_issues: 0
   kind: product
 - source: github
   url: https://go.apimart.ai/k-6cf638
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 81
+    stars: 75
     forks: 0
     open_issues: 0
   kind: product

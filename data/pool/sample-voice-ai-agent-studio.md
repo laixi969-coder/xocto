@@ -36,17 +36,17 @@ url: https://github.com/aws-samples/sample-voice-ai-agent-studio
 canonical_url: https://github.com/aws-samples/sample-voice-ai-agent-studio
 summary: ''
 first_seen: '2026-09-24T13:32:45Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aws-samples/sample-voice-ai-agent-studio
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 119
-    forks: 45
+    stars: 121
+    forks: 46
     open_issues: 9
   kind: product
 ---

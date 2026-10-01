@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE9xbkNrcXI5WXhfRWcxWUY5T2
 canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE9xbkNrcXI5WXhfRWcxWUY5T28zUFJaMkRkbmVPVkFiUFp6a2JBYXZjRVhiX0dNcDhkV1JrVUZ2TEFNU0NuV1ZkVVQ3TVVFVjRvQ0hXOFpGOA?oc=5
 summary: 端侧AI普及提速！移远通信M.2智能算力板卡QSC600XA-AP，让AI算力"即插即用" 美通社
 first_seen: '2026-09-29T11:30:00Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE9xbkNrcXI5WXhfRWcxWUY5T28zUFJaMkRkbmVPVkFiUFp6a2JBYXZjRVhiX0dNcDhkV1JrVUZ2TEFNU0NuV1ZkVVQ3TVVFVjRvQ0hXOFpGOA?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaVAxQzFvRGhka21wZ1FkdlZabFdVdFNyUHpwTXU0UG5wQVlscElodzVpcndPbURkUzV5UXZ2b1NRVmhkcWVVZVJkS2haLXlJeGtuX2xCN1Ffdzh3My15LW5NSlF1VC1XWHBIU2NsV0xpdGhSWUlyT3NsbXVEMS0zbEZNUTcwVUgw?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

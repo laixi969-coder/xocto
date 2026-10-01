@@ -20,18 +20,18 @@ url: https://usemagpie.ai
 canonical_url: https://usemagpie.ai
 summary: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
 first_seen: '2026-09-23T16:22:35Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://usemagpie.ai
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 2747
-    forks: 163
-    open_issues: 29
+    stars: 3783
+    forks: 227
+    open_issues: 49
   kind: product
 ---
 

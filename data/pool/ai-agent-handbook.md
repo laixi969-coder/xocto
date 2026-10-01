@@ -20,17 +20,17 @@ url: https://github.com/aliyun/ai-agent-handbook
 canonical_url: https://github.com/aliyun/ai-agent-handbook
 summary: A practical guide to building enterprise AI agents across their full lifecycle.
 first_seen: '2026-09-11T07:02:17Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aliyun/ai-agent-handbook
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 1012
-    forks: 150
+    stars: 1067
+    forks: 155
     open_issues: 2
   kind: product
 ---

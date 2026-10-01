@@ -1,0 +1,14 @@
+- id: ev-d90d8288c4517307
+  project_slug: on-the-effectiveness-fluency-trade-off-in-llm-conditioning-a
+  url: https://machinelearning.apple.com/research/effectiveness-fluency-llm-conditioning
+  title: 'On the Effectiveness-Fluency Trade-Off in LLM Conditioning: A Systematic Study'
+  published_at: '2026-09-30T00:00:00Z'
+  collected_at: '2026-10-01T01:19:00Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable
+    deployment, yet a clear understanding of the involved trade-offs remains elusive. Current approaches
+    to conditioning are often evaluated with a narrow focus on their effectiveness at injecting or removing
+    a target concept, neglecting generation quality. We systematically investigate a range of conditioning
+    methods in both injection and removal scenarios. We find that efficient steering methods frequently
+    achieve conditioning at a steep cost to fluency. Furthermore, we identify a critical yet…

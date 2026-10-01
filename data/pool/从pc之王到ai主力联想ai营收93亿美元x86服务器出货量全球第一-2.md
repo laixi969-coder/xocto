@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTE43X1NhM2xrVVB5anRRNW5oSV
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE43X1NhM2xrVVB5anRRNW5oSVJkbE5feUo4al90eDJMWk96VEx4cGJnLXBFOENrWjFENzc0dXo0cEpjc0xsbEo2SFRDWWI0bVNSVzJua0l0RVN1Y1ZfeWhlanFsNVVYMmZaZ2k5V2NrLXA?oc=5
 summary: 从PC之王到AI主力：联想AI营收93亿美元，x86服务器出货量全球第一 t.cj.sina.cn
 first_seen: '2026-09-20T07:29:44Z'
-last_seen: '2026-09-21T00:17:23Z'
-status: rejected
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMicEFVX3lxTE43X1NhM2xrVVB5anRRNW5oSVJkbE5feUo4al90eDJMWk96VEx4cGJnLXBFOENrWjFENzc0dXo0cEpjc0xsbEo2SFRDWWI0bVNSVzJua0l0RVN1Y1ZfeWhlanFsNVVYMmZaZ2k5V2NrLXA?oc=5
   seen_at: '2026-09-21T00:17:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTFA3WEJ4c2FMRzF4V09fVWNvLVVIMk1oZnlpTU5WV25VNm9oUklESm9EN2g2RXJ5OTY2aWtIQmQ4cVV5YUFkT0p3c0J2UTd3Q1I3TVN5Q0thOXlUUnpLUnhwLWFKMU9GX3dqRW1faDJn?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

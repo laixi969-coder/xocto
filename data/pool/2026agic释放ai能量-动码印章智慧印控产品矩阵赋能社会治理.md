@@ -35,14 +35,19 @@ url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vZnhfWWR2X2t4RFQzYk12NG
 canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vZnhfWWR2X2t4RFQzYk12NGlVRmtuSFRLYnVhUUQySE9zaG5hdXhEYTU5UUZfRUxBRFB4RHBuclFWTFZBZnduZThMeWQweFVHZXdNdEpSMWVIYWNF?oc=5
 summary: 2026AGIC释放AI能量 动码印章智慧印控产品矩阵赋能社会治理 砍柴网
 first_seen: '2026-09-01T08:01:32Z'
-last_seen: '2026-09-02T00:14:57Z'
-status: queued
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vZnhfWWR2X2t4RFQzYk12NGlVRmtuSFRLYnVhUUQySE9zaG5hdXhEYTU5UUZfRUxBRFB4RHBuclFWTFZBZnduZThMeWQweFVHZXdNdEpSMWVIYWNF?oc=5
   seen_at: '2026-09-02T00:14:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOc0pTaE9sZ0JXdlBPTU55bVJmVjR0Mnc5SDREMm55RUVpMVNpc1A4dTBfQnVuV0gxc1otdDZhZ081WGs5dEZqSlNyRmZvSHNjS0hPd01pUEdpbzZ5a09lNEVIeHAwSzJGaDZKWHVPQU5KMlFmRDRRQktuc0FjcEM1d3BKbnFRRjBnTld2Sw?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

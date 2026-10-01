@@ -36,17 +36,17 @@ url: https://github.com/duoduoler-ops/Table-VideoSOP
 canonical_url: https://github.com/duoduoler-ops/Table-VideoSOP
 summary: AI video production SOPs, rules, templates and prompts / AI 视频制作 SOP、规则、模板与提示词
 first_seen: '2026-09-20T11:48:02Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/duoduoler-ops/Table-VideoSOP
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 75
-    forks: 6
+    stars: 89
+    forks: 7
     open_issues: 0
   kind: product
 ---

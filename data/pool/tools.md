@@ -20,8 +20,8 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-09-29T01:58:36Z'
-status: rejected
+last_seen: '2026-10-01T01:18:38Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -103,6 +103,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMimwFBVV95cUxOYW56SXdLUlRyQjZId2d1UlRYT1lhaUdMUUdyTTd5OEEtSEJpSDE0OEI3Zlk5MVFXUjdOeFhTN25acDhpdGZsTnQ3ZVlFLVVucU11aUFaQlpxWVJkYUw2aG93SjJUc0x3SHBPQnJvS1B0ZnppNlktTmNLTFJic0lMNzZqSEVyTkdKRm0xSlVya0laMVhSVkhQby02SQ?oc=5
   seen_at: '2026-09-29T01:58:36Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/legal/litigation/ai-tools-generated-nearly-1-billion-extra-costs-blue-cross-insurers-say-2026-09-24/
+  seen_at: '2026-10-01T01:18:38Z'
+  metrics:
+    points: 22
+    comments: 12
   kind: news
 ---
 

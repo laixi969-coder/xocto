@@ -24,17 +24,17 @@ url: https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-ne
 canonical_url: https://thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres
 summary: AI needs $6T in annual revenue to justify data centre boom
 first_seen: '2026-09-29T19:21:25Z'
-last_seen: '2026-09-30T01:18:13Z'
-status: market_context
+last_seen: '2026-10-01T01:18:38Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/
-  seen_at: '2026-09-30T01:18:13Z'
+  seen_at: '2026-10-01T01:18:38Z'
   metrics:
-    points: 191
-    comments: 274
+    points: 219
+    comments: 325
   kind: news
 ---
 

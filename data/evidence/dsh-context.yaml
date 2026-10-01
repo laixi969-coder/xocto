@@ -2328,3 +2328,44 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-fbcce6805e8541fb
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/awwwards-mcp
+  title: Awwwards-mcp
+  published_at: '2026-09-18T10:57:09Z'
+  collected_at: '2026-10-01T01:18:42Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode,
+    ZCode…) design inspiration from award-winning websites — search with real screenshots, pull design
+    DNA, capture and record live sites. A Mobbin alternative. No API key. | repository stars: 93'
+- id: ev-43ee8e605a4f6b15
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@toddzheng024/dscode
+  title: dscode
+  published_at: '2026-09-11T09:40:02Z'
+  collected_at: '2026-10-01T01:18:42Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP
+    and session telemetry | repository stars: 1,009'
+- id: ev-19ebf93af89607a3
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-claude-style
+  title: dsh-claude-style
+  published_at: '2026-09-19T18:51:52Z'
+  collected_at: '2026-10-01T01:18:42Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Claude Code Desktop theme for DeepSeek Harness｜ 为 DeepSeek Harness 网页 GUI 打造的 Claude Code 桌面主题
+    | repository stars: 58'
+- id: ev-44bfd2bfdf33f2e4
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/jevmem
+  title: jevmem
+  published_at: '2026-09-22T11:47:24Z'
+  collected_at: '2026-10-01T01:18:42Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Automatic project memory for Claude Code. Also works with Cursor and Codex. Now in Anthropic''s
+    Claude plugin directory. | repository stars: 103'

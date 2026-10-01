@@ -34,16 +34,16 @@ summary: A trustworthy context layer for AI that remembers, plans and acts — f
   decisions and memories, each with its evidence, in a SQLite file you own. MCP, HTTP, library and typed
   client.
 first_seen: '2026-09-18T17:10:56Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/heymi/aldus-palace
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 96
+    stars: 102
     forks: 1
     open_issues: 0
   kind: product

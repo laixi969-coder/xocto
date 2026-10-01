@@ -167,3 +167,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 机械制造 工业设计 机械设计工程师 CAD 制图员'
+- id: ev-26cf91ebab65f17d
+  project_slug: solidworks
+  url: https://github.com/CaptureGrubEnchant/SolidWorks
+  title: SolidWorks
+  published_at: '2026-09-25T10:42:51Z'
+  collected_at: '2026-10-01T01:18:42Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'SolidWorks MCP Server connects an AI assistant to a running SolidWorks instance. Sketch, extrude,
+    fillet, export STEP/STL, generate macros. | repository stars: 381'

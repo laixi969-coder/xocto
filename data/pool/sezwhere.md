@@ -32,17 +32,17 @@ url: https://sezwhere.com/
 canonical_url: https://sezwhere.com
 summary: Ask any document "where does it say that?" (built on Jev)
 first_seen: '2026-09-29T14:48:54Z'
-last_seen: '2026-09-30T01:18:13Z'
+last_seen: '2026-10-01T01:18:38Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sezwhere.com/
-  seen_at: '2026-09-30T01:18:13Z'
+  seen_at: '2026-10-01T01:18:38Z'
   metrics:
-    points: 15
-    comments: 1
+    points: 19
+    comments: 13
   kind: product
 ---
 

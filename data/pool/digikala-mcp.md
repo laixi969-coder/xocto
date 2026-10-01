@@ -39,18 +39,18 @@ canonical_url: https://digikala-mcp.mmdju.workers.dev
 summary: 'MCP server for Digikala: search, compare and price-check products on Iran''s largest marketplace.
   Read-only, no API key. 16 tools, hosted on Cloudflare Workers.'
 first_seen: '2026-09-15T04:54:56Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://digikala-mcp.mmdju.workers.dev/
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 128
-    forks: 17
-    open_issues: 0
+    stars: 129
+    forks: 18
+    open_issues: 2
   kind: product
 ---
 

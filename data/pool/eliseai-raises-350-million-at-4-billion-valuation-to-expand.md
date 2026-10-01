@@ -41,14 +41,19 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTFAxaDdxYzdBemVy
 summary: EliseAI Raises $350 Million At $4 Billion Valuation To Expand AI Across Housing And Healthcare
   Pulse 2.0
 first_seen: '2026-09-29T20:13:14Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: watching
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTFAxaDdxYzdBemVyTkR1dTMxUHQzOHF5cGc2NkllbnllSDFpSDdRNU1ldldQUEJLaks1cTM5OFo5VHhYNlJVUWw3ZnFkUXNRSld1V2M5UTFHUFFVbDJhQmZqSjFaWmV2cUFLZEk4blhKUkdFaVVSQ1FMRdIBfkFVX3lxTE5KTlFQb1NGYVd3WU9URjBhQWlRVzVwcnRCaHZyZTlnT0M5a3pMQ3hSVTh1VWJHS0R1WEV5dzFLb2hOdXJxOUpiU3p2YWlZVDdFN1ZjVkdHMFNxbjBZMjYtVXdQbjVYb2hmSzM3R2RTVWFOdG54TXFvNEY4ZExmUQ?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWFRUkROTGVjTWZvMUlUcWRxdWJ0Q3ZDcTFKMzdpLWRTRVJweTZwSkM0UGIzdHhab212OEhmQXRzSlhucTVsV3J5S2VFcEFhWVQyZ2U4NWZDcGY3NTNsa1c5THRCb3hMa3lIcmJlYXI0dWRaSGNGdkY2WmhKaGVLeC0zM09QTE1ZU2NRN0hKR3YxQVA0Y0lmdkVvMnQ3and1cHc?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

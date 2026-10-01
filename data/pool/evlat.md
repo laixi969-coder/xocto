@@ -1,0 +1,41 @@
+---
+slug: evlat
+name: Evlat
+builder: Omer Kala
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://www.producthunt.com/products/evlat
+canonical_url: https://producthunt.com/products/evlat
+summary: Know which AI coding agent is waiting on you
+first_seen: '2026-09-29T13:51:59Z'
+last_seen: '2026-10-01T01:18:38Z'
+status: pending_filter
+sources:
+- producthunt
+sightings:
+- source: producthunt
+  url: https://www.producthunt.com/products/evlat
+  seen_at: '2026-10-01T01:18:38Z'
+  metrics: {}
+  kind: product
+---
+
+# Evlat
+
+Know which AI coding agent is waiting on you
+
+## 笔记
+
+

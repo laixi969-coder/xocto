@@ -1,0 +1,13 @@
+- id: ev-132f8b14552fadb7
+  project_slug: photo-scrubber-local-face-blur-metadata-removal
+  url: https://simonwillison.net/2026/Sep/29/photo-scrubber/
+  title: Photo Scrubber — local face blur & metadata removal
+  published_at: '2026-09-29T16:45:27Z'
+  collected_at: '2026-10-01T01:19:01Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Tool:   Photo Scrubber — local face blur & metadata removal  \n         I took a photograph of\
+    \ some protesters, then thought about how I don't like sharing photographs of strangers with identifiable\
+    \ faces. I  had GPT-6 Astra build  this experimental tool that would identify faces and automatically\
+    \ blur them out. \n It uses Google's  MediaPipe  C++ library, compiled to WebAssembly via  @mediapipe/tasks-vision\
+    \ , plus the  BlazeFace  face detection model. \n    \n    \n         Tags:  photography ,  tools"

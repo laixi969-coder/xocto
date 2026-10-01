@@ -24,8 +24,8 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWm
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWmtvRW1oWnJ5aFNfRUUxQV8tSERkSHJCOXpWVWthUkg2RVFUSS1ncHhBRzdINm8yVTJwdU1ZdlcxQVJJWDRyOUZ1b21FNnhrUl9LMkJTeldNYm9yeDI1XzVWUFNJUWdySDE3VUloUGRzWWVqNjljRy1nWWswRXQ0MlNYUQ?oc=5
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: rejected
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -96,6 +96,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPTVBUY2hPOUZLaDRfU3o1cW5RNnZBRUkwa3B6ekpSYnpnTW5fYmRlb29wbXVFQUFYSzRTbGY1dG1NOTVTVFNIaEVOS3A1TnZDNW44bGtieFc3VkRqdktfR2xPWk5ISUhQZndPcXJtOUZiSHlSMXQzbVBDSVcxQ2hjVkwwd3V5eU10RjNkSThyai1jSHJXSERvbEt2UXROcmZRUGloUUZ0VW1sNkFMVTdOUk5EZVNKeTBfZVHSAb8BQVVfeXFMUHQ4bHZxWWloaGV5NmVmQjNVbDFMZ3UwdTg0Nzh1QmxZNDNKejdIbzloWThUOVBQVVJvT2FuWFFhNnBKbDljQkhhdmJ3Q05zcGZfQnJhZlJ6V3J5MHhCUlhyMlhERGtndVlGeWhSdmItWFJCVTg3ejlIYVFhNnRBSlBnaGdLcWF5SDJSTzFHb2dtTkpxZUZGdFVlekd5WjUyb0ItcGZyYlBwOWtSV2M3VnB2ellsbVYtak1xMnI4Snc?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3hxTXVrdWFmSmV0LXM5a0JMNXZlbzJnMnIwbHJTOGVaV0JDYVcxX2lwaFNSa2hZQUVsN3NuYkstQllIOXhZTmVMbFNxMlVMakU1b0dOTUlBZkVZSVJOQmdqUUVSRDVSdkh1NHNLU0hqYTJCLTNNMl82QmMwMFg1UUcwS2VfSUV3bmxoV3pUUQ?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

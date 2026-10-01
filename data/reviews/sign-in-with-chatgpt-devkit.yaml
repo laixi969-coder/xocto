@@ -37,3 +37,45 @@
   usage_reason_en: 'Inference: developers may adopt it to reuse existing accounts and cut registration
     drop-off, but no public adoption, retention or payment evidence exists, so long-term workflow presence
     cannot be confirmed.'
+- id: req-initial-sign-in-with-chatgpt-devkit-2026-10-01
+  project_slug: sign-in-with-chatgpt-devkit
+  level: initial
+  reviewed_at: '2026-10-01T01:18:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“OpenAI 提供了一套把 ChatGPT 账号登录接入第三方应用的开发套件，含本地 SDK、React 组件与设计资源，开发者据此在自己的应用里加入登录入口”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 9 个收藏、3 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: OpenAI 提供了一套把 ChatGPT 账号登录接入第三方应用的开发套件，含本地 SDK、React 组件与设计资源，开发者据此在自己的应用里加入登录入口。它改变的是账号与身份的分发方式，具体权限范围与商用条款仍待核验。
+  job_en: OpenAI offers a developer kit that brings ChatGPT account sign-in into third-party apps, with
+    a local SDK, React components and design assets, so developers can add a login entry to their own
+    products. It changes how accounts and identity are distributed; permission scope and commercial terms
+    remain unverified.
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：OpenAI 提供了一套把 ChatGPT 账号登录接入第三方应用的开发套件，含本地 SDK、React 组件与设计资源，开发者据此在自己的应用里加入登录入口。它改变的是账号与身份的分发方式，具体权限范围与商用条款仍待核验。；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: OpenAI offers a developer kit that brings ChatGPT account sign-in into
+    third-party apps, with a local SDK, React components and design assets, so developers can add a login
+    entry to their own products. It changes how accounts and identity are distributed; permission scope
+    and commercial terms remain unverified. Public materials do not yet explain why users choose this
+    product over their existing approach.'

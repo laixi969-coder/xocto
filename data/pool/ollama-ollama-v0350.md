@@ -45,16 +45,16 @@ summary: "## Decision models\r\n\r\nOllama now supports decision models through 
   \ MLX model downloads hanging indefinitely.\r\n- Requests containing the deprecated `typical_p` parameter\
   \ now log a warning instead of failing.\r\n\r\n**Full Changelog:** https://github.com/ollama/ollama/compare/v0.34.4...v0.35.0"
 first_seen: '2026-09-28T21:23:22Z'
-last_seen: '2026-09-30T01:18:17Z'
-status: market_context
+last_seen: '2026-10-01T01:18:42Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.35.0
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    reactions: 26
+    reactions: 35
   kind: news
 ---
 

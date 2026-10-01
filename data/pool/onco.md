@@ -39,8 +39,8 @@ summary: 'OnCo: total information dominance on cancer. A public, cited knowledge
   a website, JSON API, MCP server and CLI: one page per cancer, treatment, target, trial, institution,
   person and idea, plain English first, solution and mechanism first.'
 first_seen: '2026-09-05T01:41:54Z'
-last_seen: '2026-09-29T01:58:05Z'
-status: watching
+last_seen: '2026-10-01T01:19:01Z'
+status: pending_filter
 sources:
 - github
 - newssearch
@@ -62,6 +62,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/28/interhuman-wants-to-teach-ai-what-humans-say-without-words/
   seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/uk-ai-kanishka-narayan-non-competes-garden-leave/
+  seen_at: '2026-10-01T01:19:01Z'
   metrics: {}
   kind: news
 ---

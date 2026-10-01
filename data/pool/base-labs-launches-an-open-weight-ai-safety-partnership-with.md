@@ -23,7 +23,7 @@ canonical_url: https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weig
 summary: Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods
   for training and monitoring open models.
 first_seen: '2026-09-17T17:15:59Z'
-last_seen: '2026-09-30T01:18:45Z'
+last_seen: '2026-10-01T01:19:01Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -61,6 +61,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/29/milan-based-biotech-aptadir-therapeutics-raises-45m-seed-round/
   seen_at: '2026-09-30T01:18:45Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/30/berlin-based-restate-raises-20m/
+  seen_at: '2026-10-01T01:19:01Z'
   metrics: {}
   kind: news
 ---

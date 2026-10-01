@@ -1,0 +1,12 @@
+- id: ev-d81a2f2766d568e9
+  project_slug: build-a-multi-agent-music-production-pipeline-on-amazon-bedr
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/
+  title: Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances
+  published_at: '2026-09-30T15:21:57Z'
+  collected_at: '2026-10-01T01:19:00Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure
+    with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music
+    production pipeline where the agents colocate on one GPU instance, share a filesystem, and hand work
+    to each other to produce a finished track.

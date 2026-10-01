@@ -20,17 +20,17 @@ url: https://frostyard.github.io/nsl/
 canonical_url: https://frostyard.github.io/nsl
 summary: WSL for Linux
 first_seen: '2026-09-29T14:51:36Z'
-last_seen: '2026-09-30T01:18:13Z'
+last_seen: '2026-10-01T01:18:38Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://frostyard.github.io/nsl/
-  seen_at: '2026-09-30T01:18:13Z'
+  seen_at: '2026-10-01T01:18:38Z'
   metrics:
-    points: 80
-    comments: 61
+    points: 161
+    comments: 101
   kind: product
 ---
 

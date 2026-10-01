@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -345,6 +345,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUDFUaXdrX0w2a3FQbGM4LThCZlppbGc1eTZzRzE1UlIxcVRJS01zSzlIcVhTNzhxMl9MbTBJXzlqZnNzSkZPdTN3SVYtMkFGMUstWGJiTjdHaFdjV1hLUS11eTd2dVJReUN1Xzl3ZGtDZ05uMjdhaENjYzM3TEFyTnFDS0QzaXZHQ1l2ZlEzQW9SUU16akpISlk4blViR2JxOEwwWTF1ejF6OHJDWGtmSkFEeHYxamlyeWZn?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/oura-ipo-delay-market-uncertainty/
+  seen_at: '2026-10-01T01:19:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDFoNDJqa0Z0dWFqckJuVE1HN1NtUmc0QmVnbVQ4b0RmMWNYd0NvVXdncDlWalp0WlZaUGFKY2FiVkNtd1NrdWtxd3RSZVc0Z0xidHppWWdoVERpaHQ3bWxUUWxGU3Z4RV9jY3ZlbjVTZnN5UTNzR1BuME9ZbnlzMUFWV2pPNmxWWENOY3VMSUZtZmo4SGdyU2RZandWOFM4dGM5VkpYektvQ2NFLXRNUzUydFQzTGs?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

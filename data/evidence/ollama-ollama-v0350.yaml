@@ -17,3 +17,22 @@
     label\": {\r\n        \"type\": \"choice\",\r\n        \"instructions\": \"Which label fits this ticket?\"\
     ,\r\n        \"criteria\": {\r\n          \"billing\": \"Payments and refunds\",\r\n          \"bug\"\
     : \"Software errors\",\r\n          \"account\": \"Login and account access\""
+- id: ev-fa028f953a75b649
+  project_slug: ollama-ollama-v0350
+  url: https://github.com/ollama/ollama/releases/tag/v0.35.0
+  title: 'ollama/ollama: v0.35.0'
+  published_at: '2026-09-28T21:23:22Z'
+  collected_at: '2026-10-01T01:18:42Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Decision models\r\n\r\nOllama now supports decision models through `/v1/systemone`, based\
+    \ on [TypeSafe’s Jev API](https://typesafe.ai).\r\n\r\nDecision models return choices, probabilities,\
+    \ and scores instead of text. Use them for tasks such as ticket triage, model routing, and content\
+    \ classification.\r\n\r\nAvailable models:\r\n- [**Nimble**](https://ollama.com/library/nimble) from\
+    \ Bespoke Labs\r\n- [**Tev1**](https://ollama.com/library/tev1) from Together AI\r\n\r\n```sh\r\n\
+    ollama pull nimble\r\n```\r\n\r\nSend context and one or more questions:\r\n\r\n```sh\r\ncurl http://localhost:11434/v1/systemone\
+    \ \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n    \"model\": \"nimble\",\r\n    \"\
+    state\": \"Our checkout has returned 500 errors since 9am.\",\r\n    \"questions\": {\r\n      \"\
+    label\": {\r\n        \"type\": \"choice\",\r\n        \"instructions\": \"Which label fits this ticket?\"\
+    ,\r\n        \"criteria\": {\r\n          \"billing\": \"Payments and refunds\",\r\n          \"bug\"\
+    : \"Software errors\",\r\n          \"account\": \"Login and account access\""

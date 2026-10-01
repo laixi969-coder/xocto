@@ -28,14 +28,20 @@ canonical_url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUEQyTVNUcVVh
 summary: 'China AI startup Manus pursues $500M fundraise; considers Hong Kong IPO after Meta split: report
   TradingView'
 first_seen: '2026-09-18T13:37:36Z'
-last_seen: '2026-09-20T00:09:53Z'
-status: watching
+last_seen: '2026-10-01T01:19:01Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUEQyTVNUcVVhd2hNRXU3UW1PRGt0d3E1RlIzR1VIVC1TaGdNcjBpU1ZPekJiT25PSVJqQkJJNEhmc3FqTkY1VFBkV0c5YWx2dHN6NlRIMVY0Si0tR0hYRDUzcmJXRVVwQ25uZldwTHJfWVp0cURTQkRPelU2M2JnMkR6NkVKT3ZzdW9lY0w4RWdvT3VabGx4Vi10Z1FuQkxWOTFvWExnXzBwTUFGc3lIeE9Ya29EemVWUlJTdEk5ak1wYmxuejBydHRSQnpVdHlxb1IxY2szYnkxTmlaYlMwVVBUdTdNWGZMekpabw?oc=5
   seen_at: '2026-09-20T00:09:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/499592.html
+  seen_at: '2026-10-01T01:19:01Z'
   metrics: {}
   kind: news
 ---

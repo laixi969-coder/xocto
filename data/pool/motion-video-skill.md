@@ -35,16 +35,16 @@ canonical_url: https://github.com/bestagentkits/motion-video-skill
 summary: Agent skill that produces beat-synced 1080p motion-graphic videos in HyperFrames (HTML + GSAP)
   with an AI voice-over, karaoke captions, SFX and generated music. MIT.
 first_seen: '2026-09-25T07:35:18Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bestagentkits/motion-video-skill
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 103
+    stars: 106
     forks: 34
     open_issues: 2
   kind: product

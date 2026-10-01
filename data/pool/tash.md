@@ -30,8 +30,8 @@ url: https://www.producthunt.com/products/tash
 canonical_url: https://producthunt.com/products/tash
 summary: The investment platform for trading cards
 first_seen: '2026-08-09T23:04:38Z'
-last_seen: '2026-09-03T14:36:52Z'
-status: rejected
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -50,6 +50,11 @@ sightings:
 - source: marketfeeds
   url: https://news.crunchbase.com/venture/global-funding-billion-dollar-deals-august-2026/
   seen_at: '2026-09-03T14:36:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOU3VMMHNkOTgzb3FFN0dSLWhoMnJ5X0ZkSUxQRDl2SElWSk9yZHNLNlN5SmJXOF9Hc0NDbTJsT1AwREFUTGZOSG9IaGRobE85NXB5MGRwSVlPZ2RzRmxQT3hxVkxRYS1Ddm1yRllMMnRqSkJtN0pjdjlxb1QwbERONGdVUWtTaFBfZDlDeFloQWs0YUw0RzVQZ2IxUWdEZUVNbkQyVGwxclFQM0trRFlzR01zcm1KNjhuVVFfVlFvSlVNdmhu?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

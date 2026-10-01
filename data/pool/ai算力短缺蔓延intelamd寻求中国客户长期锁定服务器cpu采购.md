@@ -23,8 +23,8 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWT
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWTlCZGdIRjZSeFVqV1Q3MWs3TzFuMENONGJJVFdNMGhscEVET1llOWphZ3dSY3NicGxTU1lnaUhlZDIwaS0xcFg1VUo2elBaLWhTNHFBTFpaZkdzc0ZjUmY?oc=5
 summary: AI算力短缺蔓延：Intel、AMD寻求中国客户长期锁定服务器CPU采购 新浪网
 first_seen: '2026-09-13T15:30:58Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-01T01:19:01Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -90,6 +90,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMic0FVX3lxTE5RbF9JbDNaYzRyTzdPdnFGYWNlcWUzc1ZzWUFLV2dndU9NamNsZHhXMGJpbWp6ZXNJMVhaanQ1SGRVZnhRS2h4VEZ6dXB5cVA0clhLa2ZpT1Q5c0J0emRmYlJYTmFJSHd2bTg0N1B6bFhHdEk?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/how-to-build-stress-intelligence-into-your-business-model-brnd/
+  seen_at: '2026-10-01T01:19:01Z'
   metrics: {}
   kind: news
 ---

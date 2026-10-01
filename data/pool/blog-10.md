@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-09-30T01:18:13Z'
+last_seen: '2026-10-01T01:18:38Z'
 status: rejected
 sources:
 - hackernews
@@ -46,6 +46,20 @@ sightings:
     points: 155
     comments: 56
   kind: news
+- source: hackernews
+  url: https://blog.tymscar.com/posts/hunchsemanticfind/
+  seen_at: '2026-10-01T01:18:38Z'
+  metrics:
+    points: 5
+    comments: 0
+  kind: product
+- source: hackernews
+  url: https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/
+  seen_at: '2026-10-01T01:18:38Z'
+  metrics:
+    points: 6
+    comments: 1
+  kind: product
 ---
 
 # blog

@@ -29,14 +29,20 @@ summary: Walmart says it won't change product prices based on your personal info
   writes that the company's switch to digital shelf labels is meant to save store associates time, rather
   than dynamically change prices. […]
 first_seen: '2026-09-28T16:44:57Z'
-last_seen: '2026-09-29T01:58:05Z'
-status: market_context
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels
   seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaWJtYzdlSHFPLUIxOTJIQVJLMnZ3d3BMZXdDc01kTVlFQnhhVXhQNHZwMUdPVENmckRDbFZaOGNhdkp1MXlFaXZtd3NvUUc4QU01bmttbE1wazJ5NEpOaVpJZ2wzT3VsTVFsc3JQV05VOEpUTWJJNno2ekM2MVFCVmhSTFR5UmJVVGlTMzRrbWRUS1pkMFBGYUJYYmd1blZCM0R5di1KdHBiUUQ2VFA5VGFjNDVWRVBXSDg2STBLVGZHS0h4TnJqNW1uazRzUEhvNk1WU01aV2dPUjg?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

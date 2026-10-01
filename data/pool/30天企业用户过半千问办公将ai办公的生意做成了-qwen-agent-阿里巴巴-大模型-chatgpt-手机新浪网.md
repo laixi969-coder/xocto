@@ -29,7 +29,7 @@ url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOMzhzUjBtYTRlMm1uemd5Rz
 canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOMzhzUjBtYTRlMm1uemd5RzJNM1hadS1uVWtqc2lHOWh3SWxpZ3hjNEZsdWI2NWhIelZnNjlzclpxVDdLeWpibTliM05PWDVUTXFoSmczNjFYU1F6NmlDV2V6NjlNR3F3bm1CdE9aRktCdjctMFRITkY1ZmhoMElUWVF6aXpJSGozUzhsT0pDZU03ZjFaVGc0LThBWnVDZk8xb09EVjA1bw?oc=5
 summary: 30天企业用户过半，千问办公将AI办公的生意做成了|Qwen|Agent|阿里巴巴|大模型|ChatGPT_手机新浪网 新浪财经
 first_seen: '2026-09-05T16:41:11Z'
-last_seen: '2026-09-07T15:53:24Z'
+last_seen: '2026-10-01T01:19:08Z'
 status: pending_filter
 sources:
 - newssearch
@@ -42,6 +42,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPZnJMYmx5OGI4dFhWSVdvZjBfZHZfSlktSGFIZlNqNk5GYmRnVFRHRzJ1dThCdkc5bjZoNlpGM1lnV2diOWZFU044Q18tWDRjWlJQc3Jn?oc=5
   seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE95MEZ2SHpFLWZuWWN3ZTFkeXAyR29NTWZIWHZLaDJJM0RNMV9udXExTTZocmhwc2hOYmJTZUNldHFUMDBTOUEwQmhNODRyVFFEd3R4NmYzWWU?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

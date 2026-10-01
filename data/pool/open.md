@@ -22,7 +22,7 @@ summary: Self-hosted AI visibility tracking (AEO / GEO / LLMO). Track how ChatGP
   Gemini and Google AI Overviews mention and cite your brand. One Go binary, SQLite, MCP-first, bring
   your own keys.
 first_seen: '2026-09-11T18:00:25Z'
-last_seen: '2026-09-30T01:18:45Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: rejected
 sources:
 - github
@@ -30,9 +30,9 @@ sources:
 sightings:
 - source: github
   url: https://limelit.co
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 144
+    stars: 145
     forks: 140
     open_issues: 6
   kind: product

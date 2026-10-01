@@ -1,7 +1,7 @@
 ---
 slug: from-portal-hopping-to-instant-answers-hemas-journey-with-mc
 name: HEMA
-builder: ''
+builder: aureianimus
 category: AI + 开发
 summary_zh: 零售企业的内部开发者过去要在多个门户之间跳转查找文档与配置，才能回答一个技术问题；HAL 接收这些分散的内部知识，在团队日常使用的工具里直接给出带权限管控的答案，客户端不持有云凭证，最终交付是一段可核对的回答，敏感操作仍需人工确认。
 inspiration: 趋势：百年零售企业把内部知识检索交给带权限边界的助手，说明非科技行业的旧流程正在被拆开重做。切入：面向有大量内部文档却缺少统一入口的中大型传统企业，按“接入几个知识源、覆盖多少团队”计价，而不是卖通用助手席位。
@@ -37,12 +37,13 @@ summary: HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping in
   HAL delivers governed knowledge inside the tools teams already use, with no AWS credentials on the client
   and security anchored in Microsoft Entra ID.
 first_seen: '2026-09-23T18:41:09Z'
-last_seen: '2026-09-29T01:58:05Z'
-status: queued
+last_seen: '2026-10-01T01:18:38Z'
+status: pending_filter
 sources:
 - officialfeeds
 - newssearch
 - marketfeeds
+- hackernews
 sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/
@@ -58,6 +59,13 @@ sightings:
   url: https://sifted.eu/articles/monzo-sale-reignites-britain-tech-exit-fears/
   seen_at: '2026-09-29T01:58:05Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://agmai.org/general-sep29/
+  seen_at: '2026-10-01T01:18:38Z'
+  metrics:
+    points: 76
+    comments: 98
   kind: news
 ---
 

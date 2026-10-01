@@ -24,8 +24,8 @@ url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBnTWNkTHh6Q1RIM0ZDOGFyWV
 canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBnTWNkTHh6Q1RIM0ZDOGFyWVhTODVpSTVQdkFSMHFtLWZ2elFWMlRvcVE0M2xUS1VsR3IwSzY5cTZYNTRLZ243eFM4NUtyTFh1NnNySElFaUlOelJvb2NUcFVRcU1kd0ItY2VxS0Y5Vm9NdmxKR1JPWUxZTlFPRkk?oc=5
 summary: 荣耀与阿里共建垂域 AI 模型，Magic9落地行业领先AI能力 新浪财经_金融信息服务商
 first_seen: '2026-09-22T13:14:23Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: market_context
+last_seen: '2026-10-01T01:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -47,6 +47,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPd3MxVWt5b0l2aFBqei03ZlB2V04waVdKenpRQnhWNWRYSnhHMjdGSy16X0liQVNsd1BWT2hqUVNFZERPVklrZm81WGNlSENuNmUwVmxNVUJyN0xZTEZqOWQzekxjdFVXTE9LYVp1aV9HeEdaY2phdkRHcUI5NXk3Sko2MEZLVHNwUUtCMHd5RQ?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMid0FVX3lxTE11OFR1OHJzTmlJbzFrZEZyaEJDdlQwdWZ1ZE9RdU5ZWV9MYXVheXJkMEpFQ3N0VUU0YWlpYm9qWVpMX1RRRXZ6TjJ6UHo5WnZSNGJCM2dueVd4d3ZhejFpeFZVZ0hzNDhydzFsaUVmYmFGTlhpal9R?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMib0FVX3lxTFAxdzYzb19ROHFMN3ZiT2JBM0ZmSDFCeTlETTJSdkFuZWh5R3lpMUlQZnI1VlNnM2huNUFmekFraWhGMUxmTG5rNjk1aXlmWlBGaUtCQzBEeTh3YWl6ZlQ1bndZWmRBTGdSSEVMdmpPbw?oc=5
+  seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
 ---

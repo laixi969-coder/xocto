@@ -33,17 +33,17 @@ canonical_url: https://github.com/weekitmo/herdr-pocket
 summary: 'A Flutter client for herdr: a status board and live terminal for the coding agents on your own
   machines. Over SSH, with no bridge binary to install.'
 first_seen: '2026-09-16T01:31:28Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/weekitmo/herdr-pocket
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
     stars: 45
-    forks: 4
+    forks: 5
     open_issues: 0
   kind: product
 ---

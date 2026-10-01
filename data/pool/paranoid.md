@@ -31,18 +31,18 @@ canonical_url: https://github.com/kulchankas/paranoid
 summary: 'Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running
   app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.'
 first_seen: '2026-09-15T13:53:39Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-10-01T01:18:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kulchankas/paranoid
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-10-01T01:18:42Z'
   metrics:
-    stars: 42
+    stars: 48
     forks: 3
-    open_issues: 4
+    open_issues: 5
   kind: product
 ---
 
