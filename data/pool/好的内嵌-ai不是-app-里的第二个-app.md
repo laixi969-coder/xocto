@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ELVFpSkk4ejNw
 summary: 好的内嵌 AI，不是 App 里的「第二个 App」 36 Kr
 first_seen: '2026-09-29T08:52:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

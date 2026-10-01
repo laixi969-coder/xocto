@@ -1,6 +1,6 @@
 ---
 slug: vercel-ai-ai-sdk-openai30123
-name: 'vercel/ai: @ai-sdk/openai@3.0.123'
+name: '@ai-sdk/openai'
 builder: vercel
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: '### Patch Changes
   - f56545c: feat(openai): add support for ultrafast service tier'
 first_seen: '2026-09-30T23:51:55Z'
 last_seen: '2026-10-01T01:18:42Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -36,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/openai@3.0.123
+# @ai-sdk/openai
 
 ### Patch Changes
 

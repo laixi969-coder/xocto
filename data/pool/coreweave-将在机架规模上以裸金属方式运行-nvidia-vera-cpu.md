@@ -1,6 +1,6 @@
 ---
 slug: coreweave-将在机架规模上以裸金属方式运行-nvidia-vera-cpu
-name: CoreWeave 将在机架规模上以裸金属方式运行 NVIDIA Vera CPU
+name: CoreWeave
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQOG01TFBhSk5D
 summary: CoreWeave 将在机架规模上以裸金属方式运行 NVIDIA Vera CPU Unite.AI
 first_seen: '2026-09-30T13:57:09Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# CoreWeave 将在机架规模上以裸金属方式运行 NVIDIA Vera CPU
+# CoreWeave
 
 CoreWeave 将在机架规模上以裸金属方式运行 NVIDIA Vera CPU Unite.AI
 

@@ -1,11 +1,15 @@
 ---
 slug: google-reportedly-tests-paying-publishers-for-ai-search-resu
-name: Google reportedly tests paying publishers for AI search results
+name: Google
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Google 启动试点，向约 100 家出版商支付其内容用于 AI 搜索功能的费用，背景是其 AI 功能对网站流量的冲击正受到审视。这一变化意味着 AI 搜索的答案供给开始需要向内容方付费，可能抬高
+  AI 搜索的内容成本并改变内容分发方的议价地位。
 inspiration: ''
-summary_en: ''
+summary_en: Google launched a pilot paying around 100 publishers for their contributions to its AI-powered
+  search features, amid scrutiny over the impact of its AI features on web traffic. This means AI search
+  answer supply may begin to require payments to content owners, potentially raising content costs for
+  AI search and shifting the bargaining position of content distributors.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +28,7 @@ summary: Google has launched a pilot program that pays publishers for their cont
   Digiday first reported on the pilot program, […]
 first_seen: '2026-09-30T14:51:49Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# Google reportedly tests paying publishers for AI search results
+# Google
 
 Google has launched a pilot program that pays publishers for their contributions to its AI-powered search features, according to a report from The Information. The pilot program reportedly includes around 100 publishers and comes as Google faces scrutiny over the impact of its AI features on web traffic. Digiday first reported on the pilot program, […]
 

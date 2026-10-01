@@ -213,3 +213,55 @@
     contracts and probes, asks, or halts before routing; the deliverable is structured intent input, while
     integration method and failure handling still need verification. Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-intent-router-2026-10-01
+  project_slug: intent-router
+  level: full
+  reviewed_at: '2026-10-01T01:54:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 agent 路由前模糊自然语言无法直接消费的问题，痛点在于误路由与不可判定输入，旧做法是手写 prompt 约束或直接透传。公开说明已能还原输入—探测/追问/中止—输出
+      IntentSpec 的闭环，属工作流结构推理；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-2fde9884c45490bc
+    - ev-8c0bae0ef68d12b2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 131 增至 441，说明开发者社区持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在路由工作流中；缺少 issue、discussion 或部署案例说明实际采用。
+    evidence_ids:
+    - ev-2fde9884c45490bc
+    - ev-8c0bae0ef68d12b2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或 to B/to C 路径，开源仓库本身也未显示商业条款；按判断，最可能的付费方是自建 agent 路由的团队或平台方，但这是推断而非已验证事实。
+    evidence_ids:
+    - ev-2fde9884c45490bc
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺在路由前探测、追问或中止并输出类型化契约，但缺少部署文档、失败处理说明与可复现测试，无法核对交付是否稳定发生及人工与安全边界如何划定。
+    evidence_ids:
+    - ev-8c0bae0ef68d12b2
+  next_validation: 追踪 Intent-Router 仓库的 README、部署文档与 issue/discussion，确认是否有团队在真实路由链路中接入、替代了哪种旧做法，以及探测/追问/中止的失败处理方式。
+  market: ''
+  job: 构建 agent 路由或决策模型的开发者，在接入用户请求时把模糊的自然语言输入交给 Intent-Router，由它转成带类型的 IntentSpec 契约，在路由前探测、追问或中止，最终拿到可直接喂给路由器的结构化意图输入。
+  job_en: Developers building agent routers or decision models hand vague natural-language requests to
+    Intent-Router, which converges them into typed IntentSpec contracts, probing, asking, or halting before
+    routing, so they get structured intent input that a router can consume.
+  pain: 公开说明指出输入是“模糊请求”，若直接路由会命中错误分支或让下游决策模型拿到不可判定的输入；不解决的后果是路由错误、追问缺失或该中止时继续执行，而这类失败在 agent 链路里代价高且难回溯。
+  pain_en: The public description states the input is a vague request; routing it directly can hit the
+    wrong branch or feed an undecidable input to downstream decision models. The consequence is misrouting,
+    missing clarification, or continuing when the system should halt — failures that are costly and hard
+    to trace in an agent chain.
+  current_alternative: 开发者目前通常自己在路由前手写 prompt 约束、正则或分类器做意图归一，或干脆把原始自然语言直接丢给路由器与决策模型，缺少统一的类型化契约与探测/追问/中止语义。
+  current_alternative_en: Developers today hand-write prompt constraints, regex, or classifiers to normalize
+    intent before routing, or simply pass raw natural language straight into the router and decision model,
+    without a unified typed contract or probe/ask/halt semantics.
+  usage_reason: 相较手写 prompt 约束或直接透传原始请求，它把“先探测、必要时追问、否则中止”固化为路由前的独立一层，并输出带类型的 IntentSpec，使下游路由器不必再自行处理歧义输入；因此正在搭建
+    agent 路由或决策模型、且被模糊输入困扰的开发者会在接入层选择它。此为基于产品能力与工作流结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with hand-written prompt constraints or passing raw requests through, it fixes
+    probe/ask/halt as a separate pre-routing layer and emits a typed IntentSpec, so downstream routers
+    no longer handle ambiguous input themselves. Developers building agent routers or decision models
+    and struggling with vague input would therefore adopt it at the ingestion layer. This is an inference
+    from product capability and workflow structure, not yet supported by user feedback.

@@ -21,7 +21,7 @@ canonical_url: https://setecastronomyinc.com/shield
 summary: I created a BGP-based blackhole system that you can set up in minutes
 first_seen: '2026-09-30T00:28:29Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

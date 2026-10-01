@@ -1,0 +1,85 @@
+- id: req-initial-webinarflow-2026-10-01
+  project_slug: webinarflow
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决重复宣讲耗时的问题，但公开材料只有一句口号，说不清替代了哪一步旧工作，也看不出不采用的代价。
+    evidence_ids:
+    - ev-cb9c24e89460620f
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页外没有用户评价、客户案例或采用迹象，无法判断是否有人真的把它放进工作流。
+    evidence_ids:
+    - ev-cb9c24e89460620f
+  - gate: model
+    status: insufficient
+    reason: 没有定价页，买方是市场团队、培训部门还是活动主办方均未披露，付费路径只能算猜测。
+    evidence_ids:
+    - ev-cb9c24e89460620f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它交付的是录制视频、自动问答还是直播代理，承诺能否确定性交付无从判断。
+    evidence_ids:
+    - ev-cb9c24e89460620f
+  next_validation: 收集 WebinarFlow 官方产品页或定价页，确认它实际交付的形态（录制、自动问答或直播代理）与计价方式。
+  market: ''
+  job: 市场或销售运营人员在企业需要反复做同一套线上路演或培训时，处理既有的讲稿和演示材料，要完成多场内容一致的宣讲。
+  job_en: Marketing or sales operations staff who must deliver the same online pitch or training repeatedly,
+    working from existing scripts and slide decks to produce multiple consistent sessions.
+  pain: 同一套内容要一遍遍真人讲，占用大量时间；但公开材料没有说明用户为此付出了什么代价、现在如何绕过，痛点强度无法确认。
+  pain_en: The same content must be delivered live again and again, consuming time; but public material
+    does not show what users currently pay for this or how they work around it, so pain intensity cannot
+    be confirmed.
+  current_alternative: 常见做法是真人重复开讲、录制回放，或用通用会议与直播工具加人工答疑。
+  current_alternative_en: Common alternatives are repeating live sessions, replaying recordings, or using
+    generic meeting and streaming tools with manual Q&A.
+  usage_reason: 推断：如果它真能把常规段落自动播放、只在关键处接入真人，就能省掉重复讲解这一步，适合场次多、内容高度重复的团队；但公开材料未说明交付形态，无法确认用户是否会因此选择它。
+  usage_reason_en: 'Inference: if it truly plays routine segments automatically and brings in a human
+    only at key moments, it removes the step of repeating the explanation, which suits teams with many
+    highly repetitive sessions; however the deliverable form is not public, so it is unclear whether users
+    would choose it for this reason.'
+- id: req-full-webinarflow-2026-10-01
+  project_slug: webinarflow
+  level: full
+  reviewed_at: '2026-10-01T01:56:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决重复宣讲耗时的问题，但公开材料只有一句口号，说不清替代了哪一步旧工作，也看不出不采用的代价。
+    evidence_ids:
+    - ev-cb9c24e89460620f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 WebinarFlow 官方产品页或定价页，确认它实际交付的形态（录制、自动问答或直播代理）与计价方式。
+  market: ''
+  job: 市场或销售运营人员、企业培训讲师在企业需要反复做同一套线上路演或培训时，处理既有讲稿与演示材料，要完成多场内容一致的宣讲。
+  job_en: Marketing or sales operations staff and corporate trainers who must deliver the same online
+    pitch or training repeatedly, working from existing scripts and slide decks to produce multiple consistent
+    sessions.
+  pain: 公开材料只有一句口号，未说明用户现在如何绕过重复宣讲、为此付出多少时间或成本，痛点强度与刚性无法从公开事实确认。
+  pain_en: Public material is limited to a single tagline and does not show how users currently work around
+    repeated live delivery or what it costs them, so pain intensity cannot be confirmed from public facts.
+  current_alternative: 常见做法是真人重复开讲、录制回放，或用通用会议与直播工具加人工答疑。
+  current_alternative_en: Common alternatives are repeating live sessions, replaying recordings, or using
+    generic meeting and streaming tools with manual Q&A.
+  usage_reason: 推断：若它真能把常规段落自动播放、只在关键处接入真人，就能省掉重复讲解这一步，适合场次多、内容高度重复的团队；但公开材料未说明交付形态，无法确认用户是否会因此选择它。
+  usage_reason_en: 'Inference: if it truly plays routine segments automatically and brings in a human
+    only at key moments, it removes the step of repeating the explanation, which suits teams with many
+    highly repetitive sessions; however the deliverable form is not public, so it is unclear whether users
+    would choose it for this reason.'

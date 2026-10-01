@@ -1,0 +1,89 @@
+- id: req-initial-mkay-2026-10-01
+  project_slug: mkay
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者离开电脑后无法向编码 agent 追加指令、任务中断的问题，旧做法是远程桌面或手动转发，痛点具体且可核对。
+    evidence_ids:
+    - ev-2c3b9888e1b73d13
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、采用规模或社区讨论，是否形成使用共识无法判断。
+    evidence_ids:
+    - ev-2c3b9888e1b73d13
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人开发者订阅还是团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2c3b9888e1b73d13
+  - gate: truth
+    status: insufficient
+    reason: 语音识别准确度、指令分派错误时的处理方式与人工确认边界均未说明，确定性交付无法核对。
+    evidence_ids:
+    - ev-2c3b9888e1b73d13
+  next_validation: 收集该产品的官方定价页与支持文档，确认它接入哪些编码 agent、按什么方式计费以及指令分派失败时的处理机制。
+  market: ''
+  job: 软件工程师在离开工位、只有手机的情况下，需要把新的修改要求或补充说明传达给正在运行的多个编码 agent，让它们继续推进任务。
+  job_en: A software engineer away from the desk with only a phone needs to pass new change requests or
+    clarifications to several running coding agents so they keep making progress.
+  pain: 编码 agent 通常挂在电脑上的终端或编辑器里，人一离开就无法查看进度或追加指令，任务容易停在半途。
+  pain_en: Coding agents usually live in a terminal or editor on the computer, so once the person leaves
+    they cannot check progress or add instructions, and tasks stall halfway.
+  current_alternative: 现在的做法是留在电脑前盯着，或用远程桌面、聊天工具手动把指令复制给某个 agent。
+  current_alternative_en: The current practice is to stay at the computer, or to use remote desktop and
+    chat tools to manually copy instructions to one agent.
+  usage_reason: 推断：相较远程桌面或逐个 agent 手动转发，它把语音指令直接分派到对应 agent，省掉打开终端、找到会话、粘贴指令这几步，因此经常需要离开工位又不想中断编码任务的开发者会尝试它；公开材料没有留存或复购证据，长期使用尚不能确认。
+  usage_reason_en: 'Inference: compared with remote desktop or manually forwarding to each agent, it routes
+    a spoken instruction straight to the right agent, skipping the steps of opening a terminal, finding
+    the session and pasting the command, so developers who often leave the desk but do not want to interrupt
+    coding work would try it; the public material has no retention or repeat-use evidence, so long-term
+    use cannot be confirmed.'
+- id: req-full-mkay-2026-10-01
+  project_slug: mkay
+  level: full
+  reviewed_at: '2026-10-01T01:54:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者离开电脑后无法向编码 agent 追加指令、任务中断的问题，旧做法是远程桌面或手动转发，痛点具体且可核对。
+    evidence_ids:
+    - ev-2c3b9888e1b73d13
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、采用规模或社区讨论，是否形成使用共识无法判断。
+    evidence_ids:
+    - ev-2c3b9888e1b73d13
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人开发者订阅还是团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2c3b9888e1b73d13
+  - gate: truth
+    status: insufficient
+    reason: 语音识别准确度、指令分派错误时的处理方式与人工确认边界均未说明，确定性交付无法核对。
+    evidence_ids:
+    - ev-2c3b9888e1b73d13
+  next_validation: 收集该产品的官方定价页与支持文档，确认它接入哪些编码 agent、按什么方式计费以及指令分派失败时的处理机制。
+  market: ''
+  job: 软件工程师在离开工位、手边只有手机的情况下，需要把新的修改要求或补充说明传达给正在运行的多个编码 agent，让它们继续推进任务。
+  job_en: A software engineer away from the desk with only a phone needs to pass new change requests or
+    clarifications to several running coding agents so they keep making progress.
+  pain: 编码 agent 通常挂在电脑上的终端或编辑器里，人一离开就无法查看进度或追加指令，任务容易停在半途；多个 agent 并行时还要逐个找到对应会话。
+  pain_en: Coding agents usually live in a terminal or editor on the computer, so once the person leaves
+    they cannot check progress or add instructions, and tasks stall halfway; with several agents running
+    in parallel, each session must be located individually.
+  current_alternative: 现在的做法是留在电脑前盯着，或用远程桌面、聊天工具手动把指令复制给某个 agent。
+  current_alternative_en: The current practice is to stay at the computer, or to use remote desktop and
+    chat tools to manually copy instructions to one agent.
+  usage_reason: 推断：相较远程桌面或逐个 agent 手动转发，它把语音指令直接分派到对应 agent，省掉打开终端、找到会话、粘贴指令这几步，因此经常需要离开工位又不想中断编码任务的开发者会尝试它；公开材料没有留存或复购证据，长期使用尚不能确认。
+  usage_reason_en: 'Inference: compared with remote desktop or manually forwarding to each agent, it routes
+    a spoken instruction straight to the right agent, skipping the steps of opening a terminal, finding
+    the session and pasting the command, so developers who often leave the desk but do not want to interrupt
+    coding work would try it; the public material has no retention or repeat-use evidence, so long-term
+    use cannot be confirmed.'

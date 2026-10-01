@@ -235,3 +235,53 @@
     and maintaining a script, so Iranian-market selectors or buyers with a specific query may try it first;
     public material still lacks user feedback, pricing or repeat-use evidence, so the motive is structural
     inference, not fact.'
+- id: req-full-digikala-mcp-2026-10-01
+  project_slug: digikala-mcp
+  level: full
+  reviewed_at: '2026-10-01T01:53:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Digikala 无开放接口下查价要人工翻页抄录、易漏竞品的需求，价格核对在选品采购中反复发生，不解决则持续耗人工并可能误判定价；只读交付边界清楚，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-d504e615bc683f7d
+    - ev-fbb106ad98b18b9a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 114 升至 129 只说明开发者关注度在增长，属规模与关注度证据；公开材料没有 issue、discussion、评价或采用案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-d504e615bc683f7d
+    - ev-3007c83d1e253d6c
+  - gate: model
+    status: insufficient
+    reason: 项目开源免费、无定价页，公开材料未披露买方与付费路径；可能来自开发者自用或 to B 集成，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-d504e615bc683f7d
+  - gate: truth
+    status: insufficient
+    reason: 只读查询不涉及交易与资金，安全边界清楚；但数据来源合法性、Digikala 平台条款与抓取稳定性未在公开材料说明，交付确定性仍待核验。
+    evidence_ids:
+    - ev-d504e615bc683f7d
+    - ev-fbb106ad98b18b9a
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有真实用户报告用它完成 Digikala 选品或采购比价任务，以及是否出现数据源或平台条款相关反馈。
+  market: ''
+  job: 做伊朗市场选品或采购的人，在需要确认某类商品在 Digikala 上的在售价与同类竞品时，让 AI 助手调用该只读 MCP 服务器的 16 个工具完成搜索、比价和取价，拿到商品与价格清单后自行判断是否下单。
+  job_en: People doing product selection or procurement for the Iranian market ask an AI assistant to
+    call this read-only MCP server's 16 tools to search, compare and retrieve prices when they need current
+    Digikala listings and competing offers, then decide themselves whether to buy.
+  pain: Digikala 没有面向外部开发者的开放接口，逐页翻站抄价慢且容易漏掉竞品，而价格核对在选品和采购中反复发生；不解决就要持续投入人工翻页时间，并承担漏看竞品导致定价判断偏差的后果。
+  pain_en: Digikala offers no open interface for outside developers, so copying prices page by page is
+    slow and easily misses competing listings, and this price check recurs in selection and procurement;
+    not solving it means ongoing manual paging time and the risk of mispricing from missed competitors.
+  current_alternative: 人工浏览 Digikala 网页并手工记录价格，或自行编写爬虫脚本抓取。
+  current_alternative_en: Browsing Digikala pages manually and recording prices by hand, or writing one's
+    own scraping script.
+  usage_reason: 推断：相较手工翻页或自写爬虫，它以免 API key 的只读 MCP 服务器把搜索、比价、取价合并为一次工具调用，省掉逐页抄录和自建抓取脚本这两步，因此有明确查询目标的伊朗市场选品或采购者会直接接入
+    AI 助手使用；公开材料尚无用户反馈或重复使用证据，该动机属结构推理。
+  usage_reason_en: 'Inference: compared with manual paging or self-written scrapers, this read-only, no-API-key
+    MCP server merges search, comparison and price retrieval into one tool call, removing both page-by-page
+    copying and building a scraper, so Iranian-market selectors or buyers with a specific query would
+    plug it into an AI assistant; public material still lacks user feedback or repeat-use evidence, so
+    this motive is structural reasoning.'

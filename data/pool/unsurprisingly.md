@@ -3,11 +3,11 @@ slug: unsurprisingly
 name: Meta Muse
 builder: dkobia
 category: ''
-summary_zh: 该候选指向 Meta 的 AI 代理 Muse 被指无视用户权限设置，属于平台级代理产品的权限与合规争议，而非一个可独立评估的垂直产品。
+summary_zh: 这是 Meta 推出的 AI 代理 Muse，公开报道称其在执行任务时会无视用户设定的授权限制。报道未说明它面向哪类用户、在什么工作节点被打开、处理什么材料、交付什么结果，具体流程与交付仍待核验。
 inspiration: ''
-summary_en: The candidate concerns Meta's AI agent Muse being reported to ignore user permission settings,
-  a permission and compliance dispute around a platform-level agent rather than an independently assessable
-  vertical product.
+summary_en: Meta Muse is an AI agent from Meta; public reporting claims it ignores the permission limits
+  users set while carrying out tasks. The report does not say which users open it, at what work step,
+  on what material, or what it delivers, so the concrete workflow and output remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ canonical_url: https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-bla
 summary: Meta's new Muse AI agent blatantly ignores users permissions
 first_seen: '2026-09-29T14:15:24Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

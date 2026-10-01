@@ -1,0 +1,91 @@
+- id: req-initial-exclusive-sequoia-backed-juicebox-lands-in-london-to-take-on-2026-10-01
+  project_slug: exclusive-sequoia-backed-juicebox-lands-in-london-to-take-on
+  level: initial
+  reviewed_at: '2026-10-01T01:19:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有投资方与扩张动作，价值关无法成立。
+    evidence_ids:
+    - ev-4a2d423c20976446
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何场景或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-4a2d423c20976446
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无公开信息。
+    evidence_ids:
+    - ev-4a2d423c20976446
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-4a2d423c20976446
+  next_validation: 收集 Juicebox 官方产品页或定价页，确认其服务的具体招聘场景、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务，无法还原具体工作节点。
+  job_en: Public material does not say who uses it, in what situation, with what material, or to finish
+    what task, so the work step cannot be reconstructed.
+  pain: 候选未提供任何用户痛点、抱怨或旧流程描述，无法判断痛点是否存在及其强度。
+  pain_en: The candidate offers no user pain, complaint or legacy-workflow description, so the existence
+    and intensity of any pain cannot be judged.
+  current_alternative: 仅知其对标 Jack & Jill，但未说明旧做法具体由谁、用什么工具、花多久完成。
+  current_alternative_en: It is only known to position against Jack & Jill; who did the old work, with
+    what tools and how long it took is not stated.
+  usage_reason: 缺少功能、定价与用户反馈，无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果；此处不作推断。
+  usage_reason_en: With no features, pricing or user feedback, there is no basis to explain which step's
+    burden it removes or which checkable result it improves; no inference is made here.
+- id: req-full-exclusive-sequoia-backed-juicebox-lands-in-london-to-take-on-2026-10-01
+  project_slug: exclusive-sequoia-backed-juicebox-lands-in-london-to-take-on
+  level: full
+  reviewed_at: '2026-10-01T01:53:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决招聘方在人才库中检索匹配候选人并完成个性化外联的需求，痛点是手工筛选与逐条撰写外联耗时且回复率低；官方页面明确自述“找到合适的人比以往更难”并称外联带来 3 倍回复，输入（岗位条件）、动作（检索+生成外联）、交付（候选人名单与触达内容）闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-6f8e4f6dff9dfc6e
+    - ev-f69de47113e0ecbd
+  - gate: consensus
+    status: insufficient
+    reason: 官方页面给出产品定位与外联回复倍数，但未提供任何客户案例、用户评价或采用规模，无法判断招聘团队是否真在具体场景中打开它，共识卡在场景证据缺失这一环。
+    evidence_ids:
+    - ev-6f8e4f6dff9dfc6e
+    - ev-f69de47113e0ecbd
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、收费方式与买方类型，只能推断钱可能来自使用该平台的招聘团队或企业 to B 订阅，这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-f69de47113e0ecbd
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺自动化全流程 sourcing 并带来 3 倍回复，但无部署文档、实测或人工复核边界说明，无法核对交付是否确定性发生以及候选人数据来源与合规边界。
+    evidence_ids:
+    - ev-f69de47113e0ecbd
+  next_validation: 追踪 Juicebox 官网定价页与客户案例页，确认其收费方式、买方类型及是否有公开的招聘团队使用案例。
+  market: ''
+  job: 招聘团队（技术招聘官或 sourcing 专员）在需要为某个岗位快速找到候选人时，打开 Juicebox 输入岗位要求与筛选条件，让系统在人才库中检索匹配候选人并生成个性化外联消息，最终产出可发送的候选人名单与触达内容。
+  job_en: A recruiting team (technical recruiter or sourcing specialist) needing to fill a role opens
+    Juicebox, enters the role requirements and filters, has the system search the talent pool for matching
+    candidates and generate personalized outreach, and ends up with a sendable candidate list and outreach
+    copy.
+  pain: 官方页面自述“找到合适的人比以往更难”，招聘方需要在海量候选人中反复手工筛选并逐条撰写外联，这一检索与初筛环节耗时且回复率低；痛点来自招聘工作流本身的结构性负担，而非用户原话。
+  pain_en: The official page states that landing the right hire is harder than ever; recruiters must repeatedly
+    hand-filter large candidate pools and write outreach one by one, making search and first-pass screening
+    slow with low reply rates. The pain is structural to the recruiting workflow, not a user quote.
+  current_alternative: 旧做法是招聘人员在 LinkedIn、内部 ATS 或人才库中手工输入关键词逐页筛选，再逐个复制资料撰写外联邮件；候选材料仅提到它对标 Jack & Jill，未说明旧流程的具体耗时。
+  current_alternative_en: The legacy approach is manual keyword paging through LinkedIn, an internal ATS
+    or talent pool, then copying profiles one by one to write outreach emails; the material only says
+    it positions against Jack & Jill and gives no timing for the old process.
+  usage_reason: 推断：相较手工逐页筛选加逐条写外联，Juicebox 把候选人检索与个性化外联合并到一次操作中，官方称外联可带来 3 倍回复，减少的是“筛完再单独写触达”这一步的重复劳动；因此当招聘团队需要在短时间内铺开某岗位候选人触达时会选择它。该因果为基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus manual paging plus writing outreach one by one, Juicebox merges
+    candidate search and personalized outreach into one action and claims 3x more replies, removing the
+    repeated labor of writing outreach separately after screening; a recruiting team needing to reach
+    candidates for a role at short notice would therefore choose it. This causal claim is inferred from
+    product capability, not user feedback.'

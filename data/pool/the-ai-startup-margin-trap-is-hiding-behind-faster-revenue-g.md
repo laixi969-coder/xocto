@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOTExSZU9tSFNj
 summary: The AI Startup Margin Trap Is Hiding Behind Faster Revenue Growth investingLive
 first_seen: '2026-09-29T11:44:24Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

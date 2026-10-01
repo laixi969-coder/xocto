@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/google/2026/09/google-announces-gemini-4-
 summary: So much for Gemini 3.5 Pro.
 first_seen: '2026-09-30T20:11:08Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: cygnetone-and-the-unlimited-modernize-core-insurance-platfor
-name: Cygnet.One and The Unlimited Modernize Core Insurance Platform on Microsoft Azure
+name: Cygnet.One
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Cygnet.One and The Unlimited Modernize Core Insurance Platform on Micro
   Australia
 first_seen: '2026-09-30T06:50:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Cygnet.One and The Unlimited Modernize Core Insurance Platform on Microsoft Azure
+# Cygnet.One
 
 Cygnet.One and The Unlimited Modernize Core Insurance Platform on Microsoft Azure Yahoo Finance Australia
 

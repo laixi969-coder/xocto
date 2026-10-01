@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fb3A3elhKSjRa
 summary: OpenAI智能体产品亟待追赶行业步伐-人工智能 至顶网
 first_seen: '2026-09-30T07:50:45Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

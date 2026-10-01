@@ -1,6 +1,6 @@
 ---
 slug: 英飞凌推双相智慧功率级产品-为ai加速器与垂直供电树立全新功率基准
-name: 英飞凌推双相智慧功率级产品 为AI加速器与垂直供电树立全新功率基准
+name: 英飞凌双相智慧功率级
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE84ZkFlUmhuWnVn
 summary: 英飞凌推双相智慧功率级产品 为AI加速器与垂直供电树立全新功率基准 ctimes.com.tw
 first_seen: '2026-09-29T09:23:21Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 英飞凌推双相智慧功率级产品 为AI加速器与垂直供电树立全新功率基准
+# 英飞凌双相智慧功率级
 
 英飞凌推双相智慧功率级产品 为AI加速器与垂直供电树立全新功率基准 ctimes.com.tw
 

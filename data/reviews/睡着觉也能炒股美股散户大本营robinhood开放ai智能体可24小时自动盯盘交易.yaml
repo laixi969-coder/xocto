@@ -1,0 +1,91 @@
+- id: req-initial-睡着觉也能炒股美股散户大本营robinhood开放ai智能体可24小时自动盯盘交易-2026-10-01
+  project_slug: 睡着觉也能炒股美股散户大本营robinhood开放ai智能体可24小时自动盯盘交易
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决散户无法持续盯盘、错过预设买卖点的问题，旧行为是人工挂单与条件单，痛点刚性且交付为已执行交易。
+    evidence_ids:
+    - ev-abff0342f0ff2461
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有开放智能体这一事实，没有采用规模或用户反馈，共识强度未明。
+    evidence_ids:
+    - ev-abff0342f0ff2461
+  - gate: model
+    status: insufficient
+    reason: 推断：钱可能来自券商佣金与订阅，但公开材料未披露该功能的定价，属判断而非已验证事实。
+    evidence_ids:
+    - ev-abff0342f0ff2461
+  - gate: truth
+    status: challenged
+    reason: 自动下单贴近交易第一性目标，但公开材料未说明权限边界、风控与人工确认，交付确定性存疑。
+    evidence_ids:
+    - ev-abff0342f0ff2461
+  next_validation: 收集 Robinhood 官方关于该 AI 智能体的产品说明与权限、风控文档，核验其下单边界与人工确认机制。
+  market: ''
+  job: 散户投资者在上班、睡觉等无法盯盘的时段，依据自己设定的价格或指标条件，让智能体监控行情并自动完成买卖下单。
+  job_en: Retail investors who cannot watch the market while working or sleeping let the agent monitor
+    quotes and place buy and sell orders based on their own price or indicator conditions.
+  pain: 行情在非交易时段或工作时段波动，人工盯盘会错过预设的买卖点，手动挂单又难以覆盖多标的与多条件。
+  pain_en: The old approach is manual watching, limit and stop orders, or third-party conditional-order
+    and quant scripts.
+  current_alternative: 旧做法是人工盯盘、设置限价单与止损单，或使用第三方条件单与量化脚本。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：相较人工挂单，智能体把条件判断与下单执行合并为一次持续运行的动作，减少了用户逐笔盯盘和手动改单的步骤，因此无法持续盯盘的散户会在有明确交易条件时选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus manual order placement, the agent merges condition evaluation and
+    order execution into one continuously running action, cutting the steps of watching each tick and
+    manually amending orders, so retail users who cannot watch continuously would choose it when they
+    have explicit trading conditions; public material offers no retention or repeat-use evidence.'
+- id: req-full-睡着觉也能炒股美股散户大本营robinhood开放ai智能体可24小时自动盯盘交易-2026-10-01
+  project_slug: 睡着觉也能炒股美股散户大本营robinhood开放ai智能体可24小时自动盯盘交易
+  level: full
+  reviewed_at: '2026-10-01T01:56:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决散户无法持续盯盘、错过预设买卖点的问题，旧行为是人工挂单与条件单，痛点刚性且交付为已执行交易；但公开材料未说明智能体的权限边界与人工确认环节，交付确定性仍属结构推理。
+    evidence_ids:
+    - ev-7e97ad966d6b8f42
+    - ev-9e74444208413200
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 Robinhood 作为零售券商提供免佣交易与高级工具这一事实，没有该 AI 智能体的采用规模、用户反馈或持续使用证据，共识强度未明。
+    evidence_ids:
+    - ev-7e97ad966d6b8f42
+    - ev-9e74444208413200
+  - gate: model
+    status: insufficient
+    reason: 推断：钱可能来自券商佣金、订单流收入或订阅，但公开材料未披露该智能体功能的定价，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7e97ad966d6b8f42
+    - ev-ddf110ba3a306f26
+  - gate: truth
+    status: challenged
+    reason: 自动下单贴近交易第一性目标，但公开材料未说明权限边界、风控与人工确认，交付确定性存疑。
+    evidence_ids:
+    - ev-7e97ad966d6b8f42
+  next_validation: 收集 Robinhood 官方关于该 AI 智能体的产品说明与权限、风控文档，核验其下单边界与人工确认机制。
+  market: ''
+  job: 无法在盘中持续盯盘的散户投资者，在上班、睡觉等时段，把自己设定的价格或指标条件交给 Robinhood 的 AI 智能体，由它监控行情并自动完成买卖下单，最终拿到已执行的交易记录。
+  job_en: Retail investors who cannot watch the market continuously hand their own price or indicator
+    conditions to Robinhood's AI agent during work or sleep hours, letting it monitor quotes and place
+    buy and sell orders, ending with executed trade records.
+  pain: 行情在工作时段或非交易时段波动，人工盯盘会错过预设买卖点；手动挂单与改单难以同时覆盖多标的、多条件，这是散户长期存在的执行缺口。
+  pain_en: Prices move during work and off-hours, so manual watching misses preset entry and exit points;
+    manual orders and amendments cannot cover multiple tickers and conditions at once, a long-standing
+    execution gap for retail traders.
+  current_alternative: 旧做法是人工盯盘、设置限价单与止损单，或使用第三方条件单与量化脚本。
+  current_alternative_en: The old approach is manual watching, limit and stop orders, or third-party conditional-order
+    and quant scripts.
+  usage_reason: 推断：相较人工挂单，智能体把条件判断与下单执行合并为一次持续运行的动作，减少用户逐笔盯盘和手动改单的步骤，因此无法持续盯盘的散户在有明确交易条件时会选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus manual order placement, the agent merges condition evaluation and
+    order execution into one continuously running action, cutting the steps of watching each tick and
+    manually amending orders, so retail users who cannot watch continuously would choose it when they
+    have explicit trading conditions; public material offers no retention or repeat-use evidence.'

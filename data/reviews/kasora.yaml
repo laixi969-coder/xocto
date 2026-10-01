@@ -1,0 +1,95 @@
+- id: req-initial-kasora-2026-10-01
+  project_slug: kasora
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决判断未来几个月现金流是否撑得住的需求，但公开材料只有一句功能描述，说不清旧流程中谁在做哪一步、不做的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-a90e810a004aac37
+  - gate: consensus
+    status: insufficient
+    reason: 帖子仅 6 分、2 条评论，属于关注度而非采用证据，无法判断是否卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-a90e810a004aac37
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to C 还是其他路径均无法判断，这是未知而非已验证事实。
+    evidence_ids:
+    - ev-a90e810a004aac37
+  - gate: truth
+    status: insufficient
+    reason: 无法核对推演假设是否透明、结果是否可复现、数据是否留在本地，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-a90e810a004aac37
+  next_validation: 收集 Kasora 官方页面或说明文档，确认其推演逻辑、是否使用 AI 模型、数据处理方式与是否公布定价。
+  market: ''
+  job: 有房贷、育儿或换工作等大额支出安排的个人，在需要判断未来若干月现金流是否撑得住时，把收入、固定支出和一次性支出录入浏览器工具，逐月推演余额变化，得到一张可自行调整假设的月度资金曲线。
+  job_en: Individuals facing large outlays such as a mortgage, childcare or a job change who, when judging
+    whether cash flow holds over coming months, enter income, fixed costs and one-off expenses into a
+    browser tool, simulate month by month, and get a monthly balance curve whose assumptions they can
+    adjust.
+  pain: 公开材料只有一句功能描述，没有说明用户此前在哪一步出错或焦虑，也没有抱怨、求助或替代行为的记录，痛点强度无法判断。
+  pain_en: Public material offers only a one-line feature description; it does not say where users previously
+    erred or felt anxious, and there is no record of complaints, help-seeking or workarounds, so pain
+    intensity cannot be judged.
+  current_alternative: 可推断的旧做法是用电子表格手工列收支、或使用记账类应用回看历史流水；这是推断，公开材料未描述替代对象。
+  current_alternative_en: The inferable old practice is manually listing income and expenses in a spreadsheet,
+    or using bookkeeping apps that review past transactions; this is inference, as the material does not
+    describe what it replaces.
+  usage_reason: 若逐月推演能省掉在表格里手工搭公式和反复改假设这一步，面临大额支出的个人会在做决定前选择它；但公开材料未说明它具体减少了哪一步，也没有用户反馈支持，属于推断。
+  usage_reason_en: If month-by-month simulation removes the step of hand-building spreadsheet formulas
+    and repeatedly editing assumptions, individuals facing large outlays would choose it before deciding;
+    however, the material does not say which step it removes and no user feedback supports this, so it
+    is inference.
+- id: req-full-kasora-2026-10-01
+  project_slug: kasora
+  level: full
+  reviewed_at: '2026-10-01T01:54:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决大额支出前判断未来数月现金流是否撑得住的需求，痛点是表格手工搭公式、反复改假设易错且难预判余额低点；不采用可能低估缺口被迫临时借贷。免注册浏览器逐月推演可确定交付，属工作流结构推理。
+    evidence_ids:
+    - ev-a90e810a004aac37
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句功能描述，没有用户评价、讨论或采用记录，无法判断用户是否卡在感知、想象、场景或利益环节；免注册降低试用门槛只是结构推断。
+    evidence_ids:
+    - ev-a90e810a004aac37
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to C 订阅还是其他路径均无法判断；免注册说明获客门槛低，但谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-a90e810a004aac37
+  - gate: truth
+    status: insufficient
+    reason: 无法核对推演假设是否透明、结果是否可复现、数据是否留在本地，也未说明是否使用 AI 模型；承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-a90e810a004aac37
+  next_validation: 追踪 Kasora 官网的说明文档或定价页，确认其推演逻辑、数据处理方式与是否公布收费方案。
+  market: ''
+  job: 有房贷、育儿或换工作等大额支出安排的个人，在需要判断未来若干月现金流是否撑得住时，把收入、固定支出和一次性支出录入浏览器工具，逐月推演余额变化，得到一张可自行调整假设的月度资金曲线。
+  job_en: Individuals facing large outlays such as a mortgage, childcare or a job change who, when judging
+    whether cash flow holds over coming months, enter income, fixed costs and one-off expenses into a
+    browser tool, simulate month by month, and get a monthly balance curve whose assumptions they can
+    adjust.
+  pain: 大额支出前，未来数月的余额低点难以预判；用表格手工搭公式、反复改假设既费时又容易算错，一旦低估某月缺口，可能被迫临时借贷或打乱安排。
+  pain_en: Before a large outlay, the low point of the balance over coming months is hard to foresee;
+    hand-building spreadsheet formulas and repeatedly editing assumptions is slow and error-prone, and
+    underestimating a monthly shortfall can force emergency borrowing or disrupt plans.
+  current_alternative: 用电子表格手工列收支并逐月推算，或使用记账类应用回看历史流水；前者费公式、后者偏回顾而非前瞻推演。
+  current_alternative_en: Manually listing income and expenses in a spreadsheet and projecting month by
+    month, or using bookkeeping apps that review past transactions; the former is formula-heavy, the latter
+    is backward-looking rather than forward simulation.
+  usage_reason: 推断：相较表格手工搭公式，它把逐月余额推演做成可直接改假设的浏览器工具，省掉建公式与重算这一步，且无需注册即可开始；因此面临大额支出、想先试算再决定的个人会在做决定前选择它。公开材料未提供用户反馈，动机为结构推断。
+  usage_reason_en: 'Inference: compared with hand-building spreadsheet formulas, it turns month-by-month
+    balance projection into a browser tool whose assumptions can be edited directly, removing the step
+    of building formulas and recalculating, and it starts without sign-up; so individuals facing a large
+    outlay who want to test scenarios before deciding would choose it. No user feedback is provided, so
+    the motive is structural inference.'

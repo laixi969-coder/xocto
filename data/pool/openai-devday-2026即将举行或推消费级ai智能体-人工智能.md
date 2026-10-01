@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE04QWZ6ZllIdWpu
 summary: OpenAI DevDay 2026即将举行，或推消费级AI智能体-人工智能 至顶网
 first_seen: '2026-09-30T10:51:59Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

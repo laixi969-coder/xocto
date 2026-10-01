@@ -1,6 +1,6 @@
 ---
 slug: optical-ai-chip-startup-cscale-emerges-from-stealth-with-145
-name: Optical AI chip startup CScale emerges from stealth with $145M funding
+name: CScale
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0VCM25pZDJl
 summary: Optical AI chip startup CScale emerges from stealth with $145M funding techfundingnews.com
 first_seen: '2026-09-30T13:04:40Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Optical AI chip startup CScale emerges from stealth with $145M funding
+# CScale
 
 Optical AI chip startup CScale emerges from stealth with $145M funding techfundingnews.com
 

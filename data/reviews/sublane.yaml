@@ -78,3 +78,54 @@
   usage_reason: 用户要完成的任务是：企业IT管理员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Enterprise IT administrators Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-sublane-2026-10-01
+  project_slug: sublane
+  level: full
+  reviewed_at: '2026-10-01T01:55:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人共用公司AI订阅时的账号池化、按人授权与用量归集需求，痛点是凭据散落、权限无法按人收回、成本无法分摊到人；公开仓库已说明账号池、访问控制与用量追踪三项能力，旧做法为共享密码或人工台账，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+    - ev-7d8afe3a157d3933
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从67升至71，说明有开发者关注，但公开材料没有issue、discussion或客户案例显示目标团队已把它放进日常流程；关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+    - ev-7d8afe3a157d3933
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购路径，无法判断收入来自企业自托管授权、支持服务还是其他方式；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+  - gate: truth
+    status: insufficient
+    reason: 自托管部署流程、账号接入的合规边界（是否违反上游订阅条款）以及用量记录能否稳定交付，公开仓库说明中均未给出可复现证据。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+    - ev-7d8afe3a157d3933
+  next_validation: 追踪SubLane仓库的README、部署文档与issue/discussion，确认是否有团队公开描述实际部署场景、替代的旧流程及账号接入的合规处理方式。
+  market: ''
+  job: 企业内部IT或团队负责人把公司已采购的多个AI订阅账号（如ChatGPT、Claude等）接入SubLane，在自托管环境里把账号集中成池、按成员分配访问权限，并输出每人用量与权限记录，用于内部成本分摊与合规审计。
+  job_en: An internal IT owner or team lead connects the company's multiple purchased AI subscription
+    accounts into SubLane, pools them in a self-hosted deployment, assigns per-member access rights, and
+    produces per-person usage and permission records for internal cost allocation and compliance review.
+  pain: 公开仓库说明只支持账号池化、访问控制与用量追踪，未提供用户抱怨或案例；从工作流结构推断，痛点是多人共用订阅时账号凭据散落、权限无法按人收回、用量无法归集到人，导致成本分摊与合规审计只能靠人工台账。
+  pain_en: The public repository only describes account pooling, access control and usage tracking, with
+    no user complaints or cases; inferred from workflow structure, the pain is that shared subscriptions
+    leave credentials scattered, permissions cannot be revoked per person, and usage cannot be attributed
+    to individuals, so cost allocation and compliance auditing rely on manual logs.
+  current_alternative: 公开材料未说明现有做法；结构上可推断的替代是共享账号密码、人工Excel台账、或直接为每人单独购买订阅，这些方式都无法按人回收权限或自动归集用量。
+  current_alternative_en: Public materials do not describe current practice; structurally inferable alternatives
+    are sharing account passwords, manual spreadsheets, or buying a separate subscription per person,
+    none of which can revoke access per person or aggregate usage automatically.
+  usage_reason: 推断：相较共享密码或人工台账，SubLane通过自托管网关把多个订阅账号统一接入、按人发放访问凭证并自动记录每人调用量，省去人工统计与逐个改密码的步骤，因此需要内部成本分摊或权限审计的团队会在多人共用AI订阅时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with shared passwords or manual logs, SubLane uses a self-hosted
+    gateway to connect multiple subscription accounts, issue per-person access credentials and automatically
+    record per-person call volume, removing manual tallying and password rotation; teams needing internal
+    cost allocation or permission auditing would choose it when several people share AI subscriptions,
+    though public materials contain no user feedback confirming this motive.'

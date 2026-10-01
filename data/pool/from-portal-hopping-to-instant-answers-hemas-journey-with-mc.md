@@ -2,17 +2,20 @@
 slug: from-portal-hopping-to-instant-answers-hemas-journey-with-mc
 name: HEMA
 builder: aureianimus
-category: AI + 开发
-summary_zh: 零售企业的内部开发者过去要在多个门户之间跳转查找文档与配置，才能回答一个技术问题；HAL 接收这些分散的内部知识，在团队日常使用的工具里直接给出带权限管控的答案，客户端不持有云凭证，最终交付是一段可核对的回答，敏感操作仍需人工确认。
-inspiration: 趋势：百年零售企业把内部知识检索交给带权限边界的助手，说明非科技行业的旧流程正在被拆开重做。切入：面向有大量内部文档却缺少统一入口的中大型传统企业，按“接入几个知识源、覆盖多少团队”计价，而不是卖通用助手席位。
-summary_en: Internal developers at a retailer used to hop between multiple portals to find docs and configuration
-  before answering one technical question; HAL ingests that scattered internal knowledge and returns governed
-  answers inside the tools teams already use, with no cloud credentials on the client, delivering a checkable
-  answer while sensitive actions still need human confirmation.
-inspiration_en: 'Trend: a century-old retailer handing internal knowledge retrieval to a permission-bounded
-  assistant shows legacy workflows in non-tech industries being rebuilt. Entry: target mid-to-large traditional
-  firms with many internal documents but no single entry point, pricing by knowledge sources connected
-  and teams covered rather than per-seat general assistant licences.'
+category: AI + 效率
+summary_zh: HEMA 的内部员工在需要查内部技术文档或规范时，原本要在多个开发者门户之间来回跳转；HAL 接收这些自然语言提问，通过 MCP 调取受权限管控的内部知识源，在员工已用的工具里直接返回答案，客户端不保存
+  AWS 凭证、权限由 Microsoft Entra ID 控制，答案仍需员工自行核对后使用。
+inspiration: 趋势是零售这类非技术行业开始把内部知识检索从“人找文档”改成“在既有工具里直接问”，且把权限治理放在身份系统而非模型侧。切入可考虑为有大量内部规范、门店手册或合规文档的连锁零售与制造业做同类受治理问答层，按知识库接入与治理范围收费；具体定价与交付边界尚未披露。
+summary_en: HEMA staff who need internal technical documentation or standards previously hopped between
+  multiple developer portals. HAL takes their natural-language questions, pulls from permission-governed
+  internal knowledge sources over MCP, and returns answers inside the tools they already use, with no
+  AWS credentials on the client and access controlled by Microsoft Entra ID; staff still verify the answers
+  themselves.
+inspiration_en: The trend is that non-tech sectors such as retail are moving internal knowledge retrieval
+  from people hunting documents to asking inside existing tools, with governance placed in the identity
+  system rather than the model. A wedge is a similar governed Q&A layer for retail chains and manufacturers
+  with large internal standards, store manuals or compliance documents, priced by knowledge-base onboarding
+  and governance scope; pricing and delivery boundaries are not yet disclosed.
 priority_review: false
 project_type: ai_transformation
 industries:
@@ -20,9 +23,9 @@ industries:
 industries_en:
 - Retail
 jobs:
-- 企业内部开发者与运维人员
+- 企业内部知识检索与开发者支持
 jobs_en:
-- Internal developers and operations staff
+- Internal knowledge retrieval and developer support
 regions:
 - 荷兰
 - 欧洲
@@ -38,7 +41,7 @@ summary: HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping in
   and security anchored in Microsoft Entra ID.
 first_seen: '2026-09-23T18:41:09Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: watching
 sources:
 - officialfeeds
 - newssearch

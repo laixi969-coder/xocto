@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/499597.html
 summary: 实测说GLM-5.3很强
 first_seen: '2026-09-30T10:04:12Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

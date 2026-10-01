@@ -114,3 +114,55 @@
   usage_reason: 用户要完成的任务是：图像生成提示词编写、多图编辑指令整理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Image-generation prompt writing, Multi-image editing instruction preparation
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-qwen-image-21-skill-2026-10-01
+  project_slug: qwen-image-21-skill
+  level: full
+  reviewed_at: '2026-10-01T01:55:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Qwen-Image-2.1 用户把创意描述转成符合阿里官方规范提示词的需求，痛点是规范不熟导致反复试错、浪费生成次数；不采用就得自己查文档、抄模板、逐轮手改。这是从产品说明与工作流结构推出的判断，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-b08448f7fee61073
+    - ev-18665a111858cca4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 115 增至 128，说明开发者社区注意到它，但收藏与复刻属于关注度证据，不能证明目标用户已把它留在提示词工作流里持续使用；缺少 issue、discussion 或使用反馈。
+    evidence_ids:
+    - ev-b08448f7fee61073
+    - ev-18665a111858cca4
+    - ev-881cc0cfb97f5cc0
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill，公开材料没有定价页、付费主体或采购记录，钱可能来自 to C 开发者自愿使用或后续托管服务，属判断而非已验证事实；但买方不清不反推需求不存在。
+    evidence_ids:
+    - ev-b08448f7fee61073
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明它按官方规范改写提示词，未提供可复现的改写前后对比、失败率或人工复核边界，交付能否稳定发生仍缺公开证据。
+    evidence_ids:
+    - ev-b08448f7fee61073
+    - ev-18665a111858cca4
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户报告改写后出图成功率变化、替代了哪一步手工调词流程。
+  market: ''
+  job: 使用 Qwen-Image-2.1 做文生图或多图编辑的设计、广告与营销人员，在拿到模糊的创意需求后，需要把中文或口语化描述整理成符合阿里官方规范的提示词，再投喂模型出图或改图。
+  job_en: Designers and marketing staff using Qwen-Image-2.1 for text-to-image or multi-image editing
+    take a vague creative brief and must turn it into a prompt that conforms to Alibaba's official specification
+    before feeding it to the model for generation or editing.
+  pain: Qwen-Image-2.1 的官方提示词规范与通用文生图习惯不同，用户凭经验写的提示词容易触发不了模型能力，反复试错出图、改图，浪费生成次数与时间；多图编辑还要额外整理参考图与指令的对应关系。
+  pain_en: Qwen-Image-2.1's official prompt conventions differ from generic text-to-image habits, so prompts
+    written from intuition often fail to trigger the model's capabilities, forcing repeated trial-and-error
+    generations and edits that waste quota and time; multi-image editing also requires extra work to map
+    reference images to instructions.
+  current_alternative: 用户目前靠自行阅读阿里官方文档、在社区帖子里抄提示词模板、或凭经验反复手改提示词来试出可用结果，没有把规范固化进工作流。
+  current_alternative_en: Users currently read Alibaba's official docs themselves, copy prompt templates
+    from community posts, or hand-tune prompts by trial and error until a usable result appears, without
+    codifying the spec into their workflow.
+  usage_reason: 推断：相较自己读文档和反复试错，这个 skill 把官方规范固化成一次改写动作，用户输入原始描述后直接得到可投喂模型的提示词，省掉查规范、拼模板、逐轮微调这几步；因此正在用
+    Qwen-Image-2.1 且提示词质量不稳定的设计或营销用户会在写提示词这一步选择它。
+  usage_reason_en: 'Inference: compared with reading docs and iterating by trial and error, this skill
+    codifies the official spec into a single rewrite step, turning a raw description directly into a model-ready
+    prompt and removing the lookup, template-assembly, and round-by-round tuning steps; designers or marketers
+    already using Qwen-Image-2.1 with unstable prompt quality would choose it at the prompt-writing step.'

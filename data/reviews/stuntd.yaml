@@ -1,0 +1,80 @@
+- id: req-initial-stuntd-2026-10-01
+  project_slug: stuntd
+  level: initial
+  reviewed_at: '2026-10-01T01:18:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有仓库自述，无法还原用户任务、痛点与不采用后果。
+    evidence_ids:
+    - ev-c75a8ac9ac52e237
+  - gate: consensus
+    status: insufficient
+    reason: 44 星与 1 个 fork 属关注度，不构成持续采用证据。
+    evidence_ids:
+    - ev-c75a8ac9ac52e237
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或买方路径。
+    evidence_ids:
+    - ev-c75a8ac9ac52e237
+  - gate: truth
+    status: insufficient
+    reason: 无文档或实测，代理行为与安全边界无法核验。
+    evidence_ids:
+    - ev-c75a8ac9ac52e237
+  next_validation: stuntd 仓库 README 或 issue/discussion 中关于接入方式、替代调用环节与实测结果的说明。
+  market: ''
+  job: 未识别到具体开发者、接入环节与处理材料，公开材料只说明它是本地代理。
+  job_en: No specific developer, integration step, or material is identified; public material only says
+    it is a local proxy.
+  pain: 未说明重复调用模型带来的具体成本或延迟后果。
+  pain_en: It does not state the concrete cost or latency consequence of repeated model calls.
+  current_alternative: 未说明此前开发者如何复用或缓存模型决策。
+  current_alternative_en: It does not state how developers previously reused or cached model decisions.
+  usage_reason: 缺少接入方式与替代环节，无法解释相较直接调用减少了哪一步负担，属推断空白。
+  usage_reason_en: Integration method and replaced step are missing, so which burden it removes versus
+    direct calls cannot be explained; this is an inference gap.
+- id: req-full-stuntd-2026-10-01
+  project_slug: stuntd
+  level: full
+  reviewed_at: '2026-10-01T01:55:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库自述仅说明它是学习带类型 LLM 决策的本地代理，未写明谁在什么环节接入、替代哪一步调用、不采用会失去什么，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-c75a8ac9ac52e237
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 stuntd 仓库 README 与 issue/discussion 中关于接入方式、被替代调用环节与实测结果的公开说明。
+  market: ''
+  job: 公开材料只说明它是本地代理，未写明哪类开发者、在什么开发环节接入、代理接收哪些带类型的 LLM 请求、最终替代掉哪一步调用，因此无法还原具体任务。
+  job_en: Public material only says it is a local proxy; it does not state which developer, at which development
+    step, feeds which typed LLM requests, or which call step is replaced, so the concrete task cannot
+    be reconstructed.
+  pain: 仓库自述未说明重复调用模型带来的具体成本、延迟或一致性问题，也没有用户抱怨或 workaround 证据，痛点无法从公开事实还原。
+  pain_en: The repository description does not state the concrete cost, latency, or consistency problem
+    of repeated model calls, and there is no user complaint or workaround evidence, so the pain cannot
+    be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者此前如何复用、缓存或固定模型决策，无法确认旧做法是什么。
+  current_alternative_en: Public material does not state how developers previously reused, cached, or
+    pinned model decisions, so the prior practice cannot be identified.
+  usage_reason: 缺少接入方式与被替代环节，无法解释相较直接调用模型减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它；此处为推断空白，非事实。
+  usage_reason_en: Integration method and the replaced step are missing, so which burden it removes versus
+    calling the model directly, and which users would choose it when, cannot be explained; this is an
+    inference gap, not a fact.

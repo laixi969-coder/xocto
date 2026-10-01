@@ -25,7 +25,7 @@ summary: Google today revealed its next AI frontier model, which it's calling Ge
   Google DeepMind SVP Koray Kavukcuoglu. But the company is limiting access at […]
 first_seen: '2026-09-30T20:41:41Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

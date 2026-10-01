@@ -1,6 +1,6 @@
 ---
 slug: query-claims-in-natural-language-with-amazon-bedrock-knowled
-name: Query claims in natural language with Amazon Bedrock Knowledge Bases
+name: Amazon Bedrock Knowledge Bases
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: This technical how-to builds a conversational claims assistant on Amazo
   grounding guardrails.
 first_seen: '2026-09-30T15:37:15Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Query claims in natural language with Amazon Bedrock Knowledge Bases
+# Amazon Bedrock Knowledge Bases
 
 This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim documents from Amazon S3, querying with the AgenticRetrieveStream API, multi-turn follow-ups, metadata filters, and contextual grounding guardrails.
 

@@ -36,3 +36,89 @@
   usage_reason: AI 印控能自动审批和记录，减少人工成本，提高合规性，因此企业可能采用。
   usage_reason_en: AI seal control can automate approval and recording, reducing labor costs and improving
     compliance, so enterprises may adopt it.
+- id: req-initial-2026agic释放ai能量-动码印章智慧印控产品矩阵赋能社会治理-2026-10-01
+  project_slug: 2026agic释放ai能量-动码印章智慧印控产品矩阵赋能社会治理
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决用章留痕与合规取证，但材料未说明AI接收什么、交付什么，痛点与旧流程均无法还原。
+    evidence_ids:
+    - ev-6a6fa378a3aa5d18
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一项获奖报道，无客户、部署或使用反馈，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-6a6fa378a3aa5d18
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪一方来无法判断，这是未知而非失败。
+    evidence_ids:
+    - ev-6a6fa378a3aa5d18
+  - gate: truth
+    status: insufficient
+    reason: 无法核对AI在印章管理中的具体动作与人工边界，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-6a6fa378a3aa5d18
+  next_validation: 收集动码印章官方产品页或部署文档，确认AI在印章管理中的具体输入、动作与交付凭证。
+  market: ''
+  job: 企业行政或合规人员在用章审批与归档时，处理用印申请、审批记录和盖章留痕材料，要完成用章合规留证与事后可追溯。
+  job_en: Corporate administration or compliance staff handle seal-use requests, approval records and
+    stamp traces during seal approval and archiving, aiming to keep seal use compliant and traceable after
+    the fact.
+  pain: 材料未说明具体痛点，只能推断实体印章分散、用印记录靠人工登记时，事后核对与审计取证成本高。
+  pain_en: The material states no specific pain; it can only be inferred that when physical seals are
+    dispersed and seal-use records are kept manually, post-hoc checking and audit evidence gathering are
+    costly.
+  current_alternative: 材料未提供现有替代方式，通常为纸质用章登记本、审批单与人工核对，此为推断。
+  current_alternative_en: The material provides no current alternative; typically this would be paper
+    seal registers, approval forms and manual checking, which is an inference.
+  usage_reason: 材料未披露产品如何减少哪一步负担，也未提供用户反馈或客户案例，因此无法说明用户为何选择它；缺少可核验的功能与交付细节。
+  usage_reason_en: The material does not disclose which step the product reduces, nor any user feedback
+    or customer case, so it cannot explain why users would choose it; verifiable feature and delivery
+    details are missing.
+- id: req-full-2026agic释放ai能量-动码印章智慧印控产品矩阵赋能社会治理-2026-10-01
+  project_slug: 2026agic释放ai能量-动码印章智慧印控产品矩阵赋能社会治理
+  level: full
+  reviewed_at: '2026-10-01T01:51:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决用章留痕与合规取证，但公开材料只有获奖报道，未说明AI接收什么、交付什么凭证，痛点与旧流程均无法还原，需求结构无法确认。
+    evidence_ids:
+    - ev-6a6fa378a3aa5d18
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集动码印章官方产品页或部署文档，确认AI在印章管理中的具体输入、动作与交付凭证。
+  market: ''
+  job: 企业行政或合规人员在用章审批与归档环节，处理实体印章的用印申请、审批记录与盖章留痕材料，要完成用章合规留证与事后可追溯。
+  job_en: Corporate administration or compliance staff handle seal-use requests, approval records and
+    stamp traces during seal approval and archiving, aiming to keep seal use compliant and traceable after
+    the fact.
+  pain: 公开材料只称以AI技术重塑印章管理，未说明具体痛点；无法确认是分散用印难追溯、人工登记易漏，还是审计取证成本高，痛点强度与频率均无公开事实支撑。
+  pain_en: Public material only claims AI reshapes seal management without stating a specific pain; it
+    is unclear whether the issue is dispersed seal use, manual register omissions, or costly audit evidence
+    gathering, and no public fact supports pain intensity or frequency.
+  current_alternative: 材料未提供现有替代方式；按行业惯例推断为纸质用章登记本、审批单与人工核对，但这是结构推理，非公开事实。
+  current_alternative_en: The material provides no current alternative; by industry convention it would
+    be paper seal registers, approval forms and manual checking, but this is structural inference, not
+    public fact.
+  usage_reason: 材料未披露AI接收什么输入、执行什么动作、交付什么凭证，也无用户反馈或客户案例，因此无法说明相较旧做法减少哪一步负担，用户为何选择它无从判断。
+  usage_reason_en: The material does not disclose what input the AI receives, what action it performs,
+    or what credential it delivers, nor any user feedback or customer case, so it cannot explain which
+    step is reduced versus the old approach or why users would choose it.

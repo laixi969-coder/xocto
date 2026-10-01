@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/tapestry-vc-audrey-miller-physical-ai-
 summary: ''
 first_seen: '2026-09-30T05:00:11Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

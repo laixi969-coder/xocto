@@ -1,0 +1,83 @@
+- id: req-initial-parrot-2026-10-01
+  project_slug: parrot
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议中记录与会后跟进脱节的问题，痛点是漏记与整理耗时；公开材料已能还原“会中录音转写、会后产出记录”的旧流程替代关系，属工作流推理。
+    evidence_ids:
+    - ev-464f7934b783ac50
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，未见客户案例或明确的使用者反馈，无法判断哪类角色真正把它纳入日常会议流程。
+    evidence_ids:
+    - ev-464f7934b783ac50
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页或收费方式，买方是个人订阅还是团队采购属推断，尚未核验。
+    evidence_ids:
+    - ev-464f7934b783ac50
+  - gate: truth
+    status: insufficient
+    reason: 转写准确度、会中提示的触发方式与交付格式均未说明，能否确定性交付会议记录仍缺少可核对材料。
+    evidence_ids:
+    - ev-464f7934b783ac50
+  next_validation: 收集 Parrot 官方仓库或官网的文档与 issue/discussion，核验其转写准确度、会中提示机制与输出格式。
+  market: ''
+  job: 销售、客户成功或咨询顾问在 Mac 上开线上或线下会议时，处理的是会议中的语音与讨论内容，要完成的是把讨论变成可回看的记录并支撑会后跟进。
+  job_en: A salesperson, customer success manager or consultant on a Mac handles spoken discussion in
+    an online or offline meeting, and needs to turn it into a reviewable record that supports follow-up.
+  pain: 会议内容靠人边听边记，容易漏掉承诺与细节；会后凭记忆补写纪要既费时又不可靠，跟进动作常因此拖延。
+  pain_en: People take notes while listening, so commitments and details get missed; reconstructing minutes
+    from memory afterwards is slow and unreliable, and follow-up often slips.
+  current_alternative: 手写笔记、通用录音加事后人工整理，或使用闭源会议记录工具；这些做法要么漏信息，要么把整理成本推到会后。
+  current_alternative_en: Handwritten notes, generic recording plus manual write-up afterwards, or closed-source
+    meeting note tools; these either lose information or push the cost of organizing to after the call.
+  usage_reason: 推断：相较手写笔记或事后整理录音，它在会议进行中就把语音转成文字并给出提示，省掉“会后重听并逐段整理”这一步，因此会议密集、跟进直接关联收入的销售与顾问更可能在会中直接打开它。公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with handwritten notes or post-hoc audio review, it transcribes
+    during the meeting and surfaces prompts, removing the step of re-listening and organizing afterwards,
+    so salespeople and consultants with dense meetings and revenue-linked follow-up are more likely to
+    open it live. No retention or repeat-use evidence is provided.'
+- id: req-full-parrot-2026-10-01
+  project_slug: parrot
+  level: full
+  reviewed_at: '2026-10-01T01:55:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向鹦鹉物种、Parrot Security 发行版和游戏主播，与 Mac 会议记录器无关，无法还原用户任务、痛点或替代方式，需求结构无法成立。
+    evidence_ids:
+    - ev-2e0f4e15f1d2d776
+    - ev-9f88cfd7ce47eada
+    - ev-551e58c4dc3a8e51
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索该 Mac 会议记录器在 公开代码仓库 或官网的仓库 README、release 说明与 issue/discussion，确认其转写与输出格式等可核对能力。
+  market: ''
+  job: Mac 用户在线上或线下会议中处理语音讨论内容，要完成的是把会议内容变成可回看的文字记录并支撑会后跟进。
+  job_en: A Mac user handles spoken discussion in an online or offline meeting and needs to turn it into
+    a reviewable text record that supports follow-up.
+  pain: 公开证据中没有可归因到该会议记录产品的用户痛点材料，无法确认漏记、整理耗时等痛点是否真实存在。
+  pain_en: No public evidence attributable to this meeting-recorder product documents user pain, so it
+    cannot be confirmed that missed notes or slow write-up are real problems here.
+  current_alternative: 公开证据未提供该产品的替代方式信息，无法确认用户当前用手写笔记、录音整理还是其他工具。
+  current_alternative_en: Public evidence provides no information on alternatives for this product, so
+    it is unknown whether users rely on handwritten notes, audio review or other tools.
+  usage_reason: 公开证据未提供任何可归因到该会议记录产品的用户选择理由，无法判断用户为何会使用它。
+  usage_reason_en: Public evidence provides no attributable reason why users would choose this meeting-recorder
+    product, so its adoption rationale cannot be assessed.

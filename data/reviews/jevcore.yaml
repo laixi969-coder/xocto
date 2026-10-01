@@ -184,3 +184,53 @@
   usage_reason: 用户要完成的任务是：后端与工具链开发者、AI 应用集成工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Backend and tooling developers, AI application integration engineers
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-jevcore-2026-10-01
+  project_slug: jevcore
+  level: full
+  reviewed_at: '2026-10-01T01:54:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型输出散文、程序无法直接判断的需求，痛点是接入阶段反复出现的解析与校验负担，不解决的后果是判断链路脆弱或依赖联网；离线类型化判断的输入—动作—交付闭环在公开说明中可还原，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-1efda6447470f169
+    - ev-321ca433ff9a99da
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 85，说明开发者已注意到该项目，但收藏属关注度证据，不能证明目标用户已把它留在工作流或持续采用；缺少 issue、discussion 或使用反馈说明真实使用场景。
+    evidence_ids:
+    - ev-1efda6447470f169
+    - ev-321ca433ff9a99da
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断收入来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1efda6447470f169
+  - gate: truth
+    status: insufficient
+    reason: 离线默认运行与类型化判断的承诺方向贴近该工作的第一性目标，但缺少部署文档、可复现实测或 issue 记录来确认交付能否稳定发生，以及人工与安全边界如何划定。
+    evidence_ids:
+    - ev-1efda6447470f169
+    - ev-321ca433ff9a99da
+  next_validation: 追踪 jevcore 仓库的 README、issue 与 discussion，确认是否有开发者公开描述在 DeepSeek/MCP 接入中实际替换了自写解析或在线结构化输出。
+  market: ''
+  job: 后端与工具链开发者、AI 应用集成工程师在把 DeepSeek 或 MCP 工具调用接入自有 Node 服务时，需要把模型返回的自然语言转成程序可直接分支判断的类型化结果，并让整条判断链路可离线运行。
+  job_en: Backend/tooling developers and AI integration engineers wiring DeepSeek or MCP tool calls into
+    their own Node services need model output converted into typed, program-branchable judgments, with
+    the judgment path runnable offline.
+  pain: 模型默认输出散文式文本，程序无法直接消费，开发者必须自己写解析、校验和兜底逻辑；一旦格式漂移或需要联网调用，判断链路就不可靠，这是接入阶段反复出现的刚性摩擦。
+  pain_en: Models emit prose that programs cannot consume directly, forcing developers to hand-write parsing,
+    validation and fallbacks; format drift or a required network call makes the judgment path unreliable
+    — recurring, rigid friction at integration time.
+  current_alternative: 开发者目前通常自行拼 JSON schema、正则解析或函数调用约束，或依赖在线 API 做结构化输出；这些做法要么脆弱，要么把判断绑定在联网与外部服务上。
+  current_alternative_en: Developers today hand-roll JSON schemas, regex parsing or function-calling constraints,
+    or rely on online APIs for structured output — approaches that are either brittle or tie judgment
+    to network and external services.
+  usage_reason: 推断：相较自写解析与在线结构化输出，jevcore 以类型化判断值作为交付物，并默认离线运行，省去开发者自行编写解析与校验这一步，同时去掉对联网调用的依赖；因此正在做 DeepSeek/MCP
+    接入、且需要判断结果可被代码直接消费的 Node 开发者会在该环节选择它。
+  usage_reason_en: 'Inference: versus hand-written parsing and online structured output, jevcore delivers
+    typed judgment values and runs offline by default, removing the parsing/validation step and the network
+    dependency; Node developers integrating DeepSeek/MCP who need code-consumable judgments would pick
+    it at that step.'

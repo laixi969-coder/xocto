@@ -1,0 +1,88 @@
+- id: req-initial-apiaxess-2026-10-01
+  project_slug: apiaxess
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是接口检查前搭环境麻烦这一具体痛点，旧做法明确；但公开材料只有一句定位描述，无法确认实际能覆盖哪些检查动作与交付结果。
+    evidence_ids:
+    - ev-055c2247f6586a3d
+  - gate: consensus
+    status: insufficient
+    reason: 社区约30点、5条评论，属于早期关注度，不能说明安全团队已把它纳入日常流程。
+    evidence_ids:
+    - ev-055c2247f6586a3d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或买方，免费定位下钱可能来自 to C 订阅或 to B 团队版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-055c2247f6586a3d
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否内置 AI 能力、扫描结果是否需人工复核，以及误报漏报边界，承诺的确定性无法核对。
+    evidence_ids:
+    - ev-055c2247f6586a3d
+  next_validation: 收集 apiaxess 官方定价页或部署文档，确认其收费方式、是否含 AI 分析以及扫描结果的复核边界。
+  market: ''
+  job: 安全测试或后端工程师在发版前检查自家接口是否存在越权、注入等问题时，需要抓取并重放请求、查看响应内容，以确认漏洞是否真实存在。
+  job_en: Security testers or backend engineers checking their own APIs for authorization or injection
+    flaws before a release need to capture and replay requests and inspect responses to confirm whether
+    a vulnerability is real.
+  pain: 现有工具要先装客户端、配代理和证书，对不常做安全测试的人门槛高，往往因此跳过接口检查。
+  pain_en: Existing tools require installing a client and configuring proxies and certificates, a high
+    bar for people who rarely do security testing, so the API check is often skipped.
+  current_alternative: Burp Suite、Caido 等本地代理工具，或直接用 curl/Postman 手工构造请求。
+  current_alternative_en: Local proxy tools such as Burp Suite and Caido, or manually crafting requests
+    with curl or Postman.
+  usage_reason: 推断：它把安装与代理配置这一步去掉，用户打开网页即可对目标接口发请求并看响应，因此临时需要做接口检查、又不愿搭环境的开发者会先试它；但公开材料未给出留存或付费证据，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: it removes the install-and-proxy step so users can open a page, send requests
+    to a target API and read responses, which is why developers who need an occasional API check without
+    setting up an environment would try it; public material offers no retention or payment evidence, so
+    long-term workflow adoption cannot be confirmed.'
+- id: req-full-apiaxess-2026-10-01
+  project_slug: apiaxess
+  level: full
+  reviewed_at: '2026-10-01T01:52:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发版前接口检查要先装客户端、配代理证书的痛点，旧做法明确，跳过检查有安全后果；公开定位已能还原输入、动作与交付，属工作流结构推理。
+    evidence_ids:
+    - ev-055c2247f6586a3d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有社区讨论、用户评价或团队采用记录，无法判断安全团队是否已把它纳入日常流程。
+    evidence_ids:
+    - ev-055c2247f6586a3d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或买方，免费定位下钱可能来自 to C 订阅或 to B 团队版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-055c2247f6586a3d
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否内置 AI 能力、扫描结果是否需人工复核，以及误报漏报边界，承诺的确定性无法核对。
+    evidence_ids:
+    - ev-055c2247f6586a3d
+  next_validation: 收集 apiaxess 官方定价页或部署文档，确认其收费方式、是否含 AI 分析以及扫描结果的复核边界。
+  market: ''
+  job: 安全测试或后端工程师在发版前检查自家接口是否存在越权、注入等问题时，需要抓取并重放请求、查看响应内容，以确认漏洞是否真实存在。
+  job_en: Security testers or backend engineers checking their own APIs for authorization or injection
+    flaws before a release need to capture and replay requests and inspect responses to confirm whether
+    a vulnerability is real.
+  pain: 现有工具要先装客户端、配代理和证书，对不常做安全测试的人门槛高，往往因此跳过接口检查。
+  pain_en: Existing tools require installing a client and configuring proxies and certificates, a high
+    bar for people who rarely do security testing, so the API check is often skipped.
+  current_alternative: Burp Suite、Caido 等本地代理工具，或直接用 curl/Postman 手工构造请求。
+  current_alternative_en: Local proxy tools such as Burp Suite and Caido, or manually crafting requests
+    with curl or Postman.
+  usage_reason: 推断：它把安装与代理配置这一步去掉，用户打开网页即可对目标接口发请求并看响应，因此临时需要做接口检查、又不愿搭环境的开发者会先试它；但公开材料未给出留存或付费证据，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: it removes the install-and-proxy step so users can open a page, send requests
+    to a target API and read responses, which is why developers who need an occasional API check without
+    setting up an environment would try it; public material offers no retention or payment evidence, so
+    long-term workflow adoption cannot be confirmed.'

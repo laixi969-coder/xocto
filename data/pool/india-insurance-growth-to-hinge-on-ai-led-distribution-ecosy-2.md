@@ -22,7 +22,7 @@ summary: 'India insurance growth to hinge on AI-led distribution, ecosystem part
   Enterprise AI'
 first_seen: '2026-09-28T11:58:18Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

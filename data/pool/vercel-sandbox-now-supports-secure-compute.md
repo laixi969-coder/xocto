@@ -1,6 +1,6 @@
 ---
 slug: vercel-sandbox-now-supports-secure-compute
-name: Vercel Sandbox now supports Secure Compute
+name: Vercel Sandbox
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/vercel-sandbox-now-supports-secure-c
 summary: ''
 first_seen: '2026-09-30T00:00:00Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Vercel Sandbox now supports Secure Compute
+# Vercel Sandbox
 
 _（源没给简介）_
 

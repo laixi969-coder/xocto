@@ -1,0 +1,88 @@
+- id: req-initial-elon-musks-grokipedia-has-a-newly-refreshed-design-2026-10-01
+  project_slug: elon-musks-grokipedia-has-a-newly-refreshed-design
+  level: initial
+  reviewed_at: '2026-10-01T01:19:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决查阅与编辑百科条目的需求，但公开材料未说明用户原有做法、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-c3d31106a123d39a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有改版报道，没有可归因到该产品的使用、留存或社区采用数据，共识环节缺少证据。
+    evidence_ids:
+    - ev-c3d31106a123d39a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或采购路径，钱从哪来无法判断，也未出现融资叙事。
+    evidence_ids:
+    - ev-c3d31106a123d39a
+  - gate: truth
+    status: insufficient
+    reason: 条目由 AI 生成，但材料未说明来源引用、人工复核与错误纠正机制，交付确定性无法核对。
+    evidence_ids:
+    - ev-c3d31106a123d39a
+  next_validation: 收集 Grokipedia 官方页面或帮助文档中关于条目来源引用与人工复核流程的公开说明。
+  market: ''
+  job: 普通读者在需要快速了解某个词条时打开 Grokipedia 获取 AI 生成的解释；贡献者则在实时编辑页查看并参与条目修改。
+  job_en: General readers open Grokipedia to get an AI-generated explanation of a topic, while contributors
+    view and take part in entry edits on the live-edits page.
+  pain: 公开材料没有说明用户此前用什么方式解决同一问题、哪里难受，也没有用户抱怨或替代行为的记录，痛点无法从现有事实还原。
+  pain_en: The public material does not say what users did before for the same task or where it hurt,
+    and there is no record of user complaints or workarounds, so the pain cannot be reconstructed from
+    available facts.
+  current_alternative: 可推断的旧做法是查阅维基百科等人工编辑百科或直接使用通用对话助手，但候选材料未提供任何用户实际迁移的证据。
+  current_alternative_en: The plausible prior behavior is consulting human-edited encyclopedias such as
+    Wikipedia or using general chat assistants, but the candidate material offers no evidence of actual
+    user migration.
+  usage_reason: 本次公开事实只有 logo 与首页改版、编辑功能恢复，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此用户为何选择它属于推断且缺乏依据。
+  usage_reason_en: The only public facts are a logo and homepage refresh and the resumption of edits,
+    which cannot show which step is reduced versus the old approach or which checkable result improves,
+    so why users would choose it remains an unsupported inference.
+- id: req-full-elon-musks-grokipedia-has-a-newly-refreshed-design-2026-10-01
+  project_slug: elon-musks-grokipedia-has-a-newly-refreshed-design
+  level: full
+  reviewed_at: '2026-10-01T01:53:33Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决查阅与编辑百科条目的需求，但公开材料只有改版与编辑恢复，未说明用户原有做法、痛点强度与不采用的后果；条目由模型生成且不可直接编辑，用户价值停留在围观而非刚性任务，属自嗨拼凑。
+    evidence_ids:
+    - ev-2d7afdcba75c40cd
+    - ev-6c918932c0518245
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Grokipedia 官方页面或帮助文档中关于条目来源引用、人工复核与错误纠正流程的公开说明。
+  market: ''
+  job: 普通读者在需要快速了解某个词条时打开 Grokipedia 获取 AI 生成的解释文本，贡献者则在实时编辑页查看条目修改动态；本次公开材料只覆盖界面与 logo 改版及编辑功能恢复。
+  job_en: General readers open Grokipedia to get an AI-generated explanation of a topic, while contributors
+    watch entry edits on the live-edits page; the public material only covers a UI and logo refresh plus
+    the resumption of edits.
+  pain: 公开材料未记录任何用户抱怨、替代行为或迁移证据；维基百科条目不可直接编辑、AI 生成内容缺乏来源引用与人工复核，这些是结构推理出的潜在问题，而非用户口述的痛点。
+  pain_en: The public material records no user complaints, workarounds, or migration evidence; that Wikipedia
+    entries cannot be edited directly and AI-generated content lacks sourcing and human review are structurally
+    inferred problems, not user-stated pain.
+  current_alternative: 旧做法是查阅维基百科等人工编辑百科，或直接向通用对话助手提问；候选材料未提供任何用户实际从这些方式迁移到 Grokipedia 的证据。
+  current_alternative_en: The prior behavior is consulting human-edited encyclopedias such as Wikipedia
+    or asking general chat assistants directly; the candidate material offers no evidence of actual user
+    migration to Grokipedia.
+  usage_reason: 推断：相较维基百科的人工编辑流程，Grokipedia 用模型直接产出条目文本，省去等待社区编辑与讨论的步骤；但公开事实只有 logo 与首页改版、编辑功能恢复，无法说明哪类用户会因此在什么情况下选择它，也无留存或复购证据。
+  usage_reason_en: 'Inference: versus Wikipedia''s human editing process, Grokipedia generates entry text
+    directly with a model, skipping the wait for community edits and discussion; but the only public facts
+    are a logo and homepage refresh and the resumption of edits, which cannot show which users would choose
+    it and when, and there is no retention or repeat-use evidence.'

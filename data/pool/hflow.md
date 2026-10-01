@@ -3,39 +3,38 @@ slug: hflow
 name: HFlow
 builder: Garry Tan
 category: 基础层
-summary_zh: HFlow 是 Hebbian Robotics（YC S26）推出的可扩展多模态数据管道，用于机器人领域。机器人团队将传感器数据、视频、文本等多模态数据输入管道，系统进行清洗、标注和格式化，输出可用于训练机器人模型的数据集。具体流程和交付仍需核验。
-inspiration: 趋势是机器人开发从模型创新转向数据工程，多模态数据管道成为基础设施。切入点是机器人数据标注和管道搭建，可提供按数据量或项目收费的托管服务，或开源核心管道。
-summary_en: HFlow by Hebbian Robotics (YC S26) provides scalable multimodal data pipelines for robotics.
-  Robotics teams input sensor data, video, text, etc., and the system cleans, labels, and formats it into
-  datasets for training robot models. Specific workflow and deliverables still need verification.
-inspiration_en: 'Trend: robotics development shifts from model innovation to data engineering, making
-  multimodal data pipelines infrastructure. Entry point: robot data labeling and pipeline construction,
-  offering managed services charged by data volume or project, or open-sourcing core pipelines.'
+summary_zh: 机器人团队在采集和整理多模态训练数据时打开 HFlow，把摄像头、传感器等记录接入管道做清洗与组织，最终得到可用于训练的数据集；具体输入格式与交付形态仍待核验。
+inspiration: 趋势是机器人训练数据的采集与清洗正从各家自建脚本变成可复用工具。切入可考虑为特定机器人形态（如仓储分拣、农业采摘）提供数据采集到标注的整段外包，按交付数据集收费，而非只卖工具。
+summary_en: Robotics teams open HFlow when collecting and organizing multimodal training data, feeding
+  camera and sensor recordings into pipelines for cleaning and structuring, and end up with datasets usable
+  for training; the exact input formats and deliverables still need verification.
+inspiration_en: The trend is that robot training-data collection and cleaning is moving from bespoke scripts
+  to reusable tooling. An opening is to run the whole collection-to-labeling chain for a specific robot
+  form factor, such as warehouse picking or agricultural harvesting, and charge per delivered dataset
+  rather than per tool seat.
 priority_review: false
-project_type: new_application
+project_type: open_source
 industries:
 - 机器人
-- 人工智能
+- 制造业
 industries_en:
 - Robotics
-- Artificial Intelligence
+- Manufacturing
 jobs:
-- 机器人工程师
-- 数据工程师
+- 机器人数据工程师
+- 机器人学习工程师
 jobs_en:
-- Robotics Engineer
-- Data Engineer
-regions:
-- 全球
-regions_en:
-- Global
-open_source: false
+- Robotics Data Engineer
+- Robot Learning Engineer
+regions: []
+regions_en: []
+open_source: true
 url: https://www.producthunt.com/products/hflow
 canonical_url: https://producthunt.com/products/hflow
 summary: Scalable multimodal data pipelines for robotics
 first_seen: '2026-08-26T08:01:50Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - hackernews

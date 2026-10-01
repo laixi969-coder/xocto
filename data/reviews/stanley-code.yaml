@@ -168,3 +168,53 @@
     bounded type-safe Jev workflows for coding agents, moving ''constraining agent behavior'' from after-the-fact
     manual review into the workflow structure itself, reducing the rollback-and-review step, so developers
     who care about agent controllability would choose it when running multi-step changes.'
+- id: req-full-stanley-code-2026-10-01
+  project_slug: stanley-code
+  level: full
+  reviewed_at: '2026-10-01T01:55:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理多步改动越界、步骤不可静态检查的痛点，开发者目前靠事后审 diff 与提示词约定兜底，不解决的后果是返工与审查成本自担；仓库说明与持续增长的收藏显示这是真实工作流问题，但痛点强度属工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-9a6deff3bd6b37c8
+    - ev-7e5ef750a68e598b
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有 公开代码仓库 仓库收藏从 110 缓慢升至 118，说明有开发者关注并收藏，但没有任何 issue、discussion 或使用反馈说明谁在何种场景实际接入，关注度不能等同于持续采用。
+    evidence_ids:
+    - ev-9a6deff3bd6b37c8
+    - ev-0beba0939c4216e3
+    - ev-7e5ef750a68e598b
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费主体或采购记录，钱可能来自 to C 开发者自愿使用、to B 团队支持或 to VC 融资，均属判断而非已验证事实；买方不清不取消需求判定，但商业路径确实未核验。
+    evidence_ids:
+    - ev-9a6deff3bd6b37c8
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述为有边界的类型安全 Jev 工作流，但公开材料未给出部署文档、可复现示例或人工与安全边界说明，无法核对“边界不可表达”这一承诺在真实代码库中能否确定性交付。
+    evidence_ids:
+    - ev-9a6deff3bd6b37c8
+    - ev-db630312020a0e68
+  next_validation: 追踪 stanley-code 仓库的 README、docs 目录与 issue/discussion，确认是否出现具体接入示例、工作流定义样例或使用者报告，以核验边界约束在真实代码库中的交付形态。
+  market: ''
+  job: 使用编码代理（如 Claude Code、Cursor 类工具）的软件开发者，在让代理对既有代码库执行多步改动时，需要把代理的每一步动作限制在预先声明的边界内，并让工作流在类型层面可检查，从而完成一次可审计的代理执行。
+  job_en: Software developers using coding agents (e.g. Claude Code / Cursor-style tools) who, when letting
+    an agent perform multi-step edits on an existing codebase, need each agent action constrained inside
+    a pre-declared boundary and the workflow type-checkable, so that one agent run is auditable.
+  pain: 编码代理执行多步改动时容易越界：改到不该改的文件、跳过或重排步骤、产出无法静态检查的中间状态，开发者事后只能靠 diff 和人工回读来兜底，返工与审查成本落在自己身上。
+  pain_en: 'Multi-step agent edits tend to overrun their scope: touching files they should not, skipping
+    or reordering steps, and producing intermediate states that cannot be statically checked, leaving
+    the developer to catch it afterwards via diffs and manual re-reading.'
+  current_alternative: 当前替代是直接让代理自由执行再人工审查 diff，或靠提示词、AGENTS.md 之类的约定、以及 CI 与测试做事后拦截；这些手段约束的是事后结果，而不是执行过程中的步骤边界。
+  current_alternative_en: Today developers either let the agent run free and review the diff afterwards,
+    or rely on prompt conventions, AGENTS.md-style instructions, and CI/tests as after-the-fact gates;
+    these constrain the outcome, not the step boundaries during execution.
+  usage_reason: 推断：相较“先跑再查 diff”的旧做法，它把边界写成类型安全的工作流定义，使越界步骤在执行阶段就不可表达，从而省掉事后逐条比对 diff、判断哪一步跑偏的负担；因此在意代理改动可控性、且已在用编码代理做多步重构的开发者会在这种场景下选择它。
+  usage_reason_en: 'Inference: versus the run-then-review-the-diff approach, it encodes the boundary as
+    a type-safe workflow definition so out-of-scope steps are not expressible during execution, removing
+    the burden of diffing step by step to find where the agent drifted; developers who already run coding
+    agents on multi-step refactors and care about controllability would pick it in that situation.'

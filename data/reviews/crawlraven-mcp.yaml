@@ -1,0 +1,86 @@
+- id: req-initial-crawlraven-mcp-2026-10-01
+  project_slug: crawlraven-mcp
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决站点巡检与问题清单整理的需求，但公开材料只有一句定位，无法确认抓取范围、输出形式与不采用的实际后果。
+    evidence_ids:
+    - ev-1afbec912095b180
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页定位外没有任何采用、评价或使用规模信息，无法判断 SEO 从业者是否真的把它接入日常流程。
+    evidence_ids:
+    - ev-1afbec912095b180
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断按次、按站点还是按席位收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1afbec912095b180
+  - gate: truth
+    status: insufficient
+    reason: 无法核对抓取结果的准确性、是否覆盖真实站点问题，以及人工复核边界。
+    evidence_ids:
+    - ev-1afbec912095b180
+  next_validation: 收集该产品的官方定价页或文档，核对它按什么单位计价、抓取与检查的具体输出内容。
+  market: ''
+  job: SEO 从业者在为独立站或客户站点做优化时，需要抓取页面、检查站点问题并整理成可执行的优化清单。
+  job_en: SEO practitioners optimizing an independent site or a client site need to crawl pages, check
+    site issues, and turn them into an actionable optimization list.
+  pain: 站点检查要在浏览器、爬虫工具和表格之间反复切换，重复劳动多，问题清单整理耗时。
+  pain_en: Site checks bounce between a browser, crawling tools, and spreadsheets, creating repetitive
+    work and slow issue-list assembly.
+  current_alternative: 目前多用独立爬虫工具加表格手工整理，或使用带界面的 SEO 平台逐项查看。
+  current_alternative_en: Today this is mostly done with standalone crawlers plus manual spreadsheet work,
+    or by reviewing items one by one in an SEO platform with a UI.
+  usage_reason: 推断：把抓取与检查动作交给代理在对话里触发，省去在多个工具界面之间切换和手工汇总这一步，因此常做站点巡检的 SEO 从业者可能选择它；公开材料未给出客户案例或付费证据。
+  usage_reason_en: 'Inference: letting an agent trigger crawling and checking inside a conversation removes
+    the step of switching between tool interfaces and manually consolidating results, so SEO practitioners
+    doing frequent site audits may choose it; no customer cases or payment evidence are given publicly.'
+- id: req-full-crawlraven-mcp-2026-10-01
+  project_slug: crawlraven-mcp
+  level: full
+  reviewed_at: '2026-10-01T01:53:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 从业者站点巡检时在浏览器、爬虫工具和表格之间反复切换、问题清单整理耗时的问题；不采用则巡检停留在手工汇总，效率低且易漏项。产品页定位支持这一任务结构，属工作流推理。
+    evidence_ids:
+    - ev-1afbec912095b180
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句定位外，没有采用、评价或使用规模信息，无法判断 SEO 从业者是否真的把它接入日常流程。
+    evidence_ids:
+    - ev-1afbec912095b180
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断按次、按站点还是按席位收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1afbec912095b180
+  - gate: truth
+    status: insufficient
+    reason: 无法核对抓取结果的准确性、是否覆盖真实站点问题，以及人工复核边界，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-1afbec912095b180
+  next_validation: 收集 CrawlRaven MCP 的官方定价页或文档，核对它按什么单位计价、抓取与检查的具体输出内容。
+  market: ''
+  job: SEO 从业者在为独立站或客户站点做优化时，需要抓取页面、检查站点问题并整理成可执行的优化清单。
+  job_en: SEO practitioners optimizing an independent site or a client site need to crawl pages, check
+    site issues, and turn them into an actionable optimization list.
+  pain: 站点检查要在浏览器、爬虫工具和表格之间反复切换，重复劳动多，问题清单整理耗时。
+  pain_en: Site checks bounce between a browser, crawling tools, and spreadsheets, creating repetitive
+    work and slow issue-list assembly.
+  current_alternative: 目前多用独立爬虫工具加表格手工整理，或使用带界面的 SEO 平台逐项查看。
+  current_alternative_en: Today this is mostly done with standalone crawlers plus manual spreadsheet work,
+    or by reviewing items one by one in an SEO platform with a UI.
+  usage_reason: 推断：相较在独立爬虫工具与表格之间切换，CrawlRaven MCP 把抓取与检查动作交给 AI 代理在对话里触发，省去切换工具界面和手工汇总这一步，因此常做站点巡检的 SEO
+    从业者可能选择它；公开材料未给出客户案例或付费证据。
+  usage_reason_en: 'Inference: compared with switching between standalone crawlers and spreadsheets, CrawlRaven
+    MCP lets an AI agent trigger crawling and checking inside a conversation, removing the step of switching
+    tool interfaces and manually consolidating results, so SEO practitioners doing frequent site audits
+    may choose it; no customer cases or payment evidence are given publicly.'

@@ -1,0 +1,85 @@
+- id: req-initial-voice-memo-2026-10-01
+  project_slug: voice-memo
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音备忘录完堆积、需事后重听抄写的问题，痛点具体且不解决就会遗漏任务；买方是谁尚不清楚。
+    evidence_ids:
+    - ev-e1aec5d08fc6786b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品说明，没有采用或留存证据，无法判断用户是否长期用它替代录音加手工整理。
+    evidence_ids:
+    - ev-e1aec5d08fc6786b
+  - gate: model
+    status: insufficient
+    reason: 开源产品未披露定价，钱可能来自个人订阅或后续增值，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e1aec5d08fc6786b
+  - gate: truth
+    status: insufficient
+    reason: 口述内容被自动拆成任务与提醒，识别错误会直接产生错误待办，公开材料未说明确认与纠错机制。
+    evidence_ids:
+    - ev-e1aec5d08fc6786b
+  next_validation: 收集该开源仓库的 issue 与发布说明，确认语音到任务的识别准确度与人工确认流程。
+  market: ''
+  job: 个人用户或自由职业者在走动或忙碌时录下语音备忘，处理口述的任务与提醒内容，要完成把零散口述变成可执行的待办条目。
+  job_en: An individual user or freelancer records voice notes while moving or busy, working with spoken
+    tasks and reminders to turn scattered speech into actionable to-do items.
+  pain: 语音备忘录完往往堆在录音列表里，需要事后重听并手工抄成任务，容易遗漏或拖延。
+  pain_en: Voice notes pile up in a recording list and must be replayed and manually copied into tasks
+    afterwards, which invites omissions and delay.
+  current_alternative: 目前多靠系统自带录音加手工整理，或使用转写工具后再自行拆分成待办。
+  current_alternative_en: Today people use built-in recorders plus manual sorting, or a transcription
+    tool followed by splitting the text into to-dos themselves.
+  usage_reason: 相较录完再重听并手工抄写，它把口述内容直接整理成任务与提醒，省掉事后重听与拆分这一步，因此习惯用语音记录的人会尝试；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with replaying and hand-copying after recording, it turns spoken content directly
+    into tasks and reminders, removing the replay-and-split step, so people who habitually record by voice
+    may try it; this is an inference from capability, not user feedback.
+- id: req-full-voice-memo-2026-10-01
+  project_slug: voice-memo
+  level: full
+  reviewed_at: '2026-10-01T01:56:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向电视节目 The Voice 与 Google Voice 电话服务，没有任何一条描述语音备忘整理任务、痛点或替代行为，连解决什么需求都无法从证据还原。
+    evidence_ids:
+    - ev-d479983bc1c51481
+    - ev-b4364ff278507bf1
+    - ev-70749730df410985
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 README、issue 与 release notes，确认语音到任务的识别准确度、归档规则与人工确认流程。
+  market: ''
+  job: 个人用户或自由职业者在走动、通勤或忙碌时录下语音备忘，处理口述的任务与提醒内容，要完成把零散口述变成可执行待办条目。
+  job_en: An individual user or freelancer records voice notes while moving, commuting, or busy, working
+    with spoken tasks and reminders to turn scattered speech into actionable to-do items.
+  pain: 公开证据中没有任何一条描述语音备忘堆积、事后重听抄写或遗漏任务的实际痛点，全部证据指向电视节目 The Voice 与 Google Voice 电话服务，与语音备忘整理任务无关。
+  pain_en: No public evidence describes the actual pain of voice notes piling up, being replayed and hand-copied,
+    or tasks being missed; all evidence points to the TV show The Voice and Google Voice phone service,
+    unrelated to voice-note triage.
+  current_alternative: 公开材料未提供任何关于用户当前如何绕过该问题的替代方式信息，无法确认是系统录音加手工整理还是转写工具。
+  current_alternative_en: Public material provides no information on how users currently work around this
+    problem, so it cannot be confirmed whether it is a built-in recorder plus manual sorting or a transcription
+    tool.
+  usage_reason: 缺少可引用的产品说明、用户反馈或客户案例，无法解释用户为何会选择它而非旧做法；现有证据全部为无关内容，不能支撑使用理由。
+  usage_reason_en: With no citable product description, user feedback, or customer case, there is no way
+    to explain why a user would choose it over the old approach; all existing evidence is irrelevant and
+    cannot support a usage reason.

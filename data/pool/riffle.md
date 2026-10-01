@@ -21,7 +21,7 @@ canonical_url: https://github.com/voising/riffle
 summary: Switch between windows of the current Mac app with Option-Tab
 first_seen: '2026-09-30T14:44:10Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

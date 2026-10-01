@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1saGNhV1hBYWZ5
 summary: 首部AI电影定档！AIGC概念走强 融资客抢筹TOP20来了 东方财富
 first_seen: '2026-09-29T20:25:31Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

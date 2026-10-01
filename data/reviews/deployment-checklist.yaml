@@ -79,3 +79,52 @@
   usage_reason_en: 'The task is: Web and mobile app teams checking a pre-deployment list item by item
     before release, so security settings are not missed Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-deployment-checklist-2026-10-01
+  project_slug: deployment-checklist
+  level: full
+  reviewed_at: '2026-10-01T01:53:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前安全与配置项易漏的需求，痛点是漏项会把错误配置带入生产；公开事实显示仓库提供语言无关、安全为主、含人工与 AI 代理两版的部署前清单，可还原输入—核对—勾选交付闭环，属工作流结构推理，尚无漏项频率或事故代价的量化数据。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-708aa91eb6727a9c
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实仅有仓库 40→41 星、7 次复刻，说明有开发者关注并复制使用，但无 issue、discussion 或评价说明谁在何种场景持续采用，关注度不能替代持续使用证据。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-708aa91eb6727a9c
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未给出定价页、付费主体或 to B/to C 收费路径；谁付钱只能推断为团队自用或后续增值服务，属判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-748ee345bf608129
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明清单与两个版本存在，未披露具体条目、AI 代理如何执行检查、是否产出报告，交付能否稳定发生与人工安全边界缺少可复现证据。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-708aa91eb6727a9c
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认清单条目、AI 代理版本的实际执行方式与是否产出可核对报告。
+  market: ''
+  job: Web 与移动应用团队在上线前，由开发者或安全负责人打开这份语言无关的部署前清单，逐项核对安全与配置事项，并可用面向 AI 代理的版本让代理按同一清单检查，最终得到一份可勾选的检查结果。
+  job_en: Before release, web and mobile app teams have a developer or security owner work through a language-agnostic
+    pre-deployment checklist item by item, optionally having an AI agent run the same list, producing
+    a checked result.
+  pain: 上线前的安全与配置项分散在多个环节，靠记忆或临时脚本容易漏项，漏掉一项就可能把错误配置带到生产环境；公开材料只说明清单存在，未给出漏项频率或事故代价的量化数据。
+  pain_en: Pre-release security and configuration items are scattered across steps; relying on memory
+    or ad-hoc scripts risks omissions that push misconfigurations into production. Public materials show
+    the checklist exists but give no quantified omission or incident cost.
+  current_alternative: 旧做法是团队自建 wiki 清单、复制粘贴旧项目的检查表，或依赖 CI 脚本与人工评审；公开材料未说明它具体替代了哪一种。
+  current_alternative_en: Teams today keep self-built wiki lists, copy checklists from past projects,
+    or rely on CI scripts and manual review; public materials do not say which one this replaces.
+  usage_reason: 推断：相较自建清单，它把安全与配置项集中成一份语言无关、可勾选的清单，并额外提供 AI 代理版本，使代理能按同一份条目执行检查，减少团队自己维护清单和逐条转述给代理的负担；因此缺少专职安全人员、又需要在上线前系统核对的小型
+    Web 与移动团队会在发布前选择它。
+  usage_reason_en: 'Inference: versus self-built lists, it consolidates security and configuration items
+    into one language-agnostic, checkable list and adds an AI-agent version so an agent can run the same
+    items, cutting the burden of maintaining a list and restating it to an agent; small web and mobile
+    teams without dedicated security staff would pick it before release.'

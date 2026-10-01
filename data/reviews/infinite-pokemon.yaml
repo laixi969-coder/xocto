@@ -172,3 +172,47 @@
     leaving the developer to maintain saves and rules; but with no user feedback, cases or repeat-use
     evidence, this cannot be confirmed as a real reason to choose it — it reads more like a technical
     demo.'
+- id: req-full-infinite-pokemon-2026-10-01
+  project_slug: infinite-pokemon
+  level: full
+  reviewed_at: '2026-10-01T01:54:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决无限内容供给与持续可玩的问题，但公开材料只有一句功能描述，未说明玩家或开发者遇到的具体痛点、频率与不采用代价；生成式无限冒险更接近技术演示，缺少“没有它就不行”的刚性证据，属自嗨拼凑风险。
+    evidence_ids:
+    - ev-b91fb2c94d04b757
+    - ev-6847ba2ef76d6d05
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认是否有玩家或开发者反馈实际游玩、接入或生成内容可用性，以判断是否存在真实使用而非仅星标关注。
+  market: ''
+  job: 玩家或同人创作者打开一个宝可梦式网页冒险，在由 Codex 生成的地图与 NPC 中持续探索、分支存档并多人同玩，要完成的是“永远有下一段可玩内容”的连续游玩任务。
+  job_en: A player or fan creator opens a Pokémon-style web adventure, exploring Codex-generated maps
+    and NPCs with branching saves and multiplayer, to complete the task of always having a next playable
+    stretch of content.
+  pain: 公开材料只说明地图、NPC 与剧情由模型生成、冒险不会结束，未给出玩家抱怨内容枯竭、开发者手工写关卡成本高或任何旧流程受阻的事实；痛点强度只能靠推测，缺少可引用的用户侧证据。
+  pain_en: Public material only states that maps, NPCs and story are model-generated and the adventure
+    never ends; it gives no player complaint about content exhaustion, no developer pain about hand-authoring
+    levels, and no blocked old workflow, so pain intensity rests on speculation without citable user-side
+    evidence.
+  current_alternative: 玩有限流程的宝可梦式独立游戏或同人作品，或由开发者手工编写关卡与对白、使用现成引擎与素材库。
+  current_alternative_en: Playing finite Pokémon-style indie or fan games, or hand-authoring levels and
+    dialogue with existing engines and asset libraries.
+  usage_reason: 推断：相较手工写关卡，它把“生成新地图与 NPC”这一步交给模型，玩家无需等待更新即可继续探索；但公开材料没有用户反馈或案例说明有人因此选择它，仓库星标只反映关注度，不能证明这是真实使用理由。
+  usage_reason_en: 'Inference: versus hand-writing levels, it hands the step of generating new maps and
+    NPCs to a model so players can keep exploring without waiting for updates; yet no public feedback
+    or case shows anyone choosing it for this reason, and repository stars reflect attention, not a proven
+    usage reason.'

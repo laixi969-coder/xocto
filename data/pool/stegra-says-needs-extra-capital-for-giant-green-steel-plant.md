@@ -24,7 +24,7 @@ summary: Swedish green steel startup Stegra today saidit would need extra capita
   said...
 first_seen: '2026-09-30T10:09:26Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

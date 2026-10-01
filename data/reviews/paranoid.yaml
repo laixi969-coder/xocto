@@ -78,3 +78,46 @@
   usage_reason: 用户要完成的任务是：应用安全测试；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Application security testing Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-paranoid-2026-10-01
+  project_slug: paranoid
+  level: full
+  reviewed_at: '2026-10-01T01:54:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述了用真实请求入侵自身应用并留证修补的任务，但全部公开证据是 Paranoia 词条、词典释义与 Black Sabbath 歌曲视频，与产品无关，无法还原用户痛点、旧替代与不解决的后果，价值结构无从建立。
+    evidence_ids:
+    - ev-936fd246b1799298
+    - ev-a03b49d7eb983c67
+    - ev-474dbfa62d11ac42
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 agent 技能的官方仓库 README、issue 与 discussion，确认其真实支持的框架、漏洞复现请求格式与修补后重新验证的公开记录。
+  market: ''
+  job: 开发者在上线前，把正在运行的 Web 应用交给该 agent 技能，用真实请求尝试入侵自己的应用，为每个漏洞留下可复现请求证据，再打补丁并重新验证，最终交付一份带复现请求的漏洞清单与修补状态。
+  job_en: Before release, a developer hands a running web app to this agent skill, which attempts real-request
+    intrusions against the app, records a reproducible request for each bug, patches it, and re-verifies,
+    delivering a bug list with reproduction requests and patch status.
+  pain: 公开证据中没有一条来自该产品的用户材料：现有证据全部是 Paranoia 词条、Merriam-Webster 释义和 Black Sabbath 歌曲视频，无法说明开发者在应用安全测试中遇到的具体痛点、频率或不解决的后果。
+  pain_en: 'No evidence comes from this product''s users: all items are the Paranoia encyclopedia entry,
+    a dictionary definition, and a Black Sabbath music video, so they cannot show the specific pain, frequency,
+    or consequence developers face in application security testing.'
+  current_alternative: 公开材料未说明开发者目前如何完成这项工作，也未说明它替代了 SAST/DAST 扫描器、渗透测试服务还是人工代码审计。
+  current_alternative_en: Public materials do not show how developers currently do this job, nor whether
+    it replaces SAST/DAST scanners, penetration-testing services, or manual code review.
+  usage_reason: 无法从现有证据判断：所有引用证据与产品功能无关，既无用户反馈也无客户案例，因此不能说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged from current evidence: all cited items are unrelated to the product,
+    with no user feedback or customer cases, so it is impossible to say which users would choose it and
+    when.'

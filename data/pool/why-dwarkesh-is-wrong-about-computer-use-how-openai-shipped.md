@@ -22,7 +22,7 @@ summary: Our DevDay coverage - the first pod on the DevDay lineup - dives in wit
   CUA team and API platform.
 first_seen: '2026-09-30T22:23:40Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

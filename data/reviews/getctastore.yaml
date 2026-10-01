@@ -1,0 +1,89 @@
+- id: req-initial-getctastore-2026-10-01
+  project_slug: getctastore
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是录制时看稿与看镜头冲突的问题，痛点具体，但公开材料未说明 AI 的实际作用与不采用的后果。
+    evidence_ids:
+    - ev-ecd9f7e1d4fcbddb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布信息，没有用户评价或采用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-ecd9f7e1d4fcbddb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅或团队采购均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-ecd9f7e1d4fcbddb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对提词滚动与 AI 改写的确定性交付，也未说明人工确认环节。
+    evidence_ids:
+    - ev-ecd9f7e1d4fcbddb
+  next_validation: 收集 getcta.store 官方定价页或功能说明，确认 AI 在提词流程中具体执行哪一步。
+  market: ''
+  job: 视频创作者或讲师在录制口播时，需要一边看讲稿一边保持看镜头，完成一条可用的录制。
+  job_en: A video creator or instructor recording to camera needs to read a script while keeping eye contact
+    with the lens to finish a usable take.
+  pain: 看稿会偏离镜头，重录次数多；手机或第二屏提词又需要额外设备与摆放，公开材料未说明它如何解决这些负担。
+  pain_en: Reading a script pulls the gaze off the lens and forces retakes, while phone or second-screen
+    prompting needs extra gear and setup; public material does not show how it removes these burdens.
+  current_alternative: 用手机提词 App、第二块屏幕或打印讲稿，靠记忆和多次重录完成。
+  current_alternative_en: Phone teleprompter apps, a second screen, or printed scripts, relying on memory
+    and multiple retakes.
+  usage_reason: 推断：把提词放在刘海区域可让视线更接近镜头，减少重录；但公开材料未说明 AI 具体做什么、是否支持讲稿改写，也无用户反馈，无法确认它比现有提词方式更省事。
+  usage_reason_en: 'Inference: placing the prompt in the notch area keeps the gaze closer to the lens
+    and cuts retakes; however, public material does not say what the AI does or whether it rewrites scripts,
+    and there is no user feedback, so it is unclear whether it beats existing prompting methods.'
+- id: req-full-getctastore-2026-10-01
+  project_slug: getctastore
+  level: full
+  reviewed_at: '2026-10-01T01:53:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决录制口播时看稿与看镜头冲突的需求：视线偏离镜头导致重录，手机或第二屏提词需额外设备与摆放。刘海区域显示提词可减少视线偏移与架设步骤，痛点具体、交付动作明确，属工作流结构推理；AI
+      具体作用与不采用后果未公开。
+    evidence_ids:
+    - ev-ecd9f7e1d4fcbddb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开资料 发布信息，没有用户评价、采用数据或社区讨论，无法判断创作者是否已把它纳入录制流程，也看不出卡在感知还是场景环节。
+    evidence_ids:
+    - ev-ecd9f7e1d4fcbddb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅或团队采购均属推断而非已验证事实；谁付钱说不清，但这是判断，不影响价值关成立。
+    evidence_ids:
+    - ev-ecd9f7e1d4fcbddb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对提词滚动与 AI 改写的确定性交付，也未说明讲稿内容是否上传、隐私与人工确认边界，第一性目标贴近度待公开文档确认。
+    evidence_ids:
+    - ev-ecd9f7e1d4fcbddb
+  next_validation: 追踪 getcta.store 官网定价页与功能说明，确认 AI 在提词流程中具体执行哪一步、讲稿是否上传及交付形态。
+  market: ''
+  job: 口播视频创作者或课程讲师在 Mac 上录制时，把写好的讲稿交给 getcta.store，让提词内容显示在屏幕刘海区域，一边看稿一边保持看镜头，完成一条可用录制。
+  job_en: A talking-head video creator or course instructor recording on a Mac hands the script to getcta.store,
+    which shows the prompt in the MacBook notch area, so they can read while keeping eye contact with
+    the lens and finish a usable take.
+  pain: 看稿会让视线偏离镜头，导致重录次数增加；用手机提词 App 或第二块屏幕又需要额外设备与摆放，录制现场多一步准备。
+  pain_en: Reading a script pulls the gaze off the lens and increases retakes; phone teleprompter apps
+    or a second screen require extra gear and setup, adding a preparation step on set.
+  current_alternative: 手机提词 App、第二块屏幕、打印讲稿，或靠记忆与多次重录完成。
+  current_alternative_en: Phone teleprompter apps, a second screen, printed scripts, or relying on memory
+    and multiple retakes.
+  usage_reason: 推断：把提词放进刘海区域，用户视线只需小幅偏移即可读稿，省去架设手机或第二屏的摆放步骤，也让视线更接近镜头；因此常录口播、又不想添置提词硬件的 Mac 用户会在录制时选择它。公开材料未说明
+    AI 具体改写还是仅滚动显示，也无用户反馈，采用动机属结构推断。
+  usage_reason_en: 'Inference: placing the prompt in the notch area lets the user read with only a small
+    gaze shift, removes the step of mounting a phone or second screen, and keeps the gaze closer to the
+    lens; Mac users who record talking-head videos often and do not want extra prompting hardware would
+    choose it. Public material does not say whether the AI rewrites or only scrolls the script, and there
+    is no user feedback, so the adoption motive is a structural inference.'

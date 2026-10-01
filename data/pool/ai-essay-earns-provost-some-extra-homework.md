@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxOaGl6cGRWZG9i
 summary: AI essay earns provost some extra homework businessinsurance.com
 first_seen: '2026-09-30T21:13:57Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

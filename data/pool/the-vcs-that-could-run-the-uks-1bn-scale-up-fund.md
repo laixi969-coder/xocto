@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/vc-manage-uk-scale-up-fund
 summary: ''
 first_seen: '2026-09-30T05:00:54Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

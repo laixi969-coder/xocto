@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=49908611
 summary: open a 1TB Linux environment in under a second
 first_seen: '2026-09-30T13:24:42Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

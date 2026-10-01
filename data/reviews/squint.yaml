@@ -1,0 +1,86 @@
+- id: req-initial-squint-2026-10-01
+  project_slug: squint
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决屏幕局部内容的理解需求，但公开材料未说明替代了哪一步旧工作，也缺少痛点与采用证据，价值结构无法确认。
+    evidence_ids:
+    - ev-77cead106aef7612
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、社区讨论或使用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-77cead106aef7612
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-77cead106aef7612
+  - gate: truth
+    status: insufficient
+    reason: 无法核对框选内容的识别准确度、隐私处理与人工确认环节，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-77cead106aef7612
+  next_validation: 收集该产品的官方定价页或帮助文档，确认框选内容如何被处理、支持哪些材料类型以及是否提供付费方案。
+  market: ''
+  job: 用户在查看网页、报表或软件界面时，框选屏幕上的一块区域，希望 AI 直接解释或处理这块内容。
+  job_en: A user viewing a web page, report, or software interface boxes a region of the screen and wants
+    AI to explain or process that content.
+  pain: 公开材料未说明用户此前如何完成同一件事，也没有抱怨或绕行证据，痛点强度无法从现有事实判断。
+  pain_en: Public material does not say how users did this before, and offers no complaints or workarounds,
+    so pain intensity cannot be judged from available facts.
+  current_alternative: 截图后粘贴到通用聊天工具，或手动复制文字再提问；具体差异未在材料中说明。
+  current_alternative_en: Screenshotting and pasting into a general chat tool, or copying text manually
+    before asking; the material does not explain the differences.
+  usage_reason: 推断：若框选后无需截图、粘贴、切窗口即可提问，用户可省去把屏幕内容搬进聊天框的搬运步骤；但公开材料没有用户反馈或采用证据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if boxing a region removes the need to screenshot, paste, and switch windows
+    before asking, users could skip the step of moving screen content into a chat box; however, no user
+    feedback or adoption evidence is provided, so this causal claim is unconfirmed.'
+- id: req-full-squint-2026-10-01
+  project_slug: squint
+  level: full
+  reviewed_at: '2026-10-01T01:55:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 框选提问的交互描述与官网一线运营定位互相矛盾，既写不出谁在什么情况下处理什么材料要完成什么任务，也没有痛点、旧替代或不采用后果的公开事实，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-e45e66ab5e6af3fc
+    - ev-04b9c0576e73a18e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 squint.ai 官网的产品页、帮助文档或定价页，确认其真实定位是屏幕框选问答还是一线运营知识平台，以及是否披露客户案例与付费方案。
+  market: ''
+  job: 公开材料只给出「在屏幕上框选一块区域后向 AI 提问」这一交互描述，未说明谁在什么情况下、处理哪类材料、要完成什么任务；官网实际指向制造业、能源与现场服务的一线运营知识捕获与执行引导，与框选提问的定位不一致，无法还原具体使用场景。
+  job_en: Public material only describes 'drag a box on screen and ask AI about it' without saying who,
+    in what situation, with what material, or to finish what task; the official site actually points to
+    frontline operations knowledge capture and execution guidance in manufacturing, energy, and field
+    service, which conflicts with the box-and-ask framing, so no concrete job can be reconstructed.
+  pain: 没有可引用的用户抱怨、绕行行为或客户案例说明一线运营人员当前卡在哪一步；官网「捕获知识、引导执行」是产品能力陈述，不是痛点证据，痛点强度无法从公开事实判断。
+  pain_en: No citable user complaints, workarounds, or customer cases show where frontline operators currently
+    get stuck; the site's 'capture knowledge, guide execution' is a product capability statement, not
+    pain evidence, so pain intensity cannot be judged from public facts.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同一件事，也没有可核对的旧流程描述；截图后粘贴到通用聊天工具只是常见做法的一般性推测，不是该项目证据支持的替代方式。
+  current_alternative_en: Public material does not say how users previously did the same thing, nor describe
+    a checkable old workflow; screenshotting into a general chat tool is only a generic guess, not an
+    alternative supported by this project's evidence.
+  usage_reason: 无法写出使用理由：材料既未说明框选后 AI 读取什么、输出什么、是否需要人工复核，也没有用户反馈或采用证据，无法解释相较旧做法减少了哪一步负担，因此不能推断用户为何选择它。
+  usage_reason_en: 'No usage reason can be written: the material does not say what the AI reads, what
+    it outputs, or whether human review is required, and there is no user feedback or adoption evidence,
+    so it cannot explain which step is reduced versus the old way or why users would choose it.'

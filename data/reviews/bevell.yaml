@@ -1,0 +1,79 @@
+- id: req-initial-bevell-2026-10-01
+  project_slug: bevell
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开材料还原，价值关无法成立。
+    evidence_ids:
+    - ev-b3ca1ca9bd0f9f72
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注度证据。
+    evidence_ids:
+    - ev-b3ca1ca9bd0f9f72
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均未披露。
+    evidence_ids:
+    - ev-b3ca1ca9bd0f9f72
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-b3ca1ca9bd0f9f72
+  next_validation: 收集 Bevell 官方产品页或文档，确认它接收的输入、执行的具体动作与输出交付物。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下处理什么图纸、要完成什么任务。
+  job_en: Public material does not identify the user or scenario, so it is unclear who handles which drawings
+    under what conditions to complete what task.
+  pain: 无法从现有材料判断 CAD 流程中哪一步存在被自动化解决的痛点。
+  pain_en: Existing material does not show which step of the CAD workflow has a pain point that automation
+    addresses.
+  current_alternative: 未披露，无法确认现有替代方式是人工改图、脚本还是其他 CAD 插件。
+  current_alternative_en: Not disclosed; it is unclear whether the current alternative is manual editing,
+    scripts or other CAD plugins.
+  usage_reason: 缺少功能、输入输出与替代对象的具体说明，无法解释用户为何会选择它，也无法与旧做法比较。
+  usage_reason_en: Without specifics on features, inputs/outputs or the replaced step, there is no basis
+    to explain why a user would choose it over the old approach.
+- id: req-full-bevell-2026-10-01
+  project_slug: bevell
+  level: full
+  reviewed_at: '2026-10-01T01:52:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有一句“CAD automation where it counts”，未交代谁在哪个设计节点使用、接收什么图纸或参数、输出什么交付物，连需求与痛点都无法还原，价值关无法成立。
+    evidence_ids:
+    - ev-b3ca1ca9bd0f9f72
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Bevell 官方产品页或文档，确认它接收的输入（图纸/参数）、执行的具体 CAD 动作与输出交付物。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下处理什么图纸、要完成什么任务。
+  job_en: Public material does not identify the user or scenario, so it is unclear who handles which drawings
+    under what conditions to complete what task.
+  pain: 无法从现有材料判断 CAD 流程中哪一步存在被自动化解决的痛点。
+  pain_en: Existing material does not show which step of the CAD workflow has a pain point that automation
+    addresses.
+  current_alternative: 未披露，无法确认现有替代方式是人工改图、脚本还是其他 CAD 插件。
+  current_alternative_en: Not disclosed; it is unclear whether the current alternative is manual editing,
+    scripts or other CAD plugins.
+  usage_reason: 缺少功能、输入输出与替代对象的具体说明，无法解释用户为何会选择它，也无法与旧做法比较。
+  usage_reason_en: Without specifics on features, inputs/outputs or the replaced step, there is no basis
+    to explain why a user would choose it over the old approach.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMzFZMUFoU1lZ
 summary: 晚报：算力网络与AI智能体共振，产业升级动能澎湃 搜狐网
 first_seen: '2026-09-30T13:25:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

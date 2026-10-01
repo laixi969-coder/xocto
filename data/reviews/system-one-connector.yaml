@@ -198,3 +198,46 @@
   usage_reason_en: 'The task is: Developers calling external models inside agent flows to quickly evaluate
     content or outputs Public materials do not yet explain why users choose this product over their existing
     approach.'
+- id: req-full-system-one-connector-2026-10-01
+  project_slug: system-one-connector
+  level: full
+  reviewed_at: '2026-10-01T01:55:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要只描述连接器把 Jev、Laya 暴露给代理，未给出任何用户任务细节、痛点、频率或旧替代行为；所引证据全部是 system 一词的词典释义、Systeme.io 官网与维基百科条目，与本产品无关，无法还原需求。
+    evidence_ids:
+    - ev-c5b7c874f03898b5
+    - ev-291599db34cb0b57
+    - ev-7214f2014c472e93
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 MCP 连接器的官方仓库 README、issue 与 discussion，确认其评估口径、被替代的旧流程及是否有开发者实际部署记录。
+  market: ''
+  job: 开发者（推断）在代理流程中需要对外部内容或模型输出做一次快速评估时，接入该 MCP 连接器，把 Typesafe AI 的 Jev、Laya 等模型暴露给代理，由代理发起调用并取回评估结果。
+  job_en: Developers (inferred) wiring an MCP connector into an agent flow so the agent can call Typesafe
+    AI's Jev and Laya models to obtain a quick evaluation of external content or model output.
+  pain: 公开材料未记录任何用户痛点：没有开发者抱怨现有评估方式慢、贵或不可靠，也没有 workaround、issue 或客户案例说明不解决会付出什么代价。
+  pain_en: 'Public materials record no user pain: no developer complaints about existing evaluation being
+    slow, costly, or unreliable, and no workaround, issue, or customer case showing the cost of leaving
+    it unsolved.'
+  current_alternative: 公开材料未说明开发者目前如何完成这类评估（自建脚本、直接调用模型 API、人工抽查或其他连接器），因此无法判断它替代了哪一步。
+  current_alternative_en: Public materials do not show how developers currently perform this evaluation
+    (custom scripts, direct model API calls, manual spot checks, or other connectors), so what step it
+    replaces cannot be determined.
+  usage_reason: 推断：若代理已用 MCP 编排工具链，接入连接器可省去为 Jev、Laya 单独写适配代码这一步；但公开材料没有任何用户反馈或案例支持这一动机，也无从核对结果改善。
+  usage_reason_en: 'Inference: if an agent already orchestrates tools via MCP, adding the connector could
+    remove the step of writing bespoke adapters for Jev and Laya; however, no public user feedback or
+    case supports this motive, and no outcome improvement can be checked.'

@@ -1,6 +1,6 @@
 ---
 slug: blackwall-jumps-368-to-become-estonias-newest-unicorn
-name: Blackwall jumps 368% to become Estonia’s newest unicorn
+name: Blackwall
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Cybersecurity company Blackwall has reached a €1 billion valuation an
   2026 , the annual ranking of Estonia's 30 most valuable tech companies. Wise tops the table at €11 billion...
 first_seen: '2026-09-30T06:00:00Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Blackwall jumps 368% to become Estonia’s newest unicorn
+# Blackwall
 
 Cybersecurity company Blackwall has reached a €1 billion valuation and ranks fifth in TopTech 2026 , the annual ranking of Estonia's 30 most valuable tech companies. Wise tops the table at €11 billion...
 

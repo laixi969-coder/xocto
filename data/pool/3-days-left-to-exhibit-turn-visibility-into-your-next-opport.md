@@ -22,7 +22,7 @@ summary: Three days left to exhibit at TechCrunch Disrupt 2026. Book by October 
   showcase your startup to 10,000+ founders, investors, operators, and tech leaders.
 first_seen: '2026-09-30T14:15:00Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

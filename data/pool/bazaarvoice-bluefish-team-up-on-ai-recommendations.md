@@ -1,6 +1,6 @@
 ---
 slug: bazaarvoice-bluefish-team-up-on-ai-recommendations
-name: Bazaarvoice & Bluefish team up on AI recommendations
+name: Bazaarvoice
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNYURPSzJhaVJs
 summary: Bazaarvoice & Bluefish team up on AI recommendations ecommercenews.com.au
 first_seen: '2026-09-30T20:32:55Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Bazaarvoice & Bluefish team up on AI recommendations
+# Bazaarvoice
 
 Bazaarvoice & Bluefish team up on AI recommendations ecommercenews.com.au
 

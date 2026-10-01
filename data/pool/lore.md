@@ -3,25 +3,24 @@ slug: lore
 name: lore
 builder: hsusul
 category: AI + 开发
-summary_zh: 使用 Claude Code、Codex 等编码代理的开发者，在需要回忆此前会话里改过什么、为什么改时，原本要翻散落在本地的会话日志；lore 把这些会话归档成本地可检索的存档，让开发者按关键词找回历史改动记录。具体检索粒度与交付形态仍待核验。
-inspiration: 趋势：编码代理开始被当成需要长期记忆的同事，会话记录本身变成可检索资产。切入：从需要审计与交接的团队入手，把代理会话沉淀成可追溯的变更档案，而不是再做一个代理外壳。
-summary_en: Developers using coding agents such as Claude Code and Codex previously had to dig through
-  scattered local session logs to recall what changed and why; lore archives those sessions into a local,
-  searchable store so past changes can be retrieved by keyword. The exact retrieval granularity and delivery
-  format still need verification.
-inspiration_en: 'Trend: coding agents are being treated as long-lived collaborators, so their session
-  records become a searchable asset. Entry: start with teams that need audit and handover, turning agent
-  sessions into a traceable change archive rather than another agent wrapper.'
+summary_zh: 使用 Claude Code 或 Codex 的开发者，在需要回看之前会话里做过的改动或结论时，打开这个本地工具，它把历史会话整理成可搜索的本地存档，用户拿到的是可检索的过往记录；具体检索方式与交付形态仍待核验。
+inspiration: 趋势是编程助手会话正在变成需要长期保存的工作资产，而不是用完即弃的对话。切入可放在团队级会话归档与合规留痕，按席位或按存储量收费，但公开材料未披露定价。
+summary_en: Developers using Claude Code or Codex open this local tool when they need to look back at
+  earlier sessions; it turns past sessions into a searchable local archive, and the exact retrieval flow
+  and deliverable still need verification.
+inspiration_en: The trend is that coding-assistant sessions are becoming long-lived work assets rather
+  than disposable chats. An entry point is team-level session archiving and compliance retention, priced
+  per seat or per storage, though no pricing is disclosed in public materials.
 priority_review: false
 project_type: open_source
 industries:
-- 软件与信息技术服务
+- 软件与信息服务
 industries_en:
 - Software and IT services
 jobs:
-- 软件工程师
+- AI 编程助手使用者
 jobs_en:
-- Software engineers
+- AI coding assistant users
 regions: []
 regions_en: []
 open_source: true
@@ -30,7 +29,7 @@ canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

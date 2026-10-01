@@ -180,3 +180,58 @@
     the pack packages these steps as importable modules, cutting the implementation and debugging steps,
     so developers assembling long-horizon agents would pick it when they need cross-model, cross-tool
     execution; no user feedback or case yet confirms this motive.'
+- id: req-full-hermes-jev-skills-2026-10-01
+  project_slug: hermes-jev-skills
+  level: full
+  reviewed_at: '2026-10-01T01:54:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长任务 agent 的上下文耗尽、记忆丢失与模型/技能调度需自建的问题，痛点来自 agent 工作流本身；不采用就得自己写路由与压缩逻辑，失败重跑代价高。这是工作流结构推理，仓库说明与收藏增长提供公开事实支撑，尚无用户抱怨或案例直接佐证痛点强度。
+    evidence_ids:
+    - ev-6a4b2567178801b5
+    - ev-b4c59d46367a07c0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 823 增至 938，说明开发者社区持续关注，但收藏与关注度不等于持续采用；公开材料没有 issue、discussion 或部署记录显示开发者已把它留在日常 agent
+      工作流里，强场景是否成立仍缺行为证据。
+    evidence_ids:
+    - ev-6a4b2567178801b5
+    - ev-b4c59d46367a07c0
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能包，公开材料未见定价页、付费主体或商业条款，钱可能来自 to C 开发者赞助、to B 支持或 to VC 叙事，均属判断而非已验证事实；没有融资叙事单独支撑，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-6a4b2567178801b5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有仓库描述与收藏数，没有部署文档、可复现实测或 issue 记录，无法确认模型路由、记忆压缩与电脑/浏览器操作在真实长任务中能否确定性交付，人工与安全边界也未说明。
+    evidence_ids:
+    - ev-6a4b2567178801b5
+    - ev-fd518f81310538f6
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README/部署文档，确认是否有开发者公开报告在 Hermes、Claude Code 或 Codex
+    中实际部署并替代了自建路由与记忆逻辑。
+  market: ''
+  job: 搭建 Hermes、Claude Code 或 Codex 智能体的开发者，在组装长任务 agent 时引入这套技能包，处理模型调用、上下文与记忆、技能选择以及电脑/浏览器操作，让 agent
+    能跨多步持续执行而不中断。
+  job_en: Developers building Hermes, Claude Code, or Codex agents install this skill pack while assembling
+    a long-horizon agent, handling model routing, context and memory, skill selection, and computer/browser
+    actions so the agent can keep executing across many steps without stalling.
+  pain: 长任务 agent 的公开痛点集中在上下文窗口耗尽、记忆丢失、模型选择与技能调度需要自己拼装；不解决就要开发者自行写路由、压缩与记忆逻辑，长任务中途失败后重跑成本高。这是从产品能力与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: The public pain of long-horizon agents centers on context exhaustion, memory loss, and hand-rolled
+    model routing and skill dispatch; leaving it unsolved forces developers to write their own routing,
+    compaction, and memory logic, and a mid-task failure is costly to rerun. This is inferred from product
+    capability and workflow structure, not from direct user complaints or cases.
+  current_alternative: 开发者目前通常自行编写模型路由与上下文压缩代码，或直接依赖 Hermes、Claude Code、Codex 各自内置的上下文与工具机制，把记忆和技能选择当作自建胶水层。
+  current_alternative_en: Developers today typically hand-write model routing and context compaction,
+    or rely on the built-in context and tooling of Hermes, Claude Code, and Codex, treating memory and
+    skill selection as self-built glue code.
+  usage_reason: 推断：相较自建胶水层，该技能包把模型路由、记忆与压缩、技能选择、电脑与浏览器操作打包成可直接引入的模块，减少开发者逐项实现与调试这些环节的工作量，因此正在组装长任务 agent
+    的开发者会在需要跨会话保持上下文时选择它。仓库收藏从 823 增至 938 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus self-built glue code, the pack bundles model routing, memory and
+    compaction, skill selection, and computer/browser actions into modules that can be pulled in directly,
+    cutting the work of implementing and debugging each piece, so developers assembling long-horizon agents
+    would pick it when they need context to persist across sessions. Stars rising from 823 to 938 shows
+    attention, not sustained use.'

@@ -23,7 +23,7 @@ summary: A few months ago we started building a model router for coding agents b
   want to talk about how…
 first_seen: '2026-09-30T16:58:24Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

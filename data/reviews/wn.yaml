@@ -1,0 +1,85 @@
+- id: req-initial-wn-2026-10-01
+  project_slug: wn
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是接手陌生代码库时定位改动范围这一具体任务，旧做法是人工搜索，不做的后果是漏改和返工。
+    evidence_ids:
+    - ev-40af6dcb780e7a54
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区当日仅 6 分、0 条评论，没有用户评价或采用迹象，无法判断是否有人持续使用。
+    evidence_ids:
+    - ev-40af6dcb780e7a54
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或赞助路径，买方与付费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-40af6dcb780e7a54
+  - gate: truth
+    status: insufficient
+    reason: 训练数据规模来自项目自述，缺少可复现的命中率评测，交付确定性无法核对。
+    evidence_ids:
+    - ev-40af6dcb780e7a54
+  next_validation: 收集该仓库的 README、issue 或 discussion，查找可复现的定位准确率评测或真实使用反馈。
+  market: ''
+  job: 软件工程师在收到一个 bug 报告、面对不熟悉的代码库时，处理报错信息和仓库代码，要完成圈定需要修改哪些文件的任务。
+  job_en: Software engineers receiving a bug report in an unfamiliar codebase work from error messages
+    and repository code to determine which files need changing.
+  pain: 在大型或遗留代码库里定位改动范围靠人工搜索和经验，耗时且容易漏改，这是维护阶段真实存在的负担。
+  pain_en: Locating the change scope in large or legacy codebases relies on manual search and experience,
+    which is slow and prone to missed edits, a real burden in maintenance work.
+  current_alternative: 现有做法是用 IDE 全局搜索、grep、调用链追踪，或直接问通用代码助手。
+  current_alternative_en: Current practice is IDE-wide search, grep, call-graph tracing, or simply asking
+    a general coding assistant.
+  usage_reason: 推断：它把“先找文件”这一步从人工搜索换成基于真实修复记录训练的检索，若命中率可靠，接手陌生仓库的工程师会先跑它再动手；但公开材料没有准确率或使用反馈，这一步是否真的省下来尚未核验。
+  usage_reason_en: 'Inference: it replaces the manual search step with retrieval trained on real fixes,
+    so engineers taking over unfamiliar repositories would run it before editing if hit rate is reliable;
+    but no accuracy or usage feedback is public, so whether this step is actually saved remains unverified.'
+- id: req-full-wn-2026-10-01
+  project_slug: wn
+  level: full
+  reviewed_at: '2026-10-01T01:56:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决接手陌生或庞大代码库时圈定改动范围这一具体任务，痛点是人工搜索耗时且易漏改返工；旧替代是 grep、调用链追踪或通用代码助手，不解决的后果是漏改与返工。这是基于产品说明与工作流的结构推理，非采用数据。
+    evidence_ids:
+    - ev-40af6dcb780e7a54
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有项目自述的“110 万条真实修复记录训练”，没有用户评价、采用迹象或社区讨论，无法判断是否有人持续使用或形成共识。
+    evidence_ids:
+    - ev-40af6dcb780e7a54
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费、赞助或企业采购路径，买方与付费方式均不明确；这是判断而非已验证事实，但不影响价值关成立。
+    evidence_ids:
+    - ev-40af6dcb780e7a54
+  - gate: truth
+    status: insufficient
+    reason: 训练数据规模来自项目自述，缺少可复现的命中率评测、解释能力说明与人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-40af6dcb780e7a54
+  next_validation: 收集该仓库的 README、issue 或 discussion，查找可复现的定位准确率评测或真实使用反馈。
+  market: ''
+  job: 软件工程师在收到一个 bug 报告、面对陌生或庞大的代码库时，处理报错信息与仓库代码，要完成圈定需要修改哪些文件的任务。
+  job_en: Software engineers receiving a bug report in an unfamiliar or large codebase work from error
+    messages and repository code to determine which files need changing.
+  pain: 在大型或遗留代码库中定位改动范围依赖人工搜索与经验，耗时且容易漏改，导致返工，这是维护阶段真实存在的负担。
+  pain_en: Locating the change scope in large or legacy codebases relies on manual search and experience,
+    which is slow and prone to missed edits and rework, a real burden in maintenance work.
+  current_alternative: 现有做法是用 IDE 全局搜索、grep、调用链追踪，或直接询问通用代码助手。
+  current_alternative_en: Current practice is IDE-wide search, grep, call-graph tracing, or simply asking
+    a general coding assistant.
+  usage_reason: 推断：相较人工搜索，它把“先找文件”这一步换成基于 110 万条真实修复记录训练的检索，若命中可靠，接手陌生仓库的工程师会在动手前先跑它；但公开材料未说明准确率、解释能力或是否需人工复核，这一步是否真被省下尚未核验。
+  usage_reason_en: 'Inference: versus manual search, it replaces the ''find the files first'' step with
+    retrieval trained on 1.1M real fixes; if hits are reliable, engineers taking over unfamiliar repositories
+    would run it before editing. But accuracy, explanations, and human-review needs are not public, so
+    whether this step is actually saved remains unverified.'

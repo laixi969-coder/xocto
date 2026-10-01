@@ -184,3 +184,56 @@
   usage_reason: 用户要完成的任务是：安全工程师、平台工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Security engineer, Platform engineer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-mcp-audit-tool-2026-10-01
+  project_slug: mcp-audit-tool
+  level: full
+  reviewed_at: '2026-10-01T01:54:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是第三方 MCP 服务器接入 AI 代理前的安全审查需求：工具投毒、rug pull、硬编码密钥、命令注入与供应链风险若不在接入前拦截，代理会以用户权限执行恶意工具。旧做法是人工读配置或不做检查，该
+      CLI 以一次扫描输出 SARIF 完成交付，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-f12bec74b0910033
+    - ev-a55ea1266c997bad
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 69 增至 122 说明开发者社区已注意到该项目，但收藏与关注只属规模信号，公开材料没有 issue、discussion 或客户案例说明谁在何种场景持续使用，因此共识强度无法确认。
+    evidence_ids:
+    - ev-f12bec74b0910033
+    - ev-a55ea1266c997bad
+  - gate: model
+    status: insufficient
+    reason: 这是开源 CLI，公开材料未见定价页、商业授权或采购记录，谁付钱（to B 安全团队、to C 开发者还是仅靠捐赠与融资）无法核验；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-f12bec74b0910033
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺扫描工具投毒与 rug pull 等风险，但公开材料未给出检测规则、误报率或可复现的实测结果，交付能否稳定发生以及人工放行边界仍缺公开证据。
+    evidence_ids:
+    - ev-a55ea1266c997bad
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否披露检测规则、误报情况或真实接入案例，以核验交付确定性。
+  market: ''
+  job: 安全工程师或平台工程师在把第三方 MCP 服务器接入自家 AI 代理之前，读取代理的 MCP 配置文件，扫描工具投毒、rug pull、硬编码密钥、命令注入与依赖供应链风险，产出一份可接入
+    CI 的 SARIF 报告，再据此决定是否放行。
+  job_en: A security or platform engineer, before wiring a third-party MCP server into the company's AI
+    agent, reads the agent's MCP config, scans for tool poisoning, rug pulls, hardcoded secrets, command
+    injection and supply-chain risk, and produces a CI-ready SARIF report to decide whether to approve
+    the server.
+  pain: MCP 服务器以配置方式被引入代理，其工具描述与依赖可在接入后变化（rug pull），而代理会以用户权限执行这些工具；公开材料未给出事故频率或损失金额，但一旦放行恶意或含密钥的服务器，后果是密钥泄露与代理被劫持，属于接入前必须拦截的刚性风险。
+  pain_en: MCP servers enter an agent through config, their tool descriptions and dependencies can change
+    after approval (rug pull), and the agent executes those tools with the user's privileges; public materials
+    give no incident frequency or loss figures, but approving a malicious or secret-bearing server means
+    leaked credentials and a hijacked agent, a risk that must be blocked before wiring.
+  current_alternative: 旧做法是人工逐条阅读 MCP 配置与工具描述、凭经验判断第三方服务器是否可信，或干脆不做接入前检查；公开材料未显示存在被广泛采用的同类 MCP 专用审计工具。
+  current_alternative_en: The old way is manually reading MCP configs and tool descriptions, judging third-party
+    servers by experience, or skipping pre-integration checks entirely; public materials do not show a
+    widely adopted MCP-specific audit tool already in place.
+  usage_reason: 推断：相较人工逐条读配置，该 CLI 用一次命令自动遍历 MCP 配置并输出 SARIF，把检查结果直接接进既有 CI 流水线，省去手工整理报告这一步，因此会在接入新 MCP
+    服务器或 CI 门禁需要可核对结论时被安全与平台工程师选用；是否放行仍由人判断。
+  usage_reason_en: 'Inference: versus reading configs by hand, the CLI walks MCP configs in one command
+    and emits SARIF that plugs into an existing CI pipeline, removing the manual report-assembly step,
+    so security and platform engineers would pick it when onboarding a new MCP server or when CI needs
+    a checkable gate; approval still stays human.'

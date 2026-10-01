@@ -1,11 +1,16 @@
 ---
 slug: huggingface-transformers-release-5180
-name: 'huggingface/transformers: Release 5.18.0'
+name: Transformers
 builder: huggingface
 category: ''
-summary_zh: ''
+summary_zh: 这是 公开模型社区 官方模型库的版本更新，面向自行部署语音处理流程的开发者：他们原本需要单独接入说话人分离模型，现在可直接在 Transformers 中调用 Nemotron 3
+  Diarization，输入音频后得到带说话人归属与先后顺序的分段结果，流式与离线两种方式均可用。具体集成流程与交付质量仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a version update to public model community''s official model library, aimed at developers
+  running their own speech pipelines: instead of integrating a separate diarization model, they can call
+  Nemotron 3 Diarization inside Transformers, feed in audio and get speaker-attributed segments ordered
+  by first arrival, in either streaming or offline mode. The concrete integration flow and delivery quality
+  remain unverified.'
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -305,7 +310,7 @@ summary: "## New Model additions\r\n\r\n\r\n### Nemotron 3 Diarization\r\n\r\n<i
   \ (#47199)\r\n* @jp1924\r\n    * add HyperClovaX Vision (#44314)"
 first_seen: '2026-09-30T16:46:27Z'
 last_seen: '2026-10-01T01:18:42Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -317,7 +322,7 @@ sightings:
   kind: news
 ---
 
-# huggingface/transformers: Release 5.18.0
+# Transformers
 
 ## New Model additions
 

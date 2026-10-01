@@ -240,3 +240,53 @@
     project files, each with a source) rather than inventing it, removing the step of hand-writing acceptance
     criteria and constraints; DSH users who write complex tasks and care about traceable instructions
     would therefore choose it before sending. Public materials show no retention or repeat'
+- id: req-full-dsh-prompt-optimizer-2026-10-01
+  project_slug: dsh-prompt-optimizer
+  level: full
+  reviewed_at: '2026-10-01T01:53:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者提交复杂任务时提示词含糊、需多轮返工的问题，痛点来自每轮需求对齐成本；公开材料显示插件已迭代到 0.7 并称可提升多数模型发挥稳定性，交付物是注入后的目标说明，结构上可确定。属工作流结构推理，尚无成功率量化。
+    evidence_ids:
+    - ev-86739cf91f8105ed
+    - ev-08bb68374d9ea76f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 84 升至 96，说明有持续关注，但公开材料没有用户评价、issue 或采用数据说明开发者已把它放进日常流程，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-bb5bf460910c5a04
+    - ev-08bb68374d9ea76f
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价页、收费方式或买方，to C 开发者自用还是 to B 采购均无公开依据；这是判断而非已验证事实，但买方不清不否定需求成立。
+    evidence_ids:
+    - ev-86739cf91f8105ed
+  - gate: truth
+    status: insufficient
+    reason: 它绑定特定 DSH 版本且处于 beta，公开材料未说明改写出错时如何回退、注入是否影响原任务安全边界，交付稳定性与人工边界缺少可核对说明。
+    evidence_ids:
+    - ev-86739cf91f8105ed
+    - ev-08bb68374d9ea76f
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户报告注入后任务成功率、返工次数或回退行为的实际变化。
+  market: ''
+  job: 使用 DSH Web 的开发者（含非专业提示词用户）在输入框里提交 3D、法向量、交互、数据、并发、性能等复杂任务时，需要把口语化、含糊的一轮需求整理成工作 AI 能直接执行、且带逐字依据的目标说明，再发送出去。
+  job_en: Developers using DSH Web, when submitting complex tasks (3D, normals, interaction, data, concurrency,
+    performance) in the input box, need to turn a colloquial, vague single-round request into an executable
+    goal statement with verbatim grounding before sending it to the working AI.
+  pain: 原始提示词含糊会让工作 AI 反复返工，开发者要自己多轮补写、调试指令；公开材料还称不同模型发挥不稳定，尤其某些模型需要额外约束，说明这一轮需求对齐成本真实存在。
+  pain_en: Vague raw prompts make the working AI redo work, forcing developers to rewrite and debug instructions
+    over multiple rounds; public materials also claim unstable model performance, especially on some models,
+    indicating a real per-round alignment cost.
+  current_alternative: 开发者自己手写并多轮迭代提示词，或切到通用聊天助手先润色再粘贴回输入框；也有人直接发送原话、接受返工。
+  current_alternative_en: Developers hand-write and iterate prompts over rounds, or switch to a general
+    chat assistant to polish text and paste it back; some just send the raw wording and accept rework.
+  usage_reason: 推断：相较切窗口润色再粘贴的旧做法，它在发送后、AI 接收前自动完成“这一轮到底要什么”的梳理并以上下文注入交付，原话不改写、条条带逐字依据，省去用户自己重写指令这一步；常写复杂任务、又不想学提示词技巧的
+    DSH 用户会在这种情况下选择它。公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: unlike switching windows to polish and paste, it automatically clarifies
+    ''what this round actually wants'' after sending and before the AI receives it, delivering via context
+    injection without rewriting the user''s words and with verbatim grounding, removing the step of rewriting
+    instructions; DSH users who write complex tasks but don''t want to learn prompt craft would choose
+    it in that situation. Public materials show no retention or repeated-use evidence.'

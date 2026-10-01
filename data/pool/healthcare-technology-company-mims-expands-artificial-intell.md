@@ -22,7 +22,7 @@ summary: Healthcare technology company MIMS expands artificial intelligence data
   Review - VIR
 first_seen: '2026-09-29T03:41:50Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

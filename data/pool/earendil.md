@@ -21,7 +21,7 @@ canonical_url: https://earendil.com/posts/you-said-no-mcp
 summary: You said no MCP
 first_seen: '2026-09-30T09:55:23Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

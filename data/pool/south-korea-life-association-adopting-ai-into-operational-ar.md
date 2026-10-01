@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQN2FUV0FOaGRZ
 summary: 'South Korea: Life Association adopting AI into operational areas Asia Insurance Review'
 first_seen: '2026-09-30T00:01:25Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

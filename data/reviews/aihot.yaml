@@ -118,3 +118,51 @@
   usage_reason: 用户要完成的任务是：行业资讯编辑；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Industry news editor Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-aihot-2026-10-01
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-01T01:52:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决行业编辑每日翻多源、挑条目、聚事件、排日报的重复劳动；公开材料记录其前身是内部监控热点找选题的飞书机器人，旧替代为人工逐源筛选排版，不解决则每日出稿负担持续，属结构推理。
+    evidence_ids:
+    - ev-91bb7f92a4448cb2
+    - ev-b110d0e500cae3a5
+    - ev-993e7d89a47629bd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料称其为开源百万月活级产品，说明有规模关注，但未见目标编辑持续使用、复购或付费的公开记录，共识强度仍不足以确认。
+    evidence_ids:
+    - ev-b110d0e500cae3a5
+    - ev-993e7d89a47629bd
+  - gate: model
+    status: insufficient
+    reason: 判断而非已验证事实：仓库以开源框架形式发布，信源与精选标准由使用者自行替换，公开材料未见定价、付费主体或单位经济，钱来自谁尚不能核验。
+    evidence_ids:
+    - ev-993e7d89a47629bd
+  - gate: truth
+    status: insufficient
+    reason: 大模型筛选与两次独立打分的准确性、聚簇是否漏并或误并、以及人工复核边界，缺少可复现的公开评测或部署文档证据。
+    evidence_ids:
+    - ev-993e7d89a47629bd
+  next_validation: 追踪 AIHOT 的 公开代码仓库 仓库 issue 与 discussion，确认是否有编辑或运营者公开描述部署后替代了原有日报流程及实际使用结果。
+  market: ''
+  job: 行业资讯编辑或运营者每天面对多个信源，需要把当天值得看的条目挑出来、聚成事件并排成一份可发布的日报站点，信源与精选标准由自己替换。
+  job_en: An industry news editor or operator faces many sources daily and must pick the day's worthwhile
+    items, cluster them into events and publish a daily digest site, swapping in their own sources and
+    curation rules.
+  pain: 公开材料显示它最初是公司内部用来监控热点找选题的飞书机器人，说明人工翻多个信源、挑条目、排版成日报是重复且耗时的日常负担。
+  pain_en: Public material shows it began as an internal Feishu bot for monitoring hot topics and finding
+    story ideas, indicating that manually scanning many sources, picking items and laying out a daily
+    digest is a repetitive daily burden.
+  current_alternative: 旧做法是人工逐个翻看信源、凭经验挑出当天值得看的条目，再手动排版成日报或选题清单。
+  current_alternative_en: The old way is manually scanning each source, picking the day's worthwhile items
+    by experience, then hand-laying them out into a digest or story list.
+  usage_reason: 推断：相较人工逐源翻看再排版，它按配置信源抓取、用大模型先筛再独立打两次分、把同一事件聚簇并按讨论量排序，直接产出日报页面，省去筛选与排版两步，因此需要每日稳定出稿的行业编辑会选它。
+  usage_reason_en: 'Inference: versus manually scanning sources and laying out pages, it fetches configured
+    sources, screens with an LLM plus two independent scorings, clusters the same event and ranks by discussion
+    volume to output a daily page, removing the screening and layout steps, so editors needing a steady
+    daily issue choose it.'

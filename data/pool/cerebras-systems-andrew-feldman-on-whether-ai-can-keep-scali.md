@@ -23,7 +23,7 @@ summary: At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew 
   differently, and what comes next if today’s AI hardware reaches its limits.
 first_seen: '2026-09-30T14:30:00Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

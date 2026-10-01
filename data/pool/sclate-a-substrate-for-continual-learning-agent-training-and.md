@@ -1,6 +1,6 @@
 ---
 slug: sclate-a-substrate-for-continual-learning-agent-training-and
-name: 'SCLATE: A Substrate for Continual-Learning Agent Training and Evaluation'
+name: SCLATE
 builder: ''
 category: ''
 summary_zh: ''
@@ -26,7 +26,7 @@ summary: Continual-learning agents are systems of models, harnesses, and memory 
   events to one open event scheduler through an adapter. A hybrid simulated clock…
 first_seen: '2026-09-30T00:00:00Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# SCLATE: A Substrate for Continual-Learning Agent Training and Evaluation
+# SCLATE
 
 Continual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons. Evaluating and training them requires interleaving tasks with agent-side events such as session stop and start, crons, and memory consolidation. Yet existing benchmarks and training frameworks schedule only the benchmark’s own events, leaving each benchmark and agent pair to build a custom scheduling loop. We present SCLATE, an execution substrate where benchmarks and unmodified agents each add their events to one open event scheduler through an adapter. A hybrid simulated clock…
 

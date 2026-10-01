@@ -153,3 +153,53 @@
   usage_reason_en: 'The task is: Short-form marketing video production, E-commerce product promotion,
     Local store promotion Public materials do not yet explain why users choose this product over their
     existing approach.'
+- id: req-full-brewreel-2026-10-01
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-01T01:52:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小商家/营销人员只有简报和零散素材、却要产出可投放竖版宣传片的需求，痛点是缺剪辑与文案能力且外包成本高；开源可商用、一条命令出片与广告法校验构成可确定交付，属工作流结构推理，公开证据未量化痛点强度。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+    - ev-92f921e62ecdcf3e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 66 增至 113，说明开发者社区持续关注，但这是关注度而非目标商家采用；公开材料没有客户案例、评价或重复使用记录，无法证明小商家已把它留在工作流里。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+    - ev-92f921e62ecdcf3e
+  - gate: model
+    status: insufficient
+    reason: 项目开源可商用，公开材料未见定价页、付费客户或采购记录，谁付钱（商家自用、代运营方还是二次开发者）无法核验；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供可复现的成片样例、镜头来源与广告法校验准确率，交付能否稳定发生、人工复核边界如何划定仍缺证据；开源仓库本身可被复现测试，但尚无实测记录。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+    - ev-a5b28d4a82857a0a
+  next_validation: 追踪 BrewReel 官方仓库的 README、issue 与 discussion，确认是否有商家或代运营方公开的部署记录、成片样例与广告法校验实测结果。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，把简报交给 BrewReel，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片；广告法校验结果仍需人工确认。
+  job_en: A small merchant or marketer with only a product brief and scattered footage hands the brief
+    to BrewReel, which selects shots, writes copy and assembles a vertical promo video, producing a ready-to-publish
+    clip; ad-law compliance results still need human confirmation.
+  pain: 公开材料显示其定位是让 DeepSeek 这类便宜模型也能出好看的竖版宣传片，即痛点在于小商家缺乏剪辑与文案能力、又不想为每条素材支付高额制作成本；但公开证据未给出不采用的具体代价与发生频率，属结构推理。
+  pain_en: Public materials position it as letting cheap models like DeepSeek still produce good-looking
+    vertical promos, implying the pain is small merchants lacking editing/copy skills without paying high
+    per-asset production costs; public evidence does not quantify the cost or frequency of not adopting,
+    so this is structural inference.
+  current_alternative: 公开材料未直接说明旧做法，按任务结构推断为：人工用剪映/CapCut 等工具逐条剪辑配文案，或外包给剪辑师与代运营，或直接使用通用大模型生成脚本再手工拼片。
+  current_alternative_en: Public materials do not state the prior workflow; structurally inferred alternatives
+    are manual editing and copywriting in tools like CapCut, outsourcing to editors or agencies, or using
+    a general LLM for scripts and assembling clips by hand.
+  usage_reason: 推断：相较逐条手工剪辑或外包，它把“挑镜头—写文案—合成竖版成片”压缩为提交一份简报加一条命令，省去人工选片与写脚本两步，并内置广告法校验；因此缺剪辑人手、需要批量出竖版素材的小商家或营销人员会在赶投放节奏时选择它。
+  usage_reason_en: 'Inference: versus manual per-clip editing or outsourcing, it compresses shot selection,
+    copywriting and vertical assembly into submitting a brief plus one command, removing manual shot-picking
+    and script-writing steps and adding built-in ad-law checks; merchants or marketers without editing
+    staff who need batches of vertical assets would choose it under publishing deadlines.'

@@ -3,23 +3,32 @@ slug: 30天企业用户过半千问办公将ai办公的生意做成了-qwen-agen
 name: 千问办公
 builder: ''
 category: AI + 效率
-summary_zh: 阿里千问系的 AI 办公产品，企业员工在写文档、整理数据等日常办公节点把任务交给它，由 AI 起草和整理，输出可编辑的办公成果；报道未披露具体功能清单，详细流程与交付仍待核验。
-inspiration: 趋势：大模型厂商正把通用对话升级为直接接管办公流程，办公软件入口价值被重估。切入：避开与千问正面竞争，从律所、财税、地产等文书流程固定的行业进入，可探索按交付件收费。
-summary_en: An AI office product from Alibaba's Qwen family. Office workers hand tasks like drafting documents
-  and organizing data to the AI and get editable outputs; exact workflows and deliverables remain unverified.
-inspiration_en: 'Trend: model vendors are moving from chat to direct takeover of office workflows, revaluing
-  the office entry point. Entry: skip head-on rivalry; start where paperwork is fixed, like law, accounting,
-  real estate.'
+summary_zh: 企业团队在多人协作办公场景中打开千问办公，把原本分散在文档、聊天记录和内部系统中的材料交给它，由AI在共享工作台里整理并生成可复用的办公产出；据候选材料，它还引入“企业上下文”让AI读取企业信息，但具体接收哪些数据、产出什么交付、人工如何确认，均待核验。
+inspiration: 趋势：办公AI正从个人问答走向多人共享工作台与企业上下文，竞争点从模型能力转向能否接入企业内部信息。切入：可从具体职能切入，例如把合同、报销单或客服工单的流转做成按结果交付的办公流程，而不是再做一个通用对话入口；该产品已由大厂主导，正面做通用办公台窗口已窄。
+summary_en: In multi-person office scenarios, enterprise teams open Qwen Office and hand over material
+  previously scattered across documents, chat logs and internal systems, letting AI organize it and produce
+  reusable office output inside a shared workspace; the candidate material says an enterprise-context
+  capability lets the AI read company information, but which data it ingests, what it delivers and how
+  humans confirm results all remain unverified.
+inspiration_en: 'Trend: office AI is moving from personal Q&A toward shared multi-person workspaces and
+  enterprise context, shifting competition from model capability to access to internal company information.
+  Entry: target a specific function, such as turning contract, expense or support-ticket flows into outcome-priced
+  office processes rather than another general chat entry; this product is already led by a large platform,
+  so a head-on general office workspace has a narrow window.'
 priority_review: false
 project_type: new_application
 industries:
-- 企业服务
+- 企业办公
+- 软件与信息服务
 industries_en:
-- enterprise services
+- Enterprise office operations
+- Software and IT services
 jobs:
-- 企业办公人员
+- 企业行政与运营人员
+- 团队协作负责人
 jobs_en:
-- enterprise office staff
+- Enterprise administrative and operations staff
+- Team collaboration leads
 regions:
 - 中国
 regions_en:
@@ -30,7 +39,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOMzhzUjBtYTRl
 summary: 30天企业用户过半，千问办公将AI办公的生意做成了|Qwen|Agent|阿里巴巴|大模型|ChatGPT_手机新浪网 新浪财经
 first_seen: '2026-09-05T16:41:11Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:

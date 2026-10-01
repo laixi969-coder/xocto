@@ -187,3 +187,53 @@
   usage_reason: 用户要完成的任务是：个人用户、独立开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: individual user, independent developer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-ai-girlfriend-v2-2026-10-01
+  project_slug: ai-girlfriend-v2
+  level: full
+  reviewed_at: '2026-10-01T01:52:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是桌面陪伴中“记不住、声音不是自己的”这一具体痛点：通用聊天每次重置，用户要连续且有熟悉声音的陪伴就得自己拼记忆与 TTS。公开仓库说明已给出输入（对话与声音样本）、动作（DSH
+      长期记忆、本地克隆）与交付（Windows 桌面伴侣），属工作流结构推理，痛点刚性中等偏上。
+    evidence_ids:
+    - ev-e5c224b97a751276
+    - ev-9ab57c01a9d166e3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 44 缓慢升至 50，说明有开发者关注，但公开材料没有用户评价、issue 讨论或复刻后的实际使用记录，无法判断目标用户是否把它留在日常陪伴流程里，关注度不等于持续采用。
+    evidence_ids:
+    - ev-e5c224b97a751276
+    - ev-9ab57c01a9d166e3
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、订阅或捐赠入口，也未见 to B 采购线索；钱可能来自个人自托管、后续增值服务或纯兴趣维护，属判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-e5c224b97a751276
+  - gate: truth
+    status: insufficient
+    reason: 长期记忆的实际保留效果、本地声音克隆的质量、WSL2 数字人的部署稳定性均无公开可复现证据；情感陪伴还涉及依赖与安全边界，公开材料未说明人工或内容边界如何处理。
+    evidence_ids:
+    - ev-e5c224b97a751276
+    - ev-9470c713be30ebf7
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认长期记忆与本地声音克隆的实际部署步骤、用户反馈和是否出现付费或捐赠入口。
+  market: ''
+  job: 个人用户在 Windows 桌面上想要一个能记住过往对话、用自己克隆的声音回应的陪伴对象时，安装并配置这个开源项目，把长期记忆、本地声音克隆和可选 WSL2 数字人串成一条持续对话的桌面伴侣流程。
+  job_en: An individual user on Windows who wants a companion that remembers past conversations and replies
+    in a cloned voice installs and configures this open-source project, wiring long-term memory, local
+    voice cloning and an optional WSL2 digital human into a continuous desktop-companion workflow.
+  pain: 通用聊天助手每次会话重置、不记得用户历史，声音也不是用户想要的；用户若想获得连续、有记忆、带熟悉声音的陪伴，需要自己拼装记忆层、TTS 与前端，门槛高且容易中断。
+  pain_en: General chat assistants reset each session, forget the user's history, and speak in a voice
+    the user did not choose; to get continuous, memory-bearing companionship with a familiar voice, a
+    user must assemble memory, TTS and a front end themselves, which is costly and easily broken.
+  current_alternative: 现有替代是通用大模型聊天应用、Character.AI 一类云端角色陪伴服务，或自己用开源 TTS 与向量库手工拼装；前者无本地声音克隆与长期记忆控制，后者需要自行集成。
+  current_alternative_en: Current alternatives are general LLM chat apps, cloud character-companion services
+    such as Character.AI, or hand-assembling open-source TTS with a vector store; the former lack local
+    voice cloning and memory control, the latter require self-integration.
+  usage_reason: 推断：相较云端陪伴应用，它把长期记忆与声音克隆放在本地 Windows 环境执行，用户不必把对话与声纹上传云端，也不必自己拼接记忆与语音模块，因此在意隐私、想用自己声音且愿意折腾本地部署的个人用户会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus cloud companion apps, it runs long-term memory and voice cloning
+    locally on Windows, so users need not upload conversations or voiceprints to the cloud nor stitch
+    memory and speech modules together themselves; privacy-conscious individuals who want their own voice
+    and tolerate local setup would choose it in that situation.'

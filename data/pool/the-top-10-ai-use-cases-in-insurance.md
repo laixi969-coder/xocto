@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmR4VXgwcXZZ
 summary: The Top 10 AI Use Cases in Insurance netsuite.com
 first_seen: '2026-09-29T07:46:18Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

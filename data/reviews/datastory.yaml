@@ -1,0 +1,84 @@
+- id: req-initial-datastory-2026-10-01
+  project_slug: datastory
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把数据整理成可讲故事的对外材料这一需求，痛点方向成立，但公开材料未说明具体输入、动作与交付，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-59a92079ab185c1c
+    - ev-89cb4442f887c34a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有上线信息和官网自述，社区讨论量极小，没有用户评价或采用迹象可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-59a92079ab185c1c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱来自 to C、to B 还是 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-89cb4442f887c34a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对产出是否确定交付、人工确认边界在哪，也没有可复现的产出样例。
+    evidence_ids:
+    - ev-89cb4442f887c34a
+  next_validation: 收集 Datastory 官网的产出样例或客户案例页面，确认其实际输入、交付形态与是否已有付费使用。
+  market: ''
+  job: 数据分析师或市场人员在拿到一份表格或数据集后，需要把它整理成对外可讲、可分享的叙事材料。
+  job_en: Data analysts or marketers who receive a spreadsheet or dataset and need to turn it into a shareable
+    narrative for external audiences.
+  pain: 把数据变成别人看得懂的故事通常要手工挑指标、配图表、写文案，反复改稿；但公开材料没有说明这一步具体卡在哪里、耗时多久。
+  pain_en: Turning data into a story others understand usually means manually picking metrics, building
+    charts, and writing copy through repeated revisions; public material does not say where exactly this
+    step stalls or how long it takes.
+  current_alternative: 现有做法是用 BI 工具或表格软件出图，再人工写解读文案，或交给设计做信息图。
+  current_alternative_en: The current approach is charting in BI tools or spreadsheets, then writing the
+    interpretation by hand or handing it to a designer for an infographic.
+  usage_reason: 推断：若它能把原始数据直接转成带语义关系的叙事稿，用户可省去先出图再写文案的两步拼接；但公开材料未给出产出样例、客户案例或定价，无法确认这一步是否真的被减少。
+  usage_reason_en: 'Inference: if it turns raw data directly into a narrative with semantic relations,
+    users could skip stitching charts and copy together in two steps; but no sample output, customer case,
+    or pricing is public, so it cannot be confirmed that this step is actually reduced.'
+- id: req-full-datastory-2026-10-01
+  project_slug: datastory
+  level: full
+  reviewed_at: '2026-10-01T01:53:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决把数据整理成可讲叙事这一需求，但公开材料只有口号与官网自述，未说明具体输入、动作、交付形态，也还原不出痛点与旧替代，连需求与痛点都写不实。
+    evidence_ids:
+    - ev-59a92079ab185c1c
+    - ev-89cb4442f887c34a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Datastory 官网的产出样例或客户案例页面，确认其实际输入、交付形态与是否已有付费使用。
+  market: ''
+  job: 数据分析师或市场人员在拿到一份表格或数据集、需要对外讲清结论时，把原始数据交给 AI 与知识图谱处理，生成可分享的数据故事。
+  job_en: Data analysts or marketers who receive a spreadsheet or dataset and need to explain conclusions
+    externally hand the raw data to AI and a knowledge graph to produce a shareable data story.
+  pain: 公开材料只有一句产品口号和官网自述，没有说明把数据变成叙事时具体卡在哪一步、耗时多久、不解决会有什么后果，痛点无法从公开事实还原。
+  pain_en: Public material contains only a product tagline and a website self-description, with no account
+    of where turning data into narrative actually stalls, how long it takes, or what happens if unsolved,
+    so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同一任务，无法确认它替代了哪一步旧做法。
+  current_alternative_en: Public material does not state what users previously used to accomplish the
+    same task, so it cannot be confirmed which prior step it replaces.
+  usage_reason: 公开材料未给出产出样例、客户案例或定价，无法说明用户为什么会选择它而非现有做法，缺少可核对的因果链。
+  usage_reason_en: No sample output, customer case, or pricing is public, so there is no verifiable causal
+    chain explaining why a user would choose it over existing approaches.

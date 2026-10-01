@@ -1,0 +1,81 @@
+- id: req-initial-valor-atreides-and-sequoia-back-ai-startup-flow-engineering-2026-10-01
+  project_slug: valor-atreides-and-sequoia-back-ai-startup-flow-engineering
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决硬件设计中的检查与验证负担，但公开材料未说明具体任务、输入与交付，痛点与旧流程无法还原。
+    evidence_ids:
+    - ev-865211c9944d462a
+  - gate: consensus
+    status: insufficient
+    reason: 只有投资方与估值信息，没有客户、部署或行业采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-865211c9944d462a
+    - ev-fd9b60e7640e0492
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱来自 to B 还是 to VC。
+    evidence_ids:
+    - ev-865211c9944d462a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到安全与人工复核边界，仅知融资事实。
+    evidence_ids:
+    - ev-865211c9944d462a
+  next_validation: 收集 Flow Engineering 官方产品页或部署文档，确认 agent 在硬件设计流程中的具体输入、输出与人工复核环节。
+  market: ''
+  job: 硬件设计工程师在电路或系统设计阶段处理规格书、原理图与设计约束，需要完成设计检查与验证准备。
+  job_en: Hardware design engineers handle specs, schematics and design constraints during circuit or
+    system design, and need to complete design checks and verification preparation.
+  pain: 公开材料未说明具体痛点，只能推断硬件设计评审与验证准备依赖资深工程师手工核对，周期长。
+  pain_en: Public material does not state the specific pain; it can only be inferred that hardware design
+    review and verification prep rely on senior engineers checking by hand, which is slow.
+  current_alternative: 公开材料未披露现有替代方式，通常为人工评审与既有 EDA 工具流程，此为推断。
+  current_alternative_en: Public material does not disclose current alternatives; manual review and existing
+    EDA tool flows are the inferred norm.
+  usage_reason: 无法判断用户为何选择它：材料只给出融资与估值，未说明 agent 具体减少哪一步人工核对，也未给出客户使用证据。
+  usage_reason_en: 'Why users would choose it cannot be judged: the material only gives funding and valuation,
+    not which manual check the agent removes, nor any customer usage evidence.'
+- id: req-full-valor-atreides-and-sequoia-back-ai-startup-flow-engineering-2026-10-01
+  project_slug: valor-atreides-and-sequoia-back-ai-startup-flow-engineering
+  level: full
+  reviewed_at: '2026-10-01T01:56:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决硬件设计中的检查与验证负担，但公开材料未说明具体任务、输入与交付，痛点与旧流程无法还原。
+    evidence_ids:
+    - ev-070aea9d4b1e49c2
+    - ev-559ed81e3f6563c0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Flow Engineering 官方产品页或部署文档，确认 agent 在硬件设计流程中的具体输入、输出与人工复核环节。
+  market: ''
+  job: 硬件设计工程师在电路或系统设计阶段处理规格书、原理图与设计约束，需要完成设计检查与验证准备。
+  job_en: Hardware design engineers handle specs, schematics and design constraints during circuit or
+    system design, and need to complete design checks and verification preparation.
+  pain: 公开材料未说明具体痛点，只能推断硬件设计评审与验证准备依赖资深工程师手工核对，周期长。
+  pain_en: Public material does not state the specific pain; it can only be inferred that hardware design
+    review and verification prep rely on senior engineers checking by hand, which is slow.
+  current_alternative: 公开材料未披露现有替代方式，通常为人工评审与既有 EDA 工具流程，此为推断。
+  current_alternative_en: Public material does not disclose current alternatives; manual review and existing
+    EDA tool flows are the inferred norm.
+  usage_reason: 无法判断用户为何选择它：材料只给出融资与估值，未说明 agent 具体减少哪一步人工核对，也未给出客户使用证据。
+  usage_reason_en: 'Why users would choose it cannot be judged: the material only gives funding and valuation,
+    not which manual check the agent removes, nor any customer usage evidence.'

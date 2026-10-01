@@ -136,3 +136,54 @@
     and agents' tasks and outputs in one self-hosted space, removing a copy-paste and version-alignment
     step, so teams that care about self-hosting data while running parallel agents would choose it during
     project collaboration; without user feedback or cases this causal claim is inference.
+- id: req-full-nautilo-2026-10-01
+  project_slug: nautilo
+  level: full
+  reviewed_at: '2026-10-01T01:54:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人和多个 AI 代理围绕同一份代码与文档协作、产出分散难以对齐的问题；自托管与 MIT 开源说明交付形态可确定，但公开材料无用户抱怨或案例，痛点强度属工作流结构推理，非已验证事实。
+    evidence_ids:
+    - ev-d57ff6d05ca32702
+    - ev-bc4e1c0a2b5a6dd8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 63 缓慢增至 76，属关注度信号，不能说明团队已把它放进日常工作流；未见 issue、discussion 或用户评价描述实际协作场景。
+    evidence_ids:
+    - ev-d57ff6d05ca32702
+    - ev-f24f23ea050b7425
+    - ev-bc4e1c0a2b5a6dd8
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且自托管，未见定价页、付费或采购路径，钱可能来自 to C 开发者自建或 to B 私有部署，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d57ff6d05ca32702
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、权限边界或人工确认机制，承诺能否确定性交付无法核对，安全与人工边界仍属未知。
+    evidence_ids:
+    - ev-d57ff6d05ca32702
+  next_validation: 追踪 nautilo 官方仓库的 README、部署文档与 issue/discussion，确认其实际支持的人机协作流程、权限与交付边界。
+  market: ''
+  job: 开发者或小团队在同一个项目里同时使用多个 AI 编码代理时，把任务、代码和文档放进一个自托管工作空间，让每个人和每个代理基于同一份材料继续推进，最终由人确认交付物。
+  job_en: Developers or small teams running several AI coding agents on one project put tasks, code and
+    documents into a self-hosted workspace so every person and agent continues from the same material,
+    with a human confirming the final deliverable.
+  pain: 公开材料只说明这是自托管的人机协作空间，未提供用户抱怨、issue 或案例，因此痛点强度无法从现有事实确认；从工作流结构看，多代理产出分散在本地编辑器、聊天工具和仓库之间，人工汇总与版本对齐是重复负担，此条为结构推理。
+  pain_en: The public material only describes a self-hosted human-machine workspace and offers no user
+    complaints, issues or cases, so pain intensity cannot be confirmed from facts; structurally, multi-agent
+    output scattered across local editors, chat tools and repositories creates repeated manual aggregation
+    and version-alignment work, which is inference.
+  current_alternative: 可推断的旧做法是各自在本地编辑器、聊天工具与代码仓库之间手动同步代理产出，或直接用云端协作工具（如 公开代码仓库、Notion 加聊天窗口）拼装流程；候选材料未提供任何用户描述或替代行为证据，此条为推断。
+  current_alternative_en: The inferable old practice is manually syncing agent output across local editors,
+    chat tools and repositories, or stitching together cloud collaboration tools (e.g. public code repository,
+    Notion plus a chat window); the candidate provides no user account or substitute-behaviour evidence,
+    so this is inference.
+  usage_reason: 相较手动在多个工具间同步，它把人和代理的任务与产出收进同一个自托管空间，减少一次复制粘贴与版本对齐动作，并让数据留在自有服务器上；因此在意数据主权、又同时跑多个代理的开发者或小团队会在这种情况下选择它，此判断为推断，缺少用户反馈或案例佐证。
+  usage_reason_en: Compared with manually syncing across tools, it gathers people's and agents' tasks
+    and outputs into one self-hosted space, removing a copy-paste and version-alignment step and keeping
+    data on one's own server; developers or small teams who care about data sovereignty while running
+    several agents would choose it in that situation, and this is inference without user feedback or cases.

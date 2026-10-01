@@ -1,0 +1,88 @@
+- id: req-initial-photo-scrubber-local-face-blur-metadata-removal-2026-10-01
+  project_slug: photo-scrubber-local-face-blur-metadata-removal
+  level: initial
+  reviewed_at: '2026-10-01T01:19:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布含陌生人面孔照片的隐私风险，痛点具体且不处理的后果明确，本地处理避免了上传敏感素材。
+    evidence_ids:
+    - ev-132f8b14552fadb7
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有作者本人的发布说明，没有编辑部或组织采用、评价或重复使用的公开证据。
+    evidence_ids:
+    - ev-132f8b14552fadb7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是媒体机构或非营利组织，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-132f8b14552fadb7
+  - gate: truth
+    status: insufficient
+    reason: 人脸检测存在漏检可能，模糊范围与元数据清除是否彻底需要人工复核，公开材料未给出准确率。
+    evidence_ids:
+    - ev-132f8b14552fadb7
+  next_validation: 收集该工具在公开代码仓库或讨论区的 issue 与使用反馈，确认是否有新闻机构或组织将其用于实际发布流程。
+  market: ''
+  job: 摄影记者或活动组织者在拍摄含陌生人面孔的抗议、集会照片后，需要在发布或交付前对这些图片做脱敏处理。
+  job_en: A photojournalist or event organizer, after shooting protests or gatherings with strangers'
+    faces, needs to redact those images before publishing or delivering them.
+  pain: 公开发布可识别人脸的照片会带来隐私与安全风险，逐张手动模糊既慢又容易漏，把原图上传到云端工具又等于把敏感素材交出去。
+  pain_en: Publishing identifiable faces creates privacy and safety risk; manual blurring is slow and
+    error-prone, while uploading originals to cloud tools means handing over sensitive material.
+  current_alternative: 用 Photoshop 等软件逐张手动模糊，或使用需要上传图片的在线打码服务。
+  current_alternative_en: Manually blurring each image in Photoshop or similar software, or using online
+    redaction services that require uploading the photos.
+  usage_reason: 相较逐张手动模糊，它在浏览器本地一次性完成人脸检测、模糊与元数据清除，省掉逐张框选和上传素材这两步，因此处理敏感照片的记者和组织者会在发布前选择它；这是基于产品能力的推断，尚无用户反馈支持。
+  usage_reason_en: Compared with manual per-image blurring, it does face detection, blurring and metadata
+    removal in one local browser pass, removing the per-image selection step and the upload step, so journalists
+    and organizers handling sensitive photos would choose it before publishing; this is inference from
+    product capability, not supported by user feedback.
+- id: req-full-photo-scrubber-local-face-blur-metadata-removal-2026-10-01
+  project_slug: photo-scrubber-local-face-blur-metadata-removal
+  level: full
+  reviewed_at: '2026-10-01T01:55:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布含陌生人面孔照片的隐私风险，痛点具体且不处理的后果明确，本地处理避免上传敏感素材；这是从产品能力与旧流程作出的结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-026dbfacaf6e9256
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有作者本人的发布说明与检索到的通用图片服务页面，没有编辑部或组织采用、评价或重复使用的证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-026dbfacaf6e9256
+    - ev-6c36c49ab05016c2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是媒体机构、非营利组织或个体记者，这是判断而非已验证事实，公开材料未见采购或付费记录。
+    evidence_ids:
+    - ev-026dbfacaf6e9256
+    - ev-f0c79b39a5c4e3de
+  - gate: truth
+    status: insufficient
+    reason: 人脸检测存在漏检可能，模糊范围与元数据清除是否彻底需人工复核，公开材料未给出准确率或交付确定性证据。
+    evidence_ids:
+    - ev-026dbfacaf6e9256
+  next_validation: 追踪该工具公开代码仓库或讨论区的 issue 与使用反馈，确认是否有新闻机构或组织将其用于实际发布流程。
+  market: ''
+  job: 摄影记者或活动组织者在拍摄抗议、集会等含陌生人面孔的照片后，需要在发布或交付前对这些图片做脱敏处理，产出可直接分享的图片。
+  job_en: A photojournalist or event organizer, after shooting protests or gatherings containing strangers'
+    faces, needs to redact those images before publishing or delivering them, producing shareable files.
+  pain: 公开发布可识别人脸的照片会带来隐私与安全风险；逐张手动模糊既慢又容易漏，把原图上传到云端工具又等于把敏感素材交出去。
+  pain_en: Publishing identifiable faces creates privacy and safety risk; manual per-image blurring is
+    slow and error-prone, while uploading originals to cloud tools means handing over sensitive material.
+  current_alternative: 用 Photoshop 等软件逐张手动模糊，或使用需要上传图片的在线打码服务。
+  current_alternative_en: Manually blurring each image in Photoshop or similar software, or using online
+    redaction services that require uploading the photos.
+  usage_reason: 相较逐张手动框选模糊，它在浏览器本地一次完成人脸检测、模糊与元数据清除，省掉逐张框选和上传原图两步，因此处理敏感照片的记者和组织者会在发布前选择它；这是基于产品能力的推断，尚无用户反馈支持。
+  usage_reason_en: Compared with manual per-image selection and blurring, it does face detection, blurring
+    and metadata removal in one local browser pass, removing the per-image selection step and the upload
+    step, so journalists and organizers handling sensitive photos would choose it before publishing; this
+    is inference from product capability, not supported by user feedback.

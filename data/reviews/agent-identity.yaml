@@ -1,0 +1,80 @@
+- id: req-initial-agent-identity-2026-10-01
+  project_slug: agent-identity
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点写不出来，只有身份与通信能力描述，价值关无法成立。
+    evidence_ids:
+    - ev-c71cb5400a67c6bb
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无公开采用或讨论证据判断共识卡在哪一环。
+    evidence_ids:
+    - ev-c71cb5400a67c6bb
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径无公开材料支持。
+    evidence_ids:
+    - ev-c71cb5400a67c6bb
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对身份与通信的安全边界及交付确定性。
+    evidence_ids:
+    - ev-c71cb5400a67c6bb
+  next_validation: 收集 Agent Identity 的官方文档或定价页，确认它对接的通信渠道、使用场景与计费方式。
+  market: ''
+  job: 公开材料未说明谁在什么情况下需要给 agent 开身份、处理什么材料、要完成什么任务。
+  job_en: Public material does not say who needs to issue an agent identity under what circumstances,
+    what material is handled, or which task is completed.
+  pain: 候选只描述能力，未说明现有流程中因 agent 无身份而产生的具体阻碍或代价。
+  pain_en: The candidate describes only a capability and no concrete blocker or cost caused by agents
+    lacking identity in existing processes.
+  current_alternative: 未披露旧做法，无法判断此前团队如何让 agent 接收邮件或电话。
+  current_alternative_en: The prior practice is undisclosed, so how teams previously let agents receive
+    email or calls cannot be judged.
+  usage_reason: 缺少使用场景与交付信息，无法说明相较旧做法减少哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: Without usage scenarios or deliverables, it is impossible to say which step of burden
+    it removes versus the old practice, or which users would choose it under what circumstances.
+- id: req-full-agent-identity-2026-10-01
+  project_slug: agent-identity
+  level: full
+  reviewed_at: '2026-10-01T01:52:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点写不出来，只有身份、收件箱与电话三项能力描述，无法还原旧流程、输入、动作与不解决的后果，价值关无法成立。
+    evidence_ids:
+    - ev-c71cb5400a67c6bb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Agent Identity 的官方文档或定价页，确认它对接的通信渠道、使用场景与计费方式。
+  market: ''
+  job: 公开材料未说明谁在什么情况下需要给 AI agent 开身份、处理什么材料、要完成什么任务，只给出身份、收件箱与电话号码三项能力。
+  job_en: Public material does not say who needs to issue an AI agent an identity under what circumstances,
+    what material is handled, or which task is completed; it only lists identity, inbox and phone number
+    as capabilities.
+  pain: 候选只描述能力，未说明现有流程中因 agent 没有身份、收件箱或电话而产生的具体阻碍、失败或代价。
+  pain_en: The candidate describes only capabilities and no concrete blocker, failure or cost caused by
+    agents lacking identity, inbox or phone in existing processes.
+  current_alternative: 未披露旧做法，无法判断此前团队如何让 agent 接收邮件、电话或对外表明身份。
+  current_alternative_en: The prior practice is undisclosed, so how teams previously let agents receive
+    email or calls, or present an identity, cannot be judged.
+  usage_reason: 缺少使用场景与交付信息，无法说明相较旧做法减少哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: Without usage scenarios or deliverables, it is impossible to say which step of burden
+    it removes versus the old practice, or which users would choose it under what circumstances.

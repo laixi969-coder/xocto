@@ -295,3 +295,50 @@
   usage_reason: 用户要完成的任务是：学生自学一门科目；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Students self-studying a subject Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-study-mate-2026-10-01
+  project_slug: study-mate
+  level: full
+  reviewed_at: '2026-10-01T01:55:45Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学一门科目时路线零散、卡点无人讲解、缺少练习任务的需求，痛点在于自学者需自行拼凑顺序并易中途放弃；公开仓库说明已给出“定路线、讲知识、做项目”的输入—动作—交付闭环，属工作流结构推理，非用户口述证据。
+    evidence_ids:
+    - ev-bd77985a04acbbc4
+    - ev-c0a8f7c25bd1d733
+  - gate: consensus
+    status: supported
+    reason: 公开 公开代码仓库 仓库收藏数从 300 增至 476，说明有开发者持续关注并收藏该学习工具；但收藏属关注度证据，不能证明目标自学者已把它长期留在学习流程中，强场景仍待公开案例佐证。
+    evidence_ids:
+    - ev-bd77985a04acbbc4
+    - ev-c0a8f7c25bd1d733
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济说明，无法判断钱来自 to C 订阅、to B 机构还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-bd77985a04acbbc4
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明只描述路线、讲解与项目任务，未公开练习是否真正完成、讲解准确性如何校验，以及人工与安全边界；交付能否稳定发生缺可复现证据。
+    evidence_ids:
+    - ev-bd77985a04acbbc4
+  next_validation: 追踪 Study-Mate 的 公开代码仓库 仓库 README、issue 与 discussion，确认是否有用户公开描述用它替代原有自学流程的具体场景与使用结果。
+  market: ''
+  job: 自学一门科目的学生（多为编程/技术类自学者），在选定科目后面对零散教程不知从何入手时，把想学的科目与当前进度交给 Study-Mate，让它产出学习路线、知识点讲解和练习项目任务，再按路线边学边做。
+  job_en: Students self-studying a subject
+  pain: 公开材料只给出产品定位（定路线、讲知识、做项目），未提供用户抱怨或案例；从工作流结构推理，自学者的痛点是路线规划与知识点串联要自己拼凑、遇到卡点无人即时讲解、缺少可动手的练习任务，导致中途放弃。这是结构推理，不是用户口述。
+  pain_en: Public materials only give the product positioning (roadmap, explanations, projects) with no
+    user complaints or cases; by workflow inference, the self-learner's pain is having to assemble a roadmap
+    and connect concepts alone, having no immediate explanation at blockers, and lacking hands-on tasks,
+    which leads to dropping out. This is structural inference, not user testimony.
+  current_alternative: 现有替代是搜索引擎与视频教程、MOOC 课程、教材、论坛问答，以及直接使用通用聊天机器人逐条提问；这些方式需要用户自己组织顺序和判断学到哪一步。
+  current_alternative_en: Current alternatives are search engines and video tutorials, MOOCs, textbooks,
+    forum Q&A, and asking a general chatbot question by question; these require the user to sequence the
+    material and judge their own progress.
+  usage_reason: 推断：相较自己拼教程或逐条问通用聊天机器人，它把“定路线—讲知识—给项目任务”串成一次连续交付，减少用户自己排顺序、找下一份材料的那一步负担，因此适合刚选定科目、需要一条可执行路径的自学者在起步阶段选择它。
+  usage_reason_en: 'Inference: versus assembling tutorials or asking a general chatbot one question at
+    a time, it chains roadmap, explanation and project tasks into one continuous delivery, removing the
+    step of sequencing material and hunting for the next resource, so a self-learner who just picked a
+    subject and needs an executable path would choose it at the start.'

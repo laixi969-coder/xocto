@@ -299,3 +299,56 @@
   usage_reason: 用户要完成的任务是：开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-herdr-gpui-2026-10-01
+  project_slug: herdr-gpui
+  level: full
+  reviewed_at: '2026-10-01T01:53:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 并行时会话、worktree 与 agent 状态分散、需反复切换核对的问题，痛点来自工作流结构推理而非用户口述；不解决的后果是上下文丢失与状态误判，交付物是集中查看与切换界面，结构上成立。
+    evidence_ids:
+    - ev-c584594ab8b10d5a
+    - ev-f960f4105947f835
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 215 增至 404，说明开发者社区持续关注；但收藏与增长只属关注度证据，公开材料没有用户评价、issue 或案例说明谁在什么场景持续使用，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-c584594ab8b10d5a
+    - ev-a5472629f37e3dc6
+    - ev-f960f4105947f835
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：项目为开源 macOS 客户端，公开材料未见定价页、付费记录或采购信息，买方可能是个人开发者或团队，但收入路径与单位经济均未核验。
+    evidence_ids:
+    - ev-c584594ab8b10d5a
+  - gate: truth
+    status: insufficient
+    reason: 产品定位说明它只做查看与切换、不执行编码任务，但公开材料没有部署文档、可复现实测或安全边界说明，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-c584594ab8b10d5a
+    - ev-51aabf2d76a205bc
+  next_validation: 追踪 herdr-gpui 仓库的 issue 与 discussion，确认是否有开发者描述具体多 agent 工作流、替代了哪种旧做法，以及是否出现付费或团队采用线索。
+  market: ''
+  job: 开发者在本地同时运行多个编码 agent 时，打开这个 macOS 客户端，通过本地 Herdr 守护进程查看终端会话、工作区、Git worktree 与 agent 活动，并完成会话之间的集中查看与切换。
+  job_en: When running several coding agents locally, a developer opens this macOS client to view terminal
+    sessions, workspaces, Git worktrees, and agent activity through the local Herdr daemon, and to switch
+    between those sessions from one place.
+  pain: 多 agent 并行时，会话、worktree 与 agent 状态分散在多个终端窗口和标签里，开发者需要反复切换、逐个确认哪个 agent 在跑、哪个已停，上下文容易丢失；公开材料只给出产品定位，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: With several agents running in parallel, sessions, worktrees, and agent states are scattered
+    across terminal windows and tabs, forcing repeated switching and manual checking of which agent is
+    running or stalled; public materials give only the product positioning, not user complaints or frequency
+    data, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是直接用终端多标签、tmux 或分屏窗口，配合 git worktree 命令手工管理各 agent 的工作目录，没有统一的 agent 活动视图。
+  current_alternative_en: The existing approach is plain terminal tabs, tmux, or split windows, combined
+    with manual git worktree commands to manage each agent's working directory, with no unified view of
+    agent activity.
+  usage_reason: 推断：相较 tmux 或分屏终端，它把终端会话、worktree 与 agent 活动收进一个原生 macOS 界面，减少在多个窗口间切换和手工核对 agent 状态这一步，因此同时跑多个本地编码
+    agent 的 macOS 开发者会在需要集中查看与切换时选择它；公开材料尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: compared with tmux or split terminals, it consolidates terminal sessions,
+    worktrees, and agent activity into one native macOS view, removing the step of switching windows and
+    manually checking agent state, so macOS developers running several local coding agents would choose
+    it when they need a single place to view and switch; public materials contain no user feedback or
+    retention evidence for this motive.'

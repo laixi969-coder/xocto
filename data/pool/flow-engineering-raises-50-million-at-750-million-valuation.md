@@ -1,6 +1,6 @@
 ---
 slug: flow-engineering-raises-50-million-at-750-million-valuation
-name: Flow Engineering Raises $50 Million at $750 Million Valuation
+name: Flow Engineering
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzdC1ORVMwSkhE
 summary: Flow Engineering Raises $50 Million at $750 Million Valuation tokenpost.com
 first_seen: '2026-09-30T19:53:02Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Flow Engineering Raises $50 Million at $750 Million Valuation
+# Flow Engineering
 
 Flow Engineering Raises $50 Million at $750 Million Valuation tokenpost.com
 

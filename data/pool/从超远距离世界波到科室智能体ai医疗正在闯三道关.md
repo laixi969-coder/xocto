@@ -1,11 +1,14 @@
 ---
 slug: 从超远距离世界波到科室智能体ai医疗正在闯三道关
-name: 从“超远距离世界波”到“科室智能体”：AI医疗正在闯三道关
+name: AI医疗
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月底的报道指出，AI医疗正从单点影像等应用走向“科室智能体”，但仍需闯过三道关。这意味着医疗智能体的落地取决于科室级数据打通、临床验证与合规准入，短期内采用节奏受制于医院流程与监管要求，而非模型能力本身。
 inspiration: ''
-summary_en: ''
+summary_en: Reports in late September 2026 indicated that AI in healthcare is moving from point applications
+  such as imaging toward department-level agents, but still faces three hurdles. This means deployment
+  of medical agents depends on department-level data integration, clinical validation and regulatory clearance,
+  with near-term adoption paced by hospital workflows and oversight rather than model capability alone.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQc0JDWEpWZzlI
 summary: 从“超远距离世界波”到“科室智能体”：AI医疗正在闯三道关 搜狐网
 first_seen: '2026-09-30T07:59:04Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# 从“超远距离世界波”到“科室智能体”：AI医疗正在闯三道关
+# AI医疗
 
 从“超远距离世界波”到“科室智能体”：AI医疗正在闯三道关 搜狐网
 

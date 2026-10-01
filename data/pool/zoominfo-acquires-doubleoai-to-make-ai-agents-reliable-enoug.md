@@ -1,6 +1,6 @@
 ---
 slug: zoominfo-acquires-doubleoai-to-make-ai-agents-reliable-enoug
-name: ZoomInfo Acquires DoubleO.ai to Make AI Agents Reliable Enough to Run Go-to-Market Motions
+name: ZoomInfo
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: ZoomInfo Acquires DoubleO.ai to Make AI Agents Reliable Enough to Run G
   Wire
 first_seen: '2026-09-30T12:30:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# ZoomInfo Acquires DoubleO.ai to Make AI Agents Reliable Enough to Run Go-to-Market Motions
+# ZoomInfo
 
 ZoomInfo Acquires DoubleO.ai to Make AI Agents Reliable Enough to Run Go-to-Market Motions Business Wire
 

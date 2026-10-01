@@ -858,3 +858,53 @@
     and command surface composition, evolution, and compaction/pruning events directly, turning ''guess
     what was lost'' into ''see which step lost it'', so developers debugging long sessions open it when
     the agent starts forgetting.'
+- id: req-full-dsh-context-2026-10-01
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-01T01:53:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被静默压缩、剪枝导致关键信息丢失的问题，开发者需看清组成与演进才能定位遗忘原因；不解决的后果是反复重述需求、重开会话，排查成本随会话变长上升。这是基于产品能力与旧流程的工作流结构推理，尚无用户反馈直接佐证痛点强度。
+    evidence_ids:
+    - ev-425a013cd664cbf9
+    - ev-a99eaf23f7c5e52c
+  - gate: consensus
+    status: insufficient
+    reason: 同生态的 dscode 收藏数从 735 增至 1009、jevmem 从 98 增至 103，说明 DeepSeek Harness 与记忆类插件确有开发者关注，但这些数字属于相邻项目，不能归因到
+      dsh-context 本身，也未见其持续使用或留存证据。
+    evidence_ids:
+    - ev-43ee8e605a4f6b15
+    - ev-44bfd2bfdf33f2e4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者订阅或 to B 团队授权，但均为判断而非已验证事实；开源插件也可能长期无直接收入，存在靠生态关注而非付费续命的风险。
+    evidence_ids:
+    - ev-19ebf93af89607a3
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺透视上下文组成与压缩剪枝事件，但公开材料未给出可复现的部署文档或实测结果，无法确认面板展示与实际上下文状态一致，也未说明人工干预与安全边界。
+    evidence_ids:
+    - ev-425a013cd664cbf9
+  next_validation: 追踪 dsh-context 在 npm 与代码仓库的 README、issue 和 discussion，确认是否公开上下文面板的实测截图、部署方式及用户报告的实际遗忘排查案例。
+  market: ''
+  job: 使用 DeepSeek Harness 等编码代理的开发者，在长会话中处理多轮对话、工具调用与压缩事件时，需要查看当前上下文里装了什么、哪些内容被压缩或剪枝丢弃，以判断代理为何遗忘关键信息并决定是否补回。
+  job_en: Developers using DeepSeek Harness-style coding agents, during long sessions with multi-turn
+    dialogue, tool calls and compaction events, need to inspect what the current context holds and what
+    was dropped by compaction or pruning, so they can tell why the agent forgot key facts and decide whether
+    to restore them.
+  pain: 长会话中上下文会被自动压缩、剪枝，关键约束或文件内容可能被静默丢弃，代理随后给出错误结果，而开发者只能从最终输出反推，排查成本高、发生频率随会话变长而上升。
+  pain_en: In long sessions the context is auto-compacted and pruned, so key constraints or file contents
+    can be silently dropped; the agent then produces wrong results and the developer can only infer the
+    cause from the final output, which is costly and becomes more frequent as sessions grow.
+  current_alternative: 旧做法是翻看原始会话日志、凭记忆猜测代理忘了什么，或反复重述需求、重开会话；部分用户改用 jevmem 这类自动项目记忆插件来绕过遗忘，但看不到上下文组成与演进过程。
+  current_alternative_en: The old way is to scroll raw session logs, guess from memory what the agent
+    forgot, or repeatedly restate requirements and restart sessions; some users adopt auto-memory plugins
+    such as jevmem to work around forgetting, but still cannot see how the context is composed or evolves.
+  usage_reason: 推断：相较翻日志或重开会话，该插件把上下文组成、压缩与剪枝事件直接呈现在面板和命令中，开发者无需从最终输出反推，就能定位是哪一步丢掉了哪段内容，因此长会话调试或需要稳定复现约束的开发者会在排查遗忘问题时选择它。
+  usage_reason_en: 'Inference: compared with scrolling logs or restarting sessions, the plugin surfaces
+    context composition and compaction/pruning events directly in a panel and command, so developers no
+    longer infer from final output and can locate which step dropped which content; developers debugging
+    long sessions or needing stable constraint reproduction would choose it when investigating forgetting.'

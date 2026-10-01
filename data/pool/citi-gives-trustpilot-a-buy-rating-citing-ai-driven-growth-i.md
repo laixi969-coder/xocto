@@ -22,7 +22,7 @@ summary: Citi gives Trustpilot a 'buy' rating, citing AI-driven growth in consum
   discovery. Pluang
 first_seen: '2026-09-30T14:55:42Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

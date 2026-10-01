@@ -1,0 +1,85 @@
+- id: req-initial-campfire-2026-10-01
+  project_slug: campfire
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决人与编码 agent 协作时的共享问题，但公开材料只有一句定位，说不清替代了哪一步旧动作，需求强度无法判断。
+    evidence_ids:
+    - ev-f754521c44006b56
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一条产品定位描述，没有用户反馈、案例或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-f754521c44006b56
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱来自个人开发者、团队还是企业采购。
+    evidence_ids:
+    - ev-f754521c44006b56
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对共享工作区是否贴近该工作的第一性目标，也无交付确定性材料。
+    evidence_ids:
+    - ev-f754521c44006b56
+  next_validation: 获取 Campfire 官方产品页或文档，确认共享工作区里人与编码 agent 各自的动作和最终交付物。
+  market: ''
+  job: 多名开发者与编码 agent 同时推进同一项编码工作时，需要在共享工作区里查看和接手 agent 的产出。
+  job_en: When several developers and coding agents push the same coding work forward, they need a shared
+    workspace to view and take over the agent's output.
+  pain: 公开材料只给出定位描述，没有说明共享工作区里谁在什么节点做什么、哪一步变轻松，痛点无法从现有事实还原。
+  pain_en: The public material gives only a positioning line and does not say who does what at which step
+    in the shared workspace or which step gets easier, so the pain cannot be reconstructed from available
+    facts.
+  current_alternative: 开发者通常在各自终端里运行编码 agent，再通过代码评审或聊天工具同步结果。
+  current_alternative_en: Developers typically run coding agents in their own terminals and then sync
+    results through code review or chat tools.
+  usage_reason: 推断：若工作区对人和 agent 共享，团队可能省去在终端与评审工具之间来回同步的一步；但公开材料未说明这一动作如何发生，也没有采用或留存证据，因此无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the workspace is shared between people and agents, a team might skip
+    syncing back and forth between terminals and review tools; however the public material does not describe
+    that action and there is no adoption or retention evidence, so why users would choose it cannot be
+    confirmed.'
+- id: req-full-campfire-2026-10-01
+  project_slug: campfire
+  level: full
+  reviewed_at: '2026-10-01T01:52:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决人与编码 agent 协作时的共享问题，但公开材料只有一句定位，说不清替代了哪一步旧动作，需求强度无法判断。
+    evidence_ids:
+    - ev-4d72e90b41b526fb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 获取 Campfire 官方产品页或文档，确认共享工作区里人与编码 agent 各自的动作和最终交付物。
+  market: ''
+  job: 多名开发者与编码 agent 同时推进同一项编码工作时，需要在共享工作区里查看和接手 agent 的产出。
+  job_en: When several developers and coding agents push the same coding work forward, they need a shared
+    workspace to view and take over the agent's output.
+  pain: 公开材料只给出定位描述，没有说明共享工作区里谁在什么节点做什么、哪一步变轻松，痛点无法从现有事实还原。
+  pain_en: The public material gives only a positioning line and does not say who does what at which step
+    in the shared workspace or which step gets easier, so the pain cannot be reconstructed from available
+    facts.
+  current_alternative: 开发者通常在各自终端里运行编码 agent，再通过代码评审或聊天工具同步结果。
+  current_alternative_en: Developers typically run coding agents in their own terminals and then sync
+    results through code review or chat tools.
+  usage_reason: 推断：若工作区对人和 agent 共享，团队可能省去在终端与评审工具之间来回同步的一步；但公开材料未说明该动作如何发生，也无采用或留存证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the workspace is shared between people and agents, a team might skip
+    syncing back and forth between terminals and review tools; however the public material does not describe
+    that action and there is no adoption or retention evidence, so why users would choose it cannot be
+    confirmed.'

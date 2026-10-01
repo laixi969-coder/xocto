@@ -150,3 +150,52 @@
   usage_reason: 用户要完成的任务是：短视频剪辑师、口播内容创作者、MCN 后期运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: short-video editor, talking-head content creator, MCN post-production
     operator Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-seecut-2026-10-01
+  project_slug: seecut
+  level: full
+  reviewed_at: '2026-10-01T01:55:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播/数字人视频创作者在剪片环节的粗剪、卡节奏与加动效需求，痛点是重复机械劳动；公开材料已还原输入（原始口播素材）、动作（AI 粗剪、节奏切分、网感动效）与交付（成片或剪映分层草稿），属工作流结构推理，痛点刚性与交付确定性成立。
+    evidence_ids:
+    - ev-efffcb7b9d0e8dca
+    - ev-4d19ef48ae19398a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明它是面向 Claude Code、Codex CLI 等 AI 编程助手的开源 skill，未给出目标创作者的使用规模、持续采用或社区讨论；关注度不等于口播创作者会把它留在剪辑工作流里。
+    evidence_ids:
+    - ev-4d19ef48ae19398a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，开源 skill 形态下谁付钱尚不清楚；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-01a1b65a9945ce3e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出识别精度、成片可发布率或人工与安全边界的可复现证据，交付能否稳定发生仍缺核验；产品说明本身不能证明交付确定性。
+    evidence_ids:
+    - ev-efffcb7b9d0e8dca
+  next_validation: 追踪 SeeCut 官方仓库（YeJe-cpu）的 README、issue 与 discussion，确认实际部署方式、输入输出示例与用户反馈，以核验交付确定性与采用情况。
+  market: ''
+  job: 口播或数字人视频创作者、MCN 后期运营在剪片环节打开 SeeCut，把原始口播素材交给 AI，由 AI 完成粗剪、节奏切分和网感动效，输出可直接发布的短视频，或导出剪映分层草稿供人工继续调整。
+  job_en: Talking-head or AI-avatar video creators and MCN post-production operators open SeeCut at the
+    editing step, hand raw talking-head footage to the AI, which performs rough cutting, pacing and motion
+    effects, outputting a publish-ready short video or a layered CapCut draft for further manual adjustment.
+  pain: 口播素材的粗剪、卡节奏、加动效是重复且耗时的机械劳动，创作者往往要逐条听素材、手动切分并套模板；公开材料只描述了这一编辑步骤，未给出耗时、返工率或放弃剪辑的具体代价，因此痛点强度属于工作流结构推理而非用户口述。
+  pain_en: 'Rough-cutting talking-head footage, matching pacing and adding motion effects is repetitive
+    mechanical labor: creators must listen through clips, cut manually and apply templates. Public materials
+    only describe this editing step and give no measured time cost, rework rate or consequence of skipping
+    it, so pain intensity is a workflow-structure inference, not user testimony.'
+  current_alternative: 当前替代方式是人工在剪映等剪辑软件里逐条粗剪、手动卡节奏并套用动效模板，或把素材外包给剪辑师；SeeCut 以 AI 自动完成粗剪与节奏切分、并可选导出剪映分层草稿来替代其中的人工粗剪环节。
+  current_alternative_en: The current alternative is manual rough-cutting, pacing and template effects
+    in editors such as CapCut, or outsourcing footage to a human editor; SeeCut replaces the manual rough-cut
+    step with AI auto-cutting and pacing, optionally exporting a layered CapCut draft.
+  usage_reason: 相较逐条手动粗剪的旧做法，SeeCut 通过 AI 自动完成粗剪、节奏切分和网感动效，减少创作者在剪辑软件里反复听素材、手动切分与套模板的步骤；需要批量产出或不想从零剪口播的创作者会在剪片环节选择它。这是基于产品能力与任务结构的推断，公开材料尚无用户反馈或客户案例证实该动机。
+  usage_reason_en: Compared with cutting clip by clip manually, SeeCut uses AI to auto-perform rough cutting,
+    pacing and motion effects, removing the steps of repeatedly listening to footage, cutting manually
+    and applying templates in an editor; creators who need batch output or do not want to cut talking-head
+    video from scratch would choose it at the editing step. This is an inference from product capability
+    and task structure, not yet confirmed by public user feedback or customer cases.

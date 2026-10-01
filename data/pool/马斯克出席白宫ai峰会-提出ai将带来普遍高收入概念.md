@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lS2I2ajRkcllC
 summary: 马斯克出席白宫AI峰会 提出AI将带来“普遍高收入”概念 观点网
 first_seen: '2026-09-30T12:03:24Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

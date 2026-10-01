@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5aMFVnQk5lZ0pL
 summary: 筑牢数据底座 让AI真正落地 中国日报网
 first_seen: '2026-09-30T06:34:01Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

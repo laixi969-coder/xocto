@@ -1,0 +1,80 @@
+- id: req-initial-strata-2026-10-01
+  project_slug: strata
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有一句自述，无法还原用户任务、痛点与不采用后果。
+    evidence_ids:
+    - ev-495ad050e38939d3
+  - gate: consensus
+    status: insufficient
+    reason: 18 点与 8 条评论属关注度，不构成持续采用证据。
+    evidence_ids:
+    - ev-495ad050e38939d3
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、定价或收费方式。
+    evidence_ids:
+    - ev-495ad050e38939d3
+  - gate: truth
+    status: insufficient
+    reason: 无文档或实测，交付确定性与人工边界无法核验。
+    evidence_ids:
+    - ev-495ad050e38939d3
+  next_validation: Strata 官方文档或定价页，说明它约束模型输出的具体输入、动作与交付结果。
+  market: ''
+  job: 未识别到具体使用者、工作节点与处理材料，公开材料只说明它是语义层。
+  job_en: No specific user, work step, or material is identified; public material only says it is a semantic
+    layer.
+  pain: 未说明模型输出失控会造成什么具体后果。
+  pain_en: It does not state what concrete consequence uncontrolled model output causes.
+  current_alternative: 未说明此前团队如何约束模型输出。
+  current_alternative_en: It does not state how teams previously constrained model output.
+  usage_reason: 缺少流程与交付细节，无法解释相较旧做法减少了哪一步负担，属推断空白。
+  usage_reason_en: Workflow and deliverable details are missing, so which step it removes versus the old
+    approach cannot be explained; this is an inference gap.
+- id: req-full-strata-2026-10-01
+  project_slug: strata
+  level: full
+  reviewed_at: '2026-10-01T01:55:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅一句自述，无法还原用户任务、痛点与不采用后果；连需求与痛点都写不出，故价值关不成立。
+    evidence_ids:
+    - ev-8bfae758d42c4840
+    - ev-4ee423c34ee1611c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Strata 官方文档或产品页，确认其约束 LLM 输出的具体输入、动作与交付结果，以及是否披露定价或客户案例。
+  market: ''
+  job: 公开材料只给出一句自述“能对 LLM 说不的表达性语义层”，未说明谁在什么工作节点、处理什么材料、要完成什么任务；无法还原具体使用者与任务。
+  job_en: Public material offers only the one-line claim of an expressive semantic layer that can say
+    no to an LLM; it does not state who opens it at which work step, what material is processed, or what
+    task is completed, so no concrete user or job can be reconstructed.
+  pain: 未说明模型输出失控会造成什么具体后果，也没有用户抱怨、workaround 或案例支撑痛点强度。
+  pain_en: It does not state what concrete consequence uncontrolled model output causes, and no user complaint,
+    workaround, or case supports the pain intensity.
+  current_alternative: 未说明此前团队如何约束或校验模型输出，旧替代行为缺失。
+  current_alternative_en: It does not state how teams previously constrained or validated model output;
+    the prior alternative behavior is absent.
+  usage_reason: 缺少输入、动作与交付细节，无法解释相较旧做法减少哪一步负担，也无法说明哪类用户会在什么情况下选择它；此处为推断空白。
+  usage_reason_en: Input, action, and deliverable details are missing, so which step it removes versus
+    the old approach, and which users would choose it under what conditions, cannot be explained; this
+    is an inference gap.

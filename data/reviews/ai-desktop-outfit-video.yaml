@@ -115,3 +115,57 @@
   usage_reason: 用户要完成的任务是：短视频创作者、内容运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: short-form video creator, content operator Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-ai-desktop-outfit-video-2026-10-01
+  project_slug: ai-desktop-outfit-video
+  level: full
+  reviewed_at: '2026-10-01T01:52:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是复刻「桌面换装」爆款模板时提示词写不准、需逐帧拆解并补后期剪辑的痛点；公开仓库说明一条提示词直出 30 秒固定机位成片、对白字幕由模型生成，旧做法是手写调参加剪辑，不解决则反复返工。此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-e2df99e9409b27a0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 43，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标创作者已持续使用或形成稳定场景；缺少 issue、discussion 或用户评价说明谁在什么情况下反复调用。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-87d213a3033e3df8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或收入路径，无法判断钱来自 to C 创作者订阅、to B 内容团队采购还是仅靠开源引流；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+  - gate: truth
+    status: insufficient
+    reason: 承诺「一条提示词直出 30 秒成片、无需后期剪辑」能否稳定复现，取决于即梦、豆包、Seedance 等外部模型的实际输出，公开材料未提供可复现的成片样本或失败率，交付确定性尚未核验。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-e2df99e9409b27a0
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有创作者反馈实际成片效果、复现失败率或批量使用场景。
+  market: ''
+  job: 短视频创作者或内容运营在需要批量产出「桌面动态壁纸换装」这类固定机位一镜到底的 30 秒成片时，打开仓库拿到提示词模板，把一句想法交给 Agent Skill，它先反问补全细节再写出精准提示词，再交给即梦、豆包、Seedance
+    2.5 等视频工具生成带中文对白和字幕的成片。
+  job_en: A short-form video creator or content operator who needs to batch-produce 30-second fixed-camera,
+    one-take 'desktop wallpaper outfit-change' clips opens the repo, takes the prompt template, hands
+    a one-line idea to the Agent Skill, which interviews them to fill in details and writes a precise
+    prompt, then feeds it to Jimeng, Doubao, Seedance 2.5 and similar video tools to generate a clip with
+    Chinese dialogue and subtitles.
+  pain: 公开材料显示痛点是：这类刷屏模板的提示词需要逐帧拆解才能复现，创作者自己写提示词往往写不准，还要额外做后期剪辑和对白字幕；不解决就要反复试错、多轮返工，或放弃这个题材。
+  pain_en: 'The public material shows the pain: reproducing this viral template requires frame-by-frame
+    deconstruction, creators often cannot write the prompt accurately themselves, and they still need
+    extra post-editing plus dialogue and subtitles; leaving it unsolved means repeated trial-and-error,
+    multiple rework rounds, or abandoning the format.'
+  current_alternative: 当前替代方式是创作者自己逐帧看爆款视频、手写或反复调提示词，再在即梦、豆包、Seedance 等工具里多次生成，最后用剪辑软件补对白和字幕。
+  current_alternative_en: The current alternative is creators watching viral clips frame by frame, hand-writing
+    or repeatedly tuning prompts, generating multiple times in Jimeng, Doubao, Seedance and similar tools,
+    then adding dialogue and subtitles in an editing app.
+  usage_reason: 相较自己拆帧手写提示词，它把「逐帧拆解 + 反复调参」这一步换成一条可直接复制的模板，并由 Agent Skill 先反问补全细节再输出提示词，因此需要批量复刻同一题材、又不擅长写提示词的创作者会在赶量时选择它；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: 'Compared with deconstructing frames and hand-writing prompts, it replaces the ''frame-by-frame
+    breakdown plus repeated parameter tuning'' step with a directly copyable template, and the Agent Skill
+    interviews the user to fill in details before emitting the prompt; therefore creators who need to
+    batch-replicate the same format and are weak at prompt writing would choose it when pushing volume.
+    This is an inference from product capability and task structure, not yet confirmed by '

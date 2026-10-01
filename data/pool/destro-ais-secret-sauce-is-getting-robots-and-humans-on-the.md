@@ -1,6 +1,6 @@
 ---
 slug: destro-ais-secret-sauce-is-getting-robots-and-humans-on-the
-name: Destro AI’s secret sauce is getting robots and humans on the same page
+name: Destro AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: '"One of the biggest reasons we are winning against robotics companies 
   a robotics company."'
 first_seen: '2026-09-30T16:00:00Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Destro AI’s secret sauce is getting robots and humans on the same page
+# Destro AI
 
 "One of the biggest reasons we are winning against robotics companies is because we are not a robotics company."
 

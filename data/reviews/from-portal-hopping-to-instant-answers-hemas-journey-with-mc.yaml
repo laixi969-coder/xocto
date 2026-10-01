@@ -43,3 +43,89 @@
     lookup step; keeping no cloud credentials on the client and anchoring access in the existing identity
     system makes security approval likelier, so mid-to-large firms with heavy internal documentation are
     the ones likely to try it first (inference).
+- id: req-initial-from-portal-hopping-to-instant-answers-hemas-journey-with-mc-2026-10-01
+  project_slug: from-portal-hopping-to-instant-answers-hemas-journey-with-mc
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内部知识查找要在多个门户间跳转、且权限难控的问题，痛点具体、旧行为明确；买方与付费方式未披露。
+    evidence_ids:
+    - ev-25f9e9669883aaaa
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，未见 HEMA 内部采用规模、留存或复购数据，无法判断是否已进入长期工作流。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明 HAL 是自建还是采购、按什么计价，钱来自内部预算还是供应商合同属推断。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 目标贴近“让员工拿到可信内部答案”这一第一性目标，权限锚定身份系统、凭证不下发客户端，交付边界较清楚。
+    evidence_ids:
+    - ev-25f9e9669883aaaa
+  next_validation: 收集 HEMA 或 AWS 官方发布的 HAL 部署文档与使用范围说明，核验其覆盖的员工数、接入的知识源类型与权限治理方式。
+  market: ''
+  job: HEMA 的内部员工在需要查技术规范或内部文档时，打开日常使用的工具提问，由 HAL 调取受权限管控的内部知识源并返回答案，员工再据此完成开发或运营任务。
+  job_en: HEMA staff who need technical standards or internal documents ask inside their everyday tools;
+    HAL retrieves from permission-governed internal knowledge sources and returns an answer the employee
+    then uses to finish development or operations work.
+  pain: 此前要在多个开发者门户之间反复跳转、自行拼凑信息，查找耗时且容易拿到过期或越权的内容。
+  pain_en: Previously they hopped between multiple developer portals and pieced information together themselves,
+    which was slow and risked stale or over-permissioned content.
+  current_alternative: 人工在多个开发者门户和文档站之间搜索，或直接问同事。
+  current_alternative_en: Manually searching several developer portals and documentation sites, or asking
+    a colleague.
+  usage_reason: 相较逐个门户搜索，HAL 把提问直接放进员工已用的工具，由 MCP 一次调取受治理的知识源，省掉切换门户和判断权限这一步；权限锚定在 Microsoft Entra ID、客户端不持有
+    AWS 凭证，使安全团队能放行。推断：有大量内部规范且权限敏感的企业团队会因此选择它。
+  usage_reason_en: 'Compared with searching portal by portal, HAL puts the question inside tools staff
+    already use and retrieves governed sources in one MCP call, removing the portal-switching and permission-judging
+    step; with permissions anchored in Microsoft Entra ID and no AWS credentials on the client, security
+    teams can approve it. Inference: teams with large internal standards and permission sensitivity would
+    choose it for this reason.'
+- id: req-full-from-portal-hopping-to-instant-answers-hemas-journey-with-mc-2026-10-01
+  project_slug: from-portal-hopping-to-instant-answers-hemas-journey-with-mc
+  level: full
+  reviewed_at: '2026-10-01T01:53:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 所引证据全部指向历史欧洲武术（HEMA Alliance、HEMA Scorecard）与 hema.com 的 cookie 声明，与荷兰零售商的内部知识助手无关，无法还原用户任务、痛点、旧替代或不解决的后果，价值关不成立。
+    evidence_ids:
+    - ev-8e4d99517ff29c42
+    - ev-e4bd54276a879cc7
+    - ev-ebe66b0e280b54b7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 AWS 官方博客或 HEMA 官方渠道发布的 HAL 部署说明与使用范围，核验其接入的知识源、覆盖员工数与权限治理方式。
+  market: ''
+  job: HEMA 内部员工在需要查技术规范或内部文档时，在已用工具中提问，由 HAL 通过 MCP 调取受权限管控的内部知识源返回答案，员工核对后完成开发或运营任务。
+  job_en: HEMA staff needing technical standards or internal documents ask inside their existing tools;
+    HAL retrieves from permission-governed internal knowledge sources via MCP and returns an answer the
+    employee verifies before finishing development or operations work.
+  pain: 公开材料未提供任何员工抱怨、查找耗时或越权取数的用户侧证据；候选摘要所述痛点无法从所引证据核实。
+  pain_en: The public material provides no user-side evidence of staff complaints, search time cost, or
+    over-permissioned retrieval; the pain described in the candidate summary cannot be verified from the
+    cited evidence.
+  current_alternative: 公开材料未记录员工此前如何在多个开发者门户间跳转或向同事求助的具体行为。
+  current_alternative_en: The public material does not record how staff previously hopped between developer
+    portals or asked colleagues.
+  usage_reason: 无法从所引证据说明用户为何选择 HAL；现有证据与 HEMA 零售业务或内部知识检索无关，无法建立使用因果。
+  usage_reason_en: There is no evidence explaining why users would choose HAL; the cited evidence is unrelated
+    to HEMA's retail business or internal knowledge retrieval, so no usage causality can be established.

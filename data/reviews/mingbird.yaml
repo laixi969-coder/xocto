@@ -1,0 +1,86 @@
+- id: req-initial-mingbird-2026-10-01
+  project_slug: mingbird
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决小模型难以独立完成任务的问题，痛点方向成立，但公开材料未说明具体任务、输入与交付，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-dda7491243026bec
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 点、0 条评论，没有采用或复述证据，看不出有形成共识的场景。
+    evidence_ids:
+    - ev-dda7491243026bec
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、付费或企业采购信息，钱从哪来无法判断，这是未知而非否定。
+    evidence_ids:
+    - ev-dda7491243026bec
+  - gate: truth
+    status: insufficient
+    reason: 未提供任务成功率、可复现测试或人工边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-dda7491243026bec
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它支持的具体任务类型、输入输出示例和可复现的运行结果。
+  market: ''
+  job: 开发者或小团队在本地或自有服务器上运行 2B 级小模型，需要让模型按步骤完成一项具体任务，而不是只做一次问答。
+  job_en: A developer or small team running a 2B-class model locally or on its own server needs the model
+    to complete a concrete task step by step rather than answer a single question.
+  pain: 小模型单次输出能力弱，要完成任务往往需要人工拆步骤、反复拼接调用，过程琐碎且容易中断。
+  pain_en: A small model is weak in a single pass, so finishing a task usually means manually splitting
+    steps and stitching calls together, which is fiddly and easy to break.
+  current_alternative: 目前多由开发者自己写脚本或提示词串联调用，或直接改用更大、更贵的模型。
+  current_alternative_en: Today developers usually write their own scripts or prompt chains, or simply
+    switch to a larger, more expensive model.
+  usage_reason: 推断：如果该框架真能把任务拆解与执行步骤固定下来，开发者就不必每次手写串联逻辑，从而在自托管、成本受限的场景下选择它；但公开材料未给出任务类型、成功率或交付结果，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if the harness really fixes task decomposition and execution steps, developers
+    would no longer hand-write the chaining logic each time and might choose it in self-hosted, cost-constrained
+    settings; however the public material gives no task types, success rate or deliverables, so it cannot
+    be confirmed that this burden is actually reduced.'
+- id: req-full-mingbird-2026-10-01
+  project_slug: mingbird
+  level: full
+  reviewed_at: '2026-10-01T01:54:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决小模型难以独立完成真实任务的问题，痛点方向可辨，但公开材料只有一句定位，未说明具体任务、输入材料、交付形态与不采用的后果，无法还原旧流程，价值结构尚不能成立。
+    evidence_ids:
+    - ev-dda7491243026bec
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它支持的具体任务类型、输入输出示例与可复现运行结果。
+  market: ''
+  job: 开发者或小团队在本地或自有服务器上运行 2B 级小模型，把一项具体任务交给 Mingbird 执行框架，由框架组织模型调用与执行步骤，最终拿到任务结果。
+  job_en: A developer or small team running a 2B-class model locally or on its own server hands a concrete
+    task to the Mingbird agent harness, which organizes model calls and execution steps to produce a task
+    result.
+  pain: 公开材料只给出“让 2B 模型完成真实任务”这一句定位，未说明任务类型、输入材料、失败表现或人工返工情况，因此无法确认用户具体卡在哪一步、痛点是否刚性。
+  pain_en: The public material offers only the one-line positioning that it makes a 2B model finish real
+    tasks; it does not state task types, input materials, failure modes or manual rework, so the specific
+    step where users get stuck and whether the pain is rigid cannot be confirmed.
+  current_alternative: 公开材料未描述现有做法；按工作流结构只能推测开发者会自行编写脚本或提示词串联调用，或改用更大更贵的模型，但这一替代路径没有公开证据支持。
+  current_alternative_en: The public material does not describe existing practice; by workflow structure
+    alone one can only speculate that developers write their own scripts or prompt chains, or switch to
+    a larger, more expensive model, but this alternative path has no public evidence behind it.
+  usage_reason: 推断：若该框架真能固定任务拆解与执行步骤，开发者可省去每次手写串联逻辑，在自托管、成本受限场景下可能选择它；但公开材料未给出任务类型、成功率或交付结果，无法确认这一步负担是否真的被减少，也无法说明哪类用户会在什么情况下选用。
+  usage_reason_en: 'Inference: if the harness really fixes task decomposition and execution steps, developers
+    could skip hand-writing the chaining logic each time and might choose it in self-hosted, cost-constrained
+    settings; however the public material gives no task types, success rate or deliverables, so it cannot
+    be confirmed that this burden is actually reduced, nor which users would pick it in which situations.'

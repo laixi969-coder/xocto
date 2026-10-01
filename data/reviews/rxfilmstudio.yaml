@@ -1,0 +1,79 @@
+- id: req-initial-rxfilmstudio-2026-10-01
+  project_slug: rxfilmstudio
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向商品视频制作这一具体任务，但资料未说明输入素材、产出规格与旧替代流程，价值结构无法还原。
+    evidence_ids:
+    - ev-5d1072c74a9c1c54
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-5d1072c74a9c1c54
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与计价方式均无公开材料。
+    evidence_ids:
+    - ev-5d1072c74a9c1c54
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法判断成片是否可直接投放及人工确认边界。
+    evidence_ids:
+    - ev-5d1072c74a9c1c54
+  next_validation: 收集 RxFilmStudio 官方页面或演示，确认输入素材类型、输出视频规格与是否需要人工确认。
+  market: ''
+  job: 资料未说明具体使用者与场景，无法确认谁在什么情况下处理什么素材、要完成什么视频任务。
+  job_en: The material does not identify the user or scenario, so it is unclear who handles what assets
+    under what circumstances to complete which video task.
+  pain: 没有用户抱怨、旧流程耗时或返工描述，无法判断商品视频制作环节的痛点强度。
+  pain_en: There is no user complaint, no description of time cost or rework in the old process, so the
+    pain intensity in product-video production cannot be judged.
+  current_alternative: 未披露。无法确认卖家现在是用剪辑软件、外包团队还是模板工具制作商品视频。
+  current_alternative_en: Not disclosed. It is unclear whether sellers currently use editing software,
+    outsourced teams, or template tools for product videos.
+  usage_reason: 缺少输入、动作与交付的可核对描述，无法解释相较旧做法省掉哪一步，因此不能给出使用理由。
+  usage_reason_en: With no verifiable description of inputs, actions, or deliverables, there is no way
+    to explain which step it removes versus the old practice, so no usage reason can be given.
+- id: req-full-rxfilmstudio-2026-10-01
+  project_slug: rxfilmstudio
+  level: full
+  reviewed_at: '2026-10-01T01:55:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向商品视频制作这一具体任务，但资料未说明输入素材、产出规格与旧替代流程，价值结构无法还原。
+    evidence_ids:
+    - ev-5d1072c74a9c1c54
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 RxFilmStudio 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 资料未说明具体使用者与场景，无法确认谁在什么情况下处理什么素材、要完成什么视频任务。
+  job_en: The material does not identify the user or scenario, so it is unclear who handles what assets
+    under what circumstances to complete which video task.
+  pain: 没有用户抱怨、旧流程耗时或返工描述，无法判断商品视频制作环节的痛点强度。
+  pain_en: There is no user complaint, no description of time cost or rework in the old process, so the
+    pain intensity in product-video production cannot be judged.
+  current_alternative: 未披露。无法确认卖家现在是用剪辑软件、外包团队还是模板工具制作商品视频。
+  current_alternative_en: Not disclosed. It is unclear whether sellers currently use editing software,
+    outsourced teams, or template tools for product videos.
+  usage_reason: 缺少输入、动作与交付的可核对描述，无法解释相较旧做法省掉哪一步，因此不能给出使用理由。
+  usage_reason_en: With no verifiable description of inputs, actions, or deliverables, there is no way
+    to explain which step it removes versus the old practice, so no usage reason can be given.

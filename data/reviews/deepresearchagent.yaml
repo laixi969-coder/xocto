@@ -118,3 +118,56 @@
   usage_reason_en: 'The task is: Analysts or consultants who need a cited first-draft industry research
     report hand public web material to the agent to search, organize evidence and produce a checkable
     report Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-deepresearchagent-2026-10-01
+  project_slug: deepresearchagent
+  level: full
+  reviewed_at: '2026-10-01T01:53:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分析师或顾问把散落公开网页材料整理成带引用调研初稿的需求，痛点是逐页检索、手工摘录、维护引用与上下文、长任务中断后重跑，属重复且易丢证据的负担；不采用则这些步骤仍由人工承担。公开材料未量化频率与返工代价，此判断为工作流结构推理。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-91984fd2bb08379b
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实仅有仓库说明与 60–63 个 star 的收藏量，属关注度证据，不能证明目标分析师或顾问已持续使用；缺少用户评价、issue 讨论或客户案例说明谁在什么场景反复使用。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-a155c28ba447035a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，无法判断钱来自 to C 分析师、to B 咨询机构还是 to VC；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称可续跑并生成带引用报告，但未提供可复现的交付结果、引用准确率或人工核对边界；能否稳定交付带引用初稿尚缺公开验证。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-91984fd2bb08379b
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有分析师或顾问报告实际部署、替代的旧流程与引用核对结果。
+  market: ''
+  job: 做行业调研的分析师或咨询顾问，在需要把散落的公开网页材料整理成一份带引用的调研初稿时打开它：agent 先规划检索步骤，再搜索网页、归集证据与上下文，中断后可续跑，最后输出带引用的报告，人工仍需核对引用是否成立。
+  job_en: 'Analysts or consultants doing industry research open it when they need to turn scattered public
+    web material into a cited first-draft research report: the agent plans search steps, searches the
+    web, collects evidence and context, resumes interrupted runs, and outputs a cited report that a human
+    still has to verify.'
+  pain: 公开事实只说明它规划检索、归集证据、可续跑并生成带引用报告；据此可推断的痛点是：人工逐页检索、摘录、维护引用与上下文，以及长任务中断后重跑，都是重复且易丢证据的负担。公开材料未给出频率、耗时或返工代价的量化数据，此判断属工作流结构推理。
+  pain_en: Public facts only show that it plans searches, collects evidence, resumes runs and generates
+    cited reports; the inferred pain is that manually searching page by page, excerpting, maintaining
+    citations and context, and re-running long tasks after interruption are repetitive and lose evidence.
+    Public material gives no quantified frequency, time cost or rework cost; this is workflow-structure
+    inference.
+  current_alternative: 旧做法是分析师或顾问自己用搜索引擎逐条检索、手工摘录到文档、自行维护引用与上下文，长任务中断后从头或从断点人工重跑；公开材料未说明它实际替代了哪套具体工具链。
+  current_alternative_en: The old way is for the analyst or consultant to search engine by engine, excerpt
+    manually into a document, maintain citations and context by hand, and manually restart long tasks
+    after interruption; public material does not say which concrete toolchain it replaces.
+  usage_reason: 推断：相较手工逐页检索与摘录，它把检索规划、证据归集和上下文管理交给 agent 执行，并在中断后续跑，减少重新检索与重建上下文这一步负担，产出带引用的报告初稿供人工核对；因此需要快速拿到可核查初稿的分析师或顾问会在这种情况下选择它。公开材料未提供用户反馈或客户案例，动机为推断。
+  usage_reason_en: 'Inference: versus manual page-by-page searching and excerpting, it delegates search
+    planning, evidence collection and context management to the agent and resumes after interruption,
+    removing the burden of re-searching and rebuilding context, and produces a cited draft for human verification;
+    analysts or consultants who need a checkable first draft would choose it in that situation. Public
+    material provides no user feedback or customer case, so the motive is inferred.'

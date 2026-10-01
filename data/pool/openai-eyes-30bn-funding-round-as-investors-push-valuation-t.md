@@ -1,6 +1,6 @@
 ---
 slug: openai-eyes-30bn-funding-round-as-investors-push-valuation-t
-name: OpenAI Eyes $30bn Funding Round As Investors Push Valuation Toward $1.4tn
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3c2UDU2bm8w
 summary: OpenAI Eyes $30bn Funding Round As Investors Push Valuation Toward $1.4tn Arise News
 first_seen: '2026-09-30T20:52:27Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI Eyes $30bn Funding Round As Investors Push Valuation Toward $1.4tn
+# OpenAI
 
 OpenAI Eyes $30bn Funding Round As Investors Push Valuation Toward $1.4tn Arise News
 

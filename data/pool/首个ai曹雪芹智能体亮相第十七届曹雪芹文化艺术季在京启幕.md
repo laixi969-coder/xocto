@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9sVHdLeVlqdGVf
 summary: 首个AI曹雪芹智能体亮相！第十七届曹雪芹文化艺术季在京启幕 中国科技网
 first_seen: '2026-09-30T06:28:46Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,87 @@
+- id: req-initial-gitbot-2026-10-01
+  project_slug: gitbot
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是仓库重复任务需要人工逐次发起的问题，痛点存在，但公开材料未说明替代的具体步骤与不采用的后果。
+    evidence_ids:
+    - ev-0f836b8530beb4cc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布信息，没有用户评价或采用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-0f836b8530beb4cc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，团队订阅或按量计费均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-0f836b8530beb4cc
+  - gate: truth
+    status: insufficient
+    reason: 自动化改动代码涉及安全边界，公开材料未说明权限控制与人工确认环节。
+    evidence_ids:
+    - ev-0f836b8530beb4cc
+  next_validation: 收集 GitBot 官方文档或定价页，确认支持的触发方式、任务类型与权限控制。
+  market: ''
+  job: 开发团队在维护代码仓库时，需要反复处理依赖更新、检查或清理等重复任务，希望把这些交给自动化机器人。
+  job_en: A development team maintaining a repository repeatedly handles dependency updates, checks, or
+    cleanup and wants to hand these to an automation bot.
+  pain: 重复仓库任务占用工程师时间且容易遗漏；公开材料未说明它替代了哪一步具体人工操作。
+  pain_en: Repetitive repo tasks consume engineer time and are easily missed; public material does not
+    say which specific manual step it replaces.
+  current_alternative: 用 CI 脚本、公开代码仓库 Actions 或直接在编码 agent 对话里逐次下达指令。
+  current_alternative_en: CI scripts, public code repository Actions, or issuing instructions one by one
+    in a coding agent chat.
+  usage_reason: 推断：若它能把已有编码 agent 封装成按事件触发的机器人，团队就不必每次手动发起对话，重复任务可自动执行；但公开材料未说明触发方式与任务类型，也无用户反馈，无法确认其可靠性。
+  usage_reason_en: 'Inference: if it wraps an existing coding agent into event-triggered bots, teams avoid
+    manually starting each conversation and repetitive tasks run automatically; however, triggers and
+    task types are not public and there is no user feedback, so reliability is unconfirmed.'
+- id: req-full-gitbot-2026-10-01
+  project_slug: gitbot
+  level: full
+  reviewed_at: '2026-10-01T01:53:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决仓库重复维护任务需人工逐次发起的需求：任务占用工程师时间且易遗漏，现有做法是 CI 脚本或手动在编码 agent 对话里下指令。把已有 agent 封装成事件触发机器人可省去逐条发起这一步，痛点具体、交付动作明确，属工作流结构推理；具体触发方式与任务类型未公开。
+    evidence_ids:
+    - ev-0f836b8530beb4cc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开资料 发布信息，没有用户评价、采用数据或开发者讨论，无法判断团队是否已把它接入仓库流程，也看不出卡在感知还是场景环节。
+    evidence_ids:
+    - ev-0f836b8530beb4cc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，团队订阅或按量计费均属推断而非已验证事实；谁付钱说不清，但这是判断，不影响价值关成立。
+    evidence_ids:
+    - ev-0f836b8530beb4cc
+  - gate: truth
+    status: insufficient
+    reason: 自动化改动代码涉及安全与人工边界，公开材料未说明权限控制、改动是否需人工确认及失败回滚，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-0f836b8530beb4cc
+  next_validation: 追踪 GitBot 官方文档或定价页，确认支持的触发方式、任务类型、权限控制与人工确认环节。
+  market: ''
+  job: 开发团队在维护代码仓库时，把依赖更新、检查或清理等重复任务交给 GitBot，让它在已有编码 agent 上按事件自动执行，团队得到自动处理结果。
+  job_en: A development team maintaining a repository hands repetitive tasks such as dependency updates,
+    checks, or cleanup to GitBot, which runs them automatically on an existing coding agent by event,
+    returning automated results.
+  pain: 重复仓库任务占用工程师时间且容易遗漏，每次都要手动在编码 agent 对话里逐条下达指令，任务与仓库事件之间缺少自动衔接。
+  pain_en: Repetitive repo tasks consume engineer time and are easily missed; each one must be manually
+    issued in a coding agent chat, and there is no automatic link between tasks and repository events.
+  current_alternative: CI 脚本、代码仓库 Actions，或直接在编码 agent 对话里逐次下达指令。
+  current_alternative_en: CI scripts, repository Actions, or issuing instructions one by one in a coding
+    agent chat.
+  usage_reason: 推断：若它把已有编码 agent 封装成按仓库事件触发的机器人，团队就不必每次手动发起对话，重复任务在事件发生时自动执行，省去逐条下达指令这一步；因此已用编码 agent、又想让重复维护自动化的开发团队会在仓库维护场景选择它。公开材料未说明触发方式、任务类型与权限控制，也无用户反馈，采用动机属结构推断。
+  usage_reason_en: 'Inference: if it wraps an existing coding agent into bots triggered by repository
+    events, teams avoid manually starting each conversation and repetitive tasks run when events occur,
+    removing the step of issuing instructions one by one; development teams already using a coding agent
+    and wanting repetitive maintenance automated would choose it in repository maintenance. Public material
+    does not state triggers, task types, or permission controls, and there is no user feedback, s'

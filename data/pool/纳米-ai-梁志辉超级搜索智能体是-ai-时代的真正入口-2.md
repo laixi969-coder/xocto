@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE14SHlaVmdXZC1o
 summary: 纳米 AI 梁志辉：超级搜索智能体是 AI 时代的真正入口 搜狐网
 first_seen: '2026-09-28T13:04:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

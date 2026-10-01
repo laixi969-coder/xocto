@@ -188,3 +188,58 @@
   usage_reason: 用户要完成的任务是：开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-herdr-pocket-2026-10-01
+  project_slug: herdr-pocket
+  level: full
+  reviewed_at: '2026-10-01T01:53:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者离机后无法掌握多个编码 agent 运行状态、卡住或等待输入时不能及时介入的痛点，不解决的后果是整段无人值守时间被浪费。旧替代是守在终端前或通用 SSH 客户端逐个
+      attach。产品以 SSH 直连、免装 bridge 的方式把状态看板与实时终端放进手机，交付路径具体可确定。以上为工作流结构推理，尚无用户反馈或采用数据佐证。
+    evidence_ids:
+    - ev-e0f40d137baa22cc
+    - ev-3858005726becba6
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库收藏数从 42 缓慢增至 45，属于关注度而非持续采用；没有 issue、discussion、用户评价或客户案例说明谁在什么场景下反复使用它，因此无法判断共识是否形成。
+    evidence_ids:
+    - ev-e0f40d137baa22cc
+    - ev-b49907f569212912
+  - gate: model
+    status: insufficient
+    reason: 这是开源客户端，公开材料未见定价页、付费路径或买方描述；可能走 to C 开发者自用或后续 to B 团队授权，但均属判断而非已验证事实，收入模式尚未核验。
+    evidence_ids:
+    - ev-e0f40d137baa22cc
+  - gate: truth
+    status: insufficient
+    reason: SSH 直连免装 bridge 的承诺是否在移动网络与多会话下稳定交付、终端接管的安全与人工边界如何界定，公开材料未提供部署文档或可复现验证，交付确定性仍待核验。
+    evidence_ids:
+    - ev-3858005726becba6
+  next_validation: 追踪 herdr-pocket 仓库的 README、release 说明与 issue/discussion，确认是否出现真实用户描述的多 agent 离机查看场景、部署方式与使用反馈。
+  market: ''
+  job: 开发者在离开工作站（通勤、外出、沙发上）时，用手机上的 Flutter 客户端通过 SSH 连回自己运行 herdr 的机器，查看多个编码 agent 的状态看板，并进入实时终端接管某个 agent
+    会话，完成查看进度、确认是否卡住、必要时介入输入的任务。
+  job_en: While away from their workstation, a developer uses a Flutter mobile client to SSH back into
+    the machine running herdr, check the status board of multiple coding agents, and drop into a live
+    terminal to take over a session — checking progress, spotting a stalled agent, and intervening when
+    needed.
+  pain: 编码 agent 往往长时间无人值守运行，开发者离开电脑后无法得知某个 agent 是仍在推进、已经卡住还是等待输入；不解决就只能等回到桌前才发现任务早已停摆，浪费整段等待时间。
+  pain_en: Coding agents often run unattended for long stretches; once the developer leaves the desk there
+    is no way to tell whether an agent is still progressing, stalled, or waiting for input, so a dead
+    run may only be discovered on return, wasting the whole waiting window.
+  current_alternative: 旧做法是留在电脑前盯着终端，或离开后完全放手、回来再检查；通用 SSH 客户端（Termius、Blink 等）能连上机器，但没有针对 herdr 多 agent
+    会话的状态看板，需要自己记住并逐个 attach。
+  current_alternative_en: The old approach is to stay at the desk watching the terminal, or to walk away
+    entirely and check on return; generic SSH clients (Termius, Blink, etc.) can reach the machine but
+    offer no status board for herdr's multiple agent sessions, forcing the user to remember and attach
+    to each one manually.
+  usage_reason: 相较通用 SSH 客户端或干脆离开，它把 herdr 的多 agent 状态直接渲染成手机看板，并允许从看板一步进入对应实时终端，省去逐个 attach 和记忆会话名的步骤；同时无需在远端安装
+    bridge 二进制，降低了接入门槛。因此经常让多个编码 agent 长时间跑、又需要离机查看的开发者会在外出场景选择它。这是基于产品能力与任务结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with a generic SSH client or simply walking away, it renders herdr's multi-agent
+    status directly as a mobile board and lets the user jump from the board straight into the matching
+    live terminal, removing the need to remember and attach to each session one by one; requiring no bridge
+    binary on the remote host also lowers setup friction. Developers who routinely run several coding
+    agents unattended and need off-desk visibility are therefore the likely adopters. This is

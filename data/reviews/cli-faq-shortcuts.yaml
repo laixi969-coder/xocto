@@ -189,3 +189,54 @@
   usage_reason: 用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-cli-faq-shortcuts-2026-10-01
+  project_slug: cli-faq-shortcuts
+  level: full
+  reviewed_at: '2026-10-01T01:53:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者反复向编码助手输入同类提问的重复劳动，痛点高频且刚性；公开说明已能还原旧流程（手打提问）、输入（本机历史）、动作（归纳成短命令）与交付（可复用命令清单），属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-b59309f3aa52605f
+    - ev-53355babde7f44ba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 103 增至 118，说明有开发者关注并试用，但收藏与复刻只属关注度证据，不能证明目标用户已把它持续留在日常提问流程里；缺少 issue、discussion 或评价说明真实使用场景。
+    evidence_ids:
+    - ev-b59309f3aa52605f
+    - ev-6fea6cb77286e6e6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或收入路径，开源技能本身也无采购记录；谁付钱、按什么单位收费均属判断而非已验证事实，但这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-53355babde7f44ba
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称本地 Python 提取器加 Agent Skill，但未提供部署文档或可复现实测，无法核验历史解析是否覆盖多工具、生成命令是否准确，以及本地历史读取的隐私与安全边界。
+    evidence_ids:
+    - ev-53355babde7f44ba
+    - ev-6fea6cb77286e6e6
+  next_validation: 追踪该仓库的 README/部署文档与 issue、discussion，确认历史提取覆盖哪些工具、生成命令的准确率与本地数据边界。
+  market: ''
+  job: 使用 Claude Code、Codex 或 Cursor 的开发者，在终端里反复输入同一类提问（如代码审查、重构、解释报错）时，需要把本机历史里高频出现的提问固化成可复用的短命令，以便下次直接调用而不是重新敲一遍。
+  job_en: Developers using Claude Code, Codex or Cursor who repeatedly type the same class of prompts
+    in the terminal need to turn high-frequency asks from their local history into reusable short commands,
+    so they can invoke them next time instead of retyping.
+  pain: 公开说明显示痛点是重复输入：同一类提问被反复敲进编码助手，每次都要重述上下文与要求，属于高频、低价值的手工重复；不解决的后果是时间被消耗且提问写法不一致。这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The public description points to repeated typing: the same class of asks is retyped into the
+    coding assistant, restating context and requirements each time. It is high-frequency, low-value manual
+    repetition; leaving it unsolved costs time and produces inconsistent prompts. This is inferred from
+    the product description and workflow structure, not from user complaints or cases.'
+  current_alternative: 旧做法是每次在终端里重新手打完整提问，或自己手动维护一份提示词片段/别名文件；公开材料未说明用户是否已在用其他提示词管理工具。
+  current_alternative_en: The old way is retyping the full ask in the terminal each time, or hand-maintaining
+    a snippet/alias file; public materials do not show whether users already use other prompt-management
+    tools.
+  usage_reason: 推断：相较每次手打，它读取本机 Claude Code 与 Codex 历史、自动归纳高频提问并生成短命令，省掉“回忆并重敲原提问”这一步，且命令来自用户自己的真实历史而非通用模板；因此经常重复同类提问的终端用户会在想减少重复输入时选择它。是否长期留在工作流尚无留存证据。
+  usage_reason_en: 'Inference: versus retyping each time, it reads local Claude Code and Codex history,
+    mines frequent asks and generates short commands, removing the step of recalling and retyping the
+    original ask, and the commands come from the user''s own history rather than generic templates. Terminal
+    users who repeat the same class of asks would choose it when they want to cut that repetition. No
+    retention evidence shows it stays in the workflow.'

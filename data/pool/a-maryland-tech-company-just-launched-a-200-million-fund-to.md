@@ -23,7 +23,7 @@ summary: A Maryland Tech Company Just Launched a $200 Million Fund to Invest in 
   Tech inc.com
 first_seen: '2026-09-29T18:52:55Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

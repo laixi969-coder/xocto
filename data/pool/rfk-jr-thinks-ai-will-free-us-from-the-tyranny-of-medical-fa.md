@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-a
 summary: AI is far from a perfect resource. But it seems to hallucinate less than Kennedy.
 first_seen: '2026-09-30T19:31:25Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

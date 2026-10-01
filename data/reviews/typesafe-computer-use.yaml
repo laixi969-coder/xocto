@@ -290,3 +290,58 @@
     and pushing per-step cost to about $0.0002, so macOS automation developers needing cheap, repeatable
     click sequences would pick it when building GUI agents or batch UI operations; public material shows
     no user feedback or retention evidence, so this is structural inference.'
+- id: req-full-typesafe-computer-use-2026-10-01
+  project_slug: typesafe-computer-use
+  level: full
+  reviewed_at: '2026-10-01T01:56:02Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 macOS 界面自动化中“每步该点哪里”的决策问题，痛点是通用视觉模型单步成本高、动作空间不受约束易误点；公开事实给出 OCR→TypeSafe 分类→点击的输入-动作-交付闭环与约
+      0.0002 美元单步成本，属工作流结构推理，痛点刚性与交付确定性成立。
+    evidence_ids:
+    - ev-714ca0efcaf1586b
+    - ev-03aba9a448dd88e3
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 971 增至 1099，说明英文开发者生态持续关注并把它纳入候选工具；但公开材料无 issue、评价或复购证据，无法证明已长期留在工作流，故仅为关注度层面的共识。
+    evidence_ids:
+    - ev-714ca0efcaf1586b
+    - ev-03aba9a448dd88e3
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有约 0.0002 美元单步成本这一成本侧数字，没有定价页、付费主体或采购记录；谁付钱（开发者自付、团队采购还是 API 转售）是判断而非已验证事实，to C/to B
+      路径均未核验。
+    evidence_ids:
+    - ev-714ca0efcaf1586b
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些应用、失败后如何回退、是否需人工确认，交付能否确定性发生与安全边界缺可复现证据；仅凭单步成本无法证明端到端任务可靠完成。
+    evidence_ids:
+    - ev-714ca0efcaf1586b
+    - ev-03aba9a448dd88e3
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的应用范围、失败回退机制及是否有用户报告实际部署或付费使用。
+  market: ''
+  job: 开发者在 macOS 上构建界面自动化或 GUI agent 时，把屏幕截图交给它：先 OCR 识别界面文字，再用 TypeSafe 分类出下一步动作，然后执行点击，交付一串可执行的点击序列而非给人看的分析。
+  job_en: 'Developers building macOS UI automation or GUI agents feed it screenshots: it OCRs on-screen
+    text, classifies the next action with TypeSafe, then clicks, delivering an executable click sequence
+    rather than human-facing analysis.'
+  pain: 公开材料只说明单步约 0.0002 美元，未披露用户抱怨、失败率或人工兜底成本；从工作流结构看，痛点在于通用视觉语言模型做 GUI 点击时单步推理成本高、动作空间不受约束易产生无效点击，而
+    macOS 上又缺少廉价可脚本化的点击决策层。
+  pain_en: Public material only states ~$0.0002 per step and discloses no user complaints, failure rates,
+    or manual fallback cost; structurally, the pain is that general vision-language GUI clicking is costly
+    per step and its unconstrained action space yields invalid clicks, while macOS lacks a cheap scriptable
+    click-decision layer.
+  current_alternative: 开发者目前多依赖通用视觉语言模型（如 GPT-4V 类）直接输出坐标点击、AppleScript/Accessibility API 手写脚本，或 Playwright
+    类工具；公开材料未说明本产品具体替代了哪一种。
+  current_alternative_en: Developers today rely on general vision-language models emitting coordinate
+    clicks, hand-written AppleScript/Accessibility API scripts, or Playwright-style tools; public material
+    does not say which one this replaces.
+  usage_reason: 推断：相较让通用 VLM 每步做完整视觉推理，它把动作选择收敛为 TypeSafe 分类，OCR 先降维输入，从而把单步成本压到约 0.0002 美元并约束动作空间；对成本敏感、需要大量重复点击步骤的
+    macOS 自动化开发者，会在意单步价格与动作可控性时选择它。
+  usage_reason_en: 'Inference: versus a general VLM doing full visual reasoning each step, it narrows
+    action selection to a TypeSafe classification and uses OCR to reduce input dimensionality, pushing
+    per-step cost to ~$0.0002 and constraining the action space; cost-sensitive macOS automation developers
+    running many repetitive click steps would choose it for per-step price and action controllability.'

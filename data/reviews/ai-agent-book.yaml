@@ -568,3 +568,42 @@
   usage_reason: 仓库有 221 个收藏、21 次复刻，属关注度证据，不能解释学习者为何选择它或是否持续使用；缺少读者反馈与采用证据。
   usage_reason_en: The repository has 221 stars and 21 forks, which is attention evidence and cannot explain
     why learners choose it or keep using it; reader feedback and adoption evidence are missing.
+- id: req-full-ai-agent-book-2026-10-01
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-01T01:52:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把 AI Agent 设计原理与工程实践写成可跟做的开源教材，但公开材料只有书名与仓库形态，没有用户反馈或旧做法说明学习者卡在哪一步、不解决会失去什么，需求与痛点均无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有学习者报告按实验跑通、卡在哪一步，以及是否有课程或团队实际采用。
+  market: ''
+  job: 想自己动手做 AI Agent 的开发者或技术学习者，在缺少系统教材的情况下，需要把「Agent 怎么设计、怎么落地」的原理与工程实践串成一条可跟做的学习路径，并配套能跑起来的实验。
+  job_en: A developer or technical learner who wants to build an AI agent needs a systematic path connecting
+    agent design principles to engineering practice, with runnable experiments to follow.
+  pain: 公开材料只给出书名与仓库形态，没有用户反馈、抱怨或 workaround 说明学习者在哪一步卡住、不解决会付出什么代价，因此痛点强度无法从证据还原。
+  pain_en: Public materials only show the book title and repository form; there is no user feedback, complaint
+    or workaround showing where learners get stuck or what it costs them, so pain intensity cannot be
+    reconstructed from evidence.
+  current_alternative: 公开材料未说明学习者目前用什么替代，例如官方文档、博客教程、视频课程或直接读源码，因此无法判断它替代了哪一步。
+  current_alternative_en: Public materials do not show what learners use today, such as official docs,
+    blog tutorials, video courses or reading source code, so which step it replaces is unknown.
+  usage_reason: 仓库有 221 个收藏、21 次复刻，说明开发者注意到并可能试用；但收藏与复刻只属关注度证据，不能解释用户为何选择它，也没有留存或重复使用证据。
+  usage_reason_en: The repository has 221 stars and 21 forks, showing developer attention and possible
+    trial; but stars and forks are attention signals, not reasons for choosing it, and there is no retention
+    or repeat-use evidence.

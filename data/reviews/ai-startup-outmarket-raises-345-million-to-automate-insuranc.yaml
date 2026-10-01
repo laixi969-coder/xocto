@@ -1,0 +1,87 @@
+- id: req-initial-ai-startup-outmarket-raises-345-million-to-automate-insuranc-2026-10-01
+  project_slug: ai-startup-outmarket-raises-345-million-to-automate-insuranc
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决保险文书录入与核对耗时易错的问题，旧流程是人工逐份录入，痛点刚性且交付物是可用文书。
+    evidence_ids:
+    - ev-b391cc0241e031c6
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息，没有客户名单、采用规模或行业评价，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-b391cc0241e031c6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是经纪机构或保险公司，属推断而非已验证事实。
+    evidence_ids:
+    - ev-b391cc0241e031c6
+  - gate: truth
+    status: insufficient
+    reason: 未说明异常件处理与人工复核边界，抽取准确率与交付确定性无法核对。
+    evidence_ids:
+    - ev-b391cc0241e031c6
+  next_validation: 收集 Outmarket 官方定价页或客户案例，确认计费方式与已部署的保险机构类型。
+  market: ''
+  job: 保险经纪或代理机构的文员在收到投保单、保单和理赔附件时，处理这些表格与扫描件，要完成字段录入、信息核对并产出可提交的文书。
+  job_en: Clerks at insurance brokerages or agencies handling intake forms, policies and claims attachments,
+    aiming to complete field entry, cross-check information and produce submittable paperwork.
+  pain: 保险文书字段多、格式杂，人工逐份录入与核对耗时且易错，积压会拖慢承保与理赔进度。
+  pain_en: Insurance documents have many fields and inconsistent formats; manual entry and checking are
+    slow and error-prone, and backlogs slow underwriting and claims.
+  current_alternative: 旧做法是文员逐份手工录入，或用通用OCR加人工校对，再在承保系统里重复填写。
+  current_alternative_en: The old way is clerks typing each document manually, or using generic OCR plus
+    human proofreading, then re-entering data into underwriting systems.
+  usage_reason: 推断：相较通用OCR加人工校对，Outmarket 直接输出结构化字段与可提交文书，省掉在多个系统间重复录入和格式整理这一步，因此保单量大的经纪机构会在承保与理赔资料处理环节选择它；公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with generic OCR plus manual proofreading, Outmarket outputs structured
+    fields and submittable documents directly, removing the step of re-entering and reformatting data
+    across systems, so high-volume brokerages would choose it for underwriting and claims document handling;
+    no retention or repeat-use evidence is public.'
+- id: req-full-ai-startup-outmarket-raises-345-million-to-automate-insuranc-2026-10-01
+  project_slug: ai-startup-outmarket-raises-345-million-to-automate-insuranc
+  level: full
+  reviewed_at: '2026-10-01T01:52:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决保险文书字段抽取与核对耗时易错的问题，旧流程是人工逐份录入，痛点刚性且交付物是可提交文书；此为工作流结构推理，尚无客户案例佐证。
+    evidence_ids:
+    - ev-b391cc0241e031c6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资消息，没有客户名单、采用规模或行业评价，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-b391cc0241e031c6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是经纪机构或保险公司，属推断而非已验证事实，需后续核验。
+    evidence_ids:
+    - ev-b391cc0241e031c6
+  - gate: truth
+    status: insufficient
+    reason: 未说明异常件处理与人工复核边界，抽取准确率与交付确定性无法核对，安全边界也未公开。
+    evidence_ids:
+    - ev-b391cc0241e031c6
+  next_validation: 追踪 Outmarket 官网定价页或客户案例页面，确认计费方式与已部署的保险机构类型。
+  market: ''
+  job: 保险经纪或代理机构的文员在收到投保单、保单或理赔附件后，处理这些表格与扫描件，要完成字段抽取、信息核对并产出可提交的文书。
+  job_en: Clerks at insurance brokerages or agencies receive intake forms, policies or claims attachments
+    and must extract fields, cross-check information and produce submittable paperwork.
+  pain: 保险文书字段多、格式杂，人工逐份录入与核对耗时且易错，积压会拖慢承保与理赔进度；这是从融资报道所述自动化对象作出的结构推理。
+  pain_en: Insurance documents have many fields and inconsistent formats; manual entry and checking are
+    slow and error-prone, and backlogs slow underwriting and claims; this is structural inference from
+    the automation target named in the funding report.
+  current_alternative: 旧做法是文员逐份手工录入，或用通用OCR加人工校对，再在承保系统里重复填写。
+  current_alternative_en: The old way is clerks typing each document manually, or using generic OCR plus
+    human proofreading, then re-entering data into underwriting systems.
+  usage_reason: 推断：相较通用OCR加人工校对，Outmarket 直接输出结构化字段与可提交文书，省掉在多个系统间重复录入和格式整理这一步，因此保单量大的经纪机构会在承保与理赔资料处理环节选择它；公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with generic OCR plus manual proofreading, Outmarket outputs structured
+    fields and submittable documents directly, removing the step of re-entering and reformatting data
+    across systems, so high-volume brokerages would choose it for underwriting and claims document handling;
+    no retention or repeat-use evidence is public.'

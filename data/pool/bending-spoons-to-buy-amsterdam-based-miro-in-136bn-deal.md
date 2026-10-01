@@ -26,7 +26,7 @@ canonical_url: https://sifted.eu/articles/bending-spoons-to-buy-miro
 summary: Miro MCP 发展势头强劲，用户借助画布开展 AI 协作 businesswire.com
 first_seen: '2026-09-10T16:32:51Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

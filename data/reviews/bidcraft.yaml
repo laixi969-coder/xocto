@@ -152,3 +152,51 @@
   usage_reason: 用户要完成的任务是：投标文件编制、技术标撰写；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Bid document preparation, Technical proposal writing Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-bidcraft-2026-10-01
+  project_slug: bidcraft
+  level: full
+  reviewed_at: '2026-10-01T01:52:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决建筑投标中技术标编制这一强制环节：需解析招标文件、选标段、写技术标并反复改稿，人工逐条比对与拼装耗时易漏项；不采用则仍靠人工从历史标书复制拼装。公开说明已能还原输入、动作与交付草稿，属工作流结构推理。
+    evidence_ids:
+    - ev-8bdc734dce73c665
+    - ev-1df396adb736c6a5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 47 增至 64，说明开发者社区持续关注，但收藏与复刻属关注度证据，不能证明投标人员已把它留在工作流；缺 issue、discussion 或部署反馈佐证强场景。
+    evidence_ids:
+    - ev-8bdc734dce73c665
+    - ev-1df396adb736c6a5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费主体或单位经济，钱可能来自 to B 企业采购或 to VC；这是判断而非已验证事实，商业路径尚未核验。
+    evidence_ids:
+    - ev-1df396adb736c6a5
+  - gate: truth
+    status: insufficient
+    reason: 产品定位为产出技术标草稿并需人工确认，边界表述合理，但公开材料未提供可复现的交付结果或人工复核机制证据，确定性交付仍待核验。
+    evidence_ids:
+    - ev-8bdc734dce73c665
+  next_validation: 追踪 bidcraft 仓库的 issue 与 discussion，确认是否有投标团队公开描述部署场景、替代的旧流程与实际产出的技术标草稿。
+  market: ''
+  job: 建筑投标人员拿到招标文件后，需解析标段要求、编写技术标并反复改稿，最终产出可提交的技术标草稿再人工定稿。
+  job_en: Construction bid staff, after receiving tender documents, must parse section requirements, draft
+    the technical proposal and revise it repeatedly, producing a submittable technical-bid draft for human
+    finalization.
+  pain: 技术标编制是投标的强制环节，逐条比对招标要求、套用历史素材并反复改稿耗时且易漏项；公开材料未给出频率与不采用代价的量化数据，痛点强度属工作流结构推理。
+  pain_en: Technical-bid drafting is a mandatory bid step; matching tender clauses, reusing past material
+    and revising repeatedly is time-consuming and error-prone. Public material gives no quantified frequency
+    or cost, so pain intensity is a workflow-structure inference.
+  current_alternative: 公开材料未直接描述旧做法，按招投标工作流推断为人工阅读招标文件、从历史标书与素材库复制拼装、逐轮人工改稿。
+  current_alternative_en: Public material does not describe the old approach directly; by tender-workflow
+    inference it is manual reading of tender documents, copy-assembly from past bids and material libraries,
+    and round-by-round manual revision.
+  usage_reason: 推断：相较人工逐条比对与拼装，它把招标文件解析、标段选择、技术标初稿生成与知识库提炼串成一次对话式流程，减少从零起草和跨文档搬运的步骤，因此投标人员会在赶标期选择它先出草稿再人工定稿。
+  usage_reason_en: 'Inference: versus manual clause-matching and assembly, it chains tender parsing, section
+    selection, first-draft generation and knowledge-base distillation into one conversational flow, cutting
+    from-scratch drafting and cross-document copying, so bid staff under deadline use it to get a draft
+    before human finalization.'

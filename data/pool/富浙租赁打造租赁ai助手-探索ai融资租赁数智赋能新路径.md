@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxdXh6ay1UaTRS
 summary: 富浙租赁打造“租赁AI助手” 探索“AI+融资租赁”数智赋能新路径 新蓝网
 first_seen: '2026-09-30T02:48:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

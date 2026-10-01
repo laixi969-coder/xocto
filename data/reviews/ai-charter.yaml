@@ -42,3 +42,44 @@
     registry entries in one public place, cutting the step of comparing each vendor''s wording; however
     there is no public evidence that the registry is adopted or who reviews it, so which users would actually
     choose it remains unclear.'
+- id: req-full-ai-charter-2026-10-01
+  project_slug: ai-charter
+  level: full
+  reviewed_at: '2026-10-01T01:52:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决模型治理披露口径不统一的问题，但公开材料只有原则文本与登记册，没有用户反馈或旧做法说明谁在用、替代了哪一步，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-0cb5a646f2120cdf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ai-charter 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: AI 产品负责人或合规负责人，在需要向客户、采购方或监管方说明模型治理方式时，处理治理原则与模型信息，要产出一份可公开引用的披露材料。
+  job_en: An AI product or compliance lead who must explain model governance to customers, procurement
+    or regulators handles governance principles and model information to produce publicly citable disclosure
+    material.
+  pain: 公开材料只说明存在「披露而非减速」的治理主张，没有用户反馈或采购方抱怨说明各家自述口径不一带来的具体比对成本与后果，痛点强度无法从证据还原。
+  pain_en: Public materials only state a disclosure-not-slowdown governance stance; no user feedback or
+    buyer complaint shows the concrete comparison cost of inconsistent self-reporting, so pain intensity
+    cannot be reconstructed.
+  current_alternative: 公开材料未说明当前做法，例如厂商合规页面、白皮书或第三方审计报告，因此无法确认它实际替代了哪一步。
+  current_alternative_en: Public materials do not show current practice, such as vendor compliance pages,
+    white papers or third-party audits, so which step it replaces cannot be confirmed.
+  usage_reason: 仓库有 108 个收藏，说明开发者社区注意到该章程；但收藏属关注度证据，没有机构提交登记或被登记的记录，无法解释哪类用户会因何选择它。
+  usage_reason_en: The repository has 108 stars, showing developer-community attention; but stars are
+    attention signals, and there is no record of an institution submitting or being registered, so which
+    users would choose it and why is unexplained.

@@ -196,3 +196,50 @@
   usage_reason: 用户要完成的任务是：求职者投递运营、招聘流程协调；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Job application operations, Recruiting coordination Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-recruitops-agent-2026-10-01
+  project_slug: recruitops-agent
+  level: full
+  reviewed_at: '2026-10-01T01:55:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量投递时职位信息与邮件回复分散、进度靠人工誊抄易漏的需求，痛点是不跟进就丢机会；公开材料给出 IMAP 邮箱接入这一输入—动作闭环，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-e678e2f8715b01a6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 96 增至 115，说明开发者注意到它，但收藏与环比只属关注度，公开材料没有用户评价或案例说明谁在什么场景反复使用。
+    evidence_ids:
+    - ev-1a874f9c3eed4ca0
+    - ev-d004dcbd650da707
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，本地开源工具可能靠捐赠或后续托管收费，这只是判断而非已验证事实，属模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-1a874f9c3eed4ca0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只覆盖邮箱连接配置，未说明投递动作如何执行、结果如何确认以及人工与自动化的安全边界，交付确定性尚缺可核对证据。
+    evidence_ids:
+    - ev-e678e2f8715b01a6
+  next_validation: 追踪该仓库 README、issue 与 discussion，核对是否公开投递动作执行方式、人工确认边界与真实使用者的跟进结果记录。
+  market: ''
+  job: 求职者在批量投递岗位时打开本地 agent，把邮箱中的投递往来与职位信息交给它，由它整理情报并执行投递操作，最终得到可跟进的投递状态或清单，人工确认结果。
+  job_en: A job seeker running a batch of applications opens the local agent, hands it mailbox correspondence
+    and job postings, lets it organize intelligence and run application actions, and ends with a follow-up-ready
+    status list that a human still confirms.
+  pain: 公开材料只给出邮箱 IMAP 配置步骤，未记录求职者抱怨或返工代价；从任务结构推断，批量投递时职位信息与邮件回复散落在邮箱里，靠人工逐条记录和跟进容易漏掉状态，这是工作流推理而非用户口述。
+  pain_en: Public material only shows IMAP setup steps and records no user complaint or rework cost; structurally,
+    batch applications scatter postings and replies across a mailbox, so manual tracking easily misses
+    statuses. This is workflow inference, not user testimony.
+  current_alternative: 公开材料未说明现有做法；结构上求职者通常用邮箱标签、表格或招聘平台自带的投递记录手工维护进度。
+  current_alternative_en: Public material does not state the current practice; structurally, job seekers
+    typically maintain progress by hand with mailbox labels, spreadsheets, or the tracking built into
+    job platforms.
+  usage_reason: 推断：它把邮箱作为输入源，通过 IMAP 读取投递往来并在本地整理成状态清单，省去用户逐封翻邮件、手工誊抄进度这一步，因此同时投递多个岗位、邮箱里堆满回复的求职者会在批量投递期选择它；公开材料没有留存或复购证据，不能说明它已被长期留在工作流里。
+  usage_reason_en: 'Inference: it uses the mailbox as input, reads application correspondence over IMAP
+    and assembles a local status list, removing the step of opening each mail and transcribing progress
+    by hand, so seekers applying to many roles at once would pick it during a batch push. Public material
+    shows no retention or repeat-use evidence, so long-term embedding cannot be claimed.'

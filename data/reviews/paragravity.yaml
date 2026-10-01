@@ -258,3 +258,57 @@
   usage_reason: 用户要完成的任务是：独立开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Independent developer Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-paragravity-2026-10-01
+  project_slug: paragravity
+  level: full
+  reviewed_at: '2026-10-01T01:55:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是单机上并行运行多个 Google Antigravity 账号/沙箱时的环境互相污染与手工切换负担，痛点来自工作流结构推理而非用户口述；公开定位明确为原生、非侵入式并行多账号与沙箱管理，输入账号与沙箱配置、输出互不干扰的多实例环境，交付闭环可确定，故价值结构成立。
+    evidence_ids:
+    - ev-3390e1bbfe97218a
+    - ev-0bb2733d9120b4b5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 209 缓慢升至 220 后回落至 218，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或用户评价说明谁在什么强场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-3390e1bbfe97218a
+    - ev-3bdced09f2a23883
+    - ev-a8711b30916cf3af
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费方式或客户采购记录，钱可能来自 to C 开发者买断/订阅或 to B 团队授权，也可能纯开源无收入；这是判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-3390e1bbfe97218a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有部署文档、隔离机制说明或可复现实测，无法核对“非侵入式”隔离是否真能稳定交付、以及账号安全与人工边界如何界定。
+    evidence_ids:
+    - ev-3390e1bbfe97218a
+    - ev-0bb2733d9120b4b5
+  next_validation: 追踪 paragravity 官方仓库的 README、issue 与 discussion，确认其隔离机制说明、部署方式以及是否有用户报告在何种多账号/多沙箱场景下实际使用。
+  market: ''
+  job: 独立开发者或小团队在同一台开发机上需要同时运行多个 Google Antigravity 账号或沙箱实例时，打开 paragravity，把账号与沙箱配置交给它，由它做隔离与并行调度，最终拿到互不干扰的多实例环境，用于并行调试、多账号测试或隔离实验。
+  job_en: When an independent developer or small team needs to run several Google Antigravity accounts
+    or sandbox instances on one machine, they open paragravity, hand it account and sandbox configuration,
+    and it performs isolation and parallel scheduling so they get non-interfering multi-instance environments
+    for parallel debugging, multi-account testing, or isolated experiments.
+  pain: 公开材料只给出产品定位（原生、非侵入式并行多账号与沙箱管理），未提供用户抱怨、issue 或案例，因此痛点强度属于工作流结构推理：同一台机器上多账号/多沙箱并行时，登录态、配置与运行环境会互相污染，手工切换或复制环境既易错又难复现，不解决就只能串行等待或维护多套环境。
+  pain_en: 'Public materials only give the product positioning (native, non-invasive parallel multi-account
+    and sandbox management), with no user complaints, issues, or cases, so pain intensity is a workflow-structure
+    inference: running multiple accounts or sandboxes on one machine tends to cross-contaminate login
+    state, configuration, and runtime, and manual switching or cloning is error-prone and hard to reproduce;
+    leaving it unsolved means serial waiting or maintaining multiple enviro'
+  current_alternative: 公开材料未说明用户当前做法，按任务结构推断的旧替代是：手工切换账号、复制/克隆项目目录、开虚拟机或容器、或干脆串行排队跑任务；这些做法要么隔离不彻底，要么配置成本高。
+  current_alternative_en: Public materials do not state current practice; the inferred old alternatives
+    are manual account switching, copying or cloning project directories, spinning up VMs or containers,
+    or simply running tasks serially, all of which either isolate incompletely or carry high setup cost.
+  usage_reason: 推断：相较手工切换或克隆环境，paragravity 以“原生、非侵入式”的方式在单机上并行调度多账号与沙箱，把隔离与切换这一步从用户手工操作中移走，因此需要频繁并行跑多账号或多沙箱、又不想维护多套环境的独立开发者会在这种情况下选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with manual switching or cloning environments, paragravity natively
+    and non-invasively schedules multiple accounts and sandboxes in parallel on one machine, removing
+    the isolation and switching step from manual work, so independent developers who frequently run multiple
+    accounts or sandboxes in parallel without maintaining multiple environments would choose it in that
+    situation; public materials do not yet confirm this motive through user feedback.'

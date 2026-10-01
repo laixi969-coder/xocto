@@ -152,3 +152,64 @@
   usage_reason: 用户要完成的任务是：品牌设计师、初创公司品牌负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: brand designer, startup brand lead Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-logo-design-skill-2026-10-01
+  project_slug: logo-design-skill
+  level: full
+  reviewed_at: '2026-10-01T01:54:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 生成标志缺乏设计流程与 SVG 规范、产出不可直接使用的问题，痛点是返工成本；公开说明已给出输入（品牌需求）、动作（按原则与 SVG 规范生成并比对参考库）与交付（可编辑
+      SVG），属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-fe3b7ea1305559b2
+    - ev-92d1882e31e66266
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 185 增至 1111，说明开发者社区关注度上升，但收藏属关注度证据，不能证明品牌设计师或初创品牌负责人已持续使用；缺少 issue、discussion 或用户评价说明真实采用场景。
+    evidence_ids:
+    - ev-fe3b7ea1305559b2
+    - ev-669a8948003a656b
+    - ev-afb2b919d427c2ae
+    - ev-92d1882e31e66266
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill，公开材料未披露定价、付费主体或商业路径；可能由个人开发者免费分发，也可能被设计工具或代理平台集成，属判断而非已验证事实，故不构成 to C、to B 或 to
+      VC 的确定收入证据。
+    evidence_ids:
+    - ev-fe3b7ea1305559b2
+  - gate: truth
+    status: insufficient
+    reason: 公开说明列出测试工具与 SVG 规范，但未提供可复现的交付样例、失败率或人工确认边界；标志设计涉及商标近似与品牌合规，skill 能否稳定交付可用矢量并提示人工复核，尚缺公开证据。
+    evidence_ids:
+    - ev-fe3b7ea1305559b2
+    - ev-92d1882e31e66266
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开描述实际部署场景、生成样例与人工复核环节。
+  market: ''
+  job: 品牌设计师或初创公司品牌负责人在需要产出可用的矢量标志时，把品牌定位、名称与风格要求交给 Claude、Gemini CLI、Codex 等 AI 代理，由该 skill 按内置设计原则、流程与
+    SVG 规范生成标志方案，并借助测试工具与 1400+ 标志参考库比对，最终拿到可继续修改的 SVG 标志文件。
+  job_en: A brand designer or startup brand lead who needs a usable vector logo hands the brand positioning,
+    name and style requirements to an AI agent such as Claude, Gemini CLI or Codex; the skill generates
+    logo options using built-in design principles, process and SVG craft, cross-checks them against a
+    1,400+ logo reference library and testing tools, and returns an editable SVG logo file.
+  pain: 公开材料显示该 skill 把设计原则、流程、SVG 规范、测试工具和参考库打包进 AI 代理，说明作者判断的痛点是：通用 AI 直接生成标志时缺乏设计流程约束、SVG 输出不规范、也缺少可对照的参考基准，用户需要反复返工才能得到可用矢量文件。这是从产品结构反推的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The public description bundles design principles, process, SVG craft, testing tools and a
+    reference library into the AI agent, implying the author''s perceived pain: generic AI logo generation
+    lacks process constraints, produces non-standard SVG, and offers no reference baseline, forcing rework
+    before a usable vector file exists. This pain is inferred from product structure, not yet corroborated
+    by user complaints or cases.'
+  current_alternative: 旧做法包括：设计师手工在 Illustrator/Figma 中绘制标志；用通用 AI 图像工具生成位图再手动描摹为矢量；或购买现成标志模板。该 skill
+    的差异在于把流程与 SVG 规范直接嵌入代理，让生成结果一开始就是可编辑矢量。
+  current_alternative_en: Existing approaches include hand-drawing logos in Illustrator/Figma, generating
+    raster images with generic AI tools and manually tracing them into vectors, or buying ready-made logo
+    templates. The skill differs by embedding process and SVG craft into the agent so output starts as
+    editable vector.
+  usage_reason: 推断：相较通用 AI 出图再手工描摹，该 skill 通过内置设计原则、SVG 规范与测试工具，在生成阶段就约束输出为可编辑矢量，并可用 1400+ 参考库比对，减少“生成位图—描摹—修正”这一整段返工；因此需要快速拿到可继续修改矢量标志的设计师或初创品牌负责人，会在早期概念阶段选择它。仓库收藏从
+    185 增至 1111 说明关注度上升，但尚无用户反馈证明其已长期留在工作流中。
+  usage_reason_en: 'Inference: compared with generic AI raster output plus manual tracing, the skill constrains
+    generation to editable vector via built-in design principles, SVG craft and testing tools, and allows
+    comparison against a 1,400+ reference library, removing the raster-trace-fix rework loop. Designers
+    or startup brand leads who need a quickly editable vector logo would therefore choose it in early
+    concept stages. Stars rising from 185 to 1,111 show attention, but no user feedback yet '

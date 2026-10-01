@@ -85,3 +85,48 @@
     typography, symbols and clear-space rules into separately callable steps and directly produces lockups
     and clear-space specs, cutting the designer''s post-hoc specification work; editability and commercial
     use are undisclosed, so the reduced burden is specification clean-up.'
+- id: req-full-inkloom-2026-10-01
+  project_slug: inkloom
+  level: full
+  reviewed_at: '2026-10-01T01:54:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据中 inkloom.io 是文档随代码提交同步工具，inkloom.im 是视觉 AI 创意工作流画布，均未出现品牌标识、字体符号模型或留白规则交付，候选所述需求与痛点无法从证据还原。
+    evidence_ids:
+    - ev-add5d8988553a5f7
+    - ev-2986fb1786cc5a2f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 inkloom 官方站点与文档，确认 inkloom.io 与 inkloom.im 是否为同一产品，以及是否存在品牌标识生成、可编辑源文件与商用授权的公开说明。
+  market: ''
+  job: 候选描述称小企业主或独立设计师为新业务做标识时，把业务描述交给系统得到标志组合与留白规范；但公开证据中 inkloom.io 是开发者文档同步工具，inkloom.im 是视觉 AI 创意工作流画布，没有任何证据支持“输入业务描述→品牌分析→字体/符号模型→锁定组合与留白规则”这一任务存在。
+  job_en: The candidate claims a small business owner or independent designer submits a business description
+    and receives logo lockups and clear-space rules; but the public evidence shows inkloom.io is a developer-documentation
+    sync tool and inkloom.im is a visual AI creative-workflow canvas, with no evidence supporting the
+    described brand-analysis-to-lockup task.
+  pain: 公开材料未呈现任何用户痛点：inkloom.io 讲的是文档随代码提交自动更新，inkloom.im 讲的是在画布上搭建可复用 AI 创意流程，均未提及标识规范缺失、留白规则手工补做或返工。
+  pain_en: 'No user pain is presented in the public material: inkloom.io describes docs auto-updating
+    on every commit, and inkloom.im describes building reusable AI creative workflows on a canvas; neither
+    mentions missing brand specifications, hand-built clear-space rules, or rework.'
+  current_alternative: 公开材料未描述任何旧替代方式；证据中出现的替代对象是文档手动同步与零散图像生成步骤，与候选所述“通用生成加人工整理规范”并不对应。
+  current_alternative_en: The public material describes no prior alternative; the substitutes visible
+    in the evidence are manual documentation syncing and ad-hoc image-generation steps, which do not match
+    the candidate's claimed 'generic generation plus manual specification clean-up'.
+  usage_reason: 无法给出使用理由：候选所述品牌分析、字体与符号模型、排版引擎在公开证据中均无对应产品说明，且同一 slug 下两个不同站点指向文档同步与创意画布两类无关产品，用户为何选择它无从推断。
+  usage_reason_en: 'No usage reason can be given: the claimed brand-analysis, typography and symbol models,
+    and composition engine have no corresponding product description in the public evidence, and two unrelated
+    sites under the same slug point to documentation sync and a creative canvas, so why a user would choose
+    it cannot be inferred.'

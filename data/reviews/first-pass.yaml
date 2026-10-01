@@ -151,3 +151,55 @@
   usage_reason: 用户要完成的任务是：软件工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software engineers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-first-pass-2026-10-01
+  project_slug: first-pass
+  level: full
+  reviewed_at: '2026-10-01T01:53:44Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 写码只盯自己那几行、漏掉调用方与同类缺陷的痛点，工程师提交前要自己补查影响面并逐条复现；规则集把十问、独立复核、完成证据固化为提交前动作，痛点刚性且交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+    - ev-b624734bf0221235
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 40 增至 140，说明使用 Claude Code 的工程师在持续关注并把它纳入提交前流程；但这是关注度证据，尚无用户评价或复购数据证明长期留存。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+    - ev-9865ab969b0a0268
+    - ev-a7708a8a2e632a80
+    - ev-b624734bf0221235
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费主体或采购记录；to C 订阅、to B 团队采购或纯开源赞助均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-b624734bf0221235
+  - gate: truth
+    status: insufficient
+    reason: 规则集能否稳定产出可核对的完成证据、独立复核角色如何避免与编写者同源，公开材料未给出可复现的部署或实测记录，交付确定性尚未核验。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+  next_validation: 追踪 first-pass 仓库的 README、issue 与 discussion，确认规则集的实际部署方式、独立复核角色的实现，以及是否有用户报告提交前流程被稳定采用。
+  market: ''
+  job: 使用 Claude Code 写代码的工程师，在提交改动前把这次 diff 交给这套规则集，让模型先回答十个关于改动影响范围的问题，再由未参与编写的审查角色复核，并给出完成证据后才结束，最终由人确认是否合并。
+  job_en: 'An engineer using Claude Code hands the pending diff to this rule set before committing: the
+    model answers ten questions about the change''s blast radius, a reviewer that did not write the code
+    re-checks it, and completion evidence is required before the task is closed, with the human still
+    confirming the merge.'
+  pain: AI 生成的改动只盯着自己写的几行，容易漏掉调用方、边界条件和同类缺陷；工程师要事后自己补查影响面、逐条复现，返工和漏改的代价落在提交前这一段。
+  pain_en: AI-generated changes look only at the lines written, missing callers, edge cases, and same-class
+    defects; engineers must reconstruct the blast radius and reproduce issues afterward, so rework and
+    missed fixes land right before commit.
+  current_alternative: 靠工程师自己在提交前人工通读 diff、凭经验追问影响范围，或依赖通用 code review 提示词和 CI 静态检查；这些做法不强制先回答影响范围问题，也不强制由未参与编写的角色复核。
+  current_alternative_en: Engineers manually read the diff before commit, ask about blast radius from
+    experience, or rely on generic code-review prompts and CI static checks; none of these force the ten
+    blast-radius questions or a reviewer that did not write the code.
+  usage_reason: 推断：相较人工通读 diff 或通用提示词，它把“先问影响范围、再由未参与编写的角色复核、给出完成证据”固化成提交前的固定动作，减少工程师自己补查影响面和逐条复现这一步负担；因此会在使用
+    Claude Code 且改动涉及多文件调用链时选择它。
+  usage_reason_en: 'Inference: versus manually reading the diff or generic prompts, it hard-codes the
+    blast-radius questions, an independent reviewer, and completion evidence into a fixed pre-commit step,
+    removing the engineer''s burden of reconstructing impact and reproducing issues; users would pick
+    it when working with Claude Code on changes that span multiple files and call chains.'

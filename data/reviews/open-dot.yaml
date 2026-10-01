@@ -1,0 +1,82 @@
+- id: req-initial-open-dot-2026-10-01
+  project_slug: open-dot
+  level: initial
+  reviewed_at: '2026-10-01T01:18:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都无法从公开材料还原，价值关无法成立。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且除仓库星标外没有采用或讨论证据。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未说明买方与付费路径。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定、人工边界如何均无说明。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际执行的任务类型、输入材料与交付结果。
+  market: ''
+  job: 目前公开材料只说明它是运行在 Mac 上的个人代理，未说明具体是谁、在什么情况下、处理什么材料、要完成什么任务，因此使用场景无法还原。
+  job_en: Public material only describes a personal agent running on Mac; it does not say who, in what
+    situation, handling what material, to finish what task, so the usage scenario cannot be reconstructed.
+  pain: 候选资料没有给出任何用户痛点、抱怨或旧流程描述，无法判断它替代了哪一步手工操作。
+  pain_en: The candidate material gives no user pain point, complaint or legacy workflow, so it is impossible
+    to tell which manual step it replaces.
+  current_alternative: 公开材料未提及用户此前用什么方式完成同类任务，无法确认替代对象。
+  current_alternative_en: The public material does not mention how users previously did comparable tasks,
+    so the alternative being replaced cannot be confirmed.
+  usage_reason: 缺少可核验的使用场景与交付说明，无法解释用户为何会选择它而非现有做法；仅凭开源仓库的星标数不能作为使用理由。
+  usage_reason_en: With no verifiable usage scenario or delivery description, there is no way to explain
+    why a user would choose it over existing practice; repository stars alone cannot serve as a usage
+    reason.
+- id: req-full-open-dot-2026-10-01
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-01T01:54:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只说明它是 Mac 上调用 OpenAI 与 Composio 的个人代理，未说明谁在什么情况下处理什么材料、要完成什么任务，也找不到痛点、旧替代与不采用的后果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库 README、issue 与 discussion，确认它实际执行的任务类型、输入材料与交付结果。
+  market: ''
+  job: 公开材料只说明它是运行在 Mac 上的个人 AI 代理，由 OpenAI 模型加 Composio 连接外部服务自主执行电脑上的操作；没有说明具体是谁、在什么情况下、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: Public material only describes a personal AI agent running on Mac that uses OpenAI models plus
+    Composio to act autonomously on a computer; it does not say who, in what situation, handling what
+    material, to finish what task, so the job cannot be reconstructed.
+  pain: 候选资料没有给出任何用户痛点、抱怨或旧流程描述，无法判断它替代了哪一步手工操作，也无法说明不采用会失去什么。
+  pain_en: The candidate material gives no user pain point, complaint or legacy workflow, so it is impossible
+    to tell which manual step it replaces or what is lost by not adopting it.
+  current_alternative: 公开材料未提及用户此前用什么方式完成同类任务，无法确认被替代的旧做法。
+  current_alternative_en: The public material does not mention how users previously did comparable tasks,
+    so the alternative being replaced cannot be confirmed.
+  usage_reason: 缺少可核验的使用场景与交付说明，无法解释用户为何会选择它而非现有做法；仓库星标只反映关注度，不能作为使用理由（推断）。
+  usage_reason_en: With no verifiable usage scenario or delivery description, there is no way to explain
+    why a user would choose it over existing practice; repository stars reflect attention only and cannot
+    serve as a usage reason (inference).

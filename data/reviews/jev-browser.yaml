@@ -176,3 +176,55 @@
     breaks and manual retries caused by invalid actions; engineers needing stable, reproducible web automation
     would choose it for complex, error-prone flows. This is an inference from product capability and task
     structure, not yet supported by user feedback or cases.
+- id: req-full-jev-browser-2026-10-01
+  project_slug: jev-browser
+  level: full
+  reviewed_at: '2026-10-01T01:54:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无稳定 API 网页的自动化操作需求：手写选择器脚本一改页面就断，纯 LLM 代理动作不可预期、失败难定位，痛点刚性且不采用就要持续维护脆弱脚本。库/CLI/MCP 三种交付形态使输入—动作—输出闭环可确定，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-184e637813ab5cc9
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 89 缓慢升至 93，说明有开发者关注，但无 issue、discussion、客户案例或部署记录证明目标用户已把它留在工作流中；关注度不等于持续采用。
+    evidence_ids:
+    - ev-184e637813ab5cc9
+    - ev-0514e6a09b7e9266
+  - gate: model
+    status: insufficient
+    reason: 这是开源库，公开材料未见定价页、付费路径或买方身份；钱可能来自 to B 工具采购或 to VC，但均属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-184e637813ab5cc9
+  - gate: truth
+    status: insufficient
+    reason: LLM 规划加类型安全决策的承诺能否在真实站点上确定性交付、失败恢复与人工介入边界如何，公开材料只有一句仓库描述，缺少可复现的部署文档或实测结果。
+    evidence_ids:
+    - ev-184e637813ab5cc9
+  next_validation: 追踪 jev-browser 仓库的 README、部署文档与 issue/discussion，确认是否有真实站点上的可复现运行记录、失败恢复说明或用户报告，以核验交付确定性。
+  market: ''
+  job: 自动化测试或数据采集工程师在需要让程序操作没有稳定 API 的网页时，把「打开页面、填表、点击、按条件分支、抽取结果」这类任务交给它：LLM 负责规划步骤，Jev 负责在每一步做类型安全决策，最终以库、CLI
+    或 MCP 服务端形式产出可执行的浏览器操作。
+  job_en: 'Automation test or data-collection engineers hand tasks such as opening pages, filling forms,
+    clicking, branching on conditions and extracting results to it when a target site has no stable API:
+    the LLM plans steps, Jev makes type-safe decisions at each step, and the output is executable browser
+    actions delivered as a library, CLI or MCP server.'
+  pain: 网页自动化脚本对页面结构变化极其脆弱，选择器一改就整条流程失败；纯 LLM 代理又容易在每一步产生不可预期的动作，缺少类型约束和可复现的决策边界，导致调试成本高、失败后难以定位。
+  pain_en: Web automation scripts are brittle against page-structure changes, and a single selector change
+    breaks the whole flow; pure LLM agents meanwhile produce unpredictable actions at each step with no
+    type constraints or reproducible decision boundary, making failures hard to debug and localize.
+  current_alternative: 当前替代方式是手写 Playwright/Selenium/Puppeteer 脚本并维护选择器，或直接使用通用 LLM 浏览器代理（如各类 computer-use
+    代理）让模型自由点击；前者脆弱，后者缺少类型安全与确定性决策。
+  current_alternative_en: Today users either hand-write Playwright/Selenium/Puppeteer scripts and maintain
+    selectors, or use general LLM browser agents that let the model click freely; the former is brittle,
+    the latter lacks type safety and deterministic decisions.
+  usage_reason: 推断：相较手写脚本，它把「每一步该做什么」交给 LLM 规划、把「这一步是否合法」交给 Jev 的类型系统裁决，从而减少选择器维护和失败定位这两步负担；相较纯 LLM 代理，类型约束让动作可预期、可复现。因此当目标站点无稳定
+    API、流程又需要多步条件判断时，工程师会倾向选择它。公开材料尚未提供用户反馈或留存证据，此为基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: versus hand-written scripts it moves step planning to the LLM and step
+    legality to Jev''s type system, cutting selector maintenance and failure localization; versus pure
+    LLM agents the type constraints make actions predictable and reproducible. Engineers facing API-less
+    sites with multi-step conditional flows would therefore tend to choose it. Public materials provide
+    no user feedback or retention evidence, so this is an inference from product capability and task st'

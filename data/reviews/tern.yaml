@@ -1,0 +1,90 @@
+- id: req-initial-tern-2026-10-01
+  project_slug: tern
+  level: initial
+  reviewed_at: '2026-10-01T01:18:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长音视频素材难以按内容定位的问题，痛点是人工听看与时间码笔记耗时且难复用，旧替代行为明确，属工作流推理。
+    evidence_ids:
+    - ev-77958c2885e0fe67
+  - gate: consensus
+    status: insufficient
+    reason: 公开指标仅 62 星、1 个 fork，没有用户评价或客户案例说明剪辑师已把它放进日常流程。
+    evidence_ids:
+    - ev-77958c2885e0fe67
+  - gate: model
+    status: insufficient
+    reason: 仓库保留全部权利且未见定价页，买方与收费方式不明；本地部署意味着可能是一次性工具或按项目交付，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-77958c2885e0fe67
+  - gate: truth
+    status: insufficient
+    reason: 检索精度、导出兼容性和人工确认边界均未公开，无法核对交付是否稳定发生。
+    evidence_ids:
+    - ev-77958c2885e0fe67
+  next_validation: 收集该仓库的 issue、discussion 或官方文档，核对检索精度、FCPXML 导出兼容性与实际使用反馈。
+  market: ''
+  job: 播客或视频剪辑师在整理数小时录音与素材时，需要按口播内容、画面文字和画面内容找到具体片段，并把它剪出来交给剪辑软件。
+  job_en: Podcast or video editors working through hours of recordings and footage need to find specific
+    clips by spoken content, on-screen text and visuals, then cut them and hand them to an editing suite.
+  pain: 长素材只能靠人工听看或时间码笔记定位，找一段话或一个画面要反复拖动进度条，素材越多越难复用。
+  pain_en: Long footage can only be located by manually listening, watching or keeping timecode notes;
+    finding one sentence or shot means scrubbing repeatedly, and reuse gets harder as footage grows.
+  current_alternative: 剪辑师通常用剪辑软件自带的关键词标记、手写时间码笔记，或把音频先转成文字再人工搜索。
+  current_alternative_en: Editors typically rely on keyword markers inside editing software, hand-written
+    timecode notes, or transcribing audio first and searching the text manually.
+  usage_reason: 相较人工听看和手写时间码，它把语音转写、画面文字识别和画面相似检索合并成一次查询，直接给出排序片段并可导出 FCPXML，省掉在时间线上反复定位这一步；推断素材量大、复用频繁的播客与访谈团队会因此选择它。
+  usage_reason_en: Compared with manual listening and timecode notes, it merges speech transcription,
+    on-screen text recognition and visual similarity into one query, returning ranked clips and an FCPXML
+    export, removing the repeated timeline-scrubbing step; inference is that podcast and interview teams
+    with large, frequently reused footage will choose it for this.
+- id: req-full-tern-2026-10-01
+  project_slug: tern
+  level: full
+  reviewed_at: '2026-10-01T01:55:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长音视频素材难以按口播、画面文字与画面内容统一定位的问题，痛点是人工听看与时间码笔记耗时且难复用，旧替代行为明确，属工作流结构推理。
+    evidence_ids:
+    - ev-77958c2885e0fe67
+  - gate: consensus
+    status: insufficient
+    reason: 公开指标仅 62 星、1 个 fork，没有用户评价或客户案例说明剪辑师已把它放进日常流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-77958c2885e0fe67
+  - gate: model
+    status: insufficient
+    reason: 仓库保留全部权利且未见定价页，买方与收费方式不明；本地部署可能是一次性工具或按项目交付，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-77958c2885e0fe67
+  - gate: truth
+    status: insufficient
+    reason: 检索精度、FCPXML 导出兼容性与人工确认边界均未公开，无法核对交付是否稳定发生。
+    evidence_ids:
+    - ev-77958c2885e0fe67
+  next_validation: 收集该仓库的 issue、discussion 或官方文档，核对检索精度、FCPXML 导出兼容性与实际使用反馈。
+  market: ''
+  job: 播客或视频剪辑师在整理数小时录音与素材时，需要按口播内容、画面文字和画面内容找到具体片段，并在内置剪辑器里裁剪后导出 FCPXML 交给剪辑软件。
+  job_en: Podcast or video editors working through hours of recordings and footage need to locate specific
+    clips by spoken content, on-screen text and visuals, trim them in a built-in editor, and export FCPXML
+    to an editing suite.
+  pain: 长素材只能靠人工听看或时间码笔记定位，找一段话或一个画面要反复拖动进度条，素材越多越难复用；语音、画面文字与画面内容分散在不同工具里，检索结果无法合并排序。
+  pain_en: Long footage can only be located by manually listening, watching or keeping timecode notes;
+    finding one sentence or shot means repeated scrubbing, and reuse gets harder as footage grows. Speech,
+    on-screen text and visuals live in separate tools, so results cannot be merged into one ranking.
+  current_alternative: 剪辑师通常用剪辑软件自带的关键词标记、手写时间码笔记，或先把音频转成文字再人工搜索，画面内容则靠逐帧浏览。
+  current_alternative_en: Editors typically rely on keyword markers inside editing software, hand-written
+    timecode notes, or transcribing audio first and searching the text manually, while visual content
+    is found by scrubbing frame by frame.
+  usage_reason: 相较人工听看和手写时间码，它把 Whisper 语音转写、Apple Vision 画面文字识别和 SigLIP-2 画面相似检索合成一次查询，直接返回排序片段并导出 FCPXML，省掉在时间线上反复定位与跨工具拼结果这一步；推断素材量大、复用频繁的播客与访谈团队会因此选择它。
+  usage_reason_en: Compared with manual listening and timecode notes, it fuses Whisper transcription,
+    Apple Vision on-screen text recognition and SigLIP-2 visual similarity into one query, returning ranked
+    clips and an FCPXML export, removing the repeated timeline-scrubbing and cross-tool result-stitching
+    step; inference is that podcast and interview teams with large, frequently reused footage will choose
+    it for this.

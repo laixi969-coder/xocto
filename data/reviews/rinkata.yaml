@@ -1,0 +1,79 @@
+- id: req-initial-rinkata-2026-10-01
+  project_slug: rinkata
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决团队与 AI 代理共享同一事实来源的问题，但资料未说明具体任务、痛点与旧替代流程，价值结构无法还原。
+    evidence_ids:
+    - ev-6bba0d49a1c396a7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有任何采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-6bba0d49a1c396a7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均无公开材料。
+    evidence_ids:
+    - ev-6bba0d49a1c396a7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法判断交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-6bba0d49a1c396a7
+  next_validation: 收集 Rinkata 官方产品页或文档，确认它接收哪些材料、产出什么交付物以及面向哪类团队。
+  market: ''
+  job: 资料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The material does not identify the user or scenario, so it is unclear who handles what material
+    under what circumstances to complete which task.
+  pain: 无法从现有事实判断痛点：既没有用户抱怨、旧替代流程，也没有不采用会失去什么的描述。
+  pain_en: 'The pain cannot be judged from available facts: there is no user complaint, no prior workaround,
+    and no description of what is lost by not adopting it.'
+  current_alternative: 未披露。无法确认团队现在用什么方式让代理与成员共享同一份信息。
+  current_alternative_en: Not disclosed. It is unclear how teams currently keep agents and members on
+    the same information.
+  usage_reason: 缺少可核对的动作与交付描述，无法解释相较旧做法减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: With no verifiable action or deliverable described, there is no way to explain which
+    step of the old practice it removes, so no usage reason can be given.
+- id: req-full-rinkata-2026-10-01
+  project_slug: rinkata
+  level: full
+  reviewed_at: '2026-10-01T01:55:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决团队与 AI 代理共享同一事实来源的问题，但资料未说明具体任务、痛点与旧替代流程，价值结构无法还原。
+    evidence_ids:
+    - ev-6bba0d49a1c396a7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Rinkata 官方产品页或文档，确认它接收哪些材料、产出什么交付物以及面向哪类团队。
+  market: ''
+  job: 资料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The material does not identify the user or scenario, so it is unclear who handles what material
+    under what circumstances to complete which task.
+  pain: 无法从现有事实判断痛点：既没有用户抱怨、旧替代流程，也没有不采用会失去什么的描述。
+  pain_en: 'The pain cannot be judged from available facts: there is no user complaint, no prior workaround,
+    and no description of what is lost by not adopting it.'
+  current_alternative: 未披露。无法确认团队现在用什么方式让代理与成员共享同一份信息。
+  current_alternative_en: Not disclosed. It is unclear how teams currently keep agents and members on
+    the same information.
+  usage_reason: 缺少可核对的动作与交付描述，无法解释相较旧做法减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: With no verifiable action or deliverable described, there is no way to explain which
+    step of the old practice it removes, so no usage reason can be given.

@@ -1,0 +1,79 @@
+- id: req-initial-ledgesh-2026-10-01
+  project_slug: ledgesh
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都无法从材料中写出，价值关无法成立。
+    evidence_ids:
+    - ev-a8025362bd704ad8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论量不能替代对使用场景的说明。
+    evidence_ids:
+    - ev-a8025362bd704ad8
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-a8025362bd704ad8
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-a8025362bd704ad8
+  next_validation: 收集 Ledge.sh 官方产品页或文档，确认它接收什么输入、执行什么动作、产出什么交付物。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: The public material does not state who uses it, in what situation, with what material, or to
+    finish what task, so the usage scenario cannot be reconstructed.
+  pain: 材料未提供任何用户痛点、抱怨或旧流程受阻的描述，无法确认存在需要解决的问题。
+  pain_en: The material provides no user pain point, complaint, or blocked old process, so no problem
+    to be solved can be confirmed.
+  current_alternative: 材料未说明用户此前用什么方式完成同类任务，替代对象未知。
+  current_alternative_en: The material does not say what users previously used for the same task, so the
+    alternative is unknown.
+  usage_reason: 缺少可核验的功能说明与用户反馈，无法解释用户为何会选择它而非旧做法；此处不作推断。
+  usage_reason_en: Verifiable feature descriptions and user feedback are missing, so there is no basis
+    to explain why a user would choose it over the old way; no inference is made here.
+- id: req-full-ledgesh-2026-10-01
+  project_slug: ledgesh
+  level: full
+  reviewed_at: '2026-10-01T01:54:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有“可运行的 Markdown 笔记”一句，说不清谁在什么情况下处理什么材料、要完成什么任务，也写不出痛点与不解决的后果，价值关无法成立。
+    evidence_ids:
+    - ev-a8025362bd704ad8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Ledge.sh 官方产品页或文档，确认它接收什么输入、执行什么动作、产出什么交付物。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: The public material does not state who uses it, in what situation, with what material, or to
+    finish what task, so the usage scenario cannot be reconstructed.
+  pain: 材料未提供任何用户痛点、抱怨或旧流程受阻的描述，无法确认存在需要解决的问题。
+  pain_en: The material provides no user pain point, complaint, or blocked old process, so no problem
+    to be solved can be confirmed.
+  current_alternative: 材料未说明用户此前用什么方式完成同类任务，替代对象未知。
+  current_alternative_en: The material does not say what users previously used for the same task, so the
+    alternative is unknown.
+  usage_reason: 缺少可核验的功能说明与用户反馈，无法解释用户为何会选择它而非旧做法；此处不作推断。
+  usage_reason_en: Verifiable feature descriptions and user feedback are missing, so there is no basis
+    to explain why a user would choose it over the old way; no inference is made here.

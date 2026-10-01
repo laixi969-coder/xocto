@@ -224,3 +224,49 @@
     step, so users blocked by device limits who prefer system dictation would try it; however supported
     models, OS versions, and feature boundaries are undisclosed, and no user feedback backs the adoption
     motive.'
+- id: req-full-pixelboard-2026-10-01
+  project_slug: pixelboard
+  level: full
+  reviewed_at: '2026-10-01T01:55:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非 Pixel 或旧版 Android 用户无法使用系统级 Gemini 听写与写作的问题，痛点是机型锁定导致只能退回第三方输入法或手动打字，旧替代明确，属工作流结构推理。
+    evidence_ids:
+    - ev-c934174b19dc01ef
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 87 缓慢增至 98，属关注度而非采用；缺少用户反馈、issue 或持续使用证据，无法确认已进入工作流。
+    evidence_ids:
+    - ev-c934174b19dc01ef
+    - ev-d2afe914c0706bac
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、赞助或商业路径，买方与付费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c934174b19dc01ef
+  - gate: truth
+    status: insufficient
+    reason: 依赖厂商未公开的 Gemini 能力，兼容机型、系统版本与厂商更新后是否失效均无公开文档，交付确定性存疑。
+    evidence_ids:
+    - ev-c934174b19dc01ef
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认实际可用机型、系统版本范围以及是否因厂商更新而失效。
+  market: ''
+  job: 非 Pixel 或旧版 Android 手机用户在需要口述记录想法、写消息或长文时，处理自己的语音内容，要把它变成可编辑文字，但本机系统不提供 Gemini 自然语音听写与写作入口。
+  job_en: Owners of non-Pixel or older Android phones who want to dictate ideas, messages or long text
+    work from their own speech and need it turned into editable text, but their device's system does not
+    offer the Gemini natural voice dictation and writing entry point.
+  pain: 系统级听写被机型或系统版本锁定，用户只能退回第三方输入法语音或手动打字，语音转文字的准确度与写作辅助能力不一致，且需在输入法间切换。
+  pain_en: System-level dictation is locked by device model or OS version, forcing users back to third-party
+    keyboard voice input or manual typing, with inconsistent accuracy and writing assistance, plus keyboard
+    switching overhead.
+  current_alternative: 多数人使用第三方输入法自带的语音输入，或直接手动打字；部分用户换用 Pixel 设备或刷机获取系统听写。
+  current_alternative_en: Most people use the voice input built into a third-party keyboard, or type by
+    hand; some switch to a Pixel device or flash a custom ROM to get system dictation.
+  usage_reason: 推断：相较第三方输入法语音，它通过无需 root 的启用动作把系统级 Gemini 听写与写作能力搬到本机，省掉换设备或刷机这一步，因此被机型限制、又偏好系统听写的用户会尝试它。
+  usage_reason_en: 'Inference: versus third-party keyboard voice input, it uses a no-root enabling action
+    to bring system-level Gemini dictation and writing onto the device, removing the step of switching
+    devices or flashing a ROM, so users blocked by device limits who prefer system dictation would try
+    it.'

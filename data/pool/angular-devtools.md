@@ -22,7 +22,7 @@ summary: 'Angular DevTools : inspect components, signals, DI, and routes. Runs a
   embedded panel, standalone CLI, static report, or MCP server for coding agents. Built with Devframe.'
 first_seen: '2026-09-19T21:02:49Z'
 last_seen: '2026-10-01T01:18:42Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

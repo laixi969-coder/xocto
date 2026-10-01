@@ -180,3 +180,52 @@
     and DeepSeek Flash phased building, with verification steps and reversible install, cutting the developer''s
     own task-splitting, per-phase checking, and manual rollback step; engineers already using Codex locally
     who want phased verification and safe installation would pick it for medium-sized changes.'
+- id: req-full-astra-flash-orchestrator-2026-10-01
+  project_slug: astra-flash-orchestrator
+  level: full
+  reviewed_at: '2026-10-01T01:52:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理一次性生成难以定位错误的需求：分阶段计划、审查与验证把计划与实现分离，痛点在于错误归因成本高、不采用则需人工逐行排查。这是工作流结构推理，非用户口述；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-805aef6ef20a644b
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 676 持续增至 721，说明开发者社区持续关注并把它加入工作流候选；但收藏属关注度证据，不能证明持续使用或替代旧流程，缺少 issue、discussion 中的实际使用反馈。
+    evidence_ids:
+    - ev-805aef6ef20a644b
+    - ev-462773ad48b19059
+    - ev-d11c5e8ea820ec14
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费主体或采购记录，无法判断 to C、to B 还是靠赞助；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-805aef6ef20a644b
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述有验证步骤与可回滚安装，但缺少部署文档、issue 或可复现实测来确认交付是否稳定发生，以及人工确认与安全边界如何划定。
+    evidence_ids:
+    - ev-805aef6ef20a644b
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者报告在真实编码任务中完成阶段审查与回滚安装，以及替代了哪种旧流程。
+  market: ''
+  job: 软件工程师在本地 Codex 环境里处理一项中等规模编码任务时，把任务交给该仓库：Astra 先拆出分阶段计划并逐阶段审查，DeepSeek Flash 按阶段写代码，最后产出带验证步骤的结果，安装可回滚。
+  job_en: 'A software engineer working in a local Codex environment hands a coding task to this repository:
+    Astra first decomposes it into phased tasks and reviews each phase, DeepSeek Flash writes code per
+    phase, and the run ends with verification steps and a reversible install.'
+  pain: 公开材料支持的痛点是：单模型一次性生成代码时，计划、实现与验证混在一起，出错后难以定位是哪一步的问题；分阶段编排把计划与审查独立出来，使错误可在阶段边界被拦截。这是从产品工作流结构推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The pain supported by public materials: with single-pass code generation, planning, implementation
+    and verification blur together, so a failure is hard to attribute to a step; phased orchestration
+    separates planning and review so errors can be caught at phase boundaries. This is inferred from the
+    workflow structure, not from user complaints or cases.'
+  current_alternative: 旧做法是直接在 Codex 或同类编码代理里一次性提交任务，靠人工读 diff 判断对错；或自行拼装多模型提示词与脚本，没有内置的阶段审查与可回滚安装。
+  current_alternative_en: The prior approach is submitting the task in one pass to Codex or a similar
+    coding agent and reading the diff manually, or hand-rolling multi-model prompts and scripts without
+    built-in phase review or reversible install.
+  usage_reason: 推断：相较一次性提交，它把任务切成阶段并在每阶段后插入审查，用户因此不必在整段生成结束后才逐行排查错误，而是能在阶段边界定位问题；可回滚安装降低了试用成本。哪类用户会在什么情况下选择它，公开材料尚未给出用户自述。
+  usage_reason_en: 'Inference: versus one-pass submission, it splits the task into phases with review
+    after each, so the user does not have to debug a whole generation at the end but can localize failures
+    at phase boundaries; reversible install lowers trial cost. Public materials do not yet show which
+    users choose it and when.'

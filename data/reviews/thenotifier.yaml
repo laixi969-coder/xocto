@@ -76,3 +76,55 @@
   usage_reason: 用户要完成的任务是：Web 应用开发者向用户手机推送通知；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Web app developers pushing notifications to user phones Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-thenotifier-2026-10-01
+  project_slug: thenotifier
+  level: full
+  reviewed_at: '2026-10-01T01:55:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Web 应用开发者向用户手机发通知、且不想走短信通道的需求；公开事实仅有“without SMS”一句，痛点强度与频率未量化，但按任务结构可还原旧做法（短信按条付费或要求装原生
+      App）与不解决的后果，属工作流结构推理，故价值关成立。
+    evidence_ids:
+    - ev-4dfb70f05cfec2a8
+    - ev-bacf8f9176504699
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有开发者页一句能力描述，没有部署范围、持续使用、复购或开发者讨论证据；市场覆盖查询也未返回该产品的独立评价，无法判断是否形成稳定使用共识。
+    evidence_ids:
+    - ev-4dfb70f05cfec2a8
+    - ev-45f636df0b17a314
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、计费单位或买方描述，无法判断收入来自开发者订阅、按条计费还是企业合同；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-bacf8f9176504699
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明消息如何生成、投递是否确定到达、失败重试与用户授权/退订边界，交付确定性与安全边界缺少可核验文档。
+    evidence_ids:
+    - ev-4dfb70f05cfec2a8
+  next_validation: 追踪 thenotifier 官网是否上线定价页或开发者文档，公开说明计费单位、投递机制与授权/退订边界。
+  market: ''
+  job: Web 应用开发者在自己没有原生 App、也不愿为每条通知付短信费的情况下，把应用内的提醒（如验证码、订单状态、告警）投递到用户手机上，让用户在不打开网页时也能收到。
+  job_en: Web app developers, lacking a native app and unwilling to pay per-message SMS fees, deliver
+    in-app alerts (verification codes, order status, alerts) to users' phones so users are reached even
+    when the web page is closed.
+  pain: 公开材料只给出“without SMS”这一句，未披露用户抱怨或量化代价；结构推理上，短信按条计费且需维护号码与合规，浏览器推送又依赖用户授权与在线状态，开发者缺少一条不依赖短信通道、又能触达手机的通知路径。
+  pain_en: Public material offers only the phrase 'without SMS' with no user complaints or quantified
+    cost; structurally, SMS is per-message billed and requires number and compliance handling, while browser
+    push depends on user permission and online state, leaving developers without a non-SMS path to reach
+    phones.
+  current_alternative: 公开材料未说明现有替代方式；按任务结构推断，开发者目前要么用短信网关按条付费，要么依赖 Web Push/邮件，或要求用户安装原生 App。
+  current_alternative_en: Public material does not state the current alternative; by task structure, developers
+    today either pay per message via SMS gateways, rely on Web Push/email, or require users to install
+    a native app.
+  usage_reason: 推断：相较短信按条计费与原生 App 的安装门槛，该产品以“web 应用直接向用户手机发消息”的方式省去短信通道与号码合规环节，因此没有原生 App、又需要触达手机用户的
+    Web 开发者会在需要低成本通知时选择它；公开材料未提供用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: versus per-message SMS billing and the install barrier of a native app,
+    the product sends messages from a web app straight to users'' phones, skipping the SMS channel and
+    number compliance, so web developers without a native app who need to reach phone users would choose
+    it for low-cost notifications; public material provides no user feedback or retention evidence for
+    this motive.'

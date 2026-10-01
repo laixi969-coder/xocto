@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CZEQxWjBkMGt3
 summary: 「灵基进万企」Workshop焕新升级广州站圆满举办_行业动态 投资界
 first_seen: '2026-09-30T09:51:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

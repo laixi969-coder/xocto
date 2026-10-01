@@ -1,0 +1,84 @@
+- id: req-initial-coucou-2026-10-01
+  project_slug: coucou
+  level: initial
+  reviewed_at: '2026-10-01T01:18:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是代理会话状态可见性问题，痛点真实但公开材料只给出一句产品描述，无法确认具体状态项与不采用的实际代价。
+    evidence_ids:
+    - ev-5653b9f5f536267d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度证据，不能说明开发者已把它留在日常工作流里。
+    evidence_ids:
+    - ev-5653b9f5f536267d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明任何付费路径或买方，无法判断收入来自个人捐赠、企业支持还是托管服务。
+    evidence_ids:
+    - ev-5653b9f5f536267d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它读取会话状态的机制是否可靠、是否会误报，也未说明人工确认边界。
+    evidence_ids:
+    - ev-5653b9f5f536267d
+  next_validation: 收集该开源仓库的 issue 与 discussion，核对开发者实际反馈的状态误报、卡顿识别与长期使用情况。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 会话时，需要在不切换终端窗口的情况下确认每个会话是否仍在运行、是否卡住或报错。
+  job_en: Developers running several Claude Code sessions at once need to confirm whether each session
+    is still running, stuck, or failing without switching terminal windows.
+  pain: 代理会话运行时间长且无人值守，开发者只能反复切回终端查看，容易漏掉中断或长时间无输出。
+  pain_en: Agent sessions run long and unattended, so developers keep switching back to the terminal and
+    can miss interruptions or long silences.
+  current_alternative: 目前主要靠手动切换终端窗口、查看日志输出，或依赖代理自身在终端里的提示。
+  current_alternative_en: Today this is mostly done by manually switching terminal windows, reading log
+    output, or relying on the agent's own terminal prompts.
+  usage_reason: 推断：把会话状态固定在屏幕边缘常驻显示，省去反复切换终端这一步，因此同时跑多个会话的开发者可能选择它；但公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: pinning session status to the screen edge removes the repeated window-switching
+    step, so developers running several sessions may choose it; no retention or repeat-use evidence is
+    provided in the public material.'
+- id: req-full-coucou-2026-10-01
+  project_slug: coucou
+  level: full
+  reviewed_at: '2026-10-01T01:53:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多会话状态可见性，但公开材料只有一句产品描述，未说明具体状态项、误报处理与不采用的实际代价，连需求与痛点都难以从可引用事实还原。
+    evidence_ids:
+    - ev-9b9d2db19476e818
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 coucou 官方产品页或仓库 README 与 issue/discussion，核对它实际显示哪些 Claude Code 会话状态项、误报处理方式与开发者反馈。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 会话时，需要在 macOS 刘海或 Windows 屏幕顶部常驻的小窗口里查看每个会话是否仍在运行、是否卡住或报错，而不必切换终端窗口。
+  job_en: Developers running several Claude Code sessions at once need a small always-on window in the
+    macOS notch or at the top of the Windows screen to see whether each session is still running, stuck,
+    or failing, without switching terminal windows.
+  pain: 公开材料只有一句产品描述，未说明具体显示哪些状态项、误报或漏报如何处理，也未给出开发者因反复切换终端而漏掉中断的实际抱怨或行为证据。
+  pain_en: The public material offers only a one-line product description; it does not state which status
+    items are shown, how false or missed alerts are handled, or provide actual complaints or behavior
+    showing developers miss interruptions from repeated terminal switching.
+  current_alternative: 公开材料未记录开发者当前用什么方式盯住 Claude Code 会话，只能推测是手动切换终端窗口或依赖终端内提示，缺少可引用的旧替代行为证据。
+  current_alternative_en: The public material does not record how developers currently watch Claude Code
+    sessions; manual terminal switching or relying on in-terminal prompts can only be inferred, with no
+    citable evidence of the old workaround.
+  usage_reason: 推断：把会话状态固定在屏幕边缘可省去反复切换终端这一步，但公开材料未提供任何用户反馈、留存或重复使用证据，无法确认哪类开发者会因此选择它。
+  usage_reason_en: 'Inference: pinning session status to the screen edge could remove the repeated window-switching
+    step, but the public material provides no user feedback, retention, or repeat-use evidence to confirm
+    which developers would choose it for that reason.'

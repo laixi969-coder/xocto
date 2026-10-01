@@ -592,3 +592,43 @@
     reading and creation on one page, removing the tab-switching and context re-describing steps, so desktop
     work and study users who research and write in the same session would pick it for complex questions;
     public material offers no retention or payment evidence.'
+- id: req-full-ai-搜索-百度-2026-10-01
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-10-01T01:52:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度AI搜索官方页面是否公开该对话入口的定价、会员权益或企业版采购说明，以核验付费主体与交付边界。
+  market: ''
+  job: 普通用户或办公人群在需要查资料、理解复杂问题或产出文字/图片时，打开百度搜索，把问题交给对话式入口，边追问边深挖，并在同一页完成写作与配图。
+  job_en: Everyday or office users open Baidu search to research a complex question, keep asking follow-ups
+    in a chat entry, and produce text or images on the same page.
+  pain: 传统搜索返回链接列表，用户需自行逐条打开、比对、摘录再整理成答案；多轮追问和写作、做图要在多个工具间来回切换，重复搬运上下文。
+  pain_en: Classic search returns a list of links that users must open, compare, excerpt and reassemble
+    themselves; follow-up questions plus writing and image work force switching across tools and re-pasting
+    context.
+  current_alternative: 旧做法是关键词搜索加逐条点开网页、复制粘贴到文档，再另开写作或绘图工具；部分用户改用独立 AI 对话产品。
+  current_alternative_en: The old path is keyword search, opening pages one by one, copy-pasting into
+    a document, then switching to separate writing or drawing tools; some users instead use standalone
+    AI chat products.
+  usage_reason: 推断：相较逐条点开链接再自行汇总，它把检索、追问、写作与做图收进同一对话页，省去跨工具搬运上下文这一步，因此需要连续深挖并顺手产出内容的搜索用户会在同一入口完成。
+  usage_reason_en: 'Inference: versus opening links one by one and assembling answers manually, it keeps
+    retrieval, follow-ups, writing and image work in one chat page, removing the cross-tool context shuffle,
+    so users who need to dig deep and produce output stay in one entry.'

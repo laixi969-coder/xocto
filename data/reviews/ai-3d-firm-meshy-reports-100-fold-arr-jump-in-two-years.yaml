@@ -1,0 +1,94 @@
+- id: req-initial-ai-3d-firm-meshy-reports-100-fold-arr-jump-in-two-years-2026-10-01
+  project_slug: ai-3d-firm-meshy-reports-100-fold-arr-jump-in-two-years
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量3D资产制作慢、外包返工多的问题，旧流程是手工建模，痛点刚性且交付物明确。
+    evidence_ids:
+    - ev-3f0345626ef95791
+  - gate: consensus
+    status: insufficient
+    reason: 只有ARR百倍增长的说法，没有客户名单、使用规模或社区采用细节，无法判断共识形成到哪一环。
+    evidence_ids:
+    - ev-3f0345626ef95791
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与计费方式，买方可能是游戏工作室或电商团队，属推断而非已验证事实。
+    evidence_ids:
+    - ev-3f0345626ef95791
+  - gate: truth
+    status: insufficient
+    reason: 生成资产能否直接进管线、人工修形比例多少均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-3f0345626ef95791
+  next_validation: 收集 Meshy 官方定价页与公开客户案例，确认计费方式与真实交付结果。
+  market: ''
+  job: 游戏或电商团队的美术人员在需要批量3D模型时，处理文字描述或参考图，要产出可直接进管线的网格与贴图资产。
+  job_en: Artists on game or e-commerce teams handling text prompts or reference images when they need
+    batches of 3D models, aiming to produce meshes and textures that can enter the pipeline.
+  pain: 手工建模单个资产耗时长，外包沟通与返工成本高，项目排期常被资产制作卡住。
+  pain_en: Manual modeling of each asset is slow, outsourcing communication and rework are costly, and
+    asset production often blocks project schedules.
+  current_alternative: 旧做法是美术手工建模，或把需求发给外包团队按件制作，再逐轮修改。
+  current_alternative_en: The old way is manual modeling by in-house artists, or sending briefs to outsourcing
+    teams for per-asset production and iterative revisions.
+  usage_reason: 推断：相较手工从零建模，Meshy 让用户先用文字或参考图生成初版网格与贴图，把最耗时的起形环节压缩成一次生成加人工修形，因此赶排期的游戏美术和电商建模人员会在需要快速出草模时选择它；公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with modeling from scratch, Meshy lets users generate a first-pass
+    mesh and texture from text or reference images, compressing the slowest blocking-out step into one
+    generation plus manual cleanup, so schedule-pressed game artists and e-commerce modelers would pick
+    it when they need quick draft assets; no retention or repeat-use evidence is public.'
+- id: req-full-ai-3d-firm-meshy-reports-100-fold-arr-jump-in-two-years-2026-10-01
+  project_slug: ai-3d-firm-meshy-reports-100-fold-arr-jump-in-two-years
+  level: full
+  reviewed_at: '2026-10-01T01:52:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量3D资产起形慢、外包返工多的需求，痛点在排期压力下刚性，交付物为可导出的网格与贴图，闭环可确定；这是基于官网功能与旧流程的结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-a5f03dc5e282b6f8
+    - ev-d5becce33cadd713
+    - ev-c26ce52b7ee2b9c9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官网自述面向3D美术与游戏开发者，缺少客户名单、使用规模或社区采用细节，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-a5f03dc5e282b6f8
+    - ev-d5becce33cadd713
+  - gate: model
+    status: insufficient
+    reason: 官网称可免费试用并导出多种格式，但未披露定价页与计费方式；买方可能是游戏工作室、外包团队或电商团队，属推断而非已验证事实。
+    evidence_ids:
+    - ev-a5f03dc5e282b6f8
+    - ev-c26ce52b7ee2b9c9
+  - gate: truth
+    status: insufficient
+    reason: 生成资产能否直接进管线、人工修形与拓扑返工比例多少均未说明，交付确定性缺少公开核验，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-a5f03dc5e282b6f8
+    - ev-d5becce33cadd713
+  next_validation: 追踪 Meshy 官网定价页与公开客户案例，确认计费方式、导出资产进管线的返工比例与真实交付结果。
+  market: ''
+  job: 游戏、影视或电商团队的美术人员在需要一批3D资产时，把文字描述或参考图交给 Meshy，要产出可导出 FBX/OBJ/GLB/STL 的网格与贴图，再进建模软件修形、拓扑、调材质后接入管线。
+  job_en: Artists on game, film or e-commerce teams handling text prompts or reference images when they
+    need a batch of 3D assets, aiming to produce meshes and textures exportable as FBX/OBJ/GLB/STL, then
+    refine shape, topology and materials in modeling software before entering the pipeline.
+  pain: 公开材料显示单个资产从零起形耗时长，外包按件沟通与多轮返工成本高，资产制作常卡住排期；Meshy 官网称 20-30 秒出模型，说明旧流程的起形环节是主要瓶颈。
+  pain_en: Public material indicates blocking out each asset from scratch is slow, per-asset outsourcing
+    communication and repeated rework are costly, and asset production often blocks schedules; Meshy's
+    site claims 20-30 second generation, implying the blocking-out step is the main bottleneck.
+  current_alternative: 旧做法是美术手工从零建模，或把需求发给外包团队按件制作并逐轮修改；也可用通用图像/文本 AI 工具拼凑参考，但无法直接产出带贴图的网格。
+  current_alternative_en: The old way is manual modeling from scratch, or sending briefs to outsourcing
+    teams for per-asset production with iterative revisions; generic image/text AI tools can produce references
+    but not textured meshes.
+  usage_reason: 推断：相较手工从零起形，Meshy 用文字或参考图一次生成初版网格与贴图，把最耗时的起形环节压缩为一次生成加人工修形，因此赶排期的游戏美术与电商建模人员会在需要快速出草模时选择它；公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with blocking out from scratch, Meshy generates a first-pass mesh
+    and texture from text or reference images in one step, compressing the slowest blocking-out stage
+    into one generation plus manual cleanup, so schedule-pressed game artists and e-commerce modelers
+    would pick it for quick draft assets; no retention or repeat-use evidence is public.'

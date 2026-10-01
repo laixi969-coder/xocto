@@ -122,3 +122,45 @@
     action, it could remove the step of developers maintaining state reads and writes themselves; however,
     public material does not describe the mechanism, integration, or delivered result, so it is not confirmed
     which users would choose it for this reason.'
+- id: req-full-awr-2026-10-01
+  project_slug: awr
+  level: full
+  reviewed_at: '2026-10-01T01:52:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决长任务代理状态与上下文管理，但全部引用证据指向美国水资源公司、美国州立水务公司与复临世界电台三个同名实体，与 AI 代理无关，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-10def2575555e32d
+    - ev-9e468f926d0b7c69
+    - ev-b029bfd879f4321d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 在 公开代码仓库 检索名为 awr 的 AI 代理状态持久化仓库，收集其 README、issue/discussion 与依赖引用，确认项目是否真实存在及其状态保存机制。
+  market: ''
+  job: 开发者构建跨多轮、长时间运行的 AI 代理时，处理代理产生的中间状态与上下文材料，让代理在后续步骤继续任务而不丢失进度。
+  job_en: Developers building AI agents that run across many turns and long durations handle intermediate
+    state and context material so the agent can continue a task in later steps without losing progress.
+  pain: 公开材料未提供任何用户痛点、抱怨或 workaround 证据；候选摘要所述“每轮重建上下文”属编辑描述，未被引用证据支持。
+  pain_en: Public material provides no user pain, complaint, or workaround evidence; the 'reassemble context
+    each turn' claim is editorial description not backed by cited evidence.
+  current_alternative: 公开证据未记录开发者当前如何管理代理状态，无法确认旧替代方式。
+  current_alternative_en: Public evidence does not record how developers currently manage agent state,
+    so the prior alternative cannot be confirmed.
+  usage_reason: 无法判断：现有证据全部指向 American Water Resources、American States Water Company 与 Adventist World
+    Radio 三个同名实体，与 AI 代理状态管理无关，无法说明用户为何选择它。
+  usage_reason_en: 'Cannot be judged: all available evidence points to three same-named entities (American
+    Water Resources, American States Water Company, Adventist World Radio) unrelated to AI agent state
+    management, so no reason for user choice can be established.'

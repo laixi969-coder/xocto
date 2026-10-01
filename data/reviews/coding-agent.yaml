@@ -186,3 +186,52 @@
   usage_reason: 用户要完成的任务是：软件开发、代码审查；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software development, Code review Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-coding-agent-2026-10-01
+  project_slug: coding-agent
+  level: full
+  reviewed_at: '2026-10-01T01:52:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者在本地仓库完成跨文件规划、执行、验证与交付的需求，痛点是上下文搬运与验证串联的负担，以及代码外传顾虑；公开材料仅有定位句与星标，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+    - ev-2089bca8b91891af
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从117升至139，说明有开发者关注并收藏，但这是关注度而非持续采用；公开材料没有issue、讨论或用户反馈说明谁在什么场景下重复使用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+    - ev-1581cf4a7c8117a6
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费记录或采购信息，无法判断钱来自个人开发者订阅、团队席位还是企业私有部署；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+  - gate: truth
+    status: insufficient
+    reason: 定位句承诺规划、执行、验证、交付，但公开材料未给出支持语言、执行边界、验证方式与人工介入点，交付能否确定性发生尚无可复现证据。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+    - ev-2089bca8b91891af
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认支持语言、执行与验证边界，以及是否有用户描述实际替代的旧流程。
+  market: ''
+  job: 开发者在本地仓库中处理已有代码库时，让代理读取仓库上下文，完成从规划、改代码、跑验证到交付变更的整条任务链，而不是只补全一段代码。
+  job_en: A developer working in a local repository lets the agent read repository context and carry a
+    task from planning through code changes, validation, and delivery of the change, rather than only
+    completing a code snippet.
+  pain: 公开材料只给出定位句，未提供用户抱怨或案例；从工作流结构推理，跨文件改动需要人工反复收集上下文、手工串联规划与验证，且把代码库交给云端代理存在隐私与可控性顾虑，本地优先正是针对这一环节。
+  pain_en: Public materials give only a positioning sentence with no user complaints or cases; by workflow
+    inference, cross-file changes force developers to manually gather context and stitch planning to validation,
+    while sending a repository to a cloud agent raises privacy and control concerns that local-first targets.
+  current_alternative: 公开材料未说明现有替代方式；结构上对应的是开发者手工在 IDE 中逐文件修改，或使用云端补全/聊天式助手，由人自己承担上下文收集与验证。
+  current_alternative_en: Public materials do not state the current alternative; structurally it corresponds
+    to manual file-by-file editing in an IDE, or cloud completion/chat assistants where the human still
+    carries context gathering and validation.
+  usage_reason: 推断：相较手工逐文件修改或云端助手，它把仓库读取、规划、执行、验证串成一个本地闭环，减少人工搬运上下文和手动串联验证步骤，因此在意代码不外传、又需要跨文件改动的开发者会在本地仓库任务中选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual file-by-file editing or cloud assistants, it chains repository
+    reading, planning, execution, and validation into one local loop, cutting manual context shuttling
+    and hand-stitched validation, so developers who need cross-file changes without exporting code would
+    pick it for local repository tasks; no user feedback yet confirms this motive.'

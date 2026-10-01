@@ -21,7 +21,7 @@ canonical_url: https://motherjones.com/politics/2026/09/openai-chatgpt-microsoft
 summary: We May Have Pulled Off "The Largest Theft of Labor in Human History"
 first_seen: '2026-09-22T21:15:28Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

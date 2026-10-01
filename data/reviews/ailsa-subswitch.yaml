@@ -156,3 +156,53 @@
   usage_reason_en: 'The task is: Individual developers or small teams switching between multiple AI subscription
     accounts and checking weekly usage Public materials do not yet explain why users choose this product
     over their existing approach.'
+- id: req-full-ailsa-subswitch-2026-10-01
+  project_slug: ailsa-subswitch
+  level: full
+  reviewed_at: '2026-10-01T01:52:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多AI订阅账号额度分散、需逐个登录核对的痛点，任务与旧替代（逐个登录、多Profile、手动记账）清晰，不解决的后果是工作中断或重复付费；但公开材料仅有产品自述与仓库星标，痛点强度属工作流结构推理，尚无用户抱怨或频率证据。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+    - ev-22435d7c60101a1c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从44升至69，说明开发者社区注意到该项目，但星标属关注度而非持续采用；公开材料没有issue、discussion或用户评价说明谁在何种场景长期使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+    - ev-22435d7c60101a1c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，无法判断是to C订阅、to B授权还是纯开源捐赠；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些AI服务、切换后是否自动同步状态，也未提供部署文档或可复现实测，交付能否稳定发生与账号安全边界均未核验。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+    - ev-6b13088a106a0b49
+  next_validation: 追踪该公开代码仓库仓库的README、issue与discussion，确认其支持的服务清单、切换机制与用户实际使用反馈。
+  market: ''
+  job: 个人开发者或小团队同时持有多个AI订阅账号（如多个ChatGPT/Claude类账号）时，需要查看各账号每周剩余额度，并在额度耗尽或切换需求出现时，从当前账号切换到目标账号继续使用。
+  job_en: An individual developer or small team holding several AI subscription accounts needs to see
+    each account's weekly remaining quota and, when one runs out or a switch is needed, move from the
+    current account to the target account to keep working.
+  pain: 多账号额度分散在各服务后台，用户要逐个登录或手动记录才能知道哪个账号还有余量；额度用尽时才发现，导致工作中断或重复付费。公开材料只给出产品自述，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Quotas are scattered across each provider's backend, so users must log in one by one or track
+    them manually to know which account still has headroom; they often discover exhaustion only when work
+    is interrupted or they overpay. Public material only offers the product's own description, so pain
+    intensity is a workflow inference, not user-reported fact.
+  current_alternative: 逐个登录各AI服务网页查看用量、用浏览器多账号/多Profile切换、手动记账或干脆多买一份订阅。
+  current_alternative_en: Logging into each AI service's web console to check usage, switching via browser
+    multi-account profiles, keeping manual notes, or simply buying another subscription.
+  usage_reason: 推断：相较逐个登录核对，它把各账号每周用量集中到一处展示，并把切换压缩为一次点击，省去重复登录与手动记录这两步；因此同时持有多个AI订阅、且额度经常触顶的个人开发者或小团队会在额度管理场景下选择它。公开材料未提供用户反馈，此因果为基于产品能力的推断。
+  usage_reason_en: 'Inference: versus logging in one by one, it aggregates each account''s weekly usage
+    in one view and reduces switching to a single click, removing the repeated-login and manual-tracking
+    steps; therefore individual developers or small teams holding several AI subscriptions whose quotas
+    frequently run out would pick it for quota management. No user feedback is public, so this causal
+    claim is inferred from product capability.'

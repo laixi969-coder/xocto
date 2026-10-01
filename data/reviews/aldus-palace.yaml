@@ -155,3 +155,55 @@
   usage_reason_en: 'The task is: Developers or teams organising and storing context records with provenance
     so an AI assistant remembers commitments and decisions across sessions Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-aldus-palace-2026-10-01
+  project_slug: aldus-palace
+  level: full
+  reviewed_at: '2026-10-01T01:52:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 助手跨会话遗忘承诺与决策、且结论无法追溯出处的问题；旧做法是手工笔记、重复粘贴上下文或托管记忆服务，不解决的后果是重复交代与凭记忆重建。公开说明已能还原输入自由文本、抽取类型化记录、写入自有
+      SQLite、经 MCP/HTTP 取回的闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-33aaf4ff3019be4a
+    - ev-7974e6d318282a4f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 78 增至 102，说明开发者社区持续关注，但收藏与关注只属规模信号，公开材料未见用户评价、issue 讨论或客户案例说明谁在何种场景持续使用，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-33aaf4ff3019be4a
+    - ev-7974e6d318282a4f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，开源仓库本身不构成收入路径；买方可能来自重视数据自持的开发者或团队，但这是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-33aaf4ff3019be4a
+  - gate: truth
+    status: insufficient
+    reason: 抽取准确率、人工确认环节与错误承诺被写入后的纠正机制均未公开，交付能否稳定发生缺少可复现证据；自有 SQLite 与本地持有在数据边界上是正向设计，但安全与人工边界仍待公开材料说明。
+    evidence_ids:
+    - ev-33aaf4ff3019be4a
+    - ev-58ce7c7397b542d8
+  next_validation: 追踪 aldus-palace 仓库的 README、issue 与 discussion，确认是否有用户公开描述实际部署场景、抽取准确率反馈或人工确认流程。
+  market: ''
+  job: 开发者或小团队在让 AI 助手跨会话、跨工具工作时，把对话与笔记中的自由文本交给该工具，抽取成带出处的类型化承诺、决策与记忆，写入自己持有的 SQLite 文件，再通过 MCP、HTTP、库或类型化客户端在后续会话中取回。
+  job_en: Developers or small teams, when running an AI assistant across sessions and tools, feed free
+    text from conversations and notes into the tool, which extracts typed commitments, decisions and memories
+    with provenance into a SQLite file they own, then retrieve them in later sessions via MCP, HTTP, library
+    or typed client.
+  pain: AI 助手每次会话结束即遗忘，承诺与决策散落在聊天记录、文档和脑子里，跨会话无法可靠复述，且无法追溯某条结论出自哪段原始材料；重新交代上下文或凭记忆重建既费时又易错。
+  pain_en: AI assistants forget at the end of each session; commitments and decisions scatter across chat
+    logs, documents and memory, cannot be reliably recalled across sessions, and cannot be traced back
+    to the source passage; re-briefing or reconstructing from memory is slow and error-prone.
+  current_alternative: 当前替代方式包括手工维护笔记或文档、把上下文粘贴进每次新会话、依赖通用向量记忆库或托管式记忆服务，以及干脆放弃跨会话记忆。
+  current_alternative_en: Current alternatives include manually maintained notes or documents, pasting
+    context into each new session, generic vector memory stores or hosted memory services, or simply giving
+    up on cross-session memory.
+  usage_reason: 相较手工笔记或托管记忆服务，该工具把自由文本自动转成带证据的类型化承诺、决策与记忆，并落在用户自己持有的 SQLite 文件里，减少手工整理与逐条核对出处这一步，同时避免把上下文交给第三方托管；重视数据自持与可追溯出处的开发者会在需要跨会话延续承诺与决策时选择它（推断）。
+  usage_reason_en: Compared with manual notes or hosted memory services, the tool automatically converts
+    free text into typed commitments, decisions and memories with evidence, stored in a SQLite file the
+    user owns, removing the manual organising and per-item provenance checking step while avoiding handing
+    context to a third party; developers who value data ownership and traceable provenance would choose
+    it when commitments and decisions must persist across sessions (inference).

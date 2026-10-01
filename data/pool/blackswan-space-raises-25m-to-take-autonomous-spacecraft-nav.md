@@ -1,6 +1,6 @@
 ---
 slug: blackswan-space-raises-25m-to-take-autonomous-spacecraft-nav
-name: Blackswan Space raises €2.5M to take autonomous spacecraft navigation into orbit
+name: Blackswan Space
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Lithuania’s Blackswan Space, has successfully closed its second inves
   amou...
 first_seen: '2026-09-30T12:27:42Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Blackswan Space raises €2.5M to take autonomous spacecraft navigation into orbit
+# Blackswan Space
 
 Lithuania’s Blackswan Space, has successfully closed its second investment round, led by Iron Wolf Capital, raising €2.5 million. Together with the company’s pre-seed round, its total funding now amou...
 

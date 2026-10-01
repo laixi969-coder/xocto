@@ -7,3 +7,12 @@
   source_kind: adoption
   tier: behavioural
   fact: an agent harness that makes a 2B model finish real tasks
+- id: ev-2bbdb07bd579e290
+  project_slug: mingbird
+  url: https://www.bing.com/search?format=rss&q=AI
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-01T01:49:27Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI'

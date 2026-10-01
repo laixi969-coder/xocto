@@ -1,0 +1,81 @@
+- id: req-initial-dental-scope-2026-10-01
+  project_slug: dental-scope
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是看清单颗牙三维结构，但材料未给出痛点、频率与不采用的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-fe03e335f38a565b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用、评价或场景证据。
+    evidence_ids:
+    - ev-fe03e335f38a565b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-fe03e335f38a565b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-fe03e335f38a565b
+  next_validation: 收集该产品官方页面或应用商店页，确认是否说明输入材料、AI 执行动作、交付物与定价。
+  market: ''
+  job: 口腔医学生或牙科助理在备考或向患者解释某颗牙齿问题时，处理牙体解剖材料，要完成的任务是看清这颗牙的三维结构。
+  job_en: A dental student or chairside assistant preparing for exams or explaining a specific tooth to
+    a patient works with dental anatomy material, and the task is to see the 3D structure of that tooth.
+  pain: 公开材料没有说明任何具体痛点，也没有说明旧做法（教科书插图、实体牙模、通用三维软件）哪里不够用。
+  pain_en: The public material states no concrete pain point and does not say where the old approach (textbook
+    illustrations, physical tooth models, generic 3D software) falls short.
+  current_alternative: 牙体解剖图谱、实体牙模或通用三维建模软件。
+  current_alternative_en: Dental anatomy atlases, physical tooth models, or generic 3D modeling software.
+  usage_reason: 无法判断：材料只写了可逐颗浏览三维解剖，没有说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此缺少选择它的因果依据。
+  usage_reason_en: 'Cannot be judged: the material only says anatomy can be browsed tooth by tooth and
+    does not say which step of the old approach is reduced or which checkable result improves, so there
+    is no causal basis for choosing it.'
+- id: req-full-dental-scope-2026-10-01
+  project_slug: dental-scope
+  level: full
+  reviewed_at: '2026-10-01T01:53:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是逐颗查看三维牙体解剖，但公开材料未给出任何具体痛点、使用频率与不采用的后果，旧替代（图谱、牙模）哪里不够用也未说明，价值结构无法成立。
+    evidence_ids:
+    - ev-357bed256368c99b
+    - ev-25443977cc8f47f7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官方页面或应用商店页，确认是否说明输入材料、AI 执行动作、交付物与定价。
+  market: ''
+  job: 口腔医学生或牙科助理在备考或向患者解释某颗牙齿问题时，处理牙体解剖材料，要完成的任务是看清这颗牙的三维结构。
+  job_en: A dental student or chairside assistant preparing for exams or explaining a specific tooth to
+    a patient works with dental anatomy material, and the task is to see the 3D structure of that tooth.
+  pain: 公开材料未说明任何具体痛点，也未说明旧做法（教科书插图、实体牙模、通用三维软件）在哪一步不够用，痛点强度与频率均无依据。
+  pain_en: The public material states no concrete pain point and does not say where the old approach (textbook
+    illustrations, physical tooth models, generic 3D software) falls short; neither intensity nor frequency
+    is supported.
+  current_alternative: 牙体解剖图谱、实体牙模或通用三维建模软件。
+  current_alternative_en: Dental anatomy atlases, physical tooth models, or generic 3D modeling software.
+  usage_reason: 无法判断：材料只写了可逐颗浏览三维解剖，没有说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此缺少选择它的因果依据。
+  usage_reason_en: 'Cannot be judged: the material only says anatomy can be browsed tooth by tooth and
+    does not say which step of the old approach is reduced or which checkable result improves, so there
+    is no causal basis for choosing it.'

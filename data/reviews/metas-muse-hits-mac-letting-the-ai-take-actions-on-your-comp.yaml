@@ -252,3 +252,103 @@
     the action, removing the step of shuttling between windows and repeating clicks; file-heavy individuals
     with fixed-step chores would choose it when batch processing and willing to verify results afterwards.
     Retention and repeat-use evidence is missing, so long-term workflow adoption cannot be claimed.'
+- id: req-initial-metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp-2026-10-01
+  project_slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是本地文件、应用数据与客户评论分散、需人工逐个搬运处理的需求，痛点在批量场景下刚性，交付为代执行或汇总结论。
+    evidence_ids:
+    - ev-897d6938e9695ed1
+    - ev-249c6db5e333fe43
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论集中在“个人助手要过的不是技术关”这类判断，缺少可归因到 Muse 的持续采用或留存数据，共识卡在场景与信任环节。
+    evidence_ids:
+    - ev-249c6db5e333fe43
+  - gate: model
+    status: insufficient
+    reason: 德银研报给出 2030 年收入上限预测，属于券商测算而非已验证付费路径；面向小企业的收费方式与买方在公开材料中未披露，这是判断不是事实。
+    evidence_ids:
+    - ev-518e93b11d3817b7
+    - ev-37eeca55540d5865
+  - gate: truth
+    status: insufficient
+    reason: 代执行操作涉及本地文件与账号权限，公开材料未说明权限边界、误操作回滚与人工确认机制，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-249c6db5e333fe43
+  next_validation: 收集 Muse 官方定价页或权限与安全说明文档，核对面向小企业版本的收费方式、可执行动作范围与人工确认机制。
+  market: ''
+  job: 个人用户和小微企业主在 Mac 上面对散落在本地文件、应用和客户评论里的材料时，让助手直接读取并代为执行操作或汇总，拿到可用的结论。
+  job_en: Individual users and small-business owners on Mac, facing material scattered across local files,
+    apps and customer reviews, ask the assistant to read it, act on their behalf or summarize, and get
+    usable conclusions.
+  pain: 这些材料分散在多个应用和文件夹里，人工逐个打开、复制、比对再动手处理，重复且耗时；不处理的后果是评论里的问题长期无人回应，文件整理持续积压。
+  pain_en: The material is scattered across apps and folders; opening, copying, comparing and acting on
+    it by hand is repetitive and slow. The cost of not doing it is that issues in reviews go unanswered
+    and file cleanup keeps piling up.
+  current_alternative: 旧做法是用户自己在 Finder、各应用和表格之间来回切换，手工复制粘贴，或把评论导出后用表格和关键词粗略统计。
+  current_alternative_en: The old way is for users to switch among Finder, apps and spreadsheets themselves,
+    copy and paste by hand, or export reviews and roughly tally them with spreadsheets and keywords.
+  usage_reason: 相较手工逐个打开和复制，Muse 直接读取本地文件与应用内容并代为执行操作，省掉“先找到、再打开、再搬运”这几步；推断小微商家和重度桌面用户会在需要批量处理评论或文件时选择它，但公开材料尚未给出留存或复购证据。
+  usage_reason_en: 'Compared with opening and copying items by hand, Muse reads local files and app content
+    directly and performs actions, removing the ''find it, open it, move it'' steps. Inference: small
+    merchants and heavy desktop users would choose it when batch-processing reviews or files, but public
+    material shows no retention or repeat-use evidence yet.'
+- id: req-full-metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp-2026-10-01
+  project_slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
+  level: full
+  reviewed_at: '2026-10-01T01:54:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 Mac 上本地文件、应用数据与客户评论分散、需人工搬运处理的问题，但现有证据只有通用 AI 定义页与竞品首页，没有任何 Muse 自身功能说明、用户抱怨或替代行为记录，连用户任务与痛点都无法从公开事实还原，属于自嗨拼凑。
+    evidence_ids:
+    - ev-9c027dc5bdeb3dd6
+    - ev-ad896fb763aa46b9
+    - ev-5188041fb1e3ca16
+    - ev-aa86503dff5280c4
+    - ev-957cef7f9e5b12c7
+    - ev-066b3d4d7b5beb09
+    - ev-39097077bf708c56
+    - ev-6dadc165d562b74e
+    - ev-5946abdaf720136f
+    - ev-32e990c5b1d63568
+    - ev-ac842bfeacb62e2b
+    - ev-acb7f25c8ec3cb51
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta 官方 Muse 产品页与 Mac 版发布说明（含可执行动作范围、权限与人工确认机制），以及官方博客或帮助中心是否披露定价与客户案例。
+  market: ''
+  job: 个人用户和小微企业主在 Mac 上面对散落在本地文件、应用数据和成堆客户评论中的材料时，希望由助手读取这些内容并代为执行操作或汇总结论，直接拿到可用结果。
+  job_en: Individual users and small-business owners on Mac, facing material scattered across local files,
+    app data and piles of customer reviews, want an assistant to read that material, act on their behalf
+    or summarize it, and hand back usable results.
+  pain: 公开材料只给出产品定位式描述，没有可引用的用户抱怨、workaround 或客户案例说明这些材料分散带来的具体损失；痛点强度目前无法从证据中还原。
+  pain_en: Public material only offers positioning-style description; there is no citable user complaint,
+    workaround or customer case showing the concrete cost of scattered material, so pain intensity cannot
+    be reconstructed from the evidence.
+  current_alternative: 证据中未出现任何关于用户当前如何绕过这一任务的公开记录，无法确认旧做法是手工切换应用、导出表格统计还是干脆不做。
+  current_alternative_en: The evidence contains no public record of how users currently work around this
+    task, so it is unclear whether the old way is manual app-switching, spreadsheet export, or simply
+    not doing it.
+  usage_reason: 现有证据均为 AI 通用定义页与竞品首页，未包含 Muse 自身的功能说明、用户反馈或采用记录，无法解释哪类用户会因哪一步负担减轻而选择它。
+  usage_reason_en: All available evidence is generic AI definition pages and competitor homepages; there
+    is no Muse-specific capability description, user feedback or adoption record to explain which users
+    would choose it and which step of effort it removes.

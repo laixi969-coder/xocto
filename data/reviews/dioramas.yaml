@@ -1,0 +1,86 @@
+- id: req-initial-dioramas-2026-10-01
+  project_slug: dioramas
+  level: initial
+  reviewed_at: '2026-10-01T01:18:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是三维发布页素材与编排成本高、周期长的问题，旧做法是分段外包，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-faf109c135b684eb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与复刻数，属关注度证据，不能证明持续采用或强场景。
+    evidence_ids:
+    - ev-faf109c135b684eb
+  - gate: model
+    status: insufficient
+    reason: 开源免费，买方与付费路径未披露；若走成品交付需另建收费方式，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-faf109c135b684eb
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成素材的版权、人工确认环节与上线后的维护边界，交付确定性待核验。
+    evidence_ids:
+    - ev-faf109c135b684eb
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有团队用它交付真实商业站点及遇到的素材与部署问题。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 三维网页过去需要建模、贴图与前端编排多步外包，周期长、单页成本高，小团队难以在发布节点前完成。
+  pain_en: 3D websites used to require modeling, texturing and front-end orchestration across several
+    outsourced steps, with long cycles and high per-page cost, hard for small teams to finish before a
+    launch date.
+  current_alternative: 外包三维建模与前端开发，或使用通用网页模板加手工嵌入模型。
+  current_alternative_en: Outsourcing 3D modeling and front-end development, or using generic web templates
+    with manually embedded models.
+  usage_reason: 推断：它把素材生成与三维站点编排放进同一套框架并给出示例，可能省去分别找建模与前端的两段外包；但公开材料未说明实际节省的步骤与产出质量，因此这只是基于能力的判断，不是已验证的用户选择理由。
+  usage_reason_en: 'Inference: it puts asset generation and 3D site orchestration into one framework with
+    examples, potentially removing two separate outsourcing steps for modeling and front-end; but the
+    public material does not state the steps actually saved or output quality, so this is a capability-based
+    judgment, not a verified reason users chose it.'
+- id: req-full-dioramas-2026-10-01
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-01T01:53:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决三维发布页素材与编排成本高的问题，但公开证据全部是实体微缩模型（diorama）的百科与博物馆介绍，没有一条描述三维网页制作的痛点、旧流程或用户行为，需求与痛点无法从现有材料还原。
+    evidence_ids:
+    - ev-d2414032b36a8a7b
+    - ev-71d867922a8289d8
+    - ev-774eb51813b94505
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该框架官方仓库的 README、issue 与 discussion，确认是否有团队用它交付真实商业站点，以及素材生成到上线的实际步骤与部署方式。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开证据中没有任何一条描述三维发布页制作的实际痛点、耗时或成本，也没有用户抱怨或替代行为的记录，痛点无法从现有材料还原。
+  pain_en: None of the public evidence describes an actual pain, time cost or expense in building 3D launch
+    pages, and there is no record of user complaints or workaround behavior, so the pain cannot be reconstructed
+    from the available material.
+  current_alternative: 公开证据未记录任何针对三维网页制作的现有替代方式；现有条目全部是关于实体微缩模型（diorama）的百科与博物馆介绍。
+  current_alternative_en: The public evidence records no existing alternative for 3D web page production;
+    all entries are encyclopedia and museum descriptions of physical miniature dioramas.
+  usage_reason: 无法判断：现有证据与三维网站制作无关，缺少用户反馈、客户案例或可核对结果，无法说明哪类用户会因什么具体动作选择它。
+  usage_reason_en: 'Cannot be judged: the available evidence is unrelated to 3D website building, and
+    there is no user feedback, customer case or checkable result to explain which users would choose it
+    and for what concrete action.'

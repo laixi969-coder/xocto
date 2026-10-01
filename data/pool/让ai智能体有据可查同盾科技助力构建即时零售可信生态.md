@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DQVQ4cHk0Zmxf
 summary: 让AI智能体“有据可查”，同盾科技助力构建即时零售可信生态 凤凰网
 first_seen: '2026-09-30T06:16:26Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,15 @@
 ---
 slug: an-ai-did-it-is-no-defense-says-nonprofit-suing-openai-over
-name: '"An AI did it" is no defense, says nonprofit suing OpenAI over Hugging Face hack'
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 一家非营利组织就一起开源模型托管平台遭黑客攻击事件起诉 OpenAI，要求其停止不安全开发，并称“是 AI 干的”不能作为抗辩理由。这起诉讼把模型安全责任推向开发者，可能提高 AI
+  应用在合规、责任界定与交付审查上的门槛。
 inspiration: ''
-summary_en: ''
+summary_en: A nonprofit sued OpenAI over a hack at an open-model hosting platform, demanding it halt unsafe
+  development and arguing that "an AI did it" is no defense. The lawsuit pushes model-safety liability
+  onto developers and could raise the bar for compliance, liability allocation and delivery review in
+  AI applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-opena
 summary: OpenAI makes others suffer "the harms of its unsafe decision-making," nonprofit says.
 first_seen: '2026-09-30T18:25:04Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# "An AI did it" is no defense, says nonprofit suing OpenAI over Hugging Face hack
+# OpenAI
 
 OpenAI makes others suffer "the harms of its unsafe decision-making," nonprofit says.
 

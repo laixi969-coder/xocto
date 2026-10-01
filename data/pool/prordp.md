@@ -21,7 +21,7 @@ canonical_url: https://prordp.app
 summary: RDP to your Mac at 4K/60fps using the Windows RDP client with ProRDP
 first_seen: '2026-09-30T16:17:33Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -273,3 +273,54 @@
   usage_reason_en: 'The task is: Solo developers or small teams handling domain, hosting, database, email
     and payment materials after an agent writes the code, to actually ship the product Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-golive-skill-2026-10-01
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-01T01:53:51Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后域名、托管、数据库、邮件与支付分散在多个后台手工配置、产品无法上线收款的问题；痛点刚性在于不上线就没有可访问可收款的产品，交付物明确为可访问的上线环境。这是基于产品说明与工作流结构的推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-f9320d516c42cd29
+    - ev-01a8c1edef790a36
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 949 增至 1,147、复刻 86，说明开发者社区持续关注并有人取用；但收藏与复刻属关注度证据，不能证明已长期留在工作流或持续使用，强场景共识仍待 issue 与讨论佐证。
+    evidence_ids:
+    - ev-f9320d516c42cd29
+    - ev-117aa46202a3317b
+  - gate: model
+    status: insufficient
+    reason: 项目为开源 Agent Skill 加零依赖 CLI，无 GoLive 账号、后端与遥测，公开材料未见定价页、付费路径或买方；谁付钱、按什么收费均未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f9320d516c42cd29
+  - gate: truth
+    status: insufficient
+    reason: detect→plan→approve→apply→verify 的流程与关键步骤需用户确认，方向贴近上线第一性目标；但公开材料未提供可复现的部署结果、失败率或安全边界说明，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-f9320d516c42cd29
+    - ev-01a8c1edef790a36
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认开发者在何种上线场景实际使用、替代了哪些手工配置步骤，以及是否出现付费或赞助路径。
+  market: ''
+  job: 独立开发者或小团队在 agent 写完代码后，面对一个可运行但未上线的项目，需要处理域名解析、托管部署、数据库、邮件发送与支付接入等上线材料，把产品真正发布到公网并可收款。
+  job_en: Solo developers or small teams, after an agent finishes writing the code, take a runnable-but-unlaunched
+    project and handle domain, hosting, database, email and payment setup so the product is actually live
+    and can take money.
+  pain: 上线环节分散在多个服务商后台，配置项多、顺序有依赖、出错后排查成本高；代码已由 agent 写完，但产品仍停在本地，无法被访问或收款，这是从「写完」到「上线」之间最容易被卡住的一段。
+  pain_en: Launch work is scattered across multiple provider dashboards with many settings and ordering
+    dependencies, and mistakes are costly to debug; the code is agent-written but the product stays local,
+    unreachable and unable to take payment — the stretch between 'written' and 'live' is where it stalls.
+  current_alternative: 当前替代方式是开发者自己逐个登录域名、托管、数据库、邮件和支付服务商后台手工配置，或照抄教程与模板；公开材料未显示已有统一的自动化替代。
+  current_alternative_en: Today developers log into each domain, hosting, database, email and payment
+    provider dashboard and configure by hand, or copy tutorials and templates; public materials show no
+    unified automated alternative.
+  usage_reason: 推断：相较逐个后台手工配置，它先检测项目缺哪些上线资源，给出计划，经用户批准后在其自有账号上执行并验证，把「查文档—找入口—逐项配置—回头验证」压缩为一次可审阅的流程；因此会在
+    agent 写完代码、准备首次上线时被这类开发者选用。
+  usage_reason_en: 'Inference: versus manual per-dashboard setup, it detects which launch resources are
+    missing, produces a plan, and after user approval applies and verifies them on the user''s own accounts,
+    compressing ''read docs—find the setting—configure each item—re-verify'' into one reviewable flow;
+    that is why such developers would pick it when an agent has just finished the code and first launch
+    is next.'

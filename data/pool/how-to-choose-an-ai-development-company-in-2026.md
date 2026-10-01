@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjgxYkVhaWFC
 summary: How to Choose an AI Development Company in 2026 PC Tech Magazine
 first_seen: '2026-09-30T14:18:39Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

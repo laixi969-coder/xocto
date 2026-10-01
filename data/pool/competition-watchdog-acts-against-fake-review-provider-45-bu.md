@@ -1,11 +1,15 @@
 ---
 slug: competition-watchdog-acts-against-fake-review-provider-45-bu
-name: Competition watchdog acts against fake review provider, 45 businesses for fabricating online reviews
+name: Competition watchdog fake review enforcement
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 某竞争监管机构对一家虚假评论服务商及45家伪造在线评论的企业采取执法行动，表明平台评论治理进入实际处罚阶段。对依赖用户评价获客的AI应用与电商服务而言，评论数据可信度与合规成本上升，营销与推荐系统的数据来源需要更严格审核。
 inspiration: ''
-summary_en: ''
+summary_en: A competition watchdog has taken enforcement action against a fake-review provider and 45
+  businesses for fabricating online reviews, marking a shift from policy discussion to actual penalties
+  in review governance. For AI applications and e-commerce services that rely on user reviews for acquisition,
+  review-data credibility and compliance costs rise, and marketing and recommendation systems need stricter
+  source vetting.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +26,7 @@ summary: Competition watchdog acts against fake review provider, 45 businesses f
   reviews The Straits Times
 first_seen: '2026-09-30T04:45:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Competition watchdog acts against fake review provider, 45 businesses for fabricating online reviews
+# Competition watchdog fake review enforcement
 
 Competition watchdog acts against fake review provider, 45 businesses for fabricating online reviews The Straits Times
 

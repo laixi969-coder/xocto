@@ -77,3 +77,49 @@
   usage_reason: 用户要完成的任务是：增长运营、市场运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Growth operator, Marketing operator Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-growth-engineer-2026-10-01
+  project_slug: growth-engineer
+  level: full
+  reviewed_at: '2026-10-01T01:53:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决增长运营把散落 GTM 流程交给 agent 执行的需求，痛点是流程无法复用、每次重写 prompt；公开事实仅说明产品形态与 117 星，痛点刚性属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+    - ev-ef0fea742b98a033
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 117 星只说明开发者注意到该目录，属关注度证据；没有 issue、discussion 或评价显示目标运营人员已把它放进日常工作流，强场景是否成立仍缺公开材料。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+    - ev-ef0fea742b98a033
+  - gate: model
+    status: insufficient
+    reason: 开源目录加只读 MCP 服务器，公开材料未见定价页、付费主体或 to B 采购路径；谁付钱只能推断为可能的 to B 工具订阅或赞助，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 agent 执行 GTM 动作时的权限边界、人工复核点与失败回滚，只读 MCP 降低部分风险，但交付能否稳定发生仍缺可复现证据。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+  next_validation: 追踪 growth-engineer 仓库的 issue、discussion 与 README 更新，确认是否有运营人员报告实际接入并替代原有流程。
+  market: ''
+  job: 增长或市场运营人员在自己的 agent 环境里接入这套 markdown 工作流与只读 MCP 服务器，把散落在文档、表格和多个工具里的 go-to-market 流程整理成 agent 可按步骤执行的流程文件，完成渠道动作编排。
+  job_en: A growth or marketing operator wires this markdown workflow catalog and read-only MCP server
+    into their own agent environment, turning go-to-market processes scattered across docs, spreadsheets
+    and tools into step-by-step files an agent can execute.
+  pain: 公开材料只说明它是可被 agent 运行的 GTM 工具与工作流目录，未提供用户抱怨、频率或不采用代价；痛点强度属于工作流结构推理，尚无用户证据。
+  pain_en: Public materials only describe it as a catalog of agent-runnable GTM tools and workflows; no
+    user complaints, frequency or cost of not adopting are shown, so pain intensity is a workflow inference,
+    not user evidence.
+  current_alternative: 推断旧做法是运营人员手工在文档、表格与多个 SaaS 工具间复制粘贴流程，或各自写 prompt 让 agent 临时执行，流程无法复用和版本化。
+  current_alternative_en: 'Inferred status quo: operators manually copy processes across docs, spreadsheets
+    and SaaS tools, or write ad-hoc prompts for agents, so workflows are neither reusable nor versioned.'
+  usage_reason: 推断：相较手工拼 prompt，它把 GTM 流程固化为 markdown 文件并配只读 MCP 服务器，agent 可直接读取执行，减少每次重新描述流程这一步；哪类用户会长期采用尚无公开证据。
+  usage_reason_en: 'Inference: versus hand-written prompts, it fixes GTM processes as markdown files plus
+    a read-only MCP server that agents can read and run, removing the step of re-describing the workflow
+    each time; which users adopt it long-term is not yet publicly evidenced.'

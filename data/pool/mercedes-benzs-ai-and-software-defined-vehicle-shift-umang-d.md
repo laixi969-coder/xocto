@@ -23,7 +23,7 @@ summary: 'Mercedes-Benz’s AI and software-defined vehicle shift: Umang Dharmik
   innovatio.. cio.economictimes.indiatimes.com'
 first_seen: '2026-09-30T02:30:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

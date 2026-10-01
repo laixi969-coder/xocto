@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOdTE3MDlYeExN
 summary: 三家AI企业将亮相Disrupt 2026 拆解企业AI落地真实路径- 业界 亿邦动力
 first_seen: '2026-09-30T07:19:04Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

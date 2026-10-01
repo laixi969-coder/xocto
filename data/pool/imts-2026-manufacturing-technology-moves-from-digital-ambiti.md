@@ -22,7 +22,7 @@ summary: 'IMTS 2026: Manufacturing Technology Moves from Digital Ambition to Pra
   Advisory Group'
 first_seen: '2026-09-30T12:00:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

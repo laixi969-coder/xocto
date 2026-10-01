@@ -1,0 +1,92 @@
+- id: req-initial-sdlc-corp-shows-how-pulastya-ai-transfers-customer-calls-wit-2026-10-01
+  project_slug: sdlc-corp-shows-how-pulastya-ai-transfers-customer-calls-wit
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决转接时上下文丢失、客户重述的问题，痛点方向清楚；但公开材料只有案例标题，没有客户抱怨、通话数据或旧流程细节，价值判断只能停在结构推理。
+    evidence_ids:
+    - ev-420cf1bf09752288
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一则由服务商发布的客户案例，没有独立评价、同行采用或行业讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-420cf1bf09752288
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是呼叫中心还是外包服务商、按席位还是按通话量收费，钱从哪来只能推测。
+    evidence_ids:
+    - ev-420cf1bf09752288
+  - gate: truth
+    status: insufficient
+    reason: 无法核对转接是否真的不丢上下文、人工是否仍需介入，也没有交付结果或安全边界说明。
+    evidence_ids:
+    - ev-420cf1bf09752288
+  next_validation: 收集 Pulastya AI 官方产品页或部署文档，确认转接流程、支持的语音渠道与是否公布定价。
+  market: ''
+  job: 呼叫中心客服在客户来电需要转接给人工坐席或另一部门时，处理这通电话的对话内容，把上下文完整交接给下一位接听者，让客户不必重新描述问题。
+  job_en: Call center staff handle an incoming customer call that must be transferred to a human agent
+    or another department, handing the conversation context to the next person so the customer does not
+    have to restate the problem.
+  pain: 转接时上下文丢失，客户要重复说明，坐席要重新问一遍，通话变长且体验变差；但公开材料没有给出客户抱怨、通话时长或转接失败率等具体证据。
+  pain_en: Context is lost during transfers, customers repeat themselves and agents re-ask, making calls
+    longer and the experience worse; however, the public material gives no concrete evidence such as complaints,
+    call duration or transfer failure rates.
+  current_alternative: 常见做法是坐席口头复述、内部转接备注、工单系统记录，或让客户挂断后重新拨打；这些做法是否被本产品替代，公开材料未说明。
+  current_alternative_en: Common practice is verbal recaps by agents, internal transfer notes, ticketing
+    records, or asking the customer to hang up and call again; whether this product replaces those practices
+    is not stated in the public material.
+  usage_reason: 推断：如果产品确实能在转接时自动携带对话上下文，就能省掉坐席复述和客户重述这一步，减少通话时长与重复提问，因此转接频繁的呼叫中心可能选择它；但缺少客户反馈或实测数据，无法确认这一效果。
+  usage_reason_en: 'Inference: if the product truly carries conversation context through a transfer, it
+    removes the agent recap and customer restatement step, cutting call duration and repeated questions,
+    so call centers with frequent transfers may choose it; without customer feedback or test data, this
+    effect cannot be confirmed.'
+- id: req-full-sdlc-corp-shows-how-pulastya-ai-transfers-customer-calls-wit-2026-10-01
+  project_slug: sdlc-corp-shows-how-pulastya-ai-transfers-customer-calls-wit
+  level: full
+  reviewed_at: '2026-10-01T01:55:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决转接时上下文丢失、客户重述的问题，痛点方向清楚且转接是呼叫中心高频刚性环节；公开材料只有案例标题，无客户抱怨或通话数据，故价值判断为工作流结构推理而非已验证事实。
+    evidence_ids:
+    - ev-420cf1bf09752288
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一则由服务商发布的客户案例标题，没有独立评价、同行采用或行业讨论，无法判断转接保上下文是否已形成采购共识。
+    evidence_ids:
+    - ev-420cf1bf09752288
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是呼叫中心还是外包服务商、按席位还是按通话量收费；钱可能来自 to B 客服软件采购，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-420cf1bf09752288
+  - gate: truth
+    status: insufficient
+    reason: 无法核对转接是否真的不丢上下文、人工是否仍需介入，也没有交付结果或安全边界说明，承诺能否确定性交付尚不可验证。
+    evidence_ids:
+    - ev-420cf1bf09752288
+  next_validation: 收集 Pulastya AI 官方产品页或部署文档，确认转接流程、支持的语音渠道与是否公布定价。
+  market: ''
+  job: 呼叫中心客服在客户来电需要转接给人工坐席或另一部门时，处理这通电话的对话内容，把上下文完整交接给下一位接听者，让客户不必重新描述问题。
+  job_en: Call center staff handle an incoming customer call that must be transferred to a human agent
+    or another department, handing the conversation context to the next person so the customer does not
+    have to restate the problem.
+  pain: 转接时上下文丢失，客户要重复说明，坐席要重新问一遍，通话变长且体验变差；公开材料只有案例标题，没有客户抱怨、通话时长或转接失败率等具体数据。
+  pain_en: Context is lost during transfers, customers repeat themselves and agents re-ask, making calls
+    longer and the experience worse; the public material only offers a case headline, with no complaints,
+    call duration or transfer failure data.
+  current_alternative: 常见做法是坐席口头复述、内部转接备注、工单系统记录，或让客户挂断后重新拨打；这些做法是否被本产品替代，公开材料未说明。
+  current_alternative_en: Common practice is verbal recaps by agents, internal transfer notes, ticketing
+    records, or asking the customer to hang up and call again; whether this product replaces those practices
+    is not stated in the public material.
+  usage_reason: 推断：若产品确实在转接时自动携带对话上下文，就省掉坐席复述与客户重述这一步，减少通话时长和重复提问，因此转接频繁的呼叫中心会在转接环节选择它；缺少客户反馈或实测数据，效果无法确认。
+  usage_reason_en: 'Inference: if the product truly carries conversation context through a transfer, it
+    removes the agent recap and customer restatement step, cutting call duration and repeated questions,
+    so call centers with frequent transfers would choose it at the transfer step; without customer feedback
+    or test data the effect cannot be confirmed.'

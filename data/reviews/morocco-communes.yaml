@@ -189,3 +189,51 @@
   usage_reason: 用户要完成的任务是：数据分析师、地理信息工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Data analyst, Geospatial engineer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-morocco-communes-2026-10-01
+  project_slug: morocco-communes
+  level: full
+  reviewed_at: '2026-10-01T01:54:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决摩洛哥市镇级普查数据分散、编码与边界需人工对齐的问题，旧做法是下载官方原始文件再清洗匹配，痛点具体且可核对。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 42 缓慢增至 46，说明有开发者关注，但没有用户评价、issue 讨论或部署案例，是否形成使用共识无法判断。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+    - ev-0ff670abd3b9fdc1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是研究机构、政府还是个人开发者付费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+  - gate: truth
+    status: insufficient
+    reason: 数据更新频率、准确性校验方式与 API 稳定性均未说明，确定性交付无法核对。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+  next_validation: 追踪该项目的官方文档与仓库 issue/discussion，确认数据更新频率、API 稳定性以及是否有机构或开发者公开报告实际部署使用。
+  market: ''
+  job: 数据分析师或地理信息工程师在需要摩洛哥市镇级人口与边界数据时，通过 HTTP API 或 MCP 服务器按 HCP 编码取回 2024 与 2014 年普查数据和边界，用于本地研究或公共数据分析。
+  job_en: A data analyst or geospatial engineer needing commune-level population and boundary data for
+    Morocco calls the HTTP API or MCP server to retrieve 2024 and 2014 census data and boundaries by HCP
+    code, for local research or public data analysis.
+  pain: 摩洛哥市镇级普查数据分散在官方来源，编码、边界与两期普查需要人工对齐，直接用于分析前要花大量时间做清洗和匹配。
+  pain_en: Morocco commune-level census data is scattered across official sources, and codes, boundaries
+    and two census rounds must be manually aligned, costing significant cleaning and matching time before
+    analysis.
+  current_alternative: 现在的做法是从 HCP 等官方来源下载原始表格和边界文件，再自行清洗、匹配编码并导入分析工具。
+  current_alternative_en: The current practice is to download raw tables and boundary files from official
+    sources such as HCP, then clean, match codes and import into analysis tools manually.
+  usage_reason: 推断：相较自行下载官方原始文件再清洗匹配，它把 HCP 编码、两期普查与边界打包成可直接调用的 API 和 MCP 服务器，省掉数据清洗与编码对齐这一步，因此需要快速接入摩洛哥市镇数据的分析师或
+    GIS 工程师会选用它；公开材料没有留存或复购证据，长期使用尚不能确认。
+  usage_reason_en: 'Inference: compared with downloading raw official files and cleaning them manually,
+    it packages HCP codes, two census rounds and boundaries into a directly callable API and MCP server,
+    skipping the data cleaning and code alignment step, so analysts or GIS engineers needing quick access
+    to Morocco commune data would choose it; the public material has no retention or repeat-use evidence,
+    so long-term use cannot be confirmed.'

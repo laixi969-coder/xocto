@@ -1,6 +1,6 @@
 ---
 slug: openai发布ai代理dots及办公套件拟融资300亿估值达14万亿美元-ai
-name: OpenAI发布AI代理Dots及办公套件拟融资300亿估值达1.4万亿美元- AI
+name: OpenAI Dots
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wNThGbTVBWG0y
 summary: OpenAI发布AI代理Dots及办公套件拟融资300亿估值达1.4万亿美元- AI 亿邦动力
 first_seen: '2026-09-30T04:27:40Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI发布AI代理Dots及办公套件拟融资300亿估值达1.4万亿美元- AI
+# OpenAI Dots
 
 OpenAI发布AI代理Dots及办公套件拟融资300亿估值达1.4万亿美元- AI 亿邦动力
 

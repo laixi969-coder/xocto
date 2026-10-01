@@ -30,7 +30,7 @@ summary: Walmart says it won't change product prices based on your personal info
   than dynamically change prices. […]
 first_seen: '2026-09-28T16:44:57Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

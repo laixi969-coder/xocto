@@ -1,6 +1,6 @@
 ---
 slug: onomondo-raises-100m-to-scale-its-global-iot-infrastructure
-name: Onomondo raises €100M+ to scale its global IoT infrastructure
+name: Onomondo
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Copenhagen-based IoT infrastructure and connectivity company Onomondo h
   ac...
 first_seen: '2026-09-30T09:00:00Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Onomondo raises €100M+ to scale its global IoT infrastructure
+# Onomondo
 
 Copenhagen-based IoT infrastructure and connectivity company Onomondo has raised more than €100 million in a combined investment led by Aspirity Partners, which has signed a definitive agreement to ac...
 

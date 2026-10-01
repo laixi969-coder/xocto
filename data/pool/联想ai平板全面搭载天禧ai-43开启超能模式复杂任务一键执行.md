@@ -1,6 +1,6 @@
 ---
 slug: 联想ai平板全面搭载天禧ai-43开启超能模式复杂任务一键执行
-name: 联想AI平板全面搭载天禧AI 4.3，开启超能模式复杂任务一键执行
+name: 联想天禧AI 4.3
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhUzNxZk9jQ0Q5
 summary: 联想AI平板全面搭载天禧AI 4.3，开启超能模式复杂任务一键执行 天极网
 first_seen: '2026-09-29T01:22:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 联想AI平板全面搭载天禧AI 4.3，开启超能模式复杂任务一键执行
+# 联想天禧AI 4.3
 
 联想AI平板全面搭载天禧AI 4.3，开启超能模式复杂任务一键执行 天极网
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxORk01RFVCSWlN
 summary: Progress Software (NASDAQ:PRGS) Posts EPS Beat but Revenue Miss as Shares Slide ChartMill
 first_seen: '2026-09-30T20:41:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

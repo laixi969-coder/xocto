@@ -21,7 +21,7 @@ canonical_url: https://github.com/pch/rawmakase
 summary: Lightroom-compatible RAW photo editor for Linux and macOS
 first_seen: '2026-09-30T09:35:58Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

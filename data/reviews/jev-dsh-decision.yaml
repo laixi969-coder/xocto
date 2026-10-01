@@ -135,3 +135,54 @@
     Harness via iPolloWork, removing the step of rewriting selection logic per harness; developers maintaining
     multiple harnesses would choose it when they need explainable, reproducible choices. Stars only reflect
     attention and do not prove sustained use.'
+- id: req-full-jev-dsh-decision-2026-10-01
+  project_slug: jev-dsh-decision
+  level: full
+  reviewed_at: '2026-10-01T01:54:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码 agent 在多个候选动作间做可解释选择的需求，痛点来自多 harness 各自实现工具选择带来的重复适配与调试负担；公开材料只给出插件定位与仓库数据，未说明旧流程出错代价，价值结构成立属工作流推理。
+    evidence_ids:
+    - ev-61d4661e89abf25c
+    - ev-f4d41ecc14e2af30
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 174 增至 338 只说明关注度上升，没有用户反馈、issue 或案例说明谁在什么场景下依赖它，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-61d4661e89abf25c
+    - ev-feeef938c54b9e09
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价、收费或商业路径，买方与付费方式均未知；这是判断而非已验证事实，但不足以否定需求本身。
+    evidence_ids:
+    - ev-61d4661e89abf25c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明决策结果如何被 harness 消费、是否需人工复核、承诺能否确定性交付，第一性目标贴近度与安全边界无法核对。
+    evidence_ids:
+    - ev-61d4661e89abf25c
+    - ev-c51f565cc175b5f0
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者实际用它替换了哪一步工具选择逻辑、是否长期保留，以及是否出现付费或商业支持诉求。
+  market: ''
+  job: 开发者在为编码 agent 接入工具调用时，安装该插件接收 agent 上下文并输出结构化决策结果，再交给 DeepSeek Harness、OpenCode 或 Codex Harness
+    执行，以完成多候选动作之间的可解释选择。
+  job_en: Developers wiring tool calling into coding agents install this plugin to receive agent context
+    and emit a structured decision result, then hand it to DeepSeek Harness, OpenCode, or Codex Harness
+    for execution, completing explainable selection among candidate actions.
+  pain: 公开材料只给出插件定位与仓库数据，未说明旧做法中工具选择出错的具体代价、调试负担或人工复核需求，痛点强度只能从多 harness 适配的维护结构推断。
+  pain_en: Public material only gives the plugin positioning and repository data, not the concrete cost
+    or debugging burden of wrong tool selection in the old approach; pain intensity can only be inferred
+    from the maintenance structure of multi-harness adaptation.
+  current_alternative: 开发者通常依赖各 harness 自带的工具选择逻辑，或自行编写提示词与路由规则来在多个动作间做选择，具体替代方式未在材料中说明。
+  current_alternative_en: Developers typically rely on each harness's built-in tool-selection logic, or
+    write their own prompts and routing rules to choose among actions; the specific alternative is not
+    described in the material.
+  usage_reason: 推断：相较在每个 harness 里各写一套提示与路由，该插件把工具选择收敛为可替换的决策组件，减少跨 harness 重复适配这一步负担，因此同时维护 DeepSeek
+    Harness、OpenCode、Codex Harness 的开发者可能选择它；星标只反映关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with writing a separate prompt and routing set inside each harness,
+    this plugin consolidates tool selection into a replaceable decision component, reducing the burden
+    of repeated cross-harness adaptation, so developers maintaining DeepSeek Harness, OpenCode, and Codex
+    Harness together may choose it; stars only reflect attention and do not prove sustained use.'

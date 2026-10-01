@@ -116,3 +116,48 @@
   usage_reason: 用户要完成的任务是：开发者工具链合规审查、开源代码审计；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developer Toolchain Compliance Review, Open Source Code Audit Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-zcodium-2026-10-01
+  project_slug: zcodium
+  level: full
+  reviewed_at: '2026-10-01T01:56:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码工具可能回传代码与使用数据、团队接入前无法确认数据流向的问题，旧做法是人工审阅源码或依赖厂商声明，不做的后果是合规风险；这是工作流结构推理。
+    evidence_ids:
+    - ev-4e6b64524e2c4cf5
+  - gate: consensus
+    status: insufficient
+    reason: 183 个星标只说明社区关注度，没有用户评价或案例证明它被持续放进合规审查工作流，也未说明卡在感知还是场景环节。
+    evidence_ids:
+    - ev-4e6b64524e2c4cf5
+  - gate: model
+    status: insufficient
+    reason: 开源 fork 未披露收费方式，买方可能是企业开发团队或安全部门，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-4e6b64524e2c4cf5
+  - gate: truth
+    status: insufficient
+    reason: 缺少逐提交审阅记录与遥测移除的可复现验证，能否确定性交付可核对版本无法核对。
+    evidence_ids:
+    - ev-4e6b64524e2c4cf5
+  next_validation: 收集该仓库的提交审阅记录、遥测移除说明或 issue 讨论，查找可复现的审计证据与部署案例。
+  market: ''
+  job: 开发团队在把 AI 编码工具接入内部代码库前，由开发者工具链合规审查或开源代码审计人员处理 ZCode 源码与提交记录，要完成确认工具是否回传代码与使用数据、并拿到可自行核对版本的任务。
+  job_en: Before adopting an AI coding tool into an internal codebase, developer toolchain compliance
+    reviewers or open-source auditors work on ZCode source and commit history to confirm whether the tool
+    sends code and usage data back, and to obtain a version they can verify themselves.
+  pain: AI 编码工具可能回传代码与使用数据，团队在接入前无法确认数据流向，不解决则可能违反内部合规或客户数据约定，这是接入前的真实卡点。
+  pain_en: AI coding tools may send code and usage data back; teams cannot confirm data flows before adoption,
+    and leaving it unsolved may violate internal compliance or customer data agreements, a real bottleneck
+    before adoption.
+  current_alternative: 现有做法是人工审阅上游源码、依赖厂商隐私声明，或直接放弃使用该工具。
+  current_alternative_en: Current practice is manually reviewing upstream source, relying on vendor privacy
+    statements, or simply forgoing the tool.
+  usage_reason: 推断：它把“逐条核对上游提交并移除遥测”这一步从团队自行审计换成已审阅的 fork，面向有合规要求、又需要 AI 编码工具的团队；但公开材料没有部署案例或审计反馈，是否真能替代内部审计尚未核验。
+  usage_reason_en: 'Inference: it replaces the team''s own commit-by-commit audit and telemetry removal
+    with a pre-reviewed fork, aimed at teams with compliance requirements that still need an AI coding
+    tool; but no deployment cases or audit feedback are public, so whether it truly replaces internal
+    audit remains unverified.'

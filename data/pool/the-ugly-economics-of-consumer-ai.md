@@ -22,7 +22,7 @@ summary: There’s a reason frontier labs have gotten gun-shy about consumer AI 
   tech isn’t good enough.
 first_seen: '2026-09-30T17:24:45Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

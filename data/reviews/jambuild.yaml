@@ -1,0 +1,85 @@
+- id: req-initial-jambuild-2026-10-01
+  project_slug: jambuild
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决把界面想法变成可运行原型的需求，但公开材料只有一句定位，说不清旧流程中谁在做哪一步、不做的后果是什么，痛点强度无法判断。
+    evidence_ids:
+    - ev-de466bc77bffb5f3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，没有用户评价、采用或重复使用证据，无法判断是否卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-de466bc77bffb5f3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to C、to B 还是 to VC 均无法判断，这是未知而非已验证事实。
+    evidence_ids:
+    - ev-de466bc77bffb5f3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成代码是否可运行、多人同时编辑如何避免冲突、人工确认边界在哪，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-de466bc77bffb5f3
+  next_validation: 收集 jambuild 官方产品页或文档，确认其输入方式、多人协作机制、产出物形态与是否公布定价。
+  market: ''
+  job: 产品经理或非工程背景的创业者，在需要把界面想法变成可运行原型时，对着屏幕指认元素并口述修改，由工具生成或改动代码，最终拿到可运行页面，仍需人工确认结果。
+  job_en: Product managers or non-engineering founders who, when turning a UI idea into a runnable prototype,
+    point at on-screen elements and speak changes so the tool generates or edits code, ending with a runnable
+    page that still needs human confirmation.
+  pain: 公开材料只给出一句定位，没有说明旧流程里哪一步最痛、谁在做、花多久，也没有用户抱怨或替代行为的记录。
+  pain_en: Public material gives only a one-line positioning; it does not say which step of the old workflow
+    hurts most, who does it, or how long it takes, and there is no record of user complaints or workarounds.
+  current_alternative: 可推断的旧做法是设计师出稿后由工程师手写前端代码，或由非技术者用提示词驱动的生成工具反复试错；这是推断，公开材料未描述替代对象。
+  current_alternative_en: The inferable old practice is designers handing off to engineers who hand-write
+    front-end code, or non-technical users iterating with prompt-driven generators; this is inference,
+    as the material does not describe what it replaces.
+  usage_reason: 若“指认加口述”真能省掉把界面描述翻译成提示词或代码这一步，非工程背景的人会在改版评审当场选择它；但公开材料没有说明它具体减少了哪一步，也没有用户反馈支持这一动机，属于推断。
+  usage_reason_en: If pointing plus speaking really removes the step of translating a UI description into
+    prompts or code, non-engineers would choose it during a live design review; however, the material
+    does not say which step it removes and no user feedback supports this motive, so it is inference.
+- id: req-full-jambuild-2026-10-01
+  project_slug: jambuild
+  level: full
+  reviewed_at: '2026-10-01T01:54:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决把界面想法变成可运行原型的需求，但公开材料只有一句定位，说不清旧流程中谁在做哪一步、不做的后果是什么，痛点强度无法判断。
+    evidence_ids:
+    - ev-de466bc77bffb5f3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 jambuild 官方产品页或文档，确认其输入方式、多人协作机制、产出物形态与是否公布定价。
+  market: ''
+  job: 产品经理或非工程背景的创业者，在需要把界面想法变成可运行原型时，对着屏幕指认元素并口述修改，由工具生成或改动代码，最终拿到可运行页面，仍需人工确认结果。
+  job_en: Product managers or non-engineering founders who, when turning a UI idea into a runnable prototype,
+    point at on-screen elements and speak changes so the tool generates or edits code, ending with a runnable
+    page that still needs human confirmation.
+  pain: 公开材料只有一句定位，没有说明旧流程里哪一步最痛、谁在做、花多久，也没有用户抱怨或替代行为的记录。
+  pain_en: Public material gives only a one-line positioning; it does not say which step of the old workflow
+    hurts most, who does it, or how long it takes, and there is no record of user complaints or workarounds.
+  current_alternative: 可推断的旧做法是设计师出稿后由工程师手写前端代码，或由非技术者用提示词驱动的生成工具反复试错；这是推断，公开材料未描述替代对象。
+  current_alternative_en: The inferable old practice is designers handing off to engineers who hand-write
+    front-end code, or non-technical users iterating with prompt-driven generators; this is inference,
+    as the material does not describe what it replaces.
+  usage_reason: 若“指认加口述”真能省掉把界面描述翻译成提示词或代码这一步，非工程背景的人会在改版评审当场选择它；但公开材料没有说明它具体减少了哪一步，也没有用户反馈支持这一动机，属于推断。
+  usage_reason_en: If pointing plus speaking really removes the step of translating a UI description into
+    prompts or code, non-engineers would choose it during a live design review; however, the material
+    does not say which step it removes and no user feedback supports this motive, so it is inference.

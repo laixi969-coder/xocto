@@ -184,3 +184,56 @@
     runs coding tasks via Claude Code locally, reducing manual instruction rewriting and context switching,
     so solo developers who want code to stay on-device while batching backlog items to agents would choose
     it on a local Mac.'
+- id: req-full-tasktrooper-2026-10-01
+  project_slug: tasktrooper
+  level: full
+  reviewed_at: '2026-10-01T01:55:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地 Mac 上把待办分派给多个角色 agent 并执行编码任务的需求，痛点是 agent 分散、进度靠人工追踪、代码需出本机；看板加角色分派加本地 CLI 执行构成可确定交付闭环，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-7637f1a5a87545dc
+    - ev-a0a606c31732a822
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 104 增至 107，说明有开发者关注，但公开材料没有用户评价、issue 或采用行为说明谁在什么场景下持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-7637f1a5a87545dc
+    - ev-847aedeef9d5e8f1
+    - ev-a0a606c31732a822
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页或付费路径，买方是个人开发者还是小团队无法核验；按本地优先形态推断可能走 to C 订阅或开源加托管，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7637f1a5a87545dc
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与角色分工的承诺能否确定性交付、编码任务的人工确认与安全边界在哪，公开材料均未说明，无法核对交付结果是否稳定发生。
+    evidence_ids:
+    - ev-7637f1a5a87545dc
+    - ev-a0a606c31732a822
+  next_validation: 追踪 tasktrooper 官方仓库的 README、issue 与 discussion，确认它替代的具体旧步骤、实际使用场景，以及是否出现重复使用或付费线索。
+  market: ''
+  job: 独立开发者或小团队在本地 Mac 上把待办事项放进看板，按角色分派给不同 agent，并让 Claude Code、Cursor 等编码 CLI 或本地模型在本机执行编码任务，最后从看板拿到任务结果与状态更新。
+  job_en: Solo developers or small teams put backlog items on a local board on their Mac, assign them
+    to role-based agents, and let coding CLIs such as Claude Code or Cursor, or local models, execute
+    the coding work on the same machine, then read results and status updates from the board.
+  pain: 公开材料只给出平台形态，未直接记录用户抱怨；从工作流结构推理，痛点是编码 agent 分散在多个终端与工具里，任务分派、上下文切换和进度追踪靠人工记忆，且代码与密钥要离开本机才能用云端编排。
+  pain_en: The public material only describes the platform shape and records no user complaints; by workflow
+    inference, the pain is that coding agents are scattered across terminals and tools, so task assignment,
+    context switching and progress tracking rely on human memory, and code and keys must leave the machine
+    to use cloud orchestration.
+  current_alternative: 旧做法是直接在终端里逐个手动运行 Claude Code 等编码助手，或用云端 agent 编排平台、通用看板加人工分派；这些是常见替代，公开材料未逐一确认。
+  current_alternative_en: The prior practice is running coding assistants such as Claude Code one by one
+    manually in the terminal, or using cloud agent orchestration platforms and generic boards with manual
+    assignment; these are common substitutes not individually confirmed by the public material.
+  usage_reason: 推断：相较在终端逐个手动跑 agent，它把待办、角色分派和 agent CLI 执行收进同一块本地看板，减少手工复制任务描述与来回切换终端的一步负担，并让代码与模型调用留在本机；因此在意代码不出本机、又想并行分派多个角色
+    agent 的独立开发者会在本地 Mac 上选择它。
+  usage_reason_en: 'Inference: compared with manually running agents one by one in the terminal, it folds
+    the backlog, role assignment and agent CLI execution into one local board, removing the step of hand-copying
+    task descriptions and switching between terminals, and keeps code and model calls on the machine;
+    developers who care about code not leaving the machine yet want to dispatch several role agents in
+    parallel would therefore choose it on a local Mac.'

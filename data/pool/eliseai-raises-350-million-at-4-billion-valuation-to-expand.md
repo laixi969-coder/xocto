@@ -3,16 +3,16 @@ slug: eliseai-raises-350-million-at-4-billion-valuation-to-expand
 name: EliseAI
 builder: ''
 category: AI + 商业
-summary_zh: 面向住房租赁与医疗机构的运营团队，在租户或患者发来咨询、预约、续租等消息时，由 AI 接手对话并推进预约、跟进与工单流转，最终交付可核对的预约或线索结果，复杂情况仍需人工确认；具体流程与交付细节公开材料不足。
-inspiration: 趋势：资本正把钱押在“AI 直接承接租户与患者沟通”这类高频前台环节，而不是通用助手。切入：从中小物业或单体诊所的预约与续租跟进切入，按成交或到诊结果收费，避开已被大额融资方占据的大型连锁客户。
-summary_en: For operations teams in residential leasing and healthcare, the AI handles inbound tenant
-  or patient messages about enquiries, appointments and renewals, pushing bookings, follow-ups and ticket
-  routing forward and delivering a checkable appointment or lead outcome, with humans still confirming
-  complex cases; the exact workflow and deliverables are not detailed in public materials.
-inspiration_en: 'Trend: capital is backing AI that directly takes over high-frequency front-desk conversations
-  with tenants and patients rather than general assistants. Entry: start with appointment and renewal
-  follow-up for small property managers or single clinics and charge per booking or visit, avoiding large
-  chains already served by heavily funded players.'
+summary_zh: 住房租赁与医疗机构的运营团队在租户咨询、看房预约、患者预约与随访这些高频沟通节点打开它，AI 接收来电、短信和在线表单等咨询材料，自动应答、筛选并安排时间，最终交付已确认的预约或转人工工单；具体流程与人工确认边界仍待核验。
+inspiration: 趋势是垂直行业的沟通与排程环节正被 AI 直接接管，而不是加一个聊天入口。切入可从租赁、物业、诊所这类有明确预约与随访节奏、且愿意按坐席或按成交付费的机构进入，先做单一场景的应答与排程闭环。
+summary_en: Operations teams at housing and healthcare organizations open it at high-frequency touchpoints
+  such as tenant inquiries, tour scheduling, patient booking and follow-up; the AI takes in calls, texts
+  and web forms, answers, qualifies and books times, delivering a confirmed appointment or a handoff ticket.
+  The exact workflow and human-confirmation boundary still need verification.
+inspiration_en: The trend is that communication and scheduling steps inside vertical industries are being
+  taken over directly by AI rather than getting another chat entry point. Entry can start with leasing,
+  property management or clinics that have clear booking and follow-up rhythms and will pay per seat or
+  per booking, closing the loop on one scenario first.
 priority_review: false
 project_type: ai_transformation
 industries:
@@ -20,17 +20,17 @@ industries:
 - 物业管理
 - 医疗服务
 industries_en:
-- residential leasing
-- property management
-- healthcare services
+- Residential leasing
+- Property management
+- Healthcare services
 jobs:
-- 租赁运营
-- 物业客服
-- 诊所前台
+- 租赁咨询与看房预约
+- 物业租户沟通
+- 医疗前台预约与随访
 jobs_en:
-- leasing operations
-- property customer service
-- clinic front desk
+- Leasing inquiry and tour scheduling
+- Property tenant communication
+- Medical front-desk scheduling and follow-up
 regions:
 - 美国
 regions_en:
@@ -42,7 +42,7 @@ summary: EliseAI Raises $350 Million At $4 Billion Valuation To Expand AI Across
   Pulse 2.0
 first_seen: '2026-09-29T20:13:14Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:

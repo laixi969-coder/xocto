@@ -85,3 +85,53 @@
     into one step, removing transfer and format cleanup, so content creators or researchers who archive
     conversations long-term would choose it when organizing material; the 256 stars only show attention,
     and retention or repeat-use evidence is missing.'
+- id: req-full-wechatbridge-2026-10-01
+  project_slug: wechatbridge
+  level: full
+  reviewed_at: '2026-10-01T01:56:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微信聊天记录无法取出并进入笔记与 AI 工作流的需求，痛点是手工复制粘贴丢上下文、长对话搬运成本高；旧替代是复制粘贴、截图或第三方脚本，不解决的后果是素材无法沉淀。这是基于产品说明与旧流程的结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-a1b67bd16293c8f2
+    - ev-7059e183304734e7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 715 增至 941，说明开源关注度在上升，但这是关注度而非持续采用；公开材料没有用户评价、客户案例或使用场景描述，无法确认谁在什么情况下反复使用。
+    evidence_ids:
+    - ev-a1b67bd16293c8f2
+    - ev-c8cef37982078df8
+  - gate: model
+    status: insufficient
+    reason: 公开材料只描述 macOS 原生工具与开源仓库，未披露定价页、付费方式或买方；to C 个人付费、to B 团队采购还是纯开源捐赠均无法确认，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a1b67bd16293c8f2
+    - ev-0f766e08ee9f8d1a
+  - gate: truth
+    status: insufficient
+    reason: 未说明导出范围、格式、是否需要人工确认，也未说明聊天记录本地处理还是上传，隐私与安全边界不清，交付是否确定发生无法核验。
+    evidence_ids:
+    - ev-a1b67bd16293c8f2
+    - ev-b73cb33d284b2e96
+  next_validation: 追踪该仓库的 README、issue 与 discussion，核验导出范围、格式、隐私处理方式及用户实际使用反馈。
+  market: ''
+  job: 个人用户或内容创作者在 macOS 上整理微信里积累的对话素材时，把选定的聊天记录导出并投递到 AI Agent 与 Obsidian，用于生成可继续加工的文本与长期归档。
+  job_en: Individual users or content creators on macOS, when organizing conversation material accumulated
+    in WeChat, export selected chat records and deliver them into an AI Agent and Obsidian for further
+    processing and long-term archiving.
+  pain: 微信聊天记录封闭在应用内，没有原生导出通道；手工复制粘贴或截图会丢失发送者、时间与上下文，长对话逐条搬运成本高，导致素材难以沉淀、归档难以维持。
+  pain_en: WeChat chat records are locked inside the app with no native export path; manual copy-paste
+    or screenshots lose sender, timestamp and context, and moving long threads item by item is costly,
+    so material rarely gets archived.
+  current_alternative: 此前用户靠手工复制粘贴、截图，或自行寻找第三方导出脚本与数据库解析工具，再手动把文本贴进笔记和 AI 对话。
+  current_alternative_en: Previously users relied on manual copy-paste, screenshots, or self-sourced third-party
+    export scripts and database parsers, then pasted the text into notes and AI chats by hand.
+  usage_reason: 推断：相较手工复制粘贴或脚本导出，该工具把“取出记录”和“投递到 AI Agent 与 Obsidian”合并为一次操作，省去逐条搬运与格式整理这一步，因此需要把微信对话沉淀为素材的内容创作者或研究者会在整理阶段选择它；公开材料尚无留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with manual copy-paste or script-based export, the tool merges
+    ''extracting records'' and ''delivering to an AI Agent and Obsidian'' into one action, removing the
+    item-by-item transfer and format cleanup step, so content creators or researchers who need to turn
+    WeChat conversations into material would choose it during organizing; public material shows no retention
+    or repeat-use evidence yet.'

@@ -1,0 +1,84 @@
+- id: req-initial-honorfit-2026-10-01
+  project_slug: honorfit
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户想减少无意识刷手机、又难以自律的需求，痛点是现有屏幕时间限制容易被绕过；是否刚性仍不确定。
+    evidence_ids:
+    - ev-fc9bc5e854aa926d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，未见用户评价或持续使用证据，共识环节证据不足。
+    evidence_ids:
+    - ev-fc9bc5e854aa926d
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，可能面向个人订阅或一次性买断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-fc9bc5e854aa926d
+  - gate: truth
+    status: insufficient
+    reason: 俯卧撑识别是否可靠、能否被绕过，公开材料未说明，交付确定性存疑。
+    evidence_ids:
+    - ev-fc9bc5e854aa926d
+  next_validation: 收集 Honorfit 官网的定价页与用户评价，确认动作识别方式、是否可绕过以及是否有重复使用反馈。
+  market: ''
+  job: 想控制刷手机时间的个人，在准备打开社交或娱乐应用时，需要先完成一组俯卧撑才能继续使用。
+  job_en: Individuals trying to limit phone time need to complete a set of pushups before opening social
+    or entertainment apps.
+  pain: 单纯靠自律或系统屏幕时间限制容易被绕过，用户希望增加一点身体成本来打断无意识刷手机。
+  pain_en: Relying on willpower or built-in screen-time limits is easy to bypass, so users want a small
+    physical cost to interrupt mindless scrolling.
+  current_alternative: 系统自带的屏幕使用时间限制、专注模式，或第三方应用锁。
+  current_alternative_en: Built-in screen-time limits, focus modes, or third-party app lockers.
+  usage_reason: 推断：相较系统限制可一键忽略，Honorfit 把解锁动作变成必须完成的俯卧撑，增加即时放弃的摩擦，因此对自律困难、又愿意接受身体门槛的用户更有吸引力。
+  usage_reason_en: 'Inference: unlike system limits that can be dismissed in one tap, Honorfit turns unlocking
+    into pushups that must be completed, adding friction to quitting, which appeals to users who struggle
+    with self-control but accept a physical gate.'
+- id: req-full-honorfit-2026-10-01
+  project_slug: honorfit
+  level: full
+  reviewed_at: '2026-10-01T01:54:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户想减少无意识刷手机、又难以自律的需求，痛点是现有屏幕时间限制容易被一键绕过；产品把解锁变成必须完成的俯卧撑，增加即时放弃摩擦，属工作流结构推理，是否刚性仍不确定。
+    evidence_ids:
+    - ev-fc9bc5e854aa926d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官网一句产品说明，未见用户评价、社区讨论或持续使用证据，无法判断目标用户是否形成采用共识。
+    evidence_ids:
+    - ev-fc9bc5e854aa926d
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，可能面向个人订阅或一次性买断，属判断而非已验证事实；谁付钱尚未核验。
+    evidence_ids:
+    - ev-fc9bc5e854aa926d
+  - gate: truth
+    status: insufficient
+    reason: 俯卧撑识别是否可靠、能否被绕过、是否有安全边界，公开材料均未说明，交付确定性存疑。
+    evidence_ids:
+    - ev-fc9bc5e854aa926d
+  next_validation: 收集 Honorfit 官网的定价页与用户评价，确认动作识别方式、是否可绕过以及是否有重复使用反馈。
+  market: ''
+  job: 想减少无意识刷手机的个人，在准备打开社交或娱乐应用时，需要先完成一组俯卧撑动作，通过后应用才解锁，从而在冲动打开前插入一道身体门槛。
+  job_en: Individuals trying to cut mindless phone use must complete a set of pushups before a restricted
+    app unlocks, inserting a physical gate before the impulse to open it.
+  pain: 系统自带的屏幕使用时间限制和专注模式可以一键忽略，用户希望用一点身体成本打断无意识刷手机，但公开材料未给出频率或放弃代价的量化数据。
+  pain_en: Built-in screen-time limits and focus modes can be dismissed in one tap; users want a small
+    physical cost to interrupt mindless scrolling, though public materials give no quantified frequency
+    or cost of leaving it unsolved.
+  current_alternative: 系统屏幕使用时间限制、专注模式，或第三方应用锁。
+  current_alternative_en: Built-in screen-time limits, focus modes, or third-party app lockers.
+  usage_reason: 推断：相较系统限制可一键忽略，Honorfit 把解锁动作变成必须完成的俯卧撑，增加即时放弃的摩擦，因此对自律困难、又愿意接受身体门槛的用户更有吸引力；但识别方式与是否可绕过公开材料未说明。
+  usage_reason_en: 'Inference: unlike system limits that can be dismissed in one tap, Honorfit turns unlocking
+    into pushups that must be completed, adding friction to quitting, which appeals to users who struggle
+    with self-control but accept a physical gate; however, public materials do not explain the recognition
+    method or whether it can be bypassed.'

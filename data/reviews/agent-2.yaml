@@ -496,3 +496,44 @@
     scanning and terminal operations, it could remove the step of manually running each command; however
     the public material does not describe input format, execution boundaries or delivery form, so it cannot
     explain which users would choose it and when.'
+- id: req-full-agent-2-2026-10-01
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-10-01T01:52:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅罗列编码、安全扫描、终端自动化等能力，未说明谁在何种场景遇到什么具体困难、不做的后果与现有替代，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-65bf0ae6fda2fd07
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、release 说明与 issue/discussion 中是否出现具体任务流程、交付结果样例或用户使用反馈。
+  market: ''
+  job: 开发者在终端或编码环境中需要自动完成编码、安全扫描与终端命令操作：接收任务描述后由代理执行并交付代码或操作日志。
+  job_en: 'Developers in a terminal or coding environment need to automate coding, security scanning,
+    and terminal command operations: the agent takes a task description, executes it, and delivers code
+    or an operation log.'
+  pain: 公开材料只有一句功能罗列，未说明手动执行这些任务的具体困难、发生频率或不做的后果，痛点无法从公开事实还原。
+  pain_en: Public material is only a one-line feature list; it does not show the concrete difficulty,
+    frequency, or consequence of doing these tasks manually, so the pain cannot be reconstructed from
+    public facts.
+  current_alternative: 公开材料未说明用户目前用什么完成同类任务（手写代码、专用安全工具或现有编码代理），也未说明本产品替代了哪一步。
+  current_alternative_en: Public material does not show what users currently use for the same tasks (hand-written
+    code, dedicated security tools, or existing coding agents), nor which step this product replaces.
+  usage_reason: 仓库收藏从 104 增至 133 只反映关注度增长，属于规模证据，不能解释用户为何选择它；缺少用户反馈或案例，无法说明相较旧做法减少了哪一步负担。
+  usage_reason_en: Repository stars rising from 104 to 133 only reflects growing attention, a scale metric,
+    and cannot explain why users choose it; without user feedback or cases, it is impossible to say which
+    step of the old workflow it removes.

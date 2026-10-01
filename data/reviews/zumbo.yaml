@@ -1,0 +1,83 @@
+- id: req-initial-zumbo-2026-10-01
+  project_slug: zumbo
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决有保密义务岗位在 Mac 上转写口述内容时不愿上传音频的问题，旧做法是云端转写或人工打字。
+    evidence_ids:
+    - ev-c915a00d121d881e
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页外没有用户评价、下载量或客户案例，无法判断是否有人长期使用。
+    evidence_ids:
+    - ev-c915a00d121d881e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方是个人还是机构不明确，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-c915a00d121d881e
+  - gate: truth
+    status: insufficient
+    reason: 缺少转写准确率、支持语言与硬件要求的公开说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-c915a00d121d881e
+  next_validation: 收集 Zumbo 的官方仓库或产品页，查找转写准确率、支持语言与本地运行硬件要求的说明。
+  market: ''
+  job: 律师、医生或行政人员在 Mac 上处理口述内容和敏感录音时，要完成把音频转成可存档文字、同时不让音频离开设备的任务。
+  job_en: Lawyers, doctors or administrative staff on Mac working with dictation and sensitive recordings
+    need to turn audio into archivable text without the audio leaving the device.
+  pain: 云端转写要上传音频，在保密义务下存在合规顾虑；纯手工打字又慢，这是有保密要求岗位的真实取舍。
+  pain_en: Cloud transcription requires uploading audio, which raises compliance concerns under confidentiality
+    duties, while typing by hand is slow, a real trade-off for roles with confidentiality requirements.
+  current_alternative: 现有做法是使用云端转写服务、系统自带听写，或直接人工打字。
+  current_alternative_en: Current practice is cloud transcription services, built-in system dictation,
+    or typing by hand.
+  usage_reason: 推断：它把音频处理放在本机完成，省掉上传云端这一步，因此有保密义务、又需要大量口述转写的用户会优先考虑；但公开材料没有准确率或使用反馈，是否真能替代云端服务尚未核验。
+  usage_reason_en: 'Inference: it keeps audio processing on the device, removing the upload step, so users
+    with confidentiality duties and heavy dictation needs would consider it first; but no accuracy or
+    usage feedback is public, so whether it can truly replace cloud services remains unverified.'
+- id: req-full-zumbo-2026-10-01
+  project_slug: zumbo
+  level: full
+  reviewed_at: '2026-10-01T01:56:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向糕点师 Adriano Zumbo 及其电视节目，没有一条说明本地语音转文字工具解决谁的什么需求、痛点为何刚性，连用户任务都无法还原。
+    evidence_ids:
+    - ev-94d93a5f024e8ccd
+    - ev-37a03b3866508423
+    - ev-7de9fecf25d31ee2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Zumbo 的官方仓库或产品页，确认其是否真实存在并公开转写准确率、支持语言与本地运行硬件要求。
+  market: ''
+  job: 待补充：公开材料未说明 Zumbo 作为本地语音转文字工具的用户、使用情境与处理材料，现有证据全部指向糕点师 Adriano Zumbo 及其电视节目。
+  job_en: 'To be determined: public materials do not describe the users, situations or materials of Zumbo
+    as a local voice-to-text tool; all evidence points to pâtissier Adriano Zumbo and his TV shows.'
+  pain: 待补充：没有公开材料说明谁在 Mac 上转写口述或敏感录音时遇到什么具体困难，也没有用户抱怨、替代行为或客户案例可引用。
+  pain_en: 'To be determined: no public material describes who faces what difficulty transcribing dictation
+    or sensitive recordings on Mac, and no user complaints, workarounds or customer cases can be cited.'
+  current_alternative: 待补充：公开材料未记录目标用户当前用什么方式完成转写，无法确认旧做法是云端服务、系统听写还是人工打字。
+  current_alternative_en: 'To be determined: public materials do not record how target users currently
+    transcribe, so it is unclear whether the old practice is cloud services, system dictation or manual
+    typing.'
+  usage_reason: 待补充：没有可引用的产品说明、用户反馈或案例解释用户为何选择它，无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'To be determined: no citable product description, user feedback or case explains why
+    users would choose it, so it is impossible to say which step of burden it removes versus the old practice.'

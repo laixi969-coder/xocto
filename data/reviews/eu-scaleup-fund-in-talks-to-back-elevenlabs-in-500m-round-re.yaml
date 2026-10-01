@@ -1,0 +1,95 @@
+- id: req-initial-eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re-2026-10-01
+  project_slug: eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把成稿脚本变成可发布音频的需求，痛点是排期录音贵、改稿重录成本高、多语种版本周期长，旧行为明确存在。
+    evidence_ids:
+    - ev-ca4b5620d9a7af93
+  - gate: consensus
+    status: supported
+    reason: 估值一年内翻倍至220亿美元并完成3亿美元员工要约，说明资本与市场对其语音层位置有共识，但公开材料未给出客户留存数据。
+    evidence_ids:
+    - ev-6aa24749cd3cd20e
+    - ev-460aedaf6efa227d
+  - gate: model
+    status: insufficient
+    reason: 公开材料只显示融资与估值，未披露定价页、按量计费方式或企业采购合同，买方与付费路径仍属推断。
+    evidence_ids:
+    - ev-6aa24749cd3cd20e
+  - gate: truth
+    status: insufficient
+    reason: 语音克隆涉及音色授权与合规边界，公开材料未说明授权核验与人工审核机制，交付确定性无法核对。
+    evidence_ids:
+    - ev-460aedaf6efa227d
+  next_validation: 收集 ElevenLabs 官方定价页与企业客户案例页面，核对按字符或按分钟计费方式及已披露的付费客户名单。
+  market: ''
+  job: 内容团队、广告代理商或本地化服务商在需要把成稿脚本变成多语种、多角色的成品音频时，处理文稿、音色设定与时长要求，要交付可直接发布的配音文件。
+  job_en: Content teams, ad agencies or localization vendors turning finished scripts into multilingual,
+    multi-character audio, working from copy, voice specs and duration constraints to deliver publish-ready
+    voiceover files.
+  pain: 传统配音要排期、约棚、按条付费，改一句台词就要重录，多语种版本成本成倍上升，交付周期以天计。
+  pain_en: Traditional voiceover requires scheduling, studio time and per-line fees; changing one line
+    means re-recording, and multilingual versions multiply cost, with delivery measured in days.
+  current_alternative: 雇配音演员或外包录音棚，或用早期拼接式 TTS 工具，再人工剪辑对齐。
+  current_alternative_en: Hiring voice actors or outsourcing to studios, or using earlier concatenative
+    TTS tools followed by manual editing and alignment.
+  usage_reason: 相较排期录音，它把改稿后的重录成本压到接近零，同一脚本可即时产出多语种与多音色版本，因此需要频繁改稿、多市场投放的内容团队会在赶排期时选择它；这是基于产品能力与任务结构的推断，公开材料未提供留存或复购数据。
+  usage_reason_en: Compared with scheduled recording, it pushes the cost of re-recording after script
+    changes close to zero and can instantly produce multilingual, multi-voice versions from one script,
+    so content teams facing frequent revisions and multi-market launches pick it when deadlines are tight;
+    this is inference from product capability and task structure, as public materials provide no retention
+    or repeat-use data.
+- id: req-full-eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re-2026-10-01
+  project_slug: eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re
+  level: full
+  reviewed_at: '2026-10-01T01:53:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把成稿脚本变成可发布音频的需求，痛点是排期录音贵、改稿重录成本高、多语种版本周期长，旧行为明确存在；公开材料仅说明其语音合成与多语种能力，未给出客户留存，故为工作流结构推理。
+    evidence_ids:
+    - ev-3457718fe62cb54d
+    - ev-1bb2f3bb477cacd0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示其语音合成定位与5000+音色、70+语言的平台能力，未披露客户采用规模、留存或复购数据，无法判断市场共识是否已形成。
+    evidence_ids:
+    - ev-1bb2f3bb477cacd0
+    - ev-19a73241ce137a37
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、按字符或按分钟计费方式及企业采购合同，买方与付费路径只能推断为内容团队或企业API调用方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1bb2f3bb477cacd0
+    - ev-b0e263c450132df0
+  - gate: truth
+    status: insufficient
+    reason: 语音克隆涉及音色授权与合规边界，公开材料未说明授权核验与人工审核机制，交付确定性无法核对，安全与人工边界仍待公开文档确认。
+    evidence_ids:
+    - ev-3457718fe62cb54d
+    - ev-1bb2f3bb477cacd0
+  next_validation: 收集 ElevenLabs 官方定价页与企业客户案例页面，核对按字符或按分钟计费方式及已披露的付费客户名单。
+  market: ''
+  job: 内容团队、广告代理商或本地化服务商在需要把成稿脚本变成多语种、多角色的成品音频时，处理文稿、音色设定与时长要求，要交付可直接发布的配音文件。
+  job_en: Content teams, ad agencies or localization vendors turning finished scripts into multilingual,
+    multi-character audio, working from copy, voice specs and duration constraints to deliver publish-ready
+    voiceover files.
+  pain: 传统配音要排期、约棚、按条付费，改一句台词就要重录，多语种版本成本成倍上升，交付周期以天计。
+  pain_en: Traditional voiceover requires scheduling, studio time and per-line fees; changing one line
+    means re-recording, and multilingual versions multiply cost, with delivery measured in days.
+  current_alternative: 雇配音演员或外包录音棚，或用早期拼接式 TTS 工具，再人工剪辑对齐。
+  current_alternative_en: Hiring voice actors or outsourcing to studios, or using earlier concatenative
+    TTS tools followed by manual editing and alignment.
+  usage_reason: 相较排期录音，它把改稿后的重录成本压到接近零，同一脚本可即时产出多语种与多音色版本，因此需要频繁改稿、多市场投放的内容团队会在赶排期时选择它；这是基于产品能力与任务结构的推断，公开材料未提供留存或复购数据。
+  usage_reason_en: Compared with scheduled recording, it pushes the cost of re-recording after script
+    changes close to zero and can instantly produce multilingual, multi-voice versions from one script,
+    so content teams facing frequent revisions and multi-market launches pick it when deadlines are tight;
+    this is inference from product capability and task structure, as public materials provide no retention
+    or repeat-use data.

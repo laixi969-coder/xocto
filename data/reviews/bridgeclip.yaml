@@ -269,3 +269,54 @@
   usage_reason: 用户要完成的任务是：短视频剪辑师、自媒体运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: short-form video editor, social media operator Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-bridgeclip-2026-10-01
+  project_slug: bridgeclip
+  level: full
+  reviewed_at: '2026-10-01T01:52:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频切短片这一具体任务：剪辑师或运营者拿到长素材后需产出多条可发布片段，旧做法是在通用剪辑软件里逐帧回看、手动标记入出点，重复且耗时；不解决的后果是出片慢、产能受限。公开材料未给耗时数据，但仓库
+      7 天内从 222 星增至 346 星，说明存在持续关注；交付闭环为 AI 产出候选片段再由人工确认，属工作流结构推理。
+    evidence_ids:
+    - ev-70bf2b5c1bb0594c
+    - ev-c65f2e7e2896d120
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 222 增至 346、复刻 75，说明开发者社区注意到它，但收藏与复刻只属关注度证据，不能证明目标剪辑用户会持续使用或把它留在工作流里；公开材料未见用户评价、案例或重复使用记录。
+    evidence_ids:
+    - ev-70bf2b5c1bb0594c
+    - ev-c65f2e7e2896d120
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；作为开源桌面应用，钱可能来自 BridgeMind 的配套订阅、企业支持或 to VC，但公开材料未披露任何一条，属模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-70bf2b5c1bb0594c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输入格式、切分规则、导出流程与人工确认边界，无法核对 AI 切片结果能否确定性交付；仓库描述仅一句，缺少文档、issue 或实测证据支撑承诺可复现。
+    evidence_ids:
+    - ev-70bf2b5c1bb0594c
+  next_validation: 追踪 bridgeclip 仓库的 README、release 说明与 issue/discussion，确认其输入格式、切分规则、导出流程及是否有用户报告实际替代了手动剪辑流程。
+  market: ''
+  job: 短视频剪辑师或自媒体运营者在拿到一段长视频（如访谈、直播回放、课程录像）后，需要从中切出多条可发布的竖屏或横屏短片，并逐条人工确认后导出成片。
+  job_en: A short-form video editor or social media operator takes a long video (interview, livestream
+    replay, course recording) and must cut it into multiple publishable short clips, then manually confirm
+    and export each finished clip.
+  pain: 长素材逐帧回看、手动标记入出点、反复试剪是重复且耗时的机械劳动；公开材料未给出具体耗时或频率数据，但仓库在 7 天内从 222 星增至 346 星，说明有持续关注者，痛点强度属工作流结构推理而非量化验证。
+  pain_en: Reviewing long footage frame by frame, manually marking in/out points, and re-cutting repeatedly
+    is repetitive mechanical labor; public materials give no specific time or frequency data, but the
+    repo grew from 222 to 346 stars in seven days, indicating sustained attention; pain intensity is workflow-structural
+    inference, not quantified validation.
+  current_alternative: 旧做法是用 Premiere、Final Cut 或剪映等通用剪辑软件手动切分，或使用云端 AI 切片服务；公开材料未说明 bridgeclip 具体替代了哪一种，也未说明其输入格式与切分规则。
+  current_alternative_en: The old approach is manual cutting in general editors such as Premiere, Final
+    Cut, or CapCut, or using cloud AI clipping services; public materials do not state which one bridgeclip
+    replaces, nor its input formats or cutting rules.
+  usage_reason: 推断：相较在通用剪辑软件里逐段手动标记，bridgeclip 以桌面应用形式由 AI 先产出候选片段，把用户的工作从“找片段”前移到“确认片段”，减少逐帧回看这一步；因此处理长素材、需要批量出片的剪辑师或运营者会在这种情况下选择它。公开材料未提供用户反馈或客户案例，此因果为基于产品能力的推断。
+  usage_reason_en: 'Inference: compared with manually marking each segment in a general editor, bridgeclip
+    as a desktop app has AI produce candidate clips first, shifting user work from finding segments to
+    confirming them and removing the frame-by-frame review step; therefore editors or operators handling
+    long footage and needing batch output would choose it in that situation. Public materials provide
+    no user feedback or customer cases, so this causal claim is inferred from product capability.'

@@ -188,3 +188,51 @@
   usage_reason: 用户要完成的任务是：语音客服系统开发者、云解决方案架构师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Voice customer-service system developer, Cloud solution architect Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-sample-voice-ai-agent-studio-2026-10-01
+  project_slug: sample-voice-ai-agent-studio
+  level: full
+  reviewed_at: '2026-10-01T01:55:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在 AWS 上搭建语音客服/语音助手时缺少可运行工程骨架、需自行串联语音识别、对话编排与语音合成的问题；公开事实仅为官方示例仓库与收藏数，痛点刚性来自工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-efda3192698282bd
+    - ev-62bb777738e94f54
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 70 增至 121，说明开发者社区注意到该示例，但收藏属关注度证据，不能证明目标开发者已把它留在语音智能体工作流中持续使用。
+    evidence_ids:
+    - ev-efda3192698282bd
+    - ev-62bb777738e94f54
+  - gate: model
+    status: insufficient
+    reason: 这是 AWS 官方示例仓库，公开材料未见定价、付费主体或采购路径；判断上其价值更可能通过 AWS 云服务消耗间接变现，但这是推断而非已验证事实。
+    evidence_ids:
+    - ev-efda3192698282bd
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、issue 或 discussion 层面的可复现证据，无法确认交付能否稳定发生，以及语音场景下的人工转接与安全边界如何处理。
+    evidence_ids:
+    - ev-62bb777738e94f54
+  next_validation: 追踪该仓库的 issue、discussion 与 README/部署文档，确认是否有开发者在真实语音客服场景中部署并替换了原有自建流程。
+  market: ''
+  job: 语音客服或语音助手方向的开发者/云解决方案架构师，在 AWS 上要交付一套可运行的语音智能体时，需要把语音识别、对话编排、语音合成等组件串成一条可改造的工程骨架，再替换成自己业务的对话流程。
+  job_en: A voice-agent developer or cloud solution architect on AWS who must ship a working voice agent
+    needs to wire speech recognition, dialogue orchestration and speech synthesis into a runnable engineering
+    skeleton, then swap in their own business dialogue flow.
+  pain: 公开材料只显示这是 AWS 官方示例仓库，未提供用户抱怨或案例；从工作流结构推理，痛点是自建语音智能体时组件选型、串联与可运行起点缺失，导致在拿到可改造骨架之前就要先付出集成成本。
+  pain_en: Public materials show only that this is an AWS sample repository, with no user complaints or
+    cases; by workflow inference, the pain is the missing runnable starting point and component wiring
+    when building a voice agent, forcing integration cost before any business dialogue work begins.
+  current_alternative: 公开材料未说明用户当前做法；结构上可推断的替代是自行拼接各家语音识别、对话编排与语音合成组件，或从零搭建示例工程。
+  current_alternative_en: Public materials do not state the current practice; the structurally inferable
+    alternative is hand-wiring separate speech recognition, dialogue orchestration and synthesis components,
+    or building a sample project from scratch.
+  usage_reason: 推断：相较自行拼接组件，该仓库直接给出可运行的语音智能体工程骨架，开发者省去从零搭建与组件串联这一步，因此会在需要快速得到可改造起点、且已选定 AWS 的语音客服或语音助手项目中选用它；公开材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus hand-wiring components, the repository hands over a runnable voice-agent
+    skeleton, removing the from-scratch build and wiring step, so it is chosen in AWS-based voice customer-service
+    or assistant projects that need a modifiable starting point; public materials provide no user feedback
+    or retention evidence.'

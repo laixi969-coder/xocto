@@ -125,3 +125,52 @@
   usage_reason_en: 'Inference: it replaces naming a skill by hand in the prompt with ranking based on
     live session context plus abstention, cutting the rework step after a wrong pick, so teams maintaining
     many internal skills are more likely to try it; no retention or repeat-use evidence yet.'
+- id: req-full-skillranker-2026-10-01
+  project_slug: skillranker
+  level: full
+  reviewed_at: '2026-10-01T01:55:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理会话中技能过多导致选错、需人工在提示里点名技能的问题，痛点来自技能膨胀后的选择负担，弃权与结构化输出使交付可确定；属工作流结构推理，尚无用户抱怨或错误率数据。
+    evidence_ids:
+    - ev-bcaec0564c7b0894
+    - ev-06f2ed0d0a821354
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 117 缓慢升至 125，只说明关注度，没有用户评价、issue 讨论或采用案例，不能证明开发者已把它留在工作流里持续使用。
+    evidence_ids:
+    - ev-bcaec0564c7b0894
+    - ev-8e48746804feb8c5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，产品依赖 TypeSafe API key，钱可能来自 TypeSafe 的 API 计费或 to VC，但无定价页与付费记录；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-bcaec0564c7b0894
+  - gate: truth
+    status: insufficient
+    reason: 排序准确率、弃权是否可靠、本地反馈是否真正改善结果均无公开数据，承诺能否确定性交付无法核验；仅能确认 CLI 具备这些机制。
+    evidence_ids:
+    - ev-bcaec0564c7b0894
+    - ev-f77ce0450d6d6774
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有开发者报告排序准确率、弃权行为或本地反馈在实际会话中的效果。
+  market: ''
+  job: 使用编码代理（如 Claude Code）的开发者在一轮会话进行中，把当前会话上下文与已安装的可用技能列表交给 CLI，需要判断下一步该调用哪个技能，并据此继续推进任务。
+  job_en: A developer using a coding agent (e.g. Claude Code) mid-session feeds the live session context
+    plus the list of installed skills into the CLI and must decide which skill to invoke next to keep
+    the task moving.
+  pain: 技能数量增长后，代理容易选错技能或一次全选，开发者要反复纠正并浪费上下文轮次；公开材料只说明排序与弃权机制存在，未提供用户抱怨或错误率数据，痛点强度属工作流结构推理。
+  pain_en: As skill counts grow, agents pick the wrong skill or invoke everything, forcing repeated corrections
+    and wasted context turns; public material only shows that ranking and abstention exist, not user complaints
+    or error rates, so pain intensity is a workflow-structure inference.
+  current_alternative: 当前做法是开发者在提示里手工点名技能，或完全交给模型自行判断，没有独立的排序、结构化输出与弃权环节。
+  current_alternative_en: Today developers name the skill by hand in the prompt or leave the choice entirely
+    to the model, with no separate ranking, structured output, or abstention step.
+  usage_reason: 推断：相较手工在提示里点名技能，它读取实时会话上下文后直接输出排序 JSON，并在不确定时弃权，省去开发者自己比对上下文与技能清单的那一步；因此维护大量内部技能、且已接入
+    Claude Code hooks 的团队更可能试用。仓库仅有星标增长，无留存或复购证据。
+  usage_reason_en: 'Inference: versus naming a skill by hand in the prompt, it reads live session context
+    and emits ranked JSON, abstaining when unsure, removing the step where the developer manually matches
+    context against the skill list; teams maintaining many internal skills and already using Claude Code
+    hooks are the likeliest triers. The repo shows only star growth, no retention or repeat-use evidence.'

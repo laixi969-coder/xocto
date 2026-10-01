@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tMVI1QmJDd1Rn
 summary: AI进入7亿用户时代，互联网巨头正在重新寻找增长曲线 Moomoo
 first_seen: '2026-09-30T03:40:44Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

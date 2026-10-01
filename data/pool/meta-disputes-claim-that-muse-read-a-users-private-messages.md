@@ -1,6 +1,6 @@
 ---
 slug: meta-disputes-claim-that-muse-read-a-users-private-messages
-name: Meta disputes claim that Muse read a user’s private messages without permission
+name: Meta Muse
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Meta says its Muse AI agent cannot access a user’s Messages without e
   off.
 first_seen: '2026-09-30T16:24:23Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Meta disputes claim that Muse read a user’s private messages without permission
+# Meta Muse
 
 Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.
 

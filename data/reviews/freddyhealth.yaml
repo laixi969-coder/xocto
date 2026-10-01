@@ -1,0 +1,85 @@
+- id: req-initial-freddyhealth-2026-10-01
+  project_slug: freddyhealth
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是个人看不懂自身健康数据的问题，痛点真实但公开材料未说明数据来源与解读可信度，价值强度无法确认。
+    evidence_ids:
+    - ev-4e62a395e05941fd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布信息，没有用户评价或采用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-4e62a395e05941fd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅或机构采购均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-4e62a395e05941fd
+  - gate: truth
+    status: insufficient
+    reason: 健康解读涉及安全边界，公开材料未说明是否给出医疗建议及人工确认环节。
+    evidence_ids:
+    - ev-4e62a395e05941fd
+  next_validation: 收集 freddy.health 官方文档或定价页，确认数据来源、接入方式与是否声明非医疗建议。
+  market: ''
+  job: 关注健康的个人在拿到体检报告或可穿戴设备数据后，想弄懂这些数字意味着什么，于是把数据交给助手解读。
+  job_en: A health-conscious individual who has just received a checkup report or wearable data wants
+    to understand what the numbers mean and hands the data to an assistant for interpretation.
+  pain: 健康数据分散在多个 App 和报告里，普通人看不懂指标含义，也难判断是否需要就医；公开材料未说明它如何解决数据接入与可信度问题。
+  pain_en: Health data is scattered across apps and reports, laypeople cannot read the metrics, and it
+    is hard to judge whether to see a doctor; public material does not show how it solves data access
+    or trust.
+  current_alternative: 把报告截图发给通用聊天助手，或在搜索引擎和健康社区里逐项查指标。
+  current_alternative_en: Sending report screenshots to a general chat assistant, or looking up each metric
+    in search engines and health forums.
+  usage_reason: 推断：若它能把分散数据整理成助手可读的上下文，用户就不必逐项复制粘贴，可直接提问；但公开材料未说明数据来源、准确性或用户反馈，无法确认解读是否可信。
+  usage_reason_en: 'Inference: if it turns scattered data into assistant-readable context, users avoid
+    copying items one by one and can ask directly; however, no data sources, accuracy, or user feedback
+    are public, so the reliability of the interpretation is unconfirmed.'
+- id: req-full-freddyhealth-2026-10-01
+  project_slug: freddyhealth
+  level: full
+  reviewed_at: '2026-10-01T01:53:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅有一句产品口号，未说明用户要完成的具体任务、卡在哪一步、现有替代方式及不解决的后果，连需求与痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-4e62a395e05941fd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 freddy.health 官方产品页或文档，确认其数据来源、接入方式与是否声明非医疗建议，以判断需求与交付是否可还原。
+  market: ''
+  job: 关注健康的个人在拿到体检报告或可穿戴设备数据后，想弄懂这些数字意味着什么，于是把数据交给已有 AI 助手（Claude、ChatGPT、Muse 等）解读并追问身体状况。
+  job_en: A health-conscious individual who has just received a checkup report or wearable data wants
+    to understand what the numbers mean, and hands the data to an existing AI assistant (Claude, ChatGPT,
+    Muse, etc.) for interpretation and follow-up questions.
+  pain: 公开材料只有一句产品口号，未说明用户具体卡在哪一步、数据如何接入、解读是否可信，也未出现任何用户抱怨或替代行为记录，痛点无法还原。
+  pain_en: Public material contains only a one-line product slogan; it does not show which step users
+    are stuck on, how data is ingested, or whether the interpretation is trustworthy, and no user complaints
+    or workaround behavior are recorded, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未披露用户此前如何整理健康数据；按常识推断可能是把报告截图发给通用聊天助手，或在搜索引擎与健康社区逐项查指标，但无证据支持。
+  current_alternative_en: Public material does not disclose how users previously organized health data;
+    by common inference it may be sending report screenshots to a general chat assistant or looking up
+    each metric in search engines and health forums, but no evidence supports this.
+  usage_reason: 无法给出因果解释：公开材料既没有说明它相较旧做法减少了哪一步负担，也没有用户反馈或案例支持选择动机，因此不能判断哪类用户会在什么情况下选用它。
+  usage_reason_en: 'No causal explanation can be given: public material neither shows which step of the
+    old workflow it removes nor offers user feedback or cases supporting the choice motive, so it is impossible
+    to say which users would pick it and when.'

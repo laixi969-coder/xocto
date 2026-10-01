@@ -22,7 +22,7 @@ summary: As the so-called "physical AI" era, which combines artificial intellige
   매일경제
 first_seen: '2026-09-30T07:15:11Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

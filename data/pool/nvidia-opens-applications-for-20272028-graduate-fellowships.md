@@ -1,6 +1,6 @@
 ---
 slug: nvidia-opens-applications-for-20272028-graduate-fellowships
-name: NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000
+name: NVIDIA Graduate Fellowship Program
 builder: ''
 category: ''
 summary_zh: ''
@@ -25,7 +25,7 @@ summary: Bringing together the world’s brightest minds and the latest accelera
   […]
 first_seen: '2026-09-30T17:00:21Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -36,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000
+# NVIDIA Graduate Fellowship Program
 
 Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th […]
 

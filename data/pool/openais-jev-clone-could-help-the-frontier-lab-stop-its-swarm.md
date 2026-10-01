@@ -1,6 +1,6 @@
 ---
 slug: openais-jev-clone-could-help-the-frontier-lab-stop-its-swarm
-name: OpenAI’s Jev clone could help the frontier lab stop its swarming agents
+name: OpenAI Decisions API
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-th
 summary: OpenAI's "Decisions API" is a Jev clone that confirms the importance of fast, cheap intelligence.
 first_seen: '2026-09-30T19:00:57Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI’s Jev clone could help the frontier lab stop its swarming agents
+# OpenAI Decisions API
 
 OpenAI's "Decisions API" is a Jev clone that confirms the importance of fast, cheap intelligence.
 

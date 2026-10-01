@@ -195,3 +195,53 @@
   usage_reason_en: 'The task is: Technical writing and documentation maintenance, Developer relations
     and content operations Public materials do not yet explain why users choose this product over their
     existing approach.'
+- id: req-full-zh-tech-writing-2026-10-01
+  project_slug: zh-tech-writing
+  level: full
+  reviewed_at: '2026-10-01T01:56:18Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档写作缺少可执行风格约束的需求：模型默认输出冗长带 AI 腔，作者需逐句删改，而阮一峰规范此前只是人读文本、无法约束模型。痛点刚性中等但真实，交付为改写后的中文草稿，结构上可确定；属工作流推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-63bfde74eb8b40c8
+    - ev-00fe03cffe9500dc
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 198 增至 312，说明中文技术写作群体持续关注并把它纳入 agent 工作流；但收藏属关注度证据，不能证明长期留存或付费，故共识仅初步成立。
+    evidence_ids:
+    - ev-63bfde74eb8b40c8
+    - ev-00fe03cffe9500dc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，无法判断钱来自 to C 写作者、to B 文档团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-63bfde74eb8b40c8
+  - gate: truth
+    status: insufficient
+    reason: 交付为改写草稿、仍需作者核对事实与术语，人工边界清晰；但缺可复现的公开评测或 issue 反馈，无法确认改写质量稳定发生，故仅初步成立。
+    evidence_ids:
+    - ev-00fe03cffe9500dc
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户报告实际用于起草或润色中文技术文档、替代了何种旧流程，以及是否出现定价或付费线索。
+  market: ''
+  job: 中文技术写作者、开发者关系或文档维护者在起草或润色说明、教程、API 文档时，把待改的中文技术文本交给 AI agent，调用该 Skill 作为写作约束，产出符合短句、平实、去 AI 腔规范的中文文档草稿，再由作者核对事实与术语。
+  job_en: Chinese technical writers, DevRel, or docs maintainers drafting or polishing guides, tutorials,
+    and API docs hand Chinese technical text to an AI agent and invoke this Skill as a writing constraint,
+    producing a plain, short-sentence, AI-tone-free Chinese draft that the author then fact- and terminology-checks.
+  pain: 中文技术文档写作长期缺少可执行的风格约束：模型默认输出冗长、堆砌、带 AI 腔的中文，作者要逐句删改；阮一峰《中文技术文档的写作规范》虽被广泛引用，但此前只是人读的规范文本，无法直接约束模型输出，作者只能靠记忆和反复人工润色。
+  pain_en: 'Chinese technical writing lacks an executable style constraint: models default to verbose,
+    padded, AI-flavored Chinese that authors must line-edit, and Ruan Yifeng''s widely cited writing standard
+    was previously a human-read document that could not directly constrain model output, leaving authors
+    to rely on memory and repeated manual polishing.'
+  current_alternative: 旧做法是作者自己按规范逐句改写，或在通用提示词里手写“短句、平实、不要 AI 腔”等要求，每次重写提示、效果不稳定，规范本身无法复用为可调用的约束。
+  current_alternative_en: The old approach is authors line-editing by the standard themselves, or hand-writing
+    prompts like 'short sentences, plain, no AI tone' each time, which is unstable and non-reusable as
+    a callable constraint.
+  usage_reason: 相较每次手写提示或逐句人工润色，该 Skill 把阮一峰规范固化为 agent 可调用的写作约束，用户只需在起草或润色时调用一次，模型即按短句、平实、去 AI 腔改写，省去反复重写提示与逐句删改的步骤；中文技术写作者在需要稳定风格输出时更可能选择它。这是基于产品能力与任务结构的推断，尚无用户反馈或案例佐证。
+  usage_reason_en: 'Compared with hand-writing prompts or line-editing each time, the Skill fixes Ruan
+    Yifeng''s standard into an agent-callable constraint: users invoke it once while drafting or polishing,
+    and the model rewrites in short, plain, AI-tone-free Chinese, removing the repeated prompt-writing
+    and line-editing steps; Chinese technical writers needing stable style output are more likely to choose
+    it. This is an inference from product capability and task structure, not yet supported by u'

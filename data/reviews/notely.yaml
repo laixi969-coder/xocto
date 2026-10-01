@@ -1,0 +1,86 @@
+- id: req-initial-notely-2026-10-01
+  project_slug: notely
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决笔记难以变成可执行任务、口头承诺易漏的问题，旧做法是人工重读并逐条新建，痛点具体。
+    evidence_ids:
+    - ev-0951f40e097fd731
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价或采用数据，是否形成使用共识无法判断。
+    evidence_ids:
+    - ev-0951f40e097fd731
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅还是团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0951f40e097fd731
+  - gate: truth
+    status: insufficient
+    reason: 提问机制、任务去向与人工确认边界未说明，拆分结果是否可靠无法核对。
+    evidence_ids:
+    - ev-0951f40e097fd731
+  next_validation: 收集该产品的官方定价页与帮助文档，确认任务导出到哪些工具、按什么方式计费以及 AI 提问与人工确认的具体流程。
+  market: ''
+  job: 会议或沟通结束后，用户手上只有一段随手记下的笔记，需要在遗忘之前把它整理成可以逐条执行的任务。
+  job_en: After a meeting or conversation the user has only a rough note and needs to turn it into tasks
+    that can be executed one by one before details are forgotten.
+  pain: 笔记里混着结论、待办和闲聊，人工拆分耗时，且容易漏掉口头承诺的事项。
+  pain_en: A note mixes conclusions, to-dos and small talk, so splitting it by hand takes time and verbal
+    commitments are easily missed.
+  current_alternative: 现在的做法是人工重读笔记、在待办工具里逐条新建任务，或干脆不整理。
+  current_alternative_en: The current practice is to reread the note and create tasks one by one in a
+    to-do tool, or simply not organise it at all.
+  usage_reason: 推断：相较人工重读并逐条建任务，它先就不清楚的地方提问再拆分，减少因理解偏差产生的返工，因此会议密集、笔记即工作依据的人会尝试它；公开材料没有留存或复购证据，长期留在工作流中尚不能确认。
+  usage_reason_en: 'Inference: compared with rereading and creating tasks one by one, it asks about unclear
+    points before splitting, reducing rework caused by misreading, so people with dense meetings whose
+    notes are their working basis would try it; the public material has no retention or repeat-use evidence,
+    so long-term presence in the workflow cannot be confirmed.'
+- id: req-full-notely-2026-10-01
+  project_slug: notely
+  level: full
+  reviewed_at: '2026-10-01T01:54:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决笔记难以变成可执行任务、口头承诺易漏的问题，旧做法是人工重读并逐条新建，痛点具体。
+    evidence_ids:
+    - ev-0951f40e097fd731
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价或采用数据，是否形成使用共识无法判断。
+    evidence_ids:
+    - ev-0951f40e097fd731
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅还是团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0951f40e097fd731
+  - gate: truth
+    status: insufficient
+    reason: 提问机制、任务去向与人工确认边界未说明，拆分结果是否可靠无法核对。
+    evidence_ids:
+    - ev-0951f40e097fd731
+  next_validation: 收集该产品的官方定价页与帮助文档，确认任务导出到哪些工具、按什么方式计费以及 AI 提问与人工确认的具体流程。
+  market: ''
+  job: 会议或沟通结束后，用户手上只有一段随手记下的笔记，需要在遗忘之前把它整理成可以逐条执行的任务。
+  job_en: After a meeting or conversation the user has only a rough note and needs to turn it into tasks
+    that can be executed one by one before details are forgotten.
+  pain: 笔记里混着结论、待办和闲聊，人工拆分耗时，且容易漏掉口头承诺的事项。
+  pain_en: A note mixes conclusions, to-dos and small talk, so splitting it by hand takes time and verbal
+    commitments are easily missed.
+  current_alternative: 现在的做法是人工重读笔记、在待办工具里逐条新建任务，或干脆不整理。
+  current_alternative_en: The current practice is to reread the note and create tasks one by one in a
+    to-do tool, or simply not organise it at all.
+  usage_reason: 推断：相较人工重读并逐条建任务，它先就不清楚的地方提问再拆分，减少因理解偏差产生的返工，因此会议密集、笔记即工作依据的人会尝试它；公开材料没有留存或复购证据，长期留在工作流中尚不能确认。
+  usage_reason_en: 'Inference: compared with rereading and creating tasks one by one, it asks about unclear
+    points before splitting, reducing rework caused by misreading, so people with dense meetings whose
+    notes are their working basis would try it; the public material has no retention or repeat-use evidence,
+    so long-term presence in the workflow cannot be confirmed.'

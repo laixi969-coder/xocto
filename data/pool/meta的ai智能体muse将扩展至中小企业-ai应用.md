@@ -1,6 +1,6 @@
 ---
 slug: meta的ai智能体muse将扩展至中小企业-ai应用
-name: Meta的AI智能体Muse将扩展至中小企业-AI应用
+name: Meta Muse
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE1EU0xtanhpa3A1
 summary: Meta的AI智能体Muse将扩展至中小企业-AI应用 至顶网
 first_seen: '2026-09-30T10:09:59Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Meta的AI智能体Muse将扩展至中小企业-AI应用
+# Meta Muse
 
 Meta的AI智能体Muse将扩展至中小企业-AI应用 至顶网
 

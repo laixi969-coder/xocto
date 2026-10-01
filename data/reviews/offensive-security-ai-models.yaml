@@ -117,3 +117,52 @@
   usage_reason_en: 'The task is: Security researchers selecting locally deployable uncensored models for
     authorized penetration testing and attack-surface validation Public materials do not yet explain why
     users choose this product over their existing approach.'
+- id: req-full-offensive-security-ai-models-2026-10-01
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-01T01:54:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权测试中筛选可本地部署未审查模型的重复检索问题，旧做法是逐个仓库比对，痛点具体；但公开材料未给出筛选耗时与选错代价的量化数据，此判断为工作流结构推理。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+    - ev-92698e39f13570bc
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 194 增至 483，说明社区关注度上升，但公开材料没有用户评价、issue 讨论或部署案例，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+    - ev-a25b763d28ba1a13
+    - ev-92698e39f13570bc
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单仓库，公开材料未披露定价、赞助或采购路径，钱来自 to C 捐赠、to B 服务还是 to VC 无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-92698e39f13570bc
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有仓库简介与星标，未说明收录标准、模型是否可复现部署、以及授权测试的安全与合规边界，交付能否稳定发生无法核对。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+    - ev-92698e39f13570bc
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认收录标准、模型部署说明以及是否有安全研究者报告实际用于授权测试的案例。
+  market: ''
+  job: 安全研究员在授权渗透测试中，需要从大量开源模型中挑出可本地部署、未做安全审查或已针对网络安全任务微调的模型，用于攻击面验证。
+  job_en: In authorized penetration testing, a security researcher needs to pick, from many open models,
+    locally deployable ones that are uncensored or fine-tuned for cybersecurity tasks, in order to validate
+    attack surface.
+  pain: 公开事实只给出仓库简介与星标数，未说明筛选耗时、模型失效或选错模型的具体代价；从任务结构看，逐个模型仓库比对许可、微调方向与本地可运行性本身是重复劳动。
+  pain_en: Public facts give only the repo description and star counts, not the time cost of screening
+    or the consequence of picking a wrong model; structurally, comparing licences, fine-tuning targets
+    and local runnability across model repos is repetitive work.
+  current_alternative: 公开材料未说明现有做法；结构上可推断为逐个模型仓库检索、在通用模型聚合站或社区帖子里人工比对。
+  current_alternative_en: Public materials do not state the current practice; structurally it can be inferred
+    as searching model repos one by one and manually comparing on general model hubs or community threads.
+  usage_reason: 推断：相较逐个仓库检索比对，清单把未审查或安全微调模型集中在一处，减少筛选环节的检索负担，因此做授权测试、需要本地部署模型的安全研究者会收藏或试用；星标增长只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with searching repos one by one, the list gathers uncensored or
+    security-tuned models in one place, cutting the search burden of screening, so security researchers
+    doing authorized testing who need locally deployable models would bookmark or try it; star growth
+    shows attention only, not sustained use.'

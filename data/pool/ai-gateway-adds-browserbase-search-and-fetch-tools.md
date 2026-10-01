@@ -1,6 +1,6 @@
 ---
 slug: ai-gateway-adds-browserbase-search-and-fetch-tools
-name: AI Gateway adds Browserbase Search and Fetch tools
+name: AI Gateway
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/ai-gateway-adds-browserbase-search-a
 summary: ''
 first_seen: '2026-09-30T21:00:00Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Gateway adds Browserbase Search and Fetch tools
+# AI Gateway
 
 _（源没给简介）_
 

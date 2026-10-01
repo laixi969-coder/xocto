@@ -150,3 +150,57 @@
   usage_reason: 用户要完成的任务是：开发者在自有 Colab 账号上租用 GPU 并本地调用开源模型；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers renting a GPU in their own Colab account to serve open models
     locally Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-collabosm-2026-10-01
+  project_slug: collabosm
+  level: full
+  reviewed_at: '2026-10-01T01:53:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者想用开源大模型却不愿按 token 付费或自购 GPU 的需求，痛点是手写 Colab 脚本起服务、暴露端口、手动停机易忘关烧算力；公开说明已给出输入（自有 Colab
+      账号）、动作（租卡起服务、固定本地 /v1、自动停机、CU 账本）与交付（可调用的本地推理端点），属工作流结构推理，痛点刚性中等。
+    evidence_ids:
+    - ev-51af0ad984178794
+    - ev-1167baee2c12b86d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 87 增至 94，说明有开发者关注并复刻，但公开材料没有用户评价、issue 或案例说明谁在什么场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-51af0ad984178794
+    - ev-1167baee2c12b86d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济；按产品形态推断钱可能来自开发者自付的 Colab 算力或后续订阅，但这是判断而非已验证事实，也未排除仅靠关注度维持。
+    evidence_ids:
+    - ev-51af0ad984178794
+  - gate: truth
+    status: insufficient
+    reason: 自动停机与 CU 账本承诺了费用可控，但公开材料没有可复现的部署文档、实测延迟或安全边界说明，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-51af0ad984178794
+    - ev-59a4e84a0e5bcf4f
+  next_validation: 追踪 collabosm 仓库的 README/部署文档与 issue、discussion，确认是否有用户公开报告实际部署、替代了哪种旧流程以及自动停机与计费是否按承诺发生。
+  market: ''
+  job: 个人开发者或小团队在本地机器上打开 collabosm，用自己的 Google Colab 账号租一块 A100（40G 跑 Qwen 27B，80G 跑 Flash-Next 125B-A6B
+    MoE），把开源模型变成固定的本地 /v1 端点，供 Codex 或任意 OpenAI 兼容客户端调用，并在启动前看到费用。
+  job_en: An individual developer or small team opens collabosm locally, rents an A100 in their own Google
+    Colab account (40G for Qwen 27B, 80G for Flash-Next 125B-A6B MoE), turns the open model into a fixed
+    local /v1 endpoint for Codex or any OpenAI-compatible client, and sees the cost before it starts.
+  pain: 公开说明显示它针对的是：想用开源大模型却不想按 API 逐 token 付费、也不想自购或长期租 GPU 的开发者，需要自己写脚本在 Colab 里拉模型、起服务、暴露端口、手动停机，还要担心忘记关掉而持续烧算力。
+  pain_en: The public description targets developers who want open models without per-token API billing
+    or owning/renting a GPU long-term, and who otherwise must script Colab model loading, server startup,
+    port exposure and manual shutdown, with the risk of forgetting to stop and burning compute credits.
+  current_alternative: 旧做法是手写 Colab notebook 或脚本自行加载模型并起 OpenAI 兼容服务，或直接购买 OpenAI/Anthropic 等闭源 API，或租用
+    RunPod、Vast.ai 等 GPU 云并自行管理生命周期。
+  current_alternative_en: The old ways are hand-written Colab notebooks or scripts that load the model
+    and start an OpenAI-compatible server, closed APIs such as OpenAI/Anthropic, or GPU clouds like RunPod
+    and Vast.ai managed manually.
+  usage_reason: 推断：相较手写 Colab 脚本，它把租卡、起服务、暴露固定本地 /v1、自动停机和 CU 账本收进一个本地应用，省掉自己写启动与停机脚本这一步；相较闭源 API，它让请求走本地端点、按
+    Colab 算力单位而非 token 计费。因此在意成本与数据不出本机、又不想维护 GPU 的开发者会在需要跑开源模型时选它。
+  usage_reason_en: 'Inference: versus hand-written Colab scripts it folds renting, serving, a fixed local
+    /v1, auto-stop and a CU ledger into one local app, removing the need to write startup and shutdown
+    scripts; versus closed APIs it keeps requests on a local endpoint billed in Colab compute units rather
+    than tokens. Developers who care about cost and keeping data local but do not want to maintain a GPU
+    would pick it when they need to run open models.'

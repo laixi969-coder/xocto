@@ -1,11 +1,14 @@
 ---
 slug: reddit-is-killing-rss-feeds-and-ending-public-api-access-bec
-name: Reddit is killing RSS feeds and ending public API access because of AI bots
+name: Reddit
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Reddit 于 2026 年 9 月 30 日宣布终止对 RSS 订阅源的支持，并结束公共 API 访问，理由是应对 AI 机器人抓取。这收紧了其用户生成内容的外部获取渠道，可能提高依赖该内容训练或构建应用的
+  AI 开发者的数据获取成本与合规难度（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: On September 30, 2026 Reddit announced it is ending support for RSS feeds and terminating
+  public API access, citing AI bots. This tightens external access to its user-generated content and may
+  raise data-acquisition costs and compliance difficulty for AI developers relying on that content (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +25,7 @@ summary: Reddit is ending support for RSS feeds, as the company continues tighte
   of user-generated content.
 first_seen: '2026-09-30T17:45:00Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Reddit is killing RSS feeds and ending public API access because of AI bots
+# Reddit
 
 Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.
 

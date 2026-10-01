@@ -81,3 +81,52 @@
   usage_reason: 用户要完成的任务是：机械设计工程师、CAD 制图员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Mechanical Design Engineer, CAD Drafter Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-solidworks-2026-10-01
+  project_slug: solidworks
+  level: full
+  reviewed_at: '2026-10-01T01:55:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机械设计工程师在已有SolidWorks模型上重复建模的需求，痛点是桌面CAD逐条点选草图、拉伸、圆角与导出属高频机械负担，旧替代为手工操作或自写宏；公开材料未给频率与代价数据，此判断为工作流结构推理，非用户采用事实。
+    evidence_ids:
+    - ev-691c99433718218a
+    - ev-b302d663d848b778
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有SolidWorks官方下载页、官网与维基条目，未见该MCP服务自身的用户评价、讨论或持续采用证据，无法判断目标工程师是否已把它留在工作流里。
+    evidence_ids:
+    - ev-b3b90de7e666a8ba
+    - ev-ff7bbbb769d8f985
+  - gate: model
+    status: insufficient
+    reason: 该服务为开源项目，公开材料未见定价、付费主体或单位经济；谁付钱尚不清，这是模式缺口而非需求不存在，判断而非已验证事实。
+    evidence_ids:
+    - ev-dba4c0556faa68e3
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明每一步是否需人工确认、AI误改模型的安全边界，也未提供可复现的交付结果，承诺能否确定性交付尚缺证据。
+    evidence_ids:
+    - ev-7d9ec035d647e183
+  next_validation: 追踪该SolidWorks MCP服务仓库的README、issue与discussion，确认其部署方式、人工确认边界与真实使用场景。
+  market: ''
+  job: 机械设计工程师或CAD制图员在已有SolidWorks模型上做重复性建模改动时，打开这个开源MCP服务，让AI助手接收自然语言指令，在运行中的SolidWorks实例里执行草图、拉伸、圆角，并导出STEP/STL或生成可复用宏，最终拿到改好的模型文件或宏。
+  job_en: A mechanical design engineer or CAD drafter doing repetitive edits on an existing SolidWorks
+    model opens this open-source MCP server, lets an AI assistant take natural-language instructions,
+    and executes sketch, extrude, and fillet operations inside a running SolidWorks instance, then exports
+    STEP/STL or generates a reusable macro to obtain the modified model file or macro.
+  pain: SolidWorks是桌面端实体建模CAD，重复的草图、拉伸、圆角与导出操作需要工程师逐条点选菜单完成，属于高频、机械、可脚本化的负担；公开材料未给出不解决的具体代价或频率数据，此痛点判断为工作流结构推理。
+  pain_en: SolidWorks is desktop solid-modeling CAD, and repetitive sketch, extrude, fillet, and export
+    operations must be done through manual menu clicks, a high-frequency, mechanical, scriptable burden;
+    public materials give no cost or frequency data, so this pain is a workflow-structure inference.
+  current_alternative: 旧做法是工程师在SolidWorks界面里手工点选完成每一步，或自行编写VBA/宏脚本；公开材料未说明用户当前具体如何绕过这一负担。
+  current_alternative_en: The old approach is for the engineer to click through each step in the SolidWorks
+    UI, or to hand-write VBA/macro scripts; public materials do not show how users currently work around
+    this burden.
+  usage_reason: 推断：相较手工点选或自行写宏，该服务把自然语言指令直接映射为运行中SolidWorks的草图、拉伸、圆角与导出动作，省去逐条菜单操作和宏语法编写这一步，因此做重复建模改动的工程师在已有模型上批量改动时会选择它；公开材料未提供用户反馈或采用证据。
+  usage_reason_en: 'Inference: versus manual clicking or hand-writing macros, this server maps natural-language
+    instructions directly to sketch, extrude, fillet, and export actions in a running SolidWorks instance,
+    removing the step of per-item menu operation and macro syntax authoring, so engineers doing repetitive
+    edits on existing models would choose it; public materials provide no user feedback or adoption evidence.'

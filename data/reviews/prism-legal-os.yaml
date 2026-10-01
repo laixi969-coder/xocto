@@ -115,3 +115,54 @@
   usage_reason: 用户要完成的任务是：法务人员、律师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: In-house counsel, Lawyers Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-prism-legal-os-2026-10-01
+  project_slug: prism-legal-os
+  level: full
+  reviewed_at: '2026-10-01T01:55:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同审阅、法律检索与诉讼要点整理中的重复阅读劳动，痛点在于高时薪律师被逐条查法条判例占用判断时间；旧替代是人工通读加 Westlaw/LexisNexis 类检索库，不解决的后果是初稿产出慢。公开材料仅给出产品定位，输入输出与人工复核环节未说明，故为工作流结构推理而非用户采用证据。
+    evidence_ids:
+    - ev-aa5c6f1c154555c4
+    - ev-f0461ec8e02b1b24
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 252 增至 265，说明开源社区持续关注，但收藏属关注度而非目标律师的持续使用；公开材料没有律师或法务的采用、评价或工作流嵌入证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-aa5c6f1c154555c4
+    - ev-ef5adfbf20ae7fa5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费主体或单位经济，钱可能来自律所/企业法务的 to B 采购，也可能只是 to VC 的开源叙事；这是判断而非已验证事实，商业路径缺口不反推需求不存在。
+    evidence_ids:
+    - ev-aa5c6f1c154555c4
+  - gate: truth
+    status: insufficient
+    reason: 法律场景对条款分析与检索结果的可核对性、幻觉风险与人工复核边界要求高，公开材料未说明输出如何被验证、由谁签字负责，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-aa5c6f1c154555c4
+  next_validation: 追踪 Prism-Legal-OS 仓库的 README、issue 与 discussion，确认是否有律所或企业法务公开描述部署场景、输入输出格式与人工复核流程。
+  market: ''
+  job: 律所律师或企业法务在收到待审合同、需要做法律检索或准备诉讼材料时，把合同文本或检索问题交给 Prism-Legal-OS，得到条款分析、检索结果或诉讼要点草稿，再据此人工复核定稿。
+  job_en: Lawyers at firms or in-house counsel receiving a contract to review, a research question, or
+    litigation materials feed the contract text or query into Prism-Legal-OS to obtain clause analysis,
+    research results, or a draft of litigation points, then human-review and finalize.
+  pain: 合同逐条审阅、判例与法条检索、诉讼要点整理都是高时薪律师的重复性阅读劳动，量大时挤压判断时间；公开材料只说明产品定位，未给出用户自述的耗时或出错代价，痛点强度属工作流结构推理。
+  pain_en: Clause-by-clause contract review, case-law and statute research, and assembling litigation
+    points are repetitive reading work for high-billing lawyers, crowding out judgment time at volume;
+    public materials state only the product positioning, not user-reported time cost or error consequences,
+    so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是律师或法务人工通读合同、在 Westlaw/LexisNexis 等检索库中逐条查法条判例、手工整理要点，或使用商业法律 AI 工具；公开材料未说明
+    Prism 具体替代了其中哪一步。
+  current_alternative_en: The old way is manual full-text contract reading, clause-by-clause statute and
+    case lookup in databases such as Westlaw/LexisNexis, hand-assembled memos, or commercial legal-AI
+    tools; public materials do not specify which step Prism replaces.
+  usage_reason: 推断：相较人工通读加数据库逐条检索，它把合同文本或检索问题一次性交给模型，直接产出条款分析、检索结果或诉讼要点草稿，省去从零起草和跨库翻找的起步负担，因此处理批量合同或需要快速出初稿的律师、法务会在初筛阶段选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual reading plus clause-by-clause database lookup, it feeds the
+    contract or query to a model in one pass and returns clause analysis, research results, or a draft
+    of litigation points, removing the from-scratch drafting and cross-database hunting burden, so lawyers
+    and counsel handling contract volume or needing a fast first draft would pick it at the triage stage;
+    no public user feedback yet confirms this motive.'

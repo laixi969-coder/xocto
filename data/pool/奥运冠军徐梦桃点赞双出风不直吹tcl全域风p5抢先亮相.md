@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yLWQ4UVJQckpK
 summary: 奥运冠军徐梦桃点赞“双出风，不直吹”，TCL全域风P5抢先亮相 rmzxw.com.cn
 first_seen: '2026-09-30T01:31:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

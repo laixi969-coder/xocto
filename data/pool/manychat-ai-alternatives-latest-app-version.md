@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFTUt5cHJmMjkz
 summary: Manychat AI alternatives Latest App Version Học viện Nông nghiệp Việt Nam
 first_seen: '2026-09-30T12:46:12Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

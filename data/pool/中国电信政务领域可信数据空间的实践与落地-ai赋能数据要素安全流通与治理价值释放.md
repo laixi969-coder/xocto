@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEVVNLdVE3ZFJk
 summary: 中国电信政务领域可信数据空间的实践与落地 ——AI赋能数据要素安全流通与治理价值释放 信息化观察网
 first_seen: '2026-09-30T03:42:55Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -280,3 +280,53 @@
     review before the local commit, has the agent run staged checks and centralizes results in a local
     dashboard, removing the wait for feedback and manual line-by-line screening — so developers who care
     about pre-commit quality control would adopt it during local development.'
+- id: req-full-jev-review-2026-10-01
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-10-01T01:54:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 编码代理产出改动后、提交前的质量评审任务，痛点是人工逐行审查跟不上代理产出速度、检查项不固定且结果不留痕。旧替代为人工读 diff、CI 静态检查与对话式自查。仓库说明确认其为本地优先的
+      MCP 评审插件与分阶段评审看板，输入—动作—交付闭环可还原，属工作流结构推理；尚无用户抱怨或缺陷数据佐证强度。
+    evidence_ids:
+    - ev-ccbdd0d87efb7dc1
+    - ev-5cdb86bce5c13392
+  - gate: consensus
+    status: insufficient
+    reason: 两个同名仓库分别约 230 与 640 余星，说明开发者已注意到该评审工作流，但星标只属关注度，不能证明持续使用；公开材料未见 issue、discussion 或用户评价说明谁在何种场景长期采用，也未说明是否替代了原有评审流程。
+    evidence_ids:
+    - ev-e231af44f95c4946
+    - ev-cbe82176fff3120c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断收入来自个人开发者订阅、团队席位还是开源赞助；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ccbdd0d87efb7dc1
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明确认其为本地优先、由 Jev 驱动的 MCP 插件，代码不出本机符合安全边界；但公开材料未说明具体检查项、交付格式与结果可复现性，人工确认环节的边界也缺可复现证据。
+    evidence_ids:
+    - ev-5cdb86bce5c13392
+  next_validation: 追踪 jev-review 仓库的 README、issue 与 discussion，确认其分阶段检查项、看板交付格式，以及是否有用户公开描述在提交前实际替代了原有评审流程。
+  market: ''
+  job: 开发者在提交代码或合并 PR 前，把待评审的改动交给 AI 编码代理，由代理按阶段做质量检查，并在本地看板中查看结果后决定是否放行。
+  job_en: Before committing or merging, developers hand pending changes to an AI coding agent that runs
+    staged quality checks and inspect the results in a local dashboard before deciding whether to ship.
+  pain: AI 编码代理产出改动的速度远快于人工逐行审查的速度，评审成为提交前的瓶颈；漏掉的问题会进入主干并放大返工成本。公开材料只给出产品定位，未提供用户抱怨或缺陷数据，因此痛点强度属工作流结构推理。
+  pain_en: AI coding agents produce changes faster than humans can review line by line, making review
+    the pre-commit bottleneck; missed issues reach main and multiply rework cost. Public materials give
+    only product positioning, not user complaints or defect data, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 旧做法是人工逐行读 diff、依赖 CI 静态检查与人工 PR 评审，或让编码代理在对话中零散地自查；这些方式要么慢，要么检查项不固定、结果不留痕。
+  current_alternative_en: The old way is reading diffs line by line, relying on CI linters and human PR
+    review, or letting the coding agent self-check ad hoc in chat; these are either slow or leave checks
+    non-repeatable and results untracked.
+  usage_reason: 推断：相较人工逐行读 diff 或对话式零散自查，它把评审拆成固定阶段并交给代理执行，结果集中到本地看板，减少的是“每次都要重新组织检查步骤、结果散落无处复核”这一步负担；本地优先意味着代码不出本机，因此在意代码外泄、又想让代理先过一遍的开发者会在提交前选择它。
+  usage_reason_en: 'Inference: versus reading diffs by hand or ad-hoc chat self-checks, it splits review
+    into fixed stages run by the agent and collects results in a local dashboard, removing the burden
+    of re-organizing check steps each time and of results scattered with no place to re-inspect; local-first
+    keeps code on-machine, so developers wary of code leakage who still want an agent pass will pick it
+    before committing.'

@@ -151,3 +151,54 @@
   usage_reason: 用户要完成的任务是：短片导演与分镜设计、品牌短视频创意；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: short-film director and storyboard designer, brand short-video creative
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-lemo-opuscar-2026-10-01
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-01T01:54:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短片创作中风格统一与分镜参考从零摸索的问题：用户挑一种风格、带入自己的故事，由代理按提示词与纯代码样片生成成片。痛点刚性来自风格一致性依赖个人经验、不采用则每次重来；交付物是可播放短片，闭环可确定。此为工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+    - ev-16020b52c9dc9148
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 352 增至 683、风格数从 39 增至 43，说明开发者社区持续关注并有人复刻；但公开材料没有目标用户（导演、品牌内容团队）的采用、留存或复购证据，关注度不能替代持续使用。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+    - ev-645b39c15094c2c1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，无法判断钱来自 to C 创作者、to B 品牌团队还是仅靠开源关注度；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+  - gate: truth
+    status: insufficient
+    reason: 仓库给出风格提示词与纯代码样片，但公开材料未说明生成流程中的人工确认环节、失败率与安全边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-16020b52c9dc9148
+  next_validation: 追踪 lemo-opuscar 仓库的 issue 与 discussion，确认是否有创作者报告实际用某风格完成短片、替代了原有分镜流程，以及是否出现付费或商业使用记录。
+  market: ''
+  job: 短片创作者或品牌内容团队在需要产出风格统一的短片时，先选定仓库中 39–43 种影片风格之一，把自己的故事素材交给 AI 代理，由代理按该风格的提示词与纯代码样片生成一段可播放成片。
+  job_en: A short-film creator or brand content team needing a stylistically consistent short picks one
+    of the 39–43 film styles, hands their own story material to an AI agent, and has the agent generate
+    a playable short using that style's prompt and code-only sample film.
+  pain: 公开材料未给出用户抱怨或访谈，但结构上可还原痛点：风格一致性依赖导演个人经验，从零写分镜与视觉参考成本高；不采用则每次都要重新摸索风格提示与镜头语言，产出不稳定。这是工作流推理，不是用户口述。
+  pain_en: 'Public materials contain no user complaints or interviews, but the pain is structurally recoverable:
+    style consistency depends on individual director experience, and writing storyboards and visual references
+    from scratch is costly; without it, each project re-explores style prompts and shot language, producing
+    unstable output. This is workflow inference, not user testimony.'
+  current_alternative: 旧做法是导演自行撰写分镜与风格参考、翻找参考片或使用通用文生视频工具逐条试提示词；仓库把风格提示词与纯代码样片打包成可复用模板，替代了从零摸索风格这一步。
+  current_alternative_en: The old approach is a director writing storyboards and style references by hand,
+    hunting for reference films, or iterating prompts one by one in generic text-to-video tools; the repo
+    packages style prompts with code-only sample films as reusable templates, replacing the from-scratch
+    style search.
+  usage_reason: 推断：相较逐条试提示词，用户可直接选用已配好样片的风格提示词，省去自己校准风格与镜头语言的一步，因此需要快速产出风格统一短片的创作者会在起步阶段选择它。仓库收藏从 352
+    增至 683 说明关注度上升，但这不是持续使用的证据。
+  usage_reason_en: 'Inference: rather than iterating prompts one by one, users can pick a style prompt
+    already paired with a sample film, skipping the step of calibrating style and shot language themselves,
+    so creators needing fast, stylistically consistent shorts would choose it at the starting stage. Stars
+    rising from 352 to 683 shows attention, not sustained use.'

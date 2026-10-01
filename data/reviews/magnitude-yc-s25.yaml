@@ -1,0 +1,88 @@
+- id: req-initial-magnitude-yc-s25-2026-10-01
+  project_slug: magnitude-yc-s25
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 agent 推理成本与时延的调优需求，痛点方向成立，但公开材料只有一句自述，说不清优化对象、幅度与交付结果，价值判断缺依据。
+    evidence_ids:
+    - ev-7a394fe73f2758cc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一次社区讨论热度，无客户案例、无重复使用或采用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-7a394fe73f2758cc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to B 开发者工具还是 to VC 叙事无法区分，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7a394fe73f2758cc
+  - gate: truth
+    status: insufficient
+    reason: 无法核对优化是否真实发生、能否确定性交付，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-7a394fe73f2758cc
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认其实际优化对象、接入方式与可复现的基准结果。
+  market: ''
+  job: 构建 agent 的开发者，在 agent 上线后推理成本或时延超出预期时，处理线上调用日志与推理配置，要把每次调用的模型、参数和路由调到可接受的成本与时延区间。
+  job_en: Developers building agents, when inference cost or latency exceeds expectations after launch,
+    work with production call logs and inference configuration to tune each call's model, parameters,
+    and routing into an acceptable cost and latency range.
+  pain: agent 调用链长、重试多，人工逐项调参和改路由既慢又难复现，成本波动无法提前预判。
+  pain_en: Agent call chains are long with many retries; manually tuning parameters and rewriting routing
+    is slow and hard to reproduce, and cost swings cannot be anticipated.
+  current_alternative: 开发者自己写脚本统计 token 用量、手动改模型与参数、用通用网关做重试和路由。
+  current_alternative_en: Developers write their own scripts to tally token usage, manually switch models
+    and parameters, and use general-purpose gateways for retries and routing.
+  usage_reason: 推断：若引擎能自动读取调用特征并调整推理配置，可省去人工逐项调参这一步，让开发者在成本或时延超预算时少做一次手工排查；但公开材料未给出优化幅度、接入成本或任何使用反馈，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the engine can read call characteristics and adjust inference configuration
+    automatically, it removes the manual parameter-tuning step, sparing developers one round of manual
+    investigation when cost or latency exceeds budget; however, public materials give no optimization
+    magnitude, integration cost, or user feedback, so it cannot be confirmed that users would choose it
+    for this reason.'
+- id: req-full-magnitude-yc-s25-2026-10-01
+  project_slug: magnitude-yc-s25
+  level: full
+  reviewed_at: '2026-10-01T01:54:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 agent 推理成本与时延的调优需求，但公开材料只有一句自述，说不清优化对象、幅度与交付结果，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-3cadd81ab697ca55
+    - ev-f7c4a054c1e8d2e9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认其实际优化对象、接入方式与可复现的基准结果。
+  market: ''
+  job: 构建 agent 的开发者，在 agent 上线后推理成本或时延超出预期时，处理线上调用日志与推理配置，要把每次调用的模型、参数和路由调到可接受的成本与时延区间。
+  job_en: Developers building agents, when inference cost or latency exceeds expectations after launch,
+    work with production call logs and inference configuration to tune each call's model, parameters,
+    and routing into an acceptable cost and latency range.
+  pain: 公开材料只有一句自述，未说明优化对象、幅度与交付结果，无法确认 agent 调用链长、重试多带来的调参负担是否为其真实痛点。
+  pain_en: Public materials contain only a one-line self-description with no stated optimization target,
+    magnitude, or delivery result, so it cannot be confirmed that tuning burden from long agent call chains
+    and retries is its real pain point.
+  current_alternative: 公开材料未披露开发者当前如何绕过该问题，无法确认其替代方式。
+  current_alternative_en: Public materials do not disclose how developers currently work around this problem,
+    so the alternative cannot be confirmed.
+  usage_reason: 推断：若引擎能自动读取调用特征并调整推理配置，可省去人工逐项调参这一步；但公开材料未给出优化幅度、接入成本或任何使用反馈，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the engine can read call characteristics and adjust inference configuration
+    automatically, it removes the manual parameter-tuning step; however, public materials give no optimization
+    magnitude, integration cost, or user feedback, so it cannot be confirmed that users would choose it
+    for this reason.'

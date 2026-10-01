@@ -93,3 +93,93 @@
     act on an answer themselves; users needing end-to-end completion of multi-step tasks would choose
     it in such situations. This causal claim is workflow reasoning from product positioning and task structure,
     not yet supported by user feedback or customer cases.'
+- id: req-initial-china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2-2026-10-01
+  project_slug: china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2
+  level: initial
+  reviewed_at: '2026-10-01T01:19:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨工具多步骤任务需人工逐步操作、易漏步的问题，旧行为是用户自己在浏览器里逐步完成或外包给助理，痛点具体且不做的代价明确。
+    evidence_ids:
+    - ev-98649d3244f1a092
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道标题与一次版本更新描述，缺少可归因到该产品的使用规模、留存或客户案例，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-98649d3244f1a092
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费路径，买方是个人订阅还是企业采购无法确认；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-98649d3244f1a092
+  - gate: truth
+    status: insufficient
+    reason: Agent 持有手机号与钱包涉及账号安全与资金边界，材料未说明人工确认环节与失败回滚机制，承诺能否确定性交付尚不可核验。
+    evidence_ids:
+    - ev-98649d3244f1a092
+  next_validation: 收集 Manus 官方定价页或官方发布说明，确认其收费方式、Agent 账号与钱包的安全边界及人工确认环节。
+  market: ''
+  job: 个人用户和小团队在需要跨多个网站与应用完成调研、填表、下单或对账时，把整段多步骤操作交给通用 Agent 执行，自己只做结果确认。
+  job_en: Individual users and small teams hand an entire multi-step operation to a general agent when
+    research, form filling, ordering or reconciliation spans several websites and apps, keeping only final
+    confirmation for themselves.
+  pain: 这类任务步骤碎、要反复切换工具并登录不同账号，人工做耗时且容易漏步；不做的代价是任务被推迟或外包给助理。
+  pain_en: Such tasks are fragmented, require switching tools and logging into different accounts, and
+    are slow and error-prone by hand; the cost of not doing them is delay or outsourcing to an assistant.
+  current_alternative: 目前多由用户自己在浏览器里逐步操作，或使用只能对话、不能真正登录和执行的聊天助手，复杂任务仍需人工接管。
+  current_alternative_en: Today users mostly work step by step in a browser themselves, or use chat assistants
+    that can talk but cannot actually log in and execute, so complex tasks still need human takeover.
+  usage_reason: 相较只能给建议的聊天助手，它让 Agent 持有手机号与钱包并进入群组协作，把“登录—操作—结算”这几步从人工手里接走，因此需要代为执行账号级操作的用户会在任务跨多个工具时选择它；这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with chat assistants that only give advice, it lets agents hold phone numbers
+    and wallets and join group collaboration, taking the log-in, operate and settle steps off human hands,
+    so users who need account-level execution may choose it when a task spans several tools; this is an
+    inference from product capability, with no retention or repeat-use evidence yet.
+- id: req-full-china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2-2026-10-01
+  project_slug: china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2
+  level: full
+  reviewed_at: '2026-10-01T01:52:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨工具多步骤任务需人工逐步操作、易漏步的问题，旧行为是用户自己在浏览器里逐步完成或外包给助理，痛点具体且不做的代价明确。
+    evidence_ids:
+    - ev-9063c445bc52b236
+    - ev-4640064526839f1f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品自述与百科条目，缺少可归因到该产品的使用规模、留存或客户案例，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-9063c445bc52b236
+    - ev-73e8bfadbdce6da1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费路径，买方是个人订阅还是企业采购无法确认；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-4640064526839f1f
+  - gate: truth
+    status: insufficient
+    reason: Agent 持有手机号与钱包涉及账号安全与资金边界，材料未说明人工确认环节与失败回滚机制，承诺能否确定性交付尚不可核验。
+    evidence_ids:
+    - ev-9063c445bc52b236
+  next_validation: 收集 Manus 官方定价页或官方发布说明，确认其收费方式、Agent 账号与钱包的安全边界及人工确认环节。
+  market: ''
+  job: 个人用户与小型团队在需要跨多个网站和应用完成调研、资料整理、填表或对账时，把整段多步骤操作交给通用 Agent 执行，自己只做结果确认。
+  job_en: Individual users and small teams hand an entire multi-step operation to a general agent when
+    research, document organization, form filling or reconciliation spans several websites and apps, keeping
+    only final confirmation for themselves.
+  pain: 这类任务步骤碎、需反复切换工具并登录不同账号，人工做耗时且容易漏步；不做的代价是任务被推迟或外包给助理。
+  pain_en: Such tasks are fragmented, require switching tools and logging into different accounts, and
+    are slow and error-prone by hand; the cost of not doing them is delay or outsourcing to an assistant.
+  current_alternative: 目前多由用户自己在浏览器里逐步操作，或使用只能对话、不能真正登录和执行的聊天助手，复杂任务仍需人工接管。
+  current_alternative_en: Today users mostly work step by step in a browser themselves, or use chat assistants
+    that can talk but cannot actually log in and execute, so complex tasks still need human takeover.
+  usage_reason: 相较只能给建议的聊天助手，它让 Agent 持有手机号与钱包并进入群组协作，把“登录—操作—结算”这几步从人工手里接走，因此需要代为执行账号级操作的用户会在任务跨多个工具时选择它；这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with chat assistants that only give advice, it lets agents hold phone numbers
+    and wallets and join group collaboration, taking the log-in, operate and settle steps off human hands,
+    so users who need account-level execution may choose it when a task spans several tools; this is an
+    inference from product capability, with no retention or repeat-use evidence yet.

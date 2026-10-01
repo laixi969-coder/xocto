@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPa19GU2VyV2Rr
 summary: How AI is changing marketing strategy and consumer choice The World Economic Forum
 first_seen: '2026-09-30T09:45:06Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

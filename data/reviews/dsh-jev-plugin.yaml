@@ -1,0 +1,88 @@
+- id: req-initial-dsh-jev-plugin-2026-10-01
+  project_slug: dsh-jev-plugin
+  level: initial
+  reviewed_at: '2026-10-01T01:18:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理执行中选择与审批缺乏统一判断的问题，痛点来自人工盯守和事后难追溯，旧做法是自写规则或人工审批。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  - gate: consensus
+    status: insufficient
+    reason: 48 个星标属于早期关注，没有用户反馈或采用数据说明它已进入实际代理流程。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价或买方，付费路径只能作为判断，不能当作已验证事实。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  - gate: truth
+    status: insufficient
+    reason: 把审批交给决策层后，判断依据是否可复核、出错时人工如何接管，公开材料均未说明。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  next_validation: 收集该插件的部署文档与 issue，确认决策层是否输出可复核的审批依据及人工接管方式。
+  market: ''
+  job: 在 DeepSeek Harness 上编排多个代理的开发者，在代理执行任务前后需要处理选择、监督、纠错与审批，确保动作按预期放行。
+  job_en: Developers orchestrating multiple agents on DeepSeek Harness need to handle selection, supervision,
+    correction and approval before and after agent actions so that steps are released as intended.
+  pain: 多代理流程里谁执行、要不要放行往往靠人工盯守，出错后难以追溯是哪一步判断失准。
+  pain_en: In multi-agent flows, who executes and whether to release often depends on human watching,
+    and after an error it is hard to trace which judgment failed.
+  current_alternative: 目前多由开发者自己写规则、人工审批或依赖代理框架自带的简单路由。
+  current_alternative_en: Today developers mostly write their own rules, approve manually, or rely on
+    simple routing built into agent frameworks.
+  usage_reason: 相较自写规则与人工盯守，它把选择与审批集中到一个决策层，减少逐次人工放行这一步；推断需要审计留痕的团队会因此选择它，但公开材料未提供客户案例或持续使用证据。
+  usage_reason_en: Compared with self-written rules and manual watching, it centralizes selection and
+    approval in one decision layer, cutting the step of releasing each action by hand; inference is that
+    teams needing audit trails would choose it, though public material offers no customer cases or continued-use
+    evidence.
+- id: req-full-dsh-jev-plugin-2026-10-01
+  project_slug: dsh-jev-plugin
+  level: full
+  reviewed_at: '2026-10-01T01:53:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理执行中选择与审批缺乏统一判断的问题，痛点来自人工盯守与事后难追溯，旧做法是自写规则或逐次人工审批；这是从插件功能与代理工作流结构推出的判断，非用户口述。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 48 个星标只反映早期关注度，没有用户反馈、issue 讨论或采用数据说明它已进入实际代理流程，强场景是否成立仍缺公开行为证据。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价、买方或商业条款，付费路径只能作为判断而非已验证事实；若仅靠社区维护而无企业采购或赞助，存在难以持续交付的风险。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  - gate: truth
+    status: insufficient
+    reason: 把审批交给决策层后，判断依据是否可复核、出错时人工如何接管、安全边界如何设定，公开材料均未说明，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  next_validation: 追踪该插件仓库的部署文档与 issue/discussion，确认决策层是否输出可复核的审批依据及人工接管方式。
+  market: ''
+  job: 在 DeepSeek Harness 上编排多个代理的开发者，在代理执行任务前后需要处理代理选择、执行监督、纠错与审批，确保每一步动作按预期放行。
+  job_en: Developers orchestrating multiple agents on DeepSeek Harness must handle agent selection, supervision,
+    correction and approval before and after each action so steps are released as intended.
+  pain: 多代理流程中由谁执行、是否放行常靠人工盯守，出错后难以追溯是哪一步判断失准，纠错与审批成本随代理数量上升。
+  pain_en: In multi-agent flows, who executes and whether to release often depends on human watching,
+    and after an error it is hard to trace which judgment failed, so correction and approval cost grows
+    with agent count.
+  current_alternative: 开发者目前多自己写路由规则、逐次人工审批，或依赖代理框架自带的简单路由与日志。
+  current_alternative_en: Developers today mostly write their own routing rules, approve each step manually,
+    or rely on simple routing and logs built into agent frameworks.
+  usage_reason: 相较自写规则与人工盯守，该插件把选择与审批集中到一个决策层，减少逐次人工放行这一步，并让判断依据可随执行链路留存；推断需要审计留痕的多代理团队会在流程变复杂时选择它，但公开材料未提供客户案例或持续使用证据。
+  usage_reason_en: Compared with self-written rules and manual watching, the plugin centralizes selection
+    and approval in one decision layer, cutting the step of releasing each action by hand and keeping
+    judgment traceable along the execution chain; inference is that multi-agent teams needing audit trails
+    would choose it as flows grow complex, though public material offers no customer cases or continued-use
+    evidence.

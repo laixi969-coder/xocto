@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/aktar
 summary: Share files instantly from your own cloud. Mac, Windows, iOS
 first_seen: '2026-09-29T11:23:35Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

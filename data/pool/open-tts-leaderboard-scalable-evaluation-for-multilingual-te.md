@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/open-tts-leaderboard
 summary: ''
 first_seen: '2026-09-30T00:00:00Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

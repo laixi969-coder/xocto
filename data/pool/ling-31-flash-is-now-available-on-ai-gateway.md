@@ -1,6 +1,6 @@
 ---
 slug: ling-31-flash-is-now-available-on-ai-gateway
-name: Ling 3.1 Flash is now available on AI Gateway
+name: Ling 3.1 Flash
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-a
 summary: ''
 first_seen: '2026-09-30T00:00:00Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Ling 3.1 Flash is now available on AI Gateway
+# Ling 3.1 Flash
 
 _（源没给简介）_
 

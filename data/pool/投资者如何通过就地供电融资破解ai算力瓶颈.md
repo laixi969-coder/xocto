@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNWlBxY2c3WXRu
 summary: 投资者如何通过就地供电融资，破解AI算力瓶颈 新浪财经
 first_seen: '2026-09-30T09:50:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

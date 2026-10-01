@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/coisland
 summary: Your whole engineering stack, in a notch
 first_seen: '2026-09-30T02:50:52Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

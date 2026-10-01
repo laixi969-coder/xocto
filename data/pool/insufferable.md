@@ -21,7 +21,7 @@ canonical_url: https://insufferable.dev/posts/the-ai-race-just-got-awkward
 summary: The AI Race Just Got Awkward
 first_seen: '2026-09-30T15:50:11Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

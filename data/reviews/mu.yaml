@@ -256,3 +256,54 @@
   usage_reason: 用户要完成的任务是：软件工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software engineers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-mu-2026-10-01
+  project_slug: mu
+  level: full
+  reviewed_at: '2026-10-01T01:54:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理每步都调用大模型带来的延迟与 token 成本问题，用户任务是在本地仓库中完成代码改动；公开仓库说明已给出“小模型判断、大模型执行”的输入—动作—交付闭环，痛点与交付可确定性属工作流结构推理，尚无用户抱怨或成本数据佐证强度。
+    evidence_ids:
+    - ev-21187f70c2f1ae0c
+    - ev-c175438c878704fc
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 160 增至 332，说明开发者社区持续关注；但收藏与增长只属关注度证据，不能证明目标用户已把它留在日常工作流或形成重复使用，缺少 issue、discussion
+      或用户评价佐证强场景。
+    evidence_ids:
+    - ev-21187f70c2f1ae0c
+    - ev-9f94192182d32dbc
+    - ev-c175438c878704fc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断收入来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推需求不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-21187f70c2f1ae0c
+  - gate: truth
+    status: insufficient
+    reason: 产品自述“先判断再执行”贴近编码代理的第一性目标，但公开材料未给出可复现的交付结果、失败率或人工与安全边界，无法确认改动能否稳定发生、由谁复核。
+    evidence_ids:
+    - ev-21187f70c2f1ae0c
+    - ev-cf9375e67a253687
+  next_validation: 追踪 mu 仓库的 README、issue 与 discussion，确认是否有用户公开描述在何种仓库任务中部署、替代了哪套旧流程及实际交付结果。
+  market: ''
+  job: 软件工程师在本地仓库中处理一个待改的代码库任务时，把代码库与任务交给 mu，由它先做常规调用判断、再让大模型执行改动，最终产出代码变更供开发者确认。
+  job_en: A software engineer working in a local repository hands a codebase and a change task to mu,
+    which first makes routine routing calls and then lets a large model perform the edits, producing a
+    code diff for the developer to confirm.
+  pain: 编码代理每一步都调用大模型会带来延迟与 token 成本，开发者需要在等待与费用之间反复权衡；公开材料只给出产品自述的“先判断再执行”机制，未提供用户抱怨或成本数据，痛点强度属工作流结构推理。
+  pain_en: Calling a large model on every agent step adds latency and token cost, forcing developers to
+    trade off waiting time against spend; public materials only give the product's own 'judge first, then
+    act' mechanism, with no user complaints or cost data, so pain intensity is a workflow inference.
+  current_alternative: 开发者目前多直接使用通用编码代理或大模型对话式改代码，每一步都走大模型；公开材料未说明 mu 具体替代了哪一款工具或哪套旧流程。
+  current_alternative_en: Developers today mostly use general coding agents or chat-based large-model
+    editing where every step hits the big model; public materials do not say which specific tool or old
+    workflow mu replaces.
+  usage_reason: 推断：相较每步都调用大模型的旧做法，mu 先用小模型判断常规调用、再让大模型执行实际改动，减少的是每步都走大模型带来的等待与 token 消耗这一步负担；关注成本与延迟、又需要代理完成实际改动的开发者会在本地仓库任务中选择它。
+  usage_reason_en: 'Inference: versus routing every step to a large model, mu uses a small judge for routine
+    calls and the big model only for the actual work, cutting the wait and token spend of big-model-every-step;
+    developers who care about cost and latency while still wanting real edits would pick it for local
+    repository tasks.'

@@ -132,3 +132,58 @@
     on different hosts can call each other; what they get is a self-hostable agent-to-agent channel, while
     the exact delivery form and human confirmation step still need verification. Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-agent-tincan-2026-10-01
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-01T01:52:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机部署下 agent 之间无法直接互相求助的问题，痛点在于跨机调用需自行搭转发通道；公开说明已给出输入（agent 求助请求）、动作（经 Tailscale 转发）与交付（跨机
+      agent 通道），属工作流结构推理，用户抱怨与频率证据仍缺。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+    - ev-0b66afd904350b13
+    - ev-d1302bed2f3e618e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 135 增至 162，说明开发者社区注意到它，但收藏与关注度不能证明目标用户已把它留在工作流中持续使用，缺少 issue、discussion 或部署反馈。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+    - ev-0b66afd904350b13
+    - ev-d1302bed2f3e618e
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未披露定价、付费主体或商业路径；谁付钱尚不可知，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+  - gate: truth
+    status: insufficient
+    reason: 公开说明未给出部署文档、可复现实测或人工确认与安全边界，交付能否稳定发生尚缺可核对证据。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+    - ev-0b66afd904350b13
+  next_validation: 追踪 agent-tincan 仓库的 README、issue 与 discussion，确认开发者实际部署场景、替代的旧转发做法及是否出现持续使用反馈。
+  market: ''
+  job: 开发者在自建或混合部署多台机器上运行多个 AI agent 时，需要让一个 agent 向另一个 agent 发起求助或调用，于是打开这个开源项目，把 agent 间的求助请求经 Tailscale
+    网络转发到目标 agent 所在主机，完成跨机 agent 协作。
+  job_en: Developers running multiple AI agents across self-hosted or hybrid machines need one agent to
+    ask another for help, so they open this open-source project to route the help request over a Tailscale
+    network to the agent on the target host, completing cross-host agent collaboration.
+  pain: 公开说明只给出“让 agent 互相求助、跨 Tailscale 网络”这一能力，未提供用户抱怨、频率或不采用代价；从工作流结构看，多机 agent 之间缺少现成通道时，开发者只能手写转发脚本或暴露端口，跨机调用这一步会反复成为负担。
+  pain_en: The public description only states the capability of letting agents ask each other for help
+    over Tailscale; it provides no user complaints, frequency, or cost of not adopting. Structurally,
+    without an existing channel between agents on different hosts, developers must hand-write forwarding
+    scripts or expose ports, making the cross-host call step a recurring burden.
+  current_alternative: 公开材料未说明现有替代方式；按工作流推断，开发者目前可能自行编写转发脚本、直接暴露端口，或把多个 agent 放在同一台机器上运行。
+  current_alternative_en: Public materials do not state the current alternative; by workflow inference,
+    developers today may hand-write forwarding scripts, expose ports directly, or run multiple agents
+    on the same machine.
+  usage_reason: 推断：相较手写转发脚本或暴露端口，它把跨机 agent 求助请求的转发交给 Tailscale 网络完成，减少开发者自己维护转发逻辑这一步；需要自托管、跨多台机器运行 agent
+    的开发者会在搭建多 agent 协作时选择它。
+  usage_reason_en: 'Inference: compared with hand-written forwarding scripts or exposed ports, it delegates
+    cross-host agent help-request routing to the Tailscale network, removing the step of maintaining forwarding
+    logic; developers who self-host and run agents across multiple machines would choose it when setting
+    up multi-agent collaboration.'

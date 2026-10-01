@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTE5NaDVtRTJJTmpy
 summary: 美光公司AI驱动的营收预测远超预期，订单积压量激增 es.tradingview.com
 first_seen: '2026-09-30T20:08:50Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

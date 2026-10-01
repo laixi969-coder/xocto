@@ -1,0 +1,85 @@
+- id: req-initial-upsolve-data-models-2026-10-01
+  project_slug: upsolve-data-models
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业内指标口径不一致导致 AI 答错的问题，痛点具体且不解决就要人工反复纠正；买方是谁尚不清楚。
+    evidence_ids:
+    - ev-56a7b1aeb748e8f6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有采用、评价或客户案例，无法判断数据团队是否真的把它接入日常查询。
+    evidence_ids:
+    - ev-56a7b1aeb748e8f6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自企业数据团队订阅或实施服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-56a7b1aeb748e8f6
+  - gate: truth
+    status: insufficient
+    reason: 指标定义一旦被模型沿用，错误口径会扩散到多个报表，公开材料未说明校验与人工确认机制。
+    evidence_ids:
+    - ev-56a7b1aeb748e8f6
+  next_validation: 收集该产品的官方定价页或客户案例，确认指标定义如何被录入与校验。
+  market: ''
+  job: 数据分析师或业务负责人在用 AI 查询公司经营数据时，处理内部指标口径与业务术语，要完成让模型按统一口径回答业务问题。
+  job_en: A data analyst or business lead querying company operating data with AI works with internal
+    metric definitions and business terminology to make the model answer business questions under one
+    shared definition.
+  pain: 同一指标在不同团队口径不一致，模型按字面理解容易给出错误答案，纠正口径往往靠人工反复解释。
+  pain_en: The same metric means different things across teams, models interpret it literally and answer
+    wrongly, and correcting definitions usually relies on repeated manual explanation.
+  current_alternative: 目前多靠人工维护指标字典、在提示词里反复粘贴定义，或由数据团队逐次解释口径。
+  current_alternative_en: Today teams maintain metric dictionaries by hand, paste definitions into prompts
+    repeatedly, or have the data team explain definitions case by case.
+  usage_reason: 相较每次在提示词里重贴定义，它把指标口径与业务词汇集中交给模型，减少重复解释这一步，因此口径复杂的中型企业数据团队会考虑使用；这是基于产品定位的推断，尚无客户案例佐证。
+  usage_reason_en: Compared with re-pasting definitions into prompts each time, it centralizes metric
+    definitions and business vocabulary for the model, removing the repeated explanation step, so data
+    teams at mid-sized firms with complex metrics may consider it; this is an inference from positioning,
+    not a customer case.
+- id: req-full-upsolve-data-models-2026-10-01
+  project_slug: upsolve-data-models
+  level: full
+  reviewed_at: '2026-10-01T01:56:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 全部证据指向 Upsolve 破产申请工具，与 AI 指标口径产品无关，公开材料既未描述该产品解决什么需求，也未给出痛点、旧替代或不解决的后果，无法形成价值判断。
+    evidence_ids:
+    - ev-825f84d551aebd84
+    - ev-bc823da8ee06bc60
+    - ev-8d60982ecdd35494
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Upsolve Data Models 的官方产品页或文档，确认其指标定义录入方式与交付形态；当前证据链全部指向 Upsolve 破产申请工具，需先确认该产品是否真实存在。
+  market: ''
+  job: 候选摘要称数据分析师或业务负责人在用 AI 查询公司数据前，把内部指标口径与业务词汇交给该产品，让模型按同一套定义理解问题并输出口径一致的查询结果；但输入方式、交付形态与人工确认环节均未核验。
+  job_en: The candidate summary claims a data analyst or business lead feeds internal metric definitions
+    and business vocabulary into the product before querying company data with AI, so the model answers
+    under one shared definition; input method, delivery form and human confirmation are unverified.
+  pain: 公开证据中没有任何材料描述指标口径不一致带来的具体痛点、发生频率或不解决的后果，无法确认用户是否真的为此付出纠正成本。
+  pain_en: No public evidence describes the concrete pain, frequency or consequence of inconsistent metric
+    definitions, so it is unconfirmed that users actually bear correction costs for this.
+  current_alternative: 公开证据未记录用户当前如何绕过口径问题，人工维护指标字典或反复粘贴定义只是推测，没有可引用的旧替代行为。
+  current_alternative_en: Public evidence records no current workaround for definition drift; hand-maintained
+    metric dictionaries or re-pasting definitions are speculation without citable prior behavior.
+  usage_reason: 缺少产品页面、文档或用户反馈，无法说明它相较旧做法减少哪一步负担，因此也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: Without product pages, docs or user feedback, it is impossible to say which step it
+    removes versus the old way, or which users would choose it under what circumstances.

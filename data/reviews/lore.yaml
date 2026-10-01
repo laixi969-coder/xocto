@@ -469,3 +469,86 @@
   usage_reason_en: 'Inference: compared with opening logs one by one, lore archives sessions in one place
     and supports search, removing the file-locating step so debugging and handover can retrieve past context
     directly; developers who use coding agents heavily and need to trace changes would try it.'
+- id: req-initial-lore-2026-10-01
+  project_slug: lore
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨会话找回结论与上下文的需求，痛点真实，旧做法是手动翻找或重新描述；但公开材料未给出使用数据。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，缺少用户评价或客户案例，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价或付费路径，买方是个人开发者还是团队尚不明确，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 本地存档贴近开发者第一性目标，但检索准确性与人工确认边界未见公开说明。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际检索场景与是否出现重复使用反馈。
+  market: ''
+  job: 使用 Claude Code 或 Codex 的开发者，在需要复用几天前某次会话里确定的方案或改动时，翻找历史会话记录，找回当时的结论与代码上下文。
+  job_en: A developer using Claude Code or Codex, when needing to reuse a decision or change settled in
+    a session days ago, digs through past sessions to recover the conclusion and code context.
+  pain: 编程助手的会话默认散落在本地或平台侧，跨会话检索困难，重复提问和重复排查会浪费大量时间。
+  pain_en: Assistant sessions are scattered locally or on the platform, cross-session search is hard,
+    and repeated asking and re-debugging waste substantial time.
+  current_alternative: 手动翻终端历史、复制粘贴到笔记，或重新向助手描述上下文。
+  current_alternative_en: Manually scrolling terminal history, pasting into notes, or re-describing context
+    to the assistant.
+  usage_reason: 推断：它把会话统一收进本地可搜索存档，省去手动翻找和重新描述上下文这一步，因此频繁跨会话复用结论的开发者会选它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it consolidates sessions into a searchable local archive, removing the
+    manual digging and re-describing step, so developers who often reuse conclusions across sessions would
+    choose it; no retention or repeat-use evidence yet.'
+- id: req-full-lore-2026-10-01
+  project_slug: lore
+  level: full
+  reviewed_at: '2026-10-01T01:54:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨会话找回结论与上下文的需求，痛点是旧做法手动翻找或重新描述，不解决会重复排查、丢失结论；这是工作流结构推理，公开材料未给出使用数据。
+    evidence_ids:
+    - ev-705d342b20f3231d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有市场覆盖检索与泛化 AI 介绍，缺少用户评价、客户案例或采用反馈，无法判断是否形成共识。
+    evidence_ids:
+    - ev-705d342b20f3231d
+    - ev-7e4fad89f4811bf9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或付费路径，买方是个人开发者还是团队尚不明确，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-705d342b20f3231d
+  - gate: truth
+    status: insufficient
+    reason: 本地存档贴近开发者第一性目标，但检索准确性与人工确认边界未见公开说明，交付确定性无法核验。
+    evidence_ids:
+    - ev-705d342b20f3231d
+  next_validation: 追踪该项目的公开仓库 issue 与 discussion，确认用户实际检索场景与是否出现重复使用反馈。
+  market: ''
+  job: 使用 Claude Code 或 Codex 的开发者，在需要复用几天前某次会话里已确定的方案、改动或结论时，打开本地工具检索历史会话，找回当时的结论与代码上下文。
+  job_en: A developer using Claude Code or Codex, when needing to reuse a decision, change, or conclusion
+    settled in a session days ago, opens a local tool to search past sessions and recover the conclusion
+    and code context.
+  pain: 编程助手的会话默认散落在本地或平台侧，跨会话检索困难；开发者只能重复提问或重新排查，浪费大量时间，且旧结论容易丢失。
+  pain_en: Assistant sessions are scattered locally or on the platform, cross-session search is hard;
+    developers re-ask or re-debug, wasting substantial time, and earlier conclusions are easily lost.
+  current_alternative: 手动翻终端历史、复制粘贴到笔记，或重新向助手描述上下文。
+  current_alternative_en: Manually scrolling terminal history, pasting into notes, or re-describing context
+    to the assistant.
+  usage_reason: 推断：相较手动翻找或重新描述上下文，它把 Claude Code 与 Codex 会话统一收进本地可搜索存档，省去逐条翻找和重述这一步，因此频繁跨会话复用结论的开发者会在需要回看旧会话时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus manual digging or re-describing context, it consolidates Claude
+    Code and Codex sessions into a searchable local archive, removing the step of scrolling and restating;
+    developers who often reuse conclusions across sessions would choose it when looking back at old sessions;
+    no retention or repeat-use evidence yet.'

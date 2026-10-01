@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFA3NEpaVldvcFlD
 summary: Meta Muse爆火，美银警示AI智能体或冲击苹果服务业务收入 手机新浪网
 first_seen: '2026-09-30T04:54:38Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

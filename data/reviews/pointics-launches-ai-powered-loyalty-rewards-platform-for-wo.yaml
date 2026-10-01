@@ -1,0 +1,89 @@
+- id: req-initial-pointics-launches-ai-powered-loyalty-rewards-platform-for-wo-2026-10-01
+  project_slug: pointics-launches-ai-powered-loyalty-rewards-platform-for-wo
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只说明做忠诚度与奖励，未写清商家原来的具体工作节点、痛点和不采用的后果，需求无法还原。
+    evidence_ids:
+    - ev-6f80e2634806bece
+    - ev-d324dcc5220074bb
+  - gate: consensus
+    status: insufficient
+    reason: 两条报道内容相同，均为发布通稿，没有商家采用、评价或重复使用的公开证据。
+    evidence_ids:
+    - ev-6f80e2634806bece
+    - ev-d324dcc5220074bb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，WordPress 插件可能按订阅收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6f80e2634806bece
+    - ev-d324dcc5220074bb
+  - gate: truth
+    status: insufficient
+    reason: AI 部分未说明输入与动作，无法核对承诺能否确定性交付，也未提及人工边界。
+    evidence_ids:
+    - ev-6f80e2634806bece
+    - ev-d324dcc5220074bb
+  next_validation: 收集 Pointics 官方定价页或 WordPress 插件目录页面，确认其收费方式、AI 功能说明与已安装商家数量。
+  market: ''
+  job: 用 WordPress 搭建独立站或门店页面的运营者，在做会员积分和复购活动时，需要配置并运行奖励规则。
+  job_en: An operator running an independent store or local business page on WordPress needs to configure
+    and run reward rules when building membership points and repeat-purchase campaigns.
+  pain: 公开材料只说明它做忠诚度与奖励，未说明商家原来卡在哪一步、不解决会损失什么，痛点无法从现有事实还原。
+  pain_en: Public material only says it does loyalty and rewards; it does not say which step merchants
+    were stuck on or what is lost without it, so the pain cannot be reconstructed from available facts.
+  current_alternative: 现有做法可能是手工配置积分规则或使用其他 WordPress 忠诚度插件，但候选材料未提供对比信息。
+  current_alternative_en: The existing approach may be manually configuring point rules or using other
+    WordPress loyalty plugins, but the candidate material provides no comparison.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，AI 具体做什么也未披露，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: It cannot be shown which step of the old approach is reduced or which verifiable result
+    improves, and what the AI actually does is undisclosed, so it is impossible to say which users would
+    choose it and when.
+- id: req-full-pointics-launches-ai-powered-loyalty-rewards-platform-for-wo-2026-10-01
+  project_slug: pointics-launches-ai-powered-loyalty-rewards-platform-for-wo
+  level: full
+  reviewed_at: '2026-10-01T01:55:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 WordPress 商家做会员积分与复购活动的配置负担，但公开材料只有发布通稿标题，未写清原来卡在哪一步、不解决会损失什么，痛点刚性无法还原，属自嗨式功能拼装。
+    evidence_ids:
+    - ev-6f80e2634806bece
+    - ev-d324dcc5220074bb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Pointics 官方定价页或 WordPress 插件目录页面，确认其收费方式、AI 功能说明与已安装商家数量。
+  market: ''
+  job: 用 WordPress 搭建独立站或门店页面的运营者，在需要做会员积分与复购活动时，要完成积分规则配置、奖励发放与活动上线这一整套站内任务。
+  job_en: An operator running an independent store or local business page on WordPress must configure
+    point rules, issue rewards, and launch campaigns when setting up membership points and repeat-purchase
+    activities.
+  pain: 公开材料只有发布通稿标题，未说明商家原来卡在哪一步、手工配置积分规则或外挂多个插件具体带来什么损失，痛点无法从现有事实还原，只能确认存在配置负担这一结构性推测。
+  pain_en: Public material is limited to launch-release headlines; it does not state which step merchants
+    were stuck on or what losses manual point-rule configuration or juggling multiple plugins caused,
+    so the pain cannot be reconstructed from available facts beyond a structural inference of configuration
+    burden.
+  current_alternative: 现有做法可能是手工配置积分规则，或外挂多个 WordPress 忠诚度插件拼装功能，但候选材料未提供任何对比信息。
+  current_alternative_en: The existing approach may be manually configuring point rules or assembling
+    several WordPress loyalty plugins, but the candidate material provides no comparison.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，AI 具体接收什么数据、执行什么动作也未披露，因此无法判断哪类用户会在什么情况下选择它（推断）。
+  usage_reason_en: It cannot be shown which step of the old approach is reduced or which verifiable result
+    improves, and what data the AI ingests or what action it performs is undisclosed, so it is impossible
+    to say which users would choose it and when (inference).

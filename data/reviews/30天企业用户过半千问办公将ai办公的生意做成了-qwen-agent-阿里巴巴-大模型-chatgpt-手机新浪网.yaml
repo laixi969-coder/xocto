@@ -39,3 +39,96 @@
   usage_reason: 若深度内嵌办公流程并能直接产出可编辑成果，员工为省时会改用；此为结构推理，留存与复购待核验
   usage_reason_en: If embedded in office flows and producing editable results directly, staff would switch
     to save time; this is structural reasoning, retention unverified.
+- id: req-initial-30天企业用户过半千问办公将ai办公的生意做成了-qwen-agent-阿里巴巴-大模型-chatgpt-手机新浪网-2026-10-01
+  project_slug: 30天企业用户过半千问办公将ai办公的生意做成了-qwen-agent-阿里巴巴-大模型-chatgpt-手机新浪网
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人办公中材料分散、上下文靠人传递的痛点，旧做法是人工复制粘贴与口头交接，结构上成立，但公开材料未给出具体交付细节。
+    evidence_ids:
+    - ev-25680b089a1a4635
+    - ev-274739332d66bb9a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有标题称30天内企业用户过半，无客户名单、使用频次或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-274739332d66bb9a
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、计费方式或买方，无法判断收入来自企业采购还是个人订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-25680b089a1a4635
+  - gate: truth
+    status: insufficient
+    reason: 企业上下文能否确定性交付、数据安全与人工确认边界如何，公开材料未说明，无法核对结果。
+    evidence_ids:
+    - ev-274739332d66bb9a
+  next_validation: 收集千问办公官方定价页或企业客户案例页面，确认计费方式与已披露的部署交付结果。
+  market: ''
+  job: 企业行政、运营或团队负责人在多人协作办公时，处理分散在文档、聊天记录和内部系统中的材料，需要把它们整理成可共享、可复用的办公产出。
+  job_en: Enterprise administrative, operations or team leads working in multi-person collaboration handle
+    material scattered across documents, chat logs and internal systems, and need to turn it into shareable,
+    reusable office output.
+  pain: 同一份材料在多个工具间反复复制粘贴，上下文靠人记忆传递，新人接手或跨部门协作时信息断层，返工成本高。
+  pain_en: The same material is repeatedly copied between tools, context is passed by human memory, and
+    handovers or cross-team work suffer information gaps and costly rework.
+  current_alternative: 目前多靠通用聊天助手加人工复制粘贴，或依赖文档、IM 与内部系统各自为政，由人手动串联。
+  current_alternative_en: Today people mostly use general chat assistants plus manual copy-paste, or rely
+    on documents, IM and internal systems that stay siloed and are stitched together by hand.
+  usage_reason: 推断：相较人工在多个工具间搬运，它把材料集中到共享工作台并由AI直接整理成产出，减少复制粘贴和口头交接这一步；需要多人共享同一上下文的团队会因此选择它，但公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually moving material between tools, it centralizes material
+    in a shared workspace and has AI organize it into output, removing the copy-paste and verbal handover
+    step; teams needing a shared context may choose it, though no retention or repeat-use evidence is
+    public.'
+- id: req-full-30天企业用户过半千问办公将ai办公的生意做成了-qwen-agent-阿里巴巴-大模型-chatgpt-手机新浪网-2026-10-01
+  project_slug: 30天企业用户过半千问办公将ai办公的生意做成了-qwen-agent-阿里巴巴-大模型-chatgpt-手机新浪网
+  level: full
+  reviewed_at: '2026-10-01T01:51:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人办公中材料分散、上下文靠人传递的痛点，旧做法是人工复制粘贴与口头交接，不解决则跨部门协作信息断层、返工成本高；官方说明其以自然语言驱动直接交付数据分析、PPT 等成果，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-c014f9b5429bddab
+    - ev-2d4f3a4b32da4d23
+  - gate: consensus
+    status: insufficient
+    reason: 仅有标题称30天内企业用户过半，无客户名单、使用频次或持续采用证据；官方页面只说明覆盖桌面、网页并接入钉钉，无法判断共识是否形成。
+    evidence_ids:
+    - ev-c014f9b5429bddab
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计费方式或买方，无法判断收入来自企业采购还是个人订阅；依托阿里云与钉钉生态，to B 采购是判断而非已验证事实。
+    evidence_ids:
+    - ev-c014f9b5429bddab
+    - ev-2d4f3a4b32da4d23
+  - gate: truth
+    status: insufficient
+    reason: 企业上下文读取哪些数据、产出能否确定性交付、数据安全与人工确认边界如何，公开材料均未说明，无法核对结果是否稳定发生。
+    evidence_ids:
+    - ev-c014f9b5429bddab
+  next_validation: 追踪千问办公官方定价页或阿里云/钉钉企业客户案例页面，确认计费方式与已披露的部署交付结果。
+  market: ''
+  job: 企业行政、运营或团队负责人在多人协作办公时，把分散在文档、聊天记录和内部系统中的材料交给千问办公，在共享工作台里整理并生成可复用的办公产出（数据分析、PPT、网页等）。
+  job_en: Enterprise admin, operations or team leads in multi-person collaboration hand material scattered
+    across documents, chat logs and internal systems to QwenWork, and have it organized into reusable
+    office output (data analysis, PPT, web pages) in a shared workspace.
+  pain: 同一份材料在多个工具间反复复制粘贴，上下文靠人记忆传递，跨部门协作或交接时信息断层，返工成本高；公开材料未给出具体交付细节与人工确认边界。
+  pain_en: The same material is repeatedly copied between tools, context is passed by human memory, and
+    cross-team handovers suffer information gaps and costly rework; public material gives no delivery
+    detail or human-confirmation boundary.
+  current_alternative: 目前多靠通用聊天助手（ChatGPT、Gemini 等）加人工复制粘贴，或依赖文档、IM 与内部系统各自为政，由人手动串联。
+  current_alternative_en: Today people mostly use general chat assistants (ChatGPT, Gemini, etc.) plus
+    manual copy-paste, or rely on documents, IM and internal systems that stay siloed and are stitched
+    together by hand.
+  usage_reason: 推断：相较人工在多个工具间搬运，它把材料集中到共享工作台并由 AI 直接产出可用成果，减少复制粘贴与口头交接这一步；需要多人共享同一上下文的团队会因此选择它，但公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually moving material between tools, it centralizes material
+    in a shared workspace and has AI produce usable output directly, removing the copy-paste and verbal
+    handover step; teams needing a shared context may choose it, though no retention or repeat-use evidence
+    is public.'

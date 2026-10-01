@@ -1,6 +1,6 @@
 ---
 slug: ascerta-raised-18m-to-tie-ai-spend-to-results
-name: Ascerta raised $18M to tie AI spend to results
+name: Ascerta
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNNDNNWlJOTWJY
 summary: Ascerta raised $18M to tie AI spend to results StartupHub.ai
 first_seen: '2026-09-30T16:32:25Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Ascerta raised $18M to tie AI spend to results
+# Ascerta
 
 Ascerta raised $18M to tie AI spend to results StartupHub.ai
 

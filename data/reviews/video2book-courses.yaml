@@ -153,3 +153,55 @@
   usage_reason: 用户要完成的任务是：学生与自学者、课程内容整理者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Students and self-learners, Course content organizers Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-video2book-courses-2026-10-01
+  project_slug: video2book-courses
+  level: full
+  reviewed_at: '2026-10-01T01:56:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频课无法快速定位与成体系复习的需求：用户要把数十小时课程音频变成可跳读、可速查的教材与脑图。旧做法是反复拖进度条、手写笔记或看零散笔记，耗时且不成体系；仓库已产出 518
+      册教材、603 篇笔记、2286 份逐字稿，交付形态明确。此为工作流结构推理，尚无用户抱怨或采用数据佐证痛点强度。
+    evidence_ids:
+    - ev-bb8209dddd3fcbe4
+    - ev-59de363696fadaa3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 43 增至 61，说明开发者社区注意到该项目，但星标与收藏只属关注度，不能证明目标学生群体持续使用或把它留在复习流程里；公开材料未见用户评价、复刻使用或课程采用记录。
+    evidence_ids:
+    - ev-59de363696fadaa3
+    - ev-bb8209dddd3fcbe4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，无法判断钱来自学生订阅、课程方采购还是仅靠开源捐赠；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-bb8209dddd3fcbe4
+  - gate: truth
+    status: insufficient
+    reason: 仓库称内容由 Video2Book 从真实课程音频重构，但生成流程、人工校对环节与版权授权边界均未公开，交付能否稳定复现、内容准确性由谁负责尚缺可核验材料。
+    evidence_ids:
+    - ev-bb8209dddd3fcbe4
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开 Video2Book 生成流程、人工校对说明及课程版权授权来源，以核验交付可复现性与合规边界。
+  market: ''
+  job: 学生或自学者在备考或自学一门长视频网课（如 Python、数据库、微机原理）时，面对数十小时课程音频，需要把逐讲内容转成可检索、可跳读、可考前速查的教材式材料，并导出 Markmap/XMind
+    脑图用于复习。
+  job_en: Students or self-learners preparing for exams or self-studying a long video course (Python,
+    databases, microcomputer principles) need to turn tens of hours of lecture audio into searchable,
+    skimmable, exam-revisable textbook-style material and export Markmap/XMind mind maps for review.
+  pain: 长视频课无法快速定位与回看，逐讲重听时间成本高；自己边看边记笔记既慢又容易漏掉结构，考前缺少成体系的速查材料。公开材料以产品说明呈现这一痛点，尚未见用户抱怨或访谈原文。
+  pain_en: Long video courses are hard to locate and re-watch; re-listening lecture by lecture is time-costly,
+    and hand-taking notes is slow and loses structure, leaving no systematic quick-review material before
+    exams. The pain is presented in product copy, not yet in user complaints or interviews.
+  current_alternative: 旧做法是反复拖拽视频进度条回看、自己手写或打字整理笔记，或直接看别人零散上传的课程笔记；这些替代要么耗时，要么不成体系、无法按模块复习。
+  current_alternative_en: The old approach is scrubbing the video timeline repeatedly, hand-writing or
+    typing notes, or reading scattered notes uploaded by others; these are either time-consuming or unsystematic
+    and not organized by module.
+  usage_reason: 推断：相较手动回看与记笔记，该仓库把课程音频直接重构为「单集精读长文 + 模块合辑全书 + 思维导图」三层成品，用户可跳过逐讲重听、直接按模块跳读并导入 XMind 复习，减少的是整理与定位这两步负担；因此赶考期或需要快速建立课程框架的自学者会优先选它。仓库
+    43→61 星的增长只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual re-watching and note-taking, the repo reconstructs lecture
+    audio directly into three layers (per-episode long reads, module compilations, mind maps), letting
+    users skip re-listening and jump by module and import into XMind, removing the organizing and locating
+    steps; hence self-learners near exams or needing a quick course framework would pick it. Star growth
+    from 43 to 61 shows attention only, not sustained use.'

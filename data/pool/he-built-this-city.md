@@ -24,7 +24,7 @@ summary: "I visited the Museum of the City of New York today and got to see  He 
   \ make a priority to see it if you get the chance. \n   \n\n     Tags:  museums ,  new-york"
 first_seen: '2026-09-30T21:54:19Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

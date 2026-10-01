@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9WOEQ0MFJ3UTRi
 summary: 江淮汽车探索AI赋能造车新模式，为汽车行业新型工业化提供参考 凤凰网
 first_seen: '2026-09-30T14:15:38Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

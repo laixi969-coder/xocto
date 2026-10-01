@@ -269,3 +269,50 @@
   usage_reason: 用户要完成的任务是：多代理编码协作、代码评审与交接；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: multi-agent coding collaboration, code review and handoff Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-sno-station-2026-10-01
+  project_slug: sno-station
+  level: full
+  reviewed_at: '2026-10-01T01:55:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理编码时上下文不互通、代理间无法传话、交接与跨厂商评审靠人工搬运的需求，痛点来自工作流结构推理；不解决的后果是开发者持续充当代理间消息通道，交付可确定为一套本地协作会话。
+    evidence_ids:
+    - ev-eade6779af07c1a4
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 323 个收藏，说明社区已注意到该项目，但收藏与关注只属规模信号，不能证明目标开发者已把它留在日常编码工作流中持续使用。
+    evidence_ids:
+    - ev-eade6779af07c1a4
+  - gate: model
+    status: insufficient
+    reason: 开源且未见定价页，谁付钱尚未核验；可能来自开发者自用、团队采购或赞助，这是判断而非已验证事实，属模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-eade6779af07c1a4
+  - gate: truth
+    status: insufficient
+    reason: 共享加密记忆的范围、夜间技能改写的人工批准边界与跨厂商评审的确定性交付，尚缺可复现的部署文档或实测证据，无法核对承诺是否按描述发生。
+    evidence_ids:
+    - ev-eade6779af07c1a4
+  next_validation: 追踪 sno.ai 仓库的 README、部署文档与 issue/discussion，确认共享记忆范围、夜间技能改写的批准流程及是否有真实开发者报告替代了手动搬运上下文。
+  market: ''
+  job: 开发者在本地同时运行 Claude Code 与 Codex 两个编码代理时，处理同一代码库的改动、评审与交接材料，要完成让两个代理共享上下文、互相传递任务并交叉评审的编码会话。
+  job_en: A developer running Claude Code and Codex side by side on a local machine handles changes, reviews
+    and handoff material for the same codebase, and must complete a coding session where the two agents
+    share context, pass tasks to each other and cross-review.
+  pain: 公开材料显示多代理并行时上下文与记忆不互通、代理之间无法直接传话、交接与跨厂商评审要人工搬运，夜间技能迭代也缺少可控的批准环节；这是从产品说明与工作流结构推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: Public materials show that parallel agents do not share context or memory, cannot message each
+    other, and handoff plus cross-vendor review must be moved by hand, while nightly skill iteration lacks
+    a controllable approval step; this pain is inferred from the product description and workflow structure,
+    not yet from user complaints or cases.
+  current_alternative: 旧做法是开发者手动在 Claude Code 与 Codex 之间复制粘贴上下文、自己充当代理间的消息通道，并人工执行交接与跨厂商评审；公开材料未给出用户实际替代行为的记录。
+  current_alternative_en: The old way is for the developer to manually copy context between Claude Code
+    and Codex, act as the message channel between agents, and perform handoff and cross-vendor review
+    by hand; public materials give no record of actual user substitution behavior.
+  usage_reason: 推断：相较手动搬运上下文，它通过共享加密记忆、Reach 代理间消息和交接/跨厂商评审技能，把开发者从复制粘贴与转述这一步中解放出来，因此同时使用两个代理并需要交叉评审的开发者会在本地协作场景选择它；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus manually moving context, it removes the copy-paste and relay step
+    through shared encrypted memory, Reach agent-to-agent messaging, and handoff/cross-vendor review skills,
+    so developers running two agents who need cross-review would choose it in a local collaboration setting;
+    this is inferred from product capability and task structure, not confirmed by user feedback.'

@@ -80,3 +80,44 @@
   usage_reason_en: 'Inference: it packages event-driven scheduling and persona configuration into a framework,
     saving developers from writing the scheduling layer, so builders of always-on bots may try it; but
     with no scenario, customer or payment evidence, there is no basis to say users stay long term.'
+- id: req-full-cortico-2026-10-01
+  project_slug: cortico
+  level: full
+  reviewed_at: '2026-10-01T01:53:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只给出框架定位，说不出具体用户任务、痛点、不采用的后果与现有替代，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-449b55bc5815e959
+    - ev-bfbd86b141a82ed7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该框架仓库的 README、issue 与 discussion，核对它面向的具体使用场景、输入输出格式与是否存在真实部署案例。
+  market: ''
+  job: 候选摘要称开发者要把该框架接入自己的消息事件流，按事件驱动调度一个固定人格的机器人；但公开材料未说明谁在什么情况下、处理什么输入、交付什么形态。
+  job_en: The candidate summary says a developer would wire this framework into their own message event
+    stream to schedule a fixed-persona bot by events; but the public material does not say who, in what
+    situation, with what input, or what deliverable.
+  pain: 公开材料只给出框架定位，没有说明任何具体用户任务受阻、现有做法哪里难受、不采用会失去什么；无法还原痛点。
+  pain_en: The public material only gives a framework positioning; it names no blocked user task, no friction
+    in current practice, and no loss from non-adoption, so no pain can be reconstructed.
+  current_alternative: 公开材料未提供任何现有替代方式，也没有可观察的绕过行为。
+  current_alternative_en: The public material offers no existing alternative and no observable workaround
+    behaviour.
+  usage_reason: 无法写出使用理由：公开材料没有说明相较任何旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能推断用户为何选择它。
+  usage_reason_en: 'No usage reason can be written: the public material does not say which step is saved
+    or which checkable result improves versus any prior practice, so there is no basis to infer why a
+    user would choose it.'

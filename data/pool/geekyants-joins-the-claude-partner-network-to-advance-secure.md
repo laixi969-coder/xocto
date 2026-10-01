@@ -22,7 +22,7 @@ summary: GeekyAnts Joins the Claude Partner Network to Advance Secure, Productio
   finchannel.com
 first_seen: '2026-09-20T18:15:50Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: vercel-agent-now-installs-private-packages-from-npm-and-cust
-name: Vercel Agent now installs private packages from npm and custom registries
+name: Vercel Agent
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/vercel-agent-now-installs-private-pa
 summary: ''
 first_seen: '2026-09-30T23:22:00Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Vercel Agent now installs private packages from npm and custom registries
+# Vercel Agent
 
 _（源没给简介）_
 

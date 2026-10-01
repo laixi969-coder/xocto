@@ -161,3 +161,50 @@
   usage_reason_en: 'Cannot be determined: public material provides no input format, deliverable, user
     feedback, or customer case, so no causal reason can be given for why users would choose it over their
     existing approach; any such reason would be inference only.'
+- id: req-full-heimdall-agent-2026-10-01
+  project_slug: heimdall-agent
+  level: full
+  reviewed_at: '2026-10-01T01:53:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权 CTF 与安全实验室中多步探测利用需人工串联的需求，痛点是步骤编排与记录负担；公开事实仅说明产品定位与星数，痛点刚性属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-2f009f67f09be719
+    - ev-a4ba7c4e256dcd40
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 91 升至 102 只说明开发者关注度上升，属规模证据；没有 issue、discussion 或评价显示安全研究员已把它用于日常授权测试，强场景是否成立仍缺公开材料。
+    evidence_ids:
+    - ev-2f009f67f09be719
+    - ev-a4ba7c4e256dcd40
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购路径；谁付钱只能推断为可能的 to B 安全团队或 to VC 开源叙事，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2f009f67f09be719
+  - gate: truth
+    status: insufficient
+    reason: 自主执行探测与利用涉及授权边界与误伤风险，公开材料未说明沙箱、权限限制与人工复核点，交付能否在授权范围内稳定发生仍缺可复现证据。
+    evidence_ids:
+    - ev-2f009f67f09be719
+    - ev-a4ba7c4e256dcd40
+  next_validation: 追踪 heimdall-agent 仓库的 issue、discussion 与文档，确认是否有安全团队在授权实验室中实际部署并记录替代的手工流程。
+  market: ''
+  job: 安全研究员或 AI 智能体开发者在授权 CTF 与安全实验室环境中，把靶机或题目交给 heimdall-agent，由框架自主编排探测与利用的多步动作并输出解题过程。
+  job_en: A security researcher or AI agent developer, inside an authorized CTF or security lab, hands
+    a target or challenge to heimdall-agent so the framework autonomously orchestrates multi-step probing
+    and exploitation and outputs the solving process.
+  pain: 公开材料只说明它是面向授权 CTF 与安全实验室的自主 agent 框架，未提供用户抱怨、频率或不采用代价；痛点强度属工作流结构推理，尚无用户证据。
+  pain_en: Public materials only describe it as an autonomous agent framework for authorized CTF and security
+    labs; no user complaints, frequency or cost of not adopting are shown, so pain intensity is a workflow
+    inference, not user evidence.
+  current_alternative: 推断旧做法是研究员手工在终端逐条执行侦察与利用命令，或自己拼接脚本与 LLM 调用，多步动作的编排和记录需要人工完成。
+  current_alternative_en: 'Inferred status quo: researchers manually run recon and exploitation commands
+    in a terminal, or hand-wire scripts and LLM calls, orchestrating and logging each step by hand.'
+  usage_reason: 推断：相较手工逐条执行，它把探测与利用步骤交给框架自主编排并输出过程，减少人工串联命令与记录这一步；哪类用户会长期采用尚无公开证据。
+  usage_reason_en: 'Inference: versus manual step-by-step execution, it lets the framework autonomously
+    orchestrate probing and exploitation and emit the process, removing the step of hand-chaining commands
+    and logging; which users adopt it long-term is not yet publicly evidenced.'

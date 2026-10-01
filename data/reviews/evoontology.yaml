@@ -219,3 +219,54 @@
   usage_reason_en: 'Inference: compared with pasting schema each time, it persists the ontology and evolves
     it with use, removing the step of re-explaining field meaning, so teams maintaining one warehouse
     long term would choose it when repeatedly having agents write queries.'
+- id: req-full-evoontology-2026-10-01
+  project_slug: evoontology
+  level: full
+  reviewed_at: '2026-10-01T01:53:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 不懂字段业务含义、写出语义错误查询的问题，旧做法是人工维护数据字典或逐次粘贴表结构；公开材料称 agent 需要可随工作负载适配的语义层，痛点刚性且交付闭环可辨，属工作流结构推理。
+    evidence_ids:
+    - ev-64bb1a7d60947fef
+    - ev-5e7a8c5aa6950d2c
+    - ev-743959239c34e7c0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 496 增至 545，只说明开源关注度上升，没有 issue、discussion 或用户反馈证明本体层被持续接入真实数仓工作流。
+    evidence_ids:
+    - ev-63e86c07d1e49af8
+    - ev-0ccfa6aaf0fb7326
+    - ev-2f9fb9e841d8b458
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有论文与开源仓库，未披露定价页、收费方式或企业采购路径，买方与付费模式均无证据，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-64bb1a7d60947fef
+    - ev-5e7a8c5aa6950d2c
+  - gate: truth
+    status: insufficient
+    reason: 本体自动演化基于交互历史，公开材料未说明错误语义如何审核、人工边界在哪，承诺能否确定性交付尚缺部署文档或实测支持。
+    evidence_ids:
+    - ev-743959239c34e7c0
+    - ev-5e7a8c5aa6950d2c
+  next_validation: 追踪 ruc-datalab/EvoOntology 仓库的 issue 与 discussion，确认本体层在真实数据仓库中的接入方式、演化错误处理与使用反馈。
+  market: ''
+  job: 数据工程师或数据分析师在让 Claude Code、Codex 等编码 agent 查询企业数据仓库时，处理数据表、字段与业务含义之间的关系，要让 agent 生成语义正确、符合业务口径的查询。
+  job_en: Data engineers or analysts, when having coding agents such as Claude Code or Codex query an
+    enterprise warehouse, handle the relationships among tables, fields and business meaning so the agent
+    produces semantically correct queries matching business definitions.
+  pain: agent 只看到表结构却不懂字段的业务含义，容易写出语义错误的查询；公开材料显示 agent 需要能随工作负载适配的语义层，说明静态 schema 不足以支撑运行时查询。
+  pain_en: Agents see schema but not what fields mean in business terms and produce semantically wrong
+    queries; public material states agents need semantics that can adapt, indicating static schema is
+    insufficient for runtime querying.
+  current_alternative: 人工维护数据字典与文档，或在每次提问时把表结构粘贴给 agent，由人反复纠正字段口径。
+  current_alternative_en: Hand-maintained data dictionaries and docs, or pasting schema into the prompt
+    each time and correcting field definitions manually.
+  usage_reason: 推断：相较每次粘贴表结构并人工纠正，它把本体封装为 MCP server，让 agent 在运行时主动查询 schema、内容与工具三层，并按观察到的执行行为持续演化，省掉重复解释字段含义这一步，因此长期维护同一套数仓的团队会考虑采用。
+  usage_reason_en: 'Inference: compared with pasting schema and correcting manually each time, it wraps
+    the ontology as an MCP server that agents query at runtime across schema, content and tool layers
+    and that evolves from observed execution behavior, removing the step of re-explaining field meaning,
+    so teams maintaining one warehouse long term would consider it.'

@@ -190,3 +190,52 @@
   usage_reason_en: 'The task is: Developers orchestrating coding agents inside an existing repository
     and fixing repeatable workflows Public materials do not yet explain why users choose this product
     over their existing approach.'
+- id: req-full-super-simple-software-factory-2026-10-01
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-01T01:55:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在已有仓库中把编码代理调用顺序固化为可重复流程的需求，痛点是代理执行路径不稳定、步骤顺序靠人临时决定导致难以复现；不解决的后果是同一任务每次结果不一致。公开材料只给出机制，痛点强度属工作流结构推理，尚无用户抱怨或频率证据。
+    evidence_ids:
+    - ev-bdabc6c79b85f3ca
+    - ev-a2efa1c74d032072
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只是配套指南仓库收藏数从 63 增至 130 的缓慢增长，属关注度而非持续采用；没有 issue、discussion 或客户案例说明谁在真实仓库中长期使用，也未显示强场景共识。
+    evidence_ids:
+    - ev-bdabc6c79b85f3ca
+    - ev-2ad1ce54c85462a9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-bf325318c3c5a80d
+  - gate: truth
+    status: insufficient
+    reason: 确定性 Python 掌管编排、代理作为受约束节点在机制上贴近可复现目标，但公开材料未给出部署文档、可复现实测或人工与安全边界说明，交付能否稳定发生仍缺证据。
+    evidence_ids:
+    - ev-a2efa1c74d032072
+  next_validation: 追踪该项目的官方仓库 README、部署文档与 issue/discussion，确认是否有开发者在真实仓库中固化并重复运行该代理工作流。
+  market: ''
+  job: 开发者在已有代码仓库中，把编码代理的调用顺序固化为可重复流程：由确定性 Python 掌管编排图，编码代理作为受约束节点执行具体步骤，产出可反复运行的代理加代码工作流。
+  job_en: 'Developers working inside an existing repository fix the call order of coding agents into a
+    repeatable workflow: deterministic Python owns the orchestration graph while coding agents run as
+    bounded nodes, producing a re-runnable agents-plus-code workflow.'
+  pain: 编码代理每次执行路径不稳定、步骤顺序靠人临时决定，同一任务在仓库里难以复现；公开材料只给出产品机制，未提供用户抱怨、频率或不采用的代价，因此痛点强度属工作流结构推理而非已证事实。
+  pain_en: Coding agents take unstable paths and step order is decided ad hoc, so the same task is hard
+    to reproduce in a repository; public materials show only the mechanism, not user complaints, frequency,
+    or cost of leaving it unsolved, so pain intensity is workflow-structural inference rather than established
+    fact.
+  current_alternative: 旧做法是开发者手工按顺序调用编码代理、在提示词或脚本里临时串步骤，或依赖代理自身的自主规划；公开材料未说明它具体替代了哪套既有工具链。
+  current_alternative_en: The old way is manually invoking coding agents in sequence, chaining steps ad
+    hoc in prompts or scripts, or relying on the agent's own autonomous planning; public materials do
+    not say which existing toolchain it replaces.
+  usage_reason: 推断：相较手工串步骤或放任代理自主规划，它把编排逻辑交给确定性 Python、把代理限制为受约束节点，从而减少每次重跑时重新确认步骤顺序和结果是否一致的负担；需要把代理流程固化进已有仓库并反复执行的开发者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manually chaining steps or letting agents plan freely, it puts orchestration
+    in deterministic Python and bounds agents as constrained nodes, cutting the burden of re-confirming
+    step order and result consistency on every re-run; developers who need agent workflows fixed inside
+    an existing repo and run repeatedly would choose it in that situation.'

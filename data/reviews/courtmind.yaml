@@ -293,3 +293,49 @@
   usage_reason: 用户要完成的任务是：羽毛球教练、业余羽毛球选手；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: badminton coach, amateur badminton player Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-courtmind-2026-10-01
+  project_slug: courtmind
+  level: full
+  reviewed_at: '2026-10-01T01:53:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决业余羽毛球选手和教练赛后复盘时缺少逐回合击球与回合记录、只能靠记忆或反复拖拽录像的问题；不采用则复盘停留在主观印象，难以定位具体失误。公开仓库标题与说明支持这一任务结构，属工作流推理。
+    evidence_ids:
+    - ev-fddc32935da52502
+    - ev-7960148cb4524f6c
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 64 增至 130，说明开发者社区有关注，但收藏不等于目标用户持续使用或接入日常复盘流程，缺少用户评价或客户案例。
+    evidence_ids:
+    - ev-fddc32935da52502
+    - ev-7960148cb4524f6c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断是 to C 订阅、教练按次付费还是 to B 授权；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fddc32935da52502
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明识别哪些动作、以什么形式交付、准确率如何，以及人工复核边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-fddc32935da52502
+  next_validation: 追踪 CourtMind 仓库的 README、issue 与 discussion，核对它实际识别哪些击球与回合信息、输出什么形式的分析结果，以及是否有用户反馈或部署说明。
+  market: ''
+  job: 业余羽毛球选手或教练在赛后复盘时，把整场比赛录像交给 CourtMind，由它从视频中提取击球与回合信息，输出可回看的分析结果。
+  job_en: Amateur badminton players or coaches reviewing a match after play hand full match footage to
+    CourtMind, which extracts stroke and rally information from the video and outputs a reviewable analysis.
+  pain: 业余选手和教练赛后只能靠记忆或反复拖拽录像回看，缺少逐回合的击球与回合记录，复盘时难以定位具体失误和模式。
+  pain_en: Amateur players and coaches can only rely on memory or repeatedly scrubbing footage after a
+    match, lacking per-rally stroke and rally records, making it hard to pinpoint specific errors and
+    patterns during review.
+  current_alternative: 目前主要靠人工回看录像、教练口头点评，或使用通用视频播放器手动标记片段。
+  current_alternative_en: Today this is mainly done by manually rewatching footage, verbal coach feedback,
+    or manually marking clips in a generic video player.
+  usage_reason: 推断：相较人工回看录像，CourtMind 通过从整场比赛视频中自动提取击球与回合信息，省去逐段拖拽和手工记录这一步，因此赛后想系统复盘但缺少专业分析工具的业余选手或教练可能选择它；公开材料未给出客户案例或付费证据。
+  usage_reason_en: 'Inference: compared with manually rewatching footage, CourtMind automatically extracts
+    stroke and rally information from full match video, removing the step of scrubbing and manually logging
+    segments, so amateur players or coaches wanting systematic review without professional analysis tools
+    may choose it; no customer cases or payment evidence are given publicly.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUDN5LVBhVjJR
 summary: Trustpilot secures 'buy' rating from Citi as AI boosts value of reviews Proactive financial news
 first_seen: '2026-09-30T14:58:50Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

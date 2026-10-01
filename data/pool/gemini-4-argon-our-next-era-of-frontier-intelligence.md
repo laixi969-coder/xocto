@@ -21,7 +21,7 @@ canonical_url: https://deepmind.google/blog/gemini-4-argon-our-next-era-of-front
 summary: ''
 first_seen: '2026-09-30T20:01:45Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

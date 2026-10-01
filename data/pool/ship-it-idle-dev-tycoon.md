@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/ship-it-idle-dev-tycoon
 summary: The idle game where App Review can reject you
 first_seen: '2026-09-29T07:06:48Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -3,26 +3,38 @@ slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
 name: Muse
 builder: ''
 category: 通用助手
-summary_zh: Muse 是 Meta 的 AI 助手，2026 年 9 月登陆 Mac，可读取本机文件并跨应用代为执行操作；同期报道称其小企业版本能在数分钟内分析数月客户评价。具体操作范围、权限边界与交付结果仍待核验。
-inspiration: 趋势：助手正从“回答问题”走向“在个人电脑上直接动手改文件、点应用”，把入口从对话框挪到操作系统里的真实任务。切入：不要做又一个通用桌面助手，而是挑一个文件密集、步骤固定的窄场景（如报税材料整理、合同归档、素材入库），把权限、可回滚操作和结果核对做成可交付的确定性流程。
-summary_en: Muse is Meta's AI assistant, which arrived on Mac in September 2026 and can read local files
-  and act across apps on the user's behalf; contemporaneous reports describe a small-business edition
-  that analyzes months of customer reviews in minutes. Its exact action scope, permission boundaries and
-  deliverables still need verification.
-inspiration_en: 'Trend: assistants are moving from answering questions to acting directly on a personal
-  computer, shifting the entry point from a chat box to real tasks inside the OS. Entry: skip another
-  general desktop assistant; pick a narrow, file-heavy, fixed-step scenario (tax document sorting, contract
-  filing, asset intake) and make permissions, reversible actions and result checking a deterministic deliverable.'
+summary_zh: 个人用户和小微企业主在 Mac 上处理本地文件、应用数据或成堆客户评论时打开 Muse，由它读取这些材料并代为执行操作或汇总分析，最终给出可直接使用的结论；具体可执行的动作范围与人工确认环节仍待核验。
+inspiration: 趋势是通用助手正从对话框走向直接操作本地文件与应用，把“人去找、人去点”变成“助手代做”。切入不在通用桌面助手本身，而在被它代做的具体环节：例如小商家把数月评论交给助手后，仍需要有人把结论变成改品、改价、改客服话术的动作，这一层行业化交付目前空缺。
+summary_en: Individual users and small-business owners on Mac open Muse when dealing with local files,
+  app data or piles of customer reviews; it reads those materials, takes actions on their behalf or summarizes
+  the analysis, and returns conclusions they can use directly. The exact range of actions and where humans
+  must confirm remain unverified.
+inspiration_en: 'The trend is general assistants moving from chat boxes to directly operating local files
+  and apps, turning ''the human finds and clicks'' into ''the assistant does it''. The opening is not
+  the generic desktop assistant itself but the specific step it performs: after a small merchant hands
+  months of reviews to an assistant, someone still has to turn the conclusions into product, pricing and
+  support-script changes, and that industry-specific delivery layer is currently missing.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
+industries:
+- 软件与互联网服务
+- 专业服务
+- 零售与电商
+industries_en:
+- Software and internet services
+- Professional services
+- Retail and e-commerce
 jobs:
-- 个人电脑日常事务处理
+- 个人用户与小微企业主在 Mac 上整理本地文件、应用数据与客户评论时，让助手代为执行操作并汇总结论
 jobs_en:
-- Everyday personal-computer task handling
-regions: []
-regions_en: []
+- Individual users and small-business owners on Mac who need an assistant to act on local files, app data
+  and customer reviews and summarize the results
+regions:
+- 美国
+- 全球
+regions_en:
+- United States
+- Global
 open_source: false
 url: https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/
 canonical_url: https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer
@@ -30,7 +42,7 @@ summary: Muse is now available on the Mac, where it can work with your files and
   your behalf.
 first_seen: '2026-09-18T15:22:48Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - newssearch

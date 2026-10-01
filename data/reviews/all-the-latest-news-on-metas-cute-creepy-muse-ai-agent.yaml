@@ -1,0 +1,87 @@
+- id: req-initial-all-the-latest-news-on-metas-cute-creepy-muse-ai-agent-2026-10-01
+  project_slug: all-the-latest-news-on-metas-cute-creepy-muse-ai-agent
+  level: initial
+  reviewed_at: '2026-10-01T01:19:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决代写邮件与代下单的琐碎事务，但多数人自己动手即可完成，且交出支付信息的顾虑削弱刚性。
+    evidence_ids:
+    - ev-bc022141f6775f8e
+  - gate: consensus
+    status: insufficient
+    reason: 报道描述的是发布与体验，没有采用规模或持续使用数据，无法判断共识形成程度。
+    evidence_ids:
+    - ev-bc022141f6775f8e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，买方可能是消费者订阅或平台内交易抽成，属推断而非已验证事实。
+    evidence_ids:
+    - ev-bc022141f6775f8e
+  - gate: truth
+    status: insufficient
+    reason: 授权边界、支付失败与误购责任如何处理均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-bc022141f6775f8e
+  next_validation: 收集 Meta 官方关于 Muse 的授权范围与支付责任说明页面，核对可执行任务与失败处理规则。
+  market: ''
+  job: 普通消费者在需要发邮件或在线下单时，处理自己的账号与支付信息，要完成一次代写或代购动作。
+  job_en: Ordinary consumers handling their own account and payment information when they need to send
+    an email or place an order, aiming to complete one drafting or purchasing action.
+  pain: 日常琐碎事务占用时间，但多数人并不觉得必须交给代理，且交出支付信息带来明显顾虑。
+  pain_en: Routine errands take time, but most people do not feel they must delegate them, and handing
+    over payment details raises clear concerns.
+  current_alternative: 旧做法是自己动手写邮件、自己下单，或使用已有的通用聊天助手起草文字。
+  current_alternative_en: The old way is writing the email and placing the order yourself, or using existing
+    general chat assistants to draft text.
+  usage_reason: 推断：相较自己操作，Muse 把撰写与下单合并成一次指令执行，省掉切换应用和填写表单的步骤，因此愿意授权账号与支付信息的用户会在高频重复下单时尝试；但报道本身指出信任与数据顾虑，公开材料无留存或复购证据。
+  usage_reason_en: 'Inference: compared with doing it yourself, Muse merges drafting and ordering into
+    one instruction, removing app switching and form filling, so users willing to authorize accounts and
+    payment details would try it for frequent repeat orders; the report itself flags trust and data concerns,
+    and no retention or repeat-use evidence is public.'
+- id: req-full-all-the-latest-news-on-metas-cute-creepy-muse-ai-agent-2026-10-01
+  project_slug: all-the-latest-news-on-metas-cute-creepy-muse-ai-agent
+  level: full
+  reviewed_at: '2026-10-01T01:52:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决代写邮件与代下单的琐碎事务，但公开材料未显示用户抱怨或既有绕过行为，多数人自己动手即可完成，交出支付信息的顾虑又削弱刚性，属没有也行。
+    evidence_ids:
+    - ev-f2b97339bcb4ae1e
+    - ev-476674c38c24365e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta 官方 Muse 产品页或帮助中心关于授权范围、支付责任与失败处理规则的公开说明，核对可执行任务清单与人工兜底边界。
+  market: ''
+  job: 普通消费者在需要发一封邮件或在线下单时，把自己的账号与支付信息交给 Meta Muse，用一句指令让它代写邮件或代执行购买，本人只做最后确认。
+  job_en: Ordinary consumers who, when they need to send an email or place an online order, hand their
+    account and payment details to Meta Muse and give one instruction so it drafts the email or executes
+    the purchase, leaving only final confirmation to themselves.
+  pain: 公开材料只说明 Muse 能代写邮件与代下单，并指出用户需愿意把数据与信用卡交给 Meta；没有用户抱怨、workaround 或客户案例证明这类琐事已构成必须外包的刚性痛点。
+  pain_en: Public material only states that Muse can draft emails and place orders and that users must
+    be willing to hand Meta their data and credit card; there is no user complaint, workaround, or customer
+    case showing these errands are a must-outsource pain.
+  current_alternative: 旧做法是自己写邮件、自己下单，或用已有的通用聊天助手（如 Gemini、ChatGPT）起草文字，再自行完成支付步骤。
+  current_alternative_en: The old way is writing the email and placing the order yourself, or using existing
+    general chat assistants such as Gemini and ChatGPT to draft text and then completing payment manually.
+  usage_reason: 推断：相较自己操作，Muse 把撰写与下单合并为一次指令执行，省掉切换应用与填写表单的步骤，因此愿意授权账号与支付信息的用户可能在高频重复下单时尝试；但公开材料本身强调信任与数据顾虑，且无留存或复购证据，无法确认用户会把它留在工作流里。
+  usage_reason_en: 'Inference: compared with doing it yourself, Muse merges drafting and ordering into
+    one instruction, removing app switching and form filling, so users willing to authorize accounts and
+    payment details might try it for frequent repeat orders; however, the public material itself stresses
+    trust and data concerns, and with no retention or repeat-use evidence it cannot be confirmed that
+    users keep it in their workflow.'

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/Rchoks/wan777
 summary: generate a video from an image with a text prompt
 first_seen: '2026-09-30T14:07:52Z'
 last_seen: '2026-10-01T01:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

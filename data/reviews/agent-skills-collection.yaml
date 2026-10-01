@@ -580,3 +580,44 @@
   usage_reason_en: 'Inference: the repository''s 209 stars and 4 forks only show developer attention,
     not why users choose it; without user feedback, cases, or repeat-use evidence, it is unclear which
     step it removes or which checkable result it improves versus writing one''s own tool functions.'
+- id: req-full-agent-skills-collection-2026-10-01
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-01T01:52:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让用户给 LLM 智能体加装模块化技能，但公开材料只有产品自述与安装方式，没有用户任务、旧替代、不采用后果或使用反馈，连需求与痛点都难以具体写出，故价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue 与 discussion，确认是否有用户描述安装摩擦、技能接入失败或持续使用场景，以补足痛点与旧替代证据。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的智能体加装模块化技能，在本地或自托管环境中把技能包接入自己的 agent 工作流，完成安装、配置并让助手实际调用这些技能。
+  job_en: Developers or LLM-agent users want to add modular skills to their LLM-based agents, wiring skill
+    packages into a local or self-hosted agent workflow by installing, configuring, and getting the assistant
+    to actually invoke them.
+  pain: 公开材料只给出产品自述与安装方式描述，没有用户抱怨、issue 或案例说明安装摩擦、技能不兼容或维护成本带来的具体后果；痛点强度与不采用代价无法从现有证据还原。
+  pain_en: Public materials only give the product's own description and install method; no user complaints,
+    issues, or cases show the concrete consequences of install friction, skill incompatibility, or maintenance
+    cost, so pain intensity and cost of not adopting cannot be reconstructed.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作，也未说明它替代了什么既有做法（如手写工具函数、直接用框架自带插件或自行维护脚本）。
+  current_alternative_en: Public materials do not show how users currently do this job or what existing
+    practice it replaces (e.g., hand-written tool functions, framework-native plugins, or self-maintained
+    scripts).
+  usage_reason: 仓库有 209 个收藏、4 次复刻，说明开发者注意到该项目，但收藏与复刻属于关注度证据，不能解释用户为何选择它，也没有留存或重复使用证据；此处为推断，缺少采用动机的公开事实。
+  usage_reason_en: The repository has 209 stars and 4 forks, showing developer attention, but stars and
+    forks are attention signals, not reasons for choosing it, and there is no retention or repeat-use
+    evidence; this is inference, lacking public facts on adoption motive.

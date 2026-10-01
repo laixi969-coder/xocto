@@ -1,0 +1,85 @@
+- id: req-initial-lurk-2026-10-01
+  project_slug: lurk
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售和社媒运营手动翻帖找线索的需求，痛点真实且旧行为明确，但线索质量与去重效果未公开。
+    evidence_ids:
+    - ev-34f1acac0cc18538
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布信息，没有用户评价、社区讨论或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-34f1acac0cc18538
+  - gate: model
+    status: insufficient
+    reason: 免费开源，未披露任何付费路径或买方，商业模式只能推断为后续增值或服务收费。
+    evidence_ids:
+    - ev-34f1acac0cc18538
+  - gate: truth
+    status: insufficient
+    reason: 筛选规则、数据来源合规性与人工确认边界均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-34f1acac0cc18538
+  next_validation: 收集 lurk 仓库的 issue、discussion 或 README 中关于线索筛选规则与用户实际使用反馈的公开记录。
+  market: ''
+  job: 销售或社媒运营人员在日常找客户时，需要处理 Reddit 和 Twitter 上的公开帖子，从中挑出有购买意向的人并整理成可跟进的名单。
+  job_en: Sales or social media operators, while prospecting daily, need to process public Reddit and
+    Twitter posts, pick out people with purchase intent and turn them into a follow-up list.
+  pain: 手动翻帖耗时且容易漏掉高意向讨论，关键词搜索噪音大，跨平台重复查看负担重。
+  pain_en: Manual scrolling is time-consuming and easily misses high-intent threads; keyword search is
+    noisy and checking across platforms is burdensome.
+  current_alternative: 用平台自带搜索、第三方社媒监听工具或人工收藏表格，多数需要自己写关键词并逐条判断。
+  current_alternative_en: Native platform search, third-party social listening tools or manual bookmark
+    spreadsheets, mostly requiring self-written keywords and case-by-case judgment.
+  usage_reason: 推断：相比手动搜索，lurk 用 AI 持续接收两个平台的帖子并自动筛出意向线索，省去逐条阅读和跨平台切换这一步，因此预算有限、又需要持续获客的独立开发者或小团队会尝试它；但线索准确率与是否被长期留在工作流中尚无公开证据。
+  usage_reason_en: 'Inference: versus manual search, lurk uses AI to continuously ingest posts from both
+    platforms and auto-filter intent leads, removing the step of reading each post and switching platforms,
+    so budget-constrained indie developers or small teams needing steady lead flow would try it; however,
+    lead accuracy and long-term workflow retention have no public evidence yet.'
+- id: req-full-lurk-2026-10-01
+  project_slug: lurk
+  level: full
+  reviewed_at: '2026-10-01T01:54:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据只有同名个人建站页与词典释义，没有任何该产品的功能说明、用户痛点或旧替代行为，连它解决什么需求、什么痛点都无法写出，价值关不成立。
+    evidence_ids:
+    - ev-2d75d483ec5d2da5
+    - ev-86a4dcfe70792293
+    - ev-31caded98a1aad36
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 lurk 官方仓库或产品页的 README、issue、discussion 与定价页，确认其是否真实提供 Reddit/Twitter 线索筛选功能及用户使用反馈。
+  market: ''
+  job: 销售或社媒运营人员需要在 Reddit 和 Twitter 上持续翻看公开帖子，从中挑出有购买意向的人并整理成可跟进的线索名单。
+  job_en: Sales or social media operators need to continuously scan public Reddit and Twitter posts, pick
+    out people with purchase intent, and compile them into a follow-up lead list.
+  pain: 公开材料未提供任何用户痛点、抱怨或旧流程描述；现有证据只包含一个同名个人建站工具页面和两本词典对 lurk 一词的释义，无法确认该产品实际存在或用户遇到的具体困难。
+  pain_en: The public material provides no user pain points, complaints, or legacy workflow descriptions;
+    the only evidence is a same-named personal site builder page and two dictionary definitions of the
+    word 'lurk', so no concrete user difficulty can be confirmed.
+  current_alternative: 无法从现有证据确认当前替代方式；摘要中提到的平台自带搜索或第三方监听工具没有对应公开证据支持。
+  current_alternative_en: The current alternative cannot be confirmed from available evidence; the platform
+    search or third-party listening tools mentioned in the summary have no supporting public evidence.
+  usage_reason: 无法判断用户为何会选择它：证据中不存在该产品的功能说明、用户反馈或采用记录，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'It is impossible to judge why users would choose it: the evidence contains no product
+    description, user feedback, or adoption record, so no step reduction or verifiable outcome versus
+    the old approach can be explained.'

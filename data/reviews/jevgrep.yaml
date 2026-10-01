@@ -191,3 +191,57 @@
   usage_reason: 用户要完成的任务是：软件工程师、编码智能体使用者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software engineers, Coding agent users Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-jevgrep-2026-10-01
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-01T01:54:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在不熟悉代码库中按行为而非符号定位代码的需求，痛点是关键词搜索依赖已知命名、智能体易改错文件；旧替代为 grep、IDE 搜索与智能体自行遍历。官网与仓库说明其输入行为描述、输出带行号源码片段与覆盖范围，交付闭环可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-e901ef1c096ebe48
+    - ev-789c0455a3590a22
+    - ev-100db2e7bc71fef8
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 1,907 星、92 星两个同名仓库，说明开发者已注意到该工具，但星标与收藏只属关注度证据，未见用户评价、issue 讨论或持续使用记录，无法证明目标用户已把它留在工作流里。
+    evidence_ids:
+    - ev-63d9ec804ee3503c
+    - ev-770e60feba096a72
+  - gate: model
+    status: insufficient
+    reason: 官网与安装页只说明需连接 Jev API key，未见定价页、付费主体或单位经济；谁付钱（个人开发者、团队还是 Jev 平台侧）尚不可核验，这是模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-100db2e7bc71fef8
+    - ev-e901ef1c096ebe48
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺返回带行号源码与覆盖范围，但公开材料未给出可复现的检索准确率、误报处理或人工复核边界，交付能否稳定发生尚缺公开验证。
+    evidence_ids:
+    - ev-e901ef1c096ebe48
+    - ev-24893f67ac8bde3f
+  next_validation: 追踪 jevgrep 官方定价页与 公开代码仓库 仓库的 issue/discussion，确认是否出现付费方案、真实使用反馈或部署案例。
+  market: ''
+  job: 软件工程师或编码智能体使用者在接手不熟悉的代码库、准备让智能体修改某处行为时，用自然语言描述“这段代码做什么”，通过 jg CLI 或 MCP 检索出相关文件、行号区间与源码片段，再据此决定改哪里。
+  job_en: A software engineer or coding-agent user who has inherited an unfamiliar codebase and is about
+    to have an agent change a behavior describes what the code does in natural language, then uses the
+    jg CLI or MCP to retrieve the relevant files, line ranges and source excerpts before deciding what
+    to edit.
+  pain: 公开材料显示其针对的是“按行为而非按符号找代码”的检索缺口：接手陌生仓库时，关键词或符号搜索要求先知道命名，而行为描述往往与命名不一致，导致定位文件这一步反复试错；不解决的后果是智能体在错误文件上动手或漏改相关位置。
+  pain_en: 'Public materials target the gap of finding code by behavior rather than by symbol: in an unfamiliar
+    repository, keyword or symbol search requires already knowing the naming, while behavior descriptions
+    often do not match names, so locating files becomes trial and error; leaving it unsolved means the
+    agent edits the wrong file or misses related locations.'
+  current_alternative: 旧做法是 grep、IDE 全局搜索、符号跳转，或让编码智能体自行遍历仓库；这些方式依赖已知关键词或命名，且不给出“实际检索了哪些范围”的覆盖说明。
+  current_alternative_en: The incumbent approach is grep, IDE global search, symbol navigation, or letting
+    the coding agent walk the repository itself; these depend on already knowing keywords or names and
+    give no coverage statement about what was actually searched.
+  usage_reason: 推断：相较 grep 或让智能体自行遍历，jevgrep 让用户直接输入行为描述，返回带行号的候选文件与源码片段，并附带覆盖范围说明，从而省去“先猜关键词再逐个打开文件确认”的步骤；需要在不熟悉仓库中定位行为相关代码的工程师会因此选择它。公开材料未提供用户反馈或留存数据，此因果为基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: compared with grep or letting the agent walk the repo, jevgrep lets the
+    user enter a behavior description and returns candidate files with line ranges and source excerpts
+    plus a coverage statement, removing the step of guessing keywords and opening files one by one to
+    confirm; engineers who must locate behavior-related code in an unfamiliar repository would choose
+    it for this reason. Public materials provide no user feedback or retention data, so this causal claim '

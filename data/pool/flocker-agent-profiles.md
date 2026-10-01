@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/flocker-agent-profiles
 summary: 'Profile Pages for Agents: your live AI collaboration network'
 first_seen: '2026-09-28T13:48:01Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

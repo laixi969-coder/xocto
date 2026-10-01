@@ -112,3 +112,49 @@
   usage_reason: 用户要完成的任务是：视频剪辑师、短视频运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Video editor, Short-video operator Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-awesome-claude-video-skills-2026-10-01
+  project_slug: awesome-claude-video-skills
+  level: full
+  reviewed_at: '2026-10-01T01:52:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是“在编码代理里挑一个能渲染视频的技能包”这一检索与安全筛选需求，但公开材料只有清单自述的 180 个仓库分类与安全评级，没有任何用户抱怨、失败案例或不采用代价；真正做视频的人缺的是可复现渲染与人工确认，清单不提供，属于看着方便但没有也行。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+    - ev-7cadb01eeb9c2725
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该清单仓库的 issue 与 discussion，确认是否有用户报告把某个技能包装进编码代理后成功渲染出成片、替代了哪一步剪辑工序。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，面对一堆素材和多个候选技能包，要判断哪个技能包能装进 Claude Code、Codex 等编码代理并真正渲染出视频，因此需要一份按类型分类、带安全评级的清单来挑选。
+  job_en: A video editor or short-video operator producing clips at volume, facing a pile of footage and
+    many candidate skill packs, must decide which pack can be installed into Claude Code, Codex or another
+    coding agent and actually render a video, so they need a type-classified, security-graded list to
+    choose from.
+  pain: 公开材料只说明清单收录 180 个仓库并按类型分类、逐个安全评级，未给出任何用户抱怨、失败案例或不采用的具体代价；从结构推理看，真正做视频的人缺的是可复现的渲染结果与人工确认环节，而清单本身不提供这些，因此痛点强度无法确认。
+  pain_en: Public materials only state the list catalogs 180 repos by type with per-repo security grading;
+    no user complaint, failure case, or concrete cost of not adopting is given. Structurally, the real
+    gap for video makers is reproducible rendering and human review, which the list itself does not supply,
+    so pain intensity cannot be confirmed.
+  current_alternative: 视频制作者目前用剪辑软件逐条拼接素材，或直接在编码代理里自行搜索、试装零散的视频技能包；清单只是把后者从搜索变成浏览，并未替代剪辑软件的核心工序。
+  current_alternative_en: Video makers currently assemble footage clip by clip in editing software, or
+    search for and trial-install scattered video skill packs inside a coding agent; the list only turns
+    the latter from searching into browsing and does not replace the core editing workflow.
+  usage_reason: 推断：相较自行搜索零散技能包，清单通过按类型归类并标注安全等级，减少筛选与踩坑的一步负担，因此正在用编码代理做视频、又担心第三方技能包安全性的开发者可能先收藏或试用；但公开材料没有用户反馈或案例说明它被留在工作流里，收藏增长只反映关注度。
+  usage_reason_en: 'Inference: versus searching for scattered skill packs, the list reduces one step of
+    filtering and risk by classifying by type and labeling security levels, so developers already making
+    video with coding agents and wary of third-party pack safety may bookmark or trial it; but no public
+    user feedback or case shows it staying in a workflow, and star growth only reflects attention.'

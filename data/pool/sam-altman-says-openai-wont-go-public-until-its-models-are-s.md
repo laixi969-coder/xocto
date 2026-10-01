@@ -1,6 +1,6 @@
 ---
 slug: sam-altman-says-openai-wont-go-public-until-its-models-are-s
-name: Sam Altman says OpenAI won’t go public until its models are safe
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: For months, people have wondered when OpenAI will go public. CEO Sam Al
   […]
 first_seen: '2026-09-30T00:19:13Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Sam Altman says OpenAI won’t go public until its models are safe
+# OpenAI
 
 For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. "We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see […]
 

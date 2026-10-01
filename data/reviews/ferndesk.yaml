@@ -1,0 +1,89 @@
+- id: req-initial-ferndesk-2026-10-01
+  project_slug: ferndesk
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决帮助文档随产品迭代而过期的问题，痛点是用户读到错误步骤、支持团队重复答疑，旧做法是人工逐篇重写，结构上成立。
+    evidence_ids:
+    - ev-d395820fec26119e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句定位描述，没有客户案例、用户评价或采用数据，无法判断支持团队是否已把它纳入流程。
+    evidence_ids:
+    - ev-d395820fec26119e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按文档量或订阅收费都只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d395820fec26119e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对改写后的文档是否准确、是否需人工复核，交付确定性缺少公开证据。
+    evidence_ids:
+    - ev-d395820fec26119e
+  next_validation: 收集 Ferndesk 官方定价页或客户案例，确认其按什么计价以及是否有团队实际用于帮助中心维护。
+  market: ''
+  job: 客户支持团队在产品迭代后，处理已经过期的帮助中心文章，把它们更新成与当前产品一致的说明页。
+  job_en: Customer support teams process outdated help-center articles after product changes and update
+    them into pages consistent with the current product.
+  pain: 产品改动后文档滞后，用户读到错误步骤，支持团队反复回答同一问题，人工逐篇核对成本高。
+  pain_en: Docs lag behind product changes, users follow wrong steps, support teams repeatedly answer
+    the same questions, and manual article-by-article review is costly.
+  current_alternative: 靠人工定期重写帮助文档，或用通用写作助手逐篇改写后手动校对。
+  current_alternative_en: Periodic manual rewriting of help docs, or generic writing assistants used article
+    by article with manual proofreading.
+  usage_reason: 相较人工逐篇重写，它把“发现过期内容并改写”这一步交给系统按当前产品状态执行，支持团队只需确认结果，因此文档更新频繁、支持人力紧张的 SaaS 团队会在版本发布后选择它。这是基于产品定位的推断。
+  usage_reason_en: Compared with manual rewriting, it moves the step of spotting stale content and rewriting
+    it into a system run against the current product state, leaving the team to confirm results; SaaS
+    teams with frequent releases and thin support staffing would pick it after a release. This is an inference
+    from the product positioning.
+- id: req-full-ferndesk-2026-10-01
+  project_slug: ferndesk
+  level: full
+  reviewed_at: '2026-10-01T01:53:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决帮助文档随产品迭代而过期的问题：用户读到错误步骤、支持团队重复答疑，旧做法是人工逐篇巡检重写。产品以已有文档为输入、按当前产品状态重写并维护说明页，交付物明确，痛点刚性来自错误文档直接损害自助支持。此为工作流结构推理，尚无采用数据。
+    evidence_ids:
+    - ev-d395820fec26119e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句定位描述，没有客户案例、用户评价或采用数据，无法判断支持团队是否已把它纳入日常文档维护流程，也无法确认强场景是否已被验证。
+    evidence_ids:
+    - ev-d395820fec26119e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按文档量、席位还是订阅收费都只是判断而非已验证事实；可推测付费方为使用帮助中心的 SaaS 支持或文档团队，但公开材料未给出任何付费路径证据。
+    evidence_ids:
+    - ev-d395820fec26119e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对改写后的文档是否准确、是否必须人工复核、以及产品状态如何被读取，交付确定性缺少公开证据；若改写错误未被拦截，反而会放大错误文档风险。
+    evidence_ids:
+    - ev-d395820fec26119e
+  next_validation: 追踪 Ferndesk 官方定价页与客户案例页面，确认其计价方式、买方角色，以及是否有团队公开说明已将其用于帮助中心维护。
+  market: ''
+  job: 客户支持团队在产品频繁迭代、帮助中心文章与当前版本脱节时，处理已有的旧帮助文档，把它们重写成与当前产品一致的说明页，交付一份不过期的帮助中心。
+  job_en: When product iterations outpace the help center, customer support teams take existing outdated
+    help articles and rewrite them into pages consistent with the current product, delivering a help center
+    that stays current.
+  pain: 产品改动后文档滞后，用户按错误步骤操作，支持团队反复回答同一问题；人工逐篇核对与重写成本高，且容易漏掉已变更的界面与流程。
+  pain_en: Docs lag behind product changes, users follow wrong steps, support teams repeatedly answer
+    the same questions, and manually reviewing and rewriting each article is costly and easily misses
+    changed UI and flows.
+  current_alternative: 靠人工定期巡检并逐篇重写帮助文档，或用通用写作助手逐篇改写后手动校对，再人工发布。
+  current_alternative_en: Periodic manual audits and article-by-article rewriting, or generic writing
+    assistants used one article at a time with manual proofreading and publishing.
+  usage_reason: 相较人工逐篇重写，它把“发现过期内容并按当前产品状态改写”这一步交给系统执行，支持团队只需确认结果，减少逐篇比对与起草的负担；因此版本发布频繁、支持人力紧张的 SaaS 团队会在发版后选择它。这是基于产品定位与工作流结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manual rewriting, it moves the step of spotting stale content and rewriting
+    it against the current product state into a system run, leaving the team to confirm results and cutting
+    per-article comparison and drafting; SaaS teams with frequent releases and thin support staffing would
+    pick it after a release. This is an inference from positioning and workflow structure, not yet backed
+    by user feedback.

@@ -1,6 +1,6 @@
 ---
 slug: meta推出企业ai平台-聘请mongodb原ceo掌舵
-name: Meta推出企业AI平台 聘请MongoDB原CEO掌舵
+name: Meta
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EaHJnMTRYRURZ
 summary: Meta推出企业AI平台 聘请MongoDB原CEO掌舵 亿邦动力
 first_seen: '2026-09-30T07:17:18Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Meta推出企业AI平台 聘请MongoDB原CEO掌舵
+# Meta
 
 Meta推出企业AI平台 聘请MongoDB原CEO掌舵 亿邦动力
 

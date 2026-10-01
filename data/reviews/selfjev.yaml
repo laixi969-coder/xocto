@@ -1,0 +1,79 @@
+- id: req-initial-selfjev-2026-10-01
+  project_slug: selfjev
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向可自托管的决策能力，但资料未说明具体任务、痛点与旧替代流程，价值结构无法还原。
+    evidence_ids:
+    - ev-48918dd70f75912d
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无采用、评价或社区共识证据。
+    evidence_ids:
+    - ev-48918dd70f75912d
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，开源项目的付费或支持路径无公开材料。
+    evidence_ids:
+    - ev-48918dd70f75912d
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法判断决策结果是否确定交付及人工复核边界。
+    evidence_ids:
+    - ev-48918dd70f75912d
+  next_validation: 收集 SelfJev 的代码仓库或部署文档，确认它接收的输入、做出的决策类型与部署要求。
+  market: ''
+  job: 资料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么决策任务。
+  job_en: The material does not identify the user or scenario, so it is unclear who handles what material
+    under what circumstances to complete which decision task.
+  pain: 没有用户抱怨、旧流程或数据出域限制的描述，无法判断自托管决策这一需求的痛点强度。
+  pain_en: There is no user complaint, prior process, or data-egress constraint described, so the pain
+    behind self-hosted decisions cannot be judged.
+  current_alternative: 未披露。无法确认现在是用云端决策服务、规则引擎还是人工审批完成同类判断。
+  current_alternative_en: Not disclosed. It is unclear whether such judgments currently come from cloud
+    decision services, rule engines, or manual approval.
+  usage_reason: 缺少输入、决策动作与输出的可核对描述，无法解释相较旧做法减少哪一步，因此不能给出使用理由。
+  usage_reason_en: With no verifiable description of inputs, decision actions, or outputs, there is no
+    way to explain which step it removes versus the old practice, so no usage reason can be given.
+- id: req-full-selfjev-2026-10-01
+  project_slug: selfjev
+  level: full
+  reviewed_at: '2026-10-01T01:55:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向可自托管的决策能力，但资料未说明具体任务、痛点与旧替代流程，价值结构无法还原。
+    evidence_ids:
+    - ev-48918dd70f75912d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 SelfJev 的代码仓库或部署文档，确认它接收的输入、做出的决策类型与部署要求。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么决策任务。
+  job_en: Public materials do not identify the user or scenario, so it is unclear who handles what material
+    under what circumstances to complete which decision task.
+  pain: 没有用户抱怨、旧流程或数据出域限制的描述，无法判断自托管决策这一需求的痛点强度。
+  pain_en: There is no user complaint, prior process, or data-egress constraint described, so the pain
+    behind self-hosted decisions cannot be judged.
+  current_alternative: 未披露。无法确认现在是用云端决策服务、规则引擎还是人工审批完成同类判断。
+  current_alternative_en: Not disclosed. It is unclear whether such judgments currently come from cloud
+    decision services, rule engines, or manual approval.
+  usage_reason: 缺少输入、决策动作与输出的可核对描述，无法解释相较旧做法减少哪一步，因此不能给出使用理由。
+  usage_reason_en: With no verifiable description of inputs, decision actions, or outputs, there is no
+    way to explain which step it removes versus the old practice, so no usage reason can be given.

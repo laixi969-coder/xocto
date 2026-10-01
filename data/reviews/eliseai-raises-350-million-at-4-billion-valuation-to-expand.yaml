@@ -42,3 +42,91 @@
     the first round of enquiries and pushes them to a booking or ticket, removing the missed-reply and
     back-and-forth step, so leasing and clinic teams with high message volume and thin staffing would
     pick it during peak periods.'
+- id: req-initial-eliseai-raises-350-million-at-4-billion-valuation-to-expand-2026-10-01
+  project_slug: eliseai-raises-350-million-at-4-billion-valuation-to-expand
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决高频咨询漏接与排期反复确认的痛点，旧流程是人工接听加回拨，不采用的代价是直接丢单，价值结构成立。
+    evidence_ids:
+    - ev-583cd930503e4359
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资与估值报道，未见客户名单、部署规模或使用评价，无法判断行业共识是否形成。
+    evidence_ids:
+    - ev-583cd930503e4359
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是机构按坐席或按成交付费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-583cd930503e4359
+  - gate: truth
+    status: insufficient
+    reason: 未见交付确定性、人工兜底边界与留存复购数据，无法核对承诺能否稳定兑现。
+    evidence_ids:
+    - ev-583cd930503e4359
+  next_validation: 收集 EliseAI 官方定价页或公开客户案例，核对计费方式与已部署机构的使用结果。
+  market: ''
+  job: 住房租赁与医疗机构的运营人员，在租户或患者来电、短信、在线表单集中涌入时，处理咨询与预约材料，要完成应答、筛选和排期确认。
+  job_en: Operations staff at housing and healthcare organizations handle inbound calls, texts and web
+    forms from tenants or patients, and must answer, qualify and confirm scheduling.
+  pain: 这类咨询高频、时段分散，人工漏接或延迟回复会直接丢掉看房与就诊机会，排期还要反复来回确认。
+  pain_en: These inquiries are high-frequency and spread across hours; missed or delayed human replies
+    directly lose tours and appointments, and scheduling needs repeated back-and-forth.
+  current_alternative: 旧做法是前台或呼叫中心人工接听、手工记录再回拨排期，或用通用聊天机器人做无排期能力的自动回复。
+  current_alternative_en: The old way is front-desk or call-center staff answering manually, logging and
+    calling back to schedule, or generic chatbots replying without real scheduling ability.
+  usage_reason: 推断：相较人工接听与通用机器人，它把应答、资格筛选和排期放进同一次对话并直接产出已确认预约，减少漏接和回拨这一步，因此咨询量大、排期密集的租赁与诊所团队会在高峰时段选择它。
+  usage_reason_en: 'Inference: versus manual answering and generic bots, it puts response, qualification
+    and scheduling into one conversation and outputs a confirmed booking, removing missed calls and callbacks,
+    so leasing and clinic teams with heavy inquiry volume pick it during peak hours.'
+- id: req-full-eliseai-raises-350-million-at-4-billion-valuation-to-expand-2026-10-01
+  project_slug: eliseai-raises-350-million-at-4-billion-valuation-to-expand
+  level: full
+  reviewed_at: '2026-10-01T01:53:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决高频咨询漏接与排期反复确认的需求，痛点在租赁与诊所前台刚性，旧流程是人工接听加回拨，不采用会直接丢单；交付闭环可确定，但属工作流结构推理，公开材料仅支持融资报道。
+    evidence_ids:
+    - ev-583cd930503e4359
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与40亿美元估值报道，未见客户名单、部署机构数量或使用评价，无法判断行业共识是否形成；关注度不等于持续采用。
+    evidence_ids:
+    - ev-583cd930503e4359
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是住房与医疗机构按坐席或按成交付费，属判断而非已验证事实；无融资叙事之外的付费路径证据。
+    evidence_ids:
+    - ev-583cd930503e4359
+  - gate: truth
+    status: insufficient
+    reason: 未见交付确定性、人工兜底边界、安全合规与留存复购数据，无法核对承诺能否稳定兑现；现有证据仅为融资报道。
+    evidence_ids:
+    - ev-583cd930503e4359
+  next_validation: 追踪 EliseAI 官网定价页与公开客户案例（含部署机构、计费方式与使用结果），核对买方与交付确定性。
+  market: ''
+  job: 住房租赁与医疗机构的运营/前台人员，在租户或患者通过来电、短信、在线表单集中咨询时，处理咨询与预约材料，要完成应答、资格筛选、看房或就诊排期确认，并把无法自动处理的转成人工工单。
+  job_en: Operations/front-desk staff at housing and healthcare organizations handle inbound calls, texts
+    and web forms from tenants or patients, and must answer, qualify, confirm tour or appointment scheduling,
+    and hand off what cannot be automated.
+  pain: 这类咨询高频且时段分散，人工漏接或延迟回复会直接丢掉看房与就诊机会，排期还要反复回拨确认；公开材料只支持融资与估值，未提供客户抱怨或使用评价，痛点强度属工作流结构推理。
+  pain_en: These inquiries are high-frequency and spread across hours; missed or delayed human replies
+    directly lose tours and appointments, and scheduling needs repeated callbacks. Public material only
+    supports funding and valuation, not customer complaints or reviews, so pain intensity is a workflow
+    inference.
+  current_alternative: 旧做法是前台或呼叫中心人工接听、手工记录再回拨排期，或用无真实排期能力的通用聊天机器人做自动回复。
+  current_alternative_en: The old way is front-desk or call-center staff answering manually, logging and
+    calling back to schedule, or generic chatbots replying without real scheduling capability.
+  usage_reason: 推断：相较人工接听与通用机器人，它把应答、资格筛选和排期放进同一次对话并直接产出已确认预约，减少漏接与回拨这一步，因此咨询量大、排期密集的租赁与诊所团队会在高峰时段选择它；公开材料未提供用户反馈或留存证据，动机为结构推断。
+  usage_reason_en: 'Inference: versus manual answering and generic bots, it puts response, qualification
+    and scheduling into one conversation and outputs a confirmed booking, removing missed calls and callbacks,
+    so leasing and clinic teams with heavy inquiry volume pick it during peak hours. No user feedback
+    or retention evidence is public, so this is a structural inference.'

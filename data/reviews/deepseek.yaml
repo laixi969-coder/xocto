@@ -288,3 +288,96 @@
     and first draft into one conversation, so users need not assemble material themselves first; inference
     is that such users choose it when they need a usable text or code draft quickly, though no retention
     or repeat-purchase evidence is public.
+- id: req-initial-deepseek-2026-10-01
+  project_slug: deepseek
+  level: initial
+  reviewed_at: '2026-10-01T01:19:01Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户即时获取答案、代码与推理过程的需求，痛点是搜索加人工整理耗时；旧行为明确，交付可核对。
+    evidence_ids:
+    - ev-50fab745db2c467b
+  - gate: consensus
+    status: supported
+    reason: 公开访问量达4.838亿且进入多个榜单，说明已有大规模使用，但环比下降10.59%，关注度并非单向上升。
+    evidence_ids:
+    - ev-50fab745db2c467b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费转化数据，买方与收费方式仍不清晰，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-50fab745db2c467b
+  - gate: truth
+    status: insufficient
+    reason: DSec与昇腾组件说明算力与生态投入，但缺少交付确定性、安全边界与留存复购的公开证据。
+    evidence_ids:
+    - ev-50fab745db2c467b
+    - ev-ab1ba883404998c0
+  next_validation: 收集DeepSeek官方定价页或API计费文档，核验其收费方式与单位成本。
+  market: ''
+  job: 个人用户和开发者遇到写作、编程、资料理解等任务时，把问题或材料交给对话助手，需要拿到可直接使用的答案、代码或推理过程。
+  job_en: Individual users and developers facing writing, coding or document-comprehension tasks hand
+    the question or material to a chat assistant and need directly usable answers, code or reasoning.
+  pain: 通用搜索和人工查资料耗时且需要自己整合，专业问题缺少即时可得的解释与草稿。
+  pain_en: General search and manual research are slow and require self-assembly, and professional questions
+    lack instantly available explanations and drafts.
+  current_alternative: 搜索引擎加人工阅读整理，或使用其他通用对话助手。
+  current_alternative_en: Search engines plus manual reading and synthesis, or other general chat assistants.
+  usage_reason: 相较搜索后自行拼凑，DeepSeek在一次对话内给出成段答案或可运行代码，减少跨页面收集与初稿撰写这一步；本次公开的DSec与昇腾组件说明其推理与训练成本可能进一步下降，属于推断，尚无留存或复购证据。
+  usage_reason_en: Compared with assembling results after searching, DeepSeek returns a full answer or
+    runnable code within one conversation, removing the step of cross-page collection and first-draft
+    writing; the disclosed DSec and Ascend components suggest inference and training costs may fall further,
+    which is an inference, with no retention or repeat-purchase evidence yet.
+- id: req-full-deepseek-2026-10-01
+  project_slug: deepseek
+  level: full
+  reviewed_at: '2026-10-01T01:53:13Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户即时获取答案、代码与推理过程的需求，痛点是搜索加人工整理耗时且专业问题缺少即时解释；官网显示对话与API双通道交付，旧替代与不采用后果清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-cf4752a582c8162b
+    - ev-bcaef2033b990f97
+  - gate: consensus
+    status: supported
+    reason: 官网与下载页显示对话、API及iOS/Android应用均已上线，英文生态公开检索将其列为已建立供给并出现早期需求信号，说明已有可观察使用面，但公开材料未给出留存或复购数据。
+    evidence_ids:
+    - ev-cf4752a582c8162b
+    - ev-bcaef2033b990f97
+    - ev-228c68681e8f9e0b
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明提供对话与API，未披露定价页、计费方式或付费转化；买方可能来自个人订阅、开发者API用量或企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cf4752a582c8162b
+  - gate: truth
+    status: insufficient
+    reason: 官网确认模型开源与API接入，但缺少交付确定性、安全边界、人工兜底及留存复购的公开证据，无法核验承诺是否稳定兑现。
+    evidence_ids:
+    - ev-cf4752a582c8162b
+    - ev-bcaef2033b990f97
+  next_validation: 追踪DeepSeek官方定价页或API计费文档，核验其收费方式、单位成本与付费路径是否公开。
+  market: ''
+  job: 个人用户和开发者遇到写作、编程、资料理解或调试任务时，把问题、文档或代码贴进DeepSeek对话框，需要拿到可直接使用的答案、推理过程或可运行代码，再自行核对后使用。
+  job_en: Individual users and developers facing writing, coding, document-comprehension or debugging
+    tasks paste questions, documents or code into DeepSeek's chat box and need directly usable answers,
+    reasoning traces or runnable code, which they then verify themselves.
+  pain: 通用搜索需要跨页面收集再人工整合，专业问题缺少即时可得的解释与初稿；公开材料显示DeepSeek以对话与API两种方式提供前沿模型能力，说明用户此前需在搜索、文档与代码工具间来回切换。
+  pain_en: General search requires cross-page collection and manual synthesis, and professional questions
+    lack instantly available explanations and drafts; public materials show DeepSeek offers frontier models
+    via both chat and API, implying users previously switched among search, docs and coding tools.
+  current_alternative: 搜索引擎加人工阅读整理，或使用ChatGPT、Gemini、Perplexity等其他通用对话与问答助手。
+  current_alternative_en: Search engines plus manual reading and synthesis, or other general chat and
+    answer assistants such as ChatGPT, Gemini and Perplexity.
+  usage_reason: 相较搜索后自行拼凑，DeepSeek在一次对话内给出成段答案或可运行代码，减少跨页面收集与初稿撰写这一步；官网同时提供对话与API接入，使开发者可直接把模型嵌入自有流程。这是基于产品能力与任务结构的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with assembling results after searching, DeepSeek returns a full answer or
+    runnable code within one conversation, removing the step of cross-page collection and first-draft
+    writing; the official site also offers both chat and API access, letting developers embed the model
+    into their own pipelines. This is an inference from product capability and task structure, as public
+    materials provide no retention or repeat-use evidence.

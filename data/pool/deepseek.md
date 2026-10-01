@@ -3,30 +3,28 @@ slug: deepseek
 name: DeepSeek
 builder: ''
 category: 通用助手
-summary_zh: 个人用户和开发者打开 DeepSeek 的对话界面，把写作、编程、资料问答等任务直接交给模型，拿到可继续编辑的文本或代码；具体交付质量与人工复核环节仍待核验。
-inspiration: 趋势：头部通用助手已出现十亿美元级年化收入，说明对话式入口的付费路径被验证，但访问量环比下滑也说明单靠通用问答留不住人。切入：不要正面做通用聊天，可从被通用助手覆盖不到的垂直旧流程进入，例如把某一行业的资料整理、审阅或申报环节做成按结果交付的服务，而不是再做一个聊天框。
-summary_en: Individuals and developers open DeepSeek's chat interface and hand writing, coding and document
-  Q&A tasks to the model, receiving editable text or code; the exact delivery quality and human review
-  step remain unverified.
-inspiration_en: 'Trend: a leading general assistant has reached a billion-dollar annualised revenue run
-  rate, showing the conversational entry point can be monetised, while falling visits suggest generic
-  chat alone does not retain users. Angle: avoid head-on general chat and enter through vertical legacy
-  workflows the general assistant does not cover, e.g. packaging one industry''s document review or filing
-  step as an outcome-priced service rather than another chat box.'
+summary_zh: 个人用户和开发者打开DeepSeek，把问题、文档或代码贴进对话框，模型直接给出回答、推理过程或可运行代码，用户自行核对后使用；本次新增的是其训练侧弹性计算系统DSec的公开说明与昇腾基础组件开源，具体交付流程仍待核验。
+inspiration: 趋势：头部对话助手开始把竞争点从模型能力转向训练与推理的算力调度和芯片生态，成本结构成为新的护城河。切入：不要在通用对话正面竞争，可面向需要私有化部署的行业客户做基于开源组件的推理成本优化与合规交付。
+summary_en: Individual users and developers open DeepSeek, paste questions, documents or code into the
+  chat box, and the model returns answers, reasoning traces or runnable code that users verify themselves;
+  this event adds a public explanation of its training-side elastic compute system DSec and open-sourced
+  Ascend base components, while the concrete delivery flow still needs verification.
+inspiration_en: 'Trend: leading chat assistants are shifting competition from raw model capability to
+  compute scheduling and chip ecosystems for training and inference, making cost structure a new moat.
+  Entry: avoid head-on general chat competition and target industry clients needing private deployment
+  with inference cost optimization and compliant delivery built on the open-sourced components.'
 priority_review: false
 project_type: new_application
 industries:
-- 通用企业与个人知识工作
-- 软件开发
-- 教育
+- 软件与互联网服务
+- 企业通用职能
 industries_en:
-- General enterprise and personal knowledge work
-- Software development
-- Education
+- Software and internet services
+- General corporate functions
 jobs:
-- 个人用户与开发者就写作、编程、资料问答等任务向对话式模型提问并获取答案
+- 个人用户与开发者
 jobs_en:
-- Individual users and developers asking a conversational model for writing, coding and document Q&A outputs
+- Individual users and developers
 regions:
 - 中国
 - 全球
@@ -39,7 +37,7 @@ canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

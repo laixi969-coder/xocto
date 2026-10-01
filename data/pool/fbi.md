@@ -21,7 +21,7 @@ canonical_url: https://fbi.gov/video-repository/shinyhunters-arrested-092926.mp4
 summary: FBI Announces ShinyHunters Arrest
 first_seen: '2026-09-29T23:00:20Z'
 last_seen: '2026-10-01T01:18:38Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

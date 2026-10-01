@@ -1,0 +1,100 @@
+- id: req-initial-reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark-2026-10-01
+  project_slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业批量部署 AI agent 后权限与数据访问失控、无法盘点的痛点，旧做法是人工登记与事后日志排查，不治理会留下越权与合规风险，需求结构成立。
+    evidence_ids:
+    - ev-2885c8511add1730
+    - ev-add76eae1eb8d006
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与赛道拥挤的描述，没有客户采用、部署规模或安全团队实际使用的证据，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-2885c8511add1730
+    - ev-77c943c69978f740
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价以及买方是安全预算还是平台预算；融资密集说明资本认可，但付费路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-2885c8511add1730
+    - ev-add76eae1eb8d006
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料核对检测准确率、误报率与人工处置边界，交付是否确定发生缺少可验证结果。
+    evidence_ids:
+    - ev-77c943c69978f740
+  next_validation: 收集 Reco 官方定价页或公开客户案例，确认其按什么计价、买方是谁，以及是否有可核对的部署与治理结果。
+  market: ''
+  job: 企业安全与合规团队在内部各业务线批量部署 AI agent 后，需要盘点这些 agent 的身份、权限和数据访问范围，处理权限清单与调用日志，完成越权识别与治理动作。
+  job_en: After business lines deploy AI agents at scale, enterprise security and compliance teams must
+    inventory these agents' identities, permissions and data access, working through permission lists
+    and call logs to identify over-privilege and drive remediation.
+  pain: agent 由各团队自行创建，权限往往一次给足且长期不回收，安全团队既不知道有多少 agent 在跑，也无法回答它们能碰到哪些敏感数据；出事时缺少可追溯的责任链。
+  pain_en: Agents are spun up by individual teams, often granted broad and never-revoked permissions,
+    so security teams neither know how many agents are running nor which sensitive data they can reach,
+    and lack an auditable chain of responsibility when incidents occur.
+  current_alternative: 目前多靠人工表格登记、云厂商原生 IAM 策略审查和事后日志排查，跨系统、跨云时难以拼出完整视图。
+  current_alternative_en: Today this is mostly manual spreadsheets, native cloud IAM policy reviews and
+    after-the-fact log forensics, which rarely assemble a complete cross-system, cross-cloud view.
+  usage_reason: 相较人工登记与事后日志排查，它把 agent 身份、权限和调用行为自动汇聚成一份可处置清单，省去安全团队逐系统手工拼权限关系的那一步，因此已批量上 agent 的强合规企业会在审计或事故复盘时选择它；这是基于产品定位的推断，公开材料未给出客户留存或复购证据。
+  usage_reason_en: Compared with manual registries and after-the-fact log forensics, it automatically
+    aggregates agent identities, permissions and call behavior into a remediation-ready list, removing
+    the step of manually stitching permission relationships system by system, so regulated firms running
+    many agents would pick it during audits or incident reviews; this is inference from positioning, as
+    public materials show no retention or repeat-purchase evidence.
+- id: req-full-reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark-2026-10-01
+  project_slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
+  level: full
+  reviewed_at: '2026-10-01T01:55:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业批量部署 AI agent 后权限与数据访问失控、无法盘点的痛点，旧做法是人工登记与事后日志排查，不治理会留下越权与合规风险，需求结构成立。
+    evidence_ids:
+    - ev-85a812a398180b9b
+    - ev-1e366414feb0b682
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网对 280+ 应用可见性与融资规模的描述，没有客户采用、部署数量或安全团队实际使用的证据，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-85a812a398180b9b
+    - ev-1e366414feb0b682
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价以及买方是安全预算还是平台预算；融资密集说明资本认可，但付费路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-85a812a398180b9b
+    - ev-1e366414feb0b682
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料核对检测准确率、误报率与人工处置边界，交付是否确定发生缺少可验证结果。
+    evidence_ids:
+    - ev-1e366414feb0b682
+  next_validation: 收集 Reco 官方定价页或公开客户案例，确认其按什么计价、买方是谁，以及是否有可核对的部署与治理结果。
+  market: ''
+  job: 企业安全运营工程师与身份与访问管理负责人在各业务线批量上线内部 AI agent 后，把散落在 280+ 应用中的 agent 身份、归属人、权限与数据访问记录作为输入，盘点出谁在访问什么，产出一份可处置的越权与异常风险清单并推动整改。
+  job_en: Security operations engineers and IAM leads at enterprises that have rolled out internal AI
+    agents across business lines take agent identities, owners, permissions and data-access records scattered
+    across 280+ apps as input, inventory who can reach what, and produce a remediation-ready list of over-privilege
+    and anomalies to drive fixes.
+  pain: agent 由各团队自行创建，权限常一次给足且长期不回收，安全团队既不知道环境里有多少 agent 在跑，也答不出它们能碰到哪些敏感数据；出事时缺少可追溯的责任链，审计与合规检查时只能临时拼凑。
+  pain_en: Agents are spun up by individual teams, often granted broad and never-revoked permissions,
+    so security teams neither know how many agents are running nor which sensitive data they can reach;
+    when incidents or audits hit, there is no auditable chain of responsibility and evidence must be stitched
+    together ad hoc.
+  current_alternative: 目前多靠人工表格登记、云厂商原生 IAM 策略审查和事后日志排查，跨系统、跨云时难以拼出完整视图。
+  current_alternative_en: Today this is mostly manual spreadsheets, native cloud IAM policy reviews and
+    after-the-fact log forensics, which rarely assemble a complete cross-system, cross-cloud view.
+  usage_reason: 相较人工登记与事后日志排查，它把 agent 身份、权限和调用行为自动汇聚成一份可处置清单，省去安全团队逐系统手工拼权限关系的那一步，因此已批量上 agent 的强合规企业会在审计或事故复盘时选择它；这是基于产品定位与工作流结构的推断，公开材料未给出客户留存或复购证据。
+  usage_reason_en: Compared with manual registries and after-the-fact log forensics, it automatically
+    aggregates agent identities, permissions and call behavior into a remediation-ready list, removing
+    the step of manually stitching permission relationships system by system, so regulated firms running
+    many agents would pick it during audits or incident reviews; this is inference from positioning and
+    workflow structure, as public materials show no retention or repeat-purchase evidence.

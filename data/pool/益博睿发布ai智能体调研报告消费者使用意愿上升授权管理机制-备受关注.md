@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQbkUyTnQ3NktD
 summary: 益博睿发布AI智能体调研报告：消费者使用意愿上升，"授权管理机制" 备受关注 美通社
 first_seen: '2026-09-29T10:19:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/science/2026/09/google-figures-out-how-to
 summary: Intended to help with biosecurity, it works with a popular AI protein design tool.
 first_seen: '2026-09-30T15:54:52Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

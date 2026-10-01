@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/499654.html
 summary: 千禧年难题的突破，10000个Agent最多占了10%的功劳。
 first_seen: '2026-09-30T14:03:43Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

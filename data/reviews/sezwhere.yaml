@@ -77,3 +77,52 @@
   usage_reason: 用户要完成的任务是：法务与合规人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Legal and compliance staff Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-sezwhere-2026-10-01
+  project_slug: sezwhere
+  level: full
+  reviewed_at: '2026-10-01T01:55:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长文档中“这句话出自哪里”的定位需求，痛点是人工检索慢且引用错位在合规与合同场景有责任后果，属刚性；官方页面已说明输入为文档、动作为提问、交付为文档内原文位置，闭环可确定，属工作流结构推理，尚无用户自述佐证。
+    evidence_ids:
+    - ev-a013bf4d2741cd57
+    - ev-17d59d99f06c4c13
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网一句产品定位，未出现客户案例、公开评价、部署范围或持续使用数据，无法判断法务与合规人群是否已把它纳入日常核对流程，只能确认存在早期关注信号。
+    evidence_ids:
+    - ev-a013bf4d2741cd57
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购路径，无法判断钱来自个人订阅、律所/企业法务预算还是其他方；这是商业证据缺口，不反推定位需求不存在。
+    evidence_ids:
+    - ev-a013bf4d2741cd57
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持的文件格式、定位精度、是否给出可点击原文锚点，以及人工复核与错误引用时的责任边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-a013bf4d2741cd57
+    - ev-17d59d99f06c4c13
+  next_validation: 追踪 Sezwhere 官网是否上线定价页或客户案例页，并查看其部署/使用文档中是否披露支持的文件格式与定位精度说明。
+  market: ''
+  job: 法务、合规或合同审阅人员在拿到一份长文档（合同、法规、内部政策）后，需要就某个具体说法或条款追问“这句话出自哪里”，并拿到可引用的原文位置，用于回复同事、客户或监管问询。
+  job_en: Legal, compliance, or contract-review staff who receive a long document (contract, regulation,
+    internal policy) need to ask where a specific claim or clause is stated and get a citable source location,
+    in order to answer colleagues, clients, or regulators.
+  pain: 人工在长文档里逐页检索、比对措辞，既慢又容易漏；一旦引用错位置，在合规或合同场景会带来返工与责任风险，因此“出处可核对”本身是刚性要求。
+  pain_en: Manually scanning long documents page by page is slow and error-prone; a wrong citation in
+    compliance or contract work causes rework and liability, so verifiable provenance is itself a hard
+    requirement.
+  current_alternative: 目前主要靠 Ctrl+F 关键词检索、人工通读、目录与批注，或把文档丢给通用聊天机器人后自行回原文核对出处。
+  current_alternative_en: Today users rely on Ctrl+F keyword search, manual reading, tables of contents
+    and annotations, or pasting the document into a general chatbot and then manually verifying the citation
+    against the source.
+  usage_reason: 推断：相较通用问答式工具只给一段可能无出处的答案，Sezwhere 把动作收敛为“提问—返回文档内对应原文位置”，省掉用户回原文逐段反查出处这一步，因此需要可追溯引用的法务与合规人员会在核对条款出处时选择它；公开材料尚未给出用户自述或留存证据。
+  usage_reason_en: 'Inference: unlike general Q&A tools that return an answer without provenance, Sezwhere
+    narrows the action to ''ask a question, get the matching source location in the document'', removing
+    the step of manually re-locating the citation; that is why provenance-sensitive legal and compliance
+    users would pick it for clause verification. Public materials do not yet include user statements or
+    retention evidence.'

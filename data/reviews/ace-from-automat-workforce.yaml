@@ -1,0 +1,79 @@
+- id: req-initial-ace-from-automat-workforce-2026-10-01
+  project_slug: ace-from-automat-workforce
+  level: initial
+  reviewed_at: '2026-10-01T01:18:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，仅有一句“agentic teammate”定位，价值关无法成立。
+    evidence_ids:
+    - ev-5da21d83857a9dfe
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何公开采用或讨论证据可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-5da21d83857a9dfe
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开材料支持。
+    evidence_ids:
+    - ev-5da21d83857a9dfe
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对它是否贴近该工作的第一性目标或能否确定性交付。
+    evidence_ids:
+    - ev-5da21d83857a9dfe
+  next_validation: 收集 Ace 的官方产品页或文档，确认它面向的具体岗位、输入材料与交付物。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or work step, so who handles what material under
+    what circumstances to complete which task cannot be confirmed.
+  pain: 候选仅有一句定位，未描述任何现有流程中的痛点或不采用它的后果。
+  pain_en: The candidate offers only one positioning line and describes no pain in any existing process
+    or consequence of not using it.
+  current_alternative: 未披露它替代的旧做法，无法判断用户此前用什么方式完成同一任务。
+  current_alternative_en: The prior practice it replaces is undisclosed, so how users previously completed
+    the same task cannot be judged.
+  usage_reason: 缺少任务、输入与交付信息，无法说明相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no task, input or deliverable information, it is impossible to say which step
+    of burden it removes versus the old practice, or which users would choose it under what circumstances.
+- id: req-full-ace-from-automat-workforce-2026-10-01
+  project_slug: ace-from-automat-workforce
+  level: full
+  reviewed_at: '2026-10-01T01:51:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，仅有一句“agentic teammate”定位，价值关无法成立。
+    evidence_ids:
+    - ev-662152d5f635ebc1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Ace from Automat Workforce 的官方产品页或文档，确认它面向的具体岗位、输入材料与交付物。
+  market: ''
+  job: 公开材料只有一句“面向工作场景的 agent 型助手”，未说明谁在什么情况下、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: Public material offers only one line, 'an agentic teammate for work', and does not state who,
+    under what circumstances, handling what material, to complete which task, so the job cannot be reconstructed.
+  pain: 没有任何公开材料描述现有流程中的痛点、频率或不采用它的后果，痛点无法写出。
+  pain_en: No public material describes pain in any existing process, its frequency, or the consequence
+    of not adopting it, so the pain cannot be stated.
+  current_alternative: 未披露它替代的旧做法，无法判断用户此前用什么方式完成同一任务。
+  current_alternative_en: The prior practice it replaces is undisclosed, so how users previously completed
+    the same task cannot be judged.
+  usage_reason: 缺少任务、输入与交付信息，无法说明相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no task, input or deliverable information, it is impossible to say which step
+    of burden it removes versus the old practice, or which users would choose it under what circumstances.

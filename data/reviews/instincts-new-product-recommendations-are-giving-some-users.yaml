@@ -1,0 +1,84 @@
+- id: req-initial-instincts-new-product-recommendations-are-giving-some-users-2026-10-01
+  project_slug: instincts-new-product-recommendations-are-giving-some-users
+  level: initial
+  reviewed_at: '2026-10-01T01:19:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决用户发现商品与旅行的需求，但公开材料只显示未经请求的推送引发反感，痛点刚性未明。
+    evidence_ids:
+    - ev-49399bc87d90c2fc
+  - gate: consensus
+    status: challenged
+    reason: 部分用户明确表达不满，说明场景与感知这一环尚未打通，主动推荐未被接受。
+    evidence_ids:
+    - ev-49399bc87d90c2fc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明谁付费、按什么计价，买方与付费路径均不清楚。
+    evidence_ids:
+    - ev-49399bc87d90c2fc
+  - gate: truth
+    status: insufficient
+    reason: 无法核对推荐是否贴近用户真实任务，也未说明人工与自动化的边界。
+    evidence_ids:
+    - ev-49399bc87d90c2fc
+  next_validation: 收集 Instinct 官方对推荐功能的说明或定价页，确认推荐是否可关闭、由谁付费以及是否有用户持续使用的公开数据。
+  market: ''
+  job: 普通消费者在浏览应用时，被动接收人工策展的商品与旅行推荐，以决定是否购买或出行。
+  job_en: Ordinary consumers passively receive human-curated product and travel recommendations while
+    browsing, to decide whether to buy or travel.
+  pain: 用户没有主动提出需求时被推送推荐，产生被打扰的反感；同时缺少可关闭或可解释的控制。
+  pain_en: Users get recommendations they never asked for and feel intruded upon, with little control
+    to turn them off or understand them.
+  current_alternative: 用户自行搜索、看榜单或依赖已有购物与旅行平台的推荐位。
+  current_alternative_en: Users search on their own, read rankings, or rely on existing recommendation
+    slots in shopping and travel platforms.
+  usage_reason: 推断：若推荐能贴合用户当下场景且可随时关闭，用户可能省去主动搜索的一步；但公开材料只显示反感反馈，尚无留存或付费证据支持用户会持续使用。
+  usage_reason_en: 'Inference: if recommendations fit the user''s current context and can be turned off,
+    users may skip a search step; but public material only shows negative feedback, with no retention
+    or payment evidence that users keep using it.'
+- id: req-full-instincts-new-product-recommendations-are-giving-some-users-2026-10-01
+  project_slug: instincts-new-product-recommendations-are-giving-some-users
+  level: full
+  reviewed_at: '2026-10-01T01:54:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决商品与旅行的被动发现，但公开材料只显示未经请求的推送引发部分用户反感，没有证据表明存在刚性痛点或用户已采取的绕行行为；人工策展的输入、交付形式与可关闭性均未说明，属于自嗨式推送而非被需要的任务。
+    evidence_ids:
+    - ev-82a8ce08d322c9e4
+    - ev-f7d8c19f66bb20e4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Instinct 官网或官方博客对推荐功能的说明与定价页，确认推荐是否可关闭、由谁付费，以及是否有公开的用户持续使用或客户案例材料。
+  market: ''
+  job: 普通消费者在浏览应用或使用设备时，被动接收人工策展的商品与旅行推荐，以决定是否购买或出行；但公开材料未说明推荐基于什么输入材料、在什么界面出现、由谁策展。
+  job_en: Ordinary consumers passively receive human-curated product and travel recommendations while
+    browsing an app or using a device, to decide whether to buy or travel; public material does not specify
+    the input material, the surface where recommendations appear, or who curates them.
+  pain: 公开材料只显示部分用户对未经请求的推荐感到不满，属于被打扰的反感；没有证据表明用户此前存在一个未被满足的、刚性的商品或旅行发现痛点，也没有可关闭或可解释的控制诉求被证实。
+  pain_en: Public material only shows some users being unhappy about unrequested recommendations, i.e.
+    annoyance at intrusion; there is no evidence of a prior unmet, rigid pain in product or travel discovery,
+    nor confirmed demand for a turn-off or explainability control.
+  current_alternative: 用户自行搜索、看榜单，或依赖已有购物与旅行平台的推荐位与编辑榜单。
+  current_alternative_en: Users search on their own, read rankings, or rely on existing recommendation
+    slots and editorial lists in shopping and travel platforms.
+  usage_reason: 推断：只有当推荐贴合用户当下场景且可随时关闭时，用户才可能省去主动搜索的一步；但公开材料只呈现反感反馈，没有留存、复购或付费证据，无法说明哪类用户会在什么情况下主动选择它，因此不构成使用理由。
+  usage_reason_en: 'Inference: users might skip a search step only if recommendations fit their current
+    context and can be turned off; but public material shows only negative feedback, with no retention,
+    repeat-use or payment evidence, so it cannot explain which users would choose it under what conditions.'

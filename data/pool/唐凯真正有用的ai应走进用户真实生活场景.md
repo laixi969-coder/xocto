@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeWRieW1nUElI
 summary: 唐凯：真正有用的AI应走进用户真实生活场景 搜狐网
 first_seen: '2026-09-30T19:54:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

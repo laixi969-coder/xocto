@@ -114,3 +114,52 @@
   usage_reason: 用户要完成的任务是：视频编导与剪辑、内容运营；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Video director and editor, Content operations Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-table-videosop-2026-10-01
+  project_slug: table-videosop
+  level: full
+  reviewed_at: '2026-10-01T01:55:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编导、剪辑在开拍前定分镜、节奏与提示词时缺乏可复用规范的问题，痛点在于经验与零散文档难以交接、每项目重复摸索；仓库说明已给出 SOP、规则、模板与提示词的输入—填写—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-ec8966fb762ac0ee
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 52 增至 89，说明社区注意到它，但公开材料没有目标编导、剪辑的使用反馈或持续采用记录，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-caa1fc011f1c68c1
+    - ev-ec8966fb762ac0ee
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有仓库说明，没有定价页、付费主体或采购记录；谁付钱、按什么单位收费均未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+  - gate: truth
+    status: insufficient
+    reason: 模板内容、交付形态与人工边界尚未公开，无法核对填写后是否稳定产出可执行流程，也未见安全或人工复核说明。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-ec8966fb762ac0ee
+  next_validation: 追踪该 公开代码仓库 仓库的 README、模板文件与 issue/discussion，确认表格实际内容、交付形态及是否有使用者反馈其替代了原有制作流程。
+  market: ''
+  job: 短视频或广告片的编导、剪辑在开拍前，面对脚本、分镜和 AI 生成提示词等零散材料，要产出一份可直接执行的制作流程（分镜、节奏、提示词规范）。
+  job_en: Before shooting, short-video or ad directors and editors work from scattered scripts, storyboards
+    and AI prompts and must produce an executable production flow (shots, pacing, prompt specs).
+  pain: 分镜、节奏与提示词规范过去依赖个人经验和零散文档，团队内难以复用和交接；每次新项目都要重新摸索，返工和沟通成本落在编导与剪辑身上。
+  pain_en: Storyboard, pacing and prompt conventions live in individual experience and scattered docs,
+    so they are hard to reuse or hand off; each new project re-explores them, pushing rework and coordination
+    cost onto directors and editors.
+  current_alternative: 靠个人经验、零散文档、聊天记录或通用提示词合集临时拼凑制作流程。
+  current_alternative_en: Improvising from personal experience, scattered docs, chat logs or generic prompt
+    collections.
+  usage_reason: 推断：相较零散文档，它把 SOP、规则、模板和提示词收进可填写的表格，用户按表填写即可得到一份结构化制作流程，省去每次从零整理规范这一步；适合需要批量产出短视频或广告片、且团队要统一
+    AI 视频制作口径的编导与内容运营。
+  usage_reason_en: 'Inference: versus scattered docs, it puts SOPs, rules, templates and prompts into
+    fillable tables, so users get a structured production flow by filling them in, skipping the step of
+    rebuilding conventions from scratch; suited to directors and content ops producing short videos or
+    ads at volume who need a shared AI-video standard.'

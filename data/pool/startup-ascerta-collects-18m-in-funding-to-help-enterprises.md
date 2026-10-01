@@ -1,6 +1,6 @@
 ---
 slug: startup-ascerta-collects-18m-in-funding-to-help-enterprises
-name: Startup Ascerta collects $18M in funding to help enterprises understand the value AI provides
+name: Ascerta
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Startup Ascerta collects $18M in funding to help enterprises understand
   SiliconANGLE
 first_seen: '2026-09-30T12:00:00Z'
 last_seen: '2026-10-01T01:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Startup Ascerta collects $18M in funding to help enterprises understand the value AI provides
+# Ascerta
 
 Startup Ascerta collects $18M in funding to help enterprises understand the value AI provides SiliconANGLE
 

@@ -1,0 +1,88 @@
+- id: req-initial-cdata-launches-connect-ai-gateway-one-control-point-between-2026-10-01
+  project_slug: cdata-launches-connect-ai-gateway-one-control-point-between
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 直连业务系统绕过权限与审计的问题，痛点具体，旧做法是逐应用配账号与视图。
+    evidence_ids:
+    - ev-2e4c6bed3e5ee5eb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布消息，未见独立客户案例或社区采用讨论。
+    evidence_ids:
+    - ev-2e4c6bed3e5ee5eb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，付费路径属推断。
+    evidence_ids:
+    - ev-2e4c6bed3e5ee5eb
+  - gate: truth
+    status: insufficient
+    reason: 管控粒度与人工复核边界未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-2e4c6bed3e5ee5eb
+  next_validation: CData 官方 Connect AI Gateway 产品页与定价页，用于核验计费方式、部署形态与权限管控粒度。
+  market: ''
+  job: 企业数据平台工程师在让 AI 应用读取 CRM、ERP 等业务系统数据时，需要处理连接配置与权限管控。
+  job_en: Enterprise data platform engineers need to handle connection configuration and permission control
+    when letting AI applications read data from business systems such as CRM and ERP.
+  pain: AI 直连业务系统会绕过既有权限与审计，数据团队难以说明哪些数据被谁取用。
+  pain_en: Direct AI connections to business systems bypass existing permissions and auditing, making
+    it hard for data teams to say which data was accessed by whom.
+  current_alternative: 此前由数据团队为每个 AI 应用单独配置数据库账号、视图或中间层接口。
+  current_alternative_en: Previously data teams configured separate database accounts, views or middleware
+    interfaces for each AI application.
+  usage_reason: 推断：网关把 AI 对业务数据的访问收拢到一个控制点，减少为每个 AI 应用单独配权限与审计这一步，因此受监管行业的数据团队在接入 AI 时会倾向选择它；公开材料尚无付费或留存证据。
+  usage_reason_en: 'Inference: the gateway consolidates AI access to business data into one control point,
+    removing the step of configuring permissions and auditing separately for each AI application, so data
+    teams in regulated industries may prefer it when adopting AI; public materials show no payment or
+    retention evidence yet.'
+- id: req-full-cdata-launches-connect-ai-gateway-one-control-point-between-2026-10-01
+  project_slug: cdata-launches-connect-ai-gateway-one-control-point-between
+  level: full
+  reviewed_at: '2026-10-01T01:52:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 直连 CRM、ERP 时绕过权限与审计、且每接一个应用就要重配账号视图的问题，痛点具体且不解决会留下合规与重复运维代价；旧做法是逐应用配账号与视图。属工作流结构推理，公开材料仅一篇发布消息。
+    evidence_ids:
+    - ev-2e4c6bed3e5ee5eb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇发布消息，未见独立客户案例、社区讨论或可观察的采用行为，无法判断数据团队是否已在工作流中持续使用。
+    evidence_ids:
+    - ev-2e4c6bed3e5ee5eb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计费方式与买方，to B 数据平台采购属推断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-2e4c6bed3e5ee5eb
+  - gate: truth
+    status: insufficient
+    reason: 管控粒度、部署形态与人工复核边界均未说明，承诺能否确定性交付无法核对；其余检索证据与本品无关，不能补位。
+    evidence_ids:
+    - ev-2e4c6bed3e5ee5eb
+  next_validation: 追踪 CData 官方 Connect AI Gateway 产品页与定价页，核验计费方式、部署形态与权限管控粒度。
+  market: ''
+  job: 企业数据平台工程师在让 AI 应用读取 CRM、ERP 等业务系统数据时，需要为每个 AI 应用单独开通数据通道并施加权限与审计，最终让 AI 拿到受控的业务数据连接。
+  job_en: Enterprise data platform engineers, when letting AI applications read data from business systems
+    such as CRM and ERP, must open a data channel per AI application and apply permissions and auditing,
+    so that AI gets a governed connection to business data.
+  pain: AI 直连业务系统会绕过既有权限与审计，数据团队难以说明哪些数据被谁取用；每接一个 AI 应用就重配一次账号与视图，重复且易漏管。
+  pain_en: Direct AI connections to business systems bypass existing permissions and auditing, so data
+    teams cannot say which data was accessed by whom; each new AI application means reconfiguring accounts
+    and views again, which is repetitive and easy to leave ungoverned.
+  current_alternative: 此前由数据团队为每个 AI 应用单独配置数据库账号、视图或中间层接口，权限与审计分散在各应用侧。
+  current_alternative_en: Previously data teams configured separate database accounts, views or middleware
+    interfaces for each AI application, leaving permissions and auditing scattered across applications.
+  usage_reason: 推断：相较逐应用配账号与视图的旧做法，网关把 AI 对业务数据的访问收拢到一个控制点，省去为每个 AI 应用重复配权限与审计这一步，因此受监管行业的数据团队在接入 AI 时会倾向选择它；公开材料尚无付费或留存证据。
+  usage_reason_en: 'Inference: compared with configuring accounts and views per application, the gateway
+    consolidates AI access to business data into one control point, removing the repeated step of configuring
+    permissions and auditing for each AI application, so data teams in regulated industries may prefer
+    it when adopting AI; public materials show no payment or retention evidence yet.'

@@ -125,3 +125,85 @@
   usage_reason: HFlow 提供专门针对机器人的数据管道，来自 YC 公司，有初步关注（社区讨论 23 分），可能解决团队的实际痛点。
   usage_reason_en: HFlow offers robotics-specific data pipelines from a YC company, with initial attention
     (community discussion 23 points), potentially solving real pain points.
+- id: req-initial-hflow-2026-10-01
+  project_slug: hflow
+  level: initial
+  reviewed_at: '2026-10-01T01:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人团队把多模态记录整理成可训练数据集的需求，痛点是自写脚本重复且格式不统一；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库与少量社区讨论，未见客户案例或团队公开采用，共识环节证据不足。
+    evidence_ids:
+    - ev-d4a787176f499d1a
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或采购信息，钱可能来自机器人企业自建团队或按项目付费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+  - gate: truth
+    status: insufficient
+    reason: 管道能否确定性交付可用数据集、人工校验边界如何，公开材料未说明。
+    evidence_ids:
+    - ev-d4a787176f499d1a
+  next_validation: 收集 HFlow 官方仓库的 README 与 issue/discussion，确认支持的输入格式、交付产物与是否有外部团队实际使用。
+  market: ''
+  job: 机器人学习团队在准备训练数据时，需要把多路摄像头与传感器记录整理成可训练的数据集，供模型训练使用。
+  job_en: Robot learning teams preparing training data need to turn multi-camera and sensor recordings
+    into trainable datasets for model training.
+  pain: 多模态机器人数据的采集、清洗与对齐通常靠团队自写脚本，格式不统一、重复劳动多，数据质量直接影响训练结果。
+  pain_en: Collecting, cleaning and aligning multimodal robot data usually relies on in-house scripts,
+    with inconsistent formats and repeated work, and data quality directly affects training results.
+  current_alternative: 团队自建内部数据管道脚本，或使用通用数据处理框架自行拼接。
+  current_alternative_en: Teams build in-house data pipeline scripts or stitch together general-purpose
+    data processing frameworks.
+  usage_reason: 推断：相较自写脚本，HFlow 把多模态记录的接入与清洗封装成可复用管道，减少从零搭建和格式适配的步骤，因此缺少专职数据工程人力的机器人团队会先试用它。
+  usage_reason_en: 'Inference: compared with self-written scripts, HFlow packages multimodal ingestion
+    and cleaning into reusable pipelines, cutting the steps of building from scratch and adapting formats,
+    so robotics teams without dedicated data engineering staff would try it first.'
+- id: req-full-hflow-2026-10-01
+  project_slug: hflow
+  level: full
+  reviewed_at: '2026-10-01T01:53:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据中没有任何 HFlow 产品说明、用户痛点或旧流程记录，无法还原它解决什么需求、痛点是否刚性，价值关不成立。
+    evidence_ids:
+    - ev-b06f5f4c2f3fea19
+    - ev-d7c9857ce457ae55
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 HFlow 官方仓库或官网的 README、部署文档与 issue/discussion，确认其支持的输入格式、交付产物及是否有外部团队实际使用。
+  market: ''
+  job: 机器人学习团队在准备训练数据时，需要把多路摄像头与传感器记录整理成可训练的数据集，供模型训练使用。
+  job_en: Robot learning teams preparing training data need to turn multi-camera and sensor recordings
+    into trainable datasets for model training.
+  pain: 公开材料未提供任何关于 HFlow 的用户痛点、旧流程或抱怨证据，无法确认多模态数据整理是否构成其真实痛点。
+  pain_en: Public materials provide no user pain, legacy workflow, or complaint evidence for HFlow, so
+    it is unconfirmed whether multimodal data preparation is a real pain point for it.
+  current_alternative: 公开材料未说明机器人团队当前用什么方式替代 HFlow，无法确认旧做法。
+  current_alternative_en: Public materials do not state what robotics teams currently use instead of HFlow,
+    so the legacy alternative is unconfirmed.
+  usage_reason: 缺少产品文档、用户反馈或客户案例，无法解释用户为何会选择 HFlow 而非现有做法。
+  usage_reason_en: With no product docs, user feedback, or customer cases, there is no basis to explain
+    why users would choose HFlow over existing approaches.
