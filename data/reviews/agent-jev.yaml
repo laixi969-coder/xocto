@@ -134,3 +134,56 @@
     token-by-token generation, it removes the step of waiting for large-model output and parsing it, which
     appeals to latency-sensitive multi-step agent flows; however the public material does not say how
     probabilities become actions or who sets thresholds, so continued use cannot be confirmed.'
+- id: req-full-agent-jev-2026-10-02
+  project_slug: agent-jev
+  level: full
+  reviewed_at: '2026-10-02T02:12:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 编排中每步判断继续、重试还是升级的需求，痛点是逐 token 生成带来的延迟与解析负担；公开说明给出输入（diff、trace、日志加结构化问题）、动作（一次约
+      50 毫秒前向计算）与交付（概率分布），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-82e450319e748f62
+    - ev-cb0c5efddd23bec4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 308 升至 334 只反映开源关注度，没有用户反馈、案例或接入迹象，无法判断是否真被放进编排流程；中文生态检索也未发现相关讨论。
+    evidence_ids:
+    - ev-82e450319e748f62
+    - ev-8eaf867cda2d6c3b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、托管方式或买方，钱可能来自开源社区、企业授权或托管服务，这是判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-82e450319e748f62
+  - gate: truth
+    status: insufficient
+    reason: 无法核对概率是否真校准、阈值由谁设定、误判如何回退，也看不到人工边界与安全约束，承诺能否确定性交付尚未公开。
+    evidence_ids:
+    - ev-82e450319e748f62
+    - ev-cb0c5efddd23bec4
+  next_validation: 追踪该 公开代码仓库 仓库的模型卡、评测结果与 issue/discussion，确认概率校准方式、阈值设定与真实接入案例。
+  market: ''
+  job: agent 开发者在多步自动化流程运行中，把当前的 diff、trace 或日志连同结构化问题一起交给一个 0.6B 打分模型，要在一次前向计算内得到概率分布，据此决定下一步继续、重试还是升级。
+  job_en: While a multi-step automation flow is running, agent developers feed the current diff, trace
+    or log together with a structured question into a 0.6B scoring model and need a probability distribution
+    from a single forward pass to decide whether the next step should continue, retry or escalate.
+  pain: 公开材料说明这类判断若走大模型逐 token 生成，要等完整输出再解析，延迟和成本都压在每一步编排上；而流程里往往只需要一个快速打分。这是从产品能力与编排任务推出的结构判断，不是用户口述。
+  pain_en: The public material indicates that routing such judgements through token-by-token large-model
+    generation forces waiting for full output and parsing it, pushing latency and cost onto every orchestration
+    step, while the flow often only needs a fast score. This is a structural inference from the product
+    capability and the orchestration task, not user testimony.
+  current_alternative: 开发者目前多写规则或阈值脚本，或直接调用大模型对话接口做判断再自行解析输出；公开材料未给出与这些旧做法的对比数据。
+  current_alternative_en: Developers today mostly write rule or threshold scripts, or call a large-model
+    chat endpoint and parse the output themselves; the public material gives no comparison data against
+    these older approaches.
+  usage_reason: 推断：相较调用大模型再解析输出，它把判断压缩成一次约 50 毫秒的前向计算且不逐 token 解码，省掉等待生成与解析这一步，因此对延迟敏感、每步都要决策的多步 agent
+    编排者更可能选择它；但概率如何转成动作、阈值谁定、误判如何处理均未公开，持续使用尚无证据。
+  usage_reason_en: 'Inference: compared with calling a large model and parsing its output, it compresses
+    the judgement into one ~50 ms forward pass with no token-by-token decoding, removing the wait-and-parse
+    step, so developers orchestrating latency-sensitive multi-step agents are more likely to pick it;
+    however how probabilities become actions, who sets thresholds and how misjudgements are handled are
+    not public, and continued use is unevidenced.'

@@ -180,3 +180,44 @@
     burden of implementing and debugging that link, so developers maintaining tool-calling chains for
     several coding agents would choose it when they need to connect jev; star growth only reflects attention
     and does not prove sustained use.'
+- id: req-full-jev-gateway-2026-10-02
+  project_slug: jev-gateway
+  level: full
+  reviewed_at: '2026-10-02T02:14:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决编码 agent 与 jev 决策服务之间的请求转发对接，但公开材料只有一句定位与星标，未说明旧流程负担、不采用的后果与交付结果，价值结构不完整，属于自嗨拼凑。
+    evidence_ids:
+    - ev-23e529a3dec6c15c
+    - ev-96a11d94dca37a51
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与未关闭 issue，确认是否披露具体接入步骤、失败处理与真实使用反馈。
+  market: ''
+  job: 开发者在给编码 agent 接入外部工具调用时，需要把 agent 的推理请求转发到 jev 决策服务并取回结果，再交回 agent 继续执行任务。
+  job_en: Developers wiring external tool calls into a coding agent need to forward the agent's reasoning
+    requests to the jev decision service and return results so the agent can continue execution.
+  pain: 公开材料只给出项目定位与仓库星标，没有说明旧做法中自写转发与集成代码的具体负担、失败代价或人工确认需求，痛点强度无法从公开事实确认。
+  pain_en: Public material only gives the project positioning and repository stars; it does not describe
+    the concrete burden, failure cost, or human-confirmation needs of hand-written forwarding and integration,
+    so pain intensity cannot be confirmed from public facts.
+  current_alternative: 开发者通常自行编写胶水代码把编码 agent 与决策服务对接；材料未说明具体替代方式与切换成本。
+  current_alternative_en: Developers typically write glue code to connect coding agents with the decision
+    service; the material does not describe the specific alternative or switching cost.
+  usage_reason: 推断：若它省去自写对接代码并统一处理请求转发，维护多个 agent 的开发者可能采用；但星标只反映关注度，公开材料没有用户反馈或案例说明谁在什么情况下选择它。
+  usage_reason_en: 'Inference: if it removes hand-written integration code and centralises request forwarding,
+    developers maintaining several agents might adopt it; but stars only reflect attention, and public
+    material has no user feedback or cases showing who chooses it and when.'

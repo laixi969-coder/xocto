@@ -1,11 +1,13 @@
 ---
 slug: 从数据到智能再到进化agent正在重写ai基础设施
-name: 从数据到智能，再到进化：Agent正在重写AI基础设施
+name: 阿里云
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是阿里云在云栖大会上对Agent负载形态的判断，不是独立产品：它指出Agent会自行拆任务、并发试错并持续运行，使云平台面对的管控与计算压力成倍上升。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is Alibaba Cloud''s conference-level framing of agent workloads rather than a standalone
+  product: it argues agents split tasks, retry concurrently and run continuously, multiplying control
+  and compute pressure on cloud platforms.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -58,7 +60,7 @@ summary: "一个工程师写完数据处理代码，点下提交，然后去喝�
   \ \n 从数据产生智能，到智能进入应用，再到应用推动系统优化，阿里云试图搭建起一条持续转动的反馈链。Agent 时代基础设施竞争的关键，也正从承载多少模型，转向能否让数据、模型和系统一起更快进化。"
 first_seen: '2026-10-01T03:21:33Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -69,7 +71,7 @@ sightings:
   kind: news
 ---
 
-# 从数据到智能，再到进化：Agent正在重写AI基础设施
+# 阿里云
 
 一个工程师写完数据处理代码，点下提交，然后去喝了杯咖啡。十几分钟甚至几十分钟之后，他才回到屏幕前看结果、改代码、再提交。这条「等待— 反馈」的空隙，过去一直是数据平台默认的节奏。 
  Agent 没有这个空隙。它拿到一次结果，立刻验证，紧接着并发地去试第二种、第三种方案，飞快拿到反馈，再发起下一轮调用。 

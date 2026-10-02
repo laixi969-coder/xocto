@@ -239,3 +239,58 @@
     in deterministic Python and bounds agents as constrained nodes, cutting the burden of re-confirming
     step order and result consistency on every re-run; developers who need agent workflows fixed inside
     an existing repo and run repeatedly would choose it in that situation.'
+- id: req-full-super-simple-software-factory-2026-10-02
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-02T02:15:56Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把编码代理调用顺序固定为可重复流程的需求：代理输出不稳定、步骤靠临场决定、失败点难定位，不解决的后果是同一任务无法在仓库内复现。公开材料已能还原输入（已有仓库）、动作（确定性
+      Python 编排、代理作受约束节点）与交付（可重复运行的代理加代码工作流），属工作流结构推理；痛点强度与人工确认环节仍待核验。
+    evidence_ids:
+    - ev-603e248144a9b60e
+    - ev-a2efa1c74d032072
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 97 增至 130 以上，说明已有开发者持续关注并把它纳入视野，属于关注度与初步采用信号；但收藏不等于持续使用，尚无用户评价或案例说明它在真实工作流中被长期保留，因此共识只到初步成立。
+    evidence_ids:
+    - ev-603e248144a9b60e
+    - ev-c7cbf9fe1a46b3da
+    - ev-ad1b3788d57c64fa
+    - ev-2ad1ce54c85462a9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推问题不存在。谁付钱目前是判断而非已验证事实。
+    evidence_ids:
+    - ev-c21b86aab9b3d188
+    - ev-c7e6ee0e3e8fc391
+  - gate: truth
+    status: insufficient
+    reason: 确定性 Python 掌管编排、代理作受约束节点，方向上贴近可重复交付的第一性目标；但公开材料未给出可复现的部署文档、失败处理或人工与安全边界说明，交付能否稳定发生仍缺证据。
+    evidence_ids:
+    - ev-a2efa1c74d032072
+    - ev-d212aaa58089dbe7
+  next_validation: 追踪该项目的官方仓库 README、部署文档与 issue/discussion，确认是否存在真实仓库中的可复现运行记录、人工确认环节说明与失败处理方式。
+  market: ''
+  job: 开发者在已有代码仓库中，把多个编码代理的调用顺序与边界固定成可重复运行的流程：由确定性 Python 掌管编排图，编码代理作为受约束节点执行具体步骤，最终产出可反复运行的代理加代码工作流。
+  job_en: 'Inside an existing repository, a developer fixes the call order and boundaries of multiple
+    coding agents into a repeatable workflow: deterministic Python owns the orchestration graph while
+    coding agents act as bounded nodes, producing a re-runnable agents-plus-code workflow.'
+  pain: 编码代理每次运行结果不稳定、步骤顺序靠人临场决定，同一任务难以在仓库里复现；把代理塞进流程后，失败点难定位、人工确认环节无处安放，团队无法把一次成功经验固化成可重复执行的资产。
+  pain_en: Coding agents produce unstable runs and step order is decided ad hoc, so the same task is hard
+    to reproduce inside a repository; once agents are embedded in a pipeline, failure points are hard
+    to locate and human checkpoints have no defined place, so a one-off success cannot be frozen into
+    a repeatable asset.
+  current_alternative: 当前替代是手工在终端或 IDE 里逐个提示编码代理、用临时脚本或 Makefile 串起步骤，或直接依赖代理自身的自主规划；这些做法缺少确定性编排层，流程难以版本化与复用。
+  current_alternative_en: Today developers prompt coding agents one by one in a terminal or IDE, glue
+    steps with ad-hoc scripts or Makefiles, or rely on the agent's own autonomous planning; these lack
+    a deterministic orchestration layer, so the flow is hard to version and reuse.
+  usage_reason: 推断：相较逐个提示代理或临时脚本，它把编排逻辑从代理的自主决策中剥离出来交给确定性 Python，代理只在受约束节点内执行，因此开发者不必每次重排步骤、也更容易定位失败节点；当同一类任务需要在仓库里反复执行时，这类用户会选它。公开材料尚未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus prompting agents one by one or ad-hoc scripts, it moves orchestration
+    out of the agent''s autonomous decisions into deterministic Python, with agents executing only inside
+    bounded nodes, so developers need not re-sequence steps each run and can locate failing nodes more
+    easily; users facing repeated same-class tasks in a repo would choose it. Public materials do not
+    yet provide user feedback or retention evidence.'

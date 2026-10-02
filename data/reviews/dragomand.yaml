@@ -1,0 +1,81 @@
+- id: req-initial-dragomand-2026-10-02
+  project_slug: dragomand
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚未写清，公开材料只有一句产品定位，无法判断痛点刚性与不采用的后果。
+    evidence_ids:
+    - ev-22e01eb0199f7082
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 8 分且无评论，没有可归因到该产品的采用或持续使用证据。
+    evidence_ids:
+    - ev-22e01eb0199f7082
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方、定价或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-22e01eb0199f7082
+  - gate: truth
+    status: insufficient
+    reason: 无法核对翻译质量、离线能力与人工确认边界，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-22e01eb0199f7082
+  next_validation: 收集该项目的官方说明或仓库文档，确认支持的输入方式、语言范围、是否离线运行以及是否有定价页。
+  market: ''
+  job: Linux 桌面用户在处理非母语文本时，把本地文本交给该工具完成翻译并取回译文。
+  job_en: A Linux desktop user handling non-native-language text hands local text to the tool to be translated
+    and gets the translation back.
+  pain: 公开材料只说明它是 Linux 本地语言翻译器，未说明具体痛点，例如是否为了避开云端上传、离线可用或隐私合规。
+  pain_en: The public material only says it is a local language translator for Linux; it does not state
+    the specific pain, such as avoiding cloud uploads, offline availability or privacy compliance.
+  current_alternative: 公开材料未说明用户此前用什么替代，常见做法可能是浏览器翻译插件或在线翻译服务，但这是推断，未获材料支持。
+  current_alternative_en: The public material does not say what users used before; browser translation
+    extensions or online translation services are plausible but this is inference, not supported by the
+    material.
+  usage_reason: 材料未给出用户反馈或采用证据，无法说明相较旧做法减少了哪一步负担；缺少可核对的使用理由。
+  usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain which
+    step of the old workflow is reduced; a checkable usage reason is missing.
+- id: req-full-dragomand-2026-10-02
+  project_slug: dragomand
+  level: full
+  reviewed_at: '2026-10-02T02:13:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚未写清，公开材料只有一句产品定位，无法判断痛点刚性与不采用的后果。
+    evidence_ids:
+    - ev-22e01eb0199f7082
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 DragomanD 官网或代码仓库文档，确认支持的输入方式、语言范围、是否离线运行以及是否有定价页。
+  market: ''
+  job: Linux 桌面用户在阅读或处理非母语文本时，把本地文本交给该工具完成翻译并取回译文。
+  job_en: A Linux desktop user handling non-native-language text hands local text to the tool to be translated
+    and gets the translation back.
+  pain: 公开材料只有一句产品定位，未说明具体痛点，例如是否为了避开云端上传、离线可用或隐私合规，痛点刚性无从判断。
+  pain_en: The public material offers only a one-line positioning and does not state the specific pain,
+    such as avoiding cloud uploads, offline availability or privacy compliance, so pain rigidity cannot
+    be judged.
+  current_alternative: 公开材料未说明用户此前用什么替代；浏览器翻译插件或在线翻译服务只是常见推断，未获材料支持。
+  current_alternative_en: The public material does not say what users used before; browser translation
+    extensions or online translation services are common inferences, not supported by the material.
+  usage_reason: 材料未给出用户反馈或采用证据，无法说明相较旧做法减少了哪一步负担，缺少可核对的使用理由。
+  usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain which
+    step of the old workflow is reduced; a checkable usage reason is missing.

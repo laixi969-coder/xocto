@@ -166,3 +166,56 @@
     security-tuned models in one place, cutting the search burden of screening, so security researchers
     doing authorized testing who need locally deployable models would bookmark or try it; star growth
     shows attention only, not sustained use.'
+- id: req-full-offensive-security-ai-models-2026-10-02
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-02T02:14:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中筛选可本地部署未审查模型的需求，痛点是商用模型拒答与数据外发合规冲突，旧做法是零散翻找模型库逐个试跑；仓库把候选集中成清单，交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+    - ev-8afa7ea88090cc6b
+  - gate: consensus
+    status: supported
+    reason: 仓库星标从 194 增至 524，说明安全社区持续关注并把它当作模型选型入口；但星标只证明关注度，尚无 issue、讨论或客户案例证明它已被长期嵌入测试工作流。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+    - ev-a25b763d28ba1a13
+    - ev-92698e39f13570bc
+    - ev-8afa7ea88090cc6b
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单仓库，公开材料没有定价页、赞助、商业授权或采购记录，谁付钱、按什么单位收费均未披露；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+  - gate: truth
+    status: insufficient
+    reason: 仓库只给出简介与星标，未说明收录哪些模型、如何部署、产出什么结果，也未披露授权边界与人工复核要求；交付能否稳定发生尚缺可复现公开证据。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+    - ev-8afa7ea88090cc6b
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否列出具体模型、部署步骤与授权使用边界，以核验交付可复现性。
+  market: ''
+  job: 安全研究员或红队在获得书面授权的渗透测试/红队评估中，需要挑选可本地部署、未做安全对齐或已针对网络安全任务微调的模型，用它们辅助生成攻击面验证思路、载荷草稿或漏洞分析，并保证推理过程不出本地环境。
+  job_en: Security researchers or red teams, during authorized penetration tests or red-team engagements,
+    need to pick locally deployable uncensored or security-fine-tuned models to assist with attack-surface
+    validation ideas, payload drafts, or vulnerability analysis while keeping inference on-premises.
+  pain: 主流托管模型对攻击性安全内容做拒答或安全对齐，研究员在授权测试中反复被拒答打断，只能手工改写提示词或放弃模型辅助；同时把目标环境细节发给第三方 API 又违反保密与合规要求，导致要么效率低、要么不能用。
+  pain_en: Mainstream hosted models refuse or safety-align offensive-security content, so researchers
+    doing authorized testing get repeatedly blocked and must hand-rewrite prompts or abandon model assistance;
+    sending target details to a third-party API also conflicts with confidentiality and compliance, so
+    the work is either slow or impossible.
+  current_alternative: 目前多靠自己零散收集 公开模型社区 上的未审查模型、在论坛或 Discord 里口口相传、逐个下载试跑，或直接使用被拒答的商用 API 并手工绕过；缺少一份按安全任务归类、可本地部署的候选清单。
+  current_alternative_en: Today researchers piece together uncensored models scattered across public model
+    community, rely on forum or Discord word-of-mouth, download and test them one by one, or use refusal-prone
+    commercial APIs and hand-craft workarounds; there is no curated, security-task-organized list of locally
+    deployable candidates.
+  usage_reason: 推断：相较逐个平台翻找和试跑，该仓库把未审查/安全微调模型集中成一份清单，用户可直接按任务筛选候选并本地部署，省去在多个模型库间检索和反复踩坑对齐拒答的步骤；因此会在授权测试需要本地推理、又不想被拒答打断时选择它。
+  usage_reason_en: 'Inference: versus hunting and trial-running models across platforms, this repo consolidates
+    uncensored/security-fine-tuned models into one list, letting users filter candidates by task and deploy
+    locally, removing the step of searching multiple model hubs and repeatedly hitting alignment refusals;
+    hence it is chosen when authorized testing needs local inference without refusal interruptions.'

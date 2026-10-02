@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/notchmind
 summary: 'Put your MacBook notch to work: music, files, timers & more'
 first_seen: '2026-09-29T11:53:58Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

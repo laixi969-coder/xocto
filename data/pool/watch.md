@@ -33,7 +33,7 @@ canonical_url: https://youtube.com/watch?v=vjItC11jF0o
 summary: I made a 3D rock climbing analysis tool using iPhone LiDAR [video]
 first_seen: '2026-09-25T19:48:59Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

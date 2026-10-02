@@ -1,0 +1,90 @@
+- id: req-initial-polylane-2026-10-02
+  project_slug: polylane
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决夜间生产故障响应慢这一真实痛点，旧做法是人工值班排查，结构上成立；但公开材料只有一句产品描述，无法确认它实际替代了哪一步。
+    evidence_ids:
+    - ev-955349d7d22b8d4a
+  - gate: consensus
+    status: insufficient
+    reason: 除上线页面外没有用户评价、客户案例或社区讨论，无法判断是否有人真的在夜间依赖它。
+    evidence_ids:
+    - ev-955349d7d22b8d4a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，运维工具通常由工程团队或平台部门付费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-955349d7d22b8d4a
+  - gate: truth
+    status: insufficient
+    reason: 让 agent 直接改生产环境涉及权限与安全边界，公开材料未说明人工确认环节和回滚机制。
+    evidence_ids:
+    - ev-955349d7d22b8d4a
+  next_validation: 收集 Polylane 官方文档或定价页，确认它接入哪些监控与部署系统、修复动作是否需要人工确认。
+  market: ''
+  job: 运维或值班工程师在夜间收到生产环境告警时，处理报错日志、监控指标和告警上下文，要完成故障定位与修复，让服务恢复。
+  job_en: An on-call or site reliability engineer receiving a production alert at night works through
+    error logs, monitoring metrics and alert context to locate and fix the fault and restore the service.
+  pain: 夜间被叫醒后要在信息不全、时间压力大的情况下排查生产故障，响应慢会直接造成服务中断时长。
+  pain_en: Being woken at night means diagnosing a production fault under incomplete information and time
+    pressure, and slow response directly extends service downtime.
+  current_alternative: 现有做法是人工值班加告警平台（如 PagerDuty 类工具）通知，再由工程师手动登录查看日志和回滚。
+  current_alternative_en: The current practice is human on-call duty plus alerting tools that notify,
+    after which engineers log in manually to read logs and roll back.
+  usage_reason: 推断：若 agent 能在告警触发后自动拉取日志与指标并给出可回滚的修复动作，可省去工程师被叫醒后手动收集上下文这一步，因此没有专职夜班运维、又常出夜间故障的团队会考虑试用；但公开材料未说明它接入哪些系统、修复是否需人工确认，也缺少任何采用或留存证据。
+  usage_reason_en: 'Inference: if the agent can automatically pull logs and metrics after an alert fires
+    and propose a rollback-safe fix, it removes the manual context-gathering step after an engineer is
+    woken, so teams without dedicated night-shift operations that frequently hit night incidents may try
+    it; however, public material does not say which systems it connects to or whether fixes need human
+    confirmation, and there is no adoption or retention evidence.'
+- id: req-full-polylane-2026-10-02
+  project_slug: polylane
+  level: full
+  reviewed_at: '2026-10-02T02:15:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决夜间生产故障响应慢这一需求，痛点是值班工程师被叫醒后在信息不全下排查、停机时长直接受损，旧做法是人工值班加告警平台再手动登录处理；产品以 agent 自动拉取日志指标并给出修复动作替代手动收集这一步，属工作流结构推理，交付边界未公开。
+    evidence_ids:
+    - ev-955349d7d22b8d4a
+  - gate: consensus
+    status: insufficient
+    reason: 除上线页面外没有用户评价、客户案例或社区讨论，无法判断是否真有人夜间依赖它，关注度不等于持续采用。
+    evidence_ids:
+    - ev-955349d7d22b8d4a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，运维工具通常由工程团队或平台部门付费，这是判断而非已验证事实，公开材料无付费或采购记录。
+    evidence_ids:
+    - ev-955349d7d22b8d4a
+  - gate: truth
+    status: insufficient
+    reason: 让 agent 直接改生产环境涉及权限与安全边界，公开材料未说明人工确认环节、回滚机制与接入范围，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-955349d7d22b8d4a
+  next_validation: 追踪 Polylane 官方文档或定价页，确认它接入哪些监控与部署系统、修复动作是否需要人工确认与回滚机制。
+  market: ''
+  job: 运维或值班工程师在夜间收到生产环境告警时，处理报错日志、监控指标和告警上下文，要完成故障定位与修复，让服务恢复。
+  job_en: An on-call or site reliability engineer receiving a production alert at night works through
+    error logs, monitoring metrics and alert context to locate and fix the fault and restore the service.
+  pain: 夜间被叫醒后要在信息不全、时间压力大的情况下排查生产故障，响应慢会直接拉长服务中断时长，这是值班制度长期存在的刚性痛点。
+  pain_en: Being woken at night means diagnosing a production fault under incomplete information and time
+    pressure, and slow response directly extends service downtime, a rigid pain that on-call rotations
+    have long carried.
+  current_alternative: 现有做法是人工值班加告警平台通知，再由工程师手动登录查看日志、定位并回滚，全过程依赖人醒着并在线。
+  current_alternative_en: The current practice is human on-call duty plus alerting tools that notify,
+    after which engineers log in manually to read logs, diagnose and roll back, all of which depends on
+    a human being awake and online.
+  usage_reason: 推断：相较人工值班先被叫醒再手动收集日志与指标，若 agent 在告警触发后自动拉取上下文并给出可回滚的修复动作，就省去工程师醒来后手动收集上下文这一步，因此没有专职夜班运维、又常出夜间故障的团队会在夜间告警场景下选择它；公开材料未说明接入哪些系统、修复是否需人工确认，也无采用或留存证据。
+  usage_reason_en: 'Inference: compared with waking a human who then manually gathers logs and metrics,
+    an agent that pulls context automatically after an alert fires and proposes a rollback-safe fix removes
+    the manual context-gathering step after the engineer wakes, so teams without dedicated night-shift
+    operations that frequently hit night incidents would choose it for night-alert scenarios; public material
+    does not say which systems it connects to or whether fixes need human confirmation, and'

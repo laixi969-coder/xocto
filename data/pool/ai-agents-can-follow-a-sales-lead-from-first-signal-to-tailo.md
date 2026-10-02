@@ -22,7 +22,7 @@ summary: AI agents can follow a sales lead from first signal to tailored outreac
   supervision. stocktitan.net
 first_seen: '2026-10-01T12:30:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

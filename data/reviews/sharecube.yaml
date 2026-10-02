@@ -1,0 +1,82 @@
+- id: req-initial-sharecube-2026-10-02
+  project_slug: sharecube
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 agent 产出逐行反馈的需求，痛点存在但刚性未明，公开材料只有一句说明，无法确认旧流程与交付。
+    evidence_ids:
+    - ev-78c5410e318d6d71
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，无用户评价、采用或社区讨论证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-78c5410e318d6d71
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 席位或按评审量收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-78c5410e318d6d71
+  - gate: truth
+    status: insufficient
+    reason: 无法核对逐行反馈是否贴近评审的第一性目标，也看不到人工确认边界与交付确定性。
+    evidence_ids:
+    - ev-78c5410e318d6d71
+  next_validation: 收集 ShareCube 官方定价页或公开客户案例，确认其输入格式、协作方式与收费对象。
+  market: ''
+  job: AI 应用开发者在调试或评审 agent 生成的代码与文本时，处理 agent 的原始产出，要完成逐行标注并收集协作者反馈的任务。
+  job_en: AI application developers, while debugging or reviewing code and text produced by agents, handle
+    raw agent output and need to annotate it line by line and collect collaborator feedback.
+  pain: agent 产出量大且分散，反馈往往只能针对整份文件或笼统描述，定位到具体某一行的成本高。
+  pain_en: Agent output is voluminous and scattered, feedback often targets a whole file or stays vague,
+    and pinpointing a specific line is costly.
+  current_alternative: 现有做法是把产出贴进聊天工具、文档评论或代码评审系统，靠人工指认行号。
+  current_alternative_en: The current practice is pasting output into chat tools, document comments, or
+    code review systems and manually pointing at line numbers.
+  usage_reason: 推断：相较在聊天或文档里笼统评论，它把反馈锚定到具体行，减少来回确认位置这一步，因此使用 agent 的工程团队在评审产出时可能选择它；尚无用户反馈或留存证据支持。
+  usage_reason_en: 'Inference: compared with vague comments in chat or docs, it anchors feedback to a
+    specific line and removes the back-and-forth of locating it, so engineering teams using agents may
+    choose it during review; no user feedback or retention evidence yet.'
+- id: req-full-sharecube-2026-10-02
+  project_slug: sharecube
+  level: full
+  reviewed_at: '2026-10-02T02:15:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句产品口号，无法还原具体旧流程、输入材料与交付结果，连它解决什么需求、什么痛点都写不出来，因此不构成价值判断。
+    evidence_ids:
+    - ev-78c5410e318d6d71
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ShareCube 官方产品页或定价页，确认其输入格式、协作方式、交付形态与收费对象。
+  market: ''
+  job: AI 应用开发者在调试或评审 agent 生成的代码与文本时，把 agent 的原始产出交给协作者，要完成逐行标注并收集针对具体某一行的反馈。
+  job_en: AI application developers, while debugging or reviewing agent-generated code and text, hand
+    raw agent output to collaborators to annotate line by line and collect feedback on a specific line.
+  pain: 公开材料只有一句产品口号，无法确认 agent 产出量大、反馈只能针对整份文件这类痛点是否真实存在，也看不到用户抱怨或绕行行为。
+  pain_en: Public material is only a one-line tagline; it cannot confirm whether pains such as voluminous
+    agent output or feedback limited to whole files actually exist, and no user complaints or workarounds
+    are visible.
+  current_alternative: 公开材料未说明用户现在用什么替代，聊天工具、文档评论或代码评审系统都只是推测，没有证据支持。
+  current_alternative_en: Public material does not state what users currently use instead; chat tools,
+    document comments or code review systems are only speculation without evidence.
+  usage_reason: 无法判断用户为何选择它：缺少输入格式、协作方式、交付形态与任何用户反馈，只能看出它想把反馈锚定到具体行，但这是功能描述而非采用理由。
+  usage_reason_en: 'Cannot judge why users would choose it: input format, collaboration mode, delivery
+    form and any user feedback are missing; only that it aims to anchor feedback to a line, which is a
+    feature description, not a reason for adoption.'

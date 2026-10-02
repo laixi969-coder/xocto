@@ -234,3 +234,53 @@
     typed judgment values and runs offline by default, removing the parsing/validation step and the network
     dependency; Node developers integrating DeepSeek/MCP who need code-consumable judgments would pick
     it at that step.'
+- id: req-full-jevcore-2026-10-02
+  project_slug: jevcore
+  level: full
+  reviewed_at: '2026-10-02T02:14:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型输出散文、程序无法直接判断的问题：开发者接入 DeepSeek 或 MCP 时须自行解析校验，措辞漂移会静默破坏下游逻辑，这是接入环节的刚性摩擦；类型化判断加离线默认在结构上可确定交付，属工作流推理，尚无用户自述痛点。
+    evidence_ids:
+    - ev-1efda6447470f169
+    - ev-7009d64a9498ad01
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 升至 93，说明开发者社区持续关注该方向，但收藏与增长只属关注度证据，公开材料没有 issue、discussion 或客户案例说明谁在何种场景持续使用，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-1efda6447470f169
+    - ev-d54044c90ac00279
+  - gate: model
+    status: insufficient
+    reason: 这是开源库，公开材料未见定价页、商业授权或企业采购记录，钱可能来自 to C 开发者捐赠或 to B 支持服务，属判断而非已验证事实；买方与单位经济均未核验，但不反推问题不存在。
+    evidence_ids:
+    - ev-1efda6447470f169
+  - gate: truth
+    status: insufficient
+    reason: 类型化判断与离线默认在承诺上可确定交付，但公开材料没有部署文档、可复现实测或安全边界说明，无法核验在真实 DeepSeek 与 MCP 环境下判断值是否稳定，交付确定性仍缺一环。
+    evidence_ids:
+    - ev-1efda6447470f169
+    - ev-321ca433ff9a99da
+  next_validation: 追踪 jevcore 仓库的 README、部署文档与 issue / discussion，确认是否有开发者公开描述在 DeepSeek 或 MCP 接入中替换了自写解析层。
+  market: ''
+  job: 后端与工具链开发者、AI 应用集成工程师在把 DeepSeek 或 MCP 工具接入自有 Node 服务时，需要处理模型返回的自然语言输出，把它变成代码可直接分支判断的类型化结果，而不是再写一层解析与校验。
+  job_en: Backend and tooling developers and AI application integration engineers wiring DeepSeek or MCP
+    tools into their own Node services must turn model prose output into typed values their code can branch
+    on, instead of writing another parsing and validation layer.
+  pain: 公开说明指出模型默认返回的是散文式文本，程序无法直接消费；开发者必须自行做字符串解析、格式校验和异常兜底，模型措辞一变下游逻辑就可能静默出错，这是接入环节反复出现的刚性摩擦。
+  pain_en: The public description states models return prose by default, which programs cannot consume
+    directly; developers must hand-roll string parsing, format validation and fallback handling, and a
+    wording change can silently break downstream logic, a recurring hard friction in integration work.
+  current_alternative: 当前替代是让模型输出 JSON 再自行解析校验，或依赖各框架自带的 structured output / function calling 封装，并额外写测试与重试逻辑兜住格式漂移。
+  current_alternative_en: Today developers either prompt for JSON and parse/validate it themselves, or
+    rely on framework-provided structured output / function calling wrappers, adding tests and retry logic
+    to absorb format drift.
+  usage_reason: 推断：相较自行拼 JSON 解析，jevcore 以类型化判断作为返回值，把“解析文本再判断”这一步前移到库的类型契约里，并默认离线运行，因此需要把模型判断嵌入 Node
+    服务、又不想维护解析层的开发者会在接入 DeepSeek 或 MCP 时选择它；公开材料尚未给出用户自述动机。
+  usage_reason_en: 'Inference: versus hand-rolled JSON parsing, jevcore returns typed judgments, moving
+    the parse-then-branch step into the library''s type contract and running offline by default, so developers
+    embedding model judgments in Node services who do not want to maintain a parsing layer would pick
+    it when integrating DeepSeek or MCP; public materials do not yet include user-stated motivation.'

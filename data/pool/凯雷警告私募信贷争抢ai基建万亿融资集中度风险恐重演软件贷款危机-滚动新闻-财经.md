@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wNHZOYVd4NGVh
 summary: 凯雷警告：私募信贷争抢AI基建万亿融资，集中度风险恐重演软件贷款危机_滚动新闻_财经 证券之星
 first_seen: '2026-10-01T13:40:02Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

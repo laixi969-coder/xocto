@@ -158,3 +158,55 @@
     filtering and risk by classifying by type and labeling security levels, so developers already making
     video with coding agents and wary of third-party pack safety may bookmark or trial it; but no public
     user feedback or case shows it staying in a workflow, and star growth only reflects attention.'
+- id: req-full-awesome-claude-video-skills-2026-10-02
+  project_slug: awesome-claude-video-skills
+  level: full
+  reviewed_at: '2026-10-02T02:12:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理做视频时技能选型与安全筛选的需求：180 个仓库散落、质量参差，用户要逐个试装读码，选型成本高且踩坑风险大；清单按类型归类并做安全分级，直接压缩这一步。痛点刚性来自安全与可用性判断，交付物是分类加安全标注的清单，结构上可确定。属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+    - ev-b68fc3bc70d9a5f0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 191 增至 355，说明开发者社区持续关注并把它加入书签，但收藏与关注只属规模信号，不能证明目标用户已把它留在视频生产工作流里；缺 issue、discussion
+      或使用反馈说明谁在何种场景实际调用。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+    - ev-3cfb79f0cda273a6
+    - ev-b68fc3bc70d9a5f0
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单，公开材料未见定价页、赞助、付费收录或企业采购路径，谁付钱、按什么单位收费均未披露；只能判断潜在付费方可能是想省选型成本的企业开发者或视频团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+  - gate: truth
+    status: insufficient
+    reason: 清单本身只做分类与安全标注，具体技能包的输入输出、渲染是否稳定、人工确认与安全边界都未在公开材料中给出可复现证据，交付确定性尚不能核验。
+    evidence_ids:
+    - ev-863af3af9f5727b6
+    - ev-7cadb01eeb9c2725
+  next_validation: 追踪该清单仓库的 issue 与 discussion，确认是否有用户报告实际用某个技能包完成渲染、替代了哪一步旧流程，以及安全分级是否被引用为选型依据。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，面对一堆素材和编码代理（Claude Code、Codex），要从 180 个视频技能仓库中挑出可用且安全的一个装进代理，让代理读取素材、调用工具渲染出成片。
+  job_en: A video editor or short-video operator who must ship finished clips at volume takes a pile of
+    raw assets and a coding agent (Claude Code, Codex), picks one usable, security-graded skill from 180
+    video repos, installs it, and lets the agent read the assets and call tools to render the cut.
+  pain: 编码代理做视频的技能散落在大量仓库里，质量与安全性参差，用户要逐个试装、读代码、判断是否安全，选型成本高且踩坑风险大；清单把 180 个仓库按类型归类并做安全分级，直接压缩了这一步。
+  pain_en: Video-making skills for coding agents are scattered across many repos of uneven quality and
+    safety; users must trial-install, read code and judge safety one by one, so selection is costly and
+    risky. The list groups 180 repos by type and grades each for security, compressing that step.
+  current_alternative: 旧做法是自己在 公开代码仓库 搜索、逐个 clone 试用、读源码判断安全性，或干脆放弃代理路线、回到剪辑软件手工拼接素材。
+  current_alternative_en: The old way is to search public code repository manually, clone and trial each
+    repo, read source to judge safety, or abandon the agent route and go back to hand-assembling assets
+    in editing software.
+  usage_reason: 相较自己逐个试装，清单通过按类型归类加安全分级，把“先筛掉不可用或不安全的仓库”这一步从逐个读代码变成按标注挑选，因此已经在用 Claude Code/Codex 做视频、又不想承担选型与安全风险的开发者或视频运营会在需要新增视频能力时先查这份清单。这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: Versus trial-installing each repo, the list turns 'screen out unusable or unsafe repos'
+    from reading code one by one into picking by type and security grade, so developers or video operators
+    already using Claude Code/Codex for video, who don't want selection and safety risk, check this list
+    first when adding video capability. This is inference from product capability and task structure,
+    not confirmed by user feedback.

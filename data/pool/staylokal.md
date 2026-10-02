@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/staylokal
 summary: Private file tools that run on your device.
 first_seen: '2026-09-30T08:09:39Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

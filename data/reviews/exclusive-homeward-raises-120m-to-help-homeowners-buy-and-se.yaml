@@ -1,0 +1,93 @@
+- id: req-initial-exclusive-homeward-raises-120m-to-help-homeowners-buy-and-se-2026-10-02
+  project_slug: exclusive-homeward-raises-120m-to-help-homeowners-buy-and-se
+  level: initial
+  reviewed_at: '2026-10-02T01:42:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决置换期间的资金与时序错配，但公开材料未写出具体痛点、旧流程与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-0b4e845501567633
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户采用、复购或行业共识证据，无法判断需求是否被广泛认可。
+    evidence_ids:
+    - ev-0b4e845501567633
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方与收费方式，钱从哪一方来无法判断，属于未知而非已验证。
+    evidence_ids:
+    - ev-0b4e845501567633
+  - gate: truth
+    status: insufficient
+    reason: 无法核对产品是否贴近置换交易的第一性目标、交付是否确定发生，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-0b4e845501567633
+  next_validation: 收集 Homeward 官方定价或服务条款页面，确认其收费方式、垫资条件与交付承诺。
+  market: ''
+  job: 房主在需要先购入下一套房、同时尚未卖出旧房的置换情境下，处理旧房出售与新房资金衔接，要完成两笔交易的时间与资金匹配。
+  job_en: A homeowner who needs to buy the next home before selling the current one must match the timing
+    and financing of two transactions.
+  pain: 公开材料未说明具体痛点，只能推断置换期间的资金缺口与交易时序错配是核心问题，缺少用户抱怨或案例佐证。
+  pain_en: The public material does not state the specific pain; the financing gap and timing mismatch
+    during a trade-in can only be inferred, with no user complaints or cases as support.
+  current_alternative: 公开材料未披露现有替代方式，常见做法可能是过桥贷款或先卖后租，但候选资料未证实。
+  current_alternative_en: The public material does not disclose existing alternatives; bridge loans or
+    selling first and renting are common practices but are not confirmed by the candidate.
+  usage_reason: 材料未说明产品通过哪一步具体动作减少负担，也未提供用户反馈或客户案例，无法解释用户为何选择它，缺少使用动机这一环。
+  usage_reason_en: The material does not explain which concrete step reduces the burden, nor does it provide
+    user feedback or customer cases, so why users choose it cannot be explained; the motivation link is
+    missing.
+- id: req-full-exclusive-homeward-raises-120m-to-help-homeowners-buy-and-se-2026-10-02
+  project_slug: exclusive-homeward-raises-120m-to-help-homeowners-buy-and-se
+  level: full
+  reviewed_at: '2026-10-02T02:13:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决置换期资金与时序错配：旧房未卖却要买新房，痛点是双重按揭、两次搬家与带附带条件报价缺乏竞争力，旧做法是先卖后租或过桥贷款。官网明确写出免附带条件、释放净值与从容卖旧房，属工作流结构推理，尚无用户案例佐证。
+    evidence_ids:
+    - ev-35a39e029329f435
+    - ev-0f0b96611e7df6dc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官网自述与融资报道，未发现客户案例、用户评价或复购数据，无法判断房主群体是否已形成采用共识；1.2 亿美元 D 轮只说明资本关注，不构成持续采用证据。
+    evidence_ids:
+    - ev-35a39e029329f435
+    - ev-0f0b96611e7df6dc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、服务费、垫资利率或收费方，钱可能来自房主服务费、按揭利差或机构资金，属判断而非已验证事实；有真实交易对手方，但付费路径尚未核验。
+    evidence_ids:
+    - ev-cb0e9fc2a834d41e
+  - gate: truth
+    status: insufficient
+    reason: 官网承诺免附带条件与释放净值，但未披露垫资条件、交割确定性、人工审核边界与失败情形，无法核对承诺能否确定性交付，也未发现安全或合规材料。
+    evidence_ids:
+    - ev-35a39e029329f435
+    - ev-cb0e9fc2a834d41e
+  next_validation: 追踪 Homeward 官网定价或服务条款页面，确认其收费方式、垫资条件与交割承诺。
+  market: ''
+  job: 已有旧房、准备换房的美国房主，在旧房尚未售出、又看中新房的置换窗口内，处理旧房出售与新房首付、贷款审批和交割时间的衔接，要完成先锁定新房再从容卖出旧房的两笔交易。
+  job_en: A US homeowner who already owns a home and is trading up handles the sequencing of the old home's
+    sale with the new home's down payment, mortgage approval and closing, so as to lock in the new home
+    first and sell the old one without pressure.
+  pain: 公开材料明确写出两个痛点：置换期要承受两次搬家（double moves）和两份按揭（double mortgages），且带房屋出售附带条件的报价在卖方市场里缺乏竞争力，可能因此错失目标房源。
+  pain_en: 'The public material states two pains explicitly: double moves and double mortgages during
+    the transition, and offers carrying a home-sale contingency are uncompetitive, which can cost the
+    buyer the target home.'
+  current_alternative: 公开材料未直接列出替代方案；按美国置换交易的常见做法推断，房主通常先卖后租、申请过桥贷款，或直接提交带房屋出售附带条件的报价，这些旧做法正是 Homeward
+    声称要绕开的环节。
+  current_alternative_en: The public material does not list alternatives directly; by common US trade-in
+    practice, homeowners typically sell first and rent, take a bridge loan, or submit an offer with a
+    home-sale contingency, which are exactly the steps Homeward claims to bypass.
+  usage_reason: 推断：相较先卖后租或过桥贷款，Homeward 以自身资金先买下新房或提供现金报价，使房主可以免除房屋出售附带条件去竞价，并把旧房出售的时间压力后移，从而减少一次搬家、一次双重按揭和一次因附带条件而落标的可能；会在旧房未售、又遇到竞争性房源时选择它。
+  usage_reason_en: 'Inference: versus selling first and renting or taking a bridge loan, Homeward buys
+    the new home with its own capital or issues a cash offer, letting the homeowner bid without a home-sale
+    contingency and defer the pressure to sell the old home, removing one move, one overlapping mortgage
+    and one contingency-driven lost bid; chosen when the old home is unsold and the target listing is
+    competitive.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DOGUzeFJIY1VE
 summary: 对标Meta Muse的“o”智能体或将发布？DevDay 2026前瞻：模型不再新鲜，运行时才见分晓 doit.com.cn
 first_seen: '2026-09-29T15:54:31Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

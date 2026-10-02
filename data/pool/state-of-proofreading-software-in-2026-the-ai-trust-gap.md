@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBURTBLVDNaUWZv
 summary: 'State of Proofreading Software in 2026: The AI Trust Gap G2 Learning Hub'
 first_seen: '2026-09-30T23:35:46Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

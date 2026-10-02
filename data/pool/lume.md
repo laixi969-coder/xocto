@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/lume-floating-notes-for-windows
 summary: Notes that appear with a mouse shake
 first_seen: '2026-09-30T05:20:55Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

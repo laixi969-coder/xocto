@@ -134,3 +134,56 @@
     surface so users trigger it in-conversation, removing the app-switch and context re-paste step. Developers
     who already have an API or internal system and want direct reach to ChatGPT users would choose it
     when distribution, not a self-built entry point, is the goal. Stars rising from 225 to 474 sh'
+- id: req-full-mcp-extensions-2026-10-02
+  project_slug: mcp-extensions
+  level: full
+  reviewed_at: '2026-10-02T02:14:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决第三方开发者把自家能力嵌入 ChatGPT 对话内交付的需求，痛点是旧插件规范与跳转式网页导致功能不像原生、用户不在会话内调用；不解决的后果是拿不到对话内场景。这是基于仓库说明与旧替代的工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+    - ev-adfbae04ef150bfc
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 225 增至 622，说明开发者关注度上升，但收藏属关注度证据，不能证明目标开发者已把它留在工作流或持续调用；缺少 issue、discussion 或客户案例佐证强场景。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+    - ev-adfbae04ef150bfc
+    - ev-d3596fabb0143df8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、审核与计费归属，谁付钱（开发者、终端用户还是 OpenAI 侧分成）尚不清；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅给出定位说明，未见部署文档、审核标准或安全与人工边界材料，交付能否稳定发生、扩展可用范围是否确定仍缺可复现公开证据。
+    evidence_ids:
+    - ev-adfbae04ef150bfc
+  next_validation: 追踪 openai/mcp-extensions 仓库的 README、docs 目录与 issue/discussion，确认扩展提交规范、审核口径与是否有第三方已上线案例。
+  market: ''
+  job: 第三方开发者（独立开发者或 SaaS 团队）在已有 ChatGPT 使用场景下，把自家 API 或数据封装成对话内可调用的扩展，让终端用户在 ChatGPT 会话里直接完成查询、下单或操作，而不必跳出到另一个网页或
+    App。
+  job_en: Third-party developers (indie builders or SaaS teams) package their API or data as an in-conversation
+    extension so end users can query, order, or act directly inside a ChatGPT session instead of leaving
+    for another site or app.
+  pain: 此前 ChatGPT 插件生态的接入、呈现与分发规则不透明，开发者要自己猜测入口形态和审核口径，做出来的功能不像原生能力，用户也不会在对话里自然调用；不解决的后果是第三方能力只能停留在外链跳转，拿不到对话内的使用场景。
+  pain_en: Previously the ChatGPT plugin ecosystem had opaque onboarding, presentation and distribution
+    rules; developers had to guess the entry format and review bar, shipped features that did not feel
+    native, and users did not invoke them naturally in conversation. Left unsolved, third-party capability
+    stays a link-out and never captures in-conversation usage.
+  current_alternative: 开发者此前依赖 ChatGPT 旧插件规范、自定义 GPT/Actions、或干脆把功能做成独立网页与浏览器扩展，让用户手动切换窗口完成同一任务。
+  current_alternative_en: Developers previously relied on the older ChatGPT plugin spec, custom GPTs/Actions,
+    or simply shipped a standalone web page or browser extension, forcing users to switch windows to finish
+    the same task.
+  usage_reason: 推断：相较旧插件规范和跳转式网页，该机制让开发者按官方扩展形态提交，功能在对话内以原生形态出现，用户无需离开会话即可调用，减少一次跳转与重新描述上下文的负担；因此正在做 ChatGPT
+    集成的开发者会在需要对话内直接交付结果时选择它。公开材料尚未给出留存或复购证据。
+  usage_reason_en: 'Inference: versus the old plugin spec and link-out pages, this mechanism lets developers
+    submit under an official extension format so the feature appears natively inside the conversation,
+    removing one jump and the need to re-describe context. Developers already integrating with ChatGPT
+    would choose it when they need results delivered inside the chat. Public materials do not yet show
+    retention or repeat-use evidence.'

@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBRTGVHWDBCVFNT
 summary: BBIN注册新用户智慧城市建设成效显著：AI风控与社区共治并举-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T20:44:54Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

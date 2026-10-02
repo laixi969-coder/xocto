@@ -1,0 +1,86 @@
+- id: req-initial-janus-2026-10-02
+  project_slug: janus
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决非 Nvidia 显卡用户难以本地跑模型的问题，痛点具体；但公开材料只有一句运行方式说明，缺少性能、兼容范围与安装流程，价值链条不完整。
+    evidence_ids:
+    - ev-525b0389112d85f1
+  - gate: consensus
+    status: insufficient
+    reason: 社区有一定关注度，但没有采用案例、issue 讨论或部署反馈，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-525b0389112d85f1
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价信息，可能的付费方是自建部署团队或集成商，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-525b0389112d85f1
+  - gate: truth
+    status: insufficient
+    reason: 未披露支持的模型范围与实测性能，无法判断其承诺的跨厂商运行能否确定性交付。
+    evidence_ids:
+    - ev-525b0389112d85f1
+  next_validation: 抓取 Janus 仓库的 README 与 issue 讨论，确认支持的模型范围、实测性能数据以及是否有团队公开用于生产部署。
+  market: ''
+  job: 拥有 AMD、Intel 或 Nvidia 显卡的开发者与自建部署团队，需要在本地机器上运行 GGUF 模型而不依赖云端 API。
+  job_en: Developers and self-hosting teams with AMD, Intel, or Nvidia GPUs need to run GGUF models on
+    local machines without relying on cloud APIs.
+  pain: 本地推理长期偏向 CUDA 生态，非 Nvidia 显卡用户要么跑不起来，要么需要折腾多套工具链，数据不出内网的场景尤其受限。
+  pain_en: Local inference has long favored the CUDA ecosystem, so non-Nvidia GPU users either cannot
+    run models or must wrestle with multiple toolchains, which is especially limiting when data must stay
+    on-premise.
+  current_alternative: 现有做法是使用 llama.cpp 等推理工具自行编译配置，或直接购买云端 API 服务。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：如果 Janus 能以单个 Go 二进制在 Vulkan 上跑通 GGUF 模型，用户就不必为不同显卡分别配置编译环境，非 Nvidia 硬件的团队会更愿意本地部署；但公开材料未给出性能与兼容性数据，尚不能确认这一理由成立。
+  usage_reason_en: 'Inference: if Janus can run GGUF models on Vulkan from a single Go binary, users would
+    not need separate build environments per GPU vendor, making on-premise deployment more attractive
+    to non-Nvidia hardware teams; but no performance or compatibility data is public, so this reason is
+    not yet confirmed.'
+- id: req-full-janus-2026-10-02
+  project_slug: janus
+  level: full
+  reviewed_at: '2026-10-02T02:14:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决非 Nvidia 显卡本地跑 GGUF 模型的问题，但公开证据全部指向 Janus Henderson 投资公司与罗马神话，没有一条能说明用户任务、痛点或旧替代，连需求与痛点都无法从公开事实写出。
+    evidence_ids:
+    - ev-c0e327b62a00b3ca
+    - ev-1e82a314b1ab452b
+    - ev-71e023d141ab3341
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Janus 项目仓库的 README、release 说明与 issue 讨论，确认其支持的 GGUF 模型范围、Vulkan 实测性能以及是否有团队公开用于本地部署。
+  market: ''
+  job: 拥有 AMD、Intel 或 Nvidia 显卡的开发者与自建部署团队，在需要本地运行 GGUF 模型而不依赖云端 API 的情况下，用单个 Go 二进制通过 Vulkan 加载并推理本地模型。
+  job_en: Developers and self-hosting teams with AMD, Intel, or Nvidia GPUs who need to run GGUF models
+    locally without cloud APIs, using a single Go binary that loads and infers models via Vulkan.
+  pain: 公开材料未提供任何用户痛点、抱怨或 workaround 证据；现有证据全部指向 Janus Henderson 投资公司与罗马神话条目，与本地推理无关，无法确认该产品面对的具体痛点。
+  pain_en: Public materials provide no user pain, complaint, or workaround evidence; all available evidence
+    points to Janus Henderson Investors and the Roman deity, unrelated to local inference, so the specific
+    pain cannot be confirmed.
+  current_alternative: 公开材料未显示用户当前如何完成该任务，也未显示它替代什么旧做法。
+  current_alternative_en: Public materials do not show how users currently complete this job or what old
+    practice it replaces.
+  usage_reason: 推断：若 Janus 能以单个 Go 二进制在 Vulkan 上跑通 GGUF 模型，非 Nvidia 显卡用户可省去为不同厂商分别配置编译环境的步骤；但公开材料未给出性能、兼容范围或安装流程，该理由无法被公开事实支持。
+  usage_reason_en: 'Inference: if Janus can run GGUF models on Vulkan from a single Go binary, non-Nvidia
+    GPU users could skip configuring separate build environments per vendor; but no performance, compatibility,
+    or installation details are public, so this reason is not supported by public facts.'

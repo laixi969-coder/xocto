@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dots-by-openai
 summary: Always on agents built to handle everything
 first_seen: '2026-09-29T18:35:29Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

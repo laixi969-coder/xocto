@@ -270,3 +270,51 @@
     the ontology as an MCP server that agents query at runtime across schema, content and tool layers
     and that evolves from observed execution behavior, removing the step of re-explaining field meaning,
     so teams maintaining one warehouse long term would consider it.'
+- id: req-full-evoontology-2026-10-02
+  project_slug: evoontology
+  level: full
+  reviewed_at: '2026-10-02T02:13:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 不懂字段业务含义、写出语义错误查询的问题，旧做法是人工维护数据字典或逐次粘贴表结构；论文与仓库说明本体层封装为 MCP server 供 agent 运行时查询，属工作流结构推理，痛点刚性来自查询错误代价。
+    evidence_ids:
+    - ev-5e7a8c5aa6950d2c
+    - ev-efd8b03aa04ef998
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 496 增至 563 只说明开源关注度上升，没有 issue、discussion 或用户反馈证明本体层被持续接入真实数仓工作流。
+    evidence_ids:
+    - ev-63e86c07d1e49af8
+    - ev-7a248b70a46aa4d4
+  - gate: model
+    status: insufficient
+    reason: 公开材料只描述 MCP server 与本体构建能力，未披露定价、收费方式或买方；谁付钱是判断而非已验证事实，开源项目可能靠托管或企业版变现。
+    evidence_ids:
+    - ev-efd8b03aa04ef998
+    - ev-906d4e2b74473107
+  - gate: truth
+    status: insufficient
+    reason: 自动构建与持续进化本体是否会产生错误语义、人工如何审核与回滚，公开材料未说明，交付确定性存在缺口。
+    evidence_ids:
+    - ev-906d4e2b74473107
+  next_validation: 追踪该仓库的 issue 与 discussion，确认本体层在真实数据仓库中的接入方式、审核流程与使用反馈。
+  market: ''
+  job: 数据工程师或分析师在让 Claude Code、Codex 等编码 agent 查询企业数据仓库时，处理数据表与字段关系，要让 agent 在理解字段业务含义后生成可用的查询语句。
+  job_en: Data engineers or analysts, when having coding agents such as Claude Code or Codex query an
+    enterprise warehouse, handle table and field relationships so the agent generates usable queries after
+    understanding field business meaning.
+  pain: agent 缺少字段的业务语义，容易写出语义错误的查询；旧做法靠人工维护数据字典或每次把表结构粘贴进提示词，重复且易漂移。
+  pain_en: Agents lack business semantics for fields and easily write semantically wrong queries; the
+    old way relies on hand-maintained data dictionaries or pasting schema into the prompt each time, which
+    is repetitive and drifts.
+  current_alternative: 人工维护数据字典与文档，或在每次提问时把表结构粘贴给 agent。
+  current_alternative_en: Hand-maintained data dictionaries and docs, or pasting schema into the prompt
+    on each request.
+  usage_reason: 推断：相较每次粘贴表结构，它把本体层作为 MCP server 沉淀下来，agent 在运行时按需查询 schema、content 与 tool 三层，并依据交互历史持续演化，省掉重复解释字段含义这一步，因此长期维护同一套数仓的团队会考虑采用。
+  usage_reason_en: 'Inference: compared with pasting schema each time, it persists the ontology as an
+    MCP server that agents query on demand across schema, content and tool layers and that evolves from
+    interaction history, removing the step of re-explaining field meaning, so teams maintaining one warehouse
+    long term would consider it.'

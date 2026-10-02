@@ -1,6 +1,6 @@
 ---
 slug: palebluedot-ai完成200-百万c轮融资估值为32-十亿以扩展超级智能计算
-name: PaleBlueDot AI完成$200 百万C轮融资，估值为$3.2 十亿，以扩展超级智能计算
+name: PaleBlueDot AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNZjJPUHFyWGVT
 summary: PaleBlueDot AI完成$200 百万C轮融资，估值为$3.2 十亿，以扩展超级智能计算 Unite.AI
 first_seen: '2026-10-01T21:00:25Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# PaleBlueDot AI完成$200 百万C轮融资，估值为$3.2 十亿，以扩展超级智能计算
+# PaleBlueDot AI
 
 PaleBlueDot AI完成$200 百万C轮融资，估值为$3.2 十亿，以扩展超级智能计算 Unite.AI
 

@@ -1,6 +1,6 @@
 ---
 slug: amd-ross发布智能体ai赋能嵌入式开发全周期
-name: AMD Ross发布：智能体AI赋能嵌入式开发全周期
+name: AMD Ross
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pZm1pZ0JvS1py
 summary: AMD Ross发布：智能体AI赋能嵌入式开发全周期 doit.com.cn
 first_seen: '2026-10-01T03:13:06Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AMD Ross发布：智能体AI赋能嵌入式开发全周期
+# AMD Ross
 
 AMD Ross发布：智能体AI赋能嵌入式开发全周期 doit.com.cn
 

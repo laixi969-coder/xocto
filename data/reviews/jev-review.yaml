@@ -330,3 +330,52 @@
     of re-organizing check steps each time and of results scattered with no place to re-inspect; local-first
     keeps code on-machine, so developers wary of code leakage who still want an agent pass will pick it
     before committing.'
+- id: req-full-jev-review-2026-10-02
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-10-02T02:14:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是提交前对改动做分阶段质量评审并集中查看结果，痛点在于评审分散在提交后或需他人介入；公开仓库说明其分阶段评审与本地看板形态，但无用户抱怨或漏检代价数据，价值成立属工作流结构推理。
+    evidence_ids:
+    - ev-6914ec3b8da063df
+    - ev-bb435740d2c53389
+  - gate: consensus
+    status: supported
+    reason: 两个公开仓库分别记录 639→653 与 232→229 的收藏变化，说明英文生态已有开发者关注并收藏该工具；但收藏只属关注度证据，不能证明持续使用或已进入日常工作流。
+    evidence_ids:
+    - ev-6914ec3b8da063df
+    - ev-bb435740d2c53389
+    - ev-cbe82176fff3120c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 开发者订阅还是 to B 团队采购；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-6914ec3b8da063df
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明检查项清单、交付格式、可复现性以及人工与安全边界，无法核验评审结果能否稳定交付；本地优先形态降低数据外流风险，但缺部署文档佐证。
+    evidence_ids:
+    - ev-bb435740d2c53389
+  next_validation: 追踪 jev-review 仓库的 README、issue 与 discussion，确认其检查项清单、交付格式与是否被开发者实际接入提交前流程。
+  market: ''
+  job: 开发者在本地提交或推送改动前，把待评审的 diff 交给 AI 编码代理，由代理按阶段做质量检查，结果汇总到本地看板供人工确认后再决定是否提交。
+  job_en: Before committing or pushing, a developer hands the pending diff to an AI coding agent, which
+    runs staged quality checks and aggregates results into a local dashboard for human confirmation before
+    the commit proceeds.
+  pain: 公开材料只说明它是分阶段评审工作流与本地看板，未给出用户抱怨、缺陷漏检代价或评审耗时数据；痛点强度属于工作流结构推理，而非用户口述事实。
+  pain_en: Public materials only describe a staged review workflow and local dashboard; they contain no
+    user complaints, defect-escape costs, or review-time data, so pain intensity is a workflow-structure
+    inference, not stated user fact.
+  current_alternative: 旧做法是人工自查 diff、依赖 CI 静态检查或同事在 PR 上评审；这些环节发生在提交之后或需要他人介入，公开材料未说明本产品具体替代了其中哪一步。
+  current_alternative_en: The old approach is manual diff self-review, CI static checks, or a colleague
+    reviewing the PR; these happen after commit or require another person, and public materials do not
+    say which step this product replaces.
+  usage_reason: 推断：相较提交后再等 CI 或同事评审，它把检查动作前移到提交前，由代理按阶段跑检查并把结果集中到本地看板，减少开发者逐个工具查看和等待反馈的步骤；偏好本地优先、提交前自查的开发者会因此选择它。
+  usage_reason_en: 'Inference: versus waiting for CI or a colleague after commit, it moves checks before
+    the commit, has the agent run staged checks, and aggregates results in a local dashboard, cutting
+    the steps of checking tools one by one and waiting for feedback; developers who prefer local-first
+    pre-commit self-review would choose it.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRE8tbk81dFln
 summary: AI Risk Management Stocks Gaining Attention After Anthropic IPO Warning Simply Wall Street
 first_seen: '2026-09-29T10:34:02Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

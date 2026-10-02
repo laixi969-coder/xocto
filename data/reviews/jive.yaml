@@ -234,3 +234,45 @@
   usage_reason: 无法给出使用理由：现有证据与该项目无关，既没有产品文档、仓库、issue 或用户反馈，也没有可核对的结果改善说明。
   usage_reason_en: 'No usage reason can be given: the available evidence is unrelated to this project,
     with no product docs, repository, issues, or user feedback, and no verifiable outcome improvement.'
+- id: req-full-jive-2026-10-02
+  project_slug: jive
+  level: full
+  reviewed_at: '2026-10-02T02:14:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是工程师放行编码智能体多步改动前看清依赖顺序的需求，但公开证据全是词典、舞蹈和 GoTo 登录页，没有任何用户痛点、替代行为或不解决的后果，无法还原真实任务闭环。
+    evidence_ids:
+    - ev-fa9711e4f72799c7
+    - ev-44d62dee901feff8
+    - ev-017cb28202c4972c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目官方仓库或官网的 README、issue 与 discussion，确认是否存在真实用户描述的多步计划审查场景与执行交付记录。
+  market: ''
+  job: 软件工程师或技术团队负责人在终端里让编码智能体执行多步代码改动任务时，需要先看清智能体打算按什么依赖顺序做哪些步骤，再决定是否放行执行。
+  job_en: A software engineer or engineering lead running a terminal coding agent on a multi-step code
+    change needs to see the intended dependency order of steps before approving execution.
+  pain: 公开证据中没有一条描述该终端编码智能体的用户痛点、抱怨或既有绕行做法；现有证据全部是词典释义、舞蹈条目和 GoTo 登录页，无法说明不解决会有什么代价。
+  pain_en: No public evidence describes any user pain, complaint, or workaround for this terminal coding
+    agent; all evidence is dictionary entries, a dance article, and a GoTo sign-in page, so the cost of
+    leaving it unsolved cannot be stated.
+  current_alternative: 公开材料未说明工程师目前如何审查编码智能体的多步计划，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how engineers currently review a coding agent's
+    multi-step plan or what prior practice it replaces.
+  usage_reason: 无法给出使用理由：现有证据与该项目无关，既没有用户反馈也没有可核对的交付结果，只能推断图式计划可能让依赖顺序可见，但缺少任何采用或选择依据。
+  usage_reason_en: 'No usage reason can be given: the available evidence is unrelated to the project,
+    with no user feedback or verifiable delivery outcome; only an inference that a graph plan may make
+    dependency order visible, with no adoption or choice basis.'

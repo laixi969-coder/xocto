@@ -1,0 +1,94 @@
+- id: req-initial-ctxguard-2026-10-02
+  project_slug: ctxguard
+  level: initial
+  reviewed_at: '2026-10-02T01:41:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Agent 长会话下上下文膨胀带来的 token 成本与延迟问题，痛点刚性且旧做法是手工裁剪；但压缩质量与是否丢信息尚无公开验证。
+    evidence_ids:
+    - ev-68f378d756ac81f4
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与自述指标，没有客户案例、用户反馈或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-68f378d756ac81f4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；按节省 token 计费只是推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-68f378d756ac81f4
+  - gate: truth
+    status: insufficient
+    reason: 50%~80% token 削减为自述，缺少可复现实测与压缩后任务准确率数据，交付确定性未核验。
+    evidence_ids:
+    - ev-68f378d756ac81f4
+  next_validation: 收集该仓库的 README、issue 与 discussion 中可复现的 token 削减实测数据及压缩后任务准确率对比。
+  market: ''
+  job: 自建 AI Agent 服务的后端与平台工程师，在 Agent 长会话、多轮工具调用导致上下文不断膨胀时，处理历史对话、工具返回和代码文件等材料，把上下文压到模型可接受且成本可控的规模，并保证缓存命中。
+  job_en: Backend and platform engineers running self-hosted AI agent services, when long sessions and
+    repeated tool calls keep inflating context, work on conversation history, tool returns and code files
+    to shrink context to a size the model accepts at controllable cost while keeping cache hits.
+  pain: 上下文越长，token 账单和延迟越高，还容易触发模型截断或缓存失效；团队目前只能靠手工裁剪提示词或调低历史轮数，既费人力又难保证不丢关键信息。
+  pain_en: The longer the context, the higher the token bill and latency, and the more likely truncation
+    or cache misses; teams currently hand-trim prompts or cut history turns, which costs labor and risks
+    losing key information.
+  current_alternative: 工程师手工删减提示词、限制历史轮数、自己写脚本做摘要，或直接接受更高的 token 成本与更慢的响应。
+  current_alternative_en: Engineers manually trim prompts, cap history turns, write their own summarization
+    scripts, or simply accept higher token cost and slower responses.
+  usage_reason: 推断：相较手工裁剪，它把裁剪规则固化成语法树解析加工具增量比对，在每次调用前自动完成上下文压缩与缓存守护，减少工程师逐条删改提示词这一步，并让 token 消耗与缓存命中变成可核对的结果，因此长会话、多工具的
+    Agent 团队会在成本或延迟成为瓶颈时选择它。
+  usage_reason_en: 'Inference: versus manual trimming, it hardens trimming rules into syntax-tree parsing
+    plus tool-delta comparison, automatically compressing context and guarding the cache before each call,
+    removing the step of engineers editing prompts line by line and turning token spend and cache hits
+    into checkable results, so agent teams with long sessions and many tools pick it when cost or latency
+    becomes the bottleneck.'
+- id: req-full-ctxguard-2026-10-02
+  project_slug: ctxguard
+  level: full
+  reviewed_at: '2026-10-02T02:13:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Agent 长会话下上下文膨胀带来的 token 成本与延迟问题，痛点刚性且旧做法是手工裁剪；但压缩质量与是否丢信息尚无公开验证。
+    evidence_ids:
+    - ev-68f378d756ac81f4
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与自述指标，没有客户案例、用户反馈或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-68f378d756ac81f4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；按节省 token 计费只是推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-68f378d756ac81f4
+  - gate: truth
+    status: insufficient
+    reason: 50%~80% token 削减为自述，缺少可复现实测与压缩后任务准确率数据，交付确定性未核验。
+    evidence_ids:
+    - ev-68f378d756ac81f4
+  next_validation: 收集该仓库的 README、issue 与 discussion 中可复现的 token 削减实测数据及压缩后任务准确率对比。
+  market: ''
+  job: 自建 AI Agent 服务的后端与平台工程师，在 Agent 长会话、多轮工具调用导致上下文不断膨胀时，处理历史对话、工具返回和代码文件等材料，把上下文压到模型可接受且成本可控的规模，并保证缓存命中。
+  job_en: Backend and platform engineers running self-hosted AI agent services, when long sessions and
+    repeated tool calls keep inflating context, work on conversation history, tool returns and code files
+    to shrink context to a size the model accepts at controllable cost while keeping cache hits.
+  pain: 上下文越长，token 账单和延迟越高，还容易触发模型截断或缓存失效；团队目前只能靠手工裁剪提示词或调低历史轮数，既费人力又难保证不丢关键信息。
+  pain_en: The longer the context, the higher the token bill and latency, and the more likely truncation
+    or cache misses; teams currently hand-trim prompts or cut history turns, which costs labor and risks
+    losing key information.
+  current_alternative: 工程师手工删减提示词、限制历史轮数、自己写脚本做摘要，或直接接受更高的 token 成本与更慢的响应。
+  current_alternative_en: Engineers manually trim prompts, cap history turns, write their own summarization
+    scripts, or simply accept higher token cost and slower responses.
+  usage_reason: 推断：相较手工裁剪，它把裁剪规则固化成语法树解析加工具增量比对，在每次调用前自动完成上下文压缩与缓存守护，减少工程师逐条删改提示词这一步，并让 token 消耗与缓存命中变成可核对的结果，因此长会话、多工具的
+    Agent 团队会在成本或延迟成为瓶颈时选择它。
+  usage_reason_en: 'Inference: versus manual trimming, it hardens trimming rules into syntax-tree parsing
+    plus tool-delta comparison, automatically compressing context and guarding the cache before each call,
+    removing the step of engineers editing prompts line by line and turning token spend and cache hits
+    into checkable results, so agent teams with long sessions and many tools pick it when cost or latency
+    becomes the bottleneck.'

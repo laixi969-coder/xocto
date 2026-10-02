@@ -1,0 +1,95 @@
+- id: req-initial-salesforce-adopts-legora-to-boost-legal-ai-workflow-2026-10-02
+  project_slug: salesforce-adopts-legora-to-boost-legal-ai-workflow
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同与法律文书审阅耗时、易漏条款的问题，旧做法是人工逐条阅读，不采用的代价是法律与商业风险。
+    evidence_ids:
+    - ev-4c1e378588ced801
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一家企业采用报道，缺少多客户案例与法务人员的公开评价。
+    evidence_ids:
+    - ev-4c1e378588ced801
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价与采购方式，买方应为法务部门，属推断而非已验证事实。
+    evidence_ids:
+    - ev-4c1e378588ced801
+  - gate: truth
+    status: insufficient
+    reason: 法律输出需律师确认，但材料未说明其引用来源、幻觉控制与人工复核边界。
+    evidence_ids:
+    - ev-4c1e378588ced801
+  next_validation: 收集 Legora 官方客户案例或定价页，确认其部署范围与计费方式。
+  market: ''
+  job: 企业法务在收到供应商合同或内部合规文件时，处理长篇条款文本，要完成条款比对、风险点标注与初稿起草，再交律师确认。
+  job_en: In-house counsel receiving supplier contracts or internal compliance documents work through
+    long clause text to compare terms, flag risks and draft a first version for lawyer confirmation.
+  pain: 合同审阅耗时长且高度依赖资深律师，遗漏条款会带来直接法律与商业风险。
+  pain_en: Contract review is slow and depends on senior lawyers, and missed clauses create direct legal
+    and commercial risk.
+  current_alternative: 人工逐条阅读、用关键词在文档中搜索，或使用不带行业知识的通用文档工具。
+  current_alternative_en: Reading clause by clause, keyword searching within documents, or generic document
+    tools without legal domain knowledge.
+  usage_reason: 推断：相较人工逐条比对，它先对条款做结构化提取和差异标注，把律师的起点从空白页变成待确认的清单，减少通读整份合同这一步，因此法务团队在批量合同场景下会选择它；公开材料未提供用户反馈。
+  usage_reason_en: 'Inference: versus manual clause-by-clause comparison, it first extracts and diffs
+    clauses, turning the lawyer''s starting point from a blank page into a checklist to confirm, removing
+    the step of reading the whole contract, so legal teams facing contract volume may choose it; no user
+    feedback is provided.'
+- id: req-full-salesforce-adopts-legora-to-boost-legal-ai-workflow-2026-10-02
+  project_slug: salesforce-adopts-legora-to-boost-legal-ai-workflow
+  level: full
+  reviewed_at: '2026-10-02T02:15:31Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同审阅与法律检索耗时、易漏条款的问题，旧做法是人工逐条阅读与关键词搜索，不采用的代价是法律与商业风险；官方称已服务 130,000 名法律专业人士，属工作流结构推理加公开事实。
+    evidence_ids:
+    - ev-be5361480413b737
+    - ev-2dc63af83ed2c96f
+    - ev-bac460756a75b7f3
+  - gate: consensus
+    status: supported
+    reason: 官方页面称 130,000 名法律专业人士、2,000 家律所与法务团队、覆盖 80 多个市场，Salesforce 采用报道构成企业级采用信号；但缺少法务人员公开评价与留存数据，共识强度限于采用规模。
+    evidence_ids:
+    - ev-be5361480413b737
+    - ev-ea42e55cabc9f146
+    - ev-bac460756a75b7f3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页与采购方式，买方应为律所与法务部门预算，属推断而非已验证事实；采用规模说明付费路径存在，但计费结构未核验。
+    evidence_ids:
+    - ev-be5361480413b737
+    - ev-ea42e55cabc9f146
+  - gate: truth
+    status: insufficient
+    reason: 法律输出需律师确认，但公开材料未说明引用来源、幻觉控制与人工复核边界，也未给出可核对的交付结果；安全与人工边界仍待公开文档补充。
+    evidence_ids:
+    - ev-2dc63af83ed2c96f
+    - ev-bac460756a75b7f3
+  next_validation: 追踪 Legora 官网定价页与官方客户案例页，核验其计费方式、部署范围及 Salesforce 等客户的可核对交付结果。
+  market: ''
+  job: 企业法务与律所律师在收到供应商合同、判例材料或需起草的法律文书时，处理长篇条款与判例文本，要完成条款比对、要点提取与初稿起草，再交律师复核确认。
+  job_en: In-house counsel and law-firm lawyers receiving supplier contracts, case materials or documents
+    to draft work through long clause and precedent text to compare terms, extract key points and produce
+    a first draft for lawyer review.
+  pain: 合同审阅与法律检索耗时长、高度依赖资深律师经验，条款遗漏或检索不全直接带来法律与商业风险；批量合同场景下人工逐条比对成为瓶颈。
+  pain_en: Contract review and legal research are slow and depend on senior lawyer expertise; missed clauses
+    or incomplete research create direct legal and commercial risk, and manual clause-by-clause comparison
+    bottlenecks high-volume contract work.
+  current_alternative: 人工逐条阅读合同、在文档内做关键词搜索，或使用不带法律领域知识的通用大模型与文档工具。
+  current_alternative_en: Reading contracts clause by clause, keyword searching inside documents, or using
+    general-purpose LLMs and document tools without legal domain knowledge.
+  usage_reason: 推断：相较人工逐条比对与通用工具，Legora 先对条款做结构化提取与差异标注、对判例做定向检索，把律师的起点从空白页变成待确认清单，减少通读整份合同这一步；因此处理批量合同或复杂事项的法务团队会在该场景选择它。公开材料未提供用户反馈，采用动机属结构推断。
+  usage_reason_en: 'Inference: versus manual clause-by-clause comparison and generic tools, Legora first
+    extracts and diffs clauses and runs targeted precedent research, turning the lawyer''s starting point
+    from a blank page into a checklist to confirm and removing the step of reading the whole contract;
+    legal teams handling contract volume or complex matters would therefore choose it in that situation.
+    No user feedback is provided, so the adoption motive is a structural inference.'

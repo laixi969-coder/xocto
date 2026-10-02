@@ -1,0 +1,86 @@
+- id: req-initial-satlyt-founded-by-a-former-google-and-spacex-product-manager-2026-10-02
+  project_slug: satlyt-founded-by-a-former-google-and-spacex-product-manager
+  level: initial
+  reviewed_at: '2026-10-02T01:42:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决星上数据下传瓶颈，但材料只有融资与定位描述，未说明具体用户任务与不采用的后果。
+    evidence_ids:
+    - ev-bd0872ebf8c85474
+  - gate: consensus
+    status: insufficient
+    reason: 没有卫星运营方的采用、试点或公开评价证据。
+    evidence_ids:
+    - ev-bd0872ebf8c85474
+  - gate: model
+    status: insufficient
+    reason: 买方应为卫星运营方或政府航天机构，但材料未披露定价或采购路径，属推断。
+    evidence_ids:
+    - ev-bd0872ebf8c85474
+  - gate: truth
+    status: insufficient
+    reason: 在轨推理的算力、功耗与可靠性边界未在材料中说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-bd0872ebf8c85474
+  next_validation: 收集 Satlyt 官方技术文档或公开试点公告，确认其支持的卫星平台与在轨处理实测结果。
+  market: ''
+  job: 卫星运营方在遥感或通信数据量超过下传能力时，处理星上采集的原始数据，要完成在轨筛选与推理，只把有用结果传回地面。
+  job_en: Satellite operators whose collected data exceeds downlink capacity process raw onboard data
+    to filter and run inference in orbit, sending back only useful results.
+  pain: 下传带宽有限且昂贵，把全部原始数据传回地面再处理会延迟结果并抬高成本；公开材料未给出具体客户痛点数据。
+  pain_en: Downlink bandwidth is limited and expensive, so sending all raw data to the ground delays results
+    and raises cost; public material gives no specific customer pain data.
+  current_alternative: 把原始数据全部下传，在地面数据中心处理。
+  current_alternative_en: Downlinking all raw data and processing it in ground data centers.
+  usage_reason: 推断：相较全部下传再处理，它在星上先做筛选和推理，减少需要下传的数据量这一步，因此受下传带宽限制的遥感运营方可能采用；缺少客户案例与实测结果。
+  usage_reason_en: 'Inference: versus downlinking everything, it filters and infers onboard first, cutting
+    the volume that must be downlinked, so remote-sensing operators limited by bandwidth may adopt it;
+    customer cases and measured results are missing.'
+- id: req-full-satlyt-founded-by-a-former-google-and-spacex-product-manager-2026-10-02
+  project_slug: satlyt-founded-by-a-former-google-and-spacex-product-manager
+  level: full
+  reviewed_at: '2026-10-02T02:15:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决星上数据下传瓶颈：遥感或通信原始数据超过下传能力时，全部回传地面处理会拉长时延并抬高带宽成本，运营方已在用地面处理或封闭一体化方案绕过。Satlyt 以开放软件层在多家卫星硬件上跑推理，交付在轨处理结果，任务、旧替代与不解决的后果可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-bd0872ebf8c85474
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资报道与定位描述，未见卫星运营方的采用、试点、公开评价或可观察行为，无法判断是否形成共识；开放跨厂商路线是否被运营方接受仍缺证据。
+    evidence_ids:
+    - ev-bd0872ebf8c85474
+  - gate: model
+    status: insufficient
+    reason: 买方推断为卫星运营方或政府航天机构，但材料未披露定价、采购路径或收入结构，属判断而非已验证事实；也未出现仅靠融资叙事的证据。
+    evidence_ids:
+    - ev-bd0872ebf8c85474
+  - gate: truth
+    status: insufficient
+    reason: 在轨推理的算力、功耗、辐射可靠性与人工边界未在材料中说明，跨厂商硬件适配与交付确定性无法核对；开放软件层能否在真实卫星上稳定运行仍缺公开验证。
+    evidence_ids:
+    - ev-bd0872ebf8c85474
+  next_validation: 追踪 Satlyt 官网技术文档或公开试点公告，确认其支持的卫星平台清单与在轨处理实测结果。
+  market: ''
+  job: 卫星运营方的载荷与任务工程师在遥感或通信数据量超过下传窗口时，把模型和任务部署到星上软件层，对星上采集的原始数据做筛选与推理，只把有用结果传回地面。
+  job_en: Payload and mission engineers at satellite operators, when collected remote-sensing or communications
+    data exceeds downlink windows, deploy models and tasks onto an onboard software layer to filter and
+    run inference on raw onboard data, sending back only useful results.
+  pain: 下传带宽有限且昂贵，把全部原始数据传回地面再处理会拉长结果时延并抬高成本；公开材料只给出定位与融资，未提供具体客户痛点数据。
+  pain_en: Downlink bandwidth is limited and expensive, so downlinking all raw data for ground processing
+    lengthens result latency and raises cost; public material offers only positioning and funding, with
+    no specific customer pain data.
+  current_alternative: 把原始数据全部下传，在地面数据中心处理；或采用 SpaceX 式封闭一体化星上方案。
+  current_alternative_en: Downlinking all raw data for ground data-center processing, or adopting SpaceX-style
+    closed all-in-one onboard stacks.
+  usage_reason: 推断：相较全部下传再处理，它在星上先完成筛选与推理，减少需要下传的数据量这一步；相较封闭一体化方案，它宣称跨多家卫星硬件运行，降低被单一硬件绑定的负担。因此受下传带宽限制、且使用多厂商卫星的遥感运营方可能选择它；缺少客户案例与实测结果。
+  usage_reason_en: 'Inference: versus downlinking everything, it filters and infers onboard first, removing
+    the step of downlinking all raw data; versus closed all-in-one stacks, it claims to run across multiple
+    vendors'' satellite hardware, reducing single-hardware lock-in. So bandwidth-constrained remote-sensing
+    operators flying multi-vendor satellites may choose it; customer cases and measured results are missing.'

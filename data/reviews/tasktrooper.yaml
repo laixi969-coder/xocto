@@ -237,3 +237,56 @@
     task descriptions and switching between terminals, and keeps code and model calls on the machine;
     developers who care about code not leaving the machine yet want to dispatch several role agents in
     parallel would therefore choose it on a local Mac.'
+- id: req-full-tasktrooper-2026-10-02
+  project_slug: tasktrooper
+  level: full
+  reviewed_at: '2026-10-02T02:16:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地 Mac 上把待办拆给多个角色型 agent 并让编码任务在本机执行的需求，痛点在于手工逐个调用编码助手、任务与上下文分散；不采用的后果是重复切换与状态丢失。这是工作流结构推理，公开材料未给用户口述痛点。
+    evidence_ids:
+    - ev-847aedeef9d5e8f1
+    - ev-6cc559fdc7ddb65a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 106 缓慢增至 108，属关注度而非采用证据；没有用户评价、案例或讨论说明谁在什么场景下持续使用，强场景只能靠结构推断。
+    evidence_ids:
+    - ev-847aedeef9d5e8f1
+    - ev-a0a606c31732a822
+    - ev-6cc559fdc7ddb65a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方是个人开发者还是团队无法判断；本地优先形态下可能靠自带 API key 或订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-847aedeef9d5e8f1
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与角色分工的承诺能否确定性交付、人工确认边界在哪，公开材料未说明；仓库仅描述形态，缺少部署文档与实测结果支撑交付确定性。
+    evidence_ids:
+    - ev-847aedeef9d5e8f1
+    - ev-6cc559fdc7ddb65a
+  next_validation: 追踪 tasktrooper 仓库的 README、issue 与 discussion，确认它替代的具体旧步骤、实际使用场景，以及是否出现重复使用或付费线索。
+  market: ''
+  job: 独立开发者或小团队在本地 Mac 上把待办事项放进看板，交给不同角色型 agent 处理，其中编码任务由 Claude Code、Cursor 等 CLI 在本机执行，最终拿到本机跑完的任务结果与看板状态更新。
+  job_en: Solo developers or small teams put backlog items on a board on their local Mac, hand them to
+    role-based agents, and have coding tasks executed by CLIs such as Claude Code or Cursor on the same
+    machine, ending with locally produced task results and board status updates.
+  pain: 公开材料只给出平台形态，未说明开发者此前卡在哪一步、不这么做会损失什么；从工作流结构推理，痛点在多任务并行时手工在终端逐个切换编码助手、上下文与任务状态散落各处，但这是推断而非用户口述。
+  pain_en: The public material only describes the platform shape and does not state which step developers
+    were stuck on or what they lose otherwise; by workflow inference the pain is manually switching coding
+    assistants in the terminal and scattering context and task state across tools, but this is inference,
+    not user testimony.
+  current_alternative: 公开材料未说明此前替代方式；结构上可能的旧做法是直接在终端手动运行 Claude Code 等编码助手，或用云端 agent 平台，但这是推断。
+  current_alternative_en: The public material does not state the prior alternative; structurally the old
+    way may be running coding assistants such as Claude Code manually in the terminal, or using cloud
+    agent platforms, but this is inference.
+  usage_reason: 推断：相较在终端逐个手动调用编码助手，它把待办、角色分工与 CLI 执行收进同一块本地看板，减少手工切换与状态同步这一步负担，因此在意代码不出本机、又想让多个角色 agent
+    并行处理待办的独立开发者或小团队会在本地 Mac 上选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with manually invoking coding assistants one by one in the terminal,
+    it folds the backlog, role assignment and CLI execution into one local board, removing the manual
+    switching and status-syncing step, so solo developers or small teams who want code to stay on their
+    machine while multiple role agents work the backlog would choose it on a local Mac; no user feedback
+    or case yet confirms this motive.'

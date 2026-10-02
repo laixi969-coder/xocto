@@ -1,6 +1,6 @@
 ---
 slug: scale-up-interconnect-startup-cscale-launches-with-188m-in-f
-name: Scale-up interconnect startup CScale launches with $188M in funding
+name: CScale
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3ZhSTZ4RFBk
 summary: Scale-up interconnect startup CScale launches with $188M in funding SiliconANGLE
 first_seen: '2026-10-01T00:35:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Scale-up interconnect startup CScale launches with $188M in funding
+# CScale
 
 Scale-up interconnect startup CScale launches with $188M in funding SiliconANGLE
 

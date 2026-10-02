@@ -283,3 +283,50 @@
     each command and pasting errors back; it also reuses an already-paid ChatGPT subscription instead
     of buying another client, so developers who already pay for ChatGPT and need the model to modify local
     files or run local commands would choose it in that situation.'
+- id: req-full-openchatx-mcp-2026-10-02
+  project_slug: openchatx-mcp
+  level: full
+  reviewed_at: '2026-10-02T02:15:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决让 ChatGPT 直接操作本机文件与本地工具的需求，痛点是会话与终端之间手工搬运；公开说明已能还原输入、动作与交付，属工作流结构推理，尚无用户抱怨或采用记录佐证强度。
+    evidence_ids:
+    - ev-75ebab82be526e18
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 131 增至 249，属关注度与规模证据，不能证明目标用户会持续使用或把它留在工作流里。
+    evidence_ids:
+    - ev-75ebab82be526e18
+    - ev-d71d42fe95cdf732
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付路径，付费主体与单位经济尚未核验；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d71d42fe95cdf732
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及本机操作的权限与安全边界，尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-75ebab82be526e18
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认本机操作的权限边界、支持范围与已知限制。
+  market: ''
+  job: 已付费使用 ChatGPT 的个人开发者或小团队，在需要让模型直接操作本机文件、调用本地命令行工具或把子任务转给自己部署的模型时，通过一条 MCP 连接把 ChatGPT 接到本机运行时，由模型发起操作并返回执行结果，最终拿到本机上的实际改动或工具输出。
+  job_en: Individual developers or small teams already paying for ChatGPT, when they need the model to
+    operate local files, call local command-line tools or hand subtasks to their own deployed models,
+    connect ChatGPT to a local runtime through one MCP connection; the model issues actions and returns
+    execution results, and the user ends up with actual local changes or tool output.
+  pain: 公开材料未给出用户抱怨或迁移成本，痛点只能从结构推断：ChatGPT 本身无法直接读写本机文件或调用本地工具，用户需在会话与终端之间手工搬运内容。
+  pain_en: 'Public material gives no user complaints or migration costs; the pain can only be inferred
+    structurally: ChatGPT itself cannot directly read or write local files or call local tools, so users
+    must manually shuttle content between the chat and the terminal.'
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么；可推断的旧做法是手工复制粘贴或在 ChatGPT 之外另写脚本。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what it
+    replaces; the inferable old practice is manual copy-paste or writing separate scripts outside ChatGPT.
+  usage_reason: 推断：一条 MCP 连接即可让 ChatGPT 直接发起本机操作，省去在会话与终端之间手工搬运这一步，因此已付费 ChatGPT 且需要本机执行的开发者会在本地任务中选择它；但缺少采用与留存证据，无法确认这一选择已发生。
+  usage_reason_en: 'Inference: one MCP connection lets ChatGPT directly issue local operations, removing
+    the step of manually shuttling content between chat and terminal, so developers already paying for
+    ChatGPT who need local execution may choose it for local tasks; adoption and retention evidence is
+    missing, so this choice cannot be confirmed.'

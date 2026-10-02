@@ -1,0 +1,83 @@
+- id: req-initial-fewer-2026-10-02
+  project_slug: fewer
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决记录拿起手机次数的需求，但公开材料未说明计数之后改变什么行为，看着有用却缺少刚性后果。
+    evidence_ids:
+    - ev-1889409faadbc8be
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、采用或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-1889409faadbc8be
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或买方，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-1889409faadbc8be
+  - gate: truth
+    status: insufficient
+    reason: 计数是否准确、是否真的带来减少使用的可核对结果，公开材料未提供。
+    evidence_ids:
+    - ev-1889409faadbc8be
+  next_validation: 收集该产品官方页面或应用商店说明，核对是否披露计数之后的具体干预动作与定价。
+  market: ''
+  job: 想减少刷手机的人在每次解锁手机时，由启动器记录拿起次数，用于观察自己一天的使用频率。
+  job_en: People trying to cut down on phone use have a launcher count pickups each time they unlock,
+    to observe their daily usage frequency.
+  pain: 公开材料只说明它会计数，未说明计数之后用户会因此改变什么行为，也看不出不解决会带来什么具体后果。
+  pain_en: The public material only says it counts; it does not say what behavior changes afterward, nor
+    what concrete consequence follows from not solving it.
+  current_alternative: 系统自带的屏幕使用时间统计、专注模式，或第三方手机依赖管理应用。
+  current_alternative_en: Built-in screen-time reports and focus modes, or third-party phone-dependence
+    apps.
+  usage_reason: 推断：计数本身比系统自带的时长统计更直观，可能吸引想先看清自己拿起手机频率的人，但计数到减少使用之间缺一环，公开材料未给出证据。
+  usage_reason_en: 'Inference: a pickup count is more intuitive than built-in duration reports and may
+    attract people who first want to see how often they reach for the phone, but the link from counting
+    to reduced use is missing and unsupported publicly.'
+- id: req-full-fewer-2026-10-02
+  project_slug: fewer
+  level: full
+  reviewed_at: '2026-10-02T02:13:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决记录拿起手机次数的需求，但公开材料未说明计数之后改变什么行为，看着有用却缺少刚性后果，属于没有也行。
+    evidence_ids:
+    - ev-1889409faadbc8be
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Fewer 官方产品页或应用商店说明，核对是否披露计数之后的具体干预动作与定价。
+  market: ''
+  job: 想减少刷手机的人在每次解锁或拿起手机时，由 Fewer 启动器记录次数，并在一天结束时查看统计，判断当天使用是否超出预期。
+  job_en: People trying to cut down on phone use have the Fewer launcher count each pickup or unlock and
+    review the tally at day's end to judge whether their usage exceeded expectations.
+  pain: 公开材料只说明它会计数，未说明计数之后用户会因此改变什么行为，也看不出不解决会带来什么具体后果；对多数人而言，多看一眼数字并不构成刚性痛点。
+  pain_en: The public material only says it counts; it does not say what behavior changes afterward, nor
+    what concrete consequence follows from not solving it. For most people, seeing one more number is
+    not a rigid pain point.
+  current_alternative: 系统自带的屏幕使用时间统计、专注模式，或第三方手机依赖管理应用。
+  current_alternative_en: Built-in screen-time reports and focus modes, or third-party phone-dependence
+    apps.
+  usage_reason: 推断：拿起次数比系统自带的时长统计更直观，可能吸引想先看清自己拿起手机频率的人；但计数到减少使用之间缺一环，公开材料未给出任何干预动作或可核对结果，因此难以解释用户为何持续选择它。
+  usage_reason_en: 'Inference: a pickup count is more intuitive than built-in duration reports and may
+    attract people who first want to see how often they reach for the phone. But the link from counting
+    to reduced use is missing, and the public material offers no intervention action or checkable outcome,
+    so it is hard to explain why users would keep choosing it.'

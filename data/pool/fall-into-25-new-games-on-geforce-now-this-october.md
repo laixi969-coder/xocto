@@ -1,6 +1,6 @@
 ---
 slug: fall-into-25-new-games-on-geforce-now-this-october
-name: Fall Into 25 New Games on GeForce NOW This October
+name: GeForce NOW
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: 'Spooky season is streaming in. Alongside falling leaves, pumpkin spice
   joining the cloud, this GFN Thursday is […]'
 first_seen: '2026-10-01T13:00:54Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Fall Into 25 New Games on GeForce NOW This October
+# GeForce NOW
 
 Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, this GFN Thursday is […]
 

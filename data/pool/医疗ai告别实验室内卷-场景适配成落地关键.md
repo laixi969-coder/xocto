@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE4ybGYwVW5DU1Ux
 summary: 医疗AI告别“实验室内卷” 场景适配成落地关键 jingjiribao.cn
 first_seen: '2026-10-01T10:37:47Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

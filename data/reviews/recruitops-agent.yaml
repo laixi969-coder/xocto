@@ -243,3 +243,51 @@
     and assembles a local status list, removing the step of opening each mail and transcribing progress
     by hand, so seekers applying to many roles at once would pick it during a batch push. Public material
     shows no retention or repeat-use evidence, so long-term embedding cannot be claimed.'
+- id: req-full-recruitops-agent-2026-10-02
+  project_slug: recruitops-agent
+  level: full
+  reviewed_at: '2026-10-02T02:15:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量投递后回执与面试通知散落邮箱、跟进节点易漏的需求，痛点在于手工翻邮件建表成本高且易错；公开材料给出 IMAP 邮箱配置这一具体输入环节，可还原本地读取—整理—产出清单的闭环，属工作流结构推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-3efe672cbc6deca5
+    - ev-1a874f9c3eed4ca0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 96 增至 117，说明开发者社区持续关注；但收藏与复刻只反映关注度，公开材料没有目标求职者持续使用、留存或推荐的证据，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-1a874f9c3eed4ca0
+    - ev-ee2b2a0427137bf7
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济，谁付钱尚不清楚；按求职者自用工具推断可能走 to C 订阅或开源增值，但这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-1a874f9c3eed4ca0
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与人工确认结果的设计贴近隐私与可控目标，但公开材料未说明投递操作是否自动执行、失败如何回滚、以及人工确认边界，交付确定性缺可复现证据。
+    evidence_ids:
+    - ev-3efe672cbc6deca5
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开投递执行范围、人工确认边界与真实使用者的部署反馈。
+  market: ''
+  job: 求职者在批量投递岗位时，把邮箱中的投递回执、面试通知与职位信息交给本地 agent，由它整理情报并维护投递状态清单，最终由本人确认下一步跟进。
+  job_en: A job seeker batching applications hands mailbox receipts, interview notices and job postings
+    to a local agent that organizes intelligence and maintains an application status list, with the person
+    confirming next follow-ups.
+  pain: 批量投递后回执、拒信和面试通知散落在邮箱里，靠手工翻邮件、建表格追踪容易漏掉跟进节点；公开材料只给出邮箱 IMAP 配置这一环节，未展示用户对漏跟进代价的抱怨。
+  pain_en: After mass applications, receipts, rejections and interview notices scatter across the mailbox;
+    manual searching and spreadsheet tracking easily miss follow-up points. Public material only shows
+    the IMAP setup step, not user complaints about the cost of missed follow-ups.
+  current_alternative: 求职者目前多用邮箱搜索、自建 Excel/Notion 表格或招聘平台自带的投递记录来追踪进度，公开材料未说明它具体替代了哪一种。
+  current_alternative_en: Job seekers today mostly track progress via mailbox search, self-built Excel/Notion
+    sheets or the application records built into job platforms; public material does not say which one
+    it replaces.
+  usage_reason: 推断：相较手工翻邮箱和建表，它通过本地读取 IMAP 邮件、自动整理职位与投递记录并输出可跟进清单，省去逐封邮件摘录和手工更新表格这一步；重视简历与邮箱隐私、又需要批量投递的求职者会因此选择它。
+  usage_reason_en: 'Inference: versus manually scanning mail and building sheets, it reads IMAP mail locally,
+    auto-organizes postings and application records and outputs a follow-up list, removing the step of
+    transcribing each email and updating a sheet by hand; privacy-conscious mass applicants would choose
+    it for this.'

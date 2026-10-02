@@ -1,0 +1,87 @@
+- id: req-initial-ironbee-express-2026-10-02
+  project_slug: ironbee-express
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要替代的是重复网页操作，痛点存在，但公开材料只有一句简介，任务范围与交付结果无法确认。
+    evidence_ids:
+    - ev-853befc1a21a80d9
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 7 分 0 评论，没有采用或复用的公开证据，共识尚未形成。
+    evidence_ids:
+    - ev-853befc1a21a80d9
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业路径，买方与收费方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-853befc1a21a80d9
+  - gate: truth
+    status: insufficient
+    reason: 缺少成功率、失败恢复与安全边界的公开材料，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-853befc1a21a80d9
+  next_validation: 收集该仓库的 README、示例任务与 issue/discussion，确认支持站点范围、成功率与失败恢复机制。
+  market: ''
+  job: 开发者或运营人员在需要程序自动完成多步网页操作（填表、抓取、走流程）时，把任务交给代理执行并取回结果。
+  job_en: A developer or operator needs a program to complete multi-step web operations (form filling,
+    scraping, running a flow) and hands the task to the agent to get results back.
+  pain: 人工重复点击网页耗时且易错；纯脚本对页面变化脆弱，全量调用大模型推理又慢又贵。
+  pain_en: Manual repeated clicking is slow and error-prone; plain scripts break when pages change, while
+    running full LLM reasoning on every step is slow and costly.
+  current_alternative: 编写 Playwright、Selenium 等自动化脚本，或人工手动完成网页操作。
+  current_alternative_en: Writing Playwright or Selenium automation scripts, or doing the web operations
+    manually.
+  usage_reason: 推断：按需切换深度推理可让常规步骤走快速模式、只在卡住时付出高推理成本，从而降低单次执行开销；但公开材料未给出成功率、支持站点范围或失败恢复方式，尚不能确认它比现有脚本更省事。
+  usage_reason_en: 'Inference: switching to deep reasoning on demand lets routine steps run in a fast
+    mode and pays heavy reasoning cost only when stuck, lowering per-run spend; however, no public success
+    rate, site coverage or failure recovery is given, so it is not yet clear it is less work than existing
+    scripts.'
+- id: req-full-ironbee-express-2026-10-02
+  project_slug: ironbee-express
+  level: full
+  reviewed_at: '2026-10-02T02:14:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它替代的是重复多步网页操作，痛点在于人工易错与脚本对页面变化脆弱、全量推理又慢又贵；公开简介已说明浏览器执行加按需深度推理的动作与交付，属工作流结构推理，痛点刚性可判。
+    evidence_ids:
+    - ev-853befc1a21a80d9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅一条仓库简介，无采用、复用或社区讨论证据，无法判断开发者是否已把它纳入工作流，共识尚未形成。
+    evidence_ids:
+    - ev-853befc1a21a80d9
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、商业路径或买方，钱可能来自 to B 自动化工具订阅或 to VC，这是判断而非已验证事实，付费路径未核验。
+    evidence_ids:
+    - ev-853befc1a21a80d9
+  - gate: truth
+    status: insufficient
+    reason: 缺少成功率、支持站点范围、失败恢复与安全边界的公开材料，承诺能否确定性交付无法核对，需看 README 与示例任务。
+    evidence_ids:
+    - ev-853befc1a21a80d9
+  next_validation: 收集 ironbee-express 仓库的 README、示例任务与 issue/discussion，确认支持的站点范围、任务成功率与失败恢复机制。
+  market: ''
+  job: 开发者或运营人员在需要程序自动完成多步网页操作（填表、抓取、走完流程）时，把任务交给 ironbee-express，由它在浏览器中执行动作并在卡住时切换到深度推理，最终取回执行结果。
+  job_en: A developer or operator who needs a program to complete multi-step web operations (form filling,
+    scraping, running a flow) hands the task to ironbee-express, which acts in the browser and switches
+    to deep reasoning when stuck, returning the result.
+  pain: 人工重复点击网页耗时且易错；纯 Playwright/Selenium 脚本对页面结构变化脆弱，而每一步都调用大模型推理又慢又贵。
+  pain_en: Manual repeated clicking is slow and error-prone; plain Playwright/Selenium scripts break when
+    page structure changes, while calling LLM reasoning on every step is slow and costly.
+  current_alternative: 编写 Playwright、Selenium 等自动化脚本，或人工手动完成网页操作。
+  current_alternative_en: Writing Playwright or Selenium automation scripts, or performing the web operations
+    manually.
+  usage_reason: 推断：相较全量脚本或全程大模型推理，它按需切换深度推理，让常规步骤走快速模式、只在卡住时付出高推理成本，减少单次执行的等待与调用开销；需要跑多步网页流程、又受不稳定的页面结构困扰的开发者会在这种场景下选择它。
+  usage_reason_en: 'Inference: versus full scripting or running LLM reasoning on every step, it switches
+    to deep reasoning on demand, letting routine steps run fast and paying heavy reasoning cost only when
+    stuck, cutting per-run latency and spend; developers running multi-step web flows that break on unstable
+    page structure would choose it in that situation.'

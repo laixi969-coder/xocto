@@ -120,3 +120,46 @@
     AI answers centrally and counts brand citations automatically, removing the hand-logging step, so
     brands and agencies that must report AI exposure to clients or management may choose it; public material
     gives no user feedback or repeat-use evidence.'
+- id: req-full-cited-2026-10-02
+  project_slug: cited
+  level: full
+  reviewed_at: '2026-10-02T02:13:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 AI 回答中品牌引用无法衡量的问题，但公开材料只有一句产品定位，说不清具体输入、动作与交付，连用户任务与痛点都只能靠推断，价值结构无法确认。
+    evidence_ids:
+    - ev-08b7ab9936f6bd62
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它实际采集哪些 AI 回答、输出什么引用报告，以及是否有品牌方或代理商公开使用记录。
+  market: ''
+  job: 品牌或公关人员在评估一轮内容投放或公关活动效果时，处理多个 AI 助手给出的回答材料，要确认自家品牌是否被引用、被引用在哪些问题上、频次多少，以便向客户或管理层汇报 AI 曝光情况。
+  job_en: Brand or PR staff evaluating a content campaign or PR push work with answers from multiple AI
+    assistants to confirm whether their brand is cited, on which questions, and how often, so they can
+    report AI exposure to clients or management.
+  pain: 公开材料只有一句产品定位，没有任何品牌方或代理商的抱怨、workaround 或案例，无法确认 AI 回答中的品牌曝光是否真的构成团队必须解决的痛点，也无法确认不解决的后果。
+  pain_en: Public material offers only a one-line product positioning, with no complaints, workarounds,
+    or cases from brands or agencies, so it cannot be confirmed that brand exposure inside AI answers
+    is a pain teams must solve, nor what happens if they do not.
+  current_alternative: 公开材料未披露任何现有替代方式；只能从任务结构推断可能靠人工在几个 AI 助手里逐个提问、截图或手工记录，或沿用搜索排名与媒体监测报告，但这是推理而非已观察到的行为。
+  current_alternative_en: Public material discloses no current alternative; only structural inference
+    suggests teams may manually query several AI assistants, screenshot or hand-log answers, or keep using
+    search rankings and media monitoring reports, but this is reasoning, not observed behavior.
+  usage_reason: 推断：若它确实集中采集 AI 回答并自动统计品牌引用，相较人工逐个提问截图可省掉手工记录这一步，需要定期汇报 AI 曝光情况的品牌与代理商可能选择它；但公开材料未给出用户反馈、采用或持续使用证据，选择动机无法核实。
+  usage_reason_en: 'Inference: if it truly collects AI answers centrally and counts brand citations automatically,
+    it removes the hand-logging step versus manual querying and screenshotting, so brands and agencies
+    that must regularly report AI exposure may choose it; however, public material gives no user feedback,
+    adoption, or repeat-use evidence, so the choice motive cannot be verified.'

@@ -1,6 +1,6 @@
 ---
 slug: foundational-secures-82m-pre-seed-as-it-emerges-from-stealth
-name: Foundational secures £8.2M pre-seed as it emerges from stealth
+name: Foundational
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: London-based space technology companyFoundational has emerged from stea
   in pre-seed funding toexpand its satellite positioning infrastructure and further develop its dataplatform....
 first_seen: '2026-10-01T07:00:00Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Foundational secures £8.2M pre-seed as it emerges from stealth
+# Foundational
 
 London-based space technology companyFoundational has emerged from stealth with £8.2 million in pre-seed funding toexpand its satellite positioning infrastructure and further develop its dataplatform....
 

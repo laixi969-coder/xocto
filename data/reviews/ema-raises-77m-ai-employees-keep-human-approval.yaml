@@ -1,0 +1,79 @@
+- id: req-initial-ema-raises-77m-ai-employees-keep-human-approval-2026-10-02
+  project_slug: ema-raises-77m-ai-employees-keep-human-approval
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只给出融资与人工审批两点，未说明具体用户任务与痛点，无法判断需求刚性。
+    evidence_ids:
+    - ev-e626c273dcdd1212
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：材料未提供采用、留存或场景共识证据。
+    evidence_ids:
+    - ev-e626c273dcdd1212
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明收费方式与买方，仅有融资信息。
+    evidence_ids:
+    - ev-e626c273dcdd1212
+  - gate: truth
+    status: insufficient
+    reason: 未进入：材料未说明AI员工交付的确定性、错误处理与人工边界细节。
+    evidence_ids:
+    - ev-e626c273dcdd1212
+  next_validation: 收集Ema官方产品页或客户案例，确认其AI员工处理的具体流程、交付结果与人工审批机制。
+  market: ''
+  job: 企业运营人员在处理内部流程任务时，由AI员工执行工作步骤，人工在交付前完成审批。
+  job_en: Enterprise operations staff have AI employees execute work steps on internal process tasks,
+    with humans approving before delivery.
+  pain: 候选材料未说明具体痛点，仅提到AI员工保留人工审批，未描述旧流程中哪一步耗时或易错。
+  pain_en: The candidate material does not describe a specific pain, only that AI employees retain human
+    approval, without saying which step of the old process was slow or error-prone.
+  current_alternative: 企业由员工手工处理内部流程任务，或使用传统自动化与工单系统。
+  current_alternative_en: Enterprises handle internal process tasks manually, or use traditional automation
+    and ticketing systems.
+  usage_reason: 材料未提供客户案例或用户反馈，无法说明相较人工处理，AI员工减少了哪一步负担，因此不作使用理由判断。
+  usage_reason_en: No customer case or user feedback is provided, so it cannot be shown which step AI
+    employees remove versus manual handling; no usage rationale is asserted.
+- id: req-full-ema-raises-77m-ai-employees-keep-human-approval-2026-10-02
+  project_slug: ema-raises-77m-ai-employees-keep-human-approval
+  level: full
+  reviewed_at: '2026-10-02T02:13:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只给出融资与人工审批两点，未说明具体用户任务与痛点，无法判断需求刚性。
+    evidence_ids:
+    - ev-6695d68c38d81b70
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集Ema官方产品页或客户案例，确认其AI员工处理的具体流程、交付结果与人工审批机制。
+  market: ''
+  job: 企业运营人员处理内部流程任务（如审批、数据整理、跨系统操作）时，由AI员工执行具体工作步骤，人工在交付前保留审批环节。
+  job_en: Enterprise operations staff handle internal process tasks (approvals, data wrangling, cross-system
+    operations) with AI employees executing work steps while humans retain approval before delivery.
+  pain: 候选材料只给出融资与人工审批两点，未描述旧流程中哪一步耗时、易错或积压，无法确认痛点刚性。
+  pain_en: The candidate material only states funding and human approval, without describing which step
+    of the old process was slow, error-prone, or backlogged, so pain rigidity cannot be confirmed.
+  current_alternative: 企业由员工手工处理内部流程任务，或使用传统RPA、工单与审批系统。
+  current_alternative_en: Enterprises handle internal process tasks manually, or use traditional RPA,
+    ticketing, and approval systems.
+  usage_reason: 材料未提供客户案例或用户反馈，无法说明相较人工处理，AI员工减少了哪一步负担，因此不作使用理由判断。
+  usage_reason_en: No customer case or user feedback is provided, so it cannot be shown which step AI
+    employees remove versus manual handling; no usage rationale is asserted.

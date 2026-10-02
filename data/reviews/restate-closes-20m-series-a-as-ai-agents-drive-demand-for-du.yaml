@@ -1,0 +1,84 @@
+- id: req-initial-restate-closes-20m-series-a-as-ai-agents-drive-demand-for-du-2026-10-02
+  project_slug: restate-closes-20m-series-a-as-ai-agents-drive-demand-for-du
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决长流程智能体失败后无法续跑的问题，痛点方向清楚，但公开材料只有融资标题，未说明具体用户任务与不采用的后果。
+    evidence_ids:
+    - ev-bf4072e687fcc016
+  - gate: consensus
+    status: insufficient
+    reason: 除融资报道外，没有客户采用、社区讨论或重复使用的公开证据。
+    evidence_ids:
+    - ev-bf4072e687fcc016
+  - gate: model
+    status: insufficient
+    reason: 开源框架的付费路径未在材料中披露，买方是自建团队还是企业采购无法判断，属推断。
+    evidence_ids:
+    - ev-bf4072e687fcc016
+  - gate: truth
+    status: insufficient
+    reason: 持久化执行本身可确定性交付，但材料未说明安全边界与人工介入方式。
+    evidence_ids:
+    - ev-bf4072e687fcc016
+  next_validation: 收集 Restate 官方文档与定价页，确认其托管服务的计费方式与客户案例。
+  market: ''
+  job: 后端工程师在把 AI 智能体接入需要多步调用外部系统的业务流程时，处理编排代码与失败重试，要完成一次可恢复、可追踪的完整执行。
+  job_en: Backend engineers wiring AI agents into multi-step business processes that call external systems
+    handle orchestration code and failure retries to complete one recoverable, traceable execution.
+  pain: 长流程中任一步失败都会让整条智能体任务作废，人工排查和重跑成本高；公开材料未说明具体痛点强度。
+  pain_en: Any failed step in a long flow invalidates the whole agent task, and manual diagnosis plus
+    reruns are costly; public material does not show how acute this pain is.
+  current_alternative: 自建重试与状态存储逻辑，或使用已有的工作流引擎和队列系统。
+  current_alternative_en: Hand-rolled retry and state storage, or existing workflow engines and queue
+    systems.
+  usage_reason: 推断：相较自建重试逻辑，它把状态持久化和恢复交给框架，减少工程师自己写幂等与补偿代码这一步，因此构建长流程智能体的团队可能选择它；缺少用户反馈与留存证据。
+  usage_reason_en: 'Inference: versus hand-rolled retries, it moves state persistence and recovery into
+    the framework, removing the step of writing idempotency and compensation code, so teams building long-running
+    agents may choose it; user feedback and retention evidence are missing.'
+- id: req-full-restate-closes-20m-series-a-as-ai-agents-drive-demand-for-du-2026-10-02
+  project_slug: restate-closes-20m-series-a-as-ai-agents-drive-demand-for-du
+  level: full
+  reviewed_at: '2026-10-02T02:15:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长流程智能体失败后无法续跑的问题，痛点方向清楚，但公开材料只有融资标题，未说明具体用户任务与不采用的后果。
+    evidence_ids:
+    - ev-581bac49fbd96c63
+  - gate: consensus
+    status: insufficient
+    reason: 除融资报道外，没有客户采用、社区讨论或重复使用的公开证据。
+    evidence_ids:
+    - ev-581bac49fbd96c63
+  - gate: model
+    status: insufficient
+    reason: 开源框架的付费路径未在材料中披露，买方是自建团队还是企业采购无法判断，属推断。
+    evidence_ids:
+    - ev-581bac49fbd96c63
+  - gate: truth
+    status: insufficient
+    reason: 持久化执行本身可确定性交付，但材料未说明安全边界与人工介入方式。
+    evidence_ids:
+    - ev-581bac49fbd96c63
+  next_validation: 收集 Restate 官方文档与定价页，确认其托管服务的计费方式与客户案例。
+  market: ''
+  job: 后端工程师在把 AI 智能体接入需要多步调用外部系统的业务流程时，处理编排代码与失败重试，要完成一次可恢复、可追踪的完整执行。
+  job_en: Backend engineers wiring AI agents into multi-step business processes that call external systems
+    handle orchestration code and failure retries to complete one recoverable, traceable execution.
+  pain: 长流程中任一步失败都会让整条智能体任务作废，人工排查和重跑成本高；公开材料未说明具体痛点强度。
+  pain_en: Any failed step in a long flow invalidates the whole agent task, and manual diagnosis plus
+    reruns are costly; public material does not show how acute this pain is.
+  current_alternative: 自建重试与状态存储逻辑，或使用已有的工作流引擎和队列系统。
+  current_alternative_en: Hand-rolled retry and state storage, or existing workflow engines and queue
+    systems.
+  usage_reason: 推断：相较自建重试逻辑，它把状态持久化和恢复交给框架，减少工程师自己写幂等与补偿代码这一步，因此构建长流程智能体的团队可能选择它；缺少用户反馈与留存证据。
+  usage_reason_en: 'Inference: versus hand-rolled retries, it moves state persistence and recovery into
+    the framework, removing the step of writing idempotency and compensation code, so teams building long-running
+    agents may choose it; user feedback and retention evidence are missing.'

@@ -21,7 +21,7 @@ canonical_url: https://ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243
 summary: An AI sovereign wealth fund isn't progressive – it's techno-imperialism
 first_seen: '2026-10-01T13:01:02Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

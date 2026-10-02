@@ -1,0 +1,84 @@
+- id: req-initial-engrams-2026-10-02
+  project_slug: engrams
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是工程师重复改代码、闭源代码外流的问题，痛点结构成立；但公开材料只有一句定位，说不清输入、动作与交付，价值只能算结构上可能成立。
+    evidence_ids:
+    - ev-df138030dd8596ad
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 17 点、0 条评论，没有采用、留存或复购证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-df138030dd8596ad
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方可能是企业研发团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-df138030dd8596ad
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能确定性交付可用补丁，也看不到安全与人工审查边界，承诺与实现之间缺少可验证材料。
+    evidence_ids:
+    - ev-df138030dd8596ad
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认它实际接收的输入、执行步骤与交付物形态。
+  market: ''
+  job: 软件工程师在接到缺陷修复或小功能改动时，需要读懂既有仓库、定位改动点、写出补丁并让测试通过。
+  job_en: A software engineer receiving a bug fix or small feature change must read an existing repository,
+    locate the change point, write a patch and get tests passing.
+  pain: 这类任务重复且占用工程师时间，闭源编码代理又要求把代码交给外部服务，受合规约束的团队难以采用。
+  pain_en: Such tasks are repetitive and consume engineer time, while closed coding agents require handing
+    code to an external service, which compliance-bound teams struggle to accept.
+  current_alternative: 工程师手工读代码改代码，或使用闭源编码代理与通用代码补全工具。
+  current_alternative_en: Engineers read and edit code by hand, or use closed coding agents and general
+    code-completion tools.
+  usage_reason: 推断：若它真能自托管并直接产出可审查的补丁，团队会因代码不出内网、且省去手工定位改动点这一步而选择它；但目前没有功能文档、部署说明或使用反馈支持这一判断。
+  usage_reason_en: 'Inference: if it truly self-hosts and produces reviewable patches directly, teams
+    would choose it because code stays inside their network and the manual step of locating the change
+    point is removed; however no feature docs, deployment notes or usage feedback currently support this.'
+- id: req-full-engrams-2026-10-02
+  project_slug: engrams
+  level: full
+  reviewed_at: '2026-10-02T02:13:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它自称 Devin 的开源替代品，但公开材料只有这一句定位，说不清用户任务、痛点、输入动作与交付物；所引证据全部是神经科学“engram”词条，与编码代理无关，无法还原任何真实需求。
+    evidence_ids:
+    - ev-d4c22a77bd763a64
+    - ev-5efcdc6446137f63
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方仓库 README、部署文档与 issue/discussion，确认它实际接收的输入、执行步骤与交付物形态。
+  market: ''
+  job: 软件工程师在接到缺陷修复或小功能改动任务时，需要读懂既有仓库、定位改动点、写出补丁并让测试通过。
+  job_en: A software engineer receiving a bug fix or small feature change must read an existing repository,
+    locate the change point, write a patch and get tests passing.
+  pain: 公开材料只有一句“Devin 的开源替代品”定位，没有任何关于输入、执行步骤、交付物或用户抱怨的证据，无法确认工程师在哪个环节真正受困。
+  pain_en: Public material offers only the one-line positioning 'an open source alternative to Devin',
+    with no evidence on inputs, execution steps, deliverables or user complaints, so the specific engineer
+    pain point cannot be confirmed.
+  current_alternative: 公开材料未说明当前替代方式；按任务结构推断可能是工程师手工读改代码，或使用闭源编码代理与通用代码补全工具，但无证据支持。
+  current_alternative_en: Public material does not state the current alternative; by task structure it
+    might be engineers editing code by hand or using closed coding agents and general code-completion
+    tools, but no evidence supports this.
+  usage_reason: 无法给出使用理由：公开证据中没有产品功能文档、部署说明、用户反馈或采用记录，无法说明它相较旧做法减少哪一步负担或改善哪项可核对结果。
+  usage_reason_en: 'No usage reason can be given: public evidence contains no feature docs, deployment
+    notes, user feedback or adoption records, so it cannot be shown which step it removes or which checkable
+    result it improves versus the old way.'

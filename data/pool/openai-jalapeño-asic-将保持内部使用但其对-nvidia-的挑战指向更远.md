@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQekZvYmlWWGpQ
 summary: OpenAI Jalapeño ASIC 将保持内部使用，但其对 Nvidia 的挑战指向更远 remio
 first_seen: '2026-09-29T18:39:18Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

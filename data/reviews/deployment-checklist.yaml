@@ -128,3 +128,55 @@
     into one language-agnostic, checkable list and adds an AI-agent version so an agent can run the same
     items, cutting the burden of maintaining a list and restating it to an agent; small web and mobile
     teams without dedicated security staff would pick it before release.'
+- id: req-full-deployment-checklist-2026-10-02
+  project_slug: deployment-checklist
+  level: full
+  reviewed_at: '2026-10-02T02:13:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前安全与配置项分散、易漏项的需求，痛点在每次发布前重复发生且漏项后果严重；公开事实仅说明存在语言无关、安全为重、含人与 AI 代理两版的清单，旧流程与交付闭环属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-98c908fa4185e59d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 43，说明有开发者关注，但公开材料没有 issue、discussion 或用户评价说明谁在何种发布场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-98c908fa4185e59d
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单仓库，公开材料未见定价、赞助、商业授权或企业采购路径，谁付钱、以何种方式付费均未核验；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-748ee345bf608129
+  - gate: truth
+    status: insufficient
+    reason: 清单具体条目、AI 代理版本如何执行检查、是否产出可核对报告均未在公开材料中说明，交付能否稳定发生与人工安全边界仍缺可复现证据。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-98c908fa4185e59d
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认清单条目、AI 代理版本的实际执行方式与是否产出可核对报告。
+  market: ''
+  job: Web 与移动应用团队的开发者或安全负责人在上线前，打开这份语言无关的部署前清单，逐项核对安全与配置事项；也可让 AI 代理按同一清单执行检查，最终得到一份可勾选的检查结果。
+  job_en: Before release, a developer or security owner on a web/mobile app team opens this language-agnostic
+    pre-deployment checklist and verifies security and configuration items one by one; an AI agent can
+    also run the same list, producing a checkable result.
+  pain: 上线前的安全与配置项分散在多个平台（服务器、CDN、DNS、密钥、权限），靠记忆或临时笔记容易漏项；漏掉一项安全配置就可能在上线后暴露漏洞，返工与事故代价高，而这类核对在每次发布前都要重复发生。
+  pain_en: Pre-release security and configuration items are scattered across servers, CDNs, DNS, secrets
+    and permissions; relying on memory or ad-hoc notes easily misses an item, and one missed security
+    setting can expose a vulnerability after launch, making rework and incident cost high while the check
+    recurs every release.
+  current_alternative: 团队目前多靠个人记忆、临时笔记、内部 wiki 或通用发布流程文档来核对，缺少一份语言无关、安全为重、且同时面向人和 AI 代理的统一清单。
+  current_alternative_en: Teams currently rely on individual memory, ad-hoc notes, internal wikis or generic
+    release-process docs, lacking a language-agnostic, security-heavy list shared by both humans and AI
+    agents.
+  usage_reason: 推断：相较临时笔记或内部 wiki，这份清单把上线前要核对的安全与配置项固定成一份可勾选、语言无关的条目集，并额外提供 AI 代理版本，使代理能按同一清单执行检查，从而减少“凭记忆列检查项”和“人工逐条转述给代理”这两步负担；因此会在每次发布前需要统一安全核对、且已用
+    AI 代理辅助检查的 Web/移动团队中优先被选用。
+  usage_reason_en: 'Inference: versus ad-hoc notes or an internal wiki, this checklist fixes pre-release
+    security and configuration items into a checkable, language-agnostic set and adds an AI-agent version
+    so an agent can run the same list, removing the steps of recalling items from memory and manually
+    restating them to an agent; teams that need a consistent security check each release and already use
+    AI agents for checks are therefore more likely to adopt it.'

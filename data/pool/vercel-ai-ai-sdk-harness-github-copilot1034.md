@@ -21,7 +21,7 @@ canonical_url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/harness-githu
 summary: "### Patch Changes\n\n- Updated dependencies [58030b5]\n  - @ai-sdk/harness-acp@1.0.77"
 first_seen: '2026-10-01T19:43:59Z'
 last_seen: '2026-10-02T01:41:55Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

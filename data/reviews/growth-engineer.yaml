@@ -123,3 +123,63 @@
   usage_reason_en: 'Inference: versus hand-written prompts, it fixes GTM processes as markdown files plus
     a read-only MCP server that agents can read and run, removing the step of re-describing the workflow
     each time; which users adopt it long-term is not yet publicly evidenced.'
+- id: req-full-growth-engineer-2026-10-02
+  project_slug: growth-engineer
+  level: full
+  reviewed_at: '2026-10-02T02:14:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是增长运营者把散落文档表格中的 GTM 流程交给 agent 执行的需求，痛点是流程非结构化、agent 无法直接读取而需反复手工转述；公开事实仅说明产品形态为 markdown
+      工作流目录加只读 MCP 服务器，痛点强度与不采用代价属工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+    - ev-504d32749c8bbff1
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录显示收藏数从 117 增至 122，说明有开发者关注，但这是关注度而非持续采用证据；缺少 issue、discussion 或用户反馈说明谁在何种场景实际接入并重复使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+    - ev-504d32749c8bbff1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济；开源目录加只读 MCP 服务器可能走 to C 开发者自用或 to B 团队采购，但均无公开证据，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+  - gate: truth
+    status: insufficient
+    reason: 只读 MCP 服务器降低了误操作风险，但公开材料未说明交付能否稳定发生、覆盖哪些渠道动作，以及人工与安全边界如何界定，缺少可复现的部署或运行证据。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+    - ev-504d32749c8bbff1
+  next_validation: 追踪该开源仓库的 issue、discussion 与 README 更新，确认是否有用户公开描述实际接入场景、替代的旧流程及覆盖的 GTM 渠道动作。
+  market: ''
+  job: 增长或市场运营人员在自己的 agent 环境（如 Claude、Cursor 等支持 MCP 的客户端）中，把散落在文档、表格和脑中的 go-to-market 流程（渠道选择、内容排期、外联节奏等）接入这套
+    markdown 工作流与只读 MCP 服务器，让 agent 按目录化步骤执行，最终产出可复用的可执行流程文件。
+  job_en: A growth or marketing operator working inside their own agent environment (an MCP-capable client
+    such as Claude or Cursor) plugs this markdown workflow catalog and read-only MCP server into their
+    setup, so the agent can execute go-to-market steps (channel selection, content cadence, outreach sequencing)
+    that previously lived scattered across docs and spreadsheets, producing reusable, directory-organized
+    executable workflow files.
+  pain: 公开材料只说明这是一套 markdown 工作流目录加只读 MCP 服务器，未披露用户抱怨、失败案例或不采用的具体代价；痛点强度属于工作流结构推理：GTM 流程长期以非结构化文档和表格存在，agent
+    无法直接读取执行，运营者需反复手工转述步骤，这是可识别的摩擦，但缺少用户口述佐证。
+  pain_en: 'Public materials only describe a markdown workflow catalog plus a read-only MCP server; no
+    user complaints, failure cases, or concrete cost of non-adoption are disclosed. Pain intensity is
+    a workflow-structure inference: GTM processes live in unstructured docs and spreadsheets that agents
+    cannot directly read or execute, forcing operators to re-explain steps manually — a recognizable friction,
+    but without first-hand user corroboration.'
+  current_alternative: 当前替代方式推断为：运营者手工把 GTM 流程写成 prompt 或粘贴进 agent 对话，或继续用 Notion/Google Sheets 等文档表格人工执行，agent
+    侧没有标准化的可读流程目录。公开材料未说明它实际替代了哪一种具体旧做法。
+  current_alternative_en: 'The inferred current alternative: operators manually rewrite GTM steps as prompts
+    or paste them into agent chats, or keep executing them by hand in Notion/Google Sheets, with no standardized
+    agent-readable workflow catalog. Public materials do not state which specific prior practice it replaces.'
+  usage_reason: 推断：相较每次手工把流程转述成 prompt，这套目录把 GTM 步骤固化为 agent 可直接读取的 markdown 文件并通过只读 MCP 暴露，减少重复转述这一步；因此已在用
+    MCP 客户端的增长运营者，在需要让 agent 按固定流程执行而非每次重新描述时，会倾向选择它。这是基于产品能力与任务结构的推断，尚无用户反馈或案例证实。
+  usage_reason_en: 'Inference: instead of re-dictating the process as a prompt each time, the catalog
+    fixes GTM steps as agent-readable markdown files exposed via a read-only MCP server, removing the
+    repeated re-explanation step; therefore growth operators already using an MCP client, who need the
+    agent to follow a fixed process rather than re-describe it each time, would tend to choose it. This
+    is an inference from product capability and task structure, not yet confirmed by user feedback or
+    cas'

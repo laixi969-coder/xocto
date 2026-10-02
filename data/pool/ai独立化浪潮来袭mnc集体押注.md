@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiR0FVX3lxTE51bU9PcDJvQloz
 summary: AI独立化浪潮来袭，MNC集体押注！ 动脉网
 first_seen: '2026-10-02T00:00:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

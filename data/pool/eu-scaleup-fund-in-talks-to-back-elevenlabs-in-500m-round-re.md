@@ -3,17 +3,17 @@ slug: eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re
 name: ElevenLabs
 builder: ''
 category: AI + 创作
-summary_zh: 做配音、有声书或广告音频的团队，过去要把写好的文稿交给配音演员或录音棚，按条排期录制、返工、再剪辑。ElevenLabs 让用户把文稿或脚本直接输入，由模型生成语音、克隆音色或驱动语音代理，输出可直接使用的音频文件；音色授权与最终成片仍需人工确认。
-inspiration: 趋势是语音生成从单条试听走向可批量交付的音频生产环节，资本愿意为已进入企业工作流的语音层付高价。切入可放在需要大量多语种音频、但养不起配音团队的垂直场景，例如跨境电商商品视频、地方政务与教育课件、播客本地化，按成品分钟数或项目交付收费，而不是卖通用订阅。
-summary_en: Teams producing voiceovers, audiobooks or ad audio used to hand scripts to voice actors or
-  studios, booking sessions, re-recording and re-editing. ElevenLabs lets users feed scripts or copy directly
-  into the model to generate speech, clone voices or drive voice agents, returning usable audio files;
-  voice rights clearance and final cuts still need human sign-off.
-inspiration_en: The trend is speech generation moving from one-off demos into batch audio production,
-  and capital is paying up for a voice layer already inside enterprise workflows. A wedge exists in verticals
-  that need heavy multilingual audio but cannot afford voice teams, such as cross-border e-commerce product
-  videos, local government and education courseware, or podcast localization, priced per finished minute
-  or per delivered project rather than a generic subscription.
+summary_zh: 做配音、有声书或本地化音频的团队，过去要预约配音演员、租录音棚、逐条剪辑，现在把文稿交给它，由模型生成语音、克隆音色或驱动语音代理，直接拿到可用的音频文件或语音接口；音色授权与合规仍需人工确认。
+inspiration: 趋势是语音生成从“能听”走向可商用交付，估值翻倍说明资本押注语音成为内容与客服的默认生产环节。切入不在通用语音合成，而在需要授权音色、行业术语和合规留痕的垂直场景，例如本地化发行、无障碍有声出版或受监管行业的语音客服，按成品音频或按通话结果计价。
+summary_en: Teams doing voiceover, audiobooks or localized audio used to book voice actors, rent studios
+  and edit clip by clip; now they hand over a script and the model generates speech, clones a voice or
+  drives a voice agent, returning usable audio files or a speech API. Voice-rights and compliance checks
+  still need human sign-off.
+inspiration_en: The trend is speech generation moving from demo-quality to commercially deliverable, and
+  a doubled valuation signals capital betting voice becomes a default production step for content and
+  support. The opening is not generic TTS but vertical work needing licensed voices, domain terminology
+  and audit trails, such as localization distribution, accessible audiobook publishing or regulated voice
+  support, priced per finished audio or per resolved call.
 priority_review: false
 project_type: new_application
 industries:
@@ -25,19 +25,17 @@ industries_en:
 - Marketing & Advertising
 - Publishing
 jobs:
-- 配音与旁白制作
-- 有声内容本地化
-- 广告与视频音频制作
+- 配音与有声内容制作
+- 多语言音频本地化
+- 客服语音内容生产
 jobs_en:
-- Voiceover and narration production
-- Audio content localization
-- Advertising and video audio production
+- Voiceover and audio content production
+- Multilingual audio localization
+- Customer-service voice content production
 regions:
-- 英国
 - 美国
 - 欧洲
 regions_en:
-- United Kingdom
 - United States
 - Europe
 open_source: false
@@ -51,7 +49,7 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Late stage). Wispr
   valuations on the strength of their enterprise and U.S.
 first_seen: '2026-09-17T16:20:47Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - ia40

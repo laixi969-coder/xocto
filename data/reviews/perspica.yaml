@@ -1,0 +1,84 @@
+- id: req-initial-perspica-2026-10-02
+  project_slug: perspica
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是评审者从格式噪声中还原改动意图的需求，痛点具体；但公开材料只有一句定位描述，无法确认语义比对的实际动作与交付结果。
+    evidence_ids:
+    - ev-7ed78fe6e00e35dc
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 14 点、6 条评论，属于早期关注，不能说明评审者已把它纳入日常流程。
+    evidence_ids:
+    - ev-7ed78fe6e00e35dc
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是个人开发者还是团队尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7ed78fe6e00e35dc
+  - gate: truth
+    status: insufficient
+    reason: 无法从现有材料确认语义 diff 是否真的减少评审负担，也缺少与逐行 diff 的可复现对比。
+    evidence_ids:
+    - ev-7ed78fe6e00e35dc
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认语义 diff 的输入格式、实际输出样例以及是否有使用者报告在真实评审中的效果。
+  market: ''
+  job: 代码评审者在合并请求中查看一段改动时，需要判断这次修改到底改变了什么行为，而不是逐行核对文本差异。
+  job_en: A code reviewer looking at a change in a merge request needs to judge what behaviour the edit
+    actually changed, rather than checking textual differences line by line.
+  pain: 按行比对的 diff 会把格式化、重命名等噪声和真正的逻辑改动混在一起，评审者要花时间从噪声里还原改动意图。
+  pain_en: Line-based diffs mix formatting and renaming noise with real logic changes, so reviewers spend
+    time reconstructing the intent of the edit from the noise.
+  current_alternative: 评审者目前依赖 Git 自带的逐行 diff、IDE 的差异视图，或人工在脑中过滤格式变动。
+  current_alternative_en: Reviewers currently rely on Git's line-by-line diff, IDE diff views, or manually
+    filtering formatting changes in their heads.
+  usage_reason: 推断：如果它确实按语义而非文本行比对改动，评审者可以少做一步“从格式噪声里还原逻辑改动”的工作，因此改动频繁、重构多的团队在评审大改动时可能选择它；目前没有用户反馈或采用数据支持这一判断。
+  usage_reason_en: 'Inference: if it truly compares changes by semantics rather than text lines, reviewers
+    skip the step of reconstructing logic changes from formatting noise, so teams with frequent refactors
+    may choose it when reviewing large changes; no user feedback or adoption data supports this yet.'
+- id: req-full-perspica-2026-10-02
+  project_slug: perspica
+  level: full
+  reviewed_at: '2026-10-02T02:15:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决评审者从格式噪声中还原改动意图的需求，痛点具体且刚性；公开材料只有一句定位描述，语义比对的实际动作与交付结果属工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-7ed78fe6e00e35dc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有一句仓库定位描述，未见社区讨论、收藏或使用反馈，无法判断评审者是否已把它纳入日常流程。
+    evidence_ids:
+    - ev-7ed78fe6e00e35dc
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是个人开发者还是团队尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7ed78fe6e00e35dc
+  - gate: truth
+    status: insufficient
+    reason: 无法从现有材料确认语义 diff 是否真的减少评审负担，也缺少与逐行 diff 的可复现对比。
+    evidence_ids:
+    - ev-7ed78fe6e00e35dc
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认语义 diff 的输入格式、实际输出样例以及是否有使用者报告在真实评审中的效果。
+  market: ''
+  job: 代码评审者在合并请求中查看一段改动时，需要判断这次修改到底改变了什么行为，而不是逐行核对文本差异。
+  job_en: A code reviewer examining a change in a merge request needs to judge what behaviour the edit
+    actually changed, rather than checking textual differences line by line.
+  pain: 按行比对的 diff 会把格式化、重命名等噪声和真正的逻辑改动混在一起，评审者要花时间从噪声里还原改动意图。
+  pain_en: Line-based diffs mix formatting and renaming noise with real logic changes, so reviewers spend
+    time reconstructing the intent of the edit from the noise.
+  current_alternative: 评审者目前依赖 Git 自带的逐行 diff、IDE 的差异视图，或人工在脑中过滤格式变动。
+  current_alternative_en: Reviewers currently rely on Git's line-by-line diff, IDE diff views, or manually
+    filtering formatting changes in their heads.
+  usage_reason: 推断：如果它确实按语义而非文本行比对改动，评审者可以少做一步“从格式噪声里还原逻辑改动”的工作，因此改动频繁、重构多的团队在评审大改动时可能选择它；目前没有用户反馈或采用数据支持这一判断。
+  usage_reason_en: 'Inference: if it truly compares changes by semantics rather than text lines, reviewers
+    skip the step of reconstructing logic changes from formatting noise, so teams with frequent refactors
+    may choose it when reviewing large changes; no user feedback or adoption data supports this yet.'

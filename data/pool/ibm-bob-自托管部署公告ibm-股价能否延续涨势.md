@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxObnRrTHRhTDA5
 summary: IBM Bob 自托管部署公告：IBM 股价能否延续涨势？ Traders Union
 first_seen: '2026-10-01T14:07:41Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

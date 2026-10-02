@@ -22,7 +22,7 @@ summary: OpenAI has parted ways with three safety researchers after an internal 
   mishandled sensitive company information, report says.
 first_seen: '2026-10-01T18:14:42Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

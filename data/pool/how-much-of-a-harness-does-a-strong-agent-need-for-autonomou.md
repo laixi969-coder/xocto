@@ -26,7 +26,7 @@ summary: 'Recent autonomous machine learning engineering (MLE) agents have made 
   through read, write, and bash primitives—has received little attention in the field…'
 first_seen: '2026-10-01T00:00:00Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

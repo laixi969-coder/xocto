@@ -1,0 +1,82 @@
+- id: req-initial-clarity-2026-10-02
+  project_slug: clarity
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决嘈杂环境下只保留人声的需求，但材料未说明旧处理方式、频率与不处理的后果，痛点无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-f282acc004251fd3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布记录，无用户评价或客户案例，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-f282acc004251fd3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与收费方式，钱从哪一方来无法判断，这是未知而非已验证事实。
+    evidence_ids:
+    - ev-f282acc004251fd3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对实时处理是否贴近通话与录制的第一性目标、能否确定性交付，以及误伤人声时的人工边界。
+    evidence_ids:
+    - ev-f282acc004251fd3
+  next_validation: 收集 Clarity 官方页面或文档，确认它处理何种音频输入、输出何种结果，以及是否列出定价或客户案例。
+  market: ''
+  job: 远程会议参与者或播客录制者在环境嘈杂时，需要只保留说话人声音、屏蔽房间噪音。
+  job_en: A remote meeting participant or podcast recorder, in a noisy environment, needs to keep only
+    the speaker's voice and mute room noise.
+  pain: 材料只给出“实时屏蔽房间、保留说话人”一句，未说明原来如何处理噪音、不处理的后果与使用频率，痛点无法还原。
+  pain_en: The material gives only one line about muting the room while keeping the speaker; it does not
+    say how noise was handled before, the consequences of not handling it, or how often it occurs, so
+    the pain cannot be reconstructed.
+  current_alternative: 公开材料未提供任何现有替代方式的信息。
+  current_alternative_en: Public material provides no information about any current alternative.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old approach
+    or which checkable result it improves, so there is no basis to explain who would choose it and when.'
+- id: req-full-clarity-2026-10-02
+  project_slug: clarity
+  level: full
+  reviewed_at: '2026-10-02T02:13:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决嘈杂环境下只保留人声的需求，但材料未说明旧处理方式、噪音出现频率与不处理的后果，痛点无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-980032ddbb321620
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Clarity 官方产品页或文档，确认它处理何种音频输入、输出何种结果，以及是否列出定价或客户案例。
+  market: ''
+  job: 远程会议参与者或播客录制者在嘈杂房间中开麦或录音时，需要实时把房间噪音压掉、只保留说话人声音，让远端听众或后期素材里只有人声。
+  job_en: A remote meeting participant or podcast recorder, speaking or recording in a noisy room, needs
+    to suppress room noise in real time and keep only the speaker's voice so that remote listeners or
+    raw recordings contain voice alone.
+  pain: 公开材料只有一句“实时屏蔽房间、保留说话人”，没有说明用户原来怎么处理噪音（静音、耳机麦、后期降噪）、噪音出现的频率、以及不处理会导致什么后果，痛点无法还原。
+  pain_en: Public material offers only one line about muting the room while keeping the speaker; it does
+    not say how users handled noise before (muting, headset mic, post-production denoise), how often noise
+    occurs, or what happens if unsolved, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未提供任何现有替代方式的信息，无法确认用户此前是用静音、硬件麦克风还是后期降噪软件。
+  current_alternative_en: Public material provides no information about any current alternative, so it
+    is unknown whether users previously relied on muting, hardware microphones, or post-production denoising
+    software.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old approach
+    or which checkable result it improves, so there is no basis to explain who would choose it and when.'

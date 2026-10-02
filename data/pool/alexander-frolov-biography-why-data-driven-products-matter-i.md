@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTTRWdVJGN29a
 summary: 'Alexander Frolov Biography: Why Data-Driven Products Matter in Modern Technology Resident™ Magazine'
 first_seen: '2026-10-01T22:16:23Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

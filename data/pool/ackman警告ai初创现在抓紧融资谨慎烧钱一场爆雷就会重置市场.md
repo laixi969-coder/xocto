@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5tczl3ellrTTJE
 summary: Ackman警告AI初创：现在抓紧融资、谨慎烧钱，一场“爆雷”就会重置市场 华尔街见闻
 first_seen: '2026-10-01T19:05:03Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

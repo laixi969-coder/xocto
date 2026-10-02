@@ -80,3 +80,55 @@
   usage_reason_en: With no verifiable usage scenario or delivery description, there is no way to explain
     why a user would choose it over existing practice; repository stars reflect attention only and cannot
     serve as a usage reason (inference).
+- id: req-full-open-dot-2026-10-02
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-02T02:15:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把 Mac 上跨应用的多步操作交给本地自主代理执行，痛点是手动逐步点击与跨应用搬运、以及云端代理带来的数据与权限外泄顾虑；公开材料只给出定位，未给用户抱怨，故为工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+    - ev-b5e7f9c82dd3dae5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 162 升至 389 只说明关注度增长，属规模证据；公开材料没有用户评价、issue 讨论或客户案例说明谁在什么场景持续使用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+    - ev-b5e7f9c82dd3dae5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费路径或买方身份，开源仓库本身也不说明谁付钱；按判断（非已验证事实），钱可能来自 to C 个人订阅或 to B 团队授权，但均无公开证据支撑。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行哪些具体任务、交付边界与人工确认环节，也未说明本地执行的安全与权限边界，因此承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+    - ev-b5e7f9c82dd3dae5
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际执行的任务类型、输入材料、交付结果与人工确认边界。
+  market: ''
+  job: 愿意自己动手的 Mac 用户在自己的电脑上打开 open-dot，把需要在本地电脑上完成的杂事（跨应用操作、调用外部服务）交给一个本地自主运行的代理，由它调用 OpenAI 模型与 Composio
+    连接的外部服务执行，最后拿到完成结果或待确认操作。
+  job_en: A hands-on Mac user opens open-dot on their own machine and hands off computer-side chores (cross-app
+    actions, calls to external services) to a locally running autonomous agent that uses OpenAI models
+    plus Composio-connected services, receiving finished results or actions awaiting confirmation.
+  pain: 公开材料只给出定位，没有用户抱怨或旧流程描述；从工作流结构推理，痛点是本地电脑上的多步操作需要人逐步点击、跨应用搬运，且把这类操作交给云端代理会带来数据与权限外泄顾虑。
+  pain_en: Public material gives only positioning, no user complaints or legacy workflow; by workflow
+    inference the pain is that multi-step local computer tasks require manual clicking and cross-app shuttling,
+    while handing them to a cloud agent raises data and permission exposure concerns.
+  current_alternative: 结构推理下的旧做法是用户自己手动在 Mac 上逐步操作，或使用云端自动化/浏览器代理类工具；公开材料未说明它具体替代哪一种。
+  current_alternative_en: By structural inference the legacy practice is the user manually stepping through
+    tasks on the Mac, or using cloud automation/browser-agent tools; public material does not say which
+    one it replaces.
+  usage_reason: 推断：相较手动逐步操作或把任务交给云端代理，它把执行放在用户自己的电脑上并调用已连接的 Composio 外部服务，减少用户逐步点击与跨应用搬运的负担，同时避免把本地操作数据交给远端；因此在意本地数据与权限边界的动手型
+    Mac 用户会在需要自动化本机多步任务时选择它。
+  usage_reason_en: 'Inference: versus manual step-by-step work or handing tasks to a cloud agent, it runs
+    execution on the user''s own machine and calls already-connected Composio services, cutting the burden
+    of manual clicking and cross-app shuttling while keeping local operation data off remote servers;
+    hands-on Mac users who care about local data and permission boundaries would pick it for automating
+    multi-step local tasks.'

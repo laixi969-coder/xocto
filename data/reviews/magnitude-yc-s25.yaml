@@ -86,3 +86,47 @@
     automatically, it removes the manual parameter-tuning step; however, public materials give no optimization
     magnitude, integration cost, or user feedback, so it cannot be confirmed that users would choose it
     for this reason.'
+- id: req-full-magnitude-yc-s25-2026-10-02
+  project_slug: magnitude-yc-s25
+  level: full
+  reviewed_at: '2026-10-02T02:14:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据池全部条目指向词典释义、数学条目与一款每日猜大小游戏，无一条涉及 agent 推理引擎；连它解决什么需求、什么痛点都无公开事实可写，故价值关不成立。
+    evidence_ids:
+    - ev-fcaff2f953b16471
+    - ev-1f2af2904fa6da48
+    - ev-bf8e5dff9b6a7014
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Magnitude（YC S25）官方站点与开源仓库的 README、部署文档及 issue/discussion，确认其实际优化对象、接入方式与可复现基准结果。
+  market: ''
+  job: 构建 agent 的开发者，在 agent 上线后推理成本或时延超出预期时，处理线上调用日志与推理配置，要把每次调用的模型、参数和路由调到可接受的成本与时延区间。
+  job_en: Developers building agents, when inference cost or latency exceeds expectations after launch,
+    work with production call logs and inference configuration to tune each call's model, parameters,
+    and routing into an acceptable cost and latency range.
+  pain: 公开材料未提供任何关于该产品用户痛点的可引用事实；候选摘要中“自己调推理参数、拼重试与路由逻辑”属编辑转述，证据池中无对应来源。
+  pain_en: Public materials provide no citable fact about this product's user pain; the candidate summary's
+    claim about hand-tuning inference parameters and stitching retry/routing logic is editorial paraphrase
+    with no supporting source in the evidence pool.
+  current_alternative: 无公开证据说明开发者当前用什么方式替代；证据池中的替代行为条目实际指向词典释义、数学条目与一款每日猜大小游戏，与 agent 推理调优无关。
+  current_alternative_en: No public evidence describes what developers currently use instead; the workaround
+    items in the evidence pool actually point to a dictionary definition, a mathematics article, and a
+    daily size-guessing game, unrelated to agent inference tuning.
+  usage_reason: 无法给出使用理由：证据池中没有任何该产品的功能说明、接入方式、优化指标或用户反馈，无法解释相较旧做法减少了哪一步负担，因此不能推断用户为何选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence pool contains no product capability description,
+    integration method, optimization metric, or user feedback for this product, so it is impossible to
+    explain which step it removes versus the old approach or infer why users would choose it.'

@@ -1,0 +1,91 @@
+- id: req-initial-photon-held-a-funeral-for-mobile-apps-now-it-has-45m-to-help-2026-10-02
+  project_slug: photon-held-a-funeral-for-mobile-apps-now-it-has-45m-to-help
+  level: initial
+  reviewed_at: '2026-10-02T01:42:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决的是让用户不装 App 也能在消息渠道完成业务动作，但材料未给出具体痛点、旧流程耗时或不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-bca95556d8802185
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资与产品定位描述，没有开发者采用、客户案例或社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-bca95556d8802185
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或按什么计价，钱从 to B 开发者还是 to C 用户来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bca95556d8802185
+  - gate: truth
+    status: insufficient
+    reason: 消息渠道 agent 涉及支付、身份与人工兜底边界，材料未说明承诺能否确定性交付，也未说明安全与人工介入方式。
+    evidence_ids:
+    - ev-bca95556d8802185
+  next_validation: 收集 Photon 官方定价页或开发者文档，确认其按什么计价、面向哪类买方，以及是否披露客户案例或部署方式。
+  market: ''
+  job: 开发者或商家运营在希望用户不下载 App 就能完成下单、查询或预约时，处理用户在 iMessage、短信/RCS、邮件里发来的自然语言消息，要完成识别意图、调用业务动作并回复结果这一任务。
+  job_en: Developers or merchant operators who want users to order, check status or book without downloading
+    an app handle natural-language messages arriving via iMessage, SMS/RCS or email, and must recognize
+    intent, trigger the business action and reply with the result.
+  pain: 候选材料只说明它帮助开发者构建消息渠道 agent，没有给出具体用户抱怨、旧流程耗时或失败代价，痛点无法从公开事实还原。
+  pain_en: The candidate material only says it helps developers build messaging-channel agents; it gives
+    no specific user complaint, time cost of the old process or failure cost, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 旧做法可能是自建消息机器人、使用现成客服机器人平台，或让用户继续下载 App 并走应用内流程；候选未说明它具体替代了哪一步。
+  current_alternative_en: The old approach may be building a messaging bot in-house, using an existing
+    customer-service bot platform, or having users keep downloading the app and going through in-app flows;
+    the candidate does not say which step it replaces.
+  usage_reason: 推断：相较自建消息机器人，它可能省去对接多个消息渠道的工程工作，让开发者更快把业务动作接到用户已有的收件箱里，因此缺少移动端开发资源、又依赖消息触达用户的团队会考虑它；但材料未提供任何采用、留存或客户案例证据。
+  usage_reason_en: 'Inference: compared with building a messaging bot in-house, it may remove the engineering
+    work of integrating multiple messaging channels and let developers connect business actions to the
+    inbox users already have, so teams lacking mobile development resources but relying on messaging reach
+    may consider it; however the material provides no adoption, retention or customer-case evidence.'
+- id: req-full-photon-held-a-funeral-for-mobile-apps-now-it-has-45m-to-help-2026-10-02
+  project_slug: photon-held-a-funeral-for-mobile-apps-now-it-has-45m-to-help
+  level: full
+  reviewed_at: '2026-10-02T02:15:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决的是让用户不装 App 也能在消息渠道完成业务动作，但材料未给出具体痛点、旧流程耗时或不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-9cb3c3be92dc663c
+    - ev-f1644e9c8f7c5630
+    - ev-6b7628b1a7b61d23
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Photon 官方定价页或开发者文档，确认其按什么计价、面向哪类买方，以及是否披露客户案例或部署方式。
+  market: ''
+  job: 开发者或商家运营在希望用户不下载 App 就能完成下单、查询或预约时，处理用户在 iMessage、短信/RCS、邮件里发来的自然语言消息，要完成识别意图、调用业务动作并回复结果这一任务。
+  job_en: Developers or merchant operators who want users to order, check status or book without downloading
+    an app handle natural-language messages arriving via iMessage, SMS/RCS or email, and must recognize
+    intent, trigger the business action and reply with the result.
+  pain: 候选材料只说明它帮助开发者构建消息渠道 agent，没有给出具体用户抱怨、旧流程耗时或失败代价，痛点无法从公开事实还原。
+  pain_en: The candidate material only says it helps developers build messaging-channel agents; it gives
+    no specific user complaint, time cost of the old process or failure cost, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 旧做法可能是自建消息机器人、使用现成客服机器人平台，或让用户继续下载 App 并走应用内流程；候选未说明它具体替代了哪一步。
+  current_alternative_en: The old approach may be building a messaging bot in-house, using an existing
+    customer-service bot platform, or having users keep downloading the app and going through in-app flows;
+    the candidate does not say which step it replaces.
+  usage_reason: 推断：相较自建消息机器人，它可能省去对接多个消息渠道的工程工作，让开发者更快把业务动作接到用户已有的收件箱里，因此缺少移动端开发资源、又依赖消息触达用户的团队会考虑它；但材料未提供任何采用、留存或客户案例证据。
+  usage_reason_en: 'Inference: compared with building a messaging bot in-house, it may remove the engineering
+    work of integrating multiple messaging channels and let developers connect business actions to the
+    inbox users already have, so teams lacking mobile development resources but relying on messaging reach
+    may consider it; however the material provides no adoption, retention or customer-case evidence.'

@@ -78,3 +78,41 @@
   usage_reason_en: Integration method and the replaced step are missing, so which burden it removes versus
     calling the model directly, and which users would choose it when, cannot be explained; this is an
     inference gap, not a fact.
+- id: req-full-stuntd-2026-10-02
+  project_slug: stuntd
+  level: full
+  reviewed_at: '2026-10-02T02:15:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只有仓库自述“本地代理学习带类型的 LLM 决策并用 Laya 头回答”，无法还原用户任务、痛点与不采用后果，连解决什么需求都写不出来，属自述拼凑而非可判定的价值结构。
+    evidence_ids:
+    - ev-c75a8ac9ac52e237
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 stuntd 仓库 README 与 issue/discussion 中关于接入方式、被替代的调用环节与实测结果的说明。
+  market: ''
+  job: 公开材料只说明它是本地代理，未识别出具体开发者、在哪个开发环节接入、处理什么请求材料、要完成什么任务。
+  job_en: Public material only says it is a local proxy; no specific developer, integration step, request
+    material, or task is identified.
+  pain: 未说明重复调用模型带来的具体成本、延迟或一致性问题，也未说明开发者当前如何绕过，痛点无法还原。
+  pain_en: It does not state the concrete cost, latency, or consistency problem of repeated model calls,
+    nor how developers currently work around it, so the pain cannot be reconstructed.
+  current_alternative: 未说明此前开发者如何复用、缓存或模拟模型决策，替代方式缺失。
+  current_alternative_en: It does not state how developers previously reused, cached, or simulated model
+    decisions; the alternative is missing.
+  usage_reason: 缺少接入方式与被替代环节，无法解释相较直接调用减少了哪一步负担，属推断空白。
+  usage_reason_en: Integration method and replaced step are missing, so which burden it removes versus
+    direct calls cannot be explained; this is an inference gap.

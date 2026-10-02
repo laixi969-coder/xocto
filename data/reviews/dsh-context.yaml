@@ -908,3 +908,54 @@
     context composition and compaction/pruning events directly in a panel and command, so developers no
     longer infer from final output and can locate which step dropped which content; developers debugging
     long sessions or needing stable constraint reproduction would choose it when investigating forgetting.'
+- id: req-full-dsh-context-2026-10-02
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-02T02:13:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后代理静默遗忘约束、开发者只能从错误输出反推的问题，痛点来自代理工作流的确定性缺口；公开材料仅有插件自述，属工作流结构推理，付费方未核验。
+    evidence_ids:
+    - ev-70e5477b86d584ea
+    - ev-a99eaf23f7c5e52c
+  - gate: consensus
+    status: insufficient
+    reason: 可归因到本插件的公开采用证据缺失；同生态的 dscode 有 953→1009 星、jevmem 有 98→104 星，只说明 DeepSeek Harness 与记忆类插件受关注，不能证明本插件被持续使用。
+    evidence_ids:
+    - ev-43ee8e605a4f6b15
+    - ev-c197eee5f71ac604
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，插件以开源形式分发，钱可能来自 to C 开发者捐赠或 to B 团队支持，这是判断而非已验证事实；买方不清不否定需求本身。
+    evidence_ids:
+    - ev-70e5477b86d584ea
+  - gate: truth
+    status: insufficient
+    reason: 面板与命令能否在真实压缩、剪枝事件上确定性还原上下文变化，缺少可复现的公开演示或 issue 记录；人工介入与安全边界也未说明。
+    evidence_ids:
+    - ev-a99eaf23f7c5e52c
+  next_validation: 追踪该插件在 npm 与代码仓库的 README、release 说明及 issue/discussion，确认是否公开演示压缩与剪枝事件的还原效果及实际使用反馈。
+  market: ''
+  job: 使用 DeepSeek Harness 等编码代理的开发者，在长会话里处理多轮对话、工具调用与压缩事件时，需要看清当前上下文由哪些内容组成、哪些被压缩或剪枝丢弃，以判断代理为何遗忘关键约束并决定下一步怎么补。
+  job_en: Developers running DeepSeek Harness-style coding agents in long sessions need to inspect what
+    the current context is composed of and which items were compressed or pruned, so they can tell why
+    the agent forgot a key constraint and decide what to restore.
+  pain: 长会话中上下文被自动压缩、剪枝后，代理会静默丢掉早先的约束或决策，开发者只能从错误输出反推，排查成本高且容易误判为模型能力问题；公开材料只给出插件自述，未提供用户抱怨或事故记录。
+  pain_en: After automatic compression and pruning in long sessions, the agent silently drops earlier
+    constraints or decisions; developers can only infer this from wrong output, which is costly and easily
+    misread as a model-capability problem. Public material offers only the plugin's own description, not
+    user complaints or incident records.
+  current_alternative: 旧做法是翻看原始会话日志、反复重述约束、或直接开新会话重来；也可依赖 jevmem 这类把决策与死路写入仓库文件的记忆插件，但它记录的是跨会话记忆，不解释本轮上下文的组成与演进。
+  current_alternative_en: The old way is scrolling raw session logs, restating constraints repeatedly,
+    or starting a fresh session; memory plugins such as jevmem persist decisions and dead ends into a
+    repo file, but they cover cross-session memory rather than explaining this session's context composition
+    and evolution.
+  usage_reason: 推断：相较翻日志或重开会话，它把上下文组成、压缩与剪枝事件直接渲染成面板和命令输出，开发者不必逐条回读原始记录就能定位是哪一步丢了信息，因此长会话调试或排查代理遗忘问题的
+    DeepSeek Harness 用户会在会话中途打开它。
+  usage_reason_en: 'Inference: versus scrolling logs or restarting a session, it renders context composition
+    plus compression and pruning events into a panel and command output, so a developer can locate the
+    losing step without re-reading raw records; DeepSeek Harness users debugging long sessions or agent
+    forgetting would open it mid-session.'

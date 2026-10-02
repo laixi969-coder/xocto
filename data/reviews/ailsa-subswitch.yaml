@@ -206,3 +206,53 @@
     steps; therefore individual developers or small teams holding several AI subscriptions whose quotas
     frequently run out would pick it for quota management. No user feedback is public, so this causal
     claim is inferred from product capability.'
+- id: req-full-ailsa-subswitch-2026-10-02
+  project_slug: ailsa-subswitch
+  level: full
+  reviewed_at: '2026-10-02T02:12:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多AI订阅账号额度分散、需逐个登录核对并手动切换的痛点，任务与旧替代可还原，不解决的后果是额度耗尽才发现、切换打断工作流；这是工作流结构推理，仓库说明与收藏增长提供公开事实支撑，但缺用户抱怨与频率数据。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+    - ev-89f0e530b025b9a7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从44增至74，说明开发者社区持续关注，但公开材料没有issue、discussion或评价说明谁在什么场景持续使用，关注度不能替代采用共识。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+    - ev-89f0e530b025b9a7
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，无法判断to C订阅、捐赠还是to B授权；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些AI服务、切换后是否自动同步状态、额度数据来源与账号安全边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-123d1118e3b887b5
+  next_validation: 追踪该公开代码仓库仓库的README、issue与discussion，确认支持的服务列表、额度数据获取方式与账号切换实现，作为交付确定性的公开证据。
+  market: ''
+  job: 个人开发者或小团队同时持有多个AI订阅账号（如不同服务或不同账号）时，需要打开一个面板查看各账号每周剩余用量，并一键切换到目标账号继续工作，避免逐个登录或手动记录额度。
+  job_en: Individual developers or small teams holding multiple AI subscription accounts need to open
+    one panel to see each account's weekly remaining quota and switch to the target account in one click,
+    instead of logging in one by one or tracking quotas manually.
+  pain: 多账号并行使用时，额度分散在各服务后台，用户要反复登录、手动记录每周用量，容易在额度耗尽时才发现，切换账号的重复操作打断编码或写作流程；公开材料只给出产品定位，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: With multiple parallel accounts, quotas are scattered across service dashboards; users repeatedly
+    log in and manually track weekly usage, often discovering exhaustion only when it happens, and account
+    switching interrupts coding or writing. Public materials give only the product positioning, not user
+    complaints or frequency, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是逐个登录各AI服务后台查看用量、用浏览器多账号或手动记录额度表，再手动切换账号；公开材料未说明它具体替代了哪一种，属推断。
+  current_alternative_en: The old approach is logging into each AI service dashboard to check usage, using
+    browser multi-account profiles or manual quota notes, then switching accounts by hand; public materials
+    do not specify which one it replaces, so this is inferred.
+  usage_reason: 推断：相较逐个登录后台核对额度，它把各账号每周用量集中到一个视图并支持一键切换，省去重复登录与手动记录这一步，因此同时持有多个AI订阅、需要频繁在账号间切换的个人开发者或小团队会在额度核对和切换场景下选择它；仓库收藏从44增至74说明关注度上升，但不构成持续使用证据。
+  usage_reason_en: 'Inference: compared with logging into each dashboard to check quotas, it consolidates
+    weekly usage into one view with one-click switching, removing the repeated login and manual tracking
+    step, so individual developers or small teams holding multiple AI subscriptions and switching frequently
+    would choose it for quota checks and account switching; stars rising from 44 to 74 shows attention,
+    not sustained use.'

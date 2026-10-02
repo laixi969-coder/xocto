@@ -22,7 +22,7 @@ summary: Advanced AI may matter most for the routine work behind breakthrough id
   could shape the next economy and the pace of progress.
 first_seen: '2026-10-01T17:00:00Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

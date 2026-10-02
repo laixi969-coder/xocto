@@ -21,7 +21,7 @@ canonical_url: https://turkeyland.net/thoughts/ai.php
 summary: CS240 AI Cheating Retrospective
 first_seen: '2026-09-30T19:54:29Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

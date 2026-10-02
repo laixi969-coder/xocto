@@ -1,0 +1,88 @@
+- id: req-initial-opencloak-2026-10-02
+  project_slug: opencloak
+  level: initial
+  reviewed_at: '2026-10-02T01:41:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把含个人信息的提示词发给外部模型前的脱敏需求，痛点是合规与泄露风险，旧做法是人工删改。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  - gate: consensus
+    status: insufficient
+    reason: 44 颗星属关注度信号，未见用户反馈或团队采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  - gate: model
+    status: insufficient
+    reason: 开源且无账号体系，未见定价或企业采购路径，买方与收费方式未披露。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  - gate: truth
+    status: insufficient
+    reason: 未提供识别准确率、漏检处理或人工复核机制，脱敏能否确定性完成无法核对。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  next_validation: 收集该仓库的 issue/discussion 与文档，核对识别准确率、漏检处理方式及是否支持自定义脱敏规则。
+  market: ''
+  job: 客服、医疗或金融外包团队的开发者在把含客户姓名与联系方式的提示词发给外部模型前，处理这些原始文本，要完成脱敏后再调用模型的任务。
+  job_en: Developers in customer-service, healthcare or financial outsourcing teams handle raw text containing
+    customer names and contact details before sending prompts to an external model, aiming to redact it
+    before the call.
+  pain: 把含个人信息的提示词直接发给外部模型会带来合规与泄露风险，手工删改费时且容易漏项。
+  pain_en: Sending prompts with personal information to an external model creates compliance and leakage
+    risk, while manual editing is slow and easy to miss items.
+  current_alternative: 目前多靠人工逐条删改提示词，或制定规范要求员工不要粘贴客户资料。
+  current_alternative_en: Today teams mostly edit prompts by hand item by item, or write policies telling
+    staff not to paste customer data.
+  usage_reason: 推断：相较人工删改，它在发送前自动识别并替换个人字段，省去逐条检查这一步，因此处理大量客户文本且受合规约束的团队会在调用外部模型前选择它；尚无客户案例或留存数据支持。
+  usage_reason_en: 'Inference: compared with manual editing, it automatically detects and swaps personal
+    fields before sending, removing the item-by-item check, so teams handling large volumes of customer
+    text under compliance constraints may choose it before calling external models; no customer cases
+    or retention data support this yet.'
+- id: req-full-opencloak-2026-10-02
+  project_slug: opencloak
+  level: full
+  reviewed_at: '2026-10-02T02:15:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把含个人信息的提示词发给外部模型前的脱敏需求，痛点是合规与泄露风险，旧做法是人工删改。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  - gate: consensus
+    status: insufficient
+    reason: 44 颗星属关注度信号，未见用户反馈或团队采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  - gate: model
+    status: insufficient
+    reason: 开源且无账号体系，未见定价或企业采购路径，买方与收费方式未披露。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  - gate: truth
+    status: insufficient
+    reason: 未提供识别准确率、漏检处理或人工复核机制，脱敏能否确定性完成无法核对。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  next_validation: 收集该仓库的 issue/discussion 与文档，核对识别准确率、漏检处理方式及是否支持自定义脱敏规则。
+  market: ''
+  job: 客服、医疗或金融外包团队的开发者在把含客户姓名、联系方式等个人信息的提示词发给外部模型前，处理这些原始文本，要完成脱敏后再调用模型的任务。
+  job_en: Developers in customer-service, healthcare or financial outsourcing teams handle raw text containing
+    customer names and contact details before sending prompts to an external model, aiming to redact it
+    before the call.
+  pain: 把含个人信息的提示词直接发给外部模型会带来合规与泄露风险，手工删改费时且容易漏项。
+  pain_en: Sending prompts with personal information to an external model creates compliance and leakage
+    risk, while manual editing is slow and easy to miss items.
+  current_alternative: 目前多靠人工逐条删改提示词，或制定规范要求员工不要粘贴客户资料。
+  current_alternative_en: Today teams mostly edit prompts by hand item by item, or write policies telling
+    staff not to paste customer data.
+  usage_reason: 推断：相较人工删改，它在发送前自动识别并替换个人字段，省去逐条检查这一步，因此处理大量客户文本且受合规约束的团队会在调用外部模型前选择它；尚无客户案例或留存数据支持。
+  usage_reason_en: 'Inference: compared with manual editing, it automatically detects and swaps personal
+    fields before sending, removing the item-by-item check, so teams handling large volumes of customer
+    text under compliance constraints may choose it before calling external models; no customer cases
+    or retention data support this yet.'

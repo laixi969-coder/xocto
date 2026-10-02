@@ -211,3 +211,44 @@
   usage_reason_en: 'Inference: if it applies project rules as a constraint during agent generation, it
     could reduce line-by-line post-hoc checking; but without user feedback, adoption, or retention evidence,
     it is unconfirmed when developers would choose it.'
+- id: req-full-abide-2026-10-02
+  project_slug: abide
+  level: full
+  reviewed_at: '2026-10-02T02:12:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图让编码代理遵守项目规则，但公开证据全部指向同名的基督教冥想应用与词典释义，没有任何材料说明代理偏离规则的具体代价、频率或后果，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-299341f2c69c0e6f
+    - ev-33ea724bc2a13919
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该工具自身的官方仓库 README、使用文档与 issue/discussion，核对它如何接入编码代理、规则约束是否确定性生效，以及是否有真实用户反馈。
+  market: ''
+  job: 软件开发工程师在让编码代理修改已有代码库时，需要把项目既有的规则文件与代码约定交给代理，让代理产出的改动符合这些约定。
+  job_en: A software developer, while having a coding agent modify an existing codebase, needs to hand
+    the project's existing rule files and conventions to the agent so its changes comply with them.
+  pain: 公开材料没有给出任何关于代理忽略项目规则、开发者反复纠正的用户证据；现有证据全部指向一个同名的基督教冥想应用和词典释义，无法说明该工具解决的具体痛点。
+  pain_en: Public materials contain no user evidence about agents ignoring project rules or developers
+    repeatedly correcting them; all available evidence points to a same-named Christian meditation app
+    and dictionary definitions, so the concrete pain this tool addresses cannot be established.
+  current_alternative: 公开材料未说明开发者目前如何完成这项工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers complete this job today or what
+    prior practice it replaces.
+  usage_reason: 无法判断：现有证据中没有该工具的用户反馈、采用或使用记录，无法解释哪类开发者会在什么情况下选择它。
+  usage_reason_en: 'Cannot be determined: the available evidence contains no user feedback, adoption,
+    or usage records for this tool, so it is impossible to explain which developers would choose it and
+    when.'

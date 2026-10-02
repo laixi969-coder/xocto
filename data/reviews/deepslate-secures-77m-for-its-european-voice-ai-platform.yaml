@@ -1,0 +1,83 @@
+- id: req-initial-deepslate-secures-77m-for-its-european-voice-ai-platform-2026-10-02
+  project_slug: deepslate-secures-77m-for-its-european-voice-ai-platform
+  level: initial
+  reviewed_at: '2026-10-02T01:42:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只披露融资，未说明它解决什么需求与痛点，无法还原旧工作流，价值关无法判定。
+    evidence_ids:
+    - ev-9846d4f2c7003fac
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：无用户采用或客户案例证据。
+    evidence_ids:
+    - ev-9846d4f2c7003fac
+  - gate: model
+    status: insufficient
+    reason: 未进入：融资额不等于付费路径，买方与定价均未披露。
+    evidence_ids:
+    - ev-9846d4f2c7003fac
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验语音识别准确率与人工转接边界。
+    evidence_ids:
+    - ev-9846d4f2c7003fac
+  next_validation: Deepslate 官方产品页或定价页，用以核验其具体语音场景、交付结果与收费方式。
+  market: ''
+  job: 企业客服或前台人员在接听电话时，需要记录客户诉求并转成工单或后续动作。
+  job_en: Enterprise support or front-desk staff answering calls must record customer requests and turn
+    them into tickets or follow-up actions.
+  pain: 公开材料未说明其解决的具体痛点，仅能推断电话接待与记录存在人力负担。
+  pain_en: Public materials do not state the specific pain it addresses; only an inference that phone
+    reception and logging carry a staffing burden.
+  current_alternative: 人工坐席接听、传统 IVR 语音菜单或外包呼叫中心。
+  current_alternative_en: Human agents, traditional IVR menus, or outsourced call centers.
+  usage_reason: 推断：若其语音模型能直接接听并生成工单，可省去人工记录这一步，因此电话量大的欧洲企业可能采用；但材料未给出产品细节、客户或定价，无法确认。
+  usage_reason_en: 'Inference: if its voice model answers calls and generates tickets directly, it removes
+    the manual logging step, so European firms with high call volume may adopt it; but no product detail,
+    customers or pricing are given, so this cannot be confirmed.'
+- id: req-full-deepslate-secures-77m-for-its-european-voice-ai-platform-2026-10-02
+  project_slug: deepslate-secures-77m-for-its-european-voice-ai-platform
+  level: full
+  reviewed_at: '2026-10-02T02:13:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅显示 770 万欧元种子轮融资，官网只笼统称可处理保险理赔、银行咨询、医疗预约的多轮对话，未说明用户是谁、旧流程如何、不解决会失去什么，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-e1e7961ab90c556e
+    - ev-272e617436f1c171
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Deepslate 官网（deepslate.eu）的产品页与定价页更新，核验其具体语音场景、交付结果、收费方式与客户案例。
+  market: ''
+  job: 企业客服或电话接待人员在接听保险理赔、银行咨询、医疗预约等来电时，需要理解多轮对话、完成身份或多步核验，并把诉求转成工单或后续动作。
+  job_en: Enterprise support or phone-reception staff handling calls about insurance claims, banking inquiries
+    or healthcare scheduling must follow multi-turn dialogue, complete identity or multi-step verification,
+    and turn the request into a ticket or follow-up action.
+  pain: 公开材料只说明产品能处理多轮对话与多步核验，未披露任何用户痛点、抱怨或旧流程负担，无法确认痛点是否真实存在。
+  pain_en: Public materials only state that the product handles multi-turn dialogue and multi-step verification;
+    no user pain, complaint or legacy-process burden is disclosed, so the pain cannot be confirmed as
+    real.
+  current_alternative: 公开材料未披露其替代的旧做法，只能从行业常识推断为人工坐席、传统 IVR 语音菜单或外包呼叫中心。
+  current_alternative_en: Public materials do not disclose the legacy practice it replaces; only industry
+    common sense suggests human agents, traditional IVR menus or outsourced call centers.
+  usage_reason: 推断：若其语音模型能直接接听并完成多步核验，可省去人工记录与转接环节，因此电话量大的欧洲企业可能采用；但材料未给出产品细节、客户或定价，无法确认。
+  usage_reason_en: 'Inference: if its voice model answers calls and completes multi-step verification
+    directly, it removes manual logging and transfer steps, so European firms with high call volume may
+    adopt it; but no product detail, customers or pricing are given, so this cannot be confirmed.'

@@ -229,3 +229,53 @@
     after each, so the user does not have to debug a whole generation at the end but can localize failures
     at phase boundaries; reversible install lowers trial cost. Public materials do not yet show which
     users choose it and when.'
+- id: req-full-astra-flash-orchestrator-2026-10-02
+  project_slug: astra-flash-orchestrator
+  level: full
+  reviewed_at: '2026-10-02T02:12:42Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是本地 Codex 用户把多步编码任务交给模型时的过程失控问题：计划、执行、验证混在一步，出错难定位与回退。公开仓库说明其以分阶段计划、审查、验证和可回滚安装交付，旧替代是一次性提示后人工拆分与排查。痛点强度属工作流结构推理，尚无用户抱怨或返工数据佐证。
+    evidence_ids:
+    - ev-8a681549d616f990
+    - ev-50e0ac21c0588c80
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 690 增至 725，说明开发者持续关注并把它加入工具清单；但公开材料没有 issue、discussion 或评价说明谁在何种场景长期使用，因此只能确认关注度，不能确认已进入稳定工作流。
+    evidence_ids:
+    - ev-8a681549d616f990
+    - ev-32b00e94a78d58ed
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费客户或采购记录，买方与收入路径无法核验；按开源惯例可能靠赞助或托管服务变现，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8a681549d616f990
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述有验证步骤与可回滚安装，但公开材料没有部署文档、复现记录或人工确认边界的说明，交付能否稳定发生、安全边界如何划定仍缺可核对证据。
+    evidence_ids:
+    - ev-50e0ac21c0588c80
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有开发者公开描述实际部署场景、替代的旧流程以及验证与回滚是否按说明发生。
+  market: ''
+  job: 开发者在本地 Codex 环境里接入该仓库后，把一项编码任务交给它：Astra 先拆出分阶段计划并做审查，DeepSeek Flash 按阶段写代码，最后产出带验证步骤的结果，安装过程可回滚。
+  job_en: 'A developer wires this repo into a local Codex environment, hands it a coding task: Astra first
+    breaks out a phased plan and reviews it, DeepSeek Flash writes code phase by phase, and the run ends
+    with verification steps and a reversible install.'
+  pain: 公开材料只说明它做分阶段规划、审查与验证，未提供用户抱怨、失败案例或返工代价，因此痛点强度属于工作流结构推理：单模型一次性生成代码时，计划、执行与验证混在一步，出错后难以定位和回退。
+  pain_en: 'Public materials only describe phased planning, review and verification; no user complaints,
+    failure cases or rework costs are given, so pain intensity is a workflow-structure inference: single-pass
+    model generation mixes planning, execution and verification, making errors hard to localize or roll
+    back.'
+  current_alternative: 旧做法是开发者直接在 Codex 或同类编码助手里一次性下指令，自己拆任务、自己检查输出、自己处理失败后的回退；公开材料未说明它具体替代了哪套工具链。
+  current_alternative_en: The old way is to prompt Codex or a similar coding assistant in one shot, splitting
+    tasks, checking output and handling rollback manually; public materials do not say which toolchain
+    it replaces.
+  usage_reason: 推断：相较一次性提示，它把任务拆成分阶段计划并插入审查与验证步骤，还提供可回滚安装，减少开发者手工拆分任务和事后排查失败步骤的负担；因此在意过程可控与可回退的本地 Codex
+    用户会在处理多步编码任务时选择它。
+  usage_reason_en: 'Inference: versus one-shot prompting, it splits work into phased plans with review
+    and verification steps and offers a reversible install, reducing the burden of manually decomposing
+    tasks and tracing failed steps; local Codex users who care about controllable, rollback-able runs
+    would pick it for multi-step coding tasks.'

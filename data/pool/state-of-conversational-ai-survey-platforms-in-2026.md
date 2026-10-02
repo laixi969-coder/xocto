@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHbXZsbHVpZFho
 summary: State of Conversational AI Survey Platforms in 2026 G2 Learning Hub
 first_seen: '2026-09-30T22:40:27Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

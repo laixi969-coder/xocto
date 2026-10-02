@@ -1,6 +1,6 @@
 ---
 slug: ai-cybersecurity-startup-armadin-valued-at-over-25-billion-a
-name: AI cybersecurity startup Armadin valued at over $2.5 billion after new funding round
+name: Armadin
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRVNRVnY0bEVH
 summary: AI cybersecurity startup Armadin valued at over $2.5 billion after new funding round Reuters
 first_seen: '2026-10-01T19:34:19Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# AI cybersecurity startup Armadin valued at over $2.5 billion after new funding round
+# Armadin
 
 AI cybersecurity startup Armadin valued at over $2.5 billion after new funding round Reuters
 

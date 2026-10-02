@@ -1,0 +1,83 @@
+- id: req-initial-hostile-threat-warning-startup-osavul-raises-85m-2026-10-02
+  project_slug: hostile-threat-warning-startup-osavul-raises-85m
+  level: initial
+  reviewed_at: '2026-10-02T01:42:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决敌对威胁预警这一需求，但公开材料未说明痛点强度、旧做法与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-b7f82e9ebf322b95
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息，没有客户采用、部署或持续使用的公开证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-b7f82e9ebf322b95
+  - gate: model
+    status: insufficient
+    reason: 买方名义上是政府与北约，但公开材料未披露定价、采购方式或收入路径，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-b7f82e9ebf322b95
+  - gate: truth
+    status: insufficient
+    reason: 无法核对预警准确率、误报处理与人工复核边界，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-b7f82e9ebf322b95
+  next_validation: 收集 Osavul 官方产品页或部署文档，确认其威胁预警的输入数据、输出交付物与人工复核流程。
+  market: ''
+  job: 政府与北约信息分析人员监测公开信息渠道，在敌对信息行动升级前识别并上报威胁。
+  job_en: Government and NATO information analysts monitor open information channels to identify and report
+    hostile information operations before they escalate.
+  pain: 公开材料未说明现有做法哪里难受、误报或漏报的代价，也未给出用户抱怨或替代行为的证据。
+  pain_en: Public material does not describe where the current practice hurts, the cost of false positives
+    or misses, or any user complaint or workaround evidence.
+  current_alternative: 公开材料未说明此前由谁、用什么工具完成威胁预警，无法确认旧流程。
+  current_alternative_en: Public material does not say who or what tool previously handled threat warning,
+    so the old workflow cannot be confirmed.
+  usage_reason: 除融资与成立背景外，公开材料没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它（推断）。
+  usage_reason_en: Beyond funding and founding context, public material does not say which step it removes
+    versus the old practice or which checkable result it improves, so why users would choose it cannot
+    be explained (inference).
+- id: req-full-hostile-threat-warning-startup-osavul-raises-85m-2026-10-02
+  project_slug: hostile-threat-warning-startup-osavul-raises-85m
+  level: full
+  reviewed_at: '2026-10-02T02:14:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决敌对威胁预警这一需求，但公开材料未说明痛点强度、旧做法与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-b7f82e9ebf322b95
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Osavul 官方产品页或部署文档，确认其威胁预警的输入数据、输出交付物与人工复核流程。
+  market: ''
+  job: 政府与北约信息分析人员在敌对信息行动升级前，监测公开信息渠道并识别、上报威胁；但公开材料未说明由谁在哪个工作节点打开、AI 接收哪些材料、输出什么交付物。
+  job_en: Government and NATO information analysts monitor open information channels to identify and report
+    hostile information operations before they escalate; however, public material does not specify who
+    opens it at which work step, what material the AI ingests, or what deliverable it outputs.
+  pain: 公开材料只称帮助北约和政府“在威胁升级前发现威胁”，未说明现有做法哪里难受、误报或漏报的代价，也没有用户抱怨或替代行为证据。
+  pain_en: Public material only says it helps NATO and governments 'detect hostile threats before they
+    escalate'; it does not describe where the current practice hurts, the cost of false positives or misses,
+    or any user complaint or workaround evidence.
+  current_alternative: 公开材料未说明此前由谁、用什么工具或流程完成威胁预警，旧替代方式无法确认。
+  current_alternative_en: Public material does not say who or what tool or process previously handled
+    threat warning, so the old alternative cannot be confirmed.
+  usage_reason: 除融资与成立背景外，公开材料没有说明它相较旧做法减少哪一步负担或改善哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它（推断）。
+  usage_reason_en: Beyond funding and founding context, public material does not say which step it removes
+    versus the old practice or which checkable result it improves, so which users would choose it under
+    what circumstances cannot be explained (inference).

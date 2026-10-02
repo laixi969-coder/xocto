@@ -1,0 +1,89 @@
+- id: req-initial-how-uniopen-customized-amazon-nova-to-their-retail-moderatio-2026-10-02
+  project_slug: how-uniopen-customized-amazon-nova-to-their-retail-moderatio
+  level: initial
+  reviewed_at: '2026-10-02T01:42:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决平台审核口径与通用模型不一致导致的误判与人工兜底问题，旧做法与不采用的后果可还原，属工作流推理。
+    evidence_ids:
+    - ev-72a158c2838f8693
+  - gate: consensus
+    status: insufficient
+    reason: 只有一方公开的部署说明，没有其他平台采用或行业共识证据，卡在场景可复制性这一环。
+    evidence_ids:
+    - ev-72a158c2838f8693
+  - gate: model
+    status: insufficient
+    reason: 买方是平台自身，属内部自建投入，公开材料未披露外部付费或定价，付费路径为判断而非已验证事实。
+    evidence_ids:
+    - ev-72a158c2838f8693
+  - gate: truth
+    status: insufficient
+    reason: 未披露审核准确率、误判率与人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-72a158c2838f8693
+  next_validation: 收集 uniopen 或 AWS 后续公开材料，确认该审核模型的评测指标、人工复核比例与是否对外提供同类服务。
+  market: ''
+  job: 零售平台内容审核团队按平台政策审核商品与用户内容，需要把通用模型调成符合自身审核口径的判定流程。
+  job_en: Retail platform content-moderation teams review listings and user content against platform policy
+    and need a general model tuned to their own moderation criteria.
+  pain: 平台审核口径与通用模型默认口径不一致，直接调用通用接口会带来误判，需要额外人工兜底；这是从审核任务结构推出的判断。
+  pain_en: Platform moderation criteria differ from a general model's defaults, so calling a generic API
+    directly produces misjudgments that need extra human fallback; this is inferred from the moderation
+    task structure.
+  current_alternative: 此前由审核团队按政策人工审核，或用规则与通用模型接口加人工复核。
+  current_alternative_en: Previously handled by moderation teams reviewing against policy manually, or
+    by rules plus generic model APIs with human review.
+  usage_reason: 相较直接调用通用审核接口，它把平台自有政策通过监督微调写进模型，并用业务评测与发布闸门控制上线质量，减少通用口径误判带来的返工；有自有审核口径的零售平台会在误判成本高时选择它（推断）。
+  usage_reason_en: Compared with calling a generic moderation API, it writes the platform's own policy
+    into the model via supervised fine-tuning and gates release on business evaluation, cutting rework
+    from generic-criteria misjudgments; retail platforms with their own criteria would choose it when
+    misjudgment costs are high (inference).
+- id: req-full-how-uniopen-customized-amazon-nova-to-their-retail-moderatio-2026-10-02
+  project_slug: how-uniopen-customized-amazon-nova-to-their-retail-moderatio
+  level: full
+  reviewed_at: '2026-10-02T02:14:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决平台审核口径与通用模型不一致导致的误判与人工兜底问题，旧做法与不采用的后果可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-72a158c2838f8693
+  - gate: consensus
+    status: insufficient
+    reason: 只有一方公开的部署说明，没有其他平台采用或行业共识证据，卡在场景可复制性这一环。
+    evidence_ids:
+    - ev-72a158c2838f8693
+  - gate: model
+    status: insufficient
+    reason: 买方是平台自身，属内部自建投入，公开材料未披露外部付费或定价，付费路径为判断而非已验证事实。
+    evidence_ids:
+    - ev-72a158c2838f8693
+  - gate: truth
+    status: insufficient
+    reason: 未披露审核准确率、误判率与人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-72a158c2838f8693
+  next_validation: 追踪 AWS Machine Learning Blog 与 uniopen 官方渠道后续公开材料，确认该审核模型的评测指标、人工复核比例及是否对外提供同类服务。
+  market: ''
+  job: 零售平台的内容审核团队在商品上架与用户内容发布环节，处理商品标题、描述、图片与用户评论等材料，需要按平台自有政策判定是否放行，并把通用模型调成符合自身审核口径的判定流程。
+  job_en: A retail platform's content-moderation team handles listings, titles, descriptions, images and
+    user comments at publish time, deciding release against its own policy and tuning a general model
+    into a judgment flow matching its own moderation criteria.
+  pain: 平台审核口径与通用模型默认口径不一致，直接调用通用接口会产生误判，需要额外人工兜底；这是从审核任务结构推出的判断，公开材料未给出误判率数据。
+  pain_en: Platform moderation criteria diverge from a general model's defaults, so calling a generic
+    API directly yields misjudgments that require extra human fallback; this is inferred from the moderation
+    task structure, with no published misjudgment-rate data.
+  current_alternative: 此前由审核团队按政策人工审核，或用规则加通用模型接口再配人工复核。
+  current_alternative_en: Previously handled by moderation teams reviewing against policy manually, or
+    by rules plus generic model APIs with human review layered on top.
+  usage_reason: 相较直接调用通用审核接口，它把平台自有政策通过 SageMaker AI 上的监督微调写进模型，并用业务评测与发布闸门控制上线质量，减少通用口径误判带来的返工；有自有审核口径、误判成本高的零售平台会在这种情况下选择它（推断）。
+  usage_reason_en: Compared with calling a generic moderation API, it writes the platform's own policy
+    into the model via supervised fine-tuning in SageMaker AI and gates release on business evaluation,
+    cutting rework from generic-criteria misjudgments; retail platforms with their own criteria and high
+    misjudgment costs would choose it in that situation (inference).

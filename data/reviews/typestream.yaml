@@ -1,0 +1,81 @@
+- id: req-initial-typestream-2026-10-02
+  project_slug: typestream
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有“像人一样打字而不用碰键盘”一句，解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-2d7e7d6b061b67b7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有任何采用或场景共识材料。
+    evidence_ids:
+    - ev-2d7e7d6b061b67b7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids:
+    - ev-2d7e7d6b061b67b7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断输入结果是否确定交付及人工确认边界。
+    evidence_ids:
+    - ev-2d7e7d6b061b67b7
+  next_validation: 收集该产品的官方说明或演示，确认它支持哪些应用、输入方式与输出交付形式。
+  market: ''
+  job: 需要在不使用键盘的情况下完成文字输入的用户，希望把口述内容变成实际键入的文字，但候选资料未交代具体是谁、在什么情况下、处理什么材料、要完成什么任务。
+  job_en: A user who needs to produce typed text without using a keyboard wants spoken content turned
+    into actual keystrokes, but the candidate material does not state who, in what situation, with what
+    material, or to what end.
+  pain: 候选资料未给出痛点描述，无法判断用户原来在输入这一步遇到什么具体困难。
+  pain_en: The candidate material provides no pain description, so the specific difficulty users previously
+    had at the input step cannot be determined.
+  current_alternative: 未提供，无法确认用户此前是用系统听写、语音转写还是人工代打。
+  current_alternative_en: Not provided; whether users previously relied on system dictation, transcription,
+    or a human typist cannot be confirmed.
+  usage_reason: 资料只有一句功能口号，没有说明它相较旧输入方式减少哪一步负担或改善哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: The material contains only a one-line slogan, with no step it removes versus older
+    input methods and no checkable result, so it cannot explain why a user would choose it.
+- id: req-full-typestream-2026-10-02
+  project_slug: typestream
+  level: full
+  reviewed_at: '2026-10-02T02:16:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有“像人一样打字而不用碰键盘”一句，解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-2d7e7d6b061b67b7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Typestream 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 候选资料只说明用户想在不碰键盘的情况下完成文字输入，但未交代是谁、在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The candidate material only says a user wants to produce typed text without touching a keyboard,
+    but does not state who, in what situation, with what material, or to what end, so no concrete job
+    can be reconstructed.
+  pain: 公开材料未给出任何痛点描述，无法判断用户在输入这一步原来遇到什么具体困难，也无法判断该困难是否刚性。
+  pain_en: The public material gives no pain description, so the specific difficulty users previously
+    had at the input step, and whether it is rigid, cannot be determined.
+  current_alternative: 未提供，无法确认用户此前是用系统听写、语音转写、人工代打还是其他方式完成输入。
+  current_alternative_en: Not provided; whether users previously relied on system dictation, transcription,
+    a human typist, or another method cannot be confirmed.
+  usage_reason: 资料只有一句功能口号，没有说明它相较旧输入方式减少哪一步负担或改善哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: The material contains only a one-line slogan, with no step it removes versus older
+    input methods and no checkable result, so it cannot explain which users would choose it and when.

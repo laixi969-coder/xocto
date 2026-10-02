@@ -316,3 +316,45 @@
     through shared encrypted memory, Reach agent-to-agent messaging, and handoff/cross-vendor review skills,
     so developers running two agents who need cross-review would choose it in a local collaboration setting;
     this is inferred from product capability and task structure, not confirmed by user feedback.'
+- id: req-full-sno-station-2026-10-02
+  project_slug: sno-station
+  level: full
+  reviewed_at: '2026-10-02T02:15:47Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多代理编码时上下文割裂与交接摩擦，但公开证据里没有一条用户抱怨、workaround 或案例，痛点只能从功能反推，无法确认刚性，价值关不成立。
+    evidence_ids:
+    - ev-081c7371355cc3ae
+    - ev-b4fd5d3ea6a65e19
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sno Station 官方仓库的 README、release 与 issue/discussion，确认是否有开发者描述实际多代理协作流程、替代的旧做法与安装部署记录。
+  market: ''
+  job: 开发者在本地同时运行 Claude Code 与 Codex 等多个编码代理时，需要让它们共享上下文、互相传递任务并在交接与跨厂商评审环节协作，最终拿到一次可用的多代理编码会话结果。
+  job_en: A developer running multiple coding agents (Claude Code, Codex) locally needs them to share
+    context, pass tasks to each other, and collaborate on handoff and cross-vendor review, ending with
+    one usable multi-agent coding session.
+  pain: 公开证据中没有出现任何用户对多代理上下文割裂、重复粘贴、交接丢失或评审不可信的抱怨、workaround 或案例，痛点只能从产品功能描述反推，无法确认其真实性与刚性。
+  pain_en: No public evidence shows users complaining about split agent context, repeated pasting, lost
+    handoffs, or untrustworthy cross-vendor review; the pain is only inferred from the feature description
+    and cannot be confirmed as real or acute.
+  current_alternative: 公开材料未说明开发者今天如何完成多代理协作，可能的手工复制粘贴、单代理串行使用或自建脚本均无证据支持。
+  current_alternative_en: Public materials do not show how developers handle multi-agent collaboration
+    today; manual copy-paste, serial single-agent use, or self-built scripts are all unsupported by evidence.
+  usage_reason: 推断：若共享加密记忆与 agent 间消息确实减少手工搬运上下文这一步，同时使用两个代理的开发者可能因此选择它；但缺少用户反馈或案例，无法确认这一因果。
+  usage_reason_en: 'Inference: if shared encrypted memory and agent-to-agent messaging really remove the
+    manual context-shuttling step, developers already running two agents might choose it; without user
+    feedback or cases this causal link is unconfirmed.'

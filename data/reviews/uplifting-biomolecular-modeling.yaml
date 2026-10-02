@@ -285,3 +285,45 @@
   usage_reason_en: The star count rising from 296 to 316 reflects attention only and does not explain
     why users choose it; public materials lack user feedback or customer cases, so it cannot be shown
     which step it removes or which verifiable result it improves versus the prior approach.
+- id: req-full-uplifting-biomolecular-modeling-2026-10-02
+  project_slug: uplifting-biomolecular-modeling
+  level: full
+  reviewed_at: '2026-10-02T02:16:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有仓库收藏数变化，未说明谁在什么工作节点处理什么材料、要完成什么任务，也写不出具体痛点与不解决的后果，无法还原旧流程与交付闭环。
+    evidence_ids:
+    - ev-b76e6c16c65f37f3
+    - ev-99fb8373c3f611c2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、文档、issue 与 discussion，确认具体输入、执行动作、交付物及是否有真实用户描述其替代的旧流程。
+  market: ''
+  job: 公开材料仅显示这是 Anthropic 发布的一个生物分子建模相关仓库，未说明具体由谁在什么工作节点打开、AI 接收什么输入、执行什么动作、产出什么交付，因此无法写出可核验的使用场景。
+  job_en: Public materials only show this is an Anthropic-published repository related to biomolecular
+    modeling; they do not state who opens it at which workflow step, what input the AI receives, what
+    action it performs, or what deliverable it produces, so no verifiable job can be written.
+  pain: 公开材料未说明目标用户在生物分子建模或药物发现计算中遇到的具体痛点、发生频率或不解决的后果，无法判断痛点是否刚性。
+  pain_en: Public materials do not describe the specific pain, frequency, or consequence of leaving it
+    unsolved for users in biomolecular modeling or computational drug discovery, so the rigidity of the
+    pain cannot be judged.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明该仓库替代了哪一步旧流程或哪类工具。
+  current_alternative_en: Public materials do not show how users currently complete this work, nor which
+    prior step or tool category the repository replaces.
+  usage_reason: 现有证据只有仓库收藏数从 298 增至 319 的关注度变化，属于规模信号，不能解释用户为何选择它；缺少用户反馈、案例或可复现的输入—动作—交付闭环，无法给出使用理由。
+  usage_reason_en: The only evidence is star growth from 298 to 319, a scale signal that cannot explain
+    why users choose it; without user feedback, cases, or a reproducible input-action-deliverable loop,
+    no usage reason can be given.

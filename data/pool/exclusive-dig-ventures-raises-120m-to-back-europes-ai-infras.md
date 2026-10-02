@@ -1,6 +1,6 @@
 ---
 slug: exclusive-dig-ventures-raises-120m-to-back-europes-ai-infras
-name: 'Exclusive: Dig Ventures raises $120m to back Europe’s AI infrastructure startups'
+name: Dig Ventures
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/dig-ventures-fund-europe-ai-infrastruc
 summary: ''
 first_seen: '2026-10-01T05:00:40Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Exclusive: Dig Ventures raises $120m to back Europe’s AI infrastructure startups
+# Dig Ventures
 
 _（源没给简介）_
 

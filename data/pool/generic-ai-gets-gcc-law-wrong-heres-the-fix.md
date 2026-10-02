@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNaGRab20waWVI
 summary: Generic AI gets GCC law wrong. Here's the fix Gulf News
 first_seen: '2026-10-01T04:00:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

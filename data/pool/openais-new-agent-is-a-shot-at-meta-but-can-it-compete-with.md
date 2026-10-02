@@ -1,11 +1,13 @@
 ---
 slug: openais-new-agent-is-a-shot-at-meta-but-can-it-compete-with
-name: OpenAI’s new agent is a shot at Meta — but can it compete with free?
+name: Dots
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 在 DevDay 发布智能体 Dots，由 GPT-6 Astra 驱动，对标 Meta 的 Muse。候选材料未给出具体任务流程、交付物或定价，具体能力与使用方式仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI announced the agent Dots at DevDay, powered by GPT-6 Astra and aimed at Meta's Muse.
+  The candidate material gives no concrete task flow, deliverable or pricing, so its actual capabilities
+  remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +26,7 @@ summary: At OpenAI's annual DevDay conference, the company pulled out all the st
   by the cool agents that we […]
 first_seen: '2026-10-01T14:36:50Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI’s new agent is a shot at Meta — but can it compete with free?
+# Dots
 
 At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a "real-deal AI" agent powered by GPT-6 Astra, "inspired by the cool agents that we […]
 

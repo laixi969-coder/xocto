@@ -355,3 +355,59 @@
     letting developers skip the from-scratch build and version-alignment step and modify from there; therefore
     developers already on Expo SDK 57 who need to quickly validate a voice-conversation form factor would
     choose it at the prototype stage. Stars rising from 96 to 126 only shows growing attention'
+- id: req-full-expo-gpt-live-2026-10-02
+  project_slug: expo-gpt-live
+  level: full
+  reviewed_at: '2026-10-02T02:13:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动端开发者给 Expo App 加实时语音对话的需求，痛点在采集、流式传输、打断与状态同步这些底层环节需逐个试错；旧做法是自己拼装或拼凑零散示例。仓库把 Expo SDK
+      57 骨架与 GPT-Live 1、AI Elements Persona 接好，克隆即得可运行示例，交付边界可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-54b620a7f3381900
+    - ev-ecd8277bd883e932
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 128 增至 135，说明英文生态开发者持续关注该示例，但公开材料没有 issue、discussion 或评价显示它被真正接入项目并重复使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-54b620a7f3381900
+    - ev-ecd8277bd883e932
+  - gate: model
+    status: insufficient
+    reason: 这是开源示例仓库，公开材料未给出定价、付费主体或商业路径；若存在变现，可能来自赞助、咨询或引流到付费服务，但均属判断而非已验证事实。
+    evidence_ids:
+    - ev-54b620a7f3381900
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明仓库把 Expo SDK 57 骨架与 GPT-Live 1、AI Elements Persona 接在一起，未提供部署文档、可复现运行结果或安全与人工边界说明，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-54b620a7f3381900
+    - ev-a6b22d6795be7fe0
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认是否有开发者报告实际接入 Expo 项目、替代了自建语音链路，以及示例的可复用边界。
+  market: ''
+  job: 移动端开发者在 Expo/React Native 项目里要给 App 加实时语音对话时，需要处理麦克风采集、实时音频流传输、对话状态与打断管理，并把这些接到 GPT-Live 1 与 AI
+    Elements Persona 上，最终交付一个可运行的语音对话示例工程。
+  job_en: A mobile developer building an Expo/React Native app who needs real-time voice conversation
+    must handle microphone capture, streaming audio transport, dialogue-state and interruption management,
+    and wire these to GPT-Live 1 and AI Elements Persona, ending with a runnable voice-dialogue sample
+    project.
+  pain: 实时语音对话的难点不在 UI，而在采集、流式传输、打断与状态同步这些底层环节，开发者要逐个试错才能跑通；公开材料只说明仓库把 Expo SDK 57 骨架与 GPT-Live 1、AI Elements
+    Persona 接在一起，尚未给出用户抱怨、失败代价或频率的直接证据，痛点强度属工作流结构推理。
+  pain_en: The hard part of real-time voice is not UI but capture, streaming transport, interruption and
+    state sync, which developers must debug piece by piece; public materials only show the repo wires
+    an Expo SDK 57 skeleton to GPT-Live 1 and AI Elements Persona, with no direct user complaint, failure
+    cost or frequency evidence, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是开发者自己拼装语音采集、实时传输与对话状态管理，或参考零散的 Expo 音频示例与各家实时语音 API 文档，从零搭一个可运行骨架。
+  current_alternative_en: The old path is assembling audio capture, streaming transport and dialogue-state
+    management by hand, or stitching together scattered Expo audio samples and realtime voice API docs
+    to build a runnable skeleton from scratch.
+  usage_reason: 推断：相较从零拼装，该仓库把 Expo SDK 57 语音应用骨架与 GPT-Live 1、AI Elements Persona 预先接好，开发者克隆后直接得到可运行的语音对话示例，省去逐层调试采集与流式传输的起步步骤；因此正在做
+    Expo 语音功能、需要先跑通端到端链路的移动端开发者会在原型阶段选择它。仓库收藏从 128 增至 135 只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus building from scratch, the repo pre-wires an Expo SDK 57 voice app
+    skeleton to GPT-Live 1 and AI Elements Persona, so a developer who clones it gets a runnable voice-dialogue
+    sample and skips the initial layer-by-layer debugging of capture and streaming; mobile developers
+    prototyping Expo voice features who need an end-to-end path working first would pick it. Stars rising
+    from 128 to 135 indicate attention only, not sustained use.'

@@ -187,3 +187,60 @@
     cross-host agent help-request routing to the Tailscale network, removing the step of maintaining forwarding
     logic; developers who self-host and run agents across multiple machines would choose it when setting
     up multi-agent collaboration.'
+- id: req-full-agent-tincan-2026-10-02
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-02T02:12:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 跨主机协作时缺少互访通道的问题：开发者现在要手工暴露端口或自建代理，不解决的后果是跨机调用脆弱、鉴权重复建设。产品把求助请求跑在已有 Tailscale 私有网络上，交付路径可确定；这是工作流结构推理，公开材料尚无用户痛点原话。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+    - ev-c45746fc3600ba5c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 135 增至 185，说明开发者社区持续注意到该项目，但收藏与关注只属规模信号，不能证明目标用户已把它留在跨机 agent 工作流里；缺少 issue、discussion
+      或部署案例说明真实使用场景。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+    - ev-0b66afd904350b13
+    - ev-d1302bed2f3e618e
+    - ev-c45746fc3600ba5c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺通过 Tailscale 转发 agent 求助，但公开材料未说明交付是否确定性发生、失败重试与人工确认边界如何；缺少部署文档与可复现实测，无法核验安全与人工边界。
+    evidence_ids:
+    - ev-91d5d9b33400b9c3
+    - ev-c45746fc3600ba5c
+  next_validation: 追踪 agent-tincan 仓库的 README、部署文档与 issue/discussion，确认是否有开发者公开描述跨机 agent 求助的实际部署场景与替代掉的旧流程。
+  market: ''
+  job: 开发者在自建或混合部署多台机器上运行多个 AI agent 时，需要让某个 agent 把自身无法完成的子任务作为求助请求发给另一台机器上的 agent，并拿到返回结果，从而把分散在不同主机上的
+    agent 串成一条可协作的调用链。
+  job_en: Developers running multiple AI agents across self-hosted or hybrid machines need one agent to
+    send a sub-task it cannot complete as a help request to an agent on another host and receive the result,
+    chaining agents scattered across hosts into one collaborative call path.
+  pain: 多 agent 分散在不同主机、不同网络位置时，agent 之间没有现成的互访通道；开发者只能手工暴露端口、配置反向代理或把请求绕经公网，跨机调用因此变得脆弱且难以维护。公开材料只给出产品定位与仓库关注度，未提供用户抱怨或故障记录，因此痛点强度属于工作流结构推理。
+  pain_en: When agents live on different hosts and network locations, there is no ready channel between
+    them; developers must manually expose ports, configure reverse proxies, or route requests over the
+    public internet, making cross-host calls brittle and hard to maintain. Public materials give only
+    the product positioning and repo attention, not user complaints or incident records, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 旧做法是自行暴露端口、写反向代理或 VPN 配置，或把 agent 调用绕经公网端点；这些方式需要开发者自己处理网络可达性与鉴权，且与 Tailscale 已有的私有网络能力重复建设。
+  current_alternative_en: The old approach is to expose ports manually, write reverse-proxy or VPN configuration,
+    or route agent calls through public endpoints; these require developers to handle reachability and
+    auth themselves and duplicate network capability Tailscale already provides.
+  usage_reason: 推断：相较手工暴露端口或自建代理，它把 agent 间求助直接跑在用户已有的 Tailscale 私有网络上，省去单独配置公网入口和鉴权这一层，因此已经在用 Tailscale
+    管理多机、且需要 agent 跨机协作的开发者会在自建或混合部署场景下选择它。公开材料未提供用户反馈，此因果为基于产品能力与旧流程的结构推理。
+  usage_reason_en: 'Inference: compared with manually exposing ports or building a proxy, it runs agent-to-agent
+    help requests directly over the user''s existing Tailscale private network, removing the separate
+    public-entry and auth layer, so developers already using Tailscale across machines and needing cross-host
+    agent collaboration would choose it in self-hosted or hybrid setups. Public materials provide no user
+    feedback; this causal claim is a structural inference from product capability and '

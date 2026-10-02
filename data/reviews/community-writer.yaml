@@ -1,0 +1,88 @@
+- id: req-initial-community-writer-2026-10-02
+  project_slug: community-writer
+  level: initial
+  reviewed_at: '2026-10-02T01:41:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是社区注释起草这一具体任务，痛点存在，但公开材料未说明输入材料、输出规范与人工确认边界，价值结构无法完整还原。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 1 个星标、1 个复刻，无用户评价、无采用记录，无法判断贡献者是否真的会把它放进写作流程。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或部署方式；社区注释属平台志愿场景，付费方可能是平台或机构，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  - gate: truth
+    status: insufficient
+    reason: 无法核验草稿是否真能通过社区投票，也未见人工复核与安全边界的说明，交付确定性未知。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  next_validation: 收集该仓库的 README、提交记录与 issue/discussion，确认其输入材料格式、输出注释规范以及是否有人报告实际提交结果。
+  market: ''
+  job: 社区注释贡献者在看到一条被标记为具有误导性的帖子时，需要依据平台提供的来源材料写出一条符合规范的背景注释并提交。
+  job_en: A Community Notes contributor, seeing a post flagged as potentially misleading, must write a
+    compliant background note from platform-provided source material and submit it.
+  pain: 注释写作有格式与引用要求，志愿者需要反复查证和改写，单条耗时且容易因不合规被投票否决。
+  pain_en: Note writing has formatting and citation requirements, so volunteers repeatedly verify and
+    rewrite, spending time per note and risking rejection by vote for non-compliance.
+  current_alternative: 贡献者目前主要靠人工阅读来源、手写注释，或使用通用聊天助手起草后再自行改写。
+  current_alternative_en: Contributors currently read sources and write notes by hand, or draft with a
+    general chat assistant and then rewrite it themselves.
+  usage_reason: 推断：若该工具能直接读取平台来源材料并输出符合注释规范的草稿，贡献者可省去从零组织引用与措辞的一步，因此高频贡献者可能尝试；但公开材料未给出输入格式、评分反馈或任何使用记录，无法确认它是否真的减少了返工。
+  usage_reason_en: 'Inference: if the tool can read platform source material and output a note-format
+    draft, contributors skip the step of assembling citations and wording from scratch, so high-frequency
+    contributors may try it; however, public material shows no input format, rating feedback or usage
+    record, so it is unconfirmed whether rework actually drops.'
+- id: req-full-community-writer-2026-10-02
+  project_slug: community-writer
+  level: full
+  reviewed_at: '2026-10-02T02:13:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社区注释贡献者按规范起草背景注释这一具体任务，痛点是格式与引用要求导致单条耗时且易被投票否决；当前替代是人工阅读来源手写或通用助手起草后改写。公开材料仅给出仓库描述，输入输出与人工确认边界未说明，价值结构属工作流推理。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 1 个星标，无用户评价、无采用记录，无法判断贡献者是否真的会把它放进写作流程；关注度不等于持续采用。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或部署方式；社区注释属平台志愿场景，付费方可能是平台或机构，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  - gate: truth
+    status: insufficient
+    reason: 无法核验草稿是否真能通过社区投票，也未见人工复核与安全边界的说明，交付确定性未知。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  next_validation: 收集该仓库的 README、提交记录与 issue/discussion，确认其输入材料格式、输出注释规范以及是否有人报告实际提交结果。
+  market: ''
+  job: 社区注释贡献者在看到一条被平台标记为可能误导的帖子时，需要依据平台提供的来源材料写出一条符合引用与格式规范的背景注释并提交，供其他贡献者投票。
+  job_en: A Community Notes contributor, seeing a post flagged as potentially misleading, must write a
+    compliant background note from platform-provided source material and submit it for other contributors
+    to vote on.
+  pain: 注释写作有格式与引用要求，志愿者需反复查证来源、组织措辞，单条耗时且容易因不合规被投票否决，导致贡献意愿下降。
+  pain_en: Note writing has formatting and citation requirements, so volunteers repeatedly verify sources
+    and reword, spending time per note and risking rejection by vote for non-compliance, which lowers
+    willingness to contribute.
+  current_alternative: 贡献者目前主要靠人工阅读来源、手写注释，或使用通用聊天助手起草后再自行改写。
+  current_alternative_en: Contributors currently read sources and write notes by hand, or draft with a
+    general chat assistant and then rewrite it themselves.
+  usage_reason: 推断：若该工具能直接读取平台来源材料并输出符合注释规范的草稿，贡献者可省去从零组织引用与措辞的一步，因此高频贡献者会在批量处理待注释帖子时选择它；但公开材料未给出输入格式、评分反馈或任何使用记录，无法确认它是否真的减少了返工。
+  usage_reason_en: 'Inference: if the tool can read platform source material and output a note-format
+    draft, contributors skip the step of assembling citations and wording from scratch, so high-frequency
+    contributors may choose it when handling batches of flagged posts; however, public material shows
+    no input format, rating feedback or usage record, so it is unconfirmed whether rework actually drops.'

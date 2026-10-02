@@ -1,15 +1,13 @@
 ---
 slug: 荣耀与阿里共建垂域-ai-模型magic9落地行业领先ai能力
-name: 荣耀Magic9
+name: 荣耀 Magic9
 builder: ''
 category: ''
-summary_zh: 荣耀在2026年9月发布Magic9系列手机，与阿里共建397B参数智能体大模型，并称全系列获得“首批AI智能体手机”入网认证。它面向的是手机终端用户，把智能体能力预置进系统层，而非一个可独立订阅或采购的AI应用；具体能替用户完成哪些任务、交付什么结果，公开材料未给出细节。
+summary_zh: 这是手机厂商与云厂商联合定制端侧/垂域模型并取得入网认证的行业事件，属于平台与终端能力变化，而非独立AI应用产品。
 inspiration: ''
-summary_en: In September 2026 Honor launched the Magic9 series, co-building a 397B-parameter agent model
-  with Alibaba and claiming the lineup received China's first batch of 'AI agent phone' certifications.
-  It targets handset users by embedding agent capability into the system layer rather than offering a
-  standalone AI application that can be subscribed to or procured; public materials give no detail on
-  which tasks it completes or what it delivers.
+summary_en: This is an industry event in which a phone maker and a cloud vendor co-build a domain-specific
+  model and obtain network access certification; it is a platform and device capability shift rather than
+  a standalone AI application.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBnTWNkTHh6Q1RI
 summary: 荣耀与阿里共建垂域 AI 模型，Magic9落地行业领先AI能力 新浪财经_金融信息服务商
 first_seen: '2026-09-22T13:14:23Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -66,7 +64,7 @@ sightings:
   kind: news
 ---
 
-# 荣耀Magic9
+# 荣耀 Magic9
 
 荣耀与阿里共建垂域 AI 模型，Magic9落地行业领先AI能力 新浪财经_金融信息服务商
 

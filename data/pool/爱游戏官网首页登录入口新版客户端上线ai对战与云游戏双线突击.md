@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE11Z2xBQUdIVW9E
 summary: 爱游戏官网首页登录入口：新版客户端上线，AI对战与云游戏双线突击 eeo.com.cn
 first_seen: '2026-10-01T22:49:58Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

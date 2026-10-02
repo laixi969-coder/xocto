@@ -342,3 +342,53 @@
     a time, it chains roadmap, explanation and project tasks into one continuous delivery, removing the
     step of sequencing material and hunting for the next resource, so a self-learner who just picked a
     subject and needs an executable path would choose it at the start.'
+- id: req-full-study-mate-2026-10-02
+  project_slug: study-mate
+  level: full
+  reviewed_at: '2026-10-02T02:15:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学者的路线规划与知识点讲解需求，痛点是无人排进度、卡住无人答疑导致中断，旧做法是自行拼课程清单并零散提问。仓库自述已能还原输入（科目与进度）—动作（生成路线、讲解、项目任务）—交付（路线与讲解文本）闭环，属工作流结构推理；练习完成度仍需学习者自证。
+    evidence_ids:
+    - ev-b8c68ee4cdbd24d8
+    - ev-9cf0e6be9da26bd6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 332 升至 502，说明开发者社区持续关注，但收藏属关注度而非目标学习者持续使用；公开材料没有用户评价、复刻后的实际使用或留存证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b8c68ee4cdbd24d8
+    - ev-9cf0e6be9da26bd6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费入口或买方说明，无法判断收入来自 to C 订阅、to B 机构还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-9cf0e6be9da26bd6
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述承诺输出路线与讲解，但无部署文档、实测或 issue 说明生成质量与幻觉边界；练习是否真正完成由学习者自行确认，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-b8c68ee4cdbd24d8
+  next_validation: 追踪 Study-Mate 仓库的 README、issue 与 discussion，确认是否有用户描述实际接入的学习场景、替代掉的旧流程与生成结果反馈。
+  market: ''
+  job: 自学一门科目的学生（如备考或转行自学者）在选定科目后，需要先确定从哪学起、按什么顺序推进，再在遇到不懂的知识点时获得讲解，并动手做练习项目来检验是否学透。
+  job_en: A student self-studying a subject (e.g., exam prep or career switching) must first decide where
+    to start and in what order to progress, then get explanations at points of confusion, and finally
+    do hands-on projects to verify mastery.
+  pain: 自学最大的摩擦是路线不清与无人答疑：没有老师排进度，学习者容易在选材和顺序上反复犹豫、卡住后无人讲解而中断；公开材料只给出产品自述，未提供用户抱怨或中断率数据，痛点强度属工作流结构推理。
+  pain_en: 'The core friction of self-study is unclear sequencing and no one to ask: without a teacher
+    setting the pace, learners hesitate over materials and order, and stall when stuck with no explanation.
+    Public material only offers the product''s own description, with no user complaints or dropout data,
+    so pain intensity is a workflow-structure inference.'
+  current_alternative: 现状替代是自行搜索课程与教程、拼装学习清单，遇到问题去论坛、问答社区或通用聊天机器人零散提问，路线与讲解分散在多个来源，需要自己拼接和判断进度。
+  current_alternative_en: Today users search for courses and tutorials, assemble their own study lists,
+    and ask fragmented questions on forums, Q&A sites, or general chatbots; the route and explanations
+    are scattered across sources and must be stitched together by the learner.
+  usage_reason: 推断：相较自己拼课程清单再零散提问，它把“定路线—讲知识点—给项目任务”收进同一入口，用户输入科目与当前进度即可拿到成型的路线和讲解，省去在多个来源间比对与拼接的步骤；因此卡在起步或中途停滞的自学者会在规划与答疑节点选择它。练习是否真正完成仍需学习者自行确认。
+  usage_reason_en: 'Inference: versus assembling a course list and asking scattered questions, it consolidates
+    route-setting, explanation, and project tasks into one entry point, so a user who inputs a subject
+    and current progress gets a ready route and explanation, removing the step of comparing and stitching
+    sources; learners stuck at the start or mid-way would choose it at planning and Q&A moments. Whether
+    practice is actually completed still depends on the learner.'

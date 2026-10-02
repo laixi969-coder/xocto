@@ -320,3 +320,52 @@
     search, compare and shortlist listings, Real estate agents use an AI assistant to bulk-retrieve and
     compare Divar listings for clients Public materials do not yet explain why users choose this product
     over their existing approach.'
+- id: req-full-divar-mcp-2026-10-02
+  project_slug: divar-mcp
+  level: full
+  reviewed_at: '2026-10-02T02:13:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在 Divar 上批量检索并对比分类广告的需求，痛点是逐条翻看耗时、字段不齐、易漏房源，找房窗口有限；旧做法是站内筛选加人工抄录。产品以只读接口把检索、对比、分析交给 AI
+      助手，交付候选清单，属工作流结构推理，公开事实支持任务与替代方式。
+    evidence_ids:
+    - ev-223b7dae53063d3b
+    - ev-2c6fc35e2a9d3ee2
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 68 增至 88，说明开发者社区持续关注并有人把它接入工作流；但这是关注度与采用信号，不是目标找房用户的持续使用证据，场景共识仍属初步。
+    evidence_ids:
+    - ev-223b7dae53063d3b
+    - ev-9f8e666122523224
+  - gate: model
+    status: insufficient
+    reason: 项目为只读、无需 API key 的开源 MCP，公开材料未见定价页、付费主体或采购记录；钱可能来自开发者赞助、托管服务或中介定制，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-223b7dae53063d3b
+  - gate: truth
+    status: insufficient
+    reason: 只读设计降低了写入与安全风险，但公开材料未说明 Divar 反爬或条款限制、接口稳定性与筛选口径，交付能否长期稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-223b7dae53063d3b
+    - ev-8abd369f0ced594f
+  next_validation: 追踪该 MCP 仓库的 README、issue 与 discussion，确认是否有真实用户报告接入 Divar 找房流程、替代了何种人工翻页步骤及接口稳定性。
+  market: ''
+  job: 在伊朗 Divar 上找房或找二手货的购房者、租客与房产中介，面对大量波斯语分类广告，需要按价格、面积、位置等条件批量检索并横向对比，最终得到一份可继续联系的候选清单。
+  job_en: Home buyers, renters and agents working on Iran's Divar face large volumes of Persian-language
+    classified ads; they need to bulk-search and compare listings by price, size and location, and end
+    up with a shortlist worth contacting.
+  pain: Divar 广告量大、字段不统一、需逐条点开比对，人工翻页与记录耗时且容易漏掉符合条件或已降价的房源；找房决策窗口有限，错过一条可能意味着错过一次交易。
+  pain_en: Divar listings are numerous and inconsistently structured, so comparing them means opening
+    and recording each one by hand; this is slow and easily misses qualifying or repriced listings, and
+    in a time-limited housing search a missed ad can mean a missed deal.
+  current_alternative: 目前主要靠 Divar 站内筛选器加人工逐条翻看、复制到表格或聊天记录里比对，中介则凭经验手动整理客户候选清单。
+  current_alternative_en: Today users rely on Divar's own filters plus manual browsing, copying listings
+    into spreadsheets or chat notes to compare; agents assemble client shortlists by hand from experience.
+  usage_reason: 推断：相较人工逐条翻页，该 MCP 让 AI 助手直接调用只读接口完成检索、对比与分析，把“打开每条广告并抄录字段”这一步交给工具，用户只需审阅筛选后的候选清单；因此高频找房者或需批量出清单的中介，在需要快速横向比较大量挂牌时会选择它。
+  usage_reason_en: 'Inference: versus manual page-by-page browsing, the MCP lets an AI assistant call
+    a read-only interface to search, compare and analyze, removing the step of opening and transcribing
+    each ad so the user only reviews a shortlist; frequent searchers or agents producing bulk shortlists
+    would choose it when comparing many listings quickly.'

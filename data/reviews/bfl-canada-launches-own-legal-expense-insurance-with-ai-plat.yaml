@@ -1,0 +1,83 @@
+- id: req-initial-bfl-canada-launches-own-legal-expense-insurance-with-ai-plat-2026-10-02
+  project_slug: bfl-canada-launches-own-legal-expense-insurance-with-ai-plat
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决法律费用保险核保与理赔的人工负担，痛点方向可辨，但 AI 平台在其中的具体动作与交付结果未披露，价值链条不完整。
+    evidence_ids:
+    - ev-3b2e8fc9d9b6abcb
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条发布报道，没有投保方采用、理赔量或行业讨论证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-3b2e8fc9d9b6abcb
+  - gate: model
+    status: insufficient
+    reason: 买方应是投保企业或经纪端客户，但保费、佣金与 AI 平台收费方式均未披露，付费路径属于推断。
+    evidence_ids:
+    - ev-3b2e8fc9d9b6abcb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 在核保与理赔中的准确率、合规边界与人工复核机制，确定性交付未获材料支持。
+    evidence_ids:
+    - ev-3b2e8fc9d9b6abcb
+  next_validation: 收集 BFL Canada 官方发布的法律费用保险产品页或 AI 平台说明，确认其在核保与理赔中的具体作用。
+  market: ''
+  job: 保险经纪与投保企业的保险运营人员在客户需要法律费用保障时，处理投保与理赔材料，要完成法律费用保险的承保与赔付。
+  job_en: Insurance operations staff at a broker and its corporate clients handle application and claims
+    material when legal expense coverage is needed, to complete underwriting and payout for legal expense
+    insurance.
+  pain: 法律费用类长尾险种核保与理赔依赖人工判断，成本高、周期长；但材料未给出具体痛点或量化证据。
+  pain_en: Underwriting and claims for long-tail legal expense lines rely on manual judgment, which is
+    costly and slow; the material gives no concrete pain evidence.
+  current_alternative: 公开材料未说明此前该法律费用保障由哪家承保方、用什么流程处理，旧做法不可核验。
+  current_alternative_en: The material does not say which carrier or process handled this legal expense
+    coverage before, so the prior practice cannot be verified.
+  usage_reason: 推断：若 AI 平台能承担法律费用险的核保或理赔初筛，可减少人工逐案审阅这一步，保险运营方在长尾险种上会倾向采用；但平台功能与使用证据均缺失，无法确认。
+  usage_reason_en: 'Inference: if the AI platform handles initial underwriting or claims screening for
+    legal expense cover, it removes part of the manual case-by-case review, which operations teams would
+    favor on long-tail lines; missing platform detail and usage evidence prevent confirmation.'
+- id: req-full-bfl-canada-launches-own-legal-expense-insurance-with-ai-plat-2026-10-02
+  project_slug: bfl-canada-launches-own-legal-expense-insurance-with-ai-plat
+  level: full
+  reviewed_at: '2026-10-02T02:12:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决法律费用保险核保与理赔的人工负担，痛点方向可辨，但 AI 平台接收什么材料、执行什么动作、交付什么结果均未披露，价值链条不完整。
+    evidence_ids:
+    - ev-3b2e8fc9d9b6abcb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 BFL Canada 官网或保险行业媒体对该法律费用保险及配套 AI 平台的官方产品说明，确认其在核保与理赔中的具体动作与交付结果。
+  market: ''
+  job: BFL Canada 的保险经纪与投保企业客户在需要法律费用保障时，处理投保与理赔材料，要完成法律费用保险的承保与赔付。
+  job_en: Insurance brokers and corporate policyholders at BFL Canada handle application and claims material
+    when legal expense coverage is needed, to complete underwriting and payout for legal expense insurance.
+  pain: 公开材料只有一句发布标题，未说明法律费用险核保或理赔中具体哪一步难受、频率多高、不采用会失去什么，痛点无法还原。
+  pain_en: The public material is a single launch headline; it does not say which step of legal expense
+    underwriting or claims is painful, how frequent it is, or what is lost without it, so the pain cannot
+    be reconstructed.
+  current_alternative: 公开材料未说明此前该法律费用保障由哪家承保方、用什么流程处理，旧做法不可核验。
+  current_alternative_en: The material does not say which carrier or process handled this legal expense
+    coverage before, so the prior practice cannot be verified.
+  usage_reason: 推断：若 AI 平台承担法律费用险核保或理赔初筛，可减少人工逐案审阅这一步，保险运营方在长尾险种上会倾向采用；但平台功能、输入材料与使用证据均缺失，无法确认。
+  usage_reason_en: 'Inference: if the AI platform handles initial underwriting or claims screening for
+    legal expense cover, it removes part of the manual case-by-case review, which operations teams would
+    favor on long-tail lines; missing platform detail, input material and usage evidence prevent confirmation.'

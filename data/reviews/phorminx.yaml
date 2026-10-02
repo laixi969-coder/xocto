@@ -81,3 +81,48 @@
   usage_reason: 用户要完成的任务是：会议记录与整理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Meeting note-taking and transcription Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-phorminx-2026-10-02
+  project_slug: phorminx
+  level: full
+  reviewed_at: '2026-10-02T02:15:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议与口述内容转成可检索文字记录的需求，痛点在于云端转写需上传音频、隐私敏感用户不愿接受；本地转写与自管模型属工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-14cec8c7be46f171
+  - gate: consensus
+    status: insufficient
+    reason: 仓库记录 203 个收藏、3 个复刻，说明社区注意到它，但未见用户评价或持续使用证据，不能证明目标用户已把它纳入日常流程。
+    evidence_ids:
+    - ev-14cec8c7be46f171
+    - ev-29a4bab5d6da7cce
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是个人用户还是团队尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-14cec8c7be46f171
+  - gate: truth
+    status: insufficient
+    reason: 本地转写的准确率、格式化效果与模型管理边界缺少可复现的公开证据，无法确认交付能否稳定发生。
+    evidence_ids:
+    - ev-14cec8c7be46f171
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认本地转写的实际准确率、格式化输出样例以及是否有使用者报告在真实会议中的效果。
+  market: ''
+  job: Windows 用户在开会或口述时打开这个本地应用，把语音转成文字，可选在本地做 AI 格式化，并把结果存成可搜索的笔记，模型也由用户自己管理。
+  job_en: A Windows user in a meeting or dictating opens this local app to turn speech into text, optionally
+    format it with local AI, and store the result as searchable notes, managing the models themselves.
+  pain: 会议或口述内容需要事后整理成可检索的文字记录，而云端转写服务要求把音频上传到第三方，对隐私敏感的用户不愿接受。
+  pain_en: Meeting or dictated content must be turned into searchable text afterwards, but cloud transcription
+    services require uploading audio to a third party, which privacy-sensitive users reject.
+  current_alternative: 用户目前依赖云端会议转写服务、系统自带听写，或会后手工整理笔记。
+  current_alternative_en: Users currently rely on cloud meeting transcription services, built-in OS dictation,
+    or manually writing up notes after the meeting.
+  usage_reason: 推断：相较云端转写，它在本地完成转写与格式化，用户少做一步“把音频交给第三方并等待返回”的动作，且模型由自己管理；因此对会议内容保密要求高、又需要可搜索记录的 Windows
+    用户可能选择它，目前没有用户反馈或采用数据支持这一判断。
+  usage_reason_en: 'Inference: compared with cloud transcription, it transcribes and formats locally,
+    so users skip the step of handing audio to a third party and waiting for a result, and manage models
+    themselves; Windows users with strict confidentiality needs who still want searchable records may
+    choose it, though no user feedback or adoption data supports this yet.'

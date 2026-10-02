@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE1EQ3BSSlprU1FR
 summary: 第三代AI产品来了！它就是Personal Agent 53AI
 first_seen: '2026-10-01T23:10:55Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

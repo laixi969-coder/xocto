@@ -22,7 +22,7 @@ summary: 'Free MAPS guide: set up your own AI operating system on Claude Code (M
   — one prompt per layer'
 first_seen: '2026-09-22T09:49:59Z'
 last_seen: '2026-10-02T01:41:55Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

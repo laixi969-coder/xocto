@@ -23,7 +23,7 @@ summary: 'Claude Code PRO — полный курс и гайд на русск�
   chatgpt -'
 first_seen: '2026-09-30T12:15:37Z'
 last_seen: '2026-10-02T01:41:55Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

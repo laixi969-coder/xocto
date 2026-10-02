@@ -93,3 +93,97 @@
     so content teams facing frequent revisions and multi-market launches pick it when deadlines are tight;
     this is inference from product capability and task structure, as public materials provide no retention
     or repeat-use data.
+- id: req-initial-eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re-2026-10-02
+  project_slug: eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文稿变成可发布音频、把多语言版本从数周压到可重生成的需求，痛点是重录与棚时成本刚性；买方是谁在公开材料中未说明。
+    evidence_ids:
+    - ev-42f19e1d4297329b
+  - gate: consensus
+    status: insufficient
+    reason: 只有估值翻倍的融资报道，没有客户名单、公开采用规模或行业采购证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-42f19e1d4297329b
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价页、按量或按结果计费方式，也未说明本轮资金用途；钱可能来自企业订阅或 API 用量，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-42f19e1d4297329b
+  - gate: truth
+    status: insufficient
+    reason: 音色克隆与语音代理涉及授权、深度伪造与合规边界，候选材料未提供授权机制、人工复核流程或安全文档。
+    evidence_ids:
+    - ev-42f19e1d4297329b
+  next_validation: 收集 ElevenLabs 官方定价页与客户案例页面，核验其计费方式（按字符、按席位或按结果）及公开企业客户名单。
+  market: ''
+  job: 内容团队、本地化发行方和客服运营在需要把文稿变成可发布音频或让语音代理接听电话时，处理脚本、术语表和音色授权材料，要产出可直接上线的音频或通话应答。
+  job_en: Content teams, localization distributors and support operations turn scripts, glossaries and
+    voice-license materials into publishable audio or agent-handled calls, aiming to deliver ready-to-ship
+    audio or call responses.
+  pain: 旧流程要预约配音演员、协调录音棚档期、逐条剪辑并重录，多语言版本成本成倍增加，交付周期以周计；音色一致性和术语发音难以稳定。
+  pain_en: The old process books voice actors, coordinates studio slots, edits clip by clip and re-records;
+    each added language multiplies cost, delivery takes weeks, and voice consistency plus term pronunciation
+    are hard to hold.
+  current_alternative: 真人配音加后期剪辑，或使用早期拼接式语音合成工具再人工修音；部分团队直接放弃多语言版本。
+  current_alternative_en: Human voice actors plus post-production editing, or early concatenative TTS
+    tools with manual touch-ups; some teams simply skip multilingual versions.
+  usage_reason: 相较预约配音演员和逐条剪辑，它把“录一条改一条”变成“改文稿重生成”，省掉重录与棚时这一步，并让同一音色跨语言复用；推断需要多语言、多版本快速迭代的发行与营销团队会因此选择它，但候选材料未提供留存或复购证据。
+  usage_reason_en: Compared with booking actors and editing clip by clip, it turns 're-record per change'
+    into 'edit the script and regenerate', removing the re-recording and studio step and letting one voice
+    carry across languages; inference is that distribution and marketing teams iterating many language
+    versions would choose it, though the candidate material offers no retention or repeat-use evidence.
+- id: req-full-eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re-2026-10-02
+  project_slug: eu-scaleup-fund-in-talks-to-back-elevenlabs-in-500m-round-re
+  level: full
+  reviewed_at: '2026-10-02T02:13:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文稿变成可发布音频、把多语言版本从数周压到可重生成的需求，痛点是重录与棚时成本刚性；官网称提供 5000+ 音色、70+ 语言与 API/SDK，属公开事实，买方是谁未说明。
+    evidence_ids:
+    - ev-0894ee5bce6c9561
+    - ev-64eb283110b96362
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品页与登录页，没有客户名单、公开采用规模或行业采购证据，无法判断配音与本地化团队是否已形成稳定共识。
+    evidence_ids:
+    - ev-0894ee5bce6c9561
+    - ev-995753064569e19c
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价页、按字符或按席位计费方式，也未说明本轮资金用途；钱可能来自企业订阅或 API 用量，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0894ee5bce6c9561
+  - gate: truth
+    status: insufficient
+    reason: 音色克隆与语音代理涉及授权、深度伪造与合规边界，候选材料未提供授权机制、人工复核流程或安全文档，交付确定性无法核验。
+    evidence_ids:
+    - ev-0894ee5bce6c9561
+    - ev-64eb283110b96362
+  next_validation: 收集 ElevenLabs 官方定价页与客户案例页面，核验其计费方式（按字符、按席位或按结果）及公开企业客户名单。
+  market: ''
+  job: 做配音、有声书或多语言本地化的内容团队与发行方，拿到文稿、术语表和音色授权材料后，要产出可直接上线的音频文件或语音代理接口，用于广告、有声内容和客服语音。
+  job_en: Content teams and localization distributors take scripts, glossaries and voice-license materials
+    and must produce publishable audio files or voice-agent endpoints for ads, audiobooks and support
+    calls.
+  pain: 旧流程要预约配音演员、协调录音棚档期、逐条剪辑，改一句就要重录；每增加一种语言成本成倍上升，交付以周计，音色一致性与术语发音难以稳定。
+  pain_en: The old process books voice actors, coordinates studio slots and edits clip by clip, so one
+    changed line forces a re-record; each added language multiplies cost, delivery takes weeks, and voice
+    consistency plus term pronunciation are hard to hold.
+  current_alternative: 真人配音加后期剪辑，或早期拼接式语音合成工具再人工修音；部分团队直接放弃多语言版本。
+  current_alternative_en: Human voice actors plus post-production editing, or early concatenative TTS
+    tools with manual touch-ups; some teams simply skip multilingual versions.
+  usage_reason: 相较预约配音演员和逐条剪辑，它把“录一条改一条”变成“改文稿重生成”，省掉重录与棚时这一步，并让同一音色跨语言复用；这是基于产品能力与旧流程的结构推理，推断需要多语言、多版本快速迭代的发行与营销团队会因此选择它，候选材料未提供留存或复购证据。
+  usage_reason_en: Compared with booking actors and editing clip by clip, it turns 're-record per change'
+    into 'edit the script and regenerate', removing the re-recording and studio step and letting one voice
+    carry across languages; this is structural inference from product capability and the old workflow,
+    suggesting distribution and marketing teams iterating many language versions would choose it, though
+    no retention or repeat-use evidence is offered.

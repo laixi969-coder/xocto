@@ -208,3 +208,54 @@
   usage_reason_en: 'Inference: versus manual step-by-step execution, it lets the framework autonomously
     orchestrate probing and exploitation and emit the process, removing the step of hand-chaining commands
     and logging; which users adopt it long-term is not yet publicly evidenced.'
+- id: req-full-heimdall-agent-2026-10-02
+  project_slug: heimdall-agent
+  level: full
+  reviewed_at: '2026-10-02T02:14:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权 CTF 与安全实验室中多步探测利用的编排需求，痛点是手工枚举试错耗时且步骤难复用；仓库定位与 92→103 的收藏增长说明有人关注，但无用户抱怨或案例，痛点刚性属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-698b5bbbcf3c0de7
+    - ev-58cbfa1d4bc8149c
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有 公开代码仓库 收藏从 92 增至 103 的缓慢累积，属关注度而非持续采用；没有 issue、discussion 或用户评价说明谁在真实比赛中反复使用，强场景是否成立仍缺行为证据。
+    evidence_ids:
+    - ev-698b5bbbcf3c0de7
+    - ev-a4ba7c4e256dcd40
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费主体或商业路径，无法判断钱来自 to C 研究者、to B 安全团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-698b5bbbcf3c0de7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明框架的输入格式、交付产物与人工介入边界，也未提供可复现的解题成功率；在授权范围内自主执行利用步骤的安全边界缺乏公开说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-698b5bbbcf3c0de7
+  next_validation: 追踪 heimdall-agent 仓库的 README、issue 与 discussion，确认其声明的输入格式、交付产物、授权范围限制及是否有可复现的解题成功率记录。
+  market: ''
+  job: 安全研究员或 AI 智能体开发者在授权 CTF 比赛与安全实验室环境中，拿到一道待解题目（靶机、漏洞场景或挑战描述），需要让框架自主编排探测、利用等多步动作并产出可复核的解题过程。
+  job_en: A security researcher or AI agent developer, in an authorized CTF or security lab, takes a challenge
+    (target box, vulnerable scenario, or task description) and needs a framework to autonomously orchestrate
+    multi-step probing and exploitation and produce a reviewable solution trace.
+  pain: CTF 与靶场解题依赖人工逐步枚举、试错和串联工具链，单题耗时长、步骤易漏、经验难以复用；公开材料只给出框架定位，未提供用户对耗时或漏步的具体抱怨，因此痛点强度属工作流结构推理。
+  pain_en: CTF and lab solving relies on manual enumeration, trial-and-error, and chaining tools step
+    by step, which is slow per challenge, easy to skip steps, and hard to reuse; public materials only
+    state the framework's positioning and give no user complaints about time or missed steps, so pain
+    intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式是安全研究员手工使用 nmap、Burp、Metasploit 等工具逐条执行并自行记录，或直接使用通用 LLM 对话提示逐步求解；公开材料未说明
+    heimdall-agent 具体替代了哪条既有流程。
+  current_alternative_en: Today users run tools such as nmap, Burp, and Metasploit manually step by step
+    and log results themselves, or prompt a general-purpose LLM conversationally; public materials do
+    not state which existing workflow heimdall-agent replaces.
+  usage_reason: 推断：相较手工逐条执行工具或纯对话式提示，该框架把探测与利用步骤交给智能体编排，减少人工串联命令与记录过程这一环，因此会在需要批量刷题或复现标准解法的授权 CTF/实验室场景中被安全研究员和智能体开发者选用；公开材料未给出用户自述动机。
+  usage_reason_en: 'Inference: versus manually running each tool or purely conversational prompting, the
+    framework delegates probing and exploitation steps to agent orchestration, removing the manual command-chaining
+    and logging step, so security researchers and agent developers would pick it in authorized CTF/lab
+    settings that require batch solving or reproducible standard solutions; public materials give no user-stated
+    motivation.'

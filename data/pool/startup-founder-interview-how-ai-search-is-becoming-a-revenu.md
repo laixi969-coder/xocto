@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFlKcFU2aUV0
 summary: 'Startup Founder Interview: How AI Search Is Becoming a Revenue Attribution Problem HackerNoon'
 first_seen: '2026-10-01T08:48:52Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

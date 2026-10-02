@@ -22,7 +22,7 @@ summary: President Trump reportedly asked for Grok's opinion before invading Ven
   Maduro.
 first_seen: '2026-10-01T21:08:11Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

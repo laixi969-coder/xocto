@@ -21,7 +21,7 @@ canonical_url: https://mcmansionhell.com/post/829127919552151552/what-is-going-o
 summary: What is going on with ceiling fans
 first_seen: '2026-10-01T03:52:10Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

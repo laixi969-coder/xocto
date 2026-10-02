@@ -241,3 +241,43 @@
   usage_reason_en: 'Inference: if an agent already orchestrates tools via MCP, adding the connector could
     remove the step of writing bespoke adapters for Jev and Laya; however, no public user feedback or
     case supports this motive, and no outcome improvement can be checked.'
+- id: req-full-system-one-connector-2026-10-02
+  project_slug: system-one-connector
+  level: full
+  reviewed_at: '2026-10-02T02:15:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是代理流程中对外部内容或模型输出做快速评估这一任务，但公开证据只有一句连接器简介，既未说明评估口径、输入输出与交付形式，也未说明不解决的后果和当前替代做法，无法还原需求与痛点。
+    evidence_ids:
+    - ev-a807d138a0c66514
+    - ev-c108aec5a2e44492
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 System One Connector 的官方仓库 README、issue 与 discussion，确认它暴露的模型清单、调用示例与真实使用场景。
+  market: ''
+  job: 开发者希望在代理（agent）流程中，把外部内容或模型输出交给 Typesafe AI 的 Jev、Laya 等模型做一次快速评估，由代理发起调用并取回评估结果。
+  job_en: Developers want an agent flow to send external content or model outputs to Typesafe AI models
+    such as Jev and Laya for a quick evaluation, with the agent issuing the call and receiving the result.
+  pain: 公开材料没有说明这一评估步骤当前哪里难受、出错代价多大、多久发生一次；现有证据只给出连接器的一句话简介，无法还原真实痛点。
+  pain_en: Public materials do not describe where this evaluation step hurts, how costly errors are, or
+    how often it occurs; the only evidence is a one-line connector blurb, so no real pain can be reconstructed.
+  current_alternative: 公开材料未说明开发者现在如何完成这一步评估，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently perform this evaluation
+    step or what prior approach it replaces.
+  usage_reason: 无法判断用户为何选择它：现有证据既没有具体评估口径、交付形式，也没有任何用户反馈或采用记录，只能确认它把若干模型暴露给代理这一功能描述。
+  usage_reason_en: 'There is no basis to explain why users would choose it: the evidence offers neither
+    a concrete evaluation definition nor delivery format, nor any user feedback or adoption record, only
+    the functional description that it exposes several models to an agent.'

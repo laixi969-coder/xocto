@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/clef-decision-model
 summary: Typed decisions with probabilities from Cloudflare Clef
 first_seen: '2026-10-01T16:18:30Z'
 last_seen: '2026-10-02T01:42:12Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

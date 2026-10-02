@@ -21,7 +21,7 @@ canonical_url: https://har-analyzer.onlinetool.workers.dev
 summary: A 100% Client-Side HAR Analyzer That Parses Logs in Seconds
 first_seen: '2026-10-01T21:22:36Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

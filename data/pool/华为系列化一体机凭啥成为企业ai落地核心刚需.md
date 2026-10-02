@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS0NFZ3pGamp4
 summary: 华为系列化一体机，凭啥成为企业AI落地核心刚需？ 搜狐网
 first_seen: '2026-10-01T10:17:44Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

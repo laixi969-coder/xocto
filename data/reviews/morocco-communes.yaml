@@ -237,3 +237,56 @@
     skipping the data cleaning and code alignment step, so analysts or GIS engineers needing quick access
     to Morocco commune data would choose it; the public material has no retention or repeat-use evidence,
     so long-term use cannot be confirmed.'
+- id: req-full-morocco-communes-2026-10-02
+  project_slug: morocco-communes
+  level: full
+  reviewed_at: '2026-10-02T02:14:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决摩洛哥市镇级普查与边界数据的获取和编码对齐需求：1,503 个市镇的 HCP 编码、2024 与 2014 两期普查和边界分散在官方来源，人工抓取清洗易错且重复；项目以按编码查询的
+      API 与 MCP 服务器交付结构化结果，属工作流结构推理，尚无用户痛点或采用证据。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+    - ev-795f8b04a7d77d77
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 42 缓慢升至 46，说明有开发者注意到该项目，但收藏与关注只属规模或关注度证据，不能证明目标用户持续使用或形成共识；缺少 issue、discussion 或用户评价说明谁在何种场景采用。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+    - ev-05dce9295f22309f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断收入来自 to C、to B 还是 to G；这是商业证据缺口，不反推需求不存在，但当前无法核验可重复交付与单位经济。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+  - gate: truth
+    status: insufficient
+    reason: 项目承诺按 HCP 编码返回两期普查与边界，但公开材料未说明数据更新频率、准确性校验方式或与官方来源的同步机制，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-f9e519623ff062a9
+    - ev-795f8b04a7d77d77
+  next_validation: 追踪该项目仓库的 issue、discussion 与部署文档，确认是否有研究者或机构公开说明在何种分析场景中调用 API/MCP、替代了哪一步人工流程。
+  market: ''
+  job: 做摩洛哥本地研究或公共数据分析的分析师、地理信息工程师，在需要市镇级人口与边界数据时，按 HCP 编码调用 HTTP API 或 MCP 服务器，取回 2024 与 2014 年普查数据和边界，把结构化结果直接接入分析或制图流程。
+  job_en: Analysts and geospatial engineers doing Morocco-focused research or public-data analysis need
+    commune-level population and boundary data; they call the HTTP API or MCP server by HCP code to retrieve
+    the 2024 and 2014 census data and boundaries, and feed structured results directly into analysis or
+    mapping workflows.
+  pain: 摩洛哥 1,503 个市镇的普查数据与边界分散在 HCP 等官方来源，编码口径、年份版本和几何边界需要人工对齐；研究者若自行抓取、清洗和匹配，会反复消耗时间，且容易在编码或边界版本上出错。
+  pain_en: Census data and boundaries for Morocco's 1,503 communes are scattered across official sources
+    such as HCP, and the coding scheme, year versions and geometries must be aligned manually; researchers
+    who scrape, clean and match by hand repeatedly lose time and risk coding or boundary-version errors.
+  current_alternative: 旧做法是直接从 HCP 等官方渠道下载普查表格与边界文件，再自行做编码匹配、年份对齐和格式转换；或依赖零散的数据集副本，缺少统一的 API 与 MCP 接口。
+  current_alternative_en: The old approach is to download census tables and boundary files from official
+    sources such as HCP and then do coding matches, year alignment and format conversion by hand, or to
+    rely on scattered dataset copies without a unified API or MCP interface.
+  usage_reason: 相较自行抓取与清洗，该项目把 HCP 编码、2024/2014 两期普查和边界打包成按编码查询的 HTTP API 与 MCP 服务器，用户少掉下载、对齐编码和转换格式这几步，直接拿到可进入分析流程的结构化结果；因此需要市镇级摩洛哥数据的研究者或
+    GIS 工程师会在做本地分析或制图时选择它。这是基于产品能力与任务结构的推断，尚无用户反馈或客户案例佐证。
+  usage_reason_en: Compared with scraping and cleaning by hand, the project packages HCP codes, the 2024/2014
+    censuses and boundaries into a code-queryable HTTP API and MCP server, removing the download, code-alignment
+    and format-conversion steps so users get structured results ready for analysis; researchers or GIS
+    engineers needing commune-level Morocco data would therefore choose it when doing local analysis or
+    mapping. This is an inference from product capability and task structure, not yet

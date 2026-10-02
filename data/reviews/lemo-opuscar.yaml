@@ -202,3 +202,49 @@
     already paired with a sample film, skipping the step of calibrating style and shot language themselves,
     so creators needing fast, stylistically consistent shorts would choose it at the starting stage. Stars
     rising from 352 to 683 shows attention, not sustained use.'
+- id: req-full-lemo-opuscar-2026-10-02
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-02T02:14:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短片导演和品牌创意人员快速产出特定风格样片的需求，痛点是从零搭建分镜、风格和渲染流程耗时，旧做法是手动写提示词或外包，属工作流推理。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 352 增至 768，说明社区关注度上升，但没有目标用户持续使用或付费的公开证据。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+    - ev-7ccbc89dbf6f4d7b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自个人创作者订阅或品牌方采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-543c825abbb6cdee
+  - gate: truth
+    status: insufficient
+    reason: 纯代码样片能否稳定交付可播放成片、风格提示词是否可控，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-7ccbc89dbf6f4d7b
+  next_validation: 追踪 lemo-opuscar 仓库的 issue、discussion 或官方文档，确认是否有用户部署案例、风格提示词的实际使用反馈或付费路径。
+  market: ''
+  job: 短片导演或品牌短视频创意人员在需要快速产出特定风格样片时，挑选一种影片风格，把自己的故事交给 AI 代理，由它按风格提示词和纯代码样片生成一段可播放的短片。
+  job_en: A short-film director or brand short-video creative needing to quickly produce a style-specific
+    sample picks a film style, hands their story to an AI agent, and has it generate a playable short
+    film from the style prompt and code-only sample.
+  pain: 从零搭建分镜、视觉风格和代码渲染流程耗时，且难以在早期向客户或团队展示统一风格的样片。
+  pain_en: Building storyboards, visual style, and code-rendering pipeline from scratch is time-consuming,
+    and it is hard to show a consistent style sample to clients or teams early on.
+  current_alternative: 手动编写分镜和提示词、使用通用视频生成工具，或外包给制作团队做风格测试。
+  current_alternative_en: Manually writing storyboards and prompts, using general video-generation tools,
+    or outsourcing style tests to production teams.
+  usage_reason: 相较从零写提示词或外包风格测试，lemo-opuscar 提供 39 种可复用风格提示词和纯代码样片，用户只需带入自己的故事即可让 AI 代理按既定风格生成成片，省去风格定义和渲染管线搭建这一步；推断短片导演和品牌创意人员会在需要快速验证风格方向时选择它，但尚无留存或付费证据。
+  usage_reason_en: Compared with writing prompts from scratch or outsourcing style tests, lemo-opuscar
+    offers 39 reusable style prompts and code-only samples; users only bring their story and let the AI
+    agent generate a film in a defined style, removing the style-definition and rendering-pipeline setup
+    step; inference is that short-film directors and brand creatives would pick it when quickly validating
+    a style direction, though retention or payment evidence is absent.

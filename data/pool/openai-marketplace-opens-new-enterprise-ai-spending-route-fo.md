@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNbGpNaGpCdk4t
 summary: OpenAI Marketplace Opens New Enterprise AI Spending Route for Partners Channel Insider
 first_seen: '2026-09-30T15:25:56Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

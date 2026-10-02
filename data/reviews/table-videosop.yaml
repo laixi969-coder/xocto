@@ -163,3 +163,49 @@
     fillable tables, so users get a structured production flow by filling them in, skipping the step of
     rebuilding conventions from scratch; suited to directors and content ops producing short videos or
     ads at volume who need a shared AI-video standard.'
+- id: req-full-table-videosop-2026-10-02
+  project_slug: table-videosop
+  level: full
+  reviewed_at: '2026-10-02T02:15:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开拍前分镜、节奏与提示词缺乏可复用流程的痛点，旧做法靠个人经验和零散文档，换项目即重来；仓库把SOP、规则、模板与提示词整理成可填表格，交付形态可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-79dbf83ee2fc36c6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从52升至93，说明有开发者关注，但无issue、discussion或用户反馈证明编导与剪辑已把它纳入日常制作流程，持续采用证据不足。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-79dbf83ee2fc36c6
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有仓库说明，无定价页、无付费路径、无客户采购记录，谁付钱尚不清楚；这是判断，不是已验证事实，但不足以取消真需求判定。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+  - gate: truth
+    status: insufficient
+    reason: 仓库未公开模板具体内容、部署或使用文档，无法核验照着填能否稳定产出可执行流程，人工与安全边界也未见说明。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-caa1fc011f1c68c1
+  next_validation: 追踪该仓库的 README、模板文件与 issue/discussion，确认模板实际内容、使用方式及是否有编导或剪辑公开反馈其替代了原有制作流程。
+  market: ''
+  job: 短视频或广告片的编导、剪辑在开拍前，需要把分镜、节奏、镜头提示词和制作规则整理成一份可执行的制作流程，交给拍摄或AI生成环节落地。
+  job_en: Before shooting, short-video or ad directors and editors must turn storyboards, pacing, shot
+    prompts and production rules into an executable production workflow handed to shooting or AI generation.
+  pain: 过去分镜与提示词依赖个人经验和零散文档，团队内难以复用，换人或换项目就要重新摸索，制作流程不稳定。
+  pain_en: Storyboards and prompts previously relied on personal experience and scattered documents, hard
+    to reuse across a team, forcing re-learning on every new project and making the workflow unstable.
+  current_alternative: 个人经验、零散文档、通用提示词模板，或临时在聊天工具里拼凑制作流程。
+  current_alternative_en: Personal experience, scattered documents, generic prompt templates, or ad-hoc
+    workflows assembled in chat tools.
+  usage_reason: 推断：相较零散文档，它把 SOP、规则、模板和提示词收进可复用表格，编导照着填即可产出可执行流程，减少重新整理分镜与提示词这一步负担，因此小团队或独立创作者在开新项目时会选择它。
+  usage_reason_en: 'Inference: versus scattered documents, it collects SOPs, rules, templates and prompts
+    into a reusable table so directors can fill it in to produce an executable workflow, cutting the step
+    of re-organizing storyboards and prompts, which is why small teams or solo creators may choose it
+    for new projects.'

@@ -245,3 +245,53 @@
     plus a coverage statement, removing the step of guessing keywords and opening files one by one to
     confirm; engineers who must locate behavior-related code in an unfamiliar repository would choose
     it for this reason. Public materials provide no user feedback or retention data, so this causal claim '
+- id: req-full-jevgrep-2026-10-02
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-02T02:14:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是“已知要改的行为、却不知落在哪个文件”的定位需求，痛点在于关键词检索易漏、智能体改错文件；公开材料给出按行为检索并返回精确行号的交付方式，且有十任务 SWE-bench
+      对比称以更低成本完成与基线相同的 8/10 任务，属工作流结构推理加公开对比，价值结构成立。
+    evidence_ids:
+    - ev-f82673f793b1f5b0
+    - ev-03a6ad670632d899
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示产品定位与一次自测对比，未见目标用户持续使用、复购或社区讨论规模的证据；关注度不等于持续采用，因此共识尚未核验。
+    evidence_ids:
+    - ev-f82673f793b1f5b0
+  - gate: model
+    status: insufficient
+    reason: 公开材料给出的是单次查询的模型成本（约 $0.000427/次，按 AI Gateway 列表价估算），属成本侧数据，未见定价页、付费主体或采购记录，谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-2aae13a5abec428c
+  - gate: truth
+    status: insufficient
+    reason: 交付是否确定发生尚缺可复现证据：对比结果来自项目方自述的十任务测试，未见独立复现、失败案例或人工复核边界说明，承诺的确定性交付未被外部核验。
+    evidence_ids:
+    - ev-03a6ad670632d899
+  next_validation: 追踪 jevgrep 官方仓库的 issue、discussion 与 README 更新，确认是否有外部用户报告在真实仓库中的定位成功率、失败案例或部署方式。
+  market: ''
+  job: 软件工程师或编码智能体使用者在接手不熟悉的代码库、需要修改某个具体行为时，用自然语言描述“这段代码做什么”，让 jevgrep 通过 CLI 或 MCP 返回相关文件与带行号的源码片段，再据此让编码智能体动手改。
+  job_en: A software engineer or coding-agent user working in an unfamiliar repository, needing to change
+    a specific behavior, describes in natural language what the code does; jevgrep returns relevant files
+    and line-numbered source excerpts via CLI or MCP, which then feed the coding agent's edit.
+  pain: 公开材料显示其定位是“按行为找代码”，即用户已知要改什么行为却不知道它落在哪个文件；在大型或不熟悉的仓库里，靠关键词或文件名检索容易漏掉实现该行为的真实位置，导致智能体改错文件或反复试错。
+  pain_en: 'The public positioning is finding code by behavior: the user knows which behavior to change
+    but not which file implements it. In large or unfamiliar repositories, keyword or filename search
+    can miss the real location, causing the agent to edit the wrong file or iterate repeatedly.'
+  current_alternative: 公开材料未直接描述旧流程，但产品定位本身指向既有替代：用 grep、文件名或关键词检索，以及让编码智能体自行在仓库中摸索定位。
+  current_alternative_en: 'Public materials do not describe the prior workflow directly, but the product''s
+    positioning implies existing alternatives: grep, filename or keyword search, and letting the coding
+    agent explore the repository on its own to locate code.'
+  usage_reason: 推断：相较 grep 或让智能体自行摸索，jevgrep 用“描述行为”的查询直接返回候选文件与精确行号，把“先猜关键词再逐个打开文件确认”这一步压缩为一次语义检索；公开的十任务
+    SWE-bench 对比称其以更低成本完成与基线相同的 8/10 任务，因此在意定位成本与 token 花费的编码智能体使用者会在处理陌生仓库时选择它。
+  usage_reason_en: 'Inference: versus grep or letting the agent explore, jevgrep takes a behavior description
+    and returns candidate files with exact line numbers, collapsing the ''guess keywords then open files
+    to confirm'' step into one semantic lookup; a public ten-task SWE-bench comparison reports the same
+    8/10 tasks as the baseline at lower cost, so cost- and location-conscious coding-agent users would
+    pick it on unfamiliar repositories.'

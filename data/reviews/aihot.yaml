@@ -166,3 +166,50 @@
     sources, screens with an LLM plus two independent scorings, clusters the same event and ranks by discussion
     volume to output a daily page, removing the screening and layout steps, so editors needing a steady
     daily issue choose it.'
+- id: req-full-aihot-2026-10-02
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-02T02:12:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决行业资讯编辑每日从多信源筛选题、合并同一事件并出日报的需求；公开材料显示其前身是内部监控热点找选题的飞书机器人，说明人工翻信源与筛选是真实重复劳动，不解决则选题遗漏或持续投入机械人力。此为工作流结构推理。
+    evidence_ids:
+    - ev-993e7d89a47629bd
+    - ev-d61c3ae0fa3710c5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 4,662 星，说明开发者社区注意到该框架，但公开材料未显示目标编辑或运营者已持续使用或把它留在日常出稿流程中，关注度不等于持续采用。
+    evidence_ids:
+    - ev-382e9b5cff82392a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，谁付钱尚不清楚；这是模式缺口而非需求不存在，钱可能来自自建站点的编辑团队或开源托管服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-993e7d89a47629bd
+  - gate: truth
+    status: insufficient
+    reason: 公开材料说明它按信源抓取、模型筛选打分并聚簇出日报，但未见可复现的部署文档或实测，确认筛选规则与交付形态能否稳定按承诺发生仍缺证据。
+    evidence_ids:
+    - ev-fb5311608be8d4b3
+  next_validation: 追踪 AIHOT 仓库的 README、部署文档与 issue/discussion，确认信源配置、筛选规则与日报交付在真实部署中的可复现性。
+  market: ''
+  job: 行业资讯编辑或运营者在每天出稿前，需要从多个信源里翻找当天值得看的条目，筛掉噪音、把同一事件的不同报道合并，再排成一份可发布的日报。
+  job_en: An industry news editor or operator, before daily publishing, must scan many sources for the
+    day's worthwhile items, filter noise, merge reports of the same event, and lay out a publishable daily
+    digest.
+  pain: 公开材料显示它最初是公司内部用来监控热点、帮团队找选题的飞书机器人，说明人工翻信源、判断选题价值本身就是重复且耗时的环节；不解决的后果是选题遗漏或每天固定投入人力做机械筛选。
+  pain_en: Public materials show it began as an internal Feishu bot for monitoring hot topics and finding
+    story ideas, indicating that manually scanning sources and judging newsworthiness is repetitive and
+    time-consuming; leaving it unsolved means missed topics or fixed daily manual filtering labor.
+  current_alternative: 公开事实是团队此前用内部飞书机器人监控热点，更早则是人工翻多个信源、自行挑选与排版；AIHOT 把这一流程做成可替换信源与精选标准的框架。
+  current_alternative_en: Public facts show the team previously used an internal Feishu bot to monitor
+    hot topics, and before that manually scanned multiple sources, picked items, and laid them out; AIHOT
+    turns this into a framework with swappable sources and selection criteria.
+  usage_reason: 推断：相较人工逐条翻信源，它按配置抓取后由大模型先筛再独立打两次分，并把同一事件聚簇、按讨论量排序，省去逐条阅读与人工合并这一步，因此想自建行业热点站的编辑或运营者会在需要每日稳定出日报时选择它。
+  usage_reason_en: 'Inference: versus manually reading each source, it fetches by configuration, has a
+    model pre-filter and score twice independently, then clusters the same event and ranks by discussion
+    volume, removing the step of reading and merging item by item, so editors or operators wanting their
+    own industry hot-topic site would choose it when they need a stable daily digest.'

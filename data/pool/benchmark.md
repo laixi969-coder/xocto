@@ -21,7 +21,7 @@ canonical_url: https://swesweep.com
 summary: AI doesn't find bugs unless you tell it what's wrong
 first_seen: '2026-10-01T15:36:14Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

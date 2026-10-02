@@ -240,3 +240,51 @@
     original ask, and the commands come from the user''s own history rather than generic templates. Terminal
     users who repeat the same class of asks would choose it when they want to cut that repetition. No
     retention evidence shows it stays in the workflow.'
+- id: req-full-cli-faq-shortcuts-2026-10-02
+  project_slug: cli-faq-shortcuts
+  level: full
+  reviewed_at: '2026-10-02T02:13:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者反复向编码助手输入同类提问、需重复重打或翻历史复制的痛点，旧替代是手动重打与复制粘贴；不解决的后果是持续的时间与注意力损耗。产品以本地历史挖掘生成短命令完成交付，属工作流结构推理，公开材料未给量化频率。
+    evidence_ids:
+    - ev-b59309f3aa52605f
+    - ev-53355babde7f44ba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 103 增至 121，说明社区注意到它，但收藏与关注只属规模信号，不能证明目标开发者已持续使用或把它留在工作流；缺少 issue、discussion 或用户评价说明真实采纳。
+    evidence_ids:
+    - ev-b59309f3aa52605f
+    - ev-b3f46a67cc378d8c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，开源仓库本身不显示 to C、to B 或 to VC 的收入路径；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-53355babde7f44ba
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称本地 Python 历史提取器加 Agent Skill，但未给出可复现的部署文档、历史解析准确率或人工确认边界，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-6fea6cb77286e6e6
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认历史提取器支持的会话格式、生成命令的准确率以及是否有用户报告实际替代了手动重打流程。
+  market: ''
+  job: 使用 Claude Code、Codex 或 Cursor 的开发者，在终端里反复输入同一类提问（如固定格式的代码审查、重构、解释请求）时，需要把这些重复提问固化为可复用的短命令，以便下次直接调用而不再逐字重打。
+  job_en: Developers using Claude Code, Codex, or Cursor who repeatedly type the same class of prompt
+    in the terminal need to turn those repeated asks into reusable short commands they can invoke directly
+    instead of retyping them.
+  pain: 公开材料显示产品针对的是“你反复输入的提问”，即重复输入同一提示词带来的时间与注意力损耗；但公开证据未给出频率、耗时或错误代价的量化数据，痛点强度属工作流结构推理。
+  pain_en: Public materials show the product targets 'the asks you keep typing,' i.e. the time and attention
+    cost of retyping the same prompt; no quantified frequency, time cost, or error cost is disclosed,
+    so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是每次在终端里手动重打或从历史里翻找、复制粘贴同一提示词，或依赖各工具自带的斜杠命令与自定义命令机制手工维护；公开材料未说明它具体替代了哪一种。
+  current_alternative_en: The old approach is retyping the prompt by hand each time, scrolling back through
+    history to copy-paste it, or hand-maintaining each tool's built-in slash/custom command mechanism;
+    public materials do not specify which one it replaces.
+  usage_reason: 推断：相较手动重打或翻历史，它读取本机 Claude Code 与 Codex 历史、自动归纳高频提问并生成短命令，省去“回忆并重打原句”这一步，因此高频使用同一类提示的开发者会在重复劳动明显时选择它；是否长期留在工作流尚无公开留存证据。
+  usage_reason_en: 'Inference: versus retyping or scrolling history, it reads local Claude Code and Codex
+    history, mines frequent asks, and generates short commands, removing the ''recall and retype the original
+    phrasing'' step, so developers with high-frequency repeated prompts would choose it; no public retention
+    evidence shows it stays in the workflow.'

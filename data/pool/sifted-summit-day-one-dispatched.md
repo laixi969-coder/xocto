@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/sifted-summit-day-one-2026
 summary: ''
 first_seen: '2026-10-01T09:42:28Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

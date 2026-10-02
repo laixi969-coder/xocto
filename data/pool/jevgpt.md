@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/jevgpt
 summary: A chatbot built on a model that can't write
 first_seen: '2026-09-28T16:36:26Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

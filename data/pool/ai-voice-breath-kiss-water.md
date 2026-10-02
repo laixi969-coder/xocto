@@ -21,7 +21,7 @@ canonical_url: https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water
 summary: ''
 first_seen: '2026-09-30T21:00:41Z'
 last_seen: '2026-10-02T01:41:55Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

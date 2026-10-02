@@ -157,3 +157,47 @@
   usage_reason_en: 'Inference: if the convention and linter automatically catch formatting drift in AI-generated
     docs, they could remove a manual per-file proofreading step; but with no user feedback or case, it
     is unverifiable which users would choose it and when.'
+- id: req-full-seiso-2026-10-02
+  project_slug: seiso
+  level: full
+  reviewed_at: '2026-10-02T02:15:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称提供 AI 生成文档的 Markdown 约定与检查工具，但全部证据均为 VTuber 圈对日语词 seiso 的释义，未出现任何产品说明、用户任务、痛点或替代行为，连解决什么需求都无法还原。
+    evidence_ids:
+    - ev-ea4b96bb8d21e461
+    - ev-ae636efcf0639683
+    - ev-177622010b1c6074
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目自身的公开仓库或官网，收集 README、规则清单、issue/discussion 与发布记录，确认它是否真实存在并说明检查规则与使用方式。
+  market: ''
+  job: 软件工程师或技术文档维护者在仓库中处理由 AI 生成、需同时供人和智能体阅读的 Markdown 项目文档，要完成统一书写约定并检查格式一致性的任务。
+  job_en: A software engineer or technical-docs maintainer works on AI-generated Markdown project docs
+    in a repo that must be read by both humans and agents, and needs to enforce a consistent writing convention
+    and lint the format.
+  pain: 公开证据中没有任何一条描述该任务的具体痛点：没有用户抱怨、没有格式不一致导致的返工或工具读取失败的记录，也没有频率或不解决的后果。
+  pain_en: 'No public evidence describes a concrete pain for this job: no user complaint, no record of
+    rework or tool-read failure caused by inconsistent formatting, and no frequency or consequence of
+    leaving it unsolved.'
+  current_alternative: 公开材料未说明用户目前如何约束 Markdown 格式，也未说明它替代了哪种既有做法（如手写规范、markdownlint、Prettier 或人工评审）。
+  current_alternative_en: Public materials do not show how users currently constrain Markdown formatting,
+    nor which existing practice it replaces (hand-written style guides, markdownlint, Prettier, or manual
+    review).
+  usage_reason: 无法给出因果解释：现有证据全部指向日语词“seiso”在 VTuber 圈的含义，与 Markdown 约定和检查工具无关，缺少产品页面、规则说明或用户反馈来支撑选择理由。
+  usage_reason_en: 'No causal explanation can be given: all available evidence concerns the Japanese term
+    ''seiso'' in VTuber fandom and is unrelated to a Markdown convention or linter, and there is no product
+    page, rule documentation, or user feedback to support a choice reason.'

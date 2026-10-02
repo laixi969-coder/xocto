@@ -1,0 +1,85 @@
+- id: req-initial-scape-2026-10-02
+  project_slug: scape
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决代理产出与团队文档脱节的问题，但公开材料只有一句定位，说不清输入、动作与交付，痛点刚性无法确认。
+    evidence_ids:
+    - ev-6f459d78e856df03
+  - gate: consensus
+    status: insufficient
+    reason: 除发布本身外无任何采用、评价或讨论证据，无法判断团队是否真的需要把代理接进文档层。
+    evidence_ids:
+    - ev-6f459d78e856df03
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱来自团队席位还是按文档产出计费。
+    evidence_ids:
+    - ev-6f459d78e856df03
+  - gate: truth
+    status: insufficient
+    reason: 未说明代理写文档时的权限边界与人工确认环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-6f459d78e856df03
+  next_validation: 收集 Scape 官方产品页或文档，确认它接入文档的具体方式、权限边界与是否公布定价。
+  market: ''
+  job: 研发团队在终端用编码代理完成改动后，需要把结果整理成团队共享文档，供其他成员阅读和评审。
+  job_en: After engineering teams finish changes with terminal coding agents, they need to turn results
+    into shared team documents for others to read and review.
+  pain: 代理产出散落在终端会话里，团队共享文档需要人工二次誊写和同步，容易与代码实际状态脱节。
+  pain_en: Agent output is scattered across terminal sessions, so shared documents must be manually rewritten
+    and synced, easily drifting from the actual code state.
+  current_alternative: 目前多由工程师手动把终端里的代理输出复制进 Notion、Confluence 或仓库 Markdown 文件。
+  current_alternative_en: Today engineers typically copy agent output from the terminal into Notion, Confluence
+    or repository Markdown files by hand.
+  usage_reason: 推断：若代理能直接读写团队文档，可省去人工誊写这一步，但公开材料未说明它如何避免误改、谁做最终确认，因此尚不能判断用户会因此选择它。
+  usage_reason_en: 'Inference: if agents could read and write team documents directly, the manual transcription
+    step would disappear, but public materials do not say how mis-edits are prevented or who gives final
+    confirmation, so user choice cannot yet be judged.'
+- id: req-full-scape-2026-10-02
+  project_slug: scape
+  level: full
+  reviewed_at: '2026-10-02T02:15:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决代理产出与团队文档脱节的问题，但公开材料只有一句定位，未说明输入材料、动作与交付物，连需求与痛点都无法还原，故不成立。
+    evidence_ids:
+    - ev-275ba427eff0a14d
+    - ev-f3ca04740c87ed47
+    - ev-d6349409f288fca1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Scape 官方产品页或文档仓库（含 README、issue、discussion），确认它接入团队文档的具体方式、权限边界与是否公布定价。
+  market: ''
+  job: 研发团队在终端用编码代理（cc、codex）完成改动后，需要把代理产出整理成团队共享文档，供其他成员阅读、评审与后续维护。
+  job_en: After engineering teams finish changes with terminal coding agents (cc, codex), they need to
+    turn agent output into shared team documents for other members to read, review and maintain.
+  pain: 公开材料只有一句定位，未说明代理产出如何进入文档、谁确认、误改如何避免；因此无法确认代理产出散落终端、需人工誊写这一痛点是否真实存在及其刚性。
+  pain_en: Public materials contain only a one-line positioning and do not explain how agent output enters
+    documents, who confirms it, or how mis-edits are prevented; whether the pain of scattered terminal
+    output requiring manual transcription is real and rigid cannot be confirmed.
+  current_alternative: 公开材料未披露任何现有替代方式；按工作流结构推断，工程师可能手动把终端代理输出复制进 Notion、Confluence 或仓库 Markdown，但这只是推断，无证据支持。
+  current_alternative_en: Public materials disclose no current alternative; by workflow inference engineers
+    might manually copy terminal agent output into Notion, Confluence or repository Markdown, but this
+    is only inference with no supporting evidence.
+  usage_reason: 无法判断：公开材料未说明产品接收什么材料、产出什么交付、人工在哪一步确认，因此无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'Cannot be judged: public materials do not state what inputs the product takes, what
+    deliverable it produces, or where humans confirm, so no reduction in steps or verifiable improvement
+    over the old way can be explained.'

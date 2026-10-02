@@ -1,0 +1,83 @@
+- id: req-initial-omnia-agent-2026-10-02
+  project_slug: omnia-agent
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决生成式搜索引用问题，但公开材料未说明具体痛点、旧流程与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-e98dcc260b3ab987
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品社区发布，无用户评价、客户案例或采用信号，共识卡在感知与场景环节。
+    evidence_ids:
+    - ev-e98dcc260b3ab987
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自 to C 还是 to B，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e98dcc260b3ab987
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近 GEO 工作的第一性目标，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-e98dcc260b3ab987
+  next_validation: 收集 Omnia Agent 官方定价页或客户案例，确认其具体输入、动作与交付结果。
+  market: ''
+  job: 品牌营销人员或 SEO 专员在生成式搜索分流流量时，处理品牌内容与关键词，要让内容被 ChatGPT、Perplexity 等引用。
+  job_en: Brand marketers or SEO specialists handle brand content and keywords when generative search
+    diverts traffic, aiming to get content cited by ChatGPT, Perplexity and similar engines.
+  pain: 公开材料只给出“完成95% GEO 工作”的口号，未说明具体痛点、旧流程或人工负担，无法确认问题刚性。
+  pain_en: Public material only gives the slogan of handling 95% of GEO work, without specifying the pain,
+    old workflow or manual burden, so the rigidity of the problem cannot be confirmed.
+  current_alternative: 旧做法可能是人工撰写 SEO 内容、手动检查各引擎引用情况，但候选未提供任何替代行为证据。
+  current_alternative_en: The old approach may be manually writing SEO content and checking citations
+    across engines, but the candidate provides no evidence of such alternative behavior.
+  usage_reason: 推断：若它能把跨引擎引用检查与内容改写合并为一次动作，可减少逐平台人工核对；但缺少功能细节与用户反馈，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it merges cross-engine citation checks and content rewriting into one
+    action, it could reduce manual per-platform checking; but with no feature detail or user feedback,
+    it is unconfirmed that users would choose it for this reason.'
+- id: req-full-omnia-agent-2026-10-02
+  project_slug: omnia-agent
+  level: full
+  reviewed_at: '2026-10-02T02:14:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决生成式搜索引用问题，但公开材料未说明具体痛点、旧流程与交付，价值结构无法还原，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-063f358c56e09af8
+    - ev-37823f65657fa246
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Omnia Agent 官方产品页或定价页，确认其具体输入、动作与交付结果。
+  market: ''
+  job: 品牌营销人员或 SEO/GEO 专员在生成式搜索分流流量时，处理品牌内容与关键词，希望让自家内容被 ChatGPT、Perplexity 等生成式引擎引用。
+  job_en: Brand marketers or SEO/GEO specialists handle brand content and keywords when generative search
+    diverts traffic, aiming to get their content cited by ChatGPT, Perplexity and similar engines.
+  pain: 公开材料只有“完成95% GEO 工作”的口号，未说明具体痛点、旧流程或人工负担，无法确认问题刚性。
+  pain_en: Public material only gives the slogan of handling 95% of GEO work, without specifying the pain,
+    old workflow or manual burden, so the rigidity of the problem cannot be confirmed.
+  current_alternative: 候选未提供任何替代行为证据；旧做法可能是人工撰写 SEO 内容并手动检查各引擎引用情况，但无公开材料支持。
+  current_alternative_en: The candidate provides no evidence of alternative behavior; the old approach
+    may be manually writing SEO content and checking citations across engines, but no public material
+    supports this.
+  usage_reason: 推断：若它能把跨引擎引用检查与内容改写合并为一次动作，可减少逐平台人工核对；但缺少功能细节与用户反馈，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it merges cross-engine citation checks and content rewriting into one
+    action, it could reduce manual per-platform checking; but with no feature detail or user feedback,
+    it is unconfirmed that users would choose it for this reason.'

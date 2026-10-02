@@ -1,6 +1,6 @@
 ---
 slug: how-albertsons-companies-is-reimagining-retail-from-the-insi
-name: How Albertsons Companies is reimagining retail from the inside out
+name: Albertsons Companies
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help 
   make grocery shopping easier for millions of customers.
 first_seen: '2026-10-01T16:00:00Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# How Albertsons Companies is reimagining retail from the inside out
+# Albertsons Companies
 
 Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.
 

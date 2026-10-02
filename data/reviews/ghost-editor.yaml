@@ -227,3 +227,54 @@
   usage_reason_en: 'The task is: Talking-head creators and short-video editors, Social media operators,
     Personal branding consultants Public materials do not yet explain why users choose this product over
     their existing approach.'
+- id: req-full-ghost-editor-2026-10-02
+  project_slug: ghost-editor
+  level: full
+  reviewed_at: '2026-10-02T02:14:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播成片里字幕压脸、节奏靠手动对齐参考视频的痛点，交付物是可直接发布的竖屏成片；公开说明已能还原输入素材、套用风格、输出成片的工作流，属结构推理，尚无用户抱怨或返工量化。
+    evidence_ids:
+    - ev-acfbce30762534e5
+    - ev-66b3b51cdba2b523
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 43 增至 63 后趋平，说明开发者社区注意到它，但收藏与排名只属关注度，不能证明口播创作者已把它留在日常剪辑流程里。
+    evidence_ids:
+    - ev-acfbce30762534e5
+    - ev-49322c0939d2a85e
+  - gate: model
+    status: insufficient
+    reason: 它是开源 agent 技能，公开材料没有定价页、付费主体或采购记录；谁付钱尚不可知，这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-acfbce30762534e5
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺反推参考剪辑并输出成片，但成片质量、人工返工量和安全边界没有可复现证据，交付确定性尚未核验。
+    evidence_ids:
+    - ev-66b3b51cdba2b523
+    - ev-80f8278f2cfca759
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有创作者公开贴出用它产出的成片、返工量或替代旧剪辑流程的具体记录。
+  market: ''
+  job: 口播类短视频创作者或剪辑师在拿到一段未剪的口播素材、并想模仿某条参考视频的节奏与包装时，把原始素材和参考视频一起交给这个 Claude Code / agent 技能，由它套用 7 种风格、生成不遮脸的字幕并加入动态场景，产出一条可直接发布的竖屏成片。
+  job_en: A talking-head short-video creator or editor who has raw talking-head footage and a reference
+    video whose pacing and packaging they want to copy hands both to this Claude Code / agent skill, which
+    applies one of 7 styles, generates face-safe captions and motion scenes, and outputs a publish-ready
+    vertical cut.
+  pain: 公开事实只说明它做字幕避脸、套节奏和反推参考剪辑；口播成片里字幕压脸、节奏拖沓、逐条手动对齐参考风格是这类工作的常见摩擦，但公开材料没有用户抱怨或返工数据，痛点强度属于工作流结构推理。
+  pain_en: Public facts only show face-safe captions, style pacing and reference-edit reverse engineering;
+    caption-over-face, dragging pacing and manually matching a reference style are common friction in
+    this work, but no public user complaint or rework data exists, so pain intensity is a workflow inference.
+  current_alternative: 旧做法是在剪映、CapCut 或 Premiere 里手动切节奏、逐句打字幕并避开人脸，或套用固定模板；想模仿某条参考视频只能靠人眼拆解它的剪辑点。
+  current_alternative_en: The old way is manual pacing cuts, line-by-line captions placed around the face
+    and fixed templates in CapCut, Jianying or Premiere; copying a reference video means eyeballing its
+    cut points by hand.
+  usage_reason: 推断：相较手动拆解参考视频再逐句排字幕，它把“看参考片—记剪辑点—套到自己的素材”压缩成一次输入参考视频即产出模板的动作，省掉人工对齐节奏和字幕避脸这两步；因此手上有口播素材、又想快速复刻某种成熟包装风格的个人创作者或小团队会在赶发布节奏时选它。
+  usage_reason_en: 'Inference: versus manually deconstructing a reference video and placing captions line
+    by line, it compresses ''watch the reference, note the cut points, apply them to my footage'' into
+    one reference-video input that yields a reusable template, removing the manual pacing-alignment and
+    caption-avoidance steps; so solo creators or small teams with raw talking-head footage who want to
+    replicate a proven packaging style quickly would pick it when racing a publishing schedule.'

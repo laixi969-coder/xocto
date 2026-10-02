@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNb1RoSGdmVHlr
 summary: Instinct’s new product recommendations are giving some users the ick TechCrunch
 first_seen: '2026-09-30T15:56:28Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

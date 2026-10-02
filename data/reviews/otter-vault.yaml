@@ -1,0 +1,86 @@
+- id: req-initial-otter-vault-2026-10-02
+  project_slug: otter-vault
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决密钥误写与泄露问题，但公开材料未说明具体旧流程与不采用的后果，价值结构不完整。
+    evidence_ids:
+    - ev-d4171d75041ef0b8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，无用户反馈或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-d4171d75041ef0b8
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，收费方式与目标客户均未披露。
+    evidence_ids:
+    - ev-d4171d75041ef0b8
+  - gate: truth
+    status: insufficient
+    reason: 未说明拦截范围、误报处理与密钥恢复方式，交付确定性无法核对。
+    evidence_ids:
+    - ev-d4171d75041ef0b8
+  next_validation: 收集该产品的官方定价页或文档，确认拦截范围、误报处理与密钥恢复机制。
+  market: ''
+  job: 工程师在编写或调试代码时把 API 密钥粘进文件或终端，处理这些含密钥的文本，要完成密钥不外泄并被安全保存的任务。
+  job_en: An engineer pastes API keys into files or terminals while writing or debugging code, handling
+    text containing keys, aiming to keep them from leaking and store them safely.
+  pain: 公开材料只说明它在密钥出现时捕获并本地加密，未给出泄露事故、清理耗时或用户抱怨，痛点强度无法确认。
+  pain_en: Public material only says it catches keys as they appear and encrypts them locally; it gives
+    no leakage incidents, cleanup time or user complaints, so pain intensity cannot be confirmed.
+  current_alternative: 目前多靠提交前扫描工具、代码审查或事后人工排查来清理误提交的密钥。
+  current_alternative_en: Today teams mostly rely on pre-commit scanners, code review or after-the-fact
+    manual checks to clean up mistakenly committed keys.
+  usage_reason: 推断：相较事后扫描，它在密钥写入的当下拦截并加密，省去事后排查与轮换这一步，因此经常在脚本和终端里使用密钥的小团队会尝试它；缺少采用与留存证据。
+  usage_reason_en: 'Inference: compared with after-the-fact scanning, it intercepts and encrypts at the
+    moment of writing, removing the later search-and-rotate step, so small teams frequently using keys
+    in scripts and terminals may try it; adoption and retention evidence is missing.'
+- id: req-full-otter-vault-2026-10-02
+  project_slug: otter-vault
+  level: full
+  reviewed_at: '2026-10-02T02:15:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决密钥误写与泄露，但公开材料只有一句定位，未说明具体旧流程、不采用的后果与交付边界，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-3e0f5977d87647ed
+    - ev-0c86d5bb74a15a8e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Otter Vault 官方仓库或官网的 README、issue 与部署文档，确认其拦截范围、误报处理与密钥恢复机制是否公开可核对。
+  market: ''
+  job: 软件工程师或安全工程师在编写、调试代码或操作终端时，把 API 密钥粘进文件、脚本或命令行，需要在不打断当前编码流程的前提下，让这些密钥不落入明文文件或终端历史，并被安全保存下来。
+  job_en: A software or security engineer pastes API keys into files, scripts or the command line while
+    writing and debugging code, and needs those keys to stay out of plaintext files and shell history
+    and be stored safely without interrupting the coding flow.
+  pain: 公开材料只有一句产品定位，未给出任何泄露事故、清理耗时、轮换成本或用户抱怨，无法确认密钥误写带来的痛点强度与频率。
+  pain_en: Public material offers only a one-line positioning statement, with no leakage incidents, cleanup
+    time, rotation cost or user complaints, so the intensity and frequency of the pain from mis-pasted
+    keys cannot be confirmed.
+  current_alternative: 公开材料未描述现有做法；按行业常识推断，团队多依赖提交前扫描工具、代码审查或事后人工排查来清理误提交的密钥。
+  current_alternative_en: Public material does not describe existing practice; by general industry inference,
+    teams mostly rely on pre-commit scanners, code review or after-the-fact manual checks to clean up
+    mistakenly committed keys.
+  usage_reason: 推断：若产品真能在密钥写入的当下拦截并本地加密，它相较事后扫描可省去排查与轮换这一步，经常在脚本和终端里使用密钥的小团队可能因此尝试；但缺少采用、留存或用户反馈证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if the product truly intercepts and encrypts locally at the moment of writing,
+    it could remove the later search-and-rotate step versus after-the-fact scanning, so small teams frequently
+    using keys in scripts and terminals might try it; but adoption, retention or user-feedback evidence
+    is missing, so this motive cannot be confirmed.'

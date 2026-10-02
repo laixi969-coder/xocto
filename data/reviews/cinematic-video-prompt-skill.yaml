@@ -137,3 +137,48 @@
     as a Claude Skill, so creators can look up and substitute terms in place while writing prompts, skipping
     repeated retries; this is inference from product capability, with no retention or repeat-use evidence
     yet.
+- id: req-full-cinematic-video-prompt-skill-2026-10-02
+  project_slug: cinematic-video-prompt-skill
+  level: full
+  reviewed_at: '2026-10-02T02:13:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非英语创作者写 AI 视频提示词时缺镜头语言词汇、只能反复试错的问题，术语表加 Claude Skill 直接替换查词与重写这一步，不采用的代价是重试算力与时间，交付物是可粘贴的提示词文本。
+    evidence_ids:
+    - ev-8d28d53d846d466f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 102 增至 135，说明开发者持续关注，但无用户评价、使用频次或社区讨论，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-8d28d53d846d466f
+    - ev-db24c3f2ed59c763
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，词表本身易被复制，钱可能来自模板包、课程或企业定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8d28d53d846d466f
+  - gate: truth
+    status: supported
+    reason: 目标贴近写提示词这一第一性动作，交付物是可直接粘贴的提示词文本，边界清楚；但成片质量仍依赖模型，需人工筛选确认。
+    evidence_ids:
+    - ev-8d28d53d846d466f
+  next_validation: 收集该仓库的 issue、discussion 或 README 更新，确认是否有创作者反馈实际使用与术语覆盖缺口。
+  market: ''
+  job: 短视频创作者和广告片导演在写 AI 视频提示词时，把镜头角度、运镜、布光、构图、调色这些拍摄要求转成 Veo 3、Kling、Sora、Runway、Midjourney 能读懂的提示词文本，再自行筛选成片。
+  job_en: Short-video creators and commercial directors writing AI video prompts must turn shooting requirements
+    such as camera angle, movement, lighting, composition and grading into prompt text readable by Veo
+    3, Kling, Sora, Runway and Midjourney, then screen the resulting clips themselves.
+  pain: 非英语创作者缺少镜头语言词汇，只能写笼统描述或反复重写提示词，生成结果与预期构图、运镜不符，重试消耗算力与时间。
+  pain_en: Non-English creators lack camera-language vocabulary, so they write vague descriptions or rewrite
+    prompts repeatedly; outputs miss the intended framing or movement, and retries burn compute and time.
+  current_alternative: 现在多靠英文摄影教程、零散博客词表、在社区里问人，或直接反复重写提示词。
+  current_alternative_en: Today they rely on English cinematography tutorials, scattered blog glossaries,
+    asking in communities, or simply rewriting prompts over and over.
+  usage_reason: 相较翻教程和盲试，它把 700 多个镜头术语按角度、运镜、布光、构图、调色归类并配越南语解释，还可通过 Claude Skill 直接调用，创作者可查词替换，减少一轮轮重写；这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with reading tutorials and blind trial-and-error, it groups 700+ shot terms
+    by angle, movement, lighting, composition and grading with Vietnamese explanations and can be invoked
+    via Claude Skill, letting creators look up and substitute terms instead of rewriting repeatedly; this
+    is inference from product capability, with no retention or repeat-use evidence yet.

@@ -3,14 +3,15 @@ slug: huggingface-transformers-release-5180
 name: Transformers
 builder: huggingface
 category: ''
-summary_zh: 这是 公开模型社区 官方模型库的版本更新，面向自行部署语音处理流程的开发者：他们原本需要单独接入说话人分离模型，现在可直接在 Transformers 中调用 Nemotron 3
-  Diarization，输入音频后得到带说话人归属与先后顺序的分段结果，流式与离线两种方式均可用。具体集成流程与交付质量仍待核验。
+summary_zh: 这是 公开模型社区 官方模型库 Transformers 的 5.18.0 版本更新，面向使用该库的开发者：在加载音频处理流程时，可直接调用新增的 Nemotron 3 Diarization
+  开源权重，对会议、客服通话、访谈等录音执行说话人分离，输出“谁在何时说话”并按首次出现顺序排列说话人，最多支持八人，流式与离线两种推理方式均可。它交付的是模型权重与调用接口，不是面向终端用户的成品应用，具体业务集成与结果校验仍由使用方自行完成。
 inspiration: ''
-summary_en: 'This is a version update to public model community''s official model library, aimed at developers
-  running their own speech pipelines: instead of integrating a separate diarization model, they can call
-  Nemotron 3 Diarization inside Transformers, feed in audio and get speaker-attributed segments ordered
-  by first arrival, in either streaming or offline mode. The concrete integration flow and delivery quality
-  remain unverified.'
+summary_en: 'This is the 5.18.0 release of public model community''s official Transformers library, aimed
+  at developers using it: while loading an audio pipeline they can call the newly added open-weight Nemotron
+  3 Diarization model to run speaker diarization on meeting, support-call or interview recordings, outputting
+  who spoke when with speakers ordered by first arrival, for up to eight speakers, in both streaming and
+  offline inference. It delivers model weights and an API rather than a finished end-user application,
+  so business integration and result checking remain with the adopter.'
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -310,7 +311,7 @@ summary: "## New Model additions\r\n\r\n\r\n### Nemotron 3 Diarization\r\n\r\n<i
   \ (#47199)\r\n* @jp1924\r\n    * add HyperClovaX Vision (#44314)"
 first_seen: '2026-09-30T16:46:27Z'
 last_seen: '2026-10-02T01:41:55Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:

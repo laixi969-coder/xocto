@@ -1,0 +1,81 @@
+- id: req-initial-twin-2026-10-02
+  project_slug: twin
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句“住在你 Mac 上的小搭档”，价值关无法成立。
+    evidence_ids:
+    - ev-cc36d20c7012247b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有任何采用、评价或场景共识材料。
+    evidence_ids:
+    - ev-cc36d20c7012247b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids:
+    - ev-cc36d20c7012247b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-cc36d20c7012247b
+  next_validation: 收集该产品的官方说明页或演示材料，确认它接收什么输入、执行什么动作、交付什么结果。
+  market: ''
+  job: Mac 用户在日常使用电脑时，希望有一个常驻的小助手处理某些尚未说明的任务，但候选资料未交代具体是谁、在什么情况下、处理什么材料、要完成什么任务。
+  job_en: A Mac user wants an always-on small assistant to handle some unspecified task during daily computer
+    use, but the candidate material does not state who, in what situation, with what material, or to what
+    end.
+  pain: 候选资料未给出任何痛点描述，无法判断用户原来在哪一步感到难受或绕路。
+  pain_en: The candidate material provides no pain description, so it is impossible to tell which step
+    users previously found painful or worked around.
+  current_alternative: 未提供，无法确认用户此前用什么方式完成同类任务。
+  current_alternative_en: Not provided; the prior way users handled the same task cannot be confirmed.
+  usage_reason: 资料只有一句产品定位，既没有说明它减少哪一步负担，也没有可核对的结果，因此无法解释用户为何会选择它。
+  usage_reason_en: The material contains only a one-line positioning statement, with no step it removes
+    and no checkable result, so it cannot explain why a user would choose it.
+- id: req-full-twin-2026-10-02
+  project_slug: twin
+  level: full
+  reviewed_at: '2026-10-02T02:16:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句“住在你 Mac 上的小搭档”，输入、动作、交付全缺，价值关无法成立。
+    evidence_ids:
+    - ev-874437a20c7b269a
+    - ev-523bd6311926f987
+    - ev-84690a15548895c3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Twin 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 候选资料只给出“住在你 Mac 上的小搭档”一句，未说明是谁、在什么情况下、处理什么材料、要完成什么任务，因此无法还原具体使用场景。
+  job_en: The candidate material offers only 'a tiny buddy that lives on your Mac' and does not state
+    who, in what situation, with what material, or to what end, so no concrete job can be reconstructed.
+  pain: 公开材料没有任何痛点描述，无法判断用户原来在哪一步感到难受或绕路，也无法判断该痛点是刚性还是可有可无。
+  pain_en: The public material contains no pain description, so it is impossible to tell which step users
+    found painful or worked around, nor whether the pain is rigid or optional.
+  current_alternative: 未提供。资料未说明用户此前用什么方式完成同类任务，因此无法与旧做法对比。
+  current_alternative_en: Not provided. The material does not state how users previously handled the same
+    task, so no comparison with the old approach is possible.
+  usage_reason: 资料只有一句产品定位，既没有说明它减少哪一步负担，也没有可核对的结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: The material contains only a one-line positioning statement, with no step it removes
+    and no checkable result, so it cannot explain which users would choose it and when.

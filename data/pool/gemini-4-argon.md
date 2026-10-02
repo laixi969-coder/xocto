@@ -3,11 +3,14 @@ slug: gemini-4-argon
 name: Gemini 4 Argon
 builder: bradleyg223
 category: ''
-summary_zh: Google 于 2026 年 9 月 30 日发布 Gemini 4 Argon 模型，官方博客给出模型说明，社区围绕其智能水平、性能与价格展开分析。它本身是模型层能力发布，不是面向具体工作流的独立产品。
+summary_zh: 2026年9月30日，Google 发布 Gemini 4 Argon 模型，并出现针对其智能水平、性能与价格的分析讨论。这属于模型发布层面的行业变化，意味着前沿模型能力与定价竞争继续推进，AI
+  应用方在模型选型与推理成本上获得新的可比较选项；材料未提供具体基准分数或定价数字，相关成本影响为推断。
 inspiration: ''
-summary_en: Google released the Gemini 4 Argon model on September 30, 2026, with an official blog post
-  and community analysis of its intelligence, performance and price. It is a model-layer capability release,
-  not a standalone product aimed at a specific workflow.
+summary_en: 'On September 30, 2026, Google released the Gemini 4 Argon model, accompanied by analysis
+  of its intelligence, performance and price. This is a model-release-level industry change: frontier
+  capability and pricing competition continue, giving AI application builders a new comparable option
+  for model selection and inference cost; the material provides no specific benchmark scores or pricing
+  figures, so cost implications are inferred.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +26,7 @@ canonical_url: https://blog.google/innovation-and-ai/models-and-research/gemini-
 summary: 'See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236'
 first_seen: '2026-09-30T20:04:37Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

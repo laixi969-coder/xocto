@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/clef-flash
 summary: Typed probabilistic decisions from a state + schema
 first_seen: '2026-10-01T17:09:07Z'
 last_seen: '2026-10-02T01:42:12Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

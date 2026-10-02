@@ -148,3 +148,57 @@
   usage_reason: 用户要完成的任务是：开发者在本地运行 Claude Code 时审计其文件与命令操作；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers auditing Claude Code file and command actions on their own
     machines Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-cc-monitor-2026-10-02
+  project_slug: cc-monitor
+  level: full
+  reviewed_at: '2026-10-02T02:12:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是本地 AI 编码代理操作不可追溯的问题：代理可自主改文件、跑命令，误改或越权后开发者缺少逐步留痕，只能翻终端输出或 git diff 事后比对。仓库定位明确指向该任务，属工作流结构推理；痛点刚性与交付细节仍缺用户证据。
+    evidence_ids:
+    - ev-16abd4ff912e4209
+    - ev-2583d687323e1910
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 43 增至 61，说明有开发者关注该审计需求，但公开材料没有 issue、discussion 或评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-16abd4ff912e4209
+    - ev-262edf832049e71f
+    - ev-2583d687323e1910
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费记录或企业采购信息，钱可能来自个人开发者捐赠、企业定制或托管版，属判断而非已验证事实；买方不清不反推需求不存在。
+    evidence_ids:
+    - ev-16abd4ff912e4209
+    - ev-2583d687323e1910
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句定位，未见部署文档、记录范围、告警机制与安全边界说明，无法核对审计是否完整、能否确定性交付；这是交付证据缺口，不否定已识别的需求。
+    evidence_ids:
+    - ev-16abd4ff912e4209
+    - ev-2583d687323e1910
+  next_validation: 追踪 CC-Monitor 仓库的 README、issue 与 discussion，确认其记录范围、告警方式与部署文档，作为审计交付是否可确定发生的公开证据。
+  market: ''
+  job: 开发者在本地用 Claude Code 让 AI 代理改代码或执行命令时，打开 CC-Monitor 记录代理对文件与命令的每一步操作，事后需要时回看这份审计记录，确认代理到底动了什么。
+  job_en: When developers let Claude Code's agent edit code or run commands locally, they open CC-Monitor
+    to record each file and command action the agent takes, then review that audit trail afterwards to
+    confirm what the agent actually did.
+  pain: 公开材料只给出产品定位（监控并审计 Claude Code 在本机的每一步操作），未提供用户抱怨或案例；从工作流结构推理：代理可自主写文件、执行 shell 命令，一旦误删、误改或越权访问，开发者缺少可回看的操作留痕，事后无法定位是哪一步动作造成后果。
+  pain_en: 'Public materials give only the product positioning (monitor and audit every action Claude
+    Code takes on your computer), with no user complaints or cases; by workflow inference: an agent can
+    autonomously write files and run shell commands, so if it deletes, overwrites, or over-reaches, the
+    developer has no reviewable action trail and cannot trace which step caused the outcome.'
+  current_alternative: 旧做法是依赖 Claude Code 自身的终端输出与权限确认提示、翻 shell 历史或 git diff 事后比对，或干脆凭记忆判断代理改了什么；这些方式不形成按操作逐步留痕的独立审计记录。
+  current_alternative_en: The old approach is to rely on Claude Code's own terminal output and permission
+    prompts, scroll shell history or compare git diffs after the fact, or simply recall what the agent
+    changed; none of these produce a standalone, step-by-step audit record of each action.
+  usage_reason: 推断：相较翻终端输出或 git diff，CC-Monitor 把代理的文件与命令动作单独记录成可回看的审计轨迹，减少事后逐条比对、无法定位具体动作的负担，因此在意代理越权或误操作、需要事后追溯的本地
+    Claude Code 用户会在运行代理时选择它；公开材料尚未给出记录范围、告警方式与留存证据。
+  usage_reason_en: 'Inference: versus scrolling terminal output or git diffs, CC-Monitor records the agent''s
+    file and command actions as a separate reviewable audit trail, cutting the burden of after-the-fact
+    line-by-line comparison and of being unable to pinpoint the specific action, so local Claude Code
+    users who care about agent over-reach or mistakes and need post-hoc tracing would choose it while
+    running the agent; public materials do not yet show recording scope, alerting, or retention evi'

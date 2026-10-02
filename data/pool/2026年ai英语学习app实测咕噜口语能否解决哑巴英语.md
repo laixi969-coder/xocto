@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE82YVY0VjRMV1k1
 summary: 2026年AI英语学习APP实测：「咕噜口语」能否解决哑巴英语 凤凰网科技
 first_seen: '2026-09-30T08:54:49Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

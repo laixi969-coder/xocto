@@ -1,0 +1,79 @@
+- id: req-initial-chatsh-2026-10-02
+  project_slug: chatsh
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决用户自助找不到答案的问题，痛点方向可辨，但材料未说明旧搜索失效的具体表现与不采用的后果，价值关证据不足。
+    evidence_ids:
+    - ev-406b1731d3499362
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布记录，无用户评价或客户案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-406b1731d3499362
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与收费方式，钱从哪一方来无法判断，这是未知而非已验证事实。
+    evidence_ids:
+    - ev-406b1731d3499362
+  - gate: truth
+    status: insufficient
+    reason: 无法核对答案是否贴近用户真实问题、能否确定性交付，以及人工兜底边界如何设置。
+    evidence_ids:
+    - ev-406b1731d3499362
+  next_validation: 收集 Chat.sh 官方页面或文档，确认它接收哪些文档与提问、输出何种答案形式，以及是否列出定价或客户案例。
+  market: ''
+  job: 客户支持团队在用户自助查找答案、现有帮助中心搜索失效时，需要让用户拿到可用的答案。
+  job_en: A customer support team, when users self-serve and the existing help center search fails, needs
+    users to get a usable answer.
+  pain: 作者称 Intercom 搜索失效，说明旧搜索找不到答案这一痛点存在，但材料未说明失效的具体表现、影响范围与频率。
+  pain_en: The author says Intercom's search broke, indicating the pain of search failing to find answers
+    exists, but the material does not describe how it fails, its scope or frequency.
+  current_alternative: 现有替代是 Intercom 等客服套件自带的帮助中心搜索，作者称其搜索已失效。
+  current_alternative_en: The current alternative is the built-in help center search of suites such as
+    Intercom, which the author says broke.
+  usage_reason: 无法判断：材料未说明它相较旧搜索减少了哪一步负担或改善了哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old search
+    or which checkable result it improves, so there is no basis to explain who would choose it and when.'
+- id: req-full-chatsh-2026-10-02
+  project_slug: chatsh
+  level: full
+  reviewed_at: '2026-10-02T02:12:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决用户自助找不到答案的问题，痛点方向可辨，但材料未说明旧搜索失效的具体表现与不采用的后果，价值关证据不足。
+    evidence_ids:
+    - ev-406b1731d3499362
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Chat.sh 官方页面或文档，确认它接收哪些文档与提问、输出何种答案形式，以及是否列出定价或客户案例。
+  market: ''
+  job: 客户支持团队在用户自助查找答案、现有帮助中心搜索失效时，需要让用户拿到可用的答案。
+  job_en: A customer support team, when users self-serve and the existing help center search fails, needs
+    users to get a usable answer.
+  pain: 作者称 Intercom 搜索失效，说明旧搜索找不到答案这一痛点存在，但材料未说明失效的具体表现、影响范围与频率。
+  pain_en: The author says Intercom's search broke, indicating the pain of search failing to find answers
+    exists, but the material does not describe how it fails, its scope or frequency.
+  current_alternative: 现有替代是 Intercom 等客服套件自带的帮助中心搜索，作者称其搜索已失效。
+  current_alternative_en: The current alternative is the built-in help center search of suites such as
+    Intercom, which the author says broke.
+  usage_reason: 无法判断：材料未说明它相较旧搜索减少了哪一步负担或改善了哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old search
+    or which checkable result it improves, so there is no basis to explain who would choose it and when.'

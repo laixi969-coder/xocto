@@ -1,0 +1,89 @@
+- id: req-initial-jev-judge-mcp-2026-10-02
+  project_slug: jev-judge-mcp
+  level: initial
+  reviewed_at: '2026-10-02T01:41:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体判断逻辑散落在提示词、放行标准不可调且难追溯的问题，痛点具体，且把模型判断与策略放行拆开是可核对的结构改进。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有一定关注度，但没有采用案例或 issue 讨论说明开发者是否真的把它接入生产流程，共识仍待观察。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价信息，可能的付费方是使用该组件的企业开发团队，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  - gate: truth
+    status: insufficient
+    reason: 未披露各判断工具在真实业务中的准确率与人工复核比例，无法判断其承诺的放行策略能否确定性交付。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  next_validation: 抓取该仓库的 README 与 issue 讨论，确认是否有团队公开说明接入场景、判断准确率或人工复核比例。
+  market: ''
+  job: 构建 MCP 智能体的开发者在处理候选内容时，需要先做校验、筛选、分类或打分，再决定这条内容自动通过、转人工复核还是升级处理。
+  job_en: When handling candidate content, developers building MCP agents need to first verify, screen,
+    classify, or score it, then decide whether it is auto-approved, sent to human review, or escalated.
+  pain: 智能体直接调用模型做判断时，放行标准散落在提示词里，出错难以追溯，也无法按业务风险调整自动与人工的边界。
+  pain_en: When agents call models directly for judgment, release criteria are scattered across prompts,
+    errors are hard to trace, and the boundary between automatic and human handling cannot be tuned to
+    business risk.
+  current_alternative: 现有做法是自行编写提示词与校验代码，或在业务系统里硬编码通过规则。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：相较把判断逻辑写死在提示词里，这套工具把模型判断与放行策略拆成两层，开发者可以按风险调整自动通过、复核与升级的阈值，出错时也能定位到具体判断环节，因此对错误放行代价高的团队更有吸引力。
+  usage_reason_en: 'Inference: compared with hard-coding judgment into prompts, these tools split model
+    judgment and release policy into two layers, letting developers tune auto-approve, review, and escalation
+    thresholds by risk and trace errors to a specific judgment step, which appeals to teams where a wrong
+    release is costly.'
+- id: req-full-jev-judge-mcp-2026-10-02
+  project_slug: jev-judge-mcp
+  level: full
+  reviewed_at: '2026-10-02T02:14:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体判断逻辑散落在提示词、放行标准不可调且难追溯的问题，痛点具体；把模型判断与策略放行拆成两层是可核对的结构改进，属工作流结构推理，尚无准确率或复核比例数据。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 84 星，属关注度而非采用证据；公开材料没有客户案例、issue 讨论或部署记录说明开发者是否真的把它接入生产流程，共识仍待观察。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，可能的付费方是使用该组件的企业开发团队或平台方，属判断而非已验证事实；公开材料未显示任何付费或采购路径。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  - gate: truth
+    status: insufficient
+    reason: 未披露各判断工具在真实业务中的准确率与人工复核比例，无法判断其承诺的自动通过、复核与升级策略能否确定性交付，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认是否有团队公开说明接入场景、判断准确率或人工复核比例。
+  market: ''
+  job: 构建 MCP 智能体的开发者在流程中处理候选内容（如待入库条目、待回复工单、待排序结果）时，需要先做校验、筛选、分类、重排或打分，再决定该条内容自动通过、转人工复核还是升级处理。
+  job_en: Developers building MCP agents, when processing candidate content (items to ingest, tickets
+    to answer, results to rank), must first verify, screen, classify, rerank, or score it, then decide
+    whether it is auto-approved, sent to human review, or escalated.
+  pain: 公开材料显示该工具把判断与放行拆成两层，反推出的痛点是：智能体直接让模型判断时，放行标准散落在提示词里，阈值不可按业务风险调整，出错后难以定位是哪一步判断放行。
+  pain_en: 'The public description splits judgment from release policy, implying the pain: when agents
+    let the model judge directly, release criteria are scattered in prompts, thresholds cannot be tuned
+    to business risk, and errors cannot be traced to a specific judgment step.'
+  current_alternative: 公开材料未直接说明现有做法；按工作流结构推断，开发者目前自行编写提示词与校验代码，或在业务系统里硬编码通过规则。
+  current_alternative_en: Public materials do not state the current practice; by workflow inference, developers
+    today write their own prompts and validation code, or hard-code pass rules in the business system.
+  usage_reason: 推断：相较把判断逻辑写死在提示词里，该工具提供带类型的判断动作并把模型判断与策略放行分成两层，开发者可按风险调整自动通过、复核与升级的阈值，出错时能定位到具体判断环节，因此对错误放行代价高的团队更有吸引力。
+  usage_reason_en: 'Inference: compared with hard-coding judgment into prompts, it offers typed judgment
+    actions and splits model judgment from policy release into two layers, letting developers tune auto-approve,
+    review, and escalation thresholds by risk and trace errors to a specific step, appealing to teams
+    where a wrong release is costly.'

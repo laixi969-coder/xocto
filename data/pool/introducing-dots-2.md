@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFB
 summary: Introducing dots OpenAI
 first_seen: '2026-09-30T00:47:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

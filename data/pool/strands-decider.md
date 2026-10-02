@@ -22,7 +22,7 @@ summary: A small, fast decision model, or system one model, for agentic workflow
   or rate on a scale faster than an LLM, with a calibrated confidence on every decision.
 first_seen: '2026-09-29T16:36:38Z'
 last_seen: '2026-10-02T01:41:55Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

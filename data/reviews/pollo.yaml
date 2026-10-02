@@ -1,0 +1,89 @@
+- id: req-initial-pollo-2026-10-02
+  project_slug: pollo
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决营销和电商人员缺拍摄预算时拿不到足量可投放素材的问题，痛点刚性且旧流程成本高；买方是营销团队或卖家，具体付费方仍待核验。
+    evidence_ids:
+    - ev-bbb1c608e121eb7a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示访问量规模与环比增长，属于关注度证据，不能证明用户已把它长期留在素材生产流程里。
+    evidence_ids:
+    - ev-bbb1c608e121eb7a
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页或按成片、按效果计费的说明，钱可能来自 C 端订阅或 B 端采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bbb1c608e121eb7a
+  - gate: truth
+    status: insufficient
+    reason: 生成素材能否直接商用、是否需人工复核版权与品牌合规，公开材料未说明，交付确定性仍缺一环。
+    evidence_ids:
+    - ev-bbb1c608e121eb7a
+  next_validation: 收集 Pollo 官方定价页与商用授权条款，确认按什么计价以及生成素材能否直接用于商业投放。
+  market: ''
+  job: 营销人员和电商卖家在缺少拍摄预算或周期的情况下，需要把文字创意或现有商品图变成可投放、可上架的图片和短视频素材。
+  job_en: Marketers and e-commerce sellers without shoot budget or time need to turn text ideas or existing
+    product photos into images and short videos ready for ads and listings.
+  pain: 传统做法要请拍摄团队、租场地、后期剪辑，单条素材成本高、周期以周计，改一版就要重拍，导致素材数量上不去、投放测试跑不起来。
+  pain_en: The traditional route needs a crew, a location and editing; each asset is costly and takes
+    weeks, and any revision means a reshoot, so teams cannot produce enough variants to test campaigns.
+  current_alternative: 外包拍摄剪辑、买素材库、用通用图像或视频生成工具手工拼凑，再靠设计师逐条修改。
+  current_alternative_en: Outsourced shoots and editing, stock libraries, or stitching together generic
+    image and video generators with designers fixing each asset by hand.
+  usage_reason: 推断：相较外包拍摄或通用生成工具，它把提示词、图片或视频直接转成成品素材，省掉拍摄和逐条剪辑这一步，让没有制作团队的人也能在投放前拿到多条可测素材；是否被长期留在工作流中，公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus outsourced shoots or generic generators, it turns prompts, images
+    or videos directly into finished assets, removing the shoot and per-asset editing step so teams without
+    production staff can get multiple testable assets before a campaign; no public retention or repeat-purchase
+    evidence yet.'
+- id: req-full-pollo-2026-10-02
+  project_slug: pollo
+  level: full
+  reviewed_at: '2026-10-02T02:15:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决营销与电商人员缺拍摄预算时拿不到足量可投放素材的问题，痛点刚性且旧流程成本高；官网自述可生成、编辑并交付成品视觉，属工作流结构推理，买方具体付费方仍待核验。
+    evidence_ids:
+    - ev-e7be3a6e90fae5d3
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅见官网自述与检索覆盖，未见用户评价、客户案例或持续采用数据，无法证明它已被长期留在素材生产流程里。
+    evidence_ids:
+    - ev-e7be3a6e90fae5d3
+    - ev-445a82c2249bfdf9
+  - gate: model
+    status: insufficient
+    reason: 官网写可免费试用，但未见官方定价页或按成片、按效果计费说明；钱可能来自 C 端订阅或 B 端采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e7be3a6e90fae5d3
+  - gate: truth
+    status: insufficient
+    reason: 生成素材能否直接商用、是否需人工复核版权与品牌合规，公开材料未说明，交付确定性仍缺一环。
+    evidence_ids:
+    - ev-e7be3a6e90fae5d3
+  next_validation: 收集 Pollo 官方定价页与商用授权条款，确认按什么计价以及生成素材能否直接用于商业投放。
+  market: ''
+  job: 营销人员和电商卖家在缺少拍摄预算或周期时，把文字创意或已有商品图输入 Pollo，生成可投放的图片与短视频素材，用于广告测试和商品详情页展示。
+  job_en: Marketers and e-commerce sellers without shoot budget or time feed text ideas or existing product
+    photos into Pollo to produce images and short videos for ad testing and product listings.
+  pain: 公开材料显示其定位为面向创作者与营销人员的 AI 创作套件，可生成、编辑并交付成品视觉；据此推断，旧流程需请拍摄团队、租场地、后期剪辑，单条素材成本高、周期以周计，改一版就要重拍，素材数量上不去、投放测试跑不起来。
+  pain_en: Public material positions it as an AI creative suite for creators and marketers that generates,
+    edits and ships production-ready visuals; by inference the old route needs a crew, location and editing,
+    so each asset is costly and slow, revisions mean reshoots, and teams cannot produce enough variants
+    to test.
+  current_alternative: 外包拍摄剪辑、购买素材库，或用通用图像/视频生成工具手工拼凑后由设计师逐条修改。
+  current_alternative_en: Outsourced shoots and editing, stock libraries, or stitching together generic
+    image and video generators with designers fixing each asset by hand.
+  usage_reason: 推断：相较外包拍摄或通用生成工具，它把提示词、图片或视频直接转成成品素材，省掉拍摄和逐条剪辑这一步，让没有制作团队的人在投放前拿到多条可测素材；公开材料尚无留存或复购证据，不能断言已被长期留在工作流中。
+  usage_reason_en: 'Inference: versus outsourced shoots or generic generators, it turns prompts, images
+    or videos directly into finished assets, removing the shoot and per-asset editing step so teams without
+    production staff get multiple testable assets before a campaign; no public retention or repeat-purchase
+    evidence yet.'

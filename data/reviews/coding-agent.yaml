@@ -235,3 +235,51 @@
     reading, planning, execution, and validation into one local loop, cutting manual context shuttling
     and hand-stitched validation, so developers who need cross-file changes without exporting code would
     pick it for local repository tasks; no user feedback yet confirms this motive.'
+- id: req-full-coding-agent-2026-10-02
+  project_slug: coding-agent
+  level: full
+  reviewed_at: '2026-10-02T02:13:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在本地仓库完成跨文件规划、执行、验证与交付的需求，痛点是上下文搬运与验证负担重、代码不便外传；公开材料仅有定位句与星标，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-2089bca8b91891af
+    - ev-9ceabd9fbf84c65a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从117升至169，说明关注度上升，但星标只属关注度证据，不能证明目标开发者已把它留在日常开发工作流中持续使用。
+    evidence_ids:
+    - ev-5b4f7fc02a867e73
+    - ev-9ceabd9fbf84c65a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，to C 开发者自用还是 to B 团队采购无法核验；这是判断而非已验证事实，不推翻需求成立。
+    evidence_ids:
+    - ev-2089bca8b91891af
+  - gate: truth
+    status: insufficient
+    reason: 支持语言、执行边界、验证方式与人工介入点均未公开，交付能否稳定发生缺少可复现证据，安全边界也未见说明。
+    evidence_ids:
+    - ev-2089bca8b91891af
+  next_validation: 追踪该仓库 README、部署文档与 issue/discussion，确认支持语言、执行边界、验证方式及是否有真实使用反馈。
+  market: ''
+  job: 开发者在本地仓库中处理已有代码库时，让代理读取仓库上下文，完成从规划、改代码、验证到交付的整段任务，而不是只在编辑器里补全单行代码。
+  job_en: A developer working in a local repository has the agent read repository context and carry a
+    task from planning through code changes, validation, and delivery, rather than only completing single
+    lines in an editor.
+  pain: 公开材料只给出定位句，未提供用户抱怨或案例；从工作流结构推断，痛点是跨文件改动需要人工反复搬运上下文、逐条执行与验证，且代码不能离开本地环境。
+  pain_en: Public materials give only a positioning line with no user complaints or cases; inferred from
+    workflow structure, the pain is that multi-file changes require manually shuttling context and running
+    and validating each step, while code cannot leave the local environment.
+  current_alternative: 旧做法是编辑器内补全工具加人工在终端执行命令、跑测试并提交，或把代码片段复制到云端对话式助手再手工贴回仓库。
+  current_alternative_en: The old approach is editor autocomplete plus manually running commands, tests,
+    and commits in a terminal, or copying snippets into a cloud chat assistant and pasting results back
+    into the repository.
+  usage_reason: 推断：相较逐条手工搬运上下文，它以本地优先方式直接读取仓库并串联规划、执行、验证、交付，减少复制粘贴与手工跑验证的步骤，因此在意代码不出本地、又想让代理端到端改仓库的开发者会在多文件任务中选择它。
+  usage_reason_en: 'Inference: versus manually shuttling context step by step, it reads the repository
+    locally and chains planning, execution, validation, and delivery, cutting copy-paste and manual validation
+    steps, so developers who need code to stay local yet want end-to-end repository changes would choose
+    it for multi-file tasks.'

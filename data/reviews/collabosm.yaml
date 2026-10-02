@@ -204,3 +204,57 @@
     scripts; versus closed APIs it keeps requests on a local endpoint billed in Colab compute units rather
     than tokens. Developers who care about cost and keeping data local but do not want to maintain a GPU
     would pick it when they need to run open models.'
+- id: req-full-collabosm-2026-10-02
+  project_slug: collabosm
+  level: full
+  reviewed_at: '2026-10-02T02:13:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者想用开源大模型却不想自建 GPU 或把数据交给闭源 API 的需求，痛点在于 Colab 手动挂服务易断、端口每次重配、成本不透明；产品用自有 Colab 账号租卡、固定本地
+      /v1、启动前显示费用与自动停机来交付，属工作流结构推理，公开材料尚无用户抱怨原文。
+    evidence_ids:
+    - ev-51af0ad984178794
+    - ev-304362f4f92d783e
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库收藏从 87 升至 95，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或评价说明谁在什么场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-51af0ad984178794
+    - ev-304362f4f92d783e
+  - gate: model
+    status: insufficient
+    reason: 项目本身开源，公开材料未给出定价页或收费方式，钱可能来自用户自付 Colab 算力、赞助或后续托管服务；这是判断而非已验证事实，买方与单位经济仍缺公开证据。
+    evidence_ids:
+    - ev-51af0ad984178794
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺启动前显示费用、自动停机与 CU 账本，但缺少部署文档、可复现实测或 issue 记录来核验 Colab 会话中断、配额限制下交付能否稳定发生，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-51af0ad984178794
+    - ev-59a4e84a0e5bcf4f
+  next_validation: 追踪 collabosm 仓库的 issue 与 discussion，确认是否有开发者报告在 Colab 配额或断连下实际跑通并持续调用本地 /v1 端点。
+  market: ''
+  job: 个人开发者或小团队在本地机器上打开 collabosm，用自己的 Google Colab 账号租一块 A100（40G 或 80G），把 Qwen3 27B 或 Flash-Next 125B-A6B
+    MoE 跑起来，再通过固定的本地 /v1 端点让 Codex 或任意 OpenAI 兼容客户端调用，处理代码补全、带图对话等日常推理任务。
+  job_en: An individual developer or small team opens collabosm locally, rents an A100 (40G or 80G) inside
+    their own Google Colab account, serves Qwen3 27B or Flash-Next 125B-A6B MoE, and calls it through
+    a fixed local /v1 endpoint from Codex or any OpenAI-compatible client for coding and image-chat tasks.
+  pain: 想用开源大模型做本地推理的开发者，要么自购或租用 GPU 承担固定成本与运维，要么直接用云端 API 把代码和图片交给第三方；Colab 免费额度又容易断连、无法稳定挂成常驻端点。公开材料未给出用户抱怨原文，痛点强度属工作流结构推理。
+  pain_en: Developers wanting open-model inference either buy or rent GPUs with fixed cost and ops burden,
+    or send code and images to third-party APIs; free Colab sessions disconnect and cannot stay as a stable
+    endpoint. Public materials give no verbatim user complaints, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 自建 GPU 主机或租云 GPU 手动跑 vLLM/Ollama，直接调用 OpenAI、Anthropic 等闭源 API，或在 Colab notebook
+    里手动加载模型、每次重连后重新配置端口。
+  current_alternative_en: Self-hosted or rented cloud GPUs running vLLM/Ollama manually, closed APIs such
+    as OpenAI or Anthropic, or hand-loading models in a Colab notebook and reconfiguring the port after
+    every reconnect.
+  usage_reason: 相较手动开 Colab notebook 再自己接端口，它把租卡、起服务、暴露固定本地 /v1、自动停机和 CU 用量账本收进一个本地应用，启动前先显示费用，用户不必每次重连后重配客户端；因此在意数据不出本机、又想用开源模型的开发者会在需要临时跑大模型时选它。这是基于产品能力与旧流程的推断，尚无用户反馈佐证。
+  usage_reason_en: Versus hand-rolling a Colab notebook and wiring the port yourself, it bundles renting
+    the GPU, launching the server, exposing a fixed local /v1, auto-stop and a CU ledger into one local
+    app and shows cost before start, so users need not reconfigure clients after each reconnect; developers
+    who want open models without sending data off-machine would pick it for ad-hoc large-model runs. This
+    is an inference from product capability and the old workflow, not yet backed by user fee

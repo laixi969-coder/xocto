@@ -245,3 +245,54 @@
     and the model rewrites in short, plain, AI-tone-free Chinese, removing the repeated prompt-writing
     and line-editing steps; Chinese technical writers needing stable style output are more likely to choose
     it. This is an inference from product capability and task structure, not yet supported by u'
+- id: req-full-zh-tech-writing-2026-10-02
+  project_slug: zh-tech-writing
+  level: full
+  reviewed_at: '2026-10-02T02:16:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档写作缺少可执行文风约束的问题：模型中文常带翻译腔与套话，作者需逐句返工，而《中文技术文档的写作规范》此前只是人读文本。把规范封装为 agent 可调用约束、在生成环节完成改写，交付物明确为中文草稿，属工作流结构推理。
+    evidence_ids:
+    - ev-6c79b2a8bdbae4e2
+    - ev-425a48d016519917
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 278 持续升至 314，说明中文技术写作人群在持续关注并把它纳入 agent 工作流；但收藏属关注度证据，不能证明长期留存或付费，故共识仅到关注层面。
+    evidence_ids:
+    - ev-6c79b2a8bdbae4e2
+    - ev-9b2fe5dd5571874c
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与收藏数，没有定价页、付费主体或采购记录，无法判断 to C 个人开发者还是 to B 文档团队付费；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-3b789c3673cf95d0
+  - gate: truth
+    status: insufficient
+    reason: 交付边界清楚（产出草稿、事实与术语仍需作者核对），但公开材料未提供可复现的改写效果对比、issue 反馈或部署文档，无法核验规范约束在真实文档上的稳定交付。
+    evidence_ids:
+    - ev-adf387836b43d4e0
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，看是否有用户报告实际改写效果、失败案例或将其接入文档流水线的部署说明。
+  market: ''
+  job: 中文技术文档作者（技术写作者、开发者关系/内容运营）在起草或润色说明、教程、API 文档时，把中文草稿交给 AI agent，调用该 Skill 按短句、平实、去 AI 腔的规范改写，产出可继续编辑的中文文档草稿，再由作者核对事实与术语。
+  job_en: A Chinese technical documentation writer (technical writer, DevRel/content ops) drafting or
+    polishing guides, tutorials, and API docs hands a Chinese draft to an AI agent, invokes this Skill
+    to rewrite it under short-sentence, plain, no-AI-tone rules, and gets back an editable Chinese draft
+    that the author still fact- and terminology-checks.
+  pain: 中文技术文档写作长期缺少可执行的统一文风约束：模型生成的中文常带翻译腔、空话和套话，作者要逐句删改；阮一峰《中文技术文档的写作规范》虽被广泛引用，但此前只是人读的规范文本，无法直接约束模型输出，每次改写都要人工重复同一套判断。
+  pain_en: 'Chinese technical writing lacks an executable style constraint: model-generated Chinese tends
+    to carry translationese, filler, and boilerplate that authors must edit sentence by sentence; Ruan
+    Yifeng''s writing rules are widely cited but exist only as human-readable text, so they cannot directly
+    constrain model output and the same judgments must be repeated by hand each time.'
+  current_alternative: 此前作者要么自己逐句改写，要么在提示词里临时粘贴规范片段，要么直接接受模型默认的中文腔调再人工返工；规范本身以文章形式存在，没有可被 agent 调用的封装。
+  current_alternative_en: Authors previously rewrote sentence by sentence themselves, pasted fragments
+    of the rules into ad-hoc prompts, or accepted the model's default Chinese tone and reworked it by
+    hand; the rules existed as an article, not as an agent-callable package.
+  usage_reason: 相较临时粘贴规范或纯人工返工，它把《中文技术文档的写作规范》固化为 agent 可直接调用的写作约束，改写动作在生成环节一次完成，省去作者逐条复述规范并逐句删改 AI 腔的那一步；因此中文技术文档作者在起草或润色阶段会选它。这是基于产品能力与任务结构的推断，尚无用户反馈或案例证实。
+  usage_reason_en: Compared with pasting rules ad hoc or purely manual rework, it fixes Ruan Yifeng's
+    rules into an agent-callable writing constraint so rewriting happens inside generation, removing the
+    step of restating the rules and hand-deleting AI tone sentence by sentence; that is why Chinese technical
+    writers would pick it while drafting or polishing. This is an inference from product capability and
+    task structure, not yet confirmed by user feedback or cases.

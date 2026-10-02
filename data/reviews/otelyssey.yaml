@@ -78,3 +78,46 @@
   usage_reason: 用户要完成的任务是：平台工程师、可观测性运维；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Platform engineers, Observability operations Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-otelyssey-2026-10-02
+  project_slug: otelyssey
+  level: full
+  reviewed_at: '2026-10-02T02:15:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助平台或可观测性工程师给编码 agent 加监控，但公开材料未说明旧流程耗时与不采用的后果，价值结构不完整。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+    - ev-2b20d26cc9bcd473
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue/discussion 与文档，确认插件采集的数据范围、接入现有监控后端的方式及实际部署案例。
+  market: ''
+  job: 平台或可观测性工程师在给团队使用的编码 agent 加监控时，可能通过这个仓库提交插件 issue，由仓库自动校验、评审并收录，最终得到可被 agent 加载的 OpenTelemetry
+    插件。
+  job_en: Platform or observability engineers adding monitoring to team coding agents may submit a plugin
+    issue to this repository, which auto-validates, reviews and lists it, ending with an OpenTelemetry
+    plugin loadable by the agent.
+  pain: 公开材料未说明当前给编码 agent 加监控的具体困难、发生频率或不解决的后果，痛点强度无法确认。
+  pain_en: Public material does not show the concrete difficulty, frequency, or consequence of leaving
+    coding-agent monitoring unsolved, so pain intensity cannot be confirmed.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：若仓库能自动校验并收录插件，工程师可省去自行编写和维护 OpenTelemetry 接入代码这一步，因此需要统一监控多个编码 agent 的团队可能提交插件；缺少采用与留存证据，无法确认已进入日常工作流。
+  usage_reason_en: 'Inference: if the repository auto-validates and lists plugins, engineers could skip
+    writing and maintaining OpenTelemetry integration code themselves, so teams needing unified monitoring
+    across coding agents may submit plugins; adoption and retention evidence is missing, so entry into
+    daily workflows cannot be confirmed.'

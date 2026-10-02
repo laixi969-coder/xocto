@@ -1,6 +1,6 @@
 ---
 slug: the-den-frees-up-10-15-hours-a-week-to-grow-with-chatgpt-wor
-name: The Den frees up 10-15 hours a week to grow with ChatGPT Work
+name: The Den
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: As it opens a new location, the social club prepares grant applications
   3 days and liquor-license materials in 3 hours instead of 4 days.
 first_seen: '2026-10-01T00:00:00Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# The Den frees up 10-15 hours a week to grow with ChatGPT Work
+# The Den
 
 As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.
 

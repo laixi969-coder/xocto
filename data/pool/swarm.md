@@ -21,7 +21,7 @@ canonical_url: https://github.com/samoilev/swarm
 summary: an offline family tree app for macOS
 first_seen: '2026-09-20T16:01:48Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

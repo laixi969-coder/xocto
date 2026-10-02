@@ -24,7 +24,7 @@ summary: 'The 2026 IPO market is reopening selectively, favoring large companies
   list, raise private capital or sell.'
 first_seen: '2026-10-01T11:00:42Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

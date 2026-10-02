@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi_AFBVV95cUxPclhWRTRGU2ly
 summary: The $100-Billion SaaS Opportunity Hiding in Cross-System Labor Bain
 first_seen: '2026-09-29T07:00:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

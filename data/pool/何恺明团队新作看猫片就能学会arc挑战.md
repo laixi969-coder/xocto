@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/499812.html
 summary: 用ImageNet训练encoder
 first_seen: '2026-10-01T15:06:30Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

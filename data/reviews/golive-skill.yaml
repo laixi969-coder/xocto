@@ -324,3 +324,56 @@
     compressing ''read docs—find the setting—configure each item—re-verify'' into one reviewable flow;
     that is why such developers would pick it when an agent has just finished the code and first launch
     is next.'
+- id: req-full-golive-skill-2026-10-02
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-02T02:14:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 agent 写完代码后上线环节分散、需在多个服务商后台手工配置的需求，痛点是漏项与跨后台切换导致产品停在本地；公开说明给出 detect→plan→approve→apply→verify
+      的输入—动作—交付闭环，属工作流结构推理，痛点刚性与交付可确定。
+    evidence_ids:
+    - ev-49a10671e8c3dd5a
+    - ev-0aeb204020cc42ab
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 979 增至 1,166，说明开发者社区持续关注并把它纳入上线工作流候选；但收藏属关注度证据，不能证明持续使用或付费，故共识仅初步成立。
+    evidence_ids:
+    - ev-49a10671e8c3dd5a
+    - ev-bd1179138c320707
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，开源无账号无后端意味着收入路径未在公开证据中核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-49a10671e8c3dd5a
+  - gate: truth
+    status: supported
+    reason: 产品承诺 detect→plan→approve→apply→verify 且关键步骤需用户批准，贴近上线工作的第一性目标；零依赖 Node CLI、无账号无后端无遥测，交付边界与人工确认点公开可核对。
+    evidence_ids:
+    - ev-49a10671e8c3dd5a
+    - ev-117aa46202a3317b
+  next_validation: 追踪 golive-skill 仓库的 issue 与 discussion，确认是否有用户报告在真实项目中完成上线、替代了哪些手工步骤及验证结果。
+  market: ''
+  job: 独立开发者或小团队在 agent 写完代码后，面对一个本地可运行但未上线的项目，需要处理域名、托管、数据库、邮件与支付等上线材料，把产品真正发布到公网并可收款。
+  job_en: Solo developers or small teams, after an agent writes the code, take a locally working but unlaunched
+    project and handle domain, hosting, database, email and payments to actually publish it publicly and
+    accept payment.
+  pain: 上线环节分散在多个服务商后台，域名解析、托管部署、数据库开通、邮件验证与支付接入各自有独立控制台和凭证流程；代码已由 agent 写完，但发布这一步仍需人工逐项配置，容易漏项或配错，导致产品停在本地无法交付给真实用户。
+  pain_en: 'Launch steps are scattered across multiple provider consoles: DNS, hosting, database provisioning,
+    email verification and payment onboarding each have their own dashboard and credential flow. The code
+    is already written by an agent, yet publishing still requires manual per-item configuration, so items
+    get missed or misconfigured and the product stalls locally instead of reaching real users.'
+  current_alternative: 当前替代方式是开发者自己逐个登录域名注册商、托管平台、数据库、邮件与支付服务商后台手工配置，或依赖各平台自带的部署向导和文档；这些方案各自只覆盖一段流程，跨服务商的编排仍由人完成。
+  current_alternative_en: Today developers log into each registrar, hosting platform, database, email
+    and payment provider console and configure manually, or rely on each platform's own deploy wizard
+    and docs; each covers only one segment, and cross-provider orchestration stays manual.
+  usage_reason: 推断：相较逐个后台手工配置，该工具以 detect → plan → approve → apply → verify 的顺序先检测项目缺哪些上线资源并给出计划，用户批准后在自己的账号上执行配置并验证结果，把跨服务商的逐项操作收敛为一次可审阅的编排，减少漏配和来回切换后台的负担；因此会在
+    agent 写完代码、准备首次上线时选择它。
+  usage_reason_en: 'Inference: versus manual per-console configuration, the tool runs detect → plan →
+    approve → apply → verify, first detecting which launch resources the project lacks and presenting
+    a plan, then applying and verifying on the user''s own accounts after approval. This collapses cross-provider
+    per-item work into one reviewable orchestration, reducing missed configuration and console switching,
+    so users pick it when an agent has finished the code and they are ready for a first launc'

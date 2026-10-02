@@ -87,3 +87,47 @@
     before the request is sent, removing the step of rewriting prompts one by one, so bill-sensitive coding
     teams with long context would pick it when costs spiral; this is inference from its own claim, and
     quality loss after compression has no public evidence yet.
+- id: req-full-token-compression-cli-to-save-codex-astra-costs-2026-10-02
+  project_slug: token-compression-cli-to-save-codex-astra-costs
+  level: full
+  reviewed_at: '2026-10-02T02:16:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码模型按量调用成本随上下文膨胀的问题，痛点刚性来自作者自述的每日高额账单压力，替代方式是人工裁剪提示词；但压缩是否损伤输出质量仍缺公开证据。
+    evidence_ids:
+    - ev-9914a66cf72ab967
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有作者自述的发布帖，没有独立评价、团队采用或重复使用数据，无法判断是否形成开发者共识。
+    evidence_ids:
+    - ev-f65ead2983c73429
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，买方可能是自付账单的开发者或团队，付费路径只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-db699af93f2cca95
+  - gate: truth
+    status: insufficient
+    reason: 30% 节省来自作者自述，缺少可复现评测、压缩前后质量对比与安全边界说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-7a8963fff0a7b90e
+  next_validation: 收集该工具仓库或发布页上的可复现基准测试与压缩前后输出质量对比数据。
+  market: ''
+  job: 重度使用 Codex 等编码模型的开发者，在订阅额度用尽、按量 API 账单快速上升时，处理提示词与上下文材料，要完成的是在不明显牺牲回答质量的前提下把每次调用的 token 量降下来。
+  job_en: Developers who heavily use coding models such as Codex, when subscription quotas run out and
+    metered API bills rise fast, process prompts and context material to cut tokens per call without noticeably
+    hurting answer quality.
+  pain: 按量计费的编码模型成本随上下文膨胀而上升，团队在额度耗尽后要么承担高额账单，要么被迫减少使用，缺少能直接插在调用链上的降本手段。
+  pain_en: Metered coding-model cost grows with context size; after quotas run out, teams either absorb
+    large bills or cut usage, with no drop-in way to reduce cost inside the call chain.
+  current_alternative: 旧做法是人工精简提示词、裁剪上下文、换更便宜的模型或限制团队成员使用额度，靠纪律和手工取舍控制成本。
+  current_alternative_en: The old approach is manually trimming prompts, cutting context, switching to
+    cheaper models or capping team usage, controlling cost through discipline and manual trade-offs.
+  usage_reason: 相较人工裁剪上下文，该工具在请求发出前自动压缩 token，省掉逐条改写提示词这一步，因此账单敏感、上下文冗长的编码团队会在成本失控时选择它；这是基于其自述能力的推断，压缩后的质量损失尚无公开证据。
+  usage_reason_en: Compared with manually trimming context, this tool compresses tokens automatically
+    before the request is sent, removing the step of rewriting prompts one by one, so bill-sensitive coding
+    teams with long context would pick it when costs spiral; this is inference from its own claim, and
+    quality loss after compression has no public evidence yet.

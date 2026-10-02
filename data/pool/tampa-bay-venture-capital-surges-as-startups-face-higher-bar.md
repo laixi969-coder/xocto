@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MeXFFSm5VQmIx
 summary: Tampa Bay Venture Capital Surges as Startups Face Higher Bar Tampa Bay Business and Wealth
 first_seen: '2026-10-01T17:12:15Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

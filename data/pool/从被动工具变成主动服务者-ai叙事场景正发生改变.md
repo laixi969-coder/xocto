@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE9jTVh4RUJva09Y
 summary: 从“被动工具”变成“主动服务者” AI叙事场景正发生改变 sh.chinanews.com.cn
 first_seen: '2026-09-30T09:10:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

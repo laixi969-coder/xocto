@@ -28,7 +28,7 @@ summary: "[...] Put these pieces together and you have the two halves of a worm:
   \ ,  ai-misuse ,  generative-ai ,  ai-security-research ,  sandboxing ,  ai ,  llms"
 first_seen: '2026-10-01T06:29:01Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

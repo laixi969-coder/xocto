@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFByazZQTlRCcVl0
 summary: 马斯克放话：AI不会让大家失业 反而实现全民高收入 驱动之家
 first_seen: '2026-09-30T09:11:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

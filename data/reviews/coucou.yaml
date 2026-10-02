@@ -82,3 +82,49 @@
   usage_reason_en: 'Inference: pinning session status to the screen edge could remove the repeated window-switching
     step, but the public material provides no user feedback, retention, or repeat-use evidence to confirm
     which developers would choose it for that reason.'
+- id: req-full-coucou-2026-10-02
+  project_slug: coucou
+  level: full
+  reviewed_at: '2026-10-02T02:13:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多会话代理运行时的状态可见性与权限阻塞问题：会话长时间无人值守，权限确认或中断会卡住任务，开发者只能反复切回终端。仓库说明给出输入（Claude Code 会话）、动作（常驻显示、批准权限、投递文件、对话）与交付（屏幕边缘状态），属工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-47b560927f893acb
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库自述，未见开发者评价、issue 讨论或重复使用记录，无法判断它是否已被留在日常工作流；同名的法语词条与内衣品牌页面与该项目无关，不能作为共识证据。
+    evidence_ids:
+    - ev-47b560927f893acb
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、赞助或托管服务，买方可能是个人开发者、团队或企业支持，属判断而非已验证事实；公开材料中不存在可归因到该产品的付费路径。
+    evidence_ids:
+    - ev-47b560927f893acb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它读取会话状态的机制是否可靠、是否会误报卡住或漏报权限请求，也未说明人工确认边界与安全范围；这些缺口影响交付确定性，但不否定已识别的需求。
+    evidence_ids:
+    - ev-47b560927f893acb
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，核对开发者反馈的状态误报、权限提示漏报与长期使用情况。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 会话时，需要在不离开当前编辑器或浏览器的情况下，确认每个会话是否仍在运行、是否卡在权限确认或报错，并就地批准权限、投递文件或继续对话。
+  job_en: Developers running several Claude Code sessions at once need to confirm, without leaving their
+    current editor or browser, whether each session is still running, stuck on a permission prompt, or
+    failing — and to approve permissions, drop a file, or continue the chat in place.
+  pain: 代理会话运行时间长且无人值守，权限确认和中断会阻塞整个任务；开发者只能反复切回终端查看，容易漏掉等待授权的提示或长时间无输出。
+  pain_en: Agent sessions run long and unattended, and permission prompts or interruptions block the whole
+    task; developers must keep switching back to the terminal and can miss an authorization prompt or
+    a long silence.
+  current_alternative: 目前主要靠手动切换终端窗口、翻看日志输出，或依赖 Claude Code 自身在终端里的提示与权限弹窗。
+  current_alternative_en: Today this is mostly done by manually switching terminal windows, scrolling
+    log output, or relying on Claude Code's own terminal prompts and permission dialogs.
+  usage_reason: 推断：相较反复切换终端，它把会话状态与权限确认固定在 macOS 刘海或 Windows 屏幕顶部常驻显示，省去“切窗口—找会话—看输出”这一步，并让权限批准在屏幕边缘直接完成；因此同时跑多个会话、又不想离开当前窗口的开发者会在这种情况下选择它。公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: versus repeatedly switching terminals, it pins session status and permission
+    approval to the macOS notch or the top of the Windows screen, removing the switch-window/find-session/read-output
+    step and letting approvals happen at the screen edge; developers running several sessions who do not
+    want to leave their current window would choose it in that situation. No retention or repeat-use evidence
+    is provided publicly.'

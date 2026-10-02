@@ -352,3 +352,55 @@
     manually checking agent state, so macOS developers running several local coding agents would choose
     it when they need a single place to view and switch; public materials contain no user feedback or
     retention evidence for this motive.'
+- id: req-full-herdr-gpui-2026-10-02
+  project_slug: herdr-gpui
+  level: full
+  reviewed_at: '2026-10-02T02:14:10Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 并行时会话分散、需反复切换终端窗口逐个核对状态的痛点，旧替代是终端多标签或 tmux 分屏；不解决的后果是漏看 agent 状态、打断编码节奏。产品通过本地守护进程把会话、工作区、worktree
+      与 agent 活动汇总到一个 macOS 界面，交付边界清晰。此为工作流结构推理，尚无用户抱怨或耗时数据。
+    evidence_ids:
+    - ev-51aabf2d76a205bc
+    - ev-a1b7b1609ecaced7
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 225 持续升至 417，说明已有开发者关注并把它纳入工具视野；但收藏只属关注度证据，不能证明持续使用或留存，也未见 issue、discussion 或用户评价说明真实采用场景。
+    evidence_ids:
+    - ev-51aabf2d76a205bc
+    - ev-3aa54ac2bd563d5b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断钱来自 to C 开发者订阅、to B 团队采购还是开源赞助；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-51aabf2d76a205bc
+  - gate: truth
+    status: insufficient
+    reason: 产品说明称通过本地 Herdr 守护进程查看会话与 agent 活动，但公开材料未给出部署文档、可复现实测或安全与人工边界说明，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-a1b7b1609ecaced7
+  next_validation: 追踪 herdr-gpui 仓库的 README、release 说明与 issue/discussion，确认是否公开部署方式、支持的 Herdr 版本及真实使用反馈。
+  market: ''
+  job: 开发者在本地同时运行多个编码 agent 时，打开这个 macOS 客户端，通过本地 Herdr 守护进程查看终端会话、工作区、Git worktree 与 agent 活动，最终在一个界面里集中查看并切换这些会话。
+  job_en: When running multiple coding agents locally, a developer opens this macOS client and, through
+    the local Herdr daemon, views terminal sessions, workspaces, Git worktrees and agent activity, ending
+    with one interface to see and switch among those sessions.
+  pain: 多 agent 并行时，会话分散在多个终端窗口或标签里，开发者需要反复切换、逐个确认哪个 agent 在跑、卡住或已完成，容易漏看状态并打断编码节奏；公开材料只描述了查看能力，未给出用户抱怨或耗时数据。
+  pain_en: With several agents running in parallel, sessions scatter across terminal windows or tabs,
+    so the developer must switch repeatedly and check one by one which agent is running, stuck or finished,
+    risking missed status and interrupted coding flow; public materials describe the viewing capability
+    but give no user complaints or time data.
+  current_alternative: 旧做法是直接用终端多标签、tmux 分屏或 IDE 内置终端手动管理多个 agent 会话，缺少针对 Herdr 守护进程的图形化集中视图。
+  current_alternative_en: The old approach is managing multiple agent sessions manually with terminal
+    tabs, tmux panes or the IDE's built-in terminal, without a graphical consolidated view over the Herdr
+    daemon.
+  usage_reason: 推断：相较终端多标签或 tmux 分屏，它把 Herdr 守护进程里的会话、工作区、worktree 和 agent 活动汇总到一个原生 macOS 窗口，省去逐个窗口切换和手动核对状态这一步，因此已在本地跑
+    Herdr 多 agent 的 macOS 开发者会在需要同时盯多个会话时选择它；尚无用户反馈或留存证据支持长期使用。
+  usage_reason_en: 'Inference: versus terminal tabs or tmux panes, it aggregates sessions, workspaces,
+    worktrees and agent activity from the Herdr daemon into one native macOS window, removing the step
+    of switching windows and manually checking status, so macOS developers already running multiple Herdr
+    agents would pick it when they need to watch several sessions at once; no user feedback or retention
+    evidence yet supports long-term use.'

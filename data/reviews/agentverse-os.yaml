@@ -342,3 +342,53 @@
     environment setup, per-app deployment and public-exposure configuration, so self-hosting-oriented
     solo developers who do not want to maintain the whole orchestration may pick it when starting a new
     server or migrating an existing one; user feedback and repeat-use evidence are missing.'
+- id: req-full-agentverse-os-2026-10-02
+  project_slug: agentverse-os
+  level: full
+  reviewed_at: '2026-10-02T02:12:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自有服务器上编码代理与自托管应用的环境隔离、备份更新和内网访问需求，痛点在于手工拼装易冲突且公网暴露有风险；仓库自述已还原输入、动作与交付闭环，属工作流结构推理，尚无用户抱怨或故障记录佐证强度。
+    evidence_ids:
+    - ev-f122b707a77e9bff
+    - ev-55491700840d6f3f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 979 缓慢升至 984 后回落至 971，仅说明开源关注度，未见 issue、discussion 或客户案例证明开发者已把它作为长期运行环境，采用共识未成立。
+    evidence_ids:
+    - ev-f122b707a77e9bff
+    - ev-76e95e701a6ac128
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库自述，未见定价页、付费版本或采购记录，买方与收费方式无法确认；按开源自托管项目推断可能走 to C 开发者捐赠或 to B 支持服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f122b707a77e9bff
+    - ev-80dbb24355f6b3bd
+  - gate: truth
+    status: insufficient
+    reason: 它把代理运行与自托管应用放在同一台服务器，安全边界依赖 Tailscale，备份恢复、更新回滚与人工确认流程在公开材料中未说明，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-f122b707a77e9bff
+    - ev-87151c90f87bd9f9
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者是否报告长期运行、备份恢复或权限隔离方面的具体问题与采用行为。
+  market: ''
+  job: 独立开发者或小团队在自有 Ubuntu 服务器上，处理编码代理（Claude Code、Codex）与自托管应用的环境搭建，要完成隔离工作区、备份更新与仅内网访问的长期运行环境交付。
+  job_en: A solo developer or small team on their own Ubuntu server, working with coding agents (Claude
+    Code, Codex) and self-hosted apps, must deliver a long-running environment with isolated workspaces,
+    backups/updates and private-network-only access.
+  pain: 把代理与自托管服务装在同一台机器上，环境互相干扰、备份与更新靠手工脚本、公网暴露有风险；公开材料只给出产品自述，未提供用户抱怨或故障记录，痛点强度属工作流结构推理。
+  pain_en: Running agents and self-hosted services on one machine causes environment interference, manual
+    backup/update scripts and public-exposure risk; public material only offers the product's own description,
+    with no user complaints or incident records, so pain intensity is a workflow-structure inference.
+  current_alternative: 开发者目前用 Docker Compose、手写备份脚本、云主机加自建反向代理，或现成的自托管面板（如 CasaOS、Umbrel 类方案）自行拼装。
+  current_alternative_en: Developers currently assemble this themselves with Docker Compose, hand-written
+    backup scripts, cloud hosts plus self-built reverse proxies, or existing self-hosting panels (CasaOS/Umbrel-like).
+  usage_reason: 推断：相较自行拼 Docker 与备份脚本，它用一条 Ubuntu 安装命令同时给出窗口化桌面、隔离工作区、944 个自托管应用库和仅经 Tailscale 的访问，省掉环境搭建与公网暴露配置这两步，因此自托管倾向强、已在跑编码代理的开发者会在新服务器初始化时选择它；尚无用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: versus assembling Docker and backup scripts, one Ubuntu install command
+    yields a windowed desktop, isolated workspaces, a 944-app self-hosted store and Tailscale-only access,
+    removing environment setup and public-exposure configuration, so self-hosting-oriented developers
+    already running coding agents would pick it when initializing a new server; no user feedback or repeat-use
+    evidence yet.'

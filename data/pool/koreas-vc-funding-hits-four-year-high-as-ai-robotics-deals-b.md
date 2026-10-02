@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBfSjNsaUNOZ2tC
 summary: Korea’s VC funding hits four-year high as AI, robotics deals boom KED Global
 first_seen: '2026-10-01T08:15:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -345,3 +345,54 @@
     action selection to a TypeSafe classification and uses OCR to reduce input dimensionality, pushing
     per-step cost to ~$0.0002 and constraining the action space; cost-sensitive macOS automation developers
     running many repetitive click steps would choose it for per-step price and action controllability.'
+- id: req-full-typesafe-computer-use-2026-10-02
+  project_slug: typesafe-computer-use
+  level: full
+  reviewed_at: '2026-10-02T02:16:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 macOS 界面自动化中让代理决定下一步点哪里的需求，痛点在于通用视觉模型单步推理贵、动作空间不受约束；公开事实给出 OCR+TypeSafe 分类+点击的输入—动作—交付闭环与约
+      0.0002 美元单步成本，旧替代为通用视觉模型或手写脚本，不解决的后果是成本与维护负担，属工作流结构推理。
+    evidence_ids:
+    - ev-de84f137c5e8684c
+    - ev-30332a00c6306de7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 1006 增至 1119，说明开发者社区持续关注；但公开材料没有 issue、discussion 或用户反馈说明谁在何种场景实际采用，关注度不能替代持续使用证据。
+    evidence_ids:
+    - ev-de84f137c5e8684c
+    - ev-9074ea6171a98247
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出约 0.0002 美元的单步成本，没有定价页、付费主体或采购记录；谁付钱、按什么单位收费仍是判断而非已验证事实，属商业证据缺口。
+    evidence_ids:
+    - ev-de84f137c5e8684c
+  - gate: truth
+    status: insufficient
+    reason: 公开说明未交代支持哪些应用、失败后如何回退、以及点击动作的安全与人工边界，交付能否在真实界面稳定发生缺少可复现证据。
+    evidence_ids:
+    - ev-de84f137c5e8684c
+    - ev-30332a00c6306de7
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的应用范围、失败回退机制与真实部署案例。
+  market: ''
+  job: 开发者在 macOS 上构建界面自动化代理时，把屏幕截图交给它：先 OCR 识别界面文字，再用 TypeSafe 分类出下一步动作，然后执行点击，交付一串可执行的点击动作序列。
+  job_en: 'Developers building macOS UI automation agents hand it a screenshot: it OCRs on-screen text,
+    classifies the next action with TypeSafe, then clicks, delivering an executable click sequence.'
+  pain: 公开材料只说明单步成本约 0.0002 美元，未披露用户抱怨、失败频率或不采用的具体代价；从工作流结构推理，通用视觉语言模型做 computer use 单步推理成本高、动作空间不受约束，是这类任务的结构性摩擦。
+  pain_en: Public material only states roughly $0.0002 per step and discloses no user complaints, failure
+    frequency, or cost of not adopting; by workflow inference, general vision-language computer-use models
+    carry high per-step inference cost and unconstrained action spaces, a structural friction for this
+    job.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；结构上可推断的旧做法是直接调用通用视觉语言模型做 computer use，或为每个应用手写脚本与坐标点击。
+  current_alternative_en: Public materials do not state how users do this today; structurally inferable
+    alternatives are calling a general vision-language computer-use model directly, or hand-writing per-app
+    scripts and coordinate clicks.
+  usage_reason: 推断：相较通用视觉模型逐帧推理或手写脚本，它把动作空间约束为 TypeSafe 分类出的有限动作，并用 OCR 替代昂贵的视觉推理，把单步成本压到约 0.0002 美元，因此对成本敏感的
+    macOS 自动化开发者会在批量、重复的界面操作场景选择它；公开材料未给出用户反馈，此为结构推理。
+  usage_reason_en: 'Inference: versus per-frame general vision-model inference or hand-written scripts,
+    it constrains the action space to TypeSafe-classified actions and uses OCR instead of costly visual
+    reasoning, pushing per-step cost to about $0.0002, so cost-sensitive macOS automation developers would
+    pick it for batch, repetitive UI operations; no user feedback is public, so this is structural inference.'

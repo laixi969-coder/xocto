@@ -285,3 +285,53 @@
     copying and building a scraper, so Iranian-market selectors or buyers with a specific query would
     plug it into an AI assistant; public material still lacks user feedback or repeat-use evidence, so
     this motive is structural reasoning.'
+- id: req-full-digikala-mcp-2026-10-02
+  project_slug: digikala-mcp
+  level: full
+  reviewed_at: '2026-10-02T02:13:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是查 Digikala 在售价与竞品价要人工翻页抄录的需求，痛点具体且随每次选品采购重复发生；只读免 key 的 16 工具把搜索比价取价合并为一次调用，交付物是商品与价格清单，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-fbb106ad98b18b9a
+    - ev-e3df867975be08e9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 119 缓增至 130，只说明有开发者关注，公开材料没有 issue、discussion、采用或留存证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-fbb106ad98b18b9a
+    - ev-e3df867975be08e9
+  - gate: model
+    status: insufficient
+    reason: 开源免费、无定价页，买方与付费路径均未披露；可能来自开发者自用或 to B 集成，但这是判断而非已验证事实，公开材料未见任何付费或采购记录。
+    evidence_ids:
+    - ev-fbb106ad98b18b9a
+  - gate: truth
+    status: insufficient
+    reason: 只读查询不涉及交易与资金，安全边界清楚；但公开材料未说明数据来源合法性与 Digikala 平台条款，交付确定性仍缺一环。
+    evidence_ids:
+    - ev-fbb106ad98b18b9a
+  next_validation: 追踪该仓库的 issue 与 discussion 区，确认是否有真实用户报告用它完成 Digikala 选品或采购比价任务。
+  market: ''
+  job: 做伊朗市场选品或采购的人，在需要确认某类商品在 Digikala 上的在售价与同类竞品时，让 AI 助手调用该只读 MCP 服务器的 16 个工具完成搜索、比价与取价，拿到商品与价格清单后再自行判断是否下单。
+  job_en: People doing product selection or procurement for the Iranian market ask an AI assistant to
+    call this read-only MCP server's 16 tools to search, compare and retrieve prices for a product category
+    on Digikala, then decide themselves whether to buy.
+  pain: Digikala 是伊朗最大电商平台，公开材料显示该服务器以只读、免 API key 方式提供查询，说明外部此前没有可直接调用的开放接口；选品与采购比价需要反复核对在售价和同类竞品，人工逐页翻站抄录慢且容易漏项，这一步在每次选品或采购前都会重复发生。
+  pain_en: Digikala is Iran's largest marketplace, and the server's read-only, no-API-key design indicates
+    no directly callable open interface existed for outsiders; selection and procurement comparison require
+    repeatedly checking current prices and competing listings, and copying them page by page is slow and
+    easily misses items, recurring before every selection or purchase decision.
+  current_alternative: 人工浏览 Digikala 网页并手工记录价格，或自行编写爬虫脚本抓取页面。
+  current_alternative_en: Browsing Digikala pages manually and recording prices by hand, or writing one's
+    own scraping script.
+  usage_reason: 推断：相较手工翻页或自写爬虫，它把搜索、比价、取价三步合并为一次工具调用，省掉逐页抄录与维护抓取脚本这两步负担，因此有明确查询目标的伊朗市场选品或采购人员会在需要快速核对价格时选择它；公开材料只有仓库星标从
+    119 增至 130 的关注度变化，没有用户反馈、定价或重复使用证据，动机属结构推断而非已证实事实。
+  usage_reason_en: 'Inference: compared with manual paging or self-written scrapers, it merges search,
+    comparison and price retrieval into one tool call, removing the steps of copying prices page by page
+    and maintaining a scraping script, so Iranian-market selection or procurement users with a specific
+    query would choose it when they need quick price checks; public material only shows stars rising from
+    119 to 130, with no user feedback, pricing or repeat-use evidence, so the motive is structural'

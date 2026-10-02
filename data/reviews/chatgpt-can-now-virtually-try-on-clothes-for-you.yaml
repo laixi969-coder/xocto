@@ -1,0 +1,84 @@
+- id: req-initial-chatgpt-can-now-virtually-try-on-clothes-for-you-2026-10-02
+  project_slug: chatgpt-can-now-virtually-try-on-clothes-for-you
+  level: initial
+  reviewed_at: '2026-10-02T01:42:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上买衣服看不到上身效果、尺码靠猜的痛点，旧行为是看模特图与尺码表再买后退，痛点刚性且交付可核对。
+    evidence_ids:
+    - ev-42a3f4393bc9aa8d
+  - gate: consensus
+    status: insufficient
+    reason: 试穿与选品动作被并入对话入口，但公开材料未给出用户采用规模或使用反馈。
+    evidence_ids:
+    - ev-42a3f4393bc9aa8d
+  - gate: model
+    status: insufficient
+    reason: 买方与收费路径未披露，是判断而非已验证事实；可能来自品牌导购佣金或订阅。
+    evidence_ids:
+    - ev-42a3f4393bc9aa8d
+  - gate: truth
+    status: insufficient
+    reason: 合成试穿图与真实版型、尺码的偏差未核验，退货率是否下降缺少交付结果证据。
+    evidence_ids:
+    - ev-42a3f4393bc9aa8d
+  next_validation: OpenAI 官方关于该购物功能的说明页或品牌合作案例，用以核验试穿准确度与商业化方式。
+  market: ''
+  job: 网购服装的消费者在无法到店试穿时，需要判断某件衣服穿在自己身上的样子，再决定是否下单。
+  job_en: Online clothing shoppers who cannot try items in store need to judge how a garment looks on
+    their own body before ordering.
+  pain: 线上买衣服看不到上身效果，尺码与版型判断靠猜，退换货成本高。
+  pain_en: Buying clothes online gives no view of fit, sizing and cut are guesswork, and returns are costly.
+  current_alternative: 看模特图与买家秀、比对尺码表、先买后退或到店试穿。
+  current_alternative_en: Studying model photos and buyer images, comparing size charts, buying then returning,
+    or trying on in store.
+  usage_reason: 推断：用户上传自己的照片后，模型直接生成上身效果图并留存收藏，省去在多个商品页之间比对模特图与尺码表这一步，因此对线上买衣服且退货频繁的人有吸引力；公开材料未披露使用量或复购数据。
+  usage_reason_en: 'Inference: after a user uploads a photo, the model generates an on-body image and
+    keeps a saved list, removing the step of comparing model photos and size charts across product pages,
+    which appeals to frequent online clothing buyers with high return rates; no usage or repeat-purchase
+    data is disclosed.'
+- id: req-full-chatgpt-can-now-virtually-try-on-clothes-for-you-2026-10-02
+  project_slug: chatgpt-can-now-virtually-try-on-clothes-for-you
+  level: full
+  reviewed_at: '2026-10-02T02:12:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上买衣服看不到上身效果、尺码靠猜的痛点，旧行为是看模特图与尺码表再买后退，痛点刚性且交付可核对。
+    evidence_ids:
+    - ev-2e4d3c317730257c
+  - gate: consensus
+    status: insufficient
+    reason: 试穿与选品动作被并入对话入口，但公开材料未给出用户采用规模或使用反馈。
+    evidence_ids:
+    - ev-2e4d3c317730257c
+  - gate: model
+    status: insufficient
+    reason: 买方与收费路径未披露，是判断而非已验证事实；可能来自品牌导购佣金或订阅。
+    evidence_ids:
+    - ev-2e4d3c317730257c
+  - gate: truth
+    status: insufficient
+    reason: 合成试穿图与真实版型、尺码的偏差未核验，退货率是否下降缺少交付结果证据。
+    evidence_ids:
+    - ev-2e4d3c317730257c
+  next_validation: OpenAI 官方关于该购物功能的说明页或品牌合作案例，用以核验试穿准确度与商业化方式。
+  market: ''
+  job: 网购服装的消费者在无法到店试穿时，需要判断某件衣服穿在自己身上的样子，再决定是否下单。
+  job_en: Online clothing shoppers who cannot try items in store need to judge how a garment looks on
+    their own body before ordering.
+  pain: 线上买衣服看不到上身效果，尺码与版型判断靠猜，退换货成本高。
+  pain_en: Buying clothes online gives no view of fit, sizing and cut are guesswork, and returns are costly.
+  current_alternative: 看模特图与买家秀、比对尺码表、先买后退或到店试穿。
+  current_alternative_en: Studying model photos and buyer images, comparing size charts, buying then returning,
+    or trying on in store.
+  usage_reason: 推断：用户上传自己的照片后，模型直接生成上身效果图并留存收藏，省去在多个商品页之间比对模特图与尺码表这一步，因此对线上买衣服且退货频繁的人有吸引力；公开材料未披露使用量或复购数据。
+  usage_reason_en: 'Inference: after a user uploads a photo, the model generates an on-body image and
+    keeps a saved list, removing the step of comparing model photos and size charts across product pages,
+    which appeals to frequent online clothing buyers with high return rates; no usage or repeat-purchase
+    data is disclosed.'

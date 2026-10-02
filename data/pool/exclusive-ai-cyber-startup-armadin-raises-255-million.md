@@ -1,6 +1,6 @@
 ---
 slug: exclusive-ai-cyber-startup-armadin-raises-255-million
-name: Exclusive | AI Cyber Startup Armadin Raises $255 Million
+name: Armadin
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOaTUxbFJBdVZj
 summary: Exclusive | AI Cyber Startup Armadin Raises $255 Million WSJ
 first_seen: '2026-10-01T10:22:18Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Exclusive | AI Cyber Startup Armadin Raises $255 Million
+# Armadin
 
 Exclusive | AI Cyber Startup Armadin Raises $255 Million WSJ
 

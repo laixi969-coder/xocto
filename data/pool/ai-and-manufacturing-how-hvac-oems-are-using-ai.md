@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxONzc0aVJjaE9p
 summary: 'AI and Manufacturing: How HVAC OEMs are Using AI ACHR News'
 first_seen: '2026-10-01T11:00:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

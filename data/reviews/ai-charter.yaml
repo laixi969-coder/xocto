@@ -83,3 +83,45 @@
   usage_reason_en: The repository has 108 stars, showing developer-community attention; but stars are
     attention signals, and there is no record of an institution submitting or being registered, so which
     users would choose it and why is unexplained.
+- id: req-full-ai-charter-2026-10-02
+  project_slug: ai-charter
+  level: full
+  reviewed_at: '2026-10-02T02:12:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想统一模型治理披露口径，但公开材料只有原则文本与登记册，没有机构提交、引用或替代旧流程的记录；采购方已有厂商合规页与审计报告可用，不用它也不失去什么，属自嗨拼凑，价值关不成立。
+    evidence_ids:
+    - ev-0cb5a646f2120cdf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ai-charter 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: AI 产品负责人或合规负责人在需要向客户、采购方或监管方说明模型治理方式时，处理治理原则与模型信息，要产出一份可公开引用的披露材料。
+  job_en: An AI product or compliance lead who must explain model governance to customers, procurement
+    or regulators handles governance principles and model information to produce publicly citable disclosure
+    material.
+  pain: 公开事实是缺少统一、通俗、可公开核验的模型治理披露口径，各方自述标准不一，采购方难以比对；但公开材料没有说明谁因此受损、频率多高，也没有机构接入或引用的记录。
+  pain_en: 'Public fact: there is no unified, plain-language, publicly checkable disclosure standard for
+    model governance, so each party describes itself differently and buyers cannot compare; but public
+    material shows no one harmed, no frequency, and no institutional adoption or citation.'
+  current_alternative: 当前替代是厂商自己的合规页面、白皮书、第三方审计报告，以及欧盟 AI 法案等既有监管框架下的自评材料。
+  current_alternative_en: The current alternative is vendors' own compliance pages, white papers, third-party
+    audit reports, and self-assessment material under existing regimes such as the EU AI Act.
+  usage_reason: 推断：它把治理原则与登记条目放在同一公开位置，理论上减少采购方逐家比对口径的步骤；但登记册无机构提交、无审核责任说明，也没有任何买方或监管方引用，因此看不出哪类用户会真正选择它而非沿用既有合规文档。
+  usage_reason_en: 'Inference: it puts principles and registry entries in one public place, in theory
+    cutting the step of comparing each vendor''s wording; but the registry has no institutional submissions,
+    no stated review responsibility and no buyer or regulator citation, so it is unclear which users would
+    choose it over existing compliance documents.'

@@ -1,0 +1,81 @@
+- id: req-initial-useai-reaches-1-million-monthly-users-as-the-average-ai-user-2026-10-02
+  project_slug: useai-reaches-1-million-monthly-users-as-the-average-ai-user
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它是什么、解决什么需求、什么痛点均无法从材料还原，价值关无法判断。
+    evidence_ids:
+    - ev-373d6d74380713ad
+  - gate: consensus
+    status: insufficient
+    reason: 月活属于规模证据，不能说明用户为何持续采用或卡在哪一环。
+    evidence_ids:
+    - ev-373d6d74380713ad
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，付费路径不明。
+    evidence_ids:
+    - ev-373d6d74380713ad
+  - gate: truth
+    status: insufficient
+    reason: 交付是否确定发生、人工边界如何，材料未说明。
+    evidence_ids:
+    - ev-373d6d74380713ad
+  next_validation: 收集 Use.ai 官方产品页与定价页，核验其具体输入、执行动作、交付物与收费方式。
+  market: ''
+  job: 候选材料未说明谁在什么情况下打开 Use.ai、处理什么材料、要完成什么任务。
+  job_en: The candidate material does not say who opens Use.ai, in what situation, handling what material,
+    to complete what task.
+  pain: 材料未描述任何用户痛点或旧做法中的困难。
+  pain_en: The material describes no user pain or difficulty in the old practice.
+  current_alternative: 材料未提供现有替代方式。
+  current_alternative_en: The material provides no existing alternative.
+  usage_reason: 仅有月活数字，未说明相较旧做法减少哪一步负担或改善哪项可核对结果，无法给出选择理由。
+  usage_reason_en: Only a monthly-user figure is given; it does not state which step's burden is reduced
+    versus the old practice or which verifiable result improves, so no reason to choose it can be given.
+- id: req-full-useai-reaches-1-million-monthly-users-as-the-average-ai-user-2026-10-02
+  project_slug: useai-reaches-1-million-monthly-users-as-the-average-ai-user
+  level: full
+  reviewed_at: '2026-10-02T02:16:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只给出月活规模与助手数量说法，未说明用户在什么工作节点打开 Use.ai、接收什么材料、执行什么动作、交付什么结果，连需求与痛点都无法还原，价值关无法判断。
+    evidence_ids:
+    - ev-b168030d0dd7278e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Use.ai 官网产品页与定价页，核验其具体输入、执行动作、交付物与收费方式。
+  market: ''
+  job: 候选材料未说明谁在什么情况下打开 Use.ai、处理什么材料、要完成什么任务；官网仅称其为“AI 工作空间”，可访问多个模型并做网络研究，但未给出具体工作节点与交付物。
+  job_en: The candidate material does not say who opens Use.ai, in what situation, handling what material,
+    to complete what task; the site only calls it an 'AI Workspace' with access to leading models and
+    web research, without a concrete work step or deliverable.
+  pain: 材料未描述任何用户痛点或旧做法中的困难；月活与“平均用户运行三个助手”只说明规模与使用量，不构成痛点证据。
+  pain_en: The material describes no user pain or difficulty in the old practice; the monthly-user figure
+    and the claim that the average user runs three assistants only show scale and usage volume, not pain
+    evidence.
+  current_alternative: 材料未提供现有替代方式；仅并列出现 ChatGPT、Gemini、Perplexity 等通用助手页面，无法据此判断用户此前用什么流程完成同一任务。
+  current_alternative_en: The material provides no existing alternative; it merely lists generic assistant
+    pages such as ChatGPT, Gemini and Perplexity, which cannot establish what process users previously
+    used for the same task.
+  usage_reason: 仅有月活数字，未说明相较旧做法减少哪一步负担或改善哪项可核对结果，无法给出选择理由；缺少用户反馈或客户案例支持动机。
+  usage_reason_en: Only a monthly-user figure is given; it does not state which step's burden is reduced
+    versus the old practice or which verifiable result improves, so no reason to choose it can be given;
+    user feedback or customer cases supporting the motive are absent.

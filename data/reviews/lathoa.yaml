@@ -1,0 +1,88 @@
+- id: req-initial-lathoa-2026-10-02
+  project_slug: lathoa
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决孩子练习时直接抄答案、家长出题批改费时的问题，痛点具体且旧做法明确，属工作流推理。
+    evidence_ids:
+    - ev-46f9df9fff25d7cb
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 52 点、47 条评论，说明有人关注，但没有持续使用或家长付费的公开证据。
+    evidence_ids:
+    - ev-46f9df9fff25d7cb
+    - ev-052abfd391f71716
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自家长订阅或学校采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-46f9df9fff25d7cb
+  - gate: truth
+    status: insufficient
+    reason: 故意出错的教学设计是否真能提升检查能力、错误难度是否可控，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-052abfd391f71716
+  next_validation: 收集 Lathoa 官方定价页或家长使用反馈，确认是否按孩子/学期收费以及是否有重复使用记录。
+  market: ''
+  job: 家长或小学数学老师在陪孩子做口算、错题订正时，需要让孩子自己动脑检查每一步计算，而不是直接抄答案。
+  job_en: A parent or primary-school math teacher supervising arithmetic practice and mistake correction
+    needs the child to check each step themselves instead of copying the answer.
+  pain: 直接给答案的解题工具会让孩子跳过思考，家长又很难逐题编造错误来考孩子，出题和批改都费时。
+  pain_en: Answer-giving solvers let children skip thinking, while parents struggle to hand-craft wrong
+    answers for each problem; both setting and grading take time.
+  current_alternative: 家长手写出错题、买纸质口算练习册，或让孩子用普通解题 App 对答案。
+  current_alternative_en: Parents hand-write wrong problems, buy paper arithmetic workbooks, or let children
+    check answers with ordinary solver apps.
+  usage_reason: 相较家长自己编错题或练习册固定答案，Lathoa 由 AI 直接生成带错误的题目并围绕纠错组织练习，省去家长出题这一步；推断这类家长会在陪写作业、需要孩子主动检查时选择它，但尚无留存或付费证据。
+  usage_reason_en: Compared with parents writing wrong problems themselves or fixed workbook answers,
+    Lathoa has the AI generate errored problems and structures practice around correction, removing the
+    parent's problem-setting step; inference is that such parents would pick it during homework supervision
+    when active checking is wanted, though retention or payment evidence is absent.
+- id: req-full-lathoa-2026-10-02
+  project_slug: lathoa
+  level: full
+  reviewed_at: '2026-10-02T02:14:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决孩子练习时直接抄答案、家长出题批改费时的问题，痛点具体且旧做法明确，属工作流推理。
+    evidence_ids:
+    - ev-46f9df9fff25d7cb
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 52 点、47 条评论，说明有人关注，但没有持续使用或家长付费的公开证据。
+    evidence_ids:
+    - ev-46f9df9fff25d7cb
+    - ev-052abfd391f71716
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自家长订阅或学校采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-46f9df9fff25d7cb
+  - gate: truth
+    status: insufficient
+    reason: 故意出错的教学设计是否真能提升检查能力、错误难度是否可控，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-052abfd391f71716
+  next_validation: 收集 Lathoa 官方定价页或家长使用反馈，确认是否按孩子/学期收费以及是否有重复使用记录。
+  market: ''
+  job: 家长或小学数学老师在陪孩子做口算、错题订正时，需要让孩子自己动脑检查每一步计算，而不是直接抄答案。
+  job_en: A parent or primary-school math teacher supervising arithmetic practice and mistake correction
+    needs the child to check each step themselves instead of copying the answer.
+  pain: 直接给答案的解题工具会让孩子跳过思考，家长又很难逐题编造错误来考孩子，出题和批改都费时。
+  pain_en: Answer-giving solvers let children skip thinking, while parents struggle to hand-craft wrong
+    answers for each problem; both setting and grading take time.
+  current_alternative: 家长手写出错题、买纸质口算练习册，或让孩子用普通解题 App 对答案。
+  current_alternative_en: Parents hand-write wrong problems, buy paper arithmetic workbooks, or let children
+    check answers with ordinary solver apps.
+  usage_reason: 相较家长自己编错题或练习册固定答案，Lathoa 由 AI 直接生成带错误的题目并围绕纠错组织练习，省去家长出题这一步；推断这类家长会在陪写作业、需要孩子主动检查时选择它，但尚无留存或付费证据。
+  usage_reason_en: Compared with parents writing wrong problems themselves or fixed workbook answers,
+    Lathoa has the AI generate errored problems and structures practice around correction, removing the
+    parent's problem-setting step; inference is that such parents would pick it during homework supervision
+    when active checking is wanted, though retention or payment evidence is absent.

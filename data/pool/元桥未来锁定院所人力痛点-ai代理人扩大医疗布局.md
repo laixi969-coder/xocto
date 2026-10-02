@@ -1,6 +1,6 @@
 ---
 slug: 元桥未来锁定院所人力痛点-ai代理人扩大医疗布局
-name: 元桥未来锁定院所人力痛点 AI代理人扩大医疗布局
+name: 元桥未来
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPejhYV3RUQnU4
 summary: 元桥未来锁定院所人力痛点 AI代理人扩大医疗布局 DIGITIMES
 first_seen: '2026-10-01T09:27:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 元桥未来锁定院所人力痛点 AI代理人扩大医疗布局
+# 元桥未来
 
 元桥未来锁定院所人力痛点 AI代理人扩大医疗布局 DIGITIMES
 

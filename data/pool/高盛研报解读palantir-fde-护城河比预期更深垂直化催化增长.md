@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTMjJIQUtaOF9I
 summary: 高盛研报解读：Palantir FDE 护城河比预期更深，垂直化催化增长 深潮TechFlow
 first_seen: '2026-09-30T06:08:51Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

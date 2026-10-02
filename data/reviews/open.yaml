@@ -1,0 +1,90 @@
+- id: req-initial-open-2026-10-02
+  project_slug: open
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在生成式搜索中被引用情况难以持续追踪的需求，旧做法是人工逐引擎提问记录，痛点具体。
+    evidence_ids:
+    - ev-a7eeb2ca7e52dc45
+    - ev-6a2a39d8ee091abf
+  - gate: consensus
+    status: insufficient
+    reason: 有开源关注度与社区讨论，但无客户案例或付费采用证据，共识仍停留在关注层面。
+    evidence_ids:
+    - ev-a7eeb2ca7e52dc45
+    - ev-6a2a39d8ee091abf
+  - gate: model
+    status: insufficient
+    reason: 开源自托管、自带密钥，未披露定价，买方与付费路径不清，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a7eeb2ca7e52dc45
+  - gate: truth
+    status: insufficient
+    reason: 无法核对抓取结果与各引擎真实回答的一致性，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-a7eeb2ca7e52dc45
+  next_validation: 收集 Limelit 仓库的 issue、discussion 或部署文档，确认其抓取结果与付费或托管方案。
+  market: ''
+  job: 品牌营销人员或增长运营在生成式搜索分流流量时，处理品牌在各引擎中的提及与引用记录，要掌握可见度变化。
+  job_en: Brand marketers or growth operators handle brand mentions and citations across engines when
+    generative search diverts traffic, aiming to track visibility changes.
+  pain: 旧做法需人工逐平台向 ChatGPT、Perplexity 等提问并记录品牌是否被引用，重复且难以持续，这是工作流推理。
+  pain_en: The old approach requires manually querying ChatGPT, Perplexity and others platform by platform
+    and recording whether the brand is cited, which is repetitive and hard to sustain; this is workflow
+    inference.
+  current_alternative: 旧做法是人工逐引擎提问截图，或依赖传统 SEO 排名工具，后者不覆盖生成式回答中的引用。
+  current_alternative_en: The old approach is manually querying each engine and taking screenshots, or
+    relying on traditional SEO rank tools that do not cover citations in generative answers.
+  usage_reason: 推断：它把跨引擎提问与引用记录合并为一次自托管抓取，减少逐平台人工核对的步骤，因此需要持续监测品牌可见度的营销团队会考虑使用。
+  usage_reason_en: 'Inference: it merges cross-engine querying and citation logging into one self-hosted
+    crawl, cutting the manual per-platform checking step, so marketing teams needing continuous brand
+    visibility tracking would consider it.'
+- id: req-full-open-2026-10-02
+  project_slug: open
+  level: full
+  reviewed_at: '2026-10-02T02:14:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在生成式搜索中被引用情况难以持续追踪的需求，旧做法是人工逐引擎提问记录，痛点具体，属工作流结构推理。
+    evidence_ids:
+    - ev-a7eeb2ca7e52dc45
+    - ev-6a2a39d8ee091abf
+  - gate: consensus
+    status: insufficient
+    reason: 有开源关注度与社区讨论，但无客户案例或付费采用证据，共识仍停留在关注层面。
+    evidence_ids:
+    - ev-a7eeb2ca7e52dc45
+    - ev-6a2a39d8ee091abf
+  - gate: model
+    status: insufficient
+    reason: 开源自托管、自带密钥，未披露定价，买方与付费路径不清，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a7eeb2ca7e52dc45
+  - gate: truth
+    status: insufficient
+    reason: 无法核对抓取结果与各引擎真实回答的一致性，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-a7eeb2ca7e52dc45
+  next_validation: 收集 Limelit 仓库的 issue、discussion 或部署文档，确认其抓取结果与付费或托管方案。
+  market: ''
+  job: 品牌营销人员或增长运营在生成式搜索分流流量时，处理品牌在各引擎中的提及与引用记录，要掌握可见度变化。
+  job_en: Brand marketers or growth operators handle brand mentions and citations across engines when
+    generative search diverts traffic, aiming to track visibility changes.
+  pain: 旧做法需人工逐平台向 ChatGPT、Perplexity 等提问并记录品牌是否被引用，重复且难以持续，这是工作流推理。
+  pain_en: The old approach requires manually querying ChatGPT, Perplexity and others platform by platform
+    and recording whether the brand is cited, which is repetitive and hard to sustain; this is workflow
+    inference.
+  current_alternative: 旧做法是人工逐引擎提问截图，或依赖传统 SEO 排名工具，后者不覆盖生成式回答中的引用。
+  current_alternative_en: The old approach is manually querying each engine and taking screenshots, or
+    relying on traditional SEO rank tools that do not cover citations in generative answers.
+  usage_reason: 推断：它把跨引擎提问与引用记录合并为一次自托管抓取，减少逐平台人工核对的步骤，因此需要持续监测品牌可见度的营销团队会考虑使用。
+  usage_reason_en: 'Inference: it merges cross-engine querying and citation logging into one self-hosted
+    crawl, cutting the manual per-platform checking step, so marketing teams needing continuous brand
+    visibility tracking would consider it.'

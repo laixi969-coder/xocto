@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiRl9ZQmJid0pE
 summary: 'AI Video Compliance: What 10,900 G2 Reviews Reveal G2 Learning Hub'
 first_seen: '2026-09-30T21:50:24Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

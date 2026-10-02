@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wOG5TXzlyZUJT
 summary: Meta推出AI助手Muse，聚焦订阅管理场景迅速走红 虎嗅网
 first_seen: '2026-09-30T09:18:24Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -203,3 +203,53 @@
     blast-radius questions, an independent reviewer, and completion evidence into a fixed pre-commit step,
     removing the engineer''s burden of reconstructing impact and reproducing issues; users would pick
     it when working with Claude Code on changes that span multiple files and call chains.'
+- id: req-full-first-pass-2026-10-02
+  project_slug: first-pass
+  level: full
+  reviewed_at: '2026-10-02T02:13:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 写码只盯自己那几行、漏掉调用方与同类缺陷的问题，痛点在于提交前必须人工补做影响面排查和交叉复核，否则同类 bug 反复出现；公开仓库说明已把十问、非作者复核、完成证据固化为流程，属工作流结构推理，痛点刚性与交付闭环可判。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+    - ev-9865ab969b0a0268
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 40 升至 140 后又回落到 80，说明开发者社区注意到它，但收藏与波动只属关注度证据，没有 issue、discussion 或客户案例说明谁在何种场景持续使用，无法证明已进入日常工作流。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+    - ev-b624734bf0221235
+    - ev-468890cd20bc8490
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，无法判断钱来自 to C 开发者自购、to B 团队采购还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-4a04df4cd90aa060
+  - gate: truth
+    status: insufficient
+    reason: 规则集能否在真实仓库中稳定产出可核对的完成证据、非作者复核角色由谁承担、以及安全与人工确认边界，公开材料均未给出可复现的部署或实测记录。
+    evidence_ids:
+    - ev-9865ab969b0a0268
+  next_validation: 追踪该仓库的 issue、discussion 与 README/部署文档，确认是否有团队公开描述在何种仓库、替代了哪一步人工复核流程。
+  market: ''
+  job: 使用 Claude Code 写代码的工程师，在提交改动前运行这套规则集，让模型先回答十个关于改动影响范围的问题，再由未参与编写的审查角色复核，并给出完成证据后才结束本轮改动。
+  job_en: 'Engineers writing code with Claude Code run this rule set before committing a change: the model
+    answers ten questions about the change''s blast radius, a reviewer that did not write the code re-checks
+    it, and the change is only declared done with proof.'
+  pain: AI 编码助手倾向于只盯着自己写出的那几行，容易漏掉调用方、边界条件和同类缺陷，工程师在提交前要自己补做影响面排查和交叉复核，否则缺陷会以同一类问题反复出现在后续提交里。
+  pain_en: AI coding assistants tend to look only at the lines they wrote, missing callers, edge cases
+    and same-class defects; engineers must manually reconstruct blast radius and cross-review before committing,
+    or the same class of bug reappears in later commits.
+  current_alternative: 靠工程师自觉在提交前人工检查 diff、口头或 PR 里请同事复核，或依赖通用 lint/测试；这些做法不强制先回答影响范围问题，也不强制由未参与编写的角色复核。
+  current_alternative_en: Engineers self-review the diff before committing, ask a colleague in a PR, or
+    rely on generic lint/tests; none of these force blast-radius questions first or require a reviewer
+    who did not write the code.
+  usage_reason: 推断：相较人工自查 diff 或通用 lint，这套规则把“先问影响范围、再由未参与编写的角色复核、给出完成证据”固化成 Claude Code 内的固定动作，减少工程师每次提交前自己重建检查清单这一步，因此使用
+    Claude Code 且改动涉及既有调用方的工程师会在提交前选择它。
+  usage_reason_en: 'Inference: versus manual diff self-review or generic lint, the rule set hard-codes
+    blast-radius questions, a non-author reviewer and proof-before-done into the Claude Code loop, removing
+    the step where engineers rebuild their own checklist each commit; engineers using Claude Code on changes
+    touching existing callers would adopt it before committing.'

@@ -1,6 +1,6 @@
 ---
 slug: snyk-laid-off-over-200-employees-revenues-top-300m
-name: Snyk laid off over 200 employees, revenues top $300M
+name: Snyk
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Snyk, the London and TelAviv-founded cybersecurity firm, laid off more 
   thisyear, more than double what was reported at the time, according to a newfiling.New financial figur...
 first_seen: '2026-10-01T15:30:00Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Snyk laid off over 200 employees, revenues top $300M
+# Snyk
 
 Snyk, the London and TelAviv-founded cybersecurity firm, laid off more than 200 employees earlier thisyear, more than double what was reported at the time, according to a newfiling.New financial figur...
 

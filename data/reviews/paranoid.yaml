@@ -121,3 +121,43 @@
   usage_reason_en: 'Cannot be judged from current evidence: all cited items are unrelated to the product,
     with no user feedback or customer cases, so it is impossible to say which users would choose it and
     when.'
+- id: req-full-paranoid-2026-10-02
+  project_slug: paranoid
+  level: full
+  reviewed_at: '2026-10-02T02:15:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决上线前应用安全测试的需求，但公开证据全是词典、百科与同名乐队视频，没有任何用户痛点、替代行为或采用材料，无法还原真实任务与后果。
+    evidence_ids:
+    - ev-a5d602f45e0595c9
+    - ev-9a2261f11fd0d14c
+    - ev-d804ef209fef6b07
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 agent 技能的官方仓库 README、issue 与 discussion，确认其实际支持的框架、交付格式与真实使用记录。
+  market: ''
+  job: 开发者在提交上线前，把正在运行的 Web 应用交给这个 agent 技能，用真实请求尝试入侵自己的应用，为每个漏洞留下可复现的请求证据，再打补丁并重新验证。
+  job_en: Before shipping, a developer hands a running web app to this agent skill, which attempts real-request
+    intrusion, records a reproducible request for each bug, patches it, and re-verifies.
+  pain: 公开材料未提供任何用户痛点、抱怨或既有替代行为的证据；现有证据全部是词典、百科与同名乐队视频，与产品任务无关。
+  pain_en: Public materials provide no user pain, complaint, or existing workaround evidence; all available
+    evidence is dictionary, encyclopedia, and same-name band content unrelated to the product task.
+  current_alternative: 公开材料未说明用户目前如何完成应用安全测试，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently perform application security
+    testing or what this replaces.
+  usage_reason: 无法从公开证据说明用户为何选择它；现有证据与产品任务无关，缺少任何可归因到该产品的采用或使用理由。
+  usage_reason_en: No public evidence explains why users would choose it; available evidence is unrelated
+    to the product task and lacks any attributable adoption or usage reason.

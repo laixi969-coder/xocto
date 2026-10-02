@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjWlZhT2lzZTlv
 summary: OpenAI因安全问题将暂停发布新模型 新京报
 first_seen: '2026-09-29T23:26:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

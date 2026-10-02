@@ -1,0 +1,83 @@
+- id: req-initial-firetower-2026-10-02
+  project_slug: firetower
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在自有服务器上运行编码智能体并远程接入的需求，痛点是云端托管要求交出代码，旧做法可还原，属工作流推理。
+    evidence_ids:
+    - ev-b5a4a5099988635e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、客户案例或采用证据，无法判断共识。
+    evidence_ids:
+    - ev-b5a4a5099988635e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-b5a4a5099988635e
+  - gate: truth
+    status: insufficient
+    reason: 自托管部署的确定性、权限与安全边界如何，公开材料未给出可核对细节。
+    evidence_ids:
+    - ev-b5a4a5099988635e
+  next_validation: 收集该产品官方文档或定价页，核对自托管部署方式、支持的智能体与权限模型。
+  market: ''
+  job: 有数据边界要求的开发团队在需要让编码智能体执行代码任务时，把它部署在自有服务器上，并从任意地点远程接入查看与操作。
+  job_en: Development teams with data-boundary requirements deploy it on their own servers so coding agents
+    can execute code tasks, and access and operate them remotely from anywhere.
+  pain: 把代码和凭据交给第三方云端跑智能体，对受监管或有保密要求的团队不可接受，而自建环境又缺少远程接入手段。
+  pain_en: Handing code and credentials to a third-party cloud to run agents is unacceptable for regulated
+    or confidentiality-bound teams, while self-hosted setups lack remote access.
+  current_alternative: 直接在本地终端跑编码智能体，或使用云端托管的智能体服务，前者难以远程协作，后者要交出代码。
+  current_alternative_en: Running coding agents in a local terminal, or using cloud-hosted agent services;
+    the former is hard to use remotely, the latter requires handing over code.
+  usage_reason: 推断：它把智能体放在用户自己的服务器上再提供远程接入，省掉自建远程访问与调度这一步，因此有合规约束又需要远程协作的团队会先试它。
+  usage_reason_en: 'Inference: it keeps agents on the user''s own servers while providing remote access,
+    removing the need to build remote access and scheduling; teams with compliance constraints that still
+    need remote collaboration are the likely first users.'
+- id: req-full-firetower-2026-10-02
+  project_slug: firetower
+  level: full
+  reviewed_at: '2026-10-02T02:13:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料中唯一相关页面 firetower.sh 描述的是第三方 API 弃用监控与修复，与“自有服务器运行编码智能体”不符；其余证据为同名桌游与历史瞭望站，无法还原用户任务、痛点或替代方式。
+    evidence_ids:
+    - ev-8ddff95975befd5a
+    - ev-13b76c9988130822
+    - ev-81ed99a6cdb18a04
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 firetower.sh 官网的部署文档或定价页，核对是否支持自托管编码智能体及其交付方式。
+  market: ''
+  job: 开发团队或平台工程师在需要让编码智能体执行代码任务时，把智能体部署在自有服务器上，并从任意地点远程接入查看与操作结果。
+  job_en: Development teams or platform engineers deploy coding agents on their own servers to execute
+    code tasks and access/operate the results remotely from anywhere.
+  pain: 公开材料未提供任何用户痛点、抱怨或采用行为；候选摘要所述“不愿把代码交给第三方云”属编辑推断，无证据支撑。
+  pain_en: Public materials provide no user pain points, complaints, or adoption behavior; the candidate
+    summary's claim about not wanting to hand code to third-party clouds is editorial inference without
+    evidence.
+  current_alternative: 公开材料未说明用户当前如何完成同类任务，无法确认替代方式。
+  current_alternative_en: Public materials do not describe how users currently accomplish similar tasks;
+    the alternative cannot be confirmed.
+  usage_reason: 公开材料未说明产品如何交付、支持哪些智能体或如何确认结果，无法解释用户为何选择它。
+  usage_reason_en: Public materials do not explain how the product delivers, which agents it supports,
+    or how results are confirmed, so no reason for user choice can be established.

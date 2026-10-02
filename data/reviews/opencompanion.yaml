@@ -1,0 +1,81 @@
+- id: req-initial-opencompanion-2026-10-02
+  project_slug: opencompanion
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多 CLI 并行时的查看与应答负担，但公开材料未说明旧流程耗时与不采用的后果，价值结构不完整。
+    evidence_ids:
+    - ev-2c5e6ad645a049f0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，无用户反馈或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-2c5e6ad645a049f0
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，收费方式与目标客户均未披露。
+    evidence_ids:
+    - ev-2c5e6ad645a049f0
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持哪些 CLI、如何处理权限与人工确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-2c5e6ad645a049f0
+  next_validation: 收集该产品的官方定价页或文档，确认支持的 CLI 列表、权限处理方式与是否收费。
+  market: ''
+  job: 同时维护多个仓库的工程师在并行运行多个 AI 编码命令行工具时，处理各终端的输出与提问，要完成集中查看进度并逐条应答的任务。
+  job_en: An engineer maintaining several repositories runs multiple AI coding CLIs in parallel, handling
+    each terminal's output and questions, aiming to monitor progress and reply in one place.
+  pain: 公开材料只说明它把多个 CLI 收进一个界面，未给出切换窗口造成的具体损失或用户抱怨，痛点强度无法确认。
+  pain_en: Public material only says it gathers several CLIs into one interface; it gives no concrete
+    cost of window switching or user complaints, so pain intensity cannot be confirmed.
+  current_alternative: 目前工程师在多个终端窗口或标签页之间手动切换，逐个查看和回复。
+  current_alternative_en: Today engineers manually switch between multiple terminal windows or tabs, checking
+    and replying one by one.
+  usage_reason: 推断：若它确实能统一呈现多个 CLI 的状态与提问，工程师可省去逐个窗口切换这一步，因此并行跑多个编码 agent 的人会尝试它；缺少采用与留存证据，无法确认已进入日常工作流。
+  usage_reason_en: 'Inference: if it truly unifies the status and questions of several CLIs, engineers
+    could skip switching windows one by one, so people running multiple coding agents in parallel may
+    try it; adoption and retention evidence is missing, so entry into daily workflows cannot be confirmed.'
+- id: req-full-opencompanion-2026-10-02
+  project_slug: opencompanion
+  level: full
+  reviewed_at: '2026-10-02T02:15:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多 CLI 并行时的查看与应答负担，但公开材料未说明旧流程耗时与不采用的后果，价值结构不完整。
+    evidence_ids:
+    - ev-2c5e6ad645a049f0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或文档，确认支持的 CLI 列表、权限处理方式与是否收费。
+  market: ''
+  job: 同时维护多个仓库的工程师在并行运行多个 AI 编码命令行工具时，处理各终端的输出与提问，要完成集中查看进度并逐条应答的任务。
+  job_en: An engineer maintaining several repositories runs multiple AI coding CLIs in parallel, handling
+    each terminal's output and questions, aiming to monitor progress and reply in one place.
+  pain: 公开材料只说明它把多个 CLI 收进一个界面，未给出切换窗口造成的具体损失或用户抱怨，痛点强度无法确认。
+  pain_en: Public material only says it gathers several CLIs into one interface; it gives no concrete
+    cost of window switching or user complaints, so pain intensity cannot be confirmed.
+  current_alternative: 目前工程师在多个终端窗口或标签页之间手动切换，逐个查看和回复。
+  current_alternative_en: Today engineers manually switch between multiple terminal windows or tabs, checking
+    and replying one by one.
+  usage_reason: 推断：若它确实能统一呈现多个 CLI 的状态与提问，工程师可省去逐个窗口切换这一步，因此并行跑多个编码 agent 的人会尝试它；缺少采用与留存证据，无法确认已进入日常工作流。
+  usage_reason_en: 'Inference: if it truly unifies the status and questions of several CLIs, engineers
+    could skip switching windows one by one, so people running multiple coding agents in parallel may
+    try it; adoption and retention evidence is missing, so entry into daily workflows cannot be confirmed.'

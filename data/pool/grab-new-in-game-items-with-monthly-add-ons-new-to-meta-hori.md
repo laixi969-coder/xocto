@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/meta-horizon-plus-vr-subscription-service-o
 summary: ''
 first_seen: '2026-10-01T17:00:00Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

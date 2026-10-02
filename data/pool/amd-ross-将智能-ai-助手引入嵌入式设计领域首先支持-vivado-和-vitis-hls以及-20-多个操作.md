@@ -1,6 +1,6 @@
 ---
 slug: amd-ross-将智能-ai-助手引入嵌入式设计领域首先支持-vivado-和-vitis-hls以及-20-多个操作
-name: AMD Ross 将智能 AI 助手引入嵌入式设计领域，首先支持 Vivado 和 Vitis HLS，以及 20 多个操作系统……
+name: AMD Ross
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxOYkVodmNRSGg4
 summary: AMD Ross 将智能 AI 助手引入嵌入式设计领域，首先支持 Vivado 和 Vitis HLS，以及 20 多个操作系统…… StorageReview.com
 first_seen: '2026-09-30T23:43:53Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AMD Ross 将智能 AI 助手引入嵌入式设计领域，首先支持 Vivado 和 Vitis HLS，以及 20 多个操作系统……
+# AMD Ross
 
 AMD Ross 将智能 AI 助手引入嵌入式设计领域，首先支持 Vivado 和 Vitis HLS，以及 20 多个操作系统…… StorageReview.com
 

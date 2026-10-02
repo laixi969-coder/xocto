@@ -307,3 +307,52 @@
     calls and the big model only for the actual work, cutting the wait and token spend of big-model-every-step;
     developers who care about cost and latency while still wanting real edits would pick it for local
     repository tasks.'
+- id: req-full-mu-2026-10-02
+  project_slug: mu
+  level: full
+  reviewed_at: '2026-10-02T02:14:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理中“每步都调用大模型”的延迟与成本问题，痛点来自工作流结构推理而非用户口述；公开仓库说明已给出输入（代码库与任务）、动作（小模型判断后大模型执行）与交付（代码变更），但缺用户抱怨与不采用代价的直接证据。
+    evidence_ids:
+    - ev-cf9375e67a253687
+    - ev-0ec0ea7dd581f258
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 221 增至 337，说明社区关注度上升，但收藏与排名只属规模或关注度证据，不能证明目标用户持续使用或形成强场景共识；公开材料未见 issue、discussion 或用户评价说明谁在什么场景下采用。
+    evidence_ids:
+    - ev-cf9375e67a253687
+    - ev-0ec0ea7dd581f258
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济说明；作为开源仓库，钱可能来自 to C 开发者自用、to B 团队采购或 to VC 融资，但均属判断而非已验证事实，无法确认可重复付费路径。
+    evidence_ids:
+    - ev-0ec0ea7dd581f258
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 mu 支持的语言、仓库规模、交付形式与人工确认边界，也未提供可复现的部署或运行结果；承诺能否确定性交付、安全边界如何划定，尚缺公开证据。
+    evidence_ids:
+    - ev-cf9375e67a253687
+  next_validation: 追踪 mu 仓库的 README、issue 与 discussion，确认其支持的语言、仓库规模、运行方式与人工确认边界，作为交付确定性的公开证据。
+  market: ''
+  job: 软件工程师在本地仓库中处理一个待修改的代码库任务时，把仓库与任务交给 mu，由它先做常规调用判断、再让大模型执行改动，最终产出代码变更供开发者确认。
+  job_en: A software engineer working in a local repository hands a codebase and a task to mu; mu makes
+    routine routing calls with a small fast judge, then lets the large model perform the actual edits,
+    producing code changes for the developer to confirm.
+  pain: 公开材料只说明 mu 用小型快速判断模型处理常规调用、大模型做实际工作，未提供用户抱怨、耗时或失败率数据；痛点强度属于工作流结构推理：编码代理每步都调用大模型会带来延迟与成本，开发者需要先判断再执行。
+  pain_en: 'Public materials only state that mu uses a small fast judge for routine calls and the large
+    model for the work; no user complaints, latency, or failure-rate data is given. The pain is a workflow
+    inference: routing every step to a large model adds latency and cost, so developers need a judge-then-act
+    step.'
+  current_alternative: 公开材料未说明用户当前用什么替代；结构上可推断的旧做法是直接使用单一大型编码代理或手动分步调用模型，由开发者自己决定哪一步用哪个模型。
+  current_alternative_en: Public materials do not state the current substitute; the structurally inferable
+    alternative is using a single large coding agent directly, or manually deciding step by step which
+    model to call.
+  usage_reason: 推断：相较直接让大模型处理每一步，mu 先用小型快速判断模型分流常规调用，减少每步都走大模型带来的等待与调用开销，因此在意代理响应速度与调用成本的开发者会在本地仓库任务中选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with sending every step to the large model, mu first routes routine
+    calls through a small fast judge, cutting the wait and call overhead of large-model-every-step; developers
+    who care about agent latency and call cost would choose it for local repository tasks. No public user
+    feedback yet confirms this motive.'

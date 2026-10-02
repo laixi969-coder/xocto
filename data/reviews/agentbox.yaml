@@ -1,0 +1,84 @@
+- id: req-initial-agentbox-2026-10-02
+  project_slug: agentbox
+  level: initial
+  reviewed_at: '2026-10-02T01:41:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决命令行编码代理会话、容器与用量分散的问题，旧做法是手工终端加自写脚本，痛点具体且可核对。
+    evidence_ids:
+    - ev-18390d5cc45fc5fe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 44 星与 5 次 fork，属于早期关注度，尚不能说明团队已把它放进日常工作流。
+    evidence_ids:
+    - ev-18390d5cc45fc5fe
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是自建环境的研发团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-18390d5cc45fc5fe
+  - gate: truth
+    status: insufficient
+    reason: 自托管与容器隔离方向合理，但缺少部署文档、issue 讨论或实测来确认交付是否稳定。
+    evidence_ids:
+    - ev-18390d5cc45fc5fe
+  next_validation: 收集该仓库的部署文档与 issue/discussion，确认容器会话隔离和用量记录是否可复现。
+  market: ''
+  job: 开发者在本地或服务器上运行 Claude Code、Codex CLI 等命令行编码代理，需要管理多个会话、文件改动和用量记录。
+  job_en: Developers run command-line coding agents such as Claude Code and Codex CLI locally or on a
+    server and need to manage multiple sessions, file changes and usage records.
+  pain: 代理在裸终端里跑，会话、容器、Git 改动和用量分散，出问题难以回溯，也难以在多台机器间复用环境。
+  pain_en: Agents run in a bare terminal, so sessions, containers, Git changes and usage are scattered,
+    hard to trace back when something breaks, and hard to reuse across machines.
+  current_alternative: 手工开终端、自己写 Docker 脚本、用 shell 历史或零散日志记录，没有统一工作区。
+  current_alternative_en: Opening terminals by hand, writing ad-hoc Docker scripts, and relying on shell
+    history or scattered logs, with no unified workspace.
+  usage_reason: 推断：它把容器会话、终端、文件和 Git 放进同一个浏览器界面并附带用量记录，省去开发者自己搭隔离环境和拼日志这一步，因此需要审计代理执行过程的小团队会选它。
+  usage_reason_en: 'Inference: it puts container sessions, terminal, files and Git into one browser interface
+    with usage records, removing the step of hand-building isolation and stitching logs, so small teams
+    that need to audit agent execution would pick it.'
+- id: req-full-agentbox-2026-10-02
+  project_slug: agentbox
+  level: full
+  reviewed_at: '2026-10-02T02:12:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据仅含产品功能描述，未提供任何用户任务、痛点或现有替代行为的公开事实，无法还原具体旧流程与不解决的后果，需求结构无法成立。
+    evidence_ids:
+    - ev-8608b2f274e854fe
+    - ev-422a4c5352c6a992
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方仓库 README、部署文档与 issue/discussion，确认其是否记录真实用户任务、现有替代方式与容器会话隔离的可复现交付。
+  market: ''
+  job: 开发者在本机或服务器上运行 Claude Code、Codex CLI 等命令行编码代理，需要把多个会话、容器、文件改动、Git 状态和用量记录放在同一处管理。
+  job_en: Developers running command-line coding agents such as Claude Code and Codex CLI locally or on
+    a server need to manage multiple sessions, containers, file changes, Git state and usage records in
+    one place.
+  pain: 公开材料未提供任何用户痛点、抱怨或 workaround 证据；现有证据只描述产品自身能力（自托管浏览器工作区、Docker 会话、终端、文件、Git、用量追踪），无法确认会话分散、难以回溯等痛点真实存在。
+  pain_en: The public material provides no user pain, complaint or workaround evidence; the available
+    evidence only describes the product's own capabilities (self-hosted browser workspace, Docker sessions,
+    terminal, files, Git, usage tracking), so it cannot confirm that pains such as scattered sessions
+    or hard-to-trace runs actually exist.
+  current_alternative: 公开材料未记录开发者当前用什么方式替代，无法确认是手工终端、自写 Docker 脚本还是其他工具。
+  current_alternative_en: The public material does not record what developers currently use as a substitute,
+    so it is unclear whether that is manual terminals, ad-hoc Docker scripts or other tools.
+  usage_reason: 无法判断：缺少用户反馈、客户案例或可观察的采用行为，无法说明用户为何会选择它而非现有做法。
+  usage_reason_en: 'Cannot be determined: there is no user feedback, customer case or observable adoption
+    behavior to explain why users would choose it over existing practices.'

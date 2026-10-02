@@ -1,7 +1,6 @@
 ---
 slug: uplifting-conversion-across-the-acquisition-funnel-with-pers
-name: Uplifting conversion across the acquisition funnel with personalization using contextual bandits
-  on AWS
+name: Amazon Payments
 builder: ''
 category: ''
 summary_zh: ''
@@ -25,7 +24,7 @@ summary: Generative AI makes it cheap to produce personalized content at scale, 
   and learning why content, not the model, was the constraint.
 first_seen: '2026-10-01T16:51:04Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -36,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS
+# Amazon Payments
 
 Generative AI makes it cheap to produce personalized content at scale, but which variation do you show each customer? Amazon Payments used a multi-objective contextual bandit on Amazon SageMaker AI to personalize an acquisition funnel, achieving a high single-digit conversion lift for one audience, and learning why content, not the model, was the constraint.
 

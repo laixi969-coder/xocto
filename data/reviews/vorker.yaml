@@ -1,0 +1,85 @@
+- id: req-initial-vorker-2026-10-02
+  project_slug: vorker
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想替小生意主处理日常经营事务，但材料只有一句定位，说不出具体任务、频率和不采用后果，痛点无法落到环节。
+    evidence_ids:
+    - ev-b37c33d0674d3a90
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有用户评价、客户案例或社区讨论，无法判断小生意主是否真会把它放进日常流程。
+    evidence_ids:
+    - ev-b37c33d0674d3a90
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方描述，无法判断钱来自店主订阅、按事务收费还是其他方式。
+    evidence_ids:
+    - ev-b37c33d0674d3a90
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近经营事务的第一性目标，也无从判断交付能否确定发生。
+    evidence_ids:
+    - ev-b37c33d0674d3a90
+  next_validation: 收集 Vorker 官方页面或文档中列出的具体任务清单与定价方式，确认它接管的是哪一类可核对的小生意后台事务。
+  market: ''
+  job: 小生意主在没有专职人手时，需要有人处理日常经营事务，希望把这类事务交出去并拿到办好的结果。
+  job_en: A small business owner without dedicated staff needs daily operational tasks handled, and wants
+    to hand them off and get completed results back.
+  pain: 小生意主常要自己兼顾接单、回复、排期、对账等杂事，时间被切碎；但候选材料没有说明它具体接管哪一件，痛点无法落到具体环节。
+  pain_en: Small business owners often juggle orders, replies, scheduling, and reconciliation themselves,
+    fragmenting their time; but the candidate material does not say which specific task it takes over,
+    so the pain cannot be pinned to a step.
+  current_alternative: 现有做法是店主自己处理，或雇兼职、用记账和排期等单点软件分别应付。
+  current_alternative_en: The current approach is the owner handling it personally, or hiring part-time
+    help and using separate point tools for bookkeeping and scheduling.
+  usage_reason: 推断：如果它真能替店主完成某类可核对的后台事务，店主可省去自己逐条处理的那一步，因此人手紧张的小店可能选择它；但材料未给出任何任务清单、用户反馈或采用证据，这一因果无法确认。
+  usage_reason_en: 'Inference: if it genuinely completes a category of checkable back-office tasks for
+    the owner, the owner could skip handling each item personally, so short-staffed small shops might
+    choose it; however, no task list, user feedback, or adoption evidence is provided, so this causal
+    link cannot be confirmed.'
+- id: req-full-vorker-2026-10-02
+  project_slug: vorker
+  level: full
+  reviewed_at: '2026-10-02T02:16:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想替小生意主处理日常经营事务，但公开材料只有一句定位，说不出具体任务、输入、动作、交付与不采用后果，连需求和痛点都无法落到环节，价值结构无从成立。
+    evidence_ids:
+    - ev-b37c33d0674d3a90
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Vorker 官方页面或文档中列出的具体任务清单、输入输出示例与定价方式，确认它接管的是哪一类可核对的小生意后台事务。
+  market: ''
+  job: 小生意主在没有专职人手时，需要把接单、回复、排期、对账等日常经营事务交出去，并拿到办好的结果；候选材料未说明它接收什么材料、执行哪类动作、产出什么交付。
+  job_en: A small business owner without dedicated staff needs to hand off daily operational tasks such
+    as orders, replies, scheduling, and reconciliation, and get completed results back; the candidate
+    material does not state what inputs it takes, what actions it performs, or what deliverable it produces.
+  pain: 店主常要自己兼顾接单、回复、排期、对账等杂事，时间被切碎；但公开材料只有一句定位，说不出它具体接管哪一件、频率多高、不采用会失去什么，痛点无法落到环节。
+  pain_en: Owners often juggle orders, replies, scheduling, and reconciliation themselves, fragmenting
+    their time; but the public material is only a one-line positioning and does not say which specific
+    task it takes over, how often, or what is lost without it, so the pain cannot be pinned to a step.
+  current_alternative: 现有做法是店主自己处理，或雇兼职、用记账和排期等单点软件分别应付。
+  current_alternative_en: The current approach is the owner handling it personally, or hiring part-time
+    help and using separate point tools for bookkeeping and scheduling.
+  usage_reason: 推断：若它真能替店主完成某类可核对的后台事务，店主可省去自己逐条处理的那一步，人手紧张的小店可能因此选择它；但材料未给出任务清单、用户反馈或采用证据，这一因果无法确认。
+  usage_reason_en: 'Inference: if it genuinely completes a category of checkable back-office tasks, the
+    owner could skip handling each item personally, so short-staffed small shops might choose it; however,
+    no task list, user feedback, or adoption evidence is provided, so this causal link cannot be confirmed.'

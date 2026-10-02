@@ -130,3 +130,55 @@
     instructions directly to sketch, extrude, fillet, and export actions in a running SolidWorks instance,
     removing the step of per-item menu operation and macro syntax authoring, so engineers doing repetitive
     edits on existing models would choose it; public materials provide no user feedback or adoption evidence.'
+- id: req-full-solidworks-2026-10-02
+  project_slug: solidworks
+  level: full
+  reviewed_at: '2026-10-02T02:15:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机械设计工程师在已有SolidWorks模型上重复建模的需求，痛点是GUI逐步操作或手写VBA宏的机械负担；官方下载与试用页证明SolidWorks是真实工作流工具，产品以自然语言驱动运行中实例完成草图、拉伸、圆角与导出，交付物为模型文件或宏，属工作流结构推理，公开材料未给频率与不解决代价。
+    evidence_ids:
+    - ev-b4584e9f07704788
+    - ev-ab6581c25b79af68
+    - ev-e6b1c416110c509d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有SolidWorks官方下载、试用与产品页，没有该MCP服务的用户评价、客户案例或采用数据，无法判断目标工程师是否已把它纳入工作流；官方页面不能归因到该功能级产品。
+    evidence_ids:
+    - ev-b4584e9f07704788
+    - ev-ab6581c25b79af68
+  - gate: model
+    status: insufficient
+    reason: 该服务为开源项目，公开材料未见定价页、付费主体或单位经济；谁付钱（个人工程师、设计团队还是SolidWorks生态厂商）无法核验，这是模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-e6b1c416110c509d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明AI执行草图、拉伸、圆角时是否需人工逐步确认，也未给出安全边界或可复现的交付验证；能否确定性交付改好的模型文件尚缺公开证据。
+    evidence_ids:
+    - ev-ab6581c25b79af68
+  next_validation: 追踪该MCP服务的公开代码仓库仓库README、issue与discussion，确认其输入输出流程、是否需人工确认每步操作，以及是否有用户公开报告实际部署与替代旧流程的案例。
+  market: ''
+  job: 机械设计工程师或CAD制图员在已有SolidWorks模型上做重复建模时，打开这个开源MCP服务，让AI助手接收自然语言指令，在运行中的SolidWorks实例里执行草图、拉伸、圆角并导出STEP/STL或生成可复用宏，最终拿到改好的模型文件或宏。
+  job_en: A mechanical design engineer or CAD drafter doing repetitive modeling on an existing SolidWorks
+    model opens this open-source MCP server, lets an AI assistant take natural-language instructions,
+    and executes sketch, extrude, fillet and STEP/STL export inside a running SolidWorks instance to obtain
+    a modified model file or reusable macro.
+  pain: 重复性建模操作（重复草图、拉伸、圆角、导出）在CAD工作流中高频且机械，工程师需在GUI里逐步点击或手写VBA宏；公开材料未给出不解决的具体代价或频率数据，痛点强度属工作流结构推理。
+  pain_en: Repetitive modeling operations (repeated sketch, extrude, fillet, export) are high-frequency
+    and mechanical in CAD workflows, forcing engineers to click step by step in the GUI or hand-write
+    VBA macros; public material gives no explicit cost or frequency data, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 现状是工程师在SolidWorks GUI里手动逐步操作，或自行编写/维护VBA宏脚本；官方下载页与试用页只说明软件获取方式，未描述AI辅助建模的既有替代。
+  current_alternative_en: Today engineers operate step by step in the SolidWorks GUI or write and maintain
+    their own VBA macro scripts; the official downloads and trial pages only describe how to obtain the
+    software, not any existing AI-assisted modeling substitute.
+  usage_reason: 推断：相较手动点击或自写宏，该服务让AI直接对运行中的SolidWorks实例下发草图、拉伸、圆角、导出指令，把“逐步GUI操作或手写脚本”这一步转成自然语言指令，因此做重复建模的工程师在已有模型上批量改动时会选择它；公开材料未说明每步是否需人工确认，也未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with manual clicking or self-written macros, the server lets the
+    AI issue sketch, extrude, fillet and export commands directly to a running SolidWorks instance, converting
+    the step of step-by-step GUI operation or script writing into natural-language instructions, so engineers
+    doing repetitive modeling on existing models would choose it; public material does not state whether
+    each step needs human confirmation, nor provides user feedback or retention evide'

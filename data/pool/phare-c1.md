@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/phare-c1
 summary: A smoke alarm that detects fire, not toast.
 first_seen: '2026-09-29T12:51:48Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

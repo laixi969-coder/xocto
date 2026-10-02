@@ -174,3 +174,51 @@
     and emits ranked JSON, abstaining when unsure, removing the step where the developer manually matches
     context against the skill list; teams maintaining many internal skills and already using Claude Code
     hooks are the likeliest triers. The repo shows only star growth, no retention or repeat-use evidence.'
+- id: req-full-skillranker-2026-10-02
+  project_slug: skillranker
+  level: full
+  reviewed_at: '2026-10-02T02:15:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决技能过多时代理选错工具、开发者反复纠正的问题，旧做法是人工在提示里指定技能；仓库说明排序、结构化 JSON 与弃权能力，属工作流结构推理，尚无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-b091d74a804b7eeb
+    - ev-8e544b488dd54d9a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 121 缓慢升至 127，仅说明关注度，没有用户评价、issue 讨论或采用证据，不能证明开发者已把它留在工作流里。
+    evidence_ids:
+    - ev-b091d74a804b7eeb
+    - ev-8e544b488dd54d9a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，且运行依赖 TypeSafe API key，买方与付费路径不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-b091d74a804b7eeb
+  - gate: truth
+    status: insufficient
+    reason: 排序准确率、弃权是否可靠、本地反馈是否真的改善结果均无公开数据，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-b091d74a804b7eeb
+    - ev-8e544b488dd54d9a
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有开发者报告排序准确率、弃权行为或本地反馈在实际会话中的表现。
+  market: ''
+  job: 使用编码代理的开发者在一轮会话中，把当前会话上下文与可用技能清单交给 CLI，得到排序后的结构化 JSON，据此决定下一步调用哪个技能。
+  job_en: A developer using a coding agent, mid-session, feeds current session context plus the available
+    skill list to the CLI, gets ranked structured JSON, and decides which skill to invoke next.
+  pain: 技能数量增多后，代理容易选错技能或一次全选，开发者要反复纠正并消耗额外上下文轮次；公开材料只说明排序与弃权能力，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: As skills multiply, agents pick the wrong skill or invoke everything, forcing developers to
+    correct repeatedly and burn extra context turns; public material only documents ranking and abstention,
+    so pain intensity is a workflow-structure inference, not user-reported.
+  current_alternative: 当前做法是开发者在提示里手工点名技能，或让模型自行判断，没有独立的排序与弃权机制。
+  current_alternative_en: Today developers name the skill by hand in the prompt or let the model decide
+    on its own, with no separate ranking or abstention mechanism.
+  usage_reason: 推断：相较手工点名，它读取实时会话上下文后输出排序 JSON 并在不确定时弃权，省去开发者每次翻查技能清单并写进提示的那一步；维护大量内部技能、且已接入 Claude Code
+    hooks 的团队更可能试用。仓库仅有 121→127 星，无留存或复购证据。
+  usage_reason_en: 'Inference: versus naming skills by hand, it reads live session context, emits ranked
+    JSON and abstains when unsure, removing the step of looking up the skill list and writing it into
+    the prompt each time; teams maintaining many internal skills and already using Claude Code hooks are
+    more likely to try it. The repo only shows 121→127 stars, with no retention or repeat-use evidence.'

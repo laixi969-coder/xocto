@@ -318,3 +318,172 @@
   tier: behavioural
   fact: 'Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
     or MCP, with exact source excerpts and line numbers. | repository stars: 93'
+- id: ev-b8511529ec36f94a
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: pain
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-191b529052b8979e
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: pain
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-598ec9a8144e7dcf
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: pain
+  tier: independent
+  fact: Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
+    or MCP, with exact source excerpts and line numbers. - nassim-arifette/jevgrep
+- id: ev-d6a9224f2908f174
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: workaround
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-2aae13a5abec428c
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: workaround
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-f82673f793b1f5b0
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: workaround
+  tier: independent
+  fact: Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
+    or MCP, with exact source excerpts and line numbers. - nassim-arifette/jevgrep
+- id: ev-03a6ad670632d899
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-f21a5c94a0f22211
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-db8518f71a2913c7
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
+    or MCP, with exact source excerpts and line numbers. - nassim-arifette/jevgrep
+- id: ev-6c6877b14cb17b0a
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: pricing
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-9dea48591841af7d
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: pricing
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-81de02b40795c323
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: pricing
+  tier: independent
+  fact: Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
+    or MCP, with exact source excerpts and line numbers. - nassim-arifette/jevgrep
+- id: ev-8d34af8e312d2518
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: retention
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-80afa28aaa351e24
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: retention
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-5916b65be633fe67
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-02T02:07:30Z'
+  source_kind: retention
+  tier: independent
+  fact: Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
+    or MCP, with exact source excerpts and line numbers. - nassim-arifette/jevgrep
+- id: ev-434251626e227690
+  project_slug: jevgrep
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%8D%E5%8A%A1+%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88+%E7%BC%96%E7%A0%81%E6%99%BA%E8%83%BD%E4%BD%93%E4%BD%BF%E7%94%A8%E8%80%85
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-02T02:09:18Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 软件工程师 编码智能体使用者'

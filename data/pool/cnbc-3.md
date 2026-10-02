@@ -21,7 +21,7 @@ canonical_url: https://cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-ma
 summary: McDonald's push to have AI price your Big Mac
 first_seen: '2026-09-29T19:58:50Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

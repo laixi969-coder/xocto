@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQSU9SX3NXaUcw
 summary: AI Is Making Software Cheaper. The Harder Problem Is Knowing What to Build AsiaTechDaily
 first_seen: '2026-10-01T08:10:06Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

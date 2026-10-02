@@ -80,3 +80,102 @@
   usage_reason: Microduck 以 399 美元的价格提供可玩、可编程的实物平台，软件开源且社区活跃，降低了入门门槛，吸引教育者和爱好者采用。
   usage_reason_en: Microduck offers a playable, programmable physical platform at $399 with open-source
     software and an active community, lowering the entry barrier and attracting educators and hobbyists.
+- id: req-initial-399-美元的小黄鸭藏着-hugging-face-最大的野心-2026-10-02
+  project_slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决居家陪伴与互动娱乐需求，痛点是虚拟宠物和固定动作玩具缺乏真实物理反馈；399 美元预购与圣诞发货说明交付路径已明确，但持续使用证据尚未公开。
+    evidence_ids:
+    - ev-ea99d571610e0620
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有预购开放和一场深圳人机沙龙讨论，尚无用户评价、复购或社区持续使用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-ea99d571610e0620
+  - gate: model
+    status: insufficient
+    reason: 399 美元定价与预购渠道已披露，但买方是个人消费者还是教育机构、是否有后续内容或配件收入均未说明，付费路径属推断。
+    evidence_ids:
+    - ev-ea99d571610e0620
+  - gate: truth
+    status: insufficient
+    reason: 无语音交互、以活物而非助手定位，交付确定性依赖量产与圣诞发货能否兑现；目前没有独立实测或交付反馈可核对。
+    evidence_ids:
+    - ev-ea99d571610e0620
+  next_validation: 收集 Microduck 官方预购页面或 Pollen Robotics 发布页，核对最终定价、发货时间与随附行为策略清单。
+  market: ''
+  job: 家庭用户或机器人爱好者在客厅、桌面等居家场景中，用手柄操控一只实体机器鸭完成行走、叼物、翻身等动作，以获得陪伴感和可展示的互动娱乐体验。
+  job_en: A household user or robotics hobbyist, in a living-room or desktop setting, uses a gamepad to
+    drive a physical robot duck through walking, object-carrying and self-righting motions for companionship
+    and showable interactive entertainment.
+  pain: 现有电子宠物多为屏幕内虚拟形象或固定动作的遥控玩具，缺少真实物理反馈和可被推倒后自行恢复的持续互动，用户很快失去新鲜感。
+  pain_en: Existing electronic pets are mostly on-screen virtual characters or remote-control toys with
+    fixed motions, lacking real physical feedback and self-recovery after being pushed over, so users
+    lose interest quickly.
+  current_alternative: 用户目前购买传统遥控玩具、屏幕宠物应用，或直接养真实宠物；前两者互动层次浅，后者需要长期照料成本。
+  current_alternative_en: Users currently buy traditional remote-control toys, use on-screen pet apps,
+    or keep a real pet; the first two offer shallow interaction and the last carries long-term care costs.
+  usage_reason: 相较遥控玩具只能执行固定动作，它通过预装的强化学习行为策略让机器鸭在被推倒后自行翻身、低头叼起地面物品，把用户从反复扶正和手动摆姿势的负担中解放出来，因此想要低照料成本又要有真实物理互动的人会在居家陪伴或聚会展示时选择它。这是基于产品能力的推断。
+  usage_reason_en: Compared with remote-control toys that only run fixed motions, its pretrained reinforcement-learned
+    policies let the duck right itself after being pushed over and lower its head to pick up floor objects,
+    freeing users from repeatedly standing it up and posing it by hand, so people wanting low-care but
+    physically real interaction would choose it for home companionship or party demos. This is an inference
+    from product capability.
+- id: req-full-399-美元的小黄鸭藏着-hugging-face-最大的野心-2026-10-02
+  project_slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
+  level: full
+  reviewed_at: '2026-10-02T02:12:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决居家陪伴与互动娱乐需求，痛点是虚拟宠物和固定动作玩具缺乏真实物理反馈与自恢复；399 美元预购、圣诞发货、7 种预训练策略与开源 SDK 构成可确定的交付闭环，但持续使用证据尚未公开，属工作流结构推理。
+    evidence_ids:
+    - ev-ea99d571610e0620
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有预购开放、Open Duck Mini 在 公开代码仓库 积累超 2600 星及 Google I/O 演示，尚无 Microduck 用户评价、复购或社区持续使用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-ea99d571610e0620
+  - gate: model
+    status: insufficient
+    reason: 399 美元定价与预购渠道已披露，买方可能是个人爱好者、学生或高校实验室，但配件、内容订阅或后续收入路径均未说明，付费路径属推断而非已验证事实。
+    evidence_ids:
+    - ev-ea99d571610e0620
+  - gate: truth
+    status: insufficient
+    reason: 无语音交互、以活物而非助手定位，交付确定性依赖量产与圣诞发货能否兑现；硬件设计闭源与 Nvidia 收购带来的中立性变数，目前没有独立实测或交付反馈可核对。
+    evidence_ids:
+    - ev-ea99d571610e0620
+  next_validation: 追踪 Pollen Robotics 或 公开模型社区 官方 Microduck 预购页面与发货公告，核对最终定价、圣诞发货是否兑现及随附行为策略清单。
+  market: ''
+  job: 机器人爱好者、学生或研究者在桌面或客厅场景中，用手柄操控一只 25 厘米高的双足机器鸭完成行走、蹲起、被推倒后翻身、低头叼起袜子或马克笔等动作，并可通过 MuJoCo 仿真与开源 SDK 重新训练行为策略再部署回真机，以完成强化学习与
+    sim-to-real 的动手实验或获得可展示的实体互动娱乐。
+  job_en: A robotics hobbyist, student or researcher, at a desk or in a living room, uses a gamepad to
+    drive a 25 cm bipedal robot duck through walking, squatting, self-righting after being pushed over,
+    and picking up socks or markers with its beak, and can retrain behavior policies in MuJoCo via the
+    open SDK and redeploy them to the real robot, for hands-on reinforcement-learning and sim-to-real
+    experiments or showable physical interaction.
+  pain: 现有电子宠物多为屏幕内虚拟形象或固定动作的遥控玩具，缺少真实物理反馈与自恢复能力；而能跑强化学习与 sim-to-real 全流程的双足平台此前多为数千美元以上的研究级设备，个人爱好者难以负担。
+  pain_en: Existing electronic pets are mostly on-screen virtual characters or remote-control toys with
+    fixed motions, lacking real physical feedback and self-recovery; meanwhile bipedal platforms capable
+    of running a full reinforcement-learning and sim-to-real pipeline previously cost thousands of dollars
+    at research grade, out of reach for individual hobbyists.
+  current_alternative: 用户目前购买传统遥控玩具、屏幕宠物应用，或直接养真实宠物；想做强化学习实验的人则使用仿真环境、开源舵机方案（如 Open Duck Mini，需自备 3D 打印机和烙铁）或数万美元的研究级人形机器人。
+  current_alternative_en: Users currently buy traditional remote-control toys, use on-screen pet apps,
+    or keep a real pet; those wanting reinforcement-learning experiments use simulators, open servo builds
+    such as Open Duck Mini (requiring a 3D printer and soldering iron), or research-grade humanoids costing
+    tens of thousands of dollars.
+  usage_reason: 相较遥控玩具只能执行固定动作、开源舵机方案需要自行打印与焊接，Microduck 出厂预装 7 种经 MuJoCo 强化学习训练、以 50 Hz 运行的行为策略，开箱配对手柄即可操控，且软件栈以
+    Apache 2.0 开源、可 fork 重训再部署回真机，把用户从组装硬件和从零搭建训练管线这两步负担中解放出来，因此想低成本上手强化学习或要一只有真实物理反馈的机器宠物的人会在桌面实验或聚会展示时选择它。这是基于产品能力的推断。
+  usage_reason_en: Compared with remote-control toys that only run fixed motions and open servo builds
+    that require self-printing and soldering, Microduck ships with seven MuJoCo-trained reinforcement-learning
+    policies running at 50 Hz that work out of the box with a paired gamepad, and its Apache 2.0 software
+    stack can be forked, retrained and redeployed to the real robot, removing the burden of assembling
+    hardware and building a training pipeline from scratch, so people wanting low-cost reinf

@@ -130,3 +130,61 @@
     step; versus pasting history into the prompt, the project claims roughly 10x fewer tokens. Developers
     who care about data ownership, reviewability and context cost would therefore pick it when they need
     cross-session AI context. No user feedback or retention data currently supports th'
+- id: req-full-daidocs-2026-10-02
+  project_slug: daidocs
+  level: full
+  reviewed_at: '2026-10-02T02:13:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 助手长期记忆被托管服务锁定、无法人工审阅与迁移的痛点：把记忆落成磁盘上的 .dai 纯文本文件，可被 Claude、GPT、Gemini、Cursor 及 grep
+      读取，并配 MCP server 与 hooks。不采用的后果是换模型或工具时记忆需重导、每轮重灌历史推高 token。这是基于公开产品说明的工作流结构推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-c5628c4e65e3b449
+    - ev-13c8079ecfb450f3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 41 缓慢增至 46，属关注度而非持续采用；公开材料没有 issue、discussion、用户评价或客户案例说明谁在真实工作流里长期使用它，也没有可归因到该产品的使用量或留存证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-c5628c4e65e3b449
+    - ev-428f3613977c6551
+    - ev-13c8079ecfb450f3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、买方或收费方式；作为开源文件格式与 MCP 工具，钱可能来自托管同步、团队版或支持服务，但这只是判断而非已验证事实，也没有采购或付费记录可核。
+    evidence_ids:
+    - ev-c5628c4e65e3b449
+    - ev-c6425d6b62c9cb5b
+  - gate: truth
+    status: insufficient
+    reason: 官方给出 LongMemEval-S 83%（GPT-4o）与 92%（Claude Fable 5）及 token 少 10 倍，但这是厂商自报基准，公开材料未说明多工具并发写入同一
+      .dai 文件时的冲突处理、记忆膨胀与人工边界，交付确定性尚缺可复现验证。
+    evidence_ids:
+    - ev-c5628c4e65e3b449
+    - ev-f39ce3c94da9c9f6
+  next_validation: 追踪 daidocs.com 官方文档与仓库 README/issue/discussion，确认 .dai 文件的读写流程、多工具并发写入的冲突处理方式，以及是否出现真实使用案例或付费/托管方案。
+  market: ''
+  job: 开发者在给 Claude Code、Cursor、Windsurf 等 AI 助手接入长期记忆时，需要把跨会话的上下文与偏好保存成自己磁盘上的文件，让不同模型和工具都能读取、人工查看与编辑，并在换工具或换模型后继续沿用同一份记忆。
+  job_en: A developer wiring long-term memory into assistants such as Claude Code, Cursor or Windsurf
+    needs to persist cross-session context and preferences as a file on their own disk, so multiple models
+    and tools can read it, the human can view and edit it, and the same memory survives a tool or model
+    switch.
+  pain: 现有记忆方案多把上下文锁在托管服务的数据库或向量库里，用户无法直接打开审阅、手工修正或整体搬走；换模型或换编辑器时记忆要重新导入，且每次会话都要把大量历史塞进上下文，token 成本高。公开材料以定位与基准数字呈现这一取舍，未给出用户抱怨原文。
+  pain_en: Existing memory options mostly lock context inside a hosted service's database or vector store,
+    so users cannot directly open, review, hand-correct or wholesale move it; switching model or editor
+    forces re-import, and each session must stuff large history into context at high token cost. The public
+    material presents this trade-off via positioning and benchmark numbers, not user complaints.
+  current_alternative: 把上下文写进向量数据库或托管记忆服务（如各家 assistant 自带 memory），或直接在提示词里粘贴历史内容、维护自己的 markdown 笔记。
+  current_alternative_en: Writing context into a vector database or a hosted memory service (including
+    each assistant's built-in memory), or pasting history directly into the prompt and keeping personal
+    markdown notes.
+  usage_reason: 推断：相较托管记忆服务，DaiDocs 把记忆落成磁盘上的 .dai 纯文本文件，用户可用编辑器或 grep 直接打开、修改、迁移，省去导出与格式转换这一步；同时官方称在
+    LongMemEval-S 上 83%（GPT-4o）、92%（Claude Fable 5）且 token 用量少 10 倍，意味着不必每轮重灌历史。因此在意数据归属、可审阅性和跨工具复用的开发者，在同时使用多个
+    AI 编码工具时会倾向选择它；目前无用户反馈或留存数据支持这一判断。
+  usage_reason_en: 'Inference: versus a hosted memory service, DaiDocs lands memory as plain-text .dai
+    files on disk that users can open, edit or move with an editor or grep, removing an export and format-conversion
+    step; the vendor also claims 83% (GPT-4o) and 92% (Claude Fable 5) on LongMemEval-S with 10x fewer
+    tokens, meaning history need not be re-injected each turn. Developers who care about data ownership,
+    reviewability and cross-tool reuse while running several AI coding tools would there'

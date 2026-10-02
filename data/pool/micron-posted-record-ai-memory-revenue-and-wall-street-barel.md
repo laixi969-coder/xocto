@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxNYTlUd0RZb25k
 summary: Micron posted record AI memory revenue and Wall Street barely blinked Startup Fortune
 first_seen: '2026-10-01T03:06:05Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

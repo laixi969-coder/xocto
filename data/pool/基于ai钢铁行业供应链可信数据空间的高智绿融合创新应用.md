@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PSEVzdTlJV3Q3
 summary: 基于AI+钢铁行业供应链可信数据空间的“高智绿”融合创新应用 信息化观察网
 first_seen: '2026-09-30T03:47:30Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

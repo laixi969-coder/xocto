@@ -1,0 +1,87 @@
+- id: req-initial-openagentcore-2026-10-02
+  project_slug: openagentcore
+  level: initial
+  reviewed_at: '2026-10-02T01:41:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决自托管运行 agent 的需求，但公开材料未说明具体用户任务、旧流程与不采用的后果，价值结构尚不完整。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 116 颗星与 9 次 fork，属关注度信号，不能证明团队已把它放进生产工作流。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付路径，买方与收费方式均未披露。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  - gate: truth
+    status: insufficient
+    reason: 未提供支持范围、部署文档或实测结果，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  next_validation: 收集该仓库的部署文档与 issue/discussion，确认其实际支持的 Agents API 范围与已知限制。
+  market: ''
+  job: 开发团队在需要把 agent 服务部署进自有或客户内网时，处理原本绑定 OpenAI Agents API 的调用代码，要完成在本地跑通同一套 agent 编排的任务。
+  job_en: A development team deploying agent services into its own or a client's private network handles
+    code bound to the OpenAI Agents API, aiming to run the same agent orchestration locally.
+  pain: 公开材料只说明它是自托管实现，未给出具体使用者的抱怨、迁移成本或替代旧做法的记录，痛点强度无法从现有事实确认。
+  pain_en: Public material only says it is a self-hosted implementation; it gives no user complaints,
+    migration costs or records of replacing an old practice, so pain intensity cannot be confirmed from
+    available facts.
+  current_alternative: 团队目前多直接调用 OpenAI 托管 API，或自行基于开源框架重写一套运行时。
+  current_alternative_en: Teams currently call the hosted OpenAI API directly, or rewrite a runtime themselves
+    on top of open-source frameworks.
+  usage_reason: 推断：若接口兼容成立，团队可省去按 Agents API 重写运行时这一步，从而让有数据不出域要求的团队在私有环境中选择它；但缺少采用与留存证据，无法确认这一选择已发生。
+  usage_reason_en: 'Inference: if API compatibility holds, teams could skip rewriting a runtime for the
+    Agents API, which may lead data-residency-constrained teams to choose it in private environments;
+    adoption and retention evidence is missing, so this choice cannot be confirmed.'
+- id: req-full-openagentcore-2026-10-02
+  project_slug: openagentcore
+  level: full
+  reviewed_at: '2026-10-02T02:15:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发团队在私有环境运行 agent 编排的需求，痛点是数据不出域与避免按 Agents API 重写运行时；公开说明已能还原输入、动作与交付，属工作流结构推理，尚无用户抱怨或采用记录佐证强度。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 116 颗星等关注度信号，属规模证据，不能证明团队已把它放进生产工作流或持续使用。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付路径，买方与收费方式均未披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  - gate: truth
+    status: insufficient
+    reason: 未提供支持范围、部署文档或实测结果，承诺能否确定性交付无法核对，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  next_validation: 收集该仓库的部署文档与 issue/discussion，确认其实际支持的 Agents API 范围与已知限制。
+  market: ''
+  job: 开发团队在需要把 agent 服务部署进自有服务器或客户内网时，处理原本绑定 OpenAI Agents API 的调用代码，要完成在本地跑通同一套 agent 编排并返回结果的任务。
+  job_en: A development team deploying agent services onto its own servers or a client's private network
+    handles code bound to the OpenAI Agents API, aiming to run the same agent orchestration locally and
+    return results.
+  pain: 公开材料只说明它是自托管实现，未给出使用者的抱怨、迁移成本或替代旧做法的记录，痛点强度只能从数据不出域与避免重写运行时的结构约束推断。
+  pain_en: Public material only states it is a self-hosted implementation and gives no user complaints,
+    migration costs or records of replacing an old practice; pain intensity can only be inferred from
+    the structural constraints of data residency and avoiding a runtime rewrite.
+  current_alternative: 团队目前多直接调用 OpenAI 托管 API，或自行基于开源框架重写一套运行时。
+  current_alternative_en: Teams currently call the hosted OpenAI API directly, or rewrite a runtime themselves
+    on top of open-source frameworks.
+  usage_reason: 推断：若接口兼容成立，团队可省去按 Agents API 重写运行时这一步，让有数据不出域要求的团队在私有环境中选择它；但缺少采用与留存证据，无法确认这一选择已发生。
+  usage_reason_en: 'Inference: if API compatibility holds, teams could skip rewriting a runtime for the
+    Agents API, which may lead data-residency-constrained teams to choose it in private environments;
+    adoption and retention evidence is missing, so this choice cannot be confirmed.'

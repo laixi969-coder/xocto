@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/nubank-halts-monzo-acquisition-talks-a
 summary: ''
 first_seen: '2026-10-01T13:37:31Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

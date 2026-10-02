@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFAtSWh4MmRXQXcx
 summary: OpenAI发布AI助手“Dot” AI应用将迈入收入兑现阶段 cls.cn
 first_seen: '2026-09-30T00:12:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

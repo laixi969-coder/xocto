@@ -1,0 +1,91 @@
+- id: req-initial-ecommerce-ai-tools-2026-10-02
+  project_slug: ecommerce-ai-tools
+  level: initial
+  reviewed_at: '2026-10-02T01:41:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决卖家整理评论、关键词与素材并产出优化建议的需求，痛点真实存在；但公开材料只列出工具类别，未说明具体输入输出与交付形态，价值结构尚不能确认。
+    evidence_ids:
+    - ev-0755607b606b582e
+  - gate: consensus
+    status: insufficient
+    reason: 42 星、3 次 fork 只反映少量关注，没有用户评价、客户案例或社区讨论可说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-0755607b606b582e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；开源仓库本身不构成付费路径，钱可能来自卖家订阅或服务费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0755607b606b582e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成建议的准确率、是否需人工复核，以及面向 agent 的 API 在真实 listing 任务中的确定性交付表现。
+    evidence_ids:
+    - ev-0755607b606b582e
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认各工具的实际输入输出、是否有卖家报告使用结果或付费服务入口。
+  market: ''
+  job: 亚马逊中小卖家在准备或调整商品 listing 时，处理商品评论、关键词和页面素材，要完成 listing 优化、SEO 审计或图片视频生成。
+  job_en: Small and mid-size Amazon sellers preparing or revising a product listing handle reviews, keywords
+    and page assets to complete listing optimization, SEO audits or image/video generation.
+  pain: 评论、关键词和素材分散在多个后台与表格里，卖家需要逐个手工整理再判断改哪一处，重复劳动多且容易漏掉问题。
+  pain_en: Reviews, keywords and assets are scattered across dashboards and spreadsheets, so sellers manually
+    consolidate them before deciding what to change, which is repetitive and error-prone.
+  current_alternative: 卖家目前多用 Excel 手工汇总评论与关键词，或购买单点 SaaS 工具，再自己拼出优化结论。
+  current_alternative_en: Sellers currently consolidate reviews and keywords manually in Excel, or buy
+    single-point SaaS tools and stitch the conclusions together themselves.
+  usage_reason: 推断：若该工具集能把评论、关键词与页面素材一次性读入并直接产出可执行的修改建议，卖家可省去在多个后台之间搬运和汇总的步骤，因此会有人试用；但仓库仅 42 星，缺少留存、复购或付费证据，无法确认它已被长期留在工作流中。
+  usage_reason_en: 'Inference: if the toolset can ingest reviews, keywords and page assets at once and
+    output actionable edits, sellers skip the step of moving and consolidating data across dashboards,
+    which may attract trials; but with only 42 stars and no retention, repeat-purchase or payment evidence,
+    long-term workflow adoption cannot be confirmed.'
+- id: req-full-ecommerce-ai-tools-2026-10-02
+  project_slug: ecommerce-ai-tools
+  level: full
+  reviewed_at: '2026-10-02T02:13:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决卖家把分散的评论、关键词与素材汇总成可执行 listing 修改建议的需求，痛点是重复搬运与漏判；公开材料已列出评论分析、listing 优化、关键词研究、SEO 审计等具体任务，旧做法是
+      Excel 手工汇总或单点 SaaS 拼接，不解决则持续耗费运营工时。这是工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-0755607b606b582e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 42 星只反映少量关注，公开材料没有用户评价、客户案例或社区讨论，无法说明谁在什么场景下持续使用，关注度不能当作采用证据。
+    evidence_ids:
+    - ev-0755607b606b582e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；开源仓库本身不构成付费路径，钱可能来自卖家订阅、API 调用或服务费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0755607b606b582e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成建议的准确率、是否需人工复核，以及面向 AI agent 的 API 在真实 listing 任务中的确定性交付表现，承诺能否稳定兑现缺少公开验证。
+    evidence_ids:
+    - ev-0755607b606b582e
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认各工具的实际输入输出、是否有卖家报告使用结果或付费/API 服务入口。
+  market: ''
+  job: 亚马逊中小卖家在准备或调整商品 listing 时，把商品评论、关键词和页面素材交给仓库里的脚本与 API，完成评论分析、listing 优化、关键词研究、SEO 审计或图片视频生成。
+  job_en: Small and mid-size Amazon sellers preparing or revising a listing feed reviews, keywords and
+    page assets into the repo's scripts and APIs to complete review analysis, listing optimization, keyword
+    research, SEO audits or image/video generation.
+  pain: 评论、关键词和素材分散在卖家后台与表格中，卖家需逐个手工汇总再判断改哪一处，重复劳动多、易漏问题，且单点 SaaS 工具各管一段，结论要自己拼。
+  pain_en: Reviews, keywords and assets are scattered across seller dashboards and spreadsheets, so sellers
+    manually consolidate them before deciding what to change; single-point SaaS tools each cover one slice,
+    leaving the seller to stitch conclusions together.
+  current_alternative: 卖家目前多用 Excel 手工汇总评论与关键词，或分别购买单点 SaaS 工具，再自行拼出优化结论。
+  current_alternative_en: Sellers currently consolidate reviews and keywords manually in Excel, or buy
+    separate single-point SaaS tools and assemble the optimization conclusions themselves.
+  usage_reason: 推断：相较 Excel 手工汇总加多个单点工具，该仓库把评论分析、关键词研究、SEO 审计与素材生成放在同一套开源脚本和 API 里，卖家可省去在多个后台之间搬运数据、再手工拼接结论的步骤，因此会有人试用；但仅
+    42 星，缺少留存、复购或付费证据，尚不能确认已被长期留在工作流中。
+  usage_reason_en: 'Inference: versus manual Excel consolidation plus multiple single-point tools, this
+    repo puts review analysis, keyword research, SEO audits and asset generation into one open-source
+    script/API set, letting sellers skip moving data across dashboards and hand-stitching conclusions,
+    which may attract trials; with only 42 stars and no retention, repeat-purchase or payment evidence,
+    long-term workflow adoption cannot be confirmed.'

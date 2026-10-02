@@ -89,3 +89,94 @@
     order execution into one continuously running action, cutting the steps of watching each tick and
     manually amending orders, so retail users who cannot watch continuously would choose it when they
     have explicit trading conditions; public material offers no retention or repeat-use evidence.'
+- id: req-initial-睡着觉也能炒股美股散户大本营robinhood开放ai智能体可24小时自动盯盘交易-2026-10-02
+  project_slug: 睡着觉也能炒股美股散户大本营robinhood开放ai智能体可24小时自动盯盘交易
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决散户无法持续盯盘、容易错过买卖时点的问题，旧行为是人工守盘或条件单，痛点具体且不解决的代价可核对。
+    evidence_ids:
+    - ev-13a7b569884163fb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道称将开放，未见用户实际使用、留存或券商侧采用数据，共识强度无法判断。
+    evidence_ids:
+    - ev-13a7b569884163fb
+  - gate: model
+    status: insufficient
+    reason: Robinhood 的收费方式与智能体是否单独计价未披露，买方可能是散户订阅或券商佣金，属判断而非已验证事实。
+    evidence_ids:
+    - ev-13a7b569884163fb
+  - gate: truth
+    status: insufficient
+    reason: 自动交易涉及授权、风控与合规边界，材料未说明人工确认与撤销机制，交付确定性待核验。
+    evidence_ids:
+    - ev-13a7b569884163fb
+  next_validation: 收集 Robinhood 官方关于 AI 智能体交易功能的发布说明或帮助文档，核验授权范围、风控与人工确认机制。
+  market: ''
+  job: 散户投资者在上班、睡觉等无法盯盘的时段，面对实时行情和账户持仓，需要按预设条件完成买卖，避免错过价格窗口。
+  job_en: Retail investors who cannot watch the market while working or sleeping need to complete buys
+    and sells under preset conditions using live quotes and account positions, so they do not miss price
+    windows.
+  pain: 人工盯盘占用整段时间且容易漏掉触发点，挂条件单又难以覆盖需要综合判断的复杂情形。
+  pain_en: Manual monitoring consumes whole blocks of time and easily misses trigger points, while conditional
+    orders struggle to cover situations that need combined judgment.
+  current_alternative: 自己盯盘手动下单、设置条件单，或付费购买投顾与量化信号服务。
+  current_alternative_en: Watching the market and ordering manually, setting conditional orders, or paying
+    for advisory and quantitative signal services.
+  usage_reason: 推断：相较手动盯盘，智能体持续读取行情并按用户设定的规则触发下单，省去用户守在屏幕前的那一步；愿意把部分交易权限交给自动执行的活跃散户会在无法盯盘时选择它，但授权边界与风控是否可靠决定其能否被长期使用。
+  usage_reason_en: 'Inference: compared with manual monitoring, the agent continuously reads quotes and
+    triggers orders under user-set rules, removing the step of staying in front of the screen; active
+    retail investors willing to delegate part of trading authority would choose it when they cannot watch,
+    though authorization limits and risk controls decide long-term use.'
+- id: req-full-睡着觉也能炒股美股散户大本营robinhood开放ai智能体可24小时自动盯盘交易-2026-10-02
+  project_slug: 睡着觉也能炒股美股散户大本营robinhood开放ai智能体可24小时自动盯盘交易
+  level: full
+  reviewed_at: '2026-10-02T02:16:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决散户无法持续盯盘、容易错过买卖时点的问题，旧行为是人工守盘或条件单，痛点具体且不解决的代价可核对；但授权范围与风控细节未披露，属工作流结构推理。
+    evidence_ids:
+    - ev-dfbff13f617b73fe
+    - ev-f0a8afd4ff981986
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道称将开放，未见用户实际使用、留存或券商侧采用数据，共识强度无法判断。
+    evidence_ids:
+    - ev-dfbff13f617b73fe
+  - gate: model
+    status: insufficient
+    reason: Robinhood 的收费方式与智能体是否单独计价未披露，买方可能是散户订阅或券商佣金，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f0a8afd4ff981986
+  - gate: truth
+    status: insufficient
+    reason: 自动交易涉及授权、风控与合规边界，材料未说明人工确认与撤销机制，交付确定性待核验。
+    evidence_ids:
+    - ev-dfbff13f617b73fe
+  next_validation: 收集 Robinhood 官方关于 AI 智能体交易功能的发布说明或帮助文档，核验授权范围、风控与人工确认机制。
+  market: ''
+  job: 散户投资者在上班、睡觉等无法盯盘的时段，面对实时行情与账户持仓，需要按预设条件完成买卖，避免错过价格窗口；经纪业务产品经理则要把这一能力接入现有下单与风控流程。
+  job_en: Retail investors who cannot watch the market while working or sleeping need to complete buys
+    and sells under preset conditions using live quotes and account positions so they do not miss price
+    windows; brokerage product managers must wire this capability into existing order and risk-control
+    flows.
+  pain: 人工盯盘占用整段时间且容易漏掉触发点，条件单又难以覆盖需要综合判断的情形；不采用则可能错过价格窗口或被迫放弃交易机会。
+  pain_en: Manual monitoring consumes whole blocks of time and easily misses trigger points, while conditional
+    orders struggle to cover situations needing combined judgment; not adopting it risks missing price
+    windows or forgoing trades.
+  current_alternative: 自己盯盘手动下单、设置条件单，或付费购买投顾与量化信号服务。
+  current_alternative_en: Watching the market and ordering manually, setting conditional orders, or paying
+    for advisory and quantitative signal services.
+  usage_reason: 推断：相较手动盯盘，智能体持续读取行情并按用户设定规则触发下单，省去用户守在屏幕前的那一步；愿意把部分交易权限交给自动执行的活跃散户会在无法盯盘时选择它，但授权边界与风控是否可靠决定其能否被长期使用。
+  usage_reason_en: 'Inference: compared with manual monitoring, the agent continuously reads quotes and
+    triggers orders under user-set rules, removing the step of staying in front of the screen; active
+    retail investors willing to delegate part of trading authority would choose it when they cannot watch,
+    though authorization limits and risk controls decide long-term use.'

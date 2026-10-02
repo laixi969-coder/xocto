@@ -23,7 +23,7 @@ summary: HEALWELL AI Stock Gains Momentum as Clinical AI Deployments and Enterpr
   Sentiment kalkine.ca
 first_seen: '2026-10-01T12:19:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

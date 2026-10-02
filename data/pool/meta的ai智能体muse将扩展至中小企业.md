@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSW0wTm1fMWgw
 summary: Meta的AI智能体Muse将扩展至中小企业 搜狐网
 first_seen: '2026-10-01T14:42:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

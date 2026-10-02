@@ -203,3 +203,54 @@
     copywriting and vertical assembly into submitting a brief plus one command, removing manual shot-picking
     and script-writing steps and adding built-in ad-law checks; merchants or marketers without editing
     staff who need batches of vertical assets would choose it under publishing deadlines.'
+- id: req-full-brewreel-2026-10-02
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-02T02:12:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中小商家做竖版宣传片时缺剪辑与文案能力、又不想承担高制作成本的需求，痛点在于每条素材都要人工挑镜头写文案；公开材料显示其以简报输入、AI 挑镜头写文案、一条命令出片并含广告法校验，交付闭环可确定，属工作流结构推理，用户抱怨与频率尚未核验。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+    - ev-a5b28d4a82857a0a
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 66 增至 113 并出现复刻，说明开发者社区已注意到它，但收藏与复刻属关注度证据，不能证明目标商家持续使用或形成强场景共识；尚无用户评价或客户案例说明谁在何种场景反复使用。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+    - ev-f20cc8ea70fd5f52
+  - gate: model
+    status: insufficient
+    reason: 项目标注开源可商用，公开材料未给出定价页、付费主体或单位经济，钱可能来自 to B 商家订阅、to C 创作者或 to VC 支持，这是判断而非已验证事实；开源可商用也意味着直接收费路径尚不清晰。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+  - gate: truth
+    status: insufficient
+    reason: 公开材料称含广告法校验，但校验结果仍需人工确认，说明合规边界未完全自动化；成片质量、镜头来源与交付稳定性缺少可复现的公开证据，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-0b45a424a3f591f9
+    - ev-a5b28d4a82857a0a
+  next_validation: 追踪 BrewReel 官方仓库的 README、issue 与 discussion，确认是否有商家或营销团队公开描述实际部署、替代的旧流程与成片交付结果。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，把简报交给 BrewReel，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片；广告法校验结果仍需人工确认。
+  job_en: A small merchant or marketer with only a product brief and scattered footage hands the brief
+    to BrewReel, which selects shots, writes copy and assembles a vertical promo video, producing a ready-to-run
+    clip; ad-law checks still need human confirmation.
+  pain: 公开材料显示其定位是让 DeepSeek 这类便宜模型也能出好看的竖版宣传片，隐含的痛点是中小商家做短视频时既缺剪辑与文案能力，又不想为每条素材付出高额制作成本；但公开材料未给出用户抱怨、频率或不采用的具体代价，痛点强度属工作流结构推理。
+  pain_en: Public materials position it as letting cheap models like DeepSeek produce good-looking vertical
+    promos, implying the pain that small merchants lack editing and copywriting capacity yet cannot afford
+    high per-asset production cost; no public user complaints, frequency or cost of inaction are given,
+    so pain intensity is a workflow-structure inference.
+  current_alternative: 公开材料未直接说明旧做法，但按任务结构推断，替代方式是商家自己用剪映等工具手动剪辑、外包给剪辑师或代运营，或直接不做竖版宣传片；这些替代路径的具体使用情况仍待核验。
+  current_alternative_en: Public materials do not state the old approach directly, but by task structure
+    the alternatives are merchants hand-editing in tools like CapCut, outsourcing to editors or agencies,
+    or skipping vertical promos altogether; actual usage of these paths remains unverified.
+  usage_reason: 推断：相较手动剪辑或外包，BrewReel 把“挑镜头、写文案、合成”压缩为提交一份简报后一条命令出片，省去逐条素材的剪辑与文案步骤，并内置广告法校验；因此缺人手、预算有限、需要批量出竖版素材的小商家或营销人员会在有简报和零散素材时选择它。
+  usage_reason_en: 'Inference: versus hand-editing or outsourcing, BrewReel compresses shot selection,
+    copywriting and assembly into one command after submitting a brief, removing per-asset editing and
+    copy steps and adding built-in ad-law checks; thus small merchants or marketers with limited staff
+    and budget who need batches of vertical assets would choose it when they have a brief and scattered
+    footage.'

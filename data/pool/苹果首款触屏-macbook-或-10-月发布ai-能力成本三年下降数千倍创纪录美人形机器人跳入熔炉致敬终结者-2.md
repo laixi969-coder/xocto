@@ -66,7 +66,7 @@ summary: "华为 Mate90 系列发布，售价 5999 元起 \n 10 月 1 日， 华
   \ 2 已经退役。」（来源：IT 之家）"
 first_seen: '2026-10-02T00:28:26Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

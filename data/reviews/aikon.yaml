@@ -1,0 +1,84 @@
+- id: req-initial-aikon-2026-10-02
+  project_slug: aikon
+  level: initial
+  reviewed_at: '2026-10-02T01:41:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决功能机搜索入口失效后无法获取信息的问题，旧做法是换机或借设备，痛点具体。
+    evidence_ids:
+    - ev-7271fc487373e639
+  - gate: consensus
+    status: insufficient
+    reason: 311 星说明有围观与兴趣，但没有证据表明用户已长期在功能机上使用它。
+    evidence_ids:
+    - ev-7271fc487373e639
+  - gate: model
+    status: insufficient
+    reason: 未披露任何收费方式，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7271fc487373e639
+  - gate: truth
+    status: insufficient
+    reason: 依赖自建服务器与多个模型接口，缺少实测确认在功能机网络条件下的响应与稳定性。
+    evidence_ids:
+    - ev-7271fc487373e639
+  next_validation: 收集该仓库的 issue 与实测记录，确认功能机端在真实网络下的响应与可用性。
+  market: ''
+  job: 仍在使用诺基亚 S40/S60 功能机的用户在设备无法联网搜索时，需要就日常问题获得文字答案。
+  job_en: Users still on Nokia S40/S60 feature phones need text answers to everyday questions when the
+    device can no longer search the web.
+  pain: 这些设备上的搜索入口已经失效，用户要么放弃设备，要么只能靠记忆或他人转述获取信息。
+  pain_en: The search entry point on these devices has stopped working, so users either give up the device
+    or depend on memory and second-hand answers.
+  current_alternative: 换智能机、借他人设备查询，或干脆不查。
+  current_alternative_en: Switching to a smartphone, borrowing someone else's device to look things up,
+    or simply not looking it up.
+  usage_reason: 推断：它让功能机通过自建 Go 服务器把问题转给多个模型并回传文字，省去换设备这一步，因此仍依赖老手机或行业手持终端的人会尝试它。
+  usage_reason_en: 'Inference: it lets a feature phone relay questions to several models through a self-hosted
+    Go server and return text, removing the step of replacing the device, so people still tied to old
+    phones or industry handhelds would try it.'
+- id: req-full-aikon-2026-10-02
+  project_slug: aikon
+  level: full
+  reviewed_at: '2026-10-02T02:12:33Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决老功能机搜索入口失效后无法查信息的问题，痛点具体但公开材料未显示查询高频或不用会有明确后果，换机或借设备即可替代，属没有也行的怀旧型需求。
+    evidence_ids:
+    - ev-7271fc487373e639
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有真实功能机用户报告持续使用场景，而非仅技术围观。
+  market: ''
+  job: 仍在使用 2007 年前后诺基亚 S40/S60 功能机的人，在设备已无法访问 Google 搜索时，想就日常问题获得一段文字答案。
+  job_en: People still using Nokia S40/S60 feature phones from around 2007, when the device can no longer
+    reach Google search, want a text answer to everyday questions.
+  pain: 公开事实是这些老设备上的搜索入口已经失效，用户要么换机、要么靠记忆或他人转述；但公开材料未显示这种查询是高频刚需，也未显示不解决会造成明确后果。
+  pain_en: Public facts show the search entry point on these old devices has stopped working, so users
+    either switch devices or rely on memory and second-hand answers; but public materials do not show
+    this lookup is a high-frequency necessity or that leaving it unsolved has clear consequences.
+  current_alternative: 换智能机、借他人设备查询，或干脆不查；公开材料未说明用户已为在老功能机上恢复搜索而采取持续行为。
+  current_alternative_en: Switching to a smartphone, borrowing another device to look things up, or simply
+    not looking it up; public materials do not show users taking sustained action to restore search on
+    an old feature phone.
+  usage_reason: 推断：它通过 J2ME 应用加自建 Go 服务器把问题转给多个模型并回传文字，省去换设备这一步；但公开材料只显示 311 星的技术围观，未显示有人因日常必需而持续使用，因此更像怀旧或技术演示而非刚性选择。
+  usage_reason_en: 'Inference: it relays questions to several models via a J2ME app plus a self-hosted
+    Go server and returns text, removing the step of replacing the device; but public materials show only
+    311 stars of technical interest, not sustained use driven by daily necessity, so it reads more as
+    nostalgia or a demo than a rigid choice.'

@@ -1,0 +1,83 @@
+- id: req-initial-gutsy-2026-10-02
+  project_slug: gutsy
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是本地低成本决策，痛点存在，但公开材料只有一句简介，无法确认输入、输出与判断质量，需求强度未明。
+    evidence_ids:
+    - ev-ad39d05567b7aeda
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 8 分 2 评论，没有采用或复用的公开证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ad39d05567b7aeda
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ad39d05567b7aeda
+  - gate: truth
+    status: insufficient
+    reason: 无法核对决策准确率、延迟与安全边界，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-ad39d05567b7aeda
+  next_validation: 收集该仓库的 README、模型卡与 issue/discussion，确认输入输出格式、评测结果与部署方式。
+  market: ''
+  job: 开发者或产品团队在本地程序需要自动做一次判断（如分流、选择下一步动作）时，把待决策输入交给模型，要求在不联网、不用 GPU 的前提下拿到决策结果。
+  job_en: A developer or product team needs a local program to make a judgement call (such as routing
+    or choosing the next action) and passes the input to the model, expecting a decision without internet
+    access or a GPU.
+  pain: 云端模型调用有延迟、按量计费，且部分数据不允许外发；本地跑大模型又需要昂贵显卡。
+  pain_en: Cloud model calls add latency and per-use cost, and some data may not leave the premises; running
+    large models locally requires expensive GPUs.
+  current_alternative: 调用云端大模型 API，或使用规则引擎、关键词匹配等硬编码逻辑做判断。
+  current_alternative_en: Calling a cloud LLM API, or using rule engines and keyword matching as hard-coded
+    decision logic.
+  usage_reason: 推断：若该模型在 CPU 上即可给出可用判断，团队可省去 GPU 采购与云端调用费用，并避免数据外发；但公开材料未给出准确率、延迟或集成方式，尚不能确认它比规则引擎更可靠。
+  usage_reason_en: 'Inference: if the model gives usable judgements on CPU, teams could skip GPU purchases
+    and cloud call fees and avoid sending data out; however, no public material gives accuracy, latency
+    or integration details, so it is not yet clear it beats a rule engine.'
+- id: req-full-gutsy-2026-10-02
+  project_slug: gutsy
+  level: full
+  reviewed_at: '2026-10-02T02:14:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决本地低成本决策需求，但公开材料仅一句简介，未说明输入输出、判断质量与具体使用情境，连用户任务与痛点都无法还原，故无法判定需求是否成立。
+    evidence_ids:
+    - ev-ad39d05567b7aeda
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、模型卡与 issue/discussion，确认输入输出格式、评测结果与部署方式，以判断用户任务与痛点是否可还原。
+  market: ''
+  job: 开发者或产品团队在本地程序需要自动做一次判断（如分流、选择下一步动作）时，把待决策输入交给 Gutsy，要求在不联网、不用 GPU 的前提下拿到决策结果。
+  job_en: A developer or product team needs a local program to make a judgement call (such as routing
+    or choosing the next action) and passes the input to Gutsy, expecting a decision without internet
+    access or a GPU.
+  pain: 公开材料只有一句简介，未说明输入输出格式、判断质量或集成方式，因此无法确认用户具体在什么环节受阻、痛点是否刚性。
+  pain_en: The public material is a single-line description with no input/output format, judgement quality
+    or integration detail, so the specific user pain point and its rigidity cannot be confirmed.
+  current_alternative: 公开材料未披露用户当前用什么替代（云端 API、规则引擎或其他本地小模型），替代行为无从核对。
+  current_alternative_en: The public material does not disclose what users currently substitute (cloud
+    APIs, rule engines or other local small models), so the alternative behaviour cannot be verified.
+  usage_reason: 推断：若该模型在 CPU 上即可给出可用判断，团队可省去 GPU 采购与云端调用费用并避免数据外发；但公开材料未给出准确率、延迟或集成方式，无法说明用户为何会选它而非规则引擎。
+  usage_reason_en: 'Inference: if the model gives usable judgements on CPU, teams could skip GPU purchases
+    and cloud call fees and avoid sending data out; however, no public material gives accuracy, latency
+    or integration details, so it is not clear why users would choose it over a rule engine.'

@@ -237,3 +237,51 @@
     organization, processing and iteration in one local canvas so assets and process stay on-device and
     reusable; creators who care about cost, local data and repeated iteration would choose it, though
     no public user feedback yet confirms this motive.'
+- id: req-full-beeftv-2026-10-02
+  project_slug: beeftv
+  level: full
+  reviewed_at: '2026-10-02T02:12:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频创作者用AI生成和剪辑素材时，云端Agent又贵又慢、限制多、过程难复用的痛点；作者公开抱怨并自建本地开源替代，痛点具体且已有替代行为，交付链路（生成-组织-加工）可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-f1bc960cab3fcb37
+    - ev-254dbbfc0c3f1222
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从635升至707，说明社区关注度在增长，但收藏不等于目标用户持续使用或付费，缺少留存、复购或重复使用证据。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+    - ev-ab33da08002f2bd7
+  - gate: model
+    status: insufficient
+    reason: 开源本地项目，公开材料未见定价页、付费主体或单位经济；钱可能来自捐赠、托管服务或企业支持，这是判断而非已验证事实，属模式缺口。
+    evidence_ids:
+    - ev-254dbbfc0c3f1222
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出具体接收素材格式、执行哪一步剪辑动作、交付成片形态，也未说明人工与安全边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-922937f1e9526fdb
+  next_validation: 追踪BeefTV 公开代码仓库仓库的issue、discussion与release说明，确认实际部署方式、支持的素材与模型渠道，以及是否有用户公开的持续使用或付费记录。
+  market: ''
+  job: 视频创作者或AIGC学习者，在本地整理和剪辑素材时，打开BeefTV，把提示词或参考素材输入画布，经生成、组织、加工三步产出可迭代复用的视频成片。
+  job_en: Video creators or AIGC learners open BeefTV locally to organize and edit footage, feeding prompts
+    or reference assets into a canvas and producing iterable video outputs through generate, organize,
+    and refine steps.
+  pain: 作者公开抱怨现有视频Agent又贵又慢、还各种限制，即云端Agent按次计费、排队等待、平台对素材和模型设限，导致创作链路被成本和限制打断。
+  pain_en: The author publicly complains that existing video agents are expensive, slow, and restrictive,
+    meaning cloud agents charge per run, queue jobs, and constrain assets and models, breaking the creative
+    workflow.
+  current_alternative: 当前替代是云端视频Agent（如LibTV类工具），按次付费、排队执行、受平台限制，且过程与素材难以保留复用。
+  current_alternative_en: The current alternative is cloud video agents (LibTV-like tools) that charge
+    per run, queue execution, impose platform limits, and make it hard to retain or reuse process and
+    assets.
+  usage_reason: 相较云端Agent按次付费和排队，BeefTV以本地优先、开源方式运行，把生成、组织、加工放在同一画布并保留过程与素材，减少付费与等待负担，因此对成本敏感、需要反复迭代素材的AIGC创作者有吸引力（推断）。
+  usage_reason_en: Compared with per-run cloud agents and queues, BeefTV runs local-first and open-source,
+    placing generation, organization, and refinement on one canvas while retaining process and assets,
+    reducing cost and waiting burden, which appeals to cost-sensitive AIGC creators who iterate on assets
+    (inference).

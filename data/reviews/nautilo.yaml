@@ -187,3 +187,52 @@
     and outputs into one self-hosted space, removing a copy-paste and version-alignment step and keeping
     data on one's own server; developers or small teams who care about data sovereignty while running
     several agents would choose it in that situation, and this is inference without user feedback or cases.
+- id: req-full-nautilo-2026-10-02
+  project_slug: nautilo
+  level: full
+  reviewed_at: '2026-10-02T02:14:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人多代理围绕同一份代码与文档协作、产出分散难以对齐的需求；痛点在于代理产出散落于编辑器、聊天与仓库之间需人工搬运。旧替代是手动同步或不可自托管的云端工具，不解决的后果是版本错位与重复劳动。此为工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-ef4c4673a9ca2162
+    - ev-a27a99e200f5c286
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库星标从 65 增至 144，属关注度信号，不能说明团队已把它放进日常工作流；未见用户评价、案例或重复使用证据，采用共识无法确认。
+    evidence_ids:
+    - ev-ef4c4673a9ca2162
+    - ev-a27a99e200f5c286
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且自托管，未见定价页、付费或采购记录，钱可能来自 to B 自托管支持或 to VC，属判断而非已验证事实；开源项目本身不构成付费路径证据。
+    evidence_ids:
+    - ev-ef4c4673a9ca2162
+  - gate: truth
+    status: insufficient
+    reason: 官方描述承诺跨桌面、移动与网页的人机协作，但未见部署文档、权限边界或人工确认机制，承诺能否确定性交付无法核对，安全与人工边界也未公开。
+    evidence_ids:
+    - ev-ef4c4673a9ca2162
+  next_validation: 追踪 nautilo 官方仓库的 README、部署文档与 issue/discussion，确认其实际支持的人机协作流程、权限与交付边界。
+  market: ''
+  job: 开发者或小团队在同一个项目里同时使用多个 AI 代理处理代码与文档时，把任务、代理产出和人工修改集中到一个自托管工作空间，让每个人和每个代理基于同一份材料继续推进，最终交付物由人确认。
+  job_en: Developers or small teams running several AI agents on code and documents in one project gather
+    tasks, agent output and human edits into one self-hosted workspace so every person and agent continues
+    from the same material, with humans confirming the final deliverable.
+  pain: 公开材料只说明这是自托管的人机协作空间，未说明此前谁在用什么方式协作、哪一步最费时或最易出错，痛点强度只能由工作流结构推断：多代理产出分散在本地编辑器、聊天工具与代码仓库之间，需要人工反复搬运与对齐版本。
+  pain_en: 'The public material only describes a self-hosted human-agent collaboration space and does
+    not say who previously collaborated how or which step was slowest or most error-prone; pain intensity
+    is inferred from workflow structure: multi-agent output is scattered across local editors, chat tools
+    and repositories, requiring manual shuttling and version alignment.'
+  current_alternative: 可推断的旧做法是各自在本地编辑器、聊天工具和代码仓库之间手动同步代理产出，或直接用云端协作工具但无法自托管；候选材料未提供用户描述或替代行为证据，此条为推断。
+  current_alternative_en: The inferable old practice is manually syncing agent output across local editors,
+    chat tools and repositories, or using cloud collaboration tools that cannot be self-hosted; the candidate
+    provides no user account or substitute-behaviour evidence, so this is inference.
+  usage_reason: 相较手动在多个工具间同步，它把人和代理的任务与产出放进同一个自托管空间，减少一次复制粘贴和版本对齐；MIT 自托管对数据不能出内网的团队是可核对的选择理由，但缺少用户反馈或案例，哪类用户实际因此选择它仍属推断。
+  usage_reason_en: Compared with manually syncing across tools, it puts people's and agents' tasks and
+    outputs in one self-hosted space, removing a copy-paste and version-alignment step; MIT self-hosting
+    is a checkable reason for teams whose data cannot leave their network, but without user feedback or
+    cases which users actually choose it remains inference.

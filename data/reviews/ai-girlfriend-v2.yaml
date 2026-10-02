@@ -237,3 +237,53 @@
     locally on Windows, so users need not upload conversations or voiceprints to the cloud nor stitch
     memory and speech modules together themselves; privacy-conscious individuals who want their own voice
     and tolerate local setup would choose it in that situation.'
+- id: req-full-ai-girlfriend-v2-2026-10-02
+  project_slug: ai-girlfriend-v2
+  level: full
+  reviewed_at: '2026-10-02T02:12:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是陪伴对话中记忆丢失与音色不属于自己的问题：通用聊天机器人会话重置、声音固定，用户需反复重述背景。项目把长期记忆、本地声音克隆与可选数字人打包成 Windows 安装，交付形态可确定；痛点刚性属工作流结构推理，尚无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-dea24e93de596581
+    - ev-9ab57c01a9d166e3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 46 缓慢增至 52，说明有开发者关注，但公开材料没有用户评价、issue 讨论或持续使用记录，无法判断目标用户是否把它留在日常陪伴流程里，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-dea24e93de596581
+    - ev-a4b3f9f5f7210bdb
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、订阅或捐赠入口，也未见企业采购线索；谁付钱、按什么单位收费均属判断而非已验证事实，但这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-9ab57c01a9d166e3
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只列出长期记忆、本地声音克隆与可选 WSL2 数字人，未见部署文档、可复现实测或安全与人工边界说明，记忆是否真长期、克隆音质与数字人稳定性无法核对，交付确定性尚未验证。
+    evidence_ids:
+    - ev-dea24e93de596581
+    - ev-c6f2fe7fdd4dfe67
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开部署步骤、记忆与声音克隆的可复现实测结果，以及用户自述的使用场景与替代做法。
+  market: ''
+  job: 个人用户在 Windows 桌面上想要一个能记住过往对话、用自己的声音回应的陪伴对象时，安装并配置这个项目，把长期记忆、本地声音克隆与可选 WSL2 数字人串起来，获得可持续对话的桌面伴侣。
+  job_en: An individual Windows user who wants a companion that remembers past conversations and replies
+    in a cloned voice installs and configures this project, wiring long-term memory, local voice cloning
+    and an optional WSL2 digital human into a persistent desktop companion.
+  pain: 通用聊天机器人每次会话重置、记不住用户历史，声音也不是用户熟悉或想要的音色，用户要反复重述背景、无法积累关系感；公开材料只给出功能组合，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Generic chatbots reset each session, forget the user's history and speak in a voice the user
+    did not choose, forcing repeated re-explaining and preventing any accumulating sense of relationship;
+    public material only shows the feature set, not user complaints or frequency, so pain intensity is
+    a workflow inference.
+  current_alternative: 旧做法是使用通用云端聊天机器人（记忆有限、声音固定），或自行拼装角色卡加 TTS 脚本，需要手动维护上下文与语音管线。
+  current_alternative_en: The old approach is a general cloud chatbot with limited memory and a fixed
+    voice, or a hand-rolled character card plus TTS script where the user manually maintains context and
+    the voice pipeline.
+  usage_reason: 推断：相较通用聊天机器人，它把长期记忆与本地声音克隆放进同一个 Windows 安装包，用户不必自己搭记忆库和语音管线，也不必把对话内容交给云端；在意隐私、想要固定音色与连续对话的个人用户会在自用桌面上选择它。
+  usage_reason_en: 'Inference: versus a general chatbot, it bundles long-term memory and local voice cloning
+    into one Windows install, so the user does not have to build a memory store and voice pipeline or
+    send conversations to the cloud; privacy-minded users who want a fixed voice and continuous dialogue
+    would pick it for a personal desktop.'

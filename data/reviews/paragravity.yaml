@@ -312,3 +312,55 @@
     the isolation and switching step from manual work, so independent developers who frequently run multiple
     accounts or sandboxes in parallel without maintaining multiple environments would choose it in that
     situation; public materials do not yet confirm this motive through user feedback.'
+- id: req-full-paragravity-2026-10-02
+  project_slug: paragravity
+  level: full
+  reviewed_at: '2026-10-02T02:15:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者在单机并行运行多个 Google Antigravity 账号或沙箱的需求，痛点是账号切换与实例串行带来的中断和污染；公开说明确认其原生、非侵入式并行多账号与沙箱管理定位，但痛点强度与不采用代价属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-0bb2733d9120b4b5
+    - ev-291fd8363b1efa62
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 214 缓慢升至 220，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-0bb2733d9120b4b5
+    - ev-3bdced09f2a23883
+    - ev-f9ac1406ee12df0a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径，无法判断钱来自 to C 开发者订阅、to B 团队采购还是纯开源赞助；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-0bb2733d9120b4b5
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称其原生、非侵入式，但未提供部署文档、隔离机制细节或可复现实测，交付能否稳定发生以及账号安全边界尚缺公开证据。
+    evidence_ids:
+    - ev-0bb2733d9120b4b5
+    - ev-291fd8363b1efa62
+  next_validation: 追踪 paragravity 仓库的 README、issue 与 discussion，确认其隔离机制、部署方式以及是否有用户描述具体多账号或沙箱并行场景。
+  market: ''
+  job: 独立开发者或小团队在同一台机器上需要同时运行多个 Google Antigravity 账号或沙箱时，打开 paragravity，把多组账号与沙箱配置交给它，完成实例的隔离与并行调度，最终拿到互不干扰的多实例开发环境。
+  job_en: An independent developer or small team needing to run several Google Antigravity accounts or
+    sandboxes on one machine opens paragravity, feeds it multiple account and sandbox configurations,
+    and gets isolated, parallel-running instances that do not interfere with each other.
+  pain: 公开材料只说明它是原生、非侵入式的并行多账号与沙箱管理器，未给出用户抱怨、频率或不采用的具体代价；从工作流结构推断，单机切换账号或串行运行沙箱会打断并行调试与多账号验证，这是该工具试图消除的摩擦。
+  pain_en: Public materials only describe it as a native, non-invasive parallel multi-account and sandbox
+    manager, with no user complaints, frequency, or cost of not adopting; structurally inferred, switching
+    accounts or running sandboxes serially on one machine interrupts parallel debugging and multi-account
+    verification, which is the friction the tool targets.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；结构上可推断的旧做法是手动切换账号、开多个终端或虚拟机，或直接串行运行单个 Antigravity 实例。
+  current_alternative_en: Public materials do not state how users do this today; the structurally inferable
+    alternatives are manually switching accounts, opening multiple terminals or VMs, or simply running
+    a single Antigravity instance serially.
+  usage_reason: 推断：相较手动切换账号或串行运行，paragravity 以原生、非侵入方式接管多账号与沙箱的隔离和并行调度，减少反复登录、环境互相污染和排队等待这一步负担，因此需要同时验证多个账号或并行跑沙箱的独立开发者会在单机多实例场景下选择它。
+  usage_reason_en: 'Inference: compared with manually switching accounts or running serially, paragravity
+    natively and non-invasively handles isolation and parallel scheduling of multiple accounts and sandboxes,
+    removing the step of repeated logins, environment cross-contamination, and queuing, so independent
+    developers who must verify multiple accounts or run sandboxes in parallel would choose it for single-machine
+    multi-instance work.'

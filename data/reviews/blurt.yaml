@@ -80,3 +80,49 @@
   usage_reason_en: 'Inference: versus built-in dictation it makes dictation a key-triggered standalone
     action, potentially reducing misfires and input-method switching, but the material does not state
     any concrete difference from OS dictation, so which users would choose it remains unclear.'
+- id: req-full-blurt-2026-10-02
+  project_slug: blurt
+  level: full
+  reviewed_at: '2026-10-02T02:12:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把口述语音快速变成可粘贴文本的录入需求，痛点是打字慢于说话、长文本录入耗时且系统听写易误触发；公开事实仅说明其基于 AssemblyAI 听写接口的按键说话方式，旧替代为系统听写或手工打字，交付闭环可还原，属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-928fd32136454b4f
+    - ev-cd6538a6179827e0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一条产品发布说明与一个 40 星的开源仓库，未发现用户评价、采用规模或重复使用证据，无法判断是否形成共识；仓库收藏只说明开发者关注，不能证明持续使用。
+    evidence_ids:
+    - ev-928fd32136454b4f
+    - ev-cd6538a6179827e0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与买方，底层依赖第三方 AssemblyAI 听写接口，自身收费路径不明；谁付钱、按什么单位计费均属判断而非已验证事实，但这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-928fd32136454b4f
+  - gate: truth
+    status: insufficient
+    reason: 听写能力由外部 API 提供，产品未展示对特定工作第一性目标的贴近程度、交付确定性或人工校对与安全边界，缺少可复现的公开验证材料。
+    evidence_ids:
+    - ev-928fd32136454b4f
+    - ev-cd6538a6179827e0
+  next_validation: 追踪 Blurt 官方定价页或产品文档，确认其计费方式、支持场景与是否针对特定行业工作流。
+  market: ''
+  job: 文字工作者、客服或销售支持人员在写邮件、记录会议或整理工单时，按住按键说话，把口述内容变成可直接粘贴的文本，再自行校对后交付。
+  job_en: Writers, support agents or sales staff hold a key and speak while drafting emails, taking meeting
+    notes or logging tickets, turning speech into paste-ready text they then proofread.
+  pain: 打字速度慢于说话速度，长文本录入占用大量时间；口述后仍需人工校对，且系统听写常出现误触发、需切换输入法或打断当前窗口，公开材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Typing is slower than speaking and long-form entry is time-consuming; dictated text still needs
+    proofreading, and OS dictation often misfires, requires input-method switching or interrupts the current
+    window, though public material gives no direct user complaint or workaround evidence.
+  current_alternative: 系统自带听写、手机语音输入法或纯手工打字。
+  current_alternative_en: Built-in OS dictation, mobile voice keyboards, or typing by hand.
+  usage_reason: 推断：相较系统听写，它把听写收敛为按住即说的独立按键动作，减少误触发与切换输入法的步骤，并把结果直接交给 AssemblyAI 听写接口返回可粘贴文本；因此频繁口述长文本、又不想离开当前窗口的文字工作者或支持人员会在写邮件、记会议、整理工单时选择它。
+  usage_reason_en: 'Inference: versus OS dictation, it reduces misfires and input-method switching by
+    making dictation a hold-to-talk key action and returns paste-ready text via the AssemblyAI dictation
+    API; so writers or support staff who dictate long text frequently and do not want to leave their current
+    window would choose it for emails, meeting notes or tickets.'

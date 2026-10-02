@@ -122,3 +122,45 @@
   usage_reason_en: 'Available evidence cannot support any usage reason: all cited pages are kids coding
     education providers with no correspondence to an offline agent development tool, so no reason for
     user choice can be stated.'
+- id: req-full-icode-2026-10-02
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-02T02:14:15Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向 ICode.org 少儿编程竞赛与 iCode School 课程，与候选摘要所述离线 agent 开发平台无任何对应；连它解决什么需求、什么痛点都无法从公开材料写出，价值关不成立。
+    evidence_ids:
+    - ev-20da801d23aede99
+    - ev-89c97e44baa074fd
+    - ev-e9a6ebf95e3e6a6f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该离线 agent 项目的官方仓库或官网，收集其 README、部署文档与 issue/discussion，确认是否存在真实产品页面与用户使用记录。
+  market: ''
+  job: 候选摘要声称开发者可在数据不能出内网或无稳定外网的环境中，把本地代码仓库与任务交给离线 agent 与工作流执行，并在终端界面取回结果；但公开证据中没有任何材料描述这一工作流、输入材料或交付物。
+  job_en: The candidate summary claims developers in air-gapped or data-restricted environments hand local
+    repositories and tasks to an offline agent and workflow, retrieving results in a terminal UI; however,
+    no public evidence describes this workflow, its inputs, or deliverables.
+  pain: 公开证据只覆盖 ICode.org 的少儿编程竞赛与 iCode School 的 STEM 课程，没有任何材料说明离线 agent 场景下用户的具体痛点、发生频率或不解决的后果。
+  pain_en: Public evidence covers only ICode.org's youth coding competitions and iCode School's STEM classes;
+    nothing documents the specific pain, frequency, or consequence of leaving the offline-agent job unsolved.
+  current_alternative: 公开材料未说明目标用户当前如何完成离线 agent 任务，也未记录任何既有替代行为或 workaround。
+  current_alternative_en: Public materials do not show how target users currently complete offline agent
+    tasks, nor any existing alternative or workaround.
+  usage_reason: 由于公开证据与候选摘要描述的产品完全不对应，无法说明用户相较旧做法为何会选择它；缺少可引用的产品说明、文档或用户反馈。
+  usage_reason_en: Because the public evidence does not correspond to the product described in the candidate
+    summary, there is no basis to explain why users would choose it over their existing approach; no citable
+    product docs or user feedback exist.

@@ -1,0 +1,83 @@
+- id: req-initial-helo-2026-10-02
+  project_slug: helo
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是邮件发送这一刚性环节，旧做法是自建 SMTP 或绑定单一服务商，痛点与替代行为都清楚。
+    evidence_ids:
+    - ev-c187546e2b5e4a63
+    - ev-e2dbc398a1dd3a47
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页与社区少量讨论，没有公开的采用规模或开发者口碑，共识尚未形成。
+    evidence_ids:
+    - ev-c187546e2b5e4a63
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按量还是按席位收费不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e2dbc398a1dd3a47
+  - gate: truth
+    status: insufficient
+    reason: 送达率、退信处理与合规边界均无公开材料，交付确定性无法核对。
+    evidence_ids:
+    - ev-e2dbc398a1dd3a47
+  next_validation: 收集 Helo 官方定价页与文档，确认计费方式、送达率说明及迁移指南。
+  market: ''
+  job: 后端开发工程师在产品需要发送注册验证、通知或营销邮件时，接入邮件 API 并处理投递结果与失败重试。
+  job_en: A backend developer integrating an email API to send signup verification, notification or marketing
+    email, and handling delivery results and retries.
+  pain: 自建 SMTP 要处理送达率、退信和黑名单；绑定单一服务商后迁移成本高，价格调整时缺少议价空间。
+  pain_en: Self-run SMTP means dealing with deliverability, bounces and blocklists; locking into one provider
+    makes migration costly and leaves little leverage when prices change.
+  current_alternative: 使用 SendGrid、Postmark、Amazon SES 等成熟邮件服务，或自建 SMTP 服务器。
+  current_alternative_en: Using established providers such as SendGrid, Postmark or Amazon SES, or running
+    an own SMTP server.
+  usage_reason: 推断：由 Postmark 前成员团队提供同类接口，开发者可用相近的接入方式替换现有服务商，减少迁移改造与供应商锁定；但公开材料未给出价格、送达率或客户案例，是否真能降低这一步负担尚不能确认。
+  usage_reason_en: 'Inference: built by former Postmark staff offering a similar interface, it lets developers
+    swap providers with limited integration work and less vendor lock-in; however, no public price, deliverability
+    data or customer case confirms it actually reduces that burden.'
+- id: req-full-helo-2026-10-02
+  project_slug: helo
+  level: full
+  reviewed_at: '2026-10-02T02:14:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向 JPMorgan HELO ETF 与 myhELO 病历系统，与邮件 API 无关，无法还原用户任务、痛点或替代行为，需求结构不成立。
+    evidence_ids:
+    - ev-762448f41990166a
+    - ev-b668b6e84cccbb08
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索 Helo 邮件 API 的官方产品页与文档（如 helo.com 或相关域名），确认其是否真实存在、提供何种接口与定价。
+  market: ''
+  job: 后端开发工程师在产品需要发送注册验证、通知或营销邮件时，接入邮件 API 并处理投递结果与失败重试。
+  job_en: A backend developer integrating an email API to send signup verification, notification or marketing
+    email, and handling delivery results and retries.
+  pain: 公开材料未提供任何关于 Helo 邮件 API 的用户痛点、抱怨或替代行为证据；现有证据全部指向 JPMorgan HELO ETF 与 myhELO 病历系统，与邮件 API 无关。
+  pain_en: No public evidence describes user pain, complaints or workaround behavior for Helo's email
+    API; all available evidence points to the JPMorgan HELO ETF and the myhELO health-record system, unrelated
+    to an email API.
+  current_alternative: 无法从现有证据确认；材料中未出现任何邮件发送服务或自建 SMTP 的替代行为描述。
+  current_alternative_en: Cannot be confirmed from available evidence; no email-sending service or self-run
+    SMTP alternative is described in the material.
+  usage_reason: 无法判断：证据中不存在 Helo 邮件 API 的产品页面、文档或用户反馈，无法说明它相较旧做法减少哪一步负担，因此不能给出使用理由。
+  usage_reason_en: 'Cannot be determined: no product page, documentation or user feedback for Helo''s
+    email API exists in the evidence, so no reduction in effort versus the old approach can be explained.'

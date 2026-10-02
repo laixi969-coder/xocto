@@ -1,0 +1,87 @@
+- id: req-initial-vitraai-2026-10-02
+  project_slug: vitraai
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多语言内容生产的人工环节，但材料只有一句定位，无法确认替代了翻译、校对还是排版哪一步，痛点强度与不采用后果都写不出来。
+    evidence_ids:
+    - ev-ae504e09081f7222
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有发布定位，没有用户评价、客户案例或社区讨论，无法判断卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-ae504e09081f7222
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页、买方描述或收费方式，无法判断钱来自 to B 营销预算还是 to C 订阅。
+    evidence_ids:
+    - ev-ae504e09081f7222
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近本地化工作的第一性目标，也无从判断交付是否确定发生。
+    evidence_ids:
+    - ev-ae504e09081f7222
+  next_validation: 收集 Vitra.ai 官方定价页或客户案例页，确认其按语种、按素材还是按席位收费，以及是否有真实客户交付记录。
+  market: ''
+  job: 营销或本地化人员要把一份已有内容改成多语言版本用于投放或发布，需要产出可直接使用的多语言稿件。
+  job_en: Marketing or localization staff need to convert existing content into multiple language versions
+    for campaigns or publishing, producing directly usable multilingual copy.
+  pain: 多语言内容通常要经过翻译、校对、排版多道人工环节，周期长且版本一致性难保证；但候选材料没有说明它具体卡在哪一步。
+  pain_en: Multilingual content usually passes through translation, proofreading, and layout by hand,
+    which is slow and hard to keep consistent; the candidate material does not say which step it specifically
+    targets.
+  current_alternative: 现有做法是机器翻译加人工校对，或外包给翻译与本地化服务商，再人工排版。
+  current_alternative_en: The current approach is machine translation plus human proofreading, or outsourcing
+    to translation and localization vendors, followed by manual layout.
+  usage_reason: 推断：如果它能把翻译、本地化和成稿排版合并为一次交付，用户可省去在多个工具间搬运和反复校对的一步，因此需要批量产出多语言素材的营销团队可能选择它；但材料未给出任何用户反馈或采用证据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if it merges translation, localization, and final layout into one delivery,
+    users could skip moving files between tools and repeated proofreading, so marketing teams producing
+    multilingual assets at volume might choose it; however, the material offers no user feedback or adoption
+    evidence to confirm this causal link.'
+- id: req-full-vitraai-2026-10-02
+  project_slug: vitraai
+  level: full
+  reviewed_at: '2026-10-02T02:16:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多语言内容生产的人工环节，但材料只有一句定位，无法确认替代了翻译、校对还是排版哪一步，痛点强度与不采用后果都写不出来。
+    evidence_ids:
+    - ev-ae504e09081f7222
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Vitra.ai 官方定价页或客户案例页，确认其按语种、按素材还是按席位收费，以及是否有真实客户交付记录。
+  market: ''
+  job: 营销或本地化人员需要把一份已有内容改成多语言版本用于投放或发布，打开平台提交原文，由 AI 生成并本地化内容，最终拿到可直接投放的多语言稿件。
+  job_en: 'Marketing or localization staff need to convert existing content into multiple language versions
+    for campaigns or publishing: they submit source text to the platform, AI generates and localizes it,
+    and they receive directly usable multilingual copy.'
+  pain: 公开材料只有一句定位，没有说明它替代翻译、校对还是排版哪一步，也没有用户抱怨、workaround 或客户案例，因此无法确认具体痛点与不采用后果。
+  pain_en: The public material offers only a one-line positioning and does not say whether it replaces
+    translation, proofreading, or layout, nor does it include user complaints, workarounds, or customer
+    cases, so the specific pain and cost of not adopting cannot be confirmed.
+  current_alternative: 现有做法是机器翻译加人工校对，或外包给翻译与本地化服务商，再人工排版；但材料未说明产品与这些旧做法的具体差异。
+  current_alternative_en: The current approach is machine translation plus human proofreading, or outsourcing
+    to translation and localization vendors, followed by manual layout; the material does not specify
+    how the product differs from these old methods.
+  usage_reason: 推断：如果它能把翻译、本地化和成稿排版合并为一次交付，用户可省去在多个工具间搬运和反复校对的一步，因此需要批量产出多语言素材的营销团队可能选择它；但材料未给出任何用户反馈或采用证据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if it merges translation, localization, and final layout into one delivery,
+    users could skip moving files between tools and repeated proofreading, so marketing teams producing
+    multilingual assets at volume might choose it; however, the material offers no user feedback or adoption
+    evidence to confirm this causal link.'

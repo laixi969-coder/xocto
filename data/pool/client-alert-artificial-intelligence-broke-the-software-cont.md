@@ -23,7 +23,7 @@ summary: 'Client Alert: Artificial Intelligence Broke the Software Contract: The
   Warranties, and Liability Caps The National Law Review'
 first_seen: '2026-09-30T16:37:40Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

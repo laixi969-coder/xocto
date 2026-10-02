@@ -169,3 +169,58 @@
     interviews the user to fill in details before emitting the prompt; therefore creators who need to
     batch-replicate the same format and are weak at prompt writing would choose it when pushing volume.
     This is an inference from product capability and task structure, not yet confirmed by '
+- id: req-full-ai-desktop-outfit-video-2026-10-02
+  project_slug: ai-desktop-outfit-video
+  level: full
+  reviewed_at: '2026-10-02T02:12:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短视频创作者批量产出固定机位一镜到底换装成片的需求，痛点是逐帧拆解爆款、手写提示词反复试错、再进剪辑软件补对白字幕，不解决则单条成片成本高、难以批量；公开仓库说明已给出输入—反问—提示词—成片的闭环，属工作流结构推理，痛点刚性中等。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-c04f09f2f47dd1eb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 44，说明有开发者关注，但公开材料没有用户评价、复刻案例或持续使用记录，无法证明目标创作者已把它留在工作流里；关注度不等于采用。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-c04f09f2f47dd1eb
+  - gate: model
+    status: insufficient
+    reason: 仓库未公开定价、付费入口或客户采购记录，谁付钱、按什么单位收费均无公开事实；这是商业证据缺口，不反推需求不存在，但模式成熟度只能判不足。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供可复现的成片样例、生成成功率或人工与安全边界说明，交付能否稳定发生尚缺证据；提示词模板与 Agent Skill 的实际产出质量无法从现有事实核验。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-e2df99e9409b27a0
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，收集可复现的成片样例、用户复刻反馈及是否出现定价或付费入口。
+  market: ''
+  job: 短视频创作者或内容运营在需要批量产出「桌面动态壁纸换装」这类固定机位一镜到底的 30 秒成片时，打开该仓库拿到提示词模板，把一句想法交给 Agent Skill，由它反问补全细节后写出精准提示词，再交给即梦、豆包、Seedance
+    2.5 等视频工具生成带中文对白和字幕的成片。
+  job_en: A short-form video creator or content operator who needs to batch-produce 30-second fixed-camera
+    one-take 'desktop wallpaper outfit-change' clips opens this repo, takes the prompt template, hands
+    a one-line idea to the Agent Skill, which interviews them to fill in details and writes a precise
+    prompt, then feeds it to Jimeng, Doubao, Seedance 2.5 and similar video tools to generate a clip with
+    Chinese dialogue and subtitles.
+  pain: 公开材料显示这类刷屏视频需要逐帧拆解才能复现，创作者自己写提示词往往要反复试错、再进剪辑软件补对白和字幕；不解决就要为每条成片付出多轮生成与后期成本，难以批量产出。
+  pain_en: Public materials show this viral format must be reverse-engineered frame by frame; creators
+    writing prompts themselves face repeated trial and error plus editing-software work for dialogue and
+    subtitles, so leaving it unsolved means multiple generation rounds and post-production cost per clip,
+    making batch output hard.
+  current_alternative: 当前替代是创作者自己逐帧拆解爆款、手写提示词并在即梦、豆包、Seedance 等工具间反复试错，再用剪辑软件补对白与字幕；公开材料未说明是否已有同类模板或 Agent
+    Skill 竞品。
+  current_alternative_en: The current alternative is creators reverse-engineering viral clips themselves,
+    hand-writing prompts, iterating across Jimeng, Doubao, Seedance and similar tools, then adding dialogue
+    and subtitles in editing software; public materials do not show an existing equivalent template or
+    Agent Skill competitor.
+  usage_reason: 推断：相较自己逐帧拆解和手写提示词，该 Skill 通过反问补全细节并直接输出可复制的固定机位一镜到底提示词模板，把「拆解—试错—写词」压缩为一次对话，并省去后期补对白字幕这一步；需要批量产出同格式换装视频的创作者会在赶量时选择它。
+  usage_reason_en: 'Inference: versus reverse-engineering and hand-writing prompts, the Skill interviews
+    the user to fill in details and directly outputs a copyable fixed-camera one-take prompt template,
+    compressing ''deconstruct—iterate—write'' into one conversation and removing the post-production dialogue/subtitle
+    step; creators who must batch-produce the same outfit-change format would choose it when pushing volume.'

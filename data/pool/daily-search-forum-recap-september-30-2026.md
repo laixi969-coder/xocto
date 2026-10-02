@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOMXJwak9ZWmRO
 summary: 'Daily Search Forum Recap: September 30, 2026 Search Engine Roundtable'
 first_seen: '2026-09-30T14:00:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

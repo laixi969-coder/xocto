@@ -486,3 +486,44 @@
   usage_reason_en: 'Inference: if it turns ad copy and assets directly into a deliverable cut, users might
     choose it to skip manual editing and templating; however, no public material describes the flow, inputs,
     outputs, or user feedback, so this causal link cannot be confirmed.'
+- id: req-full-ai-video-ad-studio-2026-10-02
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-10-02T02:12:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，用户任务、痛点强度与不采用后果均无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-064ce8778b64953b
+    - ev-07cbd5a6f404f0a3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 AI 的输入素材、执行步骤与交付产物，以及是否有用户描述替代的旧流程。
+  market: ''
+  job: 营销或内容人员需要为广告投放准备视频素材，在剪辑或投放准备环节处理视频与广告文案，产出可投放的成片或素材文件。
+  job_en: Marketers or content staff need to prepare video assets for ad campaigns, handling footage and
+    ad copy at the editing or pre-launch stage to produce deliverable video files.
+  pain: 公开材料只有仓库名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，也未说明不解决的具体代价与频率，痛点无法还原。
+  pain_en: Public materials contain only the repo name and star counts; they do not state what inputs
+    the AI takes, which step it performs, what output it delivers, or the cost and frequency of leaving
+    it unsolved, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明用户目前如何完成视频广告素材制作，也未说明它替代了哪条旧流程或工具。
+  current_alternative_en: Public materials do not show how users currently produce video ad creatives,
+    nor which prior workflow or tool this replaces.
+  usage_reason: 缺少产品说明、文档或用户反馈，无法说明相较旧做法它减少了哪一步负担或改善哪项可核对结果，因此无法判断用户为何选择它。
+  usage_reason_en: With no product description, documentation, or user feedback, it is impossible to say
+    which step it removes or which verifiable result it improves versus the old approach, so the reason
+    users would choose it cannot be judged.

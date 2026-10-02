@@ -1,6 +1,6 @@
 ---
 slug: rltldr-self-improvement-by-internalizing-self-generated-feed
-name: 'RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback'
+name: RLTL;DR
 builder: ''
 category: ''
 summary_zh: ''
@@ -26,7 +26,7 @@ summary: The common paradigm of reinforcement learning with verifiable rewards (
   let it write its own feedback, in the form of a single TL;DR insight. The next rollout is conditioned…
 first_seen: '2026-10-01T00:00:00Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback
+# RLTL;DR
 
 The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-improvement, where tasks are so difficult that the agent has a low or even no chance of success, and where there are no teacher models or example solutions to distill from. In this paper, we introduce RLTL;DR. After each failed attempt, we show the policy the verifier outputs and let it write its own feedback, in the form of a single TL;DR insight. The next rollout is conditioned…
 

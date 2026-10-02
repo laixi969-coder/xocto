@@ -84,3 +84,46 @@
   usage_reason_en: 'Cannot be judged: the available evidence is unrelated to 3D website building, and
     there is no user feedback, customer case or checkable result to explain which users would choose it
     and for what concrete action.'
+- id: req-full-dioramas-2026-10-02
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-02T02:13:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决三维发布页素材与编排成本高的问题，但全部引用证据指向实体微缩模型，与网页三维展示无关，无法从公开事实还原用户任务、痛点与旧替代，需求结构不成立。
+    evidence_ids:
+    - ev-6f244218d39f8165
+    - ev-c0c084ba33a68002
+    - ev-7773ffaef246f491
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该框架官方仓库的 README、示例站点与 issue/discussion，确认是否有团队用它交付真实商业三维站点及其素材与部署流程。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开证据中没有任何一条描述三维发布页制作的实际痛点、抱怨或旧流程成本，全部证据指向实体微缩模型（diorama）这一无关概念，无法确认用户任务中的痛点。
+  pain_en: None of the public evidence describes any actual pain, complaint, or legacy-process cost in
+    building 3D launch pages; all evidence points to the unrelated physical concept of miniature dioramas,
+    so the pain in the user task cannot be confirmed.
+  current_alternative: 公开材料未提供三维发布页制作的现有替代方式；所引证据讨论的是博物馆与影视中的实体微缩模型制作，与网页三维展示无关。
+  current_alternative_en: The public material provides no current alternative for building 3D launch pages;
+    the cited evidence discusses physical miniature model-making in museums and film, unrelated to web
+    3D showcases.
+  usage_reason: 无法给出使用理由：现有证据全部指向实体微缩模型，未包含任何关于该框架被采用、被选择或解决具体任务的公开事实，因此不能推断用户为何选择它。
+  usage_reason_en: 'No usage reason can be given: all existing evidence points to physical miniature dioramas
+    and contains no public fact about this framework being adopted, chosen, or solving a concrete task,
+    so why users would pick it cannot be inferred.'

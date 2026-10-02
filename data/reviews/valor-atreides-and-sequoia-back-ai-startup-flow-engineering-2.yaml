@@ -1,0 +1,80 @@
+- id: req-initial-valor-atreides-and-sequoia-back-ai-startup-flow-engineering-2-2026-10-02
+  project_slug: valor-atreides-and-sequoia-back-ai-startup-flow-engineering-2
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从材料还原，价值关无法判断。
+    evidence_ids:
+    - ev-b1cb6cbd88f320d1
+  - gate: consensus
+    status: insufficient
+    reason: 融资与估值属于关注度证据，不能说明用户为何采用或卡在哪一环。
+    evidence_ids:
+    - ev-b1cb6cbd88f320d1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，付费路径不明。
+    evidence_ids:
+    - ev-b1cb6cbd88f320d1
+  - gate: truth
+    status: insufficient
+    reason: 交付是否确定发生、人工边界如何，材料未说明。
+    evidence_ids:
+    - ev-b1cb6cbd88f320d1
+  next_validation: 收集 Flow Engineering 官方产品页与客户案例，核验其具体输入、执行动作、交付物与买方。
+  market: ''
+  job: 候选材料未说明谁在什么情况下使用 Flow Engineering、处理什么材料、要完成什么任务。
+  job_en: The candidate material does not say who uses Flow Engineering, in what situation, handling what
+    material, to complete what task.
+  pain: 材料未描述任何用户痛点或旧做法中的困难。
+  pain_en: The material describes no user pain or difficulty in the old practice.
+  current_alternative: 材料未提供现有替代方式。
+  current_alternative_en: The material provides no existing alternative.
+  usage_reason: 仅有融资与估值，未说明相较旧做法减少哪一步负担或改善哪项可核对结果，无法给出选择理由。
+  usage_reason_en: Only funding and valuation are given; they do not state which step's burden is reduced
+    versus the old practice or which verifiable result improves, so no reason to choose it can be given.
+- id: req-full-valor-atreides-and-sequoia-back-ai-startup-flow-engineering-2-2026-10-02
+  project_slug: valor-atreides-and-sequoia-back-ai-startup-flow-engineering-2
+  level: full
+  reviewed_at: '2026-10-02T02:16:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只有融资与估值，未说明它解决什么需求、什么痛点，也还原不出输入、动作与交付，价值关无法判断。
+    evidence_ids:
+    - ev-613a862ed27c37af
+    - ev-2d71b14a8b2289e7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Flow Engineering 官方产品页与客户案例页面，核验其具体输入材料、执行动作、交付物与买方，作为下一轮公开证据。
+  market: ''
+  job: 候选材料只给出融资与估值事实，未说明谁在什么工作节点打开 Flow Engineering、接收什么材料、执行什么动作、交付什么结果，具体任务无法还原。
+  job_en: The candidate material only gives the funding and valuation fact; it does not say who opens
+    Flow Engineering at which work step, what material it takes in, what action it performs, or what result
+    it delivers, so the task cannot be reconstructed.
+  pain: 材料未描述任何用户痛点或旧做法中的困难，无法判断痛点是否存在及其刚性。
+  pain_en: The material describes no user pain or difficulty in the old practice, so whether the pain
+    exists and how rigid it is cannot be judged.
+  current_alternative: 材料未提供现有替代方式；检索到的 Google Flow、Gemini、ChatGPT 等页面属于同名或通用 AI 工具，不能归因到该产品。
+  current_alternative_en: The material provides no existing alternative; the retrieved Google Flow, Gemini,
+    and ChatGPT pages are same-name or generic AI tools and cannot be attributed to this product.
+  usage_reason: 仅有融资与估值，未说明相较旧做法减少哪一步负担或改善哪项可核对结果，无法给出用户选择它的理由。
+  usage_reason_en: Only funding and valuation are given; they do not state which step's burden is reduced
+    versus the old practice or which verifiable result improves, so no reason for a user to choose it
+    can be given.

@@ -1,0 +1,84 @@
+- id: req-initial-semitexa-2026-10-02
+  project_slug: semitexa
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决代理读不懂 PHP 框架结构的问题，但公开材料只有一句定位，说不清代理据此完成什么任务，痛点刚性无法确认。
+    evidence_ids:
+    - ev-6ade8043d42fa314
+  - gate: consensus
+    status: insufficient
+    reason: 无仓库活跃度、采用或社区讨论证据，无法判断 PHP 开发者是否真的需要为代理改造框架。
+    evidence_ids:
+    - ev-6ade8043d42fa314
+  - gate: model
+    status: insufficient
+    reason: 未披露许可、定价或商业主体，开源项目如何变现完全未知。
+    evidence_ids:
+    - ev-6ade8043d42fa314
+  - gate: truth
+    status: insufficient
+    reason: 未说明代理读取结构后的权限与人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-6ade8043d42fa314
+  next_validation: 收集 Semitexa 的公开代码仓库或官方文档，确认其结构暴露机制、许可与提交活跃度。
+  market: ''
+  job: PHP 后端开发者在让 AI 代理修改或排查既有项目时，需要先让代理理解框架的目录与调用结构。
+  job_en: PHP backend developers letting AI agents modify or debug existing projects must first make the
+    agent understand the framework's directory and call structure.
+  pain: 框架结构对代理不透明，开发者要反复粘贴说明或人工指路，代理改动容易偏离既有约定。
+  pain_en: Framework structure is opaque to agents, so developers repeatedly paste explanations or point
+    the way, and agent edits easily drift from existing conventions.
+  current_alternative: 目前多靠人工写说明文件、在提示里粘贴目录结构，或让代理逐文件读取来建立上下文。
+  current_alternative_en: Today this is usually handled by hand-written instruction files, pasting directory
+    structure into prompts, or having the agent read files one by one to build context.
+  usage_reason: 推断：若框架本身把结构暴露给代理，可省去人工指路这一步，但公开材料未说明暴露方式与效果，无法判断开发者会因此换框架。
+  usage_reason_en: 'Inference: if the framework itself exposed its structure to agents, the manual wayfinding
+    step would disappear, but public materials do not describe the mechanism or its effect, so a framework
+    switch cannot be judged.'
+- id: req-full-semitexa-2026-10-02
+  project_slug: semitexa
+  level: full
+  reviewed_at: '2026-10-02T02:15:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决代理读不懂 PHP 框架结构的问题，但公开材料只有一句定位，说不清代理据此完成什么任务、开发者拿到什么结果，痛点刚性与交付闭环都无法从公开事实还原。
+    evidence_ids:
+    - ev-6ade8043d42fa314
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Semitexa 的公开代码仓库或官方文档，确认其结构暴露机制、许可与提交活跃度。
+  market: ''
+  job: PHP 后端开发者在让 AI 代理修改或排查既有项目时，需要先让代理理解框架的目录与调用结构，再完成改动或定位问题。
+  job_en: PHP backend developers letting AI agents modify or debug existing projects must first make the
+    agent understand the framework's directory and call structure before making changes or locating issues.
+  pain: 公开材料只有一句定位，未说明框架结构对代理不透明的具体表现、开发者因此多花哪一步、代理改动偏离约定的后果，痛点无法从公开事实还原。
+  pain_en: Public materials contain only a one-line positioning and do not describe how framework structure
+    is opaque to agents, which extra step developers take, or the consequences of agent edits drifting
+    from conventions, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未披露开发者当前用什么方式让代理理解 PHP 框架结构，无法确认旧做法是人工写说明、粘贴目录还是逐文件读取。
+  current_alternative_en: Public materials do not disclose how developers currently make agents understand
+    PHP framework structure, so it is unclear whether the old approach is hand-written instructions, pasting
+    directories, or file-by-file reading.
+  usage_reason: 推断：若框架能把结构直接暴露给代理，理论上可省去人工指路，但公开材料未说明暴露哪些结构信息、代理据此完成什么任务、开发者拿到什么结果，无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the framework exposed its structure directly to agents, the manual wayfinding
+    step could in principle be removed, but public materials do not state which structural information
+    is exposed, what task the agent completes with it, or what result the developer gets, so it cannot
+    be judged which users would choose it and when.'

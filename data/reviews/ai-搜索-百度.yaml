@@ -632,3 +632,46 @@
   usage_reason_en: 'Inference: versus opening links one by one and assembling answers manually, it keeps
     retrieval, follow-ups, writing and image work in one chat page, removing the cross-tool context shuffle,
     so users who need to dig deep and produce output stay in one entry.'
+- id: req-full-ai-搜索-百度-2026-10-02
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-10-02T02:12:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度AI搜索官方帮助文档或产品页，确认其是否公开引用来源标注、生成内容纠错机制与付费/会员入口，以核验交付确定性与付费路径。
+  market: ''
+  job: 普通中文用户在PC端遇到需要多步查证、边查边写或边查边做图的复杂问题时，把问题交给百度AI搜索，在同一页完成检索、追问深挖、文字创作与图片生成，得到可直接使用的答案或素材。
+  job_en: Ordinary Chinese-speaking PC users facing a multi-step question that requires searching, digging
+    deeper, and then writing or making an image hand the task to Baidu AI Search and get a usable answer
+    or asset on one page, without leaving the search session.
+  pain: 传统搜索只给十条蓝色链接，用户要自己逐个打开、比对、摘录，再切到另一个工具写作或做图；多步任务被拆散在多个标签页和工具之间，重复输入与信息搬运的负担落在用户身上。
+  pain_en: Classic search returns ten blue links; the user must open, compare and excerpt them, then switch
+    to a separate tool to write or make an image. A multi-step task is fragmented across tabs and tools,
+    and the re-typing and information shuttling falls on the user.
+  current_alternative: 旧做法是百度网页搜索加多个标签页，再配合独立写作工具、图片工具或通用聊天机器人；用户自己承担检索、筛选、摘录和跨工具搬运。
+  current_alternative_en: The old way is Baidu web search plus multiple tabs, combined with standalone
+    writing tools, image tools or a general chatbot; the user personally carries the searching, filtering,
+    excerpting and cross-tool shuttling.
+  usage_reason: 推断：相较逐个打开链接再切工具，它在同一页把检索、追问和创作串成一条动作链，省掉的是“摘录—切换—重新描述需求”这几步，因此遇到需要边查边写边做图的多步任务、又不想在多个工具间搬运内容的PC用户会选它；公开材料未提供留存或付费证据，动机属结构推断。
+  usage_reason_en: 'Inference: versus opening links one by one and switching tools, it chains searching,
+    follow-up questioning and creation into one action sequence on a single page, removing the excerpt-switch-re-describe
+    steps. That is why PC users facing a multi-step search-and-write-and-draw task, who do not want to
+    shuttle content between tools, would pick it; public materials give no retention or payment evidence,
+    so the motive is a structural inference.'

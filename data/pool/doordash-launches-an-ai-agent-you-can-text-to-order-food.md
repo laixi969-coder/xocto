@@ -3,12 +3,11 @@ slug: doordash-launches-an-ai-agent-you-can-text-to-order-food
 name: DoorDash
 builder: ''
 category: ''
-summary_zh: DoorDash 的外卖用户在短信对话里说明想吃什么，AI 代理据此在 DoorDash 平台上选餐并下单，最终由平台既有配送网络送达。这是平台下单入口的对话化改造，不是独立产品；可点餐范围、是否需人工确认等细节仍待核验。
+summary_zh: DoorDash在美国为iPhone用户上线短信下单AI代理，用户以对话方式提交点餐需求，由代理完成下单流程。该动作发生在外卖平台竞争语境下，具体交付细节与人工确认环节仍待核验。
 inspiration: ''
-summary_en: DoorDash delivery users describe what they want in a text chat, and an AI agent selects items
-  and places the order on DoorDash, with delivery handled by the platform's existing network. This is
-  a conversational rework of the platform's ordering entry point, not a standalone product; the orderable
-  range and whether human confirmation is required remain unverified.
+summary_en: DoorDash launched a text-based ordering AI agent for US iPhone users, letting them place food
+  orders through conversation. The move sits in a delivery-platform competition context; delivery details
+  and human confirmation steps remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +24,7 @@ summary: By launching an AI agent for food ordering, DoorDash is looking to gain
   Eats and Grubhub.
 first_seen: '2026-09-30T16:00:24Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

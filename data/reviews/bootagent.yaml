@@ -415,3 +415,41 @@
   usage_reason: 公开代码仓库有 88 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 88 stars and 5 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-bootagent-2026-10-02
+  project_slug: bootagent
+  level: full
+  reviewed_at: '2026-10-02T02:12:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户在新电脑上一次性配好常用 AI 助手，但产品说明不能代替用户证据，公开材料未说明替代了哪一步旧工作、痛点强度与不采用代价，需求结构无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 BootAgent 官方仓库的 README、issue 与 release 记录，确认其实际替代的配置流程、支持的工具范围与可复现的部署结果。
+  market: ''
+  job: 开发者在新电脑到手时，把常用的 AI 助手一次配好，避免逐个手工编辑各工具专属的配置文件，让新机器直接进入可用、可重复的状态。
+  job_en: A developer setting up a fresh machine configures the usual AI assistants in one pass, avoiding
+    hand-editing each tool-specific config file, so the new machine reaches a usable, repeatable state.
+  pain: 公开材料只说明它试图减少配置摩擦，未给出用户抱怨、配置耗时或出错后果的具体证据，痛点强度与不采用代价无法判断。
+  pain_en: Public material only says it targets configuration friction; it gives no concrete evidence
+    of user complaints, setup time or error consequences, so pain intensity and the cost of not solving
+    it cannot be judged.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 公开代码仓库有 88 个收藏、5 次复刻，说明开发者正在关注或试用；但收藏与复刻只属关注度证据，不能解释用户为何选择它，持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 88 stars and 5 forks, showing developer attention; but stars
+    and forks are attention signals, not reasons for choosing it, and repeat use and payment remain unverified.

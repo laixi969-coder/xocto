@@ -22,7 +22,7 @@ summary: Dyson’s $500 AI toothbrush may fall short, but this $40 pick with 148
   York Post
 first_seen: '2026-10-01T14:04:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -339,3 +339,50 @@
     stroke and rally information from full match video, removing the step of scrubbing and manually logging
     segments, so amateur players or coaches wanting systematic review without professional analysis tools
     may choose it; no customer cases or payment evidence are given publicly.'
+- id: req-full-courtmind-2026-10-02
+  project_slug: courtmind
+  level: full
+  reviewed_at: '2026-10-02T02:13:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决业余选手赛后复盘缺少专业逐球讲解、自己看录像只能凭感觉的问题，痛点在于失分回合与动作问题难以定位，旧做法是反复看录像或约教练点评；公开仓库说明其从任意比赛视频提取击球与回合信息，交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-d2ca975cef426256
+    - ev-29b065358ce3ad7c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 79 增至 140，说明开发者社区持续关注，但公开材料没有用户评价、客户案例或教练采用记录，无法判断目标用户是否形成持续使用共识。
+    evidence_ids:
+    - ev-d2ca975cef426256
+    - ev-f0cfeebb9b914c7c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式或买方是选手个人还是教练与俱乐部；按订阅或按次分析收费只是推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d2ca975cef426256
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出从任意比赛视频提取击球与回合的说明，缺少可复现的识别准确率、输出样例与人工复核边界，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-29b065358ce3ad7c
+  next_validation: 追踪该仓库 README、issue 与 discussion 中公开的输出样例、识别准确率说明及用户使用反馈。
+  market: ''
+  job: 业余羽毛球选手或教练在赛后复盘时，把整场比赛录像交给 CourtMind，由它从视频中提取击球与回合信息，输出可回看的分析结果。
+  job_en: Amateur badminton players or coaches reviewing a match afterward hand full match footage to
+    CourtMind, which extracts stroke and rally information from the video and outputs a reviewable analysis.
+  pain: 业余选手赛后想复盘却缺少专业教练逐球讲解，自己看录像只能凭感觉回忆，难以定位失分回合和动作问题；请教练陪看成本高且时间难约。
+  pain_en: Amateur players lack a professional coach to walk through each stroke after a match; reviewing
+    footage alone relies on vague memory, making it hard to locate losing rallies and technique problems,
+    while hiring a coach to watch together is costly and hard to schedule.
+  current_alternative: 自己反复看录像凭经验总结、请教练现场或视频点评、在球友群里互相讨论，或干脆不复盘。
+  current_alternative_en: Rewatching footage and summarizing by feel, asking a coach for live or video
+    commentary, discussing in player group chats, or simply not reviewing at all.
+  usage_reason: 推断：相较自己看录像或约教练，它把整场比赛录像自动切成击球与回合并输出可回看的分析，省去用户逐段拖拽回看和凭记忆归纳这一步，让失分回合与动作问题变成可核对的结果，因此缺少固定教练、又想赛后复盘的业余选手和带多人的教练会在有比赛录像时选择它。
+  usage_reason_en: 'Inference: versus rewatching footage or booking a coach, it automatically segments
+    a full match into strokes and rallies and outputs a reviewable analysis, removing the step of scrubbing
+    through video and summarizing from memory, turning losing rallies and technique issues into checkable
+    results, so amateurs without a regular coach and coaches handling many students pick it when match
+    footage is available.'

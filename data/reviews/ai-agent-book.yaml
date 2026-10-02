@@ -607,3 +607,47 @@
   usage_reason_en: The repository has 221 stars and 21 forks, showing developer attention and possible
     trial; but stars and forks are attention signals, not reasons for choosing it, and there is no retention
     or repeat-use evidence.
+- id: req-full-ai-agent-book-2026-10-02
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-02T02:12:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 release 记录，确认读者是否报告实验可复现、内容是否随框架版本更新维护。
+  market: ''
+  job: AI 应用开发者或技术团队负责人在准备把大模型助手从原型推进到可上线系统时，处理提示编排、工具调用、记忆与评测等工程材料，要完成一套能照着复现的设计与实验流程。
+  job_en: An AI application developer or tech lead moving an LLM assistant from prototype to shippable
+    system works through prompt orchestration, tool calling, memory and evaluation material to complete
+    a reproducible design-and-experiment workflow.
+  pain: 公开事实是这类工程知识散落在零散博客、论文与各家 SDK 文档中，缺少成体系的中文教材；结构推理上，开发者要自己拼装架构与实验步骤，试错成本落在个人时间上，但公开材料未给出频率或失败代价的量化数据。
+  pain_en: 'Public fact: this engineering knowledge is scattered across blog posts, papers and vendor
+    SDK docs with no systematic Chinese textbook; by structural inference developers must assemble architecture
+    and experiments themselves, paying the trial-and-error cost in personal time, though no quantified
+    frequency or failure cost is public.'
+  current_alternative: 当前替代是零散英文博客、论文、各家框架官方文档，以及付费课程或训练营；这些来源口径不一，需要读者自行拼接。
+  current_alternative_en: The current alternative is scattered English blog posts, papers, framework docs,
+    plus paid courses or bootcamps; these sources differ in scope and must be stitched together by the
+    reader.
+  usage_reason: 推断：相较逐篇翻博客和论文，它把设计原理与配套实验放在同一份可复刻的开源材料里，减少读者自行拼装架构与实验步骤的负担，因此正在动手搭 Agent 的开发者会在需要系统化参考时选择它；仓库
+    221 收藏、21 复刻只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with reading posts and papers one by one, it places design principles
+    and companion experiments in one reproducible open-source body, cutting the burden of assembling architecture
+    and experiment steps, so developers actively building agents would pick it when they need a systematic
+    reference; the 221 stars and 21 forks show attention only, not sustained use.'

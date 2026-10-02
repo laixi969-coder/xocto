@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUpTalNFNE1X
 summary: SAP Irfan Khan：大模型要读懂企业“业务上下文” 21财经
 first_seen: '2026-09-30T07:00:00Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

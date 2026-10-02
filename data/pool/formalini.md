@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/formalini
 summary: Docs to Data, BI, Personal Finance, Huge Dev Platform.Try it
 first_seen: '2026-09-29T20:14:12Z'
 last_seen: '2026-10-02T01:41:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

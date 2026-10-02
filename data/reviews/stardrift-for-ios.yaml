@@ -1,0 +1,85 @@
+- id: req-initial-stardrift-for-ios-2026-10-02
+  project_slug: stardrift-for-ios
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决出发前整理行程这件事，但公开材料只有一句定位，说不清用户卡在哪一步、不解决会怎样，价值结构无法还原。
+    evidence_ids:
+    - ev-9753fd5ab52dc38e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有用户评价、客户案例或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-9753fd5ab52dc38e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，公开材料也没有定价页或买方信息，无法判断钱从哪来。
+    evidence_ids:
+    - ev-9753fd5ab52dc38e
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对它是否贴近行程规划的第一性目标及交付是否确定。
+    evidence_ids:
+    - ev-9753fd5ab52dc38e
+  next_validation: 抓取 Stardrift 官方产品页或 App Store 页面，确认其输入材料、行程交付形式与是否标注定价。
+  market: ''
+  job: 自由行旅客在出发前，把航班、住宿、景点清单等零散材料整理成一份可执行的行程。
+  job_en: Before a trip, independent travelers turn scattered flight, lodging and sightseeing lists into
+    an executable itinerary.
+  pain: 公开材料只给出“口袋里的 AI 旅行助手”一句定位，没有说明用户具体卡在哪一步、不解决会有什么后果，痛点无法从现有事实还原。
+  pain_en: The public material only gives the positioning line "the AI travel assistant in your pocket"
+    and never states which step users are stuck on or what happens if it is unsolved, so the pain cannot
+    be reconstructed from available facts.
+  current_alternative: 旅客目前通常用攻略社区、笔记应用或表格自行拼行程，也可能直接问通用对话助手；这是对常见旧做法的描述，不是该产品已核验的替代关系。
+  current_alternative_en: Travelers today typically assemble itineraries by hand in guide communities,
+    note apps or spreadsheets, or simply ask a general chat assistant; this describes the common old practice,
+    not a verified substitution by this product.
+  usage_reason: 无法判断：材料未说明它相较自行拼行程或通用助手减少了哪一步负担，也未给出任何可核对的结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes compared with hand-building
+    an itinerary or using a general assistant, nor any checkable outcome, so it cannot explain why users
+    would choose it.'
+- id: req-full-stardrift-for-ios-2026-10-02
+  project_slug: stardrift-for-ios
+  level: full
+  reviewed_at: '2026-10-02T02:15:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决出发前整理行程这件事，但公开材料只有一句定位，说不清用户卡在哪一步、不解决会怎样，价值结构无法还原。
+    evidence_ids:
+    - ev-9753fd5ab52dc38e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取Stardrift官方产品页或App Store页面，确认其输入材料、行程交付形式与是否标注定价。
+  market: ''
+  job: 自由行旅客在出发前，把航班、住宿、想去的景点等零散材料交给它，由AI生成一份可执行的行程安排。
+  job_en: Before a trip, independent travelers hand scattered flight, lodging and sightseeing material
+    to it so the AI produces an executable itinerary.
+  pain: 公开材料只有“口袋里的AI旅行助手”一句定位，没有说明旅客具体卡在哪一步、不解决会有什么后果，痛点无法从现有事实还原。
+  pain_en: Public material only gives the positioning line "the AI travel assistant in your pocket" and
+    never states which step travelers are stuck on or what happens if unsolved, so the pain cannot be
+    reconstructed from available facts.
+  current_alternative: 旅客目前通常用攻略社区、笔记应用或表格自行拼行程，也可能直接问通用对话助手；这是对常见旧做法的描述，不是该产品已核验的替代关系。
+  current_alternative_en: Travelers today typically assemble itineraries by hand in guide communities,
+    note apps or spreadsheets, or simply ask a general chat assistant; this describes the common old practice,
+    not a verified substitution by this product.
+  usage_reason: 无法判断：材料未说明它相较自行拼行程或通用助手减少了哪一步负担，也未给出任何可核对的结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes compared with hand-building
+    an itinerary or using a general assistant, nor any checkable outcome, so it cannot explain why users
+    would choose it.'

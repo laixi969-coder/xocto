@@ -1,0 +1,87 @@
+- id: req-initial-premortem-2026-10-02
+  project_slug: premortem
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决创业者缺少对抗性反馈这一痛点，旧做法是找人约反馈，结构上成立；但只有一句描述，无法确认质疑是否基于真实数据。
+    evidence_ids:
+    - ev-730acf76b15dbbc5
+  - gate: consensus
+    status: insufficient
+    reason: 讨论帖仅 6 分、7 条评论，属于小范围关注，不能说明持续采用。
+    evidence_ids:
+    - ev-730acf76b15dbbc5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人创业者或孵化器都可能付费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-730acf76b15dbbc5
+  - gate: truth
+    status: insufficient
+    reason: 红队质疑若只靠模型生成，容易变成泛泛意见，公开材料未说明如何保证结论贴近真实市场。
+    evidence_ids:
+    - ev-730acf76b15dbbc5
+  next_validation: 收集 Premortem 官方页面或示例报告，确认其质疑是否引用外部市场数据以及是否已有付费用户。
+  market: ''
+  job: 早期创业者在写商业计划或准备融资前，整理自己的想法假设，要完成一次失败路径排查，避免明显盲点。
+  job_en: Before writing a business plan or raising money, an early-stage founder organizes their assumptions
+    and needs a failure-path review to avoid obvious blind spots.
+  pain: 创业者身边缺少愿意直说问题的质疑者，容易在自我确认中忽略致命假设。
+  pain_en: Founders often lack people willing to challenge them directly and can miss fatal assumptions
+    through self-confirmation.
+  current_alternative: 现有做法是找朋友、顾问或投资人给反馈，或自己反复推演，反馈慢且不系统。
+  current_alternative_en: The current practice is asking friends, advisors or investors for feedback,
+    or reasoning alone, which is slow and unsystematic.
+  usage_reason: 推断：若 agent 能按固定框架逐条质疑假设并输出风险清单，可省去反复找人约反馈这一步，因此缺少顾问网络的早期创业者可能试用；但公开材料未说明输出是否引用真实数据，也没有任何付费或重复使用证据。
+  usage_reason_en: 'Inference: if the agents question assumptions against a fixed framework and output
+    a risk list, it removes the step of repeatedly scheduling feedback conversations, so early founders
+    without an advisor network may try it; however, public material does not say whether outputs cite
+    real data, and there is no payment or repeat-use evidence.'
+- id: req-full-premortem-2026-10-02
+  project_slug: premortem
+  level: full
+  reviewed_at: '2026-10-02T02:15:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决创业者缺少对抗性反馈这一需求，但公开证据只说明 premortem 是既有管理方法，未证明单独产品化后有人非用不可；通用大模型可免费做同类质疑，不用它也不会失去关键结果，属自嗨拼凑风险。
+    evidence_ids:
+    - ev-9ed20c826552db8b
+    - ev-6d7ce4f41dd1c3a5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Premortem 官方页面或示例报告，确认其质疑是否引用外部市场数据、是否公开定价与付费用户。
+  market: ''
+  job: 早期创业者在写商业计划或准备融资前，整理自己的想法假设，要完成一次失败路径排查，避免明显盲点。
+  job_en: Before writing a business plan or raising money, an early-stage founder organizes their assumptions
+    and needs a failure-path review to avoid obvious blind spots.
+  pain: 创业者身边缺少愿意直说问题的质疑者，容易在自我确认中忽略致命假设；但公开材料只证明 premortem 是一种管理方法，未证明创业者会为此单独付费。
+  pain_en: Founders often lack people willing to challenge them directly and can miss fatal assumptions
+    through self-confirmation; however, public material only shows premortem is a management technique,
+    not that founders will pay separately for it.
+  current_alternative: 现有做法是找朋友、顾问或投资人给反馈，或自己反复推演，也可用通用大模型直接提问，反馈慢且不系统但成本近零。
+  current_alternative_en: The current practice is asking friends, advisors or investors for feedback,
+    reasoning alone, or simply prompting a general-purpose LLM, which is slow and unsystematic but nearly
+    free.
+  usage_reason: 推断：若 agent 按固定框架逐条质疑假设并输出风险清单，可省去反复约人反馈这一步，缺少顾问网络的早期创业者可能试用；但通用大模型已能免费完成同类质疑，公开材料未说明输出是否引用真实市场数据，也无付费或重复使用证据，缺少不可替代的交付。
+  usage_reason_en: 'Inference: if the agents question assumptions against a fixed framework and output
+    a risk list, it removes the step of repeatedly scheduling feedback conversations, so early founders
+    without an advisor network may try it; but a general-purpose LLM already does comparable questioning
+    for free, public material does not say whether outputs cite real market data, and there is no payment
+    or repeat-use evidence, leaving no irreplaceable delivery.'

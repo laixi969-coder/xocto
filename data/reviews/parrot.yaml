@@ -81,3 +81,45 @@
   usage_reason: 公开证据未提供任何可归因到该会议记录产品的用户选择理由，无法判断用户为何会使用它。
   usage_reason_en: Public evidence provides no attributable reason why users would choose this meeting-recorder
     product, so its adoption rationale cannot be assessed.
+- id: req-full-parrot-2026-10-02
+  project_slug: parrot
+  level: full
+  reviewed_at: '2026-10-02T02:15:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向鹦鹉鸟类、YouTube 频道与检索占位，未包含任何会议记录产品的用户任务、痛点或替代方式，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-751d8d9976f7266b
+    - ev-2e5b296d2690c8df
+    - ev-a5ca69fd9d7ee637
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Parrot 官方仓库或官网的 README、文档与 issue/discussion，核验其会议转写、会中提示与输出格式是否真实存在。
+  market: ''
+  job: Mac 用户在线上或线下会议中处理会议语音与讨论内容，要完成的是把讨论转成可回看的文字记录并支撑会后跟进。
+  job_en: A Mac user handles spoken discussion in an online or offline meeting and needs to turn it into
+    a reviewable text record that supports follow-up.
+  pain: 公开证据中没有可引用的用户痛点、抱怨或工作流描述；现有材料只说明它是开源智能会议记录器并带会中助手，无法确认漏记、整理耗时等痛点是否真实存在。
+  pain_en: No citable user pain, complaint or workflow description exists in the public evidence; the
+    material only states it is an open-source smart meeting recorder with an in-meeting co-pilot, so it
+    cannot confirm whether missed notes or organizing time are real pains.
+  current_alternative: 公开证据未提供任何关于用户当前如何记录会议的替代方式信息。
+  current_alternative_en: The public evidence provides no information on how users currently record meetings
+    as an alternative.
+  usage_reason: 公开证据未提供用户选择它的理由、使用反馈或采用行为；无法说明相较旧做法它减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: The public evidence provides no reason why users choose it, no usage feedback or adoption
+    behavior; it cannot explain which step of burden it reduces versus the old approach, so no usage reason
+    can be given.

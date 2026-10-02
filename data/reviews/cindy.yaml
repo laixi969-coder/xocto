@@ -416,3 +416,40 @@
   usage_reason: 公开代码仓库有 1,995 个收藏、253 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,995 stars and 253 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-cindy-2026-10-02
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-02T02:13:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者在同一工作区跨厂商切换写代码助手并保住记忆与任务，但公开材料只有产品定位，没有用户任务、痛点强度、不采用代价或现有替代方式的可引用事实，连需求结构都无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cindy 官方仓库的 README、issue 与 discussion，确认是否出现用户描述的多助手切换记忆丢失场景与现有替代做法。
+  market: ''
+  job: 开发者在一个工作区里同时使用多家厂商的写代码助手，在任务中途切换模型，并保持对话记忆与未完成的工作不丢失。
+  job_en: Developers run coding assistants from multiple vendors in one workspace, switch models mid-task,
+    and keep conversation memory and unfinished work intact.
+  pain: 公开材料只给出产品定位，没有用户陈述说明多助手切换时记忆丢失、上下文重建究竟造成多大代价、多久发生一次。
+  pain_en: Public materials give only the product positioning; no user statement shows how costly or frequent
+    memory loss and context rebuilding are when switching between assistants.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了什么工具或流程。
+  current_alternative_en: Public materials do not show how users do this today or what tool or workflow
+    it actually replaces.
+  usage_reason: 公开仓库有 1,995 个收藏、253 次复刻，说明开发者注意到该项目，但这是关注度证据，不能解释用户为何选择它，也不能证明持续使用。
+  usage_reason_en: The public repository has 1,995 stars and 253 forks, showing developer attention, but
+    that is attention evidence, not a reason users choose it, and it does not prove repeat use.

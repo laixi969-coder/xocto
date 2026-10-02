@@ -205,3 +205,59 @@
     the cross-machine collection and alignment step and making cost checkable by machine and session;
     therefore leads and platform engineers who must account for agent spend or constrain usage via policy
     hooks would choose it when rolling agents out across a team.'
+- id: req-full-agent-console-2026-10-02
+  project_slug: agent-console
+  level: full
+  reviewed_at: '2026-10-02T02:12:13Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理按 token 计费、用量分散在多机多会话导致成本不可见的问题；痛点刚性来自账单直接随缓存与模型选择变化，不解决的后果是超支只能事后发现。公开说明已能还原输入（各机会话用量）、动作（汇总到本机与自建中枢）、交付（按机器与会话的成本视图），属工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-5b186a156f2d1b8c
+    - ev-615ebdc21d52f836
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 434 增至 633、709、759、780，说明英文开发者生态持续关注并把它加入观察清单；但收藏与复刻只属关注度，公开材料没有用户评价或案例说明它已被长期留在工作流，故共识成立而采用强度仍属初步。
+    evidence_ids:
+    - ev-5b186a156f2d1b8c
+    - ev-615ebdc21d52f836
+    - ev-9371b58b9b88f030
+    - ev-5bbcb4c0fb3ed243
+    - ev-d0721640f52f5e1c
+  - gate: model
+    status: insufficient
+    reason: 项目为 MIT 开源，公开材料未给出定价页、付费主体或单位经济；按能力推断买方可能是需要成本治理的研发团队或平台部门，但这是判断而非已验证事实，公开证据里没有采购或付费记录。
+    evidence_ids:
+    - ev-5b186a156f2d1b8c
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与自建团队中枢贴近“用量数据不出内网”的第一性目标，Apple 签名公证构建与 attested releases 支持交付可信；但策略钩子的实际执行边界、人工介入点与安全边界在公开材料中未说明，交付确定性仍缺可复现证据。
+    evidence_ids:
+    - ev-5b186a156f2d1b8c
+    - ev-615ebdc21d52f836
+  next_validation: 追踪 agent-console 仓库的 README、release notes 与 issue/discussion，确认自建团队中枢的部署文档、策略钩子的执行边界，以及是否出现真实团队的成本治理使用记录。
+  market: ''
+  job: 研发团队负责人与平台工程师在团队用 Claude Code、Codex 等编码代理跑真实开发任务时，打开 agent-console 汇总本机与自建团队中枢上每台机器、每次会话的 token、缓存、所用模型与花费，据此核对成本与用量并做展示或策略约束。
+  job_en: Engineering team leads and platform engineers running Claude Code and Codex coding agents on
+    real development tasks open agent-console to aggregate tokens, cache, models and cost per machine
+    and per session across local machines and a self-hosted team hub, then review cost and usage and apply
+    presenting or policy constraints.
+  pain: 编码代理按 token 计费且缓存命中与模型选择直接改变账单，团队在多个开发者、多台机器上并行跑代理时，用量分散在各人本地，负责人无法回答本月代理花了多少、哪台机器或哪个会话异常，成本失控只能事后发现。
+  pain_en: Coding agents bill by token, and cache hits and model choice directly change the bill; when
+    a team runs agents in parallel across many developers and machines, usage is scattered locally, so
+    leads cannot answer how much agents cost this month or which machine or session is anomalous, and
+    cost overruns surface only after the fact.
+  current_alternative: 当前替代是各代理自带的本地用量输出、各家厂商的云端账单页，或团队自己写脚本抓日志拼表格；跨机器、跨代理、跨会话的统一视图需要手工拼接，自建团队中枢还要自己解决部署与签名分发。
+  current_alternative_en: Today teams rely on each agent's local usage output, vendor cloud billing pages,
+    or self-written scripts scraping logs into spreadsheets; a unified cross-machine, cross-agent, cross-session
+    view must be assembled by hand, and a self-hosted team hub requires solving deployment and signed
+    distribution themselves.
+  usage_reason: 相较手工拼日志或只看厂商账单，它把每台机器、每次会话的 token、缓存、模型与花费直接汇总到同一处，并给出 Apple 签名公证的 macOS 构建与自建团队中枢，省掉自建采集与分发这一步；推断：需要按机器和会话核对代理成本、又不愿把用量数据交给第三方的平台工程师会因此选择它。
+  usage_reason_en: 'Compared with hand-assembling logs or reading only vendor bills, it aggregates tokens,
+    cache, models and cost per machine and session in one place and ships Apple-signed, notarized macOS
+    builds plus a self-hosted team hub, removing the build-your-own collection and distribution step;
+    inference: platform engineers who must audit agent cost per machine and session without handing usage
+    data to a third party would choose it for that reason.'

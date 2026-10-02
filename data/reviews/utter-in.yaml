@@ -1,0 +1,84 @@
+- id: req-initial-utter-in-2026-10-02
+  project_slug: utter-in
+  level: initial
+  reviewed_at: '2026-10-02T01:41:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有“说一次，你的 AI 助手把剩下的都规划好”一句，解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-a5eed2f35d244b2d
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有任何采用或场景共识材料。
+    evidence_ids:
+    - ev-a5eed2f35d244b2d
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids:
+    - ev-a5eed2f35d244b2d
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断规划结果能否确定交付及人工确认边界。
+    evidence_ids:
+    - ev-a5eed2f35d244b2d
+  next_validation: 收集该产品的官方说明或演示，确认它能调用哪些系统、产出什么可核对结果。
+  market: ''
+  job: 希望用一句话交代意图、由 AI 助手完成后续安排的用户，但候选资料未交代具体是谁、在什么情况下、处理什么材料、要完成什么任务。
+  job_en: A user who wants to state intent in one sentence and have an AI assistant complete the follow-up
+    arrangements, but the candidate material does not state who, in what situation, with what material,
+    or to what end.
+  pain: 候选资料未给出痛点描述，无法判断用户原来在多步操作或跨工具协调上遇到什么具体困难。
+  pain_en: The candidate material provides no pain description, so the specific difficulty users previously
+    had with multi-step operations or cross-tool coordination cannot be determined.
+  current_alternative: 未提供，无法确认用户此前是手动逐步操作还是用其他助手完成同类安排。
+  current_alternative_en: Not provided; whether users previously did the steps manually or used another
+    assistant for the same arrangements cannot be confirmed.
+  usage_reason: 资料只有一句口号，没有说明它相较手动逐步操作减少哪一步负担或改善哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: The material contains only a one-line slogan, with no step it removes versus manual
+    step-by-step work and no checkable result, so it cannot explain why a user would choose it.
+- id: req-full-utter-in-2026-10-02
+  project_slug: utter-in
+  level: full
+  reviewed_at: '2026-10-02T02:16:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部是词典对“utter”一词的释义页，与产品无关，既写不出用户要完成的任务，也写不出痛点、频率与不采用的后果，价值关无法成立。
+    evidence_ids:
+    - ev-1ecf19ecbebd18bd
+    - ev-a3ca3c9444b64e11
+    - ev-4ba243ea467a6384
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或应用商店页面的官方说明与演示，确认它接收什么指令、调用哪些系统、产出什么可核对结果。
+  market: ''
+  job: 候选资料只给出“说一次，你的 AI 助手把剩下的都规划好”一句，未说明是谁、在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The candidate material offers only the line 'Say it once and your AI assistant plans the rest,'
+    without stating who, in what situation, with what material, or to what end, so no concrete usage scenario
+    can be reconstructed.
+  pain: 公开材料未给出任何痛点描述，无法判断用户在跨工具协调或多步安排上遇到什么具体困难。
+  pain_en: The public material provides no pain description, so the specific difficulty users face in
+    cross-tool coordination or multi-step arrangements cannot be determined.
+  current_alternative: 未提供，无法确认用户此前是手动逐步操作、使用日历与待办工具，还是借助其他 AI 助手完成同类安排。
+  current_alternative_en: Not provided; whether users previously worked step by step manually, used calendar
+    and to-do tools, or relied on another AI assistant for the same arrangements cannot be confirmed.
+  usage_reason: 资料只有一句口号，未说明它相较旧做法减少哪一步负担或改善哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: The material contains only a slogan and does not state which step it removes versus
+    the old approach or which checkable result it improves, so it cannot explain which users would choose
+    it and when.

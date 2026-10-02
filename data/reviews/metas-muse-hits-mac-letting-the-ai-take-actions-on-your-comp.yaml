@@ -352,3 +352,99 @@
   usage_reason_en: All available evidence is generic AI definition pages and competitor homepages; there
     is no Muse-specific capability description, user feedback or adoption record to explain which users
     would choose it and which step of effort it removes.
+- id: req-initial-metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp-2026-10-02
+  project_slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
+  level: initial
+  reviewed_at: '2026-10-02T01:42:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨应用手动操作的需求，但候选未给出痛点强度、旧流程耗时或用户行为，价值结构无法确认。
+    evidence_ids:
+    - ev-a8f1220fd1fcffc7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道与研报标题，没有可归因到 Muse 的使用规模、留存或客户案例，共识环节证据不足。
+    evidence_ids:
+    - ev-a8f1220fd1fcffc7
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、买方或收费方式，无法判断钱从 to C、to B 还是其他方来，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a8f1220fd1fcffc7
+  - gate: truth
+    status: insufficient
+    reason: 权限边界、人工确认与执行结果是否确定交付均未说明，无法核对承诺能否确定性兑现。
+    evidence_ids:
+    - ev-a8f1220fd1fcffc7
+  next_validation: 收集 Meta 官方关于 Muse 在 Mac 上的功能说明与权限/确认机制文档，确认其可执行的操作范围与交付边界。
+  market: ''
+  job: Mac 用户在处理本地文件与常用应用时，让助手读取这些材料并代为完成跨应用的操作任务。
+  job_en: A Mac user working with local files and everyday apps asks an assistant to read those materials
+    and carry out cross-application actions on their behalf.
+  pain: 候选材料只说明它可以操作文件和应用，未给出任何用户抱怨、旧做法耗时或出错代价，因此痛点强度无法确认。
+  pain_en: The candidate only says it can act on files and apps; it gives no user complaints, time cost
+    of the old way, or cost of errors, so pain intensity cannot be confirmed.
+  current_alternative: 用户目前自行在多个应用间手动切换、复制粘贴并逐步操作，或使用现有桌面助手与脚本。
+  current_alternative_en: Users currently switch between apps manually, copy and paste, and perform steps
+    by hand, or use existing desktop assistants and scripts.
+  usage_reason: 推断：相较手动跨应用操作，它把“找到文件—打开应用—执行步骤”合并为一次委托，可能减少中间切换；但候选未提供任何采用、留存或客户反馈证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: compared with manual cross-app work, it merges finding a file, opening
+    an app and executing steps into a single delegation, potentially cutting switching; but the candidate
+    offers no adoption, retention or customer feedback evidence, so it is unconfirmed that users would
+    choose it for this reason.'
+- id: req-full-metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp-2026-10-02
+  project_slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
+  level: full
+  reviewed_at: '2026-10-02T02:14:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Mac 用户跨文件与应用手动执行操作的需求，痛点是重复切换、复制粘贴与逐步点击的负担；官方说明确认 Muse 可读取文件与应用并代为执行动作，交付闭环可还原，属工作流结构推理，痛点强度与采用行为尚无公开证据。
+    evidence_ids:
+    - ev-6229985e0b5aff1e
+    - ev-1947174da50a9d0e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Meta 官方产品页与 muse.ai 自述，未发现可归因到 Muse 的使用规模、留存、复购或客户案例；公开关注度不能替代持续采用证据，强场景可判断但共识未成立。
+    evidence_ids:
+    - ev-6229985e0b5aff1e
+    - ev-1947174da50a9d0e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，钱可能来自 Meta 生态内 to C 订阅或捆绑，也可能来自 to B；这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-6229985e0b5aff1e
+    - ev-1947174da50a9d0e
+  - gate: truth
+    status: insufficient
+    reason: 官方页未说明可执行操作范围、权限边界与人工确认环节，承诺能否确定性交付无法核对；跨应用代为执行涉及安全与人工边界，需部署文档或权限说明佐证。
+    evidence_ids:
+    - ev-6229985e0b5aff1e
+    - ev-1947174da50a9d0e
+  next_validation: 追踪 Meta 官方 Muse 页面与 Mac 版部署/权限文档，确认其可执行操作范围、权限边界与人工确认机制，作为交付确定性的公开证据。
+  market: ''
+  job: Mac 用户在处理本地文件与常用应用时，把「找到文件—打开对应应用—逐步执行操作」这一串跨应用动作委托给 Muse，由它读取文件与应用内容并代为执行，用户要拿到的是被实际执行的动作结果而非一段建议。
+  job_en: A Mac user working with local files and everyday apps delegates the chain of finding a file,
+    opening the right app and executing steps to Muse, which reads those files and apps and acts on the
+    user's behalf, so the user receives executed action results rather than advice.
+  pain: 公开材料只说明 Muse 能跨文件与应用代为执行操作，未给出用户抱怨、旧流程耗时或出错代价；痛点强度属于工作流结构推理——跨应用手动切换、复制粘贴与逐步操作本身是重复且易错的负担，但缺少用户口述或行为证据。
+  pain_en: 'Public material only says Muse can act across files and apps; it gives no user complaints,
+    time cost or error cost. Pain intensity is a workflow-structure inference: manual cross-app switching,
+    copy-paste and step-by-step operation is repetitive and error-prone, but user statements or behavioral
+    evidence are absent.'
+  current_alternative: 用户目前自行在多个应用间手动切换、复制粘贴并逐步操作，或使用现有桌面助手、脚本与通用聊天式 AI 助手（如 Gemini、ChatGPT、Perplexity）来获取建议后自行执行。
+  current_alternative_en: Users currently switch between apps manually, copy and paste, and perform steps
+    by hand, or use existing desktop assistants, scripts and general chat-style AI assistants (Gemini,
+    ChatGPT, Perplexity) that give advice the user must then execute.
+  usage_reason: 推断：相较手动跨应用操作或只给建议的聊天助手，Muse 把「读取文件与应用内容—执行动作」合并为一次委托，减少用户自己切换应用、复述上下文和逐步点击的负担，因此处理本地文件与多应用任务的
+    Mac 用户会在需要直接拿到执行结果时选择它；但公开材料未提供采用、留存或客户反馈证据，此因果仍属推断。
+  usage_reason_en: 'Inference: compared with manual cross-app work or advice-only chat assistants, Muse
+    merges reading files and apps with executing actions into one delegation, cutting the burden of switching
+    apps, restating context and clicking through steps, so Mac users handling local files and multi-app
+    tasks would choose it when they need executed results; but no adoption, retention or customer feedback
+    evidence is public, so this causal claim remains an inference.'

@@ -3,41 +3,40 @@ slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
 name: Microduck
 builder: ''
 category: AI + 生活
-summary_zh: Microduck 是 Pollen Robotics 推出的双足机器鸭，面向学生、研究者和爱好者。用户用手柄控制它走路、蹲下、翻身、叼物，也可通过 NFC 标签触发预设动作；出厂预装
-  7 种强化学习训练的行为策略，软件栈开源，用户可重新训练并部署新行为。硬件设计未开源，具体训练流程和部署细节仍待核验。
-inspiration: 趋势是具身智能从高价研究设备走向低价消费级平台，用开源软件生态降低上手门槛。切入可从教育市场开始，围绕强化学习和 sim-to-real 教学场景提供课程和实验套件，而非直接做通用机器人。
-summary_en: Microduck is a bipedal robot duck from Pollen Robotics, targeting students, researchers, and
-  hobbyists. Users control it via gamepad to walk, squat, flip, and grab objects, and can trigger preset
-  actions via NFC tags; it comes with 7 reinforcement-learning-trained behavior policies, and the software
-  stack is open-sourced for retraining and deploying new behaviors. Hardware design is not open-sourced;
-  specific training and deployment details remain to be verified.
-inspiration_en: The trend is embodied AI moving from expensive research equipment to low-cost consumer
-  platforms, using open-source software ecosystems to lower the barrier to entry. Entry could start with
-  education, offering courses and experiment kits around reinforcement learning and sim-to-real, rather
-  than building a general-purpose robot.
+summary_zh: 家庭用户或机器人爱好者在客厅、桌面等场景打开它，处理的是陪伴与互动娱乐需求；AI 接收手柄摇杆指令和机身传感器信号，执行行走、蹲起、被推倒后翻身、叼起袜子或马克笔等预训练动作，用户最终拿到一只可操控的实体机器宠物，动作是否稳定仍需人工观察确认。
+inspiration: 趋势：把强化学习策略塞进 399 美元的消费级双足硬件，说明具身智能正从实验室演示走向可预购的玩具价位。切入：可从宠物陪伴、儿童 STEM 教具或线下机器人赛事运营切入，卖硬件之外的玩法与内容，而非再做一个通用机器人平台。
+summary_en: A household user or robotics hobbyist opens it on a living-room floor or desk to meet companionship
+  and interactive-entertainment needs; the AI takes gamepad stick input and onboard sensor signals and
+  executes pretrained actions such as walking, squatting and standing, self-righting after being pushed
+  over, and picking up socks or markers, leaving the user with a controllable physical robot pet whose
+  motion stability still needs human observation to confirm.
+inspiration_en: 'Trend: packing reinforcement-learned policies into USD 399 consumer bipedal hardware
+  shows embodied AI moving from lab demos to a pre-orderable toy price point. Entry: start from pet companionship,
+  children''s STEM teaching aids, or offline robot-match operations, selling play formats and content
+  around the hardware rather than building yet another general robotics platform.'
 priority_review: false
 project_type: new_application
 industries:
-- 教育
 - 消费电子
-- 机器人
+- 玩具与娱乐
 industries_en:
-- Education
 - Consumer Electronics
-- Robotics
+- Toys and Entertainment
 jobs:
-- 学生
-- 研究者
-- 爱好者
+- 家庭娱乐设备使用者
+- 机器人爱好者
 jobs_en:
-- Students
-- Researchers
-- Hobbyists
+- Home entertainment device users
+- Robotics hobbyists
 regions:
-- 全球
+- 美国
+- 法国
+- 中国
 regions_en:
-- Global
-open_source: true
+- United States
+- France
+- China
+open_source: false
 url: http://www.geekpark.net/news/369608
 canonical_url: https://geekpark.net/news/369608
 summary: "作者｜ 宇航猿   \n  编辑｜ 靖宇  \n 很少有机器人，能让你第一眼就笑出来。 \n 8 月 27 日，Hugging Face 旗下的 Pollen Robotics，开放了\
@@ -87,7 +86,7 @@ summary: "作者｜ 宇航猿   \n  编辑｜ 靖宇  \n 很少有机器人，�
   \ geekparkGO"
 first_seen: '2026-08-31T07:09:46Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - newssearch

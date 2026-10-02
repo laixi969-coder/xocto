@@ -537,3 +537,46 @@
   usage_reason_en: Repository stars rising from 104 to 133 only reflects growing attention, a scale metric,
     and cannot explain why users choose it; without user feedback or cases, it is impossible to say which
     step of the old workflow it removes.
+- id: req-full-agent-2-2026-10-02
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-10-02T02:12:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据仅有一句仓库简介与 star 数，未说明开发者当前在哪一步受阻、手动执行哪一步耗时易错，也无用户抱怨或案例，需求与痛点均无法还原，属结构推理材料不足。
+    evidence_ids:
+    - ev-65bf0ae6fda2fd07
+    - ev-9009ff1177e0b9dd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Agent-2 仓库的 README 与 issue/discussion，确认其具体输入、执行动作、交付结果及开发者实际使用反馈。
+  market: ''
+  job: 开发者（程序员）在终端或编码环境中，把一段任务描述交给 Agent-2，让它自动完成代码编写、安全扫描或终端命令操作，并取回任务结果或操作日志。
+  job_en: A developer, working in a terminal or coding environment, hands a task description to Agent-2
+    so it autonomously performs code writing, security scanning, or terminal command operations and returns
+    the task result or an operation log.
+  pain: 公开材料只给出仓库一句话简介和 star 数，没有说明开发者当前在哪一步受阻、手动执行哪一步耗时或易错，也没有用户抱怨、issue 或案例支撑痛点，因此痛点无法从公开事实还原。
+  pain_en: Public material only provides a one-line repository description and star counts; it does not
+    state which step blocks developers today, which manual step is slow or error-prone, and there are
+    no user complaints, issues, or cases supporting a pain point, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 公开材料未描述开发者现在用什么方式绕过该任务，只能推测为手动编写代码或使用既有专用工具，这属于推断而非已证实事实。
+  current_alternative_en: Public material does not describe how developers currently work around this
+    task; manual coding or existing specialized tools can only be inferred, not confirmed as fact.
+  usage_reason: 缺少 README 细节、使用文档、用户反馈或案例，无法说明相较旧做法它具体减少哪一步负担或改善哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: With no README detail, usage docs, user feedback, or cases, it is impossible to say
+    which step it removes or which checkable result it improves versus the old way, so no user segment
+    or situation can be tied to choosing it.

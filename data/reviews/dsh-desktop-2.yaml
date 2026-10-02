@@ -417,3 +417,59 @@
     removing the steps of configuring the runtime and manually starting services; developers unfamiliar
     with terminal setup, or needing a working DSH workspace quickly on multiple machines, would therefore
     pick it when setting up or migrating a local environment. The 636-star repo and the 51–61-'
+- id: req-full-dsh-desktop-2-2026-10-02
+  project_slug: dsh-desktop-2
+  level: full
+  reviewed_at: '2026-10-02T02:13:41Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是本地使用 DSH 前的环境配置与启动摩擦：上游以本地 Web UI、Host 服务和插件系统交付，用户需自行探测运行环境、起服务、在终端与浏览器间切换并手动更新。桌面客户端把这一链路收进原生窗口，双击即用、免终端免浏览器，并内置环境探测与就地更新，交付物是本地工作成果，属工作流结构推理。
+    evidence_ids:
+    - ev-4c3aeab97af64d82
+    - ev-d729da856b6842ba
+    - ev-c192cdcd8cd84faa
+  - gate: consensus
+    status: supported
+    reason: 公开仓库显示开发者已在关注与试用：stars 从 61、62 到 60 的多次采集，说明有持续访问与收藏行为，且项目自述为独立社区开源客户端、与深度求索无隶属关系。但收藏与访问只属关注度证据，不能证明已长期留在工作流，故共识仅到初步成立。
+    evidence_ids:
+    - ev-4c3aeab97af64d82
+    - ev-ae005a1e877fb409
+    - ev-5a2288f86b41edea
+    - ev-d729da856b6842ba
+  - gate: model
+    status: insufficient
+    reason: 这是开源桌面客户端，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者捐赠或 to B 支持服务，但均属判断而非已验证事实；无融资叙事，不构成每日优鲜风险，仅缺付费路径证据。
+    evidence_ids:
+    - ev-5a97571fc2c2763b
+    - ev-d729da856b6842ba
+  - gate: truth
+    status: supported
+    reason: 产品贴近该工作的第一性目标：让本地 DSH 会话、项目、文件与插件在桌面直接可用。公开说明给出可核对交付细节——载荷可裁到 210 MB、便携包 74.8 MB、内置运行环境探测与
+      DSH 就地更新，且明确与上游无隶属关系，人工与安全边界表述清楚，未见夸大承诺。
+    evidence_ids:
+    - ev-4c3aeab97af64d82
+    - ev-d729da856b6842ba
+  next_validation: 追踪该仓库 releases 与 issue/discussion 的公开更新记录，核对版本发布节奏、就地更新成功率与用户报告的实际使用问题，以判断是否形成持续使用。
+  market: ''
+  job: 开发者或 AI 工程师在本地机器上使用 DeepSeek Harness 做 AI 协作时，需要管理 DSH 会话、项目文件、网页研究与 Office 文档，并希望不打开终端、不手动起本地
+    Web 服务就能直接进入工作区完成交付。
+  job_en: A developer or AI engineer working locally with DeepSeek Harness needs to manage DSH sessions,
+    project files, web research and Office documents, and wants to enter the workspace without opening
+    a terminal or manually starting a local web service.
+  pain: DSH 上游以本地 Web UI、Host 服务和插件系统形式提供，用户要自行配置运行环境、启动服务、在浏览器与终端之间切换，还要手动跟进 DSH 版本更新；这些环境与启动摩擦发生在每次开始工作之前，属于重复性负担。
+  pain_en: Upstream DSH ships as a local web UI, host service and plugin system, so users must configure
+    the runtime, start the service, switch between browser and terminal, and manually track DSH updates;
+    this environment and startup friction recurs before every work session.
+  current_alternative: 当前替代方式是直接用 DSH 的本地 Web UI 加终端启动 Host 服务，或在浏览器里操作；用户需自行探测运行环境并手动更新 DSH。
+  current_alternative_en: Today users run DSH's local web UI plus a terminal-started host service, or
+    work in the browser, probing the runtime themselves and updating DSH manually.
+  usage_reason: 推断：相较手动起服务、开浏览器、自行配环境，该桌面客户端把本地 Web UI、Host 服务与插件系统集成进原生窗口，双击即用、免终端免浏览器，并内置运行环境探测与 DSH
+    就地更新，还支持把载荷裁到 210 MB（便携包 74.8 MB）；因此常在本机反复使用 DSH、又不想每次处理环境与启动步骤的开发者会选它。
+  usage_reason_en: 'Inference: versus manually starting the service, opening a browser and configuring
+    the environment, this desktop client integrates the local web UI, host service and plugin system into
+    a native window with double-click launch, no terminal or browser, built-in runtime detection and in-place
+    DSH updates, plus payload trimming to 210 MB (74.8 MB portable); developers who repeatedly use DSH
+    locally and want to skip environment and startup steps would choose it.'

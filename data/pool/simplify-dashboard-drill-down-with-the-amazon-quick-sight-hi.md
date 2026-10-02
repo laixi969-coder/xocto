@@ -1,6 +1,6 @@
 ---
 slug: simplify-dashboard-drill-down-with-the-amazon-quick-sight-hi
-name: Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter
+name: Amazon Quick Sight
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: Amazon Quick Sight is a fully managed, cloud-native business intelligen
   they need in fewer steps.
 first_seen: '2026-10-01T16:28:14Z'
 last_seen: '2026-10-02T01:42:13Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter
+# Amazon Quick Sight
 
 Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards. The new hierarchy filter gives dashboard authors rich, multi-level filtering in a single compact control, reducing clutter and guiding readers to the data they need in fewer steps.
 

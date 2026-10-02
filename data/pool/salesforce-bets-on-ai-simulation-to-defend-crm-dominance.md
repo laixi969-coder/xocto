@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNQjFQNW4xMmlT
 summary: Salesforce Bets on AI Simulation to Defend CRM Dominance futurumgroup.com
 first_seen: '2026-10-01T15:29:18Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
