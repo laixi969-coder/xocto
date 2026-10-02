@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>RecurPost · 真实案例拆解 · x-octo</title>
+<meta name="description" content="一个印度小团队做的社交媒体定时发布工具，主打「重复排期」这一个功能，靠免费版养用户、升级付费，三年做到 2.6 万家企业用户、月收入 2 万美元。">
+<link rel="canonical" href="https://xocto.vercel.app/c/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/c/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/c/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/c/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="RecurPost · x-octo">
+<meta property="og:description" content="一个印度小团队做的社交媒体定时发布工具，主打「重复排期」这一个功能，靠免费版养用户、升级付费，三年做到 2.6 万家企业用户、月收入 2 万美元。">
+<meta property="og:url" content="https://xocto.vercel.app/c/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/c/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app.html#webpage", "@type": "WebPage", "description": "\u4e00\u4e2a\u5370\u5ea6\u5c0f\u56e2\u961f\u505a\u7684\u793e\u4ea4\u5a92\u4f53\u5b9a\u65f6\u53d1\u5e03\u5de5\u5177\uff0c\u4e3b\u6253\u300c\u91cd\u590d\u6392\u671f\u300d\u8fd9\u4e00\u4e2a\u529f\u80fd\uff0c\u9760\u514d\u8d39\u7248\u517b\u7528\u6237\u3001\u5347\u7ea7\u4ed8\u8d39\uff0c\u4e09\u5e74\u505a\u5230 2.6 \u4e07\u5bb6\u4f01\u4e1a\u7528\u6237\u3001\u6708\u6536\u5165 2 \u4e07\u7f8e\u5143\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "RecurPost \u00b7 \u771f\u5b9e\u6848\u4f8b\u62c6\u89e3", "url": "https://xocto.vercel.app/c/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app.html"}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class=""><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/c/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">真实收入案例</p>
+      <div class="product-title-row">
+        <h1>RecurPost</h1>
+<span class="verdict v-strong">真需求</span>      </div>
+<p class="product-lede">一个印度小团队做的社交媒体定时发布工具，主打「重复排期」这一个功能，靠免费版养用户、升级付费，三年做到 2.6 万家企业用户、月收入 2 万美元。</p>      <div class="meta product-meta">
+        <span class="tag sig">创始人采访自报</span>
+<span class="tag">素材未提及</span><span class="tag">Facebook 群主演示</span><span class="tag">媒体报道与 SEO</span><span class="tag">联盟分成计划</span><span class="tag">邮件滴灌</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>一手来源</dt><dd><a href="https://www.starterstory.com/stories/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app" target="_blank" rel="noopener">查看原文</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>真需求判断</h2>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel product-panel-call">
+        <span class="field-k">真需求判断</span>
+        <h3>真需求</h3>
+        <p>它替代的是手动在多个社交平台反复发同一批内容这件苦活，用户从免费版自然升级说明付费是真实发生的。创始人自报月收入 2 万美元、2.6 万企业用户，未经审计。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">如何赚钱</span>
+        <p>用户先用永久免费版，用几个月后超出额度再升级到 Medium 等付费档，按月订阅付费；另有联盟计划，推荐人拿 20% 的持续分成。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">它替代了什么旧行为</span>
+        <p>手动在多个社交平台重复发布同一批内容</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>首批用户来源</h2>
+      </div>
+    </div>
+<p class="product-lead">先在社交媒体上推广，再主动联系同类目里的大 Facebook 群主，其中一位群主邀请创始人到她的群里做演示，当场参会的人大多注册了。</p>    <div class="meta product-meta">
+      <span class="field-k">获客渠道</span>
+<span class="tag">Facebook 群主演示</span><span class="tag">媒体报道与 SEO</span><span class="tag">联盟分成计划</span><span class="tag">邮件滴灌</span>    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>可借鉴的打法</h2>
+      </div>
+    </div>
+    <ol class="desk-evidence-list case-playbooks">
+      <li><span class="num">01</span><span>把产品砍到只做一件事（重复排期），功能越多用户越不用，砍完才有人愿意上手。</span></li>
+      <li><span class="num">02</span><span>找同类目里的大群主，先按对方提的需求当天补功能（如 RSS），再进群做演示，参会者当场转化。</span></li>
+      <li><span class="num">03</span><span>做一个能下载的实用模板（如社媒代运营指南），下载即进邮件滴灌，逐步介绍产品功能。</span></li>
+    </ol>
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">迁移到 AI 生意</span>
+        <p>本身不是 AI 生意，但「砍到只做一件事 + 进垂直社群做演示 + 用可下载模板换邮件线索」这套冷启动打法可以直接搬到 AI 工具：先做单点功能，再去目标用户聚集的社群做现场演示，用模板或清单换线索做滴灌。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>证据与边界</h2>
+      </div>
+      <span class="note">自报数字未经审计，仅作线索，不应视为事实</span>
+    </div>
+    <div class="decision-grid desk-summary">
+      <div class="field">
+        <span class="field-k">创始人采访自报</span>
+        <p>收入口径<span class="decision-sep"> · </span>创始人自报，未经审计（以来源页为准）</p>
+      </div>
+      <div class="field">
+        <span class="field-k">尚缺哪些证据</span>
+        <p>月收入 2 万美元与 2.6 万企业用户均为创始人自报，未经审计，页面另处出现 44.2 万美元/月的数字，口径矛盾。<br>免费转付费的转化率、churn、客单价均未给出。<br>联盟计划与 SEO 各自带来多少用户没有数据，无法判断哪条渠道真正有效。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">一手来源</span>
+        <p><a href="https://www.starterstory.com/stories/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app" target="_blank" rel="noopener">https://www.starterstory.com/stories/creating-dozens-of-products-until-i-finally-got-traction-with-a-20k-month-app ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>2314 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-10-02</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>Satlyt · x-octo</title>
+<meta name="description" content="卫星运营方希望在星上直接处理遥感或通信数据时，把模型和任务部署到 Satlyt 提供的开放软件层，由它在多家厂商的卫星硬件上运行推理，最终交付在轨处理结果以减少下传数据量。具体支持的硬件与交付形态仍待核验。">
+<link rel="canonical" href="https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="Satlyt · x-octo">
+<meta property="og:description" content="卫星运营方希望在星上直接处理遥感或通信数据时，把模型和任务部署到 Satlyt 提供的开放软件层，由它在多家厂商的卫星硬件上运行推理，最终交付在轨处理结果以减少下传数据量。具体支持的硬件与交付形态仍待核验。">
+<meta property="og:url" content="https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html#webpage", "@type": "WebPage", "description": "\u536b\u661f\u8fd0\u8425\u65b9\u5e0c\u671b\u5728\u661f\u4e0a\u76f4\u63a5\u5904\u7406\u9065\u611f\u6216\u901a\u4fe1\u6570\u636e\u65f6\uff0c\u628a\u6a21\u578b\u548c\u4efb\u52a1\u90e8\u7f72\u5230 Satlyt \u63d0\u4f9b\u7684\u5f00\u653e\u8f6f\u4ef6\u5c42\uff0c\u7531\u5b83\u5728\u591a\u5bb6\u5382\u5546\u7684\u536b\u661f\u786c\u4ef6\u4e0a\u8fd0\u884c\u63a8\u7406\uff0c\u6700\u7ec8\u4ea4\u4ed8\u5728\u8f68\u5904\u7406\u7ed3\u679c\u4ee5\u51cf\u5c11\u4e0b\u4f20\u6570\u636e\u91cf\u3002\u5177\u4f53\u652f\u6301\u7684\u786c\u4ef6\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Satlyt", "url": "https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html"}, {"@id": "https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-10-02", "datePublished": "2026-10-01", "description": "\u536b\u661f\u8fd0\u8425\u65b9\u5e0c\u671b\u5728\u661f\u4e0a\u76f4\u63a5\u5904\u7406\u9065\u611f\u6216\u901a\u4fe1\u6570\u636e\u65f6\uff0c\u628a\u6a21\u578b\u548c\u4efb\u52a1\u90e8\u7f72\u5230 Satlyt \u63d0\u4f9b\u7684\u5f00\u653e\u8f6f\u4ef6\u5c42\uff0c\u7531\u5b83\u5728\u591a\u5bb6\u5382\u5546\u7684\u536b\u661f\u786c\u4ef6\u4e0a\u8fd0\u884c\u63a8\u7406\uff0c\u6700\u7ec8\u4ea4\u4ed8\u5728\u8f68\u5904\u7406\u7ed3\u679c\u4ee5\u51cf\u5c11\u4e0b\u4f20\u6570\u636e\u91cf\u3002\u5177\u4f53\u652f\u6301\u7684\u786c\u4ef6\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html#webpage"}, "name": "Satlyt", "sameAs": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/", "url": "https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html", "name": "Satlyt", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/satlyt-founded-by-a-former-google-and-spacex-product-manager.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">AI 应用的生意判断</p>
+      <div class="product-title-row">
+        <h1>Satlyt</h1>
+      </div>
+      <p class="product-lede">卫星运营方希望在星上直接处理遥感或通信数据时，把模型和任务部署到 Satlyt 提供的开放软件层，由它在多家厂商的卫星硬件上运行推理，最终交付在轨处理结果以减少下传数据量。具体支持的硬件与交付形态仍待核验。</p>
+      <div class="meta product-meta">
+<span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
+<span class="tag">新应用 / 服务</span><span class="tag">基础层</span><span class="tag">航空航天</span><span class="tag">卫星通信</span><span class="tag">卫星载荷工程师</span><span class="tag">美国</span><span class="tag sig">跨国机会</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>本站首次收录</dt><dd class="num">2026-10-01</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-10-02</dd></div>
+      <div><dt>产品官网</dt><dd><a href="https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>它为什么会被需要</h2>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-10-02</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">使用场景</span>
+        <p class="product-lead">卫星运营方的载荷与任务工程师在遥感或通信数据量超过下传窗口时，把模型和任务部署到星上软件层，对星上采集的原始数据做筛选与推理，只把有用结果传回地面。</p>
+        <p>把原始数据全部下传，在地面数据中心处理；或采用 SpaceX 式封闭一体化星上方案。</p>
+        <p>下传带宽有限且昂贵，把全部原始数据传回地面再处理会拉长结果时延并抬高成本；公开材料只给出定位与融资，未提供具体客户痛点数据。</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>需求有依据</h3>
+        <p>趋势是算力从地面数据中心向在轨设备延伸，遥感与通信数据的下传带宽成为瓶颈。切入可考虑面向特定遥感应用（如海事监测、农业估产）做在轨筛选与结果订阅，按处理面积或订阅周期收费，而不是只卖底层软件层。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">使用理由</span>
+        <h3>为什么用户会选择它</h3>
+        <p>推断：相较全部下传再处理，它在星上先完成筛选与推理，减少需要下传的数据量这一步；相较封闭一体化方案，它宣称跨多家卫星硬件运行，降低被单一硬件绑定的负担。因此受下传带宽限制、且使用多厂商卫星的遥感运营方可能选择它；缺少客户案例与实测结果。</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>追踪 Satlyt 官网技术文档或公开试点公告，确认其支持的卫星平台清单与在轨处理实测结果。</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>值得试用</strong>。推断：相较全部下传再处理，它在星上先完成筛选与推理，减少需要下传的数据量这一步；相较封闭一体化方案，它宣称跨多家卫星硬件运行，降低被单一硬件绑定的负担。因此受下传带宽限制、且使用多厂商卫星的遥感运营方可能选择它；缺少客户案例与实测结果。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>趋势是算力从地面数据中心向在轨设备延伸，遥感与通信数据的下传带宽成为瓶颈。切入可考虑面向特定遥感应用（如海事监测、农业估产）做在轨筛选与结果订阅，按处理面积或订阅周期收费，而不是只卖底层软件层。</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">公开事实</span><p>它解决星上数据下传瓶颈：遥感或通信原始数据超过下传能力时，全部回传地面处理会拉长时延并抬高带宽成本，运营方已在用地面处理或封闭一体化方案绕过。Satlyt 以开放软件层在多家卫星硬件上跑推理，交付在轨处理结果，任务、旧替代与不解决的后果可还原，属工作流结构推理。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较全部下传再处理，它在星上先完成筛选与推理，减少需要下传的数据量这一步；相较封闭一体化方案，它宣称跨多家卫星硬件运行，降低被单一硬件绑定的负担。因此受下传带宽限制、且使用多厂商卫星的遥感运营方可能选择它；缺少客户案例与实测结果。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 Satlyt 官网技术文档或公开试点公告，确认其支持的卫星平台清单与在轨处理实测结果。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>它解决星上数据下传瓶颈：遥感或通信原始数据超过下传能力时，全部回传地面处理会拉长时延并抬高带宽成本，运营方已在用地面处理或封闭一体化方案绕过。Satlyt 以开放软件层在多家卫星硬件上跑推理，交付在轨处理结果，任务、旧替代与不解决的后果可还原，属工作流结构推理。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/" target="_blank" rel="noopener">公开资料.com · 2026-10-01 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>公开材料只有融资报道与定位描述，未见卫星运营方的采用、试点、公开评价或可观察行为，无法判断是否形成共识；开放跨厂商路线是否被运营方接受仍缺证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/" target="_blank" rel="noopener">公开资料.com · 2026-10-01 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>买方推断为卫星运营方或政府航天机构，但材料未披露定价、采购路径或收入结构，属判断而非已验证事实；也未出现仅靠融资叙事的证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/" target="_blank" rel="noopener">公开资料.com · 2026-10-01 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>在轨推理的算力、功耗、辐射可靠性与人工边界未在材料中说明，跨厂商硬件适配与交付确定性无法核对；开放软件层能否在真实卫星上稳定运行仍缺公开验证。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/" target="_blank" rel="noopener">公开资料.com · 2026-10-01 ↗</a>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>中英文生态与跨国机会</h2>
+        <p class="note">市场对照 · 跨国机会</p>
+      </div>
+    </div>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：早期出现<br>需求证据：初步成立</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-02。未发现仅限该覆盖范围。 · 2026-10-02</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-02。未发现仅限该覆盖范围。 · 2026-10-02</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析尚未完成，可先阅读上方的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/deepseek-harness.html">deepseek-harness</a>、        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>      </p>
+    </div>
+  </section>
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">openai.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ibm.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.britannica.com/technology/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">britannica.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">perplexity.ai</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aistudio.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.mtu.edu/data-science/undergraduate/ai/what-is/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">mtu.edu</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-10-01</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>从产品名直接追到一手材料</h2>
+        <p class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22Satlyt%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">官网与文档</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22Satlyt%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">定价与套餐</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22Satlyt%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">用户评价与抱怨</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22Satlyt%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">客户案例与结果</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22Satlyt%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">替代品与对比</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="继续浏览">
+    <div class="sec-head desk-sec">
+      <div><h2>同类产品</h2></div>
+      <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
+        基础层 共 291 个 →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head desk-row">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek 把助手的工具、记忆、界面拆成可替换插件，在自己电脑上跑</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/open-kimi-ppt-skill.html">
+          <div class="row-head desk-row">
+            <span class="row-name">open-kimi-ppt-skill</span>
+            <span class="row-desc">曾让助手直接产出能继续改的演示文稿，后因版权整库被清空。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/longhorizon-harness.html">
+          <div class="row-head desk-row">
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 AI 连续操作电脑几小时，进展写在可核对的账本上，不信它自己说做完了</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/numbat.html">
+          <div class="row-head desk-row">
+            <span class="row-name">numbat</span>
+            <span class="row-desc">公司电脑上的助手干了什么能看清，必要时拦住，事后还能把全过程还原。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/sapien-raises-at-180m-valuation-to-bring-ai-powered-operatio.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">Sapien</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/saudi-ai-startup-idraj-raises-sar-225-million-in-pre-seed-fu.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">IDRAJ</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>2314 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-10-02</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

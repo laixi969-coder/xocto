@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>lore · x-octo</title>
-<meta name="description" content="使用 Claude Code、Codex 等编码代理的开发者，在需要回忆此前会话里改过什么、为什么改时，原本要翻散落在本地的会话日志；lore 把这些会话归档成本地可检索的存档，让开发者按关键词找回历史改动记录。具体检索粒度与交付形态仍待核验。">
+<meta name="description" content="使用 Claude Code 或 Codex 的开发者，在需要回看之前会话里做过的改动或结论时，打开这个本地工具，它把历史会话整理成可搜索的本地存档，用户拿到的是可检索的过往记录；具体检索方式与交付形态仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/lore.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/lore.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/lore.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/lore.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="lore · x-octo">
-<meta property="og:description" content="使用 Claude Code、Codex 等编码代理的开发者，在需要回忆此前会话里改过什么、为什么改时，原本要翻散落在本地的会话日志；lore 把这些会话归档成本地可检索的存档，让开发者按关键词找回历史改动记录。具体检索粒度与交付形态仍待核验。">
+<meta property="og:description" content="使用 Claude Code 或 Codex 的开发者，在需要回看之前会话里做过的改动或结论时，打开这个本地工具，它把历史会话整理成可搜索的本地存档，用户拿到的是可检索的过往记录；具体检索方式与交付形态仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/lore.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/lore.html#webpage", "@type": "WebPage", "description": "\u4f7f\u7528 Claude Code\u3001Codex \u7b49\u7f16\u7801\u4ee3\u7406\u7684\u5f00\u53d1\u8005\uff0c\u5728\u9700\u8981\u56de\u5fc6\u6b64\u524d\u4f1a\u8bdd\u91cc\u6539\u8fc7\u4ec0\u4e48\u3001\u4e3a\u4ec0\u4e48\u6539\u65f6\uff0c\u539f\u672c\u8981\u7ffb\u6563\u843d\u5728\u672c\u5730\u7684\u4f1a\u8bdd\u65e5\u5fd7\uff1blore \u628a\u8fd9\u4e9b\u4f1a\u8bdd\u5f52\u6863\u6210\u672c\u5730\u53ef\u68c0\u7d22\u7684\u5b58\u6863\uff0c\u8ba9\u5f00\u53d1\u8005\u6309\u5173\u952e\u8bcd\u627e\u56de\u5386\u53f2\u6539\u52a8\u8bb0\u5f55\u3002\u5177\u4f53\u68c0\u7d22\u7c92\u5ea6\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "lore", "url": "https://xocto.vercel.app/p/lore.html"}, {"@id": "https://xocto.vercel.app/p/lore.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-18", "datePublished": "2026-08-11", "description": "\u4f7f\u7528 Claude Code\u3001Codex \u7b49\u7f16\u7801\u4ee3\u7406\u7684\u5f00\u53d1\u8005\uff0c\u5728\u9700\u8981\u56de\u5fc6\u6b64\u524d\u4f1a\u8bdd\u91cc\u6539\u8fc7\u4ec0\u4e48\u3001\u4e3a\u4ec0\u4e48\u6539\u65f6\uff0c\u539f\u672c\u8981\u7ffb\u6563\u843d\u5728\u672c\u5730\u7684\u4f1a\u8bdd\u65e5\u5fd7\uff1blore \u628a\u8fd9\u4e9b\u4f1a\u8bdd\u5f52\u6863\u6210\u672c\u5730\u53ef\u68c0\u7d22\u7684\u5b58\u6863\uff0c\u8ba9\u5f00\u53d1\u8005\u6309\u5173\u952e\u8bcd\u627e\u56de\u5386\u53f2\u6539\u52a8\u8bb0\u5f55\u3002\u5177\u4f53\u68c0\u7d22\u7c92\u5ea6\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/lore.html#webpage"}, "name": "lore", "sameAs": "https://github.com/hsusul/lore", "url": "https://xocto.vercel.app/p/lore.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/lore.html", "name": "lore", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/lore.html#webpage", "@type": "WebPage", "description": "\u4f7f\u7528 Claude Code \u6216 Codex \u7684\u5f00\u53d1\u8005\uff0c\u5728\u9700\u8981\u56de\u770b\u4e4b\u524d\u4f1a\u8bdd\u91cc\u505a\u8fc7\u7684\u6539\u52a8\u6216\u7ed3\u8bba\u65f6\uff0c\u6253\u5f00\u8fd9\u4e2a\u672c\u5730\u5de5\u5177\uff0c\u5b83\u628a\u5386\u53f2\u4f1a\u8bdd\u6574\u7406\u6210\u53ef\u641c\u7d22\u7684\u672c\u5730\u5b58\u6863\uff0c\u7528\u6237\u62ff\u5230\u7684\u662f\u53ef\u68c0\u7d22\u7684\u8fc7\u5f80\u8bb0\u5f55\uff1b\u5177\u4f53\u68c0\u7d22\u65b9\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "lore", "url": "https://xocto.vercel.app/p/lore.html"}, {"@id": "https://xocto.vercel.app/p/lore.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-10-01", "datePublished": "2026-08-11", "description": "\u4f7f\u7528 Claude Code \u6216 Codex \u7684\u5f00\u53d1\u8005\uff0c\u5728\u9700\u8981\u56de\u770b\u4e4b\u524d\u4f1a\u8bdd\u91cc\u505a\u8fc7\u7684\u6539\u52a8\u6216\u7ed3\u8bba\u65f6\uff0c\u6253\u5f00\u8fd9\u4e2a\u672c\u5730\u5de5\u5177\uff0c\u5b83\u628a\u5386\u53f2\u4f1a\u8bdd\u6574\u7406\u6210\u53ef\u641c\u7d22\u7684\u672c\u5730\u5b58\u6863\uff0c\u7528\u6237\u62ff\u5230\u7684\u662f\u53ef\u68c0\u7d22\u7684\u8fc7\u5f80\u8bb0\u5f55\uff1b\u5177\u4f53\u68c0\u7d22\u65b9\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/lore.html#webpage"}, "name": "lore", "sameAs": "https://github.com/hsusul/lore", "url": "https://xocto.vercel.app/p/lore.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/lore.html", "name": "lore", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>lore</h1>
       </div>
-      <p class="product-lede">使用 Claude Code、Codex 等编码代理的开发者，在需要回忆此前会话里改过什么、为什么改时，原本要翻散落在本地的会话日志；lore 把这些会话归档成本地可检索的存档，让开发者按关键词找回历史改动记录。具体检索粒度与交付形态仍待核验。</p>
+      <p class="product-lede">使用 Claude Code 或 Codex 的开发者，在需要回看之前会话里做过的改动或结论时，打开这个本地工具，它把历史会话整理成可搜索的本地存档，用户拿到的是可检索的过往记录；具体检索方式与交付形态仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag sig">开源关注 143</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件与信息服务</span><span class="tag">AI 编程助手使用者</span><span class="tag sig">开源关注 143</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>hsusul</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-08-11</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-18</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-10-01</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://github.com/hsusul/lore" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,50 +82,50 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-01</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-01</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者使用编码代理时需要记录和检索会话历史，以便回顾和复用。</p>
-        <p>目前开发者依赖手动记录或聊天历史，缺乏结构化归档。</p>
-        <p>编码代理会话丢失或难以搜索，导致重复工作和知识流失。</p>
+        <p class="product-lead">使用 Claude Code 或 Codex 的开发者，在需要复用几天前某次会话里已确定的方案、改动或结论时，打开本地工具检索历史会话，找回当时的结论与代码上下文。</p>
+        <p>手动翻终端历史、复制粘贴到笔记，或重新向助手描述上下文。</p>
+        <p>编程助手的会话默认散落在本地或平台侧，跨会话检索困难；开发者只能重复提问或重新排查，浪费大量时间，且旧结论容易丢失。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势：编码代理开始被当成需要长期记忆的同事，会话记录本身变成可检索资产。切入：从需要审计与交接的团队入手，把代理会话沉淀成可追溯的变更档案，而不是再做一个代理外壳。</p>
+        <p>趋势是编程助手会话正在变成需要长期保存的工作资产，而不是用完即弃的对话。切入可放在团队级会话归档与合规留痕，按席位或按存储量收费，但公开材料未披露定价。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>开源社区获得 143 星和 40 fork 表明开发者关注，但实际采用尚未核验。</p>
+        <p>推断：相较手动翻找或重新描述上下文，它把 Claude Code 与 Codex 会话统一收进本地可搜索存档，省去逐条翻找和重述这一步，因此频繁跨会话复用结论的开发者会在需要回看旧会话时选择它；尚无留存或复购证据。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>关注 lore 的开源仓库 issue 和讨论，看是否有真实用户反馈和功能迭代，以及是否出现商业化迹象。</p>
+        <p>追踪该项目的公开仓库 issue 与 discussion，确认用户实际检索场景与是否出现重复使用反馈。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。开源社区获得 143 星和 40 fork 表明开发者关注，但实际采用尚未核验。</p>
+        <p><strong>值得试用</strong>。推断：相较手动翻找或重新描述上下文，它把 Claude Code 与 Codex 会话统一收进本地可搜索存档，省去逐条翻找和重述这一步，因此频繁跨会话复用结论的开发者会在需要回看旧会话时选择它；尚无留存或复购证据。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势：编码代理开始被当成需要长期记忆的同事，会话记录本身变成可检索资产。切入：从需要审计与交接的团队入手，把代理会话沉淀成可追溯的变更档案，而不是再做一个代理外壳。</p>
+        <p>趋势是编程助手会话正在变成需要长期保存的工作资产，而不是用完即弃的对话。切入可放在团队级会话归档与合规留痕，按席位或按存储量收费，但公开材料未披露定价。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决编码代理会话难以检索的痛点，通过自动归档和搜索，交付可查询的历史记录，痛点明确。工作流结构判断。</p></div>
-        <div><span class="field-k">工作流推理</span><p>开源社区获得 143 星和 40 fork 表明开发者关注，但实际采用尚未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>关注 lore 的开源仓库 issue 和讨论，看是否有真实用户反馈和功能迭代，以及是否出现商业化迹象。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决跨会话找回结论与上下文的需求，痛点是旧做法手动翻找或重新描述，不解决会重复排查、丢失结论；这是工作流结构推理，公开材料未给出使用数据。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较手动翻找或重新描述上下文，它把 Claude Code 与 Codex 会话统一收进本地可搜索存档，省去逐条翻找和重述这一步，因此频繁跨会话复用结论的开发者会在需要回看旧会话时选择它；尚无留存或复购证据。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该项目的公开仓库 issue 与 discussion，确认用户实际检索场景与是否出现重复使用反馈。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -133,28 +133,31 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>它解决编码代理会话难以检索的痛点，通过自动归档和搜索，交付可查询的历史记录，痛点明确。工作流结构判断。</p>
+          <p>它解决跨会话找回结论与上下文的需求，痛点是旧做法手动翻找或重新描述，不解决会重复排查、丢失结论；这是工作流结构推理，公开材料未给出使用数据。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
-            <strong>已有支持</strong>
+            <strong>证据不足</strong>
           </div>
-          <p>开源社区星标和 fork 显示社区关注，但持续采用未核验。</p>
+          <p>公开材料只有市场覆盖检索与泛化 AI 介绍，缺少用户评价、客户案例或采用反馈，无法判断是否形成共识。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://openai.com/" target="_blank" rel="noopener">openai.com ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>未披露商业模式，可能开源+云托管，但付费方和定价未明确。</p>
+          <p>公开材料未披露定价或付费路径，买方是个人开发者还是团队尚不明确，这是判断不是已验证事实。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
-            <strong>已有支持</strong>
+            <strong>证据不足</strong>
           </div>
-          <p>产品贴近编码代理的第一性目标，承诺可搜索的归档，但需验证实际检索效果。</p>
+          <p>本地存档贴近开发者第一性目标，但检索准确性与人工确认边界未见公开说明，交付确定性无法核验。</p>
         </article>
       </div>
     </details>
@@ -171,13 +174,13 @@
     <div class="product-markets">
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：初步成立</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-18。未发现仅限该覆盖范围。 · 2026-09-18</p>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-01。未发现仅限该覆盖范围。 · 2026-10-01</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-18。未发现仅限该覆盖范围。 · 2026-09-18</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-01。未发现仅限该覆盖范围。 · 2026-10-01</p>
       </div>
     </div>
   </section>
@@ -204,8 +207,18 @@
       </div>
     </div>
     <ul class="rows desk-list">
+      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">openai.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
       <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">gemini.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ibm.com</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -214,18 +227,8 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">cloud.google.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">ai.google</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">aistudio.google.com</span>
+      <li><a href="https://www.britannica.com/technology/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">britannica.com</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -234,8 +237,13 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">en.wikipedia.org</span>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aistudio.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.mtu.edu/data-science/undergraduate/ai/what-is/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">mtu.edu</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -244,10 +252,20 @@
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
+      <li><a href="https://www.lorepodcast.com/episodes/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">lorepodcast.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
       <li><a href="https://www.wikihow.com/Lore-Meaning-Slang" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">wikihow.com</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQbzZmaURrU1M3QkpydFhWS3pzc2RFTnVQSHZiNUowR3ZqZTY4QmdaQl9vcjZ0cDhCSFE4T0xMSVNQVFVaVTc0UzZqSHBtdklLWXNELWRZU2poS2ItZWptZ1NHMFdLeGlvdFphZjBjLWFwSDF5UmtQNS1JQUswYUZYMzFGX2VIWk4tZTFGM0VadzdDeG9sYjI0a0tpUlU3YnZBdTVsRmM0V19nMXB6?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-10-01</span>
       </div></a></li>
       <li><a href="https://loreatl.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">loreatl.com</span>
@@ -268,11 +286,6 @@
         <span class="row-name">blog.google</span>
         <span class="row-desc">market_signal</span>
         <span class="row-tail">2026-09-11</span>
-      </div></a></li>
-      <li><a href="https://www.lorepodcast.com/episodes/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">lorepodcast.com</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://lore.world/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">lore.world</span>
@@ -311,7 +324,7 @@
       </div></a></li>
       <li><a href="https://github.com/hsusul/lore" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">lore</span>
-        <span class="row-desc">开源信息 · 使用 Claude Code、Codex 等编码代理的开发者，在需要回忆此前会话里改过什么、为什么改时，原本要翻散落在本地的会话日志；lore 把这些会话归档成本地可检索的存档，让开发者按关键词找回历史改动记录。具体检索粒度与交付形态仍待核验。</span>
+        <span class="row-desc">开源信息 · 使用 Claude Code 或 Codex 的开发者，在需要回看之前会话里做过的改动或结论时，打开这个本地工具，它把历史会话整理成可搜索的本地存档，用户拿到的是可检索的过往记录；具体检索方式与交付形态仍待核验。</span>
         <span class="row-tail">2026-08-11</span>
       </div></a></li>
     </ul>
@@ -353,7 +366,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 617 个 →
+        AI + 开发 共 647 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -445,8 +458,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2189 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-09-30</span>
+    <span>2314 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-10-02</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
