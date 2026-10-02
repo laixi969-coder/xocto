@@ -33,8 +33,8 @@ canonical_url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaFFzbGRCNDhk
 summary: Glass Launches AI-Powered G-Commerce Supplier Experience, Giving Businesses a New Way to Sell
   to Governments markets.businessinsider.com
 first_seen: '2026-09-21T15:31:46Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-02T01:42:23Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -57,6 +57,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMickFVX3lxTFBXd2MtblBsSG9NVjNKMXJJQXgtRjN4LTc4bjNubVhJTlRvYWI4ZkpBSHZOcW4wWW56Z21mT3Rzck53TmZ5aTZqY0ZTNDYwQlhoOWtBZjRqQWpzazZQVl9sYTR1X0hicjJMVU1FZFk0blRMQQ?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KTm1lUlBmaUNlNnVmYnBHS2NiYjdMSUxwRHhaaFVhcXhBZ1lQdURpc2xqTkstOEx1dGZjZzRWNnp0SjRMX1dETWI2NkFPclk3aUpUUk5lOUYydi1YTGE4?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
   kind: news
 ---

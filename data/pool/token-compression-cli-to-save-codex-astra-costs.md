@@ -33,16 +33,16 @@ summary: Hey HN! Yolanda and Spencer here - wanted to share a token compression 
   for ourselves to save 30% costs on codex! After maxing out sub and burning $700&#x2F;day per person
   on api, we fine tuned a com…
 first_seen: '2026-09-30T17:30:54Z'
-last_seen: '2026-10-01T01:18:38Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49911910
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 8
+    points: 10
     comments: 4
   kind: product
 ---

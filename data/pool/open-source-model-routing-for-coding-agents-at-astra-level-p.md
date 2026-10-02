@@ -22,17 +22,17 @@ summary: A few months ago we started building a model router for coding agents b
   outperform any single model with an ensemble approach. Recently we’ve achieved that milestone and I
   want to talk about how…
 first_seen: '2026-09-30T16:58:24Z'
-last_seen: '2026-10-01T01:18:38Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49911500
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 80
+    comments: 24
   kind: product
 ---
 

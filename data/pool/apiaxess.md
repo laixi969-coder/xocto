@@ -29,16 +29,16 @@ url: https://apiaxess.dev
 canonical_url: https://apiaxess.dev
 summary: I built a free Burp/Caido alternative but, zero setup - API Testing
 first_seen: '2026-09-30T17:32:10Z'
-last_seen: '2026-10-01T01:18:38Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://apiaxess.dev
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 30
+    points: 32
     comments: 5
   kind: product
 ---

@@ -86,10 +86,11 @@ summary: "作者｜ 宇航猿   \n  编辑｜ 靖宇  \n 很少有机器人，�
   \  让更多人「进场」，也许比任何一个技术突破都重要。  \n 这只鸭子站得很稳。至于它身后的那盘棋，才刚刚开始。 \n  *头图来源：AI生成  \n  本文为极客公园原创文章，转载请联系极客君微信\
   \ geekparkGO"
 first_seen: '2026-08-31T07:09:46Z'
-last_seen: '2026-09-01T01:18:41Z'
-status: queued
+last_seen: '2026-10-02T01:42:23Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: http://www.geekpark.net/news/369608
@@ -99,6 +100,11 @@ sightings:
 - source: marketfeeds
   url: https://www.oneusefulthing.org/p/agency-and-agents
   seen_at: '2026-09-01T01:18:41Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMid0FVX3lxTFBYb251OWMwOFBlTGVudmVUV3VQWGQ4YlZrYzJESlJWVEtEdk9oWmVySnB4N1BuUGg1Y3Y3dFdmMk5SVWtOdnNfamRXbnlpVzdfUndGc2VfRTJ2QWVSWmJoUjg0MHVpZlVXTmtTcGk2ak9GN1Vud25v?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
   kind: news
 ---

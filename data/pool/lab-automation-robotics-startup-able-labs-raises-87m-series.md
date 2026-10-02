@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-30T01:18:13Z'
-status: rejected
+last_seen: '2026-10-02T01:42:13Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -279,6 +279,11 @@ sightings:
   metrics:
     points: 135
     comments: 80
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/
+  seen_at: '2026-10-02T01:42:13Z'
+  metrics: {}
   kind: news
 ---
 

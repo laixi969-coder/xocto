@@ -333,3 +333,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 应用安全测试'
+- id: ev-e0fa370fab2a4c5c
+  project_slug: paranoid
+  url: https://github.com/kulchankas/paranoid
+  title: paranoid
+  published_at: '2026-09-15T13:53:39Z'
+  collected_at: '2026-10-02T01:41:55Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Your app is guilty until proven secure: an agent skill whose /hack-me breaks into your own running
+    app, proves each bug with a real request, patches it, and re-verifies. Claude Code · Codex · Cursor.
+    | repository stars: 49'

@@ -32,18 +32,18 @@ summary: Local-first observability for AI coding agents. Every Claude Code and C
   cache, models and cost, on this machine and every machine you connect through a self-hosted team hub.
   Presenting mode, policy hooks, Apple-signed and notarized macOS builds, attested releases. MIT.
 first_seen: '2026-09-20T17:55:58Z'
-last_seen: '2026-10-01T01:18:42Z'
+last_seen: '2026-10-02T01:41:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://lockedinlabs-ai.github.io/agent-console/
-  seen_at: '2026-10-01T01:18:42Z'
+  seen_at: '2026-10-02T01:41:55Z'
   metrics:
-    stars: 759
-    forks: 134
-    open_issues: 3
+    stars: 780
+    forks: 138
+    open_issues: 4
   kind: product
 ---
 

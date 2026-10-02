@@ -309,16 +309,16 @@ summary: "## New Model additions\r\n\r\n\r\n### Nemotron 3 Diarization\r\n\r\n<i
   \ for Nemotron Omni (#46509)\r\n* @Sainava\r\n    * Add pose estimation keypoint preprocessing to Sapiens2ImageProcessor\
   \ (#47199)\r\n* @jp1924\r\n    * add HyperClovaX Vision (#44314)"
 first_seen: '2026-09-30T16:46:27Z'
-last_seen: '2026-10-01T01:18:42Z'
-status: market_context
+last_seen: '2026-10-02T01:41:55Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huggingface/transformers/releases/tag/v5.18.0
-  seen_at: '2026-10-01T01:18:42Z'
+  seen_at: '2026-10-02T01:41:55Z'
   metrics:
-    reactions: 0
+    reactions: 4
   kind: news
 ---
 

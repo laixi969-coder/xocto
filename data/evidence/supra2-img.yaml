@@ -7,3 +7,12 @@
   source_kind: open_source
   tier: behavioural
   fact: 104M-param text-to-image DiT, trained from scratch
+- id: ev-b8e8f9bd5e84fee7
+  project_slug: supra2-img
+  url: https://huggingface.co/spaces/SupraLabs/Supra-IMG-Studio
+  title: Supra2-IMG Studio
+  published_at: '2026-10-01T20:09:07Z'
+  collected_at: '2026-10-02T01:42:12Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: Dark image studio for Supra2-IMG on CPU

@@ -22,17 +22,17 @@ url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gem
 canonical_url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon
 summary: 'See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236'
 first_seen: '2026-09-30T20:04:37Z'
-last_seen: '2026-10-01T01:18:38Z'
-status: market_context
+last_seen: '2026-10-02T01:41:51Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 949
-    comments: 647
+    points: 1641
+    comments: 1126
   kind: news
 ---
 

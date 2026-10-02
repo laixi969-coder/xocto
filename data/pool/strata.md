@@ -25,17 +25,17 @@ url: https://strata.do/
 canonical_url: https://strata.do
 summary: an expressive semantic layer that can say no to your LLM
 first_seen: '2026-09-30T14:59:57Z'
-last_seen: '2026-10-01T01:18:38Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://strata.do/
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 18
-    comments: 8
+    points: 22
+    comments: 15
   kind: product
 ---
 

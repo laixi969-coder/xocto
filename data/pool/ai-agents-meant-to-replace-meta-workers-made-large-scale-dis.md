@@ -29,8 +29,8 @@ url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-inc
 canonical_url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent
 summary: Report shows Meta's challenges replacing people with AI agents.
 first_seen: '2026-08-26T21:25:27Z'
-last_seen: '2026-10-01T01:19:00Z'
-status: market_context
+last_seen: '2026-10-02T01:41:51Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -193,6 +193,13 @@ sightings:
   url: https://www.meta.com/blog/what-to-play-on-meta-quest-september-2026-recap/
   seen_at: '2026-10-01T01:19:00Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html
+  seen_at: '2026-10-02T01:41:51Z'
+  metrics:
+    points: 246
+    comments: 235
   kind: news
 ---
 

@@ -27,17 +27,17 @@ url: https://github.com/magnitudedev/magnitude
 canonical_url: https://github.com/magnitudedev/magnitude
 summary: Self-optimizing inference engine for agents
 first_seen: '2026-09-30T17:37:40Z'
-last_seen: '2026-10-01T01:18:38Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/magnitudedev/magnitude
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 123
-    comments: 56
+    points: 191
+    comments: 96
   kind: product
 ---
 

@@ -50,8 +50,8 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Late stage). Wispr
   international, with three Nordic-founded companies, ElevenLabs, Legora, and Lovable, reaching multi-billion-dollar
   valuations on the strength of their enterprise and U.S.
 first_seen: '2026-09-17T16:20:47Z'
-last_seen: '2026-10-01T01:19:08Z'
-status: queued
+last_seen: '2026-10-02T01:42:23Z'
+status: pending_filter
 sources:
 - marketfeeds
 - ia40
@@ -92,6 +92,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikwFBVV95cUxOZDFMTGRJWVJzV2NLWnBqLU00UU9vY25uanRPMExiU2xrU1ZsTElvandHWGZBT2hhY0hyaVQwSHlRbDRBNW5WdjY3UklBdFpzNjEzRmE5bERlVXVyaDNGZG5Lem1EX09vS0p2d1hhVWc1LVVqNzhyS0pMNFpQYlhWWjZtelpoOFdnZWFMUTdLYjRLYWM?oc=5
   seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGZEb2xZZjA0YmM4ZDh4Rl9SNktUMlliaHFQcmQ0Q3lTWTZUWWt5SnhzalVwV1hDUmJ1Slhwa191enNCTldTUFFJZFNkM3ZtczE1ZUUyTkdmVFBzYlJOMGVlTU5qdFUtRElPWkZxMFVtNWlZU0NkbW1rZG1qQl9QakFoUWE5Vmg5eVRYa2JXMDY?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
   kind: news
 ---

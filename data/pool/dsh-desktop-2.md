@@ -32,10 +32,11 @@ url: https://dshdesktop.com
 canonical_url: https://dshdesktop.com
 summary: DSHDesktop：DeepSeek Harness Desktop
 first_seen: '2026-08-13T13:45:50Z'
-last_seen: '2026-09-26T00:37:55Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: queued
 sources:
 - github
+- producthunt
 sightings:
 - source: github
   url: https://dshdesktop.com
@@ -60,6 +61,11 @@ sightings:
     stars: 60
     forks: 3
     open_issues: 0
+  kind: product
+- source: producthunt
+  url: https://www.producthunt.com/products/deepseek
+  seen_at: '2026-10-02T01:41:51Z'
+  metrics: {}
   kind: product
 ---
 

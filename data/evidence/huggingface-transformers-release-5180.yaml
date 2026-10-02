@@ -17,3 +17,22 @@
     \ profiles, from an 80 ms input buffer to a 30.4 s offline-style buffer, and configurable output frame\
     \ resolution in multiples of 10 ms. With chunked inference, the maximum audio duration is not limited.\r\
     \n\r\n**Links:"
+- id: ev-b8c771510d3400d2
+  project_slug: huggingface-transformers-release-5180
+  url: https://github.com/huggingface/transformers/releases/tag/v5.18.0
+  title: 'huggingface/transformers: Release 5.18.0'
+  published_at: '2026-09-30T16:46:27Z'
+  collected_at: '2026-10-02T01:41:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## New Model additions\r\n\r\n\r\n### Nemotron 3 Diarization\r\n\r\n<img width=\"1680\" height=\"\
+    900\" alt=\"image\" src=\"https://github.com/user-attachments/assets/fe735cb3-9e5b-43ad-8f60-9dec8425aec7\"\
+    \ />\r\n\r\nNemotron 3 Diarization is an open-weight streaming speaker diarization model designed\
+    \ to determine \"who spoke when\" in real-world audio. It supports both streaming and offline inference,\
+    \ handles up to eight speakers, and orders speaker outputs by each speaker's first arrival in the\
+    \ input audio.\r\n\r\nThe model uses the Arrival-Order Speaker Cache (AOSC) [1](https://huggingface.co/papers/2507.18446)\
+    \ and FIFO queue introduced for Streaming Sortformer [1](https://huggingface.co/papers/2507.18446),\
+    \ [2](https://huggingface.co/papers/2409.06656). A single checkpoint supports configurable latency\
+    \ profiles, from an 80 ms input buffer to a 30.4 s offline-style buffer, and configurable output frame\
+    \ resolution in multiples of 10 ms. With chunked inference, the maximum audio duration is not limited.\r\
+    \n\r\n**Links:"

@@ -1,7 +1,7 @@
 ---
 slug: can-a-chatbot-fix-the-government-maze-the-white-house-is-abo
 name: America.gov
-builder: ''
+builder: Chris Messina
 category: ''
 summary_zh: 美国政府推出 America.gov，试图用大语言模型简化公众办理政府事务的流程；材料同时指出大模型仍易产生幻觉，可能带来新的错误。这意味着面向公共服务的 AI 应用在采用扩大的同时，可靠性与交付风险仍是主要制约。
 inspiration: ''
@@ -24,16 +24,22 @@ canonical_url: https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-governmen
 summary: America.gov is intended to simplify the process of navigating government bureaucracy, but large
   language models are imperfect and remain prone to hallucinations, which could cause new issues.
 first_seen: '2026-09-29T16:55:56Z'
-last_seen: '2026-09-30T01:18:45Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: market_context
 sources:
 - marketfeeds
+- producthunt
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/
   seen_at: '2026-09-30T01:18:45Z'
   metrics: {}
   kind: news
+- source: producthunt
+  url: https://www.producthunt.com/products/america-gov
+  seen_at: '2026-10-02T01:41:51Z'
+  metrics: {}
+  kind: product
 ---
 
 # America.gov

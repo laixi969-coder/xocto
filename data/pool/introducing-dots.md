@@ -1,7 +1,7 @@
 ---
 slug: introducing-dots
 name: Dots
-builder: ''
+builder: feder-cr
 category: ''
 summary_zh: OpenAI 发布 Dots，定位为可跨复杂项目与日常任务持续工作的主动式助手，强调用户保持控制的同时工作继续推进。公开材料未给出具体任务流程、交付物或定价，对应用成本与竞争格局的影响仍需更多材料支持。
 inspiration: ''
@@ -23,11 +23,12 @@ canonical_url: https://openai.com/index/introducing-dots
 summary: Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday
   tasks. Learn how dots help you stay in control while work moves forward.
 first_seen: '2026-09-29T00:00:00Z'
-last_seen: '2026-10-01T01:19:08Z'
+last_seen: '2026-10-02T01:41:55Z'
 status: market_context
 sources:
 - officialfeeds
 - newssearch
+- github
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/introducing-dots
@@ -39,6 +40,14 @@ sightings:
   seen_at: '2026-10-01T01:19:08Z'
   metrics: {}
   kind: news
+- source: github
+  url: https://github.com/feder-cr/dots
+  seen_at: '2026-10-02T01:41:55Z'
+  metrics:
+    stars: 2385
+    forks: 417
+    open_issues: 0
+  kind: product
 ---
 
 # Dots

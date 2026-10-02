@@ -20,7 +20,7 @@ url: https://huggingface.co/spaces/hugging-apps/supra2-img-demo
 canonical_url: https://huggingface.co/spaces/hugging-apps/supra2-img-demo
 summary: 104M-param text-to-image DiT, trained from scratch
 first_seen: '2026-09-21T15:51:36Z'
-last_seen: '2026-09-22T00:50:49Z'
+last_seen: '2026-10-02T01:42:12Z'
 status: rejected
 sources:
 - huggingface
@@ -28,6 +28,12 @@ sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/hugging-apps/supra2-img-demo
   seen_at: '2026-09-22T00:50:49Z'
+  metrics:
+    likes: 2
+  kind: product
+- source: huggingface
+  url: https://huggingface.co/spaces/SupraLabs/Supra-IMG-Studio
+  seen_at: '2026-10-02T01:42:12Z'
   metrics:
     likes: 2
   kind: product

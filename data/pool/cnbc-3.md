@@ -20,8 +20,8 @@ url: https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html
 canonical_url: https://cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html
 summary: McDonald's push to have AI price your Big Mac
 first_seen: '2026-09-29T19:58:50Z'
-last_seen: '2026-10-01T01:18:38Z'
-status: rejected
+last_seen: '2026-10-02T01:41:51Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -45,6 +45,13 @@ sightings:
   metrics:
     points: 72
     comments: 81
+  kind: news
+- source: hackernews
+  url: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html
+  seen_at: '2026-10-02T01:41:51Z'
+  metrics:
+    points: 200
+    comments: 148
   kind: news
 ---
 

@@ -25,8 +25,8 @@ url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
-last_seen: '2026-10-01T01:18:38Z'
-status: market_context
+last_seen: '2026-10-02T01:41:51Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -67,10 +67,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://artificialanalysis.ai/models/gemini-4-argon
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 79
-    comments: 42
+    points: 111
+    comments: 61
   kind: news
 - source: hackernews
   url: https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence

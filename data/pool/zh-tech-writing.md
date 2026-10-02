@@ -35,16 +35,16 @@ url: https://github.com/leter/zh-tech-writing
 canonical_url: https://github.com/leter/zh-tech-writing
 summary: 写中文技术文档的 Agent Skill，基于阮一峰《中文技术文档的写作规范》：短句、平实、没有 AI 腔
 first_seen: '2026-09-24T17:37:46Z'
-last_seen: '2026-10-01T01:18:42Z'
+last_seen: '2026-10-02T01:41:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/leter/zh-tech-writing
-  seen_at: '2026-10-01T01:18:42Z'
+  seen_at: '2026-10-02T01:41:55Z'
   metrics:
-    stars: 312
+    stars: 314
     forks: 14
     open_issues: 0
   kind: product

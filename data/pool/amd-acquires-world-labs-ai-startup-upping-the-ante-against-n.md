@@ -23,7 +23,7 @@ url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-f
 canonical_url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup
 summary: The deal, which is expected to close by year's end, is worth $8.2 billion.
 first_seen: '2026-09-29T21:14:49Z'
-last_seen: '2026-10-01T01:19:08Z'
+last_seen: '2026-10-02T01:42:23Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -57,6 +57,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQaWN2S00yNndqaE92RkF0cjhEYXdGamo0bDJ5YkNpN21QVTBrT05vaVJZOE1nRUJnZkMxYkJ2YmMxZVd2U1EzRTUtVGJiUTVQRko2VmtVUF8yWXJKYXF4MVBtVTJvWFJPbFJMZEFWRi1rc2VXUEV2cnkzSERpMjV2X09IenFZQzl6SVp6b1FvWkFZeEt4?oc=5
   seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/
+  seen_at: '2026-10-02T01:42:13Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash
+  seen_at: '2026-10-02T01:42:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5NVEdKN0pDdzVGS1NyV0JCSmR0S0o0MFRFb0ExZF9NMVZWOTJ5WWtZWDFhWVVCWXUxeGEzLV84dFNaS2dNUGVmNTNhN3Z3NVJKWnowdzhlS2EwUmRYYTVhcUE5ZnJuTnJFR1FQY1UyRF9OdWlMZnc?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
   kind: news
 ---

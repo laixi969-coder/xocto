@@ -36,18 +36,18 @@ canonical_url: https://communes.pages.dev
 summary: 'Morocco''s 1,503 communes as open data: HCP codes, the 2024 and 2014 censuses, boundaries, an
   HTTP API and an MCP server.'
 first_seen: '2026-09-21T14:01:22Z'
-last_seen: '2026-10-01T01:18:42Z'
+last_seen: '2026-10-02T01:41:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://communes.pages.dev
-  seen_at: '2026-10-01T01:18:42Z'
+  seen_at: '2026-10-02T01:41:55Z'
   metrics:
     stars: 46
     forks: 7
-    open_issues: 1
+    open_issues: 2
   kind: product
 ---
 

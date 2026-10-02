@@ -35,17 +35,17 @@ url: https://openparrot.app
 canonical_url: https://openparrot.app
 summary: Open-Source Smart Meeting Recorder with Co-Pilot on Mac
 first_seen: '2026-09-30T15:33:12Z'
-last_seen: '2026-10-01T01:18:38Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://openparrot.app
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 26
-    comments: 11
+    points: 36
+    comments: 30
   kind: product
 ---
 

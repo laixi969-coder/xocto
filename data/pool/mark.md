@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-10-01T01:19:08Z'
-status: rejected
+last_seen: '2026-10-02T01:42:23Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -355,6 +355,18 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDFoNDJqa0Z0dWFqckJuVE1HN1NtUmc0QmVnbVQ4b0RmMWNYd0NvVXdncDlWalp0WlZaUGFKY2FiVkNtd1NrdWtxd3RSZVc0Z0xidHppWWdoVERpaHQ3bWxUUWxGU3Z4RV9jY3ZlbjVTZnN5UTNzR1BuME9ZbnlzMUFWV2pPNmxWWENOY3VMSUZtZmo4SGdyU2RZandWOFM4dGM5VkpYektvQ2NFLXRNUzUydFQzTGs?oc=5
   seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/legal/transactional/ai-borrowers-face-tough-sell-risky-corners-us-credit-market-2026-09-30/
+  seen_at: '2026-10-02T01:41:51Z'
+  metrics:
+    points: 25
+    comments: 9
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ldzRNdDZxenQ2M2xfQXYwa2FWaVRKeF9mSHhBME9xQlFMNlRtNUU4dGh5RldLVlZBS2JZV1FaNFVDd1VDSUdNeG9PQm5sMnZqb05fSFBaRVpxcmVxcE9MU3BDWTZ6bXZO?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
   kind: news
 ---

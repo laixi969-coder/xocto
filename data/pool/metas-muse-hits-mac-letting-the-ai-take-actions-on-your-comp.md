@@ -41,8 +41,8 @@ canonical_url: https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the
 summary: Muse is now available on the Mac, where it can work with your files and apps to take action on
   your behalf.
 first_seen: '2026-09-18T15:22:48Z'
-last_seen: '2026-10-01T01:19:08Z'
-status: queued
+last_seen: '2026-10-02T01:42:23Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -105,6 +105,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IRnF2aUx1c2dBY0lPd2ZmQk1zdmEtMlo5TlVvOG5rNjJaMk9OSm15anA0THRrMFpqc3EySFVfclJyZ2c1ZjdQamMyWWJtRGwzWW1kZVM2WHNaX3lBbUdN?oc=5
   seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBCWE01dnctQWJIcU1IZGRHWlZsS2h3Qjc0OFI4allRcnBmak91WWZONzhQT29XZmFkUWdjb2xSc0ZzRG84TnQzcw?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
   kind: news
 ---

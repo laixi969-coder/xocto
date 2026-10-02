@@ -34,15 +34,24 @@ url: https://www.producthunt.com/products/assemblyai
 canonical_url: https://producthunt.com/products/assemblyai
 summary: Push-to-talk dictation on the AssemblyAI Dictation API
 first_seen: '2026-09-21T18:24:38Z'
-last_seen: '2026-09-23T00:34:15Z'
+last_seen: '2026-10-02T01:41:55Z'
 status: watching
 sources:
 - producthunt
+- github
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/assemblyai
   seen_at: '2026-09-23T00:34:15Z'
   metrics: {}
+  kind: product
+- source: github
+  url: https://github.com/AGIHunt/blurt
+  seen_at: '2026-10-02T01:41:55Z'
+  metrics:
+    stars: 40
+    forks: 6
+    open_issues: 5
   kind: product
 ---
 

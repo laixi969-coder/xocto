@@ -1,0 +1,28 @@
+- id: ev-575ba3b4800c391a
+  project_slug: openai-openai-python-v3230
+  url: https://github.com/openai/openai-python/releases/tag/v3.23.0
+  title: 'openai/openai-python: v3.23.0'
+  published_at: '2026-10-01T23:02:59Z'
+  collected_at: '2026-10-02T01:41:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.23.0](https://github.com/openai/openai-python/compare/v3.22.1...v3.23.0) (2026-10-01)
+
+
+
+    ### Features
+
+
+    * **agents:** [1/n] return typed answers from session streams ([#4007](https://github.com/openai/openai-python/issues/4007))
+    ([10f8816](https://github.com/openai/openai-python/commit/10f88169b0f3929b4e2528aad7a825df31163156))
+
+    * **agents:** stage files and download turn artifacts ([#4009](https://github.com/openai/openai-python/issues/4009))
+    ([4fc2438](https://github.com/openai/openai-python/commit/4fc2438ea73f8c1a4802b0cd5ab7607fc3cc1d16))
+
+    * **api:** Add session traces and Realtime translations ([#4001](https://github.com/openai/openai-python/issues/4001))
+    ([138e3d1](https://github.com/openai/openai-python/commit/138e3d14c4bff1322e5c96de711e272bebb77cc2))
+
+    * **beta:** expose typed application actions as agent tools ([#4006](https://github.com/openai/openai-python/issues/4006))
+    ([f219c55](https://github.com/openai/openai-python/commit/f219c5581661408688195659ab0137927ba9a033))
+
+    * co'

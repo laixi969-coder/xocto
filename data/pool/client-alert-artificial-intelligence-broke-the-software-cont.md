@@ -22,14 +22,19 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNTFlFZ2p0a1du
 summary: 'Client Alert: Artificial Intelligence Broke the Software Contract: The New Battle Over Indemnities,
   Warranties, and Liability Caps The National Law Review'
 first_seen: '2026-09-30T16:37:40Z'
-last_seen: '2026-10-01T01:19:08Z'
-status: rejected
+last_seen: '2026-10-02T01:42:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNTFlFZ2p0a1duQU1MZ19WQ3FDS0taVF8zbUVxNERZV05wMVhFX0tXQVJlMUxzV19WQU95M1g5QzJGOUhqcHFnZzlmaS1pOWRFaXJiUDZBN0hfMDJ6TlNhclR0ODAyR2huT3JaYXRjcUY0V2ZxVXVUbWlaUzROXzM5YXo5ai1YbFh0aTh4djc4aEJZWkx3NzZPczZJdnlfc2ZQMVBvRHRhMXUxM1ZoU3fSAbMBQVVfeXFMUHZzd2JUdmdsZG83T0tYc2Y0NjVhd1ZhbDk0ZGVGVE1mYVZER2hNc2loaEV0WWY0TkhQOHFwdFVYUWxSTTB6aUVPT3Bsb2ZmZWMxS05HaW50QmJKaGxEdTlfYklGNXoxUHZtdnZOd2pIX2NEUzdLWVZ1V2hKbTJ2dXBXMjJ4MnZhdUc2YnM4YUNfbk9oVnFNVWtYUGhjeUE0UkREdFdQdC1BazV3U0ZEdkpqLUk?oc=5
   seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQdnN3YlR2Z2xkbzdPS1hzZjQ2NWF3VmFsOTRkZUZUTWZhVkRHaE1zaWhoRXRZZjROSFA4cXB0VVhRbFJNMHppRU9PcGxvZmZlYzFLTkdpbnRCYkpobER1OV9iSUY1ejFQdm12dk53akhfY0RTN0tZVnVXaEptMnZ1cFcyMngydmF1RzZiczhhQ19uT2hWcU1Va1hQaGN5QTRSRER0V1B0LUFrNXdTRkR2SmotSdIBswFBVV95cUxQdnN3YlR2Z2xkbzdPS1hzZjQ2NWF3VmFsOTRkZUZUTWZhVkRHaE1zaWhoRXRZZjROSFA4cXB0VVhRbFJNMHppRU9PcGxvZmZlYzFLTkdpbnRCYkpobER1OV9iSUY1ejFQdm12dk53akhfY0RTN0tZVnVXaEptMnZ1cFcyMngydmF1RzZiczhhQ19uT2hWcU1Va1hQaGN5QTRSRER0V1B0LUFrNXdTRkR2SmotSQ?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
   kind: news
 ---

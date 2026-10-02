@@ -8,15 +8,24 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/Pollo/webid1D6F37309
 canonical_url: https://aicpb.com/product/Pollo/webid1D6F37309
 summary: Use Pollo AI, the free, ultimate, all-in-one AI image & video generator, to create images/videos
   with text prompts, images or videos. Turn your ideas to images and videos with high resolution and quality.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-08-22T22:38:19Z'
+last_seen: '2026-10-02T01:42:23Z'
 status: pending_filter
 sources:
 - aicpb
+- newssearch
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Pollo/webid1D6F37309
@@ -32,6 +41,12 @@ sightings:
     - 出海总榜
     - 全球增速榜
     - 全球总榜
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYWmU4MGJ1cXYzOGtCenFQdUVkd1ZFaXJFRFJxeEt0OURXcUMwTTBSVDItU2VUR0Y1VlNsUzdjXzhpbnVNaG91dUwyQTRsT1lJcmdDUjFxeEZISVZXMzlYMDFlQW9Udw?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
+  metrics: {}
+  kind: news
 ---
 
 # Pollo

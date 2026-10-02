@@ -20,16 +20,16 @@ url: https://nostr-proto.org/
 canonical_url: https://nostr-proto.org
 summary: An old school forum on an open protocol – your identity is a keypair
 first_seen: '2026-09-30T15:05:17Z'
-last_seen: '2026-10-01T01:18:38Z'
+last_seen: '2026-10-02T01:41:51Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://nostr-proto.org/
-  seen_at: '2026-10-01T01:18:38Z'
+  seen_at: '2026-10-02T01:41:51Z'
   metrics:
-    points: 16
+    points: 17
     comments: 2
   kind: product
 ---

@@ -32,16 +32,16 @@ canonical_url: https://github.com/impossibleG/phorminx
 summary: A local-first Windows application for dictation and meeting transcription, with searchable notes,
   optional local AI formatting and private model management.
 first_seen: '2026-09-15T00:13:49Z'
-last_seen: '2026-09-28T00:46:44Z'
+last_seen: '2026-10-02T01:41:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/impossibleG/phorminx
-  seen_at: '2026-09-28T00:46:44Z'
+  seen_at: '2026-10-02T01:41:55Z'
   metrics:
-    stars: 204
+    stars: 203
     forks: 3
     open_issues: 2
   kind: product

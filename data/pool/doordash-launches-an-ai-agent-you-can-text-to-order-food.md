@@ -24,14 +24,20 @@ canonical_url: https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-y
 summary: By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber
   Eats and Grubhub.
 first_seen: '2026-09-30T16:00:24Z'
-last_seen: '2026-10-01T01:19:01Z'
-status: market_context
+last_seen: '2026-10-02T01:42:23Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/
   seen_at: '2026-10-01T01:19:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DY05lLWVLWW5jOF9USktuQ2ZJUW9RRjVzNWFlUDAwNnpsUHloZGNmVWtneXdVUVJxTWJhVHpTUUl0VGstSkJzS1hGYTIxbkxFRU4yVUR1MXpocHJiWjZLZg?oc=5
+  seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
   kind: news
 ---
