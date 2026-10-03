@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>Food Fleet · 真实案例拆解 · x-octo</title>
+<meta name="description" content="Food Fleet 把散兵游勇的餐车组织起来，向 Sodexo、Levy 这类餐饮承包商和企业场地提供合规、准时的餐车运营服务，靠抽佣和场地合同赚钱。">
+<link rel="canonical" href="https://xocto.vercel.app/c/how-i-took-food-trucks-corporate-and-built-a-18m-business.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/c/how-i-took-food-trucks-corporate-and-built-a-18m-business.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/c/how-i-took-food-trucks-corporate-and-built-a-18m-business.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/c/how-i-took-food-trucks-corporate-and-built-a-18m-business.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="Food Fleet · x-octo">
+<meta property="og:description" content="Food Fleet 把散兵游勇的餐车组织起来，向 Sodexo、Levy 这类餐饮承包商和企业场地提供合规、准时的餐车运营服务，靠抽佣和场地合同赚钱。">
+<meta property="og:url" content="https://xocto.vercel.app/c/how-i-took-food-trucks-corporate-and-built-a-18m-business.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/c/how-i-took-food-trucks-corporate-and-built-a-18m-business.html#webpage", "@type": "WebPage", "description": "Food Fleet \u628a\u6563\u5175\u6e38\u52c7\u7684\u9910\u8f66\u7ec4\u7ec7\u8d77\u6765\uff0c\u5411 Sodexo\u3001Levy \u8fd9\u7c7b\u9910\u996e\u627f\u5305\u5546\u548c\u4f01\u4e1a\u573a\u5730\u63d0\u4f9b\u5408\u89c4\u3001\u51c6\u65f6\u7684\u9910\u8f66\u8fd0\u8425\u670d\u52a1\uff0c\u9760\u62bd\u4f63\u548c\u573a\u5730\u5408\u540c\u8d5a\u94b1\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Food Fleet \u00b7 \u771f\u5b9e\u6848\u4f8b\u62c6\u89e3", "url": "https://xocto.vercel.app/c/how-i-took-food-trucks-corporate-and-built-a-18m-business.html"}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class=""><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/c/how-i-took-food-trucks-corporate-and-built-a-18m-business.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">真实收入案例</p>
+      <div class="product-title-row">
+        <h1>Food Fleet</h1>
+<span class="verdict v-strong">真需求</span>      </div>
+<p class="product-lede">Food Fleet 把散兵游勇的餐车组织起来，向 Sodexo、Levy 这类餐饮承包商和企业场地提供合规、准时的餐车运营服务，靠抽佣和场地合同赚钱。</p>      <div class="meta product-meta">
+        <span class="tag sig">创始人采访自报</span>
+<span class="tag">素材未提及</span><span class="tag">企业场地合同</span><span class="tag">餐饮承包商合作</span><span class="tag">创始人行业人脉</span><span class="tag">网站与订车平台</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>一手来源</dt><dd><a href="https://www.starterstory.com/stories/how-i-took-food-trucks-corporate-and-built-a-18m-business" target="_blank" rel="noopener">查看原文</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>真需求判断</h2>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel product-panel-call">
+        <span class="field-k">真需求判断</span>
+        <h3>真需求</h3>
+        <p>企业场地长期缺的是能准时到场、有保险、能过合规审核的餐车供给，而餐车老板普遍不熟悉企业规则。Food Fleet 用审核加保险把两边接上，替代了企业自己零散找车、餐车自己找场地的低效做法。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">如何赚钱</span>
+        <p>向企业客户和餐饮承包商提供餐车运营服务，从餐车销售中抽佣；餐车不交会员费，只有餐车赚到钱才收佣金。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">它替代了什么旧行为</span>
+        <p>企业自己零散联系餐车、餐车各自找场地，以及此前那个不靠谱的订车中介。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>首批用户来源</h2>
+      </div>
+    </div>
+<p class="product-lead">创始人接手订车后，先以『Food Truck Alliance』名义对外接单，靠合伙人 Rudy 每晚跑活动积累的餐车关系凑出车队；第一个正式场地合同来自美国海军基地。</p>    <div class="meta product-meta">
+      <span class="field-k">获客渠道</span>
+<span class="tag">企业场地合同</span><span class="tag">餐饮承包商合作</span><span class="tag">创始人行业人脉</span><span class="tag">网站与订车平台</span>    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>可借鉴的打法</h2>
+      </div>
+    </div>
+    <ol class="desk-evidence-list case-playbooks">
+      <li><span class="num">01</span><span>先做需求方的整合者：企业要的不是一辆车而是一整套服务，把供给端打包成 turnkey 方案再谈合同。</span></li>
+      <li><span class="num">02</span><span>佣金与餐车收入挂钩：餐车没赚到钱就不抽佣，降低餐车加入门槛，也逼自己把场地选好。</span></li>
+      <li><span class="num">03</span><span>把合规做成护城河：统一解决食品安全、交易时长、500 万美元伞险和工伤险，这些是散车做不到、企业又必须的。</span></li>
+    </ol>
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">迁移到 AI 生意</span>
+        <p>这套『把不合规的分散供给审核、打包、卖给大客户』的模式可以直接迁到 AI 应用：比如把散落的 AI 工具或自由职业者做成企业可采购的合规服务包，靠抽佣或合同收费，而不是向供给方收会员费。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>证据与边界</h2>
+      </div>
+      <span class="note">自报数字未经审计，仅作线索，不应视为事实</span>
+    </div>
+    <div class="decision-grid desk-summary">
+      <div class="field">
+        <span class="field-k">创始人采访自报</span>
+        <p>收入口径<span class="decision-sep"> · </span>创始人自报，未经审计（以来源页为准）</p>
+      </div>
+      <div class="field">
+        <span class="field-k">尚缺哪些证据</span>
+        <p>素材只给出 $1.5M/月 和 $18M/年 的自报数字，没有佣金比例、合同金额或客户数，无法核验收入结构。<br>没有披露餐车数量、复购率或 churn，无法判断供给端和需求端的稳定性。<br>『2017-2018 增长 160%』和『接管会议中心后增长 53%』均为创始人自述，且承认前一年基数存在少报，数字可信度有限。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">一手来源</span>
+        <p><a href="https://www.starterstory.com/stories/how-i-took-food-trucks-corporate-and-built-a-18m-business" target="_blank" rel="noopener">https://www.starterstory.com/stories/how-i-took-food-trucks-corporate-and-built-a-18m-business ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>2371 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-10-03</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>
