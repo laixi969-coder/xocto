@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQRk9BWnhYempw
 summary: Hyperscale Data Exploring Strategic Alternatives for its askROI Subsidiary PR Newswire
 first_seen: '2026-10-02T10:30:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

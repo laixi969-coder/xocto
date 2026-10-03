@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFA2VkJGd2hkWkk3
 summary: AI媒体发挥各种潜力赋能企业 财富号
 first_seen: '2026-10-02T17:14:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

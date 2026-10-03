@@ -1,0 +1,42 @@
+- id: req-initial-dsh-model-fusion-2026-10-03
+  project_slug: dsh-model-fusion
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想省模型开销，但说不清开发者当前的具体旧流程与不采用的后果，痛点强度未明。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与少量 fork，没有开发者使用反馈或复现记录，关注度不等于采用。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式或买方，省下的模型成本归谁无法判断，属未知而非失败。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对便宜模型写出的代码是否达到前沿模型质量，交付确定性未明。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认规划与写码的交接是否自动完成，以及是否有人给出可复现的成本与代码质量对比。
+  market: ''
+  job: 开发者在编码任务中需要既保证代码质量又控制模型调用成本，于是把任务拆给一个负责规划审查的前沿模型和一个负责写代码的便宜模型。
+  job_en: A developer needs both code quality and controlled model spend on a coding task, so splits the
+    work between a frontier model that plans and reviews and a cheaper model that writes code.
+  pain: 公开材料只给出成本折扣的定位，没有开发者自述的账单压力、返工情况或质量损失记录，痛点强度无法判断。
+  pain_en: Public material only gives a cost-discount positioning; there are no developer-stated billing
+    pressure, rework or quality-loss records, so pain intensity cannot be judged.
+  current_alternative: 开发者直接用单一前沿模型完成整个编码任务，或手动在多个模型之间切换；候选材料未提供任何用户自述的替代做法。
+  current_alternative_en: Developers use a single frontier model for the whole coding task, or manually
+    switch between models; the candidate material provides no user-stated alternative.
+  usage_reason: 推断：如果它能把规划与写码的交接自动化，开发者就不必手动在两个模型间搬运上下文，从而省下这一步操作并压低单次任务成本；但公开材料未证明交接是自动的，也未给出成本对比。
+  usage_reason_en: 'Inference: if it automates the handoff between planning and code writing, developers
+    would not manually move context between two models, saving that step and lowering per-task cost. Public
+    material does not show the handoff is automatic, nor give a cost comparison.'

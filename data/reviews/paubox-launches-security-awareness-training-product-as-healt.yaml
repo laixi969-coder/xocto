@@ -1,0 +1,44 @@
+- id: req-initial-paubox-launches-security-awareness-training-product-as-healt-2026-10-03
+  project_slug: paubox-launches-security-awareness-training-product-as-healt
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决医疗合规培训与留痕的需求，痛点真实；但公开材料未说明 AI 具体接收什么、执行什么动作，交付是否确定无法判断。
+    evidence_ids:
+    - ev-72b0dfda544a90cc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布消息，没有客户采用、评价或使用规模证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-72b0dfda544a90cc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构；按机构订阅还是按人头收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-72b0dfda544a90cc
+  - gate: truth
+    status: insufficient
+    reason: 无法核对培训内容是否贴近医疗合规第一性目标，也未说明人工复核与安全边界。
+    evidence_ids:
+    - ev-72b0dfda544a90cc
+  next_validation: 收集 Paubox 该培训产品的官方定价页与部署说明，确认计费方式、AI 具体动作与是否提供客户案例。
+  market: ''
+  job: 医疗机构的合规或安全负责人，在年度合规检查前，需要组织员工完成安全意识培训并留下可审计的完成记录。
+  job_en: A healthcare compliance or security lead, before an annual compliance review, must run staff
+    security awareness training and keep auditable completion records.
+  pain: 员工疏忽被列为医疗 IT 头号风险，但培训与留痕往往分散在邮件、表格和线下宣讲里，难以证明谁已完成。
+  pain_en: Employee negligence is named a top healthcare IT risk, yet training and record-keeping are
+    scattered across email, spreadsheets and in-person sessions, making it hard to prove who completed
+    what.
+  current_alternative: 机构通常用线下宣讲、通用在线课程加 Excel 台账来记录培训完成情况。
+  current_alternative_en: Institutions typically use in-person sessions, generic online courses and Excel
+    logs to record training completion.
+  usage_reason: 推断：如果培训完成记录能直接并入机构已有的邮件安全与合规体系，负责人可省去单独导出和整理台账这一步；但公开材料未说明 AI 具体做什么，也未给出客户案例或定价，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if training completion records plug directly into the institution''s existing
+    email-security and compliance stack, the lead skips a separate export-and-reconcile step; however,
+    public materials do not say what the AI does, nor offer customer cases or pricing, so it is not yet
+    confirmed that users would choose it for this reason.'

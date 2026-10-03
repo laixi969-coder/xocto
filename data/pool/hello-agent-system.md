@@ -23,7 +23,7 @@ summary: '👋 Hello Agent System — learn enterprise AI agent system design by
   security, evals, distributed execution, cost, RAG, release ops. 企业级 Agent 系统设计训练营'
 first_seen: '2026-09-27T01:18:37Z'
 last_seen: '2026-10-03T01:12:31Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

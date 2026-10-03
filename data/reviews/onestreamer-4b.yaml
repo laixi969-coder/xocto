@@ -1,0 +1,44 @@
+- id: req-initial-onestreamer-4b-2026-10-03
+  project_slug: onestreamer-4b
+  level: initial
+  reviewed_at: '2026-10-03T01:12:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能确认它是流式视频模型，无法确认替代了谁在哪一步的旧工作，也说不清不用的后果，需求强度未明。
+    evidence_ids:
+    - ev-63b9aeca83466752
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量点赞，没有采用、集成或复用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-63b9aeca83466752
+  - gate: model
+    status: insufficient
+    reason: 未披露许可与商业化路径，买方是集成方还是最终客户都只是判断。
+    evidence_ids:
+    - ev-63b9aeca83466752
+  - gate: truth
+    status: insufficient
+    reason: 延迟、准确率与安全边界均无公开数据，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-63b9aeca83466752
+  next_validation: 收集该模型的模型卡或仓库文档，核验流式延迟指标、许可条款与可复现的演示结果。
+  market: ''
+  job: 视频监控或直播平台的工程团队，在需要让系统实时理解连续视频流时，处理不间断的视频输入，要在事件发生的当下得到模型回答。
+  job_en: An engineering team on a video surveillance or live streaming platform that needs real-time
+    understanding of a continuous video stream works with uninterrupted video input to get model answers
+    at the moment an event occurs.
+  pain: 传统做法要等视频录完再分析，实时场景下响应滞后；但候选材料没有说明它具体替代了哪一步现有流程。
+  pain_en: The traditional approach waits for recording to finish before analysis, lagging in real-time
+    settings; but the candidate material does not say which existing step it replaces.
+  current_alternative: 先录制再离线分析，或使用非流式的视频理解模型分批处理。
+  current_alternative_en: Recording first and analyzing offline, or using non-streaming video understanding
+    models in batches.
+  usage_reason: 推断：相较先录后析，它把回答时机放进流式过程，可能减少等待整段视频处理完这一步；因此做实时监控或直播分析的团队会关注它。但延迟、准确率与许可均无公开证据，无法确认实际改善。
+  usage_reason_en: 'Inference: compared with record-then-analyze, it puts answer timing inside the streaming
+    process, potentially removing the wait for a full clip to be processed; teams doing real-time monitoring
+    or livestream analysis would therefore watch it. But latency, accuracy and license have no public
+    evidence, so the actual improvement cannot be confirmed.'

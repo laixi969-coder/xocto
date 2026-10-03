@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNZm0yRzVMRFZO
 summary: VCs are funding a concert business as a hedge against AI Business Insider
 first_seen: '2026-10-02T09:00:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

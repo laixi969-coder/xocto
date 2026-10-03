@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR29DMjJwOEZH
 summary: Software-defined automation requires open container architectures Manufacturing Today India
 first_seen: '2026-10-02T12:55:27Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

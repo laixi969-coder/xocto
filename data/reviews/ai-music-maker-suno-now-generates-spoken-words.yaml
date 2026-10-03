@@ -1,0 +1,42 @@
+- id: req-initial-ai-music-maker-suno-now-generates-spoken-words-2026-10-03
+  project_slug: ai-music-maker-suno-now-generates-spoken-words
+  level: initial
+  reviewed_at: '2026-10-03T01:12:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播与配乐分头制作、来回对齐的需求，痛点来自内容交付时限，旧做法是配音员加独立音乐工具。
+    evidence_ids:
+    - ev-b76c7666d8241d6c
+  - gate: consensus
+    status: insufficient
+    reason: 功能处于公测，尚无采用规模或用户反馈证据，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-b76c7666d8241d6c
+  - gate: model
+    status: insufficient
+    reason: Suno已有订阅模式，但本次语音功能的定价与买方未在材料中披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b76c7666d8241d6c
+  - gate: truth
+    status: insufficient
+    reason: 生成语音与音乐能否稳定交付、版权与人工审核边界均未说明，需进一步核验。
+    evidence_ids:
+    - ev-b76c7666d8241d6c
+  next_validation: Suno官方定价页或帮助文档中关于语音功能的计费方式与商用授权说明。
+  market: ''
+  job: 短视频与广告制作人在赶交付时，需要为脚本配上口播人声和背景音乐，形成可直接发布的音轨。
+  job_en: Short-video and ad producers on deadline need a script turned into spoken voice plus background
+    music as a publishable audio track.
+  pain: 配音与配乐分属不同工具或人力，来回导出对齐耗时，临时改稿还要重录。
+  pain_en: Voice and music come from different tools or people, so exporting and aligning costs time,
+    and late script edits force re-recording.
+  current_alternative: 找配音员或使用独立语音合成工具，再单独挑选或生成背景音乐后手动合成。
+  current_alternative_en: Hiring voice actors or using standalone speech tools, then separately sourcing
+    or generating music and mixing by hand.
+  usage_reason: 推断：把口播与配乐放进同一次生成，省掉了跨工具导出与对齐这一步，因此赶交付、预算有限的内容团队会在需要快速出成片音频时选择它。
+  usage_reason_en: 'Inference: generating voice and music in one pass removes the cross-tool export and
+    alignment step, so deadline-bound, budget-limited content teams would pick it when they need finished
+    audio quickly.'

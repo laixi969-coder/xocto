@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1wTTUxVFhMMV9x
 summary: AI 的"压路机效应"和软件"作坊化"是智能体互联网的前奏 PANews
 first_seen: '2026-10-02T03:05:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

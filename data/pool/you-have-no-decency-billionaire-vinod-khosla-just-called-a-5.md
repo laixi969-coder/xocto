@@ -23,7 +23,7 @@ summary: '‘You have no decency’: Billionaire Vinod Khosla just called a $5B 
   though he’s an investor moneywise.com'
 first_seen: '2026-10-02T15:05:24Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://pipod.dev
 summary: run your pi coding agent in sandboxes on your own server
 first_seen: '2026-10-02T19:10:38Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

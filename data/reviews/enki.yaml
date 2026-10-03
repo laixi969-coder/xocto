@@ -1,0 +1,43 @@
+- id: req-initial-enki-2026-10-03
+  project_slug: enki
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能识别内核开发这一任务，但公开材料未给出痛点与旧流程细节，价值判断证据不足。
+    evidence_ids:
+    - ev-2cebce93d7169777
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无采用或持续使用证据。
+    evidence_ids:
+    - ev-2cebce93d7169777
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露任何付费或商业路径。
+    evidence_ids:
+    - ev-2cebce93d7169777
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持硬件、性能结果与正确性验证方式。
+    evidence_ids:
+    - ev-2cebce93d7169777
+  next_validation: 该仓库的 README 与 issue/discussion，核验支持的硬件、编译链路与性能对比数据。
+  market: ''
+  job: GPU 内核开发者在为特定加速卡编写计算内核时，处理的是内核源码与性能调优，要完成的是让内核在目标硬件上正确且高效运行。
+  job_en: A GPU kernel developer writing compute kernels for a specific accelerator handles kernel source
+    and performance tuning, aiming to make the kernel run correctly and efficiently on the target hardware.
+  pain: 公开材料未说明具体痛点，只能推断厂商专用语言带来的学习与迁移成本；缺少用户抱怨或替代行为的直接证据。
+  pain_en: The public material states no specific pain; only an inference that vendor-specific languages
+    impose learning and migration costs, with no direct evidence of user complaints or workarounds.
+  current_alternative: CUDA 等厂商专用语言与既有内核库，是当前可识别的旧做法。
+  current_alternative_en: Vendor-specific languages such as CUDA and existing kernel libraries are the
+    identifiable current practice.
+  usage_reason: 推断：若 Enki 能让已有 Rust 工程能力直接产出可运行内核，团队可省去为内核单独维护一套专用语言工具链的负担；但公开材料未给出性能对比或采用案例，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if Enki lets existing Rust engineering capacity produce runnable kernels
+    directly, teams could avoid maintaining a separate vendor-language toolchain for kernels; however
+    no performance comparison or adoption case is public, so it is unconfirmed that users would choose
+    it for this reason.'

@@ -1,0 +1,42 @@
+- id: req-initial-inkdoc-2026-10-03
+  project_slug: inkdoc
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把非结构化文档转成模型可读文本的需求，痛点是手工整理耗时且格式易丢，旧替代行为明确存在。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  - gate: consensus
+    status: insufficient
+    reason: 仅 41 星、7 次 fork，社区讨论量小，尚不足以说明形成使用共识。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  - gate: truth
+    status: insufficient
+    reason: 转换准确率、人工校对负担与本地部署边界均未在材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  next_validation: 收集该仓库的 issue 与 discussion，核对用户反馈的转换准确率、失败文档类型与人工校对环节。
+  market: ''
+  job: 法务、审计或研究助理在需要把一批 PDF、扫描件和 Office 文档交给 AI 或检索系统前，先要把这些材料转成结构清晰的文本。
+  job_en: Legal, audit or research assistants must first turn a batch of PDFs, scans and Office documents
+    into clearly structured text before feeding them to AI or retrieval systems.
+  pain: 旧做法是手工复制粘贴或逐页整理，格式错乱、表格丢失，且敏感文件上传云端有合规顾虑。
+  pain_en: The old way is manual copy-paste or page-by-page cleanup, which breaks formatting and tables,
+    while uploading sensitive files to the cloud raises compliance concerns.
+  current_alternative: 手工复制粘贴、通用在线 PDF 转 Word 工具，或直接把原始文件丢给模型导致解析失败。
+  current_alternative_en: Manual copy-paste, generic online PDF-to-Word converters, or feeding raw files
+    to a model and getting failed parsing.
+  usage_reason: 推断：相较手工整理，它在本地一次完成版面与文字提取并输出 Markdown，省掉逐页复制和格式修补这一步，因此处理保密材料、又需要批量投喂模型的人会选它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual cleanup, it extracts layout and text locally in one
+    pass and outputs Markdown, removing the page-by-page copying and format fixing step, so people handling
+    confidential material in bulk for models would choose it; no retention or repeat-use evidence yet.'

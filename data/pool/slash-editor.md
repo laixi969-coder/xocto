@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/slash-editor
 summary: Notion-style block editor for React. MIT, UI you own
 first_seen: '2026-09-30T14:40:42Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

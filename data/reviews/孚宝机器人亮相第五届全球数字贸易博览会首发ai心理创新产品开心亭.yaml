@@ -1,0 +1,46 @@
+- id: req-initial-孚宝机器人亮相第五届全球数字贸易博览会首发ai心理创新产品开心亭-2026-10-03
+  project_slug: 孚宝机器人亮相第五届全球数字贸易博览会首发ai心理创新产品开心亭
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点，材料只给出首发事实，无法还原具体任务与旧流程，价值关证据不足。
+    evidence_ids:
+    - ev-1e7d9759638ec3df
+    - ev-04aed1cd988b3684
+  - gate: consensus
+    status: insufficient
+    reason: 仅有展会首发报道，没有部署、采用或持续使用的公开证据。
+    evidence_ids:
+    - ev-1e7d9759638ec3df
+    - ev-04aed1cd988b3684
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断。
+    evidence_ids:
+    - ev-1e7d9759638ec3df
+    - ev-04aed1cd988b3684
+  - gate: truth
+    status: insufficient
+    reason: 无法核对评估结果是否可靠，也看不到人工介入与安全边界。
+    evidence_ids:
+    - ev-1e7d9759638ec3df
+    - ev-04aed1cd988b3684
+  next_validation: 孚宝机器人官方渠道关于“开心亭”的部署说明或客户案例，用以确认使用场景、交付物与付费方。
+  market: ''
+  job: 在展会、社区或机构场所中，来访者需要就自身情绪或心理状态获得初步回应，由设备接收其表达或问卷并给出反馈。
+  job_en: At an expo, community or institutional site, a visitor needs an initial response about their
+    emotional or mental state, and the device takes their expression or questionnaire and gives feedback.
+  pain: 公开材料未说明它替代了哪一步旧流程，也未说明不采用会失去什么，痛点无法从现有事实还原。
+  pain_en: Public material does not say which previous step it replaces or what is lost without it, so
+    the pain cannot be reconstructed from available facts.
+  current_alternative: 来访者目前可能使用线上心理测评量表、热线或线下咨询；具体替代关系未在材料中说明。
+  current_alternative_en: Visitors may currently use online psychological scales, hotlines or in-person
+    counseling; the specific substitution is not stated in the material.
+  usage_reason: 无法判断：材料只给出首发事实，没有说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material only gives the debut fact and does not say which step
+    it removes versus the old way or which checkable result improves, so it cannot explain why users would
+    choose it.'

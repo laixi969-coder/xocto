@@ -1,6 +1,6 @@
 ---
 slug: medical-records-giant-epic-pauses-product-development-to-fix
-name: Medical records giant Epic pauses product development to fix security bugs that risk patients' data
+name: Epic
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Medical records giant Epic pauses product development to fix security b
   data TechCrunch
 first_seen: '2026-10-02T13:23:09Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Medical records giant Epic pauses product development to fix security bugs that risk patients' data
+# Epic
 
 Medical records giant Epic pauses product development to fix security bugs that risk patients' data TechCrunch
 

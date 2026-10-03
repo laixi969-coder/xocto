@@ -1,6 +1,6 @@
 ---
 slug: sweep-thousands-of-leases-for-compliance-using-amazon-quick
-name: Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern
+name: Amazon Quick
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: The Adjudicated Query pattern pairs the Amazon Quick chat agent with a 
   the running example.
 first_seen: '2026-10-02T15:48:26Z'
 last_seen: '2026-10-03T01:12:55Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern
+# Amazon Quick
 
 The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example.
 

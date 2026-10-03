@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CWVFudzFqcFRM
 summary: Faster Insurance Insights With AI/BI Databricks
 first_seen: '2026-09-30T10:24:38Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

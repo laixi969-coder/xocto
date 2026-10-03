@@ -21,7 +21,7 @@ canonical_url: https://figure.ai/news/f-02-decommission
 summary: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=pfAh5oQDPDM
 first_seen: '2026-10-02T10:57:27Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

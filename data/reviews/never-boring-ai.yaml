@@ -1,0 +1,43 @@
+- id: req-initial-never-boring-ai-2026-10-03
+  project_slug: never-boring-ai
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决持续产出符合本人语气的 LinkedIn 帖子这一具体任务，痛点是不写就断更、通用工具产出不像本人；旧行为是自己写或雇代笔，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-3d340ff0705a8052
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品定位，没有用户评价、客户案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-3d340ff0705a8052
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或代运营收费都只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-3d340ff0705a8052
+  - gate: truth
+    status: insufficient
+    reason: 语气还原能否稳定交付、生成内容是否需要大量人工修改，公开材料没有可核对的结果。
+    evidence_ids:
+    - ev-3d340ff0705a8052
+  next_validation: 收集该产品官方定价页或公开用户评价，核验语气还原效果与实际付费方式。
+  market: ''
+  job: 个人品牌运营者或 B2B 销售，在需要维持 LinkedIn 更新频率时，面对自己积累的行业素材和观点，要产出符合本人语气、可直接发布的帖子。
+  job_en: A personal brand operator or B2B seller who must keep a LinkedIn posting cadence takes their
+    own industry material and opinions and needs publishable posts that match their own voice.
+  pain: 持续产出符合个人语气的帖子耗时且容易断更，通用写作工具产出的文案不像本人说话，还要逐句改写。
+  pain_en: Continuously producing posts in one's own voice is time-consuming and easy to abandon, and
+    general writing tools produce copy that does not sound like the person, forcing line-by-line rewriting.
+  current_alternative: 自己从零写，或使用通用 AI 写作工具生成后再大幅改写，也有人雇代笔或干脆停更。
+  current_alternative_en: Writing from scratch, using general AI writing tools and then heavily rewriting,
+    hiring a ghostwriter, or simply stopping posting.
+  usage_reason: 推断：相较通用写作工具，它把“模仿本人语气”作为生成时的约束，减少用户逐句改成自己口吻这一步；因此在意个人语气一致性、又不想每次重写的 LinkedIn 活跃用户会先试它。语气还原是否稳定、是否真能减少改写量，公开材料未提供证据。
+  usage_reason_en: 'Inference: unlike general writing tools, it constrains generation to imitate the user''s
+    own voice, cutting the step of rewriting every line into one''s own tone; active LinkedIn users who
+    care about voice consistency and dislike rewriting each time would try it first. Whether voice matching
+    is stable and actually reduces rewriting is not evidenced publicly.'

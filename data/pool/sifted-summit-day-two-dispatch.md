@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/sifted-summit-day-two-dispatch
 summary: ''
 first_seen: '2026-10-02T09:53:02Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

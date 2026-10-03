@@ -1,0 +1,41 @@
+- id: req-initial-audionaut-2026-10-03
+  project_slug: audionaut
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决什么需求、什么痛点无法从公开材料还原，替代了哪一步旧工作也未说明。
+    evidence_ids:
+    - ev-e987d6745b9d9baa
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，社区讨论热度不能替代场景判断。
+    evidence_ids:
+    - ev-e987d6745b9d9baa
+  - gate: model
+    status: insufficient
+    reason: 未进入：开源项目，无定价或买方信息可判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无交付结果或人工边界信息可核验。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它是否包含 AI 处理步骤及其具体输入与输出。
+  market: ''
+  job: 播客或音频后期人员在拿到多轨录音素材后，需要在本地完成剪辑、拼接与混音，产出可发布的成品音频。
+  job_en: Podcast or audio post-production staff, after receiving multitrack recordings, need to edit,
+    assemble and mix locally to produce publishable finished audio.
+  pain: 候选材料未说明它替代了哪一步旧工作，也未给出用户抱怨或旧流程耗时的具体事实，痛点无法从公开材料还原。
+  pain_en: The candidate material does not say which old step it replaces and gives no user complaints
+    or concrete facts about time spent in the old workflow, so the pain cannot be reconstructed from public
+    material.
+  current_alternative: 音频剪辑通常使用 Audacity、Reaper、Logic 等桌面多轨编辑器完成。
+  current_alternative_en: Audio editing is typically done with desktop multitrack editors such as Audacity,
+    Reaper or Logic.
+  usage_reason: 公开材料只说明它是开源跨平台多轨编辑器，未说明相较现有编辑器减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: Public material only states it is an open-source cross-platform multitrack editor and
+    does not say which step it removes or which checkable result it improves versus existing editors,
+    so it cannot explain why users would choose it.

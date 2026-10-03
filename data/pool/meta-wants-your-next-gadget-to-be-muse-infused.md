@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-ow
 summary: Meta wants Muse in your TV and your toaster, so it's giving the code away for free.
 first_seen: '2026-10-03T00:45:39Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

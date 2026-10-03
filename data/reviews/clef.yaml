@@ -1,0 +1,41 @@
+- id: req-initial-clef-2026-10-03
+  project_slug: clef
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决窄决策场景下结果不稳定、难审计的问题，但公开材料未说明具体决策任务与交付形态，价值强度无法确认。
+    evidence_ids:
+    - ev-78c5a1980ecaad15
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布信息，没有用户反馈或案例说明谁在什么场景下采用。
+    evidence_ids:
+    - ev-78c5a1980ecaad15
+  - gate: model
+    status: insufficient
+    reason: 开源模型未见定价或商业路径，买方与收费方式无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-78c5a1980ecaad15
+  - gate: truth
+    status: insufficient
+    reason: 决策模型的准确率、失败边界与人工复核机制公开材料未说明。
+    evidence_ids:
+    - ev-78c5a1980ecaad15
+  next_validation: 收集 Clef 的官方仓库或文档，确认模型规模、评测结果与部署方式。
+  market: ''
+  job: 开发者在应用里需要一段可审计的决策或分流逻辑时，接入该模型并调用它产出决策结果。
+  job_en: Developers who need an auditable decision or routing step in an application integrate the model
+    and call it to produce a decision.
+  pain: 通用大模型做窄决策时结果不稳定、难审计，自建规则又难以覆盖复杂判断。
+  pain_en: General large models are unstable and hard to audit for narrow decisions, while hand-built
+    rules struggle to cover complex judgment.
+  current_alternative: 自写规则引擎，或直接调用通用大模型做判断。
+  current_alternative_en: Self-written rule engines, or calling a general large model to make the judgment.
+  usage_reason: 推断：相较通用模型，专用决策模型可能给出更稳定、更易审计的输出，省掉反复调提示词这一步，因此合规敏感场景的开发者会关注；但公开材料未给出评测或采用证据。
+  usage_reason_en: 'Inference: versus general models, a dedicated decision model may give more stable,
+    more auditable output, removing repeated prompt tuning, so developers in compliance-sensitive settings
+    may pay attention; but public material gives no benchmark or adoption evidence.'

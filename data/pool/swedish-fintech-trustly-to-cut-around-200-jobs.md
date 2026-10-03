@@ -23,7 +23,7 @@ summary: Swedish fintech Trustly is cuttingaround 200 jobs, around a quarter of 
   is ...
 first_seen: '2026-09-17T10:53:00Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

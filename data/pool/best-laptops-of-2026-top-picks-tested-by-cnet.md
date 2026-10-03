@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qYUZhdmlUZzJz
 summary: 'Best Laptops of 2026: Top Picks Tested by CNET CNET'
 first_seen: '2026-09-30T18:58:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

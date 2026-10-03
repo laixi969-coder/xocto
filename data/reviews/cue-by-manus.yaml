@@ -1,0 +1,41 @@
+- id: req-initial-cue-by-manus-2026-10-03
+  project_slug: cue-by-manus
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有“带身份、端到端处理生活事务”一句，具体需求与痛点写不出，价值关无法成立。
+    evidence_ids:
+    - ev-983cfaea49cdb889
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无采用或关注度证据可判断共识。
+    evidence_ids:
+    - ev-983cfaea49cdb889
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-983cfaea49cdb889
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，代理是否确定完成事务无从核对。
+    evidence_ids:
+    - ev-983cfaea49cdb889
+  next_validation: 收集该产品的官方说明或定价页，确认它实际可处理的事务范围、授权方式与结果核对机制。
+  market: ''
+  job: 个人用户在日常事务中，把待办交给带身份设定的个人代理，由其代为处理并给出结果。
+  job_en: Individuals delegating everyday tasks to a personal agent with an identity, which handles them
+    and returns results.
+  pain: 公开材料只给出“端到端处理生活事务”的定位，未说明用户原来卡在哪一步、手工做哪件事、不解决会有什么后果。
+  pain_en: Public material gives only the positioning of handling life tasks end to end and does not say
+    which step users were stuck on, what they did by hand, or what happens if it is unsolved.
+  current_alternative: 公开材料未说明现有替代方式，无法判断它替代的是通用助手、人工代办还是各类垂直应用。
+  current_alternative_en: Public material does not describe existing alternatives, so it is unclear whether
+    it replaces general assistants, human errand services or vertical apps.
+  usage_reason: 缺少可处理事务范围与授权机制的说明，无法解释用户为何会把事务交给它；此处不作推断。
+  usage_reason_en: Without details on task scope and authorization mechanics, there is no basis to explain
+    why a user would delegate tasks to it; no inference is made here.

@@ -1,0 +1,45 @@
+- id: req-initial-basecoat-ui-mcp-2026-10-03
+  project_slug: basecoat-ui-mcp
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是前端拼装 Basecoat UI 页面时挑组件、查写法的问题，但公开材料没有说明旧流程具体卡在哪一步、耗时多久，痛点强度无法确认。
+    evidence_ids:
+    - ev-60e43462c5049f65
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 46 个仓库星标，属于关注度信号，没有用户评价或团队采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-60e43462c5049f65
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方是个人开发者还是团队无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-60e43462c5049f65
+  - gate: truth
+    status: insufficient
+    reason: 模板与静态校验能否确定性交付、是否仍需人工逐项确认，公开材料未说明，交付边界不清。
+    evidence_ids:
+    - ev-60e43462c5049f65
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际卡在哪一步、是否有人持续使用模板与校验功能。
+  market: ''
+  job: 前端开发者在搭建 Basecoat UI 界面时，需要从零挑选组件、拼装页面结构并检查写法是否合规，处理的是模板与组件代码这类材料，要完成的是产出可用的页面骨架。
+  job_en: Frontend developers building Basecoat UI interfaces must pick components, assemble page structure
+    and check whether the markup is compliant, working from templates and component code to produce a
+    usable page skeleton.
+  pain: 公开材料只说明它提供模板、组合建议和静态校验，没有说明开发者此前具体卡在哪一步、耗时多久，也没有用户抱怨或替代做法的记录，痛点强度无法确认。
+  pain_en: The public material only says it offers templates, composition guidance and static validation;
+    it does not say which step previously blocked developers or how long it took, and there are no user
+    complaints or workaround records, so pain intensity cannot be confirmed.
+  current_alternative: 开发者通常直接查阅 Basecoat UI 官方文档、复制示例代码，或让编码助手凭记忆生成组件写法。
+  current_alternative_en: Developers typically read the Basecoat UI docs, copy example code, or let a
+    coding assistant generate component markup from memory.
+  usage_reason: 推断：相较翻文档和复制示例，它把模板与校验规则放进助手可直接调用的本地服务，可能减少手动比对组件写法这一步；但公开材料没有用户反馈或采用证据说明开发者确实因此选择它，缺少使用动机这一环。
+  usage_reason_en: 'Inference: compared with reading docs and copying examples, it puts templates and
+    validation rules into a local service the assistant can call, potentially removing the manual step
+    of checking component markup; but no user feedback or adoption evidence shows developers actually
+    choose it for this reason, so the motivation link is missing.'

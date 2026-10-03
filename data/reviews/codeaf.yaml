@@ -1,0 +1,42 @@
+- id: req-initial-codeaf-2026-10-03
+  project_slug: codeaf
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句定位，价值关无法成立。
+    evidence_ids:
+    - ev-e9b76edfd4bc99f6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注度证据可判断共识。
+    evidence_ids:
+    - ev-e9b76edfd4bc99f6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-e9b76edfd4bc99f6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从核对。
+    evidence_ids:
+    - ev-e9b76edfd4bc99f6
+  next_validation: 收集该开源仓库的 README 与 issue/discussion，确认它接收的输入、执行的动作与产出的交付物。
+  market: ''
+  job: 软件工程师在需要把需求转成可运行代码时，用开源工具生成并组装软件模块。
+  job_en: Software engineers turning requirements into runnable code by generating and assembling software
+    modules with an open-source tool.
+  pain: 公开材料只给出“开源软件工厂”一句定位，未说明开发者原来卡在哪一步、手工做哪件事、不解决会有什么后果，痛点无法还原。
+  pain_en: Public material gives only the one-line positioning "open source software factory" and does
+    not say which step developers were stuck on, what they did by hand, or what happens if it is unsolved,
+    so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，无法判断它替代的是脚手架工具、代码生成器还是人工编码。
+  current_alternative_en: Public material does not describe existing alternatives, so it is unclear whether
+    it replaces scaffolding tools, code generators or manual coding.
+  usage_reason: 缺少可核验的输入、动作与交付说明，无法解释用户为何会选它而非现有做法；此处不作推断。
+  usage_reason_en: Without verifiable inputs, actions and deliverables, there is no basis to explain why
+    a user would choose it over current practice; no inference is made here.

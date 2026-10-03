@@ -21,7 +21,7 @@ canonical_url: https://neow.in/NGxhb3d6
 summary: Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it
 first_seen: '2026-10-01T22:15:57Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

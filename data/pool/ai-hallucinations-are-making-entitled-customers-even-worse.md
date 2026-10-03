@@ -24,7 +24,7 @@ summary: Madison, a server in New York City, greets every table by asking about 
   be withheld to […]
 first_seen: '2026-10-02T12:00:00Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,43 @@
+- id: req-initial-weftcut-2026-10-03
+  project_slug: weftcut
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向剪辑这一具体任务，但公开材料未说明代理能执行哪些剪辑动作、产出什么可核对结果，痛点与交付都无法确认。
+    evidence_ids:
+    - ev-d28e7e0b9fbf381a
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品定位外没有采用、评价或讨论材料，无法判断剪辑者是否已把它纳入工作流。
+    evidence_ids:
+    - ev-d28e7e0b9fbf381a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径；可能的买方是内容团队或独立剪辑者，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d28e7e0b9fbf381a
+  - gate: truth
+    status: insufficient
+    reason: 无法确认代理驱动的剪辑是否贴近成片目标、导出是否可确定性交付，也未见人工确认边界。
+    evidence_ids:
+    - ev-d28e7e0b9fbf381a
+  next_validation: 收集该项目的官方仓库或文档，确认 AI 代理可执行的剪辑动作、支持的素材与导出格式，以及是否有可复现的成片示例。
+  market: ''
+  job: 视频剪辑者需要把拍摄或收集的素材剪成可发布的成片，在时间紧或素材量大时希望减少重复操作。
+  job_en: A video editor needs to cut shot or collected footage into a publishable piece, hoping to reduce
+    repetitive operations when time is tight or footage volume is large.
+  pain: 剪辑软件里大量操作是重复的剪切、拼接与导出，人工逐步执行耗时，且难以批量套用到多条素材。
+  pain_en: Much editing work is repetitive cutting, joining and exporting; doing it step by step manually
+    is slow and hard to apply in batch across many clips.
+  current_alternative: 剪辑者目前用传统剪辑软件手动操作，或使用带自动剪辑功能的工具按模板生成。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：若 AI 代理能直接驱动剪辑器执行剪切与拼接，剪辑者就不必逐步手动操作，因此处理大量相似素材的人可能选择它；但公开材料只有一句定位，未说明代理能执行哪些动作、成片是否可核对，无法确认它替代了哪一步旧工作。
+  usage_reason_en: 'Inference: if an AI agent can directly drive the editor to cut and join, editors would
+    not have to perform each step manually, so people handling large volumes of similar footage may choose
+    it. But the public material is only a one-line positioning and does not say which actions the agent
+    performs or whether output is verifiable, so which old step it replaces cannot be confirmed.'

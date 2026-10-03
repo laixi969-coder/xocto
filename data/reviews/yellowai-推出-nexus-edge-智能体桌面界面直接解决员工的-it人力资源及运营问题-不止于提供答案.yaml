@@ -1,0 +1,42 @@
+- id: req-initial-yellowai-推出-nexus-edge-智能体桌面界面直接解决员工的-it人力资源及运营问题-不止于提供答案-2026-10-03
+  project_slug: yellowai-推出-nexus-edge-智能体桌面界面直接解决员工的-it人力资源及运营问题-不止于提供答案
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决员工IT与人事问题处理链路长、状态不透明的痛点，但公开材料未说明可执行的具体操作与交付边界，价值结构尚不完整。
+    evidence_ids:
+    - ev-6763f427e03152bd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布声明，未见客户采用、员工使用或服务台替代的公开证据，共识环节无法判断。
+    evidence_ids:
+    - ev-6763f427e03152bd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或买方，无法判断收入来自企业席位、工单量还是其他方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-6763f427e03152bd
+  - gate: truth
+    status: insufficient
+    reason: 未说明人工确认边界、权限安全与失败兜底，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-6763f427e03152bd
+  next_validation: 收集 Yellow.ai 官方关于 Nexus EDGE 的产品文档或定价页，确认其可执行的具体操作范围、人工确认环节与计价方式。
+  market: ''
+  job: 企业员工在办公电脑上遇到账号、设备或人事流程问题时，向桌面智能体描述问题，由它代为执行处理并返回结果。
+  job_en: Employees facing account, device or HR-process problems on their work computers describe the
+    issue to a desktop agent, which performs the handling and returns a result.
+  pain: 员工遇到IT或人事问题通常要提工单、等排期、反复沟通，处理链路长且状态不透明。
+  pain_en: Employees with IT or HR issues usually file tickets, wait in queues and go back and forth,
+    making the handling chain long and its status opaque.
+  current_alternative: 现有做法是企业IT服务台或HR共享服务中心的人工工单系统，员工提交后等待人工分派与处理。
+  current_alternative_en: The current alternative is the manual ticketing system of an enterprise IT helpdesk
+    or HR shared-service centre, where employees submit and wait for human assignment and handling.
+  usage_reason: 推断：若该桌面代理能直接完成重置、开通等操作，员工可省去提工单和等待分派这一步；但公开材料未说明它实际能执行哪些操作、失败时如何兜底，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if this desktop agent can directly complete resets and provisioning, employees
+    could skip filing a ticket and waiting for assignment; however, public material does not state which
+    actions it can actually perform or how failures are handled, so user choice cannot yet be confirmed.'

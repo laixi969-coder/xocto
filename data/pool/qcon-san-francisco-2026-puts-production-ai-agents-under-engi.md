@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM05LVXNicWlZ
 summary: QCon San Francisco 2026 puts production AI agents under engineering scrutiny news.lavx.hu
 first_seen: '2026-10-02T12:46:04Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

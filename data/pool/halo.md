@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/halo-11
 summary: Dynamic Island for Mac, plus external monitor control
 first_seen: '2026-10-01T13:31:12Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

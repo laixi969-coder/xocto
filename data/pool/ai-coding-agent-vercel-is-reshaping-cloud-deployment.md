@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxON2E1N2hrbU1T
 summary: AI Coding Agent Vercel Is Reshaping Cloud Deployment varindia
 first_seen: '2026-10-02T10:48:45Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

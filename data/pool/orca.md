@@ -24,7 +24,7 @@ canonical_url: https://news.ycombinator.com/item?id=49286271
 summary: Instant cross-platform in-app purchase orchestration
 first_seen: '2026-08-13T14:12:06Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

@@ -1,6 +1,6 @@
 ---
 slug: meipont风神之眼家族三款新品亮相2026鸿蒙智选秋季新品推荐会以ai人感与生态互联重塑智慧卧室空气体验
-name: MEIPONT风神之眼家族三款新品亮相2026鸿蒙智选秋季新品推荐会，以AI人感与生态互联重塑智慧卧室空气体验
+name: MEIPONT风神之眼
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sbzQtbFEzVXJW
 summary: MEIPONT风神之眼家族三款新品亮相2026鸿蒙智选秋季新品推荐会，以AI人感与生态互联重塑智慧卧室空气体验 中国家电网
 first_seen: '2026-09-30T01:54:03Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# MEIPONT风神之眼家族三款新品亮相2026鸿蒙智选秋季新品推荐会，以AI人感与生态互联重塑智慧卧室空气体验
+# MEIPONT风神之眼
 
 MEIPONT风神之眼家族三款新品亮相2026鸿蒙智选秋季新品推荐会，以AI人感与生态互联重塑智慧卧室空气体验 中国家电网
 

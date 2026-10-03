@@ -1,0 +1,41 @@
+- id: req-initial-openghost-2026-10-03
+  project_slug: openghost
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有技术组件描述，价值关无法成立。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有仓库关注度，不能说明任何具体人群的共识。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有买方、定价或付费路径信息。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+  next_validation: 收集该仓库的 README 使用示例、issue 或 discussion 中出现的具体任务与交付描述，确认它替代了哪一步旧工作。
+  market: ''
+  job: 公开材料未说明具体使用者与任务：不清楚谁在什么情况下打开这个桌面代理、处理什么材料、要完成什么交付。
+  job_en: 'The public material does not identify the user or task: it is unclear who opens this desktop
+    agent, in what situation, with what material, and what deliverable is expected.'
+  pain: 候选只描述自带代理引擎、浏览器工具和绘图引擎，没有说明替代了哪一步旧工作或谁因此难受。
+  pain_en: The candidate only describes a built-in agent engine, browser tooling and drawing engine, without
+    saying which old step it replaces or who suffers today.
+  current_alternative: 公开材料未给出旧做法，无法确认此前由谁、用什么工具完成同类任务。
+  current_alternative_en: No prior practice is given, so it is impossible to confirm who previously did
+    this work and with which tools.
+  usage_reason: 无法判断：缺少具体场景、输入材料与交付结果，仅凭仓库描述不能解释用户为何选择它而非现有做法。
+  usage_reason_en: 'Cannot be judged: with no scenario, input material or deliverable, the repository
+    description alone does not explain why a user would choose it over existing practice.'

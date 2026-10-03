@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxPLXBYYkRJTkFE
 summary: A Feud Between AI Companies Is Getting Nasty — and Very Public Business Insider
 first_seen: '2026-09-30T21:09:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

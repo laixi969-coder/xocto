@@ -1,0 +1,43 @@
+- id: req-initial-mintlify-desktop-2026-10-03
+  project_slug: mintlify-desktop
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决文档撰写与维护的需求，痛点真实存在，但公开材料只有一句定位，无法还原输入、动作与交付，价值结构尚不能确认。
+    evidence_ids:
+    - ev-ce315cc5da0cb228
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外没有用户评价、客户案例或采用信号，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-ce315cc5da0cb228
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自个人写作者还是企业文档团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ce315cc5da0cb228
+  - gate: truth
+    status: insufficient
+    reason: 无法核对文档产出是否准确、是否需要人工逐条确认，交付确定性未知。
+    evidence_ids:
+    - ev-ce315cc5da0cb228
+  next_validation: 收集 Mintlify Desktop 官方产品页或文档，确认其输入来源、生成流程、人工确认环节与定价方式。
+  market: ''
+  job: 技术写作者或开发者在版本发布后，需要把代码变更和已有说明整理成对外文档与知识条目。
+  job_en: After a release, technical writers or developers need to turn code changes and existing notes
+    into public documentation and knowledge entries.
+  pain: 文档更新往往滞后于代码，写作者要在多个来源之间手工拼凑，容易遗漏变更。
+  pain_en: Documentation updates lag behind code, and writers must manually stitch together multiple sources,
+    easily missing changes.
+  current_alternative: 用 Markdown 编辑器或文档平台手工撰写，再靠人工比对代码变更。
+  current_alternative_en: Writing by hand in a Markdown editor or docs platform, then manually comparing
+    against code changes.
+  usage_reason: 推断：若它能把已有材料直接转成可发布文档，可省去从零起草这一步；但公开材料未说明输入来源、是否接入代码仓库或人工确认方式，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it can turn existing material directly into publishable docs, it removes
+    the from-scratch drafting step; however, public material does not state the input sources, whether
+    it connects to code repositories, or the human review step, so it is not yet confirmed that users
+    would choose it for this reason.'

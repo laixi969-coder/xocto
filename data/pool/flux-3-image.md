@@ -21,7 +21,7 @@ canonical_url: https://bfl.ai/models/flux-3-image
 summary: ''
 first_seen: '2026-10-01T19:24:29Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,41 @@
+- id: req-initial-codync-2026-10-03
+  project_slug: codync
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有“某工具的开源替代”一句，解决什么需求、什么痛点均写不出，价值关无法成立。
+    evidence_ids:
+    - ev-2e0edf59ce91e4d8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无采用或关注度证据可判断共识。
+    evidence_ids:
+    - ev-2e0edf59ce91e4d8
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-2e0edf59ce91e4d8
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从核对。
+    evidence_ids:
+    - ev-2e0edf59ce91e4d8
+  next_validation: 收集该开源仓库的 README 与 issue/discussion，确认它相对所列闭源工具实际提供的能力与交付物。
+  market: ''
+  job: 开发者在使用 Grok Bot、Muse、Dots 这类工具时，寻找可自托管或可修改的开源替代品。
+  job_en: Developers looking for a self-hostable or modifiable open-source substitute when using tools
+    like Grok Bot, Muse and Dots.
+  pain: 公开材料只说明它是某些工具的开源替代，未说明用户在这些工具上具体遇到什么障碍、不解决会有什么后果。
+  pain_en: Public material only states it is an open-source alternative to certain tools and does not
+    say what obstacle users hit with those tools or what happens if it is unsolved.
+  current_alternative: 公开材料指向 Grok Bot、Muse、Dots 等闭源工具，但未说明用户目前如何绕过它们。
+  current_alternative_en: Public material points to closed tools such as Grok Bot, Muse and Dots but does
+    not say how users currently work around them.
+  usage_reason: 缺少可核验的功能与交付说明，无法解释用户为何会从闭源工具切换到它；此处不作推断。
+  usage_reason_en: Without verifiable capability and delivery details, there is no basis to explain why
+    a user would switch from a closed tool to it; no inference is made here.

@@ -1,0 +1,43 @@
+- id: req-initial-tweetytweets-2026-10-03
+  project_slug: tweetytweets
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是维持账号更新这一具体任务，旧做法是人工选题写稿加排期发布，断更代价明确，痛点结构成立。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+  - gate: consensus
+    status: insufficient
+    reason: 只有少量仓库关注度，没有用户反馈或客户案例说明运营者已把它放进日常发布流程。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径；可能的买方是需要代运营的个人或小团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+  - gate: truth
+    status: insufficient
+    reason: 绕过官方接口用浏览器发布涉及账号安全与平台规则，公开材料未说明失败处理与人工确认边界，交付确定性存疑。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+  next_validation: 查看该仓库的 README 与 issue，确认发布失败时的处理方式、是否需要人工确认，以及是否有实际使用者的反馈。
+  market: ''
+  job: 个人品牌或小团队运营者需要按固定节奏在社交平台发帖，在缺少专职内容人员时维持账号活跃。
+  job_en: A personal brand or small-team operator needs to post on social platforms on a steady cadence,
+    keeping the account active without a dedicated content hire.
+  pain: 选题、写稿、发布和确认是否发出这几步分散在不同工具里，人工每天重复操作，断更后账号曝光下滑。
+  pain_en: Topic selection, drafting, publishing and confirming the post went out are spread across different
+    tools; doing this manually every day is repetitive, and gaps in posting hurt account reach.
+  current_alternative: 运营者目前靠人工选题写稿、排期工具定时发布，或雇兼职内容人员代写代发。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：它把调研、按语气成稿、浏览器发布和发布结果回查串成一条自动流程，省去运营者在多个工具间搬运内容并手动确认是否发出这一步，因此没有专职内容人员的运营者可能采用；但公开材料未给出留存或复购证据，无法确认长期使用。
+  usage_reason_en: 'Inference: it chains research, voice-matched drafting, browser publishing and post
+    verification into one automated flow, removing the step of moving content between tools and manually
+    confirming publication, so operators without dedicated content staff may adopt it. But no retention
+    or repeat-use evidence is public, so long-term use cannot be confirmed.'

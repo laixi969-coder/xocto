@@ -21,7 +21,7 @@ canonical_url: https://github.com/PhreshOS/system
 summary: OS for Web Apps
 first_seen: '2026-10-01T22:55:02Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

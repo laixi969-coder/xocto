@@ -1,0 +1,42 @@
+- id: req-initial-moxie-2026-10-03
+  project_slug: moxie
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决编码任务中切换模型或账号的需求，痛点对重度用户可能真实，但公开材料无法还原具体动作与交付，价值结构待确认。
+    evidence_ids:
+    - ev-f239c2b5c35ef64a
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、社区讨论或采用数据，无法判断这是普遍痛点还是少数人的临时需求。
+    evidence_ids:
+    - ev-f239c2b5c35ef64a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人开发者付费还是团队采购不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f239c2b5c35ef64a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对切换后上下文是否完整保留、任务能否确定性继续，交付可靠性未知。
+    evidence_ids:
+    - ev-f239c2b5c35ef64a
+  next_validation: 收集 Moxie 官方文档或仓库说明，确认其支持的模型与账号范围、上下文保留机制及定价方式。
+  market: ''
+  job: 使用 Claude Code 的开发者在一个编码任务进行中，需要换用另一个模型或账号继续处理同一份代码。
+  job_en: A developer using Claude Code needs to continue the same code task with a different model or
+    account mid-task.
+  pain: 切换模型或账号通常要中断当前会话、重开上下文，额度用尽时尤其打断工作。
+  pain_en: Switching models or accounts usually interrupts the session and restarts context, especially
+    disruptive when a quota runs out.
+  current_alternative: 手动复制上下文到另一个工具或账号，或等额度恢复后继续。
+  current_alternative_en: Manually copying context into another tool or account, or waiting for the quota
+    to reset.
+  usage_reason: 推断：若它能在不丢失上下文的情况下切换模型或账号，可省去手工搬运上下文这一步；但公开材料未说明上下文如何保留、支持范围与稳定性，尚不能确认开发者会长期采用。
+  usage_reason_en: 'Inference: if it can switch models or accounts without losing context, it removes
+    the manual context-copying step; however, public material does not explain how context is preserved,
+    the supported scope, or reliability, so long-term adoption by developers is not yet confirmed.'

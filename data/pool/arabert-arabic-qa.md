@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/Khaaaleed5/arabert-qa
 summary: ''
 first_seen: '2026-10-02T14:51:38Z'
 last_seen: '2026-10-03T01:12:54Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

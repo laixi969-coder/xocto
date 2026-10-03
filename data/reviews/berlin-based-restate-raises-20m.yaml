@@ -1,0 +1,46 @@
+- id: req-initial-berlin-based-restate-raises-20m-2026-10-03
+  project_slug: berlin-based-restate-raises-20m
+  level: initial
+  reviewed_at: '2026-10-03T01:12:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长流程中断后无法从断点恢复、状态易不一致的问题，痛点刚性且不解决的代价是重跑与数据错误；买方与定价未披露，属公开材料缺口。
+    evidence_ids:
+    - ev-c6194cb050b42db0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户名单、采用规模或社区采用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-c6194cb050b42db0
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、计费方式或买方类型，钱从哪来只能推断为面向工程团队的基础设施订阅或按用量收费。
+    evidence_ids:
+    - ev-c6194cb050b42db0
+  - gate: truth
+    status: insufficient
+    reason: 持久化执行本身是确定性交付，但公开材料未说明安全边界、人工介入方式与失败兜底，需进一步核验。
+    evidence_ids:
+    - ev-c6194cb050b42db0
+  next_validation: 收集 Restate 官方定价页或部署文档，确认计费方式与支持的运行环境。
+  market: ''
+  job: 后端与平台工程师在把 AI agent 或实时数据流程推上生产时，需要让一个可能运行数分钟到数小时、中途会失败的任务在崩溃后从断点继续，并保证状态不重复、不丢失。
+  job_en: Backend and platform engineers putting AI agents or real-time data flows into production need
+    a task that may run for minutes to hours and fail midway to resume from its checkpoint after a crash,
+    without duplicated or lost state.
+  pain: 这类长流程一旦中断，要么整段重跑浪费算力与时间，要么留下不一致的中间状态；自己实现状态持久化与恢复逻辑成本高且容易出错。
+  pain_en: When such long flows break, teams either rerun everything, wasting compute and time, or leave
+    inconsistent intermediate state; hand-building state persistence and recovery is costly and error-prone.
+  current_alternative: 常见做法是用消息队列加重试、把状态写进数据库、或依赖工作流引擎自行拼装；也有团队干脆放弃长流程，把任务拆成人工触发的短步骤。
+  current_alternative_en: Common practice is message queues plus retries, writing state into a database,
+    or assembling a workflow engine by hand; some teams simply give up long flows and split work into
+    manually triggered short steps.
+  usage_reason: 相较自行拼装队列与数据库状态，Restate 把持久化执行作为一层直接承担，开发者不必再手写断点保存与恢复分支，从而减少故障后重跑整段流程这一步负担；对需要长时间运行且不能丢状态的
+    agent 或实时数据团队，这是选择它的直接原因（推断，缺少公开客户案例佐证）。
+  usage_reason_en: Compared with hand-assembling queues and database state, Restate takes durable execution
+    on as a layer, so developers no longer hand-write checkpoint saving and recovery branches, removing
+    the step of rerunning an entire flow after failure; for agent or real-time data teams whose long runs
+    cannot lose state, that is the direct reason to choose it (inference, lacking public customer cases).

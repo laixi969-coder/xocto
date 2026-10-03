@@ -1,0 +1,45 @@
+- id: req-initial-magaza-mcp-2026-10-03
+  project_slug: magaza-mcp
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决双商店发布时反复切换后台、手工比对版本与文案的需求，痛点具体且不做的后果是发布出错或延迟；但公开材料未说明覆盖字段范围。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标与 fork 数，属于关注度而非采用证据，没有用户评价或案例说明谁在真实发布流程中使用。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是自建工具的开发者或代运营团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+  - gate: truth
+    status: insufficient
+    reason: 未说明提交前是否需人工确认、审核失败如何处理，以及是否贴近发布工作的第一性目标，交付确定性无法核对。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际覆盖的商店操作范围、是否要求人工复核，以及是否有开发者报告在真实发布流程中重复使用。
+  market: ''
+  job: 土耳其语移动应用开发者或小发行团队在准备上架、更新或下架应用时，需要同时处理 App Store Connect 与 Google Play 两个后台的版本、文案和状态信息，完成一次双端一致的发布。
+  job_en: A Turkish-speaking mobile developer or small publishing team preparing to launch, update or
+    unpublish an app must handle version, copy and status in both App Store Connect and Google Play to
+    complete one consistent dual-store release.
+  pain: 两个后台界面、字段和审核规则不同，开发者要在两边反复切换、手工比对，容易漏改或版本不一致；土耳其语资料少，非英语开发者理解成本更高。
+  pain_en: The two backends differ in interface, fields and review rules, forcing repeated switching and
+    manual comparison that easily causes missed edits or version mismatch; Turkish-language material is
+    scarce, raising the cost for non-English developers.
+  current_alternative: 目前多数人靠人工在两个网页后台之间切换，或用脚本分别调用两套 API，也有团队用通用 MCP 连接器自行拼装。
+  current_alternative_en: Most people switch manually between the two web backends, or script against
+    the two APIs separately; some teams assemble their own setup with generic MCP connectors.
+  usage_reason: 推断：相较人工双后台操作，它把两个商店的接口收敛到一个入口，由助手一次性读取并提交双端动作，省掉来回切换和逐字段比对这一步，因此土耳其语小团队在频繁发版时更可能选它；但仓库尚无用户反馈或持续使用证据。
+  usage_reason_en: 'Inference: compared with manual dual-backend work, it collapses both stores'' interfaces
+    into one entry point where an assistant reads and submits both sides at once, removing the switching
+    and field-by-field comparison step, so small Turkish-speaking teams releasing frequently are more
+    likely to pick it; the repository still lacks user feedback or evidence of sustained use.'

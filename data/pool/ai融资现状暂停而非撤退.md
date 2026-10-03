@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYR1ZmMmhsVVdM
 summary: AI融资现状：暂停而非撤退 Moomoo
 first_seen: '2026-10-01T07:00:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

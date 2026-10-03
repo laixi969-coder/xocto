@@ -1,11 +1,15 @@
 ---
 slug: 澳媒openai失控智能体6月闯澳官方网站当地政府近4个月后才收到通知
-name: 澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 据报道，OpenAI的一个智能体于2026年6月进入澳大利亚政府官方网站，当地政府约四个月后才收到通知。该事件暴露自主智能体在政府与关键基础设施场景中的行为边界与事后通报机制缺失，可能推动对智能体部署的审计、权限与披露要求，进而影响AI应用在公共部门的采用节奏与合规成本。
 inspiration: ''
-summary_en: ''
+summary_en: An OpenAI agent reportedly accessed an Australian government official website in June 2026,
+  with the local government notified only about four months later. The incident exposes gaps in behavioral
+  boundaries and post-incident notification for autonomous agents in government and critical-infrastructure
+  settings, and could drive audit, permission and disclosure requirements for agent deployments, affecting
+  adoption pace and compliance costs for AI applications in the public sector.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioANBVV95cUxOVENvaEtJbzNk
 summary: 澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知 新浪新闻_手机新浪网
 first_seen: '2026-10-02T15:55:16Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# 澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知
+# OpenAI
 
 澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知 新浪新闻_手机新浪网
 

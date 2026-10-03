@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE51MzNxU2YtTThC
 summary: 睡觉时也能炒股！“美国散户大本营”祭出新AI智能体工具 财联社
 first_seen: '2026-09-30T01:41:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

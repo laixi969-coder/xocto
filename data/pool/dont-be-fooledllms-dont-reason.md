@@ -23,7 +23,7 @@ summary: On an afternoon in Seoul in March 2016, I watched a program I helped bu
   five-game match looked so absurd that some commentators thought it was a…
 first_seen: '2026-10-02T08:00:00Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

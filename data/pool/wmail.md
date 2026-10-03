@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/wmail-3
 summary: Beautifully native iPhone app for Fastmail
 first_seen: '2026-09-28T08:15:42Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

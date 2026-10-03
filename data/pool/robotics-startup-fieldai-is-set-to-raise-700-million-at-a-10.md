@@ -1,6 +1,6 @@
 ---
 slug: robotics-startup-fieldai-is-set-to-raise-700-million-at-a-10
-name: Robotics startup FieldAI is set to raise $700 million at a $10 billion valuation
+name: FieldAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPdlB3WE40MnpR
 summary: Robotics startup FieldAI is set to raise $700 million at a $10 billion valuation Business Insider
 first_seen: '2026-10-02T15:39:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Robotics startup FieldAI is set to raise $700 million at a $10 billion valuation
+# FieldAI
 
 Robotics startup FieldAI is set to raise $700 million at a $10 billion valuation Business Insider
 

@@ -507,3 +507,182 @@
   tier: behavioural
   fact: 'Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
     or MCP, with exact source excerpts and line numbers. | repository stars: 95'
+- id: ev-4cdad48d1ef5d08e
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: pain
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-d0a1fe9e3bcd22b1
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: pain
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-db8eb8d082c5f940
+  project_slug: jevgrep
+  url: https://github.com/miskaone/jevgrep-typesafe
+  title: 'GitHub - miskaone/jevgrep-typesafe: Find code by asking what it does. A ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: pain
+  tier: independent
+  fact: 'Coding agents spend part of every unfamiliar task finding the right files. Jevgrep gives them
+    a place to start: ask a repository question, and jg returns relevant files, reading leads, and verbatim
+    source excerpts in one stdout response. It uses Jev to judge relevance across folders, files, and
+    ...'
+- id: ev-1f8279847288334f
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: workaround
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-5fbf6aad46d14446
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: workaround
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-db88c785de47616b
+  project_slug: jevgrep
+  url: https://github.com/miskaone/jevgrep-typesafe
+  title: 'GitHub - miskaone/jevgrep-typesafe: Find code by asking what it does. A ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'Coding agents spend part of every unfamiliar task finding the right files. Jevgrep gives them
+    a place to start: ask a repository question, and jg returns relevant files, reading leads, and verbatim
+    source excerpts in one stdout response. It uses Jev to judge relevance across folders, files, and
+    ...'
+- id: ev-4ba82ca8a4886cd3
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-a19cbb6bd0a64931
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-c69d06940bc24b35
+  project_slug: jevgrep
+  url: https://github.com/miskaone/jevgrep-typesafe
+  title: 'GitHub - miskaone/jevgrep-typesafe: Find code by asking what it does. A ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'Coding agents spend part of every unfamiliar task finding the right files. Jevgrep gives them
+    a place to start: ask a repository question, and jg returns relevant files, reading leads, and verbatim
+    source excerpts in one stdout response. It uses Jev to judge relevance across folders, files, and
+    ...'
+- id: ev-4f04e63c9386efcc
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: pricing
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-872f5a8909639320
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: pricing
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-2d59f9c24be7b5b7
+  project_slug: jevgrep
+  url: https://github.com/miskaone/jevgrep-typesafe
+  title: 'GitHub - miskaone/jevgrep-typesafe: Find code by asking what it does. A ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'Coding agents spend part of every unfamiliar task finding the right files. Jevgrep gives them
+    a place to start: ask a repository question, and jg returns relevant files, reading leads, and verbatim
+    source excerpts in one stdout response. It uses Jev to judge relevance across folders, files, and
+    ...'
+- id: ev-b36e6f58188c8829
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: retention
+  tier: independent
+  fact: Find code by asking what it does. In our ten-task SWE-bench comparison, Jevgrep successfully completed
+    the same 8 of 10 tasks as the baseline, at lower cost.
+- id: ev-e5b1b2ca77f59336
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: retention
+  tier: independent
+  fact: Jevgrep’s mean model cost is $0.000427263 per lookup in the same 40-query run, using AI Gateway
+    list pricing of $0.042 per million Jev input tokens. It includes both Jev stages and four failed request
+    attempts, each assigned the full input cost of its successful retry because failed-attempt usage was
+    unavailable.
+- id: ev-9a466ff8cd032975
+  project_slug: jevgrep
+  url: https://github.com/miskaone/jevgrep-typesafe
+  title: 'GitHub - miskaone/jevgrep-typesafe: Find code by asking what it does. A ...'
+  published_at: ''
+  collected_at: '2026-10-03T01:35:28Z'
+  source_kind: retention
+  tier: independent
+  fact: 'Coding agents spend part of every unfamiliar task finding the right files. Jevgrep gives them
+    a place to start: ask a repository question, and jg returns relevant files, reading leads, and verbatim
+    source excerpts in one stdout response. It uses Jev to judge relevance across folders, files, and
+    ...'
+- id: ev-4feb511bd2b5f4c2
+  project_slug: jevgrep
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%8D%E5%8A%A1+%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88+%E7%BC%96%E7%A0%81%E6%99%BA%E8%83%BD%E4%BD%93%E4%BD%BF%E7%94%A8%E8%80%85
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-03T01:37:06Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 软件工程师 编码智能体使用者'

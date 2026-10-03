@@ -1,6 +1,6 @@
 ---
 slug: ai循环融资再添一笔博通向anthropic输血420亿美元
-name: AI“循环融资”再添一笔！博通向Anthropic输血420亿美元
+name: 博通
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9TZ2xLbEJ4T0p2
 summary: AI“循环融资”再添一笔！博通向Anthropic输血420亿美元 手机新浪网
 first_seen: '2026-10-02T04:58:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI“循环融资”再添一笔！博通向Anthropic输血420亿美元
+# 博通
 
 AI“循环融资”再添一笔！博通向Anthropic输血420亿美元 手机新浪网
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RY3QxT1dmQTJQ
 summary: AI狂潮迎来“融资斩杀线”考验? 华尔街知名策略师警示：美元与美债收益率不见顶，风险偏好难翻身港美股资讯 hstong.com
 first_seen: '2026-10-02T10:57:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

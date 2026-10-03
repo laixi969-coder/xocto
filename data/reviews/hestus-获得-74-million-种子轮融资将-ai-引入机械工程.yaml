@@ -1,0 +1,45 @@
+- id: req-initial-hestus-获得-74-million-种子轮融资将-ai-引入机械工程-2026-10-03
+  project_slug: hestus-获得-74-million-种子轮融资将-ai-引入机械工程
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都未在材料中出现，只能推断机械工程存在手工校核环节，价值判断缺少事实支撑。
+    evidence_ids:
+    - ev-0073560aaf53b609
+  - gate: consensus
+    status: insufficient
+    reason: 除融资报道外，没有客户、社区或行业采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-0073560aaf53b609
+  - gate: model
+    status: insufficient
+    reason: 材料未披露买方、定价或收费方式，无法判断钱来自 to B、to C 还是 to VC。
+    evidence_ids:
+    - ev-0073560aaf53b609
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近机械工程工作的第一性目标，也未说明人工确认边界与交付确定性。
+    evidence_ids:
+    - ev-0073560aaf53b609
+  next_validation: 收集 Hestus 官方产品页或技术文档，确认 AI 在机械工程流程中接收的输入、执行的动作与交付物。
+  market: ''
+  job: 机械工程师在机械设计或工程评审过程中处理设计参数、图纸或选型材料，需要完成校核、修改或出图等任务；但公开材料未说明 Hestus 具体介入哪一步。
+  job_en: A mechanical engineer handling design parameters, drawings, or component selection during design
+    or engineering review needs to complete checking, revision, or drawing output; the public material
+    does not say which step Hestus enters.
+  pain: 公开材料未描述任何具体痛点，只能推断机械工程中存在依赖资深经验、反复手工校核的环节，这属于推断而非已披露事实。
+  pain_en: The public material describes no specific pain point; it can only be inferred that mechanical
+    engineering contains steps relying on senior experience and repeated manual checking, which is inference
+    rather than disclosed fact.
+  current_alternative: 公开材料未说明现有替代方式，按行业常识可能是人工校核、通用 CAD/CAE 软件或内部经验文档，但均未获材料支持。
+  current_alternative_en: The public material does not state the current alternative; by industry convention
+    it might be manual checking, general CAD/CAE software, or internal experience documents, but none
+    of this is supported by the material.
+  usage_reason: 无法判断用户为何选择它：材料只给出融资额和赛道方向，没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此缺少形成使用理由的关键一环。
+  usage_reason_en: 'There is no basis to judge why a user would choose it: the material gives only a funding
+    amount and a domain, not which step of the old practice it removes or which checkable result it improves,
+    so the key link for a usage reason is missing.'

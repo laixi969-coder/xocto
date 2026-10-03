@@ -1,0 +1,42 @@
+- id: req-initial-owlmic-2026-10-03
+  project_slug: owlmic
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电脑摄像头与麦克风质量差或缺失的问题，不采用就要花钱买外设或忍受差音画，痛点具体；买方是个人还是企业尚不清楚。
+    evidence_ids:
+    - ev-f4989b6e85c13fde
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库关注度，没有用户评价或对比测试，无法判断使用者是否真的从旧工具迁移过来。
+    evidence_ids:
+    - ev-f4989b6e85c13fde
+  - gate: model
+    status: insufficient
+    reason: 开源且无定价页，付费路径未披露，是否靠托管或企业版收费只是判断。
+    evidence_ids:
+    - ev-f4989b6e85c13fde
+  - gate: truth
+    status: insufficient
+    reason: 本地处理与零账号是明确承诺，但缺少可复现的音画质量与延迟实测来核对交付。
+    evidence_ids:
+    - ev-f4989b6e85c13fde
+  next_validation: 收集该仓库的 issue 与 release 说明，核对音画延迟、设备兼容性与是否出现托管或企业版本。
+  market: ''
+  job: 远程会议、线上课程或直播的使用者在电脑自带摄像头或麦克风质量差、或根本没有时，需要把手机变成可被会议软件识别的摄像头和麦克风。
+  job_en: Users in remote meetings, online classes or livestreams need to turn a phone into a camera and
+    microphone recognised by meeting software when the computer's built-in devices are poor or absent.
+  pain: 笔记本摄像头画质差、麦克风拾音差，买外设要花钱，云端降噪工具又要求上传音频并注册账号。
+  pain_en: Laptop cameras are poor and microphones pick up noise, buying peripherals costs money, and
+    cloud noise-reduction tools require uploading audio and creating accounts.
+  current_alternative: 旧做法是购买 USB 摄像头与麦克风，或使用 DroidCam、Iriun、WO Mic 等同类手机转外设工具。
+  current_alternative_en: The old practice is buying USB cameras and microphones, or using similar phone-as-peripheral
+    tools such as DroidCam, Iriun and WO Mic.
+  usage_reason: 推断：它把降噪与回声消除放在本地完成，省去上传音频和注册账号这一步，并直接以虚拟摄像头接入会议软件，因此在意隐私、又不想添置硬件的使用者会选它。
+  usage_reason_en: 'Inference: it performs noise reduction and echo cancellation locally, removing the
+    step of uploading audio and registering an account, and plugs into meeting software as a virtual camera,
+    so privacy-conscious users who do not want to buy hardware would choose it.'

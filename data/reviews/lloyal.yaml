@@ -1,0 +1,40 @@
+- id: req-initial-lloyal-2026-10-03
+  project_slug: lloyal
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连解决什么需求、什么痛点都写不出来，只有一句分发定位，价值关不成立。
+    evidence_ids:
+    - ev-72eefe72ffa526e5
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注数据。
+    evidence_ids:
+    - ev-72eefe72ffa526e5
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费路径均未披露。
+    evidence_ids:
+    - ev-72eefe72ffa526e5
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从判断。
+    evidence_ids:
+    - ev-72eefe72ffa526e5
+  next_validation: 收集该产品的官方页面或定价页，确认它面向的具体任务、输入输出与收费方式。
+  market: ''
+  job: 材料未说明具体是谁、在什么情况下、处理什么材料、要完成什么任务，仅提到把开放权重模型做成可下载应用。
+  job_en: The material does not say who, in what situation, handling what material, to complete what task;
+    it only mentions turning open-weight models into downloadable apps.
+  pain: 未说明现有做法哪里难受，也未说明不采用会失去什么，痛点无法从材料中还原。
+  pain_en: It does not say where current practice hurts or what is lost by not adopting it, so the pain
+    cannot be reconstructed from the material.
+  current_alternative: 未提供旧做法或替代方案的信息。
+  current_alternative_en: No information on prior practice or alternatives was provided.
+  usage_reason: 材料只有一句定位，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由。
+  usage_reason_en: With only a one-line positioning, it is impossible to say which step of burden is reduced
+    or which checkable result improves versus prior practice, so no usage reason can be given.

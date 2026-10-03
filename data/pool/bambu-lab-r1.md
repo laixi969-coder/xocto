@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/bambu-lab-r1
 summary: CO2 laser cutting with Bambu-style automation
 first_seen: '2026-10-01T16:11:06Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

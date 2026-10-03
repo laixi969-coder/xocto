@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/wu
 summary: Fast, native code editor in Rust that feels like VS Code
 first_seen: '2026-10-01T12:25:28Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

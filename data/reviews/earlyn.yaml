@@ -1,0 +1,42 @@
+- id: req-initial-earlyn-2026-10-03
+  project_slug: earlyn
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决事后找回信息的问题，但说不清当前旧流程的具体步骤与不采用的后果，痛点强度未明。
+    evidence_ids:
+    - ev-285c864b8a050a23
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价、采用或留存信号，谈不上共识。
+    evidence_ids:
+    - ev-285c864b8a050a23
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式或买方，to C 还是 to B 无法判断，属未知而非失败。
+    evidence_ids:
+    - ev-285c864b8a050a23
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检索结果是否准确、隐私与本地存储边界如何，交付确定性未明。
+    evidence_ids:
+    - ev-285c864b8a050a23
+  next_validation: 收集 Earlyn 官方定价页与隐私或存储说明，确认它按什么计价、数据是否本地处理，以及是否有可核对的检索准确度说明。
+  market: ''
+  job: Mac 使用者在会议或长时间屏幕操作之后，需要找回当时看到或说过的某段内容，于是检索自己的屏幕与会议记录。
+  job_en: After a meeting or a long screen session, a Mac user needs to recover a specific thing they
+    saw or said, so searches their own screen and meeting records.
+  pain: 公开材料只给出可检索记忆的定位，没有使用者自述的找回成本、翻找耗时或信息丢失的具体困扰。
+  pain_en: Public material only gives a searchable-memory positioning; there are no user-stated complaints
+    about the cost of recovering information, time spent digging, or lost context.
+  current_alternative: 使用者回翻聊天记录、会议纪要、截图文件夹或凭记忆重述；候选材料未提供用户自述的替代做法。
+  current_alternative_en: Users dig back through chat logs, meeting notes, screenshot folders, or simply
+    recall from memory; the candidate material provides no user-stated alternative.
+  usage_reason: 推断：如果它能按内容而非文件名检索屏幕与会议记录，使用者就不必逐个翻找截图和纪要，省下这一步；但公开材料未说明检索范围与隐私边界，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if it searches screen and meeting records by content rather than file name,
+    users would not dig through screenshots and notes one by one, saving that step. Public material does
+    not describe the search scope or privacy boundary, so why users would choose it cannot be confirmed.'

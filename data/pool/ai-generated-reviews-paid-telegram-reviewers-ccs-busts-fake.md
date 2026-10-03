@@ -22,7 +22,7 @@ summary: 'AI-generated reviews, paid Telegram reviewers: CCS busts fake review o
   asiaone.com'
 first_seen: '2026-09-30T04:55:22Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

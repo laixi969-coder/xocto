@@ -25,7 +25,7 @@ summary: This week, the White House got nearly every major tech CEO in one roo
   money […]
 first_seen: '2026-10-02T17:56:00Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

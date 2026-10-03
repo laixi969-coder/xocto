@@ -23,7 +23,7 @@ summary: '"There is an ontological difference, even before an aesthetic one, bet
   wrote. "Algorithms lack the spark of humanity."'
 first_seen: '2026-10-02T15:39:41Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

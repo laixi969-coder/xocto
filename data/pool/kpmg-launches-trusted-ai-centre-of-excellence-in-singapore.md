@@ -1,6 +1,6 @@
 ---
 slug: kpmg-launches-trusted-ai-centre-of-excellence-in-singapore
-name: KPMG Launches Trusted AI Centre of Excellence in Singapore
+name: KPMG Trusted AI Centre of Excellence
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: KPMG Launches Trusted AI Centre of Excellence in Singapore Singapore Ec
   (EDB)
 first_seen: '2026-10-01T07:00:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# KPMG Launches Trusted AI Centre of Excellence in Singapore
+# KPMG Trusted AI Centre of Excellence
 
 KPMG Launches Trusted AI Centre of Excellence in Singapore Singapore Economic Development Board (EDB)
 

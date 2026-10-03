@@ -21,7 +21,7 @@ canonical_url: https://mondobe.com/ai-makes-me-sad
 summary: AI Makes Me Sad
 first_seen: '2026-10-02T15:18:00Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

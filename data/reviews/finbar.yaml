@@ -1,0 +1,43 @@
+- id: req-initial-finbar-2026-10-03
+  project_slug: finbar
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决投资研究资料整理与底稿产出的需求，痛点真实；但公开材料只有一句定位，说不清输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-672aa9997b4e8b7e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条上线信息，无用户评价、客户案例或采用信号，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-672aa9997b4e8b7e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自机构订阅、按报告收费还是个人付费；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-672aa9997b4e8b7e
+  - gate: truth
+    status: insufficient
+    reason: 投资研究对结论可追溯与合规要求高，公开材料未说明数据来源与人工复核边界，确定性交付无法核对。
+    evidence_ids:
+    - ev-672aa9997b4e8b7e
+  next_validation: 收集 Finbar 官方产品页或文档，确认其接入的数据源、产出物形态与是否提供定价页。
+  market: ''
+  job: 投资研究或行业分析人员在做标的与赛道调研时，需要处理财报、公告和行业资料，产出一份可支撑决策的研究底稿。
+  job_en: An investment or industry analyst researching a target or sector needs to work through filings,
+    announcements and industry material to produce a research draft that supports a decision.
+  pain: 资料分散、口径不一，人工摘录与交叉核对耗时，且容易漏掉关键披露；这是投资研究长期存在的负担。
+  pain_en: Material is scattered and inconsistently defined, so manual extraction and cross-checking is
+    slow and key disclosures are easily missed; this is a long-standing burden in investment research.
+  current_alternative: 分析师手工检索数据库与公告、用表格整理，或使用通用聊天助手做零散摘要，再自行拼成底稿。
+  current_alternative_en: Analysts manually search databases and filings, organize them in spreadsheets,
+    or use general chat assistants for piecemeal summaries and then assemble the draft themselves.
+  usage_reason: 推断：若 Finbar 能直接接入财报与公告并输出带出处的结构化研究底稿，用户可省去逐份摘录与交叉核对这一步，因此会先试用；但公开材料未说明数据源、交付物与复核方式，无法确认它相较旧做法真正减少了哪一步负担。
+  usage_reason_en: 'Inference: if Finbar can connect directly to filings and announcements and output
+    a structured research draft with citations, users could skip the step of extracting and cross-checking
+    each document, so they would try it; however, public material does not describe data sources, deliverables
+    or review steps, so it cannot be confirmed which burden it actually removes versus the old approach.'

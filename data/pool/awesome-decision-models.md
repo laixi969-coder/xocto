@@ -22,7 +22,7 @@ summary: 'A curated list of decision models (System One / typed decision models)
   models, runtimes, SDKs, applications, benchmarks, and papers.'
 first_seen: '2026-09-17T12:30:31Z'
 last_seen: '2026-10-03T01:12:31Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

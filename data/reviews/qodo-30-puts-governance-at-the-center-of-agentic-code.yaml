@@ -1,0 +1,44 @@
+- id: req-initial-qodo-30-puts-governance-at-the-center-of-agentic-code-2026-10-03
+  project_slug: qodo-30-puts-governance-at-the-center-of-agentic-code
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决智能体代码的审查与合规负担，但公开材料未写出具体任务、输入与交付，痛点只能靠推断，价值结构无法确认。
+    evidence_ids:
+    - ev-ac41f4501ef497e7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有分析文章，无客户案例或采用数据，无法判断团队是否真的把它放进审查流程。
+    evidence_ids:
+    - ev-ac41f4501ef497e7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，属未知而非已证伪。
+    evidence_ids:
+    - ev-ac41f4501ef497e7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对治理承诺能否确定性交付，也看不到人工复核边界，公开材料不足。
+    evidence_ids:
+    - ev-ac41f4501ef497e7
+  next_validation: 收集 Qodo 官方文档或定价页，确认其在代码审查环节的输入、检查动作与交付结论。
+  market: ''
+  job: 软件工程师或代码审查者在智能体提交代码后，处理待合并的代码变更与合规规则，要完成审查与放行判断；但该产品具体介入哪一步，公开材料未说明。
+  job_en: A software engineer or code reviewer handling pending code changes and compliance rules after
+    an agent submits code, to complete review and release decisions; which step this product enters is
+    not stated in public material.
+  pain: 公开材料未描述具体痛点，只能推断智能体产出代码后人工审查与合规核对负担加重，属工作流推理而非已证实事实。
+  pain_en: Public material describes no specific pain; one can only infer that manual review and compliance
+    checking grow heavier after agents produce code, which is workflow reasoning rather than confirmed
+    fact.
+  current_alternative: 公开材料未说明现有替代方式，按常识推断为人工代码审查与静态检查工具，属推断。
+  current_alternative_en: Public material does not state the current alternative; by common sense it is
+    inferred to be manual code review and static analysis tools.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因为公开材料未披露任何检查动作与交付物；缺少功能与交付这一环。
+  usage_reason_en: Cannot explain which step's burden is reduced or which verifiable result improves versus
+    the old way, because no checking action or deliverable is disclosed; the feature-and-delivery link
+    is missing.

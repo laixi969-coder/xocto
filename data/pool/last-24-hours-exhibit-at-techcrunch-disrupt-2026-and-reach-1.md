@@ -24,7 +24,7 @@ summary: 'Today is the last day to book your exhibit table at TechCrunch Disrupt
   startup?'
 first_seen: '2026-10-02T14:00:00Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

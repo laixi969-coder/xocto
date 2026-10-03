@@ -1,0 +1,43 @@
+- id: req-initial-deadlift-2026-10-03
+  project_slug: deadlift
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出它做硬拉姿势评估，说不清替代了哪一步旧工作、不采用会失去什么，痛点强度无法判断。
+    evidence_ids:
+    - ev-da6838c36a27239a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布自述和极少社区互动，没有教练或训练者的使用反馈，谈不上共识。
+    evidence_ids:
+    - ev-da6838c36a27239a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费方或交付方式，to C 还是 to B 无法判断，属未知而非失败。
+    evidence_ids:
+    - ev-da6838c36a27239a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对输出是否为可验证的关节角度，也未说明人工复核边界，交付确定性未明。
+    evidence_ids:
+    - ev-da6838c36a27239a
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它输出的评估结果是可核对的关节角度还是笼统评分，以及是否已有教练或训练者的使用反馈。
+  market: ''
+  job: 健身教练或训练者在训练现场用摄像头拍下硬拉动作，需要判断这一组的腰背与髋膝姿态是否安全、是否达标。
+  job_en: A coach or lifter films a deadlift set on camera at the gym and needs to judge whether the back,
+    hip and knee positions in that set are safe and acceptable.
+  pain: 公开材料只说明这是评估硬拉姿势的视觉工具，没有说明它替代了哪一步旧动作、错误动作会带来什么后果，也没有用户抱怨或采用记录。
+  pain_en: Public material only says it is a vision tool for evaluating deadlift form; it does not say
+    which old step it replaces, what the consequence of bad form is, and there are no user complaints
+    or adoption records.
+  current_alternative: 教练肉眼回看手机录像，或凭现场观察口头纠正；这是常见做法，但候选材料未提供任何用户自述的替代行为。
+  current_alternative_en: A coach rewatching phone footage by eye, or correcting verbally from live observation;
+    this is common practice, but the candidate material provides no user-stated alternative behaviour.
+  usage_reason: 推断：如果它能直接输出可核对的关节角度或偏差位置，教练就不必逐帧暂停录像，训练者也能在没有教练时自查；但公开材料未证明它做到了这一点，因此无法确认用户为何会选择它。
+  usage_reason_en: 'Inference: if it directly outputs checkable joint angles or deviation points, a coach
+    would not need to pause footage frame by frame and a lifter could self-check without a coach. Public
+    material does not show it does this, so why users would choose it cannot be confirmed.'

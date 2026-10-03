@@ -1,0 +1,43 @@
+- id: req-initial-shiphq-2026-10-03
+  project_slug: shiphq
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决从已有应用再产出新应用的需求，但材料未给出痛点、频率与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-5cd22fd7f55808d4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一句产品定位，没有可归因到该产品的使用、留存或评价证据。
+    evidence_ids:
+    - ev-5cd22fd7f55808d4
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是个人开发者还是团队，也没有任何定价信息。
+    evidence_ids:
+    - ev-5cd22fd7f55808d4
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近该工作的第一性目标，也看不到人工确认与安全边界。
+    evidence_ids:
+    - ev-5cd22fd7f55808d4
+  next_validation: 收集 ShipHQ 官方产品页或文档，确认它从已有应用接收什么输入、生成什么交付物以及是否收费。
+  market: ''
+  job: 独立开发者在已有若干上线应用的情况下，想基于这些应用再产出新的应用，但材料未说明他在哪个环节、处理什么材料、要完成什么任务。
+  job_en: An indie developer with several shipped apps wants to produce new apps from them, but the material
+    does not say at which step, with what material, or to complete what task.
+  pain: 候选材料未提供任何痛点、抱怨或替代行为的描述，无法确认从已有应用再产出新应用这件事当前哪里难受。
+  pain_en: The candidate material provides no pain, complaint or workaround description, so it cannot
+    be confirmed where producing new apps from existing ones currently hurts.
+  current_alternative: 公开材料未说明开发者此前如何复用已有应用的代码或结构，无法确认旧做法是复制仓库、模板还是手工重写。
+  current_alternative_en: The public material does not say how developers previously reused code or structure
+    from existing apps, so the prior method cannot be confirmed as copying repos, templates or manual
+    rewriting.
+  usage_reason: 推断：若它能把已上线应用变成可复用的产出源，开发者可省去从零搭骨架的环节；但材料没有说明具体动作与交付，也没有用户反馈支持，选择动机尚不成立。
+  usage_reason_en: 'Inference: if it turns shipped apps into a reusable source of output, developers could
+    skip building a skeleton from scratch. But the material describes no concrete action or deliverable
+    and offers no user feedback, so the reason to choose it is not yet established.'

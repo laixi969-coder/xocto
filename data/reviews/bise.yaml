@@ -1,0 +1,41 @@
+- id: req-initial-bise-2026-10-03
+  project_slug: bise
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只写它是面向人的多代理运行框架，连解决什么需求、什么痛点都写不出来，价值关不成立。
+    evidence_ids:
+    - ev-e34281d6a343e594
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有 6 分与 1 条评论的关注度信号，无法判断共识。
+    evidence_ids:
+    - ev-e34281d6a343e594
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，未披露定价与买方，无法判断收入来源。
+    evidence_ids:
+    - ev-e34281d6a343e594
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付内容与人工边界均未说明。
+    evidence_ids:
+    - ev-e34281d6a343e594
+  next_validation: 收集该项目的官方文档或仓库说明，确认它接收什么输入、执行什么动作、产出什么交付物。
+  market: ''
+  job: 公开材料没有说明谁在什么情况下使用它、处理什么材料、要完成什么任务，只能确认它面向使用多代理的人。
+  job_en: The public material does not say who uses it, in what situation, working from what material,
+    to complete what task; it only confirms it targets people using multiple agents.
+  pain: 没有说明用户此前在多代理工作中遇到什么具体困难，也没有替代做法或抱怨记录，痛点无法识别。
+  pain_en: It does not describe what specific difficulty users previously hit in multi-agent work, and
+    there are no workaround or complaint records, so the pain cannot be identified.
+  current_alternative: 公开材料未提供现有替代方式的信息。
+  current_alternative_en: The public material provides no information about current alternatives.
+  usage_reason: 公开材料不足以说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: The public material is insufficient to show which step's burden it removes or which
+    checkable result it improves relative to the old way, so it cannot explain why users would choose
+    it.

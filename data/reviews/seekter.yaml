@@ -1,0 +1,47 @@
+- id: req-initial-seekter-2026-10-03
+  project_slug: seekter
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者按多条硬性规则筛选职位并重复填表的需求，痛点在投递量大时明显，旧做法是人工浏览与手填。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 44 星与 6 次 fork，属早期关注度，尚无可归因到该产品的持续使用或用户评价证据。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明买方与收费方式；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  - gate: truth
+    status: insufficient
+    reason: 在用户自己的 Chrome 中代填表单，贴近真实申请动作，但材料未说明提交前的人工确认与出错边界。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户是否长期每日运行、是否出现重复投递或表单填写错误等实际使用反馈。
+  market: ''
+  job: 求职者在找工作的周期里，每天面对多个招聘来源的大量职位，需要按地点、签证、薪资、行业、资历、语言等条件筛出可投的，再逐个填写申请表单。
+  job_en: During a job hunt, a seeker faces many postings across several sources each day, must screen
+    the applicable ones by location, visa, salary, sector, seniority and language, then fill each application
+    form.
+  pain: 筛选规则多且重复，逐条比对职位与逐份填表耗时，且投递与跳过没有留下可回溯的记录，容易重复投递或漏掉符合硬性条件的职位。
+  pain_en: Screening rules are numerous and repetitive, comparing each posting and filling each form is
+    time-consuming, and applications and skips leave no traceable record, making duplicate applications
+    or missed qualifying postings likely.
+  current_alternative: 旧做法是求职者自己在各招聘网站逐条浏览、用表格或笔记记录已投职位，并手动填写每份申请表单。
+  current_alternative_en: The prior method is browsing each job site posting by posting, tracking applications
+    in a spreadsheet or notes, and filling every application form by hand.
+  usage_reason: 相较手动逐条筛选与填表，它把筛选条件固化成规则文件，由代理每日抓取并按规则过滤，再在用户自己的 Chrome 里代填表单，同时把每次申请或跳过写成可检索、可对比的 markdown
+    记录，省去逐条比对和重复填表这两步；推断有硬性筛选条件、投递量大的求职者会因此选择它。
+  usage_reason_en: 'Compared with manual screening and form filling, it fixes the filters into a rules
+    file, has the agent fetch and filter daily, fills forms in the user''s own Chrome, and writes each
+    application or skip as a greppable, diffable markdown record, removing the per-posting comparison
+    and repeated form filling. Inference: seekers with hard filters and high application volume would
+    choose it for that reason.'

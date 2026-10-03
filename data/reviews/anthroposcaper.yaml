@@ -1,0 +1,44 @@
+- id: req-initial-anthroposcaper-2026-10-03
+  project_slug: anthroposcaper
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决二维图纸到三维体块的转换需求，痛点结构上存在，但材料只有一句功能描述，无法确认输出是否可用、是否替代了具体旧步骤。
+    evidence_ids:
+    - ev-89dd6a75c84bbc0a
+  - gate: consensus
+    status: insufficient
+    reason: 除发布本身外无任何关注、评价或采用信号，无法判断设计人群是否认可这一场景。
+    evidence_ids:
+    - ev-89dd6a75c84bbc0a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；按项目交付还是按席位收费均属未知，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-89dd6a75c84bbc0a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成模型的几何精度、是否需人工修正，以及能否用于报建或渲染等确定性交付环节。
+    evidence_ids:
+    - ev-89dd6a75c84bbc0a
+  next_validation: 收集 Anthroposcaper 官方页面或文档中关于输入格式、输出模型精度与可编辑性的说明，以及是否列出设计机构客户案例。
+  market: ''
+  job: 建筑或规划从业者在方案前期拿到二维平面图时，需要快速得到三维城市环境体块，用于推演体量、日照和周边关系。
+  job_en: Architects or planners with an early-stage 2D plan need a quick 3D urban massing model to test
+    volume, daylight and surrounding relationships.
+  pain: 从二维图纸手工建模到三维体块通常耗时且依赖熟练建模人员，方案前期反复调整时重复劳动明显；但候选材料未提供任何用户抱怨或采用证据。
+  pain_en: Building 3D massing by hand from 2D drawings is slow and depends on skilled modelers, with
+    heavy rework during early-stage iteration; however, the candidate material offers no user complaints
+    or adoption evidence.
+  current_alternative: 现有做法是用 SketchUp、Rhino 等工具人工建模，或外包给效果图与建模团队。
+  current_alternative_en: The current practice is manual modeling in SketchUp, Rhino or similar tools,
+    or outsourcing to rendering and modeling teams.
+  usage_reason: 推断：若打标签后能直接产出可用的三维体块，可省去从平面图逐层建模这一步，方案前期反复改图时不必每次重建；但公开材料只有一句功能描述，无法确认输出精度、可编辑性和是否真被设计流程采用。
+  usage_reason_en: 'Inference: if tagging a plan directly yields usable 3D massing, it removes the step
+    of modeling floor by floor from the plan, so repeated early-stage revisions do not require rebuilding;
+    but the public material is a single feature line and cannot confirm output accuracy, editability or
+    real adoption in design workflows.'

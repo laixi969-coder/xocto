@@ -1,6 +1,6 @@
 ---
 slug: status-2
-name: status
+name: llama.cpp
 builder: theanonymousone
 category: ''
 summary_zh: Nvidia 收购一家主流开源 AI 模型平台，改变开源模型生态格局；本地推理项目 llama.cpp/ggml 的未来受到社区关注，维护者已公开回应。
@@ -23,7 +23,7 @@ canonical_url: https://twitter.com/ggerganov/status/2095897173376618881
 summary: Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace
 first_seen: '2026-09-04T17:12:22Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -57,7 +57,7 @@ sightings:
   kind: news
 ---
 
-# status
+# llama.cpp
 
 Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace
 

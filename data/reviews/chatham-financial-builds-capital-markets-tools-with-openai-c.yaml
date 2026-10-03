@@ -1,0 +1,42 @@
+- id: req-initial-chatham-financial-builds-capital-markets-tools-with-openai-c-2026-10-03
+  project_slug: chatham-financial-builds-capital-markets-tools-with-openai-c
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能确认存在用 AI 编码工具构建金融内部工具这一动作，具体任务、痛点与不采用的后果均未披露，价值判断缺少依据。
+    evidence_ids:
+    - ev-62f7309776b775f0
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条标题，无采用范围、团队规模或同行跟进信息，无法判断共识。
+    evidence_ids:
+    - ev-62f7309776b775f0
+  - gate: model
+    status: insufficient
+    reason: 未披露是否对外收费、买方是内部团队还是外部客户，付费路径无法判断。
+    evidence_ids:
+    - ev-62f7309776b775f0
+  - gate: truth
+    status: insufficient
+    reason: 金融计算对准确性与审计要求高，材料未说明人工复核与合规边界，确定性交付无法核验。
+    evidence_ids:
+    - ev-62f7309776b775f0
+  next_validation: 查找 Chatham Financial 或 OpenAI 官方发布的该案例详情页，确认具体工具、覆盖流程与结果数据。
+  market: ''
+  job: 金融机构内部的工程与量化人员，在做衍生品定价、对冲与合规计算时，需要产出并维护内部模型与报表工具。
+  job_en: Engineering and quant staff inside financial institutions need to produce and maintain internal
+    models and reporting tools for derivatives pricing, hedging and compliance calculations.
+  pain: 候选材料只有标题，未说明原来哪一步最耗时、错误代价多大，痛点无法从公开事实还原。
+  pain_en: The candidate material is only a headline; it does not say which step was most time-consuming
+    or how costly errors were, so the pain cannot be reconstructed from public facts.
+  current_alternative: 按行业惯例，这类内部工具通常由机构自己的工程团队手写，或采购成熟的金融软件；候选材料未确认其原有做法。
+  current_alternative_en: By industry convention such internal tools are usually hand-written by the institution's
+    own engineers or bought from established financial software vendors; the candidate material does not
+    confirm the prior practice.
+  usage_reason: 无法判断：材料未说明 Codex 具体替代了写代码、写测试还是写文档中的哪一步，也未给出任何结果数据，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say whether Codex replaced writing code, tests
+    or documentation, and gives no outcome data, so it cannot explain why users would choose it.'

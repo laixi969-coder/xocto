@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNMDMtMU40bVlk
 summary: 'Insurance customer retention in the AI age SAS: Data and AI Solutions'
 first_seen: '2026-09-29T15:00:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

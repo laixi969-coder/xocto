@@ -22,7 +22,7 @@ canonical_url: https://vercel.com/changelog/ember-1-from-fireworks-now-available
 summary: ''
 first_seen: '2026-09-27T00:00:00Z'
 last_seen: '2026-10-03T01:12:55Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

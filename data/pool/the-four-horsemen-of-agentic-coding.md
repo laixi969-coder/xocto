@@ -21,7 +21,7 @@ canonical_url: https://distantprovince.substack.com/p/the-four-horsemen-of-agent
 summary: The Four Horsemen of Agentic Coding
 first_seen: '2026-10-02T15:19:56Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

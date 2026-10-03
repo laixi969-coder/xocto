@@ -21,7 +21,7 @@ canonical_url: https://openid.net/wp-content/uploads/2025/10/Identity-Management
 summary: Identity Management for Agentic AI [pdf] (2025)
 first_seen: '2026-10-01T15:11:10Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

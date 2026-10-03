@@ -24,7 +24,7 @@ summary: In a throwback to MySpace-style internet drama, Shivon Zilis announced 
   other. That post noted […]
 first_seen: '2026-10-02T17:37:36Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

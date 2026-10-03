@@ -1,0 +1,47 @@
+- id: req-initial-bettercode-2026-10-03
+  project_slug: bettercode
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是多编码助手并行时来回切换窗口的问题，但公开材料没有说明旧做法具体损失什么、是否导致返工，痛点强度无法确认。
+    evidence_ids:
+    - ev-343f76030b7b7f2f
+    - ev-a966b0e7f4b96ba1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 129 增至 185，属于关注度信号，没有用户评价或团队采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-343f76030b7b7f2f
+    - ev-a966b0e7f4b96ba1
+  - gate: model
+    status: insufficient
+    reason: 测试期免费、未披露后续定价，买方是个人开发者还是团队无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-343f76030b7b7f2f
+  - gate: truth
+    status: insufficient
+    reason: 多代理并行输出如何合并、是否仍需人工逐条核对，公开材料未说明，交付边界不清。
+    evidence_ids:
+    - ev-343f76030b7b7f2f
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际在哪个环节切换代理、是否有人持续把它留在日常编码流程里。
+  market: ''
+  job: 软件工程师在同时使用多个编码助手时，需要在同一桌面窗口里并排运行 Claude Code、Codex、Cursor Agent 和 Grok，处理的是各代理的代码输出，要完成的是对照并合并这些结果。
+  job_en: Software engineers using several coding assistants at once need to run Claude Code, Codex, Cursor
+    Agent and Grok side by side in one desktop window, working with each agent's code output to compare
+    and merge the results.
+  pain: 公开材料只说明它把多个代理放进一个工作区，没有说明开发者此前在切换终端或窗口时具体损失了什么、是否因此出错，痛点强度无法确认。
+  pain_en: The public material only says it puts multiple agents into one workspace; it does not say what
+    developers previously lost when switching terminals or windows, or whether that caused errors, so
+    pain intensity cannot be confirmed.
+  current_alternative: 开发者通常在多个终端标签页或不同编辑器窗口之间手动切换，分别运行各自的编码助手。
+  current_alternative_en: Developers typically switch manually between terminal tabs or editor windows,
+    running each coding assistant separately.
+  usage_reason: 推断：相较在多个终端之间来回切换，它把多个代理的会话放进同一窗口，可能减少切换和对照这一步；但公开材料没有用户反馈或采用证据说明开发者确实因此选择它，缺少使用动机这一环。
+  usage_reason_en: 'Inference: compared with switching back and forth between terminals, it puts multiple
+    agent sessions in one window, potentially removing the switching and comparison step; but no user
+    feedback or adoption evidence shows developers actually choose it for this reason, so the motivation
+    link is missing.'

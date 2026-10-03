@@ -22,7 +22,7 @@ summary: 'How computer vision is democratizing wildlife observation: Inside the 
   Dataconomy'
 first_seen: '2026-10-01T12:16:09Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

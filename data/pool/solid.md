@@ -27,7 +27,7 @@ canonical_url: https://producthunt.com/products/solid-3
 summary: Agents with their own computers, accounts, and budgets.
 first_seen: '2026-09-21T06:01:40Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - marketfeeds

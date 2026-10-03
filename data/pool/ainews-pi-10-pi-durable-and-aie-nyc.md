@@ -1,6 +1,6 @@
 ---
 slug: ainews-pi-10-pi-durable-and-aie-nyc
-name: '[AINews] Pi 1.0, Pi Durable, and AIE NYC'
+name: Pi
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc
 summary: the minimalist harness goes stable... and TypeScript!
 first_seen: '2026-10-02T06:40:53Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# [AINews] Pi 1.0, Pi Durable, and AIE NYC
+# Pi
 
 the minimalist harness goes stable... and TypeScript!
 

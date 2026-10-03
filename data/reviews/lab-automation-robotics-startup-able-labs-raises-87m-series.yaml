@@ -312,3 +312,41 @@
   usage_reason_en: 'Cannot be judged: the material does not say which step the product removes through
     what concrete action, and offers no checkable outcome or customer feedback, so it cannot explain why
     users would choose it.'
+- id: req-initial-lab-automation-robotics-startup-able-labs-raises-87m-series-2026-10-03
+  project_slug: lab-automation-robotics-startup-able-labs-raises-87m-series
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决实验室重复操作的问题，但材料未写清具体任务、痛点与旧流程，无法判断需求刚性。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户采用、场景共识或用户行为证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、定价或收费方式，无法判断钱从哪来。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到安全与人工边界说明。
+    evidence_ids: []
+  next_validation: 收集 ABLE Labs 官方产品页或部署文档，确认其具体实验环节、交付物与客户案例。
+  market: ''
+  job: 实验室研究人员或自动化工程师在需要重复执行样本处理、移液或检测流程时，处理实验样本与耗材，要完成一批可复现的实验操作。
+  job_en: Lab researchers or automation engineers handling samples and consumables to complete a reproducible
+    batch of experimental operations when repetitive sample prep, pipetting or assay steps are needed.
+  pain: 候选材料未说明具体痛点，只能推断重复手工实验耗时且一致性差，但没有任何用户抱怨、旧流程描述或采用证据支持。
+  pain_en: The candidate material states no specific pain; one can only infer that repeated manual experiments
+    are slow and inconsistent, but there is no user complaint, old-workflow description or adoption evidence.
+  current_alternative: 公开材料未提供现有替代方式，无法确认此前由谁、用什么设备或人工完成这些步骤。
+  current_alternative_en: Public material provides no current alternative, so it is impossible to confirm
+    who or what equipment performed these steps before.
+  usage_reason: 材料只给出融资事实，未说明产品通过什么具体动作减少哪一步负担，因此无法解释用户为何选择它；这是信息缺口，不是需求结论。
+  usage_reason_en: The material only gives a funding fact and does not say what concrete action reduces
+    which step's burden, so it cannot explain why users would choose it; this is an information gap, not
+    a demand conclusion.

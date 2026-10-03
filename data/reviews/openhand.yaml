@@ -1,0 +1,42 @@
+- id: req-initial-openhand-2026-10-03
+  project_slug: openhand
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决患者独自问诊时听不懂、记不住医嘱的问题，不采用会丢失用药与随访信息，痛点刚性；买方是患者还是诊所尚不清楚。
+    evidence_ids:
+    - ev-af46a9299e3d091a
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位与少量社区讨论，没有患者评价或诊所采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-af46a9299e3d091a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或 to B 诊所采购都只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-af46a9299e3d091a
+  - gate: truth
+    status: insufficient
+    reason: 医疗场景涉及录音、隐私与合规边界，公开材料未说明人工确认与数据留存方式。
+    evidence_ids:
+    - ev-af46a9299e3d091a
+  next_validation: 收集该产品官网的定价页或隐私与合规说明，确认其数据处理方式与付费主体。
+  market: ''
+  job: 远程问诊患者在线上问诊过程中，需要听懂医生口述的病情解释与用药嘱咐，并在问诊结束后留下可回看的要点。
+  job_en: A telehealth patient needs to follow the doctor's spoken explanation and medication instructions
+    during an online consultation, and to keep reviewable key points after the visit ends.
+  pain: 患者独自面对屏幕问诊时容易听漏或听不懂医嘱，事后想不起医生说了什么，也缺少书面记录。
+  pain_en: A patient alone in front of a screen easily misses or misunderstands instructions, cannot recall
+    what the doctor said afterwards, and has no written record.
+  current_alternative: 旧做法是患者自己记笔记、事后回听录音，或再联系诊所询问，往往不完整也不及时。
+  current_alternative_en: The old practice is the patient taking notes, replaying a recording afterwards,
+    or calling the clinic again, which is often incomplete and delayed.
+  usage_reason: 推断：若该工具在问诊中实时把医生口述转成患者能看懂的要点，就省去了患者边听边记这一步，并在问诊后直接给出可回看的记录，因此独自问诊、担心记不住医嘱的患者会尝试它。
+  usage_reason_en: 'Inference: if the tool turns the doctor''s speech into patient-readable key points
+    in real time, it removes the step of listening and writing at once and leaves a reviewable record
+    after the visit, so patients consulting alone and worried about missing instructions would try it.'

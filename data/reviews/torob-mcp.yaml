@@ -1,0 +1,43 @@
+- id: req-initial-torob-mcp-2026-10-03
+  project_slug: torob-mcp
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是跨店铺比价这一具体任务，旧做法是逐个打开店铺页面手动记录，痛点和不采用的代价都清楚。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量仓库关注度，没有用户评价或客户案例说明它已被购物助手或消费者实际采用。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+  - gate: model
+    status: insufficient
+    reason: 开源且只读、无需密钥，未见定价或付费路径；可能的买方是做购物助手的团队或本地商家，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+  - gate: truth
+    status: insufficient
+    reason: 数据来源的授权、更新频率与准确性未在公开材料中说明，无法确认报价是否可确定性交付。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+  next_validation: 查看该仓库文档与 issue，确认数据来源的授权方式、价格更新频率以及是否有实际调用或集成案例。
+  market: ''
+  job: 消费者在决定买某件商品前，需要知道同一商品在不同店铺的报价，以便选最便宜或最可靠的一家。
+  job_en: Before buying an item, a consumer needs to know the same product's prices across different shops
+    in order to pick the cheapest or most reliable one.
+  pain: 逐个打开店铺页面手动记录价格耗时，且不同店铺的商品命名不一致，人工比对容易漏掉更便宜的选项。
+  pain_en: Opening shop pages one by one to record prices is time-consuming, and product naming differs
+    across shops, so manual comparison easily misses cheaper options.
+  current_alternative: 消费者目前靠比价网站、搜索引擎结果或逐个打开店铺页面手动记录价格。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：它把跨店铺查询做成只读工具接口，AI 助手可在一次对话里直接取回多家报价，省去用户逐个打开店铺页面这一步，因此做购物助手的团队或重度比价用户可能接入；但公开材料未给出调用量或留存，无法确认持续使用。
+  usage_reason_en: 'Inference: it turns cross-shop lookup into a read-only tool interface, so an AI assistant
+    can fetch multiple quotes within one conversation, removing the step of opening shop pages one by
+    one; shopping-assistant teams or heavy comparison users may therefore integrate it. But no call volume
+    or retention is public, so continued use cannot be confirmed.'

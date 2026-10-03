@@ -24,7 +24,7 @@ summary: For startup founders, the goal shouldn’t be assembling a cap table fi
   look for in their investors.
 first_seen: '2026-10-02T11:00:37Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

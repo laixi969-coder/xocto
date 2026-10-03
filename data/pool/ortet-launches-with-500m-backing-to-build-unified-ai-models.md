@@ -1,6 +1,6 @@
 ---
 slug: ortet-launches-with-500m-backing-to-build-unified-ai-models
-name: Ortet Launches With $500m Backing to Build Unified AI Models for Healthcare
+name: Ortet
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOWm8yV0RrQmtW
 summary: Ortet Launches With $500m Backing to Build Unified AI Models for Healthcare distilledpost.com
 first_seen: '2026-10-02T08:38:11Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Ortet Launches With $500m Backing to Build Unified AI Models for Healthcare
+# Ortet
 
 Ortet Launches With $500m Backing to Build Unified AI Models for Healthcare distilledpost.com
 

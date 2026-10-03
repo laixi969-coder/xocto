@@ -1,0 +1,42 @@
+- id: req-initial-photon-held-a-funeral-for-mobile-apps-now-it-has-45m-to-help-2-2026-10-03
+  project_slug: photon-held-a-funeral-for-mobile-apps-now-it-has-45m-to-help-2
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决移动应用维护成本与交互入口的问题，但公开材料未说明具体任务、输入与交付，痛点强度无法判断。
+    evidence_ids:
+    - ev-61e0d78c27beb25d
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息，没有采用、评价或使用规模证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-61e0d78c27beb25d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方；面向开发者、企业还是终端用户属推断，不是已验证事实。
+    evidence_ids:
+    - ev-61e0d78c27beb25d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 agent 能否确定性完成原 App 的任务，也未说明人工边界与失败处理。
+    evidence_ids:
+    - ev-61e0d78c27beb25d
+  next_validation: 收集 Photon 官方产品页或文档，确认它替代的具体任务、输入输出与计费方式，以及是否公开客户案例。
+  market: ''
+  job: 移动应用产品负责人，在评估是否把 App 中某个高频功能改成对话式 agent 时，需要判断替代后用户能否完成同样的任务。
+  job_en: A mobile app product lead, evaluating whether to turn a high-frequency app feature into a conversational
+    agent, needs to judge whether users can still complete the same task.
+  pain: 移动应用获客与留存成本高，部分低频功能维护成本大于收益，但公开材料未说明 Photon 具体缓解了哪一步。
+  pain_en: Mobile apps face high acquisition and retention costs, and some low-frequency features cost
+    more to maintain than they earn, but public materials do not say which step Photon actually relieves.
+  current_alternative: 团队通常继续维护原生 App，或用网页、小程序和聊天机器人承接部分功能。
+  current_alternative_en: Teams typically keep maintaining native apps, or use web pages, mini-programs
+    and chatbots for part of the functionality.
+  usage_reason: 推断：若 agent 能直接承接某个具体任务而无需用户安装 App，产品负责人可能省去一次版本迭代与上架流程；但公开材料未给出功能细节、客户案例或定价，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if an agent can take over a specific task without users installing an app,
+    the product lead may skip a release cycle and store review; however, public materials give no feature
+    detail, customer cases or pricing, so it cannot be confirmed that users would choose it for this reason.'

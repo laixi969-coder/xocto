@@ -1,0 +1,45 @@
+- id: req-initial-bang-story-2026-10-03
+  project_slug: bang-story
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决故事视频从创意到成片的多步制作，但公开材料只有一句功能描述，未说明替代哪一步旧工作与交付质量，痛点未被材料支持。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 42 星，除开源发布外无用户评价、案例或讨论，无法判断是否有人持续用它出片。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式或买方，是否有人付费完全未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成内容是否需人工逐段确认、成片能否直接发布，交付确定性未知。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际反馈的成片质量、人工修改环节与是否直接发布。
+  market: ''
+  job: 故事类 YouTube 频道的创作者在准备新一期视频时，面对一个故事创意，需要完成脚本撰写、配图与视频剪辑并产出可上传成片。
+  job_en: Creators of story-style YouTube channels preparing a new episode start from a story idea and
+    need to write the script, source images and edit video into an uploadable cut.
+  pain: 公开材料未给出用户痛点，只能推断脚本、配图、剪辑分属不同工具与人力，衔接耗时；缺少用户抱怨或案例支持。
+  pain_en: The public material gives no user pain; it can only be inferred that script, images and editing
+    sit in different tools and hands, making handoffs time-consuming, with no complaints or cases to support
+    it.
+  current_alternative: 现有做法是创作者自己写稿，再用图库或绘图工具配图，最后在剪辑软件里合成，或把其中几步外包给剪辑师。
+  current_alternative_en: The current practice is for creators to write the script themselves, source
+    images from stock or image tools, then assemble in editing software, or outsource some steps to an
+    editor.
+  usage_reason: 推断：把创意直接变成脚本、图片和视频，省去在多个工具间搬运素材这一步，因此单人运营故事频道、缺少剪辑人力的创作者可能选择它；但公开材料未说明成片质量与人工确认环节，也缺少采用或留存证据。
+  usage_reason_en: 'Inference: turning an idea directly into script, images and video removes the step
+    of moving assets between multiple tools, so solo story-channel creators without editing capacity might
+    choose it; however the public material does not state output quality or human confirmation, and there
+    is no adoption or retention evidence.'

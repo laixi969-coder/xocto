@@ -1,0 +1,43 @@
+- id: req-initial-procurement-automation-startup-aron-launches-with-8m-in-fund-2026-10-03
+  project_slug: procurement-automation-startup-aron-launches-with-8m-in-fund
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决采购比价与审批的人工负担，但公开材料未写出具体任务、输入与交付，连痛点都只能靠推断，价值结构无法确认。
+    evidence_ids:
+    - ev-fb3f568bc401f740
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，无客户、采用或使用反馈，无法判断是否有人真的把它放进采购流程。
+    evidence_ids:
+    - ev-fb3f568bc401f740
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，属未知而非已证伪。
+    evidence_ids:
+    - ev-fb3f568bc401f740
+  - gate: truth
+    status: insufficient
+    reason: 无法核对承诺能否确定性交付，也看不到人工复核边界，公开材料不足。
+    evidence_ids:
+    - ev-fb3f568bc401f740
+  next_validation: 收集 Aron 官方产品页或定价页，确认其采购流程中的具体输入、动作与交付物。
+  market: ''
+  job: 采购专员在企业需要采购物料或服务时，处理供应商报价单与比价表，要完成选商与议价任务；但该产品具体介入哪一步，公开材料未说明。
+  job_en: A procurement specialist handling supplier quotes and comparison sheets when the company needs
+    to buy materials or services, to complete supplier selection and negotiation; which step this product
+    enters is not stated in public material.
+  pain: 公开材料未描述具体痛点，只能推断采购比价与审批环节人工重复、周期长，属于工作流推理而非已证实事实。
+  pain_en: Public material describes no specific pain; one can only infer that quote comparison and approval
+    are repetitive and slow, which is workflow reasoning rather than confirmed fact.
+  current_alternative: 公开材料未说明现有替代方式，按常识推断为人工比价、邮件询价与表格审批，属推断。
+  current_alternative_en: Public material does not state the current alternative; by common sense it is
+    inferred to be manual comparison, email inquiries and spreadsheet approvals.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因为公开材料未披露任何产品动作与交付物；缺少功能与交付这一环。
+  usage_reason_en: Cannot explain which step's burden is reduced or which verifiable result improves versus
+    the old way, because no product action or deliverable is disclosed; the feature-and-delivery link
+    is missing.

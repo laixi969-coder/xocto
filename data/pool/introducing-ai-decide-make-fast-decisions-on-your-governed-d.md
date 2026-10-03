@@ -1,6 +1,6 @@
 ---
 slug: introducing-ai-decide-make-fast-decisions-on-your-governed-d
-name: 'Introducing ai_decide: make fast decisions on your governed data'
+name: ai_decide
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxPZklxSFZWYkpq
 summary: 'Introducing ai_decide: make fast decisions on your governed data Databricks'
 first_seen: '2026-09-30T21:02:32Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Introducing ai_decide: make fast decisions on your governed data
+# ai_decide
 
 Introducing ai_decide: make fast decisions on your governed data Databricks
 

@@ -1,0 +1,44 @@
+- id: req-initial-noct-q-studio-2026-10-03
+  project_slug: noct-q-studio
+  level: initial
+  reviewed_at: '2026-10-03T01:12:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能确认它做图像生成与编辑，无法确认替代了谁在哪一步的旧工作，也说不清不用的后果，需求强度未明。
+    evidence_ids:
+    - ev-ab6e5c81a3a0f1cd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量点赞，没有用户评价、采用或复用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ab6e5c81a3a0f1cd
+  - gate: model
+    status: insufficient
+    reason: 未披露许可、定价与买方，开源免费或后续收费都只是猜测。
+    evidence_ids:
+    - ev-ab6e5c81a3a0f1cd
+  - gate: truth
+    status: insufficient
+    reason: 模型来源与商用许可不明，交付质量与合规边界无法核对。
+    evidence_ids:
+    - ev-ab6e5c81a3a0f1cd
+  next_validation: 收集该空间的模型卡或仓库说明，核验模型来源、许可条款与可复现的编辑效果。
+  market: ''
+  job: 视觉设计师或电商内容运营，在需要产出或修改商品图、宣传图时，处理原始图片素材，要得到符合尺寸与风格要求的成品图。
+  job_en: A visual designer or e-commerce content operator who needs to produce or revise product and
+    promo images works from raw image assets to get finished images meeting size and style requirements.
+  pain: 改图与出图重复劳动多，外包或使用商业工具存在成本与版权顾虑，但候选材料没有说明它具体缓解了哪一步。
+  pain_en: Image editing and generation involve much repetitive work, and outsourcing or commercial tools
+    raise cost and copyright concerns, but the candidate material does not say which step it specifically
+    relieves.
+  current_alternative: 使用商业图像工具、外包给设计外包方，或自己用通用修图软件处理。
+  current_alternative_en: Using commercial image tools, outsourcing to design vendors, or editing manually
+    with general photo software.
+  usage_reason: 推断：若它确实免费且可本地或空间内直接调用，用户会因为省去订阅商业工具或外包沟通这一步而试用；但模型来源、许可与编辑质量均无公开证据，无法确认它相较旧做法改善了哪项可核对结果。
+  usage_reason_en: 'Inference: if it is indeed free and callable directly in a space, users would try
+    it to skip subscribing to commercial tools or coordinating with vendors; however, model provenance,
+    license and editing quality have no public evidence, so which verifiable result it improves over the
+    old way cannot be confirmed.'

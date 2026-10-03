@@ -129,3 +129,48 @@
   usage_reason: 无法从所引证据说明用户为何选择 HAL；现有证据与 HEMA 零售业务或内部知识检索无关，无法建立使用因果。
   usage_reason_en: There is no evidence explaining why users would choose HAL; the cited evidence is unrelated
     to HEMA's retail business or internal knowledge retrieval, so no usage causality can be established.
+- id: req-initial-from-portal-hopping-to-instant-answers-hemas-journey-with-mc-2026-10-03
+  project_slug: from-portal-hopping-to-instant-answers-hemas-journey-with-mc
+  level: initial
+  reviewed_at: '2026-10-03T01:13:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内部开发者查文档与权限时门户分散、检索慢的问题，痛点具体且不解决的代价可指认；买方与付费方式未公开。
+    evidence_ids:
+    - ev-fedce2614b5b46f2
+  - gate: consensus
+    status: insufficient
+    reason: 只有企业自述与社区讨论，没有公开的开发者采用比例、使用频次或满意度数据。
+    evidence_ids:
+    - ev-fedce2614b5b46f2
+  - gate: model
+    status: insufficient
+    reason: 属企业内部自建，公开材料未披露对外定价、席位或按结果收费的任何路径，钱从哪来是判断不是事实。
+    evidence_ids:
+    - ev-fedce2614b5b46f2
+  - gate: truth
+    status: insufficient
+    reason: 权限治理与凭证不下发客户端是正向设计，但答案准确性、知识更新与人工复核边界均未公开。
+    evidence_ids:
+    - ev-fedce2614b5b46f2
+  next_validation: 收集 HEMA 或同类企业公开的部署文档、案例或使用数据，确认该内部助手是否对外提供、覆盖哪些系统以及是否有可核对的采用指标。
+  market: ''
+  job: 零售企业的内部开发者在需要查平台文档、权限规则或部署规范时，打开内部工具直接提问，拿到可执行的答案，而不是在多个开发者门户之间逐个检索。
+  job_en: Internal developers at a retailer, when they need platform docs, permission rules or deployment
+    standards, ask inside their existing tools and get an actionable answer instead of searching several
+    developer portals one by one.
+  pain: 知识分散在多个门户，检索路径长且容易查到过期或无权访问的内容；不解决就要反复问同事或翻旧文档，拖慢交付。
+  pain_en: Knowledge is scattered across portals, search paths are long and results may be stale or unauthorized;
+    without a fix, developers repeatedly ask colleagues or dig through old docs, slowing delivery.
+  current_alternative: 在多个内部开发者门户之间跳转搜索，或直接在群里问平台团队。
+  current_alternative_en: Hopping between internal developer portals to search, or asking the platform
+    team in a chat group.
+  usage_reason: 相较门户逐个检索，HAL 在团队已在用的工具里直接返回受治理的答案，省掉切换门户和判断文档是否过期的步骤；权限由 Entra ID 校验、客户端不持有 AWS 凭证，使安全团队更可能放行这类内部助手。这是基于产品能力与任务结构的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with searching portal by portal, HAL returns a governed answer inside the
+    tools teams already use, removing the portal switch and the need to judge whether a doc is stale;
+    with Entra ID checks and no AWS credentials on the client, security teams are more likely to approve
+    such an internal assistant. This is inference from product capability and task structure, with no
+    retention or repeat-use evidence.

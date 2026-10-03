@@ -1,11 +1,16 @@
 ---
 slug: gemini-4-argon-our-next-era-of-frontier-intelligence
-name: 'Gemini 4 Argon: our next era of frontier intelligence'
+name: Gemini 4 Argon
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月30日，Google DeepMind 发布 Gemini 4 Argon，定位为新一代前沿智能模型。这是前沿模型的一次新版本发布，意味着头部模型能力竞争继续推进；对
+  AI 应用而言，可用的前沿模型选项增加，但材料未给出定价、上下文长度、开放范围或基准数据，因此对成本与采用的具体影响无法判断（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: On September 30, 2026, Google DeepMind released Gemini 4 Argon, positioned as a new generation
+  of frontier intelligence. This is a new frontier-model release, indicating continued competition at
+  the top end of model capability; for AI applications it adds another frontier model option, but the
+  material provides no pricing, context length, availability scope or benchmark data, so the concrete
+  effect on cost and adoption cannot be determined (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +26,7 @@ canonical_url: https://deepmind.google/blog/gemini-4-argon-our-next-era-of-front
 summary: 'Gemini 4 Argon: our next era of frontier intelligence blog.google'
 first_seen: '2026-09-30T20:01:45Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 - newssearch
@@ -38,7 +43,7 @@ sightings:
   kind: news
 ---
 
-# Gemini 4 Argon: our next era of frontier intelligence
+# Gemini 4 Argon
 
 Gemini 4 Argon: our next era of frontier intelligence blog.google
 

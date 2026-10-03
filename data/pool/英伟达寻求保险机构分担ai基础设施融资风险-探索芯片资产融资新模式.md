@@ -27,7 +27,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE03NEt4dWdRdHVP
 summary: 英伟达寻求保险机构分担AI基础设施融资风险 探索芯片资产融资新模式 东方财富
 first_seen: '2026-09-29T21:54:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

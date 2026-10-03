@@ -22,7 +22,7 @@ summary: Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disr
   AI. Register for your pass and get 50% off a second.
 first_seen: '2026-10-02T17:32:05Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

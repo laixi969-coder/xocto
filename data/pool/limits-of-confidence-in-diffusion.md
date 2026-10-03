@@ -26,7 +26,7 @@ summary: Discrete diffusion, including remasking and uniform-state samplers, gen
   no product of per-position distributions can match a dependent group, and that…
 first_seen: '2026-10-02T00:00:00Z'
 last_seen: '2026-10-03T01:12:55Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

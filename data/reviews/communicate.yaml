@@ -1,0 +1,42 @@
+- id: req-initial-communicate-2026-10-03
+  project_slug: communicate
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有“基于知识的 AI 客服并可转人工”一句，具体痛点与不解决的后果写不出，价值关无法成立。
+    evidence_ids:
+    - ev-c5d0b88f338d4342
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无采用或关注度证据可判断共识。
+    evidence_ids:
+    - ev-c5d0b88f338d4342
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-c5d0b88f338d4342
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，应答与转交是否确定发生无从核对。
+    evidence_ids:
+    - ev-c5d0b88f338d4342
+  next_validation: 收集该产品的官方定价页或客户案例，确认知识接入方式、人工转交规则与计费口径。
+  market: ''
+  job: 客服或支持团队在客户提问时，用企业自有知识库驱动 AI 客服应答，并在需要时转交人工。
+  job_en: Support teams answering customer questions with AI agents grounded in company knowledge, handing
+    off to humans when needed.
+  pain: 公开材料只说明回答基于企业知识并可转人工，未说明客服原来卡在哪一步、重复劳动有多重、答错会有什么后果。
+  pain_en: Public material only says answers are grounded in company knowledge with human handoff, and
+    does not say where support staff were stuck, how heavy the repetitive work is, or what a wrong answer
+    costs.
+  current_alternative: 公开材料未说明现有替代方式，无法判断它替代的是人工客服、通用聊天机器人还是工单系统。
+  current_alternative_en: Public material does not describe existing alternatives, so it is unclear whether
+    it replaces human agents, generic chatbots or ticketing systems.
+  usage_reason: 缺少知识接入方式与转交触发规则的说明，无法解释用户为何会选它而非现有客服做法；此处不作推断。
+  usage_reason_en: Without details on knowledge connection and handoff triggers, there is no basis to
+    explain why a user would choose it over current support practice; no inference is made here.

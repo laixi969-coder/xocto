@@ -23,7 +23,7 @@ summary: This week’s list of the largest U.S. startup funding rounds was prett
   tasks — as well as most of the rest of the Top 10.
 first_seen: '2026-10-02T18:24:26Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

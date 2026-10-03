@@ -21,7 +21,7 @@ canonical_url: https://github.com/wileai/pi-codex-connectors
 summary: Use all Codex Plugins inside Pi
 first_seen: '2026-10-02T02:49:37Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

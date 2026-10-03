@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/gitsync
 summary: Sync branches between GitHub repos, right from Chrome
 first_seen: '2026-10-01T21:29:07Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

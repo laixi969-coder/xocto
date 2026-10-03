@@ -1,6 +1,6 @@
 ---
 slug: moomoo-新-ai-功能的用户体验在试用moomoo最近推出的ai投资助手后我最直观的感受是它显著减少了散户投
-name: moomoo 新 AI 功能的用户体验在试用moomoo最近推出的AI投资助手后，我最直观的感受是，它显著减少了散户投...
+name: moomoo AI 投资助手
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2hKS1pWRFE2
 summary: moomoo 新 AI 功能的用户体验在试用moomoo最近推出的AI投资助手后，我最直观的感受是，它显著减少了散户投... Moomoo
 first_seen: '2026-10-02T12:00:46Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# moomoo 新 AI 功能的用户体验在试用moomoo最近推出的AI投资助手后，我最直观的感受是，它显著减少了散户投...
+# moomoo AI 投资助手
 
 moomoo 新 AI 功能的用户体验在试用moomoo最近推出的AI投资助手后，我最直观的感受是，它显著减少了散户投... Moomoo
 

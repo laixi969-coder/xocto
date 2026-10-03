@@ -1,0 +1,43 @@
+- id: req-initial-dsh-pojia-mode-2026-10-03
+  project_slug: dsh-pojia-mode
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只说明安装方式，说不清预设解决什么具体任务、不采用会失去什么，痛点强度未明。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与 fork 数，没有使用者反馈或复现记录，关注度不等于采用。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式或买方，谁为预设付费无法判断，属未知而非失败。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+  - gate: truth
+    status: insufficient
+    reason: 无法核对预设实际改变的行为与效果，也未说明安全与人工边界，交付确定性未明。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认预设具体改变哪些代理行为、是否有使用者复现记录，以及升级后不丢失的说法是否被验证。
+  market: ''
+  job: DeepSeek Harness 的使用者想改变工具的行为，但不愿改动主程序源码，于是通过双击文件加载一个自定义 Agent 预设。
+  job_en: A DeepSeek Harness user wants to change the tool's behaviour without editing the host program's
+    source, so loads a custom agent preset by double-clicking a file.
+  pain: 公开材料只说明安装方式零侵入、升级不丢，没有使用者自述的升级覆盖配置、改源码维护成本等具体困扰。
+  pain_en: Public material only says installation is zero-intrusion and survives upgrades; there are no
+    user-stated complaints about upgrades overwriting configuration or the maintenance cost of patching
+    source.
+  current_alternative: 使用者直接修改 DeepSeek Harness 源码或手动维护配置文件，升级后需要重新打补丁；候选材料未提供用户自述的替代做法。
+  current_alternative_en: Users patch DeepSeek Harness source directly or hand-maintain config files and
+    re-apply patches after upgrades; the candidate material provides no user-stated alternative.
+  usage_reason: 推断：如果双击加载确实不改源码且升级不丢，使用者就不必在每次升级后重新打补丁，省下这一步维护；但公开材料未说明预设改变什么行为，无法确认用户为何需要它。
+  usage_reason_en: 'Inference: if double-click loading truly leaves source untouched and survives upgrades,
+    users would not re-apply patches after each upgrade, saving that maintenance step. Public material
+    does not say what behaviour the preset changes, so why users need it cannot be confirmed.'

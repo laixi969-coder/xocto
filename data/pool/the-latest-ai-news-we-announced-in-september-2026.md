@@ -21,7 +21,7 @@ canonical_url: https://blog.google/innovation-and-ai/technology/ai/google-ai-upd
 summary: Here are Google’s latest AI updates from September 2026
 first_seen: '2026-10-02T15:00:00Z'
 last_seen: '2026-10-03T01:12:55Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

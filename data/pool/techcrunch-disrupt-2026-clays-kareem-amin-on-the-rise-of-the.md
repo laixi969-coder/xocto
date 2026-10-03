@@ -22,7 +22,7 @@ summary: Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the r
   TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off.
 first_seen: '2026-10-02T14:30:00Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

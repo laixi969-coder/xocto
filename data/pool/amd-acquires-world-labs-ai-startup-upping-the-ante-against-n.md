@@ -24,7 +24,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pio
 summary: The deal, which is expected to close by year's end, is worth $8.2 billion.
 first_seen: '2026-09-29T21:14:49Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

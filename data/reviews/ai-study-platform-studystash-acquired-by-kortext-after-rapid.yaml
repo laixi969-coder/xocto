@@ -1,0 +1,41 @@
+- id: req-initial-ai-study-platform-studystash-acquired-by-kortext-after-rapid-2026-10-03
+  project_slug: ai-study-platform-studystash-acquired-by-kortext-after-rapid
+  level: initial
+  reviewed_at: '2026-10-03T01:12:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它针对备考材料分散、练习不针对薄弱点的需求，旧做法是学生手工整理笔记与题库。
+    evidence_ids:
+    - ev-479497ed8b0d511e
+  - gate: consensus
+    status: insufficient
+    reason: 被收购说明有买方认可，但公开材料未给出用户规模或持续使用证据。
+    evidence_ids:
+    - ev-479497ed8b0d511e
+  - gate: model
+    status: insufficient
+    reason: 收购方为教育科技公司，付费路径可能走机构采购，但金额与商业模式未披露，属判断。
+    evidence_ids:
+    - ev-479497ed8b0d511e
+  - gate: truth
+    status: insufficient
+    reason: 自适应练习的准确性与人工审核边界未说明，交付确定性无法核验。
+    evidence_ids:
+    - ev-479497ed8b0d511e
+  next_validation: Kortext官方公告或产品页中关于StudyStash功能、定价与院校客户案例的说明。
+  market: ''
+  job: 高校学生在备考或跟课时，需要把讲义、笔记和习题整理成可反复练习的材料。
+  job_en: University students preparing for exams or following a course need lecture notes, handouts and
+    exercises turned into material they can practice repeatedly.
+  pain: 材料分散、练习缺乏针对性，学生难以判断自己哪部分没掌握。
+  pain_en: Material is scattered and practice is poorly targeted, so students struggle to see which parts
+    they have not mastered.
+  current_alternative: 自己整理笔记、用通用题库或同学间传阅的复习资料。
+  current_alternative_en: Hand-made notes, generic question banks, or revision material passed between
+    classmates.
+  usage_reason: 推断：若平台能按掌握程度调整练习，学生可省去自己筛选题目这一步；但公开材料未说明输入与交付，动机无法核实。
+  usage_reason_en: 'Inference: if the platform adjusts practice to mastery level, students skip the step
+    of picking questions themselves; but inputs and outputs are undisclosed, so the motive cannot be verified.'

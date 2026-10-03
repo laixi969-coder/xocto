@@ -1,6 +1,6 @@
 ---
 slug: zawya-rak-ceramics-accelerates-ai-integration-across-group
-name: 'ZAWYA: RAK Ceramics accelerates AI Integration across group'
+name: RAK Ceramics
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxPNlVEVHRZbGJ3
 summary: 'ZAWYA: RAK Ceramics accelerates AI Integration across group TradingView'
 first_seen: '2026-10-02T11:18:04Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# ZAWYA: RAK Ceramics accelerates AI Integration across group
+# RAK Ceramics
 
 ZAWYA: RAK Ceramics accelerates AI Integration across group TradingView
 

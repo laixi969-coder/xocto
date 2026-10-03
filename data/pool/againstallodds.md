@@ -21,7 +21,7 @@ canonical_url: https://againstallodds.games
 summary: Our space game has a built-in RISC-V emulator that runs Linux
 first_seen: '2026-10-02T10:40:31Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

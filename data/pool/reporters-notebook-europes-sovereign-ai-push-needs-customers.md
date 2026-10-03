@@ -23,7 +23,7 @@ summary: Crunchbase News Research Lead Gené Teare moderated panels and spoke wi
   with Axelera AI CEO Fabrizio Del Maffeo and AI71 CPTO Mehdi Ghissassi.
 first_seen: '2026-10-02T11:00:13Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

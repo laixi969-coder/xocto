@@ -23,7 +23,7 @@ summary: "Learn to direct AI agents, critically review their output, and keep te
   \  appeared first on  The GitHub Blog ."
 first_seen: '2026-10-02T15:00:00Z'
 last_seen: '2026-10-03T01:12:55Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

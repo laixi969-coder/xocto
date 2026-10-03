@@ -1,6 +1,6 @@
 ---
 slug: alibaba-cloud-expands-global-footprint-with-new-ai-tools
-name: Alibaba Cloud expands global footprint with new AI tools
+name: Alibaba Cloud
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbmRSdVNzRVVZ
 summary: Alibaba Cloud expands global footprint with new AI tools IT Brief Asia
 first_seen: '2026-10-02T01:57:13Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Alibaba Cloud expands global footprint with new AI tools
+# Alibaba Cloud
 
 Alibaba Cloud expands global footprint with new AI tools IT Brief Asia
 

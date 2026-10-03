@@ -1,0 +1,42 @@
+- id: req-initial-esigna-2026-10-03
+  project_slug: esigna
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能识别签名统一这一任务，但公开材料未给出痛点与旧流程细节，价值判断证据不足。
+    evidence_ids:
+    - ev-6c958158cb613f6a
+  - gate: consensus
+    status: insufficient
+    reason: 无采用、付费或持续使用证据。
+    evidence_ids:
+    - ev-6c958158cb613f6a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径不明。
+    evidence_ids:
+    - ev-6c958158cb613f6a
+  - gate: truth
+    status: insufficient
+    reason: 未说明交付格式与人工确认环节，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-6c958158cb613f6a
+  next_validation: esigna 官方产品页与定价页，核验 AI 具体执行的动作、交付格式与计费方式。
+  market: ''
+  job: 企业市场或行政人员在新员工入职或品牌更新时，处理邮件签名这一对外物料，要完成的是让全员签名风格统一且可直接使用。
+  job_en: A company marketing or admin person handling email signatures during onboarding or a brand refresh,
+    aiming to make all signatures consistent and directly usable.
+  pain: 公开材料未描述痛点，只能推断手工排版签名耗时且难以统一；缺少用户抱怨或替代行为的直接证据。
+  pain_en: The public material describes no pain; only an inference that hand-laying-out signatures is
+    time-consuming and hard to keep consistent, with no direct evidence of complaints or workarounds.
+  current_alternative: 手工排版、通用签名模板或外包给设计师，是当前可识别的旧做法。
+  current_alternative_en: Manual layout, generic signature templates, or outsourcing to a designer are
+    the identifiable current practices.
+  usage_reason: 推断：若 esigna 直接交付可用的签名成品，企业可省去逐人排版与反复改稿这一步；但公开材料未说明 AI 具体做什么、交付形态与定价，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if esigna delivers a usable finished signature, companies could skip per-person
+    layout and repeated revisions; however the material does not say what the AI does, the delivery format
+    or the price, so it is unconfirmed that users would choose it for this reason.'

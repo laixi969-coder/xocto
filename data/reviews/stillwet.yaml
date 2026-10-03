@@ -1,0 +1,44 @@
+- id: req-initial-stillwet-2026-10-03
+  project_slug: stillwet
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是生成图缺少颜料质感、需手工补笔触的问题，痛点具体；但公开材料只有一句描述，无法确认画布是否真的改变了输出，也未说明交付物形态。
+    evidence_ids:
+    - ev-ba04beaac448933b
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论获得196点、61条评论，说明有围观与讨论热度，但这是关注度而非持续采用，没有用户留存或复购证据。
+    evidence_ids:
+    - ev-ba04beaac448933b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；可能面向个人创作者按订阅或按张收费，也可能只是实验项目，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-ba04beaac448933b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对画布机制是否贴近绘画的第一性目标，也未说明人工确认与导出边界，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-ba04beaac448933b
+  next_validation: 收集 stillwet 官方页面或仓库中关于画布机制、导出格式与是否收费的公开说明。
+  market: ''
+  job: 插画师或艺术创作者在需要一张带颜料质感的画面时，把提示或草图交给模型，在模拟画布上得到一张可继续修改的图像。
+  job_en: An illustrator or art creator who needs a paint-textured image hands a prompt or sketch to the
+    model and gets an editable image on a simulated canvas.
+  pain: 常规文生图输出偏平、缺少颜料堆叠与笔触质感，创作者往往要再进绘画软件手工补质感，这一步耗时且需要绘画功底。
+  pain_en: Ordinary text-to-image output looks flat and lacks pigment build-up and brush texture, so creators
+    often re-enter painting software to add texture by hand, a slow step that requires painting skill.
+  current_alternative: 用通用文生图工具出图后，在 Photoshop 或 Procreate 里手工叠加笔刷与纹理，或直接手绘。
+  current_alternative_en: Generate in a general text-to-image tool, then hand-layer brushes and texture
+    in Photoshop or Procreate, or simply paint by hand.
+  usage_reason: 推断：若画布确实把颜料物理特性纳入生成过程，创作者可省去出图后手工补质感这一步，因此在意笔触质感的插画与概念设计用户会尝试它；但目前只有一句产品描述，缺少画布机制、导出与二次编辑的公开说明，也未见用户反馈或重复使用证据，无法确认它是否真的替代了旧做法。
+  usage_reason_en: 'Inference: if the canvas really folds pigment physics into generation, creators could
+    skip the post-generation texture pass, which is why texture-sensitive illustration and concept-design
+    users would try it; however only a one-line description exists, with no public detail on the canvas
+    mechanism, export or re-editing, and no user feedback or repeat-use evidence, so it is unconfirmed
+    whether it replaces the old workflow.'

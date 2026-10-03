@@ -23,7 +23,7 @@ summary: Descartes To Showcase Supply Chain and Logistics AI and Technology Inno
   Forum The Manila Times
 first_seen: '2026-09-30T10:56:13Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

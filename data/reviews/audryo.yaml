@@ -1,0 +1,43 @@
+- id: req-initial-audryo-2026-10-03
+  project_slug: audryo
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决客服邮件处理，但公开材料只有一句描述，连替代哪一步旧工作、交付什么结果都说不清，痛点未被材料支持。
+    evidence_ids:
+    - ev-e5ee5d9461191a70
+  - gate: consensus
+    status: insufficient
+    reason: 除一条社区发布外无任何采用、评价或讨论证据，无法判断是否有人真的把它放进客服流程。
+    evidence_ids:
+    - ev-e5ee5d9461191a70
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to B 还是 to C 无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e5ee5d9461191a70
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 agent 的权限边界、是否自动发送以及人工复核环节，交付确定性未知。
+    evidence_ids:
+    - ev-e5ee5d9461191a70
+  next_validation: 收集 Audryo 官方产品页或文档，确认 AI agent 可执行的具体动作、交付物形态与是否有人工确认环节。
+  market: ''
+  job: 客服或售后人员在每天处理客户来信时，面对成批的客户邮件，需要完成分类、起草回复并推进处理。
+  job_en: Customer service or after-sales staff facing batches of incoming customer mail each day need
+    to triage, draft replies and push handling forward.
+  pain: 公开材料没有说明具体痛点，只能推断来信量大时逐封阅读与回复占用人力；缺少用户抱怨或案例支持。
+  pain_en: The public material states no specific pain; it can only be inferred that reading and replying
+    to each message consumes labor when volume is high, with no user complaints or cases to support it.
+  current_alternative: 现有做法通常是客服在邮箱或工单系统里人工阅读、套用模板回复，或使用规则过滤与宏命令。
+  current_alternative_en: The current practice is usually staff reading manually in an inbox or ticketing
+    system, replying from templates, or using rule filters and macros.
+  usage_reason: 推断：若 agent 能直接读取来信并执行处理动作，可省去人工逐封打开与初判这一步，因此来信量大、模板化程度高的售后团队可能选择它；但公开材料未说明动作范围，也缺少采用或留存证据。
+  usage_reason_en: 'Inference: if the agent can read incoming mail and act on it directly, it removes
+    the manual step of opening and first-triaging each message, so high-volume, templated after-sales
+    teams might choose it; however the public material does not state the action scope and there is no
+    adoption or retention evidence.'

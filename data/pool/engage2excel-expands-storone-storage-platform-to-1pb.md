@@ -1,6 +1,6 @@
 ---
 slug: engage2excel-expands-storone-storage-platform-to-1pb
-name: Engage2Excel expands StorONE storage platform to 1PB
+name: StorONE
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYy1hOE84NnpX
 summary: Engage2Excel expands StorONE storage platform to 1PB IT Brief Australia
 first_seen: '2026-10-02T16:00:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Engage2Excel expands StorONE storage platform to 1PB
+# StorONE
 
 Engage2Excel expands StorONE storage platform to 1PB IT Brief Australia
 

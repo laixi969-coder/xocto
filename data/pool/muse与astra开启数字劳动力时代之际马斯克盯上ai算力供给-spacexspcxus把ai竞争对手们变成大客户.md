@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE93MWN4eXl2cE5x
 summary: Muse与Astra开启“数字劳动力”时代之际，马斯克盯上“AI算力供给”! SpaceX(SPCX.US)把AI竞争对手们变成大客户 证券之星
 first_seen: '2026-10-02T08:05:14Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

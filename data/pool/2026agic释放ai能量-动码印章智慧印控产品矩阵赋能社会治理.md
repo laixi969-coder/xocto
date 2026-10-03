@@ -42,7 +42,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vZnhfWWR2X2t4
 summary: 2026AGIC释放AI能量 动码印章智慧印控产品矩阵赋能社会治理 砍柴网
 first_seen: '2026-09-01T08:01:32Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

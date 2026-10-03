@@ -1,0 +1,46 @@
+- id: req-initial-billmender-2026-10-03
+  project_slug: billmender
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决患者收到账单后无法快速判断是否被多收的问题，旧做法是直接付款或打电话询问，不核对的代价是照单付钱，痛点具体且可核对。
+    evidence_ids:
+    - ev-5cb86efea1615ccc
+    - ev-91682c31202bc1de
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的 28 分与 13 条评论，属于关注度信号，没有用户评价或持续使用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-5cb86efea1615ccc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，买方可能是患者个人或账单辩护机构，收入来自 to C 还是 to B 无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-5cb86efea1615ccc
+  - gate: truth
+    status: insufficient
+    reason: 价格数据来自医院公开文件，但数据更新频率、覆盖范围以及是否仍需人工核对，公开材料未说明。
+    evidence_ids:
+    - ev-91682c31202bc1de
+  next_validation: 收集该站点的定价页或客户案例，确认患者或账单辩护机构是否实际付费使用价格对照结果。
+  market: ''
+  job: 美国患者或家属在收到医院账单、怀疑收费不合理时，需要核对医院标价与保险方实际支付金额，处理的是医院自己公开的价格文件，要完成的是判断账单是否存在异常价差。
+  job_en: US patients or family members who receive a hospital bill and suspect the charges are wrong
+    need to check hospital list prices against what insurers actually pay, working from the price files
+    hospitals publish themselves to judge whether the bill shows an anomalous gap.
+  pain: 医院价格文件公开但格式混乱、逐家阅读成本高，患者此前很难在收到账单后快速判断自己是否被多收，不核对的后果是直接按账单付款。
+  pain_en: Hospital price files are public but messy and costly to read one by one, so patients previously
+    struggled to judge quickly after receiving a bill whether they were overcharged; the consequence of
+    not checking is paying the bill as issued.
+  current_alternative: 患者通常直接付款、打电话向医院或保险公司询问，或付费请账单辩护服务代为交涉。
+  current_alternative_en: Patients typically pay the bill, call the hospital or insurer to ask, or pay
+    a bill-advocacy service to negotiate on their behalf.
+  usage_reason: 推断：相较逐家翻找并手工比对价格文件，它把 482 家医院的标价与保险支付金额并列呈现，减少自行解析文件这一步，因此怀疑账单有问题的患者会先来这里核对；公开材料未提供用户反馈或付费证据。
+  usage_reason_en: 'Inference: compared with hunting through price files and comparing them by hand, it
+    lays list prices and insurer payments for 482 hospitals side by side, removing the step of parsing
+    the files yourself, so patients who suspect a billing problem would check here first; the public material
+    provides no user feedback or payment evidence.'

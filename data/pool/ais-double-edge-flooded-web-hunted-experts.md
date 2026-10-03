@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE9SSlVDY1FBMzBk
 summary: 'AI''s Double Edge: Flooded Web, Hunted Experts varindia'
 first_seen: '2026-10-02T13:21:56Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

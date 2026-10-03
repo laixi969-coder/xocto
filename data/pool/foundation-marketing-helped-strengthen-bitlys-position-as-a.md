@@ -23,7 +23,7 @@ summary: Foundation Marketing Helped Strengthen Bitly’s Position as a Top-Cite
   an Integrated GEO Program Business Wire
 first_seen: '2026-09-30T23:07:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,14 @@
 ---
 slug: ai智能体意欲重塑购物部分零售商却紧闭大门
-name: AI智能体意欲重塑购物，部分零售商却紧闭大门
+name: AI购物智能体
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年10月，AI智能体试图重塑购物流程，但部分零售商对其关闭接入通道。这一变化意味着AI购物代理的采用取决于零售平台的开放政策，渠道准入成为其落地与竞争的关键变量；对整体行业走向的判断为推断。
 inspiration: ''
-summary_en: ''
+summary_en: In October 2026, AI agents sought to reshape shopping flows, but some retailers closed their
+  doors to them. This means adoption of AI shopping agents depends on retail platform openness, making
+  channel access a key variable for deployment and competition; the judgment on the overall industry direction
+  is an inference.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigJBVV95cUxOaDFRdkJwdERl
 summary: AI智能体意欲重塑购物，部分零售商却紧闭大门 新浪财经
 first_seen: '2026-10-02T12:25:26Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# AI智能体意欲重塑购物，部分零售商却紧闭大门
+# AI购物智能体
 
 AI智能体意欲重塑购物，部分零售商却紧闭大门 新浪财经
 

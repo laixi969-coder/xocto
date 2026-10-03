@@ -23,7 +23,7 @@ summary: 'Video: Google Spam Update Impact, Google Not Paying Much For Your Cont
   & Terrible and more Search Engine Roundtable'
 first_seen: '2026-10-02T12:01:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

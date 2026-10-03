@@ -1,0 +1,44 @@
+- id: req-initial-open-inspector-2026-10-03
+  project_slug: open-inspector
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决参考或复刻界面时整理设计规范这一具体任务，痛点靠截图和取色器逐项量取、易漏项；旧行为明确，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-a5741b48b660b427
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品定位描述，没有用户评价、采用或复用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-a5741b48b660b427
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未披露后续收费或买方，商业化路径只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-a5741b48b660b427
+  - gate: truth
+    status: insufficient
+    reason: 提取准确度与覆盖范围无公开数据，交付结果能否稳定复现无法核对。
+    evidence_ids:
+    - ev-a5741b48b660b427
+  next_validation: 收集该开源仓库的说明与 issue 讨论，核验提取准确度、支持范围与许可条款。
+  market: ''
+  job: 前端工程师或产品设计师，在参考竞品或复刻客户既有界面时，面对目标网页，要整理出可用的颜色、字体、间距等设计规范。
+  job_en: A front-end engineer or product designer referencing a competitor or reproducing a client's
+    existing interface works from a target web page to compile usable design specs such as colors, fonts
+    and spacing.
+  pain: 过去靠截图、取色器和开发者工具逐项量取，重复且容易漏项，跨页面整理规范尤其费时。
+  pain_en: The old way measures items one by one with screenshots, color pickers and dev tools, which
+    is repetitive and error-prone, and compiling specs across pages is especially slow.
+  current_alternative: 手动截图配合取色器与浏览器开发者工具逐项记录，或凭经验目测还原。
+  current_alternative_en: Manual screenshots plus color pickers and browser dev tools recorded item by
+    item, or eyeballing the design from experience.
+  usage_reason: 推断：相较逐项量取，它把悬停即提取设计要素作为入口，减少截图、取色、记录这几步手工操作；因此需要快速对齐他人界面规范的前端与设计人员会先试它。提取准确度与是否覆盖复杂组件，公开材料未提供证据。
+  usage_reason_en: 'Inference: compared with measuring item by item, it makes hover-to-extract the entry
+    point, cutting the manual steps of screenshotting, color-picking and recording; front-end and design
+    staff who need to align quickly with someone else''s interface specs would try it first. Whether extraction
+    is accurate and covers complex components is not evidenced publicly.'

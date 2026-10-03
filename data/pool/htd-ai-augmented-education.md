@@ -21,7 +21,7 @@ canonical_url: https://github.com/HytidelLegend/htd-ai-augmented-education
 summary: ''
 first_seen: '2026-09-23T04:07:09Z'
 last_seen: '2026-10-03T01:12:31Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

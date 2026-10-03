@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5CZHJWQ0huUks2
 summary: Only 6% Trust AI Suggestions to Make the Final Purchase Call CX Today
 first_seen: '2026-10-02T11:01:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

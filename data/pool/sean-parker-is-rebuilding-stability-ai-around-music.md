@@ -1,6 +1,6 @@
 ---
 slug: sean-parker-is-rebuilding-stability-ai-around-music
-name: Sean Parker is rebuilding Stability AI around music
+name: Stability AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Sean Parker, who once taught the music industry what asking for forgive
   back with the labels' blessing and money.
 first_seen: '2026-10-02T21:09:14Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Sean Parker is rebuilding Stability AI around music
+# Stability AI
 
 Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.
 

@@ -1,0 +1,42 @@
+- id: req-initial-ldraw-nova-2026-10-03
+  project_slug: ldraw-nova
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把想法变成可拼搭积木结构的需求，痛点是手工逐块摆放耗时且门槛高，旧替代行为明确。
+    evidence_ids:
+    - ev-dd952edf661bc8b5
+  - gate: consensus
+    status: insufficient
+    reason: 社区帖 66 分、38 条评论说明有讨论，但不足以证明持续采用或形成共识。
+    evidence_ids:
+    - ev-dd952edf661bc8b5
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方与收费方式不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-dd952edf661bc8b5
+  - gate: truth
+    status: insufficient
+    reason: 生成结果是否真能按真实零件拼搭、是否需人工修正，材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-dd952edf661bc8b5
+  next_validation: 收集该仓库的 issue 与示例输出，核对生成模型能否按真实乐高零件拼搭及人工修正比例。
+  market: ''
+  job: 乐高玩家与创客在设计一个想实际拼出来的模型时，需要把想法变成可编辑、可拼搭的积木结构文件。
+  job_en: Lego hobbyists and makers designing a model they actually want to build need to turn an idea
+    into an editable, buildable brick structure file.
+  pain: 旧做法是在 LDraw 类工具里逐块手工摆放，耗时长且需要熟悉零件库，非专业玩家门槛高。
+  pain_en: The old way is placing bricks one by one in LDraw-style tools, which is slow and requires knowing
+    the parts library, a high bar for non-professional hobbyists.
+  current_alternative: 手工在 LDraw 或类似建模工具中逐块搭建，或参考现成图纸改造。
+  current_alternative_en: Manually building brick by brick in LDraw or similar modeling tools, or adapting
+    existing instructions.
+  usage_reason: 推断：相较逐块手工摆放，它由 AI 直接产出可继续编辑的模型文件，省掉从零摆放这一步，因此想快速得到可拼搭草稿的玩家会试用；尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with placing bricks by hand, it has AI produce an editable model
+    file directly, removing the from-scratch placement step, so hobbyists wanting a quick buildable draft
+    would try it; no retention or repeat-use evidence yet.'

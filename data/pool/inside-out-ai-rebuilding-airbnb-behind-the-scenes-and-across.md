@@ -1,6 +1,6 @@
 ---
 slug: inside-out-ai-rebuilding-airbnb-behind-the-scenes-and-across
-name: 'Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience'
+name: Airbnb
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming
   its teams develop products to how it serves guests.
 first_seen: '2026-10-02T14:04:49Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience
+# Airbnb
 
 After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.
 

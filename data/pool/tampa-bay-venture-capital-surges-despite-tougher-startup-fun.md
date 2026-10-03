@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNRTYzNVN6WndD
 summary: Tampa Bay Venture Capital Surges Despite Tougher Startup Funding Landscape citybiz.co
 first_seen: '2026-10-02T10:30:05Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

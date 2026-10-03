@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUm9XQktWZ2ZP
 summary: Manufacturers back MCP-linked AI for productivity gains IT Brief UK
 first_seen: '2026-10-02T16:15:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

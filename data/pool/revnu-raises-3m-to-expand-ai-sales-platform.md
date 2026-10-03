@@ -1,6 +1,6 @@
 ---
 slug: revnu-raises-3m-to-expand-ai-sales-platform
-name: Revnu raises $3M to expand AI sales platform
+name: Revnu
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZE5LQ3N4S3pJ
 summary: Revnu raises $3M to expand AI sales platform SaasRise
 first_seen: '2026-10-02T06:37:09Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Revnu raises $3M to expand AI sales platform
+# Revnu
 
 Revnu raises $3M to expand AI sales platform SaasRise
 

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/globestudio
 summary: Open-source dotted maps and 3D globes for designers
 first_seen: '2026-09-29T08:07:08Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

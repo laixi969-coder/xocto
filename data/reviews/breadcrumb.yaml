@@ -1,0 +1,42 @@
+- id: req-initial-breadcrumb-2026-10-03
+  project_slug: breadcrumb
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨应用找回内容并整理成 AI 上下文的需求，痛点真实，但公开材料未说明检索与交付的具体形态，价值强度无法确认。
+    evidence_ids:
+    - ev-b16bc09df520ee03
+    - ev-7ba23b5ee2d69dac
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有用户反馈或案例说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-b16bc09df520ee03
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是个人订阅还是团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b16bc09df520ee03
+  - gate: truth
+    status: insufficient
+    reason: 全量屏幕记录涉及隐私与安全边界，公开材料未说明本地存储、加密或人工确认机制。
+    evidence_ids:
+    - ev-7ba23b5ee2d69dac
+  next_validation: 收集 Breadcrumb 官方页面上的定价与隐私/存储说明，确认记录是否本地保存以及是否按订阅收费。
+  market: ''
+  job: Mac 上的知识工作者在跨应用处理资料后，需要找回此前看过的内容，并把它整理成能交给 AI 的上下文。
+  job_en: Mac knowledge workers who, after handling material across apps, need to find previously viewed
+    content and turn it into context they can hand to an AI.
+  pain: 上下文散落在浏览器、文档和本地应用里，手动复制粘贴既慢又容易漏，AI 因此拿不到完整背景。
+  pain_en: Context is scattered across browsers, documents and local apps; manual copy-paste is slow and
+    lossy, so the AI never gets the full background.
+  current_alternative: 手动截图、复制粘贴、浏览器历史与笔记工具拼凑上下文。
+  current_alternative_en: Manual screenshots, copy-paste, browser history and note tools stitched together.
+  usage_reason: 推断：相较手动复制粘贴，它自动持续记录并整理成可检索上下文，省掉逐条翻找与粘贴这一步，因此常在同一台 Mac 上跨应用取材的人会尝试它；但公开材料未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: versus manual copy-paste, it continuously records and organizes searchable
+    context, removing the step of hunting and pasting item by item, so people who gather material across
+    apps on one Mac may try it; public material shows no retention or repeat-use evidence.'

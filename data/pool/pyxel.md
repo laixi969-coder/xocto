@@ -21,7 +21,7 @@ canonical_url: https://github.com/kitao/pyxel
 summary: A Python retro game engine with built-in art and sound editors
 first_seen: '2026-10-01T23:26:35Z'
 last_seen: '2026-10-03T01:12:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

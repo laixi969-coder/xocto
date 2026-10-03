@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPZzlwLWNtMlpX
 summary: This startup wants to turn idle car inventory into rental revenue TechCrunch
 first_seen: '2026-10-01T17:09:00Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

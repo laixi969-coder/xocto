@@ -1,6 +1,6 @@
 ---
 slug: rak-ceramics-adopts-ai-across-group-operations-to-boost-effi
-name: RAK Ceramics Adopts AI Across Group Operations to Boost Efficiency - News and Statistics
+name: RAK Ceramics
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVFZNHdrOWlr
 summary: RAK Ceramics Adopts AI Across Group Operations to Boost Efficiency - News and Statistics IndexBox
 first_seen: '2026-10-02T13:23:41Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# RAK Ceramics Adopts AI Across Group Operations to Boost Efficiency - News and Statistics
+# RAK Ceramics
 
 RAK Ceramics Adopts AI Across Group Operations to Boost Efficiency - News and Statistics IndexBox
 

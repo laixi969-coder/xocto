@@ -1,0 +1,41 @@
+- id: req-initial-builder-2026-10-03
+  project_slug: builder
+  level: initial
+  reviewed_at: '2026-10-03T01:12:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决从想法到可运行原型的搭建需求，痛点存在，但公开材料未说明生成范围与交付完整度，价值强度无法确认。
+    evidence_ids:
+    - ev-399fbd471ed18bad
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，没有用户反馈或案例说明谁在持续用它交付项目。
+    evidence_ids:
+    - ev-399fbd471ed18bad
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，开源项目如何变现、买方是个人还是团队无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-399fbd471ed18bad
+  - gate: truth
+    status: insufficient
+    reason: 生成代码能否确定性运行、部署与安全边界如何，公开材料未说明。
+    evidence_ids:
+    - ev-399fbd471ed18bad
+  next_validation: 收集 Puter Builder 仓库的 README 与部署文档，确认自托管方式、生成范围与是否有付费托管选项。
+  market: ''
+  job: 非专业开发者或小团队在需要快速验证一个网站或应用想法时，用自然语言描述需求并得到可运行的原型。
+  job_en: Non-professional developers or small teams who, when quickly validating a website or app idea,
+    describe requirements in natural language and get a runnable prototype.
+  pain: 从零写代码或搭页面门槛高、耗时长，托管式生成工具又把结果和账号锁在平台里。
+  pain_en: Writing code or building pages from scratch is high-threshold and slow, while hosted generators
+    lock results and accounts into their platform.
+  current_alternative: 手写代码、模板建站工具，或使用托管式 AI 生成平台。
+  current_alternative_en: Hand-written code, template site builders, or hosted AI generation platforms.
+  usage_reason: 推断：相较手写代码，它把需求描述直接转成可运行项目，省掉搭脚手架这一步；相较托管平台，开源可自托管让在意数据归属的团队更愿意试，但公开材料未给出采用或留存证据。
+  usage_reason_en: 'Inference: versus hand-written code it turns a description directly into a runnable
+    project, removing scaffolding work; versus hosted platforms, open-source self-hosting appeals to teams
+    that care about data ownership, but public material shows no adoption or retention evidence.'

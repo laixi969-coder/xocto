@@ -1,0 +1,43 @@
+- id: req-initial-sayonic-2026-10-03
+  project_slug: sayonic
+  level: initial
+  reviewed_at: '2026-10-03T01:12:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决用语音直接完成本机任务的需求，但材料未给出痛点、频率与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-8580993c3256a062
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有产品定位一句话，没有可归因到该产品的使用、留存或评价证据。
+    evidence_ids:
+    - ev-8580993c3256a062
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是个人订阅还是团队采购，也没有任何定价信息。
+    evidence_ids:
+    - ev-8580993c3256a062
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近该任务的第一性目标，也看不到人工确认与安全边界。
+    evidence_ids:
+    - ev-8580993c3256a062
+  next_validation: 收集 Sayonic 官方产品页或定价页，确认它实际执行哪些本机动作、交付什么结果以及是否收费。
+  market: ''
+  job: Mac 用户在桌面工作时，用语音说出一个本机操作任务，希望助手直接完成而不必自己点开多个应用逐步操作。
+  job_en: A Mac user at the desktop states a local task by voice and expects the assistant to complete
+    it without manually opening several apps step by step.
+  pain: 候选材料未提供任何用户痛点、抱怨或替代行为的描述，无法确认语音触发本机任务比键盘与鼠标更快或更必要。
+  pain_en: The candidate material provides no user pain, complaint or workaround description, so it cannot
+    be confirmed that voice-triggered local tasks are faster or more necessary than keyboard and mouse.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务，无法确认旧做法是快捷键、脚本还是手动操作。
+  current_alternative_en: The public material does not say how users previously completed such tasks,
+    so the prior method cannot be confirmed as shortcuts, scripts or manual operation.
+  usage_reason: 推断：若它能把“说出任务”直接变成一次可核对的本机操作结果，用户可省去打开应用、定位菜单、逐步点击的环节；但候选材料没有说明具体动作与交付，也没有用户反馈支持，因此选择动机尚不成立。
+  usage_reason_en: 'Inference: if it turns a spoken task directly into one checkable local operation,
+    users could skip opening apps, locating menus and clicking step by step. But the material describes
+    no concrete action or deliverable and offers no user feedback, so the reason to choose it is not yet
+    established.'

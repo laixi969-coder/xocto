@@ -26,7 +26,7 @@ summary: 'Multilingual self-supervised speech models can benefit from sharing in
   we test two interventions which strengthen language discrimination: an auxiliary language…'
 first_seen: '2026-10-02T00:00:00Z'
 last_seen: '2026-10-03T01:12:55Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

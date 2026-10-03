@@ -1,6 +1,6 @@
 ---
 slug: mandiant-founders-ai-hacking-startup-armadin-raises-2555m-fr
-name: Mandiant founder's AI hacking startup Armadin raises $255.5M from a16z and Accel at a $2.5B+ valuation
+name: Armadin
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Mandiant founder's AI hacking startup Armadin raises $255.5M from a16z 
   valuation Tech Funding News
 first_seen: '2026-10-02T05:04:04Z'
 last_seen: '2026-10-03T01:13:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Mandiant founder's AI hacking startup Armadin raises $255.5M from a16z and Accel at a $2.5B+ valuation
+# Armadin
 
 Mandiant founder's AI hacking startup Armadin raises $255.5M from a16z and Accel at a $2.5B+ valuation Tech Funding News
 
