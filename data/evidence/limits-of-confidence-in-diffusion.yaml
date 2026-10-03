@@ -1,0 +1,14 @@
+- id: ev-98a966cf7f71d3a8
+  project_slug: limits-of-confidence-in-diffusion
+  url: https://machinelearning.apple.com/research/limits-confidence-diffusion
+  title: Limits of Confidence in Diffusion
+  published_at: '2026-10-02T00:00:00Z'
+  collected_at: '2026-10-03T01:12:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing
+    multiple token positions per step, drawing each from a per-position distribution and choosing which
+    positions to write from those same distributions. For domains of general interest (pixels, phonemes,
+    or words) there are inherent dependencies between tokens. We show that a step matches the training
+    distribution only when the positions it writes are conditionally independent given the tokens already
+    fixed, that no product of per-position distributions can match a dependent group, and that…

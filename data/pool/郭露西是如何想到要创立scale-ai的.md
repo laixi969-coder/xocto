@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-10-02T01:42:23Z'
-status: rejected
+last_seen: '2026-10-03T01:12:56Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -223,6 +223,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE02d0hYZVJMNFN2aVNyZUdUZlh1cGt1QnVoSGxsMW5pNWlFb1ZsS2RTaUlUaGRsVVFHNWlIUTJrM1Z1RTJDekNvRkJPdHdPeUVtQTdiUUNPZE00Q2M?oc=5
   seen_at: '2026-10-02T01:42:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/age-of-scaleup-funds-europe-uk-eqt/
+  seen_at: '2026-10-03T01:12:56Z'
   metrics: {}
   kind: news
 ---

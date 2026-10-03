@@ -1,0 +1,14 @@
+- id: ev-f608c8f98f80f01c
+  project_slug: language-discrimination-improves-linguistic-learning-in-mult
+  url: https://machinelearning.apple.com/research/language-discrimination-multilingual-learning
+  title: Language Discrimination Improves Linguistic Learning in Multilingual Speech Models
+  published_at: '2026-10-02T00:00:00Z'
+  collected_at: '2026-10-03T01:12:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Multilingual self-supervised speech models can benefit from sharing information across languages,
+    but under a matched total pretraining data budget they still fall short of monolingual models. We
+    show that strengthening the model’s ability to discriminate languages during pretraining reduces and,
+    on some measures, closes this multilingual gap on continuous phonetic and higher-level linguistic
+    measures, while preserving substantial cross-language sharing. Using a controlled English/French HuBERT
+    setting, we test two interventions which strengthen language discrimination: an auxiliary language…'

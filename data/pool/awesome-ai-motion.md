@@ -21,24 +21,24 @@ canonical_url: https://guanmo-ai.github.io/awesome-ai-motion
 summary: 精选 AI 动画与视频：作品封面、可播放案例、作者原始提示词与来源。Curated AI motion & video with original prompts. Focused on
   Claude Opus 5.5.
 first_seen: '2026-09-27T08:53:43Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://guanmo-ai.github.io/awesome-ai-motion/
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 115
-    forks: 18
+    stars: 179
+    forks: 29
     open_issues: 0
   kind: product
 - source: github
   url: https://gongnyang.github.io/awesome-ai-motion/
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 45
+    stars: 54
     forks: 9
     open_issues: 0
   kind: product

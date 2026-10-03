@@ -31,16 +31,16 @@ canonical_url: https://github.com/murongg/SubLane
 summary: A lightweight, self-hosted AI subscription gateway for internal teams, with account pooling,
   access control, and usage tracking.
 first_seen: '2026-09-18T07:25:55Z'
-last_seen: '2026-10-01T01:18:42Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/murongg/SubLane
-  seen_at: '2026-10-01T01:18:42Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 71
+    stars: 77
     forks: 5
     open_issues: 1
   kind: product

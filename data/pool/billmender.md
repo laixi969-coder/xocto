@@ -20,17 +20,17 @@ url: https://www.billmender.com/hospital-prices
 canonical_url: https://billmender.com/hospital-prices
 summary: What 482 hospitals charge vs. what insurers pay, from their own files
 first_seen: '2026-10-01T19:42:09Z'
-last_seen: '2026-10-02T01:41:51Z'
+last_seen: '2026-10-03T01:12:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.billmender.com/hospital-prices
-  seen_at: '2026-10-02T01:41:51Z'
+  seen_at: '2026-10-03T01:12:27Z'
   metrics:
-    points: 6
-    comments: 2
+    points: 28
+    comments: 13
   kind: product
 ---
 

@@ -25,10 +25,11 @@ url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RPdlktMDMwTm
 canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RPdlktMDMwTmlZcnk5MFV4b1loLVBvc3pfUElYT3ZhQ3VLZmVod3ZxeDBVTXNkWkhybWJTZE05YzdkSWpOMHpwOVlYbWJYNndSSWRkRlFQSmNsM0F2WWgzZTFLNjFuMHNhY2d3akstanhNRTlOSEZvQVV2alFiTUE4MnBHRlJjdy12RXhwclJXVTFTZWV2R1ZrUHhUdlZuZmVtdw?oc=5
 summary: Amazon blocks Meta’s Muse AI assistant in new standoff over agentic shopping GeekWire
 first_seen: '2026-09-21T07:03:34Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: market_context
+last_seen: '2026-10-03T01:12:56Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RPdlktMDMwTmlZcnk5MFV4b1loLVBvc3pfUElYT3ZhQ3VLZmVod3ZxeDBVTXNkWkhybWJTZE05YzdkSWpOMHpwOVlYbWJYNndSSWRkRlFQSmNsM0F2WWgzZTFLNjFuMHNhY2d3akstanhNRTlOSEZvQVV2alFiTUE4MnBHRlJjdy12RXhwclJXVTFTZWV2R1ZrUHhUdlZuZmVtdw?oc=5
@@ -43,6 +44,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPRVN1Rl9WSFoxX2Rjb1BMWWNDWld1dkM4dzNwc2tjQTZZVUhQeFRpRkJoR0RuQVhpVm9Bajd0eGhGODVEeW9fMlFIa1pDWWo5SE5HVzB0djFHaVVaWW0xX29GdVJUZjNiM1JiTm8xaGVkNEx6T0xSTFl6MUMxYm4yMlZNSmpCMWM?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/
+  seen_at: '2026-10-03T01:12:56Z'
   metrics: {}
   kind: news
 ---

@@ -35,7 +35,7 @@ summary: 'Local AI search for podcast and video archives on Apple Silicon: Whisp
   OCR and SigLIP-2 visual search fused into one ranked list, with a trim editor and FCPXML export. FastAPI,
   vanilla JS, Tauri. Source-visible, all rights reserved.'
 first_seen: '2026-09-24T17:31:47Z'
-last_seen: '2026-10-02T01:42:23Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: watching
 sources:
 - github
@@ -43,10 +43,10 @@ sources:
 sightings:
 - source: github
   url: https://boiko.ai/work/tern/
-  seen_at: '2026-10-01T01:18:42Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 62
-    forks: 1
+    stars: 45
+    forks: 0
     open_issues: 0
   kind: product
 - source: newssearch

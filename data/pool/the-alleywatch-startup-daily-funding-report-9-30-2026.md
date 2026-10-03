@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXBvM0kyUGxJUllnb3p4M2
 canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXBvM0kyUGxJUllnb3p4M296eXpYOXQwOGk4VFhCMFAzazdxOVBfSzlWNXZ4YTM3NHYyRG81MDFVV0thd3FRMXdRSTNBbGFpUkw3NEpkMWlmX1hyVFRzUUVURWJaZTNIRmJwcUVheDZVOTh0QVlhMmc5M3JweFVLeUE3TExJd1BWd3VUSFJ3?oc=5
 summary: 'The AlleyWatch Startup Daily Funding Report: 9/30/2026 AlleyWatch'
 first_seen: '2026-09-30T20:49:56Z'
-last_seen: '2026-10-01T01:19:08Z'
-status: rejected
+last_seen: '2026-10-03T01:13:03Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXBvM0kyUGxJUllnb3p4M296eXpYOXQwOGk4VFhCMFAzazdxOVBfSzlWNXZ4YTM3NHYyRG81MDFVV0thd3FRMXdRSTNBbGFpUkw3NEpkMWlmX1hyVFRzUUVURWJaZTNIRmJwcUVheDZVOTh0QVlhMmc5M3JweFVLeUE3TExJd1BWd3VUSFJ3?oc=5
   seen_at: '2026-10-01T01:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikwFBVV95cUxQVVJWT2FFRDdic1lPWjRRQmhQeml5MTU1dFBpdjk2VnhRVWxJelljWWxCbmh4ZlU2aTlWZXZpVTd4UFpzQ01BbXprdndVOUxWT1Q3TDZ4RFQyd0JoVllvekYwSEQxU2Z0c1FmRFZpel9ZRzdOam5MT2JoeXJJQVlONnZHRlRFNGpVQ3BxSXkxNVZDdzg?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
   metrics: {}
   kind: news
 ---

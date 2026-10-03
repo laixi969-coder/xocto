@@ -36,16 +36,16 @@ url: https://github.com/camenduru/TostAI-Sprite-Sheet-Studio
 canonical_url: https://github.com/camenduru/TostAI-Sprite-Sheet-Studio
 summary: Turn a raw video into a game-ready sprite sheet
 first_seen: '2026-09-26T18:07:04Z'
-last_seen: '2026-09-30T01:18:17Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/camenduru/TostAI-Sprite-Sheet-Studio
-  seen_at: '2026-09-30T01:18:17Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 41
+    stars: 59
     forks: 3
     open_issues: 0
   kind: product

@@ -40,16 +40,16 @@ url: https://github.com/255308153/CtxGuard
 canonical_url: https://github.com/255308153/CtxGuard
 summary: 面向 AI Agent 的高并发、低延迟上下文治理与 Prompt Cache 守护网关 (Tree-sitter AST / Tool Delta / 50%~80% Token 削减)
 first_seen: '2026-09-14T18:23:49Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/255308153/CtxGuard
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 138
+    stars: 150
     forks: 13
     open_issues: 0
   kind: product

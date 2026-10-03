@@ -26,16 +26,16 @@ canonical_url: https://github.com/bladedevoff/stuntd
 summary: Local proxy that learns your app's typed LLM decisions and answers them with a Laya head. Jev
   and OpenAI compatible.
 first_seen: '2026-09-23T00:46:32Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bladedevoff/stuntd
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 55
+    stars: 61
     forks: 1
     open_issues: 0
   kind: product

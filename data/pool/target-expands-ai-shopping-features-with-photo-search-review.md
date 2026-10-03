@@ -23,8 +23,8 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6
 summary: Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering
   Pulse 2.0
 first_seen: '2026-09-10T20:26:17Z'
-last_seen: '2026-10-01T01:18:38Z'
-status: rejected
+last_seen: '2026-10-03T01:13:03Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
@@ -92,6 +92,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNNnUtamI2X2diaFk5V2V0dkp2NUxoSjVjZTdSTUwwMGhTcFBVREVMY0g5V09LUTZHTDliVkMxTEtNZFhBZEpqRG1GOWtvbURhS1dQdGlodXN2QzhKbHBrLWx0YWF2LXBKWWNhRVhZbjlBak03QlF2V0h6YVhBVzZLNWwyV2ZNN09rNnE1VGIxVlNJSUN0MmV0TF9B0gGiAUFVX3lxTFB3eldCOGgzNDlXanhncGw1aE45Q3ZnZHdJOVU4elU5WVFCcTBKUWpWd2x2bDQwRTVwTzhJUWtsaEFvenZJekh5V2hZaGFIaV8zbGlMX2xzZnNpcXJtT1BJcWtkZVhpdXRhWHMzLXBNM3NUQ0lmMlVrV2I5Q2ZndG1HN3dpeWZMb3Zhbl9vSW9JRnpRLU56RUEwOTVCeko3MERsZw?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQb1o5dzN1akl0SXJfMndrNHpXRVM3OVh6WWhpd0FILWNYRFdka3pnVEFrT1hLbjl4c196LXc0UlFmNkVIVm8xQzNjbTJ0Wm1POGE0OG5DVUdaLXg1Z2ppVlFYQWV1cXFJVTI2cGFLR3c2b2U3M0d5dnZBN29aOE13aVBJNU9udlJBTFowQnBVSmJWUEJaMHZhQmo3bE10LW5xamVDYW5RNXN5OENHUXFWWEN1X3lUOW8?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
   metrics: {}
   kind: news
 ---

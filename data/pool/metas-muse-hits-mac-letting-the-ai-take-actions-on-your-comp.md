@@ -1,7 +1,7 @@
 ---
 slug: metas-muse-hits-mac-letting-the-ai-take-actions-on-your-comp
 name: Muse
-builder: ''
+builder: anant
 category: 通用助手
 summary_zh: Mac 用户在本地处理文件与各类应用时打开 Muse，由它读取这些文件和应用内容并代为执行操作，用户拿到的是被实际执行的动作结果而非一段建议；具体可执行的操作范围、权限边界与人工确认环节仍待核验。
 inspiration: 趋势是通用助手正从“回答问题”走向“在个人电脑上直接动手改文件和操作应用”，入口之争从对话框转向操作系统内的执行权。切入可考虑不与 Meta 正面争夺通用桌面代理，而是选一个文件格式与合规要求都明确的垂直场景（如律所卷宗、财务凭证、工程图纸），把权限、留痕和人工复核做成可交付的结果，按产出而非席位收费。
@@ -29,11 +29,12 @@ canonical_url: https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the
 summary: Muse is now available on the Mac, where it can work with your files and apps to take action on
   your behalf.
 first_seen: '2026-09-18T15:22:48Z'
-last_seen: '2026-10-02T01:42:23Z'
-status: watching
+last_seen: '2026-10-03T01:12:27Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/
@@ -99,6 +100,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBCWE01dnctQWJIcU1IZGRHWlZsS2h3Qjc0OFI4allRcnBmak91WWZONzhQT29XZmFkUWdjb2xSc0ZzRG84TnQzcw?oc=5
   seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://gadgets.muse.ai
+  seen_at: '2026-10-03T01:12:27Z'
+  metrics:
+    points: 122
+    comments: 61
   kind: news
 ---
 

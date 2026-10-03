@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-10-02T01:42:23Z'
-status: rejected
+last_seen: '2026-10-03T01:13:03Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -367,6 +367,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ldzRNdDZxenQ2M2xfQXYwa2FWaVRKeF9mSHhBME9xQlFMNlRtNUU4dGh5RldLVlZBS2JZV1FaNFVDd1VDSUdNeG9PQm5sMnZqb05fSFBaRVpxcmVxcE9MU3BDWTZ6bXZO?oc=5
   seen_at: '2026-10-02T01:42:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxPZVE5WlotQTNGVGlic3BVRTRoaUlMMV9JSlNoQmp1MXJVVW5UcGoyNzZpdVVpUFpPRk1mV1BSZWQweTd2ZG0yOFpMQzV2VWhhTHZmQ2FJTThMejNpcEVlRE80NVlaYXFlbi1LUmpkNTdVNFE3dGU5aU1Ic1NlVURvbldia05iejdFZHVYenROS0lFN1lYaG1j?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNQno0c0RRZGY2VTMwUnJqdUNWZ2lIZjlKSkp6eHhkRlFPNzFId1ZuVDU5NlRkNkwyYXMtUGhJX0RpM1VzcUpMTHRrNDAzR1UyTVVyaU1PdVFBWVVJeGg0Q21vQnZnZDBJVkR5WGZkaW9wRDNiUUJ5Y3pTaVZmTk1jWmlxNGFxRVBzVnBCMTlkZVcyQVQ0ZFRYS3dMY3A2TmU5WTNn?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
   metrics: {}
   kind: news
 ---

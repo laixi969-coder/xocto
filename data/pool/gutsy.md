@@ -27,16 +27,16 @@ url: https://github.com/kouhxp/gutsy
 canonical_url: https://github.com/kouhxp/gutsy
 summary: a 0.8B Jev-compatible decision model that runs on your CPU
 first_seen: '2026-10-01T15:44:42Z'
-last_seen: '2026-10-02T01:41:51Z'
+last_seen: '2026-10-03T01:12:27Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/kouhxp/gutsy
-  seen_at: '2026-10-02T01:41:51Z'
+  seen_at: '2026-10-03T01:12:27Z'
   metrics:
-    points: 8
+    points: 9
     comments: 2
   kind: product
 ---

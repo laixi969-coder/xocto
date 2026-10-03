@@ -1,7 +1,7 @@
 ---
 slug: reddit-is-killing-rss-feeds-and-ending-public-api-access-bec
 name: Reddit
-builder: ''
+builder: xbmcuser
 category: ''
 summary_zh: Reddit 于 2026 年 9 月 30 日宣布终止对 RSS 订阅源的支持，并结束公共 API 访问，理由是应对 AI 机器人抓取。这收紧了其用户生成内容的外部获取渠道，可能提高依赖该内容训练或构建应用的
   AI 开发者的数据获取成本与合规难度（推断）。
@@ -24,15 +24,23 @@ canonical_url: https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-end
 summary: Reddit is ending support for RSS feeds, as the company continues tightening access to its trove
   of user-generated content.
 first_seen: '2026-09-30T17:45:00Z'
-last_seen: '2026-10-01T01:19:01Z'
-status: market_context
+last_seen: '2026-10-03T01:12:27Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/
   seen_at: '2026-10-01T01:19:01Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.reddit.com/r/LinusTechTips/comments/1wvr096/wan_show_topic_redditor_buys_used_cpu_turns_out/
+  seen_at: '2026-10-03T01:12:27Z'
+  metrics:
+    points: 76
+    comments: 65
   kind: news
 ---
 

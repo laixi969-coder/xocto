@@ -1,0 +1,41 @@
+---
+slug: 澳媒openai失控智能体6月闯澳官方网站当地政府近4个月后才收到通知
+name: 澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMioANBVV95cUxOVENvaEtJbzNkZFJid3BWMlBMRk9CVlhJYlllQTFkblB4S3BrNkNvZDV2UkZIUVJDcmFoRFczaVVPeHBuZElPUzQ1STZaWU9pZGZEaDNsUWJqSks2eEZnd1lRekswV2RrTVZGVERLZ1VLRGdRdnZEUGRhYzV5UzhNQ2RtbkhFdFZtMUhtNUIyN19xMDdmcTlMbzU3UjZPeVoyTUhSbXBoXzdCaGx2QVBPQTlHZnd4NE9xajViNVFLcjJ3N0g0bmtSTDVrWlM1THhrdzNJWW5qaEpuN1d3WWNBTUdnaEh6TGdDU1VRVVluM1Y4N1dCNEp6aThqdmRPSDUtN1BaWWd1YTlINmVzWDk4S3RmTVVJdzZzWmdXRklGd3lhNG5YME5ZNVlkUE9tVlo2cFhXOWE3RUV6U3J6QVhNUDdQTWtjelU5RGR1ajdKY0tqazl4LU04MzJCWEJhaEhLNWFCMUh1S0Jpajlud0tMSmhTVnlMQTF3NW1ydEUyc2wtU1hrNTViVEpXODM5bEhzbWRzNmhnQWJQV3hKbjc5cg?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMioANBVV95cUxOVENvaEtJbzNkZFJid3BWMlBMRk9CVlhJYlllQTFkblB4S3BrNkNvZDV2UkZIUVJDcmFoRFczaVVPeHBuZElPUzQ1STZaWU9pZGZEaDNsUWJqSks2eEZnd1lRekswV2RrTVZGVERLZ1VLRGdRdnZEUGRhYzV5UzhNQ2RtbkhFdFZtMUhtNUIyN19xMDdmcTlMbzU3UjZPeVoyTUhSbXBoXzdCaGx2QVBPQTlHZnd4NE9xajViNVFLcjJ3N0g0bmtSTDVrWlM1THhrdzNJWW5qaEpuN1d3WWNBTUdnaEh6TGdDU1VRVVluM1Y4N1dCNEp6aThqdmRPSDUtN1BaWWd1YTlINmVzWDk4S3RmTVVJdzZzWmdXRklGd3lhNG5YME5ZNVlkUE9tVlo2cFhXOWE3RUV6U3J6QVhNUDdQTWtjelU5RGR1ajdKY0tqazl4LU04MzJCWEJhaEhLNWFCMUh1S0Jpajlud0tMSmhTVnlMQTF3NW1ydEUyc2wtU1hrNTViVEpXODM5bEhzbWRzNmhnQWJQV3hKbjc5cg?oc=5
+summary: 澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知 新浪新闻_手机新浪网
+first_seen: '2026-10-02T15:55:16Z'
+last_seen: '2026-10-03T01:13:03Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMioANBVV95cUxOVENvaEtJbzNkZFJid3BWMlBMRk9CVlhJYlllQTFkblB4S3BrNkNvZDV2UkZIUVJDcmFoRFczaVVPeHBuZElPUzQ1STZaWU9pZGZEaDNsUWJqSks2eEZnd1lRekswV2RrTVZGVERLZ1VLRGdRdnZEUGRhYzV5UzhNQ2RtbkhFdFZtMUhtNUIyN19xMDdmcTlMbzU3UjZPeVoyTUhSbXBoXzdCaGx2QVBPQTlHZnd4NE9xajViNVFLcjJ3N0g0bmtSTDVrWlM1THhrdzNJWW5qaEpuN1d3WWNBTUdnaEh6TGdDU1VRVVluM1Y4N1dCNEp6aThqdmRPSDUtN1BaWWd1YTlINmVzWDk4S3RmTVVJdzZzWmdXRklGd3lhNG5YME5ZNVlkUE9tVlo2cFhXOWE3RUV6U3J6QVhNUDdQTWtjelU5RGR1ajdKY0tqazl4LU04MzJCWEJhaEhLNWFCMUh1S0Jpajlud0tMSmhTVnlMQTF3NW1ydEUyc2wtU1hrNTViVEpXODM5bEhzbWRzNmhnQWJQV3hKbjc5cg?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+---
+
+# 澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知
+
+澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知 新浪新闻_手机新浪网
+
+## 笔记
+
+

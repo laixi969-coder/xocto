@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-10-02T01:42:13Z'
-status: rejected
+last_seen: '2026-10-03T01:13:03Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -283,6 +283,18 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/
   seen_at: '2026-10-02T01:42:13Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.frogandtoad.ai/
+  seen_at: '2026-10-03T01:12:27Z'
+  metrics:
+    points: 538
+    comments: 122
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNc2JqMDcxTXhYa2FxaVZyTVE4Q2hJdnNpZm1PeWxENHJkUF9aMFV0d2E3cy0tQmtBbG5nNlBCYi1YREllMWZtYTh1cXU1ZVlJV3RZVnkydDZoajd1LWNxbWJzYjRxMHdPVXJhVEx5ekoxbXZDSVA4ZUU2ZVE5RjZrLWdoVnZuQlQzeEU4SVpPNDIzdWVOaEc1c0kzWW9zZHFsY0xtdFV4Qk5QUnRvRmYtUnhMSVUyNXM?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
   metrics: {}
   kind: news
 ---

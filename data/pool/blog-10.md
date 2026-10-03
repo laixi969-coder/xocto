@@ -20,8 +20,8 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-10-02T01:41:51Z'
-status: rejected
+last_seen: '2026-10-03T01:12:27Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -60,6 +60,13 @@ sightings:
     points: 6
     comments: 1
   kind: product
+- source: hackernews
+  url: https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/
+  seen_at: '2026-10-03T01:12:27Z'
+  metrics:
+    points: 43
+    comments: 48
+  kind: news
 ---
 
 # blog

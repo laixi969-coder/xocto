@@ -1,7 +1,7 @@
 ---
 slug: amd-acquires-world-labs-ai-startup-upping-the-ante-against-n
 name: World Labs
-builder: ''
+builder: stareatgoats
 category: ''
 summary_zh: 这是一起芯片厂商收购世界模型公司的行业事件：AMD 拟以 82 亿美元收购 World Labs，交易预计年底前完成。它本身不是面向终端用户的独立产品，而是模型能力与算力供给侧的归属变化，因此只作为市场背景记录。
 inspiration: ''
@@ -23,11 +23,12 @@ url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-f
 canonical_url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup
 summary: The deal, which is expected to close by year's end, is worth $8.2 billion.
 first_seen: '2026-09-29T21:14:49Z'
-last_seen: '2026-10-02T01:42:23Z'
+last_seen: '2026-10-03T01:13:03Z'
 status: pending_filter
 sources:
 - marketfeeds
 - newssearch
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/
@@ -72,6 +73,18 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5NVEdKN0pDdzVGS1NyV0JCSmR0S0o0MFRFb0ExZF9NMVZWOTJ5WWtZWDFhWVVCWXUxeGEzLV84dFNaS2dNUGVmNTNhN3Z3NVJKWnowdzhlS2EwUmRYYTVhcUE5ZnJuTnJFR1FQY1UyRF9OdWlMZnc?oc=5
   seen_at: '2026-10-02T01:42:23Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://restofworld.org/2026/china-ai-healthcare-biotech-drugs/
+  seen_at: '2026-10-03T01:12:27Z'
+  metrics:
+    points: 8
+    comments: 0
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPczhJX1Vvak1mOHZ4anltYVEzZ21FazBTOGpONTJKd2lDV1ZxY3dONHA4dlpLVGhlZlZkaVp3dGtlX0dPTXhPM2VIRl8wbXM0V2VhSkl1Tkh3Vmh6WnUta3RUWDIxTDlFWDBTNjJvMVlQVkNlV3poZElqR014U0hoSkhaUXZhRnJGR2p6X0tmb1o1MUU2QXM4eEs5VTB3eUdjZ0Vxek14ak00QVUy?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
   metrics: {}
   kind: news
 ---

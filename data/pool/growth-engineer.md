@@ -36,18 +36,18 @@ canonical_url: https://growth.engineer
 summary: Open-source catalog of go-to-market tools and workflows, written as markdown files any agent
   can run. Includes a read-only MCP server.
 first_seen: '2026-09-16T18:02:33Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.growth.engineer
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 122
+    stars: 125
     forks: 5
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

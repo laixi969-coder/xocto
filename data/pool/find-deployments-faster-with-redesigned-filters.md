@@ -22,8 +22,8 @@ url: https://vercel.com/changelog/find-deployments-faster-with-redesigned-filter
 canonical_url: https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters
 summary: ''
 first_seen: '2026-08-27T13:00:00Z'
-last_seen: '2026-10-01T01:19:00Z'
-status: rejected
+last_seen: '2026-10-03T01:12:55Z'
+status: pending_filter
 sources:
 - officialfeeds
 sightings:
@@ -65,6 +65,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/vercel-connect-service-submissions
   seen_at: '2026-10-01T01:19:00Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel
+  seen_at: '2026-10-03T01:12:55Z'
   metrics: {}
   kind: news
 ---

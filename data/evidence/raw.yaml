@@ -7,3 +7,21 @@
   source_kind: adoption
   tier: behavioural
   fact: I solved a 12yr math problem using AI (formalized; awaiting review) [pdf]
+- id: ev-35aa4b3cbc80baeb
+  project_slug: raw
+  url: https://www.v2ex.com/t/1246151
+  title: 一份行为，三种宿主：聊聊 XiHan.UI 这个框架无关的 Headless 组件库
+  published_at: '2026-10-02T10:41:06Z'
+  collected_at: '2026-10-03T01:12:25Z'
+  source_kind: product
+  tier: independent
+  fact: "# 一份行为，三种宿主：聊聊 XiHan.UI 这个框架无关的 Headless 组件库\r\n\r\n![XiHan.UI]( https://raw.githubusercontent.com/XiHanFun/XiHan.UI/main/assets/banner_cn.png)\r\
+    \n\r\n做前端久了，多半碰到过这种局面：后台用 Vue ，官网用 React ，角落里还剩几个没有框架的老页面。三边各有一个弹窗，按 Esc 有的关有的不关，关掉以后焦点有的回到按钮上，有的掉回页面顶部。用鼠标的人察觉不到，用键盘和读屏的人每天都被绊一下。再往后换框架，组件库整套重写，最先丢的正是这些看不见的东西：方向键往哪走，读屏念什么，焦点落在哪。\r\
+    \n\r\nXiHan.UI 就是冲着这件事做的：\r\n\r\n> 快速、轻量、高效、用心的框架无关 Headless UI 组件库。是面向企业级前端的设计系统运行时，无头内核，多框架适配器。提供基础组件与\
+    \ AI 组件，覆盖从中后台到 AI 对话的界面构建场景。曦寒懿（ XiHanFun ）开源生态的前端基座。\r\n\r\n下面把它的设计、细节和取舍摊开讲，也包括它现在做不到的地方。文档站每个组件都有能点、能切换框架的真实示例：\r\
+    \n\r\n- 文档站： https://ui.docs.xihanfun.com\r\n- GitHub： https://github.com/XiHanFun/XiHan.UI\r\n- Gitee：\
+    \ https://gitee.com/XiHanFun/XiHan.UI\r\n- GitCode： https://gitcode.com/XiHanFun/XiHan.UI\r\n\r\n\
+    ## 一、先看用起来是什么样\r\n\r\n```bash\r\npnpm add @xihan-ui/vue @xihan-ui/tokens @xihan-ui/styles\r\n```\r\
+    \n\r\n入口引一次皮肤，组件按名字 import ，不用 `app.use()`。所有包都声明了 `sideEffects: false`，没用到的组件会被摇掉：\r\n\r\n```vue\r\
+    \n<XhDialogRoot v-slot=\"{ setOpen }\">\r\n  <XhDialogTrigger>打开对话框</XhDialogTrigger>\r\n  <XhDialogContent>\r\
+    \n    <X"

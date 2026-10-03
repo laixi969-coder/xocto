@@ -32,7 +32,7 @@ url: https://www.producthunt.com/products/helo-2
 canonical_url: https://producthunt.com/products/helo-2
 summary: An independent email API from former Postmark folks
 first_seen: '2026-09-30T19:57:02Z'
-last_seen: '2026-10-02T01:41:51Z'
+last_seen: '2026-10-03T01:12:27Z'
 status: watching
 sources:
 - producthunt
@@ -45,10 +45,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://www.helohq.com
-  seen_at: '2026-10-02T01:41:51Z'
+  seen_at: '2026-10-03T01:12:27Z'
   metrics:
     points: 15
-    comments: 3
+    comments: 5
   kind: product
 ---
 

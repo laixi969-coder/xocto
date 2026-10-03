@@ -20,17 +20,17 @@ url: https://innerloop.works/breadcrumb
 canonical_url: https://innerloop.works/breadcrumb
 summary: record everything on your mac + context manager for AI
 first_seen: '2026-10-01T17:58:37Z'
-last_seen: '2026-10-02T01:41:51Z'
+last_seen: '2026-10-03T01:12:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://innerloop.works/breadcrumb
-  seen_at: '2026-10-02T01:41:51Z'
+  seen_at: '2026-10-03T01:12:27Z'
   metrics:
-    points: 15
-    comments: 2
+    points: 42
+    comments: 5
   kind: product
 ---
 

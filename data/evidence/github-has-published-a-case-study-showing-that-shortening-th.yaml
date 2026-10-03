@@ -292,3 +292,21 @@
     \ → xterm → konsole 依次 fallback\r\n- Windows：`git-bash.exe -c`，支持代理环境变量\r\n\r\n## 使用流程\r\n\r\n1. OAuth\
     \ 登录 Claude 账号（或从本机 Keychain / `.credentials.json` 一键导入）\r\n2. 给 profile 命名\r\n3. 想加第二个账号？列表页点「添加账号」走一遍流程即可\r\
     \n4. 切号：列表页点目标 profile → 选目录 → 开始\r\n![[Pasted image 20"
+- id: ev-300778030cc8d8be
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1246111
+  title: 从 WebView 到原生桌面：开源终端工具 NyaTerm 2.0
+  published_at: '2026-10-02T03:57:49Z'
+  collected_at: '2026-10-03T01:12:25Z'
+  source_kind: product
+  tier: independent
+  fact: "NyaTerm 2.0 ，轻装上阵，全新出发！\r\n\r\n之前发 NyaTerm 的时候，我提过它是受 WindTerm 启发做的一个开源终端管理工具。\r\n\r\n这一个多月 1.x\
+    \ 其实一直没停，还在持续修问题、补功能。\r\n\r\n不过与此同时，我又给自己挖了个更大的坑：\r\n\r\n**把 NyaTerm 用 Rust + GPUI 重新做一遍。**\r\n\r\n\
+    现在这个版本已经放出来一段时间了，也迭代了几个 Preview ，感觉差不多可以单独介绍一下。\r\n\r\nNyaTerm 2.0 预览版： https://github.com/nyakang/nyaterm/releases/tag/v2.0.0-preview.4\r\
+    \n项目地址： https://github.com/nyakang/nyaterm\r\n官网： https://nyaterm.app\r\n\r\n\r\n![image]( https://cdn.nodeimage.com/i/VKY7PuxKa6P6QquHbGxdVsknOtKySHRw.png)\r\
+    \n\r\n\r\n为什么要重做？\r\n\r\n倒不是 1.x 不能用了。\r\n\r\n现在的稳定版基于 Tauri / WebView ，功能其实已经比较完整，但做得越多，越苦于 Webview\
+    \ 的性能，Terminal 这种实时快速刷新的场景，还是更适合真正的原生桌面架构。收益也很明显，一直头疼的关键词高亮性能问题得到了解决，之前一些在 Tauri 框架不好实现的特性也可以大展拳脚。\r\
+    \n\r\n\r\n\r\n所以后来干脆开了 2.0 这条线，试着用 Rust + GPUI 做一个真正原生的版本。\r\n\r\n刚开始其实就是个“大号 Demo”。\r\n\r\n先把窗口跑起来，再把\
+    \ Terminal 塞进去，然后 SSH 、标签页、分屏、SFTP……一点一点往回补。\r\n\r\n做到现在，终于开始有点像 NyaTerm 了。\r\n\r\n目前常用的这些东西基本都已经陆续搬过来了：\r\
+    \n\r\n- SSH 、Telnet 、本地终端\r\n- 多标签、分屏\r\n- SFTP 和文件管理\r\n- RDP / VNC\r\n- Docker 、进程管理\r\n- AI Assistant\r\
+    \n- Cloud Sync\r\n- 快捷命令、凭据管理等\r\n\r\n当然，**能用和好用还是两回事。**\r\n\r\n最近几个 Preview 很多时间其实都花在一些特别细碎的地方。"

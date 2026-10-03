@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VblByWVl0MkVlVHZDUk1ybm
 canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VblByWVl0MkVlVHZDUk1ybmx1Z3NfdXNXNDIydnpOVVRTN19HYmVuX210Vk5oQ0FRd0tscWstYnpEME9qSEllY0NQT0R5RkE4cHc?oc=5
 summary: 孚宝机器人亮相第五届全球数字贸易博览会，首发AI心理创新产品“开心亭” 世界浙商网
 first_seen: '2026-09-30T07:42:01Z'
-last_seen: '2026-10-02T01:42:23Z'
+last_seen: '2026-10-03T01:13:03Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VblByWVl0MkVlVHZDUk1ybmx1Z3NfdXNXNDIydnpOVVRTN19HYmVuX210Vk5oQ0FRd0tscWstYnpEME9qSEllY0NQT0R5RkE4cHc?oc=5
   seen_at: '2026-10-02T01:42:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5QVVd4OEhseDlGRjhCNk5VVXkzbFFCcXhKZXpid3Y5WXljZWZmc0Z2UW5CQWlxbEhWbGhTZnFfV29XZURaaW9fR2JzM251aTA1UmRiaFZENEdTcTZqdVNfRkRJRU1xLWszRHRueWVn?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
   metrics: {}
   kind: news
 ---

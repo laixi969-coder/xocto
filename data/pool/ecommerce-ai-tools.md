@@ -32,16 +32,16 @@ canonical_url: https://learn.nexscope.ai/ecommerce-ai-tools
 summary: Open ecommerce AI tools and guides for Amazon review analysis, listing optimization, keyword
   research, SEO audits, AI image/video generation, and APIs for AI agents.
 first_seen: '2026-09-14T09:35:50Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://learn.nexscope.ai/ecommerce-ai-tools/
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 42
+    stars: 47
     forks: 3
     open_issues: 0
   kind: product

@@ -22,14 +22,19 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQmlwbFl6Yk96
 summary: Weekly funding round-up! All of the European startup funding rounds we tracked this week (Aug.
   31 – Sept. 04) EU-Startups
 first_seen: '2026-09-04T15:22:22Z'
-last_seen: '2026-09-06T23:54:47Z'
-status: rejected
+last_seen: '2026-10-03T01:13:03Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQmlwbFl6Yk96NERLeWI2b1VfWHZsVE5FUm8wcmpMSzlKRExuTHNvUkUxUnMxbm4xLUVjSUJrd09UVHMtNnVkdlRsX1k0WXdGVThpdXNxZGtpSWFxel92TUpJTktRQlk4MmoyTk1LelA1cXNKc1FNeWY0NmxUc3NOZnc5Rk1keGpCaVJ0RzJRa2h4bUlXTldTVnozRTE2WFBRaUFjbEF1ZmU2WTNkSG9TYjdrNi1YS1VJQmprN09tSEg3ZUkzeHkwelh2TmMzNVVaMkREMjVn?oc=5
   seen_at: '2026-09-06T23:54:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVy1ZOU41QVEtSTJwT0M4TmlrOG1ZbFJ3dmZiTWpZazZNV2VteVRYMWNuVnNKcWlwcHZ6a0tuVm9JcFFidzdFbTdUSFVORFdWT1Bxem5YMjlVeWcwVDlDZGtmYXFHOThpWFZVOWdZMTliaGdISzdDb2VfRTFhTmg4cTUwT3U1V2xNTHFlOXJMamFCc2ZUZTJQazhSS3hHS1FLYlNkbkk3ekxWU1daUHp6OWl1MFVHbkFObW1JZkZFanlZc2dVOFRDM2E0blVIbnI3czlLQlNB?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
   metrics: {}
   kind: news
 ---

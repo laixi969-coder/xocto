@@ -28,17 +28,17 @@ url: https://github.com/Vibra-Ingenn/Janus
 canonical_url: https://github.com/Vibra-Ingenn/Janus
 summary: Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia
 first_seen: '2026-10-01T20:36:47Z'
-last_seen: '2026-10-02T01:41:51Z'
+last_seen: '2026-10-03T01:12:27Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Vibra-Ingenn/Janus
-  seen_at: '2026-10-02T01:41:51Z'
+  seen_at: '2026-10-03T01:12:27Z'
   metrics:
-    points: 50
-    comments: 6
+    points: 96
+    comments: 17
   kind: product
 ---
 

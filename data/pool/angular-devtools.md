@@ -21,18 +21,18 @@ canonical_url: https://github.com/santoshyadavdev/angular-devtools
 summary: 'Angular DevTools : inspect components, signals, DI, and routes. Runs as a Chrome extension,
   embedded panel, standalone CLI, static report, or MCP server for coding agents. Built with Devframe.'
 first_seen: '2026-09-19T21:02:49Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/santoshyadavdev/angular-devtools
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 43
-    forks: 7
-    open_issues: 20
+    stars: 46
+    forks: 8
+    open_issues: 15
   kind: product
 ---
 

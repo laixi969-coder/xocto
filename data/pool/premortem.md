@@ -30,17 +30,17 @@ url: https://premortem.site
 canonical_url: https://premortem.site
 summary: AI agents that red-team your startup idea
 first_seen: '2026-10-01T20:30:02Z'
-last_seen: '2026-10-02T01:41:51Z'
+last_seen: '2026-10-03T01:12:27Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://premortem.site
-  seen_at: '2026-10-02T01:41:51Z'
+  seen_at: '2026-10-03T01:12:27Z'
   metrics:
-    points: 6
-    comments: 7
+    points: 11
+    comments: 12
   kind: product
 ---
 

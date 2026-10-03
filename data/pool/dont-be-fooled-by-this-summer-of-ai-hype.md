@@ -1,7 +1,7 @@
 ---
 slug: dont-be-fooled-by-this-summer-of-ai-hype
 name: Don’t be fooled by this summer of AI hype
-builder: ''
+builder: jacquesm
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -23,15 +23,23 @@ summary: It’s been a busy few months for AI hype. At the end of April, Anthrop
   the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed
   similar incidents involving their models. This was followed…
 first_seen: '2026-09-22T11:04:51Z'
-last_seen: '2026-09-23T00:34:37Z'
-status: rejected
+last_seen: '2026-10-03T01:12:27Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/
   seen_at: '2026-09-23T00:34:37Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/
+  seen_at: '2026-10-03T01:12:27Z'
+  metrics:
+    points: 41
+    comments: 37
   kind: news
 ---
 

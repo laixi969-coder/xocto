@@ -23,8 +23,8 @@ url: https://news.ycombinator.com/item?id=49286271
 canonical_url: https://news.ycombinator.com/item?id=49286271
 summary: Instant cross-platform in-app purchase orchestration
 first_seen: '2026-08-13T14:12:06Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: rejected
+last_seen: '2026-10-03T01:13:03Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -39,6 +39,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQOHZtYWFkS2hyNHd4RzdXMGZKTjhxNllIaUhUZjludm1ja3F0TkNSd3VpQXFidTVzWGxlaDlyTjNuYWlGaFJvY2FFWi1jNHVXaHFNR21NeXBiX0s1QUZlM0JTSnlwSk0zZFNDWW5oSnNIaUw2UmRxS242dmVWRWJFSEZ5Zzk3SUM4WXpTZnlSYkpJc21MdWRzMVNtNUplcVlsdzRQSlhhWDVsUGhT?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQV2VZUF92R2p1THliaWNxVEpYUHRvbWFTVXozdV9oMVFuamdOLVk2S3RNVXhoVmR5SExfT0xadm9tQW5nZWMyemd3N0VTOVE1bmNLSmxqU1hxU3pINHV3SllWTGV6X1p0NmhtUmpUal90VnFtY0pRbTFxeXB5eFBPZWRBQ2ZDOE9xLVJ2WTJid21VeFhXeUw2REJ0akJOXzNMOWVFUFhB?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
   metrics: {}
   kind: news
 ---

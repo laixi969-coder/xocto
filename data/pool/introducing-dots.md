@@ -23,7 +23,7 @@ canonical_url: https://openai.com/index/introducing-dots
 summary: Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday
   tasks. Learn how dots help you stay in control while work moves forward.
 first_seen: '2026-09-29T00:00:00Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: market_context
 sources:
 - officialfeeds
@@ -42,10 +42,10 @@ sightings:
   kind: news
 - source: github
   url: https://github.com/feder-cr/dots
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 2385
-    forks: 417
+    stars: 2486
+    forks: 434
     open_issues: 0
   kind: product
 ---

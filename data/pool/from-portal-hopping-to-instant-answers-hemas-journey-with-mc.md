@@ -40,8 +40,8 @@ summary: HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping in
   HAL delivers governed knowledge inside the tools teams already use, with no AWS credentials on the client
   and security anchored in Microsoft Entra ID.
 first_seen: '2026-09-23T18:41:09Z'
-last_seen: '2026-10-01T01:18:38Z'
-status: watching
+last_seen: '2026-10-03T01:13:03Z'
+status: pending_filter
 sources:
 - officialfeeds
 - newssearch
@@ -69,6 +69,11 @@ sightings:
   metrics:
     points: 76
     comments: 98
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMia0FVX3lxTE5xVkhGYTBIaDhtQU1YcG82ZkRKRlc5NkJrb1Q5ZUVJemJELTBYREd0ZXk1MnFnemw0MGRiM05fLVpJMjBpUW4yUUdLQjdSTG01ckdYeWlxcFFsREdENXhIa3BXQzlRN0NPVzZF?oc=5
+  seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
   kind: news
 ---
 

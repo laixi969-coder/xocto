@@ -40,17 +40,17 @@ summary: 'DSH x Blender direct realtime plugin - let an AI model drive Blender o
   viewport frames, custom-angle renders, inner-loop search, render profiling, safe decimation, headless
   offload.'
 first_seen: '2026-09-13T16:07:04Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-03T01:12:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sixtysevenlf/dsh-blender-plugin
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-03T01:12:31Z'
   metrics:
-    stars: 107
-    forks: 6
+    stars: 131
+    forks: 7
     open_issues: 0
   kind: product
 ---

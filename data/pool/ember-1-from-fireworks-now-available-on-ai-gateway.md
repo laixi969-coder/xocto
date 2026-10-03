@@ -21,14 +21,19 @@ url: https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gat
 canonical_url: https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway
 summary: ''
 first_seen: '2026-09-27T00:00:00Z'
-last_seen: '2026-09-29T01:58:05Z'
-status: market_context
+last_seen: '2026-10-03T01:12:55Z'
+status: pending_filter
 sources:
 - officialfeeds
 sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway
   seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/speed-insights-deprecates-first-input-delay-on-november-first
+  seen_at: '2026-10-03T01:12:55Z'
   metrics: {}
   kind: news
 ---
