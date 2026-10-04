@@ -36,8 +36,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBURmZvYkpiUDZ4MWxEWEw5NH
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBURmZvYkpiUDZ4MWxEWEw5NHVSYmFYdU42QzRLSENyUEZCRlBqQ2laeWtPX2hqRE9wcWt5OXR3RWYwRHRTS1hqNzRYUlQ0MGNBeTcw?oc=5
 summary: 睡着觉也能炒股？“美股散户大本营”Robinhood开放AI智能体，可24小时自动盯盘交易 华尔街见闻
 first_seen: '2026-09-30T11:26:06Z'
-last_seen: '2026-10-02T01:42:23Z'
-status: watching
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -49,6 +49,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VNlROQ0dPclhGdlBKa29XMEFEanVQbHY5MC14R3FoZU8yZ2lQLVFFVlRKc2xrV1JQUEhpWk1DaUNQQnd3WDJ4cWlkT0p4OUpqNGE3b0Ria3hzTm9jZ1Q4Q044NTY?oc=5
   seen_at: '2026-10-02T01:42:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wenJqT2ZRWXZNT0FLblV2TjBYcVdUTHlGTDZ4LURIRDhDbGRGNGMyMWtrQjQ4YzZDZmR6eVM1MERmTjJpZkRzS2F3TGJnSlhpenhwZkZXc3JxdkwxZ2RheDJmbDVEeTQ?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

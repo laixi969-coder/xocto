@@ -37,3 +37,12 @@
     shows how BMW added automated daily cost anomaly detection, moving from reactive dashboards to proactive
     alerts using Prophet forecasting, AWS Step Functions, and a serverless pipeline that processes every
     account for about $50 per month.
+- id: ev-7e378148c43caa47
+  project_slug: ntsb
+  url: https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf
+  title: NTSB Preliminary Report
+  published_at: '2026-10-03T01:09:01Z'
+  collected_at: '2026-10-04T00:37:53Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Prime Air 767 Runway Overrun [pdf]

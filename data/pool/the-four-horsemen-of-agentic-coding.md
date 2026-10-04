@@ -20,17 +20,17 @@ url: https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding
 canonical_url: https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding
 summary: The Four Horsemen of Agentic Coding
 first_seen: '2026-10-02T15:19:56Z'
-last_seen: '2026-10-03T01:12:27Z'
-status: rejected
+last_seen: '2026-10-04T00:37:53Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding
-  seen_at: '2026-10-03T01:12:27Z'
+  seen_at: '2026-10-04T00:37:53Z'
   metrics:
-    points: 106
-    comments: 80
+    points: 111
+    comments: 89
   kind: news
 ---
 

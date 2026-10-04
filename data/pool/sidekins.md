@@ -25,17 +25,17 @@ url: https://www.sidekins.com
 canonical_url: https://sidekins.com
 summary: a Mac companion that visits friends and does your work
 first_seen: '2026-10-02T16:22:37Z'
-last_seen: '2026-10-03T01:12:27Z'
+last_seen: '2026-10-04T00:37:53Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.sidekins.com
-  seen_at: '2026-10-03T01:12:27Z'
+  seen_at: '2026-10-04T00:37:53Z'
   metrics:
     points: 5
-    comments: 2
+    comments: 3
   kind: product
 ---
 

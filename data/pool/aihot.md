@@ -32,18 +32,18 @@ url: https://aihot.news
 canonical_url: https://aihot.news
 summary: 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
 first_seen: '2026-09-28T23:40:05Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://aihot.news
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 4962
-    forks: 1354
-    open_issues: 11
+    stars: 5405
+    forks: 1426
+    open_issues: 16
   kind: product
 ---
 

@@ -30,17 +30,17 @@ url: https://bise.dev/
 canonical_url: https://bise.dev
 summary: a multi-agent harness, made for humans
 first_seen: '2026-10-02T14:17:39Z'
-last_seen: '2026-10-03T01:12:27Z'
+last_seen: '2026-10-04T00:37:53Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://bise.dev/
-  seen_at: '2026-10-03T01:12:27Z'
+  seen_at: '2026-10-04T00:37:53Z'
   metrics:
-    points: 6
-    comments: 1
+    points: 9
+    comments: 3
   kind: product
 ---
 

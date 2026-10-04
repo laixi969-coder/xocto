@@ -40,3 +40,39 @@
   usage_reason_en: 'Inference: it performs noise reduction and echo cancellation locally, removing the
     step of uploading audio and registering an account, and plugs into meeting software as a virtual camera,
     so privacy-conscious users who do not want to buy hardware would choose it.'
+- id: req-initial-owlmic-2026-10-04
+  project_slug: owlmic
+  level: initial
+  reviewed_at: '2026-10-04T00:37:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把安卓手机变成电脑摄像头和麦克风的工具，通过 USB、Wi-Fi 或蓝牙传输 1080p 画面与低延迟音频，内置 RNNoise 降噪、回声消除和虚拟摄像头，全程本地处理、无需账号”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 40 个收藏、4 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 远程会议与直播的电脑使用者
+  job_en: Remote meeting and livestream computer users
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：远程会议与直播的电脑使用者；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Remote meeting and livestream computer users Public materials do not
+    yet explain why users choose this product over their existing approach.'

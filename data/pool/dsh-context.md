@@ -26,7 +26,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: queued
 sources:
 - github
@@ -241,19 +241,27 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/jevmem
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 105
+    stars: 111
     forks: 6
-    open_issues: 8
+    open_issues: 9
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-claude-style
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 75
+    stars: 80
     forks: 8
-    open_issues: 5
+    open_issues: 1
+  kind: product
+- source: github
+  url: https://www.npmjs.com/package/dsh-knit
+  seen_at: '2026-10-04T00:37:57Z'
+  metrics:
+    stars: 40
+    forks: 0
+    open_issues: 0
   kind: product
 ---
 

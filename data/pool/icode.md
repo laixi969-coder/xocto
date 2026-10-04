@@ -33,18 +33,18 @@ summary: A lightweight, extensible, fully offline development platform and agent
   the AI era, with an intuitive TUI, easy deployment, and complete control over your data, agents, and
   workflows.
 first_seen: '2026-09-28T03:35:08Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openJiuwen-ai/iCode
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 292
-    forks: 49
-    open_issues: 4
+    stars: 297
+    forks: 50
+    open_issues: 5
   kind: product
 ---
 

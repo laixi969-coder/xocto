@@ -21,17 +21,17 @@ canonical_url: https://github.com/bonnhatnguyen/dola-render-gateway
 summary: Dola Studio — AI Video Generation & Render Gateway (Seedance 2.5/2.0, 100% Unwatermarked Extractor,
   Browser Pool)
 first_seen: '2026-09-16T21:16:08Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bonnhatnguyen/dola-render-gateway
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 45
-    forks: 19
+    stars: 49
+    forks: 20
     open_issues: 0
   kind: product
 ---

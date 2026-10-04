@@ -41,17 +41,17 @@ canonical_url: https://github.com/Rylaispirit/cinematic-video-prompt-skill
 summary: 'AI video prompt cheat sheet & Claude Skill: cinematic camera angles, camera movement, lighting,
   composition, color grading for Veo 3, Kling, Sora, Runway, Midjourney. 700+ terms with Vietnamese explanations.'
 first_seen: '2026-09-20T16:44:06Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Rylaispirit/cinematic-video-prompt-skill
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 137
-    forks: 72
+    stars: 138
+    forks: 73
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,41 @@
+---
+slug: 大模型发展三年半ai圈终于等来了一场不要大厂只赌脑洞的比赛-程序员-哔哩哔哩-ai代码生成-投币-社区-手机新浪网
+name: 大模型发展三年半，AI圈终于等来了一场不要大厂，只赌脑洞的比赛|程序员|哔哩哔哩|AI代码生成|投币|社区_手机新浪网
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMigANBVV95cUxQUzd3b18tcU5UaXpJaHpFWHAxbU53TVNscnRfbVFIN0hXek1FM0NqNFpRcFdPNEFvUjVsd1psUHdfSm1vTENfZ1dWd043anZLWlJNa0NPTXNFT2Z1SFp5bGNkNjNnWHZVXzNwbHA0aW5GMExIQ1d2WWt0bVdXUEIwZGR5cFVlclhKZ3BrU3NuWUUyRWJrN0R3dlA5OFA0NDl1bEpJWTBjOGJ3bWVFeUNGUWRtZTdnd05ac0RsUDEzRUFBRk9jZ21GSEZCRTF1VHR0NGNWU3hDTW9uSDMxaThSY3Q3RlJHSlAzOV9ZVnVxUEJyNld3UjVaUFBVN3FWcHpKOU9MVGJyQXFabGJHbVl2U3pib3NLcUpUQXIxaHBDYTBjY0VTX3Q0MTdNV1FfdWNWdENCQlVpQ2tpdXU5RUZmb3czQlJOYk9DdWIwWlVXaUxlMVhjdXNEc09HSDRjai1GZEFLdWRVclQ2ZFUtXzdpZldGVWVJUHJLNEZQS0F5ajY?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMigANBVV95cUxQUzd3b18tcU5UaXpJaHpFWHAxbU53TVNscnRfbVFIN0hXek1FM0NqNFpRcFdPNEFvUjVsd1psUHdfSm1vTENfZ1dWd043anZLWlJNa0NPTXNFT2Z1SFp5bGNkNjNnWHZVXzNwbHA0aW5GMExIQ1d2WWt0bVdXUEIwZGR5cFVlclhKZ3BrU3NuWUUyRWJrN0R3dlA5OFA0NDl1bEpJWTBjOGJ3bWVFeUNGUWRtZTdnd05ac0RsUDEzRUFBRk9jZ21GSEZCRTF1VHR0NGNWU3hDTW9uSDMxaThSY3Q3RlJHSlAzOV9ZVnVxUEJyNld3UjVaUFBVN3FWcHpKOU9MVGJyQXFabGJHbVl2U3pib3NLcUpUQXIxaHBDYTBjY0VTX3Q0MTdNV1FfdWNWdENCQlVpQ2tpdXU5RUZmb3czQlJOYk9DdWIwWlVXaUxlMVhjdXNEc09HSDRjai1GZEFLdWRVclQ2ZFUtXzdpZldGVWVJUHJLNEZQS0F5ajY?oc=5
+summary: 大模型发展三年半，AI圈终于等来了一场不要大厂，只赌脑洞的比赛|程序员|哔哩哔哩|AI代码生成|投币|社区_手机新浪网 新浪财经
+first_seen: '2026-10-03T10:16:55Z'
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigANBVV95cUxQUzd3b18tcU5UaXpJaHpFWHAxbU53TVNscnRfbVFIN0hXek1FM0NqNFpRcFdPNEFvUjVsd1psUHdfSm1vTENfZ1dWd043anZLWlJNa0NPTXNFT2Z1SFp5bGNkNjNnWHZVXzNwbHA0aW5GMExIQ1d2WWt0bVdXUEIwZGR5cFVlclhKZ3BrU3NuWUUyRWJrN0R3dlA5OFA0NDl1bEpJWTBjOGJ3bWVFeUNGUWRtZTdnd05ac0RsUDEzRUFBRk9jZ21GSEZCRTF1VHR0NGNWU3hDTW9uSDMxaThSY3Q3RlJHSlAzOV9ZVnVxUEJyNld3UjVaUFBVN3FWcHpKOU9MVGJyQXFabGJHbVl2U3pib3NLcUpUQXIxaHBDYTBjY0VTX3Q0MTdNV1FfdWNWdENCQlVpQ2tpdXU5RUZmb3czQlJOYk9DdWIwWlVXaUxlMVhjdXNEc09HSDRjai1GZEFLdWRVclQ2ZFUtXzdpZldGVWVJUHJLNEZQS0F5ajY?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
+  metrics: {}
+  kind: news
+---
+
+# 大模型发展三年半，AI圈终于等来了一场不要大厂，只赌脑洞的比赛|程序员|哔哩哔哩|AI代码生成|投币|社区_手机新浪网
+
+大模型发展三年半，AI圈终于等来了一场不要大厂，只赌脑洞的比赛|程序员|哔哩哔哩|AI代码生成|投币|社区_手机新浪网 新浪财经
+
+## 笔记
+
+

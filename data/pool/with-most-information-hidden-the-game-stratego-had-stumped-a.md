@@ -24,8 +24,8 @@ url: https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-p
 canonical_url: https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget
 summary: Adding in a second neural network that guesses the identity of hidden pieces was key.
 first_seen: '2026-10-01T16:28:04Z'
-last_seen: '2026-10-03T01:12:27Z'
-status: market_context
+last_seen: '2026-10-04T00:37:53Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -37,10 +37,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/
-  seen_at: '2026-10-03T01:12:27Z'
+  seen_at: '2026-10-04T00:37:53Z'
   metrics:
-    points: 173
-    comments: 84
+    points: 277
+    comments: 142
   kind: news
 ---
 

@@ -1,0 +1,42 @@
+---
+slug: ai-startup-autoheal-raises-79-million-to-build-self-improvin
+name: AI startup Autoheal raises $7.9 million to build self-improving software factory for enterprises
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSl9oaDc0a2FuaDBPZDNDNlpudlp0cmZtMHVheG1mbTZsMWpDeHFpRUxreW5nWVlQcEZOTXhIZGs3NW85NlluNkpfc3NNNzVobHlOSDJtYk1UdHdRbGRzSHJjMHo0SmtVYWJVbUhVQTVOWXhqZlZISWdxWUNHTWF3SjRsTXpLa2k2LUxhQjdtTVNGUGF2eFYwSnJTSzlLTHIta3ZUT1pkLUFfcjdqMG9CN0tMSGRzZ20xTEREQzNMTExEQlRVXzNta05naW4ydkJkTUhhZmJwRE7SAdgBQVVfeXFMUEpfaGg3NGthbmgwT2QzQzZabnZadHJmbTB1YXhtZm02bDFqQ3hxaUVMa3luZ1lZUHBGTk14SGRrNzVvOTZZbjZKX3NzTTc1aGx5TkgybWJNVHR3UWxkc0hyYzB6NEprVWFiVW1IVUE1Tll4amZWSElncVlDR01hd0o0bE16S2tpNi1MYUI3bU1TRlBhdnhWMEpyU0s5S0xyLWt2VE9aZC1BX3I3ajBvQjdLTEhkc2dtMUxEREMzTExMREJUVV8zbWtOZ2luMnZCZE1IYWZicERO?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSl9oaDc0a2FuaDBPZDNDNlpudlp0cmZtMHVheG1mbTZsMWpDeHFpRUxreW5nWVlQcEZOTXhIZGs3NW85NlluNkpfc3NNNzVobHlOSDJtYk1UdHdRbGRzSHJjMHo0SmtVYWJVbUhVQTVOWXhqZlZISWdxWUNHTWF3SjRsTXpLa2k2LUxhQjdtTVNGUGF2eFYwSnJTSzlLTHIta3ZUT1pkLUFfcjdqMG9CN0tMSGRzZ20xTEREQzNMTExEQlRVXzNta05naW4ydkJkTUhhZmJwRE7SAdgBQVVfeXFMUEpfaGg3NGthbmgwT2QzQzZabnZadHJmbTB1YXhtZm02bDFqQ3hxaUVMa3luZ1lZUHBGTk14SGRrNzVvOTZZbjZKX3NzTTc1aGx5TkgybWJNVHR3UWxkc0hyYzB6NEprVWFiVW1IVUE1Tll4amZWSElncVlDR01hd0o0bE16S2tpNi1MYUI3bU1TRlBhdnhWMEpyU0s5S0xyLWt2VE9aZC1BX3I3ajBvQjdLTEhkc2dtMUxEREMzTExMREJUVV8zbWtOZ2luMnZCZE1IYWZicERO?oc=5
+summary: AI startup Autoheal raises $7.9 million to build self-improving software factory for enterprises
+  Indian Startup News
+first_seen: '2026-10-03T11:51:30Z'
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSl9oaDc0a2FuaDBPZDNDNlpudlp0cmZtMHVheG1mbTZsMWpDeHFpRUxreW5nWVlQcEZOTXhIZGs3NW85NlluNkpfc3NNNzVobHlOSDJtYk1UdHdRbGRzSHJjMHo0SmtVYWJVbUhVQTVOWXhqZlZISWdxWUNHTWF3SjRsTXpLa2k2LUxhQjdtTVNGUGF2eFYwSnJTSzlLTHIta3ZUT1pkLUFfcjdqMG9CN0tMSGRzZ20xTEREQzNMTExEQlRVXzNta05naW4ydkJkTUhhZmJwRE7SAdgBQVVfeXFMUEpfaGg3NGthbmgwT2QzQzZabnZadHJmbTB1YXhtZm02bDFqQ3hxaUVMa3luZ1lZUHBGTk14SGRrNzVvOTZZbjZKX3NzTTc1aGx5TkgybWJNVHR3UWxkc0hyYzB6NEprVWFiVW1IVUE1Tll4amZWSElncVlDR01hd0o0bE16S2tpNi1MYUI3bU1TRlBhdnhWMEpyU0s5S0xyLWt2VE9aZC1BX3I3ajBvQjdLTEhkc2dtMUxEREMzTExMREJUVV8zbWtOZ2luMnZCZE1IYWZicERO?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
+  metrics: {}
+  kind: news
+---
+
+# AI startup Autoheal raises $7.9 million to build self-improving software factory for enterprises
+
+AI startup Autoheal raises $7.9 million to build self-improving software factory for enterprises Indian Startup News
+
+## 笔记
+
+

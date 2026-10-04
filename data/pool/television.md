@@ -31,16 +31,16 @@ url: https://television.run/
 canonical_url: https://television.run
 summary: an open source GUI for your agent harness
 first_seen: '2026-10-02T23:25:04Z'
-last_seen: '2026-10-03T01:12:27Z'
+last_seen: '2026-10-04T00:37:53Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://television.run/
-  seen_at: '2026-10-03T01:12:27Z'
+  seen_at: '2026-10-04T00:37:53Z'
   metrics:
-    points: 5
+    points: 7
     comments: 1
   kind: product
 ---

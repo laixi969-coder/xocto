@@ -24,8 +24,8 @@ url: https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo
 canonical_url: https://bbc.co.uk/news/articles/c6n07ypqz8kzo
 summary: Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity
 first_seen: '2026-09-16T14:32:15Z'
-last_seen: '2026-09-29T01:58:05Z'
-status: rejected
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -58,6 +58,11 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/
   seen_at: '2026-09-29T01:58:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNUlJnSFJfNU1ob2ZyaUo4S0taeEFDdFY2ZzhzQXBKVXdTc0xNNV83R1ZKcWFwLTlUVUVTWjdkbDZGZlZhQnFremtOUG45Vk9ocXRESGJNNmRkZUlidUhseHlWRjRVMlZuTU85SUxDTTdRUkYxTTdnUGJncW0tYmtpYUlnM2wwTmRMdXhSQi1ZOHhWMzNDa2hfWmtRWQ?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

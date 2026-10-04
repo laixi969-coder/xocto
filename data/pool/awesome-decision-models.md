@@ -21,17 +21,17 @@ canonical_url: https://anotiawang.github.io/awesome-decision-models
 summary: 'A curated list of decision models (System One / typed decision models): hosted APIs, open-weight
   models, runtimes, SDKs, applications, benchmarks, and papers.'
 first_seen: '2026-09-17T12:30:31Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://anotiawang.github.io/awesome-decision-models/
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 600
-    forks: 125
+    stars: 606
+    forks: 123
     open_issues: 5
   kind: product
 ---

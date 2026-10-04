@@ -43,8 +43,8 @@ canonical_url: https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-sec
 summary: The round builds on a $30 million fundraise in February, taking the company's total funding to
   $140 million.
 first_seen: '2026-09-29T12:30:00Z'
-last_seen: '2026-10-02T01:42:23Z'
-status: rejected
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -67,6 +67,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWtnZmx4NUFtbk9vZnluZDNmQmNZaEJPd3VLRHJlVGxrNDdvdmxyLXRqTl9sa1U1MVpmTUgxWUZuQWVYSy13QllpYjVXV0RiZlFLWUdfLWhsd0d6SVJVeUdrUU8xSmF5VndUNjZaTWlROUszN2dFM2NRZndDNkd1eFFsZnhINlBGQ3dqYWVYZlE5alBUN0tXNlZXTGxCTlhIMUpzYl95dGZhOWs?oc=5
   seen_at: '2026-10-02T01:42:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidEFVX3lxTE04U3NDU0hxYUcwUmtWYkZrclNEVFVwbGx1TjRNVzJnYmlXVlkwZDRxUnowaVlQMk8zQ1pGaW92cXpjNkhpM0ZzV0RmU1ZPS212S2VMYTZaOEdvMGQxTVNCa3d4aWdJbUpSUW1IekZ1UFZlVW1B?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

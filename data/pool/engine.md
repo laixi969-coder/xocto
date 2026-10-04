@@ -30,8 +30,8 @@ url: https://engine.tastelabs.com/
 canonical_url: https://engine.tastelabs.com
 summary: The Brand API, a taste tool for agents
 first_seen: '2026-09-15T18:45:31Z'
-last_seen: '2026-10-02T01:42:23Z'
-status: rejected
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -62,6 +62,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQWW5zTU9wZFc1dGhGaWIydWtVTnZqQnFmNVJTeW9VaHc3aTJZb0J4XzQtTW1QRWlzMWdIb2hTaVE0cTZtOTRCYnU5dUo2aDM5X0tvQjdIWEkydUl4MDlJYWJrc0dTeEUyS0tNWHJzV0F0NGttakxtOGRuQ3Q1M3l2V1BlbHFoWVljM3BOS1BB?oc=5
   seen_at: '2026-10-02T01:42:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQb213eFlOWGxsTmJFZWhSMzcyRGNsdU1MUlNZVXVwZlozMnhfT1V1eWU2aHZ2cVFkcmJ1eXhEVURJLWE2Q2J0RFJDcEpDZXdPZ2lLSzltMVdkSV9ONnJEZFVJck0ySmRGVHhKTkwxbWh2WEZxemhDQnNyazM0WmFGZUxZVEJXQVZoSHpRSjFMaHNyeEw3YmxXR3dxYXBXN0JIWWJ3?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

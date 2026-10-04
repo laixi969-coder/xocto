@@ -310,3 +310,19 @@
     \ Terminal 塞进去，然后 SSH 、标签页、分屏、SFTP……一点一点往回补。\r\n\r\n做到现在，终于开始有点像 NyaTerm 了。\r\n\r\n目前常用的这些东西基本都已经陆续搬过来了：\r\
     \n\r\n- SSH 、Telnet 、本地终端\r\n- 多标签、分屏\r\n- SFTP 和文件管理\r\n- RDP / VNC\r\n- Docker 、进程管理\r\n- AI Assistant\r\
     \n- Cloud Sync\r\n- 快捷命令、凭据管理等\r\n\r\n当然，**能用和好用还是两回事。**\r\n\r\n最近几个 Preview 很多时间其实都花在一些特别细碎的地方。"
+- id: ev-e818eadd1d24992f
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1246309
+  title: '[分享创造] NetPulse：复制一句话给 AI Agent，让它把你所有 VPS 体检一遍'
+  published_at: '2026-10-03T14:57:48Z'
+  collected_at: '2026-10-04T00:37:51Z'
+  source_kind: product
+  tier: independent
+  fact: "手里几台 VPS ，每次续费前、换 IP 后都要查一遍：IP 干净吗、原生吗、DNS 漏吗、流媒体解锁吗、延迟测速怎么样。脚本找了一堆，输出还得自己一行行看。\r\n\r\n我就写了个单文件\
+    \ Python 工具，开源 MIT ，叫 NetPulse 。用法是本地一条命令：\r\n\r\n```\r\npython3 netpulse.py --host root@vps-a --host\
+    \ root@vps-b --json\r\n```\r\n\r\n经 SSH 在远端执行，结果拿回本地，多机自动出对比表。`--json` 输出结构化结果，丢给 Claude / Codex 直接出中文总结。官网首页放了一句\
+    \ prompt ，复制粘贴就能用。\r\n\r\n检测项：IP 纯净度（机房 / 代理标记）、原生 IP （ Team Cymru ASN 注册地 vs IP 属地）、DNS 泄露、11 项流媒体解锁、ChatGPT\
+    \ / Claude / Gemini API 可达。AI 可达走 API 端点探针，401 （无 key 但请求到网关了）算可达；首页 403 很多时候只是反爬，我不拿它当证据。\r\n\r\n\
+    延迟是三次采样取中位数；测速响应不足 1MB 直接判 error ，不把错误页算成速率。查不到的就标 unknown ，我不编\"风控分\"这种自创指标。\r\n\r\n所有检测都在你本机 / 你的\
+    \ VPS 上跑，IP 数据不经过第三方网页服务。\r\n\r\nGitHub： https://github.com/Genuifx/NetPulse\r\n官网： https://genuifx.github.io/NetPulse/\r\
+    \n\r\n手里有机器的欢迎跑一下，原生 IP / AI 可达跟实际对不上的，提 issue 我去调数据源。"

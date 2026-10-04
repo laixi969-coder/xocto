@@ -20,17 +20,17 @@ url: https://yuka.dev/blog-2026-10-02-linux-m4.html
 canonical_url: https://yuka.dev/blog-2026-10-02-linux-m4.html
 summary: The Forgetful CPU (Linux on M4)
 first_seen: '2026-10-02T14:22:12Z'
-last_seen: '2026-10-03T01:12:27Z'
-status: rejected
+last_seen: '2026-10-04T00:37:53Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://yuka.dev/blog-2026-10-02-linux-m4.html
-  seen_at: '2026-10-03T01:12:27Z'
+  seen_at: '2026-10-04T00:37:53Z'
   metrics:
-    points: 89
-    comments: 13
+    points: 260
+    comments: 193
   kind: news
 ---
 

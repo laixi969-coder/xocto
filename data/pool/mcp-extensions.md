@@ -24,18 +24,18 @@ url: https://github.com/openai/mcp-extensions
 canonical_url: https://github.com/openai/mcp-extensions
 summary: Build plugins that feel like native, first-class features of ChatGPT.
 first_seen: '2026-09-29T00:45:42Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/mcp-extensions
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 699
-    forks: 41
-    open_issues: 12
+    stars: 727
+    forks: 43
+    open_issues: 14
   kind: product
 ---
 

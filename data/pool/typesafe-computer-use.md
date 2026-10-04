@@ -27,16 +27,16 @@ canonical_url: https://github.com/awlevin/typesafe-computer-use
 summary: 'Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe,
   click. macOS.'
 first_seen: '2026-09-16T17:48:45Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/awlevin/typesafe-computer-use
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 1144
+    stars: 1158
     forks: 112
     open_issues: 33
   kind: product

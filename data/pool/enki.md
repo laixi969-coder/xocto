@@ -34,16 +34,16 @@ url: https://github.com/enkiruntime/enki
 canonical_url: https://github.com/enkiruntime/enki
 summary: Write GPU compute kernels in pure stable Rust
 first_seen: '2026-10-02T19:15:01Z'
-last_seen: '2026-10-03T01:12:27Z'
+last_seen: '2026-10-04T00:37:53Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/enkiruntime/enki
-  seen_at: '2026-10-03T01:12:27Z'
+  seen_at: '2026-10-04T00:37:53Z'
   metrics:
-    points: 9
+    points: 10
     comments: 1
   kind: product
 ---

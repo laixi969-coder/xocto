@@ -37,17 +37,17 @@ canonical_url: https://github.com/arikchakma/opencloak
 summary: Swap the personal details out of your AI prompts before they are sent. On-device detection, no
   server, no account.
 first_seen: '2026-09-19T17:07:45Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/arikchakma/opencloak
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
     stars: 44
-    forks: 4
+    forks: 5
     open_issues: 0
   kind: product
 ---

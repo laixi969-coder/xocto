@@ -35,8 +35,8 @@ url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPdC1mc0JqOW5qRVhDbGVhTj
 canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPdC1mc0JqOW5qRVhDbGVhTjJEUlRNeHd3UUJBMjhCVmFmMWtSUWRzWWJmeXhRbUU0QW1DY1NXb3dBTmNsTVEwbGpMNFdRRVZ5bHJOdnRZTzl6bVFyNkZuaFZzcFVlRjljekRUdzlTd3RHYlNyXzRzXzVsT2NVRkowSkU4RmQ4aWJ5ZEFmbUYwcGhIV0E?oc=5
 summary: Lemonade Launches Car Insurance in Missouri With Tesla FSD Discount Unite.AI
 first_seen: '2026-09-02T18:33:01Z'
-last_seen: '2026-09-11T00:10:59Z'
-status: queued
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -48,6 +48,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiywFBVV95cUxONThHTFN0TGhuSC1IbVU5b3FQRk1Qbl9uOXRkZ0RBbXhKSjRBcTlRMGJVT0xXeVRXQ05mU2VXSjRpQWotY0k5YWFPVXVyLVh5SVBuRWluUGx5R1djYktKWGlGalF3dnljbUl2aHVvVUtSMnRzcHl0OGtfQ0VfaTBXWVZvc0Zka25xdjh4dEotV0cxRTFXYkM0ZHdyUC05bmNHcS1pc3ZwTFhaZFpQUDFoSG5wa2FZQktxbndmQmFFY0RkLUdNMUdJLUN6dw?oc=5
   seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPaUd0bkNkZjlpdlJHaFVOc2NDQmpRTEQyN282cnN4N1JuZUxOTzRYc1l6Z3BQMVpjMmRaM2NQNlh6WkFWN2xOWmVKaGZxTkhlRUN5MkQ2dmtNUkNIcUJuNU5YOTc3SHZ0cVBZbm1VUmpueG5FR3NDdE9aSWg5bldlMlh1UTd4NjJ2aEp3ZjROU3N1Z1p2ZDJicUk5bHJzQldaa05Oc0FxVG13VHNoS2RjeGNjZVRyUQ?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

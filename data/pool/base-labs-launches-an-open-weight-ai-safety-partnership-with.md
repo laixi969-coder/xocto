@@ -23,10 +23,11 @@ canonical_url: https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weig
 summary: Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods
   for training and monitoring open models.
 first_seen: '2026-09-17T17:15:59Z'
-last_seen: '2026-10-01T01:19:01Z'
-status: rejected
+last_seen: '2026-10-04T00:38:15Z'
+status: pending_filter
 sources:
 - marketfeeds
+- officialfeeds
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/
@@ -66,6 +67,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/30/berlin-based-restate-raises-20m/
   seen_at: '2026-10-01T01:19:01Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://huggingface.co/blog/microsoft/thinkingbox
+  seen_at: '2026-10-04T00:38:15Z'
   metrics: {}
   kind: news
 ---

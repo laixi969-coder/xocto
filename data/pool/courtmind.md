@@ -33,16 +33,16 @@ url: https://github.com/HuangZeLinCute/CourtMind
 canonical_url: https://github.com/HuangZeLinCute/CourtMind
 summary: 'CourtMind: Your AI Badminton Coach from Any Match Video'
 first_seen: '2026-09-15T14:11:48Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/HuangZeLinCute/CourtMind
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 148
+    stars: 149
     forks: 14
     open_issues: 0
   kind: product

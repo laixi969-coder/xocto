@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5CZHJWQ0huUks2MlpYaHRrV0
 canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5CZHJWQ0huUks2MlpYaHRrV0wxRUFQUWRkNDJqZ0Fpa25zWkRuN3RSVHNjYzRTT29ROTA2Z0EwZmJZMnhYMXhzTzJ0SzNHWWNPN0JhakMtc2xYQ196aHJvaXoya3J2aHRlWTZHZ1VoX0dJaHhmX1E?oc=5
 summary: Only 6% Trust AI Suggestions to Make the Final Purchase Call CX Today
 first_seen: '2026-10-02T11:01:00Z'
-last_seen: '2026-10-03T01:13:03Z'
-status: rejected
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5CZHJWQ0huUks2MlpYaHRrV0wxRUFQUWRkNDJqZ0Fpa25zWkRuN3RSVHNjYzRTT29ROTA2Z0EwZmJZMnhYMXhzTzJ0SzNHWWNPN0JhakMtc2xYQ196aHJvaXoya3J2aHRlWTZHZ1VoX0dJaHhmX1E?oc=5
   seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMicEFVX3lxTE82SDlldklYREJla3FKNFJHWnMzWXRaMFVHSmd6R2p2MEFFaEI4dDF1cGc2c3l3VF8tRXpUQ2hEdC1DN3pEa0hUeTBJSmh0dHZndUtBM2EySHpjQXJrckFWZnMxUEV6MmFTSUExMmJHTFQ?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

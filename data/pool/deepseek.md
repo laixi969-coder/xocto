@@ -36,8 +36,8 @@ url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-10-01T01:19:01Z'
-status: queued
+last_seen: '2026-10-04T00:38:16Z'
+status: pending_filter
 sources:
 - aicpb
 - newssearch
@@ -105,6 +105,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/499263.html
   seen_at: '2026-10-01T01:19:01Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/10/501381.html
+  seen_at: '2026-10-04T00:38:16Z'
   metrics: {}
   kind: news
 ---

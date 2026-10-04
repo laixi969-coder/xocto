@@ -31,17 +31,17 @@ canonical_url: https://luobosibing2.github.io/dsh-jev-plugin
 summary: Native DeepSeek Harness (DSH) plugin integrating TypeSafe Jev as a System One decision layer
   for agent selection, supervision, corrections, and approvals.
 first_seen: '2026-09-27T15:36:12Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://luobosibing2.github.io/dsh-jev-plugin/
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 82
-    forks: 6
+    stars: 97
+    forks: 7
     open_issues: 2
   kind: product
 ---

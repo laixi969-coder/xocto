@@ -26,14 +26,20 @@ url: https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-per
 canonical_url: https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents
 summary: Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.
 first_seen: '2026-10-02T23:03:16Z'
-last_seen: '2026-10-03T01:12:56Z'
-status: market_context
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/
   seen_at: '2026-10-03T01:12:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPN0RLajMzaGJiZ0ZtRnYyR19NUVpwcEhRM3VrWDlLWlM4di1GSk5nTmhsLWMxWkVsWkkwOEhBcHAwWU1ac2xHZk5HNmRrbllUS0thcmI2c0pnbEJfQUhwOUdFMGpKRW5DOFY4YW1pUWw2aW5yZmdTN3ozandiby1Ub0pISUpiSUxLUWc?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

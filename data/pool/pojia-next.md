@@ -21,17 +21,17 @@ canonical_url: https://github.com/z91772524-ai/pojia-next
 summary: 一个脚本搞定 DSH / WorkBuddy / ZCode / Codex / Cursor / Claude 六客户端的提示词与人格替换：零依赖、双击即用、可自证、改前备份、一键还原。附
   bandit/semgrep 扫描与 SHA256 校验。
 first_seen: '2026-09-17T12:36:10Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/z91772524-ai/pojia-next
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 122
-    forks: 12
+    stars: 131
+    forks: 14
     open_issues: 1
   kind: product
 ---

@@ -1,0 +1,42 @@
+---
+slug: ai-search-startup-unveilr-ai-raises-pre-seed-funding-from-aj
+name: AI search startup Unveilr AI raises pre-seed funding from AJVC at Rs 16.7 crore valuation
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdGJQN0RPUThmeEtrSXRjSExKUlBHRjF6Y2prZTlNamU1Z2RXVW44TW93cnRwbFVQZm1HRmhkcGlTM29YbmJsOWptRmN6OXJIa0M5anExVkk4TlpJOENUTzNoaWhZMVJ1aEI2SU92X0lDR1FpQmVGb20tbnZrYkZUN3dOUHk0OFdVS3AxM0hkMWctakhuQTVyblgzTmVfclZnbmhVYllMNzZnRFpTUGRYTzAzUE5kRjNKS1QydmU1aDNDTGg0QmFOSHhzRFp6eHhn0gHQAUFVX3lxTE50YlA3RE9ROGZ4S2tJdGNITEpSUEdGMXpjamtlOU1qZTVnZFdVbjhNb3dydHBsVVBmbUdGaGRwaVMzb1huYmw5am1GY3o5ckhrQzlqcTFWSThOWkk4Q1RPM2hpaFkxUnVoQjZJT3ZfSUNHUWlCZUZvbS1udmtiRlQ3d05QeTQ4V1VLcDEzSGQxZy1qSG5BNXJuWDNOZV9yVmduaFViWUw3NmdEWlNQZFhPMDNQTmRGM0pLVDJ2ZTVoM0NMaDRCYU5IeHNEWnp4eGc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdGJQN0RPUThmeEtrSXRjSExKUlBHRjF6Y2prZTlNamU1Z2RXVW44TW93cnRwbFVQZm1HRmhkcGlTM29YbmJsOWptRmN6OXJIa0M5anExVkk4TlpJOENUTzNoaWhZMVJ1aEI2SU92X0lDR1FpQmVGb20tbnZrYkZUN3dOUHk0OFdVS3AxM0hkMWctakhuQTVyblgzTmVfclZnbmhVYllMNzZnRFpTUGRYTzAzUE5kRjNKS1QydmU1aDNDTGg0QmFOSHhzRFp6eHhn0gHQAUFVX3lxTE50YlA3RE9ROGZ4S2tJdGNITEpSUEdGMXpjamtlOU1qZTVnZFdVbjhNb3dydHBsVVBmbUdGaGRwaVMzb1huYmw5am1GY3o5ckhrQzlqcTFWSThOWkk4Q1RPM2hpaFkxUnVoQjZJT3ZfSUNHUWlCZUZvbS1udmtiRlQ3d05QeTQ4V1VLcDEzSGQxZy1qSG5BNXJuWDNOZV9yVmduaFViWUw3NmdEWlNQZFhPMDNQTmRGM0pLVDJ2ZTVoM0NMaDRCYU5IeHNEWnp4eGc?oc=5
+summary: AI search startup Unveilr AI raises pre-seed funding from AJVC at Rs 16.7 crore valuation Indian
+  Startup News
+first_seen: '2026-10-03T07:00:20Z'
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdGJQN0RPUThmeEtrSXRjSExKUlBHRjF6Y2prZTlNamU1Z2RXVW44TW93cnRwbFVQZm1HRmhkcGlTM29YbmJsOWptRmN6OXJIa0M5anExVkk4TlpJOENUTzNoaWhZMVJ1aEI2SU92X0lDR1FpQmVGb20tbnZrYkZUN3dOUHk0OFdVS3AxM0hkMWctakhuQTVyblgzTmVfclZnbmhVYllMNzZnRFpTUGRYTzAzUE5kRjNKS1QydmU1aDNDTGg0QmFOSHhzRFp6eHhn0gHQAUFVX3lxTE50YlA3RE9ROGZ4S2tJdGNITEpSUEdGMXpjamtlOU1qZTVnZFdVbjhNb3dydHBsVVBmbUdGaGRwaVMzb1huYmw5am1GY3o5ckhrQzlqcTFWSThOWkk4Q1RPM2hpaFkxUnVoQjZJT3ZfSUNHUWlCZUZvbS1udmtiRlQ3d05QeTQ4V1VLcDEzSGQxZy1qSG5BNXJuWDNOZV9yVmduaFViWUw3NmdEWlNQZFhPMDNQTmRGM0pLVDJ2ZTVoM0NMaDRCYU5IeHNEWnp4eGc?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
+  metrics: {}
+  kind: news
+---
+
+# AI search startup Unveilr AI raises pre-seed funding from AJVC at Rs 16.7 crore valuation
+
+AI search startup Unveilr AI raises pre-seed funding from AJVC at Rs 16.7 crore valuation Indian Startup News
+
+## 笔记
+
+

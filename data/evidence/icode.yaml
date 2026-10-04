@@ -693,3 +693,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者在无法联网或数据不能外传的环境中，把本地代码与任务交给离线 agent 执行并取回结果'
+- id: ev-5b29c739d514d906
+  project_slug: icode
+  url: https://github.com/openJiuwen-ai/iCode
+  title: iCode
+  published_at: '2026-09-28T03:35:08Z'
+  collected_at: '2026-10-04T00:37:57Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A lightweight, extensible, fully offline development platform and agent/workflow toolkit for
+    the AI era, with an intuitive TUI, easy deployment, and complete control over your data, agents, and
+    workflows. | repository stars: 297'

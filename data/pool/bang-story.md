@@ -34,17 +34,17 @@ canonical_url: https://youtube.com/bangtutorial
 summary: 'Aplikasi desktop untuk mengubah ide cerita jadi video YouTube dengan AI. Masukin ide cerita:
   naskah, gambar, video jadi otomatis.'
 first_seen: '2026-10-02T05:18:21Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://youtube.com/bangtutorial
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 42
-    forks: 25
+    stars: 62
+    forks: 31
     open_issues: 0
   kind: product
 ---

@@ -34,17 +34,17 @@ url: https://github.com/xai-org/community-writer
 canonical_url: https://github.com/xai-org/community-writer
 summary: Community driven AI writer for Community Notes
 first_seen: '2026-09-24T17:00:48Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xai-org/community-writer
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
     stars: 1
-    forks: 1
+    forks: 2
     open_issues: 0
   kind: product
 ---

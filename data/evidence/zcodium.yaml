@@ -98,3 +98,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 信息安全 开发者工具链合规审查 开源代码审计'
+- id: ev-3193590c7aa300d5
+  project_slug: zcodium
+  url: https://zcodium-project.github.io/
+  title: ZCodium
+  published_at: '2026-09-23T21:53:06Z'
+  collected_at: '2026-10-04T00:37:57Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'ZCodium，Independent audit fork of ZCode (ZCode → ZCodium). All monitoring and telemetry removed;
+    upstream commits reviewed one by one. ZCode 的独立审计分支（ZCode → ZCodium）：已移除监控与遥测，上游改动逐提交审阅。 | repository
+    stars: 214'

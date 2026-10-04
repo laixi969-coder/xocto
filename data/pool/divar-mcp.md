@@ -36,16 +36,16 @@ url: https://divar-mcp.mmdju2.workers.dev
 canonical_url: https://divar-mcp.mmdju2.workers.dev
 summary: MCP server for Divar — search, compare and analyze classified ads. Read-only, no API key.
 first_seen: '2026-09-18T02:14:13Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://divar-mcp.mmdju2.workers.dev
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 88
+    stars: 89
     forks: 8
     open_issues: 0
   kind: product

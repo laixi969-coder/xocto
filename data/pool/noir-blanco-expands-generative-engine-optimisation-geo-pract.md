@@ -1,0 +1,42 @@
+---
+slug: noir-blanco-expands-generative-engine-optimisation-geo-pract
+name: NOIR & BLANCO Expands Generative Engine Optimisation (GEO) Practice for AI-Led Discovery
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUkFiOUFsN2RkTWVIazFhNDNoSUY1VUM5THIyOVNFVmg4QmhicEtTakpacU9xUkVETC1uSlRFWk5ERFA4T01LN2tEUm0wajNkMENnemVubEFMdWstenFRZGdLSVlVbmp3Rm1mUHk0QVdsZDR2M0MtSHUxSElnNXJkeDIwYVBlZF9td1NFYzBiRFVfSHVVN0dvZ01BUDNzVEJPaks3b0tRT0dmakNJaU5JRVpMOE04VDR3WHhwNnRJOWJ3UmhnZFBKRFVjTjZTM1IzekF3TVV1V0FibGxzVlJhQmRjdzc3MFHSAecBQVVfeXFMT1JBYjlBbDdkZE1lSGsxYTQzaElGNVVDOUxyMjlTRVZoOEJoYnBLU2pKWnFPcVJFREwtbkpURVpORERQOE9NSzdrRFJtMGozZDBDZ3plbmxBTHVrLXpxUWRnS0lZVW5qd0ZtZlB5NEFXbGQ0djNDLUh1MUhJZzVyZHgyMGFQZWRfbXdTRWMwYkRVX0h1VTdHb2dNQVAzc1RCT2pLN29LUU9HZmpDSWlOSUVaTDhNOFQ0d1h4cDZ0STlid1JoZ2RQSkRVY042UzNSM3pBd01VdVdBYmxsc1ZSYUJkY3c3NzBR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUkFiOUFsN2RkTWVIazFhNDNoSUY1VUM5THIyOVNFVmg4QmhicEtTakpacU9xUkVETC1uSlRFWk5ERFA4T01LN2tEUm0wajNkMENnemVubEFMdWstenFRZGdLSVlVbmp3Rm1mUHk0QVdsZDR2M0MtSHUxSElnNXJkeDIwYVBlZF9td1NFYzBiRFVfSHVVN0dvZ01BUDNzVEJPaks3b0tRT0dmakNJaU5JRVpMOE04VDR3WHhwNnRJOWJ3UmhnZFBKRFVjTjZTM1IzekF3TVV1V0FibGxzVlJhQmRjdzc3MFHSAecBQVVfeXFMT1JBYjlBbDdkZE1lSGsxYTQzaElGNVVDOUxyMjlTRVZoOEJoYnBLU2pKWnFPcVJFREwtbkpURVpORERQOE9NSzdrRFJtMGozZDBDZ3plbmxBTHVrLXpxUWRnS0lZVW5qd0ZtZlB5NEFXbGQ0djNDLUh1MUhJZzVyZHgyMGFQZWRfbXdTRWMwYkRVX0h1VTdHb2dNQVAzc1RCT2pLN29LUU9HZmpDSWlOSUVaTDhNOFQ0d1h4cDZ0STlid1JoZ2RQSkRVY042UzNSM3pBd01VdVdBYmxsc1ZSYUJkY3c3NzBR?oc=5
+summary: NOIR & BLANCO Expands Generative Engine Optimisation (GEO) Practice for AI-Led Discovery The
+  Tribune
+first_seen: '2026-10-01T09:49:55Z'
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUkFiOUFsN2RkTWVIazFhNDNoSUY1VUM5THIyOVNFVmg4QmhicEtTakpacU9xUkVETC1uSlRFWk5ERFA4T01LN2tEUm0wajNkMENnemVubEFMdWstenFRZGdLSVlVbmp3Rm1mUHk0QVdsZDR2M0MtSHUxSElnNXJkeDIwYVBlZF9td1NFYzBiRFVfSHVVN0dvZ01BUDNzVEJPaks3b0tRT0dmakNJaU5JRVpMOE04VDR3WHhwNnRJOWJ3UmhnZFBKRFVjTjZTM1IzekF3TVV1V0FibGxzVlJhQmRjdzc3MFHSAecBQVVfeXFMT1JBYjlBbDdkZE1lSGsxYTQzaElGNVVDOUxyMjlTRVZoOEJoYnBLU2pKWnFPcVJFREwtbkpURVpORERQOE9NSzdrRFJtMGozZDBDZ3plbmxBTHVrLXpxUWRnS0lZVW5qd0ZtZlB5NEFXbGQ0djNDLUh1MUhJZzVyZHgyMGFQZWRfbXdTRWMwYkRVX0h1VTdHb2dNQVAzc1RCT2pLN29LUU9HZmpDSWlOSUVaTDhNOFQ0d1h4cDZ0STlid1JoZ2RQSkRVY042UzNSM3pBd01VdVdBYmxsc1ZSYUJkY3c3NzBR?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
+  metrics: {}
+  kind: news
+---
+
+# NOIR & BLANCO Expands Generative Engine Optimisation (GEO) Practice for AI-Led Discovery
+
+NOIR & BLANCO Expands Generative Engine Optimisation (GEO) Practice for AI-Led Discovery The Tribune
+
+## 笔记
+
+

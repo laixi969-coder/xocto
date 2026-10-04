@@ -20,17 +20,17 @@ url: https://www.nber.org/papers/w35655
 canonical_url: https://nber.org/papers/w35655
 summary: Crypto Capture of Foreign Aid
 first_seen: '2026-10-02T18:14:29Z'
-last_seen: '2026-10-03T01:12:27Z'
-status: rejected
+last_seen: '2026-10-04T00:37:53Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.nber.org/papers/w35655
-  seen_at: '2026-10-03T01:12:27Z'
+  seen_at: '2026-10-04T00:37:53Z'
   metrics:
-    points: 85
-    comments: 30
+    points: 99
+    comments: 37
   kind: news
 ---
 

@@ -22,8 +22,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-10-03T01:13:03Z'
-status: market_context
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -245,6 +245,33 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQVndoTnQtNUhNMmxHWWdZWC1nUW9Fc2tfT08yUDhvdmtfSHItOVJ6amFVZTFQcFoxTTV0eldqSVctWlI2MlNDM1hJOUhiS05YM2VyNUZhbUNxUWZJcVlrVjlOcXNud1J6dmQ1UXZsNGtlbkdxOWluREN3aGY1Y0RXV3NCVUhzTlBBVXk1NQ?oc=5
   seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken
+  seen_at: '2026-10-04T00:37:53Z'
+  metrics:
+    points: 82
+    comments: 33
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/10/501368.html
+  seen_at: '2026-10-04T00:38:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+  seen_at: '2026-10-04T00:38:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mTV9KaVF3eVpleTZqd29GRlFGTnVKTDBUMWNaS2Z4MHlsWW4yNGhIenJVMnJKZ0FTSmt5NDZGX1M1WHdkZURZNnVvaUw?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqwRBVV95cUxPVEMzbjh6eV9KYXhDOFczR2hJV0Nua1p6aGY3YVBIYk85MHFRcHZaQS02ajFJQUUtdm1VYlFXUm9OdC1BUTZuRmQtOUV3a1kwUjBLTW9ibmtBMG5xcl81ZE5MRG1sQm1nNUM2REVnWGFIY0VzcnRhSXMwb3FqWXgtalNlcW5vUDV5Q1RwakU0R1pmc2RFTExqS1RackgtX0FoRTRqUk5SZjZDYUZFcWItZC12RUZwS1F1ZHIxbEhmUXRFUzJLRm83Q0YwWVlXWXVoWDhPRmU0eHZsclR0M1hrTnJmRHpZSkg4ei0tTjdGeVNmVVZiczd3TmlOeENlNC01SEg3Z2lSVWJUQk5pQlJXVk9XeWNWZjN5cUhsbGZUeWhWclB4Z0Y1U2IzUVNJOXU5NXNkU2gtZ0hXS2pQX1dTckx0cklJSE12VG5oYWlad2J6U3NrVjdGaERpMmVvMGZFdzBLX2hPRVNkRFNJMVNVMXNIWXc1SThLSTJSZVhtRFI1czZsZWNONVJkcDBOLV9uNTRic1c4bEcxUGw1dkFjc1NUX3dBaWVKSF9GLTh5bkNVYWhXWXF1RWh0bHMyMjE2cGZmSGwzMDJVQ0RyWTBSVjR3d0Y0T2t4WldScjJFS1NhTldHZktjblU3T3hkTGJEcVRwZWluaDczZ3dyd2RiMnYyZUE0VktneFhWejJvM3ZjOW13UGtsa0Z2LXpYMWV2TmQtaUhrcFY4cmM?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

@@ -36,3 +36,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 消费电子 通信设备 仍在使用诺基亚 S40/S60 功能机的用户在无法联网搜索时获取问答信息'
+- id: ev-060d835e7d4134e2
+  project_slug: aikon
+  url: https://aikonchat.com/
+  title: AIKON
+  published_at: '2026-09-26T03:40:08Z'
+  collected_at: '2026-10-04T00:37:57Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A 2007 Nokia can''t search Google anymore, so I gave it Claude, ChatGPT, Gemini and Grok. J2ME
+    app for Nokia S40/S60 + tiny Go server. | repository stars: 322'

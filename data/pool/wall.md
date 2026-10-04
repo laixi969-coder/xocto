@@ -20,8 +20,8 @@ url: https://procgrafprot.vercel.app/wall
 canonical_url: https://procgrafprot.vercel.app/wall
 summary: Procedural Generated Grafitti Wall
 first_seen: '2026-08-14T19:38:52Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-04T00:38:23Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -229,6 +229,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNktLazZ2OUdxcmhjUi1SZUd0OFlxMVdFSS03SGpWbERHS1VTRGdfTUg0Rnk5RjRVNEs4S2RuaUE3SU4zZFBXajhpaHNXcHFBVklBeklNdTU4aXNhWHlLTS1FYTZnVlZSVUdhZ2k2TVBJclBRdW5TV194eGZWZkExRElleWVWeWhZa1ZtVzEyOWpuak1jQ1dTWXRoSS1mbkxsRERUVUdJYzlNcjRRWHVVcTFXWmFQeXhhbFJqZkFJaXUyZXVZUFA4TWtzQ1ZkMUF00gHQAUFVX3lxTE02S0trNnY5R3FyaGNSLVJlR3Q4WXExV0VJLTdIalZsREdLVVNEZ19NSDRGeTlGNFU0SzhLZG5pQTdJTjNkUFdqOGloc1dwcUFWSUF6SU11NThpc2FYeUtNLUVhNmdWVlJVR2FnaTZNUElyUFF1blNXX3h4ZlZmQTFESWV5ZVZ5aFlrVm1XMTI5am5qTWNDV1NZdGhJLWZuTGxERFRVR0ljOU1yNFFYdVVxMVdaYVB5eGFsUmpmQUlpdTJldVlQUDhNa3NDVmQxQXQ?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HdWwzUHpyWHNtbjZBZWREREhyeTRQR0s1Z0JuNUM1ZUF6QXE4VF9vV1JJQThCMHJVbjZqc2N6clhBUlNHbjdPNHNVaWk1QlVVaHc?oc=5
+  seen_at: '2026-10-04T00:38:23Z'
   metrics: {}
   kind: news
 ---

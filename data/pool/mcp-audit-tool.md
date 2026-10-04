@@ -37,17 +37,17 @@ summary: 🛡️ Security audit CLI for Model Context Protocol (MCP) servers —
   poisoning, rug pulls, hardcoded secrets, command injection & supply-chain risks. Pure Python, SARIF
   + CI ready.
 first_seen: '2026-09-26T02:42:57Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/graygnatconsole/mcp-audit-tool
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 53
-    forks: 2
+    stars: 76
+    forks: 3
     open_issues: 0
   kind: product
 ---

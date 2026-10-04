@@ -20,7 +20,7 @@ url: https://rivendell.dmitrybrant.com/relativity/
 canonical_url: https://rivendell.dmitrybrant.com/relativity
 summary: What if the speed of light was 5 km/h?
 first_seen: '2026-09-10T01:58:00Z'
-last_seen: '2026-09-11T00:10:31Z'
+last_seen: '2026-10-04T00:37:53Z'
 status: rejected
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 563
     comments: 254
+  kind: product
+- source: hackernews
+  url: https://rivendell.dmitrybrant.com/farfuture/
+  seen_at: '2026-10-04T00:37:53Z'
+  metrics:
+    points: 16
+    comments: 5
   kind: product
 ---
 

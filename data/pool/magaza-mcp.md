@@ -39,16 +39,16 @@ url: https://github.com/tunaarikaya/magaza-mcp
 canonical_url: https://github.com/tunaarikaya/magaza-mcp
 summary: 'Tek MCP sunucusu, iki mağaza: App Store Connect + Google Play. Tamamen Türkçe.'
 first_seen: '2026-09-28T17:25:16Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-04T00:37:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tunaarikaya/magaza-mcp
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-04T00:37:57Z'
   metrics:
-    stars: 84
+    stars: 88
     forks: 8
     open_issues: 3
   kind: product

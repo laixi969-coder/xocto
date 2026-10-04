@@ -1,7 +1,7 @@
 ---
 slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
 name: Zero
-builder: ''
+builder: Anon84
 category: AI + 商业
 summary_zh: 销售人员在跟进客户时，原本要手工在 CRM 里录入联系人、通话记录与商机阶段；Zero 定位为 AI 原生的 CRM，宣称由 AI 承接部分记录与跟进工作，但公开材料未说明它具体读取哪些材料、自动写入什么、交付什么结果，具体流程与交付仍待核验。
 inspiration: 趋势是 AI 原生 CRM 试图把销售从手工录入中解放出来，用对话与邮件自动生成客户记录；切入不在替换 Salesforce 全功能，而在销售最痛的录入与跟进提醒环节，从中小销售团队或特定行业销售切入，按坐席或按成交结果收费都可能成立，但价格未披露。
@@ -38,15 +38,23 @@ summary: The founders of European AI startups Lovable and Langdock are among the
   startup which is challenging CRM (customer relationship management) giants Salesforce and HubSpot.Zero
   has ...
 first_seen: '2026-09-15T07:00:00Z'
-last_seen: '2026-09-16T00:21:06Z'
-status: watching
+last_seen: '2026-10-04T00:37:53Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/15/crm-challenger-zero-gets-backing-from-lovable-and-langdock-founders-in-10m-raise/
   seen_at: '2026-09-16T00:21:06Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/
+  seen_at: '2026-10-04T00:37:53Z'
+  metrics:
+    points: 72
+    comments: 79
   kind: news
 ---
 

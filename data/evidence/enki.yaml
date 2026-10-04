@@ -16,3 +16,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 半导体与芯片 高性能计算 GPU 内核开发者 性能工程师'
+- id: ev-0753ccd72be14882
+  project_slug: enki
+  url: https://github.com/enkiruntime/enki
+  title: Enki
+  published_at: '2026-10-02T19:15:01Z'
+  collected_at: '2026-10-04T00:37:53Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Write GPU compute kernels in pure stable Rust
