@@ -75,7 +75,7 @@ summary: "苹果确认：美版 iPhone 18 Pro Max 有问题 \n 北京时间 10 �
   \ 路畅通」微信小程序查询服务区充电桩运行状态，合理规划出行。（来源：IT 之家）"
 first_seen: '2026-10-04T00:33:38Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

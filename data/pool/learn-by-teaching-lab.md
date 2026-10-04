@@ -21,7 +21,7 @@ canonical_url: https://github.com/yolinc02-star/learn-by-teaching-lab
 summary: 'Practical IT Teaching Hub 2026: Learn, Build and Share Real Skills'
 first_seen: '2026-09-21T21:52:22Z'
 last_seen: '2026-10-04T00:37:57Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

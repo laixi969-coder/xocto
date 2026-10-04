@@ -200,3 +200,57 @@
     selection, first-draft generation and knowledge-base distillation into one conversational flow, cutting
     from-scratch drafting and cross-document copying, so bid staff under deadline use it to get a draft
     before human finalization.'
+- id: req-full-bidcraft-2026-10-04
+  project_slug: bidcraft
+  level: full
+  reviewed_at: '2026-10-04T01:02:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决建筑投标中技术标编制这一重复、赶截止、漏项即废标的任务，痛点刚性来自评分点逐条响应与硬性交标时间；公开仓库说明其输入招标文件、经解析与知识库生成技术标草稿、人工定稿的闭环，属工作流结构推理，尚无用户工时或废标数据。
+    evidence_ids:
+    - ev-e8c9e759cefa2326
+    - ev-9558faa86d472184
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 60 增至 66，说明开发者社区持续关注，但收藏与复刻属关注度证据，不能证明投标专员已把它留在工作流；公开材料无目标用户评价、部署案例或重复使用记录。
+    evidence_ids:
+    - ev-e8c9e759cefa2326
+    - ev-7588d9326c771c2e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；按产品形态推断买方可能是建筑企业投标部门或投标代理机构（to B），但这是判断而非已验证事实，也无采购或订阅记录可核。
+    evidence_ids:
+    - ev-e8c9e759cefa2326
+  - gate: truth
+    status: insufficient
+    reason: 产品定位为产出仍需人工确认的技术标草稿，人工边界表述清楚；但公开材料未提供可复现的生成质量、评分点覆盖或部署文档，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-e8c9e759cefa2326
+  next_validation: 追踪 BidCraft 仓库的 issue、discussion 与 README/部署文档，确认是否有建筑企业或投标代理机构公开报告实际部署、替代的旧流程与生成质量反馈。
+  market: ''
+  job: 建筑投标企业的标书编制人员（或投标专员）在拿到招标文件后，用 BidCraft 解析招标文件、选择标段、基于企业知识库生成技术标初稿，再通过对话式改稿产出可提交的技术标草稿，最终由人工确认定稿。
+  job_en: A bid-preparation specialist at a construction contractor receives a tender document, uses BidCraft
+    to parse it, select the lot, generate a technical-proposal draft from the firm's knowledge base, and
+    iterate via dialogue to produce a submittable technical proposal that a human still confirms before
+    final submission.
+  pain: 技术标编制是投标流程中重复度最高、最耗人力的环节：需逐条响应招标文件的评分点与格式要求，反复套用历史标书素材，且投标有硬性截止时间，漏项或响应不全直接导致废标。公开材料未给出具体工时或废标率数据，痛点强度属工作流结构推理。
+  pain_en: 'Technical-proposal writing is the most repetitive, labor-heavy step of bidding: every scoring
+    point and format requirement in the tender must be answered item by item, historical proposal material
+    is reused repeatedly, and the submission deadline is hard — a missed item or incomplete response can
+    disqualify the bid. Public materials give no specific hours or disqualification rates, so the pain
+    intensity is a workflow-structure inference.'
+  current_alternative: 当前替代方式主要是人工在 Word 中套用历史标书模板逐条编写，辅以通用大模型（如直接向 ChatGPT/文心一言粘贴招标文件片段）生成段落，再人工拼接、校对与排版；公开材料未说明
+    BidCraft 具体替代了哪一套既有工具链。
+  current_alternative_en: Today the work is done mainly by hand in Word, reusing past proposal templates
+    clause by clause, sometimes aided by general-purpose LLMs (pasting tender excerpts into ChatGPT or
+    similar) and then manually stitching, proofreading and formatting the output; public materials do
+    not specify which existing toolchain BidCraft replaces.
+  usage_reason: 推断：相较在 Word 中逐条套模板、或把招标文件片段丢给通用大模型再人工拼接，BidCraft 把“解析招标文件—选标段—按知识库生成技术标—对话式改稿”串成一条针对招投标任务的流程，减少的是人工在通用工具间搬运与对齐评分点这一步负担；因此投标专员在赶标、需要快速出技术标初稿时更可能选择它。公开材料尚无用户反馈或客户案例证实这一动机。
+  usage_reason_en: 'Inference: compared with reusing Word templates clause by clause or pasting tender
+    excerpts into a general LLM and stitching the output by hand, BidCraft chains parsing the tender,
+    selecting the lot, generating the technical proposal from a knowledge base, and dialogue-based revision
+    into one bidding-specific flow, removing the manual step of shuttling between generic tools and aligning
+    scoring points; a bid specialist rushing a deadline and needing a fast technical-proposal '

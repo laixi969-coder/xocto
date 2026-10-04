@@ -77,3 +77,43 @@
   usage_reason: 用户要完成的任务是：GPU 内核开发者、性能工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: GPU kernel developer, Performance engineer Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-enki-2026-10-04
+  project_slug: enki
+  level: full
+  reviewed_at: '2026-10-04T01:04:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让 GPU 内核开发者用纯稳定版 Rust 写内核，但公开材料只说明语言选择，没有说明用 CUDA 或厂商专用语言写内核时具体哪里难受、发生频率多高、不解决会有什么后果，也没有可引用的用户痛点证据，因此无法判断需求与痛点是否成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Enki 官方仓库或官网的编译链路、支持硬件列表与可复现的性能对比结果，确认纯稳定版 Rust 写 GPU 内核的交付是否可确定发生。
+  market: ''
+  job: GPU 内核开发者或性能工程师在需要为特定硬件编写计算内核时，处理的是 CUDA C++ 或厂商专用内核代码，要完成的任务是让内核可编译、可运行并达到性能目标。
+  job_en: A GPU kernel developer or performance engineer writing compute kernels for specific hardware,
+    working with CUDA C++ or vendor-specific kernel code, needs the kernel to compile, run, and hit performance
+    targets.
+  pain: 公开材料没有说明用 CUDA 或厂商专用语言写内核时具体哪里难受、发生频率多高、不解决会有什么后果；候选摘要只描述了语言选择，没有可引用的用户痛点证据。
+  pain_en: Public materials do not state what specifically hurts when writing kernels in CUDA or vendor-specific
+    languages, how often it occurs, or what happens if it is not solved; the candidate summary only describes
+    a language choice, with no citable user-pain evidence.
+  current_alternative: 公开材料没有说明用户目前如何完成这项工作，也没有说明 Enki 实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently complete this job or what Enki
+    actually replaces.
+  usage_reason: 现有材料无法解释用户为什么会选择它：没有可核对的编译链路、支持硬件、性能结果或用户反馈，因此无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Existing materials cannot explain why a user would choose it: there is no verifiable
+    compilation pipeline, supported hardware, performance result, or user feedback, so it is impossible
+    to say which step of the old workflow it reduces.'

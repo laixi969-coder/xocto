@@ -259,3 +259,57 @@
     and logging step, so security researchers and agent developers would pick it in authorized CTF/lab
     settings that require batch solving or reproducible standard solutions; public materials give no user-stated
     motivation.'
+- id: req-full-heimdall-agent-2026-10-04
+  project_slug: heimdall-agent
+  level: full
+  reviewed_at: '2026-10-04T01:04:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是授权 CTF 与安全实验室中多步探测利用链的编排需求，痛点是手工逐题串联工具耗时且易漏步；仓库定位与收藏数（95→104）表明有人关注，但痛点强度与不采用代价属工作流结构推理，尚无用户口述或案例佐证。
+    evidence_ids:
+    - ev-3db7dabd28bb5b56
+    - ev-4effc91fd31cffb3
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有 公开代码仓库 仓库收藏数从 95 缓慢增至 104，属关注度而非持续采用；没有 issue、discussion、客户案例或复现记录说明目标用户已把它留在工作流里，强场景是否成立无法从现有材料判断。
+    evidence_ids:
+    - ev-3db7dabd28bb5b56
+    - ev-4effc91fd31cffb3
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费主体或采购记录，钱可能来自 to C 开发者赞助、to B 安全团队服务或 to VC 融资，均属判断而非已验证事实；未出现仅靠融资叙事的每日优鲜风险，但付费路径完全未核验。
+    evidence_ids:
+    - ev-3db7dabd28bb5b56
+  - gate: truth
+    status: insufficient
+    reason: 产品是否贴近该工作的第一性目标、多步利用能否确定性交付、以及授权边界与人工介入规则，公开材料均未说明；仓库描述只强调 authorized CTF 与安全实验室，缺少部署文档或可复现实测来验证交付稳定性。
+    evidence_ids:
+    - ev-3db7dabd28bb5b56
+    - ev-8c5d146f4a6fe4cc
+  next_validation: 追踪 heimdall-agent 仓库的 README、部署文档与 issue/discussion，确认其输入输出形式、授权边界与是否有用户报告实际解题结果。
+  market: ''
+  job: 安全研究员或 AI 智能体开发者在授权 CTF 赛题与安全实验室环境中，把一道需要多步探测与利用的题目交给 heimdall-agent，由框架自主编排侦察、尝试与利用动作，最终产出可复盘的解题过程与结果。
+  job_en: A security researcher or AI agent developer, working in an authorized CTF or security lab environment,
+    hands a multi-step reconnaissance-and-exploitation challenge to heimdall-agent so the framework autonomously
+    orchestrates recon, attempts and exploitation steps and returns a reviewable solving trace and result.
+  pain: CTF 与靶场题目的多步利用链条需要人工反复试错、手工串联侦察与利用工具，单题耗时长且步骤易漏；公开材料只给出框架定位与仓库收藏数，未提供用户对耗时、失败率或漏步后果的陈述，因此痛点强度属工作流结构推理而非用户口述。
+  pain_en: Multi-step exploitation chains in CTF and lab challenges require manual trial-and-error and
+    hand-wiring of recon and exploit tooling, which is slow per challenge and easy to leave a step out;
+    public material only gives the framework positioning and repo star counts, with no user statement
+    on time cost, failure rate or missed-step consequences, so pain intensity is workflow-structural inference
+    rather than user testimony.
+  current_alternative: 旧做法是安全研究员手工使用侦察与利用工具链（如扫描器、脚本、exp 框架）逐题拼装步骤，或直接阅读 writeup 复现；公开材料未说明 heimdall-agent
+    具体替代了哪一套工具组合。
+  current_alternative_en: The incumbent approach is a researcher manually assembling recon and exploitation
+    tooling (scanners, scripts, exploit frameworks) step by step per challenge, or reading writeups to
+    reproduce; public material does not state which specific toolchain heimdall-agent replaces.
+  usage_reason: 推断：相较手工逐题串联工具，heimdall-agent 把多步动作交给框架编排并输出解题过程，减少的是“人工决定下一步并手动调用工具”这一环节的负担；因此会在需要批量刷题或复现多步利用链的授权
+    CTF/实验室场景中被这类用户选择。公开材料未给出用户反馈或案例，此因果为结构推理。
+  usage_reason_en: 'Inference: versus manually chaining tools per challenge, heimdall-agent delegates
+    multi-step actions to framework orchestration and emits a solving trace, removing the burden of deciding
+    and invoking each next tool by hand; this is why such users would pick it in authorized CTF/lab settings
+    that require batch solving or reproducing multi-step exploit chains. No user feedback or case study
+    is public, so this causal link is structural inference.'

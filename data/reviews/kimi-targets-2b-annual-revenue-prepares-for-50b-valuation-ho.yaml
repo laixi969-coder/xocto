@@ -91,3 +91,97 @@
     step; the official site also lists K3 agentic coding, Swarm parallel tasks and consulting-grade slide
     generation, so users handling long material or parallel tasks would choose it when writing, reading
     papers or coding. This explanation is inferred from product capability and task structure,
+- id: req-initial-kimi-targets-2b-annual-revenue-prepares-for-50b-valuation-ho-2026-10-04
+  project_slug: kimi-targets-2b-annual-revenue-prepares-for-50b-valuation-ho
+  level: initial
+  reviewed_at: '2026-10-04T00:38:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长文档理解与跨网页重复操作的需求，痛点是耗时且易遗漏；旧做法是人工阅读与复制粘贴，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-04ebe22fab8d6640
+    - ev-fb4fe4891ec669d3
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道显示其开始向客户现场派人，说明企业侧有落地尝试，但缺少客户名单、续约或使用规模等持续采用证据。
+    evidence_ids:
+    - ev-021c5c46d11d2402
+  - gate: model
+    status: insufficient
+    reason: 报道提到 20 亿美元年收入目标与 500 亿美元估值，但未见官方定价页或已核验付费数据，买方与收费方式仍属判断。
+    evidence_ids:
+    - ev-fb4fe4891ec669d3
+  - gate: truth
+    status: insufficient
+    reason: 网页操作转技能与长上下文能力可核验，但人工确认边界、错误处理与交付确定性在公开材料中未说明。
+    evidence_ids:
+    - ev-04ebe22fab8d6640
+  next_validation: 收集 Kimi 官方定价页或企业客户案例页面，核验其收费方式与已披露的付费或续约事实。
+  market: ''
+  job: 企业知识工作者与个人用户在需要理解长文档、检索网页信息或完成跨网页操作时，打开 Kimi 处理上传材料并获取摘要、答案或可复用操作技能。
+  job_en: Enterprise knowledge workers and individuals open Kimi when they need to understand long documents,
+    retrieve web information or complete cross-site actions, feeding in material to get summaries, answers
+    or reusable action skills.
+  pain: 长材料阅读与跨网页重复操作耗时，人工逐页查找和复制粘贴容易遗漏，且难以沉淀为可重复使用的流程。
+  pain_en: Reading long material and repeating cross-site operations is time-consuming; manual page-by-page
+    search and copy-paste is error-prone and hard to turn into a repeatable process.
+  current_alternative: 用户此前依赖人工阅读、浏览器书签与手工复制粘贴，或使用其他通用对话助手逐段提问。
+  current_alternative_en: Users previously relied on manual reading, browser bookmarks and hand copy-paste,
+    or asked other general assistants section by section.
+  usage_reason: 相较手工逐页处理，Kimi 直接接收整份材料与指令并输出摘要或可执行技能，减少逐段复制与重复点击这一步；推断需要频繁处理长文档或跨网页任务的用户会因此选择它，但公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with page-by-page manual work, Kimi takes whole documents and instructions
+    and returns summaries or executable skills, removing the step of copying and re-clicking repeatedly;
+    users who frequently handle long documents or cross-site tasks would plausibly choose it, though no
+    retention or repeat-purchase evidence is public.
+- id: req-full-kimi-targets-2b-annual-revenue-prepares-for-50b-valuation-ho-2026-10-04
+  project_slug: kimi-targets-2b-annual-revenue-prepares-for-50b-valuation-ho
+  level: full
+  reviewed_at: '2026-10-04T01:04:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长文档理解与跨网页重复操作的需求，痛点是通读耗时、复制粘贴易遗漏且流程难复用；旧做法是人工阅读与逐段提问，产品以整份材料输入换取摘要与可执行技能，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-9db4f44df0483171
+    - ev-4b623259ca91aa74
+  - gate: consensus
+    status: insufficient
+    reason: 官网与下载页说明桌面、移动与终端多端可用，属产品能力公开事实；但缺少客户名单、续约或使用规模等持续采用证据，无法确认已进入稳定工作流。
+    evidence_ids:
+    - ev-c522870e7470858d
+    - ev-9db4f44df0483171
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见官方定价页或已核验付费数据，20 亿美元年收入目标与 500 亿美元估值属报道口径；买方可能来自个人订阅或企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4b623259ca91aa74
+    - ev-393c8e9120f7d658
+  - gate: truth
+    status: insufficient
+    reason: 长上下文与网页操作转技能的能力可核验，但人工确认边界、错误处理与交付确定性在公开材料中未说明，无法判断承诺能否稳定兑现。
+    evidence_ids:
+    - ev-4b623259ca91aa74
+    - ev-c522870e7470858d
+  next_validation: 追踪 Kimi 官方定价页或企业客户案例页面，核验其收费方式与已披露的付费或续约事实。
+  market: ''
+  job: 企业知识工作者与个人用户在需要理解长文档、检索网页信息或完成跨网页操作时，把整份文档或任务指令交给 Kimi，要求它输出摘要、问答结果、幻灯片、表格或可复用的网页操作技能。
+  job_en: Enterprise knowledge workers and individuals hand whole documents or task instructions to Kimi
+    when they need long-document comprehension, web information retrieval or cross-site actions, expecting
+    summaries, answers, slides, sheets or reusable web-action skills.
+  pain: 长材料通读与跨网页重复操作耗时，人工逐页查找、复制粘贴容易遗漏，且难以沉淀为可重复执行的流程；公开材料只说明产品能做什么，未提供用户抱怨或采用数据。
+  pain_en: Reading long material and repeating cross-site operations is time-consuming; manual page-by-page
+    search and copy-paste is error-prone and hard to turn into a repeatable process; public material only
+    states product capability, not user complaints or adoption data.
+  current_alternative: 用户此前依赖人工阅读、浏览器书签与手工复制粘贴，或使用 ChatGPT、Gemini 等通用对话助手逐段提问。
+  current_alternative_en: Users previously relied on manual reading, browser bookmarks and hand copy-paste,
+    or asked general assistants such as ChatGPT and Gemini section by section.
+  usage_reason: 相较逐段复制与重复点击的旧做法，Kimi 直接接收整份材料与指令，一次输出摘要、幻灯片、表格或可执行技能，省去逐页搬运这一步；推断频繁处理长文档或跨网页任务的用户会因此选择它，但公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with section-by-section copying and repeated clicking, Kimi takes whole documents
+    and instructions and returns summaries, slides, sheets or executable skills in one pass, removing
+    the page-by-page hauling step; users who frequently handle long documents or cross-site tasks would
+    plausibly choose it, though no retention or repeat-purchase evidence is public.

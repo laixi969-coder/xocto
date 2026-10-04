@@ -98,3 +98,97 @@
     the step of manually stitching permission relationships system by system, so regulated firms running
     many agents would pick it during audits or incident reviews; this is inference from positioning and
     workflow structure, as public materials show no retention or repeat-purchase evidence.
+- id: req-initial-reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark-2026-10-04
+  project_slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
+  level: initial
+  reviewed_at: '2026-10-04T00:38:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决智能体行为难以监控与追溯的问题，痛点方向成立，但公开材料未说明具体检测动作与交付结果，价值判断依据不足。
+    evidence_ids:
+    - ev-1d60fda169a9e45f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资事实，未见客户采用、部署案例或安全团队反馈，无法判断共识是否形成。
+    evidence_ids:
+    - ev-1d60fda169a9e45f
+  - gate: model
+    status: insufficient
+    reason: 买方应为有智能体部署的企业安全预算，但公开材料未披露定价、计费方式或付费客户，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1d60fda169a9e45f
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料核对检测准确率、误报率与人工复核边界，交付确定性未明。
+    evidence_ids:
+    - ev-1d60fda169a9e45f
+  next_validation: 收集 Reco 官方产品页或部署文档，确认其针对 AI 智能体的具体检测能力、交付形态与是否披露定价。
+  market: ''
+  job: 企业安全团队在 AI 智能体接入内部系统后，处理智能体权限、数据访问与操作日志等材料，完成对智能体行为的监控与风险处置。
+  job_en: Enterprise security teams, after AI agents are connected to internal systems, handle agent permissions,
+    data access and operation logs to monitor agent behavior and remediate risk.
+  pain: 智能体可自主调用工具和访问数据，传统面向账号与终端的监控难以覆盖其行为，出错后难以追溯。
+  pain_en: Agents can autonomously call tools and access data, which traditional account- and endpoint-oriented
+    monitoring struggles to cover, making incidents hard to trace.
+  current_alternative: 企业目前多依赖通用日志平台、人工审计或原有终端安全工具拼凑监控，缺少针对智能体行为的专门手段。
+  current_alternative_en: Enterprises currently rely on generic logging platforms, manual audits or existing
+    endpoint security tools stitched together, lacking dedicated means for agent behavior.
+  usage_reason: 推断：相较通用日志加人工审计，Reco 若能把智能体权限、数据访问与操作记录集中到一处并自动识别异常，可减少安全团队逐条翻日志的负担，因此强合规行业的安全团队在智能体上线前后可能选择它；公开材料未给出客户使用或留存证据。
+  usage_reason_en: 'Inference: compared with generic logs plus manual audit, if Reco centralizes agent
+    permissions, data access and operation records and automatically flags anomalies, it could reduce
+    the burden of security teams reading logs line by line, so security teams in highly regulated sectors
+    may adopt it around agent rollout; public materials provide no usage or retention evidence.'
+- id: req-full-reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark-2026-10-04
+  project_slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
+  level: full
+  reviewed_at: '2026-10-04T01:05:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体接入内部系统后行为难发现、难追溯的需求，痛点是安全团队不知道有哪些智能体、归谁、能访问什么；官方称跨 280+ 应用发现并排序风险，旧做法是通用日志加人工审计，属工作流结构推理。
+    evidence_ids:
+    - ev-bd8af85956153920
+    - ev-a9548baac99ab4cf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 5500 万美元融资与累计 1.4 亿美元的事实，公开材料未见客户部署案例、安全团队反馈或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-bd8af85956153920
+    - ev-a9548baac99ab4cf
+  - gate: model
+    status: insufficient
+    reason: 买方应为已部署智能体的企业安全预算，属 to B 判断而非已验证事实；公开材料未披露定价、计费方式或付费客户，钱从哪一方来仍待核验。
+    evidence_ids:
+    - ev-bd8af85956153920
+    - ev-a9548baac99ab4cf
+  - gate: truth
+    status: insufficient
+    reason: 官方称可发现并排序风险，但公开材料未给出检测准确率、误报率与人工复核边界，交付确定性无法核对；安全场景下误报与漏报代价高。
+    evidence_ids:
+    - ev-bd8af85956153920
+    - ev-a9548baac99ab4cf
+  next_validation: 追踪 Reco 官网客户案例页或部署文档，确认是否有具名企业客户、智能体安全检测的交付形态与公开定价信息。
+  market: ''
+  job: 企业安全团队在把 AI 智能体接入内部系统后，需要处理智能体的权限归属、可访问数据范围和运行操作日志等材料，完成对每个智能体行为的发现、风险排序与处置。
+  job_en: After connecting AI agents to internal systems, enterprise security teams handle agent ownership,
+    accessible data scope and runtime operation logs to discover, prioritize and remediate each agent's
+    behavior risk.
+  pain: 智能体可自主调用工具和访问数据，传统面向账号与终端的监控难以覆盖其行为；安全团队不知道环境里有哪些智能体、归谁所有、能访问什么，出错后难以追溯。
+  pain_en: Agents autonomously call tools and access data, which account- and endpoint-oriented monitoring
+    struggles to cover; security teams do not know which agents exist, who owns them or what they can
+    access, making incidents hard to trace.
+  current_alternative: 企业目前多依赖通用日志平台、人工审计或原有终端与身份安全工具拼凑监控，缺少针对智能体行为的专门发现与风险排序手段。
+  current_alternative_en: Enterprises currently rely on generic logging platforms, manual audits or existing
+    endpoint and identity security tools stitched together, lacking dedicated discovery and risk prioritization
+    for agent behavior.
+  usage_reason: 推断：相较通用日志加人工审计，Reco 通过跨 280+ 应用自动发现智能体、标注归属与可访问范围并排序风险，减少安全团队逐条翻日志、手工盘点智能体的步骤，因此已部署智能体的强合规行业安全团队会在智能体上线前后选择它；公开材料未给出客户使用或留存证据。
+  usage_reason_en: 'Inference: compared with generic logs plus manual audit, Reco automatically discovers
+    agents across 280+ apps, labels ownership and access scope and prioritizes risk, cutting the step
+    of reading logs line by line and manually inventorying agents, so security teams in regulated sectors
+    that already deploy agents may adopt it around rollout; public materials provide no usage or retention
+    evidence.'

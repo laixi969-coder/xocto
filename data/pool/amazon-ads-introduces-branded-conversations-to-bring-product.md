@@ -1,11 +1,15 @@
 ---
 slug: amazon-ads-introduces-branded-conversations-to-bring-product
-name: Amazon Ads Introduces Branded Conversations to Bring Product Expertise Into AI Shopping
+name: Amazon Ads Branded Conversations
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Amazon Ads 在 AI 购物对话中新增品牌方直接呈现产品信息的广告形式，品牌可在消费者用对话方式选购时介入。对 AI 应用的含义是：电商入口的对话化正在改变品牌触达与转化路径，广告预算可能向对话式界面迁移；具体计费与效果数据尚未披露，影响属推断。
 inspiration: ''
-summary_en: ''
+summary_en: Amazon Ads added an ad format in which brands present product information directly inside
+  AI shopping conversations, letting brands intervene when shoppers buy through dialogue. The implication
+  for AI applications is that the conversational shift of e-commerce entry points is changing how brands
+  reach and convert shoppers, and ad budgets may migrate to conversational interfaces; pricing and performance
+  data are not yet disclosed, so this impact is an inference.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOdl93dkZJdFpY
 summary: Amazon Ads Introduces Branded Conversations to Bring Product Expertise Into AI Shopping konsulteer.com
 first_seen: '2026-10-03T21:47:29Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Amazon Ads Introduces Branded Conversations to Bring Product Expertise Into AI Shopping
+# Amazon Ads Branded Conversations
 
 Amazon Ads Introduces Branded Conversations to Bring Product Expertise Into AI Shopping konsulteer.com
 

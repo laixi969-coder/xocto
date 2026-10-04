@@ -23,7 +23,7 @@ summary: The CEO of Lakestar-backed UK open banking startup Yapily saysthe finte
   Stef...
 first_seen: '2026-10-02T12:40:00Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

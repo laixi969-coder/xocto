@@ -3,13 +3,14 @@ slug: reddit-is-killing-rss-feeds-and-ending-public-api-access-bec
 name: Reddit
 builder: xbmcuser
 category: ''
-summary_zh: Reddit 于 2026 年 9 月 30 日宣布停止支持 RSS 订阅并终止公开 API 访问，理由是应对 AI 机器人抓取。这意味着依赖 Reddit 用户生成内容训练或检索的
-  AI 应用将失去低成本数据通道，获取该数据的成本与合规门槛上升，内容授权合作可能成为替代路径。
+summary_zh: 2026年9月30日，Reddit宣布因AI机器人抓取问题停止支持RSS feeds并终止公共API访问，继续收紧对其用户生成内容的访问。这一平台政策变化意味着依赖公开内容抓取训练或驱动AI应用的团队将失去低成本数据入口，可能推高合规数据获取成本、加速向授权数据合作与自有数据源转移，并改变内容平台与AI开发者之间的议价结构（推断）。
 inspiration: ''
-summary_en: On September 30, 2026, Reddit announced it is ending support for RSS feeds and terminating
-  public API access, citing AI bots. This means AI applications that rely on Reddit user-generated content
-  for training or retrieval lose a low-cost data channel, raising the cost and compliance barrier for
-  accessing that data, with content licensing deals a likely substitute.
+summary_en: On September 30, 2026, Reddit said it is ending support for RSS feeds and terminating public
+  API access because of AI bots, further tightening access to its user-generated content. This platform
+  policy change means teams relying on public content scraping to train or power AI applications lose
+  a low-cost data channel, which may raise compliant data acquisition costs, accelerate a shift toward
+  licensed data partnerships and proprietary sources, and alter bargaining between content platforms and
+  AI developers (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +27,7 @@ summary: Reddit is ending support for RSS feeds, as the company continues tighte
   of user-generated content.
 first_seen: '2026-09-30T17:45:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews

@@ -22,7 +22,7 @@ summary: Healthcare Supply Chain Management Market worth $5.31 billion by 2031 -
   Morningstar
 first_seen: '2026-10-01T14:30:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

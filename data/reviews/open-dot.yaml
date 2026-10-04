@@ -132,3 +132,49 @@
     of manual clicking and cross-app shuttling while keeping local operation data off remote servers;
     hands-on Mac users who care about local data and permission boundaries would pick it for automating
     multi-step local tasks.'
+- id: req-full-open-dot-2026-10-04
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-04T01:05:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地重复操作需手动逐步执行的问题，痛点具体且不采用会持续耗人力；但具体任务类型与交付边界公开材料未说明。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 162 增至 507，属关注度证据，不能证明持续采用或共识形成。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+    - ev-49cfc4a7ce3f8085
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价与买方，to C 订阅还是企业部署都只是推断，尚无付费路径证据。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  - gate: truth
+    status: insufficient
+    reason: 本地自主执行涉及安全与人工确认边界，公开材料未说明失败处理与确认环节，需核验。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际执行的任务类型、输入材料与交付结果。
+  market: ''
+  job: 愿意自己动手的 Mac 用户，在需要让电脑上的重复操作自动完成时，把任务交给一个在本地自主运行的代理，由它调用 OpenAI 模型和 Composio 连接的外部服务执行，最后拿到完成结果或待确认操作。
+  job_en: Do-it-yourself Mac users who want repetitive on-computer tasks done hand the job to a locally
+    running autonomous agent that calls OpenAI models and Composio-connected external services, then receive
+    finished results or operations awaiting confirmation.
+  pain: 公开材料未给出用户抱怨或旧流程细节，只能从产品定位推断：手动在多个本地应用与外部服务之间重复操作、逐步执行，是它试图替代的负担。
+  pain_en: 'Public material gives no user complaint or legacy workflow detail; only an inference from
+    positioning: manually repeating operations across local apps and external services, step by step,
+    is the burden it targets.'
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务，按定位推断是手动操作本地应用与外部服务。
+  current_alternative_en: Public material does not state how users previously did comparable tasks; by
+    positioning, it is inferred to be manual operation of local apps and external services.
+  usage_reason: 推断：相较手动逐步操作本地应用与外部服务，它让代理在本地自主执行并调用已连接服务，减少逐步手动操作这一步，因此愿意自己动手的 Mac 用户会在需要自动化重复操作时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually operating local apps and external services step
+    by step, it lets the agent run locally and call connected services, removing the step of manual step-by-step
+    operation, so DIY Mac users would pick it when automating repetitive tasks; no retention or repeat-use
+    evidence yet.'

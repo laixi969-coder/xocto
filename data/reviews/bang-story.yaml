@@ -79,3 +79,53 @@
   usage_reason: 用户要完成的任务是：YouTube 视频脚本与素材制作；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: YouTube video scripting and asset production Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-bang-story-2026-10-04
+  project_slug: bang-story
+  level: full
+  reviewed_at: '2026-10-04T01:02:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是故事类视频从创意到成片的制作需求，痛点在脚本、配图、剪辑三段串行手工劳动，不做的后果是产能受限或外包成本高；公开材料仅产品自述，痛点强度与替代环节属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-cc668c736dda3199
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 62，说明有开发者关注，但这是关注度而非目标创作者持续使用或复用的证据；公开材料没有用户评价、案例或留存数据，无法判断强场景共识是否形成。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-cc668c736dda3199
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，桌面应用可能走 to C 订阅或 to B 授权，但这是判断而非已验证事实；无融资叙事，也未出现每日优鲜式只靠融资续命的迹象。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+  - gate: truth
+    status: insufficient
+    reason: 成片质量、是否需逐段人工确认、生成失败与版权安全边界均未在公开材料中说明，交付能否确定性发生无法核验；产品把脚本、图像、视频多段生成拼在一起，存在貂丁式堆功能风险。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-cc668c736dda3199
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认是否公开成片样例、生成流程中的人工确认环节与已知失败案例。
+  market: ''
+  job: 做 YouTube 故事类视频的独立创作者或小团队，在只有一个故事创意、没有编剧和美术资源的情况下，打开桌面应用输入创意，要拿到可直接上传的成片（脚本、配图、视频一次生成）。
+  job_en: An independent YouTube story-video creator or small team with only a story idea and no writing
+    or art resources opens the desktop app, enters the idea, and needs an upload-ready video (script,
+    images, and video generated in one pass).
+  pain: 故事类视频的瓶颈在脚本、配图和剪辑三段串行手工劳动，单条视频制作周期长、外包或逐环节用工具成本高；公开材料只给出产品自述，未提供创作者抱怨、制作耗时或放弃制作的量化数据，痛点强度属工作流结构推理。
+  pain_en: The bottleneck in story videos is the serial manual labor of scripting, image sourcing, and
+    editing, which makes each video slow and expensive to outsource or assemble tool-by-tool; public materials
+    only give the product's own description, with no creator complaints, production-time data, or abandonment
+    data, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是创作者自己写脚本、用图库或绘图工具找配图、再在剪辑软件里逐段拼接，或把脚本、配音、剪辑分包给不同外包；公开材料未说明它实际替代了其中哪一步。
+  current_alternative_en: The old path is the creator writing the script, sourcing images from stock or
+    drawing tools, then assembling segments in an editor, or splitting script, voiceover, and editing
+    across separate freelancers; public materials do not say which of these steps it actually replaces.
+  usage_reason: 推断：相较逐环节手工或分包，它把脚本、图片、视频三段串行工作压缩为一次输入创意后的连续生成，减少的是跨工具切换和逐段拼接的步骤，因此只有创意、缺制作资源的个人创作者会在需要快速产出故事类视频时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus step-by-step manual work or outsourcing, it compresses the serial
+    script-image-video chain into one continuous generation after a single idea input, removing tool-switching
+    and segment-assembly steps, so solo creators with ideas but no production resources would pick it
+    when they need story videos fast; public materials contain no user feedback confirming this motive.'

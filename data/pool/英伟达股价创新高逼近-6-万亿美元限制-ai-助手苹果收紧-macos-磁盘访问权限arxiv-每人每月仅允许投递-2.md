@@ -64,7 +64,7 @@ summary: "英伟达股价创新高，逼近 6 万亿美元 \n 英伟达股价自
   \ \n 未来 arXiv 究竟会进一步提高自动化审核能力、继续调整投稿上限，还是建立针对 AI 时代的新型学术筛选机制，目前仍有待观察。（来源：cnbeta）"
 first_seen: '2026-10-03T01:17:08Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

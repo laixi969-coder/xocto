@@ -25,7 +25,7 @@ canonical_url: https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-
 summary: Adding in a second neural network that guesses the identity of hidden pieces was key.
 first_seen: '2026-10-01T16:28:04Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - hackernews

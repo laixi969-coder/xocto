@@ -115,3 +115,53 @@
   usage_reason: 用户要完成的任务是：游戏美术、独立游戏开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Game Artist, Indie Game Developer Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-tostai-sprite-sheet-studio-2026-10-04
+  project_slug: tostai-sprite-sheet-studio
+  level: full
+  reviewed_at: '2026-10-04T01:06:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把原始视频转成引擎可用精灵图集这一具体任务：逐帧切图与图集排布重复易错，出错要在引擎里返工，不解决就拖慢动画迭代。公开说明显示输入视频、输出 game-ready 图集，交付物明确；此为工作流结构推理，尚无用户自述痛点证据。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+    - ev-17573bda2246596b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 70，属关注度上升而非持续采用；没有 issue、讨论或案例说明美术是否把它留在日常动画流程里，因此无法确认重复使用。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+    - ev-8fb532530e47cf29
+    - ev-17573bda2246596b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价、授权方式或付费主体，无法判断收入来自独立开发者买断、工作室订阅还是免费引流；这是判断而非已验证事实，商业路径缺口不反推需求不存在。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只承诺视频转 game-ready 图集，但未披露帧率、去背景、对齐规则与失败处理，成品是否仍需人工逐帧检查、交付能否稳定发生缺可复现证据。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+    - ev-17573bda2246596b
+  next_validation: 追踪该仓库 README、issue 与 release 说明，确认是否披露帧率/去背景/对齐规则、输出格式与真实使用案例。
+  market: ''
+  job: 独立游戏开发者或游戏美术在制作角色动画时，手上只有一段实拍或渲染好的原始视频，需要把它切成逐帧序列并排成游戏引擎可直接导入的精灵图集。
+  job_en: An indie game developer or game artist making character animation has only a raw shot or rendered
+    video and needs it cut into frame sequences and laid out as a sprite sheet their engine can import
+    directly.
+  pain: 逐帧切图与图集排布是重复且易错的手工活，帧对齐、间距和命名一旦出错就要在引擎里反复返工；不解决的后果是美术时间被切图占掉，动画迭代变慢。
+  pain_en: Frame-by-frame cutting and atlas layout is repetitive, error-prone manual work; a single misalignment,
+    spacing or naming mistake forces rework inside the engine, so leaving it unsolved eats artist time
+    and slows animation iteration.
+  current_alternative: 现状是用 Photoshop 批处理、ImageMagick/ffmpeg 脚本或 TexturePacker 一类工具手工切帧再排图集，需要自己写命令或逐张调整。
+  current_alternative_en: Today the work is done with Photoshop batch actions, ImageMagick/ffmpeg scripts
+    or tools like TexturePacker, cutting frames and packing atlases by hand or via self-written commands.
+  usage_reason: 推断：相较自己写 ffmpeg/ImageMagick 命令或逐张在 Photoshop 里切图，它把“切帧—排布—导出图集”合并为一次视频输入到图集输出的动作，省掉写脚本和手工对齐这一步，因此缺美术流水线、想快速把视频转成引擎素材的独立开发者会在做角色动画时选择它；公开材料未提供用户自述动机。
+  usage_reason_en: 'Inference: versus writing ffmpeg/ImageMagick commands or cutting frame by frame in
+    Photoshop, it merges ''cut frames - lay out - export atlas'' into one video-in, sheet-out action,
+    removing the scripting and manual alignment step, so indie developers without an art pipeline who
+    want video turned into engine assets quickly would pick it when building character animation; public
+    materials give no first-person user motivation.'

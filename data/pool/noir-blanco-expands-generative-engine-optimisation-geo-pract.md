@@ -1,6 +1,6 @@
 ---
 slug: noir-blanco-expands-generative-engine-optimisation-geo-pract
-name: NOIR & BLANCO Expands Generative Engine Optimisation (GEO) Practice for AI-Led Discovery
+name: NOIR & BLANCO
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: NOIR & BLANCO Expands Generative Engine Optimisation (GEO) Practice for
   Tribune
 first_seen: '2026-10-01T09:49:55Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# NOIR & BLANCO Expands Generative Engine Optimisation (GEO) Practice for AI-Led Discovery
+# NOIR & BLANCO
 
 NOIR & BLANCO Expands Generative Engine Optimisation (GEO) Practice for AI-Led Discovery The Tribune
 

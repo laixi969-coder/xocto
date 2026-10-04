@@ -219,3 +219,45 @@
     uncensored/security-fine-tuned models into one list, letting users filter candidates by task and deploy
     locally, removing the step of searching multiple model hubs and repeatedly hitting alignment refusals;
     hence it is chosen when authorized testing needs local inference without refusal interruptions.'
+- id: req-full-offensive-security-ai-models-2026-10-04
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-04T01:05:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是研究员在授权测试中挑选可本地部署未审查模型的需求，但公开材料只有一句仓库简介和星标数，没有收录标准、部署方式、产出结果或任何用户痛点描述，痛点刚性与不采用代价无法确认，属于清单式拼凑。
+    evidence_ids:
+    - ev-924d9cc6e417e78e
+    - ev-a25b763d28ba1a13
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否公开收录标准、部署步骤与授权使用说明，以判断它是否形成可复现的交付。
+  market: ''
+  job: 安全研究员在获得客户书面授权的渗透测试中，需要挑选可本地部署、未做安全对齐或已针对网络安全任务微调的模型，用来生成攻击面验证所需的测试载荷与探测思路。
+  job_en: During authorized penetration tests, security researchers need to pick locally deployable, uncensored
+    or security-fine-tuned models to generate test payloads and probe ideas for attack-surface validation.
+  pain: 公开材料只给出仓库一句话简介和星标数，没有说明研究员在挑选模型时具体卡在哪一步、失败会付出什么代价，也没有任何用户抱怨或工作流描述，因此痛点强度无法从公开事实确认。
+  pain_en: Public material offers only a one-line repo description and star counts; it never shows which
+    step of model selection actually hurts, what failure costs, or any user complaint, so pain intensity
+    cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明现有做法；按结构推理，研究员目前只能自行在 公开模型社区、公开代码仓库 与论文中逐个检索、试跑并比对未审查模型，或直接使用商业闭源模型。
+  current_alternative_en: Public material does not state the current practice; by structural inference,
+    researchers today must search public model community, public code repository and papers one by one,
+    trial-run and compare uncensored models, or fall back on commercial closed models.
+  usage_reason: 推断：清单把分散的模型集中到一处，可能省去逐个仓库检索的步骤，但公开材料没有说明收录标准、部署方式或产出结果，无法确认它相较自行检索带来可核对的结果改善，因此不构成采用理由。
+  usage_reason_en: 'Inference: a list centralizes scattered models and may save per-repo searching, but
+    public material states no inclusion criteria, deployment method or output, so no verifiable improvement
+    over self-searching can be confirmed and this is not a usage reason.'

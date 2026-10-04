@@ -295,3 +295,55 @@
     to confirm'' step into one semantic lookup; a public ten-task SWE-bench comparison reports the same
     8/10 tasks as the baseline at lower cost, so cost- and location-conscious coding-agent users would
     pick it on unfamiliar repositories.'
+- id: req-full-jevgrep-2026-10-04
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-04T01:04:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在不熟悉代码库中定位“某行为由哪些文件实现”的需求，痛点是编码智能体每个陌生任务都要花时间找对文件、找错起点会浪费后续修改；公开材料给出描述式查询返回候选文件与带行号源码的交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-c69d06940bc24b35
+    - ev-4f04e63c9386efcc
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 2,174 星与 97 星的关注度，说明开发者社区已注意到该工具，但星标只属关注度证据，未见持续使用、复购或工作流留存的公开记录，无法据此认定共识已形成。
+    evidence_ids:
+    - ev-ee5ade466a897490
+    - ev-e72b5056ce56d894
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出按 AI Gateway 列表价折算的每次查询模型成本约 0.000427 美元，未见定价页、付费主体或采购记录；谁付钱、按什么单位收费仍是判断而非已验证事实，但这是模式缺口，不否定需求。
+    evidence_ids:
+    - ev-a19cbb6bd0a64931
+    - ev-872f5a8909639320
+  - gate: truth
+    status: insufficient
+    reason: 公开的十任务 SWE-bench 对比显示与基线完成同样 8/10 任务且成本更低，属可核对结果，但样本仅十题、未见人工复核与安全边界说明，交付确定性尚缺更广的公开复现证据。
+    evidence_ids:
+    - ev-4f04e63c9386efcc
+    - ev-b36e6f58188c8829
+  next_validation: 追踪 jevgrep 官方仓库的 issue、discussion 与 release 说明，确认是否有真实用户在具体仓库中持续使用并报告检索命中或成本结果。
+  market: ''
+  job: 软件工程师或编码智能体使用者在接手不熟悉的代码库、需要定位某个行为由哪些文件实现时，用自然语言描述“这段代码做什么”，让 jg 返回候选文件、阅读线索和带行号的源码片段，再据此决定是否让编码智能体动手修改。
+  job_en: A software engineer or coding-agent user, facing an unfamiliar repository, describes what a
+    behavior does in natural language so jg returns candidate files, reading leads, and line-numbered
+    source excerpts, then decides whether to let the coding agent edit.
+  pain: 公开材料指出编码智能体在每个不熟悉任务上都要花一部分时间找对文件；在跨文件夹、跨文件的仓库里，靠关键词或路径猜测容易漏掉真正相关的实现，找错起点会让后续修改和验证都白做。
+  pain_en: Public material states coding agents spend part of every unfamiliar task finding the right
+    files; in cross-folder repositories, keyword or path guessing misses the real implementation, and
+    a wrong starting point wastes the subsequent edit and verification.
+  current_alternative: 旧做法是人工用 grep、文件名和目录结构逐个翻找，或让编码智能体自行遍历仓库；公开材料未说明这些替代方式的具体失败率或耗时。
+  current_alternative_en: The old approach is manual grep plus filename and directory browsing, or letting
+    the coding agent traverse the repository itself; public material does not quantify their failure rate
+    or time cost.
+  usage_reason: 推断：相较人工 grep 或让智能体盲搜，jg 用 Jev 在文件夹、文件和片段层面判断相关性，一次 stdout 返回候选文件、阅读线索和逐字源码片段，把“先猜路径再逐个打开”这一步压缩成一次描述式查询；公开的十任务
+    SWE-bench 对比显示它与基线完成同样 8/10 任务且成本更低，因此在意检索起点准确性和 token 成本的编码智能体使用者会在不熟悉仓库时选择它。
+  usage_reason_en: 'Inference: versus manual grep or blind agent traversal, jg uses Jev to judge relevance
+    across folders, files, and excerpts, returning candidate files, reading leads, and verbatim source
+    in one stdout response, collapsing guess-path-then-open into one descriptive query; the public ten-task
+    SWE-bench comparison shows the same 8/10 tasks as baseline at lower cost, so coding-agent users who
+    care about retrieval starting point and token cost would choose it on unfamiliar repos.'

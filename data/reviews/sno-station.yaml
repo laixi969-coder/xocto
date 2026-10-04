@@ -358,3 +358,46 @@
   usage_reason_en: 'Inference: if shared encrypted memory and agent-to-agent messaging really remove the
     manual context-shuttling step, developers already running two agents might choose it; without user
     feedback or cases this causal link is unconfirmed.'
+- id: req-full-sno-station-2026-10-04
+  project_slug: sno-station
+  level: full
+  reviewed_at: '2026-10-04T01:05:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多代理编码时的上下文割裂与交接摩擦，但公开证据里没有任何用户痛点陈述、旧替代行为或采用记录，连需求与痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-59c042fa1274792f
+    - ev-995fdcd75071d036
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sno Station 官方仓库的 README、issue 与 discussion，确认是否有开发者描述多代理交接的具体工作流与替代旧做法。
+  market: ''
+  job: 开发者在本地同时运行 Claude Code 与 Codex 时，需要让两个代理共享上下文、互相传递任务并完成代码交接与跨厂商评审，最终拿到一份可继续推进的编码会话结果。
+  job_en: A developer running Claude Code and Codex locally needs the two agents to share context, pass
+    tasks to each other, and complete code handoff and cross-vendor review, ending with a coding session
+    result they can continue from.
+  pain: 公开材料未记录任何用户痛点：没有开发者抱怨多代理上下文割裂、交接靠手工复制、评审无法跨厂商的公开陈述，也没有频率或不解决的后果。
+  pain_en: 'Public materials record no user pain: no developer statement about fragmented multi-agent
+    context, manual copy-paste handoff, or inability to review across vendors, nor any frequency or consequence
+    of leaving it unsolved.'
+  current_alternative: 公开材料未说明开发者目前如何完成多代理协作，也未说明它替代了什么旧做法（如手工复制粘贴、单代理串行、自建脚本）。
+  current_alternative_en: Public materials do not show how developers currently do multi-agent collaboration,
+    nor what old practice it replaces (e.g. manual copy-paste, serial single-agent use, self-built scripts).
+  usage_reason: 推断：若开发者已在本地并用两个代理，共享加密记忆与代理间消息可省去手工搬运上下文这一步，夜间技能改写需批准可保留控制权；但没有任何用户反馈或案例支持这一动机，因此只能标为推断。
+  usage_reason_en: 'Inference: if a developer already runs both agents locally, shared encrypted memory
+    and agent-to-agent messaging could remove the manual step of moving context, and approval-gated nightly
+    skill rewrites preserve control; but no user feedback or case supports this motive, so it is inference
+    only.'

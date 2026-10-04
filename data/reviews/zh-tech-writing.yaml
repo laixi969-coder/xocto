@@ -296,3 +296,56 @@
     step of restating the rules and hand-deleting AI tone sentence by sentence; that is why Chinese technical
     writers would pick it while drafting or polishing. This is an inference from product capability and
     task structure, not yet confirmed by user feedback or cases.
+- id: req-full-zh-tech-writing-2026-10-04
+  project_slug: zh-tech-writing
+  level: full
+  reviewed_at: '2026-10-04T01:06:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档写作缺少可执行风格约束的问题：模型中文常带翻译腔与套话，作者需逐句删改，而《中文技术文档的写作规范》此前只是静态文本。旧替代是人工润色或把规范贴进 prompt，规范不随生成执行。这是基于产品说明与旧流程的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-adf387836b43d4e0
+    - ev-09b22c0835799729
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 star 由 304 升至 325，说明中文开发者社区持续关注该 Skill；但仅有收藏与关注，没有 issue、discussion 或用户反馈说明谁在何种场景实际调用、替代了哪一步旧流程，因此采用共识尚未成立。
+    evidence_ids:
+    - ev-adf387836b43d4e0
+    - ev-09b22c0835799729
+  - gate: model
+    status: insufficient
+    reason: 这是开源 Agent Skill，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 个人开发者或 to B 文档团队，但均属判断而非已验证事实；无融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-adf387836b43d4e0
+  - gate: truth
+    status: supported
+    reason: 交付边界清晰：Skill 只做按规范改写，输出仍是需作者核对事实与术语的草稿，不承诺替代事实核查，人工边界明确；规范来源公开可查，改写动作可复现。但缺少实测样例与版本更新记录，交付稳定性仅由结构推理支持。
+    evidence_ids:
+    - ev-adf387836b43d4e0
+    - ev-00fe03cffe9500dc
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有用户报告实际调用场景、改写前后样例或与旧流程的对比反馈。
+  market: ''
+  job: 中文技术文档作者（技术写作者、开发者关系或开源维护者）在起草或润色说明、教程、API 文档时，把已有中文草稿交给 AI agent，调用该 Skill 按短句、平实、去 AI 腔的规范改写，拿到可继续核对事实与术语的中文文档草稿。
+  job_en: A Chinese technical documentation writer (tech writer, DevRel, or OSS maintainer) drafting or
+    polishing guides, tutorials, and API docs hands an existing Chinese draft to an AI agent, invokes
+    this Skill to rewrite it under short-sentence, plain, no-AI-tone rules, and gets back a Chinese draft
+    still needing fact and terminology checks.
+  pain: 中文技术文档写作长期缺少可执行的风格约束：模型生成的中文常带翻译腔、空话和套话，作者要逐句删改；阮一峰《中文技术文档的写作规范》虽是公认参照，但此前只能靠人记忆或人工比对，无法在生成环节直接约束模型。
+  pain_en: 'Chinese technical writing lacks an executable style constraint: model-generated Chinese often
+    carries translationese, filler, and boilerplate that authors must edit sentence by sentence; Ruan
+    Yifeng''s writing standard is a recognized reference but previously lived only in human memory or
+    manual comparison, unable to constrain the model at generation time.'
+  current_alternative: 旧做法是作者凭经验手改，或把规范文档贴进 prompt 让模型自行遵守，再逐条人工比对；规范本身是静态文本，不随生成动作执行。
+  current_alternative_en: The old way is manual editing by experience, or pasting the standard into a
+    prompt and hoping the model complies, then checking line by line; the standard is static text that
+    does not execute alongside generation.
+  usage_reason: 推断：相较把规范贴进 prompt 或纯人工润色，该 Skill 把规范固化为 agent 可调用的约束，在改写这一步直接施加短句、平实、去 AI 腔的规则，减少作者逐句删套话与翻译腔的返工；因此需要批量产出或统一中文文档风格的技术写作者会在起草与润色环节选用它。仓库
+    star 从 304 增至 325 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus pasting the standard into a prompt or purely manual polishing, this
+    Skill hard-codes the standard as an agent-invocable constraint, applying short-sentence, plain, no-AI-tone
+    rules directly at the rewrite step and cutting the rework of deleting boilerplate and translationese
+    sentence by sentence; writers who produce Chinese docs at volume or need a consistent style would
+    pick it during drafting and polishing. The star rise from 304 to 325 shows attention, no'

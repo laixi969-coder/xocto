@@ -2,41 +2,35 @@
 slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
 name: Reco
 builder: ''
-category: AI + 商业
-summary_zh: 企业安全团队在内部 AI agent 数量快速膨胀、权限与数据访问难以盘点时，打开 Reco 这类平台，把散落在各业务系统里的 agent 身份、权限和调用行为作为输入，由系统梳理出谁在访问什么、哪些越权或异常，最终交付一份可处置的风险清单与治理动作；人工仍需确认处置优先级。具体检测流程与交付形态在公开材料中仍待核验。
-inspiration: 趋势：企业里 AI agent 从试点走向批量部署，权限与数据访问开始失控，安全治理从“管人”变成“管机器身份”，这是新预算科目。切入：先服务已经大规模上 agent 的金融、医疗等强合规行业，从
-  agent 权限盘点与越权告警这一具体环节进入，按受管 agent 数量或审计报告收费；但该赛道已有多家融资密集进入，窗口正在收窄，不宜从通用 agent 安全平台正面打。
-summary_en: When security teams face a fast-growing population of internal AI agents whose permissions
-  and data access are hard to inventory, they open a platform like Reco, feeding agent identities, permissions
-  and call behavior from business systems into the system, which maps who accesses what and flags over-privileged
-  or anomalous activity, delivering a remediation-ready risk list; humans still confirm priorities. The
-  exact detection workflow and deliverables remain unverified in public materials.
-inspiration_en: 'Trend: as enterprises move AI agents from pilots to bulk deployment, permissions and
-  data access slip out of control, so security shifts from managing people to managing machine identities
-  — a new budget line. Entry: serve regulated finance and healthcare firms that already run many agents,
-  starting from agent permission inventory and over-privilege alerting, priced by managed agents or audit
-  reports; the category is already crowded with funded entrants, so the window is narrowing and a head-on
-  general agent-security platform is not the way in.'
+category: AI + 开发
+summary_zh: 企业安全团队在把 AI 智能体接入内部系统时，需要处理智能体的权限、数据访问范围和操作日志等材料，Reco 接收这些运行数据并执行监控与风险识别，最终交付可核查的智能体行为风险视图；具体检测流程与交付形态仍待核验。
+inspiration: 趋势是 AI 智能体开始进入企业生产环境，随之出现对智能体行为本身的监控与治理需求，而不是只保护传统账号和终端。切入可从金融、医疗等强合规行业的安全团队入手，卖法可能是按受管智能体数量或按合规审计交付计费，但公开材料未披露定价，属推断。
+summary_en: When enterprise security teams connect AI agents to internal systems, they must handle agent
+  permissions, data-access scope and operation logs; Reco ingests this runtime data and performs monitoring
+  and risk identification, delivering a checkable view of agent behavior risk. The specific detection
+  workflow and delivery format still need verification.
+inspiration_en: The trend is that AI agents are entering enterprise production environments, creating
+  demand to monitor and govern agent behavior itself rather than only protecting traditional accounts
+  and endpoints. The entry point could be security teams in highly regulated sectors such as finance and
+  healthcare, potentially priced per managed agent or per compliance audit deliverable, though no public
+  pricing is disclosed and this is inference.
 priority_review: false
 project_type: new_application
 industries:
-- 企业信息安全
-- 软件与IT服务
+- 企业软件与信息安全
+- 金融与专业服务
 industries_en:
-- Enterprise Information Security
-- Software & IT Services
+- Enterprise Software & Cybersecurity
+- Financial & Professional Services
 jobs:
-- 安全运营工程师
-- 身份与访问管理负责人
+- 企业安全团队在部署 AI 智能体时，处理智能体权限、数据访问与操作日志等材料，完成对智能体行为的监控与风险处置
 jobs_en:
-- Security Operations Engineer
-- Identity & Access Management Lead
+- Enterprise security teams handling agent permissions, data access and operation logs when AI agents
+  are deployed, to monitor agent behavior and remediate risk
 regions:
-- 美国
-- 以色列
+- 北美
 regions_en:
-- United States
-- Israel
+- North America
 open_source: false
 url: https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/
 canonical_url: https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market
@@ -44,7 +38,7 @@ summary: The round builds on a $30 million fundraise in February, taking the com
   $140 million.
 first_seen: '2026-09-29T12:30:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - newssearch

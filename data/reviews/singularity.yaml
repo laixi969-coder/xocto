@@ -1,0 +1,86 @@
+- id: req-initial-singularity-2026-10-04
+  project_slug: singularity
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，仅有一句标语，无法还原旧流程与交付，价值关证据不足。
+    evidence_ids:
+    - ev-f360c790312f083e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有任何采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-f360c790312f083e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-f360c790312f083e
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断代理产出是否确定可用及人工边界。
+    evidence_ids:
+    - ev-f360c790312f083e
+  next_validation: 收集 Singularity 官方文档或仓库，确认它如何接收工单、如何并行调度代理、产出如何合并以及是否公布定价。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境、处理的代码或工单材料与要完成的任务，无法还原可核对的工作场景。
+  job_en: Public material does not state the specific user, situation, code or ticket material handled,
+    or the task to complete, so no verifiable work scenario can be reconstructed.
+  pain: 未说明开发者当前在并行处理多个编码任务时遇到什么具体困难，也未说明不解决会有什么后果。
+  pain_en: It does not state what concrete difficulty developers face when handling multiple coding tasks
+    in parallel, nor the consequence of not solving it.
+  current_alternative: 未披露用户现在用什么方式并行推进编码任务，无法与旧做法对比。
+  current_alternative_en: It does not disclose how users currently push multiple coding tasks forward
+    in parallel, so no comparison with the old approach is possible.
+  usage_reason: 缺少编排方式、产出合并与人工确认的说明，无法解释用户为何选择它而非现有编码代理工作流；这是信息缺口，不是需求结论。
+  usage_reason_en: With no description of orchestration, output merging or human confirmation, there is
+    no way to explain why a user would choose it over existing coding-agent workflows; this is an information
+    gap, not a demand conclusion.
+- id: req-full-singularity-2026-10-04
+  project_slug: singularity
+  level: full
+  reviewed_at: '2026-10-04T01:05:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决按工单并行运行编码代理的任务，但公开材料只有一句标语，未说明谁在什么情况下、处理什么代码与工单、产出如何交付，需求与痛点均无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-a2a5d54acb7ef9a5
+    - ev-263e1ef1300a3beb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Singularity 官方产品页或代码仓库（README、issue、discussion），确认它如何接收工单、如何并行调度代理、产出如何合并与人工确认，以及是否公布定价。
+  market: ''
+  job: 公开材料只给出“按工单并行运行 AI 编码代理”一句标语，未说明是谁（个人开发者、团队还是平台方）、在什么情况下、把哪些代码库与工单材料交给代理、要完成什么可核对的任务，无法还原具体工作场景。
+  job_en: Public material offers only the tagline 'run AI coding agents in parallel, one ticket at a time';
+    it does not state who (individual developer, team, or platform), under what circumstances, with which
+    repositories and ticket material, or what verifiable task is to be completed, so no concrete work
+    scenario can be reconstructed.
+  pain: 未说明开发者当前并行推进多个编码任务时遇到的具体困难（如上下文切换、冲突合并、评审排队），也未说明不解决会有什么后果，痛点无法从公开事实中还原。
+  pain_en: It does not state the concrete difficulty developers face when pushing multiple coding tasks
+    in parallel (e.g., context switching, merge conflicts, review queues), nor the consequence of not
+    solving it; the pain cannot be reconstructed from public facts.
+  current_alternative: 未披露用户现在用什么方式并行推进编码任务（手工多开代理、逐个串行处理、还是已有编排工具），无法与旧做法对比。
+  current_alternative_en: It does not disclose how users currently push multiple coding tasks forward
+    in parallel (manually running several agents, serial one-by-one handling, or existing orchestration
+    tools), so no comparison with the old approach is possible.
+  usage_reason: 缺少编排方式、产出合并与人工确认的说明，无法解释用户为何选择它而非现有编码代理工作流；这是信息缺口，不是需求结论。
+  usage_reason_en: With no description of orchestration, output merging, or human confirmation, there
+    is no way to explain why a user would choose it over existing coding-agent workflows; this is an information
+    gap, not a demand conclusion.

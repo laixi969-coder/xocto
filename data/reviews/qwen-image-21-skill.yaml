@@ -215,3 +215,51 @@
     the step of checking each spec item and rewriting repeatedly; designers and marketers who frequently
     generate with Qwen-Image-2.1 but are unfamiliar with its spec details would choose it at the prompt-writing
     step.'
+- id: req-full-qwen-image-21-skill-2026-10-04
+  project_slug: qwen-image-21-skill
+  level: full
+  reviewed_at: '2026-10-04T01:05:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Qwen-Image-2.1 用户写提示词时偏离官方规范、需反复试错重写的痛点，痛点来自模型规范刚性，不解决则出图改图结果不稳定；公开仓库说明其按阿里官方规范改写提示词，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-b08448f7fee61073
+    - ev-18665a111858cca4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 115 增至 141，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在提示词工作流中持续使用，缺少 issue、discussion 或使用反馈。
+    evidence_ids:
+    - ev-b08448f7fee61073
+    - ev-1b9683e9a0551fee
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill，公开材料未见定价页、付费路径或买方说明；谁付钱、按什么单位收费均未核验，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-18665a111858cca4
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明它按官方规范改写提示词，未说明改写后出图或改图结果是否稳定可复现，也未给出人工确认与安全边界，交付确定性缺可复现证据。
+    evidence_ids:
+    - ev-b08448f7fee61073
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告改写后出图/改图结果改善及实际使用场景。
+  market: ''
+  job: 使用 Qwen-Image-2.1 做文生图或多图编辑的设计/营销人员，在拿到模糊创意需求后，把中文或口语化描述交给该 skill，由它按阿里官方规范改写为可直接投喂模型的提示词，再用于出图或改图。
+  job_en: Designers or marketers using Qwen-Image-2.1 for text-to-image or multi-image editing take a
+    vague creative brief, hand the Chinese or colloquial description to this skill, and receive an official-spec-compliant
+    prompt ready to feed the model for generation or editing.
+  pain: Qwen-Image-2.1 对提示词结构、术语和编辑指令格式有官方规范，普通用户凭直觉写的提示词容易偏离规范，导致出图或改图结果不稳定，需要反复试错重写，这一步是重复且可标准化的负担。
+  pain_en: Qwen-Image-2.1 has official prompt structure, terminology, and editing-instruction conventions;
+    intuitively written prompts often deviate from spec, producing unstable generation or editing results
+    and forcing repeated trial-and-error rewrites — a repetitive, standardizable burden.
+  current_alternative: 用户目前靠手工反复改写提示词、参考社区提示词模板、或直接凭经验试错，没有把官方规范固化成可复用的改写步骤。
+  current_alternative_en: Users currently hand-rewrite prompts repeatedly, copy community prompt templates,
+    or simply trial-and-error from experience, without codifying the official spec into a reusable rewriting
+    step.
+  usage_reason: 相较手工试错，该 skill 把官方规范固化为一次改写动作，用户在写提示词环节直接得到符合规范的文本，减少反复重写和对照文档的步骤；这是基于产品能力与任务结构作出的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with manual trial-and-error, the skill codifies the official spec into a single
+    rewriting action, giving users spec-compliant text at the prompt-writing step and cutting repeated
+    rewrites and doc-checking; this is an inference from product capability and task structure, not yet
+    confirmed by user feedback.

@@ -396,3 +396,51 @@
     it constrains the action space to TypeSafe-classified actions and uses OCR instead of costly visual
     reasoning, pushing per-step cost to about $0.0002, so cost-sensitive macOS automation developers would
     pick it for batch, repetitive UI operations; no user feedback is public, so this is structural inference.'
+- id: req-full-typesafe-computer-use-2026-10-04
+  project_slug: typesafe-computer-use
+  level: full
+  reviewed_at: '2026-10-04T01:06:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 macOS 界面自动化的动作决策需求：截图经 OCR 与 TypeSafe 分类后输出可执行点击，单步约 0.0002 美元。痛点与旧替代由工作流结构推理得出，非用户口述；谁付钱未在公开材料说明。
+    evidence_ids:
+    - ev-e8693e7ab576f556
+    - ev-77453fb65a113c49
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 1071 增至 1158，说明开发者关注度上升，但收藏只属关注度证据，公开材料没有 issue、discussion 或客户案例证明目标用户已持续把它留在工作流里。
+    evidence_ids:
+    - ev-e8693e7ab576f556
+    - ev-77453fb65a113c49
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出单步约 0.0002 美元的成本口径，没有定价页、付费主体或采购记录；to C 开发者自用还是 to B 集成收费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e8693e7ab576f556
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些应用、失败后如何回退，也未给出可复现的交付成功率；点击动作能否确定性完成、人工与安全边界在哪，尚缺公开证据。
+    evidence_ids:
+    - ev-e8693e7ab576f556
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的应用范围、失败回退机制与是否有开发者报告实际部署场景。
+  market: ''
+  job: 开发者在 macOS 上构建界面自动化代理时，把屏幕截图交给它：先 OCR 识别界面文字，再用 TypeSafe 分类出下一步动作，然后执行点击，交付一串可执行的点击动作序列。
+  job_en: 'Developers building macOS UI automation agents hand it a screenshot: it OCRs on-screen text,
+    classifies the next action with TypeSafe, then clicks, delivering an executable click sequence.'
+  pain: 公开材料只说明单步约 0.0002 美元的成本，未披露用户抱怨、失败率或人工兜底代价；痛点强度属于工作流结构推理，而非用户口述证据。
+  pain_en: Public material only states a per-step cost of about $0.0002; it does not disclose user complaints,
+    failure rates, or manual fallback costs, so pain intensity is a workflow-structure inference rather
+    than user testimony.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是自建截图加 OCR 加动作分类的脚本，或使用通用 computer-use 模型逐步推理。
+  current_alternative_en: Public material does not state how users do this today; structurally the prior
+    approach is a self-built screenshot-plus-OCR-plus-action-classifier script, or a general computer-use
+    model reasoning step by step.
+  usage_reason: 推断：相较自建脚本或通用 computer-use 模型，它把 OCR 与 TypeSafe 动作分类串成固定流水线，单步成本压到约 0.0002 美元，减少每步调用大模型推理的开销，因此对成本敏感、需要批量重复点击的
+    macOS 自动化开发者更有吸引力。
+  usage_reason_en: 'Inference: versus a self-built script or a general computer-use model, it chains OCR
+    and TypeSafe action classification into a fixed pipeline at about $0.0002 per step, cutting per-step
+    large-model inference cost, which appeals to cost-sensitive macOS automation developers doing repeated
+    bulk clicks.'

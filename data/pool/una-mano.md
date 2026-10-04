@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/una-mano
 summary: A familiar iPhone keyboard that moves to your thumb
 first_seen: '2026-09-27T08:29:08Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

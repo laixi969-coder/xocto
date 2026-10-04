@@ -1,0 +1,88 @@
+- id: req-initial-whirl-2026-10-04
+  project_slug: whirl
+  level: initial
+  reviewed_at: '2026-10-04T00:37:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨模型搬运材料和拼接结论的需求，痛点真实但强度未知；公开材料只有一句定位，说不清记忆与文档具体替代了哪一步旧动作。
+    evidence_ids:
+    - ev-c9ba133841d66595
+  - gate: consensus
+    status: insufficient
+    reason: 259 星和 19 次分叉只说明开源关注度，没有用户评价、案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c9ba133841d66595
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是个人订阅或团队席位，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-c9ba133841d66595
+  - gate: truth
+    status: insufficient
+    reason: 聚合多家模型本身不构成壁垒，承诺能否确定性交付取决于记忆与文档的实际表现，公开材料未提供可核对结果。
+    evidence_ids:
+    - ev-c9ba133841d66595
+  next_validation: 收集 whirl 官方定价页或文档页，确认记忆范围、文档协作方式与是否按席位或用量收费。
+  market: ''
+  job: 个人用户或小团队在需要比较不同模型结论时，把同一份材料分别粘贴进多个聊天窗口，再手工把各段回答拼成一份可继续修改的文档。
+  job_en: An individual or small team comparing conclusions across models pastes the same material into
+    several chat windows and then manually stitches the answers into one document they can keep editing.
+  pain: 材料要在多个窗口之间反复搬运，上下文和修改痕迹散落各处，用户很难确认哪一版结论是最新的。
+  pain_en: Material has to be carried between windows repeatedly, context and edit history scatter, and
+    the user cannot easily tell which conclusion is the latest.
+  current_alternative: 同时开着多个模型网页或客户端，用复制粘贴和本地笔记软件拼接结果。
+  current_alternative_en: Keeping several model web pages or clients open and stitching results together
+    with copy-paste and a local note app.
+  usage_reason: 推断：如果记忆和文档确实在同一处生效，用户就不必每次重新粘贴背景，也能在同一份文档上继续改，因此跨模型比对结论的人可能选择它；但公开材料没有说明记忆范围、文档协作方式或任何使用反馈，这一环尚未核验。
+  usage_reason_en: 'Inference: if memory and documents really work in one place, users would not have
+    to re-paste background each time and could keep editing the same document, so people comparing conclusions
+    across models might choose it; however the public material does not describe memory scope, document
+    collaboration or any user feedback, so this link is unverified.'
+- id: req-full-whirl-2026-10-04
+  project_slug: whirl
+  level: full
+  reviewed_at: '2026-10-04T01:06:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨模型比对时材料反复搬运、上下文与修改痕迹散落的需求，痛点在于换模型要重述背景且难确认最新结论；旧替代是复制粘贴加本地笔记，不解决的后果是重复劳动与版本混乱。这是基于产品说明的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-c9ba133841d66595
+  - gate: consensus
+    status: insufficient
+    reason: 259 星只说明开源关注度，属规模信号，不能证明持续采用；公开材料没有用户评价、客户案例或重复使用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c9ba133841d66595
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是个人订阅或团队席位，这是判断而非已验证事实；开源仓库本身也不构成收入证据。
+    evidence_ids:
+    - ev-c9ba133841d66595
+  - gate: truth
+    status: insufficient
+    reason: 聚合多家模型不构成壁垒，承诺能否确定性交付取决于记忆与文档的实际表现；公开材料未提供可核对结果，也未说明安全与人工边界。
+    evidence_ids:
+    - ev-c9ba133841d66595
+  next_validation: 追踪 whirl 官方定价页或文档页，确认记忆范围、文档协作方式与是否按席位或用量收费。
+  market: ''
+  job: 个人用户或小团队在需要比较不同模型结论时，把同一份材料分别粘贴进多个聊天窗口，再手工把各段回答拼成一份可继续修改的文档。
+  job_en: An individual or small team comparing conclusions across models pastes the same material into
+    several chat windows and then manually stitches the answers into one document they can keep editing.
+  pain: 材料要在多个窗口之间反复搬运，上下文和修改痕迹散落各处，用户很难确认哪一版结论是最新的；每次换模型都要重新交代背景，重复劳动明显。
+  pain_en: Material has to be carried between windows repeatedly, context and edit history scatter, and
+    the user cannot easily tell which conclusion is the latest; every model switch forces re-explaining
+    the background, which is repeated labor.
+  current_alternative: 同时开着多个模型网页或客户端，用复制粘贴和本地笔记软件拼接结果，靠人工维护上下文。
+  current_alternative_en: Keeping several model web pages or clients open and stitching results together
+    with copy-paste and a local note app, maintaining context by hand.
+  usage_reason: 推断：相较复制粘贴加本地笔记的旧做法，whirl 把模型选择、对话记忆和可编辑文档放在同一界面，用户换模型时不必重新粘贴背景，结论直接落在同一份文档上继续改，因此经常跨模型比对材料的人会在这种场景下选择它；但记忆范围与工具接入方式公开材料未说明，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: compared with copy-paste plus a local note app, whirl puts model choice,
+    conversation memory and an editable document in one interface, so users switching models need not
+    re-paste background and conclusions land in the same document to keep editing; people who frequently
+    compare material across models would choose it in that situation, though memory scope and tool integration
+    are not described publicly and no user feedback corroborates this.'

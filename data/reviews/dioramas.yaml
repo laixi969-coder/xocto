@@ -127,3 +127,46 @@
   usage_reason_en: 'No usage reason can be given: all existing evidence points to physical miniature dioramas
     and contains no public fact about this framework being adopted, chosen, or solving a concrete task,
     so why users would pick it cannot be inferred.'
+- id: req-full-dioramas-2026-10-04
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-04T01:03:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向实体微缩景观（博物馆、模型车、百科定义），与该三维网页框架的用户任务无关；公开材料既未给出使用者的具体痛点，也未给出旧替代做法，无法还原需求结构。
+    evidence_ids:
+    - ev-234955290c73088a
+    - ev-e7e255382901c62b
+    - ev-02000f492edc1ded
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该框架官方仓库的 README、issue 与 discussion，确认是否有团队用它交付真实商业站点，以及素材生成到上线的实际步骤与部署方式。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开证据中没有任何一条来自该框架的用户反馈、issue 或客户案例，无法说明三维发布页制作中具体哪一步难受、代价多大；现有证据全部是实体微缩景观（diorama）的百科与博物馆介绍，与三维网页制作无关。
+  pain_en: No evidence comes from users, issues or customer cases of this framework, so it is impossible
+    to state which step of building a 3D launch page hurts or at what cost; all evidence describes physical
+    miniature dioramas in museums, unrelated to 3D web production.
+  current_alternative: 公开材料未提供该框架使用者当前的替代做法；证据中的“替代”是实体微缩模型制作，与三维网页工作流无关。
+  current_alternative_en: The public material does not show what users of this framework currently do
+    instead; the 'alternatives' in the evidence are physical miniature model making, unrelated to 3D web
+    workflows.
+  usage_reason: 无法给出使用理由：没有定价、文档、issue、评价或案例说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，仅凭功能描述不足以推断用户为何选择它。
+  usage_reason_en: 'No usage reason can be given: there is no pricing, documentation, issue, review or
+    case showing which step it removes or which checkable result it improves versus the old way; a feature
+    description alone cannot support why users would choose it.'

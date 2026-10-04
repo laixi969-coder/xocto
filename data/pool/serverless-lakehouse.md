@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/ashwin-sreedhar/serverless-lakehous
 summary: PySpark + Delta lakehouse over Runpod Serverless benchmarks
 first_seen: '2026-10-03T00:16:56Z'
 last_seen: '2026-10-04T00:38:14Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

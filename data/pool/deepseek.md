@@ -3,41 +3,43 @@ slug: deepseek
 name: DeepSeek
 builder: ''
 category: 通用助手
-summary_zh: 个人用户和开发者打开DeepSeek，把问题、文档或代码贴进对话框，模型直接给出回答、推理过程或可运行代码，用户自行核对后使用；本次新增的是其训练侧弹性计算系统DSec的公开说明与昇腾基础组件开源，具体交付流程仍待核验。
-inspiration: 趋势：头部对话助手开始把竞争点从模型能力转向训练与推理的算力调度和芯片生态，成本结构成为新的护城河。切入：不要在通用对话正面竞争，可面向需要私有化部署的行业客户做基于开源组件的推理成本优化与合规交付。
-summary_en: Individual users and developers open DeepSeek, paste questions, documents or code into the
-  chat box, and the model returns answers, reasoning traces or runnable code that users verify themselves;
-  this event adds a public explanation of its training-side elastic compute system DSec and open-sourced
-  Ascend base components, while the concrete delivery flow still needs verification.
-inspiration_en: 'Trend: leading chat assistants are shifting competition from raw model capability to
-  compute scheduling and chip ecosystems for training and inference, making cost structure a new moat.
-  Entry: avoid head-on general chat competition and target industry clients needing private deployment
-  with inference cost optimization and compliant delivery built on the open-sourced components.'
+summary_zh: 个人用户和开发者会在需要问答、写作或调用模型接口时打开DeepSeek，把问题、文本或代码交给它处理，直接拿到回答、改写结果或可接入的模型输出；具体流程与交付形态仍待核验。
+inspiration: 趋势是头部通用助手已进入以算力和工程团队规模拼交付稳定性的阶段，竞争点从模型能力转向推理成本与响应确定性。切入不在正面做通用聊天，而在把这类模型能力嵌进具体行业的旧流程，例如律所卷宗检索、货代单证核对，按产出而非席位收费。
+summary_en: Individuals and developers open DeepSeek when they need Q&A, writing help or model API calls,
+  handing over questions, text or code and getting back answers, rewrites or model output they can integrate;
+  the exact workflow and delivery form still need verification.
+inspiration_en: The trend is that leading general assistants now compete on compute and engineering-team
+  scale for delivery reliability, shifting the battleground from model capability to inference cost and
+  response certainty. The opening is not another general chat app but embedding such models into specific
+  industry workflows, such as law-firm case-file search or freight-forwarding document checks, charging
+  per output rather than per seat.
 priority_review: false
 project_type: new_application
 industries:
 - 软件与互联网服务
-- 企业通用职能
+- 专业服务
 industries_en:
 - Software and internet services
-- General corporate functions
+- Professional services
 jobs:
-- 个人用户与开发者
+- 个人用户日常问答与写作
+- 开发者调用模型接口
 jobs_en:
-- Individual users and developers
+- Individuals doing everyday Q&A and writing
+- Developers calling model APIs
 regions:
 - 中国
 - 全球
 regions_en:
 - China
 - Global
-open_source: false
+open_source: true
 url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

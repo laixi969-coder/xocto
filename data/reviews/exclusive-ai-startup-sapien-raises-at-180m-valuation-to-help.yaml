@@ -80,3 +80,51 @@
   usage_reason: 用户要完成的任务是：财务分析师、经营分析人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Financial analysts, Business analysis staff Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help-2026-10-04
+  project_slug: exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help
+  level: full
+  reviewed_at: '2026-10-04T01:04:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决财务与经营分析人员季度复盘时跨 ERP、账单等系统手工拉数对账、拼利润归因表的需求，痛点是归因慢且易错拖慢决策；官网称服务 mid-market 到 F500 财务与运营团队，但输入、动作与交付细节仍属结构推理，缺用户口述佐证。
+    evidence_ids:
+    - ev-c2ceff3e1c7594df
+    - ev-2ca9e5690b02537b
+  - gate: consensus
+    status: insufficient
+    reason: 官网仅称服务 mid-market 到 F500 财务与运营团队，未见客户案例、部署记录、复购或公开用户反馈，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-2ca9e5690b02537b
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页、付费主体或单位经济披露，钱可能来自 to B 企业采购，但这是判断而非已验证事实；融资估值只说明资本关注，不构成付费路径证据。
+    evidence_ids:
+    - ev-57ce8386bae21b76
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明数据接入方式、归因结论的可复现性、人工复核边界与安全合规处理，交付能否确定性发生尚缺可核验证据。
+    evidence_ids:
+    - ev-c2ceff3e1c7594df
+  next_validation: 追踪 sapien.ai 官网是否上线官方定价页或公开客户案例/部署文档，以核验付费主体、数据接入方式与归因交付结果。
+  market: ''
+  job: 企业财务与经营分析人员在季度复盘时，需要从 ERP、账单和多个业务系统拉取经营数据，对账后拼出利润归因表，找出真正驱动利润变化的因子，供管理层决策。
+  job_en: Finance and operations analysts, during quarterly reviews, pull operating data from ERP, billing
+    and multiple business systems, reconcile it, and build a profit-attribution table identifying the
+    factors that actually drive profit changes for management decisions.
+  pain: 公开材料只给出“AI profit engine”定位，未展示用户抱怨、频率或不解决的代价；从工作流结构推理，手工跨系统拉数、对账、拼归因表耗时且易错，归因结论滞后会拖慢经营决策，但这一痛点强度尚无用户口述或案例佐证。
+  pain_en: Public materials only give the 'AI profit engine' positioning and show no user complaints,
+    frequency or cost of inaction; by workflow inference, manual cross-system data pulling, reconciliation
+    and attribution-table building is slow and error-prone, and delayed attribution slows operating decisions,
+    but this pain intensity lacks user statements or cases.
+  current_alternative: 公开材料未说明现有替代方式；结构推理上，用户当前依赖 Excel 手工拉数对账、BI 报表或 ERP 自带分析模块拼归因表。
+  current_alternative_en: Public materials do not state the current alternative; by structural inference,
+    users today rely on manual Excel data pulls and reconciliation, BI reports, or ERP-native analytics
+    modules to assemble attribution tables.
+  usage_reason: 推断：相较手工拉数对账，Sapien 宣称由 AI 直接接收经营数据并输出利润归因结论，可省去跨系统取数与拼表步骤，让分析师把精力放在复核结论上；但公开材料未提供用户反馈或案例证明这一选择动机。
+  usage_reason_en: 'Inference: versus manual data pulling and reconciliation, Sapien claims AI ingests
+    operating data and outputs profit-attribution conclusions, removing cross-system extraction and table-building
+    steps so analysts focus on reviewing conclusions; however, public materials provide no user feedback
+    or cases confirming this choice motive.'

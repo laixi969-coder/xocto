@@ -21,7 +21,7 @@ canonical_url: https://github.com/Mayankgiya42/mode-atlas-field-notes
 summary: 'ModeAtlas 2026: Open-Source AI Workflow Atlas for Smart Mode Mapping'
 first_seen: '2026-09-21T21:54:04Z'
 last_seen: '2026-10-04T00:37:57Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

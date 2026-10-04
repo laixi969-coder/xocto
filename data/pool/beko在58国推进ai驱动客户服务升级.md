@@ -1,6 +1,6 @@
 ---
 slug: beko在58国推进ai驱动客户服务升级
-name: Beko在58国推进AI驱动客户服务升级
+name: Beko
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPcVp5b1FUNkZ5
 summary: Beko在58国推进AI驱动客户服务升级 搜狐网
 first_seen: '2026-10-03T02:57:53Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Beko在58国推进AI驱动客户服务升级
+# Beko
 
 Beko在58国推进AI驱动客户服务升级 搜狐网
 

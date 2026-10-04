@@ -404,3 +404,54 @@
     of switching windows and manually checking status, so macOS developers already running multiple Herdr
     agents would pick it when they need to watch several sessions at once; no user feedback or retention
     evidence yet supports long-term use.'
+- id: req-full-herdr-gpui-2026-10-04
+  project_slug: herdr-gpui
+  level: full
+  reviewed_at: '2026-10-04T01:04:20Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 并行时会话分散、难以总览与切换的需求，痛点来自工作流结构推理而非用户口述；交付是集中查看界面，不执行编码任务，具体交付边界仍待核验。
+    evidence_ids:
+    - ev-e859d7653a6eac12
+    - ev-3aa54ac2bd563d5b
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 284 增至 496，说明开发者社区持续关注并有人使用；但收藏属关注度证据，不能证明已长期留在工作流或形成复购。
+    evidence_ids:
+    - ev-e859d7653a6eac12
+    - ev-e4bbb16158f7cf1b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济；开源客户端可能靠捐赠、托管或配套服务变现，这是判断而非已验证事实，买方路径尚不明确。
+    evidence_ids:
+    - ev-e859d7653a6eac12
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明它如何与 Herdr 守护进程交互、失败时如何降级，以及 agent 活动展示是否涉及权限与安全边界，交付确定性缺可复现证据。
+    evidence_ids:
+    - ev-3aa54ac2bd563d5b
+  next_validation: 追踪 herdr-gpui 仓库的 README、release 说明与 issue/discussion，确认它依赖的 Herdr 守护进程部署方式、支持平台与已知限制，以核验交付边界。
+  market: ''
+  job: 开发者在本地同时运行多个编码 agent 时，打开这个 macOS 客户端，通过本地 Herdr 守护进程查看终端会话、工作区、Git worktree 与 agent 活动，完成在多个并行会话之间集中查看、切换与掌握进度的任务。
+  job_en: When running several coding agents locally, a developer opens this macOS client and, through
+    the local Herdr daemon, views terminal sessions, workspaces, Git worktrees and agent activity to monitor,
+    switch between and keep track of parallel sessions.
+  pain: 公开材料只说明它集中呈现会话、工作区、worktree 与 agent 活动，未提供用户抱怨、频率或不采用代价；从工作流结构推理，多 agent 并行时终端窗口分散、切换与定位哪个会话在跑什么会持续消耗注意力，这是推断而非用户口述。
+  pain_en: Public materials only describe aggregating sessions, workspaces, worktrees and agent activity;
+    no user complaints, frequency or cost of not adopting are given. By workflow inference, parallel agents
+    scatter terminal windows and make it costly to track which session is doing what — an inference, not
+    user testimony.
+  current_alternative: 公开材料未说明现有替代方式；结构上可推断用户目前依赖原生终端多标签/分屏、tmux 或 IDE 内置终端，并靠记忆和手动切换来管理多个 agent 会话。
+  current_alternative_en: Public materials do not state the current alternative; structurally one can
+    infer users rely on native terminal tabs/splits, tmux or IDE-embedded terminals, tracking sessions
+    by memory and manual switching.
+  usage_reason: 推断：相较在多个终端标签间手动切换，该客户端把终端会话、工作区、Git worktree 与 agent 活动汇总到一个原生 macOS 界面，减少逐窗口查找与切换这一步负担，因此同时跑多个编码
+    agent 的 macOS 开发者会在需要总览与快速切换时选择它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus manually switching among terminal tabs, the client aggregates terminal
+    sessions, workspaces, Git worktrees and agent activity into one native macOS view, removing the step
+    of hunting window by window, so macOS developers running several coding agents would pick it when
+    they need an overview and fast switching; this is capability-based inference, not yet backed by user
+    feedback.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQejZMcElUM1VL
 summary: 'SAS names Casey McGee as Chief Sales Officer SAS: Data and AI Solutions'
 first_seen: '2026-10-01T12:02:43Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

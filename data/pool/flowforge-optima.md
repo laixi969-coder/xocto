@@ -21,7 +21,7 @@ canonical_url: https://github.com/ozynautetu-create/FlowForge-Optima
 summary: 'AdalFlow Alternative 2026: Auto-Optimize LLM Apps Without Code'
 first_seen: '2026-09-21T20:43:11Z'
 last_seen: '2026-10-04T00:37:57Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

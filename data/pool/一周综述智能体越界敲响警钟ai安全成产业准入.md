@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR015LTFyWHpk
 summary: 一周综述：智能体越界敲响警钟，AI安全成产业准入 搜狐网
 first_seen: '2026-10-03T09:32:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

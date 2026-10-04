@@ -3,28 +3,33 @@ slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
 name: Zero
 builder: Anon84
 category: AI + 商业
-summary_zh: 销售人员在跟进客户时，原本要手工在 CRM 里录入联系人、通话记录与商机阶段；Zero 定位为 AI 原生的 CRM，宣称由 AI 承接部分记录与跟进工作，但公开材料未说明它具体读取哪些材料、自动写入什么、交付什么结果，具体流程与交付仍待核验。
-inspiration: 趋势是 AI 原生 CRM 试图把销售从手工录入中解放出来，用对话与邮件自动生成客户记录；切入不在替换 Salesforce 全功能，而在销售最痛的录入与跟进提醒环节，从中小销售团队或特定行业销售切入，按坐席或按成交结果收费都可能成立，但价格未披露。
-summary_en: Sales reps following up with customers normally type contacts, call notes and pipeline stages
-  into a CRM by hand; Zero positions itself as an AI-native CRM where AI handles part of the logging and
-  follow-up, but the public material does not say which materials it reads, what it writes automatically
-  or what it delivers, so the concrete workflow and output remain unverified.
-inspiration_en: The trend is AI-native CRMs trying to free salespeople from manual data entry by generating
-  records from conversations and email; the entry point is not replacing all of Salesforce but the most
-  painful logging and follow-up reminder steps, starting with small sales teams or a specific industry,
-  with per-seat or per-closed-deal pricing both plausible though no price is disclosed.
+summary_zh: 销售团队在跟进客户、记录商机和维护客户档案时打开它，处理的是原本要手工录入 CRM 的客户往来材料；公开材料只说明它要做挑战 Salesforce、HubSpot 的 CRM，AI
+  具体接收什么、执行哪一步、交付什么结果均未披露，具体流程与交付仍待核验。
+inspiration: 趋势是 CRM 这类被巨头锁死的老品类开始出现由 AI 原生团队重做的新玩家，且欧洲 AI 创业者愿意下注。切入要看它是否真把录入、跟进、复盘中的某一步交给模型完成，而不是只换界面；可从销售流程最脏的手工录入环节进入，卖法未披露前不宜假设。
+summary_en: Sales teams would open it while following up on customers, logging opportunities and maintaining
+  account records, working with the customer material that today has to be typed into a CRM by hand; public
+  material only says it aims to challenge Salesforce and HubSpot as a CRM, and what the AI ingests, which
+  step it performs and what it delivers are undisclosed, so the concrete workflow and deliverable remain
+  unverified.
+inspiration_en: The trend is that a locked-in legacy category like CRM is drawing AI-native challengers,
+  with European AI founders willing to back one. The opening depends on whether it truly hands a step
+  of logging, follow-up or review to a model rather than reskinning the interface; a plausible entry is
+  the dirtiest manual data-entry step of the sales process, and no pricing should be assumed before it
+  is disclosed.
 priority_review: false
 project_type: new_application
 industries:
 - 企业软件
-- 销售运营
+- 销售与客户关系管理
 industries_en:
-- Enterprise software
-- Sales operations
+- Enterprise Software
+- Sales and CRM
 jobs:
-- 销售团队客户与商机记录维护
+- 销售运营
+- 客户关系管理
 jobs_en:
-- Sales team customer and pipeline record keeping
+- Sales Operations
+- Customer Relationship Management
 regions:
 - 芬兰
 - 欧洲
@@ -39,7 +44,7 @@ summary: The founders of European AI startups Lovable and Langdock are among the
   has ...
 first_seen: '2026-09-15T07:00:00Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - hackernews

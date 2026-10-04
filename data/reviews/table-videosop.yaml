@@ -209,3 +209,54 @@
     into a reusable table so directors can fill it in to produce an executable workflow, cutting the step
     of re-organizing storyboards and prompts, which is why small teams or solo creators may choose it
     for new projects.'
+- id: req-full-table-videosop-2026-10-04
+  project_slug: table-videosop
+  level: full
+  reviewed_at: '2026-10-04T01:05:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 视频制作前定分镜、节奏与提示词的需求，痛点是流程依赖个人经验和零散文档、难以复用对齐；不解决则每次重做、标准不一。仓库把 SOP、规则、模板与提示词整理成可复用表格，交付形态可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-d06bbac20f79ff75
+  - gate: consensus
+    status: supported
+    reason: 仓库星标从 52 持续升至 117，说明目标人群持续关注并把它纳入收藏；但这是关注度证据，尚不能证明已长期留在工作流中，故共识仅初步成立。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-c670cf4ec7f0dc25
+    - ev-d06bbac20f79ff75
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有仓库说明，未见定价页、付费主体或采购记录，钱可能来自 to C 内容创作者或 to B 制作团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明未展示模板实际内容与交付样例，无法核对按表填写后能否稳定产出可执行流程，人工与安全边界也未披露。
+    evidence_ids:
+    - ev-384aa68a7700eb0a
+    - ev-d06bbac20f79ff75
+  next_validation: 追踪 Table-VideoSOP 仓库的 README、模板文件与 issue/discussion，确认模板实际内容、交付样例与是否出现付费或采购线索。
+  market: ''
+  job: 短视频或广告片的编导、剪辑与内容运营在开拍前，要针对具体项目定分镜、节奏和 AI 生成提示词，产出一份可执行的制作流程文档。
+  job_en: Directors, editors and content operators of short videos or ad films must, before shooting,
+    define storyboards, pacing and AI-generation prompts for a specific project and produce an executable
+    production-process document.
+  pain: 公开材料显示该仓库把 AI 视频制作的 SOP、规则、模板与提示词整理成可复用表格，指向的痛点是这类流程过去依赖个人经验和零散文档，难以复用与对齐；不解决的后果是每次重做、标准不一。
+  pain_en: Public material shows the repository organizes AI video production SOPs, rules, templates and
+    prompts into reusable tables, pointing to a pain where such processes previously relied on personal
+    experience and scattered documents, hard to reuse or align; the consequence of not solving it is redoing
+    work each time with inconsistent standards.
+  current_alternative: 当前替代方式是编导、剪辑各自凭个人经验，配合零散文档与提示词笔记来定分镜和节奏。
+  current_alternative_en: The current alternative is directors and editors relying on personal experience
+    plus scattered documents and prompt notes to define storyboards and pacing.
+  usage_reason: 推断：相较零散经验与文档，该仓库把 SOP、规则、模板和提示词集中成可填写的表格，用户按表填写即可得到一份可执行流程，减少从零起草与对齐标准这一步负担；因此需要批量、标准化产出
+    AI 视频流程的编导与内容运营会在开拍前选择它。
+  usage_reason_en: 'Inference: compared with scattered experience and documents, the repository consolidates
+    SOPs, rules, templates and prompts into fillable tables, so users can fill them in to obtain an executable
+    process, reducing the burden of drafting from scratch and aligning standards; thus directors and content
+    operators needing standardized, batch AI video processes would choose it before shooting.'

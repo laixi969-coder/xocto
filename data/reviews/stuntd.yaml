@@ -116,3 +116,44 @@
   usage_reason: 缺少接入方式与被替代环节，无法解释相较直接调用减少了哪一步负担，属推断空白。
   usage_reason_en: Integration method and replaced step are missing, so which burden it removes versus
     direct calls cannot be explained; this is an inference gap.
+- id: req-full-stuntd-2026-10-04
+  project_slug: stuntd
+  level: full
+  reviewed_at: '2026-10-04T01:05:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库自述仅说明它是学习带类型 LLM 决策的本地代理，未写明谁在什么环节接入、处理什么材料、替代哪一步调用，也无可引用的痛点或旧替代行为，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-c75a8ac9ac52e237
+    - ev-3f2b1db539e40556
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 stuntd 仓库 README 与 issue/discussion，确认接入方式、被替代的调用环节及是否有可复现的实测结果。
+  market: ''
+  job: 公开材料只说明它是本地代理，未写明哪类开发者、在什么开发环节、处理哪些带类型的 LLM 决策请求、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material only says it is a local proxy; it does not identify which developers, at which
+    development step, handling which typed LLM decision requests, to complete what task, so no concrete
+    job can be reconstructed.
+  pain: 未说明重复调用模型带来的具体成本、延迟或调试后果，也没有用户抱怨或 workaround 证据，痛点无法写出。
+  pain_en: It does not state the concrete cost, latency, or debugging consequence of repeated model calls,
+    and there is no user complaint or workaround evidence, so the pain cannot be stated.
+  current_alternative: 未说明开发者此前如何复用、缓存或桩化模型决策，旧替代方式在公开材料中缺失。
+  current_alternative_en: It does not state how developers previously reused, cached, or stubbed model
+    decisions; the prior alternative is absent from public material.
+  usage_reason: 缺少接入方式、被替代的调用环节与交付结果，无法解释相较直接调用减少了哪一步负担；任何选择理由都只能靠推断，而推断所依据的事实不足。
+  usage_reason_en: Integration method, the replaced call step, and the delivered result are missing, so
+    which burden it removes versus direct calls cannot be explained; any choice reason would be pure inference
+    without sufficient facts.

@@ -453,3 +453,47 @@
   usage_reason: 公开代码仓库有 88 个收藏、5 次复刻，说明开发者正在关注或试用；但收藏与复刻只属关注度证据，不能解释用户为何选择它，持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 88 stars and 5 forks, showing developer attention; but stars
     and forks are attention signals, not reasons for choosing it, and repeat use and payment remain unverified.
+- id: req-full-bootagent-2026-10-04
+  project_slug: bootagent
+  level: full
+  reviewed_at: '2026-10-04T01:03:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“新电脑到手，把常用的AI助手一次配好，不用再逐个改设置”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 BootAgent 公开仓库的 README、release 与 issue/discussion，确认是否出现真实用户报告在新机器上重复使用该工具完成环境初始化，以及是否披露定价或团队采购方式。
+  market: ''
+  job: 开发者或重度 AI 工具用户在拿到一台新机器（或重装系统）时，需要把常用的多个 AI 助手/CLI 工具一次性装好并写入各自的配置，让新环境立刻可用且可重复复现。
+  job_en: A developer or heavy AI-tool user, on a fresh or reinstalled machine, needs to install several
+    AI assistants/CLI tools at once and write each tool's own config, so the new environment is immediately
+    usable and repeatably reproducible.
+  pain: 每个 AI 工具都有自己的配置文件、路径和安装步骤，逐个手工编辑既繁琐又容易漏项或写错；换机、重装或团队统一环境时这套手工流程要重复一遍，出错后排查成本高。
+  pain_en: Each AI tool has its own config file, paths, and install steps; hand-editing them one by one
+    is tedious and easy to get wrong or miss, and the whole manual routine repeats on every new machine,
+    reinstall, or team-wide environment setup, with costly debugging when it breaks.
+  current_alternative: 当前替代是手工逐个安装并编辑各工具的配置文件，或写一份个人 dotfiles/安装脚本自行维护，也可以干脆在新机器上少装几个工具、用到再补。
+  current_alternative_en: Today users install each tool by hand and edit its config file, or maintain
+    a personal dotfiles/install script themselves, or simply install fewer tools on the new machine and
+    add them as needed.
+  usage_reason: 推断：相较手工逐个改配置，BootAgent 把多工具的安装与配置收敛成一次可重复执行的本地设置动作，省掉逐文件查找与编辑这一步，并让结果在新机器上可复现；因此经常换机、重装或需要统一开发环境的开发者会在初始化新机器时选择它。公开仓库
+    88 个收藏、5 次复刻只说明开发者关注，尚不能证明持续使用。
+  usage_reason_en: 'Inference: versus hand-editing each config, BootAgent collapses multi-tool install
+    and configuration into one repeatable local setup action, removing the per-file lookup-and-edit step
+    and making the result reproducible on a new machine; developers who frequently switch or reinstall
+    machines, or need a uniform dev environment, would choose it when initializing a new machine. The
+    public repo''s 88 stars and 5 forks show developer attention only, not sustained use.'

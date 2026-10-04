@@ -43,3 +43,45 @@
     validation rules into a local service the assistant can call, potentially removing the manual step
     of checking component markup; but no user feedback or adoption evidence shows developers actually
     choose it for this reason, so the motivation link is missing.'
+- id: req-full-basecoat-ui-mcp-2026-10-04
+  project_slug: basecoat-ui-mcp
+  level: full
+  reviewed_at: '2026-10-04T01:02:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是前端拼装 Basecoat UI 页面时挑组件、查写法的问题，但公开材料没有说明旧流程具体卡在哪一步、耗时多久，痛点强度无法确认，且 39 个模板与静态校验属于锦上添花，不用它开发者仍可查文档完成同一任务。
+    evidence_ids:
+    - ev-60e43462c5049f65
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际卡在哪一步、是否有人持续使用模板与校验功能。
+  market: ''
+  job: 前端开发者在用 Basecoat UI 搭建页面时，需要从零挑选组件、拼装 HTML/Astro 结构并检查写法是否合规，处理的是模板与组件代码，要产出可用的页面骨架。
+  job_en: Frontend developers building pages with Basecoat UI must pick components, assemble HTML/Astro
+    structure and check markup compliance, working from templates and component code to produce a usable
+    page skeleton.
+  pain: 公开材料只说明它提供 39 个模板、组合建议和静态校验，没有说明开发者此前具体卡在哪一步、耗时多久，也没有用户抱怨或替代做法的记录，痛点强度无法确认。
+  pain_en: The public material only says it offers 39 templates, composition guidance and static validation;
+    it does not say which step previously blocked developers or how long it took, and there are no user
+    complaints or workaround records, so pain intensity cannot be confirmed.
+  current_alternative: 开发者通常直接查阅 Basecoat UI 官方文档、复制示例代码，或让编码助手凭记忆生成组件写法。
+  current_alternative_en: Developers typically read the Basecoat UI docs, copy example code, or let a
+    coding assistant generate component markup from memory.
+  usage_reason: 推断：相较翻文档和复制示例，它把模板与校验规则放进助手可直接调用的本地服务，可能减少手动比对组件写法这一步；但公开材料没有用户反馈或采用证据说明开发者确实因此选择它，缺少使用动机这一环。
+  usage_reason_en: 'Inference: compared with reading docs and copying examples, it puts templates and
+    validation rules into a local service the assistant can call, potentially removing the manual step
+    of checking component markup; but no user feedback or adoption evidence shows developers actually
+    choose it for this reason, so the motivation link is missing.'

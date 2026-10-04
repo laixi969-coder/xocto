@@ -82,3 +82,44 @@
     Go server and returns text, removing the step of replacing the device; but public materials show only
     311 stars of technical interest, not sustained use driven by daily necessity, so it reads more as
     nostalgia or a demo than a rigid choice.'
+- id: req-full-aikon-2026-10-04
+  project_slug: aikon
+  level: full
+  reviewed_at: '2026-10-04T01:02:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决功能机搜索入口失效后无法获取信息的问题，但公开材料只有设备无法访问 Google 这一事实，没有用户抱怨、求助或绕过行为，痛点刚性不足，更像技术怀旧演示。
+    evidence_ids:
+    - ev-980fc66f40467fc8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的公开仓库 issue 与 discussion，确认是否有真实功能机用户报告安装、联网与取回回答的实测记录。
+  market: ''
+  job: 仍在使用诺基亚 S40/S60 功能机的用户，在设备自带搜索入口失效、手边只有这台功能机的情况下，想就日常问题拿到一段文字答案。
+  job_en: Users still on Nokia S40/S60 feature phones, when the built-in search entry no longer works
+    and only that handset is at hand, want a short text answer to everyday questions.
+  pain: 公开材料只说明这些设备已无法访问 Google 搜索，未提供任何用户抱怨、求助帖或绕过行为的证据；搜索失效对多数人只是换机理由，而非必须留在功能机上解决的刚性痛点。
+  pain_en: Public material only states these devices can no longer reach Google search; there is no user
+    complaint, help request, or workaround evidence. A dead search entry is for most people a reason to
+    switch phones, not a rigid pain that must be solved on the feature phone.
+  current_alternative: 换用智能机、借他人设备查询，或干脆不查；公开材料未显示有人为留在功能机上而寻找替代方案。
+  current_alternative_en: Switch to a smartphone, borrow another device to look things up, or simply not
+    look it up; public material shows no one seeking a workaround in order to stay on a feature phone.
+  usage_reason: 推断：它通过自建 Go 服务器把功能机上的问题转发给 Claude、ChatGPT、Gemini 或 Grok 并回传文字，省去换设备这一步；但公开证据未显示有人因这一负担而采用它，因此更像技术演示而非被需要的交付。
+  usage_reason_en: 'Inference: it relays questions from the feature phone to Claude, ChatGPT, Gemini or
+    Grok via a self-hosted Go server and returns text, removing the step of replacing the device; but
+    public evidence shows no one adopting it for that burden, so it reads as a technical demo rather than
+    a needed delivery.'

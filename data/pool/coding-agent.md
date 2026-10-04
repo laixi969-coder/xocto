@@ -3,15 +3,15 @@ slug: coding-agent
 name: coding-agent
 builder: Guo-Yixin
 category: AI + 开发
-summary_zh: 开发者在本地仓库中让这个代理读取代码库，完成规划、执行、验证和交付；公开材料只给出这一句定位和星标数，具体支持的语言、执行边界与交付物仍待核验。
-inspiration: 趋势：本地优先的编码代理在开源社区持续出现，说明开发者对代码不出本机的诉求仍在。切入：不要做又一个通用编码代理，而是从受合规约束的行业团队切入，把本地执行与可审计的变更记录做成卖点，按项目或按审计交付收费。
-summary_en: A developer lets this agent read a local repository and carry out planning, execution, validation
-  and delivery; the public material gives only this one-line positioning and a star count, so supported
-  languages, execution boundaries and deliverables remain unverified.
-inspiration_en: 'Trend: local-first coding agents keep appearing in open source, showing developers still
-  want code to stay on their machines. Entry: avoid another general coding agent; target compliance-bound
-  industry teams and sell local execution plus auditable change records, priced per project or per audit
-  deliverable.'
+summary_zh: 开发者在本地仓库中打开它，让它读取代码库并完成规划、改代码、跑验证到交付的一串动作，最终拿到可提交的改动；具体支持的语言、验证方式和交付形态仍待核验。
+inspiration: 趋势：本地优先、能读整个仓库并自己跑验证的编程代理正在从演示走向可安装的工具。切入：不要做又一个通用编码代理，而是绑定某类团队的固定交付物，例如给外包团队做按仓库交付的验收代理，或给受合规约束的团队做代码不出内网的审查代理。
+summary_en: A developer opens it inside a local repository, lets it read the codebase and carry out planning,
+  editing, validation and delivery, and ends up with committable changes; the supported languages, validation
+  steps and delivery format still need verification.
+inspiration_en: 'Trend: local-first coding agents that read a whole repository and run their own validation
+  are moving from demos to installable tools. Entry point: rather than another general coding agent, bind
+  it to a fixed deliverable for one team type, such as an acceptance agent for outsourced delivery or
+  an in-network code review agent for compliance-bound teams.'
 priority_review: false
 project_type: open_source
 industries:
@@ -19,11 +19,9 @@ industries:
 industries_en:
 - Software and IT services
 jobs:
-- 软件开发
-- 代码审查
+- 软件开发工程师
 jobs_en:
-- Software development
-- Code review
+- Software developers
 regions: []
 regions_en: []
 open_source: true
@@ -33,7 +31,7 @@ summary: CODING — a local-first AI coding agent for repository-aware planning,
   and delivery.
 first_seen: '2026-09-19T12:20:32Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - newssearch

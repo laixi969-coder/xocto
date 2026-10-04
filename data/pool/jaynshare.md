@@ -21,7 +21,7 @@ canonical_url: https://github.com/jaynlabs/jaynshare
 summary: Draw from your friends' Claude quota
 first_seen: '2026-10-02T19:02:43Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

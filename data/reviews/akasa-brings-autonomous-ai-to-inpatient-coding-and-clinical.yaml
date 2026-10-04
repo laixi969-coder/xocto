@@ -1,0 +1,96 @@
+- id: req-initial-akasa-brings-autonomous-ai-to-inpatient-coding-and-clinical-2026-10-04
+  project_slug: akasa-brings-autonomous-ai-to-inpatient-coding-and-clinical
+  level: initial
+  reviewed_at: '2026-10-04T00:38:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向住院编码与文档核对的需求，但公开材料未说明具体痛点、旧流程与交付物，无法判断需求刚性。
+    evidence_ids:
+    - ev-f218ff425950705d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，无医院客户采用或行业讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-f218ff425950705d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自医院采购还是其他路径。
+    evidence_ids:
+    - ev-f218ff425950705d
+  - gate: truth
+    status: insufficient
+    reason: 无法核验编码准确率与人工复核边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-f218ff425950705d
+  next_validation: 收集 AKASA 官方产品页或客户案例，确认住院编码功能的输入输出、准确率与人工复核流程。
+  market: ''
+  job: 医院病案编码员在住院结算与合规审核时，处理临床文档与病历，需要完成编码与文档核对。
+  job_en: Hospital inpatient coders handling clinical documentation and medical records during billing
+    and compliance review need to complete coding and documentation checks.
+  pain: 公开材料未说明具体痛点，仅称将自主 AI 引入住院编码与临床文档，无法确认旧流程中哪一步最耗时或最易出错。
+  pain_en: Public materials state no specific pain point, only that autonomous AI is brought to inpatient
+    coding and clinical documentation, so the most time-consuming or error-prone step cannot be confirmed.
+  current_alternative: 公开材料未披露现有替代方式，按常理推断为医院编码员手工查阅病历并录入编码，此为推断。
+  current_alternative_en: Public materials disclose no current alternative; by inference hospital coders
+    manually review records and enter codes, which is an inference.
+  usage_reason: 无法判断用户为何选择它：材料未说明它相较人工编码减少了哪一步负担或改善了哪项可核对结果，缺少准确率与使用场景证据。
+  usage_reason_en: 'Cannot determine why users would choose it: materials do not explain which step it
+    reduces versus manual coding or which verifiable result it improves, lacking accuracy and use-case
+    evidence.'
+- id: req-full-akasa-brings-autonomous-ai-to-inpatient-coding-and-clinical-2026-10-04
+  project_slug: akasa-brings-autonomous-ai-to-inpatient-coding-and-clinical
+  level: full
+  reviewed_at: '2026-10-04T01:02:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决住院编码与文档核对需求：编码员须逐份核对临床文档与病例组合，文档不完整或编码偏差直接影响结算与合规，痛点刚性；AKASA 以机构自有文档与编码决定训练定制模型产出编码与文档核对结果，交付物可确定。属工作流结构推理，公开材料未给量化基线。
+    evidence_ids:
+    - ev-473b1c61cb22617e
+    - ev-741dcd0b30af68b0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 AKASA 官网自述与一篇发布报道，未发现医院客户采用、行业讨论或公开评价证据，无法判断编码团队是否已形成采用共识；关注度不等于持续使用。
+    evidence_ids:
+    - ev-473b1c61cb22617e
+    - ev-741dcd0b30af68b0
+  - gate: model
+    status: insufficient
+    reason: 官网未披露定价、合同形式或采购记录，买方应为医院收入周期部门，属 to B 判断而非已验证事实；无公开付费路径证据，也未出现仅靠融资续命的叙事。
+    evidence_ids:
+    - ev-741dcd0b30af68b0
+  - gate: truth
+    status: insufficient
+    reason: 官网称模型基于机构自有文档与编码决定训练，但未公开编码准确率、人工复核边界与合规责任划分，承诺能否确定性交付无法核验；医疗编码涉及结算合规，人工边界尤为关键。
+    evidence_ids:
+    - ev-473b1c61cb22617e
+  next_validation: 追踪 AKASA 官网客户案例页或收入周期解决方案文档，确认住院编码功能的输入输出、公开准确率指标与人工复核流程。
+  market: ''
+  job: 医院病案编码员与临床文档团队在住院结算与合规审核时，处理本院临床文档、病例组合与既往编码决定，需要完成住院编码与文档完整性核对，产出可用于结算与合规的编码结果。
+  job_en: Hospital inpatient coders and clinical documentation teams, during billing and compliance review,
+    process the health system's own clinical documentation, case mix, and prior coding decisions to complete
+    inpatient coding and documentation completeness checks, producing codes usable for billing and compliance.
+  pain: 住院编码需同时兼顾文档完整性与编码准确性，编码员须逐份核对临床文档与病例组合，工作量大且易出错；文档不完整或编码偏差会直接影响结算与合规审核。公开材料以“more complete documentation,
+    more accurate coding, and more capacity for your teams”指向这一痛点，但未给出量化基线。
+  pain_en: Inpatient coding must satisfy both documentation completeness and coding accuracy; coders review
+    each record against clinical documentation and case mix, which is labor-intensive and error-prone,
+    and incomplete documentation or coding drift directly affects billing and compliance review. Public
+    material points to this pain via 'more complete documentation, more accurate coding, and more capacity
+    for your teams,' but gives no quantitative baseline.
+  current_alternative: 按公开材料推断，医院目前依靠内部编码员人工查阅病历、逐条录入并复核编码，或外包编码服务；AKASA 官网称其模型基于该机构自身临床文档、病例组合与编码决定训练，说明旧做法是以通用规则加人工经验为主。此为工作流结构推理。
+  current_alternative_en: By inference from public material, hospitals currently rely on in-house coders
+    manually reviewing records and entering and re-checking codes, or on outsourced coding services; AKASA's
+    site says its model is trained on the health system's own clinical documentation, case mix, and coding
+    decisions, implying the old approach is generic rules plus human judgment. This is workflow-structure
+    inference.
+  usage_reason: 推断：相较人工逐份核对，AKASA 用基于该机构自身文档与编码决定训练的定制模型直接处理临床文档并输出编码与文档核对结果，减少编码员逐条查阅与初筛这一步负担，并把文档完整性与编码准确性作为可核对产出；因此文档量大、编码人力紧张且合规审核压力高的医院病案团队会在住院结算环节选择它。公开材料未提供准确率或使用数据，故为推断。
+  usage_reason_en: 'Inference: versus manual record-by-record review, AKASA uses a custom model trained
+    on the institution''s own documentation and coding decisions to process clinical documentation and
+    output coding and documentation-check results, reducing the coder''s step of manual lookup and first-pass
+    screening and making documentation completeness and coding accuracy verifiable outputs; therefore
+    inpatient coding teams with high documentation volume, tight coder capacity, and compliance-rev'

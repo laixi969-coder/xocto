@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/bawkterm-an-open-source-ssh-sftp
 summary: A desktop client for SSH, SFTP, Docker over SSH
 first_seen: '2026-09-29T15:32:10Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

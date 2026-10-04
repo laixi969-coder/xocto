@@ -82,3 +82,47 @@
   usage_reason: 无法判断：缺少用户反馈、客户案例或可观察的采用行为，无法说明用户为何会选择它而非现有做法。
   usage_reason_en: 'Cannot be determined: there is no user feedback, customer case or observable adoption
     behavior to explain why users would choose it over existing practices.'
+- id: req-full-agentbox-2026-10-04
+  project_slug: agentbox
+  level: full
+  reviewed_at: '2026-10-04T01:02:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决命令行编码代理会话、容器与用量分散的问题，旧做法是手工终端加自写脚本，痛点具体且可核对。
+    evidence_ids:
+    - ev-095a335215c1bdd2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 70 星，属于早期关注度，尚不能说明团队已把它放进日常工作流。
+    evidence_ids:
+    - ev-095a335215c1bdd2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是自建环境的研发团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-095a335215c1bdd2
+  - gate: truth
+    status: insufficient
+    reason: 自托管与容器隔离方向合理，但缺少部署文档、issue 讨论或实测来确认交付是否稳定。
+    evidence_ids:
+    - ev-095a335215c1bdd2
+  next_validation: 收集该仓库的部署文档与 issue/discussion，确认容器会话隔离和用量记录是否可复现。
+  market: ''
+  job: 开发者在本地或服务器上运行 Claude Code、Codex CLI 等命令行编码代理时，需要把多个代理会话、容器环境、文件改动、Git 状态和用量记录集中管理，以便在浏览器里统一查看和复用。
+  job_en: Developers running command-line coding agents such as Claude Code and Codex CLI locally or on
+    a server need to manage multiple agent sessions, container environments, file changes, Git state and
+    usage records in one browser workspace for review and reuse.
+  pain: 代理在裸终端里跑，会话、容器、Git 改动和用量分散，出问题难以回溯，也难以在多台机器间复用环境；公开材料未提供用户抱怨或使用频率的量化数据。
+  pain_en: Agents run in a bare terminal, so sessions, containers, Git changes and usage are scattered,
+    hard to trace back when something breaks, and hard to reuse across machines; public materials provide
+    no quantified user complaints or usage frequency.
+  current_alternative: 手工开终端、自己写 Docker 脚本、用 shell 历史或零散日志记录，没有统一工作区。
+  current_alternative_en: Opening terminals by hand, writing ad-hoc Docker scripts, and relying on shell
+    history or scattered logs, with no unified workspace.
+  usage_reason: 推断：它把容器会话、终端、文件和 Git 放进同一个浏览器界面并附带用量记录，省去开发者自己搭隔离环境和拼日志这一步，因此需要审计代理执行过程的小团队会选它。
+  usage_reason_en: 'Inference: it puts container sessions, terminal, files and Git into one browser interface
+    with usage records, removing the step of hand-building isolation and stitching logs, so small teams
+    that need to audit agent execution would pick it.'

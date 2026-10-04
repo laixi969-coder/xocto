@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/bmux
 summary: Browser multiplexer for the agentic era
 first_seen: '2026-10-01T11:34:50Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -287,3 +287,55 @@
     skill selection, and computer/browser use into a directly adoptable skill layer, removing the step
     of implementing and tuning each piece, so developers assembling long-horizon agents pick it when context
     overflows often or tasks must run across tools continuously.'
+- id: req-full-hermes-jev-skills-2026-10-04
+  project_slug: hermes-jev-skills
+  level: full
+  reviewed_at: '2026-10-04T01:04:21Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长任务 agent 的上下文膨胀、模型路由与工具编排负担：开发者需自行拼装记忆压缩、技能选择与浏览器操作，缺失即导致 agent 中途中断。这是从产品能力与工作流结构推出的判断，尚无用户抱怨或案例直接佐证痛点强度。
+    evidence_ids:
+    - ev-b469678128e35956
+    - ev-1fec771785feb85c
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 893 增至 1,008，说明开发者社区持续关注并把它纳入候选工具链；但收藏属关注度证据，公开材料未显示 issue、讨论或案例证明它已被长期留在工作流中。
+    evidence_ids:
+    - ev-b469678128e35956
+    - ev-1fec771785feb85c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-b469678128e35956
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明交付形态、维护方、版本稳定性与人工安全边界，无法核验承诺能否确定性交付；仓库存在本身不足以证明长任务场景下稳定可用。
+    evidence_ids:
+    - ev-b469678128e35956
+    - ev-1fec771785feb85c
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认维护方、安装与部署方式、以及是否有开发者报告在长任务中实际替代了自建路由与压缩流程。
+  market: ''
+  job: 搭建 Hermes、Claude Code 或 Codex 智能体的开发者在组装长任务 agent 时，引入这套技能包，让它接管模型路由、记忆与上下文压缩、技能选择以及电脑与浏览器操作，使
+    agent 能在多步任务中持续执行而不中途失忆或卡死。
+  job_en: Developers building Hermes, Claude Code, or Codex agents assemble this skill pack so it takes
+    over model routing, memory and context compaction, skill selection, and computer/browser use, letting
+    the agent keep executing across long multi-step tasks without losing context or stalling.
+  pain: 公开说明显示它针对的是长任务 agent 的上下文膨胀、模型选择与工具调用编排负担：开发者要自己拼装路由、记忆压缩、技能选择与浏览器操作，任一环节缺失都会让 agent 在长流程中中断或退化。这是从产品能力与工作流结构推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The public description targets context bloat, model selection, and tool-orchestration burden
+    in long-running agents: developers otherwise hand-assemble routing, memory compaction, skill selection,
+    and browser use, and any missing piece makes the agent stall or degrade mid-task. This pain is inferred
+    from product capability and workflow structure, not yet from user complaints or cases.'
+  current_alternative: 当前替代方式是开发者自行在 Hermes、Claude Code 或 Codex 中手写模型路由、上下文压缩与工具调用胶水代码，或分别接入多个独立库与脚本；公开材料未说明这些替代方案的具体形态与使用规模。
+  current_alternative_en: Today developers hand-write model routing, context compaction, and tool-calling
+    glue inside Hermes, Claude Code, or Codex, or wire together separate libraries and scripts; public
+    materials do not detail these alternatives' exact form or scale.
+  usage_reason: 推断：相较自己拼装路由与压缩逻辑，这套技能包把模型路由、记忆压缩、技能选择与浏览器操作打包成可直接引入的模块，减少开发者逐项实现和调试这些环节的步骤，因此正在搭建长任务 agent、又不想自建这套基础设施的开发者会在组装阶段选择它。
+  usage_reason_en: 'Inference: versus hand-assembling routing and compaction logic, this pack bundles
+    model routing, memory compaction, skill selection, and browser use into modules that can be pulled
+    in directly, cutting the steps developers spend implementing and debugging each piece, so developers
+    building long-task agents who do not want to rebuild this infrastructure would adopt it at assembly
+    time.'

@@ -258,3 +258,58 @@
     app and shows cost before start, so users need not reconfigure clients after each reconnect; developers
     who want open models without sending data off-machine would pick it for ad-hoc large-model runs. This
     is an inference from product capability and the old workflow, not yet backed by user fee
+- id: req-full-collabosm-2026-10-04
+  project_slug: collabosm
+  level: full
+  reviewed_at: '2026-10-04T01:03:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者想低成本调用开源大模型却不愿按 token 付费、也不愿自建 GPU 环境的任务；痛点在于手写 Colab 脚本、手动开隧道、盯计费与超时，不解决的后果是会话被回收或费用失控。公开说明已能还原输入、动作与交付闭环，属工作流结构推理；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-51af0ad984178794
+    - ev-59a4e84a0e5bcf4f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 87 增至 96，说明有开发者关注并收藏，但公开证据没有 issue、discussion 或用户评价说明谁在什么场景持续使用、替代了哪条旧流程，因此只能算关注度，不能算采用共识。
+    evidence_ids:
+    - ev-51af0ad984178794
+    - ev-02db393cd68fb533
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明费用在启动前显示、有 CU ledger，未披露定价页、抽成方式或买方是 to C 开发者还是 to B 团队；Colab 账号与算力成本由用户承担，产品自身如何收费是判断而非已验证事实。
+    evidence_ids:
+    - ev-59a4e84a0e5bcf4f
+  - gate: truth
+    status: insufficient
+    reason: 自动停机、CU ledger 与本地 /v1 是公开承诺，但缺少可复现的部署文档或实测记录来确认长会话稳定性、Colab 条款合规性与人工边界，交付确定性尚未被公开证据核验。
+    evidence_ids:
+    - ev-1167baee2c12b86d
+  next_validation: 追踪 collabosm 仓库的 README、部署文档与 issue/discussion，确认是否有用户报告实际部署场景、替代的旧流程以及 Colab 长会话稳定性与计费记录。
+  market: ''
+  job: 个人开发者或小团队在本地机器上，用自己的 Google Colab 账号租一块 A100（40G 或 80G）跑 Qwen3 27B 或 Flash-Next 125B-A6B，把推理端点固定为本地
+    /v1，供 Codex 或任意 OpenAI 兼容客户端调用，并在启动前看到本次费用。
+  job_en: An individual developer or small team, on a local machine, rents an A100 (40G or 80G) inside
+    their own Google Colab account to serve Qwen3 27B or Flash-Next 125B-A6B, exposes it as a fixed local
+    /v1 endpoint for Codex or any OpenAI-compatible client, and sees the cost before the run starts.
+  pain: 公开说明显示它针对的是：想用开源大模型但不想按 API token 付费、也不想自购或长期租 GPU 的开发者，需要自己写 Colab notebook、手动装依赖、暴露端口、盯住计费与超时；不解决的后果是会话被
+    Colab 回收、费用失控或本地客户端无法稳定连上模型。这是从产品输入—动作—交付闭环作出的工作流结构推理，尚无用户抱怨或案例直接佐证。
+  pain_en: The public description targets developers who want open models without per-token API billing
+    or owning/long-term renting a GPU, yet must hand-write Colab notebooks, install dependencies, expose
+    ports, and watch billing and timeouts; leaving it unsolved means sessions get reclaimed, costs run
+    away, or local clients cannot reliably reach the model. This is workflow-structure inference from
+    the product's input-action-delivery loop, not direct user complaint or case evidence.
+  current_alternative: 旧做法是：直接买 OpenAI/Anthropic 等闭源 API 按 token 付费；或自己在 Colab notebook 里手写加载脚本并手动开隧道；或租
+    RunPod/Vast.ai 等 GPU 云并自行部署 vLLM/Ollama；或本地跑小模型。
+  current_alternative_en: 'The old ways are: paying per token for closed APIs such as OpenAI or Anthropic;
+    hand-writing a Colab notebook with manual loading and tunneling; renting GPU clouds like RunPod or
+    Vast.ai and self-deploying vLLM/Ollama; or running a small model locally.'
+  usage_reason: 相较手写 Colab notebook 或自建 GPU 云，它把「租卡—装环境—起服务—暴露本地 /v1—自动停机」收敛成一个本地应用动作，并在启动前显示费用、用 CU ledger
+    记录消耗、自动停止实例，因此减少了手动配置端口与忘记关机导致扣费这两步负担；推断会吸引已有 Colab 账号、想低成本试跑 27B/125B 级开源模型并接入 Codex 的开发者。这是基于产品能力的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with hand-written Colab notebooks or self-built GPU clouds, it collapses rent-install-serve-expose-local-/v1-auto-stop
+    into one local app action, shows cost before start, tracks spend in a CU ledger, and auto-stops the
+    instance, removing the manual port setup and the forgotten-shutdown billing step; by inference this
+    appeals to developers who already have a Colab account and want to cheaply try 27B/125B-class open
+    models inside Codex. This is inference from product c

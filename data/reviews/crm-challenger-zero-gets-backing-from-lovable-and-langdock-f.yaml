@@ -80,3 +80,83 @@
   usage_reason: 公开材料未说明 Zero 的具体动作与交付结果，无法解释用户为何会选择它而非现有 CRM。
   usage_reason_en: Public material does not describe Zero's specific actions or delivered results, so
     why users would choose it over existing CRMs cannot be explained.
+- id: req-initial-crm-challenger-zero-gets-backing-from-lovable-and-langdock-f-2026-10-04
+  project_slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决什么需求、什么痛点都未在材料中写出，只有挑战 CRM 巨头的定位，价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且除融资与社区讨论热度外无采用或共识证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从判断。
+    evidence_ids: []
+  next_validation: 收集 Zero 官方产品页或定价页，确认其 AI 在 CRM 流程中具体接收什么、执行哪一步、交付什么结果。
+  market: ''
+  job: 销售或销售运营人员在跟进客户、记录商机和维护客户档案时，处理邮件、通话记录和客户往来材料，要完成客户信息的录入与更新。
+  job_en: Sales or sales-ops staff, while following up on customers, logging opportunities and maintaining
+    account records, handle emails, call notes and customer correspondence to enter and update customer
+    information.
+  pain: 公开材料未说明它具体解决哪一步痛苦，只能推断 CRM 手工录入与维护耗时、易漏，但候选未给出任何用户抱怨或旧流程描述。
+  pain_en: Public material does not state which step of pain it solves; one can only infer that manual
+    CRM entry and upkeep is time-consuming and error-prone, but the candidate gives no user complaint
+    or description of the old process.
+  current_alternative: Salesforce、HubSpot 等现有 CRM，以及表格加人工录入的旧做法。
+  current_alternative_en: Existing CRMs such as Salesforce and HubSpot, plus spreadsheets with manual
+    entry.
+  usage_reason: 候选只给出融资与挑战巨头的定位，没有说明相较旧 CRM 它减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: The candidate only gives funding and a challenger positioning, without saying which
+    step of burden it removes versus legacy CRMs or which checkable result it improves, so it cannot explain
+    why a user would choose it.
+- id: req-full-crm-challenger-zero-gets-backing-from-lovable-and-langdock-f-2026-10-04
+  project_slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
+  level: full
+  reviewed_at: '2026-10-04T01:03:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只给出挑战 Salesforce、HubSpot 的定位与融资，未写出用户任务、痛点、旧替代或不解决的后果，连需求与痛点都无法还原，价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Zero 官方产品页或定价页，确认其 AI 在 CRM 流程中具体接收什么材料、执行哪一步、交付什么结果。
+  market: ''
+  job: 销售或销售运营人员在跟进客户、记录商机和维护客户档案时，处理邮件、通话记录与客户往来材料，要完成客户信息的录入与更新。
+  job_en: Sales or sales-ops staff, while following up on customers, logging opportunities and maintaining
+    account records, handle emails, call notes and customer correspondence to enter and update customer
+    information.
+  pain: 公开材料只给出“挑战 Salesforce、HubSpot”的定位与融资信息，未写出任何用户抱怨、旧流程描述或具体痛点，无法确认哪一步难受。
+  pain_en: Public material only gives a 'challenging Salesforce and HubSpot' positioning plus funding
+    news; it states no user complaint, old-process description or concrete pain, so which step hurts cannot
+    be confirmed.
+  current_alternative: Salesforce、HubSpot 等现有 CRM，以及表格加人工录入的旧做法。
+  current_alternative_en: Existing CRMs such as Salesforce and HubSpot, plus spreadsheets with manual
+    entry.
+  usage_reason: 候选未说明相较旧 CRM 它减少了哪一步负担或改善哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它；这是缺口，不是已证实的采用理由。
+  usage_reason_en: The candidate does not say which step of burden it removes versus legacy CRMs or which
+    checkable result it improves, so it cannot explain which users would choose it and when; this is a
+    gap, not a proven adoption reason.

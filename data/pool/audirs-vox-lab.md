@@ -21,7 +21,7 @@ canonical_url: https://github.com/jheysonjhoelmamanihancco-lang/audirs-vox-lab
 summary: Real-Time AI Voice Formant Pitch Trainer for Safe Singing Practice 2026
 first_seen: '2026-09-21T20:50:44Z'
 last_seen: '2026-10-04T00:37:57Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

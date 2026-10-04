@@ -1,0 +1,88 @@
+- id: req-initial-offrun-2026-10-04
+  project_slug: offrun
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 并行时任务与产出分散、需要人工来回切换记录的问题，痛点具体且不采用会漏任务；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-8acc666284b0b11d
+  - gate: consensus
+    status: insufficient
+    reason: 只有一次社区发布和讨论热度，没有客户案例或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-8acc666284b0b11d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅还是团队席位都只是推断，尚无付费路径证据。
+    evidence_ids:
+    - ev-8acc666284b0b11d
+  - gate: truth
+    status: insufficient
+    reason: 能否确定性交付取决于对各 agent 的接入深度，公开材料未说明支持范围与失败处理，需核验。
+    evidence_ids:
+    - ev-8acc666284b0b11d
+  next_validation: 收集 Offrun 官方定价页或部署文档，确认其支持哪些编码 agent、按什么方式收费。
+  market: ''
+  job: 同时使用多个编码 agent 的软件工程师，在并行推进多个改动时，需要处理各 agent 分散在不同终端和会话里的任务与输出，最终把可用的代码改动收拢并确认。
+  job_en: Software engineers running several coding agents at once, while pushing multiple changes in
+    parallel, need to handle tasks and outputs scattered across terminals and sessions, and finally collect
+    and confirm usable code changes.
+  pain: 多个 agent 并行时，任务状态和产出散落在不同窗口，人要在其间来回切换、手动记录谁跑到哪一步，容易漏掉失败或重复的任务。
+  pain_en: With several agents in parallel, task states and outputs scatter across windows, forcing people
+    to switch back and forth and track progress by hand, which easily loses failed or duplicated tasks.
+  current_alternative: 现在多数人靠多个终端标签页、IDE 分屏或自己记笔记来跟踪各 agent，没有统一入口。
+  current_alternative_en: Today most people track agents with multiple terminal tabs, split IDE panes,
+    or their own notes, with no unified entry point.
+  usage_reason: 推断：相较在多个终端标签页之间手动切换和记录，它把各 agent 的运行状态与任务收进同一工作区，减少来回查找和手工记录这一步，因此同时跑多个 agent 的开发者会在任务变多时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually switching between terminal tabs and keeping notes,
+    it pulls agents'' run states and tasks into one workspace, removing the step of hunting and hand-logging,
+    so developers running several agents would pick it as task count grows; no retention or repeat-use
+    evidence yet.'
+- id: req-full-offrun-2026-10-04
+  project_slug: offrun
+  level: full
+  reviewed_at: '2026-10-04T01:05:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 并行时任务与产出分散、需人工来回切换记录的问题，痛点具体且不采用会漏任务；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-8acc666284b0b11d
+  - gate: consensus
+    status: insufficient
+    reason: 只有官网一句产品定位，没有客户案例、用户评价或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-8acc666284b0b11d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅还是团队席位都只是推断，尚无付费路径证据。
+    evidence_ids:
+    - ev-8acc666284b0b11d
+  - gate: truth
+    status: insufficient
+    reason: 能否确定性交付取决于对各 agent 的接入深度，公开材料未说明支持范围与失败处理，需核验。
+    evidence_ids:
+    - ev-8acc666284b0b11d
+  next_validation: 收集 Offrun 官方定价页或部署文档，确认其支持哪些编码 agent、按什么方式收费。
+  market: ''
+  job: 同时运行多个编码 agent 的软件工程师，在并行推进多个代码改动时，需要处理散落在不同终端和会话里的 agent 任务与输出，最终把可用的改动收拢并确认。
+  job_en: Software engineers running several coding agents at once, while pushing multiple code changes
+    in parallel, need to handle agent tasks and outputs scattered across terminals and sessions, and finally
+    collect and confirm usable changes.
+  pain: 多个 agent 并行时任务状态与产出分散在不同窗口，人要在其间来回切换、手工记录谁跑到哪一步，容易漏掉失败或重复的任务。
+  pain_en: With several agents in parallel, task states and outputs scatter across windows, forcing manual
+    switching and hand-logging of progress, which easily loses failed or duplicated tasks.
+  current_alternative: 多数人靠多个终端标签页、IDE 分屏或自己记笔记来跟踪各 agent，没有统一入口。
+  current_alternative_en: Most people track agents with multiple terminal tabs, split IDE panes, or their
+    own notes, with no unified entry point.
+  usage_reason: 推断：相较在多个终端标签页之间手动切换和记录，它把各 agent 的运行状态与任务收进同一工作区，减少来回查找和手工记录这一步，因此同时跑多个 agent 的开发者会在任务变多时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually switching between terminal tabs and keeping notes,
+    it pulls agents'' run states and tasks into one workspace, removing the step of hunting and hand-logging,
+    so developers running several agents would pick it as task count grows; no retention or repeat-use
+    evidence yet.'

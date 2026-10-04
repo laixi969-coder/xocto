@@ -24,7 +24,7 @@ summary: "Museum:   Rex's Dino Store  \n         Located just before the turnsti
   \    Tags:  art ,  new-york"
 first_seen: '2026-10-02T22:57:38Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

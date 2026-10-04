@@ -134,3 +134,48 @@
     every action by hand and centralizing judgments for review; the inference is that multi-agent teams
     needing audit trails would pick it in such situations, though public material shows no customer cases
     or continued-use evidence.
+- id: req-full-dsh-jev-plugin-2026-10-04
+  project_slug: dsh-jev-plugin
+  level: full
+  reviewed_at: '2026-10-04T01:03:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理执行中选择与审批缺乏统一判断的需求，痛点来自人工盯守与事后难追溯，旧做法是自写规则或逐次人工审批；这是从产品说明与工作流结构作出的推理，非用户采用证据。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 48 增至 97 只说明早期关注度上升，没有用户反馈、issue 讨论或采用数据说明它已进入实际代理流程。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+    - ev-be58231f561ddf71
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价页或买方，付费路径只能作为判断而非已验证事实；若走 to B 团队订阅或托管服务，公开材料尚无采购或付费记录。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  - gate: truth
+    status: insufficient
+    reason: 把审批交给决策层后，判断依据是否可复核、出错时人工如何接管、安全边界在哪，公开材料均未说明，交付确定性无法核验。
+    evidence_ids:
+    - ev-e77b2d1ace0d3c5b
+  next_validation: 追踪该插件仓库的 README 与 issue/discussion，确认决策层是否输出可复核的审批依据、人工接管方式及部署文档。
+  market: ''
+  job: 在 DeepSeek Harness 上编排多个代理的开发者，在代理执行任务前后需要处理代理选择、执行监督、纠错与审批，确保每一步动作按预期放行。
+  job_en: Developers orchestrating multiple agents on DeepSeek Harness must handle agent selection, execution
+    supervision, correction and approval before and after each action so steps are released as intended.
+  pain: 多代理流程中谁执行、是否放行常靠人工盯守，出错后难以追溯是哪一步判断失准，纠错与审批成本随代理数量上升。
+  pain_en: In multi-agent flows, who executes and whether to release often depends on human watching,
+    and after an error it is hard to trace which judgment failed, so correction and approval cost grows
+    with agent count.
+  current_alternative: 开发者目前多自己写路由规则、逐次人工审批，或依赖代理框架自带的简单路由与日志。
+  current_alternative_en: Developers today mostly write their own routing rules, approve each step manually,
+    or rely on simple routing and logs built into agent frameworks.
+  usage_reason: 相较自写规则与人工盯守，它把选择与审批集中到一个决策层，减少逐次人工放行这一步，并让判断依据可随执行链路留存；推断需要审计留痕的多代理团队会在该情况下选择它，但公开材料未提供客户案例或持续使用证据。
+  usage_reason_en: Compared with self-written rules and manual watching, it centralizes selection and
+    approval in one decision layer, cutting the step of releasing each action by hand and keeping judgment
+    rationale with the execution chain; inference is that multi-agent teams needing audit trails would
+    choose it, though public material offers no customer cases or continued-use evidence.

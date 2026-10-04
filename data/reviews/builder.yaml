@@ -79,3 +79,53 @@
   usage_reason_en: 'The task is: Non-professional developers or small teams who need a quick website or
     app prototype, describing requirements in natural language to generate a runnable page Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-builder-2026-10-04
+  project_slug: builder
+  level: full
+  reviewed_at: '2026-10-04T01:03:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让非专业开发者用自然语言生成可运行站点或应用，痛点是从零搭环境、接模型 API 的启动成本高；Puter 提供浏览器内应用与免密钥 AI 接口，交付物是可运行项目，属工作流结构推理，公开用户抱怨与频率仍缺。
+    evidence_ids:
+    - ev-4c8ac82fe371d907
+    - ev-6fc232de8792391d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有登录方式与订阅功能描述，没有目标用户持续使用、复购或社区讨论证据；登录入口和功能清单不能证明用户会反复回到该工作流。
+    evidence_ids:
+    - ev-ad220a030e1876d7
+    - ev-4c8ac82fe371d907
+  - gate: model
+    status: insufficient
+    reason: 页面提到订阅解锁文档、表格、团队聊天等功能，但未见具体价格、付费主体或单位经济；谁付钱、按什么计费仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-488620848bdbd1d5
+  - gate: truth
+    status: insufficient
+    reason: 免费无限 AI 接口的承诺能否确定性交付、生成代码的可用范围与人工修改边界，公开材料未给出可复现说明，安全与滥用边界也未披露。
+    evidence_ids:
+    - ev-6fc232de8792391d
+  next_validation: 追踪 Puter 官方定价页与 Builder 相关文档/客户案例，确认订阅价格、付费主体以及生成项目的部署与交付边界。
+  market: ''
+  job: 非专业开发者或小团队在需要快速验证一个网站或小应用想法时，用自然语言描述需求，让 AI 生成可运行的站点或应用代码，拿到能打开、能演示的原型。
+  job_en: Non-professional developers or small teams who need to quickly validate a website or app idea
+    describe requirements in natural language and have AI generate runnable site or app code, producing
+    a prototype they can open and demo.
+  pain: 公开材料只说明 Puter 提供浏览器内应用与免费 AI 接口，未记录用户抱怨、失败代价或频率；从工作流结构推理，非专业开发者从零写前端、配环境、接模型 API 的启动成本高，这是该任务的结构性摩擦，但缺用户口述证据。
+  pain_en: Public materials only show Puter offering in-browser apps and a free AI API, with no recorded
+    user complaints, failure costs, or frequency; by workflow inference, the setup cost of writing frontend,
+    configuring environments, and wiring model APIs from scratch is a structural friction for non-professional
+    developers, but user-voice evidence is absent.
+  current_alternative: 公开材料未直接说明用户现在怎么做；可核对的替代是 Lovable、Replit、v0 等同类平台，以及自己搭环境写代码，但项目自身未提供对比或迁移证据。
+  current_alternative_en: Public materials do not directly state how users do this today; verifiable alternatives
+    are comparable platforms such as Lovable, Replit, and v0, or hand-coding with a self-configured environment,
+    but the project provides no comparison or migration evidence.
+  usage_reason: 推断：相较自己配环境写代码或订阅其他生成平台，Puter 把 AI 模型调用做成无需 API key、无用量限制的浏览器内接口，用户少走申请密钥、配置后端这一步，因此想低成本试做原型的非专业开发者可能选择它；这是基于产品能力的推断，不是已证实的采用动机。
+  usage_reason_en: 'Inference: compared with hand-coding in a self-configured environment or subscribing
+    to other generation platforms, Puter exposes AI model calls as an in-browser API requiring no API
+    key and no usage limits, removing the key-application and backend-setup step, so non-professional
+    developers wanting a low-cost prototype may choose it; this is inferred from product capability, not
+    confirmed adoption motivation.'

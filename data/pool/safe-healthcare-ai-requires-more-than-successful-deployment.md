@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPOVZvanVrdV83
 summary: Safe healthcare AI requires more than successful deployment Healthcare Leader
 first_seen: '2026-10-02T13:19:02Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

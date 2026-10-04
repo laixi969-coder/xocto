@@ -260,3 +260,53 @@
     the developer to maintain saves and rules, which may attract solo developers wanting low-cost perpetual
     updates; without user feedback or adoption evidence this cannot be confirmed as a real reason for
     choosing it.'
+- id: req-full-infinite-pokemon-2026-10-04
+  project_slug: infinite-pokemon
+  level: full
+  reviewed_at: '2026-10-04T01:04:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者与同人作者持续产出地图、NPC 与剧情的产能需求，痛点是手工设计无限内容成本高、单人难以长期更新；不采用则只能做有限流程或停更。公开材料可还原输入—生成—存档交付闭环，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-e3660ed8c3bb9492
+    - ev-963e733f9b9de9e7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数由 175 升至 223，属关注度证据，只能说明有人关注；未见 issue、discussion 或用户评价说明开发者是否真的接入自己的项目，强场景共识尚未形成。
+    evidence_ids:
+    - ev-e3660ed8c3bb9492
+    - ev-9ea091d6e9fe0f35
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、付费路径或买方描述；钱可能来自开发者自用、赞助或后续商业化，这是判断而非已验证事实，公开材料无法确认谁付钱。
+    evidence_ids:
+    - ev-93fc74f004688288
+  - gate: truth
+    status: insufficient
+    reason: 生成地图与 NPC 能否确定性交付、分支存档与多人模式如何保持一致、是否需人工审核，公开材料均未说明；贴近“可继续游玩”的第一性目标尚缺交付边界证据。
+    evidence_ids:
+    - ev-50b7676291bb547d
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认是否有开发者实际把它接入自己的项目，并反馈生成地图、NPC 与分支存档的可用性。
+  market: ''
+  job: 独立游戏开发者或同人创作者在需要持续产出新地图、NPC 与剧情时，用 Codex 生成地图、NPC 与分支存档，交付一个可继续游玩、支持多人同玩的宝可梦式冒险世界。
+  job_en: An indie developer or fan creator needing a continuous supply of new maps, NPCs and story uses
+    Codex to generate maps, NPCs and branching saves, delivering a Pokémon-style adventure world that
+    keeps being playable and supports multiplayer.
+  pain: 手工设计无限内容成本极高，单人开发者难以长期维持更新；宝可梦式同人创作还面临素材与关卡产能瓶颈。公开材料只给出产品说明与仓库星数，未提供玩家或开发者的痛点自述，痛点强度属工作流结构推理。
+  pain_en: Hand-designing endless content is extremely costly and hard for a solo developer to sustain;
+    Pokémon-style fan creation also hits asset and level-throughput bottlenecks. Public material only
+    offers product description and repo stars, with no first-person pain statements, so pain intensity
+    is a workflow inference.
+  current_alternative: 手工编写关卡与对白、使用现成游戏引擎与素材库，或直接做有限流程的独立游戏；同人作者通常靠固定素材包与手工剧情推进。
+  current_alternative_en: Hand-authoring levels and dialogue, using existing engines and asset libraries,
+    or shipping a finite indie campaign; fan creators typically rely on fixed asset packs and hand-written
+    story progression.
+  usage_reason: 推断：相较手工写关卡，它把“设计新地图与 NPC、维护分支存档”这一步交给 Codex 生成，开发者只需维护规则与存档结构，因此可能吸引想低成本维持长期更新的个人开发者；仓库星数从
+    175 增至 223 只说明关注度上升，不能证明持续使用，缺少用户反馈这一环。
+  usage_reason_en: 'Inference: versus hand-writing levels, it hands the step of designing new maps and
+    NPCs and maintaining branching saves to Codex, leaving the developer to maintain rules and save structure,
+    which may attract solo developers wanting low-cost perpetual updates; stars rising from 175 to 223
+    only shows attention, not sustained use, and user feedback is the missing link.'

@@ -1,0 +1,79 @@
+- id: req-initial-reassign-2026-10-04
+  project_slug: reassign
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，仅有一句标语，无法还原旧流程与交付，价值关证据不足。
+    evidence_ids:
+    - ev-e9f1720a89880cac
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有任何采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-e9f1720a89880cac
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-e9f1720a89880cac
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-e9f1720a89880cac
+  next_validation: 收集 Reassign 官方产品页或文档，确认它接收什么输入、执行什么动作、交付什么结果以及是否公布定价。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境、处理的材料与要完成的任务，无法还原一个可核对的工作场景。
+  job_en: Public material does not state the specific user, situation, material handled or task to complete,
+    so no verifiable work scenario can be reconstructed.
+  pain: 未说明用户当前在日程规划上遇到什么具体困难，也未说明不解决会有什么后果。
+  pain_en: It does not state what concrete difficulty users face in day planning, nor the consequence
+    of not solving it.
+  current_alternative: 未披露用户现在用什么方式做日程规划，无法与旧做法对比。
+  current_alternative_en: It does not disclose how users currently plan their day, so no comparison with
+    the old approach is possible.
+  usage_reason: 缺少功能、流程与交付说明，无法解释用户为何会选择它而非现有日程工具；这是信息缺口，不是需求结论。
+  usage_reason_en: With no feature, workflow or deliverable description, there is no way to explain why
+    a user would choose it over existing planners; this is an information gap, not a demand conclusion.
+- id: req-full-reassign-2026-10-04
+  project_slug: reassign
+  level: full
+  reviewed_at: '2026-10-04T01:05:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，仅有一句面向创作者的日程规划标语，无法还原旧流程、输入与交付，价值关证据不足。
+    evidence_ids:
+    - ev-c2ce8a03f8dc68ca
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Reassign 官方产品页或文档，确认它接收什么输入、执行什么动作、交付什么结果以及是否公布定价。
+  market: ''
+  job: 公开材料只给出面向创作者的日程规划标语，未说明谁在什么情况下、处理什么材料、要完成什么任务，无法还原可核对的使用场景。
+  job_en: Public material only gives a day-planning tagline for makers; it does not state who, in what
+    situation, handling what material, to complete what task, so no verifiable job can be reconstructed.
+  pain: 未说明创作者在日程规划上遇到什么具体困难，也未说明不解决会有什么后果，痛点无法从公开事实中还原。
+  pain_en: It does not state what concrete difficulty makers face in day planning, nor the consequence
+    of not solving it, so the pain cannot be reconstructed from public facts.
+  current_alternative: 未披露用户现在用什么方式规划一天，无法与旧做法对比。
+  current_alternative_en: It does not disclose how users currently plan their day, so no comparison with
+    the old approach is possible.
+  usage_reason: 缺少输入、动作与交付说明，无法解释用户为何会选择它而非现有日程工具；这是信息缺口，不是需求结论。
+  usage_reason_en: With no description of input, action or deliverable, there is no way to explain why
+    a user would choose it over existing planners; this is an information gap, not a demand conclusion.

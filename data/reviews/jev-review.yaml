@@ -379,3 +379,52 @@
     the commit, has the agent run staged checks, and aggregates results in a local dashboard, cutting
     the steps of checking tools one by one and waiting for feedback; developers who prefer local-first
     pre-commit self-review would choose it.'
+- id: req-full-jev-review-2026-10-04
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-10-04T01:04:36Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 代理快速产出改动后、提交前缺少结构化质量关卡的需求，痛点是人工逐行审阅跟不上生成速度、未审改动可能直接入库；公开材料已给出本地优先 MCP 插件与分阶段评审加本地看板的输入—动作—交付闭环，属工作流结构推理，痛点刚性与交付确定性成立。
+    evidence_ids:
+    - ev-e231af44f95c4946
+    - ev-cbe82176fff3120c
+  - gate: consensus
+    status: supported
+    reason: 两个同名仓库分别积累约 230 与 660 余星标并持续小幅增长，说明开发者已注意到提交前 AI 评审这一场景；但星标只属关注度证据，公开材料未见 issue、讨论或案例证明它被长期留在工作流中，故共识仅到关注层。
+    evidence_ids:
+    - ev-580dc513c905841a
+    - ev-55195445818cd7cc
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与星标，没有定价页、付费记录或采购信息，无法判断钱来自 to C 开发者、to B 团队还是 to VC；本地优先插件本身也未展示可收费的托管或团队版路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e231af44f95c4946
+    - ev-cbe82176fff3120c
+  - gate: truth
+    status: insufficient
+    reason: 产品定位为本地优先、由 AI 代理执行分阶段评审，方向贴近提交前质量把关的第一性目标；但公开材料未说明具体检查项、结果格式、误报处理与人工确认边界，交付能否稳定复现尚无公开证据。
+    evidence_ids:
+    - ev-e231af44f95c4946
+    - ev-cbe82176fff3120c
+  next_validation: 追踪 jev-review 仓库的 README、issue 与 discussion，确认其分阶段检查项、看板输出格式及是否有人报告在真实提交流程中重复使用。
+  market: ''
+  job: 开发者在本地提交代码前，把待评审的改动交给 AI 编码代理，由代理按阶段做质量检查，结果汇总到本地看板供人工确认后再提交。
+  job_en: Before committing locally, a developer hands pending changes to an AI coding agent that runs
+    staged quality checks and aggregates results into a local dashboard for human confirmation.
+  pain: AI 编码代理产出改动的速度已超过人工逐行审阅的速度，提交前缺少结构化、可复核的质量关卡，容易把未审改动直接推入仓库；公开材料只给出产品定位，未量化返工或缺陷代价。
+  pain_en: AI agents now produce changes faster than humans can review line by line, and there is no structured,
+    reviewable quality gate before commit, so unreviewed changes can reach the repository; public materials
+    state the positioning but do not quantify rework or defect cost.
+  current_alternative: 当前替代是人工逐行 diff 审阅、IDE 内置静态检查与 lint、以及把改动交给通用 AI 助手做一次性问答式检查，这些做法不产出分阶段、可汇总到看板的评审记录。
+  current_alternative_en: Today developers rely on manual line-by-line diff review, IDE lint/static checks,
+    and one-off Q&A checks with general AI assistants, none of which produce staged review records aggregated
+    into a dashboard.
+  usage_reason: 推断：相较人工逐行审阅或一次性 AI 问答，它把评审拆成阶段并由代理执行、结果落到本地看板，开发者只需在提交前确认看板结论，省去自己组织检查清单和汇总发现的步骤；本地优先意味着代码不出本机，重视代码不外传的开发者更可能选它。
+  usage_reason_en: 'Inference: versus manual line-by-line review or one-off AI Q&A, it splits review into
+    stages executed by the agent and lands results in a local dashboard, so the developer only confirms
+    the dashboard before commit instead of assembling a checklist and aggregating findings; local-first
+    means code stays on the machine, which appeals to developers who will not send code off-box.'

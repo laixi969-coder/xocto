@@ -1,6 +1,6 @@
 ---
 slug: decagon-expands-ai-concierge-platform-with-four-new-releases
-name: Decagon Expands AI Concierge Platform With Four New Releases
+name: Decagon
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNajR5Mk9xbndJ
 summary: Decagon Expands AI Concierge Platform With Four New Releases Unite.AI
 first_seen: '2026-10-01T17:48:02Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Decagon Expands AI Concierge Platform With Four New Releases
+# Decagon
 
 Decagon Expands AI Concierge Platform With Four New Releases Unite.AI
 

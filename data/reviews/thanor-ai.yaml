@@ -1,0 +1,86 @@
+- id: req-initial-thanor-ai-2026-10-04
+  project_slug: thanor-ai
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决AI生成页面显得廉价、交付前需返工的问题，痛点方向可辨，但公开材料未说明具体处理动作与交付物，无法确认是否真的替代了某一步旧工作。
+    evidence_ids:
+    - ev-501237e648133505
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区发布记录，没有用户评价、客户案例或采用信号，无法判断是否有人真的把它放进交付流程。
+    evidence_ids:
+    - ev-501237e648133505
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-501237e648133505
+  - gate: truth
+    status: insufficient
+    reason: 无法核对打磨后的页面是否达到可交付标准，也未说明人工确认环节与安全边界。
+    evidence_ids:
+    - ev-501237e648133505
+  next_validation: 收集Thanor AI官方产品页或文档，确认它接收什么输入、执行哪些具体处理、产出什么交付物，以及是否公开定价。
+  market: ''
+  job: 独立开发者或小型代理商在把AI生成的落地页交给客户之前，需要处理这些页面的视觉与排版，使其达到可交付的成品水准。
+  job_en: Before handing AI-generated landing pages to clients, independent developers or small agencies
+    need to refine the visuals and typography of those pages to a deliverable standard.
+  pain: AI生成的页面常被客户认为廉价、粗糙，交付前需要人工返工，但公开材料未说明返工具体耗时或成本。
+  pain_en: AI-generated pages are often seen by clients as cheap or rough, requiring manual rework before
+    delivery, but public materials do not state the specific time or cost of that rework.
+  current_alternative: 开发者自行手动调整CSS与设计稿，或请设计师返工，也可能直接交付未打磨的页面。
+  current_alternative_en: Developers manually adjust CSS and design files themselves, hire a designer
+    to rework them, or simply deliver the unpolished page.
+  usage_reason: 推断：若Thanor AI能直接接收AI生成的页面并自动完成视觉与排版打磨，用户可省去逐项手改样式这一步，因此接单交付压力大的独立开发者可能选择它；但公开材料未说明其具体动作与产出，无法确认这一因果。
+  usage_reason_en: 'Inference: if Thanor AI can take an AI-generated page and automatically polish its
+    visuals and typography, users could skip hand-editing styles item by item, so freelancers under delivery
+    pressure might choose it; however, public materials do not describe its concrete actions or outputs,
+    so this causal link is unconfirmed.'
+- id: req-full-thanor-ai-2026-10-04
+  project_slug: thanor-ai
+  level: full
+  reviewed_at: '2026-10-04T01:06:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决AI生成页面显得廉价、交付前需返工的问题，但公开证据只有一句营销口号，没有用户抱怨、返工代价或客户拒收事实；'看起来贵'属审美偏好，不做也能交付，痛点刚性不足，且具体处理动作与交付物均未披露。
+    evidence_ids:
+    - ev-501237e648133505
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪Thanor AI官方产品页或文档，确认它接收什么输入、执行哪些具体处理、产出什么交付物，以及是否公开定价与客户案例。
+  market: ''
+  job: 独立开发者或小型代理商在用AI生成落地页后、交付给客户之前，需要把页面的视觉与排版打磨到看起来像付费成品的水平，再作为交付物交给客户。
+  job_en: After generating a landing page with AI and before handing it to a client, an independent developer
+    or small agency needs to polish the page's visuals and typography to a paid-product standard and deliver
+    it as the final artifact.
+  pain: 公开材料只给出'AI-built sites look like slop'这一句营销话术，没有用户抱怨、返工耗时、客户拒收或改稿轮次等可核对事实；'看起来廉价'属于审美观感，客户是否因此拒付、返工成本多高均无公开证据。
+  pain_en: Public material offers only the marketing line that AI-built sites look like slop; there is
+    no user complaint, rework time, client rejection, or revision-round evidence. 'Looking cheap' is an
+    aesthetic impression, and whether clients refuse to pay or how costly the rework is remains unverified.
+  current_alternative: 开发者自行手改CSS与设计稿、请设计师返工，或直接交付未打磨页面；这些旧做法在公开材料中均未被证明失效或代价过高。
+  current_alternative_en: Developers hand-edit CSS and design files, hire a designer to rework the page,
+    or simply ship the unpolished version; none of these alternatives is shown in public material to be
+    failing or prohibitively costly.
+  usage_reason: 推断：若它真能接收AI生成页面并自动完成视觉与排版打磨，用户可省去逐项手改样式这一步；但公开材料只有一句口号，未说明输入形式、处理动作与交付物，无法确认它比手改CSS或请设计师更省事，因此选择动机不成立。
+  usage_reason_en: 'Inference: if it truly ingests an AI-generated page and automatically polishes visuals
+    and typography, users could skip hand-editing styles item by item; but public material is a single
+    slogan with no input format, processing action, or deliverable, so it cannot be shown to beat hand-editing
+    CSS or hiring a designer, and the adoption motive does not hold.'

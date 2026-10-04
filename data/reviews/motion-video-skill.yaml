@@ -287,3 +287,52 @@
     input yields a finished cut, removing the cross-tool shuttling and per-clip beat matching step; short-video
     operators or motion designers producing at batch scale would choose it, with beat and caption review
     still left to humans.'
+- id: req-full-motion-video-skill-2026-10-04
+  project_slug: motion-video-skill
+  level: full
+  reviewed_at: '2026-10-04T01:05:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是批量产出卡点动效视频的需求：动效、配音、逐字字幕、音效与配乐分散在多个工具、需手工对轨，批量时重复劳动成倍放大，不解决的后果是出片慢、产能受限。公开说明已能还原输入（脚本与素材）、动作（按节拍渲染
+      1080p 并合成音轨字幕）与交付（成片文件），属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-04c5bc57016d0fad
+    - ev-9ddf3b9862a984fd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 102 缓慢升至 110，说明有开发者关注，但公开材料没有用户评价、案例或重复使用记录，无法判断目标用户是否把它留在日常出片流程里；关注度不等于持续采用。
+    evidence_ids:
+    - ev-04c5bc57016d0fad
+    - ev-295c03c2b00917f1
+  - gate: model
+    status: insufficient
+    reason: 项目为 MIT 开源，公开材料未见定价、付费主体或商业交付路径；谁付钱、按什么单位收费均属判断而非已验证事实，这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-04c5bc57016d0fad
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺按节拍渲染 1080p 并合成配音字幕，但缺少可复现的成片样例、渲染稳定性与人工校对边界的公开证据，交付确定性尚未核验。
+    evidence_ids:
+    - ev-9ddf3b9862a984fd
+  next_validation: 追踪该仓库的 README 示例成片、issue 与 discussion，确认是否有真实用户提交批量出片场景、渲染失败或字幕校对问题，以核验交付确定性与持续使用。
+  market: ''
+  job: 短视频运营或动效设计师在需要批量产出卡点动效视频时，把脚本、素材和音乐节奏交给这个 agent 技能，由它渲染 1080p 动效画面并配上 AI 配音、逐字字幕、音效与生成音乐，最终拿到可直接发布的成片文件。
+  job_en: A short-video operator or motion designer with a batch of scripts and assets hands them to this
+    agent skill and receives a publishable 1080p beat-synced motion-graphic video with AI voice-over,
+    karaoke captions, SFX and generated music.
+  pain: 卡点动效视频的制作链条长：画面动效、配音、逐字字幕、音效与配乐通常要在多个工具间来回切换并手工对齐节拍，单条成片耗时长，批量产出时重复劳动被成倍放大。
+  pain_en: Beat-synced motion graphics require stitching motion design, voice-over, karaoke captions,
+    SFX and music across several tools and hand-aligning them to the beat, so per-video time is high and
+    batch production multiplies the repetitive work.
+  current_alternative: 旧做法是动效设计师在 After Effects 或剪映类工具里手工做动效与卡点，配音另找 TTS，字幕用识别工具再人工校对，音乐和音效从素材库挑选后手动对轨。
+  current_alternative_en: 'The existing route is manual: motion design and beat-cutting in After Effects
+    or similar editors, separate TTS for voice-over, ASR captions with manual correction, and hand-synced
+    music and SFX from stock libraries.'
+  usage_reason: 推断：相较手工多工具拼接，它把动效渲染、配音、逐字字幕、音效与配乐收进一次 agent 调用，按节拍统一生成，减少的是跨工具导出与逐条对轨这两步负担；因此需要批量出片、又缺少专职动效人力的短视频运营更可能在有脚本和素材时选择它，成片节奏与字幕仍需人工确认。
+  usage_reason_en: 'Inference: versus manual multi-tool assembly, it folds motion rendering, voice-over,
+    karaoke captions, SFX and music into one agent invocation generated on the beat, removing cross-tool
+    exports and per-clip alignment; short-video operators who must ship in batches without dedicated motion
+    staff are therefore the likely adopters, with pacing and captions still human-checked.'

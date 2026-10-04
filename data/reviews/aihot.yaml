@@ -213,3 +213,53 @@
     model pre-filter and score twice independently, then clusters the same event and ranks by discussion
     volume, removing the step of reading and merging item by item, so editors or operators wanting their
     own industry hot-topic site would choose it when they need a stable daily digest.'
+- id: req-full-aihot-2026-10-04
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-04T01:02:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编辑每天从多信源人工筛选、归并同一事件并排版日报的需求，痛点在重复筛选与事件归并的刚性劳动；公开材料记录了旧流程与每日 08:00 交付形态，交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-d4a6b7a03fa4232a
+    - ev-6bf2a6b037ce2514
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明它每天聚合热点并发布日报，未见目标编辑持续使用、订阅或复用的公开证据；关注度不等于持续采用，共识强度尚不足以支撑。
+    evidence_ids:
+    - ev-71a65cf629b40e79
+    - ev-65bc15c8fb3b4efe
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；谁付钱（自建站点的编辑、运营者还是 to B 采购）在公开材料中说不清，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7effe6456ad40521
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明筛选规则可配置到什么程度、大模型打分与事件归并的准确率、以及人工复核边界；交付能否稳定确定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-409ff536b9d27b11
+  next_validation: 追踪 AIHOT 的 公开代码仓库 仓库 issue / discussion 与官方文档，确认信源与精选标准的配置方式、日报交付的稳定性以及是否有真实部署者反馈。
+  market: ''
+  job: 行业资讯编辑或运营者每天要在多个信源之间翻找当天值得看的 AI 产品、行业、论文与技巧条目，把同一事件的多方说法合并，写成中文标题与摘要，并在早上发布一份可读的日报站点。
+  job_en: An industry news editor or operator must each day scan multiple sources for the day's notable
+    AI product, industry, paper and tip items, merge multiple reports of the same event, write Chinese
+    titles and summaries, and publish a readable daily digest site in the morning.
+  pain: 公开材料显示旧流程是人工从一批信源里收资料、逐条筛选并排版成日报；痛点在重复劳动与筛选判断上——同一事件被多家来源重复报道需要人工归并，热点排序也要靠人判断，漏掉或误判会直接影响当天日报的可读性。
+  pain_en: Public materials show the old workflow is manually collecting from a batch of sources, filtering
+    item by item and laying out a daily digest; the pain is repetitive labor plus filtering judgment —
+    the same event reported by several sources must be merged by hand and hotness ranking is also a human
+    call, so misses or misjudgments directly affect that day's digest.
+  current_alternative: 当前替代方式是编辑自己逐个打开信源、人工挑选条目、手工合并同一事件并排版发布；公开材料未说明是否已有其他自动化工具被使用。
+  current_alternative_en: The current alternative is the editor opening sources one by one, manually picking
+    items, hand-merging the same event and laying out the digest; public materials do not show whether
+    other automation tools are already in use.
+  usage_reason: 推断：相较人工逐源翻找与手工归并，AIHOT 按配置信源抓取、用大模型先筛一遍再独立打两次分、把同一事件聚成一个事件并按讨论量排序，最后在每天 08:00 输出日报，减少的是逐条筛选与事件归并这两步人工负担；因此想自建行业热点站的编辑或运营者会在需要每天稳定产出日报时选择它。公开材料未提供用户反馈或留存证据，此因果为基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: versus manual source-by-source scanning and hand-merging, AIHOT fetches
+    from configured sources, uses an LLM to pre-filter and then independently score twice, clusters the
+    same event into one item and ranks by discussion volume, then outputs a digest at 08:00 daily, removing
+    the manual burden of item-by-item filtering and event merging; therefore editors or operators wanting
+    to build their own industry hot-topic site would choose it when they need a stable daily di'

@@ -1,6 +1,6 @@
 ---
 slug: salesforce-will-pay-2-billion-dollars-for-listen-labs-and-it
-name: Salesforce will pay 2 billion dollars for Listen Labs and its AI research agents
+name: Salesforce
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQUUc3d1BLekZl
 summary: Salesforce will pay 2 billion dollars for Listen Labs and its AI research agents Startup Fortune
 first_seen: '2026-10-03T00:23:32Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Salesforce will pay 2 billion dollars for Listen Labs and its AI research agents
+# Salesforce
 
 Salesforce will pay 2 billion dollars for Listen Labs and its AI research agents Startup Fortune
 

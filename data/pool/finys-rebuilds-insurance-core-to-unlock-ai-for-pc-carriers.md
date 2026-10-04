@@ -1,6 +1,6 @@
 ---
 slug: finys-rebuilds-insurance-core-to-unlock-ai-for-pc-carriers
-name: Finys rebuilds insurance core to unlock AI for P&C carriers
+name: Finys
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTQzM1JCOURl
 summary: Finys rebuilds insurance core to unlock AI for P&C carriers FinTech Global
 first_seen: '2026-10-01T10:36:19Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Finys rebuilds insurance core to unlock AI for P&C carriers
+# Finys
 
 Finys rebuilds insurance core to unlock AI for P&C carriers FinTech Global
 

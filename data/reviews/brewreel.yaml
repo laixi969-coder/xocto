@@ -254,3 +254,52 @@
     copy steps and adding built-in ad-law checks; thus small merchants or marketers with limited staff
     and budget who need batches of vertical assets would choose it when they have a brief and scattered
     footage.'
+- id: req-full-brewreel-2026-10-04
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-04T01:03:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小商家只有简报和零散素材却要出竖版宣传片的需求，痛点是剪辑与合规成本；开源可商用、一条命令出片、内置广告法校验构成可确定交付，属工作流结构推理，尚无用户抱怨或采用数据佐证痛点强度。
+    evidence_ids:
+    - ev-a5b28d4a82857a0a
+    - ev-8711308f71b2a4ce
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 100 升至 117，说明开发者社区注意到它，但收藏与复刻属关注度证据，不能证明目标商家持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-a5b28d4a82857a0a
+    - ev-8711308f71b2a4ce
+  - gate: model
+    status: insufficient
+    reason: 开源可商用意味着代码免费分发，公开材料未见定价页、付费客户或采购记录，to B 或 to C 的收费路径尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a5b28d4a82857a0a
+  - gate: truth
+    status: insufficient
+    reason: 广告法校验结果仍需人工确认，公开材料未给出可复现的成片样例、镜头来源说明或部署文档，交付能否稳定发生与人工边界尚缺证据。
+    evidence_ids:
+    - ev-a5b28d4a82857a0a
+  next_validation: 追踪 BrewReel 仓库的 README、issue 与 discussion，确认是否有真实商家部署案例、成片样例与镜头素材来源说明。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，打开 BrewReel 把简报交给 AI，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片。
+  job_en: A small merchant or marketer with only a product brief and scattered footage opens BrewReel,
+    hands the brief to the AI, which selects shots, writes copy and assembles a vertical promo video,
+    ending with a ready-to-run cut.
+  pain: 公开材料显示其定位是让 DeepSeek 这类便宜模型也能出好看的竖版宣传片，并内置广告法校验；这指向小商家自建短视频素材时预算与合规两处摩擦，但公开证据未给出用户抱怨、频率或不采用的具体代价。
+  pain_en: Public materials position it as letting cheap models like DeepSeek produce good vertical promo
+    videos, with built-in ad-law checks; this points to budget and compliance friction for small merchants
+    producing short-form assets, but public evidence gives no user complaints, frequency, or concrete
+    cost of not adopting.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是人工剪辑或外包给剪辑师/代运营，但这一替代路径未被公开证据直接确认。
+  current_alternative_en: Public materials do not state how users complete this job today; the structurally
+    inferable alternative is manual editing or outsourcing to an editor/agency, but that path is not directly
+    confirmed by public evidence.
+  usage_reason: 推断：相较人工剪辑或外包，BrewReel 用一条命令把挑镜头、写文案、合成竖版成片串成单步交付，并附带广告法校验，减少逐条剪辑与合规自查的负担；因此预算有限、需要快速出竖版素材的小商家或营销人员会在有简报和零散素材时选择它。
+  usage_reason_en: 'Inference: versus manual editing or outsourcing, BrewReel chains shot selection, copywriting
+    and vertical assembly into a single command with ad-law checks, cutting per-clip editing and compliance
+    self-review; so budget-limited small merchants or marketers needing fast vertical assets would choose
+    it when they have a brief and scattered footage.'

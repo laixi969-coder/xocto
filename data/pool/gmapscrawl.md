@@ -21,7 +21,7 @@ canonical_url: https://gmapscrawl.com/google-maps-scraper-mcp
 summary: Google Maps Scraper MCP
 first_seen: '2026-10-03T01:46:39Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

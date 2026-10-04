@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPM1pUOG9sTEQ5
 summary: Meta Muse AI 智能体确实能用，但信任才是真正的产品 remio
 first_seen: '2026-10-01T07:46:13Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

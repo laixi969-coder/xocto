@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVdEV3owd3Nq
 summary: IBM Is Betting AI’s Next Big Market Won’t Live in the Cloud TradingView
 first_seen: '2026-10-01T15:53:33Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

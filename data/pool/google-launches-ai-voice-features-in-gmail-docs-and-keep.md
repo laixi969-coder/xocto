@@ -1,15 +1,14 @@
 ---
 slug: google-launches-ai-voice-features-in-gmail-docs-and-keep
-name: Google
+name: Google Workspace
 builder: MysteryPancake
 category: ''
-summary_zh: Google 在 2026 年 9 月上旬把 AI 语音功能加入 Gmail、Docs 和 Keep，覆盖邮件、文档、笔记三个高频办公场景。对做 AI 应用的团队意味着：语音输入这类能力正被办公套件免费内置，独立语音录入或口述转写工具在同一条工作流里将面临挤压（推断：报道只确认上线，未见功能细节与使用数据）。
+summary_zh: Google 在 Gmail、Docs、Keep 中新增 AI 语音能力，属于既有办公套件的功能更新，不是独立产品；对 AI 应用而言，这意味着通用办公入口的语音交互被平台方直接吸收，第三方在通用写作与记录环节的独立空间进一步收窄。
 inspiration: ''
-summary_en: 'In early September 2026, Google added AI voice features to Gmail, Docs and Keep, covering
-  three high-frequency office scenarios: email, documents and notes. For AI application builders this
-  means voice-input capabilities are being bundled for free into mainstream office suites, squeezing standalone
-  dictation and transcription tools serving the same workflow (inference: the report only confirms the
-  rollout, with no feature details or usage data).'
+summary_en: Google added AI voice capabilities to Gmail, Docs and Keep, a feature update inside an existing
+  office suite rather than a standalone product; for AI applications this means voice interaction in general
+  office entry points is being absorbed by the platform owner, further narrowing independent space in
+  generic writing and note-taking.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJC
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds
@@ -122,7 +121,7 @@ sightings:
   kind: news
 ---
 
-# Google
+# Google Workspace
 
 Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 

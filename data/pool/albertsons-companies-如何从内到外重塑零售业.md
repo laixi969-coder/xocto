@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE8wcEVFY21wY2E3
 summary: Albertsons Companies 如何从内到外重塑零售业 OpenAI
 first_seen: '2026-10-02T07:05:54Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

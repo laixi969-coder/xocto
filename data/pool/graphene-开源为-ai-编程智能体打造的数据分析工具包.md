@@ -1,6 +1,6 @@
 ---
 slug: graphene-开源为-ai-编程智能体打造的数据分析工具包
-name: Graphene 开源：为 AI 编程智能体打造的数据分析工具包
+name: Graphene
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rUEdLT3lmWmFx
 summary: Graphene 开源：为 AI 编程智能体打造的数据分析工具包 80aj.com
 first_seen: '2026-10-03T20:18:16Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Graphene 开源：为 AI 编程智能体打造的数据分析工具包
+# Graphene
 
 Graphene 开源：为 AI 编程智能体打造的数据分析工具包 80aj.com
 

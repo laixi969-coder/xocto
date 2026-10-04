@@ -283,3 +283,89 @@
     locally and chains planning, execution, validation, and delivery, cutting copy-paste and manual validation
     steps, so developers who need code to stay local yet want end-to-end repository changes would choose
     it for multi-file tasks.'
+- id: req-initial-coding-agent-2026-10-04
+  project_slug: coding-agent
+  level: initial
+  reviewed_at: '2026-10-04T00:38:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让代理读懂整个仓库并完成改动与验证的需求，痛点在于上下文搬运和手动验证，旧做法确实存在。
+    evidence_ids:
+    - ev-9ceabd9fbf84c65a
+    - ev-b77335e8f5e32494
+  - gate: consensus
+    status: insufficient
+    reason: 仅有约180星与5次fork，社区讨论和用户评价未见，尚不能说明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-b77335e8f5e32494
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，买方与收费方式均无公开材料，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9ceabd9fbf84c65a
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与仓库级验证的承诺能否稳定交付，缺少文档、实测或issue讨论佐证，安全边界也未说明。
+    evidence_ids:
+    - ev-9ceabd9fbf84c65a
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，核验其支持的语言、验证流程与本地数据边界。
+  market: ''
+  job: 软件开发工程师在本地仓库里处理已有代码，需要让代理读懂整个项目后完成规划、修改、验证并产出可提交的改动。
+  job_en: A software developer working in a local repository needs an agent to read the whole project,
+    then plan, edit, validate and produce committable changes.
+  pain: 通用聊天式助手看不到完整仓库上下文，改动要人工来回搬运和核对，验证环节仍要自己跑。
+  pain_en: General chat assistants lack full repository context, so changes must be shuttled back and
+    forth by hand and validation still falls on the developer.
+  current_alternative: 目前多靠编辑器内补全、把片段贴进聊天窗口，或人工按 issue 逐条改并手动跑测试。
+  current_alternative_en: Today most rely on in-editor completion, pasting snippets into a chat window,
+    or manually working through issues and running tests by hand.
+  usage_reason: 推断：它把读仓库、改代码、跑验证串成一次连续动作，省掉在聊天窗口与编辑器之间搬运上下文和手动复跑验证的步骤，因此在意代码不出本地的开发者会先试它。
+  usage_reason_en: 'Inference: it chains repository reading, editing and validation into one continuous
+    action, removing the step of shuttling context between chat and editor and re-running validation by
+    hand, so developers who care about code staying local would try it first.'
+- id: req-full-coding-agent-2026-10-04
+  project_slug: coding-agent
+  level: full
+  reviewed_at: '2026-10-04T01:03:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让代理读懂整个仓库并完成改动与验证的需求，痛点在于上下文搬运和手动验证，旧做法确实存在；这是工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-b77335e8f5e32494
+  - gate: consensus
+    status: insufficient
+    reason: 仅有约180星的开源仓库记录，未见用户评价、issue讨论或持续使用证据，无法说明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-b77335e8f5e32494
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，买方与收费方式均无公开材料，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b77335e8f5e32494
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与仓库级验证的承诺能否稳定交付，缺少文档、实测或issue讨论佐证，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-b77335e8f5e32494
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，核验其支持的语言、验证流程与本地数据边界。
+  market: ''
+  job: 软件开发工程师在本地仓库中处理已有代码，需要让代理读取整个项目上下文，完成规划、修改、验证并产出可提交的改动。
+  job_en: A software developer working in a local repository needs an agent to read the whole project
+    context, then plan, edit, validate and produce committable changes.
+  pain: 通用聊天式助手看不到完整仓库上下文，改动需人工在编辑器与聊天窗口间来回搬运，验证仍要自己跑；本地优先诉求还涉及代码不出本地的顾虑。
+  pain_en: General chat assistants lack full repository context, so changes must be shuttled between editor
+    and chat window by hand and validation still falls on the developer; local-first also addresses the
+    concern of code leaving the machine.
+  current_alternative: 编辑器内补全、把代码片段贴进聊天窗口、或按 issue 逐条人工修改并手动跑测试。
+  current_alternative_en: In-editor completion, pasting snippets into a chat window, or manually working
+    through issues and running tests by hand.
+  usage_reason: 推断：它把读仓库、改代码、跑验证串成一次连续动作，省掉在聊天窗口与编辑器之间搬运上下文和手动复跑验证的步骤，因此在意代码不出本地的开发者会先试它。
+  usage_reason_en: 'Inference: it chains repository reading, editing and validation into one continuous
+    action, removing the step of shuttling context between chat and editor and re-running validation by
+    hand, so developers who care about code staying local would try it first.'

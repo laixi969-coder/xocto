@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mNGdXbVM5Mi03
 summary: 'How trustworthy data and timely action boost tax compliance in Brazil SAS: Data and AI Solutions'
 first_seen: '2026-10-02T16:47:44Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

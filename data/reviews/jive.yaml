@@ -276,3 +276,43 @@
   usage_reason_en: 'No usage reason can be given: the available evidence is unrelated to the project,
     with no user feedback or verifiable delivery outcome; only an inference that a graph plan may make
     dependency order visible, with no adoption or choice basis.'
+- id: req-full-jive-2026-10-04
+  project_slug: jive
+  level: full
+  reviewed_at: '2026-10-04T01:04:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其把编码智能体计划表示为可执行图，但所引证据全是 Jive 舞蹈、词典释义与 GoTo 登录页，与终端编码智能体无关，无法还原用户任务、痛点与旧替代，价值结构无从判断。
+    evidence_ids:
+    - ev-a3edbcc0e52af288
+    - ev-b955e2532d24e18a
+    - ev-8c3f6c385a61d9fe
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该终端编码智能体的官方仓库 README、release 与 issue/discussion，确认其计划图的实际输入输出与人工确认环节。
+  market: ''
+  job: 软件工程师或技术团队负责人在终端里让编码智能体执行多步改动任务时，需要先审阅它打算怎么做，再决定是否放行并拿到代码改动。
+  job_en: A software engineer or engineering lead runs a terminal coding agent on a multi-step change,
+    needs to review the intended plan before approving it, and then obtain the resulting code changes.
+  pain: 公开证据里没有任何用户抱怨、workaround 或案例说明多步编码智能体的计划不可见会带来什么代价；现有材料只有一句产品简介，无法确认痛点强度。
+  pain_en: Public evidence contains no user complaints, workarounds, or cases showing the cost of opaque
+    multi-step agent plans; only a one-line product description exists, so pain intensity cannot be established.
+  current_alternative: 公开材料未说明用户现在如何完成这项工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not state how users currently do this work or what prior
+    approach it replaces.
+  usage_reason: 缺少可引用的产品文档、用户反馈或案例，无法说明相较旧做法它减少了哪一步负担，因此不能给出选择理由。
+  usage_reason_en: With no citable product docs, user feedback, or cases, there is no basis to explain
+    which step it removes versus the old approach, so no adoption reason can be given.

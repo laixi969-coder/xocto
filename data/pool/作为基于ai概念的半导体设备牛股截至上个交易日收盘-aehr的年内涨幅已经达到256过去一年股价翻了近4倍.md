@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE1QMC1iYWtxQVdX
 summary: 作为基于AI概念的半导体设备牛股，截至上个交易日收盘， Aehr的年内涨幅已经达到256%，过去一年股价翻了近4倍 content.foshanplus.com
 first_seen: '2026-10-02T21:35:30Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

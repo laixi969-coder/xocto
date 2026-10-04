@@ -285,3 +285,49 @@
     placing generation, organization, and refinement on one canvas while retaining process and assets,
     reducing cost and waiting burden, which appeals to cost-sensitive AIGC creators who iterate on assets
     (inference).
+- id: req-full-beeftv-2026-10-04
+  project_slug: beeftv
+  level: full
+  reviewed_at: '2026-10-04T01:02:54Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频剪辑者用 AI 处理素材时受制于云端 Agent 又贵又慢、限制多的问题，作者公开陈述了这一痛点，本地优先画布把生成、组织、加工、迭代串成一条链路，痛点刚性且交付形态可确定。
+    evidence_ids:
+    - ev-21c97c229095ae46
+    - ev-2114ea01e95d3d62
+  - gate: consensus
+    status: supported
+    reason: 仓库星标从 635 增至 788，多日持续增长，说明社区持续关注并有人实际收藏使用，但尚无评价或团队采用记录，共识强度有限。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+    - ev-8007edec4ca4e66e
+  - gate: model
+    status: insufficient
+    reason: 开源本地项目，未见定价页或付费主体，钱可能来自捐赠、托管服务或后续商业化，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与异步任务、模型渠道等能力已披露，但生成结果能否确定性交付、人工审核边界如何，公开材料未给出可复现证据。
+    evidence_ids:
+    - ev-2114ea01e95d3d62
+  next_validation: 追踪该仓库的 release 记录与 issue/discussion，确认本地部署后生成、加工、迭代链路是否被用户实际跑通并重复使用。
+  market: ''
+  job: 视频剪辑者在整理和剪辑素材时打开这个本地工作台，处理提示词、参考素材与生成结果，要完成从生成、组织到加工、迭代的完整创作链路。
+  job_en: Video editors open this local workspace while organizing and editing footage, working with prompts,
+    reference materials and generated results to complete a full creation chain from generation and organization
+    to processing and iteration.
+  pain: 作者公开表示受够了现有视频 Agent 又贵又慢、还各种限制，这是可引用的用户痛点陈述，指向成本、速度与使用限制三重摩擦。
+  pain_en: The author publicly states frustration that existing video agents are expensive, slow and full
+    of restrictions, a citable user pain statement pointing to cost, speed and usage-limit friction.
+  current_alternative: 现有云端视频 Agent 服务，按次或按量收费、排队慢、有额度与内容限制。
+  current_alternative_en: Existing cloud video agent services, charged per use or volume, slow queuing,
+    with quota and content restrictions.
+  usage_reason: 推断：相较云端视频 Agent，它把生成、组织、加工、迭代放在本地画布中，减少上传等待与额度限制这一步负担，因此对在意成本、速度与数据留在本地的剪辑者更有吸引力；作者自述的痛点支持这一动机，但持续使用证据仍缺。
+  usage_reason_en: 'Inference: compared with cloud video agents, it places generation, organization, processing
+    and iteration on a local canvas, removing the upload-wait and quota-limit step, making it more attractive
+    to editors who care about cost, speed and keeping data local; the author''s stated pain supports this
+    motivation, though sustained-use evidence is still missing.'

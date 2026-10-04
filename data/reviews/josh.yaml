@@ -1,0 +1,85 @@
+- id: req-initial-josh-2026-10-04
+  project_slug: josh
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决色觉差异难以向他人说明的问题，但公开材料没有说明输入、动作与交付，无法确认痛点刚性与交付确定性。
+    evidence_ids:
+    - ev-f1a79ccdab6d4e90
+  - gate: consensus
+    status: insufficient
+    reason: 只有少量社区讨论，没有可归因到该产品的使用、留存或付费证据。
+    evidence_ids:
+    - ev-f1a79ccdab6d4e90
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露任何定价或买方，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-f1a79ccdab6d4e90
+  - gate: truth
+    status: insufficient
+    reason: 无法确认它是否使用 AI，也无法确认展示结果是否准确反映当事人视觉，人工边界不明。
+    evidence_ids:
+    - ev-f1a79ccdab6d4e90
+  next_validation: 收集该页面本身的公开说明或演示内容，确认它接收什么输入、输出什么结果，以及是否使用模型。
+  market: ''
+  job: 色觉障碍者在需要向他人说明自己看到的颜色时，打开这个页面展示自己的视觉体验。
+  job_en: A color-blind person opens this page to show others how they perceive color when they need to
+    explain it.
+  pain: 色觉差异很难用语言描述，别人往往无法理解当事人看到的具体差别。
+  pain_en: Color perception differences are hard to describe in words, so others often cannot grasp the
+    specific difference the person sees.
+  current_alternative: 口头解释、找色盲模拟图片、或让别人戴模拟眼镜体验。
+  current_alternative_en: Verbal explanation, finding color-blindness simulation images, or having others
+    try simulation glasses.
+  usage_reason: 公开材料只说明作者本人是色觉障碍者并做了展示方式，没有说明它比现有模拟图片少做哪一步，也没有用户反馈或采用证据，因此无法判断用户为何选择它。
+  usage_reason_en: The public material only says the author is color-blind and built a way to show it;
+    it does not say which step it removes versus existing simulation images, and there is no user feedback
+    or adoption evidence, so why users would choose it cannot be judged.
+- id: req-full-josh-2026-10-04
+  project_slug: josh
+  level: full
+  reviewed_at: '2026-10-04T01:04:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选自述想解决色觉差异难以向他人说明的问题，但公开材料未给出输入、动作、交付形式与不解决的后果，连需求与痛点都无法具体还原，无法做结构推理。
+    evidence_ids:
+    - ev-9623ca76bf4daa42
+    - ev-a76fa76fcbfe8e00
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该色觉展示页面本身的公开说明或演示内容（如作者博客、公开代码仓库 仓库 README 或产品页），确认它接收什么输入、输出什么结果以及是否使用模型。
+  market: ''
+  job: 色觉障碍者在需要向家人、同事或设计师说明自己看到的颜色差异时，打开一个页面展示自己的视觉体验，以完成一次视觉差异的沟通。
+  job_en: A color-blind person, when needing to explain their color perception to family, colleagues,
+    or designers, opens a page to show their visual experience and complete a conversation about perceptual
+    difference.
+  pain: 公开材料只有一句自述'我是色觉障碍者，所以做了个展示我看色方式的东西'，没有说明具体在什么场合、被谁误解、造成什么后果，痛点强度无法从公开事实确认。
+  pain_en: The only public material is a one-line self-description ('I'm color blind, so I built a way
+    to show people how I see'); it does not state the specific situation, who misunderstands, or what
+    consequence follows, so pain intensity cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明作者此前用什么方式解释，常见旧做法是口头描述、找色盲模拟图或让别人戴模拟眼镜，但这些都不是该项目披露的替代行为。
+  current_alternative_en: The public material does not state what the author used before; common workarounds
+    are verbal description, color-blindness simulation images, or simulation glasses, but none of these
+    are disclosed as this project's prior alternative.
+  usage_reason: 无法判断：公开材料没有说明页面接收什么输入、输出什么结果、比旧做法少哪一步，也没有任何用户反馈或采用证据，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the public material does not say what input the page takes, what
+    it outputs, which step it removes versus the old approach, and there is no user feedback or adoption
+    evidence, so it cannot explain which users would choose it and when.'

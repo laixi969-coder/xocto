@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mLTMtbXNEUV9H
 summary: 圆桌主题：谁在定义下一代影像场景？｜SmallRig斯莫格第三届全球影像场景产业大会（2026） eu.36kr.com
 first_seen: '2026-09-28T13:00:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

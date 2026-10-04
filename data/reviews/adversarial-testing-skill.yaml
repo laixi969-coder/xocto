@@ -646,3 +646,43 @@
   usage_reason_en: 'Cannot be determined: without user feedback or adoption evidence, it is impossible
     to explain which security or development practitioners would choose it over existing testing tools
     and when.'
+- id: req-full-adversarial-testing-skill-2026-10-04
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-10-04T01:02:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让两个 AI 对打做对抗性安全测试，但公开材料只有一句定位，没有具体用户、触发情境、输入材料、交付结果与不测后果，连需求与痛点都还原不出，无法做结构推理。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的公开仓库 README 与 issue/discussion，确认其输入材料、执行步骤与输出交付物，以及是否有用户报告实际使用场景。
+  market: ''
+  job: 开发者在发布前需要对自己的产品做安全测试：让一个 AI 读源码找漏洞，另一个 AI 不看源码、只当黑盒攻击者尝试突破，从而在交付前发现可被利用的缺陷。
+  job_en: 'Before shipping, a developer needs security testing of their own product: one AI reads the
+    source to find flaws, another attacks it blind as a black-box adversary, so exploitable defects surface
+    before delivery.'
+  pain: 公开材料只有一句产品定位，没有说明谁在什么情况下遇到什么具体困难、不测的后果或现有测试流程的哪一步被卡住，痛点强度无法从公开事实还原。
+  pain_en: Public material offers only a one-line positioning; it does not show who hits what concrete
+    difficulty, the consequence of not testing, or which step of the existing test flow is blocked, so
+    pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明用户目前如何做对抗性测试（人工渗透测试、SAST/DAST 工具、还是让单个 AI 审代码），替代路径不可核验。
+  current_alternative_en: Public material does not show how users currently do adversarial testing (manual
+    pentest, SAST/DAST tools, or a single AI reviewing code), so the substitute path is unverifiable.
+  usage_reason: 公开证据只有仓库收藏数，属于关注度而非使用动机；无法说明相较旧做法减少了哪一步负担，因此不能给出可核对的选择理由。
+  usage_reason_en: The only public evidence is a repository star count, which is attention rather than
+    a usage motive; it cannot show which step of the old workflow is reduced, so no checkable reason to
+    choose it can be given.

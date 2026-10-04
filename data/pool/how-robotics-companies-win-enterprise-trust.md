@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVWYteU9rU1FD
 summary: How Robotics Companies Win Enterprise Trust FinancialContent
 first_seen: '2026-10-03T09:22:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

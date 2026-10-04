@@ -256,3 +256,54 @@
     step, so individual developers or small teams holding multiple AI subscriptions and switching frequently
     would choose it for quota checks and account switching; stars rising from 44 to 74 shows attention,
     not sustained use.'
+- id: req-full-ailsa-subswitch-2026-10-04
+  project_slug: ailsa-subswitch
+  level: full
+  reviewed_at: '2026-10-04T01:02:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多AI订阅账号用户核对每周用量并一键切换的需求，痛点在于逐个登录与手动记录额度的重复摩擦、额度耗尽打断任务；公开仓库说明已还原输入（多账号用量）—动作（查看与切换）—交付（切换后继续使用）闭环，属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-6b13088a106a0b49
+    - ev-22435d7c60101a1c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从54升至92，说明社区注意到该工具，但收藏与关注只属规模或关注度证据，不能证明目标用户持续使用或形成强场景；公开材料未见用户评价、issue讨论或复购式使用记录。
+    evidence_ids:
+    - ev-6b13088a106a0b49
+    - ev-98a5d947b1fb5ad3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，无法判断钱来自个人订阅者、小团队还是其他方；这是商业证据缺口，不反推需求不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-6b13088a106a0b49
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些AI服务、切换后是否自动同步状态，也未提供部署文档或可复现实测，交付能否稳定发生与账号安全边界尚缺公开证据。
+    evidence_ids:
+    - ev-6b13088a106a0b49
+    - ev-df47e02d220c4950
+  next_validation: 追踪该公开代码仓库仓库的README、issue与discussion，确认其支持的具体AI服务、切换机制与部署方式，并观察是否出现用户使用反馈或付费入口。
+  market: ''
+  job: 个人开发者或小团队同时持有多个AI订阅账号（如不同服务或不同账号）时，需要打开一个工具一眼看到各账号的每周用量，并一键切换到目标账号，以便在额度耗尽前完成切换、继续手头的编码或写作任务。
+  job_en: When individual developers or small teams hold multiple AI subscription accounts, they need
+    a single tool that shows each account's weekly usage at a glance and switches to the target account
+    in one click, so they can switch before quota runs out and continue their coding or writing task.
+  pain: 公开材料只给出产品定位（一眼看用量、一键切换），未提供用户抱怨或案例；从工作流结构推理，多账号用户当前需逐个登录或手动记录额度，切换与核对本身构成重复摩擦，且额度耗尽时才发现会打断正在进行的任务。这是结构推理，不是用户口述证据。
+  pain_en: Public materials only state the product positioning (usage at a glance, one-click switch) with
+    no user complaints or cases; by workflow inference, multi-account users currently log in one by one
+    or track quota manually, so switching and checking create recurring friction, and discovering an exhausted
+    quota mid-task interrupts the work. This is structural inference, not user testimony.
+  current_alternative: 公开材料未说明现有替代方式；按任务结构推断，用户目前靠逐个登录各账号查看用量、手动记录或凭记忆判断额度，或干脆只用单一账号。
+  current_alternative_en: Public materials do not describe the current alternative; by task structure,
+    users likely log into each account to check usage, track quota manually or from memory, or simply
+    stick to a single account.
+  usage_reason: 推断：相较逐个登录或手动记录，产品把各账号每周用量集中到一处并支持一键切换，省去逐账号登录与手动核对这一步，因此持有多个AI订阅账号、需要频繁在账号间切换的个人开发者或小团队会在额度接近用尽、需要换账号继续任务时选择它。公开材料未提供用户反馈或案例，此因果为基于产品能力的推断。
+  usage_reason_en: 'Inference: compared with logging in one by one or tracking manually, the product centralizes
+    each account''s weekly usage and enables one-click switching, removing the per-account login and manual
+    check step; therefore individual developers or small teams holding multiple AI subscriptions who switch
+    frequently would choose it when quota nears exhaustion and they need to continue on another account.
+    Public materials provide no user feedback or cases, so this causal link is infe'

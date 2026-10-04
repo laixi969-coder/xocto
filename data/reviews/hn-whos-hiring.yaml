@@ -1,0 +1,84 @@
+- id: req-initial-hn-whos-hiring-2026-10-04
+  project_slug: hn-whos-hiring
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是从大量招聘帖中筛出可投岗位的需求，痛点是逐条阅读耗时且易漏，旧做法是手动翻帖比对，结构上成立。
+    evidence_ids:
+    - ev-0ae1545bb96af5bd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句功能描述和少量社区讨论，没有用户反馈说明谁在用、是否持续使用。
+    evidence_ids:
+    - ev-0ae1545bb96af5bd
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，未见定价页或付费路径；买方是谁属于判断而非已验证事实。
+    evidence_ids:
+    - ev-0ae1545bb96af5bd
+  - gate: truth
+    status: insufficient
+    reason: 排序依据、准确率和人工确认边界均未披露，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-0ae1545bb96af5bd
+  next_validation: 收集该仓库的 README、issue 与 discussion，核对排序依据、输入输出格式和是否有用户报告实际使用结果。
+  market: ''
+  job: 求职者在集中找工作时，把社区招聘帖和自己的简历作为材料，要完成的任务是从大量帖子中挑出值得投递的少数几条。
+  job_en: A job seeker, during an active search, uses community hiring posts and their own resume as input
+    to pick the few posts worth applying to.
+  pain: 招聘帖分散、格式不一，逐条读完再判断是否匹配耗时且容易漏掉合适岗位。
+  pain_en: Hiring posts are scattered and inconsistently formatted, so reading each one to judge fit is
+    slow and suitable roles get missed.
+  current_alternative: 求职者通常手动翻帖、用关键词搜索或表格记录，逐条比对简历。
+  current_alternative_en: Job seekers typically scroll threads manually, use keyword search, or keep a
+    spreadsheet, comparing each post to the resume by hand.
+  usage_reason: 推断：相较手动翻帖，它把简历作为排序依据直接对帖子打分排序，省掉逐条阅读和初筛这一步，因此正在集中投递、面对大量帖子的求职者会先试它。
+  usage_reason_en: 'Inference: versus manual scrolling, it scores and ranks posts against the resume,
+    removing the step of reading and pre-screening each one, so seekers facing many posts during an active
+    search would try it first.'
+- id: req-full-hn-whos-hiring-2026-10-04
+  project_slug: hn-whos-hiring
+  level: full
+  reviewed_at: '2026-10-04T01:04:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是从大量招聘帖中筛出可投岗位的需求，痛点是逐条阅读耗时且易漏，旧做法是手动翻帖比对，结构上成立。
+    evidence_ids:
+    - ev-0ae1545bb96af5bd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句功能描述和少量社区讨论，没有用户反馈说明谁在用、是否持续使用。
+    evidence_ids:
+    - ev-0ae1545bb96af5bd
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，未见定价页或付费路径；买方是谁属于判断而非已验证事实。
+    evidence_ids:
+    - ev-0ae1545bb96af5bd
+  - gate: truth
+    status: insufficient
+    reason: 排序依据、准确率和人工确认边界均未披露，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-0ae1545bb96af5bd
+  next_validation: 收集该仓库的 README、issue 与 discussion，核对排序依据、输入输出格式和是否有用户报告实际使用结果。
+  market: ''
+  job: 求职者在集中找工作时，把 HN「Who is hiring?」招聘帖和自己的简历作为材料，要完成的任务是从大量帖子中挑出值得投递的少数几条。
+  job_en: A job seeker, during an active search, uses HN "Who is hiring?" posts and their own resume as
+    input to pick the few posts worth applying to.
+  pain: 招聘帖分散、格式不一，逐条读完再判断是否匹配耗时且容易漏掉合适岗位。
+  pain_en: Hiring posts are scattered and inconsistently formatted, so reading each one to judge fit is
+    slow and suitable roles get missed.
+  current_alternative: 求职者通常手动翻帖、用关键词搜索或表格记录，逐条比对简历。
+  current_alternative_en: Job seekers typically scroll threads manually, use keyword search, or keep a
+    spreadsheet, comparing each post to the resume by hand.
+  usage_reason: 推断：相较手动翻帖，它把简历作为排序依据直接对帖子打分排序，省掉逐条阅读和初筛这一步，因此正在集中投递、面对大量帖子的求职者会先试它。
+  usage_reason_en: 'Inference: versus manual scrolling, it scores and ranks posts against the resume,
+    removing the step of reading and pre-screening each one, so seekers facing many posts during an active
+    search would try it first.'

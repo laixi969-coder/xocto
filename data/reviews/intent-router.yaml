@@ -316,3 +316,53 @@
     sees it, removing downstream mis-branching and after-the-fact debugging; developers building agent
     routers or decision models choose it when request quality is uncontrollable and they do not want to
     duplicate validation inside every downstream model.'
+- id: req-full-intent-router-2026-10-04
+  project_slug: intent-router
+  level: full
+  reviewed_at: '2026-10-04T01:04:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是模糊自然语言请求进入 agent 路由前缺少类型化意图契约的问题，痛点在于歧义输入直接路由会误判，公开仓库明确以 probe/ask/halt 在路由前拦截；这是从产品说明与工作流结构推出的判断，尚无用户口述佐证。
+    evidence_ids:
+    - ev-a9067499d39ef838
+    - ev-3434c1cae7de527c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 257 升至 719，说明开发者关注度在增长，但收藏只属关注度证据，公开材料没有 issue、discussion 或客户案例显示目标用户已把它留在路由工作流中持续使用。
+    evidence_ids:
+    - ev-a9067499d39ef838
+    - ev-3434c1cae7de527c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购路径，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-3434c1cae7de527c
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺在路由前探测、追问或中止，但公开材料没有部署文档、失败处理说明或可复现测试，交付能否稳定发生与人工安全边界仍无法核对。
+    evidence_ids:
+    - ev-a9067499d39ef838
+  next_validation: 追踪 Intent-Router 仓库的 README、issue 与 discussion，确认是否有开发者公开描述在何种路由或决策管线中接入、替代了哪一步旧流程。
+  market: ''
+  job: 构建 agent 路由或决策模型的开发者在接入用户请求时，把模糊的自然语言输入交给 Intent-Router，由它转成带类型的 IntentSpec 契约，在路由前探测、追问或中止，最终拿到可被下游路由或决策模型直接消费的结构化意图输入。
+  job_en: Developers building agent routers or decision models, when ingesting user requests, hand vague
+    natural-language input to Intent-Router, which converts it into typed IntentSpec contracts and probes,
+    asks, or halts before routing, so downstream routers or decision models receive structured intent
+    input.
+  pain: 公开仓库说明指出输入是“vague requests”，即模糊请求直接进入路由会导致错误分发；不解决的后果是路由或决策模型拿到歧义输入后误判，而现有做法缺少在路由前探测、追问或中止的环节。
+  pain_en: The public repository states the input is 'vague requests'; feeding ambiguous input straight
+    into routing causes misrouting, and existing pipelines lack a probe/ask/halt step before routing to
+    catch that ambiguity.
+  current_alternative: 当前替代方式是在路由或决策模型内部自行处理模糊输入，或由开发者手写 prompt 与校验逻辑；公开材料未说明已有统一的意图契约层。
+  current_alternative_en: Today developers either let the router or decision model handle vague input
+    internally, or hand-write prompts and validation logic; public materials show no established shared
+    intent-contract layer.
+  usage_reason: 推断：相较在路由模型里直接消化模糊输入，Intent-Router 在路由前把请求收敛成带类型的 IntentSpec，并在信息不足时探测、追问或中止，从而减少下游因歧义输入产生的错误分发；构建
+    agent 路由或决策模型的开发者会在接入层需要稳定结构化意图时选择它。
+  usage_reason_en: 'Inference: rather than letting the router model absorb vague input directly, Intent-Router
+    converges requests into typed IntentSpec before routing and probes, asks, or halts when information
+    is missing, reducing downstream misrouting; developers building agent routers or decision models would
+    choose it when they need stable structured intent at the ingestion layer.'

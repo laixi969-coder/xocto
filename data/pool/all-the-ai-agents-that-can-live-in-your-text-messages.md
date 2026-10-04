@@ -22,7 +22,7 @@ summary: We created a list of the most notable AI agents that can live in your t
   assistants to agents designed for families, travel, and work.
 first_seen: '2026-10-03T14:00:00Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

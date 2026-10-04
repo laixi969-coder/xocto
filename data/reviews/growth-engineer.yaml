@@ -183,3 +183,60 @@
     agent to follow a fixed process rather than re-describe it each time, would tend to choose it. This
     is an inference from product capability and task structure, not yet confirmed by user feedback or
     cas'
+- id: req-full-growth-engineer-2026-10-04
+  project_slug: growth-engineer
+  level: full
+  reviewed_at: '2026-10-04T01:04:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决增长运营者把散落文档与表格中的 GTM 流程交给 agent 按步骤执行的需求，痛点是流程知识零散、每次需手工重拼 prompt 与步骤；公开事实仅说明其为 markdown
+      工作流目录加只读 MCP 服务器，痛点刚性属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+    - ev-504d32749c8bbff1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 117 增至 137，说明开发者社区注意到该项目，但收藏与关注只属规模信号，公开材料没有 issue、discussion 或用户评价显示目标运营者已把它放进日常工作流，也未说明卡在感知还是场景环节。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+    - ev-340cdb490caa409c
+  - gate: model
+    status: insufficient
+    reason: 这是开源目录加只读 MCP 服务器，公开材料未给出定价页、付费主体或 to B/to C 收费路径；谁付钱只能推测为个人运营者自用或企业团队采购，属判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明工作流以 markdown 文件形式交付、MCP 服务器为只读，未提供部署文档、可复现实测或人工与安全边界说明，无法核验 agent 执行这些流程时交付能否稳定发生。
+    evidence_ids:
+    - ev-a2d40b84f418c663
+    - ev-78d98d9f6b6b9638
+  next_validation: 追踪 growth-engineer 仓库的 README、issue 与 discussion，确认是否有运营者公开描述实际部署场景、替代的旧流程与执行结果。
+  market: ''
+  job: 增长/市场运营者在自己的 agent 环境（如 Claude、Cursor 等支持 MCP 的客户端）里，处理散落在文档、表格和多个 SaaS 后台中的 go-to-market 流程材料，要完成把获客、内容、外联等重复性增长动作按可执行步骤交给
+    agent 跑通的任务。
+  job_en: A growth or marketing operator working inside their own agent environment (an MCP-capable client
+    such as Claude or Cursor) handles go-to-market process material scattered across docs, spreadsheets
+    and SaaS backends, and needs to hand repeatable growth actions (acquisition, content, outreach) to
+    the agent as executable steps.
+  pain: 公开材料只说明它是 markdown 工作流目录加只读 MCP 服务器，未提供用户抱怨、频率或不采用代价的一手证据；从工作流结构推断，痛点是增长流程知识散落在文档与表格中、每次都要人工重新拼装
+    prompt 与步骤，且 agent 缺少可复用的标准动作集。
+  pain_en: Public material only describes a markdown workflow catalog plus a read-only MCP server, with
+    no first-hand user complaints, frequency or cost-of-inaction evidence; inferred from workflow structure,
+    the pain is that GTM process knowledge sits scattered in docs and spreadsheets, prompts and steps
+    must be reassembled by hand each time, and agents lack a reusable standard action set.
+  current_alternative: 旧做法是运营者自己维护 Notion/Google Docs 里的 SOP、手工复制粘贴 prompt、逐个打开 SaaS 后台执行动作，或直接让通用 agent
+    从零生成流程；公开材料未说明它具体替代了哪一种。
+  current_alternative_en: The old way is operators maintaining SOPs in Notion/Google Docs, hand-copying
+    prompts, opening each SaaS backend to act, or asking a general agent to generate a process from scratch;
+    public material does not say which one it replaces.
+  usage_reason: 推断：相较手工拼装 prompt 与 SOP，它把流程固化为 agent 可直接读取的 markdown 文件并通过只读 MCP 暴露工具，减少“每次重新描述步骤、对齐工具调用格式”这一步负担，因此已在用
+    MCP 客户端的增长运营者会在需要复用同一套 GTM 动作时选择它；这是基于产品能力的结构推理，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus hand-assembling prompts and SOPs, it fixes processes as agent-readable
+    markdown files and exposes tools via a read-only MCP server, removing the step of re-describing steps
+    and aligning tool-call formats each time, so growth operators already using an MCP client would pick
+    it when they need to reuse the same GTM action set; this is structural reasoning from product capability,
+    not yet backed by user feedback.'

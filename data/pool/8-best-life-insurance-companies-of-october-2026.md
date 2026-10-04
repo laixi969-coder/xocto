@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YMTFuUmxvMmNF
 summary: 8 Best Life Insurance Companies of October 2026 money.com
 first_seen: '2026-10-02T07:00:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

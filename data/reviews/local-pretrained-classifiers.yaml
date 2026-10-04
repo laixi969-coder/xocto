@@ -1,0 +1,82 @@
+- id: req-initial-local-pretrained-classifiers-2026-10-04
+  project_slug: local-pretrained-classifiers
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决本地分类不依赖 GPU 的问题，但公开材料没有说明支持的任务与交付结果，痛点强度无法确认。
+    evidence_ids:
+    - ev-275b88a43e8abda2
+  - gate: consensus
+    status: insufficient
+    reason: 只有少量社区讨论，没有可归因到该项目的使用、留存或付费证据。
+    evidence_ids:
+    - ev-275b88a43e8abda2
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或商业路径，买方不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-275b88a43e8abda2
+  - gate: truth
+    status: insufficient
+    reason: 无法确认分类准确率与适用边界，也没有说明人工复核环节，交付确定性不明。
+    evidence_ids:
+    - ev-275b88a43e8abda2
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认支持的任务类型、输入输出格式和实际分类效果。
+  market: ''
+  job: 开发者在需要把一批文本或数据分成固定类别、又不愿把数据发到云端时，用它在本地跑分类。
+  job_en: A developer runs classification locally when a batch of text or data must be sorted into fixed
+    categories and cannot be sent to the cloud.
+  pain: 调用云端模型有成本和数据外发顾虑，而自己训练分类器又需要 GPU 和训练流程。
+  pain_en: Calling a cloud model costs money and raises data-egress concerns, while training a classifier
+    yourself needs a GPU and a training pipeline.
+  current_alternative: 调用云端大模型 API，或用传统机器学习库自行训练小模型。
+  current_alternative_en: Calling a cloud large-model API, or training a small model yourself with traditional
+    machine-learning libraries.
+  usage_reason: 公开材料只说明不需要 GPU，没有说明它省掉了标注、训练还是部署中的哪一步，也没有用户反馈或采用证据，因此无法判断开发者为何选它。
+  usage_reason_en: The public material only says no GPU is needed; it does not say whether it removes
+    labeling, training, or deployment work, and there is no user feedback or adoption evidence, so why
+    developers would choose it cannot be judged.
+- id: req-full-local-pretrained-classifiers-2026-10-04
+  project_slug: local-pretrained-classifiers
+  level: full
+  reviewed_at: '2026-10-04T01:04:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有“不需要 GPU”一句，未说明支持哪些分类任务、输入输出格式与交付结果，连用户要完成的任务和痛点都还原不出，属于自嗨式功能描述。
+    evidence_ids:
+    - ev-4ff308e22650f008
+    - ev-8330df932df7c10b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README 与 issue/discussion，确认支持的任务类型、输入输出格式、部署方式与实际分类效果。
+  market: ''
+  job: 开发者需要在本地把一批文本或数据分成固定类别、又不愿把数据发到云端时，用它在本地跑预训练分类器完成分类。
+  job_en: A developer runs a pretrained classifier locally to sort a batch of text or data into fixed
+    categories without sending the data to the cloud.
+  pain: 公开材料只给出“不需要 GPU”一句，没有说明支持哪些分类任务、输入输出格式、准确率或部署方式，因此无法确认用户具体卡在哪一步、痛点是否刚性。
+  pain_en: The public material only states 'no GPU needed' and does not describe supported tasks, input/output
+    formats, accuracy, or deployment, so the specific user pain and its rigidity cannot be confirmed.
+  current_alternative: 调用云端大模型 API，或用传统机器学习库自行训练小模型；但公开材料未说明本产品相较这些旧做法省掉哪一步。
+  current_alternative_en: Calling a cloud large-model API, or training a small model with traditional
+    machine-learning libraries; the public material does not say which step this product removes versus
+    those alternatives.
+  usage_reason: 缺少可归因到该项目的功能说明、用户反馈或采用证据，无法解释开发者为何在什么情况下选择它，因此使用理由无法成立。
+  usage_reason_en: There is no attributable feature description, user feedback, or adoption evidence for
+    this project, so why a developer would choose it and in what situation cannot be explained.

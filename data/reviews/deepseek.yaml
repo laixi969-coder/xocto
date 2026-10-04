@@ -381,3 +381,93 @@
     writing; the official site also offers both chat and API access, letting developers embed the model
     into their own pipelines. This is an inference from product capability and task structure, as public
     materials provide no retention or repeat-use evidence.
+- id: req-initial-deepseek-2026-10-04
+  project_slug: deepseek
+  level: initial
+  reviewed_at: '2026-10-04T00:38:16Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常问答、写作与查资料的需求，痛点是搜索筛选与从零起草耗时；旧替代行为明确，交付为可直接使用的回答或文本。
+    evidence_ids:
+    - ev-713debededa36f1e
+    - ev-01af8c314f30e7d7
+  - gate: consensus
+    status: supported
+    reason: 第三方榜单显示月访问量约4.838亿次，说明已有大规模使用，但环比下降10.59%，关注度并非单向上升。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费结构，买方与收费方式不清；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 模型输出仍需用户核对，公开材料未提供交付准确率或人工边界说明，确定性交付无法核验。
+    evidence_ids: []
+  next_validation: 收集DeepSeek官方定价页或API计费文档，核验其收费方式与付费主体。
+  market: ''
+  job: 个人用户在日常问答、写作和查资料时打开DeepSeek，把问题或草稿交给它，拿到可直接使用的回答或改写文本；开发者则通过接口把模型能力接入自己的应用。
+  job_en: Individuals open DeepSeek for everyday Q&A, writing and research, handing over questions or
+    drafts to get usable answers or rewrites; developers integrate the model into their own apps via API.
+  pain: 过去要自己搜索、逐条筛选资料或从零起草，耗时且质量不稳定；通用助手把这一步压缩成一次提问，痛点在时间成本与产出可用性。
+  pain_en: Previously users had to search, filter sources one by one or draft from scratch, which is slow
+    and uneven in quality; a general assistant compresses that into one prompt, with the pain in time
+    cost and usable output.
+  current_alternative: 搜索引擎加人工整理、办公软件自带写作功能，或使用其他通用聊天助手。
+  current_alternative_en: Search engines plus manual collation, built-in writing features in office software,
+    or other general chat assistants.
+  usage_reason: 相较搜索加人工整理，它把检索、归纳和起草合并为一次交互，减少逐条打开来源和从零成文的步骤，因此需要快速拿到可用草稿或答案的个人用户和开发者会在日常任务中选择它；这是基于产品能力的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with search plus manual collation, it merges retrieval, synthesis and drafting
+    into one interaction, cutting the steps of opening sources one by one and writing from scratch, so
+    individuals and developers needing a usable draft or answer quickly choose it for daily tasks; this
+    is inference from product capability, as public materials show no retention or repeat-purchase evidence.
+- id: req-full-deepseek-2026-10-04
+  project_slug: deepseek
+  level: full
+  reviewed_at: '2026-10-04T01:03:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常问答、写作、查资料与代码生成的需求，痛点是搜索筛选与从零起草耗时、质量不稳；旧替代行为明确，交付为可直接使用的回答或文本，属工作流结构推理。
+    evidence_ids:
+    - ev-b630af8afb1bafcc
+    - ev-52fd5df436f87689
+  - gate: consensus
+    status: supported
+    reason: 官网与下载页显示其开源前沿模型并提供iOS/Android应用，说明已有面向个人与开发者的公开交付渠道；但公开材料未给出使用规模或留存数据，共识强度有限。
+    evidence_ids:
+    - ev-b630af8afb1bafcc
+    - ev-52fd5df436f87689
+  - gate: model
+    status: insufficient
+    reason: API平台页仅提示价格可能变动、详见文档，未披露具体计费与付费主体；谁付钱、按什么收费是判断而非已验证事实。
+    evidence_ids:
+    - ev-3eb2d0a2f7693436
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供输出准确率、人工核对边界或安全说明，模型输出仍需用户自行核对，确定性交付无法核验。
+    evidence_ids:
+    - ev-b630af8afb1bafcc
+  next_validation: 收集DeepSeek官方API定价文档或计费页面，核验其收费方式与付费主体。
+  market: ''
+  job: 个人用户在日常问答、写作、查资料或写代码时打开DeepSeek，把问题、草稿或代码交给它，拿到可直接使用的回答、改写文本或可运行代码；开发者则通过API平台把模型能力接入自己的应用。
+  job_en: Individuals open DeepSeek for everyday Q&A, writing, research or coding, handing over questions,
+    drafts or code to get usable answers, rewrites or runnable code; developers integrate the model into
+    their own apps via the API platform.
+  pain: 过去要自己搜索、逐条筛选资料、从零起草或调试代码，耗时且质量不稳定；通用助手把检索、归纳、起草合并为一次提问，痛点在时间成本与产出可用性。
+  pain_en: Previously users had to search, filter sources one by one, draft from scratch or debug code,
+    which is slow and uneven in quality; a general assistant compresses retrieval, synthesis and drafting
+    into one prompt, with the pain in time cost and usable output.
+  current_alternative: 搜索引擎加人工整理、办公软件自带写作功能，或使用ChatGPT、Gemini等其他通用聊天助手。
+  current_alternative_en: Search engines plus manual collation, built-in writing features in office software,
+    or other general chat assistants such as ChatGPT and Gemini.
+  usage_reason: 相较搜索加人工整理，它把检索、归纳和起草合并为一次交互，减少逐条打开来源和从零成文的步骤；开发者则通过API直接获得模型输出，省去自建模型。因此需要快速拿到可用草稿、答案或模型能力的个人用户和开发者会在日常任务中选择它；这是基于产品能力的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with search plus manual collation, it merges retrieval, synthesis and drafting
+    into one interaction, cutting the steps of opening sources one by one and writing from scratch; developers
+    get model output directly via API, avoiding building their own model. So individuals and developers
+    needing a usable draft, answer or model capability quickly choose it for daily tasks; this is inference
+    from product capability, as public materials show no retention or repeat-purchase

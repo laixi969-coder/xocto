@@ -377,3 +377,53 @@
     a plan, then applying and verifying on the user''s own accounts after approval. This collapses cross-provider
     per-item work into one reviewable orchestration, reducing missed configuration and console switching,
     so users pick it when an agent has finished the code and they are ready for a first launc'
+- id: req-full-golive-skill-2026-10-04
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-04T01:04:14Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后上线环节分散、需在多个服务商后台手工配置域名托管数据库邮件支付的问题；不解决的后果是产品无法真正发布。公开说明已还原输入、动作与交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-fb9d9c82bf740a68
+    - ev-0aeb204020cc42ab
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 1,049 增至 1,198，说明开发者社区持续关注并收藏该工具；但收藏只属关注度证据，尚不能证明目标用户已将其长期留在上线工作流中。
+    evidence_ids:
+    - ev-fb9d9c82bf740a68
+    - ev-0b0f9fbe3676c620
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径；项目自述无 GoLive 账号、后端与遥测，开源模式下的商业化方式尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fb9d9c82bf740a68
+  - gate: truth
+    status: insufficient
+    reason: detect → plan → approve → apply → verify 的交付流程在说明中列出，但公开材料未提供可复现的部署文档、issue 或实测结果，交付能否稳定发生及人工安全边界尚缺证据。
+    evidence_ids:
+    - ev-0aeb204020cc42ab
+  next_validation: 追踪该开源仓库的 issue、discussion 与部署文档，确认是否有真实用户报告在自有账号上完成上线并替代了手工配置流程。
+  market: ''
+  job: 独立开发者或小团队在 agent 写完代码后，面对一个尚未上线的项目，需要处理域名、托管、数据库、邮件与支付等上线材料，把产品真正发布到可访问、可收款的状态。
+  job_en: Solo developers or small teams, after an agent writes the code, take an unlaunched project and
+    handle domain, hosting, database, email and payment materials to actually ship it to an accessible,
+    payable state.
+  pain: 公开说明指出上线环节分散在多个服务商后台，需要手工配置；agent 能写完代码却无法把产品真正发布出去，开发者卡在域名、托管、数据库、邮件和支付之间的手工衔接上。
+  pain_en: The public description states that launch steps are scattered across multiple provider dashboards
+    and require manual configuration; an agent can finish the code but cannot actually ship the product,
+    leaving developers stuck on manual handoffs among domain, hosting, database, email and payments.
+  current_alternative: 当前替代方式是开发者自己在各家服务商后台逐个手工配置域名、托管、数据库、邮件与支付，或依赖平台一体化方案；公开材料未说明具体替代流程的细节。
+  current_alternative_en: The current alternative is developers manually configuring domain, hosting,
+    database, email and payments across each provider dashboard, or relying on an all-in-one platform;
+    public materials do not detail the exact replaced workflow.
+  usage_reason: 推断：相较逐个后台手工配置，该工具通过 detect → plan → approve → apply → verify 的流程，在用户自己的账号上先检测缺失资源、给出计划、经批准后执行并验证，减少用户在多个服务商之间来回切换和手工核对的负担，因此会在
+    agent 写完代码、准备上线时被独立开发者选用。
+  usage_reason_en: 'Inference: compared with manual configuration across dashboards, the tool''s detect
+    → plan → approve → apply → verify flow detects missing resources, proposes a plan, applies it after
+    approval on the user''s own accounts, and verifies results, reducing the burden of switching between
+    providers and manually checking each step, so solo developers would choose it when an agent has finished
+    the code and they are ready to launch.'

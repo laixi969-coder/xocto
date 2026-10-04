@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/feelmymac
 summary: Lets you feel different textures through your Mac’s trackpad
 first_seen: '2026-09-28T21:07:30Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

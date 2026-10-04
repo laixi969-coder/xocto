@@ -270,3 +270,46 @@
   usage_reason: 用户要完成的任务是：个人事务跟进、客户关系维护；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: personal commitment tracking, client relationship maintenance Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-relate-2026-10-04
+  project_slug: relate
+  level: full
+  reviewed_at: '2026-10-04T01:05:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述了聊天记录中抽取承诺的任务，但全部证据为词典释义与同名助听器页面，无任何用户痛点、替代行为或采用材料，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-0af696aa96314010
+    - ev-e748fa701b6f332e
+    - ev-5cd695914e3d2003
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Relate 官方仓库或官网的 README、issue 与 discussion，确认其实际接入的聊天平台、抽取流程与用户使用反馈。
+  market: ''
+  job: 个人或小团队在聊天记录里翻找“对方说过什么、我答应过什么”时打开它：Relate 自托管读取聊天内容，抽取对方陈述与用户承诺并留存，输出可回看的承诺与要点清单，仍需用户自己确认哪条要跟进。
+  job_en: 'An individual or small team opens Relate when digging through chat logs for what the other
+    party said and what they promised: it self-hosts, reads chat content, extracts the other party''s
+    statements and the user''s commitments, and outputs a reviewable list of promises and key points,
+    while the user still confirms which item to follow up on.'
+  pain: 公开材料未提供任何用户痛点、抱怨或既有替代行为的证据；现有证据全部是词典释义与同名助听器页面，无法说明聊天记录中承诺遗漏带来的具体代价或频率。
+  pain_en: Public materials provide no evidence of user pain, complaints, or existing workarounds; all
+    available evidence is dictionary definitions and a same-named hearing-aid page, so the specific cost
+    or frequency of missed commitments in chat logs cannot be established.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently complete this job or what prior
+    practice it replaces.
+  usage_reason: 缺少可归因到该产品的用户反馈或案例，无法说明相较旧做法它减少了哪一步负担，因此用户为何选择它只能存疑。
+  usage_reason_en: There is no user feedback or case attributable to this product, so which step of burden
+    it removes versus the old approach cannot be explained, and why users would choose it remains unclear.

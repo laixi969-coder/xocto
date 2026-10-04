@@ -287,3 +287,52 @@
     into one Windows install, so the user does not have to build a memory store and voice pipeline or
     send conversations to the cloud; privacy-minded users who want a fixed voice and continuous dialogue
     would pick it for a personal desktop.'
+- id: req-full-ai-girlfriend-v2-2026-10-04
+  project_slug: ai-girlfriend-v2
+  level: full
+  reviewed_at: '2026-10-04T01:02:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是陪伴对话中记忆断裂与声音不连贯的痛点：通用聊天机器人每次重置上下文，用户需反复重述；该项目用 DSH 长期记忆加本地声音克隆，让对话跨会话延续并使用熟悉音色。这是从产品说明与旧替代行为作出的工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-9470c713be30ebf7
+    - ev-9ab57c01a9d166e3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 47 缓慢增至 53，说明有开发者关注，但公开材料没有用户评价、issue 讨论或持续使用记录，无法判断目标用户是否把它留在日常陪伴工作流中。
+    evidence_ids:
+    - ev-9470c713be30ebf7
+    - ev-32a183a6a2318ae3
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、付费路径或赞助信息，谁付钱、以何种方式付费均未核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-9470c713be30ebf7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述功能组合，没有部署文档、可复现实测或安全边界说明，长期记忆效果、声音克隆质量与数字人交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-9470c713be30ebf7
+    - ev-9ab57c01a9d166e3
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户报告实际部署、记忆与声音克隆效果及使用场景。
+  market: ''
+  job: 个人用户在 Windows 桌面上想要一个能记住过往对话、用自己克隆的声音回应的陪伴对象时，安装该项目，把长期记忆、本地声音克隆和可选 WSL2 数字人组合成一个持续对话的桌面伴侣。
+  job_en: An individual Windows user who wants a companion that remembers past conversations and replies
+    in a cloned voice installs this project to combine long-term memory, local voice cloning and an optional
+    WSL2 digital human into a persistent desktop companion.
+  pain: 通用聊天机器人每次会话重置上下文、声音与人格不连贯，用户要反复重述背景；把记忆、声音克隆和数字人分别搭建需要自行拼接多个组件，门槛高。
+  pain_en: Generic chatbots reset context each session and keep an inconsistent voice and persona, forcing
+    users to restate background; assembling memory, voice cloning and a digital human separately requires
+    stitching multiple components together.
+  current_alternative: 直接用通用聊天机器人或角色扮演应用，记忆和声音不持久；或自行组合开源 TTS、向量记忆与数字人项目，配置成本高。
+  current_alternative_en: Using generic chatbots or roleplay apps with non-persistent memory and voice,
+    or self-assembling open-source TTS, vector memory and digital-human projects at high configuration
+    cost.
+  usage_reason: 推断：相较通用聊天机器人，该项目把 DSH 长期记忆与本地声音克隆打包进 Windows 安装流程，用户不必自行拼接记忆与语音组件，就能获得跨会话延续的对话与熟悉音色，因此想要私密、可定制的桌面陪伴用户会在本地部署时选择它。
+  usage_reason_en: 'Inference: versus generic chatbots, the project packages DSH long-term memory and
+    local voice cloning into a Windows install flow, so users need not stitch memory and speech components
+    themselves to get cross-session continuity and a familiar voice, making it attractive to users wanting
+    a private, customizable desktop companion.'

@@ -76,3 +76,54 @@
   usage_reason: 用户要完成的任务是：乐高玩家与创客、玩具设计师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Lego hobbyists and makers, Toy designers Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-ldraw-nova-2026-10-04
+  project_slug: ldraw-nova
+  level: full
+  reviewed_at: '2026-10-04T01:04:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把造型意图转成可拼搭、可编辑积木结构的需求，痛点是手工逐块摆放与反复试错；公开材料仅说明其为开源乐高 AI 生成器，未给用户抱怨或频率，故价值判断基于工作流结构推理，而非采用数据。
+    evidence_ids:
+    - ev-dd952edf661bc8b5
+    - ev-bd8c2b6d23579102
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有项目发布说明，未显示下载、收藏、issue 讨论或持续使用；无法判断玩家与设计师是否已把它留在工作流里，关注度不等于采用。
+    evidence_ids:
+    - ev-dd952edf661bc8b5
+    - ev-bd8c2b6d23579102
+  - gate: model
+    status: insufficient
+    reason: 项目为开源，公开材料未给定价、赞助、付费 API 或企业授权路径；谁付钱、按什么单位收费均未核验，这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-dd952edf661bc8b5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输入形式、生成结果是否可实际拼搭、零件库覆盖与人工校验边界；交付能否稳定发生缺少可复现证据，需看仓库文档与 issue。
+    evidence_ids:
+    - ev-dd952edf661bc8b5
+    - ev-bd8c2b6d23579102
+  next_validation: 追踪 ldraw-nova 仓库的 README、示例输出与 issue/discussion，核验生成结果是否可实际拼搭、输入形式及是否出现付费或赞助路径。
+  market: ''
+  job: 乐高玩家、创客或玩具设计师在想要一个自定义模型（如特定造型、载具或摆件）时，需要把脑海中的造型变成可拼搭、可继续编辑的积木结构，并输出 LDraw 类工具能打开的文件。
+  job_en: A Lego hobbyist, maker, or toy designer who wants a custom model (a specific shape, vehicle,
+    or display piece) needs to turn a mental image into a buildable, editable brick structure and export
+    a file that LDraw-family tools can open.
+  pain: 公开材料只说明项目是开源乐高 AI 生成器，未提供用户抱怨、频率或不采用代价；但结构上，手工在 LDraw 类工具里逐块摆放零件、反复试错碰撞与稳定性，是这类任务的主要摩擦，生成结果若不可拼搭则等于没完成交付。
+  pain_en: Public materials only state that the project is an open-source Lego AI generator and give no
+    user complaints, frequency, or cost of not adopting; structurally, however, placing bricks one by
+    one in LDraw-family tools and iterating on collisions and stability is the main friction, and a non-buildable
+    output means the job is not delivered.
+  current_alternative: 旧做法是手工在 LDraw、Studio 等积木建模工具里逐块摆放零件，或参考官方套装说明书与社区 MOC 图纸进行改造；公开材料未说明该产品实际替代了哪一步。
+  current_alternative_en: The old way is to place bricks manually in LDraw, Studio, or similar brick-modeling
+    tools, or to modify official set instructions and community MOC plans; public materials do not show
+    which step the product actually replaces.
+  usage_reason: 推断：相较手工逐块摆放，它把“从造型意图到积木结构”的初始摆放交给生成模型，用户拿到可继续编辑的模型文件后再在 LDraw 类工具里微调，从而减少从零摆放和反复试错这一步；会在需要快速得到可编辑初稿、而非从零搭建的玩家或设计师场景中被选择。
+  usage_reason_en: 'Inference: compared with placing bricks by hand, it hands the initial layout from
+    shape intent to brick structure to a generative model, and the user then fine-tunes the editable model
+    file in LDraw-family tools, reducing the from-scratch placement and trial-and-error step; it would
+    be chosen in situations where a hobbyist or designer needs a quickly obtainable editable draft rather
+    than building from zero.'

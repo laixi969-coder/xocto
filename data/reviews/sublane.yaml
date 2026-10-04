@@ -129,3 +129,49 @@
     record per-person call volume, removing manual tallying and password rotation; teams needing internal
     cost allocation or permission auditing would choose it when several people share AI subscriptions,
     though public materials contain no user feedback confirming this motive.'
+- id: req-full-sublane-2026-10-04
+  project_slug: sublane
+  level: full
+  reviewed_at: '2026-10-04T01:05:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业内部多账号 AI 订阅的集中权限与用量核对需求，痛点是账号分散、共享失控、用量不可审计；不解决的后果是权限与成本说不清。这是从产品能力与旧流程作出的工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+    - ev-d8d81bbbaac85f2c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 67 升至 78，说明社区关注度在增长，但收藏与复刻属关注度证据，不能证明目标团队已持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+    - ev-d8d81bbbaac85f2c
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目未披露定价页或采购记录，钱可能来自企业自建部署的 IT 预算，也可能只是免费采用；这是判断而非已验证事实，买方路径尚未核验。
+    evidence_ids:
+    - ev-7d8afe3a157d3933
+  - gate: truth
+    status: insufficient
+    reason: 账号池化与访问控制贴近团队账号治理的第一性目标，但公开材料未给出部署文档、实测或安全边界说明，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-1bf8bdf4f9450e6c
+  next_validation: 追踪 SubLane 仓库的部署文档与 issue/discussion，确认是否有企业实际部署记录及账号池化与用量记录的实测结果。
+  market: ''
+  job: 企业内部 IT 或团队负责人把公司采购的多个 AI 订阅账号接入 SubLane，在成员申请使用模型时集中成池、按人分配访问权限并记录每人用量，最终交付一份可核对的用量与权限记录。
+  job_en: An internal IT lead or team owner connects the company's multiple purchased AI subscription
+    accounts to SubLane, pools them, assigns per-person access when members request model use, and records
+    per-person usage, delivering an auditable usage and permission record.
+  pain: 公开材料支持的结构性痛点是：多个订阅账号分散在个人手里，权限与用量无法集中核对，团队既难按人分配访问，也难说清谁用了多少；不解决的后果是账号共享失控与用量不可审计。
+  pain_en: The old approach is each member holding their own account and sharing by verbal agreement or
+    spreadsheet logs, with no centralized permission or usage record.
+  current_alternative: 旧做法是各成员各自持有账号、靠人工口头约定或表格登记共享，缺少集中权限与用量记录。
+  current_alternative_en: The old approach is each member holding their own account and sharing by verbal
+    agreement or spreadsheet logs, with no centralized permission or usage record.
+  usage_reason: 推断：相较人工登记共享，SubLane 把账号集中成池并自动按人分配访问、记录用量，省掉逐人手工登记与事后对账这一步，因此需要向团队交付可核对用量与权限记录的 IT 负责人会在内部部署时选择它。
+  usage_reason_en: 'Inference: versus manual log-based sharing, SubLane pools accounts and automatically
+    assigns per-person access while recording usage, removing the manual per-person logging and later
+    reconciliation step, so an IT lead who must deliver an auditable usage and permission record would
+    choose it for internal deployment.'

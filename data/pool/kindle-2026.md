@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/kindle-2026
 summary: A smaller, faster Kindle with a flush-front display
 first_seen: '2026-10-02T16:02:19Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

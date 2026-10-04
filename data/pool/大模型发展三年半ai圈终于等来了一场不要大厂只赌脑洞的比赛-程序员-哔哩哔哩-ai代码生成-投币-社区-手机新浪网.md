@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigANBVV95cUxQUzd3b18tcU5U
 summary: 大模型发展三年半，AI圈终于等来了一场不要大厂，只赌脑洞的比赛|程序员|哔哩哔哩|AI代码生成|投币|社区_手机新浪网 新浪财经
 first_seen: '2026-10-03T10:16:55Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

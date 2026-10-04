@@ -3,17 +3,19 @@ slug: tern
 name: tern
 builder: B0yko
 category: AI + 创作
-summary_zh: 播客或视频剪辑师在整理长时段素材时打开它，把口播录音、画面文字和画面内容一起检索，定位到要剪的片段并导出剪辑工程。资料只说明它把语音转写、画面文字识别和画面检索合并成一个排序结果，并带修剪编辑器和剪辑工程导出；具体流程与交付仍待核验。
-inspiration: 趋势：长时段音视频素材的检索正从人工拖时间轴，转向把语音、画面文字和画面内容合成一个可搜索索引。切入：从播客与访谈类内容团队进入，先做“找片段”这一步，再往剪辑工程交付延伸；卖法未披露，不做推测。
-summary_en: A podcast or video editor opens it while working through long footage, searching spoken audio,
-  on-screen text and visual content together to locate the segment to cut and export an editing project.
-  The material only says it fuses speech transcription, on-screen text recognition and visual search into
-  one ranked list with a trim editor and editing-project export; the exact workflow and deliverable still
-  need verification.
-inspiration_en: 'Trend: searching long audio and video is moving from manually scrubbing a timeline to
-  a single searchable index built from speech, on-screen text and visual content. Entry: start with podcast
-  and interview teams at the ''find the segment'' step, then extend toward editing-project delivery; pricing
-  is undisclosed and not guessed.'
+summary_zh: 播客或视频剪辑师在需要从长时段素材里找回某句话或某个画面时打开它，把本地音视频档案交给它处理：Whisper 转写语音、Apple Vision 识别画面文字、SigLIP-2 做视觉检索，三路结果合成一个排序列表，用户再在剪辑器里裁切并导出
+  FCPXML 交给剪辑软件。具体检索准确率与导出兼容性仍待核验。
+inspiration: 趋势是长音视频素材的检索正从人工拖时间轴转向本地多模态索引，隐私敏感的内容团队不必上传云端。切入可以从播客与纪录片后期工作室做起，按素材时长或成片交付收费，而不是卖通用剪辑工具；本地部署也让它能进入不愿外传素材的机构客户。
+summary_en: 'Podcast or video editors open it when they need to find a specific spoken line or on-screen
+  moment inside long footage: they point it at local audio-video archives, and Whisper transcribes speech,
+  Apple Vision reads on-screen text and SigLIP-2 does visual search, merging the three into one ranked
+  list; the user then trims in the editor and exports FCPXML to a cutting tool. Retrieval accuracy and
+  export compatibility still need verification.'
+inspiration_en: The trend is that searching long audio-video material is moving from manually scrubbing
+  a timeline to local multimodal indexing, so privacy-sensitive teams need not upload footage. The entry
+  point is podcast and documentary post-production studios, charged by footage hours or finished deliverables
+  rather than sold as a generic editing tool; local deployment also opens institutional clients unwilling
+  to send material out.
 priority_review: false
 project_type: new_application
 industries:
@@ -21,13 +23,17 @@ industries:
 - 播客与音视频制作
 industries_en:
 - Media & Entertainment
-- Podcast and video production
+- Podcast & Audio-Video Production
 jobs:
 - 播客或视频剪辑师
+- 内容档案管理者
 jobs_en:
 - Podcast or video editor
-regions: []
-regions_en: []
+- Content archive manager
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://boiko.ai/work/tern/
 canonical_url: https://boiko.ai/work/tern
@@ -36,7 +42,7 @@ summary: 'Local AI search for podcast and video archives on Apple Silicon: Whisp
   vanilla JS, Tauri. Source-visible, all rights reserved.'
 first_seen: '2026-09-24T17:31:47Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - newssearch

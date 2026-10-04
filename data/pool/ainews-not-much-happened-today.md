@@ -21,7 +21,7 @@ canonical_url: https://latent.space/p/ainews-not-much-happened-today-d3b
 summary: a quiet day
 first_seen: '2026-09-10T03:33:12Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

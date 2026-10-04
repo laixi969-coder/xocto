@@ -78,3 +78,52 @@
   usage_reason_en: 'The task is: Consumers or price-comparison tools querying and comparing prices across
     shops while shopping Public materials do not yet explain why users choose this product over their
     existing approach.'
+- id: req-full-torob-mcp-2026-10-04
+  project_slug: torob-mcp
+  level: full
+  reviewed_at: '2026-10-04T01:06:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是选购时跨店比价这一具体任务：同款商品价格分散在各店铺，用户需逐个搜索抄价再对齐，不解决就会买贵或反复核对，且每次购物重复发生。公开说明显示其以只读方式返回跨店价格与商品结果，输入关键词、输出可比较报价清单，交付闭环清晰；此为工作流结构推理，尚无用户自述痛点证据。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-f682aed75b93a346
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅有 40→41 个收藏的缓慢增长，属关注度而非持续采用；没有用户评价、issue 讨论或客户案例说明谁在什么场景反复调用它，因此无法判断它是否已进入真实工作流。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-f682aed75b93a346
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或调用计费方式，无法判断钱来自 C 端订阅、B 端比价工具集成还是 Torob 侧；这是判断而非已验证事实，商业路径缺口不反推需求不存在。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+  - gate: truth
+    status: insufficient
+    reason: 只读、无需 API key 降低了越权风险，但公开材料未说明 Torob 数据授权、抓取频率限制与结果时效，交付能否稳定发生、价格是否实时可核对仍缺可复现证据。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-f682aed75b93a346
+  next_validation: 追踪该 MCP 仓库的 README、issue 与 discussion，确认是否披露 Torob 数据授权方式、调用频率限制与真实部署案例。
+  market: ''
+  job: 消费者或接入它的 AI 助手在选购某件具体商品时，把商品关键词交给 Torob 的店铺数据，跨店拉取可比较的报价与商品结果，完成一次比价与价格核对。
+  job_en: A consumer or an AI assistant they use, while shopping for a specific item, passes the product
+    keyword to Torob's shop data to pull comparable offers and product results across shops and complete
+    one price comparison and price check.
+  pain: 同一商品在不同店铺价格与库存分散，用户要逐个站点打开、搜索、抄价再手工对齐，才能判断哪家更便宜；不解决的后果是买贵或反复来回核对，且这一动作在每次购物时重复发生。
+  pain_en: The same item is scattered across shops with different prices and stock, so users must open
+    each site, search, copy prices and align them by hand to judge which is cheaper; leaving it unsolved
+    means overpaying or repeated manual cross-checking, and the action recurs on every purchase.
+  current_alternative: 现状是人工逐个打开电商站点搜索比价，或使用 Torob 自身的网页/应用界面；对 AI 助手而言则是模型凭记忆报价，无法实时取到跨店价格。
+  current_alternative_en: Today users manually open each e-commerce site to compare, or use Torob's own
+    web/app interface; for an AI assistant the alternative is the model quoting from memory without live
+    cross-shop prices.
+  usage_reason: 推断：相较人工逐站搜索，它把“打开多个站点—搜索—抄价—对齐”压缩为一次工具调用，由 AI 助手直接返回跨店报价清单，因此正在用 AI 助手做购物决策、又需要实时价格的用户会在选购环节选择它；公开材料未提供用户自述动机。
+  usage_reason_en: 'Inference: versus manually searching site by site, it compresses ''open many sites
+    - search - copy prices - align'' into a single tool call that returns a cross-shop offer list to the
+    AI assistant, so users already making purchase decisions through an assistant and needing live prices
+    would pick it at the shopping step; public materials give no first-person user motivation.'

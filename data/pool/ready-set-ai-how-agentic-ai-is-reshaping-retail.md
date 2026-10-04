@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkczb1BYV0M2
 summary: 'Ready, Set, AI: How Agentic AI is Reshaping Retail CBIZ'
 first_seen: '2026-10-02T20:11:42Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

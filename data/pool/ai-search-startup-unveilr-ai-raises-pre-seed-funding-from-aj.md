@@ -1,6 +1,6 @@
 ---
 slug: ai-search-startup-unveilr-ai-raises-pre-seed-funding-from-aj
-name: AI search startup Unveilr AI raises pre-seed funding from AJVC at Rs 16.7 crore valuation
+name: Unveilr AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: AI search startup Unveilr AI raises pre-seed funding from AJVC at Rs 16
   Startup News
 first_seen: '2026-10-03T07:00:20Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI search startup Unveilr AI raises pre-seed funding from AJVC at Rs 16.7 crore valuation
+# Unveilr AI
 
 AI search startup Unveilr AI raises pre-seed funding from AJVC at Rs 16.7 crore valuation Indian Startup News
 

@@ -81,3 +81,59 @@
   usage_reason: 用户要完成的任务是：求职者每日筛选职位并批量填写申请表单；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Job seekers screening postings daily and filling application forms at
     volume Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-seekter-2026-10-04
+  project_slug: seekter
+  level: full
+  reviewed_at: '2026-10-04T01:05:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者每日跨来源筛选职位并按硬性条件过滤、再重复填写申请表单的需求；痛点是筛选与填表的高频机械重复、漏投与无记录可复盘，旧做法是手工刷站加表格记录。公开说明已能还原输入、动作与交付闭环，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-5441ad48d0c4613c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库公开记录显示 44 至 48 个收藏，说明开发者社区注意到该项目，但收藏与关注只属规模信号，不能证明求职者已把它留在日常投递流程中持续使用；缺少 issue、discussion
+      或使用反馈说明真实采用。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-5441ad48d0c4613c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，谁付钱（求职者本人、招聘服务方还是企业）尚不可知；这是判断而非已验证事实，不因此否定需求本身。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生尚缺公开证据：在本人 Chrome 中自动填表涉及各招聘站表单差异、登录态与反自动化边界，仓库未提供可复现的部署文档或成功率说明，人工与安全边界也未披露。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-5441ad48d0c4613c
+  next_validation: 追踪 seekter 仓库的 issue 与 discussion，确认是否有真实求职者报告在本人 Chrome 中完成批量填表的成功率、失败站点与人工介入边界。
+  market: ''
+  job: 求职者在集中投递期（如换工作、毕业求职、签证到期前）每天处理大量招聘来源的职位信息，按地点、签证、薪资、行业、资历、语言等自定规则筛选出可投职位，并在本人 Chrome 中逐条填写申请表单，同时保留每次申请或跳过的记录以便复查。
+  job_en: During an intensive search period (job change, graduation, visa deadline), a job seeker processes
+    postings from many sources daily, filters them against self-defined rules (location, visa, salary,
+    sector, seniority, language), fills application forms one by one in their own Chrome, and keeps a
+    record of each application or skip for later review.
+  pain: 公开材料显示该工具针对的是筛选与重复填表这两段高频机械劳动：同一批硬性条件（地点、签证、薪资、资历、语言）要在多个来源反复比对，投递表单又高度重复；不解决的后果是投递量受限、错过时效性职位，且申请与跳过没有可检索记录，难以复盘为何被拒或漏投。
+  pain_en: 'The public description targets two high-frequency mechanical steps: re-checking the same hard
+    constraints (location, visa, salary, seniority, language) across many sources, and repeatedly filling
+    near-identical application forms. Left unsolved, application volume is capped, time-sensitive postings
+    are missed, and there is no greppable record of applications or skips to review why something was
+    rejected or overlooked.'
+  current_alternative: 旧做法是求职者自己每天刷多个招聘网站、用表格或笔记手工记录已投与已跳过，再逐份复制粘贴简历信息填表；部分人用招聘平台的站内提醒或通用爬虫脚本，但规则过滤与表单填写仍需人工衔接。
+  current_alternative_en: The old approach is manually refreshing multiple job boards daily, tracking
+    applied and skipped postings in a spreadsheet or notes, and copy-pasting resume details into each
+    form; some use platform alerts or generic scraping scripts, but rule-based filtering and form filling
+    still need manual handoff.
+  usage_reason: 相较手工刷站与逐份填表，该代理把“按自定规则过滤”和“在本人 Chrome 中填表”串成一条自动链路，并把每次申请或跳过落成可 grep、可 diff 的 markdown
+    文件，减少的是重复比对条件与重复录入这两步负担；因此处于集中投递期、需要控制投递量并复盘记录的求职者会在这种情况下选择它。这是基于产品能力与任务结构的推断，尚无用户反馈或案例证实。
+  usage_reason_en: Compared with manual board-refreshing and form-by-form entry, the agent chains rule-based
+    filtering with form filling inside the user's own Chrome and writes each application or skip to a
+    greppable, diffable markdown file, removing the repeated constraint-checking and re-typing steps;
+    job seekers in an intensive application period who need volume control and a reviewable record would
+    choose it in that situation. This is an inference from product capability and task structure,

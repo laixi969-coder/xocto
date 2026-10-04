@@ -87,3 +87,51 @@
     actions and splits model judgment from policy release into two layers, letting developers tune auto-approve,
     review, and escalation thresholds by risk and trace errors to a specific step, appealing to teams
     where a wrong release is costly.'
+- id: req-full-jev-judge-mcp-2026-10-04
+  project_slug: jev-judge-mcp
+  level: full
+  reviewed_at: '2026-10-04T01:04:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 MCP 智能体判断逻辑散落在提示词、放行标准不可调且难追溯的问题，痛点具体；把模型判断与策略放行拆成两层是可核对的结构改进，属工作流结构推理，尚无采用数据。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 84 升至 91，仅说明关注度上升，没有 issue、讨论或客户案例说明开发者是否真正接入生产流程，共识证据仍不足。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+    - ev-fa9bfd8f36a619bf
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价，可能的付费方是使用该组件的企业开发团队或平台方，这属于判断而非已验证事实，公开材料未见采购或付费记录。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未披露各判断工具在真实业务中的准确率、误放行率与人工复核比例，无法确认其承诺的自动/复核/升级策略能否确定性交付。
+    evidence_ids:
+    - ev-e87cd5475501eb38
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认是否有团队公开说明接入场景、判断准确率或人工复核比例。
+  market: ''
+  job: 构建 MCP 智能体的开发者在流水线中处理候选内容（如抓取条目、生成结果、待审文本）时，需要先做校验、筛选、分类、重排或打分，再决定该条内容自动通过、转人工复核还是升级处理。
+  job_en: Developers building MCP agents, when processing candidate content (scraped items, generated
+    outputs, items awaiting review) in a pipeline, must first verify, screen, classify, rerank, or score
+    it, then decide whether each item is auto-approved, sent to human review, or escalated.
+  pain: 公开材料显示该工具把判断拆成 verify、screen、classify、gate、score 等类型化动作，说明旧做法是把判断逻辑散落在提示词与业务代码里：放行标准不可调、出错难追溯、自动与人工的边界无法按风险调整。
+  pain_en: 'The public description splits judgment into typed actions (verify, screen, classify, gate,
+    score), implying the old approach scatters judgment logic across prompts and business code: release
+    criteria are untunable, errors are hard to trace, and the auto/human boundary cannot be adjusted by
+    risk.'
+  current_alternative: 开发者在 MCP 智能体里自行编写提示词与校验代码，或在业务系统中硬编码通过规则，用模型直接输出判断结果。
+  current_alternative_en: Developers write their own prompts and validation code inside MCP agents, or
+    hard-code pass rules in the business system, letting the model output judgments directly.
+  usage_reason: 推断：相较把判断写死在提示词里，该工具把模型判断与放行策略拆成两层，开发者可按风险调整自动通过、复核与升级的阈值，并在出错时定位到具体判断环节，因此对错误放行代价高的 MCP
+    智能体团队更有吸引力。
+  usage_reason_en: 'Inference: compared with hard-coding judgment into prompts, it splits model judgment
+    and release policy into two layers, letting developers tune auto-approve, review, and escalation thresholds
+    by risk and trace errors to a specific judgment step, which appeals to MCP agent teams where a wrong
+    release is costly.'

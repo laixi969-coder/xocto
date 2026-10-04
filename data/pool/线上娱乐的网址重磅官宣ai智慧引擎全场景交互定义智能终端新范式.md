@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lQm95d0lFYWZP
 summary: 线上娱乐的网址重磅官宣，AI智慧引擎+全场景交互定义智能终端新范式 体坛
 first_seen: '2026-10-03T11:33:58Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

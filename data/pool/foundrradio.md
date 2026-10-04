@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/foundrradio
 summary: Pick a frequency, launch your radio station and go on air
 first_seen: '2026-10-01T09:34:01Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

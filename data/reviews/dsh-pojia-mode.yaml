@@ -79,3 +79,47 @@
   usage_reason_en: 'The task is: DeepSeek Harness users load a custom agent preset by double-clicking
     a file, without modifying the host program Public materials do not yet explain why users choose this
     product over their existing approach.'
+- id: req-full-dsh-pojia-mode-2026-10-04
+  project_slug: dsh-pojia-mode
+  level: full
+  reviewed_at: '2026-10-04T01:04:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是给 Harness 装自定义 Agent 预设时改源码会被升级覆盖、手动配置繁琐的问题，痛点属安装便利性摩擦；公开材料未说明「破甲模式」改变什么行为或带来什么可核对结果，不用它用户仍能正常编码，属没有也行的自嗨拼凑。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+    - ev-f19357f3e6dda193
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue，确认「破甲模式」预设具体改变哪些 Agent 行为、是否有使用者反馈其产出差异。
+  market: ''
+  job: DeepSeek Harness 使用者在不想改动主程序的前提下，双击一个文件为工具加载一个名为「破甲模式」的自定义 Agent 预设，让 Harness 按该预设行为工作，并在 DSH 升级后仍保留该预设。
+  job_en: A DeepSeek Harness user, without modifying the host program, double-clicks a file to load a
+    custom agent preset called 'Pojia Mode' so Harness behaves per that preset and keeps it across DSH
+    upgrades.
+  pain: 公开材料只给出定位句，未说明「破甲模式」具体改变什么行为、解决什么编码或使用问题；从工作流结构推理，可识别的痛点仅是安装自定义预设时改源码会被升级覆盖、手动配置繁琐，属于便利性摩擦，而非不做就会损失结果的刚性需求。
+  pain_en: Public materials give only the positioning line and never say what 'Pojia Mode' actually changes
+    or which coding problem it solves; by workflow inference the only identifiable pain is that editing
+    source to install a preset gets overwritten on upgrade and manual setup is tedious, a convenience
+    friction rather than a must-solve need.
+  current_alternative: 旧做法是直接修改 DSH 源码或配置文件来加预设（升级后可能丢失），或手动按文档逐步配置 Agent 预设。
+  current_alternative_en: The old approach is editing DSH source or config files to add a preset (possibly
+    lost on upgrade), or manually following docs to configure an agent preset step by step.
+  usage_reason: 推断：相较改源码或手动配置，双击文件确实省去一步安装操作并规避升级覆盖，因此图省事的 Harness 用户可能试用；但公开材料未说明该预设带来什么可核对的行为或结果改善，省下的只是安装步骤，用户不用它也能照常编码，选择动机薄弱。
+  usage_reason_en: 'Inference: versus editing source or configuring manually, double-clicking does save
+    an install step and avoids upgrade overwrites, so convenience-seeking Harness users might try it;
+    but public materials show no checkable behavior or outcome improvement from the preset itself, only
+    a saved install step, and users can code fine without it, so the reason to choose it is weak.'

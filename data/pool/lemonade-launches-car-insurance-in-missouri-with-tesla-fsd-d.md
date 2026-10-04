@@ -36,7 +36,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPdC1mc0JqOW5q
 summary: Lemonade Launches Car Insurance in Missouri With Tesla FSD Discount Unite.AI
 first_seen: '2026-09-02T18:33:01Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

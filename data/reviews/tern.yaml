@@ -172,3 +172,88 @@
   usage_reason_en: 'Why a user would choose it cannot be judged: there is no product page, documentation,
     pricing, customer case or user feedback, so any usage reason would be fabricated and is therefore
     withheld.'
+- id: req-initial-tern-2026-10-04
+  project_slug: tern
+  level: initial
+  reviewed_at: '2026-10-04T00:38:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长音视频素材里定位某句话或某个画面的需求，痛点是逐段预览耗时且画面文字不可检索，旧行为明确，交付是排序结果加可导出的片段。
+    evidence_ids:
+    - ev-ae043e8e31833fbc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库约 66 星，没有用户评价、客户案例或重复使用证据，无法判断是否形成稳定使用习惯。
+    evidence_ids:
+    - ev-ae043e8e31833fbc
+  - gate: model
+    status: insufficient
+    reason: 页面未披露定价或付费方式，买方可能是个人剪辑师或后期工作室，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ae043e8e31833fbc
+  - gate: truth
+    status: insufficient
+    reason: 本地运行与 FCPXML 导出方向合理，但检索准确率、导出兼容性和人工复核边界均无公开材料支持。
+    evidence_ids:
+    - ev-ae043e8e31833fbc
+  next_validation: 收集 tern 官方页面或仓库文档中关于检索准确率、FCPXML 导出兼容性与是否收费的公开说明。
+  market: ''
+  job: 播客或视频剪辑师在整理数小时访谈或活动录像时，需要从本地音视频档案里定位某句原话或某个画面，再裁出片段交给剪辑软件。
+  job_en: A podcast or video editor working through hours of interview or event footage needs to locate
+    a specific spoken line or on-screen moment in a local archive, then cut a clip for the editing tool.
+  pain: 旧做法是反复拖时间轴、凭记忆或看文字稿猜位置，长素材里找一句话往往要花很久，且画面文字信息完全无法检索。
+  pain_en: The old way is scrubbing the timeline repeatedly and guessing from memory or a transcript;
+    finding one line in long footage takes a long time, and on-screen text is not searchable at all.
+  current_alternative: 人工拖时间轴、逐段预览，或依赖单独生成的文字稿再手动对齐时间点。
+  current_alternative_en: Manually scrubbing the timeline and previewing clip by clip, or relying on a
+    separately generated transcript and hand-aligning timestamps.
+  usage_reason: 推断：它把语音、画面文字和视觉内容一次性建成可检索索引，用户用一句查询就能跳到候选时间点，省掉逐段预览这一步；对素材量大又不愿上传云端的后期团队，本地运行是选择它的直接原因。
+  usage_reason_en: 'Inference: it indexes speech, on-screen text and visuals in one pass so a single query
+    jumps to candidate timestamps, removing the clip-by-clip preview step; for post teams with large archives
+    that will not upload footage, local execution is the direct reason to choose it.'
+- id: req-full-tern-2026-10-04
+  project_slug: tern
+  level: full
+  reviewed_at: '2026-10-04T01:05:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长音视频素材里定位某句话或某个画面的需求，痛点是逐段预览耗时且画面文字不可检索，旧行为明确，交付是排序结果加可导出的片段。
+    evidence_ids:
+    - ev-ae043e8e31833fbc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库约 66 星，没有用户评价、客户案例或重复使用证据，无法判断是否形成稳定使用习惯。
+    evidence_ids:
+    - ev-ae043e8e31833fbc
+  - gate: model
+    status: insufficient
+    reason: 页面未披露定价或付费方式，买方可能是个人剪辑师或后期工作室，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ae043e8e31833fbc
+  - gate: truth
+    status: insufficient
+    reason: 本地运行与 FCPXML 导出方向合理，但检索准确率、导出兼容性和人工复核边界均无公开材料支持。
+    evidence_ids:
+    - ev-ae043e8e31833fbc
+  next_validation: 收集 tern 官方页面或仓库文档中关于检索准确率、FCPXML 导出兼容性与是否收费的公开说明。
+  market: ''
+  job: 播客或视频剪辑师在整理数小时访谈、活动录像或播客素材时，需要从本地音视频档案里定位某句原话或某个画面，再裁出片段导出给剪辑软件。
+  job_en: A podcast or video editor working through hours of interview, event or podcast footage needs
+    to locate a specific spoken line or on-screen moment in a local archive, then cut a clip and export
+    it to the editing tool.
+  pain: 旧做法是反复拖时间轴、凭记忆或看文字稿猜位置，长素材里找一句话往往要花很久，画面文字信息完全无法检索。
+  pain_en: The old way is scrubbing the timeline repeatedly and guessing from memory or a transcript;
+    finding one line in long footage takes a long time, and on-screen text is not searchable at all.
+  current_alternative: 人工拖时间轴、逐段预览，或依赖单独生成的文字稿再手动对齐时间点。
+  current_alternative_en: Manually scrubbing the timeline and previewing clip by clip, or relying on a
+    separately generated transcript and hand-aligning timestamps.
+  usage_reason: 推断：它把语音、画面文字和视觉内容一次性建成可检索索引，用户用一句查询就能跳到候选时间点，省掉逐段预览这一步；对素材量大又不愿上传云端的后期团队，本地运行是选择它的直接原因。
+  usage_reason_en: 'Inference: it indexes speech, on-screen text and visuals in one pass so a single query
+    jumps to candidate timestamps, removing the clip-by-clip preview step; for post teams with large archives
+    that will not upload footage, local execution is the direct reason to choose it.'

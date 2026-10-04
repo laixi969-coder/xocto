@@ -24,7 +24,7 @@ summary: Base Labs, the research group Baseten spun up earlier this year, will d
   for training and monitoring open models.
 first_seen: '2026-09-17T17:15:59Z'
 last_seen: '2026-10-04T00:38:15Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - officialfeeds

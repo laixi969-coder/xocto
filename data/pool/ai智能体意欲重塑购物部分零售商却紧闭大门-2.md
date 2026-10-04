@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingJBVV95cUxOdjB0QW1acVMw
 summary: AI智能体意欲重塑购物，部分零售商却紧闭大门 新浪财经
 first_seen: '2026-10-02T07:00:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

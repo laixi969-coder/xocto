@@ -171,3 +171,57 @@
     removing the burden of re-searching and rebuilding context, and produces a cited draft for human verification;
     analysts or consultants who need a checkable first draft would choose it in that situation. Public
     material provides no user feedback or customer case, so the motive is inferred.'
+- id: req-full-deepresearchagent-2026-10-04
+  project_slug: deepresearchagent
+  level: full
+  reviewed_at: '2026-10-04T01:03:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把散落公开网页材料整理成带引用调研初稿的需求，痛点在长链路调研中断丢上下文、证据与结论脱节、引用难回溯；仓库说明已给出规划检索、归集证据、续跑与引用报告的动作闭环，属工作流结构推理，用户抱怨与不采用代价仍缺公开证据。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-91984fd2bb08379b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数在 60 至 63 之间小幅波动，说明有开发者关注，但公开材料没有目标分析师的使用反馈、复刻部署或持续采用记录，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-91984fd2bb08379b
+    - ev-a155c28ba447035a
+    - ev-78f6dac3e4125cb5
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费客户或采购记录，钱可能来自 to C 开发者自用或 to B 团队内部部署，属判断而非已验证事实；买方与单位经济未核验，但不反推问题不存在。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述可续跑并生成带引用报告，但公开材料没有可复现的交付样例、引用准确率或人工核对边界说明，交付能否稳定发生尚缺证据。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-91984fd2bb08379b
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有分析师或咨询团队公开报告实际部署、替代的旧检索流程及引用核对结果。
+  market: ''
+  job: 分析师或咨询顾问在需要快速产出带引用的行业调研初稿时，把散落的公开网页材料交给这个 LangGraph agent：它先规划检索步骤，再搜索网页、归集证据与上下文，中断后可续跑，最后输出带引用的报告，人工仍需核对引用是否成立。
+  job_en: 'Analysts or consultants producing a cited first-draft industry research report hand scattered
+    public web material to this LangGraph agent: it plans search steps, searches the web, accumulates
+    evidence and context, resumes interrupted runs, and outputs a cited report that a human still has
+    to verify.'
+  pain: 公开材料只说明它做检索、证据归集与引用报告，未给出用户抱怨、频率或不采用的具体代价；从工作流结构看，痛点是长链路调研中断后上下文丢失、证据与结论脱节、引用无法回溯，需要人工重跑或手工拼装。
+  pain_en: Public material only describes planning, evidence accumulation and cited reports; it shows
+    no user complaint, frequency or cost of not adopting. Structurally, the pain is that long research
+    runs lose context when interrupted, evidence drifts from conclusions, and citations cannot be traced
+    back, forcing manual reruns or hand assembly.
+  current_alternative: 旧做法是人工在搜索引擎与浏览器标签间逐页检索、复制摘录到文档、手工维护来源清单，或直接用通用聊天式检索工具生成无引用或引用不可核对的草稿。
+  current_alternative_en: 'The old way is manual: searching page by page across search engines and browser
+    tabs, pasting excerpts into a document, maintaining a source list by hand, or using generic chat-style
+    search tools that produce drafts with no citations or unverifiable ones.'
+  usage_reason: 推断：相较手工逐页检索与拼装，它把检索规划、证据归集和引用生成放进同一条可续跑的图流程，中断后不必从头重来，引用随报告一并产出，因此需要反复产出可核查初稿、且在意来源可回溯的分析师或咨询顾问会在长链路调研时选择它；公开材料未提供用户反馈或客户案例来证实这一动机。
+  usage_reason_en: 'Inference: versus manual page-by-page search and assembly, it puts search planning,
+    evidence accumulation and citation generation into one resumable graph run, so an interrupted run
+    need not restart and citations ship with the report; analysts or consultants who repeatedly produce
+    checkable drafts and care about traceable sources would choose it for long research runs. Public material
+    provides no user feedback or customer case confirming this motive.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMlJMZkU4YjBB
 summary: 绩优基金一季报密集披露：多只基金规模大增 看多AI相关产业链 新浪财经
 first_seen: '2026-10-03T06:21:12Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

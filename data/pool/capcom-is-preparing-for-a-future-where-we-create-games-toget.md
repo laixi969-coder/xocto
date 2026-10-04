@@ -1,6 +1,6 @@
 ---
 slug: capcom-is-preparing-for-a-future-where-we-create-games-toget
-name: Capcom is preparing for a ‘future where we create games together with AI’
+name: Capcom
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: 'Capcom''s Pragmata might be all about the horrors of AI, but in practi
   the RE Engine for […]'
 first_seen: '2026-10-03T16:49:10Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Capcom is preparing for a ‘future where we create games together with AI’
+# Capcom
 
 Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: "The Outlook and Future of the REX Project, Further Evolving the RE Engine for […]
 

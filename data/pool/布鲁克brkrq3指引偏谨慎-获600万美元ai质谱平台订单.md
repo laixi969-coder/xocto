@@ -1,6 +1,6 @@
 ---
 slug: 布鲁克brkrq3指引偏谨慎-获600万美元ai质谱平台订单
-name: 布鲁克(BRKR)Q3指引偏谨慎 获600万美元AI质谱平台订单
+name: 布鲁克
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hNHlld0VEaC1j
 summary: 布鲁克(BRKR)Q3指引偏谨慎 获600万美元AI质谱平台订单 eeo.com.cn
 first_seen: '2026-10-03T19:38:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 布鲁克(BRKR)Q3指引偏谨慎 获600万美元AI质谱平台订单
+# 布鲁克
 
 布鲁克(BRKR)Q3指引偏谨慎 获600万美元AI质谱平台订单 eeo.com.cn
 

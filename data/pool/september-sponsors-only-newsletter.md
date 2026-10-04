@@ -27,7 +27,7 @@ summary: "I just sent the September edition of my  sponsors-only monthly newslet
   \  newsletter"
 first_seen: '2026-10-03T22:00:31Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

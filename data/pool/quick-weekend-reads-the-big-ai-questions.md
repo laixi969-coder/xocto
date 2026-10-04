@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/quick-weekend-reads-the-big-ai-quest
 summary: A short set of readings on some of the biggest questions.
 first_seen: '2026-10-03T12:54:07Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

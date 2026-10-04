@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxObzNQeG9JQWJk
 summary: 戴尔VS慧与科技：哪个AI服务器股票更值得买入？ TradingKey
 first_seen: '2026-10-03T09:00:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

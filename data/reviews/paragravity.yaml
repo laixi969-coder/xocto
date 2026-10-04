@@ -364,3 +364,55 @@
     removing the step of repeated logins, environment cross-contamination, and queuing, so independent
     developers who must verify multiple accounts or run sandboxes in parallel would choose it for single-machine
     multi-instance work.'
+- id: req-full-paragravity-2026-10-04
+  project_slug: paragravity
+  level: full
+  reviewed_at: '2026-10-04T01:05:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者在一台机器上并行跑多个 Antigravity 账号/沙箱时凭据与会话互相干扰的问题，旧做法是手动切换、复制配置或加机器；不解决的后果是只能串行或环境被污染。这是从产品说明与任务结构作出的推理，尚无用户痛点量化证据。
+    evidence_ids:
+    - ev-3bdced09f2a23883
+    - ev-5aee9f5a3a077ec3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 218 到 222 缓慢波动，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或评价显示目标用户已把它放进日常工作流，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-a8711b30916cf3af
+    - ev-5aee9f5a3a077ec3
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、赞助、商业授权或企业采购路径，谁付钱、按什么单位收费均未核验；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-3bdced09f2a23883
+  - gate: truth
+    status: insufficient
+    reason: 产品自述为原生、非侵入式，但公开材料未给出隔离机制、部署文档或可复现测试，无法确认多账号并行时凭据隔离与调度能否稳定交付，也未说明安全与人工边界。
+    evidence_ids:
+    - ev-3bdced09f2a23883
+    - ev-7ebe676a8ec83b31
+  next_validation: 追踪 paragravity 仓库的 README、issue 与 discussion，确认隔离机制说明、部署步骤以及是否有用户报告实际并行运行多个 Antigravity
+    账号的场景。
+  market: ''
+  job: 独立开发者或小团队在同一台机器上同时运行多个 Google Antigravity 账号与沙箱，需要把账号配置、隔离环境和并行调度交给一个原生工具，从而在不互相污染的前提下并行推进多个 AI
+    编码会话。
+  job_en: An independent developer or small team runs multiple Google Antigravity accounts and sandboxes
+    on one machine, delegating account configuration, isolated environments and parallel scheduling to
+    a native tool so several AI coding sessions proceed without cross-contamination.
+  pain: Antigravity 单账号单沙箱的默认形态下，多账号切换、会话状态与凭据互相干扰，用户只能反复登录、手动复制配置或开多台机器；公开材料未给出频率与代价的量化数据，痛点强度属工作流结构推理。
+  pain_en: In Antigravity's default single-account, single-sandbox form, multi-account switching, session
+    state and credentials interfere with each other, forcing repeated logins, manual config copying or
+    extra machines; public materials give no quantified frequency or cost, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 旧做法是手动切换账号、复制配置目录、开虚拟机或第二台设备来隔离实例，或干脆放弃并行、串行使用单一账号。
+  current_alternative_en: The old approach is manually switching accounts, copying config directories,
+    spinning up VMs or a second machine to isolate instances, or abandoning parallelism and using a single
+    account serially.
+  usage_reason: 推断：相较手动切换与复制配置，它把账号与沙箱配置作为输入，由工具执行隔离与并行调度，省去每次会话前重建环境这一步，因此同时维护多个 Antigravity 账号的独立开发者会在需要并行跑任务时选择它；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus manual switching and config copying, it takes account and sandbox
+    configuration as input and performs isolation and parallel scheduling itself, removing the per-session
+    environment rebuild step, so developers juggling multiple Antigravity accounts would pick it when
+    running tasks in parallel; public materials contain no user feedback or case confirming this motive.'

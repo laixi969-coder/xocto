@@ -81,3 +81,48 @@
     step, what material it handles and what it finally delivers are not stated in the public material,
     so the workflow and deliverable remain unverified. Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-openghost-2026-10-04
+  project_slug: openghost
+  level: full
+  reviewed_at: '2026-10-04T01:05:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只说明它自带代理引擎、浏览器工具和绘图引擎，未说明谁在什么工作节点使用、处理什么材料、交付什么结果，也看不出不解决的代价与频率，无法还原具体旧流程，故价值结构尚不能判定。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+    - ev-c0496bc62bc4cfcd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenGhost 仓库的 README、issue 与 discussion，确认是否有具体用户描述在何种工作场景部署、替代了哪一步旧流程。
+  market: ''
+  job: 桌面用户（开发者或需要跨应用操作电脑的人）在 Windows、macOS 或 Linux 上打开 OpenGhost，让它通过自带浏览器工具和绘图引擎执行任务并图示解释过程；但公开材料未说明具体是谁、在哪个工作节点、处理什么材料、交付什么结果。
+  job_en: A desktop user (developer or anyone needing cross-application computer operation) opens OpenGhost
+    on Windows, macOS or Linux and lets its built-in browser tooling and drawing engine execute tasks
+    and illustrate the explanation; however, public materials do not state who exactly, at which work
+    step, handling what material, delivering what result.
+  pain: 公开材料只描述产品自带代理引擎、浏览器工具和绘图引擎，没有说明用户当前在哪一步受阻、不解决的代价或发生频率，因此无法确认痛点是否真实存在。
+  pain_en: Public materials only describe the built-in agent engine, browser tooling and drawing engine;
+    they do not state which step users are blocked at, the cost of not solving it, or its frequency, so
+    the pain cannot be confirmed as real.
+  current_alternative: 公开材料未说明用户目前用什么方式完成同类桌面代理任务（如手动操作、脚本、其他桌面代理），也未说明 OpenGhost 实际替代了什么旧流程。
+  current_alternative_en: Public materials do not state how users currently complete comparable desktop-agent
+    tasks (manual operation, scripts, other desktop agents), nor what old workflow OpenGhost actually
+    replaces.
+  usage_reason: 推断：若用户需要跨应用执行任务并希望看到图示解释，OpenGhost 的自带引擎与绘图能力可能减少在多个工具间切换的步骤；但公开材料没有用户反馈或案例说明这一因果，因此无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if users need to execute cross-application tasks and want illustrated explanations,
+    OpenGhost''s built-in engine and drawing capability might reduce switching between tools; but public
+    materials contain no user feedback or cases supporting this causal link, so it is unconfirmed which
+    users would choose it and when.'

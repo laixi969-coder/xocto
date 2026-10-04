@@ -180,3 +180,52 @@
     so an agent can run the same list, removing the steps of recalling items from memory and manually
     restating them to an agent; teams that need a consistent security check each release and already use
     AI agents for checks are therefore more likely to adopt it.'
+- id: req-full-deployment-checklist-2026-10-04
+  project_slug: deployment-checklist
+  level: full
+  reviewed_at: '2026-10-04T01:03:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前安全与配置项分散、易漏的需求，痛点是不漏检即发布，交付物是可勾选清单且提供 AI 代理版本，闭环可确定；但漏检代价与频率无量化数据，属工作流结构推理。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-708aa91eb6727a9c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 46，说明有开发者关注，但无 issue、discussion 或评价显示团队已把它纳入上线流程，持续采用与强场景仍缺公开证据。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-2ac5fe6b72c5a7b3
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页与付费路径，谁付钱、以何种方式变现均未披露；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-98c908fa4185e59d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明清单具体条目、AI 代理如何执行检查、是否产出报告，交付能否稳定发生与人工边界尚不可复现。
+    evidence_ids:
+    - ev-1eb31d9fe335b0f3
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认清单条目、AI 代理执行方式及是否有团队公开描述将其纳入上线流程。
+  market: ''
+  job: Web 与移动应用团队在版本上线前，由开发者或安全负责人打开这份语言无关的部署前清单，逐项核对安全与配置事项（也可让 AI 代理按同一清单检查），最终交付一份可勾选的检查结果。
+  job_en: Before a release, web and mobile app teams — developers or the security owner — open this language-agnostic
+    pre-deployment checklist and verify security and configuration items one by one (or have an AI agent
+    run the same list), producing a checked result.
+  pain: 上线前安全与配置项分散、易漏，漏检的后果是带着已知风险发布；公开材料只说明清单存在且安全项偏重，未给出漏检事故、频率或代价的量化数据，痛点强度属工作流结构推理。
+  pain_en: Pre-release security and configuration items are scattered and easy to miss, and a miss ships
+    known risk to production; public materials only show the checklist exists and is security-heavy, with
+    no quantified incident, frequency, or cost data, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是团队各自凭记忆、内部 wiki 或零散文档逐项确认，没有统一、语言无关且可交给 AI 代理执行的清单；这是从产品定位推出的替代方式推断，公开材料未直接描述用户现有流程。
+  current_alternative_en: The old way is each team confirming items from memory, an internal wiki, or
+    scattered docs, without a unified, language-agnostic list an AI agent can also execute; this is inferred
+    from the product positioning, not directly documented user behavior.
+  usage_reason: 相较凭记忆或零散文档核对，它把上线前检查固化为一份语言无关、安全项偏重的可勾选清单，并额外提供 AI 代理版本，让代理按同一清单执行，从而减少“该查哪些项”的整理与遗漏负担；推断会由需要在上线前统一安全核对口径的
+    Web/移动团队选用。
+  usage_reason_en: Versus checking from memory or scattered docs, it fixes pre-release checks into a language-agnostic,
+    security-heavy tickable list and adds an AI-agent version so an agent runs the same list, cutting
+    the effort of deciding what to check and the risk of omission; inferred to be chosen by web/mobile
+    teams that need one shared pre-release security checklist.

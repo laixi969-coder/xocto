@@ -121,3 +121,48 @@
     writing and maintaining OpenTelemetry integration code themselves, so teams needing unified monitoring
     across coding agents may submit plugins; adoption and retention evidence is missing, so entry into
     daily workflows cannot be confirmed.'
+- id: req-full-otelyssey-2026-10-04
+  project_slug: otelyssey
+  level: full
+  reviewed_at: '2026-10-04T01:05:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是给多种编码 agent 统一接入 OpenTelemetry 遥测的需求，但公开材料只有一句仓库自述，未说明采集哪些数据、如何接入现有监控后端、不解决会有什么后果，也看不到用户抱怨或替代行为，痛点刚性与交付确定性都无法确认。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有平台工程师实际提交并成功加载插件、以及插件采集的数据字段与后端接入方式。
+  market: ''
+  job: 平台或可观测性工程师在团队使用多个编码 agent（如各类 CLI/IDE agent）时，需要为这些 agent 接入 OpenTelemetry 遥测，以便在现有监控后端里看到 agent
+    的运行数据；他们通过向该仓库提交插件 issue，由仓库自动校验、评审并收录，最终得到可被 agent 加载的 OpenTelemetry 插件。
+  job_en: Platform or observability engineers who need to instrument the coding agents their team uses
+    with OpenTelemetry telemetry, so agent runtime data shows up in their existing monitoring backend;
+    they submit a plugin issue to this repository, which auto-validates, reviews, lists and follows the
+    plugin, ending with an OpenTelemetry plugin loadable by the agent.
+  pain: 公开材料只给出仓库自述的一句话定位，没有说明工程师当前为 agent 加监控时具体卡在哪一步、不解决的后果是什么、发生频率多高；也没有任何用户抱怨、workaround 或客户案例。
+  pain_en: Public materials give only a one-line repository self-description; they do not show which step
+    engineers are stuck on when instrumenting agents, what the consequence of not solving it is, or how
+    often it occurs. No user complaints, workarounds, or customer cases are present.
+  current_alternative: 公开材料未说明用户目前如何完成 agent 遥测接入，也未说明它实际替代了什么旧做法；只能推断可能沿用各 agent 自带的日志或手工埋点，但这是推断而非公开事实。
+  current_alternative_en: Public materials do not show how users currently instrument agents or what old
+    approach this replaces; one can only infer per-agent built-in logging or manual instrumentation, which
+    is inference, not public fact.
+  usage_reason: 推断：若插件确实存在且可加载，平台工程师可能因为不想为每个 agent 各写一套埋点而选择它；但公开材料没有说明插件采集哪些数据、如何接入现有后端，也没有任何用户反馈支持这一动机，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the plugins actually exist and load, platform engineers might choose
+    it to avoid writing separate instrumentation per agent; but public materials do not say what data
+    the plugins collect or how they connect to existing backends, and no user feedback supports this motive,
+    so user choice cannot be confirmed.'

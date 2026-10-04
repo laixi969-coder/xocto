@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE5uZG1yZ3ppM2hx
 summary: 实测8款企业AI知识库管理系统：AI问答、私有化部署、合规能力全打分 财富号
 first_seen: '2026-10-03T23:39:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

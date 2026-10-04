@@ -24,7 +24,7 @@ summary: Kakul Srivastava is the CEO of Splice, the sample platform countless pr
   Before that, Kakul held executive roles […]
 first_seen: '2026-10-03T15:00:00Z'
 last_seen: '2026-10-04T00:38:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

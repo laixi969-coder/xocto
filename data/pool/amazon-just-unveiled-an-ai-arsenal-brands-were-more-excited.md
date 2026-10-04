@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzB2UkFsN2Ft
 summary: Amazon just unveiled an AI arsenal. Brands were more excited by new reviews The Drum
 first_seen: '2026-10-01T10:17:18Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

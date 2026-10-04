@@ -1,0 +1,91 @@
+- id: req-initial-akasa-launches-first-autonomous-ai-platform-for-coding-and-d-2026-10-04
+  project_slug: akasa-launches-first-autonomous-ai-platform-for-coding-and-d
+  level: initial
+  reviewed_at: '2026-10-04T00:38:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决编码与文档人工逐条阅读病历的痛点，但公开材料只有发布标题，无法确认输入范围与交付是否确定。
+    evidence_ids:
+    - ev-6a7600f3d3d7ebfa
+  - gate: consensus
+    status: insufficient
+    reason: 未见客户案例、用户评价或采用数据，无法判断医院是否已把它纳入工作流。
+    evidence_ids:
+    - ev-6a7600f3d3d7ebfa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或买方，无法判断收入来自医院、编码外包商还是按病历计费。
+    evidence_ids:
+    - ev-6a7600f3d3d7ebfa
+  - gate: truth
+    status: insufficient
+    reason: 医疗编码对准确率和合规边界要求高，公开材料未说明人工复核与责任划分。
+    evidence_ids:
+    - ev-6a7600f3d3d7ebfa
+  next_validation: 收集 AKASA 官方产品页或客户案例，确认其编码与文档产品的输入范围、准确率声明与付费方式。
+  market: ''
+  job: 医院收入周期团队在病历完成、需要转成合规编码和账单时，由 AI 读取临床文档并生成编码与文档草稿，编码员复核后提交。
+  job_en: When a hospital revenue cycle team finishes records and must convert them into compliant codes
+    and bills, AI reads the clinical documentation and drafts codes and documentation for coders to review
+    and submit.
+  pain: 编码与文档依赖人工逐条阅读病历，耗时长且易出错，错误会带来拒付和合规风险。
+  pain_en: Coding and documentation require staff to read records line by line, which is slow and error-prone,
+    and mistakes cause denials and compliance risk.
+  current_alternative: 目前多由内部编码员或外包编码团队手工完成，辅以规则型编码软件。
+  current_alternative_en: Today this is mostly done manually by in-house coders or outsourced coding teams,
+    aided by rules-based coding software.
+  usage_reason: 推断：若 AI 能直接产出可复核的编码草稿，编码员可省去逐条检索编码表这一步，因此人手紧张的医院可能选择它；但公开材料未给出准确率、客户或付费证据，无法确认持续使用。
+  usage_reason_en: 'Inference: if the AI can produce reviewable coding drafts, coders skip the step of
+    looking up code tables one by one, so short-staffed hospitals may choose it; however, public material
+    gives no accuracy, customer or payment evidence, so sustained use cannot be confirmed.'
+- id: req-full-akasa-launches-first-autonomous-ai-platform-for-coding-and-d-2026-10-04
+  project_slug: akasa-launches-first-autonomous-ai-platform-for-coding-and-d
+  level: full
+  reviewed_at: '2026-10-04T01:02:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医院把病历转成合规编码与账单时人工逐条阅读、逐条查码的痛点，错误会带来拒付与合规风险，痛点刚性；官网称用医院自有文档与编码决策训练定制模型并产出更完整文档与更准确编码，交付闭环可还原，但输入范围与准确率仍属结构推理。
+    evidence_ids:
+    - ev-5682e9a4109f48bc
+    - ev-d8efbe26313e1910
+  - gate: consensus
+    status: insufficient
+    reason: 官网只描述定制模型与收入周期方案，未见客户案例、用户评价或采用数据，无法判断医院是否已把它纳入编码工作流；检索到的市场对比条目多为通用 AI 页面，不能归因到该产品。
+    evidence_ids:
+    - ev-5682e9a4109f48bc
+    - ev-d8efbe26313e1910
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或买方，无法判断收入来自医院、编码外包商还是按病历计费；按产品形态推断买方应是医院收入周期部门，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d8efbe26313e1910
+  - gate: truth
+    status: insufficient
+    reason: 医疗编码对准确率与合规边界要求高，官网未说明人工复核流程、责任划分与安全边界，承诺能否确定性交付尚缺公开依据。
+    evidence_ids:
+    - ev-5682e9a4109f48bc
+  next_validation: 追踪 AKASA 官网客户案例或部署文档，确认其编码与文档产品的输入范围、准确率声明、人工复核流程与付费方式。
+  market: ''
+  job: 医院收入周期团队在患者就诊结束、病历完成后，处理临床文档与就诊记录，要完成合规编码和账单草稿的生成，再由编码员复核提交。
+  job_en: When a patient encounter closes and records are complete, a hospital revenue cycle team works
+    from clinical documentation and encounter records to produce compliant codes and bill drafts, which
+    coders then review and submit.
+  pain: 编码与文档依赖人工逐条阅读病历、逐条查编码表，耗时长且易出错；错误会带来拒付和合规风险，而编码员人手长期紧张。
+  pain_en: Coding and documentation require staff to read records line by line and look up code tables
+    one by one, which is slow and error-prone; mistakes cause denials and compliance risk, and coder staffing
+    is chronically tight.
+  current_alternative: 目前多由内部编码员或外包编码团队手工完成，辅以规则型编码软件。
+  current_alternative_en: Today this is mostly done manually by in-house coders or outsourced coding teams,
+    aided by rules-based coding software.
+  usage_reason: 推断：AKASA 用医院自有临床文档、病例组合和编码决策训练定制模型，直接产出可复核的编码与文档草稿，编码员因此省去逐条检索编码表这一步，人手紧张的医院会在编码积压时选择它；但公开材料未给出准确率、客户或付费证据，持续使用无法确认。
+  usage_reason_en: 'Inference: AKASA trains a custom model on the health system''s own clinical documentation,
+    case mix and coding decisions to produce reviewable coding and documentation drafts, so coders skip
+    the step of looking up code tables one by one; short-staffed hospitals would choose it when coding
+    backlogs build, but public material gives no accuracy, customer or payment evidence, so sustained
+    use cannot be confirmed.'

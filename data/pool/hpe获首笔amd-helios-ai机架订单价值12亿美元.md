@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFB6Qi1zYlJsNUlC
 summary: HPE获首笔AMD Helios AI机架订单价值12亿美元 t.cj.sina.cn
 first_seen: '2026-10-03T06:23:52Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

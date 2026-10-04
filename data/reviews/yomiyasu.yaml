@@ -130,3 +130,50 @@
     judgment burden; teams producing Japanese content at volume without native reviewers would pick it
     before publishing. No rewrite-quality or usage feedback is public, so whether it truly reduces human
     final review remains an inference.'
+- id: req-full-yomiyasu-2026-10-04
+  project_slug: yomiyasu
+  level: full
+  reviewed_at: '2026-10-04T01:06:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成日文不自然、发布前需人工逐句改写的问题，旧做法是人工校对或母语者审稿，不做的后果是内容不可直接发布；这是从产品说明与旧流程作出的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-03c3b93f9d0050e2
+    - ev-4776b11d3cd1c249
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 313 增至 1,316，只说明开源关注度上升，没有用户评价、案例或重复使用证据证明它被持续放进日文内容工作流。
+    evidence_ids:
+    - ev-03c3b93f9d0050e2
+    - ev-daf2f9d5ec4eb94b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是内容团队、本地化公司或独立编辑，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-03c3b93f9d0050e2
+  - gate: truth
+    status: insufficient
+    reason: 缺少改写质量评测与人工终审边界的说明，能否确定性交付可发布文本、安全与人工边界如何划分无法核对。
+    evidence_ids:
+    - ev-03c3b93f9d0050e2
+    - ev-4776b11d3cd1c249
+  next_validation: 追踪该仓库 README、示例对比与 issue/discussion，查找改写前后样例、质量评测及是否仍需人工终审的公开说明。
+  market: ''
+  job: 日文内容编辑、本地化人员或市场内容运营在拿到 AI 生成的日文草稿后，处理这些草稿文本，要完成把不自然表达改成可直接发布的自然日语这一任务。
+  job_en: Japanese content editors, localization staff, or marketing content operators take AI-generated
+    Japanese drafts and turn unnatural phrasing into publishable natural Japanese.
+  pain: AI 生成的日文常带不自然表达，逐句人工改写耗时；非母语者又难以判断哪里不自然，发布前必须有人兜底，这是内容交付前的真实卡点。
+  pain_en: AI-generated Japanese often carries unnatural phrasing; rewriting sentence by sentence is slow,
+    and non-native speakers struggle to spot what is unnatural, forcing a human backstop before publishing.
+  current_alternative: 现有做法是人工逐句校对、请母语者审稿，或反复让通用模型重写。
+  current_alternative_en: Current practice is manual sentence-by-sentence proofreading, hiring native
+    reviewers, or repeatedly asking a general model to rewrite.
+  usage_reason: 推断：相较人工逐句校对或反复重写，它把“找出不自然表达并改写”压缩成一次针对性推敲动作，减少逐句判断的负担，因此缺少母语审稿人、又要批量产出日文内容的编辑或本地化人员会在发布前选择它；公开材料尚无改写质量或使用反馈，是否真能减少人工终审未核验。
+  usage_reason_en: 'Inference: versus manual proofreading or repeated rewrites, it compresses ''find unnatural
+    phrasing and rewrite'' into one targeted refinement pass, cutting the burden of sentence-by-sentence
+    judgment, so editors or localization staff producing Japanese at volume without native reviewers would
+    pick it before publishing; no public rewrite-quality or usage feedback yet, so reduced human final
+    review is unverified.'

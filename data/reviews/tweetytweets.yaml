@@ -78,3 +78,53 @@
   usage_reason_en: 'The task is: Personal brand or small-team operators publishing content continuously
     on social platforms Public materials do not yet explain why users choose this product over their existing
     approach.'
+- id: req-full-tweetytweets-2026-10-04
+  project_slug: tweetytweets
+  level: full
+  reviewed_at: '2026-10-04T01:06:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是个人品牌/小团队在 X 上持续更新的任务：选题调研、按本人语气成稿、发布并回查。官方说明明确以“无需 API key、无需付费抓取、真实浏览器发布并自检”为卖点，指向接入门槛与发布确认这两个具体摩擦；不解决的后果是更新中断、账号停更。这是基于产品说明与工作流结构的推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-6d10d5af2e1e8bcd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 48，说明有开发者关注，但收藏与复刻只属关注度证据，不能证明目标运营者已把它留在日常发布流程里；公开材料没有使用反馈、issue 或案例说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-6d10d5af2e1e8bcd
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：仓库未公开定价页或付费入口，买方可能是自付的个人运营者，也可能是为小团队采购的负责人；目前看不到 to C 订阅、to B 席位或 to VC 之外的收入路径，单位经济无从核验。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+  - gate: truth
+    status: insufficient
+    reason: 官方称通过真实浏览器发布并自检，但公开材料未说明账号授权方式、内容审核环节、发布失败或平台风控时的处理，也未给出可复现的部署与运行记录，交付能否稳定发生仍缺证据。
+    evidence_ids:
+    - ev-6d10d5af2e1e8bcd
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开账号授权方式、部署步骤与发布失败处理，并观察是否出现真实使用者的运行反馈或案例。
+  market: ''
+  job: 个人品牌运营者或小团队社媒负责人需要在没有专职文案的情况下，围绕自己所在领域持续产出并发布 X/Twitter 帖子：先确定选题，再按本人语气成稿，最后在浏览器里完成发布并确认帖子真的发出去了。
+  job_en: 'A personal-brand operator or small-team social lead needs to keep publishing X/Twitter posts
+    in their niche without a dedicated copywriter: pick a topic, draft it in their own voice, then actually
+    publish it through a browser and confirm the post went out.'
+  pain: 公开材料支持的痛点是：持续更新需要反复做选题调研、按个人语气改写、手动登录发布并回查是否成功，这些步骤重复且容易中断；官方说明把“无需 API key、无需付费抓取、用真实浏览器发布并自检”作为卖点，说明现有路径在接入与发布确认上存在摩擦。
+  pain_en: The publicly supported pain is the repeated loop of niche research, voice-matched rewriting,
+    manual login-and-publish, and post-hoc checking whether the post actually went out; the official description
+    markets 'no API key, no paid scrapers, publishes through a real browser, and verifies its own posts,'
+    implying friction in access and publish confirmation in the current path.
+  current_alternative: 当前替代方式推断为：人工刷时间线找选题、自己或让 AI 助手写草稿、复制到 X 网页或客户端手动发布，再回看主页确认；或使用需要 API key 的第三方排程工具。
+  current_alternative_en: 'The current alternative is inferred to be: manually scanning the timeline for
+    topics, drafting by hand or with a general AI assistant, pasting into X web/app to publish manually,
+    then checking the profile to confirm; or using third-party schedulers that require an API key.'
+  usage_reason: 推断：相较手动发布或需 API key 的排程工具，它把“调研—按语气成稿—浏览器发布—回查结果”串成一条自动流水线，省掉逐条复制粘贴和登录发布这一步，并让发布结果可被程序确认；因此没有
+    API 权限、又需要稳定日更的个人运营者或小团队会选它。
+  usage_reason_en: 'Inference: versus manual posting or API-key schedulers, it chains research, voice-matched
+    drafting, browser publishing, and self-verification into one pipeline, removing the copy-paste-and-login
+    step and making publish success programmatically checkable; hence operators without API access who
+    need steady daily posting would pick it.'

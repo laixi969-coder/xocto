@@ -261,3 +261,56 @@
     builds plus a self-hosted team hub, removing the build-your-own collection and distribution step;
     inference: platform engineers who must audit agent cost per machine and session without handing usage
     data to a third party would choose it for that reason.'
+- id: req-full-agent-console-2026-10-04
+  project_slug: agent-console
+  level: full
+  reviewed_at: '2026-10-04T01:02:20Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理用量与花费分散、无法按机器和会话核对的需求，痛点是成本失控与无法交代；公开说明已能还原输入（各机器会话）、动作（本地优先汇总到自建中枢）与交付（按机器和会话的成本用量视图），属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-615ebdc21d52f836
+    - ev-9371b58b9b88f030
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 633 增至 797，说明开发者持续关注并把它纳入工具视野；但这是关注度证据，不能证明已长期留在工作流或形成付费共识，故只支持初步共识。
+    evidence_ids:
+    - ev-615ebdc21d52f836
+    - ev-c3f7973d59c73ac3
+  - gate: model
+    status: insufficient
+    reason: 项目为 MIT 开源，公开材料未给出定价页、付费主体或采购路径，to B 团队付费还是纯社区自用无法核验；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-615ebdc21d52f836
+  - gate: truth
+    status: supported
+    reason: 本地优先、自建团队中枢、Apple 签名公证构建与可验证发布，使交付边界可核对，数据不出本机也降低安全顾虑；但策略钩子的实际执行边界与人工干预点仍缺公开文档佐证。
+    evidence_ids:
+    - ev-9371b58b9b88f030
+    - ev-d0721640f52f5e1c
+  next_validation: 追踪 agent-console 官方仓库的 README、部署文档与 issue/discussion，确认自建团队中枢的部署方式、策略钩子执行边界，以及是否出现企业采购或付费支持的公开记录。
+  market: ''
+  job: 研发团队负责人与平台工程师在团队用 Claude Code、Codex 等编码代理写代码时，处理各机器上分散的会话记录，要把每台机器、每次会话的 token、缓存命中、所用模型和花费汇总到同一处，以便按机器和会话核对成本与用量。
+  job_en: Engineering team leads and platform engineers, while their team writes code with Claude Code
+    and Codex agents, take the session records scattered across machines and consolidate tokens, cache
+    hits, models used and cost per machine and per session into one place, so cost and usage can be checked
+    by machine and by session.
+  pain: 编码代理按 token 计费且缓存命中会显著改变单价，团队在本地和自建中枢上跑多个代理时，用量与花费分散在各机器、各会话，负责人无法回答“这个月钱花在哪台机器、哪个会话、哪个模型上”，也无法在演示或对外展示时隐藏敏感用量；不解决的后果是成本失控与无法向团队或上级交代。
+  pain_en: Coding agents bill by token and cache hits materially change unit price; when a team runs several
+    agents locally and through a self-hosted hub, usage and spend are scattered across machines and sessions,
+    so a lead cannot answer which machine, session or model the month's spend went to, nor hide sensitive
+    usage during a demo. The consequence of leaving it unsolved is uncontrolled cost and no accountable
+    answer to the team or management.
+  current_alternative: 当前替代方式是按各家代理自带的用量页或账单分别查看，或手工把日志、账单导出到表格里拼凑；跨机器、跨会话的合并视图需要自己写脚本或干脆不做。
+  current_alternative_en: Today teams check each vendor's own usage page or bill separately, or manually
+    export logs and bills into a spreadsheet; a merged cross-machine, cross-session view requires writing
+    scripts or is simply not done.
+  usage_reason: 推断：相较逐家代理查账单或手工拼表格，它把本地与自建团队中枢上各机器的会话数据自动汇总成按机器和会话可查的成本与用量视图，省掉逐台导出、逐会话对齐这一步；需要向团队或上级说明代理开销、或在演示时隐藏敏感用量的研发负责人与平台工程师，会在这种场景下选择它。
+  usage_reason_en: 'Inference: versus checking each agent''s bill or hand-assembling spreadsheets, it
+    automatically aggregates session data from every machine on the local setup and self-hosted team hub
+    into a cost-and-usage view queryable by machine and session, removing the per-machine export and per-session
+    reconciliation step; leads and platform engineers who must explain agent spend to the team or management,
+    or hide sensitive usage during a demo, would choose it in that situation.'

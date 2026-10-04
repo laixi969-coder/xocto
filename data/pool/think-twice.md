@@ -21,7 +21,7 @@ canonical_url: https://think-twice.me/public/rely
 summary: Factorio but with unreliable components
 first_seen: '2026-10-03T15:19:49Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

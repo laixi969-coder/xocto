@@ -30,7 +30,7 @@ summary: Muse is now available on the Mac, where it can work with your files and
   your behalf.
 first_seen: '2026-09-18T15:22:48Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

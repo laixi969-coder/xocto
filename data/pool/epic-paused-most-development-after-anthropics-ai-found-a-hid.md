@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPZU5lQ19yQ3Vz
 summary: Epic Paused Most Development After Anthropic's AI Found a Hidden MyChart Flaw Startup Fortune
 first_seen: '2026-10-02T20:23:36Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

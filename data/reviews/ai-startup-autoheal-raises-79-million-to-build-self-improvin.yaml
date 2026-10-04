@@ -1,0 +1,83 @@
+- id: req-initial-ai-startup-autoheal-raises-79-million-to-build-self-improvin-2026-10-04
+  project_slug: ai-startup-autoheal-raises-79-million-to-build-self-improvin
+  level: initial
+  reviewed_at: '2026-10-04T00:38:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决企业系统持续改进的需求，但公开材料未说明具体痛点、旧流程与交付物，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-e45f5a5a6e7245aa
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，无客户、采用或社区讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-e45f5a5a6e7245aa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自 to B 还是 to VC，仅知完成 790 万美元融资。
+    evidence_ids:
+    - ev-e45f5a5a6e7245aa
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其“自我改进软件工厂”的承诺能否确定性交付，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-e45f5a5a6e7245aa
+  next_validation: 收集 Autoheal 官方产品页或部署文档，确认其输入、交付物与是否披露客户案例。
+  market: ''
+  job: 企业研发团队在维护和迭代内部业务系统时，处理需求变更与遗留代码，需要完成系统持续改进并交付可用变更。
+  job_en: Enterprise engineering teams maintaining and iterating internal business systems handle requirement
+    changes and legacy code to keep systems improving and deliver usable changes.
+  pain: 公开材料未说明具体痛点，仅称面向企业构建自我改进软件工厂，无法确认旧流程中哪一步最痛。
+  pain_en: Public materials do not state a specific pain point, only that it builds a self-improving software
+    factory for enterprises, so the most painful step in the old workflow cannot be confirmed.
+  current_alternative: 公开材料未披露现有替代方式，按常理推断为企业内部研发团队或外包团队手工维护代码，此为推断。
+  current_alternative_en: Public materials disclose no current alternative; by inference this would be
+    in-house or outsourced engineering teams manually maintaining code, which is an inference.
+  usage_reason: 无法判断用户为何选择它：材料未说明它相较人工维护减少了哪一步负担或改善了哪项可核对结果，缺少交付物与使用场景证据。
+  usage_reason_en: 'Cannot determine why users would choose it: materials do not explain which step it
+    reduces versus manual maintenance or which verifiable result it improves, lacking evidence on deliverables
+    and use cases.'
+- id: req-full-ai-startup-autoheal-raises-79-million-to-build-self-improvin-2026-10-04
+  project_slug: ai-startup-autoheal-raises-79-million-to-build-self-improvin
+  level: full
+  reviewed_at: '2026-10-04T01:02:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决企业系统持续迭代的需求，但公开材料未说明具体痛点、旧流程与交付物，无法判断痛点是否刚性、交付能否确定。
+    evidence_ids:
+    - ev-e45f5a5a6e7245aa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Autoheal 官方产品页或部署文档，确认其输入、交付物、人工确认环节及是否披露客户案例。
+  market: ''
+  job: 企业研发团队在维护和迭代内部业务系统时，接收需求变更并修改既有代码，产出可交付的软件变更。
+  job_en: Enterprise engineering teams maintaining and iterating internal business systems receive requirement
+    changes, modify existing code, and produce deliverable software changes.
+  pain: 公开材料只称其为“自我改进软件工厂”，未说明遗留系统维护中具体哪一步最痛（如需求理解、回归测试或上线确认），痛点强度无法确认。
+  pain_en: Public materials only call it a 'self-improving software factory' and do not identify which
+    step of legacy-system maintenance hurts most (requirement understanding, regression testing, or release
+    confirmation), so pain intensity cannot be confirmed.
+  current_alternative: 公开材料未披露替代方式；按工作流推断，企业目前依靠内部研发或外包团队手工完成需求到代码的变更，此为推断。
+  current_alternative_en: Public materials disclose no alternative; by workflow inference, enterprises
+    currently rely on in-house or outsourced engineers to manually turn requirements into code changes,
+    which is an inference.
+  usage_reason: 无法判断用户为何选择它：材料未说明它相较人工维护减少了哪一步负担或改善了哪项可核对结果，缺少输入、交付物与人工确认环节的公开证据。
+  usage_reason_en: 'Cannot determine why users would choose it: materials do not explain which step it
+    reduces versus manual maintenance or which verifiable result it improves, lacking public evidence
+    on inputs, deliverables, and human confirmation.'

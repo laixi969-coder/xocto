@@ -1,6 +1,6 @@
 ---
 slug: siemens-and-procter-gamble-scale-ai-based-inspection
-name: Siemens and Procter & Gamble Scale AI-Based Inspection
+name: Siemens
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNa0NxY1VFaVRt
 summary: Siemens and Procter & Gamble Scale AI-Based Inspection Photonics Spectra
 first_seen: '2026-10-01T11:54:04Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Siemens and Procter & Gamble Scale AI-Based Inspection
+# Siemens
 
 Siemens and Procter & Gamble Scale AI-Based Inspection Photonics Spectra
 

@@ -1,0 +1,79 @@
+- id: req-initial-yubi-2026-10-04
+  project_slug: yubi
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决口述输入这一任务，但公开材料只有一句说明，说不清替代了哪一步旧工作、痛点是否刚性。
+    evidence_ids:
+    - ev-a6a9f1e370eaa62e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有可归因到该产品的采用、评价或讨论证据。
+    evidence_ids:
+    - ev-a6a9f1e370eaa62e
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱从哪来。
+    evidence_ids:
+    - ev-a6a9f1e370eaa62e
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也看不到安全与人工校对边界。
+    evidence_ids:
+    - ev-a6a9f1e370eaa62e
+  next_validation: 收集 Yubi 官方产品页或定价页，确认它支持哪些应用、是否按订阅或用量收费。
+  market: ''
+  job: Mac 用户在不方便打字的情况下，对着电脑口述内容，需要把想法变成已录入的文本。
+  job_en: A Mac user who cannot easily type dictates content to the computer and needs the idea turned
+    into entered text.
+  pain: 手打速度慢或手部不便时，输入成为瓶颈；但公开材料没有说明现有听写哪里不够用。
+  pain_en: Typing speed or hand strain makes input the bottleneck, but the public material does not say
+    where existing dictation falls short.
+  current_alternative: 系统自带听写、第三方语音转文字工具，或直接手打。
+  current_alternative_en: Built-in dictation, third-party speech-to-text tools, or simply typing.
+  usage_reason: 推断：若它能把语音直接落到当前光标位置、省去转写后再复制粘贴这一步，手部不便或长时间口述的用户会选它；公开材料未提供任何用户反馈或使用数据，无法确认这一差异是否成立。
+  usage_reason_en: 'Inference: if it places speech directly at the cursor and removes the copy-paste step
+    after transcription, users with hand strain or long dictation sessions would choose it; no user feedback
+    or usage data is public, so this difference cannot be confirmed.'
+- id: req-full-yubi-2026-10-04
+  project_slug: yubi
+  level: full
+  reviewed_at: '2026-10-04T01:06:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决口述输入任务，但公开材料只有一句说明，说不清替代了哪一步旧工作、痛点是否刚性，连需求与痛点都还原不出。
+    evidence_ids:
+    - ev-d2eb59f9c1d5774a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Yubi 官方产品页或定价页，确认它支持哪些 Mac 应用、是否按订阅或用量收费，以及是否列出客户案例。
+  market: ''
+  job: Mac 用户在不方便打字时对着电脑口述内容，需要把语音直接变成已录入的文本。
+  job_en: A Mac user who cannot easily type dictates content to the computer and needs speech turned directly
+    into entered text.
+  pain: 公开材料只有一句产品说明，未说明手打慢、手部不便或现有听写哪里不够用，痛点强度无法还原。
+  pain_en: The public material is a single product line and does not say where typing speed, hand strain,
+    or existing dictation falls short, so pain intensity cannot be reconstructed.
+  current_alternative: 系统自带听写、第三方语音转文字工具，或直接手打。
+  current_alternative_en: Built-in dictation, third-party speech-to-text tools, or simply typing.
+  usage_reason: 推断：若它能把语音直接落到当前光标位置、省去转写后再复制粘贴这一步，手部不便或长时间口述的用户会选它；但公开材料没有任何用户反馈或使用数据，无法确认这一差异是否成立。
+  usage_reason_en: 'Inference: if it places speech directly at the cursor and removes the copy-paste step
+    after transcription, users with hand strain or long dictation sessions would choose it; no user feedback
+    or usage data is public, so this difference cannot be confirmed.'

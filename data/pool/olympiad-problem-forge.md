@@ -21,7 +21,7 @@ canonical_url: https://github.com/tjayze/olympiad-problem-forge
 summary: Best Open-Source Math Olympiad Problem Generator 2026
 first_seen: '2026-09-21T21:16:38Z'
 last_seen: '2026-10-04T00:37:57Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

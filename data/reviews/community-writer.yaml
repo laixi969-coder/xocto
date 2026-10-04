@@ -86,3 +86,49 @@
     draft, contributors skip the step of assembling citations and wording from scratch, so high-frequency
     contributors may choose it when handling batches of flagged posts; however, public material shows
     no input format, rating feedback or usage record, so it is unconfirmed whether rework actually drops.'
+- id: req-full-community-writer-2026-10-04
+  project_slug: community-writer
+  level: full
+  reviewed_at: '2026-10-04T01:03:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社区注释贡献者依据平台来源材料起草合规注释的任务，痛点是引用与措辞规范严格、单条耗时长且不合规会被投票否决。公开仓库说明其为社区驱动的 AI 注释写作工具，可还原输入来源材料、输出注释草稿、由贡献者确认的闭环，属工作流结构推理；但输入格式与评分机制未披露。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 1 个星标，无用户评价、无采用或重复使用记录，无法判断贡献者是否真把它放进写作流程；关注度指标也不能替代持续采用证据。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+    - ev-a03c536067c5fc0d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或部署方式。社区注释属平台志愿场景，付费方可能是平台或机构，这是判断而非已验证事实，尚无公开付费路径。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  - gate: truth
+    status: insufficient
+    reason: 无法核验草稿能否通过社区投票，也未见人工复核与安全边界说明；注释是否被采纳取决于投票机制，交付确定性未知。
+    evidence_ids:
+    - ev-083d2b25da2b3ed7
+  next_validation: 追踪该仓库 README、提交记录与 issue/discussion，确认其输入材料格式、输出注释规范，以及是否有人报告实际提交与投票结果。
+  market: ''
+  job: 社区注释贡献者在看到一条被平台标记为可能误导的帖子时，需要依据平台提供的来源材料，写出一条符合引用与格式规范、能通过社区投票的背景注释并提交。
+  job_en: A Community Notes contributor, seeing a post flagged as potentially misleading, must draft a
+    citation- and format-compliant background note from platform-provided source material and submit it
+    for community voting.
+  pain: 注释写作有严格的引用与措辞规范，志愿者需反复查证来源、组织措辞，单条耗时长，且不合规的注释会被投票否决，导致返工。
+  pain_en: Note writing carries strict citation and wording rules, so volunteers repeatedly verify sources
+    and rephrase; each note is time-consuming and non-compliant drafts get rejected by vote, forcing rework.
+  current_alternative: 贡献者目前主要人工阅读来源、手写注释，或用通用聊天助手起草后再自行改写以符合规范。
+  current_alternative_en: Contributors currently read sources and hand-write notes, or draft with a general
+    chat assistant and then rewrite it themselves to fit the rules.
+  usage_reason: 推断：相较人工从零组织引用与措辞，该工具若直接读取平台来源材料并输出符合注释规范的草稿，可省去贡献者自行拼装引用与措辞的一步，因此高频贡献者在批量处理被标记帖子时可能选择它；但公开材料未给出输入格式、评分反馈或任何使用记录，是否真减少返工仍属推断。
+  usage_reason_en: 'Inference: versus assembling citations and wording from scratch by hand, the tool,
+    if it reads platform source material and outputs a note-format draft, removes the step of manually
+    assembling citations and phrasing, so high-frequency contributors handling many flagged posts may
+    choose it; however, public material shows no input format, rating feedback or usage record, so reduced
+    rework remains an inference.'

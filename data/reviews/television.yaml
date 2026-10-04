@@ -79,3 +79,43 @@
   usage_reason: 用户要完成的任务是：开发者调试与观察 AI 编码代理的执行过程；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers debugging and observing AI coding agent runs Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-television-2026-10-04
+  project_slug: television
+  level: full
+  reviewed_at: '2026-10-04T01:05:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称是 AI 编码代理的图形界面，但全部证据均为电视机硬件与电视媒介的百科和零售页面，无法还原用户任务、痛点、旧替代与不解决的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-3d0e23d581f733c9
+    - ev-4f791e196488f454
+    - ev-ea3fcae1dc0749d5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README 与 releases 页面，确认其支持的代理类型、安装方式与真实使用说明，以判断是否存在可还原的用户任务。
+  market: ''
+  job: 开发者运行 AI 编码代理时，打开该 GUI 查看代理会话的命令行输出与执行过程，形成可浏览的执行记录。
+  job_en: Developers running AI coding agents open this GUI to view the agent session's command-line output
+    and execution trace as a browsable record.
+  pain: 公开证据未提供任何关于该产品使用者的痛点材料；现有证据全部指向电视机硬件与电视媒介，与 AI 编码代理调试无关。
+  pain_en: Public evidence contains no pain material about this product's users; all available evidence
+    concerns television hardware and the television medium, unrelated to AI coding agent debugging.
+  current_alternative: 公开材料未说明开发者目前如何观察代理执行过程（如终端日志、代理自带 TUI 或 IDE 集成），无法确认它替代了什么。
+  current_alternative_en: Public materials do not show how developers currently observe agent runs (terminal
+    logs, agent-native TUI, or IDE integration), so what it replaces cannot be established.
+  usage_reason: 无法判断：缺少该产品自身的官方说明、文档或用户反馈，无法说明相较旧做法减少了哪一步负担，因此不构成使用理由。
+  usage_reason_en: 'Cannot be determined: there is no product-specific documentation or user feedback
+    to explain which step it removes versus the old approach, so no usage reason can be stated.'

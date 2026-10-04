@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE5qZmtzY3ZsZmlm
 summary: AI青科 | 从 “融资难” 到 “供货广汽”： 一颗氮化镓 “金种子” 的破土记 温州新闻
 first_seen: '2026-10-03T00:38:11Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

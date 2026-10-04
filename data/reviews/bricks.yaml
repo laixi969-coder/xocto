@@ -1,0 +1,88 @@
+- id: req-initial-bricks-2026-10-04
+  project_slug: bricks
+  level: initial
+  reviewed_at: '2026-10-04T00:37:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 生成组件不符合项目约定的问题，痛点方向可辨，但只有项目自述，缺少旧流程与不采用后果的公开事实。
+    evidence_ids:
+    - ev-37fb6857b99136c8
+  - gate: consensus
+    status: insufficient
+    reason: 仅 148 颗星且无 issue、无 fork，无法判断是否有真实使用者在工作流中采用。
+    evidence_ids:
+    - ev-37fb6857b99136c8
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方是团队还是个人无法判断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-37fb6857b99136c8
+  - gate: truth
+    status: insufficient
+    reason: 契约能否确定性约束生成结果、人工确认边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-37fb6857b99136c8
+  next_validation: 收集该仓库的 issue、discussion 与提交记录，确认是否有外部团队在真实项目中接入并反馈生成结果是否符合约定。
+  market: ''
+  job: 前端工程师在已有代码库中让 AI 生成界面组件时，需要处理项目自身的实现约定与既有组件风格，产出能直接并入项目的组件代码。
+  job_en: A frontend engineer letting AI generate interface components inside an existing codebase must
+    handle the project's own implementation contracts and existing component style to produce component
+    code that can be merged directly.
+  pain: AI 生成的组件往往不符合项目既有约定，工程师仍需逐处改写，生成结果与工程规范之间的落差是主要痛点；该痛点强度目前只有项目自述支持。
+  pain_en: AI-generated components often violate existing project conventions, forcing engineers to rewrite
+    them piece by piece; the gap between generated output and engineering standards is the main pain,
+    though its intensity is supported only by the project's own description.
+  current_alternative: 工程师目前多依赖通用代码助手生成组件后手工调整，或直接照抄设计系统文档与既有组件改写。
+  current_alternative_en: Engineers currently rely on general code assistants and then hand-adjust the
+    output, or copy from design-system docs and existing components.
+  usage_reason: 推断：相较通用助手先生成再人工改写，它把项目实现约定作为输入前置，可能减少逐处对齐规范这一步；但缺少用户反馈与采用证据，尚不能确认工程师会因此长期使用。
+  usage_reason_en: 'Inference: compared with generating via a general assistant and then rewriting by
+    hand, it feeds project implementation contracts in upfront, potentially removing the step of aligning
+    each piece to conventions; without user feedback or adoption evidence, it is unconfirmed that engineers
+    would keep using it.'
+- id: req-full-bricks-2026-10-04
+  project_slug: bricks
+  level: full
+  reviewed_at: '2026-10-04T01:03:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 AI 生成组件不符合项目实现约定的问题，但公开证据只有项目自述，无旧流程、无用户抱怨、无替代行为，连需求与痛点都难以还原，属自述拼凑。
+    evidence_ids:
+    - ev-dd531185c3ce77e0
+    - ev-15c6a046734717d2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否公开说明实现约定的输入格式、生成结果校验方式及外部团队接入记录。
+  market: ''
+  job: 前端工程师在已有代码库中让 AI 生成界面组件时，需要把项目自身的实现约定与既有组件风格作为输入，产出可直接并入项目的组件代码。
+  job_en: A frontend engineer letting AI generate interface components inside an existing codebase must
+    feed the project's own implementation contracts and existing component style into the generation step
+    to produce component code that can be merged directly.
+  pain: 公开材料只有项目自述，未提供任何工程师抱怨、旧流程记录或客户案例，无法确认 AI 生成组件不符合项目约定这一痛点真实存在及其强度。
+  pain_en: Public material contains only the project's own description, with no engineer complaints, legacy-workflow
+    records, or customer cases, so it cannot be confirmed that the pain of AI-generated components violating
+    project conventions actually exists or how intense it is.
+  current_alternative: 公开材料未说明工程师当前用什么方式绕过该问题，通用代码助手加人工改写只是推测，没有可引用的替代行为证据。
+  current_alternative_en: Public material does not state how engineers currently work around the problem;
+    general code assistants plus manual rewriting is only speculation, with no citable substitute-behavior
+    evidence.
+  usage_reason: 推断：若项目实现约定真能作为输入前置，可能减少逐处对齐规范这一步，但缺少用户反馈、采用或交付结果证据，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if project implementation contracts could truly be fed in upfront, it might
+    remove the step of aligning each piece to conventions, but without user feedback, adoption, or delivery-outcome
+    evidence, it cannot be said which users would choose it under what circumstances.'

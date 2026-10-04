@@ -1,6 +1,6 @@
 ---
 slug: space-tech-startup-satlyt-secures-8-million-to-build-virtual
-name: Space-tech startup Satlyt secures $8 million to build virtual AI data centres in space
+name: Satlyt
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb1BnNDdiWjJx
 summary: Space-tech startup Satlyt secures $8 million to build virtual AI data centres in space innovation-village.com
 first_seen: '2026-10-02T14:22:26Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Space-tech startup Satlyt secures $8 million to build virtual AI data centres in space
+# Satlyt
 
 Space-tech startup Satlyt secures $8 million to build virtual AI data centres in space innovation-village.com
 

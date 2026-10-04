@@ -21,7 +21,7 @@ canonical_url: https://thoreaubasic.com
 summary: What if BASIC hadn't gone out of fashion?
 first_seen: '2026-10-03T07:28:54Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

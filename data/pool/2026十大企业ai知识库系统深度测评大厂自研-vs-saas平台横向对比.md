@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFA0U3o1MEthRllW
 summary: 2026十大企业AI知识库系统深度测评，大厂自研 vs SaaS平台横向对比 财富号
 first_seen: '2026-10-03T23:38:00Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

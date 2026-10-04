@@ -661,3 +661,43 @@
   usage_reason_en: The repository has 209 stars and 4 forks, showing developer attention, but stars and
     forks are attention signals only; they do not explain why users choose it or prove sustained use,
     and no user feedback or case supports a motive.
+- id: req-full-agent-skills-collection-2026-10-04
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-04T01:02:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue/discussion 与发布说明，确认技能如何被调用、交付什么结果，以及安装流程是否仍要求关闭杀毒与管理员权限。
+  market: ''
+  job: 公开材料只给出“给 AI 助手装技能”这一笼统说法，未说明谁在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material only gives the vague claim of 'adding skills to an AI assistant' and does not
+    say who, in what situation, handling what material, to complete what task, so no concrete usage scenario
+    can be reconstructed.
+  pain: 唯一可读的公开线索是安装过程要求关闭杀毒软件并以管理员权限运行安装包，这本身是安装摩擦而非用户任务痛点；公开材料没有说明不解决该问题的具体代价、发生频率或后果。
+  pain_en: The only readable public clue is that installation asks users to turn off antivirus and run
+    a setup file as administrator, which is installation friction rather than a user-task pain; public
+    material does not show the cost, frequency or consequence of leaving the problem unsolved.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了什么做法。
+  current_alternative_en: Public material does not show how users complete this job today or what practice
+    it actually replaces.
+  usage_reason: 无法给出因果解释：材料既未说明技能如何被调用、交付什么结果，也未说明相较旧做法减少哪一步负担；仓库收藏与复刻只反映关注度，不能解释用户为何选择它。
+  usage_reason_en: 'No causal explanation can be given: the material does not say how skills are invoked,
+    what result is delivered, or which step''s burden is reduced versus the old way; repository stars
+    and forks reflect attention only and cannot explain why users choose it.'

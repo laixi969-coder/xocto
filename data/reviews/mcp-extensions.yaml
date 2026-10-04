@@ -187,3 +187,58 @@
     removing one jump and the need to re-describe context. Developers already integrating with ChatGPT
     would choose it when they need results delivered inside the chat. Public materials do not yet show
     retention or repeat-use evidence.'
+- id: req-full-mcp-extensions-2026-10-04
+  project_slug: mcp-extensions
+  level: full
+  reviewed_at: '2026-10-04T01:04:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是第三方把功能接入 ChatGPT 对话流、让用户在对话内直接调用的问题；旧做法是自定义 GPT、Actions 或复制粘贴到外部工具，割裂且需自行处理鉴权与上架，不接入就失去对话内入口。仓库说明与
+      star 从 225 增至 727 表明开发者已在按此机制动手，属结构推理加公开行为，非采用留存证据。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+    - ev-01bcc78c6e331646
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 225 涨到 727，说明开发者关注度在上升，但这是关注度而非持续采用；公开材料没有插件上架数量、调用量或开发者复投证据，无法判断共识是否已跨过感知与场景环节。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+    - ev-adfbae04ef150bfc
+    - ev-01bcc78c6e331646
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出插件审核、计费与分成规则，谁付钱（开发者、企业客户还是 OpenAI 自身补贴）无法核验；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅有说明与 star，没有部署文档、审核标准或安全边界说明，承诺能否确定性交付、人工介入与权限边界尚缺可复现公开证据。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+    - ev-adfbae04ef150bfc
+  next_validation: 追踪 openai/mcp-extensions 仓库的 README、提交规范与 issue/discussion，确认插件审核流程、可用范围与是否出现真实上架案例。
+  market: ''
+  job: 第三方开发者（独立开发者或 SaaS 团队）在希望把自家服务接入 ChatGPT 对话流时，按 OpenAI 的扩展机制编写插件并提交，让终端用户在对话内直接调用该功能，而无需离开 ChatGPT
+    去打开另一个网页或应用。
+  job_en: Third-party developers (indie or SaaS teams) who want their service reachable inside ChatGPT
+    write a plugin against OpenAI's extension mechanism and submit it, so end users can invoke that capability
+    directly in the conversation without leaving ChatGPT for another site or app.
+  pain: 此前把能力接入 ChatGPT 只能靠自定义 GPT、Actions 或让用户复制粘贴到外部工具，插件呈现割裂、分发入口分散，开发者要自己解决鉴权、调用与上架流程；不接入则意味着放弃对话内这一高频入口，用户每完成一次任务都要多一次跳出与手工搬运。
+  pain_en: Before this, wiring a capability into ChatGPT meant custom GPTs, Actions, or asking users to
+    copy-paste into external tools; plugin presentation was fragmented and distribution scattered, and
+    developers had to solve auth, invocation and listing themselves. Not integrating means giving up the
+    in-conversation entry point, forcing users to jump out and manually move data on every task.
+  current_alternative: 开发者目前用自定义 GPT、GPT Actions、MCP 服务器或直接做独立网页/浏览器插件接入；用户侧则靠复制粘贴、切换标签页或另开一个 SaaS 工具完成同一件事。
+  current_alternative_en: Developers today use custom GPTs, GPT Actions, MCP servers, or standalone web
+    apps and browser extensions; on the user side the workaround is copy-paste, tab switching, or opening
+    a separate SaaS tool for the same task.
+  usage_reason: 推断：相较自建网页或让用户复制粘贴，该机制让开发者用一套官方接口把功能注册进 ChatGPT，由平台负责呈现与调用入口，用户在同一对话内完成操作，省去跳出与手工搬运这一步；因此希望触达
+    ChatGPT 存量用户、又不想自建对话前端的开发者会在需要对话内交付能力时选择它。
+  usage_reason_en: 'Inference: versus building a standalone site or asking users to copy-paste, this mechanism
+    lets developers register a capability through one official interface while the platform handles presentation
+    and invocation, so users act inside the same conversation and skip the jump-out and manual-transfer
+    step. Developers who want to reach ChatGPT''s existing users without building their own chat front
+    end would choose it when the capability must be delivered in-conversation.'

@@ -234,3 +234,58 @@
     CLI and MCP interfaces so an AI assistant or script can issue requests and receive structured results
     directly, removing the manual copy-and-reformat step; analysts who need SEO data inside automated
     workflows or AI assistants would choose it in that situation.'
+- id: req-full-semrush-ai-tool-2026-10-04
+  project_slug: semrush-ai-tool
+  level: full
+  reviewed_at: '2026-10-04T01:05:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 分析师批量获取关键词、域名与外链数据的需求，痛点是网页后台逐条查询与手工搬运无法被脚本或 AI 助手复用；公开仓库说明其把查询包装为 CLI 与 MCP 接口，属工作流结构推理，用户抱怨与频率尚无公开证据。
+    evidence_ids:
+    - ev-64a212103f2aac12
+    - ev-119a4d9a8d38f806
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数在 52 至 128 之间波动，说明有开发者关注，但收藏只属关注度证据，不能证明目标用户持续使用或形成稳定工作流；公开材料未见 issue、discussion 或用户评价说明实际采用场景。
+    evidence_ids:
+    - ev-64a212103f2aac12
+    - ev-ce38a2c19eeb4cac
+    - ev-c0a3abdabeed921d
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费记录或采购信息，无法判断钱来自 to C 订阅、to B 团队采购还是仅靠捐赠与关注度；买方与单位经济均未核验，属商业证据缺口。
+    evidence_ids:
+    - ev-64a212103f2aac12
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明它与 Semrush 官方 API 的授权关系、可用范围与配额限制，也未提供部署文档或可复现测试，因此交付能否稳定发生、以及数据合规与人工判断边界尚不可核验。
+    evidence_ids:
+    - ev-64a212103f2aac12
+    - ev-119a4d9a8d38f806
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否披露 Semrush API 授权方式、部署文档与真实使用场景，以核验交付确定性与采用证据。
+  market: ''
+  job: SEO 分析师或内容营销运营在需要批量获取关键词量、域名流量与外链数据时，原本要打开 Semrush 网页后台逐条查询、手工复制表格，现在通过这个 MCP server/CLI 让 AI 助手或脚本直接调用并拿到结构化结果，再自行判断数据含义。
+  job_en: An SEO analyst or content marketing operator who needs bulk keyword volume, domain traffic and
+    backlink data would otherwise open the Semrush web dashboard and query and copy rows one by one; this
+    MCP server/CLI lets an AI assistant or script call the data directly and receive structured results,
+    leaving interpretation to the user.
+  pain: 公开事实只说明该工具把关键词、域名、外链查询包装成 CLI 与 MCP 接口；从工作流结构推理，痛点是网页后台逐条查询与手工搬运数据无法被脚本或 AI 助手复用，重复劳动多且难以嵌入自动化分析流程，但公开材料未给出用户抱怨或频率数据。
+  pain_en: Public facts only show the tool wraps keyword, domain and backlink queries into a CLI and MCP
+    interface; by workflow inference the pain is that dashboard-by-dashboard querying and manual data
+    copying cannot be reused by scripts or AI assistants, creating repetitive work that is hard to embed
+    in automated analysis, though public materials give no user complaints or frequency data.
+  current_alternative: 当前替代方式是直接使用 Semrush 官方网页后台逐条查询并手工导出，或自行编写调用 Semrush API 的脚本；公开材料未说明用户此前是否已有其他 MCP
+    封装可用。
+  current_alternative_en: The current alternative is querying and manually exporting from the official
+    Semrush web dashboard, or writing custom scripts against the Semrush API; public materials do not
+    show whether other MCP wrappers were already available.
+  usage_reason: 推断：相较网页后台逐条查询，该工具把查询动作变成 AI 助手或脚本可直接调用的接口，省去手工打开页面、复制粘贴和格式整理这几步，因此需要把 SEO 数据接入自动化分析或 AI
+    工作流的分析师会在批量取数场景下选择它；但公开材料没有用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus querying the web dashboard item by item, the tool turns the query
+    action into an interface callable by an AI assistant or script, removing the manual steps of opening
+    pages, copy-pasting and reformatting, so analysts who need SEO data inside automated or AI workflows
+    would choose it for bulk retrieval; however, public materials contain no user feedback or case confirming
+    this motive.'

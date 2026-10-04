@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZcHpZaUxseTR4
 summary: SFA Maps Evolution of AI Robotics After 40 Years in Automation thelec.net
 first_seen: '2026-10-01T09:31:16Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

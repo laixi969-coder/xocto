@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxORkczcTVmTTBt
 summary: 'The Hook: AI Search Is Changing Digital Marketing. How Can Brands Get Recommended? NDTV Profit'
 first_seen: '2026-10-03T03:11:49Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

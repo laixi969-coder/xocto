@@ -136,3 +136,50 @@
     Codex, so users no longer rebuild prompts and align style by hand each time; teams shipping video
     by the unit at high frequency are the likely first adopters. Public material shows no retention or
     repeat-use evidence, so it cannot be said to be embedded in workflows long term.'
+- id: req-full-reelmimic-2026-10-04
+  project_slug: reelmimic
+  level: full
+  reviewed_at: '2026-10-04T01:05:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按参考片复刻视频风格这一具体任务，痛点是从零调提示词、逐段生成再手工拼接导致风格漂移与返工，旧替代是通用生成工具加人工剪辑或外包；不解决的后果是单条出片成本高，属工作流结构推理。
+    evidence_ids:
+    - ev-4a3cb63f255158f2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 350 升至 1,097 只反映关注度增长，不是持续采用；缺少用户评价、客户案例或 issue 说明谁在什么场景反复使用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-4a3cb63f255158f2
+    - ev-de6456d73dcb23f7
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，按成片条数或订阅收费只是推断而非已验证事实；谁付钱尚不清楚，属判断而非事实。
+    evidence_ids:
+    - ev-4a3cb63f255158f2
+  - gate: truth
+    status: insufficient
+    reason: 风格一致性、成片可直接投放的程度以及人工确认边界均未在公开材料中给出可核对结果，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-4a3cb63f255158f2
+  next_validation: 追踪该仓库的 issue、discussion 或 README 示例，核对是否有用户贴出成片与参考片的风格一致性对比及人工修改量。
+  market: ''
+  job: 短视频创作者或营销人员拿到一条喜欢的参考视频后，需要产出一条风格一致的新视频，用于投放或发布。
+  job_en: Short-video creators or marketers who, after picking a reference video they like, need to produce
+    a new video in a consistent style for publishing or ad delivery.
+  pain: 公开材料只说明它按参考片复刻风格，未给出用户抱怨或返工数据；从工作流看，风格复刻通常靠反复调提示词、逐段生成再手工剪辑，风格易漂移、单条成本高，这是结构推理而非用户口述。
+  pain_en: Public material only states that it replicates a reference video's style; no user complaints
+    or rework data are given. Structurally, style replication usually means repeated prompt tweaking and
+    piecewise generation plus manual editing, so style drifts and per-video cost stays high — this is
+    inference, not user testimony.
+  current_alternative: 通用视频生成工具逐段生成后人工剪辑拼接，或外包给剪辑师按参考片模仿。
+  current_alternative_en: Generating clips piecewise with general video tools and editing them together
+    by hand, or outsourcing to an editor who imitates the reference video.
+  usage_reason: 推断：它把“看参考片—拆风格—生成—评审”串成一条由 Claude Code 或 Codex 执行的流程，用户不必每次从零调提示词并逐段拼接，因此高频按条出片的投放或内容团队会先试用；公开材料没有留存或复购证据，不能说明它已被长期留在工作流里。
+  usage_reason_en: 'Inference: it chains reference-watching, style breakdown, generation and review into
+    one pipeline run by Claude Code or Codex, so users no longer rebuild prompts and stitch clips from
+    scratch each time; teams shipping video by the unit at high frequency are the likely first adopters.
+    Public material shows no retention or repeat-use evidence, so it cannot yet be said to be embedded
+    in workflows long term.'

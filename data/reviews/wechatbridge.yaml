@@ -182,3 +182,51 @@
     and delivery into one step, removing item-by-item transfer and format cleanup, so content creators
     or researchers who need to sediment WeChat conversations as material would choose it during organizing;
     public material shows no retention or repeat-use evidence yet.'
+- id: req-full-wechatbridge-2026-10-04
+  project_slug: wechatbridge
+  level: full
+  reviewed_at: '2026-10-04T01:06:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微信聊天记录难以取出并进入笔记与 AI 工作流的问题，旧做法是手工复制粘贴或截图，痛点具体、不采用则归档与素材整理成本持续存在；这是基于产品说明与旧流程的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-b73cb33d284b2e96
+    - ev-d96b8c18d50bee9e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 877 升至 1,028 只反映开源关注度增长，没有用户评价、案例或讨论说明谁在什么场景下持续使用，无法确认共识已形成。
+    evidence_ids:
+    - ev-b73cb33d284b2e96
+    - ev-8a99182ecfbd917f
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与 star 数，未披露定价、付费路径或买方类型；to C 个人付费或 to VC 融资均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-c8cef37982078df8
+  - gate: truth
+    status: insufficient
+    reason: 未说明导出范围、格式、隐私处理与人工确认边界，承诺能否确定性交付无法核对；微信数据本地处理的安全边界也缺少公开说明。
+    evidence_ids:
+    - ev-b73cb33d284b2e96
+  next_validation: 追踪该仓库的 issue 与 discussion，核验导出范围、隐私处理方式、人工确认边界及用户实际使用反馈。
+  market: ''
+  job: 个人用户或内容创作者在 macOS 上整理微信对话素材时，把特定聊天记录导出并投递到 AI Agent 与 Obsidian，用于生成可继续处理的文本与长期归档。
+  job_en: Individual users or content creators on macOS, when organizing WeChat conversation material,
+    export specific chat records and deliver them to an AI Agent and Obsidian for further processing and
+    long-term archiving.
+  pain: 微信聊天记录封闭在应用内，手工复制粘贴或截图搬进笔记与 AI 工具费时、易丢上下文，长对话尤其难以维持归档。
+  pain_en: WeChat chat records are locked inside the app; manually copying or screenshotting them into
+    notes and AI tools is time-consuming, loses context, and makes long conversations hard to archive
+    consistently.
+  current_alternative: 此前用户靠手工复制粘贴、截图或第三方导出脚本把聊天内容搬进笔记与 AI 工具。
+  current_alternative_en: Previously users relied on manual copy-paste, screenshots, or third-party export
+    scripts to move chat content into notes and AI tools.
+  usage_reason: 推断：相较手工逐条搬运，该工具把导出与投递合并为一步，省去复制、格式整理与手动粘贴到 Obsidian 的环节，因此需要长期归档对话的内容创作者或研究者会在整理素材时选择它；仓库
+    star 从 877 增至 1,028 只说明关注度上升，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with item-by-item manual transfer, the tool merges export and
+    delivery into one step, removing copying, format cleanup, and manual pasting into Obsidian, so content
+    creators or researchers who archive conversations long-term would choose it when organizing material;
+    the star rise from 877 to 1,028 shows attention, not sustained use.'

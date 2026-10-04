@@ -77,3 +77,44 @@
   usage_reason: 用户要完成的任务是：软件工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software engineers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-bise-2026-10-04
+  project_slug: bise
+  level: full
+  reviewed_at: '2026-10-04T01:02:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅一句「面向人类的多代理运行框架」，未交代用户任务、输入材料、执行动作与交付物，也写不出痛点与现有替代，连需求本身都无法还原。
+    evidence_ids:
+    - ev-28fc44f7a3bf037e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bise.dev 官网与仓库 README/文档，确认是否公开具体使用场景、输入输出示例、部署方式与定价或客户案例。
+  market: ''
+  job: 公开材料只给出「面向人类的多代理运行框架」这一句，无法确定谁在什么情况下、处理什么材料、要完成什么任务；没有可还原的工作节点与交付物。
+  job_en: Public material offers only the phrase 'a multi-agent harness, made for humans'; it is impossible
+    to identify who, in what situation, handling what material, completes what task, and no work step
+    or deliverable can be reconstructed.
+  pain: 公开材料没有描述任何用户痛点、失败代价或现有做法的摩擦，只有一句产品定位语，无法判断痛点是否存在及其刚性。
+  pain_en: Public material describes no user pain, failure cost, or friction in existing practice — only
+    a one-line positioning statement — so the existence and rigidity of any pain cannot be judged.
+  current_alternative: 公开材料未说明用户今天用什么方式完成多代理编排（自建脚本、LangChain/CrewAI 类框架或手工调度），因此无法确定它替代了什么。
+  current_alternative_en: Public material does not state how users orchestrate multi-agent work today
+    (custom scripts, LangChain/CrewAI-style frameworks, or manual scheduling), so what it replaces is
+    unknown.
+  usage_reason: 缺少任何用户反馈、案例或采用证据，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果；仅凭一句定位语不能推断选择动机。
+  usage_reason_en: With no user feedback, case, or adoption evidence, there is no way to explain which
+    step it removes or which checkable result it improves versus the old approach; a one-line positioning
+    statement cannot support a choice motive.

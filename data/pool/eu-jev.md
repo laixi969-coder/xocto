@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/bevel-software
 summary: The first Jev-like model hosted in the EU
 first_seen: '2026-10-02T13:47:50Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

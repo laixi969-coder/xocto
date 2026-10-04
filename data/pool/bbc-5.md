@@ -21,7 +21,7 @@ canonical_url: https://bbc.com/news/articles/cwgkvygg5nzvo
 summary: US killer's sentence quashed because of AI video of victim shown in court
 first_seen: '2026-10-03T13:34:18Z'
 last_seen: '2026-10-04T00:37:53Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

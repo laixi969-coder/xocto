@@ -76,3 +76,53 @@
   usage_reason: 用户要完成的任务是：知识工作者、法务与合规人员、研究助理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Knowledge workers, Legal and compliance staff, Research assistants Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-inkdoc-2026-10-04
+  project_slug: inkdoc
+  level: full
+  reviewed_at: '2026-10-04T01:04:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 PDF、扫描件和 Office 文档转成 AI 可用 Markdown 的需求，痛点是原始格式无法直接投喂模型、云端转换又有隐私顾虑；本地处理与多引擎组合在结构上能减少上传和人工清理环节，属于工作流推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-ecc0e65f9444a964
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录显示收藏数从 41 增至 44，说明有开发者关注，但这是关注度而非持续采用证据；没有用户评价、issue 讨论或客户案例说明谁在什么场景下反复使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-ecc0e65f9444a964
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入模式，无法判断是 to C 桌面授权、to B 采购还是开源免费；这是商业证据缺口，不反推需求不存在，但当前无法核验付费路径。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  - gate: truth
+    status: insufficient
+    reason: 产品说明列出 MarkItDown、Docling、GLM-OCR 等引擎，但公开材料未说明转换质量、人工校对边界、扫描件识别准确率或安全边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-ecc0e65f9444a964
+  next_validation: 追踪 InkDoc 官方仓库的 issue 与 discussion，确认是否有用户报告具体转换场景、失败案例或替代旧流程的使用记录。
+  market: ''
+  job: 知识工作者、法务或研究助理在需要把一批 PDF、扫描件和 Office 文档投喂给 AI 或检索系统时，用本地桌面应用把这些文件转成干净、结构完整的 Markdown 文本，再交给下游模型或索引流程。
+  job_en: Knowledge workers, legal staff, or research assistants who need to feed a batch of PDFs, scans,
+    and Office documents into AI or retrieval systems use a local desktop app to convert them into clean,
+    well-structured Markdown before passing them downstream.
+  pain: 公开材料显示的核心痛点是：原始 PDF、扫描件和 Office 文档不能直接作为 AI 可用的干净文本，用户必须先做格式转换；而把敏感文档上传到云端转换又带来隐私顾虑，本地处理正是为回避这一环节。
+  pain_en: 'The public description points to a concrete pain: raw PDFs, scans, and Office files are not
+    clean AI-ready text, so users must convert formats first; uploading sensitive documents to cloud converters
+    raises privacy concerns, which local processing is designed to avoid.'
+  current_alternative: 当前替代方式包括手工复制粘贴、用通用 PDF 转文本工具再人工清理版面，或把文件上传到云端转换服务；公开材料未说明这些替代方式的具体使用频率与失败率。
+  current_alternative_en: Current alternatives include manual copy-paste, generic PDF-to-text tools followed
+    by manual cleanup, or uploading files to cloud conversion services; public materials do not state
+    the frequency or failure rate of these alternatives.
+  usage_reason: 推断：相较手工复制或云端转换，InkDoc 在本地一次性调用 MarkItDown、Docling、GLM-OCR 等把版面与文字直接输出为 Markdown，省去上传步骤和部分人工清理；注重文档隐私、且需要批量喂给模型的知识工作者或法务人员会在这种情况下选择它。这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: 'Inference: compared with manual copy-paste or cloud conversion, InkDoc runs MarkItDown,
+    Docling, GLM-OCR and similar tools locally to output Markdown directly from layout and text, removing
+    the upload step and some manual cleanup; privacy-sensitive knowledge workers or legal staff who batch-feed
+    documents to models would choose it in that situation. This is inferred from product capability and
+    task structure, not confirmed by user feedback.'

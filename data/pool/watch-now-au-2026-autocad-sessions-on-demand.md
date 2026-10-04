@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQRVlhaHJKdzl2
 summary: 'Watch Now: AU 2026 AutoCAD Sessions On Demand Autodesk'
 first_seen: '2026-10-02T15:17:56Z'
 last_seen: '2026-10-04T00:38:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -291,3 +291,53 @@
     auto-organizes postings and application records and outputs a follow-up list, removing the step of
     transcribing each email and updating a sheet by hand; privacy-conscious mass applicants would choose
     it for this.'
+- id: req-full-recruitops-agent-2026-10-04
+  project_slug: recruitops-agent
+  level: full
+  reviewed_at: '2026-10-04T01:05:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量求职时职位情报与投递记录分散、重复填写和跟进遗漏的问题，痛点来自多站点手工操作这一刚性流程；本地读取材料并产出可跟进清单的交付闭环在结构上成立，属工作流推理，尚无用户抱怨或频率数据佐证强度。
+    evidence_ids:
+    - ev-d7089624462645fe
+    - ev-d004dcbd650da707
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 104 增至 121，说明开发者社区持续关注，但收藏与复刻只反映关注度，不能证明目标求职者已把它留在投递工作流中持续使用。
+    evidence_ids:
+    - ev-d7089624462645fe
+    - ev-801e7b8c39198eec
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价、付费主体或单位经济，谁付钱尚不清楚；本地优先的开源形态可能靠个人订阅或企业招聘方付费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d004dcbd650da707
+  - gate: truth
+    status: insufficient
+    reason: 自动投递涉及招聘网站条款与账号安全，人工确认边界和交付确定性缺少可复现的公开文档或 issue 证据，无法核验承诺能否稳定兑现。
+    evidence_ids:
+    - ev-2b5722bb42107eea
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认实际部署方式、人工确认边界以及是否有用户报告替代了原有投递流程。
+  market: ''
+  job: 求职者在批量投递岗位时，把抓取到的职位信息、个人简历与历史投递记录交给本地运行的 agent，由它整理岗位情报、执行投递动作并产出可跟进的投递状态清单，人工在关键节点确认结果。
+  job_en: When applying to jobs at volume, a job seeker feeds scraped job postings, their resume, and
+    past application records into a locally run agent that organizes job intelligence, performs application
+    actions, and outputs a follow-up-ready status list, with a human confirming key steps.
+  pain: 批量投递时职位信息、投递记录散落在多个招聘网站和表格里，重复填写与状态跟踪靠手工，容易漏投、重复投或忘记跟进；公开材料只给出产品定位，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: At volume, job postings and application records scatter across multiple job boards and spreadsheets;
+    refilling forms and tracking status is manual, causing missed, duplicate, or forgotten follow-ups.
+    Public materials give only the product positioning, not user complaints or frequency data, so pain
+    intensity is a workflow-structure inference.
+  current_alternative: 求职者目前通常用招聘网站自带投递记录、浏览器书签、Excel 表格或笔记手工维护投递清单，并逐个网站重复填写表单。
+  current_alternative_en: Job seekers today typically rely on job boards' built-in application history,
+    browser bookmarks, spreadsheets, or notes to manually maintain an application list, refilling forms
+    site by site.
+  usage_reason: 推断：相较手工逐站投递与表格跟踪，该 agent 在本地读取职位与投递材料后自动完成情报整理和投递动作，减少重复填写与状态汇总这两步负担，因此批量求职、且在意简历数据留在本地的求职者会在集中投递期选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual per-site applying and spreadsheet tracking, the agent reads
+    job and application materials locally, then automates intelligence organization and application actions,
+    cutting the refilling and status-aggregation steps; job seekers applying at volume who want resume
+    data to stay local would choose it during an intensive search. Public materials do not yet confirm
+    this motive via user feedback.'

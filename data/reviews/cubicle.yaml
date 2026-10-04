@@ -1,0 +1,82 @@
+- id: req-initial-cubicle-2026-10-04
+  project_slug: cubicle
+  level: initial
+  reviewed_at: '2026-10-04T00:37:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 agent 运行过程不透明、难以定位问题的需求，但公开材料未说明痛点强度、频率和不采用的后果，价值判断证据不足。
+    evidence_ids:
+    - ev-53308d7e47907277
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条发布信息，没有用户评价、社区讨论或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-53308d7e47907277
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是未知，不是已验证的失败。
+    evidence_ids:
+    - ev-53308d7e47907277
+  - gate: truth
+    status: insufficient
+    reason: 只读设计限制了写入风险，但能否覆盖真实 agent 运行状态、是否只是可视化外壳，公开材料无法核实。
+    evidence_ids:
+    - ev-53308d7e47907277
+  next_validation: 收集 Cubicle 官方文档或仓库说明，确认其支持的 agent 运行时、可观察指标与是否公布定价。
+  market: ''
+  job: 运行多个 AI agent 的开发者与运维人员需要在 agent 执行过程中查看它们的状态，以判断任务是否正常推进。
+  job_en: Developers and operations staff running multiple AI agents need to view their state during execution
+    to judge whether tasks are progressing normally.
+  pain: agent 长时间运行且过程不透明，出问题时难以定位；但公开材料没有说明这一痛点有多强、多久发生一次。
+  pain_en: Agents run for long periods with opaque processes, making failures hard to locate; the public
+    material does not show how strong or how frequent this pain is.
+  current_alternative: 目前主要靠终端日志、平台自带控制台或自行搭建的监控脚本来观察 agent 运行。
+  current_alternative_en: Today this is mainly done with terminal logs, built-in platform consoles or
+    self-built monitoring scripts.
+  usage_reason: 推断：相较翻终端日志，它把 agent 运行状态集中成一个只读实时视图，减少一次拼接日志的动作；但公开材料未给出用户反馈或留存证据，无法确认用户会长期使用。
+  usage_reason_en: 'Inference: compared with scrolling terminal logs, it concentrates agent runtime state
+    into one read-only live view, removing one log-assembly step; no user feedback or retention evidence
+    is public, so long-term use cannot be confirmed.'
+- id: req-full-cubicle-2026-10-04
+  project_slug: cubicle
+  level: full
+  reviewed_at: '2026-10-04T01:03:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 agent 运行过程不透明、难以定位问题的需求，但公开材料未说明痛点强度、频率和不采用的后果，连需求与痛点都难以具体写出，价值判断证据不足。
+    evidence_ids:
+    - ev-9ffe6905cda594b6
+    - ev-c1deb5ddb1e31f3f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Cubicle 官方产品页或仓库 README，确认其支持的 agent 运行时、可观察指标与是否公布定价。
+  market: ''
+  job: 运行 AI agent 的开发者与运维人员需要在 agent 长时间执行过程中查看其运行状态，以判断任务是否正常推进、是否卡住或失败。
+  job_en: Developers and operations staff running AI agents need to view agent runtime state during long
+    executions to judge whether tasks are progressing, stuck, or failing.
+  pain: 公开材料只有一句产品定位，没有说明 agent 运行不透明带来的具体痛点、发生频率或不解决的后果，无法确认痛点是否刚性。
+  pain_en: The public material offers only a one-line positioning statement and does not describe the
+    concrete pain, frequency, or consequence of opaque agent execution, so the rigidity of the pain cannot
+    be confirmed.
+  current_alternative: 公开材料未说明用户当前用什么替代方式观察 agent 运行，只能推测为终端日志或平台自带控制台。
+  current_alternative_en: The public material does not state what users currently use to observe agent
+    runs; terminal logs or built-in platform consoles can only be inferred.
+  usage_reason: 公开材料未提供任何用户反馈、采用或留存证据，无法解释用户为何会选择它而非现有日志方式，因此使用理由无法成立。
+  usage_reason_en: No user feedback, adoption, or retention evidence is public, so there is no basis to
+    explain why users would choose it over existing logging approaches.
