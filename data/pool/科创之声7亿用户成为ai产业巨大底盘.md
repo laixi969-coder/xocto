@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE44MEpMdmlRQkti
 summary: 【科创之声】7亿用户成为AI产业巨大底盘 中国经济网
 first_seen: '2026-10-04T21:50:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

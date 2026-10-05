@@ -301,3 +301,53 @@
     creators who need batch or fast output, this automation can lower per-video post-production time.
     This is an inference based on product capability and task structure, not yet confirmed by user feedback
     or customer cases.
+- id: req-full-seecut-2026-10-05
+  project_slug: seecut
+  level: full
+  reviewed_at: '2026-10-05T01:24:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播/数字人素材的粗剪、节奏切分与网感动效需求，痛点是逐条手工剪辑耗时且日更时成为产能瓶颈，不剪就发不出内容；旧做法是剪映手工粗剪或外包剪辑师。公开仓库说明其输入—动作—交付闭环（原始口播→自动精剪→成片或剪映分层草稿），属工作流结构推理，痛点刚性与交付可确定性成立。
+    evidence_ids:
+    - ev-40e5fd991adc7e08
+    - ev-de011f5ec415b6a6
+  - gate: consensus
+    status: supported
+    reason: 公开 公开代码仓库 仓库显示 star 从 191 增至 216，说明开发者社区持续关注并把它加入收藏；但这是关注度证据，尚不能证明目标创作者已将其长期留在剪辑工作流或形成复购，采用深度仍待公开使用数据补充。
+    evidence_ids:
+    - ev-40e5fd991adc7e08
+    - ev-98f6deeceb84160b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济说明，无法判断钱来自 to C 创作者订阅、to B MCN 采购还是 to VC；这是判断而非已验证事实，商业路径缺口不反推需求不存在。
+    evidence_ids:
+    - ev-40e5fd991adc7e08
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺自动完成粗剪、节奏切分与网感动效，但公开材料未给出识别精度、成片可发布率或人工修正边界，交付能否稳定发生尚缺可复现证据；剪映分层草稿导出为人工兜底留了空间。
+    evidence_ids:
+    - ev-de011f5ec415b6a6
+    - ev-40e5fd991adc7e08
+  next_validation: 追踪 SeeCut 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有创作者公开报告实际剪辑流程、成片可发布率或剪映草稿导出后的使用反馈。
+  market: ''
+  job: 口播或数字人视频创作者（含 MCN 后期运营）在拿到一段未剪的原始口播/数字人素材后，需要把它剪成有节奏、带网感动效、可直接发布的竖屏短视频，或导出剪映分层草稿继续人工微调。
+  job_en: Talking-head or AI-avatar video creators (including MCN post-production operators) take a raw
+    unedited talking-head/avatar clip and must turn it into a paced, motion-effect short video ready to
+    publish, or export a layered Jianying draft for further manual tweaking.
+  pain: 口播素材的粗剪、停顿与口误剔除、节奏切分和网感动效逐条手工完成，单条耗时且高度重复；创作者日更或多账号分发时，剪辑环节成为产能瓶颈，不剪就发不出内容。
+  pain_en: Rough-cutting talking-head footage, removing pauses and slips, pacing the cut and adding motion
+    effects are done by hand per clip; for daily or multi-account publishing this editing step becomes
+    the throughput bottleneck, and without it no content ships.
+  current_alternative: 目前主要靠剪映等通用剪辑软件手工粗剪、手动卡点加动效，或把素材外包给剪辑师；通用工具不理解口播语义，无法自动完成节奏切分与网感包装。
+  current_alternative_en: Today creators hand-cut in general editors like Jianying, manually beat-sync
+    and add effects, or outsource to freelance editors; generic tools do not understand talking-head semantics
+    and cannot auto-pace or auto-style the cut.
+  usage_reason: 推断：相较手工在剪映里逐段粗剪和卡点，SeeCut 直接吃原始口播素材并自动完成粗剪、节奏切分与网感动效，省掉逐条手动剪的步骤；且可导出剪映分层草稿，让习惯人工微调的创作者在保留控制权的前提下跳过最耗时的粗剪环节，因此日更口播或数字人账号的创作者会在剪辑环节选择它。
+  usage_reason_en: 'Inference: versus hand-cutting and beat-syncing in Jianying, SeeCut ingests raw talking-head
+    footage and auto-performs rough cut, pacing and motion effects, removing the per-clip manual cutting
+    step; its optional layered Jianying draft export lets creators who want manual control skip the most
+    time-consuming rough-cut stage, so daily talking-head or avatar-account creators would pick it at
+    the editing step.'

@@ -1,0 +1,86 @@
+- id: req-initial-sopro-voice-clone-2026-10-05
+  project_slug: sopro-voice-clone
+  level: initial
+  reviewed_at: '2026-10-05T00:56:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决配音与声音复刻的成本和周期问题，但公开材料未说明具体交付物与不采用的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-c02a8765c5c805fe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 2 个点赞，无用户评价、案例或讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c02a8765c5c805fe
+  - gate: model
+    status: insufficient
+    reason: 开源演示，公开材料未披露定价、买方或商业条款，付费路径无法判断。
+    evidence_ids:
+    - ev-c02a8765c5c805fe
+  - gate: truth
+    status: insufficient
+    reason: 未披露声音授权、滥用防护与输出质量的可核对结果，交付确定性与安全边界无法核对。
+    evidence_ids:
+    - ev-c02a8765c5c805fe
+  next_validation: 收集该演示页的模型卡与使用说明，核对参考音频要求、输出样例及是否披露声音授权与滥用防护措施。
+  market: ''
+  job: 配音或有声内容制作者在需要把文本转成指定说话人声音时，提供参考声音并让模型流式输出克隆语音，用于成片或试听。
+  job_en: Dubbing or audio-content creators who need text turned into a specific speaker's voice supply
+    a reference voice and let the model stream cloned speech for a final cut or preview.
+  pain: 传统配音需要真人录制或长时间训练专属模型，成本与周期高；公开材料未说明该演示相较现有做法具体省掉哪一步。
+  pain_en: Traditional dubbing needs human recording or long per-speaker model training, which is costly
+    and slow; the public material does not say which step this demo actually removes.
+  current_alternative: 制作者通常找真人配音、使用商业语音合成服务，或自行训练声音模型；公开材料未提供与这些方式的对比。
+  current_alternative_en: Creators usually hire voice actors, use commercial speech synthesis services,
+    or train their own voice models; the public material offers no comparison with these routes.
+  usage_reason: 推断：若流式零样本克隆在短参考音频下即可稳定输出，制作者可省去训练专属模型或约真人录音的一步，因此对需要快速试音或批量配音的人有吸引力；但公开材料无采用或留存证据。
+  usage_reason_en: 'Inference: if streaming zero-shot cloning delivers stable output from a short reference
+    clip, creators could skip training a dedicated model or booking a voice actor, which appeals to those
+    needing fast auditions or batch dubbing; however, the public material shows no adoption or retention
+    evidence.'
+- id: req-full-sopro-voice-clone-2026-10-05
+  project_slug: sopro-voice-clone
+  level: full
+  reviewed_at: '2026-10-05T01:25:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文本转成指定说话人声音的需求，痛点在于真人配音或逐人训练模型成本高、周期长；不采用则需继续承担录音或训练开销。公开材料已能还原输入（参考声音与文本）、动作（流式零样本克隆）与交付（克隆语音），属工作流结构推理。
+    evidence_ids:
+    - ev-c02a8765c5c805fe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 2 个点赞，无用户评价、案例或讨论，无法判断是否形成场景共识；点赞只属关注度证据，不能证明持续使用。
+    evidence_ids:
+    - ev-c02a8765c5c805fe
+  - gate: model
+    status: insufficient
+    reason: 开源演示，公开材料未披露定价、买方或商业条款，付费路径无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c02a8765c5c805fe
+  - gate: truth
+    status: insufficient
+    reason: 未披露声音授权、滥用防护与输出质量的可核对结果，交付确定性与安全边界无法核对；零样本克隆的合规风险也缺公开说明。
+    evidence_ids:
+    - ev-c02a8765c5c805fe
+  next_validation: 追踪 Sopro-Voice-Clone 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 配音或有声内容制作者在需要把文本转成指定说话人声音时，提供参考声音并让模型流式输出克隆语音，用于成片或试听。
+  job_en: Dubbing or audio-content creators who need text turned into a specific speaker's voice supply
+    a reference voice and let the model stream cloned speech for a final cut or preview.
+  pain: 传统配音需要真人录制或长时间训练专属模型，成本与周期高；零样本克隆若成立，可省去为每个说话人单独训练模型的一步。
+  pain_en: Traditional dubbing needs human recording or long per-speaker model training, which is costly
+    and slow; if zero-shot cloning holds, it removes the step of training a dedicated model per speaker.
+  current_alternative: 制作者通常找真人配音、使用商业语音合成服务，或自行训练声音模型；公开材料未提供与这些方式的对比。
+  current_alternative_en: Creators usually hire voice actors, use commercial speech synthesis services,
+    or train their own voice models; the public material offers no comparison with these routes.
+  usage_reason: 推断：若流式零样本克隆在短参考音频下即可稳定输出，制作者可省去训练专属模型或约真人录音的一步，因此对需要快速试音或批量配音的人有吸引力；但公开材料无采用或留存证据。
+  usage_reason_en: 'Inference: if streaming zero-shot cloning delivers stable output from a short reference
+    clip, creators could skip training a dedicated model or booking a voice actor, which appeals to those
+    needing fast auditions or batch dubbing; however, the public material shows no adoption or retention
+    evidence.'

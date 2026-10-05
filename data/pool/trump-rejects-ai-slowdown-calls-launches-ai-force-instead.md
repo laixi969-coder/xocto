@@ -3,13 +3,13 @@ slug: trump-rejects-ai-slowdown-calls-launches-ai-force-instead
 name: AI Force
 builder: ''
 category: ''
-summary_zh: 2026年9月21日，美国总统拒绝放缓AI的呼吁，转而提出设立“AI Force”，但未说明该机构的具体职能。这一政策信号表明美国联邦层面倾向于加速而非限制AI发展，可能降低AI应用面临的合规与监管不确定性，进而影响企业采用节奏与竞争格局；由于细节缺失，实际影响仍待观察（推断）。
+summary_zh: 2026年9月21日，特朗普拒绝放缓AI的呼吁，转而提出设立“AI Force”，但未说明该机构的具体职能。这一政策信号表明美国联邦层面倾向于加速AI军事与安全应用，可能影响AI安全监管节奏及相关政府采购方向；由于细节缺失，对具体企业的影响尚不明确（推断）。
 inspiration: ''
-summary_en: On September 21, 2026, the US president rejected calls to slow AI down and instead proposed
-  an "AI Force," without specifying what the body would do. The policy signal suggests the federal stance
-  favors accelerating rather than restricting AI, which could reduce regulatory uncertainty for AI applications
-  and affect enterprise adoption and competition; given the lack of detail, the practical impact remains
-  to be seen (inference).
+summary_en: On September 21, 2026, Trump rejected calls to slow AI development and instead proposed an
+  "AI Force," without detailing what the body would do. This policy signal suggests the US federal government
+  favors accelerating AI use in defense and security, potentially affecting the pace of AI safety regulation
+  and related government procurement; given the lack of detail, the impact on specific companies remains
+  unclear (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +25,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-call
 summary: The president offered few details on what his proposed new AI Force would do.
 first_seen: '2026-09-21T15:37:56Z'
 last_seen: '2026-10-05T00:56:27Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

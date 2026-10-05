@@ -1,11 +1,16 @@
 ---
 slug: claude-code-的乐高模式让程序员彻底玩上头了
-name: Claude Code 的「乐高」模式，让程序员彻底玩「上头」了
+name: Claude Code
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Claude Code 是 Anthropic 的终端编程工具，开发者在其命令行界面内直接调用模型改代码。2026年9月中旬其负责人 Boris Cherny 在 公开代码仓库 放出名为
+  Mods 的扩展机制，10月1日正式写入更新日志并默认开启，开发者据此在终端内做出像素宠物、小恐龙游戏、呼吸引导动画和 Storytime 等插件。
 inspiration: ''
-summary_en: ''
+summary_en: Claude Code is Anthropic's terminal coding tool, where developers call the model to edit code
+  directly from the command line. In mid-September 2026 its lead Boris Cherny released an extension mechanism
+  called Mods on public code repository; on October 1 it was written into the changelog and enabled by
+  default, and developers used it to build terminal plugins such as a pixel pet, a dinosaur game, a breathing
+  guide and Storytime.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -51,7 +56,7 @@ summary: "作者｜Wildcard  \n  编辑｜靖宇  \n \n 终端向来是程序员
   \ Mod，都有可能是留住用户的「软实力」。 \n *头图来源：X \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-10-04T05:16:11Z'
 last_seen: '2026-10-05T00:56:27Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -62,7 +67,7 @@ sightings:
   kind: news
 ---
 
-# Claude Code 的「乐高」模式，让程序员彻底玩「上头」了
+# Claude Code
 
 作者｜Wildcard  
   编辑｜靖宇  

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxOQy1mdzBQcVdH
 summary: Our Guide to the Best Online Will Makers 2026 ncoa.org
 first_seen: '2026-10-02T04:00:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

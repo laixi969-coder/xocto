@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxORnRNQ19PNlcx
 summary: 【申万宏源研究】申研AI：面向核心机构客户打造的金融研究智能工作平台 新浪财经
 first_seen: '2026-10-04T12:00:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

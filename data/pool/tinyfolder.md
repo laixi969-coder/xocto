@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/tinyfolder
 summary: App folders for your Mac Dock, designed your way
 first_seen: '2026-10-02T21:27:59Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

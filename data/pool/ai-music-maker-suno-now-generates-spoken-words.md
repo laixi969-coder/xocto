@@ -3,16 +3,17 @@ slug: ai-music-maker-suno-now-generates-spoken-words
 name: Suno
 builder: ''
 category: AI + 创作
-summary_zh: 做短视频、广告或课程音频的人在需要口播时，过去要另找配音员或语音合成工具，再单独配背景音乐。Suno新增的语音功能接收脚本或提示描述，生成口播人声，并可与背景音乐一并产出，用户拿到的是可直接使用的音轨，仍需自行试听确认语气与内容是否合适。
-inspiration: 音乐生成工具开始吞掉配音这一步，说明内容生产里“人声+配乐”原本分离的两道工序正在被合并。切入点是面向广告与课程团队做成品交付，例如按条收费的口播加配乐打包，而不是再做一个通用语音合成接口。
-summary_en: People making short videos, ads or course audio used to hire a voice actor or run a separate
-  speech tool, then add background music on their own. Suno's new speech feature takes a script or prompted
-  description, generates spoken voice, and can output it alongside background music; users get a usable
-  audio track but still need to listen through to confirm tone and content.
-inspiration_en: Music generators are absorbing the voiceover step, meaning the once-separate tasks of
-  voice and score are merging in content production. The opening is delivering finished output to ad and
-  course teams, such as per-piece voiceover-plus-music packages, rather than another generic speech synthesis
-  API.
+summary_zh: 做短视频、广告口播或课程音频的人，过去要先找配音演员或另开一个语音工具，再单独配背景音乐；现在在 Suno 里输入脚本或描述，它一次生成口播人声和配套背景音乐，用户拿到可直接使用的音轨，仍需自己试听确认语气与配乐是否合适。
+inspiration: 趋势是音乐生成工具开始把口播和配乐合并成一条音频交付链，说明内容生产里“配音+配乐”这道分步工序正在被压缩。切入可考虑面向中小广告主、短视频代运营和在线课程团队，按条或按成品音频收费，把语气、时长、配乐风格做成可复用的模板，而不是再做一个通用音乐生成器。
+summary_en: People making short videos, ad voiceovers or course audio used to hire a voice actor or run
+  a separate speech tool and then add background music themselves. In Suno they enter a script or description
+  and get spoken voice plus matching background music in one pass, receiving a usable audio track, though
+  they still need to listen and confirm tone and scoring.
+inspiration_en: The trend is that music-generation tools are merging voiceover and scoring into a single
+  audio delivery chain, compressing the separate 'voice plus music' steps in content production. An entry
+  point is serving small advertisers, short-video agencies and online-course teams, charging per clip
+  or per finished audio and turning tone, length and music style into reusable templates rather than building
+  another general music generator.
 priority_review: false
 project_type: new_application
 industries:
@@ -29,7 +30,7 @@ jobs:
 - 课程音频制作
 jobs_en:
 - Short-video voiceover
-- Ad narration production
+- Ad voiceover production
 - Course audio production
 regions:
 - 全球
@@ -44,7 +45,7 @@ summary: Suno is branching out from the world of AI music, launching a new featu
   to accompany them. "Music will always be at […]
 first_seen: '2026-10-02T09:42:19Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - newssearch

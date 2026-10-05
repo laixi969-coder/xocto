@@ -123,3 +123,45 @@
     Grok via a self-hosted Go server and returns text, removing the step of replacing the device; but
     public evidence shows no one adopting it for that burden, so it reads as a technical demo rather than
     a needed delivery.'
+- id: req-full-aikon-2026-10-05
+  project_slug: aikon
+  level: full
+  reviewed_at: '2026-10-05T01:22:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决功能机搜索入口失效后的信息获取，但公开材料只有仓库自述与 326 星，没有用户抱怨、求助或替代行为证据；对绝大多数人而言换机即可解决，属于没有也行的极客怀旧项目，痛点刚性不足。
+    evidence_ids:
+    - ev-649cc551a9fb9ba5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 issue、discussion 与提交记录，确认是否有真实功能机用户报告安装、联网与响应可用性。
+  market: ''
+  job: 仍在使用诺基亚 S40/S60 功能机的用户，在设备自带搜索入口失效、手边只有这台老手机的情况下，需要就日常问题拿到一段文字答案。
+  job_en: Users still on Nokia S40/S60 feature phones, when the built-in search entry no longer works
+    and only that old handset is at hand, need a short text answer to an everyday question.
+  pain: 公开材料只说明 2007 年诺基亚已无法搜索 Google，未给出用户抱怨、求助或替代行为的证据；这类设备用户多数已换机，留下的使用场景更像怀旧与极客实验，而非刚性信息获取需求。
+  pain_en: The public material only states that a 2007 Nokia can no longer search Google; there is no
+    evidence of user complaints, help-seeking or workarounds. Most such users have already switched devices,
+    so the remaining scenario looks like nostalgia and tinkering rather than a rigid information need.
+  current_alternative: 换用智能手机、借他人设备查询，或干脆不查；公开材料未显示有人因搜索失效而主动寻找功能机上的替代方案。
+  current_alternative_en: Switching to a smartphone, borrowing another device, or simply not looking it
+    up; the public material shows no one actively seeking a feature-phone replacement after search broke.
+  usage_reason: 推断：它通过 J2ME 客户端加自建 Go 服务器把问题转给 Claude、ChatGPT、Gemini 或 Grok 并回传文字，省去换设备这一步；但公开证据只有仓库简介与
+    326 星，缺少用户反馈或案例说明谁会因此持续使用，因此选择动机无法确认为事实。
+  usage_reason_en: 'Inference: a J2ME client plus a self-hosted Go server relays questions to Claude,
+    ChatGPT, Gemini or Grok and returns text, removing the step of replacing the device. But the only
+    public evidence is a repository blurb and 326 stars, with no user feedback or case showing who would
+    keep using it, so the choice motive cannot be treated as fact.'

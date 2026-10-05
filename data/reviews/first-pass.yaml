@@ -302,3 +302,56 @@
     independent reviewer role, and proof of done fixed pre-commit actions, reducing the burden of recalling
     which callers were unchecked, so Claude Code users worried about AI-change regressions would adopt
     it before committing.'
+- id: req-full-first-pass-2026-10-05
+  project_slug: first-pass
+  level: full
+  reviewed_at: '2026-10-05T01:23:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 写码后改动影响面失控、缺少独立复核的痛点：工程师提交前要自己补做影响面排查和二次审查，漏掉则缺陷进主干返工。公开仓库说明已给出输入（diff 与上下文）、动作（十问、非作者复核、完成证据）与交付（受约束的改动流程），属工作流结构推理；痛点刚性与交付可确定，故价值关成立。
+    evidence_ids:
+    - ev-a7708a8a2e632a80
+    - ev-b624734bf0221235
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数在 80 至 140 之间波动，说明有开发者注意到并收藏，但收藏与关注只属规模或关注度证据，不能证明目标用户已把它长期留在提交前工作流里；缺少 issue、discussion
+      或使用反馈说明谁在何种场景持续采用。
+    evidence_ids:
+    - ev-a7708a8a2e632a80
+    - ev-468890cd20bc8490
+    - ev-44e60081d30a00f0
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：公开材料未见定价页、付费路径或买方说明，钱可能来自 to C 开发者自购或 to B 团队采购，也可能只是开源免费规则集；谁付钱、按什么单位收费均未核验，属商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-a7708a8a2e632a80
+  - gate: truth
+    status: insufficient
+    reason: 规则集承诺“完成证据后才算结束”，但公开材料未展示可复现的交付结果、审查记录样例或人工与安全边界说明，无法确认该约束在真实仓库中稳定生效；缺少部署文档或实测记录来核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-b624734bf0221235
+    - ev-08c0ec248383c5bb
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开部署方式、审查记录样例或团队采用案例，以核验交付是否稳定发生及是否存在付费或采购路径。
+  market: ''
+  job: 使用 Claude Code 的软件工程师在提交改动前，把这次 diff 和上下文交给这套规则集，让模型先回答十个关于影响范围的问题、由未参与编写的审查角色复核，并给出完成证据后才结束，最终由人决定是否合并。
+  job_en: Software engineers using Claude Code, before committing a change, hand the diff and context
+    to this ruleset so the model first answers ten questions about blast radius, a reviewer that did not
+    write the code re-checks it, and completion evidence is produced before the task ends; the human still
+    decides whether to merge.
+  pain: AI 生成的改动只盯着自己写的几行，容易漏掉调用方、边界条件和同类缺陷，工程师在提交前要自己补做影响面排查和二次审查，漏掉时缺陷进入主干再返工。
+  pain_en: AI-generated changes look only at the lines written, missing callers, edge cases and same-class
+    bugs; engineers must manually reconstruct blast radius and a second review before committing, and
+    misses reach main and cause rework.
+  current_alternative: 当前替代是工程师自己逐行读 diff、口头或 PR 里请同事复核、靠记忆和测试补影响面检查，或直接信任模型输出后合并。
+  current_alternative_en: Today engineers read the diff line by line, ask a colleague in chat or a PR
+    for review, patch blast-radius checks from memory and tests, or simply trust the model output and
+    merge.
+  usage_reason: 推断：相较逐行自审和临时拉人复核，这套规则把“先问影响范围、由非作者角色复核、给出完成证据”固化成提交前的固定动作，减少工程师自己组织审查步骤和遗漏同类缺陷的负担，因此使用
+    Claude Code 且在意改动质量的工程师会在提交前选择它。
+  usage_reason_en: 'Inference: versus line-by-line self-review and ad-hoc colleague review, the ruleset
+    fixes ''ask blast radius first, have a non-author reviewer check, produce completion evidence'' as
+    a pre-commit routine, cutting the burden of organizing review steps and missing same-class bugs, so
+    Claude Code users who care about change quality would adopt it before committing.'

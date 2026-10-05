@@ -123,3 +123,46 @@
     an install step and avoids upgrade overwrites, so convenience-seeking Harness users might try it;
     but public materials show no checkable behavior or outcome improvement from the preset itself, only
     a saved install step, and users can code fine without it, so the reason to choose it is weak.'
+- id: req-full-dsh-pojia-mode-2026-10-05
+  project_slug: dsh-pojia-mode
+  level: full
+  reviewed_at: '2026-10-05T01:23:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是给 DSH 装一个自定义 Agent 预设的安装摩擦，痛点仅止于「不改源码、升级不丢」；公开材料未说明预设改变什么行为、替代哪步旧流程、不装会失去什么，属于没有也行的小工具，价值关不成立。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+    - ev-a3bf5e0fbae411c0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认「破甲模式」预设具体改变 DSH 的哪些行为、是否有使用者反馈其替代了原有配置流程。
+  market: ''
+  job: DeepSeek Harness 使用者在不想改动主程序、也不想在升级后重装配置的情况下，双击一个文件为工具加载名为「破甲模式」的自定义 Agent 预设，让 DSH 按该预设行为工作。
+  job_en: DeepSeek Harness users load a custom agent preset by double-clicking a file, without modifying
+    the host program
+  pain: 公开材料只说明「零侵入、零依赖、双击无黑框、不改 DSH 一字节代码、升级不丢」，即安装与升级摩擦；但没有说明预设本身改变什么行为、解决使用者哪一步实际困难，也没有用户抱怨、issue 或案例佐证不采用会失去什么。
+  pain_en: Public material only claims zero-intrusion, zero-dependency, no console window, no source edits
+    and upgrade-safe installation friction; it never states what the preset actually changes or which
+    user difficulty it removes, and no complaint, issue or case shows what is lost without it.
+  current_alternative: DSH 使用者本可直接在工具内配置或切换 Agent 预设，或手动编辑配置文件、安装插件；公开材料未说明这些旧做法为何不够用，也未说明本预设相较它们多出什么。
+  current_alternative_en: DSH users can already configure or switch agent presets inside the tool, or
+    hand-edit config files and install plugins; public material never explains why those existing routes
+    fall short or what this preset adds over them.
+  usage_reason: 推断：若使用者确实频繁重装 DSH 并反复丢失自定义预设，双击安装可省去手工改配置与升级后重配这一步；但公开材料未给出预设内容、效果或任何用户反馈，因此无法确认哪类用户会因哪项可核对结果而选择它，安装便利本身不构成刚性需求。
+  usage_reason_en: 'Inference: if a user really reinstalls DSH often and repeatedly loses custom presets,
+    double-click installation saves the manual config edit and post-upgrade re-setup step; but public
+    material gives no preset content, effect or user feedback, so it cannot be confirmed which users choose
+    it for which checkable result — installation convenience alone is not rigid demand.'

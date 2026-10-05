@@ -86,3 +86,45 @@
     re-paste background and conclusions land in the same document to keep editing; people who frequently
     compare material across models would choose it in that situation, though memory scope and tool integration
     are not described publicly and no user feedback corroborates this.'
+- id: req-full-whirl-2026-10-05
+  project_slug: whirl
+  level: full
+  reviewed_at: '2026-10-05T01:25:23Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决跨模型搬运材料、拼接结论的需求，但现有证据全是词典对 whirl 一词的释义，与产品功能、用户任务和痛点无关，无法还原旧流程与不解决的后果，价值结构无从成立。
+    evidence_ids:
+    - ev-fbcadc9e49fac7e9
+    - ev-2703a0c8a7e94723
+    - ev-a48e838378e0097e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 whirl 官方产品页或文档页，确认其记忆范围、文档协作方式与工具接入说明，以判断是否存在可核对的交付闭环。
+  market: ''
+  job: 个人用户或小团队在需要比较不同模型结论时，把同一份材料分别粘贴进多个聊天窗口，再手工把各段回答拼成一份可继续修改的文档。
+  job_en: An individual or small team comparing conclusions across models pastes the same material into
+    several chat windows and then manually stitches the answers into one document they can keep editing.
+  pain: 材料要在多个窗口之间反复搬运，上下文和修改痕迹散落各处，用户很难确认哪一版结论是最新的。
+  pain_en: Material has to be carried between windows repeatedly, context and edit history scatter, and
+    the user cannot easily tell which conclusion is the latest.
+  current_alternative: 同时开着多个模型网页或客户端，用复制粘贴和本地笔记软件拼接结果。
+  current_alternative_en: Keeping several model web pages or clients open and stitching results together
+    with copy-paste and a local note app.
+  usage_reason: 推断：若记忆与文档确实在同一处生效，用户可免去每次重贴背景并在同一文档上续改，跨模型比对结论者可能因此选择它；但公开材料未说明记忆范围、文档协作方式或任何使用反馈，这一环尚未核验。
+  usage_reason_en: 'Inference: if memory and documents really work in one place, users would not have
+    to re-paste background each time and could keep editing the same document, so people comparing conclusions
+    across models might choose it; however the public material does not describe memory scope, document
+    collaboration or any user feedback, so this link is unverified.'

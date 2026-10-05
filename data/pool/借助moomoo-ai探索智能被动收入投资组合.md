@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORzdxR1NnTmFR
 summary: 借助moomoo AI探索智能被动收入投资组合 Moomoo
 first_seen: '2026-10-03T15:56:18Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

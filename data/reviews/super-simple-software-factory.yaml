@@ -342,3 +342,56 @@
     Python and bounds agents as constrained nodes, removing the need to re-sequence steps and restate
     context each run and letting the same pipeline re-run inside the repo; developers needing reproducible
     agent pipelines would therefore adopt it in an existing repository.'
+- id: req-full-super-simple-software-factory-2026-10-05
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-05T01:25:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把编码代理调用顺序固化为可重复流程的需求，痛点是代理执行漂移、顺序与边界只存在于个人习惯；不采用则每次重跑都要人工重排，交付不可复现。公开材料仅给出定位与仓库关注度，痛点刚性属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-d212aaa58089dbe7
+    - ev-7ca76a2c7e993371
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 141 升至 178、配套指南从 139 升至 159，说明英文开发者社区持续关注，但收藏与指南星数只属关注度，不能证明目标用户已把它留在日常工作流；缺少 issue、discussion
+      或客户案例说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-d212aaa58089dbe7
+    - ev-7ca76a2c7e993371
+    - ev-1da64d983f1c42ce
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断收入来自 to C 开发者、to B 团队还是仅靠开源与融资维持；这是判断而非已验证事实，买方缺口不反推需求不存在。
+    evidence_ids:
+    - ev-e39ec5d5fdf04738
+    - ev-e72a8f1800eb66b4
+  - gate: truth
+    status: insufficient
+    reason: 确定性 Python 掌管图、代理作为受约束节点，结构上贴近可复现这一第一性目标；但公开材料未给出部署文档、可复现实测或人工确认与安全边界的说明，交付能否稳定发生仍缺证据。
+    evidence_ids:
+    - ev-d212aaa58089dbe7
+    - ev-054aa3ab6703cfbc
+  next_validation: 追踪该项目的官方仓库 README、部署文档与 issue/discussion，确认是否有团队在真实仓库中固化代理流程并说明替代了哪种旧做法。
+  market: ''
+  job: 开发者在已有代码仓库中，把多个编码代理的调用顺序、输入输出和人工确认点固定成一条可重复运行的流程，处理的是仓库内代码与代理提示材料，要完成的是让同一套代理加代码工作流每次都能按同一图结构重跑。
+  job_en: Inside an existing repository, a developer fixes the call order, inputs/outputs and human checkpoints
+    of several coding agents into one repeatable pipeline, working over repo code and agent prompts so
+    the same agents-plus-code workflow reruns along the same graph every time.
+  pain: 编码代理每次执行顺序和边界都靠人临时指挥，同一任务换一次运行结果就漂移，团队无法把代理步骤当作可复现的构建环节；公开材料只给出产品定位与仓库关注度，未提供用户抱怨或失败代价的一手陈述，因此痛点强度属工作流结构推理。
+  pain_en: Agent execution order and boundaries are re-directed by hand each run, so the same task drifts
+    between runs and teams cannot treat agent steps as a reproducible build stage; public material gives
+    only positioning and repo attention, not first-hand user complaints, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 旧做法是开发者手动在会话里逐步提示编码代理、用脚本或 Makefile 串起零散调用，或依赖代理框架自带的自由编排，流程顺序与人工确认点留在个人习惯里而非仓库中。
+  current_alternative_en: The old way is prompting agents step by step in a session, gluing ad-hoc calls
+    with scripts or a Makefile, or relying on a framework's free-form orchestration, leaving order and
+    checkpoints in personal habit rather than in the repo.
+  usage_reason: 推断：相较手动逐步提示，它把编排权交给确定性 Python 图、只让编码代理作为受约束节点执行，从而省去每次重排调用顺序和重新交代边界的那一步，使流程能随仓库一起被版本化和重跑；因此在意可复现构建的开发者会在需要固化代理流程时选择它。
+  usage_reason_en: 'Inference: versus manual step-by-step prompting, it hands orchestration to a deterministic
+    Python graph and keeps agents as bounded nodes, removing the step of re-ordering calls and re-stating
+    boundaries each time so the pipeline can be versioned and rerun with the repo; developers who care
+    about reproducible builds would pick it when fixing an agent workflow.'

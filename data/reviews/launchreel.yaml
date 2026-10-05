@@ -1,0 +1,84 @@
+- id: req-initial-launchreel-2026-10-05
+  project_slug: launchreel
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决视频剪辑交付这一需求，但材料未说明替代哪一步旧工作、痛点强度如何，价值结构无法还原。
+    evidence_ids:
+    - ev-00220faeedd2deea
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且没有任何用户评价、采用或社区讨论可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-00220faeedd2deea
+  - gate: model
+    status: insufficient
+    reason: 未进入：无定价页、无买方信息，无法判断钱来自个人剪辑师、制作公司还是营销团队。
+    evidence_ids:
+    - ev-00220faeedd2deea
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对AI剪辑结果是否确定交付，也看不到人工复核边界。
+    evidence_ids:
+    - ev-00220faeedd2deea
+  next_validation: 收集LaunchReel官方页面或演示视频，确认AI具体接收什么素材、执行哪一步剪辑、交付物形态与是否有人工复核环节。
+  market: ''
+  job: 视频剪辑师在接到成片交付任务、手上已有原始素材时，需要把素材剪成可交付的视频版本。
+  job_en: A video editor with raw footage in hand needs to turn it into a deliverable video version when
+    a finished cut is due.
+  pain: 公开材料未说明它替代剪辑流程中的哪一步，也未给出任何用户抱怨或旧做法描述，痛点无法从现有事实还原。
+  pain_en: The public material does not say which editing step it replaces and gives no user complaints
+    or legacy-workflow description, so the pain cannot be reconstructed from available facts.
+  current_alternative: 公开材料未提及现有替代方式，按常识推断剪辑师目前使用专业剪辑软件手工完成，但这是推断而非材料支持的事实。
+  current_alternative_en: No existing alternative is mentioned; by common inference editors currently
+    cut manually in professional editing software, but this is inference rather than a fact supported
+    by the material.
+  usage_reason: 无法判断：材料只有一句定位描述，既没有说明AI具体减少哪一步操作，也没有可核对的结果改善，因此无法解释剪辑师为何会选择它。
+  usage_reason_en: 'Cannot be judged: the material is a single positioning line with no specific step
+    AI removes and no checkable outcome improvement, so there is no basis to explain why an editor would
+    choose it.'
+- id: req-full-launchreel-2026-10-05
+  project_slug: launchreel
+  level: full
+  reviewed_at: '2026-10-05T01:23:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决视频剪辑交付这一需求，但材料未说明替代哪一步旧工作、痛点强度如何，价值结构无法还原。
+    evidence_ids:
+    - ev-00220faeedd2deea
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 LaunchReel 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 视频剪辑师在接到成片交付任务、手上已有原始素材时，需要把素材剪成可交付的视频版本。
+  job_en: A video editor with raw footage in hand needs to turn it into a deliverable video version when
+    a finished cut is due.
+  pain: 公开材料只有一句定位描述，未说明它替代剪辑流程中的哪一步，也没有任何用户抱怨或旧做法描述，痛点无法从现有事实还原。
+  pain_en: The public material is a single positioning line; it does not say which editing step it replaces
+    and gives no user complaints or legacy-workflow description, so the pain cannot be reconstructed from
+    available facts.
+  current_alternative: 公开材料未提及现有替代方式，按常识推断剪辑师目前使用专业剪辑软件手工完成，但这是推断而非材料支持的事实。
+  current_alternative_en: No existing alternative is mentioned; by common inference editors currently
+    cut manually in professional editing software, but this is inference rather than a fact supported
+    by the material.
+  usage_reason: 无法判断：材料只有一句定位描述，既没有说明AI具体减少哪一步操作，也没有可核对的结果改善，因此无法解释剪辑师为何会选择它。
+  usage_reason_en: 'Cannot be judged: the material is a single positioning line with no specific step
+    AI removes and no checkable outcome improvement, so there is no basis to explain why an editor would
+    choose it.'

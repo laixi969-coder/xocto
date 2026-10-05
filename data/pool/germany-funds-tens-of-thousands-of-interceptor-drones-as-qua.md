@@ -1,6 +1,6 @@
 ---
 slug: germany-funds-tens-of-thousands-of-interceptor-drones-as-qua
-name: Germany funds tens of thousands of interceptor drones as Quantum Systems scales in Ukraine
+name: Quantum Systems
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: German Federal Chancellor Friedrich Merz has announced financing for se
   winte...
 first_seen: '2026-10-04T23:02:00Z'
 last_seen: '2026-10-05T00:56:27Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Germany funds tens of thousands of interceptor drones as Quantum Systems scales in Ukraine
+# Quantum Systems
 
 German Federal Chancellor Friedrich Merz has announced financing for several tens of thousands of Quantum Systems interceptor drones for Ukraine as part of Germany’s military aid package for the winte...
 

@@ -1,0 +1,82 @@
+- id: req-initial-eat-train-feel-2026-10-05
+  project_slug: eat-train-feel
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决训练与饮食安排的需求，但材料未说明用户具体卡在哪一步、不解决的后果，痛点无法确认。
+    evidence_ids:
+    - ev-cdeab405d94d34cd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，没有用户评价、采用或重复使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-cdeab405d94d34cd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自个人订阅还是其他方；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-cdeab405d94d34cd
+  - gate: truth
+    status: insufficient
+    reason: 无法核对建议是否贴近训练与饮食的第一性目标，也未说明人工确认边界与交付确定性。
+    evidence_ids:
+    - ev-cdeab405d94d34cd
+  next_validation: 收集该产品的官方定价页或公开客户案例，确认其建议的交付形态与付费方式。
+  market: ''
+  job: 健身爱好者在安排训练和饮食时，把训练记录、饮食内容和身体感受交给应用，希望得到可执行的训练与饮食调整建议。
+  job_en: Fitness enthusiasts, while planning workouts and meals, hand workout logs, food intake and how
+    they feel to the app, expecting actionable workout and diet adjustments.
+  pain: 公开材料只给出“训练、饮食和感受”的笼统描述，没有说明用户原来卡在哪一步、不解决会有什么后果，痛点无法从现有事实确认。
+  pain_en: The public material only gives a generic description of workouts, food and how you feel; it
+    does not say which step users were stuck on or what happens if it is unsolved, so the pain cannot
+    be confirmed from available facts.
+  current_alternative: 公开材料未说明用户此前用什么替代，常见做法可能是自行记录或找真人教练，但候选资料没有给出可核对的事实。
+  current_alternative_en: The material does not state what users used before; common alternatives might
+    be self-logging or a human trainer, but the candidate provides no verifiable fact.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能给出用户选择它的因果解释。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old way
+    or which checkable result it improves, so no causal reason for choosing it can be given.'
+- id: req-full-eat-train-feel-2026-10-05
+  project_slug: eat-train-feel
+  level: full
+  reviewed_at: '2026-10-05T01:23:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决训练与饮食安排的需求，但材料未说明用户具体卡在哪一步、不解决的后果，痛点无法确认。
+    evidence_ids:
+    - ev-edd23cf508a06e7d
+    - ev-f44a95ae37957a7e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Eat Train Feel 官网或应用商店页面的产品说明、定价与公开用户评价，确认其输入方式、建议交付形态与付费路径。
+  market: ''
+  job: 健身爱好者在安排训练与饮食时，把训练记录、饮食内容和身体感受交给教练型应用，希望得到可执行的训练与饮食调整建议。
+  job_en: Fitness enthusiasts, while planning workouts and meals, hand workout logs, food intake and how
+    they feel to a coach-style app, expecting actionable workout and diet adjustments.
+  pain: 公开材料只有一句“训练、饮食和感受”的笼统描述，没有说明用户原来卡在哪一步、不解决会有什么后果，痛点无法从现有事实确认。
+  pain_en: The public material offers only a generic line about workouts, food and how you feel; it does
+    not say which step users were stuck on or what happens if unsolved, so the pain cannot be confirmed
+    from available facts.
+  current_alternative: 公开材料未说明用户此前用什么替代；常见做法可能是自行记录或找真人教练，但候选资料没有给出可核对的事实。
+  current_alternative_en: The material does not state what users used before; common alternatives might
+    be self-logging or a human trainer, but the candidate provides no verifiable fact.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能给出用户选择它的因果解释。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old way
+    or which checkable result it improves, so no causal reason for choosing it can be given.'

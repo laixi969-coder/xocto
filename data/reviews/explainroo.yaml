@@ -130,3 +130,47 @@
   usage_reason_en: 'Inference: it puts voiceover, word-level timing and rendering into one local pipeline
     so a script yields a finished cut, removing manual voiceover and line-by-line alignment; developers
     who want assets to stay local and do not want to learn editing are the likely first users.'
+- id: req-full-explainroo-2026-10-05
+  project_slug: explainroo
+  level: full
+  reviewed_at: '2026-10-05T01:23:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文字脚本变成带旁白讲解视频的需求，痛点是手工配音与逐句对轴耗时且质量不稳，旧做法可还原，属工作流推理。
+    evidence_ids:
+    - ev-58889e9d3eb78cd5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库关注度，没有用户评价、客户案例或重复使用证据，无法判断是否形成稳定共识。
+    evidence_ids:
+    - ev-58889e9d3eb78cd5
+  - gate: model
+    status: insufficient
+    reason: 开源免费，公开材料未说明任何付费路径或买方，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-58889e9d3eb78cd5
+  - gate: truth
+    status: insufficient
+    reason: 本地语音与渲染能否稳定产出可直接发布的成片、人工还需多少确认，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-58889e9d3eb78cd5
+  next_validation: 收集该仓库的 issue、discussion 与发布说明，核对是否有用户报告把脚本到成片的流程接入真实发布工作流。
+  market: ''
+  job: 开源项目维护者或产品营销人员在发布新版本、新功能时，需要把一段文字脚本变成带旁白的讲解视频或产品演示，用于发布说明和落地页。
+  job_en: Open-source maintainers or product marketers who, when shipping a new version or feature, need
+    to turn a written script into a narrated explainer video or product demo for release notes and landing
+    pages.
+  pain: 过去做这类视频要在剪辑软件里手工配音、逐句对齐字幕、反复导出，一个人做一条要花掉数小时，且配音质量不稳定。
+  pain_en: Making such videos used to mean manual voiceover, sentence-by-sentence subtitle alignment and
+    repeated exports in editing software, costing hours per video with inconsistent voice quality.
+  current_alternative: 用剪辑软件手工配音与对轴，或购买云端 AI 配音与视频生成服务，前者费时，后者按量付费且素材要上传。
+  current_alternative_en: Manual voiceover and timeline alignment in editing software, or paid cloud AI
+    voiceover and video generation services; the former is slow, the latter is metered and requires uploading
+    assets.
+  usage_reason: 推断：它把配音、词级时间对齐和渲染放在本地一条流水线里，脚本直接产出成片，省掉手工配音与逐句对轴这两步，因此在意素材不出本地、又不想学剪辑的开发者会先试它。
+  usage_reason_en: 'Inference: it puts voiceover, word-level timing and rendering into one local pipeline
+    so a script yields a finished cut, removing manual voiceover and line-by-line alignment; developers
+    who want assets to stay local and do not want to learn editing are the likely first users.'

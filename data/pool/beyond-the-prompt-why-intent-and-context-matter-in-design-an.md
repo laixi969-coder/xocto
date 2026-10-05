@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMmJWSEdldFJE
 summary: 'Beyond the Prompt: Why Intent and Context Matter in Design and Manufacturing AI Autodesk'
 first_seen: '2026-10-02T14:27:01Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

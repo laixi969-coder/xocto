@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4Q245Rm14Qmd1
 summary: 花旗：AI开源权重模型对前沿模型收入的影响已过局部高峰 观点网
 first_seen: '2026-10-02T06:00:49Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

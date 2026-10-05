@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/notchmate
 summary: Makes your Notch more fun, interactive and useful.
 first_seen: '2026-10-03T19:41:20Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -283,3 +283,55 @@
     quota into one action, so the developer no longer splits work or rotates accounts manually and only
     steers from the Claude app; developers who frequently run large tasks under Claude quota windows would
     choose it in that situation. This is an inference from the product description and workflow st
+- id: req-full-clodfarm-2026-10-05
+  project_slug: clodfarm
+  level: full
+  reviewed_at: '2026-10-05T01:22:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Claude Code 大任务受 5 小时与每周额度限制、需手动盯用量与切账号的痛点，旧替代是单终端手动跑并等窗口重置；不解决则任务中断、并行调度靠人工。这是从产品说明与额度机制作出的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-aef696239a63ccf3
+    - ev-efa28a0c83ee3d01
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 90 增至 136，说明开发者持续关注，但公开材料没有部署案例、issue 讨论或团队采用记录，无法判断它是否已进入真实工作流。
+    evidence_ids:
+    - ev-aef696239a63ccf3
+    - ev-efa28a0c83ee3d01
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有仓库说明，没有定价页、托管版或商业支持方案，收入来自订阅、托管还是捐赠无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-aef696239a63ccf3
+  - gate: truth
+    status: insufficient
+    reason: 多账号额度调度是否合规、子智能体产出如何合并与人工确认、失败重试与安全边界均未在公开材料中说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-aef696239a63ccf3
+  next_validation: 追踪 clodfarm 仓库的 README、issue 与 discussion，确认是否说明多账号额度调度的合规边界、子智能体产出合并方式，以及是否出现托管版定价或商业支持方案。
+  market: ''
+  job: 使用 Claude Code 的开发者接到一个较大的编码或改造任务时，把任务交给 clodfarm，由它拆成多个子智能体并行推进，并按各账号真实的 5 小时与每周额度安排节奏，开发者从 Claude
+    应用里查看进度并干预，最终拿到拆分执行后的代码或任务产出。
+  job_en: A developer using Claude Code with a large coding or refactoring task hands it to clodfarm,
+    which splits it into sub-agents running in parallel and paces them against each account's real 5-hour
+    and weekly limits; the developer watches and steers from the Claude app and receives the split-executed
+    code or task output.
+  pain: Claude Code 的额度按 5 小时与每周窗口滚动，单账号串行跑大任务时额度很快耗尽、任务被迫中断，开发者得手动盯着用量、手动切账号或等窗口重置，多任务并行也没有统一调度。
+  pain_en: Claude Code quotas roll on 5-hour and weekly windows; running a large task serially on one
+    account burns the quota, forces interruption, and leaves the developer manually watching usage, switching
+    accounts, or waiting for the window to reset, with no unified scheduling for parallel tasks.
+  current_alternative: 旧做法是开发者在单个终端里手动跑 Claude Code，自己盯额度、自己切账号、自己把大任务拆成小步，或者干脆等额度窗口重置再继续。
+  current_alternative_en: The old behaviour is running Claude Code manually in a single terminal, watching
+    quota by hand, switching accounts by hand, splitting large tasks into small steps manually, or simply
+    waiting for the quota window to reset.
+  usage_reason: 推断：相较手动盯额度、手动切账号、手动拆任务，clodfarm 把任务拆分、子智能体调度和按账号真实额度限速这三步合并成一次提交，开发者只需在 Claude 应用里查看和干预，因此已经在用
+    Claude Code、又经常撞额度上限的个人开发者或小团队会在跑大任务时选择它；仓库收藏从 90 增至 136 说明关注度上升，但没有留存或付费证据。
+  usage_reason_en: 'Inference: versus manually watching quota, switching accounts and splitting tasks,
+    clodfarm merges task splitting, sub-agent scheduling and per-account real-quota pacing into a single
+    submission, leaving the developer only to watch and steer in the Claude app; developers or small teams
+    already using Claude Code and regularly hitting quota ceilings would choose it for large tasks. Repository
+    stars rising from 90 to 136 indicate growing attention, but there is no retention or p'

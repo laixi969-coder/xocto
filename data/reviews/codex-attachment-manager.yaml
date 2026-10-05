@@ -1,0 +1,88 @@
+- id: req-initial-codex-attachment-manager-2026-10-05
+  project_slug: codex-attachment-manager
+  level: initial
+  reviewed_at: '2026-10-05T00:56:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长会话中历史图片持续占用上下文、推高请求成本的问题，旧替代是重开会话或手动整理附件，痛点具体且可核对。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  - gate: consensus
+    status: insufficient
+    reason: 90 星只反映关注度，没有用户反馈说明它是否真的被长期留在工作流里。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  - gate: model
+    status: insufficient
+    reason: 开源插件，公开材料没有付费或商业支持路径，收入模式无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  - gate: truth
+    status: insufficient
+    reason: 把图片换成占位符是否会让模型丢失关键信息、进而给出错误修改，公开材料未说明，交付质量边界无法核对。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  next_validation: 收集该仓库的 README 与 issue，确认占位符替换对回答质量的影响，以及是否有用户报告实际节省的请求体积。
+  market: ''
+  job: 开发者在 Codex 里做长会话、反复贴截图排查问题时，需要在发下一条消息前决定哪些历史图片继续占用上下文，让任务能接着跑而不必重开会话。
+  job_en: A developer running a long Codex session and repeatedly pasting screenshots to debug needs to
+    decide, before sending the next message, which past images still occupy context so the task can continue
+    without restarting the session.
+  pain: 历史图片一直留在上下文里，请求越来越重、越来越贵，用户要么忍受成本，要么重开会话丢掉之前的排查线索。
+  pain_en: Past images stay in context, making requests heavier and more expensive; the user either absorbs
+    the cost or restarts the session and loses earlier debugging threads.
+  current_alternative: 旧做法是手动重开会话、把图片另存到本地再重新贴，或者干脆不管成本继续发。
+  current_alternative_en: The old behaviour is manually restarting the session, saving images locally
+    and re-pasting them, or simply ignoring the cost and continuing.
+  usage_reason: 推断：插件把“重开会话或手动整理附件”这一步换成发送前勾选，因此经常用截图排查、又对 token 成本敏感的开发者会尝试它；仓库 90 星说明有开发者关注，但没有使用频率或留存证据。
+  usage_reason_en: 'Inference: the plugin replaces ''restart the session or manually tidy attachments''
+    with a checkbox before sending, so developers who debug with screenshots and are sensitive to token
+    cost would try it; 90 stars indicate developer attention, but there is no usage-frequency or retention
+    evidence.'
+- id: req-full-codex-attachment-manager-2026-10-05
+  project_slug: codex-attachment-manager
+  level: full
+  reviewed_at: '2026-10-05T01:22:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中历史图片持续占用上下文、推高请求体积与成本的问题，旧替代是重开会话或手动整理附件，痛点具体且可核对；这是从产品说明与旧流程作出的工作流结构推理。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 90 星只反映关注度，没有用户反馈、issue 或案例说明它是否被长期留在工作流里，采用强度无法核对。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  - gate: model
+    status: insufficient
+    reason: 开源插件，公开材料没有定价、赞助或商业支持路径，谁付钱无法判断；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  - gate: truth
+    status: insufficient
+    reason: 把未勾选图片换成占位符是否会让模型丢失关键信息、进而给出错误修改，公开材料未说明，交付质量边界无法核对。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认占位符替换对回答质量的影响，以及是否有用户报告实际节省的请求体积。
+  market: ''
+  job: 开发者在 Codex 长会话里反复贴截图排查问题时，需要在发送下一条消息前决定哪些历史图片继续随请求发给模型，让任务接着跑而不必重开会话。
+  job_en: A developer running a long Codex session and repeatedly pasting screenshots to debug needs to
+    decide, before sending the next message, which past images still go to the model, so the task can
+    continue without restarting the session.
+  pain: 历史图片持续留在上下文里，后续请求体积和成本不断累积；用户要么忍受越来越重的请求，要么重开会话丢掉之前的排查线索。
+  pain_en: Past images stay in context, so later requests keep growing in size and cost; the user either
+    absorbs the heavier requests or restarts the session and loses earlier debugging threads.
+  current_alternative: 旧做法是手动重开会话、把图片另存到本地再重新贴，或者干脆不管成本继续发。
+  current_alternative_en: The old behaviour is manually restarting the session, saving images locally
+    and re-pasting them, or simply ignoring the cost and continuing.
+  usage_reason: 推断：插件把“重开会话或手动整理附件”换成发送前勾选，未勾选图片变占位符，任务不中断，因此常用截图排查且在意请求体积的开发者会在长会话中选它；90 星只说明关注度，无留存或使用频率证据。
+  usage_reason_en: 'Inference: the plugin replaces ''restart the session or manually tidy attachments''
+    with a pre-send checkbox, turning unchecked images into placeholders so the task is not interrupted;
+    developers who debug with screenshots and care about request size would choose it in long sessions.
+    90 stars indicate attention only, with no retention or usage-frequency evidence.'

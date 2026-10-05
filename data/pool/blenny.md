@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/blenny
 summary: Organize your macOS 27 menu bar without moving your pointer
 first_seen: '2026-10-02T15:52:03Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

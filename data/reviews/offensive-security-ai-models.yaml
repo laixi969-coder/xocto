@@ -261,3 +261,57 @@
   usage_reason_en: 'Inference: a list centralizes scattered models and may save per-repo searching, but
     public material states no inclusion criteria, deployment method or output, so no verifiable improvement
     over self-searching can be confirmed and this is not a usage reason.'
+- id: req-full-offensive-security-ai-models-2026-10-05
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-05T01:24:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是：授权渗透测试中研究员需要可本地部署、不受安全对齐拦截的模型来完成攻击面验证；痛点是这类模型散落各平台、通用模型会拒绝安全测试提示，导致探测步骤中断。仓库以集中清单形式交付，属工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-a25b763d28ba1a13
+    - ev-45bf914e2498c134
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 415 增至 584，说明社区关注度在上升，但星标只属关注度证据，不能证明目标用户持续使用或把它留在工作流里；公开材料未见 issue、discussion 或用户评价说明实际采用场景。
+    evidence_ids:
+    - ev-a25b763d28ba1a13
+    - ev-45bf914e2498c134
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单仓库，公开材料未给出定价页、赞助、商业授权或企业采购路径，谁付钱无法核验；判断上最可能来自 to B 安全团队或 to VC 的赞助/捐赠，但这是判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-a25b763d28ba1a13
+  - gate: truth
+    status: insufficient
+    reason: 仓库简介只说明收录未审查或安全微调模型，未公开收录清单、部署文档或产出结果，交付能否稳定发生、模型来源与安全边界是否可核对均缺公开证据；清单类交付本身可确定，但内容质量无法验证。
+    evidence_ids:
+    - ev-a25b763d28ba1a13
+    - ev-8afa7ea88090cc6b
+  next_validation: 追踪该仓库 README 与 releases 页面，确认是否公开收录模型清单、部署说明与许可标注，以核验交付内容与安全边界。
+  market: ''
+  job: 安全研究员在获得授权的渗透测试或红队评估中，需要为攻击面验证挑选可本地部署、未做安全对齐限制的模型，把模型权重下载到内网机器上运行，完成对目标系统的探测与验证任务。
+  job_en: In authorized penetration testing or red-team engagements, a security researcher needs to pick
+    locally deployable, unaligned models, download the weights onto internal machines, and run them to
+    complete attack-surface probing and validation tasks.
+  pain: 公开事实只给出仓库定位——集中列出未审查或面向网络安全任务微调的模型；由此可推断的痛点是：这类模型散落在 公开模型社区、各厂商发布页和社区帖中，研究员要逐个搜索、比对许可与本地可部署性，且通用商用模型的安全对齐会拒绝安全测试类提示，导致授权测试中的探测步骤被中断。痛点强度与不采用代价尚无用户反馈或案例佐证，属工作流结构推理。
+  pain_en: 'Public facts only give the repo''s positioning: it aggregates uncensored or security-fine-tuned
+    models. The inferable pain is that such models are scattered across public model community, vendor
+    pages and community posts, so researchers must search and compare licensing and local-deployability
+    one by one, while safety alignment in general commercial models refuses security-testing prompts and
+    interrupts probing steps in authorized engagements. Pain intensity and cost of non-adoption lac'
+  current_alternative: 当前替代方式是研究员自行在 公开模型社区 等模型托管平台按关键词逐个检索、在社区帖与论文中零散收集模型名，再手动核对许可与本地部署条件；公开材料未说明该仓库实际替代了哪一步，也未提供对比说明。
+  current_alternative_en: Today researchers search model-hosting platforms such as public model community
+    keyword by keyword, collect model names piecemeal from community posts and papers, then manually check
+    licensing and local-deployment requirements. Public materials do not show which step this repo actually
+    replaces, nor offer a comparison.
+  usage_reason: 推断：相较逐个平台检索，该仓库把候选模型集中在一处，使研究员在授权测试场景下可直接从清单中筛选并下载本地部署，减少跨平台搜索与比对这一步负担；星标从 415 增至 584
+    说明关注度上升，但尚无用户反馈或案例证明其被长期留在工作流中，因此选择动机属推断而非事实。
+  usage_reason_en: 'Inference: versus searching platform by platform, the repo consolidates candidate
+    models in one place so a researcher in an authorized engagement can filter and download for local
+    deployment directly, cutting the cross-platform search-and-compare step. Stars rising from 415 to
+    584 show attention, but no user feedback or case shows it is retained in the workflow, so the choice
+    motive is inference, not fact.'

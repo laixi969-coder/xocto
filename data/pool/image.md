@@ -35,7 +35,7 @@ summary: "![social-preview|690x345]( https://image.dooo.ng/c/2026/10/04/6ac275d0
   \ BUG 或者可优化项，请一定要提 Issue 或 PR :folded_hands:"
 first_seen: '2026-10-04T15:52:27Z'
 last_seen: '2026-10-05T00:55:56Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

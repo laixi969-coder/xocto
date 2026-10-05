@@ -21,7 +21,7 @@ canonical_url: https://github.com/networkx/networkx/discussions/8933
 summary: NetworkX and pyarrow = 6-7x memory savings
 first_seen: '2026-10-03T21:10:58Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

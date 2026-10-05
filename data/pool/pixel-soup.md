@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/pixel-soup
 summary: Dithered live wallpapers your Mac cooks up itself
 first_seen: '2026-10-02T15:44:25Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

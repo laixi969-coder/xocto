@@ -21,7 +21,7 @@ canonical_url: https://github.com/xop01/ai_goodpractice
 summary: full guide to help you integrate AI in your workflow, for both beginners and experienced users
 first_seen: '2026-10-02T11:01:25Z'
 last_seen: '2026-10-05T00:56:02Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

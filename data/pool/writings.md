@@ -21,7 +21,7 @@ canonical_url: https://writings.stephenwolfram.com/2026/09/whats-the-future-for-
 summary: What's the future for pure math research in the age of AI?
 first_seen: '2026-10-04T07:53:45Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

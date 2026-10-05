@@ -289,3 +289,55 @@
     pages, copy-pasting and reformatting, so analysts who need SEO data inside automated or AI workflows
     would choose it for bulk retrieval; however, public materials contain no user feedback or case confirming
     this motive.'
+- id: req-full-semrush-ai-tool-2026-10-05
+  project_slug: semrush-ai-tool
+  level: full
+  reviewed_at: '2026-10-05T01:24:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 分析师批量获取关键词、域名与外链数据的需求，痛点是网页后台逐项查询与人工搬运到脚本或 AI 助手的重复劳动；公开仓库说明已把查询包装为 CLI 与 MCP 接口，交付路径可确定，但痛点强度属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-d4cf218bff560c75
+    - ev-119a4d9a8d38f806
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数在 52 至 128 之间波动，说明有开发者关注，但收藏与访问量只属关注度证据，不能证明目标用户持续使用或形成强场景；缺少 issue、discussion 或用户评价说明谁在何种场景反复调用。
+    evidence_ids:
+    - ev-ce38a2c19eeb4cac
+    - ev-2bf8e47a0ce2222e
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未显示定价、付费主体或收入路径；可能靠 to C 开发者捐赠或 to B 定制，但均属判断而非已验证事实，也未说明与 Semrush 官方授权关系，存在依赖第三方数据源的风险。
+    evidence_ids:
+    - ev-d4cf218bff560c75
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、可复现实测或 issue，无法确认接口能否稳定返回数据、是否受 Semrush 授权与配额限制，以及人工判断数据含义的边界；交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-119a4d9a8d38f806
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否披露 Semrush 官方授权方式、部署步骤与真实调用案例。
+  market: ''
+  job: SEO 分析师或内容营销运营在需要批量获取关键词、域名与外链数据时，原本要打开 Semrush 网页后台逐项查询、复制结果，现在通过这个开源 MCP server 与 CLI，让 AI 助手或脚本直接调用并拿到结构化数据，再自行判断含义。
+  job_en: An SEO analyst or content marketing operator who needs bulk keyword, domain, and backlink data
+    would otherwise open the Semrush web dashboard and query each item manually; this open-source MCP
+    server and CLI lets an AI assistant or script call the data directly and receive structured results
+    for their own interpretation.
+  pain: 公开材料只说明该工具把关键词、域名与外链查询包装成 CLI 与 MCP 接口，未提供用户抱怨、频率或后果；从工作流结构推理，痛点是网页后台逐项查询与人工搬运数据到脚本或 AI 助手的重复劳动，属于推断而非用户口述。
+  pain_en: Public materials only describe wrapping keyword, domain, and backlink queries into a CLI and
+    MCP interface, with no user complaints, frequency, or consequences; by workflow inference, the pain
+    is the repetitive manual querying and data transfer between the web dashboard and scripts or AI assistants,
+    which is an inference rather than user testimony.
+  current_alternative: 当前替代方式是直接使用 Semrush 网页后台逐项查询并手工复制结果，或自行编写脚本调用 Semrush API；公开材料未说明用户实际如何完成这项工作。
+  current_alternative_en: The current alternative is querying the Semrush web dashboard item by item and
+    copying results manually, or writing custom scripts against the Semrush API; public materials do not
+    show how users actually complete this job today.
+  usage_reason: 推断：相较网页后台逐项查询再手工搬运，该工具通过 CLI 与 MCP 接口把查询动作直接暴露给 AI 助手或脚本，减少人工复制粘贴与格式转换这一步，因此需要把 SEO 数据接入自动化流程或
+    AI 工作流的分析师会在批量取数场景下选择它；公开材料未提供用户反馈或客户案例证实这一动机。
+  usage_reason_en: 'Inference: compared with querying the web dashboard item by item and manually moving
+    data, this tool exposes queries directly to AI assistants or scripts via CLI and MCP, removing the
+    manual copy-paste and format-conversion step, so analysts who need SEO data inside automated or AI
+    workflows would choose it for bulk retrieval; public materials provide no user feedback or customer
+    cases confirming this motive.'

@@ -177,3 +177,45 @@
     one key action and marks the matching frames during transcription, removing the manual steps of screenshotting,
     aligning text with images and pasting into the agent, so developers debugging UI issues in Claude
     Code / Codex would choose it when they need to point at exact frames.'
+- id: req-full-blurt-2026-10-05
+  project_slug: blurt
+  level: full
+  reviewed_at: '2026-10-05T01:22:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决语音转文本的录入需求，但候选证据全是 blurt 一词的词典释义与同名影视条目，未说明替代了哪一步旧工作、谁在什么场景必须用它，痛点刚性无法判断。
+    evidence_ids:
+    - ev-d7f1a3d6737ea7ab
+    - ev-e42d77d6b328ac4a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Blurt 官方产品页或 AssemblyAI Dictation API 文档，确认其实际功能范围、计费方式与是否面向特定录入工作流。
+  market: ''
+  job: 文字工作者或客服、销售支持人员在写邮件、记录会议或整理工单时，按住按键说话，把语音交给 AssemblyAI 听写接口转成可粘贴文本，再自行校对。
+  job_en: Writers, support agents or sales staff hold a key to speak while drafting emails, taking meeting
+    notes or logging tickets, sending audio to the AssemblyAI dictation API to get pasteable text they
+    still proofread themselves.
+  pain: 候选材料未提供任何用户抱怨、替代行为或采用证据，无法确认打字慢于说话、长文本录入耗时这一痛点是否真实存在及其刚性。
+  pain_en: The candidate material offers no user complaints, workaround behavior or adoption evidence,
+    so it cannot confirm whether the pain of typing being slower than speaking and long-form entry being
+    time-consuming is real or rigid.
+  current_alternative: 系统自带听写、手机语音输入法或人工打字；候选材料未记录任何用户实际使用的替代方式。
+  current_alternative_en: Built-in OS dictation, mobile voice keyboards or typing by hand; the candidate
+    material records no actual user workaround.
+  usage_reason: 推断：按键触发的独立听写可能减少误触发与切换输入法的步骤，但材料未说明与系统听写的具体差异，也没有用户反馈支持选择动机，因此无法判断哪类用户会在什么情况下选用它。
+  usage_reason_en: 'Inference: key-triggered standalone dictation might cut misfires and input-method
+    switching, but the material states no concrete difference from OS dictation and no user feedback supports
+    the choice motive, so which users would pick it and when remains undetermined.'

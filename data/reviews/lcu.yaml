@@ -1,0 +1,85 @@
+- id: req-initial-lcu-2026-10-05
+  project_slug: lcu
+  level: initial
+  reviewed_at: '2026-10-05T00:56:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决模型操作界面能力被绑定在单一应用内的问题，但材料未说明具体旧流程与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-00b1cf36bc474213
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，仅有星标与fork等关注度指标，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-00b1cf36bc474213
+  - gate: model
+    status: insufficient
+    reason: 未进入：开源项目无定价与买方信息，无法判断钱来自企业适配、托管服务还是支持合同。
+    evidence_ids:
+    - ev-00b1cf36bc474213
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对界面操作在真实业务系统中的成功率与安全边界。
+    evidence_ids:
+    - ev-00b1cf36bc474213
+  next_validation: 收集lcu仓库的README、issue与discussion，确认其支持的harness范围、实际可完成的界面任务类型以及是否有企业用户提出适配需求。
+  market: ''
+  job: AI应用开发者在搭建自己的agent运行环境、需要让模型直接操作图形界面时，接入lcu以在自选harness内执行界面动作。
+  job_en: An AI application developer building an agent runtime who needs the model to operate a graphical
+    interface integrates lcu to perform interface actions inside a chosen harness.
+  pain: 公开材料只说明能力被解耦，未给出开发者遇到的具体阻碍、失败场景或抱怨，痛点无法从现有事实还原。
+  pain_en: The material only states the capability is decoupled; it gives no specific blocker, failure
+    case or complaint from developers, so the pain cannot be reconstructed from available facts.
+  current_alternative: 公开材料未提及替代方式，按常识推断开发者此前直接使用原应用内置的计算机操作能力，但这是推断而非材料支持的事实。
+  current_alternative_en: No alternative is mentioned; by common inference developers previously used
+    the computer-use capability built into the host app, but this is inference rather than a fact supported
+    by the material.
+  usage_reason: 无法判断：材料未说明解耦后减少了哪一步集成负担或改善了哪项可核对结果，星标数只反映关注度，不能解释开发者为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which integration burden decoupling removes
+    or which checkable result improves, and star counts reflect attention only, not why a developer would
+    choose it.'
+- id: req-full-lcu-2026-10-05
+  project_slug: lcu
+  level: full
+  reviewed_at: '2026-10-05T01:23:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决模型操作界面能力被绑定在单一应用内的问题，但材料未说明具体旧流程与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-ef824077a48c40d8
+    - ev-cdf4ab3f5c7f85ba
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集lcu仓库的README、issue与discussion，确认其支持的harness范围、实际可完成的界面任务类型以及是否有企业用户提出适配需求。
+  market: ''
+  job: AI应用开发者在搭建自有agent运行环境时，希望让模型直接操作图形界面，把Codex的计算机操作能力从原应用中解耦出来，在自选harness里执行点击、输入等界面动作。
+  job_en: An AI application developer building a custom agent runtime wants the model to operate a graphical
+    interface directly, decoupling Codex's computer-use capability from its host app to perform clicks
+    and typing inside a chosen harness.
+  pain: 公开材料只说明能力被解耦，未给出开发者遇到的具体阻碍、失败场景或抱怨，痛点无法从现有事实还原。
+  pain_en: The material only states the capability is decoupled; it gives no specific blocker, failure
+    case or complaint from developers, so the pain cannot be reconstructed from available facts.
+  current_alternative: 公开材料未提及替代方式，按常识推断开发者此前直接使用原应用内置的计算机操作能力，但这是推断而非材料支持的事实。
+  current_alternative_en: No alternative is mentioned; by common inference developers previously used
+    the computer-use capability built into the host app, but this is inference rather than a fact supported
+    by the material.
+  usage_reason: 无法判断：材料未说明解耦后减少了哪一步集成负担或改善了哪项可核对结果，星标数只反映关注度，不能解释开发者为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which integration burden decoupling removes
+    or which checkable result improves, and star counts reflect attention only, not why a developer would
+    choose it.'

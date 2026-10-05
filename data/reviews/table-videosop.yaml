@@ -260,3 +260,52 @@
     SOPs, rules, templates and prompts into fillable tables, so users can fill them in to obtain an executable
     process, reducing the burden of drafting from scratch and aligning standards; thus directors and content
     operators needing standardized, batch AI video processes would choose it before shooting.'
+- id: req-full-table-videosop-2026-10-05
+  project_slug: table-videosop
+  level: full
+  reviewed_at: '2026-10-05T01:25:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开拍前分镜、节奏与提示词缺乏可复用流程的问题，痛点在于经验散落、换项目要重来；公开事实仅有仓库说明与收藏数，用户任务与旧替代由工作流结构推理得出，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-caa1fc011f1c68c1
+    - ev-ec8966fb762ac0ee
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 75 增至 120，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或评价显示编导、剪辑真的把它放进日常制作流程，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-caa1fc011f1c68c1
+    - ev-366f4103aaf80e6d
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费记录或采购信息，谁付钱、按什么单位收费均未披露；只能判断可能靠赞助、咨询或衍生服务变现，属推断而非已验证事实。
+    evidence_ids:
+    - ev-ec8966fb762ac0ee
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明称提供 SOP、规则、模板与提示词，但公开材料未展示模板实际内容、交付形态或使用后的产出结果，能否稳定交付一份可执行流程尚缺可复现证据。
+    evidence_ids:
+    - ev-caa1fc011f1c68c1
+    - ev-79dbf83ee2fc36c6
+  next_validation: 追踪该 公开代码仓库 仓库的 README、模板文件与 issue/discussion，确认模板实际内容、使用方式以及是否有用户反馈其替代了原有分镜流程。
+  market: ''
+  job: 短视频或广告片的编导、剪辑在开拍前，面对脚本或客户 brief，要定出分镜、节奏、镜头提示词和可执行的制作流程，交给拍摄或 AI 生成环节执行。
+  job_en: Before shooting, short-video or ad directors and editors take a script or client brief and must
+    produce shot breakdowns, pacing, shot prompts and an executable production flow for the shoot or AI
+    generation stage.
+  pain: 公开材料只说明这是 AI 视频制作的 SOP、规则、模板与提示词集合，未提供用户抱怨或案例；从工作流结构推理，分镜与提示词经验散落在个人笔记和零散文档中，换人或换项目就要重新摸索，返工成本落在开拍前这一段。
+  pain_en: Public materials only describe a collection of AI video SOPs, rules, templates and prompts,
+    with no user complaints or cases; by workflow inference, shot-breakdown and prompt know-how sits in
+    personal notes and scattered docs, so it must be re-derived on every handover or new project, with
+    rework landing in the pre-shoot stage.
+  current_alternative: 编导和剪辑目前靠个人经验、零散文档、聊天记录或通用提示词库拼出制作流程，没有统一的表格化 SOP 可复用。
+  current_alternative_en: Directors and editors currently assemble a production flow from personal experience,
+    scattered docs, chat history or generic prompt libraries, with no reusable tabular SOP.
+  usage_reason: 推断：相较自己从零整理，用户按表格逐项填写即可得到一份可执行的制作流程，省去重新组织分镜、节奏与提示词这一步；经常做 AI 短视频或广告片、需要把流程交给他人执行的编导和内容运营会在开拍前选择它。
+  usage_reason_en: 'Inference: instead of building the flow from scratch, users fill in the table row
+    by row and get an executable production flow, skipping the step of re-organizing shot breakdown, pacing
+    and prompts; directors and content operators who regularly produce AI short videos or ads and must
+    hand the flow to others would choose it before shooting.'

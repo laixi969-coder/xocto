@@ -444,3 +444,52 @@
     a subject and progress yields a route and explanations, cutting the steps of switching sources and
     self-sequencing. It suits self-learners who want a ready-made path with instant explanation. Stars
     rising from 382 to 560 only show attention, not sustained use.'
+- id: req-full-study-mate-2026-10-05
+  project_slug: study-mate
+  level: full
+  reviewed_at: '2026-10-05T01:25:00Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学一门科目时路线不清、概念卡壳、缺少练习落地的问题，痛点刚性来自自学本身的高放弃率结构；公开材料给出输入（科目与进度）与输出（路线、讲解、项目任务）的闭环，属工作流结构推理，交付可确定，故价值关成立。
+    evidence_ids:
+    - ev-6a66b2ce3a32c135
+    - ev-c0a8f7c25bd1d733
+  - gate: consensus
+    status: supported
+    reason: 公开代码仓库 仓库收藏从 413 增至 596，说明开发者与自学人群持续关注并把它加入收藏；但收藏属关注度证据，不能证明目标用户已长期留在工作流，故共识成立而强度有限。
+    evidence_ids:
+    - ev-6a66b2ce3a32c135
+    - ev-5f30bed44f9672aa
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济说明，无法判断钱来自学生订阅、学校采购还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-9cf0e6be9da26bd6
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺输出路线与讲解，但练习是否真正完成仍需学习者自行确认，公开材料未见交付结果核验、留存或安全边界说明，交付确定性尚未被公开证据支持。
+    evidence_ids:
+    - ev-dd5e865273acf44a
+  next_validation: 追踪 Study-Mate 仓库的 README、issue 与 discussion，确认是否有真实用户报告用它完成某科目学习、替代了哪些旧流程，以及是否出现定价或付费入口。
+  market: ''
+  job: 自学一门科目的学生（如备考或转行者）在选定科目后，需要把零散教材与视频整理成一条可执行的学习路线，并在每个知识点上获得讲解、在练习项目上获得任务拆解，最终学完并检验自己是否掌握。
+  job_en: A student self-studying a subject (e.g., exam prep or career switch) needs to turn scattered
+    textbooks and videos into an executable learning path, get explanations at each knowledge point, and
+    receive project task breakdowns, so as to finish the subject and check mastery.
+  pain: 自学最大的摩擦是不知道先学什么后学什么、卡在某个概念时无人即时讲解、以及缺少可动手的练习把知识落地；公开材料只给出产品定位，未提供用户抱怨或放弃率数据，痛点强度属工作流结构推理。
+  pain_en: The main friction in self-study is not knowing what to learn in what order, having no one to
+    explain a concept when stuck, and lacking hands-on exercises to consolidate knowledge; public materials
+    only state the product positioning, with no user complaints or dropout data, so pain intensity is
+    a workflow-structure inference.
+  current_alternative: 旧做法是自行搜索课程大纲、在视频平台按播放列表顺序学习、遇到不懂的再单独搜索或发帖提问，练习则靠教材课后题或零散项目教程拼凑。
+  current_alternative_en: The old approach is to search for a syllabus, follow a video platform playlist
+    in order, separately search or post questions when stuck, and assemble practice from textbook exercises
+    or scattered project tutorials.
+  usage_reason: 推断：相较自行拼凑大纲与逐个搜索讲解，它把“定路线—讲知识—给项目任务”合并为一次连续输出，减少了用户在多个平台间切换和自行编排顺序的步骤，因此适合刚开始自学、缺乏路线判断力的学生；但练习是否真正完成仍需学习者自己确认，公开材料未显示留存或复购。
+  usage_reason_en: 'Inference: compared with assembling a syllabus and searching explanations one by one,
+    it merges path-setting, explanation, and project tasks into one continuous output, cutting the steps
+    of switching platforms and self-sequencing; this suits students starting self-study without path judgment,
+    though exercise completion still depends on the learner and no retention or repeat-use data is public.'

@@ -509,3 +509,57 @@
     install/management, and AI recommendations compresses ''find plugin - judge compatibility - install
     manually - fix dependencies'' into a single click, so developers who do not want to maintain plugin
     dependencies but need swappable local tools and memory would choose it when assembling a person'
+- id: req-full-deepseek-harness-2026-10-05
+  project_slug: deepseek-harness
+  level: full
+  reviewed_at: '2026-10-05T01:23:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地运行 DeepSeek 助手时工具、记忆、界面需自行拼装配置的痛点，公开材料显示插件发现、一键安装与跨平台启动被收进桌面端；这是工作流结构推理，痛点刚性与交付闭环可还原，但缺用户口述与量化验证。
+    evidence_ids:
+    - ev-707f745b5b02517c
+    - ev-0bc5ab7f8893e52f
+    - ev-78ec5c70c78c5b36
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 597 增至 600，内部组件 dsh-libreoffice-kit 收藏由 16 升至 136，说明开发者关注度在上升；但收藏与推送只是关注度证据，不能证明目标用户已持续使用或形成稳定场景。
+    evidence_ids:
+    - ev-707f745b5b02517c
+    - ev-0bc5ab7f8893e52f
+    - ev-78ec5c70c78c5b36
+    - ev-c4888e4f2cb13673
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与内部组件，没有定价页、付费主体或采购记录；钱可能来自 to C 开发者订阅或 to B 支持服务，但这是判断而非已验证事实，单位经济无法核验。
+    evidence_ids:
+    - ev-707f745b5b02517c
+    - ev-78ec5c70c78c5b36
+  - gate: truth
+    status: insufficient
+    reason: 公开材料说明支持 Windows 与 macOS 并内置插件管理，但未见部署文档、可复现安装记录或安全边界说明，交付能否稳定发生、人工介入边界仍缺公开证据。
+    evidence_ids:
+    - ev-707f745b5b02517c
+    - ev-e99aa0930ab7441f
+  next_validation: 追踪 DeepSeek Harness 官方仓库的 README、release 与 issue/discussion，确认插件安装流程、支持平台与真实部署反馈是否可复现。
+  market: ''
+  job: 开发者和本地 AI 用户在 Windows 或 macOS 上运行 DeepSeek 助手时，处理自己的工具、记忆与界面配置，需要把这些能力拆成可替换插件并在本机完成安装、管理与调用。
+  job_en: Developers and local-AI users running a DeepSeek assistant on Windows or macOS handle their
+    own tools, memory, and interface configuration, and need to split these capabilities into swappable
+    plugins that can be installed, managed, and invoked locally.
+  pain: 公开材料显示，助手能力此前分散在模型、工具与界面各处，用户要自行拼装和配置；插件发现、安装与管理缺少统一入口，本地运行还涉及跨平台启动与内部组件依赖，不解决就得反复手工折腾环境。
+  pain_en: Public materials show assistant capabilities were scattered across model, tools, and interface,
+    leaving users to assemble and configure them by hand; plugin discovery, installation, and management
+    lacked a single entry point, and local running involves cross-platform startup and internal component
+    dependencies, so leaving it unsolved means repeated manual environment wrangling.
+  current_alternative: 旧做法是用户自行拼装脚本、手动管理依赖与插件，或直接使用云端助手而放弃本地可控性；公开材料未给出更细的替代流程对比。
+  current_alternative_en: The old way is users assembling scripts themselves, managing dependencies and
+    plugins manually, or using a cloud assistant and giving up local control; public materials do not
+    give a finer comparison of alternatives.
+  usage_reason: 推断：相较手工拼装，它把插件发现、热点推送、一键安装与 AI 推荐收进一个零代码桌面端，减少用户逐项配置和跨平台启动的步骤，因此需要本地可控又不想写胶水代码的开发者会在自建助手时选择它。
+  usage_reason_en: 'Inference: compared with manual assembly, it folds plugin discovery, trending pushes,
+    one-click install, and AI recommendation into a zero-code desktop client, cutting step-by-step configuration
+    and cross-platform startup work, so developers who want local control without writing glue code would
+    choose it when building their own assistant.'

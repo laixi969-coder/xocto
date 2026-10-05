@@ -245,3 +245,42 @@
   usage_reason_en: 'No causal explanation is possible: all evidence points to a same-named Japanese word
     and a same-named cybersecurity firm, and nothing shows this linter''s concrete checks, delivery form,
     or which users would pick it in which situation.'
+- id: req-full-seiso-2026-10-05
+  project_slug: seiso
+  level: full
+  reviewed_at: '2026-10-05T01:24:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 生成文档格式不统一、人和智能体难读的问题，但公开证据只有一句仓库描述，没有用户抱怨、旧做法或不用会失去什么的记录，需求与痛点无法还原。
+    evidence_ids:
+    - ev-8d163d4e3d36c584
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 seiso 仓库的 README、规则文件、issue 与 discussion，确认它实际检查哪些 Markdown 约定、被谁在什么仓库中采用。
+  market: ''
+  job: 软件工程师或技术文档维护者在仓库中接收 AI 生成的 Markdown 文档时，需要按统一约定整理并检查这些文档，使其同时可被人和智能体读取。
+  job_en: A software engineer or docs maintainer receiving AI-generated Markdown in a repository needs
+    to normalize and lint those docs against a shared convention so both humans and agents can read them.
+  pain: 公开材料只有一句仓库描述，没有用户抱怨、issue 或案例说明 AI 生成文档在格式或可读性上造成什么具体代价，痛点无法还原。
+  pain_en: Public material is limited to a one-line repository description; no user complaints, issues,
+    or cases show what concrete cost AI-generated docs impose, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明用户现在用什么替代，例如人工整理、通用 Markdown linter 或提示词约定，均无证据。
+  current_alternative_en: Public material does not show the current alternative, such as manual cleanup,
+    a generic Markdown linter, or prompt conventions; none is evidenced.
+  usage_reason: 无法解释用户为何选择它：缺少规则内容、交付形式、使用反馈或案例，只能推断它可能减少人工统一格式的步骤，但这是推断而非事实。
+  usage_reason_en: 'Why users would choose it cannot be explained: rule content, delivery form, feedback,
+    and cases are absent; one can only infer it might cut manual formatting steps, which is inference,
+    not fact.'

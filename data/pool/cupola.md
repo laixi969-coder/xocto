@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/cupola
 summary: Apple calendar, reminders & notes, together in one app
 first_seen: '2026-09-29T11:45:59Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

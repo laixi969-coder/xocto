@@ -128,3 +128,54 @@
     drafting, browser publishing, and self-verification into one pipeline, removing the copy-paste-and-login
     step and making publish success programmatically checkable; hence operators without API access who
     need steady daily posting would pick it.'
+- id: req-full-tweetytweets-2026-10-05
+  project_slug: tweetytweets
+  level: full
+  reviewed_at: '2026-10-05T01:25:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无 API key、无付费抓取条件下维持 X/Twitter 持续更新的需求：调研选题、按语气成稿、真实浏览器发布并自检，替代手工多步流程；停更损失触达与品牌连续性，痛点刚性，交付闭环可确定。此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-6d10d5af2e1e8bcd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 54，说明开发者社区持续关注，但收藏与关注只属规模信号，不能证明目标运营者已把它留在日常发布工作流；缺少 issue、discussion 或用户评价说明实际使用场景。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-6d10d5af2e1e8bcd
+    - ev-ab213b4e7fde018f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，无法判断收入来自个人订阅、团队采购还是仅靠开源与融资维持；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+  - gate: truth
+    status: insufficient
+    reason: 真实浏览器发布与自检的稳定性、账号授权方式、内容审核环节与失败重试边界均未在公开材料中说明，交付能否确定性发生尚缺可复现证据。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-6d10d5af2e1e8bcd
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认真实浏览器发布的账号授权方式、失败重试与自检机制，以及是否有用户公开描述替代了原有发布流程。
+  market: ''
+  job: 个人品牌或小团队运营者在需要维持 X/Twitter 账号持续更新时，运行该代理先调研所在领域话题、按设定语气写成帖子、通过真实浏览器发布并回查发布结果，最终得到已发布并自检过的帖子。
+  job_en: A personal-brand or small-team operator who must keep an X/Twitter account posting continuously
+    runs this agent to research niche topics, draft posts in a set voice, publish through a real browser,
+    and verify the published result, ending with posted and self-checked tweets.
+  pain: 公开说明显示其针对的是无 API key、无付费抓取工具条件下仍要持续产出的摩擦：调研选题、按个人语气成稿、发布与回查分散在多步手工操作中，账号停更或发布失败会直接损失触达与品牌连续性；但公开材料未给出停更代价或频率的量化数据。
+  pain_en: 'The public description targets the friction of producing continuously without an API key or
+    paid scrapers: research, voice-matched drafting, publishing, and verification are split across manual
+    steps, and going silent or failing to post costs reach and brand continuity; no quantified cost or
+    frequency is disclosed.'
+  current_alternative: 旧做法是人工刷 X/Twitter 与行业信息源找选题、手写或借助通用写作工具成稿、手动登录发布并自己回查是否发出；另一类是依赖官方 API key 或付费抓取服务的自动化工具。
+  current_alternative_en: The old way is manually scanning X/Twitter and industry sources for topics,
+    hand-writing or using generic writing tools, logging in to post by hand, and checking the result yourself;
+    another route is automation that depends on an official API key or paid scraping services.
+  usage_reason: 推断：相较手工发布或依赖 API key 的自动化，它用真实浏览器完成发布并自检结果，省去申请与维护 API 凭证、以及发布后人工回查这一步；因此没有 API 权限、又需要账号持续更新的个人或小团队运营者会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manual posting or API-key-dependent automation, it publishes through
+    a real browser and self-verifies the result, removing the need to obtain and maintain API credentials
+    and to manually re-check after posting; operators without API access who still need continuous updates
+    would choose it for that reason.'

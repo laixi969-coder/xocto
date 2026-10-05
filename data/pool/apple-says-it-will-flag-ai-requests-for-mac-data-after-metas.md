@@ -1,11 +1,13 @@
 ---
 slug: apple-says-it-will-flag-ai-requests-for-mac-data-after-metas
-name: Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints
+name: Apple
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Apple 表示将在 Mac 上标记 AI 应用对本地数据的请求，起因是 Meta 的 Muse 引发投诉。对在 Mac 上处理本地文件的 AI 应用而言，数据访问从静默变为可见，用户授权环节被前置；具体标记形式与生效范围仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: Apple says it will flag AI requests for Mac data, after complaints about Meta's Muse. For
+  AI apps handling local files on Mac, data access moves from silent to visible and user consent is pushed
+  forward; the exact form and scope of the flagging still need verification.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNK
 summary: Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints Reuters
 first_seen: '2026-10-02T22:43:45Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints
+# Apple
 
 Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints Reuters
 

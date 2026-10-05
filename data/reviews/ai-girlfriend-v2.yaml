@@ -336,3 +336,53 @@
     local voice cloning into a Windows install flow, so users need not stitch memory and speech components
     themselves to get cross-session continuity and a familiar voice, making it attractive to users wanting
     a private, customizable desktop companion.'
+- id: req-full-ai-girlfriend-v2-2026-10-05
+  project_slug: ai-girlfriend-v2
+  level: full
+  reviewed_at: '2026-10-05T01:21:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是陪伴对话中“记不住、声音不是自己的”这一需求：通用聊天机器人会话间遗忘上下文，用户需反复重述关系设定，云端语音又带来私密数据外流顾虑。仓库说明提供 DSH 长期记忆与本地声音克隆，构成可还原的输入—动作—交付闭环，属工作流结构推理；痛点刚性来自情感陪伴对连续人格的依赖，但尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-c6f2fe7fdd4dfe67
+    - ev-9ab57c01a9d166e3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 48 增至 55，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标用户持续使用或形成强场景；公开材料未见 issue、discussion 或用户评价说明谁在何种情境下长期使用。
+    evidence_ids:
+    - ev-c6f2fe7fdd4dfe67
+    - ev-f0e3a1538b5d6540
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费路径或买方身份；钱可能来自个人用户捐赠、定制部署或后续订阅，但均属判断而非已验证事实，无法确认单位经济。
+    evidence_ids:
+    - ev-9ab57c01a9d166e3
+  - gate: truth
+    status: insufficient
+    reason: 长期记忆的实际效果、本地声音克隆的稳定性、WSL2 数字人的部署门槛与安全边界，均缺可复现的公开文档或实测记录；承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-c6f2fe7fdd4dfe67
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认长期记忆与本地声音克隆的实际部署步骤、已知限制及用户反馈，作为交付确定性的公开证据。
+  market: ''
+  job: 个人用户在 Windows 桌面上想要一个能记住过往对话、用自己克隆的声音回应的陪伴对象时，安装并运行这个项目，把长期记忆、本地声音克隆和可选 WSL2 数字人组合成一个持续对话的桌面伴侣。
+  job_en: An individual Windows user who wants a companion that remembers past conversations and replies
+    in a cloned voice installs and runs this project, combining DSH long-term memory, local voice cloning
+    and an optional WSL2 digital human into a persistent desktop companion.
+  pain: 通用聊天机器人每次会话后遗忘上下文，用户要反复重述背景和关系设定；同时云端语音合成让用户担心私密对话与声音数据外流，而现成陪伴产品又无法用用户自己的声音。
+  pain_en: General chatbots forget context between sessions, forcing users to restate background and relationship
+    settings, while cloud voice synthesis raises privacy concerns about intimate conversations and voice
+    data, and off-the-shelf companion products cannot speak in the user's own voice.
+  current_alternative: 用户目前用通用聊天机器人（如网页版大模型）加手动复述设定来维持连续性，或使用云端 AI 陪伴 App；声音方面依赖平台预置音色，无法本地克隆自己的声音。
+  current_alternative_en: Users currently rely on general chatbots plus manually restating context to
+    keep continuity, or cloud AI companion apps; for voice they depend on platform preset timbres and
+    cannot clone their own voice locally.
+  usage_reason: 相较通用聊天机器人每次重述设定的旧做法，该项目把长期记忆与本地声音克隆放在同一 Windows 本地流程里，用户不必每轮重建人设，也不必把私密语音上传云端；因此在意隐私、又想要连续人格与熟悉声音的
+    Windows 个人用户会在自建陪伴场景下选择它（推断，基于仓库功能说明，尚无用户反馈佐证）。
+  usage_reason_en: Compared with restating context to a general chatbot each session, this project puts
+    long-term memory and local voice cloning into one local Windows workflow, so users need not rebuild
+    the persona every turn nor upload intimate voice to the cloud; Windows users who care about privacy
+    yet want a continuous persona and a familiar voice would therefore choose it in a self-hosted companion
+    scenario (inference from the repository description, not yet backed by user feedback).

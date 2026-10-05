@@ -166,3 +166,48 @@
     it to avoid writing separate instrumentation per agent; but public materials do not say what data
     the plugins collect or how they connect to existing backends, and no user feedback supports this motive,
     so user choice cannot be confirmed.'
+- id: req-full-otelyssey-2026-10-05
+  project_slug: otelyssey
+  level: full
+  reviewed_at: '2026-10-05T01:24:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码 agent 缺少统一可观测性接入的问题，痛点方向成立；仓库自动校验、评审并收录插件，减少手动拼装与适配，交付可确定。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 72 增至 100，说明社区注意到它，但没有采用、评价或讨论证据，无法判断场景共识。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+    - ev-1d5c0272292cc965
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、托管服务或支持收费，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+  - gate: truth
+    status: insufficient
+    reason: 仓库自动校验与收录贴近可观测性接入的第一性目标，但缺少部署文档与投递实测，承诺能否确定性交付不明。
+    evidence_ids:
+    - ev-21e3fa124c2f97c7
+  next_validation: 追踪 otelyssey 仓库的 issue 与 discussion，确认插件实际被哪些团队部署、替代了什么旧流程。
+  market: ''
+  job: 平台或可观测性工程师在给团队使用的编码 agent 加监控时，通过这个仓库提交插件 issue，由仓库自动校验、评审并收录，最终得到可被 agent 加载的 OpenTelemetry 插件。
+  job_en: Platform or observability engineers adding monitoring to team coding agents submit a plugin
+    issue to this repository, which auto-validates, reviews and lists it, yielding an OpenTelemetry plugin
+    loadable by the agent.
+  pain: 编码 agent 缺少统一的可观测性接入方式，团队难以采集 agent 运行数据并接入现有监控后端，需要自行拼装插件。
+  pain_en: Coding agents lack a unified observability integration, making it hard for teams to collect
+    agent runtime data and connect to existing monitoring backends without assembling plugins themselves.
+  current_alternative: 工程师目前自行编写或拼装 OpenTelemetry 插件，或依赖各 agent 厂商自带的监控方案。
+  current_alternative_en: Engineers currently write or assemble OpenTelemetry plugins themselves, or rely
+    on each agent vendor's built-in monitoring.
+  usage_reason: 推断：相较自行拼装插件，它通过仓库自动校验、评审并收录插件，减少手动维护与适配这一步，因此需要给多种编码 agent 统一加监控的平台团队会选择它；公开材料没有客户案例或付费证据，无法确认采用。
+  usage_reason_en: 'Inference: versus self-assembling plugins, it auto-validates, reviews and lists plugins
+    through the repository, removing the manual maintenance and adaptation step, so platform teams needing
+    unified monitoring across multiple coding agents would choose it; public materials show no customer
+    cases or payment evidence, so adoption is unconfirmed.'

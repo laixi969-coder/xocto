@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/capybara-court
 summary: Tiny disputes, gently settled by a capybara judge
 first_seen: '2026-10-03T19:47:47Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

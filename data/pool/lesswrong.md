@@ -21,7 +21,7 @@ canonical_url: https://lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-thi
 summary: How My Students Think About AI
 first_seen: '2026-09-11T01:33:36Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

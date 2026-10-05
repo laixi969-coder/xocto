@@ -21,7 +21,7 @@ canonical_url: https://pandax1.com
 summary: the world's first personal AI computer
 first_seen: '2026-09-28T01:35:14Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

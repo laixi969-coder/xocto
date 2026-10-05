@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1MenJzb25nZF9l
 summary: AI降低生产成本却未自动带来收入增长：生产率提升不等于收益权提升 虎嗅网
 first_seen: '2026-10-04T16:06:40Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

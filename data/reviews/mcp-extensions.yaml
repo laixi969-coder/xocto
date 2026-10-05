@@ -242,3 +242,60 @@
     and invocation, so users act inside the same conversation and skip the jump-out and manual-transfer
     step. Developers who want to reach ChatGPT''s existing users without building their own chat front
     end would choose it when the capability must be delivered in-conversation.'
+- id: req-full-mcp-extensions-2026-10-05
+  project_slug: mcp-extensions
+  level: full
+  reviewed_at: '2026-10-05T01:24:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是第三方功能在对话内被原生分发与调用的需求，痛点在开发者需自建站点或裸 API、用户须跳出对话切换上下文；不采用则功能难以被对话内自然触达。公开事实仅有仓库定位与 star
+      增长，痛点与替代路径属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+    - ev-b1196dd6f582677f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 由 225 升至 750，说明开发者社区持续关注该机制，但 star 与收藏只属关注度证据，不能证明目标用户已把它留在工作流或形成强场景共识；缺少 issue、discussion
+      与采用案例。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+    - ev-adfbae04ef150bfc
+    - ev-b1196dd6f582677f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、审核与计费规则，谁付钱（开发者、终端用户还是 OpenAI 侧分成）无法核验；这是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生取决于审核、可用范围与安全边界，公开材料只给出仓库定位，未见部署文档、审核标准或可复现的调用结果，无法确认承诺可确定性兑现。
+    evidence_ids:
+    - ev-05f6f573e436cf70
+  next_validation: 追踪 openai/mcp-extensions 仓库的 README、提交规范与 issue/discussion，确认审核流程、可用范围与是否有第三方插件实际上线并被调用的公开记录。
+  market: ''
+  job: 第三方开发者（独立开发者或 SaaS 团队）在已有自有服务或数据的前提下，按 OpenAI 的扩展机制把功能封装成 ChatGPT 内原生形态的插件并提交，让终端用户在对话中直接调用该功能，而无需离开对话去打开另一个网页或应用。
+  job_en: Third-party developers (indie builders or SaaS teams) who already have a service or dataset
+    package it as a native-feeling ChatGPT extension under OpenAI's mechanism and submit it, so end users
+    can invoke that capability directly inside the conversation instead of leaving it for another site
+    or app.
+  pain: 公开事实只给出仓库定位与 star 数，没有用户抱怨、issue 或案例说明具体痛点；从工作流结构推理，痛点在分发与调用环节：开发者此前要把功能做成独立站点或 API，用户需跳出对话、另行注册和切换上下文，功能难以被对话内自然触达。这是推理，不是用户口述。
+  pain_en: 'Public evidence only gives the repo positioning and star counts, with no user complaints,
+    issues or cases naming a pain; by workflow inference the friction sits in distribution and invocation:
+    developers previously shipped a standalone site or API, and users had to leave the conversation, register
+    separately and switch context, so the capability was hard to reach naturally inside chat. This is
+    inference, not user testimony.'
+  current_alternative: 旧做法是开发者自建网页应用或开放 API 让用户自行接入，或依赖 ChatGPT 早期插件/自定义 GPT 等既有分发形态；用户侧则是在浏览器标签间切换、复制粘贴内容。公开材料未说明这些替代方式的具体使用比例。
+  current_alternative_en: The old path is a self-built web app or an open API the user wires up themselves,
+    or earlier distribution forms such as ChatGPT plugins and custom GPTs; on the user side it means switching
+    browser tabs and copy-pasting content. Public materials do not quantify usage of these alternatives.
+  usage_reason: 推断：相较自建站点或裸 API，该机制让开发者用一套声明式封装把功能直接挂进对话，用户不必跳出对话、不必单独注册即可调用，减少的是“离开对话—切换应用—回填结果”这一步负担；因此已有服务、希望被对话内自然触达的开发者会在需要对话内分发时选择它。仓库
+    star 从 225 增至 750 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus a self-built site or a bare API, this mechanism lets developers
+    wrap a capability declaratively and attach it inside the conversation, so users invoke it without
+    leaving chat or registering separately, removing the ''leave chat, switch app, paste result back''
+    step; developers with an existing service who want in-conversation reach would therefore choose it
+    when distribution inside chat matters. Stars rising from 225 to 750 shows attention, not sustained
+    usage'

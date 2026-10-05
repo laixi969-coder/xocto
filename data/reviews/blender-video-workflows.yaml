@@ -131,3 +131,54 @@
     in a 3D space before generation, removing the blind prompt-iteration step; creators who must replicate
     a specific reference or keep character consistency would choose it in that situation. This is an inference
     from workflow structure, not yet backed by user feedback.
+- id: req-full-blender-video-workflows-2026-10-05
+  project_slug: blender-video-workflows
+  level: full
+  reviewed_at: '2026-10-05T01:22:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把参考视频或 Blender 白模动画转成 AI 视频提示词的需求，痛点是画面与运镜难以用文字复现、只能反复抽卡；不解决则出片不可控。公开仓库说明已给出输入—动作—交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-102e0cbafc096002
+    - ev-3033b6e1c8d413e8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 68 缓慢升至 74，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或用户反馈说明谁在何种场景持续使用，关注度不能等同于采用。
+    evidence_ids:
+    - ev-102e0cbafc096002
+    - ev-3033b6e1c8d413e8
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、赞助、付费服务或企业采购记录，钱可能来自 to C 创作者或 to B 工作室，但均属判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-5464fc30abe86bef
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明提示词转换的成片质量、失败率与人工修片边界，交付能否稳定发生缺少可复现证据，安全与人工介入边界也未披露。
+    evidence_ids:
+    - ev-8cedee21cc0efac1
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际部署场景、替代的旧流程与成片交付结果。
+  market: ''
+  job: 视频创作者或动画师在需要复刻一段参考视频的运镜与节奏、或把自制的 Blender 白模动画转成 AI 视频时，用 Codex 配合 Blender 把参考素材或白模动画解析成提示词，再交给
+    AI 视频生成工具出片。
+  job_en: A video creator or animator who needs to replicate a reference video's camera movement and pacing,
+    or turn a self-made Blender white-model animation into an AI video, uses Codex with Blender to convert
+    the reference material or white-model animation into prompts, then hands them to an AI video generator.
+  pain: AI 视频生成工具只吃文本提示词，而创作者手里是视频或三维白模动画，把画面、运镜、节奏翻译成可复现的提示词需要反复试错；不解决就只能靠肉眼逐帧描述或大量抽卡，出片不可控。
+  pain_en: AI video generators only accept text prompts, while creators hold video or 3D white-model animation;
+    translating framing, camera movement and pacing into reproducible prompts requires repeated trial
+    and error, and without a fix one must describe frames by eye or gamble on many generations, making
+    output unpredictable.
+  current_alternative: 当前替代是人工观看参考视频后手写提示词、在 AI 视频工具里反复抽卡重试，或直接用 Blender 传统渲染流程出片，缺少从素材到提示词的半自动转换环节。
+  current_alternative_en: Today users watch the reference video and hand-write prompts, repeatedly re-roll
+    generations in AI video tools, or fall back to Blender's traditional render pipeline, with no semi-automatic
+    material-to-prompt conversion step.
+  usage_reason: 推断：相较手写提示词反复抽卡，该工作流把参考视频或白模动画直接解析为结构化提示词，省去逐帧描述与多轮试错这一步，因此需要稳定复刻特定运镜或把已有三维动画转成 AI 视频的创作者会在有明确参考素材时选择它。
+  usage_reason_en: 'Inference: versus hand-writing prompts and re-rolling generations, this workflow parses
+    the reference video or white-model animation directly into structured prompts, removing the frame-by-frame
+    description and multi-round trial step, so creators who must reliably replicate a specific camera
+    move or convert existing 3D animation into AI video would choose it when they have concrete reference
+    material.'

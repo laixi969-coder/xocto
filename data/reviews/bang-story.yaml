@@ -129,3 +129,56 @@
     script-image-video chain into one continuous generation after a single idea input, removing tool-switching
     and segment-assembly steps, so solo creators with ideas but no production resources would pick it
     when they need story videos fast; public materials contain no user feedback confirming this motive.'
+- id: req-full-bang-story-2026-10-05
+  project_slug: bang-story
+  level: full
+  reviewed_at: '2026-10-05T01:22:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是故事类视频从创意到成片的多工具串行制作需求，痛点在脚本、配图、剪辑三段手工衔接；公开说明显示输入创意即自动产出脚本、图片、视频，交付物明确为可上传视频文件，属工作流结构推理，未核验成片质量与人工修改量。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-cc668c736dda3199
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 62 再到 66，说明开发者社区持续注意到该项目，但收藏属关注度证据，不能证明目标创作者已把它留在日常出片流程中；缺少 issue、discussion 或用户评价说明真实使用场景。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-cc668c736dda3199
+    - ev-266074db31c78708
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，无法判断收入来自个人创作者订阅、团队授权还是其他 to B 路径；这是判断而非已验证事实，商业证据缺口不反推需求不存在。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺从创意直接交付成片，但公开材料未说明是否需逐段人工确认、成片质量是否稳定、以及 AI 生成内容的版权与安全边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-266074db31c78708
+  next_validation: 追踪该项目的官方文档、仓库 issue 与 discussion，确认是否有创作者公开描述用它在何种场景替代原有脚本—配图—剪辑流程，以及成片是否需要逐段人工修改。
+  market: ''
+  job: 做 YouTube 故事类视频的独立创作者或小团队，在只有一个故事创意、没有现成脚本和素材的情况下，打开桌面应用输入创意，要一次性拿到可上传的脚本、配图与成片视频文件。
+  job_en: An independent YouTube story-video creator or small team with only a story idea and no ready
+    script or assets opens the desktop app, enters the idea, and expects to obtain an uploadable script,
+    images, and finished video in one pass.
+  pain: 故事类视频的瓶颈在脚本、配图、剪辑三段串行手工活：写稿、找图、配音配画、逐段剪辑，单条视频耗时长且需要多项工具切换；公开材料只说明产品把这三步自动化，未给出创作者实际耗时或放弃率数据，痛点强度属工作流结构推理。
+  pain_en: 'The bottleneck in story videos is three serial manual stages: scripting, image sourcing, and
+    editing. Each video takes long and requires switching between multiple tools. Public materials only
+    show the product automates these three stages; no creator time-cost or abandonment data is given,
+    so pain intensity is a workflow-structure inference.'
+  current_alternative: 旧做法是创作者自己写脚本、用图库或绘图工具找配图、再用剪辑软件逐段拼接导出；也可能用通用 AI 写作加通用 AI 绘图再手工合成，流程分散在多个工具之间。
+  current_alternative_en: The old way is to write the script yourself, source images from stock libraries
+    or drawing tools, then assemble and export segment by segment in an editor; alternatively, use generic
+    AI writing plus generic AI image generation and stitch manually, spreading the flow across several
+    tools.
+  usage_reason: 推断：相较在写作、绘图、剪辑三个工具间来回搬运素材，该产品把脚本、图片、视频串成一条从创意到成片的流水线，减少的是跨工具复制粘贴与逐段手工拼接这一步负担，因此只有单一创意、缺乏制作班底的个人故事频道创作者会在需要批量出片时选择它；公开材料未提供用户反馈或案例佐证这一动机。
+  usage_reason_en: 'Inference: compared with shuttling assets among writing, drawing, and editing tools,
+    the product chains script, images, and video into one idea-to-finished-video pipeline, removing the
+    cross-tool copy-paste and segment-by-segment manual assembly step. Solo story-channel creators with
+    only an idea and no production crew would choose it when they need to ship videos in volume; public
+    materials provide no user feedback or case to confirm this motive.'

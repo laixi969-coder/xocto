@@ -1,0 +1,88 @@
+- id: req-initial-kenfold-2026-10-05
+  project_slug: kenfold
+  level: initial
+  reviewed_at: '2026-10-05T00:56:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多工具并用时上下文被切碎、每次切换都要重新交代项目背景的问题，痛点具体且不解决的后果是可核对的重复劳动。
+    evidence_ids:
+    - ev-ddbc0959cdf188c0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，没有用户反馈或团队采用案例，无法判断开发者是否真的愿意为此自托管一套服务。
+    evidence_ids:
+    - ev-ddbc0959cdf188c0
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，未见定价或商业路径；是否靠托管版或企业支持收费属于推断，不是已验证事实。
+    evidence_ids:
+    - ev-ddbc0959cdf188c0
+  - gate: truth
+    status: insufficient
+    reason: 记忆服务的核心是检索准确与冲突处理，材料未说明存储格式、检索方式与多工具写入冲突如何解决，交付确定性无法核对。
+    evidence_ids:
+    - ev-ddbc0959cdf188c0
+  next_validation: 收集该仓库的 README 与部署文档，核对记忆的存储格式、检索方式以及多工具并发写入时的冲突处理说明。
+  market: ''
+  job: 同时使用 Claude Code、Codex、ChatGPT 等工具的开发者，在切换工具继续同一项目时，需要把项目背景、约定和历史决策带过去，避免每次重新交代。
+  job_en: Developers using Claude Code, Codex, ChatGPT and similar tools must carry project background,
+    conventions and past decisions across tools when continuing the same project, instead of re-explaining
+    each time.
+  pain: 上下文分散在各工具的账号与本地会话里，换工具就要重新粘贴背景，重复劳动且容易遗漏既有约定，这是多工具并用后新出现的摩擦。
+  pain_en: Context is scattered across each tool's account and local sessions, so switching tools means
+    re-pasting background, duplicating work and risking loss of established conventions — friction that
+    appeared once multiple tools are used together.
+  current_alternative: 手工复制粘贴上下文、维护项目说明文档、把约定写进仓库里的说明文件，或干脆只用一个工具。
+  current_alternative_en: Manually copying and pasting context, maintaining project briefs, writing conventions
+    into repository docs, or simply sticking to a single tool.
+  usage_reason: 推断：它把记忆放在自托管服务里，各工具通过 MCP 读取同一份内容，从而省掉每次换工具重新粘贴项目背景这一步；对同时用多个编码助手、又在意数据不出内网的开发者，这一步负担是真实存在的。
+  usage_reason_en: 'Inference: it keeps memory in a self-hosted service that each tool reads over MCP,
+    removing the step of re-pasting project background on every tool switch; for developers running several
+    coding assistants who also want data to stay inside their own network, that step is a real burden.'
+- id: req-full-kenfold-2026-10-05
+  project_slug: kenfold
+  level: full
+  reviewed_at: '2026-10-05T01:23:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多工具并用时上下文被切碎、每次切换都要重新交代项目背景的问题，痛点具体且不解决的后果是可核对的重复劳动。
+    evidence_ids:
+    - ev-ddbc0959cdf188c0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 64 星这一关注度信号，没有用户反馈或团队采用案例，无法判断开发者是否真愿意为此自托管一套服务。
+    evidence_ids:
+    - ev-ddbc0959cdf188c0
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，未见定价或商业路径；是否靠托管版或企业支持收费属于推断，不是已验证事实。
+    evidence_ids:
+    - ev-ddbc0959cdf188c0
+  - gate: truth
+    status: insufficient
+    reason: 记忆服务的核心是检索准确与冲突处理，材料未说明存储格式、检索方式与多工具写入冲突如何解决，交付确定性无法核对。
+    evidence_ids:
+    - ev-ddbc0959cdf188c0
+  next_validation: 收集该仓库的 README 与部署文档，核对记忆的存储格式、检索方式以及多工具并发写入时的冲突处理说明。
+  market: ''
+  job: 同时使用 Claude Code、Codex、OpenCode、ChatGPT 的开发者，在切换工具继续同一项目时，需要把项目背景、约定与历史决策带过去，避免每次重新交代。
+  job_en: Developers running Claude Code, Codex, OpenCode and ChatGPT together must carry project background,
+    conventions and past decisions across tools when continuing the same project, instead of re-explaining
+    each time.
+  pain: 上下文分散在各工具的账号与本地会话中，换工具就要重新粘贴背景，重复劳动且容易遗漏既有约定；这是多工具并用后新出现的摩擦。
+  pain_en: Context is scattered across each tool's account and local sessions, so switching tools means
+    re-pasting background, duplicating work and risking loss of established conventions — friction that
+    appears once multiple tools are used together.
+  current_alternative: 手工复制粘贴上下文、维护项目说明文档、把约定写进仓库说明文件，或干脆只用一个工具。
+  current_alternative_en: Manually copying and pasting context, maintaining project briefs, writing conventions
+    into repository docs, or simply sticking to a single tool.
+  usage_reason: 推断：它把记忆放在自托管服务里，各工具通过 MCP 读取同一份内容，省掉每次换工具重新粘贴项目背景这一步；对同时用多个编码助手、又在意数据不出内网的开发者，这一步负担真实存在。
+  usage_reason_en: 'Inference: it keeps memory in a self-hosted service that each tool reads over MCP,
+    removing the step of re-pasting project background on every tool switch; for developers running several
+    coding assistants who also want data to stay inside their own network, that step is a real burden.'

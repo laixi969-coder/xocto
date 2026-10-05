@@ -1013,3 +1013,52 @@
     step of manually diffing where information was lost, so DeepSeek Harness users worried about forgotten
     constraints in long sessions would pick it when diagnosing context loss; this is a structural inference
     from product capability and task, not yet backed by user feedback.
+- id: req-full-dsh-context-2026-10-05
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-05T01:23:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后用户看不见丢了什么、只能等模型遗忘关键约束才发现的问题；痛点刚性来自调试与约束保持，交付方式为面板与命令透视组成和演进事件，属工作流结构推理，公开材料未给出用户口述代价。
+    evidence_ids:
+    - ev-238e9413f152b6c2
+    - ev-72377b0b1bb4aea8
+  - gate: consensus
+    status: insufficient
+    reason: 同生态的 dsh-knit 有 40→46 星、dsh-claude-style 有 75→89 星，说明 DeepSeek Harness 插件生态有开发者关注，但这些是相邻项目而非本插件的采用证据，本插件自身无星标、下载或评价数据。
+    evidence_ids:
+    - ev-238e9413f152b6c2
+    - ev-72377b0b1bb4aea8
+    - ev-5151b4da072ee614
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者自愿安装或 to B 团队采购，但均属判断而非已验证事实；同生态插件多为免费开源，付费路径尚未核验。
+    evidence_ids:
+    - ev-238e9413f152b6c2
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺透视上下文组成与演进，贴近长会话调试的第一性目标，但公开材料未提供可复现的实测、部署文档或安全与人工边界说明，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-72377b0b1bb4aea8
+  next_validation: 追踪 dsh-context 在 npm 的包页面与仓库 README、issue/discussion，确认是否有可复现的上下文面板实测记录、安装量与用户反馈，以核验交付确定性与采用情况。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或 Agent 操作者在长会话中处理上下文材料时，需要打开 Context 面板与浏览器、执行 Context 命令，查看本轮上下文由哪些内容组成、经历了哪些压缩与剪枝事件，以判断关键信息是否还在。
+  job_en: A developer or agent operator using DeepSeek Harness, working with long-session context material,
+    opens the Context panel/browser and runs the Context command to see what composes the current context
+    and which compaction or pruning events occurred, so they can judge whether key facts are still present.
+  pain: 长会话中上下文会被压缩、剪枝和替换，用户看不到哪些内容被丢弃，只能等模型答错或遗忘关键约束后才发现，排查成本高且难以定位是哪一步丢的。
+  pain_en: In long sessions the context gets compacted, pruned and replaced; users cannot see what was
+    dropped and only discover it after the model forgets a key constraint or answers wrong, which is costly
+    and hard to trace back to the step that lost it.
+  current_alternative: 当前替代方式是直接读原始会话日志或模型输出自行推断，或依赖 dsh-knit 这类任务上下文检索插件从工作区重新找回相关内容，但都没有对上下文组成与演进事件的可视化透视。
+  current_alternative_en: Today users read raw session logs or infer from model output, or rely on retrieval
+    plugins such as dsh-knit that re-find relevant workspace context, but none of these visualize context
+    composition and evolution events.
+  usage_reason: 推断：相较翻日志或事后从模型错误反推，该插件把上下文组成、压缩与剪枝事件直接呈现在面板和命令输出中，省去手工比对会话记录这一步，因此长会话调试或需要稳定约束的开发者会在排查遗忘问题时选择它。
+  usage_reason_en: 'Inference: versus reading logs or reverse-engineering from model errors, the plugin
+    surfaces context composition and compaction/pruning events directly in a panel and command output,
+    removing the manual log-diffing step, so developers debugging long sessions or needing stable constraints
+    would pick it when chasing forgetting issues.'

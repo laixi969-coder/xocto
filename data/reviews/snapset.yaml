@@ -1,0 +1,83 @@
+- id: req-initial-snapset-2026-10-05
+  project_slug: snapset
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句瞬间保存与恢复工作区，价值关无法成立。
+    evidence_ids:
+    - ev-e0030a54a4586e1b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注数据可判断共识。
+    evidence_ids:
+    - ev-e0030a54a4586e1b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与定价路径均无公开材料。
+    evidence_ids:
+    - ev-e0030a54a4586e1b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对恢复是否确定发生。
+    evidence_ids:
+    - ev-e0030a54a4586e1b
+  next_validation: 收集 Snapset 官方页面或文档，确认其保存与恢复的具体范围、是否使用 AI 以及支持的 Mac 版本。
+  market: ''
+  job: Mac 上的知识工作者在被打断或切换任务时打开 Snapset，保存当前整套窗口与工作区状态，之后需要一键恢复到原来的工作现场。
+  job_en: Knowledge workers on Mac open Snapset when interrupted or switching tasks, saving the current
+    set of windows and workspace state, and later need to restore the original working context with one
+    click.
+  pain: 候选资料未说明用户原本卡在哪一步、重开窗口耗时还是容易漏掉，痛点无法从公开事实中还原。
+  pain_en: The candidate material does not state where users previously got stuck, whether reopening windows
+    was slow or easy to miss, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未给出替代方式，无法确认用户此前是用系统多桌面、手动重开窗口还是别的办法恢复现场。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 缺少 AI 环节、恢复边界与用户反馈的说明，无法解释用户为何选择它而非旧的手动恢复方式；仅凭一句产品说明不足以支撑使用理由。
+  usage_reason_en: With no description of an AI step, restore boundaries or user feedback, there is no
+    way to explain why users would choose it over manual restoration; a one-line product description is
+    not enough to support a usage reason.
+- id: req-full-snapset-2026-10-05
+  project_slug: snapset
+  level: full
+  reviewed_at: '2026-10-05T01:24:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句瞬间保存与恢复工作区，价值关无法成立。
+    evidence_ids:
+    - ev-e0030a54a4586e1b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Snapset 官方页面或文档，确认其保存与恢复的具体范围、是否使用 AI 以及支持的 Mac 版本。
+  market: ''
+  job: Mac 上的知识工作者在被打断或切换任务时打开 Snapset，保存当前整套窗口与工作区状态，之后需要一键恢复到原来的工作现场。
+  job_en: Knowledge workers on Mac open Snapset when interrupted or switching tasks, saving the current
+    set of windows and workspace state, and later need to restore the original working context with one
+    click.
+  pain: 候选资料未说明用户原本卡在哪一步、重开窗口耗时还是容易漏掉，痛点无法从公开事实中还原。
+  pain_en: The candidate material does not state where users previously got stuck, whether reopening windows
+    was slow or easy to miss, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未给出替代方式，无法确认用户此前是用系统多桌面、手动重开窗口还是别的办法恢复现场。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 缺少 AI 环节、恢复边界与用户反馈的说明，无法解释用户为何选择它而非旧的手动恢复方式；仅凭一句产品说明不足以支撑使用理由。
+  usage_reason_en: With no description of an AI step, restore boundaries or user feedback, there is no
+    way to explain why users would choose it over manual restoration; a one-line product description is
+    not enough to support a usage reason.

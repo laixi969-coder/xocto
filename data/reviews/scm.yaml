@@ -1,0 +1,92 @@
+- id: req-initial-scm-2026-10-05
+  project_slug: scm
+  level: initial
+  reviewed_at: '2026-10-05T00:56:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是本地影像素材按画面内容检索的需求，痛点在素材量大时明显，旧做法是人工回看与打标，结构上成立。
+    evidence_ids:
+    - ev-aeabb7184149bf70
+    - ev-b8d8365a668b95f4
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论与仓库关注度说明有人注意到它，但没有用户反馈或案例说明它已进入日常工作流。
+    evidence_ids:
+    - ev-b8d8365a668b95f4
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或买方，钱可能来自个人订阅或团队授权，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-aeabb7184149bf70
+  - gate: truth
+    status: insufficient
+    reason: 索引范围、支持格式、准确率与人工复核边界均未在公开材料中说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-aeabb7184149bf70
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认支持的媒体格式、索引范围、准确率说明以及是否有用户报告在实际剪辑流程中重复使用。
+  market: ''
+  job: 拍摄团队或内容创作者在剪辑前，面对散落在本地文件夹里的成百上千条照片和视频，需要找到包含某个具体画面或人物的素材，以便进入剪辑或交付。
+  job_en: Before editing, a shooting team or content creator faces hundreds or thousands of photos and
+    videos scattered across local folders and needs to locate material containing a specific scene or
+    person in order to start editing or delivery.
+  pain: 旧做法只能靠文件名、拍摄时间和人工回看逐条翻找，素材越多越慢，且容易漏掉可用镜头；不解决的后果是剪辑前的整理时间被拉长，交付被推迟。
+  pain_en: The old approach relies on filenames, capture time and manual scrubbing, which gets slower
+    as material grows and easily misses usable shots; the consequence is longer pre-edit organization
+    time and delayed delivery.
+  current_alternative: 目前多依赖系统相册的元数据搜索、手动打标签、文件夹命名约定，或逐条拖进播放器回看。
+  current_alternative_en: Today this mostly relies on metadata search in system photo libraries, manual
+    tagging, folder naming conventions, or scrubbing clips one by one in a player.
+  usage_reason: 相较逐条回看和手工打标，它把索引动作交给 AI 直接读取画面内容，用户只需输入一句描述就能跳到对应文件或时间点，省掉的是“先看完再找”的那一步；推断，素材量大的拍摄团队在剪辑前整理阶段会因此选择它，但公开材料尚未给出留存或复购证据。
+  usage_reason_en: Compared with scrubbing and manual tagging, it hands indexing to AI that reads visual
+    content directly, so a single description jumps to the matching file or timestamp and removes the
+    watch-then-find step; this is inference, and teams with large volumes would choose it during pre-edit
+    organization, though public material shows no retention or repeat-use evidence yet.
+- id: req-full-scm-2026-10-05
+  project_slug: scm
+  level: full
+  reviewed_at: '2026-10-05T01:24:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地影像素材按画面内容检索的需求，痛点在素材量大时明显，旧做法是人工回看与打标，不解决则整理时间拉长、交付推迟，结构上成立。
+    evidence_ids:
+    - ev-aeabb7184149bf70
+    - ev-b8d8365a668b95f4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 251 星说明有人注意到它，但没有用户反馈或案例说明它已进入日常工作流，关注度不等于持续采用。
+    evidence_ids:
+    - ev-b8d8365a668b95f4
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或买方，钱可能来自个人订阅或团队授权，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-aeabb7184149bf70
+  - gate: truth
+    status: insufficient
+    reason: 索引范围、支持格式、准确率与人工复核边界均未在公开材料中说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-aeabb7184149bf70
+  next_validation: 收集该仓库 README、issue 与 discussion，确认支持的媒体格式、索引范围、准确率说明，以及是否有用户报告在实际剪辑流程中重复使用。
+  market: ''
+  job: 拍摄团队或内容创作者在剪辑前，面对散落在本地文件夹里的成百上千条照片和视频，需要定位包含某个具体画面或人物的素材，以便进入剪辑或交付。
+  job_en: Before editing, a shooting team or content creator faces hundreds or thousands of photos and
+    videos scattered across local folders and needs to locate material containing a specific scene or
+    person in order to start editing or delivery.
+  pain: 旧做法只能靠文件名、拍摄时间和人工回看逐条翻找，素材越多越慢，且容易漏掉可用镜头；不解决的后果是剪辑前的整理时间被拉长，交付被推迟。
+  pain_en: The old approach relies on filenames, capture time and manual scrubbing, which gets slower
+    as material grows and easily misses usable shots; the consequence is longer pre-edit organization
+    time and delayed delivery.
+  current_alternative: 目前多依赖系统相册的元数据搜索、手动打标签、文件夹命名约定，或逐条拖进播放器回看。
+  current_alternative_en: Today this mostly relies on metadata search in system photo libraries, manual
+    tagging, folder naming conventions, or scrubbing clips one by one in a player.
+  usage_reason: 相较逐条回看和手工打标，它把索引动作交给 AI 直接读取画面内容，用户只需输入一句描述就能跳到对应文件或时间点，省掉的是“先看完再找”的那一步；这是基于产品能力与任务结构的推断，公开材料尚未给出留存或复购证据。
+  usage_reason_en: Compared with scrubbing and manual tagging, it hands indexing to AI that reads visual
+    content directly, so a single description jumps to the matching file or timestamp and removes the
+    watch-then-find step; this is inference from product capability and task structure, and public material
+    shows no retention or repeat-use evidence yet.

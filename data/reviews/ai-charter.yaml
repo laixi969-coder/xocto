@@ -125,3 +125,45 @@
     cutting the step of comparing each vendor''s wording; but the registry has no institutional submissions,
     no stated review responsibility and no buyer or regulator citation, so it is unclear which users would
     choose it over existing compliance documents.'
+- id: req-full-ai-charter-2026-10-05
+  project_slug: ai-charter
+  level: full
+  reviewed_at: '2026-10-05T01:21:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决模型治理披露口径不统一，但公开材料只有原则文本与登记册，没有机构受困、绕行或采用的证据，痛点刚性未立，属自述式治理倡议，不用它也不会失去可核对的东西。
+    evidence_ids:
+    - ev-0cb5a646f2120cdf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ai-charter 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: AI产品负责人或合规负责人在需要向客户、采购方或监管方说明模型治理方式时，处理治理原则与模型信息，要产出一份可公开引用的披露材料。
+  job_en: An AI product or compliance lead who must explain model governance to customers, procurement
+    or regulators handles governance principles and model information to produce publicly citable disclosure
+    material.
+  pain: 公开材料只说明存在治理披露口径不统一的问题，未给出任何机构因此受困、被迫额外投入或已采取绕行行为的证据；痛点停留在概念层面，刚性无法从公开事实确认。
+  pain_en: Public material only states that governance disclosure standards are inconsistent; it shows
+    no institution blocked, forced into extra work, or already working around it, so the pain stays conceptual
+    and its rigidity cannot be confirmed from public facts.
+  current_alternative: 厂商自己的合规页面、白皮书或第三方审计报告，格式和口径各不相同；这是公开材料可支持的现有替代方式。
+  current_alternative_en: Vendors' own compliance pages, white papers or third-party audit reports, each
+    with different formats and scopes; this is the current alternative supported by public material.
+  usage_reason: 推断：它把原则文本与登记条目放在同一公开位置，理论上减少采购方逐家比对口径的步骤；但登记册无任何机构提交或被登记的公开记录，也无审核责任说明，因此没有哪类用户会因此选择它的可核对依据。
+  usage_reason_en: 'Inference: it places principles and registry entries in one public location, in theory
+    cutting the step of comparing each vendor''s wording; but there is no public record of any institution
+    submitting to or being listed in the registry, nor any review-responsibility statement, so there is
+    no checkable basis for which users would choose it.'

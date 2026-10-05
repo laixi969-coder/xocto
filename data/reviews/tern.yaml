@@ -257,3 +257,90 @@
   usage_reason_en: 'Inference: it indexes speech, on-screen text and visuals in one pass so a single query
     jumps to candidate timestamps, removing the clip-by-clip preview step; for post teams with large archives
     that will not upload footage, local execution is the direct reason to choose it.'
+- id: req-initial-tern-2026-10-05
+  project_slug: tern
+  level: initial
+  reviewed_at: '2026-10-05T00:56:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决音视频剪辑中素材回放查找耗时痛点，本地多模态多路检索与工程导出形成完整闭环。
+    evidence_ids:
+    - ev-e40e89a7a6b9086e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源社区初步关注信号，尚无专业剪辑团队规模化采用与留存公开数据。
+    evidence_ids:
+    - ev-e40e89a7a6b9086e
+  - gate: model
+    status: insufficient
+    reason: 代码可见但保留权利，未披露独立商业订阅或专业许可证收费定价路径。
+    evidence_ids:
+    - ev-e40e89a7a6b9086e
+  - gate: truth
+    status: supported
+    reason: 端侧运行 Whisper 与 SigLIP-2 模型，输出标准化剪辑工程文件，交付确定性高。
+    evidence_ids:
+    - ev-e40e89a7a6b9086e
+  next_validation: 官方发布独立桌面端打包版本、商业许可定价或非编软件插件生态的公开案例。
+  market: ''
+  job: 播客制作者与视频剪辑师在整理海量历史音视频原始素材时，需要快速定位特定台词、画面文字或视觉场景并导入剪辑时间线。
+  job_en: Video editors and podcasters need to locate specific spoken lines, on-screen text, or visual
+    scenes across massive local archives and bring clips into edit timelines.
+  pain: 传统检索只能依赖文件名或人工打标签，逐个回放素材查找特定镜头或语音耗时极长，且云端多模态检索上传大文件带宽成本与隐私顾虑高。
+  pain_en: Traditional search relies on filenames or manual tagging; scrubbing through raw footage is
+    tedious, while cloud indexing suffers from upload bandwidth and privacy concerns.
+  current_alternative: 依赖人工记忆逐个打开视频拉时间轴回放，或手动整理 Excel 记录时间戳与素材描述。
+  current_alternative_en: Manually scrubbing through video timelines from memory or keeping spreadsheet
+    logs of timestamps and footage descriptions.
+  usage_reason: 通过在本地设备上融合语音、OCR 与视觉多模态索引并直接导出 FCPXML，创作者无需上传原始素材即可秒级检索画面并无缝衔接主流剪辑软件。（推断）
+  usage_reason_en: (Inferred) By combining local multimodal indexing across audio, OCR, and visuals with
+    direct FCPXML export, creators find footage in seconds without uploading large media.
+- id: req-full-tern-2026-10-05
+  project_slug: tern
+  level: full
+  reviewed_at: '2026-10-05T01:25:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是剪辑师在本地音视频档案中按台词、画面文字或视觉场景定位片段的需求，痛点是逐个回放与人工打标签耗时且云端上传有带宽和保密顾虑；本地多模态检索加 FCPXML 导出构成可确定的输入—动作—交付闭环，属工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-e40e89a7a6b9086e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有英文生态项目发布与开发者讨论层面的初步关注，未出现剪辑团队规模化采用、留存或复购证据，无法判断共识是否已跨过感知与场景环节。
+    evidence_ids:
+    - ev-e40e89a7a6b9086e
+  - gate: model
+    status: insufficient
+    reason: 项目源码可见但保留全部权利，公开材料未披露订阅、一次性授权或插件收费等定价路径，买方是个人剪辑师还是制作机构尚属推断，不构成已验证付费事实。
+    evidence_ids:
+    - ev-e40e89a7a6b9086e
+  - gate: truth
+    status: supported
+    reason: 端侧运行 Whisper 与 SigLIP-2 并输出标准化 FCPXML，交付物是可直接进入非编软件的时间线，承诺边界清晰；但公开材料未说明长素材索引耗时与人工复核边界，安全与人工边界仍需后续核验。
+    evidence_ids:
+    - ev-e40e89a7a6b9086e
+  next_validation: 追踪该项目仓库的 release 说明、issue/discussion 与官网定价或许可页面，确认是否出现独立桌面打包版本、商业授权价格或真实剪辑工作流使用反馈。
+  market: ''
+  job: 视频剪辑师或播客制作人在整理多年积累的本地音视频素材时，需要按台词、画面文字或视觉场景定位具体片段，裁切后导出 FCPXML 工程交给 Final Cut Pro 继续剪辑。
+  job_en: Video editors and podcast producers working through years of local audio/video archives need
+    to locate specific clips by spoken line, on-screen text, or visual scene, trim them, and export an
+    FCPXML project into Final Cut Pro.
+  pain: 旧做法只能靠文件名、人工打标签或逐个回放拉时间轴找镜头，素材量越大越耗时；云端多模态检索又要把大体积原始素材上传，带宽成本与素材保密顾虑都高。
+  pain_en: The old way relies on filenames, manual tagging, or scrubbing timelines clip by clip, which
+    scales badly with archive size; cloud multimodal search requires uploading large raw media, incurring
+    bandwidth cost and confidentiality concerns.
+  current_alternative: 人工记忆逐个打开视频回放定位，或用 Excel 记录时间戳与素材描述，再手动在非编软件里重建片段。
+  current_alternative_en: Manually scrubbing through videos from memory, or keeping spreadsheet logs of
+    timestamps and footage notes, then rebuilding clips by hand in the NLE.
+  usage_reason: 推断：相较逐个回放，它把 Whisper 语音、Apple Vision OCR 与 SigLIP-2 视觉索引在本地融合成一次自然语言检索，省去上传素材和人工翻找两步，并直接导出
+    FCPXML 免去手动重建时间线，因此处理大体量私有素材的剪辑师会在归档检索场景选择它。
+  usage_reason_en: 'Inferred: versus scrubbing clip by clip, it fuses Whisper speech, Apple Vision OCR,
+    and SigLIP-2 visual indexing locally into one natural-language query, removing the upload and manual-search
+    steps and exporting FCPXML directly so timelines need not be rebuilt; editors with large private archives
+    would pick it for archive retrieval.'

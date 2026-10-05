@@ -313,3 +313,58 @@
     instance, removing the manual port setup and the forgotten-shutdown billing step; by inference this
     appeals to developers who already have a Colab account and want to cheaply try 27B/125B-class open
     models inside Codex. This is inference from product c
+- id: req-full-collabosm-2026-10-05
+  project_slug: collabosm
+  level: full
+  reviewed_at: '2026-10-05T01:22:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是「用自有 Colab 账号把开源模型变成可调用的本地 /v1 端点」这一具体任务，痛点是手工搭 notebook、暴露端口、盯 CU 用量与关机的重复负担，且 Colab
+      额度烧完不可逆；公开说明已给出输入、动作与交付闭环，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-59a4e84a0e5bcf4f
+    - ev-1167baee2c12b86d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 89 缓慢升至 97，说明有开发者关注，但公开材料没有 issue、discussion 或评价说明谁在什么场景持续使用、替代了哪条旧流程，关注度不能当作采用证据。
+    evidence_ids:
+    - ev-59a4e84a0e5bcf4f
+    - ev-5680ccfb6c535531
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或收费方式，钱可能来自 to C 开发者订阅或 to B 团队授权，但这是判断而非已验证事实；Colab CU 成本由用户自付，产品自身收入路径未见公开证据。
+    evidence_ids:
+    - ev-59a4e84a0e5bcf4f
+  - gate: truth
+    status: insufficient
+    reason: 自动停止、CU ledger 与费用预览是产品承诺，但公开材料没有可复现的部署文档或实测记录证明交付稳定发生，也未说明 Colab 服务条款下长期运行的合规边界。
+    evidence_ids:
+    - ev-59a4e84a0e5bcf4f
+    - ev-e5e258a9c7eb6189
+  next_validation: 追踪 collabosm 仓库的 README/部署文档与 issue、discussion，确认是否有用户公开报告实际部署、CU 消耗与自动停止是否按承诺发生。
+  market: ''
+  job: 个人开发者或小团队在本地机器上打开 collabosm，用自己的 Google Colab 账号租一块 A100（40G 跑 Qwen 27B，80G 跑 Flash-Next 125B-A6B），把开源模型变成固定的本地
+    /v1 端点，供 Codex 或任意 OpenAI 客户端在写代码、看图对话时直接调用。
+  job_en: An individual developer or small team opens collabosm locally, rents an A100 in their own Google
+    Colab account (40G for Qwen 27B, 80G for Flash-Next 125B-A6B), and turns the open model into a fixed
+    local /v1 endpoint that Codex or any OpenAI client calls while coding or chatting with images.
+  pain: 公开材料显示的核心摩擦是：想用开源大模型做本地 OpenAI 兼容端点，要么自购 GPU 承担高额硬件成本，要么在 Colab 里手工写 notebook、装依赖、暴露端口、自己盯用量和关机；Colab
+    的 CU 额度一旦忘记停就白烧，且没有启动前的费用预览。
+  pain_en: 'The friction shown in public materials: to get an OpenAI-compatible local endpoint on open
+    models, a developer either buys a GPU at high hardware cost or hand-writes a Colab notebook, installs
+    dependencies, exposes a port, and manually watches usage and shutdown; Colab compute units burn silently
+    if not stopped, and there is no pre-start cost preview.'
+  current_alternative: 旧做法是自己在 Colab notebook 里手动搭 vLLM/llama.cpp 并开隧道，或直接买/租云 GPU（RunPod、Vast.ai 等），或干脆用闭源
+    API 放弃本地端点；这些路径要么步骤多、要么按小时计费且无 CU 额度预览。
+  current_alternative_en: The old path is hand-building vLLM/llama.cpp in a Colab notebook and tunneling
+    it, or renting cloud GPUs (RunPod, Vast.ai), or giving up the local endpoint and using closed APIs;
+    these are either many-step or hourly-billed without a compute-unit preview.
+  usage_reason: 推断：相较手写 notebook，它把「装环境—起服务—暴露 /v1—盯用量—关机」压缩成一次本地启动，并在启动前显示费用、用 CU ledger 记录消耗、自动停止；因此在意成本、又需要
+    OpenAI 兼容端点的个人开发者会在临时跑开源模型时选它，而不是每次重搭 Colab 或按小时租云 GPU。
+  usage_reason_en: 'Inference: versus hand-writing a notebook, it collapses install-serve-expose /v1-watch
+    usage-shutdown into one local launch, shows cost before start, tracks spend in a CU ledger, and auto-stops;
+    so cost-conscious individual developers who need an OpenAI-compatible endpoint would pick it for ad-hoc
+    open-model runs instead of rebuilding Colab each time or renting hourly cloud GPUs.'

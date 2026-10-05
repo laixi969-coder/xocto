@@ -228,3 +228,53 @@
     LLM agents the type constraints make actions predictable and reproducible. Engineers facing API-less
     sites with multi-step conditional flows would therefore tend to choose it. Public materials provide
     no user feedback or retention evidence, so this is an inference from product capability and task st'
+- id: req-full-jev-browser-2026-10-05
+  project_slug: jev-browser
+  level: full
+  reviewed_at: '2026-10-05T01:23:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决动态网页自动化中脚本脆弱与 LLM 代理决策不可控的痛点：LLM 规划、Jev 类型安全决策，通过库/CLI/MCP 交付可执行操作。公开仓库说明可还原输入—动作—交付闭环，属工作流结构推理；痛点刚性与交付确定性成立，但缺用户反馈佐证。
+    evidence_ids:
+    - ev-942ca8f2a9a6dc32
+    - ev-0fab3fc9912395e3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 90 缓升至 94，说明开发者社区有持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在工作流或形成强场景共识；缺 issue、discussion 或客户案例佐证采用。
+    evidence_ids:
+    - ev-942ca8f2a9a6dc32
+    - ev-0fab3fc9912395e3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，钱可能来自 to C 开发者订阅、to B 团队授权或 to VC 融资，均属判断而非已验证事实；开源仓库本身不构成付费路径证据。
+    evidence_ids:
+    - ev-942ca8f2a9a6dc32
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺类型安全决策与可执行浏览器操作，但公开材料未给出失败恢复、站点兼容范围或人工与安全边界的可复现证据，交付能否稳定发生尚缺核验。
+    evidence_ids:
+    - ev-942ca8f2a9a6dc32
+    - ev-0fab3fc9912395e3
+  next_validation: 追踪 jev-browser 仓库的 issue 与 discussion，确认是否有用户报告在具体站点部署、替代了哪种旧脚本流程及失败恢复方式。
+  market: ''
+  job: 自动化测试或数据采集工程师在需要让程序操作动态网页（登录、填表、点击、抓取流程）时，把自然语言任务交给 jev-browser，由 LLM 规划步骤、Jev 在每步做类型安全决策，最终通过库、CLI
+    或 MCP 服务端产出可执行的浏览器操作。
+  job_en: Automation test or data-collection engineers hand a natural-language task to jev-browser when
+    a program must operate dynamic web pages (login, form fill, click, scrape flows); an LLM plans steps,
+    Jev makes type-safe decisions per step, and the library, CLI, or MCP server emits executable browser
+    actions.
+  pain: 传统 Playwright/Selenium 脚本依赖固定选择器，页面改版即失效，维护成本高；纯 LLM 浏览器代理又容易在步骤间产生不可预测的动作，缺少类型约束与可核对的决策边界。
+  pain_en: Traditional Playwright/Selenium scripts depend on fixed selectors and break on page changes,
+    creating high maintenance cost; pure LLM browser agents produce unpredictable actions between steps,
+    lacking type constraints and checkable decision boundaries.
+  current_alternative: 工程师目前用 Playwright/Selenium 手写脚本，或直接调用通用 LLM 浏览器代理（如 browser-use 类工具），前者脆弱、后者决策不可控。
+  current_alternative_en: Engineers currently hand-write Playwright/Selenium scripts or call general LLM
+    browser agents (browser-use-like tools); the former is brittle, the latter has uncontrolled decisions.
+  usage_reason: 推断：相较手写选择器脚本，它把“每步该做什么”交给 LLM 规划、把“动作是否合法”交给 Jev 类型系统约束，减少页面改版后逐行修选择器的负担；相较纯 LLM 代理，类型安全决策让每步动作可核对，因此需要稳定自动化流程又不想维护脆弱脚本的工程师会在动态站点任务中选择它。
+  usage_reason_en: 'Inference: versus hand-written selector scripts, it lets the LLM plan each step while
+    Jev''s type system constrains whether an action is legal, reducing the burden of fixing selectors
+    line by line after page changes; versus pure LLM agents, type-safe decisions make each step checkable,
+    so engineers needing stable automation without brittle scripts would choose it for dynamic-site tasks.'

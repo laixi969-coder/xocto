@@ -263,3 +263,59 @@
     same event into one item and ranks by discussion volume, then outputs a digest at 08:00 daily, removing
     the manual burden of item-by-item filtering and event merging; therefore editors or operators wanting
     to build their own industry hot-topic site would choose it when they need a stable daily di'
+- id: req-full-aihot-2026-10-05
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-05T01:22:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是行业资讯编辑每日从多信源挑条目、去重排序并排版成日报的需求，痛点是重复人工筛选与同题重复，公开材料显示单日可收录 561 条，手工处理负担真实；旧替代是逐站浏览加人工取舍，不解决的后果是日报产出慢且冗余。这是基于公开产品说明与任务结构的工作流推理，尚无用户留存或付费量化验证。
+    evidence_ids:
+    - ev-737c16045fce8b32
+    - ev-f9ef3cc850651581
+    - ev-a4eaf7dff29b07ed
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示 AIHOT 每日 08:00 发布精编日报、单日收录 561 条，属于产品自身产出与内容规模，不能证明目标编辑群体已持续采用或形成共识；未见用户评价、复刻、收藏或社区讨论等采用侧证据。
+    evidence_ids:
+    - ev-a4eaf7dff29b07ed
+    - ev-f9ef3cc850651581
+  - gate: model
+    status: insufficient
+    reason: 谁付钱尚未核验：公开材料未见定价页、付费主体或单位经济，无法判断 to C 订阅、to B 定制还是 to VC 叙事；这是模式缺口而非需求不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-3017c0e79ee51ab9
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性尚缺公开证据：仓库自述信源与精选标准需用户自行替换，但未见部署文档、筛选规则细节或人工审核边界说明，无法核验日报能否稳定按承诺产出。
+    evidence_ids:
+    - ev-737c16045fce8b32
+    - ev-024f4fb6fbf836ef
+  next_validation: 追踪 AIHOT 的 公开代码仓库 仓库 README、issue 与 discussion，确认是否公开部署文档、信源配置示例与筛选规则，以及是否有用户报告实际部署与持续使用。
+  market: ''
+  job: 行业资讯编辑或运营者每天需要从大量 AI 相关信源中挑出当天值得看的条目，整理成可发布的行业日报站点；AIHOT 按配置的信源抓取内容、用语言模型二次筛选打分、生成中文标题摘要、把同一事件的多篇报道聚类并按独立信源数排序，最终输出每日
+    08:00 发布的精编日报。
+  job_en: An industry news editor or operator needs to pick the day's worthwhile items from many AI-related
+    sources and turn them into a publishable daily briefing site; AIHOT fetches from configured sources,
+    uses a language model to filter and score each item twice, writes Chinese headlines and summaries,
+    clusters reports of the same story into one event, ranks events by independent-source count, and publishes
+    a daily briefing at 08:00 Beijing time.
+  pain: 手动翻多个信源、逐条判断取舍、再排版成日报，是重复且耗时的日常劳动；同一事件被多家媒体报道时还需人工去重与排序，否则日报会重复冗余。公开材料显示单日收录量可达 561 条，说明人工逐条处理的负担真实存在。
+  pain_en: Manually scanning many sources, judging each item, and laying out a daily briefing is repetitive
+    daily labor; when multiple outlets cover the same story, deduplication and ranking must be done by
+    hand or the briefing becomes redundant. Public material shows a single day can contain 561 items,
+    indicating the manual per-item burden is real.
+  current_alternative: 旧做法是编辑自己逐个打开信源、人工挑选条目、手动撰写标题摘要并排版发布；公开代码仓库 仓库自述的定位正是把这一流程自动化，说明此前存在手工翻信源、手工筛选的替代行为。
+  current_alternative_en: The old approach is for an editor to open sources one by one, manually pick
+    items, hand-write headlines and summaries, and lay out the briefing; the public code repository repo
+    positions itself as automating exactly this flow, implying prior manual source-scanning and filtering
+    behavior.
+  usage_reason: 推断：相较手工翻信源，AIHOT 用配置化抓取替代逐站浏览，用模型二次打分替代逐条人工取舍，用事件聚类与独立信源数排序替代人工去重排序，把编辑从“找和筛”这一步解放出来，只保留替换信源与精选标准的工作；因此想低成本自建行业热点站的编辑或运营者会在需要每日稳定产出日报时选择它。公开材料未提供用户留存或复购证据，故这是基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: versus manual source-scanning, AIHOT replaces per-site browsing with configured
+    fetching, per-item human judgment with model double-scoring, and manual dedup/ranking with event clustering
+    and independent-source ranking, freeing the editor from the find-and-filter step and leaving only
+    source and criteria substitution; thus editors or operators wanting a low-cost industry hotspot site
+    would choose it when they need stable daily briefing output. Public material provi'

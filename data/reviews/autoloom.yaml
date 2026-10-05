@@ -87,3 +87,49 @@
     and evidence recording into the same step as AI execution, cutting the after-the-fact tracing step,
     so teams under review or audit constraints would choose it when introducing AI code changes. This
     is an inference from product capability.
+- id: req-full-autoloom-2026-10-05
+  project_slug: autoloom
+  level: full
+  reviewed_at: '2026-10-05T01:22:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI改代码后变更依据与验收证据缺失的需求，痛点具体，旧做法是人工写说明翻diff，属工作流结构推理。
+    evidence_ids:
+    - ev-38f397d97da7e2b4
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从60增至138，属关注度证据，没有团队采用或持续使用的记录。
+    evidence_ids:
+    - ev-38f397d97da7e2b4
+    - ev-15ffb43dd4d14bb4
+  - gate: model
+    status: insufficient
+    reason: 桌面客户端免费且未披露定价，买方与收费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-38f397d97da7e2b4
+  - gate: truth
+    status: insufficient
+    reason: 未说明治理规则如何配置、证据能否被评审方采信，交付确定性缺少公开材料支持。
+    evidence_ids:
+    - ev-38f397d97da7e2b4
+  next_validation: 收集该仓库的issue与文档，确认变更证据的实际产出形式以及是否有团队在评审流程中采用。
+  market: ''
+  job: 开发团队在让AI修改既有代码库时，打开该桌面客户端，处理AI生成的代码变更，记录变更前基线与交付证据，完成可追溯、可验收的代码变更。
+  job_en: When letting AI modify an existing codebase, a development team opens this desktop client, handles
+    AI-generated code changes, records pre-change baselines and delivery evidence, and completes traceable,
+    acceptable code changes.
+  pain: AI改动代码后难以说清改了哪一步、依据是什么，评审和验收时缺少可核对材料；不记录就只能靠人工回忆和翻diff，责任与依据无法追溯。
+  pain_en: After AI edits code it is hard to say which step changed and on what basis; reviews and acceptance
+    lack checkable material, and without records the team relies on memory and reading diffs, leaving
+    rationale and accountability untraceable.
+  current_alternative: 旧做法是人工写提交说明、翻看diff，或用通用版本控制与评审流程事后补记录。
+  current_alternative_en: The old way is writing commit messages by hand, reading diffs, or patching records
+    after the fact through generic version control and review processes.
+  usage_reason: 相较人工补写提交说明和翻diff，它把基线与证据记录放进AI执行的同一步，减少事后追溯这一步，因此受评审或审计约束的团队会在引入AI改代码时选择它。这是基于产品能力的推断。
+  usage_reason_en: Compared with manually writing commit messages and reading diffs, it puts baseline
+    and evidence recording into the same step as AI execution, cutting the after-the-fact tracing step,
+    so teams under review or audit constraints would choose it when introducing AI code changes. This
+    is an inference from product capability.

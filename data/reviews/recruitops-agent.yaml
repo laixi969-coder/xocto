@@ -341,3 +341,52 @@
     cutting the refilling and status-aggregation steps; job seekers applying at volume who want resume
     data to stay local would choose it during an intensive search. Public materials do not yet confirm
     this motive via user feedback.'
+- id: req-full-recruitops-agent-2026-10-05
+  project_slug: recruitops-agent
+  level: full
+  reviewed_at: '2026-10-05T01:24:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量投递时职位情报与投递记录分散、人工整理易漏的需求，痛点来自多站点重复录入与跟进状态丢失；公开仓库仅给出本地优先的招聘情报与投递运营定位，未提供用户抱怨或频率，故价值结构成立属工作流推理，买方与付费路径未在公开材料中说明。
+    evidence_ids:
+    - ev-a76f6cd1e938b8e5
+    - ev-2e27f0747a037c90
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 112 增至 127，说明有开发者关注，但公开材料没有目标求职者的持续使用、复购或工作流留存证据，关注度不能替代采用共识。
+    evidence_ids:
+    - ev-a76f6cd1e938b8e5
+    - ev-2e27f0747a037c90
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，无法判断钱来自求职者个人、招聘方还是 to VC；这是模式缺口，不否定已识别的需求。
+    evidence_ids:
+    - ev-a76f6cd1e938b8e5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未展开 agent 如何读取职位与投递记录、投递动作是否可确定完成、以及人工确认与账号安全边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-a76f6cd1e938b8e5
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认其实际读取哪些职位/投递材料、投递动作如何执行与人工确认边界，以及是否出现用户部署或使用反馈。
+  market: ''
+  job: 求职者在批量投递岗位时，打开本地 agent，让它读取职位信息与自己的投递记录，完成情报整理与投递操作，最终得到一份可跟进的投递状态或清单，再由人工确认结果。
+  job_en: When applying to jobs in bulk, a job seeker opens a local agent that reads job postings and
+    their own application records, performs intelligence gathering and application operations, and produces
+    a follow-up-ready application status or list for human confirmation.
+  pain: 批量投递时职位信息、投递记录和跟进状态分散在多个招聘网站与本地表格中，人工逐条整理与核对重复且易漏；公开材料只给出产品定位，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: In bulk applying, job postings, application records, and follow-up status are scattered across
+    multiple job boards and local spreadsheets; manual consolidation and checking is repetitive and error-prone.
+    Public materials only give the product positioning, not user complaints or frequency data, so pain
+    intensity is a workflow-structure inference.
+  current_alternative: 求职者目前通常用招聘网站自带的投递记录、浏览器书签、Excel/Notion 表格或手工笔记来跟踪投递，并靠人工逐条复制职位信息与状态。
+  current_alternative_en: Job seekers currently track applications via job-board built-in records, browser
+    bookmarks, Excel/Notion spreadsheets, or manual notes, copying job details and status by hand.
+  usage_reason: 推断：相较手工表格与逐站复制，本地 agent 在本地读取职位与投递材料后自动整理情报并执行投递操作，减少逐条录入与跨站核对这一步负担，因此批量投递、重视数据留在本地的求职者会在投递高峰期选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with manual spreadsheets and per-site copying, the local agent
+    reads job and application materials locally, then automatically organizes intelligence and performs
+    application operations, removing the step of manual entry and cross-site checking. Job seekers applying
+    in bulk who want data to stay local would choose it during peak application periods; public materials
+    do not yet confirm this motive via user feedback.'

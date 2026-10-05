@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/quantid/huggingface-official-benchm
 summary: Live map of all HF official benchmark leaderboards
 first_seen: '2026-10-04T14:33:28Z'
 last_seen: '2026-10-05T00:56:26Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

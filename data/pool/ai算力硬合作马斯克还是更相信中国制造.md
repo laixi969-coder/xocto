@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/501605.html
 summary: 一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。
 first_seen: '2026-10-04T06:12:22Z'
 last_seen: '2026-10-05T00:56:27Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

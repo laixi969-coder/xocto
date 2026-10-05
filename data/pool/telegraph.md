@@ -21,7 +21,7 @@ canonical_url: https://telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pop
 summary: Anthropic tried to persuade Pope that AI could be conscious being
 first_seen: '2026-10-03T19:33:10Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

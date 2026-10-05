@@ -167,3 +167,44 @@
   usage_reason: 推断：把会话状态固定在屏幕边缘常驻显示，理论上可省去反复切换终端这一步，但公开材料未提供任何用户选择或使用证据。
   usage_reason_en: 'Inference: pinning session status to the screen edge could in theory remove the repeated
     window-switching step, but the public material provides no evidence of user choice or use.'
+- id: req-full-coucou-2026-10-05
+  project_slug: coucou
+  level: full
+  reviewed_at: '2026-10-05T01:22:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多会话状态不可见的问题，但公开材料只有一句产品描述，没有用户抱怨、现有替代行为或客户案例，连具体状态项与不采用代价都无法还原，无法形成结构判断。
+    evidence_ids:
+    - ev-c62aa89681ea1019
+    - ev-daf3d4d4c64216b2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 issue 与 discussion，核对开发者实际反馈的状态误报、卡顿识别与长期使用情况。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 会话时，需要在 macOS 刘海或 Windows 屏幕顶部常驻的小窗口里查看每个会话是否仍在运行、卡住或报错，而不必切换终端窗口。
+  job_en: Developers running several Claude Code sessions at once need to check, from a small always-on
+    window in the macOS notch or at the top of the Windows screen, whether each session is still running,
+    stuck, or failing, without switching terminal windows.
+  pain: 公开材料只有一句产品描述，未给出任何用户抱怨、workaround 或客户案例，无法确认会话状态不可见带来的实际代价与频率。
+  pain_en: The public material offers only a one-line product description, with no user complaints, workarounds,
+    or customer cases, so the actual cost and frequency of invisible session status cannot be confirmed.
+  current_alternative: 公开材料未说明开发者现在如何绕过这一问题，无法确认是手动切换终端、查看日志，还是依赖代理自身提示。
+  current_alternative_en: The public material does not state how developers currently work around this,
+    so it is unclear whether they switch terminals manually, read logs, or rely on the agent's own prompts.
+  usage_reason: 推断：把会话状态固定在屏幕边缘可省去反复切换终端这一步，但公开材料未提供任何用户反馈、留存或重复使用证据，无法确认哪类用户会实际选择它。
+  usage_reason_en: 'Inference: pinning session status to the screen edge could remove the repeated window-switching
+    step, but no user feedback, retention, or repeat-use evidence is provided, so which users would actually
+    choose it cannot be confirmed.'

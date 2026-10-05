@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/ev-604
 summary: AI consciousness, electrification’s hidden progress, and the coming agentic bank run++
 first_seen: '2026-10-04T04:07:11Z'
 last_seen: '2026-10-05T00:56:27Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

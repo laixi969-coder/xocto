@@ -22,7 +22,7 @@ summary: Econet InfraCo accelerates AI and renewable energy deployment to drive 
   innovation-village.com
 first_seen: '2026-10-02T13:32:09Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -80,3 +80,43 @@
   usage_reason_en: With no description of data sources, city coverage or calling method, there is no way
     to explain why a developer would choose it over scraping or existing map and ticketing APIs; this
     is an information gap, not a demand conclusion.
+- id: req-full-syncso-2026-10-05
+  project_slug: syncso
+  level: full
+  reviewed_at: '2026-10-05T01:25:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有一句能力描述，未说明谁在什么情境下处理什么材料、要完成什么任务，也未说明不解决的后果与旧替代，无法还原需求与痛点，价值关证据不足。
+    evidence_ids:
+    - ev-33256b132333836e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 syncso 官方文档或仓库 README，确认数据来源、覆盖城市、调用方式与是否公布定价。
+  market: ''
+  job: 公开材料只说明向代理提供城市本地活动的实时信息（时间、价格、预订链接、图片），未写明谁在什么情况下、处理什么材料、要完成什么任务，无法还原可核对的工作场景。
+  job_en: Public material only states that it supplies agents with real-time local city event data (times,
+    prices, booking links, images); it does not state who, in what situation, handling what material,
+    to complete what task, so no verifiable work scenario can be reconstructed.
+  pain: 未说明代理获取本地活动信息时遇到的具体困难，也未说明不解决会有什么后果，痛点无法从公开事实中还原。
+  pain_en: It does not state the concrete difficulty agents face when obtaining local event information,
+    nor the consequence of not solving it, so the pain cannot be reconstructed from public facts.
+  current_alternative: 未披露开发者现在用什么方式为代理提供本地活动数据，无法与自行抓取、地图或票务接口等旧做法对比。
+  current_alternative_en: It does not disclose how developers currently supply local event data to agents,
+    so no comparison with scraping, map or ticketing APIs is possible.
+  usage_reason: 缺少数据来源、覆盖城市与调用方式的说明，无法解释开发者为何选择它而非自行抓取或使用现有地图与票务接口；这是信息缺口，不是需求结论。
+  usage_reason_en: With no description of data sources, city coverage or calling method, there is no way
+    to explain why a developer would choose it over scraping or existing map and ticketing APIs; this
+    is an information gap, not a demand conclusion.

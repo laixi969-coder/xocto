@@ -224,3 +224,56 @@
     the user to fill in details and directly outputs a copyable fixed-camera one-take prompt template,
     compressing ''deconstruct—iterate—write'' into one conversation and removing the post-production dialogue/subtitle
     step; creators who must batch-produce the same outfit-change format would choose it when pushing volume.'
+- id: req-full-ai-desktop-outfit-video-2026-10-05
+  project_slug: ai-desktop-outfit-video
+  level: full
+  reviewed_at: '2026-10-05T01:21:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短视频创作者批量产出固定机位换装成片的需求，痛点是提示词试错与后期剪辑耗时；仓库把流程固化为可复制模板与采访式 Skill，交付路径明确，属工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-e2df99e9409b27a0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 增至 46，说明社区注意到该模板，但公开材料没有用户评价、复刻案例或持续使用记录，无法证明目标创作者已把它留在工作流里。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-b8799f4e06ca7812
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未披露定价、付费主体或商业路径；谁付钱、按什么单位收费均属判断而非已验证事实，但商业缺口不反推需求不存在。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺一条提示词直出 30 秒成片且无需后期，但未提供可复现的成片样例或质量对比，交付能否稳定发生、人工与安全边界仍缺公开证据。
+    evidence_ids:
+    - ev-1f17b444abc9fe14
+    - ev-87d213a3033e3df8
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有创作者提交实际成片、复刻案例或对提示词模板的复用反馈。
+  market: ''
+  job: 短视频创作者或内容运营在需要批量产出「桌面动态壁纸换装」这类固定机位一镜到底的 30 秒成片时，把一句模糊想法交给仓库里的 Agent Skill，由它反问补全细节后写出提示词，再交给即梦、豆包、Seedance
+    2.5 等视频工具生成带中文对白和字幕的成片。
+  job_en: A short-form video creator or content operator who needs to batch-produce 30-second fixed-camera
+    one-take 'desktop wallpaper outfit-change' clips hands a rough idea to the repo's Agent Skill, which
+    interviews them to fill in details and writes the prompt, then feeds it to Jimeng, Doubao, Seedance
+    2.5 and similar video tools to generate a clip with Chinese dialogue and subtitles.
+  pain: 公开说明指出该模板把「全网刷屏」的换装视频逐帧拆解为可复制提示词，说明创作者此前要自己反复试提示词、拼机位与对白字幕，且成片需后期剪辑；不解决的后果是每条视频的提示词调试与剪辑时间无法压缩，难以批量产出。
+  pain_en: The public description says the template reverse-engineers a viral outfit-change format into
+    a copyable prompt, implying creators previously had to iterate prompts themselves and assemble camera
+    framing, dialogue and subtitles, with post-editing required; leaving it unsolved means per-video prompt
+    tuning and editing time cannot be compressed for batch output.
+  current_alternative: 旧做法是创作者自行摸索提示词、逐条试错，再用剪辑软件拼接对白与字幕；仓库把这一流程固化为一条可复制模板加 Agent Skill 采访式补全。
+  current_alternative_en: The old way is creators hand-tuning prompts by trial and error and then editing
+    dialogue and subtitles in a video editor; the repo freezes that workflow into one copyable template
+    plus an interview-style Agent Skill.
+  usage_reason: 推断：相较自行试错提示词，该 Skill 通过先反问补全细节再输出精准提示词，减少创作者反复改词与后期剪辑的步骤，因此需要批量产出固定机位换装成片的短视频创作者会在赶量时选择它；仓库
+    40→46 星的增长只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus hand-tuning prompts, the Skill interviews the user to fill in details
+    before emitting a precise prompt, cutting the iterate-and-edit steps, so creators who must batch out
+    fixed-camera outfit-change clips would pick it when pushing volume; the star growth from 40 to 46
+    shows attention only, not sustained use.'

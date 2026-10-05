@@ -366,3 +366,58 @@
     converges requests into typed IntentSpec before routing and probes, asks, or halts when information
     is missing, reducing downstream misrouting; developers building agent routers or decision models would
     choose it when they need stable structured intent at the ingestion layer.'
+- id: req-full-intent-router-2026-10-05
+  project_slug: intent-router
+  level: full
+  reviewed_at: '2026-10-05T01:23:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是模糊自然语言请求进入 agent 路由/决策层前缺少类型化意图契约的问题，痛点在于歧义请求导致错分与下游失败；公开仓库说明其以探测、追问或中止在路由前收敛为 IntentSpec，属工作流结构推理，用户抱怨与失败代价尚无量化证据。
+    evidence_ids:
+    - ev-5ecf1a95e3faa101
+    - ev-fe2291bf309a480e
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 345 增至 806，说明开发者社区持续关注该输入层定位；但收藏与关注只属规模信号，公开材料未见 issue、discussion 或客户案例证明其已被长期留在工作流中，故共识仅初步成立。
+    evidence_ids:
+    - ev-5ecf1a95e3faa101
+    - ev-8c0bae0ef68d12b2
+    - ev-9a21a6c0a14bfcfa
+    - ev-3434c1cae7de527c
+    - ev-fe2291bf309a480e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断 to C 开发者、to B 平台还是 to VC 路径；这是商业证据缺口，不反推问题不存在，谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-5ecf1a95e3faa101
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺在路由前探测、追问或中止，但公开材料未提供部署文档、失败处理说明或可复现测试，交付能否稳定发生及人工与安全边界仍缺证据。
+    evidence_ids:
+    - ev-5ecf1a95e3faa101
+    - ev-fe2291bf309a480e
+  next_validation: 追踪 Intent-Router 仓库的 README、部署文档与 issue/discussion，确认是否有开发者公开描述接入方式、替代的旧流程与失败处理边界。
+  market: ''
+  job: 构建 agent 路由或决策模型的开发者，在把用户自然语言请求接入路由/决策层之前，将模糊请求交给 Intent-Router，由它收敛为带类型的 IntentSpec 契约，并在路由前执行探测、追问或中止，最终拿到可直接喂给路由器的结构化意图输入。
+  job_en: Developers building agent routers or decision models, before feeding user natural-language requests
+    into the routing/decision layer, hand vague requests to Intent-Router, which converges them into typed
+    IntentSpec contracts and probes, asks, or halts before routing, yielding structured intent input that
+    can be fed directly to a router.
+  pain: 模糊自然语言请求直接进入路由或决策模型时，意图边界不清会导致路由错分、下游工具调用失败或需要人工兜底；公开材料只给出产品定位，未提供用户抱怨、失败率或人工返工代价的量化证据，痛点强度属工作流结构推理。
+  pain_en: When vague natural-language requests enter a router or decision model directly, unclear intent
+    boundaries cause misrouting, downstream tool-call failures, or manual fallback; public materials only
+    give the product positioning, with no quantified user complaints, failure rates, or rework cost, so
+    pain intensity is a workflow-structural inference.
+  current_alternative: 公开材料未说明现有替代方式；结构上开发者通常自行在 prompt 中加澄清指令、写正则/规则前置过滤，或让路由模型直接吞下原始请求并在下游报错后重试。
+  current_alternative_en: Public materials do not state the current alternative; structurally, developers
+    typically add clarification instructions to prompts, write regex/rule pre-filters, or let the router
+    model ingest raw requests and retry after downstream errors.
+  usage_reason: 推断：相较在 prompt 里手写澄清规则或让路由模型直接处理原始请求，Intent-Router 把“探测—追问—中止”固化为路由前的独立契约层，输出带类型的 IntentSpec，使开发者不必在每个下游路由里重复处理模糊输入；当请求歧义会直接导致错分或工具调用失败时，构建路由/决策模型的开发者会选择它。
+  usage_reason_en: 'Inference: compared with hand-writing clarification rules in prompts or letting the
+    router model handle raw requests, Intent-Router fixes probe-ask-halt into a separate pre-routing contract
+    layer that outputs typed IntentSpec, so developers need not repeatedly handle vague input in each
+    downstream route; developers building routers/decision models choose it when request ambiguity directly
+    causes misrouting or tool-call failure.'

@@ -639,3 +639,47 @@
   usage_reason: 公开代码仓库有 77 个收藏、3 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 77 stars and 3 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-approving-2026-10-05
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-10-05T01:22:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 approving 官方仓库的 README、部署文档与 issue/discussion，确认沙箱隔离、Approve 暂停与恢复流程是否有可复现的公开记录。
+  market: ''
+  job: 使用编码代理的开发者或团队在让代理执行真实代码改动时，需要代理在真实 Docker 沙箱中运行、以结构化产物交接，并在关键节点暂停等待人工 Approve 后才继续，从而完成一次可审查、可恢复的交付流程。
+  job_en: Developers or teams using coding agents need the agent to run in real Docker sandboxes, exchange
+    structured artifacts, and pause at critical nodes for human Approve before continuing, so a coding
+    task becomes a reviewable, recoverable delivery workflow.
+  pain: 编码代理直接改动代码时，用户难以在关键节点介入，出错后不易恢复，也缺少可审查的中间产物；公开材料未给出不解决的具体代价与频率，但沙箱隔离与人工审批节点的设计指向对不可控自动改动的担忧。
+  pain_en: When coding agents modify code directly, users struggle to intervene at critical nodes, recover
+    from mistakes, and inspect intermediate artifacts; public materials do not quantify the cost or frequency,
+    but the sandbox isolation and human approval nodes point to concern about uncontrolled automated changes.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是让编码代理在本地或普通 CI 中直接执行并人工事后检查 diff，或依赖代理自身的确认提示。
+  current_alternative_en: Public materials do not state how users do this today; structurally inferable
+    alternatives are letting coding agents run locally or in ordinary CI and reviewing diffs afterward,
+    or relying on the agent's own confirmation prompts.
+  usage_reason: 推断：相较本地直接执行或事后看 diff，它把代理放进真实 Docker 沙箱并在关键节点强制暂停等待 Approve，减少了出错后回滚与人工追查中间状态的步骤，因此关注可控性与可恢复性的编码代理使用者会在需要审查的改动场景选择它；公开仓库
+    77 收藏、3 复刻仅说明开发者关注，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus running locally or reviewing diffs afterward, it puts the agent
+    in a real Docker sandbox and forces a pause for Approve at critical nodes, cutting the steps of rolling
+    back errors and tracing intermediate state, so users who care about controllability and recoverability
+    would choose it for changes needing review; the 77 stars and 3 forks only show developer attention,
+    not sustained use.'

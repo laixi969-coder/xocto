@@ -1,6 +1,6 @@
 ---
 slug: akasa-launches-first-autonomous-ai-platform-for-coding-and-d-2
-name: AKASA Launches First Autonomous AI Platform for Coding and Documentation
+name: AKASA
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwJBVV95cUxOQ2k4RnB4NGtk
 summary: AKASA Launches First Autonomous AI Platform for Coding and Documentation Santa Maria Times
 first_seen: '2026-10-02T11:05:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AKASA Launches First Autonomous AI Platform for Coding and Documentation
+# AKASA
 
 AKASA Launches First Autonomous AI Platform for Coding and Documentation Santa Maria Times
 

@@ -431,3 +431,53 @@
     and automatically extracts stroke and rally information into a reviewable analysis, removing the step
     of locating key rallies frame by frame; so amateur players and coaching staff without an analysis
     team who want structured post-match review would use it that evening.'
+- id: req-full-courtmind-2026-10-05
+  project_slug: courtmind
+  level: full
+  reviewed_at: '2026-10-05T01:23:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是赛后复盘缺少客观逐回合依据的需求：整场录像回看慢、人工数球记失误易漏，教练带多学员时更难逐场标注，不解决则训练建议停留在印象层面。公开仓库说明其输入为任意比赛录像、输出为可回看的分析结果，旧替代是手动拖进度条与纸笔记录，交付闭环结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-cf326c7b84cfb054
+    - ev-7960148cb4524f6c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 123 增至 150，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明业余选手或教练已把它留在复盘工作流中；公开材料未见用户评价、使用反馈或客户案例，强场景是否被真实采用仍缺一环。
+    evidence_ids:
+    - ev-cf326c7b84cfb054
+    - ev-23402b09cc756db0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费记录或采购信息，谁付钱尚不明确；可推断的路径是 to C 业余选手订阅或 to B 俱乐部、培训机构按教练席位付费，但这只是判断而非已验证事实，也未显示单位经济。
+    evidence_ids:
+    - ev-7960148cb4524f6c
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺从任意比赛录像提取击球与回合信息，但公开材料未给出识别准确率、可复现实测或失败边界，也未说明低画质、固定机位等条件下的交付确定性，承诺能否稳定兑现尚缺公开证据。
+    evidence_ids:
+    - ev-cf326c7b84cfb054
+  next_validation: 追踪 CourtMind 仓库的 README、issue 与 discussion，确认是否有真实比赛录像的输入输出示例、识别准确率说明或教练/选手的使用反馈，以核验交付确定性与采用情况。
+  market: ''
+  job: 业余羽毛球选手或俱乐部教练在赛后拿到一段整场比赛录像时，需要把录像变成可回看的击球与回合复盘材料，用来定位自己在哪些回合、哪些球路上反复失分，而不是只凭记忆和感觉总结。
+  job_en: An amateur badminton player or club coach, holding a full match recording after play, needs
+    to turn that footage into reviewable rally and stroke material to locate which rallies and shot patterns
+    repeatedly cost points, instead of relying on memory and feel.
+  pain: 业余选手赛后复盘缺少客观依据：整场录像时长长、回看成本高，靠肉眼逐回合数球和记失误既慢又容易漏；教练带多名学员时更难为每场录像单独做逐球标注，导致训练建议停留在笼统印象。
+  pain_en: 'Amateur post-match review lacks objective grounding: full-match footage is long and costly
+    to rewatch, and counting rallies or logging errors by eye is slow and error-prone; coaches with multiple
+    students struggle to annotate each recording rally by rally, so training advice stays at the level
+    of vague impressions.'
+  current_alternative: 当前替代方式是本人或教练反复拖动进度条回看录像、用纸笔或手机备忘录手动记录失误回合，或者干脆不复盘、只依赖场上体感和教练口头点评；部分人用通用视频剪辑软件自行切分回合。
+  current_alternative_en: Today the substitute is the player or coach scrubbing the video repeatedly,
+    logging error rallies by hand on paper or a phone note, or skipping review entirely and relying on
+    in-play feel and verbal coach feedback; some use general video editors to cut rallies manually.
+  usage_reason: 推断：相较手动拖进度条和逐球记录，CourtMind 把整场录像作为输入、自动提取击球与回合信息并输出可回看的分析结果，省掉的是逐回合定位与人工标注这一步负担，因此更可能被愿意上传比赛录像、希望拿到结构化复盘材料的业余选手和带学员的教练在赛后复盘场景中选择；公开材料尚未显示留存或复购证据。
+  usage_reason_en: 'Inference: versus manual scrubbing and rally-by-rally note-taking, CourtMind takes
+    the full match video as input and automatically extracts stroke and rally information into reviewable
+    analysis, removing the step of locating and annotating each rally by hand; this makes it more likely
+    to be chosen after matches by amateurs willing to upload footage and by coaches with students who
+    want structured review material. Public materials do not yet show retention or repeat-use eviden'

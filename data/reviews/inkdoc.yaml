@@ -126,3 +126,55 @@
     the upload step and some manual cleanup; privacy-sensitive knowledge workers or legal staff who batch-feed
     documents to models would choose it in that situation. This is inferred from product capability and
     task structure, not confirmed by user feedback.'
+- id: req-full-inkdoc-2026-10-05
+  project_slug: inkdoc
+  level: full
+  reviewed_at: '2026-10-05T01:23:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把 PDF、扫描件与 Office 文档转成可投喂 AI 的干净 Markdown，痛点是版面噪声与逐份手工清洗；本地运行避免上传敏感文档，属工作流结构推理，公开材料未提供用户抱怨或频率证据。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-ecc0e65f9444a964
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 49，说明有开发者关注，但公开材料没有用户评价、案例或持续使用记录，无法判断目标用户是否把它留在工作流里，关注度不等于采用。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-8b225bc9324ac614
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，桌面开源应用可能走捐赠、增值版或企业授权，这是判断而非已验证事实；买方不清不否定需求成立。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  - gate: truth
+    status: insufficient
+    reason: 产品说明称本地运行并整合多个转换器，但公开材料没有部署文档、可复现转换质量对比或人工校对边界说明，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-ecc0e65f9444a964
+  next_validation: 追踪 InkDoc 官方仓库的 README、release 与 issue/discussion，确认是否出现真实用户报告的转换质量、部署方式与使用场景记录。
+  market: ''
+  job: 知识工作者、法务或研究助理在需要把一批 PDF、扫描件和 Office 文档投喂给 AI 或检索系统时，先在本机把这些文件转成结构干净、可直接切分的 Markdown 文本。
+  job_en: Knowledge workers, legal staff, or research assistants who need to feed a batch of PDFs, scans,
+    and Office documents into an AI or retrieval system first convert them locally into clean, chunk-ready
+    Markdown text.
+  pain: 公开材料只说明产品定位为本地把任意文档转成 AI-ready Markdown，未提供用户抱怨、频率或不采用代价；从工作流结构看，PDF 与扫描件的版面、表格、多栏在直接投喂模型时会产生噪声，用户需先做格式清洗，这是可推理的摩擦，但强度未经用户证据核验。
+  pain_en: Public materials only state the positioning of converting any document locally into AI-ready
+    Markdown, with no user complaints, frequency, or cost-of-inaction evidence; structurally, PDF and
+    scan layouts, tables, and columns add noise when fed directly to models, so format cleaning is a plausible
+    friction, but its intensity is not verified by user evidence.
+  current_alternative: 公开材料未说明用户当前做法；结构上可推断的旧替代是手工复制粘贴、用通用 PDF 转文本工具再人工修补，或把原始文件直接投喂模型并接受版面噪声。
+  current_alternative_en: Public materials do not describe current practice; structurally inferable alternatives
+    are manual copy-paste, generic PDF-to-text tools followed by hand fixing, or feeding raw files directly
+    to models and accepting layout noise.
+  usage_reason: 推断：相较手工复制或通用转换工具，InkDoc 把 MarkItDown、Docling、GLM-OCR 等转换器整合进一个本地桌面应用，用户不必逐份文件切换工具或上传到云端，即可拿到可直接切分的
+    Markdown，因此在意文档隐私、又需要批量处理扫描件与 Office 文件的知识工作者会在准备 AI 语料时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual copying or generic converters, InkDoc bundles MarkItDown,
+    Docling, GLM-OCR and similar converters into one local desktop app, so users avoid switching tools
+    per file or uploading to the cloud and get chunk-ready Markdown; knowledge workers who care about
+    document privacy and need batch handling of scans and Office files would choose it when preparing
+    AI corpora, though public materials contain no user feedback confirming this motive.'

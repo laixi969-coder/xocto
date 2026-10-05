@@ -719,3 +719,42 @@
     the question, and copy-pasting. That is why Chinese PC users who need to dig deep and produce content
     in one pass would pick it for complex questions. Public materials provide no retention or repeat-use
     evidence, so it cannot be claimed as embedded in the workflow long term.'
+- id: req-full-ai-搜索-百度-2026-10-05
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-10-05T01:22:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句产品介绍，未说明用户具体卡在哪一步、旧搜索方式的代价与频率，用户任务与痛点无法还原，需求强度无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度 AI 搜索官方页面的功能说明与定价/会员条款，确认它相对传统结果页具体替代了哪一步、面向哪类用户。
+  market: ''
+  job: 普通搜索用户在百度上提出复杂问题时，在同一页面内获得对话式回答、继续追问，并顺带完成文字或图片创作。
+  job_en: General search users posing complex questions on Baidu get a conversational answer, keep digging,
+    and also write text or make images on the same page.
+  pain: 公开材料只有一句产品介绍，未说明用户在哪一步受阻、旧搜索方式的具体代价与发生频率，痛点强度无法核验。
+  pain_en: Public material offers only a one-line product description; it does not show where users get
+    stuck, the concrete cost of the old search flow, or how often it occurs, so pain intensity cannot
+    be verified.
+  current_alternative: 公开材料未说明用户此前是用传统百度结果页、其他 AI 对话工具还是站外工具完成同类任务。
+  current_alternative_en: Public material does not show whether users previously used the classic Baidu
+    results page, another AI chat tool, or an off-site tool for the same task.
+  usage_reason: 月访问 44.85M、环比 13.76% 只说明规模与关注度，不能解释用户为何选择它而非旧搜索方式；缺少留存或用户反馈，无法给出因果。
+  usage_reason_en: 44.85M monthly visits and 13.76% MoM growth only show scale and attention; they do
+    not explain why users pick it over the old search flow, and without retention or feedback no causal
+    reason can be given.

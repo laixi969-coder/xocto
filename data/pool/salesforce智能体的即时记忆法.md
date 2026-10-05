@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9mXzJaYnlNRWhh
 summary: Salesforce：智能体的即时记忆法 blog.csdn.net
 first_seen: '2026-10-04T00:00:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

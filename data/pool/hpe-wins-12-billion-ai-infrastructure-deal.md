@@ -1,6 +1,6 @@
 ---
 slug: hpe-wins-12-billion-ai-infrastructure-deal
-name: HPE Wins $1.2 Billion AI Infrastructure Deal
+name: Hewlett Packard Enterprise
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTE5SLVA3UV9hVk9n
 summary: HPE Wins $1.2 Billion AI Infrastructure Deal varindia
 first_seen: '2026-10-04T16:51:35Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# HPE Wins $1.2 Billion AI Infrastructure Deal
+# Hewlett Packard Enterprise
 
 HPE Wins $1.2 Billion AI Infrastructure Deal varindia
 

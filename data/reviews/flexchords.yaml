@@ -1,0 +1,86 @@
+- id: req-initial-flexchords-2026-10-05
+  project_slug: flexchords
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决扒谱这一具体任务：把视频音频转成可弹和弦谱，替代反复听音试按的旧做法，痛点与旧行为都清楚。
+    evidence_ids:
+    - ev-928e0eb4eef23d5d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句说明，没有用户评价、使用量或教学场景反馈，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-928e0eb4eef23d5d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与计费方式；按份出谱或订阅都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-928e0eb4eef23d5d
+  - gate: truth
+    status: insufficient
+    reason: 和弦识别准确率、是否需人工校对、版权处理均未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-928e0eb4eef23d5d
+  next_validation: 收集该产品的官方定价页或公开用户反馈，核对和弦识别准确率与是否提供人工校对环节。
+  market: ''
+  job: 吉他学习者或音乐教师在练习或备课时，拿到一段 YouTube 演奏视频，需要得到能直接照着弹的和弦谱。
+  job_en: A guitar learner or music teacher with a YouTube performance video needs a chord chart they
+    can play along to while practicing or preparing a lesson.
+  pain: 过去扒谱要靠耳朵反复听、试按和弦，一段几分钟的视频常要花上几十分钟甚至更久，且容易听错。
+  pain_en: Transcribing by ear means repeated listening and trial fingering; a few minutes of video can
+    take tens of minutes or more, and errors are common.
+  current_alternative: 靠耳朵反复听、在乐器上试和弦，或去论坛、谱站找现成和弦谱，找不到就只能自己扒。
+  current_alternative_en: Repeated listening and trial fingering on the instrument, or hunting existing
+    chord charts on forums and tab sites; if none exists, transcribe it yourself.
+  usage_reason: 推断：相较自己反复听音试按，它把整段音频一次性转成和弦序列，省掉逐句辨音这一步，因此需要快速出谱的吉他学习者和教师会先试它；但识别准确度未经公开验证，用户仍需自行校对。
+  usage_reason_en: 'Inference: instead of repeated listening and trial fingering, it converts the whole
+    audio into a chord sequence in one pass, removing the phrase-by-phrase pitch-identification step,
+    so learners and teachers needing a fast chart would try it; accuracy is not publicly verified, so
+    users still proofread.'
+- id: req-full-flexchords-2026-10-05
+  project_slug: flexchords
+  level: full
+  reviewed_at: '2026-10-05T01:23:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决扒谱这一具体任务：把视频音频转成可弹和弦谱，替代反复听音试按的旧做法，痛点与旧行为都清楚。
+    evidence_ids:
+    - ev-928e0eb4eef23d5d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句说明，没有用户评价、使用量或教学场景反馈，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-928e0eb4eef23d5d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与计费方式；按份出谱或订阅都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-928e0eb4eef23d5d
+  - gate: truth
+    status: insufficient
+    reason: 和弦识别准确率、是否需人工校对、版权处理均未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-928e0eb4eef23d5d
+  next_validation: 收集该产品的官方定价页或公开用户反馈，核对和弦识别准确率与是否提供人工校对环节。
+  market: ''
+  job: 吉他学习者或音乐教师在练习、备课时，拿到一段 YouTube 演奏视频，需要得到一份能直接照着弹的和弦谱。
+  job_en: A guitar learner or music teacher with a YouTube performance video needs a chord chart they
+    can play along to while practicing or preparing a lesson.
+  pain: 公开材料只说明它把视频转成可弹和弦，未披露用户抱怨；按工作流推理，旧做法要反复听音、在琴上试按，一段几分钟的视频常耗数十分钟且易听错。
+  pain_en: Public material only states it turns videos into playable chords and discloses no user complaints;
+    by workflow inference, the old way means repeated listening and trial fingering, so a few minutes
+    of video can take tens of minutes and errors are common.
+  current_alternative: 靠耳朵反复听、在乐器上试和弦，或去论坛、谱站找现成和弦谱，找不到就只能自己扒。
+  current_alternative_en: Repeated listening and trial fingering on the instrument, or hunting existing
+    chord charts on forums and tab sites; if none exists, transcribe it yourself.
+  usage_reason: 推断：相较逐句辨音试按，它把整段音频一次性转成和弦序列，省掉逐句辨音这一步，因此需要快速出谱的吉他学习者和教师会先试它；识别准确度未公开，用户仍需自行校对。
+  usage_reason_en: 'Inference: instead of phrase-by-phrase pitch identification and trial fingering, it
+    converts the whole audio into a chord sequence in one pass, removing that step, so learners and teachers
+    needing a fast chart would try it; accuracy is not public, so users still proofread.'

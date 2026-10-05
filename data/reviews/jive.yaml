@@ -316,3 +316,45 @@
   usage_reason: 缺少可引用的产品文档、用户反馈或案例，无法说明相较旧做法它减少了哪一步负担，因此不能给出选择理由。
   usage_reason_en: With no citable product docs, user feedback, or cases, there is no basis to explain
     which step it removes versus the old approach, so no adoption reason can be given.
+- id: req-full-jive-2026-10-05
+  project_slug: jive
+  level: full
+  reviewed_at: '2026-10-05T01:23:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其把编码智能体计划表示为可执行图，但全部证据指向 GoTo 登录页与词典释义，无一条能说明用户任务、痛点、旧替代或不解决的后果，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-27a3644fbe1f6755
+    - ev-05df070e086d0a5c
+    - ev-ef6ea4678e73d96c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该终端编码智能体的官方仓库或官网，收集 README、issue、discussion 与发布说明，确认其真实产品形态、输入输出与用户使用记录。
+  market: ''
+  job: 软件工程师或技术团队负责人在终端里让编码智能体执行多步代码改动任务时，需要先看到智能体打算按什么依赖顺序执行、再决定是否放行，最终拿到可检查的代码改动。
+  job_en: A software engineer or engineering lead running a terminal coding agent on a multi-step code-change
+    task needs to see the intended dependency order before approving it, and to end up with inspectable
+    code changes.
+  pain: 公开证据里没有任何用户抱怨、workaround 或案例说明多步编码智能体的计划不可见会带来什么代价；现有材料只重复了产品自述，无法确认痛点是否真实存在。
+  pain_en: No public evidence shows user complaints, workarounds, or cases about the cost of opaque multi-step
+    agent plans; the material only restates the product's own description, so the pain cannot be confirmed.
+  current_alternative: 公开材料未说明工程师目前如何完成这项工作，也未说明它替代了什么旧做法（如手工拆解任务、逐条确认 diff、使用其他终端智能体）。
+  current_alternative_en: Public materials do not show how engineers do this today or what it replaces,
+    such as manually decomposing tasks, reviewing diffs step by step, or using other terminal agents.
+  usage_reason: 无法判断用户为何会选择它：没有用户反馈、客户案例或可核对的结果说明图式计划相较旧做法减少了哪一步负担，因此只能标为推断且证据不足。
+  usage_reason_en: 'Why users would choose it cannot be judged: no user feedback, customer case, or checkable
+    outcome shows which step the graph-based plan removes versus the old approach, so this remains an
+    unsupported inference.'

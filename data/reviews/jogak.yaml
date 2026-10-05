@@ -1,0 +1,80 @@
+- id: req-initial-jogak-2026-10-05
+  project_slug: jogak
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决日常vlog剪辑耗时的问题，但公开材料只有一句“减少剪辑”，说不清原来谁在手工做哪一步、不剪的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-2efbf4ad047692f2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且没有可归因到该产品的采用或讨论信号。
+    evidence_ids:
+    - ev-2efbf4ad047692f2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关证据不足，公开材料未披露定价、买方或付费路径。
+    evidence_ids:
+    - ev-2efbf4ad047692f2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关证据不足，无法核对交付是否确定发生及人工确认边界。
+    evidence_ids:
+    - ev-2efbf4ad047692f2
+  next_validation: 收集JOGAK官方产品页或演示，确认它接收的素材形式、AI执行的具体剪辑动作与最终交付物。
+  market: ''
+  job: 日常vlog创作者在拍完一天素材后，需要把零散片段整理成一条可发布的vlog成片。
+  job_en: Daily vlog creators need to turn scattered clips from a day of shooting into one publishable
+    vlog.
+  pain: 公开材料只说明“减少剪辑”，没有说明创作者原来卡在哪一步、耗时多久、不剪会失去什么。
+  pain_en: Public material only says 'less editing'; it does not say which step blocked creators, how
+    long it took, or what is lost without it.
+  current_alternative: 公开材料未说明现有替代方式，推断可能是手机剪辑App或桌面剪辑软件手动剪接。
+  current_alternative_en: Public material does not state the current alternative; inference is manual
+    cutting in mobile or desktop editing apps.
+  usage_reason: 无法判断：材料未说明AI具体接收什么、执行哪一步剪辑、交付什么结果，因此无法解释相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Cannot be judged: the material does not say what the AI receives, which editing step
+    it performs, or what it delivers, so it cannot explain which burden is reduced versus the old way.'
+- id: req-full-jogak-2026-10-05
+  project_slug: jogak
+  level: full
+  reviewed_at: '2026-10-05T01:23:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决日常vlog剪辑耗时的问题，但公开材料只有一句“减少剪辑”，说不清原来谁在手工做哪一步、不剪的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-2efbf4ad047692f2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 JOGAK 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 日常vlog创作者在拍完一天零散生活片段后，需要把这些素材整理成一条可直接发布的vlog成片。
+  job_en: Daily vlog creators, after shooting scattered clips of their day, need to turn that footage
+    into one publishable vlog.
+  pain: 公开材料只有一句“减少剪辑”，没有说明创作者原来卡在哪一步、单条vlog要花多少时间、不剪会失去什么，痛点强度无法还原。
+  pain_en: Public material only says 'less editing'; it does not say which step blocks creators, how long
+    one vlog takes, or what is lost without it, so pain intensity cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，只能推断为手机剪辑App或桌面剪辑软件手动逐段剪接。
+  current_alternative_en: Public material does not state the current alternative; it can only be inferred
+    as manual cutting in mobile or desktop editing apps.
+  usage_reason: 无法判断：材料未说明AI接收什么素材、执行哪一步剪辑、交付什么结果，因此无法解释相较手动剪接减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what footage the AI receives, which editing
+    step it performs, or what it delivers, so it cannot explain which burden is reduced versus manual
+    cutting or which users would choose it in what situation.'

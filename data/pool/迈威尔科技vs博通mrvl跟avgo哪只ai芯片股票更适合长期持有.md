@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMmVvTGFpbkpD
 summary: 迈威尔科技VS博通：MRVL跟AVGO哪只AI芯片股票更适合长期持有？ TradingKey
 first_seen: '2026-10-04T09:42:38Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -313,3 +313,89 @@
   usage_reason: 缺少可归因到该产品的用户反馈或案例，无法说明相较旧做法它减少了哪一步负担，因此用户为何选择它只能存疑。
   usage_reason_en: There is no user feedback or case attributable to this product, so which step of burden
     it removes versus the old approach cannot be explained, and why users would choose it remains unclear.
+- id: req-initial-relate-2026-10-05
+  project_slug: relate
+  level: initial
+  reviewed_at: '2026-10-05T00:56:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决聊天承诺散落、跟进漏项的问题，漏掉答应的事会损伤客户信任，痛点具体且不采用有代价；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-6e8d6479ea8c012f
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库 119 颗星，无用户评价、客户案例或社区讨论，尚不能说明有人把它放进日常工作流。
+    evidence_ids:
+    - ev-6e8d6479ea8c012f
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，自托管开源项目可能靠托管版或服务收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6e8d6479ea8c012f
+  - gate: truth
+    status: insufficient
+    reason: 承诺抽取的准确率、人工确认边界和接入的聊天平台均未公开，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-6e8d6479ea8c012f
+  next_validation: 收集 Relate 仓库的 README、issue 与 discussion，确认它实际接入哪些聊天平台、承诺抽取的准确率说明以及是否提供托管付费版本。
+  market: ''
+  job: 独立顾问、销售或经纪人同时跟进多段客户对话，需要从聊天记录里找出对方提过的需求和自己答应过的事，整理成不漏项的跟进清单。
+  job_en: An independent consultant, salesperson or agent tracking several client conversations needs
+    to pull stated needs and self-made promises out of chat logs into a follow-up list with no missed
+    items.
+  pain: 承诺散落在多个聊天窗口，靠记忆和翻记录容易漏掉答应过的事，漏掉会直接损伤客户信任和成交。
+  pain_en: Promises are scattered across chat windows; relying on memory and scrolling easily misses what
+    was agreed, and a miss directly damages client trust and deals.
+  current_alternative: 现在多用手动翻聊天记录、在备忘录或任务工具里另记一条，或干脆靠记忆。
+  current_alternative_en: Today people manually scroll chat history, jot a separate note in a memo or
+    task tool, or simply rely on memory.
+  usage_reason: 推断：相较手动翻记录再另开工具记一条，它直接读取聊天内容并抽出承诺与待办，省掉“先找、再抄”的两步，因此对话量大、漏项代价高的顾问和销售会在跟进前打开它；公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus scrolling logs and re-typing into another tool, it reads the chat
+    content and extracts commitments and to-dos, removing the find-then-copy steps, so consultants and
+    salespeople with many conversations and high miss costs would open it before follow-up; no retention
+    or repeat-use evidence is public yet.'
+- id: req-full-relate-2026-10-05
+  project_slug: relate
+  level: full
+  reviewed_at: '2026-10-05T01:24:33Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部是词典释义与同名助听器页面，无一条来自该产品，连它解决什么需求、什么痛点都无法从公开事实还原，价值结构不成立。
+    evidence_ids:
+    - ev-c8206d2ada104690
+    - ev-a9c870d83f991ac6
+    - ev-f99374460aa730e5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Relate 官方仓库或官网的 README 与定价页，确认其实际接入的聊天平台、承诺抽取的交付形式以及是否提供付费版本。
+  market: ''
+  job: 独立顾问、销售或经纪人同时跟进多段客户对话，需要从聊天记录里找出对方提过的需求和自己答应过的事，整理成不漏项的跟进清单。
+  job_en: An independent consultant, salesperson or agent tracking several client conversations needs
+    to pull stated needs and self-made promises out of chat logs into a follow-up list with no missed
+    items.
+  pain: 公开证据中没有任何一条来自该产品的材料能说明用户痛点：现有证据全是词典释义与同名助听器页面，无法支持“承诺散落、容易漏项”这一痛点描述。
+  pain_en: 'No public evidence from this product supports any user pain: all evidence is dictionary definitions
+    and a same-named hearing-aid page, so the claimed ''scattered promises, easy to miss'' pain is unsupported.'
+  current_alternative: 公开材料未披露任何现有替代方式；无法确认用户目前是手动翻记录、另记备忘录还是靠记忆。
+  current_alternative_en: Public material discloses no current alternative; it cannot be confirmed whether
+    users scroll logs, keep separate notes, or rely on memory.
+  usage_reason: 无法给出使用理由：证据中没有该产品的功能说明、接入平台、抽取结果或任何用户反馈，无法解释相较旧做法减少了哪一步负担。
+  usage_reason_en: 'No usage reason can be given: evidence contains no product capability description,
+    integrations, extraction output, or user feedback, so no step saved versus the old approach can be
+    explained.'

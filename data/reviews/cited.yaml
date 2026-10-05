@@ -203,3 +203,43 @@
     AI answers centrally and counts brand citations automatically, removing the hand-logging step, so
     brands and agencies that must report AI exposure to clients or management may choose it; public material
     gives no user feedback or repeat-use evidence.'
+- id: req-full-cited-2026-10-05
+  project_slug: cited
+  level: full
+  reviewed_at: '2026-10-05T01:22:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是 AI 回答中品牌引用无法衡量的问题，痛点方向成立，但公开材料只有一句产品定位，说不清具体输入、动作与交付，价值结构无法确认。
+    evidence_ids:
+    - ev-08b7ab9936f6bd62
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它实际采集哪些 AI 回答、输出什么引用报告。
+  market: ''
+  job: 品牌或公关人员在评估一轮内容投放效果时，处理 AI 回答中的品牌提及材料，要确认品牌是否被引用以及被引用在哪些问题上。
+  job_en: Brand or PR staff evaluating a content campaign work with brand mentions inside AI answers to
+    confirm whether the brand is cited and on which questions.
+  pain: AI 回答里的品牌曝光无法用搜索排名或点击量衡量，团队缺少可核对的引用记录，投放效果说不清。
+  pain_en: Brand exposure inside AI answers cannot be measured by search rankings or clicks, and teams
+    lack a checkable citation record, so campaign results cannot be explained.
+  current_alternative: 目前多靠人工在几个 AI 助手里逐个提问、截图或手工记录，或干脆沿用搜索排名和媒体监测报告。
+  current_alternative_en: Today teams mostly ask several AI assistants manually, screenshot or hand-log
+    answers, or simply keep using search rankings and media monitoring reports.
+  usage_reason: 推断：相较人工逐个提问截图，它把 AI 回答集中采集并自动统计品牌引用，省掉手工记录这一步，因此需要定期向客户或管理层汇报 AI 曝光情况的品牌与代理商可能选择它；但公开材料未给出用户反馈或持续使用证据。
+  usage_reason_en: 'Inference: compared with manually querying and screenshotting each assistant, it collects
+    AI answers centrally and counts brand citations automatically, removing the hand-logging step, so
+    brands and agencies that must report AI exposure to clients or management may choose it; public material
+    gives no user feedback or repeat-use evidence.'

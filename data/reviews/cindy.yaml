@@ -495,3 +495,41 @@
     assistants in one workspace and preserves memory and task state, removing the re-explain-and-repaste
     step when changing models, so developers using several models on one task would pick it when switching
     mid-task; the 1,995 stars and 253 forks show attention only, not sustained use.'
+- id: req-full-cindy-2026-10-05
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-05T01:22:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决跨厂商编码助手切换时会话与记忆断裂的问题，但公开材料只有产品定位，没有用户任务、旧替代行为或不解决的后果，连需求与痛点都还原不出，属证据不足而非已证伪。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认是否出现用户描述换模型丢上下文的实际工作流与替代做法。
+  market: ''
+  job: 写代码的人在不同厂商的编码助手之间切换时，希望把会话、记忆和未完成任务保留在同一个工作区里，继续完成同一段开发工作。
+  job_en: Developers switching between coding assistants from different vendors want to keep the session,
+    memory and unfinished tasks in one workspace and continue the same development work.
+  pain: 公开材料只给出产品定位，没有用户陈述说明换模型时丢失上下文究竟造成多大返工、多久发生一次、不解决会付出什么代价。
+  pain_en: Public materials only give the product positioning; no user statement shows how much rework
+    losing context on model switch causes, how often it happens, or what it costs to leave unsolved.
+  current_alternative: 公开材料未说明用户现在如何完成这项工作，也未说明它实际替代了哪些工具或手工做法。
+  current_alternative_en: Public materials do not show how users do this today or which tools or manual
+    workarounds it actually replaces.
+  usage_reason: 仓库有 1,995 个收藏、253 次复刻，说明开发者注意到并可能试用过；但收藏属于关注度证据，不能解释用户为何选择它，也没有留存或重复使用证据。
+  usage_reason_en: The repository has 1,995 stars and 253 forks, showing developers noticed and may have
+    tried it; stars are attention evidence, not a reason users choose it, and there is no retention or
+    repeat-use evidence.

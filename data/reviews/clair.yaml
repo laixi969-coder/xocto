@@ -1,0 +1,87 @@
+- id: req-initial-clair-2026-10-05
+  project_slug: clair
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是代理等待人工确认时任务空转的问题，痛点真实但强度取决于确认频率；公开材料只有一句产品描述，无法确认回复是否真能推进任务。
+    evidence_ids:
+    - ev-827e91152e6f707c
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条产品页描述，没有用户评价、采用或重复使用证据，无法判断开发者是否真的会为此改变行为。
+    evidence_ids:
+    - ev-827e91152e6f707c
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径信息，买方是个人开发者还是团队无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-827e91152e6f707c
+  - gate: truth
+    status: insufficient
+    reason: 手表端回复能否确定性触发代码改动、出错时如何叫停，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-827e91152e6f707c
+  next_validation: 收集 Clair 官方产品页或文档，确认支持的手表平台、回复是否直接进入 Claude Code 会话，以及是否提供定价或付费方案。
+  market: ''
+  job: 开发者在让 Claude Code 长时间跑任务、自己离开电脑时，需要对手表上收到的确认请求或追问给出回复，让任务继续而不是停在等待输入的状态。
+  job_en: A developer who lets Claude Code run a long task and steps away from the computer needs to reply
+    to confirmation requests or follow-up questions received on a watch so the task continues instead
+    of stalling on missing input.
+  pain: 编码代理跑到一半会停下来等人确认，人一旦离开键盘，任务就空转，回来还要重新读上下文才能接着推进。
+  pain_en: A coding agent stops mid-run waiting for human confirmation; once the person leaves the keyboard
+    the task idles, and on return they must re-read context before pushing it forward.
+  current_alternative: 旧做法是留在电脑前盯着终端，或者干脆让任务停着，回来再一次性处理所有确认。
+  current_alternative_en: The old behaviour is to stay at the terminal watching, or simply let the task
+    sit and handle all confirmations in one batch after returning.
+  usage_reason: 推断：如果手表端回复能直接进入同一会话，用户省掉的是“必须回到电脑前才能放行”这一步，因此经常让代理跑长任务、又需要频繁离开工位的开发者会尝试它；但公开材料没有说明回复是否真的能推进任务，也没有任何使用或留存证据。
+  usage_reason_en: 'Inference: if a wrist reply enters the same session directly, the step removed is
+    ''must return to the computer to unblock'', so developers who routinely run long agent tasks and leave
+    their desk would try it; however the public material does not say whether a reply actually advances
+    the task, and there is no usage or retention evidence.'
+- id: req-full-clair-2026-10-05
+  project_slug: clair
+  level: full
+  reviewed_at: '2026-10-05T01:22:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决代理等待人工确认时任务空转的问题，但公开证据全部指向 Clair 员工薪酬垫付与激素监测穿戴设备，与手表回复 Claude Code 会话无关，连需求与痛点都无法用现有证据还原。
+    evidence_ids:
+    - ev-2def311d64e20a3b
+    - ev-651503d00bb69ff4
+    - ev-6ca763d03a7ea686
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Clair 官方产品页或文档，确认其是否真实存在手表端回复 Claude Code 会话的功能、支持的手表平台与交付边界。
+  market: ''
+  job: 开发者在让 Claude Code 长时间跑任务、自己离开电脑时，需要对手表上收到的确认请求或追问给出回复，让任务继续而不是停在等待输入的状态。
+  job_en: A developer who lets Claude Code run a long task and steps away from the computer needs to reply
+    to confirmation requests or follow-up questions received on a watch so the task continues instead
+    of stalling on missing input.
+  pain: 编码代理跑到一半会停下来等人确认，人一旦离开键盘，任务就空转，回来还要重新读上下文才能接着推进。
+  pain_en: A coding agent stops mid-run waiting for human confirmation; once the person leaves the keyboard
+    the task idles, and on return they must re-read context before pushing it forward.
+  current_alternative: 旧做法是留在电脑前盯着终端，或者干脆让任务停着，回来再一次性处理所有确认。
+  current_alternative_en: The old behaviour is to stay at the terminal watching, or simply let the task
+    sit and handle all confirmations in one batch after returning.
+  usage_reason: 推断：如果手表端回复能直接进入同一会话，用户省掉的是“必须回到电脑前才能放行”这一步，因此经常让代理跑长任务、又需要频繁离开工位的开发者会尝试它；但公开材料没有说明回复是否真的能推进任务，也没有任何使用或留存证据。
+  usage_reason_en: 'Inference: if a wrist reply enters the same session directly, the step removed is
+    ''must return to the computer to unblock'', so developers who routinely run long agent tasks and leave
+    their desk would try it; however the public material does not say whether a reply actually advances
+    the task, and there is no usage or retention evidence.'

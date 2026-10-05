@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiggFBVV95cUxQTUhrakN2TGFT
 summary: A.I. Is Going Rogue. Who Should Be Held Responsible? The New York Times
 first_seen: '2026-10-03T07:00:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

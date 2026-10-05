@@ -3,33 +3,29 @@ slug: tern
 name: tern
 builder: B0yko
 category: AI + 创作
-summary_zh: 播客或视频剪辑师在需要从长时段素材里找回某句话或某个画面时打开它，把本地音视频档案交给它处理：Whisper 转写语音、Apple Vision 识别画面文字、SigLIP-2 做视觉检索，三路结果合成一个排序列表，用户再在剪辑器里裁切并导出
-  FCPXML 交给剪辑软件。具体检索准确率与导出兼容性仍待核验。
-inspiration: 趋势是长音视频素材的检索正从人工拖时间轴转向本地多模态索引，隐私敏感的内容团队不必上传云端。切入可以从播客与纪录片后期工作室做起，按素材时长或成片交付收费，而不是卖通用剪辑工具；本地部署也让它能进入不愿外传素材的机构客户。
-summary_en: 'Podcast or video editors open it when they need to find a specific spoken line or on-screen
-  moment inside long footage: they point it at local audio-video archives, and Whisper transcribes speech,
-  Apple Vision reads on-screen text and SigLIP-2 does visual search, merging the three into one ranked
-  list; the user then trims in the editor and exports FCPXML to a cutting tool. Retrieval accuracy and
-  export compatibility still need verification.'
-inspiration_en: The trend is that searching long audio-video material is moving from manually scrubbing
-  a timeline to local multimodal indexing, so privacy-sensitive teams need not upload footage. The entry
-  point is podcast and documentary post-production studios, charged by footage hours or finished deliverables
-  rather than sold as a generic editing tool; local deployment also opens institutional clients unwilling
-  to send material out.
+summary_zh: 视频剪辑师与播客创作者在查找历史音视频素材时，可通过该本地桌面工具整合 Whisper 语音识别、Apple Vision 文字识别与 SigLIP-2 视觉语义检索，输入自然语言直接定位画面与台词片段，并在内置剪辑器中裁切后导出
+  FCPXML 工程文件交付给非编软件。
+inspiration: 趋势：端侧多模态模型让海量音视频资产的本地即时索引和隐私剪辑成为可能。切入：针对专业剪辑师的大容量素材库管理痛点，做深度对齐 Final Cut Pro 或 Premiere 剪辑工程的本地化检索插件。
+summary_en: A local desktop tool for video editors and podcasters to search media archives on Apple Silicon
+  using Whisper, Apple Vision OCR, and SigLIP-2, featuring an in-app trim editor and FCPXML timeline export
+  for NLEs.
+inspiration_en: 'Trend: On-device multimodal models make local, privacy-preserving media indexing viable.
+  Angle: Build local search plugins tightly integrated with NLEs like Final Cut Pro for professional editors
+  managing massive raw footage archives.'
 priority_review: false
 project_type: new_application
 industries:
 - 媒体与娱乐
-- 播客与音视频制作
+- 音视频制作
 industries_en:
 - Media & Entertainment
-- Podcast & Audio-Video Production
+- Audio & Video Production
 jobs:
-- 播客或视频剪辑师
-- 内容档案管理者
+- 视频剪辑师
+- 播客制作人
 jobs_en:
-- Podcast or video editor
-- Content archive manager
+- Video Editor
+- Podcast Producer
 regions:
 - 全球
 regions_en:
@@ -42,7 +38,7 @@ summary: 'Local AI search for podcast and video archives on Apple Silicon: Whisp
   vanilla JS, Tauri. Source-visible, all rights reserved.'
 first_seen: '2026-09-24T17:31:47Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - newssearch

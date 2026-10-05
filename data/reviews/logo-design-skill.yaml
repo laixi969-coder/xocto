@@ -334,3 +334,63 @@
     so the agent constrains paths and proportions to logo conventions during generation, cutting the designer''s
     post-hoc SVG fixing and prompt rewriting; designers already working in Claude/Codex or startup brand
     leads needing a fast first draft would invoke it when producing a logo.'
+- id: req-full-logo-design-skill-2026-10-05
+  project_slug: logo-design-skill
+  level: full
+  reviewed_at: '2026-10-05T01:24:01Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是品牌启动阶段必须产出可用标志、而通用模型生成的 SVG 路径与比例不可直接复用这一需求；旧做法是手工绘制或生成后逐条修补，不解决就要付出返工时间或外包费用。公开材料已给出输入（品牌需求）、动作（按原则与
+      SVG 规范生成、用测试工具与参考库比对）与交付（可编辑 SVG），据此可作工作流结构推理判真需求；但尚无用户抱怨或返工量化数据，痛点强度把握有限。
+    evidence_ids:
+    - ev-afb2b919d427c2ae
+    - ev-92d1882e31e66266
+  - gate: consensus
+    status: supported
+    reason: 公开事实是仓库收藏从 843 持续升至 1862，说明英文开发者社区已注意到该技能并把它加入收藏；但收藏只属关注度证据，不能证明目标设计师已把它留在日常工作流，也未见 issue、discussion
+      或评价说明具体使用场景，因此共识停留在关注层，未到持续采用层。
+    evidence_ids:
+    - ev-afb2b919d427c2ae
+    - ev-74c8310b24dccdbe
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能仓库，公开材料未见定价页、付费客户、采购记录或赞助信息，谁付钱（设计师个人、设计团队还是代理机构）无法核验；按判断，最可能的路径是 to C 设计师或 to B 设计团队通过订阅宿主
+      AI 代理间接付费，但这属推断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-afb2b919d427c2ae
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明技能包含原则、流程、SVG 规范、测试工具与参考库，未见可复现的生成样例、测试通过率或人工确认环节说明，因此交付能否稳定产出可用标志、以及人工与安全边界仍缺证据；这是交付确定性缺口，不推翻价值关的结构判断。
+    evidence_ids:
+    - ev-92d1882e31e66266
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开生成样例、测试工具输出与真实使用场景描述，以核验交付确定性与实际采用。
+  market: ''
+  job: 品牌设计师或初创公司品牌负责人在需要产出可用的标志方案时，把品牌定位与风格要求交给 Claude、Gemini CLI、Codex 等 AI 代理，由该技能按内置设计原则、流程与 SVG 规范生成标志，并借助测试工具与
+    1400+ 标志参考库比对，最终拿到可继续修改的 SVG 文件。
+  job_en: A brand designer or startup brand lead who needs a usable logo hands brand positioning and style
+    requirements to an AI agent (Claude, Gemini CLI, Codex), which uses this skill's built-in design principles,
+    process and SVG craft to generate marks, cross-check them against testing tools and a 1,400+ logo
+    reference library, and returns an editable SVG file.
+  pain: 标志设计是品牌启动的必经环节，但通用大模型直接生成 SVG 常出现路径混乱、比例失衡、无法缩放复用等问题，设计师要反复手工重写路径；初创团队又缺少预算走完整品牌代理流程。公开材料只说明该技能内置了原则、流程与测试工具，尚未提供用户抱怨或返工数据，痛点强度属工作流结构推理。
+  pain_en: Logo work is unavoidable at brand launch, yet raw LLM-generated SVG often comes out with broken
+    paths, bad proportions and no scalable reuse, forcing designers to hand-rewrite paths; early-stage
+    teams meanwhile lack budget for a full agency process. Public materials only show that the skill bundles
+    principles, process and testing tools; no user complaints or rework data are provided, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 旧做法是设计师在 Illustrator/Figma 中手工绘制并反复调整，或直接让通用大模型输出 SVG 后人工修补；初创团队则外包给设计代理或使用在线标志生成器。该技能把设计原则、流程、SVG
+    规范与参考库打包进代理，替代的是“生成后大量人工修补”这一步。
+  current_alternative_en: The old path is hand-drawing and iterating in Illustrator/Figma, or letting
+    a general LLM emit SVG and then patching it by hand; early-stage teams outsource to an agency or use
+    an online logo generator. This skill packages design principles, process, SVG craft and a reference
+    library into the agent, replacing the 'heavy manual patching after generation' step.
+  usage_reason: 推断：相较通用模型直接出图后人工修路径，该技能通过内置 SVG 规范与测试工具在生成阶段就约束路径与比例，并用 1400+ 参考库做比对，减少设计师逐条重写路径的负担；因此会在需要快速产出可编辑矢量标志、又不想从零手绘的设计师或初创品牌负责人手中被选用。仓库收藏从
+    843 增至 1862 说明关注度上升，但尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus a general model that emits an image needing manual path repair,
+    this skill constrains paths and proportions at generation time via built-in SVG craft and testing
+    tools, and cross-checks against a 1,400+ reference library, cutting the burden of rewriting paths
+    one by one; it would therefore be chosen by designers or startup brand leads who need an editable
+    vector mark fast without drawing from scratch. Stars rising from 843 to 1,862 shows attention, but
+    no re'

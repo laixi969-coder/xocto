@@ -89,3 +89,48 @@
     one template layout across languages, cutting the repeated layout step, so indie developers who dread
     multilingual asset work would choose it when preparing a release. This is an inference from product
     capability, not yet supported by user feedback.
+- id: req-full-appscreenshoot-2026-10-05
+  project_slug: appscreenshoot
+  level: full
+  reviewed_at: '2026-10-05T01:22:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多语言上架截图重复制作的需求，作者自述因此放弃多语言发布，痛点具体、旧做法明确，属工作流结构推理；谁付钱未披露，留待模式关。
+    evidence_ids:
+    - ev-5d4c416030a438c2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有作者自述与零评论的发布帖，没有其他开发者采用、评价或持续使用的证据，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-5d4c416030a438c2
+  - gate: model
+    status: insufficient
+    reason: 目前完全免费，未披露任何付费路径，买方与收费方式属判断而非已验证事实，存在只靠作者投入维持的风险。
+    evidence_ids:
+    - ev-5d4c416030a438c2
+  - gate: truth
+    status: insufficient
+    reason: MCP 远程调用模板与自动截屏仍为计划，模板生成结果是否需人工逐张确认、能否确定性交付尚无公开材料。
+    evidence_ids:
+    - ev-5d4c416030a438c2
+  next_validation: 追踪 appscreenshoot.com 官网是否上线定价页或付费方案，以及 V2EX 原帖后续回复中是否出现开发者公开的使用反馈或持续使用记录。
+  market: ''
+  job: 独立 App 开发者在准备 App Store 上架、需要为多个语言市场制作预览截图时，打开模板编辑器套用版式，生成各语言版本的商店截图，完成上架素材准备。
+  job_en: When preparing an App Store release and needing preview screenshots for multiple language markets,
+    an indie app developer opens the template editor, applies a layout, and generates per-language store
+    screenshots to finish listing assets.
+  pain: 多语言预览图要逐语言重复排版制作，作者自述这已成为劝退原因，甚至因此放弃多语言发布；不做的代价是失去对应语言市场的曝光与下载入口。
+  pain_en: Multilingual preview images must be re-laid-out repeatedly for each language; the author says
+    this became a deterrent and even made him abandon multilingual releases, with the cost being lost
+    exposure and downloads in those language markets.
+  current_alternative: 旧做法是在通用设计工具里为每种语言手工重做截图，或干脆只发布单一语言版本。
+  current_alternative_en: The old way is manually redoing screenshots per language in a general design
+    tool, or simply shipping a single-language release.
+  usage_reason: 相较在设计工具里逐语言手工重做，它把同一套模板版式复用到各语言截图，减少重复排版这一步，因此畏惧多语言素材工作量的独立开发者会在准备上架时选择它。这是基于产品能力的推断，尚无用户反馈支持。
+  usage_reason_en: Compared with manually redoing screenshots per language in a design tool, it reuses
+    one template layout across languages, cutting the repeated layout step, so indie developers who dread
+    multilingual asset work would choose it when preparing a release. This is an inference from product
+    capability, not yet supported by user feedback.

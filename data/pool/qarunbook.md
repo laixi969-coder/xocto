@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/qarunbook
 summary: A test plan your team and your AI can work through
 first_seen: '2026-10-02T18:08:33Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

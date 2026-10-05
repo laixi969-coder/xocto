@@ -280,3 +280,51 @@
     inbox by action in one pass so the user goes straight to the Needs reply group, removing the per-message
     judgement step; this is inference from product capability and task structure, since public material
     only shows classification capability and cost, with no retention or repeat-use evidence.
+- id: req-full-jevmail-2026-10-05
+  project_slug: jevmail
+  level: full
+  reviewed_at: '2026-10-05T01:23:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决收件箱中待回复邮件被通知与推广淹没、逐封判断耗时的问题，旧做法是手动过滤或凭记忆翻找，不处理的后果是漏回重要邮件；公开材料只说明分类能力与成本，未给用户抱怨，故属工作流结构推理。
+    evidence_ids:
+    - ev-9155f3cc0a0743bc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标（92–93）这类关注度指标，没有用户评价、客户案例或持续使用证据，无法判断是否形成采用共识；星标不能解释用户为何选择它。
+    evidence_ids:
+    - ev-4babba3fa6bd0528
+    - ev-ad96d7ece9c47493
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费记录，千封邮件约3美分只是运行成本，谁付钱、按什么收费尚不清楚；开源项目可能的付费方是 to C 订阅或 to B 支持，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-9155f3cc0a0743bc
+  - gate: truth
+    status: supported
+    reason: 只读、本地运行、不代发不改动邮件，贴近分诊这一第一性目标，回复动作仍由人工掌握，交付边界清楚；但分类准确率与安全边界尚无公开实测数据。
+    evidence_ids:
+    - ev-9155f3cc0a0743bc
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有用户报告在真实收件箱中长期使用并反馈分类准确率与误分类情况。
+  market: ''
+  job: 个人邮箱使用者或行政人员在每天打开 Gmail 时，面对混在一起的待回复邮件、通知、推广、销售和垃圾邮件，需要先判断哪些必须回、哪些可以忽略，再决定处理顺序。
+  job_en: Individual email users or admin staff opening Gmail each day face a mix of reply-worthy mail,
+    notifications, promotions, sales and spam, and must first judge which need a reply and which can be
+    ignored before deciding the order of work.
+  pain: 真正需要回复的邮件被通知和推广淹没，逐封打开判断耗时；漏掉一封待回复邮件可能损失一次客户或同事关系。这是从收件箱任务结构推出的痛点，公开材料未提供用户抱怨原文。
+  pain_en: Reply-worthy messages are buried under notifications and promotions; opening each one to judge
+    takes time, and missing one reply-worthy message can cost a client or colleague relationship. This
+    pain is inferred from the inbox task structure; public material provides no verbatim user complaints.
+  current_alternative: 多数人靠 Gmail 自带标签、手动建过滤规则，或全部已读后凭记忆翻找；也有人用通用助手逐封总结，但不会给出“要不要回”的动作分类。
+  current_alternative_en: Most people rely on Gmail's built-in labels, hand-built filters, or marking
+    everything read and searching from memory; some use a general assistant to summarise messages one
+    by one, but it does not produce a reply-or-not action label.
+  usage_reason: 相较手动建规则或逐封打开判断，它一次读取整箱邮件并按待回复、更新、推广、销售、垃圾五类打标，用户直接进入待回复那一类，省掉逐封判断这一步；且只读、本地运行，不代发不改动邮件，降低授权顾虑。这是基于产品能力与任务结构的推断，公开材料没有留存或复购证据。
+  usage_reason_en: Compared with hand-built filters or opening each message to judge, it reads the whole
+    inbox in one pass and labels messages into Needs reply, Updates, Promos, Sales and Spam, so the user
+    goes straight to the Needs reply group and skips the per-message judgement step; being read-only and
+    locally run, it also avoids send/modify permissions. This is inference from product capability and
+    task structure, as public material shows no retention or repeat-use evidence.

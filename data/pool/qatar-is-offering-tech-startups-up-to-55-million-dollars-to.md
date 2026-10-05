@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPczVJLU52cHhZ
 summary: Qatar Is Offering Tech Startups Up to 5.5 Million Dollars to Launch or Expand There Startup Fortune
 first_seen: '2026-10-04T00:23:58Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

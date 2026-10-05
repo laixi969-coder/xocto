@@ -416,3 +416,52 @@
     configuration as input and performs isolation and parallel scheduling itself, removing the per-session
     environment rebuild step, so developers juggling multiple Antigravity accounts would pick it when
     running tasks in parallel; public materials contain no user feedback or case confirming this motive.'
+- id: req-full-paragravity-2026-10-05
+  project_slug: paragravity
+  level: full
+  reviewed_at: '2026-10-05T01:24:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者在一台机器上并行跑多个 Antigravity 账号/沙箱时凭据与状态互相覆盖、只能反复登录或开虚拟机的痛点；不解决的后果是并行任务被迫串行或付出额外环境成本。这是基于产品说明与工作流结构的推理，非用户口述。
+    evidence_ids:
+    - ev-f9ac1406ee12df0a
+    - ev-8dba96f1031810c9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 218 缓慢升至 224，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-a8711b30916cf3af
+    - ev-8dba96f1031810c9
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、赞助、付费版或企业采购路径，谁付钱尚不清；按判断而非已验证事实记录，不因此否定需求。
+    evidence_ids:
+    - ev-f9ac1406ee12df0a
+  - gate: truth
+    status: insufficient
+    reason: 隔离机制、是否非侵入、能否稳定并行交付尚无部署文档或可复现实测支撑，安全与账号合规边界也未公开说明，交付确定性待核。
+    evidence_ids:
+    - ev-f9ac1406ee12df0a
+  next_validation: 追踪 paragravity 仓库的 README、issue 与 discussion，确认其隔离机制、部署方式以及是否有用户报告在多账号场景下持续使用。
+  market: ''
+  job: 独立开发者或小团队在同一台机器上同时运行多个 Google Antigravity 账号与沙箱，需要并行处理不同账号下的编码/代理任务，并让各实例的凭据、状态与运行环境互不干扰。
+  job_en: An indie developer or small team runs several Google Antigravity accounts and sandboxes on one
+    machine, working on coding/agent tasks in parallel while keeping each instance's credentials, state,
+    and runtime isolated.
+  pain: Antigravity 这类代理式 IDE 通常绑定单一账号与单一工作区，多账号并行时凭据、会话与沙箱状态会互相覆盖；用户要么反复登录切换、要么开多台机器或虚拟机，切换与重建环境的成本直接打断并行任务。
+  pain_en: Agentic IDEs like Antigravity typically bind one account and one workspace, so parallel accounts
+    collide on credentials, sessions, and sandbox state; users must repeatedly re-login or spin up extra
+    machines/VMs, and that switching and re-provisioning cost interrupts parallel work.
+  current_alternative: 当前替代是手动退出再登录切换账号、开多个系统用户或虚拟机、或干脆串行排队跑任务；这些做法要么牺牲并行度，要么带来额外的环境搭建与资源开销。
+  current_alternative_en: Today users log out and back in to switch accounts, run multiple OS users or
+    VMs, or simply serialize tasks; these either sacrifice parallelism or add environment setup and resource
+    overhead.
+  usage_reason: 推断：相较反复登录或开虚拟机，它把账号与沙箱配置作为输入，直接在一台机器上并行调度并隔离多个实例，省去每次切换账号和重建环境这一步，因此同时维护多个 Antigravity
+    账号、需要并行跑任务的独立开发者会在多账号场景下选择它。
+  usage_reason_en: 'Inference: versus repeated re-login or VMs, it takes account and sandbox configs as
+    input and directly schedules and isolates multiple instances on one machine, removing the per-switch
+    re-login and environment rebuild step, so indie developers maintaining several Antigravity accounts
+    for parallel tasks would pick it in multi-account scenarios.'

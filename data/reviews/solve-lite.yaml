@@ -1,0 +1,90 @@
+- id: req-initial-solve-lite-2026-10-05
+  project_slug: solve-lite
+  level: initial
+  reviewed_at: '2026-10-05T00:56:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决离线环境下 agent 无法决策的问题，但公开材料未说明具体输入输出、交付结果与不采用的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 150 个星标与 1 个未关闭问题，无用户评价、讨论或采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露任何付费路径、买方或商业条款，钱从哪来无法判断。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  - gate: truth
+    status: insufficient
+    reason: 宣称的 18 种安装配置与 20 场景协议无第三方复现或文档佐证，交付确定性无法核对。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，核对离线 CoreML 决策的实际输入输出与可复现运行结果。
+  market: ''
+  job: 开发者在离线或数据不能出本地的环境中部署 AI agent 时，需要让 agent 在设备上完成决策并返回结果，而不是把请求发往云端模型。
+  job_en: When developers deploy AI agents in offline or data-residency-constrained environments, they
+    need the agent to make decisions on-device and return results instead of sending requests to a cloud
+    model.
+  pain: 云端推理带来数据外传风险与网络延迟，在无网或合规受限场景下 agent 无法运行；公开材料未说明现有替代方案具体卡在哪一步。
+  pain_en: Cloud inference brings data-egress risk and network latency, and agents cannot run in offline
+    or compliance-restricted settings; the public material does not say exactly where existing alternatives
+    break down.
+  current_alternative: 开发者通常自行用本地推理框架拼接 agent 决策逻辑，或直接调用云端模型 API；公开材料未提供与这些做法的对比。
+  current_alternative_en: Developers typically hand-assemble agent decision logic on local inference frameworks,
+    or call cloud model APIs directly; the public material offers no comparison with these approaches.
+  usage_reason: 推断：若其宣称的离线 CoreML 执行与场景协议成立，开发者可省去自行搭建本地决策链路的一步，因此对数据不能出本地的团队有吸引力；但公开材料未给出可核对的交付结果或采用证据。
+  usage_reason_en: 'Inference: if the claimed offline CoreML execution and scenario protocol hold, developers
+    could skip hand-building a local decision pipeline, which appeals to teams with data-residency constraints;
+    however, the public material gives no verifiable deliverable or adoption evidence.'
+- id: req-full-solve-lite-2026-10-05
+  project_slug: solve-lite
+  level: full
+  reviewed_at: '2026-10-05T01:25:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决离线或数据不能出本地时 agent 无法决策的问题，痛点在于云端推理的数据外传风险与网络依赖，开发者需自行拼接本地推理链路；不采用则合规受限场景下 agent 无法运行。公开材料已能还原输入（agent
+      决策请求）、动作（本地 CoreML 执行）与交付（返回结果），属工作流结构推理。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 150 个星标，无用户评价、讨论或采用记录，无法判断是否形成场景共识；星标只属关注度证据，不能证明持续使用。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露任何付费路径、买方或商业条款，钱从哪来无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  - gate: truth
+    status: insufficient
+    reason: 宣称的 18 种安装配置与 20 场景协议无第三方复现或文档佐证，交付确定性无法核对；离线 CoreML 执行的实际输入输出与可复现运行结果仍缺公开材料。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，核对离线 CoreML 决策的实际输入输出与可复现运行结果。
+  market: ''
+  job: 开发者在离线、内网或数据不能出本地的环境中部署 AI agent 时，需要让 agent 在设备上完成决策并返回结果，而不是把请求发往云端模型。
+  job_en: When developers deploy AI agents in offline, intranet, or data-residency-constrained environments,
+    they need the agent to make decisions on-device and return results instead of sending requests to
+    a cloud model.
+  pain: 云端推理带来数据外传风险与网络延迟，在无网或合规受限场景下 agent 无法运行；开发者需自行拼接本地推理框架与 agent 决策逻辑，这一步重复且易错。
+  pain_en: Cloud inference brings data-egress risk and network latency, and agents cannot run in offline
+    or compliance-restricted settings; developers must hand-assemble local inference frameworks with agent
+    decision logic, a repetitive and error-prone step.
+  current_alternative: 开发者通常自行用本地推理框架（如 CoreML、ONNX Runtime）拼接 agent 决策逻辑，或直接调用云端模型 API；公开材料未提供与这些做法的对比。
+  current_alternative_en: Developers typically hand-assemble agent decision logic on local inference frameworks
+    (e.g., CoreML, ONNX Runtime), or call cloud model APIs directly; the public material offers no comparison
+    with these approaches.
+  usage_reason: 推断：若其宣称的离线 CoreML 执行与 20 场景协议成立，开发者可省去自行搭建本地决策链路的一步，因此对数据不能出本地的团队有吸引力；但公开材料未给出可核对的交付结果或采用证据。
+  usage_reason_en: 'Inference: if the claimed offline CoreML execution and 20-scenario protocol hold,
+    developers could skip hand-building a local decision pipeline, which appeals to teams with data-residency
+    constraints; however, the public material gives no verifiable deliverable or adoption evidence.'

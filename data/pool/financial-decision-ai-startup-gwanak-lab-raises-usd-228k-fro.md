@@ -1,6 +1,6 @@
 ---
 slug: financial-decision-ai-startup-gwanak-lab-raises-usd-228k-fro
-name: Financial Decision AI Startup Gwanak Lab Raises USD 228K from Seoul Techno Holdings
+name: Gwanak Lab
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JZWJUOUVqVDNy
 summary: Financial Decision AI Startup Gwanak Lab Raises USD 228K from Seoul Techno Holdings Wowtale
 first_seen: '2026-10-02T14:18:27Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Financial Decision AI Startup Gwanak Lab Raises USD 228K from Seoul Techno Holdings
+# Gwanak Lab
 
 Financial Decision AI Startup Gwanak Lab Raises USD 228K from Seoul Techno Holdings Wowtale
 

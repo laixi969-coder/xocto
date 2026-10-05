@@ -126,3 +126,54 @@
     OpenGhost''s built-in engine and drawing capability might reduce switching between tools; but public
     materials contain no user feedback or cases supporting this causal link, so it is unconfirmed which
     users would choose it and when.'
+- id: req-full-openghost-2026-10-05
+  project_slug: openghost
+  level: full
+  reviewed_at: '2026-10-05T01:24:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决桌面端跨应用操作与解释的需求：用户要在本机完成多步操作并看懂过程，痛点是浏览器、终端与文档工具间来回切换、手工拼图解释；不解决的后果是操作与说明脱节。公开材料只给出产品能力，未给用户抱怨，故这是工作流结构推理而非用户采用证据。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 165 增至 219，说明开源社区有关注，但收藏与排名只属关注度证据，不能证明目标用户持续使用或形成强场景；公开材料没有 issue、discussion 或评价说明谁在什么情况下反复使用。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+    - ev-c0496bc62bc4cfcd
+    - ev-bdcbe437a203e96c
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费记录或采购信息，无法判断收入来自 to C 订阅、to B 授权还是 to VC；这是判断而非已验证事实，开源仓库本身不构成付费路径。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺自带代理引擎、浏览器工具与绘图引擎，但公开材料没有部署文档、可复现实测或安全边界说明，无法确认多步代理操作能否稳定交付、以及人工介入与权限边界如何设定。
+    evidence_ids:
+    - ev-2b7abd92ea4c3fe1
+  next_validation: 追踪 OpenGhost 仓库的 README、release 说明与 issue/discussion，确认是否有用户描述具体使用场景、部署方式与替代的旧流程。
+  market: ''
+  job: 开发者或技术用户在 Windows、macOS、Linux 桌面上处理需要跨应用操作与解释的任务时，打开 OpenGhost，让它用自带浏览器工具抓取网页内容、用代理引擎执行多步操作，并用绘图引擎把解释过程画出来，最终交付一份可看懂的图文说明或操作结果。
+  job_en: 'A developer or technical user on Windows, macOS or Linux opens OpenGhost for tasks that require
+    cross-application operation and explanation: it uses its own browser tooling to fetch web content,
+    its agent engine to run multi-step actions, and its drawing engine to illustrate the explanation,
+    delivering a readable illustrated explanation or action result.'
+  pain: 公开材料只说明它自带代理引擎、浏览器工具和绘图引擎，未提供用户抱怨、issue 或案例来证明痛点强度；从工作流结构推理，桌面端跨应用操作与解释通常需要用户在浏览器、终端和文档工具间来回切换并手工整理截图，这一步负担是真实存在的，但缺少用户侧证据。
+  pain_en: Public material only states that it ships its own agent engine, browser tooling and drawing
+    engine; no user complaints, issues or cases prove pain intensity. By workflow inference, desktop cross-application
+    operation and explanation usually forces users to switch among browser, terminal and document tools
+    and manually assemble screenshots, a real burden but without user-side evidence.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是手工在浏览器与本地应用间操作、用截图或录屏加文字说明来交付解释，或使用通用桌面代理工具。
+  current_alternative_en: Public materials do not state how users currently do this job; the structurally
+    inferable alternatives are manual operation across browser and local apps, screenshots or screen recordings
+    plus written explanation, or generic desktop agent tools.
+  usage_reason: 推断：相较手工截图加文字说明的旧做法，OpenGhost 把浏览器抓取、多步代理执行和绘图解释放在同一个桌面进程里完成，减少用户在多个工具间切换并手工拼装图示的步骤，因此需要在桌面端完成可解释操作的技术用户可能选择它；但公开材料没有用户反馈或案例支持这一动机。
+  usage_reason_en: 'Inference: compared with manual screenshots plus written explanation, OpenGhost performs
+    browser fetching, multi-step agent execution and illustrated explanation inside one desktop process,
+    cutting the step of switching tools and manually assembling diagrams, so technical users needing explainable
+    desktop operations may choose it; however, public materials contain no user feedback or cases supporting
+    this motive.'

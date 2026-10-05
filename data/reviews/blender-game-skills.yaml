@@ -130,3 +130,47 @@
     references, skipping the from-scratch modeling and rigging start, so indie teams or outsourcing artists
     rushing assets may choose it when they need engine-ready assets fast; no retention or repeat-use evidence
     yet.'
+- id: req-full-blender-game-skills-2026-10-05
+  project_slug: blender-game-skills
+  level: full
+  reviewed_at: '2026-10-05T01:22:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决概念图到可用绑定资产的手工建模与绑定痛点，旧流程、输入与交付可还原，属工作流结构推理；谁付钱未披露，留待模式关。
+    evidence_ids:
+    - ev-a2dfc8bd420b94f1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 120 缓慢升至 128，仅说明早期关注度，无 issue、评价或采用案例证明美术已把它留在工作流。
+    evidence_ids:
+    - ev-a2dfc8bd420b94f1
+    - ev-83aa4b12bfc8227c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或付费路径，钱可能来自 to C 开发者或 to B 工作室，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a2dfc8bd420b94f1
+  - gate: truth
+    status: insufficient
+    reason: 公开说明未交代生成资产是否需人工修整、骨骼与引擎兼容性如何核对，交付确定性无法验证。
+    evidence_ids:
+    - ev-a2dfc8bd420b94f1
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认生成资产在真实项目中是否需要大量人工修整及引擎导入结果。
+  market: ''
+  job: 游戏美术或独立开发者在 Blender 中拿到概念图后，需要产出带骨骼、可直接导入游戏引擎的 3D 资产，并让成品与参考图一致。
+  job_en: A game artist or indie developer with concept art in Blender needs to produce rigged, engine-ready
+    3D assets that match the reference images.
+  pain: 从概念图到可用的绑定模型通常要手工建模、拓扑与绑定，步骤重复且耗时；公开材料未说明生成资产是否仍需人工修整，这是缺口而非痛点证据。
+  pain_en: Going from concept art to a usable rigged model usually requires manual modeling, retopology
+    and rigging, which is repetitive and slow; public materials do not say whether generated assets still
+    need manual cleanup, which is a gap rather than pain evidence.
+  current_alternative: 旧做法是美术在 Blender 里手工建模与绑定，或先用通用生成工具出模型再人工修整。
+  current_alternative_en: The old way is manual modeling and rigging in Blender, or using generic generation
+    tools and then cleaning up the model by hand.
+  usage_reason: 推断：它把概念图直接转成带骨骼资产并按参考图比对，省去从零建模与绑定的起步步骤，因此赶资产的独立团队或外包美术可能选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it turns concept art directly into rigged assets and checks them against
+    references, skipping the from-scratch modeling and rigging start, so indie teams or outsourcing artists
+    rushing assets may pick it; no retention or repeat-use evidence yet.'

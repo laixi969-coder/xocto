@@ -23,7 +23,7 @@ summary: 'Use AI Reviews Highlight a Growing Distinction: The AI Model and the P
   Thing TechBullion'
 first_seen: '2026-10-04T23:35:39Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

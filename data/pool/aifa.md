@@ -21,7 +21,7 @@ canonical_url: https://adrianbesleaga.github.io/AIFA
 summary: AI Atomic Feature Architecture
 first_seen: '2026-08-05T17:24:26Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 - newssearch

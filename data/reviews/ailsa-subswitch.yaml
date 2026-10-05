@@ -307,3 +307,51 @@
     check step; therefore individual developers or small teams holding multiple AI subscriptions who switch
     frequently would choose it when quota nears exhaustion and they need to continue on another account.
     Public materials provide no user feedback or cases, so this causal link is infe'
+- id: req-full-ailsa-subswitch-2026-10-05
+  project_slug: ailsa-subswitch
+  level: full
+  reviewed_at: '2026-10-05T01:22:06Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多AI订阅账号额度分散、切换繁琐的需求：用户要一眼看每周用量并一键换号，旧做法是逐个登录核对或手动记录，额度耗尽会打断任务。公开说明已能还原输入（多账号）、动作（查看用量、切换）与交付（统一视图），属工作流结构推理；痛点刚性中等，但任务与后果清晰。
+    evidence_ids:
+    - ev-df47e02d220c4950
+    - ev-a90e24d3ec0df819
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从60增至100，说明有开发者持续关注并把它加入工具链候选；但收藏只属关注度证据，不能证明长期留存或付费，故共识仅到初步成立。
+    evidence_ids:
+    - ev-df47e02d220c4950
+    - ev-a90e24d3ec0df819
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、赞助入口或付费路径，谁付钱（个人自购、小团队采购还是捐赠）无法核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-df47e02d220c4950
+  - gate: truth
+    status: insufficient
+    reason: 公开说明未列出支持哪些AI服务、切换后是否同步状态、账号凭据如何存储与安全边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-df47e02d220c4950
+    - ev-22435d7c60101a1c
+  next_validation: 追踪该仓库 README、issue 与 release 说明，确认其实际支持的AI服务清单、账号凭据存储方式与切换后状态同步机制。
+  market: ''
+  job: 个人开发者或小团队同时持有多个AI订阅账号（如多个ChatGPT/Claude类账号）时，需要打开一个面板查看各账号本周剩余额度，并一键切换到目标账号继续工作。
+  job_en: Individual developers or small teams holding multiple AI subscription accounts need to open
+    one panel to see each account's weekly remaining quota and switch to the target account in one click
+    to continue working.
+  pain: 多账号额度分散在各服务后台，用户要逐个登录或手动记录每周用量，切换账号时还要重复登录、退出，容易在额度耗尽时才发现，打断正在进行的编码或写作任务。
+  pain_en: Quotas are scattered across each service's own dashboard, so users must log in one by one or
+    manually track weekly usage; switching accounts means repeated login/logout, and quota exhaustion
+    is often discovered only mid-task, interrupting coding or writing work.
+  current_alternative: 当前替代方式是逐个打开各AI服务网页或客户端登录查看用量、手动记录额度，或干脆只用一个账号、额度用尽后停手等待重置。
+  current_alternative_en: Today users open each AI service's web or desktop client to check usage, keep
+    manual notes, or simply stick to one account and stop working when the quota runs out until it resets.
+  usage_reason: 推断：相较逐个登录核对，该工具把各账号每周用量集中到一个视图，并把切换压缩为一次点击，省去重复登录与手动记录这一步；因此同时持有多个AI订阅、需要频繁在账号间轮换额度的个人开发者或小团队会在额度接近用尽、需要换号继续任务时选择它。
+  usage_reason_en: 'Inference: versus logging into each account to check, the tool aggregates weekly usage
+    into one view and reduces switching to a single click, removing the repeated-login and manual-tracking
+    step; thus individual developers or small teams holding several AI subscriptions and rotating quotas
+    would choose it when one account nears exhaustion and they need to continue the task on another.'

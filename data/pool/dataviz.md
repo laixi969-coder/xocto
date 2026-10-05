@@ -21,7 +21,7 @@ canonical_url: https://awesomedataviz.com
 summary: ranked daily from GitHub, NPM, PyPI and CRAN
 first_seen: '2026-10-04T17:54:49Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

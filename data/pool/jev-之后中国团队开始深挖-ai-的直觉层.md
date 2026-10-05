@@ -1,11 +1,14 @@
 ---
 slug: jev-之后中国团队开始深挖-ai-的直觉层
-name: Jev 之后，中国团队开始深挖 AI 的「直觉层」
+name: StartLux-Decision
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一批面向Agent快速判断场景的决策模型发布：模型不生成文字，只输出判断结果，由TypeSafe AI的Jev首发，随后OpenAI、Cloudflare、亚马逊、上海人工智能实验室与StartLux在两周内相继推出同类能力。具体输入输出接口与交付形态仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a wave of decision-model releases aimed at fast judgment inside agents: the models
+  emit no prose, only a judgment, starting with TypeSafe AI''s Jev and followed within two weeks by similar
+  capabilities from OpenAI, Cloudflare, Amazon, Shanghai AI Lab and StartLux. Concrete input/output interfaces
+  and delivery forms remain unverified.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -50,7 +53,7 @@ summary: "作者｜桦林舞王 \n 编辑｜靖宇 \n   \n \n 9 月 15 日，�
   \ \n 问题在于，当「判断」便宜到人人都能做，价值最终会落在模型身上，还是落在把这些模型组装成产品的人手里？"
 first_seen: '2026-10-04T11:41:48Z'
 last_seen: '2026-10-05T00:56:27Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -61,7 +64,7 @@ sightings:
   kind: news
 ---
 
-# Jev 之后，中国团队开始深挖 AI 的「直觉层」
+# StartLux-Decision
 
 作者｜桦林舞王 
  编辑｜靖宇 

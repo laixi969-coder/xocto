@@ -202,3 +202,47 @@
   usage_reason: 公开材料未说明用户相较原有做法为什么会选择它；无法从现有证据推断采用动机。
   usage_reason_en: Public materials do not explain why users would choose this over their existing approach;
     adoption motivation cannot be inferred from current evidence.
+- id: req-full-icode-2026-10-05
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-05T01:23:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 所引证据全部指向少儿编程培训与竞赛（icodeschool.com、icode.org.cn），与候选摘要声称的离线 agent 开发平台无任何对应；连要解决什么需求、什么痛点都写不出来，价值关不成立。
+    evidence_ids:
+    - ev-3fc313ea44e5b3f4
+    - ev-844fe83aed082510
+    - ev-4d873d3d783d496b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 iCode 官方仓库或官网的 README、部署文档与 issue/discussion，确认是否存在离线 agent 工作流这一产品本体及其真实使用场景；若仅存在少儿编程培训站点，则该项目与候选摘要不匹配。
+  market: ''
+  job: 公开材料未给出任何具体使用场景：没有说明谁在什么情况下、处理什么材料、要完成什么任务；候选摘要描述的离线 agent 工作流与所引证据（少儿编程培训、编程竞赛）完全不对应。
+  job_en: 'Public materials provide no concrete usage scenario: no who, no situation, no material, no
+    task. The candidate summary''s offline-agent workflow does not correspond to any cited evidence (kids
+    coding classes, coding competitions).'
+  pain: 无法从公开证据写出痛点：所引证据只说明 iCode 是面向儿童和青少年的线下编程与 STEM 培训网络及竞赛组织，未记录任何用户抱怨、摩擦或未满足需求。
+  pain_en: 'No pain can be written from public evidence: the cited evidence only shows iCode is a network
+    of in-person coding/STEM classes for kids and teens plus a competition organization, with no recorded
+    user complaint, friction, or unmet need.'
+  current_alternative: 公开材料未说明用户当前如何完成该任务，也未说明它替代了什么旧做法；证据只显示线下校区课程、假期营和课后班这类培训形态。
+  current_alternative_en: Public materials do not show how users complete this job today or what prior
+    practice it replaces; evidence only shows in-person campus classes, holiday camps, and after-school
+    programs.
+  usage_reason: 无法写出使用理由：候选摘要声称的离线 agent 与工作流能力在所引证据中没有任何对应事实，无法解释哪类用户会因什么具体动作选择它。
+  usage_reason_en: 'No usage reason can be written: the offline-agent and workflow capabilities claimed
+    in the candidate summary have no corresponding fact in the cited evidence, so no user type or concrete
+    action can explain adoption.'

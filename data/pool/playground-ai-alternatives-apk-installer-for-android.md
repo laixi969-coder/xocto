@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNdGx0aHlSd2dn
 summary: Playground AI alternatives APK Installer for Android Học viện Nông nghiệp Việt Nam
 first_seen: '2026-10-03T22:55:15Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

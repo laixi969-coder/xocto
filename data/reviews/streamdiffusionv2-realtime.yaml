@@ -1,0 +1,79 @@
+- id: req-initial-streamdiffusionv2-realtime-2026-10-05
+  project_slug: streamdiffusionv2-realtime
+  level: initial
+  reviewed_at: '2026-10-05T00:56:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只知是实时摄像头视频扩散演示，价值关未过。
+    evidence_ids:
+    - ev-264627c133bfc9e6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开点赞仅 3，无场景共识证据。
+    evidence_ids:
+    - ev-264627c133bfc9e6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未说明买方与付费路径。
+    evidence_ids:
+    - ev-264627c133bfc9e6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-264627c133bfc9e6
+  next_validation: 收集该演示空间的官方说明或仓库文档，确认实时延迟、输出画质与是否需要人工确认。
+  market: ''
+  job: 直播主播或视频创作者在开播或拍摄时，把摄像头实时画面交给模型做风格化处理，得到可直接推流的画面。
+  job_en: A live streamer or video creator feeds live webcam footage to the model for stylization during
+    a broadcast or shoot, obtaining footage that can be streamed directly.
+  pain: 公开材料只说明这是实时摄像头视频扩散演示，没有说明它替代了哪一步旧工作、谁在为此付费，也看不出不采用会失去什么。
+  pain_en: The public material only describes a realtime webcam video diffusion demo; it does not say
+    which prior step it replaces, who pays for it, or what is lost by not adopting it.
+  current_alternative: 公开材料未提供现有替代方式，无法确认此前这类实时风格化由谁、用什么工具完成。
+  current_alternative_en: The public material provides no current alternative, so it is unclear who or
+    what tool previously handled this realtime stylization.
+  usage_reason: 缺少可核验的延迟、画质与使用反馈，无法说明相较旧做法减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: Without verifiable latency, quality or usage feedback, it is impossible to say which
+    step of the old workflow it removes, and thus which users would choose it and when.
+- id: req-full-streamdiffusionv2-realtime-2026-10-05
+  project_slug: streamdiffusionv2-realtime
+  level: full
+  reviewed_at: '2026-10-05T01:25:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决什么需求、什么痛点都写不出来，只知是实时摄像头视频扩散演示，无法还原旧流程、输入输出与不采用的后果，价值关未过。
+    evidence_ids:
+    - ev-264627c133bfc9e6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该演示空间的官方说明或仓库文档，确认实时延迟、输出画质与是否需要人工确认。
+  market: ''
+  job: 直播主播或视频创作者在开播或拍摄时，把摄像头实时画面交给模型做风格化处理，得到可直接推流的画面。
+  job_en: A live streamer or video creator feeds live webcam footage to the model for stylization during
+    a broadcast or shoot, obtaining footage that can be streamed directly.
+  pain: 公开材料只说明这是实时摄像头视频扩散演示，没有说明它替代了哪一步旧工作、谁在为此付费，也看不出不采用会失去什么。
+  pain_en: The public material only describes a realtime webcam video diffusion demo; it does not say
+    which prior step it replaces, who pays for it, or what is lost by not adopting it.
+  current_alternative: 公开材料未提供现有替代方式，无法确认此前这类实时风格化由谁、用什么工具完成。
+  current_alternative_en: The public material provides no current alternative, so it is unclear who or
+    what tool previously handled this realtime stylization.
+  usage_reason: 缺少可核验的延迟、画质与使用反馈，无法说明相较旧做法减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: Without verifiable latency, quality or usage feedback, it is impossible to say which
+    step of the old workflow it removes, and thus which users would choose it and when.

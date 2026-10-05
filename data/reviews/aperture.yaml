@@ -1,0 +1,85 @@
+- id: req-initial-aperture-2026-10-05
+  project_slug: aperture
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决AI生成代码需人工复核的痛点，但公开材料只有一句话，无法确认自查覆盖什么、交付是否可核对，价值结构尚不成立。
+    evidence_ids:
+    - ev-3bda828edb8d62e8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有一条产品页描述，无用户评价、采用或讨论证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-3bda828edb8d62e8
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式，无法判断钱来自个人开发者还是团队采购。
+    evidence_ids:
+    - ev-3bda828edb8d62e8
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法确认自查是否贴近真实验收标准，也无法判断承诺能否确定性交付。
+    evidence_ids:
+    - ev-3bda828edb8d62e8
+  next_validation: 收集Aperture官方产品页或文档，确认其自查机制具体检查什么、以何种形式呈现结果，以及是否披露定价。
+  market: ''
+  job: 软件开发工程师在实现需求或修改既有代码时，把代码交给编辑器，让AI生成改动并自行检查，最终拿到可提交的代码改动。
+  job_en: A software developer implementing a requirement or modifying existing code hands the code to
+    the editor, lets the AI generate changes and self-check them, and ends up with committable code changes.
+  pain: AI生成的代码常需人工逐行复核，验证环节仍由开发者承担，返工和排查成本高。
+  pain_en: AI-generated code often needs line-by-line human review, so verification still falls on the
+    developer, with high rework and debugging cost.
+  current_alternative: 开发者目前用通用编码助手生成代码，再自己跑测试、读diff、手动修正。
+  current_alternative_en: Developers currently use general coding assistants to generate code, then run
+    tests, read diffs, and fix issues manually.
+  usage_reason: 推断：若自查能绑定到可运行的测试或明确规则并给出可核对结果，开发者会在提交前少做一轮人工排查，从而选择它；但公开材料未说明检查依据，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if the self-check binds to runnable tests or explicit rules and yields
+    verifiable results, developers would skip one manual review round before committing and choose it;
+    however, the public material does not state the basis of the check, so whether that burden is actually
+    reduced cannot be confirmed.'
+- id: req-full-aperture-2026-10-05
+  project_slug: aperture
+  level: full
+  reviewed_at: '2026-10-05T01:22:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 AI 生成代码需人工复核的痛点，但公开证据全部指向摄影领域的 Aperture，与 AI 代码编辑器无关，连需求与痛点都无法从公开事实还原，价值结构不成立。
+    evidence_ids:
+    - ev-b51726ad31750e56
+    - ev-5dbbb5bccb48567f
+    - ev-0f7e30a3762dc23e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Aperture AI 代码编辑器的官方产品页或文档，确认其自查机制具体检查什么、以何种形式呈现结果，以及是否披露定价与客户案例。
+  market: ''
+  job: 软件开发工程师在实现需求或修改既有代码时，把代码交给编辑器，让 AI 生成改动并自行检查，最终拿到可提交的代码改动。
+  job_en: A software developer implementing a requirement or modifying existing code hands the code to
+    the editor, lets the AI generate changes and self-check them, and ends up with committable code changes.
+  pain: 公开材料未提供任何用户痛点证据；现有证据全部指向摄影领域的 Aperture（光圈、摄影出版社），与 AI 代码编辑器无关，无法确认 AI 生成代码需人工复核这一痛点是否真实存在。
+  pain_en: No public user pain evidence is provided; all available evidence points to photography-related
+    Aperture (lens aperture, a photography publisher), unrelated to an AI code editor, so the claimed
+    pain of manual review of AI-generated code cannot be confirmed.
+  current_alternative: 公开材料未说明开发者目前如何完成代码生成与自查，也未说明该产品实际替代了什么工具或流程。
+  current_alternative_en: Public materials do not state how developers currently generate and self-check
+    code, nor what tool or process this product actually replaces.
+  usage_reason: 公开材料未提供任何用户反馈、采用或使用理由证据；现有证据均为摄影领域的 Aperture，无法解释开发者为何会选择这款 AI 代码编辑器。
+  usage_reason_en: No user feedback, adoption, or usage-reason evidence is provided; all available evidence
+    concerns photography-related Aperture, so it cannot explain why developers would choose this AI code
+    editor.

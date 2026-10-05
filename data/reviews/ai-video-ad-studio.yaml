@@ -569,3 +569,44 @@
   usage_reason_en: With no product description, documentation, or user feedback, it is impossible to say
     which step it removes or which checkable result it improves versus the old approach, so the reason
     users would choose it cannot be stated.
+- id: req-full-ai-video-ad-studio-2026-10-05
+  project_slug: ai-video-ad-studio
+  level: full
+  reviewed_at: '2026-10-05T01:22:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库仅有名称与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，连用户任务与痛点都无法还原，故无法判断需求是否成立。
+    evidence_ids:
+    - ev-064ce8778b64953b
+    - ev-07cbd5a6f404f0a3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 AI 接收的输入素材、执行步骤与最终交付物，以还原具体用户任务。
+  market: ''
+  job: 营销或内容人员需要为广告投放制作视频素材时，在剪辑或投放准备环节打开该工具，把原始素材加工成可投放的成片或文件。
+  job_en: Marketing or content staff producing video ad creatives open this tool at the editing or pre-launch
+    stage to turn raw material into a deliverable cut or file.
+  pain: 公开材料只给出仓库名与收藏数，未说明 AI 接收什么素材、执行哪一步、交付什么成片，因此无法确认用户具体卡在哪一步、不解决的代价与发生频率。
+  pain_en: Public material only gives a repo name and star counts; it does not say what input the AI takes,
+    which step it performs, or what output it delivers, so the specific bottleneck, cost of not solving
+    it, and frequency cannot be established.
+  current_alternative: 公开材料未说明用户目前用剪辑软件、模板工具还是外包完成同类视频广告素材，也未说明该工具替代了哪一步。
+  current_alternative_en: Public material does not show whether users currently rely on editing software,
+    template tools, or outsourcing for such video ad creatives, nor which step this tool replaces.
+  usage_reason: 缺少产品说明、文档或用户反馈，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果；仅凭收藏数不能说明用户为何选择它。
+  usage_reason_en: Without product docs or user feedback, there is no way to explain which step it removes
+    or which checkable result it improves versus the old approach; star counts alone do not explain why
+    users would choose it.

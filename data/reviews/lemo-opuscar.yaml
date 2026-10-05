@@ -300,3 +300,51 @@
     a story while the agent generates from an existing template, removing the step of designing style
     and building code structure; creators who need fast, style-consistent shorts and already use Claude
     Code would choose it when a specific style is required.'
+- id: req-full-lemo-opuscar-2026-10-05
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-05T01:23:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无视频模型条件下产出风格化短片的需求，痛点是风格设定与代码搭建的重复劳动；仓库以43种风格提示词加纯代码样片给出可复用输入—动作—交付闭环，属工作流结构推理，公开事实见仓库说明。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+    - ev-07dbac6fd2c490f6
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏数从611持续升至970，说明开发者社区持续关注并把它纳入收藏；但这是关注度证据，不能证明目标创作者已长期留在工作流里，持续采用仍缺公开反馈。
+    evidence_ids:
+    - ev-16020b52c9dc9148
+    - ev-07dbac6fd2c490f6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，钱可能来自个人开发者自用或企业内容团队，属判断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+  - gate: truth
+    status: insufficient
+    reason: 仓库自称纯代码样片、无需视频模型，但公开材料未展示成片可复现的部署文档或人工确认边界，交付能否稳定发生尚缺可核对证据。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+  next_validation: 追踪 lemo-opuscar 仓库的 README、issue 与 discussion，确认是否有用户公开贴出按某风格生成的成片或复现步骤，以核验交付可复现性与真实使用场景。
+  market: ''
+  job: 短片创作者或品牌内容团队在需要产出一段风格化短片时，先选定一种影片风格，把自己的故事素材交给 Claude Code 代理，由代理按该风格的提示词与纯代码样片生成可播放成片。
+  job_en: A short-film creator or brand content team needing a stylized short picks one of the film styles,
+    hands their own story material to a Claude Code agent, and has the agent produce a playable film using
+    that style's prompt and code-only demo.
+  pain: 公开材料显示该仓库定位为“no video model”的短片制作技能，即用户在没有视频生成模型可用或不愿依赖视频模型的情况下，仍要完成风格化短片；痛点在于风格一致性与可复用工作流的缺失，而非单纯缺少创意。
+  pain_en: Public material positions the repo as a short-film skill with 'no video model', i.e. users
+    must still produce stylized shorts without a video model; the pain is the lack of reusable, style-consistent
+    workflow rather than lack of ideas.
+  current_alternative: 旧做法是直接调用视频生成模型、手工剪辑或从零写分镜与代码；仓库以 43 种风格提示词加纯代码样片替代这套从零起步的流程。
+  current_alternative_en: The old approach is calling a video model directly, hand-editing, or writing
+    storyboards and code from scratch; the repo replaces that zero-start process with 43 style prompts
+    plus code-only demo films.
+  usage_reason: 推断：相较从零写提示词和代码，用户只需挑一种风格并带入自己的故事，代理即按既有提示词与样片结构生成成片，省去风格设定与代码搭建步骤，因此缺少视频模型或想快速获得风格化短片的创作者会选它。
+  usage_reason_en: 'Inference: versus writing prompts and code from scratch, users only pick a style and
+    bring their story, and the agent generates the film from the existing prompt and demo structure, removing
+    style setup and code scaffolding, so creators lacking a video model or wanting fast stylized shorts
+    would choose it.'

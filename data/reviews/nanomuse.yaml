@@ -1,0 +1,91 @@
+- id: req-initial-nanomuse-2026-10-05
+  project_slug: nanomuse
+  level: initial
+  reviewed_at: '2026-10-05T00:56:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨设备重复操作与任务中断的问题，痛点方向成立，但公开材料未说明具体任务、输入与交付结果，价值强度无法确认。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库 40 个星标与 8 个复刻，属于关注度信号，不能说明持续采用或场景共识。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、买方或付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  - gate: truth
+    status: insufficient
+    reason: 常驻执行与不可撤销操作前确认的设计贴近安全边界，但缺少部署文档、实测或用户反馈来核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  next_validation: 收集 nanoMuse 官方仓库的 issue、discussion 或部署文档，核对它实际支持的任务类型与执行可靠性。
+  market: ''
+  job: 个人用户在自己的手机和电脑之间处理跨设备的日常操作，例如在浏览器和本机应用之间搬运信息或执行重复动作，希望不用自己逐步操作就能完成。
+  job_en: An individual handles cross-device routine operations between their own phone and computer,
+    such as moving information or repeating actions across a browser and local apps, hoping to finish
+    without stepping through each action manually.
+  pain: 跨设备操作需要在多个应用间来回切换并手动重复，应用关闭后任务中断，且自动化动作一旦出错难以撤回。
+  pain_en: Cross-device work requires switching among apps and repeating steps manually, tasks stop when
+    the app closes, and automated actions are hard to undo once wrong.
+  current_alternative: 用户目前靠手动操作、系统自带快捷指令或脚本，以及已有的通用对话助手逐步完成，缺少常驻执行与确认边界。
+  current_alternative_en: Users currently rely on manual operation, built-in shortcuts or scripts, and
+    general chat assistants step by step, lacking resident execution and confirmation boundaries.
+  usage_reason: 推断：相较手动逐步操作，它把动作执行放到常驻进程里，并在不可撤销操作前要求确认，减少用户守在设备前的一步；但公开材料未给出用户反馈、留存或客户案例，无法确认用户是否真的把它留在工作流里。
+  usage_reason_en: 'Inference: versus manual step-by-step operation, it moves execution into a resident
+    process and requires confirmation before irreversible actions, removing the step of staying at the
+    device; however, public materials give no user feedback, retention or customer cases, so it is unconfirmed
+    whether users keep it in their workflow.'
+- id: req-full-nanomuse-2026-10-05
+  project_slug: nanomuse
+  level: full
+  reviewed_at: '2026-10-05T01:24:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备重复操作、应用关闭后任务中断、以及自动化动作难以撤回的问题；个人用户已有手动操作与脚本等替代行为，痛点刚性来自重复劳动与误操作风险，交付为已执行动作或待确认提示。属工作流结构推理。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库 40 个星标与 8 个复刻，属关注度信号，不能说明持续采用或场景共识；缺少 issue、discussion 或用户评价来显示真实使用场景。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、买方或付费路径，钱从哪来无法判断；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  - gate: truth
+    status: insufficient
+    reason: 常驻执行与不可撤销操作前确认的设计贴近安全边界，但缺少部署文档、可复现实测或用户反馈来核对承诺能否确定性交付、以及人工介入边界如何执行。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  next_validation: 收集 nanoMuse 官方仓库的 issue、discussion 或部署文档，核对它实际支持的任务类型、常驻执行在应用关闭后的可靠性，以及不可撤销操作确认机制的实际表现。
+  market: ''
+  job: 个人用户在自己的手机与电脑之间处理跨设备日常操作，例如在浏览器和本机应用之间搬运信息或执行重复动作，希望不必逐步手动操作就能完成，并在不可撤销动作前得到确认。
+  job_en: An individual handles cross-device routine operations between their own phone and computer,
+    such as moving information or repeating actions across a browser and local apps, hoping to finish
+    without stepping through each action manually and to be asked before anything irreversible.
+  pain: 跨设备操作要在多个应用间来回切换并手动重复，应用关闭后任务中断，自动化动作一旦出错难以撤回；用户缺少一个常驻执行且带确认边界的代理。
+  pain_en: Cross-device work requires switching among apps and repeating steps manually, tasks stop when
+    the app closes, and automated actions are hard to undo once wrong; users lack a resident executor
+    with confirmation boundaries.
+  current_alternative: 用户目前靠手动操作、系统自带快捷指令或脚本，以及通用对话助手逐步完成，缺少常驻执行与不可撤销操作前的确认机制。
+  current_alternative_en: Users currently rely on manual operation, built-in shortcuts or scripts, and
+    general chat assistants step by step, lacking resident execution and pre-confirmation for irreversible
+    actions.
+  usage_reason: 推断：相较手动逐步操作或一次性脚本，它把动作执行放进常驻进程，应用关闭后仍继续跑，并在不可撤销操作前要求确认，减少用户守在设备前逐步点击的一步；对需要在手机与电脑间反复搬运信息、又担心自动化误操作的个人用户，这构成选择理由。公开材料尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus manual step-by-step operation or one-off scripts, it moves execution
+    into a resident process that keeps running after the app closes and requires confirmation before irreversible
+    actions, removing the step of staying at the device clicking through; this is a reason for individuals
+    who repeatedly move information between phone and computer and worry about automation mistakes. Public
+    materials show no user feedback or retention evidence yet.'

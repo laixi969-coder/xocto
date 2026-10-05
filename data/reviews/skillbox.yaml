@@ -308,3 +308,51 @@
     skills with versions and client scoping, removing the burden of cross-client reuse and untraceable
     changes, so teams serving multiple clients would choose it when scoping visibility matters; no public
     evidence yet that teams keep using it long term.'
+- id: req-full-skillbox-2026-10-05
+  project_slug: skillbox
+  level: full
+  reviewed_at: '2026-10-05T01:24:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多客户端下技能散落、改动无法回溯与越权共享的问题，旧做法是 Git 或文档手工同步，痛点具体且不解决的后果明确；这是基于产品能力与工作流的结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-6ca8c60866d1ab0a
+    - ev-619c7b04aad53e44
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 259 增至 261 只说明关注度，不能证明团队已把它放进日常工作流；公开材料未见使用反馈或客户案例。
+    evidence_ids:
+    - ev-6ca8c60866d1ab0a
+    - ev-619c7b04aad53e44
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露商业路径，是自用、托管服务还是企业支持不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-6ca8c60866d1ab0a
+  - gate: truth
+    status: insufficient
+    reason: 权限边界、版本回滚与 MCP 集成的实际可靠性无公开材料，交付确定性无法确认。
+    evidence_ids:
+    - ev-6ca8c60866d1ab0a
+    - ev-619c7b04aad53e44
+  next_validation: 查看 skillbox 仓库的 issue 与 discussion，确认是否有团队报告在多个 MCP 客户端间实际使用并依赖其版本与权限功能。
+  market: ''
+  job: 同时维护多个 AI Agent 客户端（如 Claude、Cursor 等 MCP 客户端）的开发团队，在给不同客户或项目交付 Agent 时，需要把提示与技能集中存放、按客户端限定可见范围并保留历史版本，以便复用与回溯。
+  job_en: A development team maintaining several AI agent clients (e.g. MCP clients such as Claude, Cursor)
+    needs to store prompts and skills centrally, scope them per client, and keep version history when
+    delivering agents for different clients or projects.
+  pain: 技能与提示散落在各项目仓库和本地文件里，改动后无法回溯，不同客户之间容易串用或泄露本不该共享的提示，团队只能靠手工同步维持一致。
+  pain_en: Skills and prompts are scattered across project repos and local files, changes cannot be traced,
+    and prompts may leak or be reused across clients that should not share them, leaving teams to keep
+    consistency by hand.
+  current_alternative: 目前多靠 Git 仓库、共享文档或复制粘贴在各项目与客户端之间同步提示与技能，权限靠约定而非机制约束。
+  current_alternative_en: Today teams sync prompts and skills across projects and clients via Git repos,
+    shared documents, or copy-pasting, with permissions enforced by convention rather than mechanism.
+  usage_reason: 推断：相较 Git 或文档手工同步，它把技能集中存放并附加版本与客户端范围，省去在多个仓库间手工同步和比对差异这一步，并让越权共享在机制上被挡住，因此同时服务多个客户的团队会在需要复用与回溯技能时选择它；是否有团队长期使用尚无公开证据。
+  usage_reason_en: 'Inference: versus manual Git or document syncing, it centralizes skills with versions
+    and client scoping, removing the step of manually syncing and diffing across repositories and blocking
+    cross-client sharing by mechanism, so teams serving multiple clients would pick it when they need
+    reusable, traceable skills; no public evidence yet that teams keep using it long term.'

@@ -347,3 +347,52 @@
     in one stdout response, collapsing guess-path-then-open into one descriptive query; the public ten-task
     SWE-bench comparison shows the same 8/10 tasks as baseline at lower cost, so coding-agent users who
     care about retrieval starting point and token cost would choose it on unfamiliar repos.'
+- id: req-full-jevgrep-2026-10-05
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-05T01:23:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在陌生代码库中按行为而非命名定位相关文件与源码位置的需求；痛点是编码智能体每遇陌生任务都要花预算猜文件、人工 grep 依赖命名易漏入口，不解决会导致改错文件或反复试错。公开材料给出输入（仓库问题）、动作（Jev
+      跨文件夹判断相关性）、交付（候选文件、阅读线索、带行号原文片段），属工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-2d59f9c24be7b5b7
+    - ev-872f5a8909639320
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 2,253 与 99 个收藏，说明开发者社区已注意到该工具，但收藏只属关注度证据，未见目标用户持续使用、复购或将其留在工作流中的公开记录，因此共识强度不足以支撑。
+    evidence_ids:
+    - ev-c887c03b255036c2
+    - ev-e72b5056ce56d894
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出单次查询的模型成本约 0.000427 美元，未见定价页、付费主体或采购路径；谁付钱、按什么单位收费仍是判断而非已验证事实，属模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-872f5a8909639320
+  - gate: truth
+    status: insufficient
+    reason: 公开的十任务 SWE-bench 对比显示与基线同样完成 8/10 且成本更低，但样本小、无复现细节与人工边界说明，交付能否在真实仓库中确定性发生尚缺可核验证据。
+    evidence_ids:
+    - ev-b36e6f58188c8829
+  next_validation: 追踪 jevgrep 官方仓库的 issue、discussion 与 README 更新，确认是否有真实仓库部署记录、MCP 接入案例或公开定价页出现。
+  market: ''
+  job: 软件工程师或编码智能体使用者在维护不熟悉的代码库时，需要先定位与某个行为相关的文件与源码位置，再让编码智能体或自己动手修改。
+  job_en: Software engineers or coding-agent users working in an unfamiliar repository need to locate
+    the files and source locations responsible for a given behavior before letting a coding agent or themselves
+    make changes.
+  pain: 编码智能体在陌生任务中要花掉一部分预算和上下文去猜哪些文件相关；人工用 grep 或关键词搜索又依赖已知命名，行为与命名不一致时容易漏掉入口，导致改错文件或反复试错。
+  pain_en: Coding agents spend part of every unfamiliar task guessing which files matter, while manual
+    grep or keyword search depends on knowing the naming; when behavior and naming diverge, entry points
+    are missed and edits land in the wrong place.
+  current_alternative: 当前替代方式是人工 grep、关键词搜索、IDE 全局搜索，或让编码智能体自行遍历目录猜测相关文件。
+  current_alternative_en: The current alternative is manual grep, keyword search, IDE global search, or
+    letting the coding agent walk directories and guess which files are relevant.
+  usage_reason: 相较 grep 依赖命名匹配，jevgrep 用自然语言描述行为，通过 Jev 跨文件夹和文件判断相关性，一次 stdout 返回候选文件、阅读线索和带行号的原文片段，把“先猜文件再打开确认”这一步压缩成一次检索；推断，工程师在接手陌生仓库或让智能体改行为相关代码时会因此选择它。
+  usage_reason_en: Compared with grep's reliance on naming, jevgrep takes a natural-language behavior
+    description, uses Jev to judge relevance across folders and files, and returns candidate files, reading
+    leads, and verbatim excerpts with line numbers in one stdout response, collapsing the 'guess a file
+    then open it to confirm' step into one lookup; this is an inference about why engineers choose it
+    when taking over an unfamiliar repository or having an agent edit behavior-related code.

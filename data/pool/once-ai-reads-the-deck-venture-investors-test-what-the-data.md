@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiggFBVV95cUxOSFozQVRLNm1o
 summary: Once AI Reads the Deck, Venture Investors Test What the Data Cannot Explain KoreaTechDesk
 first_seen: '2026-10-04T22:12:55Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -170,3 +170,43 @@
   usage_reason_en: 'No usage reason can be given: there is no pricing, documentation, issue, review or
     case showing which step it removes or which checkable result it improves versus the old way; a feature
     description alone cannot support why users would choose it.'
+- id: req-full-dioramas-2026-10-05
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-05T01:23:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向实体微缩模型与博物馆展陈，与三维网页框架无关，无法还原用户任务、痛点与旧替代，价值结构不成立。
+    evidence_ids:
+    - ev-0b64d3fd88b6794e
+    - ev-63ea359a4449abc4
+    - ev-9e3974627271e36d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该框架官方仓库的 README、issue 与 discussion，确认是否存在真实用户用它交付三维站点的记录与部署说明。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开材料未提供任何关于三维发布页制作痛点的用户陈述、抱怨或替代行为记录，无法确认该任务存在刚性痛点。
+  pain_en: The public material provides no user statements, complaints, or workaround records about the
+    pain of building 3D launch pages, so no rigid pain point can be confirmed.
+  current_alternative: 公开材料未记录目标用户当前如何完成三维展示站点，无法确认替代方式。
+  current_alternative_en: The public material does not record how target users currently build 3D showcase
+    sites, so the alternative cannot be confirmed.
+  usage_reason: 公开材料未提供任何用户选择理由或采用证据，无法判断用户为何会选用它。
+  usage_reason_en: The public material provides no user rationale or adoption evidence, so it is impossible
+    to judge why users would choose it.

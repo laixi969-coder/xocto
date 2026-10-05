@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-no
 summary: On Equity, we discussed the Trump administration's attempts to rebrand AI.
 first_seen: '2026-10-04T20:08:34Z'
 last_seen: '2026-10-05T00:56:27Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

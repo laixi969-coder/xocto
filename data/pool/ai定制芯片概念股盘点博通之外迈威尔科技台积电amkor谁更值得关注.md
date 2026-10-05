@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPRTR1NlcyMVRL
 summary: AI定制芯片概念股盘点：博通之外，迈威尔科技、台积电、Amkor谁更值得关注？ TradingKey
 first_seen: '2026-10-04T02:00:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

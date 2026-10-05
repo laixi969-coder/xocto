@@ -3,23 +3,26 @@ slug: ante
 name: Ante
 builder: ubermon
 category: AI + 开发
-summary_zh: 面向需要在无网络或受限环境中改代码的开发者：在本地终端打开一个单文件可执行程序，由它读取本地代码库并执行编码任务，产出代码改动供人工确认。候选资料只给出“单二进制、可离线运行的编码代理”这一句描述，具体支持的模型、输入方式与交付流程仍待核验。
-inspiration: 趋势是编码代理开始从云端订阅转向可离线、可私有部署的单体交付，卖点从模型能力变成部署与数据边界。切入可考虑对代码不能出内网有硬约束的行业（金融、军工、医疗信息化）的研发团队，以私有化部署或按席位授权的方式卖，而不是按
-  token 转售。
-summary_en: 'For developers who must edit code in offline or restricted environments: a single-binary
-  executable opened in the local terminal reads the local codebase and carries out coding tasks, producing
-  code changes for human review. The candidate material only states that it is a single-binary, offline-capable
-  coding agent; supported models, input method and delivery flow still need verification.'
-inspiration_en: The trend is coding agents moving from cloud subscriptions to offline, privately deployable
-  single binaries, where the selling point shifts from model capability to deployment and data boundaries.
-  A possible entry is R&D teams in sectors with hard constraints on code leaving the intranet (finance,
-  defense, healthcare IT), sold as private deployment or per-seat licensing rather than token resale.
+summary_zh: 开发者在无网络或不便联网的环境下写代码时，打开这个单文件二进制工具，由它在本机离线接收代码文件与指令并执行编码任务，最终产出代码改动供开发者自行核对。具体支持的模型、上下文范围与交付形式仍待核验。
+inspiration: 趋势是编码代理开始从云端服务下沉为可离线、单文件分发的本地工具，把代码和数据留在本机。切入可考虑对数据不能出内网、或网络受限的行业（如制造、医疗、金融后台）做私有化编码代理，卖点是部署与合规而非模型能力；具体价格未披露，不可编造。
+summary_en: 'A developer working offline or on a restricted network opens this single-binary tool, which
+  runs a coding agent locally: it takes code files and instructions on the machine and produces code changes
+  for the developer to review. Supported models, context limits and delivery format still need verification.'
+inspiration_en: The trend is coding agents moving from cloud services to offline, single-binary local
+  tools that keep code and data on the machine. A wedge is private coding agents for industries whose
+  data cannot leave the intranet or whose networks are restricted, such as manufacturing, healthcare and
+  financial back offices, sold on deployment and compliance rather than model quality; no pricing is disclosed,
+  so none should be invented.
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 软件与信息服务
+industries_en:
+- Software and IT services
+jobs:
+- 开发者
+jobs_en:
+- Developers
 regions: []
 regions_en: []
 open_source: true
@@ -28,7 +31,7 @@ canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

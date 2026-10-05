@@ -238,3 +238,52 @@
     step, which appeals to latency-sensitive multi-step agent orchestrators that decide at every step;
     however public material does not say how probabilities become actions, who sets thresholds, or how
     misjudgements are handled, so sustained adoption lacks evidence.'
+- id: req-full-agent-jev-2026-10-05
+  project_slug: agent-jev
+  level: full
+  reviewed_at: '2026-10-05T01:21:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 多步流程中每步判断继续、重试还是升级的需求，痛点是逐 token 生成带来的延迟与成本，而流程只需快速打分；公开说明已能还原输入（diff/trace/log
+      加结构化问题）、动作（一次前向计算）与交付（概率分布），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-5645136e0a347700
+    - ev-cb0c5efddd23bec4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 325 升至 338，只说明开源关注度在缓慢累积，没有用户反馈、案例或接入迹象，无法判断是否真被放进编排流程持续使用。
+    evidence_ids:
+    - ev-5645136e0a347700
+    - ev-de7250eb3b13f953
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、托管方式或买方，钱可能来自开源社区采用后的托管服务或企业授权，但这是判断而非已验证事实，公开材料无付费路径。
+    evidence_ids:
+    - ev-cb0c5efddd23bec4
+  - gate: truth
+    status: insufficient
+    reason: 无法核对概率是否真校准、误判如何处理、阈值与人工边界由谁设定，承诺能否确定性交付缺少可复现证据。
+    evidence_ids:
+    - ev-5645136e0a347700
+  next_validation: 追踪该 公开代码仓库 仓库的模型卡、评测结果与 issue/discussion，确认概率校准方式、阈值设定与真实接入案例。
+  market: ''
+  job: agent 开发者在多步自动化流程运行中，拿到当前的 diff、trace 或日志等非结构化状态，需要判断下一步是继续、重试还是升级处理。
+  job_en: Agent developers, while a multi-step automation flow is running, take the current unstructured
+    state (diff, trace, log) and must decide whether the next step should continue, retry or escalate.
+  pain: 用大模型做这类判断要等逐 token 生成，延迟和成本都高，而流程里往往只需要一个快速的是否判断；公开材料未说明误判后果与阈值由谁设定。
+  pain_en: Using a large model for such judgements means waiting for token-by-token generation, with high
+    latency and cost, while the flow often only needs a fast yes-or-no decision; the public material does
+    not state the cost of misjudgement or who sets thresholds.
+  current_alternative: 开发者目前多写规则或阈值脚本，或直接调用大模型对话接口做判断再自行解析输出。
+  current_alternative_en: Developers today mostly write rule or threshold scripts, or call a large-model
+    chat endpoint and parse the output themselves.
+  usage_reason: 推断：相较写规则脚本或等大模型逐 token 输出再解析，它把判断压缩成一次约 50 毫秒的前向打分并直接返回概率分布，省掉等待生成与解析这一步，因此对延迟敏感的多步 agent
+    编排者会有吸引力；但概率如何转成动作、阈值谁定，公开材料未说明。
+  usage_reason_en: 'Inference: compared with rule scripts or waiting for token-by-token large-model output
+    and parsing it, it compresses the decision into one ~50 ms forward scoring pass returning a probability
+    distribution, removing the wait-and-parse step, which appeals to latency-sensitive multi-step agent
+    orchestrators; however the public material does not say how probabilities become actions or who sets
+    thresholds.'

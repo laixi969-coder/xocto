@@ -427,3 +427,56 @@
     approval on the user''s own accounts, and verifies results, reducing the burden of switching between
     providers and manually checking each step, so solo developers would choose it when an agent has finished
     the code and they are ready to launch.'
+- id: req-full-golive-skill-2026-10-05
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-05T01:23:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后上线环节分散在域名、托管、数据库、邮件与支付多个后台、需手工配置且难以验证的问题；不解决的后果是代码完成却无法发布收款。公开说明已给出 detect→plan→approve→apply→verify
+      的输入—动作—交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-0aeb204020cc42ab
+    - ev-117aa46202a3317b
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 1,115 增至 1,221，说明开发者社区持续关注；但收藏与关注只属规模或关注度证据，不能证明目标用户已将其留在上线工作流中持续使用，也缺少 issue、discussion
+      或客户案例佐证强场景。
+    evidence_ids:
+    - ev-0aeb204020cc42ab
+    - ev-480a0df6f7503b92
+  - gate: model
+    status: insufficient
+    reason: 项目明确无 GoLive 账号、后端与遥测，公开材料未见定价页或付费路径；钱可能来自开源赞助、增值服务或 to VC，但均属判断而非已验证事实，买方与单位经济尚未核验。
+    evidence_ids:
+    - ev-0aeb204020cc42ab
+  - gate: truth
+    status: insufficient
+    reason: detect→plan→approve→apply→verify 流程与关键步骤需用户确认，贴近上线第一性目标且有人工边界；但公开材料未提供可复现的部署文档或实测结果，交付能否在真实多服务商环境下稳定发生尚缺证据。
+    evidence_ids:
+    - ev-0aeb204020cc42ab
+    - ev-117aa46202a3317b
+  next_validation: 追踪 golive-skill 仓库的 README、部署文档与 issue/discussion，确认是否有真实用户在具体服务商组合下完成上线并报告结果。
+  market: ''
+  job: 独立开发者或小团队在 agent 写完代码后，面对一个本地可运行但未上线的项目，需要处理域名、托管、数据库、邮件与支付等上线材料，把产品真正发布到公网并可收款。
+  job_en: Solo developers or small teams, after an agent finishes writing code, take a locally runnable
+    but unlaunched project and handle domain, hosting, database, email and payment materials to actually
+    publish it publicly and accept payments.
+  pain: 公开说明指出上线环节分散在多个服务商后台，需手工配置域名、托管、数据库、邮件与支付；这些配置彼此依赖、出错后排查成本高，且没有统一检测与验证手段，导致代码写完却迟迟无法上线。
+  pain_en: The public description states that launch steps are scattered across multiple provider dashboards
+    requiring manual configuration of domain, hosting, database, email and payments; these are interdependent,
+    hard to debug when wrong, and lack unified detection and verification, so finished code stalls before
+    going live.
+  current_alternative: 当前替代方式是用户自行阅读各服务商文档，在域名注册商、托管平台、数据库、邮件和支付后台之间逐个手工配置，或依赖平台一体化方案（如 Vercel 等）但受限于其账号与生态。
+  current_alternative_en: The current alternative is reading each provider's docs and manually configuring
+    domain registrar, hosting platform, database, email and payment dashboards one by one, or relying
+    on an all-in-one platform (e.g. Vercel) constrained by its account and ecosystem.
+  usage_reason: 相较逐个后台手工配置，该工具通过 detect → plan → approve → apply → verify 的固定流程，先在用户自己的账号上检测缺失资源并生成计划，经批准后执行配置并验证结果，把跨服务商的重复查找与试错收敛为一次可核对的执行；因此在意账号自主权、不愿绑定单一平台的独立开发者会在项目即将上线时选择它。此为基于产品能力与任务结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manual per-dashboard configuration, the tool uses a fixed detect → plan
+    → approve → apply → verify flow to detect missing resources on the user's own accounts, generate a
+    plan, apply after approval and verify results, collapsing cross-provider lookup and trial-and-error
+    into one checkable run; developers who value account ownership and avoid single-platform lock-in would
+    choose it at launch time. This is an inference from product capability and task structure, n

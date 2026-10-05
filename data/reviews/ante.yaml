@@ -187,3 +187,84 @@
     patches, it removes the step of exporting code or copying it by hand, so teams barred by compliance
     from cloud agents would choose it in air-gapped or intranet settings. The candidate material provides
     no user feedback or adoption data.'
+- id: req-initial-ante-2026-10-05
+  project_slug: ante
+  level: initial
+  reviewed_at: '2026-10-05T00:56:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受限或离线环境下无法使用云端编码代理、只能手工改代码的问题，痛点具体且交付为可核对的代码改动。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，但公开材料未显示具体使用人群、场景共识或持续采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源单文件分发，未披露定价或付费路径，买方与收费方式均属未知，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 离线运行贴近代码不出本机的目标，但模型来源、安全边界与人工确认环节在公开材料中未说明。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，核验其支持的模型、离线运行方式与人工确认边界。
+  market: ''
+  job: 开发者在无网络或受限网络环境下处理本地代码库，需要完成修改、生成或重构代码的任务，并拿到可自行核对的代码改动。
+  job_en: A developer working offline or on a restricted network handles a local codebase, needs to complete
+    edits, generation or refactoring, and receives code changes they can review themselves.
+  pain: 云端编码代理要求把代码和上下文上传，在涉密或断网环境无法使用，开发者只能手工完成这些改动。
+  pain_en: Cloud coding agents require uploading code and context, so they cannot be used in classified
+    or offline environments, leaving developers to make these changes by hand.
+  current_alternative: 使用云端编码助手，或完全手工编辑代码；受限环境下通常只能手工完成。
+  current_alternative_en: Using a cloud coding assistant, or editing code entirely by hand; in restricted
+    environments usually by hand only.
+  usage_reason: 推断：相较云端助手，它把代理运行在本机单个二进制里，省去上传代码和申请联网这一步，因此代码不能出内网或网络不稳定的开发者会在这些情况下选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus cloud assistants it runs the agent locally in one binary, removing
+    the step of uploading code and getting network access, so developers whose code cannot leave the intranet
+    or whose network is unstable would choose it in those situations; no retention or repeat-use evidence
+    is provided in the public material.'
+- id: req-full-ante-2026-10-05
+  project_slug: ante
+  level: full
+  reviewed_at: '2026-10-05T01:22:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据仅为词典对英文单词 ante 的释义与通用 AI 概念页，没有产品页面、文档或用户材料，无法还原用户任务、痛点、现有替代与不采用后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-857fa7bdc52d6cc4
+    - ev-b5eaa5a2b1188365
+    - ev-c588d38d41d7eae1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README 与 releases 页面，核验其是否真实存在、支持的模型、离线运行方式与人工确认边界。
+  market: ''
+  job: 开发者（据称）在无网络或受限网络环境下处理本机代码库，需要完成修改、生成或重构代码，并拿到可自行核对的代码改动。
+  job_en: A developer (reportedly) working offline or on a restricted network handles a local codebase,
+    needs to complete edits, generation or refactoring, and receives code changes they can review themselves.
+  pain: 公开证据中没有任何材料描述该产品的用户痛点：现有证据只有词典对英文单词 ante 的释义、通用 AI 概念页和搜索引擎查询页，无法还原谁在什么情况下遇到什么困难。
+  pain_en: 'No public evidence describes any user pain for this product: the available evidence is only
+    dictionary entries for the English word ''ante'', generic AI concept pages and search-query pages,
+    so it cannot establish who struggles with what, when.'
+  current_alternative: 公开材料未记录任何现有替代方式；无法确认开发者当前是用云端编码助手、手工编辑还是其他工具绕过该问题。
+  current_alternative_en: The public material records no current alternative; it cannot be confirmed whether
+    developers currently work around this with cloud coding assistants, manual editing or other tools.
+  usage_reason: 无法给出使用理由：证据中没有产品页面、文档、用户反馈或案例，无法说明它相较任何旧做法减少哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no product page, documentation,
+    user feedback or case, so it cannot explain which step it removes versus any prior practice, nor which
+    users would choose it in which situations.'

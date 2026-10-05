@@ -3,15 +3,14 @@ slug: mcp-was-always-a-bad-idea
 name: Model Context Protocol
 builder: ''
 category: ''
-summary_zh: 围绕 Model Context Protocol 是否仍有价值的公开讨论指出，在拥有不受限网络访问的终端智能体场景下可直接调用 API，但 MCP 在受控外部服务访问、避免智能体直接接触
-  API 密钥的鉴权、用户连接与授权界面以及审计日志方面仍提供价值。这意味着在需要权限控制与合规审计的企业级 AI 应用中，MCP 仍是降低集成与治理成本的候选方案；该判断来自评论者观点，属于推断。
+summary_zh: 围绕 Model Context Protocol 是否过时的讨论指出，在拥有不受限网络访问的终端智能体之外，MCP 仍提供对外部服务访问范围的控制、不让智能体直接接触 API 密钥的认证方式、供用户连接并认证更多服务的界面以及审计日志；这意味着在受控、可审计的智能体部署中，MCP
+  仍是连接外部服务的实际接口层。
 inspiration: ''
-summary_en: Public discussion over whether the Model Context Protocol still has value notes that terminal
-  agents with unfettered internet access can call APIs directly, yet MCP still helps with controlled access
-  to external services, authentication that keeps API keys away from the agent, user-facing connection
-  and authorization flows, and audit logging. This implies MCP remains a candidate for lowering integration
-  and governance costs in enterprise AI applications that need permission control and compliance auditing;
-  the claim comes from a commentator and is an inference.
+summary_en: Discussion over whether the Model Context Protocol is obsolete notes that beyond terminal
+  agents with unfettered internet access, MCP still provides control over which external services an agent
+  can reach, authentication that keeps API keys away from the agent, a UI for users to connect and authenticate
+  further services, and audit logging; this means MCP remains the practical interface layer for connecting
+  external services in controlled, auditable agent deployments.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -36,7 +35,7 @@ summary: "My comment  on  MCP was always a bad idea?  — Hacker News.  This art
   \    \n         Tags:  hacker-news ,  model-context-protocol"
 first_seen: '2026-09-20T20:24:41Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

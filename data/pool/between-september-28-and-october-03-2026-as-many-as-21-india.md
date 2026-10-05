@@ -25,7 +25,7 @@ summary: Between September 28 and October 03, 2026, as many as 21 Indian startup
   Proptech, Luxury, Pharma, AI, Consumertech, Martech, EV instagram.com
 first_seen: '2026-10-04T17:48:24Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

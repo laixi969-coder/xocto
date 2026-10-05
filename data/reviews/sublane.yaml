@@ -175,3 +175,53 @@
     assigns per-person access while recording usage, removing the manual per-person logging and later
     reconciliation step, so an IT lead who must deliver an auditable usage and permission record would
     choose it for internal deployment.'
+- id: req-full-sublane-2026-10-05
+  project_slug: sublane
+  level: full
+  reviewed_at: '2026-10-05T01:25:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业内部多AI订阅账号分散、权限与用量无法核对的需求，痛点在于凭据回收与成本分摊刚性；公开仓库说明已具备账号池、访问控制与用量追踪，能还原输入—动作—交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+    - ev-a72216522859ffb3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从67增至79，说明开发者社区持续关注，但收藏属关注度证据，不能证明目标IT团队已把它留在工作流；缺少issue、discussion或部署案例说明谁在何种场景实际使用。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+    - ev-a72216522859ffb3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、许可模式或买方；自托管开源项目可能走to B支持订阅或to VC路线，但均无公开证据，属判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+  - gate: truth
+    status: insufficient
+    reason: 账号池涉及多账号凭据集中托管，安全边界与合规风险是交付确定性的关键，但公开材料未提供部署文档、安全说明或可复现实测，无法核验承诺能否稳定兑现。
+    evidence_ids:
+    - ev-617f6e9cce8d1411
+  next_validation: 追踪SubLane仓库的README、部署文档与issue/discussion，确认是否有企业团队公开描述部署场景、替代的旧流程及账号凭据的安全处理方式。
+  market: ''
+  job: 企业IT管理员或团队负责人在公司已采购多个AI订阅账号（如ChatGPT、Claude等）的情况下，把这些账号接入自托管的SubLane，集中成账号池，按成员分配访问权限，并记录每人用量，最终交付一份可核对的用量与权限记录。
+  job_en: An enterprise IT admin or team lead who already holds multiple purchased AI subscription accounts
+    connects them to self-hosted SubLane, pools the accounts, assigns per-member access, and records per-person
+    usage, producing an auditable usage-and-permission record.
+  pain: 公开材料只说明产品具备账号池、访问控制与用量追踪能力，未提供用户抱怨或案例；从工作流结构推理，多账号分散在个人手中会导致权限无法回收、用量无法分摊、离职后凭据残留，这些是IT管理中的刚性合规与成本分摊痛点，但强度尚未被公开用户证据核验。
+  pain_en: Public materials only describe pooling, access control, and usage tracking; no user complaints
+    or cases are given. By workflow inference, scattered personal accounts make permissions unrecoverable,
+    usage unallocatable, and credentials left behind after offboarding — rigid IT compliance and cost-allocation
+    pain, though intensity is not yet verified by public user evidence.
+  current_alternative: 旧做法通常是各成员各自持有账号凭据、用共享表格或口头约定分配额度，或直接不管理；也可能用通用API网关自建，但通用网关不针对订阅账号池与按人权限做封装。
+  current_alternative_en: The old approach is members each holding their own credentials, allocating quota
+    via shared spreadsheets or verbal agreement, or simply not managing it; a generic API gateway could
+    be self-built but is not packaged for subscription-account pooling with per-person permissions.
+  usage_reason: 推断：相较共享表格加个人凭据的旧做法，SubLane把账号集中成池并内置按人权限与用量记录，减少IT管理员手工核对谁用了多少、离职时逐个回收凭据的步骤，因此已采购多账号、需要可核对用量与权限记录的内部团队会在合规或成本分摊压力下选择它；这是基于产品能力与任务的结构推理，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus spreadsheets plus personal credentials, SubLane pools accounts with
+    built-in per-person permissions and usage records, cutting the manual steps of reconciling who used
+    how much and reclaiming credentials at offboarding; internal teams with multiple purchased accounts
+    and audit or cost-allocation pressure would choose it — a structural inference from product capability
+    and task, not yet confirmed by user feedback.'

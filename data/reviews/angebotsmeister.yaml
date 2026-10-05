@@ -1,0 +1,87 @@
+- id: req-initial-angebotsmeister-2026-10-05
+  project_slug: angebotsmeister
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决现场作业后手工写报价的需求，痛点具体且不采用会拖慢成交，旧流程可还原。
+    evidence_ids:
+    - ev-03f38cbbdd9a9932
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，没有用户评价或客户案例说明该群体是否已接受口述报价。
+    evidence_ids:
+    - ev-03f38cbbdd9a9932
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方；按报价单收费还是订阅制是判断，不是已验证事实。
+    evidence_ids:
+    - ev-03f38cbbdd9a9932
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 AI 生成的报价是否准确、是否需要人工复核，交付确定性缺少公开证据。
+    evidence_ids:
+    - ev-03f38cbbdd9a9932
+  next_validation: 收集该产品的官方定价页或客户案例，核验其计价方式、是否按报价单收费以及人工复核环节。
+  market: ''
+  job: 手工作业承包商在客户现场看完活后，需要当场或当天把工作内容整理成一份可发给客户的报价单。
+  job_en: A trade contractor, after inspecting a job on site, needs to turn the scope of work into a quote
+    that can be sent to the customer that day.
+  pain: 现场记录靠纸笔或记忆，回到办公室再手工录入报价模板，耗时且容易漏项；延迟报价会拖慢成交。
+  pain_en: On-site notes rely on paper or memory, then get retyped into a quote template back at the office,
+    which is slow and error-prone; delayed quotes slow down closing.
+  current_alternative: 纸笔记录加办公室里的 Word/Excel 报价模板，或让家人或助理代为录入。
+  current_alternative_en: Paper notes plus a Word/Excel quote template at the office, or having a family
+    member or assistant type it up.
+  usage_reason: 推断：它把口述直接转成报价单，省去回办公室重新录入这一步，因此经常在外跑现场、不擅长打字的承包商会在现场直接使用；但公开材料未给出计价准确性、客户采用或复购证据。
+  usage_reason_en: 'Inference: it converts dictation directly into a quote, removing the step of retyping
+    back at the office, so contractors who are often on site and do not type well would use it on the
+    spot. However, public materials give no evidence on pricing accuracy, customer adoption or repeat
+    use.'
+- id: req-full-angebotsmeister-2026-10-05
+  project_slug: angebotsmeister
+  level: full
+  reviewed_at: '2026-10-05T01:22:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决现场看活后手工写报价的需求，痛点是回办公室重录耗时、漏项、延迟拖慢成交，旧流程可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-03f38cbbdd9a9932
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，没有用户评价或客户案例说明手工作业者是否已接受口述报价，关注度证据缺失。
+    evidence_ids:
+    - ev-03f38cbbdd9a9932
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按报价单收费还是订阅制是判断而非已验证事实，钱可能来自 to B 或 to C。
+    evidence_ids:
+    - ev-03f38cbbdd9a9932
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 AI 生成的报价是否准确、是否需人工复核，交付确定性缺少公开证据，安全边界未说明。
+    evidence_ids:
+    - ev-03f38cbbdd9a9932
+  next_validation: 收集 Angebotsmeister 官网定价页或客户案例，核验其计价方式、是否按报价单收费以及人工复核环节。
+  market: ''
+  job: 德语区水电、装修等手工作业承包商在客户现场看完活后，需要当场或当天把工作内容整理成一份可发给客户的报价单。
+  job_en: A German-speaking trade contractor (plumbing, electrical, renovation) inspects a job on site
+    and needs to turn the scope of work into a quote that can be sent to the customer that day.
+  pain: 现场记录靠纸笔或记忆，回到办公室再手工录入报价模板，耗时且容易漏项；报价延迟会拖慢成交，而承包商通常不擅长打字。
+  pain_en: On-site notes rely on paper or memory, then get retyped into a quote template back at the office,
+    which is slow and error-prone; delayed quotes slow down closing, and contractors typically do not
+    type well.
+  current_alternative: 纸笔记录加办公室里的 Word/Excel 报价模板，或让家人、助理代为录入。
+  current_alternative_en: Paper notes plus a Word/Excel quote template at the office, or having a family
+    member or assistant type it up.
+  usage_reason: 推断：相较回办公室重新录入，它把口述直接转成可发出的报价单，省掉重打这一步，因此经常在外跑现场、不擅长打字的承包商会选择在现场直接口述；公开材料未给出计价准确性、客户采用或复购证据。
+  usage_reason_en: 'Inference: compared with retyping back at the office, it converts dictation directly
+    into a sendable quote, removing the retyping step, so contractors who are often on site and do not
+    type well would dictate on the spot. Public materials give no evidence on pricing accuracy, adoption
+    or repeat use.'

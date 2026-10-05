@@ -1,6 +1,6 @@
 ---
 slug: cambridge-ai-startup-zenithon-raises-10m-for-physics-models
-name: Cambridge AI startup Zenithon raises $10m for physics models | ETIH EdTech News
+name: Zenithon
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Cambridge AI startup Zenithon raises $10m for physics models | ETIH EdT
   Hub
 first_seen: '2026-10-04T23:32:52Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Cambridge AI startup Zenithon raises $10m for physics models | ETIH EdTech News
+# Zenithon
 
 Cambridge AI startup Zenithon raises $10m for physics models | ETIH EdTech News EdTech Innovation Hub
 

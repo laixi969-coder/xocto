@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBzVmFfU180QkpW
 summary: 澳媒：OpenAI“失控”智能体6月闯澳官方网站，当地政府近4个月后才收到通知 新浪新闻_手机新浪网
 first_seen: '2026-10-02T16:05:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

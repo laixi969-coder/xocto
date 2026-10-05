@@ -291,3 +291,44 @@
   usage_reason_en: 'Inference: compared with checking rules by hand, abide applies project rules as a
     constraint during generation, reducing rework; without user feedback or adoption evidence, continued
     use cannot be confirmed.'
+- id: req-full-abide-2026-10-05
+  project_slug: abide
+  level: full
+  reviewed_at: '2026-10-05T01:21:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决编码代理不遵守项目规则的问题，但公开材料只有一句简介，未说明偏离规则的具体表现、频率与返工代价，需求与痛点均无法还原，价值关不成立。
+    evidence_ids:
+    - ev-6081f4c23e344647
+    - ev-390f5ae10a0f9d62
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README、使用文档与 issue/discussion，核对它如何接入编码代理、规则约束是否确定性生效。
+  market: ''
+  job: 软件开发工程师在让编码代理修改已有代码库时，需要把项目既有的规则文件与代码约定交给代理，让代理产出的改动符合这些约定。
+  job_en: A software developer, while having a coding agent modify an existing codebase, needs to hand
+    the project's existing rule files and conventions to the agent so its changes comply with them.
+  pain: 公开材料只给出产品一句话简介，没有说明代理偏离项目规则的具体表现、发生频率或返工代价，无法确认痛点是否刚性。
+  pain_en: Public materials give only a one-line product description and do not state how agents deviate
+    from project rules, how often, or the rework cost, so the rigidity of the pain cannot be confirmed.
+  current_alternative: 公开材料未描述开发者当前如何绕过该问题，只能推测为人工审查代理输出、在提示中重复粘贴规则或依赖代理自带规则文件支持。
+  current_alternative_en: 'Public materials do not describe how developers currently work around this;
+    only inference is possible: manual review of agent output, repeatedly pasting rules into prompts,
+    or relying on the agent''s built-in rule-file support.'
+  usage_reason: 推断：若 abide 能把项目规则作为约束施加在代理生成环节，可减少事后逐条核对；但缺少任何用户反馈、采用或交付结果证据，无法说明哪类开发者会在什么情况下选择它。
+  usage_reason_en: 'Inference: if abide applies project rules as a constraint during generation, it could
+    reduce line-by-line post-hoc checking; but with no user feedback, adoption, or delivery evidence,
+    it cannot be said which developers would choose it and when.'

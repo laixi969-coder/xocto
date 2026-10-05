@@ -21,7 +21,7 @@ canonical_url: https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
 summary: Religious scholars met with Anthropic
 first_seen: '2026-10-04T02:34:22Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

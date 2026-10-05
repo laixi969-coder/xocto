@@ -3,11 +3,13 @@ slug: google-needs-hollywood-more-than-the-studios-need-ai
 name: Google
 builder: ''
 category: ''
-summary_zh: 据报道，Google 正在与好莱坞主要制片厂洽谈许可协议，以支付巨额费用获取受版权保护的内容用于训练 AI 模型。这反映了科技公司与内容所有者之间关于 AI 训练数据授权的行业趋势。
+summary_zh: 据报道，Google正接触多家好莱坞大型制片厂，寻求以巨额资金换取授权协议，以便用受版权保护的内容训练其AI模型；这反映出前沿模型厂商对高质量授权训练数据的争夺加剧，可能推高内容授权成本并重塑AI与版权方的议价格局。
 inspiration: ''
-summary_en: Google is reportedly in talks with major Hollywood studios to license copyrighted content
-  for AI training in exchange for large payments, reflecting an industry trend of tech companies seeking
-  content licensing deals for AI training data.
+summary_en: Google has reportedly approached several major Hollywood studios seeking licensing deals that
+  would allow it to train its AI models on copyrighted material in exchange for large sums of cash, reflecting
+  intensifying competition among frontier model developers for high-quality licensed training data and
+  potentially raising content licensing costs and reshaping bargaining power between AI firms and rights
+  holders.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +28,7 @@ summary: 'Google has reportedly been reaching out to a number of Hollywood''s bi
   to the studios that would also […]'
 first_seen: '2026-09-01T22:50:29Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

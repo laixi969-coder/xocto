@@ -1,11 +1,16 @@
 ---
 slug: 点头抢话会脸红一半人分辨不出这是位ai-小姐姐
-name: 点头、抢话、会脸红，一半人分辨不出这是位「AI 小姐姐」
+name: Tavus Griffin
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Tavus 于 2026 年 10 月 1 日发布 Griffin 实时交互模型，官方称其为「人类交互模型」：在实时视频通话中同步生成面部、声音与点头、停顿等对话节奏，而非只做静态数字人形象。Tavus
+  自测显示 54 名参与者中 26 人误判对方为真人（约 48%），上一代系统为 41 人中 1 人（2.4%）。该模型面向实时对话场景，具体商用流程与交付仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: 'On October 1, 2026 Tavus released Griffin, a real-time interaction model it calls a "Human
+  Interaction Model": during a live video call it generates face, voice and conversational timing such
+  as nodding and pauses, rather than only a static avatar. Tavus''s own test had 26 of 54 participants
+  mistake it for a human (about 48%), versus 1 of 41 (2.4%) for the previous system. Commercial workflows
+  and delivery remain unverified.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -69,7 +74,7 @@ summary: "作者｜宇航猿  \n  编辑｜靖宇  \n \n 一个男人对着镜�
   \ geekparkGO"
 first_seen: '2026-10-04T05:27:14Z'
 last_seen: '2026-10-05T00:56:27Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -80,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# 点头、抢话、会脸红，一半人分辨不出这是位「AI 小姐姐」
+# Tavus Griffin
 
 作者｜宇航猿  
   编辑｜靖宇  

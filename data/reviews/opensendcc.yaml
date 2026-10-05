@@ -1,0 +1,86 @@
+- id: req-initial-opensendcc-2026-10-05
+  project_slug: opensendcc
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决邮件数据外置与订阅成本的问题，痛点方向成立，但公开材料未说明发送流程、投递保障与是否含 AI 能力。
+    evidence_ids:
+    - ev-f29e0adb1c1ef319
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句自托管描述，没有采用、评价或社区讨论证据，无法判断场景共识。
+    evidence_ids:
+    - ev-f29e0adb1c1ef319
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、托管服务或支持收费，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f29e0adb1c1ef319
+  - gate: truth
+    status: insufficient
+    reason: 自托管贴近数据控制的第一性目标，但缺少部署文档与投递实测，承诺能否确定性交付不明。
+    evidence_ids:
+    - ev-f29e0adb1c1ef319
+  next_validation: 收集 opensend.cc 的官方部署文档与定价页，核对自托管安装流程、投递能力与收费方式。
+  market: ''
+  job: 邮件营销运营人员在自有服务器上管理联系人名单并发送营销邮件，需要完成发送、投递与后续效果查看。
+  job_en: An email marketing operator manages contact lists and sends marketing emails on their own server,
+    needing to complete sending, delivery and follow-up performance review.
+  pain: 使用第三方邮件 SaaS 意味着联系人数据放在外部、按量订阅成本随规模上升，且发送链路受平台政策限制。
+  pain_en: Using third-party email SaaS means contact data sits outside, subscription cost rises with
+    volume, and the sending pipeline is constrained by platform policy.
+  current_alternative: 运营人员目前使用第三方邮件营销 SaaS，或自行搭建开源邮件发送组件并手动维护投递配置。
+  current_alternative_en: Operators currently use third-party email marketing SaaS, or self-assemble open-source
+    sending components and maintain delivery configuration manually.
+  usage_reason: 推断：相较第三方 SaaS，它把联系人数据与发送链路放在用户自己的服务器上，减少数据外置与按量订阅这一步，因此对数据敏感或发送量大的团队有吸引力；公开材料没有客户案例或付费证据，无法确认采用。
+  usage_reason_en: 'Inference: versus third-party SaaS, it keeps contact data and the sending pipeline
+    on the user''s own server, removing the data-externalization and usage-based subscription step, which
+    attracts data-sensitive or high-volume teams; public materials show no customer cases or payment evidence,
+    so adoption is unconfirmed.'
+- id: req-full-opensendcc-2026-10-05
+  project_slug: opensendcc
+  level: full
+  reviewed_at: '2026-10-05T01:24:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决邮件数据外置与按量订阅成本的问题，痛点方向成立；自托管把联系人数据与发送链路放在用户服务器上，减少数据外置与订阅成本，交付可确定。
+    evidence_ids:
+    - ev-f29e0adb1c1ef319
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句自托管描述，没有采用、评价或社区讨论证据，无法判断场景共识。
+    evidence_ids:
+    - ev-f29e0adb1c1ef319
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、托管服务或支持收费，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f29e0adb1c1ef319
+  - gate: truth
+    status: insufficient
+    reason: 自托管贴近数据控制的第一性目标，但缺少部署文档与投递实测，承诺能否确定性交付不明。
+    evidence_ids:
+    - ev-f29e0adb1c1ef319
+  next_validation: 收集 opensend.cc 的官方部署文档与定价页，核对自托管安装流程、投递能力与收费方式。
+  market: ''
+  job: 邮件营销运营人员在自有服务器上管理联系人名单并发送营销邮件，需要完成发送、投递与后续效果查看。
+  job_en: An email marketing operator manages contact lists and sends marketing emails on their own server,
+    needing to complete sending, delivery and follow-up performance review.
+  pain: 使用第三方邮件 SaaS 意味着联系人数据放在外部、按量订阅成本随规模上升，且发送链路受平台政策限制。
+  pain_en: Using third-party email SaaS means contact data sits outside, subscription cost rises with
+    volume, and the sending pipeline is constrained by platform policy.
+  current_alternative: 运营人员目前使用第三方邮件营销 SaaS，或自行搭建开源邮件发送组件并手动维护投递配置。
+  current_alternative_en: Operators currently use third-party email marketing SaaS, or self-assemble open-source
+    sending components and maintain delivery configuration manually.
+  usage_reason: 推断：相较第三方 SaaS，它把联系人数据与发送链路放在用户自己的服务器上，减少数据外置与按量订阅这一步，因此对数据敏感或发送量大的团队有吸引力；公开材料没有客户案例或付费证据，无法确认采用。
+  usage_reason_en: 'Inference: versus third-party SaaS, it keeps contact data and the sending pipeline
+    on the user''s own server, removing the data-externalization and usage-based subscription step, which
+    attracts data-sensitive or high-volume teams; public materials show no customer cases or payment evidence,
+    so adoption is unconfirmed.'

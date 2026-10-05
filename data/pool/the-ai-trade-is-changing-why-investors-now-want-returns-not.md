@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQS2tCRXFCTG5D
 summary: 'The AI trade is changing: why investors now want returns, not just spending equiti.com'
 first_seen: '2026-10-03T05:10:53Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

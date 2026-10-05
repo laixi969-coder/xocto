@@ -1,0 +1,91 @@
+- id: req-initial-cursor-remote-lite-2026-10-05
+  project_slug: cursor-remote-lite
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者离开工位后无法推进本机编码任务的问题，旧做法是等回工位或用笨重的远程桌面，痛点和不采用代价都具体。
+    evidence_ids:
+    - ev-7d39d3a45587ecf7
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品页一句描述，没有用户评价或采用数据，无法判断开发者是否真的在移动场景下使用。
+    evidence_ids:
+    - ev-7d39d3a45587ecf7
+  - gate: model
+    status: insufficient
+    reason: 没有定价页，买方是个人开发者还是团队未知；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-7d39d3a45587ecf7
+  - gate: truth
+    status: insufficient
+    reason: 远程操作本机代码库涉及权限与误改风险，公开材料未说明确认边界和回写机制，交付确定性无法核对。
+    evidence_ids:
+    - ev-7d39d3a45587ecf7
+  next_validation: 收集该产品的官方定价页或仓库说明，确认是否收费、如何计费，以及手机端改动如何回写到本机代码库。
+  market: ''
+  job: 开发者在通勤、会议或离开工位时，需要查看并推进电脑上正在跑的 Cursor 编码任务，处理的是同一份代码库和待确认的改动。
+  job_en: A developer commuting, in a meeting, or away from the desk needs to check and advance a Cursor
+    coding task running on their computer, working against the same codebase and pending changes.
+  pain: 长任务跑到一半人必须离开，无法及时确认或纠偏，只能等回到工位，任务空转或被卡住。
+  pain_en: When a long task is mid-run the person must leave, cannot confirm or correct in time, and can
+    only wait until returning while the task idles or stalls.
+  current_alternative: 等回到电脑前再处理、用通用远程桌面连回、或干脆不在离开时启动长任务。
+  current_alternative_en: Wait until back at the computer, use a generic remote desktop, or avoid starting
+    long tasks before leaving.
+  usage_reason: 推断：相较通用远程桌面要在小屏上找窗口和拖拽，它把“连回本机 Cursor 并看到当前任务状态”做成一步，减少重新定位工作区这一步负担，因此适合会离开工位但不想中断编码代理任务的人。公开材料没有留存或持续使用证据。
+  usage_reason_en: 'Inference: compared with a generic remote desktop where you hunt windows and drag
+    on a small screen, it collapses ''connect back to local Cursor and see current task state'' into one
+    step, removing the burden of re-locating the workspace, which suits people who leave the desk but
+    do not want to interrupt a coding-agent task. There is no public retention or sustained-use evidence.'
+- id: req-full-cursor-remote-lite-2026-10-05
+  project_slug: cursor-remote-lite
+  level: full
+  reviewed_at: '2026-10-05T01:23:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者离开工位后无法推进本机编码任务的需求，痛点是长任务中途无法确认或纠偏、只能等回工位，旧做法是通用远程桌面或干脆不启动长任务，不采用则任务空转；交付闭环为手机连回本机 Cursor
+      并看到任务状态，属工作流结构推理。
+    evidence_ids:
+    - ev-98205785c10938df
+    - ev-a576ce089db0438d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 Cursor 官方一句产品描述，没有开发者评价、采用数据或移动场景使用反馈，无法判断是否真有人在离开工位时使用；关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-98205785c10938df
+  - gate: model
+    status: insufficient
+    reason: 没有该远程功能的定价页，买方是个人开发者还是团队未知，钱可能来自 C 端订阅或 B 端席位，这是判断而非已验证事实；Cursor 官方页只说明代理能力，未说明远程收费路径。
+    evidence_ids:
+    - ev-a576ce089db0438d
+  - gate: truth
+    status: insufficient
+    reason: 远程操作本机代码库涉及权限与误改风险，公开材料未说明手机端改动如何回写、是否有确认边界与人工兜底，交付确定性无法核对。
+    evidence_ids:
+    - ev-98205785c10938df
+  next_validation: 追踪 Cursor 官方定价页或产品文档中关于移动端远程连接功能的说明，确认是否收费、计费方式以及手机端改动如何回写到本机代码库。
+  market: ''
+  job: 开发者在通勤、开会或离开工位时，用手机连回自己电脑上的 Cursor，查看并推进正在进行的编码代理任务，处理的是同一份本机代码库和待确认的改动。
+  job_en: A developer commuting, in a meeting, or away from the desk uses a phone to connect back to Cursor
+    on their own computer, checking and advancing an in-progress coding-agent task against the same local
+    codebase and pending changes.
+  pain: 长编码任务跑到一半人必须离开，无法及时确认或纠偏，只能等回到工位，任务空转或被卡住；通用远程桌面在小屏上找窗口、拖拽操作负担重。
+  pain_en: A long coding task is mid-run when the person must leave; they cannot confirm or correct it
+    in time and can only wait until returning, while the task idles or stalls; a generic remote desktop
+    is heavy to operate on a small screen.
+  current_alternative: 等回到电脑前再处理、用通用远程桌面连回、或干脆不在离开前启动长任务。
+  current_alternative_en: Wait until back at the computer, use a generic remote desktop, or avoid starting
+    long tasks before leaving.
+  usage_reason: 推断：相较通用远程桌面要在小屏上寻找窗口并拖拽，它把“连回本机 Cursor 并看到当前任务状态”收敛为一步，减少重新定位工作区这一负担，因此会离开工位但不想中断编码代理任务的开发者会在通勤或会议间隙选择它。公开材料无留存或持续使用证据。
+  usage_reason_en: 'Inference: compared with a generic remote desktop where you hunt windows and drag
+    on a small screen, it collapses ''connect back to local Cursor and see current task state'' into one
+    step, removing the burden of re-locating the workspace, so developers who leave the desk but do not
+    want to interrupt a coding-agent task would pick it during commutes or meeting breaks. No public retention
+    or sustained-use evidence.'

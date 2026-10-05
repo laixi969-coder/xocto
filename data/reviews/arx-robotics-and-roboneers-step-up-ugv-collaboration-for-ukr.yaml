@@ -1,0 +1,82 @@
+- id: req-initial-arx-robotics-and-roboneers-step-up-ugv-collaboration-for-ukr-2026-10-05
+  project_slug: arx-robotics-and-roboneers-step-up-ugv-collaboration-for-ukr
+  level: initial
+  reviewed_at: '2026-10-05T00:56:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点，公开材料只给出合作事实，未说明载具承担的具体任务与不采用的后果。
+    evidence_ids:
+    - ev-69be80d0c35622a7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有客户、采购方或使用者的公开反馈。
+    evidence_ids:
+    - ev-69be80d0c35622a7
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露合同金额、采购方或收费方式。
+    evidence_ids:
+    - ev-69be80d0c35622a7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验交付是否确定发生，也无安全与人工边界信息。
+    evidence_ids:
+    - ev-69be80d0c35622a7
+  next_validation: ARX Robotics 或 Roboneers 官方渠道公布的部署案例、采购合同或产品技术文档。
+  market: ''
+  job: 防务客户在无人地面载具部署中，需要把载具、传感器与任务软件集成起来并维持可用。
+  job_en: Defence customers deploying UGVs need to integrate vehicles, sensors and mission software and
+    keep them operational.
+  pain: 公开材料未说明当前由谁、用什么方式完成载具集成与任务执行，也未说明具体痛点。
+  pain_en: Public material does not say who currently performs vehicle integration and mission execution,
+    or what the specific pain is.
+  current_alternative: 未披露；可推断为传统有人载具或既有无人平台，但缺乏材料支持。
+  current_alternative_en: Not disclosed; manned vehicles or existing unmanned platforms can be inferred,
+    but material does not support it.
+  usage_reason: 合作公告只说明双方建立关系，未说明产品相较旧做法减少了哪一步负担，因此无法给出使用理由。
+  usage_reason_en: The announcement only states that the two firms partnered; it does not say which step
+    the product removes versus the old approach, so no usage reason can be given.
+- id: req-full-arx-robotics-and-roboneers-step-up-ugv-collaboration-for-ukr-2026-10-05
+  project_slug: arx-robotics-and-roboneers-step-up-ugv-collaboration-for-ukr
+  level: full
+  reviewed_at: '2026-10-05T01:22:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点，公开材料只给出双方建立战略合作这一事实，未说明无人地面载具承担的具体任务、操作者与不采用的后果，无法还原输入—动作—交付闭环。
+    evidence_ids:
+    - ev-15f2b4bb11a6a33f
+    - ev-f2ac64db0d3ef4f2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ARX Robotics 官网（arx-robotics.com 或对应官方域名）与 Roboneers 官方渠道发布的部署案例、采购合同或产品技术文档，以确认载具任务、操作者与交付结果。
+  market: ''
+  job: 防务用户在无人地面载具部署中，需要把载具平台、传感器与任务软件集成起来，并维持其在战场后勤运输等任务中的可用性。
+  job_en: Defence users deploying UGVs need to integrate vehicle platforms, sensors and mission software
+    and keep them operational for tasks such as battlefield logistics transport.
+  pain: 公开材料只确认 ARX Robotics 与 Roboneers 建立战略合作，未说明载具承担哪一步任务、由谁操作、不采用会失去什么，因此无法写出可核对的痛点。
+  pain_en: Public material only confirms a strategic partnership between ARX Robotics and Roboneers; it
+    does not state which task the vehicles perform, who operates them, or what is lost without them, so
+    no verifiable pain can be written.
+  current_alternative: 未披露；可推断为传统有人载具或既有无人平台，但现有证据不支持这一推断。
+  current_alternative_en: Not disclosed; manned vehicles or existing unmanned platforms can be inferred,
+    but the available evidence does not support that inference.
+  usage_reason: 合作公告只说明双方建立关系，未说明产品相较旧做法减少哪一步负担或改善哪项可核对结果，因此无法给出使用理由。
+  usage_reason_en: The partnership announcement only states that the two firms formed a relationship;
+    it does not say which step the product removes versus the old approach or which verifiable result
+    it improves, so no usage reason can be given.

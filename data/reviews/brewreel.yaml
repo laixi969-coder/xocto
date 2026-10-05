@@ -303,3 +303,49 @@
     and vertical assembly into a single command with ad-law checks, cutting per-clip editing and compliance
     self-review; so budget-limited small merchants or marketers needing fast vertical assets would choose
     it when they have a brief and scattered footage.'
+- id: req-full-brewreel-2026-10-05
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-05T01:22:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小商家无剪辑文案能力却要频繁产出竖版宣传片的需求，痛点是外包贵、手工剪辑逐条挑镜头写脚本负担重；开源仓库已有 109→118 星，说明有人关注，但采用与付费未核验，属工作流结构推理。
+    evidence_ids:
+    - ev-2e125ad687a4045a
+    - ev-f47a86f2a9308698
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 109 升至 118，仅反映开发者关注度，不能证明目标小商家已持续使用或形成口碑；缺少 issue、discussion 或客户案例说明真实采用场景。
+    evidence_ids:
+    - ev-2e125ad687a4045a
+    - ev-8711308f71b2a4ce
+  - gate: model
+    status: insufficient
+    reason: 项目开源可商用，公开材料未见定价页、付费主体或单位经济；谁付钱（小商家订阅、代运营采购还是 to VC）尚不清，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2e125ad687a4045a
+  - gate: truth
+    status: insufficient
+    reason: 广告法校验结果仍需人工确认，成片能否稳定达到可投放质量、镜头来源与交付流程均缺可复现公开证据，安全与人工边界未说明。
+    evidence_ids:
+    - ev-2e125ad687a4045a
+  next_validation: 追踪 BrewReel 官方仓库的 issue、discussion 与 README 部署文档，确认是否有真实商家部署案例、成片样例与广告法校验的人工边界说明。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，把简报交给 BrewReel，由 AI 挑选镜头、撰写文案并合成竖版宣传片，最终拿到一条可直接投放的成片。
+  job_en: A small merchant or marketer with only a product brief and scattered footage hands the brief
+    to BrewReel, which selects shots, writes copy and assembles a vertical promo video, ending with a
+    ready-to-run cut.
+  pain: 小商家没有剪辑与文案能力，外包一条竖版宣传片成本高、周期长，自己用通用剪辑工具又要逐条挑镜头、写脚本、对广告法，单条素材制作负担重且难以批量产出。
+  pain_en: Today they outsource to editors or agencies, hand-edit in generic tools like CapCut, or use
+    platform templates, all requiring manual shot selection and copywriting.
+  current_alternative: 当前替代是外包给剪辑师或代运营、用剪映/CapCut 等通用工具手工剪辑，或直接用平台模板套用，均需人工挑镜头与写文案。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 相较手工剪辑或外包，BrewReel 把“挑镜头—写文案—合成—广告法校验”串成一条命令，用户只需提供简报和素材即可出片，省去逐条筛选与脚本撰写；推断预算有限、需要频繁产出竖版素材的小商家会因此选择它，但尚无用户反馈证实这一动机。
+  usage_reason_en: Versus hand-editing or outsourcing, BrewReel chains shot selection, copywriting, assembly
+    and ad-law checks into one command, so users only supply a brief and footage; inferred that budget-constrained
+    merchants needing frequent vertical assets would choose it, though no user feedback yet confirms this
+    motive.

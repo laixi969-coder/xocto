@@ -183,3 +183,50 @@
     scratch each time; teams shipping video by the unit at high frequency are the likely first adopters.
     Public material shows no retention or repeat-use evidence, so it cannot yet be said to be embedded
     in workflows long term.'
+- id: req-full-reelmimic-2026-10-05
+  project_slug: reelmimic
+  level: full
+  reviewed_at: '2026-10-05T01:24:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是按参考片复刻视频风格这一具体任务，痛点是风格漂移与人工返工，旧做法是逐段生成再手工剪辑或外包，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-4a3cb63f255158f2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 350 增至 1,267 只说明关注度上升，属于规模信号而非持续采用，缺少用户评价或客户案例说明谁在什么场景反复使用。
+    evidence_ids:
+    - ev-4a3cb63f255158f2
+    - ev-5a4b5549d46c944a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式；按成片条数或订阅收费只是推断，不是已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-4a3cb63f255158f2
+  - gate: truth
+    status: insufficient
+    reason: 风格一致性、成片可用性和人工确认边界均未在公开材料中给出可核对结果，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-4a3cb63f255158f2
+  next_validation: 收集该仓库的 issue、discussion 或 README 示例，核对是否有用户贴出成片与参考片的风格一致性对比及人工修改量。
+  market: ''
+  job: 短视频创作者或营销人员在拿到一条喜欢的参考视频后，需要把它的风格复刻到一条新视频上，用于投放或发布。
+  job_en: Short-video creators or marketers who, after picking a reference video they like, need to replicate
+    its style onto a new video for publishing or ad delivery.
+  pain: 公开材料只说明它接受参考视频并产出同风格新片，未给出用户抱怨；从工作流结构推理，风格复刻通常靠反复调提示词、逐段生成再手工剪辑，风格容易漂移、返工多、单条成本高。
+  pain_en: Public material only states that it takes a reference video and returns a same-style video,
+    with no user complaints; by workflow inference, style replication usually means repeated prompt tweaking,
+    piecewise generation and manual editing, so style drifts, rework is heavy and per-video cost stays
+    high.
+  current_alternative: 现在多是用通用视频生成工具逐段生成再人工剪辑拼接，或外包给剪辑师按参考片模仿。
+  current_alternative_en: Today people either generate clips piecewise with general video tools and edit
+    them together by hand, or outsource to an editor who imitates the reference video.
+  usage_reason: 推断：它把“看参考片—拆风格—生成—评审”串成一条由 Claude Code 或 Codex 编排的可重复流程，用户不必每次从零调提示词和逐段拼接，因此高频按条出片的投放或内容团队会先试用它；公开材料没有留存或复购证据，尚不能说明它已被长期留在工作流里。
+  usage_reason_en: 'Inference: it chains reference-watching, style breakdown, generation and review into
+    one repeatable pipeline orchestrated by Claude Code or Codex, so users no longer rebuild prompts and
+    stitch clips from scratch each time; teams shipping video by the unit at high frequency are the likely
+    first adopters. Public material shows no retention or repeat-use evidence, so it cannot yet be said
+    to be embedded in workflows long term.'

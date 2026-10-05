@@ -129,3 +129,46 @@
     key and no usage limits, removing the key-application and backend-setup step, so non-professional
     developers wanting a low-cost prototype may choose it; this is inferred from product capability, not
     confirmed adoption motivation.'
+- id: req-full-builder-2026-10-05
+  project_slug: builder
+  level: full
+  reviewed_at: '2026-10-05T01:22:38Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决非专业开发者用自然语言生成可运行站点或应用的需求，但公开证据只描述 Puter 是浏览器内开源互联网计算机，未记录任何用户痛点、频率或不采用代价，价值结构无法从现有事实还原。
+    evidence_ids:
+    - ev-4600d604f34fbb27
+    - ev-7b1e7d0cd33d7b31
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 HeyPuter/puter 仓库中与 Builder 相关的 issue、discussion 和 README 部署文档，确认是否有用户实际用它生成并运行站点或应用、替代了哪一步旧流程。
+  market: ''
+  job: 非专业开发者或小团队在需要快速做出网站或应用原型时，打开 Puter Builder，用自然语言描述需求，期望得到可运行的站点或应用代码。
+  job_en: Non-professional developers or small teams who need a quick website or app prototype open Puter
+    Builder, describe requirements in natural language, and expect runnable site or app code.
+  pain: 公开材料只说明 Puter 是浏览器内运行、可自托管的开源互联网计算机，未记录任何用户对建站或应用原型环节的抱怨、频率或不解决的代价；痛点无法从现有证据还原。
+  pain_en: Public materials only describe Puter as an open-source, self-hostable internet computer running
+    in the browser; no user complaint, frequency, or cost of leaving the site/app prototyping job unsolved
+    is documented, so the pain cannot be reconstructed from available evidence.
+  current_alternative: 摘要称其为 Lovable、Replit、v0 的开源替代，但证据链中没有用户当前如何完成建站任务、为何放弃这些旧做法的公开记录。
+  current_alternative_en: The summary calls it an open-source alternative to Lovable, Replit, and v0,
+    but the evidence chain contains no public record of how users currently complete the build task or
+    why they abandon those existing approaches.
+  usage_reason: 推断：若 Builder 真能按自然语言生成可运行代码，可能减少从零写脚手架的一步；但公开证据未显示任何用户因此选择它，也未显示它相较 Replit 或 v0 减少了哪一步负担，故无法给出可核对的采用理由。
+  usage_reason_en: 'Inference: if Builder truly generates runnable code from natural language, it might
+    remove the step of writing scaffolding from scratch; however, no public evidence shows any user choosing
+    it for that reason or which step it removes versus Replit or v0, so no verifiable adoption reason
+    can be given.'

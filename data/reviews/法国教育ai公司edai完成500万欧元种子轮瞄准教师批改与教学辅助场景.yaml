@@ -1,0 +1,89 @@
+- id: req-initial-法国教育ai公司edai完成500万欧元种子轮瞄准教师批改与教学辅助场景-2026-10-05
+  project_slug: 法国教育ai公司edai完成500万欧元种子轮瞄准教师批改与教学辅助场景
+  level: initial
+  reviewed_at: '2026-10-05T00:56:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是教师批改与反馈这一具体任务，但公开材料未说明教师当前卡在哪一步、不采用会失去什么，痛点强度无法确认。
+    evidence_ids:
+    - ev-73fe43bf45b22f11
+  - gate: consensus
+    status: insufficient
+    reason: 除融资报道外，没有教师、学校或教研群体的采用与讨论证据，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-73fe43bf45b22f11
+  - gate: model
+    status: insufficient
+    reason: 未披露买方是学校、学区还是教师个人，也没有定价或采购信息；钱可能来自to B或to G，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-73fe43bf45b22f11
+  - gate: truth
+    status: insufficient
+    reason: 无法核对批改结果是否准确、教师是否必须复核、错误反馈由谁承担，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-73fe43bf45b22f11
+  next_validation: 收集Ed.ai官方产品页或定价页，确认其批改流程、买方类型与计价方式。
+  market: ''
+  job: 法国中小学教师在日常作业与测验后，需要处理学生提交的纸质或电子作业，完成批改、打分并给出反馈，再把结果交回学生与家长。
+  job_en: Teachers in French primary and secondary schools need to process student submissions after daily
+    homework and quizzes, complete grading and scoring, give feedback, and return results to students
+    and parents.
+  pain: 公开材料只说明方向是批改与教学辅助，没有说明教师当前在批改上具体卡在哪一步、耗时多少、错误率或反馈延迟带来什么后果，痛点强度无法从现有事实确认。
+  pain_en: Public material only states the direction of grading and teaching assistance; it does not say
+    which grading step teachers are stuck on, how long it takes, or what consequences errors or delayed
+    feedback cause, so pain intensity cannot be confirmed from available facts.
+  current_alternative: 可确认的旧做法是教师手工批改，或使用学校已有的作业与测评系统；是否有其他AI批改工具被法国教师实际使用，公开材料未提供。
+  current_alternative_en: The confirmable old practice is manual grading by teachers or existing school
+    assignment and assessment systems; whether French teachers actually use other AI grading tools is
+    not provided in the public material.
+  usage_reason: 推断：若产品能把学生作业直接转成批改结果与反馈草稿，教师只需复核和调整，就能省去逐份手写评语这一步，因此可能被作业量大、班额大的教师选用；但公开材料未给出任何使用反馈或客户案例，这一动机仍是推断。
+  usage_reason_en: 'Inference: if the product turns student work directly into grading results and feedback
+    drafts that teachers only review and adjust, it removes the step of writing comments by hand for each
+    submission, which may attract teachers with heavy assignment loads and large classes; however, no
+    usage feedback or customer case is public, so this motive remains an inference.'
+- id: req-full-法国教育ai公司edai完成500万欧元种子轮瞄准教师批改与教学辅助场景-2026-10-05
+  project_slug: 法国教育ai公司edai完成500万欧元种子轮瞄准教师批改与教学辅助场景
+  level: full
+  reviewed_at: '2026-10-05T01:25:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是教师批改与反馈这一具体任务，但公开材料未说明教师当前卡在哪一步、不采用会失去什么，痛点强度无法确认。
+    evidence_ids:
+    - ev-73fe43bf45b22f11
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集Ed.ai官方产品页或定价页，确认其批改流程、买方类型与计价方式。
+  market: ''
+  job: 法国中小学教师在日常作业与测验后，需要处理学生提交的纸质或电子作业，完成批改、打分并给出反馈，再把结果交回学生与家长。
+  job_en: Teachers in French primary and secondary schools need to process student submissions after daily
+    homework and quizzes, complete grading and scoring, give feedback, and return results to students
+    and parents.
+  pain: 公开材料只说明方向是批改与教学辅助，没有说明教师当前在批改上具体卡在哪一步、耗时多少、错误率或反馈延迟带来什么后果，痛点强度无法从现有事实确认。
+  pain_en: Public material only states the direction of grading and teaching assistance; it does not say
+    which grading step teachers are stuck on, how long it takes, or what consequences errors or delayed
+    feedback cause, so pain intensity cannot be confirmed from available facts.
+  current_alternative: 可确认的旧做法是教师手工批改，或使用学校已有的作业与测评系统；是否有其他AI批改工具被法国教师实际使用，公开材料未提供。
+  current_alternative_en: The confirmable old practice is manual grading by teachers or existing school
+    assignment and assessment systems; whether French teachers actually use other AI grading tools is
+    not provided in the public material.
+  usage_reason: 推断：若产品能把学生作业直接转成批改结果与反馈草稿，教师只需复核和调整，就能省去逐份手写评语这一步，因此可能被作业量大、班额大的教师选用；但公开材料未给出任何使用反馈或客户案例，这一动机仍是推断。
+  usage_reason_en: 'Inference: if the product turns student work directly into grading results and feedback
+    drafts that teachers only review and adjust, it removes the step of writing comments by hand for each
+    submission, which may attract teachers with heavy assignment loads and large classes; however, no
+    usage feedback or customer case is public, so this motive remains an inference.'

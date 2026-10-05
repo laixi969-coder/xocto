@@ -341,3 +341,46 @@
   usage_reason_en: 'No usage reason can be inferred from the available evidence: the evidence chain is
     unrelated to the product, with no product docs, repository description, or record of user adoption
     or choice motivation.'
+- id: req-full-pig-2026-10-05
+  project_slug: pig
+  level: full
+  reviewed_at: '2026-10-05T01:24:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称把上游 Pi 的 TypeScript 编码代理按行为对齐翻译成 Go，但全部证据均为家猪动物百科条目，与编码代理部署无关，无法还原用户任务、痛点、旧替代或不解决的后果，需求结构无从成立。
+    evidence_ids:
+    - ev-9ed6913434b5e3cf
+    - ev-ca4317b309ed7fe8
+    - ev-5a735684796eb992
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 PiG 官方仓库的 README、release 与 issue/discussion，确认其是否真实存在、上游 Pi 的对应关系及开发者实际部署反馈。
+  market: ''
+  job: 开发者若要在自建或受限运行环境中部署编码代理，需要把上游 Pi 的 TypeScript 实现换成可编译、易分发的 Go 版本并保持行为一致。
+  job_en: Developers deploying a coding agent in self-hosted or constrained runtime environments would
+    need a compilable, easily distributed Go build of upstream Pi's TypeScript implementation while keeping
+    behavior identical.
+  pain: 公开材料未记录任何用户痛点：所引证据全部是关于家猪的动物百科条目，与编码代理部署无关，无法说明不解决该问题的代价或频率。
+  pain_en: 'Public materials record no user pain: all cited evidence consists of animal-encyclopedia entries
+    about domestic pigs, unrelated to coding-agent deployment, so no cost or frequency of leaving the
+    problem unsolved can be shown.'
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users complete this job today or what prior
+    approach it replaces.
+  usage_reason: 推断：若 PiG 真能按上游行为契约交付 Go 版编码代理，需要 Go 单二进制分发的开发者可能选择它；但现有证据无一支持该动机，无法说明相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Inference: if PiG truly delivers a Go build of the coding agent under the upstream
+    behavior contract, developers needing single-binary Go distribution might choose it; however, no evidence
+    supports this motive or shows which step it removes versus the old approach.'

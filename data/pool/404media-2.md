@@ -21,7 +21,7 @@ canonical_url: https://404media.co/someone-torturing-llms-in-a-robot-prison-has-
 summary: '"Torturing" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet'
 first_seen: '2026-10-04T08:02:33Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

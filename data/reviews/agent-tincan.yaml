@@ -298,3 +298,55 @@
     network and auth paths for every agent pair and only need agents to issue requests per the project''s
     convention to reach across hosts; developers running self-hosted or hybrid multi-agent setups who
     already use Tailscale would pick it when cross-host collaboration is needed. Public materials d'
+- id: req-full-agent-tincan-2026-10-05
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-05T01:21:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 跨主机协作时缺少互访通道的问题：开发者现在要手工配隧道或把 agent 挤到一台机器上。官方说明明确以 Tailscale 承载 agent 间求助，输入、动作与交付闭环可还原，属工作流结构推理；痛点刚性与频率仍缺用户证据。
+    evidence_ids:
+    - ev-0b66afd904350b13
+    - ev-070337c8c07d2c5f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 151 升至 214，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在日常工作流；缺少 issue、discussion 或使用反馈说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-0b66afd904350b13
+    - ev-070337c8c07d2c5f
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者自用、to B 团队支持或 to VC 赞助，均属判断而非已验证事实；买方不清不反推需求不存在。
+    evidence_ids:
+    - ev-0b66afd904350b13
+  - gate: truth
+    status: insufficient
+    reason: 官方一句话说明未给出部署文档、权限边界与人工确认环节，agent 间自动求助是否会在无监督下越权调用、交付能否稳定复现，尚缺可核验的公开材料。
+    evidence_ids:
+    - ev-0b66afd904350b13
+    - ev-c45746fc3600ba5c
+  next_validation: 追踪 agent-tincan 官方仓库的 README、部署文档与 issue/discussion，确认实际部署方式、Tailscale 权限边界以及是否有用户报告跨主机
+    agent 协作的具体使用场景。
+  market: ''
+  job: 自建或混合部署多个 AI agent 的开发者，在 agent 分散于不同机器、需要互相调用或求助时，打开这个开源项目，把 agent 间的求助请求经 Tailscale 网络转发，让跨主机的
+    agent 完成协作任务。
+  job_en: Developers running multiple self-hosted or hybrid AI agents open this open-source project when
+    agents on different machines need to call or ask each other for help, routing those requests over
+    a Tailscale network so cross-host agents can complete a collaborative task.
+  pain: 多 agent 分散在不同主机时，agent 之间没有现成的互访通道，开发者只能手工搭端口转发、写胶水脚本或把 agent 挤到同一台机器上，跨机协作因此变得脆弱且难维护；这是从部署结构推出的痛点，公开材料未给出频率或故障代价。
+  pain_en: When agents live on different hosts there is no ready channel between them, so developers hand-roll
+    port forwarding, glue scripts, or cram agents onto one machine, making cross-host collaboration brittle
+    and hard to maintain; this pain is inferred from the deployment structure, and public materials give
+    no frequency or failure cost.
+  current_alternative: 旧做法是自行配置 SSH 隧道、反向代理或内网端口映射，或干脆把多个 agent 放在同一台机器上运行，用自写脚本串联调用。
+  current_alternative_en: The old way is to hand-configure SSH tunnels, reverse proxies, or internal port
+    mapping, or simply run all agents on one machine and wire calls together with custom scripts.
+  usage_reason: 推断：相较自建隧道和胶水脚本，它把 agent 间求助直接复用已有的 Tailscale 网络身份与连通性，省去单独暴露端口和逐台配置转发这一步，因此已经在用 Tailscale
+    管理多机 agent 的开发者，会在需要跨主机协作时选择它。
+  usage_reason_en: 'Inference: compared with hand-built tunnels and glue scripts, it reuses the existing
+    Tailscale network identity and connectivity for agent-to-agent help, removing the step of separately
+    exposing ports and configuring forwarding per host, so developers already using Tailscale to manage
+    multi-machine agents would pick it when cross-host collaboration is needed.'

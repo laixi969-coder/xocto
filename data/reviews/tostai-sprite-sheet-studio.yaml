@@ -165,3 +165,55 @@
     removing the scripting and manual alignment step, so indie developers without an art pipeline who
     want video turned into engine assets quickly would pick it when building character animation; public
     materials give no first-person user motivation.'
+- id: req-full-tostai-sprite-sheet-studio-2026-10-05
+  project_slug: tostai-sprite-sheet-studio
+  level: full
+  reviewed_at: '2026-10-05T01:25:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把原始视频转成游戏可用精灵图集这一具体任务，痛点是逐帧切图、去背景与排布图集的重复手工劳动，旧做法需 FFmpeg 加 Photoshop/Aseprite/TexturePacker
+      多工具串联。公开材料仅有产品说明与仓库关注度，痛点强度属工作流结构推理，但需求与交付闭环可还原，故价值关成立。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+    - ev-4e35a27fd4ac83e6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 71，说明有开发者注意到该项目，但收藏与关注度只属规模信号，不能证明目标用户持续使用或把它留在工作流里；缺少 issue、discussion 或用户评价说明谁在什么场景下实际采用。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+    - ev-17573bda2246596b
+    - ev-4e35a27fd4ac83e6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自独立开发者自付、工作室采购还是开源赞助；这是商业证据缺口，不反推需求不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺输出可直接导入引擎的精灵图集，但公开材料未说明帧率、去背景与对齐规则，也无部署文档或可复现实测证明交付稳定发生，人工检查边界尚不明确。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+    - ev-8fb532530e47cf29
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否出现真实用户描述输入视频类型、输出图集规格与替代旧流程的公开记录。
+  market: ''
+  job: 独立游戏开发者或游戏美术手上只有一段实拍或渲染好的角色动作视频时，需要把它切成逐帧序列、排成游戏引擎可直接导入的精灵图集，用于角色动画资源制作。
+  job_en: An indie game developer or game artist who has only a raw captured or rendered character-motion
+    video needs to slice it into frame sequences and lay them out as an engine-ready sprite sheet for
+    character animation assets.
+  pain: 逐帧切图、去背景、对齐和排布图集是重复的手工劳动，帧数一多就耗时且容易错位；公开材料只给出产品说明与仓库关注度，未提供用户抱怨或耗时数据，因此痛点强度属于工作流结构推理而非已核验事实。
+  pain_en: Frame slicing, background removal, alignment and atlas packing are repetitive manual work that
+    grows costly and error-prone with frame count; public material only offers the product description
+    and repo attention, not user complaints or timing data, so pain intensity is workflow inference rather
+    than verified fact.
+  current_alternative: 旧做法通常是用 FFmpeg 或视频软件导出帧序列，再在 Photoshop、Aseprite 或 TexturePacker 里手工去背景、对齐并排成图集，多工具串联且需人工逐帧检查。
+  current_alternative_en: The old path is exporting frames with FFmpeg or video tools, then manually removing
+    backgrounds, aligning and packing the atlas in Photoshop, Aseprite or TexturePacker — a multi-tool
+    chain with per-frame manual checking.
+  usage_reason: 推断：相较手工多工具串联，它把切帧与图集排布合并为一次视频输入到图集输出的动作，省去在多个软件间导出导入和手工排布这一步，因此手上已有视频、又不想逐帧处理的美术或独立开发者会在做角色动画资源时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus the manual multi-tool chain, it merges slicing and atlas packing
+    into one video-in/atlas-out action, removing the export-import and manual layout step, so artists
+    or indie developers who already have video and want to avoid per-frame work would choose it for character
+    animation assets; public material has no user feedback confirming this motive.'

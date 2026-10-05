@@ -21,7 +21,7 @@ canonical_url: https://scimigo.com/en/learn/build-with-python/01-draw-with-pytho
 summary: a beginner course where your code draws
 first_seen: '2026-10-04T18:59:25Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://youtube.com/watch?v=eZ8WWZzoaR0
 summary: The end of TCP for AI clusters [video]
 first_seen: '2026-10-04T19:42:25Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -127,3 +127,40 @@
     - search - copy prices - align'' into a single tool call that returns a cross-shop offer list to the
     AI assistant, so users already making purchase decisions through an assistant and needing live prices
     would pick it at the shopping step; public materials give no first-person user motivation.'
+- id: req-full-torob-mcp-2026-10-05
+  project_slug: torob-mcp
+  level: full
+  reviewed_at: '2026-10-05T01:25:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“用户或接入它的 AI 助手在选购商品时调用它，把商品关键词交给 Torob 的店铺数据，做搜索、比价和价格核对”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 消费者或比价工具在选购商品时跨店铺查询与比价
+  job_en: Consumers or price-comparison tools querying and comparing prices across shops while shopping
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：消费者或比价工具在选购商品时跨店铺查询与比价；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Consumers or price-comparison tools querying and comparing prices across
+    shops while shopping Public materials do not yet explain why users choose this product over their
+    existing approach.'

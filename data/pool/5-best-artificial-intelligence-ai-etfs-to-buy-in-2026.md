@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQYzA2Wld0QkFF
 summary: 5 Best Artificial Intelligence (AI) ETFs to Buy in 2026 The Motley Fool
 first_seen: '2026-10-03T04:20:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd2F6WTkxRmhL
 summary: 零公里物流、AI智能体 看先进制造如何助力造车新势力 搜狐网
 first_seen: '2026-10-04T00:37:00Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

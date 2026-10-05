@@ -130,3 +130,58 @@
     split as a one-time configuration inside Harness, so users need not re-paste plans and code per task,
     and the cheap model absorbs the token-heavy writing step; Harness users watching per-task bills without
     giving up planning and review quality would pick it for medium-to-long coding tasks.'
+- id: req-full-dsh-model-fusion-2026-10-05
+  project_slug: dsh-model-fusion
+  level: full
+  reviewed_at: '2026-10-05T01:23:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是：在 DeepSeek Harness 的编码任务中，让前沿模型只承担规划与审查、便宜模型承担代码生成，从而在保持前沿级规划质量的同时压低单次任务开销。痛点来自前沿模型按
+      token 计费、代码生成 token 占比高这一工作流结构，属于结构推理；公开材料仅有定位句与星标，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-a22178269d816cbc
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 增至 50，说明有开发者注意到该项目，但星标只反映关注度，不能证明目标用户已把它留在日常编码工作流中；公开材料没有 issue、discussion 或使用反馈说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-3ffb0844fbcf3629
+    - ev-a22178269d816cbc
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未给出定价页、付费主体或单位经济；钱可能来自开发者自付 API 费用节省，也可能来自企业采购，但均属判断而非已验证事实，公开证据不足以确认付费路径。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句定位，缺少接入文档、成本对比与产出质量的可复现证据，无法确认 Lead/Sidekick 分工能否稳定交付前沿级结果，也无法判断人工审查与安全边界如何设定。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-3ffb0844fbcf3629
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否公开接入步骤、成本对比数据或用户使用反馈，以核验 Lead/Sidekick 分工的实际交付效果与采用情况。
+  market: ''
+  job: 开发者在 DeepSeek Harness 中处理一个具体编码任务时，把任务拆成规划/审查与代码编写两段，由前沿模型担任 Lead 负责规划与审查，由更便宜的 Sidekick 模型负责写代码，以在可接受质量下控制单次任务的模型开销。
+  job_en: 'Inside DeepSeek Harness, a developer splits a concrete coding task into planning/review and
+    code-writing stages: a frontier model acts as Lead for planning and review, while a cheaper Sidekick
+    model writes the code, to control per-task model spend at acceptable quality.'
+  pain: 公开材料只给出定位句，未提供用户抱怨或案例；从工作流结构推理，痛点是前沿模型按 token 计费，长编码任务中大量代码生成 token 由最贵模型承担，成本随任务规模线性上升，而全部改用便宜模型又会牺牲规划与审查质量。
+  pain_en: Public materials give only the positioning line, with no user complaints or cases; by workflow-structure
+    inference, the pain is that frontier models bill per token, so in long coding tasks the bulk of code-generation
+    tokens is paid at the most expensive rate, scaling cost with task size, while switching entirely to
+    a cheap model sacrifices planning and review quality.
+  current_alternative: 当前替代方式包括：全程使用单一前沿模型（成本高）、全程使用便宜模型（质量风险）、或由开发者手动在模型间切换并自行拼接规划与代码，缺少把 Lead/Sidekick
+    分工固化为一次配置的现成做法。
+  current_alternative_en: Current alternatives include using a single frontier model end-to-end (expensive),
+    using a cheap model end-to-end (quality risk), or manually switching between models and stitching
+    planning and code together, with no ready-made way to fix the Lead/Sidekick split as a one-time configuration.
+  usage_reason: 推断：相较手动切换模型或全程用贵模型，该方案把“前沿模型规划审查、便宜模型写代码”固化为 DeepSeek Harness 内的一次配置，减少每轮任务手动选模型、复制规划结果再交给写码模型的步骤，因此在意单次任务
+    token 成本、又需要前沿级规划与审查的开发者会在长编码任务中选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manually switching models or paying for a frontier model end-to-end,
+    this fixes the ''frontier plans and reviews, cheap model writes code'' split as a one-time configuration
+    inside DeepSeek Harness, removing the per-round step of picking models and hand-carrying the plan
+    to the code-writing model, so developers who care about per-task token cost yet need frontier-grade
+    planning and review would choose it for long coding tasks; public materials contain no user '

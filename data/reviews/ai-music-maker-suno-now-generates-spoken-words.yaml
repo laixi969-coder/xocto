@@ -40,3 +40,95 @@
   usage_reason_en: 'Inference: generating voice and music in one pass removes the cross-tool export and
     alignment step, so deadline-bound, budget-limited content teams would pick it when they need finished
     audio quickly.'
+- id: req-initial-ai-music-maker-suno-now-generates-spoken-words-2026-10-05
+  project_slug: ai-music-maker-suno-now-generates-spoken-words
+  level: initial
+  reviewed_at: '2026-10-05T00:56:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播与配乐分步制作、对齐麻烦的需求，痛点真实，交付为可直接使用的音轨，属工作流推理。
+    evidence_ids:
+    - ev-6833b45fad1e09ac
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有功能上线报道，没有配音从业者或内容团队的采用与评价证据。
+    evidence_ids:
+    - ev-6833b45fad1e09ac
+  - gate: model
+    status: insufficient
+    reason: 未见该功能的定价页或按条收费说明，买方与付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-4697c8848c3cf087
+  - gate: truth
+    status: insufficient
+    reason: 口播语气、配乐匹配度与版权归属能否确定性交付，公开材料未说明，需核验。
+    evidence_ids:
+    - ev-6833b45fad1e09ac
+  next_validation: 收集 Suno 官方关于语音功能的定价页或使用条款，确认按什么计价以及生成音频的商用与版权边界。
+  market: ''
+  job: 短视频团队、广告主或课程制作者在需要口播加配乐的成片音频时，把写好的脚本或描述交给 Suno，生成口播人声和背景音乐，得到可直接使用的音轨。
+  job_en: Short-video teams, advertisers or course creators who need finished voiceover-plus-music audio
+    hand a written script or description to Suno, which generates the spoken voice and background music
+    into a usable track.
+  pain: 旧流程要分别找配音、找配乐再对齐，环节多、周期长，小批量内容尤其不划算。
+  pain_en: The old workflow splits voice casting, music sourcing and alignment into separate steps, which
+    is slow and uneconomical for small-batch content.
+  current_alternative: 雇配音演员或使用独立语音合成工具，再另外找或生成背景音乐，最后手动对齐。
+  current_alternative_en: Hiring a voice actor or using a standalone speech-synthesis tool, then separately
+    sourcing or generating background music and aligning them by hand.
+  usage_reason: 推断：相较分步外包，Suno 把口播与配乐放在同一次生成里，省掉跨工具拼接和对齐这一步，因此需要快速产出多条音频的短视频与广告团队会在试做阶段选择它。
+  usage_reason_en: 'Inference: compared with step-by-step outsourcing, Suno puts voiceover and scoring
+    in one generation, removing the cross-tool stitching and alignment step, so short-video and ad teams
+    producing many audio clips quickly would try it at the prototyping stage.'
+- id: req-full-ai-music-maker-suno-now-generates-spoken-words-2026-10-05
+  project_slug: ai-music-maker-suno-now-generates-spoken-words
+  level: full
+  reviewed_at: '2026-10-05T01:21:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播与配乐分步制作、对齐麻烦的需求，痛点真实，交付为可直接使用的音轨，属工作流结构推理；谁付钱公开材料未说明，留待模式关。
+    evidence_ids:
+    - ev-ab985007b1da53a7
+    - ev-2550d96599b52ee9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方产品说明与功能上线报道，没有配音从业者或内容团队的采用、评价与重复使用证据，无法判断是否已进入稳定工作流。
+    evidence_ids:
+    - ev-ab985007b1da53a7
+    - ev-e315877b3fa3a69f
+  - gate: model
+    status: insufficient
+    reason: 未见该语音功能的定价页或按条收费说明，买方与付费路径属判断而非已验证事实；Suno 作为订阅制音乐平台可能向创作者收费，但公开材料未确认。
+    evidence_ids:
+    - ev-e315877b3fa3a69f
+    - ev-2550d96599b52ee9
+  - gate: truth
+    status: insufficient
+    reason: 口播语气、配乐匹配度与生成音频的商用版权边界能否确定性交付，公开材料未说明，需核验官方条款与实测结果。
+    evidence_ids:
+    - ev-ab985007b1da53a7
+    - ev-e315877b3fa3a69f
+  next_validation: 收集 Suno 官方关于语音功能的定价页或使用条款，确认按什么计价以及生成音频的商用与版权边界。
+  market: ''
+  job: 短视频团队、广告主或课程制作者在需要口播加配乐的成片音频时，把写好的脚本或描述交给 Suno，一次生成口播人声与背景音乐，得到可直接使用的音轨。
+  job_en: Short-video teams, advertisers or course creators who need finished voiceover-plus-music audio
+    hand a written script or description to Suno, which generates the spoken voice and background music
+    in one pass into a usable track.
+  pain: 旧流程要分别找配音、找配乐再手动对齐，环节多、周期长，小批量内容尤其不划算；口播与配乐分属两个工具时，语气与节奏的匹配只能靠反复试听调整。
+  pain_en: The old workflow splits voice casting, music sourcing and alignment into separate steps, which
+    is slow and uneconomical for small-batch content; when voice and music come from two tools, matching
+    tone and pacing depends on repeated listening and manual adjustment.
+  current_alternative: 雇配音演员或使用独立语音合成工具，再另外找或生成背景音乐，最后手动对齐两条音轨。
+  current_alternative_en: Hiring a voice actor or using a standalone speech-synthesis tool, then separately
+    sourcing or generating background music and aligning the two tracks by hand.
+  usage_reason: 推断：相较分步外包与跨工具拼接，Suno 把口播与配乐放进同一次生成，省掉分别产出再对齐这一步，因此需要快速试做多条音频的短视频与广告团队会在初稿阶段选择它；公开材料未提供配音从业者的采用或留存证据，动机属结构推断。
+  usage_reason_en: 'Inference: compared with step-by-step outsourcing and cross-tool stitching, Suno puts
+    voiceover and scoring into one generation, removing the separate produce-then-align step, so short-video
+    and ad teams producing many audio drafts quickly would try it at the first-draft stage; public material
+    offers no adoption or retention evidence from voice professionals, so the motive is a structural inference.'

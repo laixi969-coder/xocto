@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/qwen-image-2-1-lightin
 summary: Lighting-blend LoRA for Qwen-Image 2.1, trigger word pengyu
 first_seen: '2026-10-04T19:34:42Z'
 last_seen: '2026-10-05T00:56:26Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

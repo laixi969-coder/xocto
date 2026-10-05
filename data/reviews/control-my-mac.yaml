@@ -1,0 +1,85 @@
+- id: req-initial-control-my-mac-2026-10-05
+  project_slug: control-my-mac
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决离开电脑后仍要操作 Mac 的问题，但公开材料只有一句产品描述，说不清 AI 具体做什么、替代了哪一步旧动作，痛点刚性无法确认。
+    evidence_ids:
+    - ev-8bd0403f46abd1ac
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页自述外没有用户评价、采用或讨论证据，无法判断是否有人真的在离开电脑时用它。
+    evidence_ids:
+    - ev-8bd0403f46abd1ac
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或买方信息，无法判断是 to C 一次性买断还是订阅；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-8bd0403f46abd1ac
+  - gate: truth
+    status: insufficient
+    reason: 快捷键触发属于确定性动作，但公开材料未说明 AI 环节与人工确认边界，交付是否稳定无法核对。
+    evidence_ids:
+    - ev-8bd0403f46abd1ac
+  next_validation: 收集该产品的官方定价页或应用商店页面，确认是否收费、按什么计价，以及是否列出支持的应用清单。
+  market: ''
+  job: Mac 用户在离开电脑、只带手机的情况下，需要触发电脑上某个应用的操作，例如开始导出、切换场景或执行一段固定流程。
+  job_en: A Mac user away from the computer, carrying only a phone, needs to trigger an action in a desktop
+    app such as starting an export, switching a scene, or running a fixed routine.
+  pain: 离开键盘就无法操作电脑，只能走回去或放弃这一步；远程桌面类工具在小屏上操作笨重。
+  pain_en: Leaving the keyboard means losing control of the machine, forcing a walk back or dropping the
+    step; remote-desktop tools are clumsy on a small screen.
+  current_alternative: 走回电脑、用远程桌面应用、或干脆等回到工位再处理。
+  current_alternative_en: Walk back to the machine, use a remote-desktop app, or simply wait until returning
+    to the desk.
+  usage_reason: 推断：如果它把常用动作预先固化成手机上的可点卡片，用户就不必在小屏上找菜单或拖鼠标，少掉“打开远程桌面再定位控件”这一步，因此适合需要短时离开但仍要推进任务的人。公开材料没有说明
+    AI 在其中做什么，也没有留存或复购证据。
+  usage_reason_en: 'Inference: if it pre-freezes common actions into tappable phone cards, the user skips
+    hunting menus or dragging a cursor on a small screen, removing the step of opening a remote desktop
+    and locating a control, which suits people who must briefly step away but still advance a task. The
+    public material does not say what AI does here, and there is no retention or repeat-use evidence.'
+- id: req-full-control-my-mac-2026-10-05
+  project_slug: control-my-mac
+  level: full
+  reviewed_at: '2026-10-05T01:22:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决离开电脑后仍要操作 Mac 的问题，但公开材料只有一句产品描述，说不清 AI 具体做什么、替代了哪一步旧动作，痛点刚性无法确认。
+    evidence_ids:
+    - ev-2817e21ea6205f12
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或应用商店页面，确认是否收费、按什么计价，以及是否列出支持的应用清单。
+  market: ''
+  job: Mac 用户在离开电脑、只带 iPhone 或 iPad 的情况下，需要触发电脑上某个应用的操作，例如开始导出、切换场景或执行一段固定流程。
+  job_en: A Mac user away from the computer, carrying only an iPhone or iPad, needs to trigger an action
+    in a desktop app such as starting an export, switching a scene, or running a fixed routine.
+  pain: 离开键盘就无法操作电脑，只能走回去或放弃这一步；远程桌面类工具在小屏上操作笨重。
+  pain_en: Leaving the keyboard means losing control of the machine, forcing a walk back or dropping the
+    step; remote-desktop tools are clumsy on a small screen.
+  current_alternative: 走回电脑、用远程桌面应用、或干脆等回到工位再处理。
+  current_alternative_en: Walk back to the machine, use a remote-desktop app, or simply wait until returning
+    to the desk.
+  usage_reason: 推断：若它把常用动作预先固化成手机上的可点卡片，用户就不必在小屏上找菜单或拖鼠标，少掉“打开远程桌面再定位控件”这一步。但公开材料只有一句产品描述，未说明 AI 具体做什么、支持哪些应用、交付边界如何，也没有留存或复购证据，无法确认用户会持续选择它。
+  usage_reason_en: 'Inference: if it pre-freezes common actions into tappable phone cards, the user skips
+    hunting menus or dragging a cursor on a small screen, removing the step of opening a remote desktop
+    and locating a control. But the public material is only a one-line product description; it does not
+    say what the AI does, which apps are supported, or where delivery boundaries lie, and there is no
+    retention or repeat-use evidence, so continued adoption cannot be confirmed.'

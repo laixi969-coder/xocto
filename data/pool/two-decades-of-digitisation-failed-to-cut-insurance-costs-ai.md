@@ -22,7 +22,7 @@ summary: 'Two decades of digitisation failed to cut insurance costs; AI could ch
   Tribune'
 first_seen: '2026-10-03T09:42:38Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

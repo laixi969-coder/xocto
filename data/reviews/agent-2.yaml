@@ -622,3 +622,50 @@
   usage_reason_en: The only public evidence is a repository star count rising from 104 to 133, which is
     attention rather than a usage motive; it cannot show which step of the old workflow is reduced, so
     no checkable reason to choose it can be given.
+- id: req-full-agent-2-2026-10-05
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-10-05T01:21:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者把编码、安全扫描与终端操作交给自主代理执行的需求，替代手动分步与多工具切换；痛点刚性来自工作流结构推理，公开材料未给用户抱怨或失败代价。
+    evidence_ids:
+    - ev-65bf0ae6fda2fd07
+    - ev-9009ff1177e0b9dd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 104 增至 133，说明开发者持续关注；但无用户评价、案例或重复使用数据，无法确认已形成采用共识。
+    evidence_ids:
+    - ev-65bf0ae6fda2fd07
+    - ev-9009ff1177e0b9dd
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断 to C 开发者订阅还是 to B 团队采购；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-65bf0ae6fda2fd07
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行终端命令与安全扫描时的人工确认、权限边界与失败回滚机制，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-0efbb1502b3efcf2
+  next_validation: 追踪该仓库 README、release 与 issue 中关于定价、权限边界、执行日志与用户实际使用结果的公开记录。
+  market: ''
+  job: 开发者在终端或编码环境中，把编码、安全扫描、终端命令执行等任务交给一个自主 AI 代理，由它接收任务描述并自动执行，最终交付完成的任务结果或操作日志。
+  job_en: A developer working in a terminal or coding environment hands coding, security scanning, and
+    terminal command execution to an autonomous AI agent, which takes a task description and executes
+    it, delivering the finished result or an operation log.
+  pain: 公开材料只说明代理覆盖编码、网络安全与终端自动化，未给出用户抱怨、失败代价或频率数据；痛点强度属于工作流结构推理，而非用户口述。
+  pain_en: Public materials only state the agent covers coding, cybersecurity, and terminal automation;
+    they give no user complaints, failure costs, or frequency data, so pain intensity is workflow inference,
+    not user testimony.
+  current_alternative: 开发者目前通常手动编写代码、逐条执行终端命令，或分别使用专用工具完成安全扫描，需要在多个工具间切换。
+  current_alternative_en: Developers currently write code manually, run terminal commands one by one,
+    or use separate specialized tools for security scanning, switching between them.
+  usage_reason: 推断：相较手动逐条执行命令与在多个专用工具间切换，它把任务描述直接转成编码、扫描与终端操作并输出结果或日志，减少人工分步操作；仓库收藏从 104 增至 133 说明开发者持续关注，但尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus manually running commands and switching between specialized tools,
+    it turns a task description directly into coding, scanning, and terminal operations with a result
+    or log, cutting manual steps; stars rising from 104 to 133 show attention, but retention and payment
+    are unverified.'

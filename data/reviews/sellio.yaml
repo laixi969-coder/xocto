@@ -1,0 +1,91 @@
+- id: req-initial-sellio-2026-10-05
+  project_slug: sellio
+  level: initial
+  reviewed_at: '2026-10-05T00:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句共享收件箱加 AI 代理，价值关无法成立。
+    evidence_ids:
+    - ev-a663d48981935b72
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注数据可判断共识。
+    evidence_ids:
+    - ev-a663d48981935b72
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与定价路径均无公开材料。
+    evidence_ids:
+    - ev-a663d48981935b72
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对回复是否确定交付。
+    evidence_ids:
+    - ev-a663d48981935b72
+  next_validation: 收集 Sellio 官方定价页或客户案例，确认其 AI 代理处理的具体字段、人工确认环节与计费方式。
+  market: ''
+  job: 电商或线上业务的客服人员在共享收件箱里处理买家咨询与售后邮件，需要逐条阅读并回复，Sellio 试图让 AI 代理先接收并生成回复。
+  job_en: Support staff at e-commerce or online businesses handle buyer inquiries and after-sales email
+    in a shared inbox, reading and replying one by one, and Sellio tries to have AI agents receive and
+    draft replies first.
+  pain: 候选资料未说明客服原本卡在哪一步、回复慢还是量大，痛点无法从公开事实中还原。
+  pain_en: The candidate material does not state where support previously got stuck, whether replies were
+    slow or volume was high, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未给出替代方式，无法确认团队此前是用人工收件箱、帮助台软件还是别的工具处理同一批咨询。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 缺少 AI 读取字段、人工确认环节与用户反馈的说明，无法解释客服为何选择它而非旧收件箱；仅凭一句产品说明不足以支撑使用理由。
+  usage_reason_en: With no description of which fields the AI reads, where humans confirm, or any user
+    feedback, there is no way to explain why support teams would choose it over an old inbox; a one-line
+    product description is not enough to support a usage reason.
+- id: req-full-sellio-2026-10-05
+  project_slug: sellio
+  level: full
+  reviewed_at: '2026-10-05T01:24:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电商客服在共享收件箱里逐条阅读并回复买家咨询的任务，痛点在于人工起草占用大量时间、回复受人力与在线时段限制；不采用则咨询积压或回复变慢。公开材料仅一句产品说明，痛点与替代方式属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-a663d48981935b72
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条 公开资料 产品页说明，无采用、收藏、评价或持续使用数据，无法判断客服是否真的把它纳入工作流；公开关注度不等于持续采用。
+    evidence_ids:
+    - ev-a663d48981935b72
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、买方类型或计费方式，无法判断钱来自 to B 电商团队、to C 小卖家还是 to VC；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-a663d48981935b72
+  - gate: truth
+    status: insufficient
+    reason: AI 读取哪些字段、回复是否需人工确认、最终交付形态均未公开，无法核对回复能否确定性交付，也无法判断人工与自动化的安全边界。
+    evidence_ids:
+    - ev-a663d48981935b72
+  next_validation: 追踪 Sellio 官方定价页与客户案例，确认其 AI 代理处理的具体字段、人工确认环节与计费方式。
+  market: ''
+  job: 电商或线上业务的客服人员在共享收件箱里处理买家咨询与售后邮件，需要逐条阅读、判断并回复，Sellio 让 AI 代理先接收来信并生成回复草稿，团队在同一处查看和跟进。
+  job_en: Support staff at e-commerce or online businesses handle buyer inquiries and after-sales email
+    in a shared inbox, reading, judging and replying one by one; Sellio has AI agents receive incoming
+    messages and draft replies so the team reviews and follows up in one place.
+  pain: 公开材料只给出产品定位，未直接描述客服痛点；从工作流结构推理，共享收件箱模式下咨询逐条人工阅读与撰写回复，回复速度受人力与在线时段限制，重复性问题占用客服时间，这是电商客服的常见刚性负担，但缺少用户抱怨或案例佐证。
+  pain_en: Public material only gives the product positioning and does not directly describe the support
+    pain; by workflow inference, in a shared-inbox model each inquiry is read and answered manually, reply
+    speed is capped by staffing and online hours, and repetitive questions consume agent time — a common
+    rigid burden in e-commerce support, though user complaints or cases are absent.
+  current_alternative: 公开材料未说明替代方式；结构上团队此前应是用人工共享收件箱或帮助台软件逐条处理同一批咨询，AI 草稿环节此前由客服自己完成。
+  current_alternative_en: Public material does not state the alternative; structurally, teams previously
+    handled the same inquiries one by one in a manual shared inbox or helpdesk software, with the drafting
+    step done by agents themselves.
+  usage_reason: 推断：相较人工逐条撰写，Sellio 让 AI 代理先接收来信并生成回复，客服从“从零起草”变为“审阅与发送”，减少的是每条回复的起草负担；但 AI 读取哪些字段、是否需人工确认、交付形态均未公开，因此哪类客服会在什么情况下选择它仍属结构推断，缺少用户反馈佐证。
+  usage_reason_en: 'Inference: versus drafting each reply manually, Sellio has AI agents receive messages
+    and generate replies, shifting agents from drafting-from-scratch to review-and-send and cutting the
+    per-reply drafting burden; however which fields the AI reads, whether human confirmation is required,
+    and the delivery form are undisclosed, so which support teams choose it and when remains a structural
+    inference without user feedback.'

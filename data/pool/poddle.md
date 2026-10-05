@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/poddle-3
 summary: Swing your phone, play pickleball on any computer!
 first_seen: '2026-10-04T04:39:18Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

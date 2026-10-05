@@ -339,3 +339,59 @@
     in directly, cutting the steps developers spend implementing and debugging each piece, so developers
     building long-task agents who do not want to rebuild this infrastructure would adopt it at assembly
     time.'
+- id: req-full-hermes-jev-skills-2026-10-05
+  project_slug: hermes-jev-skills
+  level: full
+  reviewed_at: '2026-10-05T01:23:35Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长任务 agent 的上下文耗尽、模型路由与工具接入需手工拼装的问题，痛点来自 agent 工作流结构而非用户口述；不采用则开发者需自行实现压缩、记忆与路由，代价明确。属工作流结构推理，公开材料未给用户抱怨或失败频率。
+    evidence_ids:
+    - ev-fd518f81310538f6
+    - ev-b4c59d46367a07c0
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 911 持续增至 1015，说明英文生态开发者持续关注并把它纳入 agent 组装讨论；但公开材料没有 issue、discussion 或客户案例证明它已被长期留在工作流中，关注度不等于持续采用。
+    evidence_ids:
+    - ev-fd518f81310538f6
+    - ev-deda8b1aba1880ca
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能包，公开材料未披露定价、付费主体或商业路径，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-fd518f81310538f6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有仓库描述与收藏数，没有部署文档、可复现实测或 issue 记录，无法核验模型路由、压缩与浏览器操作在真实长任务中能否确定性交付，也看不到人工与安全边界。
+    evidence_ids:
+    - ev-b4c59d46367a07c0
+    - ev-deda8b1aba1880ca
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认技能包的实际安装方式、支持框架版本，以及是否有开发者报告在长任务中成功使用或遇到失败。
+  market: ''
+  job: 搭建 Hermes、Claude Code 或 Codex 智能体的开发者，在组装长任务 agent 时引入这套技能包，处理模型调用、上下文与记忆、技能选择以及电脑/浏览器操作等环节，目标是让
+    agent 在多步长任务中持续跑完而不是中途失忆或卡死。
+  job_en: Developers building Hermes, Claude Code, or Codex agents install this skill pack while assembling
+    a long-horizon agent, handling model routing, context and memory, skill selection, and computer/browser
+    actions, so the agent can keep executing multi-step tasks instead of losing context or stalling.
+  pain: 公开仓库说明指向长任务 agent 的典型摩擦：上下文窗口耗尽后需要压缩、模型选择与路由需要手工配置、技能选择与浏览器/电脑操作需要逐个接线；这些环节各自缺失都会让 agent 在长任务中中断或退化。这是从产品能力与
+    agent 工作流结构推出的痛点，公开材料未给出用户抱怨或失败频率的量化数据。
+  pain_en: 'The repository description points to typical long-horizon agent friction: context windows
+    fill and need compaction, model routing must be configured by hand, and skill selection plus browser/computer
+    actions must be wired individually; missing any of these breaks or degrades an agent mid-task. This
+    is inferred from product capability and agent workflow structure; public materials give no quantified
+    user complaints or failure rates.'
+  current_alternative: 开发者当前的替代做法是自行拼装：手写模型路由与降级逻辑、自己实现上下文压缩与记忆存储、逐个接入技能与浏览器/电脑操作工具，或直接依赖单一 agent 框架的默认行为。公开材料未说明这些替代方案的具体实现细节。
+  current_alternative_en: 'Developers today assemble this themselves: hand-written model routing and fallback
+    logic, self-built context compaction and memory storage, individually wired skills and browser/computer
+    tools, or simply relying on a single agent framework''s defaults. Public materials do not detail these
+    alternatives.'
+  usage_reason: 推断：相较自行拼装路由、压缩与工具接入，这套技能包把这些环节打包成可引入的现成组件，减少开发者逐项实现和调试的步骤；因此正在搭建 Hermes、Claude Code 或
+    Codex 长任务 agent、又不想从零写这些基础设施的开发者，会在组装阶段选择引入它。仓库收藏从 911 增至 1015 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: compared with hand-assembling routing, compaction, and tool wiring, this
+    skill pack packages those pieces as ready-to-import components, cutting the steps a developer must
+    implement and debug; therefore developers building long-horizon Hermes, Claude Code, or Codex agents
+    who do not want to write this infrastructure from scratch would adopt it at assembly time. Stars rising
+    from 911 to 1,015 shows attention, not sustained use.'

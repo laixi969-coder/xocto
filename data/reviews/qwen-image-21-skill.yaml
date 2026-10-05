@@ -263,3 +263,55 @@
     rewriting action, giving users spec-compliant text at the prompt-writing step and cutting repeated
     rewrites and doc-checking; this is an inference from product capability and task structure, not yet
     confirmed by user feedback.
+- id: req-full-qwen-image-21-skill-2026-10-05
+  project_slug: qwen-image-21-skill
+  level: full
+  reviewed_at: '2026-10-05T01:24:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Qwen-Image-2.1 用户写提示词不合官方规范、需反复试错的问题，多图编辑还要逐图整理指令；不采用则出图偏离预期、重复劳动。公开仓库说明其按阿里官方规范改写提示词，输入—改写—交付闭环清晰，属工作流结构推理，痛点刚性中等偏上。
+    evidence_ids:
+    - ev-18665a111858cca4
+    - ev-f53c69a51dd02335
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 126 增至 143，多日持续上升，说明有开发者持续关注并纳入工具链；但仅有收藏与复刻，缺少 issue、discussion 或使用反馈证明其被长期留在工作流中，共识强度有限。
+    evidence_ids:
+    - ev-18665a111858cca4
+    - ev-dc855d266926667d
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill，公开材料未见定价页、付费路径或买方信息；谁付钱、以何种方式变现尚不清楚，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-18665a111858cca4
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明它按官方规范改写提示词，未提供可复现的交付结果、失败率或人工边界说明；改写后画面是否稳定符合预期、多图编辑指令是否可靠，尚缺公开验证。
+    evidence_ids:
+    - ev-18665a111858cca4
+    - ev-881cc0cfb97f5cc0
+  next_validation: 追踪该仓库的 issue 与 discussion，确认用户实际用它替代了哪种提示词写法、是否出现改写失败或与官方规范不符的公开反馈。
+  market: ''
+  job: 使用 Qwen-Image-2.1 做文生图或多图编辑的设计、营销人员，在拿到模糊的中文创意描述或需要批量改图时，打开这个 skill，把原始需求交给它，由它按阿里官方规范改写成可直接投喂模型的提示词，再自行确认最终画面。
+  job_en: Designers and marketers using Qwen-Image-2.1 for text-to-image or multi-image editing open this
+    skill when they have a vague Chinese brief or a batch of edits to make; it rewrites the raw request
+    into model-ready prompts following Alibaba's official spec, and they then confirm the final image
+    themselves.
+  pain: Qwen-Image-2.1 对提示词结构有官方规范，普通用户凭直觉写的短句常导致出图偏离预期，需要反复试错重写；多图编辑时还要为每张图单独整理指令，重复劳动明显。
+  pain_en: Qwen-Image-2.1 has an official prompt structure; short intuitive prompts often produce off-target
+    images, forcing repeated trial-and-error rewrites, and multi-image editing requires separately preparing
+    instructions for each image, which is repetitive manual work.
+  current_alternative: 用户目前靠自行摸索提示词模板、在社区抄写示例、或反复手动改写重试来逼近官方规范，没有把规范固化成一个可复用的改写步骤。
+  current_alternative_en: Users currently grope for prompt templates, copy community examples, or manually
+    rewrite and retry to approximate the official spec, without a reusable rewrite step that encodes the
+    spec.
+  usage_reason: 推断：相较手动抄模板和反复试错，它把“按官方规范改写提示词”这一步固化为一次调用，用户只需给出原始描述即可拿到结构化提示词，省去自己对照规范逐项调整的负担；因此频繁用 Qwen-Image-2.1
+    出图、又不熟悉官方提示词规范的用户会在写提示词环节选择它。
+  usage_reason_en: 'Inference: compared with copying templates and trial-and-error, it fixes the ''rewrite
+    prompts per official spec'' step into a single call, so users only supply the raw description and
+    receive a structured prompt, removing the burden of manually aligning each item to the spec; thus
+    users who frequently generate with Qwen-Image-2.1 but are unfamiliar with the official prompt spec
+    would choose it at the prompt-writing step.'

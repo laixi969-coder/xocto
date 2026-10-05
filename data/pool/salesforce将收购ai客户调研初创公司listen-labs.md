@@ -1,6 +1,6 @@
 ---
 slug: salesforce将收购ai客户调研初创公司listen-labs
-name: Salesforce将收购AI客户调研初创公司Listen Labs
+name: Salesforce
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNazVwRklYaG9a
 summary: Salesforce将收购AI客户调研初创公司Listen Labs digitaltoday.co.kr
 first_seen: '2026-10-03T00:40:52Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Salesforce将收购AI客户调研初创公司Listen Labs
+# Salesforce
 
 Salesforce将收购AI客户调研初创公司Listen Labs digitaltoday.co.kr
 

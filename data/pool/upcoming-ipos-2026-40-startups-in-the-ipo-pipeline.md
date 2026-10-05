@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1wa2owUkNTZG1z
 summary: 'Upcoming IPOs 2026: 40+ Startups in the IPO Pipeline accessipos.com'
 first_seen: '2026-10-02T13:55:26Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

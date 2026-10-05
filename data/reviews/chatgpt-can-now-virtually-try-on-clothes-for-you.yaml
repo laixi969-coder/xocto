@@ -82,3 +82,90 @@
     keeps a saved list, removing the step of comparing model photos and size charts across product pages,
     which appeals to frequent online clothing buyers with high return rates; no usage or repeat-purchase
     data is disclosed.'
+- id: req-initial-chatgpt-can-now-virtually-try-on-clothes-for-you-2026-10-05
+  project_slug: chatgpt-can-now-virtually-try-on-clothes-for-you
+  level: initial
+  reviewed_at: '2026-10-05T00:56:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上买衣服看不到上身效果、尺码判断靠猜的需求，痛点真实且不采用要承担退换货成本；买方是消费者还是品牌尚未披露。
+    evidence_ids:
+    - ev-ebede98e77016cbe
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明功能上线，没有采用规模、使用频次或用户反馈，无法判断是否形成稳定使用习惯。
+    evidence_ids:
+    - ev-ebede98e77016cbe
+  - gate: model
+    status: insufficient
+    reason: 未披露该购物功能的定价、是否抽佣或向品牌收费，付费路径只能推断为电商导流或订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ebede98e77016cbe
+  - gate: truth
+    status: insufficient
+    reason: 试穿效果是否准确、是否真的降低退货率没有公开数据，交付确定性无法核对。
+    evidence_ids:
+    - ev-ebede98e77016cbe
+  next_validation: 收集 OpenAI 官方关于该购物功能的说明页或帮助文档，核对试穿功能的可用范围、是否收费及是否披露使用或转化数据。
+  market: ''
+  job: 线上买衣服的人在挑选服装和配饰时，需要先判断版型与上身效果，再决定是否下单或收藏。
+  job_en: Online clothes shoppers need to judge fit and how a garment looks on them before deciding to
+    buy or save it.
+  pain: 线上购物看不到上身效果，尺码与版型判断只能靠模特图、买家秀和退货，判断错了要付出退换货的时间与运费。
+  pain_en: Online shoppers cannot see how a garment sits on their own body, so fit judgments rely on model
+    photos, buyer photos and returns, and a wrong call costs time and shipping.
+  current_alternative: 现在多靠电商详情页模特图、买家秀、线下试衣间，或专门的虚拟试衣工具，来回切换应用并自行脑补效果。
+  current_alternative_en: Today people rely on model photos, buyer photos, physical fitting rooms, or
+    dedicated virtual try-on tools, switching apps and imagining the result themselves.
+  usage_reason: 相较翻模特图和买家秀，用户把自己的照片和商品交给 ChatGPT 后直接得到试穿效果图，省掉在多个应用间比对和脑补上身效果这一步；推断，因为公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with scrolling model and buyer photos, users hand their own photo and a product
+    to ChatGPT and get a try-on image directly, skipping the step of comparing across apps and imagining
+    the fit; inference, since no retention or repeat-use evidence is public.
+- id: req-full-chatgpt-can-now-virtually-try-on-clothes-for-you-2026-10-05
+  project_slug: chatgpt-can-now-virtually-try-on-clothes-for-you
+  level: full
+  reviewed_at: '2026-10-05T01:22:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上买衣服看不到上身效果、尺码版型靠猜的需求，判断错了要付退换货成本；公开材料只说明功能上线，未披露买方与付费方式，属工作流结构推理。
+    evidence_ids:
+    - ev-4172abec3009f25d
+    - ev-1873a99ea2f2988b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅说明 ChatGPT 具备对话与图像生成能力，没有该试穿功能的采用规模、使用频次或用户反馈，无法判断是否形成稳定使用习惯。
+    evidence_ids:
+    - ev-dd62bcbf36d22076
+  - gate: model
+    status: insufficient
+    reason: 未披露该购物功能的定价、是否抽佣或向品牌收费，付费路径只能推断为电商导流或订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4172abec3009f25d
+  - gate: truth
+    status: insufficient
+    reason: 试穿效果是否准确、是否真的降低退货率没有公开数据，交付确定性无法核对，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-1873a99ea2f2988b
+  next_validation: 收集 OpenAI 官方关于该购物功能的说明页或帮助文档，核对试穿功能的可用范围、是否收费及是否披露使用或转化数据。
+  market: ''
+  job: 线上买衣服的人在浏览服装或配饰商品时，把自己的照片和商品图交给 ChatGPT，生成试穿预览并把中意商品存入 Favorites，用于决定是否下单。
+  job_en: Online clothes shoppers browsing apparel or accessory listings hand their own photo and the
+    product image to ChatGPT, generate a try-on preview, and save liked items to Favorites to decide whether
+    to buy.
+  pain: 线上购物看不到衣服穿在自己身上的效果，版型与尺码只能靠模特图、买家秀猜测，判断错了要承担退换货的时间与运费。
+  pain_en: Online shoppers cannot see how a garment sits on their own body, so fit and size rely on model
+    and buyer photos; a wrong call costs return shipping and time.
+  current_alternative: 现在多靠电商详情页模特图、买家秀、线下试衣间，或专门的虚拟试衣工具，来回切换应用并自行脑补上身效果。
+  current_alternative_en: Today people rely on model photos, buyer photos, physical fitting rooms, or
+    dedicated virtual try-on tools, switching apps and imagining the result themselves.
+  usage_reason: 相较翻模特图和买家秀，用户把自己的照片和商品交给 ChatGPT 后直接得到试穿效果图，省掉在多个应用间比对和脑补上身效果这一步；这是基于产品能力与任务结构的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with scrolling model and buyer photos, users hand their own photo and a product
+    to ChatGPT and get a try-on image directly, skipping the step of comparing across apps and imagining
+    the fit; this is an inference from product capability and task structure, since no retention or repeat-use
+    evidence is public.

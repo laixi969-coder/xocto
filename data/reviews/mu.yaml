@@ -405,3 +405,51 @@
     calls through a small fast judge first, cutting unnecessary large-model calls and thus the waiting
     and inference cost per task; developers sensitive to latency or cost running a local coding agent
     may choose it for this reason. Public materials contain no user feedback or case confirming this motive.'
+- id: req-full-mu-2026-10-05
+  project_slug: mu
+  level: full
+  reviewed_at: '2026-10-05T01:24:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理每次调用都走大模型带来的延迟与 token 成本，以及动手前缺少轻量判断的问题；开发者已有使用编码代理的行为，痛点刚性来自成本与速度，交付为代码变更。属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-47355d53864ccdcc
+    - ev-4ec491b96ec874cf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 324 增至 348，说明社区持续关注，但星标属关注度信号，不能证明目标开发者已把它留在日常编码工作流中；缺少 issue、discussion 或使用反馈。
+    evidence_ids:
+    - ev-47355d53864ccdcc
+    - ev-4ec491b96ec874cf
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费主体或单位经济；谁付钱、按什么计费无法从公开材料判断，这是商业证据缺口而非需求不成立。
+    evidence_ids:
+    - ev-47355d53864ccdcc
+  - gate: truth
+    status: insufficient
+    reason: 小模型分流、大模型执行的设计贴近成本与速度目标，但缺少部署文档、可复现实测或用户反馈来核对代码变更能否稳定交付、以及人工确认边界如何落地。
+    evidence_ids:
+    - ev-47355d53864ccdcc
+  next_validation: 追踪 mu 官方仓库的 README、issue 与 discussion，核对它实际支持的语言与仓库规模、小模型分流的具体触发条件，以及是否有用户报告将其用于日常编码。
+  market: ''
+  job: 软件工程师在本地仓库中处理一个具体改动任务时，把代码库和任务交给 mu，由它先判断哪些调用是常规的、再让大模型执行实际改动，最终产出代码变更供开发者确认。
+  job_en: A software engineer working in a local repository hands a codebase and a task to mu, which first
+    decides which calls are routine and then lets the large model perform the actual edits, producing
+    code changes for the developer to confirm.
+  pain: 编码代理每次调用都走大模型，导致延迟与 token 成本高，且代理在动手前缺少轻量判断，容易在常规步骤上浪费昂贵推理；开发者要么忍受慢和贵，要么退回手动改代码。
+  pain_en: Coding agents route every call through a large model, producing high latency and token cost,
+    and they act without a lightweight pre-judgment, so routine steps waste expensive inference; developers
+    either tolerate slow, costly runs or fall back to editing code by hand.
+  current_alternative: 开发者目前直接用单一大型编码代理（如通用 CLI/IDE 代理）逐步执行，或手动完成常规改动；公开材料未说明 mu 具体替代了哪一款工具。
+  current_alternative_en: Developers currently use a single large coding agent (e.g. general CLI/IDE agents)
+    step by step, or make routine edits by hand; public materials do not say which specific tool mu replaces.
+  usage_reason: 推断：相较每次调用都走大模型的旧做法，mu 先用小而快的判断模型分流常规调用，把昂贵推理留给真正需要的工作，从而减少单次任务的等待与 token 消耗；对在意代理运行成本和响应速度、且任务以常规改动为主的开发者，这构成选择它的理由。公开材料尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus routing every call through the large model, mu first uses a small
+    fast judge to triage routine calls, reserving expensive inference for work that needs it, cutting
+    per-task waiting and token spend; this is a reason for developers who care about agent cost and latency
+    and whose tasks are mostly routine edits. Public materials show no user feedback or retention evidence
+    yet.'

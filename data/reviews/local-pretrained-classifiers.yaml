@@ -80,3 +80,44 @@
   usage_reason: 缺少可归因到该项目的功能说明、用户反馈或采用证据，无法解释开发者为何在什么情况下选择它，因此使用理由无法成立。
   usage_reason_en: There is no attributable feature description, user feedback, or adoption evidence for
     this project, so why a developer would choose it and in what situation cannot be explained.
+- id: req-full-local-pretrained-classifiers-2026-10-05
+  project_slug: local-pretrained-classifiers
+  level: full
+  reviewed_at: '2026-10-05T01:23:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地分类不依赖 GPU 的问题，但公开材料未说明支持的任务、输入输出与交付结果，连需求与痛点都还原不出，无法判断刚性。
+    evidence_ids:
+    - ev-dd0d91e99010509e
+    - ev-f03651803c17aed1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方仓库 README 与 issue/discussion，确认支持的任务类型、输入输出格式与实际分类效果。
+  market: ''
+  job: 开发者在需要把一批文本或数据分成固定类别、又不愿把数据发到云端时，用它在本地跑分类。
+  job_en: A developer runs classification locally when a batch of text or data must be sorted into fixed
+    categories and cannot be sent to the cloud.
+  pain: 公开材料只给出“不需要 GPU”这一点，未说明支持哪些分类任务、输入输出格式，也未给出任何用户抱怨或采用行为，痛点强度无法确认。
+  pain_en: The public material only states 'no GPU needed'; it does not say which classification tasks
+    are supported or what the input/output format is, and shows no user complaints or adoption behavior,
+    so pain intensity cannot be confirmed.
+  current_alternative: 调用云端大模型 API，或用传统机器学习库自行训练小模型。
+  current_alternative_en: Calling a cloud large-model API, or training a small model yourself with traditional
+    machine-learning libraries.
+  usage_reason: 现有证据全部是本地天气雷达、Local WP 安装文档和 Anna TX 本地新闻等无关页面，没有任何可归因到该项目的功能说明或用户反馈，无法解释开发者为何选择它（推断）。
+  usage_reason_en: All available evidence is unrelated pages (local weather radar, Local WP install docs,
+    Anna TX local news); there is no project-attributable feature description or user feedback, so why
+    a developer would choose it cannot be explained (inference).

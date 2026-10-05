@@ -21,7 +21,7 @@ canonical_url: https://aviationa2z.com/index.php/2026/08/19/two-american-airline
 summary: Two American Airlines Flights End Up with the Same Flight Numbers
 first_seen: '2026-10-03T19:07:18Z'
 last_seen: '2026-10-05T00:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

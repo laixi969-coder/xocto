@@ -331,3 +331,52 @@
     and iteration on a local canvas, removing the upload-wait and quota-limit step, making it more attractive
     to editors who care about cost, speed and keeping data local; the author''s stated pain supports this
     motivation, though sustained-use evidence is still missing.'
+- id: req-full-beeftv-2026-10-05
+  project_slug: beeftv
+  level: full
+  reviewed_at: '2026-10-05T01:22:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频剪辑者用AI处理素材时被云端Agent收费高、速度慢、限制多的问题，作者公开表达受够这些限制并自建开源本地版；痛点具体，本地优先交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-21c97c229095ae46
+    - ev-18b8d9df4c13ccdb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从635升至808，说明开发者社区持续关注；但收藏不等于目标剪辑者已把它留在工作流，缺使用反馈或复购证据。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+    - ev-8a497dc7dbca8c62
+  - gate: model
+    status: insufficient
+    reason: 开源本地项目未见定价页、付费主体或单位经济；钱可能来自捐赠、托管服务或企业定制，这是判断而非已验证事实，存在每日优鲜式只靠关注续命的风险。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+  - gate: truth
+    status: insufficient
+    reason: 本地优先承诺能否确定性交付、AI剪辑动作与人工边界如何划分，公开材料只有一句定位和进度60/100%，缺可复现的部署或输出证据。
+    evidence_ids:
+    - ev-21c97c229095ae46
+    - ev-18b8d9df4c13ccdb
+  next_validation: 追踪BeefTV仓库的README、release与issue/discussion，确认本地部署方式、实际剪辑动作与用户反馈，作为交付确定性的公开证据。
+  market: ''
+  job: 视频剪辑者或AIGC学习者在本地整理和剪辑视频素材时，打开BeefTV，把素材交给本地AI工作台处理，产出剪辑结果；具体输入格式、执行哪一步剪辑动作、交付何种成片形态，公开材料未给出细节。
+  job_en: Video editors or AIGC learners open BeefTV locally to organize and edit footage, handing material
+    to a local AI workspace to produce an edit; the exact input formats, edit steps, and output form are
+    not detailed in public materials.
+  pain: 作者公开表示受够了现有视频Agent又贵又慢、还各种限制，这是可引用的痛点陈述；但具体贵多少、慢在哪一步、限制是什么，公开材料未量化。
+  pain_en: The author publicly states frustration that existing video agents are expensive, slow, and
+    restrictive; this is a citable pain statement, though the exact cost, slow step, and restriction are
+    not quantified publicly.
+  current_alternative: 当前替代是云端视频Agent或LibTV类在线剪辑工具，用户需上传素材、按量付费并接受平台限制；BeefTV以开源本地版作为替代路径。
+  current_alternative_en: The current alternative is cloud video agents or online editors like LibTV,
+    where users upload footage, pay per use, and accept platform limits; BeefTV positions an open-source
+    local version as the alternative.
+  usage_reason: 推断：相较云端Agent，BeefTV把处理放在本地，用户不必上传素材、不必按次付费，也绕开平台限制，因此对在意素材隐私、成本或调用限制的剪辑者更有吸引力；这是基于产品定位与作者痛点的结构推理，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus cloud agents, BeefTV processes locally, so users avoid uploading
+    footage, per-use fees, and platform limits, which appeals to editors concerned about privacy, cost,
+    or usage caps; this is structural reasoning from positioning and the author''s stated pain, not confirmed
+    by user feedback.'

@@ -660,3 +660,42 @@
   usage_reason: 公开代码仓库有 48 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 48 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-applied-micro-skills-2026-10-05
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-10-05T01:22:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 applied-micro-skills 仓库的 README、issue 与 discussion，确认其复现性审计与 Stata/WRDS 流程的具体交付结果，以及是否披露定价或客户案例。
+  market: ''
+  job: 应用微观经济学研究者在处理数据、跑回归到产出论文表格时，使用 Claude Code 与 Codex 技能完成可复现性审计、LLM 流水线方法、事件研究、WRDS 与 Stata 操作，并核对数字能否复现。
+  job_en: Applied microeconomics researchers use Claude Code and Codex skills to run reproducibility audits,
+    LLM-pipeline methods, event studies, WRDS and Stata operations, and check that numbers reproduce,
+    from data and regressions to paper tables.
+  pain: 公开材料未提供任何用户痛点证据；无法确认研究者当前在复现性审计、Stata 与 WRDS 流程中遇到的具体摩擦、发生频率或不解决的后果。
+  pain_en: No public user pain evidence is provided; it cannot be confirmed what specific friction, frequency,
+    or consequence researchers face in reproducibility auditing, Stata, and WRDS workflows.
+  current_alternative: 公开材料未说明研究者目前如何完成数据到论文表的流程，也未说明该技能实际替代了什么工具或手工步骤。
+  current_alternative_en: Public materials do not state how researchers currently go from data to paper
+    tables, nor what tool or manual steps these skills actually replace.
+  usage_reason: 公开代码仓库有 48 个收藏，说明开发者注意到该项目；但无用户反馈或案例说明它相较旧做法减少了哪一步负担，无法解释研究者为何会选择它。
+  usage_reason_en: The public repository has 48 stars, showing developer attention; but no user feedback
+    or case explains which step it reduces versus the old approach, so it cannot explain why researchers
+    would choose it.

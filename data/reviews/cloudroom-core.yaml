@@ -1,0 +1,90 @@
+- id: req-initial-cloudroom-core-2026-10-05
+  project_slug: cloudroom-core
+  level: initial
+  reviewed_at: '2026-10-05T00:56:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理运行环境分散、不可审计、无法并行的问题，痛点来自团队实际使用代理后的运维负担，旧替代是各自本机跑或自拼容器。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  - gate: consensus
+    status: insufficient
+    reason: 252 星与 38 个 fork 只说明有开发者关注，没有部署案例或团队采用证据，无法判断是否进入真实工作流。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，公开材料没有托管版定价或商业支持方案，收入来自服务、托管还是捐赠无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  - gate: truth
+    status: insufficient
+    reason: 隔离方式、权限模型和会话持久化的确定性未在公开材料中说明，安全边界无法核对。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  next_validation: 收集 cloudroom-core 仓库的 README、部署文档与 issue/discussion，确认隔离与权限模型，以及是否提供托管版或商业支持。
+  market: ''
+  job: 平台工程师或研发团队负责人需要让多个编码代理在受控的云端环境里跑，而不是散落在各人的笔记本上，以便统一管理运行环境和访问权限。
+  job_en: A platform engineer or engineering lead needs several coding agents to run in a controlled cloud
+    environment instead of scattered across individual laptops, so runtimes and access permissions can
+    be managed centrally.
+  pain: 代理跑在个人机器上时，环境不一致、任务无法并行、机器一关任务就断，团队也没法统一审计谁让代理做了什么。
+  pain_en: When agents run on personal machines, environments diverge, tasks cannot run in parallel, closing
+    the laptop kills the task, and the team cannot audit who had an agent do what.
+  current_alternative: 旧做法是各自在本机跑代理，或者用通用容器与 CI 自己拼一套运行环境。
+  current_alternative_en: The old behaviour is running agents locally on each machine, or hand-rolling
+    a runtime with generic containers and CI.
+  usage_reason: 推断：自托管运行时省掉的是团队自己拼容器、权限和会话持久化这一步，因此有合规要求、又已经在用多个编码代理的研发团队会选择它；仓库有 252 星和 38 个 fork，说明有开发者关注，但没有部署量或留存证据。
+  usage_reason_en: 'Inference: a self-hosted runtime removes the step of hand-assembling containers, permissions
+    and session persistence, so engineering teams with compliance constraints that already use several
+    coding agents would choose it; the repository shows 252 stars and 38 forks, indicating developer attention,
+    but there is no deployment or retention evidence.'
+- id: req-full-cloudroom-core-2026-10-05
+  project_slug: cloudroom-core
+  level: full
+  reviewed_at: '2026-10-05T01:22:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理运行环境分散、不可审计、无法并行的问题，痛点来自团队实际使用代理后的运维负担，旧替代是各自本机跑或自拼容器；不解决则环境不一致、任务随笔记本关闭而中断。这是从产品说明作出的工作流结构推理。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  - gate: consensus
+    status: insufficient
+    reason: 252 星只说明有开发者关注，公开材料没有部署案例、issue 讨论或团队采用记录，无法判断它是否已进入真实工作流。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，公开材料没有托管版定价或商业支持方案，收入来自服务、托管还是捐赠无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  - gate: truth
+    status: insufficient
+    reason: 隔离方式、权限模型和会话持久化的确定性未在公开材料中说明，安全与人工边界无法核对。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  next_validation: 收集 cloudroom-core 仓库的 README、部署文档与 issue/discussion，确认隔离与权限模型、会话持久化方式，以及是否提供托管版或商业支持。
+  market: ''
+  job: 平台工程师或研发团队负责人要让 Claude Code、Codex、Pi 等多个编码代理在受控的云端环境里跑，而不是散落在各人笔记本上，以便统一管理运行环境、访问权限和会话生命周期。
+  job_en: A platform engineer or engineering lead needs several coding agents such as Claude Code, Codex
+    and Pi to run in a controlled cloud environment instead of scattered across individual laptops, so
+    runtimes, access permissions and session lifecycles can be managed centrally.
+  pain: 代理跑在个人机器上时环境不一致、任务无法并行、合上笔记本任务就断，团队也无法统一审计谁让代理做了什么、访问了哪些代码。
+  pain_en: When agents run on personal machines, environments diverge, tasks cannot run in parallel, closing
+    the laptop kills the task, and the team cannot audit who had an agent do what or which code it touched.
+  current_alternative: 旧做法是各自在本机跑代理，或者用通用容器与 CI 自己拼一套运行环境。
+  current_alternative_en: The old behaviour is running agents locally on each machine, or hand-rolling
+    a runtime with generic containers and CI.
+  usage_reason: 推断：相较自己用通用容器和 CI 拼运行环境，cloudroom-core 直接提供可自托管的 Rust 运行时来承载这些编码代理会话，省掉自建隔离、会话持久化和权限管理这一步，因此有合规要求、又已在用多个编码代理的研发团队会选择它；仓库
+    252 星说明有开发者关注，但没有部署量或留存证据。
+  usage_reason_en: 'Inference: versus hand-assembling a runtime with generic containers and CI, cloudroom-core
+    directly provides a self-hostable Rust runtime that hosts these coding-agent sessions, removing the
+    step of building isolation, session persistence and permission management; engineering teams with
+    compliance constraints that already use several coding agents would choose it. The repository''s 252
+    stars indicate developer attention, but there is no deployment or retention evidence.'

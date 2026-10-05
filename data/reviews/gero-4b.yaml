@@ -1,0 +1,81 @@
+- id: req-initial-gero-4b-2026-10-05
+  project_slug: gero-4b
+  level: initial
+  reviewed_at: '2026-10-05T00:56:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只写“输出校准概率、不生成文本”，未说明解决谁的什么决策任务、不采用会失去什么，需求与痛点都写不出来。
+    evidence_ids:
+    - ev-acd4849f6185913a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料仅 2 个点赞，无采用或讨论证据。
+    evidence_ids:
+    - ev-acd4849f6185913a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无定价、买方或付费路径信息。
+    evidence_ids:
+    - ev-acd4849f6185913a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，校准方法与适用边界均未公开。
+    evidence_ids:
+    - ev-acd4849f6185913a
+  next_validation: 收集该模型的官方说明或仓库文档，核对它面向的具体决策任务、输入格式与校准评估结果。
+  market: ''
+  job: 需要为某个判断取一个可比较数值的使用者，把情境材料交给模型，希望得到校准过的概率而非一段文字。
+  job_en: A user who needs a comparable number for a judgment hands a situation to the model, expecting
+    a calibrated probability rather than prose.
+  pain: 现有对话模型只给文字，概率表述含糊且未校准，难以直接用于打分或风险判断。
+  pain_en: Existing chat models return prose with vague, uncalibrated probability statements, hard to
+    use directly for scoring or risk judgment.
+  current_alternative: 用通用对话模型自行估计概率，或依赖人工经验、统计模型给出数值。
+  current_alternative_en: Estimating probabilities with a general chat model, or relying on human judgment
+    and statistical models for numbers.
+  usage_reason: 推断：相较让对话模型写一段判断再自己折算成数字，它直接输出概率值，省掉人工折算这一步；但公开材料未说明适用任务与校准依据，哪类用户会选它尚不清楚。
+  usage_reason_en: 'Inference: instead of asking a chat model for a judgment and converting it into a
+    number yourself, it outputs probabilities directly, removing that conversion step; public material
+    does not state applicable tasks or calibration basis, so which users would choose it is unclear.'
+- id: req-full-gero-4b-2026-10-05
+  project_slug: gero-4b
+  level: full
+  reviewed_at: '2026-10-05T01:23:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只写“输出校准概率、不生成文本”，未说明解决谁的什么决策任务、不采用会失去什么，需求与痛点都写不出来。
+    evidence_ids:
+    - ev-acd4849f6185913a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该模型的官方说明或仓库文档，核对它面向的具体决策任务、输入格式与校准评估结果。
+  market: ''
+  job: 需要为某个判断取一个可比较数值的使用者，把情境材料交给模型，希望得到校准过的概率而非一段文字。
+  job_en: A user who needs a comparable number for a judgment hands a situation to the model, expecting
+    a calibrated probability rather than prose.
+  pain: 现有对话模型只给文字，概率表述含糊且未校准，难以直接用于打分或风险判断。
+  pain_en: Existing chat models return prose with vague, uncalibrated probability statements, hard to
+    use directly for scoring or risk judgment.
+  current_alternative: 用通用对话模型自行估计概率，或依赖人工经验、统计模型给出数值。
+  current_alternative_en: Estimating probabilities with a general chat model, or relying on human judgment
+    and statistical models for numbers.
+  usage_reason: 推断：相较让对话模型写一段判断再自己折算成数字，它直接输出概率值，省掉人工折算这一步；但公开材料未说明适用任务与校准依据，哪类用户会选它尚不清楚。
+  usage_reason_en: 'Inference: instead of asking a chat model for a judgment and converting it into a
+    number yourself, it outputs probabilities directly, removing that conversion step; public material
+    does not state applicable tasks or calibration basis, so which users would choose it is unclear.'
