@@ -25,14 +25,20 @@ canonical_url: https://openai.com/index/practical-guide-building-gpt-6
 summary: Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills,
   coordinate tools, and prepare workflows for production.
 first_seen: '2026-10-02T16:15:00Z'
-last_seen: '2026-10-03T01:12:55Z'
-status: market_context
+last_seen: '2026-10-05T00:56:27Z'
+status: pending_filter
 sources:
 - officialfeeds
+- marketfeeds
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/practical-guide-building-gpt-6
   seen_at: '2026-10-03T01:12:55Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/10/501451.html
+  seen_at: '2026-10-05T00:56:27Z'
   metrics: {}
   kind: news
 ---

@@ -26,12 +26,13 @@ url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from
 canonical_url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from
 summary: I'm sorry, you're not going to die from an AI-engineered supervirus
 first_seen: '2026-09-10T01:02:44Z'
-last_seen: '2026-09-25T00:33:43Z'
+last_seen: '2026-10-05T00:56:35Z'
 status: pending_filter
 sources:
 - hackernews
 - officialfeeds
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from
@@ -69,6 +70,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/
   seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMicEFVX3lxTE8taEpPeXgzVmZvdDhsOF9aY2V1MWtCMkZqbXdraDZJYUVlcGZ1ekxYMGpzYndlSTY0d2dBSXVGbFdMSUpESlRZXzNucXJ5RnlhZ19tN2prUVRualFVX2tUTnZUM0xhZXhvOUlDRHhRdnk?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
   kind: news
 ---

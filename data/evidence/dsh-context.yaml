@@ -2491,3 +2491,46 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-27cf109d9f233bd4
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/awwwards-mcp
+  title: Awwwards-mcp
+  published_at: '2026-09-18T10:57:09Z'
+  collected_at: '2026-10-05T00:56:02Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cursor, OpenCode,
+    ZCode…) design inspiration from award-winning websites — search with real screenshots, pull design
+    DNA, capture and record live sites. A Mobbin alternative. No API key. | repository stars: 96'
+- id: ev-572fbac9677dd6c4
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@intellmedia/basecoat-ui-mcp
+  title: basecoat-ui-mcp
+  published_at: '2026-09-24T08:41:32Z'
+  collected_at: '2026-10-05T00:56:02Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Offline MCP server for Basecoat UI (shadcn/ui look, no React): templates, macro layouts, theming/dark-mode
+    contract, static validation. | repository stars: 46'
+- id: ev-5151b4da072ee614
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-claude-style
+  title: dsh-claude-style
+  published_at: '2026-09-19T18:51:52Z'
+  collected_at: '2026-10-05T00:56:02Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Claude Code Desktop theme for DeepSeek Harness｜ 为 DeepSeek Harness 网页 GUI 打造的 Claude Code 桌面主题
+    | repository stars: 89'
+- id: ev-72377b0b1bb4aea8
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-knit
+  title: dsh-knit
+  published_at: '2026-09-15T16:59:26Z'
+  collected_at: '2026-10-05T00:56:02Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: '面向 DeepSeek Harness 的任务上下文检索：根据当前对话，从项目工作区找到最相关的上下文，组织为主要 / 辅助 / 相关内容，并通过 Knit 面板与 knit_docs
+    提供给人和 Agent。纯本地、确定性、零模型调用、零网络。  Task-aware workspace context retrieval for DeepSeek Harness. Knit
+    finds the project context most relevant to the current task, organizes it into primary / supporting
+    / related context, and exposes the same context to humans a | repository stars: 46'

@@ -31,18 +31,18 @@ canonical_url: https://louis-cfm.github.io/coucou
 summary: A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps
   an eye on your Claude Code sessions.
 first_seen: '2026-09-27T21:54:12Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://louis-cfm.github.io/coucou/
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 3222
-    forks: 501
-    open_issues: 125
+    stars: 3467
+    forks: 540
+    open_issues: 130
   kind: product
 ---
 

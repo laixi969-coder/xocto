@@ -29,17 +29,17 @@ url: https://github.com/nicobrenner/jeffy
 canonical_url: https://github.com/nicobrenner/jeffy
 summary: GPU not needed
 first_seen: '2026-10-03T20:19:09Z'
-last_seen: '2026-10-04T00:37:53Z'
+last_seen: '2026-10-05T00:55:58Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/nicobrenner/jeffy
-  seen_at: '2026-10-04T00:37:53Z'
+  seen_at: '2026-10-05T00:55:58Z'
   metrics:
     points: 8
-    comments: 5
+    comments: 6
   kind: product
 ---
 

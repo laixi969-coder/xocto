@@ -21,18 +21,18 @@ canonical_url: https://github.com/y0usaf/pi-jev
 summary: 'TypeSafe Jev as a decision layer for the Pi coding agent: a measured tool-call gate plus jev_ask
   for typed, calibrated answers'
 first_seen: '2026-09-16T05:57:10Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/y0usaf/pi-jev
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 155
+    stars: 157
     forks: 13
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

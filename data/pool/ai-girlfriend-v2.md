@@ -35,17 +35,17 @@ canonical_url: https://github.com/Work-Fisher/ai-girlfriend-v2
 summary: Windows AI companion with DSH long-term memory, local voice cloning and optional WSL2 digital
   human.
 first_seen: '2026-09-19T08:43:16Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Work-Fisher/ai-girlfriend-v2
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 53
-    forks: 11
+    stars: 55
+    forks: 12
     open_issues: 0
   kind: product
 ---

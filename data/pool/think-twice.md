@@ -20,17 +20,17 @@ url: https://think-twice.me/public/rely/
 canonical_url: https://think-twice.me/public/rely
 summary: Factorio but with unreliable components
 first_seen: '2026-10-03T15:19:49Z'
-last_seen: '2026-10-04T00:37:53Z'
+last_seen: '2026-10-05T00:55:58Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://think-twice.me/public/rely/
-  seen_at: '2026-10-04T00:37:53Z'
+  seen_at: '2026-10-05T00:55:58Z'
   metrics:
     points: 15
-    comments: 17
+    comments: 19
   kind: product
 ---
 

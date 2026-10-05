@@ -33,16 +33,16 @@ canonical_url: https://github.com/aa2246740/dsh-model-fusion
 summary: 'Fusion for DeepSeek Harness: a frontier Lead plans and reviews, a much cheaper Sidekick writes
   the code — frontier results at a discount.'
 first_seen: '2026-09-27T08:41:06Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aa2246740/dsh-model-fusion
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 47
+    stars: 50
     forks: 4
     open_issues: 4
   kind: product

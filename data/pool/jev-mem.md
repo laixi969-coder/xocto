@@ -18,12 +18,14 @@ regions_en: []
 open_source: true
 url: https://huggingface.co/spaces/libingzheren/Jev-Mem
 canonical_url: https://huggingface.co/spaces/libingzheren/Jev-Mem
-summary: ''
+summary: jevmem saves the decisions, rules and failed approaches from your Claude Code chats to JEVMEM.md
+  in your repo, and brings the relevant ones back next session.
 first_seen: '2026-09-21T18:16:22Z'
-last_seen: '2026-09-22T00:50:49Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: rejected
 sources:
 - huggingface
+- github
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/libingzheren/Jev-Mem
@@ -31,11 +33,19 @@ sightings:
   metrics:
     likes: 3
   kind: product
+- source: github
+  url: https://avinash-jetwani.github.io/jevmem/
+  seen_at: '2026-10-05T00:56:02Z'
+  metrics:
+    stars: 117
+    forks: 7
+    open_issues: 9
+  kind: product
 ---
 
 # Jev-Mem
 
-_（源没给简介）_
+jevmem saves the decisions, rules and failed approaches from your Claude Code chats to JEVMEM.md in your repo, and brings the relevant ones back next session.
 
 ## 笔记
 

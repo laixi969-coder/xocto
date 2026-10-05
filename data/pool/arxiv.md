@@ -22,7 +22,7 @@ url: https://arxiv.org/abs/2609.15369
 canonical_url: https://arxiv.org/abs/2609.15369
 summary: Training a model to identify AI web content from structure alone
 first_seen: '2026-09-22T13:00:49Z'
-last_seen: '2026-10-03T01:12:56Z'
+last_seen: '2026-10-05T00:55:58Z'
 status: market_context
 sources:
 - hackernews
@@ -47,6 +47,13 @@ sightings:
   seen_at: '2026-10-03T01:12:56Z'
   metrics: {}
   kind: news
+- source: hackernews
+  url: https://arxiv.org/abs/2608.08253
+  seen_at: '2026-10-05T00:55:58Z'
+  metrics:
+    points: 5
+    comments: 0
+  kind: product
 ---
 
 # arXiv

@@ -43,14 +43,20 @@ summary: Suno is branching out from the world of AI music, launching a new featu
   web and mobile platforms, and allows you to simultaneously generate voiceovers and background music
   to accompany them. "Music will always be at […]
 first_seen: '2026-10-02T09:42:19Z'
-last_seen: '2026-10-03T01:12:56Z'
-status: queued
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability
   seen_at: '2026-10-03T01:12:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQazY5N3dRX2dlYUpHZHp6Qkl0MjlENmtJZzEyajVyY2otNjBvMmdxSG10LURhOVpTWmZNOF9OVkVnZ250ZEJzcVZUM05LUjVVc2lvTGQ2UFk3NXJFZmp6YnhnSWJzVjZjbFlxNUFJaU56SERKVDM2bkFyVU54Q0E2RTFUTS03bE8tN2RjR3dhLTYzZ0tRSnc?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
   kind: news
 ---

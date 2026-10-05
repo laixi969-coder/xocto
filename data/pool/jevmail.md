@@ -37,16 +37,16 @@ summary: Open-source AI email triage for Gmail. Sorts your inbox into Needs repl
   and Spam with Jev, TypeSafe AI's decision model, via Vercel AI Gateway. Read-only, runs locally, 1,000
   emails in about a minute for 3 cents.
 first_seen: '2026-09-19T17:07:03Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/fazlerocks/jevmail
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 92
+    stars: 93
     forks: 6
     open_issues: 1
   kind: product

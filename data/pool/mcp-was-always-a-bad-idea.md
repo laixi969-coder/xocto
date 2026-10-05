@@ -35,8 +35,8 @@ summary: "My comment  on  MCP was always a bad idea?  — Hacker News.  This art
   \ coding agents don't need it misses out on all of the other things we might want to build. \n    \n\
   \    \n         Tags:  hacker-news ,  model-context-protocol"
 first_seen: '2026-09-20T20:24:41Z'
-last_seen: '2026-09-28T00:47:18Z'
-status: market_context
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -49,6 +49,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMifEFVX3lxTFBsaVhNdGpWbEFySHNJaWo4aG5HLVlxakg5TTlhVDBqLVBCU0NQQlJrZWlyaHAwVHduZ0dIUk9hWlFVQmRSNGtTSzZjLUhiS20zNGF1cmtWQ2xfUTdVT0J4cnlCR1BTOFVlX3BIaEYyOXMzZXhBQ0loZFVsV2w?oc=5
   seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTE44WjlMcGRmRUstejJtVDZSa3JFRm82bFVmS01JQ2hkUk1UdTJEQ3ZsZURIT2p3YnlhR0g3cUZVX3JjMURMdEhaS0ViT3NRWmx0NTFmdnQzbUxNOFVQZmNRb0xseV8yUjB1TXdqVFZXUHA0ODJzOE96THozTEY?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
   kind: news
 ---

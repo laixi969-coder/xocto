@@ -25,17 +25,17 @@ url: https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-
 canonical_url: https://neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases
 summary: Pop!_OS bans AI-generated code from much of its codebase
 first_seen: '2026-10-03T17:57:03Z'
-last_seen: '2026-10-04T00:37:53Z'
-status: market_context
+last_seen: '2026-10-05T00:55:58Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/
-  seen_at: '2026-10-04T00:37:53Z'
+  seen_at: '2026-10-05T00:55:58Z'
   metrics:
-    points: 94
-    comments: 144
+    points: 116
+    comments: 166
   kind: news
 ---
 

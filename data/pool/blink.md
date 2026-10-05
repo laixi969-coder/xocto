@@ -28,16 +28,16 @@ url: https://github.com/ellipsis-dev/blink
 canonical_url: https://github.com/ellipsis-dev/blink
 summary: Codebase search powered by Jev from @typesafe-ai
 first_seen: '2026-09-16T14:30:49Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ellipsis-dev/blink
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 93
+    stars: 94
     forks: 10
     open_issues: 1
   kind: product

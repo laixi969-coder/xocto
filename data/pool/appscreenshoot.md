@@ -40,16 +40,16 @@ summary: "我是一个前前端，之前几乎没怎么开发过手机端客户�
   \ https://appscreenshoot.com) ，我计划未来支持 MCP 的调用，可以让 Codex 直接远程调用网站提供的模板，多语言都可以自动完成，让 Codex 来操作 Simulator\
   \ 自动截屏多语言的屏幕，这样可以节省大量的人力。\r\n目前网站完全免费，欢迎试用，留言建议我会及时采纳。"
 first_seen: '2026-10-03T12:50:59Z'
-last_seen: '2026-10-04T00:37:51Z'
+last_seen: '2026-10-05T00:55:56Z'
 status: queued
 sources:
 - v2ex
 sightings:
 - source: v2ex
   url: https://appscreenshoot.com
-  seen_at: '2026-10-04T00:37:51Z'
+  seen_at: '2026-10-05T00:55:56Z'
   metrics:
-    comments: 0
+    comments: 1
   kind: product
 ---
 

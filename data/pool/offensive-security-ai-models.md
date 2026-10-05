@@ -34,17 +34,17 @@ url: https://github.com/JoasASantos/Offensive-Security-AI-Models
 canonical_url: https://github.com/JoasASantos/Offensive-Security-AI-Models
 summary: Uncensored AI models or those fine-tuned for cybersecurity tasks.
 first_seen: '2026-09-27T20:36:30Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JoasASantos/Offensive-Security-AI-Models
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 560
-    forks: 61
+    stars: 584
+    forks: 64
     open_issues: 0
   kind: product
 ---

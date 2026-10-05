@@ -31,18 +31,18 @@ url: https://github.com/glanderness/BeefTV
 canonical_url: https://github.com/glanderness/BeefTV
 summary: Local-first, lightweight, AI-native video workspace.
 first_seen: '2026-09-24T05:20:03Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/glanderness/BeefTV
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 788
-    forks: 162
-    open_issues: 19
+    stars: 808
+    forks: 166
+    open_issues: 18
   kind: product
 ---
 

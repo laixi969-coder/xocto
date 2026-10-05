@@ -21,7 +21,7 @@ canonical_url: https://abdelstark.github.io/awesome-typesafe
 summary: A curated list of official resources and community projects for TypeSafe, System One models,
   and Jev.
 first_seen: '2026-09-17T06:56:37Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: rejected
 sources:
 - github
@@ -36,11 +36,11 @@ sightings:
   kind: product
 - source: github
   url: https://abdelstark.github.io/awesome-typesafe-jev/
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 555
-    forks: 140
-    open_issues: 3
+    stars: 561
+    forks: 141
+    open_issues: 4
   kind: product
 ---
 

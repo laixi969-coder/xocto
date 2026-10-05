@@ -31,18 +31,18 @@ canonical_url: https://github.com/AskTheWay/dsh-auto-memory
 summary: 'Claude Code-style auto-memory plugin for DeepSeek Harness (dsh): typed memory files + MEMORY.md
   index auto-injected into the system prompt. File-only, no external services.'
 first_seen: '2026-09-22T12:05:34Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AskTheWay/dsh-auto-memory
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 76
-    forks: 3
-    open_issues: 2
+    stars: 85
+    forks: 4
+    open_issues: 3
   kind: product
 ---
 

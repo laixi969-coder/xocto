@@ -33,17 +33,17 @@ canonical_url: https://github.com/vedantdhande04/tweetytweets
 summary: 'Autonomous X/Twitter posting pipeline for your AI agent. No API key, no paid scrapers: researches
   your niche, writes in your voice, publishes through a real browser, and verifies its own posts.'
 first_seen: '2026-10-01T13:21:53Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/vedantdhande04/tweetytweets
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 48
-    forks: 8
+    stars: 54
+    forks: 10
     open_issues: 0
   kind: product
 ---

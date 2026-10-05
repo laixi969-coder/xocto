@@ -42,17 +42,17 @@ canonical_url: https://github.com/deepseek-ai/DeepEP-Ascend
 summary: A high-performance communication library for machine learning training and inference on Huawei
   Ascend NPUs.
 first_seen: '2026-09-30T00:44:59Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/deepseek-ai/DeepEP-Ascend
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 214
-    forks: 21
+    stars: 218
+    forks: 22
     open_issues: 3
   kind: product
 ---

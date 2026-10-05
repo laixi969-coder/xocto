@@ -36,18 +36,18 @@ canonical_url: https://github.com/rehan-remade/universal-modder
 summary: 'Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any
   PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.'
 first_seen: '2026-09-30T05:00:35Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/rehan-remade/universal-modder
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 2631
-    forks: 228
-    open_issues: 28
+    stars: 3198
+    forks: 281
+    open_issues: 19
   kind: product
 ---
 

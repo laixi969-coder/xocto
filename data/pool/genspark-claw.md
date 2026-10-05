@@ -22,16 +22,16 @@ summary: 🦀⚡ Community skill pack & CLI for Genspark Claw, OpenClaw & Hermes
   SKILL.md skills (deep research, reports, slides, browser automation, AI call prep), zero-dependency
   Node.js installer, MCP server, one-line install
 first_seen: '2026-09-26T02:18:05Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/breakstageaxe61/genspark-claw
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 75
+    stars: 90
     forks: 1
     open_issues: 0
   kind: product

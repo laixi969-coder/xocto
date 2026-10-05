@@ -25,14 +25,25 @@ summary: 'Google has reportedly been reaching out to a number of Hollywood''s bi
   exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon
   to the studios that would also […]'
 first_seen: '2026-09-01T22:50:29Z'
-last_seen: '2026-09-02T14:32:03Z'
-status: market_context
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai
   seen_at: '2026-09-02T14:32:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XaGdjSUdmenFwREo1eENYZ3V1YUxyUzdaZFN3N1EyTlVqUS1xM1M0SzJFNnNrOUoyQzJCZjhKY1F0aGJYaFpvbnBFbzdaMFJZQ0FUaVFpMi0?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOeGlncGhlQU10WG1PdmhscUlTaTVJTmI4NjlLRG5JbHhDT296ZU1NTzhiWW80RndlQTdCUVpiaTBfMENLTUlPSUszSmJXNTItOGE5WjREd2lsVmtiaGdZblMyYmVtaXY0dERObnB0ZkVtZDNWd0p0Nk8wRzFPSGxMcVpxNXdVMm5NVzhxdUJJdm9SNzdia19fRE1ZUG5NaC1zbGh4UGpObC01dFBMSDkydFB6YWNnSE9oV3BIdjM0WlZEVHYzZVYzV2ZlMWo?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
   kind: news
 ---

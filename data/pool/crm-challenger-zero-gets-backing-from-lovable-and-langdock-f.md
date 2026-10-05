@@ -43,8 +43,8 @@ summary: The founders of European AI startups Lovable and Langdock are among the
   startup which is challenging CRM (customer relationship management) giants Salesforce and HubSpot.Zero
   has ...
 first_seen: '2026-09-15T07:00:00Z'
-last_seen: '2026-10-04T00:37:53Z'
-status: watching
+last_seen: '2026-10-05T00:55:58Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -56,10 +56,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/
-  seen_at: '2026-10-04T00:37:53Z'
+  seen_at: '2026-10-05T00:55:58Z'
   metrics:
-    points: 72
-    comments: 79
+    points: 383
+    comments: 711
   kind: news
 ---
 

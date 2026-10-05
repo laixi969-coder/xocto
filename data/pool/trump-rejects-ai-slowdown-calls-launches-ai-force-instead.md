@@ -24,8 +24,8 @@ url: https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches
 canonical_url: https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead
 summary: The president offered few details on what his proposed new AI Force would do.
 first_seen: '2026-09-21T15:37:56Z'
-last_seen: '2026-10-01T01:19:01Z'
-status: rejected
+last_seen: '2026-10-05T00:56:27Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -48,6 +48,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/sifted-summit-meet-the-moderators/
   seen_at: '2026-10-01T01:19:01Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true
+  seen_at: '2026-10-05T00:56:27Z'
   metrics: {}
   kind: news
 ---

@@ -25,18 +25,18 @@ canonical_url: https://github.com/openai/sign-in-with-chatgpt-devkit
 summary: Sign-in with ChatGPT DevKit — local SDK, reusable React components, design assets, and the Paste
   Perfect desktop example.
 first_seen: '2026-09-29T01:43:11Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/sign-in-with-chatgpt-devkit
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 23
-    forks: 6
-    open_issues: 1
+    stars: 26
+    forks: 7
+    open_issues: 2
   kind: product
 ---
 

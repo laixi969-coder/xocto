@@ -36,14 +36,20 @@ canonical_url: https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-o
 summary: OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing
   and accessories using their own photos and save products they like to a Favorites library.
 first_seen: '2026-10-01T19:21:53Z'
-last_seen: '2026-10-02T01:42:13Z'
-status: queued
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/
   seen_at: '2026-10-02T01:42:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPN3d1RWROUXFvUnV5SkhBQkU1RS1NUGJoVVVXbXc5U2p4OGJQMVVTLW9yMXNndHVOcldLN0xubHg1M0ZWVHBWZUZDVEVLTXdZb2xQNVVvenljZDNRNkhGZXlDWEw2b0xsak9sYTEtS3gybjAtaTE4dW5GOVBFYm1TcVZjTGlPVU5TMmtxWjljTXgwUlVpZTZaUi01bzZKYlVULVppOTlqR0xZbTdsNUJj?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
   kind: news
 ---

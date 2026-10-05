@@ -40,17 +40,17 @@ summary: Specialised AI models for logo design — a brand-analysis model turns 
   typography and symbol models construct the mark, and a composition engine produces real lockups and
   clear-space rules. Early access open.
 first_seen: '2026-09-20T07:54:30Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://inkloom.art
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 670
-    forks: 671
+    stars: 979
+    forks: 996
     open_issues: 0
   kind: product
 ---

@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORzdxR1NnTmFRd0EwTjY0NG
 canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORzdxR1NnTmFRd0EwTjY0NGtHVExJbHQ3T1dxXy1hOF9jbldMZTE0U3lnRTNjV21JY2RPZGk4ZnIxQkhCT0NNWkJsXzFNWGhoWHZqekZlQm43bnJwTGIxSmhnWTE0UDE1MVVnM25QZnVkTm1EN0xZRGhwMGtoZ3R5SFBsaXVvYjhBYWZTQmsySFlKM2lMUVpEZTZRZ1BtMG14X2xFeV9fSTlwQl9jcWhjZzlDNmFjdw?oc=5
 summary: 借助moomoo AI探索智能被动收入投资组合 Moomoo
 first_seen: '2026-10-03T15:56:18Z'
-last_seen: '2026-10-04T00:38:23Z'
-status: rejected
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORzdxR1NnTmFRd0EwTjY0NGtHVExJbHQ3T1dxXy1hOF9jbldMZTE0U3lnRTNjV21JY2RPZGk4ZnIxQkhCT0NNWkJsXzFNWGhoWHZqekZlQm43bnJwTGIxSmhnWTE0UDE1MVVnM25QZnVkTm1EN0xZRGhwMGtoZ3R5SFBsaXVvYjhBYWZTQmsySFlKM2lMUVpEZTZRZ1BtMG14X2xFeV9fSTlwQl9jcWhjZzlDNmFjdw?oc=5
   seen_at: '2026-10-04T00:38:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGpaajhLdlJKdlM3Z1VPNmNueG9xSXN6M3ZZc1I0VmR3MUVXb3JMQTRFSXJPZ1IwSnF3U3RNcXcxMlU4THNRTGowX0JCZVNKMTMwbEpvWFZIZmIxaWsyX3N4czRrTUxobnU3UmJpZ1ZuZnN4ZXg4VS0yOVlGNUJFWmM0R0FScFZpcWx3VmtyRWJRQURYdXBnQU82YUs0NmUtYWVJd3lDb3AwclFQSnBJSWJYd2U?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
   kind: news
 ---

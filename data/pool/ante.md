@@ -27,8 +27,8 @@ url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
-last_seen: '2026-09-25T00:34:10Z'
-status: watching
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -81,6 +81,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/new-york-podcast/
   seen_at: '2026-09-25T00:34:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXd5Q0pJTVZwenVVbUI4M3I0ZDcxT1BqNkpkYmdqdGI0R0UxeXFtS3JSek1DdURmX0NTbHlBdzJkWHFrRzJRaGl0c0J5bUY1cUk3OGJXX0pPX1lvV29xUi14OTZ4U1l5OG96TnI0a2c2RVlzUUM5UmZjWmt6NkZZVk8xZ1lBdDJ1el9ZUldn?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
   kind: news
 ---

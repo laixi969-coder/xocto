@@ -37,19 +37,25 @@ canonical_url: https://github.com/georgeding/Relate
 summary: 记得她说过的每一句话，也记得你答应过的每一件事。A self-hosted AI chief of staff for your chats — remembers what they
   said and what you promised.
 first_seen: '2026-09-23T16:20:10Z'
-last_seen: '2026-10-04T00:37:57Z'
-status: watching
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
 sources:
 - github
+- newssearch
 sightings:
 - source: github
   url: https://github.com/georgeding/Relate
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
     stars: 119
     forks: 0
-    open_issues: 0
+    open_issues: 1
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisAJBVV95cUxNYWhnQ2ZWN2ZFem9fNlIwcGVvWGZnWS1rdlZmVFQweUxfVm1vTUVhZzVsRUZuQnppNHhtUFVTMDFhSFVfNFB2dnh4bnBBUjhpMFlyMG5SYzRlMlY2Z2xYYmdkU05RSzVoaENPQVd4UmZTNG1oQWFIMDhmTlM3VTVNeUJjeXI1cl9xcHUwU3VqS0FDVnZ0bGFvS0VjRTZmTzk2eE85ekRQcjZSSElnc1U1QnBKVy1pX1hEc1MwTlZrYzdLTlBSMkNCOTQ4YXdxOUFBenJZWXREMUtTVW1NbzZ6RloxMXRNM2I3NDZLdFhtdFhtbDRNaWlsVXByTW5Ka0I5VDR2dkR0VmU1WnpMRWZLVGJweWJkbUdkTWY1Umc4MjU4c090QmJoUlBuSWtxRGRC?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
 ---
 
 # Relate

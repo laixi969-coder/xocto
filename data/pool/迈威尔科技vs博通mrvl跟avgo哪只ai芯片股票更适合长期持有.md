@@ -1,0 +1,41 @@
+---
+slug: 迈威尔科技vs博通mrvl跟avgo哪只ai芯片股票更适合长期持有
+name: 迈威尔科技VS博通：MRVL跟AVGO哪只AI芯片股票更适合长期持有？
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMmVvTGFpbkpDZnROUDVUMURYZ09DQnlJdVFvbE1UY1RFWWpWM1Z3eDJDZlRDVEdkWmlxN0ZPR1RDUHp4LXJVUk1oUWdzMl9MZmxtUHlZVnBaVURnYTlISmgxTDRLMWhGUzcyV2JNM0x5WlJROVZ5Q0tPZFN2anJhaFlCTHhDcFJ2Z0ViUmQyTnZvbWZ4VUkyYmNSZ3F5dWVBSDJSaWFPMUZ4czVSaUtVYnpvVEUwUjdncmFB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMmVvTGFpbkpDZnROUDVUMURYZ09DQnlJdVFvbE1UY1RFWWpWM1Z3eDJDZlRDVEdkWmlxN0ZPR1RDUHp4LXJVUk1oUWdzMl9MZmxtUHlZVnBaVURnYTlISmgxTDRLMWhGUzcyV2JNM0x5WlJROVZ5Q0tPZFN2anJhaFlCTHhDcFJ2Z0ViUmQyTnZvbWZ4VUkyYmNSZ3F5dWVBSDJSaWFPMUZ4czVSaUtVYnpvVEUwUjdncmFB?oc=5
+summary: 迈威尔科技VS博通：MRVL跟AVGO哪只AI芯片股票更适合长期持有？ TradingKey
+first_seen: '2026-10-04T09:42:38Z'
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMmVvTGFpbkpDZnROUDVUMURYZ09DQnlJdVFvbE1UY1RFWWpWM1Z3eDJDZlRDVEdkWmlxN0ZPR1RDUHp4LXJVUk1oUWdzMl9MZmxtUHlZVnBaVURnYTlISmgxTDRLMWhGUzcyV2JNM0x5WlJROVZ5Q0tPZFN2anJhaFlCTHhDcFJ2Z0ViUmQyTnZvbWZ4VUkyYmNSZ3F5dWVBSDJSaWFPMUZ4czVSaUtVYnpvVEUwUjdncmFB?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+---
+
+# 迈威尔科技VS博通：MRVL跟AVGO哪只AI芯片股票更适合长期持有？
+
+迈威尔科技VS博通：MRVL跟AVGO哪只AI芯片股票更适合长期持有？ TradingKey
+
+## 笔记
+
+

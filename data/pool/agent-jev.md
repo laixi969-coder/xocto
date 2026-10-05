@@ -36,18 +36,18 @@ summary: 'AgentJev-0.6B - a fast ''System One'' decision model for AI Agents: fe
   state (diffs, traces, logs) and structured questions, get calibrated probability distributions back
   in one ~50ms forward pass. Zero output-token decoding.'
 first_seen: '2026-09-21T16:24:42Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/malevrigns/agent-jev
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
     stars: 338
     forks: 32
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

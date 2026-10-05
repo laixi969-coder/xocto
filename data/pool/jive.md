@@ -34,16 +34,16 @@ url: https://github.com/merijjeyn/jive
 canonical_url: https://github.com/merijjeyn/jive
 summary: A terminal coding agent that plans work as executable graphs
 first_seen: '2026-09-21T15:07:55Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/merijjeyn/jive
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 172
+    stars: 177
     forks: 16
     open_issues: 3
   kind: product

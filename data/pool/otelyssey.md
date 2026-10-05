@@ -36,18 +36,18 @@ canonical_url: https://github.com/using-system/otelyssey
 summary: 'OpenTelemetry plugins for every coding agent, in the Agent Plugins format — a marketplace that
   runs itself: open an issue, the repository validates, reviews, lists and follows your plugin.'
 first_seen: '2026-09-19T11:22:20Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/using-system/otelyssey#plugins
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 95
+    stars: 100
     forks: 0
-    open_issues: 2
+    open_issues: 3
   kind: product
 ---
 

@@ -36,3 +36,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 零售 电子商务 消费者或比价工具在选购商品时跨店铺查询与比价'
+- id: ev-2b53c93a682860cc
+  project_slug: torob-mcp
+  url: https://torob-mcp.mmdju3.workers.dev
+  title: torob-mcp
+  published_at: '2026-09-23T21:25:06Z'
+  collected_at: '2026-10-05T00:56:02Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'MCP server for Torob: search, compare and price-check across shops. Read-only, no API key. 14
+    tools, hosted on Cloudflare Workers. | repository stars: 51'

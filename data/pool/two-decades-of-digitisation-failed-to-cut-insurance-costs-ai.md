@@ -1,0 +1,42 @@
+---
+slug: two-decades-of-digitisation-failed-to-cut-insurance-costs-ai
+name: 'Two decades of digitisation failed to cut insurance costs; AI could change that: McKinsey'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxPMUNQS2ROTER2VjV1ZlFpWW1VeXBVdHgyU0U0V2RxSHNWeW4ya1lFWXNRcGxLaXdtUS10ZXppS0dhc1Z3ZUsxUmJrVlkxSTlxY0dyYTRaaThaNW52OEl1SW5oZXZTaEl5UnRhczR5Tjd4MXJwTzJWMG1xS2NLVmQtUkc1OVJuZDRnZzFvZjJoZE5VOWVvN0E0TDNBdFhEQmNpeV9vR0ZUczZCazZRVFAza3hEVnBSMlFWa2xYNmtWRTd0a2RxTHAyRFNTSlNUcjTSAc8BQVVfeXFMTzFDUEtkTkxEdlY1dWZRaVltVXlwVXR4MlNFNFdkcUhzVnluMmtZRVlzUXBsS2l3bVEtdGV6aUtHYXNWd2VLMVJia1ZZMUk5cWNHcmE0Wmk4WjVudjhJdUluaGV2U2hJeVJ0YXM0eU43eDFycE8yVjBtcUtjS1ZkLVJHNTlSbmQ0Z2cxb2YyaGROVTllbzdBNEwzQXRYREJjaXlfb0dGVHM2Qms2UVRQM2t4RFZwUjJRVmtsWDZrVkU3dGtkcUxwMkRTU0pTVHI0?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxPMUNQS2ROTER2VjV1ZlFpWW1VeXBVdHgyU0U0V2RxSHNWeW4ya1lFWXNRcGxLaXdtUS10ZXppS0dhc1Z3ZUsxUmJrVlkxSTlxY0dyYTRaaThaNW52OEl1SW5oZXZTaEl5UnRhczR5Tjd4MXJwTzJWMG1xS2NLVmQtUkc1OVJuZDRnZzFvZjJoZE5VOWVvN0E0TDNBdFhEQmNpeV9vR0ZUczZCazZRVFAza3hEVnBSMlFWa2xYNmtWRTd0a2RxTHAyRFNTSlNUcjTSAc8BQVVfeXFMTzFDUEtkTkxEdlY1dWZRaVltVXlwVXR4MlNFNFdkcUhzVnluMmtZRVlzUXBsS2l3bVEtdGV6aUtHYXNWd2VLMVJia1ZZMUk5cWNHcmE0Wmk4WjVudjhJdUluaGV2U2hJeVJ0YXM0eU43eDFycE8yVjBtcUtjS1ZkLVJHNTlSbmQ0Z2cxb2YyaGROVTllbzdBNEwzQXRYREJjaXlfb0dGVHM2Qms2UVRQM2t4RFZwUjJRVmtsWDZrVkU3dGtkcUxwMkRTU0pTVHI0?oc=5
+summary: 'Two decades of digitisation failed to cut insurance costs; AI could change that: McKinsey The
+  Tribune'
+first_seen: '2026-10-03T09:42:38Z'
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxPMUNQS2ROTER2VjV1ZlFpWW1VeXBVdHgyU0U0V2RxSHNWeW4ya1lFWXNRcGxLaXdtUS10ZXppS0dhc1Z3ZUsxUmJrVlkxSTlxY0dyYTRaaThaNW52OEl1SW5oZXZTaEl5UnRhczR5Tjd4MXJwTzJWMG1xS2NLVmQtUkc1OVJuZDRnZzFvZjJoZE5VOWVvN0E0TDNBdFhEQmNpeV9vR0ZUczZCazZRVFAza3hEVnBSMlFWa2xYNmtWRTd0a2RxTHAyRFNTSlNUcjTSAc8BQVVfeXFMTzFDUEtkTkxEdlY1dWZRaVltVXlwVXR4MlNFNFdkcUhzVnluMmtZRVlzUXBsS2l3bVEtdGV6aUtHYXNWd2VLMVJia1ZZMUk5cWNHcmE0Wmk4WjVudjhJdUluaGV2U2hJeVJ0YXM0eU43eDFycE8yVjBtcUtjS1ZkLVJHNTlSbmQ0Z2cxb2YyaGROVTllbzdBNEwzQXRYREJjaXlfb0dGVHM2Qms2UVRQM2t4RFZwUjJRVmtsWDZrVkU3dGtkcUxwMkRTU0pTVHI0?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+---
+
+# Two decades of digitisation failed to cut insurance costs; AI could change that: McKinsey
+
+Two decades of digitisation failed to cut insurance costs; AI could change that: McKinsey The Tribune
+
+## 笔记
+
+

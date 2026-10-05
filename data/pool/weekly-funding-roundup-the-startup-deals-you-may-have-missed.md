@@ -26,8 +26,8 @@ url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOG
 canonical_url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOGZjXzNNeW1BbmZUMHdPeWFiWmlEMDB2Y3dMUnBJS1V3ekROMGR6aFZyd2RSaHNfRGs0di1XMThtMGtGeHlfZkNmSWR3aURoUENOV3d1b0ctSFA0Q2NtWHFfX1N2bVVEQUY2YU9qZHE4YWhYS2M2WEhqSEtxNHlWa0JWS2thZ041SXZGR3ZzMmFvWkZGeWc0eHpIR1IteDRZWVhHWVEtMWpvSncxWHVVQ01Ib3cyUlJrWURYOWxqRjREbnBMUHp3UWtvZmFHUjVN0gHkAUFVX3lxTE1MSXI2d0puVUtmQ2hQdnYzNHlKRU5DYVRQU29uOWRfSGZLNU9WT2pvSTQ1ZW00enFMNjVZUXZjZlpLcTRBRWpjQ21HVGFkNW9iQUo2QnIyejBnbDVqVUhOaGJNTGZzUDFIWTBodmZoNVlGQlladWJ4b3RPUlBKWkNmUUNFci1CWTQxVndJUWctbTU5MkJzRURoYkhBWHJFVFRVSzVNWDYzWUNiXzRmQmZMc01CcjVjWncxZ2ZvNXgwa2VrYm9pN25vNFhaQWxSbmFSUEZPeGVUcUlnY0pNcWUwZkVMRg?oc=5
 summary: 'Weekly funding roundup: The startup deals you may have missed in week of August 30 Moneycontrol.com'
 first_seen: '2026-08-29T13:52:47Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: rejected
+last_seen: '2026-10-05T00:56:35Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -69,6 +69,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQaVN0N1B4cDVhMThzaXBSOWlvekRwMzZfU3Z1ZXljcktaTXY3RXJneXRrandnSEpIa3JReW1wVzRPbjB6eW9kOXVFRVd5YjRZcVJUZlFQakVxSnJWNE9OOElTTFl2ZHpfel9DWWJ2Y0Ytem1jeG9PMzV4NlJqeE85OGV0NDdaS1pmZ0hRR2JDNzA0RGtY?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMieEFVX3lxTE90YTJSRTk5WWF2bDV5T3U0ZjZYM2laMnN1Ty1fLV9Mb0pBbjFOWFo1MGpYeFZITkNYRVJXbVh6b25Mck5SMjhxS0lESElFV2Z2VlpOcmE2U0djVFFEcUZiYTEwamMtd2tKT29mZEZYMUVSamR2THZZUw?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMie0FVX3lxTFBpclNfWm50aHBwYWt3bV9VMzBEWjNMRWl1aDQ2WjN3b0pCeXEta1JTYndwaWt4MHdSSFZpUTY5dUtqVEc3OXJqVmRWLS02dWtHcElHbFJfeGNQUDktMVlEWFg2VTV0dmx4ZFJJeWtfbWJ4b3NNZnBNUzR5dw?oc=5
+  seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
   kind: news
 ---

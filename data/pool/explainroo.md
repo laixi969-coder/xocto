@@ -39,18 +39,18 @@ canonical_url: https://explainroo.com
 summary: 'Explainer videos and product demos made by your AI agent. Free and open source: a local voice
   (Kokoro), word timing (Whisper) and a canvas renderer turn a script into a narrated MP4.'
 first_seen: '2026-09-25T15:09:54Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.explainroo.com
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 362
-    forks: 8
-    open_issues: 1
+    stars: 387
+    forks: 11
+    open_issues: 3
   kind: product
 ---
 

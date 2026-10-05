@@ -36,17 +36,17 @@ url: https://github.com/bridge-mind/bridgeclip
 canonical_url: https://github.com/bridge-mind/bridgeclip
 summary: Open-source AI video clipping desktop app by BridgeMind
 first_seen: '2026-09-24T17:09:04Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bridge-mind/bridgeclip
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-05T00:56:02Z'
   metrics:
-    stars: 358
-    forks: 79
+    stars: 360
+    forks: 80
     open_issues: 17
   kind: product
 ---

@@ -20,10 +20,11 @@ url: https://pipod.dev/
 canonical_url: https://pipod.dev
 summary: run your pi coding agent in sandboxes on your own server
 first_seen: '2026-10-02T19:10:38Z'
-last_seen: '2026-10-04T00:37:53Z'
+last_seen: '2026-10-05T00:56:02Z'
 status: rejected
 sources:
 - hackernews
+- github
 sightings:
 - source: hackernews
   url: https://pipod.dev/
@@ -31,6 +32,14 @@ sightings:
   metrics:
     points: 74
     comments: 28
+  kind: product
+- source: github
+  url: https://github.com/pi-pod/pipod
+  seen_at: '2026-10-05T00:56:02Z'
+  metrics:
+    stars: 133
+    forks: 3
+    open_issues: 5
   kind: product
 ---
 
