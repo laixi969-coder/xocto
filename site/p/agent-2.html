@@ -82,37 +82,37 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-04</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-05</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者需要在终端或编码环境中把一段任务描述交给自主代理，由它自动完成代码编写、安全扫描或终端命令操作，并拿到完成结果或操作日志。</p>
-        <p>公开材料未说明用户目前如何完成这些任务（手写代码、专用安全工具、还是其他编码代理），替代路径不可核验。</p>
-        <p>公开材料只有一句功能罗列（编程、网络安全、终端自动化、智能任务执行），没有说明谁在什么情况下遇到什么具体困难、不解决的后果或现有流程的哪一步被卡住，痛点强度无法从公开事实还原。</p>
+        <p class="product-lead">开发者在终端或编码环境中，把编码、安全扫描、终端命令执行等任务交给一个自主 AI 代理，由它接收任务描述并自动执行，最终交付完成的任务结果或操作日志。</p>
+        <p>开发者目前通常手动编写代码、逐条执行终端命令，或分别使用专用工具完成安全扫描，需要在多个工具间切换。</p>
+        <p>公开材料只说明代理覆盖编码、网络安全与终端自动化，未给出用户抱怨、失败代价或频率数据；痛点强度属于工作流结构推理，而非用户口述。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>需求有依据</h3>
         <p>趋势：AI 代理正从单一编码助手扩展到安全与终端操作，成为开发者的通用执行层。切入：可从网络安全审计或终端运维的垂直场景切入，提供针对特定任务的可验证结果，而非泛化代理。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>公开证据只有仓库收藏数从 104 增至 133，属于关注度而非使用动机；无法说明相较旧做法减少了哪一步负担，因此不能给出可核对的选择理由。</p>
+        <p>推断：相较手动逐条执行命令与在多个专用工具间切换，它把任务描述直接转成编码、扫描与终端操作并输出结果或日志，减少人工分步操作；仓库收藏从 104 增至 133 说明开发者持续关注，但尚无留存或付费证据。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>追踪该项目公开仓库的 README 与 issue/discussion，确认其具体工作流程、输入输出交付物，以及是否有用户报告实际使用场景。</p>
+        <p>追踪该仓库 README、release 与 issue 中关于定价、权限边界、执行日志与用户实际使用结果的公开记录。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。公开证据只有仓库收藏数从 104 增至 133，属于关注度而非使用动机；无法说明相较旧做法减少了哪一步负担，因此不能给出可核对的选择理由。</p>
+        <p><strong>值得试用</strong>。推断：相较手动逐条执行命令与在多个专用工具间切换，它把任务描述直接转成编码、扫描与终端操作并输出结果或日志，减少人工分步操作；仓库收藏从 104 增至 133 说明开发者持续关注，但尚无留存或付费证据。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -123,38 +123,44 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>Agent-2 是一个自主 AI 代理，面向编程、网络安全、终端自动化和智能任务执行。开发者可在终端或编码环境中调用它，让它接收任务描述并自动执行代码编写、安全扫描或终端命令操作，最终交付完成的任务结果或操作日志。具体工作流程和交付细节仍待核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>公开证据只有仓库收藏数从 104 增至 133，属于关注度而非使用动机；无法说明相较旧做法减少了哪一步负担，因此不能给出可核对的选择理由。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该项目公开仓库的 README 与 issue/discussion，确认其具体工作流程、输入输出交付物，以及是否有用户报告实际使用场景。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决开发者把编码、安全扫描与终端操作交给自主代理执行的需求，替代手动分步与多工具切换；痛点刚性来自工作流结构推理，公开材料未给用户抱怨或失败代价。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较手动逐条执行命令与在多个专用工具间切换，它把任务描述直接转成编码、扫描与终端操作并输出结果或日志，减少人工分步操作；仓库收藏从 104 增至 133 说明开发者持续关注，但尚无留存或付费证据。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库 README、release 与 issue 中关于定价、权限边界、执行日志与用户实际使用结果的公开记录。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“Agent-2 是一个自主 AI 代理，面向编程、网络安全、终端自动化和智能任务执行”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决开发者把编码、安全扫描与终端操作交给自主代理执行的需求，替代手动分步与多工具切换；痛点刚性来自工作流结构推理，公开材料未给用户抱怨或失败代价。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://agent2.is-best.net" target="_blank" rel="noopener">Agent-2 · 2026-09-04 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>仓库收藏从 104 增至 133，说明开发者持续关注；但无用户评价、案例或重复使用数据，无法确认已形成采用共识。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://agent2.is-best.net" target="_blank" rel="noopener">Agent-2 · 2026-09-04 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>公开材料未披露定价、付费主体或采购路径，无法判断 to C 开发者订阅还是 to B 团队采购；这是判断，不是已验证事实。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>公开材料未说明代理执行终端命令与安全扫描时的人工确认、权限边界与失败回滚机制，交付确定性尚缺可复现证据。</p>
         </article>
       </div>
     </details>
@@ -248,7 +254,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 679 个 →
+        AI + 开发 共 688 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -295,9 +301,9 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/clodfarm.html">
+      <a class="pager-item pager-prev" href="../p/memory-bridge.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">clodfarm</span>
+        <span class="pager-n">memory-bridge</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/ai-robinhood-chain.html">
@@ -340,8 +346,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2390 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-10-04</span>
+    <span>2422 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-10-05</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

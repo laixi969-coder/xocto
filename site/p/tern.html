@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>tern · x-octo</title>
-<meta name="description" content="播客或视频剪辑师在需要从长时段素材里找回某句话或某个画面时打开它，把本地音视频档案交给它处理：Whisper 转写语音、Apple Vision 识别画面文字、SigLIP-2 做视觉检索，三路结果合成一个排序列表，用户再在剪辑器里裁切并导出 FCPXML 交给剪辑软件。具体检索准确率与导出兼容性仍…">
+<meta name="description" content="视频剪辑师与播客创作者在查找历史音视频素材时，可通过该本地桌面工具整合 Whisper 语音识别、Apple Vision 文字识别与 SigLIP-2 视觉语义检索，输入自然语言直接定位画面与台词片段，并在内置剪辑器中裁切后导出 FCPXML 工程文件交付给非编软件。">
 <link rel="canonical" href="https://xocto.vercel.app/p/tern.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/tern.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/tern.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/tern.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="tern · x-octo">
-<meta property="og:description" content="播客或视频剪辑师在需要从长时段素材里找回某句话或某个画面时打开它，把本地音视频档案交给它处理：Whisper 转写语音、Apple Vision 识别画面文字、SigLIP-2 做视觉检索，三路结果合成一个排序列表，用户再在剪辑器里裁切并导出 FCPXML 交给剪辑软件。具体检索准确率与导出兼容性仍…">
+<meta property="og:description" content="视频剪辑师与播客创作者在查找历史音视频素材时，可通过该本地桌面工具整合 Whisper 语音识别、Apple Vision 文字识别与 SigLIP-2 视觉语义检索，输入自然语言直接定位画面与台词片段，并在内置剪辑器中裁切后导出 FCPXML 工程文件交付给非编软件。">
 <meta property="og:url" content="https://xocto.vercel.app/p/tern.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/tern.html#webpage", "@type": "WebPage", "description": "\u64ad\u5ba2\u6216\u89c6\u9891\u526a\u8f91\u5e08\u5728\u9700\u8981\u4ece\u957f\u65f6\u6bb5\u7d20\u6750\u91cc\u627e\u56de\u67d0\u53e5\u8bdd\u6216\u67d0\u4e2a\u753b\u9762\u65f6\u6253\u5f00\u5b83\uff0c\u628a\u672c\u5730\u97f3\u89c6\u9891\u6863\u6848\u4ea4\u7ed9\u5b83\u5904\u7406\uff1aWhisper \u8f6c\u5199\u8bed\u97f3\u3001Apple Vision \u8bc6\u522b\u753b\u9762\u6587\u5b57\u3001SigLIP-2 \u505a\u89c6\u89c9\u68c0\u7d22\uff0c\u4e09\u8def\u7ed3\u679c\u5408\u6210\u4e00\u4e2a\u6392\u5e8f\u5217\u8868\uff0c\u7528\u6237\u518d\u5728\u526a\u8f91\u5668\u91cc\u88c1\u5207\u5e76\u5bfc\u51fa FCPXML \u4ea4\u7ed9\u526a\u8f91\u8f6f\u4ef6\u3002\u5177\u4f53\u68c0\u7d22\u51c6\u786e\u7387\u4e0e\u5bfc\u51fa\u517c\u5bb9\u6027\u4ecd\u2026", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "tern", "url": "https://xocto.vercel.app/p/tern.html"}, {"@id": "https://xocto.vercel.app/p/tern.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u521b\u4f5c", "dateModified": "2026-10-04", "datePublished": "2026-09-25", "description": "\u64ad\u5ba2\u6216\u89c6\u9891\u526a\u8f91\u5e08\u5728\u9700\u8981\u4ece\u957f\u65f6\u6bb5\u7d20\u6750\u91cc\u627e\u56de\u67d0\u53e5\u8bdd\u6216\u67d0\u4e2a\u753b\u9762\u65f6\u6253\u5f00\u5b83\uff0c\u628a\u672c\u5730\u97f3\u89c6\u9891\u6863\u6848\u4ea4\u7ed9\u5b83\u5904\u7406\uff1aWhisper \u8f6c\u5199\u8bed\u97f3\u3001Apple Vision \u8bc6\u522b\u753b\u9762\u6587\u5b57\u3001SigLIP-2 \u505a\u89c6\u89c9\u68c0\u7d22\uff0c\u4e09\u8def\u7ed3\u679c\u5408\u6210\u4e00\u4e2a\u6392\u5e8f\u5217\u8868\uff0c\u7528\u6237\u518d\u5728\u526a\u8f91\u5668\u91cc\u88c1\u5207\u5e76\u5bfc\u51fa FCPXML \u4ea4\u7ed9\u526a\u8f91\u8f6f\u4ef6\u3002\u5177\u4f53\u68c0\u7d22\u51c6\u786e\u7387\u4e0e\u5bfc\u51fa\u517c\u5bb9\u6027\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/tern.html#webpage"}, "name": "tern", "sameAs": "https://boiko.ai/work/tern/", "url": "https://xocto.vercel.app/p/tern.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/tern.html", "name": "tern", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/tern.html#webpage", "@type": "WebPage", "description": "\u89c6\u9891\u526a\u8f91\u5e08\u4e0e\u64ad\u5ba2\u521b\u4f5c\u8005\u5728\u67e5\u627e\u5386\u53f2\u97f3\u89c6\u9891\u7d20\u6750\u65f6\uff0c\u53ef\u901a\u8fc7\u8be5\u672c\u5730\u684c\u9762\u5de5\u5177\u6574\u5408 Whisper \u8bed\u97f3\u8bc6\u522b\u3001Apple Vision \u6587\u5b57\u8bc6\u522b\u4e0e SigLIP-2 \u89c6\u89c9\u8bed\u4e49\u68c0\u7d22\uff0c\u8f93\u5165\u81ea\u7136\u8bed\u8a00\u76f4\u63a5\u5b9a\u4f4d\u753b\u9762\u4e0e\u53f0\u8bcd\u7247\u6bb5\uff0c\u5e76\u5728\u5185\u7f6e\u526a\u8f91\u5668\u4e2d\u88c1\u5207\u540e\u5bfc\u51fa FCPXML \u5de5\u7a0b\u6587\u4ef6\u4ea4\u4ed8\u7ed9\u975e\u7f16\u8f6f\u4ef6\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "tern", "url": "https://xocto.vercel.app/p/tern.html"}, {"@id": "https://xocto.vercel.app/p/tern.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u521b\u4f5c", "dateModified": "2026-10-05", "datePublished": "2026-09-25", "description": "\u89c6\u9891\u526a\u8f91\u5e08\u4e0e\u64ad\u5ba2\u521b\u4f5c\u8005\u5728\u67e5\u627e\u5386\u53f2\u97f3\u89c6\u9891\u7d20\u6750\u65f6\uff0c\u53ef\u901a\u8fc7\u8be5\u672c\u5730\u684c\u9762\u5de5\u5177\u6574\u5408 Whisper \u8bed\u97f3\u8bc6\u522b\u3001Apple Vision \u6587\u5b57\u8bc6\u522b\u4e0e SigLIP-2 \u89c6\u89c9\u8bed\u4e49\u68c0\u7d22\uff0c\u8f93\u5165\u81ea\u7136\u8bed\u8a00\u76f4\u63a5\u5b9a\u4f4d\u753b\u9762\u4e0e\u53f0\u8bcd\u7247\u6bb5\uff0c\u5e76\u5728\u5185\u7f6e\u526a\u8f91\u5668\u4e2d\u88c1\u5207\u540e\u5bfc\u51fa FCPXML \u5de5\u7a0b\u6587\u4ef6\u4ea4\u4ed8\u7ed9\u975e\u7f16\u8f6f\u4ef6\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/tern.html#webpage"}, "name": "tern", "sameAs": "https://boiko.ai/work/tern/", "url": "https://xocto.vercel.app/p/tern.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/tern.html", "name": "tern", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>tern</h1>
       </div>
-      <p class="product-lede">播客或视频剪辑师在需要从长时段素材里找回某句话或某个画面时打开它，把本地音视频档案交给它处理：Whisper 转写语音、Apple Vision 识别画面文字、SigLIP-2 做视觉检索，三路结果合成一个排序列表，用户再在剪辑器里裁切并导出 FCPXML 交给剪辑软件。具体检索准确率与导出兼容性仍待核验。</p>
+      <p class="product-lede">视频剪辑师与播客创作者在查找历史音视频素材时，可通过该本地桌面工具整合 Whisper 语音识别、Apple Vision 文字识别与 SigLIP-2 视觉语义检索，输入自然语言直接定位画面与台词片段，并在内置剪辑器中裁切后导出 FCPXML 工程文件交付给非编软件。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">新应用 / 服务</span><span class="tag">AI + 创作</span><span class="tag">媒体与娱乐</span><span class="tag">播客与音视频制作</span><span class="tag">播客或视频剪辑师</span><span class="tag">内容档案管理者</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 66</span>      </div>
+<span class="tag">新应用 / 服务</span><span class="tag">AI + 创作</span><span class="tag">媒体与娱乐</span><span class="tag">音视频制作</span><span class="tag">视频剪辑师</span><span class="tag">播客制作人</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 83</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>B0yko</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-09-25</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-10-04</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-10-05</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://boiko.ai/work/tern/" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,50 +82,50 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-04</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-05</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">播客或视频剪辑师在整理数小时访谈、活动录像或播客素材时，需要从本地音视频档案里定位某句原话或某个画面，再裁出片段导出给剪辑软件。</p>
-        <p>人工拖时间轴、逐段预览，或依赖单独生成的文字稿再手动对齐时间点。</p>
-        <p>旧做法是反复拖时间轴、凭记忆或看文字稿猜位置，长素材里找一句话往往要花很久，画面文字信息完全无法检索。</p>
+        <p class="product-lead">视频剪辑师或播客制作人在整理多年积累的本地音视频素材时，需要按台词、画面文字或视觉场景定位具体片段，裁切后导出 FCPXML 工程交给 Final Cut Pro 继续剪辑。</p>
+        <p>人工记忆逐个打开视频回放定位，或用 Excel 记录时间戳与素材描述，再手动在非编软件里重建片段。</p>
+        <p>旧做法只能靠文件名、人工打标签或逐个回放拉时间轴找镜头，素材量越大越耗时；云端多模态检索又要把大体积原始素材上传，带宽成本与素材保密顾虑都高。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是长音视频素材的检索正从人工拖时间轴转向本地多模态索引，隐私敏感的内容团队不必上传云端。切入可以从播客与纪录片后期工作室做起，按素材时长或成片交付收费，而不是卖通用剪辑工具；本地部署也让它能进入不愿外传素材的机构客户。</p>
+        <p>趋势：端侧多模态模型让海量音视频资产的本地即时索引和隐私剪辑成为可能。切入：针对专业剪辑师的大容量素材库管理痛点，做深度对齐 Final Cut Pro 或 Premiere 剪辑工程的本地化检索插件。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：它把语音、画面文字和视觉内容一次性建成可检索索引，用户用一句查询就能跳到候选时间点，省掉逐段预览这一步；对素材量大又不愿上传云端的后期团队，本地运行是选择它的直接原因。</p>
+        <p>推断：相较逐个回放，它把 Whisper 语音、Apple Vision OCR 与 SigLIP-2 视觉索引在本地融合成一次自然语言检索，省去上传素材和人工翻找两步，并直接导出 FCPXML 免去手动重建时间线，因此处理大体量私有素材的剪辑师会在归档检索场景选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>收集 tern 官方页面或仓库文档中关于检索准确率、FCPXML 导出兼容性与是否收费的公开说明。</p>
+        <p>追踪该项目仓库的 release 说明、issue/discussion 与官网定价或许可页面，确认是否出现独立桌面打包版本、商业授权价格或真实剪辑工作流使用反馈。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。推断：它把语音、画面文字和视觉内容一次性建成可检索索引，用户用一句查询就能跳到候选时间点，省掉逐段预览这一步；对素材量大又不愿上传云端的后期团队，本地运行是选择它的直接原因。</p>
+        <p><strong>值得试用</strong>。推断：相较逐个回放，它把 Whisper 语音、Apple Vision OCR 与 SigLIP-2 视觉索引在本地融合成一次自然语言检索，省去上传素材和人工翻找两步，并直接导出 FCPXML 免去手动重建时间线，因此处理大体量私有素材的剪辑师会在归档检索场景选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是长音视频素材的检索正从人工拖时间轴转向本地多模态索引，隐私敏感的内容团队不必上传云端。切入可以从播客与纪录片后期工作室做起，按素材时长或成片交付收费，而不是卖通用剪辑工具；本地部署也让它能进入不愿外传素材的机构客户。</p>
+        <p>趋势：端侧多模态模型让海量音视频资产的本地即时索引和隐私剪辑成为可能。切入：针对专业剪辑师的大容量素材库管理痛点，做深度对齐 Final Cut Pro 或 Premiere 剪辑工程的本地化检索插件。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决长音视频素材里定位某句话或某个画面的需求，痛点是逐段预览耗时且画面文字不可检索，旧行为明确，交付是排序结果加可导出的片段。</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：它把语音、画面文字和视觉内容一次性建成可检索索引，用户用一句查询就能跳到候选时间点，省掉逐段预览这一步；对素材量大又不愿上传云端的后期团队，本地运行是选择它的直接原因。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>收集 tern 官方页面或仓库文档中关于检索准确率、FCPXML 导出兼容性与是否收费的公开说明。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决的是剪辑师在本地音视频档案中按台词、画面文字或视觉场景定位片段的需求，痛点是逐个回放与人工打标签耗时且云端上传有带宽和保密顾虑；本地多模态检索加 FCPXML 导出构成可确定的输入—动作—交付闭环，属工作流结构推理，尚无用户采用数据。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较逐个回放，它把 Whisper 语音、Apple Vision OCR 与 SigLIP-2 视觉索引在本地融合成一次自然语言检索，省去上传素材和人工翻找两步，并直接导出 FCPXML 免去手动重建时间线，因此处理大体量私有素材的剪辑师会在归档检索场景选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该项目仓库的 release 说明、issue/discussion 与官网定价或许可页面，确认是否出现独立桌面打包版本、商业授权价格或真实剪辑工作流使用反馈。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -133,7 +133,7 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>它解决长音视频素材里定位某句话或某个画面的需求，痛点是逐段预览耗时且画面文字不可检索，旧行为明确，交付是排序结果加可导出的片段。</p>
+          <p>它解决的是剪辑师在本地音视频档案中按台词、画面文字或视觉场景定位片段的需求，痛点是逐个回放与人工打标签耗时且云端上传有带宽和保密顾虑；本地多模态检索加 FCPXML 导出构成可确定的输入—动作—交付闭环，属工作流结构推理，尚无用户采用数据。</p>
           <div class="gate-links" aria-label="需求证据档">
             <a href="https://boiko.ai/work/tern/" target="_blank" rel="noopener">tern · 2026-09-25 ↗</a>
           </div>
@@ -143,7 +143,7 @@
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>公开材料只有仓库约 66 星，没有用户评价、客户案例或重复使用证据，无法判断是否形成稳定使用习惯。</p>
+          <p>公开材料只有英文生态项目发布与开发者讨论层面的初步关注，未出现剪辑团队规模化采用、留存或复购证据，无法判断共识是否已跨过感知与场景环节。</p>
           <div class="gate-links" aria-label="需求证据档">
             <a href="https://boiko.ai/work/tern/" target="_blank" rel="noopener">tern · 2026-09-25 ↗</a>
           </div>
@@ -153,7 +153,7 @@
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>页面未披露定价或付费方式，买方可能是个人剪辑师或后期工作室，这是判断而非已验证事实。</p>
+          <p>项目源码可见但保留全部权利，公开材料未披露订阅、一次性授权或插件收费等定价路径，买方是个人剪辑师还是制作机构尚属推断，不构成已验证付费事实。</p>
           <div class="gate-links" aria-label="需求证据档">
             <a href="https://boiko.ai/work/tern/" target="_blank" rel="noopener">tern · 2026-09-25 ↗</a>
           </div>
@@ -161,9 +161,9 @@
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>本地运行与 FCPXML 导出方向合理，但检索准确率、导出兼容性和人工复核边界均无公开材料支持。</p>
+          <p>端侧运行 Whisper 与 SigLIP-2 并输出标准化 FCPXML，交付物是可直接进入非编软件的时间线，承诺边界清晰；但公开材料未说明长素材索引耗时与人工复核边界，安全与人工边界仍需后续核验。</p>
           <div class="gate-links" aria-label="需求证据档">
             <a href="https://boiko.ai/work/tern/" target="_blank" rel="noopener">tern · 2026-09-25 ↗</a>
           </div>
@@ -184,12 +184,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
-        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-10-04</p>
+        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-10-05</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-04。未发现仅限该覆盖范围。 · 2026-10-04</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-05。未发现仅限该覆盖范围。 · 2026-10-05</p>
       </div>
     </div>
   </section>
@@ -226,6 +226,21 @@
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
+      <li><a href="https://www.ternbicycles.com/us/dealers/map" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ternbicycles.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPajZSa0NZSmd2MTNYclJhT25IZFc4R0VpWUpjanRSR0tmRUxtdDVSYlNnaEsyS1haVVI4S2tialktRHN0ZVR2OXlsSUQ2SkNaRHh2VnR3STBhMmFJNUEyenhuMkNMdHBTNV9NclFROFFOQ1BIalVpLTR2X19oOFNNUFhCZXdqSWY1bDJZRG9SOEZnUmFabTVZNW9MN08tLVA10gGcAUFVX3lxTE9GQ01wWFk3eWJ3YmhFb0Y5WXJEaXdyajNnSERHTmhROGtMYUZiQXQyWHZld1ZObUpCZ3JHMl9XcHc1b3NZWEw0Mkt2YWpab2F3Qlg4RGxGaTVpbnNJZ1A1cUd6NVpaSl93WExzeUtNUlhMMHM3M2FyVTgycGlib3ZITnB1cEl3MzdMOGFVSnZpVFg5a0ZzQXFmUU5iXw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-10-04</span>
+      </div></a></li>
+      <li><a href="https://boiko.ai/work/tern/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">tern</span>
+        <span class="row-desc">开源信息 · 视频剪辑师与播客创作者在查找历史音视频素材时，可通过该本地桌面工具整合 Whisper 语音识别、Apple Vision 文字识别与 SigLIP-2 视觉语义检索，输入自然语言直接定位画面与台词片段，并在内置剪辑器中裁切后导出 FCPXML 工程文件交付给非编软件。</span>
+        <span class="row-tail">2026-09-25</span>
+      </div></a></li>
       <li><a href="https://www.ternbicycles.com/en" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">ternbicycles.com</span>
         <span class="row-desc">用户痛点</span>
@@ -235,11 +250,6 @@
         <span class="row-name">news.google.com</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail">2026-10-02</span>
-      </div></a></li>
-      <li><a href="https://boiko.ai/work/tern/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">tern</span>
-        <span class="row-desc">开源信息 · 播客或视频剪辑师在需要从长时段素材里找回某句话或某个画面时打开它，把本地音视频档案交给它处理：Whisper 转写语音、Apple Vision 识别画面文字、SigLIP-2 做视觉检索，三路结果合成一个排序列表，用户再在剪辑器里裁切并导出 FCPXML 交给剪辑软件。具体检索准确率与导出兼容性仍待核验。</span>
-        <span class="row-tail">2026-09-25</span>
       </div></a></li>
       <li><a href="https://en.wikipedia.org/wiki/Tern" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">en.wikipedia.org</span>
@@ -290,7 +300,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%88%9B%E4%BD%9C">
-        AI + 创作 共 264 个 →
+        AI + 创作 共 271 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -337,14 +347,14 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/remarc.html">
+      <a class="pager-item pager-prev" href="../p/polox-ai.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">Remarc</span>
+        <span class="pager-n">polox_ai</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/travel-agent.html">
+      <a class="pager-item pager-next" href="../p/alphacode.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">travel-agent</span>
+        <span class="pager-n">alphacode</span>
       </a>
     </div>
   </nav>
@@ -382,8 +392,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2390 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-10-04</span>
+    <span>2422 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-10-05</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
